@@ -10,7 +10,7 @@ Na verloop van tijd kan het gemakkelijk zijn om een aantal online accounts te ve
 
 ### Wachtwoord Manager
 
-Als u een wachtwoord manager hebt die je al jouw hele digitale leven gebruikt, is dit deel heel eenvoudig. Vaak bevatten ze ingebouwde functionaliteit om te detecteren of je gegevens zijn blootgelegd bij een datalek, zoals het [rapport Blootgestelde wachtwoorden](https://bitwarden.com/blog/have-you-been-pwned) van Bitwarden.
+Als je een wachtwoord manager hebt die je al jouw hele digitale leven gebruikt, is dit deel heel eenvoudig. Vaak bevatten ze ingebouwde functionaliteit om te detecteren of je gegevens zijn blootgelegd bij een datalek, zoals het [rapport Blootgestelde wachtwoorden](https://bitwarden.com/blog/have-you-been-pwned) van Bitwarden.
 
 <figure markdown>
   ![Bitwarden 's Data Breach Report-functie](../assets/img/account-deletion/exposed_passwords.png)
@@ -27,19 +27,19 @@ Desktopplatforms hebben vaak ook een wachtwoordmanager waarmee je vergeten wacht
 
 ### Email
 
-If you didn't use a password manager in the past, or you think you have accounts that were never added to your password manager, another option is to search the email account(s) that you believe you signed up on. Zoek in jouw e-mailprogramma op trefwoorden als "verifiëren" of "welkom" Bijna elke keer dat je een online account aanmaakt, zal de dienst een verificatielink of een inleidend bericht naar jouw e-mail sturen. Dit kan een goede manier zijn om oude, vergeten accounts te vinden.
+Als je in het verleden geen wachtwoordmanager hebt gebruikt, of je denkt dat je accounts hebt die nooit zijn toegevoegd aan je wachtwoordmanager, is een andere optie om de e-mailaccount(s) te doorzoeken waarvan je denkt dat je je hebt aangemeld. Zoek in jouw e-mailprogramma op trefwoorden als "verifiëren" of "welkom" Bijna elke keer dat je een online account aanmaakt, zal de dienst een verificatielink of een inleidend bericht naar jouw e-mail sturen. Dit kan een goede manier zijn om oude, vergeten accounts te vinden.
 
 ## Oude accounts verwijderen
 
 ### Inloggen
 
-Om je oude accounts te verwijderen, moet je er eerst voor zorgen dat je er op in kunt loggen. Nogmaals, als de account in jouw wachtwoordmanager stond, is deze stap eenvoudig. Zo niet, dan kunt je proberen jouw wachtwoord te raden. Als dat niet lukt, zijn er meestal opties om weer toegang te krijgen tot jouw account, meestal beschikbaar via een link "wachtwoord vergeten" op de inlogpagina. Het kan ook zijn dat accounts die je hebt opgegeven al zijn verwijderd - soms verwijderen diensten alle oude accounts.
+Om je oude accounts te verwijderen, moet je er eerst voor zorgen dat je er op in kunt loggen. Nogmaals, als de account in jouw wachtwoordmanager stond, is deze stap eenvoudig. Zo niet, dan kun je proberen jouw wachtwoord te raden. Als dat niet lukt, zijn er meestal opties om weer toegang te krijgen tot jouw account, meestal beschikbaar via een link "wachtwoord vergeten" op de inlogpagina. Het kan ook zijn dat accounts die je hebt opgegeven al zijn verwijderd - soms verwijderen diensten alle oude accounts.
 
 Als de site een foutmelding geeft dat het e-mailadres niet gekoppeld is aan een account, of als je na meerdere pogingen nooit een reset-link ontvangt, dan hebt je geen account onder dat e-mailadres en moet je een ander e-mailadres proberen. Als je niet kunt achterhalen welk e-mailadres je hebt gebruikt, of als je geen toegang meer hebt tot dat e-mailadres, kunt je proberen contact op te nemen met de klantenondersteuning van de dienst. Helaas is er geen garantie dat je de toegang tot jouw account kunt terugkrijgen.
 
 ### GDPR (alleen inwoners van de EER)
 
-Inwoners van de EER hebben aanvullende rechten met betrekking tot het wissen van gegevens zoals gespecificeerd in [Artikel 17](https://gdpr-info.eu/art-17-gdpr) van de GDPR. Als het op je van toepassing is, lees dan het privacybeleid voor een bepaalde dienst om informatie te vinden over hoe je jouw recht op wissing kunt uitoefenen. Het lezen van het privacybeleid kan belangrijk blijken, want sommige diensten hebben een optie "Account verwijderen" die alleen jouw account uitschakelt en voor echte verwijdering moet je extra actie ondernemen. Soms kan het daadwerkelijk wissen inhouden dat je een enquête invult, een e-mail stuurt naar de functionaris voor gegevensbescherming van de dienst of zelfs bewijst dat je in de EER woont. Als je van plan bent deze weg te gaan, overschrijf dan de accountgegevens van **niet** - jouw identiteit als inwoner van de EER kan vereist zijn. Merk op dat de locatie van de dienst er niet toe doet; GDPR is van toepassing op iedereen die Europese gebruikers bedient. If the service does not respect your right to erasure, you can contact your national [Data Protection Authority](https://ec.europa.eu/info/law/law-topic/data-protection/reform/rights-citizens/redress/what-should-i-do-if-i-think-my-personal-data-protection-rights-havent-been-respected_en) and may be entitled to monetary compensation.
+Inwoners van de EER hebben aanvullende rechten met betrekking tot het wissen van gegevens zoals gespecificeerd in [Artikel 17](https://gdpr-info.eu/art-17-gdpr) van de GDPR. Als het op je van toepassing is, lees dan het privacybeleid voor een bepaalde dienst om informatie te vinden over hoe je jouw recht op wissing kunt uitoefenen. Het lezen van het privacybeleid kan belangrijk blijken, want sommige diensten hebben een optie "Account verwijderen" die alleen jouw account uitschakelt en voor echte verwijdering moet je extra actie ondernemen. Soms kan het daadwerkelijk wissen inhouden dat je een enquête invult, een e-mail stuurt naar de functionaris voor gegevensbescherming van de dienst of zelfs bewijst dat je in de EER woont. Als je van plan bent deze weg te gaan, overschrijf dan de accountgegevens van **niet** - jouw identiteit als inwoner van de EER kan vereist zijn. Merk op dat de locatie van de dienst er niet toe doet; GDPR is van toepassing op iedereen die Europese gebruikers bedient. Als de service je recht op wissen niet respecteert, kun je contact opnemen met jouw nationale [gegevensbeschermingsautoriteit](https://ec.europa.eu/info/law/law-topic/data-protection/reform/rights-citizens/redress/what-should-i-do-if-i-think-my-personal-data-protection-rights-havent-been-respected_en) en heb je mogelijk recht op een geldelijke vergoeding.
 
 ### Overschrijven van account informatie
 
@@ -49,11 +49,11 @@ Maak voor het account e-mailadres een nieuw alternatief e-mailaccount aan via de
 
 ### Verwijderen
 
-Je kunt kijken op [JustDeleteMe](https://justdeleteme.xyz) voor instructies over het verwijderen van de account voor een specifieke dienst. Sommige sites hebben vriendelijk een "Delete Account" optie, terwijl andere zo ver gaan dat ze je dwingen met een support medewerker te spreken. Het verwijderingsproces kan van site tot site verschillen, en op sommige sites is het onmogelijk een account te verwijderen.
+Je kunt kijken op [JustDeleteMe](https://justdeleteme.xyz) voor instructies over het verwijderen van de account voor een specifieke dienst. Sommige sites hebben vriendelijk een "Delete Account" optie, terwijl andere zo ver gaan dat ze je dwingen met een supportmedewerker te spreken. Het verwijderingsproces kan van site tot site verschillen, en op sommige sites is het onmogelijk een account te verwijderen.
 
-Voor diensten die het wissen van een account niet toestaan, kunt je het beste al jouw informatie vervalsen zoals eerder vermeld en de beveiliging van jouw account versterken. Schakel daartoe [MFA](multi-factor-authentication.md) en alle extra aangeboden beveiligingsfuncties in. Verander ook het wachtwoord in een willekeurig gegenereerd wachtwoord dat de maximaal toegestane grootte heeft (een [password manager](/passwords/#local-password-managers) kan hier handig voor zijn).
+Voor diensten die het wissen van een account niet toestaan, kun je het beste al jouw informatie vervalsen zoals eerder vermeld en de beveiliging van jouw account versterken. Schakel daartoe [MFA](multi-factor-authentication.md) en alle extra aangeboden beveiligingsfuncties in. Verander ook het wachtwoord in een willekeurig gegenereerd wachtwoord met de maximaal toegestane grootte (een [wachtwoordmanager](../passwords.md) kan hiervoor handig zijn).
 
-Als je tevreden bent dat alle informatie waar je om geeft verwijderd is, kunt je deze account gerust vergeten. Zo niet, dan is het misschien een goed idee om de gegevens bij jouw andere wachtwoorden te bewaren en af en toe opnieuw in te loggen om het wachtwoord te resetten.
+Als je tevreden bent dat alle informatie waar je om geeft verwijderd is, kun je deze account gerust vergeten. Zo niet, dan is het misschien een goed idee om de gegevens bij jouw andere wachtwoorden te bewaren en af en toe opnieuw in te loggen om het wachtwoord te resetten.
 
 Zelfs wanneer je een account kunt verwijderen, is er geen garantie dat al jouw informatie zal worden verwijderd. Sommige ondernemingen zijn zelfs wettelijk verplicht bepaalde informatie te bewaren, met name wanneer deze verband houdt met financiële transacties. Je hebt meestal geen controle over wat er met jouw gegevens gebeurt als het gaat om websites en clouddiensten.
 

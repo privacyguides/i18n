@@ -12,7 +12,7 @@ De privacy gaat uiteindelijk over menselijke informatie, en dat is belangrijk om
 
 Veel mensen halen de begrippen **privacy**, **veiligheid**, en **anonimiteit** door elkaar. Je ziet mensen verschillende producten bekritiseren als "niet privé", terwijl ze eigenlijk bedoelen dat het bijvoorbeeld geen anonimiteit biedt. Op deze website behandelen we alle drie onderwerpen, maar het is belangrijk dat je het verschil begrijpt en wanneer het om verschillende zaken gaat.
 
-[:material-movie-open-play-outline: Video: Stop Confusing Privacy, Anonymity, and Security](https://www.privacyguides.org/videos/2025/03/14/stop-confusing-privacy-anonymity-and-security ""){.md-button}
+[:material-movie-open-play-outline: Video: Stop met het verwarren van Privacy, Anonimiteit en Veiligheid](https://www.privacyguides.org/videos/2025/03/14/stop-confusing-privacy-anonymity-and-security ""){.md-button}
 
 <!-- markdownlint-disable-next-line -->
 **Privacy**
@@ -52,13 +52,13 @@ Een veelgebruikt tegenargument voor de privacy beweging is het idee dat iemand g
 
 Een gangbare definitie van privacy is dat het de mogelijkheid is om *te controleren* wie toegang heeft tot jouw gegevens. Dit is een gemakkelijke val om in te trappen, in feite is het de definitie van privacy waarop wij deze website lange tijd hebben gebaseerd. Het klinkt mooi, en het spreekt veel mensen aan, maar in de praktijk werkt het gewoon niet.
 
-Neem bijvoorbeeld de cookie popups. Je kunt deze tientallen keren per dag tegenkomen op de verschillende websites die je bezoekt, met een mooie reeks selectievakjes en schuifjes waarmee je jouw voorkeuren kunt aangeven om precies aan jouw wensen te voldoen. Uiteindelijk drukken we gewoon op de knop "Ik ga akkoord", omdat we gewoon het artikel willen lezen of een aankoop willen doen. Niemand wil een persoonlijke privacycontrole uitvoeren op elke website die hij bezoekt. Dit is een oefening in het onderwerp [ 'keuzearchitectuur"](https://en.wikipedia.org/wiki/Choice_architecture), bedoeld om je de gemakkelijke weg te laten nemen in plaats van je te verdiepen in een doolhof van configuratieopties die helemaal niet hoeven te bestaan.
+Neem bijvoorbeeld de cookie pop-ups. Je kunt deze tientallen keren per dag tegenkomen op de verschillende websites die je bezoekt, met een mooie reeks selectievakjes en schuifjes waarmee je jouw voorkeuren kunt aangeven om precies aan jouw wensen te voldoen. Uiteindelijk drukken we gewoon op de knop "Ik ga akkoord", omdat we gewoon het artikel willen lezen of een aankoop willen doen. Niemand wil een persoonlijke privacycontrole uitvoeren op elke website die hij bezoekt. Dit is een oefening in het onderwerp [ 'keuzearchitectuur"](https://en.wikipedia.org/wiki/Choice_architecture), bedoeld om je de gemakkelijke weg te laten nemen in plaats van je te verdiepen in een doolhof van configuratieopties die helemaal niet hoeven te bestaan.
 
-==Controle over je privacy binnen de meeste apps is een illusie.== Het is een glimmend dashboard met allerlei keuzes die je kunt maken over je gegevens, maar zelden de keuzes die je zoekt, zoals "gebruik mijn gegevens alleen om mij te helpen". Dit soort controle is bedoeld om je schuldig te laten voelen over je keuzes, dat je "de keuze had" om de apps die je gebruikt meer privé te maken, en je koos ervoor om dat niet te doen.
+==Controle over je privacy binnen de meeste apps is een illusie.== Het is een glimmend dashboard met allerlei keuzes die je kunt maken over je gegevens, maar zelden de keuzes die je zoekt, zoals "gebruik mijn gegevens alleen om mij te helpen." Dit soort controle is bedoeld om je schuldig te laten voelen over je keuzes, dat je "de keuze had" om de apps die je gebruikt meer privé te maken, en je koos ervoor om dat niet te doen.
 
 Privacy is iets wat we standaard in [software en diensten](../tools.md) moeten ingebakken hebben je kan de meeste apps niet zelfstandig privé maken.
 
-[:material-movie-open-play-outline: Video: 5 Steps to Improve Your Privacy](https://www.privacyguides.org/videos/2025/02/14/5-easy-steps-to-protect-yourself-online){ class="md-button" }
+[:material-movie-open-play-outline: Video: 5 stappen om jouw privacy te verbeteren](https://www.privacyguides.org/videos/2025/02/14/5-easy-steps-to-protect-yourself-online){ class="md-button" }
 
 ## Bronnen
 

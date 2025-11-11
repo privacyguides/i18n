@@ -4,14 +4,14 @@ icon: 'material/eye-outline'
 description: Jouw dreigingsmodel is persoonlijk voor je, maar dit zijn enkele van de dingen die veel bezoekers van deze site belangrijk vinden.
 ---
 
-In grote lijnen delen wij onze aanbevelingen in in deze algemene categorieën van [bedreigingen](threat-modeling.md) of doelstellingen die voor de meeste mensen gelden. ==U kunt zich bezighouden met geen, een, enkele, of al deze mogelijkheden==, en de instrumenten en diensten die je gebruikt hangen af van wat jouw doelstellingen zijn. You may have specific threats outside these categories as well, which is perfectly fine! Het belangrijkste is dat je inzicht krijgt in de voordelen en tekortkomingen van de middelen die je gebruikt, want vrijwel geen enkel middel beschermt je tegen elke denkbare bedreiging.
+In grote lijnen delen wij onze aanbevelingen in in deze algemene categorieën van [bedreigingen](threat-modeling.md) of doelstellingen die voor de meeste mensen gelden. ==Je kunt je bezighouden met geen, een, enkele, of al deze mogelijkheden==, en de instrumenten en diensten die je gebruikt hangen af van wat jouw doelstellingen zijn. You may have specific threats outside these categories as well, which is perfectly fine! Het belangrijkste is dat je inzicht krijgt in de voordelen en tekortkomingen van de middelen die je gebruikt, want vrijwel geen enkel middel beschermt je tegen elke denkbare bedreiging.
 
-<span class="pg-purple">:material-incognito: **Anonymity**</span>
+<span class="pg-purple">:material-incognito: **Anonimiteit**</span>
 :
 
 Shielding your online activity from your real identity, protecting you from people who are trying to uncover *your* identity specifically.
 
-<span class="pg-red">:material-target-account: **Targeted Attacks**</span>
+<span class="pg-red">:material-target-account: **Gerichte aanvallen**</span>
 :
 
 Being protected from hackers or other malicious actors who are trying to gain access to *your* data or devices specifically.
@@ -21,12 +21,12 @@ Being protected from hackers or other malicious actors who are trying to gain ac
 
 Typically, a form of <span class="pg-red">:material-target-account: Targeted Attack</span> that centers around a vulnerability or exploit introduced into otherwise good software either directly or through a dependency from a third party.
 
-<span class="pg-orange">:material-bug-outline: **Passive Attacks**</span>
+<span class="pg-orange">:material-bug-outline: **Passieve aanvallen**</span>
 :
 
 Being protected from things like malware, data breaches, and other attacks that are made against many people at once.
 
-<span class="pg-teal">:material-server-network: **Service Providers**</span>
+<span class="pg-teal">:material-server-network: **Dienstverleners**</span>
 :
 
 Protecting your data from service providers (e.g. with E2EE, which renders your data unreadable to the server).
@@ -41,12 +41,12 @@ Protection from government agencies, organizations, websites, and services which
 
 Protecting yourself from big advertising networks, like Google and Facebook, as well as a myriad of other third-party data collectors.
 
-<span class="pg-green">:material-account-search: **Public Exposure**</span>
+<span class="pg-green">:material-account-search: **Publieke blootstelling**</span>
 :
 
 Limiting the information about you that is accessible online—to search engines or the public.
 
-<span class="pg-blue-gray">:material-close-outline: **Censorship**</span>
+<span class="pg-blue-gray">:material-close-outline: **Censuur**</span>
 :
 
 Avoiding censored access to information or being censored yourself when speaking online.
@@ -57,7 +57,7 @@ Sommige van deze bedreigingen kunnen zwaarder wegen dan andere, afhankelijk van 
 
 <span class="pg-purple">:material-incognito: Anonimiteit</span>
 
-Anonimiteit wordt vaak verward met privacy, maar het is een apart concept. Terwijl privacy een reeks keuzes is die je maakt over hoe jouw gegevens worden gebruikt en gedeeld, is anonimiteit het volledig loskoppelen van jouw online activiteiten van jouw echte identiteit.
+Anonimiteit wordt vaak verward met privacy, maar het zijn verschillende concepten. Terwijl privacy een reeks keuzes is die je maakt over hoe jouw gegevens worden gebruikt en gedeeld, is anonimiteit het volledig loskoppelen van jouw online activiteiten van jouw echte identiteit.
 
 Voor klokkenluiders en journalisten, bijvoorbeeld, kan een veel extremer bedreigingsmodel gelden, dat volledige anonimiteit vereist. Dat is niet alleen verbergen wat zij doen, welke gegevens zij hebben, en niet gehackt worden door hackers of overheden, maar ook volledig verbergen wie zij zijn. Zij zullen elke vorm van gemak opofferen als dat betekent dat hun anonimiteit, privacy of veiligheid wordt beschermd, want hun leven kan ervan afhangen. De meeste gewone mensen hoeven niet zo ver te gaan.
 
@@ -65,11 +65,11 @@ Voor klokkenluiders en journalisten, bijvoorbeeld, kan een veel extremer bedreig
 
 <span class="pg-orange">:material-bug-outline: Passieve aanvallen</span>
 
-Beveiliging en privacy worden vaak door elkaar gehaald, omdat je beveiliging nodig hebt om enige schijn van privacy te krijgen: Hulpmiddelen gebruiken die privé lijken, is zinloos als ze gemakkelijk door aanvallers kunnen worden misbruikt om jouw gegevens later vrij te geven. Het omgekeerde is echter niet noodzakelijk waar; de veiligste dienst ter wereld *is niet noodzakelijk* privé. Het beste voorbeeld hiervan is het toevertrouwen van gegevens aan Google, dat, gezien zijn omvang, minimale veiligheidsincidenten heeft gekend door vooraanstaande beveiligingsexperts in te zetten om zijn infrastructuur te beveiligen. Hoewel Google een zeer veilige dienst aanbiedt, zouden maar weinigen hun gegevens als privé beschouwen in de gratis consumentenproducten van Google (Gmail, YouTube, enz.).
+Beveiliging en privacy worden vaak door elkaar gehaald, omdat je beveiliging nodig hebt om enige schijn van privacy te krijgen: Hulpmiddelen gebruiken die privé lijken, is zinloos als ze gemakkelijk door aanvallers kunnen worden misbruikt om jouw gegevens later vrij te geven. Het omgekeerde is echter niet noodzakelijk waar; de veiligste dienst ter wereld *is niet noodzakelijk* privé. Het beste voorbeeld hiervan is het toevertrouwen van gegevens aan Google, dat, gezien zijn omvang, minimale veiligheidsincidenten heeft gekend door vooraanstaande beveiligingsexperts in te zetten om zijn infrastructuur te beveiligen. Hoewel Google een zeer veilige dienst aanbiedt, zouden maar weinigen hun gegevens als privé beschouwen in de gratis consumentenproducten van Google (Gmail, YouTube, enz.)
 
 Wat de beveiliging van toepassingen betreft, weten we over het algemeen niet (en kunnen we soms niet) weten of de software die we gebruiken kwaadaardig is, of dat op een dag zou kunnen worden. Zelfs bij de meest betrouwbare ontwikkelaars is er meestal geen garantie dat hun software geen ernstige kwetsbaarheid bevat die later kan worden uitgebuit.
 
-Om de potentiële schade van kwaadaardige software tot een minimum te beperken, moet u beveiliging door compartimentering toepassen. Dit kan in de vorm van het gebruik van verschillende computers voor verschillende taken, het gebruik van virtuele machines om verschillende groepen van gerelateerde toepassingen te scheiden, of het gebruik van een veilig besturingssysteem met een sterke nadruk op sandboxing van toepassingen en verplichte toegangscontrole.
+Om de schade die een kwaadaardig stuk software *kan* aanrichten te minimaliseren, moet je beveiliging toepassen door compartimentering. Dit kan in de vorm van het gebruik van verschillende computers voor verschillende taken, het gebruik van virtuele machines om verschillende groepen van gerelateerde toepassingen te scheiden, of het gebruik van een veilig besturingssysteem met een sterke nadruk op sandboxing van toepassingen en verplichte toegangscontrole.
 
 <div class="admonition tip" markdown>
 <p class="admonition-title">Tip</p>

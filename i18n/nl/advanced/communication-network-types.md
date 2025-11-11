@@ -6,7 +6,7 @@ description: Een overzicht van verschillende netwerkarchitecturen die vaak door 
 
 Er zijn verschillende netwerkarchitecturen die gewoonlijk worden gebruikt om berichten tussen mensen door te geven. Deze netwerken kunnen verschillende privacygaranties bieden, en daarom is het de moeite waard jouw [bedreigingsmodel](../basics/threat-modeling.md) in overweging te nemen bij de beslissing welke app je gaat gebruiken.
 
-[Recommended Instant Messengers](../real-time-communication.md ""){.md-button} [:material-movie-open-play-outline: Video: It's time to stop using SMS](https://www.privacyguides.org/videos/2025/01/24/its-time-to-stop-using-sms-heres-why ""){.md-button}
+[Aanbevolen Instant Messengers](../real-time-communication.md ""){.md-button} [:material-movie-open-play-outline: Video: Het is tijd om te stoppen met SMS](https://www.privacyguides.org/videos/2025/01/24/its-time-to-stop-using-sms-heres-why ""){.md-button}
 
 ## Gecentraliseerde netwerken
 
@@ -25,7 +25,7 @@ Bij sommige zelf gehoste berichten diensten kun je je eigen server opzetten. Zel
 
 **Nadelen:**
 
-- Kan [beperkte controle of toegang](https://drewdevault.com/2018/08/08/Signal.html)omvatten. Dit kan dingen inhouden zoals:
+- Kan [beperkte controle of toegang](https://drewdevault.com/2018/08/08/Signal.html)omvatten. Dit kunnen dingen zijn als:
 - Het is [verboden om clients van derden](https://github.com/LibreSignal/LibreSignal/issues/37#issuecomment-217211165) aan te sluiten op het gecentraliseerde netwerk, wat zou kunnen zorgen voor meer maatwerk of een betere ervaring. Vaak gedefinieerd in de gebruiksvoorwaarden.
 - Slechte of geen documentatie voor externe ontwikkelaars.
 - Het [eigendom](https://web.archive.org/web/20210729191953/https://blog.privacytools.io/delisting-wire), het privacybeleid en de bedrijfsvoering van de dienst kunnen gemakkelijk veranderen wanneer één enkele entiteit de dienst controleert, waardoor de dienst later in gevaar kan worden gebracht.
@@ -42,9 +42,9 @@ Bij zelf-hosting kunnen leden van een federatieve server leden van andere server
 **Voordelen:**
 
 - Maakt een grotere controle over jouw eigen gegevens mogelijk wanneer je jouw eigen server gebruikt.
-- Hiermee kunt je kiezen aan wie je jouw gegevens toevertrouwt door te kiezen tussen meerdere "openbare" servers.
+- Hiermee kun je kiezen aan wie je jouw gegevens toevertrouwt door te kiezen tussen meerdere "openbare" servers.
 - Staat vaak clients van derden toe die een meer native, aangepaste of toegankelijke ervaring kunnen bieden.
-- Server software can be verified that it matches public source code, assuming you have access to the server, or you trust the person who does (e.g., a family member).
+- Bij serversoftware kan worden gecontroleerd of deze overeenkomt met de openbare broncode, ervan uitgaande dat je toegang hebt tot de server of dat je de persoon die toegang heeft vertrouwt (bijvoorbeeld een familielid).
 
 **Nadelen:**
 
@@ -60,7 +60,7 @@ Bij zelf-hosting kunnen leden van een federatieve server leden van andere server
 
 P2P berichten diensten maken verbinding met een [gedistribueerd netwerk](https://en.wikipedia.org/wiki/Distributed_networking) van knooppunten om een bericht door te geven aan de ontvanger zonder een server van derden.
 
-Cliënten (peers) vinden elkaar meestal via een [gedistribueerd computernetwerk](https://en.wikipedia.org/wiki/Distributed_computing). Voorbeelden hiervan zijn [Distributed Hash Tables](https://en.wikipedia.org/wiki/Distributed_hash_table) (DHT), gebruikt door [torrents](https://en.wikipedia.org/wiki/BitTorrent_(protocol)) en [IPFS](https://en.wikipedia.org/wiki/InterPlanetary_File_System) bijvoorbeeld. Another approach is proximity based networks, where a connection is established over Wi-Fi or Bluetooth (for example, Briar or the [Scuttlebutt](https://scuttlebutt.nz) social network protocol).
+Cliënten (peers) vinden elkaar meestal via een [gedistribueerd computernetwerk](https://en.wikipedia.org/wiki/Distributed_computing). Voorbeelden hiervan zijn [Distributed Hash Tables](https://en.wikipedia.org/wiki/Distributed_hash_table) (DHT), gebruikt door [torrents](https://en.wikipedia.org/wiki/BitTorrent_(protocol)) en [IPFS](https://en.wikipedia.org/wiki/InterPlanetary_File_System) bijvoorbeeld. Een andere benadering is op nabijheid gebaseerde netwerken, waarbij een verbinding tot stand wordt gebracht via WiFi of Bluetooth (bijvoorbeeld Briar of het [Scuttlebutt](https://scuttlebutt.nz) sociale netwerkprotocol).
 
 Zodra een peer via een van deze methoden een route naar zijn contactpersoon heeft gevonden, wordt een rechtstreekse verbinding tussen hen tot stand gebracht. Hoewel berichten meestal versleuteld zijn, kan een waarnemer toch de locatie en de identiteit van de verzender en de ontvanger afleiden.
 
@@ -77,17 +77,17 @@ P2P-netwerken maken geen gebruik van servers, aangezien peers rechtstreeks met e
 - Berichten kunnen alleen worden verzonden als beide peers online zijn, maar jouw cliënt kan berichten lokaal opslaan om te wachten tot de contactpersoon weer online is.
 - Verhoogt in het algemeen het batterijverbruik op mobiele toestellen, omdat de client verbonden moet blijven met het gedistribueerde netwerk om te weten te komen wie online is.
 - Sommige veelgebruikte messenger-functies zijn mogelijk niet of onvolledig geïmplementeerd, zoals het verwijderen van berichten.
-- Uw IP-adres en dat van de contacten waarmee je communiceert kunnen worden blootgesteld als je de software niet gebruikt in combinatie met een [VPN](../vpn.md) of [Tor](../tor.md). Veel landen kennen een vorm van massasurveillance en/of het bewaren van metadata.
+- Jouw IP-adres en dat van de contacten waarmee je communiceert kunnen worden blootgesteld als je de software niet gebruikt in combinatie met een [VPN](../vpn.md) of [Tor](../tor.md). Veel landen kennen een vorm van massasurveillance en/of het bewaren van metadata.
 
 ## Anonieme routering
 
 ![Anoniem routeringsschema](../assets/img/layout/network-anonymous-routing.svg){ align=left }
 
-Een berichten diensten die gebruik maakt van [anonieme routering](https://doi.org/10.1007/978-1-4419-5906-5_628) verbergt de identiteit van de verzender, de ontvanger of het bewijs dat zij hebben gecommuniceerd. Idealiter zou een berichten diensten alle drie moeten verbergen.
+Een berichtendienst die gebruik maakt van [anonieme routering](https://doi.org/10.1007/978-1-4419-5906-5_628) verbergt de identiteit van de verzender, de ontvanger of het bewijs dat zij hebben gecommuniceerd. Idealiter zou een berichtendienst alle drie moeten verbergen.
 
-There are [many](https://doi.org/10.1145/3182658) ways to implement anonymous routing. Een van de bekendste is [onion routing](https://en.wikipedia.org/wiki/Onion_routing) (d.w.z. [Tor](tor-overview.md)), waarbij versleutelde berichten worden gecommuniceerd via een virtueel [overlay netwerk](https://en.wikipedia.org/wiki/Overlay_network) dat de locatie van elk knooppunt en de ontvanger en verzender van elk bericht verbergt. De verzender en de ontvanger hebben nooit rechtstreeks contact en ontmoeten elkaar alleen via een geheim rendez-vousknooppunt, zodat er geen IP-adressen of fysieke locatie uitlekken. Knooppunten kunnen berichten niet ontcijferen, noch de eindbestemming; alleen de ontvanger kan dat. Elk tussenliggend knooppunt kan slechts een deel decoderen dat aangeeft waar het nog versleutelde bericht naartoe moet, totdat het aankomt bij de ontvanger die het volledig kan decoderen, vandaar de "ui-lagen"
+Er zijn [veel](https://doi.org/10.1145/3182658) manieren om anonieme routering te implementeren. Een van de bekendste is [onion routing](https://en.wikipedia.org/wiki/Onion_routing) (d.w.z. [Tor](tor-overview.md)), waarbij versleutelde berichten worden gecommuniceerd via een virtueel [overlay netwerk](https://en.wikipedia.org/wiki/Overlay_network) dat de locatie van elk knooppunt en de ontvanger en verzender van elk bericht verbergt. De verzender en de ontvanger hebben nooit rechtstreeks contact en ontmoeten elkaar alleen via een geheim rendez-vousknooppunt, zodat er geen IP-adressen of fysieke locatie uitlekken. Knooppunten kunnen berichten niet ontcijferen, noch de eindbestemming; alleen de ontvanger kan dat. Elk tussenliggend knooppunt kan slechts een deel decoderen dat aangeeft waar het nog versleutelde bericht naartoe moet, totdat het aankomt bij de ontvanger die het volledig kan decoderen, vandaar de "ui-lagen"
 
-Self-hosting a node in an anonymous routing network does not provide the host with additional privacy benefits, but rather contributes to the whole network's resilience against identification attacks for everyone's benefit.
+Het zelf hosten van een knooppunt in een anoniem routenetwerk biedt de hoster geen extra privacyvoordelen, maar draagt bij tot de weerbaarheid van het hele netwerk tegen identificatieaanvallen, wat in ieders voordeel is.
 
 **Voordelen:**
 
@@ -99,5 +99,5 @@ Self-hosting a node in an anonymous routing network does not provide the host wi
 - Trage verspreiding van berichten.
 - Vaak beperkt tot minder mediatypen, meestal tekst, omdat het netwerk traag is.
 - Minder betrouwbaar als de knooppunten worden geselecteerd door gerandomiseerde routering, kunnen sommige knooppunten zeer ver van de verzender en de ontvanger verwijderd zijn, waardoor vertraging optreedt of zelfs berichten niet worden verzonden als een van de knooppunten offline gaat.
-- Ingewikkelder om mee te beginnen omdat de creatie en beveiligde backup van een cryptografische private sleutel vereist is.
+- Ingewikkelder om mee te beginnen omdat de creatie en beveiligde back-up van een cryptografische private sleutel vereist is.
 - Net als bij andere gedecentraliseerde platforms is het toevoegen van functies ingewikkelder voor ontwikkelaars dan op een gecentraliseerd platform. Daarom kunnen functies ontbreken of onvolledig zijn geïmplementeerd, zoals het offline doorgeven van berichten of het verwijderen van berichten.

@@ -5,7 +5,7 @@ icon: 'material/target-account'
 description: Een balans vinden tussen veiligheid, privacy en gebruiksvriendelijkheid is een van de eerste en moeilijkste taken die je op jouw privacyreis tegenkomt.
 ---
 
-Een balans vinden tussen veiligheid, privacy en gebruiksvriendelijkheid is een van de eerste en moeilijkste taken die je op jouw privacyreis tegenkomt. Alles is een afweging: hoe veiliger iets is, hoe beperkter of onhandiger het over het algemeen is, enzovoort. Vaak vinden mensen het probleem met de hulpmiddelen die ze aanbevolen zien, dat ze gewoon te moeilijk zijn om te beginnen gebruiken!
+Een balans vinden tussen veiligheid, privacy en gebruiksvriendelijkheid is een van de eerste en moeilijkste taken die je op jouw privacyreis tegenkomt. Alles is een afweging: hoe veiliger iets is, hoe beperkter of onhandiger het over het algemeen is, enzovoort. Vaak vinden mensen dat het probleem met de hulpmiddelen die ze aanbevolen zien, is dat ze gewoon te moeilijk zijn om te gaan gebruiken!
 
 Als je de **meest** veilige tools wilt gebruiken, moet je *veel* gebruiksgemak opofferen. En zelfs dan, ==niets is ooit volledig veilig.== Er is **hoge** veiligheid, maar nooit **volledige** veiligheid. Daarom zijn dreigingsmodellen belangrijk.
 
@@ -35,7 +35,7 @@ Om na te gaan wat er zou kunnen gebeuren met de dingen die je waardeert en om te
 
 Om deze vraag te beantwoorden, is het belangrijk na te gaan wie je of jouw informatie als doelwit zou willen gebruiken. ==Een persoon of entiteit die een bedreiging vormt voor jouw bezittingen is een "tegenstander".== Voorbeelden van potentiële tegenstanders zijn jouw baas, jouw voormalige partner, jouw zakelijke concurrentie, jouw regering, of een hacker op een openbaar netwerk.
 
-*Make a list of your adversaries or those who might want to get hold of your assets. Jouw lijst kan personen, een overheidsinstantie of bedrijven omvatten.*
+*Maak een lijst van jouw tegenstanders, of van degenen die jouw bezittingen in handen zouden willen krijgen. Jouw lijst kan personen, een overheidsinstantie of bedrijven omvatten.*
 
 Afhankelijk van wie je tegenstanders zijn, is deze lijst misschien iets dat je wilt vernietigen nadat je klaar bent met het ontwikkelen van je bedreigingsmodel.
 
@@ -89,7 +89,7 @@ Heeft jouw buurt een geschiedenis van inbraken? Hoe betrouwbaar zijn jouw huisge
 **Hoe erg zijn de gevolgen als je faalt?**
 :
 
-Heeft je iets in jouw huis dat je niet kunt vervangen? Heb je de tijd of het geld om deze dingen te vervangen? Heb je een verzekering die goederen dekt die uit jouw huis zijn gestolen?
+Heb je iets in huis dat je niet kunt vervangen? Heb je de tijd of het geld om deze dingen te vervangen? Heb je een verzekering die goederen dekt die uit jouw huis zijn gestolen?
 
 **Hoeveel moeite bent je bereid te doen om deze gevolgen te voorkomen?**
 :

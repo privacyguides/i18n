@@ -40,23 +40,23 @@ schema:
 <!-- markdownlint-disable -->
 <div class="grid" markdown>
 <div markdown>
-## Why should I care?
+## Waarom zou ik me daar zorgen over maken?
 
-> “I have nothing to hide. Why should I care about my privacy?”
+> "Ik heb niets te verbergen. Waarom zou ik me zorgen maken over mijn privacy?"
 
-Much like the right to interracial marriage, woman's suffrage, freedom of speech, and many others, our right to privacy hasn't always been upheld. In several dictatorships, it still isn't. Generations before ours fought for our right to privacy. ==Privacy is a human right, inherent to all of us,== that we are entitled to (without discrimination).
+Net als het recht op interraciaal huwelijk, vrouwenkiesrecht, vrijheid van meningsuiting en vele andere rechten, is ons recht op privacy niet altijd gerespecteerd. In verschillende dictaturen is dat nog steeds niet het geval. Generaties voor ons vochten voor ons recht op privacy. ==Privacy is een mensenrecht, inherent aan ons allemaal,== waar we recht op hebben (zonder discriminatie).
 
-You shouldn't confuse privacy with secrecy. We know what happens in the bathroom, but you still close the door. That's because you want privacy, not secrecy. **Everyone** has something to protect. Privacy is something that makes us human.
+Je moet privacy niet verwarren met geheimhouding. We weten wat er in de badkamer gebeurt, maar je doet nog steeds de deur dicht. Dat is omdat je privacy wilt, geen geheimhouding. **Iedereen** heeft iets te beschermen. Privacy is iets wat ons menselijk maakt.
 
-[:material-book-outline: Why Privacy Matters](basics/why-privacy-matters.md){ class="md-button" }
+[:material-book-outline: Waarom privacy belangrijk is](basics/why-privacy-matters.md){ class="md-button" }
 </div>
 
 <div markdown>
-## What should I do?
+## Wat moet ik doen?
 
-> First, you need to make a plan
+> Eerst moet je een plan maken
 
-Trying to protect all your data from everyone all the time is impractical, expensive, and exhausting. Maar maak je geen zorgen! Veiligheid is een proces, en door vooruit te denken kun je een plan samenstellen dat bij jou past. Security isn't just about the *privacy tools* you use or the software you download. Integendeel, het begint met het begrijpen van de unieke bedreigingen waarmee je wordt geconfronteerd en hoe je deze kunt beperken.
+Proberen om al je gegevens voortdurend tegen iedereen te beschermen is onpraktisch, duur en vermoeiend. Maar maak je geen zorgen! Veiligheid is een proces, en door vooruit te denken kun je een plan samenstellen dat bij jou past. Beveiliging gaat niet alleen over de *privacy tools* die je gebruikt of de software die je downloadt. Integendeel, het begint met het begrijpen van de unieke bedreigingen waarmee je wordt geconfronteerd en hoe je deze kunt beperken.
 
 ==This process of identifying threats and defining countermeasures is called **threat modeling**==, and it forms the basis of every good security and privacy plan.
 
