@@ -22,11 +22,11 @@ E-mail is bijna een noodzaak voor het gebruik van elke online dienst, maar wij r
 
 Voor al het andere raden wij verschillende e-mailproviders aan op basis van duurzame bedrijfsmodellen en ingebouwde beveiligings- en privacyfuncties. Lees onze [volledige lijst met criteria](#criteria) voor meer informatie.
 
-| Provider                      | OpenPGP / WKD                          | IMAP / SMTP                                                | Zero-Access Encryption                               | Anonieme betaalmethoden                               |
-| ----------------------------- | -------------------------------------- | ---------------------------------------------------------- | ---------------------------------------------------- | ----------------------------------------------------- |
-| [Proton Mail](#proton-mail)   | :material-check:{ .pg-green }          | :material-information-outline:{ .pg-blue } Paid plans only | :material-check:{ .pg-green }                        | Cash <br>Monero via third party                 |
-| [Mailbox Mail](#mailbox-mail) | :material-check:{ .pg-green }          | :material-check:{ .pg-green }                              | :material-information-outline:{ .pg-blue } Mail only | Contant                                               |
-| [Tuta](#tuta)                 | :material-alert-outline:{ .pg-orange } | :material-alert-outline:{ .pg-orange }                     | :material-check:{ .pg-green }                        | Monero via third party <br>Cash via third party |
+| Provider                      | OpenPGP / WKD                          | IMAP / SMTP                                                             | Zero-access encryptie                                | Anonieme betaalmethoden                                    |
+| ----------------------------- | -------------------------------------- | ----------------------------------------------------------------------- | ---------------------------------------------------- | ---------------------------------------------------------- |
+| [Proton Mail](#proton-mail)   | :material-check:{ .pg-green }          | :material-information-outline:{ .pg-blue } Alleen betaalde abonnementen | :material-check:{ .pg-green }                        | Contant <br>Monero via derde partij                  |
+| [Mailbox Mail](#mailbox-mail) | :material-check:{ .pg-green }          | :material-check:{ .pg-green }                                           | :material-information-outline:{ .pg-blue } Mail only | Contant                                                    |
+| [Tuta](#tuta)                 | :material-alert-outline:{ .pg-orange } | :material-alert-outline:{ .pg-orange }                                  | :material-check:{ .pg-green }                        | Monero via derde partij <br>Contant via derde partij |
 
 In addition to (or instead of) an email provider recommended here, you may wish to consider a dedicated [email aliasing service](email-aliasing.md#recommended-providers) to protect your privacy. Among other things, these services can help protect your real inbox from spam, prevent marketers from correlating your accounts, and encrypt all incoming messages with PGP.
 
@@ -46,11 +46,11 @@ These providers natively support OpenPGP encryption/decryption and the [Web Key 
 <div class="admonition warning" markdown>
 <p class="admonition-title">Waarschuwing</p>
 
-When using E2EE technology like OpenPGP your email will still have some metadata that is not encrypted in the header of the email, generally including the subject line! Read more about [email metadata](basics/email-security.md#email-metadata-overview).
+Bij gebruik van E2EE technologie zoals OpenPGP zal je e-mail nog steeds een aantal metadata bevatten die niet versleuteld zijn in de header van de e-mail, vaak inclusief de onderwerpregel! Lees meer over [e-mail metadata](basics/email-security.md#email-metadata-overview).
 
-OpenPGP also does not support forward secrecy, which means if the private key of either you or the message recipient is ever stolen, all previous messages encrypted with it will be exposed.
+OpenPGP biedt ook geen ondersteuning voor forward secrecy, wat betekent dat als de privésleutel van jou of de ontvanger van het bericht ooit wordt gestolen, alle eerdere berichten die ermee zijn versleuteld worden onthuld.
 
-- [How do I protect my private keys?](basics/email-security.md#how-do-i-protect-my-private-keys)
+- [Hoe bescherm ik mijn privésleutels?](basics/email-security.md#how-do-i-protect-my-private-keys)
 
 </div>
 
@@ -62,13 +62,13 @@ OpenPGP also does not support forward secrecy, which means if the private key of
 
 **Proton Mail** is een e-maildienst met focus op privacy, encryptie, veiligheid en gebruiksgemak. Ze zijn actief sinds 2013. Proton AG is gevestigd in Genève, Zwitserland.
 
-The Proton Free plan comes with 500 MB of Mail storage, which you can increase up to 1 GB for free.
+Het Proton Free plan bevat 500 MB aan opslagruimte voor e-mail, die je gratis kunt verhogen tot 1 GB.
 
 [:octicons-home-16: Homepage](https://proton.me/mail){ .md-button .md-button--primary }
 [:simple-torbrowser:](https://protonmailrmez3lotccipshtkleegetolb73fuirgj7r4o4vfu7ozyd.onion){ .card-link title="Onion Service" }
-[:octicons-eye-16:](https://proton.me/mail/privacy-policy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://proton.me/support/mail){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/ProtonMail){ .card-link title="Source Code" }
+[:octicons-eye-16:](https://proton.me/mail/privacy-policy){ .card-link title="Privacybeleid" }.
+[:octicons-info-16:](https://proton.me/support/mail){ .card-link title=Documentatie}
+[:octicons-code-16:](https://github.com/ProtonMail){ .card-link title="Broncode" }
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
@@ -98,11 +98,11 @@ Proton Mail has internal crash reports that are **not** shared with third partie
     - [ ] Disable **Collect usage dignostics**
     - [ ] Disable **Send crash reports**
 
-=== "Mobile"
+=== "Mobiel"
 
     From your inbox, select :material-menu: → :gear: **Settings** → select your username.
 
-    - [ ] Disable **Send crash reports**
+    - [ ] Deselecteer **Crashrapporten verzenden**
     - [ ] Disable **Collect usage dignostics**
 
 #### :material-check:{ .pg-green } Aangepaste domeinen en aliassen
@@ -131,7 +131,7 @@ Proton Mail also publishes the public keys of Proton accounts via HTTP from thei
 
 #### :material-information-outline:{ .pg-blue } Beëindiging van account
 
-Als je een betaald account hebt en je na 14 dagen [niet je rekening hebt betaald](https://proton.me/support/delinquency), krijg je geen toegang meer tot je gegevens. Na 30 dagen wordt uw account delinquent en ontvangt u geen inkomende e-mail meer. Tijdens deze periode word je nog steeds gefactureerd. Proton will [delete inactive free accounts](https://proton.me/support/inactive-accounts) after one year. You **cannot** reuse the email address of a deactivated account.
+Als je een betaald account hebt en je na 14 dagen [niet je rekening hebt betaald](https://proton.me/support/delinquency), krijg je geen toegang meer tot je gegevens. Na 30 dagen word je account delinquent en ontvang je geen inkomende e-mail meer. Tijdens deze periode word je nog steeds gefactureerd. Proton [verwijdert inactieve gratis accounts](https://proton.me/support/inactive-accounts) na één jaar. You **cannot** reuse the email address of a deactivated account.
 
 #### :material-information-outline:{ .pg-blue } Aanvullende functionaliteit
 
@@ -194,7 +194,7 @@ You can access your Mailbox Mail account via IMAP/SMTP using their [.onion servi
 
 All accounts come with limited cloud storage that [can be encrypted](https://kb.mailbox.org/en/private/drive-article/encrypt-files-on-your-drive). Mailbox Mail also offers the alias [@secure.mailbox.org](https://kb.mailbox.org/en/private/e-mail-article/ensuring-e-mails-are-sent-securely), which enforces the TLS encryption on the connection between mail servers, otherwise the message will not be sent at all. Mailbox Mail also supports [Exchange ActiveSync](https://en.wikipedia.org/wiki/Exchange_ActiveSync) in addition to standard access protocols like IMAP and POP3.
 
-Mailbox Mail has a digital legacy feature for all plans. You can choose whether you want any of your data to be passed to heirs, providing that they apply and provide your testament. Je kunt ook een persoon nomineren met naam en adres.
+Mailbox Mail heeft een digitale nalatenschap functie voor alle abonnementen. Je kunt kiezen of je wilt dat jouw gegevens worden doorgegeven aan erfgenamen, op voorwaarde dat zij een aanvraag indienen en je testament leveren. Je kunt ook een persoon nomineren met naam en adres.
 
 ## Meer providers
 
@@ -202,7 +202,7 @@ Deze providers slaan je e-mails op met zero-knowledge encryptie, waardoor ze gew
 
 <div class="grid cards" markdown>
 
-- ![Tuta logo](assets/img/email/tuta.svg#only-light){ .twemoji loading=lazy }![Tuta logo](assets/img/email/tuta-dark.svg#only-dark){ .twemoji loading=lazy } [Tuta](#tuta)
+- Tuta logo](assets/img/email/tuta.svg#only-light){ .twemoji loading=lazy }![Tuta logo](assets/img/email/tuta-dark.svg#only-dark){ .twemoji loading=lazy } [Tuta](#tuta)
 
 </div>
 
@@ -213,15 +213,15 @@ Deze providers slaan je e-mails op met zero-knowledge encryptie, waardoor ze gew
 ![Tuta logo](assets/img/email/tuta.svg#only-light){ align=right }
 ![Tuta logo](assets/img/email/tuta-dark.svg#only-dark){ align=right }
 
-**Tuta** (formerly *Tutanota*) is an email service with a focus on security and privacy through the use of encryption. Tuta has been in operation since 2011 and is based in Hanover, Germany.
+**Tuta** (voorheen *Tutanota*) is een e-mailservice met een focus op beveiliging en privacy door het gebruik van encryptie. Tuta bestaat sinds 2011 en is gevestigd in Hannover, Duitsland.
 
-Free accounts start with 1 GB of storage.
+Gratis accounts beginnen met 1 GB opslagruimte.
 
 [:octicons-home-16: Homepage](https://tuta.com){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://tuta.com/privacy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://tuta.com/support){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/tutao/tutanota){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://tuta.com/community){ .card-link title="Contribute" }
+[:octicons-eye-16:](https://tuta.com/privacy){ .card-link title="Privacybeleid" }
+[:octicons-info-16:](https://tuta.com/support){ .card-link title="Documentatie" }
+[:octicons-code-16:](https://github.com/tutao/tutanota){ .card-link title="Broncode" }
+[:octicons-heart-16:](https://tuta.com/community){ .card-link title="Bijdragen" }
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
@@ -264,7 +264,7 @@ Tuta [does not use OpenPGP](https://tuta.com/support/#pgp). Tuta accounts can on
 
 Tuta will [delete inactive free accounts](https://tuta.com/support#inactive-accounts) after six months. Je kunt een gedeactiveerd gratis account opnieuw gebruiken als je betaalt.
 
-#### :material-information-outline:{ .pg-blue } extra functionaliteit
+#### :material-information-outline:{ .pg-blue } Aanvullende functionaliteit
 
 Tuta offers the business version of [Tuta to non-profit organizations](https://tuta.com/blog/secure-email-for-non-profit) for free or with a heavy discount.
 
@@ -321,8 +321,8 @@ Email servers deal with a lot of very sensitive data. We expect that providers w
 - [DNSSEC](https://en.wikipedia.org/wiki/Domain_Name_System_Security_Extensions) ondersteuning.
 - No TLS errors or vulnerabilities when being profiled by tools such as [Hardenize](https://hardenize.com), [testssl.sh](https://testssl.sh), or [Qualys SSL Labs](https://ssllabs.com/ssltest); this includes certificate related errors and weak DH parameters, such as those that led to [Logjam](https://en.wikipedia.org/wiki/Logjam_(computer_security)).
 - A server suite preference (optional on TLS 1.3) for strong cipher suites which support forward secrecy and authenticated encryption.
-- Geldig [DANE](https://en.wikipedia.org/wiki/DNS-based_Authentication_of_Named_Entities) records.
-- Geldige [SPF](https://en.wikipedia.org/wiki/Sender_Policy_Framework) en [DKIM](https://en.wikipedia.org/wiki/DomainKeys_Identified_Mail) records.
+- Een geldig [MTA-STS](https://tools.ietf.org/html/rfc8461) en [TLS-RPT](https://tools.ietf.org/html/rfc8460) beleid.
+- Geldige [DANE-records](https://en.wikipedia.org/wiki/DNS-based_Authentication_of_Named_Entities).
 - Geldige [SPF](https://en.wikipedia.org/wiki/Sender_Policy_Framework) en [DKIM](https://en.wikipedia.org/wiki/DomainKeys_Identified_Mail) records.
 - Must have a proper [DMARC](https://en.wikipedia.org/wiki/DMARC) record and policy or use [ARC](https://en.wikipedia.org/wiki/Authenticated_Received_Chain) for authentication. Als DMARC-authenticatie wordt gebruikt, moet het beleid worden ingesteld op `reject` of `quarantine`.
 - A server suite preference of TLS 1.2 or later and a plan for [RFC8996](https://datatracker.ietf.org/doc/rfc8996).
