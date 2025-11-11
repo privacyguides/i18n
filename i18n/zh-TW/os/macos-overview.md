@@ -110,7 +110,7 @@ Apple 的 OCSP 服務使用 HTTPS 加密，因此只有他們能夠看到您開�
 <div class="admonition warning" markdown>
 <p class="admonition-title">警告</p>
 
-Any request made with ChatGPT will be sent to ChatGPT's servers, there is no on-device processing and no PCC like with Apple Intelligence.
+使用 ChatGPT 提出的所有請求都會傳送到 ChatGPT 的伺服器，不會在裝置上進行處理，也不會像 Apple Intelligence 般使用私人雲端運算功能。
 
 </div>
 
@@ -126,7 +126,7 @@ Any request made with ChatGPT will be sent to ChatGPT's servers, there is no on-
 
 ##### 資料分析 & 改進
 
-Decide whether you want to share analytics data with Apple and app developers.
+決定是否要與 Apple 和開發者共享分析資料。
 
 ##### Apple 廣告
 
@@ -136,7 +136,7 @@ Decide whether you want to share analytics data with Apple and app developers.
 
 ##### FileVault
 
-On modern devices with a Secure Enclave (Apple T2 Security Chip, Apple Silicon), your data is always encrypted, but is decrypted automatically by a hardware key if your device doesn't detect it's been tampered with. Enabling [FileVault](../encryption.md#filevault) additionally requires your password to decrypt your data, greatly improving security, especially when powered off or before the first login after powering on.
+在具備 Secure Enclave（Apple T2 安全晶片、Apple Silicon）的現代裝置上，您的資料會一直被加密，只要裝置本身未偵測到資料被竄改，就會透過硬體金鑰自動解密。 開啟 [FileVault](../encryption.md#filevault) 時需要輪入密碼來解密資料，大大提高了安全性，尤其是在關機時或開機後首次登入時。
 
 在較舊的 Intel 的 Mac 電腦，FileVault 是預設唯一可用的磁盤加密形式，應始終啟用。
 
@@ -144,19 +144,19 @@ On modern devices with a Secure Enclave (Apple T2 Security Chip, Apple Silicon),
 
 ##### 封閉模式
 
-**[Lockdown Mode](https://support.apple.com/guide/mac-help/lock-mac-targeted-a-cyberattack-ibrw66f4e191/mac)** disables some features in order to improve security. Some apps or features won't work the same way they do when it's off. For example, Javascript Just-In-Time ([JIT](https://hacks.mozilla.org/2017/02/a-crash-course-in-just-in-time-jit-compilers)) compilation and [WebAssembly](https://developer.mozilla.org/docs/WebAssembly) are disabled in Safari with Lockdown Mode enabled. We recommend enabling Lockdown Mode and seeing whether it significantly impacts daily usage.
+**[鎖定模式](https://support.apple.com/guide/mac-help/lock-mac-targeted-a-cyberattack-ibrw66f4e191/mac)**會關閉某些功能，以提高安全性。 開啟後，某些應用程式或功能可能無法如常運作。 舉例來說，開啟鎖定模式後，Safari 會停用 JavaScript Just-In-Time（[JIT](https://hacks.mozilla.org/2017/02/a-crash-course-in-just-in-time-jit-compilers)）編譯和 [WebAssembly](https://developer.mozilla.org/docs/WebAssembly)。 我們建議開啟鎖定模式，看看是否會對日常使用造成重大影響。
 
 - [x] 點擊 **開啟**
 
 ### MAC 位址隨機化
 
-macOS uses a randomized MAC address when [performing Wi-Fi scans](https://support.apple.com/guide/security/privacy-features-connecting-wireless-networks-secb9cb3140c/web) while disconnected from a network.
+macOS 在網路連線中斷而[執行 Wi-Fi 掃描](https://support.apple.com/guide/security/privacy-features-connecting-wireless-networks-secb9cb3140c/web)時，會使用隨機化的 MAC 位址。
 
-You can set your [MAC address to be randomized](https://support.apple.com/en-us/102509) per network and rotate occasionally to prevent tracking between networks and on the same network over time.
+您可以將 [MAC 位址](https://support.apple.com/en-us/102509)設定為根據每個網路隨機化，並偶爾輪換，以防止在不同網路之間和同一網路中長時間追蹤。
 
-Go to **System Settings** → **Network** → **Wi-Fi** → **Details** and set **Private Wi-Fi address** to either **Fixed** if you want a fixed but unique address for the network you're connected to, or **Rotating** if you want it to change over time.
+前往**系統設定** → **網路** → **Wi-Fi** → **詳細資訊**，然後將**私人 Wi-Fi 位址**設定為**固定**（如果您想要使用固定的位址連線），或**輪替**（如果您想要位址定時更換）。
 
-Consider changing your hostname as well, which is another device identifier that's broadcast on the network you're connected to. You may wish to set your hostname to something generic like "MacBook Air", "Laptop", "John's MacBook Pro", or "iPhone" in **System Settings** → **General** → **Sharing**.
+也可以考慮更改您的主機名稱，這是另一個會在您連線的網路中廣播出去的裝置識別資料。 您可能會想要在**系統設定** → **一般** → **分享**中將主機名稱設定為較一般的名稱，例如「MacBook Air」、「Laptop」、「John's MacBook Pro」或「iPhone」。
 
 ## 安全保護
 
@@ -167,13 +167,13 @@ macOS 通過不同屬性的多層軟體和硬體保護來進行深度防禦。 �
 <div class="admonition warning" markdown>
 <p class="admonition-title">警告</p>
 
-macOS 可以安裝測試版更新。 These are unstable and may come with [extra telemetry](https://beta.apple.com/privacy) since they're for testing purposes. 因此，我們建議避免使用測試版軟體。
+macOS 可以安裝測試版更新。 但它們不穩定，且因為是測試用，可能還會有[額外遙測](https://beta.apple.com/privacy)。 因此，我們建議避免使用測試版軟體。
 
 </div>
 
 #### 簽署系統卷宗
 
-macOS's system components are protected in a read-only [signed system volume](https://support.apple.com/guide/security/signed-system-volume-security-secd698747c9/web), meaning that neither you nor malware can alter important system files.
+macOS 的系統組件受到唯讀的[簽署系統卷宗](https://support.apple.com/guide/security/signed-system-volume-security-secd698747c9/web)之保護，這代表您和惡意軟體都無法更動重要的系統檔案。
 
 系統卷宗在運行時會予以驗證，任何未使用 Apple 的有效加密簽名進行簽署的數據都將遭拒絕。
 
@@ -210,7 +210,7 @@ Just because one of an app's processes is sandboxed doesn't mean they all are.
 Alternatively, you can check apps before you run them by running this command in the terminal:
 
 ``` zsh
-codesign -dvvv --entitlements - <path to your app>
+codesign -dvvv --entitlements - <您的應用程式路徑>
 ```
 
 If an app is sandboxed, you should see the following output:
@@ -230,7 +230,7 @@ The [Hardened Runtime](https://developer.apple.com/documentation/security/harden
 You can check if an app uses the Hardened Runtime using this command:
 
 ``` zsh
-codesign -dv <path to your app>
+codesign -dv <您的應用程式路徑>
 ```
 
 If Hardened Runtime is enabled, you will see `flags=0x10000(runtime)`. The `runtime` output means Hardened Runtime is enabled. There might be other flags, but the runtime flag is what we're looking for here.
