@@ -251,27 +251,27 @@ iPhone 可以抵禦暴力攻擊，在多次嘗試失敗後，需要等待很長�
 
 ### E2EE 通話
 
-通過電信運營商使用“電話”應用程式撥打的一般電話不是 E2EE。 Both FaceTime Video and FaceTime Audio calls are E2EE. Alternatively, you can use [another app](../real-time-communication.md) like Signal for E2EE calls.
+通過電信運營商使用“電話”應用程式撥打的一般電話不是 E2EE。 FaceTime 視訊和語音通話都有 E2EE 加密。 此外，您也可以使用 Signal 等[其他應用程式](../real-time-communication.md)進行有 E2EE 加密的通話。
 
 
 
 ### 加密的 iMessage
 
-The [color of the message bubble](https://support.apple.com/en-us/104972) in the Messages app indicates whether your messages are E2EE or not. A blue bubble indicates that you're using iMessage with E2EE, while a green bubble indicates the other party is using either the outdated SMS and MMS protocols or RCS. RCS on iOS is **not** E2EE. Currently, the only way to have E2EE in Messages is for both parties to be using iMessage on Apple devices.
+可從訊息應用程式中，[訊息氣泡的顏色](https://support.apple.com/en-us/104972)該訊息是否經過 E2EE 加密。 藍色氣泡代表您使用的是有 E2EE 加密的 iMessage，而綠色氣泡表示對方正在使用過時的 SMS、MMS 通訊協定或 RCS。 iOS 上的 RCS **未經** E2EE 加密。 目前在 Apple 裝置的訊息應用程式中，唯一能夠以 E2EE 加密傳送訊息的方式，就是雙方都使用 iMessage。
 
-如果您或您的訊息傳遞夥伴在沒有進階資料保護下啟用 iCloud 備份，則加密金鑰會儲存在 Apple 伺服器，這意味著他們可以訪問您的訊息。 Additionally, iMessage's key exchange is not as secure as alternative implementations like Signal's (which allows you to view the recipients key and verify by QR code), so it shouldn't be relied on for particularly sensitive communications.
+如果您或您的訊息傳遞夥伴在沒有進階資料保護下啟用 iCloud 備份，則加密金鑰會儲存在 Apple 伺服器，這意味著他們可以訪問您的訊息。 此外，iMessage 的金鑰交換不如 Signal（允許您檢視收件者的金鑰，並使用 QR Code 進行驗證）等替代方案安全，因此不應依賴它進行敏感內容通訊。
 
 
 
-### Photo Permissions
+### 照片權限
 
-When an app prompts you for access to your device's photo library, iOS provides you with options to limit what an app can access.
+當應用程式提示您要存取裝置的照片圖庫時，iOS 會提供您限制應用程式存取內容的選項。
 
-Rather than allow an app to access all the photos on your device, you can allow it to only access whichever photos you choose by tapping the "Select Photos..." option in the permission dialog. 您可以隨時瀏覽**設定**→**隱私權與安全性**→**照片**，以變更照片存取權限。
+與其讓應用程式能夠存取裝置上的所有照片，您可以點擊權限對話框中的「選擇照片…」選項，讓應用程式只能存取您選擇的照片。 您可以隨時瀏覽**設定**→**隱私權與安全性**→**照片**，以變更照片存取權限。
 
-![Photo Permissions](../assets/img/ios/photo-permissions-light.png#only-light) ![Photo Permissions](../assets/img/ios/photo-permissions-dark.png#only-dark)
+![照片權限](../assets/img/ios/photo-permissions-light.png#only-light) ![照片權限](../assets/img/ios/photo-permissions-dark.png#only-dark)
 
-**Add Photos Only** is a permission that only gives an app the ability to download photos to the photo library. Not all apps which request photo library access provide this option.
+**只新增照片**是一種只允許應用程式將照片加入圖庫的權限。 並非所有要求存取照片圖庫的應用程式，都提供此選項。
 
 ![Private Access](../assets/img/ios/private-access-light.png#only-light) ![Private Access](../assets/img/ios/private-access-dark.png#only-dark)
 
@@ -279,11 +279,11 @@ Some apps also support **Private Access**, which functions similarly to the **Li
 
 
 
-### Contact Permissions
+### 聯絡人權限
 
 Similarly, rather than allow an app to access all the contacts saved on your device, you can allow it to only access whichever contacts you choose. You can change contact access permissions at any time by navigating to **Settings** → **Privacy & Security** → **Contacts**.
 
-![Contact Permissions](../assets/img/ios/contact-permissions-light.png#only-light) ![Contact Permissions](../assets/img/ios/contact-permissions-dark.png#only-dark)
+![聯絡人權限](../assets/img/ios/contact-permissions-light.png#only-light) ![聯絡人權限](../assets/img/ios/contact-permissions-dark.png#only-dark)
 
 
 
