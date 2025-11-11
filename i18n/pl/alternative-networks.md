@@ -21,7 +21,7 @@ When it comes to anonymizing networks, we want to specially note that [Tor](adva
 
 ![Tor logo](assets/img/self-contained-networks/tor.svg){ align=right }
 
-The **Tor** network is a group of volunteer-operated servers that allows you to connect for free and improve your privacy and security on the Internet. Individuals and organizations can also share information over the Tor network with ".onion hidden services" without compromising their privacy. Because Tor traffic is difficult to block and trace, Tor is an effective [:material-close-outline: Censorship](basics/common-threats.md#avoiding-censorship){ .pg-blue-gray } circumvention tool.
+The **Tor** network is a group of volunteer-operated servers that allows you to connect for free and improve your privacy and security on the Internet. Osoby fizyczne i organizacje mogą również wymieniać się informacjami w sieci Tor za pomocą „ukrytych usług .onion”, nie narażając swojej prywatności. Because Tor traffic is difficult to block and trace, Tor is an effective [:material-close-outline: Censorship](basics/common-threats.md#avoiding-censorship){ .pg-blue-gray } circumvention tool.
 
 [:octicons-home-16:](https://torproject.org){ .card-link title=Homepage }
 [:simple-torbrowser:](http://2gzyxa5ihm7nsggfxnu52rck2vv4rvmdlkiu3zzui5du4xyclen53wid.onion){ .card-link title="Onion Service" }
@@ -35,7 +35,7 @@ The recommended way to access the Tor network is via the official Tor Browser, w
 
 [Tor Browser Info :material-arrow-right-drop-circle:](tor.md){ .md-button .md-button--primary } [Detailed Tor Overview :material-arrow-right-drop-circle:](advanced/tor-overview.md){ .md-button }
 
-You can access the Tor network using other tools; making this determination comes down to your threat model. If you are a casual Tor user who is not worried about your ISP collecting evidence against you, using apps like [Orbot](#orbot) or mobile browser apps to access the Tor network is probably fine. Increasing the number of people who use Tor on an everyday basis helps reduce the bad stigma of Tor, and lowers the quality of "lists of Tor users" that ISPs and governments may compile.
+You can access the Tor network using other tools; making this determination comes down to your threat model. If you are a casual Tor user who is not worried about your ISP collecting evidence against you, using apps like [Orbot](#orbot) or mobile browser apps to access the Tor network is probably fine. Zwiększenie liczby osób korzystających z sieci Tor na co dzień pomaga zmniejszyć negatywny stereotyp tej sieci i obniża wartość „list użytkowników Tor”, które mogą tworzyć ISP lub rządy.
 
 <div class="admonition example" markdown>
 <p class="admonition-title">Try it out!</p>

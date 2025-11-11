@@ -1,8 +1,8 @@
 ---
-meta_title: "Tor Browser and Network: Anonymous Web Browsing - Privacy Guides"
+meta_title: "Przeglądarka Tor Browser i sieć Tor: anonimowe przeglądanie Internetu – Privacy Guides"
 title: "Tor Browser"
 icon: simple/torbrowser
-description: Protect your internet browsing from prying eyes by using the Tor network, a secure network which circumvents censorship.
+description: Chroń swoje przeglądanie Internetu przed ciekawskimi oczami, korzystając z sieci Tor — bezpiecznej sieci omijającej cenzurę.
 cover: tor.webp
 schema:
   - 
@@ -10,8 +10,8 @@ schema:
     "@type": SoftwareApplication
     name: Tor Browser
     image: /assets/img/browsers/tor.svg
-    url: https://torproject.org
-    sameAs: https://en.wikipedia.org/wiki/Tor_(network)
+    url: https://torproject.org/pl
+    sameAs: https://pl.wikipedia.org/wiki/Tor_(sieć_anonimowa)
     applicationCategory: Web Browser
     operatingSystem:
       - Windows
@@ -26,25 +26,25 @@ schema:
 <small>Chroni przed następującymi zagrożeniami:</small>
 
 - [:material-account-cash: Kapitalizm inwigilacji](basics/common-threats.md#surveillance-as-a-business-model ""){.pg-brown}
-- [:material-eye-outline: Mass Surveillance](basics/common-threats.md#mass-surveillance-programs ""){.pg-blue}
-- [:material-close-outline: Censorship](basics/common-threats.md#avoiding-censorship ""){.pg-blue-gray}
+- [:material-eye-outline: Masowa inwigilacja](basics/common-threats.md#mass-surveillance-programs ""){.pg-blue}
+- [:material-close-outline: Cenzura](basics/common-threats.md#avoiding-censorship ""){.pg-blue-gray}
 
-**Tor** is a group of volunteer-operated servers that allows you to connect for free and improve your privacy and security on the Internet. Individuals and organizations can also share information over the Tor network with ".onion hidden services" without compromising their privacy. Because Tor traffic is difficult to block and trace, Tor is an effective censorship circumvention tool.
+**Tor** to sieć serwerów prowadzonych przez wolontariuszy, która pozwala na bezpłatne połączenie i zwiększenie prywatności oraz bezpieczeństwa w Internecie. Osoby fizyczne i organizacje mogą również wymieniać się informacjami w sieci Tor za pomocą „ukrytych usług .onion”, nie narażając swojej prywatności. Dzięki temu, że ruch w sieci Tor jest trudny do zablokowania i namierzenia, Tor stanowi skuteczne narzędzie do omijania cenzury.
 
-[Detailed Tor Overview :material-arrow-right-drop-circle:](advanced/tor-overview.md ""){.md-button.md-button--primary} [:material-movie-open-play-outline: Video: Why You Need Tor](https://www.privacyguides.org/videos/2025/03/02/why-you-need-tor ""){.md-button}
+[Szczegółowy przegląd sieci Tor :material-arrow-right-drop-circle:](advanced/tor-overview.md ""){.md-button.md-button--primary} [:material-movie-open-play-outline: Film: Dlaczego warto korzystać z sieci Tor?](https://www.privacyguides.org/videos/2025/03/02/why-you-need-tor ""){.md-button}
 
 <div class="admonition tip" markdown>
 <p class="admonition-title">Porada</p>
 
-Before connecting to Tor, please ensure you've read our [overview](advanced/tor-overview.md) on what Tor is and how to connect to it safely. We often recommend connecting to Tor through a trusted [VPN provider](vpn.md), but you have to do so **properly** to avoid decreasing your anonymity.
+Przed połączeniem się z siecią Tor zapoznaj się z naszym [przeglądem](advanced/tor-overview.md), wyjaśniającym czym jest Tor i jak bezpiecznie z niego korzystać. Często zalecamy łączenie się z Tor za pośrednictwem zaufanego [dostawcy VPN](vpn.md), ale należy zrobić to **prawidłowo**, aby nie obniżyć poziomu swojej anonimowości.
 
 </div>
 
-There are a variety of ways to connect to the Tor network from your device, the most commonly used being the **Tor Browser**, a fork of Firefox designed for [:material-incognito: anonymous](basics/common-threats.md#anonymity-vs-privacy ""){.pg-purple} browsing for desktop computers and Android.
+Istnieje kilka sposobów połączenia się z siecią Tor z urządzenia, z których najczęściej używaną jest przeglądarka **Tor Browser** — fork Firefoksa stworzony z myślą o [:material-incognito: anonimowym](basics/common-threats.md#anonymity-vs-privacy ""){.pg-purple} przeglądaniu Internetu na komputerach stacjonarnych i Androidzie.
 
-Some of these apps are better than others; making a determination comes down to your threat model. If you are a casual Tor user who is not worried about your ISP collecting evidence against you, using mobile browser apps like [Onion Browser](#onion-browser-ios) to access the Tor network is probably fine. Increasing the number of people who use Tor on an everyday basis helps reduce the bad stigma of Tor, and lowers the quality of "lists of Tor users" that ISPs and governments may compile.
+Niektóre aplikacje sprawdzają się lepiej niż inne; wybór zależy od Twojego modelu zagrożeń. Jeśli jesteś okazjonalnym użytkownikiem sieci Tor i nie obawiasz się, że Twój dostawca Internetu będzie gromadził dowody przeciwko Tobie, korzystanie z przeglądarek mobilnych, takich jak [Onion Browser](#onion-browser-ios), aby połączyć się z siecią Tor, jest w porządku. Zwiększenie liczby osób korzystających z sieci Tor na co dzień pomaga zmniejszyć negatywny stereotyp tej sieci i obniża wartość „list użytkowników Tor”, które mogą tworzyć ISP lub rządy.
 
-If more complete anonymity is paramount to your situation, you should **only** be using the desktop Tor Browser client, ideally in a [Whonix](desktop.md#whonix) + [Qubes](desktop.md#qubes-os) configuration. Mobile browsers are less common on Tor (and more fingerprintable as a result), and other configurations are not as rigorously tested against deanonymization.
+Jeżeli w Twojej sytuacji pełna anonimowość jest kluczowa, zalecamy **wyłącznie** korzystanie z klienta desktopowego Tor Browser, najlepiej w konfiguracji [Whonix](desktop.md#whonix) + [Qubes](desktop.md#qubes-os). Przeglądarki mobilne są mniej popularne w sieci Tor (i w rezultacie łatwiejsze do zidentyfikowania), a inne konfiguracje nie są tak gruntownie testowane pod kątem deanonimizacji.
 
 ## Tor Browser
 
@@ -54,20 +54,20 @@ If more complete anonymity is paramount to your situation, you should **only** b
 
 **Tor Browser** is the top choice if you need anonymity, as it provides you with access to the Tor network and bridges, and it includes default settings and extensions that are automatically configured by the default security levels: *Standard*, *Safer* and *Safest*.
 
-[:octicons-home-16: Homepage](https://torproject.org){ .md-button .md-button--primary }
-[:simple-torbrowser:](http://2gzyxa5ihm7nsggfxnu52rck2vv4rvmdlkiu3zzui5du4xyclen53wid.onion){ .card-link title="Onion Service" }
-[:octicons-info-16:](https://tb-manual.torproject.org){ .card-link title="Documentation" }
+[:octicons-home-16: Strona główna](https://torproject.org/pl){ .md-button .md-button--primary }
+[:simple-torbrowser:](http://2gzyxa5ihm7nsggfxnu52rck2vv4rvmdlkiu3zzui5du4xyclen53wid.onion){ .card-link title="Usługa onion" }
+[:octicons-info-16:](https://tb-manual.torproject.org){ .card-link title="Dokumentacja" }
 [:octicons-code-16:](https://gitlab.torproject.org/tpo/applications/tor-browser){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://donate.torproject.org){ .card-link title="Contribute" }
+[:octicons-heart-16:](https://donate.torproject.org){ .card-link title="Wspomóż projekt" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Pobierz</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=org.torproject.torbrowser)
-- [:simple-android: Android](https://torproject.org/download/#android)
-- [:fontawesome-brands-windows: Windows](https://torproject.org/download)
-- [:simple-apple: macOS](https://torproject.org/download)
-- [:simple-linux: Linux](https://torproject.org/download)
+- [:simple-android: Android](https://torproject.org/pl/download/#android)
+- [:fontawesome-brands-windows: Windows](https://torproject.org/pl/download)
+- [:simple-apple: macOS](https://torproject.org/pl/download)
+- [:simple-linux: Linux](https://torproject.org/pl/download)
 
 </details>
 

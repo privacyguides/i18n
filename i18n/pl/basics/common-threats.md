@@ -147,7 +147,7 @@ Even with E2EE, service providers can still profile you based on **metadata**, w
 
 ## Mass Surveillance Programs
 
-<span class="pg-blue">:material-eye-outline: Mass Surveillance</span>
+<span class="pg-blue">:material-eye-outline: Masowa inwigilacja</span>
 
 Mass surveillance is the intricate effort to monitor the "behavior, many activities, or information" of an entire (or substantial fraction of a) population.[^1] It often refers to government programs, such as the ones [disclosed by Edward Snowden in 2013](https://en.wikipedia.org/wiki/Global_surveillance_disclosures_(2013%E2%80%93present)). However, it can also be carried out by corporations, either on behalf of government agencies or by their own initiative.
 
@@ -205,7 +205,7 @@ If you've already submitted your real information to sites which shouldn't have 
 
 ## Avoiding Censorship
 
-<span class="pg-blue-gray">:material-close-outline: Censorship</span>
+<span class="pg-blue-gray">:material-close-outline: Cenzura</span>
 
 Censorship online can be carried out (to varying degrees) by actors including totalitarian governments, network administrators, and service providers. These efforts to control communication and restrict access to information will always be incompatible with the human right to Freedom of Expression.[^5]
 
