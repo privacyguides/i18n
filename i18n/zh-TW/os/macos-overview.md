@@ -179,7 +179,7 @@ macOS 的系統組件受到唯讀的[簽署系統卷宗](https://support.apple.c
 
 #### 系統完整性保護
 
-macOS 設定了某些無法覆蓋的安全限制。 These are called [Mandatory Access Controls](https://support.apple.com/guide/security/system-integrity-protection-secb7ea06b49/1/web/1), and they form the basis of the sandbox, parental controls, and [System Integrity Protection](https://support.apple.com/en-us/102149) on macOS.
+macOS 設定了某些無法覆蓋的安全限制。 這些稱為[強制取用控制](https://support.apple.com/guide/security/system-integrity-protection-secb7ea06b49/1/web/1)，它們構成 macOS 上的沙盒、家長控制和[系統完整性保護](https://support.apple.com/en-us/102149)的基礎。
 
 系統完整保護使重要的檔案成為唯讀，以防止惡意代碼的修改。 這是基於硬體內核完整保護之上，可防止記憶體中的內核遭修改。
 
@@ -187,33 +187,33 @@ macOS 設定了某些無法覆蓋的安全限制。 These are called [Mandatory 
 
 ##### App 沙盒
 
-On macOS, whether an app is sandboxed is determined by the developer when they sign it. The [App Sandbox](https://developer.apple.com/documentation/xcode/configuring-the-macos-app-sandbox) protects against vulnerabilities in the apps you run by limiting what a malicious actor can access in the event that the app is exploited. The App Sandbox *alone* can't protect against [:material-package-variant-closed-remove: Supply Chain Attacks](../basics/common-threats.md#attacks-against-certain-organizations ""){.pg-viridian} by malicious developers. For that, sandboxing needs to be enforced by someone other than the developer themselves, as it is on the [App Store](https://support.apple.com/guide/security/gatekeeper-and-runtime-protection-sec5599b66df/1/web/1#:~:text=All%20apps%20from%20the%20App%20Store%20are%20sandboxed%20to%20restrict%20access%20to%20data%20stored%20by%20other%20apps.).
+在 macOS 上，應用程式是否受沙盒保護是由開發人員簽署時決定。 [App Sandbox](https://developer.apple.com/documentation/xcode/configuring-the-macos-app-sandbox) 會透過限制惡意行為者在應用程式被攻擊時可以存取的內容，保護您執行的應用程式。 *單靠* App Sandbox 無法防止惡意開發人員的[:material-package-variant-closed-remove: 供應鏈攻擊](../basics/common-threats.md#attacks-against-certain-organizations ""){.pg-viridian}。 為此，沙盒需要由開發者以外的人執行，就像在[App Store](https://support.apple.com/guide/security/gatekeeper-and-runtime-protection-sec5599b66df/1/web/1#:~:text=All%20apps%20from%20the%20App%20Store%20are%20sandboxed%20to%20restrict%20access%20to%20data%20stored%20by%20other%20apps.) 中一樣。
 
 <div class="admonition warning" markdown>
 <p class="admonition-title">警告</p>
 
-從官方 App Store 之外下載的軟體不需要沙盒。 If your threat model prioritizes defending against [:material-bug-outline: Passive Attacks](../basics/common-threats.md#security-and-privacy){ .pg-orange }, then you may want to check if the software you download outside the App Store is sandboxed, which is up to the developer to *opt in*.
+從官方 App Store 之外下載的軟體不需要沙盒。 如果您的威脅模型以防禦 [:material-bug-outline: 被動攻擊](../basics/common-threats.md#security-and-privacy){ .pg-orange }為優先，那麼可能要檢查在 App Store 以外下載的軟體是否於沙盒中運作，這要由開發人員*選擇性加入*。
 
 </div>
 
-You can check if an app uses the App Sandbox in a few ways:
+您可以透過幾種方式檢查應用程式是否使用 App Sandbox：
 
-You can check if apps that are already running are sandboxed using the [Activity Monitor](https://developer.apple.com/documentation/security/protecting-user-data-with-app-sandbox#Verify-that-your-app-uses-App-Sandbox).
+您可以使用「[活動監視器](https://developer.apple.com/documentation/security/protecting-user-data-with-app-sandbox#Verify-that-your-app-uses-App-Sandbox)」檢查已執行的應用程式是否受到沙盒保護。
 
 <div class="admonition warning" markdown>
 <p class="admonition-title">警告</p>
 
-Just because one of an app's processes is sandboxed doesn't mean they all are.
+如果應用程式當中只有部分處理程序受到沙盒保護，不代表所有處理程序都有沙盒保護。
 
 </div>
 
-Alternatively, you can check apps before you run them by running this command in the terminal:
+另外，在執行應用程式之前，您也可以在終端機執行下列指令檢查：
 
 ``` zsh
 codesign -dvvv --entitlements - <您的應用程式路徑>
 ```
 
-If an app is sandboxed, you should see the following output:
+如果應用程式有沙盒保護，應該會看到下列輸出結果：
 
 ``` zsh
     [Key] com.apple.security.app-sandbox
@@ -221,25 +221,25 @@ If an app is sandboxed, you should see the following output:
         [Bool] true
 ```
 
-If you find that the app you want to run is not sandboxed, then you may employ methods of [compartmentalization](../basics/common-threats.md#security-and-privacy) such as virtual machines or separate devices, use a similar app that is sandboxed, or choose to not use the non-sandboxed app altogether.
+如果您發現要執行的應用程式尚未沙盒化，則可以採用虛擬機器或獨立裝置等[隔離運作](../basics/common-threats.md#security-and-privacy)方法、使用有沙盒化的其他類似應用程式，或乾脆完全不要使用未經沙盒化的應用程式。
 
-##### Hardened Runtime
+##### 執行時期加固
 
-The [Hardened Runtime](https://developer.apple.com/documentation/security/hardened_runtime) is an extra form of protection for apps that prevents certain classes of exploits. It improves the security of apps against exploitation by disabling certain features like JIT.
+[執行時期加固（Hardened Runtime）](https://developer.apple.com/documentation/security/hardened_runtime)是應用程式的額外保護形式，可防止某些類別的攻擊。 它會停用某些功能（例如 JIT）來提高應用程式的安全性，以防止被破解。
 
-You can check if an app uses the Hardened Runtime using this command:
+您可以使用下列指令檢查應用程式是否使用 Hardened Runtime：
 
 ``` zsh
 codesign -dv <您的應用程式路徑>
 ```
 
-If Hardened Runtime is enabled, you will see `flags=0x10000(runtime)`. The `runtime` output means Hardened Runtime is enabled. There might be other flags, but the runtime flag is what we're looking for here.
+若有啟用 Hardened Runtime，會看到 `flags=0x10000(runtime)`。 這邊的 `runtime` 輸出代表已啟用 Hardened Runtime。 可能還有其他旗標，但 runtime 旗標就是我們要找的部份。
 
-You can enable a column in Activity Monitor called "Restricted" which is a flag that prevents programs from injecting code via macOS's [dynamic linker](https://pewpewthespells.com/blog/blocking_code_injection_on_ios_and_os_x.html). Ideally, this should say "Yes".
+您可以在活動監視器中開啟一欄名為「Restricted」的旗標，此旗標表示會防止程式透過 macOS 的[動態連結器](https://pewpewthespells.com/blog/blocking_code_injection_on_ios_and_os_x.html)注入程式碼。 理想情況下，這裡應該顯示「是」。
 
 ##### 防毒軟體
 
-macOS comes with two forms of [malware defense](https://support.apple.com/guide/security/protecting-against-malware-sec469d47bd8/1/web/1):
+macOS 提供兩種[惡意軟體防禦](https://support.apple.com/guide/security/protecting-against-malware-sec469d47bd8/1/web/1)機制：
 
 1. 首先，防止啟動惡意軟體是由 App Store 對 App Store 應用程式的審核流程或*公證*（*Gatekeeper* 的一部份），這是 Apple 允許運行之前掃描第三方應用程式是否存在已知惡意軟體的程式。 Apps are required to be signed by the developers using a key given to them by Apple. This ensures that you are running software from the real developers. Notarization also requires that developers enable the Hardened Runtime for their apps, which limits methods of exploitation.
 2. *XProtect* 提供針對其他惡意軟體的防護以及修復系統上現有惡意軟體，XProtect 是 macOS 內建較傳統的防病毒軟體。

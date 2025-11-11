@@ -22,11 +22,11 @@ global:
 
 除此之外，我們還推薦各種基於可持續商業模式和內建安全和隱私功能的電子郵件提供商。 閱讀我們[完整的標準清單](#criteria)，瞭解更多資訊。
 
-| 供應商                           | OpenPGP / WKD                          | IMAP / SMTP                                       | 零存取加密                                             | 匿名付款方式                                                |
-| ----------------------------- | -------------------------------------- | ------------------------------------------------- | ------------------------------------------------- | ----------------------------------------------------- |
-| [Proton Mail](#proton-mail)   | :material-check:{ .pg-green }          | :material-information-outline:{ .pg-blue } 僅提供付費版 | :material-check:{ .pg-green }                     | 現金<br>透過第三方使用 Monero                            |
-| [Mailbox Mail](#mailbox-mail) | :material-check:{ .pg-green }          | :material-check:{ .pg-green }                     | :material-information-outline:{ .pg-blue } 限 Mail | 現金                                                    |
-| [Tuta](#tuta)                 | :material-alert-outline:{ .pg-orange } | :material-alert-outline:{ .pg-orange }            | :material-check:{ .pg-green }                     | Monero via third party <br>Cash via third party |
+| 供應商                           | OpenPGP / WKD                          | IMAP / SMTP                                       | 零存取加密                                             | 匿名付款方式                            |
+| ----------------------------- | -------------------------------------- | ------------------------------------------------- | ------------------------------------------------- | --------------------------------- |
+| [Proton Mail](#proton-mail)   | :material-check:{ .pg-green }          | :material-information-outline:{ .pg-blue } 僅提供付費版 | :material-check:{ .pg-green }                     | 現金<br>透過第三方使用 Monero        |
+| [Mailbox Mail](#mailbox-mail) | :material-check:{ .pg-green }          | :material-check:{ .pg-green }                     | :material-information-outline:{ .pg-blue } 限 Mail | 現金                                |
+| [Tuta](#tuta)                 | :material-alert-outline:{ .pg-orange } | :material-alert-outline:{ .pg-orange }            | :material-check:{ .pg-green }                     | 透過第三方使用 Monero<br>透過第三方使用現金 |
 
 除了這裡建議的電子郵件供應商及他們的替代品之外，您也可以考慮使用專用的[電子郵件別名服務](email-aliasing.md#recommended-providers)來保護您的隱私。 除此之外，這些服務有助於保護真實收件匣免受垃圾郵件的侵害，防止行銷人員關聯您的帳戶，並使用 PGP 加密所有傳入的訊息。
 
@@ -85,25 +85,25 @@ Proton 免費方案提供 500 MB 的郵件儲存空間，您可以免費增加�
 
 </div>
 
-Free accounts have some limitations, such as not being able to search body text and not having access to [Proton Mail Bridge](https://proton.me/mail/bridge), which is required to use a [recommended desktop email client](email-clients.md) such as Thunderbird. 付費帳戶包括 Proton Mail Bridge、額外儲存空間和自訂網域支援等功能。 The Proton Unlimited plan or any multi-user Proton plan includes access to [SimpleLogin](email-aliasing.md#simplelogin) Premium.
+免費帳號有部份限制，例如無法搜尋信件正文，也無法使用 [Proton Mail Bridge](https://proton.me/mail/bridge)，後者是使用[推薦的桌面電子郵件客戶端](email-clients.md)（如 Thunderbird）所必須的。 付費帳戶包括 Proton Mail Bridge、額外儲存空間和自訂網域支援等功能。 Proton Unlimited 方案或任何多使用者 Proton 方案都包含使用 [SimpleLogin](email-aliasing.md#simplelogin) Premium。
 
-A [letter of attestation](https://res.cloudinary.com/dbulfrlrz/images/v1714639878/wp-pme/letter-of-attestation-proton-mail-20211109_3138714c61/letter-of-attestation-proton-mail-20211109_3138714c61.pdf) was provided for Proton Mail's apps in November 2021 by [Securitum](https://research.securitum.com).
+[Securitum](https://research.securitum.com) 於2021年11月為 Proton Mail 應用程式提供了[認證函](https://res.cloudinary.com/dbulfrlrz/images/v1714639878/wp-pme/letter-of-attestation-proton-mail-20211109_3138714c61/letter-of-attestation-proton-mail-20211109_3138714c61.pdf)。
 
-Proton Mail has internal crash reports that are **not** shared with third parties and can be disabled.
+Proton Mail 有內部當機報告功能，**不會**與第三方分享且可停用。
 
-=== "Web"
+===「網路」
 
-    From your inbox, select :gear: → **All Settings** → **Account** → **Security and privacy** → **Privacy and data collection**.
+    從收件匣選取 :gear:→**所有設定**→**帳號**→**安全性與隱私權**→**隱私與資料蒐集**。
 
-    - [ ] Disable **Collect usage dignostics**
-    - [ ] Disable **Send crash reports**
+    - [ ] 停用**蒐集使用診斷資訊**
+    - [ ] 停用**傳送當機報告**
 
-=== "Mobile"
+===「行動裝置」
 
-    From your inbox, select :material-menu: → :gear: **Settings** → select your username.
+    從收件匣選取 :material-menu:→:gear: **設定**→選取您的使用者名稱。
 
-    - [ ] Disable **Send crash reports**
-    - [ ] Disable **Collect usage dignostics**
+    - [ ] 停用**傳送當機報告**
+    - [ ] 停用**蒐集使用診斷資訊**
 
 #### :material-check:{ .pg-green } 自訂域名和別名
 
@@ -111,7 +111,7 @@ Proton Mail has internal crash reports that are **not** shared with third partie
 
 #### :material-check:{ .pg-green } 私密付款方式
 
-Proton Mail 除了 [支援](https://proton.me/support/payment-options) 郵寄**現金**外，還接受信用卡/簽帳金融卡、[比特幣](advanced/payments.md#other-coins-bitcoin-ethereum-etc) 和 PayPal 付款。 Additionally, you can use [**Monero**](cryptocurrency.md#monero) to purchase vouchers for Proton Mail Plus or Proton Unlimited via their [official](https://discuss.privacyguides.net/t/add-monero-as-an-anonymous-payment-method-for-proton-services/31058/15) reseller [ProxyStore](https://dys2p.com/en/2025-09-09-proton.html).
+Proton Mail 除了 [支援](https://proton.me/support/payment-options) 郵寄**現金**外，還接受信用卡/簽帳金融卡、[比特幣](advanced/payments.md#other-coins-bitcoin-ethereum-etc) 和 PayPal 付款。 此外，您可以使用 [**Monero**](cryptocurrency.md#monero) 透過他們的[官方](https://discuss.privacyguides.net/t/add-monero-as-an-anonymous-payment-method-for-proton-services/31058/15)經銷商 [ProxyStore](https://dys2p.com/en/2025-09-09-proton.html) 購買 Proton Mail Plus 或 Proton Unlimited 的禮券。
 
 #### :material-check:{ .pg-green } 帳號安全
 
@@ -141,9 +141,9 @@ Proton Mail 的[Unlimited](https://proton.me/support/proton-plans#proton-unlimit
 
 <div class="admonition recommendation" markdown>
 
-![Mailbox Mail logo](assets/img/email/mailbox-mail.svg){ align=right }
+![Mailbox.org 標誌](assets/img/email/mailbox-mail.svg){ align=right }
 
-**Mailbox Mail** (formerly *Mailbox.org*) is an email service with a focus on being secure, ad-free, and powered by 100% eco-friendly energy. 自 **2014 年** 開始運營。 Mailbox Mail 總部位於德國柏林。
+**Mailbox Mail**（前身為 *Mailbox.org*）是專注於安全、無廣告、100% 採用環保能源的電子郵件服務。 自 **2014 年** 開始運營。 Mailbox Mail 總部位於德國柏林。
 
 帳戶一開始最多只有 2 GB 儲存空間，可視需要升級。
 
@@ -246,7 +246,7 @@ Tuta 不支援 [ IMAP 協議](https://tuta.com/support#imap) 或使用第三方 
 
 #### :material-information-outline:{ .pg-blue } 私密付款方式
 
-Tuta only directly accepts credit cards and PayPal, however you can use [**cryptocurrency**](cryptocurrency.md) to purchase gift cards via their [partnership](https://tuta.com/support/#cryptocurrency) with ProxyStore.
+Tuta 僅接受信用卡與 PayPal，但您可以使用[**加密貨幣**](cryptocurrency.md)透過其[合作夥伴](https://tuta.com/support/#cryptocurrency) ProxyStore 購買禮品卡。
 
 #### :material-check:{ .pg-green } 帳號安全
 
