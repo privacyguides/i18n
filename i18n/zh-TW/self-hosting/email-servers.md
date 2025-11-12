@@ -8,9 +8,9 @@ cover: email.webp
 
 <small>防護下列威脅：</small>
 
-- [:material-server-network: Service Providers](../basics/common-threats.md#privacy-from-service-providers){ .pg-teal }
+- [:material-server-network: 服務供應商](../basics/common-threats.md#privacy-from-service-providers){ .pg-teal }
 
-Advanced system administrators may consider setting up their own **email server**. Mail servers require attention and continuous maintenance in order to keep things secure and mail delivery reliable. In addition to the "all-in-one" solutions below, we've picked out a few articles that cover a more manual approach:
+進階的系統管理員可以考慮自行架設**電子郵件伺服器**。 郵件伺服器需要關注與持續維護，以確保安全性和郵件傳遞的可靠性。 除了下列「all-in-one」解決方案外，我們也挑選了涵蓋較為手動的幾篇文章：
 
 - [Setting up a mail server with OpenSMTPD, Dovecot and Rspamd](https://poolp.org/posts/2019-09-14/setting-up-a-mail-server-with-opensmtpd-dovecot-and-rspamd) (2019)
 - [How To Run Your Own Mail Server](https://www.c0ffee.net/blog/mail-server-guide) (August 2017)
@@ -19,14 +19,14 @@ Advanced system administrators may consider setting up their own **email server*
 
 <div class="admonition recommendation" markdown>
 
-![Stalwart logo](../assets/img/self-hosting/stalwart.svg){ align=right }
+![Stalwart 圖示](../assets/img/self-hosting/stalwart.svg){ align=right }
 
-**Stalwart** is a newer mail server written in Rust which supports JMAP in addition to the standard IMAP, POP3, and SMTP. It has a wide variety of configuration options, but also defaults to very reasonable settings in terms of both security and features, making it easy to use immediately. It has web-based administration with TOTP 2FA support and allows you to enter your public PGP key to encrypt **all** incoming messages.
+**Stalwart** 是用 Rust 寫成的新款郵件伺服器，除了標準的 IMAP、POP3 和 SMTP 外，還支援 JMAP。 它有多種設定選項，而且預設設定在安全性和功能性方面都非常合理，很容易立即使用。 它還有網頁管理介面，支援 TOTP 2FA，並允許您輸入 PGP 公鑰以加密**所有**來信。
 
-[:octicons-home-16: Homepage](https://stalw.art){ .md-button .md-button--primary }
-[:octicons-info-16:](https://stalw.art/docs/get-started){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/stalwartlabs){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://github.com/sponsors/stalwartlabs){ .card-link title="Contribute" }
+[:octicons-home-16: 首頁](https://stalw.art){ .md-button .md-button--primary }
+[:octicons-info-16:](https://stalw.art/docs/get-started){ .card-link title="文件" }
+[:octicons-code-16:](https://github.com/stalwartlabs){ .card-link title="原始碼" }
+[:octicons-heart-16:](https://github.com/sponsors/stalwartlabs){ .card-link title="捐款" }
 
 </div>
 
@@ -40,14 +40,14 @@ We use Stalwart for our own internal email at _Privacy Guides_.
 
 <div class="admonition recommendation" markdown>
 
-![Mailcow logo](../assets/img/self-hosting/mailcow.svg){ align=right }
+![Mailcow 圖示](../assets/img/self-hosting/mailcow.svg){ align=right }
 
 **Mailcow** is an advanced mail server perfect for those with Linux experience. It has everything you need in a Docker container: a mail server with DKIM support, antivirus and spam monitoring, webmail and ActiveSync with SOGo, and web-based administration with 2FA support.
 
-[:octicons-home-16: Homepage](https://mailcow.email){ .md-button .md-button--primary }
-[:octicons-info-16:](https://docs.mailcow.email){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/mailcow/mailcow-dockerized){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://servercow.de/mailcow?lang=en#sal){ .card-link title="Contribute" }
+[:octicons-home-16: 首頁](https://mailcow.email){ .md-button .md-button--primary }
+[:octicons-info-16:](https://docs.mailcow.email){ .card-link title="文件" }
+[:octicons-code-16:](https://github.com/mailcow/mailcow-dockerized){ .card-link title="原始碼" }
+[:octicons-heart-16:](https://servercow.de/mailcow?lang=en#sal){ .card-link title="捐款" }
 
 </div>
 
@@ -55,12 +55,12 @@ We use Stalwart for our own internal email at _Privacy Guides_.
 
 <div class="admonition recommendation" markdown>
 
-![Mail-in-a-Box logo](../assets/img/self-hosting/mail-in-a-box.svg){ align=right }
+![Mail-in-a-Box 圖示](../assets/img/self-hosting/mail-in-a-box.svg){ align=right }
 
 **Mail-in-a-Box** is an automated setup script for deploying a mail server on Ubuntu. Its goal is to make it easier for people to set up their own mail server.
 
-[:octicons-home-16: Homepage](https://mailinabox.email){ .md-button .md-button--primary }
-[:octicons-info-16:](https://mailinabox.email/guide.html){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/mail-in-a-box/mailinabox){ .card-link title="Source Code" }
+[:octicons-home-16: 首頁](https://mailinabox.email){ .md-button .md-button--primary }
+[:octicons-info-16:](https://mailinabox.email/guide.html){ .card-link title="文件" }
+[:octicons-code-16:](https://github.com/mail-in-a-box/mailinabox){ .card-link title="原始碼" }
 
 </div>

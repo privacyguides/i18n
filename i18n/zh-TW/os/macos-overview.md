@@ -266,11 +266,11 @@ macOS 通過僅允許官方 Apple 軟體在開機時運作，以防止惡意軟�
 
 開機 ROM 構成了硬體信任根。 這可確保惡意軟體無法篡改開機流程，因為 Boot ROM 不可變更。 Mac 啟動時，開機 ROM 第一個運行，為信任鏈中的第一個環節。
 
-Mac computers can be configured to boot in [three security modes](https://support.apple.com/guide/deployment/startup-security-dep5810e849c/web#dep32fb404e1): *Full Security*, *Reduced Security*, and *Permissive Security*, with the default setting being Full Security. You should ideally be using Full Security mode and avoid things like **[kernel extensions](https://support.apple.com/guide/deployment/system-extensions-in-macos-depa5fb8376f/web#dep51e097f45)** that force you to lower your security mode. 請務必[檢查](https://support.apple.com/guide/mac-help/change-security-settings-startup-disk-a-mac-mchl768f7291/mac)使用的是完全安全模式。
+Mac 電腦能使用三種[安全性模式](https://support.apple.com/guide/deployment/startup-security-dep5810e849c/web#dep32fb404e1)開機：*完全安全*、*降低安全*，以及*許可式安全*，預設值為完全安全。 理想情況下，您應該使用完全安全模式，並避免使用諸如[核心擴充元件](https://support.apple.com/guide/deployment/system-extensions-in-macos-depa5fb8376f/web#dep51e097f45)</strong>等軟體，而須降低安全模式。 請務必[檢查](https://support.apple.com/guide/mac-help/change-security-settings-startup-disk-a-mac-mchl768f7291/mac)使用的是完全安全模式。
 
 #### 安全隔離區
 
-The **[Secure Enclave](https://support.apple.com/guide/security/secure-enclave-sec59b0b31ff/web)** is a security chip built into devices with Apple Silicon which is responsible for storing and generating encryption keys for data at rest as well as Face ID and Touch ID data. It contains its own [separate boot ROM](https://support.apple.com/en-vn/guide/security/sec59b0b31ff/web#sec43006c49f).
+**[Secure Enclave](https://support.apple.com/guide/security/secure-enclave-sec59b0b31ff/web)** 是內建於使用 Apple Silicon 的裝置的安全晶片，負責儲存和產生資料儲存期間，以及 Face ID 和 Touch ID 資料的加密金鑰。 它包含自己的[另一組 Boot ROM](https://support.apple.com/en-vn/guide/security/sec59b0b31ff/web#sec43006c49f)。
 
 您可以將安全隔離區想成裝置的安全中心：它具有 AES 加密引擎和安全儲存加密金鑰機制，它與系統的其餘部分分開，因此即使主處理器受到損害，也仍然保持安全。
 
@@ -282,17 +282,17 @@ Apple Touch ID 功能可使用生物識別技術安全地解鎖設備。
 
 #### 硬體麥克風斷線
 
-All laptops with Apple Silicon or the T2 chip feature a [hardware disconnect](https://support.apple.com/guide/security/hardware-microphone-disconnect-secbbd20b00b/web) for the built-in microphone whenever the lid is closed. 這意味著即使作業系統受到破壞，攻擊者無法監聽 Mac 的麥克風。
+所有配備 Apple Silicon 或 T2 晶片的筆記型電腦，都具備在闔上螢幕時，以[硬體方式中斷](https://support.apple.com/guide/security/hardware-microphone-disconnect-secbbd20b00b/web)內建麥克風連線的功能。 這意味著即使作業系統受到破壞，攻擊者無法監聽 Mac 的麥克風。
 
 請注意，攝影機沒有硬體斷接，因為只要上蓋關閉時，其視線即會被遮擋。
 
-#### Secure Camera Indicator
+#### 相機安全指示燈
 
-The built-in camera in a Mac is designed so that the camera can't turn on without the camera indicator light [also turning on](https://support.apple.com/en-us/102177#:~:text=The%20camera%20is%20engineered%20so%20that%20it%20can’t%20activate%20without%20the%20camera%20indicator%20light%20also%20turning%20on.%20This%20is%20how%20you%20can%20tell%20if%20your%20camera%20is%20on.).
+Mac 內建的相機設計是，如果相機指示燈[沒有亮起](https://support.apple.com/en-us/102177#:~:text=The%20camera%20is%20engineered%20so%20that%20it%20can’t%20activate%20without%20the%20camera%20indicator%20light%20also%20turning%20on.%20This%20is%20how%20you%20can%20tell%20if%20your%20camera%20is%20on.)，就無法開啟相機。
 
 #### 外圍處理器安全
 
-Computers have [built-in processors](https://support.apple.com/en-vn/guide/security/seca500d4f2b/1/web/1) other than the main CPU that handle things like networking, graphics, power management, etc. 這些處理器可能沒有足夠的安全性且受到損害，因此蘋果試圖減少其硬體中對這類處理器的需求。
+電腦除了主要的 CPU 之外還有其他的[內建處理器](https://support.apple.com/en-vn/guide/security/seca500d4f2b/1/web/1)，用於處理網路、圖形、電源管理等事務。 這些處理器可能沒有足夠的安全性且受到損害，因此蘋果試圖減少其硬體中對這類處理器的需求。
 
 當需要使用其中某一種處理器時，Apple 會與供應商合作，以確保該處理器
 
@@ -305,8 +305,8 @@ Computers have [built-in processors](https://support.apple.com/en-vn/guide/secur
 
 #### 直接記憶體存取保護
 
-Apple Silicon separates each component that requires [direct memory access](https://support.apple.com/guide/security/direct-memory-access-protections-seca4960c2b5/1/web/1). 例如，Thunderbolt 端口無法訪問為內核指定的記憶體。
+Apple Silicon 會將需要[直接存取記憶體](https://support.apple.com/guide/security/direct-memory-access-protections-seca4960c2b5/1/web/1)的各個元件分離。 例如，Thunderbolt 端口無法訪問為內核指定的記憶體。
 
-#### Terminal Secure Keyboard Entry
+#### 終端機鍵盤輸入安全
 
-Enable [Secure Keyboard Entry](https://support.apple.com/guide/terminal/use-secure-keyboard-entry-trml109/mac) to prevent other apps from detecting what you type in the terminal.
+開啟 [Secure Keyboard Entry](https://support.apple.com/guide/terminal/use-secure-keyboard-entry-trml109/mac) 可防止其他應用程式偵測您在終端機中輸入的內容。
