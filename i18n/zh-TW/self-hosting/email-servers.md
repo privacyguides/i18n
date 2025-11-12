@@ -30,11 +30,11 @@ cover: email.webp
 
 </div>
 
-Stalwart's [PGP implementation](https://stalw.art/docs/encryption/overview) is unique among our self-hosted recommendations and allows you to operate your own mail server with zero-knowledge message storage. If you additionally configure Web Key Directory (WKD) on your domain, and if you use an email client which supports PGP and WKD for outgoing mail (like Thunderbird), then this is the easiest way to get self-hosted E2EE compatibility with all [Proton Mail](../email.md#proton-mail) users.
+Stalwart 的 [PGP 實作](https://stalw.art/docs/encryption/overview) 在我們的自架推薦清單中是獨一無二的，可讓您以零知識的訊息儲存空間方式來架設自己的郵件伺服器。 如果您還想在您的網域上另外設定 Web Key Directory（WKD），以及使用支援 PGP 和 WKD 的電子郵件用戶端（例如 Thunderbird）來寄信，那麼這是最簡單就能讓所有 [Proton Mail](../email.md#proton-mail) 使用者能取得自架 E2EE 相容性的方式。
 
-Stalwart does **not** have an integrated webmail, so you will need to use it with a [dedicated email client](../email-clients.md) or find an open-source webmail to self-host, like Nextcloud's Mail app.
+Stalwart **沒有**內建的網頁郵件功能，因此您需要使用[電子郵件軟體](../email-clients.md)使用，或是另外架設一套開放原始碼的網頁郵件軟體，例如 Nextcloud 的 Mail 應用程式。
 
-We use Stalwart for our own internal email at _Privacy Guides_.
+我們在 _Privacy Guides_ 使用 Stalwart 作為內部電子郵件服務。
 
 ## Mailcow
 
@@ -42,7 +42,7 @@ We use Stalwart for our own internal email at _Privacy Guides_.
 
 ![Mailcow 圖示](../assets/img/self-hosting/mailcow.svg){ align=right }
 
-**Mailcow** is an advanced mail server perfect for those with Linux experience. It has everything you need in a Docker container: a mail server with DKIM support, antivirus and spam monitoring, webmail and ActiveSync with SOGo, and web-based administration with 2FA support.
+**Mailcow** 是一套進階的郵件伺服器，非常適合有 Linux 經驗的人使用。 它透過 Docker 容器提供您所需的一切：支援 DKIM 的郵件伺服器、防毒與垃圾郵件監控、透過 SOGo 提供網頁郵件與 ActiveSync，以及支援 2FA 的網頁管理系統。
 
 [:octicons-home-16: 首頁](https://mailcow.email){ .md-button .md-button--primary }
 [:octicons-info-16:](https://docs.mailcow.email){ .card-link title="文件" }
@@ -57,7 +57,7 @@ We use Stalwart for our own internal email at _Privacy Guides_.
 
 ![Mail-in-a-Box 圖示](../assets/img/self-hosting/mail-in-a-box.svg){ align=right }
 
-**Mail-in-a-Box** is an automated setup script for deploying a mail server on Ubuntu. Its goal is to make it easier for people to set up their own mail server.
+**Mail-in-a-Box** 是在 Ubuntu 上部署郵件伺服器的自動設定指令碼。 它的目標是讓人們能更容易自行架設郵件伺服器。
 
 [:octicons-home-16: 首頁](https://mailinabox.email){ .md-button .md-button--primary }
 [:octicons-info-16:](https://mailinabox.email/guide.html){ .card-link title="文件" }
