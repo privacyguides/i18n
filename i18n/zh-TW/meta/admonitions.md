@@ -3,7 +3,7 @@ title: 提醒
 description: 網站撰稿人建立提醒的指南。
 ---
 
-**Admonitions** (or "call-outs") are tools that writers can use to include side content in an article without interrupting the document flow.
+**提醒**（或「補充說明」）是寫作者可以在文章中加入額外內容的選項，而不會影響文章的整體流暢度。
 
 <div class="admonition example" markdown>
 <p class="admonition-title">提醒範例</p>
@@ -41,7 +41,7 @@ description: 網站撰稿人建立提醒的指南。
 </details>
 ```
 
-The `TITLE` must be specified; if you don't want a specific title you can set it to the same text as the `TYPE` (see below) in title case, e.g. `Note`. `內文`必須使用 Markdown 格式。
+必須指定 `TITLE`。如果不想要特定的標題，可以將其設定為與 `TYPE`（詳見下方）相同的文字，並採用標題大寫格式，例如 `Note`。 `內文`必須使用 Markdown 格式。
 
 ### 一般類型
 
@@ -195,7 +195,7 @@ The `TITLE` must be specified; if you don't want a specific title you can set it
 
 #### `downloads`
 
-This is a special type of collapsible admonition which is used to generate sections containing download links. 只與推薦卡一起使用，如上面的範例。
+這是一種特殊類型的可摺疊提醒，用來產生包含下載連結的區段。 只與推薦卡一起使用，如上面的範例。
 
 ```markdown title="Downloads Section"
 <details class="downloads" markdown>
@@ -231,7 +231,7 @@ This is a special type of collapsible admonition which is used to generate secti
 
 ## 舊格式
 
-Throughout the site, you may see some admonitions formatted like the following examples:
+在網站中，您可能會看到一些格式與以下範例類似的提醒內容：
 
 ```markdown title="Admonition"
 !!! note
@@ -275,6 +275,6 @@ massa, nec semper lorem quam in massa.
 
 </div>
 
-**This format is no longer used going forward** because it is incompatible with newer versions of our translation software at Crowdin. When adding a new page to the site, only the newer, HTML-based format should be used.
+因為它不相容於 Crowdin 上面新版的翻譯軟體，**已不再被使用此格式**。 在網站上新增頁面時，應只使用基於 HTML 的新版格式。
 
-舊格式的提醒內容暫時不需要急著轉換成新格式。 Pages currently using this formatting should continue to work, but we will be updating them to use the newer, HTML-based format above over time as we continue to update the site.
+舊格式的提醒內容暫時不需要急著轉換成新格式。 目前使用這個格式的網頁應該還是能持續運作，但隨著網站更新，我們將會持續更新至基於 HTML 的新版格式。

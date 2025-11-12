@@ -7,11 +7,11 @@ description: 我們自行託管 Umami，為我們的流量統計建立一個良�
 
 我們自行託管 [Umami](https://umami.is) 來建立流量統計資料的視覺化效果，這些統計資料公開在下面的連結。
 
-[View Statistics](https://stats.triplebit.net/share/S80jBc50hxr5TquS/www.privacyguides.org){ .md-button .md-button--primary }
+[檢視統計數據](https://stats.triplebit.net/share/S80jBc50hxr5TquS/www.privacyguides.org){ .md-button .md-button--primary }
 
 透過這個過程：
 
-- Your information is never shared with a third party, it stays on servers we control
+- 您的資訊永遠不會與第三方共享，並保留在由我們控制的伺服器上
 - 個人資料永遠不會保存，我們僅收集匯總數據
 - 不使用客戶端 JavaScript
 

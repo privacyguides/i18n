@@ -37,9 +37,9 @@ PrivacyTools 由 BurungHantu 於 2015年創建，在斯諾登洩密事件後，�
 
 ## 控制r/privacytoolsIO
 
-Simultaneously with the ongoing website issues at privacytools.io, the r/privacytoolsIO moderation team was facing challenges with managing the Subreddit. The Subreddit had always been operated mostly independently of the website's development, but BurungHantu was the primary moderator of the Subreddit as well, and he was the only moderator granted "Full Control" privileges. u/trai_dep 是當時唯一的活躍版主， [2021年6月28日向 Reddit 管理員發出請求](https://reddit.com/comments/o9tllh) ，要求授予主要版主職位和完全控制權限，以便對 Subreddit 進行必要更改。
+在 privacytools.io 持續有網站問題的同時， r/privacytoolsIO 管理團隊在管理 Subreddit 也面臨挑戰。 Subreddit 一直以來獨立於網站的開發運作，而 BurungHantu 也是 Subreddit 的主要管理員，他是唯一擁有「完全控制」權限的人。 u/trai_dep 是當時唯一的活躍版主， [2021年6月28日向 Reddit 管理員發出請求](https://reddit.com/comments/o9tllh) ，要求授予主要版主職位和完全控制權限，以便對 Subreddit 進行必要更改。
 
-Reddit requires that Subreddits have active moderators. 如果主要主持人長期不活躍（例如一年） ，則可以重新任命下一位主要主持人。 為了讓這個請求獲得批準， BurungHantu 必須很長一段時間內消失在 Reddit 所有活動中，這與他在其他平臺上的行為一致。
+Reddit 要求 Subreddit 要有活躍的管理員。 如果主要主持人長期不活躍（例如一年） ，則可以重新任命下一位主要主持人。 為了讓這個請求獲得批準， BurungHantu 必須很長一段時間內消失在 Reddit 所有活動中，這與他在其他平臺上的行為一致。
 
 > 如果通過 Reddit 請求而被取消 subreddit 版主職位，那是因為版主缺乏回應與活動讓 subreddit 有資格進行r/redditrequest 轉移。
 > 
@@ -55,7 +55,7 @@ Reddit requires that Subreddits have active moderators. 如果主要主持人長
 
 - 重定向` www.privacytools.io `到 [www.privacyguides.org](https://www.privacyguides.org)。
 - 在GitHub上存檔源代碼，以保存我們過去的工作和問題跟蹤器，我們繼續使用這個網站未來幾個月的開發。
-- Posting announcements to our Subreddit and various other communities informing people of the official change.
+- 在我們的 Subreddit 和各個其他社群發布公告，通知人們這個變更。
 - 正式關閉 privacytools.io 服務，如 Matrix 和 Mastodon ，並鼓勵現有用戶盡快遷移。
 
 事情進展順利，大多數活躍的社區完全按照我們的期望切換到新專案。
@@ -66,11 +66,11 @@ Reddit requires that Subreddits have active moderators. 如果主要主持人長
 
 此時， BurungHantu 聲稱他會繼續開發 privacytools.io ，並要求我們取消把 `www.privacytools.io`重定向到 [www.privacyguides.org](https://www.privacyguides.org)。 我們答應了他的請求，並要求他保持 Matrix ， Mastodon 和PeerTube 的子域名活躍，讓我們社區可維持幾個月的公共服務，以便這些平臺上的用戶輕鬆遷移到其他帳戶。 由於我們提供服務的聯邦性質，它們與特定的域名相關聯，因此很難遷移（在某些情況下是不可能的）。
 
-Unfortunately, because control of the r/privacytoolsIO Subreddit was not returned to BurungHantu at his demand (further information below), those subdomains were [cut off](https://reddit.com/comments/pymthv/comment/hexwrps) at the beginning of October, ending any migration possibilities to any users still using those services.
+可惜的是，由於 r/privacytoolsIO Subreddit 的控制權沒有依 BurungHantu 的要求歸還給他（詳細資訊如下），這些子網域在 10 月初被[切斷](https://reddit.com/comments/pymthv/comment/hexwrps)，讓仍使用這些服務的使用者無法遷移。
 
 接下來  BurungHantu 不實指控 Jonah 從該專案竊取捐款。 直到 Privacy Guides遷移後，BurungHantu 才讓人知道而他指控的事件已發生了一年多。 團隊 [和社區](https://twitter.com/TommyTran732/status/1526153536962281474)一再要求 BurungHantu 提出證據並由對他過往的沉默發表評論，但他從未回應。
 
-BurungHantu also made a [twitter post](https://twitter.com/privacytoolsIO/status/1510560676967710728) alleging that an "attorney" had reached out to him on Twitter and was providing advice, in another attempt to bully us into giving him control of our Subreddit, and as part of his smear campaign to muddy the waters surrounding the launch of Privacy Guides while pretending to be a victim.
+BurungHantu 也發布一篇[推特推文](https://twitter.com/privacytoolsIO/status/1510560676967710728)，指稱有「律師」在推特上聯絡他並提供建議，另一次嘗試欺負我們，並讓他控制我們的Subreddit。除了抹黑活動之外，還假裝成受害者來玷污 Privacy Guides。
 
 ## PrivacyTools.io 現況
 
@@ -78,9 +78,9 @@ BurungHantu also made a [twitter post](https://twitter.com/privacytoolsIO/status
 
 ==**PrivacyTools 已成為我們 [過去 2019年 PrivacyTools 部落格所警告](https://web.archive.org/web/20210729205249/https://blog.privacytools.io/the-trouble-with-vpn-and-privacy-reviews) 的網站類型。**== 自過渡以來 PrivacyGuides 一直試圖與 PrivacyTools 保持距離，但他們對我們項目持續騷擾，現在他們荒謬地濫用原品牌在6年來獲得的可信度開源貢獻，這實在非常令人不安。 我們這些為隱私而戰的人並不是在互相爭鬥，也沒有從出價最高者那裡取得建議。
 
-## r/privacytoolsIO Now
+## r/privacytoolsIO 現況
 
-After the launch of [r/PrivacyGuides](https://reddit.com/r/privacyguides), it was impractical for u/trai_dep to continue moderating both Subreddits, and with the community on-board with the transition, r/privacytoolsIO was [made](https://reddit.com/comments/qk7qrj) a restricted sub in a post on November 1st, 2021:
+在推出 [r/PrivacyGuides](https://reddit.com/r/privacyguides) 之後，u/trai_dep 繼續管理兩個 Subreddit 是不切實際的。此外，隨著社群進入轉型期，r/privacytoolsIO 在 2021 年 11 月 1 日[進入限制狀態](https://reddit.com/comments/qk7qrj)：
 
 > [...] Sub 的發展是 PrivacyGuides.org 團隊多年來付出巨大努力的結果。 以你們每一個人，
 > 
@@ -88,11 +88,11 @@ After the launch of [r/PrivacyGuides](https://reddit.com/r/privacyguides), it wa
 
 Subreddit不屬於任何人，尤其不屬於品牌持有者。 他們屬於他們的社區，社區及其主持人決定支援轉移到r/PrivacyGuides。
 
-In the months since, BurungHantu has threatened and begged for returning Subreddit control to his account in [violation](https://reddit.com/r/redditrequest/wiki/top_mod_removal) of Reddit rules:
+此後幾個月，BurungHantu 持續威脅和祈求取回 Subreddit 的控制權，這已[違反](https://reddit.com/r/redditrequest/wiki/top_mod_removal) Reddit 規定：
 
 > 不允許任何版主對刪除申請進行報復。
 
-對於一個數千名用戶的社區來說，我們認為將這個龐大平臺的控制權歸還給放棄它超過一年的人是非常不尊重的，我們認為他們現在網站經營的品質低落。 Preserving the years of past discussions in that community is more important to us, and thus u/trai_dep and the rest of the Subreddit moderation team has made the decision to keep r/privacytoolsIO as-is.
+對於一個數千名用戶的社區來說，我們認為將這個龐大平臺的控制權歸還給放棄它超過一年的人是非常不尊重的，我們認為他們現在網站經營的品質低落。 保存該社群過去多年來的討論對我們來說更重要，因此 u/trai_dep 和 Subreddit 管理團隊的其他成員決定將 r/privacytoolsIO 保持原樣。
 
 ## OpenCollective 現況
 

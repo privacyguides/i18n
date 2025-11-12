@@ -5,7 +5,7 @@ description: 這些是我們的執行委員會正式通過的政策，並優先�
 
 這些都是 Privacy Guides 的執行委員會正式通過的政策，並優先於本網站上表達的所有其他聲明。
 
-The keywords **must**, **must not**, **required**, **shall**, **shall not**, **should**, **should not**, **recommended**, **may**, and **optional** are to be interpreted as described in [RFC 2119](https://datatracker.ietf.org/doc/html/rfc2119).
+**must**、**must not**、**required**、**shall**、**shall not**、**should**、**should not**、**recommended**、**may** 及 **optional** 等關鍵字的解釋方式，如 [RFC 2119](https://datatracker.ietf.org/doc/html/rfc2119) 所述。
 
 ## EP1: 免費提供產品樣品
 

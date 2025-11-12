@@ -1,6 +1,6 @@
 ---
-title: Commenting on PRs
-description: A guide on participating in Pull Request discussions.
+title: 對 PR 的討論
+description: 參與 Pull Request 討論的指南。
 ---
 
 Please refrain from using the general **Add a comment** box in GitHub PRs when leaving a comment or performing a review.
@@ -13,7 +13,7 @@ Comments that are instead left in the manner described below will have a built-i
 
 ![A screenshot of a comment in GitHub which has a built-in "reply" box, highlighted in orange.](../assets/img/meta/pr-threaded-comment.png)
 
-## Commenting
+## 評論
 
 To start a threaded comment, you should leave all comments under the :octicons-file-diff-16: **Files changed** tab in a PR.
 
@@ -33,7 +33,7 @@ To leave a comment _on a specific line_ of a PR, hover over the line where you'd
 
 Then, type your comment and click **Add single comment**.
 
-## Reviewing
+## 審核
 
 When performing a review, follow the same steps as above, but click **Start a review** (and subsequently, **Add a review comment**) instead of **Add single comment**.
 
@@ -41,4 +41,4 @@ Then, click the green **Finish your review** button at the top of the page.
 
 Do not leave any discussion comments in the _Leave a comment_ box in the review finalization pop-up. You can leave it blank, or leave a short note if it will not require any follow-up. To comment on something that will require further discussion, add a comment on a file as described above instead.
 
-Then, click **Submit review**.
+然後按下 **Submit review**。

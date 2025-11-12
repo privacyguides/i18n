@@ -1,5 +1,5 @@
 ---
-title: Donate
+title: 捐款
 description: The charitable mission of Privacy Guides relies on contributions from visitors like yourself. Anything you can do to support the project is hugely appreciated.
 ---
 
@@ -7,22 +7,22 @@ description: The charitable mission of Privacy Guides relies on contributions fr
 Support our mission to defend digital rights and spread the word about mass surveillance programs and other daily privacy invasions. 您可以幫助 Privacy Guides 的研究人員、活動人士和維護者建立資訊豐富的內容、託管私人數位服務，並在世界最需要的時候保護隱私權。
 
 <!-- markdownlint-disable-next-line -->
-[:material-heart:{ .pg-red } Become a Member](https://donate.magicgrants.org/privacyguides/membership){ class="md-button md-button--primary" data-portal="signup" }
+[:material-heart:{ .pg-red } 成為會員](https://donate.magicgrants.org/privacyguides/membership){ class="md-button md-button--primary" data-portal="signup" }
 
-[Become a Member (Cryptocurrency)](https://donate.magicgrants.org/privacyguides/membership){ class="md-button" }
-[One-Time Donation](https://donate.magicgrants.org/privacyguides/donate/privacyguides){ class="md-button" }
+[成為會員（加密貨幣）](https://donate.magicgrants.org/privacyguides/membership){ class="md-button" }
+[單次捐款](https://donate.magicgrants.org/privacyguides/donate/privacyguides){ class="md-button" }
 
 <small markdown>
 
-MAGIC Grants is our fiscal host, and their custom, open-source donation platform allows you to donate to our project with **Monero**, **Litecoin (MWEB)**, **Bitcoin**, or **debit/credit card**. You can also donate using [:simple-github: GitHub Sponsors](https://github.com/sponsors/privacyguides).
+MAGIC Grants is our fiscal host, and their custom, open-source donation platform allows you to donate to our project with **Monero**, **Litecoin (MWEB)**, **Bitcoin**, or **debit/credit card**. 您也可以透過 [:simple-github: GitHub Sponsors](https://github.com/sponsors/privacyguides) 捐款。
 
 </small>
 
-## Foundations & Organizations
+## 基金會與組織
 
-=== "Current Supporters"
+=== "目前的支持者"
 
-    Thank you to these organizations who significantly support Privacy Guides. (1)
+    感謝大力支持 Privacy Guides 的下列組織。 (1)
     { .annotate }
 
     1. Please contact <info@magicgrants.org> to inquire about giving. Privacy Guides reserves the right to rescind the membership of those who are unaligned with our mission or organization at any time. Organizational members have no ability to influence what content is recommended on the Privacy Guides website. Learn more about our [donation acceptance policy](donation-acceptance-policy.md).
@@ -37,11 +37,11 @@ MAGIC Grants is our fiscal host, and their custom, open-source donation platform
 
     </div>
 
-=== "Past Supporters"
+=== "過去的支持者"
 
-    Thank you to these organizations who have substantially supported our project in the past.
+    感謝過去曾實質支持本專案的下列組織。
 
-    - [Safing](https://safing.io){ rel=nofollow target=_blank }: 2019 – 2021
+    - [Safing](https://safing.io){ rel=nofollow target=_blank }：2019 – 2021
 
 ## Active Members
 
@@ -71,7 +71,7 @@ This is a list of our **active** [members](https://donate.magicgrants.org/privac
 </p>
 
 <p spaces-before="0">
-  <a href="https://hellotux.com/privacyguides">Buy on HelloTux.com</a>{ class="md-button" }
+  <a href="https://hellotux.com/privacyguides">到 HelloTux.com 購買</a>{ class="md-button" }
 </p>
 
 <h2 spaces-before="0">
@@ -83,11 +83,11 @@ This is a list of our **active** [members](https://donate.magicgrants.org/privac
 </p>
 
 <h2 spaces-before="0">
-  FAQ
+  常見問題
 </h2>
 
 <h3 spaces-before="0">
-  What is an organizational membership?
+  組織會員資格是什麼？
 </h3>
 
 <p spaces-before="0">
@@ -123,7 +123,7 @@ This is a list of our **active** [members](https://donate.magicgrants.org/privac
 </p>
 
 <h3 spaces-before="0">
-  How does Privacy Guides use donations?
+  Privacy Guides 如何使用捐款？
 </h3>
 
 <p spaces-before="0">
@@ -154,7 +154,7 @@ This is a list of our **active** [members](https://donate.magicgrants.org/privac
   </dd>
   
   <dt>
-    <strong x-id="1">Web Hosting and Infrastructure</strong>
+    <strong x-id="1">網頁代管與基礎建設</strong>
   </dt>
   
   <dd>

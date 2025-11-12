@@ -24,7 +24,7 @@ description: 以下是我們在對您提交項目給 Privacy Guides 時所考慮
 
 - 必須揭露您的從屬關係，即您在所提交專案中的職位。
 
-- Must have a security white paper if it is a project that involves the handling of sensitive information like a messenger, password manager, encrypted cloud storage, etc.
+- 如果是涉及處理敏感資訊的專案，例如通訊軟體、密碼管理器、加密雲端儲存等，必須有安全白皮書。
     - 關於第三方稽核，我們想知道您是否已接受稽核或已有此打算。 如果可以，請說明由誰執行稽核。
 
 - 必須說明專案在隱私權方面所帶來的好處。

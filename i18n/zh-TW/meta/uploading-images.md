@@ -9,7 +9,7 @@ description: 網站供稿者以正確格式和取得方式上傳圖片的指南�
 
 - 我們**偏好** SVG 影像，但如果沒有 SVG 影像，我們也可以使用 PNG 影像。 此外，對於封面圖片，我們希望它們是從 [Unsplash](https://unsplash.com) 取得，並且是 WebP 格式。
 
-Company logos should be square if possible, and at least 200x200px if they are PNGs (non-vector images).
+如果可能的話，公司圖示應盡可能為正方形，如果是 PNG（非向量圖），則至少為 200x200px。
 
 ## 最佳化
 
@@ -29,8 +29,8 @@ optipng -o7 file.png
 
 在 Inkscape：
 
-1. File > Save As...
-2. Set type to: Optimized SVG (*.svg)
+1. 檔案 > 另存新檔…
+2. 將類型設定為：最佳化 SVG（*.svg）
 
 在「 **選項** 」標籤中：
 
@@ -48,7 +48,7 @@ optipng -o7 file.png
 - [ ] 關閉 **移除 XML 宣告**
 - [x] 打開 **移除元數據**
 - [x] 開啟 **刪除評論**
-- [x] Turn on **Embedded raster images**
+- [x] 開啟**嵌入點陣圖**
 - [x] 打開 **啓用 viewboxing **
 
 在 **Pretty-printing**下的 **SVG 輸出** 標籤：
@@ -88,7 +88,7 @@ scour --set-precision=5 \
 
 ### WebP
 
-Use the [`cwebp`](https://developers.google.com/speed/webp/docs/using) command to convert PNG or JPEG image files to WebP format:
+使用 [cwebp](https://developers.google.com/speed/webp/docs/using) 指令將 PNG 或 JPEG 影像檔案轉換成 WebP 格式：
 
 ```bash
 cwebp -m 6 input_file -o output.webp

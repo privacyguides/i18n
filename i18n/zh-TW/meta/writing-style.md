@@ -64,7 +64,7 @@ Privacy Guides 的目標[受眾](https://plainlanguage.gov/guidelines/audience)�
 
 ## 簡明扼要
 
-> 沒必要的文字將會浪費大家的時間。 好的寫作就像生活對話。 省略讀者不需要知道的資訊。 This can be difficult as a subject-matter expert, so it’s important to have someone look at the information from the audience’s perspective.
+> 沒必要的文字將會浪費大家的時間。 好的寫作就像生活對話。 省略讀者不需要知道的資訊。 對於熟悉主題的專家來說可能很困難，因此找其他人從讀者的角度來檢視資訊是很重要的。
 
 來源： [plainlanguage.gov](https://plainlanguage.gov/guidelines/concise)
 
