@@ -7,7 +7,7 @@ cover: multi-factor-authentication.webp
 
 <small>Chroni przed następującymi zagrożeniami:</small>
 
-- [:material-target-account: Targeted Attacks](basics/common-threats.md#attacks-against-specific-individuals ""){.pg-red}
+- [:material-target-account: Ataki ukierunkowane](basics/common-threats.md#attacks-against-specific-individuals ""){.pg-red}
 
 <div class="admonition note" markdown>
 <p class="admonition-title">Hardware Keys</p>

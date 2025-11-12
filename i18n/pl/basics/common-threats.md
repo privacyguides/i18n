@@ -80,24 +80,24 @@ Systemy na komputery stacjonarne zwykle pozostają w tyle w kwestii piaskownic. 
 
 </div>
 
-## Attacks against Specific Individuals
+## Ataki wymierzone w konkretne osoby
 
-<span class="pg-red">:material-target-account: Targeted Attacks</span>
+<span class="pg-red">:material-target-account: Ataki ukierunkowane</span>
 
-Targeted attacks against a specific person are more problematic to deal with. Common attacks include sending malicious documents via email, exploiting vulnerabilities (e.g. in browsers and operating systems), and physical attacks. If this is a concern for you, you should employ more advanced threat mitigation strategies.
+Ataki ukierunkowane przeciwko konkretnej osobie są bardziej problematyczne. Do typowych ataków należą wysyłanie złośliwych dokumentów e-mailem, wykorzystywanie luk (np. w przeglądarkach i systemach operacyjnych) oraz ataki fizyczne. Jeśli to Cię dotyczy, warto wdrożyć bardziej zaawansowane strategie ograniczania zagrożeń.
 
 <div class="admonition tip" markdown>
 <p class="admonition-title">Porada</p>
 
-By design, **web browsers**, **email clients**, and **office applications** typically run untrusted code, sent to you from third parties. Running multiple virtual machines—to separate applications like these from your host system, as well as each other—is one technique you can use to mitigate the chance of an exploit in these applications compromising the rest of your system. For example, technologies like Qubes OS or Microsoft Defender Application Guard on Windows provide convenient methods to do this.
+Z założenia **przeglądarki internetowe**, **klienci poczty e-mail** i **aplikacje biurowe** zwykle uruchamiają niezaufany kod przesyłany od stron trzecich. Uruchamianie wielu maszyn wirtualnych — aby oddzielić tego typu aplikacje od systemu głównego oraz od siebie nawzajem — to jedna z technik zmniejszających ryzyko, że luki w tych aplikacjach naruszą resztę systemu. Na przykład technologie takie jak Qubes OS lub Microsoft Defender Application Guard w systemie Windows oferują wygodne sposoby realizacji takiego podejścia.
 
 </div>
 
-If you are concerned about **physical attacks** you should use an operating system with a secure verified boot implementation, such as Android, iOS, macOS, or [Windows (with TPM)](https://learn.microsoft.com/windows/security/information-protection/secure-the-windows-10-boot-process). You should also make sure that your drive is encrypted, and that the operating system uses a TPM or Secure [Enclave](https://support.apple.com/guide/security/secure-enclave-sec59b0b31ff/1/web/1) or [Element](https://developers.google.com/android/security/android-ready-se) to rate limit attempts to enter the encryption passphrase. You should avoid sharing your computer with people you don't trust, because most desktop operating systems don't encrypt data separately per-user.
+Jeśli obawiasz się **ataków fizycznych**, warto korzystać z systemu operacyjnego z bezpieczną implementacją zweryfikowanego rozruchu (ang. *verified boot*), takiego jak Android, iOS, macOS lub [Windows (z TPM)](https://learn.microsoft.com/windows/security/information-protection/secure-the-windows-10-boot-process). Nalezy również upewnić się, że dysk jest zaszyfrowany, a system operacyjny korzysta z TPM, Secure [Enclave](https://support.apple.com/guide/security/secure-enclave-sec59b0b31ff/1/web/1) lub [Element](https://developers.google.com/android/security/android-ready-se), aby ograniczać liczbę prób wprowadzenia hasła szyfrującego. Unikaj udostępniania komputera osobom, którym nie ufasz, ponieważ większość systemów operacyjnych dla komputerów stacjonarnych nie szyfruje danych oddzielnie dla każdego użytkownika.
 
-## Attacks against Certain Organizations
+## Ataki wymierzone w niektóre organizacje
 
-<span class="pg-viridian">:material-package-variant-closed-remove: Supply Chain Attacks</span>
+<span class="pg-viridian">:material-package-variant-closed-remove: Ataki na łańcuch dostaw</span>
 
 Supply chain attacks are frequently a form of <span class="pg-red">:material-target-account: Targeted Attack</span> towards businesses, governments, and activists, although they can end up compromising the public at large as well.
 
