@@ -19,7 +19,7 @@ Ochrona przed hakerami lub innymi cyberprzestępcami, którzy próbują uzyskać
 <span class="pg-viridian">:material-package-variant-closed-remove: **Ataki na łańcuch dostaw**</span>
 :
 
-Zwykle przyjmuję formę <span class="pg-red">:material-target-account: Ataku ukierunkowanego</span>, która koncentruje się wokół luki lub błędu w zabezpieczeniach wprowadzonego do pozornie dobrego oprogramowania — bezpośrednio lub przez zależność od strony trzeciej.
+Zwykle przyjmuję formę <span class="pg-red">:material-target-account: Ataku ukierunkowanego</span>, która koncentruje się wokół luki lub exploitu w zabezpieczeniach wprowadzonego do pozornie dobrego oprogramowania — bezpośrednio lub przez zależność od strony trzeciej.
 
 <span class="pg-orange">:material-bug-outline: **Ataki pasywne**</span>
 :
@@ -89,7 +89,7 @@ Ataki ukierunkowane przeciwko konkretnej osobie są bardziej problematyczne. Do 
 <div class="admonition tip" markdown>
 <p class="admonition-title">Porada</p>
 
-Z założenia **przeglądarki internetowe**, **klienci poczty e-mail** i **aplikacje biurowe** zwykle uruchamiają niezaufany kod przesyłany od stron trzecich. Uruchamianie wielu maszyn wirtualnych — aby oddzielić tego typu aplikacje od systemu głównego oraz od siebie nawzajem — to jedna z technik zmniejszających ryzyko, że luki w tych aplikacjach naruszą resztę systemu. Na przykład technologie takie jak Qubes OS lub Microsoft Defender Application Guard w systemie Windows oferują wygodne sposoby realizacji takiego podejścia.
+Z założenia **przeglądarki internetowe**, **klienci poczty e-mail** i **aplikacje biurowe** zwykle uruchamiają niezaufany kod przesyłany od stron trzecich. Uruchamianie wielu maszyn wirtualnych — aby oddzielić tego typu aplikacje od systemu głównego oraz od siebie nawzajem — to jedna z technik zmniejszających ryzyko, że exploity w tych aplikacjach naruszą resztę systemu. Na przykład technologie takie jak Qubes OS lub Microsoft Defender Application Guard w systemie Windows oferują wygodne sposoby realizacji takiego podejścia.
 
 </div>
 
@@ -99,22 +99,22 @@ Jeśli obawiasz się **ataków fizycznych**, warto korzystać z systemu operacyj
 
 <span class="pg-viridian">:material-package-variant-closed-remove: Ataki na łańcuch dostaw</span>
 
-Supply chain attacks are frequently a form of <span class="pg-red">:material-target-account: Targeted Attack</span> towards businesses, governments, and activists, although they can end up compromising the public at large as well.
+Ataki na łańcuch dostaw to często forma <span class="pg-red">:material-target-account: Ataku ukierunkowanego</span> wymierzonego w firmy, rządy i aktywistów, choć mogą one również zagrażać ogółowi społeczeństwa.
 
 <div class="admonition example" markdown>
 <p class="admonition-title">Przykład</p>
 
-A notable example of this occurred in 2017 when M.E.Doc, a popular accounting software in Ukraine, was infected with the *NotPetya* virus, subsequently infecting people who downloaded that software with ransomware. NotPetya itself was a ransomware attack which impacted 2000+ companies in various countries, and was based on the *EternalBlue* exploit developed by the NSA to attack Windows computers over the network.
+Znanym przypadkiem z 2017 r. było zainfekowanie popularnego ukraińskiego oprogramowania finansowo-księgowego M.E.Doc wirusem *NotPetya*, który następnie zainfekował użytkowników tego oprogramowania ransomware'em. NotPetya sam w sobie był atakiem ransomware, który dotknął ponad 2000 firm w różnych krajach i opierał się na exploicie *EternalBlue* opracowanym przez NSA do atakowania komputerów z systemem Windows przez sieć.
 
 </div>
 
-There are few ways in which this type of attack might be carried out:
+Ten rodzaj ataku może być przeprowadzony na kilka sposobów:
 
-1. A contributor or employee might first work their way into a position of power within a project or organization, and then abuse that position by adding malicious code.
-2. A developer may be coerced by an outside party to add malicious code.
-3. An individual or group might identify a third party software dependency (also known as a library) and work to infiltrate it with the above two methods, knowing that it will be used by "downstream" software developers.
+1. Współtwórca lub pracownik może najpierw wypracować sobie pozycję wpływu w projekcie lub organizacji, a następnie nadużyć jej, dodając złośliwy kod.
+2. Deweloper może zostać zmuszony przez podmiot zewnętrzny do dodania złośliwego kodu.
+3. Osoba lub grupa może zidentyfikować zależność zewnętrzną (bibliotekę) i spróbować ją zainfiltrować powyższymi metodami, wiedząc, że zostanie użyta przez deweloperów na szczeblu „downstream”.
 
-These sorts of attacks can require a lot of time and preparation to perform and are risky because they can be detected, particularly in open source projects if they are popular and have outside interest. Unfortunately they're also one of the most dangerous as they are very hard to mitigate entirely. We would encourage readers to only use software which has a good reputation and makes an effort to reduce risk by:
+Tego rodzaju ataki mogą wymagać dużo czasu i przygotowań oraz są ryzykowne, bo można je wykryć — szczególnie w popularnych projektach open source, na które zwraca się uwagę z zewnątrz. Niestety są też jednymi z najgroźniejszych, ponieważ trudno je całkowicie wyeliminować. We would encourage readers to only use software which has a good reputation and makes an effort to reduce risk by:
 
 1. Only adopting popular software that has been around for a while. The more interest in a project, the greater likelihood that external parties will notice malicious changes. A malicious actor will also need to spend more time gaining community trust with meaningful contributions.
 2. Finding software which releases binaries with widely-used, trusted build infrastructure platforms, as opposed to developer workstations or self-hosted servers. Some systems like GitHub Actions let you inspect the build script that runs publicly for extra confidence. This lessens the likelihood that malware on a developer's machine could infect their packages, and gives confidence that the binaries produced are in fact produced correctly.
