@@ -24,7 +24,7 @@ Pour tout le reste, nous recommandons une variété de fournisseurs d'email en f
 
 | Fournisseur                   | OpenPGP / WKD                          | IMAP / SMTP                                                               | Chiffrement zéro accès                                       | Méthodes de paiement anonymes                         |
 | ----------------------------- | -------------------------------------- | ------------------------------------------------------------------------- | ------------------------------------------------------------ | ----------------------------------------------------- |
-| [Proton Mail](#proton-mail)   | :material-check:{ .pg-green }          | :material-information-outline:{ .pg-blue } Abonnements payants uniquement | :material-check:{ .pg-green }                                | Cash <br>Monero via third party                 |
+| [Proton Mail](#proton-mail)   | :material-check:{ .pg-green }          | :material-information-outline:{ .pg-blue } Abonnements payants uniquement | :material-check:{ .pg-green }                                | Espèces <br>Monero via un tiers                 |
 | [Mailbox Mail](#mailbox-mail) | :material-check:{ .pg-green }          | :material-check:{ .pg-green }                                             | :material-information-outline:{ .pg-blue } E-mails seulement | Argent liquide                                        |
 | [Tuta](#tuta)                 | :material-alert-outline:{ .pg-orange } | :material-alert-outline:{ .pg-orange }                                    | :material-check:{ .pg-green }                                | Monero via third party <br>Cash via third party |
 
@@ -111,7 +111,7 @@ Les abonnés payants à Proton Mail peuvent utiliser leur propre domaine avec le
 
 #### :material-check:{ .pg-green } Modes de paiement privés
 
-Proton Mail [accepte](https://proton.me/support/payment-options) les **paiements en espèces** par courrier en plus des habituels paiements par carte de crédit/débit, [Bitcoin](advanced/payments.md#other-coins-bitcoin-ethereum-etc) et PayPal. Additionally, you can use [**Monero**](cryptocurrency.md#monero) to purchase vouchers for Proton Mail Plus or Proton Unlimited via their [official](https://discuss.privacyguides.net/t/add-monero-as-an-anonymous-payment-method-for-proton-services/31058/15) reseller [ProxyStore](https://dys2p.com/en/2025-09-09-proton.html).
+Proton Mail [accepte](https://proton.me/support/payment-options) les **paiements en espèces** par courrier en plus des habituels paiements par carte de crédit/débit, [Bitcoin](advanced/payments.md#other-coins-bitcoin-ethereum-etc) et PayPal. De plus, vous pouvez utiliser [**Monero**](cryptocurrency.md#monero) pour acheter des bons pour Proton Mail Plus ou Proton Unlimited via leur revendeur [officiel](https://discuss.privacyguides.net/t/add-monero-as-an-anonymous-payment-method-for-proton-services/31058/15) [ProxyStore](https://dys2p.com/en/2025-09-09-proton.html).
 
 #### :material-check:{ .pg-green } Sécurité du compte
 
@@ -307,7 +307,7 @@ Nous préférons que nos prestataires recommandés collectent le moins de donné
 
 **Dans le meilleur des cas :**
 
-- Devrait accepter les [options de paiement anonymes](advanced/payments.md)[ (crypto-monnaie](cryptocurrency.md), espèces, cartes-cadeaux, etc.).
+- Doit accepter les [options de paiement anonymes](advanced/payments.md) ([cryptomonnaie](cryptocurrency.md), espèces, cartes-cadeaux, etc.)
 - Devrait être hébergé dans une juridiction disposant de lois strictes en matière de protection de la confidentialité des courriels.
 
 ### Sécurité

@@ -143,11 +143,11 @@ Apple Mail peut charger le contenu distant en arrière-plan ou le bloquer compl�
 
 **Evolution** is a personal information management application that provides integrated mail, calendaring, and address book functionality. Evolution has extensive [documentation](https://gnome.pages.gitlab.gnome.org/evolution/help) to help you get started.
 
-[:octicons-home-16: Homepage](https://gitlab.gnome.org/GNOME/evolution/-/wikis/home){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://gitlab.gnome.org/GNOME/evolution/-/wikis/Privacy-Policy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://gnome.pages.gitlab.gnome.org/evolution/help){ .card-link title="Documentation" }
-[:octicons-code-16:](https://gitlab.gnome.org/GNOME/evolution){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://gnome.org/donate){ .card-link title="Contribute" }
+[:octicons-home-16: Page d'Accueil](https://wiki.gnome.org/Apps/Evolution){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://wiki.gnome.org/Apps/Evolution/PrivacyPolicy){ .card-link title="Politique de Confidentialité" }
+[:octicons-info-16:](https://help.gnome.org/users/evolution/stable){ .card-link title="Documentation" }
+[:octicons-code-16:](https://gitlab.gnome.org/GNOME/evolution){ .card-link title="Code Source" }
+[:octicons-heart-16:](https://gnome.org/donate){ .card-link title="Contribuer" }
 
 <details class="downloads" markdown>
 <summary>Télécharger</summary>

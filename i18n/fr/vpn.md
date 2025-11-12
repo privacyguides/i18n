@@ -253,7 +253,7 @@ Mullvad fournit le code source pour leurs clients de bureau et mobiles dans leur
 
 #### :material-check:{ .pg-green } Accepte l'argent liquide et le Monero
 
-Mullvad, en plus d'accepter les cartes de crédit/débit et PayPal, accepte le Bitcoin, le Bitcoin Cash, **le Monero** et **les espèces/la monnaie locale** comme formes de paiement anonymes. You can also purchase [prepaid cards](https://mullvad.net/en/help/partnerships-and-resellers) with redeem codes. Mullvad accepte également les virements Swish et les virements bancaires, ainsi que certains systèmes de paiement européens.
+Mullvad, en plus d'accepter les cartes de crédit/débit et PayPal, accepte le Bitcoin, le Bitcoin Cash, **le Monero** et **les espèces/la monnaie locale** comme formes de paiement anonymes. Vous pouvez également acheter des [cartes prépayées](https://mullvad.net/en/help/partnerships-and-resellers) avec des codes à échanger. Mullvad accepte également les virements Swish et les virements bancaires, ainsi que certains systèmes de paiement européens.
 
 #### :material-check:{ .pg-green } Prise en charge de WireGuard
 

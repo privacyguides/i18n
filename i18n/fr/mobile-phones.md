@@ -78,7 +78,7 @@ Secure Elements like the Titan M2 are more limited than the processor's Trusted 
 
 Les Pixels utilisent un système d'exploitation particulier pour le TEE appelé Trusty qui, contrairement à beaucoup d'autres téléphones, est [open source](https://source.android.com/security/trusty#whyTrusty).
 
-The Pixel 8 series and later supports ARM's Memory Tagging Extension ([MTE](https://developer.arm.com/documentation/108035/0100/Introduction-to-the-Memory-Tagging-Extension)), a hardware security enhancement that drastically lowers the probability of exploits occurring through memory corruption bugs. The stock Pixel OS allows you to enable MTE for supported apps through Google's Advanced Protection Program or via a developer option, but its usability is quite limited. [GrapheneOS](android/distributions.md#grapheneos), an alternative Android OS we recommend, greatly improves the usability and coverage of MTE in its implementation of the feature.
+The Pixel 8 series and later supports ARM's Memory Tagging Extension ([MTE](https://developer.arm.com/documentation/108035/0100/Introduction-to-the-Memory-Tagging-Extension)), a hardware security enhancement that drastically lowers the probability of exploits occurring through memory corruption bugs. The stock Pixel OS allows you to enable MTE for supported apps through Google's Advanced Protection Program or via a developer option, but its usability is quite limited. [GrapheneOS](android/distributions.md#grapheneos), un système Android alternatif que nous recommandons, améliore considérablement l’ergonomie et la couverture de MTE dans sa mise en œuvre de cette fonctionnalité.
 
 ### Buying a Google Pixel
 

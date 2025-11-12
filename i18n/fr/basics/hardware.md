@@ -48,9 +48,9 @@ Les TPM virtuels sont vulnérables aux attaques par canal auxiliaire et les TPM 
 
 Beaucoup d'appareil sont équipés de lecteur d'empreinte digitale ou de fonctions de reconnaissance faciale. Ces fonctions peuvent être très pratiques mais ne sont pas parfait et sont parfois susceptibles de ne pas fonctionner. Laplupart des appareils proposent un PIN ou un mot de passe lorsque cela se produit, ce qui signifie que la sécurité de l'appareil est toujours finalement conditionnée par le mot de passe.
 
-L'utilisation de fonction de biométrie peut empêcher quelqu'un de vous regarder taper votre mot de passe, si le "shoulder-surfing" (regarderr par dessus l'épaule) fait partie de votre modèle de menace, la biométrie peut être une bonne option.
+La biométrie peut empêcher quelqu’un d’observer la saisie de votre mot de passe. Si l’observation directe fait partie de votre modèle de menace, la biométrie est une bonne option.
 
-La plupart des implémentations de l'authentification par reconnaissance faciale exigent que vous regardiez votre téléphone et ne fonctionnent qu'à une distance relativement proche, de sorte que vous n'avez pas à vous inquiéter outre mesure que quelqu'un pointe votre téléphone vers votre visage pour le déverrouiller sans votre consentement. Vous pouvez toujours désactiver les données biométriques lorsque votre téléphone est verrouillé si vous le souhaitez. Sur iOS, vous pouvez maintenir le bouton latéral et un boutton de volume pendant 3 secondes pour désactiver Face ID sur les modèles qui le permettent. Surr Android, maintenez le bouton d'alimentation et appuyez sur Verrouillage (Lockdown) dans le menu.
+La plupart des implémentations de l'authentification par reconnaissance faciale exigent que vous regardiez votre téléphone et ne fonctionnent qu'à une distance relativement proche, de sorte que vous n'avez pas à vous inquiéter outre mesure que quelqu'un pointe votre téléphone vers votre visage pour le déverrouiller sans votre consentement. Vous pouvez toujours désactiver les données biométriques lorsque votre téléphone est verrouillé si vous le souhaitez. Sur iOS, vous pouvez maintenir le bouton latéral et un bouton de volume enfoncés pendant 3 secondes pour désactiver Face ID sur les modèles qui le prennent en charge. Sur Android, maintenez le bouton d’alimentation enfoncé et appuyez sur **Verrouillage** dans le menu.
 
 <div class="admonition warning" markdown>
 <p class="admonition-title">Avertissement</p>
@@ -122,7 +122,7 @@ As with all locks, Kensington locks are vulnerable to [physical attacks](https:/
 
 Il existe de nombreuses solutions qui vous permettent de séparer ce que vous faites sur un ordinateur, comme les machines virtuelles et le sandboxing. Cependant, le meilleur moyen de compartimentation est la séparation physique. Elle est particulièrement utile dans les cas où certains logiciels vous demandent de contourner les fonctionnalités de sécurité de votre système d'exploitation, comme avec des logiciels anti-triche intégrés à de nombreux jeux.
 
-Pour les jeux, il peut être utile de désigner une machine comme machine de "jeu" et de ne l'utiliser uniquement pour cette tâche. Gardez-le sur un VLAN séparé. Cela peut nécessiter l'utilisation d'un switch manageable et d'un routeur qui prend en charge les réseaux séparés.
+Pour les jeux, il peut être utile de désigner une machine comme machine de "jeu" et de ne l'utiliser uniquement pour cette tâche. Gardez-le sur un VLAN séparé. Cela peut nécessiter l’utilisation d’un switch administrable et d’un routeur prenant en charge des réseaux séparés.
 
 La plupart des routeurs grand public vous permettent de le faire en activant un réseau "invité" distinct qui ne peut pas communiquer avec votre réseau principal. Vous pouvez y connecter tous vos appareils non fiables, y compris les appareils IoT comme votre réfrigérateur intelligent, votre thermostat, votre téléviseur, etc.
 

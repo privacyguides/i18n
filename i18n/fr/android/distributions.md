@@ -58,7 +58,7 @@ GrapheneOS prend en charge [l'isolation Google Play] (https://grapheneos.org/usa
 
 GrapheneOS also provides a global toggle for enabling MTE on all user-installed apps at :gear: **Settings** → **Security & privacy** → **Exploit protection** → **Memory tagging** → **Enable by default**. The OS also features per-app toggles to opt out of MTE for apps which may crash due to compatibility issues.
 
-### Connectivity Checks
+### Vérifications de connectivité
 
 Par défaut, Android effectue de nombreuses connexions réseau avec Google pour effectuer des vérifications de connectivité DNS, pour se synchroniser avec l'heure actuelle du réseau, pour vérifier votre connectivité réseau et pour de nombreuses autres tâches d'arrière-plan. GrapheneOS vient remplacer celles-ci par des connexions à des serveurs opérés par GrapheneOS qui sont soumis à leur propre politique de confidentialité. Cela cache votre information comme votre adresse IP [de Google](../basics/common-threats.md#privacy-from-service-providers), mais fais en sorte qu'il est trivial pour un administrateur de votre réseau ou pour votre fournisseur d'accès internet que vous faites des connexions à `grapheneos.network`, `grapheneos.org`, etc. et de déuire quel système d'exploitation vous utilisez.
 
@@ -73,6 +73,6 @@ Si vous voulez cacher ce type d'information à une personne en particulier sur v
 - Doit recevoir les mises à jour majeures d'Android dans le mois suivant leur sortie.
 - Doit recevoir les mises à jour des fonctionnalités d'Android (version mineure) dans les deux semaines après leur sortie.
 - Doit recevoir les correctifs de sécurités réguliers dans les 5 jours suivants leur sortie.
-- **Ne** dois **pas** être fourni "rooted".
+- Ne doit **pas** être « rooté » dès sa sortie d’usine.
 - **Ne** dois **pas** activer les services Google Play par défaut.
 - **Ne** dois **pas** nécessiter une modification du système pour prendre en charge les services Google Play.
