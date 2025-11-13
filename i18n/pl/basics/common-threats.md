@@ -122,28 +122,28 @@ Tego rodzaju ataki mogą wymagać dużo czasu i przygotowań oraz są ryzykowne,
 4. Sprawdzanie, czy historia commitów zawiera sensowne komunikaty (takie jak [conventional commits](https://conventionalcommits.org)), które wyjaśniają, co ma osiągnąć każda zmiana. Jasne komunikaty ułatwiają osobom postronnym weryfikację, audyt i odnajdywanie błędów.
 5. Zwracanie uwagi na liczbę współtwórców i maintainerów projektu. Samotny deweloper może być bardziej podatny na przymus dodania złośliwego kodu przez podmiot zewnętrzny lub na niedbalstwo umożliwiające niepożądane zachowania — co często oznacza, że oprogramowanie tworzone przez tzw. *Big Tech* podlega większej kontroli niż projekt jednego dewelopera, który nie odpowiada przed nikim.
 
-## Privacy from Service Providers
+## Prywatność ze strony dostawców usług
 
-<span class="pg-teal">:material-server-network: Service Providers</span>
+<span class="pg-teal">:material-server-network: Dostawcy usług</span>
 
-We live in a world where almost everything is connected to the internet. Our "private" messages, emails, and social interactions are typically stored on a server, somewhere. Generally, when you send someone a message it's stored on a server, and when your friend wants to read the message the server will show it to them.
+Żyjemy w świecie, w którym prawie wszystko jest podłączone do Internetu. Nasze „prywatne” wiadomości, e-maile i interakcje społeczne zwykle są przechowywane na serwerze — gdzieś. Zwykle, gdy wysyłasz komuś wiadomość, jest ona zapisywana na serwerze, a kiedy twój znajomy chce ją przeczytać, serwer mu ją dostarcza.
 
-The obvious problem with this is that the service provider (or a hacker who has compromised the server) can access your conversations whenever and however they want, without you ever knowing. This applies to many common services, like SMS messaging, Telegram, and Discord.
+Oczywisty problem polega na tym, że dostawca usługi (albo haker, który włamał się na serwer) może uzyskać dostęp do twoich rozmów w dowolnym momencie i na dowolny sposób, bez twojej wiedzy. Dotyczy to wielu popularnych usług, jak SMS, Telegram czy Discord.
 
-Thankfully, E2EE can alleviate this issue by encrypting communications between you and your desired recipients before they are even sent to the server. The confidentiality of your messages is guaranteed, assuming the service provider doesn't have access to the private keys of either party.
+Na szczęście E2EE może złagodzić ten problem, szyfrując komunikację między tobą a wybranymi odbiorcami jeszcze zanim dane trafią na serwer. Poufność twoich wiadomości jest wtedy gwarantowana, pod warunkiem, że dostawca usługi nie ma dostępu do prywatnych kluczy żadnej ze stron.
 
 <div class="admonition note" markdown>
-<p class="admonition-title">Note on Web-based Encryption</p>
+<p class="admonition-title">Uwaga dotycząca szyfrowania w aplikacjach webowych</p>
 
-In practice, the effectiveness of different E2EE implementations varies. Applications, such as [Signal](../real-time-communication.md#signal), run natively on your device, and every copy of the application is the same across different installations. If the service provider were to introduce a [backdoor](https://en.wikipedia.org/wiki/Backdoor_(computing)) in their application—in an attempt to steal your private keys—it could later be detected with [reverse engineering](https://en.wikipedia.org/wiki/Reverse_engineering).
+W praktyce skuteczność różnych implementacji E2EE bywa różna. Aplikacje takie jak [Signal](../real-time-communication.md#signal) działają natywnie na twoim urządzeniu, a każda kopia aplikacji jest taka sama we wszystkich instalacjach. Gdyby dostawca usługi wprowadził w aplikacji tzw. [*backdoora*](https://en.wikipedia.org/wiki/Backdoor_(computing)) — w celu kradzieży twoich prywatnych kluczy — można by to później wykryć za pomocą [inżynierii wstecznej](https://pl.wikipedia.org/wiki/Inżynieria_odwrotna).
 
-On the other hand, web-based E2EE implementations, such as Proton Mail's web app or Bitwarden's *Web Vault*, rely on the server dynamically serving JavaScript code to the browser to handle cryptography. A malicious server can target you and send you malicious JavaScript code to steal your encryption key (and it would be extremely hard to notice). Because the server can choose to serve different web clients to different people—even if you noticed the attack—it would be incredibly hard to prove the provider's guilt.
+Z drugiej strony webowe implementacje E2EE, jak aplikacja webowa Proton Mail czy *Web Vault* Bitwardena, polegają na tym, że serwer dynamicznie dostarcza kod JavaScript do przeglądarki, który obsługuje kryptografię. Złośliwy serwer może wysłać Ci specjalny, zainfekowany kod JavaScript, aby ukraść Twój klucz szyfrujący (i bardzo trudno byłoby to zauważyć). Ponieważ serwer może serwować różne wersje klienta webowego różnym użytkownikom — nawet jeśli zauważy się atak, trudno byłoby udowodnić winę dostawcy.
 
-Therefore, you should use native applications over web clients whenever possible.
+Dlatego, gdy tylko jest to możliwe, należy używać aplikacji natywnych zamiast klientów webowych.
 
 </div>
 
-Even with E2EE, service providers can still profile you based on **metadata**, which typically isn't protected. While the service provider can't read your messages, they can still observe important things, such as whom you're talking to, how often you message them, and when you're typically active. Protection of metadata is fairly uncommon, and—if it's within your [threat model](threat-modeling.md)—you should pay close attention to the technical documentation of the software you're using to see if there's any metadata minimization or protection at all.
+Nawet przy E2EE dostawcy usług nadal mogą profilować Cię na podstawie **metadanych**, które zwykle nie są chronione. Choć dostawca nie może odczytać treści wiadomości, może obserwować istotne informacje, takie jak z kim rozmawiasz, jak często i kiedy zazwyczaj jesteś aktywny. Ochrona metadanych jest raczej rzadkością — jeśli ma to znaczenie w twoim [modelu zagrożeń](threat-modeling.md), zwróć szczególną uwagę na dokumentację techniczną używanego oprogramowania, aby sprawdzić, czy w ogóle istnieje jakakolwiek minimalizacja lub ochrona metadanych.
 
 ## Mass Surveillance Programs
 

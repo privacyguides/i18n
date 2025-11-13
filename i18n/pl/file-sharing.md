@@ -7,7 +7,7 @@ cover: file-sharing.webp
 
 <small>Chroni przed następującymi zagrożeniami:</small>
 
-- [:material-server-network: Service Providers](basics/common-threats.md#privacy-from-service-providers ""){.pg-teal}
+- [:material-server-network: Dostawcy usług](basics/common-threats.md#privacy-from-service-providers ""){.pg-teal}
 
 Dowiedz się, jak prywatnie udostępniać piki pomiędzy swoimi urządzeniami, ze znajomymi lub rodziną lub anonimowo w sieci.
 

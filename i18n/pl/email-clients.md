@@ -7,7 +7,7 @@ cover: email-clients.webp
 
 <small>Chroni przed następującymi zagrożeniami:</small>
 
-- [:material-server-network: Service Providers](basics/common-threats.md#privacy-from-service-providers ""){.pg-teal}
+- [:material-server-network: Dostawcy usług](basics/common-threats.md#privacy-from-service-providers ""){.pg-teal}
 - [:material-target-account: Ataki ukierunkowane](basics/common-threats.md#attacks-against-specific-individuals ""){.pg-red}
 
 The **email clients** we recommend support both [OpenPGP](encryption.md#openpgp) and strong authentication such as [Open Authorization (OAuth)](basics/account-creation.md#sign-in-with-oauth). OAuth allows you to use [Multi-Factor Authentication](basics/multi-factor-authentication.md) to prevent account theft.

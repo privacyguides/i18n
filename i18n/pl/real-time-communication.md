@@ -9,7 +9,7 @@ cover: real-time-communication.webp
 <small>Chroni przed następującymi zagrożeniami:</small>
 
 - [:material-bug-outline: Ataki pasywne](basics/common-threats.md#security-and-privacy ""){.pg-orange}
-- [:material-server-network: Service Providers](basics/common-threats.md#privacy-from-service-providers ""){.pg-teal}
+- [:material-server-network: Dostawcy usług](basics/common-threats.md#privacy-from-service-providers ""){.pg-teal}
 - [:material-eye-outline: Masowa inwigilacja](basics/common-threats.md#mass-surveillance-programs ""){.pg-blue}
 - [:material-account-cash: Kapitalizm inwigilacji](basics/common-threats.md#surveillance-as-a-business-model ""){.pg-brown}
 
