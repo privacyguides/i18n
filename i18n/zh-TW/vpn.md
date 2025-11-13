@@ -80,46 +80,46 @@ Proton VPN [在 127 個國家設有伺服器](https://protonvpn.com/vpn-servers)
 
 獨立安全研究員 Ruben Santamarta 分別於2024年9月及2025年1月對 Proton VPN 的[瀏覽器擴充套件](https://drive.proton.me/urls/RWDD2SHT98#v7ZrwNcafkG8)及其[應用程式](https://drive.proton.me/urls/RVW8TXG484#uTXX5Fc9GADo)進行了安全稽核。 自 2022 年起，Proton VPN 的基礎設施都會接受[年度稽核](https://protonvpn.com/blog/no-logs-audit)。
 
-在此之前，Proton VPN 已於2020年1月接受過 SEC Consult 的獨立稽核。 SEC Consult 在 Proton VPN Windows、Android 和 iOS 應用程式中發現一些中低風險漏洞，Proton VPN 已在報告發布之前全部 “妥善修復” 了這些漏洞。 所發現的問題都不會讓攻擊者遠端存取您的裝置或流量。 You can view individual reports for each platform in their dedicated [blog post](https://web.archive.org/web/20250307041036/https://protonvpn.com/blog/open-source) on the audit.
+在此之前，Proton VPN 已於2020年1月接受過 SEC Consult 的獨立稽核。 SEC Consult 在 Proton VPN Windows、Android 和 iOS 應用程式中發現一些中低風險漏洞，Proton VPN 已在報告發布之前全部 “妥善修復” 了這些漏洞。 所發現的問題都不會讓攻擊者遠端存取您的裝置或流量。 您可以在稽核的專屬[部落格文章](https://web.archive.org/web/20250307041036/https://protonvpn.com/blog/open-source)中檢視每個平台的個別報告。
 
 #### :material-check:{ .pg-green } 開源客戶端
 
-Proton VPN provides the source code for their desktop and mobile clients in their [GitHub organization](https://github.com/ProtonVPN).
+Proton VPN 在他們的 [GitHub 組織](https://github.com/ProtonVPN)中提供桌面與行動裝置客戶端的原始碼。
 
 #### :material-check:{ .pg-green } 接受現金
 
-Proton VPN, in addition to accepting credit/debit cards, PayPal, and [Bitcoin](advanced/payments.md#other-coins-bitcoin-ethereum-etc), also accepts **cash/local currency** as an anonymous form of payment. You can also use [**Monero**](cryptocurrency.md#monero) to purchase vouchers for Proton VPN Plus and Proton Unlimited via their [official](https://discuss.privacyguides.net/t/add-monero-as-an-anonymous-payment-method-for-proton-services/31058/15) reseller [ProxyStore](https://dys2p.com/en/2025-09-09-proton.html).
+除了信用卡/簽帳卡、PayPal 與 [比特幣](advanced/payments.md#other-coins-bitcoin-ethereum-etc)以外，Proton VPN 也接受**現金/當地貨幣**等匿名付款方式。 您也可以使用[**門羅幣**](cryptocurrency.md#monero)透過他們的[官方](https://discuss.privacyguides.net/t/add-monero-as-an-anonymous-payment-method-for-proton-services/31058/15)經銷商 [ProxyStore](https://dys2p.com/en/2025-09-09-proton.html) 購買 Proton VPN Plus 與 Proton Unlimited 的禮券。
 
 #### :material-check:{ .pg-green } 支援 WireGuard
 
-Proton VPN supports the WireGuard® protocol. [WireGuard](https://wireguard.com/protocol) 是一種較新的協議，使用最先進的[密碼學](https://wireguard.com)。 此外，WireGuard 的目標是更簡單，更高效。
+Proton VPN 支援 WireGuard® 協定。 [WireGuard](https://wireguard.com/protocol) 是一種較新的協議，使用最先進的[密碼學](https://wireguard.com)。 此外，WireGuard 的目標是更簡單，更高效。
 
-Proton VPN [推薦](https://protonvpn.com/blog/wireguard)搭配 WireGuard 使用。 Proton VPN also offers a WireGuard configuration generator for use with the official WireGuard [apps](https://wireguard.com/install).
+Proton VPN [推薦](https://protonvpn.com/blog/wireguard)搭配 WireGuard 使用。 ProtonVPN 也提供 WireGuard 設定檔產生器，可用於 WireGuard 的官方[應用程式](https://wireguard.com/install)。
 
 #### :material-alert-outline:{ .pg-orange } 有限的 IPv6 支援
 
-Proton [now supports IPv6](https://protonvpn.com/support/prevent-ipv6-vpn-leaks) in their browser extension and Linux client, but only 80% of their servers are IPv6-compatible. 在其他平台上，Proton VPN 客戶端會封鎖所有 IPv6 流量，因此您不必擔心您的 IPv6 位址會被洩漏，但您將無法連線到任何僅允許使用 IPv6 訪問的網站，也無法從僅限 IPv6 的網路連線到 Proton VPN。
+Proton 現在在其瀏覽器擴充套件與 Linux 客戶端中[支援 IPv6](https://protonvpn.com/support/prevent-ipv6-vpn-leaks)，但只有 80% 的伺服器相容於 IPv6。 在其他平台上，Proton VPN 客戶端會封鎖所有 IPv6 流量，因此您不必擔心您的 IPv6 位址會被洩漏，但您將無法連線到任何僅允許使用 IPv6 訪問的網站，也無法從僅限 IPv6 的網路連線到 Proton VPN。
 
 #### :material-information-outline:{ .pg-info } 遠端端口轉發
 
-Proton VPN 目前僅支援通過 NAT-PMP 進行短暫的[遠端端口轉發](https://protonvpn.com/support/port-forwarding)，租用時間為 60 秒。 The official Windows and Linux apps provide an easy-to-access option for it, while on other operating systems you'll need to run your own [NAT-PMP client](https://protonvpn.com/support/port-forwarding-manual-setup). BT 客戶端通常原生支援 NAT-PMP。
+Proton VPN 目前僅支援通過 NAT-PMP 進行短暫的[遠端端口轉發](https://protonvpn.com/support/port-forwarding)，租用時間為 60 秒。 官方的 Windows 與 Linux 應用程式為此提供了便捷的存取選項，而在其他作業系統上，您則需要自行執行 [NAT-PMP 客戶端](https://protonvpn.com/support/port-forwarding-manual-setup)。 BT 客戶端通常原生支援 NAT-PMP。
 
 #### :material-information-outline:{ .pg-blue } 突破網路審查
 
-Proton VPN has their [Stealth](https://protonvpn.com/blog/stealth-vpn-protocol) protocol which *may* help in situations where VPN protocols like OpenVPN or WireGuard are blocked with various rudimentary techniques. Stealth 將 VPN 隧道封裝在 TLS 會話中，使其看起來像是一般的網路流量。
+Proton VPN 有自己的 [Stealth](https://protonvpn.com/blog/stealth-vpn-protocol) 協定，在其它 VPN 協定如 OpenVPN 或 WireGuard 遭封鎖時*可能*有所幫助。 Stealth 將 VPN 隧道封裝在 TLS 會話中，使其看起來像是一般的網路流量。
 
 不幸的是，在部署了精密過濾器分析所有傳出流量以試圖發現加密隧道的國家，此方法的效果並不理想。 Stealth 可在 Android、iOS、Windows 和 macOS 上使用，但尚未在 Linux 上可用。
 
 #### :material-check:{ .pg-green } 行動裝置客戶端
 
-Proton VPN has published [App Store](https://apps.apple.com/app/id1437005085) and [Google Play](https://play.google.com/store/apps/details?id=ch.protonvpn.android) clients, both supporting an easy-to-use interface as opposed to requiring you to manually configure your WireGuard connection. The Android client is also available on [GitHub](https://github.com/ProtonVPN/android-app/releases).
+Proton 已在 [App Store](https://apps.apple.com/app/id1437005085) 與 [Google Play](https://play.google.com/store/apps/details?id=ch.protonvpn.android) 發佈客戶端，兩者皆提供簡易操作介面，無需手動設定 WireGuard 連線。 Android 客戶端同時也可以在 [GitHub](https://github.com/ProtonVPN/android-app/releases) 上取得。
 
 <div class="admonition warning" markdown>
-<p class="admonition-title">How to opt out of sharing telemetry</p>
+<p class="admonition-title">如何選擇退出分享遙測資料</p>
 
-On Android, Proton hides telemetry settings under the misleadingly labeled "**Help us fight censorship**" menu in the settings panel. On other platforms these settings can be found under the "**Usage statistics**" menu.
+在 Android 上，Proton 將遙測設定隱藏在設定面板中的「**協助我們對抗審查**」的選單下，容易誤解。 在其他平台上，這些設定可以在「**使用統計資料**」選單下找到。
 
-We are noting this because while we don't necessarily recommend against sharing anonymous usage statistics with developers, it is important that these settings are easily found and clearly labeled.
+我們特別指出這點是因為，我們雖然未必反對與開發者分享匿名的統計資料，但重要的是這些設定要容易找到並清楚標示。
 
 </div>
 
