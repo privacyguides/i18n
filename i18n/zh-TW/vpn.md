@@ -2,7 +2,7 @@
 meta_title: "隱私 VPN 服務建議和比較，無任何贊助商或廣告 - Privacy Guides"
 title: VPN 服務
 icon: material/vpn
-description: 保護您線上隱私與安全的最佳 VPN 服務。 Find a provider here that isn't out to spy on you.
+description: 保護您線上隱私與安全的最佳 VPN 服務。 在此尋找不會監控您的供應商。
 cover: vpn.webp
 global:
   - 
@@ -23,7 +23,7 @@ global:
 
 如果您追求的是 **匿名性** ，您應該使用 Tor 瀏覽器。 如果您正在尋求額外的 **安全性** ，您應該始終確保使用 HTTPS 連接到網站。 VPN不能取代良好的安全措施。
 
-[Introduction to the Tor Browser](tor.md#tor-browser){ .md-button .md-button--primary } [Tor Myths & FAQ](advanced/tor-overview.md){ .md-button }
+[Tor 瀏覽器的介紹](tor.md#tor-browser){ .md-button .md-button--primary } [Tor 的迷思與常見問答](advanced/tor-overview.md){ .md-button }
 
 </div>
 
@@ -33,11 +33,11 @@ global:
 
 我們推薦的供應商使用加密技術，支援 WireGuard & OpenVPN，並有無記錄政策。 閱讀我們[完整的標準清單](#criteria)，瞭解更多資訊。
 
-| 供應商                   | 國家   | WireGuard                     | 端口轉發                                        | IPv6                                              | 匿名付款方式                       |
-| --------------------- | ---- | ----------------------------- | ------------------------------------------- | ------------------------------------------------- | ---------------------------- |
-| [Proton](#proton-vpn) | 127+ | :material-check:{ .pg-green } | :material-alert-outline:{ .pg-orange } 部分支援 | :material-information-outline:{ .pg-blue } 有限支援   | Cash  Monero via third party |
-| [IVPN](#ivpn)         | 41+  | :material-check:{ .pg-green } | :material-alert-outline:{ .pg-orange }      | :material-information-outline:{ .pg-blue } 僅限連出流量 | Monero  Cash                 |
-| [Mullvad](#mullvad)   | 49+  | :material-check:{ .pg-green } | :material-alert-outline:{ .pg-orange }      | :material-check:{ .pg-green }                     | Monero  Cash                 |
+| 供應商                   | 國家   | WireGuard                     | 端口轉發                                        | IPv6                                              | 匿名付款方式        |
+| --------------------- | ---- | ----------------------------- | ------------------------------------------- | ------------------------------------------------- | ------------- |
+| [Proton](#proton-vpn) | 127+ | :material-check:{ .pg-green } | :material-alert-outline:{ .pg-orange } 部分支援 | :material-information-outline:{ .pg-blue } 有限支援   | 現金、透過第三方使用門羅幣 |
+| [IVPN](#ivpn)         | 41+  | :material-check:{ .pg-green } | :material-alert-outline:{ .pg-orange }      | :material-information-outline:{ .pg-blue } 僅限連出流量 | 門羅幣、現金        |
+| [Mullvad](#mullvad)   | 49+  | :material-check:{ .pg-green } | :material-alert-outline:{ .pg-orange }      | :material-check:{ .pg-green }                     | 門羅幣、現金        |
 
 ### Proton VPN
 
@@ -47,10 +47,10 @@ global:
 
 **Proton VPN** 是 VPN 領域的強大競爭者，自 2016 年開始營運。 Proton AG 總部位於瑞士，提供有限的免費方案，以及更多功能的付費方案。
 
-[:octicons-home-16: Homepage](https://protonvpn.com){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://protonvpn.com/privacy-policy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://protonvpn.com/support){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/ProtonVPN){ .card-link title="Source Code" }
+[:octicons-home-16: 首頁](https://protonvpn.com){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://protonvpn.com/privacy-policy){ .card-link title="隱私權政策" }
+[:octicons-info-16:](https://protonvpn.com/support){ .card-link title="文件" }
+[:octicons-code-16:](https://github.com/ProtonVPN){ .card-link title="原始碼" }
 
 <details class="downloads" markdown>
 <summary>下載</summary>
@@ -66,21 +66,21 @@ global:
 
 </div>
 
-#### :material-check:{ .pg-green } 127 Countries
+#### :material-check:{ .pg-green } 127 個國家
 
-Proton VPN has [servers in 127 countries](https://protonvpn.com/vpn-servers)(1) or [10](https://protonvpn.com/support/how-to-create-free-vpn-account) if you use their [free plan](https://protonvpn.com/blog/product-roadmap-winter-2025-2026).(2) Picking a VPN provider with a server nearest to you will reduce latency of the network traffic you send. 這是因為到達目的地的路徑較短 (跳數較少)。
+Proton VPN [在 127 個國家設有伺服器](https://protonvpn.com/vpn-servers)(1) 若您使用他們的[免費方案](https://protonvpn.com/blog/product-roadmap-winter-2025-2026)的話則是 [10](https://protonvpn.com/support/how-to-create-free-vpn-account) 個。(2) 選擇距離您最近的 VPN 供應商伺服器，可降低您傳送的網路流量延遲。 這是因為到達目的地的路徑較短 (跳數較少)。
 { .annotate }
 
-1. Of which at least 71 are virtual servers, meaning your IP will appear from the country but the server is in another. 12 more locations have both hardware and virtual servers. [Source](https://protonvpn.com/support/how-smart-routing-works)
-2. Last checked: 2025-10-28
+1. 其中至少有 71 個是虛擬伺服器，這代表了您的 IP 會顯示為來自該國，但伺服器卻在另一個國家。 另有 12 個地點同時擁有硬體與虛擬伺服器。 [來源](https://protonvpn.com/support/how-smart-routing-works)
+2. 上次檢查日期：2025-10-28
 
 我們認為，如果 VPN 供應商使用[專用伺服器](https://en.wikipedia.org/wiki/Dedicated_hosting_service)，而非採用更便宜、與其他客戶共享的解決方案 (例如[虛擬伺服器](https://en.wikipedia.org/wiki/Virtual_private_server))，對其私鑰的安全性會更好。
 
 #### :material-check:{ .pg-green } 獨立稽核
 
-Independent security researcher Ruben Santamarta conducted audits for Proton VPN's [browser extensions](https://drive.proton.me/urls/RWDD2SHT98#v7ZrwNcafkG8) and [apps](https://drive.proton.me/urls/RVW8TXG484#uTXX5Fc9GADo) in September 2024 and January 2025, respectively. Proton VPN's infrastrcture has undergone [annual audits](https://protonvpn.com/blog/no-logs-audit) by Securitum since 2022.
+獨立安全研究員 Ruben Santamarta 分別於2024年9月及2025年1月對 Proton VPN 的[瀏覽器擴充套件](https://drive.proton.me/urls/RWDD2SHT98#v7ZrwNcafkG8)及其[應用程式](https://drive.proton.me/urls/RVW8TXG484#uTXX5Fc9GADo)進行了安全稽核。 自 2022 年起，Proton VPN 的基礎設施都會接受[年度稽核](https://protonvpn.com/blog/no-logs-audit)。
 
-Previously, Proton VPN underwent an independent audit by SEC Consult in January 2020. SEC Consult 在 Proton VPN Windows、Android 和 iOS 應用程式中發現一些中低風險漏洞，Proton VPN 已在報告發布之前全部 “妥善修復” 了這些漏洞。 所發現的問題都不會讓攻擊者遠端存取您的裝置或流量。 You can view individual reports for each platform in their dedicated [blog post](https://web.archive.org/web/20250307041036/https://protonvpn.com/blog/open-source) on the audit.
+在此之前，Proton VPN 已於2020年1月接受過 SEC Consult 的獨立稽核。 SEC Consult 在 Proton VPN Windows、Android 和 iOS 應用程式中發現一些中低風險漏洞，Proton VPN 已在報告發布之前全部 “妥善修復” 了這些漏洞。 所發現的問題都不會讓攻擊者遠端存取您的裝置或流量。 You can view individual reports for each platform in their dedicated [blog post](https://web.archive.org/web/20250307041036/https://protonvpn.com/blog/open-source) on the audit.
 
 #### :material-check:{ .pg-green } 開源客戶端
 
@@ -164,7 +164,7 @@ System crashes [may occur](https://protonvpn.com/support/macos-t2-chip-kill-swit
 IVPN has [servers in 41 countries](https://ivpn.net/status).(1) Picking a VPN provider with a server nearest to you will reduce latency of the network traffic you send. 這是因為到達目的地的路徑較短 (跳數較少)。
 { .annotate }
 
-1. Last checked: 2025-10-28
+1. 上次檢查日期：2025-10-28
 
 我們認為，如果 VPN 供應商使用[專用伺服器](https://en.wikipedia.org/wiki/Dedicated_hosting_service)，而非採用更便宜、與其他客戶共享的解決方案 (例如[虛擬伺服器](https://en.wikipedia.org/wiki/Virtual_private_server))，對其私鑰的安全性會更好。
 
@@ -239,7 +239,7 @@ IVPN clients support two-factor authentication. IVPN 有「[反追蹤](https://i
 Mullvad has [servers in 49 countries](https://mullvad.net/servers).(1) Picking a VPN provider with a server nearest to you will reduce latency of the network traffic you send. 這是因為到達目的地的路徑較短 (跳數較少)。
 { .annotate }
 
-1. Last checked: 2025-10-28
+1. 上次檢查日期：2025-10-28
 
 我們認為，如果 VPN 供應商使用[專用伺服器](https://en.wikipedia.org/wiki/Dedicated_hosting_service)，而非採用更便宜、與其他客戶共享的解決方案 (例如[虛擬伺服器](https://en.wikipedia.org/wiki/Virtual_private_server))，對其私鑰的安全性會更好。
 
