@@ -41,7 +41,7 @@ Ochrona przed agencjami rządowymi, organizacjami, stronami i usługami, które 
 
 Ochrona przed dużymi sieciami reklamowymi, takimi jak Google i Facebook, oraz przed wieloma innymi zbieraczami danych stron trzecich.
 
-<span class="pg-green">:material-account-search: **Publiczna ekspozycja**</span>
+<span class="pg-green">:material-account-search: **Ekspozycja publiczna**</span>
 :
 
 Ograniczanie dostępnych o Tobie informacji w sieci — dla wyszukiwarek lub ogółu.
@@ -51,7 +51,7 @@ Ograniczanie dostępnych o Tobie informacji w sieci — dla wyszukiwarek lub og�
 
 Unikanie cenzurowanego dostępu do informacji lub sytuacji, w których Twoje wypowiedzi online są cenzurowane.
 
-Niektóre z tych zagrożeń mogą być dla Ciebie ważniejsze niż inne, w zależności od Twoich obaw. Na przykład programista mający dostęp do wartościowych lub krytycznych danych może przede wszystkim martwić się o <span class="pg-viridian">:material-package-variant-closed-remove: Ataki na łańcuch dostaw</span> i <span class="pg-red">:material-target-account: Ataki ukierunkowane</span>. Prawdopodobnie nadal będzie chciał chronić swoje dane osobowe przed wciągnięciem ich w programy <span class="pg-blue">:material-eye-outline: Masowej inwigilacji</span>. Podobnie wiele osób może przede wszystkim obawiać się <span class="pg-green">:material-account-search: Publicznej ekspozycji</span> swoich danych osobowych, ale i tak powinny być one czujne w kwestiach związanych z bezpieczeństwem, takich jak <span class="pg-orange">:material-bug-outline: Ataki pasywne</span> — na przykład złośliwe oprogramowanie atakujące ich urządzenia.
+Niektóre z tych zagrożeń mogą być dla Ciebie ważniejsze niż inne, w zależności od Twoich obaw. Na przykład programista mający dostęp do wartościowych lub krytycznych danych może przede wszystkim martwić się o <span class="pg-viridian">:material-package-variant-closed-remove: Ataki na łańcuch dostaw</span> i <span class="pg-red">:material-target-account: Ataki ukierunkowane</span>. Prawdopodobnie nadal będzie chciał chronić swoje dane osobowe przed wciągnięciem ich w programy <span class="pg-blue">:material-eye-outline: Masowej inwigilacji</span>. Podobnie wiele osób może przede wszystkim obawiać się <span class="pg-green">:material-account-search: Ekspozycji publicznej</span> swoich danych osobowych, ale i tak powinny być one czujne w kwestiach związanych z bezpieczeństwem, takich jak <span class="pg-orange">:material-bug-outline: Ataki pasywne</span> — na przykład złośliwe oprogramowanie atakujące ich urządzenia.
 
 ## Anonimowość a prywatność
 
@@ -181,51 +181,51 @@ W sieci możesz być śledzony za pomocą różnych metod, w tym między innymi:
 
 Jeśli obawiasz się systemów masowej inwigilacji, możesz zastosować następujące zalecenia: oddzielać swoje tożsamości online, wtapiać się w tłum innych użytkowników lub, gdy to możliwe, po prostu unikać podawania informacji identyfikujących.
 
-## Surveillance as a Business Model
+## Inwigilacja jako model biznesowy
 
 <span class="pg-brown">:material-account-cash: Kapitalizm inwigilacji</span>
 
-> Surveillance capitalism is an economic system centered around the capture and commodification of personal data for the core purpose of profit-making.[^3]
+> Kapitalizm inwigilacji to system gospodarczy oparty na przechwytywaniu i utowarowieniu danych osobowych w celach zarobkowych[^3].
 
-For many people, tracking and surveillance by private corporations is a growing concern. Pervasive ad networks, such as those operated by Google and Facebook, span the internet far beyond just the sites they control, tracking your actions along the way. Using tools like content blockers to limit network requests to their servers, and reading the privacy policies of the services you use can help you avoid many basic adversaries (although it can't completely prevent tracking).[^4]
+Dla wielu osób śledzenie i inwigilacja przez prywatne korporacje stają się coraz większym problemem. Wszechobecne sieci reklamowe, takie jak te obsługiwane przez Google i Facebook, obejmują Internet znacznie szerzej niż tylko serwisy, które kontrolują — śledząc Twoje działania po drodze. Korzystanie z narzędzi takich jak blokery treści w celu ograniczania żądań sieciowych do ich serwerów oraz zapoznawanie się z polityką prywatności usług, z których korzystasz, może pomóc uniknąć wielu podstawowych przeciwników (choć nie zapobiegnie śledzeniu całkowicie)[^4].
 
-Additionally, even companies outside the *AdTech* or tracking industry can share your information with [data brokers](https://en.wikipedia.org/wiki/Information_broker) (such as Cambridge Analytica, Experian, or Datalogix) or other parties. You can't automatically assume your data is safe just because the service you're using doesn't fall within the typical AdTech or tracking business model. The strongest protection against corporate data collection is to encrypt or obfuscate your data whenever possible, making it difficult for different providers to correlate data with each other and build a profile on you.
+Dodatkowo nawet firmy spoza branży *AdTech* czy klasycznych podmiotów śledzących mogą udostępniać Twoje dane [brokerom danych](https://en.wikipedia.org/wiki/Information_broker) (takim jak Cambridge Analytica, Experian czy Datalogix) lub innym podmiotom. Nie możesz automatycznie zakładać, że Twoje dane są bezpieczne tylko dlatego, że usługa, z której korzystasz, nie wpisuje się w typowy model biznesowy AdTech lub śledzenia. Najskuteczniejszą ochroną przed korporacyjnym gromadzeniem danych jest szyfrowanie lub zaciemnianie danych zawsze, gdy to możliwe, co utrudnia różnym dostawcom korelowanie między sobą informacji i budowanie profilu na Twój temat.
 
-## Limiting Public Information
+## Ograniczanie informacji publicznych
 
-<span class="pg-green">:material-account-search: Public Exposure</span>
+<span class="pg-green">:material-account-search: Ekspozycja publiczna</span>
 
-The best way to keep your data private is simply not making it public in the first place. Deleting unwanted information you find about yourself online is one of the best first steps you can take to regain your privacy.
+Najlepszym sposobem, by zachować prywatność danych, jest po prostu nie udostępniać ich publicznie w pierwszej kolejności. Usuwanie niechcianych informacji, które znajdziesz o sobie w sieci, to jeden z najlepszych pierwszych kroków do odzyskania prywatności.
 
-- [View our guide on account deletion :material-arrow-right-drop-circle:](account-deletion.md)
+- [Zobacz nasz przewodnik dotyczący usuwania kont :material-arrow-right-drop-circle:](account-deletion.md)
 
-On sites where you do share information, checking the privacy settings of your account to limit how widely that data is spread is very important. For example, enable "private mode" on your accounts if given the option: This ensures that your account isn't being indexed by search engines, and that it can't be viewed without your permission.
+Na stronach, gdzie udostępniasz informacje, bardzo ważne jest sprawdzenie ustawień prywatności konta, by ograniczyć zasięg ich rozpowszechniania. Na przykład włącz „tryb prywatny” na kontach, jeśli taka opcja jest dostępna: to sprawi, że Twoje konto nie będzie indeksowane przez wyszukiwarki i nie będzie można go oglądać bez Twojej zgody.
 
-If you've already submitted your real information to sites which shouldn't have it, consider using disinformation tactics, like submitting fictitious information related to that online identity. This makes your real information indistinguishable from the false information.
+Jeśli już podałeś(-aś) swoje prawdziwe dane w miejscach, gdzie nie powinno się ich ujawniać, rozważ stosowanie taktyk dezinformacyjnych, na przykład podawanie fikcyjnych informacji powiązanych z tą tożsamością online. To sprawia, że Twoje prawdziwe dane stają się nieodróżnialne od fałszywych.
 
-## Avoiding Censorship
+## Unikanie cenzury
 
 <span class="pg-blue-gray">:material-close-outline: Cenzura</span>
 
-Censorship online can be carried out (to varying degrees) by actors including totalitarian governments, network administrators, and service providers. These efforts to control communication and restrict access to information will always be incompatible with the human right to Freedom of Expression.[^5]
+Cenzura w sieci może być stosowana (w różnym stopniu) przez podmioty takie jak totalitarne rządy, administratorzy sieci czy dostawcy usług. Te wysiłki mające na celu kontrolowanie komunikacji i ograniczanie dostępu do informacji zawsze będą sprzeczne z prawem człowieka do wolności wypowiedzi[^5].
 
-Censorship on corporate platforms is increasingly common, as platforms like Twitter and Facebook give in to public demand, market pressures, and pressures from government agencies. Government pressures can be covert requests to businesses, such as the White House [requesting the takedown](https://nytimes.com/2012/09/17/technology/on-the-web-a-fine-line-on-free-speech-across-globe.html) of a provocative YouTube video, or overt, such as the Chinese government requiring companies to adhere to a strict regime of censorship.
+Cenzura na platformach korporacyjnych jest coraz powszechniejsza — platformy takie jak Twitter i Facebook ulegają naciskom opinii publicznej, presjom rynkowym oraz naciskom ze strony agencji rządowych. Naciski ze strony rządu mogą przybierać formę ukrytych żądań wobec firm, jak np. [wniosek Białego Domu o usunięcie](https://nytimes.com/2012/09/17/technology/on-the-web-a-fine-line-on-free-speech-across-globe.html) prowokacyjnego filmu na YouTube, albo formę jawną, jak w przypadku chińskiego rządu wymagającego od firm ścisłego przestrzegania reżimu cenzury.
 
-People concerned with the threat of censorship can use technologies like [Tor](../advanced/tor-overview.md) to circumvent it, and support censorship-resistant communication platforms like [Matrix](../social-networks.md#element), which doesn't have a centralized account authority that can close accounts arbitrarily.
+Osoby obawiające się ryzyka cenzury mogą używać technologii takich jak sieć [Tor](../advanced/tor-overview.md) do jej ominięcia i wspierać platformy odporne na cenzurę, np. [Matrix](../social-networks.md#element), które nie mają scentralizowanego organu zdolnego arbitralnie zamykać kont.
 
 <div class="admonition tip" markdown>
 <p class="admonition-title">Porada</p>
 
-While evading censorship itself can be easy, hiding the fact that you are doing it can be very problematic.
+Choć ominięcie cenzury samo w sobie może być proste, ukrycie faktu, że to robisz, bywa bardzo problematyczne.
 
-You should consider which aspects of the network your adversary can observe, and whether you have plausible deniability for your actions. For example, using [encrypted DNS](../advanced/dns-overview.md#what-is-encrypted-dns) can help you bypass rudimentary, DNS-based censorship systems, but it can't truly hide what you are visiting from your ISP. A VPN or Tor can help hide what you are visiting from network administrators, but can't hide that you're using those networks in the first place. Pluggable transports (such as Obfs4proxy, Meek, or Shadowsocks) can help you evade firewalls that block common VPN protocols or Tor, but your circumvention attempts can still be detected by methods like probing or [deep packet inspection](https://en.wikipedia.org/wiki/Deep_packet_inspection).
+Warto rozważyć, które części sieci może obserwować Twój przeciwnik oraz czy możesz wiarygodnie zaprzeczyć swoim działaniom. Na przykład korzystanie z [szyfrowanego DNS](../advanced/dns-overview.md#what-is-encrypted-dns) może pomóc obejść proste systemy cenzury oparte na DNS, ale nie ukryje przed twoim ISP tego, co odwiedzasz. VPN lub Tor mogą ukryć odwiedzane zasoby przed administratorami sieci, lecz nie ukryją faktu, że w ogóle korzystasz z tych sieci. Transporty wtykowe (ang. *pluggable transports*; takie jak Obfs4proxy, Meek czy Shadowsocks) mogą pomóc ominąć zapory blokujące popularne protokoły VPN lub Tor, ale Twoje próby obejścia mogą być nadal wykryte przez metody takie jak sondowanie czy [głęboka inspekcja pakietów](https://pl.wikipedia.org/wiki/Głęboka_inspekcja_pakietów).
 
 </div>
 
-You must always consider the risks of trying to bypass censorship, the potential consequences, and how sophisticated your adversary may be. You should be cautious with your software selection, and have a backup plan in case you are caught.
+Zawsze musisz rozważyć ryzyko związane z próbą ominięcia cenzury, możliwe konsekwencje oraz to, jak zaawansowany jest Twój przeciwnik. Bądź ostrożny przy wyborze oprogramowania i miej plan awaryjny na wypadek przyłapania.
 
-[^1]: Wikipedia: [*Mass Surveillance*](https://en.wikipedia.org/wiki/Mass_surveillance) and [*Surveillance*](https://en.wikipedia.org/wiki/Surveillance).
-[^2]: United States Privacy and Civil Liberties Oversight Board: [*Report on the Telephone Records Program Conducted under Section 215*](https://documents.pclob.gov/prod/Documents/OversightReport/ec542143-1079-424a-84b3-acc354698560/215-Report_on_the_Telephone_Records_Program.pdf)
-[^3]: Wikipedia: [*Surveillance capitalism*](https://en.wikipedia.org/wiki/Surveillance_capitalism)
-[^4]: "[Enumerating badness](https://ranum.com/security/computer_security/editorials/dumb)" (or, "listing all the bad things that we know about"), as many content blockers and antivirus programs do, fails to adequately protect you from new and unknown threats because they have not yet been added to the filter list. You should also employ other mitigation techniques.
+[^1]: Anglojęzyczna Wikipedia: [*Mass Surveillance*](https://en.wikipedia.org/wiki/Mass_surveillance) i [*Surveillance*](https://en.wikipedia.org/wiki/Surveillance).
+[^2]: [*Sprawozdanie Rady Nadzoru nad Prywatnością i Wolnościami Obywatelskimi dotyczące programu hurtowego gromadzenia danych telefonicznych na mocy sekcji 215 ustawy USA PATRIOT*](https://documents.pclob.gov/prod/Documents/OversightReport/ec542143-1079-424a-84b3-acc354698560/215-Report_on_the_Telephone_Records_Program.pdf)
+[^3]: Anglojęzyczna Wikipedia: [*Surveillance capitalism*](https://en.wikipedia.org/wiki/Surveillance_capitalism)
+[^4]: „[Enumerating badness](https://ranum.com/security/computer_security/editorials/dumb)” (dosł. „wyliczanie zła”, czyli „wypisywanie wszystkich znanych nam zagrożeń”), jak robi to wiele blokerów treści i programów antywirusowych, nie chroni Cię wystarczająco przed nowymi i nieznanymi zagrożeniami, ponieważ nie zostały one jeszcze dodane do listy filtrów. Należy stosować też inne techniki łagodzące ryzyko.
 [^5]: United Nations: [*Universal Declaration of Human Rights*](https://un.org/en/about-us/universal-declaration-of-human-rights).
