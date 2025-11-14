@@ -110,11 +110,11 @@ Le meilleur moyen d'éviter une attaque ciblée contre vous avant que l'appareil
 
 Assurez-vous que votre appareil prend en charge le démarrage sécurisé/le démarrage vérifié et qu'il est activé. Dans la mesure du possible, évitez de laisser votre appareil sans surveillance.
 
-### Kensington Locks
+### Verrous Kensington
 
-Many laptops come equipped with a [Kensington slot](https://www.kensington.com/solutions/product-category/security/?srsltid=AfmBOorQOlRnqRJOAqM-Mvl7wumed0wBdiOgktlvdidpMHNIvGfwj9VI) that can be used to secure your device with a **metal cable** that locks into the slot on your machine. These locks can be combination locks or keyed.
+De nombreux ordinateurs sont équipés d'une [encoche de sécurité Kensington](https://www.kensington.com/solutions/product-category/security/?srsltid=AfmBOorQOlRnqRJOAqM-Mvl7wumed0wBdiOgktlvdidpMHNIvGfwj9VI) qui peut être utilisée pour sécuriser votre appareil en insérant un **câble en métal** dans l'encoche de votre appareil. Ces verrous peuvent être à combinaison ou à clef.
 
-As with all locks, Kensington locks are vulnerable to [physical attacks](https://youtu.be/vgvCxL7dMJk) so you should mainly use them to deter petty theft. You can secure your laptop at home or even when you're out in public using a table leg or something that won't move easily.
+Comme pour tous les verrous, les verrous Kensington sont vulnérables aux [attaques physiques](https://youtu.be/vgvCxL7dMJk), vous devriez donc l'utiliser uniquement pour prévenir les petits vols. Vous pouvez sécuriser votre ordinateur portable chez vous, ou même en public, en utilisant un pied de table ou autre objet qui ne peux pas être déplacé facilement.
 
 ## Sécurisez votre réseau
 

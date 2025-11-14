@@ -43,7 +43,7 @@ Le plan gratuit offre 10 Go de stockage à condition que vous utilisiez le servi
 
 </div>
 
-The server-side source code and infrastructure which underpins Ente Photos underwent an audit by [Cure53](https://ente.io/blog/cern-audit) in October 2025. Previous audits were completed by [Cure53](https://ente.io/blog/cryptography-audit) in March 2023 and by [Fallible](https://ente.io/reports/Fallible-Audit-Report-19-04-2023.pdf) in April 2023.
+Le code source côté serveur et l'infrastructure qui sous-tendent Ente Photos ont été audité par [Cure53](https://ente.io/blog/cern-audit) en octobre 2025. Précédemment, des audits ont été mené par [Cure53](https://ente.io/blog/cryptography-audit) en mars 2023 et par [Fallible](https://ente.io/reports/Fallible-Audit-Report-19-04-2023.pdf) en avril 2023.
 
 ## Critères
 

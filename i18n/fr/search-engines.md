@@ -132,6 +132,6 @@ Nos critères optimaux représentent ce que nous aimerions voir d'un projet parf
 
     Brave Search: [*Politique de confidentialité de Brave Search*](https://search.brave.com/help/privacy-policy) [^2]: DuckDuckGo **enregistre** vos recherches à des fins d'amélioration de leur produit mais ne collecte pas votre adresse IP ou d'autres IPI.
 
-    DuckDuckGo Privacy Policy: [*We don't track you.*](https://duckduckgo.com/privacy) [^3]: Startpage logs details such as operating system, user agent, and language. Votre adresse IP, vos recherches, ou d'autres IPI ne sont pas conservées.
+    Politique de confidentialité de DuckDuckGo : [*Nous ne vous pistons pas.*](https://duckduckgo.com/privacy) [^3]: La page d'accueil enregistre certaines données comme le système d'exploitation, l'agent utilisateur et la langue. Votre adresse IP, vos recherches, ou d'autres IPI ne sont pas conservées.
 
     Notre politique de confidentialité : [*Comment avons-nous implémenté des analyses de données réellement anonymes*](https://startpage.com/en/privacy-policy#section-4)
