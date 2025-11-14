@@ -44,19 +44,19 @@ Nous recommandons d'installer GrapheneOS si vous avez un Google Pixel, puisqu'il
 
 GrapheneOS fournit des [renforcements de sécurité](https://en.wikipedia.org/wiki/Hardening_\(computing\)) et de confidentialité supplémentaire. Il dispose d'un [allocateur de mémoire renforcé](https://github.com/GrapheneOS/hardened_malloc), de permissions de réseau et de capteurs, et de diverses autres [fonctions de sécurité](https://grapheneos.org/features). GrapheneOS est également livré avec des mises à jour complètes du micrologiciel et des versions signées, de sorte que le démarrage sécurisé est entièrement pris en charge.
 
-[:octicons-home-16: Homepage](https://grapheneos.org){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://grapheneos.org/faq#privacy-policy){ .card-link title="Privacy Policy" }
+[:octicons-home-16: Page d'Accueil](https://grapheneos.org){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://grapheneos.org/faq#privacy-policy){ .card-link title="Politique de confidentialité" }
 [:octicons-info-16:](https://grapheneos.org/faq){ .card-link title="Documentation" }
-[:octicons-code-16:](https://grapheneos.org/source){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://grapheneos.org/donate){ .card-link title="Contribute" }
+[:octicons-code-16:](https://grapheneos.org/source){ .card-link title="Code Source" }
+[:octicons-heart-16:](https://grapheneos.org/donate){ .card-link title="Contribuer" }
 
 </div>
 
 GrapheneOS prend en charge [l'isolation Google Play] (https://grapheneos.org/usage#sandboxed-google-play), qui exécute les services Google Play de façon isolée, comme n'importe quelle autre application. Cela signifie que vous pouvez profiter de la plupart des avantages des services Google Play, comme les notifications, tout en vous donnant le contrôle total à leurs permissions et leurs accès, en plus de les limiter à un [profil professionnel](../os/android-overview.md#work-profile) ou à un [profil personnel](../os/android-overview.md#user-profiles) de votre choix.
 
-[Google Pixel phones](../mobile-phones.md#google-pixel) are the only devices that currently meet GrapheneOS's [hardware security requirements](https://grapheneos.org/faq#future-devices). The Pixel 8 and later support ARM's Memory Tagging Extension (MTE), a hardware security enhancement that drastically lowers the probability of exploits occurring through memory corruption bugs. GrapheneOS greatly expands the coverage of MTE on supported devices. Whereas the stock OS only allows you to opt in to a limited implementation of MTE via a developer option or Google's Advanced Protection Program, GrapheneOS features a more robust implementation of MTE by default in the system kernel, default system components, and their Vanadium web browser and its WebView.
+[Les téléphones Google Pixel](../mobile-phones.md#google-pixel) sont pour le moment les seuls appareils qui répondent aux [critères de sécurité hardware](https://grapheneos.org/faq#future-devices) de GrapheneOS. Les Pixels 8 et modèles ultérieurs prennent en charge l'Extension de Balisage de la Mémoire (Memory Tagging Extension, ou MTE) d'ARM, une amélioration de la sécurité hardware qui réduit considérablement la probabilité d'exploitation des bugs de corruption de la mémoire. GrapheneOS étend considérablement la couverture de MTE sur les appareils compatibles. Tandis que le système d'exploitation standard ne vous permet d'opter que pour une implémentation limitée de MTE via une option développeur ou le Programme de Protection Avancée de Google, GrapheneOS propose une implémentation plus robuste de MTE par défaut dans le noyau du système, les composants système par défaut ainsi que dans leur navigateur Vanadium et son WebView.
 
-GrapheneOS also provides a global toggle for enabling MTE on all user-installed apps at :gear: **Settings** → **Security & privacy** → **Exploit protection** → **Memory tagging** → **Enable by default**. The OS also features per-app toggles to opt out of MTE for apps which may crash due to compatibility issues.
+GrapheneOS propose également une option globale permettant d'activer MTE sur toutes les applications installées par l'utilisateur : :gear: **Paramètres** → **Sécurité et confidentialité** → **Protection contre l'exploitation** → **Memory tagging** → **Activer par défaut**. Il propose également une option de désactivation de MTE par application pour celles qui ne seraient pas compatibles.
 
 ### Vérifications de connectivité
 

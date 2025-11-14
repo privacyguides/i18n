@@ -159,5 +159,5 @@ CommonHealth est uniquement disponible aux Etats-Unis. Bien que l'application en
 ### Exigences minimales
 
 - Dois prendre en charge les mises à jour automatiques.
-- Ne doit pas stocker des données non chiffrées en ligne.
+- Ne dois pas stocker des données non chiffrées en ligne.
 - Dois fonctionner hors-ligne.

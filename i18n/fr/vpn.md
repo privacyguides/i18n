@@ -33,11 +33,11 @@ Si vous recherchez l'**anonymat**, vous devriez utiliser le navigateur Tor. Si v
 
 Les fournisseurs que nous recommandons utilisent le cryptage, supportent WireGuard & OpenVPN, et ont une politique de non journalisation. Lisez notre \[liste complète de critères\](#criteres) pour plus d'informations.
 
-| Fournisseur           | Pays | WireGuard                     | Redirection de port                                               | IPv6                                                               | Paiements anonymes                     |
-| --------------------- | ---- | ----------------------------- | ----------------------------------------------------------------- | ------------------------------------------------------------------ | -------------------------------------- |
-| [Proton](#proton-vpn) | 127+ | :material-check:{ .pg-green } | :material-alert-outline: { .pg-orange } Prise en charge partielle | :material-information-outline:{ .pg-blue } Prise en charge limitée | Cash Monero via une application tierce |
-| [IVPN](#ivpn)         | 41+  | :material-check:{ .pg-green } | :material-alert-outline:{ .pg-orange }                            | :material-information-outline:{ .pg-blue } Sortant seulement       | Monero  Cash                           |
-| [Mullvad](#mullvad)   | 49+  | :material-check:{ .pg-green } | :material-alert-outline:{ .pg-orange }                            | :material-check:{ .pg-green }                                      | Monero  Cash                           |
+| Fournisseur           | Pays | WireGuard                     | Redirection de port                                               | IPv6                                                               | Paiements anonymes                         |
+| --------------------- | ---- | ----------------------------- | ----------------------------------------------------------------- | ------------------------------------------------------------------ | ------------------------------------------ |
+| [Proton](#proton-vpn) | 127+ | :material-check:{ .pg-green } | :material-alert-outline: { .pg-orange } Prise en charge partielle | :material-information-outline:{ .pg-blue } Prise en charge limitée | Espèces, Monero via une application tierce |
+| [IVPN](#ivpn)         | 41+  | :material-check:{ .pg-green } | :material-alert-outline:{ .pg-orange }                            | :material-information-outline:{ .pg-blue } Sortant seulement       | Monero, espèces                            |
+| [Mullvad](#mullvad)   | 49+  | :material-check:{ .pg-green } | :material-alert-outline:{ .pg-orange }                            | :material-check:{ .pg-green }                                      | Monero, espèces                            |
 
 ### Proton VPN
 

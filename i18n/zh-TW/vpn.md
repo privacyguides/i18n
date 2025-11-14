@@ -212,13 +212,13 @@ IVPN 客戶端支援雙因素身份驗證。 IVPN 有「[反追蹤](https://ivpn
 
 ![Mullvad 標誌](assets/img/vpn/mullvad.svg){ align=right }
 
-**Mullvad** 是一個快速且便宜的 VPN，非常注重透明和安全性。 他們自 2009 年起開始營運。 Mullvad is based in Sweden and offers a 14-day money-back guarantee for [payment methods](https://mullvad.net/en/help/refunds) that allow it.
+**Mullvad** 是一個快速且便宜的 VPN，非常注重透明和安全性。 他們自 2009 年起開始營運。 Mullvad 總部位於瑞典，提供 14 天退款保證（前提是您的[付款方式](https://mullvad.net/en/help/refunds)允許）。
 
-[:octicons-home-16: Homepage](https://mullvad.net){ .md-button .md-button--primary }
-[:simple-torbrowser:](http://o54hon2e2vj6c7m3aqqu6uyece65by3vgoxxhlqlsvkmacw6a7m7kiad.onion){ .card-link title="Onion Service" }
-[:octicons-eye-16:](https://mullvad.net/en/help/privacy-policy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://mullvad.net/en/help){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/mullvad){ .card-link title="Source Code" }
+[:octicons-home-16: 首頁](https://mullvad.net){ .md-button .md-button--primary }
+[:simple-torbrowser:](http://o54hon2e2vj6c7m3aqqu6uyece65by3vgoxxhlqlsvkmacw6a7m7kiad.onion){ .card-link title="Onion 服務" }
+[:octicons-eye-16:](https://mullvad.net/en/help/privacy-policy){ .card-link title="隱私權政策" }
+[:octicons-info-16:](https://mullvad.net/en/help){ .card-link title="文件" }
+[:octicons-code-16:](https://github.com/mullvad){ .card-link title="原始碼" }
 
 <details class="downloads" markdown>
 <summary>下載</summary>
@@ -234,9 +234,9 @@ IVPN 客戶端支援雙因素身份驗證。 IVPN 有「[反追蹤](https://ivpn
 
 </div>
 
-#### :material-check:{ .pg-green } 49 Countries
+#### :material-check:{ .pg-green } 49 個國家
 
-Mullvad has [servers in 49 countries](https://mullvad.net/servers).(1) Picking a VPN provider with a server nearest to you will reduce latency of the network traffic you send. 這是因為到達目的地的路徑較短 (跳數較少)。
+Mullvad 在 [49 個國家有伺服器](https://mullvad.net/servers)。(1) 挑選擁有距您最近的伺服器的 VPN 供應商，可以減少傳送網路流量的延遲。 這是因為到達目的地的路徑較短 (跳數較少)。
 { .annotate }
 
 1. 上次檢查日期：2025-10-28
@@ -245,7 +245,7 @@ Mullvad has [servers in 49 countries](https://mullvad.net/servers).(1) Picking a
 
 #### :material-check:{ .pg-green } 獨立稽核
 
-Mullvad has had multiple [independent audits](https://mullvad.net/en/blog/tag/audits) and has publicly announced their endeavors to conduct [annual audits](https://mullvad.net/en/blog/no-pii-or-privacy-leaks-found-cure53s-infrastructure-audit) of their apps and infrastructure.
+Mullvad 已進行過多次[獨立稽核](https://mullvad.net/en/blog/tag/audits)，並公開宣佈他們致力於對應用程式與基礎架構進行[年度稽核](https://mullvad.net/en/blog/no-pii-or-privacy-leaks-found-cure53s-infrastructure-audit)。
 
 #### :material-check:{ .pg-green } 開源客戶端
 
@@ -253,13 +253,13 @@ Mullvad 在其 [GitHub 組織](https://github.com/mullvad/mullvadvpn-app) 中提
 
 #### :material-check:{ .pg-green } 接受現金和 Monero
 
-除了接受信用卡/簽帳卡和 PayPal 外， Mullvad 還接受比特幣, Bitcoin Cash **Monero** 和 **現金/當地貨幣** （年度方案繳費）作為匿名付款方式。 You can also purchase [prepaid cards](https://mullvad.net/en/help/partnerships-and-resellers) with redeem codes. Mullvad 也接受 Swish 和銀行電匯，以及一些歐洲的付款系統。
+除了接受信用卡/簽帳卡和 PayPal 外， Mullvad 還接受比特幣, Bitcoin Cash **Monero** 和 **現金/當地貨幣** （年度方案繳費）作為匿名付款方式。 您也可以購買帶有兌換碼的[預付卡](https://mullvad.net/en/help/partnerships-and-resellers)。 Mullvad 也接受 Swish 和銀行電匯，以及一些歐洲的付款系統。
 
 #### :material-check:{ .pg-green } 支援 WireGuard
 
 Mullvad 支援 WireGuard® 協議。 [WireGuard](https://wireguard.com/protocol) 是一種較新的協議，使用最先進的[密碼學](https://wireguard.com)。 此外，WireGuard 的目標是更簡單，更高效。
 
-Mullvad [建議](https://mullvad.net/en/help/why-wireguard)搭配 WireGuard 使用。 It is the only protocol supported on their mobile apps, and their desktop apps will [lose OpenVPN support](https://mullvad.net/en/blog/reminder-that-openvpn-is-being-removed) in 2025. Additionally, their servers will stop accepting OpenVPN connections by January 15, 2026. Mullvad 也提供 WireGuard 設定檔產生器，可用於 WireGuard 的官方[應用程式](https://wireguard.com/install)。
+Mullvad [建議](https://mullvad.net/en/help/why-wireguard)搭配 WireGuard 使用。 這是他們的行動裝置應用程式唯一支援的通訊協定，而他們的桌面應用程式將於 2025 年[放棄對 OpenVPN 的支援](https://mullvad.net/en/blog/reminder-that-openvpn-is-being-removed)。 此外，他們的伺服器也將在 2026 年 1 月 15 日停止接受 OpenVPN 連線。 Mullvad 也提供 WireGuard 設定檔產生器，可用於 WireGuard 的官方[應用程式](https://wireguard.com/install)。
 
 #### :material-check:{ .pg-green } IPv6 支援
 
@@ -273,7 +273,7 @@ Mullvad 曾支援遠端端口轉發，但在 [2023 年 5 月](https://mullvad.ne
 
 Mullvad 提供多種功能，協助繞過審查制度，自由存取網際網路：
 
-- **Obfuscation modes**: Mullvad has two built-in obfuscation modes: "UDP-over-TCP" and ["WireGuard over Shadowsocks"](https://mullvad.net/en/blog/introducing-shadowsocks-obfuscation-for-wireguard). 這些模式會將您的 VPN 流量偽裝成一般的網路流量，使審查員更難偵測和封鎖。 據說，中國會利用[新的方法來擾亂 Shadowsocks 路由的流量](https://gfw.report/publications/usenixsecurity23/en)。
+- **混淆模式**：Mullvad 內建兩種混淆模式：「UDP-over-TCP」與[「WireGuard over Shadowsocks」](https://mullvad.net/en/blog/introducing-shadowsocks-obfuscation-for-wireguard)。 這些模式會將您的 VPN 流量偽裝成一般的網路流量，使審查員更難偵測和封鎖。 據說，中國會利用[新的方法來擾亂 Shadowsocks 路由的流量](https://gfw.report/publications/usenixsecurity23/en)。
 - **使用 Shadowsocks 和 v2ray 進階混淆**：對於更進階的使用者，Mullvad 提供了如何在 Mullvad 用戶端同時使用 [Shadowsocks 以及 v2ray](https://mullvad.net/en/help/shadowsocks-with-v2ray) 外掛程式的指南。 此設定提供了額外的混淆和加密層。
 - **自訂伺服器 IP**：要對抗 IP 封鎖，您可以向 Mullvad 的支援團隊申請自訂伺服器 IP。 收到自訂 IP 後，您可以在「Server IP override」設定中輸入文字檔，這樣就可以用審查員不知道的 IP 位址覆寫所選的伺服器 IP 位址。
 - **橋接和代理**：Mullvad 也允許您使用橋接器或代理伺服器來存取他們的 API (驗證時需要)，這有助於繞過存取 API 的審查封鎖。
@@ -299,19 +299,19 @@ Mullvad 對於他們[自有或租用](https://mullvad.net/en/servers)的節點�
 
 ### 技術
 
-We require all our recommended VPN providers to provide standard configuration files which can be used in a generic, open-source client. **If** a VPN provides their own custom client, we require a kill switch to block network data leaks when disconnected.
+我們要求所有推薦的 VPN 供應商提供標準的設定檔，如此才能在通用的開放原始碼客戶端使用。 **若** VPN 提供了自己的客戶端，我們則要求要有 kill switch 來阻止未連線至 VPN 時洩漏網路資料。
 
 **最低合格要求：**
 
-- Support for strong protocols such as WireGuard.
-- Kill switch built in to clients.
-- Multi-hop support. Multi-hopping is important to keep data private in case of a single node compromise.
+- 支援強健的協定，如 WireGuard。
+- 客戶端內建 Kill switch。
+- 支援多重跳躍。 萬一單個節點被入侵，多重跳躍方式就非常重要，如此才能維持資料的隱密程度。
 - 如有提供 VPN 用戶端，則應為 [開源](https://en.wikipedia.org/wiki/Open_source)，一如所內建的 VPN 軟體。 我們相信，提供[原始碼](https://en.wikipedia.org/wiki/Source_code)可顯著提高透明度，讓我們知道程式實際在做什麼。
 - 抗審查功能可在沒有 DPI 的情況下繞過防火牆。
 
 **最佳情況：**
 
-- Kill switch with highly configurable options (enable/disable on certain networks, on boot, etc.)
+- Kill switch 具備高度可設定的選項（在特定的網路或開機時啟用/停用等等）
 - 易於使用的 VPN 客戶端
 - 支援 [IPv6](https://en.wikipedia.org/wiki/IPv6)。 我們希望伺服器能允許透過 IPv6 傳入連線，並允許您存取託管在 IPv6 位址上的服務。
 - [遠端端口轉發](https://en.wikipedia.org/wiki/Port_forwarding#Remote_port_forwarding) 的功能可協助在使用 P2P ([對等](https://en.wikipedia.org/wiki/Peer-to-peer)) 檔案共享軟體或自建伺服器 (例如 Mumble) 時建立連接。
@@ -329,11 +329,11 @@ We require all our recommended VPN providers to provide standard configuration f
 **最佳情況：**
 
 - 接受多種 [匿名付款方式](advanced/payments.md)。
-- No personal information accepted (auto-generated username, no email required, etc.).
+- 無需任何個人資訊（自動產生的使用者名稱、不需要電子郵件等等）。
 
 ### 安全
 
-若 VPN 不能提供足夠安全性，它就毫無意義。 We require all our recommended providers to abide by current security standards. 理想中，預設他們會使用更多面向未來的加密方案。 我們要求有獨立的第三方來審核供應商的安全性，理想情況下是每年都能進行全方方面審計。
+若 VPN 不能提供足夠安全性，它就毫無意義。 我們要求所有推薦的供應商均須遵守目前的安全標準。 理想中，預設他們會使用更多面向未來的加密方案。 我們要求有獨立的第三方來審核供應商的安全性，理想情況下是每年都能進行全方方面審計。
 
 **最低合格要求：**
 
@@ -370,7 +370,7 @@ We require all our recommended VPN providers to provide standard configuration f
 
 **最低合格要求：**
 
-- Must self-host analytics (i.e., no Google Analytics).
+- 必須自行架設分析工具（例如不使用 Google Analytics）。
 
 不得有任何不負責任的行銷：
 

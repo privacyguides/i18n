@@ -50,7 +50,7 @@ schema:
       url: "./"
 ---
 
-<small>Protège contre la (les) menace(s) suivante(s):</small>
+<small>Protège contre la(les) menace(s) suivante(s) :</small>
 
 - [:material-account-cash: Capitalisme de surveillance](basics/common-threats.md#surveillance-as-a-business-model ""){.pg-brown}
 
@@ -313,7 +313,7 @@ Safari vous permet de séparer votre navigation en différents profils. Tous vos
 
 - [x] Activer **Empêcher le Pistage Intersite**
 
-Cela permet d'activer la fonctionnalité de WebKit [Protection Intelligente contre le Pistage](https://webkit.org/tracking-prevention/#intelligent-tracking-prevention-itp). Cette fonctionnalité contribue à prévenir le pistage indésirable en utilisant un algorithme d'apprentissage local qui bloque les trackers. La PIS protège contre la plupart des menaces communes, néanmoins il est conçu pour avoir un impact minimal sur l'utilisation des sites et ne bloque donc pas tous les moyens de pistage.
+Cela permet d'activer la fonctionnalité de WebKit [Prévention Intelligente du Suivi](https://webkit.org/tracking-prevention/#intelligent-tracking-prevention-itp). Cette fonctionnalité contribue à prévenir le pistage indésirable en utilisant un algorithme d'apprentissage local qui bloque les trackers. La PIS protège contre la plupart des menaces communes, néanmoins il est conçu pour avoir un impact minimal sur l'utilisation des sites et ne bloque donc pas tous les moyens de pistage.
 
 - [x] Activer **Exiger Face ID/Touch ID pour déverrouiller la navigation privée**
 
