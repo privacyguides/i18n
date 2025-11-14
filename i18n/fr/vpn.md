@@ -23,7 +23,7 @@ L'utilisation d'un VPN n'assure **pas** l'anonymat de vos habitudes de navigatio
 
 Si vous recherchez l'**anonymat**, vous devriez utiliser le navigateur Tor. Si vous recherchez une **sécurité** supplémentaire, vous devriez toujours vous assurer que vous vous connectez à des sites web en utilisant HTTPS. Un VPN ne se substitue pas à de bonnes pratiques de sécurité.
 
-[Introduction to the Tor Browser](tor.md#tor-browser){ .md-button .md-button--primary } [Tor Myths & FAQ](advanced/tor-overview.md){ .md-button }
+[Introduction au Navigateur Tor](tor.md#tor-browser){ .md-button .md-button--primary } [Tor : mythes & FAQ](advanced/tor-overview.md){ .md-button }
 
 </div>
 
@@ -33,11 +33,11 @@ Si vous recherchez l'**anonymat**, vous devriez utiliser le navigateur Tor. Si v
 
 Les fournisseurs que nous recommandons utilisent le cryptage, supportent WireGuard & OpenVPN, et ont une politique de non journalisation. Lisez notre \[liste complète de critères\](#criteres) pour plus d'informations.
 
-| Fournisseur           | Pays | WireGuard                     | Redirection de port                                               | IPv6                                                               | Paiements anonymes           |
-| --------------------- | ---- | ----------------------------- | ----------------------------------------------------------------- | ------------------------------------------------------------------ | ---------------------------- |
-| [Proton](#proton-vpn) | 127+ | :material-check:{ .pg-green } | :material-alert-outline: { .pg-orange } Prise en charge partielle | :material-information-outline:{ .pg-blue } Prise en charge limitée | Cash  Monero via third party |
-| [IVPN](#ivpn)         | 41+  | :material-check:{ .pg-green } | :material-alert-outline:{ .pg-orange }                            | :material-information-outline:{ .pg-blue } Sortant seulement       | Monero  Cash                 |
-| [Mullvad](#mullvad)   | 49+  | :material-check:{ .pg-green } | :material-alert-outline:{ .pg-orange }                            | :material-check:{ .pg-green }                                      | Monero  Cash                 |
+| Fournisseur           | Pays | WireGuard                     | Redirection de port                                               | IPv6                                                               | Paiements anonymes                     |
+| --------------------- | ---- | ----------------------------- | ----------------------------------------------------------------- | ------------------------------------------------------------------ | -------------------------------------- |
+| [Proton](#proton-vpn) | 127+ | :material-check:{ .pg-green } | :material-alert-outline: { .pg-orange } Prise en charge partielle | :material-information-outline:{ .pg-blue } Prise en charge limitée | Cash Monero via une application tierce |
+| [IVPN](#ivpn)         | 41+  | :material-check:{ .pg-green } | :material-alert-outline:{ .pg-orange }                            | :material-information-outline:{ .pg-blue } Sortant seulement       | Monero  Cash                           |
+| [Mullvad](#mullvad)   | 49+  | :material-check:{ .pg-green } | :material-alert-outline:{ .pg-orange }                            | :material-check:{ .pg-green }                                      | Monero  Cash                           |
 
 ### Proton VPN
 
@@ -47,10 +47,10 @@ Les fournisseurs que nous recommandons utilisent le cryptage, supportent WireGua
 
 **Proton VPN** est un concurrent de poids dans l'espace VPN, et il est en service depuis 2016. Proton AG est basé en Suisse et propose une offre gratuite limitée, ainsi qu'une option premium plus complète.
 
-[:octicons-home-16: Homepage](https://protonvpn.com){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://protonvpn.com/privacy-policy){ .card-link title="Privacy Policy" }
+[:octicons-home-16: Page d'Accueil](https://protonvpn.com){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://protonvpn.com/privacy-policy){ .card-link title="Politique de Confidentialité" }
 [:octicons-info-16:](https://protonvpn.com/support){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/ProtonVPN){ .card-link title="Source Code" }
+[:octicons-code-16:](https://github.com/ProtonVPN){ .card-link title="Code Source" }
 
 <details class="downloads" markdown>
 <summary>Téléchargements</summary>
@@ -78,17 +78,17 @@ Nous pensons également qu'il est préférable pour la sécurité des clés priv
 
 #### :material-check:{ .pg-green } Audit indépendant
 
-Independent security researcher Ruben Santamarta conducted audits for Proton VPN's [browser extensions](https://drive.proton.me/urls/RWDD2SHT98#v7ZrwNcafkG8) and [apps](https://drive.proton.me/urls/RVW8TXG484#uTXX5Fc9GADo) in September 2024 and January 2025, respectively. Proton VPN's infrastrcture has undergone [annual audits](https://protonvpn.com/blog/no-logs-audit) by Securitum since 2022.
+Le chercheur indépendant en sécurité numérique Ruben Santamarta a mené un audit des [extensions de navigateur](https://drive.proton.me/urls/RWDD2SHT98#v7ZrwNcafkG8) et [des applications](https://drive.proton.me/urls/RVW8TXG484#uTXX5Fc9GADo) de Proton VPN en septembre 2024 et janvier 2025, respectivement. L'infrastructure de Proton VPN fait l'objet d'[audits annuels](https://protonvpn.com/blog/no-logs-audit) par Securitum depuis 2022.
 
-Previously, Proton VPN underwent an independent audit by SEC Consult in January 2020. SEC Consult a trouvé quelques vulnérabilités à risque moyen et faible dans les applications Windows, Android et iOS de Proton VPN, qui ont toutes été "correctement corrigées" par Proton VPN avant la publication des rapports. Aucun des problèmes identifiés n'aurait permis à un attaquant d'accéder à distance à votre appareil ou à votre trafic. You can view individual reports for each platform in their dedicated [blog post](https://web.archive.org/web/20250307041036/https://protonvpn.com/blog/open-source) on the audit.
+En janvier 2020., Proton VPN a fait l'objet d'un audit indépendant par SEC Consult. SEC Consult a trouvé quelques vulnérabilités à risque moyen et faible dans les applications Windows, Android et iOS de Proton VPN, qui ont toutes été "correctement corrigées" par Proton VPN avant la publication des rapports. Aucun des problèmes identifiés n'aurait permis à un attaquant d'accéder à distance à votre appareil ou à votre trafic. Vous pouvez consulter leur rapport sur chaque plateforme de Proton VPN dans leur [post de blog](https://web.archive.org/web/20250307041036/https://protonvpn.com/blog/open-source) dédié à l'audit.
 
 #### :material-check:{ .pg-green } Clients open source
 
-Proton VPN provides the source code for their desktop and mobile clients in their [GitHub organization](https://github.com/ProtonVPN).
+Proton VPN a mis à disposition le code source de leurs clients mobile et bureau dans leur [organisation GitHub](https://github.com/ProtonVPN).
 
 #### :material-check:{ .pg-green } Accepte l'argent liquide
 
-Proton VPN, in addition to accepting credit/debit cards, PayPal, and [Bitcoin](advanced/payments.md#other-coins-bitcoin-ethereum-etc), also accepts **cash/local currency** as an anonymous form of payment. You can also use [**Monero**](cryptocurrency.md#monero) to purchase vouchers for Proton VPN Plus and Proton Unlimited via their [official](https://discuss.privacyguides.net/t/add-monero-as-an-anonymous-payment-method-for-proton-services/31058/15) reseller [ProxyStore](https://dys2p.com/en/2025-09-09-proton.html).
+En plus d'accepter les paiements par carte bancaires, Paypal et [Bitcoin](advanced/payments.md#other-coins-bitcoin-ethereum-etc), Proton VPN accepte également les **espèces/monnaie locale** comme forme de paiement anonyme. Vous pouvez également utiliser [**Monero**](cryptocurrency.md#monero) pour acheter des bons d'achat pour Proton VPN Plus et Proton Unlimited via leur revendeur [officiel](https://discuss.privacyguides.net/t/add-monero-as-an-anonymous-payment-method-for-proton-services/31058/15), [ProxyStore](https://dys2p.com/en/2025-09-09-proton.html).
 
 #### :material-check:{ .pg-green } Prise en charge de WireGuard
 
@@ -139,10 +139,10 @@ Des crashs système[peuvent se produire](https://protonvpn.com/support/macos-t2-
 
 **IVPN** est un autre fournisseur de VPN haut de gamme, et il est en activité depuis 2009. IVPN est basé à Gibraltar et ne propose pas d'essai gratuit.
 
-[:octicons-home-16: Homepage](https://ivpn.net){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://ivpn.net/privacy){ .card-link title="Privacy Policy" }
+[:octicons-home-16: Page d'Accueil](https://ivpn.net){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://ivpn.net/privacy){ .card-link title="Politique de Confidentialité" }
 [:octicons-info-16:](https://ivpn.net/knowledgebase/general){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/ivpn){ .card-link title="Source Code" }
+[:octicons-code-16:](https://github.com/ivpn){ .card-link title="Code Source" }
 
 <details class="downloads" markdown>
 <summary>Téléchargements</summary>
@@ -178,7 +178,7 @@ Depuis février 2020, [les applications IVPN sont désormais open-source](https:
 
 #### :material-check:{ .pg-green } Accepte l'argent liquide et le Monero
 
-En plus d'accepter les cartes de crédit/débit et PayPal, IVPN accepte le Bitcoin, **le Monero** et **les espèces/la monnaie locale** (sur les abonnements annuels) comme formes de paiement anonymes. You can also purchase [prepaid cards](https://ivpn.net/knowledgebase/billing/voucher-cards-faq) with redeem codes.
+En plus d'accepter les cartes de crédit/débit et PayPal, IVPN accepte le Bitcoin, **le Monero** et **les espèces/la monnaie locale** (sur les abonnements annuels) comme formes de paiement anonymes. Vous pouvez également acheter des [cartes prépayées](https://ivpn.net/knowledgebase/billing/voucher-cards-faq) avec des codes d'échange.
 
 #### :material-check:{ .pg-green } Prise en charge de WireGuard
 
@@ -214,11 +214,11 @@ Les clients IVPN prennent en charge l'authentification à deux facteurs. IVPN pr
 
 **Mullvad** est un VPN rapide et peu coûteux qui met l'accent sur la transparence et la sécurité. Ils sont en activité depuis 2009. Mullvad est basé en Suède et offre une garantie de remboursement de 14 jours pour les [méthodes de paiement] (https://mullvad.net/fr/help/refunds) qui le permettent.
 
-[:octicons-home-16: Homepage](https://mullvad.net){ .md-button .md-button--primary }
-[:simple-torbrowser:](http://o54hon2e2vj6c7m3aqqu6uyece65by3vgoxxhlqlsvkmacw6a7m7kiad.onion){ .card-link title="Onion Service" }
-[:octicons-eye-16:](https://mullvad.net/en/help/privacy-policy){ .card-link title="Privacy Policy" }
+[:octicons-home-16: Page d'Accueil](https://mullvad.net){ .md-button .md-button--primary }
+[:simple-torbrowser:](http://o54hon2e2vj6c7m3aqqu6uyece65by3vgoxxhlqlsvkmacw6a7m7kiad.onion){ .card-link title="Service Onion" }
+[:octicons-eye-16:](https://mullvad.net/en/help/privacy-policy){ .card-link title="Politique de Confidentialité" }
 [:octicons-info-16:](https://mullvad.net/en/help){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/mullvad){ .card-link title="Source Code" }
+[:octicons-code-16:](https://github.com/mullvad){ .card-link title="Code Source" }
 
 <details class="downloads" markdown>
 <summary>Téléchargements</summary>

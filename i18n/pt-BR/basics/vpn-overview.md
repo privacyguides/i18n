@@ -103,11 +103,11 @@ One example of a commercially available MPR is Apple's iCloud+ Private Relay, wh
 
     Esse servidor realmente faz a conexão com o site de destino, mas não tem conhecimento do seu dispositivo. O único endereço IP que ele conhece é o do servidor da Apple.
 
-Other MPRs run by different companies operate in a very similar manner. This protection by segmentation only exists if you trust the two companies to not collude with each other to deanonymize you.
+Other MPRs run by different companies operate in a very similar manner. Esta proteção por segmentação somente existe se você confia nas duas empresas para não entrar em coluio uma com a outra e te desanonimizar você.
 
 ### VPNs descentralizadas
 
-Another attempt at solving the issues with centralized VPN services are dVPNs. These are based on blockchain technology and claim to eliminate trust in a single party by distributing the nodes across lots of different people. However, many times a dVPN will default to a single node, meaning you need to trust that node completely, just like a traditional VPN. Unlike a traditional VPN, this one node that can see all your traffic is a random person instead of your VPN provider that can be audited and has legal responsibilities to uphold their privacy policy. Multi-hop is needed to solve this, but that comes with a stability and performance cost.
+Outra tentativa de resolver os problemas com serviços de "VPN" centralizados, são "dVPNs". Estes são baseados em tecnologia "blockchain" e afirmam eliminar a confiança em uma única parte, distribuindo os nós entre muitas pessoas diferentes. However, many times a dVPN will default to a single node, meaning you need to trust that node completely, just like a traditional VPN. Unlike a traditional VPN, this one node that can see all your traffic is a random person instead of your VPN provider that can be audited and has legal responsibilities to uphold their privacy policy. Multi-hop is needed to solve this, but that comes with a stability and performance cost.
 
 Another consideration is legal liability. The exit node will need to deal with legal problems from misuse of the network, an issue that the Tor network has contended with for its entire existence. This discourages regular people from running nodes and makes it more attractive for a malicious actor with lots of resources to host one. This is a big problem if the service is single-node, as the potentially malicious exit node can see who you are and what you're connecting to.
 

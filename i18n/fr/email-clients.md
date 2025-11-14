@@ -141,7 +141,7 @@ Apple Mail peut charger le contenu distant en arrière-plan ou le bloquer compl�
 
 ![Logo de Evolution](assets/img/email-clients/evolution.svg){ align=right }
 
-**Evolution** est un gestionnaire d'informations personnelles qui fournit une messagerie électronique, un calendrier et un carnet d'adresse. Evolution has extensive [documentation](https://gnome.pages.gitlab.gnome.org/evolution/help) to help you get started.
+**Evolution** est un gestionnaire d'informations personnelles qui fournit une messagerie électronique, un calendrier et un carnet d'adresse. Leur [documentation](https://gnome.pages.gitlab.gnome.org/evolution/help) très complète vous permet de facilement configurer l'application.
 
 [:octicons-home-16: Page d'Accueil](https://wiki.gnome.org/Apps/Evolution){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://wiki.gnome.org/Apps/Evolution/PrivacyPolicy){ .card-link title="Politique de Confidentialité" }

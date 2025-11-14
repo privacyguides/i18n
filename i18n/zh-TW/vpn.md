@@ -125,11 +125,11 @@ Proton 已在 [App Store](https://apps.apple.com/app/id1437005085) 與 [Google P
 
 #### :material-information-outline:{ .pg-blue } 補充說明
 
-Proton VPN clients support two-factor authentication on all platforms. Proton VPN 在瑞士、冰島和瑞典擁有自己的伺服器和資料中心。 他們透過自己的 DNS 服務，提供內容封鎖和已知的惡意軟體網域。 此外，Proton VPN 還提供 "Tor" 伺服器，可輕鬆連接到洋蔥網站，但我們仍然強烈建議您使用 [官方 Tor 瀏覽器](tor.md#tor-browser) 來完成此類目的。
+Proton VPN 客戶端目前在所有平台上都支援雙因素身份驗證。 Proton VPN 在瑞士、冰島和瑞典擁有自己的伺服器和資料中心。 他們透過自己的 DNS 服務，提供內容封鎖和已知的惡意軟體網域。 此外，Proton VPN 還提供 "Tor" 伺服器，可輕鬆連接到洋蔥網站，但我們仍然強烈建議您使用 [官方 Tor 瀏覽器](tor.md#tor-browser) 來完成此類目的。
 
-##### :material-alert-outline:{ .pg-orange } Kill switch feature is broken on Intel-based Macs
+##### :material-alert-outline:{ .pg-orange } Kill switch 功能在使用 Intel 處理器的 Mac 電腦上是壞的
 
-System crashes [may occur](https://protonvpn.com/support/macos-t2-chip-kill-switch) on Intel-based Macs when using the VPN kill switch. 如果您需要此功能，但使用的是搭載 Intel 處理器的 Mac 電腦 ，則應考慮使用其他 VPN 服務。
+使用 Intel 處理器的 Mac 電腦若使用 VPN kill switch 可能會[導致](https://protonvpn.com/support/macos-t2-chip-kill-switch)系統當機。 如果您需要此功能，但使用的是搭載 Intel 處理器的 Mac 電腦 ，則應考慮使用其他 VPN 服務。
 
 ### IVPN
 
@@ -139,13 +139,13 @@ System crashes [may occur](https://protonvpn.com/support/macos-t2-chip-kill-swit
 
 **IVPN** 是另一個高級 VPN 供應商，自 2009 年開始運營。 IVPN 位於直布羅陀，不提供免費試用。
 
-[:octicons-home-16: Homepage](https://ivpn.net){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://ivpn.net/privacy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://ivpn.net/knowledgebase/general){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/ivpn){ .card-link title="Source Code" }
+[:octicons-home-16: 首頁](https://ivpn.net){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://ivpn.net/privacy){ .card-link title="隱私權政策" }
+[:octicons-info-16:](https://ivpn.net/knowledgebase/general){ .card-link title="文件" }
+[:octicons-code-16:](https://github.com/ivpn){ .card-link title="原始碼" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>下載</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=net.ivpn.client)
 - [:simple-appstore: App Store](https://apps.apple.com/app/id1193122683)
@@ -159,9 +159,9 @@ System crashes [may occur](https://protonvpn.com/support/macos-t2-chip-kill-swit
 
 </div>
 
-#### :material-check:{ .pg-green } 41 Countries
+#### :material-check:{ .pg-green } 41 個國家
 
-IVPN has [servers in 41 countries](https://ivpn.net/status).(1) Picking a VPN provider with a server nearest to you will reduce latency of the network traffic you send. 這是因為到達目的地的路徑較短 (跳數較少)。
+IVPN 在 [41 個國家有伺服器](https://ivpn.net/status)。(1) 挑選擁有距您最近的伺服器的 VPN 供應商，可以減少傳送網路流量的延遲。 這是因為到達目的地的路徑較短 (跳數較少)。
 { .annotate }
 
 1. 上次檢查日期：2025-10-28
@@ -170,7 +170,7 @@ IVPN has [servers in 41 countries](https://ivpn.net/status).(1) Picking a VPN pr
 
 #### :material-check:{ .pg-green } 獨立稽核
 
-IVPN has had multiple [independent audits](https://ivpn.net/en/blog/tags/audit) since 2019 and has publicly announced their commitment to [annual security audits](https://ivpn.net/blog/ivpn-apps-security-audit-concluded).
+IVPN 自 2019 年以來已進行過多次[獨立稽核](https://ivpn.net/en/blog/tags/audit)，並公開宣佈承諾[每年進行安全稽核](https://ivpn.net/blog/ivpn-apps-security-audit-concluded)。
 
 #### :material-check:{ .pg-green } 開源客戶端
 
@@ -178,7 +178,7 @@ IVPN has had multiple [independent audits](https://ivpn.net/en/blog/tags/audit) 
 
 #### :material-check:{ .pg-green } 接受現金和 Monero
 
-除了接受信用卡/簽帳卡和 PayPal 外，IVPN 還接受比特幣、**Monero** 和 **現金/當地貨幣** (僅限年度方案) 作為匿名付款方式。 You can also purchase [prepaid cards](https://ivpn.net/knowledgebase/billing/voucher-cards-faq) with redeem codes.
+除了接受信用卡/簽帳卡和 PayPal 外，IVPN 還接受比特幣、**Monero** 和 **現金/當地貨幣** (僅限年度方案) 作為匿名付款方式。 您也可以購買帶有兌換碼的[預付卡](https://ivpn.net/knowledgebase/billing/voucher-cards-faq)。
 
 #### :material-check:{ .pg-green } 支援 WireGuard
 
@@ -196,15 +196,15 @@ IVPN 曾支援遠端端口轉發，但在 [2023 年 6 月](https://ivpn.net/blog
 
 #### :material-check:{ .pg-green } 突破網路審查
 
-IVPN has obfuscation modes using [V2Ray](https://v2ray.com/en/index.html) which helps in situations where VPN protocols like OpenVPN or WireGuard are blocked. Currently, this feature is only available on Desktop and [iOS](https://ivpn.net/knowledgebase/ios/v2ray). 可透過 QUIC 或 TCP 兩種模式連接 [VMess](https://guide.v2fly.org/en_US/basics/vmess.html)。 QUIC 是一個新的傳輸協議，具有更好的擁塞控制，因此可能速度更快，且延遲更低。 TCP 模式的數據呈現為一般的 HTTP 流量。
+IVPN 有使用 [V2Ray](https://v2ray.com/en/index.html) 的混淆模式，這有助於在 OpenVPN 或 WireGuard 等 VPN 協定被封鎖時繞過審查。 此功能目前僅支援桌面版與 [iOS](https://ivpn.net/knowledgebase/ios/v2ray)。 可透過 QUIC 或 TCP 兩種模式連接 [VMess](https://guide.v2fly.org/en_US/basics/vmess.html)。 QUIC 是一個新的傳輸協議，具有更好的擁塞控制，因此可能速度更快，且延遲更低。 TCP 模式的數據呈現為一般的 HTTP 流量。
 
 #### :material-check:{ .pg-green } 行動裝置客戶端
 
-IVPN has published [App Store](https://apps.apple.com/app/id1193122683) and [Google Play](https://play.google.com/store/apps/details?id=net.ivpn.client) clients, both supporting an easy-to-use interface as opposed to requiring you to manually configure your WireGuard connection. The Android client is also available on [GitHub](https://github.com/ivpn/android-app/releases).
+IVPN 已在 [App Store](https://apps.apple.com/app/id1193122683) 與 [Google Play](https://play.google.com/store/apps/details?id=net.ivpn.client) 發佈客戶端，兩者皆提供易用的使用者介面，您不需要手動設定 WIreGuard 連線。 Android 客戶端同時也在 [GitHub](https://github.com/ivpn/android-app/releases) 上提供。
 
 #### :material-information-outline:{ .pg-blue } 補充說明
 
-IVPN clients support two-factor authentication. IVPN 有「[反追蹤](https://ivpn.net/antitracker)」功能，以阻絕來自網路層的廣告與追蹤。
+IVPN 客戶端支援雙因素身份驗證。 IVPN 有「[反追蹤](https://ivpn.net/antitracker)」功能，以阻絕來自網路層的廣告與追蹤。
 
 ### Mullvad
 
