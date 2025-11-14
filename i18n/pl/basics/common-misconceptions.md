@@ -20,7 +20,7 @@ schema:
         acceptedAnswer:
           "@type": Answer
           text: |
-            Często mówimy o „przenoszeniu zaufania” przy rozwiązaniach takich jak VPN (które przenoszą zaufanie, jakie pokładasz w swoim dostawcy usług internetowych, na dostawcę VPN). Choć chroni to Twoje dane przeglądania przed ISP, wybrany dostawca VPN nadal ma do nich dostęp — Twoje dane nie są więc całkowicie zabezpieczone przed wszystkimi podmiotami.
+            Często mówimy o „przenoszeniu zaufania” w kontekści narzędzi takich jak VPN (które przenoszą zaufanie, jakie pokładasz w swoim dostawcy usług internetowych, na dostawcę VPN). Choć chroni to Twoje dane przeglądania przed ISP, wybrany dostawca VPN nadal ma do nich dostęp — Twoje dane nie są więc całkowicie zabezpieczone przed wszystkimi podmiotami.
       - 
         "@type": Question
         name: Czy rozwiązania nastawione na prywatność są z natury godne zaufania?
@@ -40,20 +40,20 @@ schema:
 
 ## „Oprogramowanie open-source jest zawsze bezpieczne” albo „Oprogramowanie własnościowe jest bezpieczniejsze”
 
-These myths stem from a number of prejudices, but whether the source code is available and how software is licensed does not inherently affect its security in any way. ==Open-source software has the *potential* to be more secure than proprietary software, but there is absolutely no guarantee this is the case.== When you evaluate software, you should look at the reputation and security of each tool on an individual basis.
+Te mity wynikają z różnych uprzedzeń, ale dostępność kodu źródłowego i sposób licencjonowania nie mają samych w sobie żadnego wrodzonego wpływu na bezpieczeństwo. ==Oprogramowanie open-source może być *potencjalnie* bezpieczniejsze niż oprogramowanie własnościowe, ale nie ma absolutnie żadnej gwarancji, że tak faktycznie będzie.== Ocena bezpieczeństwa powinna się odbywać osobno dla każdego narzędzia, z uwzględnieniem jego reputacji i rzeczywistych standardów bezpieczeństwa.
 
-Open-source software *can* be audited by third-parties, and is often more transparent about potential vulnerabilities than proprietary counterparts. It also allows you to review the code and disable any suspicious functionality you find yourself. However, *unless you do so*, there is no guarantee that code has ever been evaluated, especially with smaller software projects. The open development process has also sometimes been exploited to introduce new vulnerabilities known as [:material-package-variant-closed-remove: Supply Chain Attacks](common-threats.md#attacks-against-certain-organizations ""){.pg-viridian}, which are discussed further in our [Common Threats](common-threats.md) page.[^1]
+Oprogramowanie open-source *może* być analizowane przez niezależne podmioty i zwykle jest bardziej przejrzyste pod kątem potencjalnych podatności niż jego zamknięte odpowiedniki. Umożliwia też samodzielny przegląd kodu i wyłączenie podejrzanych funkcji. Jednak *jeśli tego nie zrobisz*, nie ma żadnej gwarancji, że kod został kiedykolwiek rzetelnie oceniony, zwłaszcza w przypadku mniejszych projektów. Otwarty proces rozwoju bywał również wykorzystywany do wprowadzania nowych podatności w ramach tzw. [:material-package-variant-closed-remove: Ataków na łańcuch dostaw](common-threats.md#attacks-against-certain-organizations ""){.pg-viridian}, o których więcej piszemy na stronie [Najczęstsze zagrożenia](common-threats.md)[^1].
 
-On the flip side, proprietary software is less transparent, but that doesn't imply that it's not secure. Major proprietary software projects can be audited internally and by third-party agencies, and independent security researchers can still find vulnerabilities with techniques like reverse engineering.
+Z drugiej strony oprogramowanie własnościowe jest mniej przejrzyste, ale nie oznacza to automatycznie, że jest niebezpieczne. Duże projekty komercyjne mogą podlegać audytom wewnętrznym i zewnętrznym, a niezależni badacze bezpieczeństwa wciąż mogą wykrywać podatności za pomocą metod takich jak inżynieria wsteczna.
 
-To avoid biased decisions, it's *vital* that you evaluate the privacy and security standards of the software you use.
+Aby uniknąć nieobiektywnych decyzji, *kluczowe* jest, by oceniać standardy prywatności i bezpieczeństwa każdego używanego narzędzia.
 
-## "Shifting trust can increase privacy"
+## „Przenoszenie zaufania może zwiększyć prywatność”
 
-Często mówimy o „przenoszeniu zaufania” przy rozwiązaniach takich jak VPN (które przenoszą zaufanie, jakie pokładasz w swoim dostawcy usług internetowych, na dostawcę VPN). While this protects your browsing data from your ISP *specifically*, the VPN provider you choose still has access to your browsing data: Your data isn't completely secured from all parties. This means that:
+Często mówimy o „przenoszeniu zaufania” w kontekści narzędzi takich jak VPN (które przenoszą zaufanie, jakie pokładasz w swoim dostawcy usług internetowych, na dostawcę VPN). Choć chroni to Twoje dane przeglądania przed *konkretnie* ISP, wybrany dostawca VPN nadal ma do nich dostęp — Twoje dane nie są więc całkowicie zabezpieczone przed wszystkimi podmiotami. Oznacza to, że:
 
-1. You must exercise caution when choosing a provider to shift trust to.
-2. You should still use other techniques, like E2EE, to protect your data completely. Merely distrusting one provider to trust another is not securing your data.
+1. Wybierając dostawcę, któremu chcesz zaufać, musisz zachować ostrożność.
+2. Należy nadal korzystać z innych technik, jak E2EE, aby rzeczywiście zabezpieczyć swoje dane. Samo odrzucenie jednego dostawcy na rzecz drugiego nie zapewnia bezpieczeństwa.
 
 ## "Privacy-focused solutions are inherently trustworthy"
 
