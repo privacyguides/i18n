@@ -137,7 +137,7 @@ En outre, certaines distributions ne téléchargent pas automatiquement les mise
 
 ### Contrôles des autorisations
 
-Desktop environments that support the [Wayland](https://wayland.freedesktop.org) display protocol are [more secure](https://lwn.net/Articles/589147) than those that only support X11. Moreover, we *generally* recommend installing and using applications which are sandboxed such as those obtained via **Flatpak**. Flatpak supports the [`security-context-v1`](https://github.com/flatpak/flatpak/pull/4920) protocol and the ability to filter D-Bus protocols, which allow Flatpak to properly identify apps for the purpose of sandboxing them through permission controls.[^1] Conversely, applications outside sandboxes are free to perform privileged actions such as capturing your screen, either by [overwriting the portal permission store](https://invent.kde.org/plasma/xdg-desktop-portal-kde/-/issues/7#note_1112260), or [making use of privileged Wayland protocols](https://github.com/swaywm/sway/pull/7648#issuecomment-2507730794).
+Les environnements de bureau compatibles avec le protocole d'affichage [Wayland](https://wayland.freedesktop.org) sont [plus sécurisés](https://lwn.net/Articles/589147) que ceux qui ne sont compatibles qu'avec X11. De plus, nous vous recommandons *généralement* d'installer et d'utiliser des applications sandboxées, comme celles obtenues via **Flatpak**. Flatpak est compatible avec le protocole [`security-context-v1`](https://github.com/flatpak/flatpak/pull/4920) et permet de filtrer les protocoles D-Bus, ce qui permet à Flatpak d'identifier correctement les applications dans le but de les sandboxées en contrôlant leurs permissions.[^1] Inversement, les applications en dehors des sandbox sont libres d'effectuer des actions privilégiées comme la capture d'écran, soit en [modifiant les autorisations des applications](https://invent.kde.org/plasma/xdg-desktop-portal-kde/-/issues/7#note_1112260), soit en [utilisant les protocoles privilégiés de Wayland](https://github.com/swaywm/sway/pull/7648#issuecomment-2507730794).
 
 
 
@@ -203,4 +203,4 @@ openSUSE utilise également un [identifiant unique](https://en.opensuse.org/open
 
 
 [^1]:    
-    This exposes a reliable way for Wayland compositors to get identifying information about a client. Compositors can then apply security policies if desirable. [https://github.com/flatpak/flatpak/commit/f0e626a4b60439f211f06d35df74b675a9ef42f4](https://github.com/flatpak/flatpak/commit/f0e626a4b60439f211f06d35df74b675a9ef42f4)
+    Les compositeurs Wayland disposent ainsi d'un moyen fiable d'obtenir des informations d'identification sur un client. Ils peuvent alors appliquer des politiques de sécurité s'ils le souhaitent. [https://github.com/flatpak/flatpak/commit/f0e626a4b60439f211f06d35df74b675a9ef42f4](https://github.com/flatpak/flatpak/commit/f0e626a4b60439f211f06d35df74b675a9ef42f4)

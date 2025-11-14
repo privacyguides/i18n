@@ -45,7 +45,7 @@ Nous vous recommandons vivement d'utiliser des applications TOTP mobiles plutôt
 
 </div>
 
-The server-side source code and infrastructure which underpins Ente Auth (if used with an online account) underwent an audit by [Cure53](https://ente.io/blog/cern-audit) in October 2025.
+Le code source côté serveur et l'infrastructure qui sous-tendent Ente Auth (lorsqu'il est utilisé avec un compte en ligne) ont été audité par [Cure53](https://ente.io/blog/cern-audit) en octobre 2025.
 
 ## Aegis Authenticator (Android)
 
@@ -55,11 +55,11 @@ The server-side source code and infrastructure which underpins Ente Auth (if use
 
 **Aegis Authenticator** est une application libre et open-source pour Android qui permet de gérer vos jetons de vérification en 2 étapes pour vos services en ligne. Aegis Authenticator fonctionne complètement hors ligne/localement, mais inclut l'option d'exporter vos jetons pour les sauvegarder, contrairement à de nombreuses alternatives.
 
-[:octicons-home-16: Homepage](https://getaegis.app){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://getaegis.app/aegis/privacy.html){ .card-link title="Privacy Policy" }
+[:octicons-home-16: Page d'Accueil](https://getaegis.app){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://getaegis.app/aegis/privacy.html){ .card-link title="Politique de Confidentialité" }
 [:octicons-info-16:](https://github.com/beemdevelopment/Aegis/wiki){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/beemdevelopment/Aegis){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://buymeacoffee.com/beemdevelopment){ .card-link title="Contribute" }
+[:octicons-code-16:](https://github.com/beemdevelopment/Aegis){ .card-link title="Code Source" }
+[:octicons-heart-16:](https://buymeacoffee.com/beemdevelopment){ .card-link title="Contribuer" }
 
 <details class="downloads" markdown>
 <summary>Télécharger</summary>
@@ -77,4 +77,4 @@ The server-side source code and infrastructure which underpins Ente Auth (if use
 
 - Le code source doit être accessible au public.
 - Ne dois pas nécessiter de connexion à internet.
-- Cloud syncing must be optional; sync functionality, if available, must be E2EE.
+- La synchronisation cloud doit être optionnelle ; lorsqu'elle est proposée, la synchronisation doit être chiffrée de bout en bout.
