@@ -204,13 +204,13 @@ Si vous recherchez une **sécurité** supplémentaire, vous devez toujours vous 
 
     Proton Mail est un service d'e-mail qui met l'accent sur la confidentialité, le chiffrement, la sécurité et la facilité d'utilisation. Il existe depuis 2013. Proton AG est basée à Genève, en Suisse. Le plan Proton Free propose 500 Mo de stockage mail, que vous pouvez augmenter gratuitement à 1 Go.
 
-    [Read Full Review :material-arrow-right-drop-circle:](email.md#proton-mail)
+    [Notre présentation complète :material-arrow-right-drop-circle:](email.md#proton-mail)
 
-- ![Mailbox Mail logo](assets/img/email/mailbox-mail.svg){ .lg .middle .twemoji } **Mailbox Mail**
+- ![Logo de Mailbox Mail](assets/img/email/mailbox-mail.svg){ .lg .middle .twemoji } **Mailbox Mail**
 
     ---
 
-    Mailbox Mail (formerly *Mailbox.org*) is an email service with a focus on being secure, ad-free, and powered by 100% eco-friendly energy. Il est en activité depuis 2014. Mailbox Mail est basé à Berlin, en Allemagne. Un compte commence avec 2 Go de stockage, qui peuvent être augmentés autant que nécessaire.
+    Mailbox Mail (anciennement *Mailbox.org*) est un service de messagerie électronique sécurisé, sans publicité et fonctionnant entièrement avec des énergies renouvelables. Il est en activité depuis 2014. Mailbox Mail est basé à Berlin, en Allemagne. Un compte commence avec 2 Go de stockage, qui peuvent être augmentés autant que nécessaire.
 
     [Notre présentation complète :material-arrow-right-drop-circle:](email.md#mailbox-mail)
 
@@ -337,10 +337,10 @@ Nous [recommandons](dns.md#recommended-providers) un certain nombre de serveurs 
 
 <div class="grid cards" markdown>
 
-- ![Brave Search logo](assets/img/search-engines/brave-search.svg){ .twemoji loading=lazy } [Brave Search](search-engines.md#brave-search)
-- ![DuckDuckGo logo](assets/img/search-engines/duckduckgo.svg){ .twemoji loading=lazy } [DuckDuckGo](search-engines.md#duckduckgo)
-- ![SearXNG logo](assets/img/search-engines/searxng.svg){ .twemoji loading=lazy } [SearXNG](search-engines.md#searxng)
-- ![Startpage logo](assets/img/search-engines/startpage.svg#only-light){ .twemoji loading=lazy }![Startpage logo](assets/img/search-engines/startpage-dark.svg#only-dark){ .twemoji loading=lazy } [Startpage](search-engines.md#startpage)
+- ![Logo de Brave Search](assets/img/search-engines/brave-search.svg){ .twemoji loading=lazy } [Brave Search](search-engines.md#brave-search)
+- ![Logo de DuckDuckGo](assets/img/search-engines/duckduckgo.svg){ .twemoji loading=lazy } [DuckDuckGo](search-engines.md#duckduckgo)
+- ![Logo de SearXNG](assets/img/search-engines/searxng.svg){ .twemoji loading=lazy } [SearXNG](search-engines.md#searxng)
+- ![Logo de Startpage](assets/img/search-engines/startpage.svg#only-light){ .twemoji loading=lazy }![Logo de Startpage](assets/img/search-engines/startpage-dark.svg#only-dark){ .twemoji loading=lazy } [Startpage](search-engines.md#startpage)
 
 </div>
 

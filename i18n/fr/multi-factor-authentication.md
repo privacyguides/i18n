@@ -1,7 +1,7 @@
 ---
 title: L'authentification multifactorielle
 icon: material/two-factor-authentication
-description: These tools assist you with securing your internet accounts with multifactor authentication without sending your secrets to a third-party.
+description: Sécurisez vos comptes en ligne avec ces outils d'authentification multifactorielle sans compromettre votre vie privée.
 cover: multi-factor-authentication.webp
 ---
 
@@ -16,7 +16,7 @@ Nos recommandations de clefs de sécurité matérielle sont désormais trouvable
 
 </div>
 
-**Multifactor authentication apps** implement a security standard adopted by the Internet Engineering Task Force (IETF) called **Time-based One-time Passwords**, or **TOTP**. Il s'agit d'une méthode par laquelle les sites web partagent avec vous un secret qui est utilisé par votre application d'authentification pour générer un code à six chiffres (généralement) basé sur l'heure actuelle, que vous saisissez lorsque vous vous connectez pour que le site web puisse le vérifier. Généralement, ces codes sont générés toutes les 30 secondes, et deviennent obsolètes dès qu'un nouveau code est généré. Même si un pirate obtient un code à six chiffres, il n'a aucun moyen d'inverser ce code pour obtenir le secret original, ni de prédire quels seront les codes futurs.
+**Les applications d'authentification multifactorielle** permettent d'utiliser les **Mots de passe temporaires à usage unique (Time-based One-time Passwaords)**, ou **TOTP**, un standard de sécurité adopté par l'Internet Engineering Task Force (IETF). Il s'agit d'une méthode par laquelle les sites web partagent avec vous un secret qui est utilisé par votre application d'authentification pour générer un code à six chiffres (généralement) basé sur l'heure actuelle, que vous saisissez lorsque vous vous connectez pour que le site web puisse le vérifier. Généralement, ces codes sont générés toutes les 30 secondes, et deviennent obsolètes dès qu'un nouveau code est généré. Même si un pirate obtient un code à six chiffres, il n'a aucun moyen d'inverser ce code pour obtenir le secret original, ni de prédire quels seront les codes futurs.
 
 Nous vous recommandons vivement d'utiliser des applications TOTP mobiles plutôt que des alternatives de bureau, car Android et IOS offrent une meilleure sécurité et une meilleure isolation des applications que la plupart des systèmes d'exploitation de bureau.
 
@@ -28,13 +28,13 @@ Nous vous recommandons vivement d'utiliser des applications TOTP mobiles plutôt
 
 **Ente Auth** est une application libre et open-source qui stocke et génère des jetons (token) TOTP. Elle peut être utilisée avec un compte en ligne pour sauvegarder et synchroniser vos jetons entre vos appareils (et y accéder depuis une interface web) de façon sécurisée grâce au chiffrement de bout-en-bout. Elle peut également être utilisée hors ligne sur un seul appareil, sans qu'aucun compte ne soit nécessaire.
 
-[:octicons-home-16: Homepage](https://ente.io/auth){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://ente.io/privacy){ .card-link title="Privacy Policy" }
+[:octicons-home-16: Page d'Accueil](https://ente.io/auth){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://ente.io/privacy){ .card-link title="Politique de Confidentialité" }
 [:octicons-info-16:](https://help.ente.io/auth){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/ente-io/ente/tree/main/auth#readme){ .card-link title="Source Code" }
+[:octicons-code-16:](https://github.com/ente-io/ente/tree/main/auth#readme){ .card-link title="Code Source" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Télécharger</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=io.ente.auth)
 - [:simple-appstore: App Store](https://apps.apple.com/app/id6444121398)
