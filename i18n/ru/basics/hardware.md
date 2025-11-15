@@ -1,152 +1,152 @@
 ---
 title: "Выбор оборудования"
 icon: 'material/chip'
-description: Software isn't all that matters; learn about the hardware tools you use every day to protect your privacy.
+description: Программное обеспечение — не единственное, что имеет значение; узнайте об аппаратных инструментах, которые вы используете каждый день для защиты своей приватности.
 ---
 
-When it comes to discussions about privacy, hardware is often not thought about as much as what software we use. Your hardware should be considered the foundation on which you build the rest of your privacy setup.
+Когда речь заходит о приватности, аппаратное обеспечение часто обсуждается не так активно, как программное обеспечение, которое мы используем. Ваше аппаратное обеспечение следует рассматривать как фундамент, на котором вы строите остальную часть вашей системы обеспечения приватности.
 
-## Picking a Computer
+## Выбор компьютера
 
-The internals of your devices process and store all of your digital data. It is important that all devices are supported by the manufacturer and developers by continuing to receive security updates.
+Внутренние компоненты ваших устройств обрабатывают и хранят все ваши цифровые данные. Важно, чтобы все устройства поддерживались производителем и разработчиками, продолжая получать обновления безопасности.
 
-### Hardware Security Programs
+### Программы аппаратной безопасности
 
-Some devices will have a "hardware security program", which is a collaboration between vendors on best practices and recommendations when designing hardware, for example:
+Некоторые устройства имеют "программу аппаратной безопасности", которая представляет собой сотрудничество между поставщиками в области лучших практик и рекомендаций при проектировании аппаратного обеспечения, например:
 
-- [Windows Secured-core PCs](https://learn.microsoft.com/en-us/windows-hardware/design/device-experiences/oem-highly-secure-11) meet a higher security criteria specified by Microsoft. These protections aren't only applicable to Windows users; Users of other operating systems can still take advantage of features like [DMA protection](https://learn.microsoft.com/en-us/windows/security/information-protection/kernel-dma-protection-for-thunderbolt) and the ability to completely distrust Microsoft certificates.
-- [Android Ready SE](https://developers.google.com/android/security/android-ready-se) is a collaboration between vendors to ensure their devices follow [best practices](https://source.android.com/docs/security/best-practices/hardware) and include tamper resistant hardware backed storage for things like encryption keys.
-- macOS running on an Apple SoC takes advantage of [hardware security](../os/macos-overview.md#hardware-security) which may not be available with third party operating systems.
-- [ChromeOS security](https://chromium.org/chromium-os/developer-library/reference/security/security-whitepaper) is at its best when running on a Chromebook as it is able to make use of available hardware features such as the [hardware root-of-trust](https://chromium.org/chromium-os/developer-library/reference/security/security-whitepaper/#hardware-root-of-trust-and-verified-boot).
+- [Windows Secured-core PC](https://learn.microsoft.com/en-us/windows-hardware/design/device-experiences/oem-highly-secure-11)  соответствуют более высоким критериям безопасности, определенным Microsoft. Эти защитные меры применимы не только для пользователей Windows; пользователи других операционных систем также могут воспользоваться такими функциями, как [защита от DMA](https://learn.microsoft.com/en-us/windows/security/information-protection/kernel-dma-protection-for-thunderbolt) и возможность полностью не доверять сертификатам Microsoft.
+- [Android Ready SE](https://developers.google.com/android/security/android-ready-se) — это сотрудничество между поставщиками для обеспечения того, чтобы их устройства следовали [лучшим практикам](https://source.android.com/docs/security/best-practices/hardware) и включали защищённое от взлома аппаратное хранилище для таких вещей, как ключи шифрования.
+- macOS, работающая на процессорах Apple SoC, использует [аппаратную безопасность](../os/macos-overview.md#hardware-security), которая может быть недоступна при использовании сторонних операционных систем.
+- [Безопасность ChromeOS](https://chromium.org/chromium-os/developer-library/reference/security/security-whitepaper) наиболее эффективна при работе на Chromebook, так как она может использовать доступные аппаратные функции, такие как [аппаратный корень доверия](https://chromium.org/chromium-os/developer-library/reference/security/security-whitepaper/#hardware-root-of-trust-and-verified-boot).
 
-Even if you don't use these operating systems, participation in these programs may indicate that the manufacturer is following best practices when it comes to hardware security and updates.
+Даже если вы не используете эти операционные системы, участие в этих программах может указывать на то, что производитель следует лучшим практикам в области аппаратной безопасности и обновлений.
 
 ### Предустановленная ОС
 
-New computers nearly always come with Windows preinstalled, unless you buy a Mac or a specialty Linux machine. It's usually a good idea to wipe the drive and install a fresh copy of your operating system of choice, even if that means just reinstalling Windows from scratch. Due to agreements between hardware vendors and shady software vendors, the default Windows install often comes preloaded with bloatware, [adware](https://bleepingcomputer.com/news/technology/lenovo-gets-a-slap-on-the-wrist-for-superfish-adware-scandal), or even [malware](https://zdnet.com/article/dell-poweredge-motherboards-ship-with-malware).
+Новые компьютеры почти всегда поставляются с предустановленной Windows, если вы не покупаете Mac или специализированную машину с Linux. Обычно рекомендуется очистить диск и установить свежую копию выбранной вами операционной системы, даже если это означает просто переустановку Windows с нуля. Из-за соглашений между производителями оборудования и сомнительными поставщиками программного обеспечения, стандартная установка Windows часто поставляется с предустановленным ПО-мусором, [рекламным ПО](https://bleepingcomputer.com/news/technology/lenovo-gets-a-slap-on-the-wrist-for-superfish-adware-scandal) или даже [вредоносным ПО](https://zdnet.com/article/dell-poweredge-motherboards-ship-with-malware).
 
 ### Обновления прошивки
 
-Hardware often has security issues that are discovered and patched through firmware updates for your hardware.
+В аппаратном обеспечении часто обнаруживаются проблемы безопасности, которые исправляются через обновления прошивки.
 
-Almost every component of your computer requires firmware to operate, from your motherboard to your storage devices. It is ideal for all the components of your device to be fully supported. Apple devices, Chromebooks, most Android phones, and Microsoft Surface devices will handle firmware updates for you as long as the device is supported.
+Почти каждый компонент вашего компьютера требует прошивки для работы, от материнской платы до устройств хранения данных. Желательно, чтобы все компоненты вашего устройства полностью поддерживались. Устройства Apple, Chromebook, большинство телефонов Android и устройства Microsoft Surface автоматически обрабатывают обновления прошивки, пока устройство поддерживается.
 
-If you build your own PC, you may need to manually update your motherboard's firmware by downloading it from your OEM's website. If you use Linux, consider using the built-in [`fwupd`](https://fwupd.org) tool that will let you check for and apply any firmware updates available for your motherboard.
+Если вы собираете ПК самостоятельно, вам может потребоваться вручную обновлять прошивку материнской платы, загружая её с сайта производителя. Если вы используете Linux, рассмотрите возможность использования встроенного инструмента [`fwupd`](https://fwupd.org), который позволяет проверять наличие и применять доступные обновления прошивки для вашей материнской платы.
 
-### TPM/Secure Cryptoprocessor
+### TPM/Защищенный криптопроцессор
 
-Most computers and phones come equipped with a TPM (or a similar secure cryptoprocessor) which safely stores your encryption keys and handles other security-related functions. If you're currently using a machine that doesn't have one of these, you might benefit from purchasing a newer computer that has this feature. Some desktop and server motherboards have a "TPM header" which can accept a small accessory board containing the TPM.
+Большинство компьютеров и телефонов оснащены TPM (или аналогичным защищённым криптопроцессором), который безопасно хранит ваши ключи шифрования и выполняет другие функции, связанные с безопасностью. Если вы используете устройство без такого компонента, вам может быть полезно приобрести более новый компьютер с этой функцией. Некоторые настольные и серверные материнские платы имеют "разъём TPM", который может принимать небольшую дополнительную плату, содержащую TPM.
 
 <div class="admonition Note" markdown>
-<p class="admonition-title">Note</p>
+<p class="admonition-title">Примечание</p>
 
-Virtual TPMs are susceptible to side-channel attacks and external TPMs, as a result of being separate from the CPU on the motherboard, are vulnerable to [sniffing](https://pulsesecurity.co.nz/articles/TPM-sniffing) when an attacker has access to the hardware. The solution to this problem is to include the secure processor inside the CPU itself, which is the case for Apple's chips and Microsoft's [Pluton](https://microsoft.com/en-us/security/blog/2020/11/17/meet-the-microsoft-pluton-processor-the-security-chip-designed-for-the-future-of-windows-pcs).
+Виртуальные TPM подвержены атакам по побочным каналам, а внешние TPM, вследствие отдельного размещения от CPU на материнской плате, уязвимы для [перехвата](https://pulsesecurity.co.nz/articles/TPM-sniffing), когда злоумышленник имеет физический доступ к оборудованию. Решением этой проблемы является включение защищенного процессора внутрь самого CPU, как в случае с чипами Apple и [Pluton](https://microsoft.com/en-us/security/blog/2020/11/17/meet-the-microsoft-pluton-processor-the-security-chip-designed-for-the-future-of-windows-pcs) от Microsoft.
 
 </div>
 
 ### Биометрия
 
-Many devices come equipped with a fingerprint reader or face recognition capabilities. These can be very convenient, but they aren't perfect and sometimes fail. Most devices will fall back to a PIN or password when this happens, meaning that the security of your devices is still only as good as your password.
+Многие устройства оснащены сканером отпечатков пальцев или возможностями распознавания лица. Это может быть очень удобно, но они не идеальны и иногда дают сбои. Большинство устройств в таких случаях возвращаются к использованию PIN-кода или пароля, что означает, что безопасность ваших устройств по-прежнему зависит от надежности вашего пароля.
 
-Biometrics can prevent someone from watching you type in your password, so if shoulder-surfing is part of your threat model then biometrics are a good option.
+Биометрические данные могут предотвратить ситуацию, когда кто-то наблюдает за вводом вашего пароля, поэтому если подглядывание является частью вашей модели угроз, биометрические данные — хороший вариант.
 
-Most implementations of face authentication require you to be looking at your phone and also only work from a relatively close distance, so you don't need to worry too much about someone pointing your phone at your face to unlock it without your consent. You can still disable biometrics when your phone is locked if you want. On iOS, you can hold the side button and a volume button for 3 seconds to disable Face ID on models that support it. On Android, hold the power button and press Lockdown on the menu.
+Большинство реализаций аутентификации по лицу требуют, чтобы вы смотрели на телефон, и работают только с относительно близкого расстояния, поэтому вам не нужно сильно беспокоиться о том, что кто-то направит ваш телефон на ваше лицо для разблокировки без вашего согласия. При желании вы все равно можете отключить биометрию, когда ваш телефон заблокирован. На iOS вы можете удерживать боковую кнопку и кнопку громкости в течение 3 секунд, чтобы отключить Face ID на поддерживаемых моделях. На Android удерживайте кнопку питания и нажмите "Блокировка" в меню.
 
 <div class="admonition warning" markdown>
 <p class="admonition-title">Предупреждение</p>
 
-Some devices do not have the proper hardware for secure face authentication. There are two main types of face authentication: 2D and 3D. 3D face authentication makes use of a dot projector that lets the device create a 3D depth map of your face. Make sure that your device has this capability.
+Некоторые устройства не имеют подходящего оборудования для безопасной аутентификации по лицу. Существуют два основных типа аутентификации по лицу: 2D и 3D. 3D-аутентификация по лицу использует проектор точек, который позволяет устройству создавать трехмерную карту глубины вашего лица. Убедитесь, что ваше устройство обладает этой возможностью.
 
 </div>
 
-Android defines three [security classes](https://source.android.com/docs/security/features/biometric/measure#biometric-classes) for biometrics; you should check that your device is Class 3 before enabling biometrics.
+Android определяет три [класса безопасности](https://source.android.com/docs/security/features/biometric/measure#biometric-classes) для биометрии; вам следует проверить, что ваше устройство относится к классу 3, прежде чем включать биометрию.
 
-### Device Encryption
+### Шифрование устройства
 
-If your device is [encrypted](../encryption.md), your data is most secure when your device is completely powered off (as opposed to merely asleep), i.e. before you've entered your encryption key or lock screen password for the first time. On phones, this state of higher security is referred to as "Before First Unlock" (BFU), and "After First Unlock" (AFU) once you enter the correct password after a reboot/power-on. AFU is considerably less secure against digital forensics toolkits and other exploits, compared to BFU. Therefore, if you are concerned about an attacker with physical access to your device, you should turn it off fully whenever you aren't using it.
+Если ваше устройство [зашифровано](../encryption.md), ваши данные наиболее защищены, когда устройство полностью выключено (в отличие от просто спящего режима), то есть до того, как вы введёте ключ шифрования или пароль экрана блокировки в первый раз. На телефонах это состояние повышенной безопасности называется "До первой разблокировки" (BFU) и "После первой разблокировки" (AFU) после ввода правильного пароля после перезагрузки/включения. AFU значительно менее безопасно против инструментов цифровой криминалистики и других эксплойтов по сравнению с BFU. Поэтому, в случае опасений о физическом доступе злоумышленника к устройству, рекомендуется полностью выключать технику в период неиспользования.
 
-This may be impractical, so consider whether it's worth it, but in either case even AFU mode is effective against most threats, given you are using a strong encryption key.
+Это может быть непрактично, поэтому оцените, стоит ли это того, но в любом случае даже режим AFU эффективен против большинства угроз при использовании надёжного ключа шифрования.
 
-## External Hardware
+## Внешнее оборудование
 
-Some threats can't be protected against by your internal components alone. Many of these options are highly situational; please evaluate if they are really necessary for your threat model.
+Некоторые угрозы невозможно предотвратить только с помощью внутренних компонентов. Многие из этих вариантов весьма ситуативны; пожалуйста, оцените, действительно ли они необходимы для вашей модели угроз.
 
 ### Аппаратные ключи безопасности
 
-Hardware keys are devices that use strong cryptography to authenticate you to a device or account. The idea is that because they can not be copied, you can use them to secure accounts in such a way that they can only be accessed with physical possession of the key, eliminating many remote attacks.
+Аппаратные ключи — это устройства, использующие сильную криптографию для аутентификации вас на устройстве или в учетной записи. Идея заключается в том, что благодаря невозможности копирования, данные ключи могут служить для защиты учётных записей, обеспечивая доступ только при физическом наличии устройства, что предотвращает множество удаленных атак.
 
-[Recommended Hardware Keys :material-arrow-right-drop-circle:](../security-keys.md){ .md-button .md-button--primary } [Learn More about Hardware Keys :material-arrow-right-drop-circle:](multi-factor-authentication.md#hardware-security-keys){ .md-button }
+[Рекомендуемые аппаратные ключи :material-arrow-right-drop-circle:](../security-keys.md){ .md-button .md-button--primary } [Узнайте больше об аппаратных ключах :material-arrow-right-drop-circle:](multi-factor-authentication.md#hardware-security-keys){ .md-button }
 
 ### Камера/микрофон
 
-If you don't want to trust your OS's permission controls to prevent the camera from activating in the first place, you can buy camera blockers that physically prevent light from reaching the camera. You could also buy a device that doesn't have a built-in camera and use an external camera that you can unplug whenever you're done using it. Some devices come with built-in camera blockers or hardware switches that physically disconnect the camera from power.
+Если вы не хотите полагаться на контроль разрешений вашей ОС для предотвращения активации камеры, вы можете приобрести блокираторы камеры, которые физически препятствуют попаданию света на камеру. Вы также можете приобрести устройство без встроенной камеры и использовать внешнюю камеру, которую можно отключать, когда вы закончили ее использование. Некоторые устройства поставляются со встроенными блокираторами камеры или аппаратными переключателями, которые физически отключают камеру от питания.
 
 <div class="admonition warning" markdown>
 <p class="admonition-title">Предупреждение</p>
 
-You should only buy covers that fit your laptop and won't cause damage when you close the lid. Covering the camera will interfere with automatic brightness and face authentication features.
+Вам следует покупать только крышки, которые подходят к вашему ноутбуку и не вызовут повреждений при закрытии крышки. Закрытие камеры будет мешать функциям автоматической регулировки яркости и аутентификации по лицу.
 
 </div>
 
-For microphone access, in most cases you will need to trust your OS's built-in permission controls. Alternatively, buy a device that doesn't have a built-in microphone and use an external microphone that you can unplug when you're done using it. Some devices, like a [MacBook or an iPad](https://support.apple.com/guide/security/hardware-microphone-disconnect-secbbd20b00b/web), feature a hardware disconnect for the microphone when you close the lid.
+Для доступа к микрофону в большинстве случаев вам придётся положиться на встроенные в ОС средства контроля разрешений. В качестве альтернативы, приобретите устройство без встроенного микрофона и используйте внешний микрофон, который вы можете отключать после использования. Некоторые устройства, такие как [MacBook или iPad](https://support.apple.com/guide/security/hardware-microphone-disconnect-secbbd20b00b/web),, имеют функцию аппаратного отключения микрофона при закрытии крышки.
 
-Many computers have a BIOS option to disable the camera and microphone. When disabled there, the hardware won't even appear as a device on a booted system.
+Многие компьютеры имеют опцию в BIOS для отключения камеры и микрофона. При отключении на этом уровне оборудование даже не будет отображаться как устройство в загруженной системе.
 
-### Privacy Screens
+### Защитные экраны приватности
 
-Privacy screens are a film you can put over your normal screen so that the screen is only visible from a certain angle. These are good if your threat model includes others peeking at your screen, but it is not foolproof as anyone could just move to a different viewing angle and see what's on your screen.
+Защитные экраны приватности — это плёнка, которую можно наложить на обычный экран, чтобы он был виден только под определенным углом. Это полезно, если ваша модель угроз включает подглядывание за вашим экраном со стороны других людей, но это не является полностью надежным, так как любой может просто переместиться под другой угол обзора и увидеть, что на вашем экране.
 
-### Dead Man's Switches
+### Системы безопасности "мёртвая рука"
 
-A dead man's switch stops a piece of machinery from operating without the presence of a human operator. These were originally designed as a safety measure, but the same concept can be applied to an electronic device to lock it when you're not present.
+Система безопасности "мёртвая рука" останавливает работу механизма при отсутствии человека-оператора. Первоначально эти устройства разрабатывались как мера безопасности, но та же концепция может быть применена к электронному устройству для его блокировки, когда вас нет рядом.
 
-Some laptops are able to [detect](https://support.microsoft.com/en-us/windows/managing-presence-sensing-settings-in-windows-11-82285c93-440c-4e15-9081-c9e38c1290bb) when you're present and can lock automatically when you aren't sitting in front of the screen. You should check the settings in your OS to see if your computer supports this feature.
+Некоторые ноутбуки способны [определять](https://support.microsoft.com/en-us/windows/managing-presence-sensing-settings-in-windows-11-82285c93-440c-4e15-9081-c9e38c1290bb) ваше присутствие и могут автоматически блокироваться, когда вы не сидите перед экраном. Вам следует проверить настройки вашей ОС, чтобы узнать, поддерживает ли ваш компьютер эту функцию.
 
-You can also get cables, like [BusKill](https://buskill.in), that will lock or wipe your computer when the cable is disconnected.
+Вы также можете приобрести кабели, такие как [BusKill](https://buskill.in), которые заблокируют или очистят ваш компьютер при отсоединении кабеля.
 
-### Anti-Interdiction/Evil Maid Attack
+### Защита от перехвата/атаки "злой горничной"
 
-The best way to prevent a targeted attack against you before a device is in your possession is to purchase a device in a physical store, rather than ordering it to your address.
+Лучший способ предотвратить целенаправленную атаку против вас до того, как устройство окажется в вашем распоряжении, — это приобрести устройство в физическом магазине, а не заказывать его на ваш адрес.
 
-Make sure your device supports secure boot/verified boot, and you have it enabled. Try to avoid leaving your device unattended whenever possible.
+Убедитесь, что ваше устройство поддерживает безопасную загрузку/проверенную загрузку, и включите эту функцию. Старайтесь не оставлять устройство без присмотра, когда это возможно.
 
-### Kensington Locks
+### Замки Kensington
 
-Many laptops come equipped with a [Kensington slot](https://www.kensington.com/solutions/product-category/security/?srsltid=AfmBOorQOlRnqRJOAqM-Mvl7wumed0wBdiOgktlvdidpMHNIvGfwj9VI) that can be used to secure your device with a **metal cable** that locks into the slot on your machine. These locks can be combination locks or keyed.
+Многие ноутбуки оснащены [слотом Kensington](https://www.kensington.com/solutions/product-category/security/?srsltid=AfmBOorQOlRnqRJOAqM-Mvl7wumed0wBdiOgktlvdidpMHNIvGfwj9VI), который может использоваться для защиты вашего устройства с помощью **металлического троса**, который фиксируется в слоте на вашем устройстве. Эти замки могут быть кодовыми или с ключом.
 
-As with all locks, Kensington locks are vulnerable to [physical attacks](https://youtu.be/vgvCxL7dMJk) so you should mainly use them to deter petty theft. You can secure your laptop at home or even when you're out in public using a table leg or something that won't move easily.
+Как и все замки, замки Kensington уязвимы для физических атак, поэтому вам следует использовать их в основном для предотвращения мелких краж. Вы можете защитить свой ноутбук дома или даже в общественных местах, используя ножку стола или что-то, что не будет легко перемещаться.
 
 ## Защитите свою сеть
 
-### Compartmentalization
+### Компартментализация
 
-Many solutions exist that allow you to separate what you're doing on a computer, such as virtual machines and sandboxing. However, the best compartmentalization is physical separation. This is useful especially for situations where certain software requires you to bypass security features in your OS, such as with anti-cheat software bundled with many games.
+Существует множество решений, позволяющих разделять то, что вы делаете на компьютере, таких как виртуальные машины и песочницы. Однако лучшая компартментализация — это физическое разделение. Это особенно полезно в ситуациях, когда определенное программное обеспечение требует от вас обхода функций безопасности вашей ОС, например, с анти-чит программным обеспечением, поставляемым со многими играми.
 
-For gaming, it may be useful to designate one machine as your "gaming" machine and only use it for that one task. Keep it on a separate VLAN. This may require the use of a managed switch and a router that supports segregated networks.
+Для игр может быть полезно выделить одну машину как вашу "игровую" и использовать ее только для этой задачи. Держите ее в отдельной VLAN. Это может потребовать использования управляемого коммутатора и маршрутизатора, поддерживающего сегрегированные сети.
 
-Most consumer routers allow you to do this by enabling a separate "guest" network that can't talk to your main network. All untrusted devices can go here, including IoT devices like your smart fridge, thermostat, TV, etc.
+Большинство потребительских маршрутизаторов позволяют сделать это, включив отдельную "гостевую" сеть, которая не может взаимодействовать с вашей основной сетью. Все недоверенные устройства можно поместить сюда, включая устройства IoT, такие, как ваш умный холодильник, термостат, телевизор и т.д.
 
-### Minimalism
+### Минимализм
 
-As the saying goes, "less is more". The fewer devices you have connected to your network, the less potential attack surface you'll have and the less work it will be to make sure they all stay up-to-date.
+Как гласит поговорка, "меньше значит больше". Чем меньше устройств подключено к вашей сети, тем меньше потенциальная поверхность атаки и тем меньше работы потребуется, чтобы убедиться, что все они остаются в актуальном состоянии.
 
-You may find it useful to go around your home and make a list of every connected device you have to help you keep track.
+Вы можете найти полезным обойти свой дом и составить список каждого подключенного устройства, чтобы отслеживать их.
 
-### Routers
+### Маршрутизаторы
 
-Your router handles all your network traffic and acts as your first line of defense between you and the open internet.
+Ваш маршрутизатор обрабатывает весь сетевой трафик и действует как первая линия защиты между вами и открытым интернетом.
 
 <div class="admonition Note" markdown>
-<p class="admonition-title">Note</p>
+<p class="admonition-title">Примечание</p>
 
-A lot of routers come with storage to put your files on so you can access them from any computer on your network. We recommend you don't use networking devices for things other than networking. In the event your router was compromised, your files would also be compromised.
+Многие маршрутизаторы поставляются с хранилищем для размещения ваших файлов, чтобы вы могли получить к ним доступ с любого компьютера в вашей сети. Мы рекомендуем не использовать сетевые устройства для целей, отличных от сетевых. В случае компрометации вашего маршрутизатора, ваши файлы также будут скомпрометированы.
 
 </div>
 
-The most important thing to think about with routers is keeping them up-to-date. Many modern routers will automatically install updates, but many others won't. You should check on your router's settings page for this option. That page can usually be accessed by typing `192.168.1.1` or `192.168.0.1` into the URL bar of any browser assuming you're on the same network. You can also check in the network settings of your OS for "router" or "gateway".
+Самое важное, о чем следует думать в отношении маршрутизаторов — это поддержание их в актуальном состоянии. Многие современные маршрутизаторы автоматически устанавливают обновления, но многие другие этого не делают. Вам следует проверить наличие этой опции на странице настроек вашего маршрутизатора. Доступ к этой странице обычно можно получить, введя `192.168.1.1` или `192.168.0.1` в адресную строку любого браузера, при условии, что вы находитесь в той же сети. Вы также можете проверить в настройках сети вашей ОС "маршрутизатор" или "шлюз".
 
-If your router does not support automatic updates, you will need to go to the manufacturer's site to download the updates and apply them manually.
+Если ваш маршрутизатор не поддерживает автоматические обновления, вам придётся перейти на сайт производителя, чтобы загрузить обновления и применить их вручную.
 
-Many consumer-grade routers aren't supported for very long. If your router isn't supported by the manufacturer anymore, you can check if it's supported by [FOSS firmware](../router.md). You can also buy routers that come with FOSS firmware installed by default; these tend to be supported longer than most routers.
+Многие маршрутизаторы потребительского класса не поддерживаются в течение длительного времени. Если ваш маршрутизатор больше не поддерживается производителем, вы можете проверить, поддерживается ли он [FOSS прошивками](../router.md). Вы также можете приобрести маршрутизаторы, которые поставляются с предустановленной FOSS прошивкой; они, как правило, поддерживаются дольше, чем большинство маршрутизаторов.
 
-Some ISPs provide a combined router/modem. It can be beneficial for security to purchase a separate router and set your ISP router/modem into modem-only mode. This way, even when your ISP-provided router is no longer getting updates, you can still get security updates and patches. It also means any problems that affect your modem won't affect your router and vice versa.
+Некоторые интернет-провайдеры предоставляют комбинированный маршрутизатор/модем. Для безопасности может быть полезно приобрести отдельный маршрутизатор и перевести маршрутизатор/модем вашего провайдера в режим "только модем". Таким образом, даже когда ваш маршрутизатор, предоставленный провайдером, больше не получает обновления, вы все равно можете получать обновления безопасности и патчи. Это также означает, что любые проблемы, затрагивающие ваш модем, не повлияют на ваш маршрутизатор, и наоборот.

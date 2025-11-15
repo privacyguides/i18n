@@ -27,7 +27,7 @@ schema:
         acceptedAnswer:
           "@type": Answer
           text: |
-            Skupianie się wyłącznie na politykach prywatności i marketingu danego narzędzia lub dostawcy może zaślepić Cię na ich słabości. Szukając bardziej prywatnego rozwiązania, najpierw ustal, jaki jest podstawowy problem, i dobierz techniczne środki do jego rozwiązania. Na przykład możesz chcieć unikać Dysku Google, ponieważ daje on Google dostęp do wszystkich Twoich danych. Zasadniczym problemem w tym przypadku jest brak szyfrowania end-to-end (E2EE), więc upewnij się, że wybrany dostawca, na którego się przenosisz, rzeczywiście implementuje E2EE, albo użyj narzędzia (np. Cryptomator), które zapewnia E2EE niezależnie od chmury. Przejście na „dostawcę skoncentrowanego na prywatności”, który nie wdraża E2EE, nie rozwiązuje problemu — jedynie przenosi zaufanie z Google na tego dostawcę.
+            Skupianie się wyłącznie na politykach prywatności i marketingu danego narzędzia lub dostawcy może przysłonić jego słabości. Szukając bardziej prywatnego rozwiązania, najpierw ustal, jaki jest podstawowy problem, i dobierz techniczne środki do jego rozwiązania. Na przykład możesz chcieć unikać Dysku Google, ponieważ daje on Google dostęp do wszystkich Twoich danych. Zasadniczym problemem w tym przypadku jest brak szyfrowania end-to-end (E2EE), więc upewnij się, że wybrany dostawca, na którego się przenosisz, rzeczywiście implementuje E2EE, albo użyj narzędzia (np. Cryptomator), które zapewnia E2EE niezależnie od chmury. Przejście na „dostawcę nastawionego na prywatność”, który nie wdraża E2EE, nie rozwiązuje problemu — jedynie przenosi zaufanie z Google na tego dostawcę.
       - 
         "@type": Question
         name: Jak skomplikowany powinien być mój model zagrożeń?
@@ -55,40 +55,40 @@ Często mówimy o „przenoszeniu zaufania” w kontekści narzędzi takich jak 
 1. Wybierając dostawcę, któremu chcesz zaufać, musisz zachować ostrożność.
 2. Należy nadal korzystać z innych technik, jak E2EE, aby rzeczywiście zabezpieczyć swoje dane. Samo odrzucenie jednego dostawcy na rzecz drugiego nie zapewnia bezpieczeństwa.
 
-## "Privacy-focused solutions are inherently trustworthy"
+## „Rozwiązania nastawione na prywatność są z natury godne zaufania”
 
-Skupianie się wyłącznie na politykach prywatności i marketingu danego narzędzia lub dostawcy może zaślepić Cię na ich słabości. Szukając bardziej prywatnego rozwiązania, najpierw ustal, jaki jest podstawowy problem, i dobierz techniczne środki do jego rozwiązania. Na przykład możesz chcieć unikać Dysku Google, ponieważ daje on Google dostęp do wszystkich Twoich danych. The underlying problem in this case is lack of E2EE, so you should make sure that the provider you switch to actually implements E2EE, or use a tool (like [Cryptomator](../encryption.md#cryptomator-cloud)) which provides E2EE on any cloud provider. Przejście na „dostawcę skoncentrowanego na prywatności”, który nie wdraża E2EE, nie rozwiązuje problemu — jedynie przenosi zaufanie z Google na tego dostawcę.
+Skupianie się wyłącznie na politykach prywatności i marketingu danego narzędzia lub dostawcy może przysłonić jego słabości. Szukając bardziej prywatnego rozwiązania, najpierw ustal, jaki jest podstawowy problem, i dobierz techniczne środki do jego rozwiązania. Na przykład możesz chcieć unikać Dysku Google, ponieważ daje on Google dostęp do wszystkich Twoich danych. Zasadniczym problemem w tym przypadku jest brak szyfrowania end-to-end (E2EE), więc upewnij się, że wybrany dostawca, na którego się przenosisz, rzeczywiście implementuje E2EE, albo użyj narzędzia (np. [Cryptomator](../encryption.md#cryptomator-cloud)), które zapewnia E2EE niezależnie od chmury. Przejście na „dostawcę nastawionego na prywatność”, który nie wdraża E2EE, nie rozwiązuje problemu — jedynie przenosi zaufanie z Google na tego dostawcę.
 
-The privacy policies and business practices of providers you choose are very important, but should be considered secondary to technical guarantees of your privacy: You shouldn't shift trust to another provider when trusting a provider isn't a requirement at all.
+Polityki prywatności i praktyki biznesowe wybranych dostawców są oczywiście istotne, ale powinny ustępować miejsca technicznym gwarancjom prywatności. Nie ma sensu przenosić zaufania na innego dostawcę tam, gdzie zaufanie do dostawcy w ogóle nie jest potrzebne.
 
-## "Complicated is better"
+## „Skomplikowane jest lepsze”
 
-Często widzimy, że ludzie opisują modele zagrożeń dotyczące prywatności, które są przesadnie skomplikowane. Often, these solutions include problems like multiple email accounts or complicated setups with lots of moving parts and conditions. The replies are usually answers to "What is the best way to do *X*?"
+Często widzimy, że ludzie opisują modele zagrożeń dotyczące prywatności, które są przesadnie skomplikowane. Zwykle obejmują one np. wiele różnych kont e-mail lub skomplikowane konfiguracje z wieloma ruchomymi elementami i warunkami. Odpowiedzi są zazwyczaj odpowiedziami na pytania typu „Jaki jest najlepszy sposób na *X*?”.
 
-Znalezienie „najlepszego” rozwiązania nie musi oznaczać dążenia do nieomylnego systemu z dziesiątkami warunków — takie rozwiązania często są trudne w praktycznym użyciu. Jak już wspomniano, bezpieczeństwo często idzie kosztem wygody. Below, we provide some tips:
+Znalezienie „najlepszego” rozwiązania nie musi oznaczać dążenia do nieomylnego systemu z dziesiątkami warunków — takie rozwiązania często są trudne w praktycznym użyciu. Jak już wspomniano, bezpieczeństwo często idzie kosztem wygody. Poniżej przedstawiamy kilka porad:
 
-1. ==Actions need to serve a particular purpose:== think about how to do what you want with the fewest actions.
-2. ==Remove human failure points:== We fail, get tired, and forget things. To maintain security, avoid relying on manual conditions and processes that you have to remember.
-3. ==Use the right level of protection for what you intend.== We often see recommendations of so-called law-enforcement or subpoena-proof solutions. These often require specialist knowledge and generally aren't what people want. There's no point in building an intricate threat model for anonymity if you can be easily deanonymized by a simple oversight.
+1. ==Działania muszą służyć konkretnemu celowi:== zastanów się, jak osiągnąć to, co chcesz, przy jak najmniejszej liczbie działań.
+2. ==Usuń punkty podatne na błąd ludzki:== zawalamy, męczymy się i zapominamy. Aby zachować bezpieczeństwo, unikaj polegania na ręcznych warunkach i procesach, które musisz pamiętać.
+3. ==Używaj odpowiedniego poziomu ochrony do zamierzonego celu:== często widzimy zalecenia dotyczące tzw. rozwiązań „odpornych na organy ścigania” lub „odpornych na wezwania sądowe”. Takie rozwiązania zwykle wymagają specjalistycznej wiedzy i z reguły nie są tym, czego ludzie naprawdę potrzebują. Nie ma sensu budować skomplikowanego modelu zagrożeń dla anonimowości, jeśli można zostać zdeanonimizowanym przez proste przeoczenie.
 
-So, how might this look?
+Jak to może wyglądać w praktyce?
 
-One of the clearest threat models is one where people *know who you are* and one where they do not. There will always be situations where you must declare your legal name and there are others where you don't need to.
+Jeden z najjaśniejszych sposobów opisu modelu zagrożeń to rozróżnienie sytuacji, w których ludzie *znają Twoją tożsamość*, i tych, w których jej nie znają. Zawsze będą sytuacje, w których musisz podać swoje prawne imię i nazwisko, oraz te, gdzie nie jest to konieczne.
 
-1. **Known identity** - A known identity is used for things where you must declare your name. There are many legal documents and contracts where a legal identity is required. This could range from opening a bank account, signing a property lease, obtaining a passport, customs declarations when importing items, or otherwise dealing with your government. These things will usually lead to credentials such as credit cards, credit rating checks, account numbers, and possibly physical addresses.
+1. **Znana tożsamość** — znana tożsamość jest używana tam, gdzie musisz podać swoje imię i nazwisko. Istnieje wiele dokumentów prawnych i umów, w których wymagana jest tożsamość prawna: otwarcie konta bankowego, podpisanie umowy najmu, uzyskanie paszportu, deklaracje celne przy imporcie przedmiotów czy inne kontakty z instytucjami państwowymi. Takie sytuacje zwykle prowadzą do powstania poświadczeń, jak karty płatnicze, sprawdzenia zdolności kredytowej, numery kont czy ewentualnie adresy fizyczne.
 
-    We don't suggest using a VPN or Tor for any of these things, as your identity is already known through other means.
+    Nie zalecamy używania VPN ani sieci Tor do tych czynności, ponieważ Twoja tożsamość i tak jest ujawniona innymi kanałami.
 
     <div class="admonition tip" markdown>
     <p class="admonition-title">Porada</p>
 
-    When shopping online, the use of a [parcel locker](https://en.wikipedia.org/wiki/Parcel_locker) can help keep your physical address private.
+    Podczas zakupów online korzystanie z [paczkomatu](https://pl.wikipedia.org/wiki/Automat_paczkowy) może pomóc chronić Twój adres fizyczny.
 
     </div>
 
-2. **Unknown identity** - An unknown identity could be a stable pseudonym that you regularly use. It is not anonymous because it doesn't change. If you're part of an online community, you may wish to retain a persona that others know. This pseudonym isn't anonymous because—if monitored for long enough—details about the owner can reveal further information, such as the way they write, their general knowledge about topics of interest, etc.
+2. **Nieznana tożsamość** — nieznana tożsamość może być stałym pseudonimem, którego regularnie używasz. Nie jest to anonimowość, ponieważ pseudonim się nie zmienia. Jeśli jesteś częścią społeczności online, możesz chcieć zachować osobowość, którą inni znają. Ten pseudonim nie jest anonimowy, ponieważ po dłuższym monitoringu można wywnioskować dodatkowe informacje o jego właścicielu — sposób pisania, zakres wiedzy, zainteresowania itp.
 
-    You may wish to use a VPN for this, to mask your IP address. Financial transactions are more difficult to mask: You could consider using anonymous cryptocurrencies, such as [Monero](../cryptocurrency.md#monero). Employing altcoin shifting may also help to disguise where your currency originated. Typically, exchanges require KYC (know your customer) to be completed before they'll allow you to exchange fiat currency into any kind of cryptocurrency. Local meet-up options may also be a solution; however, those are often more expensive and sometimes also require KYC.
+    W takim przypadku możesz użyć VPN, by ukryć swój adres IP. Transakcje finansowe są trudniejsze do zamaskowania: można rozważyć użycie anonimowych kryptowalut, takich jak [Monero](../cryptocurrency.md#monero). Przemieszczanie środków między altcoinami może również pomóc ukryć źródło pochodzenia środków. Typically, exchanges require KYC (know your customer) to be completed before they'll allow you to exchange fiat currency into any kind of cryptocurrency. Local meet-up options may also be a solution; however, those are often more expensive and sometimes also require KYC.
 
 3. **Anonymous identity** - Even with experience, anonymous identities are difficult to maintain over long periods of time. They should be short-term and short-lived identities which are rotated regularly.
 
