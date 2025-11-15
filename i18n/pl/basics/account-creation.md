@@ -13,64 +13,64 @@ Usunięcie konta w niektórych usługach też bywa trudne. Czasem możliwe jest 
 
 ## Warunki korzystania z usługi i polityka prywatności
 
-Warunki korzystania z usługi (ToS) to zasady, których zgadzasz się przestrzegać, korzystając z serwisu. W większych usługach te zasady często egzekwowane są przez systemy zautomatyzowane. Czasami takie systemy popełniają błędy. Na przykład możesz zostać zbanowany lub zablokowany na swoim koncie za korzystanie z VPN lub numeru VoIP. Odwoływanie się od takich banów jest często trudne i również przebiega automatycznie, co nie zawsze kończy się sukcesem. To jedna z przyczyn, dla których nie zalecamy używania Gmaila jako przykładowej skrzynki e-mail. Email is crucial for access to other services you might have signed up for.
+Warunki korzystania z usługi (ToS) to zasady, których zgadzasz się przestrzegać, korzystając z serwisu. W większych usługach te zasady często egzekwowane są przez systemy zautomatyzowane. Czasami takie systemy popełniają błędy. Na przykład możesz zostać zbanowany lub zablokowany na swoim koncie za korzystanie z VPN lub numeru VoIP. Odwoływanie się od takich banów jest często trudne i również przebiega automatycznie, co nie zawsze kończy się sukcesem. To jedna z przyczyn, dla których nie zalecamy używania Gmaila jako przykładowej skrzynki e-mail. E-mail jest kluczowy dla dostępu do innych usług, z których być może korzystasz.
 
-The Privacy Policy is how the service says they will use your data, and it is worth reading so that you understand how your data will be used. A company or organization might not be legally obligated to follow everything contained in the policy (it depends on the jurisdiction). We would recommend having some idea what your local laws are and what they permit a provider to collect.
+Polityka prywatności określa, w jaki sposób usługa zamierza wykorzystywać Twoje dane, więc warto ją przeczytać, aby zrozumieć, jak będą one używane. Firma lub organizacja może nie być prawnie zobowiązana do przestrzegania wszystkiego, co znajduje się w polityce (zależy to od jurysdykcji). Zalecamy zapoznanie się z lokalnymi przepisami i tym, co pozwalają one dostawcy zbierać.
 
-We recommend looking for particular terms such as "data collection", "data analysis", "cookies", "ads" or "3rd-party" services. Sometimes you will be able to opt out from data collection or from sharing your data, but it is best to choose a service that respects your privacy from the start.
+Zalecamy wyszukiwać w polityce konkretne terminy, takie jak „gromadzenie danych”, „analiza danych”, „pliki cookies”/„ciasteczka”, „reklamy” czy usługi „stron trzecich”. Czasami możesz mieć możliwość rezygnacji z gromadzenia danych lub z ich udostępniania, ale najlepiej wybrać usługę, która od samego początku szanuje Twoją prywatność.
 
-Keep in mind you're also placing your trust in the company or organization and that they will comply with their own privacy policy.
+Pamiętaj też, że powierzasz zaufanie firmie lub organizacji i zakładasz, że będzie ona przestrzegać własnej polityki prywatności.
 
-## Authentication methods
+## Metody uwierzytelniania
 
-There are usually multiple ways to sign up for an account, each with their own benefits and drawbacks.
+Zazwyczaj istnieje kilka sposobów założenia konta, z których każdy ma swoje wady i zalety.
 
-### Email and password
+### E-mail i hasło
 
-The most common way to create a new account is by an email address and password. When using this method, you should use a password manager and follow [best practices](passwords-overview.md) regarding passwords.
+Najczęstszym sposobem utworzenia nowego konta jest podanie adresu e-mail i hasła. Korzystając z tej metody, należy używać menedżera haseł i stosować się do [zaleceń dotyczących haseł](passwords-overview.md).
 
 <div class="admonition tip" markdown>
 <p class="admonition-title">Porada</p>
 
-You can use your password manager to organize other authentication methods too! Just add the new entry and fill the appropriate fields, you can add notes for things like security questions or a backup key.
+Menedżer haseł możesz też wykorzystać do uporządkowania innych metod uwierzytelniania! Wystarczy dodać nowy wpis i wypełnić odpowiednie pola. Możesz dodać także notatki do takich rzeczy jak pytania zabezpieczające czy klucz zapasowy.
 
 </div>
 
-You will be responsible for managing your login credentials. For added security, you can set up [MFA](multi-factor-authentication.md) on your accounts.
+Będziesz odpowiadać za zarządzanie swoimi danymi logowania. Dla zwiększenia bezpieczeństwa możesz włączyć [uwierzytelnianie wieloskładnikowe](multi-factor-authentication.md) na swoich kontach.
 
-[Recommended password managers](../passwords.md ""){.md-button}
+[Zalecane menedżery haseł](../passwords.md ""){.md-button}
 
-#### Email aliases
+#### Aliasy e-mail
 
-If you don't want to give your real email address to a service, you have the option to use an alias. We describe them in more detail on our email services recommendation page. Essentially, alias services allow you to generate new email addresses that forward all emails to your main address. This can help prevent tracking across services and help you manage the marketing emails that sometimes come with the sign-up process. Those can be filtered automatically based on the alias they are sent to.
+Jeśli nie chcesz podawać swojego prawdziwego adresu e-mail usłudze, możesz użyć aliasu. Opisujemy je bardziej szczegółowo na naszej stronie z zaleceniami dotyczącymi usług e-mail. W skrócie: usługi aliasów pozwalają generować nowe adresy e-mail, które przekierowują wszystkie wiadomości na Twój główny adres. Pomaga to zapobiegać śledzeniu między usługami i ułatwia zarządzanie wiadomościami marketingowymi, które czasem pojawiają się w procesie rejestracji. Można je filtrować automatycznie na podstawie aliasu, na który zostały wysłane.
 
-Should a service get hacked, you might start receiving phishing or spam emails to the address you used to sign up. Using unique aliases for each service can assist in identifying exactly what service was hacked.
+Jeśli jakaś usługa zostanie zhakowana, możesz zacząć otrzymywać na użyty adres wiadomości phishingowe lub spam. Korzystanie z unikalnych aliasów dla każdej usługi ułatwia dokładne ustalenie, która usługa została zhakowana.
 
-[Recommended email aliasing services](../email-aliasing.md ""){.md-button}
+[Zalecane usługi aliasingu e-mail](../email-aliasing.md ""){.md-button}
 
-### "Sign in with..." (OAuth)
+### „Zaloguj się za pomocą...” (OAuth)
 
-[Open Authorization (OAuth)](https://en.wikipedia.org/wiki/OAuth) is an authentication protocol that allows you to register for a service without sharing much information with the service provider, if any, by using an existing account you have with another service instead. Whenever you see something along the lines of "Sign in with *provider name*" on a registration form, it's typically using OAuth.
+[Open Authorization (OAuth)](https://en.wikipedia.org/wiki/OAuth) to otwarty protokół uwierzytelniania, który pozwala zarejestrować się w usłudze bez udostępniania jej wielu informacji (jeśli w ogóle), przez użycie istniejącego konta u innego dostawcy. Kiedy w formularzu rejestracji widzisz coś w stylu „Zaloguj się za pomocą *nazwa dostawcy*”, zwykle oznacza to użycie OAuth.
 
-When you sign in with OAuth, it will open a login page with the provider you choose, and your existing account and new account will be connected. Your password won't be shared, but some basic information typically will (you can review it during the login request). This process is needed every time you want to log in to the same account.
+Kiedy logujesz się za pomocą OAuth, otworzy się strona logowania u wybranego dostawcy, a twoje istniejące konto i nowe konto zostaną powiązane. Twoje hasło nie będzie udostępnione, ale zwykle przekazywane są pewne podstawowe informacje (możesz je sprawdzić podczas żądania logowania). Ten proces jest konieczny za każdym razem, gdy chcesz zalogować się na to samo konto.
 
-The main advantages are:
+Główne zalety to:
 
-- **Security**: You don't have to trust the security practices of the service you're logging into when it comes to storing your login credentials because they are stored with the external OAuth provider. Common OAuth providers like Apple and Google typically follow the best security practices, continuously audit their authentication systems, and don't store credentials inappropriately (such as in plain text).
-- **Ease-of-use**: Multiple accounts are managed by a single login.
+- **Bezpieczeństwo**: Nie musisz ufać praktykom bezpieczeństwa usługi, do której się logujesz, jeśli chodzi o przechowywanie danych logowania, ponieważ są one przechowywane u zewnętrznego dostawcy OAuth. Popularni dostawcy OAuth, tacy jak Apple czy Google, zwykle stosują najlepsze praktyki bezpieczeństwa, regularnie audytują swoje systemy uwierzytelniania i nie przechowują danych uwierzytelniających w nieodpowiedni sposób (np. w postaci zwykłego tekstu).
+- **Wygoda**: Możesz zarządzać wieloma kontami za pomocą jednego logowania.
 
-But there are disadvantages:
+Są jednak wady:
 
-- **Privacy**: The OAuth provider you log in with will know the services you use.
-- **Centralization**: If the account you use for OAuth is compromised, or you aren't able to log in to it, all other accounts connected to it are affected.
+- **Prywatność**: Dostawca OAuth, za pomocą którego się logujesz, będzie wiedział, z jakich usług korzystasz.
+- **Centralizacja**: Jeśli konto używane do OAuth zostanie przejęte lub nie będziesz mógł się na nie zalogować, wszystkie inne konta powiązane z nim są zagrożone.
 
-OAuth can be especially useful in those situations where you could benefit from deeper integration between services. Our recommendation is to limit using OAuth to only where you need it, and always protect the main account with [MFA](multi-factor-authentication.md).
+OAuth może być szczególnie przydatny tam, gdzie korzystasz z głębszej integracji między usługami. Zalecamy ograniczyć używanie OAuth tylko do sytuacji, w których jest to konieczne, i zawsze chronić konto główne przy pomocy [MFA](multi-factor-authentication.md).
 
-All the services that use OAuth will be as secure as your underlying OAuth provider's account. For example, if you want to secure an account with a hardware key, but that service doesn't support hardware keys, you can secure the account you use with OAuth with a hardware key instead, and now you essentially have hardware MFA on all your accounts. It is worth noting though that weak authentication on your OAuth provider account means that any account tied to that login will also be weak.
+Wszystkie usługi korzystające z OAuth będą tak bezpieczne, jak konto Twojego dostawcy OAuth. Na przykład, jeśli chcesz zabezpieczyć konto kluczem sprzętowym, ale dana usługa ich nie obsługuje, możesz zabezpieczyć konto, którego używasz z OAuth, kluczem sprzętowym, przez co w praktyce masz teraz sprzętowe uwierzytelnianie wieloskładnikowe na wszystkich powiązanych kontach. Warto jednak pamiętać, że słabe uwierzytelnienie konta u dostawcy OAuth oznacza, że każde konto powiązane z tym logowaniem również będzie słabe.
 
-There is an additional danger when using *Sign in with Google*, *Facebook*, or another service, which is that typically the OAuth process allows for *bidirectional* data sharing. For example, logging in to a forum with your Twitter account could grant that forum access to do things on your Twitter account such as post, read your messages, or access other personal data. OAuth providers will typically present you with a list of things you are granting the external service access to, and you should always ensure that you read through that list and don't inadvertently grant the external service access to anything it doesn't require.
+Dodatkowe niebezpieczeństwo przy używaniu *Zaloguj się za pomocą Google*, *Facebook* czy innej usługi polega na tym, że proces OAuth zwykle umożliwia *dwukierunkowe* udostępnianie danych. Na przykład zalogowanie się na forum za pomocą konta Twitter może dać temu forum uprawnienia do wykonywania działań na twoim koncie Twitter — np. publikowania postów, czytania wiadomości lub dostępu do innych danych osobowych. Dostawcy OAuth zwykle pokażą listę uprawnień, które przyznajesz zewnętrznej usłudze, więc zawsze dokładnie ją przeczytaj i nie przyznawaj przypadkowo dostępu do niczego, czego usługa nie potrzebuje.
 
-Malicious applications, particularly on mobile devices where the application has access to the WebView session used for logging in to the OAuth provider, can also abuse this process by hijacking your session with the OAuth provider and gaining access to your OAuth account through those means. Using the *Sign in with* option with any provider should usually be considered a matter of convenience that you only use with services you trust to not be actively malicious.
+Złośliwe aplikacje, szczególnie na urządzeniach mobilnych, gdzie aplikacja ma dostęp do sesji WebView używanej do logowania u dostawcy OAuth, mogą również nadużyć tego procesu, przejmując Twoją sesję u dostawcy OAuth i w ten sposób uzyskując dostęp do Twojego konta OAuth. Korzystanie z opcji *Zaloguj się za pomocą* dowolnego dostawcy powinno być traktowane jako wygoda, której używasz jedynie w przypadku usług, którym ufasz i które nie są aktywnie złośliwe.
 
 ### Phone number
 
