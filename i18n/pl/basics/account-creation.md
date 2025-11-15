@@ -1,19 +1,19 @@
 ---
-meta_title: "How to Create Internet Accounts Privately - Privacy Guides"
-title: "Account Creation"
+meta_title: "Jak prywatnie zakładać konta w Internecie — Privacy Guides"
+title: "Zakładanie konta"
 icon: 'material/account-plus'
-description: Creating accounts online is practically an internet necessity, take these steps to make sure you stay private.
+description: Zakładanie kont w sieci to niemal konieczność — wykonaj poniższe kroki, aby upewnić się, że zachowujesz prywatność.
 ---
 
-Often people sign up for services without thinking. Maybe it's a streaming service to watch that new show everyone's talking about, or an account that gives you a discount for your favorite fast food place. Whatever the case may be, you should consider the implications for your data now and later on down the line.
+Często ludzie rejestrują się w usługach bez zastanowienia. Może to być serwis streamingowy, żeby obejrzeć nowy serial, o którym wszyscy mówią, albo konto, które daje zniżkę w ulubionej sieci fast food. Niezależnie od powodu, warto przemyśleć konsekwencje dla swoich danych — teraz i w przyszłości.
 
-There are risks associated with every new service that you use. Data breaches; disclosure of customer information to third parties; rogue employees accessing data; all are possibilities that must be considered when giving your information out. You need to be confident that you can trust the service, which is why we don't recommend storing valuable data on anything but the most mature and battle-tested products. That usually means services which provide E2EE and have undergone a cryptographic audit. An audit increases assurance that the product was designed without glaring security issues caused by an inexperienced developer.
+Każda nowa usługa, z której korzystasz, niesie ze sobą ryzyko. Naruszenia danych, ujawnienie informacji o klientach stronom trzecim, dostęp do danych przez nieuczciwych pracowników — to wszystko to realne możliwości, które trzeba brać pod uwagę, podając swoje dane. Musisz mieć pewność, że możesz zaufać danej usłudze, dlatego nie zalecamy przechowywania cennych danych nigdzie indziej niż na najbardziej dojrzałych i sprawdzonych produktach. Zazwyczaj chodzi o usługi oferujące szyfrowanie E2EE i poddane audytowi kryptograficznemu. Audyt zwiększa pewność, że produkt został zaprojektowany bez rażących błędów bezpieczeństwa wynikających z braku doświadczenia twórców.
 
-It can also be difficult to delete the accounts on some services. Sometimes [overwriting data](account-deletion.md#overwriting-account-information) associated with an account can be possible, but in other cases the service will keep an entire history of changes to the account.
+Usunięcie konta w niektórych usługach też bywa trudne. Czasem możliwe jest [nadpisanie danych](account-deletion.md#overwriting-account-information) powiązanych z kontem, ale w innych przypadkach usługa będzie przechowywać całą historię zmian konta.
 
-## Terms of Service & Privacy Policy
+## Warunki korzystania z usługi i polityka prywatności
 
-The ToS are the rules that you agree to follow when using the service. With larger services these rules are often enforced by automated systems. Sometimes these automated systems can make mistakes. For example, you may be banned or locked out of your account on some services for using a VPN or VoIP number. Appealing such bans is often difficult, and involves an automated process too, which isn't always successful. This would be one of the reasons why we wouldn't suggest using Gmail for email as an example. Email is crucial for access to other services you might have signed up for.
+Warunki korzystania z usługi (ToS) to zasady, których zgadzasz się przestrzegać, korzystając z serwisu. W większych usługach te zasady często egzekwowane są przez systemy zautomatyzowane. Czasami takie systemy popełniają błędy. Na przykład możesz zostać zbanowany lub zablokowany na swoim koncie za korzystanie z VPN lub numeru VoIP. Odwoływanie się od takich banów jest często trudne i również przebiega automatycznie, co nie zawsze kończy się sukcesem. To jedna z przyczyn, dla których nie zalecamy używania Gmaila jako przykładowej skrzynki e-mail. Email is crucial for access to other services you might have signed up for.
 
 The Privacy Policy is how the service says they will use your data, and it is worth reading so that you understand how your data will be used. A company or organization might not be legally obligated to follow everything contained in the policy (it depends on the jurisdiction). We would recommend having some idea what your local laws are and what they permit a provider to collect.
 
