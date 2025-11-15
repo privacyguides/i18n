@@ -72,14 +72,14 @@ Dodatkowe niebezpieczeństwo przy używaniu *Zaloguj się za pomocą Google*, *F
 
 Złośliwe aplikacje, szczególnie na urządzeniach mobilnych, gdzie aplikacja ma dostęp do sesji WebView używanej do logowania u dostawcy OAuth, mogą również nadużyć tego procesu, przejmując Twoją sesję u dostawcy OAuth i w ten sposób uzyskując dostęp do Twojego konta OAuth. Korzystanie z opcji *Zaloguj się za pomocą* dowolnego dostawcy powinno być traktowane jako wygoda, której używasz jedynie w przypadku usług, którym ufasz i które nie są aktywnie złośliwe.
 
-### Phone number
+### Numer telefonu
 
-We recommend avoiding services that require a phone number for sign up. A phone number can identify you across multiple services and depending on data sharing agreements this will make your usage easier to track, particularly if one of those services is breached as the phone number is often **not** encrypted.
+Zalecamy unikać usług, które wymagają podania numeru telefonu przy rejestracji. Numer telefonu może Cię identyfikować w różnych usługach, a w zależności od umów o udostępnianiu danych ułatwi to śledzenie Twojej aktywności, szczególnie jeśli któraś z tych usług zostanie zhakowana, ponieważ numer często **nie jest** szyfrowany.
 
-You should avoid giving out your real phone number if you can. Some services will allow the use of VoIP numbers, however these often trigger fraud detection systems, causing an account to be locked down, so we don't recommend that for important accounts.
+Należy unikać podawania prawdziwego numeru telefonu, jeśli to możliwe. Niektóre usługi zezwalają na użycie numerów VoIP, jednak często uruchamia to systemy wykrywania oszustw i prowadzi do zablokowania konta, dlatego nie zalecamy tego dla ważnych kont.
 
-In many cases you will need to provide a number that you can receive SMS or calls from, particularly when shopping internationally, in case there is a problem with your order at border screening. It's common for services to use your number as a verification method; don't let yourself get locked out of an important account because you wanted to be clever and give a fake number!
+W wielu przypadkach konieczne będzie podanie numeru, na który możesz otrzymać SMS-y lub połączenia — zwłaszcza przy zakupach międzynarodowych, na wypadek problemów z zamówieniem na odprawie granicznej. Usługi często używają numeru jako metody weryfikacji; nie ryzykuj utraty dostępu do ważnego konta tylko dlatego, że chciałeś być sprytny i podałeś fałszywy numer!
 
-### Username and password
+### Nazwa użytkownika i hasło
 
-Some services allow you to register without using an email address and only require you to set a username and password. These services may provide increased anonymity when combined with a VPN or Tor. Keep in mind that for these accounts there will most likely be **no way to recover your account** in the event you forget your username or password.
+Niektóre usługi pozwalają zarejestrować się bez adresu e-mail, wymagając jedynie nazwy użytkownika i hasła. Takie usługi mogą zapewniać większą anonimowość w połączeniu z VPN lub Torem. Pamiętaj jednak, że w przypadku takich kont najprawdopodobniej **nie będzie możliwości odzyskania konta**, jeśli zapomnisz nazwę użytkownika lub hasło.
