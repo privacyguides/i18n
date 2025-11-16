@@ -10,24 +10,24 @@ Z upływem czasu łatwo zebrać wiele kont internetowych, z których część mo
 
 ### Menedżer haseł
 
-Jeśli masz menedżera haseł, z którego korzystasz przez całe swoje cyfrowe życie, ta część będzie wyjątkowo prosta. Oftentimes, they include built-in functionality for detecting if your credentials were exposed in a data breach—such as Bitwarden's [Data Breach Report](https://bitwarden.com/blog/have-you-been-pwned).
+Jeśli masz menedżera haseł, z którego korzystasz przez całe swoje cyfrowe życie, ta część będzie wyjątkowo prosta. Często mają one wbudowane funkcje wykrywania, czy Twoje dane logowania zostały ujawnione w wyniku wycieku danych — jak choćby [raport wycieków danych](https://bitwarden.com/blog/have-you-been-pwned) Bitwarden.
 
 <figure markdown>
-  ![Bitwarden's Data Breach Report feature](../assets/img/account-deletion/exposed_passwords.png)
+  ![Funkcja raport wycieków danych Bitwarden](../assets/img/account-deletion/exposed_passwords.png)
 </figure>
 
-Even if you haven't explicitly used a password manager before, there's a chance you've used the one in your browser or your phone without even realizing it. For example: [Firefox Password Manager](https://support.mozilla.org/kb/password-manager-remember-delete-edit-logins), [Google Password Manager](https://passwords.google.com/intro) and [Edge Password Manager](https://support.microsoft.com/microsoft-edge/save-or-forget-passwords-in-microsoft-edge-b4beecb0-f2a8-1ca0-f26f-9ec247a3f336).
+Nawet jeśli nigdy świadomie nie zdarzyło Ci się korzystać z menedżera haseł, istnieje szansa, że używasz go w przeglądarce lub telefonie, nawet tego nie zauważając. Przykładowo: [Menedżer haseł Firefoksa](https://support.mozilla.org/kb/password-manager-remember-delete-edit-logins), [Menedżer haseł Google](https://passwords.google.com/intro) oraz [Menedżer haseł Edge](https://support.microsoft.com/microsoft-edge/save-or-forget-passwords-in-microsoft-edge-b4beecb0-f2a8-1ca0-f26f-9ec247a3f336).
 
-Desktop platforms also often have a password manager which may help you recover passwords you've forgotten about:
+Systemy operacyjne na komputery stacjonarne również często mają własne menedżery haseł, które mogą pomóc odzyskać dawno zapomniane dane logowania:
 
-- Windows [Credential Manager](https://support.microsoft.com/windows/accessing-credential-manager-1b5c916a-6a16-889f-8581-fc16e8165ac0)
-- macOS [Passwords](https://support.apple.com/HT211145)
-- iOS [Passwords](https://support.apple.com/HT211146)
-- Linux, Gnome Keyring, which can be accessed through [Seahorse](https://wiki.gnome.org/Apps/Seahorse) or [KDE Wallet Manager](https://userbase.kde.org/KDE_Wallet_Manager)
+- [Poświadczenia systemu Windows](https://support.microsoft.com/windows/accessing-credential-manager-1b5c916a-6a16-889f-8581-fc16e8165ac0)
+- Aplikacja [Hasła](https://support.apple.com/HT211145) w systemie MacOS
+- Aplikacja [Hasła](https://support.apple.com/HT211146) w systemie iOS
+- Na Linuksie dostępny jest Gnome Keyring za pośrednictwem[Seahorse](https://wiki.gnome.org/Apps/Seahorse) lub [KDE Wallet Manager](https://userbase.kde.org/KDE_Wallet_Manager)
 
-### Dostawcy sieci VPN
+### E-mail
 
-If you didn't use a password manager in the past, or you think you have accounts that were never added to your password manager, another option is to search the email account(s) that you believe you signed up on. On your email client, search for keywords such as "verify" or "welcome." Almost every time you make an online account, the service will send a verification link or an introductory message to your email. This can be a good way to find old, forgotten accounts.
+Jeśli wcześniej nie korzystałeś(-aś) z menedżera haseł albo podejrzewasz, że masz konta, których nigdy nie zostały do niego dodane, kolejną opcją jest przeszukanie skrzynki e-mail, na której prawdopodobnie dokonano rejestracji. W swoim kliencie poczty e-mail wyszukaj słowa kluczowe takie jak „verify”, „weryfikacja”, „welcome” czy „witaj”. Niemalże za każdym razem, gdy zakładasz konto online, usługa wysyła link weryfikacyjny lub wiadomość powitalną. To dobry sposób na odnalezienie starych, zapomnianych kont.
 
 ## Deleting Old Accounts
 
