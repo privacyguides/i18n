@@ -1,16 +1,16 @@
 ---
-title: "Account Deletion"
+title: "Usuwanie kont"
 icon: 'material/account-remove'
-description: It's easy to accumulate a large number of internet accounts, here are some tips on how to prune your collection.
+description: Łatwo jest zgromadzić dużą liczbę kont internetowych — oto kilka wskazówek, jak uszczuplić ich kolekcję.
 ---
 
-Over time, it can be easy to accumulate a number of online accounts, many of which you may no longer use. Deleting these unused accounts is an important step in reclaiming your privacy, as dormant accounts are vulnerable to data breaches. A data breach is when a service's security is compromised and protected information is viewed, transmitted, or stolen by unauthorized actors. Data breaches are unfortunately all [too common](https://haveibeenpwned.com/PwnedWebsites) these days, and so practicing good digital hygiene is the best way to minimize the impact they have on your life. The goal of this guide then is to help navigate you through the irksome process of account deletion, often made difficult by [deceptive design](https://deceptive.design), for the betterment of your online presence.
+Z upływem czasu łatwo zebrać wiele kont internetowych, z których część możesz już nie używać. Usuwanie tych kont to ważny krok w odzyskiwaniu prywatności, ponieważ nieaktywne konta są podatne na naruszenia danych. Naruszenie danych (lub też „wyciek danych”) to sytuacja, gdy bezpieczeństwo usługi zostaje przełamane, a chronione informacje są przeglądane, przesyłane lub kradzione przez nieuprawnione podmioty. Niestety wycieki danych są dziś [zbyt powszechne](https://haveibeenpwned.com/PwnedWebsites), dlatego praktykowanie dobrej higieny cyfrowej to najlepszy sposób na zminimalizowanie ich wpływu na Twoje życie. Celem tego przewodnika jest przeprowadzić Cię przez uciążliwy proces usuwania kont, często utrudniany przez [zwodnicze projektowanie](https://deceptive.design), tak aby poprawić Twoją obecność w sieci.
 
-## Finding Old Accounts
+## Odnajdywanie starych kont
 
-### Password Manager
+### Menedżer haseł
 
-If you have a password manager that you've used for your entire digital life, this part will be very easy. Oftentimes, they include built-in functionality for detecting if your credentials were exposed in a data breach—such as Bitwarden's [Data Breach Report](https://bitwarden.com/blog/have-you-been-pwned).
+Jeśli masz menedżera haseł, z którego korzystasz przez całe swoje cyfrowe życie, ta część będzie wyjątkowo prosta. Oftentimes, they include built-in functionality for detecting if your credentials were exposed in a data breach—such as Bitwarden's [Data Breach Report](https://bitwarden.com/blog/have-you-been-pwned).
 
 <figure markdown>
   ![Bitwarden's Data Breach Report feature](../assets/img/account-deletion/exposed_passwords.png)

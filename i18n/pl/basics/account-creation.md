@@ -1,6 +1,6 @@
 ---
 meta_title: "Jak prywatnie zakładać konta w Internecie — Privacy Guides"
-title: "Zakładanie konta"
+title: "Zakładanie kont"
 icon: 'material/account-plus'
 description: Zakładanie kont w sieci to niemal konieczność — wykonaj poniższe kroki, aby upewnić się, że zachowujesz prywatność.
 ---
