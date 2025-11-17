@@ -84,43 +84,43 @@ Aby pokazać, jak silne są frazy dostępu Diceware, posłużymy się wspomnian�
 
 Entropia to jedna z miar siły frazy dostępu. Entropię przypadającą na jedno słowo we frazie Diceware oblicza się jako <math> <mrow> <msub> <mtext>log</mtext> <mn>2</mn> </msub> <mo form="prefix" stretchy="false">(</mo> <mtext>LiczbaSłówNaLiście</mtext> <mo form="postfix" stretchy="false">)</mo> </mrow> </math> a całkowitą entropię frazy jako: <math> <mrow> <msub> <mtext>log</mtext> <mn>2</mn> </msub> <mo form="prefix" stretchy="false">(</mo> <msup> <mtext>LiczbaSłówNaLiście</mtext> <mtext>LiczbaSłówWeFrazie</mtext> </msup> <mo form="postfix" stretchy="false">)</mo> </mrow> </math>
 
-Zatem każde słowo z wymienionej listy daje ~12,9 bitów entropii (<math> <mrow> <msub> <mtext>log</mtext> <mn>2</mn> </msub> <mo form="prefix" stretchy="false">(</mo> <mn>7776</mn> <mo form="postfix" stretchy="false">)</mo> </mrow> </math>), and a seven word passphrase derived from it has ~90.47 bits of entropy (<math> <mrow> <msub> <mtext>log</mtext> <mn>2</mn> </msub> <mo form="prefix" stretchy="false">(</mo> <msup> <mn>7776</mn> <mn>7</mn> </msup> <mo form="postfix" stretchy="false">)</mo> </mrow> </math>).
+Zatem każde słowo z wymienionej listy daje ~12,9 bitów entropii (<math> <mrow> <msub> <mtext>log</mtext> <mn>2</mn> </msub> <mo form="prefix" stretchy="false">(</mo> <mn>7776</mn> <mo form="postfix" stretchy="false">)</mo> </mrow> </math>), a siedmiowyrazowa fraza pochodząca z tej listy ma ~90,47 bitów entropii (<math> <mrow> <msub> <mtext>log</mtext> <mn>2</mn> </msub> <mo form="prefix" stretchy="false">(</mo> <msup> <mn>7776</mn> <mn>7</mn> </msup> <mo form="postfix" stretchy="false">)</mo> </mrow> </math>).
 
-The [EFF's large word list](https://eff.org/files/2016/07/18/eff_large_wordlist.txt) contains 7776 unique words. To calculate the amount of possible passphrases, all we have to do is <math> <msup> <mtext>LiczbaSłówNaLiście</mtext> <mtext>LiczbaSłówWeFrazie</mtext> </msup> </math>, or in our case, <math><msup><mn>7776</mn><mn>7</mn></msup></math>.
+[Duża lista słów EFF](https://eff.org/files/2016/07/18/eff_large_wordlist.txt) zawiera 7776 unikalnych słów. Aby obliczyć liczbę możliwych fraz dostępu, wystarczy policzyć <math> <msup> <mtext>LiczbaSłówNaLiście</mtext> <mtext>LiczbaSłówWeFrazie</mtext> </msup> </math>, czyli w naszym przypadku <math><msup><mn>7776</mn><mn>7</mn></msup></math>.
 
-Let's put all of this in perspective: A seven word passphrase using [EFF's large word list](https://eff.org/files/2016/07/18/eff_large_wordlist.txt) is one of ~1,719,070,799,748,422,500,000,000,000 possible passphrases.
+Dla perspektywy: siedmiowyrazowa fraza dostępu wygenerowana z [dużej listy słów EFF](https://eff.org/files/2016/07/18/eff_large_wordlist.txt) to jedna z ~1 719 070 799 748 422 500 000 000 000 możliwych fraz.
 
-On average, it takes trying 50% of all the possible combinations to guess your phrase. With that in mind, even if your adversary is capable of ~1,000,000,000,000 guesses per second, it would still take them ~27,255,689 years to guess your passphrase. That is the case even if the following things are true:
+Średnio trzeba sprawdzić 50% wszystkich kombinacji, żeby zgadnąć frazę. Mając to na uwadze, nawet jeśli atakujący potrafi wykonać ~1 000 000 000 000 prób na sekundę, nadal zajęłoby mu to ~27 255 689 lat, aby zgadnąć frazę dostępu. Dzieje się tak, nawet jeśli spełnione są następujące warunki:
 
-- Your adversary knows that you used the diceware method.
-- Your adversary knows the specific word list that you used.
-- Your adversary knows how many words your passphrase contains.
+- atakujący wie, że użyto metody Diceware;
+- atakujący zna konkretną listę słów, która została użyta;
+- atakujący wie, ile słów zawiera fraza dostępu.
 
 </details>
 
 Podsumowując, frazy dostępu Diceware to najlepszy wybór, gdy potrzeba rozwiązania łatwego do zapamiętania i jednocześnie wyjątkowo silnego.
 
-## Storing Passwords
+## Przechowywanie haseł
 
-### Password Managers
+### Menedżery haseł
 
-The best way to store your passwords is by using a password manager. They allow you to store your passwords in a file or in the cloud and protect them with a single master password. That way, you will only have to remember one strong password, which lets you access the rest of them.
+Najlepszym sposobem na przechowywanie haseł jest użycie menedżera haseł. Pozwala on zapisywać hasła lokalnie lub w chmurze i chronić je jednym hasłem głównym. W ten sposób wystarczy zapamiętać jedno silne hasło, które umożliwi dostęp do wszystkich pozostałych.
 
-There are many good options to choose from, both cloud-based and local. Choose one of our recommended password managers and use it to establish strong passwords across all of your accounts. We recommend securing your password manager with a [diceware passphrase](#diceware-passphrases) comprised of at least seven words.
+Istnieje wiele dobrych opcji, zarówno chmurowych, jak i lokalnych. Wybierz jeden z zalecanych przez nas zalecanych menedżerów haseł i użyj go do ustanowienia silnych haseł na wszystkich swoich kontach. Zalecamy zabezpieczenie menedżera haseł [frazą dostępu Diceware](#diceware-passphrases) składającą się z co najmniej siedmiu słów.
 
-[List of recommended password managers](../passwords.md ""){.md-button}
+[Lista zalecanych menedżerów haseł](../passwords.md ""){.md-button}
 
 <div class="admonition warning" markdown>
-<p class="admonition-title">Don't place your passwords and TOTP tokens inside the same password manager</p>
+<p class="admonition-title">Nie przechowuj haseł i tokenów TOTP w tym samym menedżerze haseł</p>
 
-When using [TOTP codes as multifactor authentication](multi-factor-authentication.md#time-based-one-time-password-totp), the best security practice is to keep your TOTP codes in a [separate app](../multi-factor-authentication.md).
+Przy stosowaniu [kodów TOTP jako uwierzytelniania wieloskładnikowego](multi-factor-authentication.md#time-based-one-time-password-totp) najlepszą praktyką jest przechowywanie kodów TOTP w [osobnej aplikacji](../multi-factor-authentication.md).
 
-Storing your TOTP tokens in the same place as your passwords, while convenient, reduces the accounts to a single factor in the event that an adversary gains access to your password manager.
+Przechowywanie tokenów TOTP w tym samym miejscu co hasła, choć wygodne, ogranicza zabezpieczenie do jednego składnika, w przypadku gdy ktoś uzyska dostęp do menedżera haseł.
 
-Furthermore, we do not recommend storing single-use recovery codes in your password manager. Those should be stored separately such as in an encrypted container on an offline storage device.
+Ponadto nie zalecamy przechowywania jednorazowych kodów odzyskiwania w menedżerze haseł. Powinny być one przechowywane osobno, np. w zaszyfrowanym kontenerze na urządzeniu offline.
 
 </div>
 
 ### Kopie zapasowe
 
-You should store an [encrypted](../encryption.md) backup of your passwords on multiple storage devices or a cloud storage provider. This can help you access your passwords if something happens to your primary device or the service you are using.
+Należy przechowywać [zaszyfrowaną](../encryption.md) kopię zapasową haseł na kilku nośnikach lub u dostawcy chmury. Ułatwi to dostęp do haseł, jeśli coś stanie się z głównym urządzeniem lub usługą, z której korzystasz.

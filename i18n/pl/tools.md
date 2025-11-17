@@ -558,7 +558,7 @@ For encrypting your OS drive, we typically recommend using the encryption tool y
 
 [Dowiedz się więcej :hero-arrow-circle-right-fill:](office-suites.md)
 
-### Password Managers
+### Menedżery haseł
 
 <div class="grid cards" markdown>
 
