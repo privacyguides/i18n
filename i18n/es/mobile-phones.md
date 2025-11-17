@@ -42,7 +42,7 @@ Al final de su vida útil, los dispositivos (como los dispositivos con el "sopor
 
 </div>
 
-## General Purchasing Advice
+## Consejos Generales de Compra
 
 Al comprar un dispositivo, recomendamos obtener uno tan nuevo como sea posible. El software y el firmware de los dispositivos móviles cuentan con soporte por un periodo limitado de tiempo, por lo que comprar uno nuevo extiende la vida útil tanto como sea posible.
 
@@ -74,13 +74,13 @@ Iniciando con el **Pixel 8** y **8 Pro**, los dispositivos Pixel cuentan como m�
 
 ### Seguridad del hardware
 
-Secure Elements like the Titan M2 are more limited than the processor's Trusted Execution Environment (TEE) used by most other phones as they are only used for secrets storage, hardware attestation, and rate limiting, not for running "trusted" programs. Los teléfonos sin un Entorno Seguro suelen utilizar TEE para _todas_ las demás funciones, lo que resulta en una gran superficie de ataque.
+Los Elementos Seguros como el Titan M2 son más limitados que el Entorno de Ejecución de Confianza (TEE) del procesador utilizado por la mayoría de los demás teléfonos, ya que solo se utilizan para el almacenamiento de secretos, la certificación de hardware y la limitación de velocidad, no para ejecutar programas «de confianza». Los teléfonos sin un Entorno Seguro suelen utilizar TEE para _todas_ las demás funciones, lo que resulta en una gran superficie de ataque.
 
 A diferencia de otros teléfonos, los Google Pixel utilizan un SO TEE de [código abierto](https://source.android.com/security/trusty#whyTrusty) llamado Trusty.
 
-The Pixel 8 series and later supports ARM's Memory Tagging Extension ([MTE](https://developer.arm.com/documentation/108035/0100/Introduction-to-the-Memory-Tagging-Extension)), a hardware security enhancement that drastically lowers the probability of exploits occurring through memory corruption bugs. The stock Pixel OS allows you to enable MTE for supported apps through Google's Advanced Protection Program or via a developer option, but its usability is quite limited. [GrapheneOS](android/distributions.md#grapheneos), an alternative Android OS we recommend, greatly improves the usability and coverage of MTE in its implementation of the feature.
+La serie Pixel 8 y posteriores son compatibles con la Extensión de Etiquetado de Memoria ([MTE](https://developer.arm.com/documentation/108035/0100/Introduction-to-the-Memory-Tagging-Extension)) de ARM, una mejora de seguridad de hardware que reduce drásticamente la probabilidad de que se produzcan exploits a través de fallos de corrupción de memoria. El Pixel OS de fábrica permite activar MTE para las aplicaciones compatibles a través del Programa de Protección Avanzada de Google o mediante una opción de desarrollador, pero su uso es bastante limitado. [GrapheneOS](android/distributions.md#grapheneos), un sistema operativo Android alternativo que recomendamos, mejora enormemente la usabilidad y la cobertura de MTE en su implementación de la función.
 
-### Buying a Google Pixel
+### Comprar un Google Pixel
 
 Algunos consejos adicionales al comprar un Google Pixel:
 

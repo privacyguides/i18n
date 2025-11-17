@@ -51,14 +51,14 @@ Los calendarios múltiples y la funcionalidad ampliada para compartir están lim
 
 ![Proton](assets/img/calendar/proton-calendar.svg){ align=right }
 
-**Proton Calendar** is an encrypted calendar service available to Proton members via its web or mobile clients. Entre sus características se incluyen el cifrado automático E2EE de todos los datos, funciones para compartir, funcionalidad de importación/exportación y [más](https://proton.me/support/proton-calendar-guide).
+**Proton Calendar** es un servicio de calendario encriptado disponible para los miembros de Proton a través de sus clientes web o móvil. Entre sus características se incluyen el cifrado automático E2EE de todos los datos, funciones para compartir, funcionalidad de importación/exportación y [más](https://proton.me/support/proton-calendar-guide).
 
 Los usuarios de la versión gratuita tienen acceso a 3 calendarios, mientras que los suscriptores de pago pueden crear hasta 25 calendarios. La funcionalidad de uso compartido extendido también se limita a los suscriptores de pago.
 
-[:octicons-home-16: Homepage](https://proton.me/calendar){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://proton.me/calendar/privacy-policy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://proton.me/support/calendar){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/orgs/ProtonMail/repositories?q=calendar){ .card-link title="Source Code" }
+[:octicons-home-16: Página Principal](https://proton.me/calendar){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://proton.me/calendar/privacy-policy){ .card-link title="Política de Privacidad" }
+[:octicons-info-16:](https://proton.me/support/calendar){ .card-link title="Documentación" }
+[:octicons-code-16:](https://github.com/orgs/ProtonMail/repositories?q=calendar){ .card-link title="Código Fuente" }
 
 <details class="downloads" markdown>
 <summary>Downloads "Descargas"</summary>
@@ -71,7 +71,7 @@ Los usuarios de la versión gratuita tienen acceso a 3 calendarios, mientras que
 
 </div>
 
-In 2021, Securitum [audited](https://proton.me/community/open-source#:~:text=Proton%20Calendar) Proton Calendar's web client and provided a [letter of attestation](https://res.cloudinary.com/dbulfrlrz/images/v1714639870/wp-pme/letter-of-attestation-proton-calendar-20211109_3138998f9b/letter-of-attestation-proton-calendar-20211109_3138998f9b.pdf) for the Android app.
+En 2021, Securitum [auditó](https://proton.me/community/open-source#:~:text=Proton%20Calendar) el cliente web de Proton Calendar y proporcionó una [carta de certificación](https://res.cloudinary.com/dbulfrlrz/images/v1714639870/wp-pme/letter-of-attestation-proton-calendar-20211109_3138998f9b/letter-of-attestation-proton-calendar-20211109_3138998f9b.pdf) para la aplicación de Android.
 
 ## Criterios
 

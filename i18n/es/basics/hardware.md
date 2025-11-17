@@ -110,11 +110,11 @@ La mejor manera de prevenir un ataque dirigido contra ti antes de que un disposi
 
 Asegúrate de que tu dispositivo es compatible con el arranque seguro/verificado y de que lo tienes activado. Intenta evitar dejar tu dispositivo desatendido siempre que sea posible.
 
-### Kensington Locks
+### Candados Kensington
 
-Many laptops come equipped with a [Kensington slot](https://www.kensington.com/solutions/product-category/security/?srsltid=AfmBOorQOlRnqRJOAqM-Mvl7wumed0wBdiOgktlvdidpMHNIvGfwj9VI) that can be used to secure your device with a **metal cable** that locks into the slot on your machine. These locks can be combination locks or keyed.
+Muchos ordenadores portátiles vienen equipados con un [conector de seguridad Kensington](https://www.kensington.com/solutions/product-category/security/? srsltid=AfmBOorQOlRnqRJOAqM-Mvl7wumed0wBdiOgktlvdidpMHNIvGfwj9VI) que se puede utilizar para asegurar el dispositivo con un **cable metálico** que se fija a la ranura de tu equipo. Estos candados pueden ser de combinación o con llave.
 
-As with all locks, Kensington locks are vulnerable to [physical attacks](https://youtu.be/vgvCxL7dMJk) so you should mainly use them to deter petty theft. You can secure your laptop at home or even when you're out in public using a table leg or something that won't move easily.
+Al igual que todos los candados, los candados Kensington son vulnerables a [ataques físicos](https://youtu.be/vgvCxL7dMJk), por lo que se deben utilizar principalmente para disuadir a los ladrones ocasionales. Puedes asegurar tu portátil en casa o incluso cuando estés en público utilizando la pata de una mesa o algo que no se mueva con facilidad.
 
 ## Asegura tu Red
 

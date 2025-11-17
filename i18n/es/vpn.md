@@ -255,13 +255,13 @@ Mullvad proporciona el código fuente para sus clientes de escritorio y móviles
 
 #### :material-check:{ .pg-green } Acepta Efectivo y Monero
 
-Mullvad, además de tarjetas de crédito/débito y PayPal, también acepta Bitcoin, Bitcoin Cash, **Monero** y **efectivo/moneda local** como métodos anónimos de pago. You can also purchase [prepaid cards](https://mullvad.net/en/help/partnerships-and-resellers) with redeem codes. Mullvad también acepta Swish y transferencias bancarias, así como algunos sistemas de pago europeos.
+Mullvad, además de tarjetas de crédito/débito y PayPal, también acepta Bitcoin, Bitcoin Cash, **Monero** y **efectivo/moneda local** como métodos anónimos de pago. También puedes adquirir [tarjetas prepago](https://mullvad.net/en/help/partnerships-and-resellers) con códigos de canje. Mullvad también acepta Swish y transferencias bancarias, así como algunos sistemas de pago europeos.
 
 #### :material-check:{ .pg-green } Soporte de WireGuard
 
 IVPN soporta el protocolo WireGuard®. [WireGuard](https://wireguard.com) es un protocolo más reciente que utiliza [criptografía](https://wireguard.com/protocol) de última generación. Además, WireGuard aspira ser más simple y veloz.
 
-Mullvad [recomienda a](https://mullvad.net/en/help/why-wireguard) el uso de WireGuard con su servicio. It is the only protocol supported on their mobile apps, and their desktop apps will [lose OpenVPN support](https://mullvad.net/en/blog/reminder-that-openvpn-is-being-removed) in 2025. Additionally, their servers will stop accepting OpenVPN connections by January 15, 2026. Mullvad también ofrece un generador de configuraciones WireGuard para su uso con las [aplicaciones](https://wireguard.com/install) oficiales de WireGuard.
+Mullvad [recomienda a](https://mullvad.net/en/help/why-wireguard) el uso de WireGuard con su servicio. Es el único protocolo compatible con sus aplicaciones móviles, y sus aplicaciones de escritorio [perderán la compatibilidad con OpenVPN](https://mullvad.net/en/blog/reminder-that-openvpn-is-being-removed) en 2025. Además, sus servidores dejarán de aceptar conexiones OpenVPN el 15 de enero de 2026. Mullvad también ofrece un generador de configuraciones WireGuard para su uso con las [aplicaciones](https://wireguard.com/install) oficiales de WireGuard.
 
 #### :material-check:{ .pg-green } Soporte de IPv6
 

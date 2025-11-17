@@ -132,6 +132,6 @@ Nuestro criterio del mejor caso representa lo que nos gustaría ver del proyecto
 
     Brave Search: [*Aviso de Privacidad de Brave Search*](https://search.brave.com/help/privacy-policy) [^2]: DuckDuckGo **registra** sus búsquedas para mejorar el producto, pero no su dirección IP ni ninguna otra IIP.
 
-    DuckDuckGo Privacy Policy: [*We don't track you.*](https://duckduckgo.com/privacy) [^3]: Startpage logs details such as operating system, user agent, and language. No registra su dirección IP, consultas de búsqueda u otra IIP.
+    Política de privacidad de DuckDuckGo: [*No te rastreamos.*](https://duckduckgo.com/privacy) [^3]: Startpage registra detalles como el sistema operativo, el agente de usuario y el idioma. No registra su dirección IP, consultas de búsqueda u otra IIP.
 
     Nuestra Política de Privacidad: [*Cómo hemos implementado analíticas verdaderamente anónimas*](https://startpage.com/en/privacy-policy#section-4)
