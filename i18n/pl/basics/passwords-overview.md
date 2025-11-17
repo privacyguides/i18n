@@ -1,18 +1,18 @@
 ---
-title: Introduction to Passwords
+title: Wprowadzenie do haseł
 icon: material/form-textbox-password
-description: These are some tips and tricks on how to create the strongest passwords and keep your accounts secure.
+description: Oto kilka praktycznych porad i wskazówek, jak tworzyć najsilniejsze hasła i chronić swoje konta.
 ---
 
-Passwords are an essential part of our everyday digital lives. We use them to protect our accounts, our devices, and our secrets. Despite often being the only thing between us and an adversary who's after our private information, not a lot of thought is put into them, which often leads to people using passwords that can be easily guessed or brute-forced.
+Hasła są nieodłącznym elementem naszego cyfrowego życia. Chronią one nasze konta, urządzenia i prywatne informacje. Mimo że często są jedyną przeszkodą między nami a osobą próbującą pozyskać nasze dane, nie poświęca się im wystarczająco dużo uwagi, co często prowadzi do używania haseł łatwych do odgadnięcia lub złamania atakiem brute force.
 
-## Best Practices
+## Zalecenia
 
-### Use unique passwords for every service
+### Używaj unikatowych haseł dla każdej usługi
 
-Imagine this: You sign up for an account with the same e-mail and password on multiple online services. If one of those service providers is malicious, or their service has a data breach that exposes your password in an unencrypted format, all a bad actor would have to do is try that e-mail and password combination across multiple popular services until they get a hit. It doesn't matter how strong that one password is, because they already have it.
+Wyobraź sobie: zakładasz konto, używając tego samego adresu e-mail i hasła w kilku usługach. Jeśli któryś z tych dostawców będzie złośliwy albo dojdzie u niego do wycieku danych ujawniającego hasła w postaci niezaszyfrowanej, osoba atakująca wystarczy, że wypróbuje tę kombinację e-mail i hasła na wielu popularnych stronach, aż trafi na pasujące konto. Nie ma znaczenia, jak silne jest to pojedyncze hasło, bo atakujący już je ma.
 
-This is called [credential stuffing](https://en.wikipedia.org/wiki/Credential_stuffing), and it is one of the most common ways that your accounts can be compromised by bad actors. To avoid this, make sure that you never re-use your passwords.
+To zjawisko nazywa się [upychaniem danych uwierzytelniających](https://en.wikipedia.org/wiki/Credential_stuffing) (ang. *credential stuffing*) i jest jedną z najczęstszych metod, dzięki którym osoby trzecie mogą przejąć konta. Aby temu zapobiec, nigdy nie używaj ponownie tych samych haseł.
 
 ### Use randomly generated passwords
 
