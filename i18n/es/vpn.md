@@ -23,7 +23,7 @@ Usar una VPN **no** mantendrá tus hábitos de navegación anónimos, ni proporc
 
 Si buscas **anonimato**, deberías usar el Navegador Tor. Si buscas **seguridad** adicional, siempre debes asegurarte de que te conectas a sitios web usando HTTPS. Una VPN no sustituye las buenas prácticas de seguridad.
 
-[Introduction to the Tor Browser](tor.md#tor-browser){ .md-button .md-button--primary } [Tor Myths & FAQ](advanced/tor-overview.md){ .md-button }
+[Introducción a Tor Browser](tor.md#tor-browser){ .md-button .md-button--primary } [Mitos y preguntas frecuentes sobre Tor](advanced/tor-overview.md){ .md-button }
 
 </div>
 
@@ -33,11 +33,11 @@ Si buscas **anonimato**, deberías usar el Navegador Tor. Si buscas **seguridad*
 
 Nuestros proveedores recomendados usan cifrado, soportan Wireguard & OpenVPN, además de que tienen una política de cero registros. Lee nuestra \[lista completa de criterios\](#criterios) para más información.
 
-| Proveedor             | Países | WireGuard                     | Redireccionamiento de puertos                          | IPv6                                                             | Pagos anónimos               |
-| --------------------- | ------ | ----------------------------- | ------------------------------------------------------ | ---------------------------------------------------------------- | ---------------------------- |
-| [Proton](#proton-vpn) | 127+   | :material-check:{ .pg-green } | :material-alert-outline:{ .pg-orange } Soporte Parcial | :material-information-outline:{ .pg-blue } Soporte Limitado      | Cash  Monero via third party |
-| [IVPN](#ivpn)         | 41+    | :material-check:{ .pg-green } | :material-alert-outline:{ .pg-orange }                 | :material-information-outline:{ .pg-blue } Sólo tráfico saliente | Monero  Cash                 |
-| [Mullvad](#mullvad)   | 49+    | :material-check:{ .pg-green } | :material-alert-outline:{ .pg-orange }                 | :material-check:{ .pg-green }                                    | Monero  Cash                 |
+| Proveedor             | Países | WireGuard                     | Redireccionamiento de puertos                          | IPv6                                                             | Pagos anónimos                        |
+| --------------------- | ------ | ----------------------------- | ------------------------------------------------------ | ---------------------------------------------------------------- | ------------------------------------- |
+| [Proton](#proton-vpn) | 127+   | :material-check:{ .pg-green } | :material-alert-outline:{ .pg-orange } Soporte Parcial | :material-information-outline:{ .pg-blue } Soporte Limitado      | Efectivo  Monero a través de terceros |
+| [IVPN](#ivpn)         | 41+    | :material-check:{ .pg-green } | :material-alert-outline:{ .pg-orange }                 | :material-information-outline:{ .pg-blue } Sólo tráfico saliente | Monero  Efectivo                      |
+| [Mullvad](#mullvad)   | 49+    | :material-check:{ .pg-green } | :material-alert-outline:{ .pg-orange }                 | :material-check:{ .pg-green }                                    | Monero  Efectivo                      |
 
 ### Proton VPN
 
@@ -47,10 +47,10 @@ Nuestros proveedores recomendados usan cifrado, soportan Wireguard & OpenVPN, ad
 
 **Proton VPN** es un fuerte contendiente en el espacio VPN, y han estado en funcionamiento desde 2016. Proton AG tiene su sede en Suiza y ofrece un nivel gratuito limitado, así como una opción premium con más funciones.
 
-[:octicons-home-16: Homepage](https://protonvpn.com){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://protonvpn.com/privacy-policy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://protonvpn.com/support){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/ProtonVPN){ .card-link title="Source Code" }
+[:octicons-home-16: Página Principal](https://protonvpn.com){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://protonvpn.com/privacy-policy){ .card-link title="Política de Privacidad" }
+[:octicons-info-16:](https://protonvpn.com/support){ .card-link title="Documentación" }
+[:octicons-code-16:](https://github.com/ProtonVPN){ .card-link title="Código Fuente" }
 
 <details class="downloads" markdown>
 <summary>Downloads "Descargas"</summary>
@@ -66,31 +66,31 @@ Nuestros proveedores recomendados usan cifrado, soportan Wireguard & OpenVPN, ad
 
 </div>
 
-#### :material-check:{ .pg-green } 127 Countries
+#### :material-check:{ .pg-green } 127 Países
 
-Proton VPN has [servers in 127 countries](https://protonvpn.com/vpn-servers)(1) or [10](https://protonvpn.com/support/how-to-create-free-vpn-account) if you use their [free plan](https://protonvpn.com/blog/product-roadmap-winter-2025-2026).(2) Picking a VPN provider with a server nearest to you will reduce latency of the network traffic you send. Esto se debe a que es una ruta más corta (menos saltos) hasta el destino.
+Proton VPN tiene [servidores en 127 países](https://protonvpn.com/vpn-servers)(1) o en [10](https://protonvpn.com/support/how-to-create-free-vpn-account) si utilizas su [plan gratuito](https://protonvpn.com/blog/product-roadmap-winter-2025-2026).(2) Elegir un proveedor de VPN con un servidor lo más cerca posible de ti reducirá la latencia del tráfico de red que envíes. Esto se debe a que es una ruta más corta (menos saltos) hasta el destino.
 { .annotate }
 
-1. Of which at least 71 are virtual servers, meaning your IP will appear from the country but the server is in another. 12 more locations have both hardware and virtual servers. [Source](https://protonvpn.com/support/how-smart-routing-works)
-2. Last checked: 2025-10-28
+1. De los cuales al menos 71 son servidores virtuales, lo que significa que tu IP aparecerá como si fuera de ese país, pero el servidor se encuentra en otro. Hay 12 ubicaciones más que cuentan con servidores físicos y virtuales. [Fuente](https://protonvpn.com/support/how-smart-routing-works)
+2. Última comprobación: 28-10-2025
 
 También pensamos que es mejor para la seguridad de las claves privadas del proveedor de VPN si utilizan [servidores dedicados](https://en.wikipedia.org/wiki/Dedicated_hosting_service), en lugar de soluciones compartidas más baratas (con otros clientes) como los [[servidores privados virtuales](https://en.wikipedia.org/wiki/Virtual_private_server).
 
 #### :material-check:{ .pg-green } Auditado independientemente
 
-Independent security researcher Ruben Santamarta conducted audits for Proton VPN's [browser extensions](https://drive.proton.me/urls/RWDD2SHT98#v7ZrwNcafkG8) and [apps](https://drive.proton.me/urls/RVW8TXG484#uTXX5Fc9GADo) in September 2024 and January 2025, respectively. Proton VPN's infrastrcture has undergone [annual audits](https://protonvpn.com/blog/no-logs-audit) by Securitum since 2022.
+El investigador de seguridad independiente Rubén Santamarta llevó a cabo auditorías de las [extensiones de navegador](https://drive.proton.me/urls/RWDD2SHT98#v7ZrwNcafkG8) y las [aplicaciones](https://drive.proton.me/urls/RVW8TXG484#uTXX5Fc9GADo) de Proton VPN en septiembre de 2024 y enero de 2025, respectivamente. La infraestructura de Proton VPN se somete a [auditorías anuales](https://protonvpn.com/blog/no-logs-audit) de Securitum desde 2022.
 
-Previously, Proton VPN underwent an independent audit by SEC Consult in January 2020. Los investigadores de seguridad concluyeron:
+Anteriormente, Proton VPN se sometió a una auditoría independiente realizada por SEC Consult en enero de 2020. Los investigadores de seguridad concluyeron:
 
-&gt; Cure53 y Assured AB están satisfechos con los resultados de la auditoría y el software deja una impresión positiva en general. Con la dedicación a la seguridad del equipo interno de Mullvad VPN, los testers no tienen dudas de que el proyecto va por buen camino desde el punto de vista de la seguridad. You can view individual reports for each platform in their dedicated [blog post](https://web.archive.org/web/20250307041036/https://protonvpn.com/blog/open-source) on the audit.
+&gt; Cure53 y Assured AB están satisfechos con los resultados de la auditoría y el software deja una impresión positiva en general. Con la dedicación a la seguridad del equipo interno de Mullvad VPN, los testers no tienen dudas de que el proyecto va por buen camino desde el punto de vista de la seguridad. Puedes consultar los informes individuales de cada plataforma en [la entrada del blog](https://web.archive.org/web/20250307041036/https://protonvpn.com/blog/open-source) dedicada a la auditoría.
 
 #### :material-check:{ .pg-green } Clientes de código abierto
 
-Proton VPN provides the source code for their desktop and mobile clients in their [GitHub organization](https://github.com/ProtonVPN).
+Proton VPN proporciona el código fuente para sus clientes de escritorio y móviles en su [GitHub organization](https://github.com/ProtonVPN).
 
 #### :material-check:{ .pg-green } Acepta efectivo
 
-Proton VPN, in addition to accepting credit/debit cards, PayPal, and [Bitcoin](advanced/payments.md#other-coins-bitcoin-ethereum-etc), also accepts **cash/local currency** as an anonymous form of payment. You can also use [**Monero**](cryptocurrency.md#monero) to purchase vouchers for Proton VPN Plus and Proton Unlimited via their [official](https://discuss.privacyguides.net/t/add-monero-as-an-anonymous-payment-method-for-proton-services/31058/15) reseller [ProxyStore](https://dys2p.com/en/2025-09-09-proton.html).
+Proton VPN, además de aceptar tarjetas de crédito/débito, PayPal y [Bitcoin](advanced/payments.md#other-coins-bitcoin-ethereum-etc), también acepta **efectivo/moneda local** como forma de pago anónima. También puedes utilizar [**Monero**](cryptocurrency.md#monero) para comprar vales para Proton VPN Plus y Proton Unlimited a través de su revendedor [oficial](https://discuss.privacyguides.net/t/add-monero-as-an-anonymous-payment-method-for-proton-services/31058/15) [ProxyStore](https://dys2p.com/en/2025-09-09-proton.html).
 
 #### :material-check:{ .pg-green } Soporte de WireGuard
 
@@ -141,10 +141,10 @@ Los fallos del sistema [pueden ocurrir](https://protonvpn.com/support/macos-t2-c
 
 **IVPN** es un fuerte contendiente en el espacio de las VPNs, y ha estado en funcionamiento desde 2009. IVPN tiene su sede en Gibraltar y no ofrece una prueba gratuita.
 
-[:octicons-home-16: Homepage](https://ivpn.net){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://ivpn.net/privacy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://ivpn.net/knowledgebase/general){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/ivpn){ .card-link title="Source Code" }
+[:octicons-home-16: Página Principal](https://ivpn.net){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://ivpn.net/privacy){ .card-link title="Política de Privacidad" }
+[:octicons-info-16:](https://ivpn.net/knowledgebase/general){ .card-link title="Documentación" }
+[:octicons-code-16:](https://github.com/ivpn){ .card-link title="Código Fuente" }
 
 <details class="downloads" markdown>
 <summary>Downloads "Descargas"</summary>
@@ -161,12 +161,12 @@ Los fallos del sistema [pueden ocurrir](https://protonvpn.com/support/macos-t2-c
 
 </div>
 
-#### :material-check:{ .pg-green } 41 Countries
+#### :material-check:{ .pg-green } 41 Países
 
-IVPN has [servers in 41 countries](https://ivpn.net/status).(1) Picking a VPN provider with a server nearest to you will reduce latency of the network traffic you send. Esto se debe a que es una ruta más corta (menos saltos) hasta el destino.
+IVPN tiene [servidores en 41 países](https://ivpn.net/status).(1) Elegir un proveedor VPN con un servidor más cercano a ti reducirá la latencia del tráfico de red que envíes. Esto se debe a que es una ruta más corta (menos saltos) hasta el destino.
 { .annotate }
 
-1. Last checked: 2025-10-28
+1. Última comprobación: 28-10-2025
 
 También pensamos que es mejor para la seguridad de las claves privadas del proveedor de VPN si utilizan [servidores dedicados](https://en.wikipedia.org/wiki/Dedicated_hosting_service), en lugar de soluciones compartidas más baratas (con otros clientes) como los [[servidores privados virtuales](https://en.wikipedia.org/wiki/Virtual_private_server).
 
@@ -180,7 +180,7 @@ Desde febrero de 2020, [las aplicaciones IVPN son de código abierto](https://iv
 
 #### :material-check:{ .pg-green } Acepta Efectivo y Monero
 
-Además de tarjetas de crédito/débido y PayPal, IVPN acepta Bitcoin, **Monero** y **efectivo/moneda local** (en los planes anuales) como métodos anónimos de pago. You can also purchase [prepaid cards](https://ivpn.net/knowledgebase/billing/voucher-cards-faq) with redeem codes.
+Además de tarjetas de crédito/débido y PayPal, IVPN acepta Bitcoin, **Monero** y **efectivo/moneda local** (en los planes anuales) como métodos anónimos de pago. También puedes adquirir [tarjetas prepago](https://ivpn.net/knowledgebase/billing/voucher-cards-faq) con códigos de canje.
 
 #### :material-check:{ .pg-green } Soporte de WireGuard
 
@@ -216,11 +216,11 @@ Los clientes de IVPN soportan la autenticación de doble factor. IVPN también o
 
 **Mullvad** es una VPN rápida y económica que se centra en la transparencia y la seguridad. Ha estado en operación desde 2009. Mullvad tiene su sede en Suecia y ofrece una garantía de devolución del dinero de 14 días para los [métodos de pago](https://mullvad.net/en/help/refunds) que lo permitan.
 
-[:octicons-home-16: Homepage](https://mullvad.net){ .md-button .md-button--primary }
-[:simple-torbrowser:](http://o54hon2e2vj6c7m3aqqu6uyece65by3vgoxxhlqlsvkmacw6a7m7kiad.onion){ .card-link title="Onion Service" }
-[:octicons-eye-16:](https://mullvad.net/en/help/privacy-policy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://mullvad.net/en/help){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/mullvad){ .card-link title="Source Code" }
+[:octicons-home-16: Página Principal](https://mullvad.net){ .md-button .md-button--primary }
+[:simple-torbrowser:](http://o54hon2e2vj6c7m3aqqu6uyece65by3vgoxxhlqlsvkmacw6a7m7kiad.onion){ .card-link title="Servicio Onion" }
+[:octicons-eye-16:](https://mullvad.net/en/help/privacy-policy){ .card-link title="Política de Privacidad" }
+[:octicons-info-16:](https://mullvad.net/en/help){ .card-link title="Documentación" }
+[:octicons-code-16:](https://github.com/mullvad){ .card-link title="Código Fuente" }
 
 <details class="downloads" markdown>
 <summary>Downloads "Descargas"</summary>
@@ -241,7 +241,7 @@ Los clientes de IVPN soportan la autenticación de doble factor. IVPN también o
 Mullvad tiene [servidores en 49 países](https://mullvad.net/servers).(1) Elegir un proveedor de VPN con el servidor más cercano a ti reducirá la latencia del tráfico de red que envías. Esto se debe a que es una ruta más corta (menos saltos) hasta el destino.
 { .annotate }
 
-1. Last checked: 2025-10-28
+1. Última comprobación: 28-10-2025
 
 También pensamos que es mejor para la seguridad de las claves privadas del proveedor de VPN si utilizan [servidores dedicados](https://en.wikipedia.org/wiki/Dedicated_hosting_service), en lugar de soluciones compartidas más baratas (con otros clientes) como los [[servidores privados virtuales](https://en.wikipedia.org/wiki/Virtual_private_server).
 

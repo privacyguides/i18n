@@ -1,10 +1,10 @@
 ---
 title: 捐款
-description: The charitable mission of Privacy Guides relies on contributions from visitors like yourself. Anything you can do to support the project is hugely appreciated.
+description: Privacy Guides 的慈善使命，需要像您這樣的訪客捐款才能達成。 我們衷心感謝您對此專案的支持。
 ---
 
 <!-- markdownlint-disable MD036 -->
-Support our mission to defend digital rights and spread the word about mass surveillance programs and other daily privacy invasions. 您可以幫助 Privacy Guides 的研究人員、活動人士和維護者建立資訊豐富的內容、託管私人數位服務，並在世界最需要的時候保護隱私權。
+請支持我們捍衛數位權利、宣傳大規模監控計畫及其他日常隱私侵犯行為的使命。 您可以幫助 Privacy Guides 的研究人員、活動人士和維護者建立資訊豐富的內容、託管私人數位服務，並在世界最需要的時候保護隱私權。
 
 <!-- markdownlint-disable-next-line -->
 [:material-heart:{ .pg-red } 成為會員](https://donate.magicgrants.org/privacyguides/membership){ class="md-button md-button--primary" data-portal="signup" }
@@ -14,7 +14,7 @@ Support our mission to defend digital rights and spread the word about mass surv
 
 <small markdown>
 
-MAGIC Grants is our fiscal host, and their custom, open-source donation platform allows you to donate to our project with **Monero**, **Litecoin (MWEB)**, **Bitcoin**, or **debit/credit card**. 您也可以透過 [:simple-github: GitHub Sponsors](https://github.com/sponsors/privacyguides) 捐款。
+MAGIC Grants 是我們的金流代理業者，他們的客製化開放原始碼捐款平台，讓您可使用**門羅幣**、**萊特幣（MWEB）**、**比特幣**、**借記卡或信用卡**捐款給我們。 您也可以透過 [:simple-github: GitHub Sponsors](https://github.com/sponsors/privacyguides) 捐款。
 
 </small>
 
@@ -25,7 +25,7 @@ MAGIC Grants is our fiscal host, and their custom, open-source donation platform
     感謝大力支持 Privacy Guides 的下列組織。 (1)
     { .annotate }
 
-    1. Please contact <info@magicgrants.org> to inquire about giving. Privacy Guides reserves the right to rescind the membership of those who are unaligned with our mission or organization at any time. Organizational members have no ability to influence what content is recommended on the Privacy Guides website. Learn more about our [donation acceptance policy](donation-acceptance-policy.md).
+    1. 若須查詢捐款資訊，請聯絡 <info@magicgrants.org>。 Privacy Guides 保留隨時取消與我們的使命或組織不一致者的會員資格的權利。 組織成員無法影響 Privacy Guides 網站所推薦的內容。 了解我們[捐款接受政策](donation-acceptance-policy.md)的更多資訊。
 
     <div class="mdx-specialthanks" markdown>
 
@@ -43,12 +43,12 @@ MAGIC Grants is our fiscal host, and their custom, open-source donation platform
 
     - [Safing](https://safing.io){ rel=nofollow target=_blank }：2019 – 2021
 
-## Active Members
+## 活躍的會員
 
-Privacy Guides would not be possible without these individuals who generously donate on a monthly or yearly basis. (1)
+如果沒有這些每月或每年定期慷慨捐款的人，Privacy Guides 將無法存在。 (1)
 { .annotate }
 
-1. If you [become a member](https://donate.magicgrants.org/privacyguides/membership) and [link your donation](https://discuss.privacyguides.net/t/getting-your-member-flair-on-the-forum/25453) to your forum account, you're automatically added here with a link to your profile and avatar to show your support for Privacy Guides. If you don't make your membership public on the forum, you'll be a silent +1. You can change your visibility any time. This chart is updated upon each website release.
+1. 若您[成為會員](https://donate.magicgrants.org/privacyguides/membership)，並將捐款紀錄[連結](https://discuss.privacyguides.net/t/getting-your-member-flair-on-the-forum/25453)到您的論壇帳號，就會自動被列於此處，並顯示您的個人資料和頭像，以表示您對 Privacy Guides 的支持。 如果您不公開論壇帳號，就會成為沉默的 +1 支持者。 您可以隨時調整是否要公開顯示捐款紀錄。 本圖表在每次網站發佈時更新。
 
 <div class="mdx-donors" data-mdx-component="donors">
 <div class="mdx-donors__list">
@@ -58,7 +58,7 @@ Privacy Guides would not be possible without these individuals who generously do
 
 <small markdown>
 
-This is a list of our **active** [members](https://donate.magicgrants.org/privacyguides/membership), plus donors on GitHub, who have chosen to make their donation public. Hundreds more have donated in the past or privately, and their support is hugely appreciated as well.
+這是我們的**活躍**[會員](https://donate.magicgrants.org/privacyguides/membership)，加上透過 GitHub 捐款，並選擇公開捐款的捐贈者名單。 還有數百人過去曾捐款，或匿名捐款，也非常感謝他們的支持。
 
 </small>
 
@@ -67,7 +67,7 @@ This is a list of our **active** [members](https://donate.magicgrants.org/privac
 </h2>
 
 <p spaces-before="0">
-  You can support us and share your passion for privacy by buying our merchandise from HelloTux.
+  您可以在 HelloTux 購買我們的周邊商品來支持我們，並分享您對隱私權的熱情。
 </p>
 
 <p spaces-before="0">
@@ -79,7 +79,7 @@ This is a list of our **active** [members](https://donate.magicgrants.org/privac
 </h2>
 
 <p spaces-before="0">
-  It takes a lot of <a href="contributors.md">people</a> and <a href="https://github.com/privacyguides/privacyguides.org/pulse/monthly">work</a> to keep Privacy Guides up to date and spread the word about privacy and mass surveillance. If you're looking for other ways to help out, consider getting involved by <a href="https://github.com/privacyguides/privacyguides.org">editing the site</a>, <a href="https://discuss.privacyguides.net">joining our forum</a>, or <a href="https://crowdin.com/project/privacyguides">contributing translations</a>.
+  要保持 Privacy Guides 的更新並傳播有關隱私權和大規模監控的訊息，需要<a href="contributors.md">許多人</a>的<a href="https://github.com/privacyguides/privacyguides.org/pulse/monthly">不辭辛勞</a>。 如果您正在尋找其他幫忙的方式，請考慮參與<a href="https://github.com/privacyguides/privacyguides.org">編輯網站</a>、<a href="https://discuss.privacyguides.net">加入討論區</a>或<a href="https://crowdin.com/project/privacyguides">貢獻翻譯</a>。
 </p>
 
 <h2 spaces-before="0">
@@ -91,11 +91,11 @@ This is a list of our **active** [members](https://donate.magicgrants.org/privac
 </h3>
 
 <p spaces-before="0">
-  Organizational membership to Privacy Guides is open to any company, private foundation, or organization that donates at least $5,000 per year. While Privacy Guides does not endorse private companies or their products, we're grateful for their contributions. Your donation may be tax-deductible, and we will provide you with a receipt.
+  任何公司、私人基金會或每年捐款至少 5,000 美元的組織均可成為 Privacy Guides 的機構會員。 雖然 Privacy Guides 並不為私人公司或其產品背書，但仍非常感謝他們的貢獻。 您的捐款可能可以抵稅，我們將提供收據給您。
 </p>
 
 <p spaces-before="0">
-  You can become an organizational member by reaching out to <a href="mailto:info@magicgrants.org" x-nc="1">info@magicgrants.org</a> for more information.
+  若需成為組織會員的更多資訊，請聯絡 <a href="mailto:info@magicgrants.org" x-nc="1">info@magicgrants.org</a>。
 </p>
 
 <h3 spaces-before="0">
@@ -107,7 +107,7 @@ This is a list of our **active** [members](https://donate.magicgrants.org/privac
 </p>
 
 <p spaces-before="0">
-  Organizational members have no ability to influence what content is recommended on the Privacy Guides website. Learn more about our <a href="donation-acceptance-policy.md">donation acceptance policy</a>.
+  組織成員無法影響 Privacy Guides 網站所推薦的內容。 了解我們<a href="donation-acceptance-policy.md">捐款接受政策</a>的更多資訊。
 </p>
 
 <h3 spaces-before="0">
