@@ -9,7 +9,7 @@ cover: news-aggregators.webp
 
 - [:material-server-network: Dostawcy usług](basics/common-threats.md#privacy-from-service-providers ""){.pg-teal}
 
-A **news aggregator** is software which aggregates digital content from online newspapers, blogs, podcasts, and other resources to one location for easy viewing. Using one can be a great way to keep up with your favorite content.
+**Agregator wiadomości** (inaczej <0>agregator newsów</0>) to oprogramowanie, które gromadzi treści z internetowych gazet, blogów, podcastów i innych źródeł w jednym miejscu, aby ułatwić ich przeglądanie. Using one can be a great way to keep up with your favorite content.
 
 ## Aggregator clients
 

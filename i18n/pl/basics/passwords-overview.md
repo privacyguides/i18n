@@ -14,79 +14,79 @@ Wyobraź sobie: zakładasz konto, używając tego samego adresu e-mail i hasła 
 
 To zjawisko nazywa się [upychaniem danych uwierzytelniających](https://en.wikipedia.org/wiki/Credential_stuffing) (ang. *credential stuffing*) i jest jedną z najczęstszych metod, dzięki którym osoby trzecie mogą przejąć konta. Aby temu zapobiec, nigdy nie używaj ponownie tych samych haseł.
 
-### Use randomly generated passwords
+### Używaj losowo generowanych haseł
 
-==You should **never** rely on yourself to come up with a good password.== We recommend using [randomly generated passwords](#passwords) or [diceware passphrases](#diceware-passphrases) with sufficient entropy to protect your accounts and devices.
+==**Nigdy** nie polegaj na własnych pomysłach przy tworzeniu dobrego hasła.== Zalecamy używanie [losowo generowanych haseł](#passwords) lub [fraz dostępu Diceware](#diceware-passphrases) o wystarczającej entropii, aby chronić konta i urządzenia.
 
-All of our [recommended password managers](../passwords.md) include a built-in password generator that you can use.
+Wszystkie zalecane przez nas [menedżery haseł](../passwords.md) zawierają wbudowany generator haseł, którego można użyć.
 
-### Rotating Passwords
+### Rotacja haseł
 
-You should avoid changing passwords that you have to remember (such as your password manager's master password) too often unless you have reason to believe it has been compromised, as changing it too often exposes you to the risk of forgetting it.
+Unikaj zbyt częstej zmiany haseł, które trzeba zapamiętać (np. hasła głównego menedżera haseł), chyba że istnieje powód, by sądzić, że zostało ono naruszone — zbyt częste zmiany zwiększają ryzyko zapomnienia.
 
-When it comes to passwords that you don't have to remember (such as passwords stored inside your password manager), if your [threat model](threat-modeling.md) calls for it, we recommend going through important accounts (especially accounts that don't use multifactor authentication) and changing their password every couple of months, in case they have been compromised in a data breach that hasn't become public yet. Most password managers allow you to set an expiry date for your password to make this easier to manage.
+Jeśli chodzi o hasła, których nie trzeba pamiętać (np. przechowywane w menedżerze haseł), jeśli [model zagrożeń](threat-modeling.md) tego wymaga, zalecamy przegląd ważnych kont (szczególnie tych bez uwierzytelniania wieloskładnikowego) i zmienianie ich co kilka miesięcy, na wypadek, gdyby zostały naruszone w wyniku wycieku danych, który jeszcze nie został ujawniony publicznie. Większość menedżerów haseł pozwala ustawić datę wygaśnięcia hasła, co ułatwia zarządzanie tym procesem.
 
 <div class="admonition tip" markdown>
-<p class="admonition-title">Checking for data breaches</p>
+<p class="admonition-title">Sprawdzanie wycieków danych</p>
 
-If your password manager lets you check for compromised passwords, make sure to do so and promptly change any password that may have been exposed in a data breach. Alternatively, you could follow [Have I Been Pwned's Latest Breaches feed](https://feeds.feedburner.com/HaveIBeenPwnedLatestBreaches) with the help of a [news aggregator](../news-aggregators.md).
+Jeśli menedżer haseł umożliwia sprawdzenie naruszonych haseł, korzystaj z tej funkcji i niezwłocznie zmieniaj każde hasło, które mogło zostać ujawnione w wyniku wycieku danych. Alternatywnie możesz śledzić [kanał „Latest Breaches” serwisu Have I Been Pwned](https://feeds.feedburner.com/HaveIBeenPwnedLatestBreaches) przy pomocy [agregatora wiadomości](../news-aggregators.md).
 
 </div>
 
-## Creating strong passwords
+## Tworzenie silnych haseł
 
-### Passwords
+### Hasła
 
-A lot of services impose certain criteria when it comes to passwords, including a minimum or maximum length, as well as which special characters, if any, can be used. You should use your password manager's built-in password generator to create passwords that are as long and complex as the service will allow by including capitalized and lowercase letters, numbers and special characters.
+Wiele usług narzuca określone kryteria dotyczące haseł, m.in. minimalną lub maksymalną długość oraz zestaw ewentualnych znaków specjalnych. Użyj wbudowanego generatora haseł w swoim menedżerze haseł, aby tworzyć hasła tak długie i złożone, jak tylko pozwala na to dana usługa — uwzględniając wielkie i małe litery, cyfry oraz znaki specjalne.
 
-If you need a password you can memorize, we recommend a [diceware passphrase](#diceware-passphrases).
+Jeśli potrzebujesz hasła, które da się zapamiętać, zalecamy [frazy dostępu Diceware](#diceware-passphrases).
 
-### Diceware Passphrases
+### Frazy dostępu Diceware
 
-Diceware is a method for creating passphrases which are easy to remember, but hard to guess.
+Diceware to metoda tworzenia fraz dostępu, które łatwo zapamiętać, a jednocześnie trudno odgadnąć.
 
-Diceware passphrases are a great option when you need to memorize or manually input your credentials, such as for your password manager's master password or your device's encryption password.
+Frazy dostępu Diceware to świetna opcja, gdy musisz zapamiętać lub ręcznie wpisać dane uwierzytelniające, na przykład hasło główne menedżera haseł lub hasło szyfrowania urządzenia.
 
-An example of a diceware passphrase is `viewable fastness reluctant squishy seventeen shown pencil`.
+Przykład frazy dostępu Diceware: `viewable fastness reluctant squishy seventeen shown pencil`.
 
-To generate a diceware passphrase using real dice, follow these steps:
+Aby wygenerować frazę dostępu Diceware przy użyciu prawdziwych kości, wykonaj następujące kroki:
 
 <div class="admonition Note" markdown>
 <p class="admonition-title">Uwaga</p>
 
-These instructions assume that you are using [EFF's large word list](https://eff.org/files/2016/07/18/eff_large_wordlist.txt) to generate the passphrase, which requires five dice rolls per word. Other word lists may require more or less rolls per word, and may require a different amount of words to achieve the same entropy.
+Instrukcje zakładają, że używasz [dużej listy słów EFF](https://eff.org/files/2016/07/18/eff_large_wordlist.txt) do generowania frazy dostępu, która wymaga pięciu rzutów kością na słowo. Inne listy słów mogą wymagać większej lub mniejszej liczby rzutów na słowo i mogą wymagać innej liczby słów, aby osiągnąć tę samą entropię.
 
 </div>
 
-1. Roll a six-sided die five times, noting down the number after each roll.
+1. Rzuć sześcienną kostką pięć razy, zapisując wynik po każdym rzucie.
 
-2. As an example, let's say you rolled `2-5-2-6-6`. Look through the [EFF's large word list](https://eff.org/files/2016/07/18/eff_large_wordlist.txt) for the word that corresponds to `25266`.
+2. Dla przykładu przyjmijmy, że wypadło `2-5-2-6-6`. Wyszukaj w [liście słów EFF](https://eff.org/files/2016/07/18/eff_large_wordlist.txt) słowa odpowiadającego numerowi `25266`.
 
-3. You will find the word `encrypt`. Write that word down.
+3. Znajdziesz tam słowo `encrypt`. Zapisz je.
 
-4. Repeat this process until your passphrase has as many words as you need, which you should separate with a space.
+4. Powtarzaj ten proces, aż fraza dostępu będzie zawierać tyle słów, ile potrzebujesz; oddzielaj słowa spacją.
 
 <div class="admonition warning" markdown>
-<p class="admonition-title">Important</p>
+<p class="admonition-title">Ważne</p>
 
-You should **not** re-roll words until you get a combination of words that appeal to you. The process should be completely random.
+**Nie należy** powtarzać rzutów w celu uzyskania kombinacji słów, które Ci się podobają. Proces ten powinien być całkowicie losowy.
 
 </div>
 
-If you don't have access to or would prefer to not use real dice, you can use your password manager's built-in password generator, as most of them have the option to generate diceware passphrases in addition to regular passwords. We recommend setting the generated passphrase length to at least 6 words.
+Jeśli nie masz dostępu do prawdziwych kości lub wolisz ich nie używać, możesz skorzystać z wbudowanego generatora haseł w menedżerze haseł, ponieważ większość menedżerów ma opcję generowania fraz Diceware obok zwykłych haseł. Zalecamy ustawienie długości generowanej frazy na co najmniej 6 słów.
 
-We also recommend using [EFF's large word list](https://eff.org/files/2016/07/18/eff_large_wordlist.txt) to generate your diceware passphrases, as it offers the exact same security as the original list, while containing words that are easier to memorize. There are also [word lists in different languages](https://theworld.com/~reinhold/diceware.html#Diceware%20in%20Other%20Languages|outline), if you do not want your passphrase to be in English.
+Zalecamy również korzystanie z [dużej listy słów EFF](https://eff.org/files/2016/07/18/eff_large_wordlist.txt), ponieważ daje ona taką samą siłę zabezpieczeń jak oryginalna lista, a jednocześnie zawiera słowa łatwiejsze do zapamiętania. Istnieją też [listy słów w innych językach](https://theworld.com/~reinhold/diceware.html#Diceware%20in%20Other%20Languages|outline) (w tym języku polskim), jeśli nie chcesz, aby fraza była w języku angielskim.
 
 <details class="note" markdown>
-<summary>Explanation of entropy and strength of diceware passphrases</summary>
+<summary>Wyjaśnienie entropii i siły fraz dostępu Diceware</summary>
 
-To demonstrate how strong diceware passphrases are, we'll use the aforementioned seven word passphrase (`viewable fastness reluctant squishy seventeen shown pencil`) and [EFF's large word list](https://eff.org/files/2016/07/18/eff_large_wordlist.txt) as an example.
+Aby pokazać, jak silne są frazy dostępu Diceware, posłużymy się wspomnianą wcześniej siedmiowyrazową frazą (`viewable fastness reluctant squishy seventeen shown pencil`) oraz [dużą listą słów EFF](https://eff.org/files/2016/07/18/eff_large_wordlist.txt) jako przykładem.
 
-One metric to determine the strength of a diceware passphrase is how much entropy it has. The entropy per word in a diceware passphrase is calculated as <math> <mrow> <msub> <mtext>log</mtext> <mn>2</mn> </msub> <mo form="prefix" stretchy="false">(</mo> <mtext>WordsInList</mtext> <mo form="postfix" stretchy="false">)</mo> </mrow> </math> and the overall entropy of the passphrase is calculated as: <math> <mrow> <msub> <mtext>log</mtext> <mn>2</mn> </msub> <mo form="prefix" stretchy="false">(</mo> <msup> <mtext>WordsInList</mtext> <mtext>WordsInPhrase</mtext> </msup> <mo form="postfix" stretchy="false">)</mo> </mrow> </math>
+Entropia to jedna z miar siły frazy dostępu. Entropię przypadającą na jedno słowo we frazie Diceware oblicza się jako <math> <mrow> <msub> <mtext>log</mtext> <mn>2</mn> </msub> <mo form="prefix" stretchy="false">(</mo> <mtext>LiczbaSłówNaLiście</mtext> <mo form="postfix" stretchy="false">)</mo> </mrow> </math> a całkowitą entropię frazy jako: <math> <mrow> <msub> <mtext>log</mtext> <mn>2</mn> </msub> <mo form="prefix" stretchy="false">(</mo> <msup> <mtext>LiczbaSłówNaLiście</mtext> <mtext>LiczbaSłówWeFrazie</mtext> </msup> <mo form="postfix" stretchy="false">)</mo> </mrow> </math>
 
-Therefore, each word in the aforementioned list results in ~12.9 bits of entropy (<math> <mrow> <msub> <mtext>log</mtext> <mn>2</mn> </msub> <mo form="prefix" stretchy="false">(</mo> <mn>7776</mn> <mo form="postfix" stretchy="false">)</mo> </mrow> </math>), and a seven word passphrase derived from it has ~90.47 bits of entropy (<math> <mrow> <msub> <mtext>log</mtext> <mn>2</mn> </msub> <mo form="prefix" stretchy="false">(</mo> <msup> <mn>7776</mn> <mn>7</mn> </msup> <mo form="postfix" stretchy="false">)</mo> </mrow> </math>).
+Zatem każde słowo z wymienionej listy daje ~12,9 bitów entropii (<math> <mrow> <msub> <mtext>log</mtext> <mn>2</mn> </msub> <mo form="prefix" stretchy="false">(</mo> <mn>7776</mn> <mo form="postfix" stretchy="false">)</mo> </mrow> </math>), and a seven word passphrase derived from it has ~90.47 bits of entropy (<math> <mrow> <msub> <mtext>log</mtext> <mn>2</mn> </msub> <mo form="prefix" stretchy="false">(</mo> <msup> <mn>7776</mn> <mn>7</mn> </msup> <mo form="postfix" stretchy="false">)</mo> </mrow> </math>).
 
-The [EFF's large word list](https://eff.org/files/2016/07/18/eff_large_wordlist.txt) contains 7776 unique words. To calculate the amount of possible passphrases, all we have to do is <math> <msup> <mtext>WordsInList</mtext> <mtext>WordsInPhrase</mtext> </msup> </math>, or in our case, <math><msup><mn>7776</mn><mn>7</mn></msup></math>.
+The [EFF's large word list](https://eff.org/files/2016/07/18/eff_large_wordlist.txt) contains 7776 unique words. To calculate the amount of possible passphrases, all we have to do is <math> <msup> <mtext>LiczbaSłówNaLiście</mtext> <mtext>LiczbaSłówWeFrazie</mtext> </msup> </math>, or in our case, <math><msup><mn>7776</mn><mn>7</mn></msup></math>.
 
 Let's put all of this in perspective: A seven word passphrase using [EFF's large word list](https://eff.org/files/2016/07/18/eff_large_wordlist.txt) is one of ~1,719,070,799,748,422,500,000,000,000 possible passphrases.
 
@@ -98,7 +98,7 @@ On average, it takes trying 50% of all the possible combinations to guess your p
 
 </details>
 
-To sum it up, diceware passphrases are your best option when you need something that is both easy to remember *and* exceptionally strong.
+Podsumowując, frazy dostępu Diceware to najlepszy wybór, gdy potrzeba rozwiązania łatwego do zapamiętania i jednocześnie wyjątkowo silnego.
 
 ## Storing Passwords
 
