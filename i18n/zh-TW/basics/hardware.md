@@ -110,11 +110,11 @@ Android 為生物辨識定義了三種 [安全等級](https://source.android.com
 
 確保您的裝置支援安全開機/驗證開機，並且已啟用。 盡可能避免讓您的裝置無人看管。
 
-### Kensington Locks
+### 肯辛頓鎖
 
-Many laptops come equipped with a [Kensington slot](https://www.kensington.com/solutions/product-category/security/?srsltid=AfmBOorQOlRnqRJOAqM-Mvl7wumed0wBdiOgktlvdidpMHNIvGfwj9VI) that can be used to secure your device with a **metal cable** that locks into the slot on your machine. These locks can be combination locks or keyed.
+許多筆記型電腦都配備[肯辛頓鎖孔](https://www.kensington.com/solutions/product-category/security/?srsltid=AfmBOorQOlRnqRJOAqM-Mvl7wumed0wBdiOgktlvdidpMHNIvGfwj9VI)，可用來將**金屬纜線**鎖到機器上的插槽，用來固定您的裝置。 這些鎖具可以是密碼鎖或鑰匙鎖。
 
-As with all locks, Kensington locks are vulnerable to [physical attacks](https://youtu.be/vgvCxL7dMJk) so you should mainly use them to deter petty theft. You can secure your laptop at home or even when you're out in public using a table leg or something that won't move easily.
+就跟所有的鎖一樣，[物理攻擊](https://youtu.be/vgvCxL7dMJk)對肯辛頓鎖相當有效，因此您只應將其用來讓小偷知難而退。 您可以在家中，甚至在公共場所時，利用桌腳或其他不易移動的物體來固定您的筆記型電腦。
 
 ## 保護您的網路安全
 
