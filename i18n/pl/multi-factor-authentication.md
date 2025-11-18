@@ -1,5 +1,5 @@
 ---
-title: Multifactor Authentication
+title: Uwierzytelnianie wieloskładnikowe
 icon: material/two-factor-authentication
 description: These tools assist you with securing your internet accounts with multifactor authentication without sending your secrets to a third-party.
 cover: multi-factor-authentication.webp

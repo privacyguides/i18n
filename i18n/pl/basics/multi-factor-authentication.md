@@ -1,54 +1,54 @@
 ---
-title: Multifactor Authentication
+title: Uwierzytelnianie wieloskładnikowe
 icon: material/two-factor-authentication
-description: MFA is a critical security mechanism for securing your online accounts, but some methods are stronger than others.
+description: Uwierzytelnianie wieloskładnikowe to kluczowy mechanizm bezpieczeństwa chroniący konta internetowe, choć jedne metody są silniejsze od drugich.
 ---
 
-**Multifactor Authentication** (**MFA**) is a security mechanism that requires additional steps beyond entering your username (or email) and password. Najczęściej spotykaną metodą są ograniczone czasowo kody otrzymywane poprzez wiadomość SMS lub aplikację.
+**Uwierzytelnianie wieloskładnikowe** (**MFA**) to mechanizm bezpieczeństwa, który wymaga dodatkowych kroków poza podaniem nazwy użytkownika (lub adresu e-mail) i hasła. Najczęstszą metodą są jednorazowe kody ograniczone czasowo, które otrzymuje się SMS-em lub z aplikacji.
 
-W większości przypadków, jeśli haker (lub przeciwnik) jest w stanie odgadnąć Twoje hasło, zyskuje on dostęp do konta, do którego to hasło należy. Konto z MFA zmusza hakera do posiadania zarówno hasła (coś co *wiesz*) oraz urządzenia, które posiadasz (coś co *masz*), takiego jak Twój telefon.
+Zazwyczaj, jeśli haker (lub przeciwnik) odgadnie hasło, uzyskuje dostęp do konta, do którego to hasło należy. Konto zabezpieczone MFA wymusza, aby atakujący posiadał zarówno hasło (coś, co *znasz*), jak i Twoje urządzenie (coś, co *masz*), np. telefon.
 
-Metody MFA różnią się pod względem bezpieczeństwa, ale opierają się na założeniu, że im trudniej jest atakującemu uzyskać dostęp do Twojej metody MFA, tym lepiej. Examples of MFA methods (from weakest to strongest) include SMS, Email codes, app push notifications, TOTP, Yubico OTP and FIDO.
+Metody MFA różnią się poziomem bezpieczeństwa, ale opierają się na założeniu, że im trudniej atakującemu uzyskać dostęp do użytej metody MFA, tym lepiej. Przykłady metod MFA (od najsłabszych do najsilniejszych) obejmują SMS, kody e-mail, powiadomienia push w aplikacji, TOTP, Yubico OTP i FIDO.
 
-## MFA Method Comparison
+## Porównanie metod MFA
 
-### SMS or Email MFA
+### MFA przez SMS lub e-mail
 
-Receiving OTP codes via SMS or email are one of the weaker ways to secure your accounts with MFA. Obtaining a code by email or SMS takes away from the "something you *have*" idea, because there are a variety of ways a hacker could [take over your phone number](https://en.wikipedia.org/wiki/SIM_swap_scam) or gain access to your email without having physical access to any of your devices at all. If an unauthorized person gained access to your email, they would be able to use that access to both reset your password and receive the authentication code, giving them full access to your account.
+Otrzymywanie kodów OTP przez SMS lub e-mail to jedna ze słabszych metod zabezpieczenia kont za pomocą MFA. Uzyskanie kodu e-mailem lub SMS-em osłabia ideę „czegoś, co *masz*”, ponieważ istnieje wiele sposobów, w jakie atakujący może [przejąć Twój numer telefonu](https://en.wikipedia.org/wiki/SIM_swap_scam) lub uzyskać dostęp do skrzynki e-mail bez fizycznego dostępu do któregokolwiek z Twoich urządzeń. Jeśli nieuprawniona osoba uzyskałaby dostęp do e-maila, mogłaby wykorzystać go zarówno do zresetowania hasła, jak i do odebrania kodu uwierzytelniającego, co dawałoby jej pełny dostęp do konta.
 
-### Push Notifications
+### Powiadomienia push
 
-Push notification MFA takes the form of a message being sent to an app on your phone asking you to confirm new account logins. This method is a lot better than SMS or email, since an attacker typically wouldn't be able to get these push notifications without having an already logged-in device, which means they would need to compromise one of your other devices first.
+MFA przez powiadomienia push przyjmuje formę wiadomości wysyłanej do aplikacji na telefonie z prośbą o potwierdzenie nowego logowania do konta. Ta metoda jest o wiele lepsza niż przez SMS czy e-mail, ponieważ atakujący zwykle nie będzie w stanie otrzymać tych powiadomień bez uprzednio zalogowanego urządzenia, co oznacza konieczność wcześniejszego przejęcia jednego z pozostałych urządzeń.
 
-We all make mistakes, and there is the risk that you might accept the login attempt by accident. Push notification login authorizations are typically sent to *all* your devices at once, widening the availability of the MFA code if you have many devices.
+Wszyscy popełniamy błędy i istnieje ryzyko przypadkowego zaakceptowania próby logowania. Autoryzacje logowania przez powiadomienia push są zwykle wysyłane jednocześnie na *wszystkie* Twoje urządzenia, co zwiększa dostępność kodu MFA, jeśli posiadasz wiele urządzeń.
 
-The security of push notification MFA is dependent on both the quality of the app, the server component and the trust of the developer who produces it. Installing an app may also require you to accept invasive privileges that grant access to other data on your device. An individual app also requires that you have a specific app for each service which may not require a password to open, unlike a good TOTP generator app.
+Bezpieczeństwo MFA opartego na powiadomieniach push zależy zarówno od jakości aplikacji, komponentu serwerowego, jak i od wiarygodności dewelopera ją tworzącego. Instalacja aplikacji może także wymagać przyznania inwazyjnych uprawnień, które dają dostęp do innych danych na urządzeniu. Ponadto pojedyncza aplikacja wymusza posiadanie odrębnej aplikacji dla każdej usługi — aplikacja ta może nie wymagać hasła do uruchomienia, w przeciwieństwie do dobrej aplikacji generującej TOTP.
 
-### Time-based One-time Password (TOTP)
+### Hasło jednorazowe ograniczone czasowo (TOTP)
 
-TOTP is one of the most common forms of MFA available. When you set up TOTP, you are generally required to scan a [QR Code](https://en.wikipedia.org/wiki/QR_code) which establishes a "[shared secret](https://en.wikipedia.org/wiki/Shared_secret)" with the service that you intend to use. The shared secret is secured inside the authenticator app's data, and is sometimes protected by a password.
+TOTP jest jedną z najpowszechniejszych form MFA. Podczas konfiguracji TOTP zazwyczaj trzeba zeskanować [kod QR](https://en.wikipedia.org/wiki/QR_code), który ustanawia „[wspólny sekret](https://en.wikipedia.org/wiki/Shared_secret)” z usługą, z której zamierza się korzystać. Wspólny sekret jest przechowywany w danych aplikacji uwierzytelniającej i bywa czasem chroniony hasłem.
 
-The time-limited code is then derived from the shared secret and the current time. As the code is only valid for a short time, without access to the shared secret, an adversary cannot generate new codes.
+Kod ograniczony czasowo jest następnie generowany na podstawie wspólnego sekretu i bieżącego czasu. Ponieważ kod jest ważny tylko przez krótki czas, bez dostępu do wspólnego sekretu przeciwnik nie jest w stanie wygenerować nowych kodów.
 
-If you have a hardware security key with TOTP support (such as a YubiKey with [Yubico Authenticator](https://yubico.com/products/yubico-authenticator)), we recommend that you store your "shared secrets" on the hardware. Hardware such as the YubiKey was developed with the intention of making the "shared secret" difficult to extract and copy. A YubiKey is also not connected to the Internet, unlike a phone with a TOTP app.
+Jeżeli posiadasz sprzętowy klucz bezpieczeństwa z obsługą TOTP (na przykład YubiKey z [Yubico Authenticator](https://yubico.com/products/yubico-authenticator)), zaleca się przechowywać tam swoje „wspólne sekrety”. Sprzęt taki jak YubiKey został zaprojektowany tak, by utrudniać wyodrębnienie i skopiowanie „wspólnego sekretu”. YubiKey nie jest też podłączony do Internetu, w przeciwieństwie do telefonu z aplikacją generującą TOTP.
 
-Unlike [WebAuthn](#fido-fast-identity-online), TOTP offers no protection against [phishing](https://en.wikipedia.org/wiki/Phishing) or reuse attacks. If an adversary obtains a valid code from you, they may use it as many times as they like until it expires (generally 60 seconds).
+W przeciwieńśtwie do [WebAuthn](#fido-fast-identity-online), TOTP nie chroni przed [phishingiem](https://pl.wikipedia.org/wiki/Phishing) ani atakami polegającymi na ponownym użyciu kodu. Jeśli przeciwnik uzyska od Ciebie ważny kod, może go użyć tyle razy, ile chce, dopóki nie wygaśnie (zazwyczaj po 60 sekundach).
 
-An adversary could set up a website to imitate an official service in an attempt to trick you into giving out your username, password and current TOTP code. If the adversary then uses those recorded credentials they may be able to log into the real service and hijack the account.
+Przeciwnik może stworzyć stronę podszywającą się pod oficjalną usługę w celu wyłudzenia nazwy użytkownika, hasła i aktualnego kodu TOTP. Jeśli następnie użyje przechwyconych danych, może zalogować się do prawdziwej usługi i przejąć konto.
 
-Although not perfect, TOTP is secure enough for most people, and when [hardware security keys](../security-keys.md) are not supported [authenticator apps](../multi-factor-authentication.md) are still a good option.
+Choć nie jest to rozwiązanie idealne, TOTP jest wystarczająco bezpieczny dla większości osób, a gdy [sprzętowe klucze bezpieczeństwa](../security-keys.md) nie są obsługiwane, [aplikacje uwierzytelniające](../multi-factor-authentication.md) wciąż stanowią dobrą opcję.
 
-### Hardware security keys
+### Sprzętowe klucze bezpieczeństwa
 
-The YubiKey stores data on a tamper-resistant solid-state chip which is [impossible to access](https://security.stackexchange.com/a/245772) non-destructively without an expensive process and a forensics laboratory.
+YubiKey przechowuje dane na odpornym na manipulacje układzie półprzewodnikowym, do którego [nie da się nieinwazyjnie uzyskać dostępu](https://security.stackexchange.com/a/245772) bez kosztownego procesu i laboratorium kryminalistycznego.
 
-These keys are generally multi-function and provide a number of methods to authenticate. Below are the most common ones.
+Klucze te zwykle pełnią wiele funkcji i udostępniają kilka metod uwierzytelniania. Poniżej opisano najczęściej spotykane.
 
 #### Yubico OTP
 
-Yubico OTP is an authentication protocol typically implemented in hardware security keys. When you decide to use Yubico OTP, the key will generate a public ID, private ID, and a Secret Key which is then uploaded to the Yubico OTP server.
+Yubico OTP to protokół uwierzytelniania zwykle implementowany w sprzętowych kluczach bezpieczeństwa. Po wybraniu Yubico OTP klucz wygeneruje identyfikator publiczny, identyfikator prywatny oraz klucz tajny, który następnie jest przesyłany na serwer Yubico OTP.
 
-When logging into a website, all you need to do is to physically touch the security key. The security key will emulate a keyboard and print out a one-time password into the password field.
+Podczas logowania na stronę wystarczy fizycznie dotknąć klucza bezpieczeństwa. Klucz emuluje klawiaturę i wpisuje jednorazowe hasło w pole hasła.
 
 The service will then forward the one-time password to the Yubico OTP server for validation. A counter is incremented both on the key and Yubico's validation server. The OTP can only be used once, and when a successful authentication occurs, the counter is increased which prevents reuse of the OTP. Yubico provides a [detailed document](https://developers.yubico.com/OTP/OTPs_Explained.html) about the process.
 
