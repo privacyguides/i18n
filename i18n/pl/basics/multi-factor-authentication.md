@@ -26,11 +26,11 @@ Bezpieczeństwo MFA opartego na powiadomieniach push zależy zarówno od jakośc
 
 ### Hasło jednorazowe ograniczone czasowo (TOTP)
 
-TOTP jest jedną z najpowszechniejszych form MFA. Podczas konfiguracji TOTP zazwyczaj trzeba zeskanować [kod QR](https://en.wikipedia.org/wiki/QR_code), który ustanawia „[wspólny sekret](https://en.wikipedia.org/wiki/Shared_secret)” z usługą, z której zamierza się korzystać. Wspólny sekret jest przechowywany w danych aplikacji uwierzytelniającej i bywa czasem chroniony hasłem.
+TOTP jest jedną z najpowszechniejszych form MFA. Podczas konfiguracji TOTP zazwyczaj trzeba zeskanować [kod QR](https://en.wikipedia.org/wiki/QR_code), który ustanawia „[sekret współdzielony](https://en.wikipedia.org/wiki/Shared_secret)” z usługą, z której zamierza się korzystać. Sekret współdzielony jest przechowywany w danych aplikacji uwierzytelniającej i bywa czasem chroniony hasłem.
 
-Kod ograniczony czasowo jest następnie generowany na podstawie wspólnego sekretu i bieżącego czasu. Ponieważ kod jest ważny tylko przez krótki czas, bez dostępu do wspólnego sekretu przeciwnik nie jest w stanie wygenerować nowych kodów.
+Kod ograniczony czasowo jest następnie generowany na podstawie sekretu współdzielonego i bieżącego czasu. Ponieważ kod jest ważny tylko przez krótki czas, bez dostępu do sekretu współdzielonego przeciwnik nie jest w stanie wygenerować nowych kodów.
 
-Jeżeli posiadasz sprzętowy klucz bezpieczeństwa z obsługą TOTP (na przykład YubiKey z [Yubico Authenticator](https://yubico.com/products/yubico-authenticator)), zaleca się przechowywać tam swoje „wspólne sekrety”. Sprzęt taki jak YubiKey został zaprojektowany tak, by utrudniać wyodrębnienie i skopiowanie „wspólnego sekretu”. YubiKey nie jest też podłączony do Internetu, w przeciwieństwie do telefonu z aplikacją generującą TOTP.
+Jeżeli posiadasz sprzętowy klucz bezpieczeństwa z obsługą TOTP (na przykład YubiKey z [Yubico Authenticator](https://yubico.com/products/yubico-authenticator)), zaleca się przechowywać tam swoje „sekrety współdzielone”. Sprzęt taki jak YubiKey został zaprojektowany tak, by utrudniać wyodrębnienie i skopiowanie „sekretu współdzielonego”. YubiKey nie jest też podłączony do Internetu, w przeciwieństwie do telefonu z aplikacją generującą TOTP.
 
 W przeciwieńśtwie do [WebAuthn](#fido-fast-identity-online), TOTP nie chroni przed [phishingiem](https://pl.wikipedia.org/wiki/Phishing) ani atakami polegającymi na ponownym użyciu kodu. Jeśli przeciwnik uzyska od Ciebie ważny kod, może go użyć tyle razy, ile chce, dopóki nie wygaśnie (zazwyczaj po 60 sekundach).
 
@@ -50,98 +50,98 @@ Yubico OTP to protokół uwierzytelniania zwykle implementowany w sprzętowych k
 
 Podczas logowania na stronę wystarczy fizycznie dotknąć klucza bezpieczeństwa. Klucz emuluje klawiaturę i wpisuje jednorazowe hasło w pole hasła.
 
-The service will then forward the one-time password to the Yubico OTP server for validation. A counter is incremented both on the key and Yubico's validation server. The OTP can only be used once, and when a successful authentication occurs, the counter is increased which prevents reuse of the OTP. Yubico provides a [detailed document](https://developers.yubico.com/OTP/OTPs_Explained.html) about the process.
+Usługa przekaże następnie jednorazowe hasło do serwera Yubico OTP w celu weryfikacji. Licznik jest zwiększany zarówno na kluczu, jak i na serwerze walidacyjnym Yubico. OTP można użyć tylko raz — po pomyślnej autoryzacji licznik rośnie, co uniemożliwia ponowne użycie tego samego OTP. Yubico udostępnia [szczegółowy dokument](https://developers.yubico.com/OTP/OTPs_Explained.html) opisujący ten proces.
 
 <figure markdown>
   ![Yubico OTP](../assets/img/multi-factor-authentication/yubico-otp.png)
 </figure>
 
-There are some benefits and disadvantages to using Yubico OTP when compared to TOTP.
+W porównaniu z TOTP korzystanie z Yubico OTP ma swoje zalety i wady.
 
-The Yubico validation server is a cloud based service, and you're placing trust in Yubico that they are storing data securely and not profiling you. The public ID associated with Yubico OTP is reused on every website and could be another avenue for third-parties to profile you. Like TOTP, Yubico OTP does not provide phishing resistance.
+Serwer walidacyjny Yubico to usługa oparta na chmurze, co wymaga zaufania, że Yubico przechowuje Twoje dane bezpiecznie i nie profiluje Cię. Publiczny identyfikator powiązany z Yubico OTP jest ponownie używany na każdej stronie internetowej i może stanowić kolejny kanał do profilowania przez podmioty trzecie. Podobnie jak TOTP, Yubico OTP nie zapewnia odporności na phishing.
 
-If your threat model requires you to have different identities on different websites, **do not** use Yubico OTP with the same hardware security key across those websites as public ID is unique to each security key.
+Jeśli w Twoim modelu zagrożeń wymagana jest inna tożsamość na różnych stronach, **nie używaj** Yubico OTP z tym samym sprzętowym kluczem bezpieczeństwa na tych stronach, ponieważ identyfikator publiczny jest unikalny dla każdego klucza.
 
 #### FIDO (Fast IDentity Online)
 
-[FIDO](https://en.wikipedia.org/wiki/FIDO_Alliance) includes a number of standards, first there was [U2F](https://en.wikipedia.org/wiki/Universal_2nd_Factor) and then later [FIDO2](https://en.wikipedia.org/wiki/FIDO2_Project) which includes the web standard [WebAuthn](https://en.wikipedia.org/wiki/WebAuthn).
+[FIDO](https://en.wikipedia.org/wiki/FIDO_Alliance) obejmuje szereg standardów — najpierw powstało [U2F](https://en.wikipedia.org/wiki/Universal_2nd_Factor), a później [FIDO2](https://en.wikipedia.org/wiki/FIDO2_Project), w ramach którego znajduje się standard sieciowy [WebAuthn](https://en.wikipedia.org/wiki/WebAuthn).
 
-U2F and FIDO2 refer to the [Client to Authenticator Protocol](https://en.wikipedia.org/wiki/Client_to_Authenticator_Protocol), which is the protocol between the security key and the computer, such as a laptop or phone. It complements WebAuthn which is the component used to authenticate with the website (the "Relying Party") you're trying to log in on.
+U2F i FIDO2 odnoszą się do [Client to Authenticator Protocol](https://en.wikipedia.org/wiki/Client_to_Authenticator_Protocol), czyli protokołu między kluczem bezpieczeństwa a komputerem, takim jak laptop czy telefon. Uzupełnia on WebAuthn, który jest komponentem używanym do uwierzytelniania wobec witryny („strona ufająca”), na którą próbujemy się zalogować.
 
-WebAuthn is the most secure and private form of second factor authentication. While the authentication experience is similar to Yubico OTP, the key does not print out a one-time password and validate with a third-party server. Instead, it uses [public key cryptography](https://en.wikipedia.org/wiki/Public-key_cryptography) for authentication.
+WebAuthn jest najbezpieczniejszą i najbardziej prywatną formą uwierzytelniania drugiego czynnika. Chociaż doświadczenie uwierzytelniania jest podobne do Yubico OTP, klucz nie generuje jednorazowego hasła i nie weryfikuje go za pośrednictwem zewnętrznego serwera. Zamiast tego do uwierzytelniania stosuje [kryptografię klucza publicznego](https://en.wikipedia.org/wiki/Public-key_cryptography).
 
 <figure markdown>
   ![FIDO](../assets/img/multi-factor-authentication/fido.png)
 </figure>
 
-When you create an account, the public key is sent to the service, then when you log in, the service will require you to "sign" some data with your private key. The benefit of this is that no password data is ever stored by the service, so there is nothing for an adversary to steal.
+Podczas tworzenia konta klucz publiczny jest wysyłany do usługi, a przy logowaniu usługa wymaga „podpisania” pewnych danych kluczem prywatnym. Dzięki temu usługa nie przechowuje danych haseł, więc nie ma niczego, co przeciwnik mógłby ukraść.
 
-This presentation discusses the history of password authentication, the pitfalls (such as password reuse), and the standards for FIDO2 and [WebAuthn](https://webauthn.guide):
+Ta prezentacja omawia historię uwierzytelniania hasłem, jego pułapki (takie jak ponowne używanie haseł) oraz standardy FIDO2 i [WebAuthn](https://webauthn.guide):
 
-- [How FIDO2 and WebAuthn Stop Account Takeovers](https://youtu.be/aMo4ZlWznao) <small>(YouTube)</small>
+- [How FIDO2 and WebAuthn Stop Account Takeovers](https://youtu.be/aMo4ZlWznao) <small>(po angielsku; YouTube)</small>
 
-FIDO2 and WebAuthn have superior security and privacy properties when compared to any MFA methods.
+FIDO2 i WebAuthn mają lepsze właściwości w zakresie bezpieczeństwa i prywatności w porównaniu do innych metod MFA.
 
-Typically, for web services it is used with WebAuthn which is a part of the [W3C recommendations](https://en.wikipedia.org/wiki/World_Wide_Web_Consortium#W3C_recommendation_(REC)). It uses public key authentication and is more secure than shared secrets used in Yubico OTP and TOTP methods, as it includes the origin name (usually, the domain name) during authentication. Attestation is provided to protect you from phishing attacks, as it helps you to determine that you are using the authentic service and not a fake copy.
+Zazwyczaj w usługach internetowych używa się ich wraz z WebAuthn, który jest częścią [zaleceń W3C](https://en.wikipedia.org/wiki/World_Wide_Web_Consortium#W3C_recommendation_(REC)). Wykorzystuje uwierzytelnianie za pomocą klucza publicznego i jest bezpieczniejszy niż sekrety współdzielone stosowane w Yubico OTP i TOTP, ponieważ podczas uwierzytelniania uwzględniana jest nazwa pochodzenia (zazwyczaj nazwa domeny). Atestacja pomaga chronić przed phishingiem, ponieważ umożliwia ustalenie, że korzysta się z autentycznej usługi, a nie z jej fałszywej kopii.
 
-Unlike Yubico OTP, WebAuthn does not use any public ID, so the key is **not** identifiable across different websites. It also does not use any third-party cloud server for authentication. All communication is completed between the key and the website you are logging into. FIDO also uses a counter which is incremented upon use in order to prevent session reuse and cloned keys.
+W przeciwieństwie do Yubico OTP, WebAuthn nie używa żadnego identyfikatora publicznego, więc klucz **nie jest** identyfikowalny na różnych witrynach. Nie korzysta też z żadnego zewnętrznego serwera w chmurze do uwierzytelniania. Cała komunikacja odbywa się między kluczem a witryną, do której się logujesz. FIDO stosuje również licznik, który jest zwiększany przy użyciu, aby zapobiec ponownemu wykorzystaniu sesji i klonowaniu kluczy.
 
-If a website or service supports WebAuthn for the authentication, it is highly recommended that you use it over any other form of MFA.
+Jeżeli witryna lub usługa obsługuje WebAuthn do uwierzytelniania, zaleca się korzystanie z niego zamiast innych form MFA.
 
 ## Ogólne zalecenia
 
-Przedstawiamy następujące ogólne zalecenia:
+Mamy następujące ogólne zalecenia:
 
-### Z której metody mam skorzystać?
+### Którą metodę wybrać?
 
-When configuring your MFA method, keep in mind that it is only as secure as your weakest authentication method you use. This means it is important that you only use the best MFA method available. For instance, if you are already using TOTP, you should disable email and SMS MFA. If you are already using FIDO2/WebAuthn, you should not be using Yubico OTP or TOTP on your account.
+Konfigurując metodę MFA, pamiętaj, że jej bezpieczeństwo jest ograniczone najsłabszą stosowaną przez Ciebie metodą uwierzytelniania. Oznacza to, że warto korzystać wyłącznie z najlepszej dostępnej metody MFA. Na przykład, jeśli używasz już TOTP, najlepiej wyłączyć MFA przez e-mail i SMS. Jeśli korzystasz z FIDO2/WebAuthn, nie używaj na swoim koncie Yubico OTP ani TOTP.
 
 ### Kopie zapasowe
 
-You should always have backups for your MFA method. Hardware security keys can get lost, stolen or simply stop working over time. It is recommended that you have a pair of hardware security keys with the same access to your accounts instead of just one.
+Zawsze miej kopie zapasowe swojej metody MFA. Sprzętowe klucze bezpieczeństwa mogą zostać zgubione, skradzione lub po prostu przestać działać z upływem czasu. Zaleca się posiadanie pary sprzętowych kluczy bezpieczeństwa mających ten sam dostęp do kont, zamiast tylko jednego.
 
-When using TOTP with an authenticator app, be sure to back up your recovery keys or the app itself, or copy the "shared secrets" to another instance of the app on a different phone or to an encrypted container (e.g. [VeraCrypt](../encryption.md#veracrypt-disk)).
+W przypadku TOTP w aplikacji uwierzytelniającej upewnij się, że została utworzona kopia zapasowa kluczy odzyskiwania lub samej aplikacji, albo skopiuj „sekrety współdzielone” do innej instancji aplikacji na innym telefonie lub do zaszyfrowanego kontenera (np. [VeraCrypt](../encryption.md#veracrypt-disk)).
 
 ### Konfiguracja początkowa
 
-When buying a security key, it is important that you change the default credentials, set up password protection for the key, and enable touch confirmation if your key supports it. Products such as the YubiKey have multiple interfaces with separate credentials for each one of them, so you should go over each interface and set up protection as well.
+Kupując klucz bezpieczeństwa, zmień domyślne dane uwierzytelniające, skonfiguruj ochronę hasłem dla klucza i włącz potwierdzenie dotknięciem, jeśli klucz to obsługuje. Produkty takie jak YubiKey mają wiele interfejsów z oddzielnymi danymi uwierzytelniającymi dla każdego z nich, więc należy przejść przez każdy interfejs i skonfigurować ochronę także tam.
 
 ### E-mail i SMS
 
-If you have to use email for MFA, make sure that the email account itself is secured with a proper MFA method.
+Jeśli musisz używać e-maila do MFA, upewnij się, że samo konto e-mail jest zabezpieczone odpowiednią metodą MFA.
 
-If you use SMS MFA, use a carrier who will not switch your phone number to a new SIM card without account access, or use a dedicated VoIP number from a provider with similar security to avoid a [SIM swap attack](https://en.wikipedia.org/wiki/SIM_swap_scam).
+Jeżeli korzystasz z MFA przez SMS, wybierz operatora, który nie przeniesie Twojego numeru na nową kartę SIM bez dostępu do konta, albo użyj dedykowanego numeru VoIP od dostawcy o porównywalnym poziomie bezpieczeństwa, aby uniknąć ataku typu [SIM swap](https://en.wikipedia.org/wiki/SIM_swap_scam).
 
-[MFA tools we recommend](../multi-factor-authentication.md ""){.md-button}
+[Zalecane narzędzia MFA](../multi-factor-authentication.md ""){.md-button}
 
-## Więcej miejsc do ustawienia MFA
+## Dodatkowe miejsca konfiguracji MFA
 
-Beyond just securing your website logins, multifactor authentication can be used to secure your local logins, SSH keys or even password databases as well.
+Oprócz zabezpieczania logowań do witryn uwierzytelnianie wieloskładnikowe można wykorzystać także do ochrony logowań lokalnych, kluczy SSH czy nawet baz haseł.
 
 ### macOS
 
-macOS has [native support](https://support.apple.com/guide/deployment/intro-to-smart-card-integration-depd0b888248/web) for authentication with smart cards (PIV). If you have a smart card or a hardware security key that supports the PIV interface such as the YubiKey, we recommend that you follow your smart card or hardware security vendor's documentation and set up second factor authentication for your macOS computer.
+macOS oferuje [natywną obsługę](https://support.apple.com/guide/deployment/intro-to-smart-card-integration-depd0b888248/web) uwierzytelniania kartami inteligentnymi (PIV). Jeśli posiadasz kartę inteligentną lub sprzętowy klucz bezpieczeństwa obsługujący interfejs PIV, taki jak YubiKey, zalecamy postępować zgodnie z dokumentacją dostawcy karty lub klucza i skonfigurować uwierzytelnianie drugiego czynnika na komputerze z systemem macOS.
 
-Yubico have a guide [Using Your YubiKey as a Smart Card in macOS](https://support.yubico.com/hc/articles/360016649059) which can help you set up your YubiKey on macOS.
+Yubico przygotowało przewodnik [Using Your YubiKey as a Smart Card in macOS](https://support.yubico.com/hc/articles/360016649059) [Korzystanie z YubiKey jako karty inteligentnej w systemie macOS], który może pomóc w konfiguracji YubiKey na macOS.
 
-After your smart card/security key is set up, we recommend running this command in the Terminal:
+Po skonfigurowaniu karty inteligentnej/klucza bezpieczeństwa zaleca się uruchomienie w Terminalu następującego polecenia:
 
 ```text
 sudo defaults write /Library/Preferences/com.apple.loginwindow DisableFDEAutoLogin -bool YES
 ```
 
-The command will prevent an adversary from bypassing MFA when the computer boots.
+Polecenie to uniemożliwi obejście MFA przez przeciwnika podczas uruchamiania komputera.
 
 ### Linux
 
 <div class="admonition warning" markdown>
 <p class="admonition-title">Ostrzeżenie</p>
 
-If the hostname of your system changes (such as due to DHCP), you would be unable to login. It is vital that you set up a proper hostname for your computer before following this guide.
+Jeśli nazwa hosta systemu ulegnie zmianie (np. wskutek DHCP), nie będzie możliwe zalogowanie się. Przed wykonaniem tego przewodnika konieczne jest poprawne ustawienie nazwy hosta komputera.
 
 </div>
 
-The `pam_u2f` module on Linux can provide two-factor authentication for logging in on most popular Linux distributions. If you have a hardware security key that supports U2F, you can set up MFA authentication for your login. Yubico has a guide [Ubuntu Linux Login Guide - U2F](https://support.yubico.com/hc/articles/360016649099-Ubuntu-Linux-Login-Guide-U2F) which should work on any distribution. The package manager commands—such as `apt-get`—and package names may however differ. This guide does **not** apply to Qubes OS.
+Moduł `pam_u2f` w systemie Linux może zapewnić uwierzytelnianie dwuskładnikowe przy logowaniu w większości popularnych dystrybucji. Jeśli posiadasz sprzętowy klucz bezpieczeństwa obsługujący U2F, można skonfigurować MFA dla logowania. Yubico przygotowało przewodnik [Ubuntu Linux Login Guide - U2F](https://support.yubico.com/hc/articles/360016649099-Ubuntu-Linux-Login-Guide-U2F) [Przewodnik logowania do Ubuntu Linux – U2F], który powinien działać na dowolnej dystrybucji. Polecenia menedżera pakietów — takie jak `apt-get` — oraz nazwy pakietów mogą się jednak różnić. Ten przewodnik **nie** dotyczy sytemu Qubes OS.
 
 ### Qubes OS
 
