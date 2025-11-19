@@ -1,6 +1,6 @@
 ---
-meta_title: "Privacy Guides: Unabhängige Datenschutz- & Sicherheitsressourcen"
-description: "Privacy Guides wurde 2021 gegründet und ist die beliebteste & vertrauenswürdige gemeinnützige Ressource, um Privatsphäre-Tools zu finden und mehr über den Schutz deines digitalen Lebens zu erfahren."
+meta_title: "Privacy Guides: Unabhängige Datenschutz- & Sicherheitsinformationen"
+description: "Privacy Guides, gegründet in 2021, ist die beliebteste & vertrauenswürdigste gemeinnützige Quelle, um Privatsphäre-Tools zu finden und mehr über den Schutz deines digitalen Lebens zu erfahren."
 template: home.html
 social:
   cards_layout: home
@@ -26,7 +26,7 @@ schema:
     "@context": https://schema.org
     "@type": WebSite
     name: Privacy Guides
-    url: "https://www.privacyguides.org/de/"
+    url: "https://www.privacyguides.org/"
     sameAs:
       - https://www.wikidata.org/wiki/Q111710163
     potentialAction:
@@ -71,7 +71,7 @@ Der Versuch, alle deine Daten ständig vor allen zu schützen, ist unpraktisch, 
 <div markdown>
 **Privacy Guides** hat eine engagierte [Community](https://discuss.privacyguides.net), die unabhängig verschiedene *Privacy-Tools* und -Dienste überprüft. Alle unsere Empfehlungen erfüllen eine Reihe strenger Kriterien, um sicherzustellen, dass sie den meisten Menschen den größten Nutzen bringen und das beste Gleichgewicht zwischen Privatsphäre, Sicherheit und Komfort bieten. Als Teil einer gemeinnützigen **öffentlichen Wohltätigkeitsorganisation** hat Privacy Guides strenge **journalistische Standards** und Richtlinien, um sicherzustellen, dass unsere Empfehlungen frei von Interessenkonflikten sind, und wir arbeiten nicht mit Anbietern oder Partnerprogrammen zusammen, die unsere Bewertungen und Empfehlungen beeinflussen könnten.
 
-[:material-heart:{.pg-red} Support Our Work](about/donate.md){ class="md-button md-button--primary" data-portal="signup" }
+[:material-heart:{.pg-red} Unterstütze unsere Arbeit](about/donate.md){ class="md-button md-button--primary" data-portal="signup" }
 
 </div>
 
@@ -96,7 +96,7 @@ Gegründet im Jahr 2021 aufgrund der Schwierigkeit, unvoreingenommene Rezensente
 
 Bekannt aus **WIRED**, **Tweakers.net**, **The New York Times** und vielen anderen Publikationen als zuverlässige Quelle für Datenschutz- und Sicherheitswissen.
 
-[:material-information: More About Who We Are](about.md){ class="md-button" }
+[:material-information: Mehr darüber, wer wir sind](about.md){ class="md-button" }
 
 <div class="grid" markdown>
 <div markdown>
@@ -114,6 +114,6 @@ Im modernen Zeitalter der digitalen Datenausbeutung ist deine Privatsphäre noch
 
 Viele Menschen verwechseln die Begriffe Privatsphäre, Sicherheit und Anonymität. Es gibt Leute, die verschiedene Produkte als „nicht privat“ kritisieren, obwohl sie in Wirklichkeit meinen, dass sie beispielsweise keine Anonymität bieten. Auf dieser Website befassen wir uns mit allen drei Themen, aber es ist wichtig, dass du den Unterschied zwischen ihnen verstehst und weißt, wann es um welches der drei Themen geht.
 
-[:material-movie-open-play-outline: Video: 5 Steps to Improve Your Privacy](https://www.privacyguides.org/videos/2025/02/14/5-easy-steps-to-protect-yourself-online){ class="md-button" }
+[:material-movie-open-play-outline: Video: 5 Schritte zur Verbesserung deiner Privatsphäre](https://www.privacyguides.org/videos/2025/02/14/5-easy-steps-to-protect-yourself-online){ class="md-button" }
 </div>
 </div>
