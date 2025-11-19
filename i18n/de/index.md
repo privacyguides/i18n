@@ -44,9 +44,9 @@ schema:
 
 > „Ich habe nichts zu verbergen. Warum sollte ich mir Sorgen um meine Privatsphäre machen?“
 
-Ähnlich wie das Recht auf interethnische Ehe, das Frauenwahlrecht, die Meinungsfreiheit und viele andere, wurde unser Recht auf Privatsphäre nicht immer gewahrt. In einigen Diktaturen ist das immer noch der Fall. Generationen vor uns haben für unser Recht auf Privatsphäre gekämpft. ==Die Privatsphäre ist ein uns allen innewohnendes Menschenrecht,== auf das wir (ohne Diskriminierung) Anspruch haben.
+Ähnlich wie das Recht auf Eheschließung zwischen unterschiedlichen Ethnien, das Frauenwahlrecht, die Redefreiheit und viele andere Rechte ist auch unser Recht auf Privatsphäre nicht immer gewahrt worden. In einigen Diktaturen ist das immer noch der Fall. Generationen vor uns haben für unser Recht auf Privatsphäre gekämpft. ==Die Privatsphäre ist ein uns allen innewohnendes Menschenrecht,== auf das wir (ohne Diskriminierung) Anspruch haben.
 
-Man sollte Privatsphäre nicht mit Geheimhaltung verwechseln. Wir wissen, was auf der Toilette passiert, aber machen trotzdem die Tür zu. Das liegt daran, dass du Privatsphäre willst, nicht Geheimhaltung. **Jeder** hat etwas zu schützen. Die Privatsphäre ist etwas, das uns menschlich macht.
+Man sollte Privatsphäre nicht mit Geheimhaltung verwechseln. Wir wissen, was auf der Toilette passiert, aber machen trotzdem die Tür zu. Das liegt daran, dass du Privatsphäre willst, nicht Geheimhaltung. **Jeder** hat etwas zu schützen. Privatsphäre ist etwas, das uns menschlich macht.
 
 [:material-book-outline: Warum Privatsphäre wichtig ist](basics/why-privacy-matters.md){ class="md-button" }
 </div>
@@ -54,9 +54,9 @@ Man sollte Privatsphäre nicht mit Geheimhaltung verwechseln. Wir wissen, was au
 <div markdown>
 ## Was soll ich tun?
 
-> Zuerst musst du einen Plan machen
+> Zuerst musst du einen Plan erstellen
 
-Der Versuch, alle deine Daten ständig vor allen zu schützen, ist unpraktisch, teuer und anstrengend. Aber keine Sorge! Sicherheit ist ein Prozess, und durch vorausschauendes Denken, kannst du einen Plan erstellen, der für dich geeignet ist. Sicherheit dreht sich nicht nur um die *Privatsphäre-Tools*, die du verwendest, oder die Software, die du herunterlädst. Vielmehr geht es darum, die einzigartigen Bedrohungen zu verstehen, mit denen du konfrontiert bist, und herauszufinden, wie diese entschärft werden können.
+Der Versuch, alle deine Daten ständig vor allen zu schützen ist unpraktisch, teuer und anstrengend. Aber keine Sorge! Sicherheit ist ein Prozess, und durch vorausschauendes Denken, kannst du einen Plan erstellen, der für dich geeignet ist. Sicherheit dreht sich nicht nur um die *Privatsphäre-Tools*, die du verwendest, oder die Software, die du herunterlädst. Vielmehr geht es darum, die einzigartigen Bedrohungen zu verstehen, mit denen du konfrontiert bist, und herauszufinden, wie diese entschärft werden können.
 
 == Dieser Prozess der Identifizierung von Bedrohungen und der Festlegung von Gegenmaßnahmen wird als **Bedrohungsmodellierung** bezeichnet== und bildet die Grundlage für jeden guten Sicherheits- und Datenschutzplan.
 

@@ -2,26 +2,26 @@
 *[ADB]: Android Debugging Brücke
 *[AOSP]: Android Open-Source Projekt
 *[ATA]: AT Attachment (Standard für die parallele Verbindung von Laufwerken)
-*[attack surface]: The total number of possible entry points for unauthorized access to a system
+*[attack surface]: Die Gesamtzahl der möglichen Einstiegspunkte für einen unbefugten Zugriff auf ein System
 *[AVB]: Android Verified Boot
 *[cgroups]: Control Groups. Ein Bestandteil des Linux-Kernels, welcher Resourcennutzung isoliert und begrenzt.
 *[CLI]: Kommandozeilen-Schnittstelle
 *[CSV]: Kommagetrennte Werte
 *[CVE]: Häufige Schwachstellen und Gefährdungen
-*[dark pattern]: A deceptive design pattern intended to trick a user into doing things
-*[digital legacy feature]: Digital Legacy refers to features that allow you to give other people access to your data when you die
+*[Dark Patterns]: A deceptive design pattern intended to trick a user into doing things
+*[Digitaler Nachlass-Funktion]: Digitaler Nachlass bezieht sich auf Funktionen, die es dir ermöglichen, anderen Menschen Zugang zu deinen Daten zu geben, wenn du stirbst
 *[DNSSEC]: Domänennamensystem-Sicherheitserweiterungen
 *[DNS]: Domänennamensystem
 *[DoH]: DNS über HTTPS
 *[DoQ]: DNS über QUIC
 *[DoH3]: DNS über HTTP/3
 *[DoT]: DNS über TLS
-*[DPI]: Deep Packet Inspection identifies and blocks packet with specific payloads
+*[DPI]: Deep Packet Inspection identifiziert und blockiert Pakete mit bestimmter Nutzdaten
 *[E2EE]: Ende-zu-Ende-Verschlüsselung/Verschlüsselt
 *[ECS]: EDNS Client Subnetz
 *[EWR]: Europäischer Wirtschaftsraum
 *[Entropie]: A measurement of how unpredictable something is
-*[EOL]: Ende des Produktlebens- oder Support-Zyklus. Gemeint ist häufig das Ende der Unterstützung mit Sicherheitsupdates.
+*[EOL]: End of Life
 *[Exif]: Austauschbares Bilddateiformat
 *[FCM]: Firebase-Cloud-Nachrichtendienst
 *[FDE]: vollständige Festplattenverschlüsselung

@@ -1,5 +1,5 @@
 ---
-title: "Warum die Privatsphäre wichtig ist"
+title: "Warum Privatsphäre wichtig ist"
 icon: 'material/shield-account'
 description: Im modernen Zeitalter der digitalen Datenausbeutung ist deine Privatsphäre noch nie so wichtig gewesen, und dennoch glauben viele, dass sie bereits verloren ist. Das ist sie nicht.
 ---
