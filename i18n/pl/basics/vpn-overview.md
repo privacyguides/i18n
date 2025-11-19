@@ -61,27 +61,27 @@ O ile dostawca VPN nie prowadzi samodzielnie szyfrowanych serwerów DNS, **prawd
 
 Innym częstym powodem, dla którego zalecane jest szyfrowane DNS, jest ochrona przed podszywaniem się pod DNS (DNS spoofing). Jednak przeglądarka powinna już sprawdzać [certyfikaty TLS](https://en.wikipedia.org/wiki/Transport_Layer_Security#Digital_certificates) przy użyciu **HTTPS** i ostrzegać o problemach. Jeśli nie korzystasz z **HTTPS**, przeciwnik może zmodyfikować wszystko poza zapytaniami DNS i wynik będzie niewiele się różnił.
 
-## Czy powinienem używać Tora *i* VPN?
+## Czy warto używać sieci Tor *oraz* VPN?
 
-Być może, Tor niekoniecznie jest odpowiedni dla każdego. Weź pod uwagę swój [model zagrożenia](threat-modeling.md), ponieważ jeśli przeciwnik nie jest w stanie wydobyć informacji od dostawcy VPN, samo korzystanie z VPN może zapewnić wystarczającą ochronę.
+Być może. Tor sam w sobie nie zawsze jest odpowiedni dla każdego. Warto przeanalizować swój [model zagrożeń](threat-modeling.md), ponieważ jeśli przeciwnik nie ma możliwości uzyskania danych od Twojego dostawcy VPN, sam VPN może zapewnić wystarczającą ochronę.
 
-Jeśli korzystasz z sieci Tor, *prawdopodobnie* najlepiej będzie połączyć się z nią za pośrednictwem komercyjnego dostawcy VPN. Jest to jednak złożony temat, o którym napisaliśmy więcej na naszej stronie [przeglądu Tora](../advanced/tor-overview.md).
+Jeśli jednak decydujesz się korzystać z sieci Tor, to *prawdopodobnie* najlepszym wyborem będzie łączenie się z nią za pośrednictwem komercyjnego dostawcy VPN. Jest to jednak złożony temat, dlatego opisaliśmy go dokładniej na stronie poświęconej [przeglądowi sieci Tor](../advanced/tor-overview.md).
 
-## Czy powinienem uzyskiwać dostęp do sieci Tor za pośrednictwem dostawców VPN, którzy zapewniają "węzły Tor"?
+## Czy powinno się korzystać z funkcji dostawców VPN, którzy udostępniają „węzły Tor”?
 
-Nie powinieneś używać tej funkcji: Podstawową zaletą korzystania z sieci Tor jest brak zaufania do dostawcy VPN, co jest negowane w przypadku korzystania z węzłów Tor hostowanych przez sieć VPN zamiast łączenia się bezpośrednio z siecią Tor z komputera.
+Nie należy korzystać z tej funkcji. Główna zaleta sieci Tor polega na tym, że nie trzeba ufać dostawcy VPN — a ta przewaga znika, gdy korzystasz z węzłów Tor hostowanych przez tego samego dostawcę, zamiast łączyć się z Torem bezpośrednio z własnego komputera.
 
-Obecnie Tor obsługuje tylko protokół TCP. Pakiety UDP (używane przez [WebRTC](https://en.wikipedia.org/wiki/WebRTC), [HTTP3/QUIC](https://en.wikipedia.org/wiki/HTTP/3) i inne protokoły), [ICMP](https://en.wikipedia.org/wiki/Internet_Control_Message_Protocol) i inne będą odrzucane. Aby to zrekompensować, dostawcy VPN zazwyczaj kierują wszystkie pakiety inne niż TCP przez swój serwer VPN (pierwszy przeskok). Tak właśnie jest w przypadku [ProtonVPN](https://protonvpn.com/support/tor-vpn). Dodatkowo, podczas korzystania z tej konfiguracji Tor over VPN, nie masz kontroli nad innymi ważnymi funkcjami Tor, takimi jak [Isolated Destination Address](https://whonix.org/wiki/Stream_Isolation) (używanie innego obwodu Tor dla każdej odwiedzanej domeny).
+Obecnie Tor obsługuje tylko protokół TCP. UDP (używany przez [WebRTC](https://en.wikipedia.org/wiki/WebRTC), [HTTP3/QUIC](https://en.wikipedia.org/wiki/HTTP/3) i inne protokoły), [ICMP](https://en.wikipedia.org/wiki/Internet_Control_Message_Protocol) oraz inne pakiety będą porzucane. Aby to obejść, dostawcy VPN zazwyczaj kierują cały ruch inny niż TCP przez swój serwer VPN (pierwszy przeskok). Tak działa to m.in. w przypadku [ProtonVPN](https://protonvpn.com/support/tor-vpn). Co więcej, w konfiguracji „Tor poprzez VPN” nie masz kontroli nad innymi kluczowymi funkcjami Tora, takimi jak [Isolated Destination Address](https://whonix.org/wiki/Stream_Isolation) (oddzielny obwód Tor dla każdej odwiedzanej domeny).
 
-Funkcja ta powinna być postrzegana jako *wygodny* sposób na dostęp do ukrytych usług w sieci Tor, a nie na zachowanie anonimowości. Dla zapewnienia właściwej anonimowości, użyj aktualnej [przeglądarki Tor](../tor.md).
+Tę funkcję można traktować wyłącznie jako *wygodny* sposób dostępu do usług .onion w sieci Tor, a nie jako metodę na zachowanie anonimowości. Aby osiągnąć prawdziwą anonimowość, korzystaj z właściwej [przeglądarki sieci Tor](../tor.md).
 
-## Komercyjna własność VPN
+## Własność komercyjnych VPN
 
-Większość usług VPN należy do tych samych [kilku firm](https://vpnpro.com/blog/hidden-vpn-owners-unveiled-97-vpns-23-companies). Te podejrzane firmy prowadzą wiele mniejszych usług VPN, aby stworzyć iluzję, że masz większy wybór niż w rzeczywistości i zmaksymalizować zyski. Zazwyczaj ci dostawcy, którzy zasilają swoją firmę-powłokę, mają okropną politykę prywatności i nie należy im ufać w kwestii ruchu internetowego. Należy bardzo rygorystycznie podchodzić do wyboru dostawcy usług.
+Większość usług VPN należy w rzeczywistości do tych samych [kilku firm](https://vpnpro.com/blog/hidden-vpn-owners-unveiled-97-vpns-23-companies). Te budzące wątpliwości podmioty prowadzą wiele mniejszych usług VPN, aby stworzyć iluzję większego wyboru i maksymalizować zyski. Zwykle usługi te, działające pod parasolem firm-wydmuszek, mają fatalne polityki prywatności i nie powinny być obdarzane zaufaniem w kwestii Twojego ruchu internetowego. W wyborze dostawcy należy być wyjątkowo rygorystycznym.
 
-Należy również uważać, że wiele witryn z recenzjami VPN to jedynie narzędzia reklamowe otwarte na oferentów oferujących najwyższą cenę. ==Privacy Guides nie zarabia na polecaniu zewnętrznych produktów i nigdy nie korzysta z programów partnerskich.==
+Warto też wiedzieć, że wiele stron z recenzjami VPN to głównie narzędzia marketingowe dla tego, kto zapłaci najwięcej. ==Privacy Guides nie zarabia na polecaniu zewnętrznych produktów i nigdy nie korzysta z programów partnerskich.==
 
-[Nasze rekomendacje VPN](../vpn.md ""){.md-button}
+[Zalecane przez nas usługi VPN](../vpn.md ""){.md-button}
 
 ## Nowoczesne alternatywy VPN
 
