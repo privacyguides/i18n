@@ -1,65 +1,65 @@
 ---
-meta_title: "Jak VPN chroni twoją prywatność? Nasze omówienie sieci VPN - Privacy Guides"
+meta_title: "Jak VPN chroni Twoją prywatność? Nasz przegląd VPN – Privacy Guides"
 title: Przegląd VPN
 icon: material/vpn
-description: Wirtualne sieci prywatne przenoszą ryzyko z dostawcy usług internetowych na stronę trzecią, której ufasz. Należy mieć to na uwadze.
+description: Wirtualne sieci prywatne przenoszą ryzyko z dostawcy usług internetowych na podmiot trzeci, któremu ufasz. Należy mieć to na uwadze.
 ---
 
-Wirtualne sieci prywatne to sposób na przedłużenie końca twojej sieci do wyjścia w innym miejscu na świecie.
+Wirtualne sieci prywatne to sposób na „przedłużenie” końca Twojej sieci tak, by punkt wyjścia znajdował się w innym miejscu na świecie.
 
-[:material-movie-open-play-outline: Wideo: Czy potrzebujesz sieci VPN?](https://www.privacyguides.org/videos/2024/12/12/do-you-need-a-vpn ""){.md-button}
+[:material-movie-open-play-outline: Film: Czy potrzebujesz VPN?](https://www.privacyguides.org/videos/2024/12/12/do-you-need-a-vpn ""){.md-button}
 
-Zwykle dostawca usług internetowych może zobaczyć przepływ ruchu internetowego przychodzącego i wychodzącego z twojego punktu zakończenia sieci (tj. modem). Protokoły szyfrowania, takie jak HTTPS, są powszechnie używane w internecie, więc usługodawcy mogą nie być w stanie zobaczyć dokładnie tego, co publikujesz lub czytasz, ale mogą mieć pojęcie o [domenach, które żądasz](../advanced/dns-overview.md#why-shouldnt-i-use-encrypted-dns).
+Zwykle dostawca usług internetowych może zobaczyć przepływ ruchu internetowego przychodzącego i wychodzącego z urządzenia końcowego sieci (tj. modemu). Protokoły szyfrujące, takie jak HTTPS, są powszechnie stosowane w Internecie, więc dostawca może nie widzieć dokładnie tego, co publikujesz lub czytasz, ale może mieć pojęcie o [domenach, do których kierujesz zapytania](../advanced/dns-overview.md#why-shouldnt-i-use-encrypted-dns).
 
-Korzystanie z sieci VPN ukrywa nawet te informacje przed twoim dostawcą usług internetowych, przekazując zaufanie, które umieszczasz w swoją sieć na serwer gdzieś indziej na świecie. W rezultacie dostawca usług internetowych widzi tylko, że jesteś podłączony do sieci VPN i nic nie wie o aktywności, którą przez nią przekazujesz.
+Korzystanie z VPN ukrywa nawet te informacje przed dostawcą, przenosząc zaufanie, które pokładasz w swojej sieci, na serwer zlokalizowany gdzie indziej na świecie. W efekcie ISP widzi jedynie, że jesteś połączony z VPN, ale nie ma dostępu do informacji o aktywności przesyłanej przez to połączenie.
 
 <div class="admonition note" markdown>
 <p class="admonition-title">Uwaga</p>
 
-Kiedy mówimy o "wirtualnych sieciach prywatnych" na tej stronie, zwykle odnosimy się do **komercyjnych** [dostawców VPN](../vpn.md), którym użytkownik płaci miesięczną opłatę w zamian za bezpieczne kierowanie ruchu internetowego przez ich publiczne serwery. Istnieje wiele innych form VPN, takich jak te, które hostujesz samodzielnie lub te obsługiwane przez miejsca pracy, które pozwalają bezpiecznie łączyć się z wewnętrznymi / pracowniczymi zasobami sieciowymi, jednak te VPN są zwykle zaprojektowane do bezpiecznego dostępu do sieci zdalnych, a nie do ochrony prywatności połączenia internetowego.
+Gdy na tej stronie mówimy o „wirtualnych sieciach prywatnych”, zwykle mamy na myśli **komercyjnych** [dostawców VPN](../vpn.md), za których korzystanie płaci się miesięczną opłatę w zamian za kierowanie ruchu internetowego przez ich publiczne serwery. Istnieje jednak wiele innych form VPN — na przykład takie, które hostujesz samodzielnie, albo te obsługiwane przez pracodawców umożliwiające bezpieczne łączenie się z zasobami sieci wewnętrznej — jednak te rozwiązania zwykle są projektowane z myślą o bezpiecznym dostępie do zdalnych sieci, a nie o ochronie prywatności połączenia z Internetem.
 
 </div>
 
 ## Jak działa VPN?
 
-Sieci VPN szyfrują ruch między urządzeniem a serwerem należącym do dostawcy VPN. Z perspektywy każdego, kto znajduje się między tobą a serwerem VPN, wygląda to tak, jakbyś łączył się z serwerem VPN. Z perspektywy każdego, kto znajduje się między serwerem VPN a witryną docelową, wszystko, co widzą, to serwer VPN łączący się ze stroną internetową.
+VPN szyfruje ruch między urządzeniem a serwerem należącym do dostawcy VPN. Z perspektywy każdego, kto znajduje się między Tobą a serwerem VPN, wygląda to tak, jakbyś łączył(a) się z serwerem VPN. Z perspektywy każdego, kto znajduje się między serwerem VPN a stroną docelową, widoczne jest jedynie połączenie serwera VPN ze stroną.
 
 ``` mermaid
 flowchart LR
- 763931["Your Device<div>(with VPN Client)</div>"] ===|"VPN Encryption"| 404512{"VPN Server"}
- 404512 -.-|"No VPN Encryption"| 593753(("The Internet<div>(Your Destination)</div>"))
- subgraph 763931["Your Device<div>(with VPN Client)</div>"]
+ 763931["Twoje urządzenie<div>(z klientem VPN)</div>"] ===|"Szyfrowanie VPN"| 404512{"Serwer VPN"}
+ 404512 -.-|"Brak szyfrowania VPN"| 593753(("Internet<div>(Twoje miejsce docelowe)</div>"))
+ subgraph 763931["Twoje urządzenie<div>(z klientem VPN)</div>"]
  end
 ```
 
-Należy pamiętać, że VPN nie dodaje żadnych zabezpieczeń ani szyfrowania do ruchu między serwerem VPN a miejscem docelowym w Internecie. Aby uzyskać bezpieczny dostęp do strony internetowej, **należy** upewnić się, że protokół HTTPS jest używany niezależnie od tego, czy korzystasz z VPN.
+Zwróć uwagę, że VPN nie dodaje żadnego zabezpieczenia ani szyfrowania do ruchu pomiędzy serwerem VPN a stroną docelową w sieci. Aby bezpiecznie korzystać ze strony, **musisz** nadal upewnić się, że używany jest protokół HTTPS, niezależnie od tego, czy korzystasz z VPN.
 
-## Czy powinienem używać VPN?
+## Czy warto korzystać z VPN?
 
-**Tak**, niemal pewnie. VPN ma wiele zalet, w tym:
+**Tak**, prawie na pewno. VPN ma wiele zalet, w tym:
 
 1. Ukrywanie ruchu **tylko** przed dostawcą usług internetowych.
-1. Ukrywanie pobieranych plików (takich jak torrenty) przed dostawcą usług internetowych i organizacjami antypirackimi.
-1. Ukrywanie twojego adresu IP przed witrynami i usługami innych firm, pomagając wtopić się w otoczenie i zapobiegając śledzeniu opartemu na adresie IP.
-1. Umożliwia ominięcie ograniczeń geograficznych dla niektórych treści.
+1. Ukrywanie pobieranych plików (np. torrentów) przed ISP i organizacjami antypirackimi.
+1. Ukrywanie Twojego adresu IP przed stronami i usługami zewnętrznymi, co pomaga wtopić się w tłum i utrudnia śledzenie oparte na adresie IP.
+1. Umożliwianie omijania ograniczeń geograficznych dla niektórych treści.
 
-Sieci VPN mogą zapewniać *niektóre* z tych samych korzyści, które zapewnia Tor, takie jak ukrywanie adresu IP przed odwiedzanymi witrynami i geograficzne przenoszenie ruchu sieciowego, a dobrzy dostawcy VPN nie będą współpracować np. z organami prawnymi z opresyjnych reżimów, zwłaszcza jeśli wybierzesz dostawcę VPN poza własną jurysdykcją.
+VPN-y mogą zapewnić *niektóre* z tych samych korzyści, co Tor — na przykład ukrywanie adresu IP przed odwiedzanymi stronami i geograficzne przesunięcie ruchu sieciowego — a dobrzy dostawcy VPN nie będą współpracować z np. organami represyjnych reżimów, szczególnie jeśli wybierzesz dostawcę spoza własnej jurysdykcji.
 
-VPN-y nie zaszyfrowują danych poza połączeniem pomiędzy twoim urządzeniem a serwerem VPN. Dostawcy VPN mogą również przeglądać i modyfikować ruch w taki sam sposób, w jaki może to robić dostawca usług internetowych, więc nadal istnieje pewien poziom zaufania, jakim ich obdarzasz. Nie ma możliwości sprawdzenia polityki "bez logów" dostawcy VPN w żaden sposób.
+VPN nie szyfruje danych poza połączeniem między Twoim urządzeniem a serwerem VPN. Dostawcy VPN mogą również widzieć i modyfikować Twój ruch w taki sam sposób, jak mógłby to robić ISP, więc wciąż pokładasz w nich pewien poziom zaufania. Nie ma też sposobu, by w jakikolwiek sposób zweryfikować politykę „braku logów” dostawcy VPN.
 
 ## Kiedy VPN nie jest odpowiedni?
 
-Korzystanie z VPN w przypadkach, gdy używasz swojej [prawdziwej lub dobrze znanej tożsamości](common-misconceptions.md#complicated-is-better) online, jest mało prawdopodobne. Może to spowodować uruchomienie systemów wykrywania spamu i oszustw, tak jak w przypadku logowania się na stronie internetowej banku.
+Korzystanie z VPN w sytuacjach, gdy działasz w sieci pod swoją [prawdziwą lub powszechnie znaną tożsamością,](common-misconceptions.md#complicated-is-better) raczej nie przyniesie żadnych korzyści. Może to uruchomić systemy wykrywania spamu i oszustw, na przykład przy logowaniu do strony internetowej banku.
 
-Ważne jest, aby pamiętać, że VPN nie zapewni ci całkowitej anonimowości, ponieważ sam dostawca VPN nadal będzie miał dostęp do twojego prawdziwego adresu IP, informacji o stronie docelowej, a często także do śladu pieniężnego, który można bezpośrednio powiązać z tobą. Polityka „bez logów” to jedynie obietnica; jeśli potrzebujesz pełnego bezpieczeństwa z sieci, rozważ użycie [Tor](../advanced/tor-overview.md) oprócz lub zamiast VPN.
+Ważne jest, by pamiętać, że VPN nie zapewnia absolutnej anonimowości, ponieważ sam dostawca VPN nadal ma dostęp do Twojego rzeczywistego adresu IP, informacji o odwiedzanych stronach oraz często do śladu płatności, który można bezpośrednio powiązać z Tobą. Polityka „braku logów” to jedynie obietnica; jeśli zależy Ci na całkowitym bezpieczeństwie w sieci, rozważ korzystanie z [sieci Tor](../advanced/tor-overview.md) jako uzupełnienie lub zamiennik VPN.
 
-Nie powinieneś również zaufać VPN, aby zabezpieczył twoje połączenie do niezaszyfrowanego celu HTTP. Aby zapewnić prywatność i bezpieczeństwo czynności wykonywanych na odwiedzanych stronach internetowych, należy korzystać z protokołu HTTPS. Dzięki temu hasła, tokeny sesji i zapytania będą bezpieczne przed dostawcą VPN i innymi potencjalnymi przeciwnikami między serwerem VPN a miejscem docelowym. Powinieneś włączyć tryb tylko HTTPS w swojej przeglądarce (jeśli jest obsługiwany), aby złagodzić ataki, które próbują obniżyć jakość połączenia z HTTPS do HTTP.
+Nie należy też polegać na VPN w kwestii zabezpieczenia połączenia z niezaszyfrowaną stroną HTTP. Aby to, co faktycznie robisz na odwiedzanych stronach, pozostało prywatne i bezpieczne, musisz używać HTTPS. Dzięki temu hasła, tokeny sesji i zapytania będą chronione przed dostawcą VPN oraz innymi potencjalnymi przeciwnikami znajdującymi się pomiędzy serwerem VPN a celem. W swojej przeglądarce warto włączyć tryb używania wyłącznie protokołu HTTPS (jeśli jest dostępny), aby ograniczyć ataki polegające na obniżaniu połączenia z HTTPS do HTTP.
 
-## Czy powinienem używać szyfrowanego DNS z VPN?
+## Czy warto używać szyfrowanego DNS z VPN?
 
-**Prawdopodobnie nie**, dopóki dostawca VPN sam hostuje zaszyfrowane serwery DNS. Korzystanie z DOH/DOT (lub jakiejkolwiek innej formy szyfrowanego DNS) z serwerami stron trzecich po prostu doda więcej podmiotów do zaufania. Twój dostawca VPN może nadal sprawdzać, które witryny odwiedzasz na podstawie adresów IP i innych metod. Biorąc to wszystko pod uwagę, mogą istnieć pewne korzyści z włączenia szyfrowanego DNS w celu włączenia innych funkcji bezpieczeństwa w przeglądarce, takich jak ECH. Technologie przeglądarek, które opierają się na szyfrowanym DNS w przeglądarce, są stosunkowo nowe i jeszcze nie rozpowszechnione, więc to, czy są one szczególnie istotne dla użytkownika, pozostawiamy do samodzielnego zbadania.
+O ile dostawca VPN nie prowadzi samodzielnie szyfrowanych serwerów DNS, **prawdopodobnie nie**. Korzystanie z DOH/DOT (lub innej formy szyfrowanego DNS) przy użyciu serwerów stron trzecich tylko zwiększa liczbę podmiotów, którym trzeba ufać. Twój dostawca VPN nadal może widzieć, które strony odwiedzasz, na podstawie adresów IP i innych metod. Mimo to mogą istnieć pewne korzyści z włączenia szyfrowanego DNS, np. aby umożliwić inne funkcje bezpieczeństwa w przeglądarce, takie jak ECH. Technologie przeglądarek opierające się na szyfrowanym DNS po stronie przeglądarki są stosunkowo nowe i jeszcze niezbyt rozpowszechnione, więc to, w jakim stopniu są dla Ciebie istotne, pozostawiamy do samodzielnego zbadania.
 
-Innym częstym powodem, dla którego zalecane jest szyfrowanie DNS, jest zapobieganie spoofingowi DNS. Jednak przeglądarka powinna już sprawdzać [certyfikaty TLS](https://en.wikipedia.org/wiki/Transport_Layer_Security#Digital_certificates) z **HTTPS** i ostrzegać o tym. Jeśli nie korzystasz z **protokołu HTTPS**, przeciwnik może po prostu zmodyfikować wszystko inne niż zapytania DNS, a wynik końcowy będzie niewiele inny.
+Innym częstym powodem, dla którego zalecane jest szyfrowane DNS, jest ochrona przed podszywaniem się pod DNS (DNS spoofing). Jednak przeglądarka powinna już sprawdzać [certyfikaty TLS](https://en.wikipedia.org/wiki/Transport_Layer_Security#Digital_certificates) przy użyciu **HTTPS** i ostrzegać o problemach. Jeśli nie korzystasz z **HTTPS**, przeciwnik może zmodyfikować wszystko poza zapytaniami DNS i wynik będzie niewiele się różnił.
 
 ## Czy powinienem używać Tora *i* VPN?
 
