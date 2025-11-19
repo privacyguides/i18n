@@ -145,18 +145,18 @@ Moduł `pam_u2f` w systemie Linux może zapewnić uwierzytelnianie dwuskładniko
 
 ### Qubes OS
 
-Qubes OS has support for Challenge-Response authentication with YubiKeys. If you have a YubiKey with Challenge-Response authentication support, take a look at the Qubes OS [YubiKey documentation](https://qubes-os.org/doc/yubikey) if you want to set up MFA on Qubes OS.
+Qubes OS obsługuje uwierzytelnianie typu challenge-response z użyciem YubiKey. Jeśli masz YubiKey z obsługą uwierzytelniania typu challenge-response, zapoznaj się z [dokumentacją YubiKey](https://qubes-os.org/doc/yubikey) w systemie Qubes OS, jeśli chcesz skonfigurować MFA w Qubes OS.
 
 ### SSH
 
-#### Hardware Security Keys
+#### Sprzętowe klucze bezpieczeństwa
 
-SSH MFA could be set up using multiple different authentication methods that are popular with hardware security keys. We recommend that you check out Yubico's [documentation](https://developers.yubico.com/SSH) on how to set this up.
+MFA dla SSH można skonfigurować przy użyciu kilku różnych metod uwierzytelniania popularnych wśród sprzętowych kluczy bezpieczeństwa. Zalecamy zapoznanie się z [dokumentacją Yubico](https://developers.yubico.com/SSH) na temat konfiguracji.
 
 #### TOTP
 
-SSH MFA can also be set up using TOTP. DigitalOcean has provided a tutorial [How To Set Up Multi-Factor Authentication for SSH on Ubuntu 20.04](https://digitalocean.com/community/tutorials/how-to-set-up-multi-factor-authentication-for-ssh-on-ubuntu-20-04). Most things should be the same regardless of distribution, however the package manager commands—such as `apt-get`—and package names may differ.
+MFA dla SSH można też skonfigurować przy użyciu TOTP. DigitalOcean udostępnił poradnik [How To Set Up Multi-Factor Authentication for SSH on Ubuntu 20.04](https://digitalocean.com/community/tutorials/how-to-set-up-multi-factor-authentication-for-ssh-on-ubuntu-20-04) [Jak skonfigurować uwierzytelnianie wieloskładnikowe dla SSH na Ubuntu 20.04]. Większość kroków powinna być taka sama niezależnie od dystrybucji, jednak polecenia menedżera pakietów — np. `apt-get` — oraz nazwy pakietów mogą się różnić.
 
-### KeePass (and KeePassXC)
+### KeePass (i KeePassXC)
 
-KeePass and KeePassXC databases can be secured using HOTP or Challenge-Response as a second-factor of authentication. Yubico has provided a document for KeePass [Using Your YubiKey with KeePass](https://support.yubico.com/hc/articles/360013779759-Using-Your-YubiKey-with-KeePass) and there is also one on the [KeePassXC](https://keepassxc.org/docs/#faq-yubikey-2fa) website.
+Bazy danych KeePass i KeePassXC można zabezpieczyć, korzystając z HOTP lub challenge–response jako drugiego czynnika uwierzytelniania. Yubico przygotowało dokumentację dla KeePass [Using Your YubiKey with KeePass](https://support.yubico.com/hc/articles/360013779759-Using-Your-YubiKey-with-KeePass) [Korzystanie z klucza YubiKey z KeePass], a na stronie [KeePassXC](https://keepassxc.org/docs/#faq-yubikey-2fa) również znajduje się odpowiedni materiał.
