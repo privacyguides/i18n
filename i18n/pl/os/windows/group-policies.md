@@ -9,7 +9,7 @@ These settings should be set on a brand-new installation of Windows. Setting the
 
 All of these settings have an explanation attached to them in the Group Policy editor which explains exactly what they do, usually in great detail. Please pay attention to those descriptions as you make changes, so you know exactly what we are recommending here. We've also explained some of our choices below whenever the explanation included with Windows is inadequate.
 
-## Administrative Templates
+## Szablony administracyjne
 
 You can find these settings by opening `gpedit.msc` and navigating to **Local Computer Policy** > **Computer Configuration** > **Administrative Templates** in the left sidebar. The headers on this page correspond to folders/subfolders within Administrative Templates, and the bullet points correspond to individual policies.
 
@@ -95,41 +95,41 @@ Despite the names of these policies, this doesn't _require_ you to do anything b
 
 #### Eksplorator plików
 
-- Turn off account-based insights, recent, favorite, and recommended files in File Explorer: **Enabled**
+- Pokaż pliki na podstawie Twojego konta i aktywności dostawcy w chmurze: **Włączone**
 
 #### MDM
 
-- Disable MDM Enrollment: **Enabled**
+- Wyłącz rejestrację w usłudze MDM: **Włączone**
 
 #### OneDrive
 
-- Save documents to OneDrive by default: **Disabled**
-- Prevent OneDrive from generating network traffic until the user signs in to OneDrive: **Enabled**
-- Prevent the usage of OneDrive for file storage: **Enabled**
+- Domyślnie zapisuj dokumenty w usłudze OneDrive: **Wyłączone**
+- Uniemożliwiaj aplikacji OneDrive generowanie ruchu sieciowego, dopóki użytkownik nie zaloguje się do usługi OneDrive: **Włączone**
+- Nie zezwalaj na używanie usługi OneDrive na potrzeby przechowywania plików: **Włączone**
 
 This last setting disables OneDrive on your system; make sure to change it to **Disabled** if you use OneDrive.
 
 #### Push To Install
 
-- Turn off Push To Install service: **Enabled**
+- Wyłącz usługę Push To Install: **Włączone**
 
-#### Wyszukiwanie
+#### Wyszukaj
 
-- Allow Cortana: **Disabled**
-- Don't search the web or display web results in Search: **Enabled**
-- Set what information is shared in Search: **Enabled**
-  - Type of information: **Anonymous info**
+- Zezwalaj na Cortanę: **Wyłączone**
+- Nie wyszukuj w sieci Web ani nie wyświetlaj wyników z sieci Web w funkcji wyszukiwania: **Włączone**
+- Określ, jakie informacje mają być udostępniane w funkcji wyszukiwania: **Włączone**
+  - Typ informacji: **Informacje anonimowe**
 
-#### Sync your settings
+#### Synchronizuj ustawienia
 
-- Do not sync: **Enabled**
+- Nie synchronizuj: **Włączone**
 
-#### Text input
+#### Wprowadzanie tekstu
 
-- Improve inking and typing recognition: **Disabled**
+- Ulepsz rozpoznawanie pisma odręcznego i wpisywania: **Wyłączone**
 
-#### Windows Error Reporting
+#### Raportowanie błędów systemu Windows
 
-- Do not send additional data: **Enabled**
-- Consent > Configure Default consent: **Enabled**
-  - Consent level: **Always ask before sending data**
+- Nie wysyłaj dodatkowych danych: **Włączone**
+- Zgoda > Konfiguruj domyślne ustawienia zgody: **Włączone**
+  - Poziom zgody: **Zawsze pytaj przed wysłaniem danych**
