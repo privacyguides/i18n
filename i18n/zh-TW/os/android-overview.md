@@ -143,7 +143,7 @@ Android 7 及以上版本支援 VPN kill switch，無需安裝第三方應用程
 - 僅允許從 Google Play 商店、作業系統供應商的應用程式商店安裝應用程式（即便是 [`adb`](https://en.wikipedia.org/wiki/Android_Debug_Bridge) 安裝 也不被允許）
 - 使用 [Play Protect](https://support.google.com/googleplay/answer/2812853?#zippy=%2Chow-malware-protection-works%2Chow-privacy-alerts-work) 強制自動設備掃描
 - 針對未經驗證的應用程式向您發出警告
-- Enabling ARM's hardware-based [Memory Tagging Extension (MTE)](https://developer.arm.com/documentation/108035/0100/Introduction-to-the-Memory-Tagging-Extension) for supported apps, which lowers the likelihood of device exploits happening through memory corruption bugs
+- 為支援的應用程式啟用 ARM 以硬體為基礎的[記憶體標記擴充 (MTE)](https://developer.arm.com/documentation/108035/0100/Introduction-to-the-Memory-Tagging-Extension)，降低裝置因記憶體毀損臭蟲而被入侵的可能性
 
 ### Google Play 系统更新
 
