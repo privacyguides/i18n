@@ -83,35 +83,35 @@ Warto też wiedzieć, że wiele stron z recenzjami VPN to głównie narzędzia m
 
 [Zalecane przez nas usługi VPN](../vpn.md ""){.md-button}
 
-## Nowoczesne alternatywy VPN
+## Nowoczesne alternatywy dla VPN
 
-Ostatnio różne organizacje podjęły próby rozwiązania niektórych problemów, z którymi borykają się scentralizowane sieci VPN. Technologie te są stosunkowo nowe, ale warto śledzić ich rozwój.
+W ostatnim czasie różne organizacje podjęły próby rozwiązania niektórych problemów, które mają scentralizowane VPN-y. Technologie te są stosunkowo nowe, ale warto śledzić ich rozwój.
 
-### Przekaźniki wielostronne
+### Multi-Party Relays
 
-Przekaźniki wielostronne (MPR) wykorzystują wiele węzłów należących do różnych stron, dzięki czemu żadna ze stron nie wie, kim jesteś i z czym się łączysz. Jest to podstawowa idea stojąca za Torem, ale obecnie istnieje kilka płatnych usług, które próbują naśladować ten model.
+Multi-Party Relays (MPR) wykorzystują wiele węzłów należących do różnych podmiotów, tak aby żaden pojedynczy podmiot nie znał jednocześnie Twojej tożsamości i tego, z czym się łączysz. To podstawowa idea stojąca za siecią Tor, lecz pojawiają się też płatne usługi próbujące naśladować ten model.
 
-MPR-y starają się rozwiązać problem nieodłącznie związany z VPN-ami: fakt, że trzeba im całkowicie ufać. Osiągają ten cel poprzez podział obowiązków pomiędzy dwie lub więcej różnych firm.
+MPR mają na celu rozwiązanie problemu nieodłącznego dla VPN-ów: konieczności pełnego zaufania do dostawcy. Osiągają to przez podział odpowiedzialności pomiędzy dwie lub więcej różnych firm.
 
-Jednym z przykładów komercyjnie dostępnego MPR jest Apple iCloud+ Private Relay, który kieruje ruch przez dwa serwery:
+Przykładem komercyjnie dostępnego MPR jest iCloud+ Private Relay Apple’a, który kieruje ruch przez dwa serwery:
 
-1. Po pierwsze, serwer obsługiwany przez Apple.
+1. Po pierwsze — serwer obsługiwany przez Apple.
 
-    Serwer ten jest w stanie zobaczyć adres IP urządzenia podczas łączenia się z nim, a także zna informacje o płatnościach i identyfikator Apple ID powiązany z subskrypcją iCloud. Nie jest jednak w stanie sprawdzić, z jaką witryną się łączysz.
+    Serwer ten widzi adres IP urządzenia przy łączeniu się i ma wiedzę o powiązanych danych płatniczych oraz identyfikatorze Apple ID powiązanym z subskrypcją iCloud. Nie widzi jednak, do jakiej strony się łączysz.
 
-2. Po drugie, serwer obsługiwany przez partnerski CDN, taki jak Cloudflare lub Fastly.
+2. Po drugie — serwer obsługiwany przez partnera CDN, takiego jak Cloudflare lub Fastly.
 
-    Serwer ten faktycznie nawiązuje połączenie z witryną docelową, ale nie ma wiedzy o urządzeniu użytkownika. Jedynym adresem IP, o którym wie, jest adres serwera Apple.
+    Serwer ten nawiązuje faktyczne połączenie z witryną docelową, ale nie ma wiedzy o Twoim urządzeniu. Jedyny adres IP, jaki zna, to adres serwera Apple.
 
-Inne MPR prowadzone przez różne firmy działają w bardzo podobny sposób. Ta ochrona poprzez segmentację istnieje tylko wtedy, gdy ufasz, że obie firmy nie zmówią się ze sobą w celu deanonimizacji użytkownika.
+Inne MPR prowadzone przez różne firmy działają w bardzo podobny sposób. Ochrona poprzez segmentację istnieje tylko wtedy, gdy ufasz, że obie firmy nie będą współpracować w celu ujawnienia Twojej tożsamości.
 
-### Zdecentralizowane sieci VPN
+### Zdecentralizowane VPN-y
 
-Inną próbą rozwiązania problemów ze scentralizowanymi usługami VPN są sieci dVPN. Są one oparte na technologii blockchain i twierdzą, że eliminują zaufanie do jednej strony poprzez dystrybucję węzłów wśród wielu różnych osób. Jednak wiele razy dVPN domyślnie wybiera pojedynczy węzeł, co oznacza, że musisz całkowicie zaufać temu węzłowi, tak jak w przypadku tradycyjnej sieci VPN. W przeciwieństwie do tradycyjnej sieci VPN, ten jeden węzeł, który może zobaczyć cały ruch użytkownika, jest przypadkową osobą, a nie dostawcą VPN, który może zostać poddany audytowi i ma prawny obowiązek przestrzegania swojej polityki prywatności. Aby rozwiązać ten problem, potrzebny jest multi-hop, ale wiąże się to z kosztami stabilności i wydajności.
+Innym podejściem do problemów scentralizowanych usług VPN są zdecentralizowane VPN-y (dVPN). Opierają się na technologii blockchain i deklarują wyeliminowanie zaufania do pojedynczego podmiotu przez rozproszenie węzłów wśród wielu osób. Często jednak dVPN domyślnie używa jednego węzła, co oznacza konieczność pełnego zaufania do tego węzła, tak jak w przypadku tradycyjnego VPN-u. W odróżnieniu od tradycyjnego dostawcy ten pojedynczy węzeł, który może widzieć cały Twój ruch, bywa prowadzony przez przypadkową osobę, a nie przez poddaną audytom firmę zobowiązaną prawnie do przestrzegania swojej polityki prywatności. Rozwiązaniem jest tzw. multi-hop, ale wiąże się to ze spadkiem stabilności i wydajności.
 
-Inną kwestią jest odpowiedzialność prawna. Węzeł wyjściowy będzie musiał radzić sobie z problemami prawnymi wynikającymi z niewłaściwego korzystania z sieci, z czym sieć Tor borykała się przez całe swoje istnienie. Zniechęca to zwykłych ludzi do uruchamiania węzłów i sprawia, że jest to bardziej atrakcyjne dla złośliwego aktora z dużą ilością zasobów. Jest to duży problem, jeśli usługa jest jednowęzłowa, ponieważ potencjalnie złośliwy węzeł wyjściowy może zobaczyć, kim jesteś i z czym się łączysz.
+Kolejnym aspektem jest odpowiedzialność prawna. Węzeł wyjściowy musi radzić sobie z konsekwencjami prawnymi wynikającymi z nadużyć sieci — problem, z którym Tor zmaga się od początku swojego istnienia. Zniechęca to zwykłych użytkowników do uruchamiania węzłów i sprawia, że bardziej opłacalne staje się dla złośliwego podmiotu z dużymi zasobami uruchomienie takiego węzła. To poważny problem, jeśli usługa opiera się na pojedynczym węźle, ponieważ potencjalnie złośliwy węzeł wyjściowy może zobaczyć, kim jesteś i z czym się łączysz.
 
-Wiele sieci dVPN jest wykorzystywanych do promowania kryptowalut, a nie do świadczenia najlepszych usług. Są to również zwykle mniejsze sieci z mniejszą liczbą węzłów, co czyni je bardziej podatnymi na [ataki Sybil](https://en.wikipedia.org/wiki/Sybil_attack).
+Wiele dVPN-ów służy bardziej jako narzędzie do promowania kryptowalut niż do stworzenia najlepszej usługi. Mają też zwykle mniejsze sieci z mniejszą liczbą węzłów, co zwiększa ich podatność na [ataki typu Sybil](https://en.wikipedia.org/wiki/Sybil_attack).
 
 ## Powiązane informacje o VPN
 
