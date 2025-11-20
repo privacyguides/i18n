@@ -115,8 +115,8 @@ Wiele dVPN-ów służy bardziej jako narzędzie do promowania kryptowalut niż d
 
 ## Powiązane informacje o VPN
 
-- [Kłopoty ze stronami z recenzjami VPN i prywatności](https://blog.privacyguides.org/2019/11/20/the-trouble-with-vpn-and-privacy-review-sites)
-- [Badanie darmowych aplikacji VPN](https://top10vpn.com/research/free-vpn-investigations/ownership)
-- [Ukryci właściciele VPN: 101 produktów VPN zarządzanych przez zaledwie 23 firmy](https://vpnpro.com/blog/hidden-vpn-owners-unveiled-97-vpns-23-companies)
-- [Ta chińska firma jest tajna za 24 popularnych aplikacjami szukającymi niebezpiecznych uprawnień](https://vpnpro.com/blog/chinese-company-secretly-behind-popular-apps-seeking-dangerous-permissions)
-- [VPN - bardzo niepewna narracja](https://overengineer.dev/blog/2019/04/08/very-precarious-narrative.html) Dennisa Schuberta
+- [Problemy z serwisami recenzującymi VPN i prywatnością](https://blog.privacyguides.org/2019/11/20/the-trouble-with-vpn-and-privacy-review-sites)
+- [Śledztwo dotyczące darmowych aplikacji VPN](https://top10vpn.com/research/free-vpn-investigations/ownership)
+- [Ukryci właściciele VPN ujawnieni: 101 produktów VPN prowadzonych przez zaledwie 23 firmy](https://vpnpro.com/blog/hidden-vpn-owners-unveiled-97-vpns-23-companies)
+- [Ta chińska firma stoi potajemnie za 24 popularnymi aplikacjami żądającymi niebezpiecznych uprawnień](https://vpnpro.com/blog/chinese-company-secretly-behind-popular-apps-seeking-dangerous-permissions)
+- [VPN - a Very Precarious Narrative](https://overengineer.dev/blog/2019/04/08/very-precarious-narrative.html) [VPN — bardzo chwiejna narracja] autorstwa Dennisa Schuberta

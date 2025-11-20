@@ -19,81 +19,81 @@ To change any group policy, double click it and select Enabled or Disabled at th
 
 #### Device Guard
 
-- Turn On Virtualization Based Security: **Enabled**
-  - Platform Security Level: **Secure Boot and DMA Protection**
-  - Secure Launch Configuration: **Enabled**
+- Włącz zabezpieczenia oparte na wirtualizacji: **Włączone**
+  - Wybierz poziom zabezpieczeń platformy: **Bezpieczny rozruch i ochrona DMA**
+  - Konfiguracja funkcji Bezpieczne uruchomienie: **Włączone**
 
-#### Internet Communication Management
+#### Zarządzanie komunikacją internetową
 
-- Turn off Windows Customer Experience Improvement Program: **Enabled**
-- Turn off Windows Error Reporting: **Enabled**
-- Turn off the Windows Messenger Customer Experience Improvement Program: **Enabled**
+- Wyłącz Program poprawy jakości obsługi klienta systemu Windows: **Włączone**
+- Wyłącz funkcję Raportowanie błędów systemu Windows: **Włączone**
+- Wyłącz Program poprawy jakości obsługi klienta w programie Windows Messenger: **Włączone**
 
 Note that disabling the Windows Customer Experience Improvement Program also disables some other tracking features that can be individually controlled with Group Policy as well. We don't list them all here or disable them because this setting covers that.
 
-#### OS Policies
+#### Zasady systemu operacyjnego
 
-- Allow Clipboard History: **Disabled**
-- Allow Clipboard synchronization across devices: **Disabled**
-- Enables Activity Feed: **Disabled**
-- Allow publishing of User Activities: **Disabled**
-- Allow upload of User Activities: **Disabled**
+- Zezwalaj na historię schowka: **Wyłączone**
+- Zezwalaj na synchronizację schowka między urządzeniami: **Wyłączone**
+- Włącza kanał aktywności: **Wyłączone**
+- Zezwalaj na publikowanie aktywności użytkownika: **Wyłączone**
+- Zezwalaj na przekazywanie działań użytkownika: **Wyłączone**
 
-#### User Profiles
+#### Profile użytkowników
 
-- Turn off the advertising ID: **Enabled**
+- Wyłącz identyfikator treści reklamowych: **Włączone**
 
-### Windows Components
+### Składniki systemu Windows
 
-#### AutoPlay Policies
+#### Zasady funkcji Autoodtwarzanie
 
 AutoRun and AutoPlay are features which allow Windows to run a script or perform some other task when a device is connected, sometimes avoiding security measures that involve user consent. This could allow untrusted devices to run malicious code without your knowledge. It's a security best practice to disable these features, and simply open files on your external disks manually.
 
-- Turn off AutoPlay: **Enabled**
-- Disallow Autoplay for nonvolume devices: **Enabled**
-- Set the default behavior for AutoRun: **Enabled**
-  - Default AutoRun Behavior: **Do not execute any AutoRun commands**
+- Wyłącz funkcję Autoodtwarzanie: **Włączone**
+- Wyłącz funkcję Autoodtwarzanie dla urządzeń niezawierających woluminów: **Włączone**
+- Ustaw domyślne zachowanie autouruchamiania: **Włączone**
+  - Domyślne zachowanie autouruchamiania: **Nie wykonuj żadnych poleceń autouruchamiania**
 
-#### BitLocker Drive Encryption
+#### Szyfrowanie dysków funkcją BitLocker
 
 You may wish to re-encrypt your operating system drive after changing these settings.
 
-- Choose drive encryption method and cipher strength (Windows Vista, Windows Server 2008, Windows 7): **Enabled**
-  - Select the encryption method: **AES-256**
+- Wybierz metodę szyfrowania dysku i siłę szyfrowania (Windows Vista, Windows Server 2008, Windows 7, Windows Server 2008 R2): **Włączone**
+  - Wybierz metodę szyfrowania: **AES 256 bitów**
 
 Setting the cipher strength for the Windows 7 policy still applies that strength to newer versions of Windows.
 
-##### Operating System Drives
+##### Dyski z systemem operacyjnym
 
-- Require additional authentication at startup: **Enabled**
-- Allow enhanced PINs for startup: **Enabled**
+- Wymagaj dodatkowego uwierzytelniania przy uruchamianiu: **Włączone**
+- Zezwalaj na używanie rozszerzonych numerów PIN przy uruchamianiu: **Włączone**
 
 Despite the names of these policies, this doesn't _require_ you to do anything by default, but it will unlock the _option_ to have a more complex setup (such as requiring a PIN at startup in addition to the TPM) in the BitLocker setup wizard.
 
-#### Cloud Content
+#### Zawartość chmury
 
-- Turn off cloud optimized content: **Enabled**
-- Turn off cloud consumer account state content: **Enabled**
-- Do not show Windows tips: **Enabled**
-- Turn off Microsoft consumer experiences: **Enabled**
+- Wyłączenie zawartości zoptymalizowanej pod kątem chmury: **Włączone**
+- Wyłączenie zawartości stanu konta klienta w chmurze: **Włączone**
+- Nie pokazuj porad dotyczących systemu Windows: **Włączone**
+- Wyłącz funkcje użytkownika firmy Microsoft: **Włączone**
 
-#### Credential User Interface
+#### Interfejs użytkownika do obsługi poświadczeń
 
-- Require trusted path for credential entry: **Enabled**
-- Prevent the use of security questions for local accounts: **Enabled**
+- Wymagaj ścieżki zaufanej do wprowadzania poświadczeń: **Włączone**
+- Wyłącz możliwość używania pytań zabezpieczeń dla kont lokalnych: **Włączone**
 
-#### Data Collection and Preview Builds
+#### Zbieranie danych i kompilacje w wersji Preview
 
-- Allow Diagnostic Data: **Enabled**
-  - Options: **Send required diagnostic data** (Pro Edition); or
+- Zezwalaj na dane diagnostyczne: **Włączone**
+  - Opcje: **Wysyłaj wymagane dane diagnostyczne** (w wersji Pro); lub
   - Options: **Diagnostic data off** (Enterprise or Education Edition)
-- Limit Diagnostic Log Collection: **Enabled**
-- Limit Dump Collection: **Enabled**
-- Limit optional diagnostic data for Desktop Analytics: **Enabled**
-  - Options: **Disable Desktop Analytics collection**
-- Do not show feedback notifications: **Enabled**
+- Ogranicz zbieranie dzienników diagnostycznych: **Włączone**
+- Ogranicz zbieranie zrzutów: **Włączone**
+- Ogranicz opcjonalne dane diagnostyczne dla usługi Desktop Analytics: **Włączone**
+  - Opcje: **Wyłącz kolekcję usługi Desktop Analytics**
+- Nie pokazuj powiadomień o opiniach: **Włączone**
 
-#### File Explorer
+#### Eksplorator plików
 
 - Turn off account-based insights, recent, favorite, and recommended files in File Explorer: **Enabled**
 
