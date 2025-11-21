@@ -12,7 +12,7 @@ cover: ai-chatbots.webp
 - [:material-account-cash: 監控資本主義](basics/common-threats.md#surveillance-as-a-business-model){ .pg-brown }
 - [:material-close-outline: 審查](basics/common-threats.md#avoiding-censorship){ .pg-blue-gray }
 
-The use of **AI chat**, also known as Large Language Models (LLMs), has become increasingly common since the release of ChatGPT in 2022. LLM 可以幫助我們寫出更好的文章；瞭解不熟悉的主題；或是回答各式各樣的問題。 They work by statistically predicting the next word in their responses based on a vast amount of data scraped from the web.
+自 ChatGPT 於2022年發表以來，**人工智慧聊天**（亦稱為大型語言模型 (LLMs)）的使用愈來愈普遍。 LLM 可以幫助我們寫出更好的文章；瞭解不熟悉的主題；或是回答各式各樣的問題。 他們根據從網路上搜刮下來的海量資料，透過統計方式運作，預測回應中的下一個詞彙。
 
 ## LLM 的隱私權疑慮
 
@@ -26,7 +26,7 @@ The use of **AI chat**, also known as Large Language Models (LLMs), has become i
 
 ### 本地 AI 模型的硬體
 
-本地模型也相當容易運行。 It's possible to run smaller models at lower speeds on as little as 8 GB of RAM. 使用更強大的硬體，例如具有足夠 VRAM 的專用 GPU 或具有快速 LPDDR5X 記憶體的現代系統，可以提供最佳的體驗。
+本地模型也相當容易運行。 只要 8 GB 記憶體，就能以較慢的速度執行較小的模型。 使用更強大的硬體，例如具有足夠 VRAM 的專用 GPU 或具有快速 LPDDR5X 記憶體的現代系統，可以提供最佳的體驗。
 
 LLM 通常可以透過參數的數量來區分用途，對於提供給終端使用者的開放原始碼模型，參數的數量通常介於 1.3B 到 405B 之間。 例如，參數低於 6.7B 的模型只適合文字摘要等基本任務，而參數介於 7B 與 13B 之間的模型則是品質與速度的絕佳折衷。 具備進階推理能力的模型一般在 70B 左右。
 
@@ -42,9 +42,9 @@ LLM 通常可以透過參數的數量來區分用途，對於提供給終端使�
 
 ### 選擇模型
 
-有許多採用寬鬆式自由軟體授權條款的模型可供下載。 [Hugging Face](https://huggingface.co/models) 是一個讓您瀏覽、研究和下載常用格式模型的平台，如 [GGUF](https://huggingface.co/docs/hub/en/gguf)。 提供優質 'open-weights'模型 的公司包括 Mistral、Meta、Microsoft 和 Google 等大公司。 However, there are also many community models and [fine-tuned](https://en.wikipedia.org/wiki/Fine-tuning_\(deep_learning\)) models available. 如上所述，量化模型為使用消費級硬體的使用者提供了模型品質與效能之間的最佳平衡。
+有許多採用寬鬆式自由軟體授權條款的模型可供下載。 [Hugging Face](https://huggingface.co/models) 是一個讓您瀏覽、研究和下載常用格式模型的平台，如 [GGUF](https://huggingface.co/docs/hub/en/gguf)。 提供優質 'open-weights'模型 的公司包括 Mistral、Meta、Microsoft 和 Google 等大公司。 不過，也有許多社群模型與[微調](https://zh.wikipedia.org/wiki/微调_\(深度学习\))模型可以使用。 如上所述，量化模型為使用消費級硬體的使用者提供了模型品質與效能之間的最佳平衡。
 
-為了幫助您選擇適合您的模型，您可以參考排行榜和基準。 使用最廣泛的排行榜是由社群驅動的 [LM Arena](https://lmarena.ai)。 此外，[OpenLLM Leaderboard](https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard) 著重於 'open-weights'模型 在一般基準上的表現，例如： [MMLU-Pro](https://arxiv.org/abs/2406.01574)。  There are also specialized benchmarks which measure factors like [emotional intelligence](https://eqbench.com), ["uncensored general intelligence"](https://huggingface.co/spaces/DontPlanToEnd/UGI-Leaderboard), and [many others](https://nebuly.com/blog/llm-leaderboards).
+為了幫助您選擇適合您的模型，您可以參考排行榜和基準。 使用最廣泛的排行榜是由社群驅動的 [LM Arena](https://lmarena.ai)。 此外，[OpenLLM Leaderboard](https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard) 著重於 'open-weights'模型 在一般基準上的表現，例如： [MMLU-Pro](https://arxiv.org/abs/2406.01574)。  也有一些專門的基準測試，用來測量如[情緒商數](https://eqbench.com)、[「不受限制的一般智力」](https://huggingface.co/spaces/DontPlanToEnd/UGI-Leaderboard)，以及[許多其他](https://nebuly.com/blog/llm-leaderboards)的基準。
 
 ## AI 聊天客戶端
 
@@ -63,17 +63,17 @@ LLM 通常可以透過參數的數量來區分用途，對於提供給終端使�
 
 ![Kobold.cpp Logo](assets/img/ai-chat/kobold.png){align=right}
 
-**Kobold.cpp** is an AI client that runs locally on your Windows, Mac, or Linux computer. 如果您需要大量的客製化和調整，例如為了角色扮演的目的，這是一個絕佳的選擇。
+**Kobold.cpp** 是可在您的 Windows、macOS 或 Linux 電腦上本機執行的 AI 客戶端。 如果您需要大量的客製化和調整，例如為了角色扮演的目的，這是一個絕佳的選擇。
 
 除了支援大量的文字模型之外，Kobold.cpp 也支援圖片產生器，如： [Stable Diffusion](https://stability.ai/stable-image) ；以及自動語音辨識工具，如： [Whisper](https://github.com/ggerganov/whisper.cpp)。
 
-[:octicons-repo-16: Repository](https://github.com/LostRuins/koboldcpp#readme){ .md-button .md-button--primary }
-[:octicons-info-16:](https://github.com/LostRuins/koboldcpp/wiki){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/LostRuins/koboldcpp){ .card-link title="Source Code" }
-[:octicons-lock-16:](https://github.com/LostRuins/koboldcpp/blob/2f3597c29abea8b6da28f21e714b6b24a5aca79b/SECURITY.md){ .card-link title="Security Policy" }
+[:octicons-repo-16: 原始碼倉庫](https://github.com/LostRuins/koboldcpp#readme){ .md-button .md-button--primary }
+[:octicons-info-16:](https://github.com/LostRuins/koboldcpp/wiki){ .card-link title="文件" }
+[:octicons-code-16:](https://github.com/LostRuins/koboldcpp){ .card-link title="原始碼" }
+[:octicons-lock-16:](https://github.com/LostRuins/koboldcpp/blob/2f3597c29abea8b6da28f21e714b6b24a5aca79b/SECURITY.md){ .card-link title="安全政策" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>下載</summary>
 
 - [:fontawesome-brands-windows: Windows](https://github.com/LostRuins/koboldcpp/releases)
 - [:simple-apple: macOS](https://github.com/LostRuins/koboldcpp/releases)
@@ -98,7 +98,7 @@ Kobold.cpp 可讓您修改 AI 模型溫度和 AI 聊天的 system prompt 等參�
 
 ![Ollama Logo](assets/img/ai-chat/ollama.png){align=right}
 
-**Ollama** is a command-line AI assistant that is available on macOS, Linux, and Windows. 如果您正在尋找一個易於使用、具有廣泛相容性，而且因使用 推理(inference) 和其他技術而速度極快的 AI 客戶端，Ollama 是一個不錯的選擇。 它也無須進行任何手動設定。
+**Ollama** 是可在 macOS、Linux 與 Windows 上使用的命令列 AI 小幫手。 如果您正在尋找一個易於使用、具有廣泛相容性，而且因使用 推理(inference) 和其他技術而速度極快的 AI 客戶端，Ollama 是一個不錯的選擇。 它也無須進行任何手動設定。
 
 除了支援大量文字生成模型之外，Ollama 也支援 [LLaVA](https://github.com/haotian-liu/LLaVA) 模型，並且對 Meta 的 [Llama 視覺能力](https://huggingface.co/blog/llama32#what-is-llama-32-vision) 有實驗性的支援。
 
@@ -108,7 +108,7 @@ Kobold.cpp 可讓您修改 AI 模型溫度和 AI 聊天的 system prompt 等參�
 [:octicons-lock-16:](https://github.com/ollama/ollama/blob/a14f76491d694b2f5a0dec6473514b7f93beeea0/SECURITY.md){ .card-link title="安全策略" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>下載</summary>
 
 - [:fontawesome-brands-windows: Windows](https://ollama.com/download/windows)
 - [:simple-apple: macOS](https://ollama.com/download/mac)
@@ -124,19 +124,19 @@ Ollama 可自動下載您要使用的 AI 模型，簡化設定本地 AI 聊天�
 
 <div class="admonition recommendation" markdown>
 
-![Llamafile Logo](assets/img/ai-chat/llamafile.webp){align=right}
+![Llamafile 標誌](assets/img/ai-chat/llamafile.webp){align=right}
 
-**Llamafile** is a lightweight, single-file executable that allows users to run LLMs locally on their own computers without any setup involved. 它 [由 Mozilla 資助](https://hacks.mozilla.org/2023/11/introducing-llamafile)，可在 Linux、macOS 和 Windows 上使用。
+**Llamafile** 是輕量化的單一執行檔，讓使用者可以在自己的電腦上本機執行 LLM，而不需要設定任何東西。 它 [由 Mozilla 資助](https://hacks.mozilla.org/2023/11/introducing-llamafile)，可在 Linux、macOS 和 Windows 上使用。
 
 Llamafile 也支援 LLaVA。 但是，它不支援語音辨識及圖片生成。
 
-[:octicons-repo-16: Repository](https://github.com/Mozilla-Ocho/llamafile#readme){ .md-button .md-button--primary }
-[:octicons-info-16:](https://github.com/Mozilla-Ocho/llamafile#quickstart){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/Mozilla-Ocho/llamafile){ .card-link title="Source Code" }
-[:octicons-lock-16:](https://github.com/Mozilla-Ocho/llamafile#security){ .card-link title="Security Policy" }
+[:octicons-repo-16: 原始碼倉庫](https://github.com/Mozilla-Ocho/llamafile#readme){ .md-button .md-button--primary }
+[:octicons-info-16:](https://github.com/Mozilla-Ocho/llamafile#quickstart){ .card-link title="文件" }
+[:octicons-code-16:](https://github.com/Mozilla-Ocho/llamafile){ .card-link title="原始碼" }
+[:octicons-lock-16:](https://github.com/Mozilla-Ocho/llamafile#security){ .card-link title="安全政策" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>下載</summary>
 
 - [:fontawesome-brands-windows: Windows](https://github.com/Mozilla-Ocho/llamafile#quickstart)
 - [:simple-apple: macOS](https://github.com/Mozilla-Ocho/llamafile#quickstart)
@@ -146,7 +146,7 @@ Llamafile 也支援 LLaVA。 但是，它不支援語音辨識及圖片生成。
 
 </div>
 
-Mozilla 只為某些 Llama 和 Mistral 模型提供 llamafile，而可用的第三方 llamafile 很少。 Moreover, Windows limits `.exe` files to 4 GB, and most models are larger than that.
+Mozilla 只為某些 Llama 和 Mistral 模型提供 llamafile，而可用的第三方 llamafile 很少。 此外，Windows 的 `.exe` 檔案大小限制為最大 4 GB，而大多數的模型都大於此大小。
 
 為了迴避這些問題，您可以 [load external weights](https://github.com/Mozilla-Ocho/llamafile#using-llamafile-with-external-weights)。
 
@@ -165,7 +165,7 @@ Mozilla 只為某些 Llama 和 Mistral 模型提供 llamafile，而可用的第�
 - 核對 checksum（核對和）[^1]
   - 在 Hugging Face 上，您可以按一下模型檔案，並在其下方尋找 **Copy SHA256** 按鈕，以找到雜湊值。 您應該將此 checksum 與您下載的模型檔案之 checksum 進行比對。
 
-A downloaded model is generally safe if it satisfies all the above checks.
+如果下載的模型通過上述的所有檢查，那麼該模型應該是安全的。
 
 ## 標準
 
@@ -177,22 +177,22 @@ A downloaded model is generally safe if it satisfies all the above checks.
 - 不得傳輸個人資料，包括聊天資料。
 - 必須跨平台。
 - 必須不需要 GPU。
-- Must support GPU-powered, fast inference.
+- 必須支援使用 GPU 快速推理。
 - 必須無需網際網路連線。
 
 ### 最佳情況
 
 最佳情況標準代表我們 _希望_ 在這個類別的完美項目的應具備的特性。 推薦產品可能沒有此功能，但若有這些功能則會讓排名更為提高。
 
-- Should be easy to download and set up, e.g. with a one-click installation process.
+- 應當易於下載與設定，例如一鍵安裝流程。
 - 應該有內建的模型下載器選項。
 - 使用者應能修改 LLM 參數，例如其 system prompt 或 temperature。
 
-\*[LLaVA]: Large Language and Vision Assistant (multimodal AI model)
-\*[LLM]: Large Language Model (AI model such as ChatGPT)
-\*[LLMs]: Large Language Models (AI models such as ChatGPT)
-\*[open-weights models]: AI models that anyone can download and use, but the underlying training data and/or algorithms for them are proprietary.
-\*[system prompt]: The general instructions given by a human to guide how an AI chat should operate.
-\*[temperature]: A parameter used in AI models to control the level of randomness and creativity in the generated text.
+\*[LLaVA]：大型語言與視覺助理（多模態人工智慧模型）
+\*[LLM]：大型語言模型（如 ChatGPT 等的人工智慧模型）
+\*[LLMs]：大型語言模型（如 ChatGPT 等的人工智慧模型）
+\*[開放權重模型]：任何人都能下載並使用的人工智慧模型，但其底層的訓練資料或演算法卻是專有的。
+\*[系統提示詞]：人類給予的通用指示，用來指導人工智慧聊天應該如何運作。
+\*[溫度]：人工智慧模型中使用的參數，用來控制產生文字的隨機性與創意程度。
 
 [^1]: 檔案 checksum 是一種防篡改指紋。 開發人員通常會在可單獨下載的文字檔或下載頁面中提供 checksum。 驗證您所下載檔案的 checksum 是否與開發者提供的 checksum 相符，有助於確保檔案是真實的，且在傳輸過程中未被篡改。 您可以使用 Linux 和 macOS 上的 `sha256sum` 或 Windows 上的 `certutil -hashfile file SHA256` 等指令來產生下載檔案的 checksum。

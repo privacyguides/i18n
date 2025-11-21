@@ -189,9 +189,9 @@ Privacy Guides 是由世界各地的志工和工作人員建立的。 我們對�
 
 </div>
 
-To reiterate, this is not an endorsement of any platform, and we generally discourage following us on most social media platforms.
+再度重申，這並非對任何平台的認可，而且我們通常不鼓勵在大多數的社群媒體平台上追蹤我們。
 
-## :material-newspaper: In The Media
+## :material-newspaper: 媒體報導
 
 > To find [privacy-focused alternative] apps, check out sites like Good Reports and **Privacy Guides**, which list privacy-focused apps in a variety of categories, notably including email providers (usually on paid plans) that aren’t run by the big tech companies.
 
@@ -201,9 +201,9 @@ To reiterate, this is not an endorsement of any platform, and we generally disco
 
 — [Tweakers.net](https://tweakers.net/reviews/10568/op-zoek-naar-privacyvriendelijke-tools-niek-de-wilde-van-privacy-guides.html) [翻譯自荷蘭文]
 
-Also featured on: [Ars Technica](https://arstechnica.com/gadgets/2022/02/is-firefox-ok), [Wirecutter](https://nytimes.com/wirecutter/guides/practical-guide-to-securing-windows-pc) [[2](https://nytimes.com/wirecutter/guides/practical-guide-to-securing-your-mac)], [NPO Radio 1](https://nporadio1.nl/nieuws/binnenland/8eaff3a2-8b29-4f63-9b74-36d2b28b1fe1/ooit-online-eens-wat-doms-geplaatst-ga-jezelf-eens-googlen-en-kijk-dan-wat-je-tegenkomt), [Wired](https://wired.com/story/firefox-mozilla-2022), [Fast Company](https://fastcompany.com/91167564/mozilla-wants-you-to-love-firefox-again) and [404 Media](https://404media.co/privacy-service-optery-faces-backlash-after-plan-to-send-openai-user-data).
+亦見於：[Ars Technica](https://arstechnica.com/gadgets/2022/02/is-firefox-ok)、[Wirecutter](https://nytimes.com/wirecutter/guides/practical-guide-to-securing-windows-pc) [[2](https://nytimes.com/wirecutter/guides/practical-guide-to-securing-your-mac)]、[NPO Radio 1](https://nporadio1.nl/nieuws/binnenland/8eaff3a2-8b29-4f63-9b74-36d2b28b1fe1/ooit-online-eens-wat-doms-geplaatst-ga-jezelf-eens-googlen-en-kijk-dan-wat-je-tegenkomt)、[Wired](https://wired.com/story/firefox-mozilla-2022)、[Fast Company](https://fastcompany.com/91167564/mozilla-wants-you-to-love-firefox-again) 與 [404 Media](https://404media.co/privacy-service-optery-faces-backlash-after-plan-to-send-openai-user-data)。
 
-## :material-history: History
+## :material-history: 歷史紀錄
 
 Privacy Guides 於 2021 年 9 月推出，是 [已解散](about/privacytools.md) 的「PrivacyTools」開放原始碼教育計畫的延續。 我們意識到獨立、注重標準的產品推薦和隱私領域常識的重要性，這也是為什麼我們需要保留自 2015 年以來眾多貢獻者所創造的工作，並確保這些資訊在網路上有一個無限期的穩定歸宿。
 
@@ -211,9 +211,9 @@ Privacy Guides 於 2021 年 9 月推出，是 [已解散](about/privacytools.md)
 
 我們還推出了新的討論論壇 [discuss.privacyguides.net](https://discuss.privacyguides.net) ，一個可以分享想法並詢問有關我們使命之問題的社區平臺。 這可擴大我們在 Matrix 上的現有社群，並取代我們先前的 GitHub 討論平台，減少我們對專有討論平台的依賴。
 
-In 2023, we launched international translations of our website in [French](https://www.privacyguides.org/fr), [Hebrew](https://www.privacyguides.org/he), [Dutch](https://www.privacyguides.org/nl), and more languages, made possible by our excellent translation team on [Crowdin](https://crowdin.com/project/privacyguides). 我們計劃繼續擴大我們的服務範圍並發揚教育使命，並尋找方法更清楚地突顯現代數位時代的人們缺乏隱私意識的危險，以及科技產業安全漏洞的普遍性和危害。
+2023年，我們推出了[法文](https://www.privacyguides.org/fr)、[希伯來文](https://www.privacyguides.org/he)、[荷蘭文](https://www.privacyguides.org/nl)以及更多語言的網站翻譯版本，這些都是由 [Crowdin](https://crowdin.com/project/privacyguides) 上的優秀翻譯團隊所促成的。 我們計劃繼續擴大我們的服務範圍並發揚教育使命，並尋找方法更清楚地突顯現代數位時代的人們缺乏隱私意識的危險，以及科技產業安全漏洞的普遍性和危害。
 
-## :material-license: Site License
+## :material-license: 網站授權條款
 
 <div class="admonition danger" markdown>
 

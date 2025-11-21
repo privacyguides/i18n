@@ -35,7 +35,7 @@ cover: alternative-networks.webp
 
 [Tor 瀏覽器資訊 :material-arrow-right-drop-circle:](tor.md){ .md-button .md-button--primary } [Tor 詳細介紹 :material-arrow-right-drop-circle:](advanced/tor-overview.md){ .md-button }
 
-You can access the Tor network using other tools; making this determination comes down to your threat model. If you are a casual Tor user who is not worried about your ISP collecting evidence against you, using apps like [Orbot](#orbot) or mobile browser apps to access the Tor network is probably fine. 越多人使用 Tor 有助於減少 Tor 的不良印記，降低 ISP 和政府可能編制的「Tor 用戶清單」內容。
+您可以使用其他工具存取 Tor 網路；此決策取決於您的威脅模型。 如果是不用擔心 ISP 蒐集針對您的證據的一般 Tor 使用者，那麼使用 [Orbot](#orbot) 等應用程式或行動瀏覽器應用程式存取 Tor 網路就可以了。 越多人使用 Tor 有助於減少 Tor 的不良印記，降低 ISP 和政府可能編制的「Tor 用戶清單」內容。
 
 <div class="admonition example" markdown>
 <p class="admonition-title">試用一下！</p>
@@ -48,18 +48,18 @@ You can access the Tor network using other tools; making this determination come
 
 <div class="admonition recommendation" markdown>
 
-![Orbot logo](assets/img/self-contained-networks/orbot.svg){ align=right }
+![Orbot 標誌](assets/img/self-contained-networks/orbot.svg){ align=right }
 
-**Orbot** is a mobile application which routes traffic from any app on your device through the Tor network.
+**Orbot** 是行動裝置應用程式，可將您裝置上任何應用程式的流量導向透過 Tor 網路傳輸。
 
-[:octicons-home-16: Homepage](https://orbot.app){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://orbot.app/privacy-policy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://orbot.app/faqs){ .card-link title="Documentation" }
-[:octicons-code-16:](https://orbot.app/code){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://orbot.app/donate){ .card-link title="Contribute" }
+[:octicons-home-16: 首頁](https://orbot.app){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://orbot.app/privacy-policy){ .card-link title="隱私權政策" }
+[:octicons-info-16:](https://orbot.app/faqs){ .card-link title="文件" }
+[:octicons-code-16:](https://orbot.app/code){ .card-link title="原始碼" }
+[:octicons-heart-16:](https://orbot.app/donate){ .card-link title="貢獻" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>下載</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=org.torproject.android)
 - [:simple-appstore: App Store](https://apps.apple.com/app/id1609461599)
@@ -70,7 +70,7 @@ You can access the Tor network using other tools; making this determination come
 
 </div>
 
-We previously recommended enabling the _Isolate Destination Address_ preference in Orbot settings. While this setting can theoretically improve privacy by enforcing the use of a different circuit for each IP address you connect to, it doesn't provide a practical advantage for most applications (especially web browsing), can come with a significant performance penalty, and increases the load on the Tor network. We no longer recommend adjusting this setting from its default value unless you know you need to.[^1]
+我們先前曾建議在 Orbot 設定中啟用「隔離目標位址」偏好設定。 雖然從理論上來說，此設定可以強制您連線至不同 IP 位址時使用不同的迴路來改善隱私，但其並未為大多數應用程式（特別是網路瀏覽器）提供實際的優勢，可能會帶來顯著的效能下降，增加 Tor 網路的負載。 我們不再建議您修改此設定，除非您非常確定您需要調整。[^1]
 
 \=== "Android"
 
