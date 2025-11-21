@@ -1,5 +1,5 @@
 ---
-title: Group Policy Settings
+title: Ustawienia zasad grupy
 description: A quick guide to configuring Group Policy to make Windows a bit more privacy respecting.
 ---
 
