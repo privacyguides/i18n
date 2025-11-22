@@ -10,7 +10,7 @@ cover: calendar.webp
 - [:material-bug-outline: 被動攻擊](basics/common-threats.md#security-and-privacy ""){.pg-orange}
 - [:material-server-network: 服務提供商](basics/common-threats.md#privacy-from-service-providers ""){.pg-teal}
 
-**Calendars** contain some of your most sensitive data; use products that implement end-to-end encryption at rest to prevent a provider from reading them.
+**行事曆**包含了部份您最敏感的資料，請使用實作了端到端加密的產品，以防止供應商在您未存取時讀取這些資料。
 
 ## Tuta
 
@@ -19,7 +19,7 @@ cover: calendar.webp
 ![Tuta logo](assets/img/email/tuta.svg#only-light){ align=right }
 ![Tuta logo](assets/img/email/tuta-dark.svg#only-dark){ align=right }
 
-**Tutanota** 在其支援的平臺上提供免費和加密的日曆。 Features include automatic E2EE of all data, sharing features, import/export functionality, multifactor authentication, and [more](https://tuta.com/calendar-app-comparison).
+**Tutanota** 在其支援的平臺上提供免費和加密的日曆。 功能包含：所有資料自動端到端加密、分享、匯入/匯出、多重要素驗證[等等](https://tuta.com/calendar-app-comparison)。
 
 Multiple calendars and extended sharing functionality are limited to paid subscribers.
 
