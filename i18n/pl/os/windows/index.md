@@ -55,10 +55,10 @@ Nie zaleca się używania zmodyfikowanych wersji systemu Windows, takich jak Win
 
 ## Uzyskanie systemu Windows
 
-Currently, only Windows 11 license keys are available for purchase, but these keys will work on Windows 10 as well, so you can still purchase a Windows 11 Pro key to activate a Windows 10 install.
+Obecnie dostępne do kupienia są jedynie klucze licencyjne Windows 11, lecz klucze te działają również w systemie Windows 10, więc nadal można kupić klucz Windows 11 Pro, aby aktywować instalację systemu Windows 10.
 
-The official [Media Creation Tool](https://microsoft.com/software-download/windows11) is the best way to put a Windows installer on a USB flash drive. Third-party tools like Rufus or Etcher may unexpectedly modify the files, which could lead to boot issues or other troubles when installing.
+Oficjalne narzędzie [Media Creation Tool](https://microsoft.com/software-download/windows11) jest najlepszym sposobem na przygotowanie instalatora systemu Windows na pendrivie USB. Narzędzia firm trzecich, takie jak Rufus czy Etcher, mogą nieoczekiwanie zmodyfikować pliki i spowodować problemy z rozruchem lub inne trudności podczas instalacji.
 
-This tool only lets you install a **Home** or **Pro** installation, as there are no publicly available downloads for Windows **Enterprise** edition. If you have an **Enterprise** license key, you can easily upgrade a **Pro** installation. To do this, install Windows **Pro** without entering a license key during setup, then enter your **Enterprise** key in the Settings app after completing the installation. Your **Pro** install will be upgraded to **Enterprise** automatically after entering a valid license key.
+Narzędzie to pozwala zainstalować tylko wersje **Home** lub **Pro**, ponieważ nie ma publicznie dostępnych plików do pobrania dla wersji Windows **Enterprise**. Jeśli posiadasz klucz licencyjny **Enterprise**, możesz łatwo zaktualizować instalację **Pro**. Aby to zrobić, zainstaluj system Windows **Pro**, nie wpisując klucza podczas instalacji, a następnie po zakończeniu instalacji wprowadź klucz **Enterprise** w aplikacji Ustawienia. Instalacja **Pro** zostanie automatycznie zaktualizowana do **Enterprise** po wprowadzeniu prawidłowego klucza.
 
-If you are installing an **Education** license then you will typically have a private download link that will be provided alongside your license key when you obtain it from your institution's benefits portal.
+W przypadku licencji **Education** zazwyczaj otrzymuje się prywatny link do pobrania udostępniany razem z kluczem licencyjnym przez portal korzyści instytucji edukacyjnej.
