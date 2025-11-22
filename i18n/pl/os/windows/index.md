@@ -12,14 +12,14 @@ Unfortunately, this feature was added without too much thought about the privacy
 
 You can enhance your privacy and security on Windows without downloading any third-party tools with these guides:
 
-- Initial Installation (coming soon)
-- [Group Policy Settings](group-policies.md)
-- Privacy Settings (coming soon)
-- Application Sandboxing (coming soon)
-- Security Hardening (coming soon)
+- Instalacja początkowa (wkrótce)
+- [Ustawienia zasad grupy](group-policies.md)
+- Ustawienia prywatności (wkrótce)
+- Aplikacje w środowisku piaskownicy (wkrótce)
+- Wzmocnienie bezpieczeństwa (wkrótce)
 
 <div class="admonition example" markdown>
-<p class="admonition-title">This section is new</p>
+<p class="admonition-title">Ta sekcja jest nowa</p>
 
 This section is a work in progress, because it takes considerably more time and effort to make a Windows installation more privacy-friendly than other operating systems.
 
