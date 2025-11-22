@@ -105,8 +105,8 @@ MySudo 虛擬卡目前只能在其 iOS應用上使用。
 - 無需提供身份證件。
 
 <div class="admonition tip" markdown>
-<p class="admonition-title">Important notices</p>
+<p class="admonition-title">重要聲明</p>
 
-The content here is not legal or financial advice. We do not endorse or encourage illicit activities, and we do not endorse or encourage anything which violates a company's terms of service. Check with a professional to confirm that these recommendations are legal and available in your jurisdiction. [See all notices](about/notices.md).
+此處的內容並非法律或財務建議。 我們不贊同或鼓勵非法活動，也不贊同或鼓勵任何違反公司服務條款的行為。 請向專業人員查詢，確認這些建議在您的司法管轄區是否合法和可用。 [檢視所有聲明](about/notices.md)。
 
 </div>

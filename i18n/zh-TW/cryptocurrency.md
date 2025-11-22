@@ -54,28 +54,28 @@ Monero 是隱私友好的加密貨幣中最強大的競爭者，但它的隱私�
 
 ### 門羅幣錢包
 
-For optimal privacy, make sure to use a self-custody wallet where the [view key](https://getmonero.org/resources/moneropedia/viewkey.html) stays on the device. 這意味著只有您能夠花費資金並查看交易進出。 If you use a custodial wallet, the provider can see **everything** you do; if you use a “lightweight” wallet where the provider retains your view key, the provider can see almost everything you do (but not spend your funds). Some self-custody wallets where the view key does not leave your device include:
+為了確保最佳的隱私，請務必使用自行保管的錢包，其中[檢視金鑰](https://getmonero.org/resources/moneropedia/viewkey.html)將會保留在裝置上。 這意味著只有您能夠花費資金並查看交易進出。 若使用託管錢包，則服務提供商可看到您的**所有操作**；若使用的是「輕量」錢包，則服務提供商會儲存您的檢視金鑰，並能看到您幾乎所有的操作（但無法動用您的資金）。 一些檢視金鑰不會離開您的裝置的自行保管錢包包含了：
 
 - [官方Monero客戶端](https://getmonero.org/downloads) （桌面）
-- [Cake Wallet](https://cakewallet.com) (iOS, Android, Desktop)
+- [Cake Wallet](https://cakewallet.com)（iOS、Android、桌面）
     - Cake Wallet 支援多種加密貨幣。 適用於 iOS 和 Android 的 Monero專用版 Cake Wallet 可在 [Monero.com](https://monero.com) 網站下載。
 - [Feather Wallet](https://featherwallet.org) (桌面版)
 - [Monerujo](https://monerujo.io) (Android)
 
-### Monero nodes
+### 門羅幣節點
 
-For maximum privacy (even with a self-custody wallet), you should run your own Monero node called the [Monero daemon](https://docs.getmonero.org/interacting/monerod-reference), which is included in the [CLI wallet](https://getmonero.org/downloads/#cli). 使用別人的節點會暴露一些信息，例如您從中連接到它的IP位址，同步錢包的時間戳記以及您從錢包發送的交易（儘管沒有關於這些交易的其他細節）。 Alternatively, you can connect to someone else’s Monero node over [Tor](alternative-networks.md#tor), [I2P](alternative-networks.md#i2p-the-invisible-internet-project), or a [VPN](vpn.md).
+為了確保最佳的隱私（即使使用自行保管的錢包），您應該執行自己的門羅幣節點（稱為 [Monero daemon](https://docs.getmonero.org/interacting/monerod-reference)，包含在[命令列錢包](https://getmonero.org/downloads/#cli)中）。 使用別人的節點會暴露一些信息，例如您從中連接到它的IP位址，同步錢包的時間戳記以及您從錢包發送的交易（儘管沒有關於這些交易的其他細節）。 另外，您也可以透過 [Tor](alternative-networks.md#tor)、[I2P](alternative-networks.md#tor) 或 [VPN](vpn.md) 連線到其他人的門羅幣節點。
 
-### Buying Monero
+### 購買門羅幣
 
-[General tips for acquiring Monero](advanced/payments.md#acquisition ""){.md-button}
+[取得門羅幣的一般建議](advanced/payments.md#acquisition ""){.md-button}
 
-There are numerous centralized exchanges (CEX) as well as P2P marketplaces where you can buy and sell Monero. Some of them require identifying yourself (KYC) to comply with anti-money laundering regulations. However, due to Monero's privacy features, the only thing known to the seller is *that* you bought Monero, but not how much you own or where you spend it (after it leaves the exchange). Some reputable places to buy Monero include:
+有許多集中式交易所 (CEX) 以及 P2P 市場可以買賣門羅幣。 其中有些需要驗證身份 (KYC)，以符合反洗錢法規。 然而，由於門羅幣的隱私特性，賣方唯一能知曉*的*是您買了門羅幣，但不知道您擁有多少或在哪裡花掉它（在它離開交易所後）。 購買門羅幣的可靠管道包含：
 
-- [Kraken](https://kraken.com): A well-known CEX. Registration and KYC are mandatory. Card payments and bank transfers accepted. Make sure not to leave your newly purchased Monero on Kraken's platform after the purchase; withdraw them to a self-custody wallet. Monero is not available in all jurisdictions that Kraken operates in.[^1]
-- [Cake Wallet](https://cakewallet.com): A self-custody cross-platform wallet for Monero and other cryptocurrencies. You can buy Monero directly in the app using card payments or bank transfers (through third-party providers such as [Guardarian](https://guardarian.com) or [DFX](https://dfx.swiss)).[^2] KYC is usually not required, but it depends on your country and the amount you are purchasing. In countries where directly purchasing Monero is not possible, you can also use a provider within Cake Wallet to first buy another cryptocurrency such as Bitcoin, Bitcoin Cash, or Litecoin and then exchange it to Monero in-app.
-    - [Monero.com](https://monero.com) is an associated website where you can buy Monero and other cryptocurrencies without having to download an app. The funds will simply be sent to the wallet address of your choice.
-- [RetoSwap](https://retoswap.com) (formerly known as Haveno-Reto) is a self-custody, decentralized P2P exchange platform based on the [Haveno](https://haveno.exchange) project which is available for Linux, Windows, and macOS. Monero can be bought and sold with maximum privacy, since most trading counterparties do not require KYC, trades are made directly between users (P2P), and all connections run through the Tor network. It is possible to buy Monero via bank transfer, PayPal, or even by paying in cash (meeting in person or sending by mail). Arbitrators can step in to resolve disputes between buyer and seller, but be careful when sharing your bank account or other sensitive information with your trading counterparty. Trading with some accounts may be against those accounts' terms of service.
+- [Kraken](https://kraken.com)：知名的 CEX。 必須註冊與 KYC。 接受卡片付款與銀行轉帳。 購買後，請確保不要將您剛購買的門羅幣留在 Kraken 的平台上，請將其提款到自行保管的錢包中。 門羅幣並非在所有 Kraken 營運的所有司法管轄區均可使用。[^1]
+- [Cake Wallet](https://cakewallet.com)：門羅幣與其他加密貨幣的自行保管跨平台錢包。 您可以直接在應用程式中使用卡片付款或銀行轉帳（透過 [Guardarian](https://guardarian.com) 或 [DFX](https://dfx.swiss) 等第三方供應商）購買門羅幣。[^2] 通常不需要 KYC，但這取決於您所在的國家與購買的金額。 在無法直接購買門羅幣的國家，您也可以使用 Cake Wallet 內的提供者先購買其他加密貨幣，例如比特幣、比特幣現金或萊特幣，然後在應用程式中將其兌換為門羅幣。
+    - [Monero.com](https://monero.com) 是一個合作網站，您可以在該網站購買門羅幣及其他加密貨幣，無需下載應用程式。 資金將直接傳送到您指定的錢包地址。
+- [RetoSwap](https://retoswap.com)（前身為 Haveno-Reto）是以 [Haveno](https://haveno.exchange) 專案為基礎開發的自行保管、去中心化 P2P 交換平台，適用於 Linux、Windows 與 macOS。 由於大多數交易對手不要求 KYC，交易直接在使用者之間進行 (P2P)，且所有連線都透過 Tor 網路處理，因此可以最大程度保障買賣門羅幣的隱私。 您可以透過銀行轉帳、PayPal，甚至是現金付款（親自會面或郵寄）的方式購買門羅幣。 仲裁人可介入解決買賣雙方之間的爭議，但與交易對手分享銀行帳號或其他敏感資訊時務必謹慎。 與某些帳號進行交易可能會違反這些帳號的服務條款。
 
 ## 標準
 
@@ -84,11 +84,11 @@ There are numerous centralized exchanges (CEX) as well as P2P marketplaces where
 - 預設情況下，加密貨幣必須提供私密/無法追蹤的交易。
 
 <div class="admonition tip" markdown>
-<p class="admonition-title">Important notices</p>
+<p class="admonition-title">重要聲明</p>
 
-The content here is not legal or financial advice. We do not endorse or encourage illicit activities, and we do not endorse or encourage anything which violates a company's terms of service. Check with a professional to confirm that these recommendations are legal and available in your jurisdiction. [See all notices](about/notices.md).
+此處的內容並非法律或財務建議。 我們不贊同或鼓勵非法活動，也不贊同或鼓勵任何違反公司服務條款的行為。 請向專業人員查詢，確認這些建議在您的司法管轄區是否合法和可用。 [檢視所有聲明](about/notices.md)。
 
 </div>
 
-[^1]: You may refer to the following pages for up-to-date information on countries in which Kraken does **not** allow the purchase of Monero: [Where is Kraken licensed or regulated?](https://support.kraken.com/hc/en-us/articles/where-is-kraken-licensed-or-regulated) and [Support for Monero (XMR) in Europe](https://support.kraken.com/hc/en-us/articles/support-for-monero-xmr-in-europe).
-[^2]: You may refer to the following pages for up-to-date information on countries in which Cake Wallet and Monero.com **only** allow the direct purchase of Monero (through third-party providers): [Which countries are served by DFX?](https://docs.dfx.swiss/en/faq.html#which-countries-are-served-by-dfx) and [What are the supported countries/regions? (Guardarian)](https://guardarian.freshdesk.com/support/solutions/articles/80001151826-what-are-the-supported-countries-regions).
+[^1]: 您可以參閱以下頁面，了解 Kraken **不**允許購買門羅幣的國家的最新資訊：[Kraken 在哪些地區獲得許可或受監管？](https://support.kraken.com/hc/en-us/articles/where-is-kraken-licensed-or-regulated)與[在歐洲對門羅幣 (XMR) 的支援](https://support.kraken.com/hc/en-us/articles/support-for-monero-xmr-in-europe)。
+[^2]: 您可以參閱以下頁面，了解 Cake Wallet 與 Monero.com **僅**允許直接購買門羅幣（透過第三方供應商）的國家的最新資訊：[DFX 在哪些國家提供服務？](https://docs.dfx.swiss/en/faq.html#which-countries-are-served-by-dfx)與[支援哪些國家/地區？](https://guardarian.freshdesk.com/support/solutions/articles/80001151826-what-are-the-supported-countries-regions) (Guardarian)</a>.
