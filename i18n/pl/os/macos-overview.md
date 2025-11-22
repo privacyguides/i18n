@@ -8,7 +8,7 @@ description: macOS is Apple's desktop operating system that works with their har
 
 Older Intel-based Macs and Hackintoshes do not support all the security features that macOS offers. To enhance data security, we recommend using a newer Mac with [Apple Silicon](https://support.apple.com/HT211814).
 
-## Privacy Notes
+## Uwagi dotyczące prywatności
 
 There are a few notable privacy concerns with macOS that you should consider. These pertain to the operating system itself, and not Apple's other apps and services.
 

@@ -6,7 +6,7 @@ description: iOS is a mobile operating system developed by Apple for the iPhone.
 
 **iOS** and **iPadOS** are proprietary mobile operating systems developed by Apple for their iPhone and iPad products, respectively. If you have an Apple mobile device, you can increase your privacy by disabling some built-in telemetry features, and hardening some privacy and security settings which are built in to the system.
 
-## Privacy Notes
+## Uwagi dotyczące prywatności
 
 iOS devices are frequently praised by security experts for their robust data protection and adherence to modern best practices. However, the restrictiveness of Apple's ecosystem—particularly with their mobile devices—does still hamper privacy in a number of ways.
 
