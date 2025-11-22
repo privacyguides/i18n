@@ -42,7 +42,7 @@ cover: cryptocurrency.webp
 使用 Monero ，外部觀察者無法破譯 Monero  交易地址、交易金額、地址餘額或交易歷史。
 
 <details class="info" markdown>
-<summary>Monero's resilience to mass surveillance</summary>
+<summary>門羅幣對大規模監控的抵抗力</summary>
 
 2021 年 8 月，CipherTrace [宣佈](https://web.archive.org/web/20240223224846/https://ciphertrace.com/enhanced-monero-tracing) 為政府機構提供更強的Monero 追蹤能力。 公開貼文顯示，美國財政部金融犯罪執法網路於 2022 年底 [授權](https://sam.gov/opp/d12cbe9afbb94ca68006d0f006d355ac/view) CipherTrace 的「Monero 模塊」。
 
@@ -52,7 +52,7 @@ Monero 是隱私友好的加密貨幣中最強大的競爭者，但它的隱私�
 
 </details>
 
-### Monero wallets
+### 門羅幣錢包
 
 For optimal privacy, make sure to use a self-custody wallet where the [view key](https://getmonero.org/resources/moneropedia/viewkey.html) stays on the device. 這意味著只有您能夠花費資金並查看交易進出。 If you use a custodial wallet, the provider can see **everything** you do; if you use a “lightweight” wallet where the provider retains your view key, the provider can see almost everything you do (but not spend your funds). Some self-custody wallets where the view key does not leave your device include:
 
