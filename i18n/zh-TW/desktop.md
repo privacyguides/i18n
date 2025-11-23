@@ -19,21 +19,21 @@ cover: desktop.webp
 
 <div class="admonition recommendation" markdown>
 
-![Fedora logo](assets/img/linux-desktop/fedora.svg){ align=right }
+![Fedora 標誌](assets/img/linux-desktop/fedora.svg){ align=right }
 
-**Fedora Linux** is our recommended desktop distribution for people new to Linux. Fedora 通常會比其他發行版先採用較新的技術 (例如 [Wayland](https://wayland.freedesktop.org) 和 [PipeWire](https://pipewire.org))。 這些新技術通常會在安全性、隱私性和可用性方面有所改善。
+**Fedora Linux** 是我們推薦給 Linux 新手的桌面散佈版。 Fedora 通常會比其他發行版先採用較新的技術 (例如 [Wayland](https://wayland.freedesktop.org) 和 [PipeWire](https://pipewire.org))。 這些新技術通常會在安全性、隱私性和可用性方面有所改善。
 
-[:octicons-home-16: Homepage](https://fedoraproject.org){ .md-button .md-button--primary }
-[:octicons-info-16:](https://docs.fedoraproject.org/en-US/docs){ .card-link title="Documentation" }
-[:octicons-heart-16:](https://whatcanidoforfedora.org){ .card-link title="Contribute" }
+[:octicons-home-16: 首頁](https://fedoraproject.org){ .md-button .md-button--primary }
+[:octicons-info-16:](https://docs.fedoraproject.org/en-US/docs){ .card-link title="文件" }
+[:octicons-heart-16:](https://whatcanidoforfedora.org){ .card-link title="貢獻" }
 
 </details>
 
 </div>
 
-Fedora comes in two primary desktop editions, [Fedora Workstation](https://fedoraproject.org/workstation), which uses the GNOME desktop environment, and [Fedora KDE Plasma Desktop](https://fedoraproject.org/kde), which uses KDE. Historically, Fedora Workstation has been more popular and widely recommended, but KDE has been gaining in popularity and provides an experience more similar to Windows, which may make transitioning to Linux easier for some. The security and privacy benefits of both editions are very similar, so it mostly comes down to personal preference.
+Fedora 主要有兩種桌面版本，一種是使用 GNOME 桌面環境的 [Fedora Workstation](https://fedoraproject.org/workstation)，一種是使用 KDE 的 [Fedora KDE Plasma 桌面](https://fedoraproject.org/kde)。 Fedora Workstation 歷來都較受歡迎廣獲推薦，但 KDE 也愈來愈受歡迎，並提供更接近 Windows 的操作體驗，這或許能讓部份使用者更容易跳槽到 Linux。 這兩個版本的安全性與隱私優點都非常相近，所以主要還是看個人喜好。
 
-Fedora 有一個半滾動的發布週期。 While some packages like the desktop environment are frozen until the next Fedora release, most packages (including the kernel) are updated frequently throughout the lifespan of the release. 每個 Fedora 版本支持一年，每6個月發布新版本。
+Fedora 有一個半滾動的發布週期。 雖然像桌面環境這類的軟體包在下一個 Fedora 版本釋出前會被凍結，但大多數軟體包（包含核心）在該版本的整個生命周其中都會頻繁更新。 每個 Fedora 版本支持一年，每6個月發布新版本。
 
 ### openSUSE Tumbleweed
 
@@ -45,9 +45,9 @@ Fedora 有一個半滾動的發布週期。 While some packages like the desktop
 
 openSUSE Tumbleweed 使用 [Btrfs](https://zh.wikipedia.org/wiki/Btrfs) 和 [Snapper](https://zh.opensuse.org/openSUSE:Snapper_Tutorial) 以確保一旦發生問題，快照可以回滾。
 
-[:octicons-home-16: Homepage](https://get.opensuse.org/tumbleweed){ .md-button .md-button--primary }
-[:octicons-info-16:](https://doc.opensuse.org){ .card-link title="Documentation" }
-[:octicons-heart-16:](https://shop.opensuse.org){ .card-link title="Contribute" }
+[:octicons-home-16: 首頁](https://get.opensuse.org/tumbleweed){ .md-button .md-button--primary }
+[:octicons-info-16:](https://doc.opensuse.org){ .card-link title="文件" }
+[:octicons-heart-16:](https://shop.opensuse.org){ .card-link title="貢獻" }
 
 </details>
 
@@ -63,9 +63,9 @@ Tumbleweed 遵循滾動發佈模式，每個更新都是快照發布。 當您�
 
 **Arch Linux** 是一個輕量級、自助式 (DIY) 的發行版，也就是說，您只會得到您所安裝的東西。 如需更多資訊，請參閱他們的 [FAQ](https://wiki.archlinux.org/title/Frequently_asked_questions)。
 
-[:octicons-home-16: Homepage](https://archlinux.org){ .md-button .md-button--primary }
-[:octicons-info-16:](https://wiki.archlinux.org){ .card-link title="Documentation" }
-[:octicons-heart-16:](https://archlinux.org/donate){ .card-link title="Contribute" }
+[:octicons-home-16: 首頁](https://archlinux.org){ .md-button .md-button--primary }
+[:octicons-info-16:](https://wiki.archlinux.org){ .card-link title="文件" }
+[:octicons-heart-16:](https://archlinux.org/donate){ .card-link title="貢獻" }
 
 </details>
 
@@ -89,9 +89,9 @@ Arch Linux有一個滾動發佈週期。 沒有固定的發布時間表，套件
 
 **Fedora Atomic Desktops** 是 Fedora 的變體，它使用「rpm-ostree」套件管理器，專注於容器化工作流程和桌面應用程式的 Flatpak。 這些變體版都遵循 Fedora Workstation 同樣的發佈時間表，受益於相同的快速更新並保持非常接近上遊。
 
-[:octicons-home-16: Homepage](https://fedoraproject.org/atomic-desktops){ .md-button .md-button--primary }
-[:octicons-info-16:](https://docs.fedoraproject.org/en-US/emerging){ .card-link title="Documentation" }
-[:octicons-heart-16:](https://whatcanidoforfedora.org){ .card-link title="Contribute" }
+[:octicons-home-16: 首頁](https://fedoraproject.org/atomic-desktops){ .md-button .md-button--primary }
+[:octicons-info-16:](https://docs.fedoraproject.org/en-US/emerging){ .card-link title="文件" }
+[:octicons-heart-16:](https://whatcanidoforfedora.org){ .card-link title="貢獻" }
 
 </details>
 
@@ -99,11 +99,11 @@ Arch Linux有一個滾動發佈週期。 沒有固定的發布時間表，套件
 
 [Fedora Atomic Desktops](https://fedoramagazine.org/introducing-fedora-atomic-desktops) 有多種風格，視您偏好的桌面環境而定。 就像我們在 Linux 發行版本的 [標準](#criteria) 中建議避免 X11 一樣，我們建議避免只支援傳統 X11 視窗系統的版本。
 
-These operating systems differ from Fedora Workstation as they replace the [DNF](https://docs.fedoraproject.org/en-US/quick-docs/dnf) package manager with a much more advanced alternative called [`rpm-ostree`](https://coreos.github.io/rpm-ostree). `rpm-ostree` 套件管理器的工作原理是下載系統的基本映像，然後將套件覆蓋在類似 [git](https://en.wikipedia.org/wiki/Git)的提交樹中。 當系統更新時，會下載新的基本影像，並將疊加層應用於該新影像。
+這些作業系統與 Fedora Workstation 的差異在於，它們以名為 [`rpm-ostree`](https://coreos.github.io/rpm-ostree) 的更先進替代方案取代了 [DNF](https://docs.fedoraproject.org/en-US/quick-docs/dnf) 套件管理程式。 `rpm-ostree` 套件管理器的工作原理是下載系統的基本映像，然後將套件覆蓋在類似 [git](https://en.wikipedia.org/wiki/Git)的提交樹中。 當系統更新時，會下載新的基本影像，並將疊加層應用於該新影像。
 
 更新完成後，您將重新啟動系統進入新的布署。 `rpm-ostree` 會保留系統的兩個布署，以便在新布署出現問題時，可以輕鬆地回退。 此外，還可根據需要釘選更多布署。
 
-[Flatpak](https://flatpak.org) is the primary package installation method on these distributions, as `rpm-ostree` is only meant to overlay packages that cannot stay inside a container on top of the base image.
+[Flatpak](https://flatpak.org) 是這些散佈版的主要軟體包安裝方式，而 `rpm-ostree` 只用在基礎映像檔上疊加那些無法留在容器的軟體包。
 
 作為 Flatpaks 的替代方案，您可以選擇 [Toolbx](https://docs.fedoraproject.org/en-US/fedora-silverblue/toolbox) 來建立 [Podman](https://podman.io) 容器，模仿傳統的 Fedora 環境，對於眼光獨到的開發人員而言，這是 [非常有用的功能](https://containertoolbx.org) 。 這些容器與主機作業系統共用一個主目錄。
 
@@ -115,9 +115,9 @@ These operating systems differ from Fedora Workstation as they replace the [DNF]
 
 NixOS 是基於 Nix套件管理器的獨立發行版，專注於可重複性和可靠性。
 
-[:octicons-home-16: Homepage](https://nixos.org){ .md-button .md-button--primary }
-[:octicons-info-16:](https://nixos.org/learn.html){ .card-link title="Documentation" }
-[:octicons-heart-16:](https://nixos.org/donate.html){ .card-link title="Contribute" }
+[:octicons-home-16: 首頁](https://nixos.org){ .md-button .md-button--primary }
+[:octicons-info-16:](https://nixos.org/learn.html){ .card-link title="文件" }
+[:octicons-heart-16:](https://nixos.org/donate.html){ .card-link title="貢獻" }
 
 </details>
 
@@ -125,7 +125,7 @@ NixOS 是基於 Nix套件管理器的獨立發行版，專注於可重複性和�
 
 NixOS’ 套件管理器 將各個套件版本儲存在 **Nix store** 底下不同的資料夾。 因此，您可以在系統上安裝相同套件的不同版本。 套件內容寫入資料夾後，該資料夾會變成唯讀。
 
-NixOS 也提供原子化更新。 它會先下載（或建立）新世代系統的套件和檔案，然後再切換到新系統。 There are different ways to switch to a new generation: you can tell NixOS to activate it after reboot, or you can switch to it at runtime. 也可以在運行時就切換到新世代系統來 *測試* ，但不將它設成當前系統。 如果更新過程中遭到打斷，可以重新啟動並自動返回到系統的工作版本。
+NixOS 也提供原子化更新。 它會先下載（或建立）新世代系統的套件和檔案，然後再切換到新系統。 切換到新世代有不同的方式：您可以告訴 NixOS 在重新開機後啟動新世代，或是在執行時就切換到新世代。 也可以在運行時就切換到新世代系統來 *測試* ，但不將它設成當前系統。 如果更新過程中遭到打斷，可以重新啟動並自動返回到系統的工作版本。
 
 Nix 套件管理員使用純函數式程式設計語言（稱為 Nix ）來定義套件。
 
@@ -143,10 +143,10 @@ Nix是一個基於源的套件管理器；如果二進位快取中沒有預先�
 
 **Whonix** 為基於 [Kicksecure](#kicksecure) 專注在安全的 Debian 分支系統。 其目的是在網際網路上提供隱私、安全性和 [:material-incognito: 匿名](basics/common-threats.md#anonymity-vs-privacy){ .pg-purple }。 Whonix 最好與 [Qubes OS](#qubes-os) 配合使用。
 
-[:octicons-home-16: Homepage](https://whonix.org){ .md-button .md-button--primary }
-[:simple-torbrowser:](http://dds6qkxpwdeubwucdiaord2xgbbeyds25rbsgr73tbfpqpt4a6vjwsyd.onion){ .card-link title="Onion Service" }
-[:octicons-info-16:](https://whonix.org/wiki/Documentation){ .card-link title="Documentation" }
-[:octicons-heart-16:](https://whonix.org/wiki/Donate){ .card-link title="Contribute" }
+[:octicons-home-16: 首頁](https://whonix.org){ .md-button .md-button--primary }
+[:simple-torbrowser:](http://dds6qkxpwdeubwucdiaord2xgbbeyds25rbsgr73tbfpqpt4a6vjwsyd.onion){ .card-link title="Onion 服務" }
+[:octicons-info-16:](https://whonix.org/wiki/Documentation){ .card-link title="文件" }
+[:octicons-heart-16:](https://whonix.org/wiki/Donate){ .card-link title="貢獻" }
 
 </details>
 
@@ -166,9 +166,9 @@ Whonix 最好 [與 Qubes 結合使用](https://whonix.org/wiki/Qubes/Why_use_Qub
 
 **Tails** 是一個基於Debian 的自生作業系統，通過 Tor 路由所有通訊，透過 DVD ， USB記憶棒或 SD卡安裝幾乎可在任何電腦上啟動。 它使用 [Tor](tor.md) 來維護 隱私 和 [:material-incognito: 匿名](basics/common-threats.md#anonymity-vs-privacy){ .pg-purple } ，同時規避審查，而且在關閉電源後，它不會在使用的電腦上留下任何痕跡。
 
-[:octicons-home-16: Homepage](https://tails.net){ .md-button .md-button--primary }
-[:octicons-info-16:](https://tails.net/doc/index.en.html){ .card-link title="Documentation" }
-[:octicons-heart-16:](https://tails.net/donate){ .card-link title="Contribute" }
+[:octicons-home-16: 首頁](https://tails.net){ .md-button .md-button--primary }
+[:octicons-info-16:](https://tails.net/doc/index.en.html){ .card-link title="文件" }
+[:octicons-heart-16:](https://tails.net/donate){ .card-link title="貢獻" }
 
 </details>
 
@@ -201,12 +201,12 @@ Tails Tor 瀏覽器預設包含 [uBlock Origin](browser-extensions.md#ublock-ori
 
 **Qubes OS** 是開源作業系統，利用安全的虛擬器為桌面運算提供更強的安全性 (或稱"qubes"). Qubes 基於 Xen, X Window 系統與 Linux。 大多數 Linux 應用它都可以執行且適用 Linux 驅動。
 
-[:octicons-home-16: Homepage](https://qubes-os.org){ .md-button .md-button--primary }
-[:simple-torbrowser:](http://qubesosfasa4zl44o4tws22di6kepyzfeqv3tg4e3ztknltfxqrymdad.onion){ .card-link title="Onion Service" }
-[:octicons-eye-16:](https://qubes-os.org/privacy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://qubes-os.org/doc){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/QubesOS){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://qubes-os.org/donate){ .card-link title="Contribute" }
+[:octicons-home-16: 首頁](https://qubes-os.org){ .md-button .md-button--primary }
+[:simple-torbrowser:](http://qubesosfasa4zl44o4tws22di6kepyzfeqv3tg4e3ztknltfxqrymdad.onion){ .card-link title="Onion 服務" }
+[:octicons-eye-16:](https://qubes-os.org/privacy){ .card-link title="隱私權政策" }
+[:octicons-info-16:](https://qubes-os.org/doc){ .card-link title="文件" }
+[:octicons-code-16:](https://github.com/QubesOS){ .card-link title="原始碼" }
+[:octicons-heart-16:](https://qubes-os.org/donate){ .card-link title="貢獻" }
 
 </details>
 
@@ -220,20 +220,20 @@ Qubes OS 作業系統將子系統（例如網路、USB等）和應用程式隔�
 
 <div class="admonition recommendation" markdown>
 
-![Secureblue logo](assets/img/linux-desktop/secureblue.svg){ align=right }
+![Secureblue 標誌](assets/img/linux-desktop/secureblue.svg){ align=right }
 
-**Secureblue** is a security-focused operating system based on [Fedora Atomic Desktops](#fedora-atomic-desktops). It includes a number of [security features](https://secureblue.dev/features) intended to proactively defend against the exploitation of both known and unknown vulnerabilities, and ships with [Trivalent](https://github.com/secureblue/Trivalent), their hardened, Chromium-based web browser.
+**Secureblue** 是以 [Fedora Atomic Desktops](#fedora-atomic-desktops) 為基礎開發的安全作業系統。 其包含了許多[安全功能](https://secureblue.dev/features)，旨在主動防禦已知與未知漏洞的利用，並隨附 [Trivalent](https://github.com/secureblue/Trivalent)，這是以 Chromium 為基礎開發的安全強化版網路瀏覽器。
 
-[:octicons-home-16: Homepage](https://secureblue.dev){ .md-button .md-button--primary }
-[:octicons-info-16:](https://secureblue.dev/install){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/secureblue/secureblue){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://secureblue.dev/donate){ .card-link title="Contribute" }
+[:octicons-home-16: 首頁](https://secureblue.dev){ .md-button .md-button--primary }
+[:octicons-info-16:](https://secureblue.dev/install){ .card-link title="文件" }
+[:octicons-code-16:](https://github.com/secureblue/secureblue){ .card-link title="原始碼" }
+[:octicons-heart-16:](https://secureblue.dev/donate){ .card-link title="貢獻" }
 
 </div>
 
-**Trivalent** is Secureblue's hardened Chromium for desktop Linux inspired by [GrapheneOS](android/distributions.md#grapheneos)'s Vanadium browser.
+**Trivalent** 是 Secureblue 受 [GrapheneOS](android/distributions.md#grapheneos) 的 Vanadium 瀏覽器啟發而為桌面 Linux 所設計的安全強化版 Chromium。
 
-Secureblue also provides GrapheneOS's [hardened memory allocator](https://github.com/GrapheneOS/hardened_malloc) and enables it globally (including for Flatpaks).
+Secureblue 也提供了 GrapheneOS 的[安全強化記憶體分配程式](https://github.com/GrapheneOS/hardened_malloc)，並全域啟用（包含 Flatpak）。
 
 ### Kicksecure
 
@@ -245,11 +245,11 @@ Secureblue also provides GrapheneOS's [hardened memory allocator](https://github
 
 **Kicksecure** ──如要簡單的介紹它：可以說是一組腳本、配置與套件的組合；可大幅減少 Debian 的攻擊面。 它預設涵蓋了大量隱私和加固建議。 它也是 [Whonix](#whonix) 的基礎作業系統。
 
-[:octicons-home-16: Homepage](https://kicksecure.com){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://kicksecure.com/wiki/Privacy_Policy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://kicksecure.com/wiki/Documentation){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/Kicksecure){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://kicksecure.com/wiki/Donate){ .card-link title="Contribute" }
+[:octicons-home-16: 首頁](https://kicksecure.com){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://kicksecure.com/wiki/Privacy_Policy){ .card-link title="隱私權政策" }
+[:octicons-info-16:](https://kicksecure.com/wiki/Documentation){ .card-link title="文件" }
+[:octicons-code-16:](https://github.com/Kicksecure){ .card-link title="原始碼" }
+[:octicons-heart-16:](https://kicksecure.com/wiki/Donate){ .card-link title="貢獻" }
 
 </details>
 
@@ -272,4 +272,4 @@ Secureblue also provides GrapheneOS's [hardened memory allocator](https://github
 
 此外，[我們推薦專案的一般準則](about/criteria.md) 仍然適用。 **請注意，我們與推薦的任何項目均無關。**
 
-[^1]: Reproducibility entails the ability to verify that packages and binaries made available to the end user match the source code, which can be useful against potential [:material-package-variant-closed-remove: Supply Chain Attacks](basics/common-threats.md#attacks-against-certain-organizations ""){.pg-viridian}.
+[^1]: 可重現性意味著能夠驗證提供給終端使用者的套件與二進位檔是否與原始碼相符，此特性對於防範潛在的[:material-package-variant-closed-remove: 供應鏈攻擊](basics/common-threats.md#attacks-against-certain-organizations ""){.pg-viridian}非常有用。
