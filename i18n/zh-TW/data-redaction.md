@@ -15,7 +15,7 @@ cover: data-redaction.webp
 <div class="admonition warning" markdown>
 <p class="admonition-title">警告</p>
 
-您 **永遠不應** 透過模糊文字的方式來遮蓋 [圖片中的文字](https://bishopfox.com/blog/unredacter-tool-never-pixelation)。 If you want to redact text in an image, you should draw a box over the text.
+您 **永遠不應** 透過模糊文字的方式來遮蓋 [圖片中的文字](https://bishopfox.com/blog/unredacter-tool-never-pixelation)。 若要遮蔽圖片中的文字，請在文字上繪製方框。
 
 </div>
 
@@ -23,21 +23,21 @@ cover: data-redaction.webp
 
 <div class="admonition recommendation" markdown>
 
-![MAT2 logo](assets/img/data-redaction/mat2.svg){ align=right }
+![MAT2 標誌](assets/img/data-redaction/mat2.svg){ align=right }
 
-**MAT2** is free, cross-platform software which allows you to remove metadata from image, audio, torrent, and document file types. It provides both a command line tool and a graphical user interface via an extension for [Dolphin](https://github.com/jvoisin/mat2/tree/master/dolphin), the default file manager of [KDE](https://kde.org).
+**MAT2** 是自由的跨平台軟體，可以移除影像、音訊、torrent 與文件檔案類型的中介資料。 其同時提供了命令列工具與圖形化使用者介面，並透過擴充套件整合至 [Dolphin](https://github.com/jvoisin/mat2/tree/master/dolphin)（[KDE](https://kde.org) 預設的檔案管理程式）。
 
-[:octicons-repo-16: Repository](https://github.com/jvoisin/mat2#readme){ .md-button .md-button--primary }
-[:octicons-info-16:](https://github.com/jvoisin/mat2#how-to-use-mat2){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/jvoisin/mat2){ .card-link title="Source Code" }
+[:octicons-repo-16: 軟體倉庫](https://github.com/jvoisin/mat2#readme){ .md-button .md-button--primary }
+[:octicons-info-16:](https://github.com/jvoisin/mat2#how-to-use-mat2){ .card-link title="文件" }
+[:octicons-code-16:](https://github.com/jvoisin/mat2){ .card-link title="原始碼" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>下載</summary>
 
 - [:fontawesome-brands-windows: Windows](https://pypi.org/project/mat2)
 - [:simple-apple: macOS](https://github.com/jvoisin/mat2#requirements-setup-on-macos-os-x-using-homebrew)
 - [:simple-linux: Linux](https://pypi.org/project/mat2)
-- [:octicons-browser-16: Web](https://github.com/jvoisin/mat2#web-interface)
+- [:octicons-browser-16: 網頁](https://github.com/jvoisin/mat2#web-interface)
 
 </details>
 
@@ -51,11 +51,11 @@ cover: data-redaction.webp
 
 **ExifEraser** 是 Android 的現代無需許可的圖像中繼資料擦除應用程式。
 
-It currently supports JPEG, PNG, and WebP files.
+其目前支援 JPEG、PNG 與 WebP 檔案。
 
-[:octicons-repo-16: Repository](https://github.com/Tommy-Geenexus/exif-eraser#readme){ .md-button .md-button--primary }
-[:octicons-info-16:](https://github.com/Tommy-Geenexus/exif-eraser#description){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/Tommy-Geenexus/exif-eraser){ .card-link title="Source Code" }
+[:octicons-repo-16: 軟體倉庫](https://github.com/Tommy-Geenexus/exif-eraser#readme){ .md-button .md-button--primary }
+[:octicons-info-16:](https://github.com/Tommy-Geenexus/exif-eraser#description){ .card-link title="文件" }
+[:octicons-code-16:](https://github.com/Tommy-Geenexus/exif-eraser){ .card-link title="原始碼" }
 
 <details class="downloads" markdown>
 <summary>下載</summary>
@@ -84,30 +84,30 @@ It currently supports JPEG, PNG, and WebP files.
 - 在分割視窗模式下，它可以從另一個應用程式拖放圖片到 ExifEraser 。
 - 最後，它允許您從剪貼板黏貼圖像。
 
-## Shortcuts (iOS & macOS)
+## 捷徑（iOS 與 macOS）
 
-On iOS and macOS, you can remove image metadata without using any third-party apps by creating a [**shortcut**](https://apps.apple.com/app/id915249334) for this purpose. Here is an example shortcut you can download to use as is:
+在 iOS 與 macOS 上，您可以透過建立[**捷徑**](https://apps.apple.com/app/id915249334)來移除影像的中介資料。 以下是一個可直接下載使用的捷徑範例：
 
-[:material-tag-minus: Clean Image Metadata](https://icloud.com/shortcuts/fb774ddb7b5b4296871776c67ac0fff9 ""){.md-button}
+[:material-tag-minus: 清理影像中介資料](https://icloud.com/shortcuts/fb774ddb7b5b4296871776c67ac0fff9 ""){.md-button}
 
-You can also use it as a model for your own shortcut; just make sure that the **Preserve Metadata** option under the **Convert** action is unchecked. Once added, you can access the shortcut in the share sheet that appears when you select the :octicons-share-24: Share button. You can select multiple images and invoke the shortcut to remove their metadata all at once.
+您也可以使用它作為自己捷徑的範本，只要確定不要勾選**轉換**動作下的**保留中介資料**選項即可。 新增後，您可以在選取 :octicons-share-24: 分享按鈕時出現的分享頁面中存取捷徑。 您可以選取多個影像，然後呼叫捷徑一次移除它們的中介資料。
 
-This shortcut removes metadata such as location, device model, lens model, and other camera information. It also sets the image creation date to the time the shortcut was used.
+此捷徑可移除位置、裝置型號、鏡頭型號與其他相機資訊等中介資料。 它也會將影像建立日期設定為使用捷徑的時間。
 
 ## ExifTool (CLI)
 
 <div class="admonition recommendation" markdown>
 
-![ExifTool logo](assets/img/data-redaction/exiftool.png){ align=right }
+![ExifTool 標誌](assets/img/data-redaction/exiftool.png){ align=right }
 
-**ExifTool** is the original Perl library and command-line application for reading, writing, and editing meta information (Exif, IPTC, XMP, and more) in a wide variety of file formats (JPEG, TIFF, PNG, PDF, RAW, and more).
+**ExifTool** 是原始的 Perl 函式庫與命令列應用程式，用來讀取、寫入與編輯各種檔案格式（JPEG、TIFF、PNG、PDF、RAW 等等）的中介資料（Exif、IPTC、XMP 等等）。
 
-It is often a component of other Exif removal applications and in most Linux distribution repositories.
+其通常是其他 Exif 移除應用程式的元件，大多數的 Linux 散佈版軟體庫中也有收錄。
 
-[:octicons-home-16: Homepage](https://exiftool.org){ .md-button .md-button--primary }
-[:octicons-info-16:](https://exiftool.org/faq.html){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/exiftool/exiftool){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://exiftool.org/#donate){ .card-link title="Contribute" }
+[:octicons-home-16: 首頁](https://exiftool.org){ .md-button .md-button--primary }
+[:octicons-info-16:](https://exiftool.org/faq.html){ .card-link title="文件" }
+[:octicons-code-16:](https://github.com/exiftool/exiftool){ .card-link title="原始碼" }
+[:octicons-heart-16:](https://exiftool.org/#donate){ .card-link title="貢獻" }
 
 <details class="downloads" markdown>
 <summary>下載</summary>

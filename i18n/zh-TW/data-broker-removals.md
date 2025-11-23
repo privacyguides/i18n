@@ -28,20 +28,20 @@ cover: data-broker-removals.webp
 
 您應該先在這些網站上搜尋您的資訊，如果找到您的資訊，請提交退出請求。 從這些仲介移除您的資料，通常會同時從許多小型網站移除您的資料。
 
-- Advanced Background Checks ([Search](https://advancedbackgroundchecks.com), [Opt-Out](https://advancedbackgroundchecks.com/removal))
-- BeenVerified ([Search](https://beenverified.com/app/optout/search), [Opt-Out](https://beenverified.com/app/optout/address-search))
+- Advanced Background Checks（[搜尋](https://advancedbackgroundchecks.com)、[退出](https://advancedbackgroundchecks.com/removal)）
+- BeenVerified（[搜尋](https://beenverified.com/app/optout/search)、 [退出](https://beenverified.com/app/optout/address-search)）
 - CheckPeople（ [搜尋](https://checkpeople.com/do-not-sell-info) ，發現資料後選擇 _Remove Record_ 即可）
-- ClustrMaps ([Search](https://clustrmaps.com), [Opt-Out](https://clustrmaps.com/bl/opt-out))
-- Dataveria ([Search](https://dataveria.com), [Opt-Out](https://dataveria.com/ng/control/privacy))
-- InfoTracer ([Search](https://infotracer.com), [Opt-Out](https://infotracer.com/optout))
-- Intelius ([Search](https://intelius.com), [Opt-Out](https://suppression.peopleconnect.us/login))
-- PeekYou ([Search](https://peekyou.com), [Opt-Out](https://peekyou.com/about/contact/ccpa_optout/do_not_sell))
-- PublicDataUSA ([Search](https://publicdatausa.com), [Opt-Out](https://publicdatausa.com/remove.php))
-- Radaris ([Search](https://radaris.com), [Opt-Out](https://radaris.com/page/how-to-remove))
-- Spokeo ([Search](https://spokeo.com/search), [Opt-Out](https://spokeo.com/optout))
-- That's Them ([Search](https://thatsthem.com), [Opt-Out](https://thatsthem.com/optout))
-- USPhonebook ([Search and Opt-Out](https://usphonebook.com/opt-out))
-- Whitepages ([Search](https://whitepages.com), [Opt-Out](https://whitepages.com/suppression_requests))
+- ClustrMaps（[搜尋](https://clustrmaps.com)、 [退出](https://clustrmaps.com/bl/opt-out)）
+- Dataveria（[搜尋](https://dataveria.com)、[退出](https://dataveria.com/ng/control/privacy)）
+- InfoTracer（[搜尋](https://infotracer.com)、[退出](https://infotracer.com/optout)）
+- Intelius（[搜尋](https://intelius.com)、[退出](https://suppression.peopleconnect.us/login)）
+- PeekYou（[搜尋](https://peekyou.com)、[退出](https://peekyou.com/about/contact/ccpa_optout/do_not_sell)）
+- PublicDataUSA（[搜尋](https://publicdatausa.com)、[退出](https://publicdatausa.com/remove.php)）
+- Radaris（[搜尋](https://radaris.com)、[退出](https://radaris.com/page/how-to-remove)）
+- Spokeo（[搜尋](https://spokeo.com/search)、[退出](https://spokeo.com/optout)）
+- That's Them（[搜尋](https://thatsthem.com)、[退出](https://thatsthem.com/optout)）
+- USPhonebook（[搜尋並退出](https://usphonebook.com/opt-out)）
+- Whitepages（[搜尋](https://whitepages.com)、[退出](https://whitepages.com/suppression_requests)）
 
 <div class="admonition tip" markdown>
 <p class="admonition-title">對於 退出策略 的 提示</p>
@@ -56,11 +56,11 @@ cover: data-broker-removals.webp
 
 在您第一次向所有資料仲介商送出退出請求後，最好等待一到兩個星期，讓他們下轄的所有網站都收到您的請求。 然後，您就可以開始搜尋並退出您找到的任何剩餘網站。 使用像 [Google 的 _與你相關的結果_](#google-results-about-you-free) 這樣的網路爬蟲工具來協助尋找網際網路上殘留的任何資料，可能是個好主意。
 
-除此之外，隱私權記者 Yael Grauer 編製了一個極佳的資料仲介網站清單，並附有直接連結至其搜尋工具和拒絕服務網頁的連結。 You can take some time to go through each site to determine whether they have your information, and remove it:
+除此之外，隱私權記者 Yael Grauer 編製了一個極佳的資料仲介網站清單，並附有直接連結至其搜尋工具和拒絕服務網頁的連結。 您可以花點時間瀏覽每個網站，確認它們是否有您的資訊，然後將其移除：
 
 [:simple-github: Big Ass Data Broker Opt-Out List](https://github.com/yaelwrites/Big-Ass-Data-Broker-Opt-Out-List){ .md-button }
 
-如果您沒有使用自動掃描器來尋找關於您的結果，請考慮設定提醒，每 3、6 或 12 個月重新執行此程序，視您的風險等級和您在外的個人資料數量而定。 Unfortunately, it is common for your data to re-appear over time or show up on brand-new people search sites even after you opt out.
+如果您沒有使用自動掃描器來尋找關於您的結果，請考慮設定提醒，每 3、6 或 12 個月重新執行此程序，視您的風險等級和您在外的個人資料數量而定。 遺憾的是，即使您選擇退出，您的資料仍可能隨時間重新出現，或出現在全新的人際關係搜尋網站上。
 
 ## EasyOptOuts <small>需付費</small>
 
@@ -77,15 +77,15 @@ cover: data-broker-removals.webp
 
 EasyOptOuts 支援的某些網站可公開搜尋。 在這些情況下，EasyOptOuts 會執行搜尋，只有在已找到您的個人資料時，才會提交退出請求，以避免在退出請求中，將您的資料傳送至尚未擁有您個人資料的網站。 不過，他們確實支援一些無法公開搜尋的網站，在這些情況下，您的資料會以退出請求的方式傳送給他們，無論如何，以防您在他們的私人資料庫中。
 
-Our [testing](https://www.privacyguides.org/articles/2025/02/03/easyoptouts-review) indicates that EasyOptOuts provides the best value out of any data removal service we've tested, with a very affordable price and high effectiveness. Independent [findings from Consumer Reports](https://discuss.privacyguides.net/t/consumer-reports-evaluating-people-search-site-removal-services/19948) also indicate that EasyOptOuts is one of the top performing data removal services.
+我們的[測試](https://www.privacyguides.org/articles/2025/02/03/easyoptouts-review)顯示，在我們測試過的所有資料移除服務中，EasyOptOuts 提供的服務最有價值，價格非常實惠，且效率很好。 [《消費者報告》的獨立調查結果](https://discuss.privacyguides.net/t/consumer-reports-evaluating-people-search-site-removal-services/19948)也顯示 EasyOptOuts 是最佳的資料移除服務。
 
 <div class="admonition failure" markdown>
 <p class="admonition-title">EasyOptOuts 不支援的高優先級網站</p>
 
 EasyOptOuts 並不涵蓋下列我們認為「高度優先」的網站，因此您仍需手動選擇退出：
 
-- Intelius ([Search](https://intelius.com), [Opt-Out](https://suppression.peopleconnect.us/login))
-- PeekYou ([Search](https://peekyou.com), [Opt-Out](https://peekyou.com/about/contact/ccpa_optout/do_not_sell))
+- Intelius（[搜尋](https://intelius.com)、[退出](https://suppression.peopleconnect.us/login)）
+- PeekYou（[搜尋](https://peekyou.com)、[退出](https://peekyou.com/about/contact/ccpa_optout/do_not_sell)）
 
 </div>
 
@@ -125,8 +125,8 @@ EasyOptOuts 並不涵蓋下列我們認為「高度優先」的網站，因此�
 
 我們對移除服務的挑選主要是基於第三方的獨立專業測試（如上文所述）、我們自己的內部測試，以及我們社群的彙總評論。
 
-- Must not be a white labeled service or reseller of another provider.
+- 不能是其他供應商的白標服務或經銷商。
 - 不得隸屬於資料仲介商或在人員搜尋網站上投放廣告。
 - 必須僅將您的個人資料用於使您退出您選擇的資料仲介商資料庫和人員搜尋網站。
 
-[^1]: 如果您 _遭遇_ 騷擾者騷擾或其他需要立即處理的威脅，您絕對需要考慮使用 [EasyOptOuts](#easyoptouts-paid) 之類的自動化工具，至少在首次 「清除」 時應當如此。 當未來事情變得更容易處理時，您可以回到手動的流程。 Of course, in a dangerous situation your first priority should always be to seek professional help [from police](https://onlineharassmentfieldmanual.pen.org/involving-law-enforcement) or others before tackling it on your own.
+[^1]: 如果您 _遭遇_ 騷擾者騷擾或其他需要立即處理的威脅，您絕對需要考慮使用 [EasyOptOuts](#easyoptouts-paid) 之類的自動化工具，至少在首次 「清除」 時應當如此。 當未來事情變得更容易處理時，您可以回到手動的流程。 當然，在最危險的情況下，您的首要任務應當是先尋求[警方](https://onlineharassmentfieldmanual.pen.org/involving-law-enforcement)或其他人的專業協助，然後才考慮自行解決問題。
