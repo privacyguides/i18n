@@ -5,7 +5,7 @@ description: Android ist ein Open-Source-Betriebssystem mit starken Sicherheitsv
 robots: nofollow, max-snippet:-1, max-image-preview:large
 ---
 
-![Android logo](../assets/img/android/android.svg){ align=right }
+![Android Logo](../assets/img/android/android.svg){ align=right }
 
 Das **Android Open-Source Project** ist ein sicheres mobiles Betriebssystem mit starkem [App-Sandboxing](https://source.android.com/security/app-sandbox), [Verified Boot](https://source.android.com/security/verifiedboot) (AVB) und einem robusten [Berechtigungskontrollsystem](https://developer.android.com/guide/topics/permissions/overview).
 
@@ -27,9 +27,9 @@ Android 10 und höher hat sich von der Festplattenverschlüsselung hin zu einer 
 
 Verified Boot stellt die Integrität der Betriebssystemdateien sicher und verhindert so, dass ein Angreifer mit physischem Zugriff das Gerät manipulieren oder Malware installieren kann. Für den unwahrscheinlichen Fall, dass Malware in der Lage ist, andere Teile des Systems auszunutzen und höhere Privilegien zu erlangen, verhindert Verified Boot Änderungen an der Systempartition und macht sie beim Neustart des Geräts rückgängig.
 
-Leider sind die OEMs nur verpflichtet, Verified Boot auf ihrer Android-Distribution zu unterstützen. Nur wenige OEMs wie Google unterstützen die benutzerdefinierte AVB-Schlüsselregistrierung auf ihren Geräten. Außerdem unterstützen einige AOSP-Derivate wie LineageOS oder /e/ OS Verified Boot nicht, selbst auf Hardware mit Verified Boot-Unterstützung für Betriebssysteme von Drittanbietern. We recommend that you check for support **before** purchasing a new device. AOSP derivatives which do not support Verified Boot are **not** recommended.
+Leider sind die OEMs nur verpflichtet, Verified Boot auf ihrer Android-Distribution zu unterstützen. Nur wenige OEMs wie Google unterstützen die benutzerdefinierte AVB-Schlüsselregistrierung auf ihren Geräten. Außerdem unterstützen einige AOSP-Derivate wie LineageOS oder /e/ OS Verified Boot nicht, selbst auf Hardware mit Verified Boot-Unterstützung für Betriebssysteme von Drittanbietern. Wir empfehlen, dass du für Unterstützung checkst **bevor** du ein neues Gerät kaufst. AOSP Ableitungen, welche nicht den Verifizierten Boot unterstützen, werden **nicht** empfohlen.
 
-Many OEMs also have broken implementation of Verified Boot that you have to be aware of beyond their marketing. For example, the Fairphone 3 and 4 are not secure by default, as the [stock bootloader trusts the public AVB signing key](https://forum.fairphone.com/t/bootloader-avb-keys-used-in-roms-for-fairphone-3-4/83448/11). This breaks verified boot on a stock Fairphone device, as the system will boot alternative Android operating systems (such as /e/) [without any warning](https://source.android.com/security/verifiedboot/boot-flow#locked-devices-with-custom-root-of-trust) about custom operating system usage.
+Viele Erstausrüster (OEM) haben auch eine kaputte Implementierung vom Verifizierten Boot, welche du dir bewusst sein sollten neben entsprechendem Marketing. Zum Beispiel sind das Fairphone 3 und 4 Standardmäßig nicht sehr sicher [der Standard Bootloader vertraut dem öffentlichen AVB Schlüssel](https://forum.fairphone.com/t/bootloader-avb-keys-used-in-roms-for-fairphone-3-4/83448/11). Das bricht den Verifizierten Boot auf einem Standard Fairphone Gerät da, dass System auch alternative Android Betriebssysteme (wie /e/)[lädt ohne Warnung](https://source.android.com/security/verifiedboot/boot-flow#locked-devices-with-custom-root-of-trust) über modifizrte Betriebssystem Nutzung.
 
 ### Firmware-Updates
 
