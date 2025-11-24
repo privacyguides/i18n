@@ -28,7 +28,7 @@ robots: nofollow, max-snippet:-1, max-image-preview:large
 如果以下任何工具表明可能有 Pegasus、Predator 或 KingsPawn 等間諜軟體危害，建議聯絡：
 
 - 人權捍衛者、記者或來自民間團體：[國際特赦組織安全實驗室](https://securitylab.amnesty.org/contact-us)
-- If a business or government device is compromised: the appropriate security liaison at your enterprise, department, or agency
+- 若企業或政府裝置遭入侵：請聯絡貴企業、部門或機構的相關資安聯絡窗口
 - 本地執法單位
 
 **除此之外，我們無法直接為您提供幫助。** 我們很樂意在我們的[社區](https://discuss.privacyguides.net)空間中討論您的具體情況或情況並檢查結果，但不太可能提供本頁所述之外的協助。
@@ -69,8 +69,8 @@ robots: nofollow, max-snippet:-1, max-image-preview:large
 
 <div class="admonition recommendation" markdown>
 
-![MVT logo](assets/img/device-integrity/mvt.webp#only-light){ align=right }
-![MVT logo](assets/img/device-integrity/mvt-dark.png#only-dark){ align=right }
+![MVT 圖示](assets/img/device-integrity/mvt.webp#only-light){ align=right }
+![MVT 圖示](assets/img/device-integrity/mvt-dark.png#only-dark){ align=right }
 
 **Mobile Verification Toolkit** (**MVT**) 是一組實用程式，可簡化和自動化掃描行動裝置的過程，尋找已知間諜軟體活動的潛在目標或感染痕跡。 MVT 由國際特赦組織開發，於 2021 年在 [飛馬計畫（Pegasus Project）](https://forbiddenstories.org/about-the-pegasus-project/) 的背景下發布。
 
@@ -78,7 +78,7 @@ robots: nofollow, max-snippet:-1, max-image-preview:large
 [:octicons-code-16:](https://github.com/mvt-project/mvt){ .card-link title="原始碼" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>下載</summary>
 
 - [:simple-apple: macOS](https://docs.mvt.re/en/latest/install)
 - [:simple-linux: Linux](https://docs.mvt.re/en/latest/install)
@@ -122,7 +122,7 @@ MVT 對掃描 iOS 裝置「最」有用。 Android 儲存的診斷資訊非常�
 [:octicons-info-16:](https://imazing.com/spyware-analyzer){ .card-link title=說明文件}
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>下載</summary>
 
 - [:fontawesome-brands-windows: Windows](https://imazing.com/download)
 - [:simple-apple: macOS](https://imazing.com/download)
@@ -131,7 +131,7 @@ MVT 對掃描 iOS 裝置「最」有用。 Android 儲存的診斷資訊非常�
 
 </div>
 
-iMazing 會自動並以互動方式引導完成使用 [MVT](#mobile-verification-toolkit) 掃描裝置，尋找由各種威脅研究人員發布的可公開存取的入侵指標。 All the information and warnings which apply to MVT apply to this tool as well, so we suggest you also familiarize yourself with the notes on MVT in the sections above.
+iMazing 會自動並以互動方式引導完成使用 [MVT](#mobile-verification-toolkit) 掃描裝置，尋找由各種威脅研究人員發布的可公開存取的入侵指標。 所有適用於 MVT 的資訊與警告同樣適用於此工具，因此我們建議您也熟悉上述各節中關於 MVT 的注意事項。
 
 ## 裝置驗證
 
@@ -165,7 +165,7 @@ iMazing 會自動並以互動方式引導完成使用 [MVT](#mobile-verification
 [:octicons-heart-16:](https://attestation.app/donate){ .card-link title=捐款 }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>下載</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=app.attestation.auditor.play)
 - [:simple-github: GitHub](https://github.com/GrapheneOS/Auditor/releases)
