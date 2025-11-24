@@ -1,7 +1,7 @@
 ---
 title: DNS解析器
 icon: material/dns
-description: We recommend choosing these encrypted DNS providers to replace your ISP's default configuration.
+description: 我們建議選擇這些加密的 DNS 供應商來取代 ISP 的預設設定。
 cover: dns.webp
 global:
   - 

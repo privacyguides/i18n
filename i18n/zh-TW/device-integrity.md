@@ -189,4 +189,4 @@ Auditor 使用 **兩個** 設備執行證明和入侵檢測，即一個 _被驗�
 
 沒有個人識別資料被提交給證明服務。 建議使用匿名帳戶註冊，並啟用遠程認證，以進行持續監控。
 
-If your [threat model](basics/threat-modeling.md) requires hiding your IP address from the attestation service, you could consider using [Orbot](alternative-networks.md#orbot) or a [VPN](vpn.md).
+若您的[威脅模型](basics/threat-modeling.md)需要對驗證服務隱藏您的 IP，您可以考慮使用 [Orbot](alternative-networks.md#orbot) 或 [VPN](vpn.md)。
