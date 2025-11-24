@@ -56,7 +56,7 @@ Man sollte Privatsphäre nicht mit Geheimhaltung verwechseln. Wir wissen, was au
 
 > Zuerst musst du einen Plan erstellen
 
-Der Versuch, alle deine Daten ständig vor allen zu schützen ist unpraktisch, teuer und anstrengend. Aber keine Sorge! Sicherheit ist ein Prozess, und durch vorausschauendes Denken, kannst du einen Plan erstellen, der für dich geeignet ist. Sicherheit dreht sich nicht nur um die *Privatsphäre-Tools*, die du verwendest, oder die Software, die du herunterlädst. Vielmehr geht es darum, die einzigartigen Bedrohungen zu verstehen, mit denen du konfrontiert bist, und herauszufinden, wie diese entschärft werden können.
+Der Versuch, alle deine Daten ständig vor allen zu schützen ist unpraktisch, teuer und anstrengend. Aber keine Sorge! Sicherheit ist ein Prozess und durch vorausschauendes Denken kannst du einen für dich geeigneten Plan erstellen. Sicherheit dreht sich nicht nur um die *Privatsphäre-Tools*, die du verwendest, oder die Software, die du herunterlädst. Vielmehr geht es darum, die einzigartigen Bedrohungen zu verstehen, mit denen du konfrontiert bist, und herauszufinden, wie diese entschärft werden können.
 
 == Dieser Prozess der Identifizierung von Bedrohungen und der Festlegung von Gegenmaßnahmen wird als **Bedrohungsmodellierung** bezeichnet== und bildet die Grundlage für jeden guten Sicherheits- und Datenschutzplan.
 
