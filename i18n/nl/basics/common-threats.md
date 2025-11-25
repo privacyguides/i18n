@@ -4,12 +4,12 @@ icon: 'material/eye-outline'
 description: Jouw dreigingsmodel is persoonlijk voor je, maar dit zijn enkele van de dingen die veel bezoekers van deze site belangrijk vinden.
 ---
 
-In grote lijnen delen wij onze aanbevelingen in in deze algemene categorieën van [bedreigingen](threat-modeling.md) of doelstellingen die voor de meeste mensen gelden. ==Je kunt je bezighouden met geen, een, enkele, of al deze mogelijkheden==, en de instrumenten en diensten die je gebruikt hangen af van wat jouw doelstellingen zijn. You may have specific threats outside these categories as well, which is perfectly fine! Het belangrijkste is dat je inzicht krijgt in de voordelen en tekortkomingen van de middelen die je gebruikt, want vrijwel geen enkel middel beschermt je tegen elke denkbare bedreiging.
+In grote lijnen delen wij onze aanbevelingen in in deze algemene categorieën van [bedreigingen](threat-modeling.md) of doelstellingen die voor de meeste mensen gelden. ==Je kunt je bezighouden met geen, een, enkele, of al deze mogelijkheden==, en de instrumenten en diensten die je gebruikt hangen af van wat jouw doelstellingen zijn. Misschien heb je ook specifieke bedreigingen buiten deze categorieën, en dat is prima! Het belangrijkste is dat je inzicht krijgt in de voordelen en tekortkomingen van de middelen die je gebruikt, want vrijwel geen enkel middel beschermt je tegen elke denkbare bedreiging.
 
 <span class="pg-purple">:material-incognito: **Anonimiteit**</span>
 :
 
-Shielding your online activity from your real identity, protecting you from people who are trying to uncover *your* identity specifically.
+Je online activiteiten afschermen van je echte identiteit, je beschermen tegen mensen die specifiek *je* identiteit proberen te achterhalen.
 
 <span class="pg-red">:material-target-account: **Gerichte aanvallen**</span>
 :
@@ -31,12 +31,12 @@ Being protected from things like malware, data breaches, and other attacks that 
 
 Protecting your data from service providers (e.g. with E2EE, which renders your data unreadable to the server).
 
-<span class="pg-blue">:material-eye-outline: **Mass Surveillance**</span>
+<span class="pg-blue">:material-eye-outline: **Massasurveillance**</span>
 :
 
 Protection from government agencies, organizations, websites, and services which work together to track your activities.
 
-<span class="pg-brown">:material-account-cash: **Surveillance Capitalism**</span>
+<span class="pg-brown">:material-account-cash: **Surveillance kapitalisme**</span>
 :
 
 Protecting yourself from big advertising networks, like Google and Facebook, as well as a myriad of other third-party data collectors.
@@ -59,7 +59,7 @@ Sommige van deze bedreigingen kunnen zwaarder wegen dan andere, afhankelijk van 
 
 Anonimiteit wordt vaak verward met privacy, maar het zijn verschillende concepten. Terwijl privacy een reeks keuzes is die je maakt over hoe jouw gegevens worden gebruikt en gedeeld, is anonimiteit het volledig loskoppelen van jouw online activiteiten van jouw echte identiteit.
 
-Voor klokkenluiders en journalisten, bijvoorbeeld, kan een veel extremer bedreigingsmodel gelden, dat volledige anonimiteit vereist. Dat is niet alleen verbergen wat zij doen, welke gegevens zij hebben, en niet gehackt worden door hackers of overheden, maar ook volledig verbergen wie zij zijn. Zij zullen elke vorm van gemak opofferen als dat betekent dat hun anonimiteit, privacy of veiligheid wordt beschermd, want hun leven kan ervan afhangen. De meeste gewone mensen hoeven niet zo ver te gaan.
+Voor klokkenluiders en journalisten, bijvoorbeeld, kan een veel extremer bedreigingsmodel gelden, dat volledige anonimiteit vereist. Dat is niet alleen verbergen wat zij doen, welke gegevens zij hebben, en niet gehackt worden door hackers of overheden, maar ook volledig verbergen wie zij zijn. Zij zullen elke vorm van gemak opofferen als dat betekent dat hun anonimiteit, privacy of veiligheid wordt beschermd, want hun leven kan ervan afhangen. De meeste mensen hoeven niet zo ver te gaan.
 
 ## Veiligheid en privacy
 
@@ -74,17 +74,17 @@ Om de schade die een kwaadaardig stuk software *kan* aanrichten te minimaliseren
 <div class="admonition tip" markdown>
 <p class="admonition-title">Tip</p>
 
-Mobiele besturingssystemen zijn over het algemeen veiliger dan desktopbesturingssystemen als het gaat om sandboxing van toepassingen.
+Mobiele besturingssystemen hebben over het algemeen een betere sandboxing van applicaties dan desktop besturingssystemen: Apps kunnen geen root-toegang krijgen en hebben toestemming nodig voor toegang tot systeembronnen.
 
-Apps kunnen geen root-toegang krijgen en hebben alleen toegang tot systeembronnen die je hen verleent. ChromeOS has similar sandboxing capabilities to Android, and macOS has full system permission control (and developers can opt in to sandboxing for applications). Deze besturingssystemen sturen echter wel identificerende informatie naar hun respectievelijke OEM's. Linux heeft de neiging geen informatie door te geven aan systeemverkopers, maar het heeft een slechte bescherming tegen exploits en kwaadaardige apps. This can be mitigated somewhat with specialized distributions which make significant use of virtual machines or containers, such as [Qubes OS](../desktop.md#qubes-os).
+Desktop-besturingssystemen lopen over het algemeen achter met goede sandboxing. ChromeOS heeft vergelijkbare sandboxing-mogelijkheden als Android, en macOS heeft volledige controle over systeemtoestemmingen (en ontwikkelaars kunnen kiezen voor sandboxing voor applicaties). Deze besturingssystemen sturen echter wel identificerende informatie naar hun respectievelijke OEM's. Linux heeft de neiging geen informatie door te geven aan systeemverkopers, maar het heeft een slechte bescherming tegen exploits en kwaadaardige apps. This can be mitigated somewhat with specialized distributions which make significant use of virtual machines or containers, such as [Qubes OS](../desktop.md#qubes-os).
 
 </div>
 
-## Attacks against Specific Individuals
+## Aanvallen op specifieke personen
 
 <span class="pg-red">:material-target-account: Gerichte aanvallen</span>
 
-Gerichte aanvallen tegen een specifieke gebruiker zijn moeilijker aan te pakken. Gangbare aanvalsmethoden zijn het verzenden van schadelijke documenten via e-mails, het uitbuiten van kwetsbaarheden in de browser en het besturingssysteem, en fysieke aanvallen. Als dit voor je een punt van zorg is, moet je mogelijk meer geavanceerde strategieën ter beperking van bedreigingen toepassen.
+Gerichte aanvallen tegen een specifieke gebruiker zijn moeilijker aan te pakken. Veel voorkomende aanvallen zijn het verzenden van kwaadaardige documenten via e-mail, het uitbuiten van kwetsbaarheden (bijvoorbeeld in browsers en besturingssystemen) en fysieke aanvallen. Als je je hier zorgen over maakt, moet je meer geavanceerde strategieën gebruiken om bedreigingen tegen te gaan.
 
 <div class="admonition tip" markdown>
 <p class="admonition-title">Tip</p>
@@ -95,23 +95,23 @@ Gerichte aanvallen tegen een specifieke gebruiker zijn moeilijker aan te pakken.
 
 If you are concerned about **physical attacks** you should use an operating system with a secure verified boot implementation, such as Android, iOS, macOS, or [Windows (with TPM)](https://learn.microsoft.com/windows/security/information-protection/secure-the-windows-10-boot-process). Je moet er ook voor zorgen dat jouw schijf versleuteld is, en dat het besturingssysteem een TPM of Secure [Enclave](https://support.apple.com/guide/security/secure-enclave-sec59b0b31ff/1/web/1) of [Element](https://developers.google.com/android/security/android-ready-se) gebruikt voor het beperken van de snelheid waarmee pogingen worden gedaan om de wachtwoordzin voor de versleuteling in te voeren. Je moet voorkomen dat je jouw computer deelt met mensen die je niet vertrouwt, omdat de meeste desktopbesturingssystemen gegevens niet afzonderlijk per gebruiker versleutelen.
 
-## Attacks against Certain Organizations
+## Aanvallen op bepaalde organisaties
 
 <span class="pg-viridian">:material-package-variant-closed-remove: Supply Chain Attacks</span>
 
 Supply chain attacks are frequently a form of <span class="pg-red">:material-target-account: Targeted Attack</span> towards businesses, governments, and activists, although they can end up compromising the public at large as well.
 
 <div class="admonition example" markdown>
-<p class="admonition-title">Example</p>
+<p class="admonition-title">Voorbeeld</p>
 
-A notable example of this occurred in 2017 when M.E.Doc, a popular accounting software in Ukraine, was infected with the *NotPetya* virus, subsequently infecting people who downloaded that software with ransomware. NotPetya itself was a ransomware attack which impacted 2000+ companies in various countries, and was based on the *EternalBlue* exploit developed by the NSA to attack Windows computers over the network.
+Een opmerkelijk voorbeeld hiervan vond plaats in 2017 toen M.E.Doc, een populair boekhoudprogramma in Oekraïne, werd geïnfecteerd met het *NotPetya*-virus, waardoor mensen die deze software hadden gedownload werden besmet met ransomware. NotPetya zelf was een ransomware-aanval die meer dan 2000 bedrijven in verschillende landen trof en was gebaseerd op de *EternalBlue*-exploit die door de NSA was ontwikkeld om Windows-computers via het netwerk aan te vallen.
 
 </div>
 
-There are few ways in which this type of attack might be carried out:
+Er zijn een paar manieren waarop dit type aanval kan worden uitgevoerd:
 
-1. A contributor or employee might first work their way into a position of power within a project or organization, and then abuse that position by adding malicious code.
-2. A developer may be coerced by an outside party to add malicious code.
+1. Een medewerker kan zich eerst een machtspositie binnen een project of organisatie verwerven en die positie vervolgens misbruiken door kwaadaardige code toe te voegen.
+2. Een ontwikkelaar kan door een externe partij worden gedwongen om kwaadaardige code toe te voegen.
 3. An individual or group might identify a third party software dependency (also known as a library) and work to infiltrate it with the above two methods, knowing that it will be used by "downstream" software developers.
 
 These sorts of attacks can require a lot of time and preparation to perform and are risky because they can be detected, particularly in open source projects if they are popular and have outside interest. Unfortunately they're also one of the most dangerous as they are very hard to mitigate entirely. We would encourage readers to only use software which has a good reputation and makes an effort to reduce risk by:
@@ -137,7 +137,7 @@ Gelukkig kan end-to-end encryptie dit probleem verlichten door de communicatie t
 
 In de praktijk varieert de doeltreffendheid van verschillende implementaties van end-to-end encryptie. Toepassingen zoals [Signal](../real-time-communication.md#signal) draaien op het toestel zelf, en elke kopie van de toepassing is hetzelfde voor verschillende installaties. Als de dienstverlener een backdoor in zijn applicatie zou aanbrengen om te proberen jouw privé-sleutels te stelen, zou dat later met reverse engineering kunnen worden opgespoord.
 
-On the other hand, web-based E2EE implementations, such as Proton Mail's web app or Bitwarden's *Web Vault*, rely on the server dynamically serving JavaScript code to the browser to handle cryptography. Een kwaadwillende server zou zich op een specifieke gebruiker kunnen richten en hem kwaadwillige JavaScript-code sturen om zijn encryptiesleutel te stelen, en het zou uiterst moeilijk zijn voor de gebruiker om zoiets ooit op te merken. Zelfs als de gebruiker de poging om zijn sleutel te stelen opmerkt, zou het ongelooflijk moeilijk zijn om te bewijzen dat het de provider is die dit probeert, omdat de server ervoor kan kiezen om verschillende webclients aan verschillende gebruikers aan te bieden.
+On the other hand, web-based E2EE implementations, such as Proton Mail's web app or Bitwarden's *Web Vault*, rely on the server dynamically serving JavaScript code to the browser to handle cryptography. Een kwaadwillende server kan zich op jou richten en je kwaadwillende JavaScript-code sturen om je coderingssleutel te stelen (en het zou heel moeilijk zijn om dat op te merken). Omdat de server ervoor kan kiezen om verschillende webclients aan verschillende mensen aan te bieden - zelfs als je de aanval opmerkt - zou het ongelooflijk moeilijk zijn om de schuld van de provider te bewijzen.
 
 Wanneer je vertrouwt op end-to-end encryptie, moet je daarom waar mogelijk native applicaties verkiezen boven web clients.
 
@@ -145,25 +145,25 @@ Wanneer je vertrouwt op end-to-end encryptie, moet je daarom waar mogelijk nativ
 
 Zelfs met end-to-end encryptie kunnen dienstverleners je nog steeds profileren op basis van **metadata**, die doorgaans niet beschermd zijn. While the service provider can't read your messages, they can still observe important things, such as whom you're talking to, how often you message them, and when you're typically active. Bescherming van metadata is vrij ongebruikelijk en - als het binnen je [bedreigingsmodel valt - moet je](threat-modeling.md)goed kijken naar de technische documentatie van de software die je gebruikt om te zien of er überhaupt metadata minimalisatie of bescherming is.
 
-## Programma's voor massatoezicht
+## Massasurveillanceprogramma's
 
-<span class="pg-blue">:material-eye-outline: Massabewaking</span>
+<span class="pg-blue">:material-eye-outline: Massasurveillance</span>
 
 Massasurveillance is de ingewikkelde poging om het "gedrag, de vele activiteiten of informatie" van een hele (of een aanzienlijk deel van een) bevolking te monitoren.[^1] Het verwijst vaak naar overheidsprogramma's, zoals de programma's die [Edward Snowden in 2013 onthulde](https://en.wikipedia.org/wiki/Global_surveillance_disclosures_(2013%E2%80%93present)). Het kan echter ook worden uitgevoerd door bedrijven, hetzij namens overheidsinstanties of op eigen initiatief.
 
 <div class="admonition abstract" markdown>
-<p class="admonition-title">Atlas of Surveillance</p>
+<p class="admonition-title">Atlas van Surveillance</p>
 
 If you want to learn more about surveillance methods and how they're implemented in your city you can also take a look at the [Atlas of Surveillance](https://atlasofsurveillance.org) by the [Electronic Frontier Foundation](https://eff.org).
 
-In France, you can take a look at the [Technopolice website](https://technopolice.fr/villes) maintained by the non-profit association La Quadrature du Net.
+In Frankrijk kun je een kijkje nemen op de [Technopolice website](https://technopolice.fr/villes) die wordt onderhouden door de non-profitorganisatie La Quadrature du Net.
 
 </div>
 
-Regeringen rechtvaardigen massasurveillanceprogramma's vaak als noodzakelijke middelen om terrorisme te bestrijden en misdaad te voorkomen. However, as breaches of human rights, they're most often used to disproportionately target minority groups and political dissidents, among others.
+Regeringen rechtvaardigen massasurveillanceprogramma's vaak als noodzakelijke middelen om terrorisme te bestrijden en misdaad te voorkomen. Als mensenrechtenschendingen worden ze echter het vaakst gebruikt om onder andere minderheidsgroepen en politieke dissidenten onevenredig hard aan te pakken.
 
 <div class="admonition quote" markdown>
-<p class="admonition-title">ACLU: <em><a href="https://aclu.org/news/national-security/the-privacy-lesson-of-9-11-mass-surveillance-is-not-the-way-forward">The Privacy Lesson of 9/11: Mass Surveillance is Not the Way Forward</a></em></p>
+<p class="admonition-title">ACLU: <em><a href="https://aclu.org/news/national-security/the-privacy-lesson-of-9-11-mass-surveillance-is-not-the-way-forward">De privacyles van 9/11: Massasurveillance is niet de juiste weg</a></em></p>
 
 In the face of Edward Snowden's disclosures of government programs such as [PRISM](https://en.wikipedia.org/wiki/PRISM) and [Upstream](https://en.wikipedia.org/wiki/Upstream_collection), intelligence officials also admitted that the NSA had for years been secretly collecting records about virtually every American’s phone calls — who’s calling whom, when those calls are made, and how long they last. Dit soort informatie kan, wanneer het dag na dag door de NSA wordt verzameld, ongelooflijk gevoelige details onthullen over het leven en de relaties van mensen, zoals of ze een pastoor, een abortusaanbieder, een verslavingsbegeleider of een zelfmoordhotline hebben gebeld.
 
@@ -171,7 +171,7 @@ In the face of Edward Snowden's disclosures of government programs such as [PRIS
 
 Ondanks de toenemende massasurveillance in de Verenigde Staten heeft de regering vastgesteld dat massasurveillanceprogramma's zoals Section 215 "weinig unieke waarde" hebben gehad wat betreft het stoppen van daadwerkelijke misdaden of terroristische complotten, waarbij de inspanningen grotendeels de eigen gerichte surveillanceprogramma's van de FBI dupliceren.[^2]
 
-Online, you can be tracked via a variety of methods, including but not limited to:
+Online kun je op verschillende manieren worden gevolgd, inclusief maar niet beperkt tot:
 
 - Jouw IP-adres
 - Browser cookies
@@ -179,7 +179,7 @@ Online, you can be tracked via a variety of methods, including but not limited t
 - Jouw browser of apparaat vingerafdruk
 - Correlatie van betalingsmethodes
 
-If you're concerned about mass surveillance programs, you can use strategies like compartmentalizing your online identities, blending in with other users, or, whenever possible, simply avoiding giving out identifying information.
+Als je je zorgen maakt over massasurveillanceprogramma's, kun je strategieën gebruiken zoals je online identiteiten opsplitsen, je vermengen met andere gebruikers of, waar mogelijk, gewoon vermijden om identificerende informatie te geven.
 
 ## Surveillance als bedrijfsmodel
 
@@ -189,7 +189,7 @@ If you're concerned about mass surveillance programs, you can use strategies lik
 
 Voor veel mensen is het volgen en bewaken door privébedrijven een groeiende zorg. Wijdverspreide advertentienetwerken, zoals die van Google en Facebook, bestrijken het internet veel verder dan alleen de sites die ze beheren en volgen je acties op de voet. Het gebruik van hulpmiddelen zoals content blockers om netwerkverzoeken aan hun servers te beperken, en het lezen van het privacybeleid van de diensten die je gebruikt, kunnen je helpen veel laag hangend fruit te vermijden, maar kunnen je nooit volledig beschermen tegen alle tracking.[^4]
 
-Additionally, even companies outside the *AdTech* or tracking industry can share your information with [data brokers](https://en.wikipedia.org/wiki/Information_broker) (such as Cambridge Analytica, Experian, or Datalogix) or other parties. Als jouw accounts bijvoorbeeld een "privémodus" hebben, schakel deze dan in om ervoor te zorgen dat jouw account niet wordt geïndexeerd door zoekmachines en niet kan worden bekeken door mensen die je niet van tevoren vertrouwd. De sterkste bescherming tegen het verzamelen van bedrijfsgegevens is om jouw gegevens waar mogelijk te versleutelen of te verdoezelen, waardoor het voor verschillende providers moeilijk wordt om gegevens met elkaar te correleren en een profiel op je op te bouwen.
+Additionally, even companies outside the *AdTech* or tracking industry can share your information with [data brokers](https://en.wikipedia.org/wiki/Information_broker) (such as Cambridge Analytica, Experian, or Datalogix) or other parties. Je kunt er niet automatisch van uitgaan dat je gegevens veilig zijn, alleen omdat de service die je gebruikt niet binnen het typische AdTech- of trackingbedrijfsmodel valt. De sterkste bescherming tegen het verzamelen van bedrijfsgegevens is om jouw gegevens waar mogelijk te versleutelen of te verdoezelen, waardoor het voor verschillende providers moeilijk wordt om gegevens met elkaar te correleren en een profiel op je op te bouwen.
 
 ## Beperking van publieke informatie
 
@@ -199,9 +199,9 @@ De beste manier om ervoor te zorgen dat jouw gegevens privé blijven, is ze in d
 
 - [Bekijk onze gids over het verwijderen van accounts :material-arrow-right-drop-circle:](account-deletion.md)
 
-Online-censuur kan in verschillende mate worden uitgeoefend door actoren zoals totalitaire regeringen, netwerkbeheerders en dienstverleners die de meningsuiting van hun gebruikers en de informatie waartoe zij toegang hebben, willen controleren. Deze pogingen om het internet te filteren zullen altijd onverenigbaar zijn met de idealen van vrije meningsuiting.
+Op sites waar je informatie deelt, is het heel belangrijk om de privacy-instellingen van je account te controleren om te beperken hoe wijd die gegevens worden verspreid. Schakel bijvoorbeeld de "privémodus" in op je accounts als je de mogelijkheid hebt: Dit zorgt ervoor dat je account niet wordt geïndexeerd door zoekmachines en niet kan worden bekeken zonder jouw toestemming.
 
-Censuur op bedrijfsplatforms komt steeds vaker voor nu platforms als Twitter en Facebook toegeven aan de vraag van het publiek, de druk van de markt en de druk van overheidsinstanties. Overheidsdruk kan bestaan uit heimelijke verzoeken aan bedrijven, zoals het verzoek van het Witte Huis [om een provocerende YouTube-video uit de lucht te halen ](https://www.nytimes.com/2012/09/17/technology/on-the-web-a-fine-line-on-free-speech-across-globe.html), of uit openlijke, zoals de Chinese regering die van bedrijven eist dat zij zich houden aan een streng censuurregime.
+Als je je echte informatie al hebt verstrekt aan sites die deze niet zouden mogen hebben, overweeg dan om desinformatie tactieken te gebruiken, zoals het verstrekken van fictieve informatie met betrekking tot die online identiteit. Hierdoor is je echte informatie niet te onderscheiden van de valse informatie.
 
 ## Censuur vermijden
 
@@ -224,8 +224,8 @@ Je zou moeten overwegen welke aspecten van het netwerk je tegenstander kan waarn
 
 Je moet altijd rekening houden met de risico 's van het proberen om censuur te omzeilen, de mogelijke gevolgen en hoe geavanceerd je tegenstander kan zijn. Je moet voorzichtig zijn met jouw software selectie, en een back-up plan hebben voor het geval je betrapt wordt.
 
-[^1]: United States Privacy and Civil Liberties Oversight Board: [Rapport over het telefoongegevens programma, uitgevoerd onder Section 215](https://documents.pclob.gov/prod/Documents/OversightReport/ec542143-1079-424a-84b3-acc354698560/215-Report_on_the_Telephone_Records_Program.pdf)
-[^2]: Wikipedia: [Surveillance kapitalisme](https://en.wikipedia.org/wiki/Surveillance_capitalism)
+[^1]: Wikipedia: [*Massasurveillance*](https://en.wikipedia.org/wiki/Mass_surveillance) en [*Surveillance*](https://en.wikipedia.org/wiki/Surveillance).
+[^2]: United States Privacy and Civil Liberties Oversight Board: [*Rapport over het telefoongegevensprogramma uitgevoerd onder Sectie 215*](https://documents.pclob.gov/prod/Documents/OversightReport/ec542143-1079-424a-84b3-acc354698560/215-Report_on_the_Telephone_Records_Program.pdf)
 [^3]: Wikipedia: [*Surveillancekapitalisme*](https://en.wikipedia.org/wiki/Surveillance_capitalism)
 [^4]: "[Enumerating badness](https://ranum.com/security/computer_security/editorials/dumb)" (or, "listing all the bad things that we know about"), as many content blockers and antivirus programs do, fails to adequately protect you from new and unknown threats because they have not yet been added to the filter list. Je moet ook andere mitigatietechnieken gebruiken.
-[^5]: United Nations: [*Universal Declaration of Human Rights*](https://un.org/en/about-us/universal-declaration-of-human-rights).
+[^5]: Verenigde Naties: [*Universele Verklaring van de Rechten van de Mens*](https://un.org/en/about-us/universal-declaration-of-human-rights).

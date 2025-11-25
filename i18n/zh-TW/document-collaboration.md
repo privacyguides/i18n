@@ -1,7 +1,7 @@
 ---
 title: 文件協作
 icon: material/account-group
-description: Most online office suites do not support end-to-end encryption, meaning the cloud provider has access to everything you do.
+description: 大多數線上辦公室套裝軟體不支援端到端加密，這表示雲端供應商可以存取您所有的操作。
 cover: document-collaboration.webp
 ---
 
@@ -9,7 +9,7 @@ cover: document-collaboration.webp
 
 - [:material-server-network: 服務提供商](basics/common-threats.md#privacy-from-service-providers){ .pg-teal }
 
-Most online **document collaboration** platforms like Google Drive do not support end-to-end encryption, meaning the cloud provider has access to everything you do. 提供者的隱私權政策可能會在法律上保護您的權利，但不會提供技術存取限制。
+大多數線上**文件協作**平台（如 Google 雲端硬碟）不支援端到端加密，這表示雲端供應商可以存取您所有操作。 提供者的隱私權政策可能會在法律上保護您的權利，但不會提供技術存取限制。
 
 ## CryptPad
 
@@ -17,16 +17,16 @@ Most online **document collaboration** platforms like Google Drive do not suppor
 
 ![CryptPad logo](assets/img/document-collaboration/cryptpad.svg){ align=right }
 
-**CryptPad** is a private-by-design alternative to popular, full-fledged office suites. All content on this web service is E2EE and can be shared with other users easily.
+**CryptPad** 是一款專為隱私設計的替代方案，可取代主流的完整功能辦公室套裝軟體。 此網路服務上的所有內容都使用端到端加密，且可輕鬆與其他使用者分享。
 
-[:material-star-box: Read our latest CryptPad review.](https://www.privacyguides.org/articles/2025/02/07/cryptpad-review)
+[:material-star-box: 閱讀我們最新的 CryptPad 評論。](https://www.privacyguides.org/articles/2025/02/07/cryptpad-review)
 
-[:octicons-home-16: Homepage](https://cryptpad.fr){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://cryptpad.fr/pad/#/2/pad/view/GcNjAWmK6YDB3EO2IipRZ0fUe89j43Ryqeb4fjkjehE){ .card-link title="Privacy Policy" }
-[:octicons-server-16:](https://cryptpad.org/instances){ .card-link title="Public Instances" }
-[:octicons-info-16:](https://docs.cryptpad.fr){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/xwiki-labs/cryptpad){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://opencollective.com/cryptpad){ .card-link title="Contribute" }
+[:octicons-home-16: 首頁](https://cryptpad.fr){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://cryptpad.fr/pad/#/2/pad/view/GcNjAWmK6YDB3EO2IipRZ0fUe89j43Ryqeb4fjkjehE){ .card-link title="隱私權政策" }
+[:octicons-server-16:](https://cryptpad.org/instances){ .card-link title="公開站台" }
+[:octicons-info-16:](https://docs.cryptpad.fr){ .card-link title="文件" }
+[:octicons-code-16:](https://github.com/xwiki-labs/cryptpad){ .card-link title="原始碼" }
+[:octicons-heart-16:](https://opencollective.com/cryptpad){ .card-link title="貢獻" }
 
 </details>
 
@@ -50,4 +50,4 @@ Most online **document collaboration** platforms like Google Drive do not suppor
 最佳情況標準代表我們希望在這個類別的完美項目的應具備的特性。 推薦產品可能沒有此功能，但若有這些功能則會讓排名更為提高。
 
 - 應將檔案儲存在傳統檔案系統中。
-- Should support TOTP or FIDO2 multifactor authentication support, or passkey logins.
+- 應支援 TOTP 或 FIDO2 多重要素驗證支援，或 passkey 登入。

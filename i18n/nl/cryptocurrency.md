@@ -8,7 +8,7 @@ cover: cryptocurrency.webp
 
 <small>Protects against the following threat(s):</small>
 
-- [:material-eye-outline: Massabewaking](basics/common-threats.md#mass-surveillance-programs ""){.pg-blue}
+- [:material-eye-outline: Massasurveillance](basics/common-threats.md#mass-surveillance-programs ""){.pg-blue}
 - [:material-close-outline: Censuur](basics/common-threats.md#avoiding-censorship ""){.pg-blue-gray}
 
 Online betalen is een van de grootste uitdagingen voor privacy. Deze cryptocurrencies bieden standaard transactieprivacy (iets wat door de meeste cryptocurrencies **niet** wordt gegarandeerd), mits je goed begrijpt hoe je private betalingen effectief kunt uitvoeren. Wij raden je sterk aan eerst ons overzichtsartikel over betalingen te lezen voordat je aankopen doet:

@@ -77,7 +77,7 @@ De virtuele kaarten van MySudo zijn momenteel alleen beschikbaar via hun iOS-app
 
 <small>Protects against the following threat(s):</small>
 
-- [:material-eye-outline: Massabewaking](basics/common-threats.md#mass-surveillance-programs ""){.pg-blue}
+- [:material-eye-outline: Massasurveillance](basics/common-threats.md#mass-surveillance-programs ""){.pg-blue}
 
 Met deze diensten kunt je online cadeaubonnen kopen voor verschillende handelaren met [cryptocurrency](cryptocurrency.md). Sommige van deze services bieden opties voor ID-verificatie voor hogere limieten, maar ze staan ook accounts toe met alleen een e-mailadres. Basic limits typically start at $5,000-10,000 a day for basic accounts, with significantly higher limits for ID verified accounts (if offered).
 

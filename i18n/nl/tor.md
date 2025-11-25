@@ -26,7 +26,7 @@ schema:
 <small>Beschermt tegen de volgende bedreiging(en):</small>
 
 - [:material-account-cash: Surveillance kapitalisme](basics/common-threats.md#surveillance-as-a-business-model ""){.pg-brown}
-- [:material-eye-outline: Massabewaking](basics/common-threats.md#mass-surveillance-programs ""){.pg-blue}
+- [:material-eye-outline: Massasurveillance](basics/common-threats.md#mass-surveillance-programs ""){.pg-blue}
 - [:material-close-outline: Censuur](basics/common-threats.md#avoiding-censorship ""){.pg-blue-gray}
 
 **Tor** is a group of volunteer-operated servers that allows you to connect for free and improve your privacy and security on the Internet. Individuen en organisaties kunnen ook informatie delen via het Tor-netwerk met ".onion hidden services" zonder hun privacy in gevaar te brengen. Omdat Tor-verkeer moeilijk te blokkeren en te traceren is, is Tor een effectief middel om censuur te omzeilen.

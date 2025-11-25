@@ -181,8 +181,8 @@ Anonymized DNS [不會](advanced/dns-overview.md#why-shouldnt-i-use-encrypted-dn
 
     1.1.1.1 公共 DNS 解析器：[*Cloudflare 對隱私的承諾*](https://developers.cloudflare.com/1.1.1.1/privacy/public-dns-resolver) [^3]： Control D 僅會記錄包含自訂 DNS 設定檔的 Premium 解析器的特定帳號資料。 免費解析器不會保留任何資料。
 
-    Control D: [*Privacy Policy*](https://controld.com/privacy) [^4]: Mullvad's DNS service is available to both subscribers and non-subscribers of Mullvad VPN. 他們的隱私政策明確聲稱他們不會以任何方式記錄 DNS 請求。
+    Control D：[*隱私權政策*](https://controld.com/privacy) [^4]: Mullvad 的 DNS 服務同時提供給 Mullvad VPN 的訂戶與非訂戶使用。 他們的隱私政策明確聲稱他們不會以任何方式記錄 DNS 請求。
 
-    Mullvad: [*No-logging of user activity policy*](https://mullvad.net/en/help/no-logging-data-policy) [^5]: Quad9 collects some data for the purposes of threat monitoring and response. That data may then be remixed and shared for purposes like furthering their security research. Quad9 不會收集或記錄 IP 位址或其他他們認為可識別個人身份的資料。
+    Mullvad：[*不記錄使用者活動政策*](https://mullvad.net/en/help/no-logging-data-policy) [^5]: Quad9 會蒐集部份資料，用來監控威脅與回應。 That data may then be remixed and shared for purposes like furthering their security research. Quad9 不會收集或記錄 IP 位址或其他他們認為可識別個人身份的資料。
 
     Quad9: [*Data and Privacy Policy*](https://quad9.net/privacy/policy)
