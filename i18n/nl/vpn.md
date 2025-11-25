@@ -313,7 +313,7 @@ We require all our recommended VPN providers to provide standard configuration f
 
 - Kill switch with highly configurable options (enable/disable on certain networks, on boot, etc.)
 - Gemakkelijk te gebruiken VPN-clients
-- [IPv6](https://en.wikipedia.org/wiki/IPv6) support. Wij verwachten dat servers inkomende verbindingen via IPv6 zullen toestaan en u toegang zullen verschaffen tot diensten die op IPv6-adressen worden gehost.
+- [IPv6](https://en.wikipedia.org/wiki/IPv6) support. We verwachten dat servers inkomende verbindingen via IPv6 zullen toestaan en je toegang zullen geven tot services die gehost worden op IPv6-adressen.
 - De mogelijkheid van [remote port forwarding](https://en.wikipedia.org/wiki/Port_forwarding#Remote_port_forwarding) helpt bij het maken van verbindingen bij het gebruik van P2P ([Peer-to-Peer](https://en.wikipedia.org/wiki/Peer-to-peer)) file sharing software, Freenet, of het hosten van een server (bv. Mumble).
 - Obfuscation technology which camouflages the true nature of internet traffic, designed to circumvent advanced internet censorship methods like DPI.
 
@@ -385,7 +385,7 @@ Mag geen marketing hebben die onverantwoord is:
 Verantwoorde marketing die zowel educatief als nuttig is voor de consument zou kunnen bestaan uit:
 
 - Een nauwkeurige vergelijking met wanneer Tor of andere [op zichzelf staande netwerken](tor.md) moeten worden gebruikt.
-- Beschikbaarheid van de website van de VPN-provider via een .onion [Verborgen service](https://en.wikipedia.org/wiki/.onion)
+- Beschikbaarheid van de website van de VPN-provider via een [.onion-service](https://en.wikipedia.org/wiki/.onion)
 
 ### Extra functionaliteit
 

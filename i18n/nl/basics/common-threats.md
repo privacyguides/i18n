@@ -76,7 +76,7 @@ Om de schade die een kwaadaardig stuk software *kan* aanrichten te minimaliseren
 
 Mobiele besturingssystemen zijn over het algemeen veiliger dan desktopbesturingssystemen als het gaat om sandboxing van toepassingen.
 
-Apps kunnen geen root-toegang krijgen en hebben alleen toegang tot systeembronnen die je hen verleent. ChromeOS has similar sandboxing capabilities to Android, and macOS has full system permission control (and developers can opt in to sandboxing for applications). Chrome OS heeft vergelijkbare sandboxing-eigenschappen als Android, en macOS heeft volledige controle over systeemtoestemmingen en opt-in (voor ontwikkelaars) sandboxing voor applicaties, maar deze besturingssystemen geven wel identificerende informatie door aan hun respectieve OEM's. Linux heeft de neiging geen informatie door te geven aan systeemverkopers, maar het heeft een slechte bescherming tegen exploits en kwaadaardige apps. This can be mitigated somewhat with specialized distributions which make significant use of virtual machines or containers, such as [Qubes OS](../desktop.md#qubes-os).
+Apps kunnen geen root-toegang krijgen en hebben alleen toegang tot systeembronnen die je hen verleent. ChromeOS has similar sandboxing capabilities to Android, and macOS has full system permission control (and developers can opt in to sandboxing for applications). Deze besturingssystemen sturen echter wel identificerende informatie naar hun respectievelijke OEM's. Linux heeft de neiging geen informatie door te geven aan systeemverkopers, maar het heeft een slechte bescherming tegen exploits en kwaadaardige apps. This can be mitigated somewhat with specialized distributions which make significant use of virtual machines or containers, such as [Qubes OS](../desktop.md#qubes-os).
 
 </div>
 
@@ -89,7 +89,7 @@ Gerichte aanvallen tegen een specifieke gebruiker zijn moeilijker aan te pakken.
 <div class="admonition tip" markdown>
 <p class="admonition-title">Tip</p>
 
-**Webbrowsers**, **e-mailclients**, en **kantoorapplicaties** voeren standaard onvertrouwde code uit die je door derden wordt toegestuurd. Het draaien van meerdere virtuele machines om toepassingen als deze te scheiden van uw hostsysteem en van elkaar is een techniek die je kunt gebruiken om te voorkomen dat een exploit in deze toepassingen de rest van jouw systeem aantast. Technologieën als Qubes OS of Microsoft Defender Application Guard op Windows bieden bijvoorbeeld handige methoden om dit naadloos te doen.
+**Webbrowsers**, **e-mailclients**, en **kantoorapplicaties** voeren standaard onvertrouwde code uit die je door derden wordt toegestuurd. Het draaien van meerdere virtuele machines om applicaties als deze te scheiden van je hostsysteem en van elkaar, is een techniek die je kunt gebruiken om de kans te verkleinen dat een exploit in deze applicaties de rest van je systeem kan aantasten. Technologieën als Qubes OS of Microsoft Defender Application Guard op Windows bieden bijvoorbeeld handige methoden om dit naadloos te doen.
 
 </div>
 
@@ -143,13 +143,13 @@ Wanneer je vertrouwt op end-to-end encryptie, moet je daarom waar mogelijk nativ
 
 </div>
 
-Zelfs met end-to-end encryptie kunnen dienstverleners je nog steeds profileren op basis van **metadata**, die doorgaans niet beschermd zijn. While the service provider can't read your messages, they can still observe important things, such as whom you're talking to, how often you message them, and when you're typically active. Bescherming van metadata is tamelijk ongewoon, en je zou goed moeten opletten in de technische documentatie van de software die je gebruikt om te zien of er überhaupt sprake is van minimalisering of bescherming van metadata, als dat voor je een punt van zorg is.
+Zelfs met end-to-end encryptie kunnen dienstverleners je nog steeds profileren op basis van **metadata**, die doorgaans niet beschermd zijn. While the service provider can't read your messages, they can still observe important things, such as whom you're talking to, how often you message them, and when you're typically active. Bescherming van metadata is vrij ongebruikelijk en - als het binnen je [bedreigingsmodel valt - moet je](threat-modeling.md)goed kijken naar de technische documentatie van de software die je gebruikt om te zien of er überhaupt metadata minimalisatie of bescherming is.
 
 ## Programma's voor massatoezicht
 
 <span class="pg-blue">:material-eye-outline: Massabewaking</span>
 
-Massasurveillance is een poging om een groot deel van of een gehele bevolking te surveilleren. Het verwijst vaak naar overheidsprogramma's, zoals de programma's [die in 2013 door Edward Snowden werden onthuld](https://en.wikipedia.org/wiki/Global_surveillance_disclosures_(2013%E2%80%93present)).
+Massasurveillance is de ingewikkelde poging om het "gedrag, de vele activiteiten of informatie" van een hele (of een aanzienlijk deel van een) bevolking te monitoren.[^1] Het verwijst vaak naar overheidsprogramma's, zoals de programma's die [Edward Snowden in 2013 onthulde](https://en.wikipedia.org/wiki/Global_surveillance_disclosures_(2013%E2%80%93present)). Het kan echter ook worden uitgevoerd door bedrijven, hetzij namens overheidsinstanties of op eigen initiatief.
 
 <div class="admonition abstract" markdown>
 <p class="admonition-title">Atlas of Surveillance</p>
@@ -165,7 +165,7 @@ Regeringen rechtvaardigen massasurveillanceprogramma's vaak als noodzakelijke mi
 <div class="admonition quote" markdown>
 <p class="admonition-title">ACLU: <em><a href="https://aclu.org/news/national-security/the-privacy-lesson-of-9-11-mass-surveillance-is-not-the-way-forward">The Privacy Lesson of 9/11: Mass Surveillance is Not the Way Forward</a></em></p>
 
-In the face of Edward Snowden's disclosures of government programs such as [PRISM](https://en.wikipedia.org/wiki/PRISM) and [Upstream](https://en.wikipedia.org/wiki/Upstream_collection), intelligence officials also admitted that the NSA had for years been secretly collecting records about virtually every American’s phone calls — who’s calling whom, when those calls are made, and how long they last. Je moet nagaan welke aspecten van het netwerk jouw tegenstander kan waarnemen, en of je jouw acties kunt ontkennen.
+In the face of Edward Snowden's disclosures of government programs such as [PRISM](https://en.wikipedia.org/wiki/PRISM) and [Upstream](https://en.wikipedia.org/wiki/Upstream_collection), intelligence officials also admitted that the NSA had for years been secretly collecting records about virtually every American’s phone calls — who’s calling whom, when those calls are made, and how long they last. Dit soort informatie kan, wanneer het dag na dag door de NSA wordt verzameld, ongelooflijk gevoelige details onthullen over het leven en de relaties van mensen, zoals of ze een pastoor, een abortusaanbieder, een verslavingsbegeleider of een zelfmoordhotline hebben gebeld.
 
 </div>
 
@@ -181,13 +181,13 @@ Online, you can be tracked via a variety of methods, including but not limited t
 
 If you're concerned about mass surveillance programs, you can use strategies like compartmentalizing your online identities, blending in with other users, or, whenever possible, simply avoiding giving out identifying information.
 
-## Surveillance as a Business Model
+## Surveillance als bedrijfsmodel
 
 <span class="pg-brown">:material-account-cash: Surveillance kapitalisme</span>
 
-> Het surveillance kapitalisme is een economisch systeem dat draait om het vastleggen en verhandelen van persoonsgegevens met als hoofddoel het maken van winst.[^2]
+> Surveillancekapitalisme is een economisch systeem dat draait om het vastleggen en verhandelen van persoonlijke gegevens met als hoofddoel het maken van winst.[^3]
 
-De beste manier om ervoor te zorgen dat jouw gegevens privé blijven, is ze in de eerste plaats gewoon niet openbaar te maken. Het verwijderen van informatie die je online over jezelf vindt, is een van de beste eerste stappen die je kunt nemen om jouw privacy terug te krijgen. Het gebruik van hulpmiddelen zoals content blockers om netwerkverzoeken aan hun servers te beperken, en het lezen van het privacybeleid van de diensten die je gebruikt, kunnen je helpen veel laag hangend fruit te vermijden, maar kunnen je nooit volledig beschermen tegen alle tracking.[^4]
+Voor veel mensen is het volgen en bewaken door privébedrijven een groeiende zorg. Wijdverspreide advertentienetwerken, zoals die van Google en Facebook, bestrijken het internet veel verder dan alleen de sites die ze beheren en volgen je acties op de voet. Het gebruik van hulpmiddelen zoals content blockers om netwerkverzoeken aan hun servers te beperken, en het lezen van het privacybeleid van de diensten die je gebruikt, kunnen je helpen veel laag hangend fruit te vermijden, maar kunnen je nooit volledig beschermen tegen alle tracking.[^4]
 
 Additionally, even companies outside the *AdTech* or tracking industry can share your information with [data brokers](https://en.wikipedia.org/wiki/Information_broker) (such as Cambridge Analytica, Experian, or Datalogix) or other parties. Als jouw accounts bijvoorbeeld een "privémodus" hebben, schakel deze dan in om ervoor te zorgen dat jouw account niet wordt geïndexeerd door zoekmachines en niet kan worden bekeken door mensen die je niet van tevoren vertrouwd. De sterkste bescherming tegen het verzamelen van bedrijfsgegevens is om jouw gegevens waar mogelijk te versleutelen of te verdoezelen, waardoor het voor verschillende providers moeilijk wordt om gegevens met elkaar te correleren en een profiel op je op te bouwen.
 
