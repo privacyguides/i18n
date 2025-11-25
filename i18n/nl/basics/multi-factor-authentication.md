@@ -1,12 +1,12 @@
 ---
-title: Multifactor Authentication
+title: Multifactor-authenticatie
 icon: material/two-factor-authentication
 description: MFA is een cruciaal beveiligingsmechanisme voor de beveiliging van jouw online accounts, maar sommige methoden zijn sterker dan andere.
 ---
 
 **Multifactor Authentication** (**MFA**) is a security mechanism that requires additional steps beyond entering your username (or email) and password. De meest gebruikelijke methode zijn codes met tijdsbeperking die je via sms of een app kunt ontvangen.
 
-Als een hacker (of tegenstander) jouw wachtwoord weet te achterhalen, krijgt hij toegang tot de account waar dat wachtwoord bij hoort. Een account met MFA dwingt de hacker om zowel het wachtwoord te hebben (iets wat je *weet*) als een apparaat dat je bezit (iets wat je *hebt*), zoals je telefoon.
+Normaal gesproken, als een hacker (of tegenstander) je wachtwoord kan achterhalen, krijgen ze toegang tot het account waar dat wachtwoord bij hoort. Een account met MFA dwingt de hacker om zowel het wachtwoord te hebben (iets wat je *weet*) als een apparaat dat je bezit (iets wat je *hebt*), zoals je telefoon.
 
 MFA-methoden variëren in beveiliging, maar zijn gebaseerd op de vooronderstelling dat hoe moeilijker het voor een aanvaller is om toegang te krijgen tot uw MFA-methode, hoe beter. Voorbeelden van MFA-methoden (van zwakste naar sterkste) zijn sms, e-mailcodes, app-pushmeldingen, TOTP, Yubico OTP en FIDO.
 
@@ -20,25 +20,25 @@ kan overnemen of toegang tot jouw e-mail kan krijgen zonder fysieke toegang te h
 
 
 
-### Push-meldingen
+### Pushmeldingen
 
-Push notification MFA neemt de vorm aan van een bericht dat naar een app op jouw telefoon wordt gestuurd en waarin je wordt gevraagd nieuwe accountlogins te bevestigen. Deze methode is veel beter dan SMS of e-mail, omdat een aanvaller deze pushmeldingen meestal niet kan krijgen zonder een al aangemeld apparaat, wat betekent dat hij eerst een van jouw andere apparaten zou moeten compromitteren.
+Pushmeldingen MFA neemt de vorm aan van een bericht dat naar een app op je telefoon wordt gestuurd waarin je wordt gevraagd om nieuwe aanmeldingen voor accounts te bevestigen. Deze methode is veel beter dan SMS of e-mail, omdat een aanvaller deze pushmeldingen meestal niet kan krijgen zonder een al aangemeld apparaat, wat betekent dat hij eerst een van jouw andere apparaten zou moeten compromitteren.
 
-We maken allemaal fouten, en het risico bestaat dat u de inlogpoging per ongeluk aanvaardt. Inlogautorisaties via push-notificatie worden doorgaans verzonden naar *alle* jouw apparaten in een keer, waardoor de beschikbaarheid van de MFA-code wordt uitgebreid als je veel apparaten hebt.
+We maken allemaal fouten, en het risico bestaat dat je de inlogpoging per ongeluk aanvaardt. Inlogautorisaties via pushmeldingen worden doorgaans verzonden naar *alle* jouw apparaten in een keer, waardoor de beschikbaarheid van de MFA-code wordt uitgebreid als je veel apparaten hebt.
 
-De beveiliging van push notification MFA is afhankelijk van zowel de kwaliteit van de app, de servercomponent als het vertrouwen van de ontwikkelaar die de app maakt. Als je een app installeert, kan het ook zijn dat je moet instemmen met invasieve privileges die toegang verlenen tot andere gegevens op jouw apparaat. . en individuele app vereist ook dat je voor elke dienst een specifieke app hebt, die misschien geen wachtwoord vereist om te openen, in tegenstelling tot een goede TOTP generator app.
+De beveiliging van pushmeldingen MFA is afhankelijk van zowel de kwaliteit van de app, de servercomponent als het vertrouwen van de ontwikkelaar die de app maakt. Als je een app installeert, kan het ook zijn dat je moet instemmen met invasieve privileges die toegang verlenen tot andere gegevens op jouw apparaat. Een individuele app vereist ook dat je een specifieke app hebt voor elke dienst die mogelijk geen wachtwoord vereist om te openen, in tegenstelling tot een goede TOTP generator app.
 
 
 
 ### Time-based One-time Password (TOTP)
 
-TOTP is een van de meest voorkomende vormen van MFB. Wanneer je TOTP instelt, moet je over het algemeen een [QR-code](https://en.wikipedia.org/wiki/QR_code) scannen die een "[gedeeld geheim](https://en.wikipedia.org/wiki/Shared_secret)" tot stand brengt met de dienst die je van plan bent te gebruiken. The shared secret is secured inside the authenticator app's data, and is sometimes protected by a password.
+TOTP is een van de meest voorkomende vormen van MFB. Wanneer je TOTP instelt, moet je over het algemeen een [QR-code](https://en.wikipedia.org/wiki/QR_code) scannen die een "[gedeeld geheim](https://en.wikipedia.org/wiki/Shared_secret)" tot stand brengt met de dienst die je van plan bent te gebruiken. Het gedeelde geheim is beveiligd in de gegevens van de authenticatie-app en is soms beveiligd met een wachtwoord.
 
 De in de tijd beperkte code wordt dan afgeleid van het gedeelde geheim en de huidige tijd. Aangezien de code slechts korte tijd geldig is, kan een adversair zonder toegang tot het gedeelde geheim geen nieuwe codes genereren.
 
 Als je een hardware beveiligingssleutel hebt met TOTP ondersteuning (zoals een YubiKey met [Yubico Authenticator](https://yubico.com/products/yubico-authenticator)), raden we je aan om je "gedeelde geheimen" op te slaan op de hardware. Hardware zoals de YubiKey werd ontwikkeld met de bedoeling het "gedeelde geheim" moeilijk te ontfutselen en te kopiëren te maken. Een YubiKey is ook niet verbonden met het internet, in tegenstelling tot een telefoon met een TOTP-app.
 
-In tegenstelling tot [WebAuthn](#fido-fast-identity-online)biedt TOTP geen bescherming tegen [phishing](https://en.wikipedia.org/wiki/Phishing) of hergebruikaanvallen. Als een tegenstander een geldige code van je krijgt, mag hij die zo vaak gebruiken als hij wil totdat de code is verlopen (over het algemeen 60 seconden.
+In tegenstelling tot [WebAuthn](#fido-fast-identity-online)biedt TOTP geen bescherming tegen [phishing](https://en.wikipedia.org/wiki/Phishing) of hergebruikaanvallen. Als een tegenstander een geldige code van je krijgt, mag hij deze zo vaak gebruiken als hij wil totdat deze verloopt (meestal 60 seconden).
 
 Een tegenstander kan een website opzetten om een officiële dienst te imiteren in een poging om je te verleiden jouw gebruikersnaam, wachtwoord en huidige TOTP-code te geven. Als de tegenstander vervolgens deze vastgelegde gegevens gebruikt, kan hij op de echte dienst inloggen en de account kapen.
 
@@ -63,7 +63,7 @@ Wanneer je inlogt op een website, hoeft je alleen maar de beveiligingssleutel fy
 De dienst zal dan het eenmalige wachtwoord doorsturen naar de Yubico OTP server voor validatie. Zowel op de sleutel als op de validatieserver van Yubico wordt een teller opgehoogd. De OTP kan slechts één keer worden gebruikt, en wanneer een authenticatie met succes plaatsvindt, wordt de teller verhoogd, waardoor hergebruik van de OTP wordt voorkomen. Yubico geeft een [gedetailleerd document](https://developers.yubico.com/OTP/OTPs_Explained.html) over het proces.
 
 <figure markdown>
-  Yubico OTP](../assets/img/multi-factor-authentication/yubico-otp.png)
+  ![Yubico OTP](../assets/img/multi-factor-authentication/yubico-otp.png)
 </figure>
 
 Er zijn enkele voor- en nadelen aan het gebruik van Yubico OTP in vergelijking met TOTP.

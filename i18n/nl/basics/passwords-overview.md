@@ -1,10 +1,10 @@
 ---
 title: Introduction to Passwords
 icon: material/form-textbox-password
-description: These are some tips and tricks on how to create the strongest passwords and keep your accounts secure.
+description: Dit zijn enkele tips en trucs om de sterkste wachtwoorden te maken en je accounts veilig te houden.
 ---
 
-Wachtwoorden zijn een essentieel onderdeel van ons dagelijkse digitale leven. We use them to protect our accounts, our devices, and our secrets. Hoewel ze vaak het enige zijn tussen ons en een tegenstander die uit is op onze privégegevens, wordt er niet veel aandacht aan besteed, wat er vaak toe leidt dat mensen wachtwoorden gebruiken die gemakkelijk geraden of gebruteforcet kunnen worden.
+Wachtwoorden zijn een essentieel onderdeel van ons dagelijkse digitale leven. We gebruiken ze om onze accounts, onze apparaten en onze geheimen te beschermen. Hoewel ze vaak het enige zijn tussen ons en een tegenstander die op onze privégegevens uit is, wordt er niet veel aandacht aan besteed, wat er vaak toe leidt dat mensen wachtwoorden gebruiken die gemakkelijk geraden of geforceerd kunnen worden.
 
 ## Best practices
 
@@ -12,7 +12,7 @@ Wachtwoorden zijn een essentieel onderdeel van ons dagelijkse digitale leven. We
 
 Imagine this: You sign up for an account with the same e-mail and password on multiple online services. Als een van die dienstverleners kwaadwillend is, of hun dienst een datalek heeft waardoor uw wachtwoord in een onversleuteld formaat wordt vrijgegeven, hoeft een kwaadwillende alleen maar die combinatie van e-mail en wachtwoord te proberen bij meerdere populaire diensten totdat hij iets vindt. Het maakt dan niet uit hoe sterk dat ene wachtwoord is, omdat ze het al hebben.
 
-Dit heet [credential stuffing](https://en.wikipedia.org/wiki/Credential_stuffing), en het is een van de meest voorkomende manieren waarop jouw accounts kunnen worden gecompromitteerd door kwaadwillenden. Om dit te voorkomen, moet u ervoor zorgen dat u uw wachtwoorden nooit opnieuw gebruikt.
+Dit heet [credential stuffing](https://en.wikipedia.org/wiki/Credential_stuffing), en het is een van de meest voorkomende manieren waarop jouw accounts kunnen worden gecompromitteerd door kwaadwillenden. Om dit te voorkomen, moet je ervoor zorgen dat je je wachtwoorden nooit opnieuw gebruikt.
 
 ### Gebruik willekeurig gegenereerde wachtwoorden
 
@@ -24,10 +24,10 @@ Al onze [aanbevolen wachtwoordmanagers](../passwords.md) bevatten een ingebouwde
 
 Wachtwoorden die je moet onthouden (zoals het hoofdwachtwoord van jouw wachtwoordmanager) moet je niet te vaak veranderen, tenzij je reden hebt om aan te nemen dat ze gecompromitteerd zijn, omdat je door ze te vaak te veranderen het risico loopt ze te vergeten.
 
-When it comes to passwords that you don't have to remember (such as passwords stored inside your password manager), if your [threat model](threat-modeling.md) calls for it, we recommend going through important accounts (especially accounts that don't use multifactor authentication) and changing their password every couple of months, in case they have been compromised in a data breach that hasn't become public yet. Bij de meeste wachtwoordmanagers kunt u een vervaldatum voor uw wachtwoord instellen om dit gemakkelijker te beheren.
+Als het gaat om wachtwoorden die je niet hoeft te onthouden (zoals wachtwoorden die zijn opgeslagen in je wachtwoordmanager), raden we je aan om, als je [dreigingsmodel](threat-modeling.md) daarom vraagt, belangrijke accounts door te nemen (vooral accounts die geen multifactorauthenticatie gebruiken) en hun wachtwoord om de paar maanden te wijzigen, voor het geval ze zijn gecompromitteerd in een datalek dat nog niet openbaar is gemaakt. Bij de meeste wachtwoordmanagers kun je een vervaldatum voor je wachtwoord instellen om dit gemakkelijker te beheren.
 
 <div class="admonition tip" markdown>
-<p class="admonition-title">Checking for data breaches</p>
+<p class="admonition-title">Controleren op datalekken</p>
 
 Als je met jouw wachtwoordmanager kunt controleren op gecompromitteerde wachtwoorden, doe dat dan en wijzig onmiddellijk alle wachtwoorden die bij een datalek bekend zijn geworden. Je kunt ook de [Have I Been Pwned's Latest Breaches feed](https://feeds.feedburner.com/HaveIBeenPwnedLatestBreaches) volgen met behulp van een [nieuwsaggregator](../news-aggregators.md).
 
@@ -37,7 +37,7 @@ Als je met jouw wachtwoordmanager kunt controleren op gecompromitteerde wachtwoo
 
 ### Wachtwoorden
 
-Veel diensten leggen bepaalde criteria op voor wachtwoorden, zoals een minimale of maximale lengte, en welke speciale tekens eventueel mogen worden gebruikt. Gebruik de ingebouwde wachtwoordgenerator van uw wachtwoord manager om wachtwoorden te maken die zo lang en complex zijn als de dienst toelaat, met hoofdletters en kleine letters, cijfers en speciale tekens.
+Veel diensten leggen bepaalde criteria op voor wachtwoorden, zoals een minimale of maximale lengte, en welke speciale tekens eventueel mogen worden gebruikt. Gebruik de ingebouwde wachtwoordgenerator van je wachtwoord manager om wachtwoorden te maken die zo lang en complex zijn als de dienst toelaat, met hoofdletters en kleine letters, cijfers en speciale tekens.
 
 Als je een wachtwoord nodig hebt dat je kunt onthouden, raden wij een [diceware wachtwoord zinnen](#diceware-passphrases) aan.
 
@@ -47,7 +47,7 @@ Diceware is een methode om wachtzinnen te maken die gemakkelijk te onthouden zij
 
 Diceware passphrases zijn een geweldige optie wanneer je jouw gegevens uit het hoofd moet leren of handmatig moet invoeren, zoals voor het hoofdwachtwoord van jouw wachtwoord manager of het coderingswachtwoord van jouw apparaat.
 
-Een voorbeeld van een diceware wachtwoord zin is:  `zichtbaar snelheid hond terughoudend zeventien weergegeven potlood`.
+Een voorbeeld van een diceware wachtwoord zin is: `zichtbaar snelheid hond terughoudend zeventien weergegeven potlood`.
 
 Volg deze stappen om een diceware passphrase te genereren met echte dobbelstenen:
 
@@ -60,14 +60,14 @@ These instructions assume that you are using [EFF's large word list](https://eff
 
 1. Gooi vijf keer met een zeszijdige dobbelsteen en noteer het getal na elke worp.
 
-2. Laten we bijvoorbeeld zeggen dat u `2-5-2-6-6`heeft gerold. Look through the [EFF's large word list](https://eff.org/files/2016/07/18/eff_large_wordlist.txt) for the word that corresponds to `25266`.
+2. Laten we bijvoorbeeld zeggen dat u `2-5-2-6-6`heeft gerold. Zoek in de [grote woordenlijst van EFF](https://eff.org/files/2016/07/18/eff_large_wordlist.txt) naar het woord dat overeenkomt met `25266`.
 
-3. U vindt het woord `gecodeerd`. Schrijf dat woord op.
+3. Je zult het woord `gecodeerd` vinden. Schrijf dat woord op.
 
 4. Herhaal dit proces totdat jouw wachtwoord zoveel woorden bevat als je nodig hebt, die je moet scheiden met een spatie.
 
 <div class="admonition warning" markdown>
-<p class="admonition-title">Important</p>
+<p class="admonition-title">Belangrijk</p>
 
 Je moet **niet** opnieuw woorden rollen totdat je een combinatie van woorden krijgt die je aanspreekt. Het proces moet volledig willekeurig zijn.
 

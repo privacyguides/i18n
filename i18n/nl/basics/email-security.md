@@ -1,17 +1,17 @@
 ---
 meta_title: "Waarom e-mail niet de beste keuze is voor privacy en veiligheid - Privacy Guides"
-title: Email beveiliging
+title: E-mail Beveiliging
 icon: material/email
-description: Email is insecure in many ways, and these are some of the reasons it isn't our top choice for secure communications.
+description: E-mail is op veel manieren onveilig en dit zijn enkele van de redenen waarom het niet onze eerste keuze is voor veilige communicatie.
 ---
 
-E-mail is standaard een onveilige vorm van communicatie. You can improve your email security with tools such as OpenPGP, which add end-to-end encryption to your messages, but OpenPGP still has a number of drawbacks compared to encryption in other messaging applications.
+E-mail is standaard een onveilige vorm van communicatie. Je kunt je e-mailbeveiliging verbeteren met tools zoals OpenPGP, die end-to-end encryptie toevoegen aan je berichten, maar OpenPGP heeft nog steeds een aantal nadelen vergeleken met encryptie in andere berichtenapplicaties.
 
-Als gevolg hiervan wordt e-mail het beste gebruikt voor het ontvangen van transactionele e-mails (zoals meldingen, verificatie-e-mails, wachtwoordresets, enz.) van de services waarvoor je je online aanmeldt, niet voor het communiceren met anderen.
+Als gevolg hiervan wordt e-mail het beste gebruikt voor het ontvangen van transactionele e-mails (zoals meldingen, verificatie e-mails, wachtwoordresets, enz.) van de services waarvoor je je online aanmeldt, niet voor het communiceren met anderen.
 
 ## Overzicht van e-mailversleuteling
 
-De standaardmanier om E2EE toe te voegen aan e-mails tussen verschillende e-mailproviders is door OpenPGP te gebruiken. There are different implementations of the OpenPGP standard, the most common being [GnuPG](../encryption.md#gnu-privacy-guard) and [OpenPGP.js](https://openpgpjs.org).
+De standaardmanier om E2EE toe te voegen aan e-mails tussen verschillende e-mailproviders is door OpenPGP te gebruiken. Er zijn verschillende implementaties van de OpenPGP-standaard, waarvan [GnuPG](../encryption.md#gnu-privacy-guard) en [OpenPGP.js](https://openpgpjs.org) de meest voorkomende zijn.
 
 Even if you use OpenPGP, it does not support [forward secrecy](https://en.wikipedia.org/wiki/Forward_secrecy), which means if the private key of either you or the message recipient is ever stolen, all previous messages encrypted with it will be exposed. Daarom bevelen wij [instant messengers](../real-time-communication.md) aan, die indien mogelijk forward secrecy implementeren in plaats van e-mail voor communicatie van persoon tot persoon.
 
