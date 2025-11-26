@@ -13,7 +13,7 @@ cover: file-sharing.webp
 
 ## 檔案分享
 
-If you already use [Proton Drive](cloud.md#proton-drive)[^1] or have a [Bitwarden](passwords.md#bitwarden) Premium[^2] subscription, consider using the file sharing capabilities that they each offer, both of which use end-to-end encryption. 如果沒有，則這裡列出的獨立選項可確保您打算共享的檔案不會被遠端伺服器讀取。
+若您已使用 [Proton Drive](cloud.md#proton-drive)[^1] 或已訂閱 [Bitwarden](passwords.md#bitwarden) Premium[^2]，請考慮使用其各自的檔案分享功能，這兩個服務都使用端到端加密。 如果沒有，則這裡列出的獨立選項可確保您打算共享的檔案不會被遠端伺服器讀取。
 
 ### Send
 
@@ -23,11 +23,11 @@ If you already use [Proton Drive](cloud.md#proton-drive)[^1] or have a [Bitwarde
 
 **Send** 是分支自 Mozilla 已停止的 Firefox Send服務，它允許您使用鏈接將檔案發送給其他人。 檔案在您的裝置上已加密，因此無法被伺服器讀取，並且它們也可以選擇受密碼保護。 Send 維護者有託管自己的 [公開伺服器](https://send.vis.ee)。 你可以利用其他公開伺服器，也可以自行託管 Send。
 
-[:octicons-home-16: Homepage](https://send.vis.ee){ .md-button .md-button--primary }
-[:octicons-server-16:](https://github.com/timvisee/send-instances){ .card-link title="Public Instances"}
-[:octicons-info-16:](https://github.com/timvisee/send#readme){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/timvisee/send){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://github.com/sponsors/timvisee){ .card-link title="Contribute" }
+[:octicons-home-16: 首頁](https://send.vis.ee){ .md-button .md-button--primary }
+[:octicons-server-16:](https://github.com/timvisee/send-instances){ .card-link title="公開站台"}
+[:octicons-info-16:](https://github.com/timvisee/send#readme){ .card-link title="文件" }
+[:octicons-code-16:](https://github.com/timvisee/send){ .card-link title="原始碼" }
+[:octicons-heart-16:](https://github.com/sponsors/timvisee){ .card-link title="貢獻" }
 
 </details>
 
@@ -47,13 +47,13 @@ ffsend upload --host https://send.vis.ee/ FILE
 
 **OnionShare** 是一個開放原始碼工具，可讓您安全地 [:material-incognito: 匿名](basics/common-threats.md#anonymity-vs-privacy){ .pg-purple } 分享任何大小的檔案。 它的運作方式是啟動一個網路伺服器，使其以 Tor 洋蔥服務 的方式存取，並提供一個無法猜測的 URL，您可以與收件者分享該 URL 來下載或傳送檔案。
 
-[:octicons-home-16: Homepage](https://onionshare.org){ .md-button .md-button--primary }
-[:simple-torbrowser:](http://lldan5gahapx5k7iafb3s4ikijc4ni7gx5iywdflkba5y2ezyg6sjgyd.onion){ .card-link title="Onion Service" }
-[:octicons-info-16:](https://docs.onionshare.org){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/onionshare/onionshare){ .card-link title="Source Code" }
+[:octicons-home-16: 首頁](https://onionshare.org){ .md-button .md-button--primary }
+[:simple-torbrowser:](http://lldan5gahapx5k7iafb3s4ikijc4ni7gx5iywdflkba5y2ezyg6sjgyd.onion){ .card-link title="Onion 服務" }
+[:octicons-info-16:](https://docs.onionshare.org){ .card-link title="文件" }
+[:octicons-code-16:](https://github.com/onionshare/onionshare){ .card-link title="原始碼" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>下載</summary>
 
 - [:fontawesome-brands-windows: Windows](https://onionshare.org/#download)
 - [:simple-apple: macOS](https://onionshare.org/#download)
@@ -90,7 +90,7 @@ OnionShare 提供透過 [Tor 橋接器](https://docs.onionshare.org/2.6.2/en/tor
 [:octicons-heart-16:](https://syncthing.net/donations){ .card-link title=捐款 }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>下載</summary>
 
 - [:fontawesome-brands-windows: Windows](https://syncthing.net/downloads)
 - [:simple-apple: macOS](https://syncthing.net/downloads)

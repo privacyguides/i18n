@@ -35,7 +35,7 @@ description: 這些服務可協助您保護您的隱私不受商家和其他追�
 ![Privacy.com logo](assets/img/financial-services/privacy_com.svg#only-light){ align=right }
 ![Privacy.com logo](assets/img/financial-services/privacy_com-dark.svg#only-dark){ align=right }
 
-**Privacy.com** 的免費方案允許您每月最多創建 12 張虛擬卡，並可設定卡片的支付上限與立即關閉卡片。 Their paid plans provide higher limits on the number of cards that can be created each month.
+**Privacy.com** 的免費方案允許您每月最多創建 12 張虛擬卡，並可設定卡片的支付上限與立即關閉卡片。 他們的付費方案提供更高的每月可建立卡片數量上限。
 
 [:octicons-home-16: 首頁](https://privacy.com){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://privacy.com/privacy-policy){ .card-link title="隱私權政策" }
@@ -45,7 +45,7 @@ description: 這些服務可協助您保護您的隱私不受商家和其他追�
 
 </div>
 
-Privacy.com gives information about the merchants you purchase from to your bank by [default](https://support.privacy.com/hc/en-us/articles/360012407533-What-will-I-see-on-my-bank-statement-when-I-make-a-purchase-with-Privacy). Their "[private spend mode](https://support.privacy.com/hc/en-us/articles/26732314558487-What-is-Private-Spend-Mode)" feature hides merchant information from your bank, so your bank only sees that a purchase was made with Privacy.com, but not where that money was spent. 然而，這並非萬無一失，而且──Privacy.com 仍可瞭解正在與您交易的商家。
+Privacy.com [預設](https://support.privacy.com/hc/en-us/articles/360012407533-What-will-I-see-on-my-bank-statement-when-I-make-a-purchase-with-Privacy)會將您購買商品的商家資訊提供給您的銀行。 他們的「[隱私付款模式](https://support.privacy.com/hc/en-us/articles/26732314558487-What-is-Private-Spend-Mode)」功能會隱藏商家資訊，讓您的銀行僅能看到交易透過 Privacy.com 完成，卻無法得知款項的實際流向。 然而，這並非萬無一失，而且──Privacy.com 仍可瞭解正在與您交易的商家。
 
 ### MySudo （美國，付費）
 

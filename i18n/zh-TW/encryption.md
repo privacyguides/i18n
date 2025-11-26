@@ -1,5 +1,5 @@
 ---
-meta_title: "Recommended Encryption Software: VeraCrypt, Cryptomator, and OpenPGP - Privacy Guides"
+meta_title: "推薦的加密軟體：VeraCrypt、Cryptomator 與 OpenPGP - Privacy Guides"
 title: "加密軟體"
 icon: material/file-lock
 description: 數據加密是控制誰可以訪問它的唯一方法。 這些工具允許您加密電子郵件和任何其他檔案。
@@ -47,7 +47,7 @@ cover: encryption.webp
 
 Cryptomator 使用 AES-256 加密來加密檔案和檔案名稱。 Cryptomator 無法加密中繼資料，例如存取、修改和創建時間戳記，也無法加密檔案和資料夾的數量和大小。
 
-Cryptomator is free to use on all desktop platforms, as well as on iOS in "read only" mode. Cryptomator offers [paid](https://cryptomator.org/pricing) apps with full functionality on iOS and Android. The Android version can be purchased anonymously via [ProxyStore](https://cryptomator.org/coop/proxystore).
+Cryptomator 可在所有桌面平台上免費使用，也能在 iOS 上以「唯讀」模式使用。 Cryptomator 在 iOS 與 Android 上提供功能完整的[付費](https://cryptomator.org/pricing)應用程式。 Android 版本可透過 [ProxyStore](https://cryptomator.org/coop/proxystore) 匿名購買。
 
 一些 Cryptomator 加密程式庫 [已被Cure53審核](https://community.cryptomator.org/t/has-there-been-a-security-review-audit-of-cryptomator/44) 。 稽核程式庫的範圍包括： [cryptolib](https://github.com/cryptomator/cryptolib)、 [cryptofs](https://github.com/cryptomator/cryptofs)、 [siv-mode](https://github.com/cryptomator/siv-mode) 和 [cryptomator-objc-cryptor](https://github.com/cryptomator/cryptomator-objc-cryptor)。 審計並未包含[cryptolib-swift](https://github.com/cryptomator/cryptolib-swift)它是 Cryptomator 運用在 iOS 程式庫。
 
@@ -86,7 +86,7 @@ VeraCrypt是已停產的 TrueCrypt 項目的分支。 根據其開發人員的�
 
 使用 VeraCrypt 加密時，您可以選擇不同的 [雜湊函式](https://en.wikipedia.org/wiki/VeraCrypt#Encryption_scheme)。 我們建議您**只**選擇 [SHA-512](https://en.wikipedia.org/wiki/SHA-512)，並堅持使用 [AES](https://en.wikipedia.org/wiki/Advanced_Encryption_Standard) 區塊加密法。
 
-TrueCrypt has been [audited a number of times](https://en.wikipedia.org/wiki/TrueCrypt#Security_audits), and VeraCrypt has also been [audited separately](https://en.wikipedia.org/wiki/VeraCrypt#VeraCrypt_audit).
+TrueCrypt 已[接受了許多次的稽核](https://en.wikipedia.org/wiki/TrueCrypt#Security_audits)，而 VeraCrypt 也曾[獨立接受稽核](https://en.wikipedia.org/wiki/VeraCrypt#VeraCrypt_audit)。
 
 ## 作業系統加密
 
@@ -160,7 +160,7 @@ Windows 的專業版、企業版和教育版均[正式支援](https://support.mi
 
 ![FileVault logo](assets/img/encryption-software/filevault.png){ align=right }
 
-**FileVault** 是 macOS 內建的即時磁區加密方案。 FileVault takes advantage of the [hardware security capabilities](os/macos-overview.md#hardware-security) present on an Apple Silicon SoC or T2 Security Chip.
+**FileVault** 是 macOS 內建的即時磁區加密方案。 FileVault 可以善用 Apple Silicon SoC 或 T2 安全晶片所具備的[硬體安全功能](os/macos-overview.md#hardware-security)。
 
 [:octicons-info-16:](https://support.apple.com/guide/mac-help/encrypt-mac-data-with-filevault-mh11785/mac){ .card-link title="說明文件" }
 
@@ -178,9 +178,9 @@ Windows 的專業版、企業版和教育版均[正式支援](https://support.mi
 
 **LUKS** 是 Linux 預設 FDE 方法。 它可用於加密整個磁區、分割區或建立加密容器。
 
-[:octicons-repo-16: Repository](https://gitlab.com/cryptsetup/cryptsetup#what-the-){ .md-button .md-button--primary }
-[:octicons-info-16:](https://gitlab.com/cryptsetup/cryptsetup/-/wikis/home){ .card-link title="Documentation" }
-[:octicons-code-16:](https://gitlab.com/cryptsetup/cryptsetup){ .card-link title="Source Code" }
+[:octicons-repo-16: 倉庫](https://gitlab.com/cryptsetup/cryptsetup#what-the-){ .md-button .md-button--primary }
+[:octicons-info-16:](https://gitlab.com/cryptsetup/cryptsetup/-/wikis/home){ .card-link title="文件" }
+[:octicons-code-16:](https://gitlab.com/cryptsetup/cryptsetup){ .card-link title="原始碼" }
 
 </details>
 

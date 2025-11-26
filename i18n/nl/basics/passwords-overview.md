@@ -90,34 +90,34 @@ The [EFF's large word list](https://eff.org/files/2016/07/18/eff_large_wordlist.
 
 Let's put all of this in perspective: A seven word passphrase using [EFF's large word list](https://eff.org/files/2016/07/18/eff_large_wordlist.txt) is one of ~1,719,070,799,748,422,500,000,000,000 possible passphrases.
 
-Gemiddeld duurt het proberen van 50% van alle mogelijke combinaties om uw zin te raden. Met dat in gedachten, zelfs als uw tegenstander in staat is tot ~1.000.000.000.000 raden per seconde, zou het hem nog steeds ~27.255.689 jaar kosten om uw wachtwoord te raden. Zelfs als de volgende dingen waar zijn:
+Gemiddeld moet iemand 50% van alle mogelijke combinaties proberen om jouw zin te raden. Met dat in gedachten, zelfs als jouw tegenstander in staat is tot ~1.000.000.000.000 raden per seconde, zou het hem nog steeds ~27.255.689 jaar kosten om jouw wachtwoord te raden. Zelfs als de volgende dingen waar zijn:
 
 - Je tegenstander weet dat je de diceware-methode hebt gebruikt.
-- Your adversary knows the specific word list that you used.
+- Je tegenstander kent de specifieke woordenlijst die je hebt gebruikt.
 - Jouw tegenstander weet hoeveel woorden jouw wachtwoord bevat.
 
 </details>
 
-Kortom, diceware wachtzinnen zijn jouw beste optie wanneer je iets nodig hebt dat zowel gemakkelijk te onthouden is *als* uitzonderlijk sterk.
+Kortom, diceware wachtwoordzinnen zijn jouw beste optie wanneer je iets nodig hebt dat zowel gemakkelijk te onthouden is *als* uitzonderlijk sterk.
 
 ## Wachtwoorden opslaan
 
 ### Wachtwoordmanagers
 
-De beste manier om jouw wachtwoorden op te slaan is met behulp van een wachtwoordmanager. Hiermee kunt je jouw wachtwoorden opslaan in een bestand of in de cloud en ze beschermen met een enkel hoofdwachtwoord. Op die manier hoeft u maar één sterk wachtwoord te onthouden, waarmee je toegang krijgt tot de rest.
+De beste manier om jouw wachtwoorden op te slaan is met behulp van een wachtwoordmanager. Hiermee kunt je jouw wachtwoorden opslaan in een bestand of in de cloud en ze beschermen met een enkel hoofdwachtwoord. Op die manier hoef je maar één sterk wachtwoord te onthouden, waarmee je toegang krijgt tot de rest.
 
-Er zijn veel goede opties om uit te kiezen, zowel cloud-gebaseerd als lokaal. Kies een van onze aanbevolen wachtwoordbeheerders en gebruik deze om sterke wachtwoorden in te stellen voor al jouw accounts. Wij raden je aan om jouw wachtwoordmanager te beveiligen met een [diceware wachtwoord zin](#diceware-passphrases) bestaande uit ten minste zeven woorden.
+Er zijn veel goede opties om uit te kiezen, zowel cloud-gebaseerd als lokaal. Kies een van onze aanbevolen wachtwoordbeheerders en gebruik deze om sterke wachtwoorden in te stellen voor al jouw accounts. Wij raden je aan om jouw wachtwoordmanager te beveiligen met een [diceware wachtwoordzin](#diceware-passphrases) bestaande uit ten minste zeven woorden.
 
 [Lijst van aanbevolen wachtwoordmanagers](../passwords.md ""){.md-button}
 
 <div class="admonition warning" markdown>
-<p class="admonition-title">Don't place your passwords and TOTP tokens inside the same password manager</p>
+<p class="admonition-title">Sla je wachtwoorden en TOTP-tokens niet op in dezelfde wachtwoordmanager</p>
 
-When using [TOTP codes as multifactor authentication](multi-factor-authentication.md#time-based-one-time-password-totp), the best security practice is to keep your TOTP codes in a [separate app](../multi-factor-authentication.md).
+Wanneer je [TOTP-codes als multifactorauthenticatie](multi-factor-authentication.md#time-based-one-time-password-totp) gebruikt, is de beste beveiligingspraktijk om je TOTP-codes in een [afzonderlijke app](../multi-factor-authentication.md) te bewaren.
 
 Het opslaan van jouw TOTP-tokens op dezelfde plaats als jouw wachtwoorden is weliswaar handig, maar beperkt de accounts tot één factor in het geval dat een tegenstander toegang krijgt tot jouw wachtwoord manager.
 
-Verder raden wij af om herstelcodes voor eenmalig gebruik op te slaan in uw wachtwoord manager. Deze moeten apart worden opgeslagen, zoals in een versleutelde container op een offline opslagapparaat.
+Verder raden wij af om herstelcodes voor eenmalig gebruik op te slaan in jouw wachtwoordmanager. Deze moeten apart worden opgeslagen, zoals in een versleutelde container op een offline opslagapparaat.
 
 </div>
 

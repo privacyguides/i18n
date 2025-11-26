@@ -250,23 +250,23 @@ Tuta only directly accepts credit cards and PayPal, however you can use [**crypt
 
 #### :material-check:{ .pg-green } Accountbeveiliging
 
-Tuta supports [two-factor authentication](https://tuta.com/support#2fa) with either TOTP or U2F.
+Tuta ondersteunt [tweestapsverificatie](https://tuta.com/support#2fa) met TOTP of U2F.
 
 #### :material-check:{ .pg-green } Gegevensbeveiliging
 
-Tuta has [zero-access encryption at rest](https://tuta.com/support#what-encrypted) for your emails, [address book contacts](https://tuta.com/support#encrypted-address-book), and [calendars](https://tuta.com/support#calendar). Dit betekent dat de berichten en andere gegevens die in jouw account zijn opgeslagen, alleen door je kunnen worden gelezen.
+Tuta heeft [zero-access encryptie in rust](https://tuta.com/support#what-encrypted) voor je e-mails, [adresboekcontacten](https://tuta.com/support#encrypted-address-book) en [agenda's](https://tuta.com/support#calendar). Dit betekent dat de berichten en andere gegevens die in jouw account zijn opgeslagen, alleen door je kunnen worden gelezen.
 
 #### :material-information-outline:{ .pg-blue } Email Encryptie
 
-Tuta [does not use OpenPGP](https://tuta.com/support/#pgp). Tuta accounts can only receive encrypted emails from non-Tuta email accounts when sent via a [temporary Tuta mailbox](https://tuta.com/support/#encrypted-email-external).
+Tuta [gebruikt geen OpenPGP](https://tuta.com/support/#pgp). Tuta-accounts kunnen alleen versleutelde e-mails ontvangen van niet-Tuta e-mailaccounts als ze worden verzonden via een [tijdelijke Tuta mailbox](https://tuta.com/support/#encrypted-email-external).
 
 #### :material-information-outline:{ .pg-blue } Beëindiging van account
 
-Tuta will [delete inactive free accounts](https://tuta.com/support#inactive-accounts) after six months. Je kunt een gedeactiveerd gratis account opnieuw gebruiken als je betaalt.
+Tuta [verwijdert inactieve gratis accounts](https://tuta.com/support#inactive-accounts) na zes maanden. Je kunt een gedeactiveerd gratis account opnieuw gebruiken als je betaalt.
 
 #### :material-information-outline:{ .pg-blue } Aanvullende functionaliteit
 
-Tuta offers the business version of [Tuta to non-profit organizations](https://tuta.com/blog/secure-email-for-non-profit) for free or with a heavy discount.
+Tuta biedt de zakelijke versie van [Tuta aan non-profitorganisaties](https://tuta.com/blog/secure-email-for-non-profit) gratis aan of met een hoge korting.
 
 ## Criteria
 
@@ -274,23 +274,23 @@ Tuta offers the business version of [Tuta to non-profit organizations](https://t
 
 ### Technologie
 
-Wij beschouwen deze kenmerken als belangrijk om een veilige en optimale dienst te kunnen verlenen. You should consider whether the provider has the features you require.
+Wij beschouwen deze kenmerken als belangrijk om een veilige en optimale dienst te kunnen verlenen. Je moet nagaan of de provider de functies heeft die je nodig hebt.
 
 **Minimum om in aanmerking te komen:**
 
-- Must encrypt email account data at rest with zero-access encryption.
-- Must be capable of exporting emails as [Mbox](https://en.wikipedia.org/wiki/Mbox) or individual .EML with [RFC5322](https://datatracker.ietf.org/doc/rfc5322) standard.
-- Allow users to use their own [domain name](https://en.wikipedia.org/wiki/Domain_name). Aangepaste domeinnamen zijn belangrijk voor gebruikers omdat ze zo hun agentschap van de dienst kunnen behouden, mocht het slecht aflopen of overgenomen worden door een ander bedrijf dat privacy niet hoog in het vaandel heeft staan.
-- Must operate on owned infrastructure, i.e. not built upon third-party email service providers.
+- Versleutelt e-mail accountgegevens in rust met zero-access encryptie.
+- Moet e-mails kunnen exporteren als [Mbox](https://en.wikipedia.org/wiki/Mbox) of individuele .EML met [RFC5322](https://datatracker.ietf.org/doc/rfc5322) standaard.
+- Laat gebruikers hun eigen [domeinnaam](https://en.wikipedia.org/wiki/Domain_name) gebruiken. Aangepaste domeinnamen zijn belangrijk voor gebruikers omdat ze zo hun agentschap van de dienst kunnen behouden, mocht het slecht aflopen of overgenomen worden door een ander bedrijf dat geen prioriteit geeft aan privacy.
+- Moet werken op een eigen infrastructuur, d.w.z. niet gebaseerd op e-mailserviceproviders van derden.
 
 **Beste geval:**
 
-- Should encrypt all account data (contacts, calendars, etc.) at rest with zero-access encryption.
+- Versleutelt alle accountgegevens (contacten, agenda's, etc.) in rust met zero-access encryptie.
 - Should provide integrated webmail E2EE/PGP encryption as a convenience.
 - Should support WKD to allow improved discovery of public OpenPGP keys via HTTP. GnuPG users can get a key with this command: `gpg --locate-key example_user@example.com`.
 - Ondersteuning voor een tijdelijke mailbox voor externe gebruikers. This is useful when you want to send an encrypted email without sending an actual copy to your recipient. Deze e-mails hebben meestal een beperkte levensduur en worden daarna automatisch verwijderd. Zij vereisen ook niet dat de ontvanger cryptografie configureert zoals OpenPGP.
 - Should support [sub-addressing](https://en.wikipedia.org/wiki/Email_address#Sub-addressing).
-- Should allow users to use their own [domain name](https://en.wikipedia.org/wiki/Domain_name). Aangepaste domeinnamen zijn belangrijk voor gebruikers omdat ze zo hun agentschap van de dienst kunnen behouden, mocht het slecht aflopen of overgenomen worden door een ander bedrijf dat privacy niet hoog in het vaandel heeft staan.
+- Should allow users to use their own [domain name](https://en.wikipedia.org/wiki/Domain_name). Aangepaste domeinnamen zijn belangrijk voor gebruikers omdat ze zo hun agentschap van de dienst kunnen behouden, mocht het slecht aflopen of overgenomen worden door een ander bedrijf dat geen prioriteit geeft aan privacy.
 - Catch-all or alias functionality for those who use their own domains.
 - Should use standard email access protocols such as IMAP, SMTP, or [JMAP](https://en.wikipedia.org/wiki/JSON_Meta_Application_Protocol). Standard access protocols ensure customers can easily download all of their email, should they want to switch to another provider.
 - Email provider's services should be available via an [onion service](https://en.wikipedia.org/wiki/.onion).
@@ -302,22 +302,22 @@ Wij geven er de voorkeur aan dat de door ons aanbevolen aanbieders zo weinig mog
 **Minimum om in aanmerking te komen:**
 
 - Must protect sender's IP address, which can involve filtering it from showing in the `Received` header field.
-- Must not require personally identifiable information (PII) besides a username and a password.
-- Privacy policy must meet the requirements defined by the GDPR.
+- Mogen geen persoonlijk identificeerbare informatie (PII) vereisen behalve een gebruikersnaam en een wachtwoord.
+- Het privacybeleid moet voldoen aan de vereisten van de GDPR.
 
 **Beste geval:**
 
-- Should accept [anonymous payment options](advanced/payments.md) ([cryptocurrency](cryptocurrency.md), cash, gift cards, etc.)
-- Should be hosted in a jurisdiction with strong email privacy protection laws.
+- Accepteert [anonieme betalingsopties](advanced/payments.md) ([cryptocurrency](cryptocurrency.md), contant geld, cadeaukaarten, etc.)
+- Moet worden gehost in een rechtsgebied met sterke wetten ter bescherming van e-mailprivacy.
 
 ### Veiligheid
 
-Email servers deal with a lot of very sensitive data. We expect that providers will adopt industry best practices in order to protect their customers.
+E-mailservers verwerken veel zeer gevoelige gegevens. We verwachten dat providers de beste praktijken in de branche zullen toepassen om hun gebruikers te beschermen.
 
 **Minimum om in aanmerking te komen:**
 
-- Protection of webmail with 2FA, such as [TOTP](basics/multi-factor-authentication.md#time-based-one-time-password-totp).
-- Zero-access encryption, which builds on encryption at rest. De provider heeft geen decryptiesleutels voor de gegevens die ze hebben. Dit voorkomt dat een malafide werknemer gegevens lekt waartoe hij toegang heeft, of dat een tegenstander op afstand gegevens vrijgeeft die hij heeft gestolen door ongeoorloofde toegang tot de server te verkrijgen.
+- Bescherming van webmail met 2FA, zoals [TOTP](basics/multi-factor-authentication.md#time-based-one-time-password-totp).
+- Zero access encryptie, bouwt voort op encryptie in rust. De provider heeft geen decryptiesleutels voor de gegevens die ze hebben. Dit voorkomt dat een malafide werknemer gegevens lekt waartoe hij toegang heeft, of dat een tegenstander op afstand gegevens vrijgeeft die hij heeft gestolen door ongeoorloofde toegang tot de server te verkrijgen.
 - [DNSSEC](https://en.wikipedia.org/wiki/Domain_Name_System_Security_Extensions) ondersteuning.
 - No TLS errors or vulnerabilities when being profiled by tools such as [Hardenize](https://hardenize.com), [testssl.sh](https://testssl.sh), or [Qualys SSL Labs](https://ssllabs.com/ssltest); this includes certificate related errors and weak DH parameters, such as those that led to [Logjam](https://en.wikipedia.org/wiki/Logjam_(computer_security)).
 - A server suite preference (optional on TLS 1.3) for strong cipher suites which support forward secrecy and authenticated encryption.
@@ -334,10 +334,10 @@ Email servers deal with a lot of very sensitive data. We expect that providers w
 
 **Beste geval:**
 
-- Should support hardware authentication, i.e. U2F and [WebAuthn](basics/multi-factor-authentication.md#fido-fast-identity-online).
+- Moet hardwareverificatie ondersteunen, d.w.z. U2F en [WebAuthn](basics/multi-factor-authentication.md#fido-fast-identity-online).
 - [DNS Certificatie Autoriteit Autorisatie (CAA) Resource Record](https://tools.ietf.org/html/rfc6844) in aanvulling op DANE ondersteuning.
 - Should implement [Authenticated Received Chain (ARC)](https://en.wikipedia.org/wiki/Authenticated_Received_Chain), which is useful for people who post to mailing lists [RFC8617](https://tools.ietf.org/html/rfc8617).
-- Published security audits from a reputable, third-party firm.
+- Gepubliceerde veiligheidscontroles van een gerenommeerde derde partij.
 - Programma's voor bug-bounty's en/of een gecoördineerd proces voor de openbaarmaking van kwetsbaarheden.
 - Beveiligingsnormen voor websites, zoals:
     - [Inhoud beveiligingsbeleid (CSP)](https://en.wikipedia.org/wiki/Content_Security_Policy)
@@ -345,7 +345,7 @@ Email servers deal with a lot of very sensitive data. We expect that providers w
 
 ### Vertrouwen
 
-You wouldn't trust your finances to someone with a fake identity, so why trust them with your email? Wij eisen van onze aanbevolen aanbieders dat zij hun eigendom of leiderschap openbaar maken. Wij zouden ook graag zien dat regelmatig verslag wordt uitgebracht over de transparantie, met name wat betreft de wijze waarop verzoeken van de overheid worden behandeld.
+Je zou je financiën niet toevertrouwen aan iemand met een valse identiteit, dus waarom zou je je e-mail wel toevertrouwen? Wij eisen van onze aanbevolen aanbieders dat zij hun eigendom of leiderschap openbaar maken. Wij zouden ook graag zien dat regelmatig verslag wordt uitgebracht over de transparantie, met name wat betreft de wijze waarop verzoeken van de overheid worden behandeld.
 
 **Minimum om in aanmerking te komen:**
 
@@ -357,21 +357,21 @@ You wouldn't trust your finances to someone with a fake identity, so why trust t
 
 ### Marketing
 
-With the email providers we recommend, we like to see responsible marketing.
+Bij de e-mailproviders die wij aanbevelen, zien we graag verantwoorde marketing.
 
 **Minimum om in aanmerking te komen:**
 
-- Must self-host analytics (no Google Analytics, Adobe Analytics, etc.).
-- Must not have any irresponsible marketing, which can include the following:
-    - Claims of "unbreakable encryption." Encryption should be used with the intention that it may not be secret in the future when the technology exists to crack it.
-    - Guarantees of protecting anonymity 100%. When someone makes a claim that something is 100%, it means there is no certainty for failure. We know people can quite easily de-anonymize themselves in a number of ways, e.g.:
-        - Reusing personal information e.g. (email accounts, unique pseudonyms, etc.) that they accessed without anonymity software such as Tor
+- Moet zelf analytics hosten (geen Google Analytics, Adobe Analytics, etc.).
+- Mag geen onverantwoorde marketing hebben, wat het volgende kan inhouden:
+    - Claims van "onbreekbare encryptie." Encryptie moet worden gebruikt met de bedoeling dat het in de toekomst niet meer geheim is als de technologie bestaat om het te kraken.
+    - Garanties van 100% bescherming van anonimiteit. Als iemand beweert dat iets 100% is, betekent dit dat er geen zekerheid is voor mislukking. We weten dat mensen zichzelf vrij gemakkelijk op een aantal manieren kunnen de-anonimiseren, bijv.:
+        - Hergebruiken van persoonlijke informatie (e-mailaccounts, unieke pseudoniemen, etc.) die ze gebruikten zonder anonimiteitssoftware zoals Tor
         - [Browser vingerafdrukken](https://en.wikipedia.org/wiki/Device_fingerprint#Browser_fingerprint)
 
 **Beste geval:**
 
-- Clear and easy-to-read documentation for tasks like setting up 2FA, email clients, OpenPGP, etc.
+- Duidelijke en makkelijk te lezen documentatie voor taken zoals het instellen van 2FA, e-mailclients, OpenPGP, enz.
 
 ### Extra functionaliteit
 
-While not strictly requirements, there are some other convenience or privacy factors we looked into when determining which providers to recommend.
+Hoewel het geen strikte vereisten zijn, hebben we ook gekeken naar enkele andere factoren met betrekking tot gemak of privacy bij het bepalen welke providers we aanbevelen.

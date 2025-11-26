@@ -10,7 +10,7 @@ cover: email-clients.webp
 - [:material-server-network: 服務提供商](basics/common-threats.md#privacy-from-service-providers ""){.pg-teal}
 - [:material-target-account: 針對性攻擊](basics/common-threats.md#attacks-against-specific-individuals ""){.pg-red}
 
-The **email clients** we recommend support both [OpenPGP](encryption.md#openpgp) and strong authentication such as [Open Authorization (OAuth)](basics/account-creation.md#sign-in-with-oauth). OAuth 允許您使用[多因素驗證](basics/multi-factor-authentication.md)，以防止帳號盜用。
+我們推薦的**電子郵件客戶端**同時支援 [OpenPGP](encryption.md#openpgp) 與較強的身份驗證，例如[開放授權 (OAuth)](basics/account-creation.md#sign-in-with-oauth)。 OAuth 允許您使用[多因素驗證](basics/multi-factor-authentication.md)，以防止帳號盜用。
 
 <details class="warning" markdown>
 <summary>電子郵件不提供前向保密</summary>
@@ -55,7 +55,7 @@ OpenPGP 也不支援[前向保密](https://en.wikipedia.org/wiki/Forward_secrecy
 <div class="admonition warning" markdown>
 <p class="admonition-title">警告</p>
 
-When replying to someone on a mailing list in Thunderbird Mobile, the "reply" option may also include the mailing list. 更多資訊請參閱 [thunderbird/thunderbird-android #3738](https://github.com/thunderbird/thunderbird-android/issues/3738)。
+在 Thunderbird 行動版中回覆郵件清單成員時，「回覆」選項也可能包含該郵件清單本身。 更多資訊請參閱 [thunderbird/thunderbird-android #3738](https://github.com/thunderbird/thunderbird-android/issues/3738)。
 
 </div>
 
@@ -139,15 +139,15 @@ Apple Mail 具備在背景載入遠端內容或完全封鎖遠端內容的功能
 
 <div class="admonition recommendation" markdown>
 
-![Evolution logo](assets/img/email-clients/evolution.svg){ align=right }
+![Evolution 標誌](assets/img/email-clients/evolution.svg){ align=right }
 
-**Evolution** is a personal information management application that provides integrated mail, calendaring, and address book functionality. Evolution has extensive [documentation](https://gnome.pages.gitlab.gnome.org/evolution/help) to help you get started.
+**Evolution** 是一款個人資訊管理應用程式，提供整合式郵件、行事曆與通訊錄功能。 Evolution 有大量的[說明文件](https://gnome.pages.gitlab.gnome.org/evolution/help)協助您開始使用。
 
-[:octicons-home-16: Homepage](https://gitlab.gnome.org/GNOME/evolution/-/wikis/home){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://gitlab.gnome.org/GNOME/evolution/-/wikis/Privacy-Policy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://gnome.pages.gitlab.gnome.org/evolution/help){ .card-link title="Documentation" }
-[:octicons-code-16:](https://gitlab.gnome.org/GNOME/evolution){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://gnome.org/donate){ .card-link title="Contribute" }
+[:octicons-home-16: 首頁](https://gitlab.gnome.org/GNOME/evolution/-/wikis/home){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://gitlab.gnome.org/GNOME/evolution/-/wikis/Privacy-Policy){ .card-link title="隱私權政策" }
+[:octicons-info-16:](https://gnome.pages.gitlab.gnome.org/evolution/help){ .card-link title="文件" }
+[:octicons-code-16:](https://gitlab.gnome.org/GNOME/evolution){ .card-link title="原始碼" }
+[:octicons-heart-16:](https://gnome.org/donate){ .card-link title="貢獻" }
 
 <details class="downloads" markdown>
 <summary>下載</summary>

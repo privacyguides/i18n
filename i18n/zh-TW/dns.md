@@ -183,6 +183,6 @@ Anonymized DNS [不會](advanced/dns-overview.md#why-shouldnt-i-use-encrypted-dn
 
     Control D：[*隱私權政策*](https://controld.com/privacy) [^4]: Mullvad 的 DNS 服務同時提供給 Mullvad VPN 的訂戶與非訂戶使用。 他們的隱私政策明確聲稱他們不會以任何方式記錄 DNS 請求。
 
-    Mullvad：[*不記錄使用者活動政策*](https://mullvad.net/en/help/no-logging-data-policy) [^5]: Quad9 會蒐集部份資料，用來監控威脅與回應。 That data may then be remixed and shared for purposes like furthering their security research. Quad9 不會收集或記錄 IP 位址或其他他們認為可識別個人身份的資料。
+    Mullvad：[*不記錄使用者活動政策*](https://mullvad.net/en/help/no-logging-data-policy) [^5]: Quad9 會蒐集部份資料，用來監控威脅與回應。 這些資料可能會被重新混合與分享，用來促進其安全研究等目的。 Quad9 不會收集或記錄 IP 位址或其他他們認為可識別個人身份的資料。
 
-    Quad9: [*Data and Privacy Policy*](https://quad9.net/privacy/policy)
+    Quad9：[*資料與隱私權政策*](https://quad9.net/privacy/policy)
