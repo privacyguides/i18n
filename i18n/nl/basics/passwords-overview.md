@@ -41,18 +41,18 @@ Veel diensten leggen bepaalde criteria op voor wachtwoorden, zoals een minimale 
 
 Als je een wachtwoord nodig hebt dat je kunt onthouden, raden wij een [diceware wachtwoord zinnen](#diceware-passphrases) aan.
 
-### Diceware wachtwoord zinnen
+### Diceware wachtwoordzinnen
 
-Diceware is een methode om wachtzinnen te maken die gemakkelijk te onthouden zijn, maar moeilijk te raden.
+Diceware is een methode om wachtwoordzinnen te maken die gemakkelijk te onthouden zijn, maar moeilijk te raden.
 
-Diceware passphrases zijn een geweldige optie wanneer je jouw gegevens uit het hoofd moet leren of handmatig moet invoeren, zoals voor het hoofdwachtwoord van jouw wachtwoord manager of het coderingswachtwoord van jouw apparaat.
+Diceware wachtwoordzinnen zijn een geweldige optie wanneer je jouw gegevens uit het hoofd moet leren of handmatig moet invoeren, zoals voor het hoofdwachtwoord van jouw wachtwoord manager of het coderingswachtwoord van jouw apparaat.
 
-Een voorbeeld van een diceware wachtwoord zin is: `zichtbaar snelheid hond terughoudend zeventien weergegeven potlood`.
+Een voorbeeld van een diceware wachtwoordzin is: `zichtbaar snelheid hond terughoudend zeventien weergegeven potlood`.
 
-Volg deze stappen om een diceware passphrase te genereren met echte dobbelstenen:
+Volg deze stappen om een diceware wachtwoordzin te genereren met echte dobbelstenen:
 
 <div class="admonition Note" markdown>
-<p class="admonition-title">Note</p>
+<p class="admonition-title">Opmerking</p>
 
 These instructions assume that you are using [EFF's large word list](https://eff.org/files/2016/07/18/eff_large_wordlist.txt) to generate the passphrase, which requires five dice rolls per word. Other word lists may require more or less rolls per word, and may require a different amount of words to achieve the same entropy.
 
@@ -73,12 +73,12 @@ Je moet **niet** opnieuw woorden rollen totdat je een combinatie van woorden kri
 
 </div>
 
-If you don't have access to or would prefer to not use real dice, you can use your password manager's built-in password generator, as most of them have the option to generate diceware passphrases in addition to regular passwords. We recommend setting the generated passphrase length to at least 6 words.
+Als je geen toegang hebt tot of liever geen echte dobbelstenen gebruikt, kunt je de ingebouwde wachtwoordgenerator van jouw wachtwoord manager gebruiken, omdat de meeste daarvan de optie hebben om naast gewone wachtwoorden ook diceware wachtwoordzinnen te genereren. We raden aan om de lengte van de gegenereerde wachtwoordzin in te stellen op ten minste 6 woorden.
 
 We also recommend using [EFF's large word list](https://eff.org/files/2016/07/18/eff_large_wordlist.txt) to generate your diceware passphrases, as it offers the exact same security as the original list, while containing words that are easier to memorize. There are also [word lists in different languages](https://theworld.com/~reinhold/diceware.html#Diceware%20in%20Other%20Languages|outline), if you do not want your passphrase to be in English.
 
 <details class="note" markdown>
-<summary>Explanation of entropy and strength of diceware passphrases</summary>
+<summary>Uitleg van entropie en sterkte van diceware wachtwoordzinnen</summary>
 
 To demonstrate how strong diceware passphrases are, we'll use the aforementioned seven word passphrase (`viewable fastness reluctant squishy seventeen shown pencil`) and [EFF's large word list](https://eff.org/files/2016/07/18/eff_large_wordlist.txt) as an example.
 
