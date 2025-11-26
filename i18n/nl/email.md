@@ -143,13 +143,13 @@ Proton Mail's [Unlimited](https://proton.me/support/proton-plans#proton-unlimite
 
 ![Mailbox Mail logo](assets/img/email/mailbox-mail.svg){ align=right }
 
-**Mailbox Mail** (formerly *Mailbox.org*) is an email service with a focus on being secure, ad-free, and powered by 100% eco-friendly energy. Ze zijn sinds 2014 in bedrijf. Mailbox Mail is based in Berlin, Germany.
+**Mailbox Mail** (formerly *Mailbox.org*) is an email service with a focus on being secure, ad-free, and powered by 100% eco-friendly energy. Ze zijn sinds 2014 in bedrijf. Mailbox Mail is gevestigd in Berlijn, Duitsland.
 
-Accounts start with up to 2 GB storage, which can be upgraded as needed.
+Accounts beginnen met 2 GB opslagruimte, die naar behoefte kan worden uitgebreid.
 
 [:octicons-home-16: Homepage](https://mailbox.org){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://mailbox.org/en/data-protection-privacy-policy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://kb.mailbox.org/en/private){ .card-link title="Documentation" }
+[:octicons-eye-16:](https://mailbox.org/en/data-protection-privacy-policy){ .card-link title="Privacybeleid" }
+[:octicons-info-16:](https://kb.mailbox.org/en/private){ .card-link title="Documentatie" }
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
@@ -202,7 +202,7 @@ Deze providers slaan je e-mails op met zero-knowledge encryptie, waardoor ze gew
 
 <div class="grid cards" markdown>
 
-- Tuta logo](assets/img/email/tuta.svg#only-light){ .twemoji loading=lazy }![Tuta logo](assets/img/email/tuta-dark.svg#only-dark){ .twemoji loading=lazy } [Tuta](#tuta)
+- ![Tuta logo](assets/img/email/tuta.svg#only-light){ .twemoji loading=lazy }![Tuta logo](assets/img/email/tuta-dark.svg#only-dark){ .twemoji loading=lazy } [Tuta](#tuta)
 
 </div>
 

@@ -1,5 +1,5 @@
 ---
-title: Linux Overview
+title: Linux Overzicht
 icon: simple/linux
 description: Linux is an open-source, privacy-focused desktop operating system alternative, but not all distribitions are created equal.
 ---
@@ -34,7 +34,7 @@ At the moment, desktop Linux [falls behind alternatives](https://discussion.fedo
 
 Additionally, Linux falls behind in implementing [exploit mitigations](https://madaidans-insecurities.github.io/linux.html#exploit-mitigations) which are now standard on other operating systems, such as Arbitrary Code Guard on Windows or Hardened Runtime on macOS. Also, most Linux programs and Linux itself are coded in memory-unsafe languages. Memory corruption bugs are responsible for the [majority of vulnerabilities](https://msrc.microsoft.com/blog/2019/07/a-proactive-approach-to-more-secure-code) fixed and assigned a CVE. While this is also true for Windows and macOS, they are quickly making progress on adopting memory-safe languages such as Rust and Swift, respectively.
 
-## Uw distributie kiezen
+## Je distributie kiezen
 
 Niet alle Linux-distributies zijn gelijk geschapen. Our [Linux recommendation page](../desktop.md) is not meant to be an authoritative source on which distribution you should use, but our recommendations *are* aligned with the following guidelines. These are a few things you should keep in mind when choosing a distribution:
 
@@ -111,7 +111,7 @@ We **highly recommend** that you install microcode updates, as they contain impo
 
 ### Updates
 
-De meeste Linux-distributies zullen automatisch updates installeren of u eraan herinneren om dat te doen. Het is belangrijk om jouw besturingssysteem up-to-date te houden, zodat jouw software wordt gepatcht wanneer een kwetsbaarheid wordt gevonden.
+De meeste Linux-distributies installeren automatisch updates of herinneren je eraan dit te doen. Het is belangrijk om jouw besturingssysteem up-to-date te houden, zodat jouw software wordt gepatcht wanneer een kwetsbaarheid wordt gevonden.
 
 Some distributions (particularly those aimed at advanced users) are more bare bones and expect you to do things yourself (e.g. Arch or Debian). Hiervoor moet de "pakketbeheerder" (`apt`, `pacman`, `dnf`, enz.) handmatig worden uitgevoerd om belangrijke beveiligingsupdates te ontvangen.
 
@@ -127,7 +127,7 @@ Desktop environments that support the [Wayland](https://wayland.freedesktop.org)
 
 Many desktop Linux distributions (Fedora, openSUSE, etc.) come with [NetworkManager](https://en.wikipedia.org/wiki/NetworkManager) to configure Ethernet and Wi-Fi settings.
 
-It is possible to randomize the [MAC address](https://en.wikipedia.org/wiki/MAC_address) when using NetworkManager. Dit zorgt voor wat meer privacy op Wi-Fi-netwerken, omdat het moeilijker wordt specifieke apparaten op het netwerk waarmee u verbonden bent, te traceren. Het doet [**niet**](https://papers.mathyvanhoef.com/wisec2016.pdf) maakt je anoniem.
+It is possible to randomize the [MAC address](https://en.wikipedia.org/wiki/MAC_address) when using NetworkManager. Dit biedt wat meer privacy op Wi-Fi-netwerken omdat het moeilijker wordt om specifieke apparaten te traceren op het netwerk waarmee je verbonden bent. Het maakt je [**niet**](https://papers.mathyvanhoef.com/wisec2016.pdf) anoniem.
 
 In the terminal, create a new file `/etc/NetworkManager/conf.d/00-macrandomize.conf` and add the following to it:
 
@@ -154,11 +154,11 @@ MAC address randomization is primarily beneficial for Wi-Fi connections. For Eth
 
 ### Andere identificatiemiddelen
 
-Er zijn andere systeemidentifiers waar u misschien voorzichtig mee moet zijn. Je moet hier eens over nadenken om te zien of dit van toepassing is op jouw [dreigingsmodel](../basics/threat-modeling.md):
+Er zijn andere systeemidentifiers waar je misschien voorzichtig mee moet zijn. Je moet hier eens over nadenken om te zien of dit van toepassing is op jouw [dreigingsmodel](../basics/threat-modeling.md):
 
 - **Hostnamen:** De hostnaam van jouw systeem wordt gedeeld met de netwerken waarmee je verbinding maakt. Je kunt beter geen identificerende termen zoals jouw naam of besturingssysteem in jouw hostnaam opnemen, maar het bij algemene termen of willekeurige strings houden.
 - **Gebruikersnamen:** Ook jouw gebruikersnaam wordt op verschillende manieren in jouw systeem gebruikt. Gebruik liever algemene termen als "gebruiker" dan jouw eigenlijke naam.
-- **Machine ID:** During installation, a unique machine ID is generated and stored on your device. Overweeg [het in te stellen op een generieke ID](https://madaidans-insecurities.github.io/guides/linux-hardening.html#machine-id).
+- **Machine-ID:** Tijdens de installatie wordt een unieke machine-ID gegenereerd en opgeslagen op je apparaat. Overweeg [het in te stellen op een generieke ID](https://madaidans-insecurities.github.io/guides/linux-hardening.html#machine-id).
 
 ### Systeemtelling
 
