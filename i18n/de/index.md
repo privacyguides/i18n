@@ -1,6 +1,6 @@
 ---
 meta_title: "Privacy Guides: Unabhängige Datenschutz- & Sicherheitsinformationen"
-description: "Privacy Guides, gegründet in 2021, ist die beliebteste & vertrauenswürdigste gemeinnützige Quelle, um Privatsphäre-Tools zu finden und mehr über den Schutz deines digitalen Lebens zu erfahren."
+description: "Privacy Guides, gegründet in 2021, ist die beliebteste & vertrauenswürdigste Non-Profit-Ressource, um Privatsphäre-Tools zu finden und mehr über den Schutz deines digitalen Lebens zu erfahren."
 template: home.html
 social:
   cards_layout: home
@@ -64,12 +64,12 @@ Der Versuch, alle deine Daten ständig vor allen zu schützen ist unpraktisch, t
 </div>
 </div>
 
-## Vertrauenswürdige Datenschutz-Software Bewertungen
+## Vertrauenswürdige Privacy-Software Bewertungen
 
 <div class="grid" markdown>
 
 <div markdown>
-**Privacy Guides** hat eine engagierte [Community](https://discuss.privacyguides.net), die unabhängig verschiedene *Privacy-Tools* und -Dienste überprüft. Alle unsere Empfehlungen erfüllen eine Reihe strenger Kriterien, um sicherzustellen, dass sie den meisten Menschen den größten Nutzen bringen und das beste Gleichgewicht zwischen Privatsphäre, Sicherheit und Komfort bieten. Als Teil einer gemeinnützigen **öffentlichen Wohltätigkeitsorganisation** hat Privacy Guides strenge **journalistische Standards** und Richtlinien, um sicherzustellen, dass unsere Empfehlungen frei von Interessenkonflikten sind, und wir arbeiten nicht mit Anbietern oder Partnerprogrammen zusammen, die unsere Bewertungen und Empfehlungen beeinflussen könnten.
+**Privacy Guides** hat eine engagierte [Community](https://discuss.privacyguides.net), die unabhängig verschiedene *Privacy-Tools* und -Dienste überprüft. Alle unsere Empfehlungen erfüllen eine Reihe strenger Kriterien, um sicherzustellen, dass sie den meisten Menschen den größten Nutzen bringen und das beste Gleichgewicht zwischen Privatsphäre, Sicherheit und Komfort bieten. Als Teil einer gemeinnützigen **öffentlichen Wohltätigkeitsorganisation** hat Privacy Guides strenge **journalistische Standards** und Richtlinien, um sicherzustellen, dass unsere Empfehlungen frei von Interessenkonflikten sind. Zudem arbeiten wir nicht mit Anbietern oder Partnerprogrammen zusammen, die unsere Bewertungen und Empfehlungen beeinflussen könnten.
 
 [:material-heart:{.pg-red} Unterstütze unsere Arbeit](about/donate.md){ class="md-button md-button--primary" data-portal="signup" }
 
@@ -90,7 +90,7 @@ Der Versuch, alle deine Daten ständig vor allen zu schützen ist unpraktisch, t
 
 ![Privacy Guides Logo](assets/brand/logos/png/square/pg-yellow.png){ align=right loading=lazy }
 
-Gegründet im Jahr 2021 aufgrund der Schwierigkeit, unvoreingenommene Rezensenten im VPN- und Privatsphären-Bereich zu finden, ist **Privacy Guides** die beliebteste, vertrauenswürdige, gemeinnützige-Website, die Informationen über den Schutz deiner *persönlichen* Daten und Privatsphäre bietet. Unsere crowdsourced Empfehlungen und Rezensionen von **Privatsphäre/Datenschutz-Tools** und unserer Community mit dem Ziel, anderen zu helfen, setzen uns von anderen Blogs und Content-Creatorn ab. Das Team, das hinter diesem Projekt steht, erforscht seit mehr als 5 Jahren Datenschutz und Sicherheit im Open-Source-Bereich, ursprünglich mit einer inzwischen nicht mehr existierenden Web-Ressource, die schließlich zu *Privacy Guides* wurde, dem Millionen von Lesern vertrauen.
+Gegründet im Jahr 2021 aufgrund der Schwierigkeit, unvoreingenommene Rezensenten im VPN- und Privatsphäre-Bereich zu finden, ist **Privacy Guides** die beliebteste, vertrauenswürdigste Non-Profit-Website mit Informationen zum Schutz deiner *persönlichen* Daten und Privatsphäre. Unsere über Crowdsourcing zusammengetragenen Empfehlungen und Rezensionen von **Privatsphäre-Tools** und unsere Community, die das Ziel hat anderen zu helfen, setzen uns von anderen Blogs und Content-Creatorn ab. Das Team, das hinter diesem Projekt steht, erforscht seit mehr als 5 Jahren Privatsphäre und Sicherheit im Open-Source-Bereich, ursprünglich mit einer inzwischen nicht mehr existierenden Web-Ressource, die schließlich zu dem *Privacy Guides* wurde, dem Millionen von Lesern vertrauen.
 
 *Unsere Website ist werbefrei und steht in keiner Verbindung zu einem der aufgeführten Anbieter.*
 
