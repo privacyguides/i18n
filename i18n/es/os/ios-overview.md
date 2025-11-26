@@ -99,11 +99,9 @@ Ten en cuenta que Bluetooth se activa automáticamente después de cada actualiz
 
 El nombre de dispositivo de tu iPhone contendrá por defecto tu nombre de pila, y éste será visible para cualquiera en las redes a las que te conectes. Deberías cambiarlo por algo más genérico, como "iPhone". Selecciona **Información**→**Nombre** e introduce el nombre de dispositivo que prefieras.
 
-Es importante instalar con frecuencia **Actualizaciones de Software** para obtener las últimas correcciones de seguridad. Puedes activar **Actualizaciones Automáticas** para mantener tu teléfono al día sin necesidad de buscar actualizaciones constantemente. Selecciona **Actualización de Software**→**Actualizaciones Automáticas**:
+It is important to install software updates frequently to get the latest security fixes. You can enable automatic updates to keep your phone up-to-date without needing to constantly check for updates. Selecciona **Actualización de Software**→**Actualizaciones Automáticas**:
 
-- [x] Activa **Descargar Actualizaciones de iOS**
-- [x] Activa **Instalar Actualizaciones de iOS**
-- [x] Activa **Respuestas de Seguridad y Archivos del Sistema**
+- [x] Turn on **Automatically Install**
 
 **AirDrop** se utiliza habitualmente para compartir archivos con facilidad, pero representa un importante riesgo para la privacidad. El protocolo AirDrop transmite constantemente tu información personal a tu entorno, con protecciones de seguridad [muy débiles](https://usenix.org/system/files/sec21-heinrich.pdf). Tu identidad puede ser descubierta fácilmente por los atacantes, incluso con recursos limitados, y el gobierno chino ha [reconocido abiertamente](https://arstechnica.com/security/2024/01/hackers-can-id-unique-apple-airdrop-users-chinese-authorities-claim-to-do-just-that) el uso de tales técnicas para identificar a los usuarios de AirDrop en público desde 2022.
 
@@ -117,7 +115,19 @@ Es importante instalar con frecuencia **Actualizaciones de Software** para obten
 
 Selecciona **Actualización en Segundo Plano** y desactiva las aplicaciones que no quieras que sigan actualizándose en segundo plano. Si no quieres que ninguna aplicación se actualice en segundo plano, puedes volver a seleccionar **Actualización en Segundo Plano** y **desactivarla **.
 
-#### Siri y Buscar
+#### Apple Intelligence y Siri
+
+This is available if your device supports **[Apple Intelligence](https://support.apple.com/guide/iphone/apple-intelligence-and-privacy-iphe3f499e0e/ios)**. Apple Intelligence uses a combination of on-device processing and their **[Private Cloud Compute](https://security.apple.com/blog/private-cloud-compute)** for things that take more processing power than your device can provide.
+
+To see a report of all the requests made to Apple's servers, you can navigate to **Privacy & Security** → **Apple Intelligence Report** and press **Export Activity** to see activity from the either the last 15 minutes or 7 days, depending on what you set it for. De forma similar al **Informe de privacidad de las apps**, que muestra los permisos recientes a los que han accedido las aplicaciones de tu teléfono, el Informe de Apple Intelligence también muestra lo que se envía a los servidores de Apple mientras utilizas Apple Intelligence.
+
+Apple Intelligence can integrate with [ChatGPT](https://support.apple.com/guide/iphone/use-chatgpt-with-apple-intelligence-iph00fd3c8c2/ios). If you want ChatGPT integration, you can navigate to **ChatGPT** and press **Set Up**. If you want to disable it, go to the same place:
+
+- [ ] Desactiva **Usar ChatGPT**
+
+También puedes hacer que te solicite una confirmación cada vez que dejes activada la integración con ChatGPT:
+
+- [x] Activa **Confirmar peticiones**
 
 Si no quieres que nadie pueda controlar tu teléfono con Siri cuando está bloqueado, puedes desactivarlo aquí.
 
@@ -131,28 +141,17 @@ Selecciona **Activar Código** o **Cambiar Código**→ **Opciones de Código**�
 
 Si deseas utilizar Face ID o Touch ID, puedes seguir adelante y configurarlo ahora. Tu teléfono utilizará la contraseña que configuraste anteriormente como alternativa en caso de que falle la verificación biométrica. Los métodos de desbloqueo biométrico son ante todo una ventaja, aunque impiden que las cámaras de vigilancia o las personas por encima de su hombro te vean introducir el código.
 
-Si utilizas datos biométricos, debes saber cómo desactivarlos rápidamente en caso de emergencia. Si mantienes pulsado el botón lateral o de encendido y *o* el botón de volumen hasta que veas el control deslizante para Apagar, se desactivará la biometría y tendrás que introducir el código para desbloquear. El código también será necesario después de reiniciar el dispositivo.
+Si utilizas datos biométricos, debes saber cómo desactivarlos rápidamente en caso de emergencia. Holding down the [side button](https://support.apple.com/en-us/105103) and *either* volume button until you see the Slide to Power Off slider will disable biometrics, requiring your passcode to unlock. Your passcode will be required after your device restarts.
 
-En algunos dispositivos antiguos, puede que tengas que pulsar el botón de encendido cinco veces para desactivar la biometría en su lugar, o para los dispositivos con Touch ID, puede que solo tengas que mantener pulsado el botón de encendido y nada más. Asegúrate de probarlo con antelación para saber qué método funciona en tu dispositivo.
+You can similarly disable biometrics by pressing the side button five times, or for devices with Touch ID, you can hold down the side button and nothing else. Asegúrate de probarlo con antelación para saber qué método funciona en tu dispositivo.
 
-**Protección en Caso de Robo** añade seguridad adicional destinada a proteger tus datos personales si te roban el dispositivo mientras está desbloqueado. Si utilizas la biometría y la función Buscar Mi Dispositivo en la configuración de tu Cuenta de Apple, te recomendamos que actives esta nueva protección:
+**Protección en Caso de Robo** añade seguridad adicional destinada a proteger tus datos personales si te roban el dispositivo mientras está desbloqueado. If you enable both biometric authentication and the [Find My](#find-my) iPhone feature, we recommend enabling this protection:
 
-- [x] Selecciona **Activar Protección**
+- [x] Turn on **Stolen Device Protection**
 
 Después de activar la Protección en Caso de Robo, [ciertas acciones](https://support.apple.com/HT212510) requerirán autenticación biométrica sin una contraseña de respaldo (en el caso de que un "shoulder surfer" haya obtenido tu PIN), como el uso de autorrelleno de contraseña, el acceso a información de pago y la desactivación del Modo Perdido. También añade un retardo de seguridad a ciertas acciones que se realizan fuera de casa o de otro "lugar conocido", como exigir un temporizador de 1 hora para restablecer la contraseña de la cuenta de Apple o cerrar sesión en ella. Este retraso pretende darte tiempo para activar el Modo Perdido y asegurar tu cuenta antes de que un ladrón pueda reiniciar tu dispositivo.
 
-**Permitir Acceso al Estar Bloqueado** te da opciones para lo que puedes permitir cuando tu teléfono está bloqueado. Cuantas más de estas opciones deshabilites, menos podrá hacer alguien sin tu contraseña, pero menos cómodo será para ti. Elige a cuáles de ellos no quieres que alguien tenga acceso si llega a poner sus manos en tu teléfono.
-
-- [ ] Desactiva **Visualización Hoy y Búsqueda**
-- [ ] Desactiva **Centro de Notificaciones**
-- [ ] Desactiva **Centro de Control**
-- [ ] Desactiva **Widgets (pantalla bloqueada)**
-- [ ] Desactiva **Siri**
-- [ ] Desactiva **Responder con Mensaje**
-- [ ] Desactiva **Control de Casa**
-- [ ] Desactiva **Cartera**
-- [ ] Desactiva **Devolver Llamadas Perdidas**
-- [ ] Desactiva **Accesorios USB**
+**Allow Access When Locked** presents options for what you can allow when your phone is locked. Pick and choose which feature you want to disable to prevent unauthorized access if someone gets their hands on your phone. Cuantas más de estas opciones deshabilites, menos podrá hacer alguien sin tu contraseña, pero menos cómodo será para ti.
 
 Los iPhones ya son resistentes a los ataques de fuerza bruta, ya que te hacen esperar largos periodos de tiempo después de varios intentos fallidos; sin embargo, históricamente ha habido exploits para sortear esto. Para mayor seguridad, puedes configurar tu teléfono para que se borre automáticamente después de 10 intentos fallidos.
 
@@ -187,17 +186,9 @@ Deberías desactivar **Datos de Uso y de los Sensores** si no deseas participar 
 
 - [ ] Desactiva **Datos de Uso y de los Sensores**
 
-**Comprobación de Seguridad** te permite ver y revocar rápidamente a determinadas personas y aplicaciones que podrían tener permiso para acceder a tus datos. Aquí puedes realizar un **Restablecimiento de Emergencia**, restableciendo inmediatamente los permisos para todas las personas y aplicaciones que puedan tener acceso a los recursos del dispositivo. También puedes **Gestionar Accesos y Datos Compartidos** que te permite revisar y personalizar quién y qué tiene acceso a tu dispositivo y a los recursos de tu cuenta.
+**[Safety Check](https://support.apple.com/guide/personal-safety/safety-check-iphone-ios-16-ips2aad835e1/1.0/web/1.0)** allows you to quickly view and revoke certain people and apps that might have permission to access your data. Here, you can perform an **Emergency Reset**, immediately resetting permissions for all people and apps which might have access to device resources. You can also **Manage Sharing & Access**, which allows you to review and customize who and what has access to your device and account resources. If you're in an abusive situation, read Apple's [Personal Safety User Guide](https://support.apple.com/guide/personal-safety/welcome/web) for guidance on what you should do.
 
-Deberías desactivar los análisis si no deseas enviar datos de uso a Apple. Selecciona **Análisis y Mejoras**:
-
-- [ ] Desactiva **Compartir Análisis (iPhone)** o **Compartir Análisis (iPhone y Apple Watch)**
-- [ ] Desactiva **Compartir Análisis (iCloud)**
-- [ ] Desactiva **Mejorar Fitness++**
-- [ ] Desactiva **Mejorar Seguridad**
-- [ ] Desactiva **Mejorar Siri y Dictado**
-- [ ] Desactiva **Mejorar las Funciones de Voz Asistida**
-- [ ] Desactiva **Mejorar la Precisión de la Localización en Realidad Aumentada**
+You should disable analytics if you don't wish to send usage data to Apple. Select **Analytics & Improvements** and unselect the type(s) of analytics that you don't want to send to Apple.
 
 Desactiva **Anuncios Personalizados** si no quieres anuncios personalizados. Selecciona **Publicidad de Apple**:
 
@@ -207,7 +198,11 @@ Desactiva **Anuncios Personalizados** si no quieres anuncios personalizados. Sel
 
 - [x] Selecciona **Activar el Informe de Privacidad de las Apps**
 
-[Modo de Aislamiento](https://blog.privacyguides.org/2022/10/27/macos-ventura-privacy-security-updates/#lockdown-mode) es un ajuste de seguridad que puedes activar para que tu teléfono sea más resistente a los ataques. Ten en cuenta que algunas aplicaciones y funciones [no funcionarán](https://support.apple.com/HT212650) como lo hacen normalmente.
+Set wired accessories to ask for permission when you connect them. Select **Wired Accessories**:
+
+- [x] Select **Always Ask** or **Ask for New Accessories**
+
+**[Lockdown Mode](https://blog.privacyguides.org/2022/10/27/macos-ventura-privacy-security-updates/#lockdown-mode)** is a security setting you can enable to make your phone more resistant to attacks. Ten en cuenta que algunas aplicaciones y funciones [no funcionarán](https://support.apple.com/HT212650) como lo hacen normalmente.
 
 - [x] Selecciona **Activar el Modo de Aislamiento**
 
@@ -221,7 +216,13 @@ Las llamadas telefónicas normales realizadas con la aplicación Teléfono a tra
 
 El [color de la burbuja de mensajes](https://support.apple.com/en-us/104972) en la aplicación Mensajes indica si tus mensajes son E2EE o no. Una burbuja azul indica que estás utilizando iMessage con E2EE, mientras que una burbuja verde indica que la otra parte está utilizando los anticuados protocolos SMS y MMS o RCS. RCS en iOS **no** es E2EE. Actualmente, la única forma de tener E2EE en Mensajes es que ambas partes utilicen iMessage en dispositivos Apple.
 
-Si tú o tu compañero de mensajería tenéis activada la Copia de Seguridad de iCloud sin Protección de Datos Avanzada, la clave de cifrado se almacenará en los servidores de Apple, lo que significa que podrán acceder a tus mensajes. Además, el intercambio de claves de iMessage no es tan seguro como el de otras alternativas como Signal (que permite ver la clave del destinatario y verificarla mediante un código QR), por lo que no se debería confiar en él para comunicaciones especialmente delicadas.
+Si tú o tu compañero de mensajería tenéis activada la Copia de Seguridad de iCloud sin Protección de Datos Avanzada, la clave de cifrado se almacenará en los servidores de Apple, lo que significa que podrán acceder a tus mensajes.
+
+By default, you trust Apple's identity servers that you're messaging the right person. To defend yourself from a potentially malicious server, you can enable **[Contact Key Verification](https://support.apple.com/en-us/118246)**. At the top of the **Settings** app where your name is, select it, then go to **Contact Key Verification**.
+
+- [x] Turn on **Verification in iMessage**
+
+Both you and your contacts need to enable Contact Key Verification and follow Apple's [instructions](https://support.apple.com/en-us/118246#verify) for the security assurances mentioned above to take effect.
 
 ### Permisos de Fotos
 
@@ -251,23 +252,40 @@ Además de bloquear las aplicaciones tras los datos biométricos, también puede
 
 Puedes ocultar una aplicación pulsando prolongadamente sobre ella y seleccionando **Requerir Face ID/Touch**→**Ocultar y Requerir Face ID/Touch ID**. Ten en cuenta que las aplicaciones de Apple preinstaladas, así como el navegador web y la aplicación de correo electrónico predeterminados, no se pueden ocultar. Las aplicaciones ocultas residen en una carpeta **Oculta** en la parte inferior de la biblioteca de aplicaciones, que puede desbloquearse utilizando datos biométricos. Esta carpeta aparece en la Biblioteca de Aplicaciones tanto si has ocultado aplicaciones como si no, lo que te proporciona un grado de negación plausible.
 
+### Guided Access
+
+Sometimes you might want to hand your phone to someone to make a call or do a specific task, but you don't want them to have full access to your phone. In these cases, you can quickly enable **[Guided Access](https://support.apple.com/guide/iphone/lock-iphone-to-one-app-iph7fad0d10/ios)** to lock the phone to one specific app until you authenticate.
+
+<div class="admonition warning" markdown>
+<p class="admonition-title">Advertencia</p>
+
+Guided Access isn't foolproof, as it's possible you could leak data unintentionally or the feature could be bypassed. You should only use Guided Access for situations where you casually hand your phone to someone to use. You should not use it as a tool to protect against advanced adversaries.
+
+</div>
+
 ### Ocultar Elementos en Imágenes
 
 Si necesitas ocultar información en una foto, puedes utilizar las herramientas de edición integradas de Apple para hacerlo.
 
-Si tu dispositivo lo admite, puedes utilizar la función [Limpiar](https://support.apple.com/en-us/121429) para pixelar caras o eliminar objetos de las imágenes.
+You can use the [Clean Up](https://support.apple.com/en-us/121429) feature on supported devices to pixelate faces or remove objects from images.
 
 - Abre la aplicación **Fotos** y toca la foto que hayas seleccionado para editarla
-- Pulsa :material-tune: (en la parte inferior de la pantalla)
+- Tap the :material-tune:
 - Pulsa el botón **Limpiar**
 - Dibuja un círculo alrededor de lo que quieras ocultar. Las caras se pixelarán y se intentará borrar todo lo demás.
 
 Nuestra advertencia [en contra de difuminar el texto](../data-redaction.md) también se aplica aquí, por lo que recomendamos en su lugar añadir una forma negra con una opacidad del 100% sobre ello. Además de ocultar texto, también puedes tachar cualquier cara u objeto con la aplicación **Fotos**.
 
-- Pulsa sobre la imagen que deseas editar
-- Pulsa :material-tune: (en la parte inferior de la pantalla) → el símbolo de marca (arriba a la derecha) → el icono más en la parte inferior derecha
-- Selecciona **Añadir Forma** y elige el cuadrado o el círculo
-- En la barra de herramientas, pulsa sobre el círculo (opción situada más a la izquierda) y elige el negro como color para rellenar la forma. También puedes mover la forma y aumentar su tamaño según te convenga.
+<div class="annotate" markdown>
+
+- Tap the image you have selected for redaction
+- Tap the :material-tune: → :material-dots-horizontal: (1) → Markup → :material-plus:
+- Select **Add Shape** and choose the square or circle
+- On the toolbar, tap the circle and choose black as the color for filling in the shape. También puedes mover la forma y aumentar su tamaño según te convenga.
+
+</div>
+
+1. This may not appear on certain iPhone models.
 
 **No** utilices el resaltador para ocultar información, ya que su opacidad no es del 100%.
 
@@ -284,3 +302,11 @@ Apple siempre pone las versiones beta de iOS a disposición de quienes deseen ay
 ### Antes del Primer Desbloqueo
 
 Si tu modelo de amenaza incluye [:material-target-account: Ataques Dirigidos](../basics/common-threats.md#attacks-against-specific-individuals ""){.pg-red} que implican herramientas forenses, y quieres minimizar la posibilidad de que se utilicen exploits para acceder a tu teléfono, deberías reiniciar tu dispositivo con frecuencia. El estado *después de* un reinicio pero *antes de* desbloquear tu dispositivo se conoce como "Antes del Primer Desbloqueo" (BFU), y cuando tu dispositivo está en ese estado hace que sea [significativamente más difícil](https://belkasoft.com/checkm8_glossary) para las herramientas forenses explotar vulnerabilidades para acceder a tus datos. Este estado BFU te permite recibir notificaciones de llamadas, mensajes de texto y alarmas, pero la mayoría de los datos de tu dispositivo siguen estando encriptados y son inaccesibles. Esto puede ser poco práctico, así que considera si estas soluciones tienen sentido para tu situación.
+
+iPhones [automatically reboot](https://support.apple.com/guide/security/protecting-user-data-in-the-face-of-attack-secf5549a4f5/1/web/1#:~:text=On%20an%20iPhone%20or%20iPad%20with%20iOS%2018%20and%20iPadOS%2018%20or%20later%2C%20a%20new%20security%20protection%20will%20restart%20devices%20if%20they%20remain%20locked%20for%20a%20prolonged%20period%20of%20time.) if they're not unlocked after a period of time.
+
+### MTE
+
+The iPhone 17 line and later offer a security enhancement called [Memory Tagging Extension](https://developer.arm.com/documentation/108035/0100/Introduction-to-the-Memory-Tagging-Extension) (MTE), which makes it significantly harder for an attacker to exploit memory corruption vulnerabilities. This always-on protection depends on hardware support, so it's not available for older devices.
+
+For more details on Apple's implementation of MTE, read the [blog post](https://security.apple.com/blog/memory-integrity-enforcement) published by Apple Security Research. We also cover Apple's implementation of MTE and how it compares to Android's implementation in the Google Pixel 8 series and later in our [own article](https://www.privacyguides.org/posts/2025/09/20/memory-integrity-enforcement-changes-the-game-on-ios).

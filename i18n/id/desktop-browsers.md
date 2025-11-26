@@ -97,11 +97,11 @@ Modifikasi selain menyesuaikan pengaturan ini akan membuat fingerprint Anda menj
 
 ### Anti-Fingerprinting
 
-**Tanpa** menggunakan [VPN](vpn.md), Mullvad Browser memberikan perlindungan yang sama terhadap [skrip pencocokan fingerprint](https://github.com/arkenfox/user.js/wiki/3.3-Overrides-%5BTo-RFP-or-Not%5D#-fingerprinting) seperti browser pribadi lainnya seperti Firefox+[Arkenfox](#arkenfox-advanced) atau [Brave](#brave). Mullvad Browser menyediakan perlindungan tersebut secara bawaan, dengan mengorbankan sedikit fleksibilitas dan kenyamanan yang dapat diberikan oleh browser pribadi lainnya.
+**Without** using a [VPN](vpn.md), Mullvad Browser provides protections against [naive fingerprinting scripts](https://github.com/arkenfox/user.js/wiki/3.3-Overrides-%5BTo-RFP-or-Not%5D#-fingerprinting) similar to other private browsers like Firefox+[Arkenfox](#arkenfox-advanced) or [Brave](#brave). Mullvad Browser menyediakan perlindungan tersebut secara bawaan, dengan mengorbankan sedikit fleksibilitas dan kenyamanan yang dapat diberikan oleh browser pribadi lainnya.
 
 ==Untuk perlindungan anti-fingerprinting yang paling kuat, kami sarankan untuk menggunakan Mullvad Browser bersama **dengan** VPN==, baik itu Mullvad atau penyedia VPN lain yang direkomendasikan. Saat menggunakan VPN dengan Mullvad Browser, Anda akan berbagi fingerprint dan alamat IP dengan pengguna lain, memberikan Anda "kerumunan" untuk berbaur. Strategi ini merupakan satu-satunya cara untuk menggagalkan skrip pelacakan tingkat lanjut, dan merupakan teknik anti-fingerprinting yang sama dengan yang digunakan oleh Tor Browser.
 
-Perlu dicatat bahwa meskipun Anda dapat menggunakan Mullvad Browser dengan penyedia VPN mana pun, orang lain dalam VPN tersebut juga harus menggunakan Mullvad Browser agar "kerumunan" ini terbentuk, hal ini lebih mungkin terjadi pada Mullvad VPN dibandingkan dengan penyedia lainnya, terutama menjelang peluncuran Mullvad Browser. Mullvad Browser tidak memiliki konektivitas VPN bawaan, dan juga tidak memeriksa apakah Anda menggunakan VPN sebelum menjelajah; koneksi VPN Anda harus dikonfigurasikan dan dikelola secara terpisah.
+Note that while you can use Mullvad Browser with any VPN provider, other people on that VPN must also be using Mullvad Browser for this "crowd" to exist, something which is more likely on Mullvad VPN compared to other providers. Mullvad Browser tidak memiliki konektivitas VPN bawaan, dan juga tidak memeriksa apakah Anda menggunakan VPN sebelum menjelajah; koneksi VPN Anda harus dikonfigurasikan dan dikelola secara terpisah.
 
 Mullvad Browser hadir dengan ekstensi peramban *uBlock Origin* dan *NoScript* yang sudah diinstal sebelumnya. Meskipun kami biasanya tidak menyarankan untuk *menambahkan* [ekstensi peramban](browser-extensions.md), ekstensi yang sudah terpasang dengan peramban ini **tidak boleh** dihapus atau dikonfigurasi di luar nilai defaultnya, karena hal itu akan membuat fingerprint Anda berbeda dengan pengguna Mullvad Browser lainnya. Browser ini juga telah terpasang dengan Ekstensi Mullvad Browser, yang *dapat* dihapus dengan aman tanpa mempengaruhi fingerprint peramban Anda jika Anda menginginkannya, tetapi juga aman untuk tetap dipertahankan bahkan jika Anda tidak menggunakan Mullvad VPN.
 
@@ -223,7 +223,7 @@ Max Protection memberlakukan penggunaan DNS over HTTPS, dan peringatan keamanan 
 <div class="admonition tip" markdown>
 <p class="admonition-title">Gunakan Mullvad Browser untuk anti-fingerprinting tingkat lanjut</p>
 
-[Mullvad Browser](#mullvad-browser) menyediakan proteksi anti-fingerprinting yang sama dengan Arkenfox, dan tidak memerlukan penggunaan Mullvad VPN untuk mendapatkan manfaat dari proteksi ini. Ditambah dengan VPN, Mullvad Browser bisa menggagalkan skrip pelacakan yang lebih canggih yang tidak bisa dilakukan oleh Arkenfox. Arkenfox masih memiliki keunggulan karena jauh lebih fleksibel, dan mengizinkan pengecualian per situs untuk situs web yang harus Anda masuki.
+[Mullvad Browser](#mullvad-browser) provides stronger anti-fingerprinting protections out of the box than Firefox, and does not require the use of Mullvad's VPN to benefit from these protections. Ditambah dengan VPN, Mullvad Browser bisa menggagalkan skrip pelacakan yang lebih canggih yang tidak bisa dilakukan oleh Arkenfox. Firefox still has the advantage of being much more flexible, and allowing per-site exceptions for websites which you need to stay logged in to.
 
 </div>
 

@@ -1,10 +1,10 @@
 ---
-title: "删除帐户"
-icon: '资料/账户-删除'
-description: 积累大量互联网账户很容易，这里有一些关于如何控制您的账户数量的小贴士。
+title: 删除帐户
+icon: 资料/账户-删除
+description: It's easy to accumulate a large number of internet accounts. Here are some tips on how to prune your collection.
 ---
 
-随着时间的推移，很容易积累一些在线账户，其中许多账户你可能不再使用。 删除这些未使用的账户是找回隐私的一个重要步骤，因为休眠账户很容易受到数据泄露的影响。 数据泄露是指一项服务的安全性受到损害，受保护的信息被未经授权的人查看、传输或窃取。 不幸的是，而今数据泄露 [太过于常见](https://haveibeenpwned.com/PwnedWebsites) ，因此保持良好的数字卫生是将它们对你生活的影响降到最低的最好方法。 The goal of this guide then is to help navigate you through the irksome process of account deletion, often made difficult by [deceptive design](https://deceptive.design), for the betterment of your online presence.
+随着时间的推移，很容易积累一些在线账户，其中许多账户你可能不再使用。 删除这些未使用的账户是找回隐私的一个重要步骤，因为休眠账户很容易受到数据泄露的影响。 A data breach occurs when a service's security is compromised and protected information is viewed, transmitted, or stolen by unauthorized actors. 不幸的是，而今数据泄露 [太过于常见](https://haveibeenpwned.com/PwnedWebsites) ，因此保持良好的数字卫生是将它们对你生活的影响降到最低的最好方法。 The goal of this guide then is to help navigate you through the irksome process of account deletion, often made difficult by [deceptive design](https://deceptive.design), for the betterment of your online presence.
 
 ## 查找旧帐户
 
@@ -16,14 +16,13 @@ description: 积累大量互联网账户很容易，这里有一些关于如何�
   ![Bitwarden's Data Breach Report feature](../assets/img/account-deletion/exposed_passwords.png)
 </figure>
 
-即使你以前没有明确使用过密码管理器，你也有可能在不知不觉中使用了你的浏览器或手机中的密码管理器。 For example: [Firefox Password Manager](https://support.mozilla.org/kb/password-manager-remember-delete-edit-logins), [Google Password Manager](https://passwords.google.com/intro) and [Edge Password Manager](https://support.microsoft.com/microsoft-edge/save-or-forget-passwords-in-microsoft-edge-b4beecb0-f2a8-1ca0-f26f-9ec247a3f336).
+Even if you haven't explicitly used a password manager before, there's a chance you've used the one in your browser ([Firefox](https://support.mozilla.org/kb/password-manager-remember-delete-edit-logins), [Chrome](https://passwords.google.com/intro), [Edge](https://support.microsoft.com/microsoft-edge/save-or-forget-passwords-in-microsoft-edge-b4beecb0-f2a8-1ca0-f26f-9ec247a3f336)) or your phone ([Google](https://passwords.google.com/intro) on stock Android, [Passwords](https://support.apple.com/HT211146) on iOS) without even realizing it.
 
 桌面平台通常也有一个密码管理器，可以帮助你恢复你忘记的密码。
 
-- Windows [Credential Manager](https://support.microsoft.com/windows/accessing-credential-manager-1b5c916a-6a16-889f-8581-fc16e8165ac0)
-- macOS [Passwords](https://support.apple.com/HT211145)
-- iOS [Passwords](https://support.apple.com/HT211146)
-- Linux 上有 Gnome Keyring，可以通过 [Seahorse](https://wiki.gnome.org/Apps/Seahorse) 或 [KDE Wallet Manager](https://userbase.kde.org/KDE_Wallet_Manager) 访问。
+- Windows: [Credential Manager](https://support.microsoft.com/windows/accessing-credential-manager-1b5c916a-6a16-889f-8581-fc16e8165ac0)
+- macOS: [Passwords](https://support.apple.com/HT211145)
+- Linux: Gnome Keyring (accessed through [Seahorse](https://gitlab.gnome.org/GNOME/seahorse#seahorse)) or [KDE Wallet Manager](https://userbase.kde.org/KDE_Wallet_Manager)
 
 ### 电子邮箱
 

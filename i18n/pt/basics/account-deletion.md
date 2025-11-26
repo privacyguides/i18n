@@ -1,10 +1,10 @@
 ---
-title: "Eliminação de Contas"
-icon: 'material/account-remove'
-description: É fácil acumular um grande número de contas na Internet. Eis algumas dicas sobre como reduzir a sua coleção.
+title: Eliminação de Contas
+icon: material/account-remove
+description: It's easy to accumulate a large number of internet accounts. Here are some tips on how to prune your collection.
 ---
 
-Com o passar do tempo, pode ser fácil acumular uma série de contas em linha, muitas das quais podem já não ser utilizadas. A eliminação destas contas não utilizadas é um passo importante para recuperar a sua privacidade, uma vez que as contas inativas são vulneráveis a violações de dados. Uma violação de dados ocorre quando a segurança de um serviço é comprometida e as informações protegidas são visualizadas, transmitidas ou roubadas por pessoas não autorizadas. Infelizmente, as violações de dados são [demasiado comuns](https://haveibeenpwned.com/PwnedWebsites) atualmente, pelo que praticar uma boa higiene digital é a melhor forma de minimizar o impacto tido na sua vida. The goal of this guide then is to help navigate you through the irksome process of account deletion, often made difficult by [deceptive design](https://deceptive.design), for the betterment of your online presence.
+Com o passar do tempo, pode ser fácil acumular uma série de contas em linha, muitas das quais podem já não ser utilizadas. A eliminação destas contas não utilizadas é um passo importante para recuperar a sua privacidade, uma vez que as contas inativas são vulneráveis a violações de dados. A data breach occurs when a service's security is compromised and protected information is viewed, transmitted, or stolen by unauthorized actors. Infelizmente, as violações de dados são [demasiado comuns](https://haveibeenpwned.com/PwnedWebsites) atualmente, pelo que praticar uma boa higiene digital é a melhor forma de minimizar o impacto tido na sua vida. The goal of this guide then is to help navigate you through the irksome process of account deletion, often made difficult by [deceptive design](https://deceptive.design), for the betterment of your online presence.
 
 ## Encontrar Contas Antigas
 
@@ -16,14 +16,13 @@ Se tiver um gestor de palavras-passe que tenha utilizado durante toda a sua vida
   ![Funcionalidade do Relatório de Violação de Dados da Bitwarden](../assets/img/account-deletion/exposed_passwords.png)
 </figure>
 
-Mesmo que nunca tenha utilizado explicitamente um gestor de palavras-passe, é provável que já o tenha feito no seu navegador ou no seu telemóvel sem se aperceber. For example: [Firefox Password Manager](https://support.mozilla.org/kb/password-manager-remember-delete-edit-logins), [Google Password Manager](https://passwords.google.com/intro) and [Edge Password Manager](https://support.microsoft.com/microsoft-edge/save-or-forget-passwords-in-microsoft-edge-b4beecb0-f2a8-1ca0-f26f-9ec247a3f336).
+Even if you haven't explicitly used a password manager before, there's a chance you've used the one in your browser ([Firefox](https://support.mozilla.org/kb/password-manager-remember-delete-edit-logins), [Chrome](https://passwords.google.com/intro), [Edge](https://support.microsoft.com/microsoft-edge/save-or-forget-passwords-in-microsoft-edge-b4beecb0-f2a8-1ca0-f26f-9ec247a3f336)) or your phone ([Google](https://passwords.google.com/intro) on stock Android, [Passwords](https://support.apple.com/HT211146) on iOS) without even realizing it.
 
 As plataformas de ambiente de trabalho também têm frequentemente um gestor de palavras-passe que pode ajudá-lo a recuperar palavras-passe esquecidas:
 
-- Windows [Credential Manager](https://support.microsoft.com/windows/accessing-credential-manager-1b5c916a-6a16-889f-8581-fc16e8165ac0)
-- macOS [Passwords](https://support.apple.com/HT211145)
-- iOS [Passwords](https://support.apple.com/HT211146)
-- Linux, Gnome Keyring, que pode ser acedido através de [Seahorse](https://wiki.gnome.org/Apps/Seahorse) ou [KDE Wallet Manager](https://userbase.kde.org /KDE_Wallet_Manager)
+- Windows: [Credential Manager](https://support.microsoft.com/windows/accessing-credential-manager-1b5c916a-6a16-889f-8581-fc16e8165ac0)
+- macOS: [Passwords](https://support.apple.com/HT211145)
+- Linux: Gnome Keyring (accessed through [Seahorse](https://gitlab.gnome.org/GNOME/seahorse#seahorse)) or [KDE Wallet Manager](https://userbase.kde.org/KDE_Wallet_Manager)
 
 ### Correio eletrónico
 

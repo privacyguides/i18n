@@ -97,11 +97,11 @@ Modifications other than adjusting this setting would make your fingerprint uniq
 
 ### נגד טביעת אצבע
 
-**ללא** שימוש ב [VPN](vpn.md), דפדפן Mullvad מספק את אותן הגנות נגד [סקריפטים תמימים של טביעת אצבע](https://github.com/arkenfox/user.js/wiki/3.3-Overrides-%5BTo-RFP-or-Not%5D#-fingerprinting) כמו דפדפנים פרטיים אחרים כמו Firefox+[Arkenfox](#arkenfox-advanced) או [Brave](#brave). Mullvad Browser מספק הגנות אלה מחוץ לקופסה, על חשבון גמישות ונוחות מסוימת שדפדפנים פרטיים אחרים יכולים לספק.
+**Without** using a [VPN](vpn.md), Mullvad Browser provides protections against [naive fingerprinting scripts](https://github.com/arkenfox/user.js/wiki/3.3-Overrides-%5BTo-RFP-or-Not%5D#-fingerprinting) similar to other private browsers like Firefox+[Arkenfox](#arkenfox-advanced) or [Brave](#brave). Mullvad Browser מספק הגנות אלה מחוץ לקופסה, על חשבון גמישות ונוחות מסוימת שדפדפנים פרטיים אחרים יכולים לספק.
 
 ==להגנה החזקה ביותר נגד טביעות אצבע, אנו ממליצים להשתמש בדפדפן Mullvad **בשילוב**עם VPN==, בין אם זה Mullvad או ספק VPN מומלץ אחר. בעת שימוש ב-VPN עם דפדפן Mullvad, אתה תשתף טביעת אצבע ומאגר של כתובות IP עם משתמשים רבים אחרים, מה שייתן לך "קהל" להתמזג איתו. אסטרטגיה זו היא הדרך היחידה לסכל תסריטי מעקב מתקדמים, והיא אותה טכניקה נגד טביעת אצבע המשמשת את Tor Browser.
 
-שים לב שבעוד שאתה יכול להשתמש בדפדפן Mullvad עם כל ספק VPN, אנשים אחרים ב-VPN חייבים להשתמש גם הם בדפדפן Mullvad כדי ש"הקהל" הזה יתקיים, משהו שסביר יותר ב-Mullvad VPN בהשוואה לספקים אחרים, במיוחד זה קרוב לזה השקת דפדפן Mullvad. לדפדפן Mullvad אין קישוריות VPN מובנית, והוא גם לא בודק אם אתה משתמש ב-VPN לפני הגלישה; יש להגדיר ולנהל את חיבור ה-VPN שלך בנפרד.
+Note that while you can use Mullvad Browser with any VPN provider, other people on that VPN must also be using Mullvad Browser for this "crowd" to exist, something which is more likely on Mullvad VPN compared to other providers. לדפדפן Mullvad אין קישוריות VPN מובנית, והוא גם לא בודק אם אתה משתמש ב-VPN לפני הגלישה; יש להגדיר ולנהל את חיבור ה-VPN שלך בנפרד.
 
 Mullvad Browser מגיע עם *uBlock Origin* ו*NoScript* הרחבות דפדפן מותקנות מראש. While we typically discourage adding *additional* [browser extensions](browser-extensions.md), these extensions that come pre-installed with the browser should **not** be removed or configured outside their default values, because doing so would noticeably make your browser fingerprint distinct from other Mullvad Browser users. הוא גם מגיע מותקן מראש עם הרחבת דפדפן Mullvad, *אותה* ניתן להסיר בבטחה מבלי להשפיע על טביעת האצבע של הדפדפן שלך אם תרצה, אך היא גם בטוחה לשמור גם אם אינך משתמש ב-Mullvad VPN.
 
@@ -223,7 +223,7 @@ Max Protection enforces the use of DNS over HTTPS, and a security warning will s
 <div class="admonition tip" markdown>
 <p class="admonition-title">Use Mullvad Browser for advanced anti-fingerprinting</p>
 
-[דפדפן Mullvad](#mullvad-browser) מספק את אותן הגנות נגד טביעת אצבע כמו Arkenfox מחוץ לקופסה, ואינו מצריך שימוש ב-VPN של Mullvad כדי ליהנות מההגנות הללו. יחד עם VPN, דפדפן Mullvad יכול לסכל סקריפטים מתקדמים יותר למעקב ש-Arkenfox לא יכול. ל-Arkenfox עדיין יש את היתרון להיות הרבה יותר גמיש, ולאפשר חריגים לכל אתר עבור אתרים שאתה צריך להישאר מחובר אליהם.
+[Mullvad Browser](#mullvad-browser) provides stronger anti-fingerprinting protections out of the box than Firefox, and does not require the use of Mullvad's VPN to benefit from these protections. יחד עם VPN, דפדפן Mullvad יכול לסכל סקריפטים מתקדמים יותר למעקב ש-Arkenfox לא יכול. Firefox still has the advantage of being much more flexible, and allowing per-site exceptions for websites which you need to stay logged in to.
 
 </div>
 

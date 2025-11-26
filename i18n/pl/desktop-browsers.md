@@ -97,11 +97,11 @@ Jakiekolwiek inne modyfikacje sprawią, że Twój odcisk przeglądarki stanie si
 
 ### Ochrona przed identyfikacją (Anti-Fingerprinting)
 
-**Bez** korzystania z [VPN-a](vpn.md), przeglądarka Mullvad zapewnia taki sam poziom ochrony przed [prostymi skryptami identyfikującymi](https://github.com/arkenfox/user.js/wiki/3.3-Overrides-%5BTo-RFP-or-Not%5D#-fingerprinting) jak inne przeglądarki ukierunkowane na prywatność, takie jak Firefox+[Arkenfox](#arkenfox-advanced) czy [Brave](#brave). Przeglądarka Mullvad zapewnia te zabezpieczenia od razu po instalacji, kosztem pewnej elastyczności i wygody, które mogą zapewnić inne prywatne przeglądarki.
+**Without** using a [VPN](vpn.md), Mullvad Browser provides protections against [naive fingerprinting scripts](https://github.com/arkenfox/user.js/wiki/3.3-Overrides-%5BTo-RFP-or-Not%5D#-fingerprinting) similar to other private browsers like Firefox+[Arkenfox](#arkenfox-advanced) or [Brave](#brave). Przeglądarka Mullvad zapewnia te zabezpieczenia od razu po instalacji, kosztem pewnej elastyczności i wygody, które mogą zapewnić inne prywatne przeglądarki.
 
 == Dla najskuteczniejszej ochrony przed identyfikacją zalecamy korzystanie z przeglądarki Mullvad w połączeniu z VPN-em ==, niezależnie od tego, czy będzie to Mullvad, czy inny zalecany dostawca VPN. Korzystając z przeglądarki Mullvad wraz z VPN, współdzielisz odcisk przeglądarki i pulę adresów IP z wieloma innymi użytkownikami, co pozwala Ci „zniknąć w tłumie”. To jedyna skuteczna metoda ochrony przed zaawansowanymi technikami śledzenia i jest to dokładnie taka technika, która stosuje Tor Browser.
 
-Warto zauważyć, że choć przeglądarkę Mullvad można używać z dowolnym dostawcą VPN, efekt „tłumu” pojawi się tylko wtedy, gdy inni użytkownicy tego samego VPN również korzystają z przeglądarki Mullvad. Jest to obecnie bardziej prawdopodobne w przypadku Mullvad VPN niż innych usług, szczególnie że przeglądarka ta została wydana niedawno. Przeglądarka Mullvad nie ma wbudowanej obsługi VPN ani nie sprawdza, czy korzystasz z VPN przed rozpoczęciem przeglądania; połączenie VPN należy skonfigurować i utrzymywać samodzielnie.
+Note that while you can use Mullvad Browser with any VPN provider, other people on that VPN must also be using Mullvad Browser for this "crowd" to exist, something which is more likely on Mullvad VPN compared to other providers. Przeglądarka Mullvad nie ma wbudowanej obsługi VPN ani nie sprawdza, czy korzystasz z VPN przed rozpoczęciem przeglądania; połączenie VPN należy skonfigurować i utrzymywać samodzielnie.
 
 Przeglądarka Mullvad dostarczana jest z wbudowanymi rozszerzeniami *uBlock Origin* i *NoScript*. Choć zazwyczaj odradzamy instalowanie *dodatkowych* [rozszerzeń przeglądarki](browser-extensions.md), te, które są preinstalowane, nie powinny być usuwane ani modyfikowane względem ustawień domyślnych, ponieważ mogłoby to wyraźnie odróżnić Twój odcisk przeglądarki od innych użytkowników przeglądarki Mullvad. Przeglądarka zawiera także rozszerzenie Mullvad Browser Extension, które *można* bezpiecznie usunąć bez wpływu na odcisk palca przeglądarki, ale jego pozostawienie również nie stanowi problemu, nawet jeśli nie korzystasz z Mullvad VPN.
 
@@ -223,7 +223,7 @@ Tryb Maksymalnej ochrony wymusza korzystanie z DNS poprzez HTTPS. W przypadku, g
 <div class="admonition tip" markdown>
 <p class="admonition-title">Korzystaj z przeglądarki Mullvad dla zaawansowanej ochrony przed identyfikacją</p>
 
-[Przeglądarka Mullvad](#mullvad-browser) zapewnia taki sam poziom ochrony przed identyfikacją przeglądarki jak Arkenfox, i to od razu po instalacji — bez konieczności używania Mullvad VPN, aby z nich korzystać. W połączeniu z VPN przeglądarka Mullvad potrafi zablokować bardziej zaawansowane techniki śledzenia, z którymi Arkenfox sobie nie radzi. Arkenfox ma jednak tę przewagę, że jest znacznie bardziej elastyczna i pozwala na tworzenie wyjątków dla konkretnych witryn, na których chcesz pozostać zalogowany(-a).
+[Mullvad Browser](#mullvad-browser) provides stronger anti-fingerprinting protections out of the box than Firefox, and does not require the use of Mullvad's VPN to benefit from these protections. W połączeniu z VPN przeglądarka Mullvad potrafi zablokować bardziej zaawansowane techniki śledzenia, z którymi Arkenfox sobie nie radzi. Firefox still has the advantage of being much more flexible, and allowing per-site exceptions for websites which you need to stay logged in to.
 
 </div>
 

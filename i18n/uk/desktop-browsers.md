@@ -97,11 +97,11 @@ schema:
 
 ### Протидія відбиткам браузера
 
-**Без** використання [VPN](vpn.md) Mullvad Browser забезпечує такий самий захист від [базових скриптів зняття відбитків браузера](https://github.com/arkenfox/user.js/wiki/3.3-Overrides-%5BTo-RFP-or-Not%5D#-fingerprinting), як і інші приватні браузери, такі як Firefox+[Arkenfox](#arkenfox-advanced) або [Brave](#brave). Mullvad Browser надає ці засоби захисту "з коробки", шляхом певної гнучкості та зручності, які можуть забезпечити й інші приватні браузери.
+**Without** using a [VPN](vpn.md), Mullvad Browser provides protections against [naive fingerprinting scripts](https://github.com/arkenfox/user.js/wiki/3.3-Overrides-%5BTo-RFP-or-Not%5D#-fingerprinting) similar to other private browsers like Firefox+[Arkenfox](#arkenfox-advanced) or [Brave](#brave). Mullvad Browser надає ці засоби захисту "з коробки", шляхом певної гнучкості та зручності, які можуть забезпечити й інші приватні браузери.
 
 ==Для найсильнішого захисту від відбитків ми рекомендуємо використовувати Mullvad Browser у поєднанні **з** VPN, будь то Mullvad або інший рекомендований VPN-провайдер. Використовуючи VPN з Mullvad Browser, ви ділитеся відбитком браузера і пулом IP-адрес з багатьма іншими користувачами, створюючи "натовп", з яким можна змішатися. Ця стратегія - єдиний спосіб перешкодити просунутим скриптам стеження, і це той самий метод боротьби з відбитками, що використовується браузером Tor.
 
-Зауважте, що хоча ви можете використовувати Mullvad браузер з будь-яким VPN-провайдером, інші користувачі цього VPN також повинні використовувати Mullvad браузер, щоб існував цей "натовп", що є більш імовірним для Mullvad VPN порівняно з іншими провайдерами, особливо в цей час, коли Mullvad браузер тільки-но запущено. Mullvad Browser не має вбудованого VPN-з'єднання, а також не перевіряє, чи використовуєте ви VPN перед переглядом вебсторінок; ваше VPN-з'єднання має бути налаштоване і кероване окремо.
+Note that while you can use Mullvad Browser with any VPN provider, other people on that VPN must also be using Mullvad Browser for this "crowd" to exist, something which is more likely on Mullvad VPN compared to other providers. Mullvad Browser не має вбудованого VPN-з'єднання, а також не перевіряє, чи використовуєте ви VPN перед переглядом вебсторінок; ваше VPN-з'єднання має бути налаштоване і кероване окремо.
 
 Mullvad Browser постачається з попередньо встановленими розширеннями *uBlock Origin* та *NoScript*. Хоча ми зазвичай не рекомендуємо додавати *додаткові* [розширення браузера](browser-extensions.md), ці розширення, які постачаються з браузером, **не** слід видаляти або налаштовувати за межами значень за замовчуванням, оскільки це може помітно відрізнити ваш браузер від інших користувачів Mullvad Browser. Він також постачається з попередньо встановленим розширенням для браузера Mullvad, яке *можна* безпечно видалити, не впливаючи на відбитки у браузері, якщо ви бажаєте, але також безпечно зберігати, навіть якщо ви не використовуєте Mullvad VPN.
 
@@ -223,7 +223,7 @@ Firefox включає унікальний [маркер завантаженн
 <div class="admonition tip" markdown>
 <p class="admonition-title">Використовуйте Mullvad Browser для розширеного захисту від цифрових відбитків</p>
 
-[Mullvad Browser] (#mullvad-browser) забезпечує такий самий захист від відбитків, як і Arkenfox, і не вимагає використання VPN від Mullvad, щоб скористатися перевагами цього захисту. У поєднанні з VPN Mullvad Browser може перешкоджати більш просунутим скриптам стеження, чого не може зробити Arkenfox. Arkenfox все ще має перевагу в тому, що він набагато гнучкіший і дозволяє створювати винятки для сайтів, на яких вам потрібно залишатися під своїм обліковим записом.
+[Mullvad Browser](#mullvad-browser) provides stronger anti-fingerprinting protections out of the box than Firefox, and does not require the use of Mullvad's VPN to benefit from these protections. У поєднанні з VPN Mullvad Browser може перешкоджати більш просунутим скриптам стеження, чого не може зробити Arkenfox. Firefox still has the advantage of being much more flexible, and allowing per-site exceptions for websites which you need to stay logged in to.
 
 </div>
 

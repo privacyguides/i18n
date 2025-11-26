@@ -1,10 +1,10 @@
 ---
-title: "Kontolöschung"
-icon: 'material/account-remove'
-description: Es ist leicht, eine große Anzahl von Internetkonten anzuhäufen. Hier sind einige Tipps, wie du deine Sammlung entrümpeln kannst.
+title: Kontolöschung
+icon: material/account-remove
+description: It's easy to accumulate a large number of internet accounts. Here are some tips on how to prune your collection.
 ---
 
-Im Laufe der Zeit kann sich leicht eine Reihe von Online-Konten ansammeln, von denen du viele möglicherweise nicht mehr nutzt. Das Löschen dieser ungenutzten Konten ist ein wichtiger Schritt, um deine Privatsphäre zurückzugewinnen, da inaktive Konten anfällig für Datenschutzverletzungen sind. Eine solche Datenschutzverletzung liegt vor, wenn die Sicherheit eines Dienstes kompromittiert wird und geschützte Informationen von Unbefugten eingesehen, übertragen oder gestohlen werden. Datenschutzverletzungen sind heutzutage leider [allzu häufig](https://haveibeenpwned.com/PwnedWebsites) und eine gute digitale Hygiene ist der beste Weg, um die Auswirkungen auf dein Leben zu minimieren. Das Ziel dieses Leitfadens ist es daher, dich durch den lästigen Prozess der Kontolöschung zu führen, der oft durch [irreführendes Design](https://deceptive.design) erschwert wird, zum Wohle deiner Online-Präsenz.
+Im Laufe der Zeit kann sich leicht eine Reihe von Online-Konten ansammeln, von denen du viele möglicherweise nicht mehr nutzt. Das Löschen dieser ungenutzten Konten ist ein wichtiger Schritt, um deine Privatsphäre zurückzugewinnen, da inaktive Konten anfällig für Datenschutzverletzungen sind. A data breach occurs when a service's security is compromised and protected information is viewed, transmitted, or stolen by unauthorized actors. Datenschutzverletzungen sind heutzutage leider [allzu häufig](https://haveibeenpwned.com/PwnedWebsites) und eine gute digitale Hygiene ist der beste Weg, um die Auswirkungen auf dein Leben zu minimieren. Das Ziel dieses Leitfadens ist es daher, dich durch den lästigen Prozess der Kontolöschung zu führen, der oft durch [irreführendes Design](https://deceptive.design) erschwert wird, zum Wohle deiner Online-Präsenz.
 
 ## Alte Konten finden
 
@@ -16,14 +16,13 @@ Wenn du einen Passwort-Manager hast, den du dein ganzes digitales Leben lang ver
   ![Bitwarden's Datendiebstahl Bericht Funktion](../assets/img/account-deletion/exposed_passwords.png)
 </figure>
 
-Auch wenn du noch nie explizit einen Passwort-Manager verwendet hast, ist die Wahrscheinlichkeit groß, dass du einen solchen schon in deinem Browser oder auf deinem Handy verwendet hast, ohne es zu merken. Zum Beispiel: [Firefox Passwortverwaltung](https://support.mozilla.org/kb/password-manager-remember-delete-edit-logins), [Google Passwortmanager](https://passwords.google.com/intro) und [Edge Kennwörter](https://support.microsoft.com/microsoft-edge/save-or-forget-passwords-in-microsoft-edge-b4beecb0-f2a8-1ca0-f26f-9ec247a3f336).
+Even if you haven't explicitly used a password manager before, there's a chance you've used the one in your browser ([Firefox](https://support.mozilla.org/kb/password-manager-remember-delete-edit-logins), [Chrome](https://passwords.google.com/intro), [Edge](https://support.microsoft.com/microsoft-edge/save-or-forget-passwords-in-microsoft-edge-b4beecb0-f2a8-1ca0-f26f-9ec247a3f336)) or your phone ([Google](https://passwords.google.com/intro) on stock Android, [Passwords](https://support.apple.com/HT211146) on iOS) without even realizing it.
 
 Desktop-Plattformen haben oft auch einen Passwort-Manager, der dir helfen kann, Passwörter wiederzufinden, an die du dich nicht mehr erinnerst:
 
-- Windows [Anmeldeinformationsverwaltung](https://support.microsoft.com/windows/accessing-credential-manager-1b5c916a-6a16-889f-8581-fc16e8165ac0)
-- macOS [Passwörter](https://support.apple.com/HT211145)
-- iOS [Passwörter](https://support.apple.com/HT211146)
-- Linux, Gnome-Schlüsselbund, auf den über [Seahorse](https://wiki.gnome.org/Apps/Seahorse) oder [KWallet](https://userbase.kde.org/KDE_Wallet_Manager) zugegriffen werden kann
+- Windows: [Credential Manager](https://support.microsoft.com/windows/accessing-credential-manager-1b5c916a-6a16-889f-8581-fc16e8165ac0)
+- macOS: [Passwords](https://support.apple.com/HT211145)
+- Linux: Gnome Keyring (accessed through [Seahorse](https://gitlab.gnome.org/GNOME/seahorse#seahorse)) or [KDE Wallet Manager](https://userbase.kde.org/KDE_Wallet_Manager)
 
 ### E-Mail
 

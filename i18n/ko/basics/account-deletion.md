@@ -1,10 +1,10 @@
 ---
-title: "계정 삭제"
-icon: 'material/account-remove'
-description: 온라인 계정은 어느새 잔뜩 쌓여 있기 마련입니다. 여러분의 계정을 정리하는 데 도움이 될 몇 가지 팁을 알려드립니다.
+title: 계정 삭제
+icon: material/account-remove
+description: It's easy to accumulate a large number of internet accounts. Here are some tips on how to prune your collection.
 ---
 
-온라인 계정은 시간이 지날수록 쌓여갑니다. 그리고 그 중 상당수는 더 이상 사용하지 않는 계정일 겁니다. 휴면 계정은 데이터 유출에 취약하므로 '사용하지 않는 계정을 삭제하는 것'은 프라이버시 보호에 있어서 중요합니다. 데이터 유출이란, 보호되어야 할 정보가 서비스 보안 손상으로 인해 무단으로 열람, 전송, 도난당하는 것을 말합니다. 안타깝게도 최근에는 데이터 유출 사고가 [너무 많이 발생합니다](https://haveibeenpwned.com/PwnedWebsites). 데이터 유출 사고가 여러분의 삶에 미치는 영향을 최소화하고자 한다면 디지털에서도 위생 관념을 철저히 해야 합니다. The goal of this guide then is to help navigate you through the irksome process of account deletion, often made difficult by [deceptive design](https://deceptive.design), for the betterment of your online presence.
+온라인 계정은 시간이 지날수록 쌓여갑니다. 그리고 그 중 상당수는 더 이상 사용하지 않는 계정일 겁니다. 휴면 계정은 데이터 유출에 취약하므로 '사용하지 않는 계정을 삭제하는 것'은 프라이버시 보호에 있어서 중요합니다. A data breach occurs when a service's security is compromised and protected information is viewed, transmitted, or stolen by unauthorized actors. 안타깝게도 최근에는 데이터 유출 사고가 [너무 많이 발생합니다](https://haveibeenpwned.com/PwnedWebsites). 데이터 유출 사고가 여러분의 삶에 미치는 영향을 최소화하고자 한다면 디지털에서도 위생 관념을 철저히 해야 합니다. The goal of this guide then is to help navigate you through the irksome process of account deletion, often made difficult by [deceptive design](https://deceptive.design), for the betterment of your online presence.
 
 ## 오래된 계정 찾기
 
@@ -16,14 +16,13 @@ description: 온라인 계정은 어느새 잔뜩 쌓여 있기 마련입니다.
   ![Bitwarden 데이터 유출 보고서 기능](../assets/img/account-deletion/exposed_passwords.png)
 </figure>
 
-비밀번호 관리자를 따로 사용한 적이 없더라도, 자신도 모르는 사이 브라우저나 휴대폰 내장 비밀번호 관리자를 사용했을 가능성이 있습니다. For example: [Firefox Password Manager](https://support.mozilla.org/kb/password-manager-remember-delete-edit-logins), [Google Password Manager](https://passwords.google.com/intro) and [Edge Password Manager](https://support.microsoft.com/microsoft-edge/save-or-forget-passwords-in-microsoft-edge-b4beecb0-f2a8-1ca0-f26f-9ec247a3f336).
+Even if you haven't explicitly used a password manager before, there's a chance you've used the one in your browser ([Firefox](https://support.mozilla.org/kb/password-manager-remember-delete-edit-logins), [Chrome](https://passwords.google.com/intro), [Edge](https://support.microsoft.com/microsoft-edge/save-or-forget-passwords-in-microsoft-edge-b4beecb0-f2a8-1ca0-f26f-9ec247a3f336)) or your phone ([Google](https://passwords.google.com/intro) on stock Android, [Passwords](https://support.apple.com/HT211146) on iOS) without even realizing it.
 
 데스크톱 플랫폼에도 보통 비밀번호 관리자가 있기 때문에, 잊어버린 비밀번호를 복구하는 데에 유용할 수 있습니다:
 
-- Windows [Credential Manager](https://support.microsoft.com/windows/accessing-credential-manager-1b5c916a-6a16-889f-8581-fc16e8165ac0)
-- macOS [Passwords](https://support.apple.com/HT211145)
-- iOS [Passwords](https://support.apple.com/HT211146)
-- Linux Gnome Keyring ([Seahorse](https://wiki.gnome.org/Apps/Seahorse), [KDE Wallet Manager](https://userbase.kde.org/KDE_Wallet_Manager)로 사용 가능)
+- Windows: [Credential Manager](https://support.microsoft.com/windows/accessing-credential-manager-1b5c916a-6a16-889f-8581-fc16e8165ac0)
+- macOS: [Passwords](https://support.apple.com/HT211145)
+- Linux: Gnome Keyring (accessed through [Seahorse](https://gitlab.gnome.org/GNOME/seahorse#seahorse)) or [KDE Wallet Manager](https://userbase.kde.org/KDE_Wallet_Manager)
 
 ### 이메일
 

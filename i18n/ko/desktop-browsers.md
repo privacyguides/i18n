@@ -97,11 +97,11 @@ Modifications other than adjusting this setting would make your fingerprint uniq
 
 ### 핑거프린팅 방지
 
-[VPN](vpn.md)을 사용하지 **않을** 경우, Mullvad 브라우저는 [Naive 핑거프린팅 스크립트](https://github.com/arkenfox/user.js/wiki/3.3-Overrides-%5BTo-RFP-or-Not%5D#-fingerprinting)에 대해 여타 비공개 탐색 브라우저(Firefox+[Arkenfox](#arkenfox-advanced), [Brave](#brave))와 동일한 수준의 보호 기능을 제공합니다. Mullvad 브라우저는 다른 비공개 탐색 브라우저에서 제공하는 유연성과 편의성을 일부 희생하여, 별도로 설정할 필요 없이 핑거프린트 보호 기능을 기본으로 제공합니다.
+**Without** using a [VPN](vpn.md), Mullvad Browser provides protections against [naive fingerprinting scripts](https://github.com/arkenfox/user.js/wiki/3.3-Overrides-%5BTo-RFP-or-Not%5D#-fingerprinting) similar to other private browsers like Firefox+[Arkenfox](#arkenfox-advanced) or [Brave](#brave). Mullvad 브라우저는 다른 비공개 탐색 브라우저에서 제공하는 유연성과 편의성을 일부 희생하여, 별도로 설정할 필요 없이 핑거프린트 보호 기능을 기본으로 제공합니다.
 
 ==가장 강력한 핑거프린팅 방지 보호를 원하시는 경우, **Mullvad 브라우저와 VPN을 같이 사용**하실 것을 권장합니다.==(Mullvad VPN 혹은 그 외 권장 VPN 서비스) Mullvad 브라우저와 VPN을 사용하면 핑거프린트, IP 주소 대역을 다른 많은 사용자와 공유하여 '군중' 사이에 섞일 수 있습니다. 이 전략은 고급 추적 스크립트를 막을 수 있는 유일한 방법이자, Tor 브라우저에서 사용하는 것과 동일한 핑거프린트 방지 기술이기도 합니다.
 
-Mullvad Browser는 특정 VPN 서비스에 의존하지 않으므로 어떤 VPN이든 같이 사용할 수 있습니다. 하지만 '군중 속에 섞여드는 효과'를 얻기 위해서는 여러분과 동일한 VPN을 사용하면서 Mullvad 브라우저도 사용하는 사람들이 존재한다는 전제가 필요합니다. 특히나 Mullvad 브라우저가 출시된지 얼마 되지 않은 지금 시점에서는 다른 VPN 서비스보다 Mullvad VPN의 사용자 중에 Mullvad 브라우저를 사용하는 사람이 많을 것입니다. Mullvad 브라우저는 VPN 연결 기능을 내장하고 있지 않으며, 브라우저 이용에 앞서 VPN 사용 여부를 확인하는 기능 또한 없습니다. 사용자는 VPN 연결을 따로 설정하고 관리해야 합니다.
+Note that while you can use Mullvad Browser with any VPN provider, other people on that VPN must also be using Mullvad Browser for this "crowd" to exist, something which is more likely on Mullvad VPN compared to other providers. Mullvad 브라우저는 VPN 연결 기능을 내장하고 있지 않으며, 브라우저 이용에 앞서 VPN 사용 여부를 확인하는 기능 또한 없습니다. 사용자는 VPN 연결을 따로 설정하고 관리해야 합니다.
 
 Mullvad 브라우저는 *uBlock Origin*, *NoScript* 브라우저 확장 프로그램이 기본 설치되어 있습니다. While we typically discourage adding *additional* [browser extensions](browser-extensions.md), these extensions that come pre-installed with the browser should **not** be removed or configured outside their default values, because doing so would noticeably make your browser fingerprint distinct from other Mullvad Browser users. 추가로, Mullvad 브라우저에는 'Mullvad Browser Extension' 확장 프로그램이 기본 설치되어 있습니다. Mullvad VPN 외 VPN 서비스를 사용하더라도 안전하게 사용할 수 있는 확장 프로그램이지만, 이 확장 프로그램을 제거하더라도 브라우저 핑거프린트에 영향을 주지 않으니 제거하고자 하는 경우 안심하고 제거해도 좋습니다.
 
@@ -223,7 +223,7 @@ Max Protection enforces the use of DNS over HTTPS, and a security warning will s
 <div class="admonition tip" markdown>
 <p class="admonition-title">Use Mullvad Browser for advanced anti-fingerprinting</p>
 
-[Mullvad 브라우저](#mullvad-browser)는 Arkenfox와 동일한 핑거프린팅 방지 보호 기능을 기본으로 제공합니다(이러한 보호 기능은 Mullvad VPN을 사용하지 않더라도 그대로 누릴 수 있습니다). VPN을 함께 사용할 경우, Mullvad 브라우저는 Arkenfox가 차단하지 못하는 고급 추적 스크립트까지 차단할 수 있습니다. 단, Arkenfox는 훨씬 더 유연성 있고, 사이트별 예외를 통해 특정 웹사이트에서 로그인 유지 등이 가능하다는 장점이 있습니다.
+[Mullvad Browser](#mullvad-browser) provides stronger anti-fingerprinting protections out of the box than Firefox, and does not require the use of Mullvad's VPN to benefit from these protections. VPN을 함께 사용할 경우, Mullvad 브라우저는 Arkenfox가 차단하지 못하는 고급 추적 스크립트까지 차단할 수 있습니다. Firefox still has the advantage of being much more flexible, and allowing per-site exceptions for websites which you need to stay logged in to.
 
 </div>
 

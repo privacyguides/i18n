@@ -97,11 +97,11 @@ Modifications other than adjusting this setting would make your fingerprint uniq
 
 ### 防指纹
 
-在**不使用** [VPN](vpn.md)的情况下，Mullvad 浏览器提供的对 [天真的指纹脚本](https://github.com/arkenfox/user.js/wiki/3.3-Overrides-%5BTo-RFP-or-Not%5D#-fingerprinting) 的保护与其他隐私浏览器（如 Firefox+[Arkenfox](#arkenfox-advanced) 或 [Brave](#brave)）相同。 Mullvad 浏览器自带这些保护，但牺牲了其他隐私浏览器提供的一些灵活性和便利性。
+**Without** using a [VPN](vpn.md), Mullvad Browser provides protections against [naive fingerprinting scripts](https://github.com/arkenfox/user.js/wiki/3.3-Overrides-%5BTo-RFP-or-Not%5D#-fingerprinting) similar to other private browsers like Firefox+[Arkenfox](#arkenfox-advanced) or [Brave](#brave). Mullvad 浏览器自带这些保护，但牺牲了其他隐私浏览器提供的一些灵活性和便利性。
 
 ==为了最完善的反指纹保护，我们建议将 Mullvad 浏览器与 **和** VPN== 结合使用，无论是 Mullvad 还是其他推荐的 VPN 提供商。 在使用 Mullvad 浏览器的 VPN 时，你将与许多其他用户共享一个指纹和一个 IP 地址池，使你混入“人群”。 这种策略是挫败进阶跟踪脚本的唯一方法，与 Tor 浏览器使用的反指纹技术相同。
 
-请注意，虽然您可以和任何 VPN 提供商一起使用 Mullvad 浏览器，但该 VPN 上的其他人也必须使用 Mullvad 浏览器才会有“人群”存在。与其他提供商相比，Mullvad VPN 更有可能保证这种情况，尤其是在 Mullvad 浏览器刚刚发布的当下。 Mullvad 浏览器没有内置 VPN 连接，也不会在浏览前检查你是否在使用 VPN；你的 VPN 连接必须单独配置和管理。
+Note that while you can use Mullvad Browser with any VPN provider, other people on that VPN must also be using Mullvad Browser for this "crowd" to exist, something which is more likely on Mullvad VPN compared to other providers. Mullvad 浏览器没有内置 VPN 连接，也不会在浏览前检查你是否在使用 VPN；你的 VPN 连接必须单独配置和管理。
 
 Mullvad 浏览器预装了 *uBlock Origin* 和 *NoScript* 浏览器扩展程序。 While we typically discourage adding *additional* [browser extensions](browser-extensions.md), these extensions that come pre-installed with the browser should **not** be removed or configured outside their default values, because doing so would noticeably make your browser fingerprint distinct from other Mullvad Browser users. 它还预装了 Mullvad 浏览器扩展程序，这个拓展程序*可以* 安全地移除，不会影响你的浏览器指纹，但即使你不使用 Mullvad VPN，保留它也不会有问题。
 
@@ -236,7 +236,7 @@ Max Protection enforces the use of DNS over HTTPS, and a security warning will s
 <div class="admonition tip" markdown>
 <p class="admonition-title">Use Mullvad Browser for advanced anti-fingerprinting</p>
 
-[Mullvad Browser](#mullvad-browser) provides the same anti-fingerprinting protections as Arkenfox out of the box, and does not require the use of Mullvad's VPN to benefit from these protections. Coupled with a VPN, Mullvad Browser can thwart more advanced tracking scripts which Arkenfox cannot. Arkenfox still has the advantage of being much more flexible, and allowing per-site exceptions for websites which you need to stay logged in to.
+[Mullvad Browser](#mullvad-browser) provides stronger anti-fingerprinting protections out of the box than Firefox, and does not require the use of Mullvad's VPN to benefit from these protections. Coupled with a VPN, Mullvad Browser can thwart more advanced tracking scripts which Arkenfox cannot. Firefox still has the advantage of being much more flexible, and allowing per-site exceptions for websites which you need to stay logged in to.
 
 </div>
 

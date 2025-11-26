@@ -1,10 +1,10 @@
 ---
-title: "Accountverwijdering"
-icon: 'material/account-remove'
-description: Het is gemakkelijk om een groot aantal internetaccounts op te bouwen. Hier zijn enkele tips over hoe je jouw verzameling kunt verkleinen.
+title: Accountverwijdering
+icon: material/account-remove
+description: It's easy to accumulate a large number of internet accounts. Here are some tips on how to prune your collection.
 ---
 
-Na verloop van tijd kan het gemakkelijk zijn om een aantal online accounts te verzamelen, waarvan je er vele misschien niet meer gebruikt. Het verwijderen van deze ongebruikte accounts is een belangrijke stap in het terugwinnen van jouw privacy, aangezien slapende accounts kwetsbaar zijn voor gegevensinbreuken. Van een datalek is sprake wanneer de beveiliging van een dienst wordt gecompromitteerd en beschermde informatie door onbevoegden wordt ingezien, doorgegeven of gestolen. Inbreuken op gegevens zijn tegenwoordig helaas al [te gewoon](https://haveibeenpwned.com/PwnedWebsites), en dus is een goede digitale hygiëne de beste manier om de impact ervan op jouw leven te minimaliseren. Het doel van deze gids is dan ook om je door het vervelende proces van accountverwijdering te loodsen, wat vaak wordt bemoeilijkt door [bedrieglijk design](https://deceptive.design), ten voordele van je online aanwezigheid.
+Na verloop van tijd kan het gemakkelijk zijn om een aantal online accounts te verzamelen, waarvan je er vele misschien niet meer gebruikt. Het verwijderen van deze ongebruikte accounts is een belangrijke stap in het terugwinnen van jouw privacy, aangezien slapende accounts kwetsbaar zijn voor gegevensinbreuken. A data breach occurs when a service's security is compromised and protected information is viewed, transmitted, or stolen by unauthorized actors. Inbreuken op gegevens zijn tegenwoordig helaas al [te gewoon](https://haveibeenpwned.com/PwnedWebsites), en dus is een goede digitale hygiëne de beste manier om de impact ervan op jouw leven te minimaliseren. Het doel van deze gids is dan ook om je door het vervelende proces van accountverwijdering te loodsen, wat vaak wordt bemoeilijkt door [bedrieglijk design](https://deceptive.design), ten voordele van je online aanwezigheid.
 
 ## Oude accounts vinden
 
@@ -16,14 +16,13 @@ Als je een wachtwoord manager hebt die je al jouw hele digitale leven gebruikt, 
   ![Bitwarden 's Data Breach Report-functie](../assets/img/account-deletion/exposed_passwords.png)
 </figure>
 
-Zelfs als je nog nooit expliciet een wachtwoordmanager hebt gebruikt, is de kans groot dat je er een in jouw browser of op jouw telefoon hebt gebruikt zonder het te beseffen. Bijvoorbeeld: [Firefox Password Manager](https://support.mozilla.org/kb/password-manager-remember-delete-edit-logins), [Google Password Manager](https://passwords.google.com/intro) en [Edge Password Manager](https://support.microsoft.com/microsoft-edge/save-or-forget-passwords-in-microsoft-edge-b4beecb0-f2a8-1ca0-f26f-9ec247a3f336).
+Even if you haven't explicitly used a password manager before, there's a chance you've used the one in your browser ([Firefox](https://support.mozilla.org/kb/password-manager-remember-delete-edit-logins), [Chrome](https://passwords.google.com/intro), [Edge](https://support.microsoft.com/microsoft-edge/save-or-forget-passwords-in-microsoft-edge-b4beecb0-f2a8-1ca0-f26f-9ec247a3f336)) or your phone ([Google](https://passwords.google.com/intro) on stock Android, [Passwords](https://support.apple.com/HT211146) on iOS) without even realizing it.
 
 Desktopplatforms hebben vaak ook een wachtwoordmanager waarmee je vergeten wachtwoorden kunt terugvinden:
 
-- Windows [Aanmeldingsgegevensbeheer](https://support.microsoft.com/windows/accessing-credential-manager-1b5c916a-6a16-889f-8581-fc16e8165ac0)
-- macOS [Wachtwoorden](https://support.apple.com/HT211145)
-- iOS [Wachtwoorden](https://support.apple.com/HT211146)
-- Linux, Gnome Keyring, die toegankelijk is via [Seahorse](https://wiki.gnome.org/Apps/Seahorse) of [KDE Wallet Manager](https://userbase.kde.org/KDE_Wallet_Manager)
+- Windows: [Credential Manager](https://support.microsoft.com/windows/accessing-credential-manager-1b5c916a-6a16-889f-8581-fc16e8165ac0)
+- macOS: [Passwords](https://support.apple.com/HT211145)
+- Linux: Gnome Keyring (accessed through [Seahorse](https://gitlab.gnome.org/GNOME/seahorse#seahorse)) or [KDE Wallet Manager](https://userbase.kde.org/KDE_Wallet_Manager)
 
 ### Email
 

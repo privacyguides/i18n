@@ -97,11 +97,11 @@ Proto je nutné, abyste nepřenastavovali prohlížeč mimo už vytvořené [úr
 
 ### Ochrana proti otiskům
 
-**Bez** použití [VPN](vpn.md) poskytuje Mullvad Browser stejnou ochranu proti [naivním fingerprinting skriptům](https://github.com/arkenfox/user.js/wiki/3.3-Overrides-%5BTo-RFP-or-Not%5D#-fingerprinting) jako ostatní prohlížeče zaměřené na soukromí, jako je Firefox + [Arkenfox](#arkenfox-advanced) nebo [Brave](#brave). Mullvad Browser poskytuje tuto ochranu v základu, na úkor určité flexibility a pohodlí, které mohou poskytovat jiné prohlížeče zaměřené na soukromí.
+**Without** using a [VPN](vpn.md), Mullvad Browser provides protections against [naive fingerprinting scripts](https://github.com/arkenfox/user.js/wiki/3.3-Overrides-%5BTo-RFP-or-Not%5D#-fingerprinting) similar to other private browsers like Firefox+[Arkenfox](#arkenfox-advanced) or [Brave](#brave). Mullvad Browser poskytuje tuto ochranu v základu, na úkor určité flexibility a pohodlí, které mohou poskytovat jiné prohlížeče zaměřené na soukromí.
 
 ==Pro nejsilnější ochranu proti zanechávání jedinečného otisku doporučujeme používat Mullvad Browser ve spojení **s** VPN==, ať už se jedná o Mullvad nebo o jiného doporučeného VPN poskytovatele. Při používání VPN s Mullvad Browserem sdílíte otisk a skupinu IP adres s mnoha dalšími uživateli, a tím se „ztrácíte v davu“. Tato strategie je jediná, která dokáže odolat pokročilým sledovacím skriptům, a je to stejná strategie, kterou používá Tor Browser.
 
-Mějte na vědomí, že sice můžete používat Mullvad Browser ve spojení s jakýmkoliv VPN poskytovatelem, ale ostatní lidé používající stejnou VPN musí také používat Mullvad Browser, aby se vytvořil „dav“, a ten se pravděpodobněji vytvoří na Mullvad VPN v porovnání s ostatními poskytovateli, zejména takto brzo od uvedení Mullvad Browseru. Mullvad Browser nemá zabudované připojení k VPN a ani nekontroluje před prohlížením, jestli VPN používáte; vaše VPN připojení si musíte nastavit a spravovat mimo prohlízeč.
+Note that while you can use Mullvad Browser with any VPN provider, other people on that VPN must also be using Mullvad Browser for this "crowd" to exist, something which is more likely on Mullvad VPN compared to other providers. Mullvad Browser nemá zabudované připojení k VPN a ani nekontroluje před prohlížením, jestli VPN používáte; vaše VPN připojení si musíte nastavit a spravovat mimo prohlízeč.
 
 Mullvad Browser má v základu předinstalovaná rozšíření *uBlock Origin* a *NoScript*. Zatímco obvykle nedoporučujeme přidávat *další* [rozšíření](browser-extensions.md), tyto předinstalovaná rozšíření byste **neměli** odstraňovat nebo měnit jejich nastavení, protože už to odlišuje váš otisk od ostatních uživatelů Mullvad Browseru. Zároveň má v základu i Mullvad Browser Extension, které *můžete* bezpečně odebrat, aniž by to mělo vliv na váš otisk v případě, že to tak chcete, ale zároveň je v pořádku si ho ponechat i v případě, že Mullvad VPN nepoužívate.
 
@@ -223,7 +223,7 @@ Maximální ochrana vynucuje používání DNS over HTTPS. Pokud se Firefox nebu
 <div class="admonition tip" markdown>
 <p class="admonition-title">Používejte Mullvad Browser pro pokročilou ochranu proti otiskům</p>
 
-[Mullvad Browser](#mullvad-browser) poskytuje stejné ochrany proti otiskům jako Arkenfox v základě, ale nevyžaduje používání Mullvad VPN, abyste mohli této ochrany využívat. Ve spojení s VPN umí Mullvad Browser sabotovat pokročilejší sledovací skripty, které Arkenfox sabotovat nedokáže. Arkenfox má také výhodu mnohem větší flexibility a umožňuje výjimky pro jednotlivé stránky, kde potřebujete zůstat přihlášení.
+[Mullvad Browser](#mullvad-browser) provides stronger anti-fingerprinting protections out of the box than Firefox, and does not require the use of Mullvad's VPN to benefit from these protections. Ve spojení s VPN umí Mullvad Browser sabotovat pokročilejší sledovací skripty, které Arkenfox sabotovat nedokáže. Firefox still has the advantage of being much more flexible, and allowing per-site exceptions for websites which you need to stay logged in to.
 
 </div>
 

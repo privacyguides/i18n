@@ -1,10 +1,10 @@
 ---
-title: "アカウントの削除"
-icon: 'material/account-remove'
-description: インターネット上のアカウントは多くなりがちですが、整理するためのヒントについて紹介します。
+title: アカウントの削除
+icon: material/account-remove
+description: It's easy to accumulate a large number of internet accounts. Here are some tips on how to prune your collection.
 ---
 
-オンラインのアカウントは多くなりがちで、時間とともに使用していないものも多くなっているかもしれません。 使っていないアカウントを削除することはプライバシーを取り戻すための重要なステップです。休止中のアカウントはデータ漏洩に対して脆弱だからです。 データ漏洩とは、サービスのセキュリティが侵害され、保護されている情報が不正行為者によって閲覧、送信、または盗まれることをいいます。 残念ながらデータ漏洩は最近では[あまりにも頻繁に起きており](https://haveibeenpwned.com/PwnedWebsites)、優れたデジタルハイジーンを実践することは、生活への影響を最小限に抑える最もよい方法です。 アカウントの削除は[ダークパターン](https://deceptive.design)によって難しくなっていることが多く、このガイドの目的は面倒なアカウント削除のナビゲートをして、オンラインプレゼンスを改善することです。
+オンラインのアカウントは多くなりがちで、時間とともに使用していないものも多くなっているかもしれません。 使っていないアカウントを削除することはプライバシーを取り戻すための重要なステップです。休止中のアカウントはデータ漏洩に対して脆弱だからです。 A data breach occurs when a service's security is compromised and protected information is viewed, transmitted, or stolen by unauthorized actors. 残念ながらデータ漏洩は最近では[あまりにも頻繁に起きており](https://haveibeenpwned.com/PwnedWebsites)、優れたデジタルハイジーンを実践することは、生活への影響を最小限に抑える最もよい方法です。 アカウントの削除は[ダークパターン](https://deceptive.design)によって難しくなっていることが多く、このガイドの目的は面倒なアカウント削除のナビゲートをして、オンラインプレゼンスを改善することです。
 
 ## 古いアカウントを探す
 
@@ -16,14 +16,13 @@ description: インターネット上のアカウントは多くなりがちで�
   ![Bitwardenのデータ漏洩レポート](../assets/img/account-deletion/exposed_passwords.png)
 </figure>
 
-パスワードマネージャーを使用していない場合でも、気づかないうちにブラウザや携帯電話にあるものを使っている可能性があります。 例えば、[Firefoxのパスワードマネージャー](https://support.mozilla.org/kb/password-manager-remember-delete-edit-logins)、[Googleパスワードマネージャー](https://passwords.google.com/intro)や[Edgeパスワードマネージャー](https://support.microsoft.com/microsoft-edge/save-or-forget-passwords-in-microsoft-edge-b4beecb0-f2a8-1ca0-f26f-9ec247a3f336)が挙げられます。
+Even if you haven't explicitly used a password manager before, there's a chance you've used the one in your browser ([Firefox](https://support.mozilla.org/kb/password-manager-remember-delete-edit-logins), [Chrome](https://passwords.google.com/intro), [Edge](https://support.microsoft.com/microsoft-edge/save-or-forget-passwords-in-microsoft-edge-b4beecb0-f2a8-1ca0-f26f-9ec247a3f336)) or your phone ([Google](https://passwords.google.com/intro) on stock Android, [Passwords](https://support.apple.com/HT211146) on iOS) without even realizing it.
 
 デスクトッププラットフォームにはパスワードマネージャーがあり、忘れてしまったパスワードを復元することができるかもしれません：
 
-- Windowsの[資格情報マネージャー](https://support.microsoft.com/windows/accessing-credential-manager-1b5c916a-6a16-889f-8581-fc16e8165ac0)
-- macOSの[保存済みのパスワード](https://support.apple.com/HT211145)
-- iOSの[保存済みのパスワード](https://support.apple.com/HT211146)
-- Linuxの[Seahorse](https://wiki.gnome.org/Apps/Seahorse)や[KDE Wallet Manager](https://userbase.kde.org/KDE_Wallet_Manager)でアクセスするGnome Keyring
+- Windows: [Credential Manager](https://support.microsoft.com/windows/accessing-credential-manager-1b5c916a-6a16-889f-8581-fc16e8165ac0)
+- macOS: [Passwords](https://support.apple.com/HT211145)
+- Linux: Gnome Keyring (accessed through [Seahorse](https://gitlab.gnome.org/GNOME/seahorse#seahorse)) or [KDE Wallet Manager](https://userbase.kde.org/KDE_Wallet_Manager)
 
 ### メール
 

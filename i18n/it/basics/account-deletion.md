@@ -1,10 +1,10 @@
 ---
-title: "Eliminazione account"
-icon: 'material/account-remove'
-description: È facile accumulare un numerosi profili su Internet, ecco alcuni consigli su come sfoltirli.
+title: Eliminazione account
+icon: material/account-remove
+description: It's easy to accumulate a large number of internet accounts. Here are some tips on how to prune your collection.
 ---
 
-Con il tempo, può essere facile accumulare numerosi profili online, molti dei quali non sono più utilizzati. L'eliminazione di tali profili inutilizzati è un passaggio importante per rivendicare la propria privacy, poiché i profili inattivi sono vulnerabili alle violazioni di dati. Una violazione dei dati si verifica quando la sicurezza di un servizio viene compromessa, e le informazioni protette vengono visualizzate, trasmesse o rubate da utenti non autorizzati. Le violazioni dei dati, oggi, sono sfortunatamente tutte [troppo comuni](https://haveibeenpwned.com/PwnedWebsites); quindi, praticare una buona igiene digitale è il metodo migliore per minimizzarne l'impatto sulla tua vita. Lo scopo di questa guida, quindi, è aiutarti a superare il fastidioso processo di cancellazione dell'account, spesso reso difficile dal [design ingannevole](https://deceptive.design), per migliorare la propria presenza online.
+Con il tempo, può essere facile accumulare numerosi profili online, molti dei quali non sono più utilizzati. L'eliminazione di tali profili inutilizzati è un passaggio importante per rivendicare la propria privacy, poiché i profili inattivi sono vulnerabili alle violazioni di dati. A data breach occurs when a service's security is compromised and protected information is viewed, transmitted, or stolen by unauthorized actors. Le violazioni dei dati, oggi, sono sfortunatamente tutte [troppo comuni](https://haveibeenpwned.com/PwnedWebsites); quindi, praticare una buona igiene digitale è il metodo migliore per minimizzarne l'impatto sulla tua vita. Lo scopo di questa guida, quindi, è aiutarti a superare il fastidioso processo di cancellazione dell'account, spesso reso difficile dal [design ingannevole](https://deceptive.design), per migliorare la propria presenza online.
 
 ## Trovare i vecchi account
 
@@ -16,14 +16,13 @@ Se hai un gestore di password che hai utilizzato per tutta la tua vita digitale,
   ![Funzionalità di Rapporto sulle Violazioni dei Dati di Bitwarden](../assets/img/account-deletion/exposed_passwords.png)
 </figure>
 
-Anche se non hai mai utilizzato un gestore di password, è probabile che tu abbia utilizzato quello del tuo browser o del tuo telefono senza nemmeno accorgetene. Ad esempio: [Firefox Password Manager](https://support.mozilla.org/kb/password-manager-remember-delete-edit-logins), [Google Password Manager](https://passwords.google.com/intro) e [Edge Password Manager](https://support.microsoft.com/microsoft-edge/save-or-forget-passwords-in-microsoft-edge-b4beecb0-f2a8-1ca0-f26f-9ec247a3f336).
+Even if you haven't explicitly used a password manager before, there's a chance you've used the one in your browser ([Firefox](https://support.mozilla.org/kb/password-manager-remember-delete-edit-logins), [Chrome](https://passwords.google.com/intro), [Edge](https://support.microsoft.com/microsoft-edge/save-or-forget-passwords-in-microsoft-edge-b4beecb0-f2a8-1ca0-f26f-9ec247a3f336)) or your phone ([Google](https://passwords.google.com/intro) on stock Android, [Passwords](https://support.apple.com/HT211146) on iOS) without even realizing it.
 
 Le piattaforme desktop dispongono spesso di un gestore di password che può aiutarvi a recuperare le password dimenticate:
 
-- [Gestione delle credenziali](https://support.microsoft.com/windows/accessing-credential-manager-1b5c916a-6a16-889f-8581-fc16e8165ac0) di Windows
-- [Password](https://support.apple.com/HT211145) di macOS
-- [Password](https://support.apple.com/HT211146) iOS
-- Linux, Gnome Keyring, accessibile tramite [Seahorse](https://wiki.gnome.org/Apps/Seahorse) o [KDE Wallet Manager](https://userbase.kde.org/KDE_Wallet_Manager)
+- Windows: [Credential Manager](https://support.microsoft.com/windows/accessing-credential-manager-1b5c916a-6a16-889f-8581-fc16e8165ac0)
+- macOS: [Passwords](https://support.apple.com/HT211145)
+- Linux: Gnome Keyring (accessed through [Seahorse](https://gitlab.gnome.org/GNOME/seahorse#seahorse)) or [KDE Wallet Manager](https://userbase.kde.org/KDE_Wallet_Manager)
 
 ### Email
 

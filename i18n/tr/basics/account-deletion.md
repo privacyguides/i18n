@@ -1,10 +1,10 @@
 ---
-title: "Hesap Silme"
-icon: 'material/account-remove'
-description: It's easy to accumulate a large number of internet accounts, here are some tips on how to prune your collection.
+title: Hesap Silme
+icon: material/account-remove
+description: It's easy to accumulate a large number of internet accounts. Here are some tips on how to prune your collection.
 ---
 
-Zamanla birlikte, çoğunu artık kullanmayacağınız birçok çevrimiçi hesap biriktirebilirsiniz. Kullanılmayan hesablar veri ihlallerine karşı savunmasız olduğundan, bu hesapları silmek gizliliğinizi geri kazanmak için önemli bir adımdır. Veri ihlali, bir hizmetin güvenliğinin tehlikeye girmesi ve korunan bilgilerin yetkisi olmayan kişiler tarafından görüntülenmesi, aktarılması veya çalınmasıdır. Veri ihlalleri ne yazık ki bu günlerde [ çok yaygın](https://haveibeenpwned.com/PwnedWebsites), bu yüzden iyi bir dijital hijyen uygulamak, bu ihlallerin verileriniz üzerindeki etkilerini azaltmanın en iyi yoludur. The goal of this guide then is to help navigate you through the irksome process of account deletion, often made difficult by [deceptive design](https://deceptive.design), for the betterment of your online presence.
+Zamanla birlikte, çoğunu artık kullanmayacağınız birçok çevrimiçi hesap biriktirebilirsiniz. Kullanılmayan hesablar veri ihlallerine karşı savunmasız olduğundan, bu hesapları silmek gizliliğinizi geri kazanmak için önemli bir adımdır. A data breach occurs when a service's security is compromised and protected information is viewed, transmitted, or stolen by unauthorized actors. Veri ihlalleri ne yazık ki bu günlerde [ çok yaygın](https://haveibeenpwned.com/PwnedWebsites), bu yüzden iyi bir dijital hijyen uygulamak, bu ihlallerin verileriniz üzerindeki etkilerini azaltmanın en iyi yoludur. The goal of this guide then is to help navigate you through the irksome process of account deletion, often made difficult by [deceptive design](https://deceptive.design), for the betterment of your online presence.
 
 ## Eski Hesapları Bulma
 
@@ -16,14 +16,13 @@ Eğer tüm dijital hayatınız boyunca kullandığınız bir parola t-yöneticis
   ![Bitwarden'ın Veri İhlali Raporu özelliği](../assets/img/account-deletion/exposed_passwords.png)
 </figure>
 
-Daha önce harici bir parola yöneticisi kullanmamış olsanız bile, farkında olmadan tarayıcınızda veya telefonunuzda bir parola yöneticisi kullanmış olabilirsiniz. For example: [Firefox Password Manager](https://support.mozilla.org/kb/password-manager-remember-delete-edit-logins), [Google Password Manager](https://passwords.google.com/intro) and [Edge Password Manager](https://support.microsoft.com/microsoft-edge/save-or-forget-passwords-in-microsoft-edge-b4beecb0-f2a8-1ca0-f26f-9ec247a3f336).
+Even if you haven't explicitly used a password manager before, there's a chance you've used the one in your browser ([Firefox](https://support.mozilla.org/kb/password-manager-remember-delete-edit-logins), [Chrome](https://passwords.google.com/intro), [Edge](https://support.microsoft.com/microsoft-edge/save-or-forget-passwords-in-microsoft-edge-b4beecb0-f2a8-1ca0-f26f-9ec247a3f336)) or your phone ([Google](https://passwords.google.com/intro) on stock Android, [Passwords](https://support.apple.com/HT211146) on iOS) without even realizing it.
 
 Masaüstü platformlarında da unutmuş olabileceğiniz parolaları kurtarmanıza yardımcı olabilecek parola yöneticileri bulunur:
 
-- Windows [Credential Manager](https://support.microsoft.com/windows/accessing-credential-manager-1b5c916a-6a16-889f-8581-fc16e8165ac0)
-- macOS [Passwords](https://support.apple.com/HT211145)
-- iOS [Passwords](https://support.apple.com/HT211146)
-- Linux, Gnome Keyring, which can be accessed through [Seahorse](https://wiki.gnome.org/Apps/Seahorse) or [KDE Wallet Manager](https://userbase.kde.org/KDE_Wallet_Manager)
+- Windows: [Credential Manager](https://support.microsoft.com/windows/accessing-credential-manager-1b5c916a-6a16-889f-8581-fc16e8165ac0)
+- macOS: [Passwords](https://support.apple.com/HT211145)
+- Linux: Gnome Keyring (accessed through [Seahorse](https://gitlab.gnome.org/GNOME/seahorse#seahorse)) or [KDE Wallet Manager](https://userbase.kde.org/KDE_Wallet_Manager)
 
 ### E-Posta
 

@@ -1,10 +1,10 @@
 ---
-title: "מחיקת חשבון"
-icon: 'material/account-remove'
-description: קל לצבור מספר רב של חשבונות אינטרנט, הנה כמה טיפים כיצד לגזום את האוסף שלך.
+title: מחיקת חשבון
+icon: material/account-remove
+description: It's easy to accumulate a large number of internet accounts. Here are some tips on how to prune your collection.
 ---
 
-עם הזמן, זה יכול להיות קל לצבור מספר חשבונות מקוונים, שרבים מהם אולי כבר לא תשתמשו בהם. מחיקת חשבונות שאינם בשימוש היא צעד חשוב בהחזרת הפרטיות שלך, מכיוון שחשבונות רדומים חשופים לפרצות מידע. פרצת נתונים היא כאשר אבטחת השירות נפגעת ומידע מוגן נצפה, מועבר או נגנב על ידי שחקנים לא מורשים. פרצות מידע הן למרבה הצער כולן [נפוצות מדי](https://haveibeenpwned.com/PwnedWebsites) בימינו, ולכן תרגול היגיינה דיגיטלית טובה היא הדרך הטובה ביותר למזער את ההשפעה שיש להן על חייך. The goal of this guide then is to help navigate you through the irksome process of account deletion, often made difficult by [deceptive design](https://deceptive.design), for the betterment of your online presence.
+עם הזמן, זה יכול להיות קל לצבור מספר חשבונות מקוונים, שרבים מהם אולי כבר לא תשתמשו בהם. מחיקת חשבונות שאינם בשימוש היא צעד חשוב בהחזרת הפרטיות שלך, מכיוון שחשבונות רדומים חשופים לפרצות מידע. A data breach occurs when a service's security is compromised and protected information is viewed, transmitted, or stolen by unauthorized actors. פרצות מידע הן למרבה הצער כולן [נפוצות מדי](https://haveibeenpwned.com/PwnedWebsites) בימינו, ולכן תרגול היגיינה דיגיטלית טובה היא הדרך הטובה ביותר למזער את ההשפעה שיש להן על חייך. The goal of this guide then is to help navigate you through the irksome process of account deletion, often made difficult by [deceptive design](https://deceptive.design), for the betterment of your online presence.
 
 ## איתור חשבונות ישנים
 
@@ -16,14 +16,13 @@ description: קל לצבור מספר רב של חשבונות אינטרנט, �
   ![מאפיין הדוח 'פריצת נתונים' של Bitwarden](../assets/img/account-deletion/exposed_passwords.png)
 </figure>
 
-גם אם לא השתמשת במנהל סיסמאות במפורש בעבר, יש סיכוי שהשתמשת במנהל הסיסמאות בדפדפן או בטלפון שלך מבלי לשים לב. For example: [Firefox Password Manager](https://support.mozilla.org/kb/password-manager-remember-delete-edit-logins), [Google Password Manager](https://passwords.google.com/intro) and [Edge Password Manager](https://support.microsoft.com/microsoft-edge/save-or-forget-passwords-in-microsoft-edge-b4beecb0-f2a8-1ca0-f26f-9ec247a3f336).
+Even if you haven't explicitly used a password manager before, there's a chance you've used the one in your browser ([Firefox](https://support.mozilla.org/kb/password-manager-remember-delete-edit-logins), [Chrome](https://passwords.google.com/intro), [Edge](https://support.microsoft.com/microsoft-edge/save-or-forget-passwords-in-microsoft-edge-b4beecb0-f2a8-1ca0-f26f-9ec247a3f336)) or your phone ([Google](https://passwords.google.com/intro) on stock Android, [Passwords](https://support.apple.com/HT211146) on iOS) without even realizing it.
 
 פלטפורמות שולחניות כוללות לעתים קרובות מנהל סיסמאות שעשוי לעזור לך לשחזר סיסמאות ששכחת מהן:
 
-- Windows [Credential Manager](https://support.microsoft.com/windows/accessing-credential-manager-1b5c916a-6a16-889f-8581-fc16e8165ac0)
-- macOS [Passwords](https://support.apple.com/HT211145)
-- iOS [Passwords](https://support.apple.com/HT211146)
-- Linux, Gnome Keyring, שאליו ניתן לגשת דרך [Seahorse](https://wiki.gnome.org/Apps/Seahorse) או [KDE Wallet Manager](https://userbase.kde.org/KDE_Wallet_Manager)
+- Windows: [Credential Manager](https://support.microsoft.com/windows/accessing-credential-manager-1b5c916a-6a16-889f-8581-fc16e8165ac0)
+- macOS: [Passwords](https://support.apple.com/HT211145)
+- Linux: Gnome Keyring (accessed through [Seahorse](https://gitlab.gnome.org/GNOME/seahorse#seahorse)) or [KDE Wallet Manager](https://userbase.kde.org/KDE_Wallet_Manager)
 
 ### אימייל
 

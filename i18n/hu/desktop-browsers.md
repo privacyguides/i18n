@@ -97,11 +97,11 @@ Modifications other than adjusting this setting would make your fingerprint uniq
 
 ### Ujjlenyomat-mentesítés
 
-[VPN](vpn.md) használata **nélkül** a Mullvad Browser ugyanolyan védelmet nyújt a [naiv ujjlenyomatgyűjtő szkriptek](https://github.com/arkenfox/user.js/wiki/3.3-Overrides-%5BTo-RFP-or-Not%5D#-fingerprinting) ellen, mint más privát böngészők, például a Firefox+[Arkenfox](#arkenfox-advanced) vagy a [Brave](#brave). A Mullvad böngésző beépítetten ezeket a védelmi mechanizmusokat biztosítja, azonban ennek következtében némi rugalmasság és kényelem elvesztésével jár, szemben a más privát böngészők nyújtotta lehetőségekkel.
+**Without** using a [VPN](vpn.md), Mullvad Browser provides protections against [naive fingerprinting scripts](https://github.com/arkenfox/user.js/wiki/3.3-Overrides-%5BTo-RFP-or-Not%5D#-fingerprinting) similar to other private browsers like Firefox+[Arkenfox](#arkenfox-advanced) or [Brave](#brave). A Mullvad böngésző beépítetten ezeket a védelmi mechanizmusokat biztosítja, azonban ennek következtében némi rugalmasság és kényelem elvesztésével jár, szemben a más privát böngészők nyújtotta lehetőségekkel.
 
 == A legerősebb ujjlenyomat-védelem érdekében javasoljuk, hogy a Mullvad Browser-t VPN-nel **együtt** használja==, legyen az a Mullvad vagy egy másik ajánlott VPN szolgáltató. Amikor VPN-el együtt használod a Mullvad Böngészőt, akkor egy ujjlenyomatot és egy IP-címtartományt osztasz meg sok más felhasználóval, így elvegyülhetsz a "tömegben". Ez a stratégia az egyetlen módja a fejlett nyomkövető szkriptek meghiúsításának, és ugyanezt az ujjlenyomat-ellenes technikát használja a Tor Böngésző is.
 
-Fontos megjegyezni, hogy bár a Mullvad Böngészőt bármely VPN szolgáltatóval használhatod, más embereknek is ezt a VPN-t kell használniuk a "tömeg" létrehozásához, amely valószínűbb a Mullvad VPN-nél más szolgáltatókhoz képest, különösen a Mullvad Böngésző indulását követő időszakban. A Mullvad Böngészőnek nincs beépített VPN kapcsolódási lehetősége, és nem ellenőrzi, hogy VPN-t használsz-e a böngészés előtt; a VPN kapcsolatot külön kell konfigurálni és kezelni.
+Note that while you can use Mullvad Browser with any VPN provider, other people on that VPN must also be using Mullvad Browser for this "crowd" to exist, something which is more likely on Mullvad VPN compared to other providers. A Mullvad Böngészőnek nincs beépített VPN kapcsolódási lehetősége, és nem ellenőrzi, hogy VPN-t használsz-e a böngészés előtt; a VPN kapcsolatot külön kell konfigurálni és kezelni.
 
 A Mullvad Böngésző előre telepített *uBlock Origin* és *NoScript* böngészőbővítményekkel érkezik. While we typically discourage adding *additional* [browser extensions](browser-extensions.md), these extensions that come pre-installed with the browser should **not** be removed or configured outside their default values, because doing so would noticeably make your browser fingerprint distinct from other Mullvad Browser users. A Mullvad böngészőbővítmény is előre telepítve van, amely biztonságosan *eltávolítható* a böngésző ujjlenyomatának befolyásolása nélkül, ha szeretné, de akkor is biztonságosan megtartható, ha nem használja a Mullvad VPN-t.
 
@@ -223,7 +223,7 @@ Max Protection enforces the use of DNS over HTTPS, and a security warning will s
 <div class="admonition tip" markdown>
 <p class="admonition-title">Use Mullvad Browser for advanced anti-fingerprinting</p>
 
-[Mullvad Browser](#mullvad-browser) provides the same anti-fingerprinting protections as Arkenfox out of the box, and does not require the use of Mullvad's VPN to benefit from these protections. Coupled with a VPN, Mullvad Browser can thwart more advanced tracking scripts which Arkenfox cannot. Arkenfox still has the advantage of being much more flexible, and allowing per-site exceptions for websites which you need to stay logged in to.
+[Mullvad Browser](#mullvad-browser) provides stronger anti-fingerprinting protections out of the box than Firefox, and does not require the use of Mullvad's VPN to benefit from these protections. Coupled with a VPN, Mullvad Browser can thwart more advanced tracking scripts which Arkenfox cannot. Firefox still has the advantage of being much more flexible, and allowing per-site exceptions for websites which you need to stay logged in to.
 
 </div>
 
