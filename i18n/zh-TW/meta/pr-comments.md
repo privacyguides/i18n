@@ -3,23 +3,23 @@ title: 對 PR 的討論
 description: 參與 Pull Request 討論的指南。
 ---
 
-Please refrain from using the general **Add a comment** box in GitHub PRs when leaving a comment or performing a review.
+在 GitHub PR 中留下註解或進行審核時，請避免使用一般的 **Add a comment** 方塊。
 
-![Do not use the general "Add a comment" box in GitHub](../assets/img/meta/pr-avoid-general-comments.png)
+![請勿使用 GitHub 一般的 "Add a comment" 區塊](../assets/img/meta/pr-avoid-general-comments.png)
 
-Comments that are left like this are not _threaded_, which makes it difficult to keep track of multiple conversations.
+以這個方式留下的註解不會拆分成_討論串_，在有多個對話進行時很難追蹤。
 
-Comments that are instead left in the manner described below will have a built-in reply box to keep conversations in a single thread. These comments can also be marked as resolved afterwards, so that discussion can be tracked more easily.
+以下列方式留下的註解則會有內建的回覆區塊，讓對話固定在同一個討論串中。 討論結束後，也可以標示為已解決，讓討論更容易追蹤。
 
-![A screenshot of a comment in GitHub which has a built-in "reply" box, highlighted in orange.](../assets/img/meta/pr-threaded-comment.png)
+![GitHub 內建「回覆」方塊的註解擷圖，以橘色強調。](../assets/img/meta/pr-threaded-comment.png)
 
-## 評論
+## 註解
 
-To start a threaded comment, you should leave all comments under the :octicons-file-diff-16: **Files changed** tab in a PR.
+請將所有註解留在 PR 的 :octicons-file-diff-16: **Files changed** 標籤的下方以開始討論。
 
-![Screenshot of the tabs for a pull request. The "Files changed" tab is outlined in dark orange.](https://docs.github.com/assets/cb-23571/mw-1440/images/help/pull_requests/pull-request-tabs-changed-files.webp)
+![Pull request 的標籤擷圖。 "Files changed" 標籤有深橘色外框。](https://docs.github.com/assets/cb-23571/mw-1440/images/help/pull_requests/pull-request-tabs-changed-files.webp)
 
-To leave a _general_ comment on a PR, click the :octicons-comment-16: comment icon to the right of a file:
+若要對 PR 留下_一般性_的註解，請點擊檔案右方的 :octicons-comment-16: 評論圖示：
 
 ![Screenshot of an image file on the "Files changed" page of a pull request. To the right of the file, a comment icon is outlined in orange.](https://docs.github.com/assets/cb-73771/mw-1440/images/help/pull_requests/pull-request-comment-on-file.webp)
 

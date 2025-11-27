@@ -22,19 +22,19 @@ E-mail is bijna een noodzaak voor het gebruik van elke online dienst, maar wij r
 
 Voor al het andere raden wij verschillende e-mailproviders aan op basis van duurzame bedrijfsmodellen en ingebouwde beveiligings- en privacyfuncties. Lees onze [volledige lijst met criteria](#criteria) voor meer informatie.
 
-| Provider                      | OpenPGP / WKD                          | IMAP / SMTP                                                             | Zero-access encryptie                                | Anonieme betaalmethoden                                    |
-| ----------------------------- | -------------------------------------- | ----------------------------------------------------------------------- | ---------------------------------------------------- | ---------------------------------------------------------- |
-| [Proton Mail](#proton-mail)   | :material-check:{ .pg-green }          | :material-information-outline:{ .pg-blue } Alleen betaalde abonnementen | :material-check:{ .pg-green }                        | Contant <br>Monero via derde partij                  |
-| [Mailbox Mail](#mailbox-mail) | :material-check:{ .pg-green }          | :material-check:{ .pg-green }                                           | :material-information-outline:{ .pg-blue } Mail only | Contant                                                    |
-| [Tuta](#tuta)                 | :material-alert-outline:{ .pg-orange } | :material-alert-outline:{ .pg-orange }                                  | :material-check:{ .pg-green }                        | Monero via derde partij <br>Contant via derde partij |
+| Provider                      | OpenPGP / WKD                          | IMAP / SMTP                                                             | Zero-access encryptie                                  | Anonieme betaalmethoden                                    |
+| ----------------------------- | -------------------------------------- | ----------------------------------------------------------------------- | ------------------------------------------------------ | ---------------------------------------------------------- |
+| [Proton Mail](#proton-mail)   | :material-check:{ .pg-green }          | :material-information-outline:{ .pg-blue } Alleen betaalde abonnementen | :material-check:{ .pg-green }                          | Contant <br>Monero via derde partij                  |
+| [Mailbox Mail](#mailbox-mail) | :material-check:{ .pg-green }          | :material-check:{ .pg-green }                                           | :material-information-outline:{ .pg-blue } alleen mail | Contant                                                    |
+| [Tuta](#tuta)                 | :material-alert-outline:{ .pg-orange } | :material-alert-outline:{ .pg-orange }                                  | :material-check:{ .pg-green }                          | Monero via derde partij <br>Contant via derde partij |
 
-In addition to (or instead of) an email provider recommended here, you may wish to consider a dedicated [email aliasing service](email-aliasing.md#recommended-providers) to protect your privacy. Among other things, these services can help protect your real inbox from spam, prevent marketers from correlating your accounts, and encrypt all incoming messages with PGP.
+Naast (of in plaats van) een e-mailprovider die hier wordt aanbevolen, kun je een speciale [e-mailaliasingdienst](email-aliasing.md#recommended-providers) overwegen om je privacy te beschermen. Deze services kunnen onder andere helpen je echte inbox te beschermen tegen spam, voorkomen dat marketeers je accounts kunnen correleren en versleutelen alle inkomende berichten met PGP.
 
 - [Meer informatie :material-arrow-right-drop-circle:](email-aliasing.md)
 
 ## OpenPGP compatibele diensten
 
-These providers natively support OpenPGP encryption/decryption and the [Web Key Directory (WKD) standard](basics/email-security.md#what-is-the-web-key-directory-standard), allowing for provider-agnostic end-to-end encrypted emails. For example, a Proton Mail user could send an E2EE message to a Mailbox Mail user, or you could receive OpenPGP-encrypted notifications from internet services which support it.
+Deze providers ondersteunen OpenPGP encryptie/decryptie en de [Web Key Directory (WKD) standaard](basics/email-security.md#what-is-the-web-key-directory-standard), waardoor provider-agnostische end-to-end versleutelde e-mails mogelijk zijn. Een Proton Mail gebruiker kan bijvoorbeeld een E2EE bericht sturen naar een Mailbox Mail gebruiker, of je kunt OpenPGP versleutelde meldingen ontvangen van internetdiensten die dit ondersteunen.
 
 <div class="grid cards" markdown>
 
@@ -85,7 +85,7 @@ Het Proton Free plan bevat 500 MB aan opslagruimte voor e-mail, die je gratis ku
 
 </div>
 
-Free accounts have some limitations, such as not being able to search body text and not having access to [Proton Mail Bridge](https://proton.me/mail/bridge), which is required to use a [recommended desktop email client](email-clients.md) such as Thunderbird. Betaalde accounts bevatten functies zoals Proton Mail Bridge, extra opslagruimte en ondersteuning voor aangepaste domeinen. The Proton Unlimited plan or any multi-user Proton plan includes access to [SimpleLogin](email-aliasing.md#simplelogin) Premium.
+Gratis accounts hebben enkele beperkingen, zoals het niet kunnen doorzoeken van bodytekst en geen toegang tot [Proton Mail Bridge](https://proton.me/mail/bridge), wat nodig is om een [aanbevolen desktop e-mailclient](email-clients.md) zoals Thunderbird te kunnen gebruiken. Betaalde accounts bevatten functies zoals Proton Mail Bridge, extra opslagruimte en ondersteuning voor aangepaste domeinen. Het Proton Unlimited-plan of elk Proton-plan voor meerdere gebruikers bevat toegang tot [SimpleLogin](email-aliasing.md#simplelogin) Premium.
 
 A [letter of attestation](https://res.cloudinary.com/dbulfrlrz/images/v1714639878/wp-pme/letter-of-attestation-proton-mail-20211109_3138714c61/letter-of-attestation-proton-mail-20211109_3138714c61.pdf) was provided for Proton Mail's apps in November 2021 by [Securitum](https://research.securitum.com).
 

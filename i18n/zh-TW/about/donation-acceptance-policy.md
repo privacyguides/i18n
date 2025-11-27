@@ -1,58 +1,58 @@
 ---
-title: Donation Acceptance Policy
-description: Privacy Guides aspires to obtain funding from a wide variety of sources to reduce our dependency on any single donor. Please consider donating!
+title: 捐款接受政策
+description: Privacy Guides 渴望自廣泛的來源獲得捐款，以減少我們對單一捐款者的依賴。 請考慮贊助！
 ---
 
-Privacy Guides takes the ethical responsibility of making unbiased recommendations on its website very seriously.
+Privacy Guides 將在網站上提供公正建議的道德責任看得相當重要。
 
-Privacy Guides aspires to obtain funding from a wide variety of sources to reduce our dependency on any single donor. Please consider [donating](donate.md)!
+Privacy Guides 渴望自廣泛的來源獲得捐款，以減少我們對單一捐款者的依賴。 請考慮[捐款](donate.md)！
 
-## What we **can** accept
+## 我們**可以**接受什麼
 
-In the course of our regular fundraising activities...
+在我們定期舉辦的募款活動…
 
-- Donations and other forms of support will generally be accepted from individuals, corporations, foundations, or other entities, without limitations.
-  - This includes cash, cash equivalents (checks, money orders, credit/debit card payments), and cryptocurrency.
-- Gifts of Real Property, Personal Property, or Securities may only be accepted upon approval of the MAGIC Grants board of directors.
+- 一般而言，會接受來自個人、公司、基金或其他實體的捐款與其他類型支持，不做任何限制。
+  - 包括現金、約當現金（支票、匯票、信用卡/借記卡付款），以及加密貨幣。
+- 只有在 MAGIC Grants 董事會同意後，才會接受不動產、個人財產或證券的贈與。
 
-Privacy Guides will only accept such gifts that are legal and consistent with our policies. Gifts must not interfere with Privacy Guides' mission, purpose, and procedures.
+Privacy Guides 只接受此類合法且符合我們政策的贈品。 贈品不得干擾 Privacy Guides 的使命、目的和程序。
 
-## Things we do **not** do
+## 我們**不會**做的事
 
-- Accept sponsorships.
-- Offer to recommend a product or service in exchange for a donation or other incentive.
-- Threaten to remove a recommendation for a product or service unless we receive a donation or other incentive.
-- Offer to expedite a review of a product or service in exchange for a donation or other incentive.
-- Write sponsored content or feature sponsored components in our content.
+- 接受贊助。
+- 推薦產品或服務，以換取捐贈或其他獎勵。
+- 威脅獲得捐款或其他獎勵，否則移除對產品或服務的推薦。
+- 以捐贈或其他獎勵換取加速產品或服務的審查。
+- 撰寫贊助內容或在內容中加入贊助元件。
 
-## Things we **may** do
+## 我們**可能**會做的事
 
-- Accept donations from privacy-related companies and non-profits.
-- Apply for grant programs.
-- Accept free versions of software or hardware to test and review, while being mindful of possible differences in versions that could differ from a regular customer experience. ([More details](executive-policy.md#ep1-freely-provided-product-samples))
-- Accept discounted versions of software or hardware that assist our operations (for example, discounted software costs made available to non-profits).
+- 接受隱私權相關的公司或非營利組織的捐款。
+- 申請補助計劃。
+- 接受免費版本的軟硬體進行測試和審查，同時注意該版本是否與一般顧客版本有不同體驗。 （[更多資訊](executive-policy.md#ep1-freely-provided-product-samples)）
+- 接受有助於我們營運的折扣版軟硬體（例如提供給非營利組織的折扣版軟體）。
 
-## Restrictions on gifts
+## 對接受捐贈的限制
 
-Privacy Guides accepts unrestricted gifts, and we appreciate the flexibility to apply your gift to our programs where they are most needed.
+Privacy Guides 接受不受限制的捐贈，我們非常感謝您能靈活地將捐贈用於我們最需要的項目上。
 
-We also accept and appreciate gifts for specified programs or purposes, provided that such gifts are consistent with our program's stated mission, purpose, and priority. Privacy Guides will not accept gifts which are too restrictive in purpose.
+我們也接受並感謝針對特定專案或目的的捐贈，只要內容符合我們計畫的既定使命、目的和優先順序。 Privacy Guides 不會接受用途限制過多的捐贈。
 
-Examples of gifts which are too restrictive include:
+「限制過多」的例子包含：
 
-- Those which fund the research and review of a specific product category or specific product.
-- Those which violate our existing policies.
-- Those which are too difficult for us to administer.
-- Those that are for purposes outside our general mission.
+- 只針對特定類型，或特定產品進行研究與審查的捐贈。
+- 違反我們現有政策。
+- 我們太難以管理的捐贈。
+- 超出我們一般使命之外的目的的捐贈。
 
-An example of an acceptable restriction could be a gift towards funding our [video](https://www.privacyguides.org/videos) production, or hosting our website and forum.
+可接受的限制範例是：可專門資助[影片](https://www.privacyguides.org/videos)製作，或針對網站、討論區的託管進行捐贈。
 
-Final decisions on the restrictive nature of a gift and its acceptance or refusal will be made by our executive committee.
+我們的執行委員會將判斷有關捐贈的限制性質，以及是否接受捐贈的最終決定。
 
-## Additional terms
+## 附加條款
 
-Privacy Guides generally does not pay "finder's fees" or commissions to third parties in connection with any gift to Privacy Guides. We may, however, pay commissions and fees to properly negotiate and receive assets when appropriate.
+一般而言，Privacy Guides 不會就任何贈予 Privacy Guides 的捐贈向第三方支付傭金或仲介費。 但我們還是有可能在適當的情況下支付傭金和費用，以妥善洽商和接收資產。
 
-No officer, committee member, employee, or other agent of Privacy Guides will be compensated in a manner which is dependent on the size or nature of gifts made to Privacy Guides by any person. If we engage with legal, accounting, or other professionals, their fees and expenses will be determined by the time they spend engaged with our work, and not by reference to any particular gift in connection to their retainer.
+Privacy Guides 的任何主管、委員會成員、員工或其他代理人都不會因任何人向 Privacy Guides 捐贈的數量或性質而獲得報酬。 若我們聘請法務、會計或其他專業人士，他們的費用和支出將取決於他們處理我們相關工作的時間，而不與他們的聘用費相關的任何特定捐贈相關。
 
-Privacy Guides always follows the MAGIC Grants Gift Acceptance Policy, available on their website: <https://magicgrants.org/about/documentation/>
+Privacy Guides 始終遵守 MAGIC Grants 的捐贈接受政策，可在其網站上查看：<https://magicgrants.org/about/documentation/>

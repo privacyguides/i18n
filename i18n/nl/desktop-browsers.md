@@ -101,7 +101,7 @@ Andere wijzigingen zouden jouw vingerafdruk uniek maken, wat het doel van het ge
 
 ==Voor de sterkste bescherming tegen vingerafdrukken raden we aan Mullvad Browser te gebruiken in combinatie **met** een VPN==, of dat nu Mullvad is of een andere aanbevolen VPN-provider. Wanneer je een VPN met Mullvad Browser gebruikt, deelt je een vingerafdruk en een pool van IP-adressen met vele andere gebruikers, waardoor je een "menigte" krijgt om in op te gaan. Deze strategie is de enige manier om geavanceerde volgscripts te dwarsbomen, en is dezelfde anti-vingerafdruk techniek die Tor Browser gebruikt.
 
-Note that while you can use Mullvad Browser with any VPN provider, other people on that VPN must also be using Mullvad Browser for this "crowd" to exist, something which is more likely on Mullvad VPN compared to other providers. Mullvad Browser heeft geen ingebouwde VPN-verbinding en controleert niet of je een VPN gebruikt voordat je gaat browsen; jouw VPN-verbinding moet apart worden geconfigureerd en beheerd.
+Denk eraan dat je Mullvad Browser kunt gebruiken met elke VPN-provider, maar dat andere mensen op die VPN ook Mullvad Browser moeten gebruiken om deze "menigte" te laten bestaan, iets wat waarschijnlijker is bij Mullvad VPN in vergelijking met andere providers. Mullvad Browser heeft geen ingebouwde VPN-verbinding en controleert niet of je een VPN gebruikt voordat je gaat browsen; jouw VPN-verbinding moet apart worden geconfigureerd en beheerd.
 
 Mullvad Browser wordt geleverd met de *uBlock Origin* en *NoScript* browserextensies vooraf geïnstalleerd. Hoewel we het toevoegen van *extra* [browserextensies](browser-extensions.md) meestal afraden, mogen deze extensies die vooraf zijn geïnstalleerd met de browser **niet** worden verwijderd of geconfigureerd buiten hun standaardwaarden, omdat dit je browser fingerprint duidelijk zal onderscheiden van andere gebruikers van Mullvad Browser. Het wordt ook vooraf geïnstalleerd met de Mullvad-browserextensie, die *kan* veilig worden verwijderd zonder jouw browser vingerafdruk te beïnvloeden als je dat wilt, maar is ook veilig om te bewaren, zelfs als je geen Mullvad VPN gebruikt.
 
@@ -223,7 +223,7 @@ Max Protection dwingt het gebruik van DNS over HTTPS af, en er wordt een beveili
 <div class="admonition tip" markdown>
 <p class="admonition-title">Gebruik Mullvad Browser voor geavanceerde anti-vingerafdrukken</p>
 
-[Mullvad Browser](#mullvad-browser) provides stronger anti-fingerprinting protections out of the box than Firefox, and does not require the use of Mullvad's VPN to benefit from these protections. In combinatie met een VPN kan Mullvad Browser meer geavanceerde tracking scripts dwarsbomen dan Arkenfox. Firefox still has the advantage of being much more flexible, and allowing per-site exceptions for websites which you need to stay logged in to.
+[Mullvad Browser](#mullvad-browser) biedt sterkere bescherming tegen vingerafdrukken dan Firefox, en vereist geen gebruik van Mullvad's VPN om van deze bescherming te profiteren. In combinatie met een VPN kan Mullvad Browser meer geavanceerde tracking scripts dwarsbomen dan Arkenfox. Firefox heeft nog steeds het voordeel dat het veel flexibeler is en uitzonderingen per site toestaat voor websites waarbij je ingelogd moet blijven.
 
 </div>
 

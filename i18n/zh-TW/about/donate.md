@@ -189,5 +189,5 @@ MAGIC Grants 是我們的金流代理業者，他們的客製化開放原始碼�
 </p>
 
 <p spaces-before="0">
-  我們<strong x-id="1">嚴禁</strong>將捐款用於支持政治競選/候選人或試圖影響立法。 Earnings will <strong x-id="1">not</strong> inure to the benefit of any private shareholder or individual.
+  我們<strong x-id="1">嚴禁</strong>將捐款用於支持政治競選/候選人或試圖影響立法。 收入也<strong x-id="1">不得</strong>分配為任何私人股東或個人的利益。
 </p>
