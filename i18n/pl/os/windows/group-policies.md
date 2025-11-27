@@ -1,19 +1,19 @@
 ---
 title: Ustawienia zasad grupy
-description: A quick guide to configuring Group Policy to make Windows a bit more privacy respecting.
+description: Krótki przewodnik po konfigurowaniu zasad grupy, aby Windows nieco bardziej szanował Twoją prywatność.
 ---
 
-Outside modifying the registry itself, the **Local Group Policy Editor** is the most powerful way to change many aspects of your system without installing third-party tools. Changing these settings requires [Pro Edition](index.md#windows-editions) or better.
+Poza modyfikowaniem samego rejestru **Edytor lokalnych zasad grupy** to najsilniejsze narzędzie do zmiany wielu aspektów systemu bez instalowania programów firm trzecich. Zmiana tych ustawień wymaga [wersji Pro](index.md#windows-editions) lub lepszej.
 
-These settings should be set on a brand-new installation of Windows. Setting them on your existing installation should work, but may introduce unpredictable behavior and is done at your own risk.
+Ustawienia te powinny być zastosowane na świeżej instalacji systemu Windows. Zastosowanie ich na już istniejącej instalacji powinno zadziałać, ale może wprowadzić nieprzewidywalne zachowanie — robisz to na własne ryzyko.
 
-All of these settings have an explanation attached to them in the Group Policy editor which explains exactly what they do, usually in great detail. Please pay attention to those descriptions as you make changes, so you know exactly what we are recommending here. We've also explained some of our choices below whenever the explanation included with Windows is inadequate.
+Wszystkie te ustawienia mają dołączone objaśnienia w edytorze zasad grupy, które wyjaśniają dokładnie, co robią, zwykle bardzo szczegółowo. Zwróć uwagę na te opisy podczas wprowadzania zmian, aby wiedzieć dokładnie, co tutaj zalecamy. Wyjaśniliśmy też niektóre z naszych wyborów tam, gdzie opis dołączony do systemu Windows był niewystarczający.
 
 ## Szablony administracyjne
 
-You can find these settings by opening `gpedit.msc` and navigating to **Local Computer Policy** > **Computer Configuration** > **Administrative Templates** in the left sidebar. The headers on this page correspond to folders/subfolders within Administrative Templates, and the bullet points correspond to individual policies.
+Ustawienia te znajdziesz, otwierając `gpedit.msc` i przechodząc w lewym pasku bocznym do: **Zasady Komputer lokalny** > **Konfiguracja komputera** > **Szablony administracyjne**. Nagłówki na tej stronie odpowiadają folderom/podfolderom w Szablonach administracyjnych, a wypunktowania odpowiadają poszczególnym zasadom.
 
-To change any group policy, double click it and select Enabled or Disabled at the top of the window that appears depending on the recommendations below. Some group policies have additional settings that can be configured, and if that's the case the appropriate settings are noted below as well.
+Aby zmienić dowolną zasadę grupy, kliknij ją dwukrotnie i wybierz w górnej cześci okna, które się pojawi — Włączone lub Wyłączone — w zależności od zalecanych ustawień poniżej. Niektóre zasady grupy mają dodatkowe opcje konfiguracyjne; jeśli tak jest, odpowiednie ustawienia są również zaznaczone poniżej.
 
 ### System
 
@@ -29,7 +29,7 @@ To change any group policy, double click it and select Enabled or Disabled at th
 - Wyłącz funkcję Raportowanie błędów systemu Windows: **Włączone**
 - Wyłącz Program poprawy jakości obsługi klienta w programie Windows Messenger: **Włączone**
 
-Note that disabling the Windows Customer Experience Improvement Program also disables some other tracking features that can be individually controlled with Group Policy as well. We don't list them all here or disable them because this setting covers that.
+Zauważ, że wyłączenie Programu poprawy jakości obsługi klienta systemu Windows powoduje też wyłączenie niektórych innych funkcji śledzących, którymi można zarządzać osobno za pomocą zasad grupy. Nie wymieniamy ich wszystkich tutaj ani nie wyłączamy ich oddzielnie, ponieważ to ustawienie obejmuje te przypadki.
 
 #### Zasady systemu operacyjnego
 
@@ -47,7 +47,7 @@ Note that disabling the Windows Customer Experience Improvement Program also dis
 
 #### Zasady funkcji Autoodtwarzanie
 
-AutoRun and AutoPlay are features which allow Windows to run a script or perform some other task when a device is connected, sometimes avoiding security measures that involve user consent. This could allow untrusted devices to run malicious code without your knowledge. It's a security best practice to disable these features, and simply open files on your external disks manually.
+Autouruchamianie i Autoodtwarzanie to funkcje pozwalające systemowi Windows uruchamiać skrypt lub wykonywać inne zadanie po podłączeniu urządzenia, czasem omijając mechanizmy bezpieczeństwa wymagające zgody użytkownika. Może to pozwolić niezaufanym urządzeniom na uruchomienie złośliwego kodu bez Twojej wiedzy. Z punktu widzenia bezpieczeństwa najlepszą praktyką jest wyłączenie tych funkcji i ręczne otwieranie plików na dyskach zewnętrznych.
 
 - Wyłącz funkcję Autoodtwarzanie: **Włączone**
 - Wyłącz funkcję Autoodtwarzanie dla urządzeń niezawierających woluminów: **Włączone**
@@ -56,19 +56,19 @@ AutoRun and AutoPlay are features which allow Windows to run a script or perform
 
 #### Szyfrowanie dysków funkcją BitLocker
 
-You may wish to re-encrypt your operating system drive after changing these settings.
+Po zmianie tych ustawień może być konieczne ponowne zaszyfrowanie dysku systemowego.
 
 - Wybierz metodę szyfrowania dysku i siłę szyfrowania (Windows Vista, Windows Server 2008, Windows 7, Windows Server 2008 R2): **Włączone**
   - Wybierz metodę szyfrowania: **AES 256 bitów**
 
-Setting the cipher strength for the Windows 7 policy still applies that strength to newer versions of Windows.
+Ustawienie siły szyfrowania w zasadzie dla systemu Windows 7 nadal wymusza tę siłę w nowszych wersjach systemu Windows.
 
 ##### Dyski z systemem operacyjnym
 
 - Wymagaj dodatkowego uwierzytelniania przy uruchamianiu: **Włączone**
 - Zezwalaj na używanie rozszerzonych numerów PIN przy uruchamianiu: **Włączone**
 
-Despite the names of these policies, this doesn't _require_ you to do anything by default, but it will unlock the _option_ to have a more complex setup (such as requiring a PIN at startup in addition to the TPM) in the BitLocker setup wizard.
+Mimo nazw tych zasad domyślnie niczego nie _wymagają_, ale odblokowują _możliwość_ skonfigurowania bardziej złożonego mechanizmu (np. wymaganie PIN-u przy uruchamianiu obok TPM) w kreatorze konfiguracji BitLockera.
 
 #### Zawartość chmury
 
@@ -107,7 +107,7 @@ Despite the names of these policies, this doesn't _require_ you to do anything b
 - Uniemożliwiaj aplikacji OneDrive generowanie ruchu sieciowego, dopóki użytkownik nie zaloguje się do usługi OneDrive: **Włączone**
 - Nie zezwalaj na używanie usługi OneDrive na potrzeby przechowywania plików: **Włączone**
 
-This last setting disables OneDrive on your system; make sure to change it to **Disabled** if you use OneDrive.
+To ostatnie ustawienie wyłącza usługę OneDrive w systemie; jeśli korzystasz z tej usługi, ustaw je na **Wyłączone**.
 
 #### Push To Install
 

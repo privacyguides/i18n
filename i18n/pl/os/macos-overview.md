@@ -158,7 +158,7 @@ Go to **System Settings** → **Network** → **Wi-Fi** → **Details** and set 
 
 Consider changing your hostname as well, which is another device identifier that's broadcast on the network you're connected to. You may wish to set your hostname to something generic like "MacBook Air", "Laptop", "John's MacBook Pro", or "iPhone" in **System Settings** → **General** → **Sharing**.
 
-## Security Protections
+## Mechanizmy zabezpieczeń
 
 macOS employs defense in depth by relying on multiple layers of software and hardware-based protections, with different properties. This ensures that a failure in one layer does not compromise the system's overall security.
 

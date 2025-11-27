@@ -1,10 +1,10 @@
 ---
 title: Usuwanie kont
 icon: material/account-remove
-description: It's easy to accumulate a large number of internet accounts. Here are some tips on how to prune your collection.
+description: Łatwo jest zgromadzić dużą liczbę kont internetowych. Oto kilka wskazówek, jak uszczuplić ich kolekcję.
 ---
 
-Z upływem czasu łatwo zebrać wiele kont internetowych, z których część możesz już nie używać. Usuwanie tych kont to ważny krok w odzyskiwaniu prywatności, ponieważ nieaktywne konta są podatne na naruszenia danych. A data breach occurs when a service's security is compromised and protected information is viewed, transmitted, or stolen by unauthorized actors. Niestety wycieki danych są dziś [zbyt powszechne](https://haveibeenpwned.com/PwnedWebsites), dlatego praktykowanie dobrej higieny cyfrowej to najlepszy sposób na zminimalizowanie ich wpływu na Twoje życie. Celem tego przewodnika jest przeprowadzić Cię przez uciążliwy proces usuwania kont, często utrudniany przez [zwodnicze projektowanie](https://deceptive.design), tak aby poprawić Twoją obecność w sieci.
+Z upływem czasu łatwo zebrać wiele kont internetowych, z których część możesz już nie używać. Usuwanie tych kont to ważny krok w odzyskiwaniu prywatności, ponieważ nieaktywne konta są podatne na naruszenia danych. Naruszenie danych (lub też „wyciek danych”) to sytuacja, gdy bezpieczeństwo usługi zostaje przełamane, a chronione informacje są przeglądane, przesyłane lub kradzione przez nieuprawnione podmioty. Niestety wycieki danych są dziś [zbyt powszechne](https://haveibeenpwned.com/PwnedWebsites), dlatego praktykowanie dobrej higieny cyfrowej to najlepszy sposób na zminimalizowanie ich wpływu na Twoje życie. Celem tego przewodnika jest przeprowadzić Cię przez uciążliwy proces usuwania kont, często utrudniany przez [zwodnicze projektowanie](https://deceptive.design), tak aby poprawić Twoją obecność w sieci.
 
 ## Odnajdywanie starych kont
 
@@ -16,13 +16,13 @@ Jeśli masz menedżera haseł, z którego korzystasz przez całe swoje cyfrowe �
   ![Funkcja raport wycieków danych Bitwarden](../assets/img/account-deletion/exposed_passwords.png)
 </figure>
 
-Even if you haven't explicitly used a password manager before, there's a chance you've used the one in your browser ([Firefox](https://support.mozilla.org/kb/password-manager-remember-delete-edit-logins), [Chrome](https://passwords.google.com/intro), [Edge](https://support.microsoft.com/microsoft-edge/save-or-forget-passwords-in-microsoft-edge-b4beecb0-f2a8-1ca0-f26f-9ec247a3f336)) or your phone ([Google](https://passwords.google.com/intro) on stock Android, [Passwords](https://support.apple.com/HT211146) on iOS) without even realizing it.
+Nawet jeśli nigdy świadomie nie zdarzyło Ci się korzystać z menedżera haseł, istnieje szansa, że używasz go w przeglądarce ([Firefox](https://support.mozilla.org/kb/password-manager-remember-delete-edit-logins), [Chrome](https://passwords.google.com/intro), [Edge](https://support.microsoft.com/microsoft-edge/save-or-forget-passwords-in-microsoft-edge-b4beecb0-f2a8-1ca0-f26f-9ec247a3f336)) lub telefonie ([Google](https://passwords.google.com/intro) na standardowym systemie Android; aplikacja[Hasła](https://support.apple.com/HT211146) w systemie iOS), nawet tego nie zauważając.
 
 Systemy operacyjne na komputery stacjonarne również często mają własne menedżery haseł, które mogą pomóc odzyskać dawno zapomniane dane logowania:
 
-- Windows: [Credential Manager](https://support.microsoft.com/windows/accessing-credential-manager-1b5c916a-6a16-889f-8581-fc16e8165ac0)
-- macOS: [Passwords](https://support.apple.com/HT211145)
-- Linux: Gnome Keyring (accessed through [Seahorse](https://gitlab.gnome.org/GNOME/seahorse#seahorse)) or [KDE Wallet Manager](https://userbase.kde.org/KDE_Wallet_Manager)
+- Windows: [Poświadczenia systemu Windows](https://support.microsoft.com/windows/accessing-credential-manager-1b5c916a-6a16-889f-8581-fc16e8165ac0)
+- macOS: Aplikacja [Hasła](https://support.apple.com/HT211145)
+- Linux: Gnome Keyring (za pośrednictwem [Seahorse](https://gitlab.gnome.org/GNOME/seahorse#seahorse)) lub [KDE Wallet Manager](https://userbase.kde.org/KDE_Wallet_Manager)
 
 ### E-mail
 

@@ -1,27 +1,27 @@
 ---
-title: Android Overview
+title: Przegląd systemu Android
 icon: simple/android
-description: Android is an open-source operating system with strong security protections, which makes it our top choice for phones.
+description: Android to system operacyjny typu open-source z silnymi zabezpieczeniami, dlatego jest naszym pierwszym wyborem na telefony.
 robots: nofollow, max-snippet:-1, max-image-preview:large
 ---
 
 ![Android logo](../assets/img/android/android.svg){ align=right }
 
-The **Android Open Source Project** is a secure mobile operating system featuring strong [app sandboxing](https://source.android.com/security/app-sandbox), [Verified Boot](https://source.android.com/security/verifiedboot) (AVB), and a robust [permission](https://developer.android.com/guide/topics/permissions/overview) control system.
+**Projekt Android Open Source** to bezpieczny system operacyjny dla urządzeń mobilnych, oferujący zaawansowaną [izolację aplikacji](https://source.android.com/security/app-sandbox) (tzw. piaskownicę aplikacji), [Verified Boot](https://source.android.com/security/verifiedboot) (AVB) oraz rozbudowany [system uprawnień](https://developer.android.com/guide/topics/permissions/overview).
 
-[:octicons-home-16:](https://source.android.com){ .card-link title=Homepage }
-[:octicons-info-16:](https://source.android.com/docs){ .card-link title=Documentation}
-[:octicons-code-16:](https://cs.android.com/android/platform/superproject/main){ .card-link title="Source Code" }
+[:octicons-home-16:](https://source.android.com){ .card-link title=Strona główna }
+[:octicons-info-16:](https://source.android.com/docs){ .card-link title=Dokumentacja}
+[:octicons-code-16:](https://cs.android.com/android/platform/superproject/main){ .card-link title="Kod źródłowy" }
 
-[Our Android Advice :material-arrow-right-drop-circle:](../android/index.md ""){.md-button.md-button--primary}
+[Nasze zalecenia dotyczące Androida :material-arrow-right-drop-circle:](../android/index.md ""){.md-button.md-button--primary}
 
-## Security Protections
+## Mechanizmy zabezpieczeń
 
-Key components of the Android security model include [verified boot](#verified-boot), [firmware updates](#firmware-updates), and a robust [permission system](#android-permissions). These important security features form the baseline of the minimum criteria for our [mobile phone](../mobile-phones.md) and [custom Android OS](../android/distributions.md) recommendations.
+Kluczowe elementy modelu bezpieczeństwa Androida obejmują proces [Verified Boot](#verified-boot), [aktualizacje oprogramowania układowego](#firmware-updates) oraz rozbudowany [system uprawnień](#android-permissions). Te istotne funkcje bezpieczeństwa stanowią podstawę minimalnych kryteriów dla naszych zaleceń dotyczących [telefonów komórkowych](../mobile-phones.md) i [niestandardowych dystrybucji Androida](../android/distributions.md).
 
 ### Verified Boot
 
-[**Verified Boot**](https://source.android.com/security/verifiedboot) is an important part of the Android security model. It provides protection against [evil maid](https://en.wikipedia.org/wiki/Evil_maid_attack) attacks, malware persistence, and ensures security updates cannot be downgraded with [rollback protection](https://source.android.com/security/verifiedboot/verified-boot#rollback-protection).
+[**Verified Boot**](https://source.android.com/security/verifiedboot) jest ważnym elementem modelu bezpieczeństwa Androida. It provides protection against [evil maid](https://en.wikipedia.org/wiki/Evil_maid_attack) attacks, malware persistence, and ensures security updates cannot be downgraded with [rollback protection](https://source.android.com/security/verifiedboot/verified-boot#rollback-protection).
 
 W Androidzie 10 i nowszych zrezygnowano z szyfrowania całego dysku na rzecz bardziej elastycznego [szyfrowania plików](https://source.android.com/security/encryption/file-based). Twoje dane są zaszyfrowane za pomocą niepowtarzalnych kluczy szyfrujących, a pliki systemu operacyjnego pozostają niezaszyfrowane.
 
