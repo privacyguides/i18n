@@ -21,23 +21,23 @@ description: 參與 Pull Request 討論的指南。
 
 若要對 PR 留下_一般性_的註解，請點擊檔案右方的 :octicons-comment-16: 評論圖示：
 
-![Screenshot of an image file on the "Files changed" page of a pull request. To the right of the file, a comment icon is outlined in orange.](https://docs.github.com/assets/cb-73771/mw-1440/images/help/pull_requests/pull-request-comment-on-file.webp)
+![Pull request 的 "Files changed" 頁面當中圖檔的擷圖。 檔案右側，註解圖示有橘色外框。](https://docs.github.com/assets/cb-73771/mw-1440/images/help/pull_requests/pull-request-comment-on-file.webp)
 
-If the PR has multiple files changed, comment on the primary or most relevant file changed, or comment on the first file if you can't decide.
+如果 PR 一次變更了多個檔案，則只註解主要或最相關的變更檔案；如果無法決定，則註解在第一個檔案。
 
-To leave a comment _on a specific line_ of a PR, hover over the line where you'd like to add a comment, and click the blue comment icon:
+若只要對 PR 的_特定行_留下註解，請將滑鼠停留在您要新增註解的那一行，然後點擊藍色的註解圖示：
 
-![Screenshot of a diff in a pull request. Next to a line number, a blue plus icon is highlighted with an orange outline.](https://docs.github.com/assets/cb-44227/mw-1440/images/help/commits/hover-comment-icon.webp)
+![Pull request 當中的修改差異擷圖。 在行號旁邊，有一個橘色外框強調的藍色加號圖示。](https://docs.github.com/assets/cb-44227/mw-1440/images/help/commits/hover-comment-icon.webp)
 
-(Optionally, you can add a comment on multiple lines. You can click the line number of the first line you want to comment on and drag down to select a range of lines, then click the blue comment icon on the last line you want to comment on. Alternatively, you can click the blue comment icon next to the first line you want to comment on, then drag down to the last line you want to comment on.)
+（您也可以選擇性一次針對多行加入註解。 點擊想要加入註解的第一行，然後向下拖曳出要註解的範圍，再點擊範圍最後一行的藍色註解圖示。 或者也可以點擊要註解的第一行旁邊的藍色註解圖示，然後往下拖曳至要註解的最後一行。)
 
-Then, type your comment and click **Add single comment**.
+然後輸入註解，再點擊 **Add single comment**。
 
 ## 審核
 
-When performing a review, follow the same steps as above, but click **Start a review** (and subsequently, **Add a review comment**) instead of **Add single comment**.
+進行審核時，請依照上述步驟，但點擊 **Start a review**（然後是 **Add a review comment**），而非 **Add single comment**。
 
-Then, click the green **Finish your review** button at the top of the page.
+然後點擊頁面頂端的 **Finish your review** 按鈕。
 
 Do not leave any discussion comments in the _Leave a comment_ box in the review finalization pop-up. You can leave it blank, or leave a short note if it will not require any follow-up. To comment on something that will require further discussion, add a comment on a file as described above instead.
 

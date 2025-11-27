@@ -1,15 +1,15 @@
 ---
-title: Browser Extensions
+title: Browserextensies
 icon: material/puzzle-outline
-description: These browser extensions can enhance your browsing experience and protect your privacy.
+description: Deze browserextensies kunnen je browserervaring verbeteren en je privacy beschermen.
 cover: browser-extensions.webp
 ---
 
-<small>Protects against the following threat(s):</small>
+<small>Beschermt tegen de volgende bedreiging(en):</small>
 
-- [:material-account-cash: Surveillance Capitalism](basics/common-threats.md#surveillance-as-a-business-model){ .pg-brown }
+- [:material-account-cash: Surveillance Capitalisme](basics/common-threats.md#surveillance-as-a-business-model){ .pg-brown }
 
-In general, we recommend keeping your browser extensions to a minimum to decrease your attack surface. They have privileged access within your browser, require you to trust the developer, can make you [stand out](https://en.wikipedia.org/wiki/Device_fingerprint#Browser_fingerprint), and [weaken](https://groups.google.com/a/chromium.org/g/chromium-extensions/c/0ei-UCHNm34/m/lDaXwQhzBAAJ) site isolation.
+Over het algemeen raden we aan om je browserextensies tot een minimum te beperken om je aanvalsoppervlak te verkleinen. They have privileged access within your browser, require you to trust the developer, can make you [stand out](https://en.wikipedia.org/wiki/Device_fingerprint#Browser_fingerprint), and [weaken](https://groups.google.com/a/chromium.org/g/chromium-extensions/c/0ei-UCHNm34/m/lDaXwQhzBAAJ) site isolation.
 
 However, some provide functionality which can outweigh these downsides in certain situations, particularly when it comes to [content blocking](basics/common-threats.md#mass-surveillance-programs).
 
@@ -41,11 +41,11 @@ Don't install extensions which you don't immediately have a need for, or ones th
 
 </div>
 
-We suggest following the [developer's documentation](https://github.com/gorhill/uBlock/wiki/Blocking-mode) and picking one of the "modes". Additional filter lists can impact performance and [may increase attack surface](https://portswigger.net/research/ublock-i-exfiltrate-exploiting-ad-blockers-with-css).
+We raden aan om de [documentatie van de ontwikkelaar](https://github.com/gorhill/uBlock/wiki/Blocking-mode) te volgen en een van de "modi" te kiezen. Additional filter lists can impact performance and [may increase attack surface](https://portswigger.net/research/ublock-i-exfiltrate-exploiting-ad-blockers-with-css).
 
 These are some other [filter lists](https://github.com/gorhill/uBlock/wiki/Dashboard:-Filter-lists) that you may want to consider adding:
 
-- [x] Check **Privacy** > **AdGuard URL Tracking Protection**
+- [x] Controleer **Privacy** > **AdGuard URL Tracking Protection**
 - Add [Actually Legitimate URL Shortener Tool](https://raw.githubusercontent.com/DandelionSprout/adfilt/master/LegitimateURLShortener.txt)
 
 ### uBlock Origin Lite
@@ -88,18 +88,18 @@ uBlock Origin Lite only receives block list updates whenever the extension is up
 
 ### AdGuard
 
-We recommend [Safari](mobile-browsers.md#safari-ios) for iOS users, which unfortunately is not supported by uBlock Origin. Luckily, AdGuard provides an adequate alternative:
+Wij raden [Safari](mobile-browsers.md#safari-ios) aan voor iOS-gebruikers, die helaas niet wordt ondersteund door uBlock Origin. Gelukkig biedt AdGuard een geschikt alternatief:
 
 <div class="admonition recommendation" markdown>
 
-![AdGuard logo](assets/img/browsers/adguard.svg){ align=right }
+![AdGuard-logo](assets/img/browsers/adguard.svg){ align=right }
 
-**AdGuard for iOS** is a free and open-source content-blocking extension for Safari that uses the native [Content Blocker API](https://developer.apple.com/documentation/safariservices/creating_a_content_blocker).
+**AdGuard voor iOS** is een gratis en open-source inhoud-blokkerende extensie voor Safari die gebruik maakt van de native [Content Blocker API](https://developer.apple.com/documentation/safariservices/creating_a_content_blocker).
 
 [:octicons-home-16: Homepage](https://adguard.com/en/adguard-ios/overview.html){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://adguard.com/privacy/ios.html){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://kb.adguard.com/ios){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/AdguardTeam/AdguardForiOS){ .card-link title="Source Code" }
+[:octicons-eye-16:](https://adguard.com/privacy/ios.html){ .card-link title="Privacybeleid" }
+[:octicons-info-16:](https://kb.adguard.com/ios){ . ard-link title=Documentatie}
+[:octicons-code-16:](https://github.com/AdguardTeam/AdguardForiOS){ .card-link title="Broncode" }
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>

@@ -5,7 +5,7 @@ description: Ontdek hoe je jouw bestanden privé kunt delen tussen jouw apparate
 cover: file-sharing.webp
 ---
 
-<small>Protects against the following threat(s):</small>
+<small>Beschermt tegen de volgende bedreiging(en):</small>
 
 - [:material-server-network: Dienstverleners](basics/common-threats.md#privacy-from-service-providers ""){.pg-teal}
 
