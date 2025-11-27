@@ -39,6 +39,6 @@ description: 參與 Pull Request 討論的指南。
 
 然後點擊頁面頂端的 **Finish your review** 按鈕。
 
-Do not leave any discussion comments in the _Leave a comment_ box in the review finalization pop-up. You can leave it blank, or leave a short note if it will not require any follow-up. To comment on something that will require further discussion, add a comment on a file as described above instead.
+不要在完成審核的彈出視窗當中的 _Leave a comment_ 留下任何討論註解。 您可以留空，不需要後續任何處理的話也可以留下一段簡短說明。 若要對需要進一步討論的內容留下註解，則依照上面描述的方式進行。
 
 然後按下 **Submit review**。
