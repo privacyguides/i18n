@@ -99,7 +99,7 @@ MAGIC Grants 是我們的金流代理業者，他們的客製化開放原始碼�
 </p>
 
 <h3 spaces-before="0">
-  How are organizational members recognized?
+  會如何表彰組織會員？
 </h3>
 
 <p spaces-before="0">
