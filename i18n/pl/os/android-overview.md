@@ -21,70 +21,70 @@ Kluczowe elementy modelu bezpieczeństwa Androida obejmują proces [Verified Boo
 
 ### Verified Boot
 
-[**Verified Boot**](https://source.android.com/security/verifiedboot) jest ważnym elementem modelu bezpieczeństwa Androida. It provides protection against [evil maid](https://en.wikipedia.org/wiki/Evil_maid_attack) attacks, malware persistence, and ensures security updates cannot be downgraded with [rollback protection](https://source.android.com/security/verifiedboot/verified-boot#rollback-protection).
+[**Verified Boot**](https://source.android.com/security/verifiedboot) jest ważnym elementem modelu bezpieczeństwa Androida. Zapewnia ochronę przed atakami typu [evil maid](https://en.wikipedia.org/wiki/Evil_maid_attack), przed trwałym utrzymaniem złośliwego oprogramowania oraz gwarantuje, że aktualizacje zabezpieczeń nie mogą zostać cofnięte dzięki [ochronie przed cofnięciem (rollback protection)](https://source.android.com/security/verifiedboot/verified-boot#rollback-protection).
 
-W Androidzie 10 i nowszych zrezygnowano z szyfrowania całego dysku na rzecz bardziej elastycznego [szyfrowania plików](https://source.android.com/security/encryption/file-based). Twoje dane są zaszyfrowane za pomocą niepowtarzalnych kluczy szyfrujących, a pliki systemu operacyjnego pozostają niezaszyfrowane.
+Android 10 i nowsze przeszły od szyfrowania całego dysku do bardziej elastycznego [szyfrowania opartego na plikach](https://source.android.com/security/encryption/file-based). Twoje dane są szyfrowane za pomocą unikatowych kluczy, natomiast pliki systemu operacyjnego pozostają nieszyfrowane.
 
-Verified Boot ensures the integrity of the operating system files, thereby preventing an adversary with physical access from tampering or installing malware on the device. In the unlikely case that malware is able to exploit other parts of the system and gain higher privileged access, Verified Boot will prevent and revert changes to the system partition upon rebooting the device.
+Verified Boot zapewnia integralność plików systemu operacyjnego, uniemożliwiając osobie z fizycznym dostępem do urządzenia modyfikowanie lub instalowanie złośliwego oprogramowania. W mało prawdopodobnym przypadku, gdy złośliwe oprogramowanie wykorzysta inne części systemu i uzyska wyższe uprawnienia, Verified Boot powstrzyma i cofnie zmiany w partycji systemowej po ponownym uruchomieniu urządzenia.
 
-Unfortunately, OEMs are only obliged to support Verified Boot on their stock Android distribution. Only a few OEMs such as Google support custom AVB key enrollment on their devices. Additionally, some AOSP derivatives such as LineageOS or /e/ OS do not support Verified Boot even on hardware with Verified Boot support for third-party operating systems. We recommend that you check for support **before** purchasing a new device. AOSP derivatives which do not support Verified Boot are **not** recommended.
+Niestety producenci OEM są zobowiązani do obsługi Verified Boot tylko w swojej standardowej dystrybucji Androida. Tylko kilku producentów, takich jak Google, obsługuje rejestrację niestandardowych kluczy AVB na swoich urządzeniach. Ponadto niektóre pochodne AOSP, takie jak LineageOS czy /e/OS, nie obsługują Verified Boot nawet na sprzęcie, który technicznie wspiera Verified Boot dla systemów firm trzecich. Zalecamy sprawdzenie wsparcia **przed** zakupem nowego urządzenia. Pochodne AOSP, które nie obsługują Verified Boot, **nie są** zalecane.
 
-Aktualizacje oprogramowania mają kluczowe znaczenie dla zachowania bezpieczeństwa. Producenci urządzeń zawierają umowy ze swoimi partnerami na dostarczanie komponentów o zamkniętym kodzie źródłowym przez ograniczony czas. This breaks verified boot on a stock Fairphone device, as the system will boot alternative Android operating systems (such as /e/) [without any warning](https://source.android.com/security/verifiedboot/boot-flow#locked-devices-with-custom-root-of-trust) about custom operating system usage.
+Wielu producentów ma też wadliwą implementację Verified Boot, o czym warto wiedzieć poza ich materiałami marketingowymi. Na przykład Fairphone 3 i 4 nie są domyślnie bezpieczne, ponieważ [standardowy bootloader ufa publicznemu kluczowi podpisu AVB](https://forum.fairphone.com/t/bootloader-avb-keys-used-in-roms-for-fairphone-3-4/83448/11). Powoduje to przerwanie Verified Boot na oryginalnym urządzeniu Fairphone, ponieważ system uruchomi alternatywne systemy Android (takie jak /e/) [bez żadnego ostrzeżenia](https://source.android.com/security/verifiedboot/boot-flow#locked-devices-with-custom-root-of-trust) o użyciu niestandardowego systemu operacyjnego.
 
-### Aktualizacje oprogramowania
+### Aktualizacje oprogramowania układowego
 
-**Firmware updates** are critical for maintaining security and without them your device cannot be secure. Dlatego ważne jest, aby zakupić urządzenie, które jest nadal wspierane. [Qualcomm](https://www.qualcomm.com/news/releases/2020/12/16/qualcomm-and-google-announce-collaboration-extend-android-os-support-and) oraz [Samsung](https://news.samsung.com/us/samsung-galaxy-security-extending-updates-knox/) oferując wsparcie dla swoich urządzeń przez 4 lata, podczas gdy tańsze produkty często mają krótszy okres wsparcia.
+**Aktualizacje oprogramowania układowego** są kluczowe dla utrzymania bezpieczeństwa — bez nich urządzenie nie może być bezpieczne. Producenci OEM zawierają umowy z partnerami na dostarczanie zamkniętych komponentów przez ograniczony okres wsparcia. [Qualcomm](https://www.qualcomm.com/news/releases/2020/12/16/qualcomm-and-google-announce-collaboration-extend-android-os-support-and) oraz [Samsung](https://news.samsung.com/us/samsung-galaxy-security-extending-updates-knox/) oferując wsparcie dla swoich urządzeń przez 4 lata, podczas gdy tańsze produkty często mają krótszy okres wsparcia.
 
-Urządzenia bez aktywnego wsparcia producenta układów nie otrzymują już aktualizacji oprogramowania od producentów urządzeń lub niestandardowych dystrybucji Androida. Oznacza to, że luki bezpieczeństwa w tych urządzeniach nie zostaną naprawione. [Qualcomm](https://qualcomm.com/news/releases/2020/12/qualcomm-and-google-announce-collaboration-extend-android-os-support-and) and [Samsung](https://news.samsung.com/us/samsung-galaxy-security-extending-updates-knox) support their devices for 4 years, while cheaper products often have shorter support cycles. With the introduction of the [Pixel 6](https://support.google.com/pixelphone/answer/4457705), Google now makes their own SoC, and they will provide a minimum of 5 years of support. With the introduction of the Pixel 8 series, Google increased that support window to 7 years.
+Ponieważ elementy telefonu, takie jak procesor i technologie radiowe, opierają się na zamkniętym oprogramowaniu, aktualizacje muszą być dostarczane przez odpowiednich producentów podzespołów. Dlatego ważne jest, żeby kupić urządzenie objęte aktywnym cyklem wsparcia. [Qualcomm](https://qualcomm.com/news/releases/2020/12/qualcomm-and-google-announce-collaboration-extend-android-os-support-and) i [Samsung](https://news.samsung.com/us/samsung-galaxy-security-extending-updates-knox) zapewniają wsparcie dla swoich urządzeń przez 4 lata, podczas gdy tańsze produkty często mają krótsze cykle wsparcia. Wraz z wprowadzeniem serii [Pixel 6](https://support.google.com/pixelphone/answer/4457705) Google produkuje teraz własne układy i oferuje co najmniej 5 lat wsparcia. Wraz z wprowadzeniem serii Pixel 8 Google wydłużyło ten okres wsparcia do 7 lat.
 
-Ważne jest, aby nie korzystać z [niewspieranej](https://endoflife.date/android) wersji Androida. Nowsze wersje Androida nie tylko otrzymują poprawki bezpieczeństwa dla systemu operacyjnego, ale także ważne aktualizacje poprawiające prywatność.
+Urządzenia oznaczone jako EOL, które nie są już wspierane przez producenta SoC, nie mogą otrzymywać aktualizacji oprogramowania układowego od producentów OEM ani od zewnętrznych dystrybutorów systemu Android. Oznacza to, że luki bezpieczeństwa w takich urządzeniach pozostaną niezałatane.
 
-Fairphone, for example, markets their Fairphone 4 device as receiving 6 years of support. Firma Google regularnie wprowadza [poprawki](https://developer.android.com/about/versions/11/privacy/permissions) do systemu zabezpieczeń z każdą kolejną wersją. Wszystkie instalowane przez Ciebie aplikacje są ściśle [izolowane](https://source.android.com/security/app-sandbox), więc nie ma potrzeby instalowania żadnych aplikacji antywirusowych.
+Fairphone na przykład reklamuje model Fairphone 4 jako objęty 6-letnim wsparciem. Jednak SoC (Qualcomm Snapdragon 750G w Fairphone 4) ma znacznie krótszą datę zakończenia wsparcia. Oznacza to, że aktualizacje zabezpieczeń oprogramowania układowego od Qualcomm dla Fairphone 4 zakończyły się we wrześniu 2023 r., niezależnie od tego, czy Fairphone będzie nadal wydawać aktualizacje zabezpieczeń oprogramowania.
 
-### Uprawnienia systemu Android
+### Uprawnienia Androida
 
-[**Permissions on Android**](https://developer.android.com/guide/topics/permissions/overview) grant you control over what apps are allowed to access. Google regularly makes [improvements](https://developer.android.com/about/versions/11/privacy/permissions) on the permission system in each successive version. All apps you install are strictly [sandboxed](https://source.android.com/security/app-sandbox), therefore, there is no need to install any antivirus apps.
+[**Uprawnienia w Androidzie**](https://developer.android.com/guide/topics/permissions/overview) dają Ci kontrolę nad tym, do czego aplikacje mają dostęp. Google regularnie wprowadza [ulepszenia](https://developer.android.com/about/versions/11/privacy/permissions) systemu uprawnień w każdej kolejnej wersji. Wszystkie instalowane przez Ciebie aplikacje są ściśle [izolowane](https://source.android.com/security/app-sandbox) (w piaskownicy), więc nie ma potrzeby instalowania żadnych aplikacji antywirusowych.
 
-A smartphone with the latest version of Android will always be more secure than an old smartphone with an antivirus that you have paid for. It's better not to pay for antivirus software and to save money to buy a new smartphone such as a [Google Pixel](../mobile-phones.md#google-pixel).
+Smartfon z najnowszą wersją Androida będzie zawsze bezpieczniejszy niż stary smartfon z zakupionym antywirusem. Lepiej nie płacić za oprogramowanie antywirusowe i odłożyć pieniądze na zakup nowego smartfona, takiego jak [Google Pixel](../mobile-phones.md#google-pixel).
 
 Android 10:
 
-- [Scoped Storage](https://developer.android.com/about/versions/10/privacy/changes#scoped-storage) gives you more control over your files and can limit what can [access external storage](https://developer.android.com/training/data-storage#permissions). Apps can have a specific directory in external storage as well as the ability to store specific types of media there.
-- Tighter access on [device location](https://developer.android.com/about/versions/10/privacy/changes#app-access-device-location) by introducing the `ACCESS_BACKGROUND_LOCATION` permission. This prevents apps from accessing the location when running in the background without express permission from the user.
+- [Scoped Storage](https://developer.android.com/about/versions/10/privacy/changes#scoped-storage) zapewnia większą kontrolę nad plikami i może ograniczać to, co może [uzyskać dostęp do pamięci zewnętrznej](https://developer.android.com/training/data-storage#permissions). Aplikacje mogą mieć określony katalog w pamięci zewnętrznej oraz możliwość zapisywania tam określonych typów multimediów.
+- Zaostrzone uprawnienia do [lokalizacji urządzenia](https://developer.android.com/about/versions/10/privacy/changes#app-access-device-location) poprzez wprowadzenie uprawnienia `ACCESS_BACKGROUND_LOCATION`. Zapobiega to dostępowi aplikacji do lokalizacji podczas działania w tle bez wyraźnej zgody użytkownika.
 
 Android 11:
 
-- [One-time permissions](https://developer.android.com/about/versions/11/privacy/permissions#one-time) which allows you to grant a permission to an app just once.
-- [Auto-reset permissions](https://developer.android.com/about/versions/11/privacy/permissions#auto-reset), which resets [runtime permissions](https://developer.android.com/guide/topics/permissions/overview#runtime) that were granted when the app was opened.
-- Granular permissions for accessing [phone number](https://developer.android.com/about/versions/11/privacy/permissions#phone-numbers) related features.
+- [Uprawnienia jednorazowe](https://developer.android.com/about/versions/11/privacy/permissions#one-time), które pozwalają przyznać aplikacji dostęp tylko na jedną sesję.
+- [Automatyczne resetowanie uprawnień](https://developer.android.com/about/versions/11/privacy/permissions#auto-reset), które cofa [uprawnienia uruchomieniowe](https://developer.android.com/guide/topics/permissions/overview#runtime) przyznane podczas otwierania aplikacji.
+- Drobniejsze uprawnienia dotyczące funkcji związanych z [numerami telefonów](https://developer.android.com/about/versions/11/privacy/permissions#phone-numbers).
 
 Android 12:
 
-- A permission to grant only the [approximate location](https://developer.android.com/about/versions/12/behavior-changes-12#approximate-location).
-- Auto-reset of [hibernated apps](https://developer.android.com/about/versions/12/behavior-changes-12#app-hibernation).
-- [Data access auditing](https://developer.android.com/about/versions/12/behavior-changes-12#data-access-auditing) which makes it easier to determine what part of an app is performing a specific type of data access.
+- Uprawnienie umożliwiające przyznanie jedynie [przybliżonej lokalizacji](https://developer.android.com/about/versions/12/behavior-changes-12#approximate-location).
+- Automatyczne resetowanie uprawnień dla [uśpionych aplikacji](https://developer.android.com/about/versions/12/behavior-changes-12#app-hibernation).
+- Interfejs [Data Access Auditing](https://developer.android.com/about/versions/12/behavior-changes-12#data-access-auditing), który ułatwia ustalenie, która część aplikacji wykonuje określony rodzaj dostępu do danych.
 
 Android 13:
 
-- A permission for [nearby Wi-Fi access](https://developer.android.com/about/versions/13/behavior-changes-13#nearby-wifi-devices-permission). The MAC addresses of nearby Wi-Fi access points were a popular way for apps to track a user's location.
-- More [granular media permissions](https://developer.android.com/about/versions/13/behavior-changes-13#granular-media-permissions), meaning you can grant access to images, videos or audio files only.
-- Background use of sensors now requires the [`BODY_SENSORS`](https://developer.android.com/about/versions/13/behavior-changes-13#body-sensors-background-permission) permission.
+- Uprawnienie do [dostępu do pobliskich urządzeń Wi-Fi](https://developer.android.com/about/versions/13/behavior-changes-13#nearby-wifi-devices-permission). Adresy MAC pobliskich punktów dostępowych Wi-Fi były popularnym sposobem śledzenia lokalizacji użytkownika przez aplikacje.
+- Bardziej [szczegółowe uprawnienia do multimediów](https://developer.android.com/about/versions/13/behavior-changes-13#granular-media-permissions), co pozwala przyznać dostęp tylko do obrazów, tylko do obrazów, filmów lub plików audio.
+- Użycie czujników w tle wymaga teraz uprawnienia [`BODY_SENSORS`](https://developer.android.com/about/versions/13/behavior-changes-13#body-sensors-background-permission).
 
-An app may request a permission for a specific feature it has. For example, any app that can scan QR codes will require the camera permission. Some apps can request more permissions than they need.
+Aplikacja może poprosić o uprawnienia dla konkretnej funkcji, którą oferuje. Na przykład każda aplikacja skanująca kody QR będzie wymagać uprawnienia do kamery. Niektóre aplikacje mogą żądać więcej uprawnień, niż faktycznie potrzebują.
 
-[Exodus](https://exodus-privacy.eu.org) can be useful when comparing apps that have similar purposes. If an app requires a lot of permissions and has a lot of advertising and analytics this is probably a bad sign. We recommend looking at the individual trackers and reading their descriptions rather than simply **counting the total** and assuming all items listed are equal.
+[Exodus](https://exodus-privacy.eu.org) może być pomocny przy porównywaniu aplikacji o podobnym przeznaczeniu. Jeśli dana aplikacja wymaga wielu uprawnień i zawiera dużo reklam oraz bibliotek analitycznych, jest to prawdopodobnie zły znak. Zalecamy przyjrzeć się poszczególnym trackerom i przeczytać ich opisy, zamiast po prostu **zliczać ich sumę** i zakładać, że wszystkie pozycje mają równą wagę.
 
 <div class="admonition warning" markdown>
 <p class="admonition-title">Ostrzeżenie</p>
 
-If an app is mostly a web-based service, the tracking may occur on the server side. [Facebook](https://reports.exodus-privacy.eu.org/en/reports/com.facebook.katana/latest) shows "no trackers" but certainly does track users' interests and behavior across the site. Apps may evade detection by not using standard code libraries produced by the advertising industry, though this is unlikely.
+Jeżeli aplikacja jest w dużej mierze usługą internetową, śledzenie może odbywać się po stronie serwera. [Facebook](https://reports.exodus-privacy.eu.org/en/reports/com.facebook.katana/latest) pokazuje „brak trackerów”, ale z pewnością śledzi zainteresowania i zachowanie użytkowników w obrębie serwisu. Aplikacje mogą unikać wykrycia, nie korzystając ze standardowych bibliotek reklamowych, choć jest to mało prawdopodobne.
 
 </div>
 
 <div class="admonition note" markdown>
 <p class="admonition-title">Uwaga</p>
 
-Privacy-friendly apps such as [Bitwarden](https://reports.exodus-privacy.eu.org/en/reports/com.x8bit.bitwarden/latest) may show some trackers such as [Google Firebase Analytics](https://reports.exodus-privacy.eu.org/en/trackers/49). This library includes [Firebase Cloud Messaging](https://en.wikipedia.org/wiki/Firebase_Cloud_Messaging) which can provide [push notifications](https://en.wikipedia.org/wiki/Push_technology) in apps. This [is the case](https://fosstodon.org/@bitwarden/109636825700482007) with Bitwarden. That doesn't mean that Bitwarden is using all the analytics features that are provided by Google Firebase Analytics.
+Aplikacje przyjazne prywatności, takie jak [Bitwarden](https://reports.exodus-privacy.eu.org/en/reports/com.x8bit.bitwarden/latest), mogą pokazać niektóre trackery, np. [Google Firebase Analytics](https://reports.exodus-privacy.eu.org/en/trackers/49). Biblioteka ta obejmuje [Firebase Cloud Messaging](https://en.wikipedia.org/wiki/Firebase_Cloud_Messaging), które umożliwia dostarczać [powiadomienia push](https://en.wikipedia.org/wiki/Push_technology) w aplikacjach. To właśnie ma miejsce [w przypadku Bitwardena](https://fosstodon.org/@bitwarden/109636825700482007). Nie oznacza to jednak, że Bitwarden wykorzystuje wszystkie funkcje analityczne oferowane przez Google Firebase Analytics.
 
 </div>
 

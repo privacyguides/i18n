@@ -25,7 +25,7 @@ Even if you don't use these operating systems, participation in these programs m
 
 New computers nearly always come with Windows preinstalled, unless you buy a Mac or a specialty Linux machine. It's usually a good idea to wipe the drive and install a fresh copy of your operating system of choice, even if that means just reinstalling Windows from scratch. Due to agreements between hardware vendors and shady software vendors, the default Windows install often comes preloaded with bloatware, [adware](https://bleepingcomputer.com/news/technology/lenovo-gets-a-slap-on-the-wrist-for-superfish-adware-scandal), or even [malware](https://zdnet.com/article/dell-poweredge-motherboards-ship-with-malware).
 
-### Aktualizacje oprogramowania
+### Aktualizacje oprogramowania układowego
 
 Hardware often has security issues that are discovered and patched through firmware updates for your hardware.
 

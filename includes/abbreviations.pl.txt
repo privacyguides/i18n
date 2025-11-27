@@ -63,7 +63,7 @@
 *[OCI]: Open Container Initiative
 *[OCSP]: Protokół stanu certyfikatu online
 *[OEM]: Producent oryginalnego sprzętu
-*[OEM-y]: Producenci oryginalnego sprzętu
+*[producenci OEM]: Producenci oryginalnego sprzętu
 *[model z otwartymi wagami]: Model z otwartymi wagami to model sztucznej inteligencji, który każdy może pobrać i używać, jednak dane treningowe i/lub zastosowane algorytmy pozostają zastrzeżone.
 *[OS]: System operacyjny
 *[OTP]: Hasło jednorazowe
