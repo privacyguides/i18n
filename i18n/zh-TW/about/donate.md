@@ -103,7 +103,7 @@ MAGIC Grants 是我們的金流代理業者，他們的客製化開放原始碼�
 </h3>
 
 <p spaces-before="0">
-  Organizational members that choose to be recognized publicly are included in our organizational members section (above), and occasionally at other opportunities where appropriate. Organizational member links include the <code>rel="nofollow"</code> attribute: We adopted this policy to screen out potential abuse of our program and site to raise the rank of third parties in search algorithms. Unfortunately, this is a growing problem for nonprofits. This was a complex decision since we know many of the sincere supporters behind these companies, but we decided that it was the best choice for us.
+  願意被公開表彰的組織會員，將列名於上方的組織會員段落中，也偶爾會在其他適當的機會中被表彰。 連結到組織會員的超連結會包含 <code>rel="nofollow"</code> 屬性：我們採用此政策是為了要過濾可能濫用本計畫與網站，讓他們於搜尋引擎演算法中提高排名的可能。 很可惜的是，對於非營利組織來說，這是日益嚴重的問題。 這是一個複雜的決定。我們認識這些公司背後誠摯的支持者，但還是認為這是最適合我們的選擇。
 </p>
 
 <p spaces-before="0">
@@ -111,15 +111,15 @@ MAGIC Grants 是我們的金流代理業者，他們的客製化開放原始碼�
 </p>
 
 <h3 spaces-before="0">
-  What is an active membership?
+  活躍會員是什麼？
 </h3>
 
 <p spaces-before="0">
-  Your monthly or yearly membership sustains Privacy Guides's services and public activism for privacy and cybersecurity year round. If you become a member, we will recognize your support here on our website, our community forum, and occasionally in other areas like our videos if you choose to make your membership publicly known.
+  您的每月或年度會員資格，可幫助 Privacy Guides 的服務與隱私權、網路安全的公共倡議活動持續運作。 您成為會員之後，只要選擇公開會員紀錄，我們就會在網站此處、社群討論區，以及不定時在影片等其他地方列出。
 </p>
 
 <p spaces-before="0">
-  Our membership program is brand new, and we are still exploring other ways that we can share a token of our appreciation with you, while maintaining sustainable and ethical boundaries. Stay tuned!
+  我們的會員計畫還很新，仍在探索其他能夠維持永續與道德界線，同時又能與您分享心意的方式。 敬請期待！
 </p>
 
 <h3 spaces-before="0">
@@ -127,15 +127,15 @@ MAGIC Grants 是我們的金流代理業者，他們的客製化開放原始碼�
 </h3>
 
 <p spaces-before="0">
-  五年多來，Privacy Guides 不斷努力跟上網路安全與隱私權的世界，並推廣隱私權的整體好處。 This is a <strong x-id="1">non-profit, community-driven</strong> project that would not be possible without the generous support of all our <a href="contributors.md">contributors</a>, in addition to our regularly donating members above.
+  五年多來，Privacy Guides 不斷努力跟上網路安全與隱私權的世界，並推廣隱私權的整體好處。 這是<strong x-id="1">非營利、由社群運作</strong>的專案，如果沒有各位<a href="contributors.md">貢獻者</a>以及上方定期捐款的會員的大力相助，就無法成為可能。
 </p>
 
 <p spaces-before="0">
-  Your donation go to a <a href="https://magicgrants.org/funds/privacy_guides">dedicated fund</a> within <a href="https://magicgrants.org">MAGIC Grants</a>, a 501(c)(3) organization and our fiscal host. The funds will <strong x-id="1">only</strong> be used for this project specifically.
+  您的捐款將撥入 <a href="https://magicgrants.org">MAGIC Grants</a> 的<a href="https://magicgrants.org/funds/privacy_guides">專用基金</a>，MAGIC Grants 是一家 501(c)(3) 機構，也是我們的財務主辦單位。 資金<strong x-id="1">只會</strong>使用於本專案。
 </p>
 
 <p spaces-before="0">
-  您可獲得減稅資格。 When you donate to us <a href="https://donate.magicgrants.org/privacyguides">here</a> with cryptocurrency or card you have the option to receive a receipt from MAGIC Grants for this purpose. If you have questions about other transactions please email <a href="mailto:info@magicgrants.org" x-nc="1">info@magicgrants.org</a>.
+  您可獲得減稅資格。 當您使用加密貨幣或卡片<a href="https://donate.magicgrants.org/privacyguides">在此</a>捐款時，您可以選擇收到 MAGIC Grants 發出的收據。 如果您有其他與捐款交易有關的問題，請寄信到 <a href="mailto:info@magicgrants.org" x-nc="1">info@magicgrants.org</a>。
 </p>
 
 <p spaces-before="0">
@@ -149,7 +149,7 @@ MAGIC Grants 是我們的金流代理業者，他們的客製化開放原始碼�
   
   <dd>
     <p spaces-before="0">
-      We have journalists, writers, and video creators on payroll to review products and create more educational content on a regular basis. This is a significant expense, and we are only able to create our quantity of content with your support.
+      我們聘請記者、作家與影片創作者，定期評論產品並製作更多教育性內容。 這是一大筆開支，只有在您的支持下，才能製作大量的內容。
     </p>
   </dd>
   
@@ -159,7 +159,7 @@ MAGIC Grants 是我們的金流代理業者，他們的客製化開放原始碼�
   
   <dd>
     <p spaces-before="0">
-      Traffic to this website uses hundreds of gigabytes of data per month; we use a variety of service providers to keep up with this traffic.
+      本網站每月使用數百 GB 的流量；我們使用不同業者的服務來支撐這些需求。
     </p>
   </dd>
   
@@ -185,9 +185,9 @@ MAGIC Grants 是我們的金流代理業者，他們的客製化開放原始碼�
 </dl>
 
 <p spaces-before="0">
-  Thank you to all those who support our mission! :material-heart:{ .pg-red }
+  感謝所有支持本站宗旨的朋友！ :material-heart:{ .pg-red }
 </p>
 
 <p spaces-before="0">
-  We strictly <strong x-id="1">do not</strong> use donations to support political campaigns/candidates or attempt to influence legislation. Earnings will <strong x-id="1">not</strong> inure to the benefit of any private shareholder or individual.
+  我們<strong x-id="1">嚴禁</strong>將捐款用於支持政治競選/候選人或試圖影響立法。 Earnings will <strong x-id="1">not</strong> inure to the benefit of any private shareholder or individual.
 </p>
