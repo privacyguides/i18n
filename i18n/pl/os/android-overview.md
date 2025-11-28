@@ -108,48 +108,48 @@ Ta metoda jest zazwyczaj mniej bezpieczna niż dodatkowy profil użytkownika; po
 
 ### Przestrzeń prywatna
 
-**Przestrzeń prywatna** to funkcja wprowadzona w Androidzie 15, dodająca kolejny sposób izolowania poszczególnych aplikacji. Przestrzeń prywatną można skonfigurować w profilu właściciela, przechodząc do :gear: **Ustawienia** → **Bezpieczeństwo i prywatność** → **Przestrzeń prywatna**. Once set up, your private space resides at the bottom of the app drawer.
+**Przestrzeń prywatna** to funkcja wprowadzona w Androidzie 15, dodająca kolejny sposób izolowania poszczególnych aplikacji. Przestrzeń prywatną można skonfigurować w profilu właściciela, przechodząc do :gear: **Ustawienia** → **Bezpieczeństwo i prywatność** → **Przestrzeń prywatna**. Po skonfigurowaniu Twoja przestrzeń prywatna znajduje się u dołu szuflady aplikacji.
 
-Like user profiles, a private space is encrypted using its own encryption key, and you have the option to set up a different unlock method. Like work profiles, you can use apps from both the owner profile and private space simultaneously. Apps launched from a private space are distinguished by an icon depicting a key within a shield.
+Podobnie jak profile użytkowników, przestrzeń prywatna jest szyfrowana przy użyciu własnego klucza szyfrowania i daje możliwość ustawienia innej metody odblokowywania. Podobnie jak profile służbowe, można korzystać z aplikacji jednocześnie w profilu właściciela i przestrzeni prywatnej. Aplikacje uruchomione w przestrzeni prywatnej wyróżnia się ikoną przedstawiającą klucz w tarczy.
 
-Unlike work profiles, Private Space is a feature native to Android that does not require a third-party app to manage it. For this reason, we generally recommend using a private space over a work profile, though you can use a work profile alongside a private space.
+W odróżnieniu od profili służbowych, przestrzeń prywatna jest natywną funkcją Androida i nie wymaga aplikacji firm trzecich do zarządzania nią. Z tego powodu zazwyczaj zalecamy korzystanie z przestrzeni prywatnej zamiast profilu służbowego, choć można używać profilu służbowego równolegle z przestrzenią prywatną.
 
-### VPN kill switch
+### Funkcja VPN kill switch
 
-Android 7 and above supports a VPN kill switch, and it is available without the need to install third-party apps. This feature can prevent leaks if the VPN is disconnected. It can be found in :gear: **Settings** → **Network & internet** → **VPN** → :gear: → **Block connections without VPN**.
+Android 7 i nowszy obsługuje kill switch VPN, dostępny bez konieczności instalowania aplikacji firm trzecich. Funkcja ta może zapobiegać wyciekom danych, gdy VPN zostanie rozłączony. Można ją znaleźć w :gear: **Ustawienia** → **Sieć i internet** → **VPN** → :gear: → **Blokuj połączenia bez VPN**.
 
-### Global Toggles
+### Globalne przełączniki
 
-Modern Android devices have global toggles for disabling Bluetooth and location services. Android 12 introduced toggles for the camera and microphone. When not in use, we recommend disabling these features. Apps cannot use disabled features (even if granted individual permissions) until re-enabled.
+Nowoczesne urządzenia z Androidem mają globalne przełączniki do wyłączania Bluetooth i usług lokalizacyjnych. Android 12 wprowadził przełączniki dla aparatu i mikrofonu. Zalecamy wyłączać te funkcje, gdy nie są używane. Aplikacje nie mogą korzystać z wyłączonych funkcji (nawet jeśli mają przyznane indywidualne uprawnienia) do czasu ich ponownego włączenia.
 
-## Google Services
+## Usługi Google
 
-If you are using a device with Google services—whether with the stock operating system or an operating system that safely sandboxes Google Play Services like GrapheneOS—there are a number of additional changes you can make to improve your privacy. We still recommend avoiding Google services entirely, or limiting Google Play Services to a specific user/work profile by combining a device controller like *Shelter* with GrapheneOS's Sandboxed Google Play.
+Jeśli używasz urządzenia z usługami Google — czy to na standardowej dystrybucji systemu, czy na systemie, który bezpiecznie izoluje Usługi Google Play, takim jak GrapheneOS — możesz wprowadzić dodatkowe zmiany poprawiające Twoją prywatność. Nadal zalecamy całkowite unikanie usług Google albo ograniczenie Usług Google Play do konkretnego profilu użytkownika/profilu służbowego, łącząc aplikację kontrolera urządzenia, taką jak *Shelter*, z izolowaną aplikacją Google Play w GrapheneOS.
 
-### Advanced Protection Program
+### Program ochrony zaawansowanej
 
-If you have a Google account we suggest enrolling in the [Advanced Protection Program](https://landing.google.com/advancedprotection). To umożliwi Ci otrzymywanie **niektórych** poprawek bezpieczeństwa od Google bez naruszania modelu zabezpieczeń Androida poprzez używanie systemu pochodnego od Androida i zwiększanie ryzyka na atak. Alternatively, you can use [passkeys](https://fidoalliance.org/passkeys).
+Jeśli masz konto Google, zalecamy zapisanie się do [Programu ochrony zaawansowanej](https://landing.google.com/advancedprotection). Program jest dostępny bezpłatnie dla osób posiadających dwa lub więcej fizycznych kluczy bezpieczeństwa z obsługą [FIDO](../basics/multi-factor-authentication.md#fido-fast-identity-online). Alternatywnie można użyć [kluczy dostępu](https://fidoalliance.org/passkeys).
 
-The Advanced Protection Program provides enhanced threat monitoring and enables:
+Program ochrony zaawansowanej zapewnia wzmocnione monitorowanie zagrożeń i umożliwia:
 
-- Stricter two-factor authentication; e.g. that [FIDO](../basics/multi-factor-authentication.md#fido-fast-identity-online) **must** be used and disallows the use of [SMS OTPs](../basics/multi-factor-authentication.md#sms-or-email-mfa), [TOTP](../basics/multi-factor-authentication.md#time-based-one-time-password-totp) and [OAuth](../basics/account-creation.md#sign-in-with-oauth)
-- Only Google and verified third-party apps can access account data
-- Scanning of incoming emails on Gmail accounts for [phishing](https://en.wikipedia.org/wiki/Phishing#Email_phishing) attempts
-- Stricter [safe browser scanning](https://google.com/chrome/privacy/whitepaper.html#malware) with Google Chrome
-- Stricter recovery process for accounts with lost credentials
+- Zaostrzone uwierzytelnianie dwuskładnikowe; np. obowiązek stosowania [FIDO](../basics/multi-factor-authentication.md#fido-fast-identity-online) oraz wyłączenie użycia [SMS OTP](../basics/multi-factor-authentication.md#sms-or-email-mfa), [TOTP](../basics/multi-factor-authentication.md#time-based-one-time-password-totp) i [OAuth](../basics/account-creation.md#sign-in-with-oauth).
+- Dostęp do danych konta mają tylko Google i zweryfikowane aplikacje firm trzecich.
+- Skanowanie przychodzących wiadomości e-mail na kontach Gmail w poszukiwaniu prób [phishingu](https://en.wikipedia.org/wiki/Phishing#Email_phishing).
+- Surowsze [skanowanie bezpieczeństwa przeglądarki](https://google.com/chrome/privacy/whitepaper.html#malware) w Google Chrome.
+- Zaostrzony proces odzyskiwania konta w przypadku utraty danych uwierzytelniających.
 
- If you use non-sandboxed Google Play Services (common on stock operating systems), the Advanced Protection Program also comes with [additional benefits](https://support.google.com/accounts/answer/9764949) such as:
+ Jeśli korzystasz z nieizolowanych Usług Google Play (co jest powszechne w standardowych systemach Android), Program ochrony zaawansowanej oferuje [dodatkowe korzyści](https://support.google.com/accounts/answer/9764949), takie jak:
 
-- Not allowing app installation outside the Google Play Store, the OS vendor's app store, or via [`adb`](https://en.wikipedia.org/wiki/Android_Debug_Bridge)
-- Mandatory automatic device scanning with [Play Protect](https://support.google.com/googleplay/answer/2812853?#zippy=%2Chow-malware-protection-works%2Chow-privacy-alerts-work)
-- Warning you about unverified applications
-- Enabling ARM's hardware-based [Memory Tagging Extension (MTE)](https://developer.arm.com/documentation/108035/0100/Introduction-to-the-Memory-Tagging-Extension) for supported apps, which lowers the likelihood of device exploits happening through memory corruption bugs
+- Brak możliwości instalowania aplikacji spoza Sklepu Google Play, sklepu dostawcy systemu lub przez [`adb`](https://en.wikipedia.org/wiki/Android_Debug_Bridge).
+- Wymuszone automatyczne skanowanie urządzenia za pomocą [Play Protect](https://support.google.com/googleplay/answer/2812853?#zippy=%2Chow-malware-protection-works%2Chow-privacy-alerts-work).
+- Ostrzeganie o niezweryfikowanych aplikacjach.
+- Włączenie opartej na sprzęcie funkcji ARM — [Memory Tagging Extension (MTE)](https://developer.arm.com/documentation/108035/0100/Introduction-to-the-Memory-Tagging-Extension) — dla obsługiwanych aplikacji, co zmniejsza prawdopodobieństwo wykorzystania błędów związanych z uszkodzeniem pamięci.
 
 ### Aktualizacje systemowe Google Play
 
-In the past, Android security updates had to be shipped by the operating system vendor. Android has become more modular beginning with Android 10, and Google can push security updates for **some** system components via the privileged Play Services.
+W przeszłości aktualizacje bezpieczeństwa Androida musiały być dostarczane przez dostawcę systemu operacyjnego. Od Androida 10 system stał się bardziej modułowy i Google może przekazywać aktualizacje bezpieczeństwa dla **niektórych** komponentów systemowych za pośrednictwem uprzywilejowanych Usług Google Play.
 
-If you have an EOL device shipped with Android 10 or above and are unable to run any of our recommended operating systems on your device, you are likely going to be better off sticking with your OEM Android installation (as opposed to an operating system not listed here such as LineageOS or /e/ OS). This will allow you to receive **some** security fixes from Google, while not violating the Android security model by using an insecure Android derivative and increasing your attack surface. We would still recommend upgrading to a supported device as soon as possible.
+Jeżeli posiadasz urządzenie EOL dostarczone z Androidem 10 lub nowszym i nie możesz uruchomić żadnego z naszych zalecanych systemów operacyjnych na swoim urządzeniu, prawdopodobnie korzystniej będzie pozostać przy standardowej instalacji OEM Androida (zamiast używania nieujętego tutaj systemu, takiego jak LineageOS czy /e/OS). Pozwoli to otrzymywać **pewne** poprawki bezpieczeństwa od Google, jednocześnie nie naruszając modelu bezpieczeństwa Androida przez użycie niebezpiecznej pochodnej i nie zwiększając powierzchni ataku. Mimo wszystko nadal zalecamy jak najszybszą wymianę na urządzenie objęte wsparciem.
 
 ### Advertising ID
 
