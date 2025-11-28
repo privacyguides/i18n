@@ -98,17 +98,17 @@ Dzięki profilom użytkowników możesz nałożyć ograniczenia na konkretny pro
 
 ### Profil służbowy
 
-[**Work Profiles**](https://support.google.com/work/android/answer/6191949) are another way to isolate individual apps and may be more convenient than separate user profiles.
+[**Profile służbowe**](https://support.google.com/work/android/answer/6191949) to inny sposób izolowania poszczególnych aplikacji i może być wygodniejszy niż oddzielne profile użytkowników.
 
-A **device controller** app such as [Shelter](../android/general-apps.md#shelter) is required to create a Work Profile without an enterprise MDM, unless you're using a custom Android OS which includes one.
+Do utworzenia profilu służbowego bez rozwiązania MDM w przedsiębiorstwie wymagane jest zainstalowanie aplikacji **kontrolera urządzenia**, takiej jak [Shelter](../android/general-apps.md#shelter), chyba że używany jest niestandardowy system Android, który taką funkcję zawiera.
 
-The work profile is dependent on a device controller to function. Features such as *File Shuttle* and *contact search blocking* or any kind of isolation features must be implemented by the controller. You must also fully trust the device controller app, as it has full access to your data inside the work profile.
+Profil służbowy działa przy wsparciu kontrolera urządzenia. Funkcje takie jak *File Shuttle* oraz *blokowanie wyszukiwania kontaktów* lub dowolne funkcje izolacji muszą być zaimplementowane przez kontroler. Należy w pełni ufać aplikacji kontrolera urządzenia, ponieważ ma ona pełny dostęp do danych znajdujących się w profilu służbowym.
 
-This method is generally less secure than a secondary user profile; however, it does allow you the convenience of running apps in both the owner profile and work profile simultaneously.
+Ta metoda jest zazwyczaj mniej bezpieczna niż dodatkowy profil użytkownika; pozwala jednak na wygodę uruchamiania aplikacji jednocześnie w profilu właściciela i profilu służbowym.
 
-### Private Space
+### Przestrzeń prywatna
 
-**Private Space** is a feature introduced in Android 15 that adds another way of isolating individual apps. You can set up a private space in the owner profile by navigating to :gear: **Settings** → **Security & privacy** → **Private space**. Once set up, your private space resides at the bottom of the app drawer.
+**Przestrzeń prywatna** to funkcja wprowadzona w Androidzie 15, dodająca kolejny sposób izolowania poszczególnych aplikacji. Przestrzeń prywatną można skonfigurować w profilu właściciela, przechodząc do :gear: **Ustawienia** → **Bezpieczeństwo i prywatność** → **Przestrzeń prywatna**. Once set up, your private space resides at the bottom of the app drawer.
 
 Like user profiles, a private space is encrypted using its own encryption key, and you have the option to set up a different unlock method. Like work profiles, you can use apps from both the owner profile and private space simultaneously. Apps launched from a private space are distinguished by an icon depicting a key within a shield.
 
