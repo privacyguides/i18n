@@ -218,9 +218,9 @@ iPhone 可以抵禦暴力攻擊，在多次嘗試失敗後，需要等待很長�
 
 - [ ] 關閉 **感應器 & 使用資料收集**
 
-**[安全檢查](https://support.apple.com/guide/personal-safety/safety-check-iphone-ios-16-ips2aad835e1/1.0/web/1.0)**讓您能快速檢視並撤銷某些可能擁有存取您資料權限的人員與應用程式。 可在此處執行**緊急重設**，立即重設所有可能存取裝置資源的人員與應用程式的權限。 您也可以**管理分享存取權**讓您查看並自訂有權存取裝置與帳號資源的人員與內容。 If you're in an abusive situation, read Apple's [Personal Safety User Guide](https://support.apple.com/guide/personal-safety/welcome/web) for guidance on what you should do.
+**[安全檢查](https://support.apple.com/guide/personal-safety/safety-check-iphone-ios-16-ips2aad835e1/1.0/web/1.0)**讓您能快速檢視並撤銷某些可能擁有存取您資料權限的人員與應用程式。 可在此處執行**緊急重設**，立即重設所有可能存取裝置資源的人員與應用程式的權限。 您也可以**管理分享存取權**讓您查看並自訂有權存取裝置與帳號資源的人員與內容。 若您身處受虐情境，請閱讀 Apple 的[《人身安全使用手冊》](https://support.apple.com/guide/personal-safety/welcome/web)了解應採取的行動。
 
-You should disable analytics if you don't wish to send usage data to Apple. Select **Analytics & Improvements** and unselect the type(s) of analytics that you don't want to send to Apple.
+若您不想要傳送使用資料給 Apple，您應該停用分析功能。 選取**分析與改進功能**，並取消選取您不想傳送至 Apple 的分析類型。
 
 關閉 **個人化廣告** 如不願加入針對式行銷。 選擇 **Apple 廣告**:
 
@@ -230,11 +230,11 @@ You should disable analytics if you don't wish to send usage data to Apple. Sele
 
 - [x] 選擇 **開啟 App 隱私權報告**
 
-Set wired accessories to ask for permission when you connect them. Select **Wired Accessories**:
+將有線配件設定為在連線時要求許可。 選取**有線配件**：
 
-- [x] Select **Always Ask** or **Ask for New Accessories**
+- [x] 選取**永遠先詢問**或**新增配件時詢問**
 
-**[Lockdown Mode](https://blog.privacyguides.org/2022/10/27/macos-ventura-privacy-security-updates/#lockdown-mode)** is a security setting you can enable to make your phone more resistant to attacks. 請注意，某些應用和功能[將無法正常運作](https://support.apple.com/HT212650)。
+**[封閉模式](https://blog.privacyguides.org/2022/10/27/macos-ventura-privacy-security-updates/#lockdown-mode)**一項可啟用的安全設定，能讓您的手機更具抗攻擊能力。 請注意，某些應用和功能[將無法正常運作](https://support.apple.com/HT212650)。
 
 - [x] 選擇 **開啟封閉模式**
 
@@ -256,11 +256,11 @@ Set wired accessories to ask for permission when you connect them. Select **Wire
 
 如果您或您的訊息傳遞夥伴在沒有進階資料保護下啟用 iCloud 備份，則加密金鑰會儲存在 Apple 伺服器，這意味著他們可以訪問您的訊息。
 
-By default, you trust Apple's identity servers that you're messaging the right person. To defend yourself from a potentially malicious server, you can enable **[Contact Key Verification](https://support.apple.com/en-us/118246)**. At the top of the **Settings** app where your name is, select it, then go to **Contact Key Verification**.
+預設情況下，您會信任 Apple 的身份伺服器，相信您是在傳送訊息給對的人。 若要防範潛在的惡意伺服器，您可以啟用**[聯絡人金鑰驗證](https://support.apple.com/en-us/118246)**。 在**設定**應用程式頂部，您的姓名所在的位置，選取它，然後前往**聯絡人密鑰驗證**。
 
-- [x] Turn on **Verification in iMessage**
+- [x] **在 iMessage 中開啟驗證功能**
 
-Both you and your contacts need to enable Contact Key Verification and follow Apple's [instructions](https://support.apple.com/en-us/118246#verify) for the security assurances mentioned above to take effect.
+您與您的聯絡人都必須啟用聯絡人密鑰驗證，並遵循 Apple 的[指示](https://support.apple.com/en-us/118246#verify)，上述的安全保證才能生效。
 
 
 
@@ -298,14 +298,14 @@ iOS 提供以 Touch ID/Face ID 或您的密碼來鎖定大部分應用程式的�
 
 
 
-### Guided Access
+### 引導使用模式
 
-Sometimes you might want to hand your phone to someone to make a call or do a specific task, but you don't want them to have full access to your phone. In these cases, you can quickly enable **[Guided Access](https://support.apple.com/guide/iphone/lock-iphone-to-one-app-iph7fad0d10/ios)** to lock the phone to one specific app until you authenticate.
+有時您可能需要將手機交給他人撥打電話或執行特定任務，但又不希望對方完全掌控您的手機。 在這些情況下，您可以快速啟用**[引導使用模式](https://support.apple.com/guide/iphone/lock-iphone-to-one-app-iph7fad0d10/ios)**，將手機鎖定在特定應用程式中，直到您完成驗證為止。
 
 <div class="admonition warning" markdown>
 <p class="admonition-title">警告</p>
 
-Guided Access isn't foolproof, as it's possible you could leak data unintentionally or the feature could be bypassed. You should only use Guided Access for situations where you casually hand your phone to someone to use. You should not use it as a tool to protect against advanced adversaries.
+引導使用模式並非萬無一失，您仍可能在無意間洩漏資料，或繞過這項功能。 您應僅於將手機臨時交由他人使用的情形下，才啟用引導使用模式。 您不應該將其作為對抗進階威脅的工具。
 
 </div>
 
@@ -313,10 +313,10 @@ Guided Access isn't foolproof, as it's possible you could leak data unintentiona
 
 如果想隱藏照片中的資訊，可以使用 Apple 內建的編輯工具。
 
-You can use the [Clean Up](https://support.apple.com/en-us/121429) feature on supported devices to pixelate faces or remove objects from images.
+您也可以在支援的裝置上使用[清除](https://support.apple.com/en-us/121429)功能，將臉部像素化或移除影像中的物件。
 
 - 開啟**「照片」**應用程式，點擊您想要調整的照片
-- Tap the :material-tune:
+- 點選 :material-tune:
 - 點擊標示**清除**的按鈕
 - 圈選想要刪減的內容。 臉部會被打馬，其他東西將被清除。
 
@@ -324,14 +324,14 @@ You can use the [Clean Up](https://support.apple.com/en-us/121429) feature on su
 
 <div class="annotate" markdown>
 
-- Tap the image you have selected for redaction
-- Tap the :material-tune: → :material-dots-horizontal: (1) → Markup → :material-plus:
-- Select **Add Shape** and choose the square or circle
-- On the toolbar, tap the circle and choose black as the color for filling in the shape. 您也可以移動圖形，視情況放大。
+- 點選您選定要進行遮蔽處理的影像
+- 點選 :material-tune: → :material-dots-horizontal: (1) → 標記 → :material-plus:
+- 選取**新增形狀**並選擇方形或圓形
+- 在工具列上，點選圓形圖示，並選擇黑色作為填充圖形的顏色。 您也可以移動圖形，視情況放大。
 
 </div>
 
-1. This may not appear on certain iPhone models.
+1. 某些 iPhone 型號可能無此功能。
 
 **不要**使用螢光筆來隱藏資訊，因為它並非完全不透明。
 
@@ -357,12 +357,12 @@ Apple 會為那些希望幫助查找和報告錯誤的人先提供 iOS 測試版
 
 如果您的威脅模式包含鑑識工具的[:material-target-account: 針對式攻擊](../basics/common-threats.md#attacks-against-specific-individuals ""){.pg-red}，而且您希望盡可能降低被利用漏洞來存取手機的機會，請經常重新啟動裝置。 重啟後**解鎖設備**之前的狀態稱為“首次解鎖之前”(BFU) ，當設備處於該狀態時，取證鑑識工具[明顯更加困難](https://belkasoft.com/checkm8_glossary)利用漏洞訪問您的資料。 此 BFU 狀態允許您接收電話、簡訊和鬧鐘通知，但設備上的大部分資料為加密且無法訪問。 這可能不切實際，因此請考慮權衡這個作法對於自身情況是否有意義。
 
-iPhones [automatically reboot](https://support.apple.com/guide/security/protecting-user-data-in-the-face-of-attack-secf5549a4f5/1/web/1#:~:text=On%20an%20iPhone%20or%20iPad%20with%20iOS%2018%20and%20iPadOS%2018%20or%20later%2C%20a%20new%20security%20protection%20will%20restart%20devices%20if%20they%20remain%20locked%20for%20a%20prolonged%20period%20of%20time.) if they're not unlocked after a period of time.
+若 iPhone 在一段時間後仍未解鎖，[就會自動重新開機](https://support.apple.com/guide/security/protecting-user-data-in-the-face-of-attack-secf5549a4f5/1/web/1#:~:text=On%20an%20iPhone%20or%20iPad%20with%20iOS%2018%20and%20iPadOS%2018%20or%20later%2C%20a%20new%20security%20protection%20will%20restart%20devices%20if%20they%20remain%20locked%20for%20a%20prolonged%20period%20of%20time.)。
 
 
 
 ### MTE
 
-The iPhone 17 line and later offer a security enhancement called [Memory Tagging Extension](https://developer.arm.com/documentation/108035/0100/Introduction-to-the-Memory-Tagging-Extension) (MTE), which makes it significantly harder for an attacker to exploit memory corruption vulnerabilities. This always-on protection depends on hardware support, so it's not available for older devices.
+iPhone 17 系列與之後的機型提供稱為[記憶體標記擴充](https://developer.arm.com/documentation/108035/0100/Introduction-to-the-Memory-Tagging-Extension) (MTE) 的安全強化功能，可大幅降低攻擊者利用記憶體毀損漏洞的難度。 此一律啟用的保護依賴硬體支援，因此舊裝置無法使用。
 
-For more details on Apple's implementation of MTE, read the [blog post](https://security.apple.com/blog/memory-integrity-enforcement) published by Apple Security Research. We also cover Apple's implementation of MTE and how it compares to Android's implementation in the Google Pixel 8 series and later in our [own article](https://www.privacyguides.org/posts/2025/09/20/memory-integrity-enforcement-changes-the-game-on-ios).
+關於 Apple 的 MTE 實作詳細資訊，請閱讀 Apple Security Research 發表的[部落格文章](https://security.apple.com/blog/memory-integrity-enforcement)。 我們也會在[自己的文章](https://www.privacyguides.org/posts/2025/09/20/memory-integrity-enforcement-changes-the-game-on-ios)中介紹 Apple 的 MTE 實作，並將其與 Android 系統在 Google Pixel 8 系列及後續機型中的實作進行比較。
