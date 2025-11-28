@@ -88,15 +88,15 @@ Aplikacje przyjazne prywatności, takie jak [Bitwarden](https://reports.exodus-p
 
 </div>
 
-## Privacy Features
+## Funkcje prywatności
 
-### User Profiles
+### Profile użytkowników
 
-Multiple **user profiles** can be found in :gear: **Settings** → **System** → **Users** and are the simplest way to isolate in Android.
+Wiele **profilów użytkowników** znajduje się w :gear: **Ustawienia** → **System** → **Użytkownicy** i stanowią najprostszy sposób izolowania na Androidzie.
 
-With user profiles, you can impose restrictions on a specific profile, such as: making calls, using SMS, or installing apps. Each profile is encrypted using its own encryption key and cannot access the data of any other profiles. Even the device owner cannot view the data of other profiles without knowing their password. Multiple user profiles are a more secure method of isolation.
+Dzięki profilom użytkowników możesz nałożyć ograniczenia na konkretny profil, np. dotyczące wykonywania połączeń, używania SMS-ów czy instalowania aplikacji. Każdy profil jest szyfrowany przy użyciu własnego klucza szyfrowania i nie może uzyskać dostępu do danych innych profili. Nawet właściciel urządzenia nie może przeglądać danych innych profili bez znajomości ich hasła. Wiele profili użytkowników to bezpieczniejsza metoda izolacji.
 
-### Work Profile
+### Profil służbowy
 
 [**Work Profiles**](https://support.google.com/work/android/answer/6191949) are another way to isolate individual apps and may be more convenient than separate user profiles.
 
