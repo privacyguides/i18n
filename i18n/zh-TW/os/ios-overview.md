@@ -125,9 +125,9 @@ Apple 產品的大多數隱私和安全問題與其雲服務有關，而不是�
 
 預設情況中，您的 iPhone 裝置名稱將包含您的名字，所連接的網路中的其它人都可以看到該名稱。 所以應該將其更改為更一般的名稱，例如“iPhone”。 選擇**關於** → **名稱** ，然後輸入您想要使用的裝置名稱。
 
-It is important to install software updates frequently to get the latest security fixes. You can enable automatic updates to keep your phone up-to-date without needing to constantly check for updates. 選擇**軟體更新**→**自動更新**：
+經常安裝軟體更新以取得最新的安全性修補程式非常重要。 您可以啟用自動更新，讓手機保持在最新狀態，而不需要不斷手動檢查更新。 選擇**軟體更新**→**自動更新**：
 
-- [x] Turn on **Automatically Install**
+- [x] 開啟**自動安裝**
 
 **AirDrop** 常被用來分享檔案，但也代表可能有重大的安全性風險。 AirDrop 通訊協定會不斷向周遭環境廣播您的個人資訊，雖有安全防護但[非常薄弱](https://usenix.org/system/files/sec21-heinrich.pdf)。 就是算資源受限的攻擊者，也能輕鬆找出您的身分；中國政府自 2022 年起也[公開承認](https://arstechnica.com/security/2024/01/hackers-can-id-unique-apple-airdrop-users-chinese-authorities-claim-to-do-just-that)使用該技術於公開場所識別 AirDrop 使用者。
 
@@ -145,11 +145,11 @@ It is important to install software updates frequently to get the latest securit
 
 #### Apple Intelligence 與 Siri
 
-This is available if your device supports **[Apple Intelligence](https://support.apple.com/guide/iphone/apple-intelligence-and-privacy-iphe3f499e0e/ios)**. Apple Intelligence uses a combination of on-device processing and their **[Private Cloud Compute](https://security.apple.com/blog/private-cloud-compute)** for things that take more processing power than your device can provide.
+此功能僅適用於支援 **[Apple Intelligence](https://support.apple.com/guide/iphone/apple-intelligence-and-privacy-iphe3f499e0e/ios)** 的裝置。 Apple Intelligence 結合裝置端處理與其**[私密雲端運算](https://security.apple.com/blog/private-cloud-compute)**，處理那些需要比裝置本身更強大運算能力的任務。
 
-To see a report of all the requests made to Apple's servers, you can navigate to **Privacy & Security** → **Apple Intelligence Report** and press **Export Activity** to see activity from the either the last 15 minutes or 7 days, depending on what you set it for. 與會顯示您手機上的應用程式近期存取的權限的**應用程式隱私權報告**類似，Apple Intelligence 報告也會顯示使用 Apple Intelligence 時，有哪些資料被送到 Apple 的伺服器。
+若要查閱所有傳送至 Apple 伺服器的請求報告，您可以到**隱私權與安全性**→**Apple Intelligence 報告**，然後按**匯出活動**，即可檢視過去 15 分鐘或 7 天內的活動，視您的設定而定。 與會顯示您手機上的應用程式近期存取的權限的**應用程式隱私權報告**類似，Apple Intelligence 報告也會顯示使用 Apple Intelligence 時，有哪些資料被送到 Apple 的伺服器。
 
-Apple Intelligence can integrate with [ChatGPT](https://support.apple.com/guide/iphone/use-chatgpt-with-apple-intelligence-iph00fd3c8c2/ios). If you want ChatGPT integration, you can navigate to **ChatGPT** and press **Set Up**. If you want to disable it, go to the same place:
+Apple Intelligence 可以與 [ChatGPT](https://support.apple.com/guide/iphone/use-chatgpt-with-apple-intelligence-iph00fd3c8c2/ios) 整合。 若您想要 ChatGPT 整合，您可以到 **ChatGPT** 然後按**設定**。 若您想要停用，請前往相同的地方：
 
 - [ ] 關閉 **使用 ChatGPT**
 
@@ -171,17 +171,17 @@ Apple Intelligence can integrate with [ChatGPT](https://support.apple.com/guide/
 
 如果想使用 Face ID 或 Touch ID，可以立即進行設定。 您的手機將使用之前設定的密碼作為後備密碼，以防生物識別驗證失敗。 生物識別解鎖方法主要是便利，雖然它們確實可以阻止監控攝像頭或身旁的人看到您所輸入的密碼。
 
-如果使用生物識別技術，應該知道如何在緊急情況下快速關閉它們。 Holding down the [side button](https://support.apple.com/en-us/105103) and *either* volume button until you see the Slide to Power Off slider will disable biometrics, requiring your passcode to unlock. Your passcode will be required after your device restarts.
+如果使用生物識別技術，應該知道如何在緊急情況下快速關閉它們。 按住[側面按鈕](https://support.apple.com/en-us/105103)以及*任一個*音量按鈕，直到看到「滑動以關閉電源」為止，這將會停用生物辨識功能，需要密碼才能解鎖。 裝置重新啟動後也需要您的密碼。
 
-You can similarly disable biometrics by pressing the side button five times, or for devices with Touch ID, you can hold down the side button and nothing else. 請務必先試著操作一下，這樣才知道您的裝置需使用哪種方法關閉。
+您同樣可透過按壓五次側邊按鈕來停用生物辨識功能；若裝置配備 Touch ID，則只需長按側邊按鈕即可。 請務必先試著操作一下，這樣才知道您的裝置需使用哪種方法關閉。
 
-**遭竊裝置防護**能增加安全性，萬一裝置在解鎖時被偷走，可保護您的個人資料。 If you enable both biometric authentication and the [Find My](#find-my) iPhone feature, we recommend enabling this protection:
+**遭竊裝置防護**能增加安全性，萬一裝置在解鎖時被偷走，可保護您的個人資料。 若您同時啟用生物辨識驗證與[尋找](#find-my) iPhone 功能，我們建議您啟用此保護功能：
 
-- [x] Turn on **Stolen Device Protection**
+- [x] 開啟**遭竊裝置防護**
 
 啟用被盜設備保護後，[某些操作](https://support.apple.com/HT212510)將需要生物識別身份驗證，無需密碼回退（如果駭客准竊盜已獲得您的 PIN），例如使用密碼自動填寫功能就可訪問支付資訊並關閉遺失模式。 它還可以針對在住家或其他「熟悉位置」以外的地點執行的某些操作加入安全延遲，例如需要 1 小時來重設 Apple 帳號的密碼，或登出 Apple 帳號。 此延遲是為了有時間啟用遺失模式並在小偷重置設備前保護好您的帳戶。
 
-**Allow Access When Locked** presents options for what you can allow when your phone is locked. Pick and choose which feature you want to disable to prevent unauthorized access if someone gets their hands on your phone. 禁用的這些選項越多，沒有密碼者可做的事情就越少，但對您來說也就更不方便。
+**鎖定時允許存取**提供多種選項，讓您設定手機鎖定狀態下可允許的操作項目。 請選擇您想停用的功能，以防他人取得您的手機時進行未經授權的存取。 禁用的這些選項越多，沒有密碼者可做的事情就越少，但對您來說也就更不方便。
 
 iPhone 可以抵禦暴力攻擊，在多次嘗試失敗後，需要等待很長時間； 然而，過去已經有一些漏洞可以繞開這個問題。 為了更加安全，可將手機設定為在 10 次密碼嘗試錯誤後自行擦除。
 
@@ -218,7 +218,7 @@ iPhone 可以抵禦暴力攻擊，在多次嘗試失敗後，需要等待很長�
 
 - [ ] 關閉 **感應器 & 使用資料收集**
 
-**[Safety Check](https://support.apple.com/guide/personal-safety/safety-check-iphone-ios-16-ips2aad835e1/1.0/web/1.0)** allows you to quickly view and revoke certain people and apps that might have permission to access your data. Here, you can perform an **Emergency Reset**, immediately resetting permissions for all people and apps which might have access to device resources. You can also **Manage Sharing & Access**, which allows you to review and customize who and what has access to your device and account resources. If you're in an abusive situation, read Apple's [Personal Safety User Guide](https://support.apple.com/guide/personal-safety/welcome/web) for guidance on what you should do.
+**[安全檢查](https://support.apple.com/guide/personal-safety/safety-check-iphone-ios-16-ips2aad835e1/1.0/web/1.0)**讓您能快速檢視並撤銷某些可能擁有存取您資料權限的人員與應用程式。 可在此處執行**緊急重設**，立即重設所有可能存取裝置資源的人員與應用程式的權限。 您也可以**管理分享存取權**讓您查看並自訂有權存取裝置與帳號資源的人員與內容。 If you're in an abusive situation, read Apple's [Personal Safety User Guide](https://support.apple.com/guide/personal-safety/welcome/web) for guidance on what you should do.
 
 You should disable analytics if you don't wish to send usage data to Apple. Select **Analytics & Improvements** and unselect the type(s) of analytics that you don't want to send to Apple.
 
