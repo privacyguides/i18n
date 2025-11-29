@@ -1,23 +1,23 @@
 ---
-title: Operating Systems
-description: An overview of our operating system-related recommendations for all major computing hardware.
+title: Systemy operacyjne
+description: Przegląd naszych zaleceń dotyczących systemów operacyjnych dla wszystkich głównych platform sprzętowych.
 ---
 
-We publish configuration guides for the major operating systems, because you can generally improve the amount of data that is collected about you on any option, especially if you use privacy tools like our [recommended web browsers](../desktop-browsers.md) in place of native tools where appropriate. However, some operating systems will be more privacy-respecting inherently, and it will be much harder to achieve an equivalent level of privacy on other choices.
+Publikujemy przewodniki konfiguracji dla głównych systemów operacyjnych, ponieważ zwykle możesz ograniczyć ilość danych zbieranych o Tobie bez względu na wybór — szczególnie jeśli zamiast natywnych narzędzi korzystasz z narzędzi do ochrony prywatności, takich jak nasze [zalecane przeglądarki internetowe](../desktop-browsers.md), gdy ma to sens. Jednak niektóre systemy operacyjne z natury bardziej szanują prywatność, a na innych znacznie trudniej będzie osiągnąć porównywalny poziom ochrony prywatności.
 
-- [Recommended Linux Distros :material-arrow-right-drop-circle:](../desktop.md)
-- [Recommended Android Distros :material-arrow-right-drop-circle:](../android/distributions.md)
+- [Zalecane dystrybucje Linuksa :material-arrow-right-drop-circle:](../desktop.md)
+- [Zalecane dystrybucje Androida :material-arrow-right-drop-circle:](../android/distributions.md)
 
-The articles marked with a :material-star: are our more mature articles.
+Artykuły oznaczone :material-star: są bardziej dopracowane.
 
-## Mobile Operating Systems
+## Systemy operacyjne na urządzenia mobilne
 
-- [Android Overview](android-overview.md) :material-star:
-- [iOS Overview](ios-overview.md)
+- [Przegląd systemu Android](android-overview.md) :material-star:
+- [Przegląd systemu iOS](ios-overview.md)
 
-## Desktop Operating Systems
+## Systemy operacyjne na komputery stacjonarne
 
-- [Linux Overview](linux-overview.md) :material-star:
-- [macOS Overview](macos-overview.md)
-- [Qubes Overview](qubes-overview.md) :material-star:
-- [Windows Overview](windows/index.md)
+- [Przegląd Linuksa](linux-overview.md) :material-star:
+- [Przegląd systemu macOS](macos-overview.md)
+- [Przegląd systemu Qubes](qubes-overview.md) :material-star:
+- [Przegląd systemu Windows](windows/index.md)

@@ -1,22 +1,22 @@
 ---
-title: iOS Overview
+title: Przegląd systemu iOS
 icon: simple/apple
-description: iOS is a mobile operating system developed by Apple for the iPhone.
+description: iOS to system operacyjny na urządzenia mobilne opracowany przez Apple dla iPhone’a.
 ---
 
-**iOS** and **iPadOS** are proprietary mobile operating systems developed by Apple for their iPhone and iPad products, respectively. If you have an Apple mobile device, you can increase your privacy by disabling some built-in telemetry features, and hardening some privacy and security settings which are built in to the system.
+**iOS** i **iPadOS** są zamkniętymi systemami operacyjnymi na urządzenia mobilne opracowanymi przez Apple odpowiednio dla produktów iPhone i iPad. Jeśli posiadasz urządzenie mobilne Apple, możesz zwiększyć swoją prywatność, wyłączając niektóre wbudowane funkcje telemetrii oraz wzmacniając ustawienia prywatności i zabezpieczeń dostępne w systemie.
 
 ## Uwagi dotyczące prywatności
 
-iOS devices are frequently praised by security experts for their robust data protection and adherence to modern best practices. However, the restrictiveness of Apple's ecosystem—particularly with their mobile devices—does still hamper privacy in a number of ways.
+Urządzenia z systemem iOS są często chwalone przez ekspertów ds. bezpieczeństwa za solidną ochronę danych i przestrzeganie nowoczesnych najlepszych praktyk. Jednak restrykcyjność ekosystemu Apple — zwłaszcza w przypadku urządzeń mobilnych — wciąż ogranicza prywatność na kilka sposobów.
 
-We generally consider iOS to provide better than average privacy and security protections for most people, compared to stock Android devices from any manufacturer. However, you can achieve even higher standards of privacy with a [custom Android operating system](../android/distributions.md) like GrapheneOS, if you want or need to be completely independent of Apple or Google's cloud services.
+Ogólnie rzecz biorąc, uważamy, że iOS zapewnia lepsze niż przeciętne poziomy ochrony prywatności i bezpieczeństwa dla większości osób w porównaniu ze standardowymi urządzeniami z Androidem od dowolnego producenta. Jeżeli jednak chcesz lub potrzebujesz całkowitej niezależności od usług chmurowych Apple i Google, jeszcze wyższy poziom prywatności można osiągnąć przy użyciu [niestandardowego systemu Android](../android/distributions.md), takiego jak GrapheneOS.
 
-### Activation Lock
+### Blokada aktywacji
 
-All iOS devices must be checked against Apple's Activation Lock servers when they are initially set up or reset, meaning an internet connection is **required** to use an iOS device.
+Wszystkie urządzenia z systemem iOS sprawdzane są na serwerach blokady aktywacji Apple podczas pierwszej konfiguracji lub resetu, co oznacza, że połączenie z Internetem jest **wymagane**, by korzystać z urządzenia z systemem iOS.
 
-### Mandatory App Store
+### Obowiązkowa aplikacja App Store
 
 The only source for apps on iOS is Apple's App Store, which requires an Apple Account to access. This means that Apple has a record of every app you install on your device, and can likely tie that information to your actual identity if you provide the App Store with a payment method.
 
@@ -30,7 +30,7 @@ More recently, Apple has been found to transmit analytics [even when analytics s
 
 Apple's [privacy policy regarding VPNs](https://apple.com/legal/privacy/data/en/vpns) states:
 
-> Even when a VPN is active, some traffic that is necessary for essential system services will take place outside the VPN so that your device can function properly.
+> Nawet gdy sieć VPN jest aktywna, część ruchu niezbędna dla kluczowych usług systemowych musi odbywać się poza nią, aby urządzenie mogło prawidłowo działać.
 
 ## Zalecana konfiguracja
 

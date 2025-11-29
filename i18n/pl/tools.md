@@ -633,7 +633,7 @@ For encrypting your OS drive, we typically recommend using the encryption tool y
 
 [Dowiedz się więcej :hero-arrow-circle-right-fill:](mobile-phones.md)
 
-## Operating Systems
+## Systemy operacyjne
 
 ### Mobile
 
