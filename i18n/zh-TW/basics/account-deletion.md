@@ -1,10 +1,10 @@
 ---
 title: 刪除帳戶
 icon: material/account-remove
-description: It's easy to accumulate a large number of internet accounts. Here are some tips on how to prune your collection.
+description: 在網路上輕易就能累積大量帳號。 以下是一些關於如何精簡您的收藏的訣竅。
 ---
 
-隨著時間的推移，一般人很容易地積累一些網路帳戶，但可能其中有不少早已不再使用。 刪除這些未使用的帳戶是收回隱私的重要一步，因為休眠帳戶容易受到數據洩露的影響。 A data breach occurs when a service's security is compromised and protected information is viewed, transmitted, or stolen by unauthorized actors. 不幸的是近來資料外洩事件 [已見怪不怪](https://haveibeenpwned.com/PwnedWebsites)  ，保持良好的數位清潔才能減輕資料外洩對個人生活的衝擊。 本指南的目標是幫助您通過令人討厭的帳戶刪除過程----往往透由 [欺騙性設計](https://deceptive.design)讓刪除困難，來改善網路現身。
+隨著時間的推移，一般人很容易地積累一些網路帳戶，但可能其中有不少早已不再使用。 刪除這些未使用的帳戶是收回隱私的重要一步，因為休眠帳戶容易受到數據洩露的影響。 資料外洩是指當服務的安全性遭到破壞時，受保護的資訊被未經授權者檢視、傳輸或竊取的事件。 不幸的是近來資料外洩事件 [已見怪不怪](https://haveibeenpwned.com/PwnedWebsites)  ，保持良好的數位清潔才能減輕資料外洩對個人生活的衝擊。 本指南的目標是幫助您通過令人討厭的帳戶刪除過程----往往透由 [欺騙性設計](https://deceptive.design)讓刪除困難，來改善網路現身。
 
 ## 查找舊帳戶
 
@@ -16,13 +16,13 @@ description: It's easy to accumulate a large number of internet accounts. Here a
   ![Bitwarden's 資料外洩報告特色](../assets/img/account-deletion/exposed_passwords.png)
 </figure>
 
-Even if you haven't explicitly used a password manager before, there's a chance you've used the one in your browser ([Firefox](https://support.mozilla.org/kb/password-manager-remember-delete-edit-logins), [Chrome](https://passwords.google.com/intro), [Edge](https://support.microsoft.com/microsoft-edge/save-or-forget-passwords-in-microsoft-edge-b4beecb0-f2a8-1ca0-f26f-9ec247a3f336)) or your phone ([Google](https://passwords.google.com/intro) on stock Android, [Passwords](https://support.apple.com/HT211146) on iOS) without even realizing it.
+即便您之前沒有印象有使用過密碼管理程式，也有可能在不知不覺間使用過瀏覽器（[Firefox](https://support.mozilla.org/kb/password-manager-remember-delete-edit-logins)、[Chrome](https://passwords.google.com/intro)、[Edge](https://support.microsoft.com/microsoft-edge/save-or-forget-passwords-in-microsoft-edge-b4beecb0-f2a8-1ca0-f26f-9ec247a3f336)）或是手機（原生 Android 上的 [Google](https://passwords.google.com/intro)、iOS 上的[密碼](https://support.apple.com/HT211146)）內建的功能。
 
 桌面平臺通常還有一個密碼管理器，可以幫助您恢復忘記的密碼：
 
-- Windows: [Credential Manager](https://support.microsoft.com/windows/accessing-credential-manager-1b5c916a-6a16-889f-8581-fc16e8165ac0)
-- macOS: [Passwords](https://support.apple.com/HT211145)
-- Linux: Gnome Keyring (accessed through [Seahorse](https://gitlab.gnome.org/GNOME/seahorse#seahorse)) or [KDE Wallet Manager](https://userbase.kde.org/KDE_Wallet_Manager)
+- Windows：[認證管理員](https://support.microsoft.com/windows/accessing-credential-manager-1b5c916a-6a16-889f-8581-fc16e8165ac0)
+- macOS：[密碼](https://support.apple.com/HT211145)
+- Linux：GNOME 鑰匙圈（透過 [Seahorse](https://gitlab.gnome.org/GNOME/seahorse#seahorse) 存取）或 [KDE 錢包管理員](https://userbase.kde.org/KDE_Wallet_Manager)
 
 ### 電子郵件
 
