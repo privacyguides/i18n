@@ -5,7 +5,7 @@ description: Android to system operacyjny typu open-source z silnymi zabezpiecze
 robots: nofollow, max-snippet:-1, max-image-preview:large
 ---
 
-![Android logo](../assets/img/android/android.svg){ align=right }
+![Logo systemu Android](../assets/img/android/android.svg){ align=right }
 
 **Projekt Android Open Source** to bezpieczny system operacyjny dla urządzeń mobilnych, oferujący zaawansowaną [izolację aplikacji](https://source.android.com/security/app-sandbox) (tzw. piaskownicę aplikacji), [Verified Boot](https://source.android.com/security/verifiedboot) (AVB) oraz rozbudowany [system uprawnień](https://developer.android.com/guide/topics/permissions/overview).
 
@@ -151,23 +151,23 @@ W przeszłości aktualizacje bezpieczeństwa Androida musiały być dostarczane 
 
 Jeżeli posiadasz urządzenie EOL dostarczone z Androidem 10 lub nowszym i nie możesz uruchomić żadnego z naszych zalecanych systemów operacyjnych na swoim urządzeniu, prawdopodobnie korzystniej będzie pozostać przy standardowej instalacji OEM Androida (zamiast używania nieujętego tutaj systemu, takiego jak LineageOS czy /e/OS). Pozwoli to otrzymywać **pewne** poprawki bezpieczeństwa od Google, jednocześnie nie naruszając modelu bezpieczeństwa Androida przez użycie niebezpiecznej pochodnej i nie zwiększając powierzchni ataku. Mimo wszystko nadal zalecamy jak najszybszą wymianę na urządzenie objęte wsparciem.
 
-### Advertising ID
+### Identyfikator reklamowy
 
-All devices with Google Play Services installed automatically generate an [advertising ID](https://support.google.com/googleplay/android-developer/answer/6048248) used for targeted advertising. Disable this feature to limit the data collected about you.
+Wszystkie urządzenia z zainstalowanymi Usługami Google Play automatycznie generują [identyfikator reklamowy](https://support.google.com/googleplay/android-developer/answer/6048248) wykorzystywany do reklam spersonalizowanych. Wyłącz tę funkcję, aby ograniczyć zbierane o Tobie dane.
 
-On Android distributions with [sandboxed Google Play](https://grapheneos.org/usage#sandboxed-google-play), go to :gear: **Settings** → **Apps** → **Sandboxed Google Play** → **Google Settings** → **All services** → **Ads**.
+W dystrybucjach Androida z [izolowaną aplikacją Google Play](https://grapheneos.org/usage#sandboxed-google-play) przejdź do :gear: **Ustawienia** → **Aplikacje** → **Sandboxed Google Play** → **Ustawienia Google** → **Wszystkie usługi** → **Reklamy**.
 
-- [x] Select **Delete advertising ID**
+- [x] Zaznacz **Delete advertising ID** (Usuń identyfikator reklamowy)
 
-On Android distributions with privileged Google Play Services (which includes the stock installation on most devices), the setting may be in one of several locations. Check
+W dystrybucjach Androida z uprzywilejowanymi Usługami Google Play (co obejmuje standardową instalację na większości urządzeń) ustawienie to może znajdować się w innym miejscu. Sprawdź tu:
 
-- :gear: **Settings** → **Google** → **Ads**
-- :gear: **Settings** → **Privacy** → **Ads**
+- :gear: **Ustawienia** → **Google** → **Reklamy**
+- :gear: **Ustawienia** → **Prywatność** → **Reklamy**
 
-You will either be given the option to delete your advertising ID or to *Opt out of interest-based ads* (this varies between OEM distributions of Android). If presented with the option to delete the advertising ID, that is preferred. If not, then make sure to opt out and reset your advertising ID.
+Zostanie Ci przedstawiona opcja usunięcia identyfikatora reklamowego lub *rezygnacji z reklam opartych na zainteresowaniach* (zależy to od dystrybucji OEM Androida). Jeśli dostępna jest opcja usunięcia identyfikatora reklamowego — jest to preferowane rozwiązanie. Jeśli nie, upewnij się, że dokonasz rezygnacji i zresetowania swojego identyfikatora reklamowego.
 
-### SafetyNet and Play Integrity API
+### SafetyNet i Play Integrity API
 
-[SafetyNet](https://developer.android.com/training/safetynet/attestation) and the [Play Integrity APIs](https://developer.android.com/google/play/integrity) are generally used for [banking apps](https://grapheneos.org/usage#banking-apps). Many banking apps will work fine in GrapheneOS with sandboxed Play services, however some non-financial apps have their own crude anti-tampering mechanisms which might fail. GrapheneOS passes the `basicIntegrity` check, but not the certification check `ctsProfileMatch`. Devices with Android 8 or later have hardware attestation support which cannot be bypassed without leaked keys or serious vulnerabilities.
+Interfejsy [SafetyNet](https://developer.android.com/training/safetynet/attestation) i [Play Integrity API](https://developer.android.com/google/play/integrity) są zazwyczaj używane przez [aplikacje bankowe](https://grapheneos.org/usage#banking-apps). Wiele aplikacji bankowych działa poprawnie w systemie GrapheneOS z izolowanymi usługami Google Play, jednak niektóre aplikacje niebankowe stosują własne, prymitywne mechanizmy antymanipulacyjne, które mogą zawodzić. GrapheneOS passes the `basicIntegrity` check, but not the certification check `ctsProfileMatch`. Devices with Android 8 or later have hardware attestation support which cannot be bypassed without leaked keys or serious vulnerabilities.
 
 As for Google Wallet, we don't recommend this due to their [privacy policy](https://payments.google.com/payments/apis-secure/get_legal_document?ldo=0&ldt=privacynotice&ldl=en), which states you must opt out if you don't want your credit rating and personal information shared with affiliate marketing services.
