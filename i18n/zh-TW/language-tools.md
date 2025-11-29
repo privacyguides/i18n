@@ -21,15 +21,15 @@ cover: language-tools.webp
 ![LanguageTool logo](assets/img/language-tools/languagetool.svg#only-light){ align=right }
 ![LanguageTool logo](assets/img/language-tools/languagetool-dark.svg#only-dark){ align=right }
 
-**LanguageTool** 是多語言文法、風格與拼字檢查程式，支援超過 20 種語言。 According to their privacy policy, they do not store any content sent to their service for review, but for higher assurance the software is [self-hostable](https://dev.languagetool.org/http-server).
+**LanguageTool** 是多語言文法、風格與拼字檢查程式，支援超過 20 種語言。 根據其隱私權政策，該服務不會儲存任何提交審閱的內容，但為提供更高保障，此軟體具備[自行架設功能](https://dev.languagetool.org/http-server)。
 
-[:octicons-home-16: Homepage](https://languagetool.org){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://languagetool.org/legal/privacy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://languagetooler.freshdesk.com/en/support/solutions){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/languagetool-org){ .card-link title="Source Code" }
+[:octicons-home-16: 首頁](https://languagetool.org){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://languagetool.org/legal/privacy){ .card-link title="隱私權政策" }
+[:octicons-info-16:](https://languagetooler.freshdesk.com/en/support/solutions){ .card-link title="文件" }
+[:octicons-code-16:](https://github.com/languagetool-org){ .card-link title="原始碼" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>下載</summary>
 
 - [:simple-appstore: App Store](https://apps.apple.com/app/id1534275760)
 - [:fontawesome-brands-windows: Windows](https://languagetool.org/windows-desktop)
@@ -45,25 +45,25 @@ cover: language-tools.webp
 
 LanguageTool 提供與多種 [辦公室套件](https://languagetool.org/services#text_editors) 及 [電子郵件客戶端](https://languagetool.org/services#mail_clients) 的整合。
 
-## Translation Tools
+## 翻譯工具
 
 ### LibreTranslate
 
 <div class="admonition recommendation" markdown>
 
-![LibreTranslate logo](assets/img/language-tools/libretranslate.png){ align=right }
+![LibreTranslate 標誌](assets/img/language-tools/libretranslate.png){ align=right }
 
-**LibreTranslate** is a free and open-source machine translation web interface and API server. It uses [Argos Translate](https://github.com/argosopentech/argos-translate) models on the backend for translations.
+**LibreTranslate** 是自由且開放原始碼的機器翻譯網頁介面與 API 伺服器。 其在後端使用 [Argos Translate](https://github.com/argosopentech/argos-translate) 模型進行翻譯。
 
-[:octicons-home-16: Homepage](https://libretranslate.com){ .md-button .md-button--primary }
-[:octicons-server-16:](https://github.com/LibreTranslate/LibreTranslate#mirrors){ .card-link title="Public Instances" }
-[:octicons-code-16:](https://github.com/LibreTranslate/LibreTranslate){ .card-link title="Source Code" }
+[:octicons-home-16: 首頁](https://libretranslate.com){ .md-button .md-button--primary }
+[:octicons-server-16:](https://github.com/LibreTranslate/LibreTranslate#mirrors){ .card-link title="公開站台" }
+[:octicons-code-16:](https://github.com/LibreTranslate/LibreTranslate){ .card-link title="原始碼" }
 
 </div>
 
-You can use LibreTranslate through a number of public instances, with some that offer a [Tor](tor.md) onion service or an [I2P](alternative-networks.md#i2p-the-invisible-internet-project) eepsite. You can also host the software yourself for maximum control over the text submitted for translation.
+您可以透過許多公開站台使用 LibreTranslate，有些提供 [Tor](tor.md) 洋蔥服務或 pI2P](alternative-networks.md#i2p-the-invisible-internet-project) 匿名站點。 您亦可自行架設軟體，以獲得對遞交翻譯之文字的最大控制權。
 
-We use a self-hosted instance of LibreTranslate to automatically translate posts on our [forum](https://discuss.privacyguides.net) to multiple languages.
+我們使用 LibreTranslate 的自行架設站台，將我們[論壇](https://discuss.privacyguides.net)上的貼文自動翻譯成多國語言。
 
 ## 標準
 
