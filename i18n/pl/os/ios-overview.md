@@ -71,67 +71,67 @@ Dane lokalizacji nie są szyfrowane end-to-end, gdy urządzenie jest online i ko
 
 Na górze aplikacji **Ustawienia** zobaczysz swoje imię i nazwisko oraz zdjęcie profilowe, jeśli zalogowano się na konto Apple. Wybierz je, a następnie opcję **Znajdź**. Tutaj możesz zdecydować, czy chcesz włączyć, czy wyłączyć funkcje lokalizacji usługi Znajdź.
 
-### Settings
+### Ustawienia
 
-Many other privacy-related settings can be found in the **Settings** app.
+Wiele innych ustawień związanych z prywatnością znajdziesz w aplikacji **Ustawienia**.
 
-#### Airplane Mode
+#### Tryb Samolot
 
-Enabling **Airplane Mode** stops your phone from contacting cell towers. You will still be able to connect to Wi-Fi and Bluetooth, so whenever you are connected to Wi-Fi you can turn this setting on.
+Włączenie **trybu Samolot** (szerzej znanego jako **tryb samolotowy**) zatrzymuje łączenie telefonu z wieżami komórkowymi. Nadal możesz łączyć się z Wi-Fi i Bluetooth, więc zawsze, gdy masz połączenie z Wi-Fi, możesz włączyć tę opcję.
 
 #### Wi-Fi
 
-You can enable [hardware address randomization](https://support.apple.com/en-us/102509#triswitch) to protect you from tracking across Wi-Fi networks, and on the same network over time. On the network you are currently connected to, tap the :material-information: button:
+Możesz włączyć [losowanie adresu sprzętowego](https://support.apple.com/pl-pl/102509#triswitch), aby chronić się przed śledzeniem w różnych sieciach Wi-Fi oraz w tej samej sieci w czasie. W aktualnie używanej sieci naciśnij przycisk :material-information::
 
-- [x] Set **Private Wi-Fi Address** to **Fixed** or **Rotating**
+- [x] Ustaw **Prywatny adres Wi‑Fi** na **Stały** lub **Obrotowy**
 
-You also have the option to **Limit IP Address Tracking**. This is similar to iCloud Private Relay but only affects connections to "known trackers." Because it only affects connections to potentially malicious servers, this setting is probably fine to leave enabled, but if you don't want *any* traffic to be routed through Apple's servers, you should turn it off.
+Dostępna jest również opcja **Ograniczaj śledzenie adresu IP**. Działa to podobnie do funkcji Prywatne przekazywanie iCloud, ale dotyczy tylko połączeń ze „znanymi trackerami”. Ponieważ wpływa wyłącznie na połączenia z potencjalnie złośliwymi serwerami, ustawienie to można pozostawić włączone, ale jeśli nie chcesz, żeby *jakikolwiek* ruch przechodził przez serwery Apple, wyłącz je.
 
 #### Bluetooth
 
-**Bluetooth** should be disabled when you aren't using it as it increases your attack surface. Disabling Bluetooth (or Wi-Fi) via the Control Center only disables it temporarily: you must switch it off in Settings for disabling it to remain effective.
+**Bluetooth** powinien być wyłączony, gdy go nie używasz, ponieważ zwiększa on powierzchnię ataku. Wyłączenie Bluetooth (lub Wi-Fi) z Centrum sterowania jest tymczasowe: aby było skuteczne na stałe, trzeba wyłączyć je w Ustawieniach.
 
-- [ ] Turn off **Bluetooth**
+- [ ] Wyłącz **Bluetooth**
 
-Note that Bluetooth is automatically turned on after every system update.
+Należy pamiętać, że Bluetooth jest automatycznie włączany po każdej aktualizacji systemu.
 
-#### General
+#### Ogólne
 
-Your iPhone's device name will by default contain your first name, and this will be visible to anyone on networks you connect to. You should change this to something more generic, like "iPhone." Select **About** → **Name** and enter the device name you prefer.
+Domyślna nazwa urządzenia Twojego iPhone'a zawiera Twoje imię i będzie widoczna dla każdego w sieciach, do których się łączysz. Zmień ją na coś bardziej ogólnego, jak „iPhone”. Wybierz **To urządzenie** → **Nazwa** i wpisz preferowaną nazwę urządzenia.
 
-It is important to install software updates frequently to get the latest security fixes. You can enable automatic updates to keep your phone up-to-date without needing to constantly check for updates. Select **Software Update** → **Automatic Updates**:
+Ważne jest częste instalowanie aktualizacji oprogramowania, żeby otrzymywać najnowsze poprawki zabezpieczeń. Możesz włączyć automatyczne aktualizacje, żeby telefon był na bieżąco bez konieczności ręcznego sprawdzania dostępności aktualizacji. Wybierz **Uaktualnienia** → **Uaktualnienia automatyczne**:
 
-- [x] Turn on **Automatically Install**
+- [x] Włącz **Instaluj automatycznie**
 
-**AirDrop** is commonly used to easily share files, but it represents a significant privacy risk. The AirDrop protocol constantly broadcasts your personal information to your surroundings, with [very weak](https://usenix.org/system/files/sec21-heinrich.pdf) security protections. Your identity can easily be discovered by attackers even with limited resources, and the Chinese government has [openly acknowledged](https://arstechnica.com/security/2024/01/hackers-can-id-unique-apple-airdrop-users-chinese-authorities-claim-to-do-just-that) using such techniques to identify AirDrop users in public since 2022.
+**AirDrop** jest często używany do łatwego udostępniania plików, ale stanowi istotne ryzyko prywatności. Protokół AirDrop stale rozgłasza informacje o użytkowniku w otoczeniu i ma [bardzo słabe](https://usenix.org/system/files/sec21-heinrich.pdf) zabezpieczenia. Twoją tożsamość można stosunkowo łatwo odkryć nawet przy ograniczonych zasobach, a chińskie władze [otwarcie przyznały się](https://arstechnica.com/security/2024/01/hackers-can-id-unique-apple-airdrop-users-chinese-authorities-claim-to-do-just-that) do wykorzystywania takich technik do identyfikacji użytkowników AirDrop w miejscach publicznych od 2022 r.
 
-- [x] Select **AirDrop** → **Receiving Off**
+- [x] Wybierz **AirDrop** → **Odbieranie wyłączone**
 
-**AirPlay** lets you seamlessly stream content from your iPhone to a TV; however, you might not always want this. Select **AirPlay & Continuity** → **Automatically AirPlay**:
+**AirPlay** pozwala płynnie przesyłać treści z iPhone’a na telewizor; nie zawsze jednak chcesz robić to automatycznie. Wybierz **AirPlay i Continuity** → **AirPlay automatycznie**:
 
-- [x] Select **Never** or **Ask**
+- [x] Wybierz **Nigdy** lub **Zapytaj**
 
-**Background App Refresh** allows your apps to refresh their content while you're not using them. This may cause them to make unwanted connections. Turning this off can also save battery life, but may affect an app's ability to receive updated information, particularly weather and messaging apps.
+Funkcja **Odświeżanie w tle** pozwala aplikacjom odświeżać zawartość, gdy z nich nie korzystasz. Może to powodować nawiązywanie niechcianych połączeń. Wyłączenie tej opcji może także oszczędzić czas pracy baterii, ale może wpłynąć na zdolność aplikacji do otrzymywania aktualizacji, w szczególności aplikacji pogodowych i komunikatorów.
 
-Select **Background App Refresh** and switch off any apps you don't want to continue refreshing in the background. If you don't want any apps to refresh in the background, you can select **Background App Refresh** again and turn it **Off**.
+Wybierz **Odświeżanie w tle** i wyłącz wszystkie aplikacje, które nie powinny odświeżać się w tle. Jeśli nie chcesz, aby jakiekolwiek aplikacje odświeżały się w tle, wybierz **Odświeżanie w tle** i ustaw **Wyłączone**.
 
-#### Apple Intelligence & Siri
+#### Apple Intelligence i Siri
 
-This is available if your device supports **[Apple Intelligence](https://support.apple.com/guide/iphone/apple-intelligence-and-privacy-iphe3f499e0e/ios)**. Apple Intelligence uses a combination of on-device processing and their **[Private Cloud Compute](https://security.apple.com/blog/private-cloud-compute)** for things that take more processing power than your device can provide.
+Funkcja ta jest dostępna, jeśli urządzenie obsługuje **[Apple Intelligence](https://support.apple.com/guide/iphone/apple-intelligence-and-privacy-iphe3f499e0e/ios)**. Apple Intelligence używa kombinacji przetwarzania na urządzeniu oraz ich **[prywatnej chmury obliczeniowej](https://security.apple.com/blog/private-cloud-compute)** do zadań wymagających większej mocy obliczeniowej niż ta dostępna lokalnie.
 
-To see a report of all the requests made to Apple's servers, you can navigate to **Privacy & Security** → **Apple Intelligence Report** and press **Export Activity** to see activity from the either the last 15 minutes or 7 days, depending on what you set it for. Similar to the **App Privacy Report** which shows you the recent permissions accessed by the apps on your phone, the Apple Intelligence Report likewise shows what is being sent to Apple's servers while using Apple Intelligence.
+Aby zobaczyć raport wszystkich żądań wysłanych do serwerów Apple, przejdź do **Prywatność i bezpieczeństwo** → **Raport Apple Intelligence** i naciśnij **Eksportuj aktywność**, aby zobaczyć dane z ostatnich 15 minut lub 7 dni, w zależności od wybranej przez Ciebie opcji. Podobnie jak **Raport prywatności aplikacji**, który pokazuje ostatnie uprawnienia, do których uzyskały dostęp aplikacje w telefonie, Raport Apple Intelligence pokazuje, co jest wysyłane do serwerów Apple podczas korzystania z Apple Intelligence.
 
-Apple Intelligence can integrate with [ChatGPT](https://support.apple.com/guide/iphone/use-chatgpt-with-apple-intelligence-iph00fd3c8c2/ios). If you want ChatGPT integration, you can navigate to **ChatGPT** and press **Set Up**. If you want to disable it, go to the same place:
+Apple Intelligence może integrować się z [ChatGPT](https://support.apple.com/guide/iphone/use-chatgpt-with-apple-intelligence-iph00fd3c8c2/ios). Aby dodać integrację z ChatGPT, przejdź do **ChatGPT** i naciśnij **Skonfiguruj**. Aby ją wyłączyć, przejdź w to samo miejsce:
 
-- [ ] Turn off **Use ChatGPT**
+- [ ] Wyłącz **Używaj ChatGPT**
 
-You can also have it ask for confirmation every time if you leave ChatGPT integration on:
+Możesz też ustawić, żeby prośby były potwierdzane za każdym razem, jeśli integracja z ChatGPT jest włączona:
 
-- [x] Turn on **Confirm Requests**
+- [x] Włącz **Potwierdzaj polecenia ChatGPT**
 
-If you don't want anyone to be able to control your phone with Siri when it is locked, you can turn that off here.
+Jeśli nie chcesz, aby ktoś mógł sterować Twoim telefonem za pomocą Siri, gdy jest on zablokowany, możesz to tutaj wyłączyć.
 
-- [ ] Turn off **Allow Siri When Locked**
+- [ ] Wyłącz **Dostęp do Siri przy blokadzie**
 
 #### Face ID/Touch ID & Passcode
 

@@ -70,7 +70,7 @@ Click the **Options** button:
 
 If this configuration is too strict, you can come back and uncheck this. However, macOS will typically prompt you to allow incoming connections for an app if the app requests it.
 
-#### General
+#### Ogólne
 
 By default, your device name will be something like "[your name]'s iMac". Because this name is [publicly broadcast on your network](https://support.apple.com/guide/mac-help/change-computers-local-hostname-mac-mchlp2322/26/mac/26#:~:text=The%20local%20hostname%2C%20or%20local%20network%20name%2C%20is%20displayed%20at%20the%20bottom%20of%20the%20Sharing%20settings%20window.%20It%20identifies%20your%20Mac%20to%20Bonjour%2Dcompatible%20services.), you'll want to change your device name to something generic like "Mac".
 
@@ -88,7 +88,7 @@ Click the small :material-information-outline: icon next to **Automatic Updates*
 
 - [x] Turn on **Install Security Responses and system files**
 
-#### Apple Intelligence & Siri
+#### Apple Intelligence i Siri
 
 If you do not use these features on macOS, you should disable them:
 
@@ -97,15 +97,15 @@ If you do not use these features on macOS, you should disable them:
 
 **[Apple Intelligence](https://apple.com/legal/privacy/data/en/intelligence-engine)** is only available if your device supports it. Apple Intelligence uses a combination of on-device processing and their [Private Cloud Compute](https://security.apple.com/blog/private-cloud-compute) for things that take more processing power than your device can provide.
 
-To see a report of all the data sent via Apple Intelligence, you can navigate to **Privacy & Security** → **Apple Intelligence Report** and press **Export Activity** to see activity from the either the last 15 minutes or 7 days, depending on what you set it for. Similar to the **App Privacy Report** which shows you the recent permissions accessed by the apps on your phone, the Apple Intelligence Report likewise shows what is being sent to Apple's servers while using Apple Intelligence.
+To see a report of all the data sent via Apple Intelligence, you can navigate to **Privacy & Security** → **Apple Intelligence Report** and press **Export Activity** to see activity from the either the last 15 minutes or 7 days, depending on what you set it for. Podobnie jak **Raport prywatności aplikacji**, który pokazuje ostatnie uprawnienia, do których uzyskały dostęp aplikacje w telefonie, Raport Apple Intelligence pokazuje, co jest wysyłane do serwerów Apple podczas korzystania z Apple Intelligence.
 
 By default, ChatGPT integration is disabled. If you don't want ChatGPT integration anymore, you can navigate to **ChatGPT**:
 
-- [ ] Turn off **Use ChatGPT**
+- [ ] Wyłącz **Używaj ChatGPT**
 
-You can also have it ask for confirmation every time if you leave ChatGPT integration on:
+Możesz też ustawić, żeby prośby były potwierdzane za każdym razem, jeśli integracja z ChatGPT jest włączona:
 
-- [x] Turn on **Confirm Requests**
+- [x] Włącz **Potwierdzaj polecenia ChatGPT**
 
 <div class="admonition warning" markdown>
 <p class="admonition-title">Ostrzeżenie</p>
