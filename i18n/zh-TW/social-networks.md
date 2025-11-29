@@ -125,7 +125,7 @@ If you used our recommended configuration settings above, you should be posting 
 [:octicons-info-16:](https://element.io/help){ .card-link title="說明文件" }
 [:octicons-code-16:](https://github.com/element-hq){ .card-link title="原始碼" }
 
-<details class="downloads" markdown><summary>Downloads</summary>
+<details class="downloads" markdown><summary>下載</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=io.element.android.x)
 - [:simple-appstore: App Store](https://apps.apple.com/app/id1631335820)

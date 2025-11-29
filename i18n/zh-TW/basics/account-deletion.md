@@ -1,5 +1,5 @@
 ---
-title: 刪除帳戶
+title: 刪除帳號
 icon: material/account-remove
 description: 在網路上輕易就能累積大量帳號。 以下是一些關於如何精簡您的收藏的訣竅。
 ---

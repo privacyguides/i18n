@@ -10,9 +10,9 @@ cover: language-tools.webp
 - [:material-server-network: 服務提供商](basics/common-threats.md#privacy-from-service-providers){ .pg-teal }
 - [:material-account-cash: 監控資本主義](basics/common-threats.md#surveillance-as-a-business-model){ .pg-brown }
 
-輸入到文法、拼寫和樣式檢查器以及翻譯服務的文字可能包含敏感資訊，這些資訊可能無限期地儲存在伺服器上，並被出售給第三方。 The language tools listed on this page do not store your submitted text on a server and can be self-hosted and used offline for maximum control of your data.
+輸入到文法、拼寫和樣式檢查器以及翻譯服務的文字可能包含敏感資訊，這些資訊可能無限期地儲存在伺服器上，並被出售給第三方。 本頁面列出的語言工具不會將您遞交的文字除存在伺服器上，且能自行架設並離線使用，以最大程度控制您的資料。
 
-## Grammar & Spelling
+## 文法與拼字
 
 ### LanguageTool
 
@@ -21,7 +21,7 @@ cover: language-tools.webp
 ![LanguageTool logo](assets/img/language-tools/languagetool.svg#only-light){ align=right }
 ![LanguageTool logo](assets/img/language-tools/languagetool-dark.svg#only-dark){ align=right }
 
-**LanguageTool** is a multilingual grammar, style, and spell checker that supports more than 20 languages. According to their privacy policy, they do not store any content sent to their service for review, but for higher assurance the software is [self-hostable](https://dev.languagetool.org/http-server).
+**LanguageTool** 是多語言文法、風格與拼字檢查程式，支援超過 20 種語言。 According to their privacy policy, they do not store any content sent to their service for review, but for higher assurance the software is [self-hostable](https://dev.languagetool.org/http-server).
 
 [:octicons-home-16: Homepage](https://languagetool.org){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://languagetool.org/legal/privacy){ .card-link title="Privacy Policy" }

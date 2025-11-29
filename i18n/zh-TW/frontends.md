@@ -89,11 +89,11 @@ cover: frontends.webp
 
 有許多公開的實例，有些提供 [Tor](tor.md) 洋蔥服務或 [I2P](alternative-networks.md#i2p-the-invisible-internet-project) 匿名站點。
 
-[:octicons-home-16: Homepage](https://invidious.io){ .md-button .md-button--primary }
-[:octicons-server-16:](https://docs.invidious.io/instances){ .card-link title="Public Instances" }
-[:octicons-info-16:](https://docs.invidious.io){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/iv-org/invidious){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://invidious.io/donate){ .card-link title="Contribute" }
+[:octicons-home-16: 首頁](https://invidious.io){ .md-button .md-button--primary }
+[:octicons-server-16:](https://docs.invidious.io/instances){ .card-link title="公開站台" }
+[:octicons-info-16:](https://docs.invidious.io){ .card-link title="文件" }
+[:octicons-code-16:](https://github.com/iv-org/invidious){ .card-link title="原始碼" }
+[:octicons-heart-16:](https://invidious.io/donate){ .card-link title="貢獻" }
 
 </details>
 
@@ -123,11 +123,11 @@ cover: frontends.webp
 
 Piped 需要 JavaScript 才能運行，它有許多公共伺服器。
 
-[:octicons-repo-16: Repository](https://github.com/TeamPiped/Piped){ .md-button .md-button--primary }
-[:octicons-server-16:](https://github.com/TeamPiped/documentation/blob/main/content/docs/public-instances/index.md){ .card-link title="Public Instances" }
-[:octicons-info-16:](https://docs.piped.video/docs){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/TeamPiped/Piped){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://github.com/TeamPiped/Piped#donations){ .card-link title="Contribute" }
+[:octicons-repo-16: 倉庫](https://github.com/TeamPiped/Piped){ .md-button .md-button--primary }
+[:octicons-server-16:](https://github.com/TeamPiped/documentation/blob/main/content/docs/public-instances/index.md){ .card-link title="公開站台" }
+[:octicons-info-16:](https://docs.piped.video/docs){ .card-link title="文件" }
+[:octicons-code-16:](https://github.com/TeamPiped/Piped){ .card-link title="原始碼" }
+[:octicons-heart-16:](https://github.com/TeamPiped/Piped#donations){ .card-link title="貢獻" }
 
 </details>
 
@@ -148,7 +148,7 @@ Piped 需要 JavaScript 才能運行，它有許多公共伺服器。
 
 **FreeTube** 是 [YouTube](https://youtube.com)的免費開源桌面應用程式。 FreeTube 使用其基於 [YouTube.js](https://github.com/LuanRT/YouTube.js) 或 [Invidious](#invidious) API 的內建 API 從 YouTube 擷取資料。 您可以將其中一個設定為預設，另一個則作為備用。
 
-When using FreeTube, your subscription list, playlists, watch history and search history are saved locally on your device.
+使用 FreeTube 時，您的訂閱清單、播放清單、觀看歷史與搜尋歷史會本機儲存在您的裝置上。
 
 [:octicons-home-16: 首頁](https://freetubeapp.io){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://freetubeapp.io/privacy.php){ .card-link title="隱私權政策" }
@@ -251,9 +251,9 @@ When using FreeTube, your subscription list, playlists, watch history and search
 
 <div class="admonition recommendation annotate" markdown>
 
-![NewPipe logo](assets/img/frontends/newpipe.svg){ align=right }
+![NewPipe 標誌](assets/img/frontends/newpipe.svg){ align=right }
 
-**NewPipe** is a free and open-source Android application for [YouTube](https://youtube.com), [SoundCloud](https://soundcloud.com), [media.ccc.de](https://media.ccc.de), [Bandcamp](https://bandcamp.com), and [PeerTube](https://joinpeertube.org) (1).
+**NewPipe** 是自由與開放原始碼的 Android 應用程式，可用於觀看 [YouTube](https://youtube.com), [SoundCloud](https://soundcloud.com)、[media.ccc.de](https://media.ccc.de)、[Bandcamp](https://bandcamp.com) 與 [PeerTube](https://joinpeertube.org) (1)。
 
 訂閱清單和播放列表會儲存在本地的 Android 裝置上。
 
