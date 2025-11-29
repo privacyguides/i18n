@@ -20,56 +20,56 @@ Wszystkie urządzenia z systemem iOS sprawdzane są na serwerach blokady aktywac
 
 The only source for apps on iOS is Apple's App Store, which requires an Apple Account to access. This means that Apple has a record of every app you install on your device, and can likely tie that information to your actual identity if you provide the App Store with a payment method.
 
-### Invasive Telemetry
+### Inwazyjna telemetria
 
-Apple has historically had problems with properly disassociating their telemetry from Apple Accounts on iOS. In [2019](https://theguardian.com/technology/2019/jul/26/apple-contractors-regularly-hear-confidential-details-on-siri-recordings), Apple was found to transmit Siri recordings—some containing highly confidential information—to their servers for manual review by third-party contractors. Though Apple temporarily stopped that program after that practice was [widely reported on](https://theverge.com/2019/8/23/20830120/apple-contractors-siri-recordings-listening-1000-a-day-globetech-microsoft-cortana), the company rolled out a switch to [**opt out** of uploading conversations with Siri](https://theguardian.com/technology/2019/oct/30/apple-lets-users-opt-out-of-having-siri-conversations-recorded) a few months later in the succeeding iOS update. Moreover, in 2021, [Apple reworked Siri](https://theguardian.com/technology/2021/jun/07/apple-overhauls-siri-to-address-privacy-concerns-and-improve-performance) so that it processes voice recordings locally rather than sending it to their servers.
+Apple miało w przeszłości problemy z odpowiednim odłączaniem telemetrii od kont Apple w systemie iOS. [W 2019 roku](https://theguardian.com/technology/2019/jul/26/apple-contractors-regularly-hear-confidential-details-on-siri-recordings) wykazano, że nagrania z Siri — niektóre zawierające wysoce poufne informacje — były przesyłane na serwery Apple do ręcznej weryfikacji przez zewnętrznych wykonawców. Choć Apple tymczasowo wstrzymało ten program po [nagłośnieniu sprawy](https://theverge.com/2019/8/23/20830120/apple-contractors-siri-recordings-listening-1000-a-day-globetech-microsoft-cortana), w kolejnej aktualizacji wprowadzono możliwość [**rezygnacji** z przesyłania rozmów z Siri](https://theguardian.com/technology/2019/oct/30/apple-lets-users-opt-out-of-having-siri-conversations-recorded). Ponadto w 2021 roku [Apple przeprojektowało Siri](https://theguardian.com/technology/2021/jun/07/apple-overhauls-siri-to-address-privacy-concerns-and-improve-performance) tak, aby nagrania głosowe były przetwarzane lokalnie zamiast wysyłania ich na swoje serwery.
 
-More recently, Apple has been found to transmit analytics [even when analytics sharing is disabled](https://gizmodo.com/apple-iphone-analytics-tracking-even-when-off-app-store-1849757558) on iOS, and this data [appears](https://twitter.com/mysk_co/status/1594515229915979776) to be easily linked to unique iCloud account identifiers despite supposedly being decoupled from Apple Accounts.
+Nowsze ustalenia wskazują, że Apple przesyła dane analityczne [nawet wtedy, gdy udostępnianie analiz jest wyłączone](https://gizmodo.com/apple-iphone-analytics-tracking-even-when-off-app-store-1849757558) na urządzeniu, i [wygląda na to](https://twitter.com/mysk_co/status/1594515229915979776), że te dane można stosunkowo łatwo powiązać z unikatowymi identyfikatorami kont iCloud, mimo iż miały być od nich oddzielone.
 
-### Traffic Outside Active VPN Connections
+### Ruch poza aktywnymi połączeniami VPN
 
-Apple's [privacy policy regarding VPNs](https://apple.com/legal/privacy/data/en/vpns) states:
+[Polityka prywatności Apple dotycząca sieci VPN](https://apple.com/legal/privacy/data/en/vpns) stwierdza:
 
 > Nawet gdy sieć VPN jest aktywna, część ruchu niezbędna dla kluczowych usług systemowych musi odbywać się poza nią, aby urządzenie mogło prawidłowo działać.
 
 ## Zalecana konfiguracja
 
-**Note:** This guide assumes that you're running the latest version of iOS.
+**Uwaga:** ten przewodnik zakłada, że korzystasz z najnowszej wersji systemu iOS.
 
 ### iCloud
 
-The majority of privacy and security concerns with Apple products are related to their cloud services, not their hardware or software. When you use Apple services like iCloud, most of your information is stored on their servers and secured with keys which Apple has access to by default. You can check [Apple's documentation](https://support.apple.com/HT202303) for information on which services are end-to-end encrypted. Anything listed as "in transit" or "on server" means it's possible for Apple to access that data without your permission. This level of access has occasionally been abused by law enforcement to get around the fact that your data is otherwise securely encrypted on your device, and of course Apple is vulnerable to data breaches like any other company.
+Większość obaw związanych z prywatnością i bezpieczeństwem w produktach Apple wiąże się z usługami chmurowymi, a nie z samym sprzętem czy oprogramowaniem. Gdy korzystasz z usług Apple, takich jak iCloud, większość Twoich informacji przechowywana jest na ich serwerach i zabezpieczona kluczami, do których Apple ma domyślnie dostęp. Możesz sprawdzić [dokumentację Apple](https://support.apple.com/HT202303), aby dowiedzieć się, które usługi są szyfrowane end-to-end. Wszystko oznaczone jako „podczas transferu” lub „na serwerze” oznacza, że Apple może uzyskać dostęp do tych danych bez Twojej zgody. Taki poziom dostępu był czasami wykorzystywany przez organy ścigania, by obejść fakt, że dane są w inny sposób bezpiecznie zaszyfrowane na urządzeniu, a Apple, jak każda inna firma, jest także podatne na wycieki danych.
 
-Therefore, if you do use iCloud you should [enable **Advanced Data Protection**](https://support.apple.com/HT212520). This encrypts nearly all of your iCloud data with keys stored on your devices (end-to-end encryption), rather than Apple's servers, so that your iCloud data is secured in the event of a data breach, and otherwise hidden from Apple.
+Dlatego, jeśli korzystasz z iCloud, zaleca się [włączenie **zaawansowanej ochrony danych**](https://support.apple.com/HT212520). Szyfruje to niemal wszystkie dane iCloud za pomocą kluczy przechowywanych na Twoich urządzeniach (szyfrowanie typu end-to-end), zamiast na serwerach Apple, dzięki czemu dane iCloud są zabezpieczone na wypadek wycieku i w normalnych warunkach ukryte przed Apple.
 
-The encryption used by Advanced Data Protection, while strong, [is not *quite* as robust](https://discuss.privacyguides.net/t/apple-advances-user-security-with-powerful-new-data-protections/10778/4) as the encryption offered by other [cloud services](../cloud.md), particularly when it comes to iCloud Drive. While we strongly encourage using Advanced Data Protection if you use iCloud, we would also suggest considering finding an alternative to iCloud from a more [privacy-focused service provider](../tools.md), although it is unlikely most people would be impacted by these encryption quirks.
+Szyfrowanie stosowane w zaawansowanej ochronie danych, choć silne, [nie jest *tak* odporne](https://discuss.privacyguides.net/t/apple-advances-user-security-with-powerful-new-data-protections/10778/4) jak szyfrowanie oferowane przez niektóre inne [usługi chmurowe](../cloud.md), zwłaszcza w przypadku iCloud Drive. Choć zdecydowanie zachęcamy do włączenia zaawansownej ochrony danych, jeśli korzystasz z iCloud, warto też rozważyć alternatywę dla iCloud u [dostawcy bardziej nastawionego na prywatność](../tools.md) — choć dla większości osób wspomniane niuanse szyfrowania prawdopodobnie nie będą miały większego znaczenia.
 
-You can also protect your data by limiting what you sync to iCloud in the first place. At the top of the **Settings** app, you'll see your name and profile picture if you are signed in to iCloud. Select that, then **iCloud**, and turn off the switches for any services you don't want to sync to iCloud. You may see third-party apps listed under **Show All** if they sync to iCloud, which you can disable here.
+Możesz też chronić swoje dane, ograniczając to, co synchronizujesz z iCloud. Na górze aplikacji **Ustawienia** zobaczysz swoje imię i nazwisko oraz zdjęcie profilowe, jeśli zalogowano się do usługi iCloud. Wybierz je, następnie **iCloud**, i wyłącz wszystko przy usługach, których nie chcesz synchronizować z iCloud. Pod opcją **Pokaż wszystkie** mogą pojawić się aplikacje firm trzecich synchronizujące się z usługą iCloud — można je tutaj wyłączyć.
 
 #### iCloud+
 
-A paid **iCloud+** subscription (with any iCloud storage plan) comes with some privacy-protecting functionality. While these may provide adequate service for current iCloud customers, we wouldn't recommend purchasing an iCloud+ plan over a [VPN](../vpn.md) and [standalone email aliasing service](../email-aliasing.md) just for these features alone.
+Płatna subskrypcja **iCloud+** (dowolny pakiet dyskowy w usłudze iCloud) zawiera funkcje chroniące prywatność. Choć dla obecnych klientów iCloud mogą one być wystarczające, nie zalecamy kupowania planu iCloud+ wyłącznie dla tych funkcji zamiast korzystania z [VPN-a](../vpn.md) i [samodzielnej usługi aliasingu e-mail](../email-aliasing.md).
 
-[**Private Relay**](https://apple.com/legal/privacy/data/en/icloud-relay) is a proxy service which relays all of your Safari traffic, your DNS queries, and unencrypted traffic on your device through two servers: one owned by Apple and one owned by a third-party provider (including Akamai, Cloudflare, and Fastly). In theory this should prevent any single provider in the chain—including Apple—from having full visibility into which websites you visit while connected. Unlike a VPN, Private Relay does not protect traffic that's already encrypted.
+[**Przekazywanie prywatne**](https://apple.com/legal/privacy/data/en/icloud-relay) to usługa proxy, która przekierowuje ruch z Safari, zapytania DNS oraz niezaszyfrowany ruch urządzenia przez dwa serwery: jeden należący do Apple i drugi do zewnętrznego dostawcy (m.in. Akamai, Cloudflare i Fastly). W teorii uniemożliwia to któremukolwiek z pojedynczych dostawców w łańcuchu — w tym Apple — uzyskanie pełnego wglądu w odwiedzane przez Ciebie strony. W przeciwieństwie do VPN, Przekazywanie prywatne nie chroni ruchu, który jest już zaszyfrowany.
 
-**Hide My Email** is Apple's email aliasing service. You can create an email aliases for free when you *Sign In With Apple* on a website or app, or generate unlimited aliases on demand with a paid iCloud+ plan. Hide My Email has the advantage of using the `@icloud.com` domain for its aliases, which may be less likely to be blocked compared to other email aliasing services, but does not offer functionality offered by standalone services such as automatic PGP encryption or multiple mailbox support.
+**Ukryj mój adres email** to usługa aliasingu adresów e-mail oferowana przez Apple. Można tworzyć aliasy e-mail za darmo, korzystając z funkcji *Zaloguj się, używając konta Apple* na stronie lub w aplikacji, albo generować nieograniczoną liczbę aliasów na żądanie mając płatny pakiet iCloud+. Usługa Ukryj mój adres email ma tę przewagę, że używa domeny `@icloud.com` dla aliasów, co może zmniejszać ryzyko zablokowania w porównaniu z innymi usługami aliasingu, ale nie oferuje funkcji dostępnych w samodzielnych usługach, takich jak automatyczne szyfrowanie PGP czy obsługa wielu skrzynek pocztowych.
 
-#### Media & Purchases
+#### Multimedia i zakupy
 
-At the top of the **Settings** app, you'll see your name and profile picture if you are signed in to an Apple Account. Select that, then select **Media & Purchases** → **View Account**.
+Na górze aplikacji **Ustawienia** zobaczysz swoje imię i nazwisko oraz zdjęcie profilowe, jeśli zalogowano się na konto Apple. Wybierz je, następnie **Multimedia i zakupy** → **Wyświetl konto**.
 
-- [ ] Turn off **Personalized Recommendations**
+- [ ] Wyłącz **Spersonalizowane rekomendacje**
 
-#### Find My
+#### Usługa Znajdź
 
-**Find My** is a service that lets you track your Apple devices and share your location with your friends and family. It also allows you to wipe your device remotely in case it is stolen, preventing a thief from accessing your data. Your Find My [location data is E2EE](https://apple.com/legal/privacy/data/en/find-my) when:
+**Znajdź** to usługa pozwalająca śledzić urządzenia Apple i udostępniać ich lokalizację znajomym i rodzinie. Umożliwia też zdalne wymazanie urządzenia w razie kradzieży, co zapobiega dostępowi niepożądanych osób do danych. Twoje dane lokalizacji w ramach usługi Znajdź [są szyfrowane end-to-end](https://apple.com/legal/privacy/data/en/find-my), gdy:
 
-- Your location is shared with a family member or friend, and you both use iOS 17 or greater.
-- Your device is offline and is located by the Find My Network.
+- lokalizacja jest udostępniana członkowi rodziny lub znajomemu i obie strony używają systemu iOS 17 lub nowszego,
+- urządzenie jest offline i zlokalizowane przez sieć usługi Znajdź.
 
-Your location data is not E2EE when your device is online and you use Find My iPhone remotely to locate your device. You will have to make the decision whether these trade-offs are worth the anti-theft benefits of Activation Lock.
+Dane lokalizacji nie są szyfrowane end-to-end, gdy urządzenie jest online i korzystasz z funkcji Znajdź mój iPhone do zdalnego zlokalizowania urządzenia. Trzeba więc rozważyć, czy te kompromisy są warte korzyści antykradzieżowych związanych z blokadą aktywacji.
 
-At the top of the **Settings** app, you'll see your name and profile picture if you are signed in to an Apple Account. Select that, then select **Find My**. Here you can choose whether to enable or disable Find My location features.
+Na górze aplikacji **Ustawienia** zobaczysz swoje imię i nazwisko oraz zdjęcie profilowe, jeśli zalogowano się na konto Apple. Wybierz je, a następnie opcję **Znajdź**. Tutaj możesz zdecydować, czy chcesz włączyć, czy wyłączyć funkcje lokalizacji usługi Znajdź.
 
 ### Settings
 

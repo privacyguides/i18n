@@ -93,7 +93,7 @@ Multi-Party Relays (MPR) wykorzystują wiele węzłów należących do różnych
 
 MPR mają na celu rozwiązanie problemu nieodłącznego dla VPN-ów: konieczności pełnego zaufania do dostawcy. Osiągają to przez podział odpowiedzialności pomiędzy dwie lub więcej różnych firm.
 
-Przykładem komercyjnie dostępnego MPR jest iCloud+ Private Relay Apple’a, który kieruje ruch przez dwa serwery:
+Przykładem komercyjnie dostępnego MPR jest Przekazywanie prywatne iCloud+ Apple’a, które kieruje ruch przez dwa serwery:
 
 1. Po pierwsze — serwer obsługiwany przez Apple.
 

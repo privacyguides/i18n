@@ -36,7 +36,7 @@ If you do use a second account, it is not strictly required to ever log in to yo
 
 When you use Apple services like iCloud, most of your information is stored on their servers and secured with keys *which Apple has access to* by default. This is called [Standard Data Protection](https://support.apple.com/en-us/102651) by Apple.
 
-Therefore, if you use iCloud you should [enable **Advanced Data Protection**](https://support.apple.com/HT212520). This encrypts nearly all of your iCloud data with keys stored on your devices (end-to-end encryption), rather than Apple's servers, so that your iCloud data is secured in the event of a data breach, and otherwise hidden from Apple.
+Dlatego, jeśli korzystasz z iCloud, zaleca się [włączenie **zaawansowanej ochrony danych**](https://support.apple.com/HT212520). Szyfruje to niemal wszystkie dane iCloud za pomocą kluczy przechowywanych na Twoich urządzeniach (szyfrowanie typu end-to-end), zamiast na serwerach Apple, dzięki czemu dane iCloud są zabezpieczone na wypadek wycieku i w normalnych warunkach ukryte przed Apple.
 
 If you want to be able to install apps from the App Store but don't want to enable iCloud, you can sign in to your Apple Account from the App Store instead of **System Settings**.
 
