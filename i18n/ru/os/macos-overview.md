@@ -1,219 +1,219 @@
 ---
-title: macOS Overview
+title: Обзор macOS
 icon: material/apple-finder
-description: macOS is Apple's desktop operating system that works with their hardware to provide strong security.
+description: macOS — это настольная операционная система Apple, которая работает с их оборудованием для обеспечения высокого уровня безопасности.
 ---
 
-**macOS** is a Unix operating system developed by Apple for their Mac computers. To enhance privacy on macOS, you can disable telemetry features and harden existing privacy and security settings.
+**macOS** — это Unix-операционная система, разработанная Apple для их компьютеров Mac. Для повышения приватности в macOS вы можете отключить функции телеметрии и усилить существующие настройки приватности и безопасности.
 
-Older Intel-based Macs and Hackintoshes do not support all the security features that macOS offers. To enhance data security, we recommend using a newer Mac with [Apple Silicon](https://support.apple.com/HT211814).
+Старые Mac на базе Intel и Hackintosh не поддерживают все функции безопасности, которые предлагает macOS. Для повышения безопасности данных мы рекомендуем использовать более новый Mac с [Apple Silicon](https://support.apple.com/HT211814).
 
-## Privacy Notes
+## Примечания о приватности
 
-There are a few notable privacy concerns with macOS that you should consider. These pertain to the operating system itself, and not Apple's other apps and services.
+Существует несколько заметных проблем с приватностью в macOS, которые вам следует учитывать. Они относятся к самой операционной системе, а не к другим приложениям и службам Apple.
 
-### Activation Lock
+### Блокировка активации
 
-Brand-new Apple Silicon devices can be set up without an internet connection. However, recovering or resetting your Mac will **require** an internet connection to Apple's servers to check against the Activation Lock database of lost or stolen devices.
+Совершенно новые устройства Apple Silicon можно настроить без подключения к интернету. Однако восстановление или сброс Mac **потребует** подключения к интернету для соединения с серверами Apple, чтобы проверить устройство по базе данных Блокировки активации утерянных или украденных устройств.
 
-### App Revocation Checks
+### Проверка отзыва приложений
 
-macOS performs online checks when you open an app to verify whether an app contains known malware, and whether the developer’s signing certificate is revoked.
+macOS выполняет онлайн-проверки при открытии приложения, чтобы убедиться, что приложение не содержит известного вредоносного ПО, и что сертификат разработчика не отозван.
 
-Apple's OCSP service uses HTTPS encryption, so only they are able to see which apps you open. They've [posted information](https://support.apple.com/HT202491) about their logging policy for this service. They additionally [promised](http://lapcatsoftware.com/articles/2024/8/3.html) to add a mechanism for people to opt-out of this online check, but this has not been added to macOS.
+Сервис OCSP от Apple использует шифрование HTTPS, поэтому только они могут видеть, какие приложения вы открываете. Они [опубликовали информацию](https://support.apple.com/HT202491) о своей политике ведения журналов для этой службы. Кроме того, они [обещали](http://lapcatsoftware.com/articles/2024/8/3.html) добавить механизм для отказа от этой онлайн-проверки, но это ещё не было добавлено в macOS.
 
-While you [can](https://eclecticlight.co/2021/02/23/how-to-run-apps-in-private) manually opt out of this check relatively easily, we recommend against doing so unless you would be badly compromised by the revocation checks performed by macOS, because they serve an important role in ensuring compromised apps are blocked from running.
+Хотя вы [можете](https://eclecticlight.co/2021/02/23/how-to-run-apps-in-private) вручную отказаться от этой проверки относительно легко, мы рекомендуем не делать этого, если только вы не будете серьезно скомпрометированы проверками отзыва, выполняемыми macOS, поскольку они играют важную роль в обеспечении блокировки скомпрометированных приложений.
 
 ## Рекомендованные настройки
 
-Your account when you first set up your Mac will be an Administrator account, which has higher privileges than a Standard user account. macOS has a number of protections which prevent malware and other programs from abusing your Administrator privileges, so it is generally safe to use this account.
+Первая учётная запись, создаваемая при настройке Mac, получает административные права, превосходящие привилегии стандартного пользователя. macOS имеет ряд защитных механизмов, которые предотвращают злоупотребление вашими привилегиями Администратора вредоносным ПО и другими программами, поэтому обычно безопасно использовать эту учетную запись.
 
-However, exploits in protective utilities like `sudo` have been [discovered in the past](https://bogner.sh/2014/03/another-mac-os-x-sudo-password-bypass). If you want to avoid the possibility that programs you run abuse your Administrator privileges, you could consider creating a second, Standard user account which you use for day-to-day operations. This has the added benefit of making it more obvious when an app needs admin access, because it will prompt you for credentials every time.
+Однако эксплойты в защитных утилитах, таких как `sudo`, были [обнаружены в прошлом](https://bogner.sh/2014/03/another-mac-os-x-sudo-password-bypass). Для повседневной работы рекомендуется создать отдельную Стандартную учетную запись, что поможет избежать злоупотребления административными привилегиями. Это имеет дополнительное преимущество, делая более очевидным, когда приложению требуется доступ администратора, поскольку оно будет запрашивать учётные данные каждый раз.
 
-If you do use a second account, it is not strictly required to ever log in to your original Administrator account from the macOS login screen. When you are doing something as a Standard user which requires Administrator permissions, the system should prompt you for authentication, where you can enter your Administrator credentials as your Standard user on a one-time basis. Apple provides [guidance](https://support.apple.com/HT203998) on hiding your Administrator account if you prefer to only see a single account on your login screen.
+Если вы используете вторую учётную запись, не обязательно когда-либо входить в свою исходную учетную запись Администратора с экрана входа в macOS. Когда вы выполняете действие как Стандартный пользователь, требующее разрешений Администратора, система должна запросить аутентификацию, где вы можете ввести свои учётные данные Администратора как Стандартный пользователь на разовой основе. Apple предоставляет [руководство](https://support.apple.com/HT203998) по скрытию вашей учетной записи Администратора, если вы предпочитаете видеть только одну учетную запись на экране входа.
 
 ### iCloud
 
-When you use Apple services like iCloud, most of your information is stored on their servers and secured with keys *which Apple has access to* by default. This is called [Standard Data Protection](https://support.apple.com/en-us/102651) by Apple.
+Когда вы используете службы Apple, такие, как iCloud, большая часть вашей информации хранится на их серверах и защищена ключами, *к которым Apple имеет доступ* по умолчанию. Это называется [Стандартной защитой данных](https://support.apple.com/en-us/102651) по терминологии Apple.
 
-Therefore, if you use iCloud you should [enable **Advanced Data Protection**](https://support.apple.com/HT212520). This encrypts nearly all of your iCloud data with keys stored on your devices (end-to-end encryption), rather than Apple's servers, so that your iCloud data is secured in the event of a data breach, and otherwise hidden from Apple.
+Поэтому, если вы используете iCloud, вам следует [включить **Расширенную защиту данных**](https://support.apple.com/HT212520). Это шифрует почти все ваши данные iCloud с помощью ключей, хранящихся на ваших устройствах (сквозное шифрование), а не на серверах Apple, так что ваши данные iCloud защищены в случае утечки данных и в целом скрыты от Apple.
 
-If you want to be able to install apps from the App Store but don't want to enable iCloud, you can sign in to your Apple Account from the App Store instead of **System Settings**.
+Если вы хотите иметь возможность устанавливать приложения из App Store, но не хотите включать iCloud, вы можете войти в свою учетную запись Apple из App Store вместо **Системных настроек**.
 
-### System Settings
+### Системные настройки
 
-There are a number of built-in settings you should confirm or change to harden your system. Open the **Settings** app:
+Существует ряд встроенных настроек, которые вы должны подтвердить или изменить для усиления вашей системы. Откройте приложение **"Настройки** ":
 
 #### Bluetooth
 
-- [ ] Turn off **Bluetooth** (unless you are currently using it)
+- [ ] Отключите **Bluetooth** (если вы не используете его в данный момент)
 
-#### Network
+#### Сеть
 
-Depending on if you are using **Wi-Fi** or **Ethernet** (denoted by a green dot and the word "connected"), click on the corresponding icon.
+В зависимости от того, используете ли вы **Wi-Fi** или **Ethernet** (обозначается зеленой точкой и словом "подключено"), нажмите на соответствующий значок.
 
-Click on the "Details" button by your network name:
+Нажмите кнопку "Подробнее" рядом с именем вашей сети:
 
-- [x] Select **Rotating** under **Private Wi-Fi address**
+- [x] Выберите **Ротация адреса** в разделе **Частный адрес Wi-Fi**
 
-- [x] Turn on **Limit IP address tracking**
+- [x] Включите **Ограничение трекинга по IP-адресу**
 
-##### Firewall
+##### Брандмауэр
 
-Your firewall blocks unwanted network connections. The stricter your firewall settings are, the more secure your Mac is. However, certain services will be blocked. You should configure your firewall to be as strict as you can without blocking services you use.
+Ваш брандмауэр блокирует нежелательные сетевые подключения. Чем строже настройки вашего брандмауэра, тем безопаснее ваш Mac. Однако некоторые службы будут заблокированы. Вам следует настроить брандмауэр так, чтобы он был максимально строгим, не блокируя при этом службы, которые вы используете.
 
-- [x] Turn on **Firewall**
+- [x] Включите **Брандмауэр**
 
-Click the **Options** button:
+Нажмите кнопку **Параметры**:
 
-- [x] Turn on **Block all incoming connections**
+- [x] Включите **Блокировать все входящие подключения**
 
-If this configuration is too strict, you can come back and uncheck this. However, macOS will typically prompt you to allow incoming connections for an app if the app requests it.
+Если эта конфигурация слишком строгая, вы можете вернуться и снять этот флажок. Однако macOS обычно предложит вам разрешить входящие подключения для приложения, если приложение запрашивает это.
 
-#### General
+#### Основные
 
-By default, your device name will be something like "[your name]'s iMac". Because this name is [publicly broadcast on your network](https://support.apple.com/guide/mac-help/change-computers-local-hostname-mac-mchlp2322/26/mac/26#:~:text=The%20local%20hostname%2C%20or%20local%20network%20name%2C%20is%20displayed%20at%20the%20bottom%20of%20the%20Sharing%20settings%20window.%20It%20identifies%20your%20Mac%20to%20Bonjour%2Dcompatible%20services.), you'll want to change your device name to something generic like "Mac".
+По умолчанию имя вашего устройства будет что-то вроде "iMac [вашего имени]". Поскольку это имя [публично транслируется в вашей сети](https://support.apple.com/guide/mac-help/change-computers-local-hostname-mac-mchlp2322/26/mac/26#:~:text=The%20local%20hostname%2C%20or%20local%20network%20name%2C%20is%20displayed%20at%20the%20bottom%20of%20the%20Sharing%20settings%20window.%20It%20identifies%20your%20Mac%20to%20Bonjour%2Dcompatible%20services.), вы захотите изменить имя устройства на что-то общее, например "Mac".
 
-Click on **About** and type your desired device name into the **Name** field.
+Нажмите на **Описание** и введите желаемое имя устройства в поле **Имя**.
 
-##### Software Updates
+##### Обновление ПО
 
-You should automatically install all available updates to make sure your Mac has the latest security fixes.
+Вы должны автоматически устанавливать все доступные обновления, чтобы убедиться, что ваш Mac имеет последние исправления безопасности.
 
-Click the small :material-information-outline: icon next to **Automatic Updates**:
+Нажмите на небольшой значок :material-information-outline: рядом с **Автообновление**:
 
-- [x] Turn on **Download new updates when available**
+- [x] Включите **Загружать обновления, если они доступны**
 
-- [x] Turn on **Install macOS updates**
+- [x] Включите **Устанавливать обновления macOS**
 
-- [x] Turn on **Install Security Responses and system files**
+- [x] Включите **Устанавливать системные файлы и обновления системы безопасности**
 
-#### Apple Intelligence & Siri
+#### Apple Intelligence и Siri
 
-If you do not use these features on macOS, you should disable them:
+Если вы не используете эти функции в macOS, вам следует отключить их:
 
-- [ ] Turn off **Apple Intelligence**
-- [ ] Turn off **Siri**
+- [ ] Отключите **Apple Intelligence**
+- [ ] Отключите **Siri**
 
-**[Apple Intelligence](https://apple.com/legal/privacy/data/en/intelligence-engine)** is only available if your device supports it. Apple Intelligence uses a combination of on-device processing and their [Private Cloud Compute](https://security.apple.com/blog/private-cloud-compute) for things that take more processing power than your device can provide.
+**[Apple Intelligence](https://apple.com/legal/privacy/data/en/intelligence-engine)** доступен только если ваше устройство поддерживает его. Apple Intelligence использует комбинацию обработки на устройстве и их [Private Cloud Compute](https://security.apple.com/blog/private-cloud-compute) для задач, которые требуют больше вычислительной мощности, чем может предоставить ваше устройство.
 
-To see a report of all the data sent via Apple Intelligence, you can navigate to **Privacy & Security** → **Apple Intelligence Report** and press **Export Activity** to see activity from the either the last 15 minutes or 7 days, depending on what you set it for. Similar to the **App Privacy Report** which shows you the recent permissions accessed by the apps on your phone, the Apple Intelligence Report likewise shows what is being sent to Apple's servers while using Apple Intelligence.
+Чтобы увидеть отчет обо всех данных, отправленных через Apple Intelligence, вы можете перейти в **Конфиденциальность и безопасность** → **Отчет Apple Intelligence** и нажать **Экспорт активности**, чтобы увидеть активность за последние 15 минут или 7 дней, в зависимости от ваших настроек. Подобно **Отчету о конфиденциальности приложений**, который показывает вам недавно используемые разрешения приложениями на вашем телефоне, Отчет Apple Intelligence аналогично показывает, что отправляется на серверы Apple при использовании Apple Intelligence.
 
-By default, ChatGPT integration is disabled. If you don't want ChatGPT integration anymore, you can navigate to **ChatGPT**:
+По умолчанию интеграция с ChatGPT отключена. Если вы больше не хотите использовать интеграцию с ChatGPT, вы можете перейти в **ChatGPT**:
 
-- [ ] Turn off **Use ChatGPT**
+- [ ] Отключите **Использовать ChatGPT**
 
-You can also have it ask for confirmation every time if you leave ChatGPT integration on:
+Вы также можете настроить запрос подтверждения каждый раз, если оставляете интеграцию с ChatGPT включенной:
 
-- [x] Turn on **Confirm Requests**
+- [x] Включите **Подтверждать запросы**
 
 <div class="admonition warning" markdown>
 <p class="admonition-title">Предупреждение</p>
 
-Any request made with ChatGPT will be sent to ChatGPT's servers, there is no on-device processing and no PCC like with Apple Intelligence.
+Любой запрос, сделанный с помощью ChatGPT, будет отправлен на серверы ChatGPT, без обработки на устройстве и без PCC, как в случае с Apple Intelligence.
 
 </div>
 
 #### Приватность и защита
 
-Whenever an application requests a permission, it will show up here. You can decide which applications you want to allow or deny specific permissions.
+Когда приложение запрашивает разрешение, оно отобразится здесь. Вы можете решить, каким приложениям вы хотите разрешить или запретить определенные разрешения.
 
-##### Location Services
+##### Службы геолокации
 
-You can individually allow location services per-app. If you don't need apps to use your location, turning off location services entirely is the most private option.
+Вы можете разрешать службы геолокации для каждого приложения отдельно. Если вам не нужно, чтобы приложения использовали ваше местоположение, полное отключение служб геолокации является наиболее приватным вариантом.
 
-- [ ] Turn off **Location Services**
+- [ ] Отключите **Службы геолокации**
 
-##### Analytics & Improvements
+##### Аналитика и улучшения
 
-Decide whether you want to share analytics data with Apple and app developers.
+Решите, хотите ли вы делиться аналитическими данными с Apple и разработчиками приложений.
 
-##### Apple Advertising
+##### Реклама от Apple
 
-Decide whether you want personalized ads based on your usage.
+Решите, хотите ли вы получать персонализированную рекламу на основе вашего использования.
 
-- [ ] Turn off **Personalized Ads**
+- [ ] Отключите **Контекстную рекламу**
 
 ##### FileVault
 
-On modern devices with a Secure Enclave (Apple T2 Security Chip, Apple Silicon), your data is always encrypted, but is decrypted automatically by a hardware key if your device doesn't detect it's been tampered with. Enabling [FileVault](../encryption.md#filevault) additionally requires your password to decrypt your data, greatly improving security, especially when powered off or before the first login after powering on.
+На современных устройствах с Secure Enclave (чип безопасности Apple T2, Apple Silicon) ваши данные всегда зашифрованы, но автоматически расшифровываются аппаратным ключом, если ваше устройство не обнаруживает, что оно было взломано. Включение [FileVault](../encryption.md#filevault) дополнительно требует вашего пароля для расшифровки ваших данных, значительно повышая безопасность, особенно при выключенном питании или перед первым входом после включения.
 
-On older Intel-based Mac computers, FileVault is the only form of disk encryption available by default, and should always be enabled.
+На старых компьютерах Mac на базе Intel FileVault — единственная форма шифрования диска, доступная по умолчанию, и она всегда должна быть включена.
 
-- [x] Click **Turn On**
+- [x] Нажмите **Включить**
 
-##### Lockdown Mode
+##### Режим блокировки
 
-**[Lockdown Mode](https://support.apple.com/guide/mac-help/lock-mac-targeted-a-cyberattack-ibrw66f4e191/mac)** disables some features in order to improve security. Some apps or features won't work the same way they do when it's off. For example, Javascript Just-In-Time ([JIT](https://hacks.mozilla.org/2017/02/a-crash-course-in-just-in-time-jit-compilers)) compilation and [WebAssembly](https://developer.mozilla.org/docs/WebAssembly) are disabled in Safari with Lockdown Mode enabled. We recommend enabling Lockdown Mode and seeing whether it significantly impacts daily usage.
+**[Режим блокировки](https://support.apple.com/guide/mac-help/lock-mac-targeted-a-cyberattack-ibrw66f4e191/mac)** отключает некоторые функции для повышения безопасности. Некоторые приложения или функции не будут работать так же, как при его отключении. Например, компиляция Javascript Just-In-Time ([JIT](https://hacks.mozilla.org/2017/02/a-crash-course-in-just-in-time-jit-compilers)) и [WebAssembly](https://developer.mozilla.org/docs/WebAssembly) отключены в Safari при включенном режиме блокировки. Мы рекомендуем включить режим блокировки и проверить, влияет ли это существенно на повседневное использование.
 
-- [x] Click **Turn On**
+- [x] Нажмите **Включить**
 
 ### Рандомизация MAC-адресов
 
-macOS uses a randomized MAC address when [performing Wi-Fi scans](https://support.apple.com/guide/security/privacy-features-connecting-wireless-networks-secb9cb3140c/web) while disconnected from a network.
+macOS использует случайный MAC-адрес при [выполнении сканирования Wi-Fi](https://support.apple.com/guide/security/privacy-features-connecting-wireless-networks-secb9cb3140c/web), когда устройство не подключено к сети.
 
-You can set your [MAC address to be randomized](https://support.apple.com/en-us/102509) per network and rotate occasionally to prevent tracking between networks and on the same network over time.
+Вы можете настроить [случайный MAC-адрес](https://support.apple.com/en-us/102509) для каждой сети с периодической ротацией, чтобы предотвратить отслеживание между сетями и в одной и той же сети с течением времени.
 
-Go to **System Settings** → **Network** → **Wi-Fi** → **Details** and set **Private Wi-Fi address** to either **Fixed** if you want a fixed but unique address for the network you're connected to, or **Rotating** if you want it to change over time.
+Перейдите в **Системные настройки** → **Сеть** → **Wi-Fi** → **Подробнее** и установите **Частный адрес Wi-Fi** на **Статический адрес**, если вы хотите иметь фиксированный, но уникальный адрес для сети, к которой вы подключены, или **Ротация адреса**, если вы хотите, чтобы он менялся со временем.
 
-Consider changing your hostname as well, which is another device identifier that's broadcast on the network you're connected to. You may wish to set your hostname to something generic like "MacBook Air", "Laptop", "John's MacBook Pro", or "iPhone" in **System Settings** → **General** → **Sharing**.
+Рассмотрите возможность изменения имени хоста — идентификатора, транслируемого в вашей сети. Вы можете установить имя хоста на что-то общее, например "MacBook Air", "Ноутбук", "MacBook Pro Ивана" или "iPhone" в **Системные настройки** → **Основные** → **Общий доступ**.
 
-## Security Protections
+## Защитные механизмы
 
-macOS employs defense in depth by relying on multiple layers of software and hardware-based protections, with different properties. This ensures that a failure in one layer does not compromise the system's overall security.
+macOS использует многоуровневую защиту, полагаясь на несколько слоев программных и аппаратных средств защиты с различными свойствами. Это гарантирует, что сбой в одном слое не компрометирует общую безопасность системы.
 
-### Software Security
-
-<div class="admonition warning" markdown>
-<p class="admonition-title">Предупреждение</p>
-
-macOS allows you to install beta updates. These are unstable and may come with [extra telemetry](https://beta.apple.com/privacy) since they're for testing purposes. Because of this, we recommend you avoid beta software in general.
-
-</div>
-
-#### Signed System Volume
-
-macOS's system components are protected in a read-only [signed system volume](https://support.apple.com/guide/security/signed-system-volume-security-secd698747c9/web), meaning that neither you nor malware can alter important system files.
-
-The system volume is verified while it's running and any data that's not signed with a valid cryptographic signature from Apple will be rejected.
-
-#### System Integrity Protection
-
-macOS sets certain security restrictions that can't be overridden. These are called [Mandatory Access Controls](https://support.apple.com/guide/security/system-integrity-protection-secb7ea06b49/1/web/1), and they form the basis of the sandbox, parental controls, and [System Integrity Protection](https://support.apple.com/en-us/102149) on macOS.
-
-System Integrity Protection makes critical file locations read-only to protect against modification from malicious code. This is on top of the hardware-based Kernel Integrity Protection that keeps the kernel from being modified in-memory.
-
-#### Application Security
-
-##### App Sandbox
-
-On macOS, whether an app is sandboxed is determined by the developer when they sign it. The [App Sandbox](https://developer.apple.com/documentation/xcode/configuring-the-macos-app-sandbox) protects against vulnerabilities in the apps you run by limiting what a malicious actor can access in the event that the app is exploited. The App Sandbox *alone* can't protect against [:material-package-variant-closed-remove: Supply Chain Attacks](../basics/common-threats.md#attacks-against-certain-organizations ""){.pg-viridian} by malicious developers. For that, sandboxing needs to be enforced by someone other than the developer themselves, as it is on the [App Store](https://support.apple.com/guide/security/gatekeeper-and-runtime-protection-sec5599b66df/1/web/1#:~:text=All%20apps%20from%20the%20App%20Store%20are%20sandboxed%20to%20restrict%20access%20to%20data%20stored%20by%20other%20apps.).
+### Программная безопасность
 
 <div class="admonition warning" markdown>
 <p class="admonition-title">Предупреждение</p>
 
-Software downloaded from outside the official App Store is not required to be sandboxed. If your threat model prioritizes defending against [:material-bug-outline: Passive Attacks](../basics/common-threats.md#security-and-privacy){ .pg-orange }, then you may want to check if the software you download outside the App Store is sandboxed, which is up to the developer to *opt in*.
+macOS позволяет устанавливать бета-обновления. Они нестабильны и могут содержать [дополнительную телеметрию](https://beta.apple.com/privacy) , поскольку предназначены для тестирования. Из-за этого мы рекомендуем вам в целом избегать бета-программного обеспечения.
 
 </div>
 
-You can check if an app uses the App Sandbox in a few ways:
+#### Подписанный системный том
 
-You can check if apps that are already running are sandboxed using the [Activity Monitor](https://developer.apple.com/documentation/security/protecting-user-data-with-app-sandbox#Verify-that-your-app-uses-App-Sandbox).
+Системные компоненты macOS защищены в доступном только для чтения [подписанном системном томе](https://support.apple.com/guide/security/signed-system-volume-security-secd698747c9/web), что означает, что ни вы, ни вредоносное ПО не можете изменять важные системные файлы.
+
+Системный том проверяется во время работы, и любые данные, не подписанные действительной криптографической подписью от Apple, будут отклонены.
+
+#### Защита целостности системы
+
+macOS устанавливает определенные ограничения безопасности, которые нельзя обойти. Они называются [Обязательными средствами контроля доступа](https://support.apple.com/guide/security/system-integrity-protection-secb7ea06b49/1/web/1) и формируют основу песочницы, родительского контроля и [Защиты целостности системы](https://support.apple.com/en-us/102149) в macOS.
+
+Защита целостности системы делает критически важные местоположения файлов доступными только для чтения, чтобы защитить их от изменений вредоносным кодом. Это дополняет аппаратную защиту целостности ядра, которая предотвращает модификацию ядра в памяти.
+
+#### Безопасность приложений
+
+##### Песочница приложений
+
+В macOS то, находится ли приложение в песочнице, определяется разработчиком при его подписании. [Песочница приложений](https://developer.apple.com/documentation/xcode/configuring-the-macos-app-sandbox) защищает от уязвимостей в запускаемых приложениях, ограничивая то, к чему злоумышленник может получить доступ в случае эксплуатации приложения. Песочница приложений *сама по себе* не может защитить от [:material-package-variant-closed-remove: Атак цепочки поставок](../basics/common-threats.md#attacks-against-certain-organizations ""){.pg-viridian} со стороны злонамеренных разработчиков. Для этого песочница должна контролироваться кем-то другим, кроме самого разработчика, как это происходит в [App Store](https://support.apple.com/guide/security/gatekeeper-and-runtime-protection-sec5599b66df/1/web/1#:~:text=All%20apps%20from%20the%20App%20Store%20are%20sandboxed%20to%20restrict%20access%20to%20data%20stored%20by%20other%20apps.).
 
 <div class="admonition warning" markdown>
 <p class="admonition-title">Предупреждение</p>
 
-Just because one of an app's processes is sandboxed doesn't mean they all are.
+Программное обеспечение, загруженное из-за пределов официального App Store, не обязано находиться в песочнице. Если ваша модель угроз приоритезирует защиту от :material-bug-outline: Пассивных атак(../basics/common-threats.md#security-and-privacy){ .pg-orange }, то вам, возможно, стоит проверить, находится ли программное обеспечение, загружаемое вами вне App Store, в песочнице, что зависит от разработчика, который должен включить эту опцию.
 
 </div>
 
-Alternatively, you can check apps before you run them by running this command in the terminal:
+Вы можете проверить, использует ли приложение песочницу, несколькими способами:
+
+Вы можете проверить, находятся ли уже запущенные приложения в песочнице, используя [Мониторинг активности](https://developer.apple.com/documentation/security/protecting-user-data-with-app-sandbox#Verify-that-your-app-uses-App-Sandbox).
+
+<div class="admonition warning" markdown>
+<p class="admonition-title">Предупреждение</p>
+
+То, что один из процессов приложения находится в песочнице, не означает, что все они там находятся.
+
+</div>
+
+В качестве альтернативы, вы можете проверить приложения перед их запуском, выполнив следующую команду в терминале:
 
 ``` zsh
-codesign -dvvv --entitlements - <path to your app>
+codesign -dvvv --entitlements - <путь к вашему приложению>
 ```
 
-If an app is sandboxed, you should see the following output:
+Если приложение находится в песочнице, вы должны увидеть следующий вывод:
 
 ``` zsh
     [Key] com.apple.security.app-sandbox
@@ -221,27 +221,27 @@ If an app is sandboxed, you should see the following output:
         [Bool] true
 ```
 
-If you find that the app you want to run is not sandboxed, then you may employ methods of [compartmentalization](../basics/common-threats.md#security-and-privacy) such as virtual machines or separate devices, use a similar app that is sandboxed, or choose to not use the non-sandboxed app altogether.
+Если вы обнаружите, что приложение, которое вы хотите запустить, не находится в песочнице, то вы можете использовать методы [компартментализации](../basics/common-threats.md#security-and-privacy), такие как виртуальные машины или отдельные устройства, использовать аналогичное приложение, которое находится в песочнице, или полностью отказаться от использования приложения, не находящегося в песочнице.
 
 ##### Hardened Runtime
 
-The [Hardened Runtime](https://developer.apple.com/documentation/security/hardened_runtime) is an extra form of protection for apps that prevents certain classes of exploits. It improves the security of apps against exploitation by disabling certain features like JIT.
+The [Hardened Runtime](https://developer.apple.com/documentation/security/hardened_runtime) — это дополнительная форма защиты приложений, которая предотвращает определенные классы эксплойтов. Она повышает безопасность приложений от эксплуатации, отключая определенные функции, такие как JIT.
 
-You can check if an app uses the Hardened Runtime using this command:
+Вы можете проверить, использует ли приложение Hardened Runtime, с помощью этой команды:
 
 ``` zsh
-codesign -dv <path to your app>
+codesign -dv <путь к вашему приложению>
 ```
 
-If Hardened Runtime is enabled, you will see `flags=0x10000(runtime)`. The `runtime` output means Hardened Runtime is enabled. There might be other flags, but the runtime flag is what we're looking for here.
+Если Hardened Runtime включена, вы увидите `flags=0x10000(runtime)`. Вывод `runtime` означает, Hardened Runtime включена. Могут быть и другие флаги, но флаг runtime — это то, что мы ищем здесь.
 
-You can enable a column in Activity Monitor called "Restricted" which is a flag that prevents programs from injecting code via macOS's [dynamic linker](https://pewpewthespells.com/blog/blocking_code_injection_on_ios_and_os_x.html). Ideally, this should say "Yes".
+Вы можете включить столбец в Мониторинге системы под названием "Ограничено", который является флагом, предотвращающим внедрение кода программами через [динамический компоновщик](https://pewpewthespells.com/blog/blocking_code_injection_on_ios_and_os_x.html) macOS. В идеале, здесь должно быть указано "Да".
 
-##### Antivirus
+##### Антивирус
 
-macOS comes with two forms of [malware defense](https://support.apple.com/guide/security/protecting-against-malware-sec469d47bd8/1/web/1):
+macOS поставляется с двумя формами [защиты от вредоносного ПО](https://support.apple.com/guide/security/protecting-against-malware-sec469d47bd8/1/web/1):
 
-1. Protection against launching malware in the first place is provided by the App Store's review process for App Store applications, or *Notarization* (part of *Gatekeeper*), a process where third-party apps are scanned for known malware by Apple before they are allowed to run. Apps are required to be signed by the developers using a key given to them by Apple. This ensures that you are running software from the real developers. Notarization also requires that developers enable the Hardened Runtime for their apps, which limits methods of exploitation.
+1. Защита от запуска вредоносного ПО в первую очередь обеспечивается процессом проверки App Store для приложений из App Store или *Нотаризацией* (часть *Gatekeeper*), процессом, при котором сторонние приложения сканируются на наличие известного вредоносного ПО компанией Apple, прежде чем им разрешается запуск. Приложения должны быть подписаны разработчиками с использованием ключа, предоставленного им Apple. Это гарантирует, что вы запускаете программное обеспечение от настоящих разработчиков. Нотаризация также требует, чтобы разработчики включали усиленное время выполнения для своих приложений, что ограничивает методы эксплуатации.
 2. Protection against other malware and remediation from existing malware on your system is provided by *XProtect*, a more traditional antivirus software built-in to macOS.
 
 We recommend against installing third-party antivirus software as they typically do not have the system-level access required to properly function anyway, because of Apple's limitations on third-party apps, and because granting the high levels of access they do ask for often poses an even greater security and privacy risk to your computer.

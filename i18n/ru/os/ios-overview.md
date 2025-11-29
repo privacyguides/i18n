@@ -6,13 +6,13 @@ description: iOS is a mobile operating system developed by Apple for the iPhone.
 
 **iOS** and **iPadOS** are proprietary mobile operating systems developed by Apple for their iPhone and iPad products, respectively. If you have an Apple mobile device, you can increase your privacy by disabling some built-in telemetry features, and hardening some privacy and security settings which are built in to the system.
 
-## Privacy Notes
+## Примечания о приватности
 
 iOS devices are frequently praised by security experts for their robust data protection and adherence to modern best practices. However, the restrictiveness of Apple's ecosystem—particularly with their mobile devices—does still hamper privacy in a number of ways.
 
 We generally consider iOS to provide better than average privacy and security protections for most people, compared to stock Android devices from any manufacturer. However, you can achieve even higher standards of privacy with a [custom Android operating system](../android/distributions.md) like GrapheneOS, if you want or need to be completely independent of Apple or Google's cloud services.
 
-### Activation Lock
+### Блокировка активации
 
 All iOS devices must be checked against Apple's Activation Lock servers when they are initially set up or reset, meaning an internet connection is **required** to use an iOS device.
 
@@ -40,7 +40,7 @@ Apple's [privacy policy regarding VPNs](https://apple.com/legal/privacy/data/en/
 
 The majority of privacy and security concerns with Apple products are related to their cloud services, not their hardware or software. When you use Apple services like iCloud, most of your information is stored on their servers and secured with keys which Apple has access to by default. You can check [Apple's documentation](https://support.apple.com/HT202303) for information on which services are end-to-end encrypted. Anything listed as "in transit" or "on server" means it's possible for Apple to access that data without your permission. This level of access has occasionally been abused by law enforcement to get around the fact that your data is otherwise securely encrypted on your device, and of course Apple is vulnerable to data breaches like any other company.
 
-Therefore, if you do use iCloud you should [enable **Advanced Data Protection**](https://support.apple.com/HT212520). This encrypts nearly all of your iCloud data with keys stored on your devices (end-to-end encryption), rather than Apple's servers, so that your iCloud data is secured in the event of a data breach, and otherwise hidden from Apple.
+Therefore, if you do use iCloud you should [enable **Advanced Data Protection**](https://support.apple.com/HT212520). Это шифрует почти все ваши данные iCloud с помощью ключей, хранящихся на ваших устройствах (сквозное шифрование), а не на серверах Apple, так что ваши данные iCloud защищены в случае утечки данных и в целом скрыты от Apple.
 
 The encryption used by Advanced Data Protection, while strong, [is not *quite* as robust](https://discuss.privacyguides.net/t/apple-advances-user-security-with-powerful-new-data-protections/10778/4) as the encryption offered by other [cloud services](../cloud.md), particularly when it comes to iCloud Drive. While we strongly encourage using Advanced Data Protection if you use iCloud, we would also suggest considering finding an alternative to iCloud from a more [privacy-focused service provider](../tools.md), although it is unlikely most people would be impacted by these encryption quirks.
 
@@ -95,7 +95,7 @@ You also have the option to **Limit IP Address Tracking**. This is similar to iC
 
 Note that Bluetooth is automatically turned on after every system update.
 
-#### General
+#### Основные
 
 Your iPhone's device name will by default contain your first name, and this will be visible to anyone on networks you connect to. You should change this to something more generic, like "iPhone." Select **About** → **Name** and enter the device name you prefer.
 
@@ -115,19 +115,19 @@ It is important to install software updates frequently to get the latest securit
 
 Select **Background App Refresh** and switch off any apps you don't want to continue refreshing in the background. If you don't want any apps to refresh in the background, you can select **Background App Refresh** again and turn it **Off**.
 
-#### Apple Intelligence & Siri
+#### Apple Intelligence и Siri
 
 This is available if your device supports **[Apple Intelligence](https://support.apple.com/guide/iphone/apple-intelligence-and-privacy-iphe3f499e0e/ios)**. Apple Intelligence uses a combination of on-device processing and their **[Private Cloud Compute](https://security.apple.com/blog/private-cloud-compute)** for things that take more processing power than your device can provide.
 
-To see a report of all the requests made to Apple's servers, you can navigate to **Privacy & Security** → **Apple Intelligence Report** and press **Export Activity** to see activity from the either the last 15 minutes or 7 days, depending on what you set it for. Similar to the **App Privacy Report** which shows you the recent permissions accessed by the apps on your phone, the Apple Intelligence Report likewise shows what is being sent to Apple's servers while using Apple Intelligence.
+To see a report of all the requests made to Apple's servers, you can navigate to **Privacy & Security** → **Apple Intelligence Report** and press **Export Activity** to see activity from the either the last 15 minutes or 7 days, depending on what you set it for. Подобно **Отчету о конфиденциальности приложений**, который показывает вам недавно используемые разрешения приложениями на вашем телефоне, Отчет Apple Intelligence аналогично показывает, что отправляется на серверы Apple при использовании Apple Intelligence.
 
 Apple Intelligence can integrate with [ChatGPT](https://support.apple.com/guide/iphone/use-chatgpt-with-apple-intelligence-iph00fd3c8c2/ios). If you want ChatGPT integration, you can navigate to **ChatGPT** and press **Set Up**. If you want to disable it, go to the same place:
 
-- [ ] Turn off **Use ChatGPT**
+- [ ] Отключите **Использовать ChatGPT**
 
-You can also have it ask for confirmation every time if you leave ChatGPT integration on:
+Вы также можете настроить запрос подтверждения каждый раз, если оставляете интеграцию с ChatGPT включенной:
 
-- [x] Turn on **Confirm Requests**
+- [x] Включите **Подтверждать запросы**
 
 If you don't want anyone to be able to control your phone with Siri when it is locked, you can turn that off here.
 
