@@ -122,7 +122,7 @@ Whenever an application requests a permission, it will show up here. You can dec
 
 You can individually allow location services per-app. If you don't need apps to use your location, turning off location services entirely is the most private option.
 
-- [ ] Turn off **Location Services**
+- [ ] Wyłącz **Usługi lokalizacji**
 
 ##### Analytics & Improvements
 

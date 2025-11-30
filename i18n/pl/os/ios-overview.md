@@ -133,44 +133,44 @@ Jeśli nie chcesz, aby ktoś mógł sterować Twoim telefonem za pomocą Siri, g
 
 - [ ] Wyłącz **Dostęp do Siri przy blokadzie**
 
-#### Face ID/Touch ID & Passcode
+#### Face ID/Touch ID oraz kod
 
-Setting a strong password on your phone is the most important step you can take for physical device security. You'll have to make trade-offs here between security and convenience: A longer password will be annoying to type in every time, but a shorter password or PIN will be easier to guess. Setting up Face ID or Touch ID along with a strong password can be a good compromise between usability and security.
+Ustawienie silnego hasła na telefonie to najważniejszy krok, jaki możesz podjąć w celu fizycznego zabezpieczenia urządzenia. Trzeba tu pogodzić wygodę z bezpieczeństwem: dłuższe hasło będzie irytujące przy każdorazowym wpisywaniu, natomiast krótsze hasło lub kod PIN będą łatwiejsze do odgadnięcia. Połączenie Face ID lub Touch ID z silnym hasłem to często dobry kompromis między użytecznością a bezpieczeństwem.
 
-Select **Turn Passcode On** or **Change Passcode** → **Passcode Options** → **Custom Alphanumeric Code**. Make sure that you create a [secure password](../basics/passwords-overview.md).
+Wybierz **Włącz kod** lub **Zmień kod** → **Opcje kodu** → **Własny kod alfanumeryczny**. Upewnij się, że utworzysz [bezpieczne hasło](../basics/passwords-overview.md).
 
-If you wish to use Face ID or Touch ID, you can go ahead and set it up now. Your phone will use the password you set up earlier as a fallback in case your biometric verification fails. Biometric unlock methods are primarily a convenience, although they do stop surveillance cameras or people over your shoulder from watching you input your passcode.
+Jeżeli chcesz korzystać z Face ID lub Touch ID, możesz je skonfigurować teraz. Telefon będzie używać ustawionego wcześniej hasła jako zapasowej metody uwierzytelniania na wypadek niepowodzenia weryfikacji biometrycznej. Metody biometryczne służą głównie wygodzie, choć zapobiegają obserwowaniu wpisywanego kodu przez kamery monitoringu czy osoby stojące za Twoimi plecami.
 
-If you use biometrics, you should know how to turn them off quickly in an emergency. Holding down the [side button](https://support.apple.com/en-us/105103) and *either* volume button until you see the Slide to Power Off slider will disable biometrics, requiring your passcode to unlock. Your passcode will be required after your device restarts.
+Jeżeli używasz biometrii, warto wiedzieć, jak szybko ją wyłączyć w sytuacji awaryjnej. Przytrzymanie [przycisku bocznego](https://support.apple.com/pl-pl/105103) oraz *dowolnego* przycisku głośności, aż pojawi się suwak Wyłącz, spowoduje wyłączenie biometrii, wymagając podania kodu do odblokowania. Kod będzie wymagany po ponownym uruchomieniu urządzenia.
 
-You can similarly disable biometrics by pressing the side button five times, or for devices with Touch ID, you can hold down the side button and nothing else. Make sure you try this in advance, so you know which method works for your device.
+Podobnie można wyłączyć biometrię, naciskając pięć razy przycisk boczny, a w urządzeniach z Touch ID — przytrzymując jedynie przycisk boczny. Wypróbuj to wcześniej, aby wiedzieć, która metoda działa na Twoim urządzeniu.
 
-**Stolen Device Protection** adds additional security intended to protect your personal data if your device is stolen while unlocked. If you enable both biometric authentication and the [Find My](#find-my) iPhone feature, we recommend enabling this protection:
+**Ochrona skradzionego urządzenia** zapewnia dodatkowe zabezpieczenia mające chronić Twoje dane osobowe, jeśli urządzenie zostanie skradzione, gdy jest ono odblokowane. Jeśli włączysz zarówno uwierzytelnianie biometryczne, jak i funkcję [Znajdź](#find-my) mój iPhone, zalecamy włączenie tej ochrony:
 
-- [x] Turn on **Stolen Device Protection**
+- [x] Włącz **Ochrona skradzionego urządzenia**
 
-After enabling Stolen Device Protection, [certain actions](https://support.apple.com/HT212510) will require biometric authentication without a password fallback (in the event that a shoulder surfer has obtained your PIN), such as using password autofill, accessing payment information, and disabling Lost Mode. It also adds a security delay to certain actions performed away from your home or another "familiar location," such as requiring a 1-hour timer to reset your Apple Account password or sign out of your Apple Account. This delay is intended to give you time to enable Lost Mode and secure your account before a thief can reset your device.
+Po włączeniu funkcji Ochrona skradzionego urządzenia [niektóre działania](https://support.apple.com/HT212510) będą wymagać uwierzytelnienia biometrycznego bez możliwości użycia hasła jako zapasowej metody (na wypadek, gdyby ktoś podglądający Twoje urządzenie uzyskał dostęp do Twojego kodu PIN), np. korzystanie z funkcji automatycznego wypełniania haseł, dostęp do informacji płatniczych czy wyłączenie trybu Utracony. Dodatkowo wprowadza opóźnienia bezpieczeństwa dla niektórych działań wykonywanych poza domem lub „znaną lokalizacją”, np. wymaga godziny na zresetowanie hasła do konta Apple lub wylogowania się z konta Apple. Opóźnienie to ma dać czas na włączenie trybu Utracony i zabezpieczenie konta, zanim złodziej będzie mógł zresetować urządzenie.
 
-**Allow Access When Locked** presents options for what you can allow when your phone is locked. Pick and choose which feature you want to disable to prevent unauthorized access if someone gets their hands on your phone. The more of these options you disable, the less someone without your password can do, but the less convenient it will be for you.
+Opcja **Pozwalaj na dostęp z ekranu blokady** udostępnia opcje dotyczące tego, na co można zezwolić, gdy telefon jest zablokowany. Wybierz funkcje, które chcesz wyłączyć, aby zapobiec nieautoryzowanemu dostępowi, jeśli Twój telefon trafi w niepowołane ręce. Im więcej opcji wyłączysz, tym mniejszy zakres działań będzie dostępny bez podania hasła, ale jednocześnie zmniejszy się wygoda użytkowania dla Ciebie.
 
-iPhones are already resistant to brute-force attacks by making you wait long periods of time after multiple failed attempts; however, there have historically been exploits to get around this. To be extra safe, you can set your phone to wipe itself after 10 failed passcode attempts.
+iPhone’y są odporne na ataki typu brute-force, wymuszając długie przerwy po wielu nieudanych próbach; jednak historycznie pojawiały się exploity omijające te zabezpieczenia. Dla dodatkowego bezpieczeństwa możesz ustawić automatyczne wymazanie urządzenia po 10 nieudanych próbach wpisania kodu.
 
 <div class="admonition warning" markdown>
 <p class="admonition-title">Ostrzeżenie</p>
 
-With this setting enabled, someone could intentionally wipe your phone by entering the wrong password many times. Make sure you have proper backups and only enable this setting if you feel comfortable with it.
+Po włączeniu tego ustawienia ktoś mógłby celowo wymazać Twój telefon, wielokrotnie wpisując nieprawidłowe hasło. Upewnij się, że masz odpowiednie kopie zapasowe i włącz tę opcję tylko wtedy, jeśli czujesz się z nią komfortowo.
 
 </div>
 
-- [x] Turn on **Erase Data**
+- [x] Włącz **Wymaż dane**
 
 #### Prywatność i bezpieczeństwo
 
-**Location Services** allows you to use features like Find My and Maps. If you don't need these features, you can disable Location Services. Alternatively, you can review and pick which apps can use your location here. Select **Location Services**:
+**Usługi lokalizacji** pozwalają na korzystanie z funkcji takich jak Mapy czy Znajdź. Jeśli nie potrzebujesz tych funkcji, możesz wyłączyć usługi lokalizacji. Alternatywnie możesz przejrzeć listę aplikacji i wybrać te, które mogą korzystać z Twojej lokalizacji. Wybierz **Usługi lokalizacji**:
 
-- [ ] Turn off **Location Services**
+- [ ] Wyłącz **Usługi lokalizacji**
 
-A purple arrow will appear next to an app in these settings that has used your location recently, while a gray arrow indicates that your location has been accessed within the last 24 hours. If you decide to leave Location Services on, Apple will use it for System Services by default. You can review and pick which services can use your location here. However, if you don't want to submit location analytics to Apple, which they use to improve Apple Maps, you can disable this here as well. Select **System Services**:
+Fioletowa strzałka przy aplikacji w tych ustawieniach oznacza, że aplikacja niedawno korzystała z lokalizacji; szara strzałka oznacza dostęp w ciągu ostatnich 24 godzin. Jeśli postanowisz pozostawić włączone usługi lokalizacyjne, Apple domyślnie użyje ich do usług systemowych. Możesz przeglądać i wyłączyć wybrane usługi systemowe. Jeżeli nie chcesz przesyłać danych analitycznych dotyczących lokalizacji do Apple, które są używane m.in. do poprawy map Apple Maps, możesz to tutaj wyłączyć. Select **System Services**:
 
 - [ ] Turn off **iPhone Analytics**
 - [ ] Turn off **Routing & Traffic**
