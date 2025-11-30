@@ -72,7 +72,7 @@ Beginning with the **Pixel 8** and **8 Pro**, Pixel devices receive a minimum of
 
 </div>
 
-### Hardware Security
+### Аппаратная безопасность
 
 Secure Elements like the Titan M2 are more limited than the processor's Trusted Execution Environment (TEE) used by most other phones as they are only used for secrets storage, hardware attestation, and rate limiting, not for running "trusted" programs. Phones without a Secure Element have to use the TEE for _all_ of those functions, resulting in a larger attack surface.
 

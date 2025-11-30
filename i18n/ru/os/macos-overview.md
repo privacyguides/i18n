@@ -242,71 +242,71 @@ codesign -dv <путь к вашему приложению>
 macOS поставляется с двумя формами [защиты от вредоносного ПО](https://support.apple.com/guide/security/protecting-against-malware-sec469d47bd8/1/web/1):
 
 1. Защита от запуска вредоносного ПО в первую очередь обеспечивается процессом проверки App Store для приложений из App Store или *Нотаризацией* (часть *Gatekeeper*), процессом, при котором сторонние приложения сканируются на наличие известного вредоносного ПО компанией Apple, прежде чем им разрешается запуск. Приложения должны быть подписаны разработчиками с использованием ключа, предоставленного им Apple. Это гарантирует, что вы запускаете программное обеспечение от настоящих разработчиков. Нотаризация также требует, чтобы разработчики включали усиленное время выполнения для своих приложений, что ограничивает методы эксплуатации.
-2. Protection against other malware and remediation from existing malware on your system is provided by *XProtect*, a more traditional antivirus software built-in to macOS.
+2. Защита от другого вредоносного ПО и удаление существующего вредоносного ПО в вашей системе обеспечивается *XProtect* — более традиционным антивирусным программным обеспечением, встроенным в macOS.
 
-We recommend against installing third-party antivirus software as they typically do not have the system-level access required to properly function anyway, because of Apple's limitations on third-party apps, and because granting the high levels of access they do ask for often poses an even greater security and privacy risk to your computer.
+Мы не рекомендуем устанавливать стороннее антивирусное программное обеспечение, поскольку оно обычно не имеет доступа на системном уровне, необходимого для правильного функционирования, из-за ограничений Apple для сторонних приложений, и потому что предоставление высоких уровней доступа, которые они запрашивают, часто представляет даже больший риск для безопасности и конфиденциальности вашего компьютера.
 
 ##### Резервное копирование
 
-macOS comes with automatic backup software called [Time Machine](https://support.apple.com/HT201250), so you can create [encrypted backups](https://support.apple.com/guide/mac-help/keep-your-time-machine-backup-disk-secure-mh21241/mac) to an external drive or a network drive in the event of corrupted/deleted files.
+macOS поставляется с автоматическим программным обеспечением для резервного копирования, называемым [Time Machine](https://support.apple.com/HT201250), поэтому вы можете создавать [зашифрованные резервные копии](https://support.apple.com/guide/mac-help/keep-your-time-machine-backup-disk-secure-mh21241/mac) на внешний диск или сетевой диск в случае повреждения/удаления файлов.
 
-### Hardware Security
+### Аппаратная безопасность
 
-Many modern security features in macOS—such as modern Secure Boot, hardware-level exploit mitigation, OS integrity checks, and file-based encryption—rely on Apple Silicon, and Apple's newer hardware always has the [best security](https://support.apple.com/guide/security/apple-soc-security-sec87716a080/1/web/1). We only encourage the use of Apple Silicon, and not older Intel-based Mac computers or Hackintoshes.
+Многие современные функции безопасности в macOS — такие как современная безопасная загрузка, аппаратное смягчение эксплойтов, проверки целостности ОС и шифрование на основе файлов — зависят от Apple Silicon, и новое оборудование Apple всегда имеет [лучшую безопасность](https://support.apple.com/guide/security/apple-soc-security-sec87716a080/1/web/1). Мы поощряем использование только Apple Silicon, а не старых компьютеров Mac на базе Intel или Hackintosh.
 
-Some of these modern security features are available on older Intel-based Mac computers with the Apple T2 Security Chip, but that chip is susceptible to the *checkm8* exploit which could compromise its security.
+Некоторые из этих современных функций безопасности доступны на более старых компьютерах Mac на базе Intel с чипом безопасности Apple T2, но этот чип подвержен эксплойту *checkm8*, который может скомпрометировать его безопасность.
 
-If you use Bluetooth accessories such as a keyboard, we recommend that you use official Apple ones as their firmware will [automatically be updated](https://support.apple.com/en-us/120303#:~:text=Firmware%20updates%20are%20automatically%20delivered%20in%20the%20background%20while%20the%20Magic%20Keyboard%20is%20actively%20paired%20to%20a%20device%20running%20macOS%2C%20iOS%2C%20iPadOS%2C%20or%20tvOS.) for you by macOS. Using third party accessories is fine, but you should remember to install firmware updates for them regularly.
+Если вы используете аксессуары Bluetooth, такие как клавиатура, мы рекомендуем использовать официальные аксессуары Apple, поскольку их прошивка будет [автоматически обновляться](https://support.apple.com/en-us/120303#:~:text=Firmware%20updates%20are%20automatically%20delivered%20in%20the%20background%20while%20the%20Magic%20Keyboard%20is%20actively%20paired%20to%20a%20device%20running%20macOS%2C%20iOS%2C%20iPadOS%2C%20or%20tvOS.) для вас операционной системой macOS. Использование сторонних аксессуаров допустимо, но вам следует помнить о регулярной установке обновлений прошивки для них.
 
-Apple's SoCs focus on [minimizing attack surface](https://support.apple.com/en-vn/guide/security/secf020d1074/web#:~:text=Security%2Dfocused%20hardware%20follows%20the%20principle%20of%20supporting%20limited%20and%20discretely%20defined%20functions%20to%20minimize%20attack%20surface.) by relegating security functions to dedicated hardware with limited functionality.
+SoC от Apple фокусируются на [минимизации поверхности атаки](https://support.apple.com/en-vn/guide/security/secf020d1074/web#:~:text=Security%2Dfocused%20hardware%20follows%20the%20principle%20of%20supporting%20limited%20and%20discretely%20defined%20functions%20to%20minimize%20attack%20surface.), передавая функции безопасности специализированному оборудованию с ограниченной функциональностью.
 
-#### Boot ROM
+#### Загрузочное ПЗУ
 
-macOS prevents malware persistence by only allowing official Apple software to run at boot time; this is known as [secure boot](https://support.apple.com/en-vn/guide/security/secac71d5623/1/web/1). Mac computers verify this with a bit of read-only memory on the SoC called the [boot ROM](https://support.apple.com/en-vn/guide/security/aside/sec5240db956/1/web/1), which is [laid down during the manufacturing of the chip](https://support.apple.com/en-vn/guide/security/secf020d1074/1/web/1#:~:text=which%20is%20laid%20down%20during%20Apple%20SoC%20fabrication).
+macOS предотвращает сохранение вредоносного ПО, разрешая запуск только официального программного обеспечения Apple при загрузке; это известно как [безопасная загрузка](https://support.apple.com/en-vn/guide/security/secac71d5623/1/web/1). Компьютеры Mac проверяют это с помощью области памяти только для чтения на SoC, называемой [загрузочное ПЗУ](https://support.apple.com/en-vn/guide/security/aside/sec5240db956/1/web/1), которая [закладывается при изготовлении чипа](https://support.apple.com/en-vn/guide/security/secf020d1074/1/web/1#:~:text=which%20is%20laid%20down%20during%20Apple%20SoC%20fabrication).
 
-The boot ROM forms the hardware root of trust. This ensures that malware cannot tamper with the boot process, since the boot ROM is immutable. When your Mac boots up, the boot ROM is the first thing that runs, forming the first link in the chain of trust.
+Загрузочное ПЗУ формирует аппаратный корень доверия. Это гарантирует, что вредоносное ПО не может вмешаться в процесс загрузки, поскольку загрузочное ПЗУ неизменно. Когда ваш Mac загружается, загрузочное ПЗУ запускается первым, формируя первое звено в цепочке доверия.
 
-Mac computers can be configured to boot in [three security modes](https://support.apple.com/guide/deployment/startup-security-dep5810e849c/web#dep32fb404e1): *Full Security*, *Reduced Security*, and *Permissive Security*, with the default setting being Full Security. You should ideally be using Full Security mode and avoid things like **[kernel extensions](https://support.apple.com/guide/deployment/system-extensions-in-macos-depa5fb8376f/web#dep51e097f45)** that force you to lower your security mode. Make sure to [check](https://support.apple.com/guide/mac-help/change-security-settings-startup-disk-a-mac-mchl768f7291/mac) that you're using Full Security mode.
+Компьютеры Mac могут быть настроены для загрузки в [трёх режимах безопасности](https://support.apple.com/guide/deployment/startup-security-dep5810e849c/web#dep32fb404e1): *Полная безопасность*, *Пониженная безопасность* и *Разрешающая безопасность*, с настройкой по умолчанию — Полная безопасность. В идеале вы должны использовать режим Полной безопасности и избегать таких вещей, как **[расширения ядра](https://support.apple.com/guide/deployment/system-extensions-in-macos-depa5fb8376f/web#dep51e097f45)**, которые заставляют вас снижать режим безопасности. Убедитесь, что вы [проверили](https://support.apple.com/guide/mac-help/change-security-settings-startup-disk-a-mac-mchl768f7291/mac), что используете режим Полной безопасности.
 
 #### Secure Enclave
 
-The **[Secure Enclave](https://support.apple.com/guide/security/secure-enclave-sec59b0b31ff/web)** is a security chip built into devices with Apple Silicon which is responsible for storing and generating encryption keys for data at rest as well as Face ID and Touch ID data. It contains its own [separate boot ROM](https://support.apple.com/en-vn/guide/security/sec59b0b31ff/web#sec43006c49f).
+**[Secure Enclave](https://support.apple.com/guide/security/secure-enclave-sec59b0b31ff/web)** — это защитный чип, встроенный в устройства с Apple Silicon, который отвечает за хранение и генерацию ключей шифрования для данных в состоянии покоя, а также данных Face ID и Touch ID. Он содержит своё собственное [отдельное загрузочное ПЗУ](https://support.apple.com/ru-ru/guide/security/sec59b0b31ff/web#sec43006c49f).
 
-You can think of the Secure Enclave as your device's security hub: it has an AES encryption engine and a mechanism to securely store your encryption keys, and it's separated from the rest of the system, so even if the main processor is compromised, it should still be safe.
+Вы можете рассматривать Secure Enclave как центр безопасности вашего устройства: он имеет механизм шифрования AES и механизм для безопасного хранения ваших ключей шифрования, и он отделён от остальной системы, так что даже если основной процессор скомпрометирован, он должен оставаться в безопасности.
 
 #### Touch ID
 
-Apple's Touch ID feature allows you to securely unlock your devices using biometrics.
+Функция Touch ID от Apple позволяет безопасно разблокировать ваши устройства с помощью биометрии.
 
-Your biometric data [never leaves your device](https://www.apple.com/legal/privacy/data/en/touch-id/#:~:text=Touch%C2%A0ID%20data%20does%20not%20leave%20your%20device%2C%20and%20is%20never%20backed%20up%20to%20iCloud%20or%20anywhere%20else.); it's stored only in the Secure Enclave.
+Ваши биометрические данные [никогда не покидают ваше устройство](https://www.apple.com/legal/privacy/data/en/touch-id/#:~:text=Touch%C2%A0ID%20data%20does%20not%20leave%20your%20device%2C%20and%20is%20never%20backed%20up%20to%20iCloud%20or%20anywhere%20else.); они хранятся только в Secure Enclave.
 
-#### Hardware Microphone Disconnect
+#### Аппаратное отключение микрофона
 
-All laptops with Apple Silicon or the T2 chip feature a [hardware disconnect](https://support.apple.com/guide/security/hardware-microphone-disconnect-secbbd20b00b/web) for the built-in microphone whenever the lid is closed. This means that there is no way for an attacker to listen to your Mac's microphone even if the operating system is compromised.
+Все ноутбуки с Apple Silicon или чипом T2 имеют [аппаратное отключение](https://support.apple.com/guide/security/hardware-microphone-disconnect-secbbd20b00b/web) встроенного микрофона при закрытии крышки. Это означает, что злоумышленник никак не сможет прослушивать микрофон вашего Mac, даже если операционная система скомпрометирована.
 
-Note that the camera does not have a hardware disconnect, since its view is obscured when the lid is closed anyway.
+Обратите внимание, что камера не имеет аппаратного отключения, поскольку её обзор в любом случае перекрывается при закрытии крышки.
 
-#### Secure Camera Indicator
+#### Индикатор безопасной камеры
 
-The built-in camera in a Mac is designed so that the camera can't turn on without the camera indicator light [also turning on](https://support.apple.com/en-us/102177#:~:text=The%20camera%20is%20engineered%20so%20that%20it%20can’t%20activate%20without%20the%20camera%20indicator%20light%20also%20turning%20on.%20This%20is%20how%20you%20can%20tell%20if%20your%20camera%20is%20on.).
+Встроенная камера в Mac спроектирована так, что камера не может включиться без [включения индикатора камеры](https://support.apple.com/en-us/102177#:~:text=The%20camera%20is%20engineered%20so%20that%20it%20can't%20activate%20without%20the%20camera%20indicator%20light%20also%20turning%20on.%20This%20is%20how%20you%20can%20tell%20if%20your%20camera%20is%20on.).
 
-#### Peripheral Processor Security
+#### Безопасность периферийного процессора
 
-Computers have [built-in processors](https://support.apple.com/en-vn/guide/security/seca500d4f2b/1/web/1) other than the main CPU that handle things like networking, graphics, power management, etc. These processors can have insufficient security and become compromised, therefore Apple tries to minimize the need for these processors in their hardware.
+Компьютеры имеют [встроенные процессоры](https://support.apple.com/en-vn/guide/security/seca500d4f2b/1/web/1), отличные от основного CPU, которые обрабатывают такие вещи, как сеть, графика, управление питанием и т.д. Эти процессоры могут иметь недостаточную безопасность и быть скомпрометированы, поэтому Apple старается минимизировать необходимость использования этих процессоров в своем оборудовании.
 
-When it is necessary to use one of these processors, Apple works with the vendor to ensure that the processor
+Когда необходимо использовать один из этих процессоров, Apple работает с поставщиком, чтобы гарантировать, что процессор:
 
-- runs verified firmware from the primary CPU on startup
-- has its own Secure Boot chain
-- follows minimum cryptographic standards
-- ensures known bad firmware is properly revoked
-- has its debug interfaces disabled
-- is signed with Apple's cryptographic keys
+- запускает проверенную прошивку от основного CPU при запуске
+- имеет собственную цепочку безопасной загрузки
+- следует минимальным криптографическим стандартам
+- гарантирует, что известная плохая прошивка должным образом отозвана
+- имеет отключённые интерфейсы отладки
+- подписан криптографическими ключами Apple
 
-#### Direct Memory Access Protections
+#### Защита прямого доступа к памяти
 
-Apple Silicon separates each component that requires [direct memory access](https://support.apple.com/guide/security/direct-memory-access-protections-seca4960c2b5/1/web/1). For example, a Thunderbolt port can't access memory designated for the kernel.
+Apple Silicon разделяет каждый компонент, требующий [прямого доступа к памяти](https://support.apple.com/guide/security/direct-memory-access-protections-seca4960c2b5/1/web/1). Например, порт Thunderbolt не может получить доступ к памяти, предназначенной для ядра.
 
-#### Terminal Secure Keyboard Entry
+#### Безопасный ввод с клавиатуры в терминале
 
-Enable [Secure Keyboard Entry](https://support.apple.com/guide/terminal/use-secure-keyboard-entry-trml109/mac) to prevent other apps from detecting what you type in the terminal.
+Включите [Безопасный ввод с клавиатуры](https://support.apple.com/guide/terminal/use-secure-keyboard-entry-trml109/mac), чтобы предотвратить обнаружение другими приложениями того, что вы печатаете в терминале.
