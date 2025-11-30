@@ -170,41 +170,41 @@ Po włączeniu tego ustawienia ktoś mógłby celowo wymazać Twój telefon, wie
 
 - [ ] Wyłącz **Usługi lokalizacji**
 
-Fioletowa strzałka przy aplikacji w tych ustawieniach oznacza, że aplikacja niedawno korzystała z lokalizacji; szara strzałka oznacza dostęp w ciągu ostatnich 24 godzin. Jeśli postanowisz pozostawić włączone usługi lokalizacyjne, Apple domyślnie użyje ich do usług systemowych. Możesz przeglądać i wyłączyć wybrane usługi systemowe. Jeżeli nie chcesz przesyłać danych analitycznych dotyczących lokalizacji do Apple, które są używane m.in. do poprawy map Apple Maps, możesz to tutaj wyłączyć. Select **System Services**:
+Fioletowa strzałka przy aplikacji w tych ustawieniach oznacza, że aplikacja niedawno korzystała z lokalizacji; szara strzałka oznacza dostęp w ciągu ostatnich 24 godzin. Jeśli postanowisz pozostawić włączone usługi lokalizacyjne, Apple domyślnie użyje ich do usług systemowych. Możesz przeglądać i wyłączyć wybrane usługi systemowe. Jeżeli nie chcesz przesyłać danych analitycznych dotyczących lokalizacji do Apple, które są używane m.in. do poprawy map Apple Maps, możesz to tutaj wyłączyć. Wybierz **Usługi systemowe**:
 
-- [ ] Turn off **iPhone Analytics**
-- [ ] Turn off **Routing & Traffic**
-- [ ] Turn off **Improve Maps**
+- [ ] Wyłącz **Dane analizy iPhone’a**
+- [ ] Wyłącz **Nawigacja i ruch**
+- [ ] Wyłącz **Ulepszanie Map**
 
-You can decide to allow apps to request to **track** you here. Disabling this disallows all apps from tracking you with your phone's advertising ID. Select **Tracking**:
+Możesz zdecydować, czy aplikacjom wolno prosić o możliwość **śledzenia** Cię. Wyłączenie tej opcji uniemożliwia wszystkim aplikacjom śledzenie za pomocą identyfikatora reklamowego telefonu. Wybierz **Śledzenie**:
 
-- [ ] Turn off **Allow Apps to Request to Track**
+- [ ] Wyłącz **Pozwalaj aplikacjom prosić o śledzenie**
 
-This is disabled by default and cannot be changed for users under 18.
+Opcja ta jest domyślnie wyłączona i nie można jej zmienić dla użytkowników poniżej 18 roku życia.
 
-You should turn off **Research Sensor & Usage Data** if you don't wish to participate in studies. Select **Research Sensor & Usage Data**:
+Jeżeli nie chcesz brać udziału w badaniach, wyłącz opcję **Dane z czujników badawczych i dane użycia**. Wybierz **Dane z czujników badawczych i dane użycia**:
 
-- [ ] Turn off **Sensor & Usage Data Collection**
+- [ ] Wyłącz **Dane z czujników badawczych i dane użycia**
 
-**[Safety Check](https://support.apple.com/guide/personal-safety/safety-check-iphone-ios-16-ips2aad835e1/1.0/web/1.0)** allows you to quickly view and revoke certain people and apps that might have permission to access your data. Here, you can perform an **Emergency Reset**, immediately resetting permissions for all people and apps which might have access to device resources. You can also **Manage Sharing & Access**, which allows you to review and customize who and what has access to your device and account resources. If you're in an abusive situation, read Apple's [Personal Safety User Guide](https://support.apple.com/guide/personal-safety/welcome/web) for guidance on what you should do.
+**[Kontrola bezpieczeństwa](https://support.apple.com/guide/personal-safety/safety-check-iphone-ios-16-ips2aad835e1/1.0/web/1.0)** pozwala szybko przeglądać i cofać uprawnienia nadane osobom i aplikacjom, które mogą mieć dostęp do Twoich danych. Można tu wykonać **Zerowanie awaryjne**, natychmiast resetując uprawnienia dla wszystkich osób i aplikacji mających dostęp do zasobów urządzenia. Można też skorzystać z funkcji **Zarządzaj udostępnianiem i dostępem**, aby przeglądać i dostosowywać, kto i co ma dostęp do zasobów urządzenia i konta. Jeżeli znajdujesz się w sytuacji nadużyć, przeczytaj [Podręcznik bezpieczeństwa osobistego Apple](https://support.apple.com/guide/personal-safety/welcome/web), aby uzyskać wskazówki, co należy zrobić.
 
-You should disable analytics if you don't wish to send usage data to Apple. Select **Analytics & Improvements** and unselect the type(s) of analytics that you don't want to send to Apple.
+Jeżeli nie chcesz wysyłać danych o użytkowaniu do Apple, wyłącz dane analityczne. Wybierz **Analizy i udoskonalenia** i odznacz typ(y) danych analitycznych, których nie chcesz wysyłać do Apple.
 
-Disable **Personalized Ads** if you don't want targeted ads. Select **Apple Advertising**:
+Wyłącz **Reklamy spersonalizowane**, jeśli nie chcesz otrzymywać reklam dopasowanych do Twoich zainteresowań. Wybierz **Reklamy Apple**:
 
-- [ ] Turn off **Personalized Ads**
+- [ ] Wyłącz **Reklamy spersonalizowane**
 
-**App Privacy Report** is a built-in tool that allows you to see which permissions your apps are using. Select **App Privacy Report**:
+**Raport prywatności aplikacji** to wbudowane narzędzie pokazujące, których uprawnień używają aplikacje. Wybierz **Raport prywatności aplikacji**:
 
-- [x] Select **Turn On App Privacy Report**
+- [x] Wybierz **Włącz Raport prywatności aplikacji**
 
-Set wired accessories to ask for permission when you connect them. Select **Wired Accessories**:
+Ustaw akcesoria przewodowe tak, by prosiły o pozwolenie przy ich podłączaniu. Wybierz **Akcesoria przewodowe**:
 
-- [x] Select **Always Ask** or **Ask for New Accessories**
+- [x] Wybierz **Zawsze pytaj** lub **Pytaj w przypadku nowych akcesoriów**
 
-**[Lockdown Mode](https://blog.privacyguides.org/2022/10/27/macos-ventura-privacy-security-updates/#lockdown-mode)** is a security setting you can enable to make your phone more resistant to attacks. Be aware that certain apps and features [won't work](https://support.apple.com/HT212650) as they do normally.
+**[Tryb blokady](https://blog.privacyguides.org/2022/10/27/macos-ventura-privacy-security-updates/#lockdown-mode)** to ustawienie bezpieczeństwa, które możesz włączyć, by zwiększyć odporność telefonu na ataki. Pamiętaj, że niektóre aplikacje i funkcje mogą wtedy [nie działać](https://support.apple.com/HT212650) tak, jak zwykle.
 
-- [x] Select **Turn On Lockdown Mode**
+- [x] Wybierz **Włącz tryb blokady**
 
 ## Additional Advice
 

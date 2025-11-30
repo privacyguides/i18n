@@ -132,7 +132,7 @@ Decide whether you want to share analytics data with Apple and app developers.
 
 Decide whether you want personalized ads based on your usage.
 
-- [ ] Turn off **Personalized Ads**
+- [ ] Wyłącz **Reklamy spersonalizowane**
 
 ##### FileVault
 
