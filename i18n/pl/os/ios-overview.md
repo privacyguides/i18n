@@ -224,89 +224,89 @@ Domyślnie ufasz serwerom tożsamości Apple, że wysyłasz wiadomość do wła�
 
 Zarówno Ty, jak i Twoje kontakty musicie włączyć weryfikację kluczy kontaktów i postępować zgodnie z [instrukcjami](https://support.apple.com/pl-pl/118246#verify) Apple, aby wymienione tam zabezpieczenia zaczęły działać.
 
-### Photo Permissions
+### Uprawnienia do zdjęć
 
-When an app prompts you for access to your device's photo library, iOS provides you with options to limit what an app can access.
+Gdy aplikacja poprosi o dostęp do biblioteki zdjęć, iOS daje opcje ograniczenia, które zdjęcia aplikacja może zobaczyć.
 
-Rather than allow an app to access all the photos on your device, you can allow it to only access whichever photos you choose by tapping the "Select Photos..." option in the permission dialog. You can change photo access permissions at any time by navigating to **Settings** → **Privacy & Security** → **Photos**.
+Zamiast zezwalać na dostęp do wszystkich zdjęć, możesz pozwolić jedynie na wybrane zdjęcia, wybierając w oknie uprawnień opcję „Wybierz zdjęcia...”. Dostęp do zdjęć można zmieniać w dowolnym momencie, przechodząc do: **Ustawienia** → **Prywatność i bezpieczeństwo** → **Zdjęcia**.
 
-![Photo Permissions](../assets/img/ios/photo-permissions-light.png#only-light) ![Photo Permissions](../assets/img/ios/photo-permissions-dark.png#only-dark)
+![Uprawnienia do zdjęć](../assets/img/ios/photo-permissions-light.png#only-light) ![Uprawnienia do zdjęć](../assets/img/ios/photo-permissions-dark.png#only-dark)
 
-**Add Photos Only** is a permission that only gives an app the ability to download photos to the photo library. Not all apps which request photo library access provide this option.
+**Dodaj tylko zdjęcia** to uprawnienie, które pozwala aplikacji tylko zapisywać zdjęcia do biblioteki. Nie wszystkie aplikacje proszące o dostęp do biblioteki oferują tę opcję.
 
 ![Private Access](../assets/img/ios/private-access-light.png#only-light) ![Private Access](../assets/img/ios/private-access-dark.png#only-dark)
 
-Some apps also support **Private Access**, which functions similarly to the **Limited Access** permission. However, photos shared to apps using Private Access include their location by default. We recommend unchecking this setting if you do not [remove photo metadata](../data-redaction.md) beforehand.
+Some apps also support **Private Access**, which functions similarly to the **Limited Access** permission. However, photos shared to apps using Private Access include their location by default. Zalecamy wyłączenie tej opcji, jeśli wcześniej [nie usuniesz metadanych zdjęć](../data-redaction.md).
 
-### Contact Permissions
+### Uprawnienia do kontaktów
 
-Similarly, rather than allow an app to access all the contacts saved on your device, you can allow it to only access whichever contacts you choose. You can change contact access permissions at any time by navigating to **Settings** → **Privacy & Security** → **Contacts**.
+Podobnie jak ze zdjęciami, zamiast pozwalać aplikacji na dostęp do wszystkich kontaktów, można zezwolić jej tylko na wybrane kontakty. Uprawnienia do kontaktów można zmieniać w dowolnym momencie, przechodząc do: **Ustawienia** → **Prywatność i bezpieczeństwo** → **Kontakty**.
 
-![Contact Permissions](../assets/img/ios/contact-permissions-light.png#only-light) ![Contact Permissions](../assets/img/ios/contact-permissions-dark.png#only-dark)
+![Uprawnienia do kontaktów](../assets/img/ios/contact-permissions-light.png#only-light) ![Uprawnienia do kontaktów](../assets/img/ios/contact-permissions-dark.png#only-dark)
 
-### Require Biometrics and Hide Apps
+### Wymagaj biometrii i ukrywaj aplikacje
 
-iOS offers the ability to lock most apps behind Touch ID/Face ID or your passcode, which can be useful for protecting sensitive content in apps which do not provide the option themselves. You can lock an app by long-pressing on it and selecting **Require Face ID/Touch ID**. Any app locked in this way requires biometric authentication whenever opening it or accessing its contents in other apps. Also, notification previews for locked apps will not be shown.
+iOS pozwala zablokować większość aplikacji przy użyciu Face ID/Touch ID lub kodu, co jest przydatne do ochrony wrażliwych treści w aplikacjach, które same takiej funkcji nie oferują. Aplikację można zablokować, przytrzymując jej ikonę i wybierając **Wymagaj Face ID/Touch ID**. Tak zabezpieczone aplikacje wymagają uwierzytelnienia przy każdym otwarciu lub przy próbie dostępu do ich zawartości z innych aplikacji; podglądy powiadomień dla zablokowanych aplikacji nie będą również wyświetlane.
 
-In addition to locking apps behind biometrics, you can also hide apps so that they don't appear on the Home Screen, App Library, the app list in **Settings**, etc. While hiding apps may be useful in situations where you have to hand your unlocked phone to someone else, the concealment provided by the feature is not absolute, as a hidden app is still visible in some places such as the battery usage list. Moreover, one notable trade off of hiding an app is that you will not receive any of its notifications.
+Oprócz blokowania można ukryć aplikacje, aby nie pojawiały się na ekranie głównym, w bibliotece aplikacji, na liście w aplikacji **Ustawienia** itp. Ukrywanie bywa przydatne, gdy trzeba komuś podać odblokowany telefon, ale nie daje absolutnej ochrony — ukryta aplikacja nadal bywa widoczna w niektórych miejscach, np. w statystykach zużycia baterii. Przy ukrywaniu aplikacji tracisz też powiadomienia z niej.
 
-You can hide an app by long-pressing on it and selecting **Require Face ID/Touch ID** → **Hide and Require Face ID/Touch ID**. Note that pre-installed Apple apps, as well as the default web browser and email app, cannot be hidden. Hidden apps reside in a **Hidden** folder at the bottom of the App Library, which can be unlocked using biometrics. This folder appears in the App Library whether you hid any apps or not, which provides you a degree of plausible deniability.
+Aplikację można ukryć, przytrzymując jej ikonę i wybierając **Wymagaj Face ID/Touch ID** → **Ukryj i wymagaj Face ID/Touch ID**. Należy pamiętać, że preinstalowane aplikacje Apple oraz domyślna przeglądarka internetowa i aplikacja poczty e-mail nie mogą zostać ukryte. Ukryte aplikacje znajdują się w folderze **Ukryte** na dole biblioteki aplikacji, który można odblokować biometrią. Folder ten pojawia się w bibliotece aplikacji niezależnie od tego, czy cokolwiek ukryto, co daje pewien margines zaprzeczalności.
 
-### Guided Access
+### Dostęp nadzorowany
 
-Sometimes you might want to hand your phone to someone to make a call or do a specific task, but you don't want them to have full access to your phone. In these cases, you can quickly enable **[Guided Access](https://support.apple.com/guide/iphone/lock-iphone-to-one-app-iph7fad0d10/ios)** to lock the phone to one specific app until you authenticate.
+Czasami możesz chcieć podać telefon komuś, by wykonał połączenie lub wykonał konkretną czynność, nie dając mu jednocześnie pełnego dostępu do Twojego urządzenia. W takich sytuacjach możesz szybko włączyć funkcję **[Dostęp nadzorowany](https://support.apple.com/guide/iphone/lock-iphone-to-one-app-iph7fad0d10/ios)**, aby zablokować telefon w jednej konkretnej aplikacji do czasu uwierzytelnienia.
 
 <div class="admonition warning" markdown>
 <p class="admonition-title">Ostrzeżenie</p>
 
-Guided Access isn't foolproof, as it's possible you could leak data unintentionally or the feature could be bypassed. You should only use Guided Access for situations where you casually hand your phone to someone to use. You should not use it as a tool to protect against advanced adversaries.
+Dostęp nadzorowany nie jest niezawodny — istnieje ryzyko niezamierzonego wycieku danych albo obejścia funkcji. Używaj go tylko do sytuacji, gdy jedynie okazjonalnie podajesz komuś telefon do użycia. Nie stosuj go jako środka ochrony przed zaawansowanymi przeciwnikami.
 
 </div>
 
-### Redacting Elements in Images
+### Redagowanie elementów na zdjęciach
 
-If you need to hide information in a photo, you can use Apple's built-in editing tools to do so.
+Jeśli chcesz ukryć informacje na zdjęciu, możesz skorzystać z wbudowanych narzędzi do edycji Apple.
 
-You can use the [Clean Up](https://support.apple.com/en-us/121429) feature on supported devices to pixelate faces or remove objects from images.
+Na obsługiwanych urządzeniach dostępna jest funkcja [Oczyść](https://support.apple.com/en-us/121429), która pozwala zamazać twarze lub usunąć obiekty ze zdjęć.
 
-- Open the **Photos** app and tap the photo you have selected for redaction
-- Tap the :material-tune:
-- Tap the button labeled **Clean Up**
-- Draw a circle around whatever you want to redact. Faces will be pixelated, and it will attempt to delete anything else.
+- Otwórz aplikację **Zdjęcia** i wybierz zdjęcie przeznaczone do redakcji.
+- Naciśnij :material-tune:.
+- Naciśnij przycisk **Oczyść**.
+- Narysuj kółko wokół tego, co chcesz zredagować. Twarze zostaną rozpikselowane, a system spróbuje usunąć inne elementy.
 
-Our warning [against blurring text](../data-redaction.md) also applies here, so we recommend to instead add a black shape with 100% opacity over it. In addition to redacting text, you can also black out any face or object using the **Photos** app.
+Nasze ostrzeżenie [przed rozmyciem tekstu](../data-redaction.md) ma tu również zastosowanie — zalecamy zamiast tego dodać czarny kształt ze 100% kryciem. Oprócz przeredagowania tekstu możesz też całkowicie zamalować twarz lub obiekt za pomocą aplikacji **Zdjęcia**:
 
 <div class="annotate" markdown>
 
-- Tap the image you have selected for redaction
-- Tap the :material-tune: → :material-dots-horizontal: (1) → Markup → :material-plus:
-- Select **Add Shape** and choose the square or circle
-- On the toolbar, tap the circle and choose black as the color for filling in the shape. You can also move the shape and increase its size as you see fit.
+- Wybierz zdjęcie do redakcji.
+- Naciśnij :material-tune: → :material-dots-horizontal: (1) → Oznaczenia → :material-plus:
+- Wybierz **Dodaj kształt** i wybierz kwadrat lub okrąg.
+- Na pasku narzędzi naciśnij okrąg i ustaw kolor wypełnienia na czarny. Możesz także przesunąć kształt i powiększyć go według potrzeby.
 
 </div>
 
-1. This may not appear on certain iPhone models.
+1. Opcja ta może nie pojawić się na niektórych modelach iPhone’a.
 
-**Don't** use the highlighter to obfuscate information, as its opacity is not quite 100%.
+**Nie** używaj zakreślacza do ukrywania informacji — jego krycie nie wynosi 100%.
 
-### Avoid Jailbreaking
+### Unikaj jailbreaku
 
-Jailbreaking an iPhone undermines its security and makes you vulnerable. Running untrusted, third-party software could cause your device to be infected with malware.
+Jailbreaking iPhone’a podważa jego bezpieczeństwo i naraża urządzenie na ataki. Uruchamianie niezaufanego oprogramowania firm trzecich może spowodować zainfekowanie urządzenia złośliwym oprogramowaniem.
 
-### iOS Betas
+### Wersje beta iOS
 
-Apple always makes beta versions of iOS available early for those that wish to help find and report bugs. We don't recommend installing beta software on your phone. Beta releases are potentially unstable and could have undiscovered security vulnerabilities.
+Apple udostępnia wersje beta systemu iOS osobom chętnym do znajdowania i zgłaszania błędów. Nie zalecamy instalowania oprogramowania w wersji beta na telefonie. Wersje beta mogą być niestabilne i zawierać nieodkryte luki bezpieczeństwa.
 
-## Security Highlights
+## Najważniejsze zagadnienia dotyczące bezpieczeństwa
 
-### Before First Unlock
+### Przed pierwszym odblokowaniem
 
-If your threat model includes [:material-target-account: Targeted Attacks](../basics/common-threats.md#attacks-against-specific-individuals ""){.pg-red} that involve forensic tools, and you want to minimize the chance of exploits being used to access your phone, you should restart your device frequently. The state *after* a reboot but *before* unlocking your device is referred to as "Before First Unlock" (BFU), and when your device is in that state it makes it [significantly more difficult](https://belkasoft.com/checkm8_glossary) for forensic tools to exploit vulnerabilities to access your data. This BFU state allows you to receive notifications for calls, texts, and alarms, but most of the data on your device is still encrypted and inaccessible. This can be impractical, so consider whether these trade-offs make sense for your situation.
+Jeśli w Twój model zagrożeń obejmuje [:material-target-account: Ataki ukierunkowane](../basics/common-threats.md#attacks-against-specific-individuals ""){.pg-red} wykorzystujące narzędzia kryminalistyczne, i chcesz zminimalizować ryzyko wykorzystania exploitów w celu dostępu do Twojego telefonu, warto często restartować urządzenie. Stan *po* ponownym uruchomieniu, ale *przed* pierwszym odblokowaniem urządzenia określany jest jako „Before First Unlock” (BFU, dosł. *przed pierwszym odblokowaniem*) — w tym stanie korzystanie z narzędzi sądowo-śledczych jest [znacząco utrudnione](https://belkasoft.com/checkm8_glossary). Stan BFU pozwala odbierać powiadomienia o połączeniach, SMS-ach i alarmach, podczas gdy większość danych na urządzeniu pozostaje zaszyfrowana i niedostępna. Może to być niepraktyczne, więc oceń, czy te kompromisy mają sens w Twojej sytuacji.
 
-iPhones [automatically reboot](https://support.apple.com/guide/security/protecting-user-data-in-the-face-of-attack-secf5549a4f5/1/web/1#:~:text=On%20an%20iPhone%20or%20iPad%20with%20iOS%2018%20and%20iPadOS%2018%20or%20later%2C%20a%20new%20security%20protection%20will%20restart%20devices%20if%20they%20remain%20locked%20for%20a%20prolonged%20period%20of%20time.) if they're not unlocked after a period of time.
+iPhone’y [automatycznie uruchamiają się ponownie](https://support.apple.com/guide/security/protecting-user-data-in-the-face-of-attack-secf5549a4f5/1/web/1#:~:text=On%20an%20iPhone%20or%20iPad%20with%20iOS%2018%20and%20iPadOS%2018%20or%20later%2C%20a%20new%20security%20protection%20will%20restart%20devices%20if%20they%20remain%20locked%20for%20a%20prolonged%20period%20of%20time.), jeśli nie są odblokowane przez pewien czas.
 
 ### MTE
 
-The iPhone 17 line and later offer a security enhancement called [Memory Tagging Extension](https://developer.arm.com/documentation/108035/0100/Introduction-to-the-Memory-Tagging-Extension) (MTE), which makes it significantly harder for an attacker to exploit memory corruption vulnerabilities. This always-on protection depends on hardware support, so it's not available for older devices.
+Linia iPhone 17 i nowsze oferują rozszerzenie zabezpieczeń zwane [Memory Tagging Extension](https://developer.arm.com/documentation/108035/0100/Introduction-to-the-Memory-Tagging-Extension) (MTE), które znacznie utrudnia atakującemu wykorzystanie błędów korupcji pamięci. To stale aktywne zabezpieczenie zależy od wsparcia sprzętowego, więc nie jest dostępne na starszych urządzeniach.
 
 For more details on Apple's implementation of MTE, read the [blog post](https://security.apple.com/blog/memory-integrity-enforcement) published by Apple Security Research. We also cover Apple's implementation of MTE and how it compares to Android's implementation in the Google Pixel 8 series and later in our [own article](https://www.privacyguides.org/posts/2025/09/20/memory-integrity-enforcement-changes-the-game-on-ios).
