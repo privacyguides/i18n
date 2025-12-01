@@ -1,6 +1,6 @@
 ---
 meta_title: "Datenschutzfreundliche Webbrowser für PC und Mac - Privacy Guides"
-title: Desktop Browser
+title: Desktop-Browser
 icon: material/laptop
 description: Diese datenschutzfreundlichen Browser empfehlen wir derzeit für das normale/nicht anonyme Surfen auf Desktop-Systemen.
 cover: desktop-browsers.webp

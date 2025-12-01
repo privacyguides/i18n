@@ -206,23 +206,23 @@ Ustaw akcesoria przewodowe tak, by prosiły o pozwolenie przy ich podłączaniu.
 
 - [x] Wybierz **Włącz tryb blokady**
 
-## Additional Advice
+## Dodatkowe zalecenia
 
-### E2EE Calls
+### Połączenia E2EE
 
-Normal phone calls made with the Phone app through your carrier are not E2EE. Both FaceTime Video and FaceTime Audio calls are E2EE. Alternatively, you can use [another app](../real-time-communication.md) like Signal for E2EE calls.
+Normalne połączenia telefoniczne wykonywane przez aplikację Telefon za pośrednictwem operatora nie są połączeniami E2EE. Zarówno połączenia FaceTime wideo, jak i FaceTime audio są połączeniami E2EE. Alternatywnie można użyć [innej aplikacji](../real-time-communication.md), np. Signal, do połączeń E2EE.
 
-### Encrypted iMessage
+### Szyfrowane wiadomości iMessage
 
-The [color of the message bubble](https://support.apple.com/en-us/104972) in the Messages app indicates whether your messages are E2EE or not. A blue bubble indicates that you're using iMessage with E2EE, while a green bubble indicates the other party is using either the outdated SMS and MMS protocols or RCS. RCS on iOS is **not** E2EE. Currently, the only way to have E2EE in Messages is for both parties to be using iMessage on Apple devices.
+[Kolor dymku wiadomości](https://support.apple.com/en-us/104972) w aplikacji Wiadomości wskazuje, czy wiadomości są E2EE, czy nie. Niebieski dymek oznacza, że używasz iMessage z E2EE, natomiast zielony — że druga strona używa przestarzałych protokołów SMS/MMS lub RCS. RCS w systemie iOS **nie jest** E2EE. Obecnie jedynym sposobem na E2EE w aplikacji Wiadomości jest używanie iMessage przez obie strony na urządzeniach Apple.
 
-If either you or your messaging partner have iCloud Backup enabled without Advanced Data Protection, the encryption key will be stored on Apple's servers, meaning they can access your messages.
+Jeżeli Ty lub Twój rozmówca macie włączoną funkcję Backup w iCloud bez zaawansowanej ochrony danych, klucz szyfrowania będzie przechowywany na serwerach Apple, co oznacza, że Apple może mieć dostęp do Twoich wiadomości.
 
-By default, you trust Apple's identity servers that you're messaging the right person. To defend yourself from a potentially malicious server, you can enable **[Contact Key Verification](https://support.apple.com/en-us/118246)**. At the top of the **Settings** app where your name is, select it, then go to **Contact Key Verification**.
+Domyślnie ufasz serwerom tożsamości Apple, że wysyłasz wiadomość do właściwej osoby. Aby chronić się przed potencjalnie złośliwym serwerem, można włączyć funkcję**[Weryfikacji kluczy kontaktów](https://support.apple.com/pl-pl/118246)**. W aplikacji **Ustawienia** w górnej części aplikacji, gdzie widnieje Twoje imię, wybierz je, a następnie **Weryfikacja kluczy kontaktów**.
 
-- [x] Turn on **Verification in iMessage**
+- [x] Włącz **Weryfikacja kluczy kontaktów**
 
-Both you and your contacts need to enable Contact Key Verification and follow Apple's [instructions](https://support.apple.com/en-us/118246#verify) for the security assurances mentioned above to take effect.
+Zarówno Ty, jak i Twoje kontakty musicie włączyć weryfikację kluczy kontaktów i postępować zgodnie z [instrukcjami](https://support.apple.com/pl-pl/118246#verify) Apple, aby wymienione tam zabezpieczenia zaczęły działać.
 
 ### Photo Permissions
 
