@@ -27,45 +27,45 @@ Nowe komputery prawie zawsze są dostarczane z preinstalowanym systemem Windows,
 
 ### Aktualizacje oprogramowania układowego
 
-Hardware often has security issues that are discovered and patched through firmware updates for your hardware.
+Sprzęt często ma luki bezpieczeństwa, które są wykrywane i łatane w aktualizacjach oprogramowania układowego.
 
-Almost every component of your computer requires firmware to operate, from your motherboard to your storage devices. It is ideal for all the components of your device to be fully supported. Apple devices, Chromebooks, most Android phones, and Microsoft Surface devices will handle firmware updates for you as long as the device is supported.
+Prawie każdy komponent komputera wymaga oprogramowania układowego, aby działać — od płyty głównej po urządzenia pamięci masowej. W idealnym przypadku wszystkie elementy urządzenia powinny być w pełni wspierane przez producenta. Urządzenia Apple, Chromebooki, większość telefonów z Androidem oraz urządzenia Microsoft Surface będą obsługiwać aktualizacje oprogramowania układowego automatycznie, o ile dane urządzenie jest wspierane.
 
-If you build your own PC, you may need to manually update your motherboard's firmware by downloading it from your OEM's website. If you use Linux, consider using the built-in [`fwupd`](https://fwupd.org) tool that will let you check for and apply any firmware updates available for your motherboard.
+Jeśli składasz własny komputer, może być konieczne ręczne zaktualizowanie oprogramowania układowego płyty głównej, pobierając je ze strony producenta OEM płyty. Jeśli korzystasz z Linuksa, rozważ użycie wbudowanego narzędzia [`fwupd`](https://fwupd.org), które pozwala sprawdzić i zastosować dostępne aktualizacje oprogramowania układowego dla płyty głównej i innych komponentów.
 
-### TPM/Secure Cryptoprocessor
+### TPM / bezpieczny kryptoprocesor
 
-Most computers and phones come equipped with a TPM (or a similar secure cryptoprocessor) which safely stores your encryption keys and handles other security-related functions. If you're currently using a machine that doesn't have one of these, you might benefit from purchasing a newer computer that has this feature. Some desktop and server motherboards have a "TPM header" which can accept a small accessory board containing the TPM.
+Większość komputerów i telefonów jest wyposażona w moduł TPM (lub podobny bezpieczny kryptoprocesor), który bezpiecznie przechowuje klucze szyfrowania i obsługuje inne funkcje związane z bezpieczeństwem. Jeśli obecnie korzystasz z maszyny, która nie ma takiego modułu, warto rozważyć zakup nowszego urządzenia wyposażonego w tę funkcję. Niektóre płyty główne do komputerów stacjonarnych i serwerów mają złącze „TPM header”, które pozwala dodać małą płytkę zawierającą moduł TPM.
 
 <div class="admonition Note" markdown>
 <p class="admonition-title">Uwaga</p>
 
-Virtual TPMs are susceptible to side-channel attacks and external TPMs, as a result of being separate from the CPU on the motherboard, are vulnerable to [sniffing](https://pulsesecurity.co.nz/articles/TPM-sniffing) when an attacker has access to the hardware. The solution to this problem is to include the secure processor inside the CPU itself, which is the case for Apple's chips and Microsoft's [Pluton](https://microsoft.com/en-us/security/blog/2020/11/17/meet-the-microsoft-pluton-processor-the-security-chip-designed-for-the-future-of-windows-pcs).
+Wirtualne moduły TPM są podatne na ataki kanałów bocznych (ang. _side-channel attacks_), a zewnętrzne moduły TPM — jako elementy oddzielone od procesora na płycie głównej — mogą być narażone na tzw. [TPM sniffing](https://pulsesecurity.co.nz/articles/TPM-sniffing), gdy atakujący ma fizyczny dostęp do sprzętu. Rozwiązaniem jest umieszczenie bezpiecznego procesora wewnątrz samego procesora, tak jak ma to miejsce w układach Apple oraz w rozwiązaniu firmy Microsoft [Pluton](https://microsoft.com/en-us/security/blog/2020/11/17/meet-the-microsoft-pluton-processor-the-security-chip-designed-for-the-future-of-windows-pcs).
 
 </div>
 
-### Biometrics
+### Biometria
 
-Many devices come equipped with a fingerprint reader or face recognition capabilities. These can be very convenient, but they aren't perfect and sometimes fail. Most devices will fall back to a PIN or password when this happens, meaning that the security of your devices is still only as good as your password.
+Wiele urządzeń wyposażonych jest w czytnik linii papilarnych lub funkcję rozpoznawania twarzy. Są to wygodne rozwiązania, ale nie są nieomylne i czasem zawodzą. W większości przypadków następuje wtedy powrót do kodu PIN lub hasła, więc bezpieczeństwo urządzenia zależy nadal od siły użytego hasła.
 
-Biometrics can prevent someone from watching you type in your password, so if shoulder-surfing is part of your threat model then biometrics are a good option.
+Biometria może zapobiec sytuacjom, w których ktoś obserwuje wpisywane hasło — więc jeśli tzw. _shoulder-surfing_ („podglądanie zza ramienia”) jest elementem Twojego modelu zagrożeń, biometria może być dobrą opcją.
 
-Most implementations of face authentication require you to be looking at your phone and also only work from a relatively close distance, so you don't need to worry too much about someone pointing your phone at your face to unlock it without your consent. You can still disable biometrics when your phone is locked if you want. On iOS, you can hold the side button and a volume button for 3 seconds to disable Face ID on models that support it. On Android, hold the power button and press Lockdown on the menu.
+Większość implementacji uwierzytelniania twarzy wymaga, aby patrzeć na telefon i działa jedynie ze stosunkowo bliskiej odległości, więc nie musisz nadmiernie obawiać się, że ktoś bez Twojej zgody skieruje telefon na Twoją twarz, by odblokować urządzenie. Biometrię można też wyłączyć, gdy telefon jest zablokowany. W systemie iOS przytrzymaj boczny przycisk i dowolny przycisk głośności przez 3 sekundy, aby wyłączyć Face ID na modelach, które go obsługują. Na Androidzie przytrzymaj przycisk zasilania i wybierz opcję „Blokada” w menu.
 
 <div class="admonition warning" markdown>
 <p class="admonition-title">Ostrzeżenie</p>
 
-Some devices do not have the proper hardware for secure face authentication. There are two main types of face authentication: 2D and 3D. 3D face authentication makes use of a dot projector that lets the device create a 3D depth map of your face. Make sure that your device has this capability.
+Niektóre urządzenia nie mają odpowiedniego sprzętu do bezpiecznego uwierzytelniania twarzy. Istnieją dwa główne rodzaje uwierzytelniania twarzy: 2D i 3D. 3D wykorzystuje projektor kropek, który pozwala urządzeniu utworzyć trójwymiarową mapę głębi twarzy. Upewnij się, że Twoje urządzenie ma taką funkcję.
 
 </div>
 
-Android defines three [security classes](https://source.android.com/docs/security/features/biometric/measure#biometric-classes) for biometrics; you should check that your device is Class 3 before enabling biometrics.
+Android definiuje trzy [klasy bezpieczeństwa](https://source.android.com/docs/security/features/biometric/measure#biometric-classes) dla biometrii; przed włączeniem biometrii upewnij się, że urządzenie jest klasy 3.
 
-### Device Encryption
+### Szyfrowanie urządzenia
 
-If your device is [encrypted](../encryption.md), your data is most secure when your device is completely powered off (as opposed to merely asleep), i.e. before you've entered your encryption key or lock screen password for the first time. On phones, this state of higher security is referred to as "Before First Unlock" (BFU), and "After First Unlock" (AFU) once you enter the correct password after a reboot/power-on. AFU is considerably less secure against digital forensics toolkits and other exploits, compared to BFU. Therefore, if you are concerned about an attacker with physical access to your device, you should turn it off fully whenever you aren't using it.
+Jeśli urządzenie jest [zaszyfrowane](../encryption.md), dane są najbezpieczniejsze, gdy urządzenie jest całkowicie wyłączone (a nie tylko uśpione) — czyli zanim po raz pierwszy wprowadzisz klucz szyfrowania lub hasło blokady ekranu. W telefonach ten stan większego bezpieczeństwa nazywany jest „Before First Unlock” (BFU, dosł. _przed pierwszym odblokowaniem_), a po wprowadzeniu prawidłowego hasła po ponownym uruchomieniu/włączeniu — „After First Unlock” (AFU, dosł. _po pierwszym odblokowaniu_). AFU jest znacznie mniej odporny przed narzędziami do analizy kryminalistycznej i innymi eksploitami w porównaniu do BFU. Dlatego też, jeśli obawiasz się atakującego mającego fizyczny dostęp do Twojego urządzenia, należy je całkowicie wyłączać, gdy go nie używasz.
 
-This may be impractical, so consider whether it's worth it, but in either case even AFU mode is effective against most threats, given you are using a strong encryption key.
+Może to być niepraktyczne — więc przemyśl, czy warto — ale nawet tryb AFU jest skuteczny wobec większości zagrożeń, pod warunkiem, że używany jest silny klucz szyfrowania.
 
 ## External Hardware
 
