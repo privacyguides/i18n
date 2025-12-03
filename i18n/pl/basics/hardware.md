@@ -67,9 +67,9 @@ Jeśli urządzenie jest [zaszyfrowane](../encryption.md), dane są najbezpieczni
 
 Może to być niepraktyczne — więc przemyśl, czy warto — ale nawet tryb AFU jest skuteczny wobec większości zagrożeń, pod warunkiem, że używany jest silny klucz szyfrowania.
 
-## External Hardware
+## Sprzęt zewnętrzny
 
-Some threats can't be protected against by your internal components alone. Many of these options are highly situational; please evaluate if they are really necessary for your threat model.
+Niektóre zagrożenia nie są do opanowania wyłącznie przez komponenty wewnętrzne. Wiele z opisanych tu opcji jest wysoce sytuacyjnych; oceń, czy faktycznie są konieczne w Twoim modelu zagrożeń.
 
 ### Sprzętowe klucze bezpieczeństwa
 

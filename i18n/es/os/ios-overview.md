@@ -99,9 +99,9 @@ Ten en cuenta que Bluetooth se activa automáticamente después de cada actualiz
 
 El nombre de dispositivo de tu iPhone contendrá por defecto tu nombre de pila, y éste será visible para cualquiera en las redes a las que te conectes. Deberías cambiarlo por algo más genérico, como "iPhone". Selecciona **Información**→**Nombre** e introduce el nombre de dispositivo que prefieras.
 
-It is important to install software updates frequently to get the latest security fixes. You can enable automatic updates to keep your phone up-to-date without needing to constantly check for updates. Selecciona **Actualización de Software**→**Actualizaciones Automáticas**:
+Es importante instalar actualizaciones de software con frecuencia para obtener las últimas correcciones de seguridad. Puedes activar las actualizaciones automáticas para mantener tu teléfono al día sin necesidad de comprobar constantemente si hay actualizaciones. Selecciona **Actualización de Software**→**Actualizaciones Automáticas**:
 
-- [x] Turn on **Automatically Install**
+- [x] Activa **Instalación Automática**
 
 **AirDrop** se utiliza habitualmente para compartir archivos con facilidad, pero representa un importante riesgo para la privacidad. El protocolo AirDrop transmite constantemente tu información personal a tu entorno, con protecciones de seguridad [muy débiles](https://usenix.org/system/files/sec21-heinrich.pdf). Tu identidad puede ser descubierta fácilmente por los atacantes, incluso con recursos limitados, y el gobierno chino ha [reconocido abiertamente](https://arstechnica.com/security/2024/01/hackers-can-id-unique-apple-airdrop-users-chinese-authorities-claim-to-do-just-that) el uso de tales técnicas para identificar a los usuarios de AirDrop en público desde 2022.
 
