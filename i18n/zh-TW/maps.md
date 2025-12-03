@@ -12,7 +12,7 @@ cover: maps.webp
 
 使用以下 **地圖和導航應用程式**，它們不會根據您的搜尋和位置歷史記錄建立廣告檔案。 與其使用 Google Maps、Apple Maps 或 Waze，我們建議您使用這些尊重隱私的替代方案。
 
-The recommendations here do not collect personally identifying information (PII) based on each application's privacy policy. **無法保證** 這些隱私權政策有被好好落實。
+根據各應用程式的隱私權政策，此處推薦的應用程式均不會蒐集個人識別資訊 (PII)。 **無法保證** 這些隱私權政策有被好好落實。
 
 ## Organic Maps
 
@@ -20,13 +20,13 @@ The recommendations here do not collect personally identifying information (PII)
 
 ![Organic Maps logo](assets/img/maps/organic-maps.svg){ align=right }
 
-**Organic Maps** is an open-source, community-developed map display and satnav-style navigation app for walkers, drivers, and cyclists. The app offers worldwide, offline maps based on OpenStreetMap data, and navigation with privacy — no location tracking, no data collection, and no ads. 此應用程式可完全離線使用。
+**Organic Maps** 是一款開放原始碼、由社群共同開發的地圖顯示與衛星導航式導航應用程式，專為步行者、駕駛者及腳踏車騎士設計。 此應用程式提供以開放街圖資料為基礎的全球離線地圖，且提供尊重隱私的導航：無位置追蹤、無資料蒐集、無廣告。 此應用程式可完全離線使用。
 
 功能包括自行車路線、登山步道和步行路線、帶有語音指示的逐向導航，以及大眾運輸路線規劃（僅在受支援的地區和城市提供）。
 
-[:octicons-home-16: Homepage](https://organicmaps.app){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://organicmaps.app/privacy){ .card-link title="Privacy Policy" }
-[:octicons-code-16:](https://github.com/organicmaps/organicmaps){ .card-link title="Source Code" }
+[:octicons-home-16: 首頁](https://organicmaps.app){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://organicmaps.app/privacy){ .card-link title="隱私權政策" }
+[:octicons-code-16:](https://github.com/organicmaps/organicmaps){ .card-link title="原始碼" }
 
 <details class="downloads" markdown><summary>下載</summary>
 
@@ -47,7 +47,7 @@ The recommendations here do not collect personally identifying information (PII)
 
 ![OsmAnd logo](assets/img/maps/osmand.svg){ align=right }
 
-**OsmAnd** is an open-source, offline map and navigation application based on OpenStreetMap that offers turn-by-turn navigation for walking, cycling, driving, as well as public transport. You can find a detailed overview of OsmAnd's supported [features](https://wiki.openstreetmap.org/wiki/OsmAnd#Features) on the OpenStreet Map Wiki.
+**OsmAnd** 是一款以開放街圖為基礎的開放原始碼離線地圖與導航應用程式，提供步行、騎腳踏車、開車及大眾運輸的逐步導航服務。 您可以在開放街圖 Wiki 上找到 OsmAnd 支援的[功能](https://wiki.openstreetmap.org/wiki/OsmAnd#Features)的詳細資訊。
 
 [:octicons-home-16: 首頁](https://osmand.net){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://osmand.net/docs/legal/privacy-policy){ .card-link title="隱私權政策" }
@@ -65,7 +65,7 @@ The recommendations here do not collect personally identifying information (PII)
 </div>
 
 <div class="admonition warning" markdown>
-<p class="admonition-title">Unique User Identifier</p>
+<p class="admonition-title">唯一使用者識別碼</p>
 
 OsmAnd generates a [unique user identifier (UUID)](https://osmand.net/docs/legal/terms-of-use/#6-unique-user-indentifier) for each app install that rotates every three months and is used for internal reports and statistics. The UUID is also sent to OsmAnd's servers when downloading maps. On Android, there is a setting that controls whether the UUID is sent with each download request. From the home screen, go to :material-menu: → :gear: **Settings** → :gear: **OsmAnd settings** → :material-web: **Identifiers**.
 
