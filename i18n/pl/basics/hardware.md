@@ -73,48 +73,48 @@ Niektóre zagrożenia nie są do opanowania wyłącznie przez komponenty wewnęt
 
 ### Sprzętowe klucze bezpieczeństwa
 
-Hardware keys are devices that use strong cryptography to authenticate you to a device or account. The idea is that because they can not be copied, you can use them to secure accounts in such a way that they can only be accessed with physical possession of the key, eliminating many remote attacks.
+Klucze sprzętowe to urządzenia wykorzystujące silną kryptografię do uwierzytelniania na urządzeniu lub koncie. Ponieważ nie da się ich skopiować, pozwalają zabezpieczyć konta w taki sposób, że dostęp możliwy jest tylko przy fizycznym posiadaniu klucza, co eliminuje wiele ataków zdalnych.
 
-[Recommended Hardware Keys :material-arrow-right-drop-circle:](../security-keys.md){ .md-button .md-button--primary } [Learn More about Hardware Keys :material-arrow-right-drop-circle:](multi-factor-authentication.md#hardware-security-keys){ .md-button }
+[Zalecane klucze sprzętowe :material-arrow-right-drop-circle:](../security-keys.md){ .md-button .md-button--primary } [Dowiedz się więcej o kluczach sprzętowych :material-arrow-right-drop-circle:](multi-factor-authentication.md#hardware-security-keys){ .md-button }
 
-### Camera/Microphone
+### Kamera i mikrofon
 
-If you don't want to trust your OS's permission controls to prevent the camera from activating in the first place, you can buy camera blockers that physically prevent light from reaching the camera. You could also buy a device that doesn't have a built-in camera and use an external camera that you can unplug whenever you're done using it. Some devices come with built-in camera blockers or hardware switches that physically disconnect the camera from power.
+Jeśli nie chcesz polegać na mechanizmach kontroli uprawnień Twojego systemu operacyjnego, aby zapobiec aktywacji kamery, możesz kupić fizyczne zasłonki blokujące światło docierające do obiektywu. Możesz też kupić urządzenie bez wbudowanej kamery i korzystać z kamery zewnętrznej, którą odłączysz po użyciu. Niektóre urządzenia mają wbudowane zasłonki lub przełączniki sprzętowe, które fizycznie odłączają kamerę od zasilania.
 
 <div class="admonition warning" markdown>
 <p class="admonition-title">Ostrzeżenie</p>
 
-You should only buy covers that fit your laptop and won't cause damage when you close the lid. Covering the camera will interfere with automatic brightness and face authentication features.
+Kupuj tylko osłony dopasowane do Twojego laptopa, które nie uszkodzą go przy zamykaniu klapy. Zakrycie kamery wpłynie na działanie automatycznej regulacji jasności oraz uwierzytelniania twarzy.
 
 </div>
 
-For microphone access, in most cases you will need to trust your OS's built-in permission controls. Alternatively, buy a device that doesn't have a built-in microphone and use an external microphone that you can unplug when you're done using it. Some devices, like a [MacBook or an iPad](https://support.apple.com/guide/security/hardware-microphone-disconnect-secbbd20b00b/web), feature a hardware disconnect for the microphone when you close the lid.
+W przypadku mikrofonu w większości sytuacji trzeba polegać na wbudowanym mechanizmie kontroli uprawnień Twojego systemu operacyjnego. Alternatywą jest wybór urządzenia bez wbudowanego mikrofonu i korzystanie z zewnętrznego mikrofonu, który możesz odłączyć po użyciu. Niektóre urządzenia, np. [MacBooki czy iPady](https://support.apple.com/guide/security/hardware-microphone-disconnect-secbbd20b00b/web), wyposażone są w sprzętowe odłączenie mikrofonu po zamknięciu klapy.
 
-Many computers have a BIOS option to disable the camera and microphone. When disabled there, the hardware won't even appear as a device on a booted system.
+Wiele komputerów ma w BIOS-ie opcję wyłączenia kamery i mikrofonu. Po jej użyciu sprzęt nie będzie nawet widoczny jako urządzenie w uruchomionym systemie.
 
-### Privacy Screens
+### Filtry prywatyzujące
 
-Privacy screens are a film you can put over your normal screen so that the screen is only visible from a certain angle. These are good if your threat model includes others peeking at your screen, but it is not foolproof as anyone could just move to a different viewing angle and see what's on your screen.
+Filtr prywatyzujący to folia nakładana na ekran, dzięki której obraz jest widoczny tylko pod określonym kątem. Przydaje się, jeśli Twój model zagrożeń obejmuje podglądanie ekranu przez inne osoby, ale nie jest to rozwiązanie niezawodne — ktoś może po prostu zmienić kąt widzenia, żeby zobaczyć zawartość ekranu.
 
-### Dead Man's Switches
+### Czuwaki
 
-A dead man's switch stops a piece of machinery from operating without the presence of a human operator. These were originally designed as a safety measure, but the same concept can be applied to an electronic device to lock it when you're not present.
+Czuwak (ang. _dead man's switch_, dosł. przełącznik martwego człowieka) uniemożliwia działanie maszyny bez obecności operatora. Choć pierwotnie służył jako środek bezpieczeństwa, tę samą ideę można zastosować do urządzenia elektronicznego — np. żeby je zablokować, gdy nie ma Cię przy nim.
 
-Some laptops are able to [detect](https://support.microsoft.com/en-us/windows/managing-presence-sensing-settings-in-windows-11-82285c93-440c-4e15-9081-c9e38c1290bb) when you're present and can lock automatically when you aren't sitting in front of the screen. You should check the settings in your OS to see if your computer supports this feature.
+Niektóre laptopy potrafią [wykrywać](https://support.microsoft.com/pl-pl/windows/managing-presence-sensing-settings-in-windows-11-82285c93-440c-4e15-9081-c9e38c1290bb) obecność użytkownika i automatycznie się blokować, gdy nie siedzisz przed ekranem. Należy sprawdzić ustawienia systemu, czy Twój komputer obsługuje tę funkcję.
 
-You can also get cables, like [BusKill](https://buskill.in), that will lock or wipe your computer when the cable is disconnected.
+Dostępne są też kable, jak [BusKill](https://buskill.in), które zablokują lub wyczyszczą komputer po odłączeniu kabla.
 
-### Anti-Interdiction/Evil Maid Attack
+### Ochrona przed przechwyceniami / atakami typu „evil maid”
 
-The best way to prevent a targeted attack against you before a device is in your possession is to purchase a device in a physical store, rather than ordering it to your address.
+Najlepszym sposobem zapobiegania atakom ukierunkowanym jeszcze przed otrzymaniem urządzenia jest jego zakup w sklepie stacjonarnym zamiast zamawiania go na adres domowy.
 
-Make sure your device supports secure boot/verified boot, and you have it enabled. Try to avoid leaving your device unattended whenever possible.
+Upewnij się, że urządzenie obsługuje bezpieczny rozruch / verified boot i że ta funkcja jest włączona. Staraj się też unikać zostawiania urządzenia bez nadzoru, o ile to możliwe.
 
-### Kensington Locks
+### Zamki Kensington
 
-Many laptops come equipped with a [Kensington slot](https://www.kensington.com/solutions/product-category/security/?srsltid=AfmBOorQOlRnqRJOAqM-Mvl7wumed0wBdiOgktlvdidpMHNIvGfwj9VI) that can be used to secure your device with a **metal cable** that locks into the slot on your machine. These locks can be combination locks or keyed.
+Wiele laptopów wyposażonych jest w [gniazdo Kensington](https://www.kensington.com/solutions/product-category/security/?srsltid=AfmBOorQOlRnqRJOAqM-Mvl7wumed0wBdiOgktlvdidpMHNIvGfwj9VI), do którego można przypiąć **metalowy kabel** blokujący urządzenie. Zamki te mogą być na szyfr lub na klucz.
 
-As with all locks, Kensington locks are vulnerable to [physical attacks](https://youtu.be/vgvCxL7dMJk) so you should mainly use them to deter petty theft. You can secure your laptop at home or even when you're out in public using a table leg or something that won't move easily.
+Podobnie jak w przypadku wszystkich zamków, blokady Kensington są podatne na [ataki fizyczne](https://youtu.be/vgvCxL7dMJk), więc przede wszystkim odstraszają drobną kradzież. Możesz zabezpieczyć swojego laptopa w domu lub nawet w miejscu publicznym, przypinając go do nogi stołu lub innego stabilnego elementu.
 
 ## Secure your Network
 
