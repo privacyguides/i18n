@@ -117,11 +117,11 @@ Selecciona **Actualización en Segundo Plano** y desactiva las aplicaciones que 
 
 #### Apple Intelligence y Siri
 
-This is available if your device supports **[Apple Intelligence](https://support.apple.com/guide/iphone/apple-intelligence-and-privacy-iphe3f499e0e/ios)**. Apple Intelligence uses a combination of on-device processing and their **[Private Cloud Compute](https://security.apple.com/blog/private-cloud-compute)** for things that take more processing power than your device can provide.
+Esto está disponible si tu dispositivo es compatible con **[Apple Intelligence](https://support.apple.com/guide/iphone/apple-intelligence-and-privacy-iphe3f499e0e/ios)**. Apple Intelligence utiliza una combinación de procesamiento en el dispositivo y su **[Private Cloud Compute](https://security.apple.com/blog/private-cloud-compute)** para cosas que requieren más potencia de procesamiento de la que puede proporcionar tu dispositivo.
 
-To see a report of all the requests made to Apple's servers, you can navigate to **Privacy & Security** → **Apple Intelligence Report** and press **Export Activity** to see activity from the either the last 15 minutes or 7 days, depending on what you set it for. De forma similar al **Informe de privacidad de las apps**, que muestra los permisos recientes a los que han accedido las aplicaciones de tu teléfono, el Informe de Apple Intelligence también muestra lo que se envía a los servidores de Apple mientras utilizas Apple Intelligence.
+Para ver un informe de todas las solicitudes realizadas a los servidores de Apple, puedes ir a **Privacidad y seguridad** → **Informe de Apple Intelligence** y pulsar **Exportar actividad** para ver la actividad de los últimos 15 minutos o 7 días, según lo que hayas configurado. De forma similar al **Informe de privacidad de las apps**, que muestra los permisos recientes a los que han accedido las aplicaciones de tu teléfono, el Informe de Apple Intelligence también muestra lo que se envía a los servidores de Apple mientras utilizas Apple Intelligence.
 
-Apple Intelligence can integrate with [ChatGPT](https://support.apple.com/guide/iphone/use-chatgpt-with-apple-intelligence-iph00fd3c8c2/ios). If you want ChatGPT integration, you can navigate to **ChatGPT** and press **Set Up**. If you want to disable it, go to the same place:
+Apple Intelligence puede integrarse con [ChatGPT](https://support.apple.com/guide/iphone/use-chatgpt-with-apple-intelligence-iph00fd3c8c2/ios). Si deseas la integración con ChatGPT, puedes navegar hasta **ChatGPT** y pulsar **Configurar**. Si quieres desactivarla, ve al mismo sitio:
 
 - [ ] Desactiva **Usar ChatGPT**
 
@@ -141,17 +141,17 @@ Selecciona **Activar Código** o **Cambiar Código**→ **Opciones de Código**�
 
 Si deseas utilizar Face ID o Touch ID, puedes seguir adelante y configurarlo ahora. Tu teléfono utilizará la contraseña que configuraste anteriormente como alternativa en caso de que falle la verificación biométrica. Los métodos de desbloqueo biométrico son ante todo una ventaja, aunque impiden que las cámaras de vigilancia o las personas por encima de su hombro te vean introducir el código.
 
-Si utilizas datos biométricos, debes saber cómo desactivarlos rápidamente en caso de emergencia. Holding down the [side button](https://support.apple.com/en-us/105103) and *either* volume button until you see the Slide to Power Off slider will disable biometrics, requiring your passcode to unlock. Your passcode will be required after your device restarts.
+Si utilizas datos biométricos, debes saber cómo desactivarlos rápidamente en caso de emergencia. Si mantienes pulsado el [botón lateral](https://support.apple.com/en-us/105103) y *cualquiera* de los botones de volumen hasta que veas el control deslizante para Apagar, se desactivará la biometría y tendrás que usar el código para desbloquear. Se te pedirá tu código después de que tu dispositivo se reinicie.
 
-You can similarly disable biometrics by pressing the side button five times, or for devices with Touch ID, you can hold down the side button and nothing else. Asegúrate de probarlo con antelación para saber qué método funciona en tu dispositivo.
+De forma similar, puedes desactivar la biometría pulsando cinco veces el botón lateral o, en el caso de los dispositivos con Touch ID, simplemente manteniendo pulsado el botón lateral. Asegúrate de probarlo con antelación para saber qué método funciona en tu dispositivo.
 
-**Protección en Caso de Robo** añade seguridad adicional destinada a proteger tus datos personales si te roban el dispositivo mientras está desbloqueado. If you enable both biometric authentication and the [Find My](#find-my) iPhone feature, we recommend enabling this protection:
+**Protección en Caso de Robo** añade seguridad adicional destinada a proteger tus datos personales si te roban el dispositivo mientras está desbloqueado. Si activas tanto la autenticación biométrica como la función [Buscar](#find-my) de iPhone, te recomendamos que actives esta protección:
 
-- [x] Turn on **Stolen Device Protection**
+- [x] Activa **Protección del Dispositivo en Caso de Robo**
 
 Después de activar la Protección en Caso de Robo, [ciertas acciones](https://support.apple.com/HT212510) requerirán autenticación biométrica sin una contraseña de respaldo (en el caso de que un "shoulder surfer" haya obtenido tu PIN), como el uso de autorrelleno de contraseña, el acceso a información de pago y la desactivación del Modo Perdido. También añade un retardo de seguridad a ciertas acciones que se realizan fuera de casa o de otro "lugar conocido", como exigir un temporizador de 1 hora para restablecer la contraseña de la cuenta de Apple o cerrar sesión en ella. Este retraso pretende darte tiempo para activar el Modo Perdido y asegurar tu cuenta antes de que un ladrón pueda reiniciar tu dispositivo.
 
-**Allow Access When Locked** presents options for what you can allow when your phone is locked. Pick and choose which feature you want to disable to prevent unauthorized access if someone gets their hands on your phone. Cuantas más de estas opciones deshabilites, menos podrá hacer alguien sin tu contraseña, pero menos cómodo será para ti.
+**Permitir Acceso al Estar Bloqueado** te da opciones sobre lo que puedes permitir cuando tu teléfono está bloqueado. Elige qué función quieres desactivar para evitar accesos no autorizados si alguien se hace con tu teléfono. Cuantas más de estas opciones deshabilites, menos podrá hacer alguien sin tu contraseña, pero menos cómodo será para ti.
 
 Los iPhones ya son resistentes a los ataques de fuerza bruta, ya que te hacen esperar largos periodos de tiempo después de varios intentos fallidos; sin embargo, históricamente ha habido exploits para sortear esto. Para mayor seguridad, puedes configurar tu teléfono para que se borre automáticamente después de 10 intentos fallidos.
 
@@ -186,9 +186,9 @@ Deberías desactivar **Datos de Uso y de los Sensores** si no deseas participar 
 
 - [ ] Desactiva **Datos de Uso y de los Sensores**
 
-**[Safety Check](https://support.apple.com/guide/personal-safety/safety-check-iphone-ios-16-ips2aad835e1/1.0/web/1.0)** allows you to quickly view and revoke certain people and apps that might have permission to access your data. Here, you can perform an **Emergency Reset**, immediately resetting permissions for all people and apps which might have access to device resources. You can also **Manage Sharing & Access**, which allows you to review and customize who and what has access to your device and account resources. If you're in an abusive situation, read Apple's [Personal Safety User Guide](https://support.apple.com/guide/personal-safety/welcome/web) for guidance on what you should do.
+**[Comprobación de seguridad](https://support.apple.com/guide/personal-safety/safety-check-iphone-ios-16-ips2aad835e1/1.0/web/1.0)** te permite ver y revocar rápidamente a determinadas personas y aplicaciones que podrían tener permiso para acceder a tus datos. Aquí puedes realizar un **Restablecimiento de Emergencia**, restableciendo inmediatamente los permisos para todas las personas y aplicaciones que puedan tener acceso a los recursos del dispositivo. También puedes **Gestionar Accesos y Datos Compartidos**, lo cual te permite revisar y personalizar quién y qué tiene acceso a tu dispositivo y a los recursos de tu cuenta. Si te encuentras en una situación de abuso, lee el [Manual de Uso de Seguridad Personal](https://support.apple.com/guide/personal-safety/welcome/web) de Apple para que orientarte sobre lo que debes hacer.
 
-You should disable analytics if you don't wish to send usage data to Apple. Select **Analytics & Improvements** and unselect the type(s) of analytics that you don't want to send to Apple.
+Deberías desactivar los análisis si no deseas enviar datos de uso a Apple. Selecciona **Análisis y Mejoras** y desmarca los tipos de análisis que no deseas enviar a Apple.
 
 Desactiva **Anuncios Personalizados** si no quieres anuncios personalizados. Selecciona **Publicidad de Apple**:
 
@@ -198,11 +198,11 @@ Desactiva **Anuncios Personalizados** si no quieres anuncios personalizados. Sel
 
 - [x] Selecciona **Activar el Informe de Privacidad de las Apps**
 
-Set wired accessories to ask for permission when you connect them. Select **Wired Accessories**:
+Configura los accesorios conectados por cable para que soliciten permiso cuando los conectes. Selecciona **Accesorios con cable**:
 
-- [x] Select **Always Ask** or **Ask for New Accessories**
+- [x] Selecciona **Preguntar siempre** o **Preguntar con nuevos accesorios**
 
-**[Lockdown Mode](https://blog.privacyguides.org/2022/10/27/macos-ventura-privacy-security-updates/#lockdown-mode)** is a security setting you can enable to make your phone more resistant to attacks. Ten en cuenta que algunas aplicaciones y funciones [no funcionarán](https://support.apple.com/HT212650) como lo hacen normalmente.
+El **[Modo de Aislamiento](https://blog.privacyguides.org/2022/10/27/macos-ventura-privacy-security-updates/#lockdown-mode)** es un ajuste de seguridad que puedes activar para que tu teléfono sea más resistente a los ataques. Ten en cuenta que algunas aplicaciones y funciones [no funcionarán](https://support.apple.com/HT212650) como lo hacen normalmente.
 
 - [x] Selecciona **Activar el Modo de Aislamiento**
 
