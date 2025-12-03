@@ -33,7 +33,7 @@ robots: nofollow, max-snippet:-1, max-image-preview:large
 
 此處列出的行動裝置可提供長壽命的保證安全更新，並允許您安裝自訂作業系統，而不會違反 Android 安全模型。
 
-[Recommended Android Distributions :material-arrow-right-drop-circle:](android/distributions.md){ .md-button .md-button--primary } [Details about Android Security :material-arrow-right-drop-circle:](os/android-overview.md#security-protections){ .md-button }
+[推薦的 Android 散佈版 :material-arrow-right-drop-circle:](android/distributions.md){ .md-button .md-button--primary } [Android 安全性詳細資訊 :material-arrow-right-drop-circle:](os/android-overview.md#security-protections){ .md-button }
 
 <div class="admonition warning" markdown>
 <p class="admonition-title">警告</p>
@@ -42,7 +42,7 @@ robots: nofollow, max-snippet:-1, max-image-preview:large
 
 </div>
 
-## General Purchasing Advice
+## 一般購買建議
 
 購買裝置時，我們建議盡可能購買全新的裝置。 行動裝置的軟體和韌體只能支援一段有限的時間，因此購買新裝置可以儘可能延長使用期限。
 
@@ -74,13 +74,13 @@ Google Pixel 手機是我們**唯一**推薦購買的裝置。 Pixel 手機擁�
 
 ### 硬體安全
 
-Secure Elements like the Titan M2 are more limited than the processor's Trusted Execution Environment (TEE) used by most other phones as they are only used for secrets storage, hardware attestation, and rate limiting, not for running "trusted" programs. 沒有安全元件的手機必須使用 TEE 來執行**所有**這些功能，因此會產生較大的攻擊面。
+與大多數其他手機採用的處理器可信執行環境 (TEE) 相比，Titan M2 等安全元件的功能更為有限，因其僅用於機密儲存、硬體驗證及速率限制，而非執行「可信」程式。 沒有安全元件的手機必須使用 TEE 來執行**所有**這些功能，因此會產生較大的攻擊面。
 
 Google Pixel 手機使用的 TEE OS 名為 Trusty，與許多其他手機不同，它是[開放原始碼](https://source.android.com/security/trusty#whyTrusty)的。
 
-The Pixel 8 series and later supports ARM's Memory Tagging Extension ([MTE](https://developer.arm.com/documentation/108035/0100/Introduction-to-the-Memory-Tagging-Extension)), a hardware security enhancement that drastically lowers the probability of exploits occurring through memory corruption bugs. The stock Pixel OS allows you to enable MTE for supported apps through Google's Advanced Protection Program or via a developer option, but its usability is quite limited. [GrapheneOS](android/distributions.md#grapheneos), an alternative Android OS we recommend, greatly improves the usability and coverage of MTE in its implementation of the feature.
+Pixel 8 系列及更新的產品支援 ARM 的記憶體標記擴充 ([MTE](https://developer.arm.com/documentation/108035/0100/Introduction-to-the-Memory-Tagging-Extension))，這是一種硬體安全強化功能，可大幅降低因記憶體毀損臭蟲造成的漏洞。 原生的 Pixel 作業系統讓您可以透過 Google 的進階保護計畫或開發人員選項，針對支援的應用程式啟用 MTE，但實用性相當有限。 [GrapheneOS](android/distributions.md#grapheneos) 是我們推薦的替代 Android 作業系統，在實作此功能時大幅提升了 MTE 的可用性與適用範圍。
 
-### Buying a Google Pixel
+### 購買 Google Pixel
 
 還有一些購買 Google Pixel 的小提醒：
 
