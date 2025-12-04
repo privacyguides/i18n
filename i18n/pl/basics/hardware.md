@@ -120,33 +120,33 @@ Podobnie jak w przypadku wszystkich zamków, blokady Kensington są podatne na [
 
 ### Izolacja środowisk
 
-Many solutions exist that allow you to separate what you're doing on a computer, such as virtual machines and sandboxing. However, the best compartmentalization is physical separation. This is useful especially for situations where certain software requires you to bypass security features in your OS, such as with anti-cheat software bundled with many games.
+Istnieje wiele rozwiązań pozwalających oddzielić wykonywane na komputerze czynności — np. maszyny wirtualne czy piaskownice. Najlepszą separacją jest jednak fizyczne rozdzielenie urządzeń. Ma to szczególne znaczenie w sytuacjach, gdy pewne oprogramowanie zmusza do obchodzenia zabezpieczeń systemu operacyjnego, np. oprogramowanie anti-cheat dołączane do wielu gier.
 
-For gaming, it may be useful to designate one machine as your "gaming" machine and only use it for that one task. Keep it on a separate VLAN. This may require the use of a managed switch and a router that supports segregated networks.
+W przypadku gier warto rozważyć przeznaczenie jednego urządzenia wyłącznie do grania i utrzymywanie go w oddzielnej sieci VLAN Może to wymagać użycia przełącznika zarządzalnego oraz routera obsługującego wydzielone sieci.
 
-Most consumer routers allow you to do this by enabling a separate "guest" network that can't talk to your main network. All untrusted devices can go here, including IoT devices like your smart fridge, thermostat, TV, etc.
+Większość routerów konsumenckich pozwala osiągnąć podobny efekt poprzez włączenie oddzielnej sieci „gościa”, która nie ma dostępu do sieci głównej. Wszystkie niezaufane urządzenia — w tym urządzenia IoT, takie jak inteligentna lodówka, termostat czy telewizor — można umieścić właśnie w takiej sieci.
 
-### Minimalism
+### Minimalizm
 
-As the saying goes, "less is more". The fewer devices you have connected to your network, the less potential attack surface you'll have and the less work it will be to make sure they all stay up-to-date.
+Jak mówi przysłowie: „mniej znaczy więcej”. Im mniej urządzeń podłączonych do sieci, tym mniejsza powierzchnia ataku i mniej pracy przy utrzymywaniu ich aktualności.
 
-You may find it useful to go around your home and make a list of every connected device you have to help you keep track.
+Może być pomocne przejście się po domu i spisanie wszystkich podłączonych urządzeń, aby mieć nad nimi kontrolę.
 
-### Routers
+### Routery
 
-Your router handles all your network traffic and acts as your first line of defense between you and the open internet.
+Router obsługuje cały ruch sieciowy i jest pierwszą linią obrony między Tobą a Internetem.
 
 <div class="admonition Note" markdown>
 <p class="admonition-title">Uwaga</p>
 
-A lot of routers come with storage to put your files on so you can access them from any computer on your network. We recommend you don't use networking devices for things other than networking. In the event your router was compromised, your files would also be compromised.
+Wiele routerów wyposażonych jest w pamięć, na której można przechowywać pliki, aby mieć do nich dostęp z dowolnego komputera w sieci. Nie zalecamy jednak używania urządzeń sieciowych do celów innych niż praca w sieci. W przypadku naruszenia bezpieczeństwa routera Twoje pliki również zostaną zagrożone.
 
 </div>
 
-The most important thing to think about with routers is keeping them up-to-date. Many modern routers will automatically install updates, but many others won't. You should check on your router's settings page for this option. That page can usually be accessed by typing `192.168.1.1` or `192.168.0.1` into the URL bar of any browser assuming you're on the same network. You can also check in the network settings of your OS for "router" or "gateway".
+Najważniejsze jest dbanie o aktualność oprogramowania routera. Wiele nowoczesnych routerów instaluje aktualizacje automatycznie, ale sporo z nich tego nie robi. Sprawdź w ustawieniach routera, czy taka opcja jest dostępna. Strona konfiguracyjna routera zwykle dostępna jest pod adresem `192.168.1.1` lub `192.168.0.1`, który należy wpisać w pasku adresu przeglądarki internetowej, pod warunkiem, że korzystasz z tej samej sieci. Możesz też sprawdzić w ustawieniach sieci w systemie operacyjnym pozycję „router” lub „brama”.
 
-If your router does not support automatic updates, you will need to go to the manufacturer's site to download the updates and apply them manually.
+Jeśli router nie obsługuje automatycznych aktualizacji, należy pobrać poprawki ze strony producenta i zainstalować je ręcznie.
 
-Many consumer-grade routers aren't supported for very long. If your router isn't supported by the manufacturer anymore, you can check if it's supported by [FOSS firmware](../router.md). You can also buy routers that come with FOSS firmware installed by default; these tend to be supported longer than most routers.
+Wiele routerów konsumenckich nie jest już obsługiwanych przez długi czas. Jeśli Twój router nie otrzymuje już aktualizacji od producenta, sprawdź, czy nie obsługuje go [oprogramowanie układowe FOSS](../router.md). Można też kupić routery z preinstalowanym otwartym oprogramowaniem układowym, które zwykle są wspierane dłużej niż standardowe modele.
 
-Some ISPs provide a combined router/modem. It can be beneficial for security to purchase a separate router and set your ISP router/modem into modem-only mode. This way, even when your ISP-provided router is no longer getting updates, you can still get security updates and patches. It also means any problems that affect your modem won't affect your router and vice versa.
+Niektórzy dostawcy ISP oferują kombinację router/modem. Dla bezpieczeństwa warto rozważyć zakup oddzielnego routera i ustawienie dostarczonego przez ISP urządzenia w trybie modemu. Dzięki temu, nawet gdy urządzenie ISP przestanie otrzymywać aktualizacje, możesz nadal otrzymywać aktualizacje zabezpieczeń i poprawki dla własnego routera. Oznacza to również, że wszelkie problemy dotyczące modemu nie będą wpływać na router i vice versa.
