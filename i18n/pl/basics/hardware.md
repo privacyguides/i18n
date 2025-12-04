@@ -116,9 +116,9 @@ Wiele laptopów wyposażonych jest w [gniazdo Kensington](https://www.kensington
 
 Podobnie jak w przypadku wszystkich zamków, blokady Kensington są podatne na [ataki fizyczne](https://youtu.be/vgvCxL7dMJk), więc przede wszystkim odstraszają drobną kradzież. Możesz zabezpieczyć swojego laptopa w domu lub nawet w miejscu publicznym, przypinając go do nogi stołu lub innego stabilnego elementu.
 
-## Secure your Network
+## Zabezpiecz swoją sieć
 
-### Compartmentalization
+### Izolacja środowisk
 
 Many solutions exist that allow you to separate what you're doing on a computer, such as virtual machines and sandboxing. However, the best compartmentalization is physical separation. This is useful especially for situations where certain software requires you to bypass security features in your OS, such as with anti-cheat software bundled with many games.
 
