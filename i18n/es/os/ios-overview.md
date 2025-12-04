@@ -218,11 +218,11 @@ El [color de la burbuja de mensajes](https://support.apple.com/en-us/104972) en 
 
 Si tú o tu compañero de mensajería tenéis activada la Copia de Seguridad de iCloud sin Protección de Datos Avanzada, la clave de cifrado se almacenará en los servidores de Apple, lo que significa que podrán acceder a tus mensajes.
 
-By default, you trust Apple's identity servers that you're messaging the right person. To defend yourself from a potentially malicious server, you can enable **[Contact Key Verification](https://support.apple.com/en-us/118246)**. At the top of the **Settings** app where your name is, select it, then go to **Contact Key Verification**.
+De forma predeterminada, confías en los servidores de identidad de Apple para asegurarte de que estás enviando mensajes a la persona correcta. Para defenderte de un servidor potencialmente malicioso, puedes habilitar la **[Verificación de Claves de Contacto](https://support.apple.com/en-us/118246)**. En la parte superior de la aplicación **Ajustes**, donde está tu nombre, selecciónala y ve a **Verificación de Claves de Contacto**.
 
-- [x] Turn on **Verification in iMessage**
+- [x] Activa **Verificación en iMessage**
 
-Both you and your contacts need to enable Contact Key Verification and follow Apple's [instructions](https://support.apple.com/en-us/118246#verify) for the security assurances mentioned above to take effect.
+Tanto tú como tus contactos debéis activar la Verificación de Claves de Contacto y seguir las [instrucciones](https://support.apple.com/en-us/118246#verify) de Apple para que surtan efecto las garantías de seguridad mencionadas anteriormente.
 
 ### Permisos de Fotos
 
@@ -252,14 +252,14 @@ Además de bloquear las aplicaciones tras los datos biométricos, también puede
 
 Puedes ocultar una aplicación pulsando prolongadamente sobre ella y seleccionando **Requerir Face ID/Touch**→**Ocultar y Requerir Face ID/Touch ID**. Ten en cuenta que las aplicaciones de Apple preinstaladas, así como el navegador web y la aplicación de correo electrónico predeterminados, no se pueden ocultar. Las aplicaciones ocultas residen en una carpeta **Oculta** en la parte inferior de la biblioteca de aplicaciones, que puede desbloquearse utilizando datos biométricos. Esta carpeta aparece en la Biblioteca de Aplicaciones tanto si has ocultado aplicaciones como si no, lo que te proporciona un grado de negación plausible.
 
-### Guided Access
+### Acceso Guiado
 
-Sometimes you might want to hand your phone to someone to make a call or do a specific task, but you don't want them to have full access to your phone. In these cases, you can quickly enable **[Guided Access](https://support.apple.com/guide/iphone/lock-iphone-to-one-app-iph7fad0d10/ios)** to lock the phone to one specific app until you authenticate.
+A veces puede que quieras dejarle tu teléfono a alguien para que haga una llamada o una tarea específica, pero no quieres que tenga acceso total a tu teléfono. En estos casos, puedes activar rápidamente **[Acceso Guiado](https://support.apple.com/guide/iphone/lock-iphone-to-one-app-iph7fad0d10/ios)** para bloquear el teléfono en una aplicación específica hasta que te autentifiques.
 
 <div class="admonition warning" markdown>
 <p class="admonition-title">Advertencia</p>
 
-Guided Access isn't foolproof, as it's possible you could leak data unintentionally or the feature could be bypassed. You should only use Guided Access for situations where you casually hand your phone to someone to use. You should not use it as a tool to protect against advanced adversaries.
+El Acceso Guiado no es infalible, ya que es posible que se filtren datos de forma no intencionada o que se pudiera eludir dicha función. Solo deberías utilizar el Acceso Guiado en situaciones en las que le prestas tu teléfono a alguien para que lo utilice de forma ocasional. No deberías utilizarlo como una herramienta de protección contra adversarios avanzados.
 
 </div>
 
@@ -267,10 +267,10 @@ Guided Access isn't foolproof, as it's possible you could leak data unintentiona
 
 Si necesitas ocultar información en una foto, puedes utilizar las herramientas de edición integradas de Apple para hacerlo.
 
-You can use the [Clean Up](https://support.apple.com/en-us/121429) feature on supported devices to pixelate faces or remove objects from images.
+Puedes utilizar la función [Limpiar](https://support.apple.com/en-us/121429) en los dispositivos compatibles para pixelar caras o eliminar objetos de las imágenes.
 
 - Abre la aplicación **Fotos** y toca la foto que hayas seleccionado para editarla
-- Tap the :material-tune:
+- Pulsa :material-tune:
 - Pulsa el botón **Limpiar**
 - Dibuja un círculo alrededor de lo que quieras ocultar. Las caras se pixelarán y se intentará borrar todo lo demás.
 
@@ -278,14 +278,14 @@ Nuestra advertencia [en contra de difuminar el texto](../data-redaction.md) tamb
 
 <div class="annotate" markdown>
 
-- Tap the image you have selected for redaction
-- Tap the :material-tune: → :material-dots-horizontal: (1) → Markup → :material-plus:
-- Select **Add Shape** and choose the square or circle
-- On the toolbar, tap the circle and choose black as the color for filling in the shape. También puedes mover la forma y aumentar su tamaño según te convenga.
+- Pulsa la imagen que ha seleccionado para la edición
+- Pulsa :material-tune: → :material-dots-horizontal: (1) → Marcar → :material-plus:
+- Selecciona **Añadir Forma** y elige el cuadrado o el círculo
+- En la barra de herramientas, pulsa el círculo y elige el negro como color para rellenar la forma. También puedes mover la forma y aumentar su tamaño según te convenga.
 
 </div>
 
-1. This may not appear on certain iPhone models.
+1. Es posible que esto no aparezca en algunos modelos de iPhone.
 
 **No** utilices el resaltador para ocultar información, ya que su opacidad no es del 100%.
 
@@ -303,10 +303,10 @@ Apple siempre pone las versiones beta de iOS a disposición de quienes deseen ay
 
 Si tu modelo de amenaza incluye [:material-target-account: Ataques Dirigidos](../basics/common-threats.md#attacks-against-specific-individuals ""){.pg-red} que implican herramientas forenses, y quieres minimizar la posibilidad de que se utilicen exploits para acceder a tu teléfono, deberías reiniciar tu dispositivo con frecuencia. El estado *después de* un reinicio pero *antes de* desbloquear tu dispositivo se conoce como "Antes del Primer Desbloqueo" (BFU), y cuando tu dispositivo está en ese estado hace que sea [significativamente más difícil](https://belkasoft.com/checkm8_glossary) para las herramientas forenses explotar vulnerabilidades para acceder a tus datos. Este estado BFU te permite recibir notificaciones de llamadas, mensajes de texto y alarmas, pero la mayoría de los datos de tu dispositivo siguen estando encriptados y son inaccesibles. Esto puede ser poco práctico, así que considera si estas soluciones tienen sentido para tu situación.
 
-iPhones [automatically reboot](https://support.apple.com/guide/security/protecting-user-data-in-the-face-of-attack-secf5549a4f5/1/web/1#:~:text=On%20an%20iPhone%20or%20iPad%20with%20iOS%2018%20and%20iPadOS%2018%20or%20later%2C%20a%20new%20security%20protection%20will%20restart%20devices%20if%20they%20remain%20locked%20for%20a%20prolonged%20period%20of%20time.) if they're not unlocked after a period of time.
+Los iPhones [se reinician automáticamente](https://support.apple.com/guide/security/protecting-user-data-in-the-face-of-attack-secf5549a4f5/1/web/1#:~:text=On%20an%20iPhone%20or%20iPad%20with%20iOS%2018%20and%20iPadOS%2018%20or%20later%2C%20a%20new%20security%20protection%20will%20restart%20devices%20if%20they%20remain%20locked%20for%20a%20prolonged%20period%20of%20time.) si no se desbloquean después de un periodo de tiempo.
 
 ### MTE
 
-The iPhone 17 line and later offer a security enhancement called [Memory Tagging Extension](https://developer.arm.com/documentation/108035/0100/Introduction-to-the-Memory-Tagging-Extension) (MTE), which makes it significantly harder for an attacker to exploit memory corruption vulnerabilities. This always-on protection depends on hardware support, so it's not available for older devices.
+La línea 17 del iPhone y posteriores ofrecen una mejora de seguridad denominada [Extensión de Etiquetado de Memoria](https://developer.arm.com/documentation/108035/0100/Introduction-to-the-Memory-Tagging-Extension) (MTE), que dificulta considerablemente que un atacante explote vulnerabilidades de corrupción de memoria. Esta protección que siempre está activada depende de la compatibilidad del hardware, así que no está disponible para dispositivos más viejos.
 
-For more details on Apple's implementation of MTE, read the [blog post](https://security.apple.com/blog/memory-integrity-enforcement) published by Apple Security Research. We also cover Apple's implementation of MTE and how it compares to Android's implementation in the Google Pixel 8 series and later in our [own article](https://www.privacyguides.org/posts/2025/09/20/memory-integrity-enforcement-changes-the-game-on-ios).
+Para más detalles sobre la implementación de la MTE por parte de Apple, lee la [entrada de blog](https://security.apple.com/blog/memory-integrity-enforcement) publicada por Apple Security Research. También tratamos la implementación de MTE por parte de Apple y cómo se compara con la implementación por parte de Android en la serie Google Pixel 8 y posteriores en nuestro [artículo propio](https://www.privacyguides.org/posts/2025/09/20/memory-integrity-enforcement-changes-the-game-on-ios).
