@@ -1,21 +1,21 @@
 ---
-meta_title: "Why Email Isn't the Best Choice for Privacy and Security - Privacy Guides"
-title: Email Security
+meta_title: "Dlaczego e-mail nie jest najlepszym wyborem pod względem prywatności i bezpieczeństwa – Privacy Guides"
+title: Bezpieczeństwo poczty e-mail
 icon: material/email
-description: Email is insecure in many ways, and these are some of the reasons it isn't our top choice for secure communications.
+description: Poczta e-mail jest niezabezpieczoną na wiele sposobów formą komunikacji, a oto niektóre z powodów, dla których nie jest ona naszym pierwszym wyborem, jeśli chodzi o bezpieczną komunikację.
 ---
 
-Email is an insecure form of communication by default. You can improve your email security with tools such as OpenPGP, which add end-to-end encryption to your messages, but OpenPGP still has a number of drawbacks compared to encryption in other messaging applications.
+E-mail jest domyślnie niezabezpieczoną formą komunikacji. Bezpieczeństwo poczty e-mail można poprawić narzędziami takimi jak OpenPGP, które dodają szyfrowanie typu end-to-end do wiadomości, jednak OpenPGP nadal ma szereg wad w porównaniu z szyfrowaniem stosowanym w innych komunikatorach.
 
-As a result, email is best used for receiving transactional emails (like notifications, verification emails, password resets, etc.) from the services you sign up for online, not for communicating with others.
+W efekcie e-mail najlepiej nadaje się do otrzymywania wiadomości dotyczących transakcji (np. powiadomień, resetów haseł, wiadomości z linkiem weryfikacyjnym itp.) od usług, na które rejestrujesz się online, a nie do komunikowania się z innymi.
 
-## Email Encryption Overview
+## Przegląd szyfrowania wiadomości e-mail
 
-The standard way to add E2EE to emails between different email providers is by using OpenPGP. There are different implementations of the OpenPGP standard, the most common being [GnuPG](../encryption.md#gnu-privacy-guard) and [OpenPGP.js](https://openpgpjs.org).
+Standardowym sposobem dodania szyfrowania E2EE do wiadomości między różnymi dostawcami poczty jest użycie OpenPGP. Istnieją różne implementacje standardu OpenPGP, najpopularniejsze to [GnuPG](../encryption.md#gnu-privacy-guard) i [OpenPGP.js](https://openpgpjs.org).
 
-Even if you use OpenPGP, it does not support [forward secrecy](https://en.wikipedia.org/wiki/Forward_secrecy), which means if the private key of either you or the message recipient is ever stolen, all previous messages encrypted with it will be exposed. This is why we recommend [instant messengers](../real-time-communication.md) which implement forward secrecy over email for person-to-person communications whenever possible.
+Nawet jeśli używasz OpenPGP, nie obsługuje ono [utajniania z wyprzedzeniem](https://pl.wikipedia.org/wiki/Utajnianie_z_wyprzedzeniem), co oznacza, że jeśli prywatny klucz Twój lub odbiorcy zostanie kiedykolwiek skradziony, wszystkie poprzednie wiadomości zaszyfrowane tym kluczem mogą zostać ujawnione. Dlatego zalecamy korzystanie z [komunikatorów](../real-time-communication.md), które implementują utajnianie z wyprzedzeniem, zamiast poczty e-mail do komunikacji między osobami, o ile to możliwe.
 
-There is another standard which is popular with business called [S/MIME](https://en.wikipedia.org/wiki/S/MIME), however it requires a certificate issued from a [Certificate Authority](https://en.wikipedia.org/wiki/Certificate_authority) (not all of them issue S/MIME certificates, and often a yearly payment is required). In some cases it is more usable than PGP because it has support in popular/mainstream email applications like Apple Mail, [Google Workplace](https://support.google.com/a/topic/9061730), and [Outlook](https://support.office.com/article/encrypt-messages-by-using-s-mime-in-outlook-on-the-web-878c79fc-7088-4b39-966f-14512658f480). However, S/MIME does not solve the issue of lack of forward secrecy, and isn't particularly more secure than PGP.
+Istnieje też inny standard popularny w środowisku biznesowym — [S/MIME](https://en.wikipedia.org/wiki/S/MIME) — jednak wymaga on certyfikatu wydanego przez [urząd certyfikacji](https://pl.wikipedia.org/wiki/Urząd_certyfikacji) (nie wszystkie urzędy wydają certyfikaty S/MIME, a często konieczne jest coroczna opłata). W niektórych sytuacjach jest on bardziej użyteczny niż PGP, ponieważ jest obsługiwany w popularnych aplikacjach pocztowych, takich jak Poczta Apple, [Google Workspace](https://support.google.com/a/topic/9061730) i [Outlook](https://support.office.com/article/encrypt-messages-by-using-s-mime-in-outlook-on-the-web-878c79fc-7088-4b39-966f-14512658f480). Niemniej S/MIME nie rozwiązuje problemu braku utajniania z wyprzedzeniem i nie jest znacząco bezpieczniejszy niż PGP.
 
 ## What is the Web Key Directory standard?
 
