@@ -1,6 +1,6 @@
 *[2FA]: Uwierzytelnienie dwuskładnikowe
 *[ADB]: Android Debug Bridge
-*[AOSP]: Android Open Source Project
+*[AOSP]: Projekt Android Open Source
 *[ATA]: Advanced Technology Attachment
 *[powierzchnia ataku]: Całkowita liczba możliwych punktów dostępu umożliwiających nieautoryzowany dostęp do systemu
 *[AVB]: Android Verified Boot
@@ -17,7 +17,7 @@
 *[DoH3]: DNS poprzez HTTP/3
 *[DoT]: DNS poprzez TLS
 *[DPI]: Głęboka inspekcja pakietów identyfikuje i blokuje pakiety o określonej zawartości
-*[E2EE]: Szyfrowanie od końca do końca/szyfrowane
+*[E2EE]: Szyfrowanie/szyfrowane end-to-end
 *[ECS]: EDNS Client Subnet
 *[EOG]: Europejski Obszar Gospodarczy
 *[entropia]: Miara nieprzewidywalności czegoś
@@ -46,7 +46,7 @@
 *[IPv4]: Protokół internetowy w wersji 4
 *[IPv6]: Protokół internetowy w wersji 6
 *[ISP]: Dostawca usług internetowych
-*[ISPs]: Dostawcy usług internetowych
+*[dostawcy ISP]: Dostawcy usług internetowych
 *[JNI]: Natywny interfejs Java
 *[KYC]: Poznaj swojego klienta
 *[LLaVA]: Large Language and Vision Assistant (wielomodalny model sztucznej inteligencji)
