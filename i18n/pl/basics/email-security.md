@@ -31,22 +31,22 @@ Jeżeli korzystasz ze współdzielonej domeny dostawcy, który nie obsługuje WK
 
 Dostawcy poczty, którzy pozwalają na korzystanie ze standardowych protokołów dostępu, takich jak IMAP i SMTP, mogą współpracować z dowolnym z [zalecanych przez nas klientów poczty e-mail](../email-clients.md). W zależności od metody uwierzytelniania może to jednak obniżać bezpieczeństwo, jeśli ani dostawca, ani klient poczty nie obsługują [OAuth](account-creation.md#sign-in-with-oauth) lub aplikacji mostkowych, ponieważ w takim przypadku [uwierzytelnianie wieloskładnikowe](multi-factor-authentication.md) nie jest możliwe przy zwykłym logowaniu za pomocą hasła.
 
-### How Do I Protect My Private Keys?
+### Jak chronić klucze prywatne?
 
-A smart card (such as a [YubiKey](https://support.yubico.com/hc/articles/360013790259-Using-Your-YubiKey-with-OpenPGP) or [Nitrokey](../security-keys.md#nitrokey)) works by receiving an encrypted email message from a device (phone, tablet, computer, etc.) running an email/webmail client. The message is then decrypted by the smart card and the decrypted content is sent back to the device.
+Karta inteligentna (np. [YubiKey](https://support.yubico.com/hc/articles/360013790259-Using-Your-YubiKey-with-OpenPGP) lub [Nitrokey](../security-keys.md#nitrokey)) działa w ten sposób, że otrzymuje zaszyfrowaną wiadomość e-mail z urządzenia (telefonu, tabletu, komputera itp.) uruchamiającego klienta poczty e-mail lub klienta webmail. Wiadomość jest następnie odszyfrowywana przez kartę inteligentną, a odszyfrowana treść zostaje zwrócona do urządzenia.
 
-It is advantageous for the decryption to occur on the smart card to avoid possibly exposing your private key to a compromised device.
+Warto, aby odszyfrowywanie odbywało się bezpośrednio na karcie — zapobiega to ewentualnemu ujawnieniu klucza prywatnego w przypadku naruszenia bezpieczeństwa urządzenia.
 
-## Email Metadata Overview
+## Przegląd metadanych wiadomości e-mail
 
-Email metadata is stored in the [message header](https://en.wikipedia.org/wiki/Email#Message_header) of the email message and includes some visible headers that you may have seen such as `To`, `From`, `Cc`, `Date`, and `Subject`. There are also a number of hidden headers included by many email clients and providers that can reveal information about your account.
+Metadane wiadomości e-mail są przechowywane w [nagłówku wiadomości](https://en.wikipedia.org/wiki/Email#Message_header) i obejmują niektóre widoczne nagłówki, takie jak `Do`, `Od`, `DW`, `Data` i `Temat`. Wiele klientów poczty e-mail i dostawców dodaje też ukryte nagłówki, które mogą ujawniać informacje o koncie.
 
-Client software may use email metadata to show who a message is from and what time it was received. Servers may use it to determine where an email message must be sent, among [other purposes](https://en.wikipedia.org/wiki/Email#Message_header) which are not always transparent.
+Oprogramowanie klienckie może wykorzystywać metadane wiadomości e-mail do wyświetlenia nadawcy wiadomości oraz czasu jej otrzymania. Serwery mogą używać ich do ustalenia, dokąd wiadomość e-mail powinna zostać przesłana, oraz do [innych celów](https://en.wikipedia.org/wiki/Email#Message_header), które nie zawsze są przejrzyste.
 
-### Who Can View Email Metadata?
+### Kto może przeglądać metadane wiadomości e-mail?
 
-Email metadata is protected from outside observers with [opportunistic TLS](https://en.wikipedia.org/wiki/Opportunistic_TLS), but it is still able to be seen by your email client software (or webmail) and any servers relaying the message from you to any recipients including your email provider. Sometimes email servers will also use third-party services to protect against spam, which generally also have access to your messages.
+Metadane wiadomości e-mail są chronione przed zewnętrznymi obserwatorami przy użyciu [oportunistycznego TLS](https://en.wikipedia.org/wiki/Opportunistic_TLS), jednak nadal mogą być one widoczne dla oprogramowania klienckiego (lub webmaila) oraz dla wszystkich serwerów pośredniczących w przesyłaniu wiadomości, w tym dla dostawcy poczty e-mail. Czasami serwery poczty e-mail korzystają też z usług firm trzecich do ochrony przed spamem, które zazwyczaj również mają dostęp do Twoich wiadomości.
 
-### Why Can't Metadata be E2EE?
+### Dlaczego metadane nie mogą być E2EE?
 
-Email metadata is crucial to the most basic functionality of email (where it came from, and where it has to go). E2EE was not built into standard email protocols originally, instead requiring add-on software like OpenPGP. Because OpenPGP messages still have to work with traditional email providers, it cannot encrypt some of this email metadata required for identifying the parties communicating. That means that even when using OpenPGP, outside observers can see lots of information about your messages, such as whom you're emailing, when you're emailing, etc.
+Metadane wiadomości e-mail są niezbędne dla podstawowej funkcjonalności poczty (skąd wiadomość pochodzi i dokąd ma trafić). Szyfrowanie end-to-end nie było pierwotnie wbudowane w standardowe protokoły e-mail — wymaga ono dodatkowego oprogramowania, takiego jak OpenPGP. Ponieważ wiadomości OpenPGP nadal muszą współpracować z tradycyjnymi dostawcami poczty, część metadanych niezbędnych do identyfikacji stron komunikujących się nie może zostać zaszyfrowana. Oznacza to, że nawet w przypadku korzystania z OpenPGP zewnętrzni obserwatorzy mogą zobaczyć wiele informacji o Twoich wiadomościach, na przykład z kim prowadzona jest korespondencja i kiedy były wysyłane.
