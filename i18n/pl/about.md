@@ -217,10 +217,10 @@ W 2023 roku udostępniliśmy międzynarodowe tłumaczenia strony na język [fran
 
 <div class="admonition danger" markdown>
 
-The following is a human-readable summary of (and not a substitute for) the [license](https://github.com/privacyguides/privacyguides.org/blob/main/README.md#license).
+Poniżej zamieszczono streszczenie [licencji](https://github.com/privacyguides/privacyguides.org/blob/main/README.md#license) w formie zrozumiałej dla ludzi (nie jest to substytut pełnej licencji).
 
 </div>
 
-:fontawesome-brands-creative-commons: :fontawesome-brands-creative-commons-by: :fontawesome-brands-creative-commons-sa: Unless otherwise noted, the original content on this website is made available under the [Creative Commons Attribution-ShareAlike 4.0 International Public License](https://github.com/privacyguides/privacyguides.org/blob/main/LICENSE). This means that you are free to copy and redistribute the material in any medium or format for any purpose, even commercially; as long as you give appropriate credit to `Privacy Guides (www.privacyguides.org)` and share your work under the same license.
+:fontawesome-brands-creative-commons: :fontawesome-brands-creative-commons-by: :fontawesome-brands-creative-commons-sa: O ile nie zaznaczono inaczej, oryginalne treści na tej stronie udostępnione są na publicznej licencji [Uznanie autorstwa – Na tych samych warunkach 4.0 Międzynarodowa](https://github.com/privacyguides/privacyguides.org/blob/main/LICENSE). Oznacza to, że możesz kopiować i rozpowszechniać materiały w dowolnym medium lub formacie w dowolnym celu, także komercyjnym, pod warunkiem odpowiedniego przypisania autorstwa `Privacy Guides (www.privacyguides.org)` oraz udostępnienia swojej pracy na tej samej licencji.
 
-You may comply with these terms in any reasonable manner, but not in any way that suggests Privacy Guides endorses you or your use.
+Można stosować się do tych warunków w dowolny rozsądny sposób, jednak nie w sposób sugerujący, że Privacy Guides popiera Ciebie lub Twoje wykorzystanie.

@@ -1,20 +1,20 @@
 ---
-meta_title: "Recommended AI Chat: Private ChatGPT Alternatives - Privacy Guides"
-title: "AI Chat"
+meta_title: "Zalecane czaty AI: Prywatne alternatywy dla ChatGPT – Privacy Guides"
+title: "Czat AI"
 icon: material/assistant
-description: Unlike OpenAI's ChatGPT and its Big Tech competitors, these AI tools run locally so your data never leaves your desktop device.
+description: W przeciwieństwie do ChatGPT od OpenAI i jego konkurentów z wielkich firm technologicznych, te narzędzia AI działają lokalnie, więc Twoje dane nigdy nie opuszczają komputera.
 cover: ai-chatbots.webp
 ---
 
-<small>Protects against the following threat(s):</small>
+<small>Chroni przed następującymi zagrożeniami:</small>
 
-- [:material-server-network: Service Providers](basics/common-threats.md#privacy-from-service-providers){ .pg-teal }
-- [:material-account-cash: Surveillance Capitalism](basics/common-threats.md#surveillance-as-a-business-model){ .pg-brown }
-- [:material-close-outline: Censorship](basics/common-threats.md#avoiding-censorship){ .pg-blue-gray }
+- [:material-server-network: Dostawcy usług](basics/common-threats.md#privacy-from-service-providers){ .pg-teal }
+- [:material-account-cash: Kapitalizm inwigilacji](basics/common-threats.md#surveillance-as-a-business-model){ .pg-brown }
+- [:material-close-outline: Cenzura](basics/common-threats.md#avoiding-censorship){ .pg-blue-gray }
 
-The use of **AI chat**, also known as Large Language Models (LLMs), has become increasingly common since the release of ChatGPT in 2022. LLMs can help us write better, understand unfamiliar subjects, or answer a wide range of questions. They work by statistically predicting the next word in their responses based on a vast amount of data scraped from the web.
+Korzystanie z **czatów AI** (lub też **czatów SI**), znanych również jako duże modele językowe (LLM), stało się coraz bardziej powszechne od czasu pojawienia się ChatGPT w 2022 roku. LLM-y mogą pomagać w lepszym pisaniu, ułatwiać zrozumienie nieznanych tematów lub odpowiadać na szeroki zakres pytań. Ich działanie polega na statystycznym przewidywaniu kolejnego słowa w odpowiedzi na podstawie ogromnej ilości danych pozyskanych z sieci.
 
-## Privacy Concerns About LLMs
+## Obawy dotyczące prywatność związane z modelami LLM
 
 Data used to train AI models, however, includes a massive amount of publicly available data scraped from the web, which can include sensitive information like names and addresses. Cloud-based AI software often [collects your inputs](https://openai.com/policies/row-privacy-policy), meaning your chats are not private from them. This practice also introduces a risk of data breaches. Furthermore, there is a real possibility that an LLM will leak your private chat information in future conversations with other users.
 

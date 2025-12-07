@@ -50,7 +50,7 @@
 *[JNI]: Natywny interfejs Java
 *[KYC]: Poznaj swojego klienta
 *[LLaVA]: Large Language and Vision Assistant (wielomodalny model sztucznej inteligencji)
-*[LLMy]: Duże modele językowe (modele sztucznej inteligencji, takie jak ChatGPT)
+*[LLM-y]: Duże modele językowe (modele sztucznej inteligencji, takie jak ChatGPT)
 *[LUKS]: Linux Unified Key Setup (szyfrowanie całego dysku)
 *[MAC]: Warstwa sterowania dostępem do medium transmisyjnego
 *[MDAG]: Microsoft Defender Application Guard

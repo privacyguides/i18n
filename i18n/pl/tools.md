@@ -347,7 +347,7 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 ## Oprogramowanie
 
-### AI Chat
+### Czat AI
 
 <div class="grid cards" markdown>
 

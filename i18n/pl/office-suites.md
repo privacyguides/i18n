@@ -5,9 +5,9 @@ description: These office suites offer their full functionality without an accou
 cover: office-suites.webp
 ---
 
-<small>Protects against the following threat(s):</small>
+<small>Chroni przed następującymi zagrożeniami:</small>
 
-- [:material-server-network: Service Providers](basics/common-threats.md#privacy-from-service-providers){ .pg-teal }
+- [:material-server-network: Dostawcy usług](basics/common-threats.md#privacy-from-service-providers){ .pg-teal }
 
 Choose an **office suite** that does not require logging in to an account to access its full functionality. The tools listed here can be used offline and could reasonably act as a replacement for Microsoft Office for most needs.
 

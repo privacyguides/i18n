@@ -24,7 +24,7 @@ schema:
 robots: nofollow, max-snippet:-1, max-image-preview:large
 ---
 
-<small>Protects against the following threat(s):</small>
+<small>Chroni przed następującymi zagrożeniami:</small>
 
 - [:material-bug-outline: Passive Attacks](../basics/common-threats.md#security-and-privacy){ .pg-orange }
 
@@ -59,7 +59,7 @@ Shelter is recommended over [Insular](https://secure-system.gitlab.io/Insular) a
 
 ### Secure Camera
 
-<small>Protects against the following threat(s):</small>
+<small>Chroni przed następującymi zagrożeniami:</small>
 
 - [:material-account-search: Public Exposure](../basics/common-threats.md#limiting-public-information){ .pg-green }
 
@@ -103,7 +103,7 @@ The image orientation metadata is not deleted. If you enable location (in Secure
 
 ### Secure PDF Viewer
 
-<small>Protects against the following threat(s):</small>
+<small>Chroni przed następującymi zagrożeniami:</small>
 
 - [:material-target-account: Targeted Attacks](../basics/common-threats.md#attacks-against-specific-individuals){ .pg-red }
 
