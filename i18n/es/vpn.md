@@ -198,7 +198,7 @@ Anteriormente, IVPN admitía el reenvío de puertos, pero eliminó la opción en
 
 #### :material-check:{ .pg-green } Anti censura
 
-IVPN tiene modos de ofuscación usando [V2Ray](https://v2ray.com/en/index.html) lo cual ayuda en situaciones donde los protocolos VPN como OpenVPN o Wireguard están bloqueados. Actualmente, esta característica solo está disponible en la versión para escritorio e [iOS](https://ivpn.net/knowledgebase/ios/v2ray). Este cuenta con dos modos donde puede usar [VMess](https://guide.v2fly.org/en_US/basics/vmess.html) sobre QUIC o conexiones TCP. QUIC es un moderno protocolo con mejor control de la congestión y puede ser más rápido con menor latencia. El modo TCP ayuda para que tus datos aparezcan como tráfico HTTP regular.
+IVPN has obfuscation modes using [V2Ray](https://v2ray.com/en/index) which helps in situations where VPN protocols like OpenVPN or WireGuard are blocked. It has two modes where it can use [VMess](https://guide.v2fly.org/en_US/basics/vmess) over QUIC or TCP connections. QUIC es un moderno protocolo con mejor control de la congestión y puede ser más rápido con menor latencia. El modo TCP ayuda para que tus datos aparezcan como tráfico HTTP regular.
 
 #### :material-check:{ .pg-green } Clientes Móviles
 

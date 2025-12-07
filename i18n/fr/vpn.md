@@ -196,7 +196,7 @@ IVPN prenait auparavant en charge la redirection de port, mais a supprimé cette
 
 #### :material-check:{ .pg-green } Anti-censure
 
-IVPN utilise [V2Ray](https://v2ray.com/en/index.html) pour offusquer (cacher la vraie nature) le trafic internet, ce qui est utile dans les situations où OpenVPN et WireGuard sont bloqués. Pour le moment, cette fonctionnalité est disponible uniquement sur PC et sur [iOS](https://ivpn.net/knowledgebase/ios/v2ray). Elle dispose de deux modes d'utilisation de [VMess](https://guide.v2fly.org/en_US/basics/vmess.html) via des connexions QUIC ou TCP. QUIC est un protocole moderne avec un meilleur contrôle de la congestion et peut donc être plus rapide avec une latence réduite. Le mode TCP fait apparaître vos données comme du trafic HTTP normal.
+IVPN has obfuscation modes using [V2Ray](https://v2ray.com/en/index) which helps in situations where VPN protocols like OpenVPN or WireGuard are blocked. It has two modes where it can use [VMess](https://guide.v2fly.org/en_US/basics/vmess) over QUIC or TCP connections. QUIC est un protocole moderne avec un meilleur contrôle de la congestion et peut donc être plus rapide avec une latence réduite. Le mode TCP fait apparaître vos données comme du trafic HTTP normal.
 
 #### :material-check:{ .pg-green } Clients mobiles
 

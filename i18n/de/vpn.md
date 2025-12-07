@@ -196,7 +196,7 @@ IVPN unterstützte früher die Portweiterleitung, entfernte diese Option aber im
 
 #### :material-check:{ .pg-green } Anti-Zensur
 
-IVPN has obfuscation modes using [V2Ray](https://v2ray.com/en/index.html) which helps in situations where VPN protocols like OpenVPN or WireGuard are blocked. Derzeit ist diese Funktion nur auf Desktop und [iOS](https://ivpn.net/knowledgebase/ios/v2ray) verfügbar. Sie verfügt über zwei Modi, in denen man [VMess](https://guide.v2fly.org/en_US/basics/vmess.html) über QUIC- oder TCP-Verbindungen nutzen kann. QUIC ist ein modernes Protokoll mit besserer Staukontrolle und kann daher schneller sein und geringere Latenzzeiten aufweisen. Der TCP-Modus lässt deine Daten als normalen HTTP-Verkehr erscheinen.
+IVPN has obfuscation modes using [V2Ray](https://v2ray.com/en/index) which helps in situations where VPN protocols like OpenVPN or WireGuard are blocked. It has two modes where it can use [VMess](https://guide.v2fly.org/en_US/basics/vmess) over QUIC or TCP connections. QUIC ist ein modernes Protokoll mit besserer Staukontrolle und kann daher schneller sein und geringere Latenzzeiten aufweisen. Der TCP-Modus lässt deine Daten als normalen HTTP-Verkehr erscheinen.
 
 #### :material-check:{ .pg-green } Mobile Anwendungen
 

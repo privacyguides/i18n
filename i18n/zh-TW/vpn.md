@@ -196,7 +196,7 @@ IVPN 曾支援遠端端口轉發，但在 [2023 年 6 月](https://ivpn.net/blog
 
 #### :material-check:{ .pg-green } 突破網路審查
 
-IVPN 有使用 [V2Ray](https://v2ray.com/en/index.html) 的混淆模式，這有助於在 OpenVPN 或 WireGuard 等 VPN 協定被封鎖時繞過審查。 此功能目前僅支援桌面版與 [iOS](https://ivpn.net/knowledgebase/ios/v2ray)。 可透過 QUIC 或 TCP 兩種模式連接 [VMess](https://guide.v2fly.org/en_US/basics/vmess.html)。 QUIC 是一個新的傳輸協議，具有更好的擁塞控制，因此可能速度更快，且延遲更低。 TCP 模式的數據呈現為一般的 HTTP 流量。
+IVPN has obfuscation modes using [V2Ray](https://v2ray.com/en/index) which helps in situations where VPN protocols like OpenVPN or WireGuard are blocked. It has two modes where it can use [VMess](https://guide.v2fly.org/en_US/basics/vmess) over QUIC or TCP connections. QUIC 是一個新的傳輸協議，具有更好的擁塞控制，因此可能速度更快，且延遲更低。 TCP 模式的數據呈現為一般的 HTTP 流量。
 
 #### :material-check:{ .pg-green } 行動裝置客戶端
 

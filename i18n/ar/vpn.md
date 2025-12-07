@@ -196,7 +196,7 @@ IVPN has [servers in 41 countries](https://ivpn.net/status).(1) Picking a VPN pr
 
 #### :material-check:{ .pg-green } مقاومة الرقابة
 
-يقدم IVPN الـ (obfuscation modes) باستخدام [V2Ray](https://v2ray.com/en/index.html)، وهي مفيدة في الحالات التي يتم فيها حظر بروتوكولات VPN مثل OpenVPN أو WireGuard. حالياً، هذه الميزة متاحة فقط على أجهزة سطح المكتب (Desktop) ونظام [iOS](https://ivpn.net/knowledgebase/ios/v2ray). يوفر خيارين للتشغيل، حيث يمكنه استخدام بروتوكول [VMess ](https://guide.v2fly.org/en_US/basics/vmess.html)عبر اتصالات QUIC أو TCP. بروتوكول QUIC حديث ويُحسن طريقة انتقال البيانات، مما يساعد في زيادة السرعة وتقليل التأخير (latency) أثناء التصفح. في وضع TCP، يتم تغليف بياناتك لتبدو وكأنها بيانات تصفح عادية (HTTP)، مما يساعد في تجاوز الرقابة أو الحظر في بعض الشبكات.
+IVPN has obfuscation modes using [V2Ray](https://v2ray.com/en/index) which helps in situations where VPN protocols like OpenVPN or WireGuard are blocked. It has two modes where it can use [VMess](https://guide.v2fly.org/en_US/basics/vmess) over QUIC or TCP connections. بروتوكول QUIC حديث ويُحسن طريقة انتقال البيانات، مما يساعد في زيادة السرعة وتقليل التأخير (latency) أثناء التصفح. في وضع TCP، يتم تغليف بياناتك لتبدو وكأنها بيانات تصفح عادية (HTTP)، مما يساعد في تجاوز الرقابة أو الحظر في بعض الشبكات.
 
 #### :material-check:{ .pg-green } عملاء الهاتف المحمول
 

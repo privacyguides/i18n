@@ -194,7 +194,7 @@ IVPN به شما اجازه می‌دهد تا به [سرویس‌ها با اس
 
 #### :material-check:{ .pg-green } ضد سانسور
 
-IVPN دارای حالت‌های اختفا با استفاده از [V2Ray](https://v2ray.com/en/index.html) است که در مواقعی که پروتکل‌های VPN مانند OpenVPN یا WireGuard مسدود شده‌اند، کمک می‌کند. در حال حاضر، این قابلیت فقط در دسکتاپ و [iOS](https://ivpn.net/knowledgebase/ios/v2ray) در دسترس است. این برنامه دو حالت دارد که می‌تواند از [VMess](https://guide.v2fly.org/en_US/basics/vmess.html) روی اتصالات QUIC یا TCP استفاده کند. QUIC یک پروتکل مدرن است که کنترل بهتری بر شلوغی شبکه دارد و بنابراین ممکن است سریع‌تر و با تأخیر کمتر عمل کند. حالت TCP باعث می‌شود داده‌های شما به صورت ترافیک معمولی HTTP ظاهر شوند.
+IVPN has obfuscation modes using [V2Ray](https://v2ray.com/en/index) which helps in situations where VPN protocols like OpenVPN or WireGuard are blocked. It has two modes where it can use [VMess](https://guide.v2fly.org/en_US/basics/vmess) over QUIC or TCP connections. QUIC یک پروتکل مدرن است که کنترل بهتری بر شلوغی شبکه دارد و بنابراین ممکن است سریع‌تر و با تأخیر کمتر عمل کند. حالت TCP باعث می‌شود داده‌های شما به صورت ترافیک معمولی HTTP ظاهر شوند.
 
 #### :material-check:{ .pg-green } کلاینت‌های موبایل
 

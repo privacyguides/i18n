@@ -195,7 +195,7 @@ IVPN wcześniej oferował funkcję przekierowywania portów, jednak została ona
 
 #### :material-check:{ .pg-green } Ochrona przed cenzurą
 
-IVPN oferuje tryby zaciemniania ruchu z wykorzystaniem [V2Ray](https://v2ray.com/en/index.html), co jest przydatne w sytuacjach, gdy protokoły VPN, takie jak OpenVPN czy WireGuard, są blokowane. Obecnie ta funkcja dostępna jest tylko na komputerach stacjonarnych i urządzeniach z systemem [iOS](https://ivpn.net/knowledgebase/ios/v2ray). Dostępne są dwa tryby działania: z użyciem [VMess](https://guide.v2fly.org/en_US/basics/vmess.html) przez połączenia QUIC lub TCP. QUIC to nowoczesny protokół z lepszą kontrolą przeciążenia, co może przekładać się na wyższą prędkość i mniejsze opóźnienia. Tryb TCP sprawia, że Twój ruch sieciowy wygląda jak zwykły ruch HTTP.
+IVPN has obfuscation modes using [V2Ray](https://v2ray.com/en/index) which helps in situations where VPN protocols like OpenVPN or WireGuard are blocked. It has two modes where it can use [VMess](https://guide.v2fly.org/en_US/basics/vmess) over QUIC or TCP connections. QUIC to nowoczesny protokół z lepszą kontrolą przeciążenia, co może przekładać się na wyższą prędkość i mniejsze opóźnienia. Tryb TCP sprawia, że Twój ruch sieciowy wygląda jak zwykły ruch HTTP.
 
 #### :material-check:{ .pg-green } Aplikacje mobilne
 

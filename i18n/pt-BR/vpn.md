@@ -196,7 +196,7 @@ O IVPN suportava anteriormente o encaminhamento de portas, mas removeu a opção
 
 #### :material-check:{ .pg-green } Anti-censura
 
-O IVPN tem modos de ofuscação usando o [V2Ray](https://v2ray.com/en/index.html), o que ajuda em situações em que os protocolos de VPN, como o OpenVPN ou o WireGuard, são bloqueados. Atualmente, esse recurso está disponível apenas para desktop e [iOS](https://ivpn.net/knowledgebase/ios/v2ray). Existem dois modos em que pode-se usar o [VMess](https://guide.v2fly.org/en_US/basics/vmess.html) em conexões QUIC ou TCP. O QUIC é um protocolo moderno com melhor controle de congestionamento e, portanto, pode ser mais rápido com latência reduzida. O modo TCP faz com que seus dados apareçam como tráfego HTTP normal.
+IVPN has obfuscation modes using [V2Ray](https://v2ray.com/en/index) which helps in situations where VPN protocols like OpenVPN or WireGuard are blocked. It has two modes where it can use [VMess](https://guide.v2fly.org/en_US/basics/vmess) over QUIC or TCP connections. O QUIC é um protocolo moderno com melhor controle de congestionamento e, portanto, pode ser mais rápido com latência reduzida. O modo TCP faz com que seus dados apareçam como tráfego HTTP normal.
 
 #### :material-check:{ .pg-green } Clientes Móveis
 

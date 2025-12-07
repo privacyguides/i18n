@@ -196,7 +196,7 @@ IVPNでは以前、ポートフォワーディングに対応していました�
 
 #### :material-check:{ .pg-green } 検閲への対抗
 
-IVPNには[V2Ray](https://v2ray.com/en/index.html)を用いた難読化モードがあり、OpenVPNやWireGuardなどのVPNプロトコルがブロックされている状況で役立ちます。 現在、この機能はデスクトップと[iOS](https://ivpn.net/knowledgebase/ios/v2ray)でのみ利用可能です。 QUICもしくはTCPで[VMess](https://guide.v2fly.org/en_US/basics/vmess.html)を使用する2つのモードがあります。 QUICは輻輳制御がより優れているモダンなプロトコルで高速化・レイテンシーの低下が期待できます。 TCPではデータは通常のHTTPトラフィックとして扱われます。
+IVPN has obfuscation modes using [V2Ray](https://v2ray.com/en/index) which helps in situations where VPN protocols like OpenVPN or WireGuard are blocked. It has two modes where it can use [VMess](https://guide.v2fly.org/en_US/basics/vmess) over QUIC or TCP connections. QUICは輻輳制御がより優れているモダンなプロトコルで高速化・レイテンシーの低下が期待できます。 TCPではデータは通常のHTTPトラフィックとして扱われます。
 
 #### :material-check:{ .pg-green } モバイルクライアント
 
