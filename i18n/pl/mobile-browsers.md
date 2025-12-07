@@ -294,7 +294,7 @@ Następujące opcje dotyczące prywatności i bezpieczeństwa znajdziesz w :gear
 
 W sekcji **Siri**:
 
-- [ ] Disable **Learn from this App**
+- [ ] Wyłącz **Ucz się z tej aplikacji**
 - [ ] Wyłącz **W aplikacji**
 - [ ] Wyłącz **Na ekranie głównym**
 - [ ] Wyłącz **Sugeruj aplikację**

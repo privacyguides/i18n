@@ -1,18 +1,18 @@
 ---
-title: Traffic Statistics
-description: We self-host Umami to create a nice visualization of our traffic statistics, which are made public here.
+title: Statystyki ruchu
+description: Korzystamy z własnego serwera Umami, aby tworzyć przejrzyste wizualizacje statystyk ruchu, które są publikowane tutaj.
 ---
 
 <!-- markdownlint-disable MD051 -->
 
-We self-host [Umami](https://umami.is) to create a nice visualization of our traffic statistics, which are public at the link below.
+Korzystamy z własnego serwera [Umami](https://umami.is), aby tworzyć przejrzyste wizualizacje statystyk ruchu, które są publicznie dostępne pod poniższym linkiem.
 
-[View Statistics](https://stats.triplebit.net/share/S80jBc50hxr5TquS/www.privacyguides.org){ .md-button .md-button--primary }
+[Zobacz statystyki](https://stats.triplebit.net/share/S80jBc50hxr5TquS/www.privacyguides.org){ .md-button .md-button--primary }
 
-With this process:
+Dzięki temu:
 
-- Your information is never shared with a third party, it stays on servers we control
-- Your personal data is never saved, we only collect data in aggregate
-- No client-side JavaScript is used
+- Twoje dane nigdy nie są udostępniane osobom trzecim; pozostają one na zarządzanych przez nas serwerach
+- Twoje dane osobowe nie są nigdy zapisywane; gromadzimy wyłącznie dane zbiorcze
+- Nie używamy skryptów JavaScript po stronie klienta
 
-Because of these facts, keep in mind our statistics may be inaccurate. It is a useful tool to compare different dates with each other and analyze overall trends, but the actual numbers may be far off from reality. In other words they're _precise_ statistics, but not _accurate_ statistics.
+Z tego powodu należy pamiętać, że nasze statystyki mogą być niedokładne. Są one przydatnym narzędziem do zestawiania różnych okresów i analizowania ogólnych trendów, ale rzeczywiste liczby mogą znacznie odbiegać od stanu faktycznego. Innymi słowy, są to statystyki _precyzyjne_, ale nie _dokładne_.

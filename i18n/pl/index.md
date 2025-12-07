@@ -26,7 +26,7 @@ schema:
     "@context": https://schema.org
     "@type": WebSite
     name: Privacy Guides
-    url: "https://www.privacyguides.org/?lang=pl"
+    url: "https://www.privacyguides.org/"
     sameAs:
       - https://www.wikidata.org/wiki/Q111710163
     potentialAction:

@@ -1,12 +1,12 @@
 ---
 title: "O Privacy Guides"
-description: Privacy Guides is a socially motivated website that provides information for protecting your data security and privacy.
+description: Privacy Guides to serwis o charakterze społecznym, który dostarcza informacji o ochronie prywatności i bezpieczeństwa danych.
 schema:
   "@context": https://schema.org
   "@type": Organization
   "@id": https://www.privacyguides.org/
   name: Privacy Guides
-  url: https://www.privacyguides.org/en/about/
+  url: https://www.privacyguides.org/en/about/?lang=pl
   logo: https://www.privacyguides.org/en/assets/brand/logos/png/square/pg-yellow.png
   sameAs:
     - https://twitter.com/privacy_guides
@@ -16,15 +16,15 @@ schema:
     - https://mastodon.neat.computer/@privacyguides
 ---
 
-![Privacy Guides logo](assets/brand/logos/png/square/pg-yellow.png){ align=right }
+![Logo Privacy Guides](assets/brand/logos/png/square/pg-yellow.png){ align=right }
 
-**Privacy Guides** is a socially motivated website that provides information for protecting your data security and privacy. We are a non-profit project with a mission to inform the public about the value of digital privacy, and about global government initiatives which aim to monitor your online activity. Nasza strona jest całkowicie wolna od reklam i nie jest powiązana z żadnym z prezentowanych dostawców.
+**Privacy Guides** to serwis o charakterze społecznym, który dostarcza informacji o ochronie prywatności i bezpieczeństwa danych. Jesteśmy projektem non-profit, którego misją jest informowanie społeczeństwa o wartości prywatności cyfrowej oraz o globalnych inicjatywach rządowych mających na celu monitorowanie Twojej aktywności w sieci. Nasza strona jest całkowicie wolna od reklam i nie jest powiązana z żadnym z prezentowanych dostawców.
 
-[:material-heart:{.pg-red} Become a Member](https://donate.magicgrants.org/privacyguides){ .md-button .md-button--primary data-portal="signup" }
-[:octicons-home-16:](https://www.privacyguides.org){ .card-link title=Homepage }
-[:octicons-code-16:](https://github.com/privacyguides/privacyguides.org){ .card-link title="Source Code" }
+[:material-heart:{.pg-red} Dołącz do nas](https://donate.magicgrants.org/privacyguides){ .md-button .md-button--primary data-portal="signup" }
+[:octicons-home-16:](https://www.privacyguides.org){ .card-link title=Strona główna }
+[:octicons-code-16:](https://github.com/privacyguides/privacyguides.org){ .card-link title="Kod źródłowy" }
 
-Privacy Guides is built by volunteers and staff members around the world. All changes to our recommendations and resources are reviewed by at least two [trusted](https://discuss.privacyguides.net/u?group=team&order=solutions&period=all) individuals, and we work diligently to ensure our content is updated as quickly as possible to adapt to the ever-changing cybersecurity threat landscape.
+Privacy Guides jest tworzony przez wolontariuszy i członków zespołu z całego świata. Wszystkie zmiany w naszych zaleceniach i zasobach są weryfikowane przez co najmniej dwie [zaufane](https://discuss.privacyguides.net/u?group=team&order=solutions&period=all) osoby, a także dokładamy starań, aby nasze treści były aktualizowane możliwie szybko, tak by nadążać za nieustannie zmieniającym się krajobrazem zagrożeń w cyberbezpieczeństwie.
 
 In addition to our core team, [many other people](about/contributors.md) have made contributions to the project. You can too! We're open source on GitHub, and accepting translation suggestions on [Crowdin](https://crowdin.com/project/privacyguides).
 
