@@ -1,7 +1,7 @@
 ---
-title: "Language Tools"
+title: "Narzędzia językowe"
 icon: material/alphabetical-variant
-description: These language tools do not send your input text to a server and can be used offline and self-hosted.
+description: Te narzędzia językowe nie wysyłają wprowadzanego tekstu na serwer i można z nich korzystać offline oraz hostować je samodzielnie.
 cover: language-tools.webp
 ---
 
@@ -10,30 +10,30 @@ cover: language-tools.webp
 - [:material-server-network: Dostawcy usług](basics/common-threats.md#privacy-from-service-providers){ .pg-teal }
 - [:material-account-cash: Kapitalizm inwigilacji](basics/common-threats.md#surveillance-as-a-business-model){ .pg-brown }
 
-Text inputted to grammar, spelling, and style checkers, as well as translation services, can contain sensitive information which may be stored on their servers for an indefinite amount of time and sold to third parties. The language tools listed on this page do not store your submitted text on a server and can be self-hosted and used offline for maximum control of your data.
+Tekst wprowadzany do narzędzi sprawdzających gramatykę, ortografię i styl oraz do usług tłumaczeniowych może zawierać poufne informacje, które mogą być przechowywane na serwerach tych usług przez nieokreślony czas i sprzedawane stronom trzecim. Narzędzia językowe wymienione na tej stronie nie przechowują przesyłanych tekstów na serwer i można je hostować samodzielnie, aby mieć maksymalną kontrolę nad swoimi danymi.
 
-## Grammar & Spelling
+## Gramatyka i ortografia
 
 ### LanguageTool
 
 <div class="admonition recommendation" markdown>
 
-![LanguageTool logo](assets/img/language-tools/languagetool.svg#only-light){ align=right }
-![LanguageTool logo](assets/img/language-tools/languagetool-dark.svg#only-dark){ align=right }
+![Logo LanguageTool](assets/img/language-tools/languagetool.svg#only-light){ align=right }
+![Logo LanguageTool](assets/img/language-tools/languagetool-dark.svg#only-dark){ align=right }
 
-**LanguageTool** is a multilingual grammar, style, and spell checker that supports more than 20 languages. According to their privacy policy, they do not store any content sent to their service for review, but for higher assurance the software is [self-hostable](https://dev.languagetool.org/http-server).
+**LanguageTool** to wielojęzyczne narzędzie do sprawdzania gramatyki, stylu i ortografii, obsługujące ponad 20 języków. Zgodnie z ich polityką prywatności nie przechowuje żadnych treści przesyłanych do ich usługi w celu sprawdzenia, jednak dla większej pewności oprogramowanie można [hostować samodzielnie](https://dev.languagetool.org/http-server).
 
-[:octicons-home-16: Homepage](https://languagetool.org){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://languagetool.org/legal/privacy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://languagetooler.freshdesk.com/en/support/solutions){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/languagetool-org){ .card-link title="Source Code" }
+[:octicons-home-16: Strona główna](https://languagetool.org/pl){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://languagetool.org/pl/legal/privacy){ .card-link title="Polityka prywatności" }
+[:octicons-info-16:](https://languagetooler.freshdesk.com/en/support/solutions){ .card-link title="Dokumentacja" }
+[:octicons-code-16:](https://github.com/languagetool-org){ .card-link title="Kod źródłowy" }
 
 <details class="downloads" markdown>
 <summary>Pobierz</summary>
 
 - [:simple-appstore: App Store](https://apps.apple.com/app/id1534275760)
-- [:fontawesome-brands-windows: Windows](https://languagetool.org/windows-desktop)
-- [:simple-apple: macOS](https://languagetool.org/mac-desktop)
+- [:fontawesome-brands-windows: Windows](https://languagetool.org/pl/windows-desktop)
+- [:simple-apple: macOS](https://languagetool.org/pl/mac-desktop)
 - [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/firefox/addon/languagetool)
 - [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/oldceeleldhonbafppcapldpdifcinji)
 - [:fontawesome-brands-edge: Edge](https://microsoftedge.microsoft.com/addons/detail/hfjadhjooeceemgojogkhlppanjkbobc)
@@ -43,7 +43,7 @@ Text inputted to grammar, spelling, and style checkers, as well as translation s
 
 </div>
 
-LanguageTool offers integration with a variety of [office suites](https://languagetool.org/services#text_editors) and [email clients](https://languagetool.org/services#mail_clients).
+LanguageTool oferuje integrację z różnymi [pakietami biurowymi](https://languagetool.org/pl/services#text_editors) i [klientami poczty e-mail](https://languagetool.org/pl/services#mail_clients).
 
 ## Translation Tools
 
