@@ -38,39 +38,39 @@ Dla sprzętu konsumenckiego zwykle zaleca się używanie [modeli kwantyzowanych]
 | 13 mld                                                | 16 GB                | Nowoczesny procesor (z obsługą AVX2) |
 | 70 mld                                                | 72 GB                | Karta graficzna z pamięcią VRAM                         |
 
-To run AI locally, you need both an AI model and an AI client.
+Aby uruchomić sztuczną inteligencję lokalnie, potrzebujesz zarówno modelu sztucznej inteligencji, jak i klienta sztucznej inteligencji.
 
-### Choosing a Model
+### Wybór modelu
 
-There are many permissively licensed models available to download. [Hugging Face](https://huggingface.co/models) is a platform that lets you browse, research, and download models in common formats like [GGUF](https://huggingface.co/docs/hub/en/gguf). Companies that provide good open-weights models include big names like Mistral, Meta, Microsoft, and Google. However, there are also many community models and [fine-tuned](https://en.wikipedia.org/wiki/Fine-tuning_\(deep_learning\)) models available. As mentioned above, quantized models offer the best balance between model quality and performance for those using consumer-grade hardware.
+Dostępnych jest wiele modeli na licencjach pozwalających na swobodne użycie. Platformą, która umożliwia przeglądanie, badanie i pobieranie modeli w popularnych formatach (np. [GGUF](https://huggingface.co/docs/hub/en/gguf)), jest [Hugging Face](https://huggingface.co/models). Firmy udostępniające dobre modele z otwartymi wagami to m.in. Mistral, Meta, Microsoft i Google. Jednak istnieje też wiele modeli tworzonych przez społeczność oraz modeli [dostrojonych](https://en.wikipedia.org/wiki/Fine-tuning_\(deep_learning\)). Jak wspomniano wcześniej, modele kwantyzowane zwykle oferują najlepszy kompromis jakości i wydajności dla sprzętu konsumenckiego.
 
-To help you choose a model that fits your needs, you can look at leaderboards and benchmarks. The most widely-used leaderboard is the community-driven [LM Arena](https://lmarena.ai). Additionally, the [OpenLLM Leaderboard](https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard) focuses on the performance of open-weights models on common benchmarks like [MMLU-Pro](https://arxiv.org/abs/2406.01574).  There are also specialized benchmarks which measure factors like [emotional intelligence](https://eqbench.com), ["uncensored general intelligence"](https://huggingface.co/spaces/DontPlanToEnd/UGI-Leaderboard), and [many others](https://nebuly.com/blog/llm-leaderboards).
+Aby wybrać model odpowiedni dla Twoich potrzeb, warto śledzić rankingi i benchmarki. Najbardziej popularnym rankingiem społecznościowym jest [LM Arena](https://lmarena.ai). Z kolei [OpenLLM Leaderboard](https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard) koncentruje się na wydajności modeli z otwartymi wagami w standardowych benchmarkach, takich jak [MMLU-Pro](https://arxiv.org/abs/2406.01574).  Istnieją też wyspecjalizowane benchmarki mierzące np. [inteligencję emocjonalną](https://eqbench.com), [„nieocenzurowaną ogólną inteligencję”](https://huggingface.co/spaces/DontPlanToEnd/UGI-Leaderboard) oraz [wiele innych](https://nebuly.com/blog/llm-leaderboards).
 
-## AI Chat Clients
+## Klienci czatu AI
 
-| Feature              | [Kobold.cpp](#koboldcpp)                                      | [Ollama](#ollama-cli)                                                         | [Llamafile](#llamafile)                                                                                            |
-| -------------------- | ----------------------------------------------------------------------------- | ----------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------ |
-| GPU Support          | :material-check:{ .pg-green } | :material-check:{ .pg-green } | :material-check:{ .pg-green }                                      |
-| Image Generation     | :material-check:{ .pg-green } | :material-close:{ .pg-red }   | :material-close:{ .pg-red }                                        |
-| Speech Recognition   | :material-check:{ .pg-green } | :material-close:{ .pg-red }   | :material-close:{ .pg-red }                                        |
-| Auto-download Models | :material-close:{ .pg-red }   | :material-check:{ .pg-green } | :material-alert-outline:{ .pg-orange } Few models available        |
-| Custom Parameters    | :material-check:{ .pg-green } | :material-close:{ .pg-red }   | :material-check:{ .pg-green }                                      |
-| Międzyplatformowe    | :material-check:{ .pg-green } | :material-check:{ .pg-green } | :material-alert-outline:{ .pg-orange } Size limitations on Windows |
+| Cecha/funkcja                  | [Kobold.cpp](#koboldcpp)                                      | [Ollama](#ollama-cli)                                                         | [Llamafile](#llamafile)                                                                                                         |
+| ------------------------------ | ----------------------------------------------------------------------------- | ----------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------- |
+| Obsługa GPU                    | :material-check:{ .pg-green } | :material-check:{ .pg-green } | :material-check:{ .pg-green }                                                   |
+| Generowanie obrazów            | :material-check:{ .pg-green } | :material-close:{ .pg-red }   | :material-close:{ .pg-red }                                                     |
+| Rozpoznawanie mowy             | :material-check:{ .pg-green } | :material-close:{ .pg-red }   | :material-close:{ .pg-red }                                                     |
+| Automatyczne pobieranie modeli | :material-close:{ .pg-red }   | :material-check:{ .pg-green } | :material-alert-outline:{ .pg-orange } Kilka dostępnych modeli                  |
+| Niestandardowe parametry       | :material-check:{ .pg-green } | :material-close:{ .pg-red }   | :material-check:{ .pg-green }                                                   |
+| Wieloplatformowość             | :material-check:{ .pg-green } | :material-check:{ .pg-green } | :material-alert-outline:{ .pg-orange } Ograniczenia rozmiaru w systemie Windows |
 
 ### Kobold.cpp
 
 <div class="admonition recommendation" markdown>
 
-![Kobold.cpp Logo](assets/img/ai-chat/kobold.png){align=right}
+![Logo Kobold.cpp](assets/img/ai-chat/kobold.png){align=right}
 
-**Kobold.cpp** is an AI client that runs locally on your Windows, Mac, or Linux computer. It's an excellent choice if you are looking for heavy customization and tweaking, such as for role-playing purposes.
+**Kobold.cpp** to klient sztucznej inteligencji uruchamiany lokalnie na komputerach z systemem Windows, Mac lub Linux. To doskonały wybór, jeśli zależy Ci na szerokich możliwościach dostosowywania i modyfikacji, na przykład w celu odgrywania ról.
 
-In addition to supporting a large range of text models, Kobold.cpp also supports image generators such as [Stable Diffusion](https://stability.ai/stable-image) and automatic speech recognition tools such as [Whisper](https://github.com/ggerganov/whisper.cpp).
+Oprócz obsługi szerokiej gamy modeli tekstowych, Kobold.cpp obsługuje też generatory obrazów, takie jak [Stable Diffusion](https://stability.ai/stable-image), oraz narzędzia do automatycznego rozpoznawania mowy, np. [Whisper](https://github.com/ggerganov/whisper.cpp).
 
-[:octicons-repo-16: Repository](https://github.com/LostRuins/koboldcpp#readme){ .md-button .md-button--primary }
-[:octicons-info-16:](https://github.com/LostRuins/koboldcpp/wiki){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/LostRuins/koboldcpp){ .card-link title="Source Code" }
-[:octicons-lock-16:](https://github.com/LostRuins/koboldcpp/blob/2f3597c29abea8b6da28f21e714b6b24a5aca79b/SECURITY.md){ .card-link title="Security Policy" }
+[:octicons-repo-16: Repozytorium](https://github.com/LostRuins/koboldcpp#readme){ .md-button .md-button--primary }
+[:octicons-info-16:](https://github.com/LostRuins/koboldcpp/wiki){ .card-link title="Dokumentacja" }
+[:octicons-code-16:](https://github.com/LostRuins/koboldcpp){ .card-link title="Kod źródłowy" }
+[:octicons-lock-16:](https://github.com/LostRuins/koboldcpp/blob/2f3597c29abea8b6da28f21e714b6b24a5aca79b/SECURITY.md){ .card-link title="Polityka bezpieczeństwa" }
 
 <details class="downloads" markdown>
 <summary>Pobierz</summary>
@@ -84,19 +84,19 @@ In addition to supporting a large range of text models, Kobold.cpp also supports
 </div>
 
 <div class="admonition info" markdown>
-<p class="admonition-title">Compatibility Issues</p>
+<p class="admonition-title">Problemy z kompatybilnością</p>
 
-Kobold.cpp might not run on computers without AVX/AVX2 support.
+Kobold.cpp może nie działać na komputerach bez obsługi AVX/AVX2.
 
 </div>
 
-Kobold.cpp allows you to modify parameters such as the AI model temperature and the AI chat's system prompt. It also supports creating a network tunnel to access AI models from other devices such as your phone.
+Kobold.cpp umożliwia modyfikowanie parametrów, takich jak temperatura modelu czy tzw. system prompt czatu. Pozwala także na utworzenie tunelu sieciowego, dzięki któremu do modeli sztucznej inteligencji można uzyskać dostęp z innych urządzeń, np. ze smartfona.
 
 ### Ollama (CLI)
 
 <div class="admonition recommendation" markdown>
 
-![Ollama Logo](assets/img/ai-chat/ollama.png){align=right}
+![Logo Ollama](assets/img/ai-chat/ollama.png){align=right}
 
 **Ollama** is a command-line AI assistant that is available on macOS, Linux, and Windows. Ollama is a great choice if you're looking for an AI client that's easy-to-use, widely compatible, and fast due to its use of inference and other techniques. It also doesn't involve any manual setup.
 

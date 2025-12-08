@@ -8,7 +8,7 @@ cover: encryption.webp
 
 **Encryption** is the only secure way to control who can access your data. If you are currently not using encryption software for your hard disk, emails, or files, you should pick an option here.
 
-## Międzyplatformowe
+## Wieloplatformowość
 
 The options listed here are available on multiple platforms and great for creating encrypted backups of your data.
 
