@@ -16,27 +16,27 @@ Korzystanie z **czatów AI** (lub też **czatów SI**), znanych również jako d
 
 ## Obawy dotyczące prywatność związane z modelami LLM
 
-Dane wykorzystywane do trenowania modeli sztucznej inteligencji obejmują jednak ogromne zbiory publicznie dostępnych informacji zebranych z Internetu, które mogą zawierać poufne dane, takie jak imiona, nazwiska czy adresy. Oprogramowanie sztucznej inteligencji działające w chmurze często [gromadzi dane wejściowe](https://openai.com/policies/row-privacy-policy) użytkownika, co oznacza, że Twoje rozmowy nie są dla nich prywatne. This practice also introduces a risk of data breaches. Furthermore, there is a real possibility that an LLM will leak your private chat information in future conversations with other users.
+Dane wykorzystywane do trenowania modeli sztucznej inteligencji obejmują jednak ogromne zbiory publicznie dostępnych informacji zebranych z Internetu, które mogą zawierać poufne dane, takie jak imiona, nazwiska czy adresy. Oprogramowanie sztucznej inteligencji działające w chmurze często [gromadzi dane wejściowe](https://openai.com/policies/row-privacy-policy) użytkownika, co oznacza, że Twoje rozmowy nie są dla nich prywatne. Praktyka ta zwiększa również ryzyko wycieków danych. Ponadto istnieje realna możliwość, że LLM ujawni prywatne informacje z Twoich czatów w przyszłych rozmowach z innymi użytkownikami.
 
-If you are concerned about these practices, you can either refuse to use AI, or use [truly open-source models](https://proton.me/blog/how-to-build-privacy-first-ai) which publicly release and allow you to inspect their training datasets. One such model is [OLMoE](https://allenai.org/blog/olmoe-an-open-small-and-state-of-the-art-mixture-of-experts-model-c258432d0514) made by [Ai2](https://allenai.org/open-data).
+Jeśli obawiasz się takich praktyk, możesz zrezygnować z używania sztucznej inteligencji albo skorzystać z [prawdziwie otwartych modeli](https://proton.me/blog/how-to-build-privacy-first-ai), które publicznie udostępniają i pozwalają zweryfikować zbiory danych użyte do treningu. Przykładem takiego modelu jest [OLMoE](https://allenai.org/blog/olmoe-an-open-small-and-state-of-the-art-mixture-of-experts-model-c258432d0514) opracowany przez [Ai2](https://allenai.org/open-data).
 
-Alternatively, you can run AI models locally so that your data never leaves your device and is therefore never shared with third parties. As such, local models are a more private and secure alternative to cloud-based solutions and allow you to share sensitive information to the AI model without worry.
+Alternatywnie można uruchamiać modele sztucznej inteligencji lokalnie, dzięki czemu dane nigdy nie opuszczają urządzenia i nie są udostępniane stronom trzecim. Modele lokalne stanowią zatem bardziej prywatną i bezpieczną alternatywę dla rozwiązań chmurowych i pozwalają na przekazywanie modelowi poufnych informacji bez obaw.
 
-## AI Models
+## Modele sztucznej inteligencji
 
-### Hardware for Local AI Models
+### Sprzęt dla lokalnych modeli sztucznej inteligencji
 
-Local models are also fairly accessible. It's possible to run smaller models at lower speeds on as little as 8 GB of RAM. Using more powerful hardware such as a dedicated GPU with sufficient VRAM or a modern system with fast LPDDR5X memory offers the best experience.
+Modele uruchamiane lokalnie są też dość przystępne. Mniejsze modele można uruchamiać z mniejszą prędkością, mając tylko 8 GB pamięci RAM. Najlepsze wrażenia zapewnia jednak bardziej wydajny sprzęt, np. dedykowana karta graficzna z odpowiednią ilością pamięci VRAM lub nowoczesny system z szybką pamięcią LPDDR5X.
 
-LLMs can usually be differentiated by the number of parameters, which can vary between 1.3B to 405B for open-source models available for end users. For example, models below 6.7B parameters are only good for basic tasks like text summaries, while models between 7B and 13B are a great compromise between quality and speed. Models with advanced reasoning capabilities are generally around 70B.
+LLM-y zwykle rozróżnia się według liczby parametrów — dla modeli open-source dostępnych dla użytkowników końcowych wartości te wahają się od około 1,3 mld do 405 mld parametrów. Na przykład modele o parametrach poniżej 6,7 mld parametrów nadają się głównie do podstawowych zadań, takich jak streszczenia tekstu, natomiast modele w przedziale 7–13 mld stanowią dobry kompromis między jakością a szybkością. Modele o zaawansowanych zdolnościach rozumowania mają zwykle około 70 mld parametrów.
 
-For consumer-grade hardware, it is generally recommended to use [quantized models](https://huggingface.co/docs/optimum/en/concept_guides/quantization) for the best balance between model quality and performance. Check out the table below for more precise information about the typical requirements for different sizes of quantized models.
+Dla sprzętu konsumenckiego zwykle zaleca się używanie [modeli kwantyzowanych](https://huggingface.co/docs/optimum/en/concept_guides/quantization), które dają najlepszy balans między jakością modelu a wydajnością. Sprawdź poniższą tabelę, aby uzyskać bardziej szczegółowe informacje o typowych wymaganiach dla różnych rozmiarów modeli kwantyzowanych.
 
-| Model Size (in Parameters) | Minimum RAM | Minimum Processor                            |
-| --------------------------------------------- | ----------- | -------------------------------------------- |
-| 7B                                            | 8 GB        | Modern CPU (AVX2 support) |
-| 13B                                           | 16 GB       | Modern CPU (AVX2 support) |
-| 70B                                           | 72 GB       | GPU with VRAM                                |
+| Rozmiar modelu (liczba parametrów) | Minimalna pamięć RAM | Minimalny procesor / sprzęt                             |
+| ----------------------------------------------------- | -------------------- | ------------------------------------------------------- |
+| 7 mld                                                 | 8 GB                 | Nowoczesny procesor (z obsługą AVX2) |
+| 13 mld                                                | 16 GB                | Nowoczesny procesor (z obsługą AVX2) |
+| 70 mld                                                | 72 GB                | Karta graficzna z pamięcią VRAM                         |
 
 To run AI locally, you need both an AI model and an AI client.
 
