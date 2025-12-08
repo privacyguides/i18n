@@ -295,9 +295,9 @@ In April 2024, Psono added [support for passkeys](https://psono.com/blog/psono-i
 - All non-essential telemetry must be optional.
 - Must not collect more PII than is necessary for billing purposes.
 
-#### Best-Case
+#### Najlepszy scenariusz
 
-Our best-case criteria represents what we would like to see from the perfect project in this category. Our recommendations may not include any or all of this functionality, but those which do may rank higher than others on this page.
+Our best-case criteria represents what we would like to see from the perfect project in this category. Nasze zalecenia nie muszą spełniać wszystkich tych warunków, jednak projekty, które spełniają więcej z nich, mogą być oceniane wyżej od pozostałych na stronie.
 
 - Telemetry should be opt-in (disabled by default) or not collected at all.
 - Should be open source and reasonably self-hostable.

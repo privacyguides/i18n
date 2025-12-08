@@ -121,9 +121,9 @@ When you are using a SearXNG instance, be sure to go read their privacy policy. 
 - Must not collect PII per their privacy policy.
 - Must not require users to create an account with them.
 
-### Best-Case
+### Najlepszy scenariusz
 
-Our best-case criteria represents what we would like to see from the perfect project in this category. Our recommendations may not include any or all of this functionality, but those which do may rank higher than others on this page.
+Our best-case criteria represents what we would like to see from the perfect project in this category. Nasze zalecenia nie muszą spełniać wszystkich tych warunków, jednak projekty, które spełniają więcej z nich, mogą być oceniane wyżej od pozostałych na stronie.
 
 - Should be based on open-source software.
 - Should not block Tor exit node IP addresses.

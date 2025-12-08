@@ -115,9 +115,9 @@ OnionShare provides the option to connect via [Tor bridges](https://docs.onionsh
 - Must be open-source software.
 - Must either have clients for Linux, macOS, and Windows; or have a web interface.
 
-#### Best-Case
+#### Najlepszy scenariusz
 
-Our best-case criteria represents what we would like to see from the perfect project in this category. Our recommendations may not include any or all of this functionality, but those which do may rank higher than others on this page.
+Our best-case criteria represents what we would like to see from the perfect project in this category. Nasze zalecenia nie muszą spełniać wszystkich tych warunków, jednak projekty, które spełniają więcej z nich, mogą być oceniane wyżej od pozostałych na stronie.
 
 - Should have mobile clients for iOS and Android which at least support document previews.
 - Should support photo backups from iOS and Android, and optionally support file/folder sync on Android.

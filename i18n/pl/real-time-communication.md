@@ -182,9 +182,9 @@ The client software was independently [audited](https://briarproject.org/news/20
 - Must support forward secrecy[^1]
 - Must have a published audit from a reputable, independent third party.
 
-### Best-Case
+### Najlepszy scenariusz
 
-Our best-case criteria represents what we would like to see from the perfect project in this category. Our recommendations may not include any or all of this functionality, but those which do may rank higher than others on this page.
+Our best-case criteria represents what we would like to see from the perfect project in this category. Nasze zalecenia nie muszą spełniać wszystkich tych warunków, jednak projekty, które spełniają więcej z nich, mogą być oceniane wyżej od pozostałych na stronie.
 
 - Should support future secrecy (post-compromise security)[^2]
 - Should have open-source servers.

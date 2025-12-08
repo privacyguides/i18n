@@ -138,9 +138,9 @@ Peergos was [audited](https://peergos.org/posts/security-audit-2024) in November
 - Must offer a web interface which supports basic file management functionality.
 - Must allow for easy exports of all files/documents.
 
-### Best-Case
+### Najlepszy scenariusz
 
-Our best-case criteria represents what we would like to see from the perfect project in this category. Our recommendations may not include any or all of this functionality, but those which do may rank higher than others on this page.
+Our best-case criteria represents what we would like to see from the perfect project in this category. Nasze zalecenia nie muszą spełniać wszystkich tych warunków, jednak projekty, które spełniają więcej z nich, mogą być oceniane wyżej od pozostałych na stronie.
 
 - Clients should be open source.
 - Clients should be audited in their entirety by an independent third party.

@@ -45,9 +45,9 @@ Most online **document collaboration** platforms like Google Drive do not suppor
 - Must support real-time document collaboration.
 - Must support exporting documents to standard document formats (e.g. ODF).
 
-### Best-Case
+### Najlepszy scenariusz
 
-Our best-case criteria represents what we would like to see from the perfect project in this category. Our recommendations may not include any or all of this functionality, but those which do may rank higher than others on this page.
+Our best-case criteria represents what we would like to see from the perfect project in this category. Nasze zalecenia nie muszą spełniać wszystkich tych warunków, jednak projekty, które spełniają więcej z nich, mogą być oceniane wyżej od pozostałych na stronie.
 
 - Should store files in a conventional filesystem.
 - Should support TOTP or FIDO2 multifactor authentication support, or passkey logins.

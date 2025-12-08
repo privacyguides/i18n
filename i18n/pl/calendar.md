@@ -81,8 +81,8 @@ In 2021, Securitum [audited](https://proton.me/community/open-source#:~:text=Pro
 
 - Must sync and store information with E2EE to ensure data is not visible to the service provider.
 
-### Best-Case
+### Najlepszy scenariusz
 
-Our best-case criteria represents what we would like to see from the perfect project in this category. Our recommendations may not include any or all of this functionality, but those which do may rank higher than others on this page.
+Our best-case criteria represents what we would like to see from the perfect project in this category. Nasze zalecenia nie muszą spełniać wszystkich tych warunków, jednak projekty, które spełniają więcej z nich, mogą być oceniane wyżej od pozostałych na stronie.
 
 - Should integrate with native OS calendar and contact management apps if applicable.

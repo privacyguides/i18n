@@ -98,14 +98,14 @@ Kobold.cpp umożliwia modyfikowanie parametrów, takich jak temperatura modelu c
 
 ![Logo Ollama](assets/img/ai-chat/ollama.png){align=right}
 
-**Ollama** is a command-line AI assistant that is available on macOS, Linux, and Windows. Ollama is a great choice if you're looking for an AI client that's easy-to-use, widely compatible, and fast due to its use of inference and other techniques. It also doesn't involve any manual setup.
+**Ollama** to asystent AI działający z wiersza poleceń, dostępny na komputerach z systemem macOS, Linux i Windows. Ollama to świetny wybór, jeśli zależy Ci na kliencie, który jest łatwy w obsłudze, szeroko kompatybilny i szybki dzięki wykorzystaniu wnioskowania i innych technik. Nie wymaga też żadnej ręcznej konfiguracji.
 
-In addition to supporting a wide range of text models, Ollama also supports [LLaVA](https://github.com/haotian-liu/LLaVA) models and has experimental support for Meta's [Llama vision capabilities](https://huggingface.co/blog/llama32#what-is-llama-32-vision).
+Oprócz obsługi szerokiej gamy modeli tekstowych, Ollama obsługuje także modele [LLaVA](https://github.com/haotian-liu/LLaVA), oraz posiada eksperymentalne wsparcie dla [możliwości wizyjnych Llama](https://huggingface.co/blog/llama32#what-is-llama-32-vision) opracowanych przez Meta.
 
-[:octicons-home-16: Homepage](https://ollama.com){ .md-button .md-button--primary }
-[:octicons-info-16:](https://github.com/ollama/ollama#readme){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/ollama/ollama){ .card-link title="Source Code" }
-[:octicons-lock-16:](https://github.com/ollama/ollama/blob/a14f76491d694b2f5a0dec6473514b7f93beeea0/SECURITY.md){ .card-link title="Security Policy" }
+[:octicons-home-16: Strona główna](https://ollama.com){ .md-button .md-button--primary }
+[:octicons-info-16:](https://github.com/ollama/ollama#readme){ .card-link title="Dokumentacja" }
+[:octicons-code-16:](https://github.com/ollama/ollama){ .card-link title="Kod źródłowy" }
+[:octicons-lock-16:](https://github.com/ollama/ollama/blob/a14f76491d694b2f5a0dec6473514b7f93beeea0/SECURITY.md){ .card-link title="Polityka bezpieczeństwa" }
 
 <details class="downloads" markdown>
 <summary>Pobierz</summary>
@@ -118,22 +118,22 @@ In addition to supporting a wide range of text models, Ollama also supports [LLa
 
 </div>
 
-Ollama simplifies the process of setting up a local AI chat by downloading the AI model you want to use automatically. For example, running `ollama run llama3.2` will automatically download and run the Llama 3.2 model. Furthermore, Ollama maintains their own [model library](https://ollama.com/library) where they host the files of various AI models. This ensures that models are vetted for both performance and security, eliminating the need to manually verify model authenticity.
+Ollama upraszcza proces konfiguracji lokalnego czatu AI, automatycznie pobierając wybrany przez Ciebie model. Na przykład polecenie `ollama run llama3.2` automatycznie pobierze i uruchomi model Llama 3.2. Ponadto Ollama prowadzi własną [bibliotekę modeli](https://ollama.com/library), w której hostuje pliki różnych modeli sztucznej inteligencji. Dzięki temu modele są weryfikowane pod kątem wydajności i bezpieczeństwa, co eliminuje konieczność samodzielnego sprawdzania autentyczności plików modelu.
 
 ### Llamafile
 
 <div class="admonition recommendation" markdown>
 
-![Llamafile Logo](assets/img/ai-chat/llamafile.webp){align=right}
+![Logo Llamafile](assets/img/ai-chat/llamafile.webp){align=right}
 
-**Llamafile** is a lightweight, single-file executable that allows users to run LLMs locally on their own computers without any setup involved. It is [backed by Mozilla](https://hacks.mozilla.org/2023/11/introducing-llamafile) and available on Linux, macOS, and Windows.
+**Llamafile** to lekki, jednoplikowy program wykonywalny, który pozwala uruchamiać LLM lokalnie na własnym komputerze bez żadnej konfiguracji. Projekt jest [wspierany przez Mozillę](https://hacks.mozilla.org/2023/11/introducing-llamafile) i jest dostępny w systemach Linux, macOS i Windows.
 
-Llamafile also supports LLaVA. However, it doesn't support speech recognition or image generation.
+Llamafile obsługuje również LLaVA. Jednak nie wspiera rozpoznawania mowy ani generowania obrazów.
 
-[:octicons-repo-16: Repository](https://github.com/Mozilla-Ocho/llamafile#readme){ .md-button .md-button--primary }
-[:octicons-info-16:](https://github.com/Mozilla-Ocho/llamafile#quickstart){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/Mozilla-Ocho/llamafile){ .card-link title="Source Code" }
-[:octicons-lock-16:](https://github.com/Mozilla-Ocho/llamafile#security){ .card-link title="Security Policy" }
+[:octicons-repo-16: Repozytorium](https://github.com/Mozilla-Ocho/llamafile#readme){ .md-button .md-button--primary }
+[:octicons-info-16:](https://github.com/Mozilla-Ocho/llamafile#quickstart){ .card-link title="Dokumentacja" }
+[:octicons-code-16:](https://github.com/Mozilla-Ocho/llamafile){ .card-link title="Kod źródłowy" }
+[:octicons-lock-16:](https://github.com/Mozilla-Ocho/llamafile#security){ .card-link title="Polityka bezpieczeństwa" }
 
 <details class="downloads" markdown>
 <summary>Pobierz</summary>
@@ -146,53 +146,53 @@ Llamafile also supports LLaVA. However, it doesn't support speech recognition or
 
 </div>
 
-Mozilla has made llamafiles available for only some Llama and Mistral models, while there are few third-party llamafiles available. Moreover, Windows limits `.exe` files to 4 GB, and most models are larger than that.
+Mozilla udostępniła llamafile tylko dla niektórych modeli Llama i Mistral, podczas gdy dostępnych jest niewiele wersji tworzonych przez zewnętrznych autorów. Ponadto system Windows ogranicza rozmiar plików `.exe` do 4 GB, podczas gdy większość modeli ma większy rozmiar.
 
-To circumvent these issues, you can [load external weights](https://github.com/Mozilla-Ocho/llamafile#using-llamafile-with-external-weights).
+Aby obejść te ograniczenia, możesz [wczytać zewnętrzne wagi](https://github.com/Mozilla-Ocho/llamafile#using-llamafile-with-external-weights).
 
-## Securely Downloading Models
+## Bezpieczne pobieranie modeli
 
-If you use an AI client that maintains their own library of model files (such as [Ollama](#ollama-cli) and [Llamafile](#llamafile)), you should download it from there. However, if you want to download models not present in their library, or use an AI client that doesn't maintain its library (such as [Kobold.cpp](#koboldcpp)), you will need to take extra steps to ensure that the AI model you download is safe and legitimate.
+Jeśli korzystasz z klienta AI, który utrzymuje własną bibliotekę plików modelu (takiego jak [Ollama](#ollama-cli) czy [Llamafile](#llamafile)), pobieraj modele z tej biblioteki. Jednak jeśli chcesz pobrać modele, które nie znajdują się w ich bibliotece, albo korzystasz z klienta AI, który nie prowadzi własnej biblioteki (np. [Kobold.cpp](#koboldcpp)), musisz podjąć dodatkowe kroki, aby upewnić się, że pobierany model jest bezpieczny i autentyczny.
 
-We recommend downloading model files from Hugging Face since it provides several features to verify that your download is genuine and safe to use.
+Zalecamy pobieranie plików modeli z serwisu Hugging Face, ponieważ oferuje on szereg funkcji umożliwiających sprawdzenie, czy pobrane pliki są autentyczne i bezpieczne w użyciu.
 
-To check the authenticity and safety of the model, look for:
+Aby sprawdzić autentyczność i bezpieczeństwo modelu, zwróć uwagę na:
 
-- Model cards with clear documentation
-- A verified organization badge
-- Community reviews and usage statistics
-- A "Safe" badge next to the model file (Hugging Face only)
-- Matching checksums[^1]
-  - On Hugging Face, you can find the hash by clicking on a model file and looking for the **Copy SHA256** button below it. You should compare this checksum with the one from the model file you downloaded.
+- Karty modelu z przejrzystą dokumentacją
+- Odznakę zweryfikowanej organizacji
+- Opinie społeczności i statystyki użytkowania
+- Odznakę „Safe” obok pliku modelu (tylko Hugging Face)
+- Pasujące sumy kontrolne[^1]
+  - Na Hugging Face skrót (hash) znajdziesz, klikając plik modelu i wybierając przycisk **Copy SHA256** znajdujący się pod nim. Należy porównać tę sumę kontrolną z tą z pobranego pliku modelu.
 
-A downloaded model is generally safe if it satisfies all the above checks.
+Pobrany model można uznać za ogólnie bezpieczny, jeśli spełnia wszystkie powyższe kryteria.
 
 ## Kryteria
 
-Please note we are not affiliated with any of the projects we recommend. In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. We suggest you familiarize yourself with this list before choosing to use a project and conduct your own research to ensure it's the right choice for you.
+Należy pamiętać, że nie jesteśmy powiązani z żadnym z polecanych przez nas projektów. Oprócz [naszych standardowych kryteriów](about/criteria.md) opracowaliśmy jasny zestaw wymagań, które pozwalają nam formułować obiektywne zalecenia. Sugerujemy zapoznanie się z tą listą przed wyborem projektu oraz przeprowadzenie własnych badań, aby upewnić się, że jest to odpowiedni wybór dla Ciebie.
 
 ### Minimalne wymagania
 
 - Musi być open source.
-- Must not transmit personal data, including chat data.
-- Must be multi-platform.
-- Must not require a GPU.
-- Must support GPU-powered, fast inference.
-- Must not require an internet connection.
+- Nie może przesyłać danych osobowych, w tym danych z czatów.
+- Musi być wieloplatformowy.
+- Nie może wymagać GPU.
+- Musi obsługiwać szybkie wnioskowanie oparte na GPU.
+- Nie może wymagać połączenia z Internetem.
 
-### Best-Case
+### Najlepszy scenariusz
 
-Our best-case criteria represent what we _would_ like to see from the perfect project in this category. Our recommendations may not include any or all of this functionality, but those which do may rank higher than others on this page.
+Nasze kryteria „najlepszego scenariusza” określają, jak powinien wyglądać idealny projekt w tej kategorii. Nasze zalecenia nie muszą spełniać wszystkich tych warunków, jednak projekty, które spełniają więcej z nich, mogą być oceniane wyżej od pozostałych na stronie.
 
-- Should be easy to download and set up, e.g. with a one-click installation process.
-- Should have a built-in model downloader option.
-- The user should be able to modify the LLM parameters, such as its system prompt or temperature.
+- Powinien być łatwy do pobrania i skonfigurowania, np. instalacja jednym kliknięciem.
+- Powinien mieć wbudowaną opcję pobierania modeli.
+- Użytkownik powinien mieć możliwość modyfikacji parametrów LLM, takich jak system prompt czy temperatura.
 
-\*[LLaVA]: Large Language and Vision Assistant (multimodal AI model)
-\*[LLM]: Large Language Model (AI model such as ChatGPT)
-\*[LLMs]: Large Language Models (AI models such as ChatGPT)
-\*[open-weights models]: AI models that anyone can download and use, but the underlying training data and/or algorithms for them are proprietary.
-\*[system prompt]: The general instructions given by a human to guide how an AI chat should operate.
-\*[temperature]: A parameter used in AI models to control the level of randomness and creativity in the generated text.
+\*[LLaVA]: Large Language and Vision Assistant (wielomodalny model sztucznej inteligencji)
+\*[LLM]: Duży model językowy (model sztucznej inteligencji, taki jak ChatGPT)
+\*[LLMs]: Duże modele językowe (modele sztucznej inteligencji, takie jak ChatGPT)
+\*[modele z otwartymi wagami]: Model sztucznej inteligencji, który każdy może pobrać i używać, jednak dane treningowe i/lub zastosowane algorytmy pozostają zastrzeżone.
+\*[system prompt]: System prompt (z ang. instrukcja systemowa) to ogólne instrukcje przekazywane przez człowieka, które określają sposób działania modelu.
+\*[temperatura]: Temperatura modelu to parametr służący do kontrolowania poziomu losowości i kreatywności generowanego tekstu.
 
-[^1]: A file checksum is a type of anti-tampering fingerprint. A developer usually provides a checksum in a text file that can be downloaded separately, or on the download page itself. Verifying that the checksum of the file you downloaded matches the one provided by the developer helps ensure that the file is genuine and wasn't tampered with in transit. You can use commands like `sha256sum` on Linux and macOS, or `certutil -hashfile file SHA256` on Windows to generate the downloaded file's checksum.
+[^1]: Suma kontrolna pliku to rodzaj odcisku palca chroniącego przed manipulacją. Deweloper zwykle udostępnia sumę kontrolną w osobnym pliku tekstowym lub na stronie pobierania. Zweryfikowanie, czy suma kontrolna pobranego pliku zgadza się z tą podaną przez dewelopera, pomaga upewnić się, że plik jest oryginalny i nie został zmodyfikowany w trakcie transferu. Możesz użyć poleceń takich jak `sha256sum` w systemach Linux i macOS albo `certutil -hashfile file SHA256` w systemie Windows, aby wygenerować sumę kontrolną pobranego pliku.
