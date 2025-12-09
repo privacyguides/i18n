@@ -45,29 +45,29 @@ Tekst wprowadzany do narzędzi sprawdzających gramatykę, ortografię i styl or
 
 LanguageTool oferuje integrację z różnymi [pakietami biurowymi](https://languagetool.org/pl/services#text_editors) i [klientami poczty e-mail](https://languagetool.org/pl/services#mail_clients).
 
-## Translation Tools
+## Narzędzia do tłumaczenia
 
 ### LibreTranslate
 
 <div class="admonition recommendation" markdown>
 
-![LibreTranslate logo](assets/img/language-tools/libretranslate.png){ align=right }
+![Logo LibreTranslate](assets/img/language-tools/libretranslate.png){ align=right }
 
-**LibreTranslate** is a free and open-source machine translation web interface and API server. It uses [Argos Translate](https://github.com/argosopentech/argos-translate) models on the backend for translations.
+\*_LibreTranslate_ to darmowy interfejs internetowy i serwer API do tłumaczenia maszynowego typu open source. Do tłumaczeń wykorzystuje on modele [Argos Translate](https://github.com/argosopentech/argos-translate).
 
-[:octicons-home-16: Homepage](https://libretranslate.com){ .md-button .md-button--primary }
-[:octicons-server-16:](https://github.com/LibreTranslate/LibreTranslate#mirrors){ .card-link title="Public Instances" }
-[:octicons-code-16:](https://github.com/LibreTranslate/LibreTranslate){ .card-link title="Source Code" }
+[:octicons-home-16: Strona główna](https://libretranslate.com){ .md-button .md-button--primary }
+[:octicons-server-16:](https://github.com/LibreTranslate/LibreTranslate#mirrors){ .card-link title="Instancje publiczne" }
+[:octicons-code-16:](https://github.com/LibreTranslate/LibreTranslate){ .card-link title="Kod źródłowy" }
 
 </div>
 
-You can use LibreTranslate through a number of public instances, with some that offer a [Tor](tor.md) onion service or an [I2P](alternative-networks.md#i2p-the-invisible-internet-project) eepsite. You can also host the software yourself for maximum control over the text submitted for translation.
+Dostępne są publiczne instancje LibreTranslate, w tym niektóre oferujące usługę .onion przez [sieć Tor](tor.md) lub eepsite w [I2P](alternative-networks.md#i2p-the-invisible-internet-project). Można też uruchomić oprogramowanie samodzielnie, by mieć pełną kontrolę nad przesyłanymi tekstami.
 
-We use a self-hosted instance of LibreTranslate to automatically translate posts on our [forum](https://discuss.privacyguides.net) to multiple languages.
+Używamy hostowanej lokalnie instancji LibreTranslate do automatycznego tłumaczenia wpisów na naszym [forum](https://discuss.privacyguides.net) na wiele języków.
 
 ## Kryteria
 
-**Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. We suggest you familiarize yourself with this list before choosing to use a project, and conduct your own research to ensure it's the right choice for you.
+**Należy pamiętać, że nie jesteśmy powiązani z żadnym z polecanych przez nas projektów.** Oprócz [naszych standardowych kryteriów](about/criteria.md) opracowaliśmy jasny zestaw wymagań, które pozwalają nam formułować obiektywne zalecenia. Sugerujemy zapoznanie się z tą listą przed wyborem projektu oraz przeprowadzenie własnych badań, aby upewnić się, że jest to odpowiedni wybór dla Ciebie.
 
 - Musi być open source.
-- Must be possible to self-host.
+- Musi być możliwy do samodzielnego hostowania.
