@@ -155,30 +155,30 @@ Nasza strona internetowa wykorzystuje funkcję systemu zarządzania treścią Gh
 
 Nasze forum oparte jest na oprogramowaniu Discourse, które wykorzystuje następujące pliki cookie:
 
-| Nazwa                                                         | Niezbędny | Okres ważności | Przeznaczenie                                                                                                             |
-| ------------------------------------------------------------- | --------- | -------------- | ------------------------------------------------------------------------------------------------------------------------- |
-| email                                                         | Tak       | Sesja          | zapamiętuje Twój adres e-mail podczas tworzenia konta                                                                     |
-| destination_url                          | Tak       | Sesja          | pomaga przekierować Cię na żądaną stronę po zalogowaniu                                                                   |
-| sso_destination_url | Tak       | Sesja          | helps redirect you to your request page after single sign on                                                              |
-| sso_payload                              | Tak       | Sesja          | used during SSO authentication when two-factor authentication is enabled                                                  |
-| authentication_data                      | Tak       | Next Page View | temporarily stores user information during login flows                                                                    |
-| theme_ids                                | Tak       | 1 rok          | remembers your theme personalization if you don’t tick “Make this my default theme on all my devices”                     |
-| color_scheme_id     | Tak       | 1 rok          | remembers your color personalization if you don’t tick “Set default color scheme(s) on all my devices” |
-| dark_scheme_id      | Tak       | 1 rok          | remembers your color personalization if you don’t tick “Set default color scheme(s) on all my devices” |
-| cn                                                            | Tak       | Sesja          | temporarily stores notification read state                                                                                |
-| _bypass_cache       | Tak       | Sesja          | allows the server-side cache to be bypassed during login flows                                                            |
-| _t                                       | Tak       | 1440 Hours     | remembers who you are when you log in                                                                                     |
-| _forum_session      | Tak       | Sesja          | associates an ID, and other security-related information, with your browsing session                                      |
-| dosp                                                          | Tak       | Next Page View | enables client denial of service protection, a security protection                                                        |
-| text_size                                | Tak       | 1 rok          | remembers default text size when a user wants to change it on only one device                                             |
-| cookietest                                                    | Tak       | Sesja          | checks if cookies are enabled when authentication fails                                                                   |
-| __profilin          | Nie       | Sesja          | used by software developers to bypass rack-mini-profiler                                                                  |
+| Nazwa                                                         | Niezbędny | Okres ważności               | Przeznaczenie                                                                                                                          |
+| ------------------------------------------------------------- | --------- | ---------------------------- | -------------------------------------------------------------------------------------------------------------------------------------- |
+| email                                                         | Tak       | Sesja                        | zapamiętuje Twój adres e-mail podczas tworzenia konta                                                                                  |
+| destination_url                          | Tak       | Sesja                        | pomaga przekierować Cię na żądaną stronę po zalogowaniu                                                                                |
+| sso_destination_url | Tak       | Sesja                        | pomaga przekierować Cię na żądaną stronę po pojedynczym logowaniu (SSO)                                             |
+| sso_payload                              | Tak       | Sesja                        | używany podczas uwierzytelniania SSO, gdy włączone jest uwierzytelnianie dwuskładnikowe                                                |
+| authentication_data                      | Tak       | Następne wyświetlenie strony | tymczasowo przechowuje informacje o użytkowniku podczas procesu logowania                                                              |
+| theme_ids                                | Tak       | 1 rok                        | zapamiętuje personalizację motywu, jeśli nie zaznaczono opcji „Make this my default theme on all my devices”                           |
+| color_scheme_id     | Tak       | 1 rok                        | zapamiętuje ustawienie schematu kolorów, jeśli nie zaznaczono opcji „Set default color scheme(s) on all my devices” |
+| dark_scheme_id      | Tak       | 1 rok                        | zapamiętuje ustawienie schematu kolorów, jeśli nie zaznaczono opcji „Set default color scheme(s) on all my devices” |
+| cn                                                            | Tak       | Sesja                        | tymczasowo przechowuje stan odczytania powiadomień                                                                                     |
+| _bypass_cache       | Tak       | Sesja                        | pozwala ominąć pamięci podręczną po stronie serwera podczas procesów logowania                                                         |
+| _t                                       | Tak       | 1440 godzin                  | zapamiętuje, kim jesteś po zalogowaniu                                                                                                 |
+| _forum_session      | Tak       | Sesja                        | wiąże identyfikator i inne informacje związane z bezpieczeństwem z Twoją sesją przeglądania                                            |
+| dosp                                                          | Tak       | Następne wyświetlenie strony | umożliwia ochronę przed atakami typu „blokada usługi” po stronie klienta (środek bezpieczeństwa)                    |
+| text_size                                | Tak       | 1 rok                        | zapamiętuje domyślny rozmiar tekstu, gdy chcesz zmienić go tylko na jednym urządzeniu                                                  |
+| cookietest                                                    | Tak       | Sesja                        | sprawdza, czy pliki cookie są włączone, gdy uwierzytelnienie nie powiedzie się                                                         |
+| __profilin          | Nie       | Sesja                        | używany przez programistów do obejścia rack-mini-profiler                                                                              |
 
-Your web browser can show you the cookies you have for any website and help you manage them.
+Twoja przeglądarka internetowa może wyświetlić pliki cookie dla dowolnej strony internetowej i pomóc Ci nimi zarządzać.
 
-### Privacy Guides makes regular backups of all data
+### Privacy Guides regularne tworzy kopie zapasowe wszystkich danych
 
-Privacy Guides keeps automated backups of **all** data it collects. These backups are stored for up to 30 days. Any time you delete personal data from our websites, a copy may be retained in backup archives until those archives are pruned.
+Privacy Guides automatycznie tworzy kopie zapasowe **wszystkich** gromadzonych danych. Kopie te są przechowywane przez maksymalnie 30 dni. Za każdym razem, gdy usuniesz dane osobowe z naszych stron internetowych, ich kopia może pozostać w archiwach kopii zapasowych do czasu usunięcia tych archiwów.
 
 ## Does Privacy Guides use personal information for marketing purposes?
 
