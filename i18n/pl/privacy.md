@@ -19,7 +19,7 @@ Należy pamiętać, że jeśli dokonasz darowizny na [donate.magicgrants.org](ht
 
 Ponadto, gdy przeglądasz lub dokonujesz zakupu na stronie [shop.privacyguides.org](https://shop.privacyguides.org/), korzystasz z usługi strony trzecich świadczonej przez Fourthwall. Fourthwall opublikował [odrębną politykę prywatności](https://shop.privacyguides.org/pages/privacy-policy) dotyczącą tej platformy.
 
-## W jaki sposób serwis Privacy Guides gromadzi dane na mój temat?
+## W jaki sposób Privacy Guides gromadzi dane na mój temat?
 
 Privacy Guides gromadzi dane o Tobie:
 
@@ -35,144 +35,144 @@ Privacy Guides gromadzi dane o Tobie:
 
 Privacy Guides nie kupuje ani nie otrzymuje danych o Tobie od brokerów danych.
 
-## Does Privacy Guides sell my personal information?
+## Czy Privacy Guides sprzedaje moje dane osobowe?
 
-No. Privacy Guides does not sell personal information. Additionally, Privacy Guides does not share personal information with third parties for the purpose of advertising.
+Nie. Privacy Guides nie sprzedaje danych osobowych. Ponadto Privacy Guides nie udostępnia danych osobowych stronom trzecim w celach reklamowych.
 
-## What personal information does Privacy Guides collect, and why?
+## Jakie dane osobowe gromadzi Privacy Guides i dlaczego?
 
-### Privacy Guides collects information about visits to its websites
+### Privacy Guides gromadzi informacje o wizytach na swoich stronach internetowych
 
-When you visit one of our websites, whether you have an account or not, we use server logs and other methods to collect data about what pages you visit and when.
+Gdy odwiedzasz jedną z naszych stron internetowych, niezależnie od tego, czy masz konto, czy nie, korzystamy z dzienników serwera i innych metod, aby gromadzić dane o tym, jakie strony odwiedzasz i kiedy.
 
-We use this data to:
+Wykorzystujemy te dane do:
 
-- Optimize our websites, so they are quick and easy to use.
-- Diagnose and debug technical errors.
-- Defend our websites from abuse and technical attacks.
-- Compile statistics on page/topic popularity.
-- Compile statistics on the type of browser and devices our visitors use.
+- optymalizacji naszych stron internetowych, aby były szybkie i łatwe w użyciu,
+- diagnozowania i usuwania błędów technicznych,
+- ochrony naszych stron internetowych przed nadużyciami i atakami technicznymi,
+- sporządzania statystyk popularności stron/tematów,
+- sporządzania statystyk dotyczących przeglądarek i urządzeń, których używają nasi odwiedzający.
 
-We generally store the above information for just a few weeks. In special circumstances, such as during an ongoing technical attack or a subsequent investigation, we may preserve some log data longer for analysis.
+Zazwyczaj przechowujemy powyższe informacje tylko przez kilka tygodni. W szczególnych okolicznościach, takich jak trwający atak techniczny lub prowadzone dochodzenie, możemy zachować część danych z dziennika dłużej w celach analitycznych.
 
-Privacy Guides stores aggregated statistics for as long as we host our websites, but those statistics do not contain data identifiable to you personally.
+Privacy Guides przechowuje zagregowane statystyki tak długo, jak hostujemy nasze strony internetowe, przy czym statystyki te nie zawierają danych pozwalających na identyfikację Twojej osoby.
 
-### Privacy Guides collects account data
+### Privacy Guides gromadzi dane konta
 
-Many features on our forum or other account-based services require an account. For example, you are required to have an account in order to post and reply to topics.
+Wiele funkcji na naszym forum lub innych usługach opartych na koncie wymaga posiadania konta. Na przykład, aby publikować i odpowiadać na tematy, musisz mieć konto.
 
-To sign up for an account, Privacy Guides requires your email address, a username, and a password.
+Aby założyć konto, Privacy Guides wymaga podania adresu e-mail, nazwy użytkownika i hasła.
 
-We use this account data in order to identify you on the website, and to create pages specific to you, such as your profile page. We publish your account data to your public profile in accordance to your profile's configuration.
+Używamy tych danych konta, aby identyfikować Cię na stronie oraz tworzyć strony przypisane do Ciebie, takie jak strona Twojego profilu. Publikujemy dane Twojego konta w Twoim publicznym profilu zgodnie z konfiguracją profilu.
 
-Privacy Guides uses your email address to:
+Privacy Guides wykorzystuje Twój adres e-mail do:
 
-- Notify you about posts and other activity on our website.
-- Reset your password and help keep your account secure.
-- Contact you in special circumstances related to your account.
-- Contact you about legal requests, like DMCA takedown requests.
+- powiadamiania Cię o wpisach i innych aktywnościach na naszej stronie internetowej,
+- resetowania hasła i pomocy w zabezpieczeniu konta,
+- kontaktowania się z Tobą w wyjątkowych okolicznościach związanych z Twoim kontem,
+- kontaktowania się z Tobą w sprawie wniosków prawnych, np. wniosków o usunięcie treści na podstawie DMCA.
 
-You may optionally provide additional details about your account, like your name, a short biography, your location, or your birthday, on the profile settings page for your account. Privacy Guides makes that information available to others who have access to the forum. You don’t have to provide this additional information, and you can erase it at any time.
+Opcjonalnie możesz podać dodatkowe informacje o swoim koncie, takie jak imię i nazwisko, krótka biografia, lokalizacja czy data urodzenia, na stronie ustawień profilu. Privacy Guides udostępnia te informacje innym osobom mającym dostęp do forum. Nie musisz podawać tych dodatkowych informacji i możesz je usunąć w dowolnym momencie.
 
-Privacy Guides stores this account data as long as your account remains open.
+Privacy Guides przechowuje te dane konta tak długo, jak Twoje konto pozostaje aktywne.
 
-### Privacy Guides collects data about posts and other activity
+### Privacy Guides gromadzi dane o wpisach i innej aktywności
 
-Privacy Guides collects the content of your posts throughout our websites, plus data about bookmarks, likes, and links you follow in order to share that data with others. We also publish this activity to the public when you request it.
+Privacy Guides gromadzi treść Twoich wpisów zamieszczanych na naszych stronach internetowych oraz dane o zakładkach, polubieniach i śledzonych linkach w celu udostępniania tych informacji innym. Publikujemy również tę aktywność publicznie, jeśli tego zażądasz.
 
-Privacy Guides also collects data about private messages that you send through the forum. Privacy Guides makes private messages available to senders and their recipients, and also to forum moderators and administrators.
+Privacy Guides gromadzi także informacje o prywatnych wiadomościach, które wysyłasz za pośrednictwem forum. Prywatne wiadomości są udostępniane nadawcom i odbiorcom oraz moderatorom i administratorom forum.
 
-Privacy Guides stores your posts and other activity as long as your account remains open.
+Privacy Guides przechowuje Twoje wpisy i inną aktywność tak długo, jak Twoje konto pozostaje aktywne.
 
-### Privacy Guides collects data you give to sign up for mailing lists and announcements
+### Privacy Guides gromadzi dane, które podajesz przy zapisie na listy mailingowe i ogłoszenia
 
-When you fill out and submit a web form to sign up for mailing lists or announcements, Privacy Guides collects the information you put in the form, such as your e-mail address.
+Gdy wypełniasz i przesyłasz formularz internetowy w celu zapisania się na listy mailingowe lub otrzymywania ogłoszeń, Privacy Guides gromadzi informacje podane w formularzu, takie jak Twój adres e-mail.
 
-Privacy Guides stores this information until you unsubscribe from the mailing list.
+Privacy Guides przechowuje te informacje do momentu wypisania się z listy mailingowej.
 
-### Privacy Guides does not collect sensitive personal information
+### Privacy Guides nie gromadzi poufnych danych osobowych
 
-Privacy Guides does not intentionally collect sensitive personal information, such as government identification numbers, information on racial or ethnic origin, political opinions, genetic data, biometric data, health data, or any of the special categories of personal data specified by the GDPR.
+Privacy Guides nie gromadzi celowo wrażliwych danych osobowych, takich jak numery dokumentów tożsamości, informacje o pochodzeniu rasowym lub etnicznym, poglądy polityczne, dane genetyczne, dane biometryczne, informacje o stanie zdrowia ani żadne z kategorii szczególnych danych osobowych określonych przez RODO.
 
-### Privacy Guides collects data about open source contributors
+### Privacy Guides gromadzi dane o współtwórcach open source
 
-Contributors to Privacy Guides' website may be asked to provide identifying and contact information such as your name and email address.
+Od współtwórców strony Privacy Guides może być wymagane podanie danych identyfikacyjnych i kontaktowych, takich jak imię, nazwisko oraz adres e-mail.
 
-Privacy Guides uses this information to maintain the integrity of our website, software, and license agreements, both our own licenses and the license between Privacy Guides and our contributors. Privacy Guides stores this information for as long as your contributions are incorporated into our open source software, including this website.
+Privacy Guides wykorzystuje te informacje do zachowania integralności naszej strony internetowej, oprogramowania i umów licencyjnych — zarówno naszych własnych licencji, jak i licencji między Privacy Guides a współtwórcami. Privacy Guides przechowuje te informacje tak długo, jak Twój wkład jest włączany do naszego oprogramowania open-source, w tym do tej strony.
 
-### Privacy Guides collects data when you donate to us
+### Privacy Guides gromadzi dane, gdy przekazujesz nam darowiznę
 
-#### When you subscribe to a membership on privacyguides.org
+#### Gdy subskrybujesz członkostwo na privacyguides.org
 
-When you donate to us through our [membership program](#/portal), we collect your email address. Your payment information is also collected by our payment processor Stripe in order to facilitate the transaction. You can also optionally provide your name, which is used to personalize your experience, and can be removed or changed in your [profile settings](#/portal/account/profile) at any time.
+Gdy przekazujesz nam darowiznę za pośrednictwem naszego [programu członkowskiego](#/portal), zbieramy Twój adres e-mail. Informacje o płatności są również gromadzone przez naszego procesora płatności Stripe w celu realizacji transakcji. Opcjonalnie możesz również podać swoje imię i nazwisko, które służy do personalizacji doświadczenia; możesz je usunąć lub zmienić w [ustawieniach profilu](#/portal/account/profile) w dowolnym momencie.
 
-If your membership and newsletter subscription matches an email address associated with an account on our forum, we will link your membership status to your forum account. This allows you to receive special perks on the forum, such as a members-only title or flair, and access to members-only categories.
+Jeśli adres e-mail podany podczas rejestracji członkostwa i subskrypcji newslettera odpowiada adresowi powiązanemu z kontem na naszym forum, połączymy status członkostwa z Twoim kontem na forum. Umożliwia to otrzymanie specjalnych przywilejów na forum, takich jak tytuł lub odznaka dostępna tylko dla członków, oraz dostęp do kategorii przeznaczonych wyłącznie dla członków.
 
-If the Member title or Member flair is enabled on your forum profile, Privacy Guides will share your username and profile picture on our websites for the purposes of acknowledging your donation to the project. You may revoke this consent at any time by removing the title and flair from your public profile, and we will no longer share your donation status publicly. This will not affect your access to members-only benefits. It may take until the next website release for your data to be removed from public visibility.
+Jeśli tytuł „Member” lub odznaka członka jest włączona w Twoim profilu na forum, Privacy Guides udostępni Twoją nazwę użytkownika i zdjęcie profilowe na naszych stronach internetowych w celu publicznego potwierdzenia Twojej darowizny na rzecz projektu. Możesz wycofać tę zgodę w dowolnym momencie, usuwając tytuł i odznakę ze swojego profilu publicznego — wówczas nie będziemy już publicznie udostępniać statusu Twojej darowizny. Nie wpłynie to na Twoje prawo do przywilejów dla członków. Usunięcie danych z widoczności publicznej może nastąpić dopiero przy następnej aktualizacji strony.
 
-#### When you donate to us via GitHub Sponsors
+#### Gdy dokonujesz darowizny za pośrednictwem platformy GitHub Sponsors
 
-When you donate to us on GitHub Sponsors, we collect your GitHub username and profile picture. Your payment information is also collected by our subprocessors GitHub and Stripe in order to facilitate the transaction.
+Gdy dokonujesz darowizny za pośrednictwem platformy GitHub Sponsors, zbieramy Twoją nazwę użytkownika oraz zdjęcie profilowe w serwisie GitHub. Informacje o płatności są również gromadzone przez naszych podprocesorów — GitHub i Stripe — w celu realizacji transakcji.
 
-If you choose to make your donation public during or after the checkout process on GitHub, Privacy Guides will share your username and profile picture on our websites for the purposes of fulfilling your request. You may revoke this consent at any time, and we will no longer share your donation status publicly. It may take until the next website release for your data to be removed from public visibility.
+Jeśli zdecydujesz się upublicznić swoją darowiznę w trakcie lub po zakończeniu procesu płatności w serwisie GitHub, Privacy Guides udostępni Twoją nazwę użytkownika i zdjęcie profilowe na naszych stronach internetowych zgodnie z Twoją prośbą. Możesz wycofać tę zgodę w dowolnym momencie, a wówczas nie będziemy już publicznie udostępniać statusu Twojej darowizny. Usunięcie danych z widoczności publicznej może nastąpić dopiero przy następnej aktualizacji strony.
 
-#### When you subscribe to a membership or donate to us on donate.magicgrants.org
+#### Gdy subskrybujesz członkostwo lub przekazujesz darowiznę za pośrednictwem strony donate.magicgrants.org
 
-When you donate to us on [donate.magicgrants.org](https://donate.magicgrants.org/privacyguides), a [separate privacy policy](https://donate.magicgrants.org/privacy) applies as noted at the beginning of this document.
+Gdy przekazujesz darowiznę za pośrednictwem strony [donate.magicgrants.org](https://donate.magicgrants.org/privacyguides), ma zastosowanie [odrębna polityka prywatności](https://donate.magicgrants.org/privacy), o czym informujemy na początku tego dokumentu.
 
-However, if you optionally link your `donate.magicgrants.org` account to your Privacy Guides forum account, our forum collects some personal data which is covered by this notice: namely your forum username and whether you have an active membership.
+Jeśli jednak opcjonalnie połączysz swoje konto `donate.magicgrants.org` ze swoim kontem na forum Privacy Guides, nasze forum zbierze niektóre dane osobowe objęte niniejszą informacją: mianowicie Twoją nazwę użytkownika na forum oraz informację o aktywnym członkostwie.
 
-We process that information in order to grant you special perks on the forum. Additionally, if you choose to make this status public by setting a members-only title or flair, we will share the status of your active membership on our websites. You may revoke this consent at any time by removing the title and flair from your public profile, and we will no longer share your donation status publicly. This will not affect your access to members-only benefits. It may take until the next website release for your data to be removed from public visibility.
+Przetwarzamy te dane, aby przyznać Ci specjalne przywileje na forum. Ponadto, jeśli zdecydujesz się upublicznić ten status, ustawiając tytuł lub odznakę dostępną tylko dla członków, udostępnimy informację o aktywnym członkostwie na naszych stronach internetowych. Możesz wycofać tę zgodę w dowolnym momencie, usuwając tytuł i odznakę ze swojego profilu publicznego — wówczas nie będziemy już publicznie udostępniać statusu Twojej darowizny. Nie wpłynie to na Twoje prawo do przywilejów dla członków. Usunięcie danych z widoczności publicznej może nastąpić dopiero przy następnej aktualizacji strony.
 
-This information is stored for as long as your membership is active, or until you unlink your forum and MAGIC Grants donation accounts in your profile settings.
+Informacje te są przechowywane tak długo, jak Twoje członkostwo pozostaje aktywne lub do momentu, gdy odłączysz konta forum i MAGIC Grants w ustawieniach profilu.
 
-### Privacy Guides collects data when you contact us
+### Privacy Guides gromadzi dane, gdy kontaktujesz się z nami
 
-When you contact Privacy Guides via email, Signal, or any of our other contact methods, we collect the information you submit to us, and any identifying information associated with the account you use to contact us. For example, when you contact us via Signal we will collect your Signal profile information. When you contact us via email we will collect your email address, name, and mail server IP address.
+Gdy kontaktujesz się z serwisem Privacy Guides za pośrednictwem poczty e-mail, Signal lub innych metod kontaktu, gromadzimy informacje, które nam przekazujesz, oraz wszelkie dane identyfikacyjne powiązane z kontem, którego używasz do kontaktu z nami. Dla przykładu przy kontakcie za pośrednictwem komunikatora Signal gromadzimy informacje z Twojego profilu Signal. Przy kontakcie za pośrednictwem poczty e-mail gromadzimy Twój adres e-mail, imię i nazwisko oraz adres IP serwera pocztowego.
 
-In this case we limit the processing of any personal data you provide us to what is strictly necessary to communicate with you and organize our messages.
+W takim przypadku ograniczamy przetwarzanie przekazanych nam danych osobowych do niezbędnego minimum, aby móc się z Tobą komunikować i porządkować nasze wiadomości.
 
-Privacy Guides stores this data for as long as we are in contact with you, or for up to 1 year after your last contact with us. You have the right to request all data related to your private communication with us be deleted at any time, and we will generally do so within 7 days.
+Privacy Guides przechowuje te dane tak długo, jak utrzymujemy z Tobą kontakt, albo do 1 roku po naszym ostatnim kontakcie. Masz prawo w dowolnym momencie zażądać usunięcia wszystkich danych związanych z Twoją prywatną korespondencją z nami — zwykle usuniemy je w ciągu 7 dni.
 
-### The Privacy Guides website stores local data
+### Strona internetowa Privacy Guides przechowuje dane lokalne
 
-Our website uses Local Storage in your browser to store your color scheme preference. This data is only used by client-side JavaScript to change the color scheme of this website according to your preference.
+Nasza strona internetowa wykorzystuje pamięć lokalną (_Local Storage_) w Twojej przeglądarce, aby przechowywać preferencję dotyczącą schematu kolorów. Dane te są wykorzystywane wyłącznie przez JavaScript po stronie klienta w celu zmiany schematu kolorów strony internetowej zgodnie z Twoją preferencją.
 
-Our website also uses Session Storage to cache the current version number of this website and the number of stars/forks of our GitHub repository. This data is fetched once per session from GitHub, and is only used by client-side JavaScript to display that information at the top of each page.
+Nasza strona wykorzystuje także pamięć sesyjną (_Session Storage_) do buforowania numeru bieżącej wersji strony internetowej oraz liczby gwiazdek i forków naszego repozytorium w serwisie GitHub. Dane te są pobierane raz na sesję z serwisu GitHub i są używanie jedynie przez JavaScript po stronie klienta do wyświetlenia tych informacji u góry każdej strony.
 
-### The Privacy Guides website uses cookies
+### Strona internetowa Privacy Guides wykorzystuje pliki cookie
 
-Our website uses features from the open-source Ghost content management system to manage your membership experience, which uses the following cookies:
+Nasza strona internetowa wykorzystuje funkcję systemu zarządzania treścią Ghost typu open source do zarządzania członkostwem, który wykorzystuje następujące pliki cookie:
 
-| Name                                                                        | Essential | Expires  | Purpose                                                                                                                |
-| --------------------------------------------------------------------------- | --------- | -------- | ---------------------------------------------------------------------------------------------------------------------- |
-| ghost-members-ssr                                                           | Yes       | 6 months | used to identify your membership on the website                                                                        |
-| ghost-members-ssr.sig                                       | Yes       | 6 months | used to validate your membership on the website                                                                        |
-| __stripe_sid | Yes       | 1 year   | [Stripe](#subprocessors-used-by-privacy-guides) allows online transactions without storing any credit card information |
-| __stripe_mid | Yes       | 1 year   | [Stripe](#subprocessors-used-by-privacy-guides) allows online transactions without storing any credit card information |
+| Nazwa                                                                       | Niezbędny | Okres ważności | Przeznaczenie                                                                                                                                     |
+| --------------------------------------------------------------------------- | --------- | -------------- | ------------------------------------------------------------------------------------------------------------------------------------------------- |
+| ghost-members-ssr                                                           | Tak       | 6 miesięcy     | służy do identyfikacji Twojego członkostwa na stronie internetowej                                                                                |
+| ghost-members-ssr.sig                                       | Tak       | 6 miesięcy     | służy do weryfikacji Twojego członkostwa na stronie internetowej                                                                                  |
+| __stripe_sid | Tak       | 1 rok          | Platforma płatnicza [Stripe](#subprocessors-used-by-privacy-guides) umożliwia transakcje online bez przechowywania informacji o karcie kredytowej |
+| __stripe_mid | Tak       | 1 rok          | Platforma płatnicza [Stripe](#subprocessors-used-by-privacy-guides) umożliwia transakcje online bez przechowywania informacji o karcie kredytowej |
 
-### The Privacy Guides forum uses cookies
+### Forum Privacy Guides wykorzystuje pliki cookie
 
-Our forum is built on Discourse, which uses the following cookies:
+Nasze forum oparte jest na oprogramowaniu Discourse, które wykorzystuje następujące pliki cookie:
 
-| Name                                                          | Essential | Expires        | Purpose                                                                                                                   |
+| Nazwa                                                         | Niezbędny | Okres ważności | Przeznaczenie                                                                                                             |
 | ------------------------------------------------------------- | --------- | -------------- | ------------------------------------------------------------------------------------------------------------------------- |
-| email                                                         | Yes       | Session        | remembers your e-mail as you create an account                                                                            |
-| destination_url                          | Yes       | Session        | helps redirect you to your requested page after logging in                                                                |
-| sso_destination_url | Yes       | Session        | helps redirect you to your request page after single sign on                                                              |
-| sso_payload                              | Yes       | Session        | used during SSO authentication when two-factor authentication is enabled                                                  |
-| authentication_data                      | Yes       | Next Page View | temporarily stores user information during login flows                                                                    |
-| theme_ids                                | Yes       | 1 year         | remembers your theme personalization if you don’t tick “Make this my default theme on all my devices”                     |
-| color_scheme_id     | Yes       | 1 year         | remembers your color personalization if you don’t tick “Set default color scheme(s) on all my devices” |
-| dark_scheme_id      | Yes       | 1 year         | remembers your color personalization if you don’t tick “Set default color scheme(s) on all my devices” |
-| cn                                                            | Yes       | Session        | temporarily stores notification read state                                                                                |
-| _bypass_cache       | Yes       | Session        | allows the server-side cache to be bypassed during login flows                                                            |
-| _t                                       | Yes       | 1440 Hours     | remembers who you are when you log in                                                                                     |
-| _forum_session      | Yes       | Session        | associates an ID, and other security-related information, with your browsing session                                      |
-| dosp                                                          | Yes       | Next Page View | enables client denial of service protection, a security protection                                                        |
-| text_size                                | Yes       | 1 year         | remembers default text size when a user wants to change it on only one device                                             |
-| cookietest                                                    | Yes       | Session        | checks if cookies are enabled when authentication fails                                                                   |
-| __profilin          | Nie       | Session        | used by software developers to bypass rack-mini-profiler                                                                  |
+| email                                                         | Tak       | Sesja          | zapamiętuje Twój adres e-mail podczas tworzenia konta                                                                     |
+| destination_url                          | Tak       | Sesja          | pomaga przekierować Cię na żądaną stronę po zalogowaniu                                                                   |
+| sso_destination_url | Tak       | Sesja          | helps redirect you to your request page after single sign on                                                              |
+| sso_payload                              | Tak       | Sesja          | used during SSO authentication when two-factor authentication is enabled                                                  |
+| authentication_data                      | Tak       | Next Page View | temporarily stores user information during login flows                                                                    |
+| theme_ids                                | Tak       | 1 rok          | remembers your theme personalization if you don’t tick “Make this my default theme on all my devices”                     |
+| color_scheme_id     | Tak       | 1 rok          | remembers your color personalization if you don’t tick “Set default color scheme(s) on all my devices” |
+| dark_scheme_id      | Tak       | 1 rok          | remembers your color personalization if you don’t tick “Set default color scheme(s) on all my devices” |
+| cn                                                            | Tak       | Sesja          | temporarily stores notification read state                                                                                |
+| _bypass_cache       | Tak       | Sesja          | allows the server-side cache to be bypassed during login flows                                                            |
+| _t                                       | Tak       | 1440 Hours     | remembers who you are when you log in                                                                                     |
+| _forum_session      | Tak       | Sesja          | associates an ID, and other security-related information, with your browsing session                                      |
+| dosp                                                          | Tak       | Next Page View | enables client denial of service protection, a security protection                                                        |
+| text_size                                | Tak       | 1 rok          | remembers default text size when a user wants to change it on only one device                                             |
+| cookietest                                                    | Tak       | Sesja          | checks if cookies are enabled when authentication fails                                                                   |
+| __profilin          | Nie       | Sesja          | used by software developers to bypass rack-mini-profiler                                                                  |
 
 Your web browser can show you the cookies you have for any website and help you manage them.
 
