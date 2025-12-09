@@ -49,12 +49,12 @@ Możesz sprawdzić [tabelę obsługiwanego sprzętu](https://openwrt.org/toh/sta
 
 </div>
 
-OPNsense powstał początkowo jako fork [pfSense](https://en.wikipedia.org/wiki/PfSense), a oba projekty są znane jako darmowe i niezawodne dystrybucje zapór sieciowych, oferujące funkcje często spotykane wyłącznie w drogich, komercyjnych rozwiązaniach. Począwszy od 2015 roku programiści OPNsense [ujawnili](https://docs.opnsense.org/history/thefork.html) wiele problemów dotyczących bezpieczeństwa i jakości kodu pfSense, co popchnęło ich w stronę utworzenia pochodnego projektu, jak również obawy związane z większościowym zakupem pfSense przez Netgate i przyszłym kierunkiem rozwoju projektu.
+OPNsense powstał początkowo jako fork [pfSense](https://en.wikipedia.org/wiki/PfSense), a oba projekty są znane jako darmowe i niezawodne dystrybucje zapór sieciowych, oferujące funkcje często spotykane wyłącznie w drogich, komercyjnych rozwiązaniach. Uruchomiony w 2015 roku, zespół OPNsense [wskazał](https://docs.opnsense.org/history/thefork.html) szereg problemów z bezpieczeństwem i jakością kodu pfSense, które ich zdaniem uzasadniały stworzenie forka projektu, oraz wyraził obawy dotyczące przejęcia pfSense przez Netgate i kierunku dalszego rozwoju projektu pfSense.
 
 ## Kryteria
 
-**Pamiętaj, że nie jesteśmy związani z żadnym z zalecanych projektów.** W dodatku do [naszych standardowych kryteriów](about/criteria.md), opracowaliśmy zestaw wymagań, które umożliwiają nam podejmowanie obiektywnych decyzji. Zalecamy zapoznanie się z tą listą przed zdecydowaniem o wyborze projektu oraz przeprowadzenie własnego rozeznania, aby upewnić się, że będzie dobrym wyborem dla Ciebie.
+**Należy pamiętać, że nie jesteśmy powiązani z żadnym z polecanych przez nas projektów.** Oprócz [naszych standardowych kryteriów](about/criteria.md) opracowaliśmy jasny zestaw wymagań, które pozwalają nam formułować obiektywne zalecenia. Sugerujemy zapoznanie się z tą listą przed wyborem projektu oraz przeprowadzenie własnych badań, aby upewnić się, że jest to odpowiedni wybór dla Ciebie.
 
 - Musi być open source.
-- Wymagane są regularne aktualizacje.
-- Wymagane jest wsparcie dla szerokiej gamy sprzętu.
+- Musi otrzymywać regularne aktualizacje.
+- Musi obsługiwać szeroką gamę sprzętu.

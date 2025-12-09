@@ -1,33 +1,33 @@
 - - -
-description: We run a number of web services to test out features and promote cool decentralized, federated, and/or open-source projects.
+description: Prowadzimy kilka usług internetowych w celu testowania funkcji i promowania ciekawych zdecentralizowanych, federacyjnych i/lub open-source'owych projektów.
 - - -
 
-# Privacy Guides Services
+# Usługi Privacy Guides
 
-We run a number of web services to test out features and promote cool decentralized, federated, and/or open-source projects. Many of these services are available to the public and are detailed below.
+Prowadzimy kilka usług internetowych w celu testowania funkcji i promowania ciekawych zdecentralizowanych, federacyjnych i/lub open-source'owych projektów. Wiele z tych usług jest dostępnych publicznie i opisano je poniżej.
 
-[:material-comment-alert: Report an issue](https://discuss.privacyguides.net/c/services/2){ class="md-button md-button--primary" }
+[:material-comment-alert: Zgłoś problem](https://discuss.privacyguides.net/c/services/2){ class="md-button md-button--primary" }
 
 ## Discourse
 
-- Domain: [discuss.privacyguides.net](https://discuss.privacyguides.net)
-- Availability: Public
-- Source: [github.com/discourse/discourse](https://github.com/discourse/discourse)
+- Domena: [discuss.privacyguides.net](https://discuss.privacyguides.net)
+- Dostępność: Publiczna
+- Źródło: [github.com/discourse/discourse](https://github.com/discourse/discourse)
 
 ## Gitea
 
-- Domain: [code.privacyguides.dev](https://code.privacyguides.dev)
-- Availability: Invite-Only. Access may be granted upon request to any team working on *Privacy Guides*-related development or content.
-- Source: [snapcraft.io/gitea](https://snapcraft.io/gitea)
+- Domena: [code.privacyguides.dev](https://code.privacyguides.dev)
+- Dostępność: Tylko na zaproszenie. Dostęp może zostać przyznany na żądanie każdemu zespołowi pracującemu nad rozwojem lub treścią związaną z *Privacy Guides*.
+- Źródło: [snapcraft.io/gitea](https://snapcraft.io/gitea)
 
 ## Matrix
 
-- Domain: [matrix.privacyguides.org](https://matrix.privacyguides.org)
-- Availability: Invite-Only. Access may be granted upon request to Privacy Guides team members, Matrix moderators, third-party Matrix community administrators, Matrix bot operators, and other individuals in need of a reliable Matrix presence.
-- Source: [github.com/spantaleev/matrix-docker-ansible-deploy](https://github.com/spantaleev/matrix-docker-ansible-deploy)
+- Domena: [matrix.privacyguides.org](https://matrix.privacyguides.org)
+- Dostępność: Tylko na zaproszenie. Dostęp może być przyznany na żądanie członkom zespołu Privacy Guides, moderatorom Matrix, administratorom zewnętrznych społeczności Matrix, operatorom botów Matrix oraz innym osobom potrzebującym niezawodnej obecności w Matrix.
+- Źródło: [github.com/spantaleev/matrix-docker-ansible-deploy](https://github.com/spantaleev/matrix-docker-ansible-deploy)
 
 ## SearXNG
 
-- Domain: [search.privacyguides.net](https://search.privacyguides.net)
-- Availability: Public
-- Source: [github.com/searxng/searxng-docker](https://github.com/searxng/searxng-docker)
+- Domena: [search.privacyguides.net](https://search.privacyguides.net)
+- Dostępność: Publiczna
+- Źródło: [github.com/searxng/searxng-docker](https://github.com/searxng/searxng-docker)

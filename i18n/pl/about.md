@@ -54,7 +54,7 @@ Jeśli potrzebujesz alternatywnego bezpiecznego kanału, poproś o niego za pomo
 
 <!-- markdownlint-disable MD030 -->
 
-Komitet wykonawczy projektu składa się z pięciu wolontariuszy odpowiedzialnych za zarządzanie [Funduszem MAGIC Privacy Guides](https://magicgrants.org/funds/privacy_guides) oraz za podejmowanie większości kluczowych decyzji związanych z projektem.
+Komitet wykonawczy projektu składa się z pięciu wolontariuszy odpowiedzialnych za zarządzanie funduszem [MAGIC Privacy Guides Fund](https://magicgrants.org/funds/privacy_guides) oraz za podejmowanie większości kluczowych decyzji związanych z projektem.
 
 <div class="grid cards" markdown>
 

@@ -1,39 +1,39 @@
 ---
-title: "Privacy Policy"
-description: We do not sell or share your data with any third-parties.
+title: "Polityka prywatności"
+description: Nie sprzedajemy ani nie udostępniamy Twoich danych stronom trzecim.
 ---
 
-## What is Privacy Guides?
+## Czym jest Privacy Guides?
 
-Privacy Guides is a community project operated by a number of active contributors. The public list of team members [can be found on our forum](https://discuss.privacyguides.net/u?group=team&order=solutions&period=all). Privacy Guides is legally administered by [MAGIC Grants](https://magicgrants.org), a 501(c)(3) public charity acting as our fiscal host.
+Privacy Guides to projekt społecznościowy prowadzony przez wielu aktywnych współtwórców. Publiczna lista członków zespołu jest [dostępna na naszym forum](https://discuss.privacyguides.net/u?group=team&order=solutions&period=all). Privacy Guides jest prawnie zarządzany przez [MAGIC Grants](https://magicgrants.org), publiczną organizację charytatywną 501(c)(3) pełniącą funkcję gospodarza fiskalnego.
 
-As a project, we make available to the public:
+W ramach projektu udostępniamy publicznie:
 
-- [privacyguides.org](https://www.privacyguides.org), this website
-- [discuss.privacyguides.net](https://discuss.privacyguides.net), our community forum
-- [code.privacyguides.dev](https://code.privacyguides.dev), public source code repositories
+- [privacyguides.org](https://www.privacyguides.org) — tę stronę internetową
+- [discuss.privacyguides.net](https://discuss.privacyguides.net) — nasze forum społecznościowe
+- [code.privacyguides.dev](https://code.privacyguides.dev) — publiczne repozytoria kodu źródłowego
 
-This privacy notice covers all Privacy Guides projects authorized and operated by the MAGIC Privacy Guides Fund executive committee.
+Niniejsza informacja o ochronie prywatności obejmuje wszystkie projekty Privacy Guides upoważnione i prowadzone przez komitet wykonawczy funduszu MAGIC Privacy Guides Fund.
 
-Please note that when you make a donation to us on [donate.magicgrants.org](https://donate.magicgrants.org/privacyguides), MAGIC Grants has published a [separate privacy policy](https://donate.magicgrants.org/privacy) covering that platform.
+Należy pamiętać, że jeśli dokonasz darowizny na [donate.magicgrants.org](https://donate.magicgrants.org/privacyguides), MAGIC Grants opublikowało [odrębną politykę prywatności](https://donate.magicgrants.org/privacy) dotyczącą tej platformy.
 
-Additionally, when you browse or make a purchase on [shop.privacyguides.org](https://shop.privacyguides.org/), this is a third-party service provided by Fourthwall. Fourthwall has published a [separate privacy policy](https://shop.privacyguides.org/pages/privacy-policy) covering that platform.
+Ponadto, gdy przeglądasz lub dokonujesz zakupu na stronie [shop.privacyguides.org](https://shop.privacyguides.org/), korzystasz z usługi strony trzecich świadczonej przez Fourthwall. Fourthwall opublikował [odrębną politykę prywatności](https://shop.privacyguides.org/pages/privacy-policy) dotyczącą tej platformy.
 
-## How does Privacy Guides collect data about me?
+## W jaki sposób serwis Privacy Guides gromadzi dane na mój temat?
 
-Privacy Guides collects data about you:
+Privacy Guides gromadzi dane o Tobie:
 
-- When you visit our websites
-- When you create and use an account on our websites
-- When you post, send private messages, and otherwise participate in a community that Privacy Guides hosts
-- When you sign up for a mailing list, email notifications, or announcements
-- When you become a donating member
-- When you make a donation to us on GitHub Sponsors
-- When you link your MAGIC Grants account to your Privacy Guides forum account
-- When you contribute to our website or other open-source projects
-- When you contact us
+- gdy odwiedzasz nasze strony internetowe,
+- gdy tworzysz i korzystasz z konta na naszych stronach internetowych,
+- gdy publikujesz wpisy, wysyłasz wiadomości prywatne lub w inny sposób uczestniczysz w społeczności hostowanej przez serwis Privacy Guides,
+- gdy zapisujesz się na listę mailingową, powiadomienia e-mail lub ogłoszenia,
+- gdy zostajesz członkiem-darczyńcą,
+- gdy dokonujesz darowizny za pośrednictwem platformy GitHub Sponsors,
+- gdy połączysz konto MAGIC Grants ze swoim kontem na forum Privacy Guides,
+- gdy przyczyniasz się do naszej strony internetowej lub innych projektów open-source,
+- gdy się z nami kontaktujesz.
 
-Privacy Guides does not buy or receive data about you from data brokers.
+Privacy Guides nie kupuje ani nie otrzymuje danych o Tobie od brokerów danych.
 
 ## Does Privacy Guides sell my personal information?
 
