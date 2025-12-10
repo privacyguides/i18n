@@ -180,33 +180,33 @@ Twoja przeglądarka internetowa może wyświetlić pliki cookie dla dowolnej str
 
 Privacy Guides automatycznie tworzy kopie zapasowe **wszystkich** gromadzonych danych. Kopie te są przechowywane przez maksymalnie 30 dni. Za każdym razem, gdy usuniesz dane osobowe z naszych stron internetowych, ich kopia może pozostać w archiwach kopii zapasowych do czasu usunięcia tych archiwów.
 
-## Does Privacy Guides use personal information for marketing purposes?
+## Czy Privacy Guides wykorzystuje moje dane osobowe do celów marketingowych?
 
-Privacy Guides may use personal data about our users in order to directly promote our own resources, such as for sharing new resources or when fundraising. We also use the information you give us when signing up for our mailing lists and announcements to send those messages.
+Privacy Guides może wykorzystywać dane osobowe użytkowników w celu bezpośredniej promocji własnych zasobów, na przykład do informowania o nowych materiałach lub podczas zbiórek funduszy. Wykorzystujemy też informacje, które przekazujesz przy zapisie na listy mailingowe i ogłoszenia, w celu wysyłania tych wiadomości.
 
-You can always opt out of marketing communications from us, and you have the right to object to any processing of your information for marketing purposes.
+Zawsze możesz zrezygnować z otrzymywania od nas komunikatów marketingowych oraz masz prawo sprzeciwić się przetwarzaniu swoich danych w celach marketingowych.
 
-Privacy Guides never provides or sells your data to third-parties for marketing purposes.
+Privacy Guides nigdy nie udostępnia ani nie sprzedaje Twoich danych stronom trzecim w celach marketingowych.
 
-## How can I make choices about data collection?
+## Jak mogę dokonywać wyborów dotyczących gromadzenia danych?
 
-Your account on our websites has a settings page which provides you with options about how your data is used.
+Twoje konto na naszych stronach internetowych ma stronę ustawień, która daje możliwości wyboru, w jaki sposób wykorzystywane są Twoje dane.
 
-Most web browsers let you make choices about whether to accept cookies, for specific websites or more generally.
+Większość przeglądarek pozwala decydować o akceptacji plików cookie — dla konkretnych stron lub ogólnie.
 
-Privacy Guides does not respond to the (now deprecated) [Do Not Track HTTP header](https://en.wikipedia.org/wiki/Do_Not_Track).
+Privacy Guides nie odpowiada na (obecnie przestarzały) [nagłówek HTTP „Do Not Track”](https://en.wikipedia.org/wiki/Do_Not_Track).
 
-## Where does Privacy Guides store data about me?
+## Gdzie Privacy Guides przechowuje dane na mój temat?
 
-Most data is hosted by [Triplebit](https://www.triplebit.org) web services in the United States.
+Większość danych jest hostowana przez usługi [Triplebit](https://www.triplebit.org) w Stanach Zjednoczonych.
 
-Some publicly accessible data may be hosted by Content Delivery Networks with servers in other jurisdictions. For example, your profile picture may be stored on multiple servers around the world in order to improve the performance for visitors to our website.
+Niektóre publicznie dostępne dane mogą być hostowane przez sieci dostarczania treści (CDN) z serwerami w innych jurysdykcjach. Dla przykładu Twoje zdjęcie profilowe może być przechowywane na wielu serwerach na całym świecie, aby poprawić wydajność dla odwiedzających naszą stronę internetową.
 
-## Does Privacy Guides comply with the EU General Data Protection Regulation?
+## Czy Privacy Guides przestrzega ogólnego rozporządzenia UE o ochronie danych (RODO)?
 
-Privacy Guides respects rights under the European Union’s General Data Protection Regulation (GDPR). Information that GDPR requires Privacy Guides to give can be found throughout this privacy notice, including information on the rights of data subjects.
+Privacy Guides respektuje prawa wynikające z ogólnego rozporządzenia Unii Europejskiej o ochronie danych (RODO). Informacje, które RODO nakazuje przekazać, znajdują się w całej niniejszej informacji o ochronie prywatności, w tym informacje o prawach osób, których dane dotyczą.
 
-### What are my rights under the GDPR?
+### Jakie prawa przysługują mi na mocy RODO?
 
 The GDPR provides you with the following rights with respect to personal information about you that we collect or process:
 
