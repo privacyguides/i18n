@@ -208,98 +208,98 @@ Privacy Guides respektuje prawa wynikające z ogólnego rozporządzenia Unii Eur
 
 ### Jakie prawa przysługują mi na mocy RODO?
 
-The GDPR provides you with the following rights with respect to personal information about you that we collect or process:
+RODO zapewnia Ci następujące prawa w odniesieniu do danych osobowych, które gromadzimy lub przetwarzamy:
 
-- the right to [access](#where-can-i-access-data-about-me) your personal data
-- the right to [rectification](#how-can-i-change-or-erase-data-about-me) of inaccurate or incomplete personal data
-- the right to [erasure](#how-can-i-change-or-erase-data-about-me) of your personal data
-- the right to [data portability](#where-can-i-access-data-about-me)
-- the right to restrict the processing of your personal data
-- the right to object to certain processing of your information, including [automated decision-making](#does-privacy-guides-make-automated-decisions-based-on-my-data) and [direct marketing](#does-privacy-guides-use-personal-information-for-marketing-purposes)
-- the right to lodge a complaint with a supervisory authority
+- prawo do [dostępu](#where-can-i-access-data-about-me) do swoich danych osobowych,
+- prawo do [sprostowania](#how-can-i-change-or-erase-data-about-me) nieprawidłowych lub niekompletnych danych osobowych,
+- prawo do [usunięcia](#how-can-i-change-or-erase-data-about-me) swoich danych osobowych,
+- prawo do [przenoszenia danych](#where-can-i-access-data-about-me),
+- prawo do ograniczenia przetwarzania swoich danych osobowych,
+- prawo do wniesienia sprzeciwu wobec określonych rodzajów przetwarzania Twoich danych, w tym wobec [zautomatyzowanego podejmowania decyzji](#does-privacy-guides-make-automated-decisions-based-on-my-data) oraz [marketingu bezpośredniego](#does-privacy-guides-use-personal-information-for-marketing-purposes),
+- prawo do wniesienia skargi do organu nadzorczego.
 
-Information about how to exercise these rights is provided throughout this notice and linked above. We try to make exercising all of these rights easy to do on your own through your account settings, but for more complicated inquiries the best option will be to [contact](#how-can-i-contact-privacy-guides-about-privacy) us.
+Informacje o sposobie wykonywania tych praw zostały zawarte w całej niniejszej informacji o ochronie prywatności i są powiązane powyżej. Staramy się, aby realizacja wszystkich tych praw była możliwa samodzielnie za pośrednictwem ustawień konta, jednak w przypadku bardziej złożonych spraw najlepszą opcją będzie [kontakt z nami](#how-can-i-contact-privacy-guides-about-privacy).
 
-### What is the lawful basis for data collection and processing?
+### Jaka jest podstawa prawna gromadzenia i przetwarzania danych?
 
-Privacy Guides generally processes your data using 3 of the 6 lawful bases for processing set out in Article 6 of the GDPR:
+Privacy Guides zasadniczo przetwarza Twoje dane na podstawie trzech z sześciu prawnych podstaw przetwarzania określonych w art. 6 RODO:
 
-- **Consent**: When you give us clear consent for us to process your personal data. This consent can be easily withdrawn at any time in your account settings, or you may always contact us for assistance with privacy-related matters.
-- **Contract**: When you give us your personal data in order to participate on services we operate according to our terms of service, or when we require personal data in order to take steps prior to entering a contract or to fulfill a contract.
-- **Legitimate interest**: When we process your personal data for fraud prevention, network and information security, or other reasons where the processing is required for our own legitimate interests or for those of a third party we work with.
+- **Zgoda**: gdy wyrażasz wyraźną zgodę na przetwarzanie swoich danych osobowych. Zgoda ta może zostać w każdej chwili łatwo wycofana w ustawieniach konta lub poprzez kontakt z nami w kwestiach związanych z prywatnością.
+- **Umowa**: gdy przekazujesz nam swoje dane osobowe, aby korzystać z usług, które świadczymy zgodnie z naszymi warunkami korzystania z usługi lub gdy dane są wymagane do podjęcia działań przed zawarciem umowy lub w celu wykonania umowy.
+- **Uzasadniony interes**: gdy przetwarzamy dane osobowe w celu zapobiegania oszustwom, zapewnienia bezpieczeństwa sieci i informacji lub z innych przyczyn wynikających z naszych uzasadnionych interesów lub interesów stron trzecich, z którymi współpracujemy.
 
-The lawful basis for our processing determines what rights are available to you under the GDPR. This table may be used as a reference:
+Podstawa prawna naszego przetwarzania wpływa na zakres Twoich praw wynikających z RODO. Poniższa tabela może służyć jako odniesienie:
 
-| Activity                                                                                                          | Data Collected                                                                         | Lawful Basis            | Explanation                                                                                                                                                                                                      |
-| ----------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------- | ----------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [Website visits](#privacy-guides-collects-information-about-visits-to-its-websites)                               | IP Address, User Agent, Pages Visited                                                  | **Legitimate interest** | Required for defending our website from abuse and technical attacks, diagnosing and debugging technical errors, optimizing our websites, and compiling aggregated non-personal statistics for long-term analysis |
-| [Account data](#privacy-guides-collects-account-data)                                                             | Email Address, IP Address                                                              | **Legitimate interest** | Required to defend our website against spam and abuse                                                                                                                                                            |
-| [Account data](#privacy-guides-collects-account-data)                                                             | Email Address, Username, Password                                                      | **Contract**            | Required to make our services available to you according to our terms of service                                                                                                                                 |
-| [Account data](#privacy-guides-collects-account-data)                                                             | Optional profile information (name, location, etc.) | **Consent**             | Required to publish the information you provide to your public or internal profile, according to your preferences                                                                                                |
-| [Posts & activity](#privacy-guides-collects-data-about-posts-and-other-activity-on-our-forum) | Content of your posts, activity data like bookmarks, likes, and links you follow       | **Contract**            | Required to make our services available to you according to our terms of service                                                                                                                                 |
-| [Posts & activity](#privacy-guides-collects-data-about-posts-and-other-activity-on-our-forum) | Content of your private messages                                                       | **Contract**            | Required to make our services available to you according to our terms of service                                                                                                                                 |
-| [Posts & activity](#privacy-guides-collects-data-about-posts-and-other-activity-on-our-forum) | Email Address                                                                          | **Contract**            | Our forum is an email-based platform, and email notifications about forum activity are an integral component required to make our services available to you according to our terms of service                    |
-| [Mailing lists](#privacy-guides-collects-data-you-give-to-sign-up-for-mailing-lists-and-announcements)            | Email Address                                                                          | **Consent**             | Required for sending you messages you subscribe to                                                                                                                                                               |
-| [Open source contributions](#privacy-guides-collects-data-about-open-source-contributors)                         | Email address, name, GitHub profile information, other information provided via Git    | **Legitimate interest** | We have a legitimate interest in tracking the provenance of contributions to our open source projects to prevent abuse and ensure intellectual property rights are respected                                     |
-| [Donations](#privacy-guides-collects-data-when-you-donate-to-us)                                                  | Payment information including billing address and email, GitHub profile information    | **Legitimate interest** | We have a legitimate interest in processing this data to prevent payment abuse and fraud, and for facilitating your transaction                                                                                  |
-| [Donations](#privacy-guides-collects-data-when-you-donate-to-us)                                                  | GitHub profile information                                                             | **Consent**             | We process this information to display your donation status publicly in accordance to your wishes                                                                                                                |
-| [Donations](#privacy-guides-collects-data-when-you-donate-to-us)                                                  | Forum username and membership status                                                   | **Consent**             | When your membership is linked to your forum account, you can optionally display your membership status to the public                                                                                            |
-| [Contacting us](#privacy-guides-collects-data-when-you-contact-us)                                                | Email address, mail server IP, message content                                         | **Legitimate interest** | We have a legitimate interest in processing incoming email information to prevent spam and network abuse                                                                                                         |
-| [Contacting us](#privacy-guides-collects-data-when-you-contact-us)                                                | Email address, message headers and content                                             | **Contract**            | We store your messages and process your data in order to provide a response to your communication                                                                                                                |
-| [Backups](#privacy-guides-makes-regular-backups-of-all-data)                                                      | All personal information we collect                                                    | **Legitimate interest** | We store complete backups to ensure organizational continuity and security for up to 30 days                                                                                                                     |
+| Działanie                                                                                                 | Gromadzone dane                                                                                                       | Podstawa prawna         | Wyjaśnienie                                                                                                                                                                                                                       |
+| --------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------- | ----------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [Odwiedziny strony](#privacy-guides-collects-information-about-visits-to-its-websites)                    | adres IP, User Agent, odwiedzone strony                                                                               | **Uzasadniony interes** | Niezbędne do ochrony naszej strony internetowej przed nadużyciami i atakami technicznymi, diagnozowania i usuwania błędów, optymalizacji stron oraz sporządzania zagregowanych, nieosobowych statystyk do długoterminowej analizy |
+| [Dane konta](#privacy-guides-collects-account-data)                                                       | adres e-mail, adres IP                                                                                                | **Uzasadniony interes** | Niezbędne do ochrony naszej strony internetowej przed spamem i nadużyciami                                                                                                                                                        |
+| [Dane konta](#privacy-guides-collects-account-data)                                                       | adres e-mail, nazwa użytkownika, hasło                                                                                | **Umowa**               | Niezbędne, aby udostępnić Ci nasze usługi zgodnie z naszymi warunkami koszystania z usługi                                                                                                                                        |
+| [Dane konta](#privacy-guides-collects-account-data)                                                       | opcjonalne informacje o profilu (imię, nazwisko, lokalizacja itp.)                 | **Zgoda**               | Niezbędne do publikacji informacji, które podajesz w profilu publicznym lub wewnętrznym, zgodnie z Twoimi preferencjami                                                                                                           |
+| [Posty i aktywność](#privacy-guides-collects-data-about-posts-and-other-activity-on-our-forum)            | treść wpisów, dane dotyczące aktywności (np. zakładki, polubienia, śledzone linki) | **Umowa**               | Niezbędne, aby udostępnić Ci nasze usługi zgodnie z naszymi warunkami koszystania z usługi                                                                                                                                        |
+| [Posty i aktywność](#privacy-guides-collects-data-about-posts-and-other-activity-on-our-forum)            | treść wiadomości prywatnych                                                                                           | **Umowa**               | Niezbędne, aby udostępnić Ci nasze usługi zgodnie z naszymi warunkami koszystania z usługi                                                                                                                                        |
+| [Posty i aktywność](#privacy-guides-collects-data-about-posts-and-other-activity-on-our-forum)            | adres e-mail                                                                                                          | **Umowa**               | Nasze forum korzysta z powiadomień e-mail — są one integralną częścią świadczenia usług zgodnie z naszymi warunkami korzystania z usługi                                                                                          |
+| [Listy mailingowe](#privacy-guides-collects-data-you-give-to-sign-up-for-mailing-lists-and-announcements) | adres e-mail                                                                                                          | **Zgoda**               | Niezbędne do wysyłania wiadomości, które subskrybujesz                                                                                                                                                                            |
+| [Wkłady open source](#privacy-guides-collects-data-about-open-source-contributors)                        | adres e-mail, imię i nazwisko, informacje z profilu GitHub, inne dane dostarczone za pośrednictwem Git                | **Uzasadniony interes** | Mamy uzasadniony interes w śledzeniu pochodzenia wkładów w nasze projekty open source, aby zapobiegać nadużyciom i chronić prawa własności intelektualnej                                                                         |
+| [Darowizny](#privacy-guides-collects-data-when-you-donate-to-us)                                          | informacje o płatności, w tym adres rozliczeniowy i e-mail; informacje z profilu GitHub                               | **Uzasadniony interes** | Mamy uzasadniony interes w przetwarzaniu tych danych w celu zapobiegania nadużyciom płatniczym i ułatwienia transakcji                                                                                                            |
+| [Darowizny](#privacy-guides-collects-data-when-you-donate-to-us)                                          | informacje z profilu GitHub                                                                                           | **Zgoda**               | Przetwarzamy te informacje, aby publicznie wyświetlić status darowizny zgodnie z Twoim życzeniem                                                                                                                                  |
+| [Darowizny](#privacy-guides-collects-data-when-you-donate-to-us)                                          | nazwa użytkownika na forum i status członkostwa                                                                       | **Zgoda**               | Gdy członkostwo jest powiązane z Twoim kontem na forum, możesz opcjonalnie wyświetlić status członkostwa publicznie                                                                                                               |
+| [Kontakt z nami](#privacy-guides-collects-data-when-you-contact-us)                                       | adres e-mail, adres IP serwera pocztowego, treść wiadomości                                                           | **Uzasadniony interes** | Mamy uzasadniony interes w przetwarzaniu informacji o przychodzących wiadomościach e-mail, aby zapobiegać spamowi i nadużyciom sieciowym                                                                                          |
+| [Kontakt z nami](#privacy-guides-collects-data-when-you-contact-us)                                       | adres e-mail, nagłówki i treść wiadomości                                                                             | **Umowa**               | Przechowujemy Twoje wiadomości i przetwarzamy dane, aby móc odpowiedzieć na Twoją korespondencję                                                                                                                                  |
+| [Kopie zapasowe](#privacy-guides-makes-regular-backups-of-all-data)                                       | wszystkie dane osobowe, które gromadzimy                                                                              | **Uzasadniony interes** | Przechowujemy pełne kopie zapasowe przez okres do 30 dni w celu zapewnienia ciągłości działania i bezpieczeństwa organizacji                                                                                                      |
 
-### Does Privacy Guides make international data transfers?
+### Czy Privacy Guides dokonuje międzynarodowych transferów danych?
 
-Currently:
+Obecnie:
 
-- Privacy Guides [processes personal data on servers outside the European Union](#where-does-privacy-guides-store-data-about-me).
-- Privacy Guides uses [subprocessors](#subprocessors-used-by-privacy-guides) with personnel and computers outside the European Union.
-- Privacy Guides has [personnel](https://discuss.privacyguides.net/u?group=team&order=solutions&period=all) in the United States, Australia, and other non-EU countries without EU adequacy decisions under GDPR. These people need access to forum personal data in order to keep forums running, address security concerns, respond to privacy-related requests from users, field technical support requests, and otherwise assist users.
-- Privacy Guides is very likely subject to section 702 of the Foreign Intelligence Surveillance Act in the United States, a law that the European Court of Justice has found inadequately protects the rights and freedoms of data subjects.
-- Privacy Guides has never received any order or request for personal data under FISA 702 or any similar national security or surveillance law of any other country. Privacy Guides is not subject to any court order or legal obligation that would prevent it from disclosing the existence or non-existence of such an order or request.
-- Privacy Guides has a policy for how we will respond to those orders and requests, in case we ever receive one. Privacy Guides will suspend processing, notify any affected user, minimize disclosure, and resist disclosure of personal data, all as the law allows.
+- Privacy Guides [przetwarza dane osobowe na serwerach poza Unią Europejską](#where-does-privacy-guides-store-data-about-me).
+- Privacy Guides korzysta z [podprocesorów](#subprocessors-used-by-privacy-guides), których personel i komputery znajdują się poza Unią Europejską.
+- Privacy Guides zatrudnia [personel](https://discuss.privacyguides.net/u?group=team&order=solutions&period=all) w Stanach Zjednoczonych, Australii i innych krajach spoza UE, które nie mają decyzji o adekwatności UE zgodnie z RODO. Osoby te potrzebują dostępu do danych osobowych na forum, aby utrzymywać jego działanie, zajmować się kwestiami bezpieczeństwa, odpowiadać na wnioski dotyczące prywatności, obsługiwać zgłoszenia wsparcia technicznego i świadczyć inne formy pomocy użytkownikom.
+- Privacy Guides najprawdopodobniej podlega artykułowi 702 ustawy USA o kontroli wywiadu zagranicznego (Foreign Intelligence Surveillance Act; FISA) — przepisowi, który Trybunał Sprawiedliwości Unii Europejskiej uznał za niewystarczająco chroniący prawa i wolności osób, których dane dotyczą.
+- Privacy Guides nigdy nie otrzymało żadnego nakazu ani wniosku o udostępnienie danych osobowych na podstawie artykułu 702 FISA ani żadnego podobnego prawa dotyczącego bezpieczeństwa narodowego lub nadzoru w jakimkolwiek innym kraju. Privacy Guides nie jest objęte żadnym nakazem sądowym ani obowiązkiem prawnym, który uniemożliwiałby ujawnienie istnienia lub braku istnienia takiego nakazu lub żądania.
+- Privacy Guides ma ustaloną politykę postępowania na wypadek otrzymania takich nakazów i żądań. W razie otrzymania takiego żądania Privacy Guides wstrzyma przetwarzanie danych, powiadomi każdego użytkownika, którego to dotyczy, ograniczy ujawnianie do niezbędnego minimum i będzie sprzeciwiać się ujawnieniu danych osobowych w zakresie dozwolonym przez prawo.
 
-Because national security and surveillance laws may be in conflict with European data protection rules, Privacy Guides continually reassesses the practical reach of these laws to ensure our data transfers are adequately safeguarded.
+Ponieważ przepisy dotyczące bezpieczeństwa narodowego i nadzoru mogą być sprzeczne z europejskimi przepisami o ochronie danych osobowych, Privacy Guides nieustannie ponownie ocenia praktyczny zasięg tych przepisów, aby zapewnić odpowiednie zabezpieczenia przy transferach danych.
 
-## Does Privacy Guides comply with the California Consumer Privacy Act and other US state comprehensive privacy laws?
+## Czy Privacy Guides przestrzega kalifornijskiej ustawy o ochronie prywatności konsumentów (CCPA) i innych stanowych ustaw o ochronie prywatności w USA?
 
-Privacy Guides is not a "business" for the purposes of the California Consumer Privacy Act (CCPA) or a “controller” directly subject to other US state comprehensive privacy laws.
+Privacy Guides nie jest „przedsiębiorstwem” w rozumieniu kalifornijskiej ustawy o ochronie prywatności konsumentów (California Consumer Privacy Act; CCPA) ani „administratorem” bezpośrednio podlegającym innym kompleksowym ustawom o ochronie prywatności obowiązującym w niektórych stanach USA.
 
-Privacy Guides **never** sells your personal information.
+Privacy Guides **nigdy** nie sprzedaje Twoich danych osobowych.
 
-## Where can I access data about me?
+## Gdzie mogę uzyskać dostęp do danych na mój temat?
 
-You can see your account data by visiting your profile page on any websites where we offer accounts. Your account profile will also list your posts and other activity on the website.
+Dane konta możesz zobaczyć, odwiedzając stronę profilu na którejkolwiek z naszych stron internetowych, na których oferujemy konta. Twój profil będzie również zawierać listę Twoich wpisów i innej aktywności na stronie internetowej.
 
-On the forum, your [profile settings](https://discuss.privacyguides.net/my/preferences/account) include a link to download all of your activity in standard Comma Separated Values format.
+Na forum w [ustawieniach profilu](https://discuss.privacyguides.net/my/preferences/account) znajduje się link umożliwiający pobranie całej Twojej aktywności w standardowym formacie wartości rozdzielonych przecinkami (CSV).
 
-If you do not have an account with us but have a data access request, please [contact us](about.md).
+Jeśli nie masz u nas konta, ale chcesz złożyć wniosek o dostęp do danych, prosimy o [kontakt z nami](about.md).
 
-## How can I change or erase data about me?
+## Jak mogę zmienić lub usunąć dane na mój temat?
 
-You can change your account data at any time by visiting the profile settings page for your account. You also have the option to delete your profile on the settings page of your account. Utilizing this option begins the process of erasing or anonymizing Privacy Guides' records of data you provided for your account. Forum administrators and moderators also have the option to erase and anonymize accounts.
+Dane konta możesz zmienić w dowolnym momencie, odwiedzając stronę ustawień profilu swojego konta. Masz też opcję usunięcia swojego profilu na stronie ustawień konta. Skorzystanie z tej opcji rozpoczyna proces usuwania lub anonimizacji zapisów Privacy Guides dotyczących danych podanych do swojego konta. Administratorzy i moderatorzy forum również mają możliwość usuwania i anonimizowania kont.
 
-You may also be able to edit, anonymize, or erase your posts. When you edit posts, Privacy Guides will keep all versions of your posts. These old versions of posts are not public, but may be accessed by forum moderators or administrators.
+Możesz także edytować, anonimizować lub usuwać swoje wpisy. Przy edycji wpisów Privacy Guides zachowuje wszystkie wersje Twoich wpisów. Te starsze wersje nie są publiczne, ale mogą mieć do nich dostęp moderatorzy lub administratorzy forum.
 
-## Does Privacy Guides make automated decisions based on my data?
+## Czy Privacy Guides podejmuje zautomatyzowane decyzje na podstawie moich danych?
 
-### The Privacy Guides forum classifies posts as spam automatically
+### Forum Privacy Guides automatycznie klasyfikuje wpisy jako spam
 
-We use data about your posts and other posts on many forums to make automated decisions about whether your posts to our websites are likely spam.
+Wykorzystujemy dane o Twoich wpisach oraz innych wpisach na wielu forach do podejmowania zautomatyzowanych decyzji, czy Twoje wpisy na naszych stronach internetowych prawdopodobnie są spamem.
 
-If you think a post has been wrongfully blocked or removed, please contact a forum moderator who can override this decision.
+Jeśli uważasz, że wpis został niesłusznie zablokowany lub usunięty, skontaktuj się z moderatorem forum, który może cofnąć tę decyzję.
 
-### The Privacy Guides forum uses data about your posts and activity to set trust levels
+### Forum Privacy Guides wykorzystuje dane o Twoich wpisach i aktywności do ustalania poziomów zaufania
 
-We use data about your posts and activity on our forum to award you badges and calculate a trust level for your account. Your trust level may affect how you can participate in the forum, such as whether you can upload images, as well as give you access to moderation and management powers in the forum. Your trust level therefore reflects forum administrators’ confidence in you, and their willingness to delegate community management functions, like moderation.
+Wykorzystujemy dane o Twoich wpisach i aktywności na forum do przyznawania odznak i obliczania poziomu zaufania dla Twojego konta. Poziom zaufania może wpływać na sposób, w jaki możesz uczestniczyć w forum — na przykład czy możesz przesyłać obrazy — oraz może przyznawać dostęp do uprawnień moderacyjnych i zarządczych na forum. Poziom zaufania odzwierciedla zatem zaufanie administratorów forum do Ciebie i ich gotowość do delegowania funkcji zarządzania społecznością, takich jak moderowanie.
 
-If you think your trust level has been set incorrectly, contact an administrator of your forum. They can manually adjust the trust level of your account.
+Jeśli uważasz, że Twój poziom zaufania został ustawiony błędnie, skontaktuj się z administratorem forum. Administrator może ręcznie dostosować poziom zaufania Twojego konta.
 
-### The Privacy Guides forum uses community flags to take automated actions
+### Forum Privacy Guides używa zgłoszeń od społeczności do podejmowania automatycznych działań
 
-Your posts may be automatically hidden, or your ability to post may be automatically suspended, as a result of your posts being flagged by other users.
+Twoje wpisy mogą zostać automatycznie ukryte, a możliwość publikowania automatycznie zawieszona w wyniku zgłoszeń innych użytkowników.
 
-These decisions are later reviewed by moderators, who can override these decisions at their discretion.
+Decyzje te są następnie weryfikowane przez moderatorów, którzy według własnego uznania mogą je cofnąć.
 
 ## Does Privacy Guides share data about me with others?
 
