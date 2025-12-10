@@ -221,6 +221,6 @@ Poniżej zamieszczono streszczenie [licencji](https://github.com/privacyguides/p
 
 </div>
 
-:fontawesome-brands-creative-commons: :fontawesome-brands-creative-commons-by: :fontawesome-brands-creative-commons-sa: O ile nie zaznaczono inaczej, oryginalne treści na tej stronie udostępnione są na publicznej licencji [Uznanie autorstwa – Na tych samych warunkach 4.0 Międzynarodowa](https://github.com/privacyguides/privacyguides.org/blob/main/LICENSE). Oznacza to, że możesz kopiować i rozpowszechniać materiały w dowolnym medium lub formacie w dowolnym celu, także komercyjnym, pod warunkiem odpowiedniego przypisania autorstwa `Privacy Guides (www.privacyguides.org)` oraz udostępnienia swojej pracy na tej samej licencji.
+:fontawesome-brands-creative-commons: :fontawesome-brands-creative-commons-by: :fontawesome-brands-creative-commons-sa: O ile nie zaznaczono inaczej, oryginalne treści na tej stronie udostępnione są na publicznej licencji [Uznanie autorstwa – Na tych samych warunkach 4.0 Międzynarodowa](https://github.com/privacyguides/privacyguides.org/blob/main/LICENSE). Oznacza to, że możesz kopiować i rozpowszechniać materiały w dowolnym medium lub formacie w dowolnym celu, także komercyjnym, pod warunkiem odpowiedniego wskazania autorstwa `Privacy Guides (www.privacyguides.org)` oraz udostępnienia swojej pracy na tej samej licencji.
 
 Można stosować się do tych warunków w dowolny rozsądny sposób, jednak nie w sposób sugerujący, że Privacy Guides popiera Ciebie lub Twoje wykorzystanie.

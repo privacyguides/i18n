@@ -1,19 +1,19 @@
 ---
-title: "Notices and Disclaimers"
-description: Information about our website license, acceptable use policy, and other important details.
+title: "Informacje i zastrzeżenia"
+description: Informacje o licencji naszej strony internetowej, zasadach dozwolonego użytkowania oraz innych ważnych kwestiach.
 ---
 
 ## Zastrzeżenie prawne
 
-Privacy Guides nie jest kancelarią prawną. W związku z tym, strona internetowa Privacy Guides oraz jej współtwórcy nie udzielają porad prawnych. Materiały i zalecenia umieszczone na naszej stronie internetowej oraz w poradnikach nie stanowią porady prawnej, a współtworzenie strony internetowej oraz komunikowanie się z Privacy Guides lub innymi współtwórcami w sprawach dotyczących strony internetowej nie ustanawiają relacji prawnik-klient.
+Privacy Guides nie jest kancelarią prawną. W związku z tym strona internetowa Privacy Guides oraz jej współtwórcy nie udzielają porad prawnych. Materiały i zalecenia zamieszczone na naszej stronie internetowej i w poradnikach nie stanowią porady prawnej, a wniesienie wkładu na tę stronę internetową lub komunikacja z Privacy Guides czy innymi współtwórcami nie tworzy relacji prawnik–klient.
 
-Prowadzenie tej strony, jak każde ludzkie przedsięwzięcie, wiąże się z niepewnością i kompromisami. Mamy nadzieję, że ta strona internetowa jest pomocna, ale może zawierać pomyłki i może nie odnosić się do każdej sytuacji. Jeśli masz jakiekolwiek pytania dotyczące swojej sytuacji, zachęcamy do przeprowadzenia własnego rozeznania, skonsultowania z innymi ekspertami oraz wzięcia udziału w dyskusjach ze społecznością Privacy Guides. Jeśli masz jakiekolwiek zapytania prawne, należy skonsultować się ze swoim własnym radcą prawnym przed podjęciem dalszych działań.
+Prowadzenie tej strony internetowej, jak każda działalność ludzka, wiąże się z niepewnością i kompromisami. Mamy nadzieję, że strona ta będzie pomocna, jednak może zawierać błędy i nie jest w stanie objąć wszystkich możliwych sytuacji. Jeśli masz pytania dotyczące swojej sytuacji, zachęcamy do przeprowadzenia własnych poszukiwań, zasięgnięcia opinii innych ekspertów oraz wzięcia udziału w dyskusjach ze społecznością Privacy Guides. W przypadku pytań prawnych należy skonsultować się ze swoim radcą prawnym przed podjęciem dalszych działań.
 
-Privacy Guides is an open-source project contributed to under licenses that include terms that, for the protection of the website and its contributors, make clear that the Privacy Guides project and website is offered "as-is", without warranty, and disclaiming liability for damages resulting from using the website or any recommendations contained within. Privacy Guides does not warrant or make any representations concerning the accuracy, likely results, or reliability of the use of the materials on the website or otherwise relating to such materials on the website or on any third-party sites linked on this site.
+Privacy Guides jest projektem open-source udostępnianym na zasadach, które — w celu ochrony witryny i jej wspołtwórców — wyraźnie stwierdzają, że projekt i strona internetowa Privacy Guides są oferowane „w takim stanie, jakim są”, bez gwarancji, oraz że wyłączana jest odpowiedzialność za szkody wynikające z korzystania ze strony lub z jakichkolwiek zalecanych na niej rozwiązań. Privacy Guides nie gwarantuje ani nie składa żadnych oświadczeń co do dokładności, spodziewanych rezultatów ani niezawodności korzystania z materiałów znajdujących się na stronie internetowej lub dotyczących tych materiałów na jakichkolwiek stronach podlinkowanych.
 
-Ponadto Privacy Guides nie gwarantuje że strona internetowa będzie dostępna cały czas lub wcale.
+Privacy Guides nie gwarantuje również, że strona internetowa będzie dostępna nieprzerwanie lub w ogóle.
 
-## Licensing Overview
+## Przegląd licencji
 
 <div class="admonition danger" markdown>
 
@@ -21,15 +21,15 @@ Poniżej zamieszczono streszczenie [licencji](https://github.com/privacyguides/p
 
 </div>
 
-Unless otherwise noted, all **content** on this website is released under the [Creative Commons Attribution-ShareAlike 4.0 International Public License](https://github.com/privacyguides/privacyguides.org/tree/main/LICENSE). This means that you can use the human-readable content on this website for your own project, as long as you give appropriate credit to [Privacy Guides](https://www.privacyguides.org) including a link where technically possible, and you release your project under the same license. You may not do so in any way that suggests Privacy Guides endorses you or your use. You **may not** use the Privacy Guides brand trademarks in your own project without express approval from this project. Privacy Guides's brand trademarks include the "Privacy Guides" wordmark and shield logo.
+O ile nie zaznaczono inaczej, cała **zawartość** na tej stronie internetowej jest udostępniona na publicznej licencji [Uznanie autorstwa – Na tych samych warunkach 4.0 Międzynarodowa](https://github.com/privacyguides/privacyguides.org/tree/main/LICENSE). Oznacza to, że można wykorzystać treści tej strony internetowej przeznaczone do użytku przez ludzi we własnym projekcie pod warunkiem odpowiedniego wskazania autorstwa [Privacy Guides](https://www.privacyguides.org) (w tym linku, gdy jest to technicznie możliwe) oraz udostępnienia projektu na tej samej licencji. Nie wolno w sposób sugerujący, że Privacy Guides popiera autora lub sposób wykorzystania treści. **Nie można** wykorzystywać znaków towarowych Privacy Guides we własnym projekcie bez wyraźnej zgody projektu. Znaki towarowe marki Privacy Guides obejmują logotyp „Privacy Guides” oraz sygnet tarczy.
 
-The underlying **source code** used to generate this website and display that content is released under the [MIT License](https://github.com/privacyguides/privacyguides.org/tree/main/LICENSE-CODE).
+Podstawowy **kod źródłowy** używany do generowania tej strony internetowej i wyświetlania jej zawartości jest udostępniany na warunkach [licencji MIT](https://github.com/privacyguides/privacyguides.org/tree/main/LICENSE-CODE).
 
-This does not include third-party code embedded in the Privacy Guides code repository, or code where a superseding license is otherwise noted. Poniżej przedstawiono warte uwagi przykłady, ale ta lista może nie być wyczerpująca:
+Nie obejmuje to kodu stron trzecich osadzonego w repozytorium Privacy Guides ani kodu, dla którego wskazano inną licencję zastępczą. Poniższe przykłady są istotne, ale lista może nie być wyczerpująca:
 
-* The [Bagnard](https://github.com/privacyguides/brand/tree/67166ed8b641d8ac1837d0b75329e02ed4056704/fonts/Bagnard) heading font is licensed under the [SIL Open Font License 1.1](https://github.com/privacyguides/brand/blob/67166ed8b641d8ac1837d0b75329e02ed4056704/fonts/Bagnard/LICENSE.txt).
-* The [Public Sans](https://github.com/privacyguides/brand/tree/67166ed8b641d8ac1837d0b75329e02ed4056704/fonts/Public%20Sans) font used for most text on the site is licensed under the terms detailed [here](https://github.com/privacyguides/brand/blob/67166ed8b641d8ac1837d0b75329e02ed4056704/fonts/Public%20Sans/LICENSE.txt).
-* The [DM Mono](https://github.com/privacyguides/brand/tree/67166ed8b641d8ac1837d0b75329e02ed4056704/fonts/DM%20Mono) font used for monospaced text on the site is licensed under the [SIL Open Font License 1.1](https://github.com/privacyguides/brand/blob/67166ed8b641d8ac1837d0b75329e02ed4056704/fonts/DM%20Mono/LICENSE.txt).
+* Czcionka nagłówkowa [Bagnard](https://github.com/privacyguides/brand/tree/67166ed8b641d8ac1837d0b75329e02ed4056704/fonts/Bagnard) jest licencjonowana na warunkach licencji [SIL Open Font License 1.1](https://github.com/privacyguides/brand/blob/67166ed8b641d8ac1837d0b75329e02ed4056704/fonts/Bagnard/LICENSE.txt).
+* Czcionka [Public Sans](https://github.com/privacyguides/brand/tree/67166ed8b641d8ac1837d0b75329e02ed4056704/fonts/Public%20Sans) używana w większości tekstu na stronie jest licencjonowana na warunkach opisanych [tutaj](https://github.com/privacyguides/brand/blob/67166ed8b641d8ac1837d0b75329e02ed4056704/fonts/Public%20Sans/LICENSE.txt).
+* Czcionka [DM Mono](https://github.com/privacyguides/brand/tree/67166ed8b641d8ac1837d0b75329e02ed4056704/fonts/DM%20Mono) używana w tekście o stałej szerokości znaków jest licencjonowana na warunkach licencji [SIL Open Font License 1.1](https://github.com/privacyguides/brand/blob/67166ed8b641d8ac1837d0b75329e02ed4056704/fonts/DM%20Mono/LICENSE.txt).
 
 Uważamy, że loga i inne obrazy w `zasobach` pozyskanych od zewnętrznych dostawców znajdują się w domenie publicznej lub zaliczają się do **dozwolonego użytku**. In a nutshell, legal [fair use doctrine](https://copyright.gov/fair-use/more-info.html) allows the use of copyrighted images in order to identify the subject for purposes of public comment. Jednakże te loga i inne obrazy mogą nadal podlegać prawom dotyczącym znaków towarowych w jednej lub kilku jurysdykcjach. Przed wykorzystaniem tych treści należy upewnić się, że służą one identyfikacji podmiotu lub organizacji będącej właścicielem znaku towarowego oraz że masz prawo do ich wykorzystania zgodnie z przepisami prawa, które mają zastosowanie w okolicznościach zamierzonego wykorzystania. *Kopiując treści z tej strony internetowej ponosisz wyłączną odpowiedzialność za zapewnienie, że nie naruszasz cudzego znaku towarowego lub prawa autorskiego.*
 
