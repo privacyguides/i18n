@@ -1,9 +1,9 @@
 ---
-title: Executive Policy
-description: These are policies formally adopted by our executive committee, and take precedence over all other statements expressed on this website.
+title: Polityka wykonawcza
+description: Są to polityki formalnie przyjęte przez nasz komitet wykonawczy i mają pierwszeństwo przed wszystkimi innymi oświadczeniami zamieszczonymi na tej stronie internetowej.
 ---
 
-These are policies formally adopted by Privacy Guides' executive committee, and take precedence over all other statements expressed on this website.
+Są to polityki formalnie przyjęte przez komitet wykonawczy Privacy Guides i mają pierwszeństwo przed wszystkimi innymi oświadczeniami zamieszczonymi na tej stronie internetowej.
 
 The keywords **must**, **must not**, **required**, **shall**, **shall not**, **should**, **should not**, **recommended**, **may**, and **optional** are to be interpreted as described in [RFC 2119](https://datatracker.ietf.org/doc/html/rfc2119).
 

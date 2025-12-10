@@ -31,22 +31,22 @@ Nie obejmuje to kodu stron trzecich osadzonego w repozytorium Privacy Guides ani
 * Czcionka [Public Sans](https://github.com/privacyguides/brand/tree/67166ed8b641d8ac1837d0b75329e02ed4056704/fonts/Public%20Sans) używana w większości tekstu na stronie jest licencjonowana na warunkach opisanych [tutaj](https://github.com/privacyguides/brand/blob/67166ed8b641d8ac1837d0b75329e02ed4056704/fonts/Public%20Sans/LICENSE.txt).
 * Czcionka [DM Mono](https://github.com/privacyguides/brand/tree/67166ed8b641d8ac1837d0b75329e02ed4056704/fonts/DM%20Mono) używana w tekście o stałej szerokości znaków jest licencjonowana na warunkach licencji [SIL Open Font License 1.1](https://github.com/privacyguides/brand/blob/67166ed8b641d8ac1837d0b75329e02ed4056704/fonts/DM%20Mono/LICENSE.txt).
 
-Uważamy, że loga i inne obrazy w `zasobach` pozyskanych od zewnętrznych dostawców znajdują się w domenie publicznej lub zaliczają się do **dozwolonego użytku**. In a nutshell, legal [fair use doctrine](https://copyright.gov/fair-use/more-info.html) allows the use of copyrighted images in order to identify the subject for purposes of public comment. Jednakże te loga i inne obrazy mogą nadal podlegać prawom dotyczącym znaków towarowych w jednej lub kilku jurysdykcjach. Przed wykorzystaniem tych treści należy upewnić się, że służą one identyfikacji podmiotu lub organizacji będącej właścicielem znaku towarowego oraz że masz prawo do ich wykorzystania zgodnie z przepisami prawa, które mają zastosowanie w okolicznościach zamierzonego wykorzystania. *Kopiując treści z tej strony internetowej ponosisz wyłączną odpowiedzialność za zapewnienie, że nie naruszasz cudzego znaku towarowego lub prawa autorskiego.*
+Uważamy, że logo i inne obrazy w katalogu `assets` pochodzące od dostawców zewnętrznych znajdują się w domenie publicznej lub mieszczą się w ramach **dozwolonego użytku**. W skrócie [doktryna „dozwolonego użytku”](https://copyright.gov/fair-use/more-info.html) pozwala wykorzystać chronione prawem autorskim obrazy w celu identyfikacji podmiotu w kontekście komentarza publicznego. Mogą one jednak podlegać przepisom dotyczącym znaków towarowych w jednym lub kilku jurysdykcjach. Przed użyciem tych treści należy upewnić się, że służą one identyfikacji podmiotu lub organizacji będącej właścicielem znaku towarowego oraz że ich wykorzystanie jest dozwolone zgodnie z przepisami obowiązującymi w okolicznościach planowanego użycia. *Kopiując treści z tej strony internetowej, ponosisz wyłączną odpowiedzialność za upewnienie się, że nie naruszasz praw autorskich ani znaków towarowych stron trzecich.*
 
-When you contribute to our website you are doing so under the above licenses, and you are granting Privacy Guides a perpetual, worldwide, non-exclusive, transferable, royalty-free, irrevocable license with the right to sublicense such rights through multiple tiers of sublicensees, to reproduce, modify, display, perform and distribute your contribution as part of our project.
+Wnosząc wkład do naszej strony internetowej, czyni się to na mocy powyższych licencji, przyznając Privacy Guides wieczystą, ogólnoświatową, niewyłączną, zbywalną, wolną od opłat, nieodwoływalną licencję z prawem do udzielania sublicencji przez wiele szczebli sublicencjobiorców na reprodukcję, modyfikację, wyświetlanie, wykonywanie i dystrybucję wkładu jako części naszego projektu.
 
-## Acceptable Use
+## Zasady dozwolonego użytkowania
 
-You may not use this website in any way that causes or may cause damage to the website or impairment of the availability or accessibility of Privacy Guides, or in any way which is unlawful, illegal, fraudulent, harmful, or in connection with any unlawful, illegal, fraudulent, or harmful purpose or activity.
+Nie wolno korzystać z tej strony internetowej w sposób, który powoduje lub może spowodować uszkodzenie strony bądź ograniczenie dostępności lub użyteczności Privacy Guides, ani w sposób niezgodny z prawem, nielegalny, oszukańczy, szkodliwy lub w związku z jakąkolwiek niezgodną z prawem, nielegalną, oszukańczą lub szkodliwą działalnością.
 
-You must not conduct any systematic or automated data collection activities on or in relation to this website without express written consent, including:
+Bez uprzedniej, wyraźnej zgody na piśmie zabronione jest prowadzenie systematycznych lub zautomatyzowanych działań gromadzących dane na tej stronie internetowej lub w związku z nią, w tym:
 
-* Excessive Automated Scans
-* Denial of Service Attacks
-* Scraping
-* Data Mining
-* 'Framing' (IFrames)
+* Nadmierne automatyczne skany
+* Ataki typu „blokada usługi” (Denial of Service)
+* Scraping (ekstrakcja danych internetowych)
+* Data Mining (eksploracja danych)
+* „Framing” (iframes)
 
 ---
 
-*Portions of this notice itself were adopted from [opensource.guide](https://github.com/github/opensource.guide/blob/master/notices.md) on GitHub. That resource and this page itself are released under [CC-BY-4.0](https://creativecommons.org/licenses/by-sa/4.0).*
+*Fragmenty powyższej informacji zostały zaczerpnięte z [opensource.guide](https://github.com/github/opensource.guide/blob/master/notices.md) na GitHub. Ten zasób i ta strona są udostępnione na warunkach licencji [CC-BY-4.0](https://creativecommons.org/licenses/by-sa/4.0).*
