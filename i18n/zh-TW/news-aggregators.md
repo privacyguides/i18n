@@ -19,13 +19,13 @@ cover: news-aggregators.webp
 
 ![Akregator logo](assets/img/news-aggregators/akregator.svg){ align=right }
 
-**Akregator** 是 [KDE](https://kde.org) 項目的一部分。 It comes with a fast search, advanced archiving functionality, and an internal browser for easy news reading.
+**Akregator** 是 [KDE](https://kde.org) 項目的一部分。 其有快速搜尋、進階封存功能與內部瀏覽器可以輕鬆閱讀新聞。
 
-[:octicons-home-16: Homepage](https://apps.kde.org/akregator){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://kde.org/privacypolicy-apps){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://docs.kde.org/?application=akregator){ .card-link title="Documentation" }
-[:octicons-code-16:](https://invent.kde.org/pim/akregator){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://kde.org/community/donations){ .card-link title="Contribute" }
+[:octicons-home-16: 首頁](https://apps.kde.org/akregator){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://kde.org/privacypolicy-apps){ .card-link title="隱私權政策" }
+[:octicons-info-16:](https://docs.kde.org/?application=akregator){ .card-link title="文件" }
+[:octicons-code-16:](https://invent.kde.org/pim/akregator){ .card-link title="原始碼" }
+[:octicons-heart-16:](https://kde.org/community/donations){ .card-link title="貢獻" }
 
 <details class="downloads" markdown>
 <summary>下載</summary>
@@ -40,12 +40,12 @@ cover: news-aggregators.webp
 
 <div class="admonition recommendation" markdown>
 
-![NewsFlash logo](assets/img/news-aggregators/newsflash.png){ align=right }
+![NewsFlash 標誌](assets/img/news-aggregators/newsflash.png){ align=right }
 
-**NewsFlash** is an open-source, modern, and easy-to-use news feed reader for Linux. It can be used offline or with services like [Inoreader](https://inoreader.com) or [Nextcloud News](https://apps.nextcloud.com/apps/news). It has a search feature and a pre-defined list of sources that you can add directly.
+**NewsFlash** 是一款 Linux 的開放原始碼、現代化、易於使用的新聞 feed 閱讀程式。 其可以離線使用，或是搭配 [Inoreader](https://inoreader.com) 或 [Nextcloud News](https://apps.nextcloud.com/apps/news) 等服務使用。 它具備搜尋功能，並提供預先準備的來源清單，您可直接將來源加入其中。
 
-[:octicons-repo-16: Repository](https://gitlab.com/news-flash/news_flash_gtk#newsflash){ .md-button .md-button--primary }
-[:octicons-code-16:](https://gitlab.com/news-flash/news_flash_gtk){ .card-link title="Source Code" }
+[:octicons-repo-16: 儲存庫](https://gitlab.com/news-flash/news_flash_gtk#newsflash){ .md-button .md-button--primary }
+[:octicons-code-16:](https://gitlab.com/news-flash/news_flash_gtk){ .card-link title="原始碼" }
 
 <details class="downloads" markdown>
 <summary>下載</summary>
@@ -64,11 +64,11 @@ cover: news-aggregators.webp
 
 **Feeder** 是 Android 版本的 RSS 客戶端，具有許多 [特色](https://github.com/spacecowboy/Feeder#features) ，且可與RSS 訊息來源的資料夾配合使用。
 
-It supports [RSS](https://en.wikipedia.org/wiki/RSS), [Atom](https://en.wikipedia.org/wiki/Atom_(Web_standard)), [RDF](https://en.wikipedia.org/wiki/RDF%2FXML), and [JSON Feed](https://en.wikipedia.org/wiki/JSON_Feed).
+其支援 [RSS](https://en.wikipedia.org/wiki/RSS)、[Atom](https://en.wikipedia.org/wiki/Atom_(Web_standard))、[RDF](https://en.wikipedia.org/wiki/RDF%2FXML) 與 [JSON Feed](https://en.wikipedia.org/wiki/JSON_Feed)。
 
-[:octicons-repo-16: Repository](https://github.com/spacecowboy/Feeder#readme){ .md-button .md-button--primary }
-[:octicons-code-16:](https://github.com/spacecowboy/Feeder){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://ko-fi.com/spacecowboy){ .card-link title="Contribute" }
+[:octicons-repo-16: 儲存庫](https://github.com/spacecowboy/Feeder#readme){ .md-button .md-button--primary }
+[:octicons-code-16:](https://github.com/spacecowboy/Feeder){ .card-link title="原始碼" }
+[:octicons-heart-16:](https://ko-fi.com/spacecowboy){ .card-link title="貢獻" }
 
 <details class="downloads" markdown>
 <summary>下載</summary>
@@ -89,12 +89,12 @@ It supports [RSS](https://en.wikipedia.org/wiki/RSS), [Atom](https://en.wikipedi
 
 **Miniflux** 是一個網頁版的新聞聚合器，允許自行託管。
 
-It supports [RSS](https://en.wikipedia.org/wiki/RSS), [Atom](https://en.wikipedia.org/wiki/Atom_(Web_standard)), [RDF](https://en.wikipedia.org/wiki/RDF%2FXML), and [JSON Feed](https://en.wikipedia.org/wiki/JSON_Feed).
+其支援 [RSS](https://en.wikipedia.org/wiki/RSS)、[Atom](https://en.wikipedia.org/wiki/Atom_(Web_standard))、[RDF](https://en.wikipedia.org/wiki/RDF%2FXML) 與 [JSON Feed](https://en.wikipedia.org/wiki/JSON_Feed)。
 
-[:octicons-home-16: Homepage](https://miniflux.app){ .md-button .md-button--primary }
-[:octicons-info-16:](https://miniflux.app/docs/index#user-guide){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/miniflux/v2){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://miniflux.app/#donations){ .card-link title="Contribute" }
+[:octicons-home-16: 首頁](https://miniflux.app){ .md-button .md-button--primary }
+[:octicons-info-16:](https://miniflux.app/docs/index#user-guide){ .card-link title="文件" }
+[:octicons-code-16:](https://github.com/miniflux/v2){ .card-link title="原始碼" }
+[:octicons-heart-16:](https://miniflux.app/#donations){ .card-link title="貢獻" }
 
 </div>
 
@@ -106,12 +106,12 @@ It supports [RSS](https://en.wikipedia.org/wiki/RSS), [Atom](https://en.wikipedi
 
 **NetNewsWire** 是一款自由及開放原始碼的訊息源閱讀器，適用於 macOS 和 iOS ，專注於原生設計和功能集。
 
-It supports conventional feed formats and includes built-in support for Reddit feeds.
+其支援傳統的 feed 格式，並內建支援 Reddit feed。
 
-[:octicons-home-16: Homepage](https://netnewswire.com){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://netnewswire.com/privacypolicy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://netnewswire.com/help){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/Ranchero-Software/NetNewsWire){ .card-link title="Source Code" }
+[:octicons-home-16: 首頁](https://netnewswire.com){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://netnewswire.com/privacypolicy){ .card-link title="隱私權政策" }
+[:octicons-info-16:](https://netnewswire.com/help){ .card-link title="文件" }
+[:octicons-code-16:](https://github.com/Ranchero-Software/NetNewsWire){ .card-link title="原始碼" }
 
 <details class="downloads" markdown>
 <summary>下載</summary>
@@ -129,11 +129,11 @@ It supports conventional feed formats and includes built-in support for Reddit f
 
 ![Newsboat logo](assets/img/news-aggregators/newsboat.svg){ align=right }
 
-**Newsboat** 是文字控制界面的RSS/Atom 新聞閱讀器。 分支自 [Newsbeuter](https://en.wikipedia.org/wiki/Newsbeuter) 後，維持積極維護。 It is very lightweight and ideal for use over [Secure Shell](https://en.wikipedia.org/wiki/Secure_Shell).
+**Newsboat** 是文字控制界面的RSS/Atom 新聞閱讀器。 分支自 [Newsbeuter](https://en.wikipedia.org/wiki/Newsbeuter) 後，維持積極維護。 非常輕量，適合在 [Secure Shell](https://zh.wikipedia.org/wiki/Secure_Shell) 上使用。
 
-[:octicons-home-16: Homepage](https://newsboat.org){ .md-button .md-button--primary }
-[:octicons-info-16:](https://newsboat.org/releases/2.38/docs/newsboat.html){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/newsboat/newsboat){ .card-link title="Source Code" }
+[:octicons-home-16: 首頁](https://newsboat.org){ .md-button .md-button--primary }
+[:octicons-info-16:](https://newsboat.org/releases/2.38/docs/newsboat.html){ .card-link title="文件" }
+[:octicons-code-16:](https://github.com/newsboat/newsboat){ .card-link title="原始碼" }
 
 </div>
 
@@ -146,16 +146,16 @@ It supports conventional feed formats and includes built-in support for Reddit f
 
 ## 社交媒體 RSS 支援
 
-Some social media services also support RSS, although it's not often advertised.
+部份社群媒體服務也支援 RSS，雖然這項服務通常不會被拿出來宣傳。
 
 ### Reddit
 
-Reddit allows you to subscribe to Subreddits via RSS.
+Reddit 讓您可以透過 RSS 訂閱 Subreddits。
 
 <div class="admonition example" markdown>
 <p class="admonition-title">Example "例子"</p>
 
-Replace `[SUBREDDIT]` with the Subreddit you wish to subscribe to.
+將 `[SUBREDDIT]` 替換為您想要訂閱的 Subreddit。
 
 ```text
 https://reddit.com/r/[SUBREDDIT]/new/.rss
@@ -165,12 +165,12 @@ https://reddit.com/r/[SUBREDDIT]/new/.rss
 
 ### YouTube
 
-You can subscribe to YouTube channels without logging in and associating usage information with your Google account.
+您不需要登入帳號或將使用資訊與您的 Google 帳號關聯，就可以訂閱 YouTube 頻道。
 
 <div class="admonition example" markdown>
 <p class="admonition-title">範例</p>
 
-欲透過 RSS 客戶端訂閱 YouTube 頻道，首先需要取得該頻道的 [頻道 ID](https://support.google.com/youtube/answer/6180214) 。 The channel code can be found in the expanded description (i.e., the "About" section) of the YouTube channel you wish to subscribe to: **About** → **Share channel** → **Copy channel ID**. 並替換下方的 [CHANNEL ID]：
+欲透過 RSS 客戶端訂閱 YouTube 頻道，首先需要取得該頻道的 [頻道 ID](https://support.google.com/youtube/answer/6180214) 。 頻道代碼可以在您想要訂閱的 YouTube 頻道的擴充說明（即「關於」區塊）中找到：**關於** → **分享頻道** → **複製頻道 ID**。 並替換下方的 [CHANNEL ID]：
 
 ```text
 https://youtube.com/feeds/videos.xml?channel_id=[CHANNEL ID]
