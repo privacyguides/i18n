@@ -5,24 +5,24 @@ description: Są to polityki formalnie przyjęte przez nasz komitet wykonawczy i
 
 Są to polityki formalnie przyjęte przez komitet wykonawczy Privacy Guides i mają pierwszeństwo przed wszystkimi innymi oświadczeniami zamieszczonymi na tej stronie internetowej.
 
-The keywords **must**, **must not**, **required**, **shall**, **shall not**, **should**, **should not**, **recommended**, **may**, and **optional** are to be interpreted as described in [RFC 2119](https://datatracker.ietf.org/doc/html/rfc2119).
+The keywords **musi** (_must_), **nie może** (_must not_ / _shall not_), **wymagane** (_required_), **należy** (_shall_), **powinien** (_should_), **nie powinien** (_should not_), **zalecane** (_recommended_), **może** (_may_) oraz **opcjonalne** (_optional_) należy interpretować zgodnie z opisem w dokumencie [RFC 2119](https://datatracker.ietf.org/doc/html/rfc2119).
 
-## EP1: Freely-Provided Product Samples
+## EP1: Bezpłatnie dostarczone próbki produktów
 
-_Our policy on accepting product samples for review was adopted September 7, 2024._
+_Nasza polityka dotycząca przyjmowania próbek produktów do recenzji została przyjęta 7 września 2024 r._
 
-\=== "Current Version (1)"
+\=== "Bieżąca wersja (1)"
 
 ```
-- Privacy Guides **shall not** proactively reach out to vendors asking for product samples or review accounts.
-- Privacy Guides **shall not** accept test/review accounts for subscription cloud services.
-- Privacy Guides **may** accept freely-provided product samples for one-time purchase software applications which run locally, given they don't require a subscription for continued operation.
-- Privacy Guides **may** accept freely-provided samples of hardware products.
-    - Privacy Guides **may** accept a freely-provided subscription service associated with a hardware product, if such a subscription/license is necessary to use the product.
-- Privacy Guides **must not** enter into an agreement pertaining to our editorial opinion with the vendor in order to receive a sample or publish a review. All freely-provided items must be strictly "no strings attached."
-    - We **may** agree to return the product to the vendor following the review if requested.
-    - We **may** agree to a reasonable NDA, provided it has a clear embargo date that is lifted no more than 6 months in the future where the NDA completely no longer applies.
-    - We **should not** enter into any other agreement with the vendor not described here. Potential agreements not described here **must** be approved by the executive committee beforehand.
+- Privacy Guides **nie może** proaktywnie kontaktować się z dostawcami w celu pozyskania próbek produktów ani kont recenzenckich.
+- Privacy Guides **nie może** akceptować kont testowych/recenzenckich dla usług subskrypcyjnych w chmurze.
+- Privacy Guides **może** przyjmować bezpłatnie dostarczone próbki jednorazowo kupowanych aplikacji programowych działających lokalnie, pod warunkiem że nie wymagają subskrypcji do dalszego działania.
+- Privacy Guides **może** przyjmować bezpłatnie dostarczone próbki produktów sprzętowych.
+    - Privacy Guides **może** przyjąć bezpłatną subskrypcję powiązaną ze sprzętem, jeżeli taka subskrypcja lub licencja jest niezbędna do korzystania z produktu.
+- Privacy Guides **nie może** zawierać żadnych umów z dostawcą dotyczących naszej opinii redakcyjnej w zamian za otrzymanie próbki lub opublikowanie recenzji. Wszystkie bezpłatnie dostarczone przedmioty muszą być całkowicie „bez zobowiązań”.
+    - **Możemy** zgodzić się na zwrot produktu do dostawcy po zakończeniu recenzji, jeśli zostaniemy o to poproszeni.
+    - **Możemy** zgodzić się na rozsądną umowę o zachowaniu poufności (NDA), pod warunkiem że będzie zawierała jasną datę zniesienia embarga, której termin upływa nie później niż po 6 miesięcach, kiedy to NDA przestaje całkowicie obowiązywać.
+    - **Nie powinniśmy** zawierać żadnych innych umów z dostawcą niewymienionych tutaj. Potencjalne umowy niewymienione tutaj **muszą** zostać wcześniej zatwierdzone przez komitet wykonawczy.
 
-In all cases, whether we paid for the product independently or received a free sample from a vendor, how we obtained the product **must** be clearly documented in the background section of every article associated with the product.
+We wszystkich przypadkach — niezależnie od tego, czy zapłaciliśmy za produkt samodzielnie, czy otrzymaliśmy bezpłatną próbkę od dostawcy — sposób pozyskania produktu **musi** być wyraźnie udokumentowany w sekcji „tło” (*background*) każdego artykułu dotyczącego danego produktu.
 ```

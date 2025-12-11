@@ -1,14 +1,14 @@
 ---
 title: Oferty pracy
-description: Privacy Guides ma mały, zdalny zespół badaczy i obrońców prywatności. Wszelkie wolne stanowiska, które możemy mieć w przyszłości, zostaną opublikowane tutaj.
+description: Privacy Guides tworzy mały, zdalny zespół badaczy i rzeczników prywatności. Wszelkie ewentualne oferty pracy będą tutaj zamieszczane.
 ---
 
-Privacy Guides has a small, remote team of privacy researchers and advocates working to further our mission of protecting free expression and promoting privacy-respecting technology. As a non-profit, we are expanding very slowly to ensure the project is sustainable in the long term. All of our team members are listed [here](https://discuss.privacyguides.net/u?group=team&order=solutions&period=all). Please consider [donating](https://donate.magicgrants.org/privacyguides) to support our cause.
+Privacy Guides tworzy mały, zdalny zespół badaczy i rzeczników prywatności, pracujący nad realizacją misji ochrony wolności słowa i promowania technologii szanujących prywatność. Jako organizacja non-profit rozwijamy się bardzo powoli, aby zapewnić długoterminową trwałość projektu. Wszyscy członkowie zespołu są wymienieni [tutaj](https://discuss.privacyguides.net/u?group=team&order=solutions&period=all). Prosimy o rozważenie przekazania [darowizny](https://donate.magicgrants.org/privacyguides) na rzecz naszej działalności.
 
-We are occasionally looking for strong journalistic writers, product reviewers, and privacy experts to help us out, and any open positions will be posted below.
+Od czasu do czasu poszukujemy dobrych doświadczonych dziennikarzy, recenzentów produktów oraz ekspertów ds. prywatności, którzy mogliby nam pomóc — wszystkie otwarte stanowiska zostaną zamieszczone poniżej.
 
 ---
 
-## Open Positions
+## Wolne stanowiska
 
-There are no open positions at this time.
+W tej chwili nie ma żadnych wolnych stanowisk.
