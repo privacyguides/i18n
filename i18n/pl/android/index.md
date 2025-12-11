@@ -1,60 +1,60 @@
 ---
 title: "Android"
-description: Our advice for replacing privacy-invasive default Android features with private and secure alternatives.
+description: Nasze zalecenia dotyczące zastąpienia domyślnych, naruszających prywatność funkcji Androida prywatnymi i bezpiecznymi alternatywami.
 icon: 'simple/android'
 cover: android.webp
 schema:
   - "@context": http://schema.org
     "@type": WebPage
-    name: Android Recommendations
+    name: Zalecenia dotyczące Androida
     url: "./"
   - "@context": http://schema.org
     "@type": CreativeWork
     name: Android
     image: /assets/img/android/android.svg
     url: https://source.android.com/
-    sameAs: https://en.wikipedia.org/wiki/Android_(operating_system)
+    sameAs: https://pl.wikipedia.org/wiki/Android_(system_operacyjny)
 ---
 
-![Android logo](../assets/img/android/android.svg){ align=right }
+![Logo systemu Android](../assets/img/android/android.svg){ align=right }
 
-The **Android Open Source Project** (AOSP) is an open-source mobile operating system led by Google which powers the majority of the world's mobile devices. Most phones sold with Android are modified to include invasive integrations and apps such as Google Play Services, so you can significantly improve your privacy on your mobile device by replacing your phone's default installation with a version of Android without these invasive features.
+**Projekt Android Open Source** (AOSP) to system operacyjny typu open source dla urządzeń mobilnych rozwijany przez Google, który napędza większość urządzeń mobilnych na świecie. Większość telefonów sprzedawanych z Androidem jest zmodyfikowana tak, by zawierała inwazyjne integracje i aplikacje, takie jak Usługi Google Play, dlatego możesz znacząco poprawić prywatność na swoim urządzeniu mobilnym, zastępując domyślną instalację telefonu wersją Androida pozbawioną tych inwazyjnych funkcji.
 
-[General Android Overview :material-arrow-right-drop-circle:](../os/android-overview.md){ .md-button .md-button--primary }
+[Ogólny przegląd systemu Android] :material-arrow-right-drop-circle:](../os/android-overview.md){ .md-button .md-button--primary }
 
-## Our Advice
+## Nasze zalecenia
 
-### Replace Google Services
+### Zastąp usługi Google
 
-There are many methods of obtaining apps on Android while avoiding Google Play. Whenever possible, try using one of these methods before getting your apps from non-private sources:
+Istnieje wiele sposobów na pozyskiwanie aplikacji na Androida bez korzystania z Google Play. Zawsze, gdy to możliwe, spróbuj skorzystać z jednego z tych sposobów, zanim pobierzesz aplikacje z nieprywatnych źródeł:
 
-[Obtaining Applications :material-arrow-right-drop-circle:](obtaining-apps.md){ .md-button }
+[Sposoby pozyskiwania aplikacji :material-arrow-right-drop-circle:](obtaining-apps.md){ .md-button }
 
-There are also many private alternatives to the apps that come pre-installed on your phone, such as the camera app. Besides the Android apps we recommend throughout this site in general, we've created a list of system utilities specific to Android which you might find useful.
+Dostępnych jest także wiele prywatnych alternatyw dla aplikacji, które są domyślnie zainstalowane na Twoim telefonie, na przykład aplikacji aparatu. Oprócz aplikacji na Androida, które ogólnie zalecamy na całej stronie, przygotowaliśmy listę narzędzi systemowych specyficznych dla Androida, które mogą okazać się przydatne.
 
-[General App Recommendations :material-arrow-right-drop-circle:](general-apps.md){ .md-button }
+[Ogólne zalecenia dotyczące aplikacji :material-arrow-right-drop-circle:](general-apps.md){ .md-button }
 
-### Install a Custom Distribution
+### Zainstaluj niestandardową dystrybucję
 
-When you buy an Android phone, the default operating system comes bundled with apps and functionality that are not part of the Android Open Source Project. Many of these apps—even apps like the dialer which provide basic system functionality—require invasive integrations with Google Play Services, which in turn asks for privileges to access your files, contacts storage, call logs, SMS messages, location, camera, microphone, and numerous other things on your device in order for those basic system apps and many other apps to function in the first place. Frameworks like Google Play Services increase the attack surface of your device and are the source of various privacy concerns with Android.
+Gdy kupujesz telefon z Androidem, domyślny system operacyjny jest dostarczany z aplikacjami i funkcjami, które nie są częścią Projektu Android Open Source. Wiele z tych aplikacji — nawet takich, które zapewniają podstawową funkcjonalność systemu, jak aplikacja do obsługi połączeń telefonicznych — wymaga inwazyjnych integracji z Usługami Google Play, które z kolei żądają uprawnień dostępu do plików, kontaktów, rejestru połączeń, wiadomości SMS, lokalizacji, aparatu, mikrofonu i wielu innych zasobów na urządzeniu, aby te podstawowe aplikacje systemowe i inne mogły w ogóle działać. Frameworki takie jak Usługi Google Play zwiększają powierzchnię ataku urządzenia i są źródłem różnych problemów prywatności związanych z Androidem.
 
-This problem could be solved by using an alternative Android distribution, commonly known as a _custom ROM_, that does not come with such invasive integration. Niestety, ale wiele niestandardowych dystrybucji Androida narusza model bezpieczeństwa systemu nie wspierając funkcji bezpieczeństwa, takich jak AVB, ochrona przed cofnięciem aktualizacji, aktualizacje oprogramowania i innych. Some distributions also ship [`userdebug`](https://source.android.com/setup/build/building#choose-a-target) builds which expose root via [ADB](https://developer.android.com/studio/command-line/adb) and require [more permissive](https://github.com/LineageOS/android_system_sepolicy/search?q=userdebug&type=code) SELinux policies to accommodate debugging features, resulting in a further increased attack surface and weakened security model.
+Problem ten można rozwiązać, używając alternatywnej dystrybucji Androida, zwanej też jako _custom ROM_, która nie zawiera takich inwazyjnych integracji. Niestety wiele niestandardowych dystrybucji Androida często narusza model bezpieczeństwa Androida, nie obsługując krytycznych funkcji bezpieczeństwa, takich jak AVB, ochrona przed przywróceniem starszej wersji systemu (rollback protection), aktualizacje oprogramowania układowego i innych. Niektóre dystrybucje dostarczają też kompilacje [`userdebug`](https://source.android.com/setup/build/building#choose-a-target), które ujawniają uprawnienia root poprzez [ADB](https://developer.android.com/studio/command-line/adb) i wymagają [mniej restrykcyjnych] polityk SELinux, aby obsłużyć funkcje debugowania, co skutkuje dalszym zwiększeniem powierzchni ataku i osłabieniem modelu bezpieczeństwa.
 
-Wybierając niestandardową dystrybucję Androida, należy upewnić się, że jest ona zgodna z modelem bezpieczeństwa tego systemu. At the very least, the distribution should have production builds, support for AVB, rollback protection, timely firmware and operating system updates, and SELinux in [enforcing mode](https://source.android.com/security/selinux/concepts#enforcement_levels). All of our recommended Android distributions satisfy these criteria:
+Wybierając niestandardową dystrybucję Androida, warto upewnić się, że przestrzega ona modelu bezpieczeństwa Androida. Dystrybucja powinna oferować co najmniej kompilacje produkcyjne, obsługę AVB, ochronę przed przywróceniem starszej wersji systemu, terminowe aktualizacje oprogramowania układowego i systemu operacyjnego oraz SELinux w [trybie wymuszania](https://source.android.com/security/selinux/concepts#enforcement_levels). Wszystkie zalecane przez nas dystrybucje Androida spełniają te kryteria:
 
-[Recommended Distributions :material-arrow-right-drop-circle:](distributions.md){ .md-button }
+[Zalecane dystrybucje :material-arrow-right-drop-circle:](distributions.md){ .md-button }
 
-### Avoid Root
+### Unikaj roota
 
-[Rooting](https://en.wikipedia.org/wiki/Rooting_\(Android\)) Android phones can decrease security significantly as it weakens the complete [Android security model](https://en.wikipedia.org/wiki/Android_\(operating_system\)#Security_and_privacy). This can decrease privacy should there be an exploit that is assisted by the decreased security. Common rooting methods involve directly tampering with the boot partition, making it impossible to perform successful Verified Boot. Apps that require root will also modify the system partition, meaning that Verified Boot would have to remain disabled. Having root exposed directly in the user interface also increases the attack surface of your device and may assist in [privilege escalation](https://en.wikipedia.org/wiki/Privilege_escalation) vulnerabilities and SELinux policy bypasses.
+[Rootowanie](https://en.wikipedia.org/wiki/Rooting_\(Android\)) telefonu z Androidem może znacząco obniżyć bezpieczeństwo, osłabiając cały [model bezpieczeństwa Androida](https://en.wikipedia.org/wiki/Android_\(operating_system\)#Security_and_privacy). To z kolei może pogorszyć prywatność, jeśli pojawi się exploit wykorzystujący to osłabienie. Typowe metody rootowania polegają na bezpośredniej manipulacji partycją rozruchową, co uniemożliwia poprawne działanie Verified Boot. Aplikacje wymagające roota modyfikują też partycję systemową, więc Verified Boot musiałby pozostać wyłączony. Udostępnienie roota w interfejsie użytkownika zwiększa powierzchnię ataku urządzenia i może sprzyjać podatnościom umożliwiającym [eskalację uprawnień](https://en.wikipedia.org/wiki/Privilege_escalation) oraz obejścia polityk SELinux.
 
-Content blockers which modify the [hosts file](https://en.wikipedia.org/wiki/Hosts_\(file\)) (like AdAway) and firewalls which require root access persistently (like AFWall+) are dangerous and should not be used. Nie są one również właściwym sposobem na rozwiązanie ich zamierzonych celów. For content blocking, we suggest encrypted [DNS](../dns.md) or content blocking functionality provided by a VPN instead. TrackerControl and AdAway in non-root mode will take up the VPN slot (by using a local loopback VPN), preventing you from using privacy-enhancing services such as [Orbot](../alternative-networks.md#orbot) or a [real VPN provider](../vpn.md).
+Blokery treści, które modyfikują [plik hosts](https://pl.wikipedia.org/wiki/Hosts) (np. AdAway) oraz zapory sieciowe wymagające stałego dostępu do roota (np. AFWall+) są niebezpieczne i nie powinny być używane. Nie są też właściwym sposobem rozwiązania problemów, do których są przeznaczone. W przypadku blokowania treści sugerujemy zaszyfrowany [DNS](../dns.md) lub funkcję blokowania treści oferowaną przez VPN. TrackerControl i AdAway w trybie bez roota zajmują gniazdo VPN (poprzez lokalną pętlę zwrotną VPN), uniemożliwiając korzystanie z usług zwiększających prywatność, takich jak [Orbot](../alternative-networks.md#orbot) czy [prawdziwa sieć VPN](../vpn.md).
 
-AFWall+ works based on the [packet filtering](https://en.wikipedia.org/wiki/Firewall_\(computing\)#Packet_filter) approach and may be bypassable in some situations.
+AFWall+ działa w oparciu o podejście [filtrowania pakietów](https://en.wikipedia.org/wiki/Firewall_\(computing\)#Packet_filter) i może być w niektórych sytuacjach obejściem.
 
-Naszym zdaniem, wady zdecydowanie przewyższają zalety rootowania telefonu w celu korzystania z tych aplikacji.
+Uważamy, że poświęcenie bezpieczeństwa wynikające z rootowania telefonu nie jest warte wątpliwych korzyści w zakresie prywatności, które te aplikacje mogą oferować.
 
-### Install Updates Regularly
+### Regularnie instaluj aktualizacje
 
 It's important to not use an [end-of-life](https://endoflife.date/android) version of Android. Newer versions of Android receive not only security updates for the operating system but also important privacy enhancing updates too.
 
