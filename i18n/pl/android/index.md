@@ -56,12 +56,12 @@ Uważamy, że poświęcenie bezpieczeństwa wynikające z rootowania telefonu ni
 
 ### Regularnie instaluj aktualizacje
 
-It's important to not use an [end-of-life](https://endoflife.date/android) version of Android. Newer versions of Android receive not only security updates for the operating system but also important privacy enhancing updates too.
+Ważne jest, aby nie używać wersji Androida, która osiągnęła [koniec wsparcia](https://endoflife.date/android). Nowsze wersje Androida otrzymują nie tylko aktualizacje zabezpieczeń systemu operacyjnego, ale też ważne poprawki zwiększające prywatność.
 
-For example, [prior to Android 10](https://developer.android.com/about/versions/10/privacy/changes) any apps with the [`READ_PHONE_STATE`](https://developer.android.com/reference/android/Manifest.permission#READ_PHONE_STATE) permission could access sensitive and unique serial numbers of your phone such as [IMEI](https://en.wikipedia.org/wiki/International_Mobile_Equipment_Identity), [MEID](https://en.wikipedia.org/wiki/Mobile_equipment_identifier), or your SIM card's [IMSI](https://en.wikipedia.org/wiki/International_mobile_subscriber_identity); whereas now they must be system apps to do so. System apps are only provided by the OEM or Android distribution.
+Na przykład, [przed Androidem 10](https://developer.android.com/about/versions/10/privacy/changes) wszystkie aplikacje posiadające uprawnienie [`READ_PHONE_STATE`](https://developer.android.com/reference/android/Manifest.permission#READ_PHONE_STATE) mogły uzyskiwać dostęp do poufnych i unikalnych numerów seryjnych telefonu, takich jak [IMEI](https://pl.wikipedia.org/wiki/International_Mobile_Equipment_Identity), [MEID](https://pl.wikipedia.org/wiki/Mobile_equipment_identifier) czy [IMSI](https://pl.wikipedia.org/wiki/International_Mobile_Subscriber_Identity) karty SIM; obecnie dostęp do tych danych mają tylko aplikacje systemowe. Aplikacje systemowe dostarcza jedynie producent urządzenia (OEM) lub dystrybucja Androida.
 
-### Use Built-in Sharing Features
+### Korzystaj z wbudowanych funkcji udostępniania
 
-You can avoid giving many apps permission to access your media with Android's built-in sharing features. Many applications allow you to "share" a file with them for media upload.
+Dzięki wbudowanym funkcjom udostępniania w Androidzie można uniknąć przyznawania wielu aplikacjom stałego dostępu do multimediów. Wiele aplikacji pozwala „udostępnić” plik w celu przesłania multimediów.
 
-For example, if you want to post a picture to Discord you can open your file manager or gallery and share that picture with the Discord app, instead of granting Discord full access to your media and photos.
+Na przykład, jeśli chcesz opublikować zdjęcie na Discordzie, otwórz menedżer plików lub galerię i udostępnij to zdjęcie aplikacji Discord, zamiast przyznawać aplikacji pełny dostęp do multimediów i zdjęć.
