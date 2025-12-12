@@ -31,21 +31,21 @@ Obtainium umożliwia pobieranie plików instalacyjnych APK z wielu źródeł, je
 
 ## GrapheneOS App Store
 
-GrapheneOS's app store is available on [GitHub](https://github.com/GrapheneOS/Apps/releases). It supports Android 12 and above and is capable of updating itself. The app store has standalone applications built by the GrapheneOS project such as the [Auditor](../device-integrity.md#auditor-android), [Camera](general-apps.md#secure-camera), and [PDF Viewer](general-apps.md#secure-pdf-viewer). If you are looking for these applications, we highly recommend that you get them from GrapheneOS's app store instead of the Play Store, as the apps on their store are signed by the GrapheneOS's project own signature that Google does not have access to.
+Sklep z aplikacjami GrapheneOS jest dostępny w serwisie [GitHub](https://github.com/GrapheneOS/Apps/releases). Obsługuje on Androida 12 i nowsze oraz może samodzielnie się aktualizować. W sklepie znajdują się samodzielne aplikacje stworzone przez projekt GrapheneOS, takie jak [Auditor](../device-integrity.md#auditor-android), [Camera](general-apps.md#secure-camera) i [PDF Viewer](general-apps.md#secure-pdf-viewer). Jeśli szukasz tych aplikacji, zalecamy pobranie ich ze sklepu z aplikacjami GrapheneOS zamiast ze sklepu Google Play, ponieważ aplikacje dostępne w sklepie GrapheneOS są podpisane ich własnym kluczem, do którego Google nie ma dostępu.
 
 ## Aurora Store
 
-The Google Play Store requires a Google account to log in, which is not great for privacy. You can get around this by using an alternative client, such as Aurora Store.
+Sklep Google Play wymaga konta Google do zalogowania się, co nie sprzyja prywatności. Możesz to obejść, korzystając z alternatywnego klienta, takiego jak Aurora Store.
 
 <div class="admonition recommendation" markdown>
 
-![Aurora Store logo](../assets/img/android/aurora-store.webp){ align=right }
+![Logo Aurora Store](../assets/img/android/aurora-store.webp){ align=right }
 
-**Aurora Store** is a Google Play Store client which does not require a Google account, Google Play Services, or microG to download apps.
+**Aurora Store** to klient Sklepu Google Play, który nie wymaga konta Google, Usług Google Play ani microG do pobierania aplikacji.
 
-[:octicons-home-16: Homepage](https://auroraoss.com){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://gitlab.com/AuroraOSS/AuroraStore/-/blob/master/POLICY.md){ .card-link title="Privacy Policy" }
-[:octicons-code-16:](https://gitlab.com/AuroraOSS/AuroraStore){ .card-link title="Source Code" }
+[:octicons-home-16: Strona główna](https://auroraoss.com){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://gitlab.com/AuroraOSS/AuroraStore/-/blob/master/POLICY.md){ .card-link title="Polityka prywatności" }
+[:octicons-code-16:](https://gitlab.com/AuroraOSS/AuroraStore){ .card-link title="Kod źródłowy" }
 
 <details class="downloads" markdown>
 <summary>Pobierz</summary>
@@ -56,35 +56,35 @@ The Google Play Store requires a Google account to log in, which is not great fo
 
 </div>
 
-Aurora Store does not allow you to download paid apps with their anonymous account feature. You can optionally log in with your Google account with Aurora Store to download apps you have purchased, which does give access to the list of apps you've installed to Google. However, you still benefit from not requiring the full Google Play client and Google Play Services or microG on your device.
+Aurora Store nie pozwala pobierać płatnych aplikacji przy użyciu funkcji anonimowego konta. Opcjonalnie można zalogować się w Aurora Store za pomocą swojego konta Google, aby pobrać zakupione wcześniej aplikacje — wtedy Google uzyska dostęp do listy zainstalowanych aplikacji. Nadal jednak zyskujesz na tym, że nie musisz instalować pełnego klienta Sklepu Google Play ani Usług Google Play czy microG na urządzeniu.
 
-## Manually with RSS Notifications
+## Ręcznie za pomocą powiadomień RSS
 
-For apps that are released on platforms like GitHub and GitLab, you may be able to add an RSS feed to your [news aggregator](../news-aggregators.md) that will help you keep track of new releases.
+Dla aplikacji wydawanych na platformach takich jak GitHub czy GitLab możesz dodać kanał RSS do swojego [agregatora wiadomości](../news-aggregators.md), co ułatwi śledzenie nowych wydań.
 
-![RSS APK](../assets/img/android/rss-apk-light.png#only-light) ![RSS APK](../assets/img/android/rss-apk-dark.png#only-dark) ![APK Changes](../assets/img/android/rss-changes-light.png#only-light) ![APK Changes](../assets/img/android/rss-changes-dark.png#only-dark)
+![Kanał RSS dla nowych wersji aplikacji w formacie APK](../assets/img/android/rss-apk-light.png#only-light) ![Kanał RSS dla nowych wersji aplikacji w formacie APK](../assets/img/android/rss-apk-dark.png#only-dark) ![Lista zmian w nowych wersjach aplikacji w formacie APK](../assets/img/android/rss-changes-light.png#only-light) ![Lista zmian w nowych wersjach aplikacji w formacie APK](../assets/img/android/rss-changes-dark.png#only-dark)
 
 ### GitHub
 
-On GitHub, using [Secure Camera](general-apps.md#secure-camera) as an example, you would navigate to its [releases page](https://github.com/GrapheneOS/Camera/releases) and append `.atom` to the URL:
+W serwisie GitHub — biorąc za przykład aplikację [Secure Camera](general-apps.md#secure-camera) — przejdź na [stronę z wydaniami](https://github.com/GrapheneOS/Camera/releases) i dopisz `.atom` do adresu URL:
 
 `https://github.com/GrapheneOS/Camera/releases.atom`
 
 ### GitLab
 
-On GitLab, using [Aurora Store](#aurora-store) as an example, you would navigate to its [project repository](https://gitlab.com/AuroraOSS/AuroraStore) and append `/-/tags?format=atom` to the URL:
+W serwisie GitLab — biorąc za przykład aplikację [Aurora Store](#aurora-store) — przejdź do [repozytorium projektu](https://gitlab.com/AuroraOSS/AuroraStore) i dopisz `/-/tags?format=atom` do adresu URL:
 
 `https://gitlab.com/AuroraOSS/AuroraStore/-/tags?format=atom`
 
-### Verifying APK Fingerprints
+### Weryfikacja odcisków APK
 
-If you download APK files to install manually, you can verify their signature with the [`apksigner`](https://developer.android.com/studio/command-line/apksigner) tool, which is a part of Android [build-tools](https://developer.android.com/studio/releases/build-tools).
+Jeśli pobierasz pliki APK i instalujesz je ręcznie, warto zweryfikować ich podpis za pomocą narzędzia [`apksigner`](https://developer.android.com/studio/command-line/apksigner), które jest częścią pakietu Android [build-tools](https://developer.android.com/studio/releases/build-tools).
 
-1. Install [Java JDK](https://oracle.com/java/technologies/downloads).
+1. Zainstaluj [Java JDK](https://oracle.com/pl/java/technologies/downloads).
 
-2. Download the [Android Studio command line tools](https://developer.android.com/studio#command-tools).
+2. Pobierz [narzędzia wiersza poleceń Android Studio](https://developer.android.com/studio#command-tools).
 
-3. Extract the downloaded archive:
+3. Rozpakuj pobrane archiwum:
 
    ```bash
    unzip commandlinetools-*.zip
@@ -92,13 +92,13 @@ If you download APK files to install manually, you can verify their signature wi
    ./bin/sdkmanager --sdk_root=./ "build-tools;29.0.3"
    ```
 
-4. Run the signature verification command:
+4. Uruchom polecenie weryfikujące podpis:
 
    ```bash
    ./build-tools/29.0.3/apksigner verify --print-certs ../Camera-37.apk
    ```
 
-5. The resulting hashes can then be compared with another source. Some developers such as Signal [show the fingerprints](https://signal.org/android/apk) on their website.
+5. Otrzymane skróty (hash) można porównać z innym źródłem. Niektórzy deweloperzy, np. Signal, [publikują odciski palców](https://signal.org/android/apk) na swojej stronie. Przykładowy wynik:
 
    ```bash
    Signer #1 certificate DN: CN=GrapheneOS
@@ -109,19 +109,19 @@ If you download APK files to install manually, you can verify their signature wi
 
 ## F-Droid
 
-![F-Droid logo](../assets/img/android/f-droid.svg){ align=right width=120px }
+![Logo F-Droid](../assets/img/android/f-droid.svg){ align=right width=120px }
 
-\==We only recommend F-Droid as a way to obtain apps which cannot be obtained via the means above.== F-Droid is often recommended as an alternative to Google Play, particularly within the privacy community. The option to add third-party repositories and not be confined to Google's walled garden has led to its popularity. F-Droid additionally has [reproducible builds](https://f-droid.org/en/docs/Reproducible_Builds) for some applications and is dedicated to free and open-source software. However, there are some security-related downsides to how F-Droid builds, signs, and delivers packages:
+\==Zalecamy korzystanie z F-Droid tylko jako sposób pozyskania aplikacji, których nie da się zdobyć za pomocą metod opisanych powyżej.== F-Droid bywa polecany jako alternatywa dla sklepu Google Play, zwłaszcza w środowisku dbającym o prywatność. Możliwość dodawania zewnętrznych repozytoriów i wyjścia poza zamknięty ekosystem Google przyczyniła się do jego popularności. F-Droid dodatkowo oferuje [powtarzalne kompilacje](https://f-droid.org/en/docs/Reproducible_Builds) (_reproducible builds_) dla niektórych aplikacji i jest nastawiony na wolne oprogramowanie typu open source. Jednak sposób, w jaki F-Droid buduje, podpisuje i dostarcza pakiety, ma też pewne wady związane z bezpieczeństwem:
 
-Due to their process of building apps, apps in the _official_ F-Droid repository often fall behind on updates. F-Droid maintainers also reuse package IDs while signing apps with their own keys, which is not ideal as it gives the F-Droid team ultimate trust. Additionally, the requirements for an app to be included in the official F-Droid repo are less strict than other app stores like Google Play, meaning that F-Droid tends to host a lot more apps which are older, unmaintained, or otherwise no longer meet [modern security standards](https://developer.android.com/google/play/requirements/target-sdk).
+Z powodu procesu kompilacji aplikacje z _oficjalnego_ repozytorium F-Droid często są opóźnione względem aktualizacji. Opiekunowie F-Droida ponadto ponownie wykorzystują identyfikatory pakietów, podpisując aplikacje własnymi kluczami, co nie jest idealnym rozwiązaniem, bo daje to zespołowi F-Droid absolutne zaufanie. Co więcej wymagania dotyczące aplikacji, które mają zostać uwzględnione w oficjalnym repozytorium F-Droid, są mniej rygorystyczne niż w innych sklepach z aplikacjami, np. w Google Play, przez co F-Droid ma tendencję do hostowania znacznie większej liczby aplikacji starszych, porzuconych lub takich, które nie spełniają już [nowoczesnych standardów bezpieczeństwa](https://developer.android.com/google/play/requirements/target-sdk).
 
-Other popular third-party repositories for F-Droid such as [IzzyOnDroid](https://apt.izzysoft.de/fdroid) alleviate some of these concerns. The IzzyOnDroid repository pulls builds directly from code forges (GitHub, GitLab, etc.) and is the next best thing to the developers' own repositories. They also offer [reproducible builds](https://android.izzysoft.de/articles/named/iod-rbs-mirrors-clients) for hundreds of applications and have developers who verify the reproducibility of developer-signed APKs. Furthermore, the IzzyOnDroid team conducts [additional security scans](https://android.izzysoft.de/articles/named/iod-scan-apkchecks) of apps housed in the repo, which usually result in [deliberations](https://github.com/gouravkhunger/QuotesApp/issues/22) between them and app developers toward privacy improvements in their apps. Note that apps may be removed from the IzzyOnDroid repo in [certain circumstances](https://gitlab.com/IzzyOnDroid/repo#are-apps-removed-from-the-repo--and-when-does-that-happen).
+Inne popularne zewnętrzne repozytoria F-Droid, takie jak [IzzyOnDroid](https://apt.izzysoft.de/fdroid), łagodzą część tych problemów. Repozytorium IzzyOnDroid pobiera kompilacje bezpośrednio ze źródeł (GitHub, GitLab itp.) i jest najbliższe korzystaniu z repozytoriów twórców. Oferuje też [powtarzalne kompilacje](https://android.izzysoft.de/articles/named/iod-rbs-mirrors-clients) dla setek aplikacji i ma osoby w zespole, które weryfikują powtarzalność plików APK podpisanych przez deweloperów. Ponadto zespół IzzyOnDroid przeprowadza [dodatkowe skany bezpieczeństwa](https://android.izzysoft.de/articles/named/iod-scan-apkchecks) aplikacji w repozytorium, co często prowadzi do [konsultacji](https://github.com/gouravkhunger/QuotesApp/issues/22) z deweloperami i poprawek zwiększających prywatność. Należy jednak pamiętać, że aplikacje mogą być usuwane z repozytorium IzzyOnDroid w [pewnych okolicznościach](https://gitlab.com/IzzyOnDroid/repo#are-apps-removed-from-the-repo--and-when-does-that-happen).
 
-The [F-Droid](https://f-droid.org/en/packages) and [IzzyOnDroid](https://apt.izzysoft.de/fdroid) repositories are home to countless apps, so they can be useful places to search for and discover open-source apps that you can then download through other means such as the Play Store, Aurora Store, or by getting the APK directly from the developer. You should use your best judgment when looking for new apps via this method, and keep an eye on how frequently the app is updated. Outdated apps may rely on unsupported libraries, among other things, posing a potential security risk.
+Repozytoria [F-Droid](https://f-droid.org/pl/packages) i [IzzyOnDroid](https://apt.izzysoft.de/fdroid) zawierają ogromną liczbę aplikacji, więc mogą być przydatne do wyszukiwania i odkrywania aplikacji typu open source, które następnie można pozyskać innymi sposobami, np. za pośrednictwem sklepu Google Play, Aurora Store lub bezpośrednio z repozytorium dewelopera. Należy zachować rozwagę przy wybieraniu nowych aplikacji i zwracać uwagę na częstotliwość ich aktualizacji. Przestarzałe aplikacje mogą polegać na nieobsługiwanych już bibliotekach i stwarzać ryzyko bezpieczeństwa.
 
 <div class="admonition note" markdown>
 <p class="admonition-title">F-Droid Basic</p>
 
-In some rare cases, the developer of an app will only distribute it through F-Droid ([Gadgetbridge](../health-and-wellness.md#gadgetbridge) is one example of this). If you really need an app like that, we recommend using the newer [F-Droid Basic](https://f-droid.org/en/packages/org.fdroid.basic) client instead of the original F-Droid app to obtain it. F-Droid Basic supports automatic background updates without privileged extension or root, and has a reduced feature set (limiting attack surface).
+W rzadkich przypadkach zdarza się, że twórca dystrybuuje aplikację wyłącznie za pośrednictwem F-Droid (przykładem jest aplikacja [Gadgetbridge](../health-and-wellness.md#gadgetbridge)). Jeśli naprawdę potrzebujesz takiej aplikacji, zalecamy skorzystanie z nowszego klienta [F-Droid Basic](https://f-droid.org/en/packages/org.fdroid.basic) zamiast oryginalnej aplikacji F-Droid. F-Droid Basic obsługuje automatyczne aktualizacje w tle bez potrzeby rozszerzeń z uprawnieniami uprzywilejowanymi czy roota i ma ograniczony zestaw funkcji (co zmniejsza powierzchnię ataku).
 
 </div>
