@@ -1,5 +1,5 @@
 ---
-title: "Obtaining Applications"
+title: "Pozyskiwanie aplikacji"
 description: We recommend these methods for obtaining applications on Android without interacting with Google Play Services.
 ---
 

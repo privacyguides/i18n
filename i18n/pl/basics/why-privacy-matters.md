@@ -12,7 +12,7 @@ Prywatność dotyczy ostatecznie informacji o człowieku, a to ma znaczenie, pon
 
 Wiele osób myli pojęcia **prywatności**, **bezpieczeństwa** i **anonimowości**. Często można spotkać się z krytyką różnych produktów jako „nieprywatnych”, gdy w rzeczywistości chodzi o to, że nie zapewniają anonimowości. Na tej stronie omawiamy wszystkie trzy zagadnienia, ale kluczowe jest, by rozumieć różnice między nimi i wiedzieć, kiedy każdy z nich ma zastosowanie.
 
-[:material-movie-open-play-outline: Film: Przestań mylić prywatność, anonimowość i bezpieczeństwo](https://www.privacyguides.org/videos/2025/03/14/stop-confusing-privacy-anonymity-and-security ""){.md-button}
+[:material-movie-open-play-outline: Wideo: Przestań mylić prywatność, anonimowość i bezpieczeństwo](https://www.privacyguides.org/videos/2025/03/14/stop-confusing-privacy-anonymity-and-security ""){.md-button}
 
 <!-- markdownlint-disable-next-line -->
 **Prywatność**
@@ -58,7 +58,7 @@ Weźmy na przykład formularze zgody na pliki cookie. Spotykasz je dziesiątki r
 
 Prywatność musi być wbudowana domyślnie w używane przez nas [oprogramowanie i usługi](../tools.md). Nie da się samodzielnie zmusić większości aplikacji, by stały się prywatne.
 
-[:material-movie-open-play-outline: Film: 5 kroków do poprawy prywatności](https://www.privacyguides.org/videos/2025/02/14/5-easy-steps-to-protect-yourself-online){ class="md-button" }
+[:material-movie-open-play-outline: Wideo: 5 kroków do poprawy prywatności](https://www.privacyguides.org/videos/2025/02/14/5-easy-steps-to-protect-yourself-online){ class="md-button" }
 
 ## Źródła
 

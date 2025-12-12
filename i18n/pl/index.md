@@ -114,6 +114,6 @@ We współczesnej erze cyfrowego wykorzystywania danych Twoja prywatność nigdy
 
 Wiele osób myli pojęcia prywatności, bezpieczeństwa i anonimowości. Często można spotkać się z krytyką różnych produktów jako „nieprywatnych”, gdy w rzeczywistości chodzi o to, że nie zapewniają anonimowości. Na tej stronie omawiamy wszystkie trzy zagadnienia, ale kluczowe jest, by rozumieć różnice między nimi i wiedzieć, kiedy każdy z nich ma zastosowanie.
 
-[:material-movie-open-play-outline: Film: 5 kroków do poprawy prywatności](https://www.privacyguides.org/videos/2025/02/14/5-easy-steps-to-protect-yourself-online){ class="md-button" }
+[:material-movie-open-play-outline: Wideo: 5 kroków do poprawy prywatności](https://www.privacyguides.org/videos/2025/02/14/5-easy-steps-to-protect-yourself-online){ class="md-button" }
 </div>
 </div>

@@ -122,7 +122,7 @@ Komitet wykonawczy projektu składa się z pięciu wolontariuszy odpowiedzialnyc
 
 ## :material-account-edit: Zespół
 
-Nasz zespół jest opłacany za tworzenie materiałów dodatkowych dla Privacy Guides, takich jak [produkcja filmów](https://www.youtube.com/@privacyguides), [artykuły informacyjne i poradniki](https://www.privacyguides.org/articles), a także praca przy naszych społecznościach dyskusyjnych i mediach społecznościowych. Większość z nich jest dostępna i wynagradzana w pełnym wymiarze godzin, aby wspierać organizację.
+Nasz zespół jest opłacany za tworzenie materiałów dodatkowych dla Privacy Guides, takich jak [produkcja materiałów wideo](https://www.youtube.com/@privacyguides), [artykuły informacyjne i poradniki](https://www.privacyguides.org/articles), a także praca przy naszych społecznościach dyskusyjnych i mediach społecznościowych. Większość z nich jest dostępna i wynagradzana w pełnym wymiarze godzin, aby wspierać organizację.
 
 <div class="grid cards" markdown>
 

@@ -31,7 +31,7 @@ schema:
 
 **Tor** to sieć serwerów prowadzonych przez wolontariuszy, która pozwala na bezpłatne połączenie i zwiększenie prywatności oraz bezpieczeństwa w Internecie. Osoby fizyczne i organizacje mogą również wymieniać się informacjami w sieci Tor za pomocą „ukrytych usług .onion”, nie narażając swojej prywatności. Dzięki temu, że ruch w sieci Tor jest trudny do zablokowania i namierzenia, Tor stanowi skuteczne narzędzie do omijania cenzury.
 
-[Szczegółowy przegląd sieci Tor :material-arrow-right-drop-circle:](advanced/tor-overview.md ""){.md-button.md-button--primary} [:material-movie-open-play-outline: Film: Dlaczego warto korzystać z sieci Tor?](https://www.privacyguides.org/videos/2025/03/02/why-you-need-tor ""){.md-button}
+[Szczegółowy przegląd sieci Tor :material-arrow-right-drop-circle:](advanced/tor-overview.md ""){.md-button.md-button--primary} [:material-movie-open-play-outline: Wideo: Dlaczego warto korzystać z sieci Tor?](https://www.privacyguides.org/videos/2025/03/02/why-you-need-tor ""){.md-button}
 
 <div class="admonition tip" markdown>
 <p class="admonition-title">Porada</p>

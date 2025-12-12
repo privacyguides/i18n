@@ -1,5 +1,5 @@
 ---
-title: "Ogólne aplikacje"
+title: "Aplikacje ogólne"
 description: Aplikacje wymienione poniżej są dostępne wyłącznie na Androida i stanowią rozszerzenie lub zamiennik kluczowych funkcji systemowych.
 schema:
   - "@context": http://schema.org
@@ -68,12 +68,12 @@ Shelter jest zalecany zamiast aplikacji [Insular](https://secure-system.gitlab.i
 ![Logo Secure Camera](../assets/img/android/secure_camera.svg#only-light){ align=right }
 ![Logo Secure Camera](../assets/img/android/secure_camera-dark.svg#only-dark){ align=right }
 
-**Secure Camera** is a camera app focused on privacy and security which can capture images, videos, and QR codes. CameraX vendor extensions (Portrait, HDR, Night Sight, Face Retouch, and Auto) are also supported on available devices.
+Secure Camera to aplikacja aparatu skoncentrowana na prywatności i bezpieczeństwie, umożliwiająca robienie zdjęć, nagrywanie wideo i odczyt kodów QR. Na obsługiwanych urządzeniach dostępne są także rozszerzenia dostawcy CameraX (portret, tryb HDR, tryb nocny, retusz twarzy i automatyczny).
 
-[:octicons-repo-16: Repository](https://github.com/GrapheneOS/Camera#readme){ .md-button .md-button--primary }
-[:octicons-info-16:](https://grapheneos.org/usage#camera){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/GrapheneOS/Camera){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://grapheneos.org/donate){ .card-link title=Contribute }
+[:octicons-repo-16: Repozytorium](https://github.com/GrapheneOS/Camera#readme){ .md-button .md-button--primary }
+[:octicons-info-16:](https://grapheneos.org/usage#camera){ .card-link title=Dokumentacja}
+[:octicons-code-16:](https://github.com/GrapheneOS/Camera){ .card-link title="Kod źródłówy" }
+[:octicons-heart-16:](https://grapheneos.org/donate){ .card-link title=Wesprzyj }
 
 <details class="downloads" markdown>
 <summary>Pobierz</summary>
@@ -86,18 +86,18 @@ Shelter jest zalecany zamiast aplikacji [Insular](https://secure-system.gitlab.i
 
 </div>
 
-Main privacy features include:
+Główne funkcje związane z prywatnością obejmują:
 
-- Auto removal of [Exif](https://en.wikipedia.org/wiki/Exif) metadata (enabled by default)
-- Use of the new [Media](https://developer.android.com/training/data-storage/shared/media) API, therefore [storage permissions](https://developer.android.com/training/data-storage) are not required
-- Microphone permission not required unless you want to record sound
+- Automatyczne usuwanie metadanych [Exif](https://en.wikipedia.org/wiki/Exif) (domyślnie włączone).
+- Korzystanie z nowego interfejsu API [Media](https://developer.android.com/training/data-storage/shared/media) — dzięki temu [uprawnienia do pamięci](https://developer.android.com/training/data-storage) nie są wymagane.
+- Uprawnienie do korzystania z mikrofonu nie jest wymagane, chyba że chcesz nagrywać dźwięk.
 
 <div class="admonition note" markdown>
 <p class="admonition-title">Uwaga</p>
 
-Metadata is not currently deleted from video files, but that is planned.
+Metadane nie są obecnie usuwane z plików wideo, ale jest to planowane.
 
-The image orientation metadata is not deleted. If you enable location (in Secure Camera) that **won't** be deleted either. If you want to delete that later you will need to use an external app such as [ExifEraser](../data-redaction.md#exiferaser-android).
+Metadane dotyczące orientacji obrazu nie są usuwane. Jeśli włączysz zapisywanie lokalizacji (w Secure Camera), ona również **nie** zostanie usunięta. Jeśli chcesz usunąć je później, trzeba użyć zewnętrznej aplikacji, np. [ExifEraser](../data-redaction.md#exiferaser-android).
 
 </div>
 
@@ -112,13 +112,13 @@ The image orientation metadata is not deleted. If you enable location (in Secure
 ![Logo Secure PDF Viewer](../assets/img/android/secure_pdf_viewer.svg#only-light){ align=right }
 ![Logo Secure PDF Viewer](../assets/img/android/secure_pdf_viewer-dark.svg#only-dark){ align=right }
 
-**Secure PDF Viewer** is a PDF viewer based on [pdf.js](https://en.wikipedia.org/wiki/PDF.js) that doesn't require any permissions. The PDF is fed into a [sandboxed](https://en.wikipedia.org/wiki/Sandbox_\(software_development\)) [WebView](https://developer.android.com/guide/webapps/webview). This means that it doesn't require permission directly to access content or files.
+**Secure PDF Viewer** to przeglądarka PDF oparta na bibliotece [pdf.js](https://pl.wikipedia.org/wiki/PDF.js), która nie wymaga żadnych uprawnień. PDF jest ładowany do widoku [WebView](https://developer.android.com/guide/webapps/webview) uruchomionego w [piaskownicy](https://pl.wikipedia.org/wiki/Piaskownica_\(środowisko_testowe\)). Oznacza to, że nie jest potrzebne przyznawanie uprawnień bezpośrednio do dostępu do treści czy plików.
 
-[Content-Security-Policy](https://en.wikipedia.org/wiki/Content_Security_Policy) is used to enforce that the JavaScript and styling properties within the WebView are entirely static content.
+Do wymuszenia, aby skrypty JavaScript i arkusze stylów w widoku WebView były wyłącznie statyczną zawartością, stosowana jest [Polityka bezpieczeństwa treści](https://en.wikipedia.org/wiki/Content_Security_Policy).
 
-[:octicons-repo-16: Repository](https://github.com/GrapheneOS/PdfViewer#readme){ .md-button .md-button--primary }
-[:octicons-code-16:](https://github.com/GrapheneOS/PdfViewer){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://grapheneos.org/donate){ .card-link title=Contribute }
+[:octicons-repo-16: Repozytorium](https://github.com/GrapheneOS/PdfViewer#readme){ .md-button .md-button--primary }
+[:octicons-code-16:](https://github.com/GrapheneOS/PdfViewer){ .card-link title="Kod źródłowy" }
+[:octicons-heart-16:](https://grapheneos.org/donate){ .card-link title=Wesprzyj }
 
 <details class="downloads" markdown>
 <summary>Pobierz</summary>
@@ -135,6 +135,6 @@ The image orientation metadata is not deleted. If you enable location (in Secure
 
 **Należy pamiętać, że nie jesteśmy powiązani z żadnym z polecanych przez nas projektów.** Oprócz [naszych standardowych kryteriów](../about/criteria.md) opracowaliśmy jasny zestaw wymagań, które pozwalają nam formułować obiektywne zalecenia. Sugerujemy zapoznanie się z tą listą przed wyborem projektu oraz przeprowadzenie własnych badań, aby upewnić się, że jest to odpowiedni wybór dla Ciebie.
 
-- Applications on this page must not be applicable to any other software category on the site.
-- General applications should extend or replace core system functionality.
-- Applications should receive regular updates and maintenance.
+- Aplikacje umieszczone na tej stronie nie powinny pasować do żadnej innej kategorii oprogramowania na stronie.
+- Aplikacje ogólne powinny rozszerzać lub zastępować podstawowe funkcje systemu.
+- Aplikacje powinny otrzymywać regularne aktualizacje i być utrzymywane.

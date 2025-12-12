@@ -340,7 +340,7 @@ Serwery pocztowe przetwarzają ogromne ilości wrażliwych danych. Oczekujemy, �
 - Opublikowane audyty bezpieczeństwa przeprowadzone przez renomowaną firmę zewnętrzną.
 - Programy bug-bounty i/lub skoordynowany proces ujawniania podatności.
 - Wdrożenie standardów bezpieczeństwa stron internetowych, takich jak:
-    - [Content Security Policy (CSP)](https://en.wikipedia.org/wiki/Content_Security_Policy)
+    - [Polityka bezpieczeństwa treści (CSP)](https://en.wikipedia.org/wiki/Content_Security_Policy)
     - [RFC9163 Expect-CT](https://datatracker.ietf.org/doc/rfc9163)
 
 ### Zaufanie

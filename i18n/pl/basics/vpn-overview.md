@@ -7,7 +7,7 @@ description: Wirtualne sieci prywatne przenoszą ryzyko z dostawcy usług intern
 
 Wirtualne sieci prywatne to sposób na „przedłużenie” końca Twojej sieci tak, by punkt wyjścia znajdował się w innym miejscu na świecie.
 
-[:material-movie-open-play-outline: Film: Czy potrzebujesz VPN?](https://www.privacyguides.org/videos/2024/12/12/do-you-need-a-vpn ""){.md-button}
+[:material-movie-open-play-outline: Wideo: Czy potrzebujesz VPN?](https://www.privacyguides.org/videos/2024/12/12/do-you-need-a-vpn ""){.md-button}
 
 Zwykle dostawca usług internetowych może zobaczyć przepływ ruchu internetowego przychodzącego i wychodzącego z urządzenia końcowego sieci (tj. modemu). Protokoły szyfrujące, takie jak HTTPS, są powszechnie stosowane w Internecie, więc dostawca może nie widzieć dokładnie tego, co publikujesz lub czytasz, ale może mieć pojęcie o [domenach, do których kierujesz zapytania](../advanced/dns-overview.md#why-shouldnt-i-use-encrypted-dns).
 
