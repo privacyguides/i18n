@@ -1,22 +1,22 @@
 ---
 title: "Pozyskiwanie aplikacji"
-description: We recommend these methods for obtaining applications on Android without interacting with Google Play Services.
+description: Poniższe zalecenia dotyczą sposobów pozyskiwania aplikacji na Androida bez korzystania z Usług Google Play.
 ---
 
-There are many ways to obtain Android apps privately, even from the Play Store, without interacting with Google Play Services. We recommend the following methods of obtaining applications on Android, listed in order of preference.
+Istnieje wiele sposobów na prywatne pozyskanie aplikacji na Androida — nawet ze Sklepu Play — bez kontaktu z Usługami Google Play. Poniższe zalecenia przedstawiają metody pozyskiwania aplikacji na Androida, uporządkowane według preferencji.
 
 ## Obtainium
 
 <div class="admonition recommendation" markdown>
 
-![Obtainium logo](../assets/img/android/obtainium.svg){ align=right }
+![Logo Obtainium](../assets/img/android/obtainium.svg){ align=right }
 
-**Obtainium** is an app manager which allows you to install and update apps directly from the developer's own releases page (i.e. GitHub, GitLab, the developer's website, etc.), rather than a centralized app store/repository. It supports automatic background updates on Android 12 and higher.
+**Obtainium** to menedżer aplikacji, który pozwala instalować i aktualizować aplikacje bezpośrednio z oficjalnej strony wydań dewelopera (np. GitHub, GitLab, strona internetowa dewelopera itp.), zamiast ze scentralizowanego sklepu czy repozytorium. Obsługuje automatyczne aktualizacje w tle na Androidzie 12 i nowszych.
 
-[:octicons-repo-16: Repository](https://github.com/ImranR98/Obtainium#readme){ .md-button .md-button--primary }
-[:octicons-info-16:](https://github.com/ImranR98/Obtainium/wiki){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/ImranR98/Obtainium){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://github.com/sponsors/ImranR98){ .card-link title=Contribute }
+[:octicons-repo-16: Repozytorium](https://github.com/ImranR98/Obtainium#readme){ .md-button .md-button--primary }
+[:octicons-info-16:](https://github.com/ImranR98/Obtainium/wiki){ .card-link title=Dokumentacja}
+[:octicons-code-16:](https://github.com/ImranR98/Obtainium){ .card-link title="Kod źródłowy" }
+[:octicons-heart-16:](https://github.com/sponsors/ImranR98){ .card-link title=Wesprzyj }
 
 <details class="downloads" markdown>
 <summary>Pobierz</summary>
@@ -27,7 +27,7 @@ There are many ways to obtain Android apps privately, even from the Play Store, 
 
 </div>
 
-Obtainium allows you to download APK installer files from a wide variety of sources, and it is up to you to ensure those sources and apps are legitimate. For example, using Obtainium to install Signal from [Signal's APK landing page](https://signal.org/android/apk) should be fine, but installing from third-party APK repositories like Aptoide or APKPure may pose additional risks. The risk of installing a malicious _update_ is lower, because Android itself verifies that all app updates are signed by the same developer as the existing app on your phone before installing them.
+Obtainium umożliwia pobieranie plików instalacyjnych APK z wielu źródeł, jednak musisz upewnić się, że te źródła i aplikacje są wiarygodne. Na przykład instalowanie komunikatora Signal z [oficjalnej strony Signal z plikiem APK](https://signal.org/android/apk) powinno być w porządku, natomiast instalowanie z repozytoriów stron trzecich, takich jak Aptoide czy APKPure, może wiązać się z dodatkowym ryzykiem. Ryzyko zainstalowania złośliwej _aktualizacji_ jest niższe, ponieważ sam Android przed instalacją weryfikuje, czy wszystkie aktualizacje aplikacji są podpisane przez tego samego dewelopera, co dotychczasowa wersja aplikacji na urządzeniu.
 
 ## GrapheneOS App Store
 
