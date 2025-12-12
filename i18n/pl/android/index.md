@@ -32,7 +32,7 @@ Istnieje wiele sposobów na pozyskiwanie aplikacji na Androida bez korzystania z
 
 Dostępnych jest także wiele prywatnych alternatyw dla aplikacji, które są domyślnie zainstalowane na Twoim telefonie, na przykład aplikacji aparatu. Oprócz aplikacji na Androida, które ogólnie zalecamy na całej stronie, przygotowaliśmy listę narzędzi systemowych specyficznych dla Androida, które mogą okazać się przydatne.
 
-[Ogólne zalecenia dotyczące aplikacji :material-arrow-right-drop-circle:](general-apps.md){ .md-button }
+[Zalecenia dotyczące aplikacji ogólnych :material-arrow-right-drop-circle:](general-apps.md){ .md-button }
 
 ### Zainstaluj niestandardową dystrybucję
 

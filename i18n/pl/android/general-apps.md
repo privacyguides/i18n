@@ -1,10 +1,10 @@
 ---
-title: "General Apps"
-description: The apps listed here are Android-exclusive and specifically enhance or replace key system functionality.
+title: "Ogólne aplikacje"
+description: Aplikacje wymienione poniżej są dostępne wyłącznie na Androida i stanowią rozszerzenie lub zamiennik kluczowych funkcji systemowych.
 schema:
   - "@context": http://schema.org
     "@type": WebPage
-    name: General Android Apps
+    name: Ogólne aplikacje na Androida
     url: "./"
   - "@context": http://schema.org
     "@type": MobileApplication
@@ -26,47 +26,47 @@ robots: nofollow, max-snippet:-1, max-image-preview:large
 
 <small>Chroni przed następującymi zagrożeniami:</small>
 
-- [:material-bug-outline: Passive Attacks](../basics/common-threats.md#security-and-privacy){ .pg-orange }
+- [:material-bug-outline: Ataki pasywne](../basics/common-threats.md#security-and-privacy){ .pg-orange }
 
-We recommend a wide variety of Android apps throughout this site. The apps listed here are Android-exclusive and specifically enhance or replace key system functionality.
+Zamieszczamy tu szerokie zalecenia dotyczące aplikacji na Androida. Aplikacje wymienione poniżej są dostępne wyłącznie na Androida i stanowią rozszerzenie lub zamiennik kluczowych funkcji systemowych.
 
 ### Shelter
 
-If your device is on Android 15 or greater, we recommend using the native [Private Space](../os/android-overview.md#private-space) feature instead, which provides nearly the same functionality without needing to place trust in and grant powerful permissions to a third-party app.
+Jeśli Twoje urządzenie działa na Androidzie 15 lub nowszym, zalecamy zamiast tego skorzystanie z natywnej funkcji [Przestrzeni prywatnej](../os/android-overview.md#private-space), która oferuje niemal te same możliwości, bez potrzeby obdarzania zaufaniem aplikacji firm trzecich i przyznawania im rozległych uprawnień.
 
 <div class="admonition recommendation" markdown>
 
-![Shelter logo](../assets/img/android/shelter.svg){ align=right }
+![Logo Shelter](../assets/img/android/shelter.svg){ align=right }
 
-**Shelter** is an app that helps you leverage Android's Work Profile functionality to isolate or duplicate apps on your device.
+**Shelte**r to aplikacja, która pomaga wykorzystać funkcję profilu służbowego w Androidzie do izolowania lub duplikowania aplikacji na urządzeniu.
 
-Shelter supports blocking contact search cross profiles and sharing files across profiles via the default file manager ([DocumentsUI](https://source.android.com/devices/architecture/modular-system/documentsui)).
+Shelter umożliwia blokowanie wyszukiwania kontaktów między profilami oraz udostępnianie plików między profilami za pośrednictwem domyślnego menedżera plików ([DocumentsUI](https://source.android.com/devices/architecture/modular-system/documentsui)).
 
-[:octicons-repo-16: Repository](https://gitea.angry.im/PeterCxy/Shelter#shelter){ .md-button .md-button--primary }
-[:octicons-code-16:](https://gitea.angry.im/PeterCxy/Shelter){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://patreon.com/PeterCxy){ .card-link title=Contribute }
+[:octicons-repo-16: Repozytorium](https://gitea.angry.im/PeterCxy/Shelter#shelter){ .md-button .md-button--primary }
+[:octicons-code-16:](https://gitea.angry.im/PeterCxy/Shelter){ .card-link title="Kod źródłowy" }
+[:octicons-heart-16:](https://patreon.com/PeterCxy){ .card-link title=Wesprzyj }
 
 </div>
 
 <div class="admonition warning" markdown>
 <p class="admonition-title">Ostrzeżenie</p>
 
-When using Shelter, you are placing complete trust in its developer, as Shelter acts as a [Device Admin](https://developer.android.com/guide/topics/admin/device-admin) to create the Work Profile, and it has extensive access to the data stored within the Work Profile.
+Korzystając z aplikacji Shelter, należy całkowicie zaufać jego twórcy, ponieważ Shelter działa jako [administrator urządzenia](https://developer.android.com/guide/topics/admin/device-admin) w celu utworzenia profilu służbowego i ma szeroki dostęp do danych przechowywanych w tym profilu.
 
 </div>
 
-Shelter is recommended over [Insular](https://secure-system.gitlab.io/Insular) and [Island](https://github.com/oasisfeng/island) as it supports [contact search blocking](https://secure-system.gitlab.io/Insular/faq.html).
+Shelter jest zalecany zamiast aplikacji [Insular](https://secure-system.gitlab.io/Insular) i [Island](https://github.com/oasisfeng/island), ponieważ obsługuje [blokowanie wyszukiwania kontaktów](https://secure-system.gitlab.io/Insular/faq.html).
 
 ### Secure Camera
 
 <small>Chroni przed następującymi zagrożeniami:</small>
 
-- [:material-account-search: Public Exposure](../basics/common-threats.md#limiting-public-information){ .pg-green }
+- [:material-account-search: Ekspozycja publiczna](../basics/common-threats.md#limiting-public-information){ .pg-green }
 
 <div class="admonition recommendation" markdown>
 
-![Secure camera logo](../assets/img/android/secure_camera.svg#only-light){ align=right }
-![Secure camera logo](../assets/img/android/secure_camera-dark.svg#only-dark){ align=right }
+![Logo Secure Camera](../assets/img/android/secure_camera.svg#only-light){ align=right }
+![Logo Secure Camera](../assets/img/android/secure_camera-dark.svg#only-dark){ align=right }
 
 **Secure Camera** is a camera app focused on privacy and security which can capture images, videos, and QR codes. CameraX vendor extensions (Portrait, HDR, Night Sight, Face Retouch, and Auto) are also supported on available devices.
 
@@ -105,12 +105,12 @@ The image orientation metadata is not deleted. If you enable location (in Secure
 
 <small>Chroni przed następującymi zagrożeniami:</small>
 
-- [:material-target-account: Targeted Attacks](../basics/common-threats.md#attacks-against-specific-individuals){ .pg-red }
+- [:material-target-account: Ataki ukierunkowane](../basics/common-threats.md#attacks-against-specific-individuals){ .pg-red }
 
 <div class="admonition recommendation" markdown>
 
-![Secure PDF Viewer logo](../assets/img/android/secure_pdf_viewer.svg#only-light){ align=right }
-![Secure PDF Viewer logo](../assets/img/android/secure_pdf_viewer-dark.svg#only-dark){ align=right }
+![Logo Secure PDF Viewer](../assets/img/android/secure_pdf_viewer.svg#only-light){ align=right }
+![Logo Secure PDF Viewer](../assets/img/android/secure_pdf_viewer-dark.svg#only-dark){ align=right }
 
 **Secure PDF Viewer** is a PDF viewer based on [pdf.js](https://en.wikipedia.org/wiki/PDF.js) that doesn't require any permissions. The PDF is fed into a [sandboxed](https://en.wikipedia.org/wiki/Sandbox_\(software_development\)) [WebView](https://developer.android.com/guide/webapps/webview). This means that it doesn't require permission directly to access content or files.
 
@@ -133,7 +133,7 @@ The image orientation metadata is not deleted. If you enable location (in Secure
 
 ## Kryteria
 
-**Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](../about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. Sugerujemy zapoznanie się z tą listą przed wyborem projektu oraz przeprowadzenie własnych badań, aby upewnić się, że jest to odpowiedni wybór dla Ciebie.
+**Należy pamiętać, że nie jesteśmy powiązani z żadnym z polecanych przez nas projektów.** Oprócz [naszych standardowych kryteriów](../about/criteria.md) opracowaliśmy jasny zestaw wymagań, które pozwalają nam formułować obiektywne zalecenia. Sugerujemy zapoznanie się z tą listą przed wyborem projektu oraz przeprowadzenie własnych badań, aby upewnić się, że jest to odpowiedni wybór dla Ciebie.
 
 - Applications on this page must not be applicable to any other software category on the site.
 - General applications should extend or replace core system functionality.
