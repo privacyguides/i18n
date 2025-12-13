@@ -99,7 +99,7 @@ Notez que le Bluetooth est automatiquement activé après chaque mise à jour du
 
 Le nom d'appareil de votre iPhone contient par défaut votre prénom, qui sera visible par tous les utilisateurs des réseaux auxquels vous vous connectez. Vous devriez le remplacer par quelque chose de plus générique, comme "iPhone". Sélectionnez **À propos** → **Nom** et entrez le nom que vous avez choisi.
 
-It is important to install software updates frequently to get the latest security fixes. You can enable automatic updates to keep your phone up-to-date without needing to constantly check for updates. Sélectionnez **Mise à jour logicielle**  **MAJ automatiques** :
+It is important to install software updates frequently to get the latest security fixes. Vous pouvez activer les mises à jour automatiques pour maintenir votre téléphone à jour sans avoir à vérifier constamment. Sélectionnez **Mise à jour logicielle**  **MAJ automatiques** :
 
 - [x] Turn on **Automatically Install**
 
@@ -121,7 +121,7 @@ This is available if your device supports **[Apple Intelligence](https://support
 
 To see a report of all the requests made to Apple's servers, you can navigate to **Privacy & Security** → **Apple Intelligence Report** and press **Export Activity** to see activity from the either the last 15 minutes or 7 days, depending on what you set it for. Cette fonctionnalité, assez similaire au **Rapport de confidentialité des apps** qui permet de connaitre les permissions récemment utilisées par les applications sur votre téléphone, vous permet de consulter ce qui est envoyé aux serveurs d'Apple lorsque vous utilisez Apple Intelligence.
 
-Apple Intelligence can integrate with [ChatGPT](https://support.apple.com/guide/iphone/use-chatgpt-with-apple-intelligence-iph00fd3c8c2/ios). If you want ChatGPT integration, you can navigate to **ChatGPT** and press **Set Up**. If you want to disable it, go to the same place:
+Apple Intelligence can integrate with [ChatGPT](https://support.apple.com/guide/iphone/use-chatgpt-with-apple-intelligence-iph00fd3c8c2/ios). If you want ChatGPT integration, you can navigate to **ChatGPT** and press **Set Up**. Si vous souhaitez le désactiver, rendez-vous au même endroit :
 
 - [ ] Désactivez **Utiliser ChatGPT**
 
@@ -151,7 +151,7 @@ You can similarly disable biometrics by pressing the side button five times, or 
 
 Après avoir activé la protection en cas de vol de l’appareil, [certaines actions](https://support.apple.com/HT212510) nécessiteront une authentification biométrique sans possibilité de recourir au mot de passe (dans le cas où un passant obtient votre code PIN), comme l'utilisation du remplissage des mots de passe, l'accès aux informations de paiement et la désactivation du mode Perdu. Cela ajoute également un délai de sécurité pour certaines actions effectuées en dehors de votre domicile ou d'un autre "lieu familier", comme la nécessité d'un délai d'une heure pour réinitialiser votre mot de passe Apple ID ou vous déconnecter de votre Apple ID. Ce délai a pour but de vous donner le temps d'activer le mode Perdu et de sécuriser votre compte avant qu'un voleur ne puisse réinitialiser votre appareil.
 
-**Allow Access When Locked** presents options for what you can allow when your phone is locked. Pick and choose which feature you want to disable to prevent unauthorized access if someone gets their hands on your phone. Plus vous désactivez d'options, moins quelqu'un qui n'a pas votre mot de passe peut faire de choses, mais moins c'est pratique pour vous.
+**Allow Access When Locked** presents options for what you can allow when your phone is locked. Choisissez les fonctions que vous souhaitez désactiver pour empêcher tout accès non autorisé si quelqu'un met la main sur votre téléphone. Plus vous désactivez d'options, moins quelqu'un qui n'a pas votre mot de passe peut faire de choses, mais moins c'est pratique pour vous.
 
 Les iPhones sont déjà résistants aux attaques par force brute en vous faisant attendre de longues périodes de temps après plusieurs tentatives infructueuses ; cependant, il y a toujours eu des exploits pour contourner cette protection. Pour plus de sécurité, vous pouvez configurer votre téléphone pour qu'il s'efface de lui-même après 10 tentatives infructueuses de saisie du code d'accès.
 

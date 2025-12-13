@@ -59,7 +59,7 @@ En fin de compte, Monero est la crypto-monnaie la plus respectueuse de la vie pr
 For optimal privacy, make sure to use a self-custody wallet where the [view key](https://getmonero.org/resources/moneropedia/viewkey.html) stays on the device. Cela signifie que vous êtes le seul à pouvoir dépenser vos fonds et à voir les transactions entrantes et sortantes. If you use a custodial wallet, the provider can see **everything** you do; if you use a “lightweight” wallet where the provider retains your view key, the provider can see almost everything you do (but not spend your funds). Some self-custody wallets where the view key does not leave your device include:
 
 - [le client Monero officiel](https://getmonero.org/downloads) (bureau)
-- [Cake Wallet](https://cakewallet.com) (iOS, Android, Desktop) 
+- [Cake Wallet](https://cakewallet.com) (iOS, Android, Bureau) 
       - Cake Wallet prend en charge plusieurs crypto-monnaies. Une version de Cake Wallet réservée aux utilisateurs de Monero est disponible pour iOS et Android sur [Monero.com](https://monero.com).
 - [Feather Wallet](https://featherwallet.org) (bureau)
 - [Monerujo](https://monerujo.io) (Android)

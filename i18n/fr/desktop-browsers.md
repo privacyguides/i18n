@@ -223,7 +223,7 @@ Protection maximale impose l'utilisation de DNS via HTTPS, et un avertissement d
 <div class="admonition tip" markdown>
 <p class="admonition-title">Utilisez le Navigateur Mullvad pour une protection avancée contre les empreintes numérique</p>
 
-[Mullvad Browser](#mullvad-browser) provides stronger anti-fingerprinting protections out of the box than Firefox, and does not require the use of Mullvad's VPN to benefit from these protections. Couplé à un VPN, le Navigateur Mullvad peut déjouer des scripts de pistage plus avancés qu'Arkenfox ne peut le faire. Firefox still has the advantage of being much more flexible, and allowing per-site exceptions for websites which you need to stay logged in to.
+Le [Navigateur Mullvad](#mullvad-browser) offre d'emblée des protections anti-fingerprinting plus fortes que Firefox, et ne nécessite pas l'utilisation du VPN de Mullvad pour bénéficier de ces protections. Couplé à un VPN, le Navigateur Mullvad peut déjouer des scripts de pistage plus avancés qu'Arkenfox ne peut le faire. Firefox still has the advantage of being much more flexible, and allowing per-site exceptions for websites which you need to stay logged in to.
 
 </div>
 

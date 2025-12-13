@@ -1,7 +1,7 @@
 ---
 title: Suppression de compte
 icon: material/account-remove
-description: It's easy to accumulate a large number of internet accounts. Here are some tips on how to prune your collection.
+description: It's easy to accumulate a large number of internet accounts. Voici quelques astuces pour réduire votre collection.
 ---
 
 Au fil du temps, il est facile d'accumuler un certain nombre de comptes en ligne, dont beaucoup ne sont peut-être plus utilisés. La suppression de ces comptes inutilisés est une étape importante dans la récupération de votre vie privée, car les comptes inactifs sont vulnérables aux fuites de données. A data breach occurs when a service's security is compromised and protected information is viewed, transmitted, or stolen by unauthorized actors. Les fuites de données sont malheureusement [très fréquentes](https://haveibeenpwned.com/PwnedWebsites) de nos jours, et donc le meilleur moyen de minimiser l'impact qu'elles ont sur votre vie et de pratiquer une bonne hygiène numérique. L'objectif de ce guide est donc de vous aider à traverser le processus fastidieux de la suppression d'un compte, souvent rendu difficile à cause des [interfaces trompeuses](https://deceptive.design), une pratique que certains services utilisent afin que vous abandonniez l'idée de supprimer votre compte.
@@ -20,7 +20,7 @@ Even if you haven't explicitly used a password manager before, there's a chance 
 
 Les systèmes d'exploitation aussi, disposent souvent d'un gestionnaire de mots de passe qui peut vous aider à récupérer les mots de passe que vous avez oubliés :
 
-- Windows: [Credential Manager](https://support.microsoft.com/windows/accessing-credential-manager-1b5c916a-6a16-889f-8581-fc16e8165ac0)
+- Windows : [Gestionnaire d’informations d’identification](https://support.microsoft.com/windows/accessing-credential-manager-1b5c916a-6a16-889f-8581-fc16e8165ac0)
 - macOS: [Passwords](https://support.apple.com/HT211145)
 - Linux: Gnome Keyring (accessed through [Seahorse](https://gitlab.gnome.org/GNOME/seahorse#seahorse)) or [KDE Wallet Manager](https://userbase.kde.org/KDE_Wallet_Manager)
 
