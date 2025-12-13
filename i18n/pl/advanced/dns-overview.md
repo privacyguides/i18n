@@ -14,9 +14,9 @@ DNS istnieje od [początków](https://en.wikipedia.org/wiki/Domain_Name_System#H
 
 Niezaszyfrowane żądania DNS mogą być łatwo **monitorowane** i **modyfikowane** podczas transferu. W niektórych częściach świata dostawcy usług internetowych są zobowiązani do stosowania prymitywnego [filtrowania DNS](https://en.wikipedia.org/wiki/DNS_blocking). Gdy zażądasz adresu IP domeny objętej blokadą, serwer może nie odpowiadać lub zwrócić inny adres IP. Ponieważ protokół DNS nie jest szyfrowany, ISP (lub dowolny operator sieci) może użyć [DPI](https://en.wikipedia.org/wiki/Deep_packet_inspection) do monitorowania żądań. Dostawcy ISP mogą też blokować żądania na podstawie wspólnych cech, niezależnie od używanego serwera DNS.
 
-Poniżej omówiono i przedstawiono samouczek, który pokazuje, co zewnętrzny obserwator może zobaczyć, korzystając ze zwykłego, niezaszyfrowanego DNS oraz z [zaszyfrowanego DNS](#what-is-encrypted-dns).
+Poniżej omówiono i przedstawiono samouczek, który pokazuje, co zewnętrzny obserwator może zobaczyć, korzystając ze zwykłego, nieszyfrowanego DNS oraz z [szyfrowanego DNS](#what-is-encrypted-dns).
 
-### Niezaszyfrowany DNS
+### Nieszyfrowany DNS
 
 1. Używając [`tshark`](https://wireshark.org/docs/man-pages/tshark.html) (część projektu [Wireshark](https://pl.wikipedia.org/wiki/Wireshark)) możemy monitorować i rejestrować przepływ pakietów sieciowych. To polecenie zapisuje pakiety spełniające określone reguły:
 
@@ -24,7 +24,7 @@ Poniżej omówiono i przedstawiono samouczek, który pokazuje, co zewnętrzny ob
     tshark -w /tmp/dns.pcap udp port 53 and host 1.1.1.1 or host 8.8.8.8
     ```
 
-2. Następnie możemy użyć polecenia [`dig`](https://en.wikipedia.org/wiki/Dig_(command)) (Linux, macOS itp.) lub [`nslookup`](https://en.wikipedia.org/wiki/Nslookup) (Windows), aby wysłać zapytanie DNS do obu serwerów. Oprogramowanie, takie jak przeglądarki, wykonuje te zapytania automatycznie, o ile nie są skonfigurowane do korzystania z zaszyfrowanego DNS.
+2. Następnie możemy użyć polecenia [`dig`](https://en.wikipedia.org/wiki/Dig_(command)) (Linux, macOS itp.) lub [`nslookup`](https://en.wikipedia.org/wiki/Nslookup) (Windows), aby wysłać zapytanie DNS do obu serwerów. Oprogramowanie, takie jak przeglądarki, wykonuje te zapytania automatycznie, o ile nie są skonfigurowane do korzystania z szyfrowanego DNS.
 
     === "Linux, macOS"
 
@@ -64,33 +64,33 @@ Jeśli uruchomisz powyższe polecenie Wireshark, górny panel pokaże „[ramki]
 
 Obserwator mógłby zmodyfikować dowolny z tych pakietów.
 
-## What is "encrypted DNS"?
+## Czym jest „szyfrowany DNS”?
 
-Encrypted DNS can refer to one of a number of protocols, the most common ones being [DNSCrypt](#dnscrypt), [DNS over TLS](#dns-over-tls-dot), and [DNS over HTTPS](#dns-over-https-doh).
+Szyfrowany DNS może odnosić się do kilku protokołów — najczęściej do [DNSCrypt](#dnscrypt), [DNS poprzez TLS](#dns-over-tls-dot) oraz [DNS poprzez HTTPS](#dns-over-https-doh).
 
 ### DNSCrypt
 
-[**DNSCrypt**](https://en.wikipedia.org/wiki/DNSCrypt) was one of the first methods of encrypting DNS queries. DNSCrypt operates on port 443 and works with both the TCP or UDP transport protocols. DNSCrypt has never been submitted to the [Internet Engineering Task Force (IETF)](https://en.wikipedia.org/wiki/Internet_Engineering_Task_Force) nor has it gone through the [Request for Comments (RFC)](https://en.wikipedia.org/wiki/Request_for_Comments) process, so it has not been used widely outside a few [implementations](https://dnscrypt.info/implementations). As a result, it has been largely replaced by the more popular [DNS over HTTPS](#dns-over-https-doh).
+[**DNSCrypt**](https://en.wikipedia.org/wiki/DNSCrypt) był jedną z pierwszych metod szyfrowania zapytań DNS. DNSCrypt działa na porcie 443 i współpracuje zarówno z protokołami transmisji TCP, jak i UDP. DNSCrypt nigdy nie został zgłoszony do [Internet Engineering Task Force (IETF)](https://en.wikipedia.org/wiki/Internet_Engineering_Task_Force) ani nie przeszedł procesu [Request for Comments (RFC)](https://en.wikipedia.org/wiki/Request_for_Comments), dlatego poza kilkoma [implementacjami](https://dnscrypt.info/implementations) nie był szeroko stosowany. W rezultacie został on w dużej mierze wyparty przez bardziej popularny [DNS poprzez HTTPS](#dns-over-https-doh).
 
-### DNS over TLS (DoT)
+### DNS poprzez TLS (DoT)
 
-[**DNS over TLS**](https://en.wikipedia.org/wiki/DNS_over_TLS) is another method for encrypting DNS communication that is defined in [RFC 7858](https://datatracker.ietf.org/doc/html/rfc7858). Support was first implemented in Android 9, iOS 14, and on Linux in [systemd-resolved](https://freedesktop.org/software/systemd/man/resolved.conf.html#DNSOverTLS=) in version 237. Preference in the industry has been moving away from DoT to DoH in recent years, as DoT is a [complex protocol](https://dnscrypt.info/faq) and has varying compliance to the RFC across the implementations that exist. DoT also operates on a dedicated port 853 which can be blocked easily by restrictive firewalls.
+[**DNS poprzez TLS**](https://en.wikipedia.org/wiki/DNS_over_TLS) to kolejna metoda szyfrowania komunikacji DNS, zdefiniowana w dokumencie [RFC 7858](https://datatracker.ietf.org/doc/html/rfc7858). Obsługa tej metody została po raz pierwszy zaimplementowana w systemach Android 9, iOS 14 oraz w [systemd-resolved](https://freedesktop.org/software/systemd/man/resolved.conf.html#DNSOverTLS=) na Linuksie w wersji 237. W ostatnich latach preferencje w branży odchodzą od DoT na rzecz DoH — DoT jest [stosunkowo złożonym protokołem](https://dnscrypt.info/faq), a istniejące implementacje różnią się zgodnością z RFC. DoT korzysta też z dedykowanego portu 853, który może być łatwo blokowany przez restrykcyjne zapory sieciowe.
 
-### DNS over HTTPS (DoH)
+### DNS poprzez HTTPS (DoH)
 
-[**DNS over HTTPS**](https://en.wikipedia.org/wiki/DNS_over_HTTPS), as defined in [RFC 8484](https://datatracker.ietf.org/doc/html/rfc8484), packages queries in the [HTTP/2](https://en.wikipedia.org/wiki/HTTP/2) protocol and provides security with HTTPS. Support was first added in web browsers such as Firefox 60 and Chrome 83.
+[**DNS poprzez HTTPS**](https://en.wikipedia.org/wiki/DNS_over_HTTPS), zdefiniowany w dokumencie [RFC 8484](https://datatracker.ietf.org/doc/html/rfc8484), pakuje zapytania w protokole [HTTP/2](https://en.wikipedia.org/wiki/HTTP/2) i zapewnia bezpieczeństwo dzięki HTTPS. Obsługa tej funkcji została po raz pierwszy dodana w przeglądarkach internetowych, takich jak Firefox 60 i Chrome 83.
 
-Native implementation of DoH showed up in iOS 14, macOS 11, Microsoft Windows, and Android 13 (however, it won't be enabled [by default](https://android-review.googlesource.com/c/platform/packages/modules/DnsResolver/+/1833144)). General Linux desktop support is waiting on the systemd [implementation](https://github.com/systemd/systemd/issues/8639) so [installing third-party software is still required](../dns.md#encrypted-dns-proxies).
+Natywna implementacja DoH trafiła do systemów iOS 14, macOS 11, Microsoft Windows oraz Android 13 (nie będzie jednak [domyślnie](https://android-review.googlesource.com/c/platform/packages/modules/DnsResolver/+/1833144) włączona). Ogólne wsparcie dla środowisk desktopowych Linuksa oczekuje na [implementację](https://github.com/systemd/systemd/issues/8639) w systemd, więc [nadal wymagana jest instalacja oprogramowania firm trzecich](../dns.md#encrypted-dns-proxies).
 
-### Native Operating System Support
+### Natywne wsparcie systemów operacyjnych
 
 #### Android
 
-Najnowsze wersje systemów iOS, iPadOS, tvOS oraz macOS obsługują zarówno DoT oraz DoH. The settings can be found in: **Settings** &rarr; **Network & Internet** &rarr; **Private DNS**.
+Android 9 i nowsze obsługują DNS poprzez TLS. Ustawienia te można znaleźć w: **Ustawienia** &rarr; **Sieć i internet** &rarr; **Prywatny DNS**.
 
-#### Apple Devices
+#### Urządzenia Apple
 
-The latest versions of iOS, iPadOS, tvOS, and macOS, support both DoT and DoH. Both protocols are supported natively via [configuration profiles](https://support.apple.com/guide/security/configuration-profile-enforcement-secf6fb9f053/web) or through the [DNS Settings API](https://developer.apple.com/documentation/networkextension/dns_settings).
+Najnowsze wersje systemów iOS, iPadOS, tvOS i macOS obsługują zarówno DoT, jak i DoH. Oba protokoły są obsługiwane natywnie za pośrednictwem [profili konfiguracji](https://support.apple.com/guide/security/configuration-profile-enforcement-secf6fb9f053/web) lub [interfejsu API DNS Settings](https://developer.apple.com/documentation/networkextension/dns_settings).
 
 After installation of either a configuration profile or an app that uses the DNS Settings API, the DNS configuration can be selected. If a VPN is active, resolution within the VPN tunnel will use the VPN's DNS settings and not your system-wide settings.
 
