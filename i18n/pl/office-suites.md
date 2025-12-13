@@ -71,7 +71,7 @@ Choose an **office suite** that does not require logging in to an account to acc
 **Należy pamiętać, że nie jesteśmy powiązani z żadnym z polecanych przez nas projektów.** Oprócz [naszych standardowych kryteriów](about/criteria.md) opracowaliśmy jasny zestaw wymagań, które pozwalają nam formułować obiektywne zalecenia. Sugerujemy zapoznanie się z tą listą przed wyborem projektu oraz przeprowadzenie własnych badań, aby upewnić się, że jest to odpowiedni wybór dla Ciebie.
 
 - Must be cross-platform.
-- Must be open-source software.
+- Musi być oprogramowaniem typu open source.
 - Must function offline.
 - Must support editing documents, spreadsheets, and slideshows.
 - Must export files to standard document formats.

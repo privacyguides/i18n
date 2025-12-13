@@ -141,7 +141,7 @@ It supports conventional feed formats and includes built-in support for Reddit f
 
 **Należy pamiętać, że nie jesteśmy powiązani z żadnym z polecanych przez nas projektów.** Oprócz [naszych standardowych kryteriów](about/criteria.md) opracowaliśmy jasny zestaw wymagań, które pozwalają nam formułować obiektywne zalecenia. Sugerujemy zapoznanie się z tą listą przed wyborem projektu oraz przeprowadzenie własnych badań, aby upewnić się, że jest to odpowiedni wybór dla Ciebie.
 
-- Must be open-source software.
+- Musi być oprogramowaniem typu open source.
 - Must operate locally, i.e. must not be a cloud service.
 
 ## Social Media RSS Support

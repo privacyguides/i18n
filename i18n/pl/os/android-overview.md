@@ -143,7 +143,7 @@ Program ochrony zaawansowanej zapewnia wzmocnione monitorowanie zagrożeń i umo
 - Brak możliwości instalowania aplikacji spoza Sklepu Google Play, sklepu dostawcy systemu lub przez [`adb`](https://en.wikipedia.org/wiki/Android_Debug_Bridge).
 - Wymuszone automatyczne skanowanie urządzenia za pomocą [Play Protect](https://support.google.com/googleplay/answer/2812853?#zippy=%2Chow-malware-protection-works%2Chow-privacy-alerts-work).
 - Ostrzeganie o niezweryfikowanych aplikacjach.
-- Włączenie opartej na sprzęcie funkcji ARM — [Memory Tagging Extension (MTE)](https://developer.arm.com/documentation/108035/0100/Introduction-to-the-Memory-Tagging-Extension) — dla obsługiwanych aplikacji, co zmniejsza prawdopodobieństwo wykorzystania błędów związanych z uszkodzeniem pamięci.
+- Włączenie opartej na sprzęcie funkcji [Memory Tagging Extension (MTE)](https://developer.arm.com/documentation/108035/0100/Introduction-to-the-Memory-Tagging-Extension) firmy ARM dla obsługiwanych aplikacji, co zmniejsza prawdopodobieństwo wykorzystania błędów związanych z uszkodzeniem pamięci.
 
 ### Aktualizacje systemowe Google Play
 

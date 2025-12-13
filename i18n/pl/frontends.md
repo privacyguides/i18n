@@ -293,6 +293,6 @@ We only consider frontends if one of the following is true for a platform:
 
 Recommended frontends...
 
-- Must be open-source software.
+- Musi być oprogramowaniem typu open source.
 - Must be self-hostable.
 - Must provide all basic website functionality available to anonymous users.

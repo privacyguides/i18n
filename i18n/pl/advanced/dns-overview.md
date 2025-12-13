@@ -1,16 +1,16 @@
 ---
-title: "DNS Overview"
+title: "Przegląd DNS"
 icon: material/dns
-description: The Domain Name System is the "phonebook of the internet," helping your browser find the website it's looking for.
+description: System nazw domen (Domain Name System) to „książka telefoniczna Internetu”, która pomaga przeglądarce znaleźć poszukiwaną stronę internetową.
 ---
 
-The [Domain Name System](https://en.wikipedia.org/wiki/Domain_Name_System) is the 'phone book of the Internet'. DNS translates domain names to IP addresses so browsers and other services can load Internet resources, through a decentralized network of servers.
+[System nazw domen](https://pl.wikipedia.org/wiki/Domain_Name_System) (*Domain Name System*) to „książka telefoniczna Internetu”. DNS tłumaczy nazwy domen na adresy IP, dzięki czemu przeglądarki i inne usługi mogą ładować zasoby internetowe za pośrednictwem zdecentralizowanej sieci serwerów.
 
-## Co to jest DNS?
+## Czym jest DNS?
 
-Gdy odwiedzasz stronę internetową, zwracany jest adres w postaci dziesiętnej. Na przykład, gdy odwiedzasz `privacyguides.org`, zwracany jest adres `192.98.54.105`.
+Gdy odwiedzasz stronę internetową, zwracany jest adres numeryczny. Na przykład podczas wizyty `privacyguides.org` zwracany jest adres `192.98.54.105`.
 
-DNS istnieje od [wczesnych lat](https://en.wikipedia.org/wiki/Domain_Name_System#History) istnienia Internetu. Zapytania DNS wysyłane i odbierane z serwerów DNS zazwyczaj **nie są** szyfrowane. In a residential setting, a customer is given servers by the ISP via [DHCP](https://en.wikipedia.org/wiki/Dynamic_Host_Configuration_Protocol).
+DNS istnieje od [początków](https://en.wikipedia.org/wiki/Domain_Name_System#History) istnienia Internetu. Żądania DNS wysyłane do i z serwerów DNS zazwyczaj **nie są** szyfrowane. W warunkach domowych klient otrzymuje serwery od dostawcy usług internetowych za pośrednictwem protokułu [DHCP](https://pl.wikipedia.org/wiki/Dynamic_Host_Configuration_Protocol).
 
 Unencrypted DNS requests are able to be easily **surveilled** and **modified** in transit. In some parts of the world, ISPs are ordered to do primitive [DNS filtering](https://en.wikipedia.org/wiki/DNS_blocking). When you request the IP address of a domain that is blocked, the server may not respond or may respond with a different IP address. As the DNS protocol is not encrypted, the ISP (or any network operator) can use [DPI](https://en.wikipedia.org/wiki/Deep_packet_inspection) to monitor requests. ISPs can also block requests based on common characteristics, regardless of which DNS server is used.
 

@@ -75,7 +75,7 @@ OnionShare provides the option to connect via [Tor bridges](https://docs.onionsh
 **Należy pamiętać, że nie jesteśmy powiązani z żadnym z polecanych przez nas projektów.** Oprócz [naszych standardowych kryteriów](about/criteria.md) opracowaliśmy jasny zestaw wymagań, które pozwalają nam formułować obiektywne zalecenia. Sugerujemy zapoznanie się z tą listą przed wyborem projektu oraz przeprowadzenie własnych badań, aby upewnić się, że jest to odpowiedni wybór dla Ciebie.
 
 - Must not store decrypted data on a remote server.
-- Must be open-source software.
+- Musi być oprogramowaniem typu open source.
 - Must either have clients for Linux, macOS, and Windows; or have a web interface.
 
 ## File Sync
@@ -112,7 +112,7 @@ OnionShare provides the option to connect via [Tor bridges](https://docs.onionsh
 #### Minimalne wymagania
 
 - Must not require a third-party remote/cloud server.
-- Must be open-source software.
+- Musi być oprogramowaniem typu open source.
 - Must either have clients for Linux, macOS, and Windows; or have a web interface.
 
 #### Najlepszy scenariusz
