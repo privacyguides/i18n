@@ -12,19 +12,19 @@ Gdy odwiedzasz stronę internetową, zwracany jest adres numeryczny. Na przykła
 
 DNS istnieje od [początków](https://en.wikipedia.org/wiki/Domain_Name_System#History) istnienia Internetu. Żądania DNS wysyłane do i z serwerów DNS zazwyczaj **nie są** szyfrowane. W warunkach domowych klient otrzymuje serwery od dostawcy usług internetowych za pośrednictwem protokułu [DHCP](https://pl.wikipedia.org/wiki/Dynamic_Host_Configuration_Protocol).
 
-Unencrypted DNS requests are able to be easily **surveilled** and **modified** in transit. In some parts of the world, ISPs are ordered to do primitive [DNS filtering](https://en.wikipedia.org/wiki/DNS_blocking). When you request the IP address of a domain that is blocked, the server may not respond or may respond with a different IP address. As the DNS protocol is not encrypted, the ISP (or any network operator) can use [DPI](https://en.wikipedia.org/wiki/Deep_packet_inspection) to monitor requests. ISPs can also block requests based on common characteristics, regardless of which DNS server is used.
+Niezaszyfrowane żądania DNS mogą być łatwo **monitorowane** i **modyfikowane** podczas transferu. W niektórych częściach świata dostawcy usług internetowych są zobowiązani do stosowania prymitywnego [filtrowania DNS](https://en.wikipedia.org/wiki/DNS_blocking). Gdy zażądasz adresu IP domeny objętej blokadą, serwer może nie odpowiadać lub zwrócić inny adres IP. Ponieważ protokół DNS nie jest szyfrowany, ISP (lub dowolny operator sieci) może użyć [DPI](https://en.wikipedia.org/wiki/Deep_packet_inspection) do monitorowania żądań. Dostawcy ISP mogą też blokować żądania na podstawie wspólnych cech, niezależnie od używanego serwera DNS.
 
-Below, we discuss and provide a tutorial to prove what an outside observer may see using regular unencrypted DNS and [encrypted DNS](#what-is-encrypted-dns).
+Poniżej omówiono i przedstawiono samouczek, który pokazuje, co zewnętrzny obserwator może zobaczyć, korzystając ze zwykłego, niezaszyfrowanego DNS oraz z [zaszyfrowanego DNS](#what-is-encrypted-dns).
 
-### Unencrypted DNS
+### Niezaszyfrowany DNS
 
-1. Using [`tshark`](https://wireshark.org/docs/man-pages/tshark.html) (part of the [Wireshark](https://en.wikipedia.org/wiki/Wireshark) project) we can monitor and record internet packet flow. This command records packets that meet the rules specified:
+1. Używając [`tshark`](https://wireshark.org/docs/man-pages/tshark.html) (część projektu [Wireshark](https://pl.wikipedia.org/wiki/Wireshark)) możemy monitorować i rejestrować przepływ pakietów sieciowych. To polecenie zapisuje pakiety spełniające określone reguły:
 
     ```bash
     tshark -w /tmp/dns.pcap udp port 53 and host 1.1.1.1 or host 8.8.8.8
     ```
 
-2. We can then use [`dig`](https://en.wikipedia.org/wiki/Dig_(command)) (Linux, macOS, etc.) or [`nslookup`](https://en.wikipedia.org/wiki/Nslookup) (Windows) to send the DNS lookup to both servers. Software such as web browsers do these lookups automatically, unless they are configured to use encrypted DNS.
+2. Następnie możemy użyć polecenia [`dig`](https://en.wikipedia.org/wiki/Dig_(command)) (Linux, macOS itp.) lub [`nslookup`](https://en.wikipedia.org/wiki/Nslookup) (Windows), aby wysłać zapytanie DNS do obu serwerów. Oprogramowanie, takie jak przeglądarki, wykonuje te zapytania automatycznie, o ile nie są skonfigurowane do korzystania z zaszyfrowanego DNS.
 
     === "Linux, macOS"
 
@@ -39,7 +39,7 @@ Below, we discuss and provide a tutorial to prove what an outside observer may s
         nslookup privacyguides.org 8.8.8.8
         ```
 
-3. Next, we want to [analyze](https://wireshark.org/docs/wsug_html_chunked/ChapterIntroduction.html#ChIntroWhatIs) the results:
+3. Następnie chcemy [przeanalizować](https://wireshark.org/docs/wsug_html_chunked/ChapterIntroduction.html#ChIntroWhatIs) wyniki:
 
     === "Wireshark"
 
@@ -53,16 +53,16 @@ Below, we discuss and provide a tutorial to prove what an outside observer may s
         tshark -r /tmp/dns.pcap
         ```
 
-If you run the Wireshark command above, the top pane shows the "[frames](https://en.wikipedia.org/wiki/Ethernet_frame)", and the bottom pane shows all the data about the selected frame. Enterprise filtering and monitoring solutions (such as those purchased by governments) can do the process automatically, without human interaction, and can aggregate those frames to produce statistical data useful to the network observer.
+Jeśli uruchomisz powyższe polecenie Wireshark, górny panel pokaże „[ramki](https://en.wikipedia.org/wiki/Ethernet_frame)” (ang. *frames*), a dolny panel wyświetli wszystkie dane dotyczące wybranej ramki. Rozwiązania do filtrowania i monitorowania na poziomie korporacyjnym (takie, które mogą być zakupione przez rządy) potrafią wykonywać ten proces automatycznie, bez interwencji człowieka, oraz agregować te ramki w celu wygenerowania danych statystycznych użytecznych dla obserwatora sieci.
 
-| No. | Time     | Source    | Destination | Protocol     | Length | Informacja                                                             |
-| --- | -------- | --------- | ----------- | ------------ | ------ | ---------------------------------------------------------------------- |
-| 1   | 0.000000 | 192.0.2.1 | 1.1.1.1     | Wyszukiwarki | 104    | Standard query 0x58ba A privacyguides.org OPT                          |
-| 2   | 0.293395 | 1.1.1.1   | 192.0.2.1   | Wyszukiwarki | 108    | Standard query response 0x58ba A privacyguides.org A 198.98.54.105 OPT |
-| 3   | 1.682109 | 192.0.2.1 | 8.8.8.8     | Wyszukiwarki | 104    | Standard query 0xf1a9 A privacyguides.org OPT                          |
-| 4   | 2.154698 | 8.8.8.8   | 192.0.2.1   | Wyszukiwarki | 108    | Standard query response 0xf1a9 A privacyguides.org A 198.98.54.105 OPT |
+| Nr | Czas     | Źródło    | Adres docelowy | Protokół     | Długość | Informacje                                                             |
+| -- | -------- | --------- | -------------- | ------------ | ------- | ---------------------------------------------------------------------- |
+| 1  | 0.000000 | 192.0.2.1 | 1.1.1.1        | Wyszukiwarki | 104     | Standard query 0x58ba A privacyguides.org OPT                          |
+| 2  | 0.293395 | 1.1.1.1   | 192.0.2.1      | Wyszukiwarki | 108     | Standard query response 0x58ba A privacyguides.org A 198.98.54.105 OPT |
+| 3  | 1.682109 | 192.0.2.1 | 8.8.8.8        | Wyszukiwarki | 104     | Standard query 0xf1a9 A privacyguides.org OPT                          |
+| 4  | 2.154698 | 8.8.8.8   | 192.0.2.1      | Wyszukiwarki | 108     | Standard query response 0xf1a9 A privacyguides.org A 198.98.54.105 OPT |
 
-An observer could modify any of these packets.
+Obserwator mógłby zmodyfikować dowolny z tych pakietów.
 
 ## What is "encrypted DNS"?
 
