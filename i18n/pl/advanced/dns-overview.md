@@ -92,13 +92,13 @@ Android 9 i nowsze obsługują DNS poprzez TLS. Ustawienia te można znaleźć w
 
 Najnowsze wersje systemów iOS, iPadOS, tvOS i macOS obsługują zarówno DoT, jak i DoH. Oba protokoły są obsługiwane natywnie za pośrednictwem [profili konfiguracji](https://support.apple.com/guide/security/configuration-profile-enforcement-secf6fb9f053/web) lub [interfejsu API DNS Settings](https://developer.apple.com/documentation/networkextension/dns_settings).
 
-After installation of either a configuration profile or an app that uses the DNS Settings API, the DNS configuration can be selected. If a VPN is active, resolution within the VPN tunnel will use the VPN's DNS settings and not your system-wide settings.
+Po zainstalowaniu profilu konfiguracji lub aplikacji korzystającej z interfejsu API DNS Settings można wybrać konfigurację DNS. Jeśli aktywne jest połączenie VPN, rozwiązywanie nazw w tunelu VPN będzie korzystać z ustawień DNS tej sieci VPN, a nie z ustawień systemowych.
 
-Apple does not provide a native interface for creating encrypted DNS profiles. [Secure DNS profile creator](https://dns.notjakob.com/tool.html) is an unofficial tool for creating your own encrypted DNS profiles, however they will not be signed. Signed profiles are preferred; signing validates a profile's origin and helps to ensure the integrity of the profiles. A green "Verified" label is given to signed configuration profiles. For more information on code signing, see [About Code Signing](https://developer.apple.com/library/archive/documentation/Security/Conceptual/CodeSigningGuide/Introduction/Introduction.html).
+Apple nie udostępnia natywnego interfejsu do tworzenia profili szyfrowanego DNS. [Secure DNS profile creator](https://dns.notjakob.com/tool.html) to nieoficjalne narzędzie do tworzenia własnych profili szyfrowanego DNS, jednak takie profile nie będą podpisane. Preferowane są profile podpisane; podpis potwierdza pochodzenie profilu i pomaga zapewnić jego integralność. Podpisane profile otrzymują zieloną etykietę „Zweryfikowany”. Więcej informacji na temat podpisywania kodu można znaleźć w sekcji [About Code Signing](https://developer.apple.com/library/archive/documentation/Security/Conceptual/CodeSigningGuide/Introduction/Introduction.html).
 
 #### Linux
 
-`systemd-resolved`, which many Linux distributions use to do their DNS lookups, doesn't yet [support DoH](https://github.com/systemd/systemd/issues/8639). If you want to use DoH, you'll need to install a proxy like [dnscrypt-proxy](../dns.md#dnscrypt-proxy) and [configure it](https://wiki.archlinux.org/title/Dnscrypt-proxy) to take all the DNS queries from your system resolver and forward them over HTTPS.
+`systemd-resolved`, którego używa wiele dystrybucji Linuksa do obsługi zapytań DNS, nie obsługuje jeszcze [DoH](https://github.com/systemd/systemd/issues/8639). Aby korzystać z DoH, należy zainstalować proxy, takie jak [dnscrypt-proxy](../dns.md#dnscrypt-proxy), i [skonfigurować je](https://wiki.archlinux.org/title/Dnscrypt-proxy) tak, aby przejmowało wszystkie zapytania DNS od systemowego resolvera i przekazywało je poprzez HTTPS.
 
 ## What can an outside party see?
 
