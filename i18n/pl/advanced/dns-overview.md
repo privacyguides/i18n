@@ -100,55 +100,55 @@ Apple nie udostępnia natywnego interfejsu do tworzenia profili szyfrowanego DNS
 
 `systemd-resolved`, którego używa wiele dystrybucji Linuksa do obsługi zapytań DNS, nie obsługuje jeszcze [DoH](https://github.com/systemd/systemd/issues/8639). Aby korzystać z DoH, należy zainstalować proxy, takie jak [dnscrypt-proxy](../dns.md#dnscrypt-proxy), i [skonfigurować je](https://wiki.archlinux.org/title/Dnscrypt-proxy) tak, aby przejmowało wszystkie zapytania DNS od systemowego resolvera i przekazywało je poprzez HTTPS.
 
-## What can an outside party see?
+## Co może zobaczyć osoba z zewnątrz?
 
-In this example we will record what happens when we make a DoH request:
+W tym przykładzie zarejestrujemy, co się dzieje podczas wysyłania żądania DoH:
 
-1. First, start `tshark`:
+1. Najpierw uruchamiamy `tshark`:
 
     ```bash
     tshark -w /tmp/dns_doh.pcap -f "tcp port https and host 1.1.1.1"
     ```
 
-2. Second, make a request with `curl`:
+2. Następnie wysyłamy żądanie za pomocą `curl`:
 
     ```bash
     curl -vI --doh-url https://1.1.1.1/dns-query https://privacyguides.org
     ```
 
-3. After making the request, we can stop the packet capture with <kbd>CTRL</kbd> + <kbd>C</kbd>.
+3. Po wykonaniu żądania możemy zatrzymać przechwytywanie pakietów za pomocą skrótu <kbd>CTRL</kbd> + <kbd>C</kbd>.
 
-4. Analyze the results in Wireshark:
+4. Analizujemy wyniki w Wireshark:
 
     ```bash
     wireshark -r /tmp/dns_doh.pcap
     ```
 
-We can see the [connection establishment](https://en.wikipedia.org/wiki/Transmission_Control_Protocol#Connection_establishment) and [TLS handshake](https://cloudflare.com/learning/ssl/what-happens-in-a-tls-handshake) that occurs with any encrypted connection. When looking at the "application data" packets that follow, none of them contain the domain we requested or the IP address returned.
+Możemy zobaczyć przebieg [nawiązywania połączenia](https://pl.wikipedia.org/wiki/Protokół_sterowania_transmisją#Nawiązywanie_połączenia) oraz tzw. [uścisku dłoni TLS](https://cloudflare.com/learning/ssl/what-happens-in-a-tls-handshake) (*TLS handshake*), które występują przy każdym szyfrowanym połączeniu. Patrząc na pakiety oznaczone jako „application data”, żaden z nich nie zawiera ani żądanej domeny, ani zwróconego adresu IP.
 
-## Why **shouldn't** I use encrypted DNS?
+## Dlaczego **nie należy** używać szyfrowanego DNS?
 
-In locations where there is internet filtering (or censorship), visiting forbidden resources may have its own consequences which you should consider in your [threat model](threat-modeling.md). **Nie zalecamy** używania szyfrowanego DNS w tym celu. Use [Tor](../advanced/tor-overview.md) or a [VPN](../vpn.md) instead. Jeśli korzystasz z sieci VPN, należy użyć serwerów DNS jej dostawcy. When using a VPN, you are already trusting them with all your network activity.
+W miejscach, gdzie stosowane jest filtrowanie Internetu (lub cenzura), odwiedzanie zabronionych zasobów może nieść za sobą konsekwencje, które warto uwzględnić w swoim [modelu zagrożeń](../basics/threat-modeling.md). **Nie zalecamy** używania szyfrowanego DNS w tym celu. Zamiast tego skorzystaj z sieci [Tor](../advanced/tor-overview.md) lub [VPN](../vpn.md). Jeśli korzystasz z sieci VPN, używaj serwerów DNS dostarczanych przez jej dostawcę. Przy użyciu VPN już ufa się dostawcy w kwestii całej swojej aktywności internetowej.
 
-When we do a DNS lookup, it's generally because we want to access a resource. Below, we will discuss some of the methods that may disclose your browsing activities even when using encrypted DNS:
+Gdy wykonuje się zapytanie DNS, zwykle ma się na celu dostęp do jakiegoś zasobu. Poniżej omówimy niektóre z metod, które mogą ujawnić aktywność przeglądania nawet podczas korzystaniu z szyfrowanego DNS:
 
 ### Adres IP
 
-Najprostszym sposobem na określenie aktywności przeglądania może być sprawdzenie adresów IP, z którymi łączą się Twoje urządzenia. Na przykład, jeśli obserwator wie, że `privacyguides.org` znajduje się pod adresem `198.98.54.105`, a Twoje urządzenie pobiera dane z adresu `198.98.54.105`, istnieje duże prawdopodobieństwo, że odwiedzasz witrynę Privacy Guides.
+Najprostszym sposobem określenia aktywności przeglądania to analiza adresów IP, z którymi łączy się urządzenie. Na przykład, jeśli obserwator wie, że `privacyguides.org` ma adres `198.98.54.105`, a Twoje urządzenie nawiązuje połączenie z `198.98.54.105`, istnieje duże prawdopodobieństwo, że odwiedzasz stronę Privacy Guides.
 
-Ta metoda jest użyteczna tylko wtedy, gdy adres IP należy do serwera, na którym znajduje się tylko kilka stron internetowych. It's also not very useful if the site is hosted on a shared platform (e.g. GitHub Pages, Cloudflare Pages, Netlify, WordPress, Blogger, etc.). It also isn't very useful if the server is hosted behind a [reverse proxy](https://en.wikipedia.org/wiki/Reverse_proxy), which is very common on the modern Internet.
+Metoda ta ma sens jedynie wtedy, gdy adres IP należy do serwera hostującego niewiele stron internetowych. Jest też mało skuteczna, gdy strona jest umieszczona na współdzielonej platformie (np. GitHub Pages, Cloudflare Pages, Netlify, WordPress, Blogger itp.). Również jest mało przydatna, gdy serwer jest hostowany za [odwrotnym proxy](https://en.wikipedia.org/wiki/Reverse_proxy), co jest bardzo powszechne w nowoczesnym Internecie.
 
 ### Server Name Indication (SNI)
 
-Server Name Indication is typically used when an IP address hosts many websites. This could be a service like Cloudflare, or some other [Denial-of-service attack](https://en.wikipedia.org/wiki/Denial-of-service_attack) protection.
+Server Name Indication jest zwykle używane, gdy jeden adres IP obsługuje wiele stron internetowych. Może to być usługa typu Cloudflare albo inny mechanizm ochrony przed [atakami typu „blokada usługi”](https://en.wikipedia.org/wiki/Denial-of-service_attack).
 
-1. Start capturing again with `tshark`. We've added a filter with our IP address, so you don't capture many packets:
+1. Rozpoczynamy ponownie przechwytywanie za pomocą `tshark`. Dodaliśmy filtr z naszym adresem IP, by nie przechwytywać zbyt wielu pakietów:
 
     ```bash
     tshark -w /tmp/pg.pcap port 443 and host 198.98.54.105
     ```
 
-2. Then we visit [https://privacyguides.org](https://privacyguides.org).
+2. Następnie odwiedzamy stronę [https://privacyguides.org](https://privacyguides.org).
 
 3. After visiting the website, we want to stop the packet capture with <kbd>CTRL</kbd> + <kbd>C</kbd>.
 
