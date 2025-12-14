@@ -150,17 +150,17 @@ Server Name Indication jest zwykle używane, gdy jeden adres IP obsługuje wiele
 
 2. Następnie odwiedzamy stronę [https://privacyguides.org](https://privacyguides.org).
 
-3. After visiting the website, we want to stop the packet capture with <kbd>CTRL</kbd> + <kbd>C</kbd>.
+3. Po wizycie zatrzymujemy przechwytywanie pakietów za pomocą skrótu <kbd>CTRL</kbd> + <kbd>C</kbd>.
 
-4. Next we want to analyze the results:
+4. Następnie chcemy przeanalizować wyniki:
 
     ```bash
     wireshark -r /tmp/pg.pcap
     ```
 
-    We will see the connection establishment, followed by the TLS handshake for the Privacy Guides website. Around frame 5. Around frame 5. you'll see a "Client Hello".
+    Zobaczymy nawiązanie połączenia, a następnie uścisk dłoni TLS dla strony Privacy Guides. Około ramki nr 5 pojawi się „Client Hello”.
 
-5. Expand the triangle &#9656; next to each field:
+5. Rozwijamy trójkąt &#9656; przy każdym polu:
 
     ```text
     ▸ Transport Layer Security
@@ -170,64 +170,64 @@ Server Name Indication jest zwykle używane, gdy jeden adres IP obsługuje wiele
             ▸ Server Name Indication extension
     ```
 
-6. We can see the SNI value which discloses the website we are visiting. The `tshark` command can give you the value directly for all packets containing a SNI value:
+6. Wartość SNI ujawni, którą stronę odwiedzano. Polecenie `tshark` pozwala wyciągnąć wartość SNI dla wszystkich pakietów, które ją zawierają:
 
     ```bash
     tshark -r /tmp/pg.pcap -Tfields -Y tls.handshake.extensions_server_name -e tls.handshake.extensions_server_name
     ```
 
-This means even if we are using "Encrypted DNS" servers, the domain will likely be disclosed through SNI. The [TLS v1.3](https://en.wikipedia.org/wiki/Transport_Layer_Security#TLS_1.3) protocol brings with it [Encrypted Client Hello](https://blog.cloudflare.com/encrypted-client-hello), which prevents this kind of leak.
+Oznacza to, że nawet przy korzystaniu z serwerów „szyfrowanego DNS” domena najprawdopodobniej zostanie ujawniona przez SNI. Protokół [TLS 1.3](https://en.wikipedia.org/wiki/Transport_Layer_Security#TLS_1.3) wprowadza mechanizmy takie jak [Encrypted Client Hello](https://blog.cloudflare.com/encrypted-client-hello), które zapobiegają tego typu wyciekom.
 
-Governments, in particular [China](https://zdnet.com/article/china-is-now-blocking-all-encrypted-https-traffic-using-tls-1-3-and-esni) and [Russia](https://zdnet.com/article/russia-wants-to-ban-the-use-of-secure-protocols-such-as-tls-1-3-doh-dot-esni), have either already [started blocking](https://en.wikipedia.org/wiki/Server_Name_Indication#Encrypted_Client_Hello) it or expressed a desire to do so. Recently, Russia has [started blocking foreign websites](https://github.com/net4people/bbs/issues/108) that use the [HTTP/3](https://en.wikipedia.org/wiki/HTTP/3) standard. This is because the [QUIC](https://en.wikipedia.org/wiki/QUIC) protocol that is a part of HTTP/3 requires that `ClientHello` also be encrypted.
+Rządy, w szczególności [Chin](https://zdnet.com/article/china-is-now-blocking-all-encrypted-https-traffic-using-tls-1-3-and-esni) i [Rosji](https://zdnet.com/article/russia-wants-to-ban-the-use-of-secure-protocols-such-as-tls-1-3-doh-dot-esni), albo już [zaczęły to blokować](https://en.wikipedia.org/wiki/Server_Name_Indication#Encrypted_Client_Hello), albo wyraziły taką chęć. Ostatnio Rosja [zaczęła blokować zagraniczne strony internetowe](https://github.com/net4people/bbs/issues/108) korzystające ze standardu [HTTP/3](https://en.wikipedia.org/wiki/HTTP/3). Wynika to z faktu, że protokół [QUIC](https://en.wikipedia.org/wiki/QUIC), który jest częścią HTTP/3, wymaga również zaszyfrowania pola `ClientHello`.
 
 ### Online Certificate Status Protocol (OCSP)
 
-Another way your browser can disclose your browsing activities is with the [Online Certificate Status Protocol](https://en.wikipedia.org/wiki/Online_Certificate_Status_Protocol). When visiting an HTTPS website, the browser might check to see if the website's [certificate](https://en.wikipedia.org/wiki/Public_key_certificate) has been revoked. This is generally done through the HTTP protocol, meaning it is **not** encrypted.
+Innym sposobem, w jaki przeglądarka może ujawnić aktywność przeglądania, jest użycie [Online Certificate Status Protocol](https://en.wikipedia.org/wiki/Online_Certificate_Status_Protocol) (pol. *protokół stanu certyfikatu online*). Przy odwiedzaniu strony HTTPS przeglądarka może sprawdzić, czy [certyfikat](https://en.wikipedia.org/wiki/Public_key_certificate) strony nie został unieważniony. Zwykle odbywa się to za pośrednictwem protokołu HTTP, co oznacza, że **nie jest** to szyfrowane.
 
-The OCSP request contains the certificate "[serial number](https://en.wikipedia.org/wiki/Public_key_certificate#Common_fields)", which is unique. It is sent to the "OCSP responder" in order to check its status.
+Żądanie OCSP zawiera „[numer seryjny](https://en.wikipedia.org/wiki/Public_key_certificate#Common_fields)” certyfikatu, który jest unikatowy. Żądanie jest wysyłane do serwera odpowiadającego OCSP (OCSP responder) w celu sprawdzenia statusu certyfikatu.
 
-We can simulate what a browser would do using the [`openssl`](https://en.wikipedia.org/wiki/OpenSSL) command.
+Możemy zasymulować, co zrobiłaby przeglądarka, przy użyciu polecenia [`openssl`](https://en.wikipedia.org/wiki/OpenSSL).
 
-1. Get the server certificate and use [`sed`](https://en.wikipedia.org/wiki/Sed) to keep just the important part and write it out to a file:
+1. Pobieramy certyfikat serwera i za pomocą [`sed`](https://en.wikipedia.org/wiki/Sed) zachowujemy tylko istotną część, zapisując do pliku:
 
     ```bash
     openssl s_client -connect privacyguides.org:443 < /dev/null 2>&1 |
         sed -n '/^-*BEGIN/,/^-*END/p' > /tmp/pg_server.cert
     ```
 
-2. Get the intermediate certificate. [Certificate Authorities (CA)](https://en.wikipedia.org/wiki/Certificate_authority) normally don't sign a certificate directly; they use what is known as an "intermediate" certificate.
+2. Pobieramy certyfikat pośredni. [Urzędy certyfikacji (CA)](https://en.wikipedia.org/wiki/Certificate_authority) zwykle nie podpisują certyfikatów bezpośrednio; używają tak zwanego certyfikatu „pośredniego”.
 
     ```bash
     openssl s_client -showcerts -connect privacyguides.org:443 < /dev/null 2>&1 |
         sed -n '/^-*BEGIN/,/^-*END/p' > /tmp/pg_and_intermediate.cert
     ```
 
-3. The first certificate in `pg_and_intermediate.cert` is actually the server certificate from step 1. We can use `sed` again to delete until the first instance of END:
+3. Pierwszy certyfikat w `pg_and_intermediate.cert` to w rzeczywistości certyfikat serwera z kroku 1. Możemy ponownie użyć `sed`, by usunąć wszystko aż do pierwszego wystąpienia END:
 
     ```bash
     sed -n '/^-*END CERTIFICATE-*$/!d;:a n;p;ba' \
         /tmp/pg_and_intermediate.cert > /tmp/intermediate_chain.cert
     ```
 
-4. Get the OCSP responder for the server certificate:
+4. Pobieramy URI serwera odpowiadającego OCSP dla certyfikatu serwera:
 
     ```bash
     openssl x509 -noout -ocsp_uri -in /tmp/pg_server.cert
     ```
 
-    Our certificate shows the Lets Encrypt certificate responder. If we want to see all the details of the certificate we can use:
+    Nasz certyfikat wskazuje serwer odpowiadający certyfikatów Let's Encrypt. Aby zobaczyć wszystkie szczegóły certyfikatu, możemy użyć:
 
     ```bash
     openssl x509 -text -noout -in /tmp/pg_server.cert
     ```
 
-5. Start the packet capture:
+5. Uruchamiamy przechwytywanie pakietów:
 
     ```bash
     tshark -w /tmp/pg_ocsp.pcap -f "tcp port http"
     ```
 
-6. Make the OCSP request:
+6. Wysyłamy żądanie OCSP:
 
     ```bash
     openssl ocsp -issuer /tmp/intermediate_chain.cert \
@@ -236,13 +236,13 @@ We can simulate what a browser would do using the [`openssl`](https://en.wikiped
                  -url http://r3.o.lencr.org
     ```
 
-7. Open the capture:
+7. Otwieramy przechwytywanie:
 
     ```bash
     wireshark -r /tmp/pg_ocsp.pcap
     ```
 
-    There will be two packets with the "OCSP" protocol: a "Request" and a "Response". For the "Request" we can see the "serial number" by expanding the triangle &#9656; next to each field:
+    Pojawią się dwa pakiety z protokołem „OCSP”: „Request” (żądanie) i „Response” (odpowiedź). W „Request” możemy zobaczyć „serial number” (numer seryjny), rozwijając trojkąt &#9656; przy każdym polu:
 
     ```bash
     ▸ Online Certificate Status Protocol
@@ -253,7 +253,7 @@ We can simulate what a browser would do using the [`openssl`](https://en.wikiped
               serialNumber
     ```
 
-    For the "Response" we can also see the "serial number":
+    W „Response” również widać numer seryjny:
 
     ```bash
     ▸ Online Certificate Status Protocol
@@ -266,13 +266,13 @@ We can simulate what a browser would do using the [`openssl`](https://en.wikiped
                   serialNumber
     ```
 
-8. Or use `tshark` to filter the packets for the Serial Number:
+8. Alternatywnie można też użyj `tshark`, by przefiltrować pakiety pod kątem numeru seryjnego:
 
     ```bash
     tshark -r /tmp/pg_ocsp.pcap -Tfields -Y ocsp.serialNumber -e ocsp.serialNumber
     ```
 
-If the network observer has the public certificate, which is publicly available, they can match the serial number with that certificate and therefore determine the site you're visiting from that. The process can be automated and can associate IP addresses with serial numbers. It is also possible to check [Certificate Transparency](https://en.wikipedia.org/wiki/Certificate_Transparency) logs for the serial number.
+Jeżeli obserwator sieci posiada certyfikat publiczny, który jest dostępny publicznie, może powiązać numer seryjny z tym certyfikatem, a tym samym ustalić odwiedzaną stronę. Proces ten można zautomatyzować i powiązać adresy IP z numerami seryjnymi. Możliwe jest też sprawdzenie dzienników [Certificate Transparency](https://en.wikipedia.org/wiki/Certificate_Transparency) pod kątem numeru seryjnego.
 
 ## Should I use encrypted DNS?
 
