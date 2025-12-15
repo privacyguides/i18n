@@ -182,7 +182,7 @@ Rządy, w szczególności [Chin](https://zdnet.com/article/china-is-now-blocking
 
 ### Online Certificate Status Protocol (OCSP)
 
-Innym sposobem, w jaki przeglądarka może ujawnić aktywność przeglądania, jest użycie [Online Certificate Status Protocol](https://en.wikipedia.org/wiki/Online_Certificate_Status_Protocol) (pol. *protokół stanu certyfikatu online*). Przy odwiedzaniu strony HTTPS przeglądarka może sprawdzić, czy [certyfikat](https://en.wikipedia.org/wiki/Public_key_certificate) strony nie został unieważniony. Zwykle odbywa się to za pośrednictwem protokołu HTTP, co oznacza, że **nie jest** to szyfrowane.
+Innym sposobem, w jaki przeglądarka może ujawnić aktywność przeglądania, jest użycie [protokółu stanu certyfikatu online](https://en.wikipedia.org/wiki/Online_Certificate_Status_Protocol) (*Online Certificate Status Protocol*). Przy odwiedzaniu strony HTTPS przeglądarka może sprawdzić, czy [certyfikat](https://en.wikipedia.org/wiki/Public_key_certificate) strony nie został unieważniony. Zwykle odbywa się to za pośrednictwem protokołu HTTP, co oznacza, że **nie jest** to szyfrowane.
 
 Żądanie OCSP zawiera „[numer seryjny](https://en.wikipedia.org/wiki/Public_key_certificate#Common_fields)” certyfikatu, który jest unikatowy. Żądanie jest wysyłane do serwera odpowiadającego OCSP (OCSP responder) w celu sprawdzenia statusu certyfikatu.
 
@@ -274,30 +274,30 @@ Możemy zasymulować, co zrobiłaby przeglądarka, przy użyciu polecenia [`open
 
 Jeżeli obserwator sieci posiada certyfikat publiczny, który jest dostępny publicznie, może powiązać numer seryjny z tym certyfikatem, a tym samym ustalić odwiedzaną stronę. Proces ten można zautomatyzować i powiązać adresy IP z numerami seryjnymi. Możliwe jest też sprawdzenie dzienników [Certificate Transparency](https://en.wikipedia.org/wiki/Certificate_Transparency) pod kątem numeru seryjnego.
 
-## Should I use encrypted DNS?
+## Czy warto używać szyfrowanego DNS?
 
-We made this flow chart to describe when you *should* use encrypted DNS:
+Stworzyliśmy ten diagram, aby opisać, kiedy *warto* używać szyfrowanego DNS:
 
 ``` mermaid
 graph TB
-    Start[Start] --> anonymous{Trying to be<br> anonymous?}
-    anonymous--> | Yes | tor(Use Tor)
-    anonymous --> | No | censorship{Avoiding<br> censorship?}
-    censorship --> | Yes | vpnOrTor(Use<br> VPN or Tor)
-    censorship --> | No | privacy{Want privacy<br> from ISP?}
-    privacy --> | Yes | vpnOrTor
-    privacy --> | No | obnoxious{ISP makes<br> obnoxious<br> redirects?}
-    obnoxious --> | Yes | encryptedDNS(Use<br> encrypted DNS<br> with 3rd party)
-    obnoxious --> | No | ispDNS{Does ISP support<br> encrypted DNS?}
-    ispDNS --> | Yes | useISP(Use<br> encrypted DNS<br> with ISP)
-    ispDNS --> | No | nothing(Do nothing)
+    Start[Start] --> anonymous{Chcesz zachować<br> anonimowość?}
+    anonymous--> | Tak | tor(Użyj sieci Tor)
+    anonymous --> | Nie | censorship{Unikasz<br> cenzury?}
+    censorship --> | Tak | vpnOrTor(Użyj sieci<br> VPN lub Tor)
+    censorship --> | Nie | privacy{Chcesz zachować<br> prywatność przed<br> swoim ISP?}
+    privacy --> | Tak | vpnOrTor
+    privacy --> | Nie | obnoxious{ISP wykonuje<br> uciążliwe<br> przekierowania?}
+    obnoxious --> | Tak | encryptedDNS(Użyj szyfrowanego DNS<br> u zewnętrznego dostawcy)
+    obnoxious --> | Nie | ispDNS{Czy ISP obsługuje <br> szyfrowany DNS?}
+    ispDNS --> | Tak | useISP(Użyj <br> szyfrowanego DNS<br> od swojego ISP)
+    ispDNS --> | Nie | nothing(Nie rób nic)
 ```
 
-Encrypted DNS with a third party should only be used to get around redirects and basic [DNS blocking](https://en.wikipedia.org/wiki/DNS_blocking) when you can be sure there won't be any consequences, or you're interested in a provider that does some rudimentary filtering.
+Szyfrowany DNS u dostawcy zewnętrznego powinien być używany tylko do obejścia przekierowań i podstawowego [blokowania DNS](https://en.wikipedia.org/wiki/DNS_blocking), gdy można być pewnym, że nie będzie to wiązało się z konsekwencjami, lub gdy poszukuje się dostawcy stosującego proste filtrowanie.
 
-[Lista polecanych serwerów DNS](../dns.md ""){.md-button}
+[Lista zalecanych serwerów DNS](../dns.md ""){.md-button}
 
-## Co to jest DNSSEC?
+## Czym jest DNSSEC?
 
 [Domain Name System Security Extensions](https://en.wikipedia.org/wiki/Domain_Name_System_Security_Extensions) (DNSSEC) to funkcja DNS uwierzytelniająca odpowiedzi na zapytania o nazwę domen. Nie zapewnia ona ochrony prywatności tych zapytań, ale uniemożliwia atakującym manipulowanie lub zatruwanie odpowiedzi na zapytania DNS.
 
