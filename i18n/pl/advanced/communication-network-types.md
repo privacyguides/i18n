@@ -31,28 +31,28 @@ Niektóre samodzielnie hostowane komunikatory umożliwiają skonfigurowanie wła
 - [Własność](https://web.archive.org/web/20210729191953/https://blog.privacytools.io/delisting-wire), polityka prywatności i sposób działania usługi mogą łatwo ulec zmianie, gdy usługą zarządza jeden podmiot, co może później podważyć bezpieczeństwo usługi.
 - Samodzielne hostowanie wymaga wysiłku i wiedzy na temat konfiguracji usługi.
 
-## Federated Networks
+## Sieci federacyjne
 
 ![Federated networks diagram](../assets/img/layout/network-decentralized.svg){ align=left }
 
-Federated messengers use multiple, independent, decentralized servers that are able to talk to each other (email is one example of a federated service). Federation allows system administrators to control their own server and still be a part of the larger communications network.
+Komunikatory federacyjne korzystają z wielu niezależnych, zdecentralizowanych serwerów, które potrafią się ze sobą komunikować (przykładem usługi federacyjnej jest poczta e-mail). Federacja pozwala administratorom systemów kontrolować własny serwer, a jednocześnie nadal być częścią większej sieci komunikacyjnej.
 
-When self-hosted, members of a federated server can discover and communicate with members of other servers, although some servers may choose to remain private by being non-federated (e.g., work team server).
+Przy samodzielnym hostowaniu członkowie serwera federacyjnego mogą odnajdywać i komunikować się z członkami innych serwerów, choć niektóre serwery mogą pozostać prywatne i nieprzystępujące do federacji (np. serwer zespołu służbowego).
 
 **Zalety:**
 
-- Allows for greater control over your own data when running your own server.
-- Allows you to choose whom to trust your data with by choosing between multiple "public" servers.
-- Often allows for third-party clients which can provide a more native, customized, or accessible experience.
-- Server software can be verified that it matches public source code, assuming you have access to the server, or you trust the person who does (e.g., a family member).
+- Pozwala na większą kontrolę nad własnymi danymi przy korzystaniu z własnego serwera.
+- Umożliwia wybór, komu powierzyć swoje dane, poprzez wybór spośród kilku „publicznych” serwerów.
+- Często umożliwia korzystanie z klientów zewnętrznych, które mogą zapewnić bardziej natywne, spersonalizowane lub dostępne wrażenia.
+- Oprogramowanie serwera można zweryfikować pod kątem zgodności z publicznym kodem źródłowym, o ile ma się dostęp do serwera lub ufa się osobie, która go posiada (np. członkowi rodziny).
 
 **Wady:**
 
-- Adding new features is more complex because these features need to be standardized and tested to ensure they work with all servers on the network.
-- Due to the previous point, features can be lacking, or incomplete or working in unexpected ways compared to centralized platforms, such as message relay when offline or message deletion.
-- Some metadata may be available (e.g., information like "who is talking to whom," but not actual message content if E2EE is used).
-- Federated servers generally require trusting your server's administrator. They may be a hobbyist or otherwise not a "security professional," and may not serve standard documents like a privacy policy or terms of service detailing how your data is used.
-- Server administrators sometimes choose to block other servers, which are a source of unmoderated abuse or break general rules of accepted behavior. This will hinder your ability to communicate with members of those servers.
+- Wprowadzanie nowych funkcji jest bardziej skomplikowane, ponieważ muszą być one ustandaryzowane i przetestowane, aby działały na wszystkich serwerach w sieci.
+- Z powodu powyższego funkcje mogą być ograniczone, niekompletne lub działać w nieoczekiwany sposób w porównaniu z platformami scentralizowanymi, np. w zakresie przekazywania wiadomości, gdy odbiorca jest offline, czy usuwania wiadomości.
+- Część metadanych może być dostępna (np. informacje o tym, „kto z kim rozmawia”), choć treść wiadomości pozostaje zaszyfrowana, jeżeli stosowane jest E2EE.
+- Serwery federacyjne zazwyczaj wymagają zaufania do administratora serwera. Może to być hobbysta lub ktoś, kto nie jest „specjalistą ds. bezpieczeństwa”, i nie zawsze udostępnia standardowe dokumenty, takie jak polityka prywatności czy warunki korzystania z usługi opisujące sposób wykorzystania danych.
+- Administratorzy serwerów czasem blokują inne serwery, które są źródłem niemoderowanych nadużyć lub łamią ogólnie przyjęte zasady. Utrudnia to komunikację z członkami tych serwerów.
 
 ## Peer-to-Peer Networks
 
