@@ -299,58 +299,58 @@ Szyfrowany DNS u dostawcy zewnętrznego powinien być używany tylko do obejści
 
 ## Czym jest DNSSEC?
 
-[Domain Name System Security Extensions](https://en.wikipedia.org/wiki/Domain_Name_System_Security_Extensions) (DNSSEC) to funkcja DNS uwierzytelniająca odpowiedzi na zapytania o nazwę domen. Nie zapewnia ona ochrony prywatności tych zapytań, ale uniemożliwia atakującym manipulowanie lub zatruwanie odpowiedzi na zapytania DNS.
+[Domain Name System Security Extensions](https://en.wikipedia.org/wiki/Domain_Name_System_Security_Extensions) (DNSSEC, z ang. *Rozszerzenie zabezpieczeń DNS*) to funkcja DNS, która uwierzytelnia odpowiedzi na zapytania o nazwy domen. Nie zapewnia on ochrony prywatności zapytań — jego celem jest zapobieganie manipulacjom i „zatruwaniu” (poisoning) odpowiedzi DNS przez atakujących.
 
-Innymi słowy, DNSSEC podpisuje cyfrowo dane, aby zapewnić ich spójność. W celu zapewnienia bezpiecznego wyszukiwania, podpisywanie odbywa się na każdym poziomie procesu zapytania DNS. Dzięki temu wszystkie odpowiedzi z DNS są zaufane.
+Innymi słowy, DNSSEC cyfrowo podpisuje dane, aby potwierdzić ich prawidłowość. Aby zapewnić bezpieczne sprawdzenie, podpisywanie odbywa się na każdym poziomie procesu rozwiązywania nazw. W rezultacie odpowiedzi DNS można uznawać za zaufane.
 
-Proces podpisywania DNSSEC jest podobny do podpisywania dokumentu prawnego długopisem; osoba składająca podpis używa niepowtarzalnego podpisu, a ekspert sądowy może spojrzeć na ten podpis i zweryfikować, czy dokument został podpisany przez tę osobę. Te podpisy cyfrowe są gwarancją, że dane nie zostały naruszone.
+Proces podpisywania w DNSSEC przypomina podpisywanie dokumentu prawnego pisemnie — osoba składająca podpis używa unikatowego podpisu, którego nikt inny nie może stworzyć, a ekspert może zweryfikować jego autentyczność. Te podpisy cyfrowe gwarantują, że dane nie zostały zmienione.
 
-DNSSEC wprowadza hierarchiczną politykę podpisywania cyfrowego we wszystkich warstwach DNS. For example, in the case of a `privacyguides.org` lookup, a root DNS server would sign a key for the `.org` nameserver, and the `.org` nameserver would then sign a key for `privacyguides.org`’s authoritative nameserver.
+DNSSEC wdraża hierarchiczną politykę podpisywania cyfrowego na wszystkich warstwach DNS. Na przykład przy zapytaniu o `privacyguides.org` serwer główny DNS podpisałby klucz dla serwera nazw `.org`, a serwer `.org` podpisałby klucz autorytatywnego serwera nazw dla `privacyguides.org`.
 
-<small>Adapted from [DNS Security Extensions (DNSSEC) overview](https://cloud.google.com/dns/docs/dnssec) by Google and [DNSSEC: An Introduction](https://blog.cloudflare.com/dnssec-an-introduction) by Cloudflare, both licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0).</small>
+<small>Opracowano na podstawie [DNS Security Extensions (DNSSEC) overview](https://cloud.google.com/dns/docs/dnssec) autorstwa Google oraz [DNSSEC: An Introduction](https://blog.cloudflare.com/dnssec-an-introduction) autorstwa Cloudflare; oba udostępnione na licencji [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.pl).</small>
 
-## What is QNAME minimization?
+## Czym jest minimalizacja QNAME?
 
-A QNAME is a "qualified name", for example `discuss.privacyguides.net`. In the past, when resolving a domain name your DNS resolver would ask every server in the chain to provide any information it has about your full query. In this example below, your request to find the IP address for `discuss.privacyguides.net` gets asked of every DNS server provider:
+QNAME to „nazwa kwalifikowana” (ang. *qualified name*), na przykład `discuss.privacyguides.net`. W przeszłości, podczas rozwiązywania nazwy domeny, rekursywny serwer DNS pytał każdy serwer w łańcuchu o informacje dotyczące całego zapytania. W poniższym przykładzie zapytanie o adres IP dla `discuss.privacyguides.net` było kierowane do każdego serwera DNS:
 
-| Server                 | Question Asked                              | Response                                    |
-| ---------------------- | ------------------------------------------- | ------------------------------------------- |
-| Root server            | What's the IP of discuss.privacyguides.net? | I don't know, ask .net's server...          |
-| .net's server          | What's the IP of discuss.privacyguides.net? | I don't know, ask Privacy Guides' server... |
-| Privacy Guides' server | What's the IP of discuss.privacyguides.net? | 5.161.195.190!                              |
+| Serwer                | Zadane pytanie                                        | Odpowiedź                                  |
+| --------------------- | ----------------------------------------------------- | ------------------------------------------ |
+| Serwer główny         | Jaki jest adres IP serwisu discuss.privacyguides.net? | Nie wiem, zapytaj serwer .net...           |
+| Serwer .net           | Jaki jest adres IP serwisu discuss.privacyguides.net? | Nie wiem, zapytaj serwer Privacy Guides... |
+| Serwer Privacy Guides | Jaki jest adres IP serwisu discuss.privacyguides.net? | 5.161.195.190!                             |
 
-With "QNAME minimization," your DNS resolver now only asks for just enough information to find the next server in the chain. In this example, the root server is only asked for enough information to find the appropriate nameserver for the .net TLD, and so on, without ever knowing the full domain you're trying to visit:
+Dzięki „minimalizacji QNAME” rekursywny serwer DNS wysyła teraz tylko tyle informacji, ile potrzeba, aby odnaleźć kolejny serwer w łańcuchu. W tym przykładzie serwer główny jest pytany jedynie o serwer nazw dla TLD .net, potem serwer .net o serwer nazw dla privacyguides.net, i tak dalej — bez poznawania pełnej domeny, którą próbuje się odwiedzić:
 
-| Server                 | Question Asked                                       | Response                          |
-| ---------------------- | ---------------------------------------------------- | --------------------------------- |
-| Root server            | What's the nameserver for .net?                      | *Provides .net's server*          |
-| .net's server          | What's the nameserver for privacyguides.net?         | *Provides Privacy Guides' server* |
-| Privacy Guides' server | What's the nameserver for discuss.privacyguides.net? | This server!                      |
-| Privacy Guides' server | What's the IP of discuss.privacyguides.net?          | 5.161.195.190                     |
+| Serwer                | Zadane pytanie                                        | Odpowiedź                      |
+| --------------------- | ----------------------------------------------------- | ------------------------------ |
+| Serwer główny         | Jaki jest serwer nazw dla domeny .net?                | *Podaje serwer domeny .net*    |
+| Serwer .net           | Jaki jest serwer nazw dla privacyguides.net?          | *Podaje serwer Privacy Guides* |
+| Serwer Privacy Guides | Jaki jest serwer nazw dla discuss.privacyguides.net?  | Ten serwer!                    |
+| Serwer Privacy Guides | Jaki jest adres IP serwisu discuss.privacyguides.net? | 5.161.195.190                  |
 
-While this process can be slightly more inefficient, in this example neither the central root nameservers nor the TLD's nameservers ever receive information about your *full* query, thus reducing the amount of information being transmitted about your browsing habits. Further technical description is defined in [RFC 7816](https://datatracker.ietf.org/doc/html/rfc7816).
+Choć ten proces może być nieco mniej wydajny, w przedstawionym scenariuszu ani centralne serwery główne, ani serwery nazw TLD nigdy nie otrzymują informacji o *całym* zapytaniu, co zmniejsza ilość danych ujawnianych o nawykach przeglądania. Szczegóły techniczne opisano w dokumencie [RFC 7816](https://datatracker.ietf.org/doc/html/rfc7816).
 
-## What is EDNS Client Subnet (ECS)?
+## Co to jest EDNS Client Subnet (ECS)?
 
-The [EDNS Client Subnet](https://en.wikipedia.org/wiki/EDNS_Client_Subnet) is a method for a recursive DNS resolver to specify a [subnetwork](https://en.wikipedia.org/wiki/Subnetwork) for the [host or client](https://en.wikipedia.org/wiki/Client_(computing)) which is making the DNS query.
+[EDNS Client Subnet](https://en.wikipedia.org/wiki/EDNS_Client_Subnet) to mechanizm pozwalający rekursywnemu serwerowi DNS przekazać informację o [podsieci](https://pl.wikipedia.org/wiki/Podsieć) [klienta lub hosta](https://en.wikipedia.org/wiki/Client_(computing)), który wykonuje zapytanie DNS.
 
-It's intended to "speed up" delivery of data by giving the client an answer that belongs to a server that is close to them such as a [content delivery network](https://en.wikipedia.org/wiki/Content_delivery_network), which are often used in video streaming and serving JavaScript web apps.
+Ma on na celu „przyspieszenie” dostarczania danych przez zwrócenie klientowi odpowiedzi wskazującej serwer bliższy jego lokalizacji, co jest przydatne w [sieciach dostarczania treści (CDN)](https://en.wikipedia.org/wiki/Content_delivery_network), często używanych do streamingu wideo czy obsługi aplikacji webowych JavaScript.
 
-This feature does come at a privacy cost, as it tells the DNS server some information about the client's location, generally your IP network. For example, if your IP address is `198.51.100.32` the DNS provider might share `198.51.100.0/24` with the authoritative server. Some DNS providers anonymize this data by providing another IP address which is approximately near your location.
+Funkcja ta wiąże się jednak z kosztem prywatności, ponieważ ujawnia serwerowi DNS pewne informacje o lokalizacji klienta — zwykle o sieci IP. Na przykład, jeśli Twój adres IP to `198.51.100.32`, dostawca DNS może udostępnić autorytatywnemu serwerowi zakres `198.51.100.0/24`. Niektórzy dostawcy DNS anonimizują te dane, przekazując inny adres IP przybliżony do lokalizacji użytkownika.
 
-If you have `dig` installed you can test whether your DNS provider gives EDNS information out to DNS nameservers with the following command:
+Jeśli masz zainstalowane narzędzie `dig`, możesz sprawdzić, czy Twój dostawca DNS przekazuje informacje EDNS do serwerów nazw DNS, wykonując następujące polecenie:
 
 ```bash
 dig +nocmd -t txt o-o.myaddr.l.google.com +nocomments +noall +answer +stats
 ```
 
-Note that this command will contact Google for the test, and return your IP as well as EDNS client subnet information. If you want to test another DNS resolver you can specify their IP, to test `9.9.9.11` for example:
+Należy pamiętać, że to polecenie skontaktuje się z Google i zwróci Twój adres IP oraz informacje o podsieci klienta EDNS. Aby przetestować inny rekursywny serwer DNS, można podać jego adres IP, na przykład `9.9.9.11`:
 
 ```bash
 dig +nocmd @9.9.9.11 -t txt o-o.myaddr.l.google.com +nocomments +noall +answer +stats
 ```
 
-If the results include a second edns0-client-subnet TXT record (like shown below), then your DNS server is passing along EDNS information. The IP or network shown after is the precise information which was shared with Google by your DNS provider.
+Jeżeli wyniki zawierają dodatkowy rekord TXT z informacją typu „edns0-client-subnet” (jak pokazano poniżej), oznacza to, że serwer DNS przekazuje informacje EDNS. Adres IP lub sieć widoczne po rekordzie to dokładna informacja, którą dostawca DNS udostępnił Google.
 
 ```text
 o-o.myaddr.l.google.com. 60 IN TXT "198.51.100.32"

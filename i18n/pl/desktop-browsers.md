@@ -212,7 +212,7 @@ Jeśli korzystasz z [dostawcy DNS poprzez HTTPS](dns.md):
 
 - [x] Wybierz opcję **Maksymalna ochrona** i ustaw odpowiedniego dostawcę
 
-Tryb Maksymalnej ochrony wymusza korzystanie z DNS poprzez HTTPS. W przypadku, gdy Firefox nie będzie mógł połączyć się z bezpiecznym resolverem DNS lub jeśli ten zgłosi, że rekordy dla danej domeny nie istnieją, przeglądarka wyświetli ostrzeżenie o bezpieczeństwie. Chroni to przed sytuacją, w której sieć, z której korzystasz, potajemnie obniża poziom zabezpieczeń DNS.
+Tryb Maksymalnej ochrony wymusza korzystanie z DNS poprzez HTTPS. W przypadku, gdy Firefox nie będzie mógł połączyć się z bezpiecznym rekursywnym serwerem DNS lub jeśli ten zgłosi, że rekordy dla danej domeny nie istnieją, przeglądarka wyświetli ostrzeżenie o bezpieczeństwie. Chroni to przed sytuacją, w której sieć, z której korzystasz, potajemnie obniża poziom zabezpieczeń DNS.
 
 #### Synchronizacja
 
