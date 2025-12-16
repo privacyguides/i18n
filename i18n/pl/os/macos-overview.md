@@ -1,5 +1,5 @@
 ---
-title: macOS Overview
+title: Przegląd systemu macOS
 icon: material/apple-finder
 description: macOS is Apple's desktop operating system that works with their hardware to provide strong security.
 ---

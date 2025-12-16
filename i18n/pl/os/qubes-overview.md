@@ -1,5 +1,5 @@
 ---
-title: "Przegląd Qubes"
+title: "Przegląd systemu Qubes"
 icon: simple/qubesos
 description: Qubes to system operacyjny oparty na izolowaniu aplikacji w *qubes* (dawniej "maszynach wirtualnych") w celu zwiększenia bezpieczeństwa.
 ---
