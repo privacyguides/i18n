@@ -609,7 +609,7 @@ For encrypting your OS drive, we typically recommend using the encryption tool y
 
 [Dowiedz się więcej :hero-arrow-circle-right-fill:](social-networks.md)
 
-## Hardware
+## Sprzęt komputerowy
 
 ### Security Keys
 
