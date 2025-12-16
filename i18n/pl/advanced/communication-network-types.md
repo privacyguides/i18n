@@ -54,22 +54,22 @@ Przy samodzielnym hostowaniu członkowie serwera federacyjnego mogą odnajdywać
 - Serwery federacyjne zazwyczaj wymagają zaufania do administratora serwera. Może to być hobbysta lub ktoś, kto nie jest „specjalistą ds. bezpieczeństwa”, i nie zawsze udostępnia standardowe dokumenty, takie jak polityka prywatności czy warunki korzystania z usługi opisujące sposób wykorzystania danych.
 - Administratorzy serwerów czasem blokują inne serwery, które są źródłem niemoderowanych nadużyć lub łamią ogólnie przyjęte zasady. Utrudnia to komunikację z członkami tych serwerów.
 
-## Peer-to-Peer Networks
+## Sieci peer-to-peer (P2P)
 
 ![P2P diagram](../assets/img/layout/network-distributed.svg){ align=left }
 
-P2P messengers connect to a [distributed network](https://en.wikipedia.org/wiki/Distributed_networking) of nodes to relay a message to the recipient without a third-party server.
+Komunikatory P2P łączą się z [rozproszoną siecią](https://en.wikipedia.org/wiki/Distributed_networking) węzłów, aby przekazać wiadomość do odbiorcy bez udziału serwera strony trzeciej.
 
-Clients (peers) usually find each other through the use of a [distributed computing](https://en.wikipedia.org/wiki/Distributed_computing) network. Examples of this include [Distributed Hash Tables](https://en.wikipedia.org/wiki/Distributed_hash_table) (DHT), used by [torrents](https://en.wikipedia.org/wiki/BitTorrent_(protocol)) and [IPFS](https://en.wikipedia.org/wiki/InterPlanetary_File_System) for example. Another approach is proximity based networks, where a connection is established over Wi-Fi or Bluetooth (for example, Briar or the [Scuttlebutt](https://scuttlebutt.nz) social network protocol).
+Klienci (peery) zwykle odnajdują się nazwajem za pomocą [rozproszonych sieci komputerowej](https://en.wikipedia.org/wiki/Distributed_computing). Przykładem takiej sieci są [rozproszone tablice mieszające](https://pl.wikipedia.org/wiki/Rozproszona_tablica_mieszająca) (DHT), wykorzystywane na przykład przez [torrenty](https://pl.wikipedia.org/wiki/BitTorrent) czy [IPFS](https://en.wikipedia.org/wiki/InterPlanetary_File_System). Innym podejściem są sieci oparte na bliskości, gdzie połączenie nawiązywane jest przez Wi-Fi lub Bluetooth (np. Briar lub protokół społecznościowy [Scuttlebutt](https://scuttlebutt.nz)).
 
-Once a peer has found a route to its contact via any of these methods, a direct connection between them is made. Although messages are usually encrypted, an observer can still deduce the location and identity of the sender and recipient.
+Gdy peer znajdzie trasę do kontaktu jedną z tych metod, nawiązuje się bezpośrednie połączenie między nimi. Choć wiadomości są zwykle szyfrowane, obserwator może nadal wywnioskować lokalizację i tożsamość nadawcy oraz odbiorcy.
 
-P2P networks do not use servers, as peers communicate directly between each other and hence cannot be self-hosted. However, some additional services may rely on centralized servers, such as user discovery or relaying offline messages, which can benefit from self-hosting.
+Sieci P2P nie korzystają z serwerów — peery komunikują się między sobą bezpośrednio i dlatego nie da się ich typowo hostować samodzielnie. Jednak niektóre dodatkowe usługi, takie jak odnajdywanie użytkowników czy pośredniczenie w dostarczaniu wiadomości wysłanych, gdy odbiorca był offline, mogą polegać na serwerach scentralizowanych i wtedy skorzystać na samodzielnym hostowaniu.
 
 **Zalety:**
 
-- Minimal information is exposed to third-parties.
-- Modern P2P platforms implement E2EE by default. There are no servers that could potentially intercept and decrypt your transmissions, unlike centralized and federated models.
+- Minimalna ilość informacji jest ujawniana podmiotom trzecim.
+- Nowoczesne platformy P2P domyślnie stosują E2EE. There are no servers that could potentially intercept and decrypt your transmissions, unlike centralized and federated models.
 
 **Wady:**
 
