@@ -1,35 +1,35 @@
 ---
-title: "Tor Overview"
+title: "Przegląd sieci Tor"
 icon: 'simple/torproject'
-description: Tor is a free to use, decentralized network designed for using the internet with as much privacy as possible.
+description: Tor to bezpłatna, zdecentralizowana sieć zaprojektowana z myślą o możliwie największej prywatności podczas korzystania z Internetu.
 ---
 
 ![Tor logo](../assets/img/self-contained-networks/tor.svg){ align=right }
 
-[**Tor**](../alternative-networks.md#tor) is a free to use, decentralized network designed for using the internet with as much privacy as possible. If used properly, the network enables private and anonymous browsing and communications. Dzięki temu, że ruch w sieci Tor jest trudny do zablokowania i namierzenia, Tor stanowi skuteczne narzędzie do omijania cenzury.
+[**Tor**](../alternative-networks.md#tor) to bezpłatna, zdecentralizowana sieć zaprojektowana tak, by umożliwiać korzystanie z Internetu z jak największym zachowaniem prywatności. Jeśli jest używana prawidłowo, sieć umożliwia prywatne i anonimowe przeglądanie oraz komunikację. Dzięki temu, że ruch w sieci Tor jest trudny do zablokowania i namierzenia, Tor stanowi skuteczne narzędzie do omijania cenzury.
 
-[:material-movie-open-play-outline: Video: Why You Need Tor](https://www.privacyguides.org/videos/2025/03/02/why-you-need-tor ""){.md-button}
+[:material-movie-open-play-outline: Wideo: Dlaczego potrzebujesz Tora](https://www.privacyguides.org/videos/2025/03/02/why-you-need-tor ""){.md-button}
 
-Tor works by routing your internet traffic through volunteer-operated servers instead of making a direct connection to the site you're trying to visit. This obfuscates where the traffic is coming from, and no server in the connection path is able to see the full path of where the traffic is coming from and going to, meaning even the servers you are using to connect cannot break your anonymity.
+Tor działa, kierując ruch internetowy przez serwery obsługiwane przez wolontariuszy, zamiast nawiązywać bezpośrednie połączenie ze stroną, którą próbuje się odwiedzić. Zaciera to informację, skąd pochodzi ruch — żaden serwer na trasie połączenia nie widzi pełnej ścieżki, skąd ruch pochodzi i dokąd zmierza, więc nawet serwery używane do połączenia nie są w stanie złamać Twojej anonimowości.
 
-[:octicons-home-16:](https://torproject.org){ .card-link title=Homepage }
-[:simple-torbrowser:](http://2gzyxa5ihm7nsggfxnu52rck2vv4rvmdlkiu3zzui5du4xyclen53wid.onion){ .card-link title="Onion Service" }
-[:octicons-info-16:](https://tb-manual.torproject.org){ .card-link title=Documentation}
-[:octicons-code-16:](https://gitlab.torproject.org/tpo/core/tor){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://donate.torproject.org){ .card-link title=Contribute }
+[:octicons-home-16:](https://torproject.org/pl){ .card-link title="Strona główna"}
+[:simple-torbrowser:](http://2gzyxa5ihm7nsggfxnu52rck2vv4rvmdlkiu3zzui5du4xyclen53wid.onion){ .card-link title="Usługa .onion" }
+[:octicons-info-16:](https://tb-manual.torproject.org){ .card-link title=Dokumentacja}
+[:octicons-code-16:](https://gitlab.torproject.org/tpo/core/tor){ .card-link title="Kod źródłowy" }
+[:octicons-heart-16:](https://donate.torproject.org){ .card-link title="Wspomóż projekt" }
 
-## Safely Connecting to Tor
+## Bezpieczne łączenie się z siecią Tor
 
-Before connecting to Tor, you should carefully consider what you're looking to accomplish by using Tor in the first place, and who you're trying to hide your network activity from.
+Przed połączeniem się z siecią Tor należy dokładnie rozważyć, co chce się osiągnąć za jej pomocą, i przed kim próbuje się ukryć swoją aktywność w sieci.
 
-If you live in a free country, are accessing mundane content via Tor, aren't worried about your ISP or local network administrators having the knowledge that you're using Tor, and want to help [destigmatize](https://2019.www.torproject.org/about/torusers.html.en) Tor usage, you can likely connect to Tor directly via standard means like [Tor Browser](../tor.md) without worry.
+Jeśli mieszkasz w wolnym kraju, korzystasz z Tora do przeglądania zwykłych treści, nie obawiasz się, że Twój dostawca usług internetowych (ISP) lub administratorzy lokalnej sieci dowiedzą się, że korzystasz z Tora i chcesz pomóc w [zniesieniu piętna](https://2019.www.torproject.org/about/torusers.html.en) związanego z korzystaniem z Tora, prawdopodobnie możesz bez obaw połączyć się z siecią Tor bezpośrednio za pomocą standardowych metod, np. przez przeglądarkę [Tor Browser](../tor.md).
 
-If you have the ability to access a trusted VPN provider and **any** of the following are true, you almost certainly should connect to Tor through a VPN:
+Jeśli masz możliwość skorzystania z zaufanego dostawcy VPN i **którekolwiek** z poniższych stwierdzeń jest prawdziwe, prawie na pewno należy łączyć się z siecią Tor za pośrednictwem VPN:
 
-- You already use a [trusted VPN provider](../vpn.md)
-- Your threat model includes an adversary which is capable of extracting information from your ISP
-- Your threat model includes your ISP itself as an adversary
-- Your threat model includes local network administrators before your ISP as an adversary
+- Już korzystasz z [zaufanego dostawcy VPN](../vpn.md)
+- Twój model zagrożeń obejmuje przeciwnika, który jest w stanie wydobyć informacje od Twojego ISP
+- Twój model zagrożeń obejmuje samego dostawcę usług internetowych jako przeciwnika
+- Twój model zagrożeń obejmuje administratorów lokalnej sieci działających przed Twoim ISP jako przeciwników
 
 Because we already [generally recommend](../basics/vpn-overview.md) that the vast majority of people use a trusted VPN provider for a variety of reasons, the following recommendation about connecting to Tor via a VPN likely applies to you. <mark>There is no need to disable your VPN before connecting to Tor</mark>, as some online resources would lead you to believe.
 
