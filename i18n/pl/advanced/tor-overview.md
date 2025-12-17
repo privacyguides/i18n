@@ -31,13 +31,13 @@ Jeśli masz możliwość skorzystania z zaufanego dostawcy VPN i **którekolwiek
 - Twój model zagrożeń obejmuje samego dostawcę usług internetowych jako przeciwnika
 - Twój model zagrożeń obejmuje administratorów lokalnej sieci działających przed Twoim ISP jako przeciwników
 
-Because we already [generally recommend](../basics/vpn-overview.md) that the vast majority of people use a trusted VPN provider for a variety of reasons, the following recommendation about connecting to Tor via a VPN likely applies to you. <mark>There is no need to disable your VPN before connecting to Tor</mark>, as some online resources would lead you to believe.
+Ponieważ już z różnych powodów [ogólnie zalecamy](../basics/vpn-overview.md), by zdecydowana większość osób korzystała z zaufanego dostawcy VPN, następujące zalecenie dotyczące łączenia się z siecią Tor za pośrednictwem VPN prawdopodobnie dotyczy także Ciebie. <mark>Nie ma potrzeby wyłączać VPN-a przed połączeniem się z siecią Tor</mark>, jak sugerują to niektóre źródła internetowe.
 
-Connecting directly to Tor will make your connection stand out to any local network administrators or your ISP. Detecting and correlating this traffic [has been done](https://edition.cnn.com/2013/12/17/justice/massachusetts-harvard-hoax) in the past by network administrators to identify and deanonymize specific Tor users on their network. On the other hand, connecting to a VPN is almost always less suspicious, because commercial VPN providers are used by everyday consumers for a variety of mundane tasks like bypassing geo-restrictions, even in countries with heavy internet restrictions.
+Łączenie się bezpośrednio z siecią Tor sprawi, że Twoje połączenie będzie się wyróżniać dla administratorów lokalnej sieci lub ISP. W przeszłości administratorzy sieci potrafili [wykryć i skorelować](https://edition.cnn.com/2013/12/17/justice/massachusetts-harvard-hoax) taki ruch, by zidentyfikować i zdeanonimizować konkretne osoby korzystające z Tora. On the other hand, connecting to a VPN is almost always less suspicious, because commercial VPN providers are used by everyday consumers for a variety of mundane tasks like bypassing geo-restrictions, even in countries with heavy internet restrictions.
 
 Therefore, you should make an effort to hide your IP address **before** connecting to the Tor network. You can do this by simply connecting to a VPN (through a client installed on your computer) and then accessing [Tor](../tor.md) as normal (e.g., through Tor Browser). This creates a connection chain like so:
 
-- [x] You → VPN → Tor → Internet
+- [x] Ty → VPN → Tor → Internet
 
 From your ISP's perspective, it looks like you're accessing a VPN normally (with the associated cover that provides you). From your VPN's perspective, they can see that you are connecting to the Tor network, but nothing about what websites you're accessing. From Tor's perspective, you're connecting normally, but in the unlikely event of some sort of Tor network compromise, only your VPN's IP would be exposed, and your VPN would *additionally* have to be compromised to deanonymize you.
 
@@ -47,8 +47,8 @@ This is **not** censorship circumvention advice because if Tor is blocked entire
 
 We **very strongly discourage** combining Tor with a VPN in any other manner. Do not configure your connection in a way which resembles any of the following:
 
-- You → Tor → VPN → Internet
-- You → VPN → Tor → VPN → Internet
+- Ty → Tor → VPN → Internet
+- Ty → VPN → Tor → VPN → Internet
 - Any other configuration
 
 Some VPN providers and other publications will occasionally recommend these **bad** configurations to evade Tor bans (i.e., exit nodes being blocked by websites) in some places. [Normally](https://support.torproject.org/#about_change-paths), Tor frequently changes your circuit path through the network. When you choose a permanent *destination* VPN (connecting to a VPN server *after* Tor), you're eliminating this advantage and drastically harming your anonymity.
