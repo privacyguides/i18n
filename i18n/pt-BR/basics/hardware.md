@@ -1,29 +1,29 @@
 ---
-title: "Choosing Your Hardware"
+title: "Escolhendo Seu Hardware"
 icon: 'material/chip'
-description: Software isn't all that matters; learn about the hardware tools you use every day to protect your privacy.
+description: Software não é tudo que importa; Aprenda sobre as ferramentas de hardware que você usa diariamente para proteger sua privacidade.
 ---
 
-When it comes to discussions about privacy, hardware is often not thought about as much as what software we use. Your hardware should be considered the foundation on which you build the rest of your privacy setup.
+Quando se discute sobre privacidade, o hardware não é tão pensando quanto o software que utilizamos. Seu hardware deveria ser considerado a base sobre a qual você construiria o resto da sua configuração de privacidade.
 
-## Picking a Computer
+## Escolhendo um computador
 
-The internals of your devices process and store all of your digital data. It is important that all devices are supported by the manufacturer and developers by continuing to receive security updates.
+As partes internas de seus dispositivos processam e armazenam todos os seus dados digitais. É importante que todos os dispositivos recebam suporte do fabricante e dos desenvolvedores, continuando a receber atualizações de segurança.
 
-### Hardware Security Programs
+### Programas de segurança de hardware
 
-Some devices will have a "hardware security program", which is a collaboration between vendors on best practices and recommendations when designing hardware, for example:
+Alguns dispositivos terão um "programa de segurança de hardware", que é uma colaboração entre fornecedores sobre práticas recomendadas e recomendações ao projetar o hardware, por exemplo:
 
-- [Windows Secured-core PCs](https://learn.microsoft.com/en-us/windows-hardware/design/device-experiences/oem-highly-secure-11) meet a higher security criteria specified by Microsoft. These protections aren't only applicable to Windows users; Users of other operating systems can still take advantage of features like [DMA protection](https://learn.microsoft.com/en-us/windows/security/information-protection/kernel-dma-protection-for-thunderbolt) and the ability to completely distrust Microsoft certificates.
-- [Android Ready SE](https://developers.google.com/android/security/android-ready-se) is a collaboration between vendors to ensure their devices follow [best practices](https://source.android.com/docs/security/best-practices/hardware) and include tamper resistant hardware backed storage for things like encryption keys.
-- macOS running on an Apple SoC takes advantage of [hardware security](../os/macos-overview.md#hardware-security) which may not be available with third party operating systems.
-- [ChromeOS security](https://chromium.org/chromium-os/developer-library/reference/security/security-whitepaper) is at its best when running on a Chromebook as it is able to make use of available hardware features such as the [hardware root-of-trust](https://chromium.org/chromium-os/developer-library/reference/security/security-whitepaper/#hardware-root-of-trust-and-verified-boot).
+- Os [Windows Secured-core PCs] (https://learn.microsoft.com/en-us/windows-hardware/design/device-experiences/oem-highly-secure-11) atendem a um critério de segurança mais elevado especificado pela Microsoft. Essas proteções não se aplicam apenas aos usuários do Windows; os usuários de outros sistemas operacionais ainda podem aproveitar recursos como [DMA protection] (https://learn.microsoft.com/en-us/windows/security/information-protection/kernel-dma-protection-for-thunderbolt) e a capacidade de desconfiar completamente dos certificados da Microsoft.
+- O [Android Ready SE](https://developers.google.com/android/security/android-ready-se) é uma colaboração entre fornecedores para garantir que seus dispositivos sigam as [práticas recomendadas](https://source.android.com/docs/security/best-practices/hardware) e incluam armazenamento com suporte de hardware resistente a violações para itens como chaves de criptografia.
+- O macOS executado em um SoC da Apple tira proveito da [segurança de hardware] (../os/macos-overview.md#hardware-security), que pode não estar disponível em sistemas operacionais de terceiros.
+- A [segurança do ChromeOS](https://chromium.org/chromium-os/developer-library/reference/security/security-whitepaper) é melhor quando executada em um Chromebook, pois é capaz de usar os recursos de hardware disponíveis, como a [raiz de confiança de hardware](https://chromium.org/chromium-os/developer-library/reference/security/security-whitepaper/#hardware-root-of-trust-and-verified-boot).
 
-Even if you don't use these operating systems, participation in these programs may indicate that the manufacturer is following best practices when it comes to hardware security and updates.
+Mesmo que você não use esses sistemas operacionais, a participação nesses programas pode indicar que o fabricante está seguindo as práticas recomendadas quando se trata de segurança e atualizações de hardware.
 
-### Preinstalled OS
+### Sistema operacional pré-instalado
 
-New computers nearly always come with Windows preinstalled, unless you buy a Mac or a specialty Linux machine. It's usually a good idea to wipe the drive and install a fresh copy of your operating system of choice, even if that means just reinstalling Windows from scratch. Due to agreements between hardware vendors and shady software vendors, the default Windows install often comes preloaded with bloatware, [adware](https://bleepingcomputer.com/news/technology/lenovo-gets-a-slap-on-the-wrist-for-superfish-adware-scandal), or even [malware](https://zdnet.com/article/dell-poweredge-motherboards-ship-with-malware).
+Os computadores novos quase sempre vêm com o Windows pré-instalado, a menos que você compre um Mac ou uma máquina especializada em Linux. It's usually a good idea to wipe the drive and install a fresh copy of your operating system of choice, even if that means just reinstalling Windows from scratch. Due to agreements between hardware vendors and shady software vendors, the default Windows install often comes preloaded with bloatware, [adware](https://bleepingcomputer.com/news/technology/lenovo-gets-a-slap-on-the-wrist-for-superfish-adware-scandal), or even [malware](https://zdnet.com/article/dell-poweredge-motherboards-ship-with-malware).
 
 ### Atualizações de Firmware
 
