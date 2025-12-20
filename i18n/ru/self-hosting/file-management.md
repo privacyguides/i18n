@@ -74,7 +74,7 @@ Self-hosting your own **file management** tools may be a good idea to reduce the
 </div>
 
 <div class="admonition danger" markdown>
-<p class="admonition-title">Danger</p>
+<p class="admonition-title">Важно!</p>
 
 Мы не рекомендуем использовать [плагин E2EE](https://apps.nextcloud.com/apps/end_to_end_encryption) для Nextcloud, так как это может привести к потере данных; это очень экспериментальный продукт, который недостаточно качественен для полноценного использования. For this reason, we don't recommend third-party Nextcloud providers.
 

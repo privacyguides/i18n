@@ -1,6 +1,6 @@
 ---
 meta_title: "Интернет браузеры, ориентированные на защиту конфиденциальности для ПК и Mac - Privacy Guides"
-title: Браузеры для настольных компьютеров
+title: Браузеры для компьютеров
 icon: material/laptop
 description: В настоящее время мы рекомендуем эти браузеры с фокусом на защиту конфиденциальности для обычного использования на десктопах (ПК и Mac).
 cover: desktop-browsers.webp
@@ -138,7 +138,7 @@ Mullvad Browser работает в постоянном режиме прива
 </div>
 
 <div class="admonition warning" markdown>
-<p class="admonition-title">Предупреждение</p>
+<p class="admonition-title">Внимание!</p>
 
 Firefox добавляет уникальный [маркер загрузки](https://bugzilla.mozilla.org/show_bug.cgi?id=1677497#c0) к загрузкам с сайта Mozilla и использует телеметрию для отправки этого маркера. Токен **не** добавляется при скачивании с [Mozilla FTP](https://ftp.mozilla.org/pub/firefox/releases/).
 
@@ -261,7 +261,7 @@ Brave основан на Chromium, поэтому он будет вам зна
 </div>
 
 <div class="admonition warning" markdown>
-<p class="admonition-title">Предупреждение</p>
+<p class="admonition-title">Внимание!</p>
 
 Brave добавляет "[реферальный код](https://github. om/brave/brave-browser/wiki/Brave%E2%80%99s-Use-of-Referral-Codes)" к имени файла при загрузке с веб-сайта Brave. Этот код используется для отслеживания источника, из которого код был загружен браузер, например `BRV002` в загрузках с именем `Brave-Browser-BRV002.pkg`. В конце процесса установки программа установки отправит на сервер Brave реферальный код. Если вас это беспокоит, вы можете переименовать установочный файл перед его открытием.
 

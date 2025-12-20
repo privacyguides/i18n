@@ -13,7 +13,7 @@ global:
 
 - [:material-account-cash: Капитализм слежки](basics/common-threats.md#surveillance-as-a-business-model ""){.pg-brown}
 
-Encrypted **DNS** with third-party servers should only be used to get around basic [DNS blocking](https://en.wikipedia.org/wiki/DNS_blocking) when you can be sure there won't be any consequences. Зашифрованный DNS не поможет вам скрыть какую-либо активность в интернете.
+Зашифрованный **DNS** со сторонними серверами следует использовать только для обхода базовой [блокировки DNS](https://en.wikipedia.org/wiki/DNS_blocking), если вы уверены, что это не повлечет за собой никаких последствий. Зашифрованный DNS не поможет вам скрыть какую-либо активность в интернете.
 
 [Узнайте больше о DNS :material-arrow-right-drop-circle:](advanced/dns-overview.md ""){.md-button}
 
@@ -98,7 +98,7 @@ NextDNS also offers a public DoH service at `https://dns.nextdns.io` and DNS-ove
 
 ## Зашифрованные DNS-прокси
 
-Зашифрованные DNS-прокси создают локальный прокси-сервер, на который будут перенаправляться запросы с вашего системного [незашифрованного DNS-резолвера](advanced/dns-overview.md#unencrypted-dns). Typically, it is used on platforms that don't natively support [encrypted DNS](advanced/dns-overview.md#what-is-encrypted-dns).
+Зашифрованные DNS-прокси создают локальный прокси-сервер, на который будут перенаправляться запросы с вашего системного [незашифрованного DNS-резолвера](advanced/dns-overview.md#unencrypted-dns). Обычно они подходят для устройств, не поддерживающих [зашифрованный DNS](advanced/dns-overview.md#what-is-encrypted-dns).
 
 ### RethinkDNS
 
@@ -130,14 +130,14 @@ While RethinkDNS takes up the Android VPN slot, you can still use a VPN or Orbot
 
 <div class="admonition recommendation" markdown>
 
-![DNSCrypt-Proxy logo](assets/img/dns/dnscrypt-proxy.svg){ align=right }
+![Логотип DNSCrypt-Proxy](assets/img/dns/dnscrypt-proxy.svg){ align=right }
 
-**DNSCrypt-Proxy** is a DNS proxy with support for [DNSCrypt](advanced/dns-overview.md#dnscrypt), [DoH](advanced/dns-overview.md#dns-over-https-doh), and [Anonymized DNS](https://github.com/DNSCrypt/dnscrypt-proxy/wiki/Anonymized-DNS).
+**DNSCrypt-Proxy** — это DNS-прокси с поддержкой [DNSCrypt](advanced/dns-overview.md#dnscrypt), [DoH](advanced/dns-overview.md#dns-over-https-doh) и [анонимизированного DNS](https://github.com/DNSCrypt/dnscrypt-proxy/wiki/Anonymized-DNS).
 
-[:octicons-repo-16: Repository](https://github.com/DNSCrypt/dnscrypt-proxy#readme){ .md-button .md-button--primary }
-[:octicons-info-16:](https://github.com/DNSCrypt/dnscrypt-proxy/wiki){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/DNSCrypt/dnscrypt-proxy){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://opencollective.com/dnscrypt/contribute){ .card-link title="Contribute" }
+[:octicons-repo-16: Репозиторий](https://github.com/DNSCrypt/dnscrypt-proxy#readme){ .md-button .md-button--primary }
+[:octicons-info-16:](https://github.com/DNSCrypt/dnscrypt-proxy/wiki){ .card-link title="Документация"}
+[:octicons-code-16:](https://github.com/DNSCrypt/dnscrypt-proxy){ .card-link title="Исходный код" }
+[:octicons-heart-16:](https://opencollective.com/dnscrypt/contribute){ .card-link title=Поддержать" }
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
@@ -151,7 +151,7 @@ While RethinkDNS takes up the Android VPN slot, you can still use a VPN or Orbot
 </div>
 
 <div class="admonition warning" markdown>
-<p class="admonition-title">Предупреждение</p>
+<p class="admonition-title">Внимание!</p>
 
 The anonymized DNS feature does [not](advanced/dns-overview.md#why-shouldnt-i-use-encrypted-dns) anonymize other network traffic.
 
@@ -183,6 +183,6 @@ Additionally, all public providers...
 
     Control D: [*Privacy Policy*](https://controld.com/privacy) [^4]: Mullvad's DNS service is available to both subscribers and non-subscribers of Mullvad VPN. Их политика конфиденциальности утверждает, что они ни в каком виде не сохраняют DNS-запросы.
 
-    Mullvad: [*No-logging of user activity policy*](https://mullvad.net/en/help/no-logging-data-policy) [^5]: Quad9 collects some data for the purposes of threat monitoring and response. That data may then be remixed and shared for purposes like furthering their security research. Quad9 не собирает и не хранит IP-адреса и другую информацию, которую они считают идентифицирующей пользователя.
+    Mullvad: [*No-logging of user activity policy*](https://mullvad.net/en/help/no-logging-data-policy) [^5]: Quad9 collects some data for the purposes of threat monitoring and response. Эти данные могут быть изменены и переданы, например, в целях исследования безопасности. Quad9 не собирает и не хранит IP-адреса и другую информацию, которую они считают идентифицирующей пользователя.
 
     Quad9: [*Data and Privacy Policy*](https://quad9.net/privacy/policy)

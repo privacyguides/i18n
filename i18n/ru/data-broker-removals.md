@@ -16,7 +16,7 @@ cover: data-broker-removals.webp
 Counterintuitively, removing your personal data on these sites from the internet generally requires _providing_ these companies with your personal data for them to comply with the request. Unfortunately, in most cases it is still worth doing so to minimize the amount of personal data about you which is publicly accessible.
 
 <div class="admonition example" markdown>
-<p class="admonition-title">Try it out</p>
+<p class="admonition-title">Попробуйте</p>
 
 Use your favorite [search engine](search-engines.md) to see if your data is trivially exposed by searching for your name in quotes, plus your general location. For example, search for `"Jane Smith" Chicago IL`. In many cases, you may find your personal information makes up many of the first results. Even if results about you aren't readily available though, you may still be affected. The list of data brokers linked below will provide more places to check whether your data is in any public databases.
 
