@@ -1,5 +1,5 @@
 ---
-title: iOS Overview
+title: iOS 개요
 icon: simple/apple
 description: iOS is a mobile operating system developed by Apple for the iPhone.
 ---
@@ -12,7 +12,7 @@ iOS devices are frequently praised by security experts for their robust data pro
 
 We generally consider iOS to provide better than average privacy and security protections for most people, compared to stock Android devices from any manufacturer. However, you can achieve even higher standards of privacy with a [custom Android operating system](../android/distributions.md) like GrapheneOS, if you want or need to be completely independent of Apple or Google's cloud services.
 
-### Activation Lock
+### 잠금 활성화
 
 All iOS devices must be checked against Apple's Activation Lock servers when they are initially set up or reset, meaning an internet connection is **required** to use an iOS device.
 
@@ -50,7 +50,7 @@ You can also protect your data by limiting what you sync to iCloud in the first 
 
 A paid **iCloud+** subscription (with any iCloud storage plan) comes with some privacy-protecting functionality. While these may provide adequate service for current iCloud customers, we wouldn't recommend purchasing an iCloud+ plan over a [VPN](../vpn.md) and [standalone email aliasing service](../email-aliasing.md) just for these features alone.
 
-[**Private Relay**](https://apple.com/legal/privacy/data/en/icloud-relay) is a proxy service which relays all of your Safari traffic, your DNS queries, and unencrypted traffic on your device through two servers: one owned by Apple and one owned by a third-party provider (including Akamai, Cloudflare, and Fastly). In theory this should prevent any single provider in the chain—including Apple—from having full visibility into which websites you visit while connected. Unlike a VPN, Private Relay does not protect traffic that's already encrypted.
+[**비공개 릴레이**](https://apple.com/legal/privacy/data/en/icloud-relay) 는 사용자의 모든 Safari 트래픽, DNS 쿼리 및 기기의 암호화되지 않은 트래픽을 Apple 소유의 서버와 타사 제공업체(Akamai, Cloudflare, Fastly 등) 소유의 서버 두 개를 통해 중계하는 프록시 서비스입니다. In theory this should prevent any single provider in the chain—including Apple—from having full visibility into which websites you visit while connected. Unlike a VPN, Private Relay does not protect traffic that's already encrypted.
 
 **Hide My Email** is Apple's email aliasing service. You can create an email aliases for free when you *Sign In With Apple* on a website or app, or generate unlimited aliases on demand with a paid iCloud+ plan. Hide My Email has the advantage of using the `@icloud.com` domain for its aliases, which may be less likely to be blocked compared to other email aliasing services, but does not offer functionality offered by standalone services such as automatic PGP encryption or multiple mailbox support.
 
@@ -71,7 +71,7 @@ Your location data is not E2EE when your device is online and you use Find My iP
 
 At the top of the **Settings** app, you'll see your name and profile picture if you are signed in to an Apple Account. Select that, then select **Find My**. Here you can choose whether to enable or disable Find My location features.
 
-### Settings
+### 설정
 
 Many other privacy-related settings can be found in the **Settings** app.
 
@@ -87,7 +87,7 @@ You can enable [hardware address randomization](https://support.apple.com/en-us/
 
 You also have the option to **Limit IP Address Tracking**. This is similar to iCloud Private Relay but only affects connections to "known trackers." Because it only affects connections to potentially malicious servers, this setting is probably fine to leave enabled, but if you don't want *any* traffic to be routed through Apple's servers, you should turn it off.
 
-#### Bluetooth
+#### 블루투스
 
 **Bluetooth** should be disabled when you aren't using it as it increases your attack surface. Disabling Bluetooth (or Wi-Fi) via the Control Center only disables it temporarily: you must switch it off in Settings for disabling it to remain effective.
 
@@ -208,7 +208,7 @@ Set wired accessories to ask for permission when you connect them. Select **Wire
 
 ## Additional Advice
 
-### E2EE Calls
+### E2EE 통화
 
 Normal phone calls made with the Phone app through your carrier are not E2EE. Both FaceTime Video and FaceTime Audio calls are E2EE. Alternatively, you can use [another app](../real-time-communication.md) like Signal for E2EE calls.
 
