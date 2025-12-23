@@ -4,7 +4,7 @@ icon: 'simple/torproject'
 description: Tor to bezpłatna, zdecentralizowana sieć zaprojektowana z myślą o możliwie największej prywatności podczas korzystania z Internetu.
 ---
 
-![Tor logo](../assets/img/self-contained-networks/tor.svg){ align=right }
+![Logo Tor](../assets/img/self-contained-networks/tor.svg){ align=right }
 
 [**Tor**](../alternative-networks.md#tor) to bezpłatna, zdecentralizowana sieć zaprojektowana tak, by umożliwiać korzystanie z Internetu z jak największym zachowaniem prywatności. Jeśli jest używana prawidłowo, sieć umożliwia prywatne i anonimowe przeglądanie oraz komunikację. Dzięki temu, że ruch w sieci Tor jest trudny do zablokowania i namierzenia, Tor stanowi skuteczne narzędzie do omijania cenzury.
 
@@ -90,18 +90,18 @@ Istnieją również inne niż te trzy transporty wtykowe, ale zazwyczaj opieraj�
 
 Ważne jest rozróżnienie między omijaniem cenzury a unikaniem wykrycia. To pierwsze jest zwykle łatwiejsze ze względu na rzeczywiste ograniczenia, jakie mają cenzorzy sieci przy masowym działaniu, ale te techniki nie ukrywają faktu, że to *konkretnie* Ty używasz Tora przed zainteresowaną stroną monitorującą Twoją sieć.
 
-### Tor Browser is not the most *secure* browser
+### Tor Browser nie jest naj*bezpieczniejszą* przeglądarką
 
-Anonymity can often be at odds with security: Tor's anonymity requires every user to be identical, which creates a monoculture (e.g., the same bugs are present across all Tor Browser users). As a cybersecurity rule of thumb, monocultures are generally regarded as bad: Security through diversity (which Tor lacks) provides natural segmentation by limiting vulnerabilities to smaller groups, and is therefore usually desirable, but this diversity is also less good for anonymity.
+Anonimowość często stoi w sprzeczności z bezpieczeństwem: anonimowość sieci Tor wymaga, by wszyscy użytkownicy byli identyczni, co tworzy monokulturę (np. te same błędy występują u wszystkich użytkowników przeglądarki Tor Browser). Z punktu widzenia cyberbezpieczeństwa monokultury zwykle uznawane są za złe: bezpieczeństwo przez różnorodność (którego Tor nie zapewnia) naturalnie dzieli środowisko i ogranicza zasięg podatności, co z reguły jest pożądane, choć mniej korzystne dla anonimowości.
 
-Additionally, Tor Browser is based on Firefox's Extended Support Release builds, which only receives patches for vulnerabilities considered *Critical* and *High* (not *Medium* and *Low*). This means that attackers could (for example):
+Ponadto przeglądarka Tor Browser bazuje na wydaniach Firefoksa o wydłużonym wsparciu (Extended Support Release – ESR), które otrzymują poprawki tylko dla podatności sklasyfikowanych jako *krytyczne* i *wysokie* (nie dla *średnich* i *niskich*). Oznacza to, że atakujący mogą (na przykład):
 
-1. Look for new Critical/High vulnerabilities in Firefox nightly or beta builds, then check if they are exploitable in Tor Browser (this vulnerability period can last weeks).
-2. Chain *multiple* Medium/Low vulnerabilities together until they get the level of access they're looking for (this vulnerability period can last months or longer).
+1. Szukać nowych podatności o statusie krytycznym lub wysokim w wersjach nightly lub beta Firefoksa, a następnie sprawdzać, czy można je wykorzystać w przeglądarce Tor Browser (okres, w którym luka pozostaje niezałatana, może trwać tygodniami).
+2. Łączyć ze sobą *wiele* podatności o poziomie średnim/niskim, aż uzyskają pożądany poziom dostępu (okres ten może trwać miesiące lub dłużej).
 
-Those at risk of browser vulnerabilities should consider additional protections to defend against Tor Browser exploits, such as using Whonix in [Qubes](../os/qubes-overview.md) to contain your Tor browsing in a secure virtual machine and protect against leaks.
+Osoby narażone na ryzyko wynikające z luk przeglądarki powinny rozważyć dodatkowe środki ochronne przeciwko exploitom przeglądarki Tor Browser, na przykład korzystanie z Whonix w [Qubes](../os/qubes-overview.md) w celu odizolowania sesji przeglądania przez Tor w bezpiecznej maszynie wirtualnej i ochrony przed wyciekami.
 
-## Path Building to Clearnet Services
+## Budowanie ścieżki do serwisów w clearnet
 
 "Clearnet services" are websites which you can access with any browser, like [privacyguides.org](https://www.privacyguides.org). Tor lets you connect to these websites anonymously by routing your traffic through a network comprised of thousands of volunteer-run servers called nodes (or relays).
 
