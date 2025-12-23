@@ -51,7 +51,7 @@ Z perspektywy ISP wygląda to tak, jak zwykłe korzystanie z VPN (co daje pewną
 - Ty → VPN → Tor → VPN → Internet
 - Jakakolwiek inna konfiguracja
 
-Niektórzy dostawcy VPN i inne publikacje okazjonalnie zalecają takie **złe** konfiguracje, by obejść blokady Tor (np. gdy w niektórych miejscach węzły wyjściowe są blokowane przez strony). [Zazwyczaj](https://support.torproject.org/#about_change-paths) Tor często zmienia trasę obwodu w sieci. Gdy wybierze się stałe *miejsce docelowe* VPN (czyli łączenie z serwerem VPN *po* Tor), traci się tę przewagę i znacznie szkodzi się swojej anonimowości.
+Niektórzy dostawcy VPN i inne publikacje okazjonalnie zalecają takie **złe** konfiguracje, by obejść blokady Tor (np. gdy w niektórych miejscach węzły wyjściowe są blokowane przez strony). [Zazwyczaj](https://support.torproject.org/#about_change-paths) Tor często zmienia ścieżkę obwodu w sieci. Gdy wybierze się stałe *miejsce docelowe* VPN (czyli łączenie z serwerem VPN *po* Tor), traci się tę przewagę i znacznie szkodzi się swojej anonimowości.
 
 Ustawienie takich złych konfiguracji rzadko zdarza się przypadkowo, bo zwykle wymaga skonfigurowania niestandardowych ustawień proxy w przeglądarce Tor Browser lub niestandardowych ustawień w kliencie VPN, które kierują ruch VPN poprzez przeglądarkę Tor Browser. Unikając tych niestandardowych konfiguracji, najprawdopodobniej wszystko będzie w porządku.
 
@@ -101,41 +101,41 @@ Ponadto przeglądarka Tor Browser bazuje na wydaniach Firefoksa o wydłużonym w
 
 Osoby narażone na ryzyko wynikające z luk przeglądarki powinny rozważyć dodatkowe środki ochronne przeciwko exploitom przeglądarki Tor Browser, na przykład korzystanie z Whonix w [Qubes](../os/qubes-overview.md) w celu odizolowania sesji przeglądania przez Tor w bezpiecznej maszynie wirtualnej i ochrony przed wyciekami.
 
-## Budowanie ścieżki do serwisów w clearnet
+## Budowanie ścieżki do usług w clearnecie
 
-"Clearnet services" are websites which you can access with any browser, like [privacyguides.org](https://www.privacyguides.org). Tor lets you connect to these websites anonymously by routing your traffic through a network comprised of thousands of volunteer-run servers called nodes (or relays).
+„Usługi w clearnecie” to strony internetowe, do których można uzyskać dostęp za pomocą dowolnej przeglądarki, np. [privacyguides.org](https://www.privacyguides.org). Tor umożliwia anonimowe łączenie się z takimi stronami, kierując ruch przez sieć składającą się z tysięcy serwerów prowadzonych przez wolontariuszy, zwanych węzłami (lub przekaźnikami).
 
-Every time you [connect to Tor](../tor.md), it will choose three nodes to build a path to the internet—this path is called a "circuit."
+Za każdym razem, gdy [łączysz się z siecią Tor](../tor.md), wybierze ona trzy węzły, aby zbudować ścieżkę do Internetu — ścieżka ta nazywana jest „obwodem”.
 
 <figure markdown>
-  ![Tor path showing your device connecting to an entry node, middle node, and exit node before reaching the destination website](../assets/img/how-tor-works/tor-path.svg#only-light)
-  ![Tor path showing your device connecting to an entry node, middle node, and exit node before reaching the destination website](../assets/img/how-tor-works/tor-path-dark.svg#only-dark)
-  <figcaption>Tor circuit pathway</figcaption>
+  ![Ścieżka Tora pokazująca, jak urządzenie łączy się z węzłem wejściowym, węzłem środkowym i węzłem wyjściowym przed dotarciem do strony docelowej](../assets/img/how-tor-works/tor-path.svg#only-light)
+  ![Ścieżka Tora pokazująca, jak urządzenie łączy się z węzłem wejściowym, węzłem środkowym i węzłem wyjściowym przed dotarciem do strony docelowej](../assets/img/how-tor-works/tor-path-dark.svg#only-dark)
+  <figcaption>Ścieżka obwodu Tor</figcaption>
 </figure>
 
-Each of these nodes has its own function:
+Każdy z tych węzłów pełni inną funkcję:
 
-### The Entry Node
+### Węzeł wejściowy
 
-The entry node, often called the guard node, is the first node to which your Tor client connects. The entry node is able to see your IP address, however it is unable to see what you are connecting to.
+Węzeł wejściowy, często nazywany strażnikiem, to pierwszy węzeł, z którym łączy się klient Tor. Węzeł wejściowy jest w stanie zobaczyć Twój adres IP, jednak nie widzi, z jaką stroną się łączysz.
 
-Unlike the other nodes, the Tor client will randomly select an entry node and stick with it for two to three months to protect you from certain attacks.[^1]
+W przeciwieństwie do pozostałych węzłów, klient Tor losowo wybiera węzeł wejściowy i utrzymuje go przez okres dwóch–trzech miesięcy, aby chronić Cię przed pewnymi atakami[^1].
 
-### The Middle Node
+### Węzeł środkowy
 
-The middle node is the second node to which your Tor client connects. It can see which node the traffic came from—the entry node—and to which node it goes to next. The middle node cannot, see your IP address or the domain you are connecting to.
+Węzeł środkowy to drugi węzeł w obwodzie. Widzi, z którego węzła przyszedł ruch — czyli węzła wejściowego — i do którego węzła kieruje go dalej. Węzeł środkowy nie widzi Twojego adresu IP ani domeny, z którą się łączysz.
 
-For each new circuit, the middle node is randomly selected out of all available Tor nodes.
+Dla każdego nowego obwodu węzeł środkowy jest wybierany losowo spośród wszystkich dostępnych węzłów Tor.
 
-### The Exit Node
+### Węzeł wyjściowy
 
-The exit node is the point in which your web traffic leaves the Tor network and is forwarded to your desired destination. The exit node is unable to see your IP address, but it does know what site it's connecting to.
+Węzeł wyjściowy to punkt, w którym ruch opuszcza sieć Tor i jest przekazywany do żądanego miejsca docelowego. Węzeł wyjściowy nie widzi Twojego adresu IP, ale wie, z jaką stroną się łączysz.
 
-The exit node will be chosen at random from all available Tor nodes ran with an exit relay flag.[^2]
+Węzeł wyjściowy jest wybierany losowo spośród wszystkich dostępnych węzłów Tor uruchomionych z flagą przekaźnika wyjściowego[^2].
 
-## Path Building to Onion Services
+## Budowanie ścieżki do usług .onion
 
-"Onion Services" (also commonly referred to as "hidden services") are websites which can only be accessed by the Tor browser. These websites have a long randomly generated domain name ending with `.onion`.
+„Usługi .onion” (nazywane również jako „ukryte usługi”) to strony dostępne wyłącznie z poziomu przeglądarki Tor Browser. Strony te mają długą, losowo wygenerowaną nazwę domeny kończącą się na `.onion`.
 
 Connecting to an Onion Service in Tor works very similarly to connecting to a clearnet service, but your traffic is routed through a total of **six** nodes before reaching the destination server. Just like before, however, only three of these nodes are contributing to *your* anonymity, the other three nodes protect *the Onion Service's* anonymity, hiding the website's true IP and location in the same manner that Tor Browser is hiding yours.
 
@@ -205,6 +205,6 @@ It is [possible](https://discuss.privacyguides.net/t/clarify-tors-weaknesses-wit
 - [How Tor Works - Computerphile](https://youtube.com/watch?v=QRYzre4bf7I) <small>(YouTube)</small>
 - [Tor Onion Services - Computerphile](https://youtube.com/watch?v=lVcbq_a5N9I) <small>(YouTube)</small>
 
-[^1]: The first relay in your circuit is called an "entry guard" or "guard". It is a fast and stable relay that remains the first one in your circuit for 2-3 months in order to protect against a known anonymity-breaking attack. The rest of your circuit changes with every new website you visit, and all together these relays provide the full privacy protections of Tor. For more information on how guard relays work, see this [blog post](https://blog.torproject.org/improving-tors-anonymity-changing-guard-parameters) and [paper](https://www-users.cs.umn.edu/~hoppernj/single_guard.pdf) on entry guards. ([https://support.torproject.org/tbb/tbb-2](https://support.torproject.org/tbb/tbb-2))
+[^1]: Pierwszy przekaźnik w obwodzie nazywany jest „strażnikiem”. To szybki i stabilny przekaźnik, który pozostaje pierwszym elementem obwodu przez 2–3 miesiące, by chronić przed znanym atakiem łamiącym anonimowość. Reszta obwodu zmienia się przy każdej nowo odwiedzanej stronie, a wszystkie te przekaźniki razem zapewniają pełną ochronę prywatności Tora. Więcej informacji o działaniu przekaźników wejściowych można znaleźć w tym [wpisie na blogu](https://blog.torproject.org/improving-tors-anonymity-changing-guard-parameters) oraz w tym [artykule](https://www-users.cs.umn.edu/~hoppernj/single_guard.pdf). ([https://support.torproject.org/tbb/tbb-2](https://support.torproject.org/tbb/tbb-2))
 
-[^2]: Relay flag: a special (dis-)qualification of relays for circuit positions (for example, "Guard", "Exit", "BadExit"), circuit properties (for example, "Fast", "Stable"), or roles (for example, "Authority", "HSDir"), as assigned by the directory authorities and further defined in the directory protocol specification. ([https://metrics.torproject.org/glossary.html](https://metrics.torproject.org/glossary.html#relay-flag))
+[^2]: Flaga przekaźnika: specjalne przypisanie (lub odrzucenie przypisania) przekaźników do pozycji w obwodzie (np. „Guard”, „Exit”, „BadExit”), właściwości obwodu (np. „Fast”, „Stable”) lub ról (np. „Authority”, „HSDir”), nadawane przez władze katalogowe i określone w specyfikacji protokołu katalogu. ([https://metrics.torproject.org/glossary.html](https://metrics.torproject.org/glossary.html#relay-flag))
