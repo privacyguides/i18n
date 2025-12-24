@@ -71,7 +71,7 @@ Your qubes should be configured in a manner similar to this:
 | sys-whonix      | Maszyna wirtualna Whonix Gateway                                                                                 | ==sys-proxyvm== |
 | anon-whonix     | Maszyna wirtualna Whonix Workstation                                                                             | sys-whonix      |
 
-## Android
+## Dodatkowe zasoby
 
 Aby uzyskać dodatkowe informacje, zachęcamy Cię do zapoznania się z obszerną dokumentacją Qubes OS znajdującą się na stronie [Qubes OS](https://qubes-os.org/doc). Kopie offline można pobrać z Qubes OS [repozytorium](https://github.com/QubesOS/qubes-doc).
 
