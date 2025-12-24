@@ -1,7 +1,7 @@
 ---
-title: Browser Extensions
+title: Rozszerzenia przeglądarki
 icon: material/puzzle-outline
-description: These browser extensions can enhance your browsing experience and protect your privacy.
+description: Te rozszerzenia przeglądarki mogą poprawić komfort przeglądania i chronić Twoją prywatność.
 cover: browser-extensions.webp
 ---
 
@@ -21,14 +21,14 @@ Don't install extensions which you don't immediately have a need for, or ones th
 
 <div class="admonition recommendation" markdown>
 
-![uBlock Origin logo](assets/img/browsers/ublock_origin.svg){ align=right }
+![Logo uBlock Origin](assets/img/browsers/ublock_origin.svg){ align=right }
 
 **uBlock Origin** is a popular content blocker that could help you block ads, trackers, and fingerprinting scripts.
 
-[:octicons-repo-16: Repository](https://github.com/gorhill/uBlock#readme){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://github.com/gorhill/uBlock/wiki/Privacy-policy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://github.com/gorhill/uBlock/wiki){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/gorhill/uBlock){ .card-link title="Source Code" }
+[:octicons-repo-16: Repozytorium](https://github.com/gorhill/uBlock#readme){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://github.com/gorhill/uBlock/wiki/Privacy-policy){ .card-link title="Polityka prywatności" }
+[:octicons-info-16:](https://github.com/gorhill/uBlock/wiki){ .card-link title=Dokumentacja}
+[:octicons-code-16:](https://github.com/gorhill/uBlock){ .card-link title="Kod źródłowy" }
 
 <details class="downloads" markdown>
 <summary>Pobierz</summary>
@@ -45,8 +45,8 @@ We suggest following the [developer's documentation](https://github.com/gorhill/
 
 These are some other [filter lists](https://github.com/gorhill/uBlock/wiki/Dashboard:-Filter-lists) that you may want to consider adding:
 
-- [x] Check **Privacy** > **AdGuard URL Tracking Protection**
-- Add [Actually Legitimate URL Shortener Tool](https://raw.githubusercontent.com/DandelionSprout/adfilt/master/LegitimateURLShortener.txt)
+- [x] Sprawdź **Prywatność** > **AdGuard URL Tracking Protection**
+- Dodaj [Actually Legitimate URL Shortener Tool](https://raw.githubusercontent.com/DandelionSprout/adfilt/master/LegitimateURLShortener.txt)
 
 ### uBlock Origin Lite
 
