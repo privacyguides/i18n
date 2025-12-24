@@ -137,57 +137,57 @@ Węzeł wyjściowy jest wybierany losowo spośród wszystkich dostępnych węzł
 
 „Usługi .onion” (nazywane również jako „ukryte usługi”) to strony dostępne wyłącznie z poziomu przeglądarki Tor Browser. Strony te mają długą, losowo wygenerowaną nazwę domeny kończącą się na `.onion`.
 
-Connecting to an Onion Service in Tor works very similarly to connecting to a clearnet service, but your traffic is routed through a total of **six** nodes before reaching the destination server. Just like before, however, only three of these nodes are contributing to *your* anonymity, the other three nodes protect *the Onion Service's* anonymity, hiding the website's true IP and location in the same manner that Tor Browser is hiding yours.
+Łączenie się z usługą .onion w sieci Tor działa bardzo podobnie jak łączenie z usługą w clearnecie, ale ruch kierowany jest przez łącznie **sześć** węzłów, zanim dotrze do serwera docelowego. Podobnie jak wcześniej, tylko trzy z tych węzłów odpowiadają za *Twoją* anonimowość, a pozostałe trzy chronią anonimowość *usługi .onion*, ukrywając prawdziwy adres IP i lokalizację strony internetowej w ten sam sposób, w jaki przeglądarka Tor Browser ukrywa Twój adres i lokalizację.
 
 <figure style="width:100%" markdown>
-  ![Tor path showing your traffic being routed through your three Tor nodes plus three additional Tor nodes which hide the website's identity](../assets/img/how-tor-works/tor-path-hidden-service.svg#only-light)
-  ![Tor path showing your traffic being routed through your three Tor nodes plus three additional Tor nodes which hide the website's identity](../assets/img/how-tor-works/tor-path-hidden-service-dark.svg#only-dark)
-  <figcaption>Tor circuit pathway with Onion Services. Nodes in the <span class="pg-blue">blue</span> fence belong to your browser, while nodes in the <span class="pg-red">red</span> fence belong to the server, so their identity is hidden from you.</figcaption>
+  ![Ścieżka Tora pokazująca, jak ruch jest kierowany przez trzy węzły po Twojej stronie oraz trzy dodatkowe węzły ukrywające tożsamość strony internetowej](../assets/img/how-tor-works/tor-path-hidden-service.svg#only-light)
+  ![Ścieżka Tora pokazująca, jak ruch jest kierowany przez trzy węzły po Twojej stronie oraz trzy dodatkowe węzły ukrywające tożsamość strony internetowej](../assets/img/how-tor-works/tor-path-hidden-service-dark.svg#only-dark)
+  <figcaption>Ścieżka obwodu Tor z usługami .onion. Węzły po stronie <span class="pg-blue">niebieskiej</span> należą do Twojej przeglądarki, natomiast węzły po stronie <span class="pg-red">czerwonej</span> należą do serwera, więc ich tożsamość jest przed Tobą ukryta.</figcaption>
 </figure>
 
-## Encryption
+## Szyfrowanie
 
-Tor encrypts each packet (a block of transmitted data) three times with the keys from the exit, middle, and entry node in that order.
+Tor szyfruje każdy pakiet (blok przesyłanych danych) trzykrotnie za pomocą kluczy węzła wyjściowego, środkowego i wejściowego, w tej właśnie kolejności.
 
-Once Tor has built a circuit, data transmission is done as follows:
+Gdy Tor zbuduje obwód, transmisja danych odbywa się w następujący sposób:
 
-1. Firstly: When the packet arrives at the entry node, the first layer of encryption is removed. In this encrypted packet, the entry node will find another encrypted packet with the middle node’s address. The entry node will then forward the packet to the middle node.
+1. Po pierwsze: gdy pakiet dociera do węzła wejściowego, usuwana jest pierwsza warstwa szyfrowania. W odszyfrowanym w ten sposób pakiecie znajduje się kolejny zaszyfrowany pakiet z adresem węzła środkowego. Węzeł wejściowy przekazuje potem pakiet do węzła środkowego.
 
-2. Secondly: When the middle node receives the packet from the entry node, it too will remove a layer of encryption with its key, and this time finds an encrypted packet with the exit node's address. The middle node will then forward the packet to the exit node.
+2. Po drugie: gdy węzeł środkowy otrzyma pakiet od węzła wejściowego, także usuwa jedną warstwę szyfrowania za pomocą swojego klucza i znajduje zaszyfrowany pakiet z adresem węzła wyjściowego. Węzeł środkowy przekazuje następnie pakiet do węzła wyjściowego.
 
-3. Lastly: When the exit node receives its packet, it will remove the last layer of encryption with its key. The exit node will see the destination address and forward the packet to that address.
+3. Na koniec: gdy węzeł wyjściowy otrzyma swój pakiet, usuwa ostatnią warstwę szyfrowania za pomocą swojego klucza. Węzeł wyjściowy widzi adres docelowy i przesyła pakiet dalej do tego adresu.
 
-Below is an alternative diagram showing the process. Each node removes its own layer of encryption, and when the destination server returns data, the same process happens entirely in reverse. For example, the exit node does not know who you are, but it does know which node it came from, and so it adds its own layer of encryption and sends it back.
+Poniżej znajduje się alternatywny diagram przedstawiający ten proces. Każdy węzeł usuwa swoją warstwę szyfrowania, a kiedy serwer docelowy zwraca dane, ten sam proces zachodzi w odwrotnym porządku. Na przykład węzeł wyjściowy nie zna Twojej tożsamości, ale wie, z którego węzła pochodzi pakiet — dodaje więc własną warstwę szyfrowania i odsyła dane z powrotem.
 
 <figure markdown>
-  ![Tor encryption](../assets/img/how-tor-works/tor-encryption.svg#only-light)
-  ![Tor encryption](../assets/img/how-tor-works/tor-encryption-dark.svg#only-dark)
-  <figcaption>Sending and receiving data through the Tor Network</figcaption>
+  ![Szyfrowanie w Torze](../assets/img/how-tor-works/tor-encryption.svg#only-light)
+  ![Szyfrowanie w Torze](../assets/img/how-tor-works/tor-encryption-dark.svg#only-dark)
+  <figcaption>Wysyłanie i odbieranie danych przez sieć Tor</figcaption>
 </figure>
 
-Tor allows us to connect to a server without any single party knowing the entire path. The entry node knows who you are, but not where you are going; the middle node doesn’t know who you are or where you are going; and the exit node knows where you are going, but not who you are. Because the exit node is what makes the final connection, the destination server will never know your IP address.
+Tor umożliwia połączenie się z serwerem bez tego, by którakolwiek pojedyncza strona znała całą ścieżkę. Węzeł wejściowy zna Twój adres IP, ale nie wie, dokąd zmierzasz; węzeł środkowy nie zna ani Twojego adresu IP, ani docelowej domeny; węzeł wyjściowy wie, dokąd kierowany jest ruch, lecz nie wie, kim jesteś. Ponieważ to węzeł wyjściowy nawiązuje ostateczne połączenie z serwerem, serwer docelowy nigdy nie pozna Twojego adresu IP.
 
-## Caveats
+## Zastrzeżenia
 
-Though Tor does provide strong privacy guarantees, one must be aware that Tor is not perfect:
+Mimo że Tor zapewnia silne gwarancje prywatności, należy pamiętać, że nie jest ona narzędziem doskonałym:
 
-- Tor never protects you from exposing yourself by mistake, such as if you share too much information about your real identity.
-- Tor exit nodes can **modify** unencrypted traffic which passes through them. This means traffic which is not encrypted, such as plain HTTP traffic, can be changed by a malicious exit node. **Never** download files from an unencrypted `http://` website over Tor, and ensure your browser is set to always upgrade HTTP traffic to HTTPS.
-- Tor exit nodes can also monitor traffic that passes through them. Unencrypted traffic which contains personally identifiable information can deanonymize you to that exit node. Again, we recommend only using HTTPS over Tor.
-- Powerful adversaries with the capability to passively watch *all* network traffic around the globe ("Global Passive Adversaries") are **not** something that Tor protects you against (and using Tor [with a VPN](#safely-connecting-to-tor) doesn't change this fact).
-- Well-funded adversaries with the capability to passively watch *most* network traffic around the globe still have a *chance* of deanonymizing Tor users by means of advanced traffic analysis.
+- Tor nigdy nie ochroni przed ujawnieniem się na skutek błędu użytkownika, np. gdy udostępnione zostanie zbyt wiele informacji na temat prawdziwej tożsamości.
+- Węzły wyjściowe Tor mogą **modyfikować** niezaszyfrowany ruch przechodzący przez nie. Oznacza to, że ruch niezabezpieczony, np. zwykły HTTP, może zostać zmieniony przez złośliwy węzeł wyjściowy. **Nigdy** nie pobieraj plików z niezabezpieczonego adresu `http://` przez Tor i upewnij się, że przeglądarka jest ustawiona tak, by zawsze podwyższać połączenia HTTP do HTTPS.
+- Węzły wyjściowe mogą również monitorować ruch przechodzący przez nie. Niezaszyfrowany ruch zawierający dane umożliwiające identyfikację osoby może zdeanonimizować użytkownika względem tego węzła wyjściowego. Raz jeszcze — zalecamy korzystanie wyłącznie z HTTPS podczas korzystania z sieci Tor.
+- Potężni przeciwnicy zdolni do pasywnego monitorowania *całego* ruchu sieciowego na świecie (tzw. *Global Passive Adversaries*) **nie** są tym, przed czym Tor chroni (i użycie Tora [w połączeniu z VPN](#safely-connecting-to-tor) tego nie zmienia).
+- Dobrze finansowani przeciwnicy, którzy potrafią pasywnie obserwować *większość* światowego ruchu sieciowego, wciąż mają *szansę* na zdeanonimizowanie użytkowników Tora przy użyciu zaawansowanej analizy ruchu.
 
-If you wish to use Tor for browsing the web, we only recommend the **official** Tor Browser—it is designed to prevent fingerprinting.
+Jeżeli zamierzasz używać sieci Tor do przeglądania sieci, zalecamy wyłącznie **oficjalną** przeglądarkę Tor Browser — została zaprojektowana tak, by utrudniać identyfikację przez unikalny odcisk przeglądarki (*fingerprinting*).
 
 - [Tor Browser :material-arrow-right-drop-circle:](../tor.md#tor-browser)
 
-### Protections provided by bridges
+### Ochrona zapewniana przez mostki
 
-Tor bridges are commonly touted as an alternative method to hiding Tor usage from an ISP, instead of a VPN (as we suggest using if possible). Something to consider is that while bridges may provide adequate censorship circumvention, this is only a *transient* benefit. They do not adequately protect you from your ISP discovering you connected to Tor in the *past* with historical traffic log analysis.
+Mostki Tor są często promowane jako alternatywa do ukrywania korzystania z Tora przed ISP zamiast sieci VPN (co sugerujemy, o ile to możliwe). Warto jednak pamiętać, że choć mostki mogą być skuteczne przy obchodzeniu cenzury, korzyść ta jest często *przejściowa*. Nie chronią one wystarczająco przed tym, że ISP może wykryć, że w *przeszłości* połączono się z siecią Tor, analizując historyczne dzienniki ruchu.
 
-To illustrate this point, consider the following scenario: You connect to Tor via a bridge, and your ISP doesn’t detect it because they are not doing sophisticated analysis of your traffic, so things are working as intended. Now, 4 months go by, and the IP of your bridge has been made public. This is a very common occurrence with bridges; they are discovered and blocked relatively frequently, just not immediately.
+Aby to zilustrować, rozważmy następujący przykład: łączysz się z siecią Tor przez mostek, a twój ISP tego nie wykrywa, bo nie prowadzi zaawansowanej analizy ruchu, więc wszystko działa zgodnie z zamierzeniami. Po czterech miesiącach adres IP Twojego mostka zostaje ujawniony. Jest to bardzo częsta sytuacja — mostki są odkrywane i blokowane stosunkowo często, ale nie od razu.
 
-Your ISP wants to identify Tor users 4 months ago, and with their limited metadata logging they can see that you connected to an IP address which was later revealed to be a Tor bridge. You have virtually no other excuse to be making such a connection, so the ISP can say with very high confidence that you were a Tor user at that time.
+Jeśli ISP chce zidentyfikować użytkowników Tora sprzed czterech miesięcy, ich ograniczone dzienniki metadanych mogą pokazać, że jesteś osobą, która łączyła się z adresem IP, który później okazał się mostkiem Tor. Praktycznie nie ma żadnego innego wytłumaczenia takiego połączenia, więc ISP może z wysokim prawdopodobieństwem stwierdzić, że w tamtym czasie korzystano z sieci Tor.
 
 Contrast this with our recommended scenario, where you connect to Tor via a VPN. Say that 4 months later your ISP again wants to identify anybody who used Tor 4 months ago. Their logs almost certainly can identify your traffic 4 months ago, but all they would likely be able to see is that you connected to a VPN’s IP address. This is because most ISPs only retain metadata over long periods of time, not the full contents of the traffic you request. Storing the entirety of your traffic data would require a massive quantity of storage which nearly all threat actors wouldn't possess.
 
