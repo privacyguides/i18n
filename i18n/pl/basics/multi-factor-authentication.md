@@ -80,7 +80,7 @@ Ta prezentacja omawia historię uwierzytelniania hasłem, jego pułapki (takie j
 
 - [How FIDO2 and WebAuthn Stop Account Takeovers](https://youtu.be/aMo4ZlWznao) <small>(po angielsku; YouTube)</small>
 
-FIDO2 i WebAuthn mają lepsze właściwości w zakresie bezpieczeństwa i prywatności w porównaniu do innych metod MFA.
+FIDO2 i WebAuthn mają lepsze właściwości w zakresie bezpieczeństwa i prywatności w porównaniu z innymi metodami MFA.
 
 Zazwyczaj w usługach internetowych używa się ich wraz z WebAuthn, który jest częścią [zaleceń W3C](https://en.wikipedia.org/wiki/World_Wide_Web_Consortium#W3C_recommendation_(REC)). Wykorzystuje uwierzytelnianie za pomocą klucza publicznego i jest bezpieczniejszy niż sekrety współdzielone stosowane w Yubico OTP i TOTP, ponieważ podczas uwierzytelniania uwzględniana jest nazwa pochodzenia (zazwyczaj nazwa domeny). Atestacja pomaga chronić przed phishingiem, ponieważ umożliwia ustalenie, że korzysta się z autentycznej usługi, a nie z jej fałszywej kopii.
 

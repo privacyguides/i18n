@@ -9,13 +9,13 @@ cover: browser-extensions.webp
 
 - [:material-account-cash: Kapitalizm inwigilacji](basics/common-threats.md#surveillance-as-a-business-model){ .pg-brown }
 
-In general, we recommend keeping your browser extensions to a minimum to decrease your attack surface. They have privileged access within your browser, require you to trust the developer, can make you [stand out](https://en.wikipedia.org/wiki/Device_fingerprint#Browser_fingerprint), and [weaken](https://groups.google.com/a/chromium.org/g/chromium-extensions/c/0ei-UCHNm34/m/lDaXwQhzBAAJ) site isolation.
+Zasadniczo zalecamy ograniczyć liczbę rozszerzeń przeglądarki do minimum, by zmniejszyć powierzchnię ataku. Mają one uprzywilejowany dostęp w przeglądarce, wymagają zaufania do twórcy, mogą sprawić, że się [wyróżnisz](https://en.wikipedia.org/wiki/Device_fingerprint#Browser_fingerprint) oraz mogą [osłabiać](https://groups.google.com/a/chromium.org/g/chromium-extensions/c/0ei-UCHNm34/m/lDaXwQhzBAAJ) izolację stron.
 
-However, some provide functionality which can outweigh these downsides in certain situations, particularly when it comes to [content blocking](basics/common-threats.md#mass-surveillance-programs).
+Niektóre jednak oferują funkcje, które w pewnych sytuacjach mogą przeważyć nad tymi wadami, szczególnie w kwestii [blokowania treści](basics/common-threats.md#mass-surveillance-programs).
 
-Don't install extensions which you don't immediately have a need for, or ones that duplicate the functionality of your browser. For example, [Brave](desktop-browsers.md#brave) users don't need to install uBlock Origin, because Brave Shields already provides the same functionality.
+Nie instaluj rozszerzeń, których od razu nie potrzebujesz, ani takich, które dublują funkcje przeglądarki. Dla przykładu użytkownicy przeglądarki [Brave](desktop-browsers.md#brave) nie muszą instalować rozszerzenia uBlock Origin, ponieważ Brave Shields już zapewnia tę samą funkcjonalność.
 
-## Content Blockers
+## Blokery treści
 
 ### uBlock Origin
 
@@ -23,7 +23,7 @@ Don't install extensions which you don't immediately have a need for, or ones th
 
 ![Logo uBlock Origin](assets/img/browsers/ublock_origin.svg){ align=right }
 
-**uBlock Origin** is a popular content blocker that could help you block ads, trackers, and fingerprinting scripts.
+**uBlock Origin** to popularny bloker treści, który może pomóc w blokowaniu reklam, trackerów i skryptów służących do identyfikacji użytkowników.
 
 [:octicons-repo-16: Repozytorium](https://github.com/gorhill/uBlock#readme){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://github.com/gorhill/uBlock/wiki/Privacy-policy){ .card-link title="Polityka prywatności" }
@@ -41,31 +41,31 @@ Don't install extensions which you don't immediately have a need for, or ones th
 
 </div>
 
-We suggest following the [developer's documentation](https://github.com/gorhill/uBlock/wiki/Blocking-mode) and picking one of the "modes". Additional filter lists can impact performance and [may increase attack surface](https://portswigger.net/research/ublock-i-exfiltrate-exploiting-ad-blockers-with-css).
+Zalecamy zapoznanie się z [dokumentacją twórcy](https://github.com/gorhill/uBlock/wiki/Blocking-mode) i wybranie jednego z „trybów”. Dodatkowe listy filtrów mogą obniżyć wydajność i [zwiększyć powierzchnię ataku](https://portswigger.net/research/ublock-i-exfiltrate-exploiting-ad-blockers-with-css).
 
-These are some other [filter lists](https://github.com/gorhill/uBlock/wiki/Dashboard:-Filter-lists) that you may want to consider adding:
+Oto kilka przykładowych [list filtrów](https://github.com/gorhill/uBlock/wiki/Dashboard:-Filter-lists), których dodanie warto rozważyć:
 
 - [x] Sprawdź **Prywatność** > **AdGuard URL Tracking Protection**
 - Dodaj [Actually Legitimate URL Shortener Tool](https://raw.githubusercontent.com/DandelionSprout/adfilt/master/LegitimateURLShortener.txt)
 
 ### uBlock Origin Lite
 
-uBlock Origin also has a "Lite" version of their extension, which offers a very limited feature-set compared to the original extension. However, it has a few distinct advantages over its full-fledged sibling, so you may want to consider it if...
+uBlock Origin ma też wersję „Lite”, która oferuje bardzo ograniczony zestaw funkcji w porównaniu z oryginałem. Ma jednak kilka istotnych zalet względem swojej pełnoprawnej wersji, więc warto ją rozważyć, jeśli:
 
-- ...you don't want to grant full "read/modify website data" permissions to any extensions (even a trusted one like uBlock Origin)
-- ...you want a more resource (memory/CPU) efficient content blocker[^1]
-- ...your browser only supports Manifest V3 extensions
+- nie chcesz przyznawać żadnym rozszerzeniom pełnych uprawnień „odczytu i modyfikacji danych witryn” (nawet zaufanemu jak uBlock Origin),
+- zależy Ci na bardziej oszczędnym pod względem zasobów (pamięci/procesora) blokerze treści[^1],
+- Twoja przeglądarka obsługuje jedynie rozszerzenia zgodne z Manifest V3.
 
 <div class="admonition recommendation" markdown>
 
-![uBlock Origin Lite logo](assets/img/browsers/ublock_origin_lite.svg){ align=right }
+![Logo uBlock Origin Lite](assets/img/browsers/ublock_origin_lite.svg){ align=right }
 
-**uBlock Origin Lite** is a Manifest V3 compatible content blocker. Compared to the original _uBlock Origin_, this extension does not require broad "read/modify data" permissions to function, which lowers the risk of [:material-bug-outline: Passive Attacks](basics/common-threats.md#security-and-privacy){ .pg-orange } on your browser if a malicious rule is added to a filter list.
+**uBlock Origin Lite** to bloker treści zgodny z Manifest V3. W porównaniu z oryginalnym _uBlock Origin_ rozszerzenie to nie wymaga szerokich uprawnień „odczytu i modyfikacji danych witryn”, by działać, co zmniejsza ryzyko [:material-bug-outline: Ataków pasywnych](basics/common-threats.md#security-and-privacy){ .pg-orange } na przeglądarkę, jeśli do listy filtrów zostanie dodana złośliwa reguła.
 
-[:octicons-repo-16: Repository](https://github.com/uBlockOrigin/uBOL-home#readme){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://github.com/uBlockOrigin/uBOL-home/wiki/Privacy-policy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://github.com/uBlockOrigin/uBOL-home/wiki){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/gorhill/uBlock/tree/master/platform/mv3){ .card-link title="Source Code" }
+[:octicons-repo-16: Repozytorium](https://github.com/uBlockOrigin/uBOL-home#readme){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://github.com/uBlockOrigin/uBOL-home/wiki/Privacy-policy){ .card-link title="Polityka prywatności" }
+[:octicons-info-16:](https://github.com/uBlockOrigin/uBOL-home/wiki){ .card-link title=Dokumentacja}
+[:octicons-code-16:](https://github.com/gorhill/uBlock/tree/master/platform/mv3){ .card-link title="Kod źródłowy" }
 
 <details class="downloads" markdown>
 <summary>Pobierz</summary>
@@ -78,27 +78,27 @@ uBlock Origin also has a "Lite" version of their extension, which offers a very 
 
 </div>
 
-We only recommend this version of uBlock Origin if you never want to make any changes to your filter lists, because it only supports a few pre-selected lists and offers no additional customization options, including the ability to select elements to block manually. These restrictions are due to limitations in Manifest V3's design.
+Zalecamy korzystanie z tej wersji uBlock Origin tylko wtedy, gdy nie planuje się wprowadzać żadnych zmian w listach filtrów, ponieważ obsługuje ona wyłącznie kilka wcześniej wybranych list i nie oferuje dodatkowych opcji personalizacji, w tym możliwości ręcznego wybierania elementów do zablokowania. Ograniczenia te wynikają z ograniczeń projektowych Manifest V3.
 
-This version offers three levels of blocking: "Basic" works without requiring any special privileges to view and modify site content, while the "Optimal" and "Complete" levels do require that broad permission, but offer a better filtering experience with additional cosmetic rules and scriptlet injections.
+Wersja ta oferuje trzy poziomy blokowania: „podstawowy” działa bez konieczności przyznawania specjalnych uprawnień do przeglądania i modyfikacji zawartości stron, natomiast poziomy „optymalny” i „kompletny” wymagają takich szerokich uprawnień, lecz zapewniają lepsze filtrowanie dzięki dodatkowym regułom kosmetycznym i wstrzykiwaniu skryptów.
 
-If you set the default filtering mode to "Optimal" or "Complete" the extension will request read/modify access to **all** websites you visit. However, you also have the option to change the setting to "Optimal" or "Complete" on a **per-site** basis by adjusting the slider in the extension's pop-up panel on any given site. When you do so, the extension will request read/modify access to that site only. Therefore, if you want to take advantage of uBlock Origin Lite's "permission-less" configuration, you should probably leave the default setting as "Basic" and only adjust it higher on sites where that level is not adequate.
+Jeśli ustawisz domyślny tryb filtrowania na „optymalny” lub „kompletny”, rozszerzenie poprosi o dostęp do odczytu i modyfikacji **wszystkich** odwiedzanych witryn. Masz jednak opcję zmiany ustawienia na „optymalny” lub „kompletny” dla **pojedynczych witryn**, przesuwając suwak w wyskakującym panelu rozszerzenia na danej stronie. W takim przypadku rozszerzenie poprosi o uprawnienia odczytu i modyfikacji tylko do tej witryny. Jeśli chcesz korzystać z „konfiguracji bez uprawnień”, zostaw domyślny tryb „podstawowy” i podnoś go jedynie na stronach, gdzie jest to konieczne.
 
-uBlock Origin Lite only receives block list updates whenever the extension is updated from your browser's extension marketplace, as opposed to on demand. Google has an [expedited review process](https://developer.chrome.com/docs/webstore/skip-review) for filter updates, which means you still typically receive filter list updates as frequently as uBlock Origin Lite chooses to publish a release (historically every 2-7 days). However, only so-called "[safe rules](https://developer.chrome.com/docs/extensions/reference/api/declarativeNetRequest#safe_rules)" can be updated, which may limit the update frequency of lists using advanced techniques.
+uBlock Origin Lite aktualizuje listy blokowania tylko przy aktualizacji rozszerzenia w sklepie z rozszerzeniami przeglądarki, a nie na żądanie. Google ma [przyspieszony proces przeglądu](https://developer.chrome.com/docs/webstore/skip-review) dla aktualizacji filtrów, co zwykle oznacza, że otrzymujesz aktualizacje list tak często, jak twórcy publikują wydania (historycznie co 2–7 dni). Jednak aktualizowane mogą być wyłącznie tzw. [bezpieczne reguły](https://developer.chrome.com/docs/extensions/reference/api/declarativeNetRequest#safe_rules), co może ograniczać częstotliwość aktualizacji list wykorzystujących zaawansowane techniki.
 
 ### AdGuard
 
-We recommend [Safari](mobile-browsers.md#safari-ios) for iOS users, which unfortunately is not supported by uBlock Origin. Luckily, AdGuard provides an adequate alternative:
+Zalecamy przeglądarkę [Safari](mobile-browsers.md#safari-ios) dla użytkowników iOS, która niestety nie obsługuje uBlock Origin. Na szczęście AdGuard stanowi odpowiednią alternatywę:
 
 <div class="admonition recommendation" markdown>
 
-![AdGuard logo](assets/img/browsers/adguard.svg){ align=right }
+![Logo AdGuard](assets/img/browsers/adguard.svg){ align=right }
 
-**AdGuard for iOS** is a free and open-source content-blocking extension for Safari that uses the native [Content Blocker API](https://developer.apple.com/documentation/safariservices/creating_a_content_blocker).
+**AdGuard na iOS** to bezpłatne rozszerzenie typu open source do blokowania treści w przeglądarce Safari, korzystające z natywnego [Content Blocker API](https://developer.apple.com/documentation/safariservices/creating_a_content_blocker).
 
-[:octicons-home-16: Homepage](https://adguard.com/en/adguard-ios/overview.html){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://adguard.com/privacy/ios.html){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://kb.adguard.com/ios){ .card-link title=Documentation}
+[:octicons-home-16: Strona główna](https://adguard.com/pl/adguard-ios/overview.html){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://adguard.com/privacy/ios.html){ .card-link title="Polityka prywatności" }
+[:octicons-info-16:](https://kb.adguard.com/ios){ .card-link title=Dokumentacja}
 [:octicons-code-16:](https://github.com/AdguardTeam/AdguardForiOS){ .card-link title="Source Code" }
 
 <details class="downloads" markdown>
@@ -110,11 +110,11 @@ We recommend [Safari](mobile-browsers.md#safari-ios) for iOS users, which unfort
 
 </div>
 
-Additional filter lists do slow things down and may increase your attack surface, so only apply what you need. AdGuard for iOS has some premium features; however, standard Safari content blocking is free of charge.
+Dodatkowe listy filtrów mogą spowalniać działanie i zwiększać powierzchnię ataku, dlatego stosuj tylko to, czego potrzebujesz. AdGuard na iOS oferuje funkcje premium; podstawowe blokowanie treści w Safari jest jednak bezpłatne.
 
 ## Kryteria
 
-- Must not replicate built-in browser or OS functionality.
-- Must directly impact user privacy, i.e. must not simply provide information.
+- Nie może dublować wbudowanej funkcjonalności przeglądarki ani systemu operacyjnego.
+- Musi bezpośrednio wpływać na prywatność użytkownika — innymi słowy, nie może jedynie dostarczać informacji.
 
-[^1]: uBlock Origin Lite _itself_ will consume no resources, because it uses newer APIs which make the browser process the filter lists natively, instead of running JavaScript code within the extension to handle the filtering. However, this resource advantage is only [theoretical](https://github.com/uBlockOrigin/uBOL-home/wiki/Frequently-asked-questions-\(FAQ\)#is-ubol-more-efficient-cpu--and-memory-wise-than-ubo), because it's possible that standard uBlock Origin's filtering code is more efficient than your browser's native filtering code. This has not yet been benchmarked.
+[^1]: uBlock Origin Lite _sam w sobie_ nie zużywa zasobów bezpośrednio, ponieważ wykorzystuje nowsze interfejsy API, które sprawiają, że to przeglądarka natywnie przetwarza listy filtrów, zamiast uruchamiać kod JavaScript w rozszerzeniu do obsługi filtrowania. Ta przewaga zasobowa jest jednak jedynie [teoretyczna](https://github.com/uBlockOrigin/uBOL-home/wiki/Frequently-asked-questions-\(FAQ\)#is-ubol-more-efficient-cpu--and-memory-wise-than-ubo), ponieważ możliwe, że kod filtrowania standardowego uBlock Origin jest bardziej wydajny niż natywne filtrowanie przeglądarki. Nie zostało to jak dotąd zbadane.

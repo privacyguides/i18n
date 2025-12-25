@@ -76,7 +76,7 @@ Sieć Tor nie jest doskonałym narzędziem do ochrony prywatności we wszystkich
 
 ### Tor nie jest darmową siecią VPN
 
-Pojawienie się aplikacji mobilnej *Orbot* spowodowało, że wiele osób zaczęło określać Tor mianem „darmowego VPN-a” dla całego ruchu urządzenia. Jednak traktowanie Tora w ten sposób niesie ze sobą pewne niebezpieczeństwa w porównaniu do typowej sieci VPN.
+Pojawienie się aplikacji mobilnej *Orbot* spowodowało, że wiele osób zaczęło określać Tor mianem „darmowego VPN-a” dla całego ruchu urządzenia. Jednak traktowanie Tora w ten sposób niesie ze sobą pewne niebezpieczeństwa w porównaniu z typową siecią VPN.
 
 W przeciwieństwie do węzłów wyjściowych Tora, dostawcy VPN zwykle nie są *aktywnie* [złośliwi](#caveats). Ponieważ węzły wyjściowe Tora może uruchomić praktycznie każdy, stanowią one miejsca, gdzie często prowadzona jest rejestracja i modyfikacja ruchu. W 2020 roku udokumentowano wiele węzłów wyjściowych, które obniżały jakość ruchu HTTPS do HTTP, aby [przejmować transakcje kryptowalutowe](https://therecord.media/thousands-of-tor-exit-nodes-attacked-cryptocurrency-users-over-the-past-year). Zaobserwowano także inne ataki ze strony węzłów wyjściowych, np. zastępowanie pobieranych przez niezaszyfrowane kanały plików złośliwym oprogramowaniem. HTTPS w pewnym stopniu łagodzi te zagrożenia.
 
