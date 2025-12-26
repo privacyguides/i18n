@@ -215,7 +215,7 @@ Ci dostawcy przechowują Twoje wiadomości e-mail z wykorzystaniem szyfrowania z
 
 **Tuta** (wcześniej *Tutanota*) to usługa e-mail koncentrująca się na bezpieczeństwie i prywatności poprzez wykorzystanie szyfrowania. Działa od 2011 roku i ma siedzibę w Hanowerze, w Niemczech.
 
-Darmowe konta oferują 1 GB przestrzeni.
+Darmowe konta zaczynają się od 1 GB przestrzeni.
 
 [:octicons-home-16: Strona główna](https://tuta.com/pl){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://tuta.com/privacy-policy){ .card-link title="Polityka prywatności" }

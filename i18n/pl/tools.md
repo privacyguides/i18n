@@ -89,48 +89,48 @@ Aby uzyskać więcej informacji na temat każdego projektu, dlaczego został wyb
 
     **Brave** to przeglądarka domyślnie nastawiona na prywatność, oparta na Chromium, dzięki czemu jej interfejs i działanie powinny być dobrze znane większości osób, a problemy ze zgodnością stron internetowych są minimalne.
 
-    - [Brave Desktop Review :material-arrow-right-drop-circle:](desktop-browsers.md#brave)
-    - [Brave Mobile Review :material-arrow-right-drop-circle:](mobile-browsers.md#brave)
+    - [Recenzja Brave dla komputerów stacjonarnych :material-arrow-right-drop-circle:](desktop-browsers.md#brave)
+    - [Recenzja Brave dla urządzeń mobilnych :material-arrow-right-drop-circle:](mobile-browsers.md#brave)
 
-- ![Cromite logo](assets/img/browsers/cromite.svg){ .lg .middle .twemoji } **Cromite (Android)**
-
-    ---
-
-    **Cromite** is a Chromium-based Android browser with built-in ad-blocking and [privacy enhancements](https://github.com/uazo/cromite/blob/master/docs/FEATURES.md). It is a fork of the popular, now-discontinued Bromite browser.
-
-    - [Read Full Review :material-arrow-right-drop-circle:](mobile-browsers.md#cromite-android)
-
-- ![Safari logo](assets/img/browsers/safari.svg){ .lg .middle .twemoji } **Safari (iOS)**
+- ![Logo Cromite](assets/img/browsers/cromite.svg){ .lg .middle .twemoji } **Cromite (Android)**
 
     ---
 
-    We recommend **Safari** due to its [anti-fingerprinting](https://webkit.org/blog/15697/private-browsing-2-0) features and default tracker blocking. It also separates your cookies in private browsing mode to prevent tracking between tabs.
+    **Cromite** to przeglądarka na Androida oparta na Chromium z wbudowanym blokowaniem reklam i [usprawnieniami prywatności](https://github.com/uazo/cromite/blob/master/docs/FEATURES.md). Jest to fork popularnej, obecnie porzuconej przeglądarki Bromite.
 
-    - [Read Full Review :material-arrow-right-drop-circle:](mobile-browsers.md#safari-ios)
+    - [Przeczytaj pełną recenzję :material-arrow-right-drop-circle:](mobile-browsers.md#cromite-android)
+
+- ![Logo Safari](assets/img/browsers/safari.svg){ .lg .middle .twemoji } **Safari (iOS)**
+
+    ---
+
+    Zalecamy przeglądarkę **Safari** ze względu na jej funkcje [ochrony przed identyfikacją](https://webkit.org/blog/15697/private-browsing-2-0) oraz domyślne blokowanie trackerów. Oddziela też pliki cookie w trybie przeglądania prywatnego, co zapobiega śledzeniu między kartami.
+
+    - [Przeczytaj pełną recenzję :material-arrow-right-drop-circle:](mobile-browsers.md#safari-ios)
 
 </div>
 
 <div class="grid" markdown>
 
 <div markdown>
-### Browser Extensions
+### Rozszerzenia przeglądarki
 
 <div class="grid cards" markdown>
 
-- ![uBlock Origin logo](assets/img/browsers/ublock_origin.svg){ .twemoji loading=lazy } [uBlock Origin](browser-extensions.md#ublock-origin)
-- ![uBlock Origin Lite logo](assets/img/browsers/ublock_origin_lite.svg){ .twemoji loading=lazy } [uBlock Origin Lite](browser-extensions.md#ublock-origin-lite)
-- ![AdGuard logo](assets/img/browsers/adguard.svg){ .twemoji loading=lazy } [AdGuard for iOS](browser-extensions.md#adguard)
+- ![Logo uBlock Origin](assets/img/browsers/ublock_origin.svg){ .twemoji loading=lazy } [uBlock Origin](browser-extensions.md#ublock-origin)
+- ![Logo uBlock Origin Lite](assets/img/browsers/ublock_origin_lite.svg){ .twemoji loading=lazy } [uBlock Origin Lite](browser-extensions.md#ublock-origin-lite)
+- ![Logo AdGuard](assets/img/browsers/adguard.svg){ .twemoji loading=lazy } [AdGuard na iOS](browser-extensions.md#adguard)
 
 </div>
 
 </div>
 
 <div markdown>
-### More Tor Network Tools
+### Inne narzędzia sieci Tor
 
 <div class="grid cards" markdown>
 
-- ![Onion Browser logo](assets/img/self-contained-networks/onion_browser.svg){ .twemoji loading=lazy } [Onion Browser (Tor for iOS)](tor.md#onion-browser-ios)
+- ![Logo Onion Browser](assets/img/self-contained-networks/onion_browser.svg){ .twemoji loading=lazy } [Onion Browser (Tor dla systemu iOS)](tor.md#onion-browser-ios)
 
 </div>
 
@@ -138,100 +138,100 @@ Aby uzyskać więcej informacji na temat każdego projektu, dlaczego został wyb
 
 </div>
 
-## Top 3 Private VPN Providers
+## Najlepsza trójka prywatnych dostawców VPN
 
 <details class="danger" markdown>
 <summary>VPN nie zapewnia anonimowości</summary>
 
-Using a VPN will **not** keep your browsing habits anonymous, nor will it add additional security to non-secure (HTTP) traffic.
+Korzystanie z VPN **nie** uczyni Twojej aktywności w sieci anonimową ani nie zwiększy bezpieczeństwa niezabezpieczonego ruchu (HTTP).
 
-If you are looking for **anonymity**, you should use the Tor Browser.
+Jeśli zależy Ci na **anonimowości**, skorzystaj z przeglądarki Tor Browser.
 
-If you're looking for added **security**, you should always ensure you're connecting to websites using HTTPS. VPN nie zastępuje dobrych praktyk w zakresie bezpieczeństwa.
+Jeśli zależy Ci na dodatkowym **bezpieczeństwie**, zawsze upewnij się, że łączysz się z witrynami za pomocą HTTPS. VPN nie zastępuje dobrych praktyk w zakresie bezpieczeństwa.
 
-[Dowiedz się więcej :hero-arrow-circle-right-fill:](vpn.md)
+[Dowiedz się więcej :material-arrow-right-drop-circle:](vpn.md)
 
 </details>
 
 <div class="grid cards" markdown>
 
-- ![Proton VPN logo](assets/img/vpn/protonvpn.svg){ .lg .middle .twemoji } **Proton VPN**
+- ![Logo Proton VPN](assets/img/vpn/protonvpn.svg){ .lg .middle .twemoji } **Proton VPN**
 
     ---
 
-    - [x] **112+ Countries**
-    - [x] WireGuard Support
-    - [x] Cash Payments
-    - [x] Partial Port Forwarding Support
-    - [ ] No IPv6
+    - [x] **Ponad 112 krajów**
+    - [x] Obsługa WireGuard
+    - [x] Płatności gotówką
+    - [x] Częściowa obsługa przekierowywania portów
+    - [ ] Brak obsługi IPv6
 
-    [Read Full Review :material-arrow-right-drop-circle:](vpn.md#proton-vpn)
+    [Przeczytaj pełną recenzję :material-arrow-right-drop-circle:](vpn.md#proton-vpn)
 
-- ![IVPN logo](assets/img/vpn/mini/ivpn.svg){ .lg .middle .twemoji } **IVPN**
-
-    ---
-
-    - [x] **37+ Countries**
-    - [x] WireGuard Support
-    - [x] Monero & Cash Payments
-    - [ ] No Port Forwarding
-    - [ ] No IPv6
-
-    [Read Full Review :material-arrow-right-drop-circle:](vpn.md#ivpn)
-
-- ![Mullvad logo](assets/img/vpn/mullvad.svg){ .lg .middle .twemoji } **Mullvad**
+- ![Logo IVPN](assets/img/vpn/mini/ivpn.svg){ .lg .middle .twemoji } **IVPN**
 
     ---
 
-    - [x] **49+ Countries**
-    - [x] WireGuard Support
-    - [x] Monero & Cash Payments
-    - [ ] No Port Forwarding
-    - [x] IPv6 Support
+    - [x] **Ponad 37 krajów**
+    - [x] Obsługa WireGuard
+    - [x] Płatności Monero i gotówką
+    - [ ] Brak obsługi przekierowywania portów
+    - [ ] Brak obsługi IPv6
 
-    [Read Full Review :material-arrow-right-drop-circle:](vpn.md#mullvad)
+    [Przeczytaj pełną recenzję :material-arrow-right-drop-circle:](vpn.md#ivpn)
+
+- ![Logo Mullvad](assets/img/vpn/mullvad.svg){ .lg .middle .twemoji } **Mullvad**
+
+    ---
+
+    - [x] **Ponad 49 krajów**
+    - [x] Obsługa WireGuard
+    - [x] Płatności Monero i gotówką
+    - [ ] Brak obsługi przekierowywania portów
+    - [x] Obsługa IPv6
+
+    [Przeczytaj pełną recenzję :material-arrow-right-drop-circle:](vpn.md#mullvad)
 
 </div>
 
-## Top 3 Private Email Providers
+## Najlepsza trójka prywatnych dostawców poczty e-mail
 
 <div class="grid cards" markdown>
 
-- ![Proton Mail logo](assets/img/email/protonmail.svg){ .lg .middle .twemoji } **Proton Mail**
+- ![Logo Proton Mail](assets/img/email/protonmail.svg){ .lg .middle .twemoji } **Proton Mail**
 
     ---
 
-    Proton Mail is an email service with a focus on privacy, encryption, security, and ease of use. They have been in operation since 2013. Proton AG ma siedzibę w Genewie, w Szwajcarii. The Proton Mail Free plan comes with 500 MB of Mail storage, which you can increase up to 1 GB for free.
+    Proton Mail to usługa e-mail skupiona na prywatności, szyfrowaniu, bezpieczeństwie i prostocie obsługi. Działa od 2013 roku. Proton AG ma siedzibę w Genewie, w Szwajcarii. Darmowy plan Proton Mail oferuje 500 MB miejsca na pocztę, które można bezpłatnie zwiększyć do 1 GB.
 
-    [Read Full Review :material-arrow-right-drop-circle:](email.md#proton-mail)
+    [Przeczytaj pełną recenzję :material-arrow-right-drop-circle:](email.md#proton-mail)
 
-- ![Mailbox Mail logo](assets/img/email/mailbox-mail.svg){ .lg .middle .twemoji } **Mailbox Mail**
-
-    ---
-
-    Mailbox Mail (formerly *Mailbox.org*) is an email service with a focus on being secure, ad-free, and powered by 100% eco-friendly energy. Działa od 2014 roku. Mailbox ma siedzibę w Berlinie, w Niemczech. Accounts start with up to 2 GB storage, which can be upgraded as needed.
-
-    [Read Full Review :material-arrow-right-drop-circle:](email.md#mailbox-mail)
-
-- ![Tuta logo](assets/img/email/tuta.svg#only-light){ .lg .middle .twemoji }![Tuta logo](assets/img/email/tuta-dark.svg#only-dark){ .lg .middle .twemoji } **Tuta**
+- ![Logo poczty Mailbox](assets/img/email/mailbox-mail.svg){ .lg .middle .twemoji } **Poczta Mailbox**
 
     ---
 
-    Tuta (formerly *Tutanota*) is an email service with a focus on security and privacy through the use of encryption. Działa od 2011 roku i ma siedzibę w Hanowerze, w Niemczech. Darmowe konta oferują 1 GB przestrzeni.
+    Poczta Mailbox (wcześniej *Mailbox.org*) to usługa e-mail skoncentrowana na bezpieczeństwie, braku reklam oraz korzystaniu w 100% z energii pochodzącej ze źródeł odnawialnych. Działa od 2014 roku. Mailbox ma siedzibę w Berlinie, w Niemczech. Konta oferują do 2 GB przestrzeni, którą można zwiększyć w razie potrzeby.
 
-    [Read Full Review :material-arrow-right-drop-circle:](email.md#tuta)
+    [Przeczytaj pełną recenzję :material-arrow-right-drop-circle:](email.md#mailbox-mail)
+
+- ![Logo Tuta](assets/img/email/tuta.svg#only-light){ .lg .middle .twemoji }![Logo Tuta](assets/img/email/tuta-dark.svg#only-dark){ .lg .middle .twemoji } **Tuta**
+
+    ---
+
+    Tuta (wcześniej *Tutanota*) to usługa e-mail koncentrująca się na bezpieczeństwie i prywatności poprzez wykorzystanie szyfrowania. Działa od 2011 roku i ma siedzibę w Hanowerze, w Niemczech. Darmowe konta zaczynają się od 1 GB przestrzeni.
+
+    [Przeczytaj pełną recenzję :material-arrow-right-drop-circle:](email.md#tuta)
 
 </div>
 
 <div class="grid" markdown>
 
 <div markdown>
-### Email Aliasing Services
+### Usługi aliasingu e-mail
 
 <div class="grid cards" markdown>
 
-- ![Addy.io logo](assets/img/email-aliasing/addy.svg){ .twemoji loading=lazy } [Addy.io](email-aliasing.md#addyio)
-- ![SimpleLogin logo](assets/img/email-aliasing/simplelogin.svg){ .twemoji loading=lazy } [SimpleLogin](email-aliasing.md#simplelogin)
+- ![Logo Addy.io](assets/img/email-aliasing/addy.svg){ .twemoji loading=lazy } [Addy.io](email-aliasing.md#addyio)
+- ![Logo SimpleLogin](assets/img/email-aliasing/simplelogin.svg){ .twemoji loading=lazy } [SimpleLogin](email-aliasing.md#simplelogin)
 
 </div>
 
@@ -239,90 +239,90 @@ If you're looking for added **security**, you should always ensure you're connec
 
 </div>
 
-### Secure Email Clients
+### Bezpieczne klienty poczty e-mail
 
 <div class="grid cards" markdown>
 
-- ![Thunderbird logo](assets/img/email-clients/thunderbird.svg){ .twemoji loading=lazy } [Thunderbird](email-clients.md#thunderbird)
-- ![Apple Mail logo](assets/img/email-clients/applemail.png){ .twemoji loading=lazy } [Apple Mail (macOS)](email-clients.md#apple-mail-macos)
-- ![FairEmail logo](assets/img/email-clients/fairemail.svg){ .twemoji loading=lazy } [FairEmail (Android)](email-clients.md#fairemail-android)
-- ![GNOME Evolution logo](assets/img/email-clients/evolution.svg){ .twemoji loading=lazy } [GNOME Evolution (Linux)](email-clients.md#gnome-evolution-gnome)
-- ![Kontact logo](assets/img/email-clients/kontact.svg){ .twemoji loading=lazy } [Kontact (Linux)](email-clients.md#kontact-kde)
-- ![Mailvelope logo](assets/img/email-clients/mailvelope.svg){ .twemoji loading=lazy } [Mailvelope (PGP in standard webmail)](email-clients.md#mailvelope-browser)
-- ![NeoMutt logo](assets/img/email-clients/mutt.svg){ .twemoji loading=lazy } [NeoMutt (CLI)](email-clients.md#neomutt-cli)
+- ![Logo Thunderbird](assets/img/email-clients/thunderbird.svg){ .twemoji loading=lazy } [Thunderbird](email-clients.md#thunderbird)
+- ![Logo Apple Mail](assets/img/email-clients/applemail.png){ .twemoji loading=lazy } [Poczta Apple (macOS)](email-clients.md#apple-mail-macos)
+- ![Logo FairEmail](assets/img/email-clients/fairemail.svg){ .twemoji loading=lazy } [FairEmail (Android)](email-clients.md#fairemail-android)
+- ![Logo GNOME Evolution](assets/img/email-clients/evolution.svg){ .twemoji loading=lazy } [Evolution (Linux)](email-clients.md#gnome-evolution-gnome)
+- ![Logo Kontact](assets/img/email-clients/kontact.svg){ .twemoji loading=lazy } [Kontact (Linux)](email-clients.md#kontact-kde)
+- ![Logo Mailvelope](assets/img/email-clients/mailvelope.svg){ .twemoji loading=lazy } [Mailvelope (PGP w standardowym webmailu)](email-clients.md#mailvelope-browser)
+- ![Logo NeoMutt](assets/img/email-clients/mutt.svg){ .twemoji loading=lazy } [NeoMutt (CLI)](email-clients.md#neomutt-cli)
 
 </div>
 
-[Dowiedz się więcej :hero-arrow-circle-right-fill:](email-clients.md)
+[Dowiedz się więcej :material-arrow-right-drop-circle:](email-clients.md)
 
-## More Private Service Providers
+## Inni prywatni dostawcy usług
 
-### Cloud Storage
+### Przechowywanie w chmurze
 
 <div class="grid cards" markdown>
 
-- ![Proton Drive logo](assets/img/cloud/protondrive.svg){ .twemoji loading=lazy } [Proton Drive](cloud.md#proton-drive)
-- ![Tresorit logo](assets/img/cloud/tresorit.svg){ .twemoji loading=lazy } [Tresorit](cloud.md#tresorit)
-- ![Peergos logo](assets/img/cloud/peergos.svg){ .twemoji loading=lazy } [Peergos](cloud.md#peergos)
+- ![Logo Proton Drive](assets/img/cloud/protondrive.svg){ .twemoji loading=lazy } [Proton Drive](cloud.md#proton-drive)
+- ![Logo Tresorit](assets/img/cloud/tresorit.svg){ .twemoji loading=lazy } [Tresorit](cloud.md#tresorit)
+- ![Logo Peergos](assets/img/cloud/peergos.svg){ .twemoji loading=lazy } [Peergos](cloud.md#peergos)
 
 </div>
 
-[Dowiedz się więcej :hero-arrow-circle-right-fill:](cloud.md)
+[Dowiedz się więcej :material-arrow-right-drop-circle:](cloud.md)
 
-### Data Removal Services
+### Usługi usuwania danych
 
 <div class="grid cards" markdown>
 
-- ![EasyOptOuts logo](assets/img/data-broker-removals/easyoptouts.svg){ .twemoji loading=lazy } [EasyOptOuts](data-broker-removals.md#easyoptouts-paid)
-- ![Google logo](assets/img/data-broker-removals/google.svg){ .twemoji loading=lazy } [Google *Results about you*](data-broker-removals.md#google-results-about-you-free)
+- ![Logo EasyOptOuts](assets/img/data-broker-removals/easyoptouts.svg){ .twemoji loading=lazy } [EasyOptOuts](data-broker-removals.md#easyoptouts-paid)
+- ![Logo Google](assets/img/data-broker-removals/google.svg){ .twemoji loading=lazy } [*Wyniki wyszukiwania informacji o Tobie* w Google](data-broker-removals.md#google-results-about-you-free)
 
 </div>
 
-[Dowiedz się więcej :hero-arrow-circle-right-fill:](data-broker-removals.md)
+[Dowiedz się więcej :material-arrow-right-drop-circle:](data-broker-removals.md)
 
-### Wyszukiwarki
+### DNS
 
-#### DNS Providers
+#### Dostawcy DNS
 
-We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers based on a variety of criteria, such as [Mullvad](https://mullvad.net/en/help/dns-over-https-and-dns-over-tls) and [Quad9](https://quad9.net) amongst others. We recommend for you to read our pages on DNS before choosing a provider. In many cases, using an alternative DNS provider is not recommended.
+[Zalecamy](dns.md#recommended-providers) kilka szyfrowanych serwerów DNS wybranych na podstawie różnych kryteriów, m.in. [Mullvad](https://mullvad.net/pl/help/dns-over-https-and-dns-over-tls) i [Quad9](https://quad9.net). Przed wyborem dostawcy zalecamy zapoznanie się z naszymi stronami poświęconymi tematyce DNS. W wielu przypadkach nie jest wskazane korzystanie z alternatywnego dostawcy DNS.
 
-[Dowiedz się więcej :hero-arrow-circle-right-fill:](dns.md)
+[Dowiedz się więcej :material-arrow-right-drop-circle:](dns.md)
 
-#### Encrypted DNS Proxies
+#### Szyfrowane serwery proxy DNS
 
 <div class="grid cards" markdown>
 
-- ![RethinkDNS logo](assets/img/android/rethinkdns.svg#only-light){ .twemoji loading=lazy }![RethinkDNS logo](assets/img/android/rethinkdns-dark.svg#only-dark){ .twemoji loading=lazy } [RethinkDNS](dns.md#rethinkdns)
-- ![DNSCrypt-Proxy logo](assets/img/dns/dnscrypt-proxy.svg){ .twemoji loading=lazy } [DNSCrypt-Proxy](dns.md#dnscrypt-proxy)
+- ![Logo RethinkDNS](assets/img/android/rethinkdns.svg#only-light){ .twemoji loading=lazy }![Logo RethinkDNS](assets/img/android/rethinkdns-dark.svg#only-dark){ .twemoji loading=lazy } [RethinkDNS](dns.md#rethinkdns)
+- ![Logo DNSCrypt-Proxy](assets/img/dns/dnscrypt-proxy.svg){ .twemoji loading=lazy } [DNSCrypt-Proxy](dns.md#dnscrypt-proxy)
 
 </div>
 
-[Dowiedz się więcej :hero-arrow-circle-right-fill:](dns.md#encrypted-dns-proxies)
+[Dowiedz się więcej :material-arrow-right-drop-circle:](dns.md#encrypted-dns-proxies)
 
-### Financial Services
+### Usługi finansowe
 
-#### Payment Masking Services
+#### Usługi maskowania płatności
 
 <div class="grid cards" markdown>
 
-- ![Privacy.com logo](assets/img/financial-services/privacy_com.svg#only-light){ .twemoji loading=lazy }![Privacy.com logo](assets/img/financial-services/privacy_com-dark.svg#only-dark){ .twemoji loading=lazy } [Privacy.com](financial-services.md#privacycom-us)
-- ![MySudo logo](assets/img/financial-services/mysudo.svg#only-light){ .twemoji loading=lazy }![MySudo logo](assets/img/financial-services/mysudo-dark.svg#only-dark){ .twemoji loading=lazy } [MySudo](financial-services.md#mysudo-us-paid)
+- ![Logo Privacy.com](assets/img/financial-services/privacy_com.svg#only-light){ .twemoji loading=lazy }![Logo Privacy.com](assets/img/financial-services/privacy_com-dark.svg#only-dark){ .twemoji loading=lazy } [Privacy.com](financial-services.md#privacycom-us)
+- ![Logo MySudo](assets/img/financial-services/mysudo.svg#only-light){ .twemoji loading=lazy }![Logo MySudo](assets/img/financial-services/mysudo-dark.svg#only-dark){ .twemoji loading=lazy } [MySudo](financial-services.md#mysudo-us-paid)
 
 </div>
 
-[Dowiedz się więcej :hero-arrow-circle-right-fill:](financial-services.md#payment-masking-services)
+[Dowiedz się więcej :material-arrow-right-drop-circle:](financial-services.md#payment-masking-services)
 
-#### Online Gift Card Marketplaces
+#### Internetowe giełdy kart podarunkowych
 
 <div class="grid cards" markdown>
 
-- ![Coincards logo](assets/img/financial-services/coincards.svg){ .twemoji loading=lazy } [Coincards](financial-services.md#coincards)
+- ![Logo Coincards](assets/img/financial-services/coincards.svg){ .twemoji loading=lazy } [Coincards](financial-services.md#coincards)
 
 </div>
 
-[Dowiedz się więcej :hero-arrow-circle-right-fill:](financial-services.md#gift-card-marketplaces)
+[Dowiedz się więcej :material-arrow-right-drop-circle:](financial-services.md#gift-card-marketplaces)
 
-### Photo Management
+### Zarządzanie zdjęciami
 
 <div class="grid cards" markdown>
 
@@ -330,7 +330,7 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 </div>
 
-[Dowiedz się więcej :hero-arrow-circle-right-fill:](photo-management.md)
+[Dowiedz się więcej :material-arrow-right-drop-circle:](photo-management.md)
 
 ### Search Engines
 
@@ -343,7 +343,7 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 </div>
 
-[Dowiedz się więcej :hero-arrow-circle-right-fill:](search-engines.md)
+[Dowiedz się więcej :material-arrow-right-drop-circle:](search-engines.md)
 
 ## Oprogramowanie
 
@@ -357,7 +357,7 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 </div>
 
-[Dowiedz się więcej :hero-arrow-circle-right-fill:](ai-chat.md)
+[Dowiedz się więcej :material-arrow-right-drop-circle:](ai-chat.md)
 
 ### Calendar Sync
 
@@ -368,7 +368,7 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 </div>
 
-[Dowiedz się więcej :hero-arrow-circle-right-fill:](calendar.md)
+[Dowiedz się więcej :material-arrow-right-drop-circle:](calendar.md)
 
 ### Cryptocurrency
 
@@ -378,7 +378,7 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 </div>
 
-[Dowiedz się więcej :hero-arrow-circle-right-fill:](cryptocurrency.md)
+[Dowiedz się więcej :material-arrow-right-drop-circle:](cryptocurrency.md)
 
 ### Redukcja danych i metadanych
 
@@ -390,7 +390,7 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 </div>
 
-[Dowiedz się więcej :hero-arrow-circle-right-fill:](data-redaction.md)
+[Dowiedz się więcej :material-arrow-right-drop-circle:](data-redaction.md)
 
 ### Document Collaboration
 
@@ -400,7 +400,7 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 </div>
 
-[Dowiedz się więcej :hero-arrow-circle-right-fill:](document-collaboration.md)
+[Dowiedz się więcej :material-arrow-right-drop-circle:](document-collaboration.md)
 
 ### Oprogramowanie szyfrujące
 
@@ -409,7 +409,7 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 For encrypting your OS drive, we typically recommend using the encryption tool your operating system provides, whether that is **BitLocker** on Windows, **FileVault** on macOS, or **LUKS** on Linux. These tools are included with the operating system and take advantage of hardware encryption elements such as a [secure cryptoprocessor](basics/hardware.md/#tpmsecure-cryptoprocessor).
 
-[Dowiedz się więcej :hero-arrow-circle-right-fill:](encryption.md#operating-system-encryption)
+[Dowiedz się więcej :material-arrow-right-drop-circle:](encryption.md#operating-system-encryption)
 
 </details>
 
@@ -424,7 +424,7 @@ For encrypting your OS drive, we typically recommend using the encryption tool y
 
 </div>
 
-[Dowiedz się więcej :hero-arrow-circle-right-fill:](encryption.md)
+[Dowiedz się więcej :material-arrow-right-drop-circle:](encryption.md)
 
 #### OpenPGP Clients
 
@@ -437,7 +437,7 @@ For encrypting your OS drive, we typically recommend using the encryption tool y
 
 </div>
 
-[Dowiedz się więcej :hero-arrow-circle-right-fill:](encryption.md#openpgp)
+[Dowiedz się więcej :material-arrow-right-drop-circle:](encryption.md#openpgp)
 
 ### File Sharing and Sync
 
@@ -449,7 +449,7 @@ For encrypting your OS drive, we typically recommend using the encryption tool y
 
 </div>
 
-[Dowiedz się więcej :hero-arrow-circle-right-fill:](file-sharing.md)
+[Dowiedz się więcej :material-arrow-right-drop-circle:](file-sharing.md)
 
 ### Menedżery haseł
 
@@ -466,7 +466,7 @@ For encrypting your OS drive, we typically recommend using the encryption tool y
 
 </div>
 
-[Dowiedz się więcej :hero-arrow-circle-right-fill:](frontends.md)
+[Dowiedz się więcej :material-arrow-right-drop-circle:](frontends.md)
 
 ### Health and Wellness Apps
 
@@ -481,7 +481,7 @@ For encrypting your OS drive, we typically recommend using the encryption tool y
 
 </div>
 
-[Dowiedz się więcej :hero-arrow-circle-right-fill:](health-and-wellness.md)
+[Dowiedz się więcej :material-arrow-right-drop-circle:](health-and-wellness.md)
 
 ### Narzędzia językowe
 
@@ -492,7 +492,7 @@ For encrypting your OS drive, we typically recommend using the encryption tool y
 
 </div>
 
-[Dowiedz się więcej :hero-arrow-circle-right-fill:](language-tools.md)
+[Dowiedz się więcej :material-arrow-right-drop-circle:](language-tools.md)
 
 ### Maps and Navigation Apps
 
@@ -503,7 +503,7 @@ For encrypting your OS drive, we typically recommend using the encryption tool y
 
 </div>
 
-[Dowiedz się więcej :hero-arrow-circle-right-fill:](maps.md)
+[Dowiedz się więcej :material-arrow-right-drop-circle:](maps.md)
 
 ### Multi-Factor Authentication Tools
 
@@ -516,7 +516,7 @@ For encrypting your OS drive, we typically recommend using the encryption tool y
 
 </div>
 
-[Dowiedz się więcej :hero-arrow-circle-right-fill:](multi-factor-authentication.md)
+[Dowiedz się więcej :material-arrow-right-drop-circle:](multi-factor-authentication.md)
 
 ### News Aggregators
 
@@ -531,7 +531,7 @@ For encrypting your OS drive, we typically recommend using the encryption tool y
 
 </div>
 
-[Dowiedz się więcej :hero-arrow-circle-right-fill:](news-aggregators.md)
+[Dowiedz się więcej :material-arrow-right-drop-circle:](news-aggregators.md)
 
 ### Notatniki
 
@@ -545,7 +545,7 @@ For encrypting your OS drive, we typically recommend using the encryption tool y
 
 </div>
 
-[Dowiedz się więcej :hero-arrow-circle-right-fill:](notebooks.md)
+[Dowiedz się więcej :material-arrow-right-drop-circle:](notebooks.md)
 
 ### Office Suites
 
@@ -556,7 +556,7 @@ For encrypting your OS drive, we typically recommend using the encryption tool y
 
 </div>
 
-[Dowiedz się więcej :hero-arrow-circle-right-fill:](office-suites.md)
+[Dowiedz się więcej :material-arrow-right-drop-circle:](office-suites.md)
 
 ### Menedżery haseł
 
@@ -573,7 +573,7 @@ For encrypting your OS drive, we typically recommend using the encryption tool y
 
 </div>
 
-[Dowiedz się więcej :hero-arrow-circle-right-fill:](passwords.md)
+[Dowiedz się więcej :material-arrow-right-drop-circle:](passwords.md)
 
 ### Pastebins
 
@@ -584,7 +584,7 @@ For encrypting your OS drive, we typically recommend using the encryption tool y
 
 </div>
 
-[Dowiedz się więcej :hero-arrow-circle-right-fill:](pastebins.md)
+[Dowiedz się więcej :material-arrow-right-drop-circle:](pastebins.md)
 
 ### Real-Time Communication
 
@@ -596,7 +596,7 @@ For encrypting your OS drive, we typically recommend using the encryption tool y
 
 </div>
 
-[Dowiedz się więcej :hero-arrow-circle-right-fill:](real-time-communication.md)
+[Dowiedz się więcej :material-arrow-right-drop-circle:](real-time-communication.md)
 
 ### Social Networks
 
@@ -607,7 +607,7 @@ For encrypting your OS drive, we typically recommend using the encryption tool y
 
 </div>
 
-[Dowiedz się więcej :hero-arrow-circle-right-fill:](social-networks.md)
+[Dowiedz się więcej :material-arrow-right-drop-circle:](social-networks.md)
 
 ## Sprzęt komputerowy
 
@@ -621,7 +621,7 @@ For encrypting your OS drive, we typically recommend using the encryption tool y
 
 </div>
 
-[Dowiedz się więcej :hero-arrow-circle-right-fill:](security-keys.md)
+[Dowiedz się więcej :material-arrow-right-drop-circle:](security-keys.md)
 
 ### Mobile Phones
 
@@ -631,7 +631,7 @@ For encrypting your OS drive, we typically recommend using the encryption tool y
 
 </div>
 
-[Dowiedz się więcej :hero-arrow-circle-right-fill:](mobile-phones.md)
+[Dowiedz się więcej :material-arrow-right-drop-circle:](mobile-phones.md)
 
 ## Systemy operacyjne
 
@@ -645,7 +645,7 @@ For encrypting your OS drive, we typically recommend using the encryption tool y
 
 </div>
 
-[Dowiedz się więcej :hero-arrow-circle-right-fill:](android/distributions.md)
+[Dowiedz się więcej :material-arrow-right-drop-circle:](android/distributions.md)
 
 #### Android Apps
 
@@ -657,7 +657,7 @@ For encrypting your OS drive, we typically recommend using the encryption tool y
 
 </div>
 
-[Dowiedz się więcej :hero-arrow-circle-right-fill:](android/general-apps.md)
+[Dowiedz się więcej :material-arrow-right-drop-circle:](android/general-apps.md)
 
 #### Ways to Obtain Android Apps
 
@@ -668,7 +668,7 @@ For encrypting your OS drive, we typically recommend using the encryption tool y
 
 </div>
 
-[Dowiedz się więcej :hero-arrow-circle-right-fill:](android/obtaining-apps.md)
+[Dowiedz się więcej :material-arrow-right-drop-circle:](android/obtaining-apps.md)
 
 ### Magazyny chmurowe
 
@@ -687,7 +687,7 @@ For encrypting your OS drive, we typically recommend using the encryption tool y
 
 </div>
 
-[Dowiedz się więcej :hero-arrow-circle-right-fill:](desktop.md)
+[Dowiedz się więcej :material-arrow-right-drop-circle:](desktop.md)
 
 ### Oprogramowanie układowe routera
 
@@ -698,7 +698,7 @@ For encrypting your OS drive, we typically recommend using the encryption tool y
 
 </div>
 
-[Dowiedz się więcej :hero-arrow-circle-right-fill:](router.md)
+[Dowiedz się więcej :material-arrow-right-drop-circle:](router.md)
 
 ## Advanced Tools
 
@@ -715,7 +715,7 @@ These tools may provide utility for certain individuals. They provide functional
 
 </div>
 
-[Dowiedz się więcej :hero-arrow-circle-right-fill:](alternative-networks.md)
+[Dowiedz się więcej :material-arrow-right-drop-circle:](alternative-networks.md)
 
 ### Device Integrity Verification
 
@@ -727,4 +727,4 @@ These tools may provide utility for certain individuals. They provide functional
 
 </div>
 
-[Dowiedz się więcej :hero-arrow-circle-right-fill:](device-integrity.md)
+[Dowiedz się więcej :material-arrow-right-drop-circle:](device-integrity.md)

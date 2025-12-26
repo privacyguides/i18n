@@ -1,5 +1,5 @@
 ---
-title: Data Removal Services
+title: Usługi usuwania danych
 icon: material/database-off
 description: Our recommended methods for removing your personal information from data brokers and people search sites.
 cover: data-broker-removals.webp

@@ -55,12 +55,12 @@ Poniżej omówiono i przedstawiono samouczek, który pokazuje, co zewnętrzny ob
 
 Jeśli uruchomisz powyższe polecenie Wireshark, górny panel pokaże „[ramki](https://en.wikipedia.org/wiki/Ethernet_frame)” (ang. *frames*), a dolny panel wyświetli wszystkie dane dotyczące wybranej ramki. Rozwiązania do filtrowania i monitorowania na poziomie korporacyjnym (takie, które mogą być zakupione przez rządy) potrafią wykonywać ten proces automatycznie, bez interwencji człowieka, oraz agregować te ramki w celu wygenerowania danych statystycznych użytecznych dla obserwatora sieci.
 
-| Nr | Czas     | Źródło    | Adres docelowy | Protokół     | Długość | Informacje                                                             |
-| -- | -------- | --------- | -------------- | ------------ | ------- | ---------------------------------------------------------------------- |
-| 1  | 0.000000 | 192.0.2.1 | 1.1.1.1        | Wyszukiwarki | 104     | Standard query 0x58ba A privacyguides.org OPT                          |
-| 2  | 0.293395 | 1.1.1.1   | 192.0.2.1      | Wyszukiwarki | 108     | Standard query response 0x58ba A privacyguides.org A 198.98.54.105 OPT |
-| 3  | 1.682109 | 192.0.2.1 | 8.8.8.8        | Wyszukiwarki | 104     | Standard query 0xf1a9 A privacyguides.org OPT                          |
-| 4  | 2.154698 | 8.8.8.8   | 192.0.2.1      | Wyszukiwarki | 108     | Standard query response 0xf1a9 A privacyguides.org A 198.98.54.105 OPT |
+| Nr | Czas     | Źródło    | Adres docelowy | Protokół | Długość | Informacje                                                             |
+| -- | -------- | --------- | -------------- | -------- | ------- | ---------------------------------------------------------------------- |
+| 1  | 0.000000 | 192.0.2.1 | 1.1.1.1        | DNS      | 104     | Standard query 0x58ba A privacyguides.org OPT                          |
+| 2  | 0.293395 | 1.1.1.1   | 192.0.2.1      | DNS      | 108     | Standard query response 0x58ba A privacyguides.org A 198.98.54.105 OPT |
+| 3  | 1.682109 | 192.0.2.1 | 8.8.8.8        | DNS      | 104     | Standard query 0xf1a9 A privacyguides.org OPT                          |
+| 4  | 2.154698 | 8.8.8.8   | 192.0.2.1      | DNS      | 108     | Standard query response 0xf1a9 A privacyguides.org A 198.98.54.105 OPT |
 
 Obserwator mógłby zmodyfikować dowolny z tych pakietów.
 
