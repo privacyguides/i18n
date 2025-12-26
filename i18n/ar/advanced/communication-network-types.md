@@ -29,42 +29,42 @@ description: استعراض سريع لعدد من تصميمات الشبكات
 - عدم السماح لبرامج طرف ثالث [بالاتصال بالشبكة المركزية](https://github.com/LibreSignal/LibreSignal/issues/37#issuecomment-217211165)، مع انها قد تقدم مرونة اعلى او تجربة استخدام افضل. في الغالب تجد هذه التفاصيل منصوصا عليها في بنود وشروط الاستخدام.
 - نقص في الوثائق والارشادات (documentation) التي يحتاجها مطورو الطرف الثالث (third-party developers)، او عدم توفرها اساسا.
 - اذا كانت الخدمة بيد جهة واحدة، فمن السهل ان تتبدل [ملكيتها](https://web.archive.org/web/20210729191953/https://blog.privacytools.io/delisting-wire)او سياسة الخصوصية او اسلوب ادارتها، ومع الوقت قد ينعكس ذلك سلبا على خصوصية المستخدمين.
-- Self-hosting requires effort and knowledge of how to set up a service.
+- الاستضافة الذاتية ليست دائما سهلة، فهي تحتاج بعض المعرفة التقنية وجهدا في الاعداد.
 
-## Federated Networks
+## شبكات خوادم متعددة مترابطة
 
-![Federated networks diagram](../assets/img/layout/network-decentralized.svg){ align=left }
+![شكل يوضح شبكات متعددة الخوادم](../assets/img/layout/network-decentralized.svg){ align=left }
 
-Federated messengers use multiple, independent, decentralized servers that are able to talk to each other (email is one example of a federated service). Federation allows system administrators to control their own server and still be a part of the larger communications network.
+هذا النوع من تطبيقات المراسلة يعتمد على اكثر من خادم مستقل وغير مركزي، مع امكانية ان تتواصل الخوادم مع بعضها (والبريد الالكتروني مثال واضح على ذلك). هذا النظام يسمح لمسؤول كل خادم بادارة خادمه بطريقته، وفي الوقت نفسه يبقى ضمن شبكة اتصالات اوسع.
 
-When self-hosted, members of a federated server can discover and communicate with members of other servers, although some servers may choose to remain private by being non-federated (e.g., work team server).
+في حالة الاستضافة الذاتية، يمكن لاعضاء خادم ضمن شبكة مترابطة التواصل مع اعضاء خوادم اخرى، لكن بعض الخوادم قد تقرر البقاء خاصة وغير مرتبطة بالخوادم الاخرى (مثل خادم داخلي لفريق في العمل).
 
 **ما الذي يميزها:**
 
-- Allows for greater control over your own data when running your own server.
-- Allows you to choose whom to trust your data with by choosing between multiple "public" servers.
-- Often allows for third-party clients which can provide a more native, customized, or accessible experience.
-- Server software can be verified that it matches public source code, assuming you have access to the server, or you trust the person who does (e.g., a family member).
+- يمنحك سيطرة اوسع على بياناتك اذا كنت تشغل خادمك بنفسك.
+- يتيح لك اختيار الجهة التي تثق بها لحفظ بياناتك، عبر الاختيار بين عدة خوادم عامة (public servers).
+- عادة يسمح بتطبيقات بديلة من طرف ثالث، يمكن ان توفر تجربة اكثر ملاءمة للجهاز، او اكثر تخصيصا، او اكثر قابلية للاستخدام للجميع.
+- يمكن مراجعة برنامج الخادم وإثبات انه مطابق للكود المعلن، طالما ان لديك صلاحية الوصول للخادم، او انك تثق بمن يمتلك هذه الصلاحية (كفرد من العائلة).
 
 **العيوب:**
 
-- Adding new features is more complex because these features need to be standardized and tested to ensure they work with all servers on the network.
-- Due to the previous point, features can be lacking, or incomplete or working in unexpected ways compared to centralized platforms, such as message relay when offline or message deletion.
-- Some metadata may be available (e.g., information like "who is talking to whom," but not actual message content if E2EE is used).
-- Federated servers generally require trusting your server's administrator. They may be a hobbyist or otherwise not a "security professional," and may not serve standard documents like a privacy policy or terms of service detailing how your data is used.
-- Server administrators sometimes choose to block other servers, which are a source of unmoderated abuse or break general rules of accepted behavior. This will hinder your ability to communicate with members of those servers.
+- ادخال اي ميزة جديدة يتطلب جهدا اكبر، لانها تحتاج الى معيار متفق عليه واختبارات تضمن عملها بسلاسة مع كل خوادم الشبكة.
+- نتيجة لما سبق، قد تلاحظ ان بعض الخصائص ناقصة او غير مستقرة او تختلف في سلوكها عن التطبيقات المركزية (centralized platforms)، مثل ارسال الرسائل اثناء عدم الاتصال او ميزة حذف الرسائل.
+- قد تظل بعض المعلومات الجانبية متوفرة (مثل معرفة من يتحدث مع من)، لكن محتوى الرسائل لا يكون قابلا للاطلاع اذا تم استخدام E2EE.
+- خوادم الشبكات المترابطة تتطلب غالبا ان تثق بمسؤول الخادم الذي تستخدمه. قد يدير الخادم شخص غير محترف في مجال الامن، وربما لا ينشر مستندات قياسية (standard documents) مثل سياسة الخصوصية او شروط الخدمة التي تشرح بوضوح كيف تستخدم بياناتك.
+- قد يختار مدير الخادم حجب خوادم اخرى عندما تكون سببا في اساءات دون رقابة، او عندما لا تلتزم بقواعد التعامل المتفق عليها. هذا قد يمنعك من التواصل مع الاشخاص الموجودين على تلك الخوادم.
 
-## Peer-to-Peer Networks
+## شبكات اتصال مباشر بين الاجهزة (Peer-to-Peer Networks)
 
 ![P2P diagram](../assets/img/layout/network-distributed.svg){ align=left }
 
-P2P messengers connect to a [distributed network](https://en.wikipedia.org/wiki/Distributed_networking) of nodes to relay a message to the recipient without a third-party server.
+في تطبيقات المراسلة ذات الاتصال المباشر، يتم تمرير الرسالة عبر [شبكة موزعة](https://en.wikipedia.org/wiki/Distributed_networking) من العقد حتى تصل للمستلم، من غير وجود خادم مركزي لطرف ثالث.
 
-Clients (peers) usually find each other through the use of a [distributed computing](https://en.wikipedia.org/wiki/Distributed_computing) network. Examples of this include [Distributed Hash Tables](https://en.wikipedia.org/wiki/Distributed_hash_table) (DHT), used by [torrents](https://en.wikipedia.org/wiki/BitTorrent_(protocol)) and [IPFS](https://en.wikipedia.org/wiki/InterPlanetary_File_System) for example. Another approach is proximity based networks, where a connection is established over Wi-Fi or Bluetooth (for example, Briar or the [Scuttlebutt](https://scuttlebutt.nz) social network protocol).
+في العادة يتم التعرف بين الاطراف عبر شبكة قائمة على [الحوسبة الموزعة (distributed computing)](https://en.wikipedia.org/wiki/Distributed_computing). امثلة على هذا: [Distributed Hash Tables](https://en.wikipedia.org/wiki/Distributed_hash_table) (DHT)، وهي تقنية تعتمد عليها بروتوكولات مثل [BitTorrent](https://en.wikipedia.org/wiki/BitTorrent_(protocol)) و [IPFS](https://en.wikipedia.org/wiki/InterPlanetary_File_System). طريقة اخرى هي شبكات المدى القصير، وفيها يتم الاتصال عبر الواي فاي او البلوتوث (مثل Briar او بروتوكول [Scuttlebutt](https://scuttlebutt.nz)للشبكات الاجتماعية).
 
-Once a peer has found a route to its contact via any of these methods, a direct connection between them is made. Although messages are usually encrypted, an observer can still deduce the location and identity of the sender and recipient.
+عندما يعثر الطرف على طريق للوصول الى جهة الاتصال عبر اي من هذه الطرق، يتم بعدها تكوين اتصال مباشر بين الطرفين. مع ان الرسائل غالبا مشفرة، قد يستطيع الملاحظ استنتاج من يرسل لمن واين يوجد كل طرف.
 
-P2P networks do not use servers, as peers communicate directly between each other and hence cannot be self-hosted. However, some additional services may rely on centralized servers, such as user discovery or relaying offline messages, which can benefit from self-hosting.
+شبكات الاتصال المباشر بين الاجهزة (P2P) لا تستخدم خوادم، لان الاطراف تتواصل فيما بينها مباشرة، لذلك لا يوجد مفهوم الاستضافة الذاتية هنا. لكن احيانا توجد خدمات اضافية تحتاج خوادم مركزية، مثل اكتشاف المستخدمين او توصيل الرسائل عندما يكون الطرف غير متصل، وهنا قد تكون الاستضافة الذاتية مفيدة.
 
 **ما الذي يميزها:**
 
