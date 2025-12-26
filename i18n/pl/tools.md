@@ -18,7 +18,7 @@ Jeśli szukasz konkretnego rozwiązania, oto zalecany przez nas sprzęt i oprogr
 [Rozszerzenia przeglądarki](browser-extensions.md){ .md-button }
 [Serwery DNS](dns.md){ .md-button }
 [Usługi aliasingu e-mail](email-aliasing.md){ .md-button }
-[Narzędzia do porządkowania zdjęć](photo-management.md){ .md-button }
+[Narzędzia do zarządzania zdjęciami](photo-management.md){ .md-button }
 </div>
 
 </div>
@@ -326,20 +326,20 @@ Jeśli zależy Ci na dodatkowym **bezpieczeństwie**, zawsze upewnij się, że �
 
 <div class="grid cards" markdown>
 
-- ![Ente logo](assets/img/photo-management/ente.svg){ .twemoji loading=lazy } [Ente Photos](photo-management.md#ente-photos)
+- ![Logo Ente](assets/img/photo-management/ente.svg){ .twemoji loading=lazy } [Ente Photos](photo-management.md#ente-photos)
 
 </div>
 
 [Dowiedz się więcej :material-arrow-right-drop-circle:](photo-management.md)
 
-### Search Engines
+### Wyszukiwarki
 
 <div class="grid cards" markdown>
 
-- ![Brave Search logo](assets/img/search-engines/brave-search.svg){ .twemoji loading=lazy } [Brave Search](search-engines.md#brave-search)
-- ![DuckDuckGo logo](assets/img/search-engines/duckduckgo.svg){ .twemoji loading=lazy } [DuckDuckGo](search-engines.md#duckduckgo)
-- ![SearXNG logo](assets/img/search-engines/searxng.svg){ .twemoji loading=lazy } [SearXNG](search-engines.md#searxng)
-- ![Startpage logo](assets/img/search-engines/startpage.svg#only-light){ .twemoji loading=lazy }![Startpage logo](assets/img/search-engines/startpage-dark.svg#only-dark){ .twemoji loading=lazy } [Startpage](search-engines.md#startpage)
+- ![Logo Brave Search](assets/img/search-engines/brave-search.svg){ .twemoji loading=lazy } [Wyszukiwarka Brave](search-engines.md#brave-search)
+- ![Logo DuckDuckGo](assets/img/search-engines/duckduckgo.svg){ .twemoji loading=lazy } [DuckDuckGo](search-engines.md#duckduckgo)
+- ![Logo SearXNG](assets/img/search-engines/searxng.svg){ .twemoji loading=lazy } [SearXNG](search-engines.md#searxng)
+- ![Logo Startpage](assets/img/search-engines/startpage.svg#only-light){ .twemoji loading=lazy }![Logo Startpage](assets/img/search-engines/startpage-dark.svg#only-dark){ .twemoji loading=lazy } [Startpage](search-engines.md#startpage)
 
 </div>
 
@@ -347,19 +347,19 @@ Jeśli zależy Ci na dodatkowym **bezpieczeństwie**, zawsze upewnij się, że �
 
 ## Oprogramowanie
 
-### Czat AI
+### Czaty AI
 
 <div class="grid cards" markdown>
 
-- ![Kobold logo](assets/img/ai-chat/kobold.png){ .twemoji loading=lazy } [Kobold.cpp](ai-chat.md#koboldcpp)
-- ![Llamafile logo](assets/img/ai-chat/llamafile.webp){ .twemoji loading=lazy } [Llamafile](ai-chat.md#llamafile)
-- ![Ollama logo](assets/img/ai-chat/ollama.png){ .twemoji loading=lazy } [Ollama (CLI)](ai-chat.md#ollama-cli)
+- ![Logo Kobold](assets/img/ai-chat/kobold.png){ .twemoji loading=lazy } [Kobold.cpp](ai-chat.md#koboldcpp)
+- ![Logo Llamafile](assets/img/ai-chat/llamafile.webp){ .twemoji loading=lazy } [Llamafile](ai-chat.md#llamafile)
+- ![Logo Ollama](assets/img/ai-chat/ollama.png){ .twemoji loading=lazy } [Ollama (CLI)](ai-chat.md#ollama-cli)
 
 </div>
 
 [Dowiedz się więcej :material-arrow-right-drop-circle:](ai-chat.md)
 
-### Calendar Sync
+### Synchronizacja kalendarza
 
 <div class="grid cards" markdown>
 

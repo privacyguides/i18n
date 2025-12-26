@@ -1,6 +1,6 @@
 ---
 meta_title: "Zalecane czaty AI: Prywatne alternatywy dla ChatGPT – Privacy Guides"
-title: "Czat AI"
+title: "Czaty AI"
 icon: material/assistant
 description: W przeciwieństwie do ChatGPT od OpenAI i jego konkurentów z wielkich firm technologicznych, te narzędzia AI działają lokalnie, więc Twoje dane nigdy nie opuszczają komputera.
 cover: ai-chatbots.webp
