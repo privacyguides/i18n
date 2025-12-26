@@ -211,15 +211,15 @@ Opsi ini dapat ditemukan di :material-menu:/:fontawesome-solid-ellipsis: → **S
 
 ![Cromite logo](assets/img/browsers/cromite.svg){ align=right }
 
-**Cromite** adalah peramban berbasis Chromium dengan pemblokiran iklan bawaan, perlindungan fingerprinting dan [peningkatan privasi dan keamanan](https://github.com/uazo/cromite/blob/master/docs/FEATURES.md). It is a fork of the discontinued **Bromite** browser.
+**Cromite** adalah peramban berbasis Chromium dengan pemblokiran iklan bawaan, perlindungan fingerprinting dan [peningkatan privasi dan keamanan](https://github.com/uazo/cromite/blob/master/docs/FEATURES.md). Ini adalah cabang dari peramban **Bromite**.
 
-[:octicons-home-16: Homepage](https://cromite.org){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://github.com/uazo/cromite/blob/master/docs/PRIVACY_POLICY.md){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://github.com/uazo/cromite?tab=readme-ov-file#docs){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/uazo/cromite){ .card-link title="Source Code" }
+[:octicons-home-16: Halaman Utama](https://cromite.org){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://github.com/uazo/cromite/blob/master/docs/PRIVACY_POLICY.md){ .card-link title="Kebijakan Privasi" }
+[:octicons-info-16:](https://github.com/uazo/cromite?tab=readme-ov-file#docs){ .card-link title="Dokumentasi" }
+[:octicons-code-16:](https://github.com/uazo/cromite){ .card-link title="Kode Sumber" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Unduhan</summary>
 
 - [:simple-android: F-Droid](https://cromite.org/fdroid/repo/?fingerprint=49F37E74DEE483DCA2B991334FB5A0200787430D0B5F9A783DD5F13695E9517B)
 - [:simple-github: GitHub](https://github.com/uazo/cromite/releases/latest)
@@ -230,98 +230,98 @@ Opsi ini dapat ditemukan di :material-menu:/:fontawesome-solid-ellipsis: → **S
 
 ### Konfigurasi yang Disarankan
 
-These options can be found in :material-menu: → :gear: **Settings** → **Privacy and security**.
+Opsi ini dapat ditemukan di :material-menu: → :gear: **Settings** → **Privacy and security**.
 
-#### Browsing data
+#### Data Penjelajahan
 
-- [x] Select **Close all open tabs on exit**
+- [x] Pilih **Close all open tabs on exit**
 
-#### Incognito mode
+#### Mode Incognito
 
-- [x] Select **Open external links in incognito**
+- [x] Pilih **Open external links in incognito**
 
 #### Keamanan
 
-- [x] Select **Always use secure connections**
+- [x] Pilih **Always use secure connections**
 
-Hal ini mencegah Anda secara tidak sengaja tersambung ke situs web dalam HTTP teks biasa. HTTP is extremely uncommon nowadays, so this should have little to no impact on your day-to-day browsing.
+Hal ini mencegah Anda secara tidak sengaja tersambung ke situs web dalam HTTP teks biasa. HTTP sangat jarang digunakan saat ini, jadi hal ini seharusnya hanya berdampak kecil atau bahkan tidak berdampak sama sekali pada penjelajahan Anda sehari-hari.
 
-#### Adblock Plus settings
+#### Pengaturan Adblock Plus
 
-These options can be found in :material-menu: → :gear: **Settings** → **Adblock Plus settings**.
+Opsi-opsi ini dapat ditemukan di :material-menu: → :gear: **Settings** → **Adblock Plus settings**.
 
-Cromite contains a customized version of Adblock Plus with EasyList enabled by default, as well as options to select more filter lists within the **Filter lists** menu.
+Cromite berisi versi khusus Adblock Plus dengan EasyList yang diaktifkan secara default, serta opsi untuk memilih lebih banyak daftar filter di dalam menu **Filter lists**.
 
-Using extra lists will make you stand out from other Cromite users and may also increase attack surface if a malicious rule is added to one of the lists you use.
+Menggunakan daftar tambahan akan membuat Anda terlihat berbeda dari pengguna Cromite lainnya dan juga dapat meningkatkan permukaan serangan jika aturan berbahaya ditambahkan ke salah satu daftar yang Anda gunakan.
 
-- \[x\] (Optional) Select **Enable anti-circumvention and snippets**
+- \[x\] (Opsional) Pilih **Enable anti-circumvention and snippets**
 
-This setting adds an additional Adblock Plus list that may increase the effectiveness of Cromite's content blocking. The warnings about standing out and potentially increasing attack surface apply.
+Pengaturan ini menambahkan daftar Adblock Plus tambahan yang dapat meningkatkan efektivitas pemblokiran konten Cromite. Peringatan mengenai keunggulan dan potensi peningkatan permukaan serangan berlaku.
 
-#### Legacy Adblock settings
+#### Pengaruran Adblock lama
 
-These options can be found in :material-menu: → :gear: **Settings** → **Legacy Adblock settings**.
+Opsi ini dapat ditemukan di :material-menu: → :gear: **Settings** → **Legacy Adblock settings**.
 
-- [ ] Uncheck the autoupdate setting
+- [ ] Hapus centang pada autoupdate setting
 
-This disables update checks for the unmaintained Bromite adblock filter.
+Ini menonaktifkan pemeriksaan pembaruan untuk filter adblock Bromite yang tidak dipelihara.
 
 ## Safari (iOS)
 
-On iOS, any app that can browse the web is [restricted](https://developer.apple.com/app-store/review/guidelines) to using an Apple-provided [WebKit framework](https://developer.apple.com/documentation/webkit), so a browser like [Brave](#brave) does not use the Blink engine (the core component of Chromium) like its counterparts on other operating systems.
+Di iOS, aplikasi apa pun yang dapat menjelajahi web [dibatasi](https://developer.apple.com/app-store/review/guidelines) untuk menggunakan [kerangka kerja WebKit](https://developer.apple.com/documentation/webkit) yang disediakan Apple, sehingga peramban seperti [Brave](#brave) tidak menggunakan mesin Blink (komponen inti Chromium) seperti mitranya di sistem operasi lain.
 
 <div class="admonition recommendation" markdown>
 
 ![Safari logo](assets/img/browsers/safari.svg){ align=right }
 
-**Safari** is the default browser in iOS. It includes [privacy features](https://support.apple.com/guide/iphone/browse-the-web-privately-iphb01fc3c85/ios) such as [Intelligent Tracking Prevention](https://webkit.org/blog/7675/intelligent-tracking-prevention), isolated and ephemeral Private Browsing tabs, fingerprinting protection (by presenting a simplified version of the system configuration to websites, so more devices look identical), and fingerprint randomization, as well as Private Relay for those with a paid iCloud+ subscription.
+**Safari** adalah peramban default di iOS. Ini termasuk [fitur privasi](https://support.apple.com/guide/iphone/browse-the-web-privately-iphb01fc3c85/ios) seperti [Pencegahan Pelacakan Cerdas](https://webkit.org/blog/7675/intelligent-tracking-prevention), tab Penjelajahan Pribadi yang terisolasi dan bersifat sementara, perlindungan fingerprinting (dengan menyajikan versi sederhana dari konfigurasi sistem ke situs web, sehingga lebih banyak perangkat yang terlihat sama), dan pengacakan fingerprint, serta Private Relay untuk mereka yang berlangganan iCloud+ berbayar.
 
-[:octicons-home-16: Homepage](https://apple.com/safari){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://apple.com/legal/privacy/data/en/safari){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://support.apple.com/guide/iphone/browse-the-web-iph1fbef4daa/ios){ .card-link title="Documentation" }
+[:octicons-home-16: Halaman Utama](https://apple.com/safari){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://apple.com/legal/privacy/data/en/safari){ .card-link title="Kebijakan Privasi" }
+[:octicons-info-16:](https://support.apple.com/guide/iphone/browse-the-web-iph1fbef4daa/ios){ .card-link title="Dokumentasi" }
 
 </details>
 
 </div>
 
-### Recommended Safari Configuration
+### Konfigurasi Safari yang Direkomendasikan
 
-The following privacy/security-related options can be found in :gear: **Settings** → **Apps** → **Safari**.
+Opsi terkait privasi/keamanan berikut ini dapat ditemukan di :gear: **Settings** → **Apps** → **Safari**.
 
 #### Allow Safari to Access
 
-Under **Siri**:
+Dibawah **Siri**:
 
-- [ ] Disable **Learn from this App**
-- [ ] Disable **Show in App**
-- [ ] Disable **Show on Home Screen**
-- [ ] Disable **Suggest App**
+- [ ] Nonaktifkan **Learn from this App**
+- [ ] Nonaktifkan **Show in App**
+- [ ] Nonaktifkan **Show on Home Screen**
+- [ ] Nonaktifkan **Suggest App**
 
-This prevents Siri from using content from Safari for Siri suggestions.
+Hal ini mencegah Siri menggunakan konten dari Safari untuk saran Siri.
 
 #### Search
 
-- [ ] Disable **Search Engine Suggestions**
+- [ ] Nonaktifkan **Search Engine Suggestions**
 
-This setting sends whatever you type in the address bar to the search engine set in Safari. Dengan menonaktifkan saran pencarian, Anda dapat mengontrol data yang Anda kirimkan ke penyedia mesin pencari dengan lebih tepat.
+Pengaturan ini mengirimkan apa pun yang Anda ketik di bilah alamat ke mesin pencari yang diatur di Safari. Dengan menonaktifkan saran pencarian, Anda dapat mengontrol data yang Anda kirimkan ke penyedia mesin pencari dengan lebih tepat.
 
-#### Profiles
+#### Proflles
 
-Safari allows you to separate your browsing with different profiles. All of your cookies, history, and website data are separate for each profile. You should use different profiles for different purposes e.g. Shopping, Work, or School.
+Safari memungkinkan Anda untuk memisahkan penjelajahan dengan profil yang berbeda. Semua cookie, riwayat, dan data situs web Anda terpisah untuk setiap profil. Anda harus menggunakan profil yang berbeda untuk tujuan yang berbeda, misalnya Belajar, Kerja, atau Sekolah.
 
 #### Privasi & Keamanan
 
-- [x] Enable **Prevent Cross-Site Tracking**
+- [x] Aktifkan **Prevent Cross-Site Tracking**
 
-This enables WebKit's [Intelligent Tracking Protection](https://webkit.org/tracking-prevention/#intelligent-tracking-prevention-itp). The feature helps protect against unwanted tracking by using on-device machine learning to stop trackers. ITP protects against many common threats, but does not block all tracking avenues because it is designed to not interfere with website usability.
+Hal ini memungkinkan [Perlindungan Pelacakan Cerdas](https://webkit.org/tracking-prevention/#intelligent-tracking-prevention-itp) Webkit. Fitur ini membantu melindungi dari pelacakan yang tidak diinginkan dengan menggunakan pembelajaran mesin pada perangkat untuk menghentikan pelacak. ITP melindungi dari banyak ancaman umum, tetapi tidak memblokir semua jalan pelacakan karena dirancang untuk tidak mengganggu kegunaan situs web.
 
-- [x] Enable **Require Face ID/Touch ID to Unlock Private Browsing**
+- [x] Aktifkan **Require Face ID/Touch ID to Unlock Private Browsing**
 
-This setting allows you to lock your private tabs behind biometrics/PIN when not in use.
+Pengaturan ini memungkinkan Anda untuk mengunci tab pribadi Anda di belakang biometrik/PIN ketika tidak digunakan.
 
-- [ ] Disable **Fraudulent Website Warning**
+- [ ] Nonaktifkan **Fraudulent Website Warning**
 
-This setting uses Google Safe Browsing (or Tencent Safe Browsing for users in mainland China or Hong Kong) to protect you while you browse. As such, your IP address may be logged by your Safe Browsing provider. Disabling this setting will disable this logging, but you might be more vulnerable to known phishing sites.
+Pengaturan ini menggunakan Google Safe Browsing (atau Tencent Safe Browsing untuk pengguna di Tiongkok atau Hong Kong) untuk melindungi Anda saat menjelajah. Dengan demikian, alamat IP Anda mungkin dicatat oleh penyedia Safe Browsing Anda. Disabling this setting will disable this logging, but you might be more vulnerable to known phishing sites.
 
 - [x] Enable **Not Secure Connection Warning**
 
