@@ -1,24 +1,24 @@
 ---
-meta_title: "Ad-Free Privacy Tool/Service Recommendations - Privacy Guides"
-title: "Narzędzia ochrony prywatności"
+meta_title: "Zalecenia narzędzi i usługi do ochrony prywatności bez reklam – Privacy Guides"
+title: "Narzędzia do ochrony prywatności"
 icon: material/tools
 hide:
   - toc
-description: A complete list of the privacy tools, services, software, and hardware recommended by the Privacy Guides community.
+description: Pełna lista narzędzi, usług, oprogramowania i sprzętu do ochrony prywatności polecanych przez społeczność Privacy Guides.
 ---
 
-Jeśli szukasz konkretnego rozwiązania, oto polecane przez nas narzędzia oraz oprogramowanie w różnych kategoriach. Polecane przez nas narzędzia zostały wybrane głównie na podstawie funkcji zabezpieczeń z dodatkowym naciskiem na te o zdecentralizowane i o otwartym kodzie żródłowym. They are applicable to a variety of threat models ranging from protection against global mass surveillance programs and avoiding big tech companies to mitigating attacks, but only you can determine what will work best for your needs.
+Jeśli szukasz konkretnego rozwiązania, oto zalecany przez nas sprzęt i oprogramowanie w różnych kategoriach. Nasze zalecenia dotyczące narzędzi do ochrony prywatności opierają się przede wszystkim na funkcjach bezpieczeństwa, z dodatkowym naciskiem na narzędzia zdecentralizowane i open source. Nadają się do różnych modeli zagrożeń — od ochrony przed globalnymi systemami masowej inwigilacji i unikania wielkich firm technologicznych po łagodzenie ataków — ale ostatecznie to Ty musisz zdecydować, co najlepiej odpowiada Twoim potrzebom.
 
 <div class="grid" markdown>
 
 <div markdown>
-[VPN Providers](vpn.md){ .md-button }
-[Password Managers](passwords.md){ .md-button }
-[Email Providers](email.md){ .md-button }
-[Browser Extensions](browser-extensions.md){ .md-button }
-[DNS Servers](dns.md){ .md-button }
-[Email Aliasing Services](email-aliasing.md){ .md-button }
-[Photo Organization Tools](photo-management.md){ .md-button }
+[Dostawcy VPN](vpn.md){ .md-button }
+[Menedżery haseł](passwords.md){ .md-button }
+[Dostawcy poczty e-mail](email.md){ .md-button }
+[Rozszerzenia przeglądarki](browser-extensions.md){ .md-button }
+[Serwery DNS](dns.md){ .md-button }
+[Usługi aliasingu e-mail](email-aliasing.md){ .md-button }
+[Narzędzia do porządkowania zdjęć](photo-management.md){ .md-button }
 </div>
 
 </div>
@@ -27,22 +27,22 @@ Jeśli szukasz konkretnego rozwiązania, oto polecane przez nas narzędzia oraz 
 
 <div class="admonition info" markdown>
 
-[Self-hosting recommendations](self-hosting/index.md) have been moved to their own category.
+[Zalecenia dotyczące samodzielnego hostowania](self-hosting/index.md) zostały przeniesione do osobnej kategorii.
 
 </div>
 
 </div>
 
-If you want assistance figuring out the best privacy tools and alternative programs for your needs, start a discussion on our [forum](https://discuss.privacyguides.net) or our [Matrix](https://matrix.to/#/#privacyguides:matrix.org) community!
+Jeśli potrzebujesz pomocy w ustaleniu, które narzędzia do ochrony prywatności i alternatywne programy będą najlepsze dla Twoich potrzeb, rozpocznij dyskusję na naszym [forum](https://discuss.privacyguides.net) lub w naszej społeczności [Matrix](https://matrix.to/#/#privacyguides:matrix.org)!
 
-For more details about each project, why they were chosen, and additional tips or tricks we recommend, click the "Learn more" link in each section, or click on the recommendation itself to be taken to that specific section of the page.
+Aby uzyskać więcej informacji na temat każdego projektu, dlaczego został wybrany, oraz dodatkowe wskazówki i porady, kliknij link „Dowiedz się więcej” w danej sekcji albo kliknij bezpośrednio na zalecenie, by przejść do konkretnej sekcji strony.
 
 <div class="grid" markdown>
 
 <div markdown>
-- [x] **Ad-Free Recommendations**
-- [x] **Frequent Updates**
-- [x] **Trusted by Readers**
+- [x] **Zalecenia bez reklam**
+- [x] **Częste aktualizacje**
+- [x] **Zaufanie czytelników**
 </div>
 
 <div markdown>
