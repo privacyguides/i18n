@@ -29,7 +29,7 @@ schema:
 - [:material-eye-outline: Masowa inwigilacja](basics/common-threats.md#mass-surveillance-programs ""){.pg-blue}
 - [:material-close-outline: Cenzura](basics/common-threats.md#avoiding-censorship ""){.pg-blue-gray}
 
-**Tor** to sieć serwerów prowadzonych przez wolontariuszy, która pozwala na bezpłatne połączenie i zwiększenie prywatności oraz bezpieczeństwa w Internecie. Osoby fizyczne i organizacje mogą również wymieniać się informacjami w sieci Tor za pomocą „ukrytych usług .onion”, nie narażając swojej prywatności. Dzięki temu, że ruch w sieci Tor jest trudny do zablokowania i namierzenia, Tor stanowi skuteczne narzędzie do omijania cenzury.
+**Tor** to sieć serwerów prowadzonych przez wolontariuszy, która pozwala na bezpłatne połączenie i zwiększenie prywatności oraz bezpieczeństwa w Internecie. Osoby i organizacje mogą również wymieniać się informacjami w sieci Tor za pomocą „ukrytych usług .onion”, nie narażając swojej prywatności. Dzięki temu, że ruch w sieci Tor jest trudny do zablokowania i namierzenia, Tor stanowi skuteczne narzędzie do omijania cenzury.
 
 [Szczegółowy przegląd sieci Tor :material-arrow-right-drop-circle:](advanced/tor-overview.md ""){.md-button.md-button--primary} [:material-movie-open-play-outline: Wideo: Dlaczego warto korzystać z sieci Tor?](https://www.privacyguides.org/videos/2025/03/02/why-you-need-tor ""){.md-button}
 

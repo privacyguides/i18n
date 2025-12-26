@@ -46,48 +46,48 @@ Aby uzyskać więcej informacji na temat każdego projektu, dlaczego został wyb
 </div>
 
 <div markdown>
-- [x] **Complete Editorial Independence**
-- [x] **Open-Source Contributions**
-- [x] **Trusted by Journalists**
+- [x] **Pełna niezależność redakcyjna**
+- [x] **Wkład open source**
+- [x] **Zaufanie dziennikarzy**
 </div>
 
 </div>
 
-## Private Web Browsers
+## Prywatne przeglądarki internetowe
 
 <div class="admonition recommendation" markdown>
 
-![Tor Browser logo](assets/img/browsers/tor.svg){ align=left }
+![Logo Tor Browser](assets/img/browsers/tor.svg){ align=left }
 
-**Tor Browser** (Desktop & Android) is the top choice if you need anonymity, as it provides you with access to the **Tor** network, a group of volunteer-operated servers that allows you to connect for free and improve your privacy and security on the Internet. Osoby fizyczne i organizacje mogą również wymieniać się informacjami w sieci Tor za pomocą „ukrytych usług .onion”, nie narażając swojej prywatności. Dzięki temu, że ruch w sieci Tor jest trudny do zablokowania i namierzenia, Tor stanowi skuteczne narzędzie do omijania cenzury.
+**Tor Browser** (na komputery stacjonarne i urządzenia z Androidem) to najlepszy wybór, jeśli potrzebujesz anonimowości, ponieważ zapewnia ona dostęp do sieci **Tor**, czyli sieci serwerów prowadzonych przez wolontariuszy, które umożliwiają bezpłatne połączenie i poprawę prywatności oraz bezpieczeństwa w sieci. Osoby i organizacje mogą również wymieniać się informacjami w sieci Tor za pomocą „ukrytych usług .onion”, nie narażając swojej prywatności. Dzięki temu, że ruch w sieci Tor jest trudny do zablokowania i namierzenia, Tor stanowi skuteczne narzędzie do omijania cenzury.
 
-[Read Our Full Review :material-arrow-right-drop-circle:](tor.md){ .md-button .md-button--primary }
+[Przeczytaj naszą pełną recenzję :material-arrow-right-drop-circle:](tor.md){ .md-button .md-button--primary }
 
 </div>
 
 <div class="grid cards" markdown>
 
-- ![Mullvad Browser logo](assets/img/browsers/mullvad_browser.svg){ .lg .middle .twemoji } **Mullvad Browser**
+- ![Logo przeglądarki Mullvad](assets/img/browsers/mullvad_browser.svg){ .lg .middle .twemoji } **Przeglądarka Mullvad**
 
     ---
 
-    **Mullvad Browser** is a version of [Tor Browser](tor.md#tor-browser) with Tor network integrations removed, aimed at providing Tor Browser's anti-fingerprinting browser technologies to VPN users.
+    **Przeglądarka Mullvad** to wersja przeglądarki [Tor Browser](tor.md#tor-browser) z usuniętymi integracjami z siecią Tor, mająca na celu zapewnienie użytkownikom VPN technologii ochrony przed identyfikacją przeglądarki.
 
-    - [Read Full Review :material-arrow-right-drop-circle:](desktop-browsers.md#mullvad-browser)
+    - [Przeczytaj pełną recenzję :material-arrow-right-drop-circle:](desktop-browsers.md#mullvad-browser)
 
-- ![Firefox logo](assets/img/browsers/firefox.svg){ .lg .middle .twemoji } **Firefox**
-
-    ---
-
-    **Firefox** is a great Chromium alternative which provides strong privacy settings such as [Enhanced Tracking Protection](https://support.mozilla.org/kb/enhanced-tracking-protection-firefox-desktop), which can help block various [types of tracking](https://support.mozilla.org/kb/enhanced-tracking-protection-firefox-desktop#w_what-enhanced-tracking-protection-blocks).
-
-    - [Read Full Review :material-arrow-right-drop-circle:](desktop-browsers.md#firefox)
-
-- ![Brave logo](assets/img/browsers/brave.svg){ .lg .middle .twemoji } **Brave Browser**
+- ![Logo Firefoksa](assets/img/browsers/firefox.svg){ .lg .middle .twemoji } **Firefox**
 
     ---
 
-    **Brave** is a private-by-default browser based on Chromium, so it should feel familiar and have minimal website compatibility issues.
+    **Firefox** to świetna alternatywa dla Chromium, oferująca zaawansowane ustawienia prywatności, takie jak [wzmocniona ochrona przed śledzeniem](https://support.mozilla.org/pl/kb/wzmocniona-ochrona-przed-sledzeniem-firefox-desktop), mogą pomóc zablokować różne [rodzaje śledzenia](https://support.mozilla.org/pl/kb/wzmocniona-ochrona-przed-sledzeniem-firefox-desktop#w_co-blokuje-wzmocniona-ochrona-przed-sledzeniem).
+
+    - [Przeczytaj pełną recenzję :material-arrow-right-drop-circle:](desktop-browsers.md#firefox)
+
+- ![Logo Brave](assets/img/browsers/brave.svg){ .lg .middle .twemoji } **Przeglądarka Brave**
+
+    ---
+
+    **Brave** to przeglądarka domyślnie nastawiona na prywatność, oparta na Chromium, dzięki czemu jej interfejs i działanie powinny być dobrze znane większości osób, a problemy ze zgodnością stron internetowych są minimalne.
 
     - [Brave Desktop Review :material-arrow-right-drop-circle:](desktop-browsers.md#brave)
     - [Brave Mobile Review :material-arrow-right-drop-circle:](mobile-browsers.md#brave)
