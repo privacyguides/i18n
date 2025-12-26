@@ -321,71 +321,71 @@ Pengaturan ini memungkinkan Anda untuk mengunci tab pribadi Anda di belakang bio
 
 - [ ] Nonaktifkan **Fraudulent Website Warning**
 
-Pengaturan ini menggunakan Google Safe Browsing (atau Tencent Safe Browsing untuk pengguna di Tiongkok atau Hong Kong) untuk melindungi Anda saat menjelajah. Dengan demikian, alamat IP Anda mungkin dicatat oleh penyedia Safe Browsing Anda. Disabling this setting will disable this logging, but you might be more vulnerable to known phishing sites.
+Pengaturan ini menggunakan Google Safe Browsing (atau Tencent Safe Browsing untuk pengguna di Tiongkok atau Hong Kong) untuk melindungi Anda saat menjelajah. Dengan demikian, alamat IP Anda mungkin dicatat oleh penyedia Safe Browsing Anda. Menonaktifkan pengaturan ini akan menonaktifkan logging, tetapi Anda mungkin akan lebih rentan terhadap situs-situs phishing yang dikenal.
 
-- [x] Enable **Not Secure Connection Warning**
+- [x] Aktifkan **Not Secure Connection Warning**
 
-This setting shows a warning screen if your connection to a website isn't using HTTPS. Safari will automatically try to upgrade the site to HTTPS, so you should only see this when there is no HTTPS connection available.
+Pengaturan ini menampilkan layar peringatan jika koneksi Anda ke situs web tidak menggunakan HTTPS. Safari akan secara otomatis mencoba meningkatkan situs ke HTTPS, jadi Anda hanya akan melihat ini ketika tidak ada koneksi HTTPS yang tersedia.
 
-- [ ] Disable **Highlights**
+- [ ] Nonaktifkan **Highlights**
 
-Apple's privacy policy for Safari states:
+Kebijakan privasi Apple untuk Safari menyatakan:
 
-> When visiting a webpage, Safari may send information calculated from the webpage address to Apple over OHTTP to determine if relevant highlights are available.
+> Saat mengunjungi halaman web, Safari dapat mengirimkan informasi yang dihitung dari alamat halaman web ke Apple melalui OHTTP untuk menentukan apakah sorotan yang relevan tersedia.
 
-#### Settings for Websites
+#### Pengaturan untuk Situs Web
 
-Under **Camera**
+Di bawah **Camera**
 
-- [x] Select **Ask**
+- [x] Pilih **Ask**
 
-Under **Microphone**
+Di bawa **Microphone**
 
-- [x] Select **Ask**
+- [x] Pilih **Ask**
 
-Under **Location**
+Di bawah **Location**
 
-- [x] Select **Ask**
+- [x] Pilih **Ask**
 
-These settings ensure that websites can only access your camera, microphone, or location after you explicitly grant them access.
+Pengaturan ini memastikan bahwa situs web hanya dapat mengakses kamera, mikrofon, atau lokasi Anda setelah Anda secara eksplisit memberikan akses kepada mereka.
 
-#### Other Privacy Settings
+#### Pengaturan Privasi Lainnya
 
-These options can be found in :gear: **Settings** → **Apps** → **Safari** → **Advanced**.
+Opsi ini dapat ditemukan di :gear: **Settings** → **Apps** → **Safari** → **Advanced**.
 
-##### Fingerprinting Mitigations
+##### Mitigasi Fingerprinting
 
-The **Advanced Tracking and Fingerprinting Protection** setting will randomize certain values so that it's more difficult to fingerprint you:
+Pengaturan **Advanced Tracking and Fingerprinting Protection** akan mengacak nilai tertentu sehingga fingerprinting Anda akan lebih sulit:
 
-- [x] Select **All Browsing** or **Private Browsing**
+- [x] Pilih **All Browsing** atau **Private Browsing**
 
 ##### Privacy Preserving Ad Measurement
 
-- [ ] Disable **Privacy Preserving Ad Measurement**
+- [ ] Nonaktifkan **Privacy Preserving Ad Measurement**
 
-Ad click measurement has traditionally used tracking technology that infringes on user privacy. [Private Click Measurement](https://webkit.org/blog/11529/introducing-private-click-measurement-pcm) is a WebKit feature and proposed web standard aimed towards allowing advertisers to measure the effectiveness of web campaigns without compromising on user privacy.
+Pengukuran klik iklan secara tradisional menggunakan teknologi pelacakan yang melanggar privasi pengguna. [Private Click Measurement](https://webkit.org/blog/11529/introducing-private-click-measurement-pcm) adalah fitur WebKit dan standar web yang bertujuan untuk memungkinkan pengiklan mengukur efektivitas kampanye web tanpa mengorbankan privasi pengguna.
 
-The feature has little privacy concerns on its own, so while you can choose to leave it on, we consider the fact that it's automatically disabled in Private Browsing to be an indicator for disabling the feature.
+Fitur ini memiliki sedikit masalah privasi, jadi meskipun Anda dapat memilih untuk membiarkannya aktif, kami menganggap fakta bahwa fitur ini dinonaktifkan secara otomatis di Private Browsing sebagai indikator untuk menonaktifkan fitur tersebut.
 
 #### Always-on Private Browsing
 
-Open Safari and tap the Tabs button, located in the bottom right. Then, expand the :material-format-list-bulleted: Tab Groups list.
+Buka Safari dan ketuk tombol Tab, yang terletak di kanan bawah. Kemudian, perluas daftar :material-format-list-bulleted: Tab Groups.
 
-- [x] Select **Private**
+- [x] Pilih **Private**
 
-Safari's Private Browsing mode offers additional privacy protections. Private Browsing uses a new [ephemeral](https://developer.apple.com/documentation/foundation/urlsessionconfiguration/1410529-ephemeral) session for each tab, meaning tabs are isolated from one another. There are other smaller privacy benefits with Private Browsing too, such as not sending a webpage’s address to Apple when using Safari's translation feature.
+Mode Safari Private Browsing menawarkan perlindungan privasi tambahan. Private Browsing menggunakan sesi [ephemeral](https://developer.apple.com/documentation/foundation/urlsessionconfiguration/1410529-ephemeral) untuk setiap tab, yang berarti tab-tab tersebut terpisah satu sama lain. Ada juga manfaat privasi lain yang lebih kecil dengan Private Browsing, seperti tidak mengirimkan alamat halaman web ke Apple saat menggunakan fitur terjemahan Safari.
 
-Do note that Private Browsing does not save cookies and website data, so it won't be possible to remain signed in to sites. This may be an inconvenience.
+Harap diperhatikan bahwa Private Browsing tidak menyimpan cookie dan data situs web, sehingga Anda tidak dapat tetap masuk ke situs. Hal ini mungkin merepotkan.
 
 #### iCloud Sync
 
-Synchronization of Safari History, Tab Groups, iCloud Tabs and saved passwords are E2EE. However, by default, bookmarks are [not](https://support.apple.com/HT202303). Apple can decrypt and access them in accordance with their [privacy policy](https://apple.com/legal/privacy/en-ww).
+Sinkronisasi Riwayat Safari, Group Tab, iCloud Tab dan kata sandi yang disimpan adalah E2EE. Namun demikian, secara default, bookmark [tidak](https://support.apple.com/HT202303) digunakan. Apple dapat mendekripsi dan mengaksesnya sesuai dengan [kebijakan privasi](https://apple.com/legal/privacy/en-ww) mereka.
 
-You can enable E2EE for your Safari bookmarks and downloads by enabling [Advanced Data Protection](https://support.apple.com/HT212520). Go to :gear: **Settings** → **iCloud** → **Advanced Data Protection**.
+Anda dapat mengaktifkan E2EE untuk penanda dan unduhan Safari dengan mengaktifkan [Advanced Data Protection](https://support.apple.com/HT212520). Buka :gear: **Settings** → **iCloud** → **Advanced Data Protection**.
 
-- [x] Turn on **Advanced Data Protection**
+- [x] Aktifkan **Advanced Data Protection**
 
-If you use iCloud with Advanced Data Protection disabled, we also recommend setting Safari's default download location to a local folder on your device. This option can be found in :gear: **Settings** → **Apps** → **Safari** → **General** → **Downloads**.
+Jika Anda menggunakan iCloud dengan Advanced Data Protection dinonaktifkan, kami juga menyarankan untuk mengatur lokasi unduhan default Safari ke folder lokal di perangkat Anda. Opsi ini dapat ditemukan di :gear: **Settings** → **Apps** → **Safari** → **General** → **Downloads**.
 
 ## Kriteria
 
@@ -393,7 +393,7 @@ If you use iCloud with Advanced Data Protection disabled, we also recommend sett
 
 ### Persyaratan Minimum
 
-- Must support automatic updates.
-- Must receive engine updates from upstream releases quickly.
-- Must support content blocking.
-- Any changes required to make the browser more privacy-respecting should not negatively impact user experience.
+- Harus mendukung pembaruan otomatis.
+- Harus menerima pembaruan mesin dari rilis hulu dengan cepat.
+- Harus mendukung pemblokiran konten.
+- Perubahan apa pun yang diperlukan untuk membuat permban lebih menghargai privasi tidak boleh berdampak negatif pada pengalaman pengguna.

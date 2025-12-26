@@ -158,6 +158,6 @@ CommonHealth is only available in the United States. Although the app itself is 
 
 ### Persyaratan Minimum
 
-- Must support automatic updates.
+- Harus mendukung pembaruan otomatis.
 - Must not store unencrypted data outside the device.
 - Must function offline.
