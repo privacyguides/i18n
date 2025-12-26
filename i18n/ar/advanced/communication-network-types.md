@@ -1,34 +1,34 @@
 ---
-title: "Types of Communication Networks"
+title: "أنواع شبكات الاتصال"
 icon: 'material/transit-connection-variant'
-description: An overview of several network architectures commonly used by instant messaging applications.
+description: استعراض سريع لعدد من تصميمات الشبكات التي تعتمد عليها غالبا تطبيقات المراسلة الفورية.
 ---
 
-There are several network architectures commonly used to relay messages between people. These networks can provide different privacy guarantees, which is why it's worth considering your [threat model](../basics/threat-modeling.md) when deciding which app to use.
+هناك اكثر من طريقة معروفة لبناء الشبكات بهدف توصيل الرسائل بين المستخدمين. هذه الشبكات قد توفر درجات مختلفة من الخصوصية، لذلك من المهم ان تفكر في [نموذج التهديد (Threat Model)](../basics/threat-modeling.md) الخاص بك عند اختيار التطبيق الذي ستستخدمه.
 
-[Recommended Instant Messengers](../real-time-communication.md ""){.md-button} [:material-movie-open-play-outline: Video: It's time to stop using SMS](https://www.privacyguides.org/videos/2025/01/24/its-time-to-stop-using-sms-heres-why ""){.md-button}
+[تطبيقات المراسلة الفورية (Instant Messengers) الموصى بها](../real-time-communication.md ""){.md-button} [:material-movie-open-play-outline: فيديو: حان الوقت للتوقف عن استخدام SMS، وهذه هي الاسباب](https://www.privacyguides.org/videos/2025/01/24/its-time-to-stop-using-sms-heres-why ""){.md-button}
 
-## Centralized Networks
+## شبكات بخادم واحد مركزي
 
-![Centralized networks diagram](../assets/img/layout/network-centralized.svg){ align=left }
+![رسم توضيحي للشبكات المركزية](../assets/img/layout/network-centralized.svg){ align=left }
 
-Centralized messengers are those where all participants are on the same server or network of servers controlled by the same organization.
+تطبيقات المراسلة المركزية (Centralized messengers) هي التي يكون فيها كل المستخدمين على نفس الخادم، او على شبكة خوادم تديرها وتتحكم بها جهة واحدة (شركة او منظمة).
 
-Some self-hosted messengers allow you to set up your own server. Self-hosting can provide additional privacy guarantees, such as no usage logs or limited access to metadata (data about who is talking to whom). Self-hosted centralized messengers are isolated and everyone must be on the same server to communicate.
+بعض تطبيقات المراسلة ذات الاستضافة الذاتية (self-hosted) تتيح لك تشغيل خادمك الخاص. الاستضافة الذاتية (Self-hosting) قد تمنحك مزيدا من ضمانات الخصوصية، مثل عدم وجود سجلات استخدام (no logs)، او تقليل الوصول الى البيانات الوصفية (metadata) (مثل معلومات عن من يتواصل مع من). في هذا النوع من تطبيقات المراسلة، الاستضافة الذاتية تعني ان الشبكة تكون منفصلة، ويجب ان ينضم كل الاطراف الى نفس الخادم لكي يتحدثوا.
 
-**Advantages:**
+**ما الذي يميزها:**
 
-- New features and changes can be implemented more quickly.
-- Easier to get started with and to find contacts.
-- Most mature and stable features ecosystems, as they are easier to program in a centralized software.
-- Privacy issues may be reduced when you trust a server that you're self-hosting.
+- من السهل طرح ميزات جديدة واجراء تعديلات بشكل اسرع.
+- سهل الاستخدام من البداية، ويساعدك على العثور على معارفك بسرعة.
+- غالبا تقدم مجموعة ميزات اوسع واكثر استقرارا، لان بناءها وتطويرها يكون ابسط ضمن نظام مركزي.
+- قد تصبح مشكلات الخصوصية اقل اذا كان الخادم تحت سيطرتك وتقوم باستضافته بنفسك.
 
-**Disadvantages:**
+**العيوب:**
 
-- Can include [restricted control or access](https://drewdevault.com/2018/08/08/Signal.html). This can include things like:
-- Being [forbidden from connecting third-party clients](https://github.com/LibreSignal/LibreSignal/issues/37#issuecomment-217211165) to the centralized network that might provide for greater customization or a better experience. Often defined in Terms and Conditions of usage.
-- Poor or no documentation for third-party developers.
-- The [ownership](https://web.archive.org/web/20210729191953/https://blog.privacytools.io/delisting-wire), privacy policy, and operations of the service can change easily when a single entity controls it, potentially compromising the service later on.
+- قد ينتج عنها [ قيود على التحكم او على امكانية الوصول](https://drewdevault.com/2018/08/08/Signal.html). وقد يشمل ذلك امورا مثل:
+- عدم السماح لبرامج طرف ثالث [بالاتصال بالشبكة المركزية](https://github.com/LibreSignal/LibreSignal/issues/37#issuecomment-217211165)، مع انها قد تقدم مرونة اعلى او تجربة استخدام افضل. في الغالب تجد هذه التفاصيل منصوصا عليها في بنود وشروط الاستخدام.
+- نقص في الوثائق والارشادات (documentation) التي يحتاجها مطورو الطرف الثالث (third-party developers)، او عدم توفرها اساسا.
+- اذا كانت الخدمة بيد جهة واحدة، فمن السهل ان تتبدل [ملكيتها](https://web.archive.org/web/20210729191953/https://blog.privacytools.io/delisting-wire)او سياسة الخصوصية او اسلوب ادارتها، ومع الوقت قد ينعكس ذلك سلبا على خصوصية المستخدمين.
 - Self-hosting requires effort and knowledge of how to set up a service.
 
 ## Federated Networks
@@ -39,14 +39,14 @@ Federated messengers use multiple, independent, decentralized servers that are a
 
 When self-hosted, members of a federated server can discover and communicate with members of other servers, although some servers may choose to remain private by being non-federated (e.g., work team server).
 
-**Advantages:**
+**ما الذي يميزها:**
 
 - Allows for greater control over your own data when running your own server.
 - Allows you to choose whom to trust your data with by choosing between multiple "public" servers.
 - Often allows for third-party clients which can provide a more native, customized, or accessible experience.
 - Server software can be verified that it matches public source code, assuming you have access to the server, or you trust the person who does (e.g., a family member).
 
-**Disadvantages:**
+**العيوب:**
 
 - Adding new features is more complex because these features need to be standardized and tested to ensure they work with all servers on the network.
 - Due to the previous point, features can be lacking, or incomplete or working in unexpected ways compared to centralized platforms, such as message relay when offline or message deletion.
@@ -66,12 +66,12 @@ Once a peer has found a route to its contact via any of these methods, a direct 
 
 P2P networks do not use servers, as peers communicate directly between each other and hence cannot be self-hosted. However, some additional services may rely on centralized servers, such as user discovery or relaying offline messages, which can benefit from self-hosting.
 
-**Advantages:**
+**ما الذي يميزها:**
 
 - Minimal information is exposed to third-parties.
 - Modern P2P platforms implement E2EE by default. There are no servers that could potentially intercept and decrypt your transmissions, unlike centralized and federated models.
 
-**Disadvantages:**
+**العيوب:**
 
 - Reduced feature set:
 - Messages can only be sent when both peers are online, however, your client may store messages locally to wait for the contact to return online.
@@ -89,12 +89,12 @@ There are [many](https://doi.org/10.1145/3182658) ways to implement anonymous ro
 
 Self-hosting a node in an anonymous routing network does not provide the host with additional privacy benefits, but rather contributes to the whole network's resilience against identification attacks for everyone's benefit.
 
-**Advantages:**
+**ما الذي يميزها:**
 
 - Minimal to no information is exposed to other parties.
 - Messages can be relayed in a decentralized manner even if one of the parties is offline.
 
-**Disadvantages:**
+**العيوب:**
 
 - Slow message propagation.
 - Often limited to fewer media types, mostly text, since the network is slow.
