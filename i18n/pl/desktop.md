@@ -1,5 +1,5 @@
 ---
-title: "Magazyny chmurowe"
+title: "Na komputery stacjonarne/osobiste"
 icon: simple/linux
 description: Dystrybucje systemu Linux są powszechnie polecane, jeśli chodzi o ochronę prywatności oraz wolne oprogramowanie.
 cover: desktop.webp

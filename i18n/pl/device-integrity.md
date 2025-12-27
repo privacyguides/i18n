@@ -11,7 +11,7 @@ These tools can be used to validate the integrity of your mobile devices and che
 <div class="admonition note" markdown>
 <p class="admonition-title">This is an advanced topic</p>
 
-These tools may provide utility for certain individuals. They provide functionality which most people do not need to worry about, and often require more in-depth technical knowledge to use effectively.
+Te narzędzia mogą być przydatne dla niektórych osób. They provide functionality which most people do not need to worry about, and often require more in-depth technical knowledge to use effectively.
 
 </div>
 

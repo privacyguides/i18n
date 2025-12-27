@@ -1,5 +1,5 @@
 ---
-title: Mobile Phones
+title: Telefony komórkowe
 icon: material/cellphone-check
 description: These mobile devices provide the best hardware security support for custom Android operating systems.
 cover: android.webp

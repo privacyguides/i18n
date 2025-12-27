@@ -1,5 +1,5 @@
 ---
-title: "Pastebins"
+title: "Pastebiny"
 icon: material/content-paste
 description: These tools allow you to have full control of any pasted data you share to other parties.
 cover: pastebins.webp

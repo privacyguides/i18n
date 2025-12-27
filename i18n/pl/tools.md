@@ -472,12 +472,12 @@ Do szyfrowania dysku z systemem operacyjnym zwykle zalecamy użycie narzędzia s
 
 <div class="grid cards" markdown>
 
-- ![Drip logo](assets/img/health-and-wellness/drip.png){ .twemoji loading=lazy } [Drip](health-and-wellness.md#drip)
-- ![Euki logo](assets/img/health-and-wellness/euki.svg){ .twemoji loading=lazy } [Euki](health-and-wellness.md#euki)
-- ![Apple Fitness logo](assets/img/health-and-wellness/apple-fitness.webp){ .twemoji loading=lazy } [Apple Fitness](health-and-wellness.md#apple-fitness)
-- ![Gadgetbridge logo](assets/img/health-and-wellness/gadgetbridge.svg#only-light){ .twemoji loading=lazy }![Gadgetbridge logo](assets/img/health-and-wellness/gadgetbridge-dark.svg#only-dark){ .twemoji loading=lazy } [Gadgetbridge](health-and-wellness.md#gadgetbridge)
-- ![Apple Health logo](assets/img/health-and-wellness/apple-health.webp#only-light){ .twemoji loading=lazy } ![Apple Health logo](assets/img/health-and-wellness/apple-health-dark.webp#only-dark){ .twemoji loading=lazy } [Apple Health Records](health-and-wellness.md#apple-health-records)
-- ![CommonHealth logo](assets/img/health-and-wellness/commonhealth.png){ .twemoji loading=lazy } [CommonHealth](health-and-wellness.md#commonhealth)
+- ![Logo Drip](assets/img/health-and-wellness/drip.png){ .twemoji loading=lazy } [Drip](health-and-wellness.md#drip)
+- ![Logo Euki](assets/img/health-and-wellness/euki.svg){ .twemoji loading=lazy } [Euki](health-and-wellness.md#euki)
+- ![Logo Apple Fitness](assets/img/health-and-wellness/apple-fitness.webp){ .twemoji loading=lazy } [Apple Fitness](health-and-wellness.md#apple-fitness)
+- ![Logo Gadgetbridge](assets/img/health-and-wellness/gadgetbridge.svg#only-light){ .twemoji loading=lazy }![Logo Gadgetbridge](assets/img/health-and-wellness/gadgetbridge-dark.svg#only-dark){ .twemoji loading=lazy } [Gadgetbridge](health-and-wellness.md#gadgetbridge)
+- ![Logo Apple Zdrowie](assets/img/health-and-wellness/apple-health.webp#only-light){ .twemoji loading=lazy } ![Logo Apple Zdrowie](assets/img/health-and-wellness/apple-health-dark.webp#only-dark){ .twemoji loading=lazy } [Rekordy zdrowotne Apple](health-and-wellness.md#apple-health-records)
+- ![Logo CommonHealth](assets/img/health-and-wellness/commonhealth.png){ .twemoji loading=lazy } [CommonHealth](health-and-wellness.md#commonhealth)
 
 </div>
 
@@ -487,47 +487,47 @@ Do szyfrowania dysku z systemem operacyjnym zwykle zalecamy użycie narzędzia s
 
 <div class="grid cards" markdown>
 
-- ![LanguageTool logo](assets/img/language-tools/languagetool.svg#only-light){ .twemoji loading=lazy }![LanguageTool logo](assets/img/language-tools/languagetool-dark.svg#only-dark){ .twemoji loading=lazy } [LanguageTool](language-tools.md#languagetool)
-- ![LibreTranslate logo](assets/img/language-tools/libretranslate.png){ .twemoji } [LibreTranslate](language-tools.md#libretranslate)
+- ![Logo LanguageTool](assets/img/language-tools/languagetool.svg#only-light){ .twemoji loading=lazy }![Logo LanguageTool](assets/img/language-tools/languagetool-dark.svg#only-dark){ .twemoji loading=lazy } [LanguageTool](language-tools.md#languagetool)
+- ![Logo LibreTranslate](assets/img/language-tools/libretranslate.png){ .twemoji } [LibreTranslate](language-tools.md#libretranslate)
 
 </div>
 
 [Dowiedz się więcej :material-arrow-right-drop-circle:](language-tools.md)
 
-### Maps and Navigation Apps
+### Mapy i aplikacje nawigacyjne
 
 <div class="grid cards" markdown>
 
-- ![Organic Maps logo](assets/img/maps/organic-maps.svg){ .twemoji loading=lazy } [Organic Maps](maps.md#organic-maps)
-- ![OsmAnd logo](assets/img/maps/osmand.svg){ .twemoji loading=lazy } [OsmAnd](maps.md#osmand)
+- ![Logo Organic Maps](assets/img/maps/organic-maps.svg){ .twemoji loading=lazy } [Organic Maps](maps.md#organic-maps)
+- ![Logo OsmAnd](assets/img/maps/osmand.svg){ .twemoji loading=lazy } [OsmAnd](maps.md#osmand)
 
 </div>
 
 [Dowiedz się więcej :material-arrow-right-drop-circle:](maps.md)
 
-### Multi-Factor Authentication Tools
+### Narzędzia uwierzytelniania wieloskładnikowego
 
-**Note:** [Hardware security keys](#security-keys) have been moved to their own category.
+**Uwaga:** [Sprzętowe klucze bezpieczeństwa](#security-keys) zostały przeniesione do osobnej kategorii.
 
 <div class="grid cards" markdown>
 
-- ![Ente Auth logo](assets/img/multi-factor-authentication/ente-auth.svg){ .twemoji loading=lazy } [Ente Auth](multi-factor-authentication.md#ente-auth)
-- ![Aegis logo](assets/img/multi-factor-authentication/aegis.png){ .twemoji loading=lazy } [Aegis Authenticator (Android)](multi-factor-authentication.md#aegis-authenticator-android)
+- ![Logo Ente Auth](assets/img/multi-factor-authentication/ente-auth.svg){ .twemoji loading=lazy } [Ente Auth](multi-factor-authentication.md#ente-auth)
+- ![Logo Aegis](assets/img/multi-factor-authentication/aegis.png){ .twemoji loading=lazy } [Aegis Authenticator (Android)](multi-factor-authentication.md#aegis-authenticator-android)
 
 </div>
 
 [Dowiedz się więcej :material-arrow-right-drop-circle:](multi-factor-authentication.md)
 
-### News Aggregators
+### Agregatory wiadomości
 
 <div class="grid cards" markdown>
 
-- ![Akregator logo](assets/img/news-aggregators/akregator.svg){ .twemoji loading=lazy } [Akregator](news-aggregators.md#akregator)
-- ![NewsFlash logo](assets/img/news-aggregators/newsflash.png){ .twemoji loading=lazy } [NewsFlash](news-aggregators.md#newsflash)
-- ![Feeder logo](assets/img/news-aggregators/feeder.png){ .twemoji} [Feeder (Android)](news-aggregators.md#feeder)
-- ![Miniflux logo](assets/img/news-aggregators/miniflux.svg#only-light){ .twemoji loading=lazy }![Miniflux logo](assets/img/news-aggregators/miniflux-dark.svg#only-dark){ .twemoji loading=lazy } [Miniflux](news-aggregators.md#miniflux)
-- ![NetNewsWire logo](assets/img/news-aggregators/netnewswire.png){ .twemoji loading=lazy } [NetNewsWire](news-aggregators.md#netnewswire)
-- ![Newsboat logo](assets/img/news-aggregators/newsboat.svg){ .twemoji loading=lazy } [Newsboat](news-aggregators.md#newsboat)
+- ![Logo Akregator](assets/img/news-aggregators/akregator.svg){ .twemoji loading=lazy } [Akregator](news-aggregators.md#akregator)
+- ![Logo NewsFlash](assets/img/news-aggregators/newsflash.png){ .twemoji loading=lazy } [NewsFlash](news-aggregators.md#newsflash)
+- ![Logo Feeder](assets/img/news-aggregators/feeder.png){ .twemoji} [Feeder (Android)](news-aggregators.md#feeder)
+- ![Logo Miniflux](assets/img/news-aggregators/miniflux.svg#only-light){ .twemoji loading=lazy }![Logo Miniflux](assets/img/news-aggregators/miniflux-dark.svg#only-dark){ .twemoji loading=lazy } [Miniflux](news-aggregators.md#miniflux)
+- ![Logo NetNewsWire](assets/img/news-aggregators/netnewswire.png){ .twemoji loading=lazy } [NetNewsWire](news-aggregators.md#netnewswire)
+- ![Logo Newsboat](assets/img/news-aggregators/newsboat.svg){ .twemoji loading=lazy } [Newsboat](news-aggregators.md#newsboat)
 
 </div>
 
@@ -537,22 +537,22 @@ Do szyfrowania dysku z systemem operacyjnym zwykle zalecamy użycie narzędzia s
 
 <div class="grid cards" markdown>
 
-- ![Standard Notes logo](assets/img/notebooks/standard-notes.svg){ .twemoji loading=lazy } [Standard Notes](notebooks.md#standard-notes)
-- ![Notesnook logo](assets/img/notebooks/notesnook.svg){ .twemoji loading=lazy } [Notesnook](notebooks.md#notesnook)
-- ![Joplin logo](assets/img/notebooks/joplin.svg){ .twemoji loading=lazy } [Joplin](notebooks.md#joplin)
-- ![Cryptee logo](assets/img/notebooks/cryptee.svg#only-light){ .twemoji loading=lazy }![Cryptee logo](assets/img/notebooks/cryptee-dark.svg#only-dark){ .twemoji loading=lazy } [Cryptee](notebooks.md#cryptee)
-- ![Org-mode logo](assets/img/notebooks/org-mode.svg){ .twemoji loading=lazy } [Org-mode](notebooks.md#org-mode)
+- ![Logo Standard Notes](assets/img/notebooks/standard-notes.svg){ .twemoji loading=lazy } [Standard Notes](notebooks.md#standard-notes)
+- ![Logo Notesnook](assets/img/notebooks/notesnook.svg){ .twemoji loading=lazy } [Notesnook](notebooks.md#notesnook)
+- ![Logo Joplin](assets/img/notebooks/joplin.svg){ .twemoji loading=lazy } [Joplin](notebooks.md#joplin)
+- ![Logo Cryptee](assets/img/notebooks/cryptee.svg#only-light){ .twemoji loading=lazy }![Logo Cryptee](assets/img/notebooks/cryptee-dark.svg#only-dark){ .twemoji loading=lazy } [Cryptee](notebooks.md#cryptee)
+- ![Logo Org-mode](assets/img/notebooks/org-mode.svg){ .twemoji loading=lazy } [Org-mode](notebooks.md#org-mode)
 
 </div>
 
 [Dowiedz się więcej :material-arrow-right-drop-circle:](notebooks.md)
 
-### Office Suites
+### Pakiety biurowe
 
 <div class="grid cards" markdown>
 
-- ![LibreOffice logo](assets/img/office-suites/libreoffice.svg){ .twemoji loading=lazy } [LibreOffice](office-suites.md#libreoffice)
-- ![OnlyOffice logo](assets/img/office-suites/onlyoffice.svg){ .twemoji loading=lazy } [OnlyOffice](office-suites.md#onlyoffice)
+- ![Logo LibreOffice](assets/img/office-suites/libreoffice.svg){ .twemoji loading=lazy } [LibreOffice](office-suites.md#libreoffice)
+- ![Logo OnlyOffice](assets/img/office-suites/onlyoffice.svg){ .twemoji loading=lazy } [OnlyOffice](office-suites.md#onlyoffice)
 
 </div>
 
@@ -562,68 +562,68 @@ Do szyfrowania dysku z systemem operacyjnym zwykle zalecamy użycie narzędzia s
 
 <div class="grid cards" markdown>
 
-- ![Bitwarden logo](assets/img/password-management/bitwarden.svg){ .twemoji loading=lazy } [Bitwarden](passwords.md#bitwarden)
-- ![Proton Pass logo](assets/img/password-management/protonpass.svg){ .twemoji loading=lazy } [Proton Pass](passwords.md#proton-pass)
-- ![1Password logo](assets/img/password-management/1password.svg){ .twemoji loading=lazy } [1Password](passwords.md#1password)
-- ![Psono logo](assets/img/password-management/psono.svg){ .twemoji loading=lazy } [Psono](passwords.md#psono)
-- ![KeePassXC logo](assets/img/password-management/keepassxc.svg){ .twemoji loading=lazy } [KeePassXC](passwords.md#keepassxc)
-- ![KeePassDX logo](assets/img/password-management/keepassdx.svg){ .twemoji loading=lazy } [KeePassDX (Android)](passwords.md#keepassdx-android)
-- ![KeePassium logo](assets/img/password-management/keepassium.svg){ .twemoji loading=lazy } [KeePassium (iOS & macOS)](passwords.md#keepassium-ios-macos)
-- ![Gopass logo](assets/img/password-management/gopass.svg){ .twemoji loading=lazy } [Gopass (CLI)](passwords.md#gopass-cli)
+- ![Logo Bitwarden](assets/img/password-management/bitwarden.svg){ .twemoji loading=lazy } [Bitwarden](passwords.md#bitwarden)
+- ![Logo Proton Pass](assets/img/password-management/protonpass.svg){ .twemoji loading=lazy } [Proton Pass](passwords.md#proton-pass)
+- ![Logo 1Password](assets/img/password-management/1password.svg){ .twemoji loading=lazy } [1Password](passwords.md#1password)
+- ![Logo Psono](assets/img/password-management/psono.svg){ .twemoji loading=lazy } [Psono](passwords.md#psono)
+- ![Logo KeePassXC](assets/img/password-management/keepassxc.svg){ .twemoji loading=lazy } [KeePassXC](passwords.md#keepassxc)
+- ![Logo KeePassDX](assets/img/password-management/keepassdx.svg){ .twemoji loading=lazy } [KeePassDX (Android)](passwords.md#keepassdx-android)
+- ![Logo KeePassium](assets/img/password-management/keepassium.svg){ .twemoji loading=lazy } [KeePassium (iOS i macOS)](passwords.md#keepassium-ios-macos)
+- ![Logo Gopass](assets/img/password-management/gopass.svg){ .twemoji loading=lazy } [Gopass (CLI)](passwords.md#gopass-cli)
 
 </div>
 
 [Dowiedz się więcej :material-arrow-right-drop-circle:](passwords.md)
 
-### Pastebins
+### Pastebiny
 
 <div class="grid cards" markdown>
 
-- ![PrivateBin logo](assets/img/pastebins/privatebin.svg){ .twemoji loading=lazy } [PrivateBin](pastebins.md#privatebin)
-- ![Paaster logo](assets/img/pastebins/paaster.svg){ .twemoji loading=lazy } [Paaster](pastebins.md#paaster)
+- ![Logo PrivateBin](assets/img/pastebins/privatebin.svg){ .twemoji loading=lazy } [PrivateBin](pastebins.md#privatebin)
+- ![Logo Paaster](assets/img/pastebins/paaster.svg){ .twemoji loading=lazy } [Paaster](pastebins.md#paaster)
 
 </div>
 
 [Dowiedz się więcej :material-arrow-right-drop-circle:](pastebins.md)
 
-### Real-Time Communication
+### Komunikacja w czasie rzeczywistym
 
 <div class="grid cards" markdown>
 
-- ![Signal logo](assets/img/messengers/signal.svg){ .twemoji loading=lazy } [Signal](real-time-communication.md#signal)
-- ![Briar logo](assets/img/messengers/briar.svg){ .twemoji loading=lazy } [Briar](real-time-communication.md#briar)
-- ![SimpleX Chat logo](assets/img/messengers/simplex.svg){ .twemoji loading=lazy } [SimpleX Chat](real-time-communication.md#simplex-chat)
+- ![Logo Signal](assets/img/messengers/signal.svg){ .twemoji loading=lazy } [Signal](real-time-communication.md#signal)
+- ![Logo Briar](assets/img/messengers/briar.svg){ .twemoji loading=lazy } [Briar](real-time-communication.md#briar)
+- ![Logo SimpleX Chat](assets/img/messengers/simplex.svg){ .twemoji loading=lazy } [SimpleX Chat](real-time-communication.md#simplex-chat)
 
 </div>
 
 [Dowiedz się więcej :material-arrow-right-drop-circle:](real-time-communication.md)
 
-### Social Networks
+### Serwisy społecznościowe
 
 <div class="grid cards" markdown>
 
-- ![Mastodon logo](assets/img/social-networks/mastodon.svg){ .twemoji loading=lazy } [Mastodon](social-networks.md#mastodon)
-- ![Element logo](assets/img/social-networks/element.svg){ .twemoji loading=lazy } [Element](social-networks.md#element)
+- ![Logo Mastodon](assets/img/social-networks/mastodon.svg){ .twemoji loading=lazy } [Mastodon](social-networks.md#mastodon)
+- ![Logo Element](assets/img/social-networks/element.svg){ .twemoji loading=lazy } [Element](social-networks.md#element)
 
 </div>
 
 [Dowiedz się więcej :material-arrow-right-drop-circle:](social-networks.md)
 
-## Sprzęt komputerowy
+## Sprzęt
 
-### Security Keys
+### Klucze bezpieczeństwa
 
 <div class="grid cards" markdown>
 
-- ![Yubico logo](assets/img/security-keys/mini/yubico.svg){ .twemoji loading=lazy } [Yubico Security Key](security-keys.md#yubico-security-key)
-- ![Yubico logo](assets/img/security-keys/mini/yubico.svg){ .twemoji loading=lazy } [YubiKey](security-keys.md#yubikey)
+- ![Logo Yubico](assets/img/security-keys/mini/yubico.svg){ .twemoji loading=lazy } [Yubico Security Key](security-keys.md#yubico-security-key)
+- ![Logo Yubico](assets/img/security-keys/mini/yubico.svg){ .twemoji loading=lazy } [YubiKey](security-keys.md#yubikey)
 - ![Nitrokey](assets/img/security-keys/mini/nitrokey.svg){ .twemoji loading=lazy } [Nitrokey](security-keys.md#nitrokey)
 
 </div>
 
 [Dowiedz się więcej :material-arrow-right-drop-circle:](security-keys.md)
 
-### Mobile Phones
+### Telefony komórkowe
 
 <div class="grid cards" markdown>
 
@@ -635,55 +635,55 @@ Do szyfrowania dysku z systemem operacyjnym zwykle zalecamy użycie narzędzia s
 
 ## Systemy operacyjne
 
-### Mobile
+### Na urządzenia mobilne
 
-#### Custom Android Operating Systems
+#### Niestandardowe systemy operacyjne Android
 
 <div class="grid cards" markdown>
 
-- ![GrapheneOS logo](assets/img/android/grapheneos.svg#only-light){ .twemoji loading=lazy }![GrapheneOS logo](assets/img/android/grapheneos-dark.svg#only-dark){ .twemoji loading=lazy } [GrapheneOS](android/distributions.md#grapheneos)
+- ![Logo GrapheneOS](assets/img/android/grapheneos.svg#only-light){ .twemoji loading=lazy }![Logo GrapheneOS](assets/img/android/grapheneos-dark.svg#only-dark){ .twemoji loading=lazy } [GrapheneOS](android/distributions.md#grapheneos)
 
 </div>
 
 [Dowiedz się więcej :material-arrow-right-drop-circle:](android/distributions.md)
 
-#### Android Apps
+#### Aplikacje na Androida
 
 <div class="grid cards" markdown>
 
-- ![Shelter logo](assets/img/android/mini/shelter.svg){ .twemoji loading=lazy } [Shelter (Work Profiles)](android/general-apps.md#shelter)
-- ![Secure Camera logo](assets/img/android/secure_camera.svg#only-light){ .twemoji loading=lazy }![Secure Camera logo](assets/img/android/secure_camera-dark.svg#only-dark){ .twemoji loading=lazy } [Secure Camera](android/general-apps.md#secure-camera)
-- ![Secure PDF Viewer logo](assets/img/android/secure_pdf_viewer.svg#only-light){ .twemoji loading=lazy }![Secure PDF Viewer logo](assets/img/android/secure_pdf_viewer-dark.svg#only-dark){ .twemoji loading=lazy } [Secure PDF Viewer](android/general-apps.md#secure-pdf-viewer)
+- ![Logo Shelter](assets/img/android/mini/shelter.svg){ .twemoji loading=lazy } [Shelter (profile służbowe)](android/general-apps.md#shelter)
+- ![Logo Secure Camera](assets/img/android/secure_camera.svg#only-light){ .twemoji loading=lazy }![Logo Secure Camera](assets/img/android/secure_camera-dark.svg#only-dark){ .twemoji loading=lazy } [Secure Camera](android/general-apps.md#secure-camera)
+- ![Logo Secure PDF Viewer](assets/img/android/secure_pdf_viewer.svg#only-light){ .twemoji loading=lazy }![Logo Secure PDF Viewer](assets/img/android/secure_pdf_viewer-dark.svg#only-dark){ .twemoji loading=lazy } [Secure PDF Viewer](android/general-apps.md#secure-pdf-viewer)
 
 </div>
 
 [Dowiedz się więcej :material-arrow-right-drop-circle:](android/general-apps.md)
 
-#### Ways to Obtain Android Apps
+#### Sposoby pozyskiwania aplikacji na Androida
 
 <div class="grid cards" markdown>
 
-- ![Obtainium logo](assets/img/android/obtainium.svg){ .twemoji loading=lazy } [Obtainium (App Manager)](android/obtaining-apps.md#obtainium)
-- ![Aurora Store logo](assets/img/android/aurora-store.webp){ .twemoji loading=lazy } [Aurora Store (Google Play Client)](android/obtaining-apps.md#aurora-store)
+- ![Logo Obtainium](assets/img/android/obtainium.svg){ .twemoji loading=lazy } [Obtainium (App Manager)](android/obtaining-apps.md#obtainium)
+- ![Logo Aurora Store](assets/img/android/aurora-store.webp){ .twemoji loading=lazy } [Aurora Store (klient Google Play)](android/obtaining-apps.md#aurora-store)
 
 </div>
 
 [Dowiedz się więcej :material-arrow-right-drop-circle:](android/obtaining-apps.md)
 
-### Magazyny chmurowe
+### Na komputery stacjonarne/osobiste
 
 <div class="grid cards" markdown>
 
-- ![Qubes OS logo](assets/img/qubes/qubes_os.svg){ .twemoji loading=lazy } [Qubes OS (Xen VM Distribution)](desktop.md#qubes-os)
-- ![Fedora logo](assets/img/linux-desktop/fedora.svg){ .twemoji loading=lazy } [Fedora Linux](desktop.md#fedora-linux)
-- ![openSUSE Tumbleweed logo](assets/img/linux-desktop/opensuse-tumbleweed.svg){ .twemoji loading=lazy } [openSUSE Tumbleweed](desktop.md#opensuse-tumbleweed)
-- ![Arch logo](assets/img/linux-desktop/archlinux.svg){ .twemoji loading=lazy } [Arch Linux](desktop.md#arch-linux)
-- ![Fedora logo](assets/img/linux-desktop/fedora.svg){ .twemoji loading=lazy } [Fedora Atomic Desktops](desktop.md#fedora-atomic-desktops)
-- ![NixOS logo](assets/img/linux-desktop/nixos.svg){ .twemoji loading=lazy } [NixOS](desktop.md#nixos)
-- ![Whonix logo](assets/img/linux-desktop/whonix.svg){ .twemoji loading=lazy } [Whonix (Tor)](desktop.md#whonix)
-- ![Tails logo](assets/img/linux-desktop/tails.svg){ .twemoji loading=lazy } [Tails (Live Boot)](desktop.md#tails)
-- ![Secureblue logo](assets/img/linux-desktop/secureblue.svg){ .twemoji loading=lazy } [Secureblue](desktop.md#secureblue)
-- ![Kicksecure logo](assets/img/linux-desktop/kicksecure.svg){ .twemoji loading=lazy } [Kicksecure](desktop.md#kicksecure)
+- ![Logo Qubes OS](assets/img/qubes/qubes_os.svg){ .twemoji loading=lazy } [Qubes OS (dystrybucja oparta na maszynach wirtualnych Xen)](desktop.md#qubes-os)
+- ![Logo Fedory](assets/img/linux-desktop/fedora.svg){ .twemoji loading=lazy } [Fedora Linux](desktop.md#fedora-linux)
+- ![Logo openSUSE Tumbleweed](assets/img/linux-desktop/opensuse-tumbleweed.svg){ .twemoji loading=lazy } [openSUSE Tumbleweed](desktop.md#opensuse-tumbleweed)
+- ![Logo Arch](assets/img/linux-desktop/archlinux.svg){ .twemoji loading=lazy } [Arch Linux](desktop.md#arch-linux)
+- ![Logo Fedory](assets/img/linux-desktop/fedora.svg){ .twemoji loading=lazy } [Atomowe pulpity Fedory](desktop.md#fedora-atomic-desktops)
+- ![Logo NixOS](assets/img/linux-desktop/nixos.svg){ .twemoji loading=lazy } [NixOS](desktop.md#nixos)
+- ![Logo Whonix](assets/img/linux-desktop/whonix.svg){ .twemoji loading=lazy } [Whonix (Tor)](desktop.md#whonix)
+- ![Logo Tails](assets/img/linux-desktop/tails.svg){ .twemoji loading=lazy } [Tails (Live Boot)](desktop.md#tails)
+- ![Logo Secureblue](assets/img/linux-desktop/secureblue.svg){ .twemoji loading=lazy } [Secureblue](desktop.md#secureblue)
+- ![Logo Kicksecure](assets/img/linux-desktop/kicksecure.svg){ .twemoji loading=lazy } [Kicksecure](desktop.md#kicksecure)
 
 </div>
 
@@ -693,37 +693,37 @@ Do szyfrowania dysku z systemem operacyjnym zwykle zalecamy użycie narzędzia s
 
 <div class="grid cards" markdown>
 
-- ![OpenWrt logo](assets/img/router/openwrt.svg#only-light){ .twemoji loading=lazy }![OpenWrt logo](assets/img/router/openwrt-dark.svg#only-dark){ .twemoji loading=lazy } [OpenWrt](router.md#openwrt)
-- ![OPNsense logo](assets/img/router/opnsense.svg){ .twemoji loading=lazy } [OPNsense](router.md#opnsense)
+- ![Logo OpenWrt](assets/img/router/openwrt.svg#only-light){ .twemoji loading=lazy }![Logo OpenWrt](assets/img/router/openwrt-dark.svg#only-dark){ .twemoji loading=lazy } [OpenWrt](router.md#openwrt)
+- ![Logo OPNsense](assets/img/router/opnsense.svg){ .twemoji loading=lazy } [OPNsense](router.md#opnsense)
 
 </div>
 
 [Dowiedz się więcej :material-arrow-right-drop-circle:](router.md)
 
-## Advanced Tools
+## Narzędzia zaawansowane
 
-These tools may provide utility for certain individuals. They provide functionality which most people do not need to worry about, and often require more in-depth technical knowledge to utilize effectively.
+Te narzędzia mogą być przydatne dla niektórych osób. Oferują funkcje, którymi większość osób nie musi się przejmować, i często wymagają bardziej zaawansowanej wiedzy technicznej, aby można było z nich skutecznie korzystać.
 
-### Alternative Networks
+### Sieci alternatywne
 
 <div class="grid cards" markdown>
 
-- ![I2P logo](assets/img/self-contained-networks/i2p.svg#only-light){ .twemoji loading=lazy } ![I2P logo](assets/img/self-contained-networks/i2p-dark.svg#only-dark){ .twemoji loading=lazy } [I2P](alternative-networks.md#i2p-the-invisible-internet-project)
-- ![Tor logo](assets/img/self-contained-networks/tor.svg){ .twemoji loading=lazy } [Tor](alternative-networks.md#tor)
-- ![Orbot logo](assets/img/self-contained-networks/orbot.svg){ .twemoji loading=lazy } [Orbot (Mobile Tor Proxy)](alternative-networks.md#orbot)
-- ![Snowflake logo](assets/img/self-contained-networks/snowflake.svg#only-light){ .twemoji loading=lazy }![Snowflake logo](assets/img/self-contained-networks/snowflake-dark.svg#only-dark){ .twemoji loading=lazy } [Snowflake](alternative-networks.md#snowflake)
+- ![LogoI2P](assets/img/self-contained-networks/i2p.svg#only-light){ .twemoji loading=lazy } ![Logo I2P](assets/img/self-contained-networks/i2p-dark.svg#only-dark){ .twemoji loading=lazy } [I2P](alternative-networks.md#i2p-the-invisible-internet-project)
+- ![Logo Tor](assets/img/self-contained-networks/tor.svg){ .twemoji loading=lazy } [Tor](alternative-networks.md#tor)
+- ![Logo Orbot](assets/img/self-contained-networks/orbot.svg){ .twemoji loading=lazy } [Orbot (mobilny serwer proxy Tor)](alternative-networks.md#orbot)
+- ![Logo Snowflake](assets/img/self-contained-networks/snowflake.svg#only-light){ .twemoji loading=lazy }![Logo Snowflake](assets/img/self-contained-networks/snowflake-dark.svg#only-dark){ .twemoji loading=lazy } [Snowflake](alternative-networks.md#snowflake)
 
 </div>
 
 [Dowiedz się więcej :material-arrow-right-drop-circle:](alternative-networks.md)
 
-### Device Integrity Verification
+### Weryfikacja integralności urządzenia
 
 <div class="grid cards" markdown>
 
-- ![MVT logo](assets/img/device-integrity/mvt.webp#only-light){ .twemoji loading=lazy }![MVT logo](assets/img/device-integrity/mvt-dark.png#only-dark){ .twemoji loading=lazy } [Mobile Verification Toolkit](device-integrity.md#mobile-verification-toolkit)
-- ![iMazing logo](assets/img/device-integrity/imazing.png){ .twemoji loading=lazy } [iMazing (iOS)](device-integrity.md#imazing-ios)
-- ![Auditor logo](assets/img/device-integrity/auditor.svg#only-light){ .twemoji loading=lazy }![Auditor logo](assets/img/device-integrity/auditor-dark.svg#only-dark){ .twemoji loading=lazy } [Auditor (Android)](device-integrity.md#auditor-android)
+- ![Logo MVT](assets/img/device-integrity/mvt.webp#only-light){ .twemoji loading=lazy }![Logo MVT](assets/img/device-integrity/mvt-dark.png#only-dark){ .twemoji loading=lazy } [Mobile Verification Toolkit](device-integrity.md#mobile-verification-toolkit)
+- ![Logo iMazing](assets/img/device-integrity/imazing.png){ .twemoji loading=lazy } [iMazing (iOS)](device-integrity.md#imazing-ios)
+- ![Logo Auditor](assets/img/device-integrity/auditor.svg#only-light){ .twemoji loading=lazy }![Logo Auditor](assets/img/device-integrity/auditor-dark.svg#only-dark){ .twemoji loading=lazy } [Auditor (Android)](device-integrity.md#auditor-android)
 
 </div>
 
