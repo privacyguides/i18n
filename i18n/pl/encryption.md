@@ -88,7 +88,7 @@ When encrypting with VeraCrypt, you have the option to select from different [ha
 
 TrueCrypt has been [audited a number of times](https://en.wikipedia.org/wiki/TrueCrypt#Security_audits), and VeraCrypt has also been [audited separately](https://en.wikipedia.org/wiki/VeraCrypt#VeraCrypt_audit).
 
-## Operating System Encryption
+## Szyfrowanie systemu operacyjnego
 
 <small>Chroni przed następującymi zagrożeniami:</small>
 

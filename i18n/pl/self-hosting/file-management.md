@@ -29,7 +29,7 @@ Self-hosting your own **file management** tools may be a good idea to reduce the
 
 </div>
 
-## File Sharing and Sync
+## Udostępnianie i synchronizacja plików
 
 ### FreedomBox
 

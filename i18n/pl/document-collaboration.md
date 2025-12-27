@@ -1,5 +1,5 @@
 ---
-title: Document Collaboration
+title: Współpraca nad dokumentami
 icon: material/account-group
 description: Most online office suites do not support end-to-end encryption, meaning the cloud provider has access to everything you do.
 cover: document-collaboration.webp

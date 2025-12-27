@@ -1,6 +1,6 @@
 ---
 meta_title: "Usuwanie informacji osobistych za pomocą narzędzi do usuwania metadanych i redagowania danych - Privacy Guides"
-title: "Redukcja danych i metadanych"
+title: "Redakcja danych i metadanych"
 icon: material/tag-remove
 description: Użyj tych narzędzi, aby usunąć metadane, takie jak lokalizacja GPS i inne informacje identyfikujące ze zdjęć i udostępnianych plików.
 cover: data-redaction.webp

@@ -370,33 +370,33 @@ Jeśli zależy Ci na dodatkowym **bezpieczeństwie**, zawsze upewnij się, że �
 
 [Dowiedz się więcej :material-arrow-right-drop-circle:](calendar.md)
 
-### Cryptocurrency
+### Kryptowaluty
 
 <div class="grid cards" markdown>
 
-- ![Monero logo](assets/img/cryptocurrency/monero.svg){ .twemoji loading=lazy } [Monero](cryptocurrency.md#monero)
+- ![Logo Monero](assets/img/cryptocurrency/monero.svg){ .twemoji loading=lazy } [Monero](cryptocurrency.md#monero)
 
 </div>
 
 [Dowiedz się więcej :material-arrow-right-drop-circle:](cryptocurrency.md)
 
-### Redukcja danych i metadanych
+### Redakcja danych i metadanych
 
 <div class="grid cards" markdown>
 
-- ![MAT2 logo](assets/img/data-redaction/mat2.svg){ .twemoji loading=lazy } [MAT2](data-redaction.md#mat2)
-- ![ExifEraser logo](assets/img/data-redaction/exiferaser.svg){ .twemoji loading=lazy } [ExifEraser (Android)](data-redaction.md#exiferaser-android)
-- ![ExifTool logo](assets/img/data-redaction/exiftool.png){ .twemoji loading=lazy } [ExifTool (CLI)](data-redaction.md#exiftool-cli)
+- ![Logo MAT2](assets/img/data-redaction/mat2.svg){ .twemoji loading=lazy } [MAT2](data-redaction.md#mat2)
+- ![Logo ExifEraser](assets/img/data-redaction/exiferaser.svg){ .twemoji loading=lazy } [ExifEraser (Android)](data-redaction.md#exiferaser-android)
+- ![Logo ExifTool](assets/img/data-redaction/exiftool.png){ .twemoji loading=lazy } [ExifTool (CLI)](data-redaction.md#exiftool-cli)
 
 </div>
 
 [Dowiedz się więcej :material-arrow-right-drop-circle:](data-redaction.md)
 
-### Document Collaboration
+### Współpraca nad dokumentami
 
 <div class="grid cards" markdown>
 
-- ![CryptPad logo](assets/img/document-collaboration/cryptpad.svg){ .twemoji loading=lazy } [CryptPad](document-collaboration.md#cryptpad)
+- ![Logo CryptPad](assets/img/document-collaboration/cryptpad.svg){ .twemoji loading=lazy } [CryptPad](document-collaboration.md#cryptpad)
 
 </div>
 
@@ -405,70 +405,70 @@ Jeśli zależy Ci na dodatkowym **bezpieczeństwie**, zawsze upewnij się, że �
 ### Oprogramowanie szyfrujące
 
 <details class="info" markdown>
-<summary>Operating System Encryption</summary>
+<summary>Szyfrowanie systemu operacyjnego</summary>
 
-For encrypting your OS drive, we typically recommend using the encryption tool your operating system provides, whether that is **BitLocker** on Windows, **FileVault** on macOS, or **LUKS** on Linux. These tools are included with the operating system and take advantage of hardware encryption elements such as a [secure cryptoprocessor](basics/hardware.md/#tpmsecure-cryptoprocessor).
+Do szyfrowania dysku z systemem operacyjnym zwykle zalecamy użycie narzędzia szyfrującego dostarczonego przez system operacyjny, na przykład **BitLocker** w systemie Windows, **FileVault** w systemie macOS lub **LUKS** w systemie Linux. Narzędzia te są wbudowane w system i wykorzystują elementy szyfrowania sprzętowego, takie jak [bezpieczny kryptoprocesor](basics/hardware.md/#tpmsecure-cryptoprocessor).
 
 [Dowiedz się więcej :material-arrow-right-drop-circle:](encryption.md#operating-system-encryption)
 
 </details>
 
-#### Cross-Platform Tools
+#### Narzędzia wieloplatformowe
 
 <div class="grid cards" markdown>
 
-- ![Cryptomator logo](assets/img/encryption-software/cryptomator.svg){ .twemoji loading=lazy } [Cryptomator](encryption.md#cryptomator-cloud)
-- ![VeraCrypt logo](assets/img/encryption-software/veracrypt.svg#only-light){ .twemoji loading=lazy }![VeraCrypt logo](assets/img/encryption-software/veracrypt-dark.svg#only-dark){ .twemoji loading=lazy } [VeraCrypt (FDE)](encryption.md#veracrypt-disk)
-- ![Kryptor logo](assets/img/encryption-software/kryptor.png){ .twemoji loading=lazy } [Kryptor](encryption.md#kryptor)
-- ![Tomb logo](assets/img/encryption-software/tomb.png){ .twemoji loading=lazy } [Tomb](encryption.md#tomb)
+- ![Logo Cryptomator](assets/img/encryption-software/cryptomator.svg){ .twemoji loading=lazy } [Cryptomator](encryption.md#cryptomator-cloud)
+- ![Logo VeraCrypt](assets/img/encryption-software/veracrypt.svg#only-light){ .twemoji loading=lazy }![Logo VeraCrypt](assets/img/encryption-software/veracrypt-dark.svg#only-dark){ .twemoji loading=lazy } [VeraCrypt (FDE)](encryption.md#veracrypt-disk)
+- ![Logo Kryptor](assets/img/encryption-software/kryptor.png){ .twemoji loading=lazy } [Kryptor](encryption.md#kryptor)
+- ![Logo Tomb](assets/img/encryption-software/tomb.png){ .twemoji loading=lazy } [Tomb](encryption.md#tomb)
 
 </div>
 
 [Dowiedz się więcej :material-arrow-right-drop-circle:](encryption.md)
 
-#### OpenPGP Clients
+#### Klienty OpenPGP
 
 <div class="grid cards" markdown>
 
-- ![GnuPG logo](assets/img/encryption-software/gnupg.svg){ .twemoji loading=lazy } [GnuPG](encryption.md#gnu-privacy-guard)
-- ![GPG4Win logo](assets/img/encryption-software/gpg4win.svg){ .twemoji loading=lazy } [GPG4Win (Windows)](encryption.md#gpg4win)
-- ![GPG Suite logo](assets/img/encryption-software/gpgsuite.png){ .twemoji loading=lazy } [GPG Suite (macOS)](encryption.md#gpg-suite)
-- ![OpenKeychain logo](assets/img/encryption-software/openkeychain.svg){ .twemoji loading=lazy } [OpenKeychain](encryption.md#openkeychain)
+- ![Logo GnuPG](assets/img/encryption-software/gnupg.svg){ .twemoji loading=lazy } [GnuPG](encryption.md#gnu-privacy-guard)
+- ![Logo GPG4Win](assets/img/encryption-software/gpg4win.svg){ .twemoji loading=lazy } [GPG4Win (Windows)](encryption.md#gpg4win)
+- ![Logo GPG Suite](assets/img/encryption-software/gpgsuite.png){ .twemoji loading=lazy } [GPG Suite (macOS)](encryption.md#gpg-suite)
+- ![Logo OpenKeychain](assets/img/encryption-software/openkeychain.svg){ .twemoji loading=lazy } [OpenKeychain](encryption.md#openkeychain)
 
 </div>
 
 [Dowiedz się więcej :material-arrow-right-drop-circle:](encryption.md#openpgp)
 
-### File Sharing and Sync
+### Udostępnianie i synchronizacja plików
 
 <div class="grid cards" markdown>
 
-- ![Send logo](assets/img/file-sharing-sync/send.svg){ .twemoji loading=lazy } [Send](file-sharing.md#send)
-- ![OnionShare logo](assets/img/file-sharing-sync/onionshare.svg){ .twemoji loading=lazy } [OnionShare](file-sharing.md#onionshare)
-- ![Syncthing logo](assets/img/file-sharing-sync/syncthing.svg){ .twemoji loading=lazy } [Syncthing](file-sharing.md#syncthing-p2p)
+- ![Logo Send](assets/img/file-sharing-sync/send.svg){ .twemoji loading=lazy } [Send](file-sharing.md#send)
+- ![Logo OnionShare](assets/img/file-sharing-sync/onionshare.svg){ .twemoji loading=lazy } [OnionShare](file-sharing.md#onionshare)
+- ![Logo Syncthing](assets/img/file-sharing-sync/syncthing.svg){ .twemoji loading=lazy } [Syncthing](file-sharing.md#syncthing-p2p)
 
 </div>
 
 [Dowiedz się więcej :material-arrow-right-drop-circle:](file-sharing.md)
 
-### Menedżery haseł
+### Interfejsy
 
 <div class="grid cards" markdown>
 
-- ![Redlib logo](assets/img/frontends/redlib.svg){ .twemoji loading=lazy } [Redlib (Reddit, Web)](frontends.md#redlib)
-- ![ProxiTok logo](assets/img/frontends/proxitok.svg){ .twemoji loading=lazy } [ProxiTok (TikTok, Web)](frontends.md#proxitok)
-- ![FreeTube logo](assets/img/frontends/freetube.svg){ .twemoji loading=lazy } [FreeTube (YouTube, Desktop)](frontends.md#freetube)
-- ![Yattee logo](assets/img/frontends/yattee.svg){ .twemoji loading=lazy } [Yattee (YouTube; iOS, tvOS, macOS)](frontends.md#yattee)
-- ![LibreTube logo](assets/img/frontends/libretube.svg#only-light){ .twemoji loading=lazy }![LibreTube logo](assets/img/frontends/libretube-dark.svg#only-dark){ .twemoji loading=lazy } [LibreTube (YouTube, Android)](frontends.md#libretube-android)
-- ![NewPipe logo](assets/img/frontends/newpipe.svg){ .twemoji loading=lazy } [NewPipe (YouTube, Android)](frontends.md#newpipe-android)
-- ![Invidious logo](assets/img/frontends/invidious.svg#only-light){ .twemoji loading=lazy }![Invidious logo](assets/img/frontends/invidious-dark.svg#only-dark){ .twemoji loading=lazy } [Invidious (YouTube, Web)](frontends.md#invidious)
-- ![Piped logo](assets/img/frontends/piped.svg){ .twemoji loading=lazy } [Piped (YouTube, Web)](frontends.md#piped)
+- ![Logo Redlib](assets/img/frontends/redlib.svg){ .twemoji loading=lazy } [Redlib (Reddit; w przeglądarce)](frontends.md#redlib)
+- ![Logo ProxiTok](assets/img/frontends/proxitok.svg){ .twemoji loading=lazy } [ProxiTok (TikTok; w przeglądarce)](frontends.md#proxitok)
+- ![Logo FreeTube](assets/img/frontends/freetube.svg){ .twemoji loading=lazy } [FreeTube (YouTube; aplikacja komputerowa)](frontends.md#freetube)
+- ![Logo Yattee](assets/img/frontends/yattee.svg){ .twemoji loading=lazy } [Yattee (YouTube; iOS, tvOS, macOS)](frontends.md#yattee)
+- ![Logo LibreTube](assets/img/frontends/libretube.svg#only-light){ .twemoji loading=lazy }![Logo LibreTube](assets/img/frontends/libretube-dark.svg#only-dark){ .twemoji loading=lazy } [LibreTube (YouTube; Android)](frontends.md#libretube-android)
+- ![Logo NewPipe](assets/img/frontends/newpipe.svg){ .twemoji loading=lazy } [NewPipe (YouTube; Android)](frontends.md#newpipe-android)
+- ![Logo Invidious](assets/img/frontends/invidious.svg#only-light){ .twemoji loading=lazy }![Logo Invidious](assets/img/frontends/invidious-dark.svg#only-dark){ .twemoji loading=lazy } [Invidious (YouTube; w przeglądarce)](frontends.md#invidious)
+- ![Logo Piped](assets/img/frontends/piped.svg){ .twemoji loading=lazy } [Piped (YouTube; w przeglądarce)](frontends.md#piped)
 
 </div>
 
 [Dowiedz się więcej :material-arrow-right-drop-circle:](frontends.md)
 
-### Health and Wellness Apps
+### Aplikacje zdrowotne i prozdrowotne
 
 <div class="grid cards" markdown>
 
