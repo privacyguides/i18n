@@ -173,11 +173,11 @@ Pomimo rosnącej skali masowej inwigilacji w Stanach Zjednoczonych, rząd stwier
 
 W sieci możesz być śledzony za pomocą różnych metod, w tym między innymi:
 
-- Twojego adresu IP
-- plików cookie przeglądarki
-- danych, które przesyłasz na strony internetowe
-- odcisku przeglądarki lub urządzenia
-- korelacji metod płatności
+- Twojego adresu IP,
+- plików cookie przeglądarki,
+- danych, które przesyłasz do stron internetowych,
+- „odcisku placa” przeglądarki lub urządzenia,
+- korelacji metod płatności.
 
 Jeśli obawiasz się systemów masowej inwigilacji, możesz zastosować następujące zalecenia: oddzielać swoje tożsamości online, wtapiać się w tłum innych użytkowników lub, gdy to możliwe, po prostu unikać podawania informacji identyfikujących.
 
@@ -185,11 +185,11 @@ Jeśli obawiasz się systemów masowej inwigilacji, możesz zastosować następu
 
 <span class="pg-brown">:material-account-cash: Kapitalizm inwigilacji</span>
 
-> Kapitalizm inwigilacji to system gospodarczy oparty na przechwytywaniu i utowarowieniu danych osobowych w celach zarobkowych[^3].
+> Kapitalizm inwigilacji to system gospodarczy skoncentrowany na przechwytywaniu i utowarowieniu danych osobowych w celach zarobkowych[^3].
 
-Dla wielu osób śledzenie i inwigilacja przez prywatne korporacje stają się coraz większym problemem. Wszechobecne sieci reklamowe, takie jak te obsługiwane przez Google i Facebook, obejmują Internet znacznie szerzej niż tylko serwisy, które kontrolują — śledząc Twoje działania po drodze. Korzystanie z narzędzi takich jak blokery treści w celu ograniczania żądań sieciowych do ich serwerów oraz zapoznawanie się z polityką prywatności usług, z których korzystasz, może pomóc uniknąć wielu podstawowych przeciwników (choć nie zapobiegnie śledzeniu całkowicie)[^4].
+Dla wielu osób śledzenie i inwigilacja przez prywatne korporacje stają się coraz większym problemem. Wszechobecne sieci reklamowe, takie jak te należące do Google i Facebooka, wykraczają daleko poza serwisy, którymi bezpośrednio zarządzają, co pozwala im śledzić Twoją aktywność na każdym kroku. W uniknięciu wielu podstawowych zagrożeń może pomóc Ci korzystanie z blokerów treści, które ograniczają żądania sieciowe do ich serwerów, oraz sprawdzanie polityki prywatności usług, z których korzystasz (choć nie zapobiegnie to śledzeniu całkowicie)[^4].
 
-Dodatkowo nawet firmy spoza branży *AdTech* czy klasycznych podmiotów śledzących mogą udostępniać Twoje dane [brokerom danych](https://en.wikipedia.org/wiki/Information_broker) (takim jak Cambridge Analytica, Experian czy Datalogix) lub innym podmiotom. Nie możesz automatycznie zakładać, że Twoje dane są bezpieczne tylko dlatego, że usługa, z której korzystasz, nie wpisuje się w typowy model biznesowy AdTech lub śledzenia. Najskuteczniejszą ochroną przed korporacyjnym gromadzeniem danych jest szyfrowanie lub zaciemnianie danych zawsze, gdy to możliwe, co utrudnia różnym dostawcom korelowanie między sobą informacji i budowanie profilu na Twój temat.
+Ponadto nawet firmy spoza branży *AdTech* (technologii reklamowej) czy klasycznych podmiotów śledzących mogą udostępniać Twoje dane [brokerom danych](https://en.wikipedia.org/wiki/Information_broker) (takim jak Cambridge Analytica, Experian czy Datalogix) lub innym podmiotom. Nie zakładaj z góry, że Twoje dane są bezpieczne tylko dlatego, że usługa, z której korzystasz, nie opiera swojego modelu biznesowego na śledzeniu czy typowych rozwiązaniach AdTech. Najskuteczniejszą ochroną przed korporacyjnym gromadzeniem danych jest szyfrowanie lub zaciemnianie informacji wszędzie tam, gdzie to możliwe. Utrudnia to różnym dostawcom korelowanie między sobą informacji i budowanie profilu na Twój temat.
 
 ## Ograniczanie informacji publicznych
 
