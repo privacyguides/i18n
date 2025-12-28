@@ -468,7 +468,7 @@ Do szyfrowania dysku z systemem operacyjnym zwykle zalecamy użycie narzędzia s
 
 [Dowiedz się więcej :material-arrow-right-drop-circle:](frontends.md)
 
-### Aplikacje zdrowotne i prozdrowotne
+### Aplikacje zdrowotne i wellbeing
 
 <div class="grid cards" markdown>
 

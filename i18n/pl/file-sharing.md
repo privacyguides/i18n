@@ -117,7 +117,7 @@ OnionShare provides the option to connect via [Tor bridges](https://docs.onionsh
 
 #### Najlepszy scenariusz
 
-Our best-case criteria represents what we would like to see from the perfect project in this category. Nasze zalecenia nie muszą spełniać wszystkich tych warunków, jednak projekty, które spełniają więcej z nich, mogą być oceniane wyżej od pozostałych na stronie.
+Nasze kryteria „najlepszego scenariusza” określają, jak powinien wyglądać idealny projekt w tej kategorii. Nasze zalecenia nie muszą spełniać wszystkich tych warunków, jednak projekty, które spełniają więcej z nich, mogą być oceniane wyżej od pozostałych na stronie.
 
 - Should have mobile clients for iOS and Android which at least support document previews.
 - Should support photo backups from iOS and Android, and optionally support file/folder sync on Android.

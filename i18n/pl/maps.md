@@ -94,7 +94,7 @@ OsmAnd allows you to overlay or underlay external map data, such as satellite im
 
 ### Najlepszy scenariusz
 
-Our best-case criteria represents what we would like to see from the perfect project in this category. Nasze zalecenia nie muszą spełniać wszystkich tych warunków, jednak projekty, które spełniają więcej z nich, mogą być oceniane wyżej od pozostałych na stronie.
+Nasze kryteria „najlepszego scenariusza” określają, jak powinien wyglądać idealny projekt w tej kategorii. Nasze zalecenia nie muszą spełniać wszystkich tych warunków, jednak projekty, które spełniają więcej z nich, mogą być oceniane wyżej od pozostałych na stronie.
 
 - Apps should be open source.
 - Should have route planning for public transport.

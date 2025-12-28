@@ -140,7 +140,7 @@ Peergos was [audited](https://peergos.org/posts/security-audit-2024) in November
 
 ### Najlepszy scenariusz
 
-Our best-case criteria represents what we would like to see from the perfect project in this category. Nasze zalecenia nie muszą spełniać wszystkich tych warunków, jednak projekty, które spełniają więcej z nich, mogą być oceniane wyżej od pozostałych na stronie.
+Nasze kryteria „najlepszego scenariusza” określają, jak powinien wyglądać idealny projekt w tej kategorii. Nasze zalecenia nie muszą spełniać wszystkich tych warunków, jednak projekty, które spełniają więcej z nich, mogą być oceniane wyżej od pozostałych na stronie.
 
 - Clients should be open source.
 - Clients should be audited in their entirety by an independent third party.

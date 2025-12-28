@@ -120,7 +120,7 @@ Excluding the Nitrokey 3, Nitrokeys which support HOTP and TOTP do not have encr
 
 ### Najlepszy scenariusz
 
-Our best-case criteria represents what we would like to see from the perfect project in this category. Nasze zalecenia nie muszą spełniać wszystkich tych warunków, jednak projekty, które spełniają więcej z nich, mogą być oceniane wyżej od pozostałych na stronie.
+Nasze kryteria „najlepszego scenariusza” określają, jak powinien wyglądać idealny projekt w tej kategorii. Nasze zalecenia nie muszą spełniać wszystkich tych warunków, jednak projekty, które spełniają więcej z nich, mogą być oceniane wyżej od pozostałych na stronie.
 
 - Should be available in USB-C form factor.
 - Should be available with NFC.

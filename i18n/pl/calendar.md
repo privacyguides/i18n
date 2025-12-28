@@ -23,23 +23,23 @@ cover: calendar.webp
 
 Multiple calendars and extended sharing functionality are limited to paid subscribers.
 
-[:octicons-home-16: Homepage](https://tuta.com/calendar){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://tuta.com/privacy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://tuta.com/support){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/tutao/tutanota){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://tuta.com/community#donate){ .card-link title="Contribute" }
+[:octicons-home-16: Strona główna](https://tuta.com/pl/calendar){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://tuta.com/pl/privacy){ .card-link title="Polityka prywatności" }
+[:octicons-info-16:](https://tuta.com/pl/support){ .card-link title="Dokumentacja" }
+[:octicons-code-16:](https://github.com/tutao/tutanota){ .card-link title="Kod źródłowy" }
+[:octicons-heart-16:](https://tuta.com/pl/community#donate){ .card-link title="Wesprzyj" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Pobierz</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=de.tutao.calendar)
 - [:simple-appstore: App Store](https://apps.apple.com/app/id6657977811)
 - [:simple-github: GitHub](https://github.com/tutao/tutanota/releases?q=Calendar)
-- [:fontawesome-brands-windows: Windows](https://tuta.com/blog/desktop-clients)
-- [:simple-apple: macOS](https://tuta.com/blog/desktop-clients)
-- [:simple-linux: Linux](https://tuta.com/blog/desktop-clients)
+- [:fontawesome-brands-windows: Windows](https://tuta.com/pl#download)
+- [:simple-apple: macOS](https://tuta.com/pl#download)
+- [:simple-linux: Linux](https://tuta.com/pl#download)
 - [:simple-flathub: Flathub](https://flathub.org/apps/com.tutanota.Tutanota)
-- [:octicons-browser-16: Web](https://app.tuta.com)
+- [:octicons-browser-16: W przeglądarce](https://app.tuta.com)
 
 </details>
 
@@ -55,17 +55,17 @@ Multiple calendars and extended sharing functionality are limited to paid subscr
 
 Those on the free tier have access to 3 calendars, whereas paid subscribers can create up to 25 calendars. Extended sharing functionality is also limited to paid subscribers.
 
-[:octicons-home-16: Homepage](https://proton.me/calendar){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://proton.me/calendar/privacy-policy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://proton.me/support/calendar){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/orgs/ProtonMail/repositories?q=calendar){ .card-link title="Source Code" }
+[:octicons-home-16: Strona główna](https://proton.me/pl/calendar){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://proton.me/pl/calendar/privacy-policy){ .card-link title="Polityka prywatności" }
+[:octicons-info-16:](https://proton.me/pl/support/calendar){ .card-link title="Dokumentacja" }
+[:octicons-code-16:](https://github.com/orgs/ProtonMail/repositories?q=calendar){ .card-link title="Kod źródłowy" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Pobierz</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=me.proton.android.calendar)
 - [:simple-appstore: App Store](https://apps.apple.com/app/id1514709943)
-- [:octicons-browser-16: Web](https://calendar.proton.me)
+- [:octicons-browser-16: W przeglądarce](https://calendar.proton.me)
 
 </details>
 
@@ -83,6 +83,6 @@ In 2021, Securitum [audited](https://proton.me/community/open-source#:~:text=Pro
 
 ### Najlepszy scenariusz
 
-Our best-case criteria represents what we would like to see from the perfect project in this category. Nasze zalecenia nie muszą spełniać wszystkich tych warunków, jednak projekty, które spełniają więcej z nich, mogą być oceniane wyżej od pozostałych na stronie.
+Nasze kryteria „najlepszego scenariusza” określają, jak powinien wyglądać idealny projekt w tej kategorii. Nasze zalecenia nie muszą spełniać wszystkich tych warunków, jednak projekty, które spełniają więcej z nich, mogą być oceniane wyżej od pozostałych na stronie.
 
 - Should integrate with native OS calendar and contact management apps if applicable.
