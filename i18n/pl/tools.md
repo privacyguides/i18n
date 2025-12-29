@@ -209,7 +209,7 @@ Jeśli zależy Ci na dodatkowym **bezpieczeństwie**, zawsze upewnij się, że �
 
     ---
 
-    mailbox Mail (wcześniej *Mailbox.org*) to usługa e-mail skoncentrowana na bezpieczeństwie, braku reklam oraz korzystaniu w 100% z energii pochodzącej ze źródeł odnawialnych. Działa od 2014 roku. Mailbox ma siedzibę w Berlinie, w Niemczech. Konta oferują do 2 GB przestrzeni, którą można zwiększyć w razie potrzeby.
+    Mailbox Mail (wcześniej *Mailbox.org*) to usługa e-mail skoncentrowana na bezpieczeństwie, braku reklam oraz korzystaniu w 100% z energii pochodzącej ze źródeł odnawialnych. Działa od 2014 roku. Mailbox Mail ma siedzibę w Berlinie, w Niemczech. Konta oferują do 2 GB przestrzeni, którą można zwiększyć w razie potrzeby.
 
     [Przeczytaj pełną recenzję :material-arrow-right-drop-circle:](email.md#mailbox-mail)
 

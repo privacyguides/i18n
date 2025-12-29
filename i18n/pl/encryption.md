@@ -391,7 +391,7 @@ Cure53 completed a [security audit](https://openkeychain.org/openkeychain-3-6) o
 
 **Należy pamiętać, że nie jesteśmy powiązani z żadnym z polecanych przez nas projektów.** Oprócz [naszych standardowych kryteriów](about/criteria.md) opracowaliśmy jasny zestaw wymagań, które pozwalają nam formułować obiektywne zalecenia. Sugerujemy zapoznanie się z tą listą przed wyborem projektu oraz przeprowadzenie własnych badań, aby upewnić się, że jest to odpowiedni wybór dla Ciebie.
 
-### Minimum Qualifications
+### Minimalne wymagania
 
 - Cross-platform encryption apps must be open source.
 - File encryption apps must support decryption on Linux, macOS, and Windows.

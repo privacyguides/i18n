@@ -235,7 +235,7 @@ NeoMutt is a text-based client that has a steep learning curve. It is, however, 
 
 **Należy pamiętać, że nie jesteśmy powiązani z żadnym z polecanych przez nas projektów.** Oprócz [naszych standardowych kryteriów](about/criteria.md) opracowaliśmy jasny zestaw wymagań, które pozwalają nam formułować obiektywne zalecenia. Sugerujemy zapoznanie się z tą listą przed wyborem projektu oraz przeprowadzenie własnych badań, aby upewnić się, że jest to odpowiedni wybór dla Ciebie.
 
-### Minimum Qualifications
+### Minimalne wymagania
 
 - Apps developed for open-source operating systems must be open source.
 - Must not collect telemetry, or have an easy way to disable all telemetry.

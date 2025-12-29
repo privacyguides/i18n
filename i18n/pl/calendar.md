@@ -10,18 +10,18 @@ cover: calendar.webp
 - [:material-bug-outline: Ataki pasywne](basics/common-threats.md#security-and-privacy ""){.pg-orange}
 - [:material-server-network: Dostawcy usług](basics/common-threats.md#privacy-from-service-providers ""){.pg-teal}
 
-**Calendars** contain some of your most sensitive data; use products that implement end-to-end encryption at rest to prevent a provider from reading them.
+**Kalendarze** zawierają jedne z Twoich najbardziej wrażliwych danych; używaj rozwiązań, które stosują szyfrowanie end-to-end (E2EE) także dla danych w stanie spoczynku, aby uniemożliwić dostawcy ich odczyt.
 
 ## Tuta
 
 <div class="admonition recommendation" markdown>
 
-![Tuta logo](assets/img/email/tuta.svg#only-light){ align=right }
-![Tuta logo](assets/img/email/tuta-dark.svg#only-dark){ align=right }
+![Logo Tuta](assets/img/email/tuta.svg#only-light){ align=right }
+![Logo Tuta](assets/img/email/tuta-dark.svg#only-dark){ align=right }
 
-**Tuta** offers a free and encrypted calendar across their supported platforms. Features include automatic E2EE of all data, sharing features, import/export functionality, multifactor authentication, and [more](https://tuta.com/calendar-app-comparison).
+**Tuta** oferuje darmowy, zaszyfrowany kalendarz na wszystkich obsługiwanych platformach. Funkcje obejmują automatyczne szyfrowanie E2EE wszystkich danych, opcje udostępniania, importowanie/eksportowanie, uwierzytelnianie wieloskładnikowe oraz [więcej](https://tuta.com/pl/calendar-app-comparison).
 
-Multiple calendars and extended sharing functionality are limited to paid subscribers.
+Możliwość tworzenia wielu kalendarzy i rozszerzone funkcje udostępniania są dostępne tylko dla płatnych subskrypcji.
 
 [:octicons-home-16: Strona główna](https://tuta.com/pl/calendar){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://tuta.com/pl/privacy){ .card-link title="Polityka prywatności" }
@@ -49,11 +49,11 @@ Multiple calendars and extended sharing functionality are limited to paid subscr
 
 <div class="admonition recommendation" markdown>
 
-![Proton](assets/img/calendar/proton-calendar.svg){ align=right }
+![Logo Proton Calendar](assets/img/calendar/proton-calendar.svg){ align=right }
 
-**Proton Calendar** is an encrypted calendar service available to Proton members via its web or mobile clients. Features include automatic E2EE of all data, sharing features, import/export functionality, and [more](https://proton.me/support/proton-calendar-guide).
+**Proton Calendar** to zaszyfrowana usługa kalendarza dostępna dla członków Proton za pośrednictwem przeglądarki lub aplikacji mobilnej. Funkcje obejmują automatyczne szyfrowanie E2EE wszystkich danych, opcje udostępniania, importowanie/eksportowanie oraz [więcej](https://proton.me/support/pl/proton-calendar-guide).
 
-Those on the free tier have access to 3 calendars, whereas paid subscribers can create up to 25 calendars. Extended sharing functionality is also limited to paid subscribers.
+Osoby korzystające z darmowego planu mają dostęp do trzech kalendarzy, natomiast płatni subskrybenci mogą tworzyć do 25 kalendarzy. Rozszerzone funkcje udostępniania są również ograniczone do płatnych subskrypcji.
 
 [:octicons-home-16: Strona główna](https://proton.me/pl/calendar){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://proton.me/pl/calendar/privacy-policy){ .card-link title="Polityka prywatności" }
@@ -71,18 +71,18 @@ Those on the free tier have access to 3 calendars, whereas paid subscribers can 
 
 </div>
 
-In 2021, Securitum [audited](https://proton.me/community/open-source#:~:text=Proton%20Calendar) Proton Calendar's web client and provided a [letter of attestation](https://res.cloudinary.com/dbulfrlrz/images/v1714639870/wp-pme/letter-of-attestation-proton-calendar-20211109_3138998f9b/letter-of-attestation-proton-calendar-20211109_3138998f9b.pdf) for the Android app.
+W 2021 roku Securitum przeprowadziło [audyt](https://proton.me/community/open-source#:~:text=Proton%20Calendar) klienta webowego Proton Calendar i wystawiło [raport potwierdzający bezpieczeństwo](https://res.cloudinary.com/dbulfrlrz/images/v1714639870/wp-pme/letter-of-attestation-proton-calendar-20211109_3138998f9b/letter-of-attestation-proton-calendar-20211109_3138998f9b.pdf) dla aplikacji na Androida.
 
 ## Kryteria
 
 **Należy pamiętać, że nie jesteśmy powiązani z żadnym z polecanych przez nas projektów.** Oprócz [naszych standardowych kryteriów](about/criteria.md) opracowaliśmy jasny zestaw wymagań, które pozwalają nam formułować obiektywne zalecenia. Sugerujemy zapoznanie się z tą listą przed wyborem projektu oraz przeprowadzenie własnych badań, aby upewnić się, że jest to odpowiedni wybór dla Ciebie.
 
-### Minimum Qualifications
+### Minimalne wymagania
 
-- Must sync and store information with E2EE to ensure data is not visible to the service provider.
+- Musi synchronizować i przechowywać informacje z użyciem E2EE, aby zapewnić, że dane nie są widoczne dla dostawcy usługi.
 
 ### Najlepszy scenariusz
 
 Nasze kryteria „najlepszego scenariusza” określają, jak powinien wyglądać idealny projekt w tej kategorii. Nasze zalecenia nie muszą spełniać wszystkich tych warunków, jednak projekty, które spełniają więcej z nich, mogą być oceniane wyżej od pozostałych na stronie.
 
-- Should integrate with native OS calendar and contact management apps if applicable.
+- Powinien integrować się z natywnymi aplikacjami systemu operacyjnego do obsługi kalendarza i kontaktów, jeśli ma to zastosowanie.

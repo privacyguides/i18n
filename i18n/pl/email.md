@@ -22,11 +22,11 @@ Korzystanie z poczty e-mail jest praktycznie niezbędne do używania większośc
 
 Do pozostałych zastosowań zalecamy różnorodne usługi e-mail, oparte na zrównoważonych modelach biznesowych i wyposażone we wbudowane funkcje bezpieczeństwa oraz prywatności. Pełną [listę kryteriów](#criteria) znajdziesz w dalszej części strony.
 
-| Dostawca                        | OpenPGP / WKD                          | IMAP / SMTP                                                         | Szyfrowanie z zerowym dostępem                          | Anonimowe metody płatności                                 |
-| ------------------------------- | -------------------------------------- | ------------------------------------------------------------------- | ------------------------------------------------------- | ---------------------------------------------------------- |
-| [Proton Mail](#proton-mail)     | :material-check:{ .pg-green }          | :material-information-outline:{ .pg-blue } Tylko w płatnych planach | :material-check:{ .pg-green }                           | Gotówka <br>Monero przez pośrednika                  |
-| [Poczta Mailbox](#mailbox-mail) | :material-check:{ .pg-green }          | :material-check:{ .pg-green }                                       | :material-information-outline:{ .pg-blue } Tylko poczta | Gotówka                                                    |
-| [Tuta](#tuta)                   | :material-alert-outline:{ .pg-orange } | :material-alert-outline:{ .pg-orange }                              | :material-check:{ .pg-green }                           | Monero przez pośrednika <br>Gotówka przez pośrednika |
+| Dostawca                      | OpenPGP / WKD                          | IMAP / SMTP                                                         | Szyfrowanie z zerowym dostępem                          | Anonimowe metody płatności                                 |
+| ----------------------------- | -------------------------------------- | ------------------------------------------------------------------- | ------------------------------------------------------- | ---------------------------------------------------------- |
+| [Proton Mail](#proton-mail)   | :material-check:{ .pg-green }          | :material-information-outline:{ .pg-blue } Tylko w płatnych planach | :material-check:{ .pg-green }                           | Gotówka <br>Monero przez pośrednika                  |
+| [mailbox Mail](#mailbox-mail) | :material-check:{ .pg-green }          | :material-check:{ .pg-green }                                       | :material-information-outline:{ .pg-blue } Tylko poczta | Gotówka                                                    |
+| [Tuta](#tuta)                 | :material-alert-outline:{ .pg-orange } | :material-alert-outline:{ .pg-orange }                              | :material-check:{ .pg-green }                           | Monero przez pośrednika <br>Gotówka przez pośrednika |
 
 Oprócz (lub zamiast) jednego z wymienionych tutaj dostawców usług e-mail, możesz rozważyć skorzystanie z dedykowanej [usługi aliasingu e-maili](email-aliasing.md#recommended-providers) w celu zwiększenia swojej prywatności. Między innymi takie usługi pomagają chronić Twoją prawdziwą skrzynkę przed spamem, uniemożliwiają marketerom powiązanie Twoich kont oraz szyfrują wszystkie przychodzące wiadomości za pomocą PGP.
 
@@ -34,12 +34,12 @@ Oprócz (lub zamiast) jednego z wymienionych tutaj dostawców usług e-mail, mo�
 
 ## Usługi kompatybilne z OpenPGP
 
-Ci dostawcy natywnie obsługują szyfrowanie i deszyfrowanie OpenPGP oraz standard [Web Key Directory (WKD)](basics/email-security.md#what-is-the-web-key-directory-standard), co umożliwia wysyłanie i odbieranie wiadomości e-mail z szyfrowaniem typu end-to-end (E2EE) niezależnie od dostawcy. Na przykład użytkownik Proton Mail może wysłać zaszyfrowaną wiadomość E2EE do użytkownika poczty Mailbox, lub możesz otrzymywać zaszyfrowane powiadomienia OpenPGP od usług internetowych, które je wspierają.
+Ci dostawcy natywnie obsługują szyfrowanie i deszyfrowanie OpenPGP oraz standard [Web Key Directory (WKD)](basics/email-security.md#what-is-the-web-key-directory-standard), co umożliwia wysyłanie i odbieranie wiadomości e-mail z szyfrowaniem typu end-to-end (E2EE) niezależnie od dostawcy. Na przykład użytkownik Proton Mail może wysłać zaszyfrowaną wiadomość E2EE do użytkownika poczty mailbox Mail, lub możesz otrzymywać zaszyfrowane powiadomienia OpenPGP od usług internetowych, które je wspierają.
 
 <div class="grid cards" markdown>
 
 - ![Logo Proton Mail](assets/img/email/protonmail.svg){ .twemoji } [Proton Mail](#proton-mail)
-- ![Logo poczty Mailbox](assets/img/email/mailbox-mail.svg){ .twemoji } [Poczta Mailbox](#mailbox-mail)
+- ![Logo mailbox Mail](assets/img/email/mailbox-mail.svg){ .twemoji } [mailbox Mail](#mailbox-mail)
 
 </div>
 
@@ -137,13 +137,13 @@ Jeśli posiadasz konto płatne i Twój [rachunek pozostaje nieopłacony](https:/
 
 Plan [Proton Unlimited](https://proton.me/pl/support/proton-plans#proton-unlimited) umożliwia dostęp do innych usług Proton, a także zapewnia korzystanie z wielu własnych domen, nieograniczonej liczby aliasów z funkcją hide-my-email oraz 500 GB przestrzeni dyskowej.
 
-### Poczta Mailbox
+### mailbox Mail
 
 <div class="admonition recommendation" markdown>
 
 ![Logo Mailbox.org](assets/img/email/mailbox-mail.svg){ align=right }
 
-Poczta **Mailbox** (wcześniej **Mailbox.org**) to usługa e-mail skoncentrowana na bezpieczeństwie, braku reklam oraz korzystaniu w 100% z energii pochodzącej ze źródeł odnawialnych. Działa od 2014 roku. Mailbox ma siedzibę w Berlinie, w Niemczech.
+**Mailbox Mail** (wcześniej **Mailbox.org**) to usługa e-mail skoncentrowana na bezpieczeństwie, braku reklam oraz korzystaniu w 100% z energii pochodzącej ze źródeł odnawialnych. Działa od 2014 roku. Mailbox Mail ma siedzibę w Berlinie, w Niemczech.
 
 Konta oferują do 2 GB przestrzeni, którą można zwiększyć w razie potrzeby.
 
@@ -162,27 +162,27 @@ Konta oferują do 2 GB przestrzeni, którą można zwiększyć w razie potrzeby.
 
 #### :material-check:{ .pg-green } Własne domeny i aliasy
 
-Poczta Mailbox umożliwia korzystanie z własnej domeny oraz obsługuje adresy typu [catch-all](https://kb.mailbox.org/en/private/custom-domains/how-to-set-up-a-catch-all-alias-with-a-custom-domain-name). Usługa wspiera również [sub-adresowanie](https://proton.me/pl/support/creating-aliases), przydatne dla osób, które nie chcą kupować własnej domeny.
+Mailbox Mail umożliwia korzystanie z własnej domeny oraz obsługuje adresy typu [catch-all](https://kb.mailbox.org/en/private/custom-domains/how-to-set-up-a-catch-all-alias-with-a-custom-domain-name). Usługa wspiera również [sub-adresowanie](https://kb.mailbox.org/en/private/account-article/what-is-an-alias-and-how-do-i-use-it), przydatne dla osób, które nie chcą kupować własnej domeny.
 
 #### :material-check:{ .pg-green } Prywatne metody płatności
 
-Poczta Mailbox nie akceptuje żadnych kryptowalut, ponieważ ich operator płatności BitPay zawiesił działalność w Niemczech. Akceptowane są natomiast płatności **gotówką** wysyłaną pocztą, **gotówką** wpłacaną na konto bankowe, przelewem, kartą kredytową, przez PayPal, a także przez niemieckie systemy płatności Paydirekt i Sofortüberweisung.
+Mailbox Mail nie akceptuje żadnych kryptowalut, ponieważ ich operator płatności BitPay zawiesił działalność w Niemczech. Akceptowane są natomiast płatności **gotówką** wysyłaną pocztą, **gotówką** wpłacaną na konto bankowe, przelewem, kartą kredytową, przez PayPal, a także przez niemieckie systemy płatności Paydirekt i Sofortüberweisung.
 
 #### :material-check:{ .pg-green } Bezpieczeństwo konta
 
-Poczta Mailbox obsługuje [uwierzytelnianie dwuskładnikowe](https://kb.mailbox.org/en/private/account-article/how-to-use-two-factor-authentication-2fa) wyłącznie dla swojej aplikacji webowej. Można używać metody TOTP lub klucza [YubiKey](security-keys.md#yubikey) za pośrednictwem [YubiCloud](https://yubico.com/products/services-software/yubicloud). Standardy webowe, takie jak [WebAuthn](basics/multi-factor-authentication.md#fido-fast-identity-online), nie są jeszcze obsługiwane.
+Mailbox Mail obsługuje [uwierzytelnianie dwuskładnikowe](https://kb.mailbox.org/en/private/account-article/how-to-use-two-factor-authentication-2fa) wyłącznie dla swojej aplikacji webowej. Można używać metody TOTP lub klucza [YubiKey](security-keys.md#yubikey) za pośrednictwem [YubiCloud](https://yubico.com/products/services-software/yubicloud). Standardy webowe, takie jak [WebAuthn](basics/multi-factor-authentication.md#fido-fast-identity-online), nie są jeszcze obsługiwane.
 
 #### :material-information-outline:{ .pg-blue } Bezpieczeństwo danych
 
-Poczta Mailbox umożliwia szyfrowanie przychodzących wiadomości za pomocą [szyfrowanej skrzynki pocztowej](https://kb.mailbox.org/en/private/e-mail-article/your-encrypted-mailbox). Nowe wiadomości, które otrzymujesz, są automatycznie szyfrowane Twoim kluczem publicznym.
+Mailbox Mail umożliwia szyfrowanie przychodzących wiadomości za pomocą [szyfrowanej skrzynki pocztowej](https://kb.mailbox.org/en/private/e-mail-article/your-encrypted-mailbox). Nowe wiadomości, które otrzymujesz, są automatycznie szyfrowane Twoim kluczem publicznym.
 
-Jednak oprogramowanie [Open-Xchange](https://pl.wikipedia.org/wiki/Open-Xchange), z którego korzysta poczta Mailbox, [nie obsługuje](https://kb.mailbox.org/en/private/security-privacy-article/encryption-of-calendar-and-address-book) szyfrowania książki adresowej ani kalendarza. Do tych danych bardziej odpowiednie może być [oddzielne rozwiązanie](calendar.md).
+Jednak oprogramowanie [Open-Xchange](https://pl.wikipedia.org/wiki/Open-Xchange), z którego korzysta mailbox Mail, [nie obsługuje](https://kb.mailbox.org/en/private/security-privacy-article/encryption-of-calendar-and-address-book) szyfrowania książki adresowej ani kalendarza. Do tych danych bardziej odpowiednie może być [oddzielne rozwiązanie](calendar.md).
 
 #### :material-check:{ .pg-green } Szyfrowanie wiadomości e-mail
 
-Poczta Mailbox ma [zintegrowane szyfrowanie](https://kb.mailbox.org/en/private/e-mail-article/send-encrypted-e-mails-with-guard) w swojej aplikacji webowej, co ułatwia wysyłanie wiadomości do osób posiadających publiczne klucze OpenPGP. Umożliwia również [odszyfrowanie wiadomości przez odbiorcę zdalnego](https://kb.mailbox.org/en/private/e-mail-article/my-recipient-does-not-use-pgp) na serwerach poczty Mailbox. Ta funkcja jest przydatna, gdy zdalny odbiorca nie posiada OpenPGP i nie może samodzielnie odszyfrować wiadomości we własnej skrzynce pocztowej.
+Mailbox Mail ma [zintegrowane szyfrowanie](https://kb.mailbox.org/en/private/e-mail-article/send-encrypted-e-mails-with-guard) w swojej aplikacji webowej, co ułatwia wysyłanie wiadomości do osób posiadających publiczne klucze OpenPGP. Umożliwia również [odszyfrowanie wiadomości przez odbiorcę zdalnego](https://kb.mailbox.org/en/private/e-mail-article/my-recipient-does-not-use-pgp) na serwerach mailbox Mail. Ta funkcja jest przydatna, gdy zdalny odbiorca nie posiada OpenPGP i nie może samodzielnie odszyfrować wiadomości we własnej skrzynce pocztowej.
 
-Poczta Mailbox obsługuje także wyszukiwanie kluczy publicznych przez HTTP za pośrednictwem swojego WKD. Dzięki temu osoby spoza poczty Mailbox mogą łatwo znaleźć klucze OpenPGP kont Mailbox i korzystać z szyfrowanej komunikacji między różnymi dostawcami (E2EE). Dotyczy to wyłącznie adresów e-mail zakończonych jedną z domen Mailbox, np. `@mailbox.org`. Jeśli korzystasz z własnej domeny, musisz [skonfigurować WKD](basics/email-security.md#what-is-the-web-key-directory-standard) osobno.
+Mailbox Mail obsługuje także wyszukiwanie kluczy publicznych przez HTTP za pośrednictwem swojego WKD. Dzięki temu osoby spoza poczty mailbox Mail mogą łatwo znaleźć klucze OpenPGP kont mailbox i korzystać z szyfrowanej komunikacji między różnymi dostawcami (E2EE). Dotyczy to wyłącznie adresów e-mail zakończonych jedną z domen mailbox, np. `@mailbox.org`. Jeśli korzystasz z własnej domeny, musisz [skonfigurować WKD](basics/email-security.md#what-is-the-web-key-directory-standard) osobno.
 
 #### :material-information-outline:{ .pg-blue } Zamknięcie konta
 
@@ -190,11 +190,11 @@ Twoje konto zostanie przekształcone w konto o ograniczonych uprawnieniach po za
 
 #### :material-information-outline:{ .pg-blue } Dodatkowe funkcje
 
-Do konta poczty Mailbox można uzyskać dostęp za pośrednictwem protokołu IMAP/SMTP, korzystając z ich [usługi .onion](https://kb.mailbox.org/en/private/faq-article/the-tor-exit-node-of-mailbox-org). Jednak interfejs aplikacji webowej nie jest dostępny przez adres .onion, a przy korzystaniu z niego mogą występować błędy certyfikatów TLS.
+Do konta mailbox Mail można uzyskać dostęp za pośrednictwem protokołu IMAP/SMTP, korzystając z ich [usługi .onion](https://kb.mailbox.org/en/private/faq-article/the-tor-exit-node-of-mailbox-org). Jednak interfejs aplikacji webowej nie jest dostępny przez adres .onion, a przy korzystaniu z niego mogą występować błędy certyfikatów TLS.
 
-Wszystkie konta mają ograniczoną przestrzeń w chmurze, która [może być szyfrowana](https://kb.mailbox.org/en/private/drive-article/encrypt-files-on-your-drive). Poczta Mailbox oferuje także alias [@secure.mailbox.org](https://kb.mailbox.org/en/private/e-mail-article/ensuring-e-mails-are-sent-securely), który wymusza szyfrowanie TLS połączenia między serwerami pocztowymi — w przeciwnym razie wiadomość nie zostanie wysłana. Poczta Mailbox obsługuje również [Exchange ActiveSync](https://en.wikipedia.org/wiki/Exchange_ActiveSync), oprócz standardowych protokołów dostępu takich jak IMAP i POP3.
+Wszystkie konta mają ograniczoną przestrzeń w chmurze, która [może być szyfrowana](https://kb.mailbox.org/en/private/drive-article/encrypt-files-on-your-drive). Mailbox Mail oferuje także alias [@secure.mailbox.org](https://kb.mailbox.org/en/private/e-mail-article/ensuring-e-mails-are-sent-securely), który wymusza szyfrowanie TLS połączenia między serwerami pocztowymi — w przeciwnym razie wiadomość nie zostanie wysłana. Mailbox Mail obsługuje również [Exchange ActiveSync](https://en.wikipedia.org/wiki/Exchange_ActiveSync), oprócz standardowych protokołów dostępu takich jak IMAP i POP3.
 
-Poczta Mailbox oferuje funkcję cyfrowego spadku we wszystkich planach. Możesz zdecydować, czy chcesz, aby Twoje dane zostały przekazane spadkobiercom, pod warunkiem, że złożą odpowiedni wniosek i przedstawią testament. Alternatywnie możesz wskazać konkretną osobę, podając jej imię, nazwisko i adres.
+Mailbox Mail oferuje funkcję cyfrowego spadku we wszystkich planach. Możesz zdecydować, czy chcesz, aby Twoje dane zostały przekazane spadkobiercom, pod warunkiem, że złożą odpowiedni wniosek i przedstawią testament. Alternatywnie możesz wskazać konkretną osobę, podając jej imię, nazwisko i adres.
 
 ## Inni dostawcy
 
@@ -288,7 +288,7 @@ Poniższe funkcje uznajemy za istotne dla zapewnienia bezpiecznej i wydajnej us�
 - Powinien szyfrować wszystkie dane konta (kontakty, kalendarze itp.) w spoczynku przy użyciu szyfrowania z zerowym dostępem.
 - Powinien oferować zintegrowane szyfrowanie E2EE/PGP w webmailu dla wygody użytkownika.
 - Powinien obsługiwać WKD, aby umożliwić łatwiejsze wyszukiwanie publicznych kluczy OpenPGP poprzez HTTP. Użytkownicy GnuPG mogą pobrać klucz poleceniem: `gpg --locate-key uzytkownik@example.com`.
-- Powinien wspierać funkcję tymczasowej skrzynki pocztowej dla użytkowników zewnętrznych — przydatną do wysyłania zaszyfrowanych wiadomości bez przekazywania ich kopii odbiorcy. Takie wiadomości mają zwykle ograniczoną żywotność i są automatycznie usuwane; odbiorca nie musi konfigurować żadnych narzędzi kryptograficznych jak OpenPGP.
+- Powinien wspierać funkcję tymczasowej skrzynki pocztowej dla użytkowników zewnętrznych. — przydatną do wysyłania zaszyfrowanych wiadomości bez przekazywania ich kopii odbiorcy. Takie wiadomości mają zwykle ograniczoną żywotność i są automatycznie usuwane; odbiorca nie musi konfigurować żadnych narzędzi kryptograficznych jak OpenPGP.
 - Powinien obsługiwać [sub-adresowanie](https://en.wikipedia.org/wiki/Email_address#Sub-addressing).
 - Powinien pozwalać użytkownikom na korzystanie z własnej [nazwy domeny](https://pl.wikipedia.org/wiki/Domena_internetowa). Własne domeny są istotne, ponieważ pozwalają użytkownikowi zachować niezależność od dostawcy, jeśli ten np. zmieni właściciela lub przestanie dbać o prywatność.
 - Powinien wspierać adresy typu catch-all lub aliasy dla użytkowników korzystających z własnych domen.
