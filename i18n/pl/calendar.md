@@ -1,7 +1,7 @@
 ---
 title: Synchronizacja kalendarza
 icon: material/calendar
-description: Calendars contain some of your most sensitive data; use products that implement encryption at rest.
+description: Kalendarze zawierają jedne z Twoich najbardziej wrażliwych danych; używaj rozwiązań, które zapewniają szyfrowanie danych w stanie spoczynku.
 cover: calendar.webp
 ---
 

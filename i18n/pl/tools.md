@@ -205,11 +205,11 @@ Jeśli zależy Ci na dodatkowym **bezpieczeństwie**, zawsze upewnij się, że �
 
     [Przeczytaj pełną recenzję :material-arrow-right-drop-circle:](email.md#proton-mail)
 
-- ![Logo poczty Mailbox](assets/img/email/mailbox-mail.svg){ .lg .middle .twemoji } **Poczta Mailbox**
+- ![Logo mailbox Mail](assets/img/email/mailbox-mail.svg){ .lg .middle .twemoji } **mailbox Mail**
 
     ---
 
-    Poczta Mailbox (wcześniej *Mailbox.org*) to usługa e-mail skoncentrowana na bezpieczeństwie, braku reklam oraz korzystaniu w 100% z energii pochodzącej ze źródeł odnawialnych. Działa od 2014 roku. Mailbox ma siedzibę w Berlinie, w Niemczech. Konta oferują do 2 GB przestrzeni, którą można zwiększyć w razie potrzeby.
+    mailbox Mail (wcześniej *Mailbox.org*) to usługa e-mail skoncentrowana na bezpieczeństwie, braku reklam oraz korzystaniu w 100% z energii pochodzącej ze źródeł odnawialnych. Działa od 2014 roku. Mailbox ma siedzibę w Berlinie, w Niemczech. Konta oferują do 2 GB przestrzeni, którą można zwiększyć w razie potrzeby.
 
     [Przeczytaj pełną recenzję :material-arrow-right-drop-circle:](email.md#mailbox-mail)
 
