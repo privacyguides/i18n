@@ -19,7 +19,7 @@ Istnieje też inny standard popularny w środowisku biznesowym — [S/MIME](http
 
 ## Czym jest standard Web Key Directory?
 
-Standard [Web Key Directory](https://wiki.gnupg.org/WKD) (WKD, pol. katalog kluczy publicznych) umożliwia klientom poczty e-mail odnaleźć klucz OpenPGP dla innych skrzynek, nawet tych hostowanych przez innego dostawcę. Klienci poczty obsługujący WKD będą pytać serwer odbiorcy o klucz na podstawie nazwy domeny w adresie e-mail. Na przykład, jeśli wyślesz wiadomość na adres `jonah@privacyguides.org`, Twój klient poczty e-mail zapyta `privacyguides.org` o klucz OpenPGP Jonaha, a jeśli `privacyguides.org` ma klucz dla tego konta, Twoja wiadomość zostanie automatycznie zaszyfrowana.
+Standard [Web Key Directory](https://wiki.gnupg.org/WKD) (WKD, z ang. katalog kluczy publicznych) umożliwia klientom poczty e-mail odnaleźć klucz OpenPGP dla innych skrzynek, nawet tych hostowanych przez innego dostawcę. Klienci poczty obsługujący WKD będą pytać serwer odbiorcy o klucz na podstawie nazwy domeny w adresie e-mail. Na przykład, jeśli wyślesz wiadomość na adres `jonah@privacyguides.org`, Twój klient poczty e-mail zapyta `privacyguides.org` o klucz OpenPGP Jonaha, a jeśli `privacyguides.org` ma klucz dla tego konta, Twoja wiadomość zostanie automatycznie zaszyfrowana.
 
 Oprócz [zalecanych przez nas klientów poczty e-mail](../email-clients.md), które obsługują WKD, niektóre usługi webmail również obsługują WKD. To, czy *Twój własny* klucz jest opublikowany w WKD, zależy od konfiguracji domeny. Jeśli korzystasz z [dostawcy poczty](../email.md#openpgp-compatible-services), który obsługuje WKD, takiego jak Proton Mail czy mailbox Mail, mogą oni opublikować Twój klucz OpenPGP w swojej domenie w Twoim imieniu.
 

@@ -103,7 +103,7 @@ Mastodon benefits greatly from a large and active self-hosting community, and it
 
 ## :material-flip-to-front: Frontends
 
-Self-hosting your own instance of a web-based frontend can help you circumvent rate limits that you may encounter on high-traffic, public instances. It is important that you have other people using your instance as well in order for you to blend in. You should be careful with where and how you are hosting, as other peoples' usage will be linked to your hosting.
+Self-hosting your own instance of a web-based frontend can help you circumvent rate limits that you may encounter on high-traffic, public instances. It is important that you have other people using your instance as well in order for you to blend in. Należy zachować ostrożność przy wyborze miejsca i sposobu hostowania, ponieważ aktywność innych osób będzie powiązana z Twoim serwerem.
 
 <div class="grid cards" markdown>
 

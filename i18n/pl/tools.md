@@ -451,7 +451,7 @@ Do szyfrowania dysku z systemem operacyjnym zwykle zalecamy użycie narzędzia s
 
 [Dowiedz się więcej :material-arrow-right-drop-circle:](file-sharing.md)
 
-### Interfejsy
+### Alternatywne interfejsy
 
 <div class="grid cards" markdown>
 

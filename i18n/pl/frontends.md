@@ -1,7 +1,7 @@
 ---
-title: "Interfejsy"
+title: "Alternatywne interfejsy"
 icon: material/flip-to-front
-description: These open-source frontends for various internet services allow you to access content without JavaScript or other annoyances.
+description: Te alternatywne interfejsy typu open source dla różnych usług internetowych umożliwiają dostęp do treści bez JavaScriptu i innych uciążliwości.
 cover: frontends.webp
 ---
 
@@ -9,11 +9,11 @@ cover: frontends.webp
 
 - [:material-account-cash: Kapitalizm inwigilacji](basics/common-threats.md#surveillance-as-a-business-model ""){.pg-brown}
 
-Sometimes services will try to force you to sign up for an account by blocking access to content with annoying popups. They might also break without JavaScript enabled. These frontends can allow you to circumvent these restrictions.
+Czasami serwisy próbują wymusić założenie konta, blokując dostęp do treści natrętnymi wyskakującymi okienkami. Mogą one również przestać działać poprawnie bez włączonej obsługi JavaScriptu. Opisane tu interfejsy (ang. *frontends*) pozwalają na obejście tych ograniczeń.
 
-If you choose to self-host these frontends, it is important that you have other people using your instance as well in order for you to blend in. You should be careful with where and how you are hosting, as other peoples' usage will be linked to your hosting.
+Jeśli zdecydujesz się samodzielnie hostować te interfejsy ważne jest, żeby z Twojej instancji korzystało też więcej osób — dzięki temu łatwiej „wtopić się w tłum”. Należy zachować ostrożność przy wyborze miejsca i sposobu hostowania, ponieważ aktywność innych osób będzie powiązana z Twoim serwerem.
 
-When you are using an instance run by someone else, make sure to read the privacy policy of that specific instance (if available). They can be modified by their owners and therefore may not reflect the default policy. Some instances have [Tor](tor.md) .onion addresses, which may grant some privacy as long as your search queries don't contain personally identifiable information.
+Korzystając z instancji należącej do kogoś innego, zapoznaj się z jej polityką prywatności (o ile jest dostępna). Właściciele mogą ją modyfikować, więc nie musi ona odzwierciedlać domyślnej polityki. Niektóre instancje posiadają adresy .onion w sieci [Tor](tor.md), co może zapewnić dodatkową prywatność pod warunkiem, że Twoje zapytania nie zawierają informacji umożliwiających identyfikację.
 
 ## Reddit
 

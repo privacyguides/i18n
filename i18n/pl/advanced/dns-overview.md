@@ -182,7 +182,7 @@ Rządy, w szczególności [Chin](https://zdnet.com/article/china-is-now-blocking
 
 ### Online Certificate Status Protocol (OCSP)
 
-Innym sposobem, w jaki przeglądarka może ujawnić aktywność przeglądania, jest użycie [protokółu stanu certyfikatu online](https://en.wikipedia.org/wiki/Online_Certificate_Status_Protocol) (*Online Certificate Status Protocol*). Przy odwiedzaniu strony HTTPS przeglądarka może sprawdzić, czy [certyfikat](https://en.wikipedia.org/wiki/Public_key_certificate) strony nie został unieważniony. Zwykle odbywa się to za pośrednictwem protokołu HTTP, co oznacza, że **nie jest** to szyfrowane.
+Innym sposobem, w jaki przeglądarka może ujawnić aktywność przeglądania, jest użycie [protokółu stanu certyfikatu online](https://en.wikipedia.org/wiki/Online_Certificate_Status_Protocol) (ang. *Online Certificate Status Protocol*). Przy odwiedzaniu strony HTTPS przeglądarka może sprawdzić, czy [certyfikat](https://en.wikipedia.org/wiki/Public_key_certificate) strony nie został unieważniony. Zwykle odbywa się to za pośrednictwem protokołu HTTP, co oznacza, że **nie jest** to szyfrowane.
 
 Żądanie OCSP zawiera „[numer seryjny](https://en.wikipedia.org/wiki/Public_key_certificate#Common_fields)” certyfikatu, który jest unikatowy. Żądanie jest wysyłane do serwera odpowiadającego OCSP (OCSP responder) w celu sprawdzenia statusu certyfikatu.
 
