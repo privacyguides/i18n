@@ -64,33 +64,33 @@ ffsend upload --host https://send.vis.ee/ FILE
 
 </div>
 
-OnionShare provides the option to connect via [Tor bridges](https://docs.onionshare.org/2.6.2/en/tor.html#automatic-censorship-circumvention) to circumvent [:material-close-outline: Censorship](basics/common-threats.md#avoiding-censorship ""){.pg-blue-gray}.
+OnionShare oferuje również możliwość połączenia się za pośrednictwem [mostków Tor](https://docs.onionshare.org/2.6.2/pl/tor.html#automatic-censorship-circumvention), co pozwala obejść [:material-close-outline: cenzurę](basics/common-threats.md#avoiding-censorship ""){.pg-blue-gray}.
 
 ### Kryteria
 
 **Należy pamiętać, że nie jesteśmy powiązani z żadnym z polecanych przez nas projektów.** Oprócz [naszych standardowych kryteriów](about/criteria.md) opracowaliśmy jasny zestaw wymagań, które pozwalają nam formułować obiektywne zalecenia. Sugerujemy zapoznanie się z tą listą przed wyborem projektu oraz przeprowadzenie własnych badań, aby upewnić się, że jest to odpowiedni wybór dla Ciebie.
 
-- Must not store decrypted data on a remote server.
+- Nie może przechowywać odszyfrowanych danych na zdalnym serwerze.
 - Musi być oprogramowaniem typu open source.
-- Must either have clients for Linux, macOS, and Windows; or have a web interface.
+- Musi mieć klienty dla systemów Linux, macOS i Windows albo oferować interfejs internetowy.
 
-## File Sync
+## Synchronizacja plików
 
 ### Syncthing (P2P)
 
 <div class="admonition recommendation" markdown>
 
-![Syncthing logo](assets/img/file-sharing-sync/syncthing.svg){ align=right }
+![Logo Syncthing](assets/img/file-sharing-sync/syncthing.svg){ align=right }
 
-**Syncthing** is an open-source peer-to-peer continuous file synchronization utility. It is used to synchronize files between two or more devices over the local network or the internet. Syncthing does not use a centralized server; it uses the [Block Exchange Protocol](https://docs.syncthing.net/specs/bep-v1.html#bep-v1) to transfer data between devices. All data is encrypted using TLS.
+**Syncthing** to narzędzie peer-to-peer typu open source do ciągłej synchronizacji plików. Służy do synchronizacji plików między dwoma lub więcej urządzeniami w sieci lokalnej lub przez Internet. Syncthing nie korzysta z serwera scentralizowanego; do transferu danych między urządzeniami używa protokołu [Block Exchange Protocol](https://docs.syncthing.net/specs/bep-v1.html#bep-v1). Wszystkie dane są szyfrowane przy użyciu protokołu TLS.
 
-[:octicons-home-16: Homepage](https://syncthing.net){ .md-button .md-button--primary }
-[:octicons-info-16:](https://docs.syncthing.net){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/syncthing){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://syncthing.net/donations){ .card-link title=Contribute }
+[:octicons-home-16: Strona główna](https://syncthing.net){ .md-button .md-button--primary }
+[:octicons-info-16:](https://docs.syncthing.net){ .card-link title=Dokumentacja}
+[:octicons-code-16:](https://github.com/syncthing){ .card-link title="Kod źródłowy" }
+[:octicons-heart-16:](https://syncthing.net/donations){ .card-link title=Wesprzyj }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Pobierz</summary>
 
 - [:fontawesome-brands-windows: Windows](https://syncthing.net/downloads)
 - [:simple-apple: macOS](https://syncthing.net/downloads)
@@ -107,16 +107,16 @@ OnionShare provides the option to connect via [Tor bridges](https://docs.onionsh
 
 #### Minimalne wymagania
 
-- Must not require a third-party remote/cloud server.
+- Nie może wymagać zewnętrznego serwera zdalnego ani usług chmurowych.
 - Musi być oprogramowaniem typu open source.
-- Must either have clients for Linux, macOS, and Windows; or have a web interface.
+- Musi mieć klienty dla systemów Linux, macOS i Windows albo oferować interfejs internetowy.
 
 #### Najlepszy scenariusz
 
 Nasze kryteria „najlepszego scenariusza” określają, jak powinien wyglądać idealny projekt w tej kategorii. Nasze zalecenia nie muszą spełniać wszystkich tych warunków, jednak projekty, które spełniają więcej z nich, mogą być oceniane wyżej od pozostałych na stronie.
 
-- Should have mobile clients for iOS and Android which at least support document previews.
-- Should support photo backups from iOS and Android, and optionally support file/folder sync on Android.
+- Powinien mieć aplikacje mobilne dla systemów iOS i Android, które przynajmniej obsługują podgląd dokumentów.
+- Powinien obsługiwać tworzenie kopii zapasowych zdjęć z systemu iOS i Android, a opcjonalnie synchronizację plików i folderów na Androidzie.
 
 [^1]: Proton Drive pozwala [udostępniać pliki lub foldery](https://proton.me/support/drive-shareable-link) poprzez wygenerowanie publicznego linku do udostępnienia albo przesłanie unikatowego linku na wskazany adres e-mail. Linki publiczne można zabezpieczyć hasłem, ustawić dla nich datę wygaśnięcia oraz całkowicie cofnąć dostęp; linki wysyłane za pośrednictwem wiadomości e-mail mogą mieć przypisane niestandardowe uprawnienia i również podlegać cofnięciu. Zgodnie z [polityką prywatności](https://proton.me/pl/drive/privacy-policy) Proton Drive, zawartość plików, nazwy plików i folderów oraz podglądy miniatur są szyfrowane end-to-end.
 [^2]: Dzięki subskrypcji [Premium](https://bitwarden.com/help/about-bitwarden-plans/#compare-personal-plans), [Bitwarden Send](https://bitwarden.com/products/send) umożliwia bezpieczne udostępnianie plików i tekstu z użyciem [szyfrowania end-to-end](https://bitwarden.com/help/send-encryption). Można wymagać [hasła](https://bitwarden.com/help/send-privacy/#send-passwords) wraz z linkiem Send. Bitwarden Send oferuje też funkcję [automatycznego usuwania](https://bitwarden.com/help/send-lifespan).

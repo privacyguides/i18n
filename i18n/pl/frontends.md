@@ -25,10 +25,10 @@ When you are using an instance run by someone else, make sure to read the privac
 
 **Redlib** is an open-source frontend to the [Reddit](https://reddit.com) website that is also self-hostable. You can access Redlib through a number of public instances.
 
-[:octicons-repo-16: Repository](https://github.com/redlib-org/redlib){ .md-button .md-button--primary }
-[:octicons-server-16:](https://github.com/redlib-org/redlib-instances/blob/main/instances.md){ .card-link title="Public Instances" }
-[:octicons-info-16:](https://github.com/redlib-org/redlib?tab=readme-ov-file#table-of-contents){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/redlib-org/redlib){ .card-link title="Source Code" }
+[:octicons-repo-16: Repozytorium](https://github.com/redlib-org/redlib){ .md-button .md-button--primary }
+[:octicons-server-16:](https://github.com/redlib-org/redlib-instances/blob/main/instances.md){ .card-link title="Instancje publiczne" }
+[:octicons-info-16:](https://github.com/redlib-org/redlib?tab=readme-ov-file#table-of-contents){ .card-link title="Dokumentacja" }
+[:octicons-code-16:](https://github.com/redlib-org/redlib){ .card-link title="Kod źródłowy" }
 
 </div>
 
@@ -58,10 +58,10 @@ Redlib is useful if you want to disable JavaScript in your browser, such as [Tor
 
 There are a number of public instances, with some that offer a [Tor](tor.md) onion service or an [I2P](alternative-networks.md#i2p-the-invisible-internet-project) eepsite.
 
-[:octicons-repo-16: Repository](https://github.com/pablouser1/ProxiTok){ .md-button .md-button--primary }
-[:octicons-server-16:](https://github.com/pablouser1/ProxiTok/wiki/Public-instances){ .card-link title="Public Instances" }
-[:octicons-info-16:](https://github.com/pablouser1/ProxiTok/wiki){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/pablouser1/ProxiTok){ .card-link title="Source Code" }
+[:octicons-repo-16: Repozytorium](https://github.com/pablouser1/ProxiTok){ .md-button .md-button--primary }
+[:octicons-server-16:](https://github.com/pablouser1/ProxiTok/wiki/Public-instances){ .card-link title="Instancje publiczne" }
+[:octicons-info-16:](https://github.com/pablouser1/ProxiTok/wiki){ .card-link title="Dokumentacja" }
+[:octicons-code-16:](https://github.com/pablouser1/ProxiTok){ .card-link title="Kod źródłowy" }
 
 </details>
 
