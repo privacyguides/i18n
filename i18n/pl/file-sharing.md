@@ -1,7 +1,7 @@
 ---
 title: Udostępnianie i synchronizacja plików
 icon: material/share-variant
-description: Dowiedz się, jak prywatnie udostępniać piki pomiędzy swoimi urządzeniami, ze znajomymi lub rodziną lub anonimowo w sieci.
+description: Dowiedz się, jak prywatnie udostępniać pliki między urządzeniami, znajomymi i rodziną albo anonimowo w sieci.
 cover: file-sharing.webp
 ---
 
@@ -9,35 +9,31 @@ cover: file-sharing.webp
 
 - [:material-server-network: Dostawcy usług](basics/common-threats.md#privacy-from-service-providers ""){.pg-teal}
 
-Dowiedz się, jak prywatnie udostępniać piki pomiędzy swoimi urządzeniami, ze znajomymi lub rodziną lub anonimowo w sieci.
+Dowiedz się, jak prywatnie udostępniać pliki między urządzeniami, znajomymi i rodziną albo anonimowo w sieci.
 
 ## Udostępnianie plików
 
-If you already use [Proton Drive](cloud.md#proton-drive)[^1] or have a [Bitwarden](passwords.md#bitwarden) Premium[^2] subscription, consider using the file sharing capabilities that they each offer, both of which use end-to-end encryption. Otherwise, the standalone options listed here ensure that the files you share are not read by a remote server.
+Jeśli już korzystasz z [Proton Drive](cloud.md#proton-drive)[^1] lub posiadasz subskrypcję [Bitwarden](passwords.md#bitwarden) Premium[^2], rozważ skorzystanie z oferowanych przez nie funkcji udostępniania plików — obie wykorzystują szyfrowanie end-to-end. W przeciwnym razie samodzielne rozwiązania wymienione poniżej zapewniają, że udostępniane pliki nie są odczytywane przez zdalny serwer.
 
 ### Send
 
 <div class="admonition recommendation" markdown>
 
-![Send logo](assets/img/file-sharing-sync/send.svg){ align=right }
+![Logo Send](assets/img/file-sharing-sync/send.svg){ align=right }
 
-**Send** is a fork of Mozilla's discontinued Firefox Send service which allows you to send files to others with a link. [:octicons-repo-16: Repozytorium](https://github.com/magic-wormhole/magic-wormhole){ .md-button .md-button--primary }
-[:octicons-info-16:](https://magic-wormhole.readthedocs.io/){ .card-link title=Dokumentacja}
-[:octicons-code-16:](https://github.com/magic-wormhole/magic-wormhole){ .card-link title="Kod źródłowy" }
+**Send** to fork wycofanej usługi Firefox Send od Mozilli, który pozwala wysyłać pliki innym za pomocą linku. Pliki są szyfrowane na urządzeniu, więc serwer nie ma do nich dostępu, a dodatkowo można je opcjonalnie chronić hasłem. Opiekun projektu Send udostępnia [instancję publiczną](https://send.vis.ee). Można też korzystać z innych publicznych instancji albo hostować Send samodzielnie.
 
-??? The maintainer of Send hosts a [public instance](https://send.vis.ee). You can use other public instances, or you can host Send yourself.
-
-[:octicons-home-16: Homepage](https://send.vis.ee){ .md-button .md-button--primary }
-[:octicons-server-16:](https://github.com/timvisee/send-instances){ .card-link title="Public Instances"}
-[:octicons-info-16:](https://github.com/timvisee/send#readme){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/timvisee/send){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://github.com/sponsors/timvisee){ .card-link title="Contribute" }
+[:octicons-home-16: Strona główna](https://send.vis.ee){ .md-button .md-button--primary }
+[:octicons-server-16:](https://github.com/timvisee/send-instances){ .card-link title="Instancje publiczne"}
+[:octicons-info-16:](https://github.com/timvisee/send#readme){ .card-link title="Dokumentacja" }
+[:octicons-code-16:](https://github.com/timvisee/send){ .card-link title="Kod źródłowy" }
+[:octicons-heart-16:](https://github.com/sponsors/timvisee){ .card-link title="Wesprzyj" }
 
 </details>
 
 </div>
 
-Send can be used via its web interface or via the [ffsend](https://github.com/timvisee/ffsend) CLI. If you are familiar with the command-line and send files frequently, we recommend using the CLI client to avoid JavaScript-based encryption. You can specify the `--host` flag to use a specific server:
+Z Send można korzystać poprzez interfejs internetowy lub narzędzie [ffsend](https://github.com/timvisee/ffsend) w wierszu poleceń. Jeśli praca w wierszu poleceń nie jest Ci obca i często wysyłasz pliki, zalecamy korzystanie z klienta CLI, aby uniknąć szyfrowania opartego na JavaScript. Można wskazać konkretny serwer, używając flagi `--host`:
 
 ```bash
 ffsend upload --host https://send.vis.ee/ FILE
@@ -47,17 +43,17 @@ ffsend upload --host https://send.vis.ee/ FILE
 
 <div class="admonition recommendation" markdown>
 
-![OnionShare logo](assets/img/file-sharing-sync/onionshare.svg){ align=right }
+![Logo OnionShare](assets/img/file-sharing-sync/onionshare.svg){ align=right }
 
-**OnionShare** is an open-source tool that lets you securely and [:material-incognito: anonymously](basics/common-threats.md#anonymity-vs-privacy){ .pg-purple } share a file of any size. It works by starting a web server accessible as a Tor onion service, with an unguessable URL that you can share with the recipients to download or send files.
+**OnionShare** to narzędzie typu open source, które umożliwia bezpieczne i [:material-incognito: anonimowe](basics/common-threats.md#anonymity-vs-privacy){ .pg-purple } udostępnianie plików o dowolnym rozmiarze. Działa poprzez uruchomienie serwera WWW dostępnego jako usługa .onion w sieci Tor, z trudnym do odgadnięcia adresem URL, którym można podzielić się z odbiorcami, aby pobrali lub przesłali pliki.
 
-[:octicons-home-16: Homepage](https://onionshare.org){ .md-button .md-button--primary }
-[:simple-torbrowser:](http://lldan5gahapx5k7iafb3s4ikijc4ni7gx5iywdflkba5y2ezyg6sjgyd.onion){ .card-link title="Onion Service" }
-[:octicons-info-16:](https://docs.onionshare.org){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/onionshare/onionshare){ .card-link title="Source Code" }
+[:octicons-home-16: Strona główna](https://onionshare.org){ .md-button .md-button--primary }
+[:simple-torbrowser:](http://lldan5gahapx5k7iafb3s4ikijc4ni7gx5iywdflkba5y2ezyg6sjgyd.onion){ .card-link title="Usługa .onion" }
+[:octicons-info-16:](https://docs.onionshare.org){ .card-link title="Dokumentacja" }
+[:octicons-code-16:](https://github.com/onionshare/onionshare){ .card-link title="Kod źródłowy" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Pobierz</summary>
 
 - [:fontawesome-brands-windows: Windows](https://onionshare.org/#download)
 - [:simple-apple: macOS](https://onionshare.org/#download)
@@ -122,5 +118,5 @@ Nasze kryteria „najlepszego scenariusza” określają, jak powinien wygląda�
 - Should have mobile clients for iOS and Android which at least support document previews.
 - Should support photo backups from iOS and Android, and optionally support file/folder sync on Android.
 
-[^1]: Proton Drive allows you to [share files or folders](https://proton.me/support/drive-shareable-link) by generating a shareable public link or sending a unique link to a designated email address. Public links can be protected with a password, set to expire, and completely revoked, while links shared via email can have custom permissions and be similarly revoked. Per Proton Drive's [privacy policy](https://proton.me/drive/privacy-policy), file contents, file and folder names, and thumbnail previews are end-to-end encrypted.
-[^2]: With a [premium](https://bitwarden.com/help/about-bitwarden-plans/#compare-personal-plans) subscription, [Bitwarden Send](https://bitwarden.com/products/send) allows you to share files and text securely with [end-to-end encryption](https://bitwarden.com/help/send-encryption). A [password](https://bitwarden.com/help/send-privacy/#send-passwords) can be required along with the Send link. Bitwarden Send also features [automatic deletion](https://bitwarden.com/help/send-lifespan).
+[^1]: Proton Drive pozwala [udostępniać pliki lub foldery](https://proton.me/support/drive-shareable-link) poprzez wygenerowanie publicznego linku do udostępnienia albo przesłanie unikatowego linku na wskazany adres e-mail. Linki publiczne można zabezpieczyć hasłem, ustawić dla nich datę wygaśnięcia oraz całkowicie cofnąć dostęp; linki wysyłane za pośrednictwem wiadomości e-mail mogą mieć przypisane niestandardowe uprawnienia i również podlegać cofnięciu. Zgodnie z [polityką prywatności](https://proton.me/pl/drive/privacy-policy) Proton Drive, zawartość plików, nazwy plików i folderów oraz podglądy miniatur są szyfrowane end-to-end.
+[^2]: Dzięki subskrypcji [Premium](https://bitwarden.com/help/about-bitwarden-plans/#compare-personal-plans), [Bitwarden Send](https://bitwarden.com/products/send) umożliwia bezpieczne udostępnianie plików i tekstu z użyciem [szyfrowania end-to-end](https://bitwarden.com/help/send-encryption). Można wymagać [hasła](https://bitwarden.com/help/send-privacy/#send-passwords) wraz z linkiem Send. Bitwarden Send oferuje też funkcję [automatycznego usuwania](https://bitwarden.com/help/send-lifespan).

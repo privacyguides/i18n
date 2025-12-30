@@ -1,7 +1,7 @@
 ---
 title: Współpraca nad dokumentami
 icon: material/account-group
-description: Most online office suites do not support end-to-end encryption, meaning the cloud provider has access to everything you do.
+description: Większość internetowych pakietów biurowych nie obsługuje szyfrowania end-to-end, co oznacza, że dostawca chmury ma dostęp do wszystkiego, co robisz.
 cover: document-collaboration.webp
 ---
 
@@ -9,24 +9,24 @@ cover: document-collaboration.webp
 
 - [:material-server-network: Dostawcy usług](basics/common-threats.md#privacy-from-service-providers){ .pg-teal }
 
-Most online **document collaboration** platforms like Google Drive do not support end-to-end encryption, meaning the cloud provider has access to everything you do. The provider's privacy policy may legally protect your rights, but it does not provide technical access constraints.
+Większość platform do współpracy nad dokumentami dostępnych online, takich jak Dysk Google, nie obsługuje szyfrowania end-to-end, co oznacza, że dostawca chmury ma dostęp do wszystkiego, co robisz. Polityka prywatności dostawcy może prawnie chronić Twoje prawa, ale nie zapewnia technicznych ograniczeń dostępu.
 
 ## CryptPad
 
 <div class="admonition recommendation" markdown>
 
-![CryptPad logo](assets/img/document-collaboration/cryptpad.svg){ align=right }
+![Logo CryptPad](assets/img/document-collaboration/cryptpad.svg){ align=right }
 
-**CryptPad** is a private-by-design alternative to popular, full-fledged office suites. All content on this web service is E2EE and can be shared with other users easily.
+**CryptPad** to zaprojektowana z myślą o prywatności alternatywa dla popularnych, rozbudowanych pakietów biurowych. Cała zawartość tej usługi internetowej jest szyfrowana end-to-end i można ją łatwo udostępniać innym użytkownikom.
 
-[:material-star-box: Read our latest CryptPad review.](https://www.privacyguides.org/articles/2025/02/07/cryptpad-review)
+[:material-star-box: Przeczytaj naszą najnowszą recenzję CryptPad.](https://www.privacyguides.org/articles/2025/02/07/cryptpad-review)
 
-[:octicons-home-16: Homepage](https://cryptpad.fr){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://cryptpad.fr/pad/#/2/pad/view/GcNjAWmK6YDB3EO2IipRZ0fUe89j43Ryqeb4fjkjehE){ .card-link title="Privacy Policy" }
-[:octicons-server-16:](https://cryptpad.org/instances){ .card-link title="Public Instances" }
-[:octicons-info-16:](https://docs.cryptpad.fr){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/xwiki-labs/cryptpad){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://opencollective.com/cryptpad){ .card-link title="Contribute" }
+[:octicons-home-16: Strona główna](https://cryptpad.fr){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://cryptpad.fr/pad/#/2/pad/view/GcNjAWmK6YDB3EO2IipRZ0fUe89j43Ryqeb4fjkjehE){ .card-link title="Polityka prywatności" }
+[:octicons-server-16:](https://cryptpad.org/instances){ .card-link title="Instancje publiczne" }
+[:octicons-info-16:](https://docs.cryptpad.fr){ .card-link title="Dokumentacja" }
+[:octicons-code-16:](https://github.com/xwiki-labs/cryptpad){ .card-link title="Kod źródłowy" }
+[:octicons-heart-16:](https://opencollective.com/cryptpad){ .card-link title="Wesprzyj" }
 
 </details>
 
@@ -39,15 +39,15 @@ Most online **document collaboration** platforms like Google Drive do not suppor
 ### Minimalne wymagania
 
 - Musi być open source.
-- Must make files accessible via WebDAV unless it is impossible due to E2EE.
-- Must have sync clients for Linux, macOS, and Windows.
-- Must support document and spreadsheet editing.
-- Must support real-time document collaboration.
-- Must support exporting documents to standard document formats (e.g. ODF).
+- Pliki muszą być dostępne przez WebDAV, chyba że szyfrowanie end-to-end to uniemożliwia.
+- Musi oferować klienty synchronizacji dla systemów Linux, macOS i Windows.
+- Musi obsługiwać edycję dokumentów i arkuszy kalkulacyjnych.
+- Musi umożliwiać współpracę nad dokumentami w czasie rzeczywistym.
+- Musi pozwalać na eksport dokumentów do standardowych formatów (np. ODF).
 
 ### Najlepszy scenariusz
 
 Nasze kryteria „najlepszego scenariusza” określają, jak powinien wyglądać idealny projekt w tej kategorii. Nasze zalecenia nie muszą spełniać wszystkich tych warunków, jednak projekty, które spełniają więcej z nich, mogą być oceniane wyżej od pozostałych na stronie.
 
-- Should store files in a conventional filesystem.
-- Should support TOTP or FIDO2 multifactor authentication support, or passkey logins.
+- Pliki powinny być przechowywane w konwencjonalnym systemie plików.
+- Powinien obsługiwać uwierzytelnianie wieloskładnikowe TOTP lub FIDO2 albo logowanie za pomocą klucza dostępu.
