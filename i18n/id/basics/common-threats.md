@@ -4,54 +4,54 @@ icon: 'material/eye-outline'
 description: Model ancaman Anda bersifat pribadi bagi Anda, tetapi ini adalah beberapa hal yang dipedulikan oleh banyak pengunjung situs ini.
 ---
 
-Secara garis besar, kami mengkategorikan rekomendasi kami ke dalam [ancaman](threat-modeling.md) atau tujuan yang berlaku untuk kebanyakan orang. ==Anda mungkin tidak peduli dengan tidak ada, satu, beberapa, atau semua kemungkinan ini==, dan alat dan layanan yang Anda gunakan tergantung pada tujuan Anda. You may have specific threats outside these categories as well, which is perfectly fine! Bagian yang penting adalah mengembangkan pemahaman tentang manfaat dan kekurangan alat yang Anda pilih untuk digunakan, karena hampir tidak ada satu pun yang akan melindungi Anda dari setiap ancaman.
+Secara garis besar, kami mengkategorikan rekomendasi kami ke dalam [ancaman](threat-modeling.md) atau tujuan yang berlaku untuk kebanyakan orang. ==Anda mungkin tidak peduli dengan tidak ada, satu, beberapa, atau semua kemungkinan ini==, dan alat dan layanan yang Anda gunakan tergantung pada tujuan Anda. Anda mungkin juga memiliki ancaman khusus di luar kategori ini, dan itu tidak masalah! Bagian yang penting adalah mengembangkan pemahaman tentang manfaat dan kekurangan alat yang Anda pilih untuk digunakan, karena hampir tidak ada satu pun yang akan melindungi Anda dari setiap ancaman.
 
-<span class="pg-purple">:material-incognito: **Anonymity**</span>
+<span class="pg-purple">:material-incognito: **Anonimitas**</span>
 :
 
-Shielding your online activity from your real identity, protecting you from people who are trying to uncover *your* identity specifically.
+Melindungi aktivitas online Anda dari identitas asli Anda, melindungi Anda dari orang-orang yang mencoba mengungkap identitas *Anda* secara spesifik.
 
-<span class="pg-red">:material-target-account: **Targeted Attacks**</span>
+<span class="pg-red">:material-target-account: **Serangan Bertarget**</span>
 :
 
-Being protected from hackers or other malicious actors who are trying to gain access to *your* data or devices specifically.
+Terlindungi dari peretas atau aktor jahat lainnya yang mencoba mengakses data atau perangkat *Anda* secara khusus.
 
-<span class="pg-viridian">:material-package-variant-closed-remove: **Supply Chain Attacks**</span>
+<span class="pg-viridian">:material-package-variant-closed-remove: **Serangan Rantai Pasokan**</span>
 :
 
-Typically, a form of <span class="pg-red">:material-target-account: Targeted Attack</span> that centers around a vulnerability or exploit introduced into otherwise good software either directly or through a dependency from a third party.
+Biasanya, bentuk <span class="pg-red">:material-target-account: Serangan Bertarget</span> yang berpusat di sekitar kerentanan atau eksploitasi yang dimasukkan ke dalam perangkat lunak yang baik, baik secara langsung atau melalui ketergantungan dari pihak ketiga.
 
-<span class="pg-orange">:material-bug-outline: **Passive Attacks**</span>
+<span class="pg-orange">:material-bug-outline: **Serangan Pasif**</span>
 :
 
-Being protected from things like malware, data breaches, and other attacks that are made against many people at once.
+Terlindungi dari hal-hal seperti malware, pembobolan data, dan serangan lain yang dilakukan terhadap banyak orang sekaligus.
 
-<span class="pg-teal">:material-server-network: **Service Providers**</span>
+<span class="pg-teal">:material-server-network: **Penyedia Layanan**</span>
 :
 
-Protecting your data from service providers (e.g. with E2EE, which renders your data unreadable to the server).
+Melindungi data Anda dari penyedia layanan (misalnya dengan E2EE, yang membuat data Anda tidak dapat dibaca oleh server).
 
-<span class="pg-blue">:material-eye-outline: **Mass Surveillance**</span>
+<span class="pg-blue">:material-eye-outline: **Pengawasan Massa**</span>
 :
 
-Protection from government agencies, organizations, websites, and services which work together to track your activities.
+Perlindungan dari lembaga pemerintah, organisasi, situs web, dan layanan yang bekerja sama untuk melacak aktivitas Anda.
 
-<span class="pg-brown">:material-account-cash: **Surveillance Capitalism**</span>
+<span class="pg-brown">:material-account-cash: **Kapitalisme Pengawasan**</span>
 :
 
-Protecting yourself from big advertising networks, like Google and Facebook, as well as a myriad of other third-party data collectors.
+Melindungi diri Anda dari jaringan periklanan besar, seperti Google dan Facebook, serta segudang pengumpul data pihak ketiga lainnya.
 
-<span class="pg-green">:material-account-search: **Public Exposure**</span>
+<span class="pg-green">:material-account-search: **Paparan Publik**</span>
 :
 
-Limiting the information about you that is accessible online—to search engines or the public.
+Membatasi informasi tentang Anda yang data diakses secara online-mesin pencari atau publik.
 
-<span class="pg-blue-gray">:material-close-outline: **Censorship**</span>
+<span class="pg-blue-gray">:material-close-outline: **Penyensoran**</span>
 :
 
-Avoiding censored access to information or being censored yourself when speaking online.
+Menghindari akses yang disensor ke informati atau disensor saat berbicara online.
 
-Beberapa ancaman ini mungkin lebih penting bagi Anda daripada yang lain, tergantung pada kekhawatiran Anda. For example, a software developer with access to valuable or critical data may be primarily concerned with <span class="pg-viridian">:material-package-variant-closed-remove: Supply Chain Attacks</span> and <span class="pg-red">:material-target-account: Targeted Attacks</span>. They will likely still want to protect their personal data from being swept up in <span class="pg-blue">:material-eye-outline: Mass Surveillance</span> programs. Demikian pula, banyak orang mungkin lebih peduli dengan <span class="pg-green">:material-account-search: Paparan Publik</span> pada data pribadi mereka, tetapi mereka tetap harus waspada terhadap masalah yang berfokus pada keamanan, seperti <span class="pg-orange">:material-bug-outline: Serangan Pasif</span>—seperti perangkat lunak jahat yang memengaruhi perangkat mereka.
+Beberapa ancaman ini mungkin lebih penting bagi Anda daripada yang lain, tergantung pada kekhawatiran Anda. Sebagai contoh, pengembang perangkat lunak yang memiliki akses ke data yang berharga atau penting mungkin akan sangat memperhatikan <span class="pg-viridian">:material-package-variant-closed-remove: Serangan Rantai Pasokan</span> dan <span class="pg-red">:material-target-account: Serangan Bertarget</span>. Mereka mungkin masih ingin melindungi data pribadi mereka agar tidak terseret dalam program<span class="pg-blue">:material-eye-outline: Pengawasan Massal</span>. Demikian pula, banyak orang mungkin lebih peduli dengan <span class="pg-green">:material-account-search: Paparan Publik</span> pada data pribadi mereka, tetapi mereka tetap harus waspada terhadap masalah yang berfokus pada keamanan, seperti <span class="pg-orange">:material-bug-outline: Serangan Pasif</span>—seperti perangkat lunak jahat yang memengaruhi perangkat mereka.
 
 ## Anonimitas vs. Privasi
 
