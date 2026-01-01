@@ -35,9 +35,9 @@ Untuk mengidentifikasi apa yang dapat terjadi pada hal-hal yang Anda hargai dan 
 
 Untuk menjawab pertanyaan ini, penting untuk mengidentifikasi siapa yang mungkin ingin menargetkan Anda atau informasi Anda. ==Seseorang atau entitas yang menjadi ancaman bagi aset Anda adalah "musuh".== Contoh musuh potensial adalah atasan Anda, mantan mitra Anda, pesaing bisnis Anda, pemerintah Anda, atau peretas di jaringan publik.
 
-*Make a list of your adversaries or those who might want to get hold of your assets. Daftar Anda dapat mencakup individu, lembaga pemerintah, atau perusahaan.*
+*Buarlah daftar musuh Anda atau mereka yang mungkin ingin mendapatkan aset Anda. Daftar Anda dapat mencakup individu, lembaga pemerintah, atau perusahaan.*
 
-Depending on who your adversaries are, this list might be something you want to destroy after you've finished developing your threat model.
+Tergantung pada siapa musuh Anda, daftar ini mungkin merupakan sesuatu yang ingin Anda hancurkan setelah Anda selesai mengembangkan modal ancaman Anda.
 
 ### Seberapa besar kemungkinan saya perlu melindunginya?
 
