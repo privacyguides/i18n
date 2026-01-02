@@ -89,19 +89,19 @@ Wenn du anonym im Internet surfen möchtest, solltest du stattdessen [Tor](tor.m
 
 </div>
 
-Like [Tor Browser](tor.md), Mullvad Browser is designed to prevent fingerprinting by making your browser fingerprint identical to all other Mullvad Browser users, and it includes default settings and extensions that are automatically configured by the default security levels: *Standard*, *Safer* and *Safest*.
+Wie der [Tor Browser](tor.md), ist der Mullvad Browser so entwickelt, dass es Fingerprinting verhindert, indem es dein Browser Fingerprint identisch zu anderen Mullvad Browser Nutzern macht, ebenfalls beinhaltet der Browser Standardeinstellungen sowie Erweiterungen die automatisch zu den folgenden Sicherheitslevels eingestellt werden können: *Standard*, *Safer* and *Safest*.
 
-Therefore, it is imperative that you do not modify the browser at all outside adjusting the default [security levels](https://tb-manual.torproject.org/security-settings). When adjusting the security level, you **must** always restart the browser before continuing to use it. Otherwise, [the security settings may not be fully applied](https://www.privacyguides.org/articles/2025/05/02/tor-security-slider-flaw), putting you at a higher risk of fingerprinting and exploits than you may expect based on the setting chosen.
+Daher ist es wichtig, dass du den Browser außerhalb den [Sicherheitslevels](https://tb-manual.torproject.org/security-settings) nicht modifizierst. Wenn du das Sicherheitslevel änderst, **musst** du immer den Browser neu starten bevor du ihn weiter nutzt. Sonst werden [die Sicherheitseinstellungen nicht vollständig angewendet](https://www.privacyguides.org/articles/2025/05/02/tor-security-slider-flaw), was zu höheren Risiken von Fingerprinting und Angriffen führen kann, als was du von der Einstellung erwartet hast.
 
-Modifications other than adjusting this setting would make your fingerprint unique, defeating the purpose of using this browser. Wenn du deinen Browser stärker konfigurieren möchtest und Fingerprinting für dich kein Thema ist, empfehlen wir stattdessen [Firefox](#firefox).
+Andere Änderungen würden Ihren Fingerabdruck einzigartig machen und damit den Zweck dieses Browsers zunichtemachen. Wenn du deinen Browser stärker konfigurieren möchtest und Fingerprinting für dich kein Thema ist, empfehlen wir stattdessen [Firefox](#firefox).
 
 ### Anti-Fingerprinting
 
-**Without** using a [VPN](vpn.md), Mullvad Browser provides protections against [naive fingerprinting scripts](https://github.com/arkenfox/user.js/wiki/3.3-Overrides-%5BTo-RFP-or-Not%5D#-fingerprinting) similar to other private browsers like Firefox+[Arkenfox](#arkenfox-advanced) or [Brave](#brave). Er bietet diesen Schutz von Haus aus, allerdings auf Kosten einer gewissen Flexibilität und Bequemlichkeit, die andere private Browser bieten können.
+**Ohne** [VPN](vpn.md), bietet der Mullvad Browser Schutz gegen [naive Fingerprinting Skripts](https://github.com/arkenfox/user.js/wiki/3.3-Overrides-%5BTo-RFP-or-Not%5D#-fingerprinting), ähnlich wie andere private Browser wie Firefox+[Arkenfox](#arkenfox-advanced) oder [Brave](#brave). Er bietet diesen Schutz von Haus aus, allerdings auf Kosten einer gewissen Flexibilität und Bequemlichkeit, die andere private Browser bieten können.
 
 ==Für das stärkste Anti-Fingerprinting empfehlen wir die Verwendung des Mullvad Browsers in Verbindung **mit** einem VPN==, sei es Mullvad VPN oder ein anderer empfohlener VPN-Anbieter. Wenn du einen VPN mit Mullvad Browser verwendest, teilst du einen Fingerabdruck und einen Pool von IP-Adressen mit vielen anderen Nutzern, sodass du in einer "Masse" verschwindest. Diese Strategie ist die einzige Möglichkeit, fortgeschrittene Tracking-Skripte zu vereiteln, und ist die gleiche Anti-Fingerprinting-Technik, die auch der Tor-Browser verwendet.
 
-Note that while you can use Mullvad Browser with any VPN provider, other people on that VPN must also be using Mullvad Browser for this "crowd" to exist, something which is more likely on Mullvad VPN compared to other providers. Mullvad Browser verfügt weder über eine eingebaute VPN-Verbindung, noch prüft er vor dem Surfen, ob du einen VPN verwendest; Deine VPN-Verbindung muss separat konfiguriert und verwaltet werden.
+Du kannst den Mullvad Browser mit jeden VPN-Anbieter verwenden, aber dann müssen andere Leute ebenfalls dein VPN benutzen damit diese „Masse“ vorhanden ist. Etwas was verglichen mit den anderen Anbietern eher beim Mullvad VPN existiert. Mullvad Browser verfügt weder über eine eingebaute VPN-Verbindung, noch prüft er vor dem Surfen, ob du einen VPN verwendest; Deine VPN-Verbindung muss separat konfiguriert und verwaltet werden.
 
 Der Mullvad Browser wird mit den vorinstallierten Browsererweiterungen *uBlock Origin* und *NoScript* ausgeliefert. Obwohl wir normalerweise davon abraten, *zusätzliche* [Browser-Erweiterungen](browser-extensions.md) hinzuzufügen, sollten diese beiden Erweiterungen, die mit dem Browser vorinstalliert sind, **nicht** entfernt oder außerhalb ihrer Standardwerte konfiguriert werden, da dies Ihren Browser-Fingerabdruck deutlich von dem anderer Mullvad-Browser-Nutzer unterscheiden würde. Außerdem ist die Mullvad-Browsererweiterung vorinstalliert. Diese *können* Sie bei Bedarf sicher entfernen, ohne Ihren Browser-Fingerabdruck zu beeinträchtigen. Es ist allerdings auch sicher, sie beizubehalten, selbst wenn Sie Mullvad VPN nicht verwenden.
 
@@ -169,7 +169,7 @@ Suchvorschläge senden alles, was du in die Adressleiste eingibst, an die Standa
 
 - [x] Wählen Sie **Streng** für den verbesserten Schutz vor Aktivitätenverfolgung
 
-This protects you by blocking social media trackers, fingerprinting scripts (note that this does not protect you from *all* fingerprinting), cryptominers, cross-site tracking cookies, and some other tracking content. ETP protects against many common threats, but it does not block all tracking avenues because it is designed to have minimal to no impact on site usability.
+Dies schützt dich, indem Social-Media-Tracker, Fingerprinting-Skripte (beachte, dass es dies kein Schutz vor *allen* Fingerprinting-Methoden bietet), Kryptominer, Cross-Site-Tracking-Cookies und weitere Tracking-Inhalte blockiert werden. ETP protects against many common threats, but it does not block all tracking avenues because it is designed to have minimal to no impact on site usability.
 
 ##### Cookies und Website-Daten
 
