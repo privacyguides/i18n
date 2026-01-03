@@ -11,7 +11,7 @@ cover: frontends.webp
 
 Czasami serwisy próbują wymusić założenie konta, blokując dostęp do treści natrętnymi wyskakującymi okienkami. Mogą one również przestać działać poprawnie bez włączonej obsługi JavaScriptu. Opisane tu interfejsy (ang. *frontends*) pozwalają na obejście tych ograniczeń.
 
-Jeśli zdecydujesz się samodzielnie hostować te interfejsy ważne jest, żeby z Twojej instancji korzystało też więcej osób — dzięki temu łatwiej „wtopić się w tłum”. Należy zachować ostrożność przy wyborze miejsca i sposobu hostowania, ponieważ aktywność innych osób będzie powiązana z Twoim serwerem.
+Jeśli zdecydujesz się na samodzielne hostowanie tych interfejsów ważne jest, aby z Twojej instancji korzystały też inne osoby — dzięki temu łatwiej „wtopić się w tłum”. Należy zachować ostrożność przy wyborze miejsca i sposobu hostowania, ponieważ aktywność innych osób będzie powiązana z Twoim serwerem.
 
 Korzystając z instancji należącej do kogoś innego, zapoznaj się z jej polityką prywatności (o ile jest dostępna). Właściciele mogą ją modyfikować, więc nie musi ona odzwierciedlać domyślnej polityki. Niektóre instancje posiadają adresy .onion w sieci [Tor](tor.md), co może zapewnić dodatkową prywatność pod warunkiem, że Twoje zapytania nie zawierają informacji umożliwiających identyfikację.
 
@@ -21,9 +21,9 @@ Korzystając z instancji należącej do kogoś innego, zapoznaj się z jej polit
 
 <div class="admonition recommendation" markdown>
 
-![Redlib logo](assets/img/frontends/redlib.svg){ align=right }
+![Logo Redlib](assets/img/frontends/redlib.svg){ align=right }
 
-**Redlib** is an open-source frontend to the [Reddit](https://reddit.com) website that is also self-hostable. You can access Redlib through a number of public instances.
+**Redlib** to interfejs open source dla serwisu [Reddit](https://reddit.com), który można również hostować samodzielnie. Dostęp do Redlib jest możliwy za pośrednictwem wielu instancji publicznych.
 
 [:octicons-repo-16: Repozytorium](https://github.com/redlib-org/redlib){ .md-button .md-button--primary }
 [:octicons-server-16:](https://github.com/redlib-org/redlib-instances/blob/main/instances.md){ .card-link title="Instancje publiczne" }
@@ -35,14 +35,14 @@ Korzystając z instancji należącej do kogoś innego, zapoznaj się z jej polit
 <div class="admonition note" markdown>
 <p class="admonition-title">Uwaga</p>
 
-The [Old Reddit](https://old.reddit.com) website doesn't require as much JavaScript as the new Reddit website does, but it has recently blocked access to IP addresses reserved for public VPNs. You can use Old Reddit in conjunction with the [Tor](tor.md) Onion that was [launched in October 2022](https://forum.torproject.org/t/reddit-onion-service-launch/5305) at [https://old.reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion](https://old.reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion).
+Strona [Old Reddit](https://old.reddit.com) wymaga znacznie mniej JavaScriptu niż nowa wersja Reddita, jednak ostatnio zablokowano na niej dostęp dla adresów IP zarezerwowanych dla publicznych sieci VPN. Możesz korzystać z Old Reddit poprzez, [uruchomioną w październiku 2022 r.](https://forum.torproject.org/t/reddit-onion-service-launch/5305), usługę .onion w sieci [Tor](tor.md), pod adresem: [https://old.reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion](https://old.reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion).
 
 </div>
 
 <div class="admonition tip" markdown>
 <p class="admonition-title">Porada</p>
 
-Redlib is useful if you want to disable JavaScript in your browser, such as [Tor Browser](tor.md#tor-browser) on the Safest security level.
+Redlib jest przydatny, jeśli chcesz wyłączyć JavaScript w przeglądarce, takiej jak [Tor Browser](tor.md#tor-browser) przy ustawieniu „najbezpieczniejszego” poziomu bezpieczeństwa.
 
 </div>
 
