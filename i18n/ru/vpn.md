@@ -71,7 +71,7 @@ global:
 У Proton VPN есть [серверы в 127 странах](https://protonvpn.com/vpn-servers)(1) или [10](https://protonvpn.com/support/how-to-create-free-vpn-account), если вы пользуетесь [бесплатным тарифом](https://protonvpn.com/blog/product-roadmap-winter-2025-2026).(2) Выбор VPN-провайдера с ближайшим к вам сервером снизит задержку исходящего интернет-трафика. Это происходит из-за более короткого маршрута (меньше промежуточных серверов) до пункта назначения.
 { .annotate }
 
-1. Of which at least 71 are virtual servers, meaning your IP will appear from the country but the server is in another. 12 more locations have both hardware and virtual servers. [Источник](https://protonvpn.com/support/how-smart-routing-works)
+1. Из которых как минимум 71 — виртуальные серверы, то есть у вас будет IP одной страны, хотя сервер находится в другой. Ещё 12 стран имеют как выделенные, так и виртуальные серверы. [Источник](https://protonvpn.com/support/how-smart-routing-works)
 2. Последняя проверка: 28.10.2025
 
 Мы также считаем, что для безопасности закрытых ключей VPN-провайдера ему следует использовать [выделенные серверы](https://ru.wikipedia.org/wiki/%D0%92%D1%8B%D0%B4%D0%B5%D0%BB%D0%B5%D0%BD%D0%BD%D1%8B%D0%B9_%D1%81%D0%B5%D1%80%D0%B2%D0%B5%D1%80), а не более дешевые виртуальные хостинги (которые разделены между несколькими клиентами), такие как [виртуальные частные серверы](https://ru.wikipedia.org/wiki/VPS).
@@ -84,11 +84,11 @@ Previously, Proton VPN underwent an independent audit by SEC Consult in January 
 
 #### :material-check:{ .pg-green } Клиенты с открытым исходным кодом
 
-Proton VPN provides the source code for their desktop and mobile clients in their [GitHub organization](https://github.com/ProtonVPN).
+Исходный код настольных и мобильных клиентов Proton VPN доступен на [GitHub](https://github.com/ProtonVPN).
 
 #### :material-check:{ .pg-green } Принимает наличные
 
-Proton VPN, in addition to accepting credit/debit cards, PayPal, and [Bitcoin](advanced/payments.md#other-coins-bitcoin-ethereum-etc), also accepts **cash/local currency** as an anonymous form of payment. You can also use [**Monero**](cryptocurrency.md#monero) to purchase vouchers for Proton VPN Plus and Proton Unlimited via their [official](https://discuss.privacyguides.net/t/add-monero-as-an-anonymous-payment-method-for-proton-services/31058/15) reseller [ProxyStore](https://dys2p.com/en/2025-09-09-proton.html).
+Помимо кредитных и дебетовых карт, PayPal и [Bitcoin](advanced/payments.md#other-coins-bitcoin-ethereum-etc), Proton VPN принимает **наличные/местные валюты** в качестве анонимной формы оплаты. You can also use [**Monero**](cryptocurrency.md#monero) to purchase vouchers for Proton VPN Plus and Proton Unlimited via their [official](https://discuss.privacyguides.net/t/add-monero-as-an-anonymous-payment-method-for-proton-services/31058/15) reseller [ProxyStore](https://dys2p.com/en/2025-09-09-proton.html).
 
 #### :material-check:{ .pg-green } Поддержка WireGuard
 
