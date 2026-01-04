@@ -1,16 +1,16 @@
 ---
-title: Photo Management
+title: Fotoverwaltung
 icon: material/image
-description: These photo management tools keep your personal photos safe from the prying eyes of cloud storage providers and other unauthorized parties.
+description: Diese Fotoverwaltungs-Tools schützen deine persönlichen Fotos vor den neugierigen Blicken von Cloud-Speicheranbietern und anderen Unbefugten.
 cover: photo-management.webp
 ---
 
-<small>Protects against the following threat(s):</small>
+<small>Schützt vor der/den folgenden Bedrohung(en):</small>
 
 - [:material-bug-outline: Passive Angriffe](basics/common-threats.md#security-and-privacy){ .pg-orange }
-- [:material-server-network: Service Providers](basics/common-threats.md#privacy-from-service-providers){ .pg-teal }
+- [:material-server-network: Dienstanbieter](basics/common-threats.md#privacy-from-service-providers){ .pg-teal }
 
-Most cloud **photo management solutions** like Google Photos, Flickr, and Amazon Photos don't secure your photos against being accessed by the cloud storage provider themselves. These options keep your personal photos private, while allowing you to share them only with family and trusted people.
+Die meisten Cloud **Fotoverwaltungslösungen** wie Google Fotos, Flickr, und Amazon Fotos schützen nicht deine Fotos vom Anbieter selbst. Diese Optionen behalten deine persönlichen Fotos privat, während du sie trotzdem noch mit deiner Familie und vertrauten Personen teilen kannst.
 
 ## Ente Photos
 
@@ -18,14 +18,14 @@ Most cloud **photo management solutions** like Google Photos, Flickr, and Amazon
 
 ![Ente logo](assets/img/photo-management/ente.svg){ align=right }
 
-**Ente Photos** is an end-to-end encrypted photo backup service which supports automatic backups on iOS and Android. Their code is fully open source, both on the client side and on the server side. It is also [self-hostable](https://github.com/ente-io/ente/tree/main/server#self-hosting).
+**Ente Photos** ist ein verschlüsselter end-to-end-Backup-service für Fotos, das automatische Backups auf iOS und Android unterstützt. Ihr Code ist vollständig Open Source auf der Client-seite sowie auch auf der Serverseite. Man kann es ebenfalls [selbst hosten](https://github.com/ente-io/ente/tree/main/server#self-hosting).
 
-The free plan offers 10 GB of storage as long as you use the service at least once a year.
+Der kostenlose Plan bietet 10 GB Speicher, solange man den Dienst mindestens ein Mal im Jahr benutzt.
 
 [:octicons-home-16: Homepage](https://ente.io){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://ente.io/privacy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://ente.io/faq){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/ente-io/ente){ .card-link title="Source Code" }
+[:octicons-eye-16:](https://ente.io/privacy){ .card-link title="Datenschutzerklärung" }
+[:octicons-info-16:](https://ente.io/faq){ .card-link title="Dokumentation" }
+[:octicons-code-16:](https://github.com/ente-io/ente){ .card-link title="Quellcode" }
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
@@ -43,21 +43,21 @@ The free plan offers 10 GB of storage as long as you use the service at least o
 
 </div>
 
-The server-side source code and infrastructure which underpins Ente Photos underwent an audit by [Cure53](https://ente.io/blog/cern-audit) in October 2025. Previous audits were completed by [Cure53](https://ente.io/blog/cryptography-audit) in March 2023 and by [Fallible](https://ente.io/reports/Fallible-Audit-Report-19-04-2023.pdf) in April 2023.
+Der serverseitige Quellcode und die Infrastruktur die Ente Photos unterstützt, wurde von [Cure53](https://ente.io/blog/cern-audit) im Oktober 2025 geprüft. Vorherige Überprüfungen wurden von [Cure53](https://ente.io/blog/cern-audit) im März 2023 und von [Fallible](https://ente.io/reports/Fallible-Audit-Report-19-04-2023.pdf) im April 2023 durchgeführt.
 
-## Criteria
+## Kriterien
 
-**Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. We suggest you familiarize yourself with this list before choosing to use a project, and conduct your own research to ensure it's the right choice for you.
+**Bitte beachte, dass wir mit keinem der Projekte, die wir empfehlen, in Verbindung stehen.** Zusätzlich zu [unseren Standardkriterien](about/criteria.md) haben wir eine Reihe klarer Anforderungen entwickelt, die es uns ermöglichen, objektive Empfehlungen zu geben. Wir empfehlen dir dich mit dieser Liste auseinanderzusetzen bevor du ein Projekt aussuchst, und führe ebenfalls deine eigene Recherche um sicher zu sein, dass du das richtige aussuchst.
 
 ### Mindestanforderungen
 
-- Cloud-hosted providers must enforce E2EE.
-- Must offer a free plan or trial period for testing.
-- Must support TOTP or FIDO2 multifactor authentication, or passkey logins.
-- Must offer a web interface which supports basic file management functionality.
-- Must allow for easy exports of all files/documents.
-- Must be open source.
+- Cloud-gehostete Anbieter müssen E2EE durchsetzen.
+- Muss einen kostenlosen Plan oder eine Probezeit zum Testen anbieten.
+- Muss TOTP oder FIDO2-Multifaktor-Authentifizierung oder Passkey-Logins unterstützen.
+- Muss eine Weboberfläche bieten, die grundlegende Dateiverwaltungsfunktionen unterstützt.
+- Muss einen einfachen Export aller Dateien/Dokumente ermöglichen.
+- Muss Open Source sein.
 
-### Best Case
+### Im besten Fall
 
-- Should have a published audit from a reputable, independent third party.
+- Sollte veröffentlichte Überprüfungen von angesehene, unabhängigen Dritten haben.

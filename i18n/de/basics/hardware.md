@@ -8,30 +8,30 @@ Wenn es um Diskussionen über die Privatsphäre geht, wird oft nicht so viel üb
 
 ## Auswahl eines Computers
 
-The internals of your devices process and store all of your digital data. It is important that all devices are supported by the manufacturer and developers by continuing to receive security updates.
+Die internen Komponenten deines Gerätes verarbeiten und speichern alle deine digitalen Daten. Es sind wichtig, dass alle Geräte von den Herstellern sowie Entwicklern unterstützt werden, indem sie weiter Sicherheitsupdates bekommen.
 
 ### Hardware-Sicherheitsprogramme
 
-Some devices will have a "hardware security program", which is a collaboration between vendors on best practices and recommendations when designing hardware, for example:
+Manche Geräte haben ein "Hardware-Sicherheitsprogramm", wo Hersteller zusammenarbeiten, um beste Praktiken sowie Empfehlungen für die Entwicklung von Hardware zu erarbeiten:
 
-- [Windows Secured-core PCs](https://learn.microsoft.com/en-us/windows-hardware/design/device-experiences/oem-highly-secure-11) meet a higher security criteria specified by Microsoft. These protections aren't only applicable to Windows users; Users of other operating systems can still take advantage of features like [DMA protection](https://learn.microsoft.com/en-us/windows/security/information-protection/kernel-dma-protection-for-thunderbolt) and the ability to completely distrust Microsoft certificates.
-- [Android Ready SE](https://developers.google.com/android/security/android-ready-se) is a collaboration between vendors to ensure their devices follow [best practices](https://source.android.com/docs/security/best-practices/hardware) and include tamper resistant hardware backed storage for things like encryption keys.
-- macOS running on an Apple SoC takes advantage of [hardware security](../os/macos-overview.md#hardware-security) which may not be available with third party operating systems.
-- [ChromeOS security](https://chromium.org/chromium-os/developer-library/reference/security/security-whitepaper) is at its best when running on a Chromebook as it is able to make use of available hardware features such as the [hardware root-of-trust](https://chromium.org/chromium-os/developer-library/reference/security/security-whitepaper/#hardware-root-of-trust-and-verified-boot).
+- [Windows Secured-core PCs](https://learn.microsoft.com/de-de/windows-hardware/design/device-experiences/oem-highly-secure-11) erfüllen höhere, von Microsoft festgelegte Sicherheitskriterien. Diese Schutzmaßnahmen gelten nicht nur für Windows-Benutzer; auch Benutzer anderer Betriebssysteme können die Vorteile von Funktionen wie [DMA-Schutz](https://learn.microsoft.com/de-de/windows/security/hardware-security/kernel-dma-protection-for-thunderbolt) und der Möglichkeit, Microsoft-Zertifikaten vollständig zu misstrauen, nutzen.
+- [Android Ready SE](https://developers.google.com/android/security/android-ready-se) ist eine Zusammenarbeit zwischen Herstellern, um sicherzustellen, dass ihre Geräte den [Best Practices](https://source.android.com/docs/security/best-practices/hardware) entsprechen und einen manipulationssicheren, hardwaregestützten Speicher für Dinge wie Verschlüsselungsschlüssel enthalten.
+- macOS, das auf einem Apple SoC läuft, nutzt die Vorteile der [Hardwaresicherheit](../os/macos-overview.md#hardware-security), die bei Betriebssystemen von Drittanbietern möglicherweise nicht verfügbar sind.
+- Die [ChromeOS-Sicherheit](https://chromium.org/chromium-os/developer-library/reference/security/security-whitepaper) ist am besten, wenn sie auf einem Chromebook ausgeführt wird, da sie in der Lage ist, verfügbare Hardwarefunktionen wie das [Hardware Root-of-Trust](https://chromium.org/chromium-os/developer-library/reference/security/security-whitepaper/#hardware-root-of-trust-and-verified-boot) zu nutzen.
 
-Even if you don't use these operating systems, participation in these programs may indicate that the manufacturer is following best practices when it comes to hardware security and updates.
+Auch wenn du diese Betriebssysteme nicht verwendest, teilnahme an diesen Programmen könnte zeigen, dass der Hersteller die besten Praktiken in Bezug auf Hardwaresicherheit sowie akutualisierungen anwendet.
 
 ### Vorinstallierte Betriebssysteme
 
-New computers nearly always come with Windows preinstalled, unless you buy a Mac or a specialty Linux machine. It's usually a good idea to wipe the drive and install a fresh copy of your operating system of choice, even if that means just reinstalling Windows from scratch. Due to agreements between hardware vendors and shady software vendors, the default Windows install often comes preloaded with bloatware, [adware](https://bleepingcomputer.com/news/technology/lenovo-gets-a-slap-on-the-wrist-for-superfish-adware-scandal), or even [malware](https://zdnet.com/article/dell-poweredge-motherboards-ship-with-malware).
+Neue Computer kommen fast immer mit Windows vorinstalliert, außer man kauft einen Mac oder eine spezielle Linux-Maschine. Es sind eine gute Idee das Laufwerk zu löschen und eine frische Kopie des Betriebssystems deiner Wahl zu installieren, auch wenn es nur heißt, dass man Windows von neu installiert. Wegen Vereinbarungen zwischen Hardwareherstellern und unehrlichen Softwareanbietern, kommt die Standard-Windows-Installation oft mit Bloatware, [adware](https://bleepingcomputer.com/news/technology/lenovo-gets-a-slap-on-the-wrist-for-superfish-adware-scandal), oder auch [malware](https://zdnet.com/article/dell-poweredge-motherboards-ship-with-malware) vorinstalliert.
 
 ### Firmware-Updates
 
-Hardware often has security issues that are discovered and patched through firmware updates for your hardware.
+Hardware hat oft Sicherheitsprobleme die gefunden werden, und durch Firmware-Updates behoben werden.
 
-Almost every component of your computer requires firmware to operate, from your motherboard to your storage devices. It is ideal for all the components of your device to be fully supported. Apple devices, Chromebooks, most Android phones, and Microsoft Surface devices will handle firmware updates for you as long as the device is supported.
+Fast jedes Komponent in deinem Computer braucht Firmware, um zu funktionieren, von der Hauptplatine bis zu den Speichergeräten. Es ist ideal, dass alle Komponente deines Gerätes völlig unterstützt sind. Apple Geräte, Chromebooks, die meisten Android-Handys und Microsoft Surface-Geräte übernehmen Firmware-Updates, solang das Gerät unterstützt wird.
 
-If you build your own PC, you may need to manually update your motherboard's firmware by downloading it from your OEM's website. If you use Linux, consider using the built-in [`fwupd`](https://fwupd.org) tool that will let you check for and apply any firmware updates available for your motherboard.
+Wenn du dein eigenen PC baust, wirst du die Firmware deines Motherboards manuell aktualisieren müssen, indem du sie von der Website deines OEMs herunterladest. Wenn du Linux verwendest, solltest du das eingebaute Tool [`fwupd`](https://fwupd.org) verwenden, um alle verfügbaren Firmware-Updates deines Motherboards zu überprüfen und anwenden.
 
 ### TPM/Secure Cryptoprocessor
 
