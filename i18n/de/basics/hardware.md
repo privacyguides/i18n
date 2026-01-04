@@ -33,9 +33,9 @@ Fast jedes Komponent in deinem Computer braucht Firmware, um zu funktionieren, v
 
 Wenn du dein eigenen PC baust, wirst du die Firmware deines Motherboards manuell aktualisieren müssen, indem du sie von der Website deines OEMs herunterladest. Wenn du Linux verwendest, solltest du das eingebaute Tool [`fwupd`](https://fwupd.org) verwenden, um alle verfügbaren Firmware-Updates deines Motherboards zu überprüfen und anwenden.
 
-### TPM/Secure Cryptoprocessor
+### TPM/Sicherer Kryptoprozessor
 
-Most computers and phones come equipped with a TPM (or a similar secure cryptoprocessor) which safely stores your encryption keys and handles other security-related functions. If you're currently using a machine that doesn't have one of these, you might benefit from purchasing a newer computer that has this feature. Some desktop and server motherboards have a "TPM header" which can accept a small accessory board containing the TPM.
+Die meisten Computer und Handys kommen mit TPM (oder einem ähnlichen sicheren Kryptoprozessor) ausgestattet, die dein Verschlüsselungsschlüssel speichert und andere sichereheitsrelevante Funktionen übernimmt. Wenn du gerade eine Maschine benutzt, die nicht einer dieser Prozessoren hat, könntest du vielleicht einen Vorteil finden, indem du einen neueren Computer kaufst, der diese Funktion besitzt. Einige Desktop- und Server-Hauptplatinen verfügen über einen "TPM-Header", der eine kleine Zusatzplatine mit dem TPM aufnehmen kann.
 
 <div class="admonition Note" markdown>
 <p class="admonition-title">Anmerkung</p>
