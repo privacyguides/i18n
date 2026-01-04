@@ -78,9 +78,9 @@ global:
 
 #### :material-check:{ .pg-green } Независимый аудит
 
-Independent security researcher Ruben Santamarta conducted audits for Proton VPN's [browser extensions](https://drive.proton.me/urls/RWDD2SHT98#v7ZrwNcafkG8) and [apps](https://drive.proton.me/urls/RVW8TXG484#uTXX5Fc9GADo) in September 2024 and January 2025, respectively. Proton VPN's infrastrcture has undergone [annual audits](https://protonvpn.com/blog/no-logs-audit) by Securitum since 2022.
+Независимый аналитик в области информационной безопасности Рубен Сантамарта провёл аудиты для [браузерных расширений](https://drive.proton.me/urls/RWDD2SHT98#v7ZrwNcafkG8) и [клиентов](https://drive.proton.me/urls/RVW8TXG484#uTXX5Fc9GADo) Proton VPN в сентябре 2024 и январе 2025 года соответственно. Инфраструктура Proton VPN проходит [ежегодный аудит](https://protonvpn.com/blog/no-logs-audit) Securitum начиная с 2022 года.
 
-Previously, Proton VPN underwent an independent audit by SEC Consult in January 2020. SEC Consult обнаружила несколько уязвимостей среднего и низкого риска в приложениях Proton VPN для Windows, Android и iOS, все из которых Proton VPN "должным образом устранил" ещё до публикации отчетов. Ни одна из выявленных проблем не предоставила бы злоумышленнику удаленный доступ к вашему устройству или трафику. You can view individual reports for each platform in their dedicated [blog post](https://web.archive.org/web/20250307041036/https://protonvpn.com/blog/open-source) on the audit.
+Ранее, в январе 2020 года, Proton VPN прошел независимый аудит SEC Consult. SEC Consult обнаружила несколько уязвимостей среднего и низкого риска в приложениях Proton VPN для Windows, Android и iOS, все из которых Proton VPN "должным образом устранил" ещё до публикации отчетов. Ни одна из выявленных проблем не предоставила бы злоумышленнику удаленный доступ к вашему устройству или трафику. Отдельные отчеты по каждой платформе вы можете посмотреть в их специальном [блоге](https://web.archive.org/web/20250307041036/https://protonvpn.com/blog/open-source), посвященном аудиту.
 
 #### :material-check:{ .pg-green } Клиенты с открытым исходным кодом
 
@@ -88,7 +88,7 @@ Previously, Proton VPN underwent an independent audit by SEC Consult in January 
 
 #### :material-check:{ .pg-green } Принимает наличные
 
-Помимо кредитных и дебетовых карт, PayPal и [Bitcoin](advanced/payments.md#other-coins-bitcoin-ethereum-etc), Proton VPN принимает **наличные/местные валюты** в качестве анонимной формы оплаты. You can also use [**Monero**](cryptocurrency.md#monero) to purchase vouchers for Proton VPN Plus and Proton Unlimited via their [official](https://discuss.privacyguides.net/t/add-monero-as-an-anonymous-payment-method-for-proton-services/31058/15) reseller [ProxyStore](https://dys2p.com/en/2025-09-09-proton.html).
+Помимо кредитных и дебетовых карт, PayPal и [Bitcoin](advanced/payments.md#other-coins-bitcoin-ethereum-etc), Proton VPN принимает **наличные/местные валюты** в качестве анонимной формы оплаты. Вы также можете использовать [**Monero**](cryptocurrency.md#monero) для покупки ваучеров на Proton VPN Plus и Proton Unlimited через их [официального](https://discuss.privacyguides.net/t/add-monero-as-an-anonymous-payment-method-for-proton-services/31058/15) реселлера [ProxyStore](https://dys2p.com/en/2025-09-09-proton.html).
 
 #### :material-check:{ .pg-green } Поддержка WireGuard
 
@@ -139,10 +139,10 @@ Proton VPN опубликовал клиенты [App Store](https://apps.apple.
 
 **IVPN** — еще один платный VPN-провайдер, работающий с 2009 года. IVPN базируется в Гибралтаре и не предлагает бесплатную пробную версию.
 
-[:octicons-home-16: Homepage](https://ivpn.net){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://ivpn.net/privacy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://ivpn.net/knowledgebase/general){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/ivpn){ .card-link title="Source Code" }
+[:octicons-home-16: Главная](https://ivpn.net){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://ivpn.net/privacy){ .card-link title="Политика конфиденциальности" }
+[:octicons-info-16:](https://ivpn.net/knowledgebase/general){ .card-link title="Документация" }
+[:octicons-code-16:](https://github.com/ivpn){ .card-link title="Исходный код" }
 
 <details class="downloads" markdown>
 <summary>Скачать</summary>
@@ -159,9 +159,9 @@ Proton VPN опубликовал клиенты [App Store](https://apps.apple.
 
 </div>
 
-#### :material-check:{ .pg-green } 41 Countries
+#### :material-check:{ .pg-green } 41 страна
 
-IVPN has [servers in 41 countries](https://ivpn.net/status).(1) Picking a VPN provider with a server nearest to you will reduce latency of the network traffic you send. Это происходит из-за более короткого маршрута (меньше промежуточных серверов) до пункта назначения.
+У IVPN есть [серверы в 41 стране](https://ivpn.net/status).(1) Выбор VPN-провайдера с ближайшим к вам сервером снизит задержку исходящего интернет-трафика. Это происходит из-за более короткого маршрута (меньше промежуточных серверов) до пункта назначения.
 { .annotate }
 
 1. Последняя проверка: 28.10.2025
@@ -178,7 +178,7 @@ IVPN has [servers in 41 countries](https://ivpn.net/status).(1) Picking a VPN pr
 
 #### :material-check:{ .pg-green } Принимает наличные и Monero
 
-В дополнение к приему кредитных/дебетовых карт и PayPal, IVPN принимает Bitcoin, **Monero** и **наличные/местную валюту** (при годовых планах) в качестве анонимных форм оплаты. You can also purchase [prepaid cards](https://ivpn.net/knowledgebase/billing/voucher-cards-faq) with redeem codes.
+В дополнение к приему кредитных/дебетовых карт и PayPal, IVPN принимает Bitcoin, **Monero** и **наличные/местную валюту** (при годовых планах) в качестве анонимных форм оплаты. Вы также можете приобрести [карты оплаты](https://ivpn.net/knowledgebase/billing/voucher-cards-faq) с кодами погашения.
 
 #### :material-check:{ .pg-green } Поддержка WireGuard
 
@@ -196,7 +196,7 @@ IVPN позволяет [подключаться к сервисам, испо�
 
 #### :material-check:{ .pg-green } Борьба с цензурой
 
-IVPN has obfuscation modes using [V2Ray](https://v2ray.com/en/index) which helps in situations where VPN protocols like OpenVPN or WireGuard are blocked. It has two modes where it can use [VMess](https://guide.v2fly.org/en_US/basics/vmess) over QUIC or TCP connections. QUIC — это современный протокол с улучшенным контролем перегрузок, поэтому он может быть быстрее и с меньшей задержкой. В режиме TCP твои данные выглядят как обычный HTTP-трафик.
+IVPN имеет режимы обфускации с помощью [V2Ray](https://v2ray.com/en/index), что помогает в ситуациях, когда такие VPN-протоколы, как OpenVPN или WireGuard, заблокированы. Также есть два режима, использующих [VMess](https://guide.v2fly.org/en_US/basics/vmess) через QUIC или TCP-соединения. QUIC — это современный протокол с улучшенным контролем перегрузок, поэтому он может быть быстрее и с меньшей задержкой. В режиме TCP твои данные выглядят как обычный HTTP-трафик.
 
 #### :material-check:{ .pg-green } Приложения для смартфонов
 
@@ -214,11 +214,11 @@ IVPN опубликовал клиенты в [App Store](https://apps.apple.com
 
 **Mullvad** - это быстрый и недорогой VPN с серьезным акцентом на прозрачность и безопасность. Он работает с 2009 года. Mullvad базируется в Швеции и предоставляет 14-дневную гарантию возврата денег для [способов оплаты](https://mullvad.net/en/help/refunds), которые это позволяют.
 
-[:octicons-home-16: Homepage](https://mullvad.net){ .md-button .md-button--primary }
+[:octicons-home-16: Главная](https://mullvad.net){ .md-button .md-button--primary }
 [:simple-torbrowser:](http://o54hon2e2vj6c7m3aqqu6uyece65by3vgoxxhlqlsvkmacw6a7m7kiad.onion){ .card-link title="Onion Service" }
-[:octicons-eye-16:](https://mullvad.net/en/help/privacy-policy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://mullvad.net/en/help){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/mullvad){ .card-link title="Source Code" }
+[:octicons-eye-16:](https://mullvad.net/en/help/privacy-policy){ .card-link title="Политика конфиденциальности" }
+[:octicons-info-16:](https://mullvad.net/en/help){ .card-link title="Документация" }
+[:octicons-code-16:](https://github.com/mullvad){ .card-link title="Исходный код" }
 
 <details class="downloads" markdown>
 <summary>Скачать</summary>
@@ -253,13 +253,13 @@ Mullvad предоставляет исходный код для своих н�
 
 #### :material-check:{ .pg-green } Принимает наличные и Monero
 
-Помимо приема кредитных/дебетовых карт и PayPal, Mullvad принимает Bitcoin, Bitcoin Cash, **Monero** и **наличные/местные валюты** как анонимные формы платежа. You can also purchase [prepaid cards](https://mullvad.net/en/help/partnerships-and-resellers) with redeem codes. Mullvad также принимает Swish и банковские переводы, а также несколько европейских платежных систем.
+Помимо приема кредитных/дебетовых карт и PayPal, Mullvad принимает Bitcoin, Bitcoin Cash, **Monero** и **наличные/местные валюты** как анонимные формы платежа. Вы также можете приобрести [карты оплаты](https://mullvad.net/en/help/partnerships-and-resellers) с кодами погашения. Mullvad также принимает Swish и банковские переводы, а также несколько европейских платежных систем.
 
 #### :material-check:{ .pg-green } Поддержка WireGuard
 
 Mullvad поддерживает протокол WireGuard®. [WireGuard](https://wireguard.com) – это более новый протокол, в использующий самую современную [криптографию](https://wireguard.com/protocol). Кроме того, WireGuard стремится быть более простым и производительным.
 
-Mullvad [рекомендует](https://mullvad.net/en/help/why-wireguard) использовать WireGuard с их сервисами. It is the only protocol supported on their mobile apps, and their desktop apps will [lose OpenVPN support](https://mullvad.net/en/blog/reminder-that-openvpn-is-being-removed) in 2025. Additionally, their servers will stop accepting OpenVPN connections by January 15, 2026. Mullvad также предлагает генератор конфигурации WireGuard для использования с официальными[приложениями](https://wireguard.com/install) WireGuard.
+Mullvad [рекомендует](https://mullvad.net/en/help/why-wireguard) использовать WireGuard с их сервисами. Это единственный протокол, поддерживаемый в их мобильном клиенте, а настольный [перестанет поддерживать OpenVPN](https://mullvad.net/en/blog/reminder-that-openvpn-is-being-removed) в 2025 году. Кроме того, их серверы перестанут принимать OpenVPN-соединения к 15 января 2026 года. Mullvad также предлагает генератор конфигурации WireGuard для использования с официальными[приложениями](https://wireguard.com/install) WireGuard.
 
 #### :material-check:{ .pg-green } Поддержка IPv6
 
