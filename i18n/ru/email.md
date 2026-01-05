@@ -85,7 +85,7 @@ OpenPGP также не поддерживает прямую секретнос
 
 </div>
 
-Бесплатные аккаунты имеют некоторые ограничения, такие как невозможность поиска писем по седержимому и отсутствие доступа к [Proton Mail Bridge](https://proton.me/mail/bridge), который необходим для использования [рекомендуемого настольного почтового клиента](email-clients.md), например, Thunderbird. Платные аккаунты включают такие функции, как Proton Mail Bridge, дополнительное хранилище и поддержку пользовательских доменов. The Proton Unlimited plan or any multi-user Proton plan includes access to [SimpleLogin](email-aliasing.md#simplelogin) Premium.
+Бесплатные аккаунты имеют некоторые ограничения, такие как невозможность поиска писем по седержимому и отсутствие доступа к [Proton Mail Bridge](https://proton.me/mail/bridge), который необходим для использования [рекомендуемого настольного почтового клиента](email-clients.md), например, Thunderbird. Платные аккаунты включают такие функции, как Proton Mail Bridge, дополнительное хранилище и поддержку пользовательских доменов. Тариф Proton Unlimited и любые другие многопользовательские тарифы включают в себя доступ к [SimpleLogin](email-aliasing.md#simplelogin) Premium.
 
 A [letter of attestation](https://res.cloudinary.com/dbulfrlrz/images/v1714639878/wp-pme/letter-of-attestation-proton-mail-20211109_3138714c61/letter-of-attestation-proton-mail-20211109_3138714c61.pdf) was provided for Proton Mail's apps in November 2021 by [Securitum](https://research.securitum.com).
 
@@ -111,7 +111,7 @@ Proton Mail has internal crash reports that are **not** shared with third partie
 
 #### :material-check:{ .pg-green } Конфиденциальные способы оплаты
 
-Proton Mail [принимает](https://proton.me/support/payment-options) **наличные** по почте в дополнение к стандартным платежам кредитными/дебетовыми картами, [Bitcoin](advanced/payments.md#other-coins-bitcoin-ethereum-etc) и PayPal. Additionally, you can use [**Monero**](cryptocurrency.md#monero) to purchase vouchers for Proton Mail Plus or Proton Unlimited via their [official](https://discuss.privacyguides.net/t/add-monero-as-an-anonymous-payment-method-for-proton-services/31058/15) reseller [ProxyStore](https://dys2p.com/en/2025-09-09-proton.html).
+Proton Mail [принимает](https://proton.me/support/payment-options) **наличные** по почте в дополнение к стандартным платежам кредитными/дебетовыми картами, [Bitcoin](advanced/payments.md#other-coins-bitcoin-ethereum-etc) и PayPal. Вы также можете использовать [**Monero**](cryptocurrency.md#monero) для покупки ваучеров на Proton Mail Plus и Proton Unlimited через их [официального](https://discuss.privacyguides.net/t/add-monero-as-an-anonymous-payment-method-for-proton-services/31058/15) реселлера [ProxyStore](https://dys2p.com/en/2025-09-09-proton.html).
 
 #### :material-check:{ .pg-green } Безопасность аккаунта
 
@@ -141,9 +141,9 @@ Proton Mail также публикует открытые ключи аккау
 
 <div class="admonition recommendation" markdown>
 
-![Mailbox Mail logo](assets/img/email/mailbox-mail.svg){ align=right }
+![Логотип Mailbox Mail](assets/img/email/mailbox-mail.svg){ align=right }
 
-**Mailbox Mail** (formerly *Mailbox.org*) is an email service with a focus on being secure, ad-free, and powered by 100% eco-friendly energy. Они работают с 2014 года. Mailbox Mail базируется в Берлине, Германия.
+**Mailbox Mail** (ранее *Mailbox.org*) — это сервис электронной почты, ориентированный на безопасность, отсутствие рекламы и работающий на 100% экологически чистой энергии. Они работают с 2014 года. Mailbox Mail базируется в Берлине, Германия.
 
 Аккаунты начинаются с объемом хранилища до 2 ГБ, который при необходимости можно увеличить.
 
@@ -245,7 +245,7 @@ Tuta не поддерживает [протокол IMAP](https://tuta.com/supp
 
 #### :material-information-outline:{ .pg-blue } Конфиденциальные способы оплаты
 
-Tuta only directly accepts credit cards and PayPal, however you can use [**cryptocurrency**](cryptocurrency.md) to purchase gift cards via their [partnership](https://tuta.com/support/#cryptocurrency) with ProxyStore.
+Tuta напрямую принимает только кредитные карты и PayPal, однако вы можете использовать [**криптовалюту**](cryptocurrency.md) для покупки подарочных карт через их [партнёра](https://tuta.com/support/#cryptocurrency) ProxyStore.
 
 #### :material-check:{ .pg-green } Безопасность аккаунта
 

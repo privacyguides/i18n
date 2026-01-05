@@ -1,5 +1,5 @@
 ---
-title: Mobile Phones
+title: Мобильные телефоны
 icon: material/cellphone-check
 description: These mobile devices provide the best hardware security support for custom Android operating systems.
 cover: android.webp
@@ -24,10 +24,10 @@ schema:
 robots: nofollow, max-snippet:-1, max-image-preview:large
 ---
 
-<small>Protects against the following threat(s):</small>
+<small>Защищает от следующих угроз:</small>
 
-- [:material-target-account: Targeted Attacks](basics/common-threats.md#attacks-against-specific-individuals){ .pg-red }
-- [:material-bug-outline: Passive Attacks](basics/common-threats.md#security-and-privacy){ .pg-orange }
+- [:material-target-account: Целенаправленные атаки](basics/common-threats.md#attacks-against-specific-individuals){ .pg-red }
+- [:material-bug-outline: Пассивные атаки](basics/common-threats.md#security-and-privacy){ .pg-orange }
 
 Most **mobile phones** receive short or limited windows of security updates from OEMs; after these devices reach the end of their support period, they **cannot** be considered secure as they no longer receive firmware or driver security updates.
 
@@ -36,45 +36,45 @@ The mobile devices listed here provide a long lifespan of guaranteed security up
 [Recommended Android Distributions :material-arrow-right-drop-circle:](android/distributions.md){ .md-button .md-button--primary } [Details about Android Security :material-arrow-right-drop-circle:](os/android-overview.md#security-protections){ .md-button }
 
 <div class="admonition warning" markdown>
-<p class="admonition-title">Предупреждение</p>
+<p class="admonition-title">Внимание!</p>
 
-End-of-life devices (such as GrapheneOS's "extended support" devices) do not have full security patches (firmware updates) due to the OEM discontinuing support. These devices cannot be considered completely secure regardless of installed software.
+Устройства с истёкшим сроком службы (например, устройства на GrapheneOS с «расширенной поддержкой») не имеют полных исправлений безопасности (обновлений прошивки) из-за прекращения поддержки OEM-производителем. Эти устройства нельзя считать полностью безопасными, независимо от установленного программного обеспечения.
 
 </div>
 
 ## General Purchasing Advice
 
-When purchasing a device, we recommend getting one as new as possible. The software and firmware of mobile devices are only supported for a limited time, so buying new extends that lifespan as much as possible.
+При покупке устройства рекомендуем приобрести как можно более новое. ПО и прошивка мобильных устройств поддерживаются только в течение ограниченного периода времени, поэтому покупка нового устройства продлевает его жизненный цикл настолько, насколько это возможно.
 
-Avoid buying phones from mobile network operators. These often have a **locked bootloader** and do not support [OEM unlocking](https://source.android.com/devices/bootloader/locking_unlocking). These phone variants will prevent you from installing any kind of alternative Android distribution.
+Не покупайте телефоны у операторов мобильной связи. These often have a **locked bootloader** and do not support [OEM unlocking](https://source.android.com/devices/bootloader/locking_unlocking). These phone variants will prevent you from installing any kind of alternative Android distribution.
 
-Be very **careful** about buying second hand phones from online marketplaces. Always check the reputation of the seller. If the device is stolen, there's a possibility of it being entered in the [IMEI database](https://gsma.com/get-involved/working-groups/terminal-steering-group/imei-database). There is also a risk involved with you being associated with the activity of the previous owner.
+Будьте очень **осторожны** при покупке подержанных телефонов в интернет-магазинах. Всегда проверяйте репутацию продавца. If the device is stolen, there's a possibility of it being entered in the [IMEI database](https://gsma.com/get-involved/working-groups/terminal-steering-group/imei-database). There is also a risk involved with you being associated with the activity of the previous owner.
 
 A few more tips regarding Android devices and operating system compatibility:
 
 - Do not buy devices that have reached or are near their end-of-life; additional firmware updates must be provided by the manufacturer.
 - Do not buy preloaded LineageOS or /e/ OS phones or any Android phones without proper [Verified Boot](https://source.android.com/security/verifiedboot) support and firmware updates. These devices also have no way for you to check whether they've been tampered with.
-- In short, if a device is not listed here, there is probably a good reason. Check out our [forum](https://discuss.privacyguides.net) to find details!
+- Короче говоря, если устройство не указано в этом списке, вероятно, на это есть веская причина. Загляните на наш [форум](https://discuss.privacyguides.net), чтобы узнать подробности!
 
 ## Google Pixel
 
-Google Pixel phones are the **only** devices we recommend for purchase. Pixel phones have stronger hardware security than any other Android devices currently on the market, due to proper AVB support for third-party operating systems and Google's custom [Titan](https://security.googleblog.com/2021/10/pixel-6-setting-new-standard-for-mobile.html) security chips acting as the Secure Element.
+Телефоны Google Pixel - это **единственные** устройства, которые мы рекомендуем к покупке. Телефоны Pixel имеют более высокий уровень аппаратной безопасности, чем любые другие устройства Android, представленные в настоящее время на рынке, благодаря надлежащей поддержке AVB для сторонних операционных систем и кастомным чипам безопасности Google [Titan](https://security.googleblog.com/2021/10/pixel-6-setting-new-standard-for-mobile.html), выступающим в качестве элемента безопасности.
 
 <div class="admonition recommendation" markdown>
 
 ![Google Pixel 6](assets/img/android/google-pixel.png){ align=right }
 
-**Google Pixel** devices are known to have good security and properly support [Verified Boot](https://source.android.com/security/verifiedboot), even when installing custom operating systems.
+Устройства **Google Pixel** известны хорошей безопасностью и правильной поддержкой [Verified Boot](https://source.android.com/security/verifiedboot), даже при установке сторонних операционных систем.
 
-Beginning with the **Pixel 8** and **8 Pro**, Pixel devices receive a minimum of 7 years of guaranteed security updates, ensuring a much longer lifespan compared to the 2-5 years competing OEMs typically offer.
+Начиная с **Pixel 8** и **8 Pro**, устройства Pixel получают минимум 7 лет гарантированных обновлений безопасности, что обеспечивает гораздо более длительный срок службы по сравнению с 2-5 годами, которые обычно предлагают конкурирующие OEM-производители.
 
-[:material-shopping: Store](https://store.google.com/category/phones){ .md-button .md-button--primary }
+[:material-shopping: Магазин](https://store.google.com/category/phones){ .md-button .md-button--primary }
 
 </div>
 
 ### Аппаратная безопасность
 
-Secure Elements like the Titan M2 are more limited than the processor's Trusted Execution Environment (TEE) used by most other phones as they are only used for secrets storage, hardware attestation, and rate limiting, not for running "trusted" programs. Phones without a Secure Element have to use the TEE for _all_ of those functions, resulting in a larger attack surface.
+Элементы безопасности, такие как Titan M2, более ограничены, чем процессорная Trusted Execution Environment (TEE), используемая в большинстве других телефонов, поскольку они используются только для хранения секретов, аппаратной аттестации и ограничения скорости, а не для запуска "доверенных" программ. Телефоны без защищенного элемента вынуждены использовать TEE для _всех_ этих функций, что приводит к увеличению поверхности атаки.
 
 Google Pixel phones use a TEE OS called Trusty which is [open source](https://source.android.com/security/trusty#whyTrusty), unlike many other phones.
 
@@ -95,9 +95,9 @@ The installation of GrapheneOS on a Pixel phone is easy with their [web installe
 
 ## Критерии
 
-**Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. Перед тем, как вы решите выбрать какой-либо проект, мы рекомендуем вам ознакомиться со списком критериев и провести собственное исследование, чтобы убедиться в правильности своего выбора.
+**Важно отметить, что мы не связаны с каким-либо проектом, который мы рекомендуем.** В дополнение к [нашим стандартным критериям](about/criteria.md), мы разработали чёткий набор требований, обеспечивающий объективность наших рекомендаций. Перед тем, как вы решите выбрать какой-либо проект, мы рекомендуем вам ознакомиться со списком критериев и провести собственное исследование, чтобы убедиться в правильности своего выбора.
 
-- Must support at least one of our recommended custom operating systems.
-- Must be currently sold new in stores.
-- Must receive a minimum of 5 years of security updates.
-- Must have dedicated secure element hardware.
+- Должны поддерживать хотя бы одну из рекомендованных нами кастомных операционных систем.
+- Должны продаваться новыми в магазинах.
+- Должны получать обновления безопасности минимум 5 лет.
+- Должен быть отдельный аппаратный элемент безопасности.
