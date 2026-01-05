@@ -223,7 +223,7 @@ Firefox добавляет уникальный [маркер загрузки](
 <div class="admonition tip" markdown>
 <p class="admonition-title">Используйте Mullvad Browser для улучшенной защиты от цифровых отпечатков</p>
 
-[Mullvad Browser](#mullvad-browser) provides stronger anti-fingerprinting protections out of the box than Firefox, and does not require the use of Mullvad's VPN to benefit from these protections. В сочетании с VPN, Mullvad Browser может предотвратить более продвинутые скрипты отслеживания, которые Arkenfox не может. Firefox still has the advantage of being much more flexible, and allowing per-site exceptions for websites which you need to stay logged in to.
+[Mullvad Browser](#mullvad-browser) обеспечивает более сильную защиту от цифровых отпечатков, чем Firefox, и не требует использования VPN Mullvad, чтобы воспользоваться этой защитой. В сочетании с VPN, Mullvad Browser может предотвратить более продвинутые скрипты отслеживания, которые Arkenfox не может. Преимущество Firefox в том, что он гораздо более гибкий и позволяет делать исключения для отдельных сайтов, на которых вам необходимо оставаться залогиненными.
 
 </div>
 
@@ -304,13 +304,13 @@ Brave позволяет выбирать дополнительные филь�
 
 <div class="annotate" markdown>
 
-- [x] Select **Don’t allow sites to use JavaScript optimization** under *Security* → *Manage JavaScript optimization & security* (1)
-- [x] Select **Automatically remove permissions from unused sites** under *Sites and Shields Settings*
-- [x] Select **Disable non-proxied UDP** under [*WebRTC IP Handling Policy*](https://support.brave.com/hc/articles/360017989132-How-do-I-change-my-Privacy-Settings#webrtc)
-- [ ] Uncheck **Use Google services for push messaging**
-- [x] Select **Auto-redirect AMP pages**
-- [x] Select **Auto-redirect tracking URLs**
-- [x] Select **Prevent sites from fingerprinting me based on my language preferences**
+- [x] Выберите **Запретить сайтам использовать оптимизацию JavaScript** в *Безопасность* → *Оптимизация и безопасность JavaScript* (1)
+- [x] Включите **Автоматически удалять разрешения для неиспользуемых сайтов** в *Настройки сайтов и Защиты*
+- [x] Выберите **Отключить непроксируемый протокол UDP** в [*Политика обработки IP WebRTC*](https://support.brave.com/hc/articles/360017989132-How-do-I-change-my-Privacy-Settings#webrtc)
+- [ ] Отключите **Использовать сервисы Google для обмена push-сообщениями**
+- [x] Включите **Автоматически перенаправлять с AMP-страниц**
+- [x] Включите **Автоматически перенаправлять URL-адреса отслеживания**
+- [x] Включите **Запрещать сайтам создавать цифровые отпечатки на основе моих языковых предпочтений**
 
 </div>
 
