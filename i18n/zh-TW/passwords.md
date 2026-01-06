@@ -135,7 +135,7 @@ schema:
 
 瀏覽器和作業系統所內建的密碼管理器常常不如專用密碼管理器軟體。 內建密碼管理器的優點在於與原生軟體的良好整合，但它通常功能較少，而且缺乏獨立產品所具有的隱私和安全特點。
 
-For example, the password manager in Microsoft Edge doesn't offer end-to-end encryption at all. Google的密碼管理員則 [須自行啟用](https://support.google.com/accounts/answer/11350823) E2EE，而 [Apple](https://support.apple.com/HT202303) 預設提供E2EE。
+舉例來說，Microsoft Edge 的密碼管理程式完全不提供端到端加密。 Google的密碼管理員則 [須自行啟用](https://support.google.com/accounts/answer/11350823) E2EE，而 [Apple](https://support.apple.com/HT202303) 預設提供E2EE。
 
 </div>
 
@@ -157,7 +157,7 @@ For example, the password manager in Microsoft Edge doesn't offer end-to-end enc
 [:octicons-code-16:](https://github.com/bitwarden){ .card-link title="原始碼" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>下載</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.x8bit.bitwarden)
 - [:simple-appstore: App Store](https://apps.apple.com/app/id1137397744)
@@ -175,9 +175,9 @@ For example, the password manager in Microsoft Edge doesn't offer end-to-end enc
 
 </div>
 
-Bitwarden 預設使用 [PBKDF2](https://bitwarden.com/help/kdf-algorithms/#pbkdf2) 作為其 金鑰衍生函式(KDF) 演算法。 它也提供更安全的 [Argon2](https://bitwarden.com/help/kdf-algorithms/#argon2id) 作為可選方案。 You can change your account's KDF algorithm in the web vault:
+Bitwarden 預設使用 [PBKDF2](https://bitwarden.com/help/kdf-algorithms/#pbkdf2) 作為其 金鑰衍生函式(KDF) 演算法。 它也提供更安全的 [Argon2](https://bitwarden.com/help/kdf-algorithms/#argon2id) 作為可選方案。 您可以在網頁保管箱中變更帳號的 KDF 演算法：
 
-- [x] Select **Settings → Security → Keys → KDF algorithm → Argon2id**
+- [x] 選取**設定 → 安全性 → 金鑰 → KDF 演算法 → Argon2id**
 
 Bitwarden 伺服器端代碼是 [開源的](https://github.com/bitwarden/server)，因此如果不想使用 Bitwarden 雲端，可以輕鬆地託管自己的 Bitwarden 同步伺服器。
 

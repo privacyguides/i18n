@@ -97,11 +97,11 @@ schema:
 
 ### 防止指紋識別
 
-**Without** using a [VPN](vpn.md), Mullvad Browser provides protections against [naive fingerprinting scripts](https://github.com/arkenfox/user.js/wiki/3.3-Overrides-%5BTo-RFP-or-Not%5D#-fingerprinting) similar to other private browsers like Firefox+[Arkenfox](#arkenfox-advanced) or [Brave](#brave). Mullvad 瀏覽器在開箱即用的情況下提供了這些保護措施，代價是可能會犧牲其他隱私瀏覽器所具備的靈活性和便利性。
+在**不**使用 [VPN](vpn.md) 的情況下，Mullvad 瀏覽器可提供與其他隱私瀏覽器（例如 Firefox + [Arkenfox](#arkenfox-advanced) 或 [Brave](#brave)）類似的保護，以對抗[單純的指紋辨識命令稿](https://github.com/arkenfox/user.js/wiki/3.3-Overrides-%5BTo-RFP-or-Not%5D#-fingerprinting)。 Mullvad 瀏覽器在開箱即用的情況下提供了這些保護措施，代價是可能會犧牲其他隱私瀏覽器所具備的靈活性和便利性。
 
 ==要獲得最強大的防指紋辨識防護，我們建議將 Mullvad 瀏覽器 **搭配** VPN 一同使用== ，不論是 Mullvad 或其他推薦的 VPN 供應商皆可。 當您將 VPN 與 Mullvad 瀏覽器搭配使用時，您將與許多其他使用者共用一個指紋和 IP 位址池，以讓你混在「人群」之中。 這個策略是阻止進階追蹤腳本的唯一方法，也同樣是 Tor 瀏覽器使用的防指紋辨識技術。
 
-Note that while you can use Mullvad Browser with any VPN provider, other people on that VPN must also be using Mullvad Browser for this "crowd" to exist, something which is more likely on Mullvad VPN compared to other providers. Mullvad 瀏覽器沒有內建 VPN，也不會在瀏覽之前檢查是否使用 VPN，必須另外設定和管理 VPN 連線。
+請注意，雖然您可以將 Mullvad 瀏覽器與任何 VPN 供應商一起使用，但該 VPN 上的其他使用者也必須使用 Mullvad 瀏覽器，才能形成這個「人群」，而這在 Mullvad VPN 上比其他供應商更有可能發生。 Mullvad 瀏覽器沒有內建 VPN，也不會在瀏覽之前檢查是否使用 VPN，必須另外設定和管理 VPN 連線。
 
 Mullvad 瀏覽器附帶預先安裝的 *uBlock Origin* 和 *NoScript* 擴充功能。 我們通常不建議新增*額外*的[瀏覽器擴充功能](browser-extensions.md)，且這些與瀏覽器預裝的擴充功能**不**應移除或修改成任何預設值以外的設定，一旦隨意更動，您的瀏覽器指紋會明顯有別於其他 Mullvad 瀏覽器使用者。 它還預先安裝了 Mullvad 瀏覽器擴充功能，但也*可*將其安全地移除，而不會影響您的瀏覽器指紋，但即使您不使用 Mullvad VPN，也可以安全地保留它。
 
@@ -223,7 +223,7 @@ Firefox 在 128 版本的更新，新增了一個[尊重隱私的成效測量](h
 <div class="admonition tip" markdown>
 <p class="admonition-title">使用 Mullvad 瀏覽器以防止更進階的指紋識別</p>
 
-[Mullvad Browser](#mullvad-browser) provides stronger anti-fingerprinting protections out of the box than Firefox, and does not require the use of Mullvad's VPN to benefit from these protections. 結合 VPN 使用時，Mullvad 瀏覽器 能夠阻擋 Arkenfox 無法處理的進階追蹤腳本。 Firefox still has the advantage of being much more flexible, and allowing per-site exceptions for websites which you need to stay logged in to.
+[Mullvad 瀏覽器](#mullvad-browser) 提供比 Firefox 更強的抗指紋辨識保護，不需要使用 Mullvad VPN 就能獲得這些保護。 結合 VPN 使用時，Mullvad 瀏覽器 能夠阻擋 Arkenfox 無法處理的進階追蹤腳本。 相較之下，Firefox 仍然具有更高的靈活性，可以對需要保持登入狀態的個別網站設定例外。
 
 </div>
 
