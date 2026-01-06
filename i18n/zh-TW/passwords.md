@@ -195,7 +195,7 @@ Bitwarden 伺服器端代碼是 [開源的](https://github.com/bitwarden/server)
 [:octicons-code-16:](https://github.com/protonpass){ .card-link title="原始碼" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>下載</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=proton.android.pass)
 - [:simple-appstore: App Store](https://apps.apple.com/app/id6443490629)
@@ -203,7 +203,7 @@ Bitwarden 伺服器端代碼是 [開源的](https://github.com/bitwarden/server)
 - [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/firefox/addon/proton-pass)
 - [:simple-googlechrome: Chrome](https://chromewebstore.google.com/detail/ghmbeldphafepmbegfdlkpapadhbakde)
 - [:fontawesome-brands-edge: Edge](https://microsoftedge.microsoft.com/addons/detail/gcllgfdnfnllodcaambdaknbipemelie)
-- [:octicons-browser-16: Web](https://pass.proton.me)
+- [:octicons-browser-16: 網頁](https://pass.proton.me)
 
 </details>
 
@@ -232,7 +232,7 @@ Proton Pass 行動應用程式和瀏覽器擴充功能於 2023 年 5 月和 6 �
 [:octicons-info-16:](https://support.1password.com){ .card-link title="說明文件" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>下載</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.onepassword.android)
 - [:simple-appstore: App Store](https://apps.apple.com/app/id1511601750)
@@ -243,13 +243,13 @@ Proton Pass 行動應用程式和瀏覽器擴充功能於 2023 年 5 月和 6 �
 - [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/aeblfdkhhhdcdjpifhhbdiojplfjncoa)
 - [:fontawesome-brands-edge: Edge](https://microsoftedge.microsoft.com/addons/detail/dppgmdbiimibapkepcbdbmkaabgiofem)
 - [:simple-safari: Safari](https://apps.apple.com/app/id1569813296)
-- [:octicons-browser-16: Web](https://my.1password.com/signin)
+- [:octicons-browser-16: 網頁](https://my.1password.com/signin)
 
 </details>
 
 </div>
 
-過去 1Password 僅為 macOS 和 iOS 的用戶提供最佳的密碼管理器用戶體驗，不過它現在已在所有平臺上實現了同等優秀的用戶體驗。 1Password's clients boast many features geared towards families and less technical people, such as an intuitive UI for ease-of-use and navigation, as well as advanced functionality. 值得注意的是，1Password 的幾乎所有功能都可在其原生行動或桌面用戶端中使用。
+過去 1Password 僅為 macOS 和 iOS 的用戶提供最佳的密碼管理器用戶體驗，不過它現在已在所有平臺上實現了同等優秀的用戶體驗。 1Password 的客戶端具備眾多專為家庭使用者與非技術人員設計的功能，例如直覺化的使用者介面以提升操作便利性與導覽體驗，同時也提供進階功能。 值得注意的是，1Password 的幾乎所有功能都可在其原生行動或桌面用戶端中使用。
 
 您的 1Password 儲存庫使用您的主密碼和隨機化的 34 個字元安全金鑰來保護，以加密您在其伺服器上的資料。 此安全金鑰為您的資料添加了一層保護，因為無論您的主密碼如何，資料都受到高熵保護。 許多其他密碼管理器解決方案完全依賴於您的主密碼的強度來保護您的數據。
 
@@ -267,7 +267,7 @@ Proton Pass 行動應用程式和瀏覽器擴充功能於 2023 年 5 月和 6 �
 [:octicons-code-16:](https://gitlab.com/psono){ .card-link title="原始碼" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>下載</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.psono.psono)
 - [:simple-appstore: App Store](https://apps.apple.com/app/id1545581224)
@@ -321,7 +321,7 @@ Psono 為其產品提供廣泛的說明文件。 Psono 的網路用戶端可以�
 [:octicons-heart-16:](https://keepassxc.org/donate){ .card-link title="捐款" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>下載</summary>
 
 - [:fontawesome-brands-windows: Windows](https://keepassxc.org/download/#windows)
 - [:simple-apple: macOS](https://keepassxc.org/download/#mac)
@@ -344,10 +344,10 @@ KeePassXC 將其匯出資料儲存為 [CSV](https://en.wikipedia.org/wiki/Comma-
 
 **KeePassDX** 是適用於 Android 的輕量級密碼管理器；可在單一檔案中以 KeePass 格式編輯加密資料，並能以安全的方式提供自動填入功能。
 
-[:octicons-home-16: Homepage](https://keepassdx.com){ .md-button .md-button--primary }
-[:octicons-info-16:](https://github.com/Kunzisoft/KeePassDX/wiki){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/Kunzisoft/KeePassDX){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://keepassdx.com/#donation){ .card-link title="Contribute" }
+[:octicons-home-16: 首頁](https://keepassdx.com){ .md-button .md-button--primary }
+[:octicons-info-16:](https://github.com/Kunzisoft/KeePassDX/wiki){ .card-link title="文件" }
+[:octicons-code-16:](https://github.com/Kunzisoft/KeePassDX){ .card-link title="原始碼" }
+[:octicons-heart-16:](https://keepassdx.com/#donation){ .card-link title="貢獻" }
 
 <details class="downloads" markdown>
 <summary>下載</summary>
@@ -359,26 +359,26 @@ KeePassXC 將其匯出資料儲存為 [CSV](https://en.wikipedia.org/wiki/Comma-
 
 </div>
 
-The [pro version](https://play.google.com/store/apps/details?id=com.kunzisoft.keepass.pro) of the app allows you to unlock cosmetic content and non-standard protocol features, but more importantly, it helps and encourages development.
+應用程式的[專業版](https://play.google.com/store/apps/details?id=com.kunzisoft.keepass.pro)可讓您解鎖外觀與非標準協定功能，更重要的是，它能協助並鼓勵開發工作。
 
-### KeePassium (iOS & macOS)
+### KeePassium（iOS 與 macOS）
 
 <div class="admonition recommendation" markdown>
 
-![KeePassium logo](assets/img/password-management/keepassium.svg){ align=right }
+![KeePassium 標誌](assets/img/password-management/keepassium.svg){ align=right }
 
-KeePassium is a commercial, open-source password manager made by KeePassium Labs that's compatible with other KeePass applications. It provides autofill support, passkey management, automatic two-way synchronization through [most cloud storage providers](https://support.keepassium.com/kb/sync), and more.
+KeePassium 是一款由 KeePassium Labs 開發的商業化開放原始碼密碼管理程式，可與其他 KeePass 應用程式相容。 它提供自動填寫支援、密碼金鑰管理、透過[許多雲端儲存服務供應商](https://support.keepassium.com/kb/sync)實現的自動雙向同步等功能。
 
-[:material-star-box: Read our latest KeePassium review.](https://www.privacyguides.org/articles/2025/05/13/keepassium-review)
+[:material-star-box: 閱讀我們最新的 KeePassium 審閱。](https://www.privacyguides.org/articles/2025/05/13/keepassium-review)
 
 [:octicons-home-16: Homepage](https://keepassium.com){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://keepassium.com/privacy/app){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://support.keepassium.com){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/keepassium/KeePassium){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://keepassium.com/donate){ .card-link title="Contribute" }
+[:octicons-eye-16:](https://keepassium.com/privacy/app){ .card-link title="隱私權政策" }
+[:octicons-info-16:](https://support.keepassium.com){ .card-link title="文件" }
+[:octicons-code-16:](https://github.com/keepassium/KeePassium){ .card-link title="原始碼" }
+[:octicons-heart-16:](https://keepassium.com/donate){ .card-link title="貢獻" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>下載</summary>
 
 - [:simple-appstore: App Store](https://apps.apple.com/us/app/id1435127111)
 
@@ -386,17 +386,17 @@ KeePassium is a commercial, open-source password manager made by KeePassium Labs
 
 </div>
 
-KeePassium offers a [Premium version](https://keepassium.com/pricing) with additional features such as support for multiple databases, YubiKey support, and a password audit tool.
+KeePassium 提供 [Premium 版本](https://keepassium.com/pricing)，包含了額外功能，例如支援多個資料庫、YubiKey 支援與密碼稽核工具。
 
-KeePassium's iOS app has been [audited](https://cure53.de/pentest-report_keepassium.pdf) by Cure53 in October 2024, and all [issues](https://keepassium.com/blog/2024/11/independent-security-audit-complete) found in the audit were subsequently fixed.
+KeePassium 的 iOS 應用程式已於2024年10月通過 Cure53 的[稽核](https://cure53.de/pentest-report_keepassium.pdf)，稽核中發現的所有[問題](https://keepassium.com/blog/2024/11/independent-security-audit-complete)隨後均已修復。
 
 ### Gopass (CLI)
 
 <div class="admonition recommendation" markdown>
 
-![Gopass logo](assets/img/password-management/gopass.svg){ align=right }
+![Gopass 標誌](assets/img/password-management/gopass.svg){ align=right }
 
-**Gopass** is a minimal password manager for the command line written in Go. 它可在 腳本應用程式("scripting applications") 中使用，且支援所有主要的桌面和伺服器作業系統。
+**Gopass** 是用 Go 編寫的命令列極簡密碼管理程式。 它可在 腳本應用程式("scripting applications") 中使用，且支援所有主要的桌面和伺服器作業系統。
 
 [:octicons-home-16: 首頁](https://gopass.pw){ .md-button .md-button--primary }
 [:octicons-info-16:](https://github.com/gopasspw/gopass/tree/master/docs){ .card-link title="說明文件" }
