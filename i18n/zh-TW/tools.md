@@ -89,24 +89,24 @@ description: Privacy Guides 社群所推薦的隱私工具、服務、軟體及�
 
     **Brave** 是基於 Chromium ，預設保護您隱私的瀏覽器；所以應該十分容易上手，網站相容性的問題也最小。
 
-    - [Brave Desktop Review :material-arrow-right-drop-circle:](desktop-browsers.md#brave)
-    - [Brave Mobile Review :material-arrow-right-drop-circle:](mobile-browsers.md#brave)
+    - [Brave 桌面版評論 :material-arrow-right-drop-circle:](desktop-browsers.md#brave)
+    - [Brave 行動版評論 :material-arrow-right-drop-circle:](mobile-browsers.md#brave)
 
-- ![Cromite logo](assets/img/browsers/cromite.svg){ .lg .middle .twemoji } **Cromite (Android)**
-
-    ---
-
-    **Cromite** is a Chromium-based Android browser with built-in ad-blocking and [privacy enhancements](https://github.com/uazo/cromite/blob/master/docs/FEATURES.md). It is a fork of the popular, now-discontinued Bromite browser.
-
-    - [Read Full Review :material-arrow-right-drop-circle:](mobile-browsers.md#cromite-android)
-
-- ![Safari logo](assets/img/browsers/safari.svg){ .lg .middle .twemoji } **Safari (iOS)**
+- ![Cromite 標誌](assets/img/browsers/cromite.svg){ .lg .middle .twemoji } **Cromite (Android)**
 
     ---
 
-    We recommend **Safari** due to its [anti-fingerprinting](https://webkit.org/blog/15697/private-browsing-2-0) features and default tracker blocking. 它還會在私密瀏覽模式中分隔您開啟分頁的 cookies，以防止在標籤頁之間進行追蹤。
+    **Cromite** 是以 Chromium 為基礎開發的 Android 瀏覽器，有內建的擋廣告與[隱私強化](https://github.com/uazo/cromite/blob/master/docs/FEATURES.md)功能。 它是廣受歡迎但已停止維護的 Bromite 瀏覽器的分支。
 
-    - [Read Full Review :material-arrow-right-drop-circle:](mobile-browsers.md#safari-ios)
+    - [閱讀完整評論 :material-arrow-right-drop-circle:](mobile-browsers.md#cromite-android)
+
+- ![Safari 標誌](assets/img/browsers/safari.svg){ .lg .middle .twemoji } **Safari (iOS)**
+
+    ---
+
+    我們因[抗指紋辨識](https://webkit.org/blog/15697/private-browsing-2-0)與預設封鎖追蹤程式而推薦 **Safari**。 它還會在私密瀏覽模式中分隔您開啟分頁的 cookies，以防止在標籤頁之間進行追蹤。
+
+    - [閱讀完整評論 :material-arrow-right-drop-circle:](mobile-browsers.md#safari-ios)
 
 </div>
 
@@ -130,7 +130,7 @@ description: Privacy Guides 社群所推薦的隱私工具、服務、軟體及�
 
 <div class="grid cards" markdown>
 
-- ![Onion Browser logo](assets/img/self-contained-networks/onion_browser.svg){ .twemoji loading=lazy } [Onion Browser (Tor for iOS)](tor.md#onion-browser-ios)
+- ![Onion 瀏覽器標誌](assets/img/self-contained-networks/onion_browser.svg){ .twemoji loading=lazy } [Onion 瀏覽器 (Tor for iOS)](tor.md#onion-browser-ios)
 
 </div>
 
