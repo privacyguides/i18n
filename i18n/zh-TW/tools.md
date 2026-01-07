@@ -12,13 +12,13 @@ description: Privacy Guides 社群所推薦的隱私工具、服務、軟體及�
 <div class="grid" markdown>
 
 <div markdown>
-[VPN Providers](vpn.md){ .md-button }
-[Password Managers](passwords.md){ .md-button }
-[Email Providers](email.md){ .md-button }
-[Browser Extensions](browser-extensions.md){ .md-button }
-[DNS Servers](dns.md){ .md-button }
-[Email Aliasing Services](email-aliasing.md){ .md-button }
-[Photo Organization Tools](photo-management.md){ .md-button }
+[VPN 供應商](vpn.md){ .md-button }
+[密碼管理程式](passwords.md){ .md-button }
+[電子郵件供應商](email.md){ .md-button }
+[瀏覽器擴充套件](browser-extensions.md){ .md-button }
+[DNS 伺服器](dns.md){ .md-button }
+[電子郵件別名服務](email-aliasing.md){ .md-button }
+[相片管理工具](photo-management.md){ .md-button }
 </div>
 
 </div>
@@ -27,7 +27,7 @@ description: Privacy Guides 社群所推薦的隱私工具、服務、軟體及�
 
 <div class="admonition info" markdown>
 
-[Self-hosting recommendations](self-hosting/index.md) have been moved to their own category.
+[自行架設推薦](self-hosting/index.md)已移至專屬分類。
 
 </div>
 
