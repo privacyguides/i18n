@@ -60,4 +60,4 @@ The server-side source code and infrastructure which underpins Ente Photos under
 
 ### 最佳實踐
 
-- Should have a published audit from a reputable, independent third party.
+- 應有來自聲譽良好、獨立的第三方公開稽核報告。

@@ -17,12 +17,12 @@ cover: pastebins.webp
 
 ![PrivateBin 標誌](assets/img/pastebins/privatebin.svg){ align=right }
 
-**PrivateBin** is a minimalist, open-source, online pastebin where the server has zero knowledge of pasted data. 資料在瀏覽器中使用 256 位元 AES 加密/解密。 它是 ZeroBin 的改良版。
+**PrivateBin** 是一款極簡主義的開放原始碼 pastebin，其伺服器對貼入的資料一無所知。 資料在瀏覽器中使用 256 位元 AES 加密/解密。 它是 ZeroBin 的改良版。
 
-[:octicons-home-16: Homepage](https://privatebin.info){ .md-button .md-button--primary }
-[:octicons-server-16:](https://privatebin.info/directory){ .card-link title="Public Instances"}
-[:octicons-info-16:](https://github.com/PrivateBin/PrivateBin/wiki/FAQ){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/PrivateBin/PrivateBin){ .card-link title="Source Code" }
+[:octicons-home-16: 首頁](https://privatebin.info){ .md-button .md-button--primary }
+[:octicons-server-16:](https://privatebin.info/directory){ .card-link title="公開站台"}
+[:octicons-info-16:](https://github.com/PrivateBin/PrivateBin/wiki/FAQ){ .card-link title="文件" }
+[:octicons-code-16:](https://github.com/PrivateBin/PrivateBin){ .card-link title="原始碼" }
 
 </div>
 
@@ -30,15 +30,15 @@ cover: pastebins.webp
 
 <div class="admonition recommendation" markdown>
 
-![Paaster logo](assets/img/pastebins/paaster.svg){ align=right }
+![Paaster 標誌](assets/img/pastebins/paaster.svg){ align=right }
 
-**Paaster** is a secure and user-friendly pastebin application that prioritizes privacy and simplicity. With end-to-end encryption and paste history, Paaster ensures that your pasted code remains confidential and accessible.
+**Paaster** 是一款安全且易於使用的 pastebin 應用程式，以隱私保護與操作簡便為首要考量。 憑藉端對端加密與貼上歷史記錄功能，Paaster 確保您貼上的程式碼既能維持機密，又能隨時取用。
 
-[:octicons-home-16: Homepage](https://paaster.io){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://paaster.io/privacy-policy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://github.com/WardPearce/paaster#security){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/WardPearce/paaster){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://github.com/sponsors/WardPearce){ .card-link title="Contribute" }
+[:octicons-home-16: 首頁](https://paaster.io){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://paaster.io/privacy-policy){ .card-link title="隱私權政策" }
+[:octicons-info-16:](https://github.com/WardPearce/paaster#security){ .card-link title="文件" }
+[:octicons-code-16:](https://github.com/WardPearce/paaster){ .card-link title="原始碼" }
+[:octicons-heart-16:](https://github.com/sponsors/WardPearce){ .card-link title="貢獻" }
 
 </div>
 
@@ -49,11 +49,11 @@ cover: pastebins.webp
 ### 最低要求
 
 - 必須開放原始碼。
-- Must implement "zero-trust" E2EE.
+- 必須實作「零信任」E2EE。
 - 必須支援密碼保護檔案。
 
 ### 最佳情況
 
 最佳情況標準代表我們希望在這個類別的完美項目的應具備的特性。 推薦產品可能沒有此功能，但若有這些功能則會讓排名更為提高。
 
-- Should have a published audit from a reputable, independent third party.
+- 應有來自聲譽良好、獨立的第三方公開稽核報告。
