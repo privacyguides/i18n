@@ -72,7 +72,7 @@ Proton VPN has [servers in 127 countries](https://protonvpn.com/vpn-servers)(1) 
 { .annotate }
 
 1. Of which at least 71 are virtual servers, meaning your IP will appear from the country but the server is in another. 12 more locations have both hardware and virtual servers. [Source](https://protonvpn.com/support/how-smart-routing-works)
-2. Last checked: 2025-10-28
+2. Ultimo controllo: 2025-10-28
 
 Riteniamo inoltre che sia meglio per la sicurezza delle chiavi private del provider VPN utilizzare [server dedicati](https://en.wikipedia.org/wiki/Dedicated_hosting_service), invece di soluzioni condivise più economiche (con altri clienti) come [server privati virtuali](https://en.wikipedia.org/wiki/Virtual_private_server).
 
@@ -164,7 +164,7 @@ System crashes [may occur](https://protonvpn.com/support/macos-t2-chip-kill-swit
 IVPN has [servers in 41 countries](https://ivpn.net/status).(1) Picking a VPN provider with a server nearest to you will reduce latency of the network traffic you send. Questo per un percorso più breve (meno 'salti'), verso la destinazione.
 { .annotate }
 
-1. Last checked: 2025-10-28
+1. Ultimo controllo: 2025-10-28
 
 Riteniamo inoltre che sia meglio per la sicurezza delle chiavi private del provider VPN utilizzare [server dedicati](https://en.wikipedia.org/wiki/Dedicated_hosting_service), invece di soluzioni condivise più economiche (con altri clienti) come [server privati virtuali](https://en.wikipedia.org/wiki/Virtual_private_server).
 
@@ -239,7 +239,7 @@ IVPN clients support two-factor authentication. Inoltre, IVPN fornisce la funzio
 Mullvad has [servers in 49 countries](https://mullvad.net/servers).(1) Picking a VPN provider with a server nearest to you will reduce latency of the network traffic you send. Questo per un percorso più breve (meno 'salti'), verso la destinazione.
 { .annotate }
 
-1. Last checked: 2025-10-28
+1. Ultimo controllo: 2025-10-28
 
 Riteniamo inoltre che sia meglio per la sicurezza delle chiavi private del provider VPN se utilizzano [server dedicati](https://en.wikipedia.org/wiki/Dedicated_hosting_service), invece di soluzioni condivise più economiche (con altri clienti) come [server privati virtuali](https://en.wikipedia.org/wiki/Virtual_private_server).
 

@@ -2,21 +2,21 @@
 *[ADB]: Android Debug Bridge
 *[AOSP]: Android Open Source Project
 *[ATA]: Allegato tecnologico avanzato
-*[superficie di attacco]: The total number of possible entry points for unauthorized access to a system
+*[superficie di attacco]: Il numero totale di possibili punti d'ingresso per accedere in modo non autorizzato in un sistema
 *[AVB]: Android Verified Boot
 *[cgroups]: Gruppo di Controllo
 *[CLI]: Interfaccia a linea di comando
 *[CSV]: Comma-Separated Values
 *[CVE]: Common Vulnerabilities and Exposures
-*[dark pattern]: A deceptive design pattern intended to trick a user into doing things
-*[digital legacy feature]: Digital Legacy refers to features that allow you to give other people access to your data when you die
+*[dark pattern]: Un modello di design concepito per essere ingannevole e indurre l'utente a compiere azioni
+*[eredità digitale]: L'eredità digitale si riferisce a quelle funzionalità che consentono di concedere ad altre persone l'accesso ai propri dati successivamente alla morte
 *[DNSSEC]: Domain Name System Security Extensions
 *[DNS]: Domain Name System
 *[DoH]: DNS over HTTPS
 *[DoQ]: DNS over QUIC
 *[DoH3]: DNS over HTTP/3
 *[DoT]: DNS over TLS
-*[DPI]: Deep Packet Inspection identifies and blocks packet with specific payloads
+*[DPI]: L'ispezione approfondita dei pacchetti (Deep Packet Inspection) identifica e blocca i pacchetti di rete contenenti uno specifico pattern di dati
 *[E2EE]: Crittografia/Crittografato end-to-end
 *[ECS]: Sottorete client EDNS
 *[EEA]: Spazio economico europeo
@@ -27,17 +27,17 @@
 *[FDE]: Crittografia Completa del Disco
 *[FIDO]: Fast Identity Online
 *[FS]: Segretezza in Avanti
-*[fork]: A new software project created by copying an existing project and adding to it independently
+*[fork]: Un nuovo progetto derivato da un progetto esistente e sviluppato in modo indipendente
 *[GDPR]: Regolamento generale per la protezione dei dati personali
 *[GPG]: GNU Privacy Guard (implementazione PGP)
 *[GPS]: Global Positioning System
 *[GUI]: Interfaccia grafica utente
 *[GnuPG]: GNU Privacy Guard (implementazione PGP)
 *[HDD]: Hard Disk Drive
-*[HOTP]: HMAC (Hash-based Message Authentication Code) based One-Time Password
+*[HOTP]: Password One-Time basata su protocollo HMAC (Hash-based Message Authentication Code)
 *[HTTPS]: Hypertext Transfer Protocol Secure
 *[HTTP]: Hypertext Transfer Protocol
-*[hypervisor]: Computer software, firmware, or hardware that splits the resources of a CPU among multiple operating systems
+*[hypervisor]: Software, firmware o hardware che distribuisce le risorse della CPU tra più sistemi operativi
 *[ICCID]: Integrated Circuit Card Identifier
 *[IMAP]: Internet Message Access Protocol
 *[IMEI]: International Mobile Equipment Identity
@@ -49,22 +49,22 @@
 *[ISPs]: Fornitori di servizi Internet
 *[JNI]: Java Native Interface
 *[KYC]: Conosci Il Tuo Cliente
-*[LLaVA]: Large Language and Vision Assistant (multimodal AI model)
-*[LLMs]: Large Language Models (AI models such as ChatGPT)
-*[LUKS]: Linux Unified Key Setup (Full-Disk Encryption)
+*[LLaVA]: Assistente linguistico e visivo di grandi dimensioni (modello d'intelligenza artificiale multimodale)
+*[LLMs]: Modelli Linguistici di Grandi Dimensioni (modelli AI come ChatGPT)
+*[LUKS]: Linux Unified Key Setup (cifratura completa del disco)
 *[MAC]: Media Access Control
 *[MDAG]: Microsoft Defender Application Guard
 *[MEID]: Mobile Equipment Identifier
 *[MFA]: Autenticazione a più fattori
-*[NVMe]: Nonvolatile Memory Express
-*[NAT]: Network address translation
-*[NAT-PMP]: NAT Port Mapping Protocol
+*[NVMe]: Memoria non volatile express
+*[NAT]: Servizio di Traduzione Indirizzi di Rete
+*[NAT-PMP]: Protocollo di mappatura delle porte NAT
 *[NTP]: Network Time Protocol
 *[OCI]: Open Container Initiative
 *[OCSP]: Online Certificate Status Protocol
 *[OEM]: Produttore di apparecchiature originali
 *[OEMs]: Produttori di apparecchiature originali
-*[open-weights]: An open weights-model is an AI model that anyone can download and use, but for which the underlying training data and/or algorithms are proprietary.
+*[pesi aperti]: Un modello a pesi aperti è un modello di intelligenza artificiale che chiunque può scaricare e utilizzare, ma i cui dati di addestramento e/o algoritmi sottostanti sono proprietari.
 *[OS]: Sistema Operativo
 *[OTP]: Password monouso
 *[OTPs]: Password monouso
@@ -72,12 +72,12 @@
 *[P2P]: Peer-to-Peer
 *[PAM]: Linux Pluggable Authentication Modules
 *[POP3]: Post Office Protocol 3
-*[PGP]: Pretty Good Privacy (see OpenPGP)
+*[PGP]: Pretty Good Privacy (vedasi OpenPGP)
 *[PII]: Personally Identifiable Information
 *[QNAME]: Qualified Name
-*[QUIC]: A network protocol based on UDP, but aiming to combine the speed of UDP with the reliability of TCP.
-*[rate limits]: Rate limits are restrictions that a service imposes on the number of times a user can access their services within a specified period of time.
-*[rolling release]: Updates which are released frequently rather than set intervals
+*[QUIC]: Un protocollo di rete basato su UDP, ma che mira a combinare la velocità di UDP con l'affidabilità di TCP.
+*[limiti]: I limiti sono restrizioni che una piattaforma impone al numero di volte in cui un utente può accedere ai propri servizi entro un periodo di tempo specificato.
+*[rolling release]: Aggiornamenti rilasciati frequentemente anziché a intervalli stabiliti
 *[RSS]: Really Simple Syndication
 *[SELinux]: Security-Enhanced Linux
 *[SIM]: Subscriber Identity Module
@@ -86,12 +86,12 @@
 *[SNI]: Server Name Indication
 *[SSD]: Solid-State Drive
 *[SSH]: Secure Shell
-*[SUID]: Set Owner User ID
+*[SUID]: Permesso speciale nei sistemi Linux (Set Owner User ID = Imposta ID Utente Proprietario)
 *[SaaS]: Software as a Service (software cloud)
 *[SoC]: System on Chip
 *[SSO]: Single sign-on
-*[system prompt]: The system prompt of an AI chat is the general instructions given by a human to guide how it should operate.
-*[temperature]: AI temperature is a parameter used in AI models to control the level of randomness and creativity in the generated text.
+*[prompt di sistema]: Il prompt di sistema di una chat basata sull'intelligenza artificiale è costituito dalle istruzioni generali fornite da un essere umano per guidare il funzionamento di un chatbot.
+*[temperatura]: La temperatura dell'IA è un parametro utilizzato nei modelli di IA per controllare il livello di casualità e creatività nel testo generato.
 *[TCP]: Transmission Control Protocol
 *[TEE]: Trusted Execution Environment
 *[TLS]: Transport Layer Security
@@ -102,10 +102,10 @@
 *[UEFI]: Unified Extensible Firmware Interface
 *[UDP]: User Datagram Protocol
 *[VPN]: Rete virtuale privata
-*[VLAN]: Virtual Local Area Network
+*[VLAN]: Area Locale di Rete Virtuale
 *[VoIP]: Voice over IP (Internet Protocol)
 *[W3C]: World Wide Web Consortium
 *[XMPP]: Extensible Messaging and Presence Protocol
 *[PWA]: Progressive Web App
-*[PWAs]: Progressive Web Apps
+*[PWAs]: Applicazioni Web progressive
 *[WKD]: Web Key Directory

@@ -22,11 +22,11 @@ L'email è praticamente una necessità per utilizzare qualsiasi servizio online,
 
 Per tutto il resto, consigliamo una varietà di provider di posta elettronica basati su modelli di business sostenibile e funzioni di sicurezza integrate. Leggi il nostro [elenco completo di criteri](#criteria) per ulteriori informazioni.
 
-| Provider                      | OpenPGP / WKD                          | IMAP / SMTP                                                | Crittografia ad accesso zero                         | Metodi di pagamento anonimi                           |
-| ----------------------------- | -------------------------------------- | ---------------------------------------------------------- | ---------------------------------------------------- | ----------------------------------------------------- |
-| [Proton Mail](#proton-mail)   | :material-check:{ .pg-green }          | :material-information-outline:{ .pg-blue } Solo a pgamento | :material-check:{ .pg-green }                        | Cash <br>Monero via third party                 |
-| [Mailbox Mail](#mailbox-mail) | :material-check:{ .pg-green }          | :material-check:{ .pg-green }                              | :material-information-outline:{ .pg-blue } Solo mail | Contanti                                              |
-| [Tuta](#tuta)                 | :material-alert-outline:{ .pg-orange } | :material-alert-outline:{ .pg-orange }                     | :material-check:{ .pg-green }                        | Monero via third party <br>Cash via third party |
+| Provider                      | OpenPGP / WKD                          | IMAP / SMTP                                                | Crittografia ad accesso zero                         | Metodi di pagamento anonimi                              |
+| ----------------------------- | -------------------------------------- | ---------------------------------------------------------- | ---------------------------------------------------- | -------------------------------------------------------- |
+| [Proton Mail](#proton-mail)   | :material-check:{ .pg-green }          | :material-information-outline:{ .pg-blue } Solo a pgamento | :material-check:{ .pg-green }                        | Incassa <br>Monero tramite terze parti             |
+| [Casella Mail](#mailbox-mail) | :material-check:{ .pg-green }          | :material-check:{ .pg-green }                              | :material-information-outline:{ .pg-blue } Solo mail | Contanti                                                 |
+| [Tuta](#tuta)                 | :material-alert-outline:{ .pg-orange } | :material-alert-outline:{ .pg-orange }                     | :material-check:{ .pg-green }                        | Monero via terze parti <br>Incassa via terze parti |
 
 Oltre a (o al posto di) un fornitore di posta elettronica consigliato qui, potresti prendere in considerazione un [servizio di aliasing e-mail](email-aliasing.md#recommended-providers) dedicato per proteggere la tua privacy. Tra le altre cose, questi servizi possono aiutare a proteggere la vostra casella di posta reale dallo spam, a impedire ai marketer di correlare i vostri account e a criptare tutti i messaggi in arrivo con PGP.
 
@@ -137,7 +137,7 @@ Se hai un account a pagamento e il tuo [abbonamento non viene pagato](https://pr
 
 Proton Mail's [Unlimited](https://proton.me/support/proton-plans#proton-unlimited) plan also enables access to other Proton services in addition to providing multiple custom domains, unlimited hide-my-email aliases, and 500 GB of storage.
 
-### Mailbox Mail
+### Casella Mail
 
 <div class="admonition recommendation" markdown>
 
