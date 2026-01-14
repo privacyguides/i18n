@@ -230,8 +230,8 @@ description: Privacy Guides 社群所推薦的隱私工具、服務、軟體及�
 
 <div class="grid cards" markdown>
 
-- ![Addy.io logo](assets/img/email-aliasing/addy.svg){ .twemoji loading=lazy } [Addy.io](email-aliasing.md#addyio)
-- ![SimpleLogin logo](assets/img/email-aliasing/simplelogin.svg){ .twemoji loading=lazy } [SimpleLogin](email-aliasing.md#simplelogin)
+- ![Addy.io 標誌](assets/img/email-aliasing/addy.svg){ .twemoji loading=lazy } [Addy.io](email-aliasing.md#addyio)
+- ![SimpleLogin 標誌](assets/img/email-aliasing/simplelogin.svg){ .twemoji loading=lazy } [SimpleLogin](email-aliasing.md#simplelogin)
 
 </div>
 
@@ -243,13 +243,13 @@ description: Privacy Guides 社群所推薦的隱私工具、服務、軟體及�
 
 <div class="grid cards" markdown>
 
-- ![Thunderbird logo](assets/img/email-clients/thunderbird.svg){ .twemoji loading=lazy } [Thunderbird](email-clients.md#thunderbird)
-- ![Apple Mail logo](assets/img/email-clients/applemail.png){ .twemoji loading=lazy } [Apple Mail (macOS)](email-clients.md#apple-mail-macos)
-- ![FairEmail logo](assets/img/email-clients/fairemail.svg){ .twemoji loading=lazy } [FairEmail (Android)](email-clients.md#fairemail-android)
-- ![GNOME Evolution logo](assets/img/email-clients/evolution.svg){ .twemoji loading=lazy } [GNOME Evolution (Linux)](email-clients.md#gnome-evolution-gnome)
-- ![Kontact logo](assets/img/email-clients/kontact.svg){ .twemoji loading=lazy } [Kontact (Linux)](email-clients.md#kontact-kde)
-- ![Mailvelope logo](assets/img/email-clients/mailvelope.svg){ .twemoji loading=lazy } [Mailvelope (PGP in standard webmail)](email-clients.md#mailvelope-browser)
-- ![NeoMutt logo](assets/img/email-clients/mutt.svg){ .twemoji loading=lazy } [NeoMutt (CLI)](email-clients.md#neomutt-cli)
+- ![Thunderbird 標誌](assets/img/email-clients/thunderbird.svg){ .twemoji loading=lazy } [Thunderbird](email-clients.md#thunderbird)
+- ![Apple Mail 標誌](assets/img/email-clients/applemail.png){ .twemoji loading=lazy } [Apple Mail (macOS)](email-clients.md#apple-mail-macos)
+- ![FairEmail 標誌](assets/img/email-clients/fairemail.svg){ .twemoji loading=lazy } [FairEmail (Android)](email-clients.md#fairemail-android)
+- ![GNOME Evolution 標誌](assets/img/email-clients/evolution.svg){ .twemoji loading=lazy } [GNOME Evolution (Linux)](email-clients.md#gnome-evolution-gnome)
+- ![Kontact 標誌](assets/img/email-clients/kontact.svg){ .twemoji loading=lazy } [Kontact (Linux)](email-clients.md#kontact-kde)
+- ![Mailvelope 標誌](assets/img/email-clients/mailvelope.svg){ .twemoji loading=lazy } [Mailvelope（標準網頁郵件中的PGP加密）](email-clients.md#mailvelope-browser)
+- ![NeoMutt 標誌](assets/img/email-clients/mutt.svg){ .twemoji loading=lazy } [NeoMutt (CLI)](email-clients.md#neomutt-cli)
 
 </div>
 
@@ -292,8 +292,8 @@ description: Privacy Guides 社群所推薦的隱私工具、服務、軟體及�
 
 <div class="grid cards" markdown>
 
-- ![RethinkDNS logo](assets/img/android/rethinkdns.svg#only-light){ .twemoji loading=lazy }![RethinkDNS logo](assets/img/android/rethinkdns-dark.svg#only-dark){ .twemoji loading=lazy } [RethinkDNS](dns.md#rethinkdns)
-- ![DNSCrypt-Proxy logo](assets/img/dns/dnscrypt-proxy.svg){ .twemoji loading=lazy } [DNSCrypt-Proxy](dns.md#dnscrypt-proxy)
+- ![RethinkDNS 標誌](assets/img/android/rethinkdns.svg#only-light){ .twemoji loading=lazy }![RethinkDNS 標誌](assets/img/android/rethinkdns-dark.svg#only-dark){ .twemoji loading=lazy } [RethinkDNS](dns.md#rethinkdns)
+- ![DNSCrypt-Proxy 標誌](assets/img/dns/dnscrypt-proxy.svg){ .twemoji loading=lazy } [DNSCrypt-Proxy](dns.md#dnscrypt-proxy)
 
 </div>
 
@@ -326,7 +326,7 @@ description: Privacy Guides 社群所推薦的隱私工具、服務、軟體及�
 
 <div class="grid cards" markdown>
 
-- ![Ente logo](assets/img/photo-management/ente.svg){ .twemoji loading=lazy } [Ente Photos](photo-management.md#ente-photos)
+- ![Ente 標誌](assets/img/photo-management/ente.svg){ .twemoji loading=lazy } [Ente Photos](photo-management.md#ente-photos)
 
 </div>
 
@@ -336,10 +336,10 @@ description: Privacy Guides 社群所推薦的隱私工具、服務、軟體及�
 
 <div class="grid cards" markdown>
 
-- ![Brave Search logo](assets/img/search-engines/brave-search.svg){ .twemoji loading=lazy } [Brave Search](search-engines.md#brave-search)
-- ![DuckDuckGo logo](assets/img/search-engines/duckduckgo.svg){ .twemoji loading=lazy } [DuckDuckGo](search-engines.md#duckduckgo)
-- ![SearXNG logo](assets/img/search-engines/searxng.svg){ .twemoji loading=lazy } [SearXNG](search-engines.md#searxng)
-- ![Startpage logo](assets/img/search-engines/startpage.svg#only-light){ .twemoji loading=lazy }![Startpage logo](assets/img/search-engines/startpage-dark.svg#only-dark){ .twemoji loading=lazy } [Startpage](search-engines.md#startpage)
+- ![Brave Search 標誌](assets/img/search-engines/brave-search.svg){ .twemoji loading=lazy } [Brave Search](search-engines.md#brave-search)
+- ![DuckDuckGo 標誌](assets/img/search-engines/duckduckgo.svg){ .twemoji loading=lazy } [DuckDuckGo](search-engines.md#duckduckgo)
+- ![SearXNG 標誌](assets/img/search-engines/searxng.svg){ .twemoji loading=lazy } [SearXNG](search-engines.md#searxng)
+- ![Startpage 標誌](assets/img/search-engines/startpage.svg#only-light){ .twemoji loading=lazy }![Startpage 標誌](assets/img/search-engines/startpage-dark.svg#only-dark){ .twemoji loading=lazy } [Startpage](search-engines.md#startpage)
 
 </div>
 
@@ -351,9 +351,9 @@ description: Privacy Guides 社群所推薦的隱私工具、服務、軟體及�
 
 <div class="grid cards" markdown>
 
-- ![Kobold logo](assets/img/ai-chat/kobold.png){ .twemoji loading=lazy } [Kobold.cpp](ai-chat.md#koboldcpp)
-- ![Llamafile logo](assets/img/ai-chat/llamafile.webp){ .twemoji loading=lazy } [Llamafile](ai-chat.md#llamafile)
-- ![Ollama logo](assets/img/ai-chat/ollama.png){ .twemoji loading=lazy } [Ollama (CLI)](ai-chat.md#ollama-cli)
+- ![Kobold 標誌](assets/img/ai-chat/kobold.png){ .twemoji loading=lazy } [Kobold.cpp](ai-chat.md#koboldcpp)
+- ![Llamafile 標誌](assets/img/ai-chat/llamafile.webp){ .twemoji loading=lazy } [Llamafile](ai-chat.md#llamafile)
+- ![Ollama 標誌](assets/img/ai-chat/ollama.png){ .twemoji loading=lazy } [Ollama (CLI)](ai-chat.md#ollama-cli)
 
 </div>
 
@@ -384,9 +384,9 @@ description: Privacy Guides 社群所推薦的隱私工具、服務、軟體及�
 
 <div class="grid cards" markdown>
 
-- ![MAT2 logo](assets/img/data-redaction/mat2.svg){ .twemoji loading=lazy } [MAT2](data-redaction.md#mat2)
-- ![ExifEraser logo](assets/img/data-redaction/exiferaser.svg){ .twemoji loading=lazy } [ExifEraser (Android)](data-redaction.md#exiferaser-android)
-- ![ExifTool logo](assets/img/data-redaction/exiftool.png){ .twemoji loading=lazy } [ExifTool (CLI)](data-redaction.md#exiftool-cli)
+- ![MAT2 標誌](assets/img/data-redaction/mat2.svg){ .twemoji loading=lazy } [MAT2](data-redaction.md#mat2)
+- ![ExifEraser 標誌](assets/img/data-redaction/exiferaser.svg){ .twemoji loading=lazy } [ExifEraser (Android)](data-redaction.md#exiferaser-android)
+- ![ExifTool 標誌](assets/img/data-redaction/exiftool.png){ .twemoji loading=lazy } [ExifTool (CLI)](data-redaction.md#exiftool-cli)
 
 </div>
 
@@ -396,7 +396,7 @@ description: Privacy Guides 社群所推薦的隱私工具、服務、軟體及�
 
 <div class="grid cards" markdown>
 
-- ![CryptPad logo](assets/img/document-collaboration/cryptpad.svg){ .twemoji loading=lazy } [CryptPad](document-collaboration.md#cryptpad)
+- ![CryptPad 標誌](assets/img/document-collaboration/cryptpad.svg){ .twemoji loading=lazy } [CryptPad](document-collaboration.md#cryptpad)
 
 </div>
 
@@ -407,26 +407,26 @@ description: Privacy Guides 社群所推薦的隱私工具、服務、軟體及�
 <details class="info" markdown>
 <summary>作業系統加密</summary>
 
-For encrypting your OS drive, we typically recommend using the encryption tool your operating system provides, whether that is **BitLocker** on Windows, **FileVault** on macOS, or **LUKS** on Linux. These tools are included with the operating system and take advantage of hardware encryption elements such as a [secure cryptoprocessor](basics/hardware.md/#tpmsecure-cryptoprocessor).
+若要加密作業系統磁碟，通常建議使用作業系統提供的加密工具，無論是 Windows 的 **BitLocker**、macOS**FileVault** 或 Linux **LUKS**。 這些工具隨作業系統內建提供，並運用硬體加密元件（例如[安全加密處理器](basics/hardware.md/#tpmsecure-cryptoprocessor)）。
 
 [了解更多 :material-arrow-right-drop-circle:](encryption.md#operating-system-encryption)
 
 </details>
 
-#### Cross-Platform Tools
+#### 跨平台工具
 
 <div class="grid cards" markdown>
 
-- ![Cryptomator logo](assets/img/encryption-software/cryptomator.svg){ .twemoji loading=lazy } [Cryptomator](encryption.md#cryptomator-cloud)
-- ![VeraCrypt logo](assets/img/encryption-software/veracrypt.svg#only-light){ .twemoji loading=lazy }![VeraCrypt logo](assets/img/encryption-software/veracrypt-dark.svg#only-dark){ .twemoji loading=lazy } [VeraCrypt (FDE)](encryption.md#veracrypt-disk)
-- ![Kryptor logo](assets/img/encryption-software/kryptor.png){ .twemoji loading=lazy } [Kryptor](encryption.md#kryptor)
-- ![Tomb logo](assets/img/encryption-software/tomb.png){ .twemoji loading=lazy } [Tomb](encryption.md#tomb)
+- ![Cryptomator 標誌](assets/img/encryption-software/cryptomator.svg){ .twemoji loading=lazy } [Cryptomator](encryption.md#cryptomator-cloud)
+- ![VeraCrypt 標誌](assets/img/encryption-software/veracrypt.svg#only-light){ .twemoji loading=lazy }![VeraCrypt logo](assets/img/encryption-software/veracrypt-dark.svg#only-dark){ .twemoji loading=lazy } [VeraCrypt (FDE)](encryption.md#veracrypt-disk)
+- ![Kryptor 標誌](assets/img/encryption-software/kryptor.png){ .twemoji loading=lazy } [Kryptor](encryption.md#kryptor)
+- ![Tomb 標誌](assets/img/encryption-software/tomb.png){ .twemoji loading=lazy } [Tomb](encryption.md#tomb)
 
 </div>
 
 [了解更多 :material-arrow-right-drop-circle:](encryption.md)
 
-#### OpenPGP Clients
+#### OpenPGP 客戶端
 
 <div class="grid cards" markdown>
 
@@ -443,9 +443,9 @@ For encrypting your OS drive, we typically recommend using the encryption tool y
 
 <div class="grid cards" markdown>
 
-- ![Send logo](assets/img/file-sharing-sync/send.svg){ .twemoji loading=lazy } [Send](file-sharing.md#send)
-- ![OnionShare logo](assets/img/file-sharing-sync/onionshare.svg){ .twemoji loading=lazy } [OnionShare](file-sharing.md#onionshare)
-- ![Syncthing logo](assets/img/file-sharing-sync/syncthing.svg){ .twemoji loading=lazy } [Syncthing](file-sharing.md#syncthing-p2p)
+- ![Send 標誌](assets/img/file-sharing-sync/send.svg){ .twemoji loading=lazy } [Send](file-sharing.md#send)
+- ![OnionShare 標誌](assets/img/file-sharing-sync/onionshare.svg){ .twemoji loading=lazy } [OnionShare](file-sharing.md#onionshare)
+- ![Syncthing 標誌](assets/img/file-sharing-sync/syncthing.svg){ .twemoji loading=lazy } [Syncthing](file-sharing.md#syncthing-p2p)
 
 </div>
 
@@ -468,16 +468,16 @@ For encrypting your OS drive, we typically recommend using the encryption tool y
 
 [了解更多 :material-arrow-right-drop-circle:](frontends.md)
 
-### Health and Wellness Apps
+### 健康與保健應用程式
 
 <div class="grid cards" markdown>
 
-- ![Drip logo](assets/img/health-and-wellness/drip.png){ .twemoji loading=lazy } [Drip](health-and-wellness.md#drip)
-- ![Euki logo](assets/img/health-and-wellness/euki.svg){ .twemoji loading=lazy } [Euki](health-and-wellness.md#euki)
-- ![Apple Fitness logo](assets/img/health-and-wellness/apple-fitness.webp){ .twemoji loading=lazy } [Apple Fitness](health-and-wellness.md#apple-fitness)
-- ![Gadgetbridge logo](assets/img/health-and-wellness/gadgetbridge.svg#only-light){ .twemoji loading=lazy }![Gadgetbridge logo](assets/img/health-and-wellness/gadgetbridge-dark.svg#only-dark){ .twemoji loading=lazy } [Gadgetbridge](health-and-wellness.md#gadgetbridge)
-- ![Apple Health logo](assets/img/health-and-wellness/apple-health.webp#only-light){ .twemoji loading=lazy } ![Apple Health logo](assets/img/health-and-wellness/apple-health-dark.webp#only-dark){ .twemoji loading=lazy } [Apple Health Records](health-and-wellness.md#apple-health-records)
-- ![CommonHealth logo](assets/img/health-and-wellness/commonhealth.png){ .twemoji loading=lazy } [CommonHealth](health-and-wellness.md#commonhealth)
+- ![Drip 標誌](assets/img/health-and-wellness/drip.png){ .twemoji loading=lazy } [Drip](health-and-wellness.md#drip)
+- ![Euki 標誌](assets/img/health-and-wellness/euki.svg){ .twemoji loading=lazy } [Euki](health-and-wellness.md#euki)
+- ![Apple Fitness 標誌](assets/img/health-and-wellness/apple-fitness.webp){ .twemoji loading=lazy } [Apple Fitness](health-and-wellness.md#apple-fitness)
+- ![Gadgetbridge 標誌](assets/img/health-and-wellness/gadgetbridge.svg#only-light){ .twemoji loading=lazy }![Gadgetbridge 標誌](assets/img/health-and-wellness/gadgetbridge-dark.svg#only-dark){ .twemoji loading=lazy } [Gadgetbridge](health-and-wellness.md#gadgetbridge)
+- ![Apple Health 標誌](assets/img/health-and-wellness/apple-health.webp#only-light){ .twemoji loading=lazy } ![Apple Health 標誌](assets/img/health-and-wellness/apple-health-dark.webp#only-dark){ .twemoji loading=lazy } [Apple Health Records](health-and-wellness.md#apple-health-records)
+- ![CommonHealth 標誌](assets/img/health-and-wellness/commonhealth.png){ .twemoji loading=lazy } [CommonHealth](health-and-wellness.md#commonhealth)
 
 </div>
 
@@ -487,19 +487,19 @@ For encrypting your OS drive, we typically recommend using the encryption tool y
 
 <div class="grid cards" markdown>
 
-- ![LanguageTool logo](assets/img/language-tools/languagetool.svg#only-light){ .twemoji loading=lazy }![LanguageTool logo](assets/img/language-tools/languagetool-dark.svg#only-dark){ .twemoji loading=lazy } [LanguageTool](language-tools.md#languagetool)
-- ![LibreTranslate logo](assets/img/language-tools/libretranslate.png){ .twemoji } [LibreTranslate](language-tools.md#libretranslate)
+- ![LanguageTool 標誌](assets/img/language-tools/languagetool.svg#only-light){ .twemoji loading=lazy }![LanguageTool 標誌](assets/img/language-tools/languagetool-dark.svg#only-dark){ .twemoji loading=lazy } [LanguageTool](language-tools.md#languagetool)
+- ![LibreTranslate 標誌](assets/img/language-tools/libretranslate.png){ .twemoji } [LibreTranslate](language-tools.md#libretranslate)
 
 </div>
 
 [了解更多 :material-arrow-right-drop-circle:](language-tools.md)
 
-### Maps and Navigation Apps
+### 地圖與導航應用程式
 
 <div class="grid cards" markdown>
 
-- ![Organic Maps logo](assets/img/maps/organic-maps.svg){ .twemoji loading=lazy } [Organic Maps](maps.md#organic-maps)
-- ![OsmAnd logo](assets/img/maps/osmand.svg){ .twemoji loading=lazy } [OsmAnd](maps.md#osmand)
+- ![Organic Maps 標誌](assets/img/maps/organic-maps.svg){ .twemoji loading=lazy } [Organic Maps](maps.md#organic-maps)
+- ![OsmAnd 標誌](assets/img/maps/osmand.svg){ .twemoji loading=lazy } [OsmAnd](maps.md#osmand)
 
 </div>
 
@@ -522,12 +522,12 @@ For encrypting your OS drive, we typically recommend using the encryption tool y
 
 <div class="grid cards" markdown>
 
-- ![Akregator logo](assets/img/news-aggregators/akregator.svg){ .twemoji loading=lazy } [Akregator](news-aggregators.md#akregator)
-- ![NewsFlash logo](assets/img/news-aggregators/newsflash.png){ .twemoji loading=lazy } [NewsFlash](news-aggregators.md#newsflash)
-- ![Feeder logo](assets/img/news-aggregators/feeder.png){ .twemoji} [Feeder (Android)](news-aggregators.md#feeder)
-- ![Miniflux logo](assets/img/news-aggregators/miniflux.svg#only-light){ .twemoji loading=lazy }![Miniflux logo](assets/img/news-aggregators/miniflux-dark.svg#only-dark){ .twemoji loading=lazy } [Miniflux](news-aggregators.md#miniflux)
-- ![NetNewsWire logo](assets/img/news-aggregators/netnewswire.png){ .twemoji loading=lazy } [NetNewsWire](news-aggregators.md#netnewswire)
-- ![Newsboat logo](assets/img/news-aggregators/newsboat.svg){ .twemoji loading=lazy } [Newsboat](news-aggregators.md#newsboat)
+- ![Akregator 標誌](assets/img/news-aggregators/akregator.svg){ .twemoji loading=lazy } [Akregator](news-aggregators.md#akregator)
+- ![NewsFlash 標誌](assets/img/news-aggregators/newsflash.png){ .twemoji loading=lazy } [NewsFlash](news-aggregators.md#newsflash)
+- ![Feeder 標誌](assets/img/news-aggregators/feeder.png){ .twemoji} [Feeder (Android)](news-aggregators.md#feeder)
+- ![Miniflux 標誌](assets/img/news-aggregators/miniflux.svg#only-light){ .twemoji loading=lazy }![Miniflux 標誌](assets/img/news-aggregators/miniflux-dark.svg#only-dark){ .twemoji loading=lazy } [Miniflux](news-aggregators.md#miniflux)
+- ![NetNewsWire 標誌](assets/img/news-aggregators/netnewswire.png){ .twemoji loading=lazy } [NetNewsWire](news-aggregators.md#netnewswire)
+- ![Newsboat 標誌](assets/img/news-aggregators/newsboat.svg){ .twemoji loading=lazy } [Newsboat](news-aggregators.md#newsboat)
 
 </div>
 
@@ -562,14 +562,14 @@ For encrypting your OS drive, we typically recommend using the encryption tool y
 
 <div class="grid cards" markdown>
 
-- ![Bitwarden logo](assets/img/password-management/bitwarden.svg){ .twemoji loading=lazy } [Bitwarden](passwords.md#bitwarden)
-- ![Proton Pass logo](assets/img/password-management/protonpass.svg){ .twemoji loading=lazy } [Proton Pass](passwords.md#proton-pass)
-- ![1Password logo](assets/img/password-management/1password.svg){ .twemoji loading=lazy } [1Password](passwords.md#1password)
-- ![Psono logo](assets/img/password-management/psono.svg){ .twemoji loading=lazy } [Psono](passwords.md#psono)
-- ![KeePassXC logo](assets/img/password-management/keepassxc.svg){ .twemoji loading=lazy } [KeePassXC](passwords.md#keepassxc)
-- ![KeePassDX logo](assets/img/password-management/keepassdx.svg){ .twemoji loading=lazy } [KeePassDX (Android)](passwords.md#keepassdx-android)
-- ![KeePassium logo](assets/img/password-management/keepassium.svg){ .twemoji loading=lazy } [KeePassium (iOS & macOS)](passwords.md#keepassium-ios-macos)
-- ![Gopass logo](assets/img/password-management/gopass.svg){ .twemoji loading=lazy } [Gopass (CLI)](passwords.md#gopass-cli)
+- ![Bitwarden 標誌](assets/img/password-management/bitwarden.svg){ .twemoji loading=lazy } [Bitwarden](passwords.md#bitwarden)
+- ![Proton Pass 標誌](assets/img/password-management/protonpass.svg){ .twemoji loading=lazy } [Proton Pass](passwords.md#proton-pass)
+- ![1Password 標誌](assets/img/password-management/1password.svg){ .twemoji loading=lazy } [1Password](passwords.md#1password)
+- ![Psono 標誌](assets/img/password-management/psono.svg){ .twemoji loading=lazy } [Psono](passwords.md#psono)
+- ![KeePassXC 標誌](assets/img/password-management/keepassxc.svg){ .twemoji loading=lazy } [KeePassXC](passwords.md#keepassxc)
+- ![KeePassDX 標誌](assets/img/password-management/keepassdx.svg){ .twemoji loading=lazy } [KeePassDX (Android)](passwords.md#keepassdx-android)
+- ![KeePassium 標誌](assets/img/password-management/keepassium.svg){ .twemoji loading=lazy } [KeePassium (iOS & macOS)](passwords.md#keepassium-ios-macos)
+- ![Gopass 標誌](assets/img/password-management/gopass.svg){ .twemoji loading=lazy } [Gopass (CLI)](passwords.md#gopass-cli)
 
 </div>
 
@@ -579,8 +579,8 @@ For encrypting your OS drive, we typically recommend using the encryption tool y
 
 <div class="grid cards" markdown>
 
-- ![PrivateBin logo](assets/img/pastebins/privatebin.svg){ .twemoji loading=lazy } [PrivateBin](pastebins.md#privatebin)
-- ![Paaster logo](assets/img/pastebins/paaster.svg){ .twemoji loading=lazy } [Paaster](pastebins.md#paaster)
+- ![PrivateBin 標誌](assets/img/pastebins/privatebin.svg){ .twemoji loading=lazy } [PrivateBin](pastebins.md#privatebin)
+- ![Paaster 標誌](assets/img/pastebins/paaster.svg){ .twemoji loading=lazy } [Paaster](pastebins.md#paaster)
 
 </div>
 
@@ -590,20 +590,20 @@ For encrypting your OS drive, we typically recommend using the encryption tool y
 
 <div class="grid cards" markdown>
 
-- ![Signal logo](assets/img/messengers/signal.svg){ .twemoji loading=lazy } [Signal](real-time-communication.md#signal)
-- ![Briar logo](assets/img/messengers/briar.svg){ .twemoji loading=lazy } [Briar](real-time-communication.md#briar)
-- ![SimpleX Chat logo](assets/img/messengers/simplex.svg){ .twemoji loading=lazy } [SimpleX Chat](real-time-communication.md#simplex-chat)
+- ![Signal 標誌](assets/img/messengers/signal.svg){ .twemoji loading=lazy } [Signal](real-time-communication.md#signal)
+- ![Briar 標誌](assets/img/messengers/briar.svg){ .twemoji loading=lazy } [Briar](real-time-communication.md#briar)
+- ![SimpleX Chat 標誌](assets/img/messengers/simplex.svg){ .twemoji loading=lazy } [SimpleX Chat](real-time-communication.md#simplex-chat)
 
 </div>
 
 [了解更多 :material-arrow-right-drop-circle:](real-time-communication.md)
 
-### Social Networks
+### 社群網路
 
 <div class="grid cards" markdown>
 
-- ![Mastodon logo](assets/img/social-networks/mastodon.svg){ .twemoji loading=lazy } [Mastodon](social-networks.md#mastodon)
-- ![Element logo](assets/img/social-networks/element.svg){ .twemoji loading=lazy } [Element](social-networks.md#element)
+- ![Mastodon 標誌](assets/img/social-networks/mastodon.svg){ .twemoji loading=lazy } [Mastodon](social-networks.md#mastodon)
+- ![Element 標誌](assets/img/social-networks/element.svg){ .twemoji loading=lazy } [Element](social-networks.md#element)
 
 </div>
 
@@ -637,17 +637,17 @@ For encrypting your OS drive, we typically recommend using the encryption tool y
 
 ### 行動平台
 
-#### Custom Android Operating Systems
+#### 自訂 Android 作業系統
 
 <div class="grid cards" markdown>
 
-- ![GrapheneOS logo](assets/img/android/grapheneos.svg#only-light){ .twemoji loading=lazy }![GrapheneOS logo](assets/img/android/grapheneos-dark.svg#only-dark){ .twemoji loading=lazy } [GrapheneOS](android/distributions.md#grapheneos)
+- ![GrapheneOS 標誌](assets/img/android/grapheneos.svg#only-light){ .twemoji loading=lazy }![GrapheneOS 標誌](assets/img/android/grapheneos-dark.svg#only-dark){ .twemoji loading=lazy } [GrapheneOS](android/distributions.md#grapheneos)
 
 </div>
 
 [了解更多 :material-arrow-right-drop-circle:](android/distributions.md)
 
-#### Android Apps
+#### Android 應用程式
 
 <div class="grid cards" markdown>
 
@@ -659,7 +659,7 @@ For encrypting your OS drive, we typically recommend using the encryption tool y
 
 [了解更多 :material-arrow-right-drop-circle:](android/general-apps.md)
 
-#### Ways to Obtain Android Apps
+#### 取得 Android 應用程式的途徑
 
 <div class="grid cards" markdown>
 
@@ -674,16 +674,16 @@ For encrypting your OS drive, we typically recommend using the encryption tool y
 
 <div class="grid cards" markdown>
 
-- ![Qubes OS logo](assets/img/qubes/qubes_os.svg){ .twemoji loading=lazy } [Qubes OS (Xen VM Distribution)](desktop.md#qubes-os)
-- ![Fedora logo](assets/img/linux-desktop/fedora.svg){ .twemoji loading=lazy } [Fedora Linux](desktop.md#fedora-linux)
-- ![openSUSE Tumbleweed logo](assets/img/linux-desktop/opensuse-tumbleweed.svg){ .twemoji loading=lazy } [openSUSE Tumbleweed](desktop.md#opensuse-tumbleweed)
-- ![Arch logo](assets/img/linux-desktop/archlinux.svg){ .twemoji loading=lazy } [Arch Linux](desktop.md#arch-linux)
-- ![Fedora logo](assets/img/linux-desktop/fedora.svg){ .twemoji loading=lazy } [Fedora Atomic Desktops](desktop.md#fedora-atomic-desktops)
-- ![NixOS logo](assets/img/linux-desktop/nixos.svg){ .twemoji loading=lazy } [NixOS](desktop.md#nixos)
-- ![Whonix logo](assets/img/linux-desktop/whonix.svg){ .twemoji loading=lazy } [Whonix (Tor)](desktop.md#whonix)
-- ![Tails logo](assets/img/linux-desktop/tails.svg){ .twemoji loading=lazy } [Tails (Live Boot)](desktop.md#tails)
-- ![Secureblue logo](assets/img/linux-desktop/secureblue.svg){ .twemoji loading=lazy } [Secureblue](desktop.md#secureblue)
-- ![Kicksecure logo](assets/img/linux-desktop/kicksecure.svg){ .twemoji loading=lazy } [Kicksecure](desktop.md#kicksecure)
+- ![Qubes OS 標誌](assets/img/qubes/qubes_os.svg){ .twemoji loading=lazy } [Qubes OS (Xen VM Distribution)](desktop.md#qubes-os)
+- ![Fedora 標誌](assets/img/linux-desktop/fedora.svg){ .twemoji loading=lazy } [Fedora Linux](desktop.md#fedora-linux)
+- ![openSUSE Tumbleweed 標誌](assets/img/linux-desktop/opensuse-tumbleweed.svg){ .twemoji loading=lazy } [openSUSE Tumbleweed](desktop.md#opensuse-tumbleweed)
+- ![Arch 標誌](assets/img/linux-desktop/archlinux.svg){ .twemoji loading=lazy } [Arch Linux](desktop.md#arch-linux)
+- ![Fedora 標誌](assets/img/linux-desktop/fedora.svg){ .twemoji loading=lazy } [Fedora Atomic Desktops](desktop.md#fedora-atomic-desktops)
+- ![NixOS 標誌](assets/img/linux-desktop/nixos.svg){ .twemoji loading=lazy } [NixOS](desktop.md#nixos)
+- ![Whonix 標誌](assets/img/linux-desktop/whonix.svg){ .twemoji loading=lazy } [Whonix (Tor)](desktop.md#whonix)
+- ![Tails 標誌](assets/img/linux-desktop/tails.svg){ .twemoji loading=lazy } [Tails (Live Boot)](desktop.md#tails)
+- ![Secureblue 標誌](assets/img/linux-desktop/secureblue.svg){ .twemoji loading=lazy } [Secureblue](desktop.md#secureblue)
+- ![Kicksecure 標誌](assets/img/linux-desktop/kicksecure.svg){ .twemoji loading=lazy } [Kicksecure](desktop.md#kicksecure)
 
 </div>
 
@@ -708,10 +708,10 @@ For encrypting your OS drive, we typically recommend using the encryption tool y
 
 <div class="grid cards" markdown>
 
-- ![I2P logo](assets/img/self-contained-networks/i2p.svg#only-light){ .twemoji loading=lazy } ![I2P logo](assets/img/self-contained-networks/i2p-dark.svg#only-dark){ .twemoji loading=lazy } [I2P](alternative-networks.md#i2p-the-invisible-internet-project)
-- ![Tor logo](assets/img/self-contained-networks/tor.svg){ .twemoji loading=lazy } [Tor](alternative-networks.md#tor)
-- ![Orbot logo](assets/img/self-contained-networks/orbot.svg){ .twemoji loading=lazy } [Orbot (Mobile Tor Proxy)](alternative-networks.md#orbot)
-- ![Snowflake logo](assets/img/self-contained-networks/snowflake.svg#only-light){ .twemoji loading=lazy }![Snowflake logo](assets/img/self-contained-networks/snowflake-dark.svg#only-dark){ .twemoji loading=lazy } [Snowflake](alternative-networks.md#snowflake)
+- ![I2P 標誌](assets/img/self-contained-networks/i2p.svg#only-light){ .twemoji loading=lazy } ![I2P logo](assets/img/self-contained-networks/i2p-dark.svg#only-dark){ .twemoji loading=lazy } [I2P](alternative-networks.md#i2p-the-invisible-internet-project)
+- ![Tor 標誌](assets/img/self-contained-networks/tor.svg){ .twemoji loading=lazy } [Tor](alternative-networks.md#tor)
+- ![Orbot 標誌](assets/img/self-contained-networks/orbot.svg){ .twemoji loading=lazy } [Orbot (Mobile Tor Proxy)](alternative-networks.md#orbot)
+- ![Snowflake 標誌](assets/img/self-contained-networks/snowflake.svg#only-light){ .twemoji loading=lazy }![Snowflake 標誌](assets/img/self-contained-networks/snowflake-dark.svg#only-dark){ .twemoji loading=lazy } [Snowflake](alternative-networks.md#snowflake)
 
 </div>
 
@@ -721,9 +721,9 @@ For encrypting your OS drive, we typically recommend using the encryption tool y
 
 <div class="grid cards" markdown>
 
-- ![MVT logo](assets/img/device-integrity/mvt.webp#only-light){ .twemoji loading=lazy }![MVT logo](assets/img/device-integrity/mvt-dark.png#only-dark){ .twemoji loading=lazy } [Mobile Verification Toolkit](device-integrity.md#mobile-verification-toolkit)
-- ![iMazing logo](assets/img/device-integrity/imazing.png){ .twemoji loading=lazy } [iMazing (iOS)](device-integrity.md#imazing-ios)
-- ![Auditor logo](assets/img/device-integrity/auditor.svg#only-light){ .twemoji loading=lazy }![Auditor logo](assets/img/device-integrity/auditor-dark.svg#only-dark){ .twemoji loading=lazy } [Auditor (Android)](device-integrity.md#auditor-android)
+- ![MVT 標誌](assets/img/device-integrity/mvt.webp#only-light){ .twemoji loading=lazy }![MVT logo](assets/img/device-integrity/mvt-dark.png#only-dark){ .twemoji loading=lazy } [Mobile Verification Toolkit](device-integrity.md#mobile-verification-toolkit)
+- ![iMazing 標誌](assets/img/device-integrity/imazing.png){ .twemoji loading=lazy } [iMazing (iOS)](device-integrity.md#imazing-ios)
+- ![Auditor 標誌](assets/img/device-integrity/auditor.svg#only-light){ .twemoji loading=lazy }![Auditor 標誌](assets/img/device-integrity/auditor-dark.svg#only-dark){ .twemoji loading=lazy } [Auditor (Android)](device-integrity.md#auditor-android)
 
 </div>
 
