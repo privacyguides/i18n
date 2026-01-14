@@ -155,41 +155,41 @@ description: Privacy Guides 社群所推薦的隱私工具、服務、軟體及�
 
 <div class="grid cards" markdown>
 
-- ![Proton VPN logo](assets/img/vpn/protonvpn.svg){ .lg .middle .twemoji } **Proton VPN**
+- ![Proton VPN 標誌](assets/img/vpn/protonvpn.svg){ .lg .middle .twemoji } **Proton VPN**
 
     ---
 
-    - [x] **112+ Countries**
-    - [x] WireGuard Support
-    - [x] Cash Payments
-    - [x] Partial Port Forwarding Support
-    - [ ] No IPv6
+    - [x] **超過 112 個國家**
+    - [x] 支援 WireGuard
+    - [x] 現金付款
+    - [x] 部份連接埠轉發支援
+    - [ ] 無 IPv6
 
-    [Read Full Review :material-arrow-right-drop-circle:](vpn.md#proton-vpn)
+    [閱讀完整評論 :material-arrow-right-drop-circle:](vpn.md#proton-vpn)
 
-- ![IVPN logo](assets/img/vpn/mini/ivpn.svg){ .lg .middle .twemoji } **IVPN**
-
-    ---
-
-    - [x] **37+ Countries**
-    - [x] WireGuard Support
-    - [x] Monero & Cash Payments
-    - [ ] No Port Forwarding
-    - [ ] No IPv6
-
-    [Read Full Review :material-arrow-right-drop-circle:](vpn.md#ivpn)
-
-- ![Mullvad logo](assets/img/vpn/mullvad.svg){ .lg .middle .twemoji } **Mullvad**
+- ![IVPN 標誌](assets/img/vpn/mini/ivpn.svg){ .lg .middle .twemoji } **IVPN**
 
     ---
 
-    - [x] **49+ Countries**
-    - [x] WireGuard Support
-    - [x] Monero & Cash Payments
-    - [ ] No Port Forwarding
-    - [x] IPv6 Support
+    - [x] **超過 37 個國家**
+    - [x] 支援 WireGuard
+    - [x] 門羅幣與現金付款
+    - [ ] 無連接埠轉發
+    - [ ] 無 IPv6
 
-    [Read Full Review :material-arrow-right-drop-circle:](vpn.md#mullvad)
+    [閱讀完整評論 :material-arrow-right-drop-circle:](vpn.md#ivpn)
+
+- ![Mullvad 標誌](assets/img/vpn/mullvad.svg){ .lg .middle .twemoji } **Mullvad**
+
+    ---
+
+    - [x] **超過 49 個國家**
+    - [x] 支援 WireGuard
+    - [x] 門羅幣與現金付款
+    - [ ] 無連接埠轉發
+    - [x] 支援 IPv6
+
+    [閱讀完整評論 :material-arrow-right-drop-circle:](vpn.md#mullvad)
 
 </div>
 
@@ -201,23 +201,23 @@ description: Privacy Guides 社群所推薦的隱私工具、服務、軟體及�
 
     ---
 
-    Proton Mail 是一個注重隱私、加密、安全和易用性的電子郵件服務。 他們自 2013 年起開始營運。 Proton AG 的總部位於瑞士日內瓦。 The Proton Mail Free plan comes with 500 MB of Mail storage, which you can increase up to 1 GB for free.
+    Proton Mail 是一個注重隱私、加密、安全和易用性的電子郵件服務。 他們自 2013 年起開始營運。 Proton AG 的總部位於瑞士日內瓦。 Proton Mail 免費方案提供 500 MB 的郵件儲存空間，您可以免費增加至 1 GB。
 
-    [Read Full Review :material-arrow-right-drop-circle:](email.md#proton-mail)
+    [閱讀完整評論 :material-arrow-right-drop-circle:](email.md#proton-mail)
 
-- ![Mailbox Mail logo](assets/img/email/mailbox-mail.svg){ .lg .middle .twemoji } **Mailbox Mail**
-
-    ---
-
-    Mailbox Mail (formerly *Mailbox.org*) is an email service with a focus on being secure, ad-free, and powered by 100% eco-friendly energy. 自 **2014 年** 開始運營。 Mailbox Mail 總部位於德國柏林。 Accounts start with up to 2 GB storage, which can be upgraded as needed.
-
-    [Read Full Review :material-arrow-right-drop-circle:](email.md#mailbox-mail)
-
-- ![Tuta logo](assets/img/email/tuta.svg#only-light){ .lg .middle .twemoji }![Tuta logo](assets/img/email/tuta-dark.svg#only-dark){ .lg .middle .twemoji } **Tuta**
+- ![Mailbox Mail 標誌](assets/img/email/mailbox-mail.svg){ .lg .middle .twemoji } **Mailbox Mail**
 
     ---
 
-    Tuta (formerly *Tutanota*) is an email service with a focus on security and privacy through the use of encryption. Tuta 自 2011 年開始營運，總部位於德國漢諾威。 Free accounts start with 1 GB of storage.
+    Mailbox Mail（以前叫做 *Mailbox.org*）是一款專注於安全、無廣告且完全採用環保能源驅動的電子郵件服務。 自 **2014 年** 開始運營。 Mailbox Mail 總部位於德國柏林。 帳號一開始有 2 GB 儲存空間，可視需要升級。
+
+    [閱讀完整評論 :material-arrow-right-drop-circle:](email.md#mailbox-mail)
+
+- ![Tuta 標誌](assets/img/email/tuta.svg#only-light){ .lg .middle .twemoji }![Tuta 標誌](assets/img/email/tuta-dark.svg#only-dark){ .lg .middle .twemoji } **Tuta**
+
+    ---
+
+    Tuta（以前叫做 *Tutanota*）是一款透過加密技術強化安全與隱私的電子郵件服務。 Tuta 自 2011 年開始營運，總部位於德國漢諾威。 免費帳號一開始有 1 GB 儲存空間。
 
     [閱讀完整評論 :material-arrow-right-drop-circle:](email.md#tuta)
 
