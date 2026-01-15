@@ -62,19 +62,19 @@ Signal 註冊時需要您的電話號碼，但您應建立使用者名稱以隱�
 
 聯絡人清單會使用您的 Signal PIN 加密，而伺服器無法存取。 個人資料也會加密，僅與您聊天的聯絡人分享。
 
-Signal 支援[私人群組](https://signal.org/blog/signal-private-group-system)，伺服器不會紀錄您群組的成員、標題、大頭照或屬性。 啟用[密封寄件者](https://signal.org/blog/sealed-sender)時，Signal 的中介資料最少。 The sender address is encrypted along with the message body, and only the recipient address is visible to the server. Sealed Sender is only enabled for people in your contacts list, but can be enabled for all recipients with the increased risk of receiving spam.
+Signal 支援[私人群組](https://signal.org/blog/signal-private-group-system)，伺服器不會紀錄您群組的成員、標題、大頭照或屬性。 啟用[密封寄件者](https://signal.org/blog/sealed-sender)時，Signal 的中介資料最少。 寄件者位址與訊息內文一起加密，伺服器僅能看到收件者位址。 密封寄件者功能僅會對您聯絡人清單中的成員啟用，但也可以對所有收件者啟用以防止垃圾訊息變多的風險。
 
-The protocol was independently [audited](https://eprint.iacr.org/2016/1013.pdf) in 2016. The specification for the Signal protocol can be found in their [documentation](https://signal.org/docs).
+協定於2016年經過獨立[稽核](https://eprint.iacr.org/2016/1013.pdf)。 Signal 協定的規範可以在他們的[文件](https://signal.org/docs)中找到。
 
 ### Molly (Android)
 
-If you use Android and your threat model requires protecting against [:material-target-account: Targeted Attacks](basics/common-threats.md#attacks-against-specific-individuals ""){.pg-red} you may consider using this alternative app, which features a number of security and usability improvements, to access the Signal network.
+若您使用 Android 且您的威脅模型需要防範[:material-target-account: 針對性攻擊](basics/common-threats.md#attacks-against-specific-individuals ""){.pg-red}，您可以考慮使用此替代應用程式來存取 Signal 網路，此應用程式在安全性與可用性方面有許多改進。
 
 <div class="admonition recommendation" markdown>
 
 ![Molly logo](assets/img/messengers/molly.svg){ align=right }
 
-**Molly** 是 Android 的替代 Signal 用戶端，可讓您使用密碼加密本機資料庫、安全地刪除未使用的 RAM 資料、透過 Tor 路由連線；除此之外，還有 [許多](https://blog.privacyguides.org/2022/07/07/signal-configuration-and-hardening#privacy-and-security-features)。 It also has usability improvements including scheduled backups, automatic locking, and the ability to use your Android phone as a linked device instead of the primary device for a Signal account.
+**Molly** 是 Android 的替代 Signal 用戶端，可讓您使用密碼加密本機資料庫、安全地刪除未使用的 RAM 資料、透過 Tor 路由連線；除此之外，還有 [許多](https://blog.privacyguides.org/2022/07/07/signal-configuration-and-hardening#privacy-and-security-features)。 它還改善了可用性，包括排程備份、自動鎖定，以及使用 Android 手機作為連結裝置，而非 Signal 帳號的主要裝置。
 
 [:octicons-home-16: 首頁](https://molly.im){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://signal.org/legal/#privacy-policy){ .card-link title="隱私權政策" }
@@ -93,7 +93,7 @@ If you use Android and your threat model requires protecting against [:material-
 
 </div>
 
-Molly is updated every two weeks to include the latest features and bug fixes from Signal. The exception is security issues, which are patched as soon as possible. That said, you should be aware that there might be a slight delay compared to upstream, which may affect actions such as [migrating from Signal to Molly](https://github.com/mollyim/mollyim-android/wiki/Migrating-From-Signal#migrating-from-signal).
+Molly 每兩週更新一次，以包含 Signal 的最新功能與錯誤修正。 安全問題是例外，這類問題會盡快進行修補。 話雖如此，您應當留意相較於上游系統可能存在些微延遲，這可能影響諸如[從 Signal 遷移至 Molly](https://github.com/mollyim/mollyim-android/wiki/Migrating-From-Signal#migrating-from-signal) 等操作。
 
 Note that you are trusting multiple parties by using Molly, as you now need to trust the Signal team *and* the Molly team to deliver safe and timely updates.
 
