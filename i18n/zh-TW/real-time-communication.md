@@ -13,7 +13,7 @@ cover: real-time-communication.webp
 - [:material-eye-outline: 大規模監控](basics/common-threats.md#mass-surveillance-programs ""){.pg-blue}
 - [:material-account-cash: 監控資本主義](basics/common-threats.md#surveillance-as-a-business-model ""){.pg-brown}
 
-These recommendations for encrypted **real-time communication** are great for securing your sensitive communications. These instant messengers come in the form of many [types of communication networks](advanced/communication-network-types.md).
+這些加密**即時通訊**的建議對於保護您的敏感通訊非常有用。 這些即時通訊工具呈現為多種[通訊網路類型](advanced/communication-network-types.md)。
 
 [:material-movie-open-play-outline: Video: It's time to stop using SMS](https://www.privacyguides.org/videos/2025/01/24/its-time-to-stop-using-sms-heres-why ""){.md-button}
 
@@ -23,13 +23,13 @@ These recommendations for encrypted **real-time communication** are great for se
 
 ![Signal logo](assets/img/messengers/signal.svg){ align=right }
 
-**Signal** 是由Signal Messenger LLC開發的行動應用程式。 The app provides instant messaging and calls secured with the Signal protocol, an extremely secure encryption protocol which supports forward secrecy[^1] and post-compromise security.[^2]
+**Signal** 是由Signal Messenger LLC開發的行動應用程式。 該應用程式提供即時通訊與通話服務，並採用 Signal 協定進行加密保護。此協定具備極高安全性，支援前向保密性[^1]與遭入侵後的安全性保障[^2]。
 
-[:octicons-home-16: Homepage](https://signal.org){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://signal.org/legal/#privacy-policy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://support.signal.org){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/signalapp){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://signal.org/donate){ .card-link title="Contribute" }
+[:octicons-home-16: 首頁](https://signal.org){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://signal.org/legal/#privacy-policy){ .card-link title="隱私權政策" }
+[:octicons-info-16:](https://support.signal.org){ .card-link title="文件" }
+[:octicons-code-16:](https://github.com/signalapp){ .card-link title="原始碼" }
+[:octicons-heart-16:](https://signal.org/donate){ .card-link title="貢獻" }
 
 <details class="downloads" markdown>
 <summary>下載</summary>
@@ -46,23 +46,23 @@ These recommendations for encrypted **real-time communication** are great for se
 
 </div>
 
-Signal requires your phone number for registration, however you should create a username to hide your phone number from your contacts:
+Signal 註冊時需要您的電話號碼，但您應建立使用者名稱以隱藏您的電話號碼，使其不被聯絡人看見：
 
 1. 在 Signal 中，打開應用程式的設定並點擊上方的帳戶個人資料。
 2. 點選**使用者名稱**，然後在「設定您的 Signal 使用者名稱」畫面上選擇**繼續**。
-3. 輸入一個使用者名稱 Your username will always be paired with a unique set of digits to keep your username unique and prevent people from guessing it. For example if you enter "John" your username might end up being `@john.35`. 根據預設設定，當您建立使用者名稱時，只有 2 位數字會與使用者名稱配對，但您可以增加更多位數，直到達到使用者名稱的長度限制 (32 個字元)。
+3. 輸入一個使用者名稱 您的使用者名稱將一律與一組獨特的數字配對，以確保使用者名稱的唯一性，並防止他人猜測。 例如，如果您輸入「John」，您的使用者名稱可能會變成 `@john.35`。 根據預設設定，當您建立使用者名稱時，只有 2 位數字會與使用者名稱配對，但您可以增加更多位數，直到達到使用者名稱的長度限制 (32 個字元)。
 4. 返回系統應用程式設定頁面並選擇**隱私權**。
-5. Select **Phone Number**.
-6. Change the **Who Can See My Number** setting to **Nobody**.
-7. (Optional) Change the **Who Can Find Me By Number** setting to **Nobody** as well, if you want to prevent people who already have your phone number from discovering your Signal account/username
+5. 選取**電話號碼**。
+6. 將**誰可以看見我的號碼**設定變更為**沒有人**。
+7. （選擇性）若想防止知道您手機號碼的人找到您的 Signal 帳號或使用者名稱，也可以將**誰可以找到我的號碼**設定變更為**沒有人**
 
-We have some additional tips on configuring and hardening your Signal installation:
+我們針對設定與強化您的 Signal 安裝提供以下額外建議：
 
-[Signal Configuration and Hardening :material-arrow-right-drop-circle:](https://blog.privacyguides.org/2022/07/07/signal-configuration-and-hardening)
+[Signal 組態與安全性強化 :material-arrow-right-drop-circle:](https://blog.privacyguides.org/2022/07/07/signal-configuration-and-hardening)
 
-Contact lists on Signal are encrypted using your Signal PIN and the server does not have access to them. Personal profiles are also encrypted and only shared with contacts you chat with.
+聯絡人清單會使用您的 Signal PIN 加密，而伺服器無法存取。 個人資料也會加密，僅與您聊天的聯絡人分享。
 
-Signal supports [private groups](https://signal.org/blog/signal-private-group-system), where the server has no record of your group memberships, group titles, group avatars, or group attributes. Signal has minimal metadata when [Sealed Sender](https://signal.org/blog/sealed-sender) is enabled. The sender address is encrypted along with the message body, and only the recipient address is visible to the server. Sealed Sender is only enabled for people in your contacts list, but can be enabled for all recipients with the increased risk of receiving spam.
+Signal 支援[私人群組](https://signal.org/blog/signal-private-group-system)，伺服器不會紀錄您群組的成員、標題、大頭照或屬性。 啟用[密封寄件者](https://signal.org/blog/sealed-sender)時，Signal 的中介資料最少。 The sender address is encrypted along with the message body, and only the recipient address is visible to the server. Sealed Sender is only enabled for people in your contacts list, but can be enabled for all recipients with the increased risk of receiving spam.
 
 The protocol was independently [audited](https://eprint.iacr.org/2016/1013.pdf) in 2016. The specification for the Signal protocol can be found in their [documentation](https://signal.org/docs).
 
