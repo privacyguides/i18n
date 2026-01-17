@@ -1,6 +1,6 @@
 ---
 title: Mobiele telefoons
-icon: materiaal/cellphone-check
+icon: material/cellphone-check
 description: Deze mobiele apparaten bieden de beste hardwarebeveiligingsondersteuning voor aangepaste Android-besturingssystemen.
 cover: android.webp
 schema:
