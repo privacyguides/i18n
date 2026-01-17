@@ -86,7 +86,7 @@ Komitet wykonawczy projektu składa się z pięciu wolontariuszy odpowiedzialnyc
 
   ---
 
-  :material-text-account: Founder, Program Director
+  :material-text-account: Założyciel, dyrektor programowy
 
   [:material-account: Profil](https://discuss.privacyguides.net/u/jonah)
 
@@ -130,7 +130,7 @@ Nasz zespół jest opłacany za tworzenie materiałów dodatkowych dla Privacy G
 
   ---
 
-  :material-text-account: Staff Writer
+  :material-text-account: Redaktorka
 
   [:material-account: Profil](https://discuss.privacyguides.net/u/em)
 
@@ -142,7 +142,7 @@ Nasz zespół jest opłacany za tworzenie materiałów dodatkowych dla Privacy G
 
   ---
 
-  :material-text-account: Digital Content Producer
+  :material-text-account: Produkcja treści cyfrowych
 
   [:material-account: Profil](https://discuss.privacyguides.net/u/Jordan)
 
@@ -166,13 +166,13 @@ Nasz zespół jest opłacany za tworzenie materiałów dodatkowych dla Privacy G
 
   ---
 
-  :material-text-account: Digital Content Producer
+  :material-text-account: Producent treści cyfrowych
 
   [:material-account: Profile](https://discuss.privacyguides.net/u/nateb)
 
   [:material-github:](https://github.com/tnonate "GitHub")
   [:material-mastodon:](https://mastodon.thenewoil.org/@nateb "@nateb@mastodon.thenewoil.org"){rel=me}
-  [:material-email:](mailto:nate@privacyguides.org "Email")
+  [:material-email:](mailto:nate@privacyguides.org "E-mail")
 
 </div>
 
@@ -227,9 +227,9 @@ Dodatkowo uruchomiliśmy nowe forum dyskusyjne pod adresem [discuss.privacyguide
 
 W 2023 roku udostępniliśmy międzynarodowe tłumaczenia strony na język [francuski](https://www.privacyguides.org/fr), [hebrajski](https://www.privacyguides.org/he), [niderlandzki](https://www.privacyguides.org/nl) i inne języki, co było możliwe dzięki naszemu znakomitemu zespołowi tłumaczy na [Crowdin](https://crowdin.com/project/privacyguides).
 
-In 2024, we successfully fundraised to hire several full-time staff members, Em, Jordan, and Kevin; to help with content creation, community management, and video production. This has allowed us to expand our reach and provide more frequent updates to our audience.
+W 2024 roku udało nam się zebrać fundusze, które pozwoliły zatrudnić kilku pełnoetatowych osób pracowniczych: Em, Jordan i Kevin — aby pomóc w tworzeniu treści, zarządzaniu społecznością oraz produkcji materiałów wideo. Dzięki temu zwiększyliśmy zasięg i zaczęliśmy dostarczać naszym odbiorcom częstsze aktualizacje.
 
-In 2025, we launched our [newsroom](https://www.privacyguides.org/news), providing timely articles on the latest developments in privacy and security. We also hired Nate as a Digital Content Producer to bring more consistency to our educational video content.
+W 2025 roku uruchomiliśmy nasz [newsroom](https://www.privacyguides.org/news), w którym publikujemy aktualne artykuły na temat najnowszych osiągnięć w dziedzinie prywatności i bezpieczeństwa. Zatrudniliśmy też Nate’a na stanowisku producenta treści cyfrowych, by nadać większą spójność naszym edukacyjnym materiałom wideo.
 
 Planujemy kontynuować misję edukacji i popularyzacji wiedzy oraz poszukiwać sposobów wyraźniejszego uwypuklania zagrożeń wynikających z braku świadomości prywatności we współczesnej erze cyfrowej oraz skali i skutków naruszeń bezpieczeństwa w branży technologicznej.
 
