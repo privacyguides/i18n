@@ -177,21 +177,21 @@ Briar 已經完全[公佈規格](https://code.briarproject.org/briar/briar-spec)
 
 - 必須要有開放原始碼。
 - 不得要求使用者與聯絡人分享個人資訊（特別是電話號碼或電子郵件）。
-- Must use E2EE for private messages by default.
-- Must support E2EE for all messages.
-- Must support forward secrecy[^1]
+- 必須在私人訊息預設使用端到端加密。
+- 必須對所有訊息都支援端到端加密。
+- 必須支援前向保密[^1]
 - 必須由信譽良好的獨立第三方進行公開審核。
 
 ### 最佳情況
 
 最佳情況標準代表我們希望在這個類別的完美項目的應具備的特性。 推薦產品可能沒有此功能，但若有這些功能則會讓排名更為提高。
 
-- Should support future secrecy (post-compromise security)[^2]
-- Should have open-source servers.
-- Should use a decentralized network, i.e. [federated or P2P](advanced/communication-network-types.md).
-- Should use E2EE for all messages by default.
-- Should support Linux, macOS, Windows, Android, and iOS.
-[^3]: You may refer to this step-by-step tutorial in German on how to set up UnifiedPush as the notification provider for Molly: [https://kuketz-blog.de/messenger-wechsel-von-signal-zu-molly-unifiedpush-mollysocket-ntfy](https://kuketz-blog.de/messenger-wechsel-von-signal-zu-molly-unifiedpush-mollysocket-ntfy).
+- 應支援未來保密（入侵後安全）[^2]
+- 應有開放原始碼伺服器。
+- 應使用去中心化網路，例如[聯邦式或 P2P](advanced/communication-network-types.md)。
+- 預設情況下，所有訊息皆應使用端到端加密。
+- 應支援 Linux、macOS、Windows、Android 與 iOS。
+[^3]: 您可參考這份德文版逐步教學，了解如何將 UnifiedPush 設定為 Molly 的通知提供者： [https://kuketz-blog.de/messenger-wechsel-von-signal-zu-molly-unifiedpush-mollysocket-ntfy](https://kuketz-blog.de/messenger-wechsel-von-signal-zu-molly-unifiedpush-mollysocket-ntfy)。
 
-[^1]: [Forward secrecy](https://en.wikipedia.org/wiki/Forward_secrecy) is where keys are rotated very frequently, so that if the current encryption key is compromised, it does not expose **past** messages as well.
-[^2]: Future secrecy (or [post-compromise security](https://eprint.iacr.org/2016/221.pdf)) is a feature where an attacker is prevented from decrypting **future** messages after compromising a private key, unless they compromise more session keys in the future as well. This effectively forces the attacker to intercept all communication between parties since they lose access as soon as a key exchange occurs that is not intercepted.
+[^1]: [前向保密](https://en.wikipedia.org/wiki/Forward_secrecy)是指頻繁輪替金鑰，如此一來即使目前的加密金鑰遭洩露，亦不會同時暴露**過往**的訊息。
+[^2]: 未來保密性（或[入侵後安全性](https://eprint.iacr.org/2016/221.pdf)）是一項機制，即使攻擊者已取得私鑰，仍無法解密**未來**的訊息，除非該攻擊者未來能同時取得更多工作階段金鑰。 這實際上迫使攻擊者必須攔截所有通訊方之間的通訊，因為只要發生未被攔截的金鑰交換，攻擊者便會立即喪失存取權。
