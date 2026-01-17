@@ -86,7 +86,7 @@ El comité ejecutivo del proyecto está conformado por cinco voluntarios encarga
 
   ---
 
-  :material-text-account: Fundador, Director
+  :material-text-account: Founder, Program Director
 
   [:material-account: Perfil](https://discuss.privacyguides.net/u/jonah)
 
@@ -130,7 +130,7 @@ Nuestro personal recibe una remuneración por contribuir a los contenidos comple
 
   ---
 
-  :material-text-account: Periodista
+  :material-text-account: Staff Writer
 
   [:material-account: Perfil](https://discuss.privacyguides.net/u/em)
 
@@ -142,7 +142,7 @@ Nuestro personal recibe una remuneración por contribuir a los contenidos comple
 
   ---
 
-  :material-text-account: Productor de Contenido
+  :material-text-account: Digital Content Producer
 
   [:material-account: Perfil](https://discuss.privacyguides.net/u/Jordan)
 
@@ -161,6 +161,18 @@ Nuestro personal recibe una remuneración por contribuir a los contenidos comple
   [:material-github:](https://github.com/kevpham123 "GitHub")
   [:material-mastodon:](https://mastodon.social/@kevpham "@kevpham@mastodon.social"){rel=me}
   [:material-email:](mailto:kevin@privacyguides.org "Correo Electrónico")
+
+- :video_camera:{ .lg .middle } **Nate Bartram**
+
+  ---
+
+  :material-text-account: Digital Content Producer
+
+  [:material-account: Profile](https://discuss.privacyguides.net/u/nateb)
+
+  [:material-github:](https://github.com/tnonate "GitHub")
+  [:material-mastodon:](https://mastodon.thenewoil.org/@nateb "@nateb@mastodon.thenewoil.org"){rel=me}
+  [:material-email:](mailto:nate@privacyguides.org "Email")
 
 </div>
 
@@ -186,6 +198,8 @@ Sin embargo, Privacy Guides _tiene_ cuentas de redes sociales en una amplia vari
 - [:simple-youtube: YouTube](https://youtube.com/@privacyguides)
 - [:simple-tiktok: TikTok](https://www.tiktok.com/@privacyguides)
 - [:simple-facebook: Facebook](https://www.facebook.com/PrivacyGuides.org)
+- [:simple-instagram: Instagram](https://www.instagram.com/privacy.guides/)
+- [:simple-threads: Threads](https://www.threads.net/@privacy.guides)
 
 </div>
 
@@ -211,7 +225,13 @@ En 2022, completamos la transición de nuestro principal marco web de Jekyll a M
 
 Además, lanzamos nuestro nuevo foro de debate en [discuss.privacyguides.net](https://discuss.privacyguides.net) como plataforma comunitaria para compartir ideas y plantear preguntas sobre nuestra misión. Esto aumenta nuestra comunidad existente en Matrix y sustituye a nuestra anterior plataforma GitHub Discussions, disminuyendo nuestra dependencia de plataformas de debate propietarias.
 
-En 2023, lanzamos traducciones internacionales de nuestro sitio web en [francés](https://www.privacyguides.org/fr), [hebreo](https://www.privacyguides.org/he), [neerlandés](https://www.privacyguides.org/nl) y más idiomas, gracias a nuestro excelente equipo de traducción en [Crowdin](https://crowdin.com/project/privacyguides). Tenemos previsto seguir adelante con nuestra misión de divulgación y educación, y buscar formas de poner de relieve con mayor claridad los peligros de la falta de concienciación sobre la privacidad en la era digital moderna, así como la prevalencia y los perjuicios de las brechas de seguridad en todo el sector tecnológico.
+En 2023, lanzamos traducciones internacionales de nuestro sitio web en [francés](https://www.privacyguides.org/fr), [hebreo](https://www.privacyguides.org/he), [neerlandés](https://www.privacyguides.org/nl) y más idiomas, gracias a nuestro excelente equipo de traducción en [Crowdin](https://crowdin.com/project/privacyguides).
+
+In 2024, we successfully fundraised to hire several full-time staff members, Em, Jordan, and Kevin; to help with content creation, community management, and video production. This has allowed us to expand our reach and provide more frequent updates to our audience.
+
+In 2025, we launched our [newsroom](https://www.privacyguides.org/news), providing timely articles on the latest developments in privacy and security. We also hired Nate as a Digital Content Producer to bring more consistency to our educational video content.
+
+Tenemos previsto seguir adelante con nuestra misión de divulgación y educación, y buscar formas de poner de relieve con mayor claridad los peligros de la falta de concienciación sobre la privacidad en la era digital moderna, así como la prevalencia y los perjuicios de las brechas de seguridad en todo el sector tecnológico.
 
 ## :material-license: Licencia del Sitio
 

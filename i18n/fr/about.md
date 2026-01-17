@@ -86,7 +86,7 @@ Le comité exécutif du projet est composé de cinq bénévoles chargés de gér
 
   ---
 
-  :material-text-account: Fondateur, Directeur
+  :material-text-account: Founder, Program Director
 
   [:material-account: Profil](https://discuss.privacyguides.net/u/jonah)
 
@@ -130,7 +130,7 @@ Notre personnel est rémunéré pour contribuer au contenu supplémentaire à Pr
 
   ---
 
-  :material-text-account: Journaliste
+  :material-text-account: Staff Writer
 
   [:material-account: Profile](https://discuss.privacyguides.net/u/em)
 
@@ -142,7 +142,7 @@ Notre personnel est rémunéré pour contribuer au contenu supplémentaire à Pr
 
   ---
 
-  :material-text-account: Producteur de contenu
+  :material-text-account: Digital Content Producer
 
   [:material-account: Profile](https://discuss.privacyguides.net/u/Jordan)
 
@@ -161,6 +161,18 @@ Notre personnel est rémunéré pour contribuer au contenu supplémentaire à Pr
   [:material-github:](https://github.com/kevpham123 "GitHub")
   [:material-mastodon:](https://mastodon.social/@kevpham "@kevpham@mastodon.social"){rel=me}
   [:material-email:](mailto:kevin@privacyguides.org "Email")
+
+- :video_camera:{ .lg .middle } **Nate Bartram**
+
+  ---
+
+  :material-text-account: Digital Content Producer
+
+  [:material-account: Profile](https://discuss.privacyguides.net/u/nateb)
+
+  [:material-github:](https://github.com/tnonate "GitHub")
+  [:material-mastodon:](https://mastodon.thenewoil.org/@nateb "@nateb@mastodon.thenewoil.org"){rel=me}
+  [:material-email:](mailto:nate@privacyguides.org "Email")
 
 </div>
 
@@ -186,6 +198,8 @@ Cependant, Privacy Guides possède des comptes de réseaux sociaux sur une grand
 - [:simple-youtube: YouTube](https://youtube.com/@privacyguides)
 - [:simple-tiktok: TikTok](https://www.tiktok.com/@privacyguides)
 - [:simple-facebook: Facebook](https://www.facebook.com/PrivacyGuides.org)
+- [:simple-instagram: Instagram](https://www.instagram.com/privacy.guides/)
+- [:simple-threads: Threads](https://www.threads.net/@privacy.guides)
 
 </div>
 
@@ -211,7 +225,13 @@ En 2022, nous avons achevé la transition de l'environnement de site web princip
 
 Nous avons également lancé notre nouveau forum de discussion sur [discuss.privacyguides.net](https://discuss.privacyguides.net) comme plateforme communautaire pour partager des idées et poser des questions sur notre mission. Cela complète notre communauté existante sur Matrix et remplace notre précédente plate-forme de Discussions GitHub, réduisant ainsi notre dépendance aux plateformes de discussion propriétaires.
 
-En 2023, nous avons lancé des traductions internationales de notre site web en [français](https://www.privacyguides.org/fr), [hébreu](https://www.privacyguides.org/he), [néerlandais](https://www.privacyguides.org/nl), et dans d'autres langues, grâce à notre excellente équipe de traduction sur [Crowdin](https://crowdin.com/project/privacyguides). Nous avons l'intention de poursuivre notre mission de sensibilisation et d'éducation, et trouver des moyens de mieux mettre en évidence les dangers d'un manque de sensibilisation à la protection de la vie privée à l'ère numérique moderne, et la prévalence et les conséquences des failles de sécurité dans l'industrie de la technologie.
+En 2023, nous avons lancé des traductions internationales de notre site web en [français](https://www.privacyguides.org/fr), [hébreu](https://www.privacyguides.org/he), [néerlandais](https://www.privacyguides.org/nl), et dans d'autres langues, grâce à notre excellente équipe de traduction sur [Crowdin](https://crowdin.com/project/privacyguides).
+
+In 2024, we successfully fundraised to hire several full-time staff members, Em, Jordan, and Kevin; to help with content creation, community management, and video production. This has allowed us to expand our reach and provide more frequent updates to our audience.
+
+In 2025, we launched our [newsroom](https://www.privacyguides.org/news), providing timely articles on the latest developments in privacy and security. We also hired Nate as a Digital Content Producer to bring more consistency to our educational video content.
+
+Nous avons l'intention de poursuivre notre mission de sensibilisation et d'éducation, et trouver des moyens de mieux mettre en évidence les dangers d'un manque de sensibilisation à la protection de la vie privée à l'ère numérique moderne, et la prévalence et les conséquences des failles de sécurité dans l'industrie de la technologie.
 
 ## :material-license: Licence de site
 

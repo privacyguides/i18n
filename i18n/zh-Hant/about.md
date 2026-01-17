@@ -86,7 +86,7 @@ If you need an alternative secure channel, please request one via any contact me
 
   ---
 
-  :material-text-account: 創辦人、主任
+  :material-text-account: Founder, Program Director
 
   [:material-account: 個人資料](https://discuss.privacyguides.net/u/jonah)
 
@@ -130,7 +130,7 @@ Our staff are paid to contribute to supplemental content at Privacy Guides, like
 
   ---
 
-  :material-text-account: Journalist
+  :material-text-account: Staff Writer
 
   [:material-account: Profile](https://discuss.privacyguides.net/u/em)
 
@@ -142,7 +142,7 @@ Our staff are paid to contribute to supplemental content at Privacy Guides, like
 
   ---
 
-  :material-text-account: Content Producer
+  :material-text-account: Digital Content Producer
 
   [:material-account: Profile](https://discuss.privacyguides.net/u/Jordan)
 
@@ -161,6 +161,18 @@ Our staff are paid to contribute to supplemental content at Privacy Guides, like
   [:material-github:](https://github.com/kevpham123 "GitHub")
   [:material-mastodon:](https://mastodon.social/@kevpham "@kevpham@mastodon.social"){rel=me}
   [:material-email:](mailto:kevin@privacyguides.org "Email")
+
+- :video_camera:{ .lg .middle } **Nate Bartram**
+
+  ---
+
+  :material-text-account: Digital Content Producer
+
+  [:material-account: Profile](https://discuss.privacyguides.net/u/nateb)
+
+  [:material-github:](https://github.com/tnonate "GitHub")
+  [:material-mastodon:](https://mastodon.thenewoil.org/@nateb "@nateb@mastodon.thenewoil.org"){rel=me}
+  [:material-email:](mailto:nate@privacyguides.org "Email")
 
 </div>
 
@@ -186,6 +198,8 @@ However, Privacy Guides _does_ have social media accounts on a wide variety of p
 - [:simple-youtube: YouTube](https://youtube.com/@privacyguides)
 - [:simple-tiktok: TikTok](https://www.tiktok.com/@privacyguides)
 - [:simple-facebook: Facebook](https://www.facebook.com/PrivacyGuides.org)
+- [:simple-instagram: Instagram](https://www.instagram.com/privacy.guides/)
+- [:simple-threads: Threads](https://www.threads.net/@privacy.guides)
 
 </div>
 
@@ -211,7 +225,13 @@ Privacy Guides 於 2021 年 9 月推出，是 [已解散](about/privacytools.md)
 
 我們還推出了新的討論論壇 [discuss.privacyguides.net](https://discuss.privacyguides.net) ，一個可以分享想法並詢問有關我們使命之問題的社區平臺。 這可擴大我們在 Matrix 上的現有社群，並取代我們先前的 GitHub 討論平台，減少我們對專有討論平台的依賴。
 
-In 2023, we launched international translations of our website in [French](https://www.privacyguides.org/fr), [Hebrew](https://www.privacyguides.org/he), [Dutch](https://www.privacyguides.org/nl), and more languages, made possible by our excellent translation team on [Crowdin](https://crowdin.com/project/privacyguides). 我們計劃繼續擴大我們的服務範圍並發揚教育使命，並尋找方法更清楚地突顯現代數位時代的人們缺乏隱私意識的危險，以及科技產業安全漏洞的普遍性和危害。
+In 2023, we launched international translations of our website in [French](https://www.privacyguides.org/fr), [Hebrew](https://www.privacyguides.org/he), [Dutch](https://www.privacyguides.org/nl), and more languages, made possible by our excellent translation team on [Crowdin](https://crowdin.com/project/privacyguides).
+
+In 2024, we successfully fundraised to hire several full-time staff members, Em, Jordan, and Kevin; to help with content creation, community management, and video production. This has allowed us to expand our reach and provide more frequent updates to our audience.
+
+In 2025, we launched our [newsroom](https://www.privacyguides.org/news), providing timely articles on the latest developments in privacy and security. We also hired Nate as a Digital Content Producer to bring more consistency to our educational video content.
+
+我們計劃繼續擴大我們的服務範圍並發揚教育使命，並尋找方法更清楚地突顯現代數位時代的人們缺乏隱私意識的危險，以及科技產業安全漏洞的普遍性和危害。
 
 ## :material-license: Site License
 

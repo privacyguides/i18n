@@ -86,7 +86,7 @@ Komitet wykonawczy projektu składa się z pięciu wolontariuszy odpowiedzialnyc
 
   ---
 
-  :material-text-account: Założyciel, dyrektor
+  :material-text-account: Founder, Program Director
 
   [:material-account: Profil](https://discuss.privacyguides.net/u/jonah)
 
@@ -130,7 +130,7 @@ Nasz zespół jest opłacany za tworzenie materiałów dodatkowych dla Privacy G
 
   ---
 
-  :material-text-account: Dziennikarka
+  :material-text-account: Staff Writer
 
   [:material-account: Profil](https://discuss.privacyguides.net/u/em)
 
@@ -142,7 +142,7 @@ Nasz zespół jest opłacany za tworzenie materiałów dodatkowych dla Privacy G
 
   ---
 
-  :material-text-account: Produkcja treści
+  :material-text-account: Digital Content Producer
 
   [:material-account: Profil](https://discuss.privacyguides.net/u/Jordan)
 
@@ -161,6 +161,18 @@ Nasz zespół jest opłacany za tworzenie materiałów dodatkowych dla Privacy G
   [:material-github:](https://github.com/kevpham123 "GitHub")
   [:material-mastodon:](https://mastodon.social/@kevpham "@kevpham@mastodon.social"){rel=me}
   [:material-email:](mailto:kevin@privacyguides.org "E-mail")
+
+- :video_camera:{ .lg .middle } **Nate Bartram**
+
+  ---
+
+  :material-text-account: Digital Content Producer
+
+  [:material-account: Profile](https://discuss.privacyguides.net/u/nateb)
+
+  [:material-github:](https://github.com/tnonate "GitHub")
+  [:material-mastodon:](https://mastodon.thenewoil.org/@nateb "@nateb@mastodon.thenewoil.org"){rel=me}
+  [:material-email:](mailto:nate@privacyguides.org "Email")
 
 </div>
 
@@ -186,6 +198,8 @@ Jednak Privacy Guides _posiada_ konta w mediach społecznościowych na wielu ró
 - [:simple-youtube: YouTube](https://youtube.com/@privacyguides)
 - [:simple-tiktok: TikTok](https://www.tiktok.com/@privacyguides)
 - [:simple-facebook: Facebook](https://www.facebook.com/PrivacyGuides.org)
+- [:simple-instagram: Instagram](https://www.instagram.com/privacy.guides/)
+- [:simple-threads: Threads](https://www.threads.net/@privacy.guides)
 
 </div>
 
@@ -211,7 +225,13 @@ W 2022 roku zakończyliśmy migrację głównego frameworka strony z Jekyll do M
 
 Dodatkowo uruchomiliśmy nowe forum dyskusyjne pod adresem [discuss.privacyguides.net](https://discuss.privacyguides.net) jako platformę społecznościową do dzielenia się pomysłami i zadawania pytań dotyczących naszej misji. Forum to uzupełnia istniejącą społeczność na Matrix i zastąpiło poprzednią platformę GitHub Discussions, zmniejszając naszą zależność od zamkniętych platform dyskusyjnych.
 
-W 2023 roku udostępniliśmy międzynarodowe tłumaczenia strony na język [francuski](https://www.privacyguides.org/fr), [hebrajski](https://www.privacyguides.org/he), [niderlandzki](https://www.privacyguides.org/nl) i inne języki, co było możliwe dzięki naszemu znakomitemu zespołowi tłumaczy na [Crowdin](https://crowdin.com/project/privacyguides). Planujemy kontynuować misję edukacji i popularyzacji wiedzy oraz poszukiwać sposobów wyraźniejszego uwypuklania zagrożeń wynikających z braku świadomości prywatności we współczesnej erze cyfrowej oraz skali i skutków naruszeń bezpieczeństwa w branży technologicznej.
+W 2023 roku udostępniliśmy międzynarodowe tłumaczenia strony na język [francuski](https://www.privacyguides.org/fr), [hebrajski](https://www.privacyguides.org/he), [niderlandzki](https://www.privacyguides.org/nl) i inne języki, co było możliwe dzięki naszemu znakomitemu zespołowi tłumaczy na [Crowdin](https://crowdin.com/project/privacyguides).
+
+In 2024, we successfully fundraised to hire several full-time staff members, Em, Jordan, and Kevin; to help with content creation, community management, and video production. This has allowed us to expand our reach and provide more frequent updates to our audience.
+
+In 2025, we launched our [newsroom](https://www.privacyguides.org/news), providing timely articles on the latest developments in privacy and security. We also hired Nate as a Digital Content Producer to bring more consistency to our educational video content.
+
+Planujemy kontynuować misję edukacji i popularyzacji wiedzy oraz poszukiwać sposobów wyraźniejszego uwypuklania zagrożeń wynikających z braku świadomości prywatności we współczesnej erze cyfrowej oraz skali i skutków naruszeń bezpieczeństwa w branży technologicznej.
 
 ## :material-license: Licencja serwisu
 

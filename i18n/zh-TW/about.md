@@ -86,7 +86,7 @@ Privacy Guides 是由世界各地的志工和工作人員建立的。 我們對�
 
   ---
 
-  :material-text-account: 創辦人、主任
+  :material-text-account: Founder, Program Director
 
   [:material-account: 個人資料](https://discuss.privacyguides.net/u/jonah)
 
@@ -130,7 +130,7 @@ Privacy Guides 是由世界各地的志工和工作人員建立的。 我們對�
 
   ---
 
-  :material-text-account: 創辦人
+  :material-text-account: Staff Writer
 
   [:material-account: 個人資料](https://discuss.privacyguides.net/u/em)
 
@@ -142,7 +142,7 @@ Privacy Guides 是由世界各地的志工和工作人員建立的。 我們對�
 
   ---
 
-  :material-text-account: 內容製作人
+  :material-text-account: Digital Content Producer
 
   [:material-account: 個人資料](https://discuss.privacyguides.net/u/Jordan)
 
@@ -161,6 +161,18 @@ Privacy Guides 是由世界各地的志工和工作人員建立的。 我們對�
   [:material-github:](https://github.com/kevpham123 "GitHub")
   [:material-mastodon:](https://mastodon.social/@kevpham "@kevpham@mastodon.social"){rel=me}
   [:material-email:](mailto:kevin@privacyguides.org "電子郵件")
+
+- :video_camera:{ .lg .middle } **Nate Bartram**
+
+  ---
+
+  :material-text-account: Digital Content Producer
+
+  [:material-account: Profile](https://discuss.privacyguides.net/u/nateb)
+
+  [:material-github:](https://github.com/tnonate "GitHub")
+  [:material-mastodon:](https://mastodon.thenewoil.org/@nateb "@nateb@mastodon.thenewoil.org"){rel=me}
+  [:material-email:](mailto:nate@privacyguides.org "Email")
 
 </div>
 
@@ -186,6 +198,8 @@ Privacy Guides 是由世界各地的志工和工作人員建立的。 我們對�
 - [:simple-youtube: YouTube](https://youtube.com/@privacyguides)
 - [:simple-tiktok: TikTok](https://www.tiktok.com/@privacyguides)
 - [:simple-facebook: Facebook](https://www.facebook.com/PrivacyGuides.org)
+- [:simple-instagram: Instagram](https://www.instagram.com/privacy.guides/)
+- [:simple-threads: Threads](https://www.threads.net/@privacy.guides)
 
 </div>
 
@@ -211,7 +225,13 @@ Privacy Guides 於 2021 年 9 月推出，是 [已解散](about/privacytools.md)
 
 我們還推出了新的討論論壇 [discuss.privacyguides.net](https://discuss.privacyguides.net) ，一個可以分享想法並詢問有關我們使命之問題的社區平臺。 這可擴大我們在 Matrix 上的現有社群，並取代我們先前的 GitHub 討論平台，減少我們對專有討論平台的依賴。
 
-2023年，我們推出了[法文](https://www.privacyguides.org/fr)、[希伯來文](https://www.privacyguides.org/he)、[荷蘭文](https://www.privacyguides.org/nl)以及更多語言的網站翻譯版本，這些都是由 [Crowdin](https://crowdin.com/project/privacyguides) 上的優秀翻譯團隊所促成的。 我們計劃繼續擴大我們的服務範圍並發揚教育使命，並尋找方法更清楚地突顯現代數位時代的人們缺乏隱私意識的危險，以及科技產業安全漏洞的普遍性和危害。
+2023年，我們推出了[法文](https://www.privacyguides.org/fr)、[希伯來文](https://www.privacyguides.org/he)、[荷蘭文](https://www.privacyguides.org/nl)以及更多語言的網站翻譯版本，這些都是由 [Crowdin](https://crowdin.com/project/privacyguides) 上的優秀翻譯團隊所促成的。
+
+In 2024, we successfully fundraised to hire several full-time staff members, Em, Jordan, and Kevin; to help with content creation, community management, and video production. This has allowed us to expand our reach and provide more frequent updates to our audience.
+
+In 2025, we launched our [newsroom](https://www.privacyguides.org/news), providing timely articles on the latest developments in privacy and security. We also hired Nate as a Digital Content Producer to bring more consistency to our educational video content.
+
+我們計劃繼續擴大我們的服務範圍並發揚教育使命，並尋找方法更清楚地突顯現代數位時代的人們缺乏隱私意識的危險，以及科技產業安全漏洞的普遍性和危害。
 
 ## :material-license: 網站授權條款
 
