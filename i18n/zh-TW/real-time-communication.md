@@ -95,19 +95,19 @@ Signal 支援[私人群組](https://signal.org/blog/signal-private-group-system)
 
 Molly 每兩週更新一次，以包含 Signal 的最新功能與錯誤修正。 安全問題是例外，這類問題會盡快進行修補。 話雖如此，您應當留意相較於上游系統可能存在些微延遲，這可能影響諸如[從 Signal 遷移至 Molly](https://github.com/mollyim/mollyim-android/wiki/Migrating-From-Signal#migrating-from-signal) 等操作。
 
-Note that you are trusting multiple parties by using Molly, as you now need to trust the Signal team *and* the Molly team to deliver safe and timely updates.
+請注意，使用 Molly 意味著您需要多方信任，您現在必須信任 Signal 團隊*以及* Molly 團隊，以確保能安全且及時地接收更新。
 
-**Molly-FOSS** is a version of Molly which removes proprietary code like the Google services used by both Signal and Molly at the expense of some features (like battery-saving push notifications via Google Play Services). You can set up push notifications without Google Play Services in either version of Molly with [UnifiedPush](https://unifiedpush.org). Using this notification delivery method requires access to a [MollySocket](https://github.com/mollyim/mollysocket) server, but you can choose a public MollySocket instance for this.[^3]
+**Molly-FOSS** 是 Molly 的改版，移除了如 Google 服務等專有程式碼（此類服務同時被 Signal 與 Molly 所採用），但代價是犧牲部分功能（例如透過 Google Play 服務實現的省電推播通知）。 無論使用哪個版本的 Molly，您皆可透過 [UnifiedPush](https://unifiedpush.org) 設定無需 Google Play 服務的推播通知。 使用此通知傳遞方式需存取 [MollySocket](https://github.com/mollyim/mollysocket) 伺服器，但您可選擇使用公開的 MollySocket 站台。[^3]
 
-Both versions of Molly provide the same security improvements and support [reproducible builds](https://github.com/mollyim/mollyim-android/tree/main/reproducible-builds), meaning it's possible to confirm that the compiled APKs match the source code.
+兩個版本的 Molly 皆提供相同的安全性強化措施，並支援[可重現的建置](https://github.com/mollyim/mollyim-android/tree/main/reproducible-builds)，這意味著可確認編譯後的 APK 檔案與原始碼完全一致。
 
-## SimpleX Chat
+## SimpleX 聊天
 
 <div class="admonition recommendation" markdown>
 
-![SimpleX Chat logo](assets/img/messengers/simplex.svg){ align=right }
+![SimpleX 聊天](assets/img/messengers/simplex.svg){ align=right }
 
-**SimpleX Chat** is an instant messenger that doesn't depend on any unique identifiers such as phone numbers or usernames. 其分佈式網路使 SimpleX Chat 成為對抗 [:material-close-outline: 審查](basics/common-threats.md#avoiding-censorship){ .pg-blue-gray } 的有效工具。
+**SimpleX 聊天**是一款即時通訊軟體，其運作不依賴任何唯一識別碼，例如電話號碼或使用者名稱。 其分佈式網路使 SimpleX Chat 成為對抗 [:material-close-outline: 審查](basics/common-threats.md#avoiding-censorship){ .pg-blue-gray } 的有效工具。
 
 [:octicons-home-16: 首頁](https://simplex.chat){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://simplex.chat/privacy){ .card-link title="隱私權政策" }
@@ -115,7 +115,7 @@ Both versions of Molly provide the same security improvements and support [repro
 [:octicons-code-16:](https://github.com/simplex-chat){ .card-link title="原始碼" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>下載</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=chat.simplex.app)
 - [:simple-appstore: App Store](https://apps.apple.com/app/id1605771084)
@@ -129,27 +129,27 @@ Both versions of Molly provide the same security improvements and support [repro
 
 </div>
 
-SimpleX Chat provides direct messaging, group chats, and E2EE calls secured with the [SimpleX Messaging Protocol](https://github.com/simplex-chat/simplexmq/blob/stable/protocol/simplex-messaging.md), which uses double ratchet encryption with quantum resistance. Additionally, SimpleX Chat provides metadata protection by using unidirectional ["simplex queues"](https://github.com/simplex-chat/simplexmq/blob/stable/protocol/simplex-messaging.md#simplex-queue) to deliver messages.
+SimpleX 聊天提供直接訊息傳遞、群組聊天及端對端加密通話功能，其安全性由 [SimpleX 訊息傳輸協定](https://github.com/simplex-chat/simplexmq/blob/stable/protocol/simplex-messaging.md)保障，該協定採用具量子抗性之雙重棘輪加密技術。 此外，SimpleX 聊天透過採用單向的[「simplex 佇列」](https://github.com/simplex-chat/simplexmq/blob/stable/protocol/simplex-messaging.md#simplex-queue)傳遞訊息，提供中介資料保護功能。
 
-To participate in conversations on SimpleX Chat, you must scan a QR code or click an invite link. This allows you to verify a contact out-of-band, which protects against man-in-the-middle attacks by network providers. Your data can be exported and imported onto another device, as there are no central servers where this is backed up.
+要參與 SimpleX 聊天上的對話，您必須掃描 QR code 或按一下邀請連結。 這使您能夠透過其他管道驗證聯絡人，從而防範網路供應商發動的中間人攻擊。 您的資料可匯出並匯入至其他裝置，因為並無中央伺服器進行備份。
 
-You can find a full list of the privacy and security [features](https://github.com/simplex-chat/simplex-chat#privacy-and-security-technical-details-and-limitations) implemented in SimpleX Chat in the app's repository.
+您可以在應用程式的儲存庫中查閱 SimpleX 聊天實作的完整隱私與安全[功能清單](https://github.com/simplex-chat/simplex-chat#privacy-and-security-technical-details-and-limitations)。
 
-SimpleX Chat was independently audited in [July 2024](https://simplex.chat/blog/20241014-simplex-network-v6-1-security-review-better-calls-user-experience.html#simplex-cryptographic-design-review-by-trail-of-bits) and in [October 2022](https://simplex.chat/blog/20221108-simplex-chat-v4.2-security-audit-new-website).
+SimpleX Chat 於[2024年7月](https://simplex.chat/blog/20241014-simplex-network-v6-1-security-review-better-calls-user-experience.html#simplex-cryptographic-design-review-by-trail-of-bits)及[2022年10月](https://simplex.chat/blog/20221108-simplex-chat-v4.2-security-audit-new-website)進行獨立稽核。
 
 ## Briar
 
 <div class="admonition recommendation" markdown>
 
-![Briar logo](assets/img/messengers/briar.svg){ align=right }
+![Briar 標誌](assets/img/messengers/briar.svg){ align=right }
 
-**Briar** is an encrypted instant messenger that [connects](https://briarproject.org/how-it-works) to other clients using the [Tor network](alternative-networks.md#tor), making it an effective tool at circumventing [:material-close-outline: Censorship](basics/common-threats.md#avoiding-censorship){ .pg-blue-gray }. Briar 還可以使用鄰近 Wi-Fi 或藍牙連接。 當無法使用網際網路時， Briar 的本地網格（mesh）模式可能很有用。
+**Briar** 是一款加密即時通訊軟體，透過 [Tor 網路](alternative-networks.md#tor)與其他客戶端建立連線，使其成為有效繞過[:material-close-outline: 審查制度](basics/common-threats.md#avoiding-censorship){ .pg-blue-gray }。 Briar 還可以使用鄰近 Wi-Fi 或藍牙連接。 當無法使用網際網路時， Briar 的本地網格（mesh）模式可能很有用。
 
-[:octicons-home-16: Homepage](https://briarproject.org){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://briarproject.org/privacy-policy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://code.briarproject.org/briar/briar/-/wikis/home){ .card-link title="Documentation" }
-[:octicons-code-16:](https://code.briarproject.org/briar/briar){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://code.briarproject.org/briar/briar#donate){ .card-link title="Contribute" }
+[:octicons-home-16: 首頁](https://briarproject.org){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://briarproject.org/privacy-policy){ .card-link title="隱私權政策" }
+[:octicons-info-16:](https://code.briarproject.org/briar/briar/-/wikis/home){ .card-link title="文件" }
+[:octicons-code-16:](https://code.briarproject.org/briar/briar){ .card-link title="原始碼" }
+[:octicons-heart-16:](https://code.briarproject.org/briar/briar#donate){ .card-link title="貢獻" }
 
 <details class="downloads" markdown>
 <summary>下載</summary>
@@ -163,11 +163,11 @@ SimpleX Chat was independently audited in [July 2024](https://simplex.chat/blog/
 
 </div>
 
-To add a contact on Briar, you must both add each other first. You can either exchange `briar://` links or scan a contact’s QR code if they are nearby.
+要在 Briar 上新增聯絡人，雙方必須先互相新增對方。 您可以交換 `briar://` 連結或掃描聯絡人的 QR code（如果他們在附近的話）。
 
-Briar has a fully [published specification](https://code.briarproject.org/briar/briar-spec). Briar supports forward secrecy[^1] by using the Bramble [Handshake](https://code.briarproject.org/briar/briar-spec/blob/master/protocols/BHP.md) and [Transport](https://code.briarproject.org/briar/briar-spec/blob/master/protocols/BTP.md) protocol.
+Briar 已經完全[公佈規格](https://code.briarproject.org/briar/briar-spec)。 Briar 透過使用 Bramble [握手](https://code.briarproject.org/briar/briar-spec/blob/master/protocols/BHP.md)及[傳輸](https://code.briarproject.org/briar/briar-spec/blob/master/protocols/BTP.md)協定實作前向保密[^1]。
 
-The client software was independently [audited](https://briarproject.org/news/2017-beta-released-security-audit), and the anonymous routing protocol uses the Tor network which has also been audited.
+客戶端軟體曾被獨立[稽核](https://briarproject.org/news/2017-beta-released-security-audit)，而使用 Tor 網路的匿名路由協定也接受了稽核。
 
 ## 標準
 
@@ -175,8 +175,8 @@ The client software was independently [audited](https://briarproject.org/news/20
 
 ### 最低合格要求
 
-- Must have open-source clients.
-- Must not require sharing personal identifiers (particularly phone numbers or emails) with contacts.
+- 必須要有開放原始碼。
+- 不得要求使用者與聯絡人分享個人資訊（特別是電話號碼或電子郵件）。
 - Must use E2EE for private messages by default.
 - Must support E2EE for all messages.
 - Must support forward secrecy[^1]
