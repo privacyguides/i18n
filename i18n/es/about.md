@@ -168,7 +168,7 @@ Nuestro personal recibe una remuneración por contribuir a los contenidos comple
 
   :material-text-account: Digital Content Producer
 
-  [:material-account: Profile](https://discuss.privacyguides.net/u/nateb)
+  [:material-account: Perfil](https://discuss.privacyguides.net/u/nateb)
 
   [:material-github:](https://github.com/tnonate "GitHub")
   [:material-mastodon:](https://mastodon.thenewoil.org/@nateb "@nateb@mastodon.thenewoil.org"){rel=me}
@@ -227,9 +227,9 @@ Además, lanzamos nuestro nuevo foro de debate en [discuss.privacyguides.net](ht
 
 En 2023, lanzamos traducciones internacionales de nuestro sitio web en [francés](https://www.privacyguides.org/fr), [hebreo](https://www.privacyguides.org/he), [neerlandés](https://www.privacyguides.org/nl) y más idiomas, gracias a nuestro excelente equipo de traducción en [Crowdin](https://crowdin.com/project/privacyguides).
 
-In 2024, we successfully fundraised to hire several full-time staff members, Em, Jordan, and Kevin; to help with content creation, community management, and video production. This has allowed us to expand our reach and provide more frequent updates to our audience.
+En 2024, conseguimos recaudar fondos para contratar a varios empleados a tiempo completo, Em, Jordan y Kevin, que nos ayudarán con la creación de contenidos, la gestión de la comunidad y la producción de vídeos. Esto nos ha permitido ampliar nuestro alcance y ofrecer actualizaciones más frecuentes a nuestra audiencia.
 
-In 2025, we launched our [newsroom](https://www.privacyguides.org/news), providing timely articles on the latest developments in privacy and security. We also hired Nate as a Digital Content Producer to bring more consistency to our educational video content.
+En 2025 lanzamos nuestra [sala de prensa](https://www.privacyguides.org/news), que ofrece artículos puntuales sobre los últimos avances en privacidad y seguridad. También contratamos a Nate como productor de contenido digital para que haya más regularidad en nuestros vídeos educativos.
 
 Tenemos previsto seguir adelante con nuestra misión de divulgación y educación, y buscar formas de poner de relieve con mayor claridad los peligros de la falta de concienciación sobre la privacidad en la era digital moderna, así como la prevalencia y los perjuicios de las brechas de seguridad en todo el sector tecnológico.
 
