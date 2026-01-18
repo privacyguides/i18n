@@ -86,7 +86,7 @@ El comité ejecutivo del proyecto está conformado por cinco voluntarios encarga
 
   ---
 
-  :material-text-account: Founder, Program Director
+  :material-text-account: Fundador, Director del Programa
 
   [:material-account: Perfil](https://discuss.privacyguides.net/u/jonah)
 
@@ -99,7 +99,7 @@ El comité ejecutivo del proyecto está conformado por cinco voluntarios encarga
 
   ---
 
-  :material-text-account: Fundadora
+  :material-text-account: Fundador
 
   [:material-account: Perfil](https://discuss.privacyguides.net/u/Niek-de-Wilde)
 
@@ -111,7 +111,7 @@ El comité ejecutivo del proyecto está conformado por cinco voluntarios encarga
 
   ---
 
-  :material-text-account: Fundador
+  :material-text-account: Fundadora
 
   [:material-account: Perfil](https://discuss.privacyguides.net/u/olivia)
 
@@ -130,7 +130,7 @@ Nuestro personal recibe una remuneración por contribuir a los contenidos comple
 
   ---
 
-  :material-text-account: Staff Writer
+  :material-text-account: Redactora
 
   [:material-account: Perfil](https://discuss.privacyguides.net/u/em)
 
@@ -142,7 +142,7 @@ Nuestro personal recibe una remuneración por contribuir a los contenidos comple
 
   ---
 
-  :material-text-account: Digital Content Producer
+  :material-text-account: Productor de Contenido Digital
 
   [:material-account: Perfil](https://discuss.privacyguides.net/u/Jordan)
 
@@ -166,7 +166,7 @@ Nuestro personal recibe una remuneración por contribuir a los contenidos comple
 
   ---
 
-  :material-text-account: Digital Content Producer
+  :material-text-account: Productor de Contenido Digital
 
   [:material-account: Perfil](https://discuss.privacyguides.net/u/nateb)
 
