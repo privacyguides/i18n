@@ -12,23 +12,23 @@ cover: social-networks.webp
 
 這些尊重隱私的**社交網絡**，讓您能在不透露全名、電話號碼等個人資訊的情況下參與線上社群，這些資料正是科技公司常要求提供的內容。
 
-社交媒體平台間日益嚴重的問題是兩種不同形式的審查。 首先，他們經常默許非法的審查要求，這些要求可能來自惡意的政府，也可能來自他們自己的內部政策。 Second, they often require accounts to access walled-off content that would otherwise be published freely on the open internet; this effectively censors the browsing activities of privacy-conscious users who are unable to pay the privacy cost of opening an account on these networks.
+社交媒體平台間日益嚴重的問題是兩種不同形式的審查。 首先，他們經常默許非法的審查要求，這些要求可能來自惡意的政府，也可能來自他們自己的內部政策。 其次，這些平台常要求使用者註冊帳號才能存取封閉內容，此類內容若在開放網路中本可自由發佈；此舉實質上審查了注重隱私的使用者瀏覽行為，因為這些使用者無法承擔在該類網路開立帳號所衍生的隱私代價。
 
 我們推薦的社交網路透過開放且分散的社交網路協定來解決審查問題。 檢視公開內容也不需要帳號。
 
 您應該注意，所有社交網路都 **不** 適合私人或敏感的通訊。 若要直接與他人聊天，您應該使用我們推薦—具有強大端對端加密功能的 [即時通訊工具](real-time-communication.md) ，並只使用社交媒體上的直接訊息，以便與聯絡人建立更私密、更安全的聊天平台。
 
-## Decentralization
+## 去中心化
 
-Decentralized social networks are built on an architecture that is fundamentally different than mainstream social media platforms, yet quite similar to the underlying structure of email. Instead of opening an account under a single, unified service like you would for Facebook or Discord, you instead choose an independent, public server to join. The server you join can communicate with and discover other servers; this aspect of decentralization is also known as _federation_.
+去中心化社交網絡的架構與主流社交媒體平台截然不同，卻與電子郵件的底層結構頗為相似。 與其像在 Facebook 或 Discord 上那樣，透過單一整合服務開立帳號，您反而會選擇加入獨立的公開伺服器。 您所加入的伺服器能夠與其他伺服器進行通訊並發現它們；這種去中心化的特性亦稱為_聯邦制_。
 
-A significant benefit of this decentralized model is that there is no central authority which can censor your account across the entire network, though it is possible for your account to be banned or silenced by an individual server.
+此去中心化模式的一項顯著優勢在於，整個網路中不存在能夠審查您帳號的中央權威機構，儘管您的帳號仍可能被個別伺服器封禁或禁言。
 
-A caveat of this decentralized model is that each server is its own legal entity, with its own privacy policy, terms of use, administration team, and moderators. 雖然其中許多伺服器比傳統的社交媒體平台限制 _少_ 且更尊重隱私權，但也有些可能限制更 _多_ 或 _可能_ 損害您的隱私。 Typically, the software on which the social network runs does not discriminate between these administrators or place any limitations on their powers.
+此去中心化模式的注意事項在於：每台伺服器皆為獨立的法律實體，擁有各自的隱私政策、使用條款、管理團隊及版主。 雖然其中許多伺服器比傳統的社交媒體平台限制 _少_ 且更尊重隱私權，但也有些可能限制更 _多_ 或 _可能_ 損害您的隱私。 通常，社交網路所執行的軟體不會區分這些管理員，也不會對其權限施加任何限制。
 
-## Censorship Resistance
+## 抵抗審查
 
-While censorship in decentralized social networks does not exist on a network level, it is very possible to experience censorship on a server level depending on a server's administrator. Administrators have the power to _defederate_ from other servers, which leads to limiting the content you can view and the people you can interact with.
+儘管去中心化社交網路在網路層級上沒有審查制度，但根據伺服器管理員的決定，使用者仍可能在伺服器層級遭遇審查。 Administrators have the power to _defederate_ from other servers, which leads to limiting the content you can view and the people you can interact with.
 
 If you are greatly concerned about an existing server censoring your content, the content available to you, or other servers, you generally have two options:
 
