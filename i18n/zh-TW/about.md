@@ -86,7 +86,7 @@ Privacy Guides 是由世界各地的志工和工作人員建立的。 我們對�
 
   ---
 
-  :material-text-account: Founder, Program Director
+  :material-text-account: 創辦人暨計畫總監
 
   [:material-account: 個人資料](https://discuss.privacyguides.net/u/jonah)
 
@@ -130,7 +130,7 @@ Privacy Guides 是由世界各地的志工和工作人員建立的。 我們對�
 
   ---
 
-  :material-text-account: Staff Writer
+  :material-text-account: 特約撰稿人
 
   [:material-account: 個人資料](https://discuss.privacyguides.net/u/em)
 
@@ -142,7 +142,7 @@ Privacy Guides 是由世界各地的志工和工作人員建立的。 我們對�
 
   ---
 
-  :material-text-account: Digital Content Producer
+  :material-text-account: 數位內容製作人
 
   [:material-account: 個人資料](https://discuss.privacyguides.net/u/Jordan)
 
@@ -166,13 +166,13 @@ Privacy Guides 是由世界各地的志工和工作人員建立的。 我們對�
 
   ---
 
-  :material-text-account: Digital Content Producer
+  :material-text-account: 數位內容製作人
 
-  [:material-account: Profile](https://discuss.privacyguides.net/u/nateb)
+  [:material-account: 個人檔案](https://discuss.privacyguides.net/u/nateb)
 
   [:material-github:](https://github.com/tnonate "GitHub")
   [:material-mastodon:](https://mastodon.thenewoil.org/@nateb "@nateb@mastodon.thenewoil.org"){rel=me}
-  [:material-email:](mailto:nate@privacyguides.org "Email")
+  [:material-email:](mailto:nate@privacyguides.org "電子郵件")
 
 </div>
 
@@ -227,9 +227,9 @@ Privacy Guides 於 2021 年 9 月推出，是 [已解散](about/privacytools.md)
 
 2023年，我們推出了[法文](https://www.privacyguides.org/fr)、[希伯來文](https://www.privacyguides.org/he)、[荷蘭文](https://www.privacyguides.org/nl)以及更多語言的網站翻譯版本，這些都是由 [Crowdin](https://crowdin.com/project/privacyguides) 上的優秀翻譯團隊所促成的。
 
-In 2024, we successfully fundraised to hire several full-time staff members, Em, Jordan, and Kevin; to help with content creation, community management, and video production. This has allowed us to expand our reach and provide more frequent updates to our audience.
+2024年，我們成功籌集資金聘請了數名全職員工：Em、Jordan 與 Kevin，協助內容創作、社群管理及影片製作。 這使我們得以擴大影響範圍，並為受眾提供更頻繁的更新。
 
-In 2025, we launched our [newsroom](https://www.privacyguides.org/news), providing timely articles on the latest developments in privacy and security. We also hired Nate as a Digital Content Producer to bring more consistency to our educational video content.
+2025年，我們推出[新聞室](https://www.privacyguides.org/news)，提供關於隱私與安全領域最新動態的即時報導。 我們同時聘請 Nate 擔任數位內容製作人，以提升教育影片內容的整體一致性。
 
 我們計劃繼續擴大我們的服務範圍並發揚教育使命，並尋找方法更清楚地突顯現代數位時代的人們缺乏隱私意識的危險，以及科技產業安全漏洞的普遍性和危害。
 

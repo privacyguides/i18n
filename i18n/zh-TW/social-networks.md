@@ -10,7 +10,7 @@ cover: social-networks.webp
 - [:material-close-outline: 審查](basics/common-threats.md#avoiding-censorship){ .pg-blue-gray }
 - [:material-account-cash: 監控資本主義](basics/common-threats.md#surveillance-as-a-business-model){ .pg-brown }
 
-These privacy-respecting **social networks** allow you to participate in online communities without giving up your personal information like your full name, phone number, and other data commonly requested by tech companies.
+這些尊重隱私的**社交網絡**，讓您能在不透露全名、電話號碼等個人資訊的情況下參與線上社群，這些資料正是科技公司常要求提供的內容。
 
 社交媒體平台間日益嚴重的問題是兩種不同形式的審查。 首先，他們經常默許非法的審查要求，這些要求可能來自惡意的政府，也可能來自他們自己的內部政策。 Second, they often require accounts to access walled-off content that would otherwise be published freely on the open internet; this effectively censors the browsing activities of privacy-conscious users who are unable to pay the privacy cost of opening an account on these networks.
 
