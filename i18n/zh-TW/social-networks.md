@@ -107,18 +107,18 @@ cover: social-networks.webp
 
 - **公開**，可將您的內容發表給網際網路上的任何人。
 - **不公開**，您應該認為等同於公開張貼！ 這並非技術性保證，僅是您向其他伺服器提出的要求，以將您的嘟文隱藏於某些 feed 之外。
-- **跟隨者**，只向您的跟隨者發表您的內容。 If you did not follow our recommendation of restricting your followers, you should consider this equivalent to publicly posting!
-- **Specific people**, which only shares the post with people who are specifically mentioned within the post. This is Mastodon's version of direct messages, but should never be relied on for private communications as we covered earlier since Mastodon has no E2EE.
+- **跟隨者**，只向您的跟隨者發表您的內容。 若您未按照我們的建議限制您的跟隨者，請將此視為公開發文！
+- **特定群體**，僅將嘟文分享給嘟文中明確提及的人分享嘟文。 這是 Mastodon 版本的直接訊息，但絕對不可以用來進行私密通訊，原因如同先前所述，因為 Mastodon 沒有端到端加密。
 
-If you used our recommended configuration settings above, you should be posting to **Followers** by default, and only posting to **Public** on an intentional and case-by-case basis.
+若您使用我們上述推薦的設定，您應該會預設嘟文給**跟隨者**，並僅在刻意與個別情況下才會嘟文給**公開**時間軸。
 
 ## Element
 
 <div class="admonition recommendation" markdown>
 
-![Element logo](assets/img/social-networks/element.svg){ align=right }
+![Element 標誌](assets/img/social-networks/element.svg){ align=right }
 
-**Element** is the flagship client for the **:simple-matrix: [Matrix](https://matrix.org/docs/chat_basics/matrix-for-im)** protocol, an [open standard](https://spec.matrix.org/latest) that enables decentralized communication by way of federated chat rooms. Users can exist on different homeservers but still communicate with each other.
+**Element** 是 **:simple-matrix: [Matrix](https://matrix.org/docs/chat_basics/matrix-for-im)** 協定的旗艦客戶端，該協定是透過聯邦式聊天室來實現去中心化通訊的[開放標準](https://spec.matrix.org/latest)。 使用者可以存在於不同的家伺服器上，但仍可互相溝通。
 
 [:octicons-home-16: 首頁](https://element.io){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://element.io/privacy){ .card-link title="隱私權政策" }
@@ -133,65 +133,65 @@ If you used our recommended configuration settings above, you should be posting 
 - [:fontawesome-brands-windows: Windows](https://element.io/download)
 - [:simple-apple: macOS](https://element.io/download)
 - [:simple-linux: Linux](https://element.io/download)
-- [:octicons-browser-16: Web](https://app.element.io)
+- [:octicons-browser-16: 網頁](https://app.element.io)
 
 </details>
 
 </div>
 
-### Choosing a Homeserver
+### 選擇家伺服器
 
-To benefit the most from Matrix, it is critical to choose a homeserver which is well aligned with the subject(s) you want to chat about. We do not currently recommend any specific homeservers, but you may find advice within our communities or third-party resources like [_joinmatrix.org_](https://servers.joinmatrix.org). We recommend avoiding _matrix.org_ because they are operated by the same company which develops Matrix itself. 從去中心化的角度長遠來看，不要使用軟體開發者所控制的伺服器是比較好的做法，這樣就沒有任何一方可以對整個網路施加過多的控制。
+要充分發揮 Matrix 的效益，關鍵在於選擇與您想討論的主題高度契合的家伺服器。 我們目前並不會推薦任何特定的家伺服器，但您可以在我們的社群或如 [_joinmatrix.org_](https://servers.joinmatrix.org) 等的第三方資源中找到建議。 我們建議避免使用 _matrix.org_，因為該伺服器是由與開發 Matrix 軟體本身的同一間公司所營運的。 從去中心化的角度長遠來看，不要使用軟體開發者所控制的伺服器是比較好的做法，這樣就沒有任何一方可以對整個網路施加過多的控制。
 
 ### 建議的隱私設定
 
-From Element's web or desktop app, go to :gear: → **All settings** to find these sections:
+從 Element 的網頁或桌面應用程式，前往 :gear: →**所有設定**，就能找到這些區塊：
 
-#### Sessions
+#### 工作階段
 
-By default, when you log in to Element on a new device, the session name will be automatically populated with the Matrix client and platform you used for login. This information may be visible to other users depending on the Matrix client they use.
+預設情況下，當您在新裝置登入 Element 時，系統會自動將您登入時使用的 Matrix 客戶端與平台名稱填入工作階段名稱欄位。 其他使用者可能可以看到這份資訊，端視所使用的 Matrix 客戶端而定。
 
-To prevent revealing information about your personal device to others unnecessarily, consider emptying the session name; this will change the session name to the randomly generated alphanumeric Session ID instead.
+為避免不必要地向他人洩露個人裝置資訊，請考慮清空工作階段名稱欄位；此操作將使工作階段名稱變更為隨機產生的英數字元工作階段識別字串。
 
 #### 偏好設定
 
-- [ ] Uncheck **Send read receipts**
-- [ ] Uncheck **Send typing notifications**
+- [ ] 取消勾選**傳送讀取回條**
+- [ ] 取消勾選**傳送輸入通知**
 
-You should uncheck these options to reduce the exposure of metadata to other users when chatting in a public room.
+您應取消勾選這些選項，以減少在公共聊天室聊天時，其他使用者接觸到中介資料的機會。
 
-#### Voice & Video
+#### 音訊與視訊
 
-- [ ] Uncheck **Allow Peer-to-Peer for 1:1 calls**
-- [ ] Uncheck **Allow fallback call assist server (turn.matrix.org)**
+- [ ] 取消勾選**允許使用點對點通訊進行 1:1 通話**
+- [ ] 取消勾選**允許汰退通話輔助伺服器 (turn.matrix.org)**
 
-If you do decide to use Element for one-to-one communication, we recommend unchecking these settings to prevent the exposure of your IP address to the other party.
+若您決定使用 Element 進行一對一通訊，我們建議您取消勾選這些設定，以防止您的 IP 位址暴露給對方。
 
-#### Security & Privacy
+#### 安全性與隱私權
 
-##### Manage integrations (scalar.vector.im)
+##### 管理整合 (scalar.vector.im)
 
-A Matrix integration manager connects Matrix to third-party services such as bots, bridges, and other enhancements. Element collects information to provide these services to those using an integration manager; you can review its detailed [Privacy Notice](https://element.io/integration-manager-privacy-notice) for the exact information Element collects and the ways it uses such information.
+Matrix 整合管理器可將 Matrix 連結至第三方服務，例如機器人、橋接器與其他強化功能。 Element 會收集資訊以向使用整合管理器的使用者提供這些服務；您可查閱其詳細的[隱私權聲明](https://element.io/integration-manager-privacy-notice)，了解 Element 確切蒐集哪些資訊以及使用這些資訊的方式。
 
-As an end user on a public homeserver, you can consider unchecking the **Enable the integration manager** option, which does not affect the visibility of bots or other third-party services. As a homeserver administrator, consider whether the additional parties with which you share your data are worth the extra functionality.
+作為公開家伺服器的終端使用者，您可考慮取消勾選**啟用整合管理器**選項，此操作不會影響機器人或其他第三方服務的可見性。 身為家伺服器管理員，請審慎評估：與其他各方共享資料所獲得的功能增益，是否值得承擔相應風險。
 
-##### Sessions
+##### 工作階段
 
-- [ ] (Optional) Uncheck **Record the client name, version, and url to recognize sessions for easily in session manager**
+- [ ] （選擇性）取消勾選**記錄客戶端名稱、版本與網址，以便在工作階段管理器中輕鬆辨識工作階段**
 
-Unchecking this option may make it more diffcult to discern your active sessions if you logged in to your Matrix account on multiple devices.
+取消勾選此選項可能會使您更難辨認正在使用的工作階段，尤其當您在多個裝置上登入 Matrix 帳號時。
 
 #### 加密
 
-- [x] (Optional) Check **In encrypted rooms, only send messages to verified users**
+- [x] （選擇性）勾選**在加密的聊天室中，僅傳送訊息給已驗證的使用者**
 
-With this setting enabled, unverified users (i.e., those who have not used the **Verify User** function) and unverified devices of verified users will not receive your messages in a room with encryption enabled. This may limit the messages you can view and the people you can interact with.
+啟用此設定後，未經驗證的使用者（亦即未使用**驗證使用者**功能的使用者）與已驗證使用者的未經驗證裝置將無法在已啟用加密的聊天室中收到您的訊息。 這可能會限制您可以檢視的訊息以及您可以互動的對象。
 
 ## 標準
 
 \*\*請注意，我們與推薦的任何專案均無隸屬關係。\*\*除了[我們的通用標準](about/criteria.md)以外，我們還制定了一套明確的要求，讓我們能夠提供客觀的推薦。 我們建議您在選擇使用項目之前先熟悉此列表，並進行自己的研究，以確保它是您的正確選擇。
 
-- Must be free and open-source software.
+- 必須是自由及開放原始碼軟體。
 - 必須使用聯邦式通訊協定與社交網路軟體的其他實例通訊。
 - 不得對可聯合的實例有非技術性的限制。
 - 必須可在普通的 [網路瀏覽器](desktop-browsers.md) 中使用。

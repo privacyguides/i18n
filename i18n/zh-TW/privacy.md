@@ -1,17 +1,17 @@
 ---
-title: "Privacy Policy"
-description: We do not sell or share your data with any third-parties.
+title: "隱私權政策"
+description: 我們不會將您的資料出售或分享給任何第三方。
 ---
 
-## What is Privacy Guides?
+## 什麼是 Privacy Guides？
 
-Privacy Guides is a community project operated by a number of active contributors. The public list of team members [can be found on our forum](https://discuss.privacyguides.net/u?group=team&order=solutions&period=all). Privacy Guides is legally administered by [MAGIC Grants](https://magicgrants.org), a 501(c)(3) public charity acting as our fiscal host.
+Privacy Guides 是由許多活動的貢獻者運作的社群專案。 團隊成員的公開清單[可在我們的論壇上找到](https://discuss.privacyguides.net/u?group=team&order=solutions&period=all)。 Privacy Guides 由 [MAGIC Grants](https://magicgrants.org) 依法管理，該機構為 501(c)(3) 公共慈善組織，擔任我們的財政託管方。
 
-As a project, we make available to the public:
+作為一個專案，我們向公眾提供：
 
-- [privacyguides.org](https://www.privacyguides.org), this website
-- [discuss.privacyguides.net](https://discuss.privacyguides.net), our community forum
-- [code.privacyguides.dev](https://code.privacyguides.dev), public source code repositories
+- [privacyguides.org](https://www.privacyguides.org)，本網站
+- [discuss.privacyguides.net](https://discuss.privacyguides.net)，我們的社群論壇
+- [code.privacyguides.dev](https://code.privacyguides.dev)，公開的原始碼倉庫
 
 This privacy notice covers all Privacy Guides projects authorized and operated by the MAGIC Privacy Guides Fund executive committee.
 
