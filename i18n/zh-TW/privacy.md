@@ -13,7 +13,7 @@ Privacy Guides 是由許多活動的貢獻者運作的社群專案。 團隊成�
 - [discuss.privacyguides.net](https://discuss.privacyguides.net)，我們的社群論壇
 - [code.privacyguides.dev](https://code.privacyguides.dev)，公開的原始碼倉庫
 
-This privacy notice covers all Privacy Guides projects authorized and operated by the MAGIC Privacy Guides Fund executive committee.
+本隱私聲明涵蓋所有經 MAGIC Privacy Guides 基金執行委員會授權並營運的 Privacy Guides 專案。
 
 Please note that when you make a donation to us on [donate.magicgrants.org](https://donate.magicgrants.org/privacyguides), MAGIC Grants has published a [separate privacy policy](https://donate.magicgrants.org/privacy) covering that platform.
 
