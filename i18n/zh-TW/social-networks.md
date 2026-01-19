@@ -28,17 +28,17 @@ cover: social-networks.webp
 
 ## 抵抗審查
 
-儘管去中心化社交網路在網路層級上沒有審查制度，但根據伺服器管理員的決定，使用者仍可能在伺服器層級遭遇審查。 Administrators have the power to _defederate_ from other servers, which leads to limiting the content you can view and the people you can interact with.
+儘管去中心化社交網路在網路層級上沒有審查制度，但根據伺服器管理員的決定，使用者仍可能在伺服器層級遭遇審查。 管理員有權**解除**與其他伺服器的聯邦關係，此舉將導致您可檢視的內容與可互動的對象受到限制。
 
-If you are greatly concerned about an existing server censoring your content, the content available to you, or other servers, you generally have two options:
+若您非常擔心現有伺服器會審查您的內容、您可取得的內容或其他伺服器，通常有兩種選擇：
 
-1. **Host the social network software yourself.** This approach gives you the exact same censorship resistance as any other website you can host yourself, which is fairly high.
+1. \*\*自行架設社交網路軟體。\*\*這種方法可以讓您與任何其他您可以自行架設的網站一樣，具有完全相同的極高抗審查能力。
 
-2. **Use a managed hosting service.** We don't have any specific recommendations, but there are a variety of hosting services which will create a brand-new server on your own domain (or occasionally a subdomain of their domain, but we recommend against this unless registering your own domain presents too much of a burden to your privacy).
+2. **使用受管主機服務。** 我們沒有特定推薦方案，但市面上有眾多主機服務商可為您在自有網域（或偶爾在其網域的子網域）建立全新伺服器，我們不建議採用後者，除非註冊自有網域對您的隱私造成過大負擔。
 
-   Typically, hosting providers will handle the _technical_ side of your server, but completely leave the _moderation_ side up to you. This often represents a better approach than self-hosting for most people because you can benefit from greater control over your own server without worrying about technical problems or unpatched security vulnerabilities.
+   通常，主機服務供應商會負責處理您伺服器的**技術**層面，但**內容管理**部分則完全交由您自行處理。 對多數人而言，這通常比自行架設伺服器更為理想，因為您既能享有對自身伺服器的更大控制權，又無需擔憂技術問題或未修補的安全漏洞。
 
-   You should look closely at your hosting provider's terms of service and acceptable use policies before registering. These are often far more broad than typical hosted server rules, and they are far less likely to be enforced without recourse, but they can still be restrictive in undesirable ways.
+   在註冊之前，您應仔細閱讀您的主機供應商的服務條款及可接受使用政策。 這些條款通常遠比典型的主機伺服器規則更為寬泛，且在缺乏追索權的情況下，其強制執行的可能性也低得多，但它們仍可能以令人不悅的方式施加限制。
 
 ## Mastodon
 
@@ -46,7 +46,7 @@ If you are greatly concerned about an existing server censoring your content, th
 
 ![Mastodon logo](assets/img/social-networks/mastodon.svg){ align=right }
 
-**Mastodon** 是基於開放網路通訊協定和自由及開放原始碼軟體的社交網路。 It uses the **:simple-activitypub: ActivityPub** protocol, which is decentralized like email: Users can exist on different servers or even different platforms but still communicate with each other.
+**Mastodon** 是基於開放網路通訊協定和自由及開放原始碼軟體的社交網路。 它使用 **:simple-activitypub: ActivityPub** 協定，就像電子郵件一樣是去中心化的：使用者可以存在於不同的伺服器甚至不同的社交平台上，但仍然可以相互溝通。
 
 [:octicons-home-16: 首頁](https://joinmastodon.org){ .md-button .md-button--primary }
 [:octicons-info-16:](https://docs.joinmastodon.org){ .card-link title="說明文件" }
@@ -57,57 +57,57 @@ If you are greatly concerned about an existing server censoring your content, th
 
 基於以下這些原因，我們選擇推薦 Mastodon 而非其他 ActivityPub 軟體作為您的主要社交媒體平台：
 
-1. Mastodon 具有穩固的安全更新歷史。 In the handful of circumstances where major security vulnerabilities have been found, they coordinate patch releases quickly and cleanly. 過去，他們也會將這些安全修補程式回傳到較舊的功能分支。 這讓資歷較淺的伺服器管理員更容易保持實例安全，因為他們可能不習慣立即升級到最新版本。 Mastodon 也在網頁介面中內建了更新通知系統，讓伺服器管理員更有可能知道可用於其實例的重要安全修補程式。
+1. Mastodon 具有穩固的安全更新歷史。 在極少數發現重大安全漏洞的情況下，他們能迅速且妥善地協調修補程式釋出事宜。 過去，他們也會將這些安全修補程式回傳到較舊的功能分支。 這讓資歷較淺的伺服器管理員更容易保持實例安全，因為他們可能不習慣立即升級到最新版本。 Mastodon 也在網頁介面中內建了更新通知系統，讓伺服器管理員更有可能知道可用於其實例的重要安全修補程式。
 
-2. 大多數內容類型可用於 Mastodon。 While it is primarily a microblogging platform, Mastodon easily handles longer posts, image posts, video posts, and most other posts you might encounter when following ActivityPub users who aren't on Mastodon. 這讓您的 Mastodon 帳戶成為追蹤任何人的理想「中央樞紐」，不論他們選擇使用何種平台。 In contrast, if you were only using a PeerTube account, you would _only_ be able to follow other video channels, for example.
+2. 大多數內容類型可用於 Mastodon。 儘管主要作為微部落格平台，Mastodon 仍能輕鬆處理較長的貼文、圖片貼文、影片貼文，以及追蹤非 Mastodon 使用者的 ActivityPub 活動時可能遇到的多數其他貼文類型。 這讓您的 Mastodon 帳戶成為追蹤任何人的理想「中央樞紐」，不論他們選擇使用何種平台。 相較之下，如果你只用 PeerTube 帳號，你就**只能**追蹤其他的影音頻道。
 
-3. Mastodon 有相當全面的隱私權控制。 它有許多內建功能，可讓您限制是否共享資料和資料共用的方式，以下會介紹其中一些功能。 他們在開發新功能時也會考慮到隱私權。 For example, while other ActivityPub software quickly implemented "quote posts" by merely handling links to other posts with a slightly different embed modal, Mastodon is [developing](https://blog.joinmastodon.org/2025/02/bringing-quote-posts-to-mastodon) a quote post feature which will give you more fine-grained control when your post is quoted.
+3. Mastodon 有相當全面的隱私權控制。 它有許多內建功能，可讓您限制是否共享資料和資料共用的方式，以下會介紹其中一些功能。 他們在開發新功能時也會考慮到隱私權。 舉例來說，當其他 ActivityPub 軟體僅透過略微調整嵌入式互動視窗來處理其他貼文連結，便快速實現「引用貼文」功能時，Mastodon 正在[開發](https://blog.joinmastodon.org/2025/02/bringing-quote-posts-to-mastodon)一項引用貼文功能，讓您在貼文被引用時能享有更精細的控制權。
 
 ### 選擇實例
 
 為了從 Mastodon 獲得最大的效益，選擇一個與您想要張貼或閱讀的內容類型相匹配的伺服器或「實例」是至關重要的。 我們目前不推薦任何特定的實例，但您可以在我們的社群中找到建議。 我們建議避免使用 _mastodon.social_ 和 _mastodon.online_ ，因為它們是由開發 Mastodon 軟體本身的同一家公司所經營。 從去中心化的角度長遠來看，不要使用軟體開發者所控制的伺服器是比較好的做法，這樣就沒有任何一方可以對整個網路施加過多的控制。
 
-### Recommended Privacy Settings
+### 建議的隱私設定
 
-From Mastodon's web interface, click the **Administration** link in the right sidebar. Within the administration control panel, you'll find these sections in the left sidebar:
+從 Mastodon 的網頁介面，點選右邊側邊欄的**管理介面**連結。 在管理介面的控制面板中，您可以在左側邊欄中找到這些區塊：
 
-#### Public Profile
+#### 公開的個人檔案
 
-There are a number of privacy controls under the **privacy and reach** tab here. Most notably, pay attention to these:
+在此處的**隱私權及觸及**分頁下，設有多項隱私控制選項。 尤其要注意以下事項：
 
-- [ ] **Automatically accept new followers**: You should consider unchecking this box to have a private profile. This will allow you to review who can follow your account before accepting them.
+- [ ] **自動同意新跟隨者**：您應該考慮取消勾選此方塊，以建立私人檔案。 這將讓您在接受追蹤前，先檢視哪些人可以追蹤您的帳號。
 
-  In contrast to most social media platforms, if you have a private profile you still have the _option_ to publish posts which are publicly visible to non-followers and can still be boosted by non-followers. Therefore, unchecking this box is the only way to have the _choice_ to publish to either the entire world or a select group of people.
+  與大多數社群媒體平台不同，即使您擁有私人檔案，仍可選擇發表對非跟隨者公開可見的貼文，且這些貼文仍可被非跟隨者轉嘟。 因此，取消勾選此方塊是唯一可以**選擇**發表給全世界或特定人群的方法。
 
-- [ ] **Show follows and followers on profile**: You should uncheck this box to hide your social graph from the public. It is fairly uncommon for the list of people you follow to have some genuine benefit to others, but that information can present a risk to you.
+- [ ] **於個人檔案中顯示跟隨中及跟隨者**：您應該取消勾選此方塊以隱藏您的社交圖譜。 你追蹤的人名單對他人產生實質助益的情況相當罕見，但這類資訊卻可能對你構成風險。
 
-- [ ] **Display from which app you sent a post**: You should uncheck this box to prevent revealing information about your personal computing setup to others unnecessarily.
+- [ ] **顯示您發嘟文之應用程式**：您應該取消勾選此方塊，以避免不必要地向他人透露您的個人電腦組態資訊。
 
-The other privacy controls on this page should be read through, but we would stress that they are **not** technical controls—they are merely requests that you make to others. For example, if you choose to hide your profile from search engines on this page, **nothing** is actually stopping a search engine from reading your profile. You are merely requesting search engine indexes not publish your content to their users.
+本頁面的其他隱私控制措施仍應詳閱，但我們必須強調這些措施並非技術性控制，它們僅是您向他人提出的要求。 舉例來說，即使您在此頁面選擇將個人檔案隱藏於搜尋引擎，實際上**並無**任何機制能阻止搜尋引擎讀取您的個人檔案。 您僅是要求搜尋引擎索引不要將您的內容發佈給其使用者。
 
-You will likely still wish to make these requests because they can practically reduce your digital footprint. However, they should not be _relied_ upon. The only effective way to hide your posts from search engines and others is to post with non-public (followers only) visibility settings _and_ limit who can follow your account.
+您仍可能希望提出這些請求，因為它們能實際減少您的數位足跡。 然而，不應過分**依賴**它們。 要讓您的貼文不被搜尋引擎和其他人看見，唯一有效的方法是採用非公開（僅限追蹤者）的可見性設定，**並**限制可追蹤您帳號的人員範圍。
 
-#### Preferences
+#### 偏好設定
 
-You should change your **posting privacy** setting from public to: **Followers-only - Only show to followers**.
+您應將您的**嘟文可見性**設定從公開變更為**僅限跟隨者**。
 
-Note that this only changes your default settings to prevent accidental over-sharing. You can always adjust your visibility level when composing a new post.
+請注意，這只會變更您的預設設定，以防止意外的過度分享。 您可以在撰寫新貼文時隨時調整可見性。
 
-#### Automated post deletion
+#### 自動嘟文刪除
 
-- [x] Check the **Automatically delete old posts** box.
+- [x] 勾選**自動刪除舊嘟文**方塊。
 
-The default settings here are fine, and will delete any posts you make after 2 weeks, unless you favorite (star) them. This gives you an easy way to control which posts stick around forever, and which ones are only ephemeral. Many settings about how long and when posts are kept can be adjusted here to suit your own needs, however.
+此處的預設設定已足夠完善，系統將自動刪除您發布後超過兩週的嘟文，除非您將其標記為最愛。 這為您提供了一個簡易的方法來控制哪些嘟文永久保留，哪些則僅是短暫存在。 然而，關於嘟文保留時間長短與時機的諸多設定，皆可在此處依個人需求進行調整。
 
-It is very rare for social media posts older than a few weeks to be read or relevant to others. These older posts are often ignored because they are challenging to deal with in bulk, but they can build a fairly comprehensive profile about you over time. You should always strive to publish content ephemerally by default, and only keep posts around for longer than that very intentionally.
+超過數週的社群媒體嘟文，極少會被閱讀或對他人產生相關性。 這些較早的嘟文常被忽略，因為批次處理它們頗具挑戰性，但隨著時間推移，它們能逐步構築出關於你的相當完整的個人檔案。 您應始終以短暫性為預設目標發表內容，僅在經過深思熟慮後才讓嘟文保留更長時間。
 
-### Posting Content
+### 張貼內容
 
-When publishing a new post, you will have the option to choose from one of these visibility settings:
+發表新嘟文時，您將可從下列可見性設定中選擇其中一項：
 
-- **Public**, which publishes your content to anyone on the internet.
-- **Quiet public**, which you should consider equivalent to publicly posting! This is not a technical guarantee, but merely a request you are making to other servers to hide your post from some feeds.
-- **Followers**, which publishes your content only to your followers. If you did not follow our recommendation of restricting your followers, you should consider this equivalent to publicly posting!
+- **公開**，可將您的內容發表給網際網路上的任何人。
+- **不公開**，您應該認為等同於公開張貼！ 這並非技術性保證，僅是您向其他伺服器提出的要求，以將您的嘟文隱藏於某些 feed 之外。
+- **跟隨者**，只向您的跟隨者發表您的內容。 If you did not follow our recommendation of restricting your followers, you should consider this equivalent to publicly posting!
 - **Specific people**, which only shares the post with people who are specifically mentioned within the post. This is Mastodon's version of direct messages, but should never be relied on for private communications as we covered earlier since Mastodon has no E2EE.
 
 If you used our recommended configuration settings above, you should be posting to **Followers** by default, and only posting to **Public** on an intentional and case-by-case basis.
@@ -143,7 +143,7 @@ If you used our recommended configuration settings above, you should be posting 
 
 To benefit the most from Matrix, it is critical to choose a homeserver which is well aligned with the subject(s) you want to chat about. We do not currently recommend any specific homeservers, but you may find advice within our communities or third-party resources like [_joinmatrix.org_](https://servers.joinmatrix.org). We recommend avoiding _matrix.org_ because they are operated by the same company which develops Matrix itself. 從去中心化的角度長遠來看，不要使用軟體開發者所控制的伺服器是比較好的做法，這樣就沒有任何一方可以對整個網路施加過多的控制。
 
-### Recommended Privacy Settings
+### 建議的隱私設定
 
 From Element's web or desktop app, go to :gear: → **All settings** to find these sections:
 
@@ -153,7 +153,7 @@ By default, when you log in to Element on a new device, the session name will be
 
 To prevent revealing information about your personal device to others unnecessarily, consider emptying the session name; this will change the session name to the randomly generated alphanumeric Session ID instead.
 
-#### Preferences
+#### 偏好設定
 
 - [ ] Uncheck **Send read receipts**
 - [ ] Uncheck **Send typing notifications**
