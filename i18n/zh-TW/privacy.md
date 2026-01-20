@@ -15,9 +15,9 @@ Privacy Guides 是由許多活動的貢獻者運作的社群專案。 團隊成�
 
 本隱私聲明涵蓋所有經 MAGIC Privacy Guides 基金執行委員會授權並營運的 Privacy Guides 專案。
 
-Please note that when you make a donation to us on [donate.magicgrants.org](https://donate.magicgrants.org/privacyguides), MAGIC Grants has published a [separate privacy policy](https://donate.magicgrants.org/privacy) covering that platform.
+請注意，當您透過 [donate.magicgrants.org](https://donate.magicgrants.org/privacyguides) 向我們捐款時，MAGIC Grants 已針對該平台發佈了[獨立的隱私權政策](https://donate.magicgrants.org/privacy)。
 
-Additionally, when you browse or make a purchase on [shop.privacyguides.org](https://shop.privacyguides.org/), this is a third-party service provided by Fourthwall. Fourthwall has published a [separate privacy policy](https://shop.privacyguides.org/pages/privacy-policy) covering that platform.
+此外，當您在 [shop.privacyguides.org](https://shop.privacyguides.org/) 上瀏覽或購物時，這是由 Fourthwall 提供的第三方服務。 Fourthwall 已發佈涵蓋該平台的[獨立隱私權政策](https://shop.privacyguides.org/pages/privacy-policy)。
 
 ## How does Privacy Guides collect data about me?
 
