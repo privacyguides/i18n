@@ -289,9 +289,9 @@ Mullvad is very transparent about which nodes they [own or rent](https://mullvad
 ## Criteria
 
 <div class="admonition danger" markdown>
-<p class="admonition-title">Danger</p>
+<p class="admonition-title">Let op</p>
 
-Het is belangrijk op te merken dat het gebruik van een VPN provider je niet anoniem maakt, maar het geeft je wel een betere privacy in bepaalde situaties. Een VPN is geen instrument voor illegale activiteiten. Vertrouw niet op een "no log" beleid.
+Het is belangrijk op te merken dat het gebruik van een VPN-provider je niet anoniem maakt, maar het geeft je wel een betere privacy in bepaalde situaties. Een VPN is geen instrument voor illegale activiteiten. Vertrouw niet op een "no log" beleid.
 
 </div>
 
@@ -329,7 +329,7 @@ Wij geven er de voorkeur aan dat de door ons aanbevolen aanbieders zo weinig mog
 **Beste geval:**
 
 - Accepteert meerdere [anonieme betalingsopties](advanced/payments.md).
-- No personal information accepted (auto-generated username, no email required, etc.).
+- Er wordt geen persoonlijke informatie geaccepteerd (automatisch gegenereerde gebruikersnaam, geen e-mailadres vereist, enz.)
 
 ### Veiligheid
 
@@ -348,7 +348,7 @@ Een VPN is zinloos als het niet eens voldoende beveiliging kan bieden. We requir
 - Optional quantum-resistant encryption.
 - Uitgebreide gepubliceerde veiligheidscontroles door een gerenommeerde derde partij.
 - Programma's voor bug-bounty's en/of een gecoördineerd proces voor de openbaarmaking van kwetsbaarheden.
-- RAM-only VPN servers.
+- RAM-only VPN-servers.
 
 ### Vertrouwen
 
