@@ -87,55 +87,55 @@ Het Proton Free plan bevat 500 MB aan opslagruimte voor e-mail, die je gratis ku
 
 Gratis accounts hebben enkele beperkingen, zoals het niet kunnen doorzoeken van bodytekst en geen toegang tot [Proton Mail Bridge](https://proton.me/mail/bridge), wat nodig is om een [aanbevolen desktop e-mailclient](email-clients.md) zoals Thunderbird te kunnen gebruiken. Betaalde accounts bevatten functies zoals Proton Mail Bridge, extra opslagruimte en ondersteuning voor aangepaste domeinen. Het Proton Unlimited-plan of elk Proton-plan voor meerdere gebruikers bevat toegang tot [SimpleLogin](email-aliasing.md#simplelogin) Premium.
 
-A [letter of attestation](https://res.cloudinary.com/dbulfrlrz/images/v1714639878/wp-pme/letter-of-attestation-proton-mail-20211109_3138714c61/letter-of-attestation-proton-mail-20211109_3138714c61.pdf) was provided for Proton Mail's apps in November 2021 by [Securitum](https://research.securitum.com).
+Een [attestatie](https://res.cloudinary.com/dbulfrlrz/images/v1714639878/wp-pme/letter-of-attestation-proton-mail-20211109_3138714c61/letter-of-attestation-proton-mail-20211109_3138714c61.pdf) werd verstrekt voor Proton Mail's apps in november 2021 door [Securitum](https://research.securitum.com).
 
-Proton Mail has internal crash reports that are **not** shared with third parties and can be disabled.
+Proton Mail heeft interne crashrapporten die **niet** met derden worden gedeeld en uitgeschakeld kunnen worden.
 
 === "Web"
 
-    From your inbox, select :gear: → **All Settings** → **Account** → **Security and privacy** → **Privacy and data collection**.
+    Selecteer in je inbox :gear: → **Alle instellingen** → **Account** → **Veiligheid en privacy** → **Privacy en gegevensverzameling**.
 
-    - [ ] Disable **Collect usage dignostics**
-    - [ ] Disable **Send crash reports**
+    - [ ] Deselecteer **Verzamel gebruikscijfers**
+    - [ ] Deselecteer **Crashrapporten verzenden**
 
 === "Mobiel"
 
-    From your inbox, select :material-menu: → :gear: **Settings** → select your username.
+    Selecteer in je inbox :material-menu: → :gear: **Instellingen** → selecteer je gebruikersnaam.
 
     - [ ] Deselecteer **Crashrapporten verzenden**
-    - [ ] Disable **Collect usage dignostics**
+    - [ ] Deselecteer **Verzamel gebruikscijfers**
 
 #### :material-check:{ .pg-green } Aangepaste domeinen en aliassen
 
-Betaalde Proton Mail abonnees kunnen hun eigen domein met de dienst gebruiken of een [catch-all](https://proton.me/support/catch-all) adres. Proton Mail also supports [sub-addressing](https://proton.me/support/creating-aliases), which is useful for people who don't want to purchase a domain.
+Betaalde Proton Mail abonnees kunnen hun eigen domein met de dienst gebruiken of een [catch-all](https://proton.me/support/catch-all) adres. Proton Mail ondersteunt ook [subadressering](https://proton.me/support/creating-aliases), wat handig is voor mensen die geen domein willen kopen.
 
 #### :material-check:{ .pg-green } Privé betaalmethoden
 
-Proton Mail [accepts](https://proton.me/support/payment-options) **cash** by mail in addition to standard credit/debit card, [Bitcoin](advanced/payments.md#other-coins-bitcoin-ethereum-etc), and PayPal payments. Additionally, you can use [**Monero**](cryptocurrency.md#monero) to purchase vouchers for Proton Mail Plus or Proton Unlimited via their [official](https://discuss.privacyguides.net/t/add-monero-as-an-anonymous-payment-method-for-proton-services/31058/15) reseller [ProxyStore](https://dys2p.com/en/2025-09-09-proton.html).
+Proton Mail [accepteert](https://proton.me/support/payment-options) **contant geld** per post naast standaardbetalingen met creditcard/debetkaart, [Bitcoin](advanced/payments.md#other-coins-bitcoin-ethereum-etc) en PayPal. Daarnaast kun je [**Monero**](cryptocurrency.md#monero) gebruiken om vouchers te kopen voor Proton Mail Plus of Proton Unlimited via hun [officiële](https://discuss.privacyguides.net/t/add-monero-as-an-anonymous-payment-method-for-proton-services/31058/15) reseller [ProxyStore](https://dys2p.com/en/2025-09-09-proton.html).
 
 #### :material-check:{ .pg-green } Accountbeveiliging
 
-Proton Mail supports TOTP [two-factor authentication](https://proton.me/support/two-factor-authentication-2fa) and [hardware security keys](https://proton.me/support/2fa-security-key) using FIDO2 or U2F standards. The use of a hardware security key requires setting up TOTP two-factor authentication first.
+Proton Mail ondersteunt TOTP [tweestapsverificatie](https://proton.me/support/two-factor-authentication-2fa) en [hardware beveiligingssleutels](https://proton.me/support/2fa-security-key) met behulp van FIDO2 of U2F-normen. Voor het gebruik van een hardware beveiligingssleutel moet eerst TOTP tweestapsverificatie worden ingesteld.
 
 #### :material-check:{ .pg-green } Gegevensbeveiliging
 
-Proton Mail heeft [zero-access encryptie](https://proton.me/blog/zero-access-encryption) in rust voor jouw e-mails en [agenda's](https://proton.me/news/protoncalendar-security-model). Gegevens die zijn beveiligd met zero-access encryptie zijn alleen voor jouw toegankelijk.
+Proton Mail heeft [zero-access encryptie](https://proton.me/blog/zero-access-encryption) in rust voor jouw e-mails en [agenda's](https://proton.me/news/protoncalendar-security-model). Gegevens die zijn beveiligd met zero-access encryptie zijn alleen voor jou toegankelijk.
 
 Bepaalde informatie opgeslagen in [Proton Contacts](https://proton.me/support/proton-contacts), zoals namen en e-mailadressen, zijn niet beveiligd met zero-access encryptie. Contact velden die zero-access encryptie ondersteunen, zoals telefoonnummers, worden aangegeven met een hangslot pictogram.
 
-#### :material-check:{ .pg-green } Email encryptie
+#### :material-check:{ .pg-green } E-mail encryptie
 
-Proton Mail heeft [OpenPGP encryptie](https://proton.me/support/how-to-use-pgp) geïntegreerd in hun webmail. E-mails naar andere Proton Mail-accounts worden automatisch versleuteld, en versleuteling naar niet-Proton Mail-adressen met een OpenPGP-sleutel kan eenvoudig worden ingeschakeld in je accountinstellingen. Proton also supports automatic external key discovery with WKD. This means that emails sent to other providers which use WKD will be automatically encrypted with OpenPGP as well, without the need to manually exchange public PGP keys with your contacts. They also allow you to [encrypt messages to non-Proton Mail addresses without OpenPGP](https://proton.me/support/password-protected-emails), without the need for them to sign up for a Proton Mail account.
+Proton Mail heeft [OpenPGP encryptie](https://proton.me/support/how-to-use-pgp) geïntegreerd in hun webmail. E-mails naar andere Proton Mail-accounts worden automatisch versleuteld, en versleuteling naar niet-Proton Mail-adressen met een OpenPGP-sleutel kan eenvoudig worden ingeschakeld in je accountinstellingen. Proton ondersteunt ook automatische externe key discovery met WKD. Dit betekent dat e-mails die worden verzonden naar andere providers die WKD gebruiken ook automatisch worden versleuteld met OpenPGP, zonder dat je handmatig openbare PGP-sleutels hoeft uit te wisselen met je contactpersonen. Je kunt er ook [berichten mee versleutelen naar niet-Proton Mail-adressen zonder OpenPGP](https://proton.me/support/password-protected-emails), zonder dat ze zich hoeven aan te melden voor een Proton Mail-account.
 
-Proton Mail also publishes the public keys of Proton accounts via HTTP from their WKD. This allows people who don't use Proton Mail to find the OpenPGP keys of Proton Mail accounts easily for cross-provider E2EE. This only applies to email addresses ending in one of Proton's own domains, like `@proton.me`. If you use a custom domain, you must [configure WKD](basics/email-security.md#what-is-the-web-key-directory-standard) separately.
+Proton Mail publiceert ook de publieke sleutels van Proton-accounts via HTTP vanuit hun WKD. Hierdoor kunnen mensen die Proton Mail niet gebruiken eenvoudig de OpenPGP-sleutels van Proton Mail-accounts vinden voor cross-provider E2EE. Dit geldt alleen voor e-mailadressen die eindigen op een van Protons eigen domeinen, zoals `@proton.me`. Als je een aangepast domein gebruikt, moet je [WKD](basics/email-security.md#what-is-the-web-key-directory-standard) afzonderlijk configureren.
 
 #### :material-information-outline:{ .pg-blue } Beëindiging van account
 
-Als je een betaald account hebt en je na 14 dagen [niet je rekening hebt betaald](https://proton.me/support/delinquency), krijg je geen toegang meer tot je gegevens. Na 30 dagen word je account delinquent en ontvang je geen inkomende e-mail meer. Tijdens deze periode word je nog steeds gefactureerd. Proton [verwijdert inactieve gratis accounts](https://proton.me/support/inactive-accounts) na één jaar. You **cannot** reuse the email address of a deactivated account.
+Als je een betaald account hebt en je na 14 dagen [niet je rekening hebt betaald](https://proton.me/support/delinquency), krijg je geen toegang meer tot je gegevens. Na 30 dagen word je account delinquent en ontvang je geen inkomende e-mail meer. Tijdens deze periode word je nog steeds gefactureerd. Proton [verwijdert inactieve gratis accounts](https://proton.me/support/inactive-accounts) na één jaar. Je kunt het e-mailadres van een gedeactiveerd account **niet** opnieuw gebruiken.
 
 #### :material-information-outline:{ .pg-blue } Aanvullende functionaliteit
 
-Proton Mail's [Unlimited](https://proton.me/support/proton-plans#proton-unlimited) plan also enables access to other Proton services in addition to providing multiple custom domains, unlimited hide-my-email aliases, and 500 GB of storage.
+Proton Mail's [Unlimited](https://proton.me/support/proton-plans#proton-unlimited) plan geeft ook toegang tot andere Proton-services en biedt meerdere aangepaste domeinen, onbeperkte hide-my-email aliases en 500 GB opslagruimte.
 
 ### Mailbox Mail
 
@@ -143,7 +143,7 @@ Proton Mail's [Unlimited](https://proton.me/support/proton-plans#proton-unlimite
 
 ![Mailbox Mail logo](assets/img/email/mailbox-mail.svg){ align=right }
 
-**Mailbox Mail** (formerly *Mailbox.org*) is an email service with a focus on being secure, ad-free, and powered by 100% eco-friendly energy. Ze zijn sinds 2014 in bedrijf. Mailbox Mail is gevestigd in Berlijn, Duitsland.
+**Mailbox Mail** (voorheen *Mailbox.org*) is een e-mailservice met de nadruk op veiligheid, reclamevrij en aangedreven door 100% duurzame energie. Ze zijn sinds 2014 in bedrijf. Mailbox Mail is gevestigd in Berlijn, Duitsland.
 
 Accounts beginnen met 2 GB opslagruimte, die naar behoefte kan worden uitgebreid.
 
@@ -178,11 +178,11 @@ Mailbox Mail allows for encryption of incoming mail using their [encrypted mailb
 
 However, [Open-Xchange](https://en.wikipedia.org/wiki/Open-Xchange), the software platform used by Mailbox Mail, [does not support](https://kb.mailbox.org/en/private/security-privacy-article/encryption-of-calendar-and-address-book) the encryption of your address book and calendar. A [standalone option](calendar.md) may be more appropriate for that data.
 
-#### :material-check:{ .pg-green } Email encryptie
+#### :material-check:{ .pg-green } E-mail encryptie
 
 Mailbox Mail has [integrated encryption](https://kb.mailbox.org/en/private/e-mail-article/send-encrypted-e-mails-with-guard) in their webmail, which simplifies sending messages to people with public OpenPGP keys. They also allow [remote recipients to decrypt an email](https://kb.mailbox.org/en/private/e-mail-article/my-recipient-does-not-use-pgp) on Mailbox Mail's servers. Deze functie is nuttig wanneer de ontvanger op afstand geen OpenPGP heeft en geen kopie van de e-mail in zijn eigen mailbox kan ontsleutelen.
 
-Mailbox Mail also supports the discovery of public keys via HTTP from their WKD. This allows people outside of Mailbox Mail to find the OpenPGP keys of Mailbox Mail accounts easily for cross-provider E2EE. This only applies to email addresses ending in one of Mailbox Mail's own domains, like `@mailbox.org`. If you use a custom domain, you must [configure WKD](basics/email-security.md#what-is-the-web-key-directory-standard) separately.
+Mailbox Mail also supports the discovery of public keys via HTTP from their WKD. This allows people outside of Mailbox Mail to find the OpenPGP keys of Mailbox Mail accounts easily for cross-provider E2EE. This only applies to email addresses ending in one of Mailbox Mail's own domains, like `@mailbox.org`. Als je een aangepast domein gebruikt, moet je [WKD](basics/email-security.md#what-is-the-web-key-directory-standard) afzonderlijk configureren.
 
 #### :material-information-outline:{ .pg-blue } Beëindiging van account
 
@@ -286,7 +286,7 @@ Wij beschouwen deze kenmerken als belangrijk om een veilige en optimale dienst t
 **Beste geval:**
 
 - Versleutelt alle accountgegevens (contacten, agenda's, etc.) in rust met zero-access encryptie.
-- Should provide integrated webmail E2EE/PGP encryption as a convenience.
+- Moet geïntegreerde webmail E2EE/PGP-encryptie bieden.
 - Should support WKD to allow improved discovery of public OpenPGP keys via HTTP. GnuPG users can get a key with this command: `gpg --locate-key example_user@example.com`.
 - Ondersteuning voor een tijdelijke mailbox voor externe gebruikers. This is useful when you want to send an encrypted email without sending an actual copy to your recipient. Deze e-mails hebben meestal een beperkte levensduur en worden daarna automatisch verwijderd. Zij vereisen ook niet dat de ontvanger cryptografie configureert zoals OpenPGP.
 - Should support [sub-addressing](https://en.wikipedia.org/wiki/Email_address#Sub-addressing).

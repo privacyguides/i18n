@@ -141,7 +141,7 @@ Voor meer details over elk project, waarom ze werden gekozen, en extra tips of t
 ## Top 3 Private VPN Providers
 
 <details class="danger" markdown>
-<summary>VPNs do not provide anonymity</summary>
+<summary>VPN's bieden geen anonimiteit</summary>
 
 Using a VPN will **not** keep your browsing habits anonymous, nor will it add additional security to non-secure (HTTP) traffic.
 

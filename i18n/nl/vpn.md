@@ -1,8 +1,8 @@
 ---
-meta_title: "Privé VPN Service Aanbevelingen en Vergelijkingen, Geen Sponsors of Advertenties - Privacy Guides"
+meta_title: "Privé VPN-Diensten Aanbevelingen en Vergelijkingen, Zonder Sponsors of Advertenties - Privacy Guides"
 title: VPN-diensten
 icon: material/vpn
-description: The best VPN services for protecting your privacy and security online. Find a provider here that isn't out to spy on you.
+description: De beste VPN-diensten om je privacy en veiligheid online te beschermen. Vind hier een provider die er niet op uit is om je te bespioneren.
 cover: vpn.webp
 global:
   - 
@@ -10,20 +10,20 @@ global:
     - "table tbody"
 ---
 
-<small>Protects against the following threat(s):</small>
+<small>Beschermt tegen de volgende bedreiging(en):</small>
 
 - [:material-account-cash: Surveillance kapitalisme](basics/common-threats.md#surveillance-as-a-business-model ""){.pg-brown}
 
-If you're looking for additional *privacy* from your ISP, on a public Wi-Fi network, or while torrenting files, a **VPN** may be the solution for you.
+Als je op zoek bent naar extra *privacy* van je ISP, op een openbaar Wi-Fi-netwerk of tijdens het torrenten van bestanden, dan kan een **VPN** de oplossing voor jou zijn.
 
 <div class="admonition danger" markdown>
-<p class="admonition-title">VPNs do not provide anonymity</p>
+<p class="admonition-title">VPN's bieden geen anonimiteit</p>
 
-Using a VPN will **not** keep your browsing habits anonymous, nor will it add additional security to non-secure (HTTP) traffic.
+Het gebruik van een VPN houdt je surfgedrag **niet** anoniem en voegt geen extra beveiliging toe aan niet-beveiligd (HTTP) verkeer.
 
-If you are looking for **anonymity**, you should use the Tor Browser. If you're looking for added **security**, you should always ensure you're connecting to websites using HTTPS. Een VPN is geen vervanging voor goede beveiligingspraktijken.
+Als je op zoek bent naar **anonimiteit**, moet je de Tor Browser gebruiken. Als je op zoek bent naar extra **veiligheid**, moet je er altijd voor zorgen dat je verbinding maakt met websites via HTTPS. Een VPN is geen vervanging voor goede beveiligingspraktijken.
 
-[Introduction to the Tor Browser](tor.md#tor-browser){ .md-button .md-button--primary } [Tor Myths & FAQ](advanced/tor-overview.md){ .md-button }
+[Inleiding tot de Tor-browser](tor.md#tor-browser){ .md-button .md-button--primary } [Tor Myths & FAQ](advanced/tor-overview.md){ .md-button }
 
 </div>
 
@@ -31,13 +31,13 @@ If you are looking for **anonymity**, you should use the Tor Browser. If you're 
 
 ## Aanbevolen Providers
 
-Our recommended providers use encryption, support WireGuard & OpenVPN, and have a no logging policy. Lees onze [volledige lijst met criteria](#criteria) voor meer informatie.
+De door ons aanbevolen providers gebruiken encryptie, ondersteunen WireGuard & OpenVPN en hebben een no logging policy. Lees onze [volledige lijst met criteria](#criteria) voor meer informatie.
 
-| Provider              | Countries | WireGuard                     | Port Forwarding                                        | IPv6                                                       | Anonymous Payments           |
-| --------------------- | --------- | ----------------------------- | ------------------------------------------------------ | ---------------------------------------------------------- | ---------------------------- |
-| [Proton](#proton-vpn) | 127+      | :material-check:{ .pg-green } | :material-alert-outline:{ .pg-orange } Partial Support | :material-information-outline:{ .pg-blue } Limited Support | Cash  Monero via third party |
-| [IVPN](#ivpn)         | 41+       | :material-check:{ .pg-green } | :material-alert-outline:{ .pg-orange }                 | :material-information-outline:{ .pg-blue } Outgoing Only   | Monero  Cash                 |
-| [Mullvad](#mullvad)   | 49+       | :material-check:{ .pg-green } | :material-alert-outline:{ .pg-orange }                 | :material-check:{ .pg-green }                              | Monero  Cash                 |
+| Provider              | Landen | WireGuard                     | Port forwarding                                                    | IPv6                                                              | Anonieme betalingen             |
+| --------------------- | ------ | ----------------------------- | ------------------------------------------------------------------ | ----------------------------------------------------------------- | ------------------------------- |
+| [Proton](#proton-vpn) | 127+   | :material-check:{ .pg-green } | :material-alert-outline:{ .pg-orange } Gedeeltelijke ondersteuning | :material-information-outline:{ .pg-blue } Beperkte ondersteuning | Contant Monero via derde partij |
+| [IVPN](#ivpn)         | 41+    | :material-check:{ .pg-green } | :material-alert-outline:{ .pg-orange }                             | :material-information-outline:{ .pg-blue } Alleen uitgaand        | Monero Cash                     |
+| [Mullvad](#mullvad)   | 49+    | :material-check:{ .pg-green } | :material-alert-outline:{ .pg-orange }                             | :material-check:{ .pg-green }                                     | Monero Cash                     |
 
 ### Proton VPN
 
@@ -48,9 +48,9 @@ Our recommended providers use encryption, support WireGuard & OpenVPN, and have 
 **Proton VPN** is een sterke speler in de VPN-ruimte en is in bedrijf sinds 2016. Proton AG is gevestigd in Zwitserland en biedt een beperkte gratis versie aan en ook een meer uitgebreide premium optie.
 
 [:octicons-home-16: Homepage](https://protonvpn.com){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://protonvpn.com/privacy-policy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://protonvpn.com/support){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/ProtonVPN){ .card-link title="Source Code" }
+[:octicons-eye-16:](https://protonvpn.com/privacy-policy){ .card-link title="Privacybeleid" }
+[:octicons-info-16:](https://protonvpn.com/support){ .card-link title="Documentatie" }
+[:octicons-code-16:](https://github.com/ProtonVPN){ .card-link title="Broncode" }
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
@@ -66,13 +66,13 @@ Our recommended providers use encryption, support WireGuard & OpenVPN, and have 
 
 </div>
 
-#### :material-check:{ .pg-green } 127 Countries
+#### :material-check:{ .pg-green } 127 Landen
 
-Proton VPN has [servers in 127 countries](https://protonvpn.com/vpn-servers)(1) or [10](https://protonvpn.com/support/how-to-create-free-vpn-account) if you use their [free plan](https://protonvpn.com/blog/product-roadmap-winter-2025-2026).(2) Picking a VPN provider with a server nearest to you will reduce latency of the network traffic you send. Dit komt door een kortere route (minder hops) naar de bestemming.
+Proton VPN heeft [servers in 127 landen](https://protonvpn.com/vpn-servers)(1) of [10](https://protonvpn.com/support/how-to-create-free-vpn-account) als je hun [gratis plan](https://protonvpn.com/blog/product-roadmap-winter-2025-2026) gebruikt.(2) Als je een VPN-provider kiest met een server het dichtst bij jou in de buurt, verminder je de vertraging van het netwerkverkeer dat je verstuurt. Dit komt door een kortere route (minder hops) naar de bestemming.
 { .annotate }
 
-1. Of which at least 71 are virtual servers, meaning your IP will appear from the country but the server is in another. 12 more locations have both hardware and virtual servers. [Source](https://protonvpn.com/support/how-smart-routing-works)
-2. Last checked: 2025-10-28
+1. Of which at least 71 are virtual servers, meaning your IP will appear from the country but the server is in another. Nog eens 12 locaties hebben zowel hardware- als virtuele servers. [Bron](https://protonvpn.com/support/how-smart-routing-works)
+2. Laatst gecontroleerd: 2025-10-28
 
 Wij denken ook dat het beter is voor de veiligheid van de privésleutels van de VPN-provider als ze [dedicated servers](https://en.wikipedia.org/wiki/Dedicated_hosting_service) gebruiken, in plaats van goedkopere gedeelde servers (met andere klanten) zoals [virtual private servers](https://en.wikipedia.org/wiki/Virtual_private_server).
 
@@ -123,7 +123,7 @@ We are noting this because while we don't necessarily recommend against sharing 
 
 </div>
 
-#### :material-information-outline:{ .pg-blue } Additional Notes
+#### :material-information-outline:{ .pg-blue } Aanvullende opmerkingen
 
 Proton VPN clients support two-factor authentication on all platforms. Ze bieden adblocking en het blokkeren van bekende malware domeinen met hun DNS service. They offer content blocking and known-malware blocking with their DNS service. Additionally, Proton VPN also offers "Tor" servers allowing you to easily connect to onion sites, but we still strongly recommend using [the official Tor Browser](tor.md#tor-browser) for this purpose.
 
@@ -137,12 +137,12 @@ System crashes [may occur](https://protonvpn.com/support/macos-t2-chip-kill-swit
 
 ![IVPN logo](assets/img/vpn/ivpn.svg){ align=right }
 
-**IVPN** is een premium VPN-provider en zijn actief sinds 2009. IVPN is based in Gibraltar and does not offer a free trial.
+**IVPN** is een premium VPN-provider en zijn actief sinds 2009. IVPN is gevestigd in Gibraltar en biedt geen gratis proefversie.
 
 [:octicons-home-16: Homepage](https://ivpn.net){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://ivpn.net/privacy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://ivpn.net/knowledgebase/general){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/ivpn){ .card-link title="Source Code" }
+[:octicons-eye-16:](https://ivpn.net/privacy){ .card-link title="Privacybeleid" }
+[:octicons-info-16:](https://ivpn.net/knowledgebase/general){ .card-link title="Documentatie" }
+[:octicons-code-16:](https://github.com/ivpn){ .card-link title="Broncode" }
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
@@ -159,12 +159,12 @@ System crashes [may occur](https://protonvpn.com/support/macos-t2-chip-kill-swit
 
 </div>
 
-#### :material-check:{ .pg-green } 41 Countries
+#### :material-check:{ .pg-green } 41 Landen
 
 IVPN has [servers in 41 countries](https://ivpn.net/status).(1) Picking a VPN provider with a server nearest to you will reduce latency of the network traffic you send. Dit komt door een kortere route (minder hops) naar de bestemming.
 { .annotate }
 
-1. Last checked: 2025-10-28
+1. Laatst gecontroleerd: 2025-10-28
 
 Wij denken ook dat het beter is voor de veiligheid van de privésleutels van de VPN-provider als ze [dedicated servers](https://en.wikipedia.org/wiki/Dedicated_hosting_service) gebruiken, in plaats van goedkopere gedeelde servers (met andere klanten) zoals [virtual private servers](https://en.wikipedia.org/wiki/Virtual_private_server).
 
@@ -186,7 +186,7 @@ IVPN ondersteunt het WireGuard® protocol. [WireGuard](https://wireguard.com) is
 
 IVPN [recommends](https://ivpn.net/wireguard) the use of WireGuard with their service and, as such, the protocol is the default on all of IVPN's apps. IVPN also offers a WireGuard configuration generator for use with the official WireGuard [apps](https://wireguard.com/install).
 
-#### :material-information-outline:{ .pg-blue } IPv6 Support
+#### :material-information-outline:{ .pg-blue } IPv6-ondersteuning
 
 IVPN allows you to [connect to services using IPv6](https://ivpn.net/knowledgebase/general/do-you-support-ipv6) but doesn't allow you to connect from a device using an IPv6 address.
 
@@ -202,9 +202,9 @@ IVPN has obfuscation modes using [V2Ray](https://v2ray.com/en/index) which helps
 
 IVPN has published [App Store](https://apps.apple.com/app/id1193122683) and [Google Play](https://play.google.com/store/apps/details?id=net.ivpn.client) clients, both supporting an easy-to-use interface as opposed to requiring you to manually configure your WireGuard connection. The Android client is also available on [GitHub](https://github.com/ivpn/android-app/releases).
 
-#### :material-information-outline:{ .pg-blue } Additional Notes
+#### :material-information-outline:{ .pg-blue } Aanvullende opmerkingen
 
-IVPN clients support two-factor authentication. IVPN also provides "[AntiTracker](https://ivpn.net/antitracker)" functionality, which blocks advertising networks and trackers from the network level.
+IVPN-clients ondersteunen tweestapsverificatie. IVPN also provides "[AntiTracker](https://ivpn.net/antitracker)" functionality, which blocks advertising networks and trackers from the network level.
 
 ### Mullvad
 
@@ -212,13 +212,13 @@ IVPN clients support two-factor authentication. IVPN also provides "[AntiTracker
 
 ![Mullvad logo](assets/img/vpn/mullvad.svg){ align=right }
 
-**Mullvad** is een snelle en goedkope VPN met een serieuze focus op transparantie en veiligheid. They have been in operation since 2009. Mullvad is based in Sweden and offers a 14-day money-back guarantee for [payment methods](https://mullvad.net/en/help/refunds) that allow it.
+**Mullvad** is een snelle en goedkope VPN met een serieuze focus op transparantie en veiligheid. Ze zijn actief sinds 2009. Mullvad is based in Sweden and offers a 14-day money-back guarantee for [payment methods](https://mullvad.net/en/help/refunds) that allow it.
 
 [:octicons-home-16: Homepage](https://mullvad.net){ .md-button .md-button--primary }
 [:simple-torbrowser:](http://o54hon2e2vj6c7m3aqqu6uyece65by3vgoxxhlqlsvkmacw6a7m7kiad.onion){ .card-link title="Onion Service" }
-[:octicons-eye-16:](https://mullvad.net/en/help/privacy-policy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://mullvad.net/en/help){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/mullvad){ .card-link title="Source Code" }
+[:octicons-eye-16:](https://mullvad.net/en/help/privacy-policy){ .card-link title="Privacybeleid" }
+[:octicons-info-16:](https://mullvad.net/en/help){ .card-link title="Documentatie" }
+[:octicons-code-16:](https://github.com/mullvad){ .card-link title="Broncode" }
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
@@ -234,12 +234,12 @@ IVPN clients support two-factor authentication. IVPN also provides "[AntiTracker
 
 </div>
 
-#### :material-check:{ .pg-green } 49 Countries
+#### :material-check:{ .pg-green } 49 Landen
 
 Mullvad has [servers in 49 countries](https://mullvad.net/servers).(1) Picking a VPN provider with a server nearest to you will reduce latency of the network traffic you send. Dit komt door een kortere route (minder hops) naar de bestemming.
 { .annotate }
 
-1. Last checked: 2025-10-28
+1. Laatst gecontroleerd: 2025-10-28
 
 Wij denken ook dat het beter is voor de veiligheid van de privésleutels van de VPN-provider als ze [dedicated servers](https://en.wikipedia.org/wiki/Dedicated_hosting_service) gebruiken, in plaats van goedkopere gedeelde servers (met andere klanten) zoals [virtual private servers](https://en.wikipedia.org/wiki/Virtual_private_server).
 
@@ -282,7 +282,7 @@ Mullvad offers several features to help bypass censorship and access the interne
 
 Mullvad has published [App Store](https://apps.apple.com/app/id1488466513) and [Google Play](https://play.google.com/store/apps/details?id=net.mullvad.mullvadvpn) clients, both supporting an easy-to-use interface as opposed to requiring you to manually configure your WireGuard connection. De Android client is ook beschikbaar op [GitHub](https://github.com/mullvad/mullvadvpn-app/releases).
 
-#### :material-information-outline:{ .pg-blue } Additional Notes
+#### :material-information-outline:{ .pg-blue } Aanvullende opmerkingen
 
 Mullvad is very transparent about which nodes they [own or rent](https://mullvad.net/en/servers). They also provide the option to enable Defense Against AI-guided Traffic Analysis ([DAITA](https://mullvad.net/en/blog/daita-defense-against-ai-guided-traffic-analysis)) in their apps. DAITA protects against the threat of advanced traffic analysis which can be used to connect patterns in VPN traffic with specific websites.
 
