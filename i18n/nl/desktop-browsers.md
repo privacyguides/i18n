@@ -97,7 +97,7 @@ Andere wijzigingen zouden jouw vingerafdruk uniek maken, wat het doel van het ge
 
 ### Anti-Vingerafdrukken
 
-**Without** using a [VPN](vpn.md), Mullvad Browser provides protections against [naive fingerprinting scripts](https://github.com/arkenfox/user.js/wiki/3.3-Overrides-%5BTo-RFP-or-Not%5D#-fingerprinting) similar to other private browsers like Firefox+[Arkenfox](#arkenfox-advanced) or [Brave](#brave). Mullvad Browser biedt deze bescherming, ten koste van enige mate van flexibiliteit en gemak die andere privé-browsers kunnen bieden.
+**Zonder** een [VPN](vpn.md) te gebruiken, biedt Mullvad Browser bescherming tegen [naïeve fingerprinting scripts](https://github.com/arkenfox/user.js/wiki/3.3-Overrides-%5BTo-RFP-or-Not%5D#-fingerprinting), vergelijkbaar met andere privébrowsers zoals Firefox+[Arkenfox](#arkenfox-advanced) of [Brave](#brave). Mullvad Browser biedt deze bescherming, ten koste van enige mate van flexibiliteit en gemak die andere privé-browsers kunnen bieden.
 
 ==Voor de sterkste bescherming tegen vingerafdrukken raden we aan Mullvad Browser te gebruiken in combinatie **met** een VPN==, of dat nu Mullvad is of een andere aanbevolen VPN-provider. Wanneer je een VPN met Mullvad Browser gebruikt, deelt je een vingerafdruk en een pool van IP-adressen met vele andere gebruikers, waardoor je een "menigte" krijgt om in op te gaan. Deze strategie is de enige manier om geavanceerde volgscripts te dwarsbomen, en is dezelfde anti-vingerafdruk techniek die Tor Browser gebruikt.
 
