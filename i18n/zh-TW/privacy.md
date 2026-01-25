@@ -19,60 +19,60 @@ Privacy Guides 是由許多活動的貢獻者運作的社群專案。 團隊成�
 
 此外，當您在 [shop.privacyguides.org](https://shop.privacyguides.org/) 上瀏覽或購物時，這是由 Fourthwall 提供的第三方服務。 Fourthwall 已發佈涵蓋該平台的[獨立隱私權政策](https://shop.privacyguides.org/pages/privacy-policy)。
 
-## How does Privacy Guides collect data about me?
+## Privacy Guides 如何蒐集我的資料？
 
-Privacy Guides collects data about you:
+Privacy Guides 蒐集關於您的資料：
 
-- When you visit our websites
-- When you create and use an account on our websites
-- When you post, send private messages, and otherwise participate in a community that Privacy Guides hosts
-- When you sign up for a mailing list, email notifications, or announcements
-- When you become a donating member
-- When you make a donation to us on GitHub Sponsors
-- When you link your MAGIC Grants account to your Privacy Guides forum account
-- When you contribute to our website or other open-source projects
-- When you contact us
+- 當您造訪我們的網站時
+- 當您在我們的網站上建立並使用帳號時
+- 當您在 Privacy Guides 主持的社群中張貼、傳送私人訊息或以其他方式參與時
+- 當您註冊郵遞論壇、電子郵件通知或公告時
+- 當您成為捐款會員時
+- 當您在 GitHub Sponsors 上捐款給我們時
+- 當您將 MAGIC Grants 帳號連結至 Privacy Guides 論壇帳號時
+- 當您為我們的網站或其他開放原始碼專案貢獻時
+- 當您聯絡我們時
 
-Privacy Guides does not buy or receive data about you from data brokers.
+Privacy Guides 不會從資料掮客購買或接收關於您的資料。
 
-## Does Privacy Guides sell my personal information?
+## Privacy Guides 會出售我的個人資訊嗎？
 
-不。 Privacy Guides does not sell personal information. Additionally, Privacy Guides does not share personal information with third parties for the purpose of advertising.
+不。 Privacy Guides 不會出售個人資訊。 此外，Privacy Guides 不會為廣告目的與第三方分享個人資訊。
 
-## What personal information does Privacy Guides collect, and why?
+## Privacy Guides 會蒐集哪些個人資訊，以及原因為何？
 
-### Privacy Guides collects information about visits to its websites
+### Privacy Guides 會蒐集瀏覽其網站的相關資訊
 
-When you visit one of our websites, whether you have an account or not, we use server logs and other methods to collect data about what pages you visit and when.
+當您造訪我們的網站時，不管您是否有帳號，我們都會使用伺服器紀錄檔與其他方法來蒐集關於您造訪哪些頁面以及造訪時間的資料。
 
-We use this data to:
+我們使用這些資料來：
 
-- Optimize our websites, so they are quick and easy to use.
-- Diagnose and debug technical errors.
-- Defend our websites from abuse and technical attacks.
-- Compile statistics on page/topic popularity.
-- Compile statistics on the type of browser and devices our visitors use.
+- 改善我們的網站，使其快速且易於使用。
+- 診斷與排除技術錯誤。
+- 保護我們的網站免於濫用與技術攻擊。
+- 彙整頁面/主題熱門度統計資料。
+- 彙整訪客使用的瀏覽器類型與裝置統計資料。
 
-We generally store the above information for just a few weeks. In special circumstances, such as during an ongoing technical attack or a subsequent investigation, we may preserve some log data longer for analysis.
+我們通常只會儲存以上資料數週。 在特殊情況下（例如在持續的技術攻擊或後續調查期間），我們可能會保留某些紀錄檔較長時間以進行分析。
 
-Privacy Guides stores aggregated statistics for as long as we host our websites, but those statistics do not contain data identifiable to you personally.
+只要我們繼續託管我們的網站，Privacy Guides 就會儲存彙總的統計資料，但這些資料並不包含可辨識您個人身份的資料。
 
-### Privacy Guides collects account data
+### Privacy Guides 蒐集帳號資料
 
-Many features on our forum or other account-based services require an account. For example, you are required to have an account in order to post and reply to topics.
+我們論壇上的許多功能或其他以帳號為基礎的服務都需要帳號。 舉例來說，您必須擁有帳號才能張貼與回覆主題。
 
-To sign up for an account, Privacy Guides requires your email address, a username, and a password.
+要註冊帳號，Privacy Guides 需要您的電子郵件地址、使用者名稱與密碼。
 
-We use this account data in order to identify you on the website, and to create pages specific to you, such as your profile page. We publish your account data to your public profile in accordance to your profile's configuration.
+我們使用此帳號資料，以便在網站上辨識您的身份，並為您建立專屬頁面，例如您的個人檔案頁面。 我們會根據您的個人資料設定，將您的帳號發佈到您的公開個人資料中。
 
-Privacy Guides uses your email address to:
+Privacy Guides 使用您的電子郵件地址來：
 
-- Notify you about posts and other activity on our website.
-- Reset your password and help keep your account secure.
-- Contact you in special circumstances related to your account.
-- Contact you about legal requests, like DMCA takedown requests.
+- 通知您關於網站或服務上的貼文與其他活動。
+- 重設密碼並協助確保帳號安全。
+- 在與您的帳號相關的特殊狀況下與您聯絡。
+- 就法律要求與您聯絡，例如《數位千禧年著作權法》的刪除通知要求。
 
-You may optionally provide additional details about your account, like your name, a short biography, your location, or your birthday, on the profile settings page for your account. Privacy Guides makes that information available to others who have access to the forum. You don’t have to provide this additional information, and you can erase it at any time.
+您可選擇在帳號的個人資料設定頁面提供更多帳號相關資訊，例如姓名、簡介、所在地或生日等。 Privacy Guides 會將該等資訊提供給可以造訪論壇的其他人。 您無需提供此額外資訊，且可隨時刪除。
 
 Privacy Guides stores this account data as long as your account remains open.
 
