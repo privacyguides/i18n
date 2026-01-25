@@ -74,19 +74,19 @@ Privacy Guides 使用您的電子郵件地址來：
 
 您可選擇在帳號的個人資料設定頁面提供更多帳號相關資訊，例如姓名、簡介、所在地或生日等。 Privacy Guides 會將該等資訊提供給可以造訪論壇的其他人。 您無需提供此額外資訊，且可隨時刪除。
 
-Privacy Guides stores this account data as long as your account remains open.
+只要您的帳號維持啟用狀態，Privacy Guides 便會儲存此帳號資料。
 
-### Privacy Guides collects data about posts and other activity
+### Privacy Guides 會蒐集關於貼文與其他活動的資料
 
-Privacy Guides collects the content of your posts throughout our websites, plus data about bookmarks, likes, and links you follow in order to share that data with others. We also publish this activity to the public when you request it.
+Privacy Guides 會蒐集您在我們網站上發佈的內容，以及書籤、按讚的項目與您點選的連結等資料，以便與其他人分享這些資料。 當您提出要求時，我們亦會將此活動對外公開。
 
-Privacy Guides also collects data about private messages that you send through the forum. Privacy Guides makes private messages available to senders and their recipients, and also to forum moderators and administrators.
+Privacy Guides 也會蒐集您透過論壇傳送的私人訊息資料。 Privacy Guides 會讓寄件者與其收件者，以及論壇版主與管理員看到私人訊息。
 
-Privacy Guides stores your posts and other activity as long as your account remains open.
+Privacy Guides 會在您的帳號維持開啟的狀態下，持續儲存您的貼文及其他活動紀錄。
 
-### Privacy Guides collects data you give to sign up for mailing lists and announcements
+### Privacy Guides 會蒐集您註冊郵遞論壇與公告時所提供的資料
 
-When you fill out and submit a web form to sign up for mailing lists or announcements, Privacy Guides collects the information you put in the form, such as your e-mail address.
+當您填寫並遞交郵遞論壇或公告的網路表單時，Privacy Guides 會蒐集您在表單中填寫的資訊，例如您的電子郵件地址。
 
 Privacy Guides stores this information until you unsubscribe from the mailing list.
 
@@ -144,35 +144,35 @@ Our website also uses Session Storage to cache the current version number of thi
 
 Our website uses features from the open-source Ghost content management system to manage your membership experience, which uses the following cookies:
 
-| Name                                                                        | Essential | Expires  | Purpose                                                                                                                |
-| --------------------------------------------------------------------------- | --------- | -------- | ---------------------------------------------------------------------------------------------------------------------- |
-| ghost-members-ssr                                                           | Yes       | 6 months | used to identify your membership on the website                                                                        |
-| ghost-members-ssr.sig                                       | Yes       | 6 months | used to validate your membership on the website                                                                        |
-| __stripe_sid | Yes       | 1 year   | [Stripe](#subprocessors-used-by-privacy-guides) allows online transactions without storing any credit card information |
-| __stripe_mid | Yes       | 1 year   | [Stripe](#subprocessors-used-by-privacy-guides) allows online transactions without storing any credit card information |
+| Name                                                                        | Essential | Expires | 用途                                                                      |
+| --------------------------------------------------------------------------- | --------- | ------- | ----------------------------------------------------------------------- |
+| ghost-members-ssr                                                           | 是         | 6個月     | 用來辨識您在網站上的會員身份                                                          |
+| ghost-members-ssr.sig                                       | 是         | 6個月     | 用來驗證您在網站上的會員資格                                                          |
+| __stripe_sid | 是         | 1年      | [Stripe](#subprocessors-used-by-privacy-guides) 允許在不儲存任何信用卡資訊的情況下進行線上交易 |
+| __stripe_mid | 是         | 1年      | [Stripe](#subprocessors-used-by-privacy-guides) 允許在不儲存任何信用卡資訊的情況下進行線上交易 |
 
-### The Privacy Guides forum uses cookies
+### Privacy Guides 論壇使用 cookie
 
-Our forum is built on Discourse, which uses the following cookies:
+我們的論壇建基於 Discourse 平台，使用以下 cookie：
 
-| Name                                                          | Essential | Expires        | Purpose                                                                                                                   |
-| ------------------------------------------------------------- | --------- | -------------- | ------------------------------------------------------------------------------------------------------------------------- |
-| email                                                         | Yes       | Session        | remembers your e-mail as you create an account                                                                            |
-| destination_url                          | Yes       | Session        | helps redirect you to your requested page after logging in                                                                |
-| sso_destination_url | Yes       | Session        | helps redirect you to your request page after single sign on                                                              |
-| sso_payload                              | Yes       | Session        | used during SSO authentication when two-factor authentication is enabled                                                  |
-| authentication_data                      | Yes       | Next Page View | temporarily stores user information during login flows                                                                    |
-| theme_ids                                | Yes       | 1 year         | remembers your theme personalization if you don’t tick “Make this my default theme on all my devices”                     |
-| color_scheme_id     | Yes       | 1 year         | remembers your color personalization if you don’t tick “Set default color scheme(s) on all my devices” |
-| dark_scheme_id      | Yes       | 1 year         | remembers your color personalization if you don’t tick “Set default color scheme(s) on all my devices” |
-| cn                                                            | Yes       | Session        | temporarily stores notification read state                                                                                |
-| _bypass_cache       | Yes       | Session        | allows the server-side cache to be bypassed during login flows                                                            |
-| _t                                       | Yes       | 1440 Hours     | remembers who you are when you log in                                                                                     |
-| _forum_session      | Yes       | Session        | associates an ID, and other security-related information, with your browsing session                                      |
-| dosp                                                          | Yes       | Next Page View | enables client denial of service protection, a security protection                                                        |
-| text_size                                | Yes       | 1 year         | remembers default text size when a user wants to change it on only one device                                             |
-| cookietest                                                    | Yes       | Session        | checks if cookies are enabled when authentication fails                                                                   |
-| __profilin          | 不採納       | Session        | used by software developers to bypass rack-mini-profiler                                                                  |
+| 名稱                                                            | 基本  | 到期         | 用途                                                                                   |
+| ------------------------------------------------------------- | --- | ---------- | ------------------------------------------------------------------------------------ |
+| 電子郵件                                                          | 是   | Session    | 在您建立帳號時會記住您的電子郵件                                                                     |
+| destination_url                          | 是   | Session    | 協助您登入後重新導向至您所請求的頁面                                                                   |
+| sso_destination_url | 是   | Session    | 協助將您重新導向至單一登入後的請求頁面                                                                  |
+| sso_payload                              | 是   | Session    | 在啟用雙重驗證時，於單一登入驗證過程中使用                                                                |
+| authentication_data                      | 是   | 下一頁檢視      | 在登入流程中暫時儲存使用者資訊                                                                      |
+| theme_ids                                | 是   | 1年         | 若您未勾選「將此設為所有裝置的預設佈景主題」，系統將記住您的佈景主題自訂設定                                               |
+| color_scheme_id     | 是   | 1年         | 若您未勾選「在所有裝置上設定預設配色方案」，系統將記住您的個人化配色設定                                                 |
+| dark_scheme_id      | 是   | 1年         | 若您未勾選「在所有裝置上設定預設配色方案」，系統將記住您的個人化配色設定                                                 |
+| cn                                                            | 是   | Session    | temporarily stores notification read state                                           |
+| _bypass_cache       | 是   | Session    | allows the server-side cache to be bypassed during login flows                       |
+| _t                                       | 是   | 1440 Hours | remembers who you are when you log in                                                |
+| _forum_session      | 是   | Session    | associates an ID, and other security-related information, with your browsing session |
+| dosp                                                          | 是   | 下一頁檢視      | enables client denial of service protection, a security protection                   |
+| text_size                                | 是   | 1年         | remembers default text size when a user wants to change it on only one device        |
+| cookietest                                                    | 是   | Session    | checks if cookies are enabled when authentication fails                              |
+| __profilin          | 不採納 | Session    | used by software developers to bypass rack-mini-profiler                             |
 
 Your web browser can show you the cookies you have for any website and help you manage them.
 
@@ -222,31 +222,31 @@ Information about how to exercise these rights is provided throughout this notic
 
 ### What is the lawful basis for data collection and processing?
 
-Privacy Guides generally processes your data using 3 of the 6 lawful bases for processing set out in Article 6 of the GDPR:
+Privacy Guides 通常依據 GDPR 第 6 條所列的六項合法處理依據中的三項來處理您的資料：
 
-- **Consent**: When you give us clear consent for us to process your personal data. This consent can be easily withdrawn at any time in your account settings, or you may always contact us for assistance with privacy-related matters.
-- **Contract**: When you give us your personal data in order to participate on services we operate according to our terms of service, or when we require personal data in order to take steps prior to entering a contract or to fulfill a contract.
-- **Legitimate interest**: When we process your personal data for fraud prevention, network and information security, or other reasons where the processing is required for our own legitimate interests or for those of a third party we work with.
+- **同意**：當您明確同意我們處理您的個人資料時。 您可隨時在帳號設定中輕鬆撤回此同意，或隨時聯絡我們以獲取隱私相關事宜的協助。
+- **合約**：當您提供個人資料以參與我們依據服務條款營運的服務時，或當我們為簽訂合約前採取必要步驟或履行合約而要求個人資料時。
+- **合法利益**：當我們基於防範詐欺、維護網路與資訊安全，或其他為實現自身合法利益或合作第三方合法利益所必需之目的處理您的個人資料時。
 
-The lawful basis for our processing determines what rights are available to you under the GDPR. This table may be used as a reference:
+我們處理資料的合法依據決定了您在 GDPR 下可享有的權利。 此表格可作為參考：
 
-| Activity                                                                                                          | Data Collected                                                                         | Lawful Basis            | Explanation                                                                                                                                                                                                      |
-| ----------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------- | ----------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [Website visits](#privacy-guides-collects-information-about-visits-to-its-websites)                               | IP Address, User Agent, Pages Visited                                                  | **Legitimate interest** | Required for defending our website from abuse and technical attacks, diagnosing and debugging technical errors, optimizing our websites, and compiling aggregated non-personal statistics for long-term analysis |
-| [Account data](#privacy-guides-collects-account-data)                                                             | Email Address, IP Address                                                              | **Legitimate interest** | Required to defend our website against spam and abuse                                                                                                                                                            |
-| [Account data](#privacy-guides-collects-account-data)                                                             | Email Address, Username, Password                                                      | **Contract**            | Required to make our services available to you according to our terms of service                                                                                                                                 |
-| [Account data](#privacy-guides-collects-account-data)                                                             | Optional profile information (name, location, etc.) | **Consent**             | Required to publish the information you provide to your public or internal profile, according to your preferences                                                                                                |
-| [Posts & activity](#privacy-guides-collects-data-about-posts-and-other-activity-on-our-forum) | Content of your posts, activity data like bookmarks, likes, and links you follow       | **Contract**            | Required to make our services available to you according to our terms of service                                                                                                                                 |
-| [Posts & activity](#privacy-guides-collects-data-about-posts-and-other-activity-on-our-forum) | Content of your private messages                                                       | **Contract**            | Required to make our services available to you according to our terms of service                                                                                                                                 |
-| [Posts & activity](#privacy-guides-collects-data-about-posts-and-other-activity-on-our-forum) | Email Address                                                                          | **Contract**            | Our forum is an email-based platform, and email notifications about forum activity are an integral component required to make our services available to you according to our terms of service                    |
-| [Mailing lists](#privacy-guides-collects-data-you-give-to-sign-up-for-mailing-lists-and-announcements)            | Email Address                                                                          | **Consent**             | Required for sending you messages you subscribe to                                                                                                                                                               |
-| [Open source contributions](#privacy-guides-collects-data-about-open-source-contributors)                         | Email address, name, GitHub profile information, other information provided via Git    | **Legitimate interest** | We have a legitimate interest in tracking the provenance of contributions to our open source projects to prevent abuse and ensure intellectual property rights are respected                                     |
-| [Donations](#privacy-guides-collects-data-when-you-donate-to-us)                                                  | Payment information including billing address and email, GitHub profile information    | **Legitimate interest** | We have a legitimate interest in processing this data to prevent payment abuse and fraud, and for facilitating your transaction                                                                                  |
-| [Donations](#privacy-guides-collects-data-when-you-donate-to-us)                                                  | GitHub profile information                                                             | **Consent**             | We process this information to display your donation status publicly in accordance to your wishes                                                                                                                |
-| [Donations](#privacy-guides-collects-data-when-you-donate-to-us)                                                  | Forum username and membership status                                                   | **Consent**             | When your membership is linked to your forum account, you can optionally display your membership status to the public                                                                                            |
-| [Contacting us](#privacy-guides-collects-data-when-you-contact-us)                                                | Email address, mail server IP, message content                                         | **Legitimate interest** | We have a legitimate interest in processing incoming email information to prevent spam and network abuse                                                                                                         |
-| [Contacting us](#privacy-guides-collects-data-when-you-contact-us)                                                | Email address, message headers and content                                             | **Contract**            | We store your messages and process your data in order to provide a response to your communication                                                                                                                |
-| [Backups](#privacy-guides-makes-regular-backups-of-all-data)                                                      | All personal information we collect                                                    | **Legitimate interest** | We store complete backups to ensure organizational continuity and security for up to 30 days                                                                                                                     |
+| 活動                                                                                            | 已蒐集的資料                                         | 合法依據     | 解釋                                                                                                                              |
+| --------------------------------------------------------------------------------------------- | ---------------------------------------------- | -------- | ------------------------------------------------------------------------------------------------------------------------------- |
+| [造訪網站](#privacy-guides-collects-information-about-visits-to-its-websites)                     | IP 位址、使用者代理字串、瀏覽的頁面                            | **合法權益** | 為防範網站遭受濫用與技術攻擊、診斷及排除技術錯誤、改善網站運作，以及彙整非個人化統計資料以供長期分析之用                                                                            |
+| [帳號資料](#privacy-guides-collects-account-data)                                                 | 電子郵件地址、IP 位址                                   | **合法權益** | 為防範垃圾訊息與濫用行為，本網站需採取防護措施                                                                                                         |
+| [帳號資料](#privacy-guides-collects-account-data)                                                 | 電子郵件地址、使用者名稱、密碼                                | **合約**   | 根據我們的服務條款，我們必須向您提供服務                                                                                                            |
+| [帳號資料](#privacy-guides-collects-account-data)                                                 | 選擇性個人資料（姓名、所在地等）                               | **同意**   | 根據您的偏好設定，要求將您提供的資訊發佈至您的公開或內部個人檔案                                                                                                |
+| [貼文與活動](#privacy-guides-collects-data-about-posts-and-other-activity-on-our-forum)            | 您的貼文內容、活動資料，例如書籤、讚以及您追蹤的連結                     | **合約**   | 根據我們的服務條款，我們必須向您提供服務                                                                                                            |
+| [貼文與活動](#privacy-guides-collects-data-about-posts-and-other-activity-on-our-forum)            | 您的私人訊息內容                                       | **合約**   | 根據我們的服務條款，我們必須向您提供服務                                                                                                            |
+| [貼文與活動](#privacy-guides-collects-data-about-posts-and-other-activity-on-our-forum)            | 電子郵件地址                                         | **合約**   | 我們的論壇是一個基於電子郵件的平台，而關於論壇活動的電子郵件通知，是根據我們的服務條款向您提供服務所必需的組成部分                                                                       |
+| [郵遞論壇](#privacy-guides-collects-data-you-give-to-sign-up-for-mailing-lists-and-announcements) | 電子郵件地址                                         | **同意**   | 為向您發送您訂閱的訊息所需                                                                                                                   |
+| [開放原始碼貢獻](#privacy-guides-collects-data-about-open-source-contributors)                       | 電子郵件地址、姓名、GitHub 個人資料資訊、其他透過 Git 提供的資訊         | **合法權益** | 我們有合法權益追蹤開放原始碼專案的貢獻來源，以防止濫用並確保智慧財產權受到尊重                                                                                         |
+| [捐款](#privacy-guides-collects-data-when-you-donate-to-us)                                     | 付款資訊（包含帳單地址與電子郵件）、GitHub 個人檔案資訊                | **合法權益** | We have a legitimate interest in processing this data to prevent payment abuse and fraud, and for facilitating your transaction |
+| [捐款](#privacy-guides-collects-data-when-you-donate-to-us)                                     | GitHub profile information                     | **同意**   | We process this information to display your donation status publicly in accordance to your wishes                               |
+| [捐款](#privacy-guides-collects-data-when-you-donate-to-us)                                     | Forum username and membership status           | **同意**   | When your membership is linked to your forum account, you can optionally display your membership status to the public           |
+| [Contacting us](#privacy-guides-collects-data-when-you-contact-us)                            | Email address, mail server IP, message content | **合法權益** | We have a legitimate interest in processing incoming email information to prevent spam and network abuse                        |
+| [Contacting us](#privacy-guides-collects-data-when-you-contact-us)                            | Email address, message headers and content     | **合約**   | We store your messages and process your data in order to provide a response to your communication                               |
+| [Backups](#privacy-guides-makes-regular-backups-of-all-data)                                  | All personal information we collect            | **合法權益** | We store complete backups to ensure organizational continuity and security for up to 30 days                                    |
 
 ### Does Privacy Guides make international data transfers?
 
