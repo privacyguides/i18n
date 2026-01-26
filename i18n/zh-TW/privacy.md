@@ -88,25 +88,25 @@ Privacy Guides 會在您的帳號維持開啟的狀態下，持續儲存您的�
 
 當您填寫並遞交郵遞論壇或公告的網路表單時，Privacy Guides 會蒐集您在表單中填寫的資訊，例如您的電子郵件地址。
 
-Privacy Guides stores this information until you unsubscribe from the mailing list.
+Privacy Guides 將儲存此資訊，直到您取消訂閱郵件列表為止。
 
-### Privacy Guides does not collect sensitive personal information
+### Privacy Guides 不會蒐集敏感的個人資訊
 
-Privacy Guides does not intentionally collect sensitive personal information, such as government identification numbers, information on racial or ethnic origin, political opinions, genetic data, biometric data, health data, or any of the special categories of personal data specified by the GDPR.
+Privacy Guides 不會故意蒐集敏感個人資訊，例如政府識別號碼、種族或民族背景資訊、政治觀點、基因資料、生物特徵資料、健康資料，或 GDPR 所規定的任何特殊類別個人資料。
 
-### Privacy Guides collects data about open source contributors
+### Privacy Guides 會蒐集關於開放原始碼貢獻者的資料
 
-Contributors to Privacy Guides' website may be asked to provide identifying and contact information such as your name and email address.
+Privacy Guides 網站的貢獻者可能會被要求提供識別資訊與聯絡資訊，例如您的姓名與電子郵件地址。
 
-Privacy Guides uses this information to maintain the integrity of our website, software, and license agreements, both our own licenses and the license between Privacy Guides and our contributors. Privacy Guides stores this information for as long as your contributions are incorporated into our open source software, including this website.
+Privacy Guides 使用此資訊維護我們網站、軟體與授權條款的完整性，包含我們自己的授權條款以及 Privacy Guides 與我們的貢獻者間的授權條款。 只要您的貢獻被納入我們的開放原始碼軟體（包含此網站），Privacy Guides 就會一直儲存這些資訊。
 
-### Privacy Guides collects data when you donate to us
+### Privacy Guides 會在您捐款給我們時蒐集資料
 
-#### When you subscribe to a membership on privacyguides.org
+#### 當您在 privacyguides.org 上訂閱會員資格時
 
-When you donate to us through our [membership program](#/portal), we collect your email address. Your payment information is also collected by our payment processor Stripe in order to facilitate the transaction. You can also optionally provide your name, which is used to personalize your experience, and can be removed or changed in your [profile settings](#/portal/account/profile) at any time.
+當您透過我們的[會員計畫](#/portal)捐款給我們時，我們會蒐集您的電子郵件地址。 您的付款資訊亦會由我們的付款處理服務供應商 Stripe 蒐集，以利交易進行。 您也可以選擇性提供您的名字，這會用來個人化您的體驗，您隨時都可以在您的[個人檔案設定](#/portal/account/profile)中移除或變更您的姓名。
 
-If your membership and newsletter subscription matches an email address associated with an account on our forum, we will link your membership status to your forum account. This allows you to receive special perks on the forum, such as a members-only title or flair, and access to members-only categories.
+若您的會員資格與電子報訂閱資訊與我們論壇帳號關聯的電子郵件地址相符，我們將會把您的會員狀態連結至您的論壇帳號。 這使您能在論壇上獲得特殊福利，例如會員專屬頭銜或徽章，並可瀏覽會員專屬版塊。
 
 If the Member title or Member flair is enabled on your forum profile, Privacy Guides will share your username and profile picture on our websites for the purposes of acknowledging your donation to the project. You may revoke this consent at any time by removing the title and flair from your public profile, and we will no longer share your donation status publicly. This will not affect your access to members-only benefits. It may take until the next website release for your data to be removed from public visibility.
 
