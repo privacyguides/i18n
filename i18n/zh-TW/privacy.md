@@ -108,71 +108,71 @@ Privacy Guides 使用此資訊維護我們網站、軟體與授權條款的完�
 
 若您的會員資格與電子報訂閱資訊與我們論壇帳號關聯的電子郵件地址相符，我們將會把您的會員狀態連結至您的論壇帳號。 這使您能在論壇上獲得特殊福利，例如會員專屬頭銜或徽章，並可瀏覽會員專屬版塊。
 
-If the Member title or Member flair is enabled on your forum profile, Privacy Guides will share your username and profile picture on our websites for the purposes of acknowledging your donation to the project. You may revoke this consent at any time by removing the title and flair from your public profile, and we will no longer share your donation status publicly. This will not affect your access to members-only benefits. It may take until the next website release for your data to be removed from public visibility.
+若您的論壇個人檔案啟用了會員頭銜或會員徽章功能，Privacy Guides 將為表彰您對本專案的捐款，於我們的網站上公開您的使用者名稱與個人檔案照片。 您可隨時透過從公開個人檔案中移除頭銜與徽章來撤銷此同意，屆時我們將不再公開分享您的捐款狀態。 這不會影響您使用會員專屬福利的權利。 您的資料可能需要等到下一次網站更新後，才會從公開可見範圍中移除。
 
-#### When you donate to us via GitHub Sponsors
+#### 當您透過 GitHub Sponsors 捐款給我們時
 
-When you donate to us on GitHub Sponsors, we collect your GitHub username and profile picture. Your payment information is also collected by our subprocessors GitHub and Stripe in order to facilitate the transaction.
+當您透過 GitHub Sponsors 向我們捐款時，我們會蒐集您的 GitHub 使用者名稱與個人檔案照片。 為促進交易進行，您的付款資訊亦會由我們的次級處理者 GitHub 與 Stripe 蒐集。
 
-If you choose to make your donation public during or after the checkout process on GitHub, Privacy Guides will share your username and profile picture on our websites for the purposes of fulfilling your request. You may revoke this consent at any time, and we will no longer share your donation status publicly. It may take until the next website release for your data to be removed from public visibility.
+若您選擇在 GitHub 結帳過程中或結帳後公開您的捐款，Privacy Guides 將為滿足您的要求，在我們的網站上分享您的使用者名稱與個人檔案圖片。 您可隨時撤銷此項同意，屆時我們將不再公開分享您的捐款狀態。 您的資料可能需要等到下一次網站更新後，才會從公開可見範圍中移除。
 
-#### When you subscribe to a membership or donate to us on donate.magicgrants.org
+#### 當您在 donate.magicgrants.org 訂閱會員資格或向我們捐款時
 
-When you donate to us on [donate.magicgrants.org](https://donate.magicgrants.org/privacyguides), a [separate privacy policy](https://donate.magicgrants.org/privacy) applies as noted at the beginning of this document.
+當您透過 [donate.magicgrants.org](https://donate.magicgrants.org/privacyguides) 向我們捐款時，將適用本文件開頭所述的[獨立隱私權政策](https://donate.magicgrants.org/privacy)。
 
-However, if you optionally link your `donate.magicgrants.org` account to your Privacy Guides forum account, our forum collects some personal data which is covered by this notice: namely your forum username and whether you have an active membership.
+然而，若您選擇將您的 `donate.magicgrants.org` 帳號與 Privacy Guides 論壇帳號進行連結，我們的論壇將蒐集部分受本聲明涵蓋的個人資料：具體而言，包括您的論壇使用者名稱以及您是否擁有有效會員資格。
 
-We process that information in order to grant you special perks on the forum. Additionally, if you choose to make this status public by setting a members-only title or flair, we will share the status of your active membership on our websites. You may revoke this consent at any time by removing the title and flair from your public profile, and we will no longer share your donation status publicly. This will not affect your access to members-only benefits. It may take until the next website release for your data to be removed from public visibility.
+我們處理該資訊，是為了在論壇上授予您專屬權益。 此外，若您選擇透過設定會員專屬頭銜或標誌將此狀態設為公開，我們將在網站上分享您作用中會員資格的狀態。 您可隨時透過從公開個人檔案中移除頭銜與徽章來撤銷此同意，屆時我們將不再公開分享您的捐款狀態。 這不會影響您使用會員專屬福利的權利。 您的資料可能需要等到下一次網站更新後，才會從公開可見範圍中移除。
 
-This information is stored for as long as your membership is active, or until you unlink your forum and MAGIC Grants donation accounts in your profile settings.
+此資訊將會在您的會員資格有效期間儲存，或直到您在個人設定中解除論壇與 MAGIC Grants 捐款帳號的連結為止。
 
-### Privacy Guides collects data when you contact us
+### Privacy Guides 會在您聯絡我們時蒐集資料
 
-When you contact Privacy Guides via email, Signal, or any of our other contact methods, we collect the information you submit to us, and any identifying information associated with the account you use to contact us. For example, when you contact us via Signal we will collect your Signal profile information. When you contact us via email we will collect your email address, name, and mail server IP address.
+當您透過電子郵件、Signal 或任何其他聯絡方式聯絡 Privacy Guides 時，我們會蒐集您遞交給我們的資訊，以及與您聯絡我們時使用的帳號相關的任何識別資訊。 例如，當您透過 Signal 聯絡我們時，我們會蒐集您的 Signal 個人檔案資訊。 當您透過電子郵件聯絡我們時，我們會蒐集您的電子郵件地址、姓名與郵件伺服器 IP 位址。
 
-In this case we limit the processing of any personal data you provide us to what is strictly necessary to communicate with you and organize our messages.
+在此情況下，我們將您提供給我們的任何個人資料處理範圍，嚴格限制於與您溝通及整理訊息所必需的範圍內。
 
-Privacy Guides stores this data for as long as we are in contact with you, or for up to 1 year after your last contact with us. You have the right to request all data related to your private communication with us be deleted at any time, and we will generally do so within 7 days.
+只要我們與您有聯絡，Privacy Guides 就會儲存這些資料，或在您最後一次與我們聯絡後儲存長達1年的時間。 您有權隨時要求刪除所有與您與我們之間私人通訊相關的資料，我們通常將在7天內完成刪除。
 
-### The Privacy Guides website stores local data
+### Privacy Guides 網站儲存本機資料
 
-Our website uses Local Storage in your browser to store your color scheme preference. This data is only used by client-side JavaScript to change the color scheme of this website according to your preference.
+我們的網站會在您的瀏覽器中使用「本機儲存空間」來儲存您的配色方案偏好。 此資料僅供客戶端 JavaScript 使用，用以根據您的偏好設定調整本網站的配色方案。
 
-Our website also uses Session Storage to cache the current version number of this website and the number of stars/forks of our GitHub repository. This data is fetched once per session from GitHub, and is only used by client-side JavaScript to display that information at the top of each page.
+我們的網站也會使用「工作階段儲存空間」來快取本網站的目前版本號，以及我們 GitHub 倉庫的星星與分叉數量。 此資料每個工作階段會從 GitHub 擷取一次，僅供客戶端 JavaScript 使用，用來在每個頁面的頂部顯示該資訊。
 
-### The Privacy Guides website uses cookies
+### Privacy Guides 網站會使用 cookie
 
-Our website uses features from the open-source Ghost content management system to manage your membership experience, which uses the following cookies:
+我們的網站使用開放原始碼 Ghost 內容管理系統的功能來管理您的會員體驗，該系統使用以下 cookie：
 
-| Name                                                                        | Essential | Expires | 用途                                                                      |
-| --------------------------------------------------------------------------- | --------- | ------- | ----------------------------------------------------------------------- |
-| ghost-members-ssr                                                           | 是         | 6個月     | 用來辨識您在網站上的會員身份                                                          |
-| ghost-members-ssr.sig                                       | 是         | 6個月     | 用來驗證您在網站上的會員資格                                                          |
-| __stripe_sid | 是         | 1年      | [Stripe](#subprocessors-used-by-privacy-guides) 允許在不儲存任何信用卡資訊的情況下進行線上交易 |
-| __stripe_mid | 是         | 1年      | [Stripe](#subprocessors-used-by-privacy-guides) 允許在不儲存任何信用卡資訊的情況下進行線上交易 |
+| 名字                                                                          | 基本 | 到期  | 用途                                                                      |
+| --------------------------------------------------------------------------- | -- | --- | ----------------------------------------------------------------------- |
+| ghost-members-ssr                                                           | 是  | 6個月 | 用來辨識您在網站上的會員身份                                                          |
+| ghost-members-ssr.sig                                       | 是  | 6個月 | 用來驗證您在網站上的會員資格                                                          |
+| __stripe_sid | 是  | 1年  | [Stripe](#subprocessors-used-by-privacy-guides) 允許在不儲存任何信用卡資訊的情況下進行線上交易 |
+| __stripe_mid | 是  | 1年  | [Stripe](#subprocessors-used-by-privacy-guides) 允許在不儲存任何信用卡資訊的情況下進行線上交易 |
 
 ### Privacy Guides 論壇使用 cookie
 
 我們的論壇建基於 Discourse 平台，使用以下 cookie：
 
-| 名稱                                                            | 基本  | 到期         | 用途                                                                                   |
-| ------------------------------------------------------------- | --- | ---------- | ------------------------------------------------------------------------------------ |
-| 電子郵件                                                          | 是   | Session    | 在您建立帳號時會記住您的電子郵件                                                                     |
-| destination_url                          | 是   | Session    | 協助您登入後重新導向至您所請求的頁面                                                                   |
-| sso_destination_url | 是   | Session    | 協助將您重新導向至單一登入後的請求頁面                                                                  |
-| sso_payload                              | 是   | Session    | 在啟用雙重驗證時，於單一登入驗證過程中使用                                                                |
-| authentication_data                      | 是   | 下一頁檢視      | 在登入流程中暫時儲存使用者資訊                                                                      |
-| theme_ids                                | 是   | 1年         | 若您未勾選「將此設為所有裝置的預設佈景主題」，系統將記住您的佈景主題自訂設定                                               |
-| color_scheme_id     | 是   | 1年         | 若您未勾選「在所有裝置上設定預設配色方案」，系統將記住您的個人化配色設定                                                 |
-| dark_scheme_id      | 是   | 1年         | 若您未勾選「在所有裝置上設定預設配色方案」，系統將記住您的個人化配色設定                                                 |
-| cn                                                            | 是   | Session    | temporarily stores notification read state                                           |
-| _bypass_cache       | 是   | Session    | allows the server-side cache to be bypassed during login flows                       |
-| _t                                       | 是   | 1440 Hours | remembers who you are when you log in                                                |
-| _forum_session      | 是   | Session    | associates an ID, and other security-related information, with your browsing session |
-| dosp                                                          | 是   | 下一頁檢視      | enables client denial of service protection, a security protection                   |
-| text_size                                | 是   | 1年         | remembers default text size when a user wants to change it on only one device        |
-| cookietest                                                    | 是   | Session    | checks if cookies are enabled when authentication fails                              |
-| __profilin          | 不採納 | Session    | used by software developers to bypass rack-mini-profiler                             |
+| 名稱                                                            | 基本  | 到期      | 用途                                                                            |
+| ------------------------------------------------------------- | --- | ------- | ----------------------------------------------------------------------------- |
+| 電子郵件                                                          | 是   | Session | 在您建立帳號時會記住您的電子郵件                                                              |
+| destination_url                          | 是   | Session | 協助您登入後重新導向至您所請求的頁面                                                            |
+| sso_destination_url | 是   | Session | 協助將您重新導向至單一登入後的請求頁面                                                           |
+| sso_payload                              | 是   | Session | 在啟用雙重驗證時，於單一登入驗證過程中使用                                                         |
+| authentication_data                      | 是   | 下一頁檢視   | 在登入流程中暫時儲存使用者資訊                                                               |
+| theme_ids                                | 是   | 1年      | 若您未勾選「將此設為所有裝置的預設佈景主題」，系統將記住您的佈景主題自訂設定                                        |
+| color_scheme_id     | 是   | 1年      | 若您未勾選「在所有裝置上設定預設配色方案」，系統將記住您的個人化配色設定                                          |
+| dark_scheme_id      | 是   | 1年      | 若您未勾選「在所有裝置上設定預設配色方案」，系統將記住您的個人化配色設定                                          |
+| cn                                                            | 是   | Session | 暫時儲存通知讀取狀態                                                                    |
+| _bypass_cache       | 是   | Session | 允許在登入流程中繞過伺服器端的快取                                                             |
+| _t                                       | 是   | 1440小時  | 登入時會記住您的身份                                                                    |
+| _forum_session      | 是   | Session | 將 ID 及其他安全相關資訊與您的瀏覽工作階段相關聯                                                    |
+| dosp                                                          | 是   | 下一頁檢視   | enables client denial of service protection, a security protection            |
+| text_size                                | 是   | 1年      | remembers default text size when a user wants to change it on only one device |
+| cookietest                                                    | 是   | Session | checks if cookies are enabled when authentication fails                       |
+| __profilin          | 不採納 | Session | used by software developers to bypass rack-mini-profiler                      |
 
 Your web browser can show you the cookies you have for any website and help you manage them.
 

@@ -19,11 +19,11 @@ description: 從許多方面來看電子郵件是不安全的，以下是一些�
 
 ## Web Key Directory 網頁金鑰目錄標準介紹
 
-[網頁金鑰目錄 (WKD)](https://wiki.gnupg.org/WKD) 標準可讓電子郵件軟體尋找其他信箱的 OpenPGP 金鑰，就算是不同信箱服務上也沒問題。 支援 WKD 的電子郵件用戶端將根據電子郵件位址的網域名稱向收件者的伺服器請求金鑰。 例如，如果向`jonah@privacyguides.org` 發送電子郵件，您的電子郵件用戶端會向`privacyguides.org` 詢問Jonah 的OpenPGP 金鑰，如`privacyguides.org` 擁有該帳戶的金鑰，則您的訊息將自動加密。
+[網頁金鑰目錄（WKD）](https://wiki.gnupg.org/WKD) 標準可讓電子郵件軟體尋找其他信箱的 OpenPGP 金鑰，就算是不同信箱服務上也沒問題。 支援 WKD 的電子郵件用戶端將根據電子郵件位址的網域名稱向收件者的伺服器請求金鑰。 例如，如果向`jonah@privacyguides.org` 發送電子郵件，您的電子郵件用戶端會向`privacyguides.org` 詢問Jonah 的OpenPGP 金鑰，如`privacyguides.org` 擁有該帳戶的金鑰，則您的訊息將自動加密。
 
 除了我們推薦的[電子郵件用戶端](../email-clients.md)支援 WKD外，一些網頁郵件供應商也支援 WKD。 *自己的*金鑰是否發佈到 WKD 供其他人使用取決於網域配置。 如果使用支援 WKD 的[電子郵件業者](../email.md#openpgp-compatible-services)，例如 Proton Mail 或 Mailbox Mail，他們可以在其網站上為您發布 OpenPGP 金鑰。
 
-如果使用自訂網域，則需另外設定 WKD。 如果你可控制自定域名，則無論電子郵件提供者為何，都可以設定 WKD。 一個簡單能做這這件事的方式，就是使用 `keys.openpgp.org` 的「[WKD as a Service](https://keys.openpgp.org/about/usage#wkd-as-a-service)」功能：為您的網域設定一組 `openpgpkey` 子網域的 CNAME 紀錄，指到 `wkd.keys.openpgp.org`，然後將您的金鑰上傳到 [keys.openpgp.org](https://keys.openpgp.org)。 或者你可以 [在自己的 Web 伺服器搭建 WKD](https://wiki.gnupg.org/WKDHosting) 。
+如果使用自訂網域，則需另外設定 WKD。 如果你可控制自定域名，則無論電子郵件提供者為何，都可以設定 WKD。 一個簡單能做這這件事的方式，就是使用 `keys.openpgp.org` 的「[WKD as a Service](https://keys.openpgp.org/about/usage#wkd-as-a-service)」功能：為您的網域設定一組 `openpgpkey` 子網域的 CNAME 紀錄，指到 `wkd.keys.openpgp.org`，然後將您的公開金鑰上傳到 [keys.openpgp.org](https://keys.openpgp.org)。 或者你可以 [在自己的 Web 伺服器搭建 WKD](https://wiki.gnupg.org/WKDHosting) 。
 
 若您使用不支援 WKD 的共用網域（例如 `@gmail.com`），則無法透過此方法與其他人共用您的 OpenPGP 金鑰。
 
