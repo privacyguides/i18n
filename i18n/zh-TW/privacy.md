@@ -155,24 +155,24 @@ Privacy Guides 使用此資訊維護我們網站、軟體與授權條款的完�
 
 我們的論壇建基於 Discourse 平台，使用以下 cookie：
 
-| 名稱                                                            | 基本  | 到期      | 用途                                                                            |
-| ------------------------------------------------------------- | --- | ------- | ----------------------------------------------------------------------------- |
-| 電子郵件                                                          | 是   | Session | 在您建立帳號時會記住您的電子郵件                                                              |
-| destination_url                          | 是   | Session | 協助您登入後重新導向至您所請求的頁面                                                            |
-| sso_destination_url | 是   | Session | 協助將您重新導向至單一登入後的請求頁面                                                           |
-| sso_payload                              | 是   | Session | 在啟用雙重驗證時，於單一登入驗證過程中使用                                                         |
-| authentication_data                      | 是   | 下一頁檢視   | 在登入流程中暫時儲存使用者資訊                                                               |
-| theme_ids                                | 是   | 1年      | 若您未勾選「將此設為所有裝置的預設佈景主題」，系統將記住您的佈景主題自訂設定                                        |
-| color_scheme_id     | 是   | 1年      | 若您未勾選「在所有裝置上設定預設配色方案」，系統將記住您的個人化配色設定                                          |
-| dark_scheme_id      | 是   | 1年      | 若您未勾選「在所有裝置上設定預設配色方案」，系統將記住您的個人化配色設定                                          |
-| cn                                                            | 是   | Session | 暫時儲存通知讀取狀態                                                                    |
-| _bypass_cache       | 是   | Session | 允許在登入流程中繞過伺服器端的快取                                                             |
-| _t                                       | 是   | 1440小時  | 登入時會記住您的身份                                                                    |
-| _forum_session      | 是   | Session | 將 ID 及其他安全相關資訊與您的瀏覽工作階段相關聯                                                    |
-| dosp                                                          | 是   | 下一頁檢視   | enables client denial of service protection, a security protection            |
-| text_size                                | 是   | 1年      | remembers default text size when a user wants to change it on only one device |
-| cookietest                                                    | 是   | Session | checks if cookies are enabled when authentication fails                       |
-| __profilin          | 不採納 | Session | used by software developers to bypass rack-mini-profiler                      |
+| 名稱                                                            | 基本  | 到期      | 用途                                                       |
+| ------------------------------------------------------------- | --- | ------- | -------------------------------------------------------- |
+| 電子郵件                                                          | 是   | Session | 在您建立帳號時會記住您的電子郵件                                         |
+| destination_url                          | 是   | Session | 協助您登入後重新導向至您所請求的頁面                                       |
+| sso_destination_url | 是   | Session | 協助將您重新導向至單一登入後的請求頁面                                      |
+| sso_payload                              | 是   | Session | 在啟用雙重驗證時，於單一登入驗證過程中使用                                    |
+| authentication_data                      | 是   | 下一頁檢視   | 在登入流程中暫時儲存使用者資訊                                          |
+| theme_ids                                | 是   | 1年      | 若您未勾選「將此設為所有裝置的預設佈景主題」，系統將記住您的佈景主題自訂設定                   |
+| color_scheme_id     | 是   | 1年      | 若您未勾選「在所有裝置上設定預設配色方案」，系統將記住您的個人化配色設定                     |
+| dark_scheme_id      | 是   | 1年      | 若您未勾選「在所有裝置上設定預設配色方案」，系統將記住您的個人化配色設定                     |
+| cn                                                            | 是   | Session | 暫時儲存通知讀取狀態                                               |
+| _bypass_cache       | 是   | Session | 允許在登入流程中繞過伺服器端的快取                                        |
+| _t                                       | 是   | 1440小時  | 登入時會記住您的身份                                               |
+| _forum_session      | 是   | Session | 將 ID 及其他安全相關資訊與您的瀏覽工作階段相關聯                               |
+| dosp                                                          | 是   | 下一頁檢視   | 啟用客戶端 DoS 保護，這是一種安全防護                                    |
+| text_size                                | 是   | 1年      | 當使用者只想要在一台裝置上變更預設文字大小時，會記住預設文字大小                         |
+| cookietest                                                    | 是   | Session | checks if cookies are enabled when authentication fails  |
+| __profilin          | 不採納 | Session | used by software developers to bypass rack-mini-profiler |
 
 Your web browser can show you the cookies you have for any website and help you manage them.
 
