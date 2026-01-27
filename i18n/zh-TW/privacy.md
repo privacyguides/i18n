@@ -204,23 +204,23 @@ Privacy Guides 不會回應（目前已棄用的）[Do Not Track HTTP 標頭](ht
 
 ## Privacy Guides 是否符合歐盟 GDPR？
 
-Privacy Guides 尊重歐盟 GDPR 所賦予的權利。 Information that GDPR requires Privacy Guides to give can be found throughout this privacy notice, including information on the rights of data subjects.
+Privacy Guides 尊重歐盟 GDPR 所賦予的權利。 GDPR 要求 Privacy Guides 提供的資訊，可於本隱私聲明中查閱，包括有關資料當事人權利的相關說明。
 
-### What are my rights under the GDPR?
+### 根據 GDPR，我有哪些權利？
 
-The GDPR provides you with the following rights with respect to personal information about you that we collect or process:
+GDPR 賦予您以下權利，涉及我們所收集或處理的關於您的個人資料：
 
-- the right to [access](#where-can-i-access-data-about-me) your personal data
-- the right to [rectification](#how-can-i-change-or-erase-data-about-me) of inaccurate or incomplete personal data
-- the right to [erasure](#how-can-i-change-or-erase-data-about-me) of your personal data
-- the right to [data portability](#where-can-i-access-data-about-me)
-- the right to restrict the processing of your personal data
-- the right to object to certain processing of your information, including [automated decision-making](#does-privacy-guides-make-automated-decisions-based-on-my-data) and [direct marketing](#does-privacy-guides-use-personal-information-for-marketing-purposes)
-- the right to lodge a complaint with a supervisory authority
+- 有權[存取](#where-can-i-access-data-about-me)您的個人資料
+- 有權[更正](#how-can-i-change-or-erase-data-about-me)不正確或不完整的個人資料
+- 您個人資料的[刪除權](#how-can-i-change-or-erase-data-about-me)
+- [資料可攜](#where-can-i-access-data-about-me)權
+- 限制處理您個人資料的權利
+- 有權反對某些對您資訊的處理，包括[自動決策](#does-privacy-guides-make-automated-decisions-based-on-my-data)與[直接行銷](#does-privacy-guides-use-personal-information-for-marketing-purposes)
+- 向監管機構提出申訴的權利
 
-Information about how to exercise these rights is provided throughout this notice and linked above. We try to make exercising all of these rights easy to do on your own through your account settings, but for more complicated inquiries the best option will be to [contact](#how-can-i-contact-privacy-guides-about-privacy) us.
+關於如何行使這些權利的資訊，已於本通知各處提供並於上方連結。 我們致力於讓您能透過帳號設定輕鬆自行行使所有這些權利，但若涉及較複雜的查詢，最佳方式是[聯絡](#how-can-i-contact-privacy-guides-about-privacy)我們。
 
-### What is the lawful basis for data collection and processing?
+### 資料蒐集與處理的合法依據為何？
 
 Privacy Guides 通常依據 GDPR 第 6 條所列的六項合法處理依據中的三項來處理您的資料：
 
@@ -230,23 +230,23 @@ Privacy Guides 通常依據 GDPR 第 6 條所列的六項合法處理依據中�
 
 我們處理資料的合法依據決定了您在 GDPR 下可享有的權利。 此表格可作為參考：
 
-| 活動                                                                                            | 已蒐集的資料                                         | 合法依據     | 解釋                                                                                                                              |
-| --------------------------------------------------------------------------------------------- | ---------------------------------------------- | -------- | ------------------------------------------------------------------------------------------------------------------------------- |
-| [造訪網站](#privacy-guides-collects-information-about-visits-to-its-websites)                     | IP 位址、使用者代理字串、瀏覽的頁面                            | **合法權益** | 為防範網站遭受濫用與技術攻擊、診斷及排除技術錯誤、改善網站運作，以及彙整非個人化統計資料以供長期分析之用                                                                            |
-| [帳號資料](#privacy-guides-collects-account-data)                                                 | 電子郵件地址、IP 位址                                   | **合法權益** | 為防範垃圾訊息與濫用行為，本網站需採取防護措施                                                                                                         |
-| [帳號資料](#privacy-guides-collects-account-data)                                                 | 電子郵件地址、使用者名稱、密碼                                | **合約**   | 根據我們的服務條款，我們必須向您提供服務                                                                                                            |
-| [帳號資料](#privacy-guides-collects-account-data)                                                 | 選擇性個人資料（姓名、所在地等）                               | **同意**   | 根據您的偏好設定，要求將您提供的資訊發佈至您的公開或內部個人檔案                                                                                                |
-| [貼文與活動](#privacy-guides-collects-data-about-posts-and-other-activity-on-our-forum)            | 您的貼文內容、活動資料，例如書籤、讚以及您追蹤的連結                     | **合約**   | 根據我們的服務條款，我們必須向您提供服務                                                                                                            |
-| [貼文與活動](#privacy-guides-collects-data-about-posts-and-other-activity-on-our-forum)            | 您的私人訊息內容                                       | **合約**   | 根據我們的服務條款，我們必須向您提供服務                                                                                                            |
-| [貼文與活動](#privacy-guides-collects-data-about-posts-and-other-activity-on-our-forum)            | 電子郵件地址                                         | **合約**   | 我們的論壇是一個基於電子郵件的平台，而關於論壇活動的電子郵件通知，是根據我們的服務條款向您提供服務所必需的組成部分                                                                       |
-| [郵遞論壇](#privacy-guides-collects-data-you-give-to-sign-up-for-mailing-lists-and-announcements) | 電子郵件地址                                         | **同意**   | 為向您發送您訂閱的訊息所需                                                                                                                   |
-| [開放原始碼貢獻](#privacy-guides-collects-data-about-open-source-contributors)                       | 電子郵件地址、姓名、GitHub 個人資料資訊、其他透過 Git 提供的資訊         | **合法權益** | 我們有合法權益追蹤開放原始碼專案的貢獻來源，以防止濫用並確保智慧財產權受到尊重                                                                                         |
-| [捐款](#privacy-guides-collects-data-when-you-donate-to-us)                                     | 付款資訊（包含帳單地址與電子郵件）、GitHub 個人檔案資訊                | **合法權益** | We have a legitimate interest in processing this data to prevent payment abuse and fraud, and for facilitating your transaction |
-| [捐款](#privacy-guides-collects-data-when-you-donate-to-us)                                     | GitHub profile information                     | **同意**   | We process this information to display your donation status publicly in accordance to your wishes                               |
-| [捐款](#privacy-guides-collects-data-when-you-donate-to-us)                                     | Forum username and membership status           | **同意**   | When your membership is linked to your forum account, you can optionally display your membership status to the public           |
-| [Contacting us](#privacy-guides-collects-data-when-you-contact-us)                            | Email address, mail server IP, message content | **合法權益** | We have a legitimate interest in processing incoming email information to prevent spam and network abuse                        |
-| [Contacting us](#privacy-guides-collects-data-when-you-contact-us)                            | Email address, message headers and content     | **合約**   | We store your messages and process your data in order to provide a response to your communication                               |
-| [Backups](#privacy-guides-makes-regular-backups-of-all-data)                                  | All personal information we collect            | **合法權益** | We store complete backups to ensure organizational continuity and security for up to 30 days                                    |
+| 活動                                                                                            | 已蒐集的資料                                 | 合法依據     | 解釋                                                        |
+| --------------------------------------------------------------------------------------------- | -------------------------------------- | -------- | --------------------------------------------------------- |
+| [造訪網站](#privacy-guides-collects-information-about-visits-to-its-websites)                     | IP 位址、使用者代理字串、瀏覽的頁面                    | **合法權益** | 為防範網站遭受濫用與技術攻擊、診斷及排除技術錯誤、改善網站運作，以及彙整非個人化統計資料以供長期分析之用      |
+| [帳號資料](#privacy-guides-collects-account-data)                                                 | 電子郵件地址、IP 位址                           | **合法權益** | 為防範垃圾訊息與濫用行為，本網站需採取防護措施                                   |
+| [帳號資料](#privacy-guides-collects-account-data)                                                 | 電子郵件地址、使用者名稱、密碼                        | **合約**   | 根據我們的服務條款，我們必須向您提供服務                                      |
+| [帳號資料](#privacy-guides-collects-account-data)                                                 | 選擇性個人資料（姓名、所在地等）                       | **同意**   | 根據您的偏好設定，要求將您提供的資訊發佈至您的公開或內部個人檔案                          |
+| [貼文與活動](#privacy-guides-collects-data-about-posts-and-other-activity-on-our-forum)            | 您的貼文內容、活動資料，例如書籤、讚以及您追蹤的連結             | **合約**   | 根據我們的服務條款，我們必須向您提供服務                                      |
+| [貼文與活動](#privacy-guides-collects-data-about-posts-and-other-activity-on-our-forum)            | 您的私人訊息內容                               | **合約**   | 根據我們的服務條款，我們必須向您提供服務                                      |
+| [貼文與活動](#privacy-guides-collects-data-about-posts-and-other-activity-on-our-forum)            | 電子郵件地址                                 | **合約**   | 我們的論壇是一個基於電子郵件的平台，而關於論壇活動的電子郵件通知，是根據我們的服務條款向您提供服務所必需的組成部分 |
+| [郵遞論壇](#privacy-guides-collects-data-you-give-to-sign-up-for-mailing-lists-and-announcements) | 電子郵件地址                                 | **同意**   | 為向您發送您訂閱的訊息所需                                             |
+| [開放原始碼貢獻](#privacy-guides-collects-data-about-open-source-contributors)                       | 電子郵件地址、姓名、GitHub 個人資料資訊、其他透過 Git 提供的資訊 | **合法權益** | 我們有合法權益追蹤開放原始碼專案的貢獻來源，以防止濫用並確保智慧財產權受到尊重                   |
+| [捐款](#privacy-guides-collects-data-when-you-donate-to-us)                                     | 付款資訊（包含帳單地址與電子郵件）、GitHub 個人檔案資訊        | **合法權益** | 我們基於合法權益處理此資料，旨在防止支付濫用與詐欺行為，並為您提供更順暢的交易體驗                 |
+| [捐款](#privacy-guides-collects-data-when-you-donate-to-us)                                     | GitHub 個人檔案資訊                          | **同意**   | 我們處理此資訊，是為了根據您的意願公開顯示您的捐款狀態                               |
+| [捐款](#privacy-guides-collects-data-when-you-donate-to-us)                                     | 論壇使用者名稱與會員資格狀態                         | **同意**   | 當您的會員資格與論壇帳號綁定後，您可選擇是否向公眾顯示您的會員狀態                         |
+| [聯絡我們](#privacy-guides-collects-data-when-you-contact-us)                                     | 電子郵件地址、郵件伺服器 IP、訊息內容                   | **合法權益** | 我們基於合法權益處理收到的電子郵件資訊，以防止垃圾郵件及網路濫用行為                        |
+| [聯絡我們](#privacy-guides-collects-data-when-you-contact-us)                                     | 電子郵件地址、訊息標頭與內容                         | **合約**   | 我們儲存您的訊息並處理您的資料，以便對您的通訊作出回應                               |
+| [備份](#privacy-guides-makes-regular-backups-of-all-data)                                       | 所有我們蒐集的個人資訊                            | **合法權益** | 我們儲存完整的備份，以確保組織運作的連續性與安全性，備份資料保留期限最長可達30天                 |
 
 ### Does Privacy Guides make international data transfers?
 
