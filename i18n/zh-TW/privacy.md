@@ -248,18 +248,18 @@ Privacy Guides 通常依據 GDPR 第 6 條所列的六項合法處理依據中�
 | [聯絡我們](#privacy-guides-collects-data-when-you-contact-us)                                     | 電子郵件地址、訊息標頭與內容                         | **合約**   | 我們儲存您的訊息並處理您的資料，以便對您的通訊作出回應                               |
 | [備份](#privacy-guides-makes-regular-backups-of-all-data)                                       | 所有我們蒐集的個人資訊                            | **合法權益** | 我們儲存完整的備份，以確保組織運作的連續性與安全性，備份資料保留期限最長可達30天                 |
 
-### Does Privacy Guides make international data transfers?
+### Privacy Guides 會進行國際資料傳輸嗎？
 
-Currently:
+目前：
 
-- Privacy Guides [processes personal data on servers outside the European Union](#where-does-privacy-guides-store-data-about-me).
-- Privacy Guides uses [subprocessors](#subprocessors-used-by-privacy-guides) with personnel and computers outside the European Union.
-- Privacy Guides has [personnel](https://discuss.privacyguides.net/u?group=team&order=solutions&period=all) in the United States, Australia, and other non-EU countries without EU adequacy decisions under GDPR. These people need access to forum personal data in order to keep forums running, address security concerns, respond to privacy-related requests from users, field technical support requests, and otherwise assist users.
-- Privacy Guides is very likely subject to section 702 of the Foreign Intelligence Surveillance Act in the United States, a law that the European Court of Justice has found inadequately protects the rights and freedoms of data subjects.
-- Privacy Guides has never received any order or request for personal data under FISA 702 or any similar national security or surveillance law of any other country. Privacy Guides is not subject to any court order or legal obligation that would prevent it from disclosing the existence or non-existence of such an order or request.
-- Privacy Guides has a policy for how we will respond to those orders and requests, in case we ever receive one. Privacy Guides will suspend processing, notify any affected user, minimize disclosure, and resist disclosure of personal data, all as the law allows.
+- Privacy Guides [在歐盟境外的伺服器上處理個人資料](#where-does-privacy-guides-store-data-about-me)。
+- Privacy Guides 採用位於歐盟境外的[次級處理者](#subprocessors-used-by-privacy-guides)及其人員與電腦設備。
+- Privacy Guides 在美國、澳洲及其他未獲歐盟 GDPR 適足性認定的非歐盟國家設有[員工](https://discuss.privacyguides.net/u?group=team&order=solutions&period=all)。 這些人員需要存取論壇個人資料，以便維持論壇運作、處理安全疑慮、回應使用者的隱私相關請求、處理技術支援請求，以及提供其他使用者協助。
+- Privacy Guides 極可能受美國《外國情報監控法》第 702 條規範，該法案經歐洲法院裁定未能充分保障資料主體的權利與自由。
+- Privacy Guides 從未收到任何依據《外國情報監控法》第 702 條或其他國家類似國家安全或監控法律提出的個人資料命令或請求。 Privacy Guides 不受任何法院命令或法律義務的約束，這些命令或義務可能阻止其披露此類命令或請求的存在與否。
+- Privacy Guides 制定了相關政策，規範我們在收到此類命令與請求時應如何回應。 Privacy Guides 將依法暫停處理個人資料、通知受影響使用者、盡可能減少資料揭露，並抵制個人資料的披露行為。
 
-Because national security and surveillance laws may be in conflict with European data protection rules, Privacy Guides continually reassesses the practical reach of these laws to ensure our data transfers are adequately safeguarded.
+由於國家安全與監控法規可能與歐洲資料保護規則產生衝突，Privacy Guides 持續重新評估這些法規的實際適用範圍，以確保我們的資料傳輸獲得充分保障。
 
 ## Does Privacy Guides comply with the California Consumer Privacy Act and other US state comprehensive privacy laws?
 
