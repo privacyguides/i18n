@@ -52,16 +52,16 @@ Argumen kontra yang umum terhadap gerakan pro-privasi adalah anggapan bahwa sese
 
 Definisi umum dari privasi adalah kemampuan untuk *mengontrol* siapa saja yang memiliki akses ke data Anda. Ini adalah jebakan yang mudah untuk jatuh ke dalam, pada kenyataan ini adalah definisi privasi yang kami operasikan pada situs web ini untuk waktu yang lama. Kedengarannya bagus, dan menarik bagi banyak orang, tetapi dalam praktiknya, hal itu tidak berhasil.
 
-Ambil contoh formulir persetujuan cookie. Anda mungkin menemukan ini puluhan kali per hari di berbagai kotak centang dan slider yang bagus yang memungkinkan Anda untuk "mengkurasi" preferensi Anda agar sesuai dengan kebutuhan Anda. Pada akhirnya, kami hanya menekan tombol "Saya Setuju", karena kami hanya ingin membaca artikel atau melakukan pembelian. Tidak ada seorang pun yang ingin menyelesaikan audit privasi pribadi pada setiap situs web yang mereka kunjungi. This is an exercise in [choice architecture](https://en.wikipedia.org/wiki/Choice_architecture), designed to make you take the easy route out instead of delving into a maze of configuration options that don't need to exist in the first place.
+Ambil contoh formulir persetujuan cookie. Anda mungkin menemukan ini puluhan kali per hari di berbagai kotak centang dan slider yang bagus yang memungkinkan Anda untuk "mengkurasi" preferensi Anda agar sesuai dengan kebutuhan Anda. Pada akhirnya, kami hanya menekan tombol "Saya Setuju", karena kami hanya ingin membaca artikel atau melakukan pembelian. Tidak ada seorang pun yang ingin menyelesaikan audit privasi pribadi pada setiap situs web yang mereka kunjungi. Ini adalah latihan dalam [choice architecture](https://en.wikipedia.org/wiki/Choice_architecture), yang dirancang untuk membuat Anda mengambil rute yang mudah alih-alih mempelajari labirin opsi konfigurasi yang tidak perlu ada sejak awal.
 
-==Control over your privacy inside most apps is an illusion.== It's a shiny dashboard with all sorts of choices you can make about your data, but rarely the choices you're looking for, like "only use my data to help me." This type of control is meant to make you feel guilty about your choices, that you "had the choice" to make the apps you use more private, and you chose not to.
+==Kendali atas privasi Anda di dalam sebagian besar aplikasi adalah ilusi.== Ini adalah dasbor mengkilap dengan segala macam pilihan yang bisa Anda buat tentang data Anda, tetapi jarang sekali pilihan yang Anda cari, seperti "hanya gunakan data saya untuk membantu saya." Jenis kontrol ini dimaksudkan untuk membuat Anda merasa bersalah atas pilihan Anda, bahwa Anda "memiliki pilihan" untuk membuat aplikasi yang Anda gunakan lebih privat, dan Anda memilih untuk tidak melakukannya.
 
-Privacy is something we need to have baked into the [software and services](../tools.md) we use by default, you can't bend most apps into being private on your own.
+Privasi adalah sesuatu yang harus ada dalam [perangkat lunak dan layanan](../tools.md) yang kita gunakan secara default, Anda tidak dapat mengubah sebagian besar aplikasi menjadi pribadi sendiri.
 
-[:material-movie-open-play-outline: Video: 5 Steps to Improve Your Privacy](https://www.privacyguides.org/videos/2025/02/14/5-easy-steps-to-protect-yourself-online){ class="md-button" }
+[:material-movie-open-play-outline: Video: 5 Langkah untuk Meningkatkan Privasi Anda](https://www.privacyguides.org/videos/2025/02/14/5-easy-steps-to-protect-yourself-online){ class="md-button" }
 
 ## Sumber
 
-- [Why Privacy Matters](https://amazon.com/dp/0190939044) (2021) by Neil Richards
+- [Why Privacy Matters](https://amazon.com/dp/0190939044) (2021) by Neil Richrads
 - [The New Oil: Why Privacy & Security Matter](https://thenewoil.org/en/guides/prologue/why)
-- [@Thorin-Oakenpants on Anonymity vs Privacy vs Security](https://code.privacyguides.dev/privacyguides/privacytools.io/issues/1760#issuecomment-10452)
+- [@Thorin-Oakenpants on Anonymity vs Privacy Security](https://code.privacyguides.dev/privacyguides/privacytools.io/issues/1760#issuecomment-10452)
