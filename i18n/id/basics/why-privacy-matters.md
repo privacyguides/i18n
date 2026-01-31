@@ -6,53 +6,53 @@ description: Di era modern yang penuh dengan eksploitasi data digital, privasi A
 
 Di era modern yang penuh dengan eksploitasi data digital, privasi Anda tidak pernah sepenting ini, namun banyak yang percaya bahwa itu sudah tidak bisa diselamatkan lagi. Itu tidak benar. ==Privasi Anda sedang dipertaruhkan==, dan Anda harus peduli akan hal itu. Privasi adalah tentang kuasa, dan sangat penting bahwa kuasa ini berakhir di tangan yang tepat.
 
-Privasi pada dasarnya adalah tentang informasi manusia, dan ini penting karena kita tahu bahwa informasi manusia memberikan kekuasaan kepada manusia. If we care about our ability to be authentic, fulfilled, and free humans, we have to care about the rules that apply to information about us. So much of our modern society is structured around **information**. When you shop online, read the news, look something up, vote, seek directions, or really anything else, you are relying on information. If we live in an information society, our information matters, and therefore privacy matters.
+Privasi pada dasarnya adalah tentang informasi manusia, dan ini penting karena kita tahu bahwa informasi manusia memberikan kekuasaan kepada manusia. Jika kita peduli dengan kemampuan kita untuk menjadi manusia yang otentik, terpenuhi, dan bebas, kita harus peduli dengan aturan yang berlaku untuk informasi tentang kita. Begitu banyak dari masyarakat modern kita yang terstruktur di sekitar **informasi**. Ketika Anda berbelanja online, membaca berita, mencari sesuatu, memberikan suara, mencari petunjuk arah, atau hal lainnya, Anda mengandalkan informasi. Jika kita hidup dalam masyarakat informasi, informasi kita penting, dan karena itu privasi juga penting.
 
-## What is Privacy?
+## Apa yang dimaksut dengan Privasi?
 
-Many people get the concepts of **privacy**, **security**, and **anonymity** confused. You'll see people criticize various products as "not private" when really they mean it doesn't provide anonymity, for example. On this website, we cover all three of these topics, but it is important you understand the difference between them, and when each one comes into play.
+Banyak orang yang bingung dengan konsep **privasi**, **keamanan**, dan **anonimitas**. Anda akan melihat orang-orang mengkritik berbagai produk sebagai "tidak privat" ketika sebenarnya yang mereka maksud adalah produk tersebut tidak menyediakan anonimitas, misalnya. Di situs web ini, kami membahas ketiga topik ini, tetapi penting bagi Anda untuk memahami perbedaan di antara ketiganya, dan kapan masing-masing topik tersebut berperan.
 
-[:material-movie-open-play-outline: Video: Stop Confusing Privacy, Anonymity, and Security](https://www.privacyguides.org/videos/2025/03/14/stop-confusing-privacy-anonymity-and-security ""){.md-button}
+[:material-movie-open-play-outline: Video: Berhentilah Membingungkan Privasi, Anonimitas, dan Keamanan](https://www.privacyguides.org/videos/2025/03/14/stop-confusing-privacy-anonymity-and-security ""){.md-button}
 
 <!-- markdownlint-disable-next-line -->
 **Privasi**
 :
 
-==Privacy is the assurance that your data is only seen by the parties you intend to view it.== In the context of an instant messenger, for example, end-to-end encryption provides privacy by keeping your message visible only to yourself and the recipient.
+==Privasi adalah jaminan bahwa data Anda hanya dilihat oleh pihak-pihak yang Anda inginkan untuk melihatnya.== Dalam konteks instant messenger, misalnya, enkripsi end-to-end memberikan privasi dengan menjaga agar pesan Anda hanya dapat dilihat oleh Anda sendiri dan si penerima.
 
 <!-- markdownlint-disable-next-line -->
 **Keamanan**
 :
 
-Security is the ability to trust the applications you use—that the parties involved are who they say they are—and keep those applications safe. In the context of browsing the web, for example, security can be provided by HTTPS certificates.
+Keamanan adalah kemampuan untuk mempercayai aplikasi yang Anda gunakan-bahwa pihak-pihak yang terlibat adalah seperti yang mereka katakan-dan menjaga aplikasi tersebut tetap aman. Dalam konteks penjelajahan web, misalnya, keamanan dapat disediakan oleh sertifikat HTTPS.
 :
 
-Certificates prove you are talking directly to the website you're visiting, and keep attackers on your network from reading or modifying the data sent to or from the website.
+Sertifikat membuktikan bahwa Anda berbicara langsung dengan situs web yang Anda kunjungi, dan mencegah penyerang di jaringan Anda membaca atau mengubah data yang dikirim ke atau dari situs web.
 
 <!-- markdownlint-disable-next-line -->
-**Anonymity**
+**Anonimitas**
 :
 
-Anonymity is the ability to act without a persistent identifier. You might achieve this online with [Tor](../tor.md), which allows you to browse the internet with a random IP address and network connection instead of your own.
+Anonimitas adalah kemampuan untuk bertindak tanpa pengenal yang tetap. Anda bisa melakukannya secara online dengan [Tor](../tor.md), yang memungkinkan Anda menjelajah internet dengan alamat IP acak dan koneksi jaringan, bukan dengan alamat IP Anda sendiri.
 :
 
-**Pseudonymity** is a similar concept, but it allows you to have a persistent identifier without it being tied to your real identity. If everybody knows you as `@GamerGuy12` online, but nobody knows your real name, that is your pseudonym.
+**Pseudonimitas** adalah konsep yang serupa, tetapi memungkinkan Anda untuk memiliki pengenal yang persisten tanpa terikat dengan identitas asli Anda. Jika semua orang mengenal Anda sebagai `@GamerGuy12` online, tetapi tidak ada yang tahu nama asli Anda, itu adalah nama samaran Anda.
 
-All of these concepts overlap, but it is possible to have any combination of these. The sweet spot for most people is when all three of these concepts overlap. However, it's trickier to achieve than many initially believe. Sometimes, you have to compromise on some of these, and that's okay too. This is where **threat modeling** comes into play, allowing you to make informed decisions about the [software and services](../tools.md) you use.
+Semua konsep ini saling tumpang-tindih, tetapi memungkinkan untuk memiliki kombinasi apa pun. Titik manis bagi kebanyakan orang adalah ketika ketiga konsep ini saling tumpang-tindih. Namun, hal ini lebih sulit untuk dicapai daripada yang diyakini banyak orang pada awalnya. Terkadang, Anda harus berkompromi dengan beberapa hal ini, dan itu juga tidak masalah. Di sinilah **pemodelan ancaman** berperan, sehingga Anda dapat mengambil keputusan yang tepat tentang [perangkat lunak dan layanan](../tools.md) yang Anda gunakan.
 
-[:material-book-outline: Learn More About Threat Modeling](threat-modeling.md ""){.md-button}
+[:material-book-outline: Pelajari Lebih Lanjut Tentang Pemodelan Ancaman](threat-modeling.md ""){.md-button}
 
-## Privacy vs. Secrecy
+## Privasi vs Kerahasiaan
 
-A common counter-argument to pro-privacy movements is the notion that one doesn't need privacy if they have **"nothing to hide."** This is a dangerous misconception, because it creates a sense that people who demand privacy must be deviant, criminal, or wrong.
+Argumen kontra yang umum terhadap gerakan pro-privasi adalah anggapan bahwa seseorang tidak membutuhkan privasi jika mereka **"tidak memiliki sesuatu yang disembunyikan."** ini adalah kesalahpahaman yang berbahaya, karena ini menciptakan kesan bahwa orang yang menuntut privasi pasti menyimpang, kriminal, atau salah.
 
-==You shouldn't confuse privacy with secrecy.== We know what happens in the bathroom, but you still close the door. Itu karena Anda menginginkan privasi, bukan kerahasiaan. There are always certain facts about us—say, personal health information, or sexual behavior—that we wouldn't want the whole world to know, and that's okay. The need for privacy is legitimate, and that's what makes us human. Privacy is about empowering your rights over your own information, not about hiding secrets.
+==Anda tidak boleh mengacaukan privasi dengan kerahasiaan.== Kami tahu apa yang terjadi di kamar mandi, tetapi Anda tetap menutup pintunya. Itu karena Anda menginginkan privasi, bukan kerahasiaan. Selalu ada fakta-fakta tertentu tentang diri kita-katakanlah, informasi kesehatan pribadi, atau perilaku seksual-yang tidak ingin diketahui oleh seluruh dunia, dan itu tidak masalah. Kebutuhan akan privasi adalah hal yang wajar, dan itulah yang membuat kita menjadi manusia. Privasi adalah tentang memberdayakan hak-hak Anda atas informasi Anda sendiri, bukan tentang menyembunyikan rahasia.
 
-## Is Privacy About Control?
+## Apakah Privasi Berkaitan dengan Kontrol?
 
-A common definition of privacy is that it is the ability to *control* who has access to your data. This is an easy trap to fall into, in fact it is the definition of privacy we operated this website on for a long time. It sounds nice, and it appeals to many people, but in practice it just doesn't work.
+Definisi umum dari privasi adalah kemampuan untuk *mengontrol* siapa saja yang memiliki akses ke data Anda. Ini adalah jebakan yang mudah untuk jatuh ke dalam, pada kenyataan ini adalah definisi privasi yang kami operasikan pada situs web ini untuk waktu yang lama. Kedengarannya bagus, dan menarik bagi banyak orang, tetapi dalam praktiknya, hal itu tidak berhasil.
 
-Take cookie consent forms, for example. You may encounter these dozens of times per day on the various websites you visit, with a nice array of checkboxes and sliders which allow you to "curate" your preferences to exactly fit your needs. In the end, we just hit the "I Agree" button, because we just want to read the article or make a purchase. Nobody wants to complete a personal privacy audit on every single website they visit. This is an exercise in [choice architecture](https://en.wikipedia.org/wiki/Choice_architecture), designed to make you take the easy route out instead of delving into a maze of configuration options that don't need to exist in the first place.
+Ambil contoh formulir persetujuan cookie. Anda mungkin menemukan ini puluhan kali per hari di berbagai kotak centang dan slider yang bagus yang memungkinkan Anda untuk "mengkurasi" preferensi Anda agar sesuai dengan kebutuhan Anda. Pada akhirnya, kami hanya menekan tombol "Saya Setuju", karena kami hanya ingin membaca artikel atau melakukan pembelian. Tidak ada seorang pun yang ingin menyelesaikan audit privasi pribadi pada setiap situs web yang mereka kunjungi. This is an exercise in [choice architecture](https://en.wikipedia.org/wiki/Choice_architecture), designed to make you take the easy route out instead of delving into a maze of configuration options that don't need to exist in the first place.
 
 ==Control over your privacy inside most apps is an illusion.== It's a shiny dashboard with all sorts of choices you can make about your data, but rarely the choices you're looking for, like "only use my data to help me." This type of control is meant to make you feel guilty about your choices, that you "had the choice" to make the apps you use more private, and you chose not to.
 
