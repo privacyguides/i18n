@@ -277,53 +277,53 @@ Privacy Guides **不會**出售個人資訊。
 
 ## 我該如何修改或刪除關於我的資料？
 
-您隨時可透過造訪帳號的個人資料設定頁面，變更您的帳號資料。 您亦可於帳號設定頁面選擇刪除個人檔案。 使用此選項將啟動刪除或匿名化您為帳號提供的資料之過程，該資料由 Privacy Guides 所記錄。 Forum administrators and moderators also have the option to erase and anonymize accounts.
+您隨時可透過造訪帳號的個人資料設定頁面，變更您的帳號資料。 您亦可於帳號設定頁面選擇刪除個人檔案。 使用此選項將啟動刪除或匿名化您為帳號提供的資料之過程，該資料由 Privacy Guides 所記錄。 論壇管理員與版主也可以選擇刪除與匿名化帳號。
 
-You may also be able to edit, anonymize, or erase your posts. When you edit posts, Privacy Guides will keep all versions of your posts. These old versions of posts are not public, but may be accessed by forum moderators or administrators.
+您也可以編輯、匿名化或刪除您的貼文。 當您編輯貼文時，Privacy Guides 會保留所有版本的貼文。 這些舊版本的貼文不會公開，但論壇版主或管理員可查閱。
 
-## Does Privacy Guides make automated decisions based on my data?
+## Privacy Guides 會根據我的資料自動做出決策嗎？
 
-### The Privacy Guides forum classifies posts as spam automatically
+### Privacy Guides 論壇會自動將貼文歸類為垃圾訊息
 
-We use data about your posts and other posts on many forums to make automated decisions about whether your posts to our websites are likely spam.
+我們會利用您在多個論壇的發文資料及其他發文資料，自動判斷您在我們網站上的發文是否可能屬於垃圾訊息。
 
-If you think a post has been wrongfully blocked or removed, please contact a forum moderator who can override this decision.
+若您認為貼文被錯誤封鎖或移除，請聯絡論壇版主，版主可以推翻這類決定。
 
-### The Privacy Guides forum uses data about your posts and activity to set trust levels
+### Privacy Guides 論壇使用您的貼文與活動資料來設定信任層級
 
-We use data about your posts and activity on our forum to award you badges and calculate a trust level for your account. Your trust level may affect how you can participate in the forum, such as whether you can upload images, as well as give you access to moderation and management powers in the forum. Your trust level therefore reflects forum administrators’ confidence in you, and their willingness to delegate community management functions, like moderation.
+我們使用您在論壇上發表的貼文與活動資料來頒發徽章，並計算您帳號的信任層級。 您的信任層級可能會影響您參與論壇的方式，例如您是否可以上傳影像，以及賦予您在論壇的管理權限。 因此，您的信任層級反映了論壇管理員對您的信心，以及他們是否願意委派社群管理職能（如版面管理等）。
 
-If you think your trust level has been set incorrectly, contact an administrator of your forum. They can manually adjust the trust level of your account.
+若您認為您的信任層級設定不正確，請聯絡您論壇的管理員。 他們可以手動調整您帳號的信任層級。
 
-### The Privacy Guides forum uses community flags to take automated actions
+### Privacy Guides 論壇採用社群標記機制來執行自動化操作
 
-Your posts may be automatically hidden, or your ability to post may be automatically suspended, as a result of your posts being flagged by other users.
+您的貼文可能會被自動隱藏，或您的發文權限可能會被自動暫停，這是因為您的貼文被其他使用者標記。
 
-These decisions are later reviewed by moderators, who can override these decisions at their discretion.
+這些決定稍後會由版主審核，版主可自行決定推翻這些決定。
 
-## Does Privacy Guides share data about me with others?
+## Privacy Guides 會與其他人分享我的資料嗎？
 
-Privacy Guides shares account data with others as described in [the section about account data](#privacy-guides-collects-account-data).
+Privacy Guides 會按照[帳號相關章節](#privacy-guides-collects-account-data)中所述，與其他人分享資料。
 
-Privacy Guides shares data about your posts and other activity as described in [the section about forum data](#privacy-guides-collects-data-about-posts-and-other-activity-on-our-forum).
+Privacy Guides 會分享關於您貼文及其他活動的資料，詳情請參閱[論壇資料相關章節](#privacy-guides-collects-data-about-posts-and-other-activity-on-our-forum)。
 
-### Subprocessors used by Privacy Guides
+### Privacy Guides 所使用的次級處理者
 
-Privacy Guides uses the following subprocessors, and may share personal data with the service providers we use in order to host our website, deliver content, secure our services, store data, host and manage our open source website, and provide user support.
+Privacy Guides 採用以下次級處理者，並可能與我們使用的服務供應商分享個人資料，以實現以下目的：託管我們的網站、傳遞內容、保障服務安全、儲存資料、託管及管理我們的開源網站，以及提供使用者支援。
 
-| Subprocessor                                                                  | Service                                                                                      | Function                                                                                                                                               | Processing       | Links                                                                                                        |
-| ----------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------------- | ------------------------------------------------------------------------------------------------------------ |
-| [Bunny.net](https://bunny.net) (Slovenia)  | [Bunny CDN](https://bunny.net/cdn)                                                           | Content Delivery Network services for distributing images and other static assets.                                                     | Slovenia, Global | [Privacy Notice](https://bunny.net/privacy), [GDPR Center](https://bunny.net/gdpr)                           |
-| [Cloudflare](https://cloudflare.com) (USA)                 | [Authoritative DNS](https://cloudflare.com/application-services/products/dns)                | Authoritative DNS services for our domain names.                                                                                       | USA, Global      | [Privacy Notice](https://cloudflare.com/privacypolicy), [GDPR Center](https://cloudflare.com/trust-hub/gdpr) |
-| [Fediverse Communications LLC](https://fediverse.us) (USA) | PeerTube                                                                                     | For hosting public videos produced by Privacy Guides which are shared or embedded on this website.                                     | USA              | [More information](https://neat.tube/about/instance)                                                         |
-| [GitHub](https://github.com) (USA)                         | Git Repositories                                                                             | _For visitors to this website_: sharing information with our visitors about the current release, repo star count, etc. | USA              | [Privacy Notice](https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement)   |
-| [GitHub](https://github.com) (USA)                         | Git Repositories, Issues, Pull Requests                                                      | _For contributors to this website_: hosting our source code and communications platforms such as our issues tracker.   | USA              | [Privacy Notice](https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement)   |
-| [GitHub](https://github.com) (USA)                         | [Sponsors](https://github.com/sponsors/privacyguides)                                        | For collecting payments for gifts to Privacy Guides                                                                                                    | USA              | [Privacy Notice](https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement)   |
-| [Mailgun](https://www.mailgun.com) (USA)                   | Email Delivery                                                                               | For sending newsletters and other email messages to users                                                                                              | USA              | [Privacy Notice](https://www.mailgun.com/privacy-policy), [GDPR Center](https://www.mailgun.com/gdpr)        |
-| [Stripe](https://stripe.com) (USA)                         | Connect                                                                                      | Payment processing for donations                                                                                                                       | USA              | [Privacy Notice](https://stripe.com/privacy), [GDPR Center](https://stripe.com/legal/privacy-center)         |
-| [Triplebit](https://www.triplebit.org) (USA)               | Object Storage                                                                               | For hosting static websites and static media content, and distributing static content                                                                  | USA, Poland      | [Privacy Notice](https://www.triplebit.org/privacy)                                                          |
-| [Triplebit](https://www.triplebit.org) (USA)               | [Umami Statistics](https://stats.triplebit.net/share/S80jBc50hxr5TquS/www.privacyguides.org) | For compiling aggregated statistics of our website visitor data based on server-side visitor info submissions                                          | USA              | [Privacy Notice](https://www.triplebit.org/privacy)                                                          |
-| [Triplebit](https://www.triplebit.org) (USA)               | Virtual Private Servers                                                                      | For hosting our dynamic websites, storing and processing personal data.                                                                | USA              | [Privacy Notice](https://www.triplebit.org/privacy)                                                          |
+| 次級處理者                                                           | 服務                                                                                           | 功能                                                                                                                                                     | 處理          | 連結                                                                                                         |
+| --------------------------------------------------------------- | -------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------ | ----------- | ---------------------------------------------------------------------------------------------------------- |
+| [Bunny.net](https://bunny.net)（斯洛維尼亞）           | [Bunny CDN](https://bunny.net/cdn)                                                           | 用來散佈影像與其他靜態資產的內容傳遞網路服務。                                                                                                                                | 斯洛維尼亞，全球    | [隱私權聲明](https://bunny.net/privacy)、[GDPR 中心](https://bunny.net/gdpr)                                       |
+| [Cloudflare](https://cloudflare.com)（美國）                        | [權威 DNS](https://cloudflare.com/application-services/products/dns)                           | 為我們的網域名稱提供權威 DNS 服務。                                                                                                                                   | 美國，全球       | [隱私權聲明](https://cloudflare.com/privacypolicy)、[GDPR 中心](https://cloudflare.com/trust-hub/gdpr)             |
+| [Fediverse Communications LLC](https://fediverse.us)（美國）        | PeerTube                                                                                     | For hosting public videos produced by Privacy Guides which are shared or embedded on this website.                                     | USA         | [More information](https://neat.tube/about/instance)                                                       |
+| [GitHub](https://github.com) (USA)           | Git Repositories                                                                             | _For visitors to this website_: sharing information with our visitors about the current release, repo star count, etc. | USA         | [Privacy Notice](https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement) |
+| [GitHub](https://github.com) (USA)           | Git Repositories, Issues, Pull Requests                                                      | _For contributors to this website_: hosting our source code and communications platforms such as our issues tracker.   | USA         | [Privacy Notice](https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement) |
+| [GitHub](https://github.com) (USA)           | [Sponsors](https://github.com/sponsors/privacyguides)                                        | For collecting payments for gifts to Privacy Guides                                                                                                    | USA         | [Privacy Notice](https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement) |
+| [Mailgun](https://www.mailgun.com) (USA)     | Email Delivery                                                                               | For sending newsletters and other email messages to users                                                                                              | USA         | [Privacy Notice](https://www.mailgun.com/privacy-policy), [GDPR Center](https://www.mailgun.com/gdpr)      |
+| [Stripe](https://stripe.com) (USA)           | Connect                                                                                      | Payment processing for donations                                                                                                                       | USA         | [Privacy Notice](https://stripe.com/privacy), [GDPR Center](https://stripe.com/legal/privacy-center)       |
+| [Triplebit](https://www.triplebit.org) (USA) | Object Storage                                                                               | For hosting static websites and static media content, and distributing static content                                                                  | USA, Poland | [Privacy Notice](https://www.triplebit.org/privacy)                                                        |
+| [Triplebit](https://www.triplebit.org) (USA) | [Umami Statistics](https://stats.triplebit.net/share/S80jBc50hxr5TquS/www.privacyguides.org) | For compiling aggregated statistics of our website visitor data based on server-side visitor info submissions                                          | USA         | [Privacy Notice](https://www.triplebit.org/privacy)                                                        |
+| [Triplebit](https://www.triplebit.org) (USA) | Virtual Private Servers                                                                      | For hosting our dynamic websites, storing and processing personal data.                                                                | USA         | [Privacy Notice](https://www.triplebit.org/privacy)                                                        |
 
 ## Does Privacy Guides delete inactive accounts?
 
@@ -333,18 +333,18 @@ You can always request the deletion of your data at any time regardless of this 
 
 ## How can I contact Privacy Guides about privacy?
 
-You can send questions, requests, and complaints via email to us at <team@privacyguides.org>. You may also use Signal or another contact method detailed [here](about.md#contact-us) to contact us more securely.
+You can send questions, requests, and complaints via email to us at <team@privacyguides.org>. 您亦可透過 Signal 或其他詳列於[此處](about.md#contact-us)的聯絡方式，以更安全的途徑與我們聯絡。
 
-For complaints under GDPR more generally, you always have the option to lodge complaints with your local data protection supervisory authorities.
+根據 GDPR 提出申訴時，您始終可選擇向當地資料保護監管機構提出申訴。
 
-## Where do I find out about changes?
+## 我該從何處獲知變更資訊？
 
-This version of Privacy Guides' privacy notice took effect on September 24, 2025.
+此版本的 Privacy Guides 隱私權聲明於2025年9月24日生效。
 
-Privacy Guides will post the next version here: <https://www.privacyguides.org/en/privacy/>.
+Privacy Guides 將會在此處發佈下一個版本：<https://www.privacyguides.org/en/privacy/>。
 
-In future versions, Privacy Guides may change how it announces changes. In the meantime, Privacy Guides may update its contact information without announcing a change. Please refer to <https://www.privacyguides.org/en/privacy/> for the latest contact information at any time.
+在未來版本中，Privacy Guides 可能會變更其公告變更的方式。 在此期間，Privacy Guides 可能會更新其聯絡資訊，而不會事先公告變更。 請隨時參閱 <https://www.privacyguides.org/en/privacy/> 以取得最新聯絡資訊。
 
-A full revision [history](https://github.com/privacyguides/privacyguides.org/commits/main/docs/privacy.md) of this page can be found on GitHub.
+本頁面的完整修訂版本[歷史紀錄](https://github.com/privacyguides/privacyguides.org/commits/main/docs/privacy.md)可在 GitHub 上找到。
 
-In the event that a translated copy of this document conflicts with the English copy, the English copy of this document takes precedence.
+倘若本文件之譯本與英文版本內容有任何歧義，應以英文版本為準。
