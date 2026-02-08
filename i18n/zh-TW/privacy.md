@@ -261,23 +261,23 @@ Privacy Guides 通常依據 GDPR 第 6 條所列的六項合法處理依據中�
 
 由於國家安全與監控法規可能與歐洲資料保護規則產生衝突，Privacy Guides 持續重新評估這些法規的實際適用範圍，以確保我們的資料傳輸獲得充分保障。
 
-## Does Privacy Guides comply with the California Consumer Privacy Act and other US state comprehensive privacy laws?
+## Privacy Guides 是否符合加州消費者隱私權法案以及美國其他各州的全面性隱私法律？
 
-Privacy Guides is not a "business" for the purposes of the California Consumer Privacy Act (CCPA) or a “controller” directly subject to other US state comprehensive privacy laws.
+Privacy Guides 不屬於加州消費者隱私權法案 (CCPA) 所指的「企業」，也非直接受其他美國各州全面性隱私法律管轄的「控制者」。
 
-Privacy Guides **never** sells your personal information.
+Privacy Guides **不會**出售個人資訊。
 
-## Where can I access data about me?
+## 我在哪裡可以查閱關於我的資料？
 
-You can see your account data by visiting your profile page on any websites where we offer accounts. Your account profile will also list your posts and other activity on the website.
+您可透過造訪我們提供帳號服務的任何網站上的個人檔案頁面，查看您的帳號資料。 您的帳號個人資料頁面亦會列出您在網站上的發文及其他活動紀錄。
 
-On the forum, your [profile settings](https://discuss.privacyguides.net/my/preferences/account) include a link to download all of your activity in standard Comma Separated Values format.
+在論壇上，您的[個人設定](https://discuss.privacyguides.net/my/preferences/account)包含一個連結，可讓您下載所有活動紀錄，格式為標準的逗號分隔值檔案。
 
-If you do not have an account with us but have a data access request, please [contact us](about.md).
+若您尚未在我們這裡註冊帳號，但有資料存取請求，請[聯絡我們](about.md)。
 
-## How can I change or erase data about me?
+## 我該如何修改或刪除關於我的資料？
 
-You can change your account data at any time by visiting the profile settings page for your account. You also have the option to delete your profile on the settings page of your account. Utilizing this option begins the process of erasing or anonymizing Privacy Guides' records of data you provided for your account. Forum administrators and moderators also have the option to erase and anonymize accounts.
+您隨時可透過造訪帳號的個人資料設定頁面，變更您的帳號資料。 您亦可於帳號設定頁面選擇刪除個人檔案。 使用此選項將啟動刪除或匿名化您為帳號提供的資料之過程，該資料由 Privacy Guides 所記錄。 Forum administrators and moderators also have the option to erase and anonymize accounts.
 
 You may also be able to edit, anonymize, or erase your posts. When you edit posts, Privacy Guides will keep all versions of your posts. These old versions of posts are not public, but may be accessed by forum moderators or administrators.
 
