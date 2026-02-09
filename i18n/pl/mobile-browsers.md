@@ -355,7 +355,7 @@ Te ustawienia sprawiają, że strony internetowe mogą uzyskać dostęp do apara
 
 Te opcje znajdziesz w :gear: **Ustawienia** → **Aplikacje** → **Safari** → **Zaawansowane**.
 
-##### Fingerprinting Mitigations
+##### Ograniczanie rozpoznawania
 
 The **Advanced Tracking and Fingerprinting Protection** setting will randomize certain values so that it's more difficult to fingerprint you:
 
