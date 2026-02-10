@@ -3,7 +3,7 @@ title: Journalist
 description: Privacy Guides is looking for a determined and focused journalist to research and write stories from the privacy and cybersecurity space on a regular basis.
 ---
 
-[:material-arrow-left-drop-circle: Job Openings](../jobs.md)
+[:material-arrow-left-drop-circle: 職缺](../jobs.md)
 
 <div class="admonition info" markdown>
 <p class="admonition-title">Position Closed</p>
@@ -12,9 +12,9 @@ Thank you for your interest in this position at Privacy Guides. At this time we 
 
 </div>
 
-Are you passionate about privacy and cybersecurity?
+您對隱私權與網路安全充滿熱忱嗎？
 
-Privacy Guides is an international nonprofit dedicated to producing top-tier, unbiased educational content and journalism, and to fostering safe and informative online communities to discuss technical topics around improving personal privacy and cybersecurity.
+Privacy Guides 是一個國際性非營利組織，致力於製作頂尖且公正的教育內容與新聞報導，並培育安全且具資訊價值的線上社群，以探討提升個人隱私與網路安全相關技術議題。
 
 We are looking for a determined and focused journalist to join our team. As a reporter for our organization, you will conduct research, interview sources, and write engaging stories in the field of consumer privacy and cybersecurity.
 

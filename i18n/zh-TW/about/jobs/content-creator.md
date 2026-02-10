@@ -1,24 +1,24 @@
 ---
-title: Content Creator
-description: Privacy Guides is looking for a video producer and host for informative privacy-related content on YouTube and other platforms.
+title: 內容創作者
+description: Privacy Guides 正在招募影片製作人暨主持人，負責於 YouTube 及其他平台製作具教育意義的隱私相關內容。
 ---
 
-[:material-arrow-left-drop-circle: Job Openings](../jobs.md)
+[:material-arrow-left-drop-circle: 職缺](../jobs.md)
 
 <div class="admonition info" markdown>
-<p class="admonition-title">Position Closed</p>
+<p class="admonition-title">職位已關閉</p>
 
-Thank you for your interest in this position at Privacy Guides. At this time we are no longer accepting new applications, but please follow our [job openings](../jobs.md) page to learn about future opportunities.
+感謝您對 Privacy Guides 的這個職位感興趣。 目前我們不再接受新的申請，但請追蹤我們的[職缺](../jobs.md)頁面以了解未來的工作機會。
 
 </div>
 
-Are you passionate about privacy and cybersecurity?
+您對隱私權與網路安全充滿熱忱嗎？
 
-Privacy Guides is an international nonprofit dedicated to producing top-tier, unbiased educational content and journalism, and to fostering safe and informative online communities to discuss technical topics around improving personal privacy and cybersecurity.
+Privacy Guides 是一個國際性非營利組織，致力於製作頂尖且公正的教育內容與新聞報導，並培育安全且具資訊價值的線上社群，以探討提升個人隱私與網路安全相關技術議題。
 
-Privacy Guides is looking for a focused and motivated individual to be responsible for our social media presence from end to end, with a particular emphasis on video content. You must be comfortable being on camera to succeed in this role.
+Privacy Guides 正在尋找一位專注且積極進取的人才，負責我們社交媒體的完整經營，特別著重於影音內容的開發。 若想勝任此職位，您必須能自在面對鏡頭。
 
-This is a unique opportunity. Your primary goal will be to create and share privacy-based educational materials, without any motive to sell a product. If you truly value being able to create the best content that you can, and if you are passionate about privacy, then this position is for you!
+這是千載難逢的機會。 您的首要目標將是製作並分享基於隱私的教育材料，且不帶有任何銷售產品的動機。 If you truly value being able to create the best content that you can, and if you are passionate about privacy, then this position is for you!
 
 Your responsibilities will include, but aren’t limited to:
 
