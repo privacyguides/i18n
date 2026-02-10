@@ -1,14 +1,14 @@
 ---
-title: Journalist
-description: Privacy Guides is looking for a determined and focused journalist to research and write stories from the privacy and cybersecurity space on a regular basis.
+title: 記者
+description: Privacy Guides 正尋求一位堅定且專注的記者，定期從隱私與網路安全領域進行研究並撰寫報導。
 ---
 
 [:material-arrow-left-drop-circle: 職缺](../jobs.md)
 
 <div class="admonition info" markdown>
-<p class="admonition-title">Position Closed</p>
+<p class="admonition-title">職位已關閉</p>
 
-Thank you for your interest in this position at Privacy Guides. At this time we are no longer accepting new applications, but please follow our [job openings](../jobs.md) page to learn about future opportunities.
+感謝您對 Privacy Guides 的這個職位感興趣。 目前我們不再接受新的申請，但請追蹤我們的[職缺](../jobs.md)頁面以了解未來的工作機會。
 
 </div>
 
@@ -16,58 +16,58 @@ Thank you for your interest in this position at Privacy Guides. At this time we 
 
 Privacy Guides 是一個國際性非營利組織，致力於製作頂尖且公正的教育內容與新聞報導，並培育安全且具資訊價值的線上社群，以探討提升個人隱私與網路安全相關技術議題。
 
-We are looking for a determined and focused journalist to join our team. As a reporter for our organization, you will conduct research, interview sources, and write engaging stories in the field of consumer privacy and cybersecurity.
+我們正在尋找一位意志堅定且專注的記者加入我們的團隊。 作為本機構的記者，您將負責在消費者隱私與網路安全領域進行研究、採訪消息來源，並撰寫引人入勝的報導。
 
-Our ideal candidate is committed to combating misinformation and clearly communicating stories on a timely basis, and dedicated to producing top-tier, unbiased journalism.
+我們理想的候選人應致力於打擊錯誤資訊，及時清晰地傳遞新聞故事，並專注於製作頂尖、公正的新聞報導。
 
-Privacy Guides is a small, largely volunteer-driven nonprofit media organization, and we do not currently have a dedicated writing and editing team. As such, you will be expected to take charge of the entire writing process from beginning to publication. You will have the freedom to choose which topics to cover and set a schedule to release articles on our main website.
+Privacy Guides 是一個小型、主要由志願者驅動的非營利媒體組織，目前尚未擁有專職的撰稿與編輯團隊。 因此，您將負責從起草到出版的整個寫作流程。 您將享有自由選擇撰寫主題的權限，並可自行安排在我們主網站發佈文章的時程。
 
-\==Our primary mission is to publish the highest quality content surrounding consumer privacy and cybersecurity on the internet==, not the highest quantity of stories. You will be empowered to dive deep into the topics you are writing about, and expected to meet our high quality and editorial standards.
+\==我們的首要使命是發布最高品質的網路消費者隱私與資安相關內容==，而非追求報導數量之最。 您將獲得深入探索撰寫主題的權限，並需符合我們的高品質與編輯標準。
 
-Your responsibilities will include, but aren’t limited to:
+您的職責將包括但不限於：
 
-- Creating high-quality articles for our [knowledge base](../../basics/why-privacy-matters.md).
-- Performing product reviews for our [reviews](https://www.privacyguides.org/articles/category/reviews) section and [tool recommendations](../../tools.md).
-- Researching new topics to cover.
-- Interviewing and fact-checking all relevant sources.
-- Regular posting of high-quality, unbiased journalistic content across our platforms.
+- 為我們的[知識庫](../../basics/why-privacy-matters.md)製作高品質的文章。
+- 對我們的[評論](https://www.privacyguides.org/articles/category/reviews)區塊與[工具建議](../../tools.md)進行產品評論。
+- 研究要涵蓋的新主題。
+- 訪談並事實查核所有相關來源。
+- 在我們的各個平台上定期發布高品質、公正的新聞內容。
 
-As a guideline, we expect roughly 3-5 articles a week that meet our quality standards, since we believe a well-researched article will take at least 8 hours to research and write on average. We realize some articles can be completed quickly, while others may take weeks or longer before publishing. You will be empowered to use your best judgement and prioritize your work accordingly.
+作為參考準則，我們預期每週約有 3 至 5 篇符合品質標準的文章，因為我們認為一篇經過充分研究的文章，平均至少需要8小時進行研究與撰寫。 我們明白有些文章能迅速完成，而另一些則可能需要數週甚至更長時間才能發表。 您將獲得充分授權，運用您的最佳判斷力並據此優先處理工作事項。
 
-We are much more interested in articles that deeply cover a subject area than articles that cover the news of the day.
+我們對深度探討特定領域的文章興趣遠勝於那些僅報導當日新聞的文章。
 
-Job requirements:
+工作要求：
 
-- Excellent organization and communication skills.
-- Expertise in English and writing.
-- Flexibility to set and respond to varying priorities and deadlines.
-- Proactive, results-driven mindset with a strong sense of initiative.
-- Personal interest in consumer privacy, cybersecurity, and technology.
-- Regular communication with the Privacy Guides committee and other team members.
-- Skeptical nature and drive to investigate difficult, often niche, technologies. You will need to evaluate the truthfulness of claims.
+- 出色的組織與溝通能力。
+- 精通英語與寫作。
+- 靈活設定並因應不同優先順序與截止期限的能力。
+- 積極主動、以成果為導向的思維模式，並具備強烈的自主性。
+- 個人對消費者隱私、網路安全及科技領域的關注。
+- 與 Privacy Guides 委員會及其他團隊成員保持定期溝通。
+- 對技術抱持懷疑態度，並積極探索艱深且常屬利基領域的技術。 您需要評估這些聲稱的真實性。
 
-The following qualifications will be an asset to your application. However, we are looking for the best candidate (which isn’t always apparent on paper!), so please apply even if you don’t meet any/many of these qualifications.
+以下資格將為您的申請增添優勢。 然而，我們尋求的是最合適的人選（這點未必能從書面資料完全體現！），因此即使您不符合其中任何一項或多項資格要求，也請務必提出申請。
 
-- Previous writing or journalism experience.
-- Previous product review experience.
-- Education in English, journalism, media production, or any other related fields.
-- Familiarity with Privacy Guides' communities, culture, and mission.
-- Located between UTC-08:00 and UTC-04:00 time zones.
-- At least basic familiarity with GitHub, including pull requests, branches, reviews, and issues.
+- 過往寫作或新聞工作經驗。
+- 過往產品評論經驗。
+- 英語教育、新聞學、媒體製作或任何其他相關領域。
+- 熟悉 Privacy Guides 的社群、文化與使命。
+- 位於 UTC-08:00 與 UTC-04:00 時區之間。
+- 至少具備 GitHub 的基本操作能力，包括拉取請求、分支管理、程式碼審查及問題追蹤等功能。
 
-The ideal candidate can commit to this role on a full-time basis (40 hours / week), but we are open to discussing a schedule you suggest.
+理想人選需能全職投入此職位（每週40小時），但我們樂意與您商討您建議的工作時間安排。
 
-For this position, our hiring pay range falls between \$20-$25 / hour USD. The base pay may vary depending on job related qualifications such as knowledge, skills, and experience. Our compensation structure is rooted in a performance and merit based approach that acknowledges performance of both the individual and the project as a whole.
+此職位之起薪範圍為每小時 20 至 25 美元。 基本薪資可能因工作相關資格（例如知識、技能及經驗）而有所不同。 我們的薪酬結構根植於績效與實績為本的方針，既認可個人表現，亦重視專案整體成果。
 
 ---
 
 <div class="admonition info" markdown>
-<p class="admonition-title">Position Closed</p>
+<p class="admonition-title">職位已關閉</p>
 
-Thank you for your interest in this position at Privacy Guides. At this time we are no longer accepting new applications, but please follow our [job openings](../jobs.md) page to learn about future opportunities.
+感謝您對 Privacy Guides 的這個職位感興趣。 目前我們不再接受新的申請，但請追蹤我們的[職缺](../jobs.md)頁面以了解未來的工作機會。
 
 </div>
 
-Privacy Guides is fiscally hosted by [MAGIC Grants](https://magicgrants.org), a 501(c)(3) public charity. MAGIC Grants is an equal opportunity employer. MAGIC Grants does not discriminate against any applicant or employee because of age, color, sex, disability, national origin, race, religion, sexual orientation, sexual identity, veteran status, or other protected characteristic.
+Privacy Guides 由 [MAGIC Grants](https://magicgrants.org) 提供財政託管服務，該機構為 501(c)(3) 條款認可的公共慈善組織。 MAGIC Grants 為平等機會僱主。 MAGIC Grants 不會基於年齡、膚色、性別、殘疾、國籍、種族、宗教、性取向、性別認同、退伍軍人身份或其他受保護特徵，對任何申請人或員工進行歧視。
 
-We respect your privacy. After this position is filled, your application will be deleted. Your application will not be shared with third parties.
+我們尊重您的隱私。 此職位招滿後，您的申請資料將被刪除。 您的申請資料不會與第三方分享。

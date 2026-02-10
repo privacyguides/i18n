@@ -16,57 +16,57 @@ description: Privacy Guides 正在招募影片製作人暨主持人，負責於 
 
 Privacy Guides 是一個國際性非營利組織，致力於製作頂尖且公正的教育內容與新聞報導，並培育安全且具資訊價值的線上社群，以探討提升個人隱私與網路安全相關技術議題。
 
-Privacy Guides 正在尋找一位專注且積極進取的人才，負責我們社交媒體的完整經營，特別著重於影音內容的開發。 若想勝任此職位，您必須能自在面對鏡頭。
+Privacy Guides 正在尋找一位專注且積極進取的人才，負責我們社群媒體的完整經營，特別著重於影音內容的開發。 若想勝任此職位，您必須能自在面對鏡頭。
 
-這是千載難逢的機會。 您的首要目標將是製作並分享基於隱私的教育材料，且不帶有任何銷售產品的動機。 If you truly value being able to create the best content that you can, and if you are passionate about privacy, then this position is for you!
+這是千載難逢的機會。 您的首要目標將是製作並分享基於隱私的教育材料，且不帶有任何銷售產品的動機。 若您真心重視創造最佳內容的能力，且對隱私保護懷抱熱忱，那麼這個職位正是為您而設！
 
-Your responsibilities will include, but aren’t limited to:
+您的職責將包括但不限於：
 
-- Scripting and hosting educational video content to be posted across various social media platforms.
-- Video editing, production, and other backend work required to make successful content.
-- Researching new topics to cover.
-- Regular, daily posting to text-based social media platforms like Mastodon.
-- Regular posting of highly educational video content to social media platforms.
-- Compiling news sources for and hosting a weekly news recap (livestreamed) podcast on our YouTube channel.
-- Regularly communicating with the Privacy Guides committee and other team members.
+- 編寫腳本並託管教育性影音內容，以供發佈於各類社群媒體平台。
+- 影片剪輯、製作及其他後端工作，以打造成功內容。
+- 研究要涵蓋的新主題。
+- 每日定期在 Mastodon 等文字型社群媒體平台發文。
+- 定期在社群媒體平台發布具高度教育意義的影片內容。
+- 彙整新聞來源並於我們的 YouTube 頻道主持每週新聞回顧（直播）podcast。
+- 定期與 Privacy Guides 委員會及其他團隊成員保持溝通。
 
-This is a highly individualized role, and we are extremely interested in hearing your ideas on how you’ll find success and make this role your own. You will be responsible for handling virtually every aspect of this role without regular supervision, so being highly self-motivated is a must.
+這是個高度個人化的職位，我們非常期待聽取您如何取得成功並將此職位融入個人風格的構想。 您將負責處理此職位幾乎所有層面的事務，且無需定期監督，因此高度的自發性是必備條件。
 
-As a guideline, we expect your video output to be roughly 1 video and 1 _This Week In Privacy_ livestream per week, since we think most videos which meet our quality standards will be a multi-day process to research and script, in addition to a day for recording and editing. We realize some videos can be completed more quickly, while others may take multiple weeks or longer before publishing. You will be empowered to use your best judgement and prioritize your work accordingly.
+作為參考準則，我們期望您每週產出的影片內容約為一支一般影片及一場 _This Week In Privacy_ 直播。這是因為我們認為，符合品質標準的影片通常需要耗費數日進行研究與撰稿，再加上錄製與剪輯所需的一天時間。 我們明白某些影片能更快完成，而其他影片則可能需要數週甚至更長時間才能發布。 您將獲得充分授權，運用您的最佳判斷力並據此優先處理工作事項。
 
-Job requirements:
+工作要求：
 
-- Excellent organization and communication skills.
-- Flexibility to set and respond to varying priorities and deadlines.
-- Proactive, results-driven mindset with a strong sense of initiative.
-- Comfortable being on camera, and working with video production equipment.
-- Personal interest in consumer privacy, cybersecurity, and technology.
-- Skeptical nature and drive to investigate difficult, often niche, technologies. You will need to evaluate the truthfulness of claims.
+- 出色的組織與溝通能力。
+- 靈活設定並因應不同優先順序與截止期限的能力。
+- 積極主動、以成果為導向的思維模式，並具備強烈的自主性。
+- 擅長面對鏡頭，並能熟練操作影音製作設備。
+- 個人對消費者隱私、網路安全及科技領域的關注。
+- 對技術抱持懷疑態度，並積極探索艱深且常屬利基領域的技術。 您需要評估這些聲稱的真實性。
 
-The following qualifications will be an asset to your application. However, we are looking for the best candidate (which isn’t always apparent on paper!), so please apply even if you don’t meet any/many of these qualifications.
+以下資格將為您的申請增添優勢。 然而，我們尋求的是最合適的人選（這點未必能從書面資料完全體現！），因此即使您不符合其中任何一項或多項資格要求，也請務必提出申請。
 
-- Previous YouTube or other video creation experience.
-- Previous social media management experience.
-- Education in English, journalism, media production, or any other related fields.
-- Fluency in Spanish, French, Portuguese, or other languages.
-- Familiarity with Privacy Guides' communities, culture, and mission.
-- A solid understanding of the latest trends/culture on YouTube & TikTok.
-- Located between UTC-08:00 and UTC-04:00 time zones.
-- At least basic familiarity with GitHub, including pull requests, branches, reviews, and issues.
+- 曾有 YouTube 或其他影片創作經驗。
+- 具備社群媒體管理經驗。
+- 英語教育、新聞學、媒體製作或任何其他相關領域。
+- 精通西班牙語、法語、葡萄牙語或其他語言。
+- 熟悉 Privacy Guides 的社群、文化與使命。
+- 對 YouTube 與 TikTok 最新趨勢/文化的透徹理解。
+- 位於 UTC-08:00 與 UTC-04:00 時區之間。
+- 至少具備 GitHub 的基本操作能力，包括拉取請求、分支管理、程式碼審查及問題追蹤等功能。
 
-The ideal candidate can commit to this role on a full-time basis (40 hours / week), but we are open to discussing a schedule you suggest.
+理想人選需能全職投入此職位（每週40小時），但我們樂意與您商討您建議的工作時間安排。
 
-For this position, our hiring pay range falls between \$20-$25 / hour USD. The base pay may vary depending on job related qualifications such as knowledge, skills, and experience. Our compensation structure is rooted in a performance and merit based approach that acknowledges performance of both the individual and the project as a whole.
+此職位之起薪範圍為每小時 20 至 25 美元。 基本薪資可能因工作相關資格（例如知識、技能及經驗）而有所不同。 我們的薪酬結構根植於績效與實績為本的方針，既認可個人表現，亦重視專案整體成果。
 
 ---
 
 <div class="admonition info" markdown>
-<p class="admonition-title">Position Closed</p>
+<p class="admonition-title">職位已關閉</p>
 
-Thank you for your interest in this position at Privacy Guides. At this time we are no longer accepting new applications, but please follow our [job openings](../jobs.md) page to learn about future opportunities.
+感謝您對 Privacy Guides 的這個職位感興趣。 目前我們不再接受新的申請，但請追蹤我們的[職缺](../jobs.md)頁面以了解未來的工作機會。
 
 </div>
 
-Privacy Guides is fiscally hosted by [MAGIC Grants](https://magicgrants.org), a 501(c)(3) public charity. MAGIC Grants is an equal opportunity employer. MAGIC Grants does not discriminate against any applicant or employee because of age, color, sex, disability, national origin, race, religion, sexual orientation, sexual identity, veteran status, or other protected characteristic.
+Privacy Guides 由 [MAGIC Grants](https://magicgrants.org) 提供財政託管服務，該機構為 501(c)(3) 條款認可的公共慈善組織。 MAGIC Grants 為平等機會僱主。 MAGIC Grants 不會基於年齡、膚色、性別、殘疾、國籍、種族、宗教、性取向、性別認同、退伍軍人身份或其他受保護特徵，對任何申請人或員工進行歧視。
 
-We respect your privacy. After this position is filled, your application will be deleted. Your application will not be shared with third parties.
+我們尊重您的隱私。 此職位招滿後，您的申請資料將被刪除。 您的申請資料不會與第三方分享。

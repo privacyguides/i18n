@@ -1,14 +1,14 @@
 ---
-title: Intern (Community & News)
-description: Privacy Guides is looking for an intern to discover and promote relevant news content on our platform, and to moderate and engage with our online communities.
+title: 實習生（社群與新聞）
+description: Privacy Guides 正在招募實習生，負責在我們的平台上發掘並推廣相關新聞內容，同時管理線上社群並與成員互動交流。
 ---
 
 [:material-arrow-left-drop-circle: 職缺](../jobs.md)
 
 <div class="admonition info" markdown>
-<p class="admonition-title">Position Closed</p>
+<p class="admonition-title">職位已關閉</p>
 
-Thank you for your interest in this position at Privacy Guides. At this time we are no longer accepting new applications, but please follow our [job openings](../jobs.md) page to learn about future opportunities.
+感謝您對 Privacy Guides 的這個職位感興趣。 目前我們不再接受新的申請，但請追蹤我們的[職缺](../jobs.md)頁面以了解未來的工作機會。
 
 </div>
 
@@ -16,39 +16,39 @@ Thank you for your interest in this position at Privacy Guides. At this time we 
 
 Privacy Guides 是一個國際性非營利組織，致力於製作頂尖且公正的教育內容與新聞報導，並培育安全且具資訊價值的線上社群，以探討提升個人隱私與網路安全相關技術議題。
 
-This role is focused on interacting with our community members and answering their questions, keeping our online communities safe and constructive, and sharing thoughtful and informative news stories from around the internet for community discussion.
+此職位主要負責與社群成員互動並解答疑問，維護線上社群的安全與建設性氛圍，同時精選網路上的深度資訊與新聞報導，供社群成員交流討論。
 
-Responsibilities will include:
+職責包括：
 
-- Regularly interacting with our forum and other communities.
-- Responding to moderation complaints/flags within our communities.
-- Reading news stories from a variety of publications and generally staying up to date with the latest news in the privacy and cybersecurity space.
-- Regularly posting interesting news stories and other topics you discover in our communities for discussion.
-- Assisting our other staff and volunteers with research, writing, video production, and editing.
-- Assisting with Privacy Guides' advocacy efforts.
-- Remaining polite and fact-focused.
+- 定期與我們的論壇及其他社群互動。
+- 處理社群中的審核申訴/檢舉。
+- 閱讀來自各類出版物的新聞報導，並持續掌握隱私權與網路安全領域的最新動態。
+- 定期在我們的社群中分享您發現的有趣新聞報導及其他話題，供大家討論。
+- 協助其他員工及志工進行研究、撰寫、影片製作與編輯工作。
+- 協助 Privacy Guides 的倡議工作。
+- 保持禮貌並聚焦於事實。
 
-No prior experience is necessary. We are looking for people passionate about privacy, cybersecurity, journalism, and community management regardless of your GPA or background.
+無需任何經驗。 我們正在尋找對隱私權、網路安全、新聞業及社群管理充滿熱忱的人才，無論您的學業成績或背景為何。
 
-The following will be assets to your application, but please submit an application even if they don't apply to you:
+以下內容將有助於您的申請，但即使您不符合這些條件，也請提交申請：
 
-- Familiarity with Privacy Guides' communities, culture, and mission.
-- Previous experience with social media management and/or journalism.
-- Located between UTC-08:00 and UTC-04:00 time zones.
+- 熟悉 Privacy Guides 的社群、文化與使命。
+- 具備社群媒體管理或新聞工作相關經驗。
+- 位於 UTC-08:00 與 UTC-04:00 時區之間。
 
-This is a part-time, 10-20 hour per week role depending on your availability. We can work around your schedule and other obligations.
+這是個兼職職位，每週工作時數為10至20小時，具體視您的時間安排而定。 我們可以配合您的行程安排及其他事務。
 
-This is a 6-month contract paying $15 / hour USD, with the optional opportunity for renewal or a longer-term role depending on your personal goals and the project's outcome. The specific starting and ending dates are flexible.
+此為期六個月的合約，時薪為 15 美元，可視個人目標與專案成果選擇續約或轉為長期職位。 具體的起始與結束日期具有彈性。
 
 ---
 
 <div class="admonition info" markdown>
-<p class="admonition-title">Position Closed</p>
+<p class="admonition-title">職位已關閉</p>
 
-Thank you for your interest in this position at Privacy Guides. At this time we are no longer accepting new applications, but please follow our [job openings](../jobs.md) page to learn about future opportunities.
+感謝您對 Privacy Guides 的這個職位感興趣。 目前我們不再接受新的申請，但請追蹤我們的[職缺](../jobs.md)頁面以了解未來的工作機會。
 
 </div>
 
-Privacy Guides is fiscally hosted by [MAGIC Grants](https://magicgrants.org), a 501(c)(3) public charity. MAGIC Grants is an equal opportunity employer. MAGIC Grants does not discriminate against any applicant or employee because of age, color, sex, disability, national origin, race, religion, sexual orientation, sexual identity, veteran status, or other protected characteristic.
+Privacy Guides 由 [MAGIC Grants](https://magicgrants.org) 提供財政託管服務，該機構為 501(c)(3) 條款認可的公共慈善組織。 MAGIC Grants 為平等機會僱主。 MAGIC Grants 不會基於年齡、膚色、性別、殘疾、國籍、種族、宗教、性取向、性別認同、退伍軍人身份或其他受保護特徵，對任何申請人或員工進行歧視。
 
-We respect your privacy. After this position is filled, your application will be deleted. Your application will not be shared with third parties.
+我們尊重您的隱私。 此職位招滿後，您的申請資料將被刪除。 您的申請資料不會與第三方分享。
