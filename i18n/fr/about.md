@@ -227,7 +227,7 @@ Nous avons également lancé notre nouveau forum de discussion sur [discuss.priv
 
 En 2023, nous avons lancé des traductions internationales de notre site web en [français](https://www.privacyguides.org/fr), [hébreu](https://www.privacyguides.org/he), [néerlandais](https://www.privacyguides.org/nl), et dans d'autres langues, grâce à notre excellente équipe de traduction sur [Crowdin](https://crowdin.com/project/privacyguides).
 
-In 2024, we successfully fundraised to hire several full-time staff members, Em, Jordan, and Kevin; to help with content creation, community management, and video production. This has allowed us to expand our reach and provide more frequent updates to our audience.
+In 2024, we successfully fundraised to hire several full-time staff members, Em, Jordan, and Kevin; to help with content creation, community management, and video production. Cela nous a permis d'étendre notre portée et de fournir des mises à jour plus fréquentes à notre public.
 
 In 2025, we launched our [newsroom](https://www.privacyguides.org/news), providing timely articles on the latest developments in privacy and security. We also hired Nate as a Digital Content Producer to bring more consistency to our educational video content.
 
