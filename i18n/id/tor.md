@@ -29,22 +29,22 @@ schema:
 - [:material-eye-outline: Pengawasan Massal](basics/common-threats.md#mass-surveillance-programs ""){.pg-blue}
 - [:material-close-outline: Penyensoran](basics/common-threats.md#avoiding-censorship ""){.pg-blue-gray}
 
-**Tor** is a group of volunteer-operated servers that allows you to connect for free and improve your privacy and security on the Internet. Individu dan organisasi juga dapat berbagi informasi melalui jaringan Tor dengan ".onion layanan tersembunyi " tanpa mengorbankan privasi mereka. Karena lalu lintas Tor sulit diblokir dan dilacak, Tor merupakan alat pengelabuan sensor yang efektif.
+**Tor** adalah sekelompok server yang dioperasikan secara sukarela yang memungkinkan Anda terhubung secara gratis dan meningkatkan privasi dan keamanan Anda di Internet. Individu dan organisasi juga dapat berbagi informasi melalui jaringan Tor dengan ".onion layanan tersembunyi " tanpa mengorbankan privasi mereka. Karena lalu lintas Tor sulit diblokir dan dilacak, Tor merupakan alat pengelabuan sensor yang efektif.
 
-[Detailed Tor Overview :material-arrow-right-drop-circle:](advanced/tor-overview.md ""){.md-button.md-button--primary} [:material-movie-open-play-outline: Video: Why You Need Tor](https://www.privacyguides.org/videos/2025/03/02/why-you-need-tor ""){.md-button}
+[Ikhtisar Tor Terperinci :material-arrow-right-drop-circle:](advanced/tor-overview.md ""){.md-button.md-button--primary}[:material-movie-open-play-outline: Video: Mengapa Anda Membutuhkan Tor](https://www.privacyguides.org/videos/2025/03/02/why-you-need-tor ""){.md-button}
 
 <div class="admonition tip" markdown>
 <p class="admonition-title">Tip</p>
 
-Before connecting to Tor, please ensure you've read our [overview](advanced/tor-overview.md) on what Tor is and how to connect to it safely. We often recommend connecting to Tor through a trusted [VPN provider](vpn.md), but you have to do so **properly** to avoid decreasing your anonymity.
+Sebelum menyambung ke Tor, pastikan Anda telah membaca [ikhtisar](advanced/tor-overview.md) tentang apa itu Tor dan bagaimana menyambung ke Tor dengan aman. Kami sering menyarankan untuk menyambung ke Tor melalui [penyedia VPN](vpn.md) terpercaya, tetapi Anda harus melakukannya **dengan benar** untuk menghindari berkurangnya anonimitas Anda.
 
 </div>
 
-There are a variety of ways to connect to the Tor network from your device, the most commonly used being the **Tor Browser**, a fork of Firefox designed for [:material-incognito: anonymous](basics/common-threats.md#anonymity-vs-privacy ""){.pg-purple} browsing for desktop computers and Android.
+Ada berbagai cara untuk terhubung ke jaringan Tor dari perangkat Anda, yang paling umum digunakan adalah **Tor Browser**, sebuah fork dari Firefox yang dirancang untuk penjelajahan [:material-incognito: anonim](basics/common-threats.md#anonymity-vs-privacy ""){.pg-purple} untuk komputer desktop dan Android.
 
-Some of these apps are better than others; making a determination comes down to your threat model. If you are a casual Tor user who is not worried about your ISP collecting evidence against you, using mobile browser apps like [Onion Browser](#onion-browser-ios) to access the Tor network is probably fine. Increasing the number of people who use Tor on an everyday basis helps reduce the bad stigma of Tor, and lowers the quality of "lists of Tor users" that ISPs and governments may compile.
+Beberapa dari aplikasi ini lebih baik daripada yang lain; menentukan pilihan tergantung pada model ancaman Anda. Jika Anda adalah pengguna Tor biasa yang tidak khawatir tentang ISP Anda mengumpulkan bukti melawan Anda, menggunakan aplikasi peramban seluler seperti [Onion Browser](#onion-browser-ios) untuk mengakses jaringan Tor mungkin tidak masalah. Meningkatkan jumlah orang yang menggunakan Tor setiap hari membantu mengurangi stigma buruk Tor, dan menurunkan kualitas "daftar pengguna Tor" yang mungkin disusun oleh ISP dan pemerintah.
 
-If more complete anonymity is paramount to your situation, you should **only** be using the desktop Tor Browser client, ideally in a [Whonix](desktop.md#whonix) + [Qubes](desktop.md#qubes-os) configuration. Mobile browsers are less common on Tor (and more fingerprintable as a result), and other configurations are not as rigorously tested against deanonymization.
+Jika anonimitas yang lebih lengkap adalah yang terpenting dalam situasi Anda, Anda sebaiknya **hanya** menggunakan klien Tor browser desktop, idealnya dalam konfigurasi [Whonix](desktop.md#whonix) + [Qubes](desktop.md#qubes-os). Peramban seluler lebih jarang digunakan pada Tor (lebih mudah fingerprinting), dan konfigurasi lainnya tidak diuji secara ketat terhadap deanonimisasi.
 
 ## Tor Browser
 
@@ -52,16 +52,16 @@ If more complete anonymity is paramount to your situation, you should **only** b
 
 ![Tor Browser logo](assets/img/browsers/tor.svg){ align=right }
 
-**Tor Browser** is the top choice if you need anonymity, as it provides you with access to the Tor network and bridges, and it includes default settings and extensions that are automatically configured by the default security levels: *Standard*, *Safer* and *Safest*.
+**Tor Browser** adalah pilihan jika Anda membutuhkan anonimitas, dengan menyediakan akses ke jaringan dan jembatan Tor, dan termasuk pengaturan dan ekstensi bawaan yang secara otomatis dikonfigurasi oleh tingkat keamanan bawaan: *Standard*, *Safer* dan *Safest*.
 
-[:octicons-home-16: Homepage](https://torproject.org){ .md-button .md-button--primary }
-[:simple-torbrowser:](http://2gzyxa5ihm7nsggfxnu52rck2vv4rvmdlkiu3zzui5du4xyclen53wid.onion){ .card-link title="Onion Service" }
-[:octicons-info-16:](https://tb-manual.torproject.org){ .card-link title="Documentation" }
-[:octicons-code-16:](https://gitlab.torproject.org/tpo/applications/tor-browser){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://donate.torproject.org){ .card-link title="Contribute" }
+[:octicons-home-16: Halaman Utama](https://torproject.org){ .md-button .md-button--primary }
+[:simple-torbrowser:](http://2gzyxa5ihm7nsggfxnu52rck2vv4rvmdlkiu3zzui5du4xyclen53wid.onion){ .card-link title="Layanan Onion" }
+[:octicons-info-16:](https://tb-manual.torproject.org){ .card-link title="Dokumentasi" }
+[:octicons-code-16:](https://gitlab.torproject.org/tpo/applications/tor-browser){ .card-link title="Kode Sumber" }
+[:octicons-heart-16:](https://donate.torproject.org){ .card-link title="Berkontribusi" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Unduhan</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=org.torproject.torbrowser)
 - [:simple-android: Android](https://torproject.org/download/#android)
@@ -80,9 +80,9 @@ Anda sebaiknya **jangan pernah** memasang ekstensi tambahan apa pun pada Tor Bro
 
 </div>
 
-Tor Browser dirancang untuk mencegah sidik jari, atau mengidentifikasi Anda berdasarkan konfigurasi peramban Anda. Therefore, it is imperative that you do **not** modify the browser beyond the default [security levels](https://tb-manual.torproject.org/security-settings). When modifying the security level setting, you **must** always restart the browser before continuing to use it. Jika tidak, [pengaturan keamanan mungkin tidak sepenuhnya diterapkan](https://www.privacyguides.org/articles/2025/05/02/tor-security-slider-flaw), sehingga Anda berada pada risiko fingerprinting dan eksploitasi yang lebih tinggi daripada yang Anda harapkan berdasarkan pengaturan yang dipilih.
+Tor Browser dirancang untuk mencegah fingerprinting, atau mengidentifikasi Anda berdasarkan konfigurasi peramban Anda. Oleh karena itu, sangat penting bagi Anda untuk **tidak** memodifikasi peramban di luar [tingkat keamanan](https://tb-manual.torproject.org/security-settings) bawaan. Saat menyesuaikan tingkat keamanan, Anda **harus** selalu memulai ulang peramban sebelum melanjutkan penggunaannya. Jika tidak, [pengaturan keamanan mungkin tidak sepenuhnya diterapkan](https://www.privacyguides.org/articles/2025/05/02/tor-security-slider-flaw), sehingga Anda berada pada risiko fingerprinting dan eksploitasi yang lebih tinggi daripada yang Anda harapkan berdasarkan pengaturan yang dipilih.
 
-In addition to installing Tor Browser on your computer directly, there are also operating systems designed specifically to connect to the Tor network such as [Whonix](desktop.md#whonix) on [Qubes OS](desktop.md#qubes-os), which provide even greater security and protections than the standard Tor Browser alone.
+Selain aplikasi yang terancam di bawah ini, ada juga sistem operasi yang dirancang khusus untuk terhubung ke jaringan Tor seperti [Whonix](desktop.md#whonix) di [Qubes OS](desktop.md#qubes-os), yang menyediakan keamanan dan perlindungan yang lebih besar daripada Tor Browser standar.
 
 ## Onion Browser (iOS)
 
@@ -90,18 +90,18 @@ In addition to installing Tor Browser on your computer directly, there are also 
 
 ![Onion Browser logo](assets/img/self-contained-networks/onion_browser.svg){ align=right }
 
-**Onion Browser** is an open-source browser that lets you browse the web anonymously over the Tor network on iOS devices and is endorsed by the [Tor Project](https://support.torproject.org/glossary/onion-browser).
+**Onion Browser** adalah peramban bersumber terbuka yang memungkinkan Anda menjelajah web secara anonim melalui jaringan Tor di perangkat-perangkat iOS, dan didukung oleh [Tor Project](https://support.torproject.org/glossary/onion-browser).
 
-[:material-star-box: Read our latest Onion Browser review.](https://www.privacyguides.org/articles/2024/09/18/onion-browser-review)
+[:material-star-box: Baca ulasan Onion Browser terbaru kami.](https://www.privacyguides.org/articles/2024/09/18/onion-browser-review)
 
-[:octicons-home-16: Homepage](https://onionbrowser.com){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://onionbrowser.com/privacy-policy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://onionbrowser.com/faqs){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/OnionBrowser/OnionBrowser){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://onionbrowser.com/donate){ .card-link title="Contribute" }
+[:octicons-home-16: Halaman Utama](https://onionbrowser.com){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://onionbrowser.com/privacy-policy){ .card-link title="Kebijakan Privasi" }
+[:octicons-info-16:](https://onionbrowser.com/faqs){ .card-link title="Dokumentasi" }
+[:octicons-code-16:](https://github.com/OnionBrowser/OnionBrowser){ .card-link title="Kode Sumber" }
+[:octicons-heart-16:](https://onionbrowser.com/donate){ .card-link title="Berkontribusi" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Unduhan</summary>
 
 - [:simple-appstore: App Store](https://apps.apple.com/app/id519296448)
 
@@ -109,6 +109,6 @@ In addition to installing Tor Browser on your computer directly, there are also 
 
 </div>
 
-Onion Browser does not provide the same levels of privacy protections as Tor Browser does on desktop platforms. For casual use it is a perfectly fine way to access hidden services, but if you're concerned about being traced or monitored by advanced adversaries you should not rely on this as an anonymity tool.
+Onion Browser tidak menyediakan tingkat perlindungan privasi yang sama seperti Tor Browser pada platform desktop. Untuk penggunaan biasa, ini merupakan cara yang sangat baik untuk mengakses layanan tersembunyi, tetapi jika Anda khawatir akan dilacar atau dipantau oleh musuh tingkat lanjut, Anda sebaiknya tidak mengandalkan ini sebagai alat anonimitas.
 
-[Notably](https://github.com/privacyguides/privacyguides.org/issues/2929), Onion Browser does not *guarantee* all requests go through Tor. When using the built-in version of Tor, [your real IP **will** be leaked via WebRTC and audio/video streams](https://onionbrowser.com/faqs) due to limitations of WebKit. It is *safer* to use Onion Browser alongside [Orbot](alternative-networks.md#orbot), but this still comes with some limitations on iOS.
+[Khususnya](https://github.com/privacyguides/privacyguides.org/issues/2929), Onion Browser tidak *menjamin* semua permintaan melalui Tor. Ketika menggunakan versi bawaan Tor, [IP asli Anda **akan** dibocorkan melalui WebRTC dan streaming audio/video](https://onionbrowser.com/faqs) karena keterbatasan WebKit. *Lebih aman* menggunakan Onion Browser bersama [Orbot](alternative-networks.md#orbot), tetapi ini masih memiliki beberapa keterbatasan pada iOS.

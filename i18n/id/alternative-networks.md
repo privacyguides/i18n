@@ -35,7 +35,7 @@ The recommended way to access the Tor network is via the official Tor Browser, w
 
 [Tor Browser Info :material-arrow-right-drop-circle:](tor.md){ .md-button .md-button--primary } [Detailed Tor Overview :material-arrow-right-drop-circle:](advanced/tor-overview.md){ .md-button }
 
-You can access the Tor network using other tools; making this determination comes down to your threat model. If you are a casual Tor user who is not worried about your ISP collecting evidence against you, using apps like [Orbot](#orbot) or mobile browser apps to access the Tor network is probably fine. Increasing the number of people who use Tor on an everyday basis helps reduce the bad stigma of Tor, and lowers the quality of "lists of Tor users" that ISPs and governments may compile.
+You can access the Tor network using other tools; making this determination comes down to your threat model. If you are a casual Tor user who is not worried about your ISP collecting evidence against you, using apps like [Orbot](#orbot) or mobile browser apps to access the Tor network is probably fine. Meningkatkan jumlah orang yang menggunakan Tor setiap hari membantu mengurangi stigma buruk Tor, dan menurunkan kualitas "daftar pengguna Tor" yang mungkin disusun oleh ISP dan pemerintah.
 
 <div class="admonition example" markdown>
 <p class="admonition-title">Try it out!</p>
