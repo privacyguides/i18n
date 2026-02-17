@@ -181,9 +181,11 @@ Ini melindungi Anda dari cookie yang persisten, tetapi tidak melindungi Anda dar
 
 ##### Telemetry
 
-- [ ] Hapus centang **Allow Firefox to send technical and interaction data to Mozilla**
-- [ ] Hapus centang **Allow Firefox to install and run studies**
-- [ ] Hapus centang **Allow Firefox to send backlogged crash reports on your behalf**
+- [ ] Uncheck **Send technical and interaction data to Mozilla**
+- [ ] Uncheck **Allow personalized extension recommendations**
+- [ ] Uncheck **Install and run studies**
+- [ ] Uncheck **Send daily usage ping to Mozilla**
+- [ ] Uncheck **Automatically send crash reports**
 
 Menurut kebijakan privasi Mozilla untuk Firefox,
 
@@ -227,7 +229,7 @@ Max Protection memberlakukan penggunaan DNS over HTTPS, dan peringatan keamanan 
 
 </div>
 
-[Proyek Arkenfox](https://github.com/arkenfox/user.js) menyediakan seperangkat opsi yang dipertimbangkan dengan cermat untuk Firefox. Jika Anda [memutuskan](https://github.com/arkenfox/user.js/wiki/1.1-To-Arkenfox-or-Not) untuk menggunakan Arkenfox, [beberapa opsi](https://github.com/arkenfox/user.js/wiki/3.2-Overrides-[Common]) secara subyektif sangat ketat dan/atau dapat menyebabkan beberapa situs web tidak berfungsi dengan baik-yang dapat Anda [ubah dengan mudah](https://github.com/arkenfox/user.js/wiki/3.1-Overrides) untuk memenuhi kebutuhan Anda. Kami **sangat menyarankan untuk** membaca [wiki](https://github.com/arkenfox/user.js/wiki) lengkap mereka. Arkenfox juga memungkinkan dukungan [kontainer](https://support.mozilla.org/kb/containers#w_for-advanced-users).
+[Proyek Arkenfox](https://github.com/arkenfox/user.js) menyediakan seperangkat opsi yang dipertimbangkan dengan cermat untuk Firefox. If you [decide](https://github.com/arkenfox/user.js/wiki/1.1-To-Arkenfox-or-Not) to use Arkenfox, a [few options](https://github.com/arkenfox/user.js/wiki/3.2-Overrides-%5BCommon%5D) are subjectively strict and/or may cause some websites to not work properly—which you can [easily change](https://github.com/arkenfox/user.js/wiki/3.1-Overrides) to suit your needs. Kami **sangat menyarankan untuk** membaca [wiki](https://github.com/arkenfox/user.js/wiki) lengkap mereka. Arkenfox juga memungkinkan dukungan [kontainer](https://support.mozilla.org/kb/containers#w_for-advanced-users).
 
 Arkenfox hanya bertujuan untuk menggagalkan skrip pelacakan dasar atau naif melalui pengacakan kanvas dan pengaturan konfigurasi resistensi fingerprint bawaan Firefox. Browser ini tidak bertujuan untuk membuat browser Anda berbaur dengan kerumunan besar pengguna Arkenfox lainnya dengan cara yang sama seperti yang dilakukan oleh Mullvad Browser atau Tor Browser, yang merupakan satu-satunya cara untuk menggagalkan skrip pelacakan fingerprint tingkat lanjut. Ingatlah bahwa Anda selalu dapat menggunakan beberapa browser, misalnya, Anda dapat mempertimbangkan untuk menggunakan Firefox-Arkenfox untuk beberapa situs yang Anda ingin tetap masuk atau percayai, dan Mullvad Browser untuk penjelajahan umum.
 

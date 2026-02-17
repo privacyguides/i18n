@@ -95,6 +95,14 @@ TrueCrypt [birçok kez denetlenmiştir](https://en.wikipedia.org/wiki/TrueCrypt#
 
 Yerleşik işletim sistemi şifreleme çözümleri genellikle [güvenli](basics/hardware.md#tpmsecure-cryptoprocessor) bir [kripto işlemci](basics/hardware.md#tpmsecure-cryptoprocessor) gibi donanım güvenliği özelliklerinden yararlanır. Bu nedenle, işletim sisteminiz için yerleşik şifreleme çözümlerini kullanmanızı öneririz. Platformlar arası şifreleme için, daha fazla esneklik sağlamak ve satıcı kilitlenmesini önlemek için yine de platformlar [arası araçları](#multi-platform) öneriyoruz.
 
+<details class="warning" markdown>
+
+<summary>Shut devices down when not in use.</summary>
+
+Powering off your devices when they’re not in use provides the highest level of security, as it minimizes the attack surface of your FDE method by ensuring no encryption keys remain in memory.
+
+</details>
+
 ### BitLocker
 
 <div class="admonition recommendation" markdown>
@@ -109,47 +117,9 @@ Yerleşik işletim sistemi şifreleme çözümleri genellikle [güvenli](basics/
 
 </div>
 
-BitLocker, Windows'un Pro, Enterprise ve Education sürümlerinde [resmi olarak desteklenmektedir](https://support.microsoft.com/windows/turn-on-device-encryption-0c453637-bc88-5f74-5105-741561aae838). Aşağıdaki önkoşulları karşılamaları koşuluyla Ev sürümlerinde etkinleştirilebilir.
+BitLocker is [officially supported](https://support.microsoft.com/en-us/windows/bitlocker-overview-44c0c61c-989d-4a69-8822-b95cd49b1bbf) on the Pro, Enterprise, and Education editions of Windows. The Home edition only supports automatic [Device Encryption](https://support.microsoft.com/en-us/windows/device-encryption-in-windows-cf7e2b6f-3e70-4882-9532-18633605b7df) and must meet specific hardware requirements. If you’re using the Home edition, we recommend [upgrading to Pro](https://support.microsoft.com/en-us/windows/upgrade-windows-home-to-windows-pro-ef34d520-e73f-3198-c525-d1a218cc2818), which can be done without reinstalling Windows or losing your files.
 
-<details class="example" markdown>
-<summary>Windows Home'da BitLocker'ı Etkinleştirme</summary>
-
-Windows'un "Home" sürümlerinde BitLocker'ı etkinleştirmek için [GUID Bölümleme Tablosu](https://en.wikipedia.org/wiki/GUID_Partition_Table) ile biçimlendirilmiş bölümlere ve özel bir TPM (v1.2, 2.0+) modülüne sahip olmanız gerekir. Bu kılavuzu izlemeden önce cihazınızda zaten etkinse [, Bitlocker olmayan "Cihaz şifreleme" işlevini](https://discuss.privacyguides.net/t/enabling-bitlocker-on-the-windows-11-home-edition/13303/5) (kurtarma anahtarınızı Microsoft'un sunucularına gönderdiği için daha düşüktür) devre dışı bırakmanız gerekebilir.
-
-1. Bir komut istemi açın ve aşağıdaki komutla sürücünüzün bölümleme tablosu biçimini kontrol edin. "Bölümleme Stili" altında**"GPT**"nin listelendiğini görmelisiniz:
-
-    ```powershell
-    powershell Get-Disk
-    ```
-
-2. TPM sürümünüzü kontrol etmek için bu komutu çalıştırın (bir yönetici komut isteminde). `SpecVersion`'ın yanında listelenen `2.0` veya `1.2` 'yi görmelisiniz:
-
-    ```powershell
-    powershell Get-WmiObject -Namespace "root/cimv2/security/microsofttpm" -Class WIN32_tpm
-    ```
-
-3. Access [Advanced Startup Options](https://support.microsoft.com/windows/advanced-startup-options-including-safe-mode-b90e7808-80b5-a291-d4b8-1a1af602b617). You need to reboot while pressing the F8 key before Windows starts and go into the *command prompt* in **Troubleshoot** → **Advanced Options** → **Command Prompt**.
-4. Login with your admin account and type this in the command prompt to start encryption:
-
-    ```powershell
-    manage-bde -on c: -used
-    ```
-
-5. Close the command prompt and continue booting to regular Windows.
-6. Open an admin command prompt and run the following commands:
-
-    ```powershell
-    manage-bde c: -protectors -add -rp -tpm
-    manage-bde -protectors -enable c:
-    manage-bde -protectors -get c: > %UserProfile%\Desktop\BitLocker-Recovery-Key.txt
-    ```
-
-<div class="admonition tip" markdown>
-<p class="admonition-title">Tip</p>
-
-Backup `BitLocker-Recovery-Key.txt` on your Desktop to a separate storage device. Loss of this recovery code may result in loss of data.
-
-</div>
+Pro and higher editions also support the more secure pre-boot [TPM+PIN](https://learn.microsoft.com/en-us/windows/security/operating-system-security/data-protection/bitlocker/faq#what-is-the-difference-between-a-tpm-owner-password--recovery-password--recovery-key--pin--enhanced-pin--and-startup-key) feature, configured through the appropriate [group policy](os/windows/group-policies.md#bitlocker-drive-encryption) settings. The PIN is rate limited and the TPM will panic and lock access to the encryption key either permanently or for a period of time if someone attempts to brute force access.
 
 </details>
 

@@ -96,6 +96,14 @@ TrueCrypt 已[接受了許多次的稽核](https://en.wikipedia.org/wiki/TrueCry
 
 作業系統內建的加密方案通常會利用硬體安全功能，例如：[安全加密協處理器](basics/hardware.md#tpmsecure-cryptoprocessor)。 因此，我們建議您使用作業系統內建的加密方案。 對於跨平台加密，我們仍建議使用 [跨平台工具](#multi-platform) ，以獲得額外的靈活性，並避免供應商鎖定。
 
+<details class="warning" markdown>
+
+<summary>Shut devices down when not in use.</summary>
+
+Powering off your devices when they’re not in use provides the highest level of security, as it minimizes the attack surface of your FDE method by ensuring no encryption keys remain in memory.
+
+</details>
+
 ### BitLocker
 
 <div class="admonition recommendation" markdown>
@@ -110,47 +118,9 @@ TrueCrypt 已[接受了許多次的稽核](https://en.wikipedia.org/wiki/TrueCry
 
 </div>
 
-Windows 的專業版、企業版和教育版均[正式支援](https://support.microsoft.com/windows/turn-on-device-encryption-0c453637-bc88-5f74-5105-741561aae838) BitLocker。 只要符合下列先決條件，即可在家庭版上啟用。
+BitLocker is [officially supported](https://support.microsoft.com/en-us/windows/bitlocker-overview-44c0c61c-989d-4a69-8822-b95cd49b1bbf) on the Pro, Enterprise, and Education editions of Windows. The Home edition only supports automatic [Device Encryption](https://support.microsoft.com/en-us/windows/device-encryption-in-windows-cf7e2b6f-3e70-4882-9532-18633605b7df) and must meet specific hardware requirements. If you’re using the Home edition, we recommend [upgrading to Pro](https://support.microsoft.com/en-us/windows/upgrade-windows-home-to-windows-pro-ef34d520-e73f-3198-c525-d1a218cc2818), which can be done without reinstalling Windows or losing your files.
 
-<details class="example" markdown>
-<summary>Windows Home上啓用BitLocker</summary>
-
-若要在 Windows 家用版啟用 BitLocker ，必須使用 [GUID 分割表](https://en.wikipedia.org/wiki/GUID_Partition_Table) 格式化的分割區，並且具有專用的TPM (v1.2, 2.0+)模組。 如果在遵循本指南之前已在裝置上啟用，則要[停用非Bitlocker「裝置加密」功能](https://discuss.privacyguides.net/t/enabling-bitlocker-on-the-windows-11-home-edition/13303/5)](因為它會將您的復原金鑰傳送到Microsoft 的伺服器)。
-
-1. 開啟命令提示符，並使用以下命令檢查磁碟機的分區表格格式。 您應該會在“分區樣式”下方看到“**GPT**” ：
-
-    ```powershell
-    powershell Get-Disk
-    ```
-
-2. 在管理員命令提示符中執行此命令以檢查您的TPM版本。 您應該會在 `個SpecVersion`旁邊看到 `2.0` 或 `1.2` ：
-
-    ```powershell
-    powershell Get-WmiObject -Namespace "root/cimv2/security/microsofttpm" -Class WIN32_tpm
-    ```
-
-3. 造訪[進階啟動選項](https://support.microsoft.com/windows/advanced-startup-options-include-safe-mode-b90e7808-80b5-a291-d4b8-1a1af602b617)。 重新啟動時需要在 Windows 啟動前按下F8 鍵，然後進入 *命令提示字元* in **疑難排解** → **進階選項** → **命令提字元**。
-4. 使用管理員帳戶登入並在命令提示符中輸入指令以開始加密：
-
-    ```powershell
-    manage-bde -on c: -used
-    ```
-
-5. 關閉命令提示符並繼續啟動正常Windows。
-6. 打開 admin 命令提示符並運行以下命令：
-
-    ```powershell
-    manage-bde c: -protectors -add -rp -tpm
-    manage-bde -protectors -enable c:
-    manage-bde -protectors -get c: > %UserProfile%\Desktop\BitLocker-Recovery-Key.txt
-    ```
-
-<div class="admonition tip" markdown>
-<p class="admonition-title">溫馨提示</p>
-
-將桌面上的「BitLocker-Recovery-Key.txt」備份到單獨的儲存裝置。 若遺失恢復代碼可能會導致資料無法回復。
-
-</div>
+Pro and higher editions also support the more secure pre-boot [TPM+PIN](https://learn.microsoft.com/en-us/windows/security/operating-system-security/data-protection/bitlocker/faq#what-is-the-difference-between-a-tpm-owner-password--recovery-password--recovery-key--pin--enhanced-pin--and-startup-key) feature, configured through the appropriate [group policy](os/windows/group-policies.md#bitlocker-drive-encryption) settings. The PIN is rate limited and the TPM will panic and lock access to the encryption key either permanently or for a period of time if someone attempts to brute force access.
 
 </details>
 

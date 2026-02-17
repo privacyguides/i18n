@@ -50,11 +50,11 @@ cover: browser-extensions.webp
 
 ### uBlock Origin Lite
 
-uBlock Origin 還有一個「Lite」版本，與原始版相比，其功能集非常有限。 但比之成熟的姊妹產品它具有一些明顯優勢值得考慮，如果...
+uBlock Origin also has a "Lite" version of their extension, which offers a limited feature-set compared to the original extension. 但比之成熟的姊妹產品它具有一些明顯優勢值得考慮，如果...
 
 - ...不想對擴充功能授予完整的「讀取/修改網站資料」權限（即使是像 uBlock Origin 這樣受信任的擴充功能）
 - ....想要一個資源（記憶體/CPU）利用更高效的內容攔截器[^1]
-- ...瀏覽器只能支援 Manifest V3 擴展。
+- ...your browser only supports Manifest V3 extensions. This is the case for Chrome [^2] , Edge and most Chromium browsers.
 
 <div class="admonition recommendation" markdown>
 
@@ -78,7 +78,7 @@ uBlock Origin 還有一個「Lite」版本，與原始版相比，其功能集�
 
 </div>
 
-若不想更改過濾器列表，我們僅推薦此版本的 uBlock Origin，因為它僅支援一些預先選擇的列表，且不提供其他自訂選項，包括手動選擇要封鎖的元素的功能。 這些限制是由於 Manifest V3 設計之故。
+We only recommend this version of uBlock Origin if you never want to add any filter lists not included by default, or need advanced options such as [dynamic filtering](https://github.com/gorhill/ublock/wiki/dynamic-filtering:-quick-guide) and the network logger. These restrictions are due to limitations in Manifest V3's design, notably the hard limit on the number of filtering rules, and the fact that extensions generally cannot fetch remote resources.[^3]
 
 此版本提供三種封鎖等級：「基本」等級不需要任何特殊權限即可查看和修改網站內容，而「最佳」和「完整」等級確實需要廣泛的權限，但透過附加裝飾規則提供更好的過濾體驗和腳本注入。
 
@@ -88,7 +88,7 @@ uBlock Origin Lite 僅在擴充功能從瀏覽器的附加元件市場更新時�
 
 ### AdGuard
 
-我們建議 iOS 使用者使用 [Safari](mobile-browsers.md#safari-ios) ，遺憾的是 uBlock Origin 並不支援它。 幸運的是，AdGuard 能作為適當的替代方案：
+We recommend [Safari](mobile-browsers.md#safari-ios) for iOS users, which unfortunately is only supported by uBlock Origin **Lite**. 幸運的是，AdGuard 能作為適當的替代方案：
 
 <div class="admonition recommendation" markdown>
 
@@ -118,3 +118,7 @@ uBlock Origin Lite 僅在擴充功能從瀏覽器的附加元件市場更新時�
 - 必須直接影響用戶隱私，即不得簡單地提供資訊。
 
 [^1]: uBlock Origin Lite **本身**不會消耗任何資源，因為它使用更新的API，瀏覽器能夠本地處理過濾器列表，而不是在擴充功能中執行JavaScript 程式碼來處理過濾。 然而，這種資源優勢僅止於 [理論](https://github.com/uBlockOrigin/uBOL-home/wiki/Frequently-asked-questions-\(FAQ\)#is-ubol-more-efficient-cpu--and-memory-wise-than-ubo)，因為標準uBlock Origin 的過濾程式碼可能比瀏覽器的本機過濾程式碼更有效。 目前尚未對此進行基準測試。
+
+[^2]: A [workaround](https://github.com/uBlockOrigin/uBlock-issues/discussions/3690#discussioncomment-14548779) stil exists as of early December 2025.
+
+[^3]: This is starting to change, as MV3 extensions can now request to use scripts. This has enabled [AdGuard](https://adguard.com/en/blog/adguard-browser-extension-v5-2.html) to propose to import custom filters list by the url, as opposed to having to manually paste the rules, as is the case with uBOL.

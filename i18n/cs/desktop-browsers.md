@@ -181,9 +181,11 @@ Toto nastavení vás ochrání před trvalými cookies, ale neochrání vás př
 
 ##### Telemetrie
 
-- [ ] Odšrtněte **Odesílat technická data a data o interakcích organizaci Mozilla**
-- [ ] Odškrtněte **Instalovat a spouštět studie**
-- [ ] Odškrtněte **Automaticky odesílat hlášení o pádech**
+- [ ] Uncheck **Send technical and interaction data to Mozilla**
+- [ ] Uncheck **Allow personalized extension recommendations**
+- [ ] Uncheck **Install and run studies**
+- [ ] Uncheck **Send daily usage ping to Mozilla**
+- [ ] Uncheck **Automatically send crash reports**
 
 Prohlášení o ochraně osobních údajů pro Firefox uvádí:
 
@@ -227,7 +229,7 @@ Maximální ochrana vynucuje používání DNS over HTTPS. Pokud se Firefox nebu
 
 </div>
 
-[Projekt Arkenfox](https://github.com/arkenfox/user.js) nabízí sadu pečlivě zvážených funkcí Firefoxu. Pokud se [rozhodnete](https://github.com/arkenfox/user.js/wiki/1.1-To-Arkenfox-or-Not) Arkenfox používat, [několik nastavení](https://github.com/arkenfox/user.js/wiki/3.2-Overrides-[Common]) může být subjektivně moc přísných anebo mohou způsobit, že webové stránky nebudou fungovat správně – můžete je ale [jednoduše upravit](https://github.com/arkenfox/user.js/wiki/3.1-Overrides), aby vyhovovaly vašim potřebám. **Velmi doporučujeme**, abyste si prošli celou jejich [wiki](https://github.com/arkenfox/user.js/wiki). Arkenfox také umožňuje podporu [kontejnerů](https://support.mozilla.org/kb/containers#w_for-advanced-users).
+[Projekt Arkenfox](https://github.com/arkenfox/user.js) nabízí sadu pečlivě zvážených funkcí Firefoxu. If you [decide](https://github.com/arkenfox/user.js/wiki/1.1-To-Arkenfox-or-Not) to use Arkenfox, a [few options](https://github.com/arkenfox/user.js/wiki/3.2-Overrides-%5BCommon%5D) are subjectively strict and/or may cause some websites to not work properly—which you can [easily change](https://github.com/arkenfox/user.js/wiki/3.1-Overrides) to suit your needs. **Velmi doporučujeme**, abyste si prošli celou jejich [wiki](https://github.com/arkenfox/user.js/wiki). Arkenfox také umožňuje podporu [kontejnerů](https://support.mozilla.org/kb/containers#w_for-advanced-users).
 
 Arkenfox se zaměřuje pouze na zabránění běžným nebo naivním sledovacím skriptům skrz randomizaci canvasu nebo skrz vestavěnou konfiguraci odolnosti proti otiskům. Jeho cílem není, aby váš prohlížeč splynul s velkým davem ostatních uživatelů Arkenfoxu tak, jako to dělá Mullvad Browser nebo Tor Browser, což je jediný způsob, jak sabotovat pokročilé skripty založené na sledování otisků. Nezapomeňte, že vždy můžete používat více prohlížečů. Můžete například zvážit používání Firefoxu + Arkenfoxu pro pár stránek, kde chcete být přihlášení nebo jim věříte, a Mullvad Browser pro běžné prohlížení.
 

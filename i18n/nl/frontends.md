@@ -177,41 +177,6 @@ When using FreeTube, your IP address may still be known to YouTube, [Invidious](
 
 Standaard blokkeert FreeTube alle YouTube-advertenties. In addition, FreeTube optionally integrates with [SponsorBlock](https://sponsor.ajay.app) to help you skip sponsored video segments.
 
-### Yattee
-
-<div class="admonition recommendation" markdown>
-
-![Yattee logo](assets/img/frontends/yattee.svg){ align=right }
-
-**Yattee** is a free and open-source privacy oriented video player for iOS, tvOS, and macOS for [YouTube](https://youtube.com). Due to App Store restrictions, you will need to take a few [extra steps](https://web.archive.org/web/20230330122839/https://gonzoknows.com/posts/Yattee) before you can use Yattee to watch YouTube. Yattee allows you to connect to instances of [Invidious](#invidious) or [Piped](#piped).
-
-When using Yattee, your subscription list is saved locally on your device.
-
-[:octicons-home-16: Homepage](https://github.com/yattee/yattee){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://r.yattee.stream/docs/privacy.html){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://github.com/yattee/yattee/wiki){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/yattee/yattee){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://github.com/yattee/yattee/wiki/Donations){ .card-link title="Contribute" }
-
-<details class="downloads" markdown>
-<summary>Downloads</summary>
-
-- [:simple-apple: App Store](https://apps.apple.com/app/id1595136629)
-- [:simple-github: GitHub](https://github.com/yattee/yattee/releases)
-
-</details>
-
-</div>
-
-<div class="admonition warning" markdown>
-<p class="admonition-title">Waarschuwing</p>
-
-When using Yattee, your IP address may still be known to YouTube, [Invidious](https://instances.invidious.io), [Piped](https://github.com/TeamPiped/Piped/wiki/Instances), or [SponsorBlock](https://sponsor.ajay.app) depending on your configuration. Consider using a [VPN](vpn.md) or [Tor](tor.md) if your [threat model](basics/threat-modeling.md) requires hiding your IP address.
-
-</div>
-
-Yattee blokkeert standaard alle YouTube-advertenties. Bovendien integreert Yattee optioneel met [SponsorBlock](https://sponsor.ajay.app) om u te helpen gesponsorde videosegmenten over te slaan.
-
 ### LibreTube (Android)
 
 <div class="admonition recommendation" markdown>

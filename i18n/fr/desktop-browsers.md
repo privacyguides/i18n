@@ -181,9 +181,11 @@ Cela vous protège contre les cookies persistants, mais ne vous protège pas con
 
 ##### Télémétrie
 
-- [ ] Décochez **Autoriser Firefox à envoyer des données techniques et d'interaction à Mozilla**
-- [ ] Décochez **Autoriser Firefox à installer et à exécuter des études**
-- [ ] Décochez **Permettre à Firefox d'envoyer en votre nom les rapports de plantage**
+- [ ] Uncheck **Send technical and interaction data to Mozilla**
+- [ ] Uncheck **Allow personalized extension recommendations**
+- [ ] Uncheck **Install and run studies**
+- [ ] Uncheck **Send daily usage ping to Mozilla**
+- [ ] Uncheck **Automatically send crash reports**
 
 Selon la politique de confidentialité de Mozilla pour Firefox,
 
@@ -227,7 +229,7 @@ Le [Navigateur Mullvad](#mullvad-browser) offre d'emblée des protections anti-f
 
 </div>
 
-Le [projet Arkenfox](https://github.com/arkenfox/user.js) propose un ensemble d'options soigneusement étudiées pour Firefox. Si vous [décidez](https://github.com/arkenfox/user.js/wiki/1.1-To-Arkenfox-or-Not) d'utiliser Arkenfox, quelques [options](https://github.com/arkenfox/user.js/wiki/3.2-Overrides-[Common]) sont subjectivement strictes et/ou peuvent empêcher certains sites web de fonctionner correctement. Vous pouvez [facilement les modifier](https://github.com/arkenfox/user.js/wiki/3.1-Overrides) pour les adapter à vos besoins. Nous vous **recommandons vivement** de lire l'intégralité de leur [wiki](https://github.com/arkenfox/user.js/wiki). Arkenfox permet également la prise en charge des [conteneurs](https://support.mozilla.org/kb/containers#w_for-advanced-users).
+Le [projet Arkenfox](https://github.com/arkenfox/user.js) propose un ensemble d'options soigneusement étudiées pour Firefox. If you [decide](https://github.com/arkenfox/user.js/wiki/1.1-To-Arkenfox-or-Not) to use Arkenfox, a [few options](https://github.com/arkenfox/user.js/wiki/3.2-Overrides-%5BCommon%5D) are subjectively strict and/or may cause some websites to not work properly—which you can [easily change](https://github.com/arkenfox/user.js/wiki/3.1-Overrides) to suit your needs. Nous vous **recommandons vivement** de lire l'intégralité de leur [wiki](https://github.com/arkenfox/user.js/wiki). Arkenfox permet également la prise en charge des [conteneurs](https://support.mozilla.org/kb/containers#w_for-advanced-users).
 
 Arkenfox vise uniquement à contrecarrer les scripts de pistage basiques ou naïfs grâce aux paramètres de configuration de randomisation du canevas et de la résistance aux empreintes numérique intégrée à Firefox. Il ne vise pas à faire en sorte que votre navigateur se fonde dans une foule d'autres utilisateurs d'Arkenfox, comme le font le Navigateur Mullvad ou le Navigateur Tor, ce qui est le seul moyen de contrecarrer les scripts avancés de pistage des empreintes numérique. Pour rappel, vous pouvez toujours utiliser plusieurs navigateurs internet. Par exemple, vous pourriez utiliser Firefox+Arkenfox pour les sites sur lesquels vous voudriez rester connecté ou en lesquels vous avez confiance, et utiliser Mullvad Browser pour la navigation standard.
 

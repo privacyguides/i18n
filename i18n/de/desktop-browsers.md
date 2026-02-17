@@ -181,9 +181,11 @@ This protects you from persistent cookies, but does not protect you against cook
 
 ##### Telemetrie
 
-- [ ] Deaktiviere **Firefox erlauben, Daten zu technischen Details und Interaktionen an Mozilla zu senden**
-- [ ] Deaktiviere **Firefox das Installieren und Durchführen von Studien erlauben**
-- [ ] Deaktiviere **Nicht gesendete Absturzberichte automatisch von Firefox senden lassen**
+- [ ] Uncheck **Send technical and interaction data to Mozilla**
+- [ ] Uncheck **Allow personalized extension recommendations**
+- [ ] Uncheck **Install and run studies**
+- [ ] Uncheck **Send daily usage ping to Mozilla**
+- [ ] Uncheck **Automatically send crash reports**
 
 Laut Mozillas Datenschutzrichtlinie für Firefox,
 
@@ -227,7 +229,7 @@ Maximaler Schutz erzwingt die Verwendung von DNS over HTTPS, und es wird eine Si
 
 </div>
 
-Das [Arkenfox-Projekt](https://github.com/arkenfox/user.js) bietet eine Reihe von sorgfältig durchdachten Optionen für Firefox. Wenn du dich für Arkenfox **entscheidest**, sind [einige Optionen](https://github.com/arkenfox/user.js/wiki) subjektiv streng und/oder können dazu führen, dass einige Websites nicht ordnungsgemäß funktionieren. Dies kann jedoch <2>leicht angepasst</2> werden, um deinen Bedürfnissen zu entsprechen. Wir [empfehlen dringend](https://support.mozilla.org/kb/containers#w_for-advanced-users), das gesamte <1>Wiki</1> zu lesen. Arkenfox ermöglicht auch die Unterstützung von [Containern](https://support.mozilla.org/kb/containers#w_for-advanced-users).
+Das [Arkenfox-Projekt](https://github.com/arkenfox/user.js) bietet eine Reihe von sorgfältig durchdachten Optionen für Firefox. If you [decide](https://github.com/arkenfox/user.js/wiki/1.1-To-Arkenfox-or-Not) to use Arkenfox, a [few options](https://github.com/arkenfox/user.js/wiki/3.2-Overrides-%5BCommon%5D) are subjectively strict and/or may cause some websites to not work properly—which you can [easily change](https://github.com/arkenfox/user.js/wiki/3.1-Overrides) to suit your needs. Wir [empfehlen dringend](https://support.mozilla.org/kb/containers#w_for-advanced-users), das gesamte <1>Wiki</1> zu lesen. Arkenfox ermöglicht auch die Unterstützung von [Containern](https://support.mozilla.org/kb/containers#w_for-advanced-users).
 
 Arkenfox only aims to thwart basic or naive tracking scripts through canvas randomization and Firefox's built-in fingerprint resistance configuration settings. It does not aim to make your browser blend in with a large crowd of other Arkenfox users in the same way Mullvad Browser or Tor Browser do, which is the only way to thwart advanced fingerprint tracking scripts. Remember that you can always use multiple browsers, for example, you could consider using Firefox+Arkenfox for a few sites that you want to stay logged in on or otherwise trust, and Mullvad Browser for general browsing.
 

@@ -181,9 +181,11 @@ Chroni to przed trwałymi ciasteczkami, choć nie zabezpiecza przed tymi, które
 
 ##### Telemetria
 
-- [ ] Odznacz **Wysyłanie danych technicznych i o interakcjach do Mozilli**
-- [ ] Odznacz **Instalowanie i przeprowadzanie badań**
-- [ ] Odznacz **Automatyczne wysyłanie zgłoszeń awarii**
+- [ ] Uncheck **Send technical and interaction data to Mozilla**
+- [ ] Uncheck **Allow personalized extension recommendations**
+- [ ] Uncheck **Install and run studies**
+- [ ] Uncheck **Send daily usage ping to Mozilla**
+- [ ] Uncheck **Automatically send crash reports**
 
 Zgodnie z polityką prywatności Mozilli dla Firefoksa:
 
@@ -227,7 +229,7 @@ Tryb Maksymalnej ochrony wymusza korzystanie z DNS poprzez HTTPS. W przypadku, g
 
 </div>
 
-[Projekt Arkenfox](https://github.com/arkenfox/user.js) dostarcza zestaw starannie dobranych ustawień dla Firefoksa. Jeśli [zdecydujesz się](https://github.com/arkenfox/user.js/wiki/1.1-To-Arkenfox-or-Not) korzystać z Arkenfox, [niektóre opcje](https://github.com/arkenfox/user.js/wiki/3.2-Overrides-[Common]) mogą być subiektywnie zbyt restrykcyjne lub powodować problemy z działaniem niektórych stron — co możesz [łatwo dostosować](https://github.com/arkenfox/user.js/wiki/3.1-Overrides) według własnych potrzeb. **Zdecydowanie zalecamy** zapoznanie się z ich pełnym [wiki](https://github.com/arkenfox/user.js/wiki) projektu. Arkenfox włącza także obsługę [kontenerów](https://support.mozilla.org/pl/kb/containers#w_for-advanced-users).
+[Projekt Arkenfox](https://github.com/arkenfox/user.js) dostarcza zestaw starannie dobranych ustawień dla Firefoksa. If you [decide](https://github.com/arkenfox/user.js/wiki/1.1-To-Arkenfox-or-Not) to use Arkenfox, a [few options](https://github.com/arkenfox/user.js/wiki/3.2-Overrides-%5BCommon%5D) are subjectively strict and/or may cause some websites to not work properly—which you can [easily change](https://github.com/arkenfox/user.js/wiki/3.1-Overrides) to suit your needs. **Zdecydowanie zalecamy** zapoznanie się z ich pełnym [wiki](https://github.com/arkenfox/user.js/wiki) projektu. Arkenfox włącza także obsługę [kontenerów](https://support.mozilla.org/pl/kb/containers#w_for-advanced-users).
 
 Arkenfox ma na celu jedynie utrudnienie działania podstawowych lub prostych skryptów śledzących poprzez losową zmianę zawartości elementów graficznych (tzw. canvas) i użycie wbudowanych ustawień Firefoksa związanych z odpornością na identyfikację. Nie ma on jednak na celu ujednolicenia odcisku przeglądarki z dużą grupą innych użytkowników Arkenfoxa — tak jak robi to przeglądarka Mullvad czy Tor Browser — co jest jedyną skuteczną metodą ochrony przed zaawansowanym śledzeniem odcisku przeglądarki. Warto pamiętać, że zawsze można używać kilku przeglądarek, na przykład Firefox z Arkenfoxem do kilku witryn, na których chcesz pozostać zalogowany lub którym ufasz, a przeglądarkę Mullvad do ogólnego przeglądania internetu.
 

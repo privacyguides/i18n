@@ -181,9 +181,11 @@ Firefox 在 Mozilla 網站的下載中包含一個獨特的 [下載令牌](https
 
 ##### 遙測
 
-- [ ] 取消勾選 **允許 Firefox 傳送技術與互動資料給 Mozilla**
-- [ ] 取消勾選 **允許 Firefox 安裝並進行研究**
-- [ ] 取消勾選 **允許 Firefox 以您的身分自動回報錯誤報告**
+- [ ] Uncheck **Send technical and interaction data to Mozilla**
+- [ ] Uncheck **Allow personalized extension recommendations**
+- [ ] Uncheck **Install and run studies**
+- [ ] Uncheck **Send daily usage ping to Mozilla**
+- [ ] Uncheck **Automatically send crash reports**
 
 根據 Mozilla 的 Firefox 隱私權政策：
 
@@ -227,7 +229,7 @@ Firefox 在 128 版本的更新，新增了一個[尊重隱私的成效測量](h
 
 </div>
 
-[Arkenfox 專案](https://github.com/arkenfox/user.js) 為 Firefox 提供了一套經過仔細考量的設定。 如果您[決定](https://github.com/arkenfox/user.js/wiki/1.1-To-Arkenfox-or-Not)使用 Arkenfox，有[幾個選項](https://github.com/arkenfox/user.js/wiki/3.2-Overrides-[Common])可能在主觀上會較為嚴格，並且/或者可能導致某些網站無法正常運作，不過您可以[輕鬆的更改](https://github.com/arkenfox/user.js/wiki/3.1-Overrides)這些選項，以滿足您的需求。 我們**強烈建議**完整閱讀其 [Wiki 頁面](https://github.com/arkenfox/user.js/wiki)。 Arkenfox 也啟用了[容器](https://support.mozilla.org/kb/containers#w_for-advanced-users)功能。
+[Arkenfox 專案](https://github.com/arkenfox/user.js) 為 Firefox 提供了一套經過仔細考量的設定。 If you [decide](https://github.com/arkenfox/user.js/wiki/1.1-To-Arkenfox-or-Not) to use Arkenfox, a [few options](https://github.com/arkenfox/user.js/wiki/3.2-Overrides-%5BCommon%5D) are subjectively strict and/or may cause some websites to not work properly—which you can [easily change](https://github.com/arkenfox/user.js/wiki/3.1-Overrides) to suit your needs. 我們**強烈建議**完整閱讀其 [Wiki 頁面](https://github.com/arkenfox/user.js/wiki)。 Arkenfox 也啟用了[容器](https://support.mozilla.org/kb/containers#w_for-advanced-users)功能。
 
 Arkenfox 的目標旨在透過 Canvas 隨機化和 Firefox 內建的抗指紋設定來阻止基本或簡單的追蹤腳本。 它的目的不是讓您的瀏覽器與其他許多使用 Arkenfox 的使用者混在一起，那是 Mullvad 瀏覽器或 Tor 瀏覽器的作法，也是阻止進階指紋跟蹤腳本的唯一方法。 請記得，您可以使用多個瀏覽器。例如，您可以考慮在需要保持登入或可以信任的幾個網站使用 Firefox + Arkenfox，而在一般瀏覽時則使用 Mullvad 瀏覽器。
 

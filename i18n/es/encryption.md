@@ -96,6 +96,14 @@ TrueCrypt ha sido [auditada varias veces](https://en.wikipedia.org/wiki/TrueCryp
 
 Las soluciones de cifrado integradas en el sistema operativo suelen aprovechar las características de seguridad del hardware, como un [criptoprocesador seguro](basics/hardware.md#tpmsecure-cryptoprocessor). Por lo tanto, le recomendamos que utilice las soluciones de cifrado integradas en su sistema operativo. Para el cifrado multiplataforma, seguimos recomendando [las herramientas multiplataforma](#multi-platform) por su mayor flexibilidad y para evitar la dependencia del proveedor.
 
+<details class="warning" markdown>
+
+<summary>Shut devices down when not in use.</summary>
+
+Powering off your devices when they’re not in use provides the highest level of security, as it minimizes the attack surface of your FDE method by ensuring no encryption keys remain in memory.
+
+</details>
+
 ### BitLocker
 
 <div class="admonition recommendation" markdown>
@@ -110,47 +118,9 @@ Las soluciones de cifrado integradas en el sistema operativo suelen aprovechar l
 
 </div>
 
-BitLocker es [compatible oficialmente](https://support.microsoft.com/windows/turn-on-device-encryption-0c453637-bc88-5f74-5105-741561aae838) con las ediciones Pro, Enterprise y Education de Windows. Puede activarse en las ediciones Home siempre que cumplan los siguientes requisitos previos.
+BitLocker is [officially supported](https://support.microsoft.com/en-us/windows/bitlocker-overview-44c0c61c-989d-4a69-8822-b95cd49b1bbf) on the Pro, Enterprise, and Education editions of Windows. The Home edition only supports automatic [Device Encryption](https://support.microsoft.com/en-us/windows/device-encryption-in-windows-cf7e2b6f-3e70-4882-9532-18633605b7df) and must meet specific hardware requirements. If you’re using the Home edition, we recommend [upgrading to Pro](https://support.microsoft.com/en-us/windows/upgrade-windows-home-to-windows-pro-ef34d520-e73f-3198-c525-d1a218cc2818), which can be done without reinstalling Windows or losing your files.
 
-<details class="example" markdown>
-<summary>Activar BitLocker en Windows Home</summary>
-
-Para habilitar BitLocker en las ediciones "Home" de Windows, debe tener particiones formateadas con una [Tabla de Particiones GUID](https://en.wikipedia.org/wiki/GUID_Partition_Table) y disponer de un módulo TPM dedicado (v1.2, 2.0+). Es posible que tenga que [desactivar la funcionalidad que no es de Bitlocker "Cifrado del dispositivo"](https://discuss.privacyguides.net/t/enabling-bitlocker-on-the-windows-11-home-edition/13303/5) (que es inferior, ya que envía su clave de recuperación a los servidores de Microsoft) si ya está habilitada en su dispositivo antes de seguir esta guía.
-
-1. Abra un símbolo del sistema y verifique el formato de la tabla de particiones de su unidad con el siguiente comando. Debería ver "**GPT**" listado bajo "Partition Style":
-
-    ```powershell
-    powershell Get-Disk
-    ```
-
-2. Ejecute este comando (en un símbolo del sistema ejecutado como administrador) para verificar su versión de TPM. Debería ver `2.0` o `1.2` junto a `SpecVersion`:
-
-    ```powershell
-    powershell Get-WmiObject -Namespace "root/cimv2/security/microsofttpm" -Class WIN32_tpm
-    ```
-
-3. Accede a las [Opciones Avanzadas de Inicio](https://support.microsoft.com/windows/advanced-startup-options-including-safe-mode-b90e7808-80b5-a291-d4b8-1a1af602b617). Debe reiniciar mientras pulsa la tecla F8 antes de que se inicie Windows y entrar en el símbolo del sistema ** en **Solucionar problemas** → **Opciones avanzadas** → **Símbolo del sistema**.
-4. Inicie sesión con su cuenta de administrador y escriba esto en el símbolo del sistema para iniciar el cifrado:
-
-    ```powershell
-    manage-bde -on c: -used
-    ```
-
-5. Cierre el símbolo del sistema y continúe con el arranque normal de Windows.
-6. Abra un símbolo del sistema como administrador y ejecute los siguientes comandos:
-
-    ```powershell
-    manage-bde c: -protectors -add -rp -tpm
-    manage-bde -protectors -enable c:
-    manage-bde -protectors -get c: > %UserProfile%\Desktop\BitLocker-Recovery-Key.txt
-    ```
-
-<div class="admonition tip" markdown>
-<p class="admonition-title">Consejo</p>
-
-    Haga una copia de seguridad de `BitLocker-Recovery-Key.txt` en su escritorio para un dispositivo de almacenamiento independiente. La pérdida de este código de recuperación puede resultar en la pérdida de datos.
-
-</div>
+Pro and higher editions also support the more secure pre-boot [TPM+PIN](https://learn.microsoft.com/en-us/windows/security/operating-system-security/data-protection/bitlocker/faq#what-is-the-difference-between-a-tpm-owner-password--recovery-password--recovery-key--pin--enhanced-pin--and-startup-key) feature, configured through the appropriate [group policy](os/windows/group-policies.md#bitlocker-drive-encryption) settings. The PIN is rate limited and the TPM will panic and lock access to the encryption key either permanently or for a period of time if someone attempts to brute force access.
 
 </details>
 

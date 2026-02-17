@@ -179,9 +179,11 @@ Firefox يوفّر إعدادات قوية لحماية الخصوصية، مث�
 
 ##### إرسال بيانات الاستخدام
 
-- [ ] أزل التحديد عن **السماح لـ Firefox بإرسال البيانات الفنية وبيانات التفاعل إلى Mozilla**
-- [ ] قم بإيقاف خيار **السماح لـ Firefox بتجربة ميزات تجريبية (دراسات)**
-- وفقا لسياسة الخصوصية الخاصة بـ Firefox من Mozilla،
+- [ ] Uncheck **Send technical and interaction data to Mozilla**
+- [ ] Uncheck **Allow personalized extension recommendations**
+- [ ] Uncheck **Install and run studies**
+- [ ] Uncheck **Send daily usage ping to Mozilla**
+- [ ] Uncheck **Automatically send crash reports**
 
 وفقا لسياسة الخصوصية الخاصة بـ Firefox من Mozilla،
 
@@ -225,7 +227,7 @@ Firefox يوفّر إعدادات قوية لحماية الخصوصية، مث�
 
 </div>
 
-مشروع [Arkenfox](https://github.com/arkenfox/user.js) يقدّم إعدادات محسّنة ومختارة بعناية لتعزيز الخصوصية في متصفح Firefox. إذا [قررت](https://github.com/arkenfox/user.js/wiki/1.1-To-Arkenfox-or-Not) استخدام Arkenfox، فبعض [الإعدادات](https://github.com/arkenfox/user.js/wiki/3.2-Overrides-[Common]) قد تكون صارمة من وجهة نظر البعض، وقد تتسبب في عدم عمل بعض المواقع بشكل صحيح — لكن يمكنك [تعديلها بسهولة](https://github.com/arkenfox/user.js/wiki/3.1-Overrides) لتناسب احتياجاتك.  ننصحك **بشدة** بتصفّح كامل محتوى [صفحة الويكي الخاصة بهم](https://github.com/arkenfox/user.js/wiki). يدعم Arkenfox كذلك ميزة [الحاويات](https://support.mozilla.org/kb/containers#w_for-advanced-users) في Firefox.
+مشروع [Arkenfox](https://github.com/arkenfox/user.js) يقدّم إعدادات محسّنة ومختارة بعناية لتعزيز الخصوصية في متصفح Firefox. If you [decide](https://github.com/arkenfox/user.js/wiki/1.1-To-Arkenfox-or-Not) to use Arkenfox, a [few options](https://github.com/arkenfox/user.js/wiki/3.2-Overrides-%5BCommon%5D) are subjectively strict and/or may cause some websites to not work properly—which you can [easily change](https://github.com/arkenfox/user.js/wiki/3.1-Overrides) to suit your needs.  ننصحك **بشدة** بتصفّح كامل محتوى [صفحة الويكي الخاصة بهم](https://github.com/arkenfox/user.js/wiki). يدعم Arkenfox كذلك ميزة [الحاويات](https://support.mozilla.org/kb/containers#w_for-advanced-users) في Firefox.
 
 يركز Arkenfox على منع أساليب التتبع البسيطة، من خلال ميزة "عشوائية الرسم" (canvas randomization) — وهي تقنية تغيّر طريقة عرض الصور داخل صفحات الويب بشكل طفيف، بحيث يصعب على المواقع استخدام تلك الرسومات كوسيلة لتتبّعك — بالإضافة إلى إعدادات Firefox المدمجة لمقاومة تتبّع البصمة. على عكس Mullvad وTor، لا يسعى Arkenfox لجعل متصفحك يشبه متصفحات الآخرين، وهي الطريقة الوحيدة تقريبا لمنع التتبع المتقدم ببصمة المتصفح. تذكر أنه يمكنك دائمًا استخدام أكثر من متصفح. على سبيل المثال، يمكنك استخدام Firefox مع Arkenfox لبعض المواقع التي تثق بها أو تحتاج إلى البقاء مسجل الدخول فيها، واستخدام متصفح Mullvad لباقي استخداماتك اليومية.
 

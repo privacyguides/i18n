@@ -50,11 +50,11 @@ Oto kilka przykładowych [list filtrów](https://github.com/gorhill/uBlock/wiki/
 
 ### uBlock Origin Lite
 
-uBlock Origin ma też wersję „Lite”, która oferuje bardzo ograniczony zestaw funkcji w porównaniu z oryginałem. Ma jednak kilka istotnych zalet względem swojej pełnoprawnej wersji, więc warto ją rozważyć, jeśli:
+uBlock Origin also has a "Lite" version of their extension, which offers a limited feature-set compared to the original extension. Ma jednak kilka istotnych zalet względem swojej pełnoprawnej wersji, więc warto ją rozważyć, jeśli:
 
 - nie chcesz przyznawać żadnym rozszerzeniom pełnych uprawnień „odczytu i modyfikacji danych witryn” (nawet zaufanemu jak uBlock Origin),
 - zależy Ci na bardziej oszczędnym pod względem zasobów (pamięci/procesora) blokerze treści[^1],
-- Twoja przeglądarka obsługuje jedynie rozszerzenia zgodne z Manifest V3.
+- ...your browser only supports Manifest V3 extensions. This is the case for Chrome [^2] , Edge and most Chromium browsers.
 
 <div class="admonition recommendation" markdown>
 
@@ -78,7 +78,7 @@ uBlock Origin ma też wersję „Lite”, która oferuje bardzo ograniczony zest
 
 </div>
 
-Zalecamy korzystanie z tej wersji uBlock Origin tylko wtedy, gdy nie planuje się wprowadzać żadnych zmian w listach filtrów, ponieważ obsługuje ona wyłącznie kilka wcześniej wybranych list i nie oferuje dodatkowych opcji personalizacji, w tym możliwości ręcznego wybierania elementów do zablokowania. Ograniczenia te wynikają z ograniczeń projektowych Manifest V3.
+We only recommend this version of uBlock Origin if you never want to add any filter lists not included by default, or need advanced options such as [dynamic filtering](https://github.com/gorhill/ublock/wiki/dynamic-filtering:-quick-guide) and the network logger. These restrictions are due to limitations in Manifest V3's design, notably the hard limit on the number of filtering rules, and the fact that extensions generally cannot fetch remote resources.[^3]
 
 Wersja ta oferuje trzy poziomy blokowania: „podstawowy” działa bez konieczności przyznawania specjalnych uprawnień do przeglądania i modyfikacji zawartości stron, natomiast poziomy „optymalny” i „kompletny” wymagają takich szerokich uprawnień, lecz zapewniają lepsze filtrowanie dzięki dodatkowym regułom kosmetycznym i wstrzykiwaniu skryptów.
 
@@ -88,7 +88,7 @@ uBlock Origin Lite aktualizuje listy blokowania tylko przy aktualizacji rozszerz
 
 ### AdGuard
 
-Zalecamy przeglądarkę [Safari](mobile-browsers.md#safari-ios) dla użytkowników iOS, która niestety nie obsługuje uBlock Origin. Na szczęście AdGuard stanowi odpowiednią alternatywę:
+We recommend [Safari](mobile-browsers.md#safari-ios) for iOS users, which unfortunately is only supported by uBlock Origin **Lite**. Na szczęście AdGuard stanowi odpowiednią alternatywę:
 
 <div class="admonition recommendation" markdown>
 
@@ -118,3 +118,7 @@ Dodatkowe listy filtrów mogą spowalniać działanie i zwiększać powierzchni�
 - Musi bezpośrednio wpływać na prywatność użytkownika — innymi słowy, nie może jedynie dostarczać informacji.
 
 [^1]: uBlock Origin Lite _sam w sobie_ nie zużywa zasobów bezpośrednio, ponieważ wykorzystuje nowsze interfejsy API, które sprawiają, że to przeglądarka natywnie przetwarza listy filtrów, zamiast uruchamiać kod JavaScript w rozszerzeniu do obsługi filtrowania. Ta przewaga zasobowa jest jednak jedynie [teoretyczna](https://github.com/uBlockOrigin/uBOL-home/wiki/Frequently-asked-questions-\(FAQ\)#is-ubol-more-efficient-cpu--and-memory-wise-than-ubo), ponieważ możliwe, że kod filtrowania standardowego uBlock Origin jest bardziej wydajny niż natywne filtrowanie przeglądarki. Nie zostało to jak dotąd zbadane.
+
+[^2]: A [workaround](https://github.com/uBlockOrigin/uBlock-issues/discussions/3690#discussioncomment-14548779) stil exists as of early December 2025.
+
+[^3]: This is starting to change, as MV3 extensions can now request to use scripts. This has enabled [AdGuard](https://adguard.com/en/blog/adguard-browser-extension-v5-2.html) to propose to import custom filters list by the url, as opposed to having to manually paste the rules, as is the case with uBOL.

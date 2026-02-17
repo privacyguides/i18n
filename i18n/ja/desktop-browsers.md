@@ -181,9 +181,11 @@ Firefoxは、Mozillaのウェブサイトからのダウンロードに固有の
 
 ##### テレメトリー
 
-- [ ] **Firefox が技術的な対話データを Mozilla へ送信することを許可する**のチェックを外す
-- [ ] **Firefox に調査のインストールと実行を許可する**のチェックを外す
-- [ ] **Firefox があなたに代わって未送信のクラッシュレポートを送信することを許可する**のチェックを外すこと
+- [ ] Uncheck **Send technical and interaction data to Mozilla**
+- [ ] Uncheck **Allow personalized extension recommendations**
+- [ ] Uncheck **Install and run studies**
+- [ ] Uncheck **Send daily usage ping to Mozilla**
+- [ ] Uncheck **Automatically send crash reports**
 
 MozillaのFirefoxプライバシーポリシーでは以下のように記載されています
 
@@ -227,7 +229,7 @@ Firefox 128から、[プライバシー保護されたアトリビューショ�
 
 </div>
 
-[Arkenfox project](https://github.com/arkenfox/user.js)はFirefoxの注意深く考えられた設定を提供しています。 もし、Arkenfoxを利用[する](https://github.com/arkenfox/user.js/wiki/1.1-To-Arkenfox-or-Not)場合、[いくつかの設定](https://github.com/arkenfox/user.js/wiki/3.2-Overrides-[Common])はあえて厳しくしているためウェブサイトが正常に表示されないことがあります。必要に応じ[簡単に変更](https://github.com/arkenfox/user.js/wiki/3.1-Overrides)できます。 プロジェクトの[wiki](https://github.com/arkenfox/user.js/wiki)をすべて読むことを**強く推奨**します。 Arkenfoxは[コンテナー](https://support.mozilla.org/kb/containers#w_for-advanced-users)をサポートしています。
+[Arkenfox project](https://github.com/arkenfox/user.js)はFirefoxの注意深く考えられた設定を提供しています。 If you [decide](https://github.com/arkenfox/user.js/wiki/1.1-To-Arkenfox-or-Not) to use Arkenfox, a [few options](https://github.com/arkenfox/user.js/wiki/3.2-Overrides-%5BCommon%5D) are subjectively strict and/or may cause some websites to not work properly—which you can [easily change](https://github.com/arkenfox/user.js/wiki/3.1-Overrides) to suit your needs. プロジェクトの[wiki](https://github.com/arkenfox/user.js/wiki)をすべて読むことを**強く推奨**します。 Arkenfoxは[コンテナー](https://support.mozilla.org/kb/containers#w_for-advanced-users)をサポートしています。
 
 Arkenfoxはcanvasのランダム化やFirefoxの標準で利用できるフィンガープリント対策で基本的・単純なトラッキングスクリプトを防ぐことのみを目的としています。 Mulllvad BrowserやTor BrowserのようにArkenfoxユーザーを一つの集団として扱うこと（高度なフィンガープリントトラッキングスクリプトを防ぐ唯一の方法）は目的としていません。 いつも複数のブラウザを利用できることを覚えておいてください。例えば、ログインを維持したい、もしくは信用できるウェブサイトはFirefoxとArkenfoxを利用し、通常のブラウジングではMullvad Browserを利用することもできます。
 

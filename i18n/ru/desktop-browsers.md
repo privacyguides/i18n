@@ -181,9 +181,11 @@ Firefox добавляет уникальный [маркер загрузки](
 
 ##### Сбор и использование данных Firefox
 
-- [ ] Отключите **Разрешить Firefox отправлять технические данные и данные взаимодействия в Mozilla**
-- [ ] Отключите **Разрешить Firefox устанавливать и проводить исследования**
-- [ ] Отключите **Разрешить Firefox отправлять от вашего имени накопившиеся сообщения о его падениях**
+- [ ] Uncheck **Send technical and interaction data to Mozilla**
+- [ ] Uncheck **Allow personalized extension recommendations**
+- [ ] Uncheck **Install and run studies**
+- [ ] Uncheck **Send daily usage ping to Mozilla**
+- [ ] Uncheck **Automatically send crash reports**
 
 Согласно политике конфиденциальности Mozilla для Firefox,
 
@@ -227,7 +229,7 @@ Firefox добавляет уникальный [маркер загрузки](
 
 </div>
 
-[Проект Arkenfox](https://github.com/arkenfox/user.js) предоставляет набор тщательно продуманных параметров для Firefox. Если вы [решите](https://github.com/arkenfox/user.js/wiki/1.1-To-Arkenfox-or-Not) использовать Arkenfox, [несколько опций](https://github.com/arkenfox/user.js/wiki/3.2-Overrides-[Общие]) являются субъективно строгими и/или могут привести к некорректной работе некоторых веб-сайтов — их можно [легко изменить](https://github.com/arkenfox/user.js/wiki/3.1-Overrides) в соответствии с вашими потребностями. Мы **настоятельно рекомендуем** ознакомиться с их полной [вики](https://github.com/arkenfox/user.js/wiki). Arkenfox также включает поддержку [контейнеров](https://support.mozilla.org/kb/containers#w_for-advanced-users).
+[Проект Arkenfox](https://github.com/arkenfox/user.js) предоставляет набор тщательно продуманных параметров для Firefox. If you [decide](https://github.com/arkenfox/user.js/wiki/1.1-To-Arkenfox-or-Not) to use Arkenfox, a [few options](https://github.com/arkenfox/user.js/wiki/3.2-Overrides-%5BCommon%5D) are subjectively strict and/or may cause some websites to not work properly—which you can [easily change](https://github.com/arkenfox/user.js/wiki/3.1-Overrides) to suit your needs. Мы **настоятельно рекомендуем** ознакомиться с их полной [вики](https://github.com/arkenfox/user.js/wiki). Arkenfox также включает поддержку [контейнеров](https://support.mozilla.org/kb/containers#w_for-advanced-users).
 
 Arkenfox стремится только предотвратить базовые или примитивные отслеживающие скрипты через рандомизацию canvas и встроенные в Firefox настройки сопротивления снятию цифровых отпечатков. Он не стремится сделать ваш браузер неотличимым от большой группы других пользователей Arkenfox так, как это делают браузер Mullvad или Tor Browser, что является единственным способом противодействия продвинутым скриптам отслеживания по цифровым отпечаткам. Не забывайте о возможности использовать разные браузеры. К примеру, Firefox+Arkenfox можно применять для доверенных сайтов, где вам нужно сохранять авторизацию, а браузер Mullvad — для повседневного интернет-серфинга.
 

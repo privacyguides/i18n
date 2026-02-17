@@ -32,7 +32,6 @@ Commencez par vérifier que vos données sont disponibles en cherchant sur ces s
 - BeenVerified ([Recherche](https://beenverified.com/app/optout/search), [Suppression](https://beenverified.com/app/optout/address-search))
 - CheckPeople ([Recherche](https://checkpeople.com/do-not-sell-info), sélectionnez _Supprimer vos donnnées personnelles_ pour vous désinscrire)
 - ClustrMaps ([Recherche](https://clustrmaps.com), [Suppression](https://clustrmaps.com/bl/opt-out))
-- Dataveria ([Recherche](https://dataveria.com), [Suppression](https://dataveria.com/ng/control/privacy))
 - InfoTracer ([Recherche](https://infotracer.com), [Suppression](https://infotracer.com/optout))
 - Intelius ([Recherche](https://intelius.com), [Suppression](https://suppression.peopleconnect.us/login))
 - PeekYou ([Recherche](https://peekyou.com), [Suppression](https://peekyou.com/about/contact/ccpa_optout/do_not_sell))

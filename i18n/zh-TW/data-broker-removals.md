@@ -32,7 +32,6 @@ cover: data-broker-removals.webp
 - BeenVerified（[搜尋](https://beenverified.com/app/optout/search)、 [退出](https://beenverified.com/app/optout/address-search)）
 - CheckPeople（ [搜尋](https://checkpeople.com/do-not-sell-info) ，發現資料後選擇 _Remove Record_ 即可）
 - ClustrMaps（[搜尋](https://clustrmaps.com)、 [退出](https://clustrmaps.com/bl/opt-out)）
-- Dataveria（[搜尋](https://dataveria.com)、[退出](https://dataveria.com/ng/control/privacy)）
 - InfoTracer（[搜尋](https://infotracer.com)、[退出](https://infotracer.com/optout)）
 - Intelius（[搜尋](https://intelius.com)、[退出](https://suppression.peopleconnect.us/login)）
 - PeekYou（[搜尋](https://peekyou.com)、[退出](https://peekyou.com/about/contact/ccpa_optout/do_not_sell)）

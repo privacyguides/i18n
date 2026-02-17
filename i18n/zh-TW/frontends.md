@@ -177,41 +177,6 @@ Piped 需要 JavaScript 才能運行，它有許多公共伺服器。
 
 預設情況下， FreeTube 會封鎖所有 YouTube 廣告。 此外，FreeTube 可與 [SponsorBlock](https://sponsor.ajay.app) 整合，幫助您跳過影片中的贊助片段。
 
-### Yattee
-
-<div class="admonition recommendation" markdown>
-
-![Yattee logo](assets/img/frontends/yattee.svg){ align=right }
-
-**Yattee** 是 iOS、tvOS 和 macOS 適用於 [YouTube](https://youtube.com) 的自由、開放原始碼、以隱私為重點的影片播放器。 由於 App Store 的限制，您需要採取一些 [額外步驟](https://web.archive.org/web/20230330122839/https://gonzoknows.com/posts/Yattee) ，才能使用 Yattee 觀看 YouTube。 Yattee 允許您連線到 [Invidious](#invidious) 或 [Piped](#piped) 的實例。
-
-使用 Yattee 時，您的訂閱清單會儲存在本機裝置上。
-
-[:octicons-home-16: 首頁](https://github.com/yattee/yattee){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://r.yattee.stream/docs/privacy.html){ .card-link title="隱私權政策" }
-[:octicons-info-16:](https://github.com/yattee/yattee/wiki){ .card-link title="說明文件" }
-[:octicons-code-16:](https://github.com/yattee/yattee){ .card-link title="原始碼" }
-[:octicons-heart-16:](https://github.com/yattee/yattee/wiki/Donations){ .card-link title="捐款" }
-
-<details class="downloads" markdown>
-<summary>下載</summary>
-
-- [:simple-apple: App Store](https://apps.apple.com/app/id1595136629)
-- [:simple-github: GitHub](https://github.com/yattee/yattee/releases)
-
-</details>
-
-</div>
-
-<div class="admonition warning" markdown>
-<p class="admonition-title">警告</p>
-
-使用 Yattee 時，您的 IP位址 可能仍會被 YouTube、 [Invidious](https://instances.invidious.io) 、 [Piped](https://github.com/TeamPiped/Piped/wiki/Instances) 或 [SponsorBlock](https://sponsor.ajay.app) 所知曉，具體取決於您的設定。 如果您的 [威脅模型](basics/threat-modeling.md) 需要隱藏您的IP 位址，請考慮使用 [VPN](vpn.md) 或 [Tor](tor.md)。
-
-</div>
-
-預設情況下， Yattee 會封鎖所有 YouTube 廣告。 此外， Yattee 可選擇與 [SponsorBlock](https://sponsor.ajay.app) 整合，可以跳過贊助的影片段。
-
 ### LibreTube (Android)
 
 <div class="admonition recommendation" markdown>

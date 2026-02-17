@@ -184,9 +184,11 @@ Isso te protege contra cookies persistentes, mas não contra cookies adquiridos 
 
 ##### Telemetria
 
-- Limpar **Permitir que o Firefox envie dados técnicos e de interação para o Mozilla**
-- Limpar **Permitir que o Firefox instale e execute estudos**
-- Limpar **Permitir que o Firefox envie relatórios de falhas identificadas em seu nome**
+- [ ] Uncheck **Send technical and interaction data to Mozilla**
+- [ ] Uncheck **Allow personalized extension recommendations**
+- [ ] Uncheck **Install and run studies**
+- [ ] Uncheck **Send daily usage ping to Mozilla**
+- [ ] Uncheck **Automatically send crash reports**
 
 De acordo com a política de privacidade do Firefox da Mozilla,
 
@@ -230,7 +232,7 @@ A Proteção Máxima impõe o uso de DNS sobre HTTPS, e um aviso de segurança s
 
 </div>
 
-O [projeto Arkenfox](https://github.com/arkenfox/user.js) oferece um conjunto de opções cuidadosamente selecionadas para o Firefox. Se você [decidir](https://github.com/arkenfox/user.js/wiki/1.1-To-Arkenfox-or-Not) usar o Arkenfox, [algumas opções](https://github.com/arkenfox/user.js/wiki/3.2-Overrides-[Common]) podem ser subjetivamente rígidas e/ou fazer com que alguns sites não funcionem corretamente — algo que você pode [ajustar facilmente](https://github.com/arkenfox/user.js/wiki/3.1-Overrides) conforme suas necessidades. Nós **recomendamos fortemente** que você leia a [wiki completa](https://github.com/arkenfox/user.js/wiki) deles. .
+O [projeto Arkenfox](https://github.com/arkenfox/user.js) oferece um conjunto de opções cuidadosamente selecionadas para o Firefox. If you [decide](https://github.com/arkenfox/user.js/wiki/1.1-To-Arkenfox-or-Not) to use Arkenfox, a [few options](https://github.com/arkenfox/user.js/wiki/3.2-Overrides-%5BCommon%5D) are subjectively strict and/or may cause some websites to not work properly—which you can [easily change](https://github.com/arkenfox/user.js/wiki/3.1-Overrides) to suit your needs. Nós **recomendamos fortemente** que você leia a [wiki completa](https://github.com/arkenfox/user.js/wiki) deles. .
 
 Arkenfox é uma alternativa de software focada impedir que scripts básicos vazem seus dados ou estabaleca alguma espécie de rastreamento. Através da aleatorização do *canvas* do navegador o Arkenfox evita que esses scripts pegue as suas 'impressões digitais'. O foco deste navegador não é camuflar sua conexão através de uma gama de usuários com configurações similares, da mesma forma que o Navegador Tor ou o Mullvad. A maneira citada ainda continua sendo a melhor forma de evitar o rastreamento dos seus dados e evitar scripts consigam suas 'impressões digitais'  Lembre-se sempre que você pode usar diversos navegadores para finalidades distintas. Por exemplo, você pode usar uma combinação de navegadores como Firefox+Arkenfox para permanecer logado em sites e serviços que você utiliza frequentemente, juntamente ao uso de um navegador mais focado em privacidade (Tor, Mullvad, etc.) para navegação geralizada.
 
