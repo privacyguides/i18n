@@ -76,22 +76,22 @@
 *[PII]: Personenbezogene Daten
 *[QNAME]: Qualifizierter Name
 *[QUIC]: Ein Netzwerkprotokoll basierend auf UDP, welches darauf zielt die Geschwindigkeit von UDP mit der Zuverlässigkeit von TCP zu verbinden.
-*[rate limits]: Rate limits are restrictions that a service imposes on the number of times a user can access their services within a specified period of time.
-*[rolling release]: Updates which are released frequently rather than set intervals
-*[RSS]: Really Simple Syndication
-*[SELinux]: Security-Enhanced Linux
-*[SIM]: Subscriber Identity Module
-*[SMS]: Short Message Service (standard text messaging)
-*[SMTP]: Simple Mail Transfer Protocol
+*[rate limits]: Ratenlimitierungen sind Beschränkungen von einem Dienst einen Nutzer stellt, um die Anzahl der anfragen an den Dienst zu beschränken während einer definierten Zeit. 
+*[rolling release]: Aktualisierungen, welche sofort veröffentlicht werden, statt in Intervallen
+*[RSS]: etwa sehr einfache Verbreitung
+*[SELinux]: Sicherheit-Erweitertes Linux
+*[SIM]: Abonnenten Identifizierungsmodul
+*[SMS]: Kurznachrichtensystem (Standard Text Nachrichten)
+*[SMTP]: Simple Mail Transfer Protokoll
 *[SNI]: Server Name Indication
 *[SSD]: Solid-State Drive
-*[SSH]: Secure Shell
-*[SUID]: Set Owner User ID
-*[SaaS]: Software as a Service (cloud software)
+*[SSH]: Sichere Shell
+*[SUID]: Setze Inhaber Nutzer ID
+*[SaaS]: Anwendung als ein Dienst (Cloud Anwendung)
 *[SoC]: System on Chip
-*[SSO]: Single sign-on
-*[system prompt]: The system prompt of an AI chat is the general instructions given by a human to guide how it should operate.
-*[temperature]: AI temperature is a parameter used in AI models to control the level of randomness and creativity in the generated text.
+*[SSO]: Einmalanmeldung
+*[Systemeingabe]: Die Systemeingabe von einem KI Chat ist die generelle Anleitung, welche einem Menschen zeigen wie er bedienen sollte.
+*[Temperatur]: AI temperature is a parameter used in AI models to control the level of randomness and creativity in the generated text.
 *[TCP]: Transmission Control Protocol
 *[TEE]: Trusted Execution Environment
 *[TLS]: Transport Layer Security
