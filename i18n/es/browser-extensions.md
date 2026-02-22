@@ -50,11 +50,11 @@ Estas son algunas otras [listas de filtros](https://github.com/gorhill/uBlock/wi
 
 ### uBlock Origin Lite
 
-uBlock Origin also has a "Lite" version of their extension, which offers a limited feature-set compared to the original extension. Sin embargo, tiene algunas ventajas distintas sobre su hermana de pleno derecho, así que puede que quieras considerarlo si...
+uBlock Origin también tiene una versión «Lite» de su extensión, que ofrece un conjunto de características limitado en comparación con la extensión original. Sin embargo, tiene algunas ventajas distintas sobre su hermana de pleno derecho, así que puede que quieras considerarlo si...
 
 - ...no quieres conceder permisos completos para "leer/modificar datos del sitio web" a ninguna extensión (incluso una de confianza como uBlock Origin)
 - ...quieres un bloqueador de contenidos[^1] más eficiente en cuanto a recursos (memoria/CPU)
-- ...your browser only supports Manifest V3 extensions. This is the case for Chrome [^2] , Edge and most Chromium browsers.
+- ...tu navegador solo admite extensiones Manifest V3. Este es el caso de Chrome [^2] , Edge y la mayoría de los navegadores Chromium.
 
 <div class="admonition recommendation" markdown>
 
@@ -78,7 +78,7 @@ uBlock Origin also has a "Lite" version of their extension, which offers a limit
 
 </div>
 
-We only recommend this version of uBlock Origin if you never want to add any filter lists not included by default, or need advanced options such as [dynamic filtering](https://github.com/gorhill/ublock/wiki/dynamic-filtering:-quick-guide) and the network logger. These restrictions are due to limitations in Manifest V3's design, notably the hard limit on the number of filtering rules, and the fact that extensions generally cannot fetch remote resources.[^3]
+Solo recomendamos esta versión de uBlock Origin si no quieres añadir ninguna lista de filtros que no esté incluida por defecto ni necesitas opciones avanzadas como el [filtrado dinámico](https://github.com/gorhill/ublock/wiki/dynamic-filtering:-quick-guide) o el registrador de red. Estas restricciones se deben a limitaciones en el diseño de Manifest V3, en particular el estricto límite en el número de reglas de filtrado y el hecho de que las extensiones generalmente no pueden obtener recursos remotos.[^3]
 
 Esta versión ofrece tres niveles de bloqueo: "Básico" funciona sin requerir ningún privilegio especial para ver y modificar el contenido del sitio, mientras que los niveles "Óptimo" y "Completo" sí requieren ese amplio permiso, pero ofrecen una mejor experiencia de filtrado con reglas cosméticas adicionales e inyecciones de scriptlet.
 
