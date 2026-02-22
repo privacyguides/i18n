@@ -88,7 +88,7 @@ uBlock Origin Lite solo recibe actualizaciones de la lista de bloqueos cada vez 
 
 ### AdGuard
 
-We recommend [Safari](mobile-browsers.md#safari-ios) for iOS users, which unfortunately is only supported by uBlock Origin **Lite**. Por suerte, AdGuard ofrece una alternativa adecuada:
+Recomendamos [Safari](mobile-browsers.md#safari-ios) para usuarios de iOS, que desafortunadamente solo es compatible con uBlock Origin **Lite**. Por suerte, AdGuard ofrece una alternativa adecuada:
 
 <div class="admonition recommendation" markdown>
 
@@ -119,6 +119,6 @@ Las listas de filtros adicionales ralentizan las cosas y pueden aumentar su supe
 
 [^1]: uBlock Origin Lite _en sí mismo_ no consumirá recursos, ya que utiliza API más recientes que hacen que el navegador procese las listas de filtros de forma nativa, en lugar de ejecutar código JavaScript dentro de la extensión para gestionar el filtrado. Sin embargo, esta ventaja de recursos es solo [teórica](https://github.com/uBlockOrigin/uBOL-home/wiki/Frequently-asked-questions-\(FAQ\)#is-ubol-more-efficient-cpu--and-memory-wise-than-ubo), porque es posible que el código de filtrado estándar de uBlock Origin sea más eficiente que el código de filtrado nativo de tu navegador. Aún no se ha realizado una evaluación comparativa de esto.
 
-[^2]: A [workaround](https://github.com/uBlockOrigin/uBlock-issues/discussions/3690#discussioncomment-14548779) stil exists as of early December 2025.
+[^2]: Una [solución alternativa](https://github.com/uBlockOrigin/uBlock-issues/discussions/3690#discussioncomment-14548779) existe desde principios de diciembre de 2025.
 
-[^3]: This is starting to change, as MV3 extensions can now request to use scripts. This has enabled [AdGuard](https://adguard.com/en/blog/adguard-browser-extension-v5-2.html) to propose to import custom filters list by the url, as opposed to having to manually paste the rules, as is the case with uBOL.
+[^3]: Esto está empezando a cambiar, ya que las extensiones MV3 ahora pueden solicitar el uso de scripts. Esto ha permitido a [AdGuard](https://adguard.com/en/blog/adguard-browser-extension-v5-2.html) proponer la importación de listas de filtros personalizadas mediante la url, en lugar de tener que pegar manualmente las reglas, como es el caso de uBOL.
