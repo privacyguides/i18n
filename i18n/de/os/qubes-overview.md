@@ -38,16 +38,16 @@ Du kannst [Text kopieren und einfügen](https://qubes-os.org/doc/how-to-copy-and
 1. Drücke **Strg+C** um einen *Qube* zu sagen, dass du etwas kopieren möchtest.
 2. Drücke **Strg+Shift+C** um den *Qube* zu sagen, dass er in die globale Zwischenablage kopieren soll.
 3. Drücke **Strg+Shift+V** im *Qube*, damit die globale Zwischenablage verfügar wird.
-4. Press **Ctrl+V** in the destination *qube* to paste the contents in the buffer.
+4. Drücke **Strg+V** im *Qube*, um etwas von der Zwischeneinlage einzufügen.
 
-### File Exchange
+### Dateiaustausch
 
-To copy and paste files and directories (folders) from one *qube* to another, you can use the option **Copy to Other AppVM...** or **Move to Other AppVM...**. The difference is that the **Move** option will delete the original file. Either option will protect your clipboard from being leaked to any other *qubes*. This is more secure than air-gapped file transfer. An air-gapped computer will still be forced to parse partitions or file systems. That is not required with the inter-qube copy system.
+Um Dateien und Ordners von *Qube* zu Qube zu kopieren und einzufügen, kann man die Option **Copy to Other AppVM...** oder **Move to Other AppVM...** benutzen. Der Unterschied ist das die **Move** Option die originelle Datei löschen wird. Beide Optionen werden deine Zwischenablage schützen, zu anderen *Qubes* zugespielt zu werden. Dies ist sicherer als luftgeschütze Dateiübertragung. Ein luftgeschützer Computer muss trotzdem Partitionen oder ein Dateisystem erfassen. Das ist nicht gebraucht beim Inter-Qube-Kopiesystem.
 
 <details class="note" markdown>
-<summary>Qubes do not have their own filesystems.</summary>
+<summary>Qubes haben nicht ihre eigenen Dateisysteme.</summary>
 
-You can [copy and move files](https://qubes-os.org/doc/how-to-copy-and-move-files) between *qubes*. When doing so the changes aren't immediately made and can be easily undone in case of an accident. When you run a *qube*, it does not have a persistent filesystem. You can create and delete files, but these changes are ephemeral.
+Du kannst zwischen *Qubes* [Dateien kopieren und bewegen](https://qubes-os.org/doc/how-to-copy-and-move-files). When doing so the changes aren't immediately made and can be easily undone in case of an accident. When you run a *qube*, it does not have a persistent filesystem. You can create and delete files, but these changes are ephemeral.
 
 </details>
 
