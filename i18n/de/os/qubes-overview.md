@@ -20,14 +20,14 @@ Manche Informationen hier und in der Dokumentation von Qubes OS beinhalten wiede
 ![Qubes Architektur](../assets/img/qubes/qubes-trust-level-architecture.png)
 <figcaption>Qubes Architektur Quelle: What is Qubes OS Intro</figcaption>
 
-Each qube has a [colored border](https://qubes-os.org/screenshots) that can help you keep track of the domain in which it runs. Du könntest zum Beispiel, eine bestimmte Farbe für einen Browser verwenden, wo du Onlinebanking führst, und eine andere Farbe für einen Browser fürs allgemeine browsen.
+Jede Qube hat eine [farbige Umrandung](https://qubes-os.org/screenshots), die dir hilft herauszufinden, wie sie läuft. Du könntest zum Beispiel, eine bestimmte Farbe für einen Browser verwenden, wo du Onlinebanking führst, und eine andere Farbe für einen Browser fürs allgemeine browsen.
 
 ![Färbige Umrandung](../assets/img/qubes/r4.0-xfce-three-domains-at-work.png)
 <figcaption>Qubes Fensterumrandungen, Quelle: Qubes Screenshots</figcaption>
 
 ## Warum sollte ich Qubes verwenden?
 
-Qubes OS is useful if your [threat model](../basics/threat-modeling.md) requires strong security and isolation, such as if you think you'll be opening untrusted files from untrusted sources. Ein typischer Grund um Qubes OS zu benutzen ist, Dokumenten von unbekannten Quellen zu öffnen, aber die Idee ist, wenn ein Qube bedroht ist, wird es nicht das restliche System beeinträchtigen.
+Qubes OS ist nutzvoll falls dein [Bedrohungsmodell](../basics/threat-modeling.md) starke Sicherheit und isolation fördert, zum Beispiel falls du viele nicht-vertraubare Dateien von unseriösen Quellen öffnen musst. Ein typischer Grund um Qubes OS zu benutzen ist, Dokumenten von unbekannten Quellen zu öffnen, aber die Idee ist, wenn ein Qube bedroht ist, wird es nicht das restliche System beeinträchtigen.
 
 Qubes OS benutzt [dom0](https://wiki.xenproject.org/wiki/Dom0) Xen VM um *Qubes* im host OS zu steuern. Diese werden als Fenster innerhalb dom0s Desktopumgebung angezeigt. Es gibt viele Nutzen für diese Architektur. Hier sind paar Aufgaben die du durchführen kannst. Du kannst sehen, wie sicherer diese Prozesse sind, indem man mehrere Schritte einbaut.
 
@@ -42,24 +42,24 @@ Du kannst [Text kopieren und einfügen](https://qubes-os.org/doc/how-to-copy-and
 
 ### Dateiaustausch
 
-Um Dateien und Ordners von *Qube* zu Qube zu kopieren und einzufügen, kann man die Option **Copy to Other AppVM...** oder **Move to Other AppVM...** benutzen. Der Unterschied ist das die **Move** Option die originelle Datei löschen wird. Beide Optionen werden deine Zwischenablage schützen, zu anderen *Qubes* zugespielt zu werden. Dies ist sicherer als luftgeschütze Dateiübertragung. Ein luftgeschützer Computer muss trotzdem Partitionen oder ein Dateisystem erfassen. Das ist nicht gebraucht beim Inter-Qube-Kopiesystem.
+Um Dateien und Ordner von *Qube* zu Qube zu kopieren und einzufügen, kann man die Option **Copy to Other AppVM...** oder **Move to Other AppVM...** benutzen. Der Unterschied ist das die **Move** Option die originelle Datei löschen wird. Beide Optionen werden deine Zwischenablage schützen, zu anderen *Qubes* zugespielt zu werden. Dies ist sicherer als luftgeschütze Dateiübertragung. Ein luftgeschützer Computer muss trotzdem Partitionen oder ein Dateisystem erfassen. Das ist nicht gebraucht beim Inter-Qube-Kopiesystem.
 
 <details class="note" markdown>
 <summary>Qubes haben nicht ihre eigenen Dateisysteme.</summary>
 
-Du kannst zwischen *Qubes* [Dateien kopieren und bewegen](https://qubes-os.org/doc/how-to-copy-and-move-files). When doing so the changes aren't immediately made and can be easily undone in case of an accident. When you run a *qube*, it does not have a persistent filesystem. You can create and delete files, but these changes are ephemeral.
+Du kannst zwischen *Qubes* [Dateien kopieren und bewegen](https://qubes-os.org/doc/how-to-copy-and-move-files). Wenn es so getan wird, werden die Änderung nicht sofort angewendet und können in Fall eines Unfalls leicht rückgängig gemacht werden. Wenn du einen *Qube* ausführst, hat er kein anhaltendes Dateisystem. Du kannst Dateien erstellen sowie löschen, aber diese Änderungen sind temporär.
 
 </details>
 
-### Inter-VM Interactions
+### Inter-VM Interaktionen
 
-The [qrexec framework](https://qubes-os.org/doc/qrexec) is a core part of Qubes which allows communication between domains. It is built on top of the Xen library *vchan*, which facilitates [isolation through policies](https://qubes-os.org/news/2020/06/22/new-qrexec-policy-system).
+Das [qrexec framework](https://qubes-os.org/doc/qrexec) ist ein wichtiger Teil von Qubes der das Kommunizieren zwischen Domänen erlaubt. Es ist auf der Xen Library *vchan* aufgebaut, die [Isolation durch Richtlinien](https://qubes-os.org/news/2020/06/22/new-qrexec-policy-system) erlaubt.
 
-## Connecting to Tor via a VPN
+## Verbinden zu Tor mit einem VPN
 
-We [recommend](../advanced/tor-overview.md) connecting to the Tor network via a [VPN](../vpn.md) provider, and luckily Qubes makes this easy to do with a combination of ProxyVMs and Whonix.
+Wir [empfehlen](../advanced/tor-overview.md) das Verbinden zum Tor Netzwerk durch einem [VPN](../vpn.md) Anbieter, glücklicherweise macht Qubes dies mit einer Kombination von ProxyVMs und Whonix leicht.
 
-After [creating a new ProxyVM](https://forum.qubes-os.org/t/configuring-a-proxyvm-vpn-gateway/19061) which connects to the VPN of your choice, you can chain your Whonix qubes to that ProxyVM **before** they connect to the Tor network, by setting the NetVM of your Whonix **Gateway** (`sys-whonix`) to the newly-created ProxyVM.
+Nachdem man [ein neues ProxyVM erstellt hat](https://forum.qubes-os.org/t/configuring-a-proxyvm-vpn-gateway/19061), das sich mit der VPN deiner Wahl verbindet, kannst du deine Whonix Qubes zu diesem ProxyVM verbinden, **bevor** sie zum Tor Netzwerk sich verbinden, indem du das NetVM deiner Whonix **Gateway** (`sys-whonix`) zur neuerstellten ProxyVM verbindest.
 
 Deine Qubes sollten so ähnlich wie hier konfiguriert sein:
 

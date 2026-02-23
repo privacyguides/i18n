@@ -22,19 +22,19 @@ E-Mail ist praktisch eine Voraussetzung für die Nutzung aller Online-Dienste, w
 
 Für alles andere empfehlen wir eine Reihe von E-Mail-Anbietern, die auf nachhaltigen Geschäftsmodellen basieren und integrierte Sicherheits- und Datenschutzfunktionen bieten. Weitere Informationen findest du in unserem [vollständigen Kriterienkatalog](#criteria).
 
-| Anbieter                      | OpenPGP / WKD                          | IMAP / SMTP                                                           | Zero-Access Encryption                              | Anonymous Payment Methods                             |
-| ----------------------------- | -------------------------------------- | --------------------------------------------------------------------- | --------------------------------------------------- | ----------------------------------------------------- |
-| [Proton Mail](#proton-mail)   | :material-check:{ .pg-green }          | :material-information-outline:{ .pg-blue } Nur kostenpflichtige Pläne | :material-check:{ .pg-green }                       | Cash <br>Monero via third party                 |
-| [Mailbox Mail](#mailbox-mail) | :material-check:{ .pg-green }          | :material-check:{ .pg-green }                                         | :material-information-outline:{ .pg-blue } Nur Mail | Bargeld                                               |
-| [Tuta](#tuta)                 | :material-alert-outline:{ .pg-orange } | :material-alert-outline:{ .pg-orange }                                | :material-check:{ .pg-green }                       | Monero via third party <br>Cash via third party |
+| Anbieter                      | OpenPGP / WKD                          | IMAP / SMTP                                                           | Null-Zugriff-Verschlüsselung                        | Anonyme Zahlungsmethoden                    |
+| ----------------------------- | -------------------------------------- | --------------------------------------------------------------------- | --------------------------------------------------- | ------------------------------------------- |
+| [Proton Mail](#proton-mail)   | :material-check:{ .pg-green }          | :material-information-outline:{ .pg-blue } Nur kostenpflichtige Pläne | :material-check:{ .pg-green }                       | Bar<br>Monero über Dritte             |
+| [Mailbox Mail](#mailbox-mail) | :material-check:{ .pg-green }          | :material-check:{ .pg-green }                                         | :material-information-outline:{ .pg-blue } Nur Mail | Bargeld                                     |
+| [Tuta](#tuta)                 | :material-alert-outline:{ .pg-orange } | :material-alert-outline:{ .pg-orange }                                | :material-check:{ .pg-green }                       | Monero über Dritte<br>Bar über Dritte |
 
-In addition to (or instead of) an email provider recommended here, you may wish to consider a dedicated [email aliasing service](email-aliasing.md#recommended-providers) to protect your privacy. Diese Dienste können unter anderem dazu beitragen, deinen echten Posteingang vor Spam zu schützen, zu verhindern, dass Vermarkter deine Konten miteinander in Verbindung bringen, und alle eingehenden Nachrichten mit PGP zu verschlüsseln.
+Zusätzlich (oder statt) eines Email-Providers die hier empfohlen sind, kann man ebenfalls einen [E-Mail-Aliasing-Service](email-aliasing.md#recommended-providers) benutzen, um deine Privatsphäre zu schützen. Diese Dienste können unter anderem dazu beitragen, deinen echten Posteingang vor Spam zu schützen, zu verhindern, dass Vermarkter deine Konten miteinander in Verbindung bringen, und alle eingehenden Nachrichten mit PGP zu verschlüsseln.
 
 - [Weitere Informationen :material-arrow-right-drop-circle:](email-aliasing.md)
 
 ## OpenPGP-kompatible Dienste
 
-These providers natively support OpenPGP encryption/decryption and the [Web Key Directory (WKD) standard](basics/email-security.md#what-is-the-web-key-directory-standard), allowing for provider-agnostic end-to-end encrypted emails. For example, a Proton Mail user could send an E2EE message to a Mailbox Mail user, or you could receive OpenPGP-encrypted notifications from internet services which support it.
+Diese Anbieter unterstützen OpenPGP verschlüsselung/entschlüsselung und den [Web Key Directory (WKD) Standard](basics/email-security.md#what-is-the-web-key-directory-standard), was dir erlaubt End-zu-End-Verschlüsselung unabhängig vom Anbieter zu haben. Zum Beispiel, ein Proton Mail Nutzer könnte eine E2EE Nachricht einen Mailbox Mail Nutzer schicken, oder du könntest auch OpenPGP-verschlüsselte Benachrichtigungen von Internetservices bekommen, die es unterstützen.
 
 <div class="grid cards" markdown>
 
@@ -48,7 +48,7 @@ These providers natively support OpenPGP encryption/decryption and the [Web Key 
 
 Wenn du eine E2EE-Technologie wie OpenPGP verwendest, enthält deine E-Mail immer noch einige unverschlüsselte Metadaten im Header bzw. Quelltext der E-Mail, einschließlich der Betreffzeile! Lies mehr über [E-Mail-Metadaten](basics/email-security.md#email-metadata-overview).
 
-OpenPGP also does not support forward secrecy, which means if the private key of either you or the message recipient is ever stolen, all previous messages encrypted with it will be exposed.
+
 
 - [How do I protect my private keys?](basics/email-security.md#how-do-i-protect-my-private-keys)
 
