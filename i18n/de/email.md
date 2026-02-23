@@ -98,7 +98,7 @@ Proton Mail hat interne Ausfallberichte, die **nicht** mit Dritten geteilt werde
     - [ ] Deaktiviere **Nutzungsdiagnosedaten sammeln**
     - [ ] Deaktiviere **Absturzberichte senden**
 
-=== "Mobile"
+=== "Handy"
 
     Von deinem Postfach, Wähle :material-menu: →:gear: **Einstellungen** → wähle dein Benutzername.
 
@@ -111,7 +111,7 @@ Nutzer eines kostenpflichtigen Proton Mail Tarifs können ihre eigene Domain ode
 
 #### :material-check:{ .pg-green } Diskrete Zahlungsmöglichkeiten
 
-Proton Mail [nimmt](https://proton.me/support/payment-options) **Bargeld** per Post sowie Standardüberweisung/Debit Karte, [Bitcoin](advanced/payments.md#other-coins-bitcoin-ethereum-etc) und PayPal Zahlungen an. Additionally, you can use [**Monero**](cryptocurrency.md#monero) to purchase vouchers for Proton Mail Plus or Proton Unlimited via their [official](https://discuss.privacyguides.net/t/add-monero-as-an-anonymous-payment-method-for-proton-services/31058/15) reseller [ProxyStore](https://dys2p.com/en/2025-09-09-proton.html).
+Proton Mail [nimmt](https://proton.me/support/payment-options) **Bargeld** per Post sowie Standardüberweisung/Debit Karte, [Bitcoin](advanced/payments.md#other-coins-bitcoin-ethereum-etc) und PayPal Zahlungen an. Zusätzlich, kann man auch [**Monero**](cryptocurrency.md#monero) benutzen, um Gutscheine für Proton Mail Plus oder Proton Unlimited über deren [offiziellen](https://discuss.privacyguides.net/t/add-monero-as-an-anonymous-payment-method-for-proton-services/31058/15) Reseller [ProxyStore](https://dys2p.com/en/2025-09-09-proton.html) kaufen.
 
 #### :material-check:{ .pg-green } Kontosicherheit
 
@@ -125,9 +125,9 @@ Bestimmte Informationen, die in [Proton Contacts](https://proton.me/support/prot
 
 #### :material-check:{ .pg-green } E-Mail-Verschlüsselung
 
-Proton Mail hat [die OpenPGP-Verschlüsselung](https://proton.me/support/how-to-use-pgp) in sein Webmail integriert. E-Mails an andere Proton Mail-Konten werden automatisch verschlüsselt. Die Verschlüsselung an Nicht-Proton Mail-Adressen mit einem OpenPGP-Schlüssel kannst du ganz einfach in deinen Kontoeinstellungen aktivieren. Proton also supports automatic external key discovery with WKD. Das bedeutet, dass E-Mails an andere Anbieter, die WKD verwenden, automatisch auch mit OpenPGP verschlüsselt werden, ohne dass du manuell öffentliche PGP-Schlüssel mit deinen Kontakten austauschen musst. Außerdem ist es möglich, [Nachrichten an Nicht-Proton-Mail-Adressen ohne OpenPGP zu verschlüsseln](https://proton.me/support/password-protected-emails), ohne dass die Empfänger ein Proton-Mail-Konto benötigen.
+Proton Mail hat [die OpenPGP-Verschlüsselung](https://proton.me/support/how-to-use-pgp) in sein Webmail integriert. E-Mails an andere Proton Mail-Konten werden automatisch verschlüsselt. Die Verschlüsselung an Nicht-Proton Mail-Adressen mit einem OpenPGP-Schlüssel kannst du ganz einfach in deinen Kontoeinstellungen aktivieren. Proton unterstützt ebenfalls automatische externe Schlüssel-Entdeckung mit WKD. Das bedeutet, dass E-Mails an andere Anbieter, die WKD verwenden, automatisch auch mit OpenPGP verschlüsselt werden, ohne dass du manuell öffentliche PGP-Schlüssel mit deinen Kontakten austauschen musst. Außerdem ist es möglich, [Nachrichten an Nicht-Proton-Mail-Adressen ohne OpenPGP zu verschlüsseln](https://proton.me/support/password-protected-emails), ohne dass die Empfänger ein Proton-Mail-Konto benötigen.
 
-Auch veröffentlicht Proton Mail öffentlichen Schlüssel der Proton-Konten über HTTP von ihrem WKD. This allows people who don't use Proton Mail to find the OpenPGP keys of Proton Mail accounts easily for cross-provider E2EE. This only applies to email addresses ending in one of Proton's own domains, like `@proton.me`. If you use a custom domain, you must [configure WKD](basics/email-security.md#what-is-the-web-key-directory-standard) separately.
+Auch veröffentlicht Proton Mail öffentlichen Schlüssel der Proton-Konten über HTTP von ihrem WKD. Dies erlaubt Leute die nicht Proton Mail benutzen, leichter die OpenPGP Schlüsseln von Proton Mail Konten für anbieterübergreifender E2EE zu finden. Dies gilt nur für E-mail-Adressen, die mit den Domänen von Proton enden, z.B. `@proton.me`. Wenn du deine eigenen Domains benutzt, musst du selber [WKD konfigurieren](basics/email-security.md#what-is-the-web-key-directory-standard).
 
 #### :material-information-outline:{ .pg-blue } Kontokündigung
 
@@ -135,7 +135,7 @@ Wenn du ein kostenpflichtiges Konto hast und deine Rechnung [nach 14 Tagen noch 
 
 #### :material-information-outline:{ .pg-blue } Zusätzliche Funktionen
 
-Proton Mail's [Unlimited](https://proton.me/support/proton-plans#proton-unlimited) plan also enables access to other Proton services in addition to providing multiple custom domains, unlimited hide-my-email aliases, and 500 GB of storage.
+Proton Mails [Unlimited Plan](https://proton.me/support/proton-plans#proton-unlimited) erlaubt Zugriff zu anderen Proton-Diensten sowie mehrere benutzerdefinierte Domains, unlimitierte hide-my-email-Aliases und 500 GB Speicher.
 
 ### Mailbox Mail
 
@@ -143,9 +143,9 @@ Proton Mail's [Unlimited](https://proton.me/support/proton-plans#proton-unlimite
 
 ![Mailbox Mail logo](assets/img/email/mailbox-mail.svg){ align=right }
 
-**Mailbox Mail** (formerly *Mailbox.org*) is an email service with a focus on being secure, ad-free, and powered by 100% eco-friendly energy. Er wird seit 2014 betrieben. Mailbox Mail is based in Berlin, Germany.
+**Mailbox Mail** (ehemalig *Mailbox.org*) ist ein E-Mail-Anbieter mit Fokus auf Sicherheit sowie Werbungsfreiheit und wird betrieben von 100% umweltverträglicher Energie. Er wird seit 2014 betrieben. Mailbox Mail hat ihren Sitz in Berlin, Deutschland.
 
-Accounts start with up to 2 GB storage, which can be upgraded as needed.
+Konten starten mit bis zu 2 GB Speicher, welches bei Nachfrage erweitert werden kann.
 
 [:octicons-home-16: Homepage](https://mailbox.org){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://mailbox.org/de/datenschutz){ .card-link title="Datenschutzrichtlinie" }
@@ -162,27 +162,27 @@ Accounts start with up to 2 GB storage, which can be upgraded as needed.
 
 #### :material-check:{ .pg-green } Eigene Domains und Aliase
 
-Mailbox Mail lets you use your own domain, and they support [catch-all](https://kb.mailbox.org/en/private/custom-domains/how-to-set-up-a-catch-all-alias-with-a-custom-domain-name) addresses. Mailbox Mail also supports [sub-addressing](https://kb.mailbox.org/en/private/account-article/what-is-an-alias-and-how-do-i-use-it), which is useful if you don't want to purchase a domain.
+Mailbox Mail lässt dir deine eigene Domain benutzen, und sie unterstützen [catch-all](https://kb.mailbox.org/en/private/custom-domains/how-to-set-up-a-catch-all-alias-with-a-custom-domain-name) Adressen. Mailbox Mail unterstützt ebenfalls [Unteradressen](https://kb.mailbox.org/de/privat/e-mail/e-mail-aliasse-bei-mailbox/#was-genau-ist-ein-alias), was Nutzvoll ist, wenn du keine Domain kaufen möchtest.
 
 #### :material-check:{ .pg-green } Diskrete Zahlungsmöglichkeiten
 
-Mailbox Mail doesn't accept any cryptocurrencies as a result of their payment processor BitPay suspending operations in Germany. However, they do accept **cash** by mail, **cash** payment to bank account, bank transfer, credit card, PayPal, and a couple of German-specific processors: Paydirekt and Sofortüberweisung.
+Mailbox Mail unterstützt keine Kryptowährung da deren Zahlungsanbieter BitPay ihre Geschäfte in Deutschland abgebrochen haben. Allerdings nehmen sie **Bargeld** über Post, **Bareinzahlung auf Bankkonto **, Überweisung, Kreditkarten, PayPal und manche deutschen Zahlungsanbieter: Paydirekt und Sofortüberweisung an.
 
 #### :material-check:{ .pg-green } Kontosicherheit
 
-Mailbox Mail supports [two-factor authentication](https://kb.mailbox.org/en/private/account-article/how-to-use-two-factor-authentication-2fa) for their webmail only. You can use either TOTP or a [YubiKey](security-keys.md#yubikey) via the [YubiCloud](https://yubico.com/products/services-software/yubicloud). Web standards such as [WebAuthn](basics/multi-factor-authentication.md#fido-fast-identity-online) are not yet supported.
+Mailbox Mail unterstützt [Zwei-Faktor-Authentifizierung](https://kb.mailbox.org/en/private/account-article/how-to-use-two-factor-authentication-2fa) nur für ihre Webmail. Du kannst entweder TOTP oder einen [YubiKey](security-keys.md#yubikey)über die [YubiCloud](https://yubico.com/products/services-software/yubicloud) benutzen. Webstandards wie [WebAuthn](basics/multi-factor-authentication.md#fido-fast-identity-online) sind noch nicht unterstützt.
 
 #### :material-information-outline:{ .pg-blue } Datensicherheit
 
-Mailbox Mail allows for encryption of incoming mail using their [encrypted mailbox](https://kb.mailbox.org/en/private/e-mail-article/your-encrypted-mailbox). Neue eingehende Nachrichten werden dann sofort mit deinem öffentlichen Schlüssel verschlüsselt.
+Mailbox Mail erlaubt für Verschlüsselung von eingehende Mails über ihre [verschlüsselte Mailbox](https://kb.mailbox.org/de/privat/e-mail/e-mails-definitiv-sicher-versenden/#der-sichere-e-mail-empfang). Neue eingehende Nachrichten werden dann sofort mit deinem öffentlichen Schlüssel verschlüsselt.
 
-However, [Open-Xchange](https://en.wikipedia.org/wiki/Open-Xchange), the software platform used by Mailbox Mail, [does not support](https://kb.mailbox.org/en/private/security-privacy-article/encryption-of-calendar-and-address-book) the encryption of your address book and calendar. A [standalone option](calendar.md) may be more appropriate for that data.
+Allerdings unterstützt die Softwareplattform die von Mailbox Mail verwendet wird, [Open-Xchange](https://en.wikipedia.org/wiki/Open-Xchange) nicht die [Verschlüsselung deines Adressbuches oder deines Kalenders](https://kb.mailbox.org/de/privat/sicherheit-privatsphaere/sind-kalender-und-adressbuch-verschluesselt/#kalender-und-adressbuch-sind-derzeit-nicht-verschl%C3%BCsselt). Eine [eigenständige Option](calendar.md) könnte daher für diese Daten geeigneter sein.
 
 #### :material-check:{ .pg-green } E-Mail-Verschlüsselung
 
 Mailbox Mail has [integrated encryption](https://kb.mailbox.org/en/private/e-mail-article/send-encrypted-e-mails-with-guard) in their webmail, which simplifies sending messages to people with public OpenPGP keys. They also allow [remote recipients to decrypt an email](https://kb.mailbox.org/en/private/e-mail-article/my-recipient-does-not-use-pgp) on Mailbox Mail's servers. Diese Funktion ist nützlich, wenn der Empfänger OpenPGP nicht nutzt und daher eine Kopie der E-Mail in seinem eigenen Postfach nicht entschlüsseln kann.
 
-Mailbox Mail also supports the discovery of public keys via HTTP from their WKD. This allows people outside of Mailbox Mail to find the OpenPGP keys of Mailbox Mail accounts easily for cross-provider E2EE. This only applies to email addresses ending in one of Mailbox Mail's own domains, like `@mailbox.org`. If you use a custom domain, you must [configure WKD](basics/email-security.md#what-is-the-web-key-directory-standard) separately.
+Mailbox Mail also supports the discovery of public keys via HTTP from their WKD. This allows people outside of Mailbox Mail to find the OpenPGP keys of Mailbox Mail accounts easily for cross-provider E2EE. This only applies to email addresses ending in one of Mailbox Mail's own domains, like `@mailbox.org`. Wenn du deine eigenen Domains benutzt, musst du selber [WKD konfigurieren](basics/email-security.md#what-is-the-web-key-directory-standard).
 
 #### :material-information-outline:{ .pg-blue } Kontokündigung
 

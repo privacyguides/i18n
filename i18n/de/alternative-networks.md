@@ -1,19 +1,19 @@
 ---
-title: "Alternative Networks"
+title: "Alternative Netzwerke"
 icon: material/vector-polygon
-description: These tools allow you to access networks other than the World Wide Web.
+description: These Werkzeuge erlauben dir Zugriff zu Netzwerke außerhalb des World Wide Webs.
 cover: alternative-networks.webp
 ---
 
 <small>Protects against the following threat(s):</small>
 
-- [:material-server-network: Service Providers](basics/common-threats.md#privacy-from-service-providers){ .pg-teal }
+- [:material-server-network: Dienstanbieter](basics/common-threats.md#privacy-from-service-providers){ .pg-teal }
 - [:material-eye-outline: Massenüberwachung](basics/common-threats.md#mass-surveillance-programs){ .pg-blue }
 - [:material-account-cash: Überwachungskapitalismus](basics/common-threats.md#surveillance-as-a-business-model){ .pg-brown }
 
 ## Anonymizing Networks
 
-When it comes to anonymizing networks, we want to specially note that [Tor](advanced/tor-overview.md) is our top choice. It is by far the most utilized, robustly studied, and actively developed anonymous network. Using other networks could be more likely to endanger your [:material-incognito: Anonymity](basics/common-threats.md#anonymity-vs-privacy){ .pg-purple }, unless you know what you're doing.
+Wenn es zu Anonymisierungsnetzwerke kommt, wollen wir notieren das [Tor](advanced/tor-overview.md) unsere erste Wahl ist. Es ist bei weitem das meist verwendetes, robust untersuchtes und aktiv entwickeltes anonymes Netzwerk. Das Nutzen von anderen Netzwerken bringt größere Gefahr zu deiner [:material-incognito: Anonymität](basics/common-threats.md#anonymity-vs-privacy){ .pg-purple }, außer wenn du weißt was du machst.
 
 ### Tor
 
@@ -21,7 +21,7 @@ When it comes to anonymizing networks, we want to specially note that [Tor](adva
 
 ![Tor logo](assets/img/self-contained-networks/tor.svg){ align=right }
 
-The **Tor** network is a group of volunteer-operated servers that allows you to connect for free and improve your privacy and security on the Internet. Einzelpersonen und Organisationen können auch Informationen über das Tor-Netzwerk mit ".onion versteckten Diensten" austauschen, ohne ihre Privatsphäre zu gefährden. Because Tor traffic is difficult to block and trace, Tor is an effective [:material-close-outline: Censorship](basics/common-threats.md#avoiding-censorship){ .pg-blue-gray } circumvention tool.
+Das **Tor** Netzwerk ist eine Gruppe von Freiwilligen betriebenen Servern die dir erlauben, sich kostenlos zu verbinden und deine Privatsphäre und Sicherheit im Internet zu verbessern. Einzelpersonen und Organisationen können auch Informationen über das Tor-Netzwerk mit ".onion versteckten Diensten" austauschen, ohne ihre Privatsphäre zu gefährden. Because Tor traffic is difficult to block and trace, Tor is an effective [:material-close-outline: Censorship](basics/common-threats.md#avoiding-censorship){ .pg-blue-gray } circumvention tool.
 
 [:octicons-home-16:](https://torproject.org){ .card-link title=Homepage }
 [:simple-torbrowser:](http://2gzyxa5ihm7nsggfxnu52rck2vv4rvmdlkiu3zzui5du4xyclen53wid.onion){ .card-link title="Onion Service" }
