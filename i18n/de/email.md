@@ -50,7 +50,7 @@ Wenn du eine E2EE-Technologie wie OpenPGP verwendest, enthält deine E-Mail imme
 
 
 
-- [How do I protect my private keys?](basics/email-security.md#how-do-i-protect-my-private-keys)
+- [Wie schütze ich meine privaten schlüssel?](basics/email-security.md#how-do-i-protect-my-private-keys)
 
 </div>
 
@@ -62,7 +62,7 @@ Wenn du eine E2EE-Technologie wie OpenPGP verwendest, enthält deine E-Mail imme
 
 **Proton Mail** ist ein E-Mail-Dienst mit dem Schwerpunkt auf Datenschutz, Verschlüsselung, Sicherheit und Benutzerfreundlichkeit. Sie sind seit 2013 in Betrieb. Die Proton AG hat ihren Sitz in Genf, Schweiz.
 
-The Proton Free plan comes with 500 MB of Mail storage, which you can increase up to 1 GB for free.
+Der Proton Free Plan kommt mit 500 MB von Mail-Speicher, was du kostenlos auf 1 GB erhöhen kannst.
 
 [:octicons-home-16: Homepage](https://proton.me/de/mail){ .md-button .md-button--primary }
 [:simple-torbrowser:](https://protonmailrmez3lotccipshtkleegetolb73fuirgj7r4o4vfu7ozyd.onion){ .card-link title="Onion Service" }
@@ -85,25 +85,25 @@ The Proton Free plan comes with 500 MB of Mail storage, which you can increase u
 
 </div>
 
-Free accounts have some limitations, such as not being able to search body text and not having access to [Proton Mail Bridge](https://proton.me/mail/bridge), which is required to use a [recommended desktop email client](email-clients.md) such as Thunderbird. Bezahlte Konten umfassen Funktionen wie Proton Mail Bridge, zusätzlichen Speicher und die Nutzung eigener Domains. The Proton Unlimited plan or any multi-user Proton plan includes access to [SimpleLogin](email-aliasing.md#simplelogin) Premium.
+Kostenlose Konten haben Beschränkungen, z.B. kann man nicht Nachrichten mithilfe des Email Körpers suchen und man hat kein Zugriff zur [Proton Mail Bridge](https://proton.me/mail/bridge), die gebraucht wird, um einer der empfohlenen [Email-Clients](email-clients.md) wie z.B. Thunderbird zu benutzen. Bezahlte Konten umfassen Funktionen wie Proton Mail Bridge, zusätzlichen Speicher und die Nutzung eigener Domains. Der Proton Unlimited Plan oder jeder Multi-Nutzer Proton Plan beinhaltet Zugriff zu [SimpleLogin](email-aliasing.md#simplelogin) Premium.
 
-A [letter of attestation](https://res.cloudinary.com/dbulfrlrz/images/v1714639878/wp-pme/letter-of-attestation-proton-mail-20211109_3138714c61/letter-of-attestation-proton-mail-20211109_3138714c61.pdf) was provided for Proton Mail's apps in November 2021 by [Securitum](https://research.securitum.com).
+Ein [Bescheinigungsschreiben](https://res.cloudinary.com/dbulfrlrz/images/v1714639878/wp-pme/letter-of-attestation-proton-mail-20211109_3138714c61/letter-of-attestation-proton-mail-20211109_3138714c61.pdf) wurde für Proton Mails Apps im November 2021 von [Securitum](https://research.securitum.com) zur Verfügung gestellt.
 
-Proton Mail has internal crash reports that are **not** shared with third parties and can be disabled.
+Proton Mail hat interne Ausfallberichte, die **nicht** mit Dritten geteilt werden und die deaktiviert werden können.
 
 === "Web"
 
-    From your inbox, select :gear: → **All Settings** → **Account** → **Security and privacy** → **Privacy and data collection**.
+    Von deinem Postfach, klicke auf :gear: → **Alle Einstellungen** → **Konto** → **Sicherheit und Datenschutz** →**Privatsphäre und Datenerfassung**.
 
-    - [ ] Disable **Collect usage dignostics**
-    - [ ] Disable **Send crash reports**
+    - [ ] Deaktiviere **Nutzungsdiagnosedaten sammeln**
+    - [ ] Deaktiviere **Absturzberichte senden**
 
 === "Mobile"
 
-    From your inbox, select :material-menu: → :gear: **Settings** → select your username.
+    Von deinem Postfach, Wähle :material-menu: →:gear: **Einstellungen** → wähle dein Benutzername.
 
-    - [ ] Disable **Send crash reports**
-    - [ ] Disable **Collect usage dignostics**
+    - [ ] Deaktiviere **Absturzberichte senden**
+    - [ ] Deaktiviere **Nutzungsdiagnosedaten sammeln**
 
 #### :material-check:{ .pg-green } Eigene Domains und Aliase
 
@@ -111,7 +111,7 @@ Nutzer eines kostenpflichtigen Proton Mail Tarifs können ihre eigene Domain ode
 
 #### :material-check:{ .pg-green } Diskrete Zahlungsmöglichkeiten
 
-Proton Mail [accepts](https://proton.me/support/payment-options) **cash** by mail in addition to standard credit/debit card, [Bitcoin](advanced/payments.md#other-coins-bitcoin-ethereum-etc), and PayPal payments. Additionally, you can use [**Monero**](cryptocurrency.md#monero) to purchase vouchers for Proton Mail Plus or Proton Unlimited via their [official](https://discuss.privacyguides.net/t/add-monero-as-an-anonymous-payment-method-for-proton-services/31058/15) reseller [ProxyStore](https://dys2p.com/en/2025-09-09-proton.html).
+Proton Mail [nimmt](https://proton.me/support/payment-options) **Bargeld** per Post sowie Standardüberweisung/Debit Karte, [Bitcoin](advanced/payments.md#other-coins-bitcoin-ethereum-etc) und PayPal Zahlungen an. Additionally, you can use [**Monero**](cryptocurrency.md#monero) to purchase vouchers for Proton Mail Plus or Proton Unlimited via their [official](https://discuss.privacyguides.net/t/add-monero-as-an-anonymous-payment-method-for-proton-services/31058/15) reseller [ProxyStore](https://dys2p.com/en/2025-09-09-proton.html).
 
 #### :material-check:{ .pg-green } Kontosicherheit
 
