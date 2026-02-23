@@ -13,7 +13,7 @@ cover: alternative-networks.webp
 
 ## Anonymisierungsnetzwerke
 
-Wenn es zu Anonymisierungsnetzwerke kommt, wollen wir notieren das [Tor](advanced/tor-overview.md) unsere erste Wahl ist. Es ist bei weitem das meist verwendetes, robust untersuchtes und aktiv entwickeltes anonymes Netzwerk. Das Nutzen von anderen Netzwerken bringt größere Gefahr zu deiner [:material-incognito: Anonymität](basics/common-threats.md#anonymity-vs-privacy){ .pg-purple }, außer wenn du weißt was du machst.
+Wenn es zu Anonymisierungsnetzwerke kommt, wollen wir notieren das [Tor](advanced/tor-overview.md) unsere erste Wahl ist. Es ist bei weitem das meist verwendete, robust untersuchte und aktiv entwickelte anonyme Netzwerk. Das Nutzen von anderen Netzwerken bringt größere Gefahr zu deiner [:material-incognito: Anonymität](basics/common-threats.md#anonymity-vs-privacy){ .pg-purple }, außer wenn du weißt was du machst.
 
 ### Tor
 
@@ -33,9 +33,9 @@ Das **Tor** Netzwerk ist eine Gruppe von Freiwilligen betriebenen Servern die di
 
 Der empfohlene Weg um das Tor Netzwerk zuzugreifen ist über den offiziellen Tor Browser, die folgende Seite beinhaltet mehr Informationen über den Browser:
 
-Du kannst das Tor Netzwerk mit anderen Werkzeugen zugreifen, dies ist abhängig von deinem Bedrohungsmodell.
+[Tor Browser Information :material-arrow-right-drop-circle:](tor.md){ .md-button .md-button--primary } [detaillierte Tor Übersicht :material-arrow-right-drop-circle:](advanced/tor-overview.md){ .md-button }
 
-Du kannst das Tor Netzwerk mit anderen Werkzeugen zugreifen, dies ist abhängig von deinem Bedrohungsmodell. Wenn du ein normaler Tor Nutzer bist, der keine Sorgen macht, dass dein Internetanbieter Beweise über dich sammelt, dann sind Apps wie [Orbot](#orbot) oder Mobile Browser Apps zum Zugriff vom Tor Netzwerk unproblematisch. Wenn mehr Menschen regelmäßig Tor nutzen, hilft das, das schlechte Stigma von Tor zu verringern und senkt zudem die Qualität der "Listen von Tor-Nutzern", die ISPs und Regierungen erstellen können.
+Du kannst das Tor Netzwerk mit anderen Werkzeugen zugreifen, dies ist abhängig von deinem Bedrohungsmodell. Wenn du ein normaler Tor Nutzer bist, der keine Sorgen hat, dass dein Internetanbieter Beweise über dich sammelt, dann sind Apps wie [Orbot](#orbot) oder Mobile Browser Apps zum Zugriff vom Tor Netzwerk unproblematisch. Wenn mehr Menschen regelmäßig Tor nutzen, hilft das, das schlechte Stigma von Tor zu verringern und senkt zudem die Qualität der "Listen von Tor-Nutzern", die ISPs und Regierungen erstellen können.
 
 <div class="admonition example" markdown>
 <p class="admonition-title">Versuche es!</p>
@@ -70,7 +70,7 @@ Du kannst versuchen, über Tor bei [xoe4vn5uwdztif6goazfbmogh6wh5jc4up35bqdflu6b
 
 </div>
 
-We previously recommended enabling the _Isolate Destination Address_ preference in Orbot settings. While this setting can theoretically improve privacy by enforcing the use of a different circuit for each IP address you connect to, it doesn't provide a practical advantage for most applications (especially web browsing), can come with a significant performance penalty, and increases the load on the Tor network. We no longer recommend adjusting this setting from its default value unless you know you need to.[^1]
+Wir haben vorher die Option _Zieladressen isolieren_ Einstellung innerhalb Orbot empfohlen. Obwohl diese Einstellung theoretisch deine Privatsphäre verbessern könnte, indem es für jede IP-Adresse zu der man sich verbindet einen eigenen Circuit benutzt, gibt es keinen praktischen Nutzen für die meisten Applikationen (insbesondere Web browsen). Ebenfalls kommt es mit einem Leistungsnachteil und erhöht Verkehr im Tor Netwerk. Wir empfehlen es nicht mehr diese Option zu ändern, außer wenn du es brauchst.[^1]
 
 \=== "Android"
 
@@ -110,9 +110,9 @@ Du kannst Snowflake in deinem Browser aktivieren, indem man es in einem neuen Ta
 
 [Führe Snowflake in deinem Browser aus :material-arrow-right-drop-circle:](https://snowflake.torproject.org/embed.html){ .md-button }
 
-Snowflake erhöht nicht deine Privatsphäre, ebenfalls kann es auch nicht benutzt werden um, innerhalb deines persönlichen Browsers Zugriff aufs Tor Netzwerk zu bekommen. Allerdings solltest du es Berücksichtigen, wenn deine Internetverbindung unzensiert ist, da es Leuten mit zensierter Verbinden mit deren Privatsphären helfen kann. Es gibt keinen Grund sich Sorgen zu machen, welche Webseiten Leute durch deiner Proxy besuchen, da ihre sichtbare IP-Adresse der ihrer Tor-Exit-Node entspricht, nicht deiner.
+Snowflake erhöht nicht deine Privatsphäre, ebenfalls kann es auch nicht benutzt werden, um innerhalb deines persönlichen Browsers Zugriff aufs Tor Netzwerk zu bekommen. Allerdings solltest du es Berücksichtigen, wenn deine Internetverbindung unzensiert ist, da es Leuten mit zensierter Verbinden mit deren Privatsphären helfen kann. Es gibt keinen Grund sich Sorgen zu machen, welche Webseiten Leute durch deiner Proxy besuchen, da ihre sichtbare IP-Adresse der ihrer Tor-Exit-Node entspricht, nicht deiner.
 
-Das Betreiben einer Snowflake Proxy ist risikoarm, da das Betreiben eines Tor-Relays oder Bridge auch nicht sehr Risikoreich ist. Da aber Verkehr durch dein Netzwerk läuft, kann es wirkungsvoll auf deiner Verbindung sein, am meisten, wenn dein Netzwerk eine Bandbreitenlimitierung hat. Stelle siche, dass du verstehst [wie Snowflake funktioniert](https://gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/snowflake/-/wikis/home) bevor du eine Proxy betreibst.
+Das Betreiben einer Snowflake Proxy ist risikoarm, da das Betreiben eines Tor-Relays oder Bridge auch nicht sehr Risikoreich ist. Da aber Verkehr durch dein Netzwerk läuft, kann es wirkungsvoll auf deiner Verbindung sein, am meisten, wenn dein Netzwerk eine Bandbreitenlimitierung hat. Stelle sicher, dass du verstehst [wie Snowflake funktioniert](https://gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/snowflake/-/wikis/home) bevor du eine Proxy betreibst.
 
 ### I2P (The Invisible Internet Project)
 
