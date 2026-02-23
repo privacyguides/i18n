@@ -1,6 +1,6 @@
 ---
 title: "Android"
-description: Our advice for replacing privacy-invasive default Android features with private and secure alternatives.
+description: Unser Vorschlag für das Ersetzen von Privatsphären-angreifenden standardmäßigen Android-Features mit privaten und sicheren Alternativen.
 icon: 'simple/android'
 cover: android.webp
 schema:
@@ -48,7 +48,7 @@ Idealerweise solltest du bei der Auswahl einer Custom-Android-Distribution siche
 
 Das [Rooten](https://de.wikipedia.org/wiki/Rooten) von Android-Smartphones kann die Sicherheit des Geräts erheblich beeinträchtigen, da es das gesamte [Android-Sicherheitsmodell](https://en.wikipedia.org/wiki/Android_\(operating_system\)#Security_and_privacy) schwächt. Dies kann zu einer Beeinträchtigung des Datenschutzes führen, wenn die verminderte Sicherheit ausgenutzt wird. Bei den üblichen Rooting-Methoden wird direkt in die Boot-Partition eingegriffen, sodass ein erfolgreicher Verified Boot nicht möglich ist. Anwendungen, die Root benötigen, verändern auch die Systempartition, was bedeutet, dass Verified Boot deaktiviert bleiben muss. Die Aussetzung von Root direkt in der Benutzeroberfläche vergrößert auch die Angriffsfläche Ihres Geräts und kann zu [Rechteausweitungs](https://de.wikipedia.org/wiki/Rechteausweitung)-Schwachstellen und zur Umgehung von SELinux-Richtlinien beitragen.
 
-Content blockers which modify the [hosts file](https://en.wikipedia.org/wiki/Hosts_\(file\)) (like AdAway) and firewalls which require root access persistently (like AFWall+) are dangerous and should not be used. Sie sind auch nicht der richtige Weg, um den beabsichtigten Zweck zu erfüllen. Für das Blockieren von Inhalten empfehlen wir stattdessen verschlüsselte [DNS](../dns.md) oder eine von einem VPN bereitgestellte Funktion zum Blockieren von Inhalten. TrackerControl and AdAway in non-root mode will take up the VPN slot (by using a local loopback VPN), preventing you from using privacy-enhancing services such as [Orbot](../alternative-networks.md#orbot) or a [real VPN provider](../vpn.md).
+Inhaltsblocker die [hosts Datei](https://en.wikipedia.org/wiki/Hosts_\(file\)) (wie AdAway) und Firewalls die ständig Rootzugriff brauchen (wie AFWall+) sind gefährlich und sollten nicht benutzt werden. Sie sind auch nicht der richtige Weg, um den beabsichtigten Zweck zu erfüllen. Für das Blockieren von Inhalten empfehlen wir stattdessen verschlüsselte [DNS](../dns.md) oder eine von einem VPN bereitgestellte Funktion zum Blockieren von Inhalten. TrackerControl und AdAway im nicht-Root-Modus nehmen den VPN-Slot ein, indem sie ein lokales Loopback-VPN benutzen, der dir verhindert, Privatsphären-Verbesserungs Services wie [Orbot](../alternative-networks.md#orbot) oder einen [echten VPN-Anbieter](../vpn.md) zu benutzen.
 
 AFWall+ basiert auf dem Ansatz der [Paketfilterung](https://de.wikipedia.org/wiki/Paketfilter) und kann in einigen Situationen umgangen werden.
 
