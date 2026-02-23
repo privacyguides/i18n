@@ -5,13 +5,13 @@ description: These Werkzeuge erlauben dir Zugriff zu Netzwerke außerhalb des Wo
 cover: alternative-networks.webp
 ---
 
-<small>Protects against the following threat(s):</small>
+<small>Schützt vor der/den folgenden Bedrohung(en):</small>
 
 - [:material-server-network: Dienstanbieter](basics/common-threats.md#privacy-from-service-providers){ .pg-teal }
 - [:material-eye-outline: Massenüberwachung](basics/common-threats.md#mass-surveillance-programs){ .pg-blue }
 - [:material-account-cash: Überwachungskapitalismus](basics/common-threats.md#surveillance-as-a-business-model){ .pg-brown }
 
-## Anonymizing Networks
+## Anonymisierungsnetzwerke
 
 Wenn es zu Anonymisierungsnetzwerke kommt, wollen wir notieren das [Tor](advanced/tor-overview.md) unsere erste Wahl ist. Es ist bei weitem das meist verwendetes, robust untersuchtes und aktiv entwickeltes anonymes Netzwerk. Das Nutzen von anderen Netzwerken bringt größere Gefahr zu deiner [:material-incognito: Anonymität](basics/common-threats.md#anonymity-vs-privacy){ .pg-purple }, außer wenn du weißt was du machst.
 
@@ -21,26 +21,26 @@ Wenn es zu Anonymisierungsnetzwerke kommt, wollen wir notieren das [Tor](advance
 
 ![Tor logo](assets/img/self-contained-networks/tor.svg){ align=right }
 
-Das **Tor** Netzwerk ist eine Gruppe von Freiwilligen betriebenen Servern die dir erlauben, sich kostenlos zu verbinden und deine Privatsphäre und Sicherheit im Internet zu verbessern. Einzelpersonen und Organisationen können auch Informationen über das Tor-Netzwerk mit ".onion versteckten Diensten" austauschen, ohne ihre Privatsphäre zu gefährden. Because Tor traffic is difficult to block and trace, Tor is an effective [:material-close-outline: Censorship](basics/common-threats.md#avoiding-censorship){ .pg-blue-gray } circumvention tool.
+Das **Tor** Netzwerk ist eine Gruppe von Freiwilligen betriebenen Servern die dir erlauben, sich kostenlos zu verbinden und deine Privatsphäre und Sicherheit im Internet zu verbessern. Einzelpersonen und Organisationen können auch Informationen über das Tor-Netzwerk mit ".onion versteckten Diensten" austauschen, ohne ihre Privatsphäre zu gefährden. Da Tor Verkehr schwer zu blockieren und zu verfolgen ist, ist Tor ein effektives Werkzeug gegen [:material-close-outline: Zensur](basics/common-threats.md#avoiding-censorship){ .pg-blue-gray }.
 
 [:octicons-home-16:](https://torproject.org){ .card-link title=Homepage }
-[:simple-torbrowser:](http://2gzyxa5ihm7nsggfxnu52rck2vv4rvmdlkiu3zzui5du4xyclen53wid.onion){ .card-link title="Onion Service" }
-[:octicons-info-16:](https://tb-manual.torproject.org){ .card-link title=Documentation}
-[:octicons-code-16:](https://gitlab.torproject.org/tpo/core/tor){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://donate.torproject.org){ .card-link title=Contribute }
+[:simple-torbrowser:](http://2gzyxa5ihm7nsggfxnu52rck2vv4rvmdlkiu3zzui5du4xyclen53wid.onion){ .card-link title="Onion Service }
+[:octicons-info-16:](https://tb-manual.torproject.org){ .card-link title=Dokumentation }
+[:octicons-code-16:](https://gitlab.torproject.org/tpo/core/tor){ .card-link title="Quellcode" }
+[:octicons-heart-16:](https://donate.torproject.org){ .card-link title=beitragen }
 
 </div>
 
-The recommended way to access the Tor network is via the official Tor Browser, which we have covered in more detail on a dedicated page:
+Der empfohlene Weg um das Tor Netzwerk zuzugreifen ist über den offiziellen Tor Browser, die folgende Seite beinhaltet mehr Informationen über den Browser:
 
-[Tor Browser Info :material-arrow-right-drop-circle:](tor.md){ .md-button .md-button--primary } [Detailed Tor Overview :material-arrow-right-drop-circle:](advanced/tor-overview.md){ .md-button }
+Du kannst das Tor Netzwerk mit anderen Werkzeugen zugreifen, dies ist abhängig von deinem Bedrohungsmodell.
 
-You can access the Tor network using other tools; making this determination comes down to your threat model. If you are a casual Tor user who is not worried about your ISP collecting evidence against you, using apps like [Orbot](#orbot) or mobile browser apps to access the Tor network is probably fine. Wenn mehr Menschen regelmäßig Tor nutzen, hilft das, das schlechte Stigma von Tor zu verringern und senkt zudem die Qualität der "Listen von Tor-Nutzern", die ISPs und Regierungen erstellen können.
+Du kannst das Tor Netzwerk mit anderen Werkzeugen zugreifen, dies ist abhängig von deinem Bedrohungsmodell. Wenn du ein normaler Tor Nutzer bist, der keine Sorgen macht, dass dein Internetanbieter Beweise über dich sammelt, dann sind Apps wie [Orbot](#orbot) oder Mobile Browser Apps zum Zugriff vom Tor Netzwerk unproblematisch. Wenn mehr Menschen regelmäßig Tor nutzen, hilft das, das schlechte Stigma von Tor zu verringern und senkt zudem die Qualität der "Listen von Tor-Nutzern", die ISPs und Regierungen erstellen können.
 
 <div class="admonition example" markdown>
-<p class="admonition-title">Try it out!</p>
+<p class="admonition-title">Versuche es!</p>
 
-You can try connecting to _Privacy Guides_ via Tor at [xoe4vn5uwdztif6goazfbmogh6wh5jc4up35bqdflu6bkdc5cas5vjqd.onion](http://www.xoe4vn5uwdztif6goazfbmogh6wh5jc4up35bqdflu6bkdc5cas5vjqd.onion).
+Du kannst versuchen, über Tor bei [xoe4vn5uwdztif6goazfbmogh6wh5jc4up35bqdflu6bkdc5cas5vjqd.onion](http://www.xoe4vn5uwdztif6goazfbmogh6wh5jc4up35bqdflu6bkdc5cas5vjqd.onion) _Privacy Guides_ zu öffnen.
 
 </div>
 
@@ -50,13 +50,13 @@ You can try connecting to _Privacy Guides_ via Tor at [xoe4vn5uwdztif6goazfbmogh
 
 ![Orbot logo](assets/img/self-contained-networks/orbot.svg){ align=right }
 
-**Orbot** is a mobile application which routes traffic from any app on your device through the Tor network.
+**Orbot** ist eine Handy-App, die Verkehr von jeder App auf deinem Handy über das Tor Netzwerk sendet.
 
 [:octicons-home-16: Homepage](https://orbot.app){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://orbot.app/privacy-policy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://orbot.app/faqs){ .card-link title="Documentation" }
-[:octicons-code-16:](https://orbot.app/code){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://orbot.app/donate){ .card-link title="Contribute" }
+[:octicons-eye-16:](https://orbot.app/privacy-policy){ .card-link title="Datenschutzbestimmungen" }
+[:octicons-info-16:](https://orbot.app/faqs){ .card-link title="Dokumentation" }
+[:octicons-code-16:](https://orbot.app/code){ .card-link title="Quellcode" }
+[:octicons-heart-16:](https://orbot.app/donate){ .card-link title="beitragen" }
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
@@ -93,26 +93,26 @@ On iOS, Orbot has some limitations that could potentially cause crashes or leaks
 ![Snowflake logo](assets/img/self-contained-networks/snowflake.svg#only-light){ align=right }
 ![Snowflake logo](assets/img/self-contained-networks/snowflake-dark.svg#only-dark){ align=right }
 
-**Snowflake** allows you to donate bandwidth to the Tor Project by operating a "Snowflake proxy" within your browser.
+**Snowflake** erlaubt dir Bandbreite zum Tor Projekt zu schenken, indem man innerhalb seines Browsers eine "Snowflake Proxy" betreibt.
 
-People who are censored can use Snowflake proxies to connect to the Tor network. Snowflake is a great way to contribute to the network even if you don't have the technical know-how to run a Tor relay or bridge.
+Leute die zensiert werden, können Snowflake-Proxies benutzen, um sich zum Tor Netzwerk zu verbinden. Snowflake ist ein guter Weg zum Netzwerk beizutragen, auch wenn man nicht das technische Know-How hat, um ein Tor Relay oder Bridge zu betreiben.
 
 [:octicons-home-16: Homepage](https://snowflake.torproject.org){ .md-button .md-button--primary }
-[:octicons-info-16:](https://gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/snowflake/-/wikis/Technical%20Overview){ .card-link title=Documentation}
-[:octicons-code-16:](https://gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/snowflake){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://donate.torproject.org){ .card-link title=Contribute }
+[:octicons-info-16:](https://gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/snowflake/-/wikis/Technical%20Overview){ .card-link title=Dokumentation}
+[:octicons-code-16:](https://gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/snowflake){ .card-link title="QuellCode" }
+[:octicons-heart-16:](https://donate.torproject.org){ .card-link title=beitragen }
 
 </details>
 
 </div>
 
-You can enable Snowflake in your browser by opening it in another tab and turning the switch on. You can leave it running in the background while you browse to contribute your connection. We don't recommend installing Snowflake as a browser extension, because adding third-party extensions can increase your attack surface.
+Du kannst Snowflake in deinem Browser aktivieren, indem man es in einem neuen Tab öffnet und den Schalter aktiviert. Du kannst es in Hintergrund laufen lassen während du browst, um deine Verbindung beizutragen. Wir empfehlen nicht Snowflake als Browsererweiterung, weil Erweiterungen von Dritten deine Angriffsoberfläche vergrößert.
 
-[Run Snowflake in your Browser :material-arrow-right-drop-circle:](https://snowflake.torproject.org/embed.html){ .md-button }
+[Führe Snowflake in deinem Browser aus :material-arrow-right-drop-circle:](https://snowflake.torproject.org/embed.html){ .md-button }
 
-Snowflake does not increase your privacy in any way, nor is it used to connect to the Tor network within your personal browser. However, if your internet connection is uncensored, you should consider running it to help people in censored networks achieve better privacy themselves. There is no need to worry about which websites people are accessing through your proxy—their visible browsing IP address will match their Tor exit node, not yours.
+Snowflake erhöht nicht deine Privatsphäre, ebenfalls kann es auch nicht benutzt werden um, innerhalb deines persönlichen Browsers Zugriff aufs Tor Netzwerk zu bekommen. Allerdings solltest du es Berücksichtigen, wenn deine Internetverbindung unzensiert ist, da es Leuten mit zensierter Verbinden mit deren Privatsphären helfen kann. Es gibt keinen Grund sich Sorgen zu machen, welche Webseiten Leute durch deiner Proxy besuchen, da ihre sichtbare IP-Adresse der ihrer Tor-Exit-Node entspricht, nicht deiner.
 
-Running a Snowflake proxy is low-risk, even more so than running a Tor relay or bridge which are already not particularly risky endeavors. However, it does still proxy traffic through your network which can be impactful in some ways, especially if your network is bandwidth-limited. Make sure you understand [how Snowflake works](https://gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/snowflake/-/wikis/home) before deciding whether to run a proxy.
+Das Betreiben einer Snowflake Proxy ist risikoarm, da das Betreiben eines Tor-Relays oder Bridge auch nicht sehr Risikoreich ist. Da aber Verkehr durch dein Netzwerk läuft, kann es wirkungsvoll auf deiner Verbindung sein, am meisten, wenn dein Netzwerk eine Bandbreitenlimitierung hat. Stelle siche, dass du verstehst [wie Snowflake funktioniert](https://gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/snowflake/-/wikis/home) bevor du eine Proxy betreibst.
 
 ### I2P (The Invisible Internet Project)
 
@@ -121,12 +121,12 @@ Running a Snowflake proxy is low-risk, even more so than running a Tor relay or 
 ![I2P logo](assets/img/self-contained-networks/i2p.svg#only-light){ align=right }
 ![I2P logo](assets/img/self-contained-networks/i2p-dark.svg#only-dark){ align=right }
 
-**I2P** is a network layer which encrypts your connections and routes them via a network of computers distributed around the world. It is mainly focused on creating an alternative, privacy-protecting network rather than making regular internet connections anonymous.
+**I2P** ist eine Netzwerkschicht, die deine Verbindung verschlüsselt, und sie über ein Netzwerk von Computern auf der ganzen Welt leitet. Es ist hauptsächlich fokussiert ein alternatives, Privatsphäre-schützendes Netzwerk zu erstellen, statt normales Internetverkehr zu anonymisieren.
 
 [:octicons-home-16: Homepage](https://geti2p.net/en){ .md-button .md-button--primary }
-[:octicons-info-16:](https://geti2p.net/en/about/software){ .card-link title=Documentation }
-[:octicons-code-16:](https://github.com/i2p/i2p.i2p){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://geti2p.net/en/get-involved){ .card-link title=Contribute }
+[:octicons-info-16:](https://geti2p.net/en/about/software){ .card-link title=Dokumentation }
+[:octicons-code-16:](https://github.com/i2p/i2p.i2p){ .card-link title="Quellcode" }
+[:octicons-heart-16:](https://geti2p.net/en/get-involved){ .card-link title=beitragen }
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
@@ -144,7 +144,7 @@ Running a Snowflake proxy is low-risk, even more so than running a Tor relay or 
 Unlike Tor, all I2P traffic is internal to the I2P network, which means regular internet websites are **not** directly accessible from I2P. Instead, you can connect to websites which are hosted anonymously and directly on the I2P network, which are called "eepsites" and have domains which end in `.i2p`.
 
 <div class="admonition example" markdown>
-<p class="admonition-title">Try it out!</p>
+<p class="admonition-title">Versuche es!</p>
 
 You can try connecting to _Privacy Guides_ via I2P at [privacyguides.i2p](http://privacyguides.i2p/?i2paddresshelper=fvbkmooriuqgssrjvbxu7nrwms5zyhf34r3uuppoakwwsm7ysv6q.b32.i2p).
 
