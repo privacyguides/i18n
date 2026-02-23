@@ -75,15 +75,15 @@ Wir haben vorher die Option _Zieladressen isolieren_ Einstellung innerhalb Orbot
 \=== "Android"
 
 ```
-Orbot can proxy individual apps if they support SOCKS or HTTP proxying. It can also proxy all your network connections using [VpnService](https://developer.android.com/reference/android/net/VpnService) and can be used with the VPN kill switch in :gear: **Settings** → **Network & internet** → **VPN** → :gear: → **Block connections without VPN**.
+Orbot kann zu individuellen Apps weiterleiten, wenn sie SOCKS oder HTTP Proxying unterstützen. Es können ebenfalls alle deine Netzwerkverbindung mit [VpnService](https://developer.android.com/reference/android/net/VpnService) weitergeleitet werden und kann mit der VPN-Kill-Switch in :gear: **Einstellungen** → **Netzwerk & Internet** → **VPN** → :gear: → **Blockiere Verbindungen ohne VPN** benutzt werden.
 
-Orbot is often outdated on Google Play and the Guardian Project's F-Droid repository, so consider downloading directly from the GitHub repository instead. All versions are signed using the same signature, so they should be compatible with each other.
+Orbot ist oft auf Google Play und im Guardian Projects F-Droid Repository veraltet, also beachte dass du stattdessen Orbot von der Github Repository herunterladest. Alle Versionen werden mit der gleichen Signatur signiert, also sollten alle kompatible miteinander sein.
 ```
 
 \=== "iOS"
 
 ```
-On iOS, Orbot has some limitations that could potentially cause crashes or leaks: iOS does not have an effective OS-level feature to block connections without a VPN like Android does, and iOS has an artificial memory limit for network extensions that makes it challenging to run Tor in Orbot without crashes. Currently, it is always safer to use Tor on a desktop computer compared to a mobile device.
+Auf iOS hat Orbot beschränkungen die zu Abstürze oder zu leaks führen können: iOS hat kein effektives OS-Level Feature um Verbindungen ohne VPN zu blockieren, und iOS hat auch ein künstliches Speicherlimit für Netzwerkerweiterungen, dies macht es schwer, Tor über Orbot ohne Probleme zu benutzen. Derzeit ist es immer sicherer Tor auf einem Computer anstatt auf einem Handy zu benutzen.
 ```
 
 #### Snowflake
@@ -93,7 +93,7 @@ On iOS, Orbot has some limitations that could potentially cause crashes or leaks
 ![Snowflake logo](assets/img/self-contained-networks/snowflake.svg#only-light){ align=right }
 ![Snowflake logo](assets/img/self-contained-networks/snowflake-dark.svg#only-dark){ align=right }
 
-**Snowflake** erlaubt dir Bandbreite zum Tor Projekt zu schenken, indem man innerhalb seines Browsers eine "Snowflake Proxy" betreibt.
+**Snowflake** erlaubt dir Bandbreite zum Tor Projekt zu spenden, indem man innerhalb seines Browsers eine "Snowflake Proxy" betreibt.
 
 Leute die zensiert werden, können Snowflake-Proxies benutzen, um sich zum Tor Netzwerk zu verbinden. Snowflake ist ein guter Weg zum Netzwerk beizutragen, auch wenn man nicht das technische Know-How hat, um ein Tor Relay oder Bridge zu betreiben.
 
@@ -110,7 +110,7 @@ Du kannst Snowflake in deinem Browser aktivieren, indem man es in einem neuen Ta
 
 [Führe Snowflake in deinem Browser aus :material-arrow-right-drop-circle:](https://snowflake.torproject.org/embed.html){ .md-button }
 
-Snowflake erhöht nicht deine Privatsphäre, ebenfalls kann es auch nicht benutzt werden, um innerhalb deines persönlichen Browsers Zugriff aufs Tor Netzwerk zu bekommen. Allerdings solltest du es Berücksichtigen, wenn deine Internetverbindung unzensiert ist, da es Leuten mit zensierter Verbinden mit deren Privatsphären helfen kann. Es gibt keinen Grund sich Sorgen zu machen, welche Webseiten Leute durch deiner Proxy besuchen, da ihre sichtbare IP-Adresse der ihrer Tor-Exit-Node entspricht, nicht deiner.
+Snowflake erhöht nicht deine Privatsphäre. Ebenfalls kann es auch nicht benutzt werden, um innerhalb deines persönlichen Browsers Zugriff auf das Tor Netzwerk zu bekommen. Allerdings solltest du es Berücksichtigen, wenn deine Internetverbindung unzensiert ist, da es Leuten mit zensierter Verbinden mit deren Privatsphären helfen kann. Es gibt keinen Grund sich Sorgen zu machen, welche Webseiten Leute durch deiner Proxy besuchen, da ihre sichtbare IP-Adresse der ihrer Tor-Exit-Node entspricht, nicht deiner.
 
 Das Betreiben einer Snowflake Proxy ist risikoarm, da das Betreiben eines Tor-Relays oder Bridge auch nicht sehr Risikoreich ist. Da aber Verkehr durch dein Netzwerk läuft, kann es wirkungsvoll auf deiner Verbindung sein, am meisten, wenn dein Netzwerk eine Bandbreitenlimitierung hat. Stelle sicher, dass du verstehst [wie Snowflake funktioniert](https://gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/snowflake/-/wikis/home) bevor du eine Proxy betreibst.
 
@@ -141,19 +141,19 @@ Das Betreiben einer Snowflake Proxy ist risikoarm, da das Betreiben eines Tor-Re
 
 </div>
 
-Unlike Tor, all I2P traffic is internal to the I2P network, which means regular internet websites are **not** directly accessible from I2P. Instead, you can connect to websites which are hosted anonymously and directly on the I2P network, which are called "eepsites" and have domains which end in `.i2p`.
+Im Gegensatz zu Tor ist jeder I2P Verkehr nur innerhalb des I2P Netzwerkes, dies heißt, dass normale Internetseiten **nicht** direkt über I2P verfügbar sind. Stattdessen kannst du dich zu Webseiten verbinden die anonym gehostet werden und direkt am I2P Netzwerk sind, sie heißen "eepsites" und haben Domains die mit `.i2p` enden.
 
 <div class="admonition example" markdown>
 <p class="admonition-title">Versuche es!</p>
 
-You can try connecting to _Privacy Guides_ via I2P at [privacyguides.i2p](http://privacyguides.i2p/?i2paddresshelper=fvbkmooriuqgssrjvbxu7nrwms5zyhf34r3uuppoakwwsm7ysv6q.b32.i2p).
+Du kannst versuchen, dich bei _Privacy Guides_ über I2P zu verbinden: [privacyguides.i2p](http://privacyguides.i2p/?i2paddresshelper=fvbkmooriuqgssrjvbxu7nrwms5zyhf34r3uuppoakwwsm7ysv6q.b32.i2p).
 
 </div>
 
-Also, unlike Tor, every I2P node will relay traffic for other users by default, instead of relying on dedicated relay volunteers to run nodes. There are approximately [10,000](https://metrics.torproject.org/networksize.html) relays and bridges on the Tor network compared to ~50,000 on I2P, meaning there is potentially more ways for your traffic to be routed to maximize anonymity. I2P also tends to be more performant than Tor, although this is likely a side effect of Tor being more focused on regular "clearnet" internet traffic and thus using more bottle necked exit nodes. Hidden service performance is generally considered to be much better on I2P compared to Tor. While running P2P applications like BitTorrent is challenging on Tor (and can massively impact Tor network performance), it is very easy and performant on I2P.
+Ebenfalls wird standardmäßig jeder I2P Knoten Verkehr für andere Nutzer weiterleiten, statt eigene Relays von Freiwilligen zu benutzen. Es gibt ungefähr [10.000](https://metrics.torproject.org/networksize.html) Relays und Bridges im Tor Netzwerk, verglichen mit ~50.000 auf I2P, gibt es mehr Wege für deinen Verkehr weitergeleitet zu werden, um deine Anonymität zu maximieren. I2P ist öfter auch mehr leistungsfähiger als Tor, dies ist wahrscheinlich eine Nebenwirkung da Tor mehr auf normalen "Clearnet" Internetverkehr fokussiert ist, und dadurch mehr engpässige Exitknoten verwendet. Versteckte Service Leistung ist allgemein besser auf I2P verglichen mit Tor. Während P2P Applikationen wie BitTorrent schwer auf Tor zum Laufen sind (da es massive Wirkung auf die Netzwerkleistung von Tor hat), ist es relativ Leicht und leistungsstark auf I2P.
 
-There are downsides to I2P's approach, however. Tor relying on dedicated exit nodes means more people in less safe environments can use it, and the relays that do exist on Tor are likely to be more performant and stable, as they generally aren't run on residential connections. Tor is also far more focused on **browser privacy** (i.e. anti-fingerprinting), with a dedicated [Tor Browser](tor.md) to make browsing activity as anonymous as possible. I2P is used via your [regular web browser](desktop-browsers.md), and while you can configure your browser to be more privacy-protecting, you probably still won't have the same browser fingerprint as other I2P users (there's no "crowd" to blend in with in that regard).
+Allerdings gibt es aber Nachteile bei I2P. Da Tor mehr aufs Weiterleiten auf gewidmeten Exitkonten vertraut, können es mehr Leute innerhalb weniger sicheren Umgebungen nutzen, und die Relay die auf Tor existieren sind wahrscheinlich mehr leistungsstärker und stabiler, weil es typischerweise nicht auf Hausanschlüsse laufen. Tor ist ebenfalls mit dem [Tor Browser](tor.md) auch mehr auf Browser-Privatsphäre fokussiert (das heißt Anti-Fingerprinting), damit deine Browsing-Aktivität so anonym wie möglich sein kann. I2P wird mit deinem [normalen Internetbrowser](desktop-browsers.md) verwendet, obwohl du deine Browsereinstellungen so ändern kannst, sodass sie mehr Privatsphäre-schützend sind, wirst du wahrscheinlich nicht den gleichen Browser-Fingerprint wie andere I2P-Nutzer haben (Dadurch gibt es keine "Menge" in der man sich vermischen kann).
 
-Tor is likely to be more resistant to censorship, due to their robust network of bridges and varying [pluggable transports](https://tb-manual.torproject.org/circumvention). On the other hand, I2P uses directory servers for the initial connection which are varying/untrusted and run by volunteers, compared to the hard-coded/trusted ones Tor uses which are likely easier to block.
+Tor ist auch wahrscheinlich mehr resistenter gegen Zensur aufgrund ihres robusten Netzwerkes von Bridges und unterschiedlichen [einsteckbaren Transporten](https://tb-manual.torproject.org/circumvention). Andererseits benutzt I2P Verzeichnisserver für initiale Verbindungen, die unvertraulich sind und von Freiwilligen betrieben sind, verglichen mit den vertrauten/hardkodierten die Tor benutzt, die wahrscheinlich leichter zu blockieren sind.
 
-[^1]: The `IsolateDestAddr` setting is discussed on the [Tor mailing list](https://lists.torproject.org/pipermail/tor-talk/2012-May/024403) and [Whonix's Stream Isolation documentation](https://whonix.org/wiki/Stream_Isolation), where both projects suggest that it is usually not a good approach for most people.
+[^1]: Die `IsolateDestAddr` Einstellung wurde auf der [Tor Mailingliste](https://lists.torproject.org/pipermail/tor-talk/2012-May/024403) und der [Whonix Stream Isolation Dokumentation](https://whonix.org/wiki/Stream_Isolation) besprochen, wo beide Projekte vorschlagen, dass es nicht für die meisten geeignet ist.
