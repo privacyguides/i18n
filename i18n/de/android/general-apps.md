@@ -61,7 +61,7 @@ Shelter wird gegenüber [Insular](https://secure-system.gitlab.io/Insular) und [
 
 <small>Schützt vor der/den folgenden Bedrohung(en):</small>
 
-- [:material-account-search: Public Exposure](../basics/common-threats.md#limiting-public-information){ .pg-green }
+- [:material-account-search: Öffentliche Bloßstellung](../basics/common-threats.md#limiting-public-information){ .pg-green }
 
 <div class="admonition recommendation" markdown>
 
@@ -71,9 +71,9 @@ Shelter wird gegenüber [Insular](https://secure-system.gitlab.io/Insular) und [
 **Secure Camera** ist eine Kamera-App, die sich auf Datenschutz und Sicherheit konzentriert und Bilder, Videos und QR-Codes aufnehmen kann. CameraX Herstellererweiterungen (Porträt, HDR, Nachtsicht, Gesichtsretusche und Auto) sind auf unterstützten Geräten ebenfalls verfügbar.
 
 [:octicons-repo-16: Repository](https://github.com/GrapheneOS/Camera#readme){ .md-button .md-button--primary }
-[:octicons-info-16:](https://grapheneos.org/usage#camera){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/GrapheneOS/Camera){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://grapheneos.org/donate){ .card-link title=Contribute }
+[:octicons-info-16:](https://grapheneos.org/usage#camera){ .card-link title=Dokumentation}
+[:octicons-code-16:](https://github.com/GrapheneOS/Camera){ .card-link title="Quellcode" }
+[:octicons-heart-16:](https://grapheneos.org/donate){ .card-link title=beitragen }
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
@@ -105,7 +105,7 @@ Die Metadaten zur Bildausrichtung werden nicht gelöscht. Wenn du den Standort (
 
 <small>Schützt vor der/den folgenden Bedrohung(en):</small>
 
-- [:material-target-account: Targeted Attacks](../basics/common-threats.md#attacks-against-specific-individuals){ .pg-red }
+- [:material-target-account: Gezielte Angriffe](../basics/common-threats.md#attacks-against-specific-individuals){ .pg-red }
 
 <div class="admonition recommendation" markdown>
 
@@ -117,8 +117,8 @@ Die Metadaten zur Bildausrichtung werden nicht gelöscht. Wenn du den Standort (
 [Content-Security-Policy](https://de.wikipedia.org/wiki/Content_Security_Policy) wird verwendet, um zu erzwingen, dass die JavaScript- und Styling-Eigenschaften innerhalb der WebView ausschließlich statische Inhalte sind.
 
 [:octicons-repo-16: Repository](https://github.com/GrapheneOS/PdfViewer#readme){ .md-button .md-button--primary }
-[:octicons-code-16:](https://github.com/GrapheneOS/PdfViewer){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://grapheneos.org/donate){ .card-link title=Contribute }
+[:octicons-code-16:](https://github.com/GrapheneOS/PdfViewer){ .card-link title="Quellcode" }
+[:octicons-heart-16:](https://grapheneos.org/donate){ .card-link title=beitragen }
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>

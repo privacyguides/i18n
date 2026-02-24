@@ -22,7 +22,7 @@ robots: nofollow, max-snippet:-1, max-image-preview:large
 
 <small>Schützt vor der/den folgenden Bedrohung(en):</small>
 
-- [:material-target-account: Targeted Attacks](../basics/common-threats.md#attacks-against-specific-individuals){ .pg-red }
+- [:material-target-account: Gezielte Angriffe](../basics/common-threats.md#attacks-against-specific-individuals){ .pg-red }
 - [:material-bug-outline: Passive Angriffe](../basics/common-threats.md#security-and-privacy){ .pg-orange }
 
 Ein **Custom Android-Betriebssystem** (manchmal auch als **Custom ROM** bezeichnet) kann eine Möglichkeit sein, um ein höheres Maß an Privatsphäre und Sicherheit auf einem Gerät zu erreichen. Dies steht im Gegensatz zu der „Stock“-Version von Android, die mit deinem Handy aus der Fabrik kommt, und häufig tiefgreifend mit Google Play Services, sowie Diensten anderer Hersteller, integriert ist.
