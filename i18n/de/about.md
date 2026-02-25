@@ -209,7 +209,7 @@ Um zu wiederholen, dies ist keine Wertschätzung von irgendeiner Plattform, wir 
 
 > Um Privatsphären-Fokussierte alternative Apps zu finden, überprüfte Seiten wie Good Reports und **Privacy Guides**, die Listen von Privatsphäre-fokussierten Apps in einer Vielzahl von Kategorien, inklusive E-Mail-Anbieter, die nicht von Big-Tech-Unternehmen betrieben werden, schreiben.
 
-— [New York Times](https://nytimes.com/wirecutter/guides/online-security-social-media-privacy)
+— [New York Times](https://nytimes.com/wirecutter/guides/online-security-social-media-privacy) [vom Englischen übersetzt]
 
 > Wenn du ein neues VPN suchst, kannst du zum Rabattcode von fast jedem Podcast gehen. Wenn du ein **guten** VPN suchst, brauchst du professionelle Hilfe. Das Gleiche gilt für E-Mail-Clients, Browser, Betriebssysteme und Passwortmanager. Wie weiß man welche die beste, meist Privatsphären-freundliche Option ist? Deshalb gibt es **Privacy Guides**, eine Plattform wo Freiwillige für die besten Privatsphäre-freundlichen Tools im Internet suchen.
 

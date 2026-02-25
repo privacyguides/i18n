@@ -91,10 +91,10 @@
 *[SoC]: System on Chip
 *[SSO]: Einmalanmeldung
 *[Systemeingabe]: Die Systemeingabe von einem KI Chat ist die generelle Anleitung, welche einem Menschen zeigen wie er bedienen sollte.
-*[Temperatur]: AI temperature is a parameter used in AI models to control the level of randomness and creativity in the generated text.
-*[TCP]: Transmission Control Protocol
-*[TEE]: Trusted Execution Environment
-*[TLS]: Transport Layer Security
+*[Temperatur]: KI Temperatur ist ein Parameter der in KI Modellen, um die Kontrolle der Zufälligkeit sowie Kreativität im generierten Text zu kontrollieren.
+*[TCP]: Übertragungssteuerungsprotokoll
+*[TEE]: Vertrauenswürdige Ausführungsumgebung
+*[TLS]: Transportschichtsicherheit
 *[AGB]: Allgemeine Geschäftsbedingungen
 *[TOTP]: Zeitbasiertes Einmalpasswort
 *[TPM]: Trusted Platform Module
@@ -103,9 +103,9 @@
 *[UDP]: User Datagram Protocol
 *[VPN]: Virtuelles Privates Netzwerk
 *[VLAN]: Virtual Local Area Network
-*[VoIP]: Voice over IP (Internet Protocol)
+*[VoIP]: Voice over IP (Internet Protokoll)
 *[W3C]: World Wide Web Consortium
 *[XMPP]: Extensible Messaging and Presence Protocol
-*[PWA]: Progressive Web App
-*[PWAs]: Progressive Web Apps
+*[PWA]: Progressive Webanwendung
+*[PWAs]: Progressive Webanwendungen
 *[WKD]: Web Key Directory
