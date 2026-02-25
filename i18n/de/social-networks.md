@@ -49,7 +49,7 @@ If you are greatly concerned about an existing server censoring your content, th
 **Mastodon** is a social network based on open web protocols and free, open-source software. It uses the **:simple-activitypub: ActivityPub** protocol, which is decentralized like email: Users can exist on different servers or even different platforms but still communicate with each other.
 
 [:octicons-home-16: Homepage](https://joinmastodon.org){ .md-button .md-button--primary }
-[:octicons-info-16:](https://docs.joinmastodon.org){ .card-link title="Documentation" }
+[:octicons-info-16:](https://docs.joinmastodon.org){ .card-link title="Dokumentation" }
 
 </div>
 
@@ -67,11 +67,11 @@ We chose to recommend Mastodon over other ActivityPub software as your primary s
 
 To benefit the most from Mastodon, it is critical to choose a server, or "instance," which is well aligned with the type of content you want to post or read about. We do not currently recommend any specific instances, but you may find advice within our communities. We recommend avoiding _mastodon.social_ and _mastodon.online_ because they are operated by the same company which develops Mastodon itself. From the perspective of decentralization, it is better in the long term to separate software developers and server hosts so that no one party can exert too much control over the network as a whole.
 
-### Recommended Privacy Settings
+### Empfohlenen Privatsphären-Einstellungen
 
 From Mastodon's web interface, click the **Administration** link in the right sidebar. Within the administration control panel, you'll find these sections in the left sidebar:
 
-#### Public Profile
+#### Öffentliches Profil
 
 There are a number of privacy controls under the **privacy and reach** tab here. Most notably, pay attention to these:
 
@@ -87,7 +87,7 @@ The other privacy controls on this page should be read through, but we would str
 
 You will likely still wish to make these requests because they can practically reduce your digital footprint. However, they should not be _relied_ upon. The only effective way to hide your posts from search engines and others is to post with non-public (followers only) visibility settings _and_ limit who can follow your account.
 
-#### Preferences
+#### Einstellungen
 
 You should change your **posting privacy** setting from public to: **Followers-only - Only show to followers**.
 
@@ -143,7 +143,7 @@ If you used our recommended configuration settings above, you should be posting 
 
 To benefit the most from Matrix, it is critical to choose a homeserver which is well aligned with the subject(s) you want to chat about. We do not currently recommend any specific homeservers, but you may find advice within our communities or third-party resources like [_joinmatrix.org_](https://servers.joinmatrix.org). We recommend avoiding _matrix.org_ because they are operated by the same company which develops Matrix itself. From the perspective of decentralization, it is better in the long term to separate software developers and server hosts so that no one party can exert too much control over the network as a whole.
 
-### Recommended Privacy Settings
+### Empfohlenen Privatsphären-Einstellungen
 
 From Element's web or desktop app, go to :gear: → **All settings** to find these sections:
 
@@ -153,21 +153,21 @@ By default, when you log in to Element on a new device, the session name will be
 
 To prevent revealing information about your personal device to others unnecessarily, consider emptying the session name; this will change the session name to the randomly generated alphanumeric Session ID instead.
 
-#### Preferences
+#### Einstellungen
 
 - [ ] Uncheck **Send read receipts**
 - [ ] Uncheck **Send typing notifications**
 
 You should uncheck these options to reduce the exposure of metadata to other users when chatting in a public room.
 
-#### Voice & Video
+#### Sprache & Video
 
 - [ ] Uncheck **Allow Peer-to-Peer for 1:1 calls**
 - [ ] Uncheck **Allow fallback call assist server (turn.matrix.org)**
 
 If you do decide to use Element for one-to-one communication, we recommend unchecking these settings to prevent the exposure of your IP address to the other party.
 
-#### Security & Privacy
+#### Sicherheit & Privatsphäre
 
 ##### Manage integrations (scalar.vector.im)
 
@@ -175,19 +175,19 @@ A Matrix integration manager connects Matrix to third-party services such as bot
 
 As an end user on a public homeserver, you can consider unchecking the **Enable the integration manager** option, which does not affect the visibility of bots or other third-party services. As a homeserver administrator, consider whether the additional parties with which you share your data are worth the extra functionality.
 
-##### Sessions
+##### Sitzungen
 
 - [ ] (Optional) Uncheck **Record the client name, version, and url to recognize sessions for easily in session manager**
 
 Unchecking this option may make it more diffcult to discern your active sessions if you logged in to your Matrix account on multiple devices.
 
-#### Encryption
+#### Verschlüsselung
 
 - [x] (Optional) Check **In encrypted rooms, only send messages to verified users**
 
 With this setting enabled, unverified users (i.e., those who have not used the **Verify User** function) and unverified devices of verified users will not receive your messages in a room with encryption enabled. This may limit the messages you can view and the people you can interact with.
 
-## Criteria
+## Kriterien
 
 **Bitte beachte, dass wir mit keinem der Projekte, die wir empfehlen, in Verbindung stehen.** Zusätzlich zu [unseren Standardkriterien](about/criteria.md) haben wir eine Reihe klarer Anforderungen entwickelt, die es uns ermöglichen, objektive Empfehlungen zu geben. We suggest you familiarize yourself with this list before choosing to use a project, and conduct your own research to ensure it's the right choice for you.
 
