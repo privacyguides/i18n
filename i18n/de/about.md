@@ -203,15 +203,15 @@ Allerdings hat Privacy Guides Profilen auf eine Mehrzahl von Plattformen, in der
 
 </div>
 
-To reiterate, this is not an endorsement of any platform, and we generally discourage following us on most social media platforms.
+Um zu wiederholen, dies ist keine Wertschätzung von irgendeiner Plattform, wir entmutigen das Folgen von uns auf den meisten sozialen Plattformen.
 
 ## :material-newspaper: In den Medien
 
-> To find [privacy-focused alternative] apps, check out sites like Good Reports and **Privacy Guides**, which list privacy-focused apps in a variety of categories, notably including email providers (usually on paid plans) that aren’t run by the big tech companies.
+> Um Privatsphären-Fokussierte alternative Apps zu finden, überprüfte Seiten wie Good Reports und **Privacy Guides**, die Listen von Privatsphäre-fokussierten Apps in einer Vielzahl von Kategorien, inklusive E-Mail-Anbieter, die nicht von Big-Tech-Unternehmen betrieben werden, schreiben.
 
 — [New York Times](https://nytimes.com/wirecutter/guides/online-security-social-media-privacy)
 
-> If you're looking for a new VPN, you can go to the discount code of just about any podcast. If you are looking for a **good** VPN, you need professional help. The same goes for email clients, browsers, operating systems and password managers. How do you know which of these is the best, most privacy-friendly option? For that there is **Privacy Guides**, a platform on which a number of volunteers search day in, day out for the best privacy-friendly tools to use on the internet.
+> Wenn du ein neues VPN suchst, kannst du zum Rabattcode von fast jedem Podcast gehen. Wenn du ein **guten** VPN suchst, brauchst du professionelle Hilfe. Das Gleiche gilt für E-Mail-Clients, Browser, Betriebssysteme und Passwortmanager. Wie weiß man welche die beste, meist Privatsphären-freundliche Option ist? Deshalb gibt es **Privacy Guides**, eine Plattform wo Freiwillige für die besten Privatsphäre-freundlichen Tools im Internet suchen.
 
 — [Tweakers.net](https://tweakers.net/reviews/10568/op-zoek-naar-privacyvriendelijke-tools-niek-de-wilde-van-privacy-guides.html) [von Niederländisch übersetzt]
 
@@ -223,15 +223,15 @@ Privacy Guides wurde im September 2021 als Fortsetzung des [abgebrochenen](about
 
 In 2022 schlossen wir den Übergang unseres Hauptwebseiten Frameworks von Jekyll nach MkDocs, mit der `mkdocs-material` Dokumentationssoftware ab. Diese Änderung machte das Beitragen zu unserer Seite viel leichter für Außenstehende, da man nicht mehr eine komplizierte Syntax wissen musste, um Beiträge zu schreiben. Jetzt ist beitragen so leicht wie ein Markdown Dokument zu schreiben.
 
-We additionally launched our new discussion forum at [discuss.privacyguides.net](https://discuss.privacyguides.net) as a community platform to share ideas and ask questions about our mission. This augments our existing community on Matrix, and replaced our previous GitHub Discussions platform, decreasing our reliance on proprietary discussion platforms.
+Zusätzliche haben wir unser neues Diskussionsforum bei [discuss.privacyguides.net](https://discuss.privacyguides.net) gestartet, es dient, als Community-Plattform um Ideen zu teilen und Fragen über unserer Mission zu stellen. Das erweiterte unsere Community auf Matrix, ebenfalls ersetzten wir unsere vorherige Github Diskussions-Plattform, was unsere Abhängigkeit auf proprietären Diskussion-Plattformen reduziert hat.
 
-In 2023, we launched international translations of our website in [French](https://www.privacyguides.org/fr), [Hebrew](https://www.privacyguides.org/he), [Dutch](https://www.privacyguides.org/nl), and more languages, made possible by our excellent translation team on [Crowdin](https://crowdin.com/project/privacyguides).
+In 2023 führten wir Übersetzungen unserer Webseite in [Französisch](https://www.privacyguides.org/fr), [Hebräisch](https://www.privacyguides.org/he), [Niederländisch](https://www.privacyguides.org/nl) und mehr sprachen ein, nur möglich Dank unseres exzellenten Übersetzungsteams auf [Crowdin](https://crowdin.com/project/privacyguides).
 
-In 2024, we successfully fundraised to hire several full-time staff members, Em, Jordan, and Kevin; to help with content creation, community management, and video production. This has allowed us to expand our reach and provide more frequent updates to our audience.
+In 2024 sammelten wir genug Spenden ein, um mehrere vollzeitige Mitarbeiter wie Em, Jordan und Kevin einzustellen, die mit Inhaltserstellung, Community-Management und Video-Produktion helfen. Dies hat uns erlaubt unsere Reichweite zu erweitern, ebenfalls können wir öfters Updates unseren Lesern/Zuschauern geben.
 
-In 2025, we launched our [newsroom](https://www.privacyguides.org/news), providing timely articles on the latest developments in privacy and security. We also hired Nate as a Digital Content Producer to bring more consistency to our educational video content.
+In 2025 begannen wir mit unserer [Newsroom](https://www.privacyguides.org/news), wo wir zeitgerechte Artikel um neue Entwicklungen in Privatsphäre sowie Sicherheit bringen können. Ebenfalls stellten wir Nate ein, der als digitaler Content-Produzent mehr Konsistenz zu unseren Bildungsvideoinhalten bringt.
 
-We plan to continue carrying forward our mission of outreach and education, and finding ways to more clearly highlight the dangers of a lack of privacy awareness in the modern digital age, and the prevalence and harms of security breaches across the technology industry.
+Wir planen weiter unsere Mission der Bildung zu tragen, und mehr Wege zu finden, die Gefahr des Mangels an Privatsphärenbewusstsein im modernen Zeitalter sowie Prävalenz und Schäden von Sicherheitsverletzungen quer der Technologie Industrie hervorzuheben.
 
 ## :material-license: Seiten-Lizenz
 
