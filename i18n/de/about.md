@@ -42,19 +42,19 @@ Hast du Tipps für uns, oder musst du irgendwelche sensiblen Information teilen?
 
 [:simple-signal: Chat auf Signal](https://signal.me/#eu/zg9xcrIv5w-EtXt2FmTJgfWv01LmyTed8rpr7RDv35Mizq8ISZ9NJLmYtzsxI0Z4){ .md-button }
 
-Du kannst uns auch das ganze Team über <team@privacyguides.org> emailen. This is a shared inbox that could be read by any [team member](https://discuss.privacyguides.net/u?group=team&order=solutions&period=all), so please consider what sensitive information you share via email accordingly.
+Du kannst uns auch das ganze Team über <team@privacyguides.org> emailen. Dies ist ein geteilter Posteingang der von jedem [Teammitglied](https://discuss.privacyguides.net/u?group=team&order=solutions&period=all) gelesen werden kann, also bitte beachte, welche sensible Information du über E-Mail teilst.
 
-We will do our best to respond to all queries within 3 business days, but please understand we are unable to provide individualized advice to everyone who asks. If you have a question about privacy, you will receive a much more detailed and timely response from the Privacy Guides community by [asking on our forum](https://discuss.privacyguides.net/c/privacy/questions/8).
+Wir werden unser bestes Versuchen, alle Fragen innerhalb 3 Geschäftstagen zu beantworten, aber bitte verstehe, dass wir nicht jedem der fragt, individualisierte Vorschläge geben können. Wenn du Fragen über Privatsphäre hast, wirst du eine viel detaillierte sowie schneller Antwort von der Privacy Guides Community, indem du [im Forum nachfragst](https://discuss.privacyguides.net/c/privacy/questions/8), bekommen.
 
-You can also use OpenPGP to contact us via email, if you feel comfortable with your client's security settings. You can discover the PGP keys of our team members using WKD if your client supports it. If it doesn't, or you don't know what that means, you can also find the public key for any Privacy Guides email account by searching on [keys.openpgp.org](https://keys.openpgp.org). We do not have PGP for the shared team inbox, only individual mailboxes which can be found in our team directory below.
+Du kannst auch OpenPGP verwenden, um uns über E-Mail kontaktieren. Du kannst die PGP-Schlüssel unserer Teammitglieder mit WKD entdecken, falls dein Client dies unterstützt. Und wenn es dies nicht macht, oder du nicht weiß was das heißt, kannst du auch die öffentlichen Schlüssel jedes Privacy Guides E-Mail-Konto finden, indem du auf [keys.openpgp.org](https://keys.openpgp.org) suchst. Wir haben kein PGP für den geteilten Posteingang, nur für individuelle Posteingänge, die unten in unserem Teamverzeichnis gefunden werden kann.
 
-If you need an alternative secure channel, please request one via any contact method including social media, and we will work with you to establish one. Please do not share any sensitive information with us before we have established an appropriately secure discussion channel.
+Wenn du ein alternatives sicheres Kanal brauchst, bitte frage über jene Kontaktmethode inklusive Soziale Medien, und wir werden mit dir arbeiten, um eines zu erstellen. Bitte teile keine sensiblen Informationen mit uns bevor wir eine passenden sicheren Diskussionskanal aufgebaut haben.
 
-## :material-account-tie: Executive Committee
+## :material-account-tie: Vorstandskomitee
 
 <!-- markdownlint-disable MD030 -->
 
-The project executive committee consists of five volunteers charged with management of the [MAGIC Privacy Guides Fund](https://magicgrants.org/funds/privacy_guides), making most critical project-related decisions.
+Das Projekts-Vorstandskomitee besteht aus fünf Freiwilligen mit der Verantwortung des Verwaltens der [MAGIC Privacy Guides Unterstützung](https://magicgrants.org/funds/privacy_guides).
 
 <div class="grid cards" markdown>
 
@@ -62,9 +62,9 @@ The project executive committee consists of five volunteers charged with managem
 
   ---
 
-  :material-text-account: Founder
+  :material-text-account: Gründer
 
-  [:material-account: Profile](https://discuss.privacyguides.net/u/dngray)
+  [:material-account: Profil](https://discuss.privacyguides.net/u/dngray)
 
   [:material-github:](https://github.com/dngray "GitHub")
   [:material-mastodon:](https://mastodon.social/@dngray "@dngray@mastodon.social"){rel=me}
@@ -74,9 +74,9 @@ The project executive committee consists of five volunteers charged with managem
 
   ---
 
-  :material-text-account: Founder
+  :material-text-account: Gründer
 
-  [:material-account: Profile](https://discuss.privacyguides.net/u/freddy)
+  [:material-account: Profil](https://discuss.privacyguides.net/u/freddy)
 
   [:material-github:](https://github.com/freddy-m "GitHub")
   [:material-mastodon:](https://social.lol/@freddy "@freddy@social.lol"){rel=me}
@@ -86,22 +86,22 @@ The project executive committee consists of five volunteers charged with managem
 
   ---
 
-  :material-text-account: Founder, Program Director
+  :material-text-account: Gründer, Programmdirektor
 
-  [:material-account: Profile](https://discuss.privacyguides.net/u/jonah)
+  [:material-account: Profil](https://discuss.privacyguides.net/u/jonah)
 
   [:material-home:](https://www.jonaharagon.com "Homepage")
   [:material-github:](https://github.com/jonaharagon "GitHub")
   [:material-mastodon:](https://mastodon.neat.computer/@jonah "@jonah@neat.computer"){rel=me}
-  [:material-email:](mailto:jonah@privacyguides.org "Email")
+  [:material-email:](mailto:jonah@privacyguides.org "E-mail")
 
 - :cactus:{ .lg .middle } **Niek de Wilde**
 
   ---
 
-  :material-text-account: Founder
+  :material-text-account: Gründer
 
-  [:material-account: Profile](https://discuss.privacyguides.net/u/Niek-de-Wilde)
+  [:material-account: Profil](https://discuss.privacyguides.net/u/Niek-de-Wilde)
 
   [:material-github:](https://github.com/blacklight447 "GitHub")
   [:material-mastodon:](https://mastodon.social/@blacklight447 "@blacklight447@mastodon.social"){rel=me}
@@ -111,18 +111,18 @@ The project executive committee consists of five volunteers charged with managem
 
   ---
 
-  :material-text-account: Founder
+  :material-text-account: Gründer
 
-  [:material-account: Profile](https://discuss.privacyguides.net/u/olivia)
+  [:material-account: Profil](https://discuss.privacyguides.net/u/olivia)
 
   [:material-github:](https://github.com/hook9 "GitHub")
   [:material-mastodon:](https://mastodon.neat.computer/@oliviablob "@oliviablob@neat.computer"){rel=me}
 
 </div>
 
-## :material-account-edit: Staff
+## :material-account-edit: Mitarbeiter
 
-Our staff are paid to contribute to supplemental content at Privacy Guides, like [video production](https://www.youtube.com/@privacyguides), [news articles and tutorials](https://www.privacyguides.org/articles), and our discussion communities and social media. Most are available and paid on a full-time basis to assist the organization.
+Unsere Mitarbeiter werden bezahlt um bei zusätzlichem Inhalt bei Privacy Guides wie [Video Produktion](https://www.youtube.com/@privacyguides), [Artikel und Tutorials](https://www.privacyguides.org/articles), unsere Diskussions-Community und Soziale Medien beizutragen. Meist sind erreichbar und werden hauptamtlich bezahlt, um die Organisation zu unterstützen.
 
 <div class="grid cards" markdown>
 
@@ -130,9 +130,9 @@ Our staff are paid to contribute to supplemental content at Privacy Guides, like
 
   ---
 
-  :material-text-account: Staff Writer
+  :material-text-account: Redakteurin
 
-  [:material-account: Profile](https://discuss.privacyguides.net/u/em)
+  [:material-account: Profil](https://discuss.privacyguides.net/u/em)
 
   [:material-github:](https://github.com/EmAtPrivacyGuides "GitHub")
   [:material-mastodon:](https://infosec.exchange/@Em0nM4stodon "@Em0nM4stodon@infosec.exchange"){rel=me}
@@ -142,9 +142,9 @@ Our staff are paid to contribute to supplemental content at Privacy Guides, like
 
   ---
 
-  :material-text-account: Digital Content Producer
+  :material-text-account: Digitaler Content-Produzent
 
-  [:material-account: Profile](https://discuss.privacyguides.net/u/Jordan)
+  [:material-account: Profil](https://discuss.privacyguides.net/u/Jordan)
 
   [:material-github:](https://github.com/jordan-warne "GitHub")
   [:material-mastodon:](https://social.lol/@jw "@jw@social.lol"){rel=me}
@@ -154,9 +154,9 @@ Our staff are paid to contribute to supplemental content at Privacy Guides, like
 
   ---
 
-  :material-text-account: Community & News Intern
+  :material-text-account: Community & News Praktikant
 
-  [:material-account: Profile](https://discuss.privacyguides.net/u/kevpham)
+  [:material-account: Profil](https://discuss.privacyguides.net/u/kevpham)
 
   [:material-github:](https://github.com/kevpham123 "GitHub")
   [:material-mastodon:](https://mastodon.social/@kevpham "@kevpham@mastodon.social"){rel=me}
@@ -166,9 +166,9 @@ Our staff are paid to contribute to supplemental content at Privacy Guides, like
 
   ---
 
-  :material-text-account: Digital Content Producer
+  :material-text-account: Digitaler Content-Produzent
 
-  [:material-account: Profile](https://discuss.privacyguides.net/u/nateb)
+  [:material-account: Profil](https://discuss.privacyguides.net/u/nateb)
 
   [:material-github:](https://github.com/tnonate "GitHub")
   [:material-mastodon:](https://mastodon.thenewoil.org/@nateb "@nateb@mastodon.thenewoil.org"){rel=me}
@@ -176,11 +176,11 @@ Our staff are paid to contribute to supplemental content at Privacy Guides, like
 
 </div>
 
-## :material-check-decagram: Social Media
+## :material-check-decagram: Soziale Medien
 
-We have a general policy of avoiding links to centralized social media profiles and other websites outside our control. This means that in places like our website footer and other areas, we only link to platforms we fully control, such as our Mastodon and PeerTube accounts or Matrix channels.
+Wir haben eine Richtlinie wo wir Links zu zentralisierten soziale Medien Profilen sowie anderer Webseiten außerhalb unserer Kontrolle vermeiden. Das heißt das wir in Orten wie unser Webseite-Footer und anderen nur zu Plattformen linken die in unserer Kontrolle liegen, wie unser Mastodon und Peertube Konten, oder Matrix Kanälen.
 
-However, Privacy Guides _does_ have social media accounts on a wide variety of platforms, in the hope of reaching new users who aren't yet familiar with our content. We try to make this a "one-way street" where those accounts link to privacyguides.org, and not the other way around. However, this creates some confusion about which accounts are actually run by the Privacy Guides team. For reference, we will list all of our accounts here:
+Allerdings hat Privacy Guides Profilen auf eine Mehrzahl von Plattformen, in der Hoffnung neue Nutzer zu erreichen, die noch nicht so unser Inhalt bekannt sind. Wir versuchen dies eine "Einweg Straße" zu machen, wo diese Profile zu privacyguides.org verknüpfen, aber nicht umgekehrt. Allerdings macht dies Verwirrung welche Konten wirklich von dem Privacy Guides Team betrieben werden. Als Referenz listen wir hier alle unsere Konten:
 
 <div class="grid cards" markdown>
 
@@ -205,7 +205,7 @@ However, Privacy Guides _does_ have social media accounts on a wide variety of p
 
 To reiterate, this is not an endorsement of any platform, and we generally discourage following us on most social media platforms.
 
-## :material-newspaper: In The Media
+## :material-newspaper: In den Medien
 
 > To find [privacy-focused alternative] apps, check out sites like Good Reports and **Privacy Guides**, which list privacy-focused apps in a variety of categories, notably including email providers (usually on paid plans) that aren’t run by the big tech companies.
 
@@ -213,15 +213,15 @@ To reiterate, this is not an endorsement of any platform, and we generally disco
 
 > If you're looking for a new VPN, you can go to the discount code of just about any podcast. If you are looking for a **good** VPN, you need professional help. The same goes for email clients, browsers, operating systems and password managers. How do you know which of these is the best, most privacy-friendly option? For that there is **Privacy Guides**, a platform on which a number of volunteers search day in, day out for the best privacy-friendly tools to use on the internet.
 
-— [Tweakers.net](https://tweakers.net/reviews/10568/op-zoek-naar-privacyvriendelijke-tools-niek-de-wilde-van-privacy-guides.html) [Translated from Dutch]
+— [Tweakers.net](https://tweakers.net/reviews/10568/op-zoek-naar-privacyvriendelijke-tools-niek-de-wilde-van-privacy-guides.html) [von Niederländisch übersetzt]
 
-Also featured on: [Ars Technica](https://arstechnica.com/gadgets/2022/02/is-firefox-ok), [Wirecutter](https://nytimes.com/wirecutter/guides/practical-guide-to-securing-windows-pc) [[2](https://nytimes.com/wirecutter/guides/practical-guide-to-securing-your-mac)], [NPO Radio 1](https://nporadio1.nl/nieuws/binnenland/8eaff3a2-8b29-4f63-9b74-36d2b28b1fe1/ooit-online-eens-wat-doms-geplaatst-ga-jezelf-eens-googlen-en-kijk-dan-wat-je-tegenkomt), [Wired](https://wired.com/story/firefox-mozilla-2022), [Fast Company](https://fastcompany.com/91167564/mozilla-wants-you-to-love-firefox-again) and [404 Media](https://404media.co/privacy-service-optery-faces-backlash-after-plan-to-send-openai-user-data).
+Auch berichtet über auf: [Ars Technica](https://arstechnica.com/gadgets/2022/02/is-firefox-ok), [Wirecutter](https://nytimes.com/wirecutter/guides/practical-guide-to-securing-windows-pc) [[2](https://nytimes.com/wirecutter/guides/practical-guide-to-securing-your-mac)], [NPO Radio 1](https://nporadio1.nl/nieuws/binnenland/8eaff3a2-8b29-4f63-9b74-36d2b28b1fe1/ooit-online-eens-wat-doms-geplaatst-ga-jezelf-eens-googlen-en-kijk-dan-wat-je-tegenkomt), [Wired](https://wired.com/story/firefox-mozilla-2022), [Fast Company](https://fastcompany.com/91167564/mozilla-wants-you-to-love-firefox-again) and [404 Media](https://404media.co/privacy-service-optery-faces-backlash-after-plan-to-send-openai-user-data).
 
-## :material-history: History
+## :material-history: Geschichte
 
-Privacy Guides was launched in September 2021 as a continuation of the [defunct](about/privacytools.md) "PrivacyTools" open-source educational project. We recognized the importance of independent, criteria-focused product recommendations and general knowledge in the privacy space, which is why we needed to preserve the work that had been created by so many contributors since 2015 and make sure that information had a stable home on the web indefinitely.
+Privacy Guides wurde im September 2021 als Fortsetzung des [abgebrochenen](about/privacytools.md) "PrivacyTools" Quelloffenen Bildungsprojekts gestartet. Wir erkannten die Wichtigkeit von unabhängigen, Kriterien-fokussierten Produktempfehlungen und Allgemeinwissen innerhalb des Privatsphärenraums, deshalb mussten wir die Arbeit die seit 2015 von sehr vielen Freiwilligen erstellt wurde bewahren, und sicherstellen dass die Information ein stabiles Zuhause im Web hat.
 
-In 2022, we completed the transition of our main website framework from Jekyll to MkDocs, using the `mkdocs-material` documentation software. This change made open-source contributions to our site significantly easier for outsiders, because instead of needing to know complicated syntax to write posts effectively, contributing is now as easy as writing a standard Markdown document.
+In 2022 schlossen wir den Übergang unseres Hauptwebseiten Frameworks von Jekyll nach MkDocs, mit der `mkdocs-material` Dokumentationssoftware ab. Diese Änderung machte das Beitragen zu unserer Seite viel leichter für Außenstehende, da man nicht mehr eine komplizierte Syntax wissen musste, um Beiträge zu schreiben. Jetzt ist beitragen so leicht wie ein Markdown Dokument zu schreiben.
 
 We additionally launched our new discussion forum at [discuss.privacyguides.net](https://discuss.privacyguides.net) as a community platform to share ideas and ask questions about our mission. This augments our existing community on Matrix, and replaced our previous GitHub Discussions platform, decreasing our reliance on proprietary discussion platforms.
 
@@ -233,7 +233,7 @@ In 2025, we launched our [newsroom](https://www.privacyguides.org/news), providi
 
 We plan to continue carrying forward our mission of outreach and education, and finding ways to more clearly highlight the dangers of a lack of privacy awareness in the modern digital age, and the prevalence and harms of security breaches across the technology industry.
 
-## :material-license: Site License
+## :material-license: Seiten-Lizenz
 
 <div class="admonition danger" markdown>
 
