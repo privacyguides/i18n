@@ -1,6 +1,6 @@
 ---
 meta_title: "Recommended Search Engines: Anonymous Alternatives to Google - Privacy Guides"
-title: Search Engines
+title: Suchmaschinen
 icon: material/search-web
 description: Use privacy-respecting search engines which don't build an advertising profile based on your searches.
 cover: search-engines.webp

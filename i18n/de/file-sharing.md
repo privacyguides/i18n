@@ -1,5 +1,5 @@
 ---
-title: File Sharing and Sync
+title: File-Sharing und Synchronisation
 icon: material/share-variant
 description: Discover how to privately share your files between your devices, with your friends and family, or anonymously online.
 cover: file-sharing.webp

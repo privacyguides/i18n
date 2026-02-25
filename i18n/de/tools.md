@@ -113,24 +113,24 @@ For more details about each project, why they were chosen, and additional tips o
 <div class="grid" markdown>
 
 <div markdown>
-### Browser Extensions
+### Browsererweiterungen
 
 <div class="grid cards" markdown>
 
 - ![uBlock Origin logo](assets/img/browsers/ublock_origin.svg){ .twemoji loading=lazy } [uBlock Origin](browser-extensions.md#ublock-origin)
 - ![uBlock Origin Lite logo](assets/img/browsers/ublock_origin_lite.svg){ .twemoji loading=lazy } [uBlock Origin Lite](browser-extensions.md#ublock-origin-lite)
-- ![AdGuard logo](assets/img/browsers/adguard.svg){ .twemoji loading=lazy } [AdGuard for iOS](browser-extensions.md#adguard)
+- ![AdGuard logo](assets/img/browsers/adguard.svg){ .twemoji loading=lazy } [AdGuard für iOS](browser-extensions.md#adguard)
 
 </div>
 
 </div>
 
 <div markdown>
-### More Tor Network Tools
+### Mehr Tor-Netzwerk Tools
 
 <div class="grid cards" markdown>
 
-- ![Onion Browser logo](assets/img/self-contained-networks/onion_browser.svg){ .twemoji loading=lazy } [Onion Browser (Tor for iOS)](tor.md#onion-browser-ios)
+- ![Onion Browser logo](assets/img/self-contained-networks/onion_browser.svg){ .twemoji loading=lazy } [Onion Browser (Tor für iOS)](tor.md#onion-browser-ios)
 
 </div>
 
@@ -138,7 +138,7 @@ For more details about each project, why they were chosen, and additional tips o
 
 </div>
 
-## Top 3 Private VPN Providers
+## Top 3 Private VPN-Anbieter
 
 <details class="danger" markdown>
 <summary>VPNs bieten keine Anonymität</summary>
@@ -149,7 +149,7 @@ If you are looking for **anonymity**, you should use the Tor Browser.
 
 If you're looking for added **security**, you should always ensure you're connecting to websites using HTTPS. A VPN is not a replacement for good security practices.
 
-[Learn more :material-arrow-right-drop-circle:](vpn.md)
+[Lerne mehr :material-arrow-right-drop-circle:](vpn.md)
 
 </details>
 
@@ -217,7 +217,7 @@ If you're looking for added **security**, you should always ensure you're connec
 
     ---
 
-    Tuta (formerly *Tutanota*) is an email service with a focus on security and privacy through the use of encryption. Tuta ist seit 2011 in Betrieb und hat seinen Sitz in Hannover, Deutschland. Free accounts start with 1 GB of storage.
+    Tuta (formerly *Tutanota*) is an email service with a focus on security and privacy through the use of encryption. Tuta ist seit 2011 in Betrieb und hat seinen Sitz in Hannover, Deutschland. Kostenlose Konten starten mit 1 GB Speicher.
 
     [Read Full Review :material-arrow-right-drop-circle:](email.md#tuta)
 
@@ -226,7 +226,7 @@ If you're looking for added **security**, you should always ensure you're connec
 <div class="grid" markdown>
 
 <div markdown>
-### Email Aliasing Services
+### Email-Aliasing-Dienste
 
 <div class="grid cards" markdown>
 
@@ -239,7 +239,7 @@ If you're looking for added **security**, you should always ensure you're connec
 
 </div>
 
-### Secure Email Clients
+### Sichere Email-Clients
 
 <div class="grid cards" markdown>
 
@@ -253,11 +253,11 @@ If you're looking for added **security**, you should always ensure you're connec
 
 </div>
 
-[Learn more :material-arrow-right-drop-circle:](email-clients.md)
+[Lerne mehr :material-arrow-right-drop-circle:](email-clients.md)
 
 ## More Private Service Providers
 
-### Cloud Storage
+### Cloudspeicher
 
 <div class="grid cards" markdown>
 
@@ -267,7 +267,7 @@ If you're looking for added **security**, you should always ensure you're connec
 
 </div>
 
-[Learn more :material-arrow-right-drop-circle:](cloud.md)
+[Lerne mehr :material-arrow-right-drop-circle:](cloud.md)
 
 ### Data Removal Services
 
@@ -278,17 +278,17 @@ If you're looking for added **security**, you should always ensure you're connec
 
 </div>
 
-[Learn more :material-arrow-right-drop-circle:](data-broker-removals.md)
+[Lerne mehr :material-arrow-right-drop-circle:](data-broker-removals.md)
 
 ### DNS
 
-#### DNS Providers
+#### DNS-Anbieter
 
 We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers based on a variety of criteria, such as [Mullvad](https://mullvad.net/en/help/dns-over-https-and-dns-over-tls) and [Quad9](https://quad9.net) amongst others. We recommend for you to read our pages on DNS before choosing a provider. In many cases, using an alternative DNS provider is not recommended.
 
-[Learn more :material-arrow-right-drop-circle:](dns.md)
+[Lerne mehr :material-arrow-right-drop-circle:](dns.md)
 
-#### Encrypted DNS Proxies
+#### Verschlüsselte DNS-Proxies
 
 <div class="grid cards" markdown>
 
@@ -297,7 +297,7 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 </div>
 
-[Learn more :material-arrow-right-drop-circle:](dns.md#encrypted-dns-proxies)
+[Lerne mehr :material-arrow-right-drop-circle:](dns.md#encrypted-dns-proxies)
 
 ### Financial Services
 
@@ -310,7 +310,7 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 </div>
 
-[Learn more :material-arrow-right-drop-circle:](financial-services.md#payment-masking-services)
+[Lerne mehr :material-arrow-right-drop-circle:](financial-services.md#payment-masking-services)
 
 #### Online Gift Card Marketplaces
 
@@ -320,7 +320,7 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 </div>
 
-[Learn more :material-arrow-right-drop-circle:](financial-services.md#gift-card-marketplaces)
+[Lerne mehr :material-arrow-right-drop-circle:](financial-services.md#gift-card-marketplaces)
 
 ### Photo Management
 
@@ -330,9 +330,9 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 </div>
 
-[Learn more :material-arrow-right-drop-circle:](photo-management.md)
+[Lerne mehr :material-arrow-right-drop-circle:](photo-management.md)
 
-### Search Engines
+### Suchmaschinen
 
 <div class="grid cards" markdown>
 
@@ -343,11 +343,11 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 </div>
 
-[Learn more :material-arrow-right-drop-circle:](search-engines.md)
+[Lerne mehr :material-arrow-right-drop-circle:](search-engines.md)
 
 ## Software
 
-### AI Chat
+### KI Chat
 
 <div class="grid cards" markdown>
 
@@ -357,9 +357,9 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 </div>
 
-[Learn more :material-arrow-right-drop-circle:](ai-chat.md)
+[Lerne mehr :material-arrow-right-drop-circle:](ai-chat.md)
 
-### Calendar Sync
+### Kalendersynchronisierung
 
 <div class="grid cards" markdown>
 
@@ -368,9 +368,9 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 </div>
 
-[Learn more :material-arrow-right-drop-circle:](calendar.md)
+[Lerne mehr :material-arrow-right-drop-circle:](calendar.md)
 
-### Cryptocurrency
+### Kryptowährung
 
 <div class="grid cards" markdown>
 
@@ -378,9 +378,9 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 </div>
 
-[Learn more :material-arrow-right-drop-circle:](cryptocurrency.md)
+[Lerne mehr :material-arrow-right-drop-circle:](cryptocurrency.md)
 
-### Data and Metadata Redaction
+### Daten- und Metadatenschwärzung
 
 <div class="grid cards" markdown>
 
@@ -390,9 +390,9 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 </div>
 
-[Learn more :material-arrow-right-drop-circle:](data-redaction.md)
+[Lerne mehr :material-arrow-right-drop-circle:](data-redaction.md)
 
-### Document Collaboration
+### Dokumentenzusammenarbeit
 
 <div class="grid cards" markdown>
 
@@ -400,20 +400,20 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 </div>
 
-[Learn more :material-arrow-right-drop-circle:](document-collaboration.md)
+[Lerne mehr :material-arrow-right-drop-circle:](document-collaboration.md)
 
-### Encryption Software
+### Verschlüsselungssoftware
 
 <details class="info" markdown>
-<summary>Operating System Encryption</summary>
+<summary>Betriebssystemverschlüsselung</summary>
 
 For encrypting your OS drive, we typically recommend using the encryption tool your operating system provides, whether that is **BitLocker** on Windows, **FileVault** on macOS, or **LUKS** on Linux. These tools are included with the operating system and take advantage of hardware encryption elements such as a [secure cryptoprocessor](basics/hardware.md/#tpmsecure-cryptoprocessor).
 
-[Learn more :material-arrow-right-drop-circle:](encryption.md#operating-system-encryption)
+[Lerne mehr :material-arrow-right-drop-circle:](encryption.md#operating-system-encryption)
 
 </details>
 
-#### Cross-Platform Tools
+#### Platformunabhängige Tools
 
 <div class="grid cards" markdown>
 
@@ -424,7 +424,7 @@ For encrypting your OS drive, we typically recommend using the encryption tool y
 
 </div>
 
-[Learn more :material-arrow-right-drop-circle:](encryption.md)
+[Lerne mehr :material-arrow-right-drop-circle:](encryption.md)
 
 #### OpenPGP Clients
 
@@ -437,9 +437,9 @@ For encrypting your OS drive, we typically recommend using the encryption tool y
 
 </div>
 
-[Learn more :material-arrow-right-drop-circle:](encryption.md#openpgp)
+[Lerne mehr :material-arrow-right-drop-circle:](encryption.md#openpgp)
 
-### File Sharing and Sync
+### File-Sharing und Synchronisation
 
 <div class="grid cards" markdown>
 
@@ -449,7 +449,7 @@ For encrypting your OS drive, we typically recommend using the encryption tool y
 
 </div>
 
-[Learn more :material-arrow-right-drop-circle:](file-sharing.md)
+[Lerne mehr :material-arrow-right-drop-circle:](file-sharing.md)
 
 ### Frontends
 
@@ -465,9 +465,9 @@ For encrypting your OS drive, we typically recommend using the encryption tool y
 
 </div>
 
-[Learn more :material-arrow-right-drop-circle:](frontends.md)
+[Lerne mehr :material-arrow-right-drop-circle:](frontends.md)
 
-### Health and Wellness Apps
+### Gesundheits- und Wohlbefinden Apps
 
 <div class="grid cards" markdown>
 
@@ -480,9 +480,9 @@ For encrypting your OS drive, we typically recommend using the encryption tool y
 
 </div>
 
-[Learn more :material-arrow-right-drop-circle:](health-and-wellness.md)
+[Lerne mehr :material-arrow-right-drop-circle:](health-and-wellness.md)
 
-### Language Tools
+### Sprach-Tools
 
 <div class="grid cards" markdown>
 
@@ -491,9 +491,9 @@ For encrypting your OS drive, we typically recommend using the encryption tool y
 
 </div>
 
-[Learn more :material-arrow-right-drop-circle:](language-tools.md)
+[Lerne mehr :material-arrow-right-drop-circle:](language-tools.md)
 
-### Maps and Navigation Apps
+### Karten und Navigation Apps
 
 <div class="grid cards" markdown>
 
@@ -502,7 +502,7 @@ For encrypting your OS drive, we typically recommend using the encryption tool y
 
 </div>
 
-[Learn more :material-arrow-right-drop-circle:](maps.md)
+[Lerne mehr :material-arrow-right-drop-circle:](maps.md)
 
 ### Multi-Factor Authentication Tools
 
@@ -515,7 +515,7 @@ For encrypting your OS drive, we typically recommend using the encryption tool y
 
 </div>
 
-[Learn more :material-arrow-right-drop-circle:](multi-factor-authentication.md)
+[Lerne mehr :material-arrow-right-drop-circle:](multi-factor-authentication.md)
 
 ### News Aggregators
 
@@ -530,9 +530,9 @@ For encrypting your OS drive, we typically recommend using the encryption tool y
 
 </div>
 
-[Learn more :material-arrow-right-drop-circle:](news-aggregators.md)
+[Lerne mehr :material-arrow-right-drop-circle:](news-aggregators.md)
 
-### Notebooks
+### Notizen
 
 <div class="grid cards" markdown>
 
@@ -544,7 +544,7 @@ For encrypting your OS drive, we typically recommend using the encryption tool y
 
 </div>
 
-[Learn more :material-arrow-right-drop-circle:](notebooks.md)
+[Lerne mehr :material-arrow-right-drop-circle:](notebooks.md)
 
 ### Office Suites
 
@@ -555,9 +555,9 @@ For encrypting your OS drive, we typically recommend using the encryption tool y
 
 </div>
 
-[Learn more :material-arrow-right-drop-circle:](office-suites.md)
+[Lerne mehr :material-arrow-right-drop-circle:](office-suites.md)
 
-### Password Managers
+### Passwortmanager
 
 <div class="grid cards" markdown>
 
@@ -572,7 +572,7 @@ For encrypting your OS drive, we typically recommend using the encryption tool y
 
 </div>
 
-[Learn more :material-arrow-right-drop-circle:](passwords.md)
+[Lerne mehr :material-arrow-right-drop-circle:](passwords.md)
 
 ### Pastebins
 
@@ -583,9 +583,9 @@ For encrypting your OS drive, we typically recommend using the encryption tool y
 
 </div>
 
-[Learn more :material-arrow-right-drop-circle:](pastebins.md)
+[Lerne mehr :material-arrow-right-drop-circle:](pastebins.md)
 
-### Real-Time Communication
+### Echtzeit-Kommunikation
 
 <div class="grid cards" markdown>
 
@@ -595,9 +595,9 @@ For encrypting your OS drive, we typically recommend using the encryption tool y
 
 </div>
 
-[Learn more :material-arrow-right-drop-circle:](real-time-communication.md)
+[Lerne mehr :material-arrow-right-drop-circle:](real-time-communication.md)
 
-### Social Networks
+### Soziale Netzwerke
 
 <div class="grid cards" markdown>
 
@@ -606,7 +606,7 @@ For encrypting your OS drive, we typically recommend using the encryption tool y
 
 </div>
 
-[Learn more :material-arrow-right-drop-circle:](social-networks.md)
+[Lerne mehr :material-arrow-right-drop-circle:](social-networks.md)
 
 ## Hardware
 
@@ -620,7 +620,7 @@ For encrypting your OS drive, we typically recommend using the encryption tool y
 
 </div>
 
-[Learn more :material-arrow-right-drop-circle:](security-keys.md)
+[Lerne mehr :material-arrow-right-drop-circle:](security-keys.md)
 
 ### Mobile Phones
 
@@ -630,7 +630,7 @@ For encrypting your OS drive, we typically recommend using the encryption tool y
 
 </div>
 
-[Learn more :material-arrow-right-drop-circle:](mobile-phones.md)
+[Lerne mehr :material-arrow-right-drop-circle:](mobile-phones.md)
 
 ## Operating Systems
 
@@ -644,7 +644,7 @@ For encrypting your OS drive, we typically recommend using the encryption tool y
 
 </div>
 
-[Learn more :material-arrow-right-drop-circle:](android/distributions.md)
+[Lerne mehr :material-arrow-right-drop-circle:](android/distributions.md)
 
 #### Android Apps
 
@@ -656,7 +656,7 @@ For encrypting your OS drive, we typically recommend using the encryption tool y
 
 </div>
 
-[Learn more :material-arrow-right-drop-circle:](android/general-apps.md)
+[Lerne mehr :material-arrow-right-drop-circle:](android/general-apps.md)
 
 #### Ways to Obtain Android Apps
 
@@ -667,7 +667,7 @@ For encrypting your OS drive, we typically recommend using the encryption tool y
 
 </div>
 
-[Learn more :material-arrow-right-drop-circle:](android/obtaining-apps.md)
+[Lerne mehr :material-arrow-right-drop-circle:](android/obtaining-apps.md)
 
 ### Desktop/PC
 
@@ -686,7 +686,7 @@ For encrypting your OS drive, we typically recommend using the encryption tool y
 
 </div>
 
-[Learn more :material-arrow-right-drop-circle:](desktop.md)
+[Lerne mehr :material-arrow-right-drop-circle:](desktop.md)
 
 ### Router-Firmware
 
@@ -697,7 +697,7 @@ For encrypting your OS drive, we typically recommend using the encryption tool y
 
 </div>
 
-[Learn more :material-arrow-right-drop-circle:](router.md)
+[Lerne mehr :material-arrow-right-drop-circle:](router.md)
 
 ## Advanced Tools
 
@@ -714,9 +714,9 @@ These tools may provide utility for certain individuals. They provide functional
 
 </div>
 
-[Learn more :material-arrow-right-drop-circle:](alternative-networks.md)
+[Lerne mehr :material-arrow-right-drop-circle:](alternative-networks.md)
 
-### Device Integrity Verification
+### Gerät-Integritäts-Überprüfung
 
 <div class="grid cards" markdown>
 
@@ -726,4 +726,4 @@ These tools may provide utility for certain individuals. They provide functional
 
 </div>
 
-[Learn more :material-arrow-right-drop-circle:](device-integrity.md)
+[Lerne mehr :material-arrow-right-drop-circle:](device-integrity.md)

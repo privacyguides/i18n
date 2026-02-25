@@ -215,7 +215,7 @@ Diese Anbieter speichern deine E-Mails mit Zero-Knowledge-Verschlüsselung und s
 
 **Tuta** (ehemals *Tutanota*) ist ein E-Mail-Dienst mit einem Fokus auf Sicherheit und Privatsphäre durch Verschlüsselung. Tuta ist seit 2011 in Betrieb und hat seinen Sitz in Hannover, Deutschland.
 
-Free accounts start with 1 GB of storage.
+Kostenlose Konten starten mit 1 GB Speicher.
 
 [:octicons-home-16: Homepage](https://tuta.com){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://tuta.com/de/privacy-policy){ .card-link title="Datenschutzerklärung" }

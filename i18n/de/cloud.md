@@ -1,6 +1,6 @@
 ---
 meta_title: "The Best Private and Secure Cloud Storage Providers - Privacy Guides"
-title: Cloud Storage
+title: Cloudspeicher
 icon: material/file-cloud
 description: Many cloud storage providers require your trust that they will not look at your files. These are private alternatives!
 cover: cloud.webp
