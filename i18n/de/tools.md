@@ -73,21 +73,21 @@ For more details about each project, why they were chosen, and additional tips o
 
     **Mullvad Browser** ist eine Version vom [Tor Browser](tor.md#tor-browser) ohne Tor Integrationen, ausgerichtet um Tor Browsers Anti-Fingerprinting Technologien VPN Nutzern anzubieten.
 
-    - [Read Full Review :material-arrow-right-drop-circle:](desktop-browsers.md#mullvad-browser)
+    - [Lese die vollständige Review :material-arrow-right-drop-circle:](desktop-browsers.md#mullvad-browser)
 
 - ![Firefox logo](assets/img/browsers/firefox.svg){ .lg .middle .twemoji } **Firefox**
 
     ---
 
-    **Firefox** is a great Chromium alternative which provides strong privacy settings such as [Enhanced Tracking Protection](https://support.mozilla.org/kb/enhanced-tracking-protection-firefox-desktop), which can help block various [types of tracking](https://support.mozilla.org/kb/enhanced-tracking-protection-firefox-desktop#w_what-enhanced-tracking-protection-blocks).
+    **Firefox** ist eine gute Chromium Alternative die starke Privatsphären-Einstellungen bietet, wie [Erweiterter Schutz vor Aktivitätenverfolgung](https://support.mozilla.org/kb/enhanced-tracking-protection-firefox-desktop), was mehrere [Arten von Tracking](https://support.mozilla.org/kb/enhanced-tracking-protection-firefox-desktop#w_what-enhanced-tracking-protection-blocks) blockiert.
 
-    - [Read Full Review :material-arrow-right-drop-circle:](desktop-browsers.md#firefox)
+    - [Lese die vollständige Review :material-arrow-right-drop-circle:](desktop-browsers.md#firefox)
 
 - ![Brave logo](assets/img/browsers/brave.svg){ .lg .middle .twemoji } **Brave Browser**
 
     ---
 
-    **Brave** is a private-by-default browser based on Chromium, so it should feel familiar and have minimal website compatibility issues.
+    **Brave** ist ein "private-by-default" Browser dass auf Chromium basiert, also sollte es sich vertraut anfühlen und sollte minimale Kompatibilitätsprobleme mit Webseiten haben.
 
     - [Brave Desktop Review :material-arrow-right-drop-circle:](desktop-browsers.md#brave)
     - [Brave Mobile Review :material-arrow-right-drop-circle:](mobile-browsers.md#brave)
@@ -96,7 +96,7 @@ For more details about each project, why they were chosen, and additional tips o
 
     ---
 
-    **Cromite** is a Chromium-based Android browser with built-in ad-blocking and [privacy enhancements](https://github.com/uazo/cromite/blob/master/docs/FEATURES.md). It is a fork of the popular, now-discontinued Bromite browser.
+    **Cromite** ist ein Chromium-basierter Android browser mit eingebautes ad-blocking and [Privatsphären-Verbesserungen](https://github.com/uazo/cromite/blob/master/docs/FEATURES.md). Es ist ein Fork des bekannten und eingestellten Bromite Browser.
 
     - [Read Full Review :material-arrow-right-drop-circle:](mobile-browsers.md#cromite-android)
 
