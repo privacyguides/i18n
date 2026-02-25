@@ -1,5 +1,5 @@
 ---
-meta_title: "Ad-Free Privacy Tool/Service Recommendations - Privacy Guides"
+meta_title: "Werbungsfreie Empfehlungen für Privatsphären-Tools/Diensten - Privacy Guides"
 title: "Privatsphären-Tools"
 icon: material/tools
 hide:
@@ -40,28 +40,28 @@ For more details about each project, why they were chosen, and additional tips o
 <div class="grid" markdown>
 
 <div markdown>
-- [x] **Ad-Free Recommendations**
-- [x] **Frequent Updates**
-- [x] **Trusted by Readers**
+- [x] **Werbungsfreie Empfehlungen**
+- [x] **Häufige Updates**
+- [x] **Von Lesern vertraut**
 </div>
 
 <div markdown>
-- [x] **Complete Editorial Independence**
-- [x] **Open-Source Contributions**
-- [x] **Trusted by Journalists**
+- [x] **Komplette redaktionelle Unabhängigkeit**
+- [x] **Quelloffene Beiträge**
+- [x] **Von Journalisten vertraut**
 </div>
 
 </div>
 
-## Private Web Browsers
+## Private Web-Browser
 
 <div class="admonition recommendation" markdown>
 
 ![Tor Browser logo](assets/img/browsers/tor.svg){ align=left }
 
-**Tor Browser** (Desktop & Android) is the top choice if you need anonymity, as it provides you with access to the **Tor** network, a group of volunteer-operated servers that allows you to connect for free and improve your privacy and security on the Internet. Einzelpersonen und Organisationen können auch Informationen über das Tor-Netzwerk mit ".onion versteckten Diensten" austauschen, ohne ihre Privatsphäre zu gefährden. Da der Tor-Verkehr schwer zu blockieren und zurückzuverfolgen ist, ist Tor ein effektives Werkzeug zur Zensur Umgehung.
+**Tor Browser** (Desktop & Android) ist die beste Wahl, falls du anonymität brauchst, da es dir zum **Tor** Netzwerk zugriff gibt, das Tor Netzwerk ist eine Gruppe von Freiwilligen-betriebenen Servern die dir erlauben, dich kostenlos zu verbinden um deine Privatsphäre und Sicherheit im Internet zu verbessern. Einzelpersonen und Organisationen können auch Informationen über das Tor-Netzwerk mit ".onion versteckten Diensten" austauschen, ohne ihre Privatsphäre zu gefährden. Da der Tor-Verkehr schwer zu blockieren und zurückzuverfolgen ist, ist Tor ein effektives Werkzeug zur Zensur Umgehung.
 
-[Read Our Full Review :material-arrow-right-drop-circle:](tor.md){ .md-button .md-button--primary }
+[Lese unsere vollständige Review :material-arrow-right-drop-circle:](tor.md){ .md-button .md-button--primary }
 
 </div>
 
@@ -71,7 +71,7 @@ For more details about each project, why they were chosen, and additional tips o
 
     ---
 
-    **Mullvad Browser** is a version of [Tor Browser](tor.md#tor-browser) with Tor network integrations removed, aimed at providing Tor Browser's anti-fingerprinting browser technologies to VPN users.
+    **Mullvad Browser** ist eine Version vom [Tor Browser](tor.md#tor-browser) ohne Tor Integrationen, ausgerichtet um Tor Browsers Anti-Fingerprinting Technologien VPN Nutzern anzubieten.
 
     - [Read Full Review :material-arrow-right-drop-circle:](desktop-browsers.md#mullvad-browser)
 
