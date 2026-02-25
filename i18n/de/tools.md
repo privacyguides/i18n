@@ -104,7 +104,7 @@ Drücke auf den "Mehr lernen" link oder auf die Empfehlung selber für mehr Deta
 
     ---
 
-    wir empfehlen **Safari** wegen die [Anti-Fingerprinting](https://webkit.org/blog/15697/private-browsing-2-0)-Features sowie das standardmäßige Tracker-Blocking. It also separates your cookies in private browsing mode to prevent tracking between tabs.
+    wir empfehlen **Safari** wegen die [Anti-Fingerprinting](https://webkit.org/blog/15697/private-browsing-2-0)-Features sowie das standardmäßige Tracker-Blocking. Es trennt deine Cookies im Privaten-Browsing-Modus, um Tracking zwischen Tabs zu verhindern.
 
     - [Lese die vollständige Review :material-arrow-right-drop-circle:](mobile-browsers.md#safari-ios)
 
@@ -143,9 +143,9 @@ Drücke auf den "Mehr lernen" link oder auf die Empfehlung selber für mehr Deta
 <details class="danger" markdown>
 <summary>VPNs bieten keine Anonymität</summary>
 
-Using a VPN will **not** keep your browsing habits anonymous, nor will it add additional security to non-secure (HTTP) traffic.
+Das Nutzen eines VPNs wird **nicht** deine Browsing-Angewohnheiten anonymisieren, es wird auch nicht zusätzliche Sicherheit zu nicht-sicheren (HTTP) Verkehr hinzufügen.
 
-If you are looking for **anonymity**, you should use the Tor Browser.
+Wenn du **Anonymität** suchst, solltest du Tor Browser benutzen.
 
 Wenn du zusätzliche **Sicherheit** suchst, solltest du immer sicherstellen, dass du dich zu Webseiten über HTTPS verbindest. Ein VPN ist kein guter Ersatz für gute Sicherheitspraktiken.
 
@@ -159,37 +159,37 @@ Wenn du zusätzliche **Sicherheit** suchst, solltest du immer sicherstellen, das
 
     ---
 
-    - [x] **112+ Countries**
-    - [x] WireGuard Support
-    - [x] Cash Payments
-    - [x] Partial Port Forwarding Support
-    - [ ] No IPv6
+    - [x] **112+ Länder**
+    - [x] Unterstützt WireGuard
+    - [x] Bargeldzahlungen
+    - [x] Unterstützt Port-Weiterleitung
+    - [ ] Kein IPv6
 
-    [Read Full Review :material-arrow-right-drop-circle:](vpn.md#proton-vpn)
+    [Lese die vollständige Review :material-arrow-right-drop-circle:](vpn.md#proton-vpn)
 
 - ![IVPN logo](assets/img/vpn/mini/ivpn.svg){ .lg .middle .twemoji } **IVPN**
 
     ---
 
-    - [x] **37+ Countries**
-    - [x] WireGuard Support
-    - [x] Monero & Cash Payments
-    - [ ] No Port Forwarding
-    - [ ] No IPv6
+    - [x] **37+ Länder**
+    - [x] Unterstützt WireGuard
+    - [x] Monero- & Bargeldzahlungen
+    - [ ] Keine Port-Weiterleitung
+    - [ ] Kein IPv6
 
-    [Read Full Review :material-arrow-right-drop-circle:](vpn.md#ivpn)
+    [Lese die vollständige Review :material-arrow-right-drop-circle:](vpn.md#ivpn)
 
 - ![Mullvad logo](assets/img/vpn/mullvad.svg){ .lg .middle .twemoji } **Mullvad**
 
     ---
 
-    - [x] **49+ Countries**
-    - [x] WireGuard Support
-    - [x] Monero & Cash Payments
-    - [ ] No Port Forwarding
-    - [x] IPv6 Support
+    - [x] **49+ Länder**
+    - [x] Unterstützt WireGuard
+    - [x] Monero- & Bargeldzahlungen
+    - [ ] Keine Port-Weiterleitung
+    - [x] Unterstützt IPv6
 
-    [Read Full Review :material-arrow-right-drop-circle:](vpn.md#mullvad)
+    [Lese die vollständige Review :material-arrow-right-drop-circle:](vpn.md#mullvad)
 
 </div>
 
@@ -201,23 +201,23 @@ Wenn du zusätzliche **Sicherheit** suchst, solltest du immer sicherstellen, das
 
     ---
 
-    Proton Mail is an email service with a focus on privacy, encryption, security, and ease of use. Sie sind seit 2013 in Betrieb. Die Proton AG hat ihren Sitz in Genf, Schweiz. Der Proton Mail Free Tarif beinhaltet 500 MB Mailspeicher, den du kostenlos auf bis zu 1 GB erweitern kannst.
+    Proton Mail ist ein E-Mail-Dienst mit Fokus auf Privatsphäre, Verschlüsselung, Sicherheit, und Bedienkomfort. Sie sind seit 2013 in Betrieb. Die Proton AG hat ihren Sitz in Genf, Schweiz. Der Proton Mail Free Tarif beinhaltet 500 MB Mailspeicher, den du kostenlos auf bis zu 1 GB erweitern kannst.
 
-    [Read Full Review :material-arrow-right-drop-circle:](email.md#proton-mail)
+    [Lese die vollständige Review :material-arrow-right-drop-circle:](email.md#proton-mail)
 
 - ![Mailbox Mail logo](assets/img/email/mailbox-mail.svg){ .lg .middle .twemoji } **Mailbox Mail**
 
     ---
 
-    Mailbox Mail (formerly *Mailbox.org*) is an email service with a focus on being secure, ad-free, and powered by 100% eco-friendly energy. Es wird seit 2014 betrieben. Mailbox Mail hat ihren Sitz in Berlin, Deutschland. Konten beginnen mit 2 GB Speicherplatz, der nach Bedarf erweitert werden kann.
+    **Mailbox Mail** (ehemalig *Mailbox.org*) ist ein E-Mail-Anbieter mit Fokus auf Sicherheit sowie Werbungsfreiheit und wird von 100% umweltverträglicher Energie betrieben. Es wird seit 2014 betrieben. Mailbox Mail hat ihren Sitz in Berlin, Deutschland. Konten beginnen mit 2 GB Speicherplatz, der nach Bedarf erweitert werden kann.
 
-    [Read Full Review :material-arrow-right-drop-circle:](email.md#mailbox-mail)
+    [Lese die vollständige Review :material-arrow-right-drop-circle:](email.md#mailbox-mail)
 
 - ![Tuta logo](assets/img/email/tuta.svg#only-light){ .lg .middle .twemoji }![Tuta logo](assets/img/email/tuta-dark.svg#only-dark){ .lg .middle .twemoji } **Tuta**
 
     ---
 
-    Tuta (formerly *Tutanota*) is an email service with a focus on security and privacy through the use of encryption. Tuta ist seit 2011 in Betrieb und hat seinen Sitz in Hannover, Deutschland. Kostenlose Konten starten mit 1 GB Speicher.
+    Tuta (ehemalig *Tutanota*) ist ein E-Mail-Dienst mit Fokus auf Sicherheit and Privatsphäre über Verschlüsselung. Tuta ist seit 2011 in Betrieb und hat seinen Sitz in Hannover, Deutschland. Kostenlose Konten starten mit 1 GB Speicher.
 
     [Lese die vollständige Review :material-arrow-right-drop-circle:](email.md#tuta)
 
@@ -284,7 +284,7 @@ Wenn du zusätzliche **Sicherheit** suchst, solltest du immer sicherstellen, das
 
 #### DNS-Anbieter
 
-We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers based on a variety of criteria, such as [Mullvad](https://mullvad.net/en/help/dns-over-https-and-dns-over-tls) and [Quad9](https://quad9.net) amongst others. We recommend for you to read our pages on DNS before choosing a provider. In many cases, using an alternative DNS provider is not recommended.
+Wir [empfehlen](dns.md#recommended-providers) eine Mehrzahl von verschlüsselten DNS-Servern aufgrund verschiedenen Kriterien, wie z.B. [Mullvad](https://mullvad.net/en/help/dns-over-https-and-dns-over-tls) und [Quad9](https://quad9.net) sowie andere. Wir empfehlen dir unsere Seiten die DNS besprechen zu lesen bevor du einen Anbieter wählst. In vielen Fällen ist das Nutzen eines alternativen DNS-Anbieters nicht empfehlbar.
 
 [Lerne mehr :material-arrow-right-drop-circle:](dns.md)
 
@@ -407,7 +407,7 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 <details class="info" markdown>
 <summary>Betriebssystemverschlüsselung</summary>
 
-For encrypting your OS drive, we typically recommend using the encryption tool your operating system provides, whether that is **BitLocker** on Windows, **FileVault** on macOS, or **LUKS** on Linux. These tools are included with the operating system and take advantage of hardware encryption elements such as a [secure cryptoprocessor](basics/hardware.md/#tpmsecure-cryptoprocessor).
+Um deine OS Festplatte zu verschlüsseln, empfehlen wir typischerweise das Verschlüsselungs-Tool, dass dein Betriebssystem anbietet, wie **BitLocker** auf Windows, **FileVault** auf macOS, oder **LUKS** auf Linux. Diese Tools sind mit dem Betriebssystem enthalten und nutzen Hardware-Verschlüsselungs-Elemente wie den [Kryptoprozessor](basics/hardware.md/#tpmsecure-cryptoprocessor).
 
 [Lerne mehr :material-arrow-right-drop-circle:](encryption.md#operating-system-encryption)
 
@@ -506,7 +506,7 @@ For encrypting your OS drive, we typically recommend using the encryption tool y
 
 ### Multi-Faktor-Authentifizierungs Tools
 
-**Note:** [Hardware security keys](#security-keys) have been moved to their own category.
+**Hinweis:** [Hardware-Sicherheits-Schlüssel](#security-keys) wurden in ihre eigene Kategorie bewegt.
 
 <div class="grid cards" markdown>
 
@@ -701,7 +701,7 @@ For encrypting your OS drive, we typically recommend using the encryption tool y
 
 ## Fortgeschrittene Tools
 
-Diese Tools können einen Nutzwert für manche Personen haben. They provide functionality which most people do not need to worry about, and often require more in-depth technical knowledge to utilize effectively.
+Diese Tools können einen Nutzwert für manche Personen haben. Sie bieten Funktionen an, die die meisten Personen nicht brauchen und benötigen auch oft ausführliches Wissen um sie effektiv zu benutzen.
 
 ### Alternative Netzwerke
 

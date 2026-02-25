@@ -143,7 +143,7 @@ Proton Mails [Unlimited Plan](https://proton.me/support/proton-plans#proton-unli
 
 ![Mailbox Mail logo](assets/img/email/mailbox-mail.svg){ align=right }
 
-**Mailbox Mail** (ehemalig *Mailbox.org*) ist ein E-Mail-Anbieter mit Fokus auf Sicherheit sowie Werbungsfreiheit und wird betrieben von 100% umweltverträglicher Energie. Er wird seit 2014 betrieben. Mailbox Mail hat ihren Sitz in Berlin, Deutschland.
+**Mailbox Mail** (ehemalig *Mailbox.org*) ist ein E-Mail-Anbieter mit Fokus auf Sicherheit sowie Werbungsfreiheit und wird von 100% umweltverträglicher Energie betrieben. Er wird seit 2014 betrieben. Mailbox Mail hat ihren Sitz in Berlin, Deutschland.
 
 Konten starten mit bis zu 2 GB Speicher, welches bei Nachfrage erweitert werden kann.
 
