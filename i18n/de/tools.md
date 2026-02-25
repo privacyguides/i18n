@@ -35,7 +35,7 @@ Wenn du eine bestimmte Lösung für etwas suchst, gibt es diese Empfehlungen von
 
 Wenn du Hilfe mit dem Herausfinden von den besten Privatsphären-Tools oder alternativen Programmen brauchst, kannst du eine Diskussion in unserem [Forum](https://discuss.privacyguides.net) oder in unserem [Matrix](https://matrix.to/#/#privacyguides:matrix.org) Kanal erstellen!
 
-For more details about each project, why they were chosen, and additional tips or tricks we recommend, click the "Learn more" link in each section, or click on the recommendation itself to be taken to that specific section of the page.
+Drücke auf den "Mehr lernen" link oder auf die Empfehlung selber für mehr Details über das Projekt, warum wir es ausgewählt haben und zusätzliche Tipps und Tricks die wir Empfehlen.
 
 <div class="grid" markdown>
 
@@ -98,13 +98,13 @@ For more details about each project, why they were chosen, and additional tips o
 
     **Cromite** ist ein Chromium-basierter Android browser mit eingebautes ad-blocking and [Privatsphären-Verbesserungen](https://github.com/uazo/cromite/blob/master/docs/FEATURES.md). Es ist ein Fork des bekannten und eingestellten Bromite Browser.
 
-    - [Read Full Review :material-arrow-right-drop-circle:](mobile-browsers.md#cromite-android)
+    - [Lese die vollständige Review :material-arrow-right-drop-circle:](mobile-browsers.md#cromite-android)
 
 - ![Safari logo](assets/img/browsers/safari.svg){ .lg .middle .twemoji } **Safari (iOS)**
 
     ---
 
-    We recommend **Safari** due to its [anti-fingerprinting](https://webkit.org/blog/15697/private-browsing-2-0) features and default tracker blocking. It also separates your cookies in private browsing mode to prevent tracking between tabs.
+    wir empfehlen **Safari** wegen die [Anti-Fingerprinting](https://webkit.org/blog/15697/private-browsing-2-0)-Features sowie das standardmäßige Tracker-Blocking. It also separates your cookies in private browsing mode to prevent tracking between tabs.
 
     - [Lese die vollständige Review :material-arrow-right-drop-circle:](mobile-browsers.md#safari-ios)
 
@@ -209,7 +209,7 @@ Wenn du zusätzliche **Sicherheit** suchst, solltest du immer sicherstellen, das
 
     ---
 
-    Mailbox Mail (formerly *Mailbox.org*) is an email service with a focus on being secure, ad-free, and powered by 100% eco-friendly energy. Er wird seit 2014 betrieben. Mailbox Mail hat ihren Sitz in Berlin, Deutschland. Konten beginnen mit 2 GB Speicherplatz, der nach Bedarf erweitert werden kann.
+    Mailbox Mail (formerly *Mailbox.org*) is an email service with a focus on being secure, ad-free, and powered by 100% eco-friendly energy. Es wird seit 2014 betrieben. Mailbox Mail hat ihren Sitz in Berlin, Deutschland. Konten beginnen mit 2 GB Speicherplatz, der nach Bedarf erweitert werden kann.
 
     [Read Full Review :material-arrow-right-drop-circle:](email.md#mailbox-mail)
 
@@ -636,7 +636,7 @@ For encrypting your OS drive, we typically recommend using the encryption tool y
 
 ### Handy
 
-#### Spezifische Android Betriebssysteme
+#### Android Betriebssysteme
 
 <div class="grid cards" markdown>
 
