@@ -12,7 +12,7 @@ cover: cloud.webp
 
 Self-hosting your own **file management** tools may be a good idea to reduce the risk of encryption flaws in a cloud provider's native clients.
 
-## Photo Management
+## Fotomanagement
 
 ### PhotoPrism
 

@@ -106,7 +106,7 @@ For more details about each project, why they were chosen, and additional tips o
 
     We recommend **Safari** due to its [anti-fingerprinting](https://webkit.org/blog/15697/private-browsing-2-0) features and default tracker blocking. It also separates your cookies in private browsing mode to prevent tracking between tabs.
 
-    - [Read Full Review :material-arrow-right-drop-circle:](mobile-browsers.md#safari-ios)
+    - [Lese die vollständige Review :material-arrow-right-drop-circle:](mobile-browsers.md#safari-ios)
 
 </div>
 
@@ -147,7 +147,7 @@ Using a VPN will **not** keep your browsing habits anonymous, nor will it add ad
 
 If you are looking for **anonymity**, you should use the Tor Browser.
 
-If you're looking for added **security**, you should always ensure you're connecting to websites using HTTPS. A VPN is not a replacement for good security practices.
+Wenn du zusätzliche **Sicherheit** suchst, solltest du immer sicherstellen, dass du dich zu Webseiten über HTTPS verbindest. Ein VPN ist kein guter Ersatz für gute Sicherheitspraktiken.
 
 [Lerne mehr :material-arrow-right-drop-circle:](vpn.md)
 
@@ -219,7 +219,7 @@ If you're looking for added **security**, you should always ensure you're connec
 
     Tuta (formerly *Tutanota*) is an email service with a focus on security and privacy through the use of encryption. Tuta ist seit 2011 in Betrieb und hat seinen Sitz in Hannover, Deutschland. Kostenlose Konten starten mit 1 GB Speicher.
 
-    [Read Full Review :material-arrow-right-drop-circle:](email.md#tuta)
+    [Lese die vollständige Review :material-arrow-right-drop-circle:](email.md#tuta)
 
 </div>
 
@@ -255,7 +255,7 @@ If you're looking for added **security**, you should always ensure you're connec
 
 [Lerne mehr :material-arrow-right-drop-circle:](email-clients.md)
 
-## More Private Service Providers
+## Mehr private Dienstanbieter
 
 ### Cloudspeicher
 
@@ -269,7 +269,7 @@ If you're looking for added **security**, you should always ensure you're connec
 
 [Lerne mehr :material-arrow-right-drop-circle:](cloud.md)
 
-### Data Removal Services
+### Datenentfernungsdienste
 
 <div class="grid cards" markdown>
 
@@ -299,9 +299,9 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 [Lerne mehr :material-arrow-right-drop-circle:](dns.md#encrypted-dns-proxies)
 
-### Financial Services
+### Finanziele Dienste
 
-#### Payment Masking Services
+#### Zahlungabdeckungsdienste
 
 <div class="grid cards" markdown>
 
@@ -312,7 +312,7 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 [Lerne mehr :material-arrow-right-drop-circle:](financial-services.md#payment-masking-services)
 
-#### Online Gift Card Marketplaces
+#### Online Geschenkkartenmärkte
 
 <div class="grid cards" markdown>
 
@@ -322,7 +322,7 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 [Lerne mehr :material-arrow-right-drop-circle:](financial-services.md#gift-card-marketplaces)
 
-### Photo Management
+### Fotomanagement
 
 <div class="grid cards" markdown>
 
@@ -504,7 +504,7 @@ For encrypting your OS drive, we typically recommend using the encryption tool y
 
 [Lerne mehr :material-arrow-right-drop-circle:](maps.md)
 
-### Multi-Factor Authentication Tools
+### Multi-Faktor-Authentifizierungs Tools
 
 **Note:** [Hardware security keys](#security-keys) have been moved to their own category.
 
@@ -517,7 +517,7 @@ For encrypting your OS drive, we typically recommend using the encryption tool y
 
 [Lerne mehr :material-arrow-right-drop-circle:](multi-factor-authentication.md)
 
-### News Aggregators
+### News-Aggregatoren
 
 <div class="grid cards" markdown>
 
@@ -546,7 +546,7 @@ For encrypting your OS drive, we typically recommend using the encryption tool y
 
 [Lerne mehr :material-arrow-right-drop-circle:](notebooks.md)
 
-### Office Suites
+### Office-Suites
 
 <div class="grid cards" markdown>
 
@@ -610,7 +610,7 @@ For encrypting your OS drive, we typically recommend using the encryption tool y
 
 ## Hardware
 
-### Security Keys
+### Sicherheitsschlüssel
 
 <div class="grid cards" markdown>
 
@@ -622,7 +622,7 @@ For encrypting your OS drive, we typically recommend using the encryption tool y
 
 [Lerne mehr :material-arrow-right-drop-circle:](security-keys.md)
 
-### Mobile Phones
+### Handys
 
 <div class="grid cards" markdown>
 
@@ -632,11 +632,11 @@ For encrypting your OS drive, we typically recommend using the encryption tool y
 
 [Lerne mehr :material-arrow-right-drop-circle:](mobile-phones.md)
 
-## Operating Systems
+## Betriebssysteme
 
-### Mobile
+### Handy
 
-#### Custom Android Operating Systems
+#### Spezifische Android Betriebssysteme
 
 <div class="grid cards" markdown>
 
@@ -658,7 +658,7 @@ For encrypting your OS drive, we typically recommend using the encryption tool y
 
 [Lerne mehr :material-arrow-right-drop-circle:](android/general-apps.md)
 
-#### Ways to Obtain Android Apps
+#### Wege Android Apps zu erhalten
 
 <div class="grid cards" markdown>
 
@@ -699,11 +699,11 @@ For encrypting your OS drive, we typically recommend using the encryption tool y
 
 [Lerne mehr :material-arrow-right-drop-circle:](router.md)
 
-## Advanced Tools
+## Fortgeschrittene Tools
 
-These tools may provide utility for certain individuals. They provide functionality which most people do not need to worry about, and often require more in-depth technical knowledge to utilize effectively.
+Diese Tools können einen Nutzwert für manche Personen haben. They provide functionality which most people do not need to worry about, and often require more in-depth technical knowledge to utilize effectively.
 
-### Alternative Networks
+### Alternative Netzwerke
 
 <div class="grid cards" markdown>
 

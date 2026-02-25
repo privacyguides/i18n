@@ -1,5 +1,5 @@
 ---
-title: Financial Services
+title: Finanziele Dienste
 icon: material/bank
 cover: financial-services.webp
 description: These services can assist you in protecting your privacy from merchants and other trackers, which is one of the biggest challenges to privacy today.
@@ -13,7 +13,7 @@ Making payments online is one of the biggest challenges to privacy. These servic
 
 [Making Private Payments :material-arrow-right-drop-circle:](advanced/payments.md ""){.md-button}
 
-## Payment Masking Services
+## Zahlungabdeckungsdienste
 
 <small>Schützt vor der/den folgenden Bedrohung(en):</small>
 
