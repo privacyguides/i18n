@@ -16,15 +16,15 @@ Ein wachsendes Problem bei Sozialen-Medien-Plattformen ist Zensur in zwei versch
 
 Die Soziale-Netzwerke, die wir empfehlen, lösen das Problem der Zensur, indem sie mit einem offenen und dezentralisierten Sozialen-Netzwerk-Protokoll arbeiten. Das heißt, dass man auch kein Konto braucht, um öffentlich verfügbaren Inhalt anzuschauen.
 
-You should note that **no** social networks are appropriate for private or sensitive communications. For chatting directly with others, you should use a recommended [instant messenger](real-time-communication.md) with strong end-to-end encryption, and only use direct messages on social media in order to establish a more private and secure chat platform with your contacts.
+Du solltest dir merken, dass **kein** soziales Netzwerk für passend für private und sensible Kommunikation ist. Um mit anderen direkt zu chatten, solltest du einen empfohlenen [Instant-Messenger](real-time-communication.md) mit starkem Ende-zu-Ende-Verschlüsselung benutzen, benutze private Nachrichten auf sozialen Plattformen um Konversationen auf eine sichere und private Chat-Plattform zu bewegen.
 
 ## Dezentralisation
 
-Decentralized social networks are built on an architecture that is fundamentally different than mainstream social media platforms, yet quite similar to the underlying structure of email. Instead of opening an account under a single, unified service like you would for Facebook or Discord, you instead choose an independent, public server to join. The server you join can communicate with and discover other servers; this aspect of decentralization is also known as _federation_.
+Dezentralisierte soziale Netzwerke werden auf einer Architektur aufgebaut, die grundsätzlich anders ist, als auf etablierten soziale Medien, aber sehr ähnlich von der eigentlichen Struktur wie E-Mail. Statt das man ein Profil unter einem einzelnen, vereintem Dienst macht, wie auf Facebook oder Discord, sucht man unabhängige und öffentliche Server die man beitretet. Die Server, die du beitretest können mit anderen Servern kommunizieren und sie finden, dieser Aspekt der Dezentralisation heißt _Federation_.
 
-A significant benefit of this decentralized model is that there is no central authority which can censor your account across the entire network, though it is possible for your account to be banned or silenced by an individual server.
+Ein Vorteil dieses dezentralisierten Models ist, dass es keine zentrale Autorität gibt, die dein Konto übers ganze Netzwerk zensieren können, es ist aber möglich, dass dein Konto von einzelnen Servern gebannt oder unterdrückt werden kann.
 
-A caveat of this decentralized model is that each server is its own legal entity, with its own privacy policy, terms of use, administration team, and moderators. While many of these servers are far _less_ restrictive and more privacy-respecting than traditional social media platforms, some can be far _more_ restrictive or potentially _worse_ for your privacy. Typically, the software on which the social network runs does not discriminate between these administrators or place any limitations on their powers.
+Ein Problem mit diesem dezentralisierten Model ist, dass jeder Server einen eigenen Rechtsträger mit ihrer eigenen Datenschutzbestimmungen, Nutzungsbedingungen, Administrations-Team sowie Moderatoren hat. Während viele dieser Server viel _weniger_ beschränkend und mehr Privatsphären-respektierend als traditionelle soziale Plattformen sind, können manche _viel_ beschränkender und möglicherweise _schlimmer_ für deine Privatsphäre sein. Typically, the software on which the social network runs does not discriminate between these administrators or place any limitations on their powers.
 
 ## Zensurresistenz
 
