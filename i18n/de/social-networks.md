@@ -10,11 +10,11 @@ cover: social-networks.webp
 - [:material-close-outline: Zensur](basics/common-threats.md#avoiding-censorship){ .pg-blue-gray }
 - [:material-account-cash: Überwachungskapitalismus](basics/common-threats.md#surveillance-as-a-business-model){ .pg-brown }
 
-These privacy-respecting **social networks** allow you to participate in online communities without giving up your personal information like your full name, phone number, and other data commonly requested by tech companies.
+Diese Privatsphären-respektierenden **soziale Netzwerke** erlauben dir bei Online-Communities mitzumachen, ohne dass du deine persönliche Information wie deinen vollen Namen, Telefonnummer und andere Daten, die häufig von Tech-Unternehmen angefragt werden, gibst.
 
-Ein wachsendes Problem bei Sozialen-Medien-Plattformen ist Zensur in zwei verschiedenen Formen. First, they often acquiesce to illegitimate censorship requests, either from malicious governments or their own internal policies. Second, they often require accounts to access walled-off content that would otherwise be published freely on the open internet; this effectively censors the browsing activities of privacy-conscious users who are unable to pay the privacy cost of opening an account on these networks.
+Ein wachsendes Problem bei Sozialen-Medien-Plattformen ist Zensur in zwei verschiedenen Formen. Erstens, willingen sie oft zu unberechtigte Zensuranfragen, entweder von böswilligen Regierungen oder wegen deren eigenen internen Richtlinien ein. Zweitens brauchen sie oft Konten um abgesperrte Inhalte, die sonst frei im Internet veröffentlicht wären, zu sehen. Dies führt dazu, dass die Browsing-Aktivitäten der Privatsphärenbewusste Nutzer zensiert wird, da sie es sich nicht leisten können bei diesen Netzwerken ein Konto zu erstellen.
 
-The social networks we recommend solve the issue of censorship by operating atop an open and decentralized social networking protocol. They also don't require an account merely to view publicly available content.
+Die Soziale-Netzwerke, die wir empfehlen, lösen das Problem der Zensur, indem sie mit einem offenen und dezentralisierten Sozialen-Netzwerk-Protokoll arbeiten. Das heißt, dass man auch kein Konto braucht, um öffentlich verfügbaren Inhalt anzuschauen.
 
 You should note that **no** social networks are appropriate for private or sensitive communications. For chatting directly with others, you should use a recommended [instant messenger](real-time-communication.md) with strong end-to-end encryption, and only use direct messages on social media in order to establish a more private and secure chat platform with your contacts.
 
