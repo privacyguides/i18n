@@ -24,13 +24,13 @@ Dezentralisierte soziale Netzwerke werden auf einer Architektur aufgebaut, die g
 
 Ein Vorteil dieses dezentralisierten Models ist, dass es keine zentrale Autorität gibt, die dein Konto übers ganze Netzwerk zensieren können, es ist aber möglich, dass dein Konto von einzelnen Servern gebannt oder unterdrückt werden kann.
 
-Ein Problem mit diesem dezentralisierten Model ist, dass jeder Server einen eigenen Rechtsträger mit ihrer eigenen Datenschutzbestimmungen, Nutzungsbedingungen, Administrations-Team sowie Moderatoren hat. Während viele dieser Server viel _weniger_ beschränkend und mehr Privatsphären-respektierend als traditionelle soziale Plattformen sind, können manche _viel_ beschränkender und möglicherweise _schlimmer_ für deine Privatsphäre sein. Typically, the software on which the social network runs does not discriminate between these administrators or place any limitations on their powers.
+Ein Problem mit diesem dezentralisierten Model ist, dass jeder Server einen eigenen Rechtsträger mit ihrer eigenen Datenschutzbestimmungen, Nutzungsbedingungen, Administrations-Team sowie Moderatoren hat. Während viele dieser Server viel _weniger_ beschränkend und mehr Privatsphären-respektierend als traditionelle soziale Plattformen sind, können manche _viel_ beschränkender und möglicherweise _schlimmer_ für deine Privatsphäre sein. Typischerweise gibt die Software, auf die diese sozialen Netzwerke laufen, keine Beschränkungen was Administratoren damit machen können.
 
 ## Zensurresistenz
 
-While censorship in decentralized social networks does not exist on a network level, it is very possible to experience censorship on a server level depending on a server's administrator. Administrators have the power to _defederate_ from other servers, which leads to limiting the content you can view and the people you can interact with.
+While censorship in decentralized social networks does not exist on a network level, it is very possible to experience censorship on a server level depending on a server's administrator. Administratoren können von anderen Servern _defederaten_, was bedeutet, dass du weniger Inhalte siehst und dass du mit weniger Leuten interagieren kannst.
 
-If you are greatly concerned about an existing server censoring your content, the content available to you, or other servers, you generally have two options:
+Falls du dir Sorgen machst, dass ein existierender Server deinen sowie den Inhalt von anderen sowie den Inhalt auch von anderen Servern zensiert, hast du zwei Optionen:
 
 1. **Host the social network software yourself.** This approach gives you the exact same censorship resistance as any other website you can host yourself, which is fairly high.
 
