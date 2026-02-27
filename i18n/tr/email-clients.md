@@ -17,7 +17,7 @@ cover: email-clients.webp
 
 OpenPGP gibi bir uçtan uca şifreleme (E2EE) teknolojisi kullanıldığında, e-postaların başlık kısmında şifrelenmemiş [bazı metaveriler](basics/email-security.md#email-metadata-overview) bulunmaya devam edecektir.
 
-OpenPGP de [ileriye dönük gizlilik](https://tr.wikipedia.org/wiki/İleri_gizlilik) sağlamaz. Sizin veya alıcının özel anahtarı herhangi bir zamanda ele geçirilirse, önceden o anahtarla şifrelenmiş tüm mesajlar açığa çıkacaktır: [Özel anahtarlarımı nasıl koruyabilirim?](basics/email-security.md) İleriye dönük gizlilik sağlayan bir iletişim ortamı kullanmayı düşünün:
+OpenPGP de [ileriye dönük gizliliği](https://tr.wikipedia.org/wiki/İleri_gizlilik) desteklemez. Sizin veya alıcının özel anahtarı herhangi bir zamanda ele geçirilirse, önceden o anahtarla şifrelenmiş tüm mesajlar açığa çıkacaktır: [Özel anahtarlarımı nasıl koruyabilirim?](basics/email-security.md) İleriye dönük gizlilik sağlayan bir iletişim ortamı kullanmayı düşünün:
 
 [Gerçek Zamanlı İletişim](real-time-communication.md ""){.md-button}
 
@@ -67,10 +67,10 @@ Thunderbird masaüstü uygulamasını biraz daha gizlilik dostu hâle getirmek i
 
 Bu seçenekler :material-menu: → **Ayarlar** → Gizlilik ve Güvenlik sekmesinden bulunabilir.
 
-##### Web Content
+##### Web İçeriği
 
-- [ ] Uncheck  **Remember websites and links I've visited**
-- [ ] Uncheck  **Accept cookies from sites** (1)
+- [ ] **Ziyaret ettiğim bağlantıları ve web sitelerini hatırla** seçeneğini kapatın.
+- [ ] **Web sitelerinden çerezlere izin ver** seçeneğini kapatın (1)
 
 </div>
 
