@@ -53,19 +53,19 @@ Falls du dir Sorgen machst, dass ein existierender Server deinen sowie den Inhal
 
 </div>
 
-There are many software platforms which use ActivityPub as their backend social networking protocol, meaning they can talk to servers even when they are running different software. For example, PeerTube is a video publishing software that uses ActivityPub, meaning you can follow channels on PeerTube either with another PeerTube account, _or_ with a Mastodon account because Mastodon also uses ActivityPub.
+Es gibt viele Softwareplattformen die ActivityPub als Backend Netzwerkprotokoll benutzen. Das heißt, dass sie mit Servern kommunizieren können, auch wenn die andere Software laufen. Zum Beispiel gibt es PeerTube, ein Videoportal dass ActivityPub benutzt, dies bedeutet, dass du Kanäle auf PeerTube mit einem PeerTube Konto folgen kannst, _oder_ sogar mit einem Mastodon Konto, da Mastodon ebenfalls ActivityPub benutzt.
 
-We chose to recommend Mastodon over other ActivityPub software as your primary social media platform for these reasons:
+Aus folgenden Gründen empfehlen wir Mastodon über anderen ActivityPub Software als deiner haupt Sozialplattform:
 
-1. Mastodon has a solid history of security updates. In the handful of circumstances where major security vulnerabilities have been found, they coordinate patch releases quickly and cleanly. Historically they have also backported these security patches to older feature branches. This makes it easier for less experienced server hosts who may not feel comfortable upgrading to the latest releases right away to keep their instances secure. Mastodon also has an update notification system built in to the web interface, making it much more likely for server administrators to be aware of critical security patches available for their instance.
+1. Mastodon hat eine solide Geschichte, wenn es zu Sicherheitsupdates kommt. In einer Handvoll von Umständen, wo große Sicherheitslücken gefunden wurden, haben sie Patches schnell und säuberlich veröffentlicht. Sie haben sogar diese Sicherheitspatches zu älteren Versionen gebackportet. This makes it easier for less experienced server hosts who may not feel comfortable upgrading to the latest releases right away to keep their instances secure. Mastodon also has an update notification system built in to the web interface, making it much more likely for server administrators to be aware of critical security patches available for their instance.
 
 2. Mastodon is largely usable with most content types. While it is primarily a microblogging platform, Mastodon easily handles longer posts, image posts, video posts, and most other posts you might encounter when following ActivityPub users who aren't on Mastodon. This makes your Mastodon account an ideal "central hub" for following anyone regardless of the platform they chose to use. In contrast, if you were only using a PeerTube account, you would _only_ be able to follow other video channels, for example.
 
 3. Mastodon has fairly comprehensive privacy controls. It has many built-in features which allow you to limit how and when your data is shared, some of which we'll cover below. They also develop new features with privacy in mind. For example, while other ActivityPub software quickly implemented "quote posts" by merely handling links to other posts with a slightly different embed modal, Mastodon is [developing](https://blog.joinmastodon.org/2025/02/bringing-quote-posts-to-mastodon) a quote post feature which will give you more fine-grained control when your post is quoted.
 
-### Choosing an Instance
+### Eine Instanz wählen
 
-To benefit the most from Mastodon, it is critical to choose a server, or "instance," which is well aligned with the type of content you want to post or read about. We do not currently recommend any specific instances, but you may find advice within our communities. We recommend avoiding _mastodon.social_ and _mastodon.online_ because they are operated by the same company which develops Mastodon itself. From the perspective of decentralization, it is better in the long term to separate software developers and server hosts so that no one party can exert too much control over the network as a whole.
+Um von Mastodon am meisten Vorteile zu bekommen, ist es kritisch einen Server oder eine "Instanz" zu wählen, die die Art von Inhalt beinhaltet, den man posten und lesen will. Derzeit empfehlen wir keine spezifische Instanz, aber innerhalb unserer Community findest du wahrscheinlich paar Vorschläge. Wir empfehlen es _mastodon.social_ und _mastodon.online_ zu vermeiden, da sie vom gleichen Unternehmen betrieben wird, die Mastodon selber entwickelt. Von einer Perspektive der Dezentralisation, ist es langfristig besser die Softwareentwickler und die Serverhosts zu trennen, sodass keine Partei zu viel Kontrolle über das ganze Netzwerk hat.
 
 ### Empfohlenen Privatsphären-Einstellungen
 
@@ -141,7 +141,7 @@ If you used our recommended configuration settings above, you should be posting 
 
 ### Choosing a Homeserver
 
-To benefit the most from Matrix, it is critical to choose a homeserver which is well aligned with the subject(s) you want to chat about. We do not currently recommend any specific homeservers, but you may find advice within our communities or third-party resources like [_joinmatrix.org_](https://servers.joinmatrix.org). We recommend avoiding _matrix.org_ because they are operated by the same company which develops Matrix itself. From the perspective of decentralization, it is better in the long term to separate software developers and server hosts so that no one party can exert too much control over the network as a whole.
+To benefit the most from Matrix, it is critical to choose a homeserver which is well aligned with the subject(s) you want to chat about. We do not currently recommend any specific homeservers, but you may find advice within our communities or third-party resources like [_joinmatrix.org_](https://servers.joinmatrix.org). We recommend avoiding _matrix.org_ because they are operated by the same company which develops Matrix itself. Von einer Perspektive der Dezentralisation, ist es langfristig besser die Softwareentwickler und die Serverhosts zu trennen, sodass keine Partei zu viel Kontrolle über das ganze Netzwerk hat.
 
 ### Empfohlenen Privatsphären-Einstellungen
 
