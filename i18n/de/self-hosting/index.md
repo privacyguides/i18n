@@ -76,7 +76,7 @@ Self-hosting your own instance of a social network software can help circumvent 
 
 ![Mastodon logo](../assets/img/social-networks/mastodon.svg){ align=right }
 
-**Mastodon** is a social network based on open web protocols and free, open-source software. It uses the decentralized **:simple-activitypub: ActivityPub** protocol.
+**Mastodon** ist ein soziales Netzwerk basiert auf offene Web Protokolle und freie, quelloffene Software. It uses the decentralized **:simple-activitypub: ActivityPub** protocol.
 
 [:octicons-home-16:](https://joinmastodon.org){ .card-link title="Homepage" }
 [:octicons-info-16:](https://docs.joinmastodon.org/admin/prerequisites){ .card-link title="Admin Documentation" }

@@ -32,7 +32,7 @@ While censorship in decentralized social networks does not exist on a network le
 
 Falls du dir Sorgen machst, dass ein existierender Server deinen sowie den Inhalt von anderen sowie den Inhalt auch von anderen Servern zensiert, hast du zwei Optionen:
 
-1. **Host the social network software yourself.** This approach gives you the exact same censorship resistance as any other website you can host yourself, which is fairly high.
+1. **Hoste die Soziale-Netzwerk-Software selber.** Dies gibt dir den gleichen Widerstand zur Zensur, wie wenn du jede andere Webseiten hosten würdest.
 
 2. **Use a managed hosting service.** We don't have any specific recommendations, but there are a variety of hosting services which will create a brand-new server on your own domain (or occasionally a subdomain of their domain, but we recommend against this unless registering your own domain presents too much of a burden to your privacy).
 
@@ -46,7 +46,7 @@ Falls du dir Sorgen machst, dass ein existierender Server deinen sowie den Inhal
 
 ![Mastodon logo](assets/img/social-networks/mastodon.svg){ align=right }
 
-**Mastodon** is a social network based on open web protocols and free, open-source software. It uses the **:simple-activitypub: ActivityPub** protocol, which is decentralized like email: Users can exist on different servers or even different platforms but still communicate with each other.
+**Mastodon** ist ein soziales Netzwerk basiert auf offene Web Protokolle und freie, quelloffene Software. Es benutzt das **:simple-activitypub: ActivityPub** Protokoll, das wie E-Mail dezentralisiert ist: Nutzer können auf verschiedenen Servern oder auch verschiedene Plattformen existieren, aber sie können immernoch miteinander kommunizieren.
 
 [:octicons-home-16: Homepage](https://joinmastodon.org){ .md-button .md-button--primary }
 [:octicons-info-16:](https://docs.joinmastodon.org){ .card-link title="Dokumentation" }
