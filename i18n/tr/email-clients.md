@@ -1,29 +1,29 @@
 ---
-title: "Email Clients"
+title: "E-posta İstemcileri"
 icon: material/email-open
-description: These email clients are privacy-respecting and support OpenPGP email encryption.
+description: Bu e-posta istemcileri gizliliğinize saygı duyar ve OpenPGP e-posta şifrelemesini destekler.
 cover: email-clients.webp
 ---
 
 <small>Aşağıdaki tehdit(ler)e karşı koruma sağlar:</small>
 
-- [:material-server-network: Service Providers](basics/common-threats.md#privacy-from-service-providers ""){.pg-teal}
+- [:material-server-network: Hizmet Sunucular](basics/common-threats.md#privacy-from-service-providers ""){.pg-teal}
 - [:material-target-account: Hedefli Saldırılar](basics/common-threats.md#attacks-against-specific-individuals ""){.pg-red}
 
-The **email clients** we recommend support both [OpenPGP](encryption.md#openpgp) and strong authentication such as [Open Authorization (OAuth)](basics/account-creation.md#sign-in-with-oauth). OAuth allows you to use [Multi-Factor Authentication](basics/multi-factor-authentication.md) to prevent account theft.
+Önerdiğimiz **e-posta istemcileri** hem [OpenPGP'yi](encryption.md#openpgp) hem de [Açık Kimlik Doğrulamayı (OAuth)](basics/account-creation.md#sign-in-with-oauth) destekler. OAuth, hesap çalınmalarına karşı [Çok Aşamalı Kimlik Doğrulaması](basics/multi-factor-authentication.md) kullanmanıza olanak tanır.
 
 <details class="warning" markdown>
-<summary>Email does not provide forward secrecy</summary>
+<summary>E-posta ileriye dönük gizlilik sağlamaz</summary>
 
-When using end-to-end encryption (E2EE) technology like OpenPGP, email will still have [some metadata](basics/email-security.md#email-metadata-overview) that is not encrypted in the header of the email.
+OpenPGP gibi bir uçtan uca şifreleme (E2EE) teknolojisi kullanıldığında, e-postaların başlık kısmında şifrelenmemiş [bazı metaveriler](basics/email-security.md#email-metadata-overview) bulunmaya devam edecektir.
 
-OpenPGP also does not support [forward secrecy](https://en.wikipedia.org/wiki/Forward_secrecy), which means if either your or the recipient's private key is ever stolen, all previous messages encrypted with it will be exposed: [How do I protect my private keys?](basics/email-security.md) Consider using a medium that provides forward secrecy:
+OpenPGP de [ileriye dönük gizlilik](https://tr.wikipedia.org/wiki/İleri_gizlilik) sağlamaz. Sizin veya alıcının özel anahtarı herhangi bir zamanda ele geçirilirse, önceden o anahtarla şifrelenmiş tüm mesajlar açığa çıkacaktır: [Özel anahtarlarımı nasıl koruyabilirim?](basics/email-security.md) İleriye dönük gizlilik sağlayan bir iletişim ortamı kullanmayı düşünün:
 
-[Real-time Communication](real-time-communication.md ""){.md-button}
+[Gerçek Zamanlı İletişim](real-time-communication.md ""){.md-button}
 
 </details>
 
-## Cross-Platform
+## Çok Platformlu
 
 ### Thunderbird
 
@@ -31,15 +31,15 @@ OpenPGP also does not support [forward secrecy](https://en.wikipedia.org/wiki/Fo
 
 ![Thunderbird logo](assets/img/email-clients/thunderbird.svg){ align=right }
 
-**Thunderbird** is a free, open-source, cross-platform email, newsgroup, news feed, and chat (XMPP, IRC, Matrix) client developed by the Thunderbird community, and previously by the Mozilla Foundation.
+**Thunderbird**, günümüzde Thunderbird topluluğu tarafından, daha önce de Mozilla Vakfı tarafından geliştirilen, özgür, açık kaynaklı, çok platformlu bir e-posta, haber grubu, RSS akışı ve sohbet (XMPP, IRC, Matrix) istemcisidir.
 
-[:octicons-home-16: Homepage](https://thunderbird.net){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://mozilla.org/privacy/thunderbird){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://support.mozilla.org/products/thunderbird){ .card-link title="Documentation" }
-[:octicons-code-16:](https://hg.mozilla.org/comm-central){ .card-link title="Source Code" }
+[:octicons-home-16: Ana Sayfa](https://thunderbird.net){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://mozilla.org/privacy/thunderbird){ .card-link title="Gizlilik Politikası" }
+[:octicons-info-16:](https://support.mozilla.org/products/thunderbird){ .card-link title="Dokümantasyon" }
+[:octicons-code-16:](https://hg.mozilla.org/comm-central){ .card-link title="Kaynak Kodu" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>İndirmeler</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=net.thunderbird.android)
 - [:simple-github: GitHub](https://github.com/thunderbird/thunderbird-android/releases)
@@ -53,9 +53,9 @@ OpenPGP also does not support [forward secrecy](https://en.wikipedia.org/wiki/Fo
 </div>
 
 <div class="admonition warning" markdown>
-<p class="admonition-title">Warning</p>
+<p class="admonition-title">Uyarı</p>
 
-When replying to someone on a mailing list in Thunderbird Mobile, the "reply" option may also include the mailing list. For more information see [thunderbird/thunderbird-android #3738](https://github.com/thunderbird/thunderbird-android/issues/3738).
+Thunderbird mobil uygulamasında bir e-posta listesindeki birisine yanıt verirken, "Yanıtla" seçeneği e-posta listesini de içerebilir. Daha fazla bilgi için [thunderbird/thunderbird-android #3738](https://github.com/thunderbird/thunderbird-android/issues/3738).
 
 </div>
 
@@ -63,9 +63,9 @@ When replying to someone on a mailing list in Thunderbird Mobile, the "reply" op
 
 <div class="annotate" markdown>
 
-We recommend changing some of these settings to make Thunderbird Desktop a little more private.
+Thunderbird masaüstü uygulamasını biraz daha gizlilik dostu hâle getirmek için bazı ayarları değiştirmenizi öneririz.
 
-These options can be found in :material-menu: → **Settings** → **Privacy & Security**.
+Bu seçenekler :material-menu: → **Ayarlar** → Gizlilik ve Güvenlik sekmesinden bulunabilir.
 
 ##### Web Content
 
