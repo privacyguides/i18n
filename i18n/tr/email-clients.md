@@ -186,17 +186,17 @@ Apple Mail, [macOS](https://support.apple.com/guide/mail/mlhl03be2866/mac) ve [i
 
 <div class="admonition recommendation" markdown>
 
-![Mailvelope logo](assets/img/email-clients/mailvelope.svg){ align=right }
+![Mailvelope logosu](assets/img/email-clients/mailvelope.svg){ align=right }
 
-**Mailvelope** is a browser extension that enables the exchange of encrypted emails following the OpenPGP encryption standard.
+**Mailvelope**, OpenPGP şifreleme standartını kullanarak şifrelenmiş e-posta alışverişini sağlayan bir tarayıcı eklentisidir.
 
-[:octicons-home-16: Homepage](https://mailvelope.com){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://mailvelope.com/privacy-policy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://mailvelope.com/faq){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/mailvelope/mailvelope){ .card-link title="Source Code" }
+[:octicons-home-16: Ana Sayfa](https://mailvelope.com){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://mailvelope.com/privacy-policy){ .card-link title="Gizlilik Politikası" }
+[:octicons-info-16:](https://mailvelope.com/faq){ .card-link title="Dokümantasyon" }
+[:octicons-code-16:](https://github.com/mailvelope/mailvelope){ .card-link title="Kaynak Kodu" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>İndirmeler</summary>
 
 - [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/firefox/addon/mailvelope)
 - [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/mailvelope/kajibbejlbohfaggdiogboambcijhkke)
@@ -206,23 +206,23 @@ Apple Mail, [macOS](https://support.apple.com/guide/mail/mlhl03be2866/mac) ve [i
 
 </div>
 
-### NeoMutt (CLI)
+### NeoMutt (Komut Satırı Arayüzü)
 
 <div class="admonition recommendation" markdown>
 
-![NeoMutt logo](assets/img/email-clients/mutt.svg){ align=right }
+![NeoMutt logosu](assets/img/email-clients/mutt.svg){ align=right }
 
-**NeoMutt** is an open-source command line email reader for Linux and BSD. It's a fork of [Mutt](https://en.wikipedia.org/wiki/Mutt_(email_client)) with added features.
+**NeoMutt**, Linux ve BSD için açık kaynaklı bir komut satırı e-posta okuyucusudur. [Mutt](https://en.wikipedia.org/wiki/Mutt_(email_client))'ın fork'lanarak daha fazla özellik eklenmiş bir sürümüdür.
 
-NeoMutt is a text-based client that has a steep learning curve. It is, however, very customizable.
+NeoMutt metin tabanlı bir istemcidir ve oldukça zorlu bir öğrenme eğrisine sahiptir. Fakat oldukça kişiselleştirilebilir.
 
-[:octicons-home-16: Homepage](https://neomutt.org){ .md-button .md-button--primary }
-[:octicons-info-16:](https://neomutt.org/guide){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/neomutt/neomutt){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://paypal.com/paypalme/russon){ .card-link title=Contribute }
+[:octicons-home-16: Ana Sayfa](https://neomutt.org){ .md-button .md-button--primary }
+[:octicons-info-16:](https://neomutt.org/guide){ .card-link title=Dokümantasyon}
+[:octicons-code-16:](https://github.com/neomutt/neomutt){ .card-link title="Kaynak Kodu" }
+[:octicons-heart-16:](https://paypal.com/paypalme/russon){ .card-link title=Destekle }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>İndirmeler</summary>
 
 - [:simple-apple: macOS](https://neomutt.org/distro)
 - [:simple-linux: Linux](https://neomutt.org/distro)
@@ -237,16 +237,16 @@ NeoMutt is a text-based client that has a steep learning curve. It is, however, 
 
 ### Asgari Nitelikler
 
-- Apps developed for open-source operating systems must be open source.
-- Must not collect telemetry, or have an easy way to disable all telemetry.
-- Must support OpenPGP message encryption.
+- Açık kaynaklı işletim sistemleri için geliştirilen uygulamalar açık kaynaklı olmalıdır.
+- Telemetri toplamamalı, veya tüm telemetriyi kapatmanın kolay bir yoluna sahip olmalıdır.
+- OpenPGP mesajlaşma şifrelemesini desteklemelidir.
 
 ### En İyi Durum
 
 En iyi durum kriterlerimiz, bu kategorideki mükemmel bir projede görmek istediklerimizi temsil etmektedir. Önerilerimiz bu işlevlerden herhangi birini veya tamamını içermeyebilir, ancak içerenler bu sayfada diğerlerinden daha üst sıralarda yer alabilir.
 
-- Should be open source.
-- Should be cross-platform.
-- Should not collect any telemetry by default.
-- Should support OpenPGP natively, i.e. without extensions.
-- Should support storing OpenPGP encrypted emails locally.
+- Açık kaynaklı olmalıdır.
+- Çok platformlu olmalıdır.
+- Saptanmış olarak herhangi bir telemetri toplamamalıdır.
+- OpenPGP'yi dahili olarak (ör. eklenti kurulmadan) desteklemelidir.
+- OpenPGP ile şifrelenmiş e-postaları yerel olarak depolama desteği sunmalıdır.
