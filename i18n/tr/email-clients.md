@@ -82,51 +82,51 @@ Bu seçenekler :material-menu: → **Ayarlar** → Gizlilik ve Güvenlik sekmesi
 
 #### Thunderbird-user.js (ileri düzey)
 
-[`thunderbird-user.js`](https://github.com/HorlogeSkynet/thunderbird-user.js) Thunderbird masaüstü uygulamasının tarayıcı özelliklerini olabildiğince devre dışı bırakarak saldırı yüzeyini azaltmak ve gizliliği korumayı amaçlayan bir dizi yapılandırma seçeneğidir. Some of the changes are backported from the [Arkenfox project](desktop-browsers.md#arkenfox-advanced).
+[`thunderbird-user.js`](https://github.com/HorlogeSkynet/thunderbird-user.js), Thunderbird masaüstü uygulamasının tarayıcı özelliklerini olabildiğince devre dışı bırakarak saldırı yüzeyini azaltmayı ve gizliliği korumayı amaçlayan bir dizi yapılandırma seçeneğidir. Bazı değişiklikler [Arkenfox projesinden](desktop-browsers.md#arkenfox-advanced) aktarılmıştır.
 
-## Platform Specific
+## Platforma Özgü
 
 ### Apple Mail (macOS)
 
 <div class="admonition recommendation" markdown>
 
-![Apple Mail logo](assets/img/email-clients/applemail.png){ align=right }
+![Apple Mail logosu](assets/img/email-clients/applemail.png){ align=right }
 
-**Apple Mail** is included in macOS and can be extended to have OpenPGP support with [GPG Suite](encryption.md#gpg-suite), which adds the ability to send PGP-encrypted email.
+**Apple Mail**, macOS ile birlikte gelir ve PGP ile şifrelenmiş e-postalar gönderme özelliği ekleyen [GPG Suite](encryption.md#gpg-suite) ile OpenPGP desteği olacak şekilde genişletilebilir.
 
-[:octicons-home-16: Homepage](https://support.apple.com/guide/mail/welcome/mac){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://apple.com/legal/privacy/en-ww){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://support.apple.com/mail){ .card-link title=Documentation}
+[:octicons-home-16: Ana Sayfa](https://support.apple.com/guide/mail/welcome/mac){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://apple.com/legal/privacy/en-ww){ .card-link title="Gizlilik Politikası" }
+[:octicons-info-16:](https://support.apple.com/mail){ .card-link title=Dokümantasyon}
 
 </details>
 
 </div>
 
 <div class="admonition info" markdown>
-<p class="admonition-title">For those using macOS Sonoma</p>
+<p class="admonition-title">macOS Sonoma kullananlar için</p>
 
-Currently, GPG Suite does [not yet](https://gpgtools.com/sonoma) have a stable release for macOS Sonoma.
+Şu an için, GPG Suite'in macOS Sonoma için [henüz](https://gpgtools.com/sonoma) kararlı bir sürümü bulunmuyor.
 
 </div>
 
-Apple Mail has the ability to load remote content in the background or block it entirely and hide your IP address from senders on [macOS](https://support.apple.com/guide/mail/mlhl03be2866/mac) and [iOS](https://support.apple.com/guide/iphone/iphf084865c7/ios).
+Apple Mail, [macOS](https://support.apple.com/guide/mail/mlhl03be2866/mac) ve [iOS](https://support.apple.com/guide/iphone/iphf084865c7/ios) üzerinde, uzak içeriği arka planda yükleme veya göndericilerden IP adresinizi gizlemek için tamamen engelleme özelliğine sahiptir.
 
 ### FairEmail (Android)
 
 <div class="admonition recommendation" markdown>
 
-![FairEmail logo](assets/img/email-clients/fairemail.svg){ align=right }
+![FairEmail logosu](assets/img/email-clients/fairemail.svg){ align=right }
 
-**FairEmail** is a minimal, open-source email app which uses open standards (IMAP, SMTP, OpenPGP) and minimizes data and battery usage.
+**FairEmail**, açık standartları (IMAP, SMTP, OpenPGP) kullanan ve veri ile pil kullanımını en aza indirgeyen, minimal, açık kaynaklı bir e-posta uygulamasıdır.
 
-[:octicons-home-16: Homepage](https://email.faircode.eu){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://github.com/M66B/FairEmail/blob/master/PRIVACY.md){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://github.com/M66B/FairEmail/blob/master/FAQ.md){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/M66B/FairEmail){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://email.faircode.eu/donate){ .card-link title="Contribute" }
+[:octicons-home-16: Ana Sayfa](https://email.faircode.eu){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://github.com/M66B/FairEmail/blob/master/PRIVACY.md){ .card-link title="Gizlilik Politikası" }
+[:octicons-info-16:](https://github.com/M66B/FairEmail/blob/master/FAQ.md){ .card-link title="Dokümantasyon" }
+[:octicons-code-16:](https://github.com/M66B/FairEmail){ .card-link title="Kaynak Kodu" }
+[:octicons-heart-16:](https://email.faircode.eu/donate){ .card-link title="Destekle" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>İndirmeler</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=eu.faircode.email)
 - [:simple-github: GitHub](https://github.com/M66B/FairEmail/releases)
@@ -139,18 +139,18 @@ Apple Mail has the ability to load remote content in the background or block it 
 
 <div class="admonition recommendation" markdown>
 
-![Evolution logo](assets/img/email-clients/evolution.svg){ align=right }
+![Evolution logosu](assets/img/email-clients/evolution.svg){ align=right }
 
-**Evolution** is a personal information management application that provides integrated mail, calendaring, and address book functionality. Evolution has extensive [documentation](https://gnome.pages.gitlab.gnome.org/evolution/help) to help you get started.
+**Evolution**, entegre e-posta, takvim ve adres defteri özelliği sunan bir kişisel bilgi yönetimi uygulamasıdır. Evolution'un, kullanmaya başlamanıza yardımcı olacak kapsamlı bir [dokümantasyona](https://gnome.pages.gitlab.gnome.org/evolution/help) sahiptir.
 
-[:octicons-home-16: Homepage](https://gitlab.gnome.org/GNOME/evolution/-/wikis/home){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://gitlab.gnome.org/GNOME/evolution/-/wikis/Privacy-Policy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://gnome.pages.gitlab.gnome.org/evolution/help){ .card-link title="Documentation" }
-[:octicons-code-16:](https://gitlab.gnome.org/GNOME/evolution){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://gnome.org/donate){ .card-link title="Contribute" }
+[:octicons-home-16: Ana Sayfa](https://gitlab.gnome.org/GNOME/evolution/-/wikis/home){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://gitlab.gnome.org/GNOME/evolution/-/wikis/Privacy-Policy){ .card-link title="Gizlilik Politikası" }
+[:octicons-info-16:](https://gnome.pages.gitlab.gnome.org/evolution/help){ .card-link title="Dokümantasyon" }
+[:octicons-code-16:](https://gitlab.gnome.org/GNOME/evolution){ .card-link title="Kaynak Kodu" }
+[:octicons-heart-16:](https://gnome.org/donate){ .card-link title="Destekle" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>İndirmeler</summary>
 
 - [:simple-flathub: Flathub](https://flathub.org/apps/details/org.gnome.Evolution)
 
@@ -162,18 +162,18 @@ Apple Mail has the ability to load remote content in the background or block it 
 
 <div class="admonition recommendation" markdown>
 
-![Kontact logo](assets/img/email-clients/kontact.svg){ align=right }
+![Kontact logosu](assets/img/email-clients/kontact.svg){ align=right }
 
-**Kontact** is a personal information manager (PIM) application from the [KDE](https://kde.org) project. It provides a mail client, address book, RSS client, and an organizer.
+**Kontact**, [KDE](https://kde.org) projesl tarafından geliştirilen bir kişisel bilgi yönetimi (PIM) uygulamasıdır. Bir e-posta istemcisi, adres defteri, RSS istemcisi ve planlayıcı sunar.
 
-[:octicons-home-16: Homepage](https://kontact.kde.org){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://kde.org/privacypolicy-apps){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://kontact.kde.org/users){ .card-link title="Documentation" }
-[:octicons-code-16:](https://invent.kde.org/pim/kmail){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://kde.org/community/donations){ .card-link title="Contribute" }
+[:octicons-home-16: Ana Sayfa](https://kontact.kde.org){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://kde.org/privacypolicy-apps){ .card-link title="Gizlilik Politikası" }
+[:octicons-info-16:](https://kontact.kde.org/users){ .card-link title="Dokümantasyon" }
+[:octicons-code-16:](https://invent.kde.org/pim/kmail){ .card-link title="Kaynak Kodu" }
+[:octicons-heart-16:](https://kde.org/community/donations){ .card-link title="Destekle" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>İndirmeler</summary>
 
 - [:simple-linux: Linux](https://kontact.kde.org/download)
 - [:simple-flathub: Flathub](https://flathub.org/apps/details/org.kde.kontact)
@@ -182,7 +182,7 @@ Apple Mail has the ability to load remote content in the background or block it 
 
 </div>
 
-### Mailvelope (Browser)
+### Mailvelope (Tarayıcı)
 
 <div class="admonition recommendation" markdown>
 
