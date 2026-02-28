@@ -74,15 +74,15 @@ Bu seçenekler :material-menu: → **Ayarlar** → Gizlilik ve Güvenlik sekmesi
 
 </div>
 
-1. You may need to keep this setting checked when you're logging in to some providers such as Gmail, or via an institution’s SSO. You should uncheck it once you log in successfully.
+1. Gmail gibi bazı sağlayıcılarda veya bir kurumun SSO arayüzü aracılığıyla giriş yaparken bu seçeneği açmanız gerekebilir. Başarılı bir şekilde giriş yaptıktan sonra seçeneği kapatmanız önerilir.
 
-##### Telemetry
+##### Telemetri
 
-- [ ] Uncheck  **Allow Thunderbird to send technical and interaction data to Mozilla**
+- [ ] **Thunderbird'ün Mozilla'ya teknik ve etkileşim verilerini göndermesine izin ver** seçeneğini kapatın
 
-#### Thunderbird-user.js (advanced)
+#### Thunderbird-user.js (ileri düzey)
 
-[`thunderbird-user.js`](https://github.com/HorlogeSkynet/thunderbird-user.js) is a set of configuration options that aims to disable as many of the web-browsing features within Thunderbird Desktop as possible in order to reduce attack surface and maintain privacy. Some of the changes are backported from the [Arkenfox project](desktop-browsers.md#arkenfox-advanced).
+[`thunderbird-user.js`](https://github.com/HorlogeSkynet/thunderbird-user.js) Thunderbird masaüstü uygulamasının tarayıcı özelliklerini olabildiğince devre dışı bırakarak saldırı yüzeyini azaltmak ve gizliliği korumayı amaçlayan bir dizi yapılandırma seçeneğidir. Some of the changes are backported from the [Arkenfox project](desktop-browsers.md#arkenfox-advanced).
 
 ## Platform Specific
 
