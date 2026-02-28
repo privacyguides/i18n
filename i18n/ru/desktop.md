@@ -19,21 +19,21 @@ cover: desktop.webp
 
 <div class="admonition recommendation" markdown>
 
-![Fedora logo](assets/img/linux-desktop/fedora.svg){ align=right }
+![Логотип Fedora](assets/img/linux-desktop/fedora.svg){ align=right }
 
-**Fedora Linux** is our recommended desktop distribution for people new to Linux. Fedora generally adopts newer technologies (e.g., [Wayland](https://wayland.freedesktop.org) and [PipeWire](https://pipewire.org)) before other distributions. Эти новые технологии часто улучшают безопасность, конфиденциальность и удобство использования в целом.
+**Fedora Linux** — это настольный дистрибутив, который мы рекомендуем людям, не знакомым с Linux. Fedora обычно внедряет новые технологии (например, [Wayland](https://wayland.freedesktop.org) и [PipeWire](https://pipewire.org)) раньше других дистрибутивов. Эти новые технологии часто улучшают безопасность, конфиденциальность и удобство использования в целом.
 
-[:octicons-home-16: Homepage](https://fedoraproject.org){ .md-button .md-button--primary }
-[:octicons-info-16:](https://docs.fedoraproject.org/en-US/docs){ .card-link title="Documentation" }
-[:octicons-heart-16:](https://whatcanidoforfedora.org){ .card-link title="Contribute" }
+[:octicons-home-16: Домашняя страница](https://fedoraproject.org/ru/){ .md-button .md-button--primary }
+[:octicons-info-16:](https://docs.fedoraproject.org/ru/docs/){ .card-link title="Документация" }
+[:octicons-heart-16:](https://whatcanidoforfedora.org/ru){ .card-link title="Поддержать" }
 
 </details>
 
 </div>
 
-Fedora comes in two primary desktop editions, [Fedora Workstation](https://fedoraproject.org/workstation), which uses the GNOME desktop environment, and [Fedora KDE Plasma Desktop](https://fedoraproject.org/kde), which uses KDE. Historically, Fedora Workstation has been more popular and widely recommended, but KDE has been gaining in popularity and provides an experience more similar to Windows, which may make transitioning to Linux easier for some. The security and privacy benefits of both editions are very similar, so it mostly comes down to personal preference.
+Fedora поставляется в двух основных настольных редакциях, [Fedora Workstation](https://fedoraproject.org/workstation), использующей рабочий стол GNOME, и [Fedora KDE Plasma Desktop](https://fedoraproject.org/kde), использующей KDE. Исторически Fedora Workstation была более популярна и широко рекомендовалась, но KDE набирает популярность и предлагает более похожий на Windows опыт использования, что может помочь некоторым людям перейти на Linux. Преимущества обеих редакций в плане безопасности и приватности очень схожи, так что выбор сводится в основном к личным предпочтениям.
 
-Fedora имеет \[полу-плавающий\](https://ru.wikipedia.org/wiki/Rolling_release) цикл релиза. While some packages like the desktop environment are frozen until the next Fedora release, most packages (including the kernel) are updated frequently throughout the lifespan of the release. Каждый выпуск Fedora поддерживается в течение одного года, а новая версия выходит каждые 6 месяцев.
+Fedora имеет \[полуплавающий\](https://ru.wikipedia.org/wiki/Rolling_release) цикл выпуска. Несмотря на то, что некоторые пакеты, такие как оболочка рабочего стола, замораживаются до следующего выпуска Fedora, большинство пакетов (включая ядро) обновляются часто в течение всего срока жизни релиза. Каждый выпуск Fedora поддерживается в течение одного года, а новая версия выходит каждые 6 месяцев.
 
 ### openSUSE Tumbleweed
 
@@ -41,13 +41,13 @@ Fedora имеет \[полу-плавающий\](https://ru.wikipedia.org/wiki/
 
 ![Логотип openSUSE Tumbleweed](assets/img/linux-desktop/opensuse-tumbleweed.svg){ align=right }
 
-**openSUSE Tumbleweed** - стабильный дистрибутив с [плавающей системой релизов](https://ru.wikipedia.org/wiki/Rolling_release).
+**openSUSE Tumbleweed** — стабильный дистрибутив с [плавающей системой релизов](https://ru.wikipedia.org/wiki/Rolling_release).
 
-openSUSE Tumbleweed uses [Btrfs](https://en.wikipedia.org/wiki/Btrfs) and [Snapper](https://en.opensuse.org/openSUSE:Snapper_Tutorial) to ensure that snapshots can be rolled back should there be a problem.
+openSUSE Tumbleweed использует [Btrfs](https://ru.wikipedia.org/wiki/Btrfs) и [Snapper](https://en.opensuse.org/openSUSE:Snapper_Tutorial), чтобы обеспечить возможность откатить снимки системы в случае возникновения проблем.
 
-[:octicons-home-16: Homepage](https://get.opensuse.org/tumbleweed){ .md-button .md-button--primary }
-[:octicons-info-16:](https://doc.opensuse.org){ .card-link title="Documentation" }
-[:octicons-heart-16:](https://shop.opensuse.org){ .card-link title="Contribute" }
+[:octicons-home-16: Домашняя страница](https://get.opensuse.org/tumbleweed){ .md-button .md-button--primary }
+[:octicons-info-16:](https://doc.opensuse.org){ .card-link title="Документация" }
+[:octicons-heart-16:](https://shop.opensuse.org){ .card-link title="Поддержать" }
 
 </details>
 
@@ -59,11 +59,11 @@ Tumbleweed следует модели плавающего релиза, ког
 
 <div class="admonition recommendation" markdown>
 
-![Arch logo](assets/img/linux-desktop/archlinux.svg){ align=right }
+![Логотип Arch](assets/img/linux-desktop/archlinux.svg){ align=right }
 
-**Arch Linux** is a lightweight, do-it-yourself (DIY) distribution, meaning that you only get what you install. Более подробную информацию можно найти на их сайте [FAQ](https://wiki.archlinux.org/title/Frequently_asked_questions).
+**Arch Linux** — это легковесный дистрибутив «собери сам» (DIY): вы получаете только то, что устанавливаете. Более подробную информацию можно найти на их сайте [FAQ](https://wiki.archlinux.org/title/Frequently_asked_questions).
 
-[:octicons-home-16: Главная](https://archlinux.org){ .md-button .md-button--primary }
+[:octicons-home-16: Домашняя страница](https://archlinux.org){ .md-button .md-button--primary }
 [:octicons-info-16:](https://wiki.archlinux.org){ .card-link title="Документация"}
 [:octicons-heart-16:](https://archlinux.org/donate){ .card-link title="Поддержать" }
 
@@ -73,31 +73,31 @@ Tumbleweed следует модели плавающего релиза, ког
 
 Arch Linux имеет плавающий цикл релиза. Не существует фиксированного графика релиза, пакеты обновляются очень часто.
 
-Будучи DIY дистрибутивом, вы [должны самостоятельно установить и поддерживать](os/linux-overview.md#arch-based-distributions) свою систему. Arch имеет [официальный установщик](https://wiki.archlinux.org/title/Archinstall), чтобы немного облегчить процесс установки.
+Так как это DIY-дистрибутив, вы [должны самостоятельно настравивать и обслуживать](os/linux-overview.md#arch-based-distributions) свою систему. Arch имеет [официальный установщик](https://wiki.archlinux.org/title/Archinstall), чтобы немного облегчить процесс установки.
 
-A large portion of [Arch Linux’s packages](https://reproducible.archlinux.org) are [reproducible](https://reproducible-builds.org)[^1].
+Значительная часть [пакетов Arch Linux](https://reproducible.archlinux.org) [воспроизводимы](https://reproducible-builds.org)[^1].
 
-## Atomic Distributions
+## Атомарные дистрибутивы
 
-**Atomic distributions** (sometimes also referred to as **immutable distributions**) are operating systems which handle package installation and updates by layering changes atop your core system image, rather than by directly modifying the system. Advantages of atomic distros include increased stability and the ability to easily roll back updates. See [*Traditional vs. Atomic Updates*](os/linux-overview.md#traditional-vs-atomic-updates) for more info.
+**Атомарные дистрибутивы** (также называемые **неизменяемыми**) — это операционные системы, в которых установка и обновление пакетов происходит путем наложения изменений на основной образ системы, а не внесения изменений напрямую в систему. Преимущества атомарных дистрибутивов — повышенная стабильность и возможность легко откатывать обновления. См. [*разницу между традиционными и атомарными обновлениями*](os/linux-overview.md#traditional-vs-atomic-updates), чтобы получить больше информации.
 
-### Fedora Atomic Desktops
+### Fedora Atomic
 
 <div class="admonition recommendation" markdown>
 
-![Fedora logo](assets/img/linux-desktop/fedora.svg){ align=right }
+![Логотип Fedora](assets/img/linux-desktop/fedora.svg){ align=right }
 
-**Fedora Atomic Desktops** are variants of Fedora which use the `rpm-ostree` package manager and have a strong focus on containerized workflows and Flatpak for desktop applications. All of these variants follow the same release schedule as Fedora Workstation, benefiting from the same fast updates and staying very close to upstream.
+**Fedora Atomic** — это варианты Fedora, которые используют пакетный менеджер `rpm-ostree` и ориентированы на контейнеризацию и использование Flatpak для настольных приложений. Эти редакции следуют тому же графику релизов, что и Fedora Workstation, получая те же преимущества быстрых обновлений и оставаясь очень близкими к основной версии системы.
 
-[:octicons-home-16: Homepage](https://fedoraproject.org/atomic-desktops){ .md-button .md-button--primary }
-[:octicons-info-16:](https://docs.fedoraproject.org/en-US/emerging){ .card-link title="Documentation" }
-[:octicons-heart-16:](https://whatcanidoforfedora.org){ .card-link title="Contribute" }
+[:octicons-home-16: Домашняя страница](https://fedoraproject.org/ru/atomic-desktops/){ .md-button .md-button--primary }
+[:octicons-info-16:](https://docs.fedoraproject.org/en-US/emerging){ .card-link title="Документация" }
+[:octicons-heart-16:](https://whatcanidoforfedora.org/ru){ .card-link title="Поддержать" }
 
 </details>
 
 </div>
 
-[Fedora Atomic Desktops](https://fedoramagazine.org/introducing-fedora-atomic-desktops) come in a variety of flavors depending on the desktop environment you prefer. As with the recommendation to avoid X11 in our [criteria](#criteria) for Linux distributions, we recommend avoiding flavors that support only the legacy X11 window system.
+[Fedora Atomic](https://fedoramagazine.org/introducing-fedora-atomic-desktops) поставляется в нескольких различных вариантах в зависимости от того, какую среду рабочего стола вы предпочитаете. Как и в случае с рекомендацией избегать X11 в наших [критериях](#criteria) для дистрибутивов Linux, мы рекомендуем избегать версии, которые поддерживают только устаревшую оконную систему X11.
 
 These operating systems differ from Fedora Workstation as they replace the [DNF](https://docs.fedoraproject.org/en-US/quick-docs/dnf) package manager with a much more advanced alternative called [`rpm-ostree`](https://coreos.github.io/rpm-ostree). The `rpm-ostree` package manager works by downloading a base image for the system, then overlaying packages over it in a [git](https://en.wikipedia.org/wiki/Git)-like commit tree. When the system is updated, a new base image is downloaded and the overlays will be applied to that new image.
 
