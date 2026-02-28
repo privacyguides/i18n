@@ -55,7 +55,7 @@ schema:
 **Tor Browser** — лучший выбор, если тебе нужна анонимность, поскольку он предоставляет доступ к сети Tor и мостам, а также включает настройки по умолчанию и расширения, которые автоматически настраиваются в соответствии с уровнями безопасности по умолчанию: *Обычный*, *Высокий* и *Высший*.
 
 
-[:octicons-home-16: Домашняя страницы](https://torproject.org){ .md-button .md-button--primary }
+[:octicons-home-16: Домашняя страница](https://torproject.org){ .md-button .md-button--primary }
 [:simple-torbrowser:](http://2gzyxa5ihm7nsggfxnu52rck2vv4rvmdlkiu3zzui5du4xyclen53wid.onion){ .card-link title="Onion Service" }
 [:octicons-info-16:](https://tb-manual.torproject.org){ .card-link title="Документация" }
 [:octicons-code-16:](https://gitlab.torproject.org/tpo/applications/tor-browser){ .card-link title="Исходный код" }
