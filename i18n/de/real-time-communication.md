@@ -13,7 +13,7 @@ cover: real-time-communication.webp
 - [:material-eye-outline: Massenüberwachung](basics/common-threats.md#mass-surveillance-programs ""){.pg-blue}
 - [:material-account-cash: Überwachungskapitalismus](basics/common-threats.md#surveillance-as-a-business-model ""){.pg-brown}
 
-These recommendations for encrypted **real-time communication** are great for securing your sensitive communications. These instant messengers come in the form of many [types of communication networks](advanced/communication-network-types.md).
+Diese Empfehlungen für verschlüsselte **Echtzeit-Kommunikation** sind gut um deine sensiblen Kommunikationen zu sichern. Diese Instant-Messenger kommen in Form von mehreren [Arten der Kommunikationsnetzwerke](advanced/communication-network-types.md) vor.
 
 [:material-movie-open-play-outline: Video: It's time to stop using SMS](https://www.privacyguides.org/videos/2025/01/24/its-time-to-stop-using-sms-heres-why ""){.md-button}
 
@@ -23,13 +23,13 @@ These recommendations for encrypted **real-time communication** are great for se
 
 ![Signal logo](assets/img/messengers/signal.svg){ align=right }
 
-**Signal** ist eine mobile App, die von Signal Messenger LLC entwickelt wurde. The app provides instant messaging and calls secured with the Signal protocol, an extremely secure encryption protocol which supports forward secrecy[^1] and post-compromise security.[^2]
+**Signal** ist eine mobile App, die von Signal Messenger LLC entwickelt wurde. Die app beinhaltet Sofortnachrichten und Anrufe die mit dem Signal Protokoll geschützt werden, das Signal-Protokoll ist ein extrem sicheres Verschlüsselungsprotokoll, dass Forward Secrecy[^1] und Future Secrecy (Post-Compromise-Sicherheit)[^2] unterstützt.
 
 [:octicons-home-16: Homepage](https://signal.org){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://signal.org/legal/#privacy-policy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://support.signal.org){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/signalapp){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://signal.org/donate){ .card-link title="Contribute" }
+[:octicons-eye-16:](https://signal.org/legal/#privacy-policy){ .card-link title="Datenschutzerklärung" }
+[:octicons-info-16:](https://support.signal.org){ .card-link title="Dokumentation" }
+[:octicons-code-16:](https://github.com/signalapp){ .card-link title="Quellcode" }
+[:octicons-heart-16:](https://signal.org/donate){ .card-link title="beitragen" }
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
@@ -46,25 +46,25 @@ These recommendations for encrypted **real-time communication** are great for se
 
 </div>
 
-Signal requires your phone number for registration, however you should create a username to hide your phone number from your contacts:
+Signal braucht eine Telefonnummer für die Registrierung, aber du kannst einen Benutzernamen erstellen, um deine Telefonnummer vor deinen Kontakten zu verstecken:
 
 1. Öffne in Signal die Einstellungen der App und tippe oben auf dein Kontoprofil.
-2. Tap **Username** and choose **Continue** on the "Set up your Signal username" screen.
-3. Gebe einen Nutzernamen ein. Your username will always be paired with a unique set of digits to keep your username unique and prevent people from guessing it. For example if you enter "John" your username might end up being `@john.35`. Standardmäßig werden deinem Benutzernamen bei der Erstellung nur 2 Ziffern zugeordnet, aber du kannst weitere Ziffern hinzufügen, bis du die maximale Länge des Benutzernamens erreichst (32 Zeichen).
+2. In den Einstellungen, tippe auf deinem Namen und gehe auf **Benutzername**, danach tippe auf **Nutzername **.
+3. Gebe einen Nutzernamen ein. Dein Benutzername wird immer mit einer zufälligen Kombination an Zahlen kombiniert, damit dein Name immer einzigartig ist und damit leute es nicht erraten können. Zum Beispiel, wenn du "John" als Benutzernamen eingibst, wird es als `@john.35` enden. Standardmäßig werden deinem Benutzernamen bei der Erstellung nur 2 Ziffern zugeordnet, aber du kannst weitere Ziffern hinzufügen, bis du die maximale Länge des Benutzernamens erreichst (32 Zeichen).
 4. Gehe zurück zur Hauptseite der App-Einstellungen und wähle **Datenschutz**.
-5. Select **Phone Number**.
-6. Change the **Who Can See My Number** setting to **Nobody**.
-7. (Optional) Change the **Who Can Find Me By Number** setting to **Nobody** as well, if you want to prevent people who already have your phone number from discovering your Signal account/username
+5. Wähle **Datenschutz** > **Telefonnummer**.
+6. Ändere die **Wer kann meine Telefonnummer sehen** Einstellung auf **Niemand**.
+7. (Optional) Ändere ebenfalls die **Wer kann mich anhand der Telefonnummer finden** auf **Niemand**, falls du verhindern willst, dass jemand der schon deine Telefonnummer hat, dein Signal Konto/Nutzername findet
 
-We have some additional tips on configuring and hardening your Signal installation:
+Wir haben ebenfalls noch zusätzliche Tipps beim Einstellen und Härten deiner Signal Installation:
 
-[Signal Configuration and Hardening :material-arrow-right-drop-circle:](https://blog.privacyguides.org/2022/07/07/signal-configuration-and-hardening)
+[Signal Einstellungen und Härtung :material-arrow-right-drop-circle:](https://blog.privacyguides.org/2022/07/07/signal-configuration-and-hardening)
 
-Contact lists on Signal are encrypted using your Signal PIN and the server does not have access to them. Personal profiles are also encrypted and only shared with contacts you chat with.
+Kontaktlisten werden mit deinem Signal PIN verschlüsselt und der Server hat keinen Zugriff darauf. Persönliche Profile werden ebenfalls verschlüsselt und nur werden nur mit deinen Kontakten, mit denen du schreibst geteilt.
 
-Signal supports [private groups](https://signal.org/blog/signal-private-group-system), where the server has no record of your group memberships, group titles, group avatars, or group attributes. Signal has minimal metadata when [Sealed Sender](https://signal.org/blog/sealed-sender) is enabled. The sender address is encrypted along with the message body, and only the recipient address is visible to the server. Sealed Sender is only enabled for people in your contacts list, but can be enabled for all recipients with the increased risk of receiving spam.
+Signal unterstützt [private Gruppen](https://signal.org/blog/signal-private-group-system), wo der Server keine Aufzeichnungen der Gruppenmitglieder, Gruppentitel, Gruppenavatare oder Gruppenattribute hat. Signal hat minimale Metadaten wenn [Sealed Sender](https://signal.org/blog/sealed-sender) aktiviert wird. Die Absenderadresse und der Nachrichtenkörper werden verschlüsselt, nur die Empfängeradresse ist vom Server sichtbar. Sealed Sender ist nur für Leute in deiner Kontaktenliste aktiviert, aber es kann für alle Empfänger aktiviert werden, es gibt dann aber ein erhöhtes Risiko Spam zu erhalten.
 
-The protocol was independently [audited](https://eprint.iacr.org/2016/1013.pdf) in 2016. The specification for the Signal protocol can be found in their [documentation](https://signal.org/docs).
+Das Protokoll wurde unabhängig in 2016 [überprüft](https://eprint.iacr.org/2016/1013.pdf). Die Spezifikation für das Signalprotokoll kann in deren [Dokumentation](https://signal.org/docs) gefunden werden.
 
 ### Molly (Android)
 
@@ -169,7 +169,7 @@ Briar has a fully [published specification](https://code.briarproject.org/briar/
 
 The client software was independently [audited](https://briarproject.org/news/2017-beta-released-security-audit), and the anonymous routing protocol uses the Tor network which has also been audited.
 
-## Criteria
+## Kriterien
 
 **Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. We suggest you familiarize yourself with this list before choosing to use a project, and conduct your own research to ensure it's the right choice for you.
 
