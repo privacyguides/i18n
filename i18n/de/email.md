@@ -180,7 +180,7 @@ Allerdings unterstützt die Softwareplattform die von Mailbox Mail verwendet wir
 
 #### :material-check:{ .pg-green } E-Mail-Verschlüsselung
 
-Mailbox Mail has [integrated encryption](https://kb.mailbox.org/en/private/e-mail-article/send-encrypted-e-mails-with-guard) in their webmail, which simplifies sending messages to people with public OpenPGP keys. They also allow [remote recipients to decrypt an email](https://kb.mailbox.org/en/private/e-mail-article/my-recipient-does-not-use-pgp) on Mailbox Mail's servers. Diese Funktion ist nützlich, wenn der Empfänger OpenPGP nicht nutzt und daher eine Kopie der E-Mail in seinem eigenen Postfach nicht entschlüsseln kann.
+Mailbox Mail hat [integrierte Verschlüsselung](https://kb.mailbox.org/en/private/e-mail-article/send-encrypted-e-mails-with-guard) in deren Webmail, was das Versenden von Nachrichten mit öffentlichen OpenPGP-Schlüssel vereinfacht. Sie erlauben ebenfalls, dass [entfernte Empfänger auf Mailbox Mails Servern E-Mails entschlüsseln](https://kb.mailbox.org/en/private/e-mail-article/my-recipient-does-not-use-pgp). Diese Funktion ist nützlich, wenn der Empfänger OpenPGP nicht nutzt und daher eine Kopie der E-Mail in seinem eigenen Postfach nicht entschlüsseln kann.
 
 Mailbox Mail also supports the discovery of public keys via HTTP from their WKD. This allows people outside of Mailbox Mail to find the OpenPGP keys of Mailbox Mail accounts easily for cross-provider E2EE. This only applies to email addresses ending in one of Mailbox Mail's own domains, like `@mailbox.org`. Wenn du deine eigenen Domains benutzt, musst du selber [WKD konfigurieren](basics/email-security.md#what-is-the-web-key-directory-standard).
 
