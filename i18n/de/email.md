@@ -182,7 +182,7 @@ Allerdings unterstützt die Softwareplattform die von Mailbox Mail verwendet wir
 
 Mailbox Mail hat [integrierte Verschlüsselung](https://kb.mailbox.org/en/private/e-mail-article/send-encrypted-e-mails-with-guard) in deren Webmail, was das Versenden von Nachrichten mit öffentlichen OpenPGP-Schlüssel vereinfacht. Sie erlauben ebenfalls, dass [entfernte Empfänger auf Mailbox Mails Servern E-Mails entschlüsseln](https://kb.mailbox.org/en/private/e-mail-article/my-recipient-does-not-use-pgp). Diese Funktion ist nützlich, wenn der Empfänger OpenPGP nicht nutzt und daher eine Kopie der E-Mail in seinem eigenen Postfach nicht entschlüsseln kann.
 
-Mailbox Mail also supports the discovery of public keys via HTTP from their WKD. This allows people outside of Mailbox Mail to find the OpenPGP keys of Mailbox Mail accounts easily for cross-provider E2EE. This only applies to email addresses ending in one of Mailbox Mail's own domains, like `@mailbox.org`. Wenn du deine eigenen Domains benutzt, musst du selber [WKD konfigurieren](basics/email-security.md#what-is-the-web-key-directory-standard).
+Mailbox Mail unterstützt ebenfalls die Entdeckung von öffentlicher Schüssel via HTTP von deren WKD. Dies erlaubt Leuten außerhalb Mailbox Mail die OpenPGP-Schlüssel von Mailbox Mail Konten zu finden. Dies gilt nur bei E-Mail-Adressen die mit Mailbox Mails Domains enden, wie `@mailbox.org`. Wenn du deine eigenen Domains benutzt, musst du selber [WKD konfigurieren](basics/email-security.md#what-is-the-web-key-directory-standard).
 
 #### :material-information-outline:{ .pg-blue } Kontokündigung
 
@@ -190,11 +190,11 @@ Nach Ablauf deines Vertrags wird dein Konto zunächst auf ein eingeschränktes B
 
 #### :material-information-outline:{ .pg-blue } Zusätzliche Funktionen
 
-You can access your Mailbox Mail account via IMAP/SMTP using their [.onion service](https://kb.mailbox.org/en/private/faq-article/the-tor-exit-node-of-mailbox-org). Auf die Webmail-Schnittstelle kann jedoch nicht über den .onion-Dienst zugegriffen werden und es können TLS-Zertifikatsfehler auftreten.
+Du kannst über [deren .onion Service](https://kb.mailbox.org/en/private/faq-article/the-tor-exit-node-of-mailbox-org) via IMAP/SMTP dein Mailbox Mail Konto zugreifen. Auf die Webmail-Schnittstelle kann jedoch nicht über den .onion-Dienst zugegriffen werden und es können TLS-Zertifikatsfehler auftreten.
 
-Alle Konten verfügen über einen begrenzten Cloud-Speicher, der [verschlüsselt werden kann](https://kb.mailbox.org/en/private/drive-article/encrypt-files-on-your-drive). Mailbox Mail also offers the alias [@secure.mailbox.org](https://kb.mailbox.org/en/private/e-mail-article/ensuring-e-mails-are-sent-securely), which enforces the TLS encryption on the connection between mail servers, otherwise the message will not be sent at all. Mailbox Mail also supports [Exchange ActiveSync](https://en.wikipedia.org/wiki/Exchange_ActiveSync) in addition to standard access protocols like IMAP and POP3.
+Alle Konten verfügen über einen begrenzten Cloud-Speicher, der [verschlüsselt werden kann](https://kb.mailbox.org/en/private/drive-article/encrypt-files-on-your-drive). Mailbox Mail bietet den Alias [@secure.mailbox.org](https://kb.mailbox.org/en/private/e-mail-article/ensuring-e-mails-are-sent-securely) an, der TLS-Verschlüsselung bei Verbindungen zwischen Mail-Servern erzwingt, sonst werden Nachrichten nicht verschickt. Mailbox Mail unterstützt auch [Exchange ActiveSync](https://en.wikipedia.org/wiki/Exchange_ActiveSync) zusätzlich zu standard Zugriffsprotokolle wie IMAP und POP3 an.
 
-Mailbox Mail has a digital legacy feature for all plans. You can choose whether you want any of your data to be passed to heirs, providing that they apply and provide your testament. Alternativ kannst du auch eine Person mit Namen und Adresse benennen.
+Mailbox Mail hat ein digitales Erbe Funktion für alle Pläne. You can choose whether you want any of your data to be passed to heirs, providing that they apply and provide your testament. Alternativ kannst du auch eine Person mit Namen und Adresse benennen.
 
 ## Weitere Anbieter
 
@@ -246,7 +246,7 @@ Bezahlte Tuta-Konten können je nach Tarif entweder 15 oder 30 Aliase und unbegr
 
 #### :material-information-outline:{ .pg-blue } Private Zahlungsmöglichkeiten
 
-Tuta only directly accepts credit cards and PayPal, however you can use [**cryptocurrency**](cryptocurrency.md) to purchase gift cards via their [partnership](https://tuta.com/support/#cryptocurrency) with ProxyStore.
+Tuta nimmt nur Kreditkarte und PayPal an, aber du kannst auch via deren [Partnerschaft](https://tuta.com/support/#cryptocurrency) mit ProxyStore auch[** Kryptowährungen**](cryptocurrency.md) benutzen, um Geschenkkarten zu kaufen.
 
 #### :material-check:{ .pg-green } Kontosicherheit
 
@@ -254,7 +254,7 @@ Tuta unterstützt die [Zwei-Faktor-Authentisierung](https://tuta.com/support#2fa
 
 #### :material-check:{ .pg-green } Datensicherheit
 
-Tuta has [zero-access encryption at rest](https://tuta.com/support#what-encrypted) for your emails, [address book contacts](https://tuta.com/support#encrypted-address-book), and [calendars](https://tuta.com/support#calendar). Das bedeutet, dass die in deinem Konto gespeicherten Nachrichten und andere Daten nur von dir gelesen werden können.
+Tuta hat [ruhende Zero-Access-Verschlüsselung](https://tuta.com/support#what-encrypted) für deine E-Mails, dein [Adressenbuch](https://tuta.com/support#encrypted-address-book) und dein [Kalender](https://tuta.com/support#calendar). Das bedeutet, dass die in deinem Konto gespeicherten Nachrichten und andere Daten nur von dir gelesen werden können.
 
 #### :material-information-outline:{ .pg-blue } E-Mail-Verschlüsselung
 
@@ -274,26 +274,26 @@ Tuta bietet die Business-Version von [Tuta für gemeinnützige Organisationen](h
 
 ### Technologien
 
-Wir halten diese Merkmale für wichtig, um einen sicheren und optimalen Service zu bieten. You should consider whether the provider has the features you require.
+Wir halten diese Merkmale für wichtig, um einen sicheren und optimalen Service zu bieten. Du solltest berücksichtigen, welche Anbieter die Funktionen hat, die du brauchst.
 
 **Mindestvoraussetzung um sich zu qualifizieren:**
 
-- Must encrypt email account data at rest with zero-access encryption.
-- Must be capable of exporting emails as [Mbox](https://en.wikipedia.org/wiki/Mbox) or individual .EML with [RFC5322](https://datatracker.ietf.org/doc/rfc5322) standard.
-- Allow users to use their own [domain name](https://en.wikipedia.org/wiki/Domain_name). Benutzerdefinierte Domänennamen sind für die Nutzer wichtig, da du so deine Identität von dem Dienst fernhalten kannst, falls dieser sich als schlecht erweist oder von einem anderen Unternehmen übernommen wird, bei dem der Datenschutz keine Rolle spielt.
-- Must operate on owned infrastructure, i.e. not built upon third-party email service providers.
+- Muss Email-Konto-Daten mit ruhende Zero-Access-Verschlüsselung verschlüsseln.
+- Muss fähig sein, E-Mails als [Mbox](https://en.wikipedia.org/wiki/Mbox) oder als einzelne .EML laut [RFC5322](https://datatracker.ietf.org/doc/rfc5322) Standard zu exportieren.
+- Erlaubt Nutzer ihre eigenen [Domainnamen](https://de.wikipedia.org/wiki/Domain_(Internet)) zu nutzen. Benutzerdefinierte Domänennamen sind für die Nutzer wichtig, da du so deine Identität von dem Dienst fernhalten kannst, falls dieser sich als schlecht erweist oder von einem anderen Unternehmen übernommen wird, bei dem der Datenschutz keine Rolle spielt.
+- Muss auf besitzte Infrastruktur betrieben werden, d.h. nicht auf Drittanbieter aufgebaut sein.
 
 **Im besten Fall:**
 
-- Should encrypt all account data (contacts, calendars, etc.) at rest with zero-access encryption.
-- Should provide integrated webmail E2EE/PGP encryption as a convenience.
-- Should support WKD to allow improved discovery of public OpenPGP keys via HTTP. GnuPG users can get a key with this command: `gpg --locate-key example_user@example.com`.
-- Unterstützung für eine temporäre Mailbox für externe Benutzer. This is useful when you want to send an encrypted email without sending an actual copy to your recipient. Diese E-Mails haben in der Regel eine begrenzte Lebensdauer und werden dann automatisch gelöscht. Sie erfordern auch nicht, dass der Empfänger eine Kryptographie wie OpenPGP konfiguriert.
-- Should support [sub-addressing](https://en.wikipedia.org/wiki/Email_address#Sub-addressing).
-- Should allow users to use their own [domain name](https://en.wikipedia.org/wiki/Domain_name). Benutzerdefinierte Domänennamen sind für die Nutzer wichtig, da du so deine Identität von dem Dienst fernhalten kannst, falls dieser sich als schlecht erweist oder von einem anderen Unternehmen übernommen wird, bei dem der Datenschutz keine Rolle spielt.
+- Soll alle Kontodaten (Kontakte, Kalender, etc.) mit ruhender Zero-Access-Verschlüsselung verschlüsseln.
+- Soll als Komfort integrierte Webmail E2EE-/PGP-Verschlüsselung anbieten.
+- Should support WKD to allow improved discovery of public OpenPGP keys via HTTP. GnuPG Nutzer können einen Schlüssel mit dem folgenden Befehl erhalten: `gpg --locate-key example_user@example.com`.
+- Unterstützung für eine temporäre Mailbox für externe Benutzer. Dies ist nützlich, wenn du eine verschlüsselte E-Mail verschicken willst, ohne eine echte Kopie zu deinem Empfänger zu schicken. Diese E-Mails haben in der Regel eine begrenzte Lebensdauer und werden dann automatisch gelöscht. Sie erfordern auch nicht, dass der Empfänger eine Kryptographie wie OpenPGP konfiguriert.
+- Soll [Sub-Adressing](https://en.wikipedia.org/wiki/Email_address#Sub-addressing) unterstützen.
+- Erlaubt Nutzer, ihre eigenen [Domainnamen](https://de.wikipedia.org/wiki/Domain_(Internet)) zu nutzen. Benutzerdefinierte Domänennamen sind für die Nutzer wichtig, da du so deine Identität von dem Dienst fernhalten kannst, falls dieser sich als schlecht erweist oder von einem anderen Unternehmen übernommen wird, bei dem der Datenschutz keine Rolle spielt.
 - Catch-all or alias functionality for those who use their own domains.
-- Should use standard email access protocols such as IMAP, SMTP, or [JMAP](https://en.wikipedia.org/wiki/JSON_Meta_Application_Protocol). Standard access protocols ensure customers can easily download all of their email, should they want to switch to another provider.
-- Email provider's services should be available via an [onion service](https://en.wikipedia.org/wiki/.onion).
+- Soll standard E-Mail-Zugriff-Protokolle nutzen, wie IMAP, SMTP, oder [JMAP](https://en.wikipedia.org/wiki/JSON_Meta_Application_Protocol). Standard Zugriffsprotokoll sichern, dass Kunden leicht alle ihre E-Mails herunterladen können, falls sie zu einem anderen Anbieter wechseln wollen.
+- Die Dienste des E-Mail-Anbieters sollten auch als [Onion Service](https://en.wikipedia.org/wiki/.onion) verfügbar sein.
 
 ### Datenschutz
 
@@ -303,21 +303,21 @@ Wir ziehen es vor, dass die von uns empfohlenen Anbieter*innen so wenig Daten wi
 
 - Must protect sender's IP address, which can involve filtering it from showing in the `Received` header field.
 - Must not require personally identifiable information (PII) besides a username and a password.
-- Privacy policy must meet the requirements defined by the GDPR.
+- Datenschutzbestimmungen müssen die Anforderungen der GDPR erfüllen.
 
 **Im besten Fall:**
 
 - Should accept [anonymous payment options](advanced/payments.md) ([cryptocurrency](cryptocurrency.md), cash, gift cards, etc.)
-- Should be hosted in a jurisdiction with strong email privacy protection laws.
+- Soll in einer Gerichtsbarkeit gehostet sein, die starke E-Mail-Privatsphärenschutz-Gesetze besitzt.
 
 ### Sicherheit
 
-Email servers deal with a lot of very sensitive data. We expect that providers will adopt industry best practices in order to protect their customers.
+E-Mail-Server befassen sich mit vielen sensiblen Daten. Wir erwarten, dass Anbieter die besten Praktiken in der Industrie benutzen, um ihre Kunden zu beschützen.
 
 **Mindestvoraussetzung um zu qualifizieren:**
 
-- Protection of webmail with 2FA, such as [TOTP](basics/multi-factor-authentication.md#time-based-one-time-password-totp).
-- Zero-access encryption, which builds on encryption at rest. Der Anbieter verfügt nicht über die Entschlüsselungsschlüssel zu den Daten, die er besitzt. So wird verhindert, dass ein abtrünniger Mitarbeitender Daten preisgibt, auf die er/sie Zugriff hat, oder dass ein Angreifender Daten freigibt, die er/sie gestohlen hat, indem er/sie sich unbefugt Zugang zum Server verschafft.
+- Schutz von Webmail mit 2FA, wie z.B. [TOTP](basics/multi-factor-authentication.md#time-based-one-time-password-totp).
+- Zero-Access-Verschlüsselung, die auf ruhende Verschlüsselung aufbaut. Der Anbieter verfügt nicht über die Entschlüsselungsschlüssel zu den Daten, die er besitzt. So wird verhindert, dass ein abtrünniger Mitarbeitender Daten preisgibt, auf die er/sie Zugriff hat, oder dass ein Angreifender Daten freigibt, die er/sie gestohlen hat, indem er/sie sich unbefugt Zugang zum Server verschafft.
 - [DNSSEC](https://de.wikipedia.org/wiki/Domain_Name_System_Security_Extensions) Unterstützung.
 - Keine TLS-Fehler oder -Schwachstellen beim Profiling durch Tools wie [Hardenize](https://hardenize.com), [testssl.sh](https://testssl.sh)oder [Qualys SSL Labs](https://ssllabs.com/ssltest); dies schließt zertifikatsbezogene Fehler und schwache DH-Parameter ein, wie z. B. die, die zu [Logjam](https://en.wikipedia.org/wiki/Logjam_(computer_security)) führten.
 - A server suite preference (optional on TLS 1.3) for strong cipher suites which support forward secrecy and authenticated encryption.
@@ -334,7 +334,7 @@ Email servers deal with a lot of very sensitive data. We expect that providers w
 
 **Im besten Fall:**
 
-- Should support hardware authentication, i.e. U2F und [WebAuthn](basics/multi-factor-authentication.md#fido-fast-identity-online).
+- Soll Hardware-Authentifizierung unterstützen, d.h. U2F und [WebAuthn](basics/multi-factor-authentication.md#fido-fast-identity-online).
 - [DNS Certification Authority Authorization (CAA) Resource Record](https://tools.ietf.org/html/rfc6844) zusätzlich zur DANE-Unterstützung.
 - Should implement [Authenticated Received Chain (ARC)](https://en.wikipedia.org/wiki/Authenticated_Received_Chain), which is useful for people who post to mailing lists [RFC8617](https://tools.ietf.org/html/rfc8617).
 - Published security audits from a reputable, third-party firm.
@@ -361,7 +361,7 @@ With the email providers we recommend, we like to see responsible marketing.
 
 **Mindestvoraussetzung um zu qualifizieren:**
 
-- Must self-host analytics (no Google Analytics, Adobe Analytics, etc.).
+- Muss Analytiksoftware selber hosten (kein Google Analytics, Adobe Analytics, etc.).
 - Must not have any irresponsible marketing, which can include the following:
     - Claims of "unbreakable encryption." Encryption should be used with the intention that it may not be secret in the future when the technology exists to crack it.
     - Guarantees of protecting anonymity 100%. When someone makes a claim that something is 100%, it means there is no certainty for failure. We know people can quite easily de-anonymize themselves in a number of ways, e.g.:
