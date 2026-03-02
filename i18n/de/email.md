@@ -291,7 +291,7 @@ Wir halten diese Merkmale für wichtig, um einen sicheren und optimalen Service 
 - Unterstützung für eine temporäre Mailbox für externe Benutzer. Dies ist nützlich, wenn du eine verschlüsselte E-Mail verschicken willst, ohne eine echte Kopie zu deinem Empfänger zu schicken. Diese E-Mails haben in der Regel eine begrenzte Lebensdauer und werden dann automatisch gelöscht. Sie erfordern auch nicht, dass der Empfänger eine Kryptographie wie OpenPGP konfiguriert.
 - Soll [Sub-Adressing](https://en.wikipedia.org/wiki/Email_address#Sub-addressing) unterstützen.
 - Erlaubt Nutzer, ihre eigenen [Domainnamen](https://de.wikipedia.org/wiki/Domain_(Internet)) zu nutzen. Benutzerdefinierte Domänennamen sind für die Nutzer wichtig, da du so deine Identität von dem Dienst fernhalten kannst, falls dieser sich als schlecht erweist oder von einem anderen Unternehmen übernommen wird, bei dem der Datenschutz keine Rolle spielt.
-- Catch-all or alias functionality for those who use their own domains.
+- Catch-all oder Alias Funktion für die, die ihre eigenen Domains benutzen.
 - Soll standard E-Mail-Zugriff-Protokolle nutzen, wie IMAP, SMTP, oder [JMAP](https://en.wikipedia.org/wiki/JSON_Meta_Application_Protocol). Standard Zugriffsprotokoll sichern, dass Kunden leicht alle ihre E-Mails herunterladen können, falls sie zu einem anderen Anbieter wechseln wollen.
 - Die Dienste des E-Mail-Anbieters sollten auch als [Onion Service](https://en.wikipedia.org/wiki/.onion) verfügbar sein.
 
@@ -307,7 +307,7 @@ Wir ziehen es vor, dass die von uns empfohlenen Anbieter*innen so wenig Daten wi
 
 **Im besten Fall:**
 
-- Should accept [anonymous payment options](advanced/payments.md) ([cryptocurrency](cryptocurrency.md), cash, gift cards, etc.)
+- Soll [anonyme Zahlungsmethoden](advanced/payments.md) ([Kryptowährung](cryptocurrency.md), Bargeld, Geschenkkarten, etc.) unterstützen
 - Soll in einer Gerichtsbarkeit gehostet sein, die starke E-Mail-Privatsphärenschutz-Gesetze besitzt.
 
 ### Sicherheit
@@ -370,7 +370,7 @@ With the email providers we recommend, we like to see responsible marketing.
 
 **Im besten Fall:**
 
-- Clear and easy-to-read documentation for tasks like setting up 2FA, email clients, OpenPGP, etc.
+- Klare und leicht-zu-lesende Dokumentation für Vorgänge wie 2FA Einstellen, E-Mail-Clients, OpenPGP, etc.
 
 ### Zusätzliche Funktionalitäten
 
