@@ -1,14 +1,14 @@
 ---
-meta_title: "Privacy Respecting Web Browsers for PC and Mac - Privacy Guides"
-title: Desktop Browsers
+meta_title: "পিসি ও ম্যাকের জন্য গোপনীয়তা-রক্ষাকারী ওয়েব ব্রাউজার — প্রাইভেসি গাইডস"
+title: ডেস্কটপ ব্রাউজারসমূহ
 icon: material/laptop
-description: These privacy-protecting browsers are what we currently recommend for standard/non-anonymous internet browsing on desktop systems.
+description: এই গোপনীয়তা-সুরক্ষাকারী ব্রাউজারগুলোই আমরা বর্তমানে ডেস্কটপ সিস্টেমে সাধারণ/বেনামী (anonymous) নয় এমন ইন্টারনেট ব্রাউজিংয়ের জন্য সুপারিশ করি।
 cover: desktop-browsers.webp
 schema:
   - 
     "@context": http://schema.org
     "@type": WebPage
-    name: Private Desktop Browser Recommendations
+    name: ব্যক্তিগত ডেস্কটপ ব্রাউজার পরামর্শসমূহ
     url: "./"
     relatedLink: "../mobile-browsers/"
   - 
@@ -57,21 +57,21 @@ schema:
       url: "./"
 ---
 
-<small>Protects against the following threat(s):</small>
+<small>নিম্নোক্ত হুমকি(গুলো) থেকে সুরক্ষা দেয়:</small>
 
-- [:material-account-cash: Surveillance Capitalism](basics/common-threats.md#surveillance-as-a-business-model ""){.pg-brown}
+- [:material-account-cash: নজরদারি পুঁজিবাদ](basics/common-threats.md#surveillance-as-a-business-model ""){.pg-brown}
 
-These are our currently recommended **desktop web browsers** and configurations for standard/non-anonymous browsing. We recommend [Mullvad Browser](#mullvad-browser) if you are focused on strong privacy protections and anti-fingerprinting out of the box, [Firefox](#firefox) for casual internet browsers looking for a good alternative to Google Chrome, and [Brave](#brave) if you need Chromium browser compatibility.
+সাধারণ/নন-অ্যানোনিমাস ব্রাউজিংয়ের জন্য এগুলো আমাদের বর্তমানে সুপারিশকৃত **ডেস্কটপ ওয়েব ব্রাউজার** এবং কনফিগারেশন। আপনি যদি শুরু থেকেই শক্তিশালী গোপনীয়তা সুরক্ষা এবং অ্যান্টি-ফিঙ্গারপ্রিন্টিং-এর দিকে মনোনিবেশ করেন তবে আমরা [মোলভ্যাড ব্রাউজার](#mullvad-browser), গুগল ক্রোমের ভালো বিকল্প খুঁজছেন এমন সাধারণ ইন্টারনেট ব্যবহারকারীদের জন্য [ফায়ারফক্স](#firefox) এবং আপনার যদি ক্রোমিয়াম ব্রাউজার সামঞ্জস্যের প্রয়োজন হয় তবে [ব্র্যাভ](#brave) ব্যবহারের পরামর্শ দিচ্ছি।
 
-If you need to browse the internet anonymously, you should use [Tor](tor.md) instead. We make some configuration recommendations on this page, but all browsers other than Tor Browser will be traceable by *somebody* in some manner or another.
+যদি আপনার বেনামে ইন্টারনেট ব্রাউজ করার প্রয়োজন হয়, তাহলে তার পরিবর্তে [টর](tor.md) ব্যবহার করা উচিত। আমরা এই পৃষ্ঠায় কিছু কনফিগারেশন সংক্রান্ত পরামর্শ দিচ্ছি, তবে টর ব্রাউজার ছাড়া অন্য সব ব্রাউজারই কোনো না কোনোভাবে *কারো না কারো* দ্বারা শনাক্তযোগ্য হবে।
 
-## Mullvad Browser
+## মোলভ্যাড ব্রাউজার
 
 <div class="admonition recommendation" markdown>
 
-![Mullvad Browser logo](assets/img/browsers/mullvad_browser.svg){ align=right }
+![মোলভ্যাড ব্রাউজার লোগো](assets/img/browsers/mullvad_browser.svg){ align=right }
 
-**Mullvad Browser** is a version of [Tor Browser](tor.md#tor-browser) with Tor network integrations removed. It aims to provide to VPN users Tor Browser's anti-fingerprinting browser technologies, which are key protections against [:material-eye-outline: Mass Surveillance](basics/common-threats.md#mass-surveillance-programs){ .pg-blue }. It is developed by the Tor Project and distributed by [Mullvad](vpn.md#mullvad), and does **not** require the use of Mullvad's VPN.
+**মোলভ্যাড ব্রাউজার** হলো [টর ব্রাউজার](tor.md#tor-browser) এর একটি সংস্করণ, যেখানে টর নেটওয়ার্কের সমন্বয়গুলো সরিয়ে দেওয়া হয়েছে। It aims to provide to VPN users Tor Browser's anti-fingerprinting browser technologies, which are key protections against [:material-eye-outline: Mass Surveillance](basics/common-threats.md#mass-surveillance-programs){ .pg-blue }. It is developed by the Tor Project and distributed by [Mullvad](vpn.md#mullvad), and does **not** require the use of Mullvad's VPN.
 
 [:octicons-home-16: Homepage](https://mullvad.net/en/browser){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://mullvad.net/en/help/privacy-policy){ .card-link title="Privacy Policy" }
