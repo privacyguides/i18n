@@ -1,6 +1,6 @@
 ---
-title: "Privacy Activist Toolbox"
-description: The Privacy Activist Toolbox is a unique resource with tips for anyone interested in becoming a better privacy rights activist, or anyone who wants to start.
+title: "Инструменты приватности активиста"
+description: Инструменты приватности активиста - это уникальный ресурс, содержащий советы для всех, кто заинтересован в том, чтобы стать лучшим активистом в области защиты приватности, или для тех, кто хочет начать.
 hide:
   - feedback
 cover: activism/banner-activism-toolbox.webp
