@@ -22,7 +22,7 @@ Korzystanie z poczty e-mail jest praktycznie niezbędne do używania większośc
 
 Do pozostałych zastosowań zalecamy różnorodne usługi e-mail, oparte na zrównoważonych modelach biznesowych i wyposażone we wbudowane funkcje bezpieczeństwa oraz prywatności. Pełną [listę kryteriów](#criteria) znajdziesz w dalszej części strony.
 
-| Dostawca                      | OpenPGP / WKD                          | IMAP / SMTP                                                         | Szyfrowanie z zerowym dostępem                          | Anonimowe metody płatności                                 |
+| Dostawca                      | OpenPGP / WKD                          | IMAP / SMTP                                                         | Encrypted Storage                                       | Anonimowe metody płatności                                 |
 | ----------------------------- | -------------------------------------- | ------------------------------------------------------------------- | ------------------------------------------------------- | ---------------------------------------------------------- |
 | [Proton Mail](#proton-mail)   | :material-check:{ .pg-green }          | :material-information-outline:{ .pg-blue } Tylko w płatnych planach | :material-check:{ .pg-green }                           | Gotówka <br>Monero przez pośrednika                  |
 | [mailbox Mail](#mailbox-mail) | :material-check:{ .pg-green }          | :material-check:{ .pg-green }                                       | :material-information-outline:{ .pg-blue } Tylko poczta | Gotówka                                                    |
@@ -119,9 +119,9 @@ Proton Mail obsługuje [uwierzytelnianie dwuskładnikowe](https://proton.me/pl/s
 
 #### :material-check:{ .pg-green } Bezpieczeństwo danych
 
-Proton Mail stosuje [szyfrowanie z zerowym dostępem](https://proton.me/blog/zero-access-encryption) (zero-access encryption) dla Twoich wiadomości e-mail oraz [kalendarzy](https://proton.me/news/protoncalendar-security-model). Dane zabezpieczone tym mechanizmem są dostępne wyłącznie dla Ciebie.
+Proton Mail stores your [emails](https://proton.me/blog/zero-access-encryption) and [calendars](https://proton.me/news/protoncalendar-security-model) with PGP-based encryption at rest, where only you have the decryption keys needed to access them later.
 
-Niektóre informacje przechowywane w [Proton Contacts](https://proton.me/pl/support/proton-contacts), takie jak wyświetlane nazwy czy adresy e-mail, nie są objęte szyfrowaniem z zerowym dostępem. Pola kontaktów, które wspierają ten rodzaj szyfrowania (np. numery telefonów), są oznaczone ikoną kłódki.
+Certain information stored in [Proton Contacts](https://proton.me/support/proton-contacts), such as display names and email addresses, are **not** secured with your own encryption keys, so Proton is able to read them. Contact fields which are protected with your own encryption keys, such as phone numbers, are indicated with a padlock icon.
 
 #### :material-check:{ .pg-green } Szyfrowanie wiadomości e-mail
 
@@ -198,7 +198,7 @@ Mailbox Mail oferuje funkcję cyfrowego spadku we wszystkich planach. Możesz zd
 
 ## Inni dostawcy
 
-Ci dostawcy przechowują Twoje wiadomości e-mail z wykorzystaniem szyfrowania z wiedzą zerową, co czyni ich doskonałym wyborem do bezpiecznego przechowywania poczty. Nie obsługują jednak interoperacyjnych standardów szyfrowania dla komunikacji E2EE między różnymi usługami.
+These providers encrypt your emails in a way that only you can read them later, making them great options for keeping your stored emails secure. Nie obsługują jednak interoperacyjnych standardów szyfrowania dla komunikacji E2EE między różnymi usługami.
 
 <div class="grid cards" markdown>
 
@@ -254,7 +254,7 @@ Tuta obsługuje [uwierzytelnianie dwuskładnikowe](https://tuta.com/pl/support#2
 
 #### :material-check:{ .pg-green } Bezpieczeństwo danych
 
-Tuta stosuje [szyfrowanie z zerowym dostępem](https://tuta.com/pl/support#what-encrypted) (zero-access encryption) dla Twoich wiadomości e-mail, [kontaktów w książce adresowej](https://tuta.com/pl/support#encrypted-address-book) oraz [kalendarza](https://tuta.com/pl/support#calendar). Oznacza to, że wiadomości i inne dane przechowywane na Twoim koncie mogą być odczytane wyłącznie przez Ciebie.
+Tuta stores your [emails](https://tuta.com/support#what-encrypted), [address book contacts](https://tuta.com/support#encrypted-address-book), and [calendars](https://tuta.com/support#calendar) with strong encryption where only you have the decryption keys. This means the messages and other data stored in your account cannot be read by anyone other than you after they are stored.
 
 #### :material-information-outline:{ .pg-blue } Szyfrowanie wiadomości e-mail
 
@@ -278,14 +278,14 @@ Poniższe funkcje uznajemy za istotne dla zapewnienia bezpiecznej i wydajnej us�
 
 **Minimalne wymagania:**
 
-- Musi szyfrować dane kont e-mail w spoczynku przy użyciu szyfrowania z zerowym dostępem (zero-access encryption).
+- Must encrypt email account data at rest with asymmetric encryption, where only the user has the private keys needed to decrypt it.
 - Musi umożliwiać eksport wiadomości e-mail w formacie [mbox](https://pl.wikipedia.org/wiki/Mbox) lub jako pojedyncze pliki .EML zgodne ze standardem [RFC5322](https://datatracker.ietf.org/doc/rfc5322).
 - Musi pozwalać użytkownikom na korzystanie z własnej [nazwy domeny](https://pl.wikipedia.org/wiki/Domena_internetowa). Własne domeny są istotne, ponieważ pozwalają użytkownikowi zachować niezależność od dostawcy, jeśli ten np. zmieni właściciela lub przestanie dbać o prywatność.
 - Musi działać na własnej infrastrukturze, tj. nie może być zbudowany w oparciu o zewnętrzne platformy e-mailowe.
 
 **Najlepszy scenariusz:**
 
-- Powinien szyfrować wszystkie dane konta (kontakty, kalendarze itp.) w spoczynku przy użyciu szyfrowania z zerowym dostępem.
+- Should encrypt all account data (contacts, calendars, etc.) at rest with asymmetric encryption, where only the user has the private keys needed to decrypt it.
 - Powinien oferować zintegrowane szyfrowanie E2EE/PGP w webmailu dla wygody użytkownika.
 - Powinien obsługiwać WKD, aby umożliwić łatwiejsze wyszukiwanie publicznych kluczy OpenPGP poprzez HTTP. Użytkownicy GnuPG mogą pobrać klucz poleceniem: `gpg --locate-key uzytkownik@example.com`.
 - Powinien wspierać funkcję tymczasowej skrzynki pocztowej dla użytkowników zewnętrznych. — przydatną do wysyłania zaszyfrowanych wiadomości bez przekazywania ich kopii odbiorcy. Takie wiadomości mają zwykle ograniczoną żywotność i są automatycznie usuwane; odbiorca nie musi konfigurować żadnych narzędzi kryptograficznych jak OpenPGP.
@@ -317,7 +317,7 @@ Serwery pocztowe przetwarzają ogromne ilości wrażliwych danych. Oczekujemy, �
 **Minimalne wymagania:**
 
 - Ochrona dostępu do webmaila z użyciem 2FA, np. [TOTP](basics/multi-factor-authentication.md#time-based-one-time-password-totp).
-- Szyfrowanie z zerowym dostępem, będące rozszerzeniem szyfrowania danych w spoczynku — dostawca nie posiada kluczy deszyfrujących dane, co uniemożliwia wyciek informacji przez nieuczciwego pracownika lub zewnętrznego atakującego po uzyskaniu nieautoryzowanego dostępu do serwera.
+- Encryption at rest, using asymmetric encryption where the service provider does not have the decryption keys to the data they hold. This prevents a rogue employee leaking data they have access to, or a remote adversary from releasing data they have stolen by gaining unauthorized access to the server.
 - Obsługa [DNSSEC](https://en.wikipedia.org/wiki/Domain_Name_System_Security_Extensions).
 - Brak błędów lub luk TLS podczas testów za pomocą narzędzi takich jak [Hardenize](https://hardenize.com), [testssl.sh](https://testssl.sh) czy [Qualys SSL Labs](https://ssllabs.com/ssltest); dotyczy to błędów certyfikatów i słabych parametrów DH, takich jak te, które doprowadziły do podatności [Logjam](https://en.wikipedia.org/wiki/Logjam_(computer_security)).
 - Preferencja serwera dla silnych zestawów szyfrów obsługujących utajnianie z wyprzedzeniem oraz uwierzytelnione szyfrowanie (dla TLS 1.3 opcjonalna).

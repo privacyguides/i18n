@@ -22,7 +22,7 @@ global:
 
 برای هر چیز دیگری، ما انواع ارائه دهندگان ایمیل را بر اساس مدل‌های تجاری پایدار و ویژگی‌های امنیتی و حریم خصوصی توصیه می‌کنیم. برای اطلاعات بیشتر، [فهرست کامل معیارها](#criteria) را بخوانید.
 
-| ارائه‌دهنده                   | OpenPGP / WKD                          | IMAP / SMTP                                                | Zero-Access Encryption                               | Anonymous Payment Methods                             |
+| ارائه‌دهنده                   | OpenPGP / WKD                          | IMAP / SMTP                                                | Encrypted Storage                                    | Anonymous Payment Methods                             |
 | ----------------------------- | -------------------------------------- | ---------------------------------------------------------- | ---------------------------------------------------- | ----------------------------------------------------- |
 | [Proton Mail](#proton-mail)   | :material-check:{ .pg-green }          | :material-information-outline:{ .pg-blue } Paid plans only | :material-check:{ .pg-green }                        | Cash <br>Monero via third party                 |
 | [Mailbox Mail](#mailbox-mail) | :material-check:{ .pg-green }          | :material-check:{ .pg-green }                              | :material-information-outline:{ .pg-blue } Mail only | Cash                                                  |
@@ -119,9 +119,9 @@ Proton Mail supports TOTP [two-factor authentication](https://proton.me/support/
 
 #### :material-check:{ .pg-green } امنیت داده
 
-Proton Mail دارای [رمزگذاری بدون دسترسی](https://proton.me/blog/zero-access-encryption) برای سرویس ایمیل‌ و [تقویم](https://proton.me/news/protoncalendar-security-model) است. داده های ایمن شده با رمزگذاری دسترسی صفر فقط توسط شما قابل دسترسی است.
+Proton Mail stores your [emails](https://proton.me/blog/zero-access-encryption) and [calendars](https://proton.me/news/protoncalendar-security-model) with PGP-based encryption at rest, where only you have the decryption keys needed to access them later.
 
-برخی از اطلاعات ذخیره شده در [Proton Contacts](https://proton.me/support/proton-contacts)، مانند نام‌های نمایشی و آدرس‌های ایمیل، با رمزگذاری دسترسی صفر ایمن نمی‌شوند. فیلدهای مخاطبین که از رمزگذاری دسترسی صفر پشتیبانی می کنند، مانند شماره تلفن، با نماد قفل نشان مشخص می شوند.
+Certain information stored in [Proton Contacts](https://proton.me/support/proton-contacts), such as display names and email addresses, are **not** secured with your own encryption keys, so Proton is able to read them. Contact fields which are protected with your own encryption keys, such as phone numbers, are indicated with a padlock icon.
 
 #### :material-check:{ .pg-green } رمزگذاری ایمیل
 
@@ -198,7 +198,7 @@ Mailbox Mail has a digital legacy feature for all plans. You can choose whether 
 
 ## سرویس دهندگان بیشتر
 
-این ارائه دهندگان ایمیل های شما را با رمزگذاری دانش صفر (zero-knowledge encryption) ذخیره می کنند که آنها را گزینه‌های خوبی برای ایمن نگه داشتن ایمیل های شما می‌کند. با این حال، آنها از استانداردهای رمزگذاری E2EE بین ارائه دهندگان مختلف ایمیل پشتیبانی نمی‌کنند.
+These providers encrypt your emails in a way that only you can read them later, making them great options for keeping your stored emails secure. با این حال، آنها از استانداردهای رمزگذاری E2EE بین ارائه دهندگان مختلف ایمیل پشتیبانی نمی‌کنند.
 
 <div class="grid cards" markdown>
 
@@ -254,7 +254,7 @@ Tuta supports [two-factor authentication](https://tuta.com/support#2fa) with eit
 
 #### :material-check:{ .pg-green } امنیت داده
 
-Tuta has [zero-access encryption at rest](https://tuta.com/support#what-encrypted) for your emails, [address book contacts](https://tuta.com/support#encrypted-address-book), and [calendars](https://tuta.com/support#calendar). این بدان معناست که پیام ها و سایر داده های ذخیره شده در حساب شما فقط توسط شما قابل خواندن است.
+Tuta stores your [emails](https://tuta.com/support#what-encrypted), [address book contacts](https://tuta.com/support#encrypted-address-book), and [calendars](https://tuta.com/support#calendar) with strong encryption where only you have the decryption keys. This means the messages and other data stored in your account cannot be read by anyone other than you after they are stored.
 
 #### :material-information-outline:{ .pg-blue } رمزگذاری ایمیل
 
@@ -278,14 +278,14 @@ We regard these features as important in order to provide a safe and optimal ser
 
 **حداقل شرایط صلاحیت:**
 
-- Must encrypt email account data at rest with zero-access encryption.
+- Must encrypt email account data at rest with asymmetric encryption, where only the user has the private keys needed to decrypt it.
 - Must be capable of exporting emails as [Mbox](https://en.wikipedia.org/wiki/Mbox) or individual .EML with [RFC5322](https://datatracker.ietf.org/doc/rfc5322) standard.
 - Allow users to use their own [domain name](https://en.wikipedia.org/wiki/Domain_name). Custom domain names are important to users because it allows them to maintain their agency from the service, should it turn bad or be acquired by another company which doesn't prioritize privacy.
 - Must operate on owned infrastructure, i.e. not built upon third-party email service providers.
 
 **بهترین حالت:**
 
-- Should encrypt all account data (contacts, calendars, etc.) at rest with zero-access encryption.
+- Should encrypt all account data (contacts, calendars, etc.) at rest with asymmetric encryption, where only the user has the private keys needed to decrypt it.
 - Should provide integrated webmail E2EE/PGP encryption as a convenience.
 - Should support WKD to allow improved discovery of public OpenPGP keys via HTTP. GnuPG users can get a key with this command: `gpg --locate-key example_user@example.com`.
 - Support for a temporary mailbox for external users. This is useful when you want to send an encrypted email without sending an actual copy to your recipient. These emails usually have a limited lifespan and then are automatically deleted. They also don't require the recipient to configure any cryptography like OpenPGP.
@@ -317,7 +317,7 @@ Email servers deal with a lot of very sensitive data. We expect that providers w
 **حداقل شرایط لازم:**
 
 - Protection of webmail with 2FA, such as [TOTP](basics/multi-factor-authentication.md#time-based-one-time-password-totp).
-- Zero-access encryption, which builds on encryption at rest. The provider does not have the decryption keys to the data they hold. This prevents a rogue employee leaking data they have access to or remote adversary from releasing data they have stolen by gaining unauthorized access to the server.
+- Encryption at rest, using asymmetric encryption where the service provider does not have the decryption keys to the data they hold. This prevents a rogue employee leaking data they have access to, or a remote adversary from releasing data they have stolen by gaining unauthorized access to the server.
 - [DNSSEC](https://en.wikipedia.org/wiki/Domain_Name_System_Security_Extensions) support.
 - No TLS errors or vulnerabilities when being profiled by tools such as [Hardenize](https://hardenize.com), [testssl.sh](https://testssl.sh), or [Qualys SSL Labs](https://ssllabs.com/ssltest); this includes certificate related errors and weak DH parameters, such as those that led to [Logjam](https://en.wikipedia.org/wiki/Logjam_(computer_security)).
 - A server suite preference (optional on TLS 1.3) for strong cipher suites which support forward secrecy and authenticated encryption.

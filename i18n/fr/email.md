@@ -22,7 +22,7 @@ L'e-mail est pratiquement une nécessité pour utiliser n'importe quel service e
 
 Pour tout le reste, nous recommandons une variété de fournisseurs d'email en fonction de la viabilité de leur modèle économique et de leurs fonctions intégrées de sécurité et de confidentialité. Lisez notre \[liste complète de critères\](#criteres) pour plus d'informations.
 
-| Fournisseur                   | OpenPGP / WKD                          | IMAP / SMTP                                                               | Chiffrement zéro accès                                       | Méthodes de paiement anonymes                                 |
+| Fournisseur                   | OpenPGP / WKD                          | IMAP / SMTP                                                               | Encrypted Storage                                            | Méthodes de paiement anonymes                                 |
 | ----------------------------- | -------------------------------------- | ------------------------------------------------------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------- |
 | [Proton Mail](#proton-mail)   | :material-check:{ .pg-green }          | :material-information-outline:{ .pg-blue } Abonnements payants uniquement | :material-check:{ .pg-green }                                | Espèces <br>Monero via un tiers                         |
 | [Mailbox Mail](#mailbox-mail) | :material-check:{ .pg-green }          | :material-check:{ .pg-green }                                             | :material-information-outline:{ .pg-blue } E-mails seulement | Argent liquide                                                |
@@ -119,9 +119,9 @@ Proton Mail prend en charge l'[authentification à deux facteurs](https://proton
 
 #### :material-check:{ .pg-green } Sécurité des données
 
-Proton Mail dispose d'un [chiffrement à accès zéro](https://proton.me/blog/zero-access-encryption) au repos pour vos e-mails et [calendriers](https://proton.me/news/protoncalendar-security-model). Les données sécurisées par un chiffrement à accès zéro ne sont accessibles que par vous.
+Proton Mail stores your [emails](https://proton.me/blog/zero-access-encryption) and [calendars](https://proton.me/news/protoncalendar-security-model) with PGP-based encryption at rest, where only you have the decryption keys needed to access them later.
 
-Certaines informations stockées dans [Proton Contacts](https://proton.me/support/proton-contacts), telles que les noms et les adresses e-mail, ne sont pas sécurisées par un chiffrement à accès zéro. Les champs de contact qui prennent en charge le chiffrement à accès zéro, comme les numéros de téléphone, sont indiqués par une icône de cadenas.
+Certain information stored in [Proton Contacts](https://proton.me/support/proton-contacts), such as display names and email addresses, are **not** secured with your own encryption keys, so Proton is able to read them. Contact fields which are protected with your own encryption keys, such as phone numbers, are indicated with a padlock icon.
 
 #### :material-check:{ .pg-green } Chiffrement des e-mails
 
@@ -198,7 +198,7 @@ Mailbox Mail dispose d'une fonction d'héritage numérique pour toutes les offre
 
 ## D'autres fournisseurs
 
-Ces fournisseurs stockent vos e-mails avec un chiffrement à connaissance zéro, ce qui en fait d'excellentes options pour assurer la sécurité de vos e-mails stockés. Cependant, ils ne prennent pas en charge les normes de chiffrement interopérables pour des communications E2EE entre fournisseurs.
+These providers encrypt your emails in a way that only you can read them later, making them great options for keeping your stored emails secure. Cependant, ils ne prennent pas en charge les normes de chiffrement interopérables pour des communications E2EE entre fournisseurs.
 
 <div class="grid cards" markdown>
 
@@ -254,7 +254,7 @@ Tuta prend en charge l'[authentification à deux facteurs](https://tuta.com/supp
 
 #### :material-check:{ .pg-green } Sécurité des données
 
-Tuta dispose d'un [chiffrement à accès zéro au repos](https://tuta.com/support#what-encrypted) pour vos e-mails, votre [carnet d'adresses, vos contacts](https://tuta.com/support#encrypted-address-book) et vos [calendriers](https://tuta.com/support#calendar). Cela signifie que les messages et autres données stockés dans votre compte ne sont lisibles que par vous.
+Tuta stores your [emails](https://tuta.com/support#what-encrypted), [address book contacts](https://tuta.com/support#encrypted-address-book), and [calendars](https://tuta.com/support#calendar) with strong encryption where only you have the decryption keys. This means the messages and other data stored in your account cannot be read by anyone other than you after they are stored.
 
 #### :material-information-outline:{ .pg-blue } Chiffrement des e-mails
 
@@ -278,14 +278,14 @@ Nous considérons ces caractéristiques comme importantes afin de fournir un ser
 
 **Minimum pour se qualifier :**
 
-- Doit crypter les données des comptes de messagerie au repos avec un cryptage à accès zéro.
+- Must encrypt email account data at rest with asymmetric encryption, where only the user has the private keys needed to decrypt it.
 - Doit être capable d'exporter des courriels sous forme de [Mbox](https://en.wikipedia.org/wiki/Mbox) ou de .EML individuel selon la norme [RFC5322](https://datatracker.ietf.org/doc/rfc5322).
 - Permettre aux utilisateurs d'utiliser leur propre [nom de domaine](https://en.wikipedia.org/wiki/Domain_name). Les noms de domaine personnalisés sont importants pour les utilisateurs car ils leur permettent de conserver leur indépendance du service, au cas où celui-ci tournerait mal ou serait racheté par une autre société qui ne donne pas priorité à la vie privée.
 - Doit fonctionner sur une infrastructure propre, c'est-à-dire qu'elle ne doit pas reposer sur des fournisseurs de services de messagerie tiers.
 
 **Dans le meilleur des cas :**
 
-- Devrait chiffrer toutes les données du compte (contacts, calendriers, etc.) au repos à l'aide d'un chiffrement à accès zéro.
+- Should encrypt all account data (contacts, calendars, etc.) at rest with asymmetric encryption, where only the user has the private keys needed to decrypt it.
 - Devrait fournir un cryptage E2EE/PGP intégré pour le webmail, à titre de commodité.
 - Devrait prendre en charge WKD pour permettre une meilleure découverte des clés publiques OpenPGP via HTTP. Les utilisateurs de GnuPG peuvent obtenir une clé avec la commande suivante : `gpg --locate-key example_user@example.com.`
 - Prise en charge d'une boîte mail temporaire pour les utilisateurs externes. Cette fonction est utile lorsque vous souhaitez envoyer un e-mail chiffré, sans envoyer une copie réelle à votre destinataire. Ces e-mails ont généralement une durée de vie limitée et sont ensuite automatiquement supprimés. Ils n'obligent pas non plus le destinataire à configurer un système de chiffrement comme OpenPGP.
@@ -317,7 +317,7 @@ Les serveurs d'e-mail traitent un grand nombre de données très sensibles. Nous
 **Minimum pour se qualifier :**
 
 - Protection du webmail par 2FA, tel que [TOTP](basics/multi-factor-authentication.md#time-based-one-time-password-totp).
-- Le chiffrement à accès zéro, qui s'appuie sur le chiffrement au repos. Le fournisseur ne dispose pas des clés de déchiffrement des données qu'il détient. Cela permet d'éviter qu'un employé malhonnête ne divulgue les données auxquelles il a accès ou qu'un adversaire distant ne divulgue les données qu'il a volées en obtenant un accès non autorisé au serveur.
+- Encryption at rest, using asymmetric encryption where the service provider does not have the decryption keys to the data they hold. This prevents a rogue employee leaking data they have access to, or a remote adversary from releasing data they have stolen by gaining unauthorized access to the server.
 - Prise en charge de [DNSSEC](https://en.wikipedia.org/wiki/Domain_Name_System_Security_Extensions).
 - Aucune erreurs ou vulnérabilités TLS lors du profilage par des outils tels que [Hardenize](https://hardenize.com), [testssl.sh](https://testssl.sh), ou [Qualys SSL Labs](https://ssllabs.com/ssltest); cela inclut les erreurs liées aux certificats et les paramètres DH faibles, tels que ceux qui ont conduit à [Logjam](https://en.wikipedia.org/wiki/Logjam_(computer_security)).
 - Une préférence pour les serveurs (facultatif sur TLSv1.3) pour des suites de chiffrement fortes qui prennent en charge la confidentialité persistante et le chiffrement authentifié.

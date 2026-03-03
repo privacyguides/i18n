@@ -22,7 +22,7 @@ O "email" é praticamente uma necessidade para usar qualquer serviço “online�
 
 Para qualquer outra coisa, recomendamos uma variedade de provedores de email baseados em modelos de negócio sustentáveis e recursos de segurança e privacidade incorporados. Leia nossa [lista completa de requisitos](#criteria) para mais informações.
 
-| Provedor                      | OpenPGP / WKD                          | IMAP / SMTP                                                    | Zero-Access Encryption                                 | Métodos de Pagamento Anônimos                         |
+| Provedor                      | OpenPGP / WKD                          | IMAP / SMTP                                                    | Encrypted Storage                                      | Métodos de Pagamento Anônimos                         |
 | ----------------------------- | -------------------------------------- | -------------------------------------------------------------- | ------------------------------------------------------ | ----------------------------------------------------- |
 | [Proton Mail](#proton-mail)   | :material-check:{ .pg-green }          | :material-information-outline:{ .pg-blue } Planos pagos apenas | :material-check:{ .pg-green }                          | Cash <br>Monero via third party                 |
 | [Mailbox Mail](#mailbox-mail) | :material-check:{ .pg-green }          | :material-check:{ .pg-green }                                  | :material-information-outline:{ .pg-blue } Mail apenas | Dinheiro                                              |
@@ -119,9 +119,9 @@ O Proton Mail suporta [autenticação de dois fatores](https://proton.me/support
 
 #### :material-check:{ .pg-green } Segurança dos Dados
 
-Proton Mail tem [criptografia de acesso zero](https://proton.me/blog/zero-access-encryption) em repouso para seus e-mails e [calendários](https://proton.me/news/protoncalendar-security-model). Os dados protegidos com criptografia de acesso zero só são acessíveis por você.
+Proton Mail stores your [emails](https://proton.me/blog/zero-access-encryption) and [calendars](https://proton.me/news/protoncalendar-security-model) with PGP-based encryption at rest, where only you have the decryption keys needed to access them later.
 
-Certas informações armazenadas no [Proton Contacts](https://proton.me/support/proton-contacts), como nomes de exibição e endereços de e-mail, não são protegidas com criptografia de acesso zero. Campos de contatos que suportam criptografia de acesso zero, tais como números de telefone, são indicados com um ícone de cadeado.
+Certain information stored in [Proton Contacts](https://proton.me/support/proton-contacts), such as display names and email addresses, are **not** secured with your own encryption keys, so Proton is able to read them. Contact fields which are protected with your own encryption keys, such as phone numbers, are indicated with a padlock icon.
 
 #### :material-check:{ .pg-green } Criptografia do Email
 
@@ -198,7 +198,7 @@ Mailbox Mail has a digital legacy feature for all plans. You can choose whether 
 
 ## Mais Provedores
 
-Estes provedores armazenam os seus e-mails com criptografia de conhecimento zero, o que os torna excelentes opções para manter seguros os seus e-mails armazenados. No entanto, eles não suportam padrões de criptografia interoperáveis para comunicações ponta-a-ponta (E2EE) entre provedores.
+These providers encrypt your emails in a way that only you can read them later, making them great options for keeping your stored emails secure. No entanto, eles não suportam padrões de criptografia interoperáveis para comunicações ponta-a-ponta (E2EE) entre provedores.
 
 <div class="grid cards" markdown>
 
@@ -254,7 +254,7 @@ Também há  suporte à [autenticação de dois fatores](https://tuta.com/suppor
 
 #### :material-check:{ .pg-green } Segurança dos Dados
 
-Tuta has [zero-access encryption at rest](https://tuta.com/support#what-encrypted) for your emails, [address book contacts](https://tuta.com/support#encrypted-address-book), and [calendars](https://tuta.com/support#calendar). Isso significa que as mensagens e outros dados armazenados em sua conta só são legíveis por você.
+Tuta stores your [emails](https://tuta.com/support#what-encrypted), [address book contacts](https://tuta.com/support#encrypted-address-book), and [calendars](https://tuta.com/support#calendar) with strong encryption where only you have the decryption keys. This means the messages and other data stored in your account cannot be read by anyone other than you after they are stored.
 
 #### :material-information-outline:{ .pg-blue } Criptografia do Email
 
@@ -278,14 +278,14 @@ Consideramos esses recursos importantes para fornecer um serviço seguro e otimi
 
 **Mínimo Para Qualificação:**
 
-- Must encrypt email account data at rest with zero-access encryption.
+- Must encrypt email account data at rest with asymmetric encryption, where only the user has the private keys needed to decrypt it.
 - Must be capable of exporting emails as [Mbox](https://en.wikipedia.org/wiki/Mbox) or individual .EML with [RFC5322](https://datatracker.ietf.org/doc/rfc5322) standard.
 - Allow users to use their own [domain name](https://en.wikipedia.org/wiki/Domain_name). Nomes de domínio personalizados são importantes para os usuários, porque lhes permite manter sua agência a partir do serviço. Deve piorar ou ser adquirido por outra empresa que não priorize a privacidade.
 - Must operate on owned infrastructure, i.e. not built upon third-party email service providers.
 
 **Melhor Caso:**
 
-- Should encrypt all account data (contacts, calendars, etc.) at rest with zero-access encryption.
+- Should encrypt all account data (contacts, calendars, etc.) at rest with asymmetric encryption, where only the user has the private keys needed to decrypt it.
 - Should provide integrated webmail E2EE/PGP encryption as a convenience.
 - Should support WKD to allow improved discovery of public OpenPGP keys via HTTP. GnuPG users can get a key with this command: `gpg --locate-key example_user@example.com`.
 - Suporte para uma caixa de correio temporária para usuários externos. This is useful when you want to send an encrypted email without sending an actual copy to your recipient. Estes e-mails geralmente têm um tempo de vida limitado e depois são automaticamente excluídos. Eles também não exigem que o destinatário configure nenhuma criptografia, como o OpenPGP.
@@ -317,7 +317,7 @@ Email servers deal with a lot of very sensitive data. We expect that providers w
 **Mínimo Para Qualificação:**
 
 - Protection of webmail with 2FA, such as [TOTP](basics/multi-factor-authentication.md#time-based-one-time-password-totp).
-- Zero-access encryption, which builds on encryption at rest. O provedor não tem as chaves de descriptografia dos dados que possui. Isso evita que um funcionário desonesto vaze os dados aos quais tem acesso ou que um adversário remoto libere os dados que roubou ao obter acesso não autorizado ao servidor.
+- Encryption at rest, using asymmetric encryption where the service provider does not have the decryption keys to the data they hold. This prevents a rogue employee leaking data they have access to, or a remote adversary from releasing data they have stolen by gaining unauthorized access to the server.
 - Suporte a [DNSSEC](https://en.wikipedia.org/wiki/Domain_Name_System_Security_Extensions).
 - Nenhum erro ou vulnerabilidade de TLS ao ser analisado por ferramentas como [Hardenize](https://hardenize.com), [testssl.sh](https://testssl.sh) ou [Qualys SSL Labs](https://ssllabs.com/ssltest); isso inclui erros relacionados a certificados e parâmetros DH fracos, como os que levaram ao [Logjam](https://en.wikipedia.org/wiki/Logjam_(computer_security)).
 - A server suite preference (optional on TLS 1.3) for strong cipher suites which support forward secrecy and authenticated encryption.

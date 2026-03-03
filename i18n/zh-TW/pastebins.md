@@ -17,7 +17,7 @@ cover: pastebins.webp
 
 ![PrivateBin 標誌](assets/img/pastebins/privatebin.svg){ align=right }
 
-**PrivateBin** 是一款極簡主義的開放原始碼 pastebin，其伺服器對貼入的資料一無所知。 資料在瀏覽器中使用 256 位元 AES 加密/解密。 它是 ZeroBin 的改良版。
+**PrivateBin** is a minimalist, open-source, online pastebin where the server cannot decrypt and read any pasted data you submit. 資料在瀏覽器中使用 256 位元 AES 加密/解密。 它是 ZeroBin 的改良版。
 
 [:octicons-home-16: 首頁](https://privatebin.info){ .md-button .md-button--primary }
 [:octicons-server-16:](https://privatebin.info/directory){ .card-link title="公開站台"}
@@ -49,7 +49,7 @@ cover: pastebins.webp
 ### 最低要求
 
 - 必須開放原始碼。
-- 必須實作「零信任」E2EE。
+- Must encrypt pasted data on the client side before it is sent to the server.
 - 必須支援密碼保護檔案。
 
 ### 最佳情況

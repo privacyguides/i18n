@@ -17,7 +17,7 @@ cover: pastebins.webp
 
 ![PrivateBin logo](assets/img/pastebins/privatebin.svg){ align=right }
 
-**PrivateBin** is a minimalist, open-source, online pastebin where the server has zero knowledge of pasted data. 데이터는 브라우저에서 AES-256으로 암호화/복호화됩니다. ZeroBin을 개선한 버전의 서비스이기도 합니다.
+**PrivateBin** is a minimalist, open-source, online pastebin where the server cannot decrypt and read any pasted data you submit. 데이터는 브라우저에서 AES-256으로 암호화/복호화됩니다. ZeroBin을 개선한 버전의 서비스이기도 합니다.
 
 [:octicons-home-16: Homepage](https://privatebin.info){ .md-button .md-button--primary }
 [:octicons-server-16:](https://privatebin.info/directory){ .card-link title="Public Instances"}
@@ -49,7 +49,7 @@ cover: pastebins.webp
 ### 최소 요구 사항
 
 - 오픈 소스여야 합니다.
-- Must implement "zero-trust" E2EE.
+- Must encrypt pasted data on the client side before it is sent to the server.
 - 파일을 비밀번호로 보호하는 기능을 지원해야 합니다
 
 ### 우대 사항

@@ -22,7 +22,7 @@ Az email gyakorlatilag elengedhetetlen bármilyen online szolgáltatás használ
 
 Minden más esetre olyan emailszolgáltatókat ajánlunk, amelyek fenntartható üzleti modelleken és beépített biztonsági, adat- és magánéletvédelmi funkciókon alapulnak. Read our [full list of criteria](#criteria) for more information.
 
-| Provider                      | OpenPGP / WKD                          | IMAP / SMTP                                                | Zero-Access Encryption                               | Anonymous Payment Methods                             |
+| Provider                      | OpenPGP / WKD                          | IMAP / SMTP                                                | Encrypted Storage                                    | Anonymous Payment Methods                             |
 | ----------------------------- | -------------------------------------- | ---------------------------------------------------------- | ---------------------------------------------------- | ----------------------------------------------------- |
 | [Proton Mail](#proton-mail)   | :material-check:{ .pg-green }          | :material-information-outline:{ .pg-blue } Paid plans only | :material-check:{ .pg-green }                        | Cash <br>Monero via third party                 |
 | [Mailbox Mail](#mailbox-mail) | :material-check:{ .pg-green }          | :material-check:{ .pg-green }                              | :material-information-outline:{ .pg-blue } Mail only | Cash                                                  |
@@ -119,9 +119,9 @@ Proton Mail supports TOTP [two-factor authentication](https://proton.me/support/
 
 #### :material-check:{ .pg-green } Adatbiztonság
 
-A Proton Mail [zéró hozzáférésű titkosítással](https://proton.me/blog/zero-access-encryption) védi az e-maileket és [naptárakat](https://proton.me/news/protoncalendar-security-model). A zéró hozzáférésű titkosítással védett adatokhoz csak Ön férhet hozzá.
+Proton Mail stores your [emails](https://proton.me/blog/zero-access-encryption) and [calendars](https://proton.me/news/protoncalendar-security-model) with PGP-based encryption at rest, where only you have the decryption keys needed to access them later.
 
-A [Proton Contactsban](https://proton.me/support/proton-contacts) tárolt bizonyos információk, például a megjelenített nevek és e-mail címek nem biztosítottak zéró hozzáférésű titkosítással. A zéró hozzáférésű titkosítást támogató kapcsolati mezők, például a telefonszámok, lakat ikonjával vannak jelölve.
+Certain information stored in [Proton Contacts](https://proton.me/support/proton-contacts), such as display names and email addresses, are **not** secured with your own encryption keys, so Proton is able to read them. Contact fields which are protected with your own encryption keys, such as phone numbers, are indicated with a padlock icon.
 
 #### :material-check:{ .pg-green } E-mail titkosítás
 
@@ -198,7 +198,7 @@ Mailbox Mail has a digital legacy feature for all plans. You can choose whether 
 
 ## További szolgáltatók
 
-Ezek a szolgáltatók zéró hozzáférésű titkosítással tárolják az e-maileket, így kiválóan alkalmasak a tárolt e-mailek biztonságban tartására. Nem támogatják azonban a különböző szolgáltatók közötti E2EE-kommunikáció interoperábilis titkosítási szabványait.
+These providers encrypt your emails in a way that only you can read them later, making them great options for keeping your stored emails secure. Nem támogatják azonban a különböző szolgáltatók közötti E2EE-kommunikáció interoperábilis titkosítási szabványait.
 
 <div class="grid cards" markdown>
 
@@ -254,7 +254,7 @@ Tuta supports [two-factor authentication](https://tuta.com/support#2fa) with eit
 
 #### :material-check:{ .pg-green } Adatbiztonság
 
-Tuta has [zero-access encryption at rest](https://tuta.com/support#what-encrypted) for your emails, [address book contacts](https://tuta.com/support#encrypted-address-book), and [calendars](https://tuta.com/support#calendar). Ez azt jelenti, hogy a fiókodban tárolt üzeneteket és egyéb adatokhoz kizárólag te férhetsz hozzá.
+Tuta stores your [emails](https://tuta.com/support#what-encrypted), [address book contacts](https://tuta.com/support#encrypted-address-book), and [calendars](https://tuta.com/support#calendar) with strong encryption where only you have the decryption keys. This means the messages and other data stored in your account cannot be read by anyone other than you after they are stored.
 
 #### :material-information-outline:{ .pg-blue } E-mail titkosítás
 
@@ -278,14 +278,14 @@ Ezeket a funkciókat fontosnak tartjuk a biztonságos és optimális szolgáltat
 
 **Alap Elvárások Minősítéshez:**
 
-- Must encrypt email account data at rest with zero-access encryption.
+- Must encrypt email account data at rest with asymmetric encryption, where only the user has the private keys needed to decrypt it.
 - Must be capable of exporting emails as [Mbox](https://en.wikipedia.org/wiki/Mbox) or individual .EML with [RFC5322](https://datatracker.ietf.org/doc/rfc5322) standard.
 - Allow users to use their own [domain name](https://en.wikipedia.org/wiki/Domain_name). Az egyéni domain nevek azért fontosak a felhasználók számára, mert lehetővé teszik számukra, hogy megőrizzék a függetlenedési képességüket a szolgáltatástól, ha az rosszra fordulna, vagy ha egy másik vállalat felvásárolná, amely nem helyezi előtérbe az adatvédelmet.
 - Must operate on owned infrastructure, i.e. not built upon third-party email service providers.
 
 **Legjobb esetben:**
 
-- Should encrypt all account data (contacts, calendars, etc.) at rest with zero-access encryption.
+- Should encrypt all account data (contacts, calendars, etc.) at rest with asymmetric encryption, where only the user has the private keys needed to decrypt it.
 - Should provide integrated webmail E2EE/PGP encryption as a convenience.
 - Should support WKD to allow improved discovery of public OpenPGP keys via HTTP. GnuPG users can get a key with this command: `gpg --locate-key example_user@example.com`.
 - Ideiglenes postafiók támogatása külső felhasználók számára. This is useful when you want to send an encrypted email without sending an actual copy to your recipient. Ezek az e-mailek általában korlátozott élettartamúak, majd automatikusan törlődnek. A címzettnek nem kell semmilyen titkosítást konfigurálnia, mint az OpenPGP esetében.
@@ -317,7 +317,7 @@ Email servers deal with a lot of very sensitive data. We expect that providers w
 **Alap elvárások minősítéshez:**
 
 - Protection of webmail with 2FA, such as [TOTP](basics/multi-factor-authentication.md#time-based-one-time-password-totp).
-- Zero-access encryption, which builds on encryption at rest. A szolgáltató nem rendelkezik a birtokában lévő adatok visszafejtési kulcsaival. Ez megakadályozza, hogy egy rosszhiszemű alkalmazott kiszivárogtassa az adatokat, amelyekhez hozzáfér, vagy egy távoli ellenfél a szerverhez való jogosulatlan hozzáféréssel kiadja az ellopott adatokat.
+- Encryption at rest, using asymmetric encryption where the service provider does not have the decryption keys to the data they hold. This prevents a rogue employee leaking data they have access to, or a remote adversary from releasing data they have stolen by gaining unauthorized access to the server.
 - [DNSSEC](https://en.wikipedia.org/wiki/Domain_Name_System_Security_Extensions) támogatás.
 - Nincsenek TLS-hibák vagy sebezhetőségek, amikor olyan eszközökkel profilozzák, mint a [Hardenize](https://hardenize.com), a [testssl.sh](https://testssl.sh) vagy a [Qualys SSL Labs](https://ssllabs.com/ssltest); ez magában foglalja a tanúsítványokkal kapcsolatos hibákat és a gyenge DH-paramétereket, például azokat, amelyek a [Logjamhoz](https://en.wikipedia.org/wiki/Logjam_(computer_security)) vezettek.
 - A server suite preference (optional on TLS 1.3) for strong cipher suites which support forward secrecy and authenticated encryption.

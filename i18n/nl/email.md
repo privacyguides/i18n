@@ -22,7 +22,7 @@ E-mail is bijna een noodzaak voor het gebruik van elke online dienst, maar wij r
 
 Voor al het andere raden wij verschillende e-mailproviders aan op basis van duurzame bedrijfsmodellen en ingebouwde beveiligings- en privacyfuncties. Lees onze [volledige lijst met criteria](#criteria) voor meer informatie.
 
-| Provider                      | OpenPGP / WKD                          | IMAP / SMTP                                                             | Zero-access encryptie                                  | Anonieme betaalmethoden                                    |
+| Provider                      | OpenPGP / WKD                          | IMAP / SMTP                                                             | Encrypted Storage                                      | Anonieme betaalmethoden                                    |
 | ----------------------------- | -------------------------------------- | ----------------------------------------------------------------------- | ------------------------------------------------------ | ---------------------------------------------------------- |
 | [Proton Mail](#proton-mail)   | :material-check:{ .pg-green }          | :material-information-outline:{ .pg-blue } Alleen betaalde abonnementen | :material-check:{ .pg-green }                          | Contant <br>Monero via derde partij                  |
 | [Mailbox Mail](#mailbox-mail) | :material-check:{ .pg-green }          | :material-check:{ .pg-green }                                           | :material-information-outline:{ .pg-blue } alleen mail | Contant                                                    |
@@ -119,9 +119,9 @@ Proton Mail ondersteunt TOTP [tweestapsverificatie](https://proton.me/support/tw
 
 #### :material-check:{ .pg-green } Gegevensbeveiliging
 
-Proton Mail heeft [zero-access encryptie](https://proton.me/blog/zero-access-encryption) in rust voor jouw e-mails en [agenda's](https://proton.me/news/protoncalendar-security-model). Gegevens die zijn beveiligd met zero-access encryptie zijn alleen voor jou toegankelijk.
+Proton Mail stores your [emails](https://proton.me/blog/zero-access-encryption) and [calendars](https://proton.me/news/protoncalendar-security-model) with PGP-based encryption at rest, where only you have the decryption keys needed to access them later.
 
-Bepaalde informatie opgeslagen in [Proton Contacts](https://proton.me/support/proton-contacts), zoals namen en e-mailadressen, zijn niet beveiligd met zero-access encryptie. Contact velden die zero-access encryptie ondersteunen, zoals telefoonnummers, worden aangegeven met een hangslot pictogram.
+Certain information stored in [Proton Contacts](https://proton.me/support/proton-contacts), such as display names and email addresses, are **not** secured with your own encryption keys, so Proton is able to read them. Contact fields which are protected with your own encryption keys, such as phone numbers, are indicated with a padlock icon.
 
 #### :material-check:{ .pg-green } E-mail encryptie
 
@@ -198,7 +198,7 @@ Mailbox Mail heeft een digitale nalatenschap functie voor alle abonnementen. Je 
 
 ## Meer providers
 
-Deze providers slaan je e-mails op met zero-knowledge encryptie, waardoor ze geweldige opties zijn om je opgeslagen e-mails veilig te houden. Zij ondersteunen echter geen interoperabele versleutelingsnormen voor E2EE-communicatie tussen aanbieders.
+These providers encrypt your emails in a way that only you can read them later, making them great options for keeping your stored emails secure. Zij ondersteunen echter geen interoperabele versleutelingsnormen voor E2EE-communicatie tussen aanbieders.
 
 <div class="grid cards" markdown>
 
@@ -254,7 +254,7 @@ Tuta ondersteunt [tweestapsverificatie](https://tuta.com/support#2fa) met TOTP o
 
 #### :material-check:{ .pg-green } Gegevensbeveiliging
 
-Tuta heeft [zero-access encryptie in rust](https://tuta.com/support#what-encrypted) voor je e-mails, [adresboekcontacten](https://tuta.com/support#encrypted-address-book) en [agenda's](https://tuta.com/support#calendar). Dit betekent dat de berichten en andere gegevens die in jouw account zijn opgeslagen, alleen door je kunnen worden gelezen.
+Tuta stores your [emails](https://tuta.com/support#what-encrypted), [address book contacts](https://tuta.com/support#encrypted-address-book), and [calendars](https://tuta.com/support#calendar) with strong encryption where only you have the decryption keys. This means the messages and other data stored in your account cannot be read by anyone other than you after they are stored.
 
 #### :material-information-outline:{ .pg-blue } Email Encryptie
 
@@ -278,14 +278,14 @@ Wij beschouwen deze kenmerken als belangrijk om een veilige en optimale dienst t
 
 **Minimum om in aanmerking te komen:**
 
-- Versleutelt e-mail accountgegevens in rust met zero-access encryptie.
+- Must encrypt email account data at rest with asymmetric encryption, where only the user has the private keys needed to decrypt it.
 - Moet e-mails kunnen exporteren als [Mbox](https://en.wikipedia.org/wiki/Mbox) of individuele .EML met [RFC5322](https://datatracker.ietf.org/doc/rfc5322) standaard.
 - Laat gebruikers hun eigen [domeinnaam](https://en.wikipedia.org/wiki/Domain_name) gebruiken. Aangepaste domeinnamen zijn belangrijk voor gebruikers omdat ze zo hun agentschap van de dienst kunnen behouden, mocht het slecht aflopen of overgenomen worden door een ander bedrijf dat geen prioriteit geeft aan privacy.
 - Moet werken op een eigen infrastructuur, d.w.z. niet gebaseerd op e-mailserviceproviders van derden.
 
 **Beste geval:**
 
-- Versleutelt alle accountgegevens (contacten, agenda's, etc.) in rust met zero-access encryptie.
+- Should encrypt all account data (contacts, calendars, etc.) at rest with asymmetric encryption, where only the user has the private keys needed to decrypt it.
 - Moet geïntegreerde webmail E2EE/PGP-encryptie bieden.
 - Should support WKD to allow improved discovery of public OpenPGP keys via HTTP. GnuPG users can get a key with this command: `gpg --locate-key example_user@example.com`.
 - Ondersteuning voor een tijdelijke mailbox voor externe gebruikers. This is useful when you want to send an encrypted email without sending an actual copy to your recipient. Deze e-mails hebben meestal een beperkte levensduur en worden daarna automatisch verwijderd. Zij vereisen ook niet dat de ontvanger cryptografie configureert zoals OpenPGP.
@@ -317,7 +317,7 @@ E-mailservers verwerken veel zeer gevoelige gegevens. We verwachten dat provider
 **Minimum om in aanmerking te komen:**
 
 - Bescherming van webmail met 2FA, zoals [TOTP](basics/multi-factor-authentication.md#time-based-one-time-password-totp).
-- Zero access encryptie, bouwt voort op encryptie in rust. De provider heeft geen decryptiesleutels voor de gegevens die ze hebben. Dit voorkomt dat een malafide werknemer gegevens lekt waartoe hij toegang heeft, of dat een tegenstander op afstand gegevens vrijgeeft die hij heeft gestolen door ongeoorloofde toegang tot de server te verkrijgen.
+- Encryption at rest, using asymmetric encryption where the service provider does not have the decryption keys to the data they hold. This prevents a rogue employee leaking data they have access to, or a remote adversary from releasing data they have stolen by gaining unauthorized access to the server.
 - [DNSSEC](https://en.wikipedia.org/wiki/Domain_Name_System_Security_Extensions) ondersteuning.
 - No TLS errors or vulnerabilities when being profiled by tools such as [Hardenize](https://hardenize.com), [testssl.sh](https://testssl.sh), or [Qualys SSL Labs](https://ssllabs.com/ssltest); this includes certificate related errors and weak DH parameters, such as those that led to [Logjam](https://en.wikipedia.org/wiki/Logjam_(computer_security)).
 - A server suite preference (optional on TLS 1.3) for strong cipher suites which support forward secrecy and authenticated encryption.

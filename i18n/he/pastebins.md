@@ -17,7 +17,7 @@ cover: pastebins.webp
 
 ![PrivateBin logo](assets/img/pastebins/privatebin.svg){ align=right }
 
-**PrivateBin** is a minimalist, open-source, online pastebin where the server has zero knowledge of pasted data. הנתונים מוצפנים/מפוענים בדפדפן באמצעות 256 סיביות AES. זוהי הגרסה המשופרת של ZeroBin.
+**PrivateBin** is a minimalist, open-source, online pastebin where the server cannot decrypt and read any pasted data you submit. הנתונים מוצפנים/מפוענים בדפדפן באמצעות 256 סיביות AES. זוהי הגרסה המשופרת של ZeroBin.
 
 [:octicons-home-16: Homepage](https://privatebin.info){ .md-button .md-button--primary }
 [:octicons-server-16:](https://privatebin.info/directory){ .card-link title="Public Instances"}
@@ -49,7 +49,7 @@ cover: pastebins.webp
 ### דרישות מינימליות
 
 - חייב להיות קוד פתוח.
-- Must implement "zero-trust" E2EE.
+- Must encrypt pasted data on the client side before it is sent to the server.
 - חייב לתמוך בקבצים המוגנים בסיסמה.
 
 ### המקרה הטוב ביותר

@@ -22,7 +22,7 @@ Email bisa dibilang merupakan kebutuhan untuk menggunakan layanan daring apa pun
 
 Untuk yang lainnya, kami merekomendasikan berbagai penyedia surel yang didasarkan pada model bisnis yang berkelanjutan serta fitur keamanan dan privasi bawaan. Baca [daftar lengkap kriteria](#criteria) kami untuk informasi lebih lanjut.
 
-| Penyedia                      | OpenPGP / WKD                          | IMAP / SMTP                                                     | Zero-Access Encryption                                | Metode Pembayaran Anonim                                              |
+| Penyedia                      | OpenPGP / WKD                          | IMAP / SMTP                                                     | Encrypted Storage                                     | Metode Pembayaran Anonim                                              |
 | ----------------------------- | -------------------------------------- | --------------------------------------------------------------- | ----------------------------------------------------- | --------------------------------------------------------------------- |
 | [Proton Mail](#proton-mail)   | :material-check:{ .pg-green }          | :material-information-outline:{ .pg-blue } Hanya paket berbayar | :material-check:{ .pg-green }                         | Cash <br>Monero melalui pihak ketiga                            |
 | [MailBox Mail](#mailbox-mail) | :material-check:{ .pg-green }          | :material-check:{ .pg-green }                                   | :material-information-outline:{ .pg-blue } Hanya mail | Uang Tunai                                                            |
@@ -119,9 +119,9 @@ Proton Mail mendukung [two-factor authentication](https://proton.me/support/two-
 
 #### :material-check:{ .pg-green } Keamanan Data
 
-Proton Mail memiliki [zero-access encryption](https://proton.me/blog/zero-access-encryption) untuk email dan [kalender](https://proton.me/news/protoncalendar-security-model) Anda. Data yang diamankan dengan zero-access encryption hanya dapat diakses oleh Anda.
+Proton Mail stores your [emails](https://proton.me/blog/zero-access-encryption) and [calendars](https://proton.me/news/protoncalendar-security-model) with PGP-based encryption at rest, where only you have the decryption keys needed to access them later.
 
-Informasi tertentu yang disimpan di [Proton Contacts](https://proton.me/support/proton-contacts), seperti nama tampilan dan alamat email, tidak diamankan dengan zero-access encryption. Bidang kontak yang mendukung zero-access encryption, seperti nomor telepon, ditunjukkan dengan ikon gembok.
+Certain information stored in [Proton Contacts](https://proton.me/support/proton-contacts), such as display names and email addresses, are **not** secured with your own encryption keys, so Proton is able to read them. Contact fields which are protected with your own encryption keys, such as phone numbers, are indicated with a padlock icon.
 
 #### :material-check:{ .pg-green } Enkripsi Email
 
@@ -198,7 +198,7 @@ Mailbox Mail memiliki fitur warisan digital untuk semua paket. Anda dapat memili
 
 ## Penyedia Lainnya
 
-Penyedia ini menyimpan email Anda dengan zero-knowledge encryption, menjadikannya pilihan yang bagus untuk menjaga email yang tersimpan tetap aman. Namun, mereka tidak mendukung standar enkripsi yang dapat dioperasikan untuk komunikasi E2EE antara penyedia yang berbeda.
+These providers encrypt your emails in a way that only you can read them later, making them great options for keeping your stored emails secure. Namun, mereka tidak mendukung standar enkripsi yang dapat dioperasikan untuk komunikasi E2EE antara penyedia yang berbeda.
 
 <div class="grid cards" markdown>
 
@@ -254,7 +254,7 @@ Tuta mendukung [two-factor authentication](https://tuta.com/support#2fa) dengan 
 
 #### :material-check:{ .pg-green } Keamanan Data
 
-Tuta memiliki [zero-access encryption](https://tuta.com/support#what-encrypted) untuk email Anda, [kontak buku alamat](https://tuta.com/support#encrypted-address-book), dan [kalender](https://tuta.com/support#calendar). Ini berarti pesan dan data lain yang tersimpan di akun Anda hanya dapat dibaca oleh Anda.
+Tuta stores your [emails](https://tuta.com/support#what-encrypted), [address book contacts](https://tuta.com/support#encrypted-address-book), and [calendars](https://tuta.com/support#calendar) with strong encryption where only you have the decryption keys. This means the messages and other data stored in your account cannot be read by anyone other than you after they are stored.
 
 #### :material-information-outline:{ .pg-blue } Enkripsi Email
 
@@ -278,14 +278,14 @@ Kami menganggap fitur-fitur ini penting untuk memberikan layanan yang aman dan o
 
 **Minimum untuk Memenuhi Syarat:**
 
-- Harus mengenkripsi data akun email saat tidak aktif dengan zero-access encryption.
+- Must encrypt email account data at rest with asymmetric encryption, where only the user has the private keys needed to decrypt it.
 - Harus mampu mengekspor email sebagai [Mbox](https://en.wikipedia.org/wiki/Mbox) atau .EML individual dengan standar [RFC5322](https://datatracker.ietf.org/doc/rfc5322).
 - Izinkan pengguna untuk menggunakan [nama domain](https://en.wikipedia.org/wiki/Domain_name) mereka sendiri. Nama domain khusus penting bagi pengguna karena memungkinkan mereka untuk mempertahankan keagenan meraka dari layanan, jika layanan berubah menjadi buruk atau diakuisisi oleh perusahaan lain yang tidak memprioritaskan privasi.
 - Harus beroperasi pada infrastruktur milik sendiri, yaitu tidak dibangun di atas penyedia layanan email pihak ketiga.
 
 **Kasus Terbaik:**
 
-- Harus mengenkripsi semua data akun (kontak, kalender, dll.) saat tidak digunakan dengan zero-access encryption.
+- Should encrypt all account data (contacts, calendars, etc.) at rest with asymmetric encryption, where only the user has the private keys needed to decrypt it.
 - Harus menyediakan enkripsi E2EE/PGP webmail yang terintegrasi sebagai kenyamanan.
 - Harus mendukung WKD untuk memungkinkan penemuan kunci OpenPGP publik yang lebih baik melalui HTTP. Pengguna GnuPG dapat memperoleh kunci dengan perintah `gpg --locate-key example_user@example.com`.
 - Dukungan untuk temporary mailbox untuk pengguna eksternal. Ini berguna ketika Anda ingin mengirim email terenkripsi tanpa mengirimkan salinan yang sebenarnya kepada penerima. Email ini biasanya memiliki masa berlaku terbatas dan kemudian dihapus secara otomatis. Mereka juga tidak mengharuskan penerima untuk mengonfigurasi kriptografi apa pun seperti OpenPGP.
@@ -317,7 +317,7 @@ Server email berurusan dengan banyak data yang sangat sensitif. Kami berharap pe
 **Minimum untuk Memenuhi Syarat:**
 
 - Perlindungan webmail dengan 2FA, seperti [TOTP](basics/multi-factor-authentication.md#time-based-one-time-password-totp).
-- Zero-access encryption, yang dibangun di atas enkripsi saat tidak digunakan. Penyedia tidak memiliki kunci dekripsi untuk data yang mereka miliki. Hal ini mencegah karyawan nakal membocorkan data yang mereka miliki atau musuh jarak jauh merilis data yang telah mereka curi dengan mendapatkan akses tidak sah ke server.
+- Encryption at rest, using asymmetric encryption where the service provider does not have the decryption keys to the data they hold. This prevents a rogue employee leaking data they have access to, or a remote adversary from releasing data they have stolen by gaining unauthorized access to the server.
 - Dukungan [DNSSEC](https://en.wikipedia.org/wiki/Domain_Name_System_Security_Extensions).
 - Tidak ada kesalahan atau kerentanan TLS saat diprofilkan oleh alat-alat seperti [Hardenize](https://hardenize.com), [testssl.sh](https://testssl.sh), atau [Qualys SSL Labs](https://ssllabs.com/ssltest); ini termasuk kesalahan terkait sertifikat dan parameter DH yang lemah, seperti yang menyebabkan [Logjam](https://en.wikipedia.org/wiki/Logjam_(computer_security)).
 - Preferensi rangkaian server (opsional pada TLS 1.3) untuk rangkaian sandi yang kuat yang mendukung forward secrecy dan enkripsi yang diautentikasi.

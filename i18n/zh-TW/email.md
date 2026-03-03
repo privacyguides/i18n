@@ -22,7 +22,7 @@ global:
 
 除此之外，我們還推薦各種基於可持續商業模式和內建安全和隱私功能的電子郵件提供商。 閱讀我們[完整的標準清單](#criteria)，瞭解更多資訊。
 
-| 供應商                           | OpenPGP / WKD                          | IMAP / SMTP                                       | 零存取加密                                             | 匿名付款方式                            |
+| 供應商                           | OpenPGP / WKD                          | IMAP / SMTP                                       | Encrypted Storage                                 | 匿名付款方式                            |
 | ----------------------------- | -------------------------------------- | ------------------------------------------------- | ------------------------------------------------- | --------------------------------- |
 | [Proton Mail](#proton-mail)   | :material-check:{ .pg-green }          | :material-information-outline:{ .pg-blue } 僅提供付費版 | :material-check:{ .pg-green }                     | 現金<br>透過第三方使用 Monero        |
 | [Mailbox Mail](#mailbox-mail) | :material-check:{ .pg-green }          | :material-check:{ .pg-green }                     | :material-information-outline:{ .pg-blue } 限 Mail | 現金                                |
@@ -119,9 +119,9 @@ Proton Mail 支援使用 TOTP 作為 [雙重要素驗證](https://proton.me/supp
 
 #### :material-check:{ .pg-green } 資料安全
 
-Proton Mail 使用「[零存取加密技術](https://proton.me/blog/zero-access-encryption)」來保護電子郵件和[行事曆](https://proton.me/news/protoncalendar-security-model)的資料安全。 使用「零存取加密技術」保護的數據只能由您訪問。
+Proton Mail stores your [emails](https://proton.me/blog/zero-access-encryption) and [calendars](https://proton.me/news/protoncalendar-security-model) with PGP-based encryption at rest, where only you have the decryption keys needed to access them later.
 
-儲存在 [Proton 通錄](https://proton.me/support/proton-contacts)中的某些資訊，例如顯示名稱和電子郵件位址，並未使用零存取加密進行保護。 支援零存取加密的聯絡人欄位(例如電話號碼)會以掛鎖圖示顯示。
+Certain information stored in [Proton Contacts](https://proton.me/support/proton-contacts), such as display names and email addresses, are **not** secured with your own encryption keys, so Proton is able to read them. Contact fields which are protected with your own encryption keys, such as phone numbers, are indicated with a padlock icon.
 
 #### :material-check:{ .pg-green } 電子郵件加密
 
@@ -198,7 +198,7 @@ Mailbox Mail 所有方案都提供了數位遺產功能。 只要繼承人提出
 
 ## 更多供應商
 
-這些提供商以零知識加密方式儲存您的電子郵件，使其成為保護儲存電子郵件安全的絕佳選擇。 但是，它們不支援供應商之間可相互操作 E2EE 通信的加密標準。
+These providers encrypt your emails in a way that only you can read them later, making them great options for keeping your stored emails secure. 但是，它們不支援供應商之間可相互操作 E2EE 通信的加密標準。
 
 <div class="grid cards" markdown>
 
@@ -254,7 +254,7 @@ Tuta 支援 TOTP 或 U2F 的[雙重認證](https://tuta.com/support#2fa)。
 
 #### :material-check:{ .pg-green } 資料安全
 
-Tuta 對您的電子郵件、[通訊錄聯絡人](https://tuta.com/support#encrypted-address-book)和[行事曆](https://tuta.com/support#calendar) [進行零存取加密](https://tuta.com/support#what-encrypted)。 這意味著儲存在您帳戶中的訊息和其他資料只有您能讀取。
+Tuta stores your [emails](https://tuta.com/support#what-encrypted), [address book contacts](https://tuta.com/support#encrypted-address-book), and [calendars](https://tuta.com/support#calendar) with strong encryption where only you have the decryption keys. This means the messages and other data stored in your account cannot be read by anyone other than you after they are stored.
 
 #### :material-information-outline:{ .pg-blue } 電子郵件加密
 
@@ -278,14 +278,14 @@ Tuta 向非營利組織提供免費 [商業版本](https://tuta.com/blog/secure-
 
 **最低合格要求：**
 
-- 必須使用零存取加密技術加密電子郵件帳戶資料。
+- Must encrypt email account data at rest with asymmetric encryption, where only the user has the private keys needed to decrypt it.
 - 必須能夠以 [Mbox](https://en.wikipedia.org/wiki/Mbox) 或符合 [RFC5322](https://datatracker.ietf.org/doc/rfc5322) 標準的個別 .EML 匯出電子郵件。
 - 允許使用者使用自己的[網域名稱](https://en.wikipedia.org/wiki/Domain_name)。 自定網域名稱對用戶來說很重要，因為它允許用戶在使用服務時仍能維持自我代理，以防服務變差或被另一家不優先考慮隱私的公司收購。
 - 必須在自有的基礎架構上運作，即不建基於第三方電子郵件服務供應商。
 
 **最佳情況：**
 
-- 應使用零存取加密技術加密所有帳戶資料 (聯絡人、行事曆等)。
+- Should encrypt all account data (contacts, calendars, etc.) at rest with asymmetric encryption, where only the user has the private keys needed to decrypt it.
 - 應提供整合式網頁郵件 E2EE/PGP 加密功能，方便用戶使用。
 - 應支援 WKD，以便透過 HTTP 改善公共 OpenPGP 金鑰的發現。 GnuPG 使用者可以使用下列指令取得金鑰：`gpg --locate-key example_user@example.com`。
 - 支援外部使用者的臨時信箱。 當您要傳送加密的電子郵件，但又不想傳送實際副本給收件人時，這個功能就很有用。 這些電子郵件通常具有限定時效，之後會被自動刪除。 它們也不需要收件人配置任何像OpenPGP這樣的加密技術。
@@ -317,7 +317,7 @@ Tuta 向非營利組織提供免費 [商業版本](https://tuta.com/blog/secure-
 **最低合格要求：**
 
 - 使用 2FA（例如：[TOTP](basics/multi-factor-authentication.md#time-based-one-time-password-totp)）保護網頁郵件。
-- 建基於靜態加密之上的零存取加密。 提供者沒有其所持有資料的解密金鑰。 這可防止惡意員工洩露他們存取的資料，或遠端敵人透過未經授權存取伺服器來釋放他們竊取的資料。
+- Encryption at rest, using asymmetric encryption where the service provider does not have the decryption keys to the data they hold. This prevents a rogue employee leaking data they have access to, or a remote adversary from releasing data they have stolen by gaining unauthorized access to the server.
 - [DNSSEC](https://en.wikipedia.org/wiki/Domain_Name_System_Security_Extensions) 支援。
 - 使用 [Hardenize](https://hardenize.com), [testssl.sh](https://testssl.sh) 或 [Qualys SSL Labs](https://ssllabs.com/ssltest) 等工具沒發現 TLS 錯誤或漏洞； 這包括與憑證相關的錯誤和弱 DH 參數，例如 [Logjam](https://en.wikipedia.org/wiki/Logjam_(computer_security)) 錯誤。
 - 伺服器套件偏好設定（TLS 1.3 為選用）適用於支援前向保密和認證加密的強密碼套件。

@@ -17,7 +17,7 @@ cover: pastebins.webp
 
 ![PrivateBin Logo](assets/img/pastebins/privatebin.svg){ align=right }
 
-**PrivateBin** is a minimalist, open-source, online pastebin where the server has zero knowledge of pasted data. Die Daten werden im Browser mit 256-Bit-AES verschlüsselt bzw. entschlüsselt. Es ist die verbesserte Version von ZeroBin.
+**PrivateBin** is a minimalist, open-source, online pastebin where the server cannot decrypt and read any pasted data you submit. Die Daten werden im Browser mit 256-Bit-AES verschlüsselt bzw. entschlüsselt. Es ist die verbesserte Version von ZeroBin.
 
 [:octicons-home-16: Homepage](https://privatebin.info){ .md-button .md-button--primary }
 [:octicons-server-16:](https://privatebin.info/directory){ .card-link title="Public Instances"}
@@ -49,7 +49,7 @@ cover: pastebins.webp
 ### Mindestanforderungen
 
 - Muss Open Source sein.
-- Must implement "zero-trust" E2EE.
+- Must encrypt pasted data on the client side before it is sent to the server.
 - Muss passwortgeschützte Dateien unterstützen.
 
 ### Im besten Fall

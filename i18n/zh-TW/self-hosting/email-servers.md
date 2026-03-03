@@ -30,7 +30,7 @@ cover: email.webp
 
 </div>
 
-Stalwart 的 [PGP 實作](https://stalw.art/docs/encryption/overview) 在我們的自架推薦清單中是獨一無二的，可讓您以零知識的訊息儲存空間方式來架設自己的郵件伺服器。 如果您還想在您的網域上另外設定 Web Key Directory（WKD），以及使用支援 PGP 和 WKD 的電子郵件用戶端（例如 Thunderbird）來寄信，那麼這是最簡單就能讓所有 [Proton Mail](../email.md#proton-mail) 使用者能取得自架 E2EE 相容性的方式。
+Stalwart's [PGP implementation](https://stalw.art/docs/encryption/overview) is unique among our self-hosted recommendations and allows you to operate your own mail server with encrypted message storage, lessening the risk of unauthorized access to your emails. 如果您還想在您的網域上另外設定 Web Key Directory（WKD），以及使用支援 PGP 和 WKD 的電子郵件用戶端（例如 Thunderbird）來寄信，那麼這是最簡單就能讓所有 [Proton Mail](../email.md#proton-mail) 使用者能取得自架 E2EE 相容性的方式。
 
 Stalwart **沒有**內建的網頁郵件功能，因此您需要使用[電子郵件軟體](../email-clients.md)使用，或是另外架設一套開放原始碼的網頁郵件軟體，例如 Nextcloud 的 Mail 應用程式。
 

@@ -22,7 +22,7 @@ global:
 
 خلا ذلك فنوصي بعدد من موفِّري خدمة البريد الإلكتروني، وذلك حسب استدامة نموذجات عملهم وأمنهم ومزايا الخصوصية عندهم. للمزيد من المعلومات، اطلع على [قائمة المعايير](#criteria).
 
-| مزوّد                         | OpenPGP / WKD                          | IMAP / SMTP                                               | تشفير يمنع وصول المزود إلى البيانات                   | وسائل الدفع بدون هوية                                 |
+| مزوّد                         | OpenPGP / WKD                          | IMAP / SMTP                                               | Encrypted Storage                                     | وسائل الدفع بدون هوية                                 |
 | ----------------------------- | -------------------------------------- | --------------------------------------------------------- | ----------------------------------------------------- | ----------------------------------------------------- |
 | [Proton Mail](#proton-mail)   | :material-check:{ .pg-green }          | :material-information-outline:{ .pg-blue } خطط مدفوعة فقط | :material-check:{ .pg-green }                         | Cash <br>Monero via third party                 |
 | [Mailbox Mail](#mailbox-mail) | :material-check:{ .pg-green }          | :material-check:{ .pg-green }                             | :material-information-outline:{ .pg-blue } البريد فقط | نقداً                                                 |
@@ -119,9 +119,9 @@ Proton Mail has internal crash reports that are **not** shared with third partie
 
 #### :material-check:{ .pg-green } أمن البيانات
 
-عند بريد بروتون [تعمية دون أيِّ وصول](https://proton.me/blog/zero-access-encryption) لبُرُدك الإلكترونية [وتقويماتك](https://proton.me/news/protoncalendar-security-model). البيانات المحمية بتشفير بدون وصول (zero-access encryption) لا يمكن لأي أحد الوصول إليها سوى أنت.
+Proton Mail stores your [emails](https://proton.me/blog/zero-access-encryption) and [calendars](https://proton.me/news/protoncalendar-security-model) with PGP-based encryption at rest, where only you have the decryption keys needed to access them later.
 
-ليست كل البيانات في Proton Contacts مشفّرة بالكامل؛ فمثلاً، الـ display names وعناوين البريد تظل قابلة للوصول من قِبل مزود الخدمة لأنها لا تخضع لتشفير بدون وصول. الحقول في جهات الاتصال التي تدعم التشفير بدون وصول — مثل أرقام الهاتف — يتم تمييزها بأيقونة قفل.
+Certain information stored in [Proton Contacts](https://proton.me/support/proton-contacts), such as display names and email addresses, are **not** secured with your own encryption keys, so Proton is able to read them. Contact fields which are protected with your own encryption keys, such as phone numbers, are indicated with a padlock icon.
 
 #### :material-check:{ .pg-green } تشفير البريد الإلكتروني
 
@@ -198,7 +198,7 @@ Mailbox Mail has a digital legacy feature for all plans. يمكنك اختيار
 
 ## مقدِّموا خدمة آخرون
 
-يخزِّن مقدمِّو الخدمة هؤلاء بُرُدك معمَّاةً تعمية دون معرفة، وهذا جاعلهم خيارات جيِّدةً لتخزِّنها فيها. لكنهم لا يدعمون التشفير التام بين الطرفين (E2EE) عند إرسال الرسائل إلى مستخدمين في خدمات بريد إلكتروني أخرى.
+These providers encrypt your emails in a way that only you can read them later, making them great options for keeping your stored emails secure. لكنهم لا يدعمون التشفير التام بين الطرفين (E2EE) عند إرسال الرسائل إلى مستخدمين في خدمات بريد إلكتروني أخرى.
 
 <div class="grid cards" markdown>
 
@@ -254,7 +254,7 @@ Tuta only directly accepts credit cards and PayPal, however you can use [**crypt
 
 #### :material-check:{ .pg-green } أمن البيانات
 
-تقوم Tuta بتشفير رسائلك، [وجهات اتصالك](https://tuta.com/support#encrypted-address-book)، [وتقويمك](https://tuta.com/support#calendar) باستخدام ما يُعرف بـ ["تشفير بدون وصول" (zero-access encryption)، وهو نظام يضمن أن لا أحد—حتى فريق Tuta نفسه—يمكنه الوصول إلى محتوى بياناتك، مما يعني أن البيانات لا يمكن قراءتها إلا من قبلك أنت فقط.](https://tuta.com/support#what-encrypted). ويعني هذا أن الرسائل والبيانات المخزَّنة في حسابك لا يقرؤها إلا أنت.
+Tuta stores your [emails](https://tuta.com/support#what-encrypted), [address book contacts](https://tuta.com/support#encrypted-address-book), and [calendars](https://tuta.com/support#calendar) with strong encryption where only you have the decryption keys. This means the messages and other data stored in your account cannot be read by anyone other than you after they are stored.
 
 #### :material-information-outline:{ .pg-blue } تشفير البريد الإلكتروني
 
@@ -278,14 +278,14 @@ Tuta only directly accepts credit cards and PayPal, however you can use [**crypt
 
 **الحد الأدنى لترشيح الخدمة:**
 
-- يجب أن يتم تشفير بيانات حساب البريد الإلكتروني أثناء التخزين باستخدام تشفير يمنع حتى مزود الخدمة من الوصول إليها (تشفير بدون وصول "Zero-access encryption").
+- Must encrypt email account data at rest with asymmetric encryption, where only the user has the private keys needed to decrypt it.
 - يجب أن يوفر إمكانية تصدير (exporting) الرسائل بصيغة [MBOX](https://en.wikipedia.org/wiki/Mbox) أو ملفات .EML فردية وفقًا لمعيار [RFC5322](https://datatracker.ietf.org/doc/rfc5322).
 - يجب أن تتيح الخدمة للمستخدمين إمكانية استخدام [اسم النطاق الخاص بهم](https://en.wikipedia.org/wiki/Domain_name). استخدام أسماء النطاقات المخصصة مهم للمستخدمين، لأنه يمنحهم استقلالية عن مزود الخدمة، في حال تدهورت الخدمة أو تم الاستحواذ عليها من قبل شركة لا تهتم بالخصوصية.
 - يجب أن تعمل الخدمة على بنية تحتية مملوكة لها بالكامل، أي دون الاعتماد على مزودي خدمات بريد إلكتروني خارجيين.
 
 **أحسن الاحتمالات:**
 
-- يُفضّل أن يتمّ تشفير جميع بيانات الحساب (مثل جهات الاتصال، والتقويم، وغيرها) أثناء التخزين باستخدام تشفير يمنع مزوّد الخدمة من الوصول إليها (تشفير بدون وصول "Zero-access encryption").
+- Should encrypt all account data (contacts, calendars, etc.) at rest with asymmetric encryption, where only the user has the private keys needed to decrypt it.
 - يُستحسن أن يكون التشفير القوي (مثل E2EE أو PGP) مدمجا داخل موقع البريد نفسه، حتى يتمكّن المستخدم من إرسال رسائل آمنة بسهولة.
 - يُفضل أن تدعم الخدمة ميزة WKD لتسهيل العثور على مفاتيح OpenPGP العامة عبر بروتوكول HTTP. إذا كانت خدمة البريد تدعم ميزة WKD، يمكن لمستخدمي GnuPG الحصول على مفتاح التشفير العام لأي عنوان بريد باستخدام الأمر: `gpg --locate-key example_user@example.com`.
 - إمكانية إرسال رسائل مشفرة إلى مستلمين ليس لديهم حساب، عبر صندوق بريد مؤقّت وآمن. تكون هذه الميزة مفيدة عندما تريد إرسال رسالة مشفّرة دون إرسال نسخة فعلية إلى بريد المستلم، بل يطّلع عليها من خلال رابط آمن. عادةً ما تبقى هذه الرسائل متاحة لفترة قصيرة فقط، ثم تُحذف تلقائيًا من الصندوق المؤقّت. ولا يحتاج المستلم إلى إعداد أي أدوات تشفير معقدة مثل OpenPGP لقراءة الرسالة.
@@ -317,7 +317,7 @@ Tuta only directly accepts credit cards and PayPal, however you can use [**crypt
 **أقل المتطلبات لترشيح الخدمة:**
 
 - تأمين واجهة البريد عبر المتصفح (Webmail) باستخدام المصادقة الثنائية (2FA)، مثل [رموز TOTP](basics/multi-factor-authentication.md#time-based-one-time-password-totp) المؤقتة.
-- تشفير بدون وصول (Zero-access encryption)، وهو امتداد لتشفير البيانات أثناء التخزين (encryption at rest)، ويضمن أن حتى مزود الخدمة لا يمكنه الوصول إلى محتوى بياناتك، لأنه لا يمتلك مفاتيح فك التشفير. مزود الخدمة لا يمتلك مفاتيح فك التشفير الخاصة بالبيانات التي يحتفظ بها. هذا يمنع أي موظف سيئ النية من تسريب البيانات التي يمكنه الوصول إليها، أو أي جهة خارجية من كشف البيانات حتى لو تمكّنت من اختراق الخادم، لأن البيانات تكون مشفرة ولا يمكن قراءتها دون المفاتيح.
+- Encryption at rest, using asymmetric encryption where the service provider does not have the decryption keys to the data they hold. This prevents a rogue employee leaking data they have access to, or a remote adversary from releasing data they have stolen by gaining unauthorized access to the server.
 - دعم [DNSSEC](https://en.wikipedia.org/wiki/Domain_Name_System_Security_Extensions)، وهي تقنية تهدف إلى حماية نظام أسماء النطاقات (DNS) من التلاعب، من خلال التحقق من أن البيانات المستلمة من خوادم DNS أصلية ولم يتم تعديلها.
 - ألا تظهر أي أخطاء أو ثغرات في بروتوكول TLS عند فحص الخدمة باستخدام أدوات مثل [Hardenize](https://hardenize.com)، أو [testssl.sh](https://testssl.sh)، أو [Qualys SSL Labs](https://ssllabs.com/ssltest). ويشمل ذلك خلو الخدمة من أخطاء في الشهادات الأمنية أو استخدام معايير تشفير ضعيفة (مثل مفاتيح DH غير الآمنة) والتي تسببت سابقا في ثغرات أمنية مثل [Logjam](https://en.wikipedia.org/wiki/Logjam_(computer_security)).
 - يفضّل أن يستخدم الخادم مجموعات تشفير قوية (cipher suites) تُعطي أولوية للأمان، وتدعم خصائص مثل forward secrecy والتشفير الموثوق (authenticated encryption).

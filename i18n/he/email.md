@@ -22,7 +22,7 @@ global:
 
 לכל השאר, אנו ממליצים על מגוון ספק אימייל המבוססים על מודלים עסקיים ברי קיימא ותכונות אבטחה ופרטיות מובנות. קרא את \[רשימת הקריטריונים המלאה\](#_20) שלנו למידע נוסף.
 
-| Provider                      | OpenPGP / WKD                          | IMAP / SMTP                                                | Zero-Access Encryption                               | Anonymous Payment Methods                             |
+| Provider                      | OpenPGP / WKD                          | IMAP / SMTP                                                | Encrypted Storage                                    | Anonymous Payment Methods                             |
 | ----------------------------- | -------------------------------------- | ---------------------------------------------------------- | ---------------------------------------------------- | ----------------------------------------------------- |
 | [Proton Mail](#proton-mail)   | :material-check:{ .pg-green }          | :material-information-outline:{ .pg-blue } Paid plans only | :material-check:{ .pg-green }                        | Cash <br>Monero via third party                 |
 | [Mailbox Mail](#mailbox-mail) | :material-check:{ .pg-green }          | :material-check:{ .pg-green }                              | :material-information-outline:{ .pg-blue } Mail only | מזומן                                                 |
@@ -119,9 +119,9 @@ Proton Mail supports TOTP [two-factor authentication](https://proton.me/support/
 
 #### :material-check:{ .pg-green } אבטחת מידע
 
-ל-Proton Mail יש [הצפנה עם אפס-גישה](https://proton.me/blog/zero-access-encryption) במצב מנוחה עבור המיילים ו[היומנים](https://proton.me/news/protoncalendar-security-model) שלך. נתונים המאובטחים באמצעות הצפנת אפס גישה נגישים רק לך.
+Proton Mail stores your [emails](https://proton.me/blog/zero-access-encryption) and [calendars](https://proton.me/news/protoncalendar-security-model) with PGP-based encryption at rest, where only you have the decryption keys needed to access them later.
 
-מידע מסוים המאוחסן ב-[Proton Contacts](https://proton.me/support/proton-contacts), כגון שמות תצוגה וכתובות אימייל, אינו מאובטח בהצפנה ללא גישה. שדות אנשי קשר התומכים בהצפנה ללא גישה, כגון מספרי טלפון, מסומנים בסמל מנעול.
+Certain information stored in [Proton Contacts](https://proton.me/support/proton-contacts), such as display names and email addresses, are **not** secured with your own encryption keys, so Proton is able to read them. Contact fields which are protected with your own encryption keys, such as phone numbers, are indicated with a padlock icon.
 
 #### :material-check:{ .pg-green } הצפנת אימייל
 
@@ -198,7 +198,7 @@ Mailbox Mail has a digital legacy feature for all plans. You can choose whether 
 
 ## עוד ספקים
 
-ספקים אלה מאחסנים את המיילים שלך עם הצפנת אפס ידע, מה שהופך אותם לאפשרויות נהדרות לשמירה על אבטחת המיילים המאוחסנים שלך. עם זאת, הם אינם תומכים בתקני הצפנה הדדיים עבור תקשורת E2EE בין ספקים שונים.
+These providers encrypt your emails in a way that only you can read them later, making them great options for keeping your stored emails secure. עם זאת, הם אינם תומכים בתקני הצפנה הדדיים עבור תקשורת E2EE בין ספקים שונים.
 
 <div class="grid cards" markdown>
 
@@ -254,7 +254,7 @@ Tuta supports [two-factor authentication](https://tuta.com/support#2fa) with eit
 
 #### :material-check:{ .pg-green } אבטחת מידע
 
-Tuta has [zero-access encryption at rest](https://tuta.com/support#what-encrypted) for your emails, [address book contacts](https://tuta.com/support#encrypted-address-book), and [calendars](https://tuta.com/support#calendar). משמעות הדבר היא שההודעות ונתונים אחרים המאוחסנים בחשבונך ניתנים לקריאה רק על ידך.
+Tuta stores your [emails](https://tuta.com/support#what-encrypted), [address book contacts](https://tuta.com/support#encrypted-address-book), and [calendars](https://tuta.com/support#calendar) with strong encryption where only you have the decryption keys. This means the messages and other data stored in your account cannot be read by anyone other than you after they are stored.
 
 #### :material-information-outline:{ .pg-blue } הצפנת אימייל
 
@@ -278,14 +278,14 @@ Tuta offers the business version of [Tuta to non-profit organizations](https://t
 
 **מינימום כדי לעמוד בדרישות:**
 
-- Must encrypt email account data at rest with zero-access encryption.
+- Must encrypt email account data at rest with asymmetric encryption, where only the user has the private keys needed to decrypt it.
 - Must be capable of exporting emails as [Mbox](https://en.wikipedia.org/wiki/Mbox) or individual .EML with [RFC5322](https://datatracker.ietf.org/doc/rfc5322) standard.
 - Allow users to use their own [domain name](https://en.wikipedia.org/wiki/Domain_name). שמות דומיין מותאמים אישית חשובים למשתמשים מכיוון שהם מאפשרים להם לתחזק את הסוכנות שלהם מהשירות, אם היא תהפוך לגרועה או תירכש על ידי חברה אחרת שאינה מתעדפת פרטיות.
 - Must operate on owned infrastructure, i.e. not built upon third-party email service providers.
 
 **המקרה הטוב ביותר:**
 
-- Should encrypt all account data (contacts, calendars, etc.) at rest with zero-access encryption.
+- Should encrypt all account data (contacts, calendars, etc.) at rest with asymmetric encryption, where only the user has the private keys needed to decrypt it.
 - Should provide integrated webmail E2EE/PGP encryption as a convenience.
 - Should support WKD to allow improved discovery of public OpenPGP keys via HTTP. GnuPG users can get a key with this command: `gpg --locate-key example_user@example.com`.
 - תמיכה בתיבת דואר זמנית למשתמשים חיצוניים. This is useful when you want to send an encrypted email without sending an actual copy to your recipient. למיילים אלה יש בדרך כלל תוחלת חיים מוגבלת ולאחר מכן נמחקות אוטומטית. הם גם לא דורשים מהנמען להגדיר שום קריפטוגרפיה כמו OpenPGP.
@@ -317,7 +317,7 @@ Email servers deal with a lot of very sensitive data. We expect that providers w
 **מינימום כדי לעמוד בדרישות:**
 
 - Protection of webmail with 2FA, such as [TOTP](basics/multi-factor-authentication.md#time-based-one-time-password-totp).
-- Zero-access encryption, which builds on encryption at rest. לספק אין את מפתחות הפענוח של הנתונים שברשותו. פעולה זו מונעת מעובד שסרח להדליף נתונים שיש לו גישה אליהם או מיריב מרחוק לשחרר נתונים שגנב על ידי השגת גישה בלתי מורשית לשרת.
+- Encryption at rest, using asymmetric encryption where the service provider does not have the decryption keys to the data they hold. This prevents a rogue employee leaking data they have access to, or a remote adversary from releasing data they have stolen by gaining unauthorized access to the server.
 - תמיכה ב [DNSSEC](https://en.wikipedia.org/wiki/Domain_Name_System_Security_Extensions).
 - No TLS errors or vulnerabilities when being profiled by tools such as [Hardenize](https://hardenize.com), [testssl.sh](https://testssl.sh), or [Qualys SSL Labs](https://ssllabs.com/ssltest); this includes certificate related errors and weak DH parameters, such as those that led to [Logjam](https://en.wikipedia.org/wiki/Logjam_(computer_security)).
 - A server suite preference (optional on TLS 1.3) for strong cipher suites which support forward secrecy and authenticated encryption.

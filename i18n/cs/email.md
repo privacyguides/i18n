@@ -22,7 +22,7 @@ E-mail je prakticky nezbytný pro používání jakékoliv online služby, ale n
 
 Pro všechno ostatní doporučujeme různé e-mailové poskytovatele, kteří mají udržitelný byznys model a vestavěné funkce pro zachování bezpečnosti a soukromí. Přečtěte si náš [úplný seznam kritérií](#criteria) pro více informací.
 
-| Poskytovatel                  | OpenPGP / WKD                          | IMAP / SMTP                                                     | Zero-Access šifrování                                  | Anonymní platební metody                              |
+| Poskytovatel                  | OpenPGP / WKD                          | IMAP / SMTP                                                     | Encrypted Storage                                      | Anonymní platební metody                              |
 | ----------------------------- | -------------------------------------- | --------------------------------------------------------------- | ------------------------------------------------------ | ----------------------------------------------------- |
 | [Proton Mail](#proton-mail)   | :material-check:{ .pg-green }          | :material-information-outline:{ .pg-blue } Pouze placené tarify | :material-check:{ .pg-green }                          | Cash <br>Monero via third party                 |
 | [Mailbox Mail](#mailbox-mail) | :material-check:{ .pg-green }          | :material-check:{ .pg-green }                                   | :material-information-outline:{ .pg-blue } Pouze maily | Hotovost                                              |
@@ -119,9 +119,9 @@ Proton Mail podporuje [dvoufaktorové ověřování](https://proton.me/support/t
 
 #### :material-check:{ .pg-green } Zabezpečení dat
 
-Proton Mail má [zero-access šifrování](https://proton.me/blog/zero-access-encryption) pro uložená data e-mailů a [kalendářů](https://proton.me/news/protoncalendar-security-model). K datům zabezpečeným zero-access šifrováním můžete přistupovat jenom vy.
+Proton Mail stores your [emails](https://proton.me/blog/zero-access-encryption) and [calendars](https://proton.me/news/protoncalendar-security-model) with PGP-based encryption at rest, where only you have the decryption keys needed to access them later.
 
-Určité informace uložené v [Kontaktech](https://proton.me/support/proton-contacts), např. zobrazovaná jména nebo e-mailové adresy, nejsou zabezpečené zero-access šifrováním. Pole kontaktu, která podporují zero-access šifrování, např. telefonní čísla, jsou označené ikonou zámku.
+Certain information stored in [Proton Contacts](https://proton.me/support/proton-contacts), such as display names and email addresses, are **not** secured with your own encryption keys, so Proton is able to read them. Contact fields which are protected with your own encryption keys, such as phone numbers, are indicated with a padlock icon.
 
 #### :material-check:{ .pg-green } Šifrování e-malu
 
@@ -198,7 +198,7 @@ Mailbox Mail má službu digitálního dědictví ve všech tarifech. Můžete s
 
 ## Více poskytovatelů
 
-Tito poskytovatelé ukládají vaše e-maily pomocí zero-knowledge šifrování, které je skvělou možností pro zabezpečení vašich uložených e-mailů. Nepodporují však interoperabilní šifrovací standardy pro E2EE komunikaci napříč různými poskytovateli.
+These providers encrypt your emails in a way that only you can read them later, making them great options for keeping your stored emails secure. Nepodporují však interoperabilní šifrovací standardy pro E2EE komunikaci napříč různými poskytovateli.
 
 <div class="grid cards" markdown>
 
@@ -254,7 +254,7 @@ Tuta podporuje [dvoufaktorové oveřování](https://tuta.com/support#2fa) pomoc
 
 #### :material-check:{ .pg-green } Zabezpečení dat
 
-Tuta má [zero-access šifrování v klidu](https://tuta.com/support#what-encrypted) pro vaše e-maily, [kontakty v adresáři](https://tuta.com/support#encrypted-address-book) i [kalendáře](https://tuta.com/support#calendar). To znamená, že zprávy a jiná data uložená na vašem účtu můžete číst pouze vy.
+Tuta stores your [emails](https://tuta.com/support#what-encrypted), [address book contacts](https://tuta.com/support#encrypted-address-book), and [calendars](https://tuta.com/support#calendar) with strong encryption where only you have the decryption keys. This means the messages and other data stored in your account cannot be read by anyone other than you after they are stored.
 
 #### :material-information-outline:{ .pg-blue } Šifrování e-mailů
 
@@ -278,14 +278,14 @@ Tyto funkce považujeme za důležité pro to, aby byla služba bezpečná a opt
 
 **Naprosté minimum:**
 
-- Musí šifrovat data e-mailového účtu v klidu zero-access šifrováním.
+- Must encrypt email account data at rest with asymmetric encryption, where only the user has the private keys needed to decrypt it.
 - Musí být schopen exportovat e-maily jako [Mbox](https://en.wikipedia.org/wiki/Mbox) nebo jednotlivé .EML v normě [RFC5322](https://datatracker.ietf.org/doc/rfc5322).
 - Umožňovat uživatelům používat jejich vlastní [domény](https://en.wikipedia.org/wiki/Domain_name). Vlastní domény jsou pro uživatele důležité, protože jim umožňují zachovávat nezávislost na službě, ať už z důvodu jejího úpadku nebo převzetí jinou společností, která nepovažuje soukromí za prioritu.
 - Musí fungovat na vlastní infrastruktuře, tzn. že nesmí běžet na e-mailových službách třetích stran.
 
 **Nejlepší případ:**
 
-- Měla by šifrovat všechna data účtu (kontakty, kalendáře atd.) v klidu pomocí zero-access šifrování.
+- Should encrypt all account data (contacts, calendars, etc.) at rest with asymmetric encryption, where only the user has the private keys needed to decrypt it.
 - Měla by pro jednoduchost poskytovat webmail s integrovaným E2EE/PGP šifrováním.
 - Měla by podporovat WKD, aby bylo možné lépe nalézat veřejné OpenPGP klíče přes HTTP. Uživatelé GnuPG mohou získat klíč tímto příkazem: `gpg --locate-key uzivatel@priklad.cz`.
 - Podporuje dočasné schránky pro externí uživatele. To je užitečné, pokud chcete poslat zašifrovaný e-mail, aniž byste odeslali skutečnou kopii příjemci. Tyto e-maily mají obvykle omezenou životnost a jsou následně smazány. Také nevyžadují od příjemce nastavování jakékoliv kryptografie, např. OpenPGP.
@@ -317,7 +317,7 @@ E-mailové servery pracují s velkým množstvím citlivých dat. Očekáváme, 
 **Naprosté minimum:**
 
 - Ochrana webmailu pomocí 2FA, např. [TOTP](basics/multi-factor-authentication.md#time-based-one-time-password-totp).
-- Zero-access šifrování, které staví na šifrování v klidu. Poskytovatel nemá k dispozici dešifrovací klíče k datům, které jsou u něj uložené. This prevents a rogue employee leaking data they have access to or remote adversary from releasing data they have stolen by gaining unauthorized access to the server.
+- Encryption at rest, using asymmetric encryption where the service provider does not have the decryption keys to the data they hold. This prevents a rogue employee leaking data they have access to, or a remote adversary from releasing data they have stolen by gaining unauthorized access to the server.
 - [DNSSEC](https://en.wikipedia.org/wiki/Domain_Name_System_Security_Extensions) support.
 - No TLS errors or vulnerabilities when being profiled by tools such as [Hardenize](https://hardenize.com), [testssl.sh](https://testssl.sh), or [Qualys SSL Labs](https://ssllabs.com/ssltest); this includes certificate related errors and weak DH parameters, such as those that led to [Logjam](https://en.wikipedia.org/wiki/Logjam_(computer_security)).
 - A server suite preference (optional on TLS 1.3) for strong cipher suites which support forward secrecy and authenticated encryption.

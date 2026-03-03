@@ -17,7 +17,7 @@ cover: pastebins.webp
 
 ![PrivateBin logo](assets/img/pastebins/privatebin.svg){ align=right }
 
-**PrivateBin** is a minimalist, open-source, online pastebin where the server has zero knowledge of pasted data. Az adatok titkosítása/dekódolása a böngészőben történik 256 bites AES használatával. Ez a ZeroBin továbbfejlesztett változata.
+**PrivateBin** is a minimalist, open-source, online pastebin where the server cannot decrypt and read any pasted data you submit. Az adatok titkosítása/dekódolása a böngészőben történik 256 bites AES használatával. Ez a ZeroBin továbbfejlesztett változata.
 
 [:octicons-home-16: Homepage](https://privatebin.info){ .md-button .md-button--primary }
 [:octicons-server-16:](https://privatebin.info/directory){ .card-link title="Public Instances"}
@@ -49,7 +49,7 @@ cover: pastebins.webp
 ### Alap elvárások
 
 - Nyílt forráskódúnak kell lennie.
-- Must implement "zero-trust" E2EE.
+- Must encrypt pasted data on the client side before it is sent to the server.
 - Must support password-protected files.
 
 ### Legjobb esetben

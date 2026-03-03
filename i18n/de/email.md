@@ -22,7 +22,7 @@ E-Mail ist praktisch eine Voraussetzung für die Nutzung aller Online-Dienste, w
 
 Für alles andere empfehlen wir eine Reihe von E-Mail-Anbietern, die auf nachhaltigen Geschäftsmodellen basieren und integrierte Sicherheits- und Datenschutzfunktionen bieten. Weitere Informationen findest du in unserem [vollständigen Kriterienkatalog](#criteria).
 
-| Anbieter                      | OpenPGP / WKD                          | IMAP / SMTP                                                           | Null-Zugriff-Verschlüsselung                        | Anonyme Zahlungsmethoden                    |
+| Anbieter                      | OpenPGP / WKD                          | IMAP / SMTP                                                           | Encrypted Storage                                   | Anonyme Zahlungsmethoden                    |
 | ----------------------------- | -------------------------------------- | --------------------------------------------------------------------- | --------------------------------------------------- | ------------------------------------------- |
 | [Proton Mail](#proton-mail)   | :material-check:{ .pg-green }          | :material-information-outline:{ .pg-blue } Nur kostenpflichtige Pläne | :material-check:{ .pg-green }                       | Bar<br>Monero über Dritte             |
 | [Mailbox Mail](#mailbox-mail) | :material-check:{ .pg-green }          | :material-check:{ .pg-green }                                         | :material-information-outline:{ .pg-blue } Nur Mail | Bargeld                                     |
@@ -119,9 +119,9 @@ Proton Mail unterstützt TOTP [Zwei-Faktor-Authentisierung](https://proton.me/su
 
 #### :material-check:{ .pg-green } Datensicherheit
 
-Proton Mail verfügt über [Zero-Access-Verschlüsselung](https://proton.me/de/blog/zero-access-encryption) bei Ablage auf dem Server für deine E-Mails und [Kalender](https://proton.me/de/blog/protoncalendar-security-model). Die mit einer Zero-Access-Verschlüsselung gesicherten Daten sind nur für dich zugänglich.
+Proton Mail stores your [emails](https://proton.me/blog/zero-access-encryption) and [calendars](https://proton.me/news/protoncalendar-security-model) with PGP-based encryption at rest, where only you have the decryption keys needed to access them later.
 
-Bestimmte Informationen, die in [Proton Contacts](https://proton.me/support/proton-contacts) gespeichert sind, wie z. B. Anzeigenamen und E-Mail-Adressen, sind nicht mit einer Zero-Access-Verschlüsselung gesichert. Kontaktfelder, die eine Zero-Access-Verschlüsselung unterstützen, wie z. B. Telefonnummern, sind mit einem Vorhängeschloss-Symbol gekennzeichnet.
+Certain information stored in [Proton Contacts](https://proton.me/support/proton-contacts), such as display names and email addresses, are **not** secured with your own encryption keys, so Proton is able to read them. Contact fields which are protected with your own encryption keys, such as phone numbers, are indicated with a padlock icon.
 
 #### :material-check:{ .pg-green } E-Mail-Verschlüsselung
 
@@ -198,7 +198,7 @@ Mailbox Mail hat ein digitales Erbe Funktion für alle Pläne. You can choose wh
 
 ## Weitere Anbieter
 
-Diese Anbieter speichern deine E-Mails mit Zero-Knowledge-Verschlüsselung und sind damit eine gute Option für die Sicherheit deiner gespeicherten E-Mails. Allerdings unterstützen sie keine Interoperablen Verschlüsselungsstandards für Ende zu Ende Verschlüsselung zwischen verschiedenen Anbietern.
+These providers encrypt your emails in a way that only you can read them later, making them great options for keeping your stored emails secure. Allerdings unterstützen sie keine Interoperablen Verschlüsselungsstandards für Ende zu Ende Verschlüsselung zwischen verschiedenen Anbietern.
 
 <div class="grid cards" markdown>
 
@@ -254,7 +254,7 @@ Tuta unterstützt die [Zwei-Faktor-Authentisierung](https://tuta.com/support#2fa
 
 #### :material-check:{ .pg-green } Datensicherheit
 
-Tuta hat [ruhende Zero-Access-Verschlüsselung](https://tuta.com/support#what-encrypted) für deine E-Mails, dein [Adressenbuch](https://tuta.com/support#encrypted-address-book) und dein [Kalender](https://tuta.com/support#calendar). Das bedeutet, dass die in deinem Konto gespeicherten Nachrichten und andere Daten nur von dir gelesen werden können.
+Tuta stores your [emails](https://tuta.com/support#what-encrypted), [address book contacts](https://tuta.com/support#encrypted-address-book), and [calendars](https://tuta.com/support#calendar) with strong encryption where only you have the decryption keys. This means the messages and other data stored in your account cannot be read by anyone other than you after they are stored.
 
 #### :material-information-outline:{ .pg-blue } E-Mail-Verschlüsselung
 
@@ -278,14 +278,14 @@ Wir halten diese Merkmale für wichtig, um einen sicheren und optimalen Service 
 
 **Mindestvoraussetzung um sich zu qualifizieren:**
 
-- Muss Email-Konto-Daten mit ruhende Zero-Access-Verschlüsselung verschlüsseln.
+- Must encrypt email account data at rest with asymmetric encryption, where only the user has the private keys needed to decrypt it.
 - Muss fähig sein, E-Mails als [Mbox](https://en.wikipedia.org/wiki/Mbox) oder als einzelne .EML laut [RFC5322](https://datatracker.ietf.org/doc/rfc5322) Standard zu exportieren.
 - Erlaubt Nutzer ihre eigenen [Domainnamen](https://de.wikipedia.org/wiki/Domain_(Internet)) zu nutzen. Benutzerdefinierte Domänennamen sind für die Nutzer wichtig, da du so deine Identität von dem Dienst fernhalten kannst, falls dieser sich als schlecht erweist oder von einem anderen Unternehmen übernommen wird, bei dem der Datenschutz keine Rolle spielt.
 - Muss auf besitzte Infrastruktur betrieben werden, d.h. nicht auf Drittanbieter aufgebaut sein.
 
 **Im besten Fall:**
 
-- Soll alle Kontodaten (Kontakte, Kalender, etc.) mit ruhender Zero-Access-Verschlüsselung verschlüsseln.
+- Should encrypt all account data (contacts, calendars, etc.) at rest with asymmetric encryption, where only the user has the private keys needed to decrypt it.
 - Soll als Komfort integrierte Webmail E2EE-/PGP-Verschlüsselung anbieten.
 - Should support WKD to allow improved discovery of public OpenPGP keys via HTTP. GnuPG Nutzer können einen Schlüssel mit dem folgenden Befehl erhalten: `gpg --locate-key example_user@example.com`.
 - Unterstützung für eine temporäre Mailbox für externe Benutzer. Dies ist nützlich, wenn du eine verschlüsselte E-Mail verschicken willst, ohne eine echte Kopie zu deinem Empfänger zu schicken. Diese E-Mails haben in der Regel eine begrenzte Lebensdauer und werden dann automatisch gelöscht. Sie erfordern auch nicht, dass der Empfänger eine Kryptographie wie OpenPGP konfiguriert.
@@ -317,7 +317,7 @@ E-Mail-Server befassen sich mit vielen sensiblen Daten. Wir erwarten, dass Anbie
 **Mindestvoraussetzung um zu qualifizieren:**
 
 - Schutz von Webmail mit 2FA, wie z.B. [TOTP](basics/multi-factor-authentication.md#time-based-one-time-password-totp).
-- Zero-Access-Verschlüsselung, die auf ruhende Verschlüsselung aufbaut. Der Anbieter verfügt nicht über die Entschlüsselungsschlüssel zu den Daten, die er besitzt. So wird verhindert, dass ein abtrünniger Mitarbeitender Daten preisgibt, auf die er/sie Zugriff hat, oder dass ein Angreifender Daten freigibt, die er/sie gestohlen hat, indem er/sie sich unbefugt Zugang zum Server verschafft.
+- Encryption at rest, using asymmetric encryption where the service provider does not have the decryption keys to the data they hold. This prevents a rogue employee leaking data they have access to, or a remote adversary from releasing data they have stolen by gaining unauthorized access to the server.
 - [DNSSEC](https://de.wikipedia.org/wiki/Domain_Name_System_Security_Extensions) Unterstützung.
 - Keine TLS-Fehler oder -Schwachstellen beim Profiling durch Tools wie [Hardenize](https://hardenize.com), [testssl.sh](https://testssl.sh)oder [Qualys SSL Labs](https://ssllabs.com/ssltest); dies schließt zertifikatsbezogene Fehler und schwache DH-Parameter ein, wie z. B. die, die zu [Logjam](https://en.wikipedia.org/wiki/Logjam_(computer_security)) führten.
 - A server suite preference (optional on TLS 1.3) for strong cipher suites which support forward secrecy and authenticated encryption.
