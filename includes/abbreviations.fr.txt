@@ -16,6 +16,7 @@
 *[DoQ] : DNS sur QUIC
 *[DoH3] : DNS sur HTTP/3
 *[DoT] : DNS sur TLS
+*[DPA]: Data Protection Authority
 *[DPI] : L'inspection profonde de paquets (Deep Packet Inspection) identifie et bloque les paquets contenant des charges utiles spécifiques
 *[E2EE]: Chiffrement/Chiffré(e)s de bout en bout
 *[ECS] : Sous-réseau du client EDNS
@@ -60,6 +61,7 @@
 *[NAT]: Traduction d’adresses réseau
 *[NAT-PMP]: Protocole de redirection de port
 *[NTP]: Protocole de temps réseau
+*[Nunavut]: The largest and northernmost territory of Canada
 *[OCI]: Open Container Initiative
 *[OCSP]: Protocole d'état des certificats en ligne
 *[OEM]: Fabricant d'équipement d'origine

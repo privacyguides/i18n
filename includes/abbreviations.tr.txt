@@ -16,6 +16,7 @@
 *[DoQ]: QUIC üzerinden DNS
 *[DoH3]: HTTP/3 üzerinden DNS
 *[DoT]: TLS üzerinden DNS
+*[DPA]: Data Protection Authority
 *[DPI]: Deep Packet Inspection identifies and blocks packet with specific payloads
 *[E2EE]: Uçtan Uca Şifreleme/Şifreli
 *[ECS]: EDNS İstemci Alt Ağı
@@ -60,6 +61,7 @@
 *[NAT]: Network address translation
 *[NAT-PMP]: NAT Port Mapping Protocol
 *[NTP]: Ağ Zaman Protokolü
+*[Nunavut]: The largest and northernmost territory of Canada
 *[OCI]: Açık Konteyner Girişimi
 *[OCSP]: Çevrimiçi Sertifika Durum Protokolü
 *[OEM]: Orijinal Ürün Üreticisi

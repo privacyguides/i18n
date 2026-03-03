@@ -16,6 +16,7 @@
 *[DoQ]: DNS over QUIC
 *[DoH3]: DNS over HTTP/3
 *[DoT]: DNS over TLS
+*[DPA]: Data Protection Authority
 *[DPI]: Deep Packet Inspection identifies and blocks packet with specific payloads
 *[E2EE]: 종단 간 암호화(End-to-End Encryption/Encrypted)
 *[ECS]: EDNS 클라이언트 서브넷
@@ -60,6 +61,7 @@
 *[NAT]: Network address translation
 *[NAT-PMP]: NAT Port Mapping Protocol
 *[NTP]: 네트워크 타임 프로토콜(Network Time Protocol)
+*[Nunavut]: The largest and northernmost territory of Canada
 *[OCI]: Open Container Initiative
 *[OCSP]: 온라인 인증서 상태 프로토콜(Online Certificate Status Protocol)
 *[OEM]: 주문자 상표 부착 생산

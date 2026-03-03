@@ -16,6 +16,7 @@
 *[DoQ]: DNS over QUIC
 *[DoH3]: DNS over HTTP/3
 *[DoT]: DNS over TLS
+*[DPA]: Data Protection Authority
 *[DPI]: 深度包检测（Deep Packet Inspection）可以识别并拦截带有特定内容的数据包
 *[E2EE]: 端到端加密
 *[ECS]: EDNS 客户子网
@@ -60,6 +61,7 @@
 *[NAT]: 网络地址转换
 *[NAT-PMP]: NAT端口映射协议
 *[NTP]: 网络时间协议
+*[Nunavut]: The largest and northernmost territory of Canada
 *[OCI]: 开放容器计划
 *[OCSP]: 在线证书状态协议
 *[OEM]: 原始设备制造商

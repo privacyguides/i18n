@@ -16,6 +16,7 @@
 *[DoQ]: (англ. DNS over QUIC) - DNS через QUIC
 *[DoH3]: (англ. DNS over HTTP/3) - DNS через HTTP/3
 *[DoT]: (англ. DNS over TLS) - DNS через TLS
+*[DPA]: Data Protection Authority
 *[DPI]: (англ. Deep Packet Inspection) - Глубокая проверка пакетов анализирует и блокирует пакеты с определённым содержимым
 *[E2EE]: (англ. End-to-End Encryption) - Сквозное шифрование
 *[ECS]: (англ. EDNS Client Subnet) - Подсеть клиента EDNS
@@ -60,6 +61,7 @@
 *[NAT]: Network address translation
 *[NAT-PMP]: NAT Port Mapping Protocol
 *[NTP]: Сетевой протокол времени
+*[Nunavut]: The largest and northernmost territory of Canada
 *[OCI]: Инициатива, которая создаёт открытые стандарты для контейнеров
 *[OCSP]: Протокол состояния сетевого сертификата
 *[OEM]: Оригинальный производитель оборудования

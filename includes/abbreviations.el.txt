@@ -16,6 +16,7 @@
 *[DoQ]: DNS over QUIC
 *[DoH3]: DNS over HTTP/3
 *[DoT]: DNS over TLS
+*[DPA]: Data Protection Authority
 *[ΒΕΠ]: Η βαθιά επιθεώρηση πακέτων εντοπίζει και μπλοκάρει πακέτα με συγκεκριμένα φορτία
 *[E2EE]: Κρυπτογράφηση/-μένο από Άκρο-σε-Άκρο
 *[ECS]: EDNS Client Subnet (Υποδίκτυο Πελάτη EDNS)
@@ -60,6 +61,7 @@
 *[NAT]: Μετάφραση διευθύνσεων δικτύου (NΑΤ)
 *[NAT-PMP]: NAT Port Mapping Protocol
 *[NTP]: Πρωτόκολλο Δικτυακού Χρόνου
+*[Nunavut]: The largest and northernmost territory of Canada
 *[OCI]: Open Container Initiative
 *[OCSP]: Online Certificate Status Protocol (ελληνιστί: Πρωτόκολλο Διαδικτυακού Πιστοποιητικού Κατάστασης)
 *[OEM]: Παραγωγός Πρωτότυπου Εξοπλισμού

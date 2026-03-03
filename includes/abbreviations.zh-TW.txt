@@ -16,6 +16,7 @@
 *[DoQ]: 基於 QUIC 的 DNS 服務 (DNS over QUIC)
 *[DoH3]: 基於 HTTP/3 的 DNS 服務 (DNS over HTTP/3)
 *[DoT]: 基於 TLS 的 DNS 服務 (DNS over TLS)
+*[DPA]: Data Protection Authority
 *[DPI]: 深度封包檢測 (Deep Packet Inspection)，是一種用於識別並封鎖具有特定特徵封包的技術
 *[E2EE]: 端對端加密
 *[ECS]: EDNS 客戶端子網
@@ -60,6 +61,7 @@
 *[NAT]: 網路位址轉譯
 *[NAT-PMP]: NAT 連接埠對應通訊協定
 *[NTP]: 網路時間協定
+*[Nunavut]: The largest and northernmost territory of Canada
 *[OCI]: 開放容器標準
 *[OCSP]: 線上憑證狀態協定
 *[OEM]: 原始設備製造商

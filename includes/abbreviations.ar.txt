@@ -16,6 +16,7 @@
 *[DoQ]: DNS over QUIC
 *[DoH3]: DNS over HTTP/3
 *[DoT]: DNS over TLS
+*[DPA]: Data Protection Authority
 *[DPI]: تعمل مِيزة فحص الحُزْمَة العميقة على تحديد الحُزْمَة التي تحتوي على حمولات محددة وحظرها
 *[E2EE]: التشفير من طرف إلى طرف/ مشفر
 *[ECS]: EDNS Client Subnet
@@ -60,6 +61,7 @@
 *[NAT]: Network address translation
 *[NAT-PMP]: NAT Port Mapping Protocol
 *[NTP]: قواعد وقت الشبكة
+*[Nunavut]: The largest and northernmost territory of Canada
 *[OCI]: Open Container Initiative
 *[OCSP]: قواعد حالة الشهادة عبر الإنترنت
 *[OEM]: Original Equipment Manufacturer
