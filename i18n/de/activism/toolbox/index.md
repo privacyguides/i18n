@@ -10,7 +10,7 @@ The **Privacy Activist Toolbox** is a resource for anyone interested in becoming
 
 This page is also a resource to help digital rights organizations that would like to expand their work focusing on privacy.
 
-:material-cursor-default-click: By clicking on any of the tips listed on this page, you can access more information on each topic, as well as additional resources to support your advocacy.
+:material-cursor-default-click: Wenn Sie auf einen der Tipps auf dieser Seite klicken, erhalten Sie weitere Informationen zum jeweiligen Thema, sowie weitere Ressourcen zur Unterstützung Ihrer Interessen.
 
 ---
 
@@ -28,9 +28,9 @@ This page is also a resource to help digital rights organizations that would lik
 
 [:fontawesome-solid-handshake-angle:{ .toolbox-button-icon } Build<br>Alliances](#build-alliances){ .toolbox-button .toolbox-bg-alliances }
 
-[:fontawesome-solid-heart-circle-check:{ .toolbox-button-icon } Make It<br>Accessible](#make-it-accessible){ .toolbox-button .toolbox-bg-accessibility }
+[:fontawesome-solid-heart-circle-check:{ .toolbox-button-icon } Machen Sie es<br>zugänglich](#make-it-accessible){ .toolbox-button .toolbox-bg-accessibility }
 
-[:fontawesome-solid-star:{ .toolbox-button-icon } Uphold<br>Integrity](#uphold-integrity){ .toolbox-button .toolbox-bg-integrity }
+[:fontawesome-solid-star:{ .toolbox-button-icon } Aufrechterhaltung der<br>Integrität](#uphold-integrity){ .toolbox-button .toolbox-bg-integrity }
 
 [:fontawesome-solid-heart:{ .toolbox-button-icon } Stay<br>Persistent](#stay-persistent){ .toolbox-button .toolbox-bg-persistence }
 
