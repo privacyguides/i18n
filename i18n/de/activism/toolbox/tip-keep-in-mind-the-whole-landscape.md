@@ -5,7 +5,7 @@ icon: fontawesome/solid/globe
 cover: activism/banner-toolbox-tip-landscape.webp
 ---
 
-Privacy isn't just about the tools, the laws, or the practices of any individual or organization. It's about _all_ of that. To move our society in a place where everyone benefits from privacy by default, we must consider technologies, laws, and culture holistically.
+Beim Datenschutz geht es nicht nur um die Instrumente, die Gesetze oder die Praktiken einer Person oder Organisation. It's about _all_ of that. Um unsere Gesellschaft in eine Richtung zu bringen, in der jeder standardmäßig von der Privatsphäre profitiert, müssen wir Technologien, Gesetze und Kultur ganzheitlich betrachten.
 
 Here's how to get better at **considering the whole landscape**:
 
