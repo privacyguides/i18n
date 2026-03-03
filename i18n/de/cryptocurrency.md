@@ -84,9 +84,9 @@ Es gibt mehrere zentralisierte Börsen (CEX) sowie P2P-Märkte wo du Monero kauf
 - Kryptowährungen müssen standardmäßig private/unverfolgbare Transaktionen ermöglichen.
 
 <div class="admonition tip" markdown>
-<p class="admonition-title">Important notices</p>
+<p class="admonition-title">Wichtige Hinweise</p>
 
-The content here is not legal or financial advice. We do not endorse or encourage illicit activities, and we do not endorse or encourage anything which violates a company's terms of service. Check with a professional to confirm that these recommendations are legal and available in your jurisdiction. [See all notices](about/notices.md).
+Der Inhalt hier ist kein rechtlicher oder finanzieller Rat. Wir unterstützen oder ermutigen keine illegalen Aktivitäten, ebenfalls unterstützen oder ermutigen nicht etwas zu machen, was die Nutzungsbedingungen eines Unternehmens brechen. Check with a professional to confirm that these recommendations are legal and available in your jurisdiction. [Sehe alle Hinweise](about/notices.md).
 
 </div>
 
