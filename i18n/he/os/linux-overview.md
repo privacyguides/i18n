@@ -158,7 +158,6 @@ If you are using [systemd-networkd](https://en.wikipedia.org/wiki/Systemd#Ancill
 
 - **שמות מארח:** שם המארח של המערכת שלך משותף עם הרשתות שאליהן אתה מתחבר. עליך להימנע מלכלול מונחים מזהים כמו השם או מערכת ההפעלה שלך בשם המארח שלך, במקום להיצמד למונחים גנריים או מחרוזות אקראיות.
 - **שמות משתמש:** באופן דומה, שם המשתמש שלך משמש במגוון דרכים במערכת שלך. שקול להשתמש במונחים גנריים כמו "משתמש" ולא בשמך האמיתי.
-- **Machine ID:** During installation, a unique machine ID is generated and stored on your device. שקול [להגדיר אותו למזהה גנרי](https://madaidans-insecurities.github.io/guides/linux-hardening.html#machine-id).
 
 ### ספירת מערכת
 

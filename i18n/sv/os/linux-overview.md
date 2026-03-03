@@ -158,7 +158,6 @@ Det finns andra systemidentifierare som du bör vara försiktig med. Du bör fun
 
 - **Värdnamn:** Systemets värdnamn delas med de nätverk du ansluter till. Du bör undvika att inkludera identifierande termer som ditt namn eller operativsystem i ditt värdnamn och i stället hålla dig till generiska termer eller slumpmässiga strängar.
 - **Användarnamn:** På samma sätt används ditt användarnamn på olika sätt i systemet. Överväg att använda generiska termer som "användare" snarare än ditt faktiska namn.
-- **Machine ID:** During installation, a unique machine ID is generated and stored on your device. Consider [setting it to a generic ID](https://madaidans-insecurities.github.io/guides/linux-hardening.html#machine-id).
 
 ### System Counting
 

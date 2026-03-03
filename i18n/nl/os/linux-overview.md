@@ -158,7 +158,6 @@ Er zijn andere systeemidentifiers waar je misschien voorzichtig mee moet zijn. J
 
 - **Hostnamen:** De hostnaam van jouw systeem wordt gedeeld met de netwerken waarmee je verbinding maakt. Je kunt beter geen identificerende termen zoals jouw naam of besturingssysteem in jouw hostnaam opnemen, maar het bij algemene termen of willekeurige strings houden.
 - **Gebruikersnamen:** Ook jouw gebruikersnaam wordt op verschillende manieren in jouw systeem gebruikt. Gebruik liever algemene termen als "gebruiker" dan jouw eigenlijke naam.
-- **Machine-ID:** Tijdens de installatie wordt een unieke machine-ID gegenereerd en opgeslagen op je apparaat. Overweeg [het in te stellen op een generieke ID](https://madaidans-insecurities.github.io/guides/linux-hardening.html#machine-id).
 
 ### Systeemtelling
 

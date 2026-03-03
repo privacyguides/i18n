@@ -158,7 +158,6 @@ Hay otros identificadores del sistema con los que conviene tener cuidado. Deber�
 
 - **Nombres de host:** El nombre de host de tu sistema se comparte con las redes a las que te conectas. Debes evitar incluir términos identificativos como tu nombre o tu sistema operativo en tu nombre de host, en su lugar, cíñete a términos genéricos o cadenas de caracteres aleatorias.
 - **Nombres de usuario:** Del mismo modo, tu nombre de usuario se utiliza de diversas maneras en todo el sistema. Considera la posibilidad de utilizar términos genéricos como "usuario" en lugar de tu nombre real.
-- **ID de Máquina:** Durante la instalación, se genera un ID de máquina único que se almacena en tu dispositivo. Considera [configurarlo en un ID genérico](https://madaidans-insecurities.github.io/guides/linux-hardening.html#machine-id).
 
 ### Contador de sistema
 

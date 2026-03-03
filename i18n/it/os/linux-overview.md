@@ -158,7 +158,6 @@ Esistono altri identificatori di sistema a cui dovresti prestare attenzione. Dov
 
 - **Nomi del host:** Il nome del host del tuo sistema è condiviso con le reti cui ti connetti. Dovresti evitare di includere i termini identificativi, come il tuo nome o sistema operativo nel tuo nome del host, piuttosto utilizzando termini generici o stringhe casuali.
 - **Nomi utente:** Similmente, il tuo nome utente è utilizzato in vari modi nel tuo sistema. Cerca di utilizzare termini generici come "utente", piuttosto che il tuo nome reale.
-- **Machine ID:** During installation, a unique machine ID is generated and stored on your device. Considera di [impostarlo a un ID generico](https://madaidans-insecurities.github.io/guides/linux-hardening.html#machine-id).
 
 ### Conteggio di Sistema
 

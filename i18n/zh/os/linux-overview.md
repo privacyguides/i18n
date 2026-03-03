@@ -158,7 +158,6 @@ MAC address randomization is primarily beneficial for Wi-Fi connections. For Eth
 
 - **主机名。** 你的系统的主机名是与你所连接的网络共享的。 你应该避免在你的主机名中包括像你的名字或操作系统这样的识别术语，而是坚持使用通用术语或随机字符串。
 - **用户名。** 同样地，你的用户名在你的系统中以各种方式使用。 考虑使用 "用户 "这样的通用术语，而不是你的真实姓名。
-- **Machine ID:** During installation, a unique machine ID is generated and stored on your device. 考虑 [，将其设置为一个通用的ID](https://madaidans-insecurities.github.io/guides/linux-hardening.html#machine-id)。
 
 ### 系统计数
 
