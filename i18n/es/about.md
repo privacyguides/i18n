@@ -130,7 +130,7 @@ Nuestro personal recibe una remuneración por contribuir a los contenidos comple
 
   ---
 
-  :material-text-account: Redactora
+  :material-text-account: Activism and Outreach
 
   [:material-account: Perfil](https://discuss.privacyguides.net/u/em)
 
@@ -149,18 +149,6 @@ Nuestro personal recibe una remuneración por contribuir a los contenidos comple
   [:material-github:](https://github.com/jordan-warne "GitHub")
   [:material-mastodon:](https://social.lol/@jw "@jw@social.lol"){rel=me}
   [:material-email:](mailto:jordan@privacyguides.org "Correo Electrónico")
-
-- :japanese_goblin:{ .lg .middle } **Kevin Pham**
-
-  ---
-
-  :material-text-account: Becario de Comunidad y Noticias
-
-  [:material-account: Perfil](https://discuss.privacyguides.net/u/kevpham)
-
-  [:material-github:](https://github.com/kevpham123 "GitHub")
-  [:material-mastodon:](https://mastodon.social/@kevpham "@kevpham@mastodon.social"){rel=me}
-  [:material-email:](mailto:kevin@privacyguides.org "Correo Electrónico")
 
 - :video_camera:{ .lg .middle } **Nate Bartram**
 

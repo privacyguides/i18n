@@ -130,7 +130,7 @@ Nasz zespół jest opłacany za tworzenie materiałów dodatkowych dla Privacy G
 
   ---
 
-  :material-text-account: Redaktorka
+  :material-text-account: Aktywizm i działania społeczne
 
   [:material-account: Profil](https://discuss.privacyguides.net/u/em)
 
@@ -149,18 +149,6 @@ Nasz zespół jest opłacany za tworzenie materiałów dodatkowych dla Privacy G
   [:material-github:](https://github.com/jordan-warne "GitHub")
   [:material-mastodon:](https://social.lol/@jw "@jw@social.lol"){rel=me}
   [:material-email:](mailto:jordan@privacyguides.org "E-mail")
-
-- :japanese_goblin:{ .lg .middle } **Kevin Pham**
-
-  ---
-
-  :material-text-account: Stażysta ds. społeczności i aktualności
-
-  [:material-account: Profil](https://discuss.privacyguides.net/u/kevpham)
-
-  [:material-github:](https://github.com/kevpham123 "GitHub")
-  [:material-mastodon:](https://mastodon.social/@kevpham "@kevpham@mastodon.social"){rel=me}
-  [:material-email:](mailto:kevin@privacyguides.org "E-mail")
 
 - :video_camera:{ .lg .middle } **Nate Bartram**
 

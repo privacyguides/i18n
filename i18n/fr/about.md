@@ -130,7 +130,7 @@ Notre personnel est rémunéré pour contribuer au contenu supplémentaire à Pr
 
   ---
 
-  :material-text-account: Staff Writer
+  :material-text-account: Activisme et Sensibilisation
 
   [:material-account: Profile](https://discuss.privacyguides.net/u/em)
 
@@ -149,18 +149,6 @@ Notre personnel est rémunéré pour contribuer au contenu supplémentaire à Pr
   [:material-github:](https://github.com/jordan-warne "GitHub")
   [:material-mastodon:](https://social.lol/@jw "@jw@social.lol"){rel=me}
   [:material-email:](mailto:jordan@privacyguides.org "Email")
-
-- :japanese_goblin:{ .lg .middle } **Kevin Pham**
-
-  ---
-
-  :material-text-account: Stagiaire Communauté et Actualités
-
-  [:material-account: Profile](https://discuss.privacyguides.net/u/kevpham)
-
-  [:material-github:](https://github.com/kevpham123 "GitHub")
-  [:material-mastodon:](https://mastodon.social/@kevpham "@kevpham@mastodon.social"){rel=me}
-  [:material-email:](mailto:kevin@privacyguides.org "Email")
 
 - :video_camera:{ .lg .middle } **Nate Bartram**
 

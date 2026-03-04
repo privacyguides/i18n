@@ -130,7 +130,7 @@ Unsere Mitarbeiter werden bezahlt um bei zusätzlichem Inhalt bei Privacy Guides
 
   ---
 
-  :material-text-account: Redakteurin
+  :material-text-account: Activism and Outreach
 
   [:material-account: Profil](https://discuss.privacyguides.net/u/em)
 
@@ -149,18 +149,6 @@ Unsere Mitarbeiter werden bezahlt um bei zusätzlichem Inhalt bei Privacy Guides
   [:material-github:](https://github.com/jordan-warne "GitHub")
   [:material-mastodon:](https://social.lol/@jw "@jw@social.lol"){rel=me}
   [:material-email:](mailto:jordan@privacyguides.org "Email")
-
-- :japanese_goblin:{ .lg .middle } **Kevin Pham**
-
-  ---
-
-  :material-text-account: Community & News Praktikant
-
-  [:material-account: Profil](https://discuss.privacyguides.net/u/kevpham)
-
-  [:material-github:](https://github.com/kevpham123 "GitHub")
-  [:material-mastodon:](https://mastodon.social/@kevpham "@kevpham@mastodon.social"){rel=me}
-  [:material-email:](mailto:kevin@privacyguides.org "Email")
 
 - :video_camera:{ .lg .middle } **Nate Bartram**
 
