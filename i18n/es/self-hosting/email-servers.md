@@ -30,7 +30,7 @@ Los administradores de sistemas avanzados pueden considerar configurar su propio
 
 </div>
 
-Stalwart's [PGP implementation](https://stalw.art/docs/encryption/overview) is unique among our self-hosted recommendations and allows you to operate your own mail server with encrypted message storage, lessening the risk of unauthorized access to your emails. Si además configuras Web Key Directory (WKD) en tu dominio, y si utilizas un cliente de correo electrónico que soporte PGP y WKD para el correo saliente (como Thunderbird), entonces esta es la forma más sencilla de conseguir compatibilidad E2EE autoalojada con todos los usuarios de [Proton Mail](../email.md#proton-mail).
+La [implementación de PGP](https://stalw.art/docs/encryption/overview) de Stalwart es única entre nuestras recomendaciones de autoalojamiento y te permite operar tu propio servidor de correo con almacenamiento de mensajes cifrado, disminuyendo el riesgo de acceso no autorizado a tus correos electrónicos. Si además configuras Web Key Directory (WKD) en tu dominio, y si utilizas un cliente de correo electrónico que soporte PGP y WKD para el correo saliente (como Thunderbird), entonces esta es la forma más sencilla de conseguir compatibilidad E2EE autoalojada con todos los usuarios de [Proton Mail](../email.md#proton-mail).
 
 Stalwart **no** tiene un correo web integrado, así que tendrás que usarlo con un [cliente de correo electrónico dedicado](../email-clients.md) o encontrar un correo web de código abierto para autoalojarlo, como la aplicación Mail de Nextcloud.
 

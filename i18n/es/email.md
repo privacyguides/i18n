@@ -22,7 +22,7 @@ El correo electrónico es prácticamente una necesidad para utilizar cualquier s
 
 Para todo lo demás, recomendamos una variedad de proveedores de correo electrónico basados en modelos sostenibles, además de características de seguridad y privacidad integradas. Lee nuestra \[lista completa de criterios\](#criterios) para más información.
 
-| Proveedor                     | OpenPGP / WKD                          | IMAP / SMTP                                                       | Encrypted Storage                                         | Métodos de Pago Anónimos                                            |
+| Proveedor                     | OpenPGP / WKD                          | IMAP / SMTP                                                       | Almacenamiento Cifrado                                    | Métodos de Pago Anónimos                                            |
 | ----------------------------- | -------------------------------------- | ----------------------------------------------------------------- | --------------------------------------------------------- | ------------------------------------------------------------------- |
 | [Proton Mail](#proton-mail)   | :material-check:{ .pg-green }          | :material-information-outline:{ .pg-blue } Sólo en planes de pago | :material-check:{ .pg-green }                             | Efectivo <br>Monero a través de terceros                      |
 | [Mailbox Mail](#mailbox-mail) | :material-check:{ .pg-green }          | :material-check:{ .pg-green }                                     | :material-information-outline:{ .pg-blue } Sólo el correo | Efectivo                                                            |
@@ -119,9 +119,9 @@ Proton Mail es compatible con la [autenticación de dos factores](https://proton
 
 #### :material-check:{ .pg-green } Seguridad de Datos
 
-Proton Mail stores your [emails](https://proton.me/blog/zero-access-encryption) and [calendars](https://proton.me/news/protoncalendar-security-model) with PGP-based encryption at rest, where only you have the decryption keys needed to access them later.
+Proton Mail almacena tus [correos electrónicos](https://proton.me/blog/zero-access-encryption) y [calendarios](https://proton.me/news/protoncalendar-security-model) con cifrado basado en PGP en reposo, de modo que solo tú dispones de las claves de descifrado necesarias para acceder a ellos en el futuro.
 
-Certain information stored in [Proton Contacts](https://proton.me/support/proton-contacts), such as display names and email addresses, are **not** secured with your own encryption keys, so Proton is able to read them. Contact fields which are protected with your own encryption keys, such as phone numbers, are indicated with a padlock icon.
+Cierta información almacenada en [Proton Contacts](https://proton.me/support/proton-contacts), como los nombres de usuario y las direcciones de correo electrónico, **no** está protegida con tus propias claves de cifrado, por lo que Proton puede leerla. Los campos de contacto que están protegidos con tus propias claves de cifrado, como los números de teléfono, se indican con el icono de un candado.
 
 #### :material-check:{ .pg-green } Encriptación de Correo Electrónico
 
@@ -198,7 +198,7 @@ Mailbox Mail tiene una función de legado digital para todos los planes. Puedes 
 
 ## Más Proveedores
 
-These providers encrypt your emails in a way that only you can read them later, making them great options for keeping your stored emails secure. Sin embargo, no admiten normas de cifrado interoperables para las comunicaciones E2EE entre distintos proveedores.
+Estos proveedores cifran tus correos electrónicos de manera que solo tú puedas leerlos más adelante, lo que los convierte en excelentes opciones para mantener seguros tus correos electrónicos almacenados. Sin embargo, no admiten normas de cifrado interoperables para las comunicaciones E2EE entre distintos proveedores.
 
 <div class="grid cards" markdown>
 
@@ -254,7 +254,7 @@ Tuta soporta la [autenticación de dos factores](https://tuta.com/support#2fa) y
 
 #### :material-check:{ .pg-green } Seguridad de los datos
 
-Tuta stores your [emails](https://tuta.com/support#what-encrypted), [address book contacts](https://tuta.com/support#encrypted-address-book), and [calendars](https://tuta.com/support#calendar) with strong encryption where only you have the decryption keys. This means the messages and other data stored in your account cannot be read by anyone other than you after they are stored.
+Tuta almacena tus [correos electrónicos](https://tuta.com/support#what-encrypted), [contactos de la libreta de direcciones](https://tuta.com/support#encrypted-address-book) y [calendarios](https://tuta.com/support#calendar) con un fuerte cifrado para el que solo tú tienes las claves de descifrado. Esto significa que los mensajes y otros datos almacenados en tu cuenta no pueden ser leídos por nadie más que tú una vez almacenados.
 
 #### :material-information-outline:{ .pg-blue } Cifrado de correo electrónico
 
@@ -278,21 +278,21 @@ Consideramos que estas características son importantes para ofrecer un servicio
 
 **Mínimo para calificar:**
 
-- Must encrypt email account data at rest with asymmetric encryption, where only the user has the private keys needed to decrypt it.
+- Debe cifrar los datos de las cuentas de correo electrónico en reposo con un cifrado asimétrico, para el que solo el usuario dispone de las claves privadas necesarias para descifrarlos.
 - Debe ser capaz de exportar correos electrónicos como [Mbox](https://en.wikipedia.org/wiki/Mbox) o .EML individuales con el estándar [RFC5322](https://datatracker.ietf.org/doc/rfc5322).
 - Permite a los usuarios utilizar su propio [nombre de dominio](https://en.wikipedia.org/wiki/Domain_name). Los nombres de dominio personalizados son importantes para los usuarios porque les permiten mantener su agencia del servicio, en caso de que éste se estropee o sea adquirido por otra empresa que no dé prioridad a la privacidad.
 - Debe funcionar con infraestructura propia, es decir, no debe basarse en proveedores de servicios de correo electrónico de terceros.
 
 **Mejor Caso:**
 
-- Should encrypt all account data (contacts, calendars, etc.) at rest with asymmetric encryption, where only the user has the private keys needed to decrypt it.
-- Debe proporcionar cifrado E2EE/PGP de correo web integrado como comodidad.
-- Debe soportar WKD para permitir un mejor descubrimiento de claves públicas OpenPGP a través de HTTP. Los usuarios de GnuPG pueden obtener una clave con este comando: `gpg --locate-key example_user@example.com.`.
+- Debería cifrar todos los datos de la cuenta (contactos, calendarios, etc.) en reposo con un cifrado asimétrico, para el que solo el usuario dispone de las claves privadas necesarias para descifrarlos.
+- Debería proporcionar cifrado E2EE/PGP de correo web integrado como comodidad.
+- Debería soportar WKD para permitir un mejor descubrimiento de claves públicas OpenPGP a través de HTTP. Los usuarios de GnuPG pueden obtener una clave con este comando: `gpg --locate-key example_user@example.com.`.
 - Soporte para un buzón temporal para usuarios externos. Esto es útil cuando quieres enviar un correo electrónico encriptado, sin enviar una copia real a tu destinatario. Estos correos electrónicos suelen tener una vida útil limitada y luego se eliminan automáticamente. Tampoco requieren que el destinatario configure ninguna criptografía como OpenPGP.
-- Debe admitir [subdireccionamiento](https://en.wikipedia.org/wiki/Email_address#Sub-addressing).
-- Debe permitir a los usuarios utilizar su propio [nombre de dominio](https://en.wikipedia.org/wiki/Domain_name). Los nombres de dominio personalizados son importantes para los usuarios porque les permiten mantener su agencia del servicio, en caso de que éste se estropee o sea adquirido por otra empresa que no dé prioridad a la privacidad.
+- Debería admitir [subdireccionamiento](https://en.wikipedia.org/wiki/Email_address#Sub-addressing).
+- Debería permitir a los usuarios utilizar su propio [nombre de dominio](https://en.wikipedia.org/wiki/Domain_name). Los nombres de dominio personalizados son importantes para los usuarios porque les permiten mantener su agencia del servicio, en caso de que éste se estropee o sea adquirido por otra empresa que no dé prioridad a la privacidad.
 - Funcionalidad Catch-all o alias para quienes utilizan sus propios dominios.
-- Debe utilizar protocolos estándar de acceso al correo electrónico como IMAP, SMTP o [JMAP](https://en.wikipedia.org/wiki/JSON_Meta_Application_Protocol). Los protocolos de acceso estándar garantizan que los clientes puedan descargar fácilmente todo su correo electrónico en caso de que quieran cambiar de proveedor.
+- Debería utilizar protocolos estándar de acceso al correo electrónico como IMAP, SMTP o [JMAP](https://en.wikipedia.org/wiki/JSON_Meta_Application_Protocol). Los protocolos de acceso estándar garantizan que los clientes puedan descargar fácilmente todo su correo electrónico en caso de que quieran cambiar de proveedor.
 - Los servicios del proveedor de correo electrónico deben estar disponibles a través de un [servicio onion](https://en.wikipedia.org/wiki/.onion).
 
 ### Privacidad
@@ -307,7 +307,7 @@ Preferimos que nuestros proveedores recomendados recojan la menor cantidad de da
 
 **Mejor Caso:**
 
-- Debe aceptar [opciones de pago anónimas](advanced/payments.md)([criptomonedas](cryptocurrency.md), efectivo, tarjetas regalo, etc.)
+- Debería aceptar [opciones de pago anónimas](advanced/payments.md) ([criptomonedas](cryptocurrency.md), efectivo, tarjetas regalo, etc.)
 - Debe estar alojado en una jurisdicción con leyes estrictas de protección de la privacidad del correo electrónico.
 
 ### Seguridad
@@ -317,7 +317,7 @@ Los servidores de correo electrónico manejan muchos datos sensibles. Esperamos 
 **Mínimo para Calificar:**
 
 - Protección del correo web con 2FA, como [TOTP](basics/multi-factor-authentication.md#time-based-one-time-password-totp).
-- Encryption at rest, using asymmetric encryption where the service provider does not have the decryption keys to the data they hold. This prevents a rogue employee leaking data they have access to, or a remote adversary from releasing data they have stolen by gaining unauthorized access to the server.
+- Cifrado en reposo, utilizando un cifrado asimétrico para el que el proveedor de servicios no dispone de las claves de descifrado de los datos que posee. Esto evita que un empleado deshonesto filtre datos a los que tiene acceso o que un adversario remoto divulgue datos que ha robado al obtener acceso no autorizado al servidor.
 - Compatible con [DNSSEC](https://en.wikipedia.org/wiki/Domain_Name_System_Security_Extensions).
 - Sin errores o vulnerabilidades TLS al ser perfilado por herramientas como [Hardenize](https://hardenize.com), [testssl.sh](https://testssl.sh) o [Qualys SSL Labs](https://ssllabs.com/ssltest); esto incluye errores relacionados con certificados y parámetros DH débiles, como los que llevaron a [Logjam](https://en.wikipedia.org/wiki/Logjam_(computer_security)).
 - Una preferencia de suite de servidor (opcional en TLS 1.3) para suites de cifrado fuertes que soporten secreto hacia adelante y encriptación autenticada.

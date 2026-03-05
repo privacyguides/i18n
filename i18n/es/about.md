@@ -130,7 +130,7 @@ Nuestro personal recibe una remuneración por contribuir a los contenidos comple
 
   ---
 
-  :material-text-account: Activism and Outreach
+  :material-text-account: Activismo y Divulgación
 
   [:material-account: Perfil](https://discuss.privacyguides.net/u/em)
 
