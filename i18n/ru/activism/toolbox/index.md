@@ -123,18 +123,18 @@ Learn More :material-arrow-right-drop-circle:
 
 <button class="toolbox-button-top">[Back to top :material-toolbox:](#toolbox-compartments)</button> <br>
 
-## Expand Your Perspective
+## Расширьте свой кругозор
 
 <a href="tip-dont-stop-at-individual-solutions">
 <div class="toolbox-tip-card toolbox-border-perspective" markdown>
 
-### 1. Don't stop at individual solutions, consider the collective impact
+### 1. Не останавливайтесь на индивидуальных решениях, учитывайте коллективное воздействие
 
 ![People with radiating lines icon](../../assets/img/activism/icons/icon-tips/icon-tips-expand.webp){class="toolbox-tip-icon"}
 
 When we think about our privacy, we often focus on the technical tools we can use. While this is indeed an important component, it's crucial not to lose sight of how regulations and invasive practices impact us collectively. Learn more about how to expand your perspective on data privacy.
 
-Learn More :material-arrow-right-drop-circle:
+Узнать больше :material-arrow-right-drop-circle:
 {align=right}
 
 </div>
