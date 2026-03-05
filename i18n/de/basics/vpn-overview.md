@@ -1,8 +1,8 @@
 ---
-meta_title: "How Do VPNs Protect Your Privacy? Our VPN Overview - Privacy Guides"
-title: VPN Overview
+meta_title: "Wie schützen VPNs deine Privatsphäre? Unsere VPN-Übersicht - Privacy Guides"
+title: VPN Übersicht
 icon: material/vpn
-description: Virtual Private Networks shift risk away from your ISP to a third-party you trust. You should keep these things in mind.
+description: Virtual Private Networks shift risk away from your ISP to a third-party you trust. Du solltest diese Dinge mitbedenken.
 ---
 
 Virtual Private Networks are a way of extending the end of your network to exit somewhere else in the world.
@@ -20,7 +20,7 @@ When we refer to "Virtual Private Networks" on this website, we are usually refe
 
 </div>
 
-## How does a VPN work?
+## Wie funktioniert ein VPN?
 
 VPNs encrypt your traffic between your device and a server owned by your VPN provider. From the perspective of anyone between you and the VPN server, it looks like you're connecting to the VPN server. From the perspective of anyone between the VPN server and your destination site, all they can see is the VPN server connecting to the website.
 
