@@ -4,7 +4,7 @@ icon: material/form-textbox-password
 description: Vinkkejä vahvojen salasanojen luomiseen ja tilien suojaamiseen.
 ---
 
-Salasanat ovat keskeinen osa jokapäiväistä digitaalista elämäämme. Käytämme niitä tiliemme, laitteidemme ja salaisuuksiemme suojaamiseen. Despite often being the only thing between us and an adversary who's after our private information, not a lot of thought is put into them, which often leads to people using passwords that can be easily guessed or brute-forced.
+Salasanat ovat keskeinen osa jokapäiväistä digitaalista elämäämme. Käytämme niitä tiliemme, laitteidemme ja salaisuuksiemme suojaamiseen. Salasanoja ei yleensä harkita tarkkaan, vaikka ne ovatkin usein ainoa este tietojamme urkkivia vihollisia vastaan, mistä johtuen käytämme helposti arvattavia salasanoja.
 
 ## Best Practices
 
