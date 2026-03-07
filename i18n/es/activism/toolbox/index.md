@@ -45,11 +45,11 @@ Esta página es también un recurso para ayudar a las organizaciones de derechos
 <a href="tip-know-your-privacy-laws/">
 <div class="toolbox-tip-card toolbox-border-legal" markdown>
 
-### 1. Know your privacy laws
+### 1. Conoce tu legislación sobre la privacidad
 
 ![Scale icon](../../assets/img/activism/icons/icon-tips/icon-tips-laws.webp){class="toolbox-tip-icon"}
 
-Being well-informed about the data protection regulations in your own jurisdiction can be a significant asset for your personal and collective battles to improve privacy, for yourself and for others. Learn more about what to look for when researching your local privacy laws.
+Estar bien informado sobre la normativa de protección de datos en tu propia jurisdicción puede ser una baza importante en tus batallas personales y colectivas para mejorar la privacidad, tanto para ti como para los demás. Aprende más sobre qué buscar al investigar las leyes locales en materia de privacidad.
 
 Más Información :material-arrow-right-drop-circle:
 {align=right}
