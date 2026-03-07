@@ -1,11 +1,11 @@
 ---
 title: Be Kind to People, But Be Relentless With Institutions
-description: Kindness and patience are essential qualities for privacy advocates. To grow our movement, we must meet people from a place of camaraderie.
+description: Kindness and patience are essential qualities for privacy advocates. Para hacer crecer nuestro movimiento, debemos acercarnos a las personas en un ambiente de camaradería.
 icon: fontawesome/solid/hands-holding-circle
 cover: activism/banner-toolbox-tip-kind.webp
 ---
 
-Kindness and patience are essential qualities for privacy advocates. To grow our movement, we must meet people from a place of camaraderie. People don't change their mind by being berated. However, this isn't true for institutions.
+Kindness and patience are essential qualities for privacy advocates. Para hacer crecer nuestro movimiento, debemos acercarnos a las personas en un ambiente de camaradería. La gente no cambia de opinión por ser reprendida. Sin embargo, esto no es así en el caso de las instituciones.
 
 Here's how you can **integrate kindness in your work**, while being relentless with institutions:
 
