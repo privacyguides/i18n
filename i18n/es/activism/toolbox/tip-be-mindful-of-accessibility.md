@@ -5,7 +5,7 @@ icon: fontawesome/solid/heart-circle-check
 cover: activism/banner-toolbox-tip-accessibility.webp
 ---
 
-**Accessibility** is indispensable to [inclusivity](tip-keep-your-posts-and-community-inclusive.md), and should always be a priority in our work. To make our privacy communities welcoming to all, accessibility cannot be an afterthought. We must integrate it in our practice from the start. This means making sure the languages, visuals, tools, and venues we use are accessible to as many people as possible.
+**Accessibility** is indispensable to [inclusivity](tip-keep-your-posts-and-community-inclusive.md), and should always be a priority in our work. Para que nuestras comunidades de privacidad sean acogedoras para todos, la accesibilidad no puede ser una cuestión secundaria. Debemos integrarla en nuestra práctica desde el principio. This means making sure the languages, visuals, tools, and venues we use are accessible to as many people as possible.
 
 Here's what you can do to improve accessibility for your privacy-related content and communities:
 

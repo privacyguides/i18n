@@ -1,6 +1,6 @@
 ---
 title: Welcome Beginners
-description: For our privacy rights movement to grow, we must bring more people in. To accomplish this, it's fundamental to make our communities welcoming to newcomers.
+description: Para que nuestro movimiento por los derechos a la privacidad crezca, debemos atraer a más personas. To accomplish this, it's fundamental to make our communities welcoming to newcomers.
 icon: fontawesome/solid/user-plus
 cover: activism/banner-toolbox-tip-beginners.webp
 ---

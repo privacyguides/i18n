@@ -1,15 +1,15 @@
 ---
 title: Take Time to Rest, But Come Back to Fight With Us
-description: The battle for privacy will be a long one. This isn't a sprint, it's a marathon. If you want to be a good advocate, you must learn to rest when you need it.
+description: The battle for privacy will be a long one. Esto no es un esprint, es una maratón. If you want to be a good advocate, you must learn to rest when you need it.
 icon: fontawesome/solid/battery-quarter
 cover: activism/banner-toolbox-tip-rest.webp
 ---
 
-The battle for privacy rights will be a long one. This isn't a sprint, it's a marathon.
+La batalla por los derechos a la privacidad será larga. Esto no es un esprint, es una maratón.
 
 If you want to be a good advocate, who will be able to fight with us for a long time, you _must_ take the time to **rest when needed**.
 
-Burning out isn't an option, we cannot afford to lose your precious contribution! And to prevent burning out, you must learn how to rest.
+Agotarse no es una opción, ¡no podemos permitirnos perder tu valiosa contribución! And to prevent burning out, you must learn how to rest.
 
 When you are starting to feel the activist and dystopia-fighter fatigue, it's important to take the time off you need until you feel rested. Then, come back to the battlefield to fight with us again!
 

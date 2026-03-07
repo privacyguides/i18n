@@ -5,7 +5,7 @@ icon: fontawesome/solid/thumbs-up
 cover: activism/banner-toolbox-tip-credit.webp
 ---
 
-To succeed in our battle, we must **support each other**. One good way to accomplish this is to never forget to give credit where credit is due. When another advocate or organization says something you agree with, boost them up, spread their reach, and thank them publicly.
+To succeed in our battle, we must **support each other**. One good way to accomplish this is to never forget to give credit where credit is due. Cuando otro defensor u organización diga algo con lo que estés de acuerdo, dale ánimos, difunde su mensaje y dale las gracias públicamente.
 
 Here are a few ways you can help your allies feel seen and valued:
 

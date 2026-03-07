@@ -240,11 +240,11 @@ Más Información :material-arrow-right-drop-circle:
 <a href="tip-value-allies-with-complementary-expertise">
 <div class="toolbox-tip-card toolbox-border-alliances" markdown>
 
-### 2. Valore a los aliados con experiencia complementaria a la tuya
+### 2. Valora a los aliados con habilidades complementarias a las tuyas
 
 ![Sphere with half dark half light icon](../../assets/img/activism/icons/icon-tips/icon-tips-complement.webp){class="toolbox-tip-icon"}
 
-En materia de privacidad, como en cualquier otro ámbito, la diversidad es una fortaleza. If you want your community to have a broad understanding of threat models, and be able to fight on multiple levels, you need to value a diversity of expertises. Learn more about recognizing, respecting, and retaining experts with skills different to yours.
+En materia de privacidad, como en cualquier otro ámbito, la diversidad es una fortaleza. Si quieres que tu comunidad tenga una amplia comprensión de los modelos de amenazas y sea capaz de luchar en múltiples niveles, debes valorar la diversidad de habilidades. Aprende más sobre cómo reconocer, respetar y retener a expertos con habilidades diferentes a las tuyas.
 
 Más Información :material-arrow-right-drop-circle:
 {align=right}
@@ -255,11 +255,11 @@ Más Información :material-arrow-right-drop-circle:
 <a href="tip-give-credit-where-credit-is-due">
 <div class="toolbox-tip-card toolbox-border-alliances" markdown>
 
-### 3. Give credit where credit is due
+### 3. Dar crédito a quien se lo merece
 
 ![Thumbs up icon](../../assets/img/activism/icons/icon-tips/icon-tips-credit.webp){class="toolbox-tip-icon"}
 
-To succeed, we must support each other. A good way to do this is to never forget to give credit where credit is due. When another advocate or organization says something you agree with, boost them up, spread their reach, and thank them publicly. Learn more about making your allies feel seen and valued.
+Para tener éxito, debemos apoyarnos mutuamente. Una buena forma de hacerlo es no olvidar nunca dar crédito a quien se lo merece. Cuando otro defensor u organización diga algo con lo que estés de acuerdo, dale ánimos, difunde su mensaje y dale las gracias públicamente. Aprende más sobre cómo hacer que tus aliados se sientan vistos y valorados.
 
 Más Información :material-arrow-right-drop-circle:
 {align=right}
@@ -274,11 +274,11 @@ Más Información :material-arrow-right-drop-circle:
 <a href="tip-welcome-beginners">
 <div class="toolbox-tip-card toolbox-border-accessibility" markdown>
 
-### 1. Welcome beginners
+### 1. Da la bienvenida a principiantes
 
 ![Person with plus sign icon](../../assets/img/activism/icons/icon-tips/icon-tips-beginner.webp){class="toolbox-tip-icon"}
 
-For our privacy rights movement to grow, we must bring more people in. To accomplish this, it's fundamental to discuss privacy in ways that are accessible to newcomers who aren't familiar with basic concepts yet. Learn more about improving your advocacy work to make it more approachable to beginners.
+Para que nuestro movimiento por los derechos a la privacidad crezca, debemos atraer a más personas. Para lograr esto, es fundamental hablar sobre la privacidad de una manera que sea accesible para los principiantes que aún no están familiarizados con los conceptos básicos. Aprende más sobre cómo mejorar tu labor de defensa para que resulte más accesible a los principiantes.
 
 Más Información :material-arrow-right-drop-circle:
 {align=right}
@@ -289,11 +289,11 @@ Más Información :material-arrow-right-drop-circle:
 <a href="tip-keep-your-posts-and-community-inclusive">
 <div class="toolbox-tip-card toolbox-border-accessibility" markdown>
 
-### 2. Keep your posts and community inclusive
+### 2. Haz que tus mensajes y tu comunidad sean inclusivos
 
 ![Heart with plus sign icon](../../assets/img/activism/icons/icon-tips/icon-tips-inclusivity.webp){class="toolbox-tip-icon"}
 
-Inclusivity is not only the right thing to do, it's also essential to grow our movement. If we want privacy rights to succeed, it's imperative that we build communities where _everyone_ feels safe and welcomed, regardless of who they are. Learn more about keeping your communications and communities inclusive.
+La inclusión no solo es lo correcto, sino que también es esencial para hacer crecer nuestro movimiento. Si queremos que los derechos a la privacidad sean una realidad, es imprescindible que construyamos comunidades en las que _todos_ se sientan seguros y acogidos, independientemente de quiénes sean. Aprende más sobre cómo lograr que tus comunicaciones y comunidades sean inclusivas.
 
 Más Información :material-arrow-right-drop-circle:
 {align=right}
@@ -304,11 +304,11 @@ Más Información :material-arrow-right-drop-circle:
 <a href="tip-be-mindful-of-accessibility">
 <div class="toolbox-tip-card toolbox-border-accessibility" markdown>
 
-### 3. Be mindful of accessibility
+### 3. Ten en cuenta la accesibilidad
 
 ![Heart with checkmark icon](../../assets/img/activism/icons/icon-tips/icon-tips-accessibility.webp){class="toolbox-tip-icon"}
 
-Accessibility is indispensable to inclusivity, and should always be a priority in our work. To make our privacy communities welcoming to all, accessibility cannot be an afterthought. We must integrate it in our practice from the start. Learn more about improving the accessibility of your privacy work.
+La accesibilidad es indispensable para la inclusión, y debe ser siempre una prioridad en nuestro trabajo. Para que nuestras comunidades de privacidad sean acogedoras para todos, la accesibilidad no puede ser una cuestión secundaria. Debemos integrarla en nuestra práctica desde el principio. Aprende más sobre cómo mejorar la accesibilidad de tu trabajo sobre privacidad.
 
 Más Información :material-arrow-right-drop-circle:
 {align=right}
@@ -319,11 +319,11 @@ Más Información :material-arrow-right-drop-circle:
 <a href="tip-make-it-cute">
 <div class="toolbox-tip-card toolbox-border-accessibility" markdown>
 
-### 4. Make it cute
+### 4. Hazlo bonito
 
 ![Cat icon](../../assets/img/activism/icons/icon-tips/icon-tips-cute.webp){class="toolbox-tip-icon"}
 
-If you are developing a privacy-focused application or website, do not neglect the design aspect of it. This is a common mistake that can have a significant negative impact on adoption by a general audience. Learn more about making your design appealing and accessible to all. Make it cute!
+Si estás desarrollando una aplicación o un sitio web centrado en la privacidad, no descuides el aspecto del diseño. Este es un error común que puede tener un impacto negativo significativo en la adopción por parte del público general. Aprende más sobre cómo hacer que tu diseño sea atractivo y accesible para todos. ¡Hazlo bonito!
 
 Más Información :material-arrow-right-drop-circle:
 {align=right}
@@ -338,11 +338,11 @@ Más Información :material-arrow-right-drop-circle:
 <a href="tip-refuse-to-participate">
 <div class="toolbox-tip-card toolbox-border-integrity" markdown>
 
-### 1. Refuse to participate
+### 1. Niégate a participar
 
 ![Circle with x icon](../../assets/img/activism/icons/icon-tips/icon-tips-refuse.webp){class="toolbox-tip-icon"}
 
-As privacy advocates and activists, it's important to be a voice for resistance and take a stand against abusive practices. One substantial way to do this is to refuse to participate in privacy-intrusive requests, or use invasive software. Learn more about refusing to comply with privacy-abusive practices.
+Como defensores y activistas de la privacidad, es importante ser una voz de resistencia y posicionarse en contra de las prácticas abusivas. Una forma sustancial de hacerlo es negarse a participar en solicitudes que invadan la privacidad o utilizar software invasivo. Aprende más sobre cómo negarte a cumplir con prácticas que violan la privacidad.
 
 Más Información :material-arrow-right-drop-circle:
 {align=right}
@@ -353,11 +353,11 @@ Más Información :material-arrow-right-drop-circle:
 <a href="tip-stay-true-to-your-principles">
 <div class="toolbox-tip-card toolbox-border-integrity" markdown>
 
-### 2. Stay true to your principles
+### 2. Mantente fiel a tus principios
 
 ![Star icon](../../assets/img/activism/icons/icon-tips/icon-tips-principles.webp){class="toolbox-tip-icon"}
 
-If you manage a digital rights group or organization, make sure you aren't subjecting your contributors to the very privacy-invasive tech you're fighting against. Sadly, it's not rare to see communities that aren't following their own advice for internal practices. Learn more about the importance of maintaining integrity _internally_ as well as externally.
+Si gestionas un grupo o una organización dedicada a los derechos digitales, asegúrate de no someter a tus colaboradores a la misma tecnología invasiva para la privacidad contra la que luchas. Lamentablemente, no es raro ver comunidades que no siguen sus propios consejos en sus prácticas internas. Aprende más sobre la importancia de mantener la integridad _internamente_ así como externamente.
 
 Más Información :material-arrow-right-drop-circle:
 {align=right}
@@ -368,11 +368,11 @@ Más Información :material-arrow-right-drop-circle:
 <a href="tip-protect-your-allies">
 <div class="toolbox-tip-card toolbox-border-integrity" markdown>
 
-### 3. Protect your allies
+### 3. Protege a tus aliados
 
 ![Shield with heart icon](../../assets/img/activism/icons/icon-tips/icon-tips-protect.webp){class="toolbox-tip-icon"}
 
-Through your privacy work, be careful to never collect or share the data of others without their explicit consent. It's crucial to protect your allies' data in all that you do, whether that's individual action or organizational leadership. Learn more about safeguarding the data of your privacy comrades.
+En tu trabajo por la privacidad, procura no recopilar ni compartir nunca los datos de otras personas sin su consentimiento explícito. Es crucial proteger los datos de tus aliados en todo lo que hagas, ya sea una acción individual o el liderazgo de una organización. Aprende más sobre cómo proteger los datos de tus camaradas de privacidad.
 
 Más Información :material-arrow-right-drop-circle:
 {align=right}
@@ -387,11 +387,11 @@ Más Información :material-arrow-right-drop-circle:
 <a href="tip-small-actions-matter">
 <div class="toolbox-tip-card toolbox-border-persistence" markdown>
 
-### 1. Small actions matter
+### 1. Las pequeñas acciones importan
 
 ![Puzzle piece icon](../../assets/img/activism/icons/icon-tips/icon-tips-small.webp){class="toolbox-tip-icon"}
 
-There is so much to do in the movement for better privacy rights. So much, that it's sometimes easy to feel discouraged when facing the scale of what's left to accomplish. But everything helps, and even the smallest action counts. Learn more about why every action and every victory matters, no matter how small.
+Aún queda mucho por hacer en el movimiento por la mejora de los derechos a la privacidad. Tanto, que a veces es fácil sentirse desanimado ante la magnitud de lo que queda por conseguir. Pero todo ayuda, y hasta la acción más pequeña cuenta. Aprende más sobre por qué cada acción y cada victoria son importantes, por pequeñas que sean.
 
 Más Información :material-arrow-right-drop-circle:
 {align=right}
@@ -402,11 +402,11 @@ Más Información :material-arrow-right-drop-circle:
 <a href="tip-take-time-to-rest">
 <div class="toolbox-tip-card toolbox-border-persistence" markdown>
 
-### 2. Take time to rest, but come back to fight with us
+### 2. Tómate un tiempo para descansar, pero vuelve para luchar con nosotros
 
 ![Low battery icon](../../assets/img/activism/icons/icon-tips/icon-tips-rest.webp){class="toolbox-tip-icon"}
 
-The battle for privacy rights will be a long one. This isn't a sprint, it's a marathon. If you want to be a good advocate, you _must_ take the time to rest when needed. Burning out isn't an option, we cannot afford to lose your precious contribution! Learn more about why it's fundamental to learn to rest when you need it.
+La batalla por los derechos a la privacidad será larga. Esto no es un esprint, es una maratón. Si quieres ser un buen defensor, _debes_ tomarte tiempo para descansar cuando sea necesario. Agotarse no es una opción, ¡no podemos permitirnos perder tu valiosa contribución! Aprende más sobre por qué es fundamental aprender a descansar cuando lo necesites.
 
 Más Información :material-arrow-right-drop-circle:
 {align=right}
@@ -421,11 +421,11 @@ Más Información :material-arrow-right-drop-circle:
 <a href="tip-engage-boosts-and-contribute">
 <div class="toolbox-tip-card toolbox-border-action" markdown>
 
-### 1. Engage, boost, and contribute
+### 1. Involúcrate, impulsa y contribuye
 
 ![Megaphone icon](../../assets/img/activism/icons/icon-tips/icon-tips-engage.webp){class="toolbox-tip-icon"}
 
-Once you have the knowledge, motivation, and energy, it's time to act! Perhaps you've read all of these tips, or read through our Knowledge Base already! But you don't need to know that much about privacy to start contributing. Learn more about how to start being a privacy activist.
+Una vez que tengas los conocimientos, la motivación y la energía, ¡es hora de actuar! ¡Quizás ya hayas leído todos estos consejos o hayas consultado nuestra Base de Conocimientos! Pero no hace falta saber tanto sobre privacidad para empezar a contribuir. Aprende más sobre cómo empezar a ser un activista por la privacidad.
 
 Más Información :material-arrow-right-drop-circle:
 {align=right}
@@ -436,11 +436,11 @@ Más Información :material-arrow-right-drop-circle:
 <a href="tip-level-up-assemble-and-organize">
 <div class="toolbox-tip-card toolbox-border-action" markdown>
 
-### 2. Level up! Assemble and organize
+### 2. ¡Sube de nivel! Reúne y organiza
 
 ![Raised fist icon](../../assets/img/activism/icons/icon-tips/icon-tips-organize.webp){class="toolbox-tip-icon"}
 
-If you've been a privacy advocate for a while, maybe it's time to level up and grow as a leader in your community. Becoming a leader can mean starting a local group, or initiating bigger projects online. Learn more about how to become a _good_ leader in the privacy rights movement.
+Si llevas tiempo defendiendo la privacidad, tal vez sea el momento de dar un paso adelante y crecer como líder en tu comunidad. Convertirse en líder puede significar crear un grupo local o iniciar proyectos de mayor envergadura en línea. Aprende más sobre cómo convertirte en un _buen_ líder en el movimiento por los derechos a la privacidad.
 
 Más Información :material-arrow-right-drop-circle:
 {align=right}

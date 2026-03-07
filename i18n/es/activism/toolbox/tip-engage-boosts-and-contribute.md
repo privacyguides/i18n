@@ -5,7 +5,7 @@ icon: fontawesome/solid/bullhorn
 cover: activism/banner-toolbox-tip-engage.webp
 ---
 
-Once you have the knowledge, motivation, and energy, **it's time to act**! Perhaps you've read all the tips here, or have read through our [Knowledge Base](../../basics/why-privacy-matters.md) already! But you don't need to know that much about privacy to start contributing.
+Once you have the knowledge, motivation, and energy, **it's time to act**! Perhaps you've read all the tips here, or have read through our [Knowledge Base](../../basics/why-privacy-matters.md) already! Pero no hace falta saber tanto sobre privacidad para empezar a contribuir.
 
 The most important part is that you care about privacy rights, and want to be part of the movement to defend them.
 
