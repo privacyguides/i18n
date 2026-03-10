@@ -299,19 +299,20 @@ Mullvad is very transparent about which nodes they [own or rent](https://mullvad
 
 ### טכנולוגיה
 
-We require all our recommended VPN providers to provide standard configuration files which can be used in a generic, open-source client. **If** a VPN provides their own custom client, we require a kill switch to block network data leaks when disconnected.
+We require our recommended providers to support modern technologies currently available to VPNs.
 
 **מינימום כדי לעמוד בדרישות:**
 
+- Must provide standard configuration files which can be used in a generic, open-source client such as the WireGuard apps.
 - Support for strong protocols such as WireGuard.
-- Kill switch built in to clients.
+- Functional kill switch built in to service-provided clients on our recommended [desktop](desktop.md) and [mobile](android/distributions.md) platforms. This kill switch should be able to block all internet traffic when the VPN connection drops unexpectedly.
 - Multi-hop support. Multi-hopping is important to keep data private in case of a single node compromise.
 - אם מסופקים לקוחות VPN, הם צריכים להיות [קוד פתוח](https://en.wikipedia.org/wiki/Open_source), כמו תוכנת ה-VPN שהם בדרך כלל מובנים בהם. We believe that [source code](https://en.wikipedia.org/wiki/Source_code) availability provides greater transparency about what the program is actually doing.
 - Censorship resistance features designed to bypass firewalls without DPI.
 
 **המקרה הטוב ביותר:**
 
-- Kill switch with highly configurable options (enable/disable on certain networks, on boot, etc.)
+- Kill switch on all major platforms with highly configurable options (enable/disable on certain networks, on boot, etc.)
 - קליינטים VPN קלים לשימוש
 - [IPv6](https://en.wikipedia.org/wiki/IPv6) support. אנו מצפים כי שרתים יאפשרו חיבורים נכנסים באמצעות IPv6 ויאפשרו לך לגשת לשירותים המתארחים בכתובות IPv6.
 - היכולת של [העברת יציאות מרחוק](https://en.wikipedia.org/wiki/Port_forwarding#Remote_port_forwarding) מסייעת ביצירת חיבורים בעת שימוש בתוכנת שיתוף קבצים P2P ([Peer-to-Peer](https://en.wikipedia.org/wiki/Peer-to-peer))או בעת אירוח שרת (לדוגמה, Mumble).

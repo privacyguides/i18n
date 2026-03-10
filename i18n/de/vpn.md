@@ -299,19 +299,20 @@ Es ist wichtig zu wissen, dass die Nutzung eines VPN-Anbieters dich nicht anonym
 
 ### Technologie
 
-Wir verlangen von allen von uns empfohlenen VPN-Anbietern, dass sie Standard-Konfigurationsdateien bereitstellen, die in einem generischen Open-Source-Client verwendet werden können. **Wenn** ein eigener VPN-Client bereitstellt wird, benötigt er einen Kill-Switch, um Datenlecks im Netzwerk zu blockieren, wenn die Verbindung getrennt wird.
+We require our recommended providers to support modern technologies currently available to VPNs.
 
 **Mindestvoraussetzung um zu qualifizieren:**
 
-- Unterstützung von starken Protokollen wie WireGuard.
-- In die Clients integrierter Kill-Switch.
+- Must provide standard configuration files which can be used in a generic, open-source client such as the WireGuard apps.
+- Support for strong protocols such as WireGuard.
+- Functional kill switch built in to service-provided clients on our recommended [desktop](desktop.md) and [mobile](android/distributions.md) platforms. This kill switch should be able to block all internet traffic when the VPN connection drops unexpectedly.
 - Multi-Hop-Unterstützung. Multi-Hopping ist wichtig, um Daten im Falle einer Kompromittierung eines einzelnen Knotens geheim zu halten.
 - Wenn VPN-Clients zur Verfügung gestellt werden, sollten sie [Open Source](https://de.wikipedia.org/wiki/Open_Source)sein, wie die VPN-Software, die in der Regel in sie integriert ist. Wir sind der Meinung, dass die Verfügbarkeit des [Quellcodes](https://en.wikipedia.org/wiki/Source_code) mehr Transparenz darüber schafft, was das Programm tatsächlich tut.
 - Zensurresistente Funktionen zur Umgehung von Firewalls ohne DPI.
 
 **Im besten Fall:**
 
-- Kill-Switch mit hochgradig konfigurierbaren Optionen (Aktivierung/Deaktivierung in bestimmten Netzen, beim Booten usw.)
+- Kill switch on all major platforms with highly configurable options (enable/disable on certain networks, on boot, etc.)
 - Einfach zu bedienende VPN-Clients
 - [IPv6](https://en.wikipedia.org/wiki/IPv6) Unterstützung. Wir erwarten, dass die Server eingehende Verbindungen über IPv6 zulassen und dir den Zugang zu Diensten ermöglichen, die auf IPv6-Adressen gehostet werden.
 - Die Möglichkeit der [Remote-Port-Weiterleitung](https://en.wikipedia.org/wiki/Port_forwarding#Remote_port_forwarding) hilft bei der Herstellung von Verbindungen bei der Verwendung von P2P ([Peer-to-Peer](https://en.wikipedia.org/wiki/Peer-to-peer)) Dateitauschbörsen-Software zum Austausch von Dateien oder zum Hosten eines Servers (z. B. Mumble).

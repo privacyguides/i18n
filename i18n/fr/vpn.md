@@ -299,19 +299,20 @@ Il est important de noter que l'utilisation d'un fournisseur VPN ne vous rendra 
 
 ### Technologie
 
-Nous demandons à tous les fournisseurs de VPN que nous recommandons de fournir des fichiers de configuration standard qui peuvent être utilisés dans un client générique à code source ouvert. <strong x-id=« 1 »>Si</strong> un VPN fournit son propre client personnalisé, nous exigeons une fonction d'arrêt d'urgence ("kill switch") pour bloquer les fuites de données du réseau en cas de déconnexion.
+We require our recommended providers to support modern technologies currently available to VPNs.
 
 **Minimum pour se qualifier :**
 
-- Prise en charge de protocoles robustes tels que WireGuard.
-- Fonction d'arrêt d'urgence (kill switch) intégrée aux clients
+- Must provide standard configuration files which can be used in a generic, open-source client such as the WireGuard apps.
+- Support for strong protocols such as WireGuard.
+- Functional kill switch built in to service-provided clients on our recommended [desktop](desktop.md) and [mobile](android/distributions.md) platforms. This kill switch should be able to block all internet traffic when the VPN connection drops unexpectedly.
 - Prise en charge du multi-hop. Le multi-hop est important pour préserver la confidentialité des données en cas de compromission d'un seul nœud.
 - Si des clients VPN sont fournis, ils doivent être [open source](https://en.wikipedia.org/wiki/Open_source), comme le logiciel VPN qui y est généralement intégré. Nous pensons que la disponibilité du [code source](https://fr.wikipedia.org/wiki/Code_source) offre une plus grande transparence sur les activités réelles du programme.
 - Fonctions de résistance à la censure conçues pour contourner les pare-feux sans Inspection Profonde des Paquets (IPP)
 
 **Dans le meilleur des cas :**
 
-- Fonction d'arrêt d'urgence avec des options hautement configurables (activation/désactivation sur certains réseaux, au démarrage, etc.)
+- Kill switch on all major platforms with highly configurable options (enable/disable on certain networks, on boot, etc.)
 - Clients VPN faciles à utiliser
 - Prise en charge de l'[IPV6](https://fr.wikipedia.org/wiki/IPv6). Nous nous attendons à ce que les serveurs autorisent les connexions entrantes via IPv6 et vous permettent d'accéder aux services hébergés sur des adresses IPv6.
 - La capacité de [transfert de port à distance](https://en.wikipedia.org/wiki/Port_forwarding#Remote_port_forwarding) aide à créer des connexions lors de l'utilisation de logiciels de partage de fichiers P2P ([Peer-to-Peer](https://en.wikipedia.org/wiki/Peer-to-peer)) ou de l'hébergement d'un serveur (par exemple, Mumble).

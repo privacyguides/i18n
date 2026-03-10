@@ -299,19 +299,20 @@ Mullvad is very transparent about which nodes they [own or rent](https://mullvad
 
 ### 技术
 
-We require all our recommended VPN providers to provide standard configuration files which can be used in a generic, open-source client. **If** a VPN provides their own custom client, we require a kill switch to block network data leaks when disconnected.
+We require our recommended providers to support modern technologies currently available to VPNs.
 
 **符合条件的最低要求。**
 
+- Must provide standard configuration files which can be used in a generic, open-source client such as the WireGuard apps.
 - Support for strong protocols such as WireGuard.
-- Kill switch built in to clients.
+- Functional kill switch built in to service-provided clients on our recommended [desktop](desktop.md) and [mobile](android/distributions.md) platforms. This kill switch should be able to block all internet traffic when the VPN connection drops unexpectedly.
 - Multi-hop support. Multi-hopping is important to keep data private in case of a single node compromise.
 - If VPN clients are provided, they should be [open source](https://en.wikipedia.org/wiki/Open_source), like the VPN software they generally have built into them. We believe that [source code](https://en.wikipedia.org/wiki/Source_code) availability provides greater transparency about what the program is actually doing.
 - Censorship resistance features designed to bypass firewalls without DPI.
 
 **Best Case:**
 
-- Kill switch with highly configurable options (enable/disable on certain networks, on boot, etc.)
+- Kill switch on all major platforms with highly configurable options (enable/disable on certain networks, on boot, etc.)
 - 易于使用的VPN客户端
 - [IPv6](https://en.wikipedia.org/wiki/IPv6) support. 我们希望服务器将允许通过IPv6的传入连接，并允许你访问IPv6地址上托管的服务。
 - [远程端口转发的能力](https://en.wikipedia.org/wiki/Port_forwarding#Remote_port_forwarding) 在使用P2P ([Peer-to-Peer](https://en.wikipedia.org/wiki/Peer-to-peer)) 文件共享软件或托管服务器（如Mumble）时，有助于创建连接。

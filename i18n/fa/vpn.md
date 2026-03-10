@@ -295,19 +295,20 @@ IVPN has obfuscation modes using [V2Ray](https://v2ray.com/en/index) which helps
 
 ### فناوری
 
-ما از همه ارائه‌دهندگان VPN پیشنهادی خود می‌خواهیم که فایل‌های پیکربندی استانداردی ارائه دهند که بتوان از آن‌ها در یک کلاینت عمومی و متن‌باز استفاده کرد. **اگر** یک VPN کلاینت سفارشی خود را ارائه دهد، ما نیازمند یک کلید قطع (kill switch) هستیم تا هنگام قطع اتصال، از نشت داده‌های شبکه جلوگیری کند.
+We require our recommended providers to support modern technologies currently available to VPNs.
 
 **حداقل شرایط لازم:**
 
-- پشتیبانی از پروتکل‌های قدرتمندی مانند WireGuard.
-- کلید قطع اضطراری در کلاینت‌ها تعبیه شده است.
+- Must provide standard configuration files which can be used in a generic, open-source client such as the WireGuard apps.
+- Support for strong protocols such as WireGuard.
+- Functional kill switch built in to service-provided clients on our recommended [desktop](desktop.md) and [mobile](android/distributions.md) platforms. This kill switch should be able to block all internet traffic when the VPN connection drops unexpectedly.
 - پشتیبانی چندمرحله‌ای. چندمرحله‌ای بودن برای حفظ حریم خصوصی داده‌ها در صورت به خطر افتادن یک گره اهمیت دارد.
 - اگر کلاینت‌های VPN ارائه می‌شوند، باید [متن‌باز](https://en.wikipedia.org/wiki/Open_source) باشند، مانند نرم‌افزار VPN که معمولاً به طور پیش‌فرض در آن‌ها وجود دارد. ما معتقدیم که در دسترس بودن [کد منبع](https://en.wikipedia.org/wiki/Source_code) شفافیت بیشتری درباره اینکه برنامه واقعاً چه کاری انجام می‌دهد، فراهم می‌کند.
 - ویژگی‌های مقاومت در برابر سانسور که برای عبور از فایروال‌ها بدون بازرسی عمیق بسته‌ها (DPI) طراحی شده‌اند.
 
 **بهترین حالت:**
 
-- کلید قطع اتصال با گزینه‌های قابل تنظیم فراوان (فعال/غیرفعال‌سازی در شبکه‌های خاص، هنگام راه‌اندازی و غیره)
+- Kill switch on all major platforms with highly configurable options (enable/disable on certain networks, on boot, etc.)
 - کلاینت‌های VPN آسان برای استفاده
 - پشتیبانی از [IPv6](https://en.wikipedia.org/wiki/IPv6). ما انتظار داریم که سرورها اجازه اتصال ورودی از طریق IPv6 را بدهند و به شما امکان دسترسی به سرویس‌هایی که روی آدرس‌های IPv6 میزبانی می‌شوند را فراهم کنند.
 - قابلیت [فوروارد کردن پورت از راه دور](https://en.wikipedia.org/wiki/Port_forwarding#Remote_port_forwarding) به ایجاد اتصال هنگام استفاده از نرم‌افزارهای اشتراک‌گذاری فایل P2P ([همتا به همتا](https://en.wikipedia.org/wiki/Peer-to-peer)) یا میزبانی یک سرور (مثلاً Mumble) کمک می‌کند.

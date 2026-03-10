@@ -299,19 +299,20 @@ Het is belangrijk op te merken dat het gebruik van een VPN-provider je niet anon
 
 ### Technologie
 
-We require all our recommended VPN providers to provide standard configuration files which can be used in a generic, open-source client. **If** a VPN provides their own custom client, we require a kill switch to block network data leaks when disconnected.
+We require our recommended providers to support modern technologies currently available to VPNs.
 
 **Minimum om in aanmerking te komen:**
 
+- Must provide standard configuration files which can be used in a generic, open-source client such as the WireGuard apps.
 - Support for strong protocols such as WireGuard.
-- Kill switch built in to clients.
+- Functional kill switch built in to service-provided clients on our recommended [desktop](desktop.md) and [mobile](android/distributions.md) platforms. This kill switch should be able to block all internet traffic when the VPN connection drops unexpectedly.
 - Multi-hop support. Multi-hopping is important to keep data private in case of a single node compromise.
 - If VPN clients are provided, they should be [open source](https://en.wikipedia.org/wiki/Open_source), like the VPN software they generally have built into them. We believe that [source code](https://en.wikipedia.org/wiki/Source_code) availability provides greater transparency about what the program is actually doing.
 - Censorship resistance features designed to bypass firewalls without DPI.
 
 **Beste geval:**
 
-- Kill switch with highly configurable options (enable/disable on certain networks, on boot, etc.)
+- Kill switch on all major platforms with highly configurable options (enable/disable on certain networks, on boot, etc.)
 - Gemakkelijk te gebruiken VPN-clients
 - [IPv6](https://en.wikipedia.org/wiki/IPv6) support. We verwachten dat servers inkomende verbindingen via IPv6 zullen toestaan en je toegang zullen geven tot services die gehost worden op IPv6-adressen.
 - De mogelijkheid van [remote port forwarding](https://en.wikipedia.org/wiki/Port_forwarding#Remote_port_forwarding) helpt bij het maken van verbindingen bij het gebruik van P2P ([Peer-to-Peer](https://en.wikipedia.org/wiki/Peer-to-peer)) file sharing software, Freenet, of het hosten van een server (bv. Mumble).

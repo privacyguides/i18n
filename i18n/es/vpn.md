@@ -301,19 +301,20 @@ Es importante tener en cuenta que el uso de un proveedor de VPN no le hará anó
 
 ### Tecnología
 
-Exigimos que todos nuestros proveedores de VPN recomendados proporcionen archivos de configuración estándar que puedan utilizarse en un cliente genérico de código abierto. **Si** una VPN proporciona su propio cliente personalizado, requerimos un kill switch para bloquear las filtraciones de datos de red cuando se desconecte.
+We require our recommended providers to support modern technologies currently available to VPNs.
 
 **Mínimo para Calificar:**
 
-- Compatibilidad con protocolos robustos como WireGuard.
-- Kill switch integrado en los clientes.
+- Must provide standard configuration files which can be used in a generic, open-source client such as the WireGuard apps.
+- Support for strong protocols such as WireGuard.
+- Functional kill switch built in to service-provided clients on our recommended [desktop](desktop.md) and [mobile](android/distributions.md) platforms. This kill switch should be able to block all internet traffic when the VPN connection drops unexpectedly.
 - Soporte de multisalto. Los saltos múltiples son importantes para mantener la privacidad de los datos en caso de que un solo nodo se vea comprometido.
 - Si se proporcionan clientes VPN, deben ser de [código abierto](https://en.wikipedia.org/wiki/Open_source), como el software VPN que generalmente llevan incorporado. Creemos que la disponibilidad del [código fuente](https://en.wikipedia.org/wiki/Source_code) proporciona una mayor transparencia sobre lo que hace realmente el programa.
 - Funciones de resistencia a la censura diseñadas para eludir cortafuegos sin DPI.
 
 **Mejor Caso:**
 
-- Kill switch con opciones altamente configurables (activar/desactivar en determinadas redes, en el arranque, etc.)
+- Kill switch on all major platforms with highly configurable options (enable/disable on certain networks, on boot, etc.)
 - Clientes VPN fáciles de usar
 - Soporte de [IPv6](https://en.wikipedia.org/wiki/IPv6). Esperamos que los servidores permitan las conexiones entrantes a través de IPv6 y le permitan acceder a los servicios alojados en direcciones IPv6.
 - La capacidad de [redirección de puertos](https://en.wikipedia.org/wiki/Port_forwarding#Remote_port_forwarding) ayuda a crear conexiones cuando se utiliza software de intercambio de archivos P2P ([Peer-to-Peer](https://en.wikipedia.org/wiki/Peer-to-peer)), Freenet, o se aloja un servidor (por ejemplo, Mumble).

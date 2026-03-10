@@ -29,13 +29,13 @@ Para establecer un modelo de amenaza, haga las siguientes preguntas:
 4. ¿Qué podría pasar si esta persona o entidad tuviera acceso a esta información?
 5. ¿Cuáles son las protecciones disponibles para proteger esta información específicamente de esta persona o entidad?
 6. ¿Cuál sería el inconveniente de utilizar estas protecciones?
-7. How long do these protections need to remain in place?
+7. ¿Durante cuánto tiempo deben mantenerse estas protecciones?
 
-Ask, rinse, and repeat for each type of information. The answers to these questions will be unique for each person or organization. This is their unique threat model.
+Pregunte, clarifique y repita para cada tipo de información. Las respuestas a estas preguntas serán únicas para cada persona u organización. Este es su modelo único de amenaza.
 
 <details class="danger" markdown><summary>Example scenario: Threat of stalking</summary>
 
-**Needs:** Alice is a young celebrity sharing a lot of information about herself on social media. As part of her work, she has to be able to share photos of herself, her legal name, some of her travel information, and details about her personal life.
+**Needs:** Alice is a young celebrity sharing a lot of information about herself on social media. Como parte de su trabajo, tiene que poder compartir fotos suyas, su nombre legal, algunos datos de sus viajes y detalles sobre su vida personal.
 
 **Threat:** However, to protect herself from an aggressive stalker, she must protect information about her _home address_ at all cost.
 

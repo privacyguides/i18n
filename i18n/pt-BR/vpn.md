@@ -300,19 +300,20 @@ A Mullvad é muito transparente sobre quais nós são [de](https://mullvad.net/e
 
 ### Tecnologia
 
-Exigimos que todos os nossos provedores de VPN recomendados forneçam arquivos de configuração OpenVPN para serem usados em qualquer cliente. **Se** uma VPN fornecer seu próprio cliente personalizado, será necessário um killswitch para bloquear vazamentos de dados de rede quando desconectado.
+We require our recommended providers to support modern technologies currently available to VPNs.
 
 **Mínimo Para Qualificação:**
 
-- Suporte a protocolos robustos, como o WireGuard e o OpenVPN.
-- Killswitch integrado aos clientes.
+- Must provide standard configuration files which can be used in a generic, open-source client such as the WireGuard apps.
+- Support for strong protocols such as WireGuard.
+- Functional kill switch built in to service-provided clients on our recommended [desktop](desktop.md) and [mobile](android/distributions.md) platforms. This kill switch should be able to block all internet traffic when the VPN connection drops unexpectedly.
 - Suporte a Multihop. O *Multihopping* é importante para manter os dados protegidos no caso de comprometimento de um único nó da rede.
 - Todos os clientes VPN fornecidos pelas marcas devem ser de [código aberto](https://en.wikipedia.org/wiki/Open_source), como o software VPN que eles normalmente trazem incorporado. Acreditamos que a disponibilidade do [código-fonte](https://en.wikipedia.org/wiki/Source_code) proporciona maior transparência sobre o que o seu dispositivo está realmente fazendo.
 - Recursos de resistência à censura projetados para contornar firewalls sem DPI.
 
 **Melhor Caso:**
 
-- Função Killswitch com opções altamente personalizáveis (ativar/desativar em determinadas redes, na inicialização, etc.)
+- Kill switch on all major platforms with highly configurable options (enable/disable on certain networks, on boot, etc.)
 - Clientes VPN fáceis de usar
 - Suporte a [IPv6](https://en.wikipedia.org/wiki/IPv6). Esperamos que os servidores permitam conexões de entrada via IPv6 e que você possa acessar serviços hospedados em endereços IPv6.
 - O recurso de [encaminhamento remoto de portas](https://en.wikipedia.org/wiki/Port_forwarding#Remote_port_forwarding) ajuda a criar conexões ao usar o software de compartilhamento de arquivos P2P ([Peer-to-Peer](https://en.wikipedia.org/wiki/Peer-to-peer)) ou ao hospedar um servidor (por exemplo, Mumble).

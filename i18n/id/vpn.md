@@ -299,19 +299,20 @@ Penting untuk dicatat bahwa menggunakan penyedia VPN tidak akan membuat Anda men
 
 ### Teknologi
 
-We require all our recommended VPN providers to provide standard configuration files which can be used in a generic, open-source client. **If** a VPN provides their own custom client, we require a kill switch to block network data leaks when disconnected.
+We require our recommended providers to support modern technologies currently available to VPNs.
 
 **Minimum untuk Memenuhi Syarat:**
 
+- Must provide standard configuration files which can be used in a generic, open-source client such as the WireGuard apps.
 - Support for strong protocols such as WireGuard.
-- Kill switch built in to clients.
+- Functional kill switch built in to service-provided clients on our recommended [desktop](desktop.md) and [mobile](android/distributions.md) platforms. This kill switch should be able to block all internet traffic when the VPN connection drops unexpectedly.
 - Multi-hop support. Multi-hopping is important to keep data private in case of a single node compromise.
 - Jika klien VPN tersedia, klien tersebut seharusnya [bersumber terbuka](https://id.wikipedia.org/wiki/Perangkat_lunak_sumber_terbuka), seperti perangkat lunak VPN yang umumnya sudah terpasang di dalamnya. We believe that [source code](https://en.wikipedia.org/wiki/Source_code) availability provides greater transparency about what the program is actually doing.
 - Censorship resistance features designed to bypass firewalls without DPI.
 
 **Kasus Terbaik:**
 
-- Kill switch with highly configurable options (enable/disable on certain networks, on boot, etc.)
+- Kill switch on all major platforms with highly configurable options (enable/disable on certain networks, on boot, etc.)
 - Klien VPN yang mudah digunakan
 - [IPv6](https://en.wikipedia.org/wiki/IPv6) support. Kami berharap server akan mengizinkan koneksi masuk melalui IPv6 dan memungkinkan Anda untuk mengakses layanan yang dihosting pada alamat IPv6.
 - Kemampuan [penerusan porta jarak jauh](https://en.wikipedia.org/wiki/Port_forwarding#Remote_port_forwarding) membantu dalam membuat koneksi ketika menggunakan perangkat lunak berbagi file P2P ([Peer-to-Peer](https://id.wikipedia.org/wiki/Peer-to-peer)) atau hosting server (misalnya, Mumble).

@@ -299,19 +299,20 @@ Ważne jest, aby pamiętać, że korzystanie z dostawcy usługi VPN nie czyni Ci
 
 ### Technologia
 
-Wymagamy, aby wszyscy zalecani przez nas dostawcy VPN udostępniali standardowe pliki konfiguracyjne, które można wykorzystać w uniwersalnym kliencie VPN typu open-source. **Jeśli** dostawca udostępnia własną aplikację, musi ona mieć wbudowany tzw. „kill switch”, który blokuje przesyłanie danych po utracie połączenia z VPN, zapobiegając wyciekom ruchu sieciowego.
+We require our recommended providers to support modern technologies currently available to VPNs.
 
 **Minimalne wymagania:**
 
-- Obsługa silnych protokołów, takich jak WireGuard.
-- Wbudowany kill switch w swoich aplikacjach.
+- Must provide standard configuration files which can be used in a generic, open-source client such as the WireGuard apps.
+- Support for strong protocols such as WireGuard.
+- Functional kill switch built in to service-provided clients on our recommended [desktop](desktop.md) and [mobile](android/distributions.md) platforms. This kill switch should be able to block all internet traffic when the VPN connection drops unexpectedly.
 - Obsługa multi-hop (łączenie przez wiele serwerów), co zwiększa prywatność w razie kompromitacji jednego z węzłów.
 - Jeśli dostawca oferuje własne aplikacje, powinny być one [open source](https://en.wikipedia.org/wiki/Open_source), podobnie jak oprogramowanie VPN, na którym zazwyczaj są oparte. Wierzymy, że dostępność [kodu źródłowego](https://en.wikipedia.org/wiki/Source_code) zapewnia większą przejrzystość i możliwość weryfikacji działania programu.
 - Funkcje odporne na cenzurę, zaprojektowane tak, aby omijać zapory sieciowe bez konieczności analizy głębokiej zawartości pakietów (DPI).
 
 **Najlepszy scenariusz:**
 
-- Kill switch z rozbudowanymi opcjami konfiguracji (np. włączenie/wyłączenie w określonych sieciach, uruchamianie przy starcie systemu itp.).
+- Kill switch on all major platforms with highly configurable options (enable/disable on certain networks, on boot, etc.)
 - Łatwe w obsłudze aplikacje VPN.
 - Obsługa protokołu [IPv6](https://en.wikipedia.org/wiki/IPv6). Oczekujemy, że serwery umożliwiają zarówno połączenia przychodzące przez IPv6, jak i dostęp do usług działających w tej sieci.
 - Możliwość [zdalnego przekierowywania portów](https://en.wikipedia.org/wiki/Port_forwarding#Remote_port_forwarding), co ułatwia tworzenie połączeń w aplikacjach typu P2P ([peer-to-peer](https://en.wikipedia.org/wiki/Peer-to-peer)) lub przy hostowaniu własnych usług (np. serwera Mumble).
