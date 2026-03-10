@@ -130,7 +130,7 @@ Our staff are paid to contribute to supplemental content at Privacy Guides, like
 
   ---
 
-  :material-text-account: Activism and Outreach
+  :material-text-account:Aktivismus a osvěta
 
   [:material-account: Profile](https://discuss.privacyguides.net/u/em)
 
