@@ -21,10 +21,10 @@ Similarly, when you choose privacy protections for yourself or for others, you s
 
 ## ¿Qué preguntas hacer?
 
-To establish a threat model, ask the following questions:
+Para establecer un modelo de amenaza, haga las siguientes preguntas:
 
-1. What information leak could endanger this person or organization the most?
-2. Who this information should be protected from?
+1. ¿Qué fuga de información podría poner en mayor peligro a esta persona u organización?
+2. ¿De quién debe protegerse esta información?
 3. How likely is it that this person or entity could access this information?
 4. What could happen if this person or entity had access to this information?
 5. What are the protections available to protect this information specifically from this person or entity?
@@ -39,9 +39,9 @@ Ask, rinse, and repeat for each type of information. The answers to these questi
 
 **Threat:** However, to protect herself from an aggressive stalker, she must protect information about her _home address_ at all cost.
 
-**Level of danger:** She already received threats online, and the danger to her safety is imminent if her home address were to be known to this aggressive stalker.
+**Nivel de peligro:** Ya ha recibido amenazas online, y el peligro para su seguridad es inminente si su domicilio fuera conocido por este agresivo acosador.
 
-**Information to protect and solutions:** Everywhere that Alice is required to share her home address must be protected. She should use a PO box every time her personal address isn't absolutely necessary. She should make sure to only share her address with trusted people that are informed about this danger. And she should inspect all of her photos and metadata carefully, to make sure her location is never precisely [revealed](https://www.privacyguides.org/articles/2025/03/25/privacy-means-safety/#victims-of-stalkers).
+**Information to protect and solutions:** Everywhere that Alice is required to share her home address must be protected. Ella debería usar un apartado de correos cada vez que su dirección personal no sea absolutamente necesaria. She should make sure to only share her address with trusted people that are informed about this danger. And she should inspect all of her photos and metadata carefully, to make sure her location is never precisely [revealed](https://www.privacyguides.org/articles/2025/03/25/privacy-means-safety/#victims-of-stalkers).
 
 </details>
 
