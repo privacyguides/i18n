@@ -1,25 +1,25 @@
 ---
-title: Consider Everyone's Unique Situation
-description: To give actionable privacy advices, it's essential to consider everyone's situation. Learn more on how you can evaluate each person's unique threat model.
+title: Considera la Situación Única de Todas
+description: Para brindar consejos prácticos sobre privacidad, es esencial considerar la situación de cada uno. Learn more on how you can evaluate each person's unique threat model.
 icon: fontawesome/solid/users-between-lines
 cover: activism/banner-toolbox-tip-everyone.webp
 ---
 
-Everyone has different needs, and everyone faces different dangers when their personal data gets exposed.
+Cada persona tiene necesidades diferentes y se enfrenta a peligros diferentes cuando sus datos personales quedan expuestos.
 
-To give actionable privacy advices and recommendations, it's essential to **keep in mind everyone's situation**. There isn't a one-size-fits-all approach when it comes to data privacy.
+Para brindar consejos y recomendaciones prácticas sobre privacidad, es esencial **tener en cuenta la situación de cada uno**. No existe un enfoque único cuando se trata de la privacidad de los datos.
 
 Here's how you can get better at evaluating each person's unique [_threat model_](../../basics/threat-modeling.md):
 
-## What is a threat model?
+## ¿Qué es un modelo de amenaza?
 
-We regularly use the term "threat model" in cybersecurity and data privacy. This might sound obscure at first if you haven't seen it before, but it's quite simple: A threat model is an evaluation of what is dangerous for a certain person (or entity) in a given situation, and what protective measures should be prioritized.
+Utilizamos regularmente el término "modelo de amenaza" en ciberseguridad y privacidad de datos. This might sound obscure at first if you haven't seen it before, but it's quite simple: A threat model is an evaluation of what is dangerous for a certain person (or entity) in a given situation, and what protective measures should be prioritized.
 
-For example, if you leave near the equator, polar bears might not be an important threat to your safety. However, if you live in Nunavut, it may be important to get information on how to prevent a polar bear attack.
+Por ejemplo, si vives cerca del ecuador, los osos polares podrían no representar una amenaza importante para tu seguridad. Sin embargo, si vives en Nunavut, puede ser importante obtener información sobre cómo prevenir un ataque de oso polar.
 
 Similarly, when you choose privacy protections for yourself or for others, you should first ask a few questions to understand better what information you are trying to protect, from whom, and in which context.
 
-## What questions to ask?
+## ¿Qué preguntas hacer?
 
 To establish a threat model, ask the following questions:
 
