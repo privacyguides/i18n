@@ -1,6 +1,6 @@
 ---
 title: Considera la Situación Única de Todas
-description: Para brindar consejos prácticos sobre privacidad, es esencial considerar la situación de cada uno. Learn more on how you can evaluate each person's unique threat model.
+description: Para brindar consejos prácticos sobre privacidad, es esencial considerar la situación de cada uno. Aprenda más sobre cómo puede evaluar el modelo de amenaza único de cada persona.
 icon: fontawesome/solid/users-between-lines
 cover: activism/banner-toolbox-tip-everyone.webp
 ---
@@ -13,11 +13,11 @@ Here's how you can get better at evaluating each person's unique [_threat model_
 
 ## ¿Qué es un modelo de amenaza?
 
-Utilizamos regularmente el término "modelo de amenaza" en ciberseguridad y privacidad de datos. This might sound obscure at first if you haven't seen it before, but it's quite simple: A threat model is an evaluation of what is dangerous for a certain person (or entity) in a given situation, and what protective measures should be prioritized.
+Utilizamos regularmente el término "modelo de amenaza" en ciberseguridad y privacidad de datos. Esto podría sonar oscuro al principio si no lo has visto antes. pero es bastante simple: Un modelo de amenaza es una evaluación de lo que es peligroso para una determinada persona (o entidad) en una situación determinada, y qué medidas de protección deben ser prioritarias.
 
 Por ejemplo, si vives cerca del ecuador, los osos polares podrían no representar una amenaza importante para tu seguridad. Sin embargo, si vives en Nunavut, puede ser importante obtener información sobre cómo prevenir un ataque de oso polar.
 
-Similarly, when you choose privacy protections for yourself or for others, you should first ask a few questions to understand better what information you are trying to protect, from whom, and in which context.
+De la misma manera, cuando usted elige protecciones de privacidad para sí mismo o para otros, primero deberías hacer algunas preguntas para entender mejor qué información estás intentando proteger, de quién, y en qué contexto.
 
 ## ¿Qué preguntas hacer?
 
@@ -25,10 +25,10 @@ Para establecer un modelo de amenaza, haga las siguientes preguntas:
 
 1. ¿Qué fuga de información podría poner en mayor peligro a esta persona u organización?
 2. ¿De quién debe protegerse esta información?
-3. How likely is it that this person or entity could access this information?
-4. What could happen if this person or entity had access to this information?
-5. What are the protections available to protect this information specifically from this person or entity?
-6. What would be the downside of using these protections?
+3. ¿Qué tan probable es que esta persona o entidad pueda acceder a esta información?
+4. ¿Qué podría pasar si esta persona o entidad tuviera acceso a esta información?
+5. ¿Cuáles son las protecciones disponibles para proteger esta información específicamente de esta persona o entidad?
+6. ¿Cuál sería el inconveniente de utilizar estas protecciones?
 7. How long do these protections need to remain in place?
 
 Ask, rinse, and repeat for each type of information. The answers to these questions will be unique for each person or organization. This is their unique threat model.
@@ -53,15 +53,15 @@ Ask, rinse, and repeat for each type of information. The answers to these questi
 
 **Nivel de peligro:** Si Bob o alguien cercano a Bob publicara una foto de su cara en Internet, los numerosos bots que escanean constantemente la web abierta y las plataformas de redes sociales tendrían una copia de ella en un abrir y cerrar de ojos.
 
-**Information to protect and solutions:** To prevent this, Bob should not post any photos of his face online. He should make sure to only choose profile pictures that don't show his face for social media, and inspect any other photos posted to make sure his face doesn't show up on reflective surfaces. He should also inform his friends and family that he doesn't want photos of himself to be posted online, and he should protect his phone camera roll and cloud storage from getting [scanned](https://www.forbes.com/sites/zakdoffman/2026/01/15/google-upgrade-starts-scanning-all-your-photos-be-very-careful/) by remotely controlled AI. Bob should also opt out of any online platforms demanding a facial scan or photo ID in order to [verify his age](https://www.privacyguides.org/videos/2025/08/15/age-verification-is-a-privacy-nightmare/) or identity.
+**Información para proteger y soluciones:** Para evitar esto, Bob no debe publicar fotos de su rostro en línea. He should make sure to only choose profile pictures that don't show his face for social media, and inspect any other photos posted to make sure his face doesn't show up on reflective surfaces. He should also inform his friends and family that he doesn't want photos of himself to be posted online, and he should protect his phone camera roll and cloud storage from getting [scanned](https://www.forbes.com/sites/zakdoffman/2026/01/15/google-upgrade-starts-scanning-all-your-photos-be-very-careful/) by remotely controlled AI. Bob should also opt out of any online platforms demanding a facial scan or photo ID in order to [verify his age](https://www.privacyguides.org/videos/2025/08/15/age-verification-is-a-privacy-nightmare/) or identity.
 
 </details>
 
 ## Respect people's choices when it comes to their own privacy, even if they are different from yours
 
-When advising others on data privacy, it's easy to get carried away and forget that other people might have different threat models from our own.
+Al asesorar a otras personas sobre la privacidad de los datos, es fácil dejarse llevar y olvidar que otras personas pueden tener modelos de amenaza diferentes de los nuestros.
 
-Once we have provided the information to somebody who might need it, it's important to take a step back and respect their choices. If someone understands the risks, and decides that sharing this information _about themselves_ is an acceptable level of risk to them, we cannot (and shouldn't try) to force them in using the same level of protection we have adopted ourselves, if they don't want to.
+Una vez que hemos proporcionado la información a alguien que podría necesitarla, es importante dar un paso atrás y respetar sus decisiones. Si alguien entiende los riesgos, y decide que compartir esta información _sobre sí mismos_ es un nivel aceptable de riesgo para ellos, no podemos (y no deberíamos intentarlo) obligarlos a usar el mismo nivel de protección que nosotros mismos hemos adoptado, si no lo desean.
 
 Of course, this might be a different story if their decision also affects the data of others. But if it only concerns their own data, the choice is theirs.
 
