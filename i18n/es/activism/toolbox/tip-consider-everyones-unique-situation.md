@@ -41,17 +41,17 @@ Ask, rinse, and repeat for each type of information. The answers to these questi
 
 **Nivel de peligro:** Ya ha recibido amenazas online, y el peligro para su seguridad es inminente si su domicilio fuera conocido por este agresivo acosador.
 
-**Information to protect and solutions:** Everywhere that Alice is required to share her home address must be protected. Ella debería usar un apartado de correos cada vez que su dirección personal no sea absolutamente necesaria. She should make sure to only share her address with trusted people that are informed about this danger. And she should inspect all of her photos and metadata carefully, to make sure her location is never precisely [revealed](https://www.privacyguides.org/articles/2025/03/25/privacy-means-safety/#victims-of-stalkers).
+**Information to protect and solutions:** Everywhere that Alice is required to share her home address must be protected. Ella debería usar un apartado de correos cada vez que su dirección personal no sea absolutamente necesaria. Debe asegurarse de compartir su dirección sólo con personas de confianza que estén informadas sobre este peligro. And she should inspect all of her photos and metadata carefully, to make sure her location is never precisely [revealed](https://www.privacyguides.org/articles/2025/03/25/privacy-means-safety/#victims-of-stalkers).
 
 </details>
 
 <details class="danger" markdown><summary>Example scenario: Surveillance Capitalism</summary>
 
-**Needs:** Bob feels uncomfortable with companies using his information without his consent. He doesn't trust what they might do with this information later, or whom they might sell it to. He is especially worried about how companies and governments might use facial recognition with him.
+**Needs:** Bob feels uncomfortable with companies using his information without his consent. He doesn't trust what they might do with this information later, or whom they might sell it to. Le preocupa especialmente cómo las empresas y los gobiernos puedan utilizar el reconocimiento facial con él.
 
-**Threat:** To limit facial recognition, Bob doesn't want any companies to have access to a _photo of his face_.
+**Amenaza:** Para limitar el reconocimiento facial, Bob no quiere que ninguna empresa tenga acceso a una _foto de su cara_.
 
-**Level of danger:** If Bob or someone close to Bob posted a photo of his face online, the numerous bots constantly scanning the open web and social media platforms would have a copy of it in no time.
+**Nivel de peligro:** Si Bob o alguien cercano a Bob publicara una foto de su cara en Internet, los numerosos bots que escanean constantemente la web abierta y las plataformas de redes sociales tendrían una copia de ella en un abrir y cerrar de ojos.
 
 **Information to protect and solutions:** To prevent this, Bob should not post any photos of his face online. He should make sure to only choose profile pictures that don't show his face for social media, and inspect any other photos posted to make sure his face doesn't show up on reflective surfaces. He should also inform his friends and family that he doesn't want photos of himself to be posted online, and he should protect his phone camera roll and cloud storage from getting [scanned](https://www.forbes.com/sites/zakdoffman/2026/01/15/google-upgrade-starts-scanning-all-your-photos-be-very-careful/) by remotely controlled AI. Bob should also opt out of any online platforms demanding a facial scan or photo ID in order to [verify his age](https://www.privacyguides.org/videos/2025/08/15/age-verification-is-a-privacy-nightmare/) or identity.
 
