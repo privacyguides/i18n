@@ -33,11 +33,11 @@ global:
 
 Рекомендуемые нами провайдеры используют шифрование, поддерживают WireGuard & OpenVPN и не ведут логи. Для получения дополнительной информации, ознакомьтесь с [полным списком критериев](#criteria).
 
-| Провайдер             | Страны | WireGuard                     | Проброс портов                                  | IPv6                                                               | Анонимные платежи                        |
-| --------------------- | ------ | ----------------------------- | ----------------------------------------------- | ------------------------------------------------------------------ | ---------------------------------------- |
-| [Proton](#proton-vpn) | 127+   | :material-check:{ .pg-green } | :material-alert-outline:{ .pg-orange } Частично | :material-information-outline:{ .pg-blue } Ограниченно             | Наличные, Монеро через сторонние сервисы |
-| [IVPN](#ivpn)         | 41+    | :material-check:{ .pg-green } | :material-alert-outline:{ .pg-orange }          | :material-information-outline:{ .pg-blue } Только исходящий трафик | Наличные, Монеро                         |
-| [Mullvad](#mullvad)   | 49+    | :material-check:{ .pg-green } | :material-alert-outline:{ .pg-orange }          | :material-check:{ .pg-green }                                      | Наличные, Монеро                         |
+| Провайдер             | Страны | WireGuard                     | Проброс портов                                  | IPv6                                                               | Анонимные платежи |
+| --------------------- | ------ | ----------------------------- | ----------------------------------------------- | ------------------------------------------------------------------ | ----------------- |
+| [Proton](#proton-vpn) | 127+   | :material-check:{ .pg-green } | :material-alert-outline:{ .pg-orange } Частично | :material-information-outline:{ .pg-blue } Ограниченно             | Наличные          |
+| [IVPN](#ivpn)         | 41+    | :material-check:{ .pg-green } | :material-alert-outline:{ .pg-orange }          | :material-information-outline:{ .pg-blue } Только исходящий трафик | Наличные, Монеро  |
+| [Mullvad](#mullvad)   | 49+    | :material-check:{ .pg-green } | :material-alert-outline:{ .pg-orange }          | :material-check:{ .pg-green }                                      | Наличные, Монеро  |
 
 ### Proton VPN
 
@@ -88,7 +88,7 @@ global:
 
 #### :material-check:{ .pg-green } Принимает наличные
 
-Помимо кредитных и дебетовых карт, PayPal и [Bitcoin](advanced/payments.md#other-coins-bitcoin-ethereum-etc), Proton VPN принимает **наличные/местные валюты** в качестве анонимной формы оплаты. Вы также можете использовать [**Monero**](cryptocurrency.md#monero) для покупки ваучеров на Proton VPN Plus и Proton Unlimited через их [официального](https://discuss.privacyguides.net/t/add-monero-as-an-anonymous-payment-method-for-proton-services/31058/15) реселлера [ProxyStore](https://dys2p.com/en/2025-09-09-proton.html).
+Proton VPN, in addition to accepting credit/debit cards, PayPal, and [Bitcoin](advanced/payments.md#other-coins-bitcoin-ethereum-etc), also accepts **cash/local currency** as an anonymous form of payment.
 
 #### :material-check:{ .pg-green } Поддержка WireGuard
 
@@ -123,13 +123,15 @@ Proton VPN опубликовал клиенты [App Store](https://apps.apple.
 
 </div>
 
-#### :material-information-outline:{ .pg-blue } Дополнительные замечания
+#### :material-alert-outline:{ .pg-orange } Additional Notes
 
 Клиенты Proton VPN поддерживают двухфакторную аутентификацию на всех платформах. Proton VPN имеет собственные серверы и дата-центры в Швейцарии, Исландии и Швеции. Они предлагают блокировку контента и блокировку известного вредоносного ПО с помощью своей DNS-службы. Кроме того, Proton VPN также предлагает "Tor" серверы, позволяющие вам легко подключаться к onion-сайтам, но мы все еще настоятельно рекомендуем использовать [официальный Tor Browser](tor.md#tor-browser) для этой цели.
 
-##### :material-alert-outline:{ .pg-orange } Функция Kill switch работает неисправно на компьютерах Mac на базе Intel
+##### Kill switch feature provides poor protections on macOS
 
-При использовании VPN kill switch на компьютерах Mac на базе Intel [возможны](https://protonvpn.com/support/macos-t2-chip-kill-switch) системные сбои. Если вам необходима эта функция, и вы используете Mac с чипсетом Intel, вам следует рассмотреть возможность использования другой службы VPN.
+Proton VPN's kill switch on macOS does not block any traffic when you intentionally disconnect from the VPN, *including when you disconnect by switching servers.* You should not make any sensitive connections while the VPN is turned off, nor when switching servers. It is only designed to prevent traffic leaks in the case of an unexpected VPN disconnection, which is still a useful feature to have, but it does not provide the same level of protection as a kill switch that blocks all traffic when the VPN is turned off.
+
+Additionally, system crashes [may occur](https://protonvpn.com/support/macos-t2-chip-kill-switch) on Intel-based Macs when using the VPN kill switch. Если вам необходима эта функция, и вы используете Mac с чипсетом Intel, вам следует рассмотреть возможность использования другой службы VPN.
 
 ### IVPN
 

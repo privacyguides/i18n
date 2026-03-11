@@ -33,11 +33,11 @@ Se você está procurando por **anonimato**, você deve usar o Navegador Tor **a
 
 Nossas recomendações de provedores VPN usam criptografia, aceitam métodos de pagamento como Monero, suportam WireGuard & OpenVPN, e têm uma política de não registro de seus dados. Leia nossa [lista completa de requisitos](#criteria) para mais informações.
 
-| Provedore             | Páises | WireGuard                     | Redirecionamento/Encaminhamento de portas | IPv6 (protocolo IP versão 6)                                   | Pagamentos anônimos          |
-| --------------------- | ------ | ----------------------------- | ----------------------------------------- | -------------------------------------------------------------- | ---------------------------- |
-| [Proton](#proton-vpn) | 127+   | :material-check:              | :material-alert-outline:{ .pg-orange }    | :material-information-outline:{ .pg-blue } Segurança dos Dados | Cash  Monero via third party |
-| [IVPN](#ivpn)         | 41+    | :material-check:{ .pg-green } | :material-alert-outline:{ .pg-orange }    | :material-information-outline:{ .pg-blue } Mail apenas         | Monero  Cash                 |
-| [Mullvad](#mullvad)   | 49+    | :material-check:{ .pg-green } | :material-alert-outline:{ .pg-orange }    | :material-check:{ .pg-green }                                  | Monero  Cash                 |
+| Provedore             | Páises | WireGuard                     | Redirecionamento/Encaminhamento de portas | IPv6 (protocolo IP versão 6)                                   | Pagamentos anônimos |
+| --------------------- | ------ | ----------------------------- | ----------------------------------------- | -------------------------------------------------------------- | ------------------- |
+| [Proton](#proton-vpn) | 127+   | :material-check:              | :material-alert-outline:{ .pg-orange }    | :material-information-outline:{ .pg-blue } Segurança dos Dados | Dinheiro            |
+| [IVPN](#ivpn)         | 41+    | :material-check:{ .pg-green } | :material-alert-outline:{ .pg-orange }    | :material-information-outline:{ .pg-blue } Mail apenas         | Monero  Cash        |
+| [Mullvad](#mullvad)   | 49+    | :material-check:{ .pg-green } | :material-alert-outline:{ .pg-orange }    | :material-check:{ .pg-green }                                  | Monero  Cash        |
 
 ### Proton VPN
 
@@ -88,7 +88,7 @@ Proton VPN provides the source code for their desktop and mobile clients in thei
 
 #### :material-check:{ .pg-green } Aceita Dinheiro
 
-Proton VPN, in addition to accepting credit/debit cards, PayPal, and [Bitcoin](advanced/payments.md#other-coins-bitcoin-ethereum-etc), also accepts **cash/local currency** as an anonymous form of payment. You can also use [**Monero**](cryptocurrency.md#monero) to purchase vouchers for Proton VPN Plus and Proton Unlimited via their [official](https://discuss.privacyguides.net/t/add-monero-as-an-anonymous-payment-method-for-proton-services/31058/15) reseller [ProxyStore](https://dys2p.com/en/2025-09-09-proton.html).
+Proton VPN, in addition to accepting credit/debit cards, PayPal, and [Bitcoin](advanced/payments.md#other-coins-bitcoin-ethereum-etc), also accepts **cash/local currency** as an anonymous form of payment.
 
 #### :material-check:{ .pg-green } Suporta WireGuard
 
@@ -123,13 +123,15 @@ We are noting this because while we don't necessarily recommend against sharing 
 
 </div>
 
-#### :material-information-outline:{ .pg-blue } Notas Adicionais
+#### :material-alert-outline:{ .pg-orange } Additional Notes
 
 Os clientes Proton VPN suportam a autenticação de dois fatores em todas as plataformas, exceto no Linux, no momento. Proton VPN tem seus próprios servidores e centros de dados na Suíça, Islândia e Suécia. Eles oferecem bloqueio de propagandas e domínios de suspeitos (malware) conhecidos o serviço DNS. Além disso, Proton VPN também oferece servidores "Tor" que permitem que você se conecte facilmente a sites .onion, mas ainda fortemente recomendado o uso do [Navegador Tor](tor.md#tor-browser) oficial para essa finalidade.
 
-##### :material-alert-outline:{ .pg-orange } O recurso Killswitch não funciona em Macs baseados em Intel
+##### Kill switch feature provides poor protections on macOS
 
-Podem [ocorrer erros](https://protonvpn.com/support/macos-t2-chip-kill-switch/) no sistema em Macs baseados em Intel ao usar o VPN *killswitch*. Se você precisar desse recurso e estiver usando um Mac com chipset Intel, considere usar outro serviço de VPN.
+Proton VPN's kill switch on macOS does not block any traffic when you intentionally disconnect from the VPN, *including when you disconnect by switching servers.* You should not make any sensitive connections while the VPN is turned off, nor when switching servers. It is only designed to prevent traffic leaks in the case of an unexpected VPN disconnection, which is still a useful feature to have, but it does not provide the same level of protection as a kill switch that blocks all traffic when the VPN is turned off.
+
+Additionally, system crashes [may occur](https://protonvpn.com/support/macos-t2-chip-kill-switch) on Intel-based Macs when using the VPN kill switch. Se você precisar desse recurso e estiver usando um Mac com chipset Intel, considere usar outro serviço de VPN.
 
 ### IVPN
 
@@ -300,20 +302,20 @@ A Mullvad é muito transparente sobre quais nós são [de](https://mullvad.net/e
 
 ### Tecnologia
 
-We require our recommended providers to support modern technologies currently available to VPNs.
+Nós exigimos que nossos provedores recomendados suportem tecnologias modernas, atualmente disponíveis para VPNs.
 
 **Mínimo Para Qualificação:**
 
-- Must provide standard configuration files which can be used in a generic, open-source client such as the WireGuard apps.
-- Support for strong protocols such as WireGuard.
-- Functional kill switch built in to service-provided clients on our recommended [desktop](desktop.md) and [mobile](android/distributions.md) platforms. This kill switch should be able to block all internet traffic when the VPN connection drops unexpectedly.
+- Deve fornecer arquivos padrões de configuração que possam ser usados em um cliente genérico de código aberto, como os aplicativos WireGuard.
+- Suporte a protocolos fortes, como o WireGuard.
+- Kill switch funcional incorporado aos clientes fornecidos pelo serviço em nossas plataformas recomendadas [para desktop](desktop.md) e [dispositivos móveis](android/distributions.md). Esse kill switch deve conseguir bloquear todo o tráfego da Internet quando a conexão da VPN cair inesperadamente.
 - Suporte a Multihop. O *Multihopping* é importante para manter os dados protegidos no caso de comprometimento de um único nó da rede.
 - Todos os clientes VPN fornecidos pelas marcas devem ser de [código aberto](https://en.wikipedia.org/wiki/Open_source), como o software VPN que eles normalmente trazem incorporado. Acreditamos que a disponibilidade do [código-fonte](https://en.wikipedia.org/wiki/Source_code) proporciona maior transparência sobre o que o seu dispositivo está realmente fazendo.
 - Recursos de resistência à censura projetados para contornar firewalls sem DPI.
 
 **Melhor Caso:**
 
-- Kill switch on all major platforms with highly configurable options (enable/disable on certain networks, on boot, etc.)
+- Kill switch em todas as principais plataformas, com opções bem configuráveis (ativar/desativar em certas redes, ao inicializar, etc.)
 - Clientes VPN fáceis de usar
 - Suporte a [IPv6](https://en.wikipedia.org/wiki/IPv6). Esperamos que os servidores permitam conexões de entrada via IPv6 e que você possa acessar serviços hospedados em endereços IPv6.
 - O recurso de [encaminhamento remoto de portas](https://en.wikipedia.org/wiki/Port_forwarding#Remote_port_forwarding) ajuda a criar conexões ao usar o software de compartilhamento de arquivos P2P ([Peer-to-Peer](https://en.wikipedia.org/wiki/Peer-to-peer)) ou ao hospedar um servidor (por exemplo, Mumble).

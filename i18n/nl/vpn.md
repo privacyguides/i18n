@@ -33,11 +33,11 @@ Als je op zoek bent naar **anonimiteit**, moet je de Tor Browser gebruiken. Als 
 
 De door ons aanbevolen providers gebruiken encryptie, ondersteunen WireGuard & OpenVPN en hebben een no logging policy. Lees onze [volledige lijst met criteria](#criteria) voor meer informatie.
 
-| Provider              | Landen | WireGuard                     | Port forwarding                                                    | IPv6                                                              | Anonieme betalingen             |
-| --------------------- | ------ | ----------------------------- | ------------------------------------------------------------------ | ----------------------------------------------------------------- | ------------------------------- |
-| [Proton](#proton-vpn) | 127+   | :material-check:{ .pg-green } | :material-alert-outline:{ .pg-orange } Gedeeltelijke ondersteuning | :material-information-outline:{ .pg-blue } Beperkte ondersteuning | Contant Monero via derde partij |
-| [IVPN](#ivpn)         | 41+    | :material-check:{ .pg-green } | :material-alert-outline:{ .pg-orange }                             | :material-information-outline:{ .pg-blue } Alleen uitgaand        | Monero Cash                     |
-| [Mullvad](#mullvad)   | 49+    | :material-check:{ .pg-green } | :material-alert-outline:{ .pg-orange }                             | :material-check:{ .pg-green }                                     | Monero Cash                     |
+| Provider              | Landen | WireGuard                     | Port forwarding                                                    | IPv6                                                              | Anonieme betalingen |
+| --------------------- | ------ | ----------------------------- | ------------------------------------------------------------------ | ----------------------------------------------------------------- | ------------------- |
+| [Proton](#proton-vpn) | 127+   | :material-check:{ .pg-green } | :material-alert-outline:{ .pg-orange } Gedeeltelijke ondersteuning | :material-information-outline:{ .pg-blue } Beperkte ondersteuning | Contant             |
+| [IVPN](#ivpn)         | 41+    | :material-check:{ .pg-green } | :material-alert-outline:{ .pg-orange }                             | :material-information-outline:{ .pg-blue } Alleen uitgaand        | Monero Cash         |
+| [Mullvad](#mullvad)   | 49+    | :material-check:{ .pg-green } | :material-alert-outline:{ .pg-orange }                             | :material-check:{ .pg-green }                                     | Monero Cash         |
 
 ### Proton VPN
 
@@ -88,7 +88,7 @@ Proton VPN provides the source code for their desktop and mobile clients in thei
 
 #### :material-check:{ .pg-green } Accepteert contant geld
 
-Proton VPN, in addition to accepting credit/debit cards, PayPal, and [Bitcoin](advanced/payments.md#other-coins-bitcoin-ethereum-etc), also accepts **cash/local currency** as an anonymous form of payment. You can also use [**Monero**](cryptocurrency.md#monero) to purchase vouchers for Proton VPN Plus and Proton Unlimited via their [official](https://discuss.privacyguides.net/t/add-monero-as-an-anonymous-payment-method-for-proton-services/31058/15) reseller [ProxyStore](https://dys2p.com/en/2025-09-09-proton.html).
+Proton VPN, in addition to accepting credit/debit cards, PayPal, and [Bitcoin](advanced/payments.md#other-coins-bitcoin-ethereum-etc), also accepts **cash/local currency** as an anonymous form of payment.
 
 #### :material-check:{ .pg-green } WireGuard ondersteuning
 
@@ -123,13 +123,15 @@ We are noting this because while we don't necessarily recommend against sharing 
 
 </div>
 
-#### :material-information-outline:{ .pg-blue } Aanvullende opmerkingen
+#### :material-alert-outline:{ .pg-orange } Additional Notes
 
 Proton VPN clients support two-factor authentication on all platforms. Ze bieden adblocking en het blokkeren van bekende malware domeinen met hun DNS service. They offer content blocking and known-malware blocking with their DNS service. Additionally, Proton VPN also offers "Tor" servers allowing you to easily connect to onion sites, but we still strongly recommend using [the official Tor Browser](tor.md#tor-browser) for this purpose.
 
-##### :material-alert-outline:{ .pg-orange } Kill switch feature is broken on Intel-based Macs
+##### Kill switch feature provides poor protections on macOS
 
-System crashes [may occur](https://protonvpn.com/support/macos-t2-chip-kill-switch) on Intel-based Macs when using the VPN kill switch. Als je deze functie nodig hebt, en je gebruikt een Mac met Intel-chipset, moet je overwegen een andere VPN-dienst te gebruiken.
+Proton VPN's kill switch on macOS does not block any traffic when you intentionally disconnect from the VPN, *including when you disconnect by switching servers.* You should not make any sensitive connections while the VPN is turned off, nor when switching servers. It is only designed to prevent traffic leaks in the case of an unexpected VPN disconnection, which is still a useful feature to have, but it does not provide the same level of protection as a kill switch that blocks all traffic when the VPN is turned off.
+
+Additionally, system crashes [may occur](https://protonvpn.com/support/macos-t2-chip-kill-switch) on Intel-based Macs when using the VPN kill switch. Als je deze functie nodig hebt, en je gebruikt een Mac met Intel-chipset, moet je overwegen een andere VPN-dienst te gebruiken.
 
 ### IVPN
 

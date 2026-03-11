@@ -61,7 +61,7 @@
 *[NAT]: Network Address Translation (Tradução de endereços de rede)
 *[NAT-PMP]: Protocolo de mapeamento de portas NAT
 *[NTP]: Protocolo de Tempo Rede
-*[Nunavut]: The largest and northernmost territory of Canada
+*[Nunavut]: O maior e mais ao norte território do Canadá
 *[OCI]: Iniciativa Open Container
 *[OCSP]: Protocolo de Status de Certificado Online
 *[OEM]: Fabricante do Equipamento Original
@@ -88,12 +88,12 @@
 *[SNI]: Indicação do Nome do Servidor
 *[SSD]: Disco de Estado Sólido
 *[SSH]: Shell Seguro
-*[SUID]: Set Owner User ID
+*[SUID]: Definir ID do usuário proprietário
 *[SaaS]: Software como um Serviço (software em nuvem)
 *[SoC]: Sistema em um Chip
-*[SSO]: Single sign-on
-*[system prompt]: The system prompt of an AI chat is the general instructions given by a human to guide how it should operate.
-*[temperature]: AI temperature is a parameter used in AI models to control the level of randomness and creativity in the generated text.
+*[SSO]: Login único
+*[system prompt]: O prompt do sistema de um chat de IA são as instruções gerais dadas por um ser humano para orientar como ele deve operar.
+*[temperatura]: A temperatura da IA é um parâmetro usado nos modelos de IA para controlar o nível de aleatoriedade e criatividade no texto gerado.
 *[TCP]: Protocolo de Controle de Transmissão
 *[TEE]: Ambiente de Execução Confiável
 *[TLS]: Segurança da Camada de Transporte

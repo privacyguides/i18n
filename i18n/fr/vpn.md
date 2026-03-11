@@ -33,11 +33,11 @@ Si vous recherchez l'**anonymat**, vous devriez utiliser le navigateur Tor. Si v
 
 Les fournisseurs que nous recommandons utilisent le cryptage, supportent WireGuard & OpenVPN, et ont une politique de non journalisation. Lisez notre \[liste complète de critères\](#criteres) pour plus d'informations.
 
-| Fournisseur           | Pays | WireGuard                     | Redirection de port                                               | IPv6                                                               | Paiements anonymes                         |
-| --------------------- | ---- | ----------------------------- | ----------------------------------------------------------------- | ------------------------------------------------------------------ | ------------------------------------------ |
-| [Proton](#proton-vpn) | 127+ | :material-check:{ .pg-green } | :material-alert-outline: { .pg-orange } Prise en charge partielle | :material-information-outline:{ .pg-blue } Prise en charge limitée | Espèces, Monero via une application tierce |
-| [IVPN](#ivpn)         | 41+  | :material-check:{ .pg-green } | :material-alert-outline:{ .pg-orange }                            | :material-information-outline:{ .pg-blue } Sortant seulement       | Monero, espèces                            |
-| [Mullvad](#mullvad)   | 49+  | :material-check:{ .pg-green } | :material-alert-outline:{ .pg-orange }                            | :material-check:{ .pg-green }                                      | Monero, espèces                            |
+| Fournisseur           | Pays | WireGuard                     | Redirection de port                                               | IPv6                                                               | Paiements anonymes |
+| --------------------- | ---- | ----------------------------- | ----------------------------------------------------------------- | ------------------------------------------------------------------ | ------------------ |
+| [Proton](#proton-vpn) | 127+ | :material-check:{ .pg-green } | :material-alert-outline: { .pg-orange } Prise en charge partielle | :material-information-outline:{ .pg-blue } Prise en charge limitée | Argent liquide     |
+| [IVPN](#ivpn)         | 41+  | :material-check:{ .pg-green } | :material-alert-outline:{ .pg-orange }                            | :material-information-outline:{ .pg-blue } Sortant seulement       | Monero, espèces    |
+| [Mullvad](#mullvad)   | 49+  | :material-check:{ .pg-green } | :material-alert-outline:{ .pg-orange }                            | :material-check:{ .pg-green }                                      | Monero, espèces    |
 
 ### Proton VPN
 
@@ -88,7 +88,7 @@ Proton VPN a mis à disposition le code source de leurs clients mobile et bureau
 
 #### :material-check:{ .pg-green } Accepte l'argent liquide
 
-En plus d'accepter les paiements par carte bancaires, Paypal et [Bitcoin](advanced/payments.md#other-coins-bitcoin-ethereum-etc), Proton VPN accepte également les **espèces/monnaie locale** comme forme de paiement anonyme. Vous pouvez également utiliser [**Monero**](cryptocurrency.md#monero) pour acheter des bons d'achat pour Proton VPN Plus et Proton Unlimited via leur revendeur [officiel](https://discuss.privacyguides.net/t/add-monero-as-an-anonymous-payment-method-for-proton-services/31058/15), [ProxyStore](https://dys2p.com/en/2025-09-09-proton.html).
+Proton VPN, in addition to accepting credit/debit cards, PayPal, and [Bitcoin](advanced/payments.md#other-coins-bitcoin-ethereum-etc), also accepts **cash/local currency** as an anonymous form of payment.
 
 #### :material-check:{ .pg-green } Prise en charge de WireGuard
 
@@ -123,13 +123,15 @@ Nous tenons à le signaler car, bien que nous ne déconseillions pas nécessaire
 
 </div>
 
-#### :material-information-outline:{ .pg-blue } Notes supplémentaires
+#### :material-alert-outline:{ .pg-orange } Additional Notes
 
 Les clients Proton VPN prennent en charge l'authentification à deux facteurs sur toutes les plateformes. Proton VPN possède ses propres serveurs et centres de données en Suisse, en Islande et en Suède. Ils proposent le blocage des contenus et des domaines de logiciels malveillants connus avec leur service DNS. En outre, Proton VPN propose également des serveurs "Tor" vous permettant de vous connecter facilement aux sites onion, mais nous recommandons fortement d'utiliser [le navigateur officiel Tor](tor.md#tor-browser) à cette fin.
 
-##### :material-alert-outline:{ .pg-orange } La fonction "Arrêt d'Urgence" ne fonctionne pas sur les Macs Intel.
+##### Kill switch feature provides poor protections on macOS
 
-Des crashs système[peuvent se produire](https://protonvpn.com/support/macos-t2-chip-kill-switch) sur les Mac basés sur Intel lors de l'utilisation de la fonction "Arrêt d'Urgence" Si vous avez besoin de cette fonction, et que vous utilisez un Mac avec un chipset Intel, vous devriez envisager d'utiliser un autre service VPN.
+Proton VPN's kill switch on macOS does not block any traffic when you intentionally disconnect from the VPN, *including when you disconnect by switching servers.* You should not make any sensitive connections while the VPN is turned off, nor when switching servers. It is only designed to prevent traffic leaks in the case of an unexpected VPN disconnection, which is still a useful feature to have, but it does not provide the same level of protection as a kill switch that blocks all traffic when the VPN is turned off.
+
+Additionally, system crashes [may occur](https://protonvpn.com/support/macos-t2-chip-kill-switch) on Intel-based Macs when using the VPN kill switch. Si vous avez besoin de cette fonction, et que vous utilisez un Mac avec un chipset Intel, vous devriez envisager d'utiliser un autre service VPN.
 
 ### IVPN
 

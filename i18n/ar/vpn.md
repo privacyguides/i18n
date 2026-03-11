@@ -33,11 +33,11 @@ global:
 
 يستخدم مزودو الخدمات الذين نوصي بهم التشفير، ويدعمون WireGuard & OpenVPN، ولديهم سياسة عدم تسجيل الاتصالات. للمزيد من المعلومات، اطلع على [قائمة المعايير](#criteria).
 
-| مزوّد                 | البُلدان | WireGuard                     | إعادة توجيه المنفذ (Port Forwarding)                | IPv6                                                     | المدفوعات المخفيّة           |
-| --------------------- | -------- | ----------------------------- | --------------------------------------------------- | -------------------------------------------------------- | ---------------------------- |
-| [Proton](#proton-vpn) | 127+     | :material-check:{ .pg-green } | :material-alert-outline:{ .pg-orange } الدعم الجزئي | :material-information-outline:{ .pg-blue } الدعم المحدود | Cash  Monero via third party |
-| [IVPN](#ivpn)         | 41+      | :material-check:{ .pg-green } | :material-alert-outline:{ .pg-orange }              | :material-information-outline:{ .pg-blue } الصادر فقط    | Monero  Cash                 |
-| [ملفاد](#mullvad)     | 49+      | :material-check:{ .pg-green } | :material-alert-outline:{ .pg-orange }              | :material-check:{ .pg-green }                            | Monero  Cash                 |
+| مزوّد                 | البُلدان | WireGuard                     | إعادة توجيه المنفذ (Port Forwarding)                | IPv6                                                     | المدفوعات المخفيّة |
+| --------------------- | -------- | ----------------------------- | --------------------------------------------------- | -------------------------------------------------------- | ------------------ |
+| [Proton](#proton-vpn) | 127+     | :material-check:{ .pg-green } | :material-alert-outline:{ .pg-orange } الدعم الجزئي | :material-information-outline:{ .pg-blue } الدعم المحدود | Cash               |
+| [IVPN](#ivpn)         | 41+      | :material-check:{ .pg-green } | :material-alert-outline:{ .pg-orange }              | :material-information-outline:{ .pg-blue } الصادر فقط    | Monero  Cash       |
+| [ملفاد](#mullvad)     | 49+      | :material-check:{ .pg-green } | :material-alert-outline:{ .pg-orange }              | :material-check:{ .pg-green }                            | Monero  Cash       |
 
 ### الشبكات الخاصة الافتراضية من Proton
 
@@ -88,7 +88,7 @@ Proton VPN provides the source code for their desktop and mobile clients in thei
 
 #### :material-check:{ .pg-green } يقبل الدفع نقدا
 
-Proton VPN, in addition to accepting credit/debit cards, PayPal, and [Bitcoin](advanced/payments.md#other-coins-bitcoin-ethereum-etc), also accepts **cash/local currency** as an anonymous form of payment. You can also use [**Monero**](cryptocurrency.md#monero) to purchase vouchers for Proton VPN Plus and Proton Unlimited via their [official](https://discuss.privacyguides.net/t/add-monero-as-an-anonymous-payment-method-for-proton-services/31058/15) reseller [ProxyStore](https://dys2p.com/en/2025-09-09-proton.html).
+Proton VPN, in addition to accepting credit/debit cards, PayPal, and [Bitcoin](advanced/payments.md#other-coins-bitcoin-ethereum-etc), also accepts **cash/local currency** as an anonymous form of payment.
 
 #### :material-check:{ .pg-green } WireGuard Support
 
@@ -123,13 +123,15 @@ Proton VPN, in addition to accepting credit/debit cards, PayPal, and [Bitcoin](a
 
 </div>
 
-#### :material-information-outline:{ .pg-blue } ملاحظات إضافية
+#### :material-alert-outline:{ .pg-orange } Additional Notes
 
 تدعم تطبيقات Proton VPN المصادقة الثنائية (2FA) على جميع المنصات. Proton VPN تمتلك خوادم ومراكز بيانات خاصة بها في سويسرا وآيسلندا والسويد. يوفرون خدمة حجب المحتوى والمواقع المعروفة بأنها تحتوي على برمجيات خبيثة، وذلك من خلال الـ (DNS) الخاص بهم. بالإضافة إلى ذلك، توفر Proton VPN خوادم "Tor" مخصصة، تتيح لك الاتصال بسهولة بمواقع.onion. ومع ذلك، نوصي بشدة باستخدام [متصفح Tor](tor.md#tor-browser) الرسمي لهذا الغرض لضمان أعلى مستوى من الخصوصية.
 
-##### :material-alert-outline:{ .pg-orange }
+##### Kill switch feature provides poor protections on macOS
 
-ميزة Kill Switch [لا تعمل بشكل صحيح](https://protonvpn.com/support/macos-t2-chip-kill-switch) على أجهزة Mac المزودة بمعالجات Intel. إذا كنت تحتاج إلى هذه الميزة، وتستخدم جهاز Mac بمعالج Intel، فمن الأفضل أن تفكر في استخدام خدمة VPN أخرى تدعم ميزة Kill Switch بشكل موثوق على هذا النوع من الأجهزة.
+Proton VPN's kill switch on macOS does not block any traffic when you intentionally disconnect from the VPN, *including when you disconnect by switching servers.* You should not make any sensitive connections while the VPN is turned off, nor when switching servers. It is only designed to prevent traffic leaks in the case of an unexpected VPN disconnection, which is still a useful feature to have, but it does not provide the same level of protection as a kill switch that blocks all traffic when the VPN is turned off.
+
+Additionally, system crashes [may occur](https://protonvpn.com/support/macos-t2-chip-kill-switch) on Intel-based Macs when using the VPN kill switch. إذا كنت تحتاج إلى هذه الميزة، وتستخدم جهاز Mac بمعالج Intel، فمن الأفضل أن تفكر في استخدام خدمة VPN أخرى تدعم ميزة Kill Switch بشكل موثوق على هذا النوع من الأجهزة.
 
 ### IVPN
 

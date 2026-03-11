@@ -33,11 +33,11 @@ global:
 
 ارائه‌دهندگان پیشنهادی ما از رمزگذاری استفاده می‌کنند، از WireGuard و OpenVPN پشتیبانی می‌کنند و سیاست عدم ثبت لاگ دارند. برای اطلاعات بیشتر، [فهرست کامل معیارها](#criteria) را بخوانید.
 
-| ارائه‌دهنده           | کشورها | وایرگارد                      | پورت فورواردینگ                                      | IPv6                                                      | پرداخت‌های ناشناس            |
-| --------------------- | ------ | ----------------------------- | ---------------------------------------------------- | --------------------------------------------------------- | ---------------------------- |
-| [پروتون](#proton-vpn) | 127+   | :material-check:{ .pg-green } | :material-alert-outline:{ .pg-orange } پشتیبانی جزئی | :material-information-outline:{ .pg-blue } پشتیبانی محدود | Cash  Monero via third party |
-| [آی‌وی‌پی‌ان](#ivpn)  | 41+    | :material-check:{ .pg-green } | :material-alert-outline:{ .pg-orange }               | :material-information-outline:{ .pg-blue } فقط خروجی      | Monero  Cash                 |
-| [مول‌واد](#mullvad)   | ۴۹+    | :material-check:{ .pg-green } | :material-alert-outline:{ .pg-orange }               | :material-check:{ .pg-green }                             | Monero  Cash                 |
+| ارائه‌دهنده           | کشورها | وایرگارد                      | پورت فورواردینگ                                      | IPv6                                                      | پرداخت‌های ناشناس |
+| --------------------- | ------ | ----------------------------- | ---------------------------------------------------- | --------------------------------------------------------- | ----------------- |
+| [پروتون](#proton-vpn) | 127+   | :material-check:{ .pg-green } | :material-alert-outline:{ .pg-orange } پشتیبانی جزئی | :material-information-outline:{ .pg-blue } پشتیبانی محدود | Cash              |
+| [آی‌وی‌پی‌ان](#ivpn)  | 41+    | :material-check:{ .pg-green } | :material-alert-outline:{ .pg-orange }               | :material-information-outline:{ .pg-blue } فقط خروجی      | Monero  Cash      |
+| [مول‌واد](#mullvad)   | ۴۹+    | :material-check:{ .pg-green } | :material-alert-outline:{ .pg-orange }               | :material-check:{ .pg-green }                             | Monero  Cash      |
 
 ### پروتون وی‌پی‌ان
 
@@ -88,7 +88,7 @@ Proton VPN provides the source code for their desktop and mobile clients in thei
 
 #### :material-check:{ .pg-green } پذیرش وجه نقد
 
-Proton VPN, in addition to accepting credit/debit cards, PayPal, and [Bitcoin](advanced/payments.md#other-coins-bitcoin-ethereum-etc), also accepts **cash/local currency** as an anonymous form of payment. You can also use [**Monero**](cryptocurrency.md#monero) to purchase vouchers for Proton VPN Plus and Proton Unlimited via their [official](https://discuss.privacyguides.net/t/add-monero-as-an-anonymous-payment-method-for-proton-services/31058/15) reseller [ProxyStore](https://dys2p.com/en/2025-09-09-proton.html).
+Proton VPN, in addition to accepting credit/debit cards, PayPal, and [Bitcoin](advanced/payments.md#other-coins-bitcoin-ethereum-etc), also accepts **cash/local currency** as an anonymous form of payment.
 
 #### :material-check:{ .pg-green } پشتیبانی از WireGuard
 
@@ -123,13 +123,15 @@ Proton VPN, in addition to accepting credit/debit cards, PayPal, and [Bitcoin](a
 
 </div>
 
-#### :material-information-outline:{ .pg-blue } یادداشت‌های تکمیلی
+#### :material-alert-outline:{ .pg-orange } Additional Notes
 
 کلاینت‌های Proton VPN از احراز هویت دو مرحله‌ای در تمام پلتفرم‌ها پشتیبانی می‌کنند. پروتون وی‌پی‌ان سرورها و دیتاسنترهای اختصاصی خود را در سوئیس، ایسلند و سوئد دارد. آن‌ها با سرویس DNS خود، مسدودسازی محتوا و مسدودسازی بدافزارهای شناخته‌شده را ارائه می‌دهند. علاوه بر این، پروتون وی‌پی‌ان همچنین سرورهای «تور» را ارائه می‌دهد که به شما امکان می‌دهد به راحتی به سایت‌های آنیون متصل شوید، اما ما همچنان به شدت توصیه می‌کنیم برای این منظور از [مرورگر رسمی تور](tor.md#tor-browser) استفاده کنید.
 
-##### :material-alert-outline:{ .pg-orange } قابلیت Kill switch در مک‌های مبتنی بر اینتل خراب است
+##### Kill switch feature provides poor protections on macOS
 
-در مک‌های مبتنی بر اینتل، هنگام استفاده از کلید قطع VPN، [ممکن است سیستم دچار کرش شود](https://protonvpn.com/support/macos-t2-chip-kill-switch). اگر به این قابلیت نیاز دارید و از یک مک با چیپست اینتل استفاده می‌کنید، باید استفاده از یک سرویس VPN دیگر را در نظر بگیرید.
+Proton VPN's kill switch on macOS does not block any traffic when you intentionally disconnect from the VPN, *including when you disconnect by switching servers.* You should not make any sensitive connections while the VPN is turned off, nor when switching servers. It is only designed to prevent traffic leaks in the case of an unexpected VPN disconnection, which is still a useful feature to have, but it does not provide the same level of protection as a kill switch that blocks all traffic when the VPN is turned off.
+
+Additionally, system crashes [may occur](https://protonvpn.com/support/macos-t2-chip-kill-switch) on Intel-based Macs when using the VPN kill switch. اگر به این قابلیت نیاز دارید و از یک مک با چیپست اینتل استفاده می‌کنید، باید استفاده از یک سرویس VPN دیگر را در نظر بگیرید.
 
 ### آی‌وی‌پی‌ان
 
@@ -278,7 +280,7 @@ IVPN has obfuscation modes using [V2Ray](https://v2ray.com/en/index) which helps
 
 مولواد کلاینت‌های [اپ استور](https://apps.apple.com/app/id1488466513) و [گوگل پلی](https://play.google.com/store/apps/details?id=net.mullvad.mullvadvpn) را منتشر کرده است که هر دو دارای رابط کاربری آسان هستند و دیگر نیازی به پیکربندی دستی اتصال WireGuard توسط شما نیست. کلاینت اندروید همچنین در [گیت‌هاب](https://github.com/mullvad/mullvadvpn-app/releases) نیز در دسترس است.
 
-#### :material-information-outline:{ .pg-blue } یادداشت‌های اضافی
+#### :material-information-outline:{ .pg-blue } یادداشت‌های تکمیلی
 
 مولود بسیار شفاف است درباره اینکه کدام نودها را [مالک است یا اجاره کرده](https://mullvad.net/en/servers). آن‌ها همچنین گزینه‌ای برای فعال‌سازی دفاع در برابر تحلیل ترافیک هدایت‌شده توسط هوش مصنوعی ([DAITA](https://mullvad.net/en/blog/daita-defense-against-ai-guided-traffic-analysis)) در برنامه‌های خود ارائه می‌دهند. DAITA در برابر تهدید تحلیل پیشرفته ترافیک که می‌تواند الگوهای موجود در ترافیک VPN را به وب‌سایت‌های خاص مرتبط کند، محافظت می‌کند.
 

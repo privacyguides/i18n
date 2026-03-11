@@ -51,7 +51,7 @@ VPNs não podem criptografar dados fora da conexão entre o seu dispositivo e o 
 
 É pouco provável que a utilização de uma VPN seja útil nos casos em que você utiliza a sua [identidade da vida real](common-threats.md#common-misconceptions). Fazê-lo pode acionar sistemas de detecção de fraude e “spam”, como se você logasse no site do seu banco.
 
-It's important to remember that a VPN will not provide you with absolute anonymity because the VPN provider itself will still have access to your real IP address, destination website information, and often a money trail that can be linked directly back to you. "No logging" policies are merely a promise; if you need complete safety from the network itself, consider using [Tor](../advanced/tor-overview.md) in addition to or instead of a VPN.
+É importante lembrar que uma VPN não fornecerá anonimato absoluto porque o próprio provedor de VPN ainda terá acesso ao seu endereço IP real, às informações do site de destino e, muitas vezes, a uma trilha de dinheiro que pode ser vinculada diretamente a você. As políticas de "não registro" são apenas uma promessa; se precisar de segurança total da rede em si, considere o uso do [Tor](../advanced/tor-overview.md), além ou invés de uma VPN.
 
 Você também não deve confiar em uma VPN para proteger sua conexão com um destino HTTP não criptografado. Para manter realmente privado e seguro o que você faz nos sites que visita, você precisa utilizar HTTPS. Isso manterá suas senhas, tokens de sessão e consultas protegidas do provedor de VPN e de outros adversários em potencial entre o servidor VPN e seu destino. Você deve ativar o modo somente-HTTPS em seu navegador (se for compatível) para atenuar os ataques que tentam fazer downgrade de sua conexão de HTTPS para HTTP.
 
