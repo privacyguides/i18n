@@ -1,21 +1,21 @@
 ---
-title: Give Credit Where Credit Is Due
-description: To succeed with our movement to defend privacy rights, we must support each other. One good way to do this is to give credit where credit is due.
+title: Dar Crédito a quien se lo merece
+description: Para tener éxito con nuestro movimiento en defensa de los derechos de privacidad, debemos apoyarnos mutuamente. Una buena forma de hacerlo es no olvidar nunca dar crédito a quien se lo merece.
 icon: fontawesome/solid/thumbs-up
 cover: activism/banner-toolbox-tip-credit.webp
 ---
 
-To succeed in our battle, we must **support each other**. One good way to accomplish this is to never forget to give credit where credit is due. Cuando otro defensor u organización diga algo con lo que estés de acuerdo, dale ánimos, difunde su mensaje y dale las gracias públicamente.
+Para tener éxito en nuestra batalla, debemos **apoyarnos mutuamente**. Una buena forma de hacerlo es no olvidar nunca dar crédito a quien se lo merece. Cuando otro defensor u organización diga algo con lo que estés de acuerdo, dale ánimos, difunde su mensaje y dale las gracias públicamente.
 
-Here are a few ways you can help your allies feel seen and valued:
+He aquí algunas formas de ayudar a tus aliados a sentirse vistos y valorados:
 
-## Why crediting people and organization is important
+## Por qué es importante acreditar a las personas y a la organización
 
 Giving credit to the right person or organization isn't only the ethical thing to do, it's also a way to **build alliances**, to bring more people to the cause, and to retain the allies you already have.
 
-When people feel valued, they are usually inclined to work harder. People are also more likely to stick around places where they feel seen and appreciated. This is incredibly important for our movement.
+When people feel valued, they are usually inclined to work harder. People are also more likely to stick around places where they feel seen and appreciated. Esto es increíblemente importante para nuestro movimiento.
 
-When giving credit to organizations, you are also making a whole team feel valued. Organizations are made of people, after all. Caring about the people who work hard at your allied organizations is fundamental to build our movement.
+Al dar crédito a las organizaciones, también estás haciendo que todo un equipo se sienta valorado. Al fin y al cabo, las organizaciones están formadas por personas. Preocuparse por las personas que trabajan duro en sus organizaciones aliadas es fundamental para construir nuestro movimiento.
 
 ## Ways to credit your allies in your advocacy work
 
