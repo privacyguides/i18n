@@ -2,7 +2,7 @@
 meta_title: "Şifrelenmiş Gizli E-posta Önerileri - Privacy Guides"
 title: E-posta Hizmetleri
 icon: material/email
-description: These email providers offer a great place to store your emails securely, and many offer interoperable OpenPGP encryption with other providers.
+description: Bu e-posta sağlayıcıları e-postalarınızı güvenle saklamak için harika bir yer sunar ve pek çoğu diğer sağlayıcılarla uyumlu olan OpenPGP şifrelemesini sağlar.
 cover: email.webp
 global:
   - 
@@ -12,7 +12,7 @@ global:
 
 <small>Aşağıdaki tehdit(ler)e karşı koruma sağlar:</small>
 
-- [:material-server-network: Service Providers](basics/common-threats.md#privacy-from-service-providers ""){.pg-teal}
+- [:material-server-network: Hizmet Sağlayıcıları](basics/common-threats.md#privacy-from-service-providers ""){.pg-teal}
 
 E-posta, herhangi bir çevrimiçi hizmeti kullanmak için pratikte bir gerekliliktir, ancak bireysel görüşmeler için e-posta kullanılmasını önermiyoruz. Rather than using email to contact other people, consider using an instant messaging medium that supports forward secrecy.
 

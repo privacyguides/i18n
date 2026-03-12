@@ -7,7 +7,7 @@ cover: email-clients.webp
 
 <small>Aşağıdaki tehdit(ler)e karşı koruma sağlar:</small>
 
-- [:material-server-network: Hizmet Sunucular](basics/common-threats.md#privacy-from-service-providers ""){.pg-teal}
+- [:material-server-network: Hizmet Sunucuları](basics/common-threats.md#privacy-from-service-providers ""){.pg-teal}
 - [:material-target-account: Hedefli Saldırılar](basics/common-threats.md#attacks-against-specific-individuals ""){.pg-red}
 
 Önerdiğimiz **e-posta istemcileri** hem [OpenPGP'yi](encryption.md#openpgp) hem de [Açık Kimlik Doğrulamayı (OAuth)](basics/account-creation.md#sign-in-with-oauth) destekler. OAuth, hesap çalınmalarına karşı [Çok Aşamalı Kimlik Doğrulaması](basics/multi-factor-authentication.md) kullanmanıza olanak tanır.
