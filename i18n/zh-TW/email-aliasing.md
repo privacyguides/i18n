@@ -80,7 +80,7 @@ cover: email-aliasing.webp
 
 您可以建立無限個標準別名（以 `@[使用者名稱].addy.io` 結尾）或於付費方案中使用自訂網域。 付費帳戶可建立無數的標準別名如尾綴為 @[username]. 或是自定域名。不過如前面提過，標準別名電郵並不利於隱私，因為只依據域名就可以簡單地把別名綁定起來。 當共用網域名服務封鎖此功能時，它就派得上用場了。
 
-Securitum 於2023年9月完成對 Addy.io 的[稽核](https://addy.io/blog/addy-io-passes-independent-security-audit)，[已確認](https://addy.io/addy-io-security-audit.pdf)並未發現任何重大漏洞。
+Securitum 於 2023 年 9 月完成對 Addy.io 的[稽核](https://addy.io/blog/addy-io-passes-independent-security-audit)，[已確認](https://addy.io/addy-io-security-audit.pdf)並未發現任何重大漏洞。
 
 值得注意的免費功能：
 

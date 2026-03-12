@@ -45,7 +45,7 @@ cover: multi-factor-authentication.webp
 
 </div>
 
-若搭配線上帳號使用，Ente Auth 的伺服器端原始碼與基礎架構已於2025年10月接受 [Cure53](https://ente.io/blog/cern-audit) 的安全稽核。
+若搭配線上帳號使用，Ente Auth 的伺服器端原始碼與基礎架構已於 2025 年 10 月接受 [Cure53](https://ente.io/blog/cern-audit) 的安全稽核。
 
 ## Aegis Authenticator (Android)
 

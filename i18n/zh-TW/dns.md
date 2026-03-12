@@ -134,7 +134,7 @@ NextDNS 也透過 `https://dns.nextdns.io` 提供公開的 DoH 服務，並於 `
 
 **DNSCrypt-Proxy** 是支援 [DNSCrypt](advanced/dns-overview.md#dnscrypt)、[DoH](advanced/dns-overview.md#dns-over-https-doh) 與 [匿名化 DNS](https://github.com/DNSCrypt/dnscrypt-proxy/wiki/Anonymized-DNS) 的 DNS 代理伺服器。
 
-[:octicons-repo-16: 倉庫](https://github.com/DNSCrypt/dnscrypt-proxy#readme){ .md-button .md-button--primary }
+[:octicons-repo-16: 儲存庫](https://github.com/DNSCrypt/dnscrypt-proxy#readme){ .md-button .md-button--primary }
 [:octicons-info-16:](https://github.com/DNSCrypt/dnscrypt-proxy/wiki){ .card-link title="文件" }
 [:octicons-code-16:](https://github.com/DNSCrypt/dnscrypt-proxy){ .card-link title="原始碼" }
 [:octicons-heart-16:](https://opencollective.com/dnscrypt/contribute){ .card-link title="貢獻" }
@@ -173,7 +173,7 @@ Anonymized DNS [不會](advanced/dns-overview.md#why-shouldnt-i-use-encrypted-dn
     - 如腳註所述，部分服務供應商會為安全研究等目的蒐集查詢資訊，但在此類情況下，該資料不得與任何個人識別資訊（如 IP 位址等）產生關聯。
 - 應支援[任播](https://en.wikipedia.org/wiki/Anycast)或 geo-steering。
 
-[^1]: AdGuard 儲存其 DNS 伺服器的總和效能指標，即對特定伺服器的全部請求數量、被封鎖的請求數量，以及處理請求的速度。 他們亦會保留並儲存過去24小時內被查詢的網域名稱資料庫。
+[^1]: AdGuard 儲存其 DNS 伺服器的總和效能指標，即對特定伺服器的全部請求數量、被封鎖的請求數量，以及處理請求的速度。 他們亦會保留並儲存過去 24 小時內被查詢的網域名稱資料庫。
 
     > 我們需要這些資訊來辨識並封鎖新的追蹤器與威脅。 我們也記錄了這些追蹤器被封鎖的次數。 我們需要此資訊以從我們的過濾條件中移除過時的規則。
 

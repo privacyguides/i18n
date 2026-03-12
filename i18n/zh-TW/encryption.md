@@ -148,7 +148,7 @@ Pro and higher editions also support the more secure pre-boot [TPM+PIN](https://
 
 **LUKS** 是 Linux 預設 FDE 方法。 它可用於加密整個磁區、分割區或建立加密容器。
 
-[:octicons-repo-16: 倉庫](https://gitlab.com/cryptsetup/cryptsetup#what-the-){ .md-button .md-button--primary }
+[:octicons-repo-16: 儲存庫](https://gitlab.com/cryptsetup/cryptsetup#what-the-){ .md-button .md-button--primary }
 [:octicons-info-16:](https://gitlab.com/cryptsetup/cryptsetup/-/wikis/home){ .card-link title="文件" }
 [:octicons-code-16:](https://gitlab.com/cryptsetup/cryptsetup){ .card-link title="原始碼" }
 

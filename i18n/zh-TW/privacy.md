@@ -5,7 +5,7 @@ description: 我們不會將您的資料出售或分享給任何第三方。
 
 ## 什麼是 Privacy Guides？
 
-Privacy Guides 是由許多活動的貢獻者運作的社群專案。 團隊成員的公開清單[可在我們的論壇上找到](https://discuss.privacyguides.net/u?group=team&order=solutions&period=all)。 Privacy Guides 由 [MAGIC Grants](https://magicgrants.org) 依法管理，該機構為 501(c)(3) 公共慈善組織，擔任我們的財政託管方。
+Privacy Guides 是由許多活躍的貢獻者運作的社群專案。 團隊成員的公開清單[可在我們的論壇上找到](https://discuss.privacyguides.net/u?group=team&order=solutions&period=all)。 Privacy Guides 由 [MAGIC Grants](https://magicgrants.org) 依法管理，該機構為 501(c)(3) 公共慈善組織，擔任我們的財政託管方。
 
 作為一個專案，我們向公眾提供：
 
