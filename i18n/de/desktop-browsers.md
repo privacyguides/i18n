@@ -169,23 +169,23 @@ Suchvorschläge senden alles, was du in die Adressleiste eingibst, an die Standa
 
 - [x] Wählen Sie **Streng** für den verbesserten Schutz vor Aktivitätenverfolgung
 
-Dies schützt dich, indem Social-Media-Tracker, Fingerprinting-Skripte (beachte, dass es dies kein Schutz vor *allen* Fingerprinting-Methoden bietet), Kryptominer, Cross-Site-Tracking-Cookies und weitere Tracking-Inhalte blockiert werden. ETP protects against many common threats, but it does not block all tracking avenues because it is designed to have minimal to no impact on site usability.
+Dies schützt dich, indem Social-Media-Tracker, Fingerprinting-Skripte (beachte, dass es dies kein Schutz vor *allen* Fingerprinting-Methoden bietet), Kryptominer, Cross-Site-Tracking-Cookies und weitere Tracking-Inhalte blockiert werden. ETP schützt gegen viele übliche Bedrohungen, es blockiert aber nicht alle Tracker, da es eine minimale Auswirkung auf Seitennutzbarkeit haben soll.
 
 ##### Cookies und Website-Daten
 
-If you want to stay logged in to particular sites, you can allow exceptions in **Cookies and Site Data** → **Manage Exceptions...**
+Wenn du auf manchen Seiten eingeloggt bleiben willst, kannst du Ausnahmen in **Cookies und Website-Daten** → **Ausnahmen verwalten...**
 
 - [x] Wähle **Cookies und Website-Daten beim Beenden von Firefox löschen**
 
-This protects you from persistent cookies, but does not protect you against cookies acquired during any one browsing session. When this is enabled, it becomes possible to easily cleanse your browser cookies by simply restarting Firefox. You can set exceptions on a per-site basis, if you wish to stay logged in to a particular site you visit often.
+Dies schützt dich gegen anhaltende Cookies, aber es schützt dich nicht gegen Cookies, die während jener Browsing-Session erhalten wurden. When this is enabled, it becomes possible to easily cleanse your browser cookies by simply restarting Firefox. You can set exceptions on a per-site basis, if you wish to stay logged in to a particular site you visit often.
 
 ##### Telemetrie
 
-- [ ] Uncheck **Send technical and interaction data to Mozilla**
-- [ ] Uncheck **Allow personalized extension recommendations**
-- [ ] Uncheck **Install and run studies**
+- [ ] Deaktiviere **Daten zu technischen Details und Interaktionen an Mozilla senden**
+- [ ] Deaktiviere **Personalisierte Erweiterungsempfehlungen erlauben**
+- [ ] **Studien installieren und durchführen**
 - [ ] Uncheck **Send daily usage ping to Mozilla**
-- [ ] Uncheck **Automatically send crash reports**
+- [ ] Deaktiviere **Absturzberichte automatisch senden**
 
 Laut Mozillas Datenschutzrichtlinie für Firefox,
 
@@ -198,7 +198,7 @@ Außerdem sammelt der Mozilla-Konten-Dienst [einige technische Daten](https://mo
 
 ##### Werbeeinstellungen für Websites
 
-- [ ] Uncheck **Allow websites to perform privacy-preserving ad measurement**
+- [ ] Deaktiviere **Websites anweisen, meine Daten nicht zu verkaufen oder weiterzugeben**
 
 With the release of Firefox 128, a new setting for [privacy-preserving attribution](https://support.mozilla.org/kb/privacy-preserving-attribution) (PPA) has been added and [enabled by default](https://blog.privacyguides.org/2024/07/14/mozilla-disappoints-us-yet-again-2). PPA allows advertisers to use your web browser to measure the effectiveness of web campaigns, instead of using traditional JavaScript-based tracking. We consider this behavior to be outside the scope of a user agent's responsibilities, and the fact that it is disabled by default in Arkenfox is an additional indicator for disabling this feature.
 
@@ -349,7 +349,7 @@ Wir empfehlen die Deaktivierung von Suchvorschlägen in Brave aus demselben Grun
 
 <div class="annotate" markdown>
 
-- [ ] Uncheck **Continue running background apps when Brave is closed** to disable background apps (1)
+
 
 </div>
 
@@ -361,7 +361,7 @@ Wir empfehlen die Deaktivierung von Suchvorschlägen in Brave aus demselben Grun
 
 #### Brave Rewards und Wallet
 
-**Brave Rewards** lets you receive Basic Attention Token (BAT) cryptocurrency for performing certain actions within Brave. It relies on a custodial account and KYC from a select number of providers. We do not recommend BAT as a [private cryptocurrency](cryptocurrency.md), nor do we recommend using a [custodial wallet](advanced/payments.md#wallet-custody), so we would discourage using this feature.
+**Brave Rewards** lets you receive Basic Attention Token (BAT) cryptocurrency for performing certain actions within Brave. It relies on a custodial account and KYC from a select number of providers. Wir empfehlen BAT nicht als [private Kryptowährung](cryptocurrency.md), ebenfalls empfehlen wir nicht ein [Custodial Wallet](advanced/payments.md#wallet-verwahrung) zu benutzen, also entmutigen wir die Nutzung dieser Funktion.
 
 **Brave Wallet** funktioniert lokal auf deinem Computer, unterstützt aber keine privaten Kryptowährungen, weshalb wir auch von dieser Funktion abraten würden.
 
