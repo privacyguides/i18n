@@ -139,7 +139,7 @@ Apple Mail 具備在背景載入遠端內容或完全封鎖遠端內容的功能
 
 <div class="admonition recommendation" markdown>
 
-![Evolution 標誌](assets/img/email-clients/evolution.svg){ align=right }
+![Evolution 圖示](assets/img/email-clients/evolution.svg){ align=right }
 
 **Evolution** 是一款個人資訊管理應用程式，提供整合式郵件、行事曆與通訊錄功能。 Evolution 有大量的[說明文件](https://gnome.pages.gitlab.gnome.org/evolution/help)協助您開始使用。
 
