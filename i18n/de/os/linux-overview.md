@@ -1,26 +1,26 @@
 ---
-title: Linux Overview
+title: Linux Übersicht
 icon: simple/linux
-description: Linux is an open-source, privacy-focused desktop operating system alternative, but not all distribitions are created equal.
+description: Linux ist eine quelloffene, privatsphärenorientierte Desktopbetriebssystem-Alternative, aber nicht alle Distributionen sind gleich.
 ---
 
-**Linux** ist eine Open-Source-Alternative für Desktop-Betriebssysteme, bei der die Privatsphäre im Vordergrund steht. In the face of pervasive telemetry and other privacy-encroaching technologies in mainstream operating systems, desktop Linux has remained the clear choice for people looking for total control over their computers from the ground up.
+**Linux** ist eine Open-Source-Alternative für Desktop-Betriebssysteme, bei der die Privatsphäre im Vordergrund steht. Mit Telemetrie und privatsphäreneindringende Technologien in den meistbenutzten Betriebssystemen, ist Linux eine klare Wahl für Leute die absolute Kontrolle über ihren Computer haben wollen.
 
 Auf unserer Website wird der Begriff "Linux" im Allgemeinen zur Beschreibung von **Desktop** Linux-Distributionen verwendet. Andere Betriebssysteme, die ebenfalls den Linux-Kernel verwenden, wie ChromeOS, Android und Qubes OS, werden auf dieser Seite nicht behandelt.
 
 [Unsere Linux-Empfehlungen :material-arrow-right-drop-circle:](../desktop.md ""){.md-button}
 
-## Security Notes
+## Sicherheitsbemerkungen
 
-There are some notable security concerns with Linux which you should be aware of. Trotz dieser Nachteile sind Desktop-Linux-Distributionen immer noch großartig für die meisten Menschen, die:
+Hier sind paar bemerkenswerte Sicherheitsanliegen bei Linux, auf die du aufmerksam voll sein solltest. Trotz dieser Nachteile sind Desktop-Linux-Distributionen immer noch großartig für die meisten Menschen, die:
 
 - Telemetrie vermeiden wollen, die oft mit proprietären Betriebssystemen einhergeht
-- Maintain [software freedom](https://gnu.org/philosophy/free-sw.en.html#four-freedoms)
-- Use privacy-focused systems such as [Whonix](../desktop.md#whonix) or [Tails](../desktop.md#tails)
+- [Softwarefreiheit](https://gnu.org/philosophy/free-sw.en.html#four-freedoms) erhalten
+- Benutze ein privatsphärenorientiertes System wie [Whonix](../desktop.md#whonix) oder [Tails](../desktop.md#tails)
 
-### Open-Source Security
+### Quelloffene Sicherheit
 
-It is a [common misconception](../basics/common-misconceptions.md#open-source-software-is-always-secure-or-proprietary-software-is-more-secure) that Linux and other open-source software are inherently secure simply because the source code is available. There is an expectation that community verification occurs regularly, but this isn’t always [the case](https://seirdy.one/posts/2022/02/02/floss-security).
+Ein [üblicher Irrtum](../basics/common-misconceptions.md#open-source-software-is-always-secure-or-proprietary-software-is-more-secure) ist das Linux und andere quelloffene Software sicher sind nur weil sie quelloffen sind. Es gibt die Erwartung das oft in der Gemeinschaft verifiziert wird, aber das ist [nicht immer der Fall](https://seirdy.one/posts/2022/02/02/floss-security).
 
 Tatsächlich hängt die Sicherheit einer Distribution von einer Reihe von Faktoren ab, wie z. B. der Projektaktivität, der Erfahrung der Entwickler, der Sorgfalt, mit der Code-Reviews durchgeführt werden, und der Häufigkeit, mit der bestimmte Teile der Codebase überprüft werden, die möglicherweise jahrelang unangetastet bleiben.
 
@@ -30,13 +30,13 @@ Zurzeit bleibt Desktop-Linux bei [bestimmten Sicherheitsfunktionen hinter Altern
 
 - **Verified Boot** unter Linux ist nicht so robust wie Alternativen wie Apples [Secure Boot](https://support.apple.com/guide/security/secac71d5623/web) oder Androids [Verified Boot](https://source.android.com/security/verifiedboot). Verified Boot verhindert anhaltende Manipulationen durch Malware und [evil maid-Angriffe](https://en.wikipedia.org/wiki/Evil_Maid_attack), ist aber selbst bei den [fortschrittlichsten Distributionen größtenteils noch nicht verfügbar](https://discussion.fedoraproject.org/t/has-silverblue-achieved-verified-boot/27251/3).
 
-- **Strong sandboxing** for apps on Linux is severely lacking, even with containerized apps like Flatpaks or sandboxing solutions like Firejail. Flatpak is the most promising sandboxing utility for Linux thus far, but is still deficient in many areas and allows for [unsafe defaults](https://flatkill.org/2020) which permit most apps to trivially bypass their sandbox.
+- **Starkes Sandboxen** für Apps gibt es auf Linux nicht, auch mit containerisierte Apps wie Flatpaks oder Sandboxlösungen wie Firejail. Derzeit ist Flatpak einer der vielversprächsten Sandboxlösungen auf Linux. Aber es ist noch mangelhaft in vielen Aspekten und hat [unsichere Einstellungen](https://flatkill.org/2020), die erlauben, dass Apps ihre Sandbox entkommen.
 
-Additionally, Linux falls behind in implementing [exploit mitigations](https://madaidans-insecurities.github.io/linux.html#exploit-mitigations) which are now standard on other operating systems, such as Arbitrary Code Guard on Windows or Hardened Runtime on macOS. Also, most Linux programs and Linux itself are coded in memory-unsafe languages. Memory corruption bugs are responsible for the [majority of vulnerabilities](https://msrc.microsoft.com/blog/2019/07/a-proactive-approach-to-more-secure-code) fixed and assigned a CVE. While this is also true for Windows and macOS, they are quickly making progress on adopting memory-safe languages such as Rust and Swift, respectively.
+Zusätzlich liegt Linux hinter der Implementation von [Gefahrenverminderungen](https://madaidans-insecurities.github.io/linux.html#exploit-mitigations) die Standard auf anderen Betriebssystem sind, wie z.B. Exploitschutz auf Windows oder Hardened Runtime auf MacOS. Ebenfalls sind viele Linux Programme sowie Linux selber in speicherunsicheren Sprachen geschrieben. Speicherbeschädigungs Bugs sind für den [großteil der Sicherheitslücken](https://msrc.microsoft.com/blog/2019/07/a-proactive-approach-to-more-secure-code) verantwortlich. Während das auch auf Windows und MacOS wajr ist, machen sie schnellen Fortschritt in der Übernehmung von speichersicheren Programmieresprachen wie Rust und Swift.
 
-## Choosing your distribution
+## Deine Distribution wählen
 
-Not all Linux distributions are created equal. Our [Linux recommendation page](../desktop.md) is not meant to be an authoritative source on which distribution you should use, but our recommendations *are* aligned with the following guidelines. These are a few things you should keep in mind when choosing a distribution:
+Nicht alle Linux Distributionen sind gleich. Our [Linux recommendation page](../desktop.md) is not meant to be an authoritative source on which distribution you should use, but our recommendations *are* aligned with the following guidelines. These are a few things you should keep in mind when choosing a distribution:
 
 ### Release cycle
 
