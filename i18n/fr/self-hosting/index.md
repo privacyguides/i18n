@@ -172,9 +172,9 @@ Si vous vous sentez capable d'auto-héberger des logiciels après avoir lu leur 
 
   ---
 
-  [:octicons-home-16:](https://ente.io){ .card-link title="Page d'Accueil" }
-  [:octicons-info-16:](https://help.ente.io/self-hosting){ .card-link title="Documentation Admin" }
-  [:octicons-code-16:](https://github.com/ente-io/ente){ .card-link title="Code Source" }
+  [:octicons-home-16:](https://ente.com){ .card-link title="Homepage" }
+  [:octicons-info-16:](https://ente.com/help/self-hosting/){ .card-link title="Admin Documentation" }
+  [:octicons-code-16:](https://github.com/ente-io/ente){ .card-link title="Source Code" }
 
 - ![Logo de CryptPad](../assets/img/document-collaboration/cryptpad.svg){ .twemoji } [**CryptPad**](../document-collaboration.md#cryptpad)
 

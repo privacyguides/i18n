@@ -28,10 +28,9 @@ cover: multi-factor-authentication.webp
 
 **Ente Auth** 是一個自由且開放原始碼的應用程式，可儲存私鑰並產生 TOTP 一次性密碼。 它可與線上帳戶一起使用，以安全、端對端加密的方式備份和同步您各個裝置上的 令牌 (token)，並透過網頁介面存取。 它也可在單一設備上離線使用，無需帳戶。
 
-[:octicons-home-16: 首頁](https://ente.io/auth){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://ente.io/privacy){ .card-link title="隱私權政策" }
-[:octicons-info-16:](https://help.ente.io/auth){ .card-link title="文件" }
-[:octicons-code-16:](https://github.com/ente-io/ente/tree/main/auth#readme){ .card-link title="原始碼" }
+[:octicons-home-16: Homepage](https://ente.com/auth){ .md-button .[:octicons-eye-16:](https://ente.com/privacy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://ente.com/help/auth){ .card-link title="Documentation" }
+[:octicons-code-16:](https://github.com/ente-io/ente/tree/main/auth#readme){ .card-link title="Source Code" }
 
 <details class="downloads" markdown>
 <summary>下載</summary>
@@ -45,7 +44,7 @@ cover: multi-factor-authentication.webp
 
 </div>
 
-若搭配線上帳號使用，Ente Auth 的伺服器端原始碼與基礎架構已於 2025 年 10 月接受 [Cure53](https://ente.io/blog/cern-audit) 的安全稽核。
+The server-side source code and infrastructure which underpins Ente Auth (if used with an online account) underwent an audit by [Cure53](https://ente.com/blog/cern-audit) in October 2025.
 
 ## Aegis Authenticator (Android)
 

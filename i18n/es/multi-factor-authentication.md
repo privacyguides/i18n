@@ -28,10 +28,9 @@ Recomendamos encarecidamente que utilice aplicaciones TOTP para móviles en luga
 
 **Ente Auth** es una aplicación gratuita y de código abierto que almacena y genera tokens TOTP. Se puede utilizar con una cuenta en línea para realizar copias de seguridad y sincronizar sus tokens en todos sus dispositivos (y acceder a ellos a través de una interfaz web) de forma segura y cifrada de extremo a extremo. También se puede utilizar sin conexión a Internet en un único dispositivo sin la necesidad de una cuenta.
 
-[:octicons-home-16: Página Principal](https://ente.io/auth){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://ente.io/privacy){ .card-link title="Política de Privacidad" }
-[:octicons-info-16:](https://help.ente.io/auth){ .card-link title="Documentación" }
-[:octicons-code-16:](https://github.com/ente-io/ente/tree/main/auth#readme){ .card-link title="Código Fuente" }
+[:octicons-home-16: Homepage](https://ente.com/auth){ .md-button .[:octicons-eye-16:](https://ente.com/privacy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://ente.com/help/auth){ .card-link title="Documentation" }
+[:octicons-code-16:](https://github.com/ente-io/ente/tree/main/auth#readme){ .card-link title="Source Code" }
 
 <details class="downloads" markdown>
 <summary>Downloads "Descargas"</summary>
@@ -45,7 +44,7 @@ Recomendamos encarecidamente que utilice aplicaciones TOTP para móviles en luga
 
 </div>
 
-El código fuente del servidor y la infraestructura en la que se basa Ente Auth (si se utiliza con una cuenta en línea) se sometieron a una auditoría por parte de [Cure53](https://ente.io/blog/cern-audit) en octubre de 2025.
+The server-side source code and infrastructure which underpins Ente Auth (if used with an online account) underwent an audit by [Cure53](https://ente.com/blog/cern-audit) in October 2025.
 
 ## Aegis Authenticator (Android)
 

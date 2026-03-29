@@ -22,10 +22,10 @@ cover: photo-management.webp
 
 免費方案要求您每年至少要使用該服務一次，該方案提供 10 GB 儲存空間。
 
-[:octicons-home-16: 首頁](https://ente.io){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://ente.io/privacy){ .card-link title="隱私權政策" }
-[:octicons-info-16:](https://ente.io/faq){ .card-link title="文件" }
-[:octicons-code-16:](https://github.com/ente-io/ente){ .card-link title="原始碼" }
+[:octicons-home-16: Homepage](https://ente.com){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://ente.com/privacy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://ente.com/faq){ .card-link title="Documentation" }
+[:octicons-code-16:](https://github.com/ente-io/ente){ .card-link title="Source Code" }
 
 <details class="downloads" markdown>
 <summary>下載</summary>
@@ -33,17 +33,17 @@ cover: photo-management.webp
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=io.ente.photos)
 - [:simple-appstore: App Store](https://apps.apple.com/app/id1542026904)
 - [:simple-github: GitHub](https://github.com/ente-io/ente/releases?q=photos)
-- [:simple-android: Android](https://ente.io/download)
-- [:fontawesome-brands-windows: Windows](https://ente.io/download)
-- [:simple-apple: macOS](https://ente.io/download)
-- [:simple-linux: Linux](https://ente.io/download)
+- [:simple-android: Android](https://ente.com/download)
+- [:fontawesome-brands-windows: Windows](https://ente.com/download)
+- [:simple-apple: macOS](https://ente.com/download)
+- [:simple-linux: Linux](https://ente.com/download)
 - [:octicons-browser-16: 網頁](https://web.ente.io)
 
 </details>
 
 </div>
 
-Ente Photos 的伺服器端原始碼與基礎設施於2025年10月接受 [Cure53](https://ente.io/blog/cern-audit) 的稽核。 先前的稽核分別由 [Cure53](https://ente.io/blog/cryptography-audit) 於2023年3月完成，以及由 [Fallible](https://ente.io/reports/Fallible-Audit-Report-19-04-2023.pdf) 於2023年4月完成。
+The server-side source code and infrastructure which underpins Ente Photos underwent an audit by [Cure53](https://ente.com/blog/cern-audit) in October 2025. Previous audits were completed by [Cure53](https://ente.com/blog/cryptography-audit) in March 2023 and by [Fallible](https://ente.com/reports/Fallible-Audit-Report-19-04-2023.pdf) in April 2023.
 
 ## 標準
 

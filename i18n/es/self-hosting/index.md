@@ -172,9 +172,9 @@ Las recomendaciones de herramientas en otras categorías del sitio web también 
 
   ---
 
-  [:octicons-home-16:](https://ente.io){ .card-link title="Página Principal" }
-  [:octicons-info-16:](https://help.ente.io/self-hosting){ .card-link title="Documentación de Administrador" }
-  [:octicons-code-16:](https://github.com/ente-io/ente){ .card-link title="Código Fuente" }
+  [:octicons-home-16:](https://ente.com){ .card-link title="Homepage" }
+  [:octicons-info-16:](https://ente.com/help/self-hosting/){ .card-link title="Admin Documentation" }
+  [:octicons-code-16:](https://github.com/ente-io/ente){ .card-link title="Source Code" }
 
 - ![CryptPad logo](../assets/img/document-collaboration/cryptpad.svg){ .twemoji } [**CryptPad**](../document-collaboration.md#cryptpad)
 

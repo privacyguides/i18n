@@ -22,10 +22,10 @@ La majorité des **gestionnaires de photos** comme Google Photo, Flickr et Amazo
 
 Le plan gratuit offre 10 Go de stockage à condition que vous utilisiez le service au moins une fois par an.
 
-[:octicons-home-16: Page d'Accueil](https://ente.io){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://ente.io/privacy){ .card-link title="Politque de Confidentialité" }
-[:octicons-info-16:](https://ente.io/faq){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/ente-io/ente){ .card-link title="Code Source" }
+[:octicons-home-16: Homepage](https://ente.com){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://ente.com/privacy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://ente.com/faq){ .card-link title="Documentation" }
+[:octicons-code-16:](https://github.com/ente-io/ente){ .card-link title="Source Code" }
 
 <details class="downloads" markdown>
 <summary>Télécharger</summary>
@@ -33,17 +33,17 @@ Le plan gratuit offre 10 Go de stockage à condition que vous utilisiez le servi
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=io.ente.photos)
 - [:simple-appstore: App Store](https://apps.apple.com/app/id1542026904)
 - [:simple-github: GitHub](https://github.com/ente-io/ente/releases?q=photos)
-- [:simple-android: Android](https://ente.io/download)
-- [:fontawesome-brands-windows: Windows](https://ente.io/download)
-- [:simple-apple: macOS](https://ente.io/download)
-- [:simple-linux: Linux](https://ente.io/download)
+- [:simple-android: Android](https://ente.com/download)
+- [:fontawesome-brands-windows: Windows](https://ente.com/download)
+- [:simple-apple: macOS](https://ente.com/download)
+- [:simple-linux: Linux](https://ente.com/download)
 - [:octicons-browser-16: Web](https://web.ente.io)
 
 </details>
 
 </div>
 
-Le code source côté serveur et l'infrastructure qui sous-tendent Ente Photos ont été audité par [Cure53](https://ente.io/blog/cern-audit) en octobre 2025. Précédemment, des audits ont été mené par [Cure53](https://ente.io/blog/cryptography-audit) en mars 2023 et par [Fallible](https://ente.io/reports/Fallible-Audit-Report-19-04-2023.pdf) en avril 2023.
+The server-side source code and infrastructure which underpins Ente Photos underwent an audit by [Cure53](https://ente.com/blog/cern-audit) in October 2025. Previous audits were completed by [Cure53](https://ente.com/blog/cryptography-audit) in March 2023 and by [Fallible](https://ente.com/reports/Fallible-Audit-Report-19-04-2023.pdf) in April 2023.
 
 ## Critères
 
