@@ -61,6 +61,25 @@ cover: health.webp
 
 </div>
 
+### Apple Health
+
+<div class="admonition recommendation" markdown>
+
+![Apple 標誌](assets/img/health-and-wellness/apple-health.webp#only-light){ align=right }![Apple 標誌](assets/img/health-and-wellness/apple-health-dark.webp#only-dark){ align=right }
+
+Apple Health is one of the default apps installed on iOS devices. It includes many health and wellness features (see [Health Records](#apple-health-records)), including menstrual cycle tracking. It also uses gender-neutral language. Apple Health always uses end-to-end encryption when syncing across multiple devices.
+
+[:octicons-home-16: 首頁](https://apple.com/health){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://apple.com/legal/privacy/consumer-health-personal-data/en-ww){ .card-link title="隱私權政策" }
+
+<details class="downloads" markdown><summary>下載</summary>
+
+- [:simple-appstore: App Store](https://apps.apple.com/app/apple-health/id1242545199)
+
+</details>
+
+</div>
+
 ## 健身追蹤器
 
 這些通用型應用程式能完成各種任務，從計步、睡眠追蹤到心跳測量皆可勝任。
@@ -118,7 +137,7 @@ Gadgetbridge 應用程式功能包含但不限於：計步、睡眠追蹤、心�
 
 ![Apple 標誌](assets/img/health-and-wellness/apple-health.webp#only-light){ align=right }![Apple 標誌](assets/img/health-and-wellness/apple-health-dark.webp#only-dark){ align=right }
 
-**Apple 健康記錄**是 [Apple 健康](https://apple.com/health)內建的功能，可讓您檢視、儲存與分享您的健康記錄。 其與 [Apple 健身](#apple-fitness)共享安全與隱私功能。
+**Apple Health Records** is a built-in feature within [Apple Health](#apple-health) that allows you to view, store, and share your health records.
 
 [:octicons-home-16: 首頁](https://apple.com/health){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://apple.com/legal/privacy/consumer-health-personal-data/en-ww){ .card-link title="隱私權政策" }

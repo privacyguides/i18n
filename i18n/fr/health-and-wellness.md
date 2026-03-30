@@ -61,6 +61,25 @@ Les traqueurs menstruels populaires tels que [Flo](https://techcrunch.com/2021/0
 
 </div>
 
+### Apple Health
+
+<div class="admonition recommendation" markdown>
+
+![Logo de Apple](assets/img/health-and-wellness/apple-health.webp#only-light){ align=right }![Apple logo](assets/img/health-and-wellness/apple-health-dark.webp#only-dark){ align=right }
+
+Apple Health is one of the default apps installed on iOS devices. It includes many health and wellness features (see [Health Records](#apple-health-records)), including menstrual cycle tracking. It also uses gender-neutral language. Apple Health always uses end-to-end encryption when syncing across multiple devices.
+
+[:octicons-home-16: Page d'Accueil](https://apple.com/health){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://apple.com/legal/privacy/consumer-health-personal-data/en-ww){ .card-link title="Politique de Confidentialité" }
+
+<details class="downloads" markdown><summary>Téléchargements</summary>
+
+- [:simple-appstore: App Store](https://apps.apple.com/app/apple-health/id1242545199)
+
+</details>
+
+</div>
+
 ## Application de suivis de fitness
 
 Ces applications génériques possèdent de nombreuses fonctionnalités, du comptage de pas au suivi de sommeil, en passant par la mesure du rythme cardiaque.
@@ -118,7 +137,7 @@ Ces applications vous permettent de collecter et de gérer vos données personne
 
 ![Logo de Apple](assets/img/health-and-wellness/apple-health.webp#only-light){ align=right }![Apple logo](assets/img/health-and-wellness/apple-health-dark.webp#only-dark){ align=right }
 
-**Le dossier de santé de Apple** est une fonctionnalité intégrée à [Apple Santé](https://apple.com/health) qui vous permet de consulter, stocker et partager vos documents de santé. Elle partage le même niveau de sécurité et de confidentialité que [Apple Fitness](#apple-fitness).
+**Apple Health Records** is a built-in feature within [Apple Health](#apple-health) that allows you to view, store, and share your health records.
 
 [:octicons-home-16: Page d'Accueil](https://apple.com/health){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://apple.com/legal/privacy/consumer-health-personal-data/en-ww){ .card-link title="Politique de Confidentialité" }
