@@ -177,7 +177,7 @@ Wenn du auf manchen Seiten eingeloggt bleiben willst, kannst du Ausnahmen in **C
 
 - [x] Wähle **Cookies und Website-Daten beim Beenden von Firefox löschen**
 
-Dies schützt dich gegen anhaltende Cookies, aber es schützt dich nicht gegen Cookies, die während jener Browsing-Session erhalten wurden. When this is enabled, it becomes possible to easily cleanse your browser cookies by simply restarting Firefox. You can set exceptions on a per-site basis, if you wish to stay logged in to a particular site you visit often.
+Dies schützt dich gegen anhaltende Cookies, aber es schützt dich nicht gegen Cookies, die während jener Browsing-Session erhalten wurden. Wenn diese Funktion aktiviert ist, kannst du deine Browser-Cookies durch einen einfachen Neustart von Firefox löschen. You can set exceptions on a per-site basis, if you wish to stay logged in to a particular site you visit often.
 
 ##### Telemetrie
 
