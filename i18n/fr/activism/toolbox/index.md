@@ -1,20 +1,20 @@
 ---
-title: "Boîte à outils de l'activiste de la vie privée"
-description: The Privacy Activist Toolbox is a unique resource with tips for anyone interested in becoming a better privacy rights activist, or anyone who wants to start.
+title: "Boîte à outils du militant de la protection de la vie privée"
+description: La boîte à outils du militant de la protection de la vie privée est une ressource unique qui propose des conseils à toute personne souhaitant devenir un meilleur militant de la protection de la vie privée, ou à toute personne souhaitant commencer.
 hide:
-  - feedback
+  - retour d'expérience
 cover: activism/banner-activism-toolbox.webp
 ---
 
-The **Privacy Activist Toolbox** is a resource for anyone interested in becoming a better privacy rights activist, or anyone who wants to start advocating for privacy rights.
+La **boîte à outils de l'activiste de la protection de la vie privée** est une ressource pour tous ceux qui souhaitent devenir un meilleur défenseur des droits à la vie privée, ou toute personne désireuse de plaider pour le respect de la vie privée.
 
-This page is also a resource to help digital rights organizations that would like to expand their work focusing on privacy.
+Cette page est également une ressource pour aider les organisations de droits numériques qui voudraient élargir leur travail en se concentrant sur la protection de la vie privée.
 
-:material-cursor-default-click: By clicking on any of the tips listed on this page, you can access more information on each topic, as well as additional resources to support your advocacy.
+:material-cursor-default-click: En cliquant sur l'un des conseils énumérés sur cette page, vous pouvez accéder à de plus amples informations sur chaque sujet, ainsi qu'à des ressources supplémentaires pour soutenir votre plaidoyer.
 
 ---
 
-## Toolbox Compartments
+## Compartiments de la boîte à outils
 
 <div class="toolbox-button-grid" markdown>
 
@@ -40,16 +40,16 @@ This page is also a resource to help digital rights organizations that would lik
 
 ---
 
-## Check Your Laws
+## Vérifiez vos lois
 
 <a href="tip-know-your-privacy-laws/">
 <div class="toolbox-tip-card toolbox-border-legal" markdown>
 
-### 1. Know your privacy laws
+### 1. Connaître les lois sur la protection de la vie privée
 
 ![Scale icon](../../assets/img/activism/icons/icon-tips/icon-tips-laws.webp){class="toolbox-tip-icon"}
 
-Being well-informed about the data protection regulations in your own jurisdiction can be a significant asset for your personal and collective battles to improve privacy, for yourself and for others. Learn more about what to look for when researching your local privacy laws.
+Être bien informé des règles de protection des données dans votre propre juridiction peut être un atout important pour vos batailles personnelles et collectives pour améliorer la vie privée, pour vous et pour les autres. Apprenez-en plus sur ce qu'il faut chercher lorsque vous faites des recherches sur les lois locales sur la protection de la vie privée.
 
 Learn More :material-arrow-right-drop-circle:
 {align=right}
