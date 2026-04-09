@@ -1,5 +1,5 @@
 ---
-title: "Privacy Activist Toolbox"
+title: "Boîte à outils de l'activiste de la vie privée"
 description: The Privacy Activist Toolbox is a unique resource with tips for anyone interested in becoming a better privacy rights activist, or anyone who wants to start.
 hide:
   - feedback
