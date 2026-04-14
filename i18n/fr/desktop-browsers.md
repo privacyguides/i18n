@@ -97,11 +97,11 @@ Toute modification autre que le réglage de ce paramètre rendrait votre emprein
 
 ### Système anti-capture d'empreintes numériques
 
-**Without** using a [VPN](vpn.md), Mullvad Browser provides protections against [naive fingerprinting scripts](https://github.com/arkenfox/user.js/wiki/3.3-Overrides-%5BTo-RFP-or-Not%5D#-fingerprinting) similar to other private browsers like Firefox+[Arkenfox](#arkenfox-advanced) or [Brave](#brave). Le Navigateur Mullvad fournit ces protections dès le départ, au détriment d'une certaine flexibilité et d'une commodité que d'autres navigateurs privés peuvent offrir.
+**Sans** utiliser de [VPN](vpn.md), Mullvad Browser protège contre [les scripts rudimentaires de reconnaissance d'empreintes numériques ](https://github.com/arkenfox/user.js/wiki/3.3-Overrides-%5BTo-RFP-or-Not%5D#-fingerprinting) de la même façon que Firefox+[Arkenfox](#arkenfox-advanced) ou [Brave](#brave). Le Navigateur Mullvad fournit ces protections dès le départ, au détriment d'une certaine flexibilité et d'une commodité que d'autres navigateurs privés peuvent offrir.
 
 ==Pour une protection anti-capture d'empreintes numériques optimale, nous recommandons d'utiliser le Navigateur Mullvad en conjonction **avec** un VPN==, qu'il s'agisse de Mullvad ou d'un autre fournisseur de VPN recommandé. Lorsque vous utilisez un VPN avec le Navigateur Mullvad, vous partagez une empreinte numérique et un ensemble d'adresses IP avec de nombreux autres utilisateurs, ce qui vous permet de vous fondre dans la "foule". Cette stratégie est le seul moyen de contrecarrer les scripts de pistage avancés, et c'est la même technique anti-capture d'empreintes numériques utilisée par le Navigateur Tor.
 
-Note that while you can use Mullvad Browser with any VPN provider, other people on that VPN must also be using Mullvad Browser for this "crowd" to exist, something which is more likely on Mullvad VPN compared to other providers. Le Navigateur Mullvad ne dispose pas d'une connectivité VPN intégrée et ne vérifie pas non plus si vous utilisez un VPN avant de naviguer ; votre connexion VPN doit être configurée et gérée séparément.
+Bien qu'il soit possible d'utiliser Mullvad Browser avec n'importe quel service VPN, les autres utilisateurs sur ce VPN doivent aussi utiliser Mullvad Browser pour que la "foule" existe, ce qui est plus probable avec Mullvad VPN qu'avec d'autres fournisseurs. Le Navigateur Mullvad ne dispose pas d'une connectivité VPN intégrée et ne vérifie pas non plus si vous utilisez un VPN avant de naviguer ; votre connexion VPN doit être configurée et gérée séparément.
 
 Le Navigateur Mullvad est livré avec les extensions *uBlock Origin* et *NoScript* préinstallées. Bien que nous découragions généralement l'ajout d'[extensions de navigateur](browser-extensions.md), celles qui sont préinstallées avec le navigateur **ne** doivent **pas** être supprimées ou configurées en dehors de leurs valeurs par défaut, car cela rendrait votre empreinte numérique distincte de celle des autres utilisateurs du navigateur Mullvad. Il est également préinstallé avec l'extension de navigateur Mullvad, qui *peut* être supprimée en toute sécurité sans impact sur l'empreinte numérique de votre navigateur si vous le souhaitez, mais qui peut également être conservée en toute sécurité même si vous n'utilisez pas le VPN Mullvad.
 
@@ -181,11 +181,11 @@ Cela vous protège contre les cookies persistants, mais ne vous protège pas con
 
 ##### Télémétrie
 
-- [ ] Uncheck **Send technical and interaction data to Mozilla**
-- [ ] Uncheck **Allow personalized extension recommendations**
-- [ ] Uncheck **Install and run studies**
-- [ ] Uncheck **Send daily usage ping to Mozilla**
-- [ ] Uncheck **Automatically send crash reports**
+- [ ] Décochez **Envoyer les données techniques et interactives à Mozilla**
+- [ ] Décochez **Autoriser les recommandations d'extensions personnalisées**
+- [ ] Décochez **Installer et exécuter des études**
+- [ ] Décochez **Envoyer un ping d'utilisation quotidien à Mozilla**
+- [ ] Décochez **Envoyer automatiquement les rapports de crash**
 
 Selon la politique de confidentialité de Mozilla pour Firefox,
 
@@ -225,11 +225,11 @@ Protection maximale impose l'utilisation de DNS via HTTPS, et un avertissement d
 <div class="admonition tip" markdown>
 <p class="admonition-title">Utilisez le Navigateur Mullvad pour une protection avancée contre les empreintes numérique</p>
 
-Le [Navigateur Mullvad](#mullvad-browser) offre d'emblée des protections anti-fingerprinting plus fortes que Firefox, et ne nécessite pas l'utilisation du VPN de Mullvad pour bénéficier de ces protections. Couplé à un VPN, le Navigateur Mullvad peut déjouer des scripts de pistage plus avancés qu'Arkenfox ne peut le faire. Firefox still has the advantage of being much more flexible, and allowing per-site exceptions for websites which you need to stay logged in to.
+Le [Navigateur Mullvad](#mullvad-browser) offre d'emblée des protections anti-fingerprinting plus fortes que Firefox, et ne nécessite pas l'utilisation du VPN de Mullvad pour bénéficier de ces protections. Couplé à un VPN, le Navigateur Mullvad peut déjouer des scripts de pistage plus avancés qu'Arkenfox ne peut le faire. Firefox garde quand même l'avantage d'être beaucoup plus flexible, vous permettant de définir des exceptions pour chaque site auxquels vous avez besoin de rester connecté.
 
 </div>
 
-Le [projet Arkenfox](https://github.com/arkenfox/user.js) propose un ensemble d'options soigneusement étudiées pour Firefox. If you [decide](https://github.com/arkenfox/user.js/wiki/1.1-To-Arkenfox-or-Not) to use Arkenfox, a [few options](https://github.com/arkenfox/user.js/wiki/3.2-Overrides-%5BCommon%5D) are subjectively strict and/or may cause some websites to not work properly—which you can [easily change](https://github.com/arkenfox/user.js/wiki/3.1-Overrides) to suit your needs. Nous vous **recommandons vivement** de lire l'intégralité de leur [wiki](https://github.com/arkenfox/user.js/wiki). Arkenfox permet également la prise en charge des [conteneurs](https://support.mozilla.org/kb/containers#w_for-advanced-users).
+Le [projet Arkenfox](https://github.com/arkenfox/user.js) propose un ensemble d'options soigneusement étudiées pour Firefox. Si vous [décidez](https://github.com/arkenfox/user.js/wiki/1.1-To-Arkenfox-or-Not) d'utiliser Arkenfox, [certaines options](https://github.com/arkenfox/user.js/wiki/3.2-Overrides-%5BCommon%5D) sont subjectivement strictes et/ou peuvent amener certains sites à ne pas fonctionner correctement, vous pouvez les [modifier facilement](https://github.com/arkenfox/user.js/wiki/3.1-Overrides) selon vos besoins. Nous vous **recommandons vivement** de lire l'intégralité de leur [wiki](https://github.com/arkenfox/user.js/wiki). Arkenfox permet également la prise en charge des [conteneurs](https://support.mozilla.org/kb/containers#w_for-advanced-users).
 
 Arkenfox vise uniquement à contrecarrer les scripts de pistage basiques ou naïfs grâce aux paramètres de configuration de randomisation du canevas et de la résistance aux empreintes numérique intégrée à Firefox. Il ne vise pas à faire en sorte que votre navigateur se fonde dans une foule d'autres utilisateurs d'Arkenfox, comme le font le Navigateur Mullvad ou le Navigateur Tor, ce qui est le seul moyen de contrecarrer les scripts avancés de pistage des empreintes numérique. Pour rappel, vous pouvez toujours utiliser plusieurs navigateurs internet. Par exemple, vous pourriez utiliser Firefox+Arkenfox pour les sites sur lesquels vous voudriez rester connecté ou en lesquels vous avez confiance, et utiliser Mullvad Browser pour la navigation standard.
 
