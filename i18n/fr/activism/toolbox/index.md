@@ -353,7 +353,7 @@ Pour en savoir plus :material-arrow-right-drop-circle:{align=right}
 
 ![Symbole de coeur avec un bouclier](../../assets/img/activism/icons/icon-tips/icon-tips-protect.webp){class="toolbox-tip-icon"}
 
-Lors de votre travail autour de la vie privée, soyez attentif à ne jamais collecter ou partager les données de autres sans leur consentement explicite. It's crucial to protect your allies' data in all that you do, whether that's individual action or organizational leadership. Learn more about safeguarding the data of your privacy comrades.
+Lors de votre travail autour de la vie privée, soyez attentif à ne jamais collecter ou partager les données de autres sans leur consentement explicite. Il est crucial de protéger les données de vos alliés dans tout ce que vos faites, que ce soit des actions individuelles ou collectives. En savoir plus sur la protection des données de vos camarades.
 
 Pour en savoir plus :material-arrow-right-drop-circle:{align=right}
 
@@ -362,16 +362,16 @@ Pour en savoir plus :material-arrow-right-drop-circle:{align=right}
 
 <button class="toolbox-button-top">[Retour au début :material-toolbox:](#toolbox-compartments)</button> <br>
 
-## Stay Persistent
+## Soyez persévérant
 
 <a href="tip-small-actions-matter">
 <div class="toolbox-tip-card toolbox-border-persistence" markdown>
 
-### 1. Small actions matter
+### 1. Les petites actions comptent.
 
-![Puzzle piece icon](../../assets/img/activism/icons/icon-tips/icon-tips-small.webp){class="toolbox-tip-icon"}
+![Symbole de pièce de puzzle](../../assets/img/activism/icons/icon-tips/icon-tips-small.webp){class="toolbox-tip-icon"}
 
-There is so much to do in the movement for better privacy rights. So much, that it's sometimes easy to feel discouraged when facing the scale of what's left to accomplish. But everything helps, and even the smallest action counts. Learn more about why every action and every victory matters, no matter how small.
+Il y a beaucoup à faire dans le mouvement pour des meilleurs droits pour la protection de la vie privée. So much, that it's sometimes easy to feel discouraged when facing the scale of what's left to accomplish. But everything helps, and even the smallest action counts. Learn more about why every action and every victory matters, no matter how small.
 
 Pour en savoir plus :material-arrow-right-drop-circle:{align=right}
 
