@@ -5,7 +5,7 @@ icon: fontawesome/solid/globe
 cover: activism/banner-toolbox-tip-landscape.webp
 ---
 
-Privacy isn't just about the tools, the laws, or the practices of any individual or organization. It's about _all_ of that. To move our society in a place where everyone benefits from privacy by default, we must consider technologies, laws, and culture holistically.
+La protection de la vie privée ne se limite pas à l'utilisation d'outils spécifiques, aux lois ou aux pratiques individuelles ou collectives. It's about _all_ of that. Pour faire advenir une société où chacun et chacune peut bénéficier de la confidentialité par défaut, nous devons considérer les technologies, les lois et les cultures de façon systémique.
 
 Here's how to get better at **considering the whole landscape**:
 

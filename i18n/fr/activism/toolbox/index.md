@@ -110,7 +110,7 @@ Pour en savoir plus :material-arrow-right-drop-circle:{align=right}
 
 ![Symbole d'octagone](../../assets/img/activism/icons/icon-tips/icon-tips-plant.webp){class="toolbox-tip-icon"}
 
-Commercial social media platforms represent one of the biggest sources of data exploitation. By staying active on these platforms we continue to feed the beast, and indirectly support their invasion of our privacy rights. En savoir plus sur comment minimiser votre présence sur ces plateformes et construire petit à petit de meilleurs réseaux sociaux.
+Les plateformes commerciales de réseaux sociaux représentes une des plus grosse source d'exploitation des données. En restant actif sur ces plateformes, nous continuons à nourrir la bête, et nous soutenons indirectement la façon dont ils envahissent notre vie privée. En savoir plus sur comment minimiser votre présence sur ces plateformes et construire petit à petit de meilleurs réseaux sociaux.
 
 Pour en savoir plus :material-arrow-right-drop-circle:{align=right}
 
@@ -119,16 +119,16 @@ Pour en savoir plus :material-arrow-right-drop-circle:{align=right}
 
 <button class="toolbox-button-top">[Retour au début :material-toolbox:](#toolbox-compartments)</button> <br>
 
-## Expand Your Perspective
+## Étendez vos perpectives
 
 <a href="tip-dont-stop-at-individual-solutions">
 <div class="toolbox-tip-card toolbox-border-perspective" markdown>
 
-### 1. Don't stop at individual solutions, consider the collective impact
+### 1. Ne vous arrêtez pas à des solutions individuelles, intéressez vous à des actions collectives.
 
-![People with radiating lines icon](../../assets/img/activism/icons/icon-tips/icon-tips-expand.webp){class="toolbox-tip-icon"}
+![Symbole de personnes avec des rayons](../../assets/img/activism/icons/icon-tips/icon-tips-expand.webp){class="toolbox-tip-icon"}
 
-When we think about our privacy, we often focus on the technical tools we can use. While this is indeed an important component, it's crucial not to lose sight of how regulations and invasive practices impact us collectively. Learn more about how to expand your perspective on data privacy.
+Lorsque nous pensons à notre vie privée, nous nous concentrons souvent sur les outils techniques que nous pouvons utiliser. Bien que cela soit en effet une composante importante, il est essentiel de ne pas perdre de vue la façon dont les régulations et les pratiques invasives nous impactent collectivement. En savoir plus sur comment étendre vos perspectives sur la protection des données.
 
 Pour en savoir plus :material-arrow-right-drop-circle:{align=right}
 
@@ -138,25 +138,25 @@ Pour en savoir plus :material-arrow-right-drop-circle:{align=right}
 <a href="tip-keep-in-mind-the-whole-landscape">
 <div class="toolbox-tip-card toolbox-border-perspective" markdown>
 
-### 2. Keep in mind the whole landscape
+### 2. Gardez à l'esprit tout le paysage
 
-![Globe icon](../../assets/img/activism/icons/icon-tips/icon-tips-landscape.webp){class="toolbox-tip-icon"}
+![Symbole de la Terre](../../assets/img/activism/icons/icon-tips/icon-tips-landscape.webp){class="toolbox-tip-icon"}
 
-Privacy isn't just about the tools, the laws, or the practices of any individual or organization. To move our society in a place where everyone benefits from privacy by default, we must consider technologies, laws, and culture holistically. Learn more about remembering to consider the whole landscape.
+La protection de la vie privée ne se limite pas à l'utilisation d'outils spécifiques, aux lois ou aux pratiques individuelles ou collectives. Pour faire advenir une société où chacun et chacune peut bénéficier de la confidentialité par défaut, nous devons considérer les technologies, les lois et les cultures de façon systémique. En savoir plus sur comment garder à l'esprit la vision globale.
 
 Pour en savoir plus :material-arrow-right-drop-circle:{align=right}
 
 </div>
 </a>
 
-<a href="tip-consider-everyones-unique-situation">
-<div class="toolbox-tip-card toolbox-border-perspective" markdown>
+<0>
+<1>
 
-### 3. Consider everyone's unique situation
+### 3. Gardez à l'esprit la situation unique de chaque individu
 
-![People with line over and under icon](../../assets/img/activism/icons/icon-tips/icon-tips-everyone.webp){class="toolbox-tip-icon"}
+![Symbole de personnes avec des lignes au dessus et en dessous](../../assets/img/activism/icons/icon-tips/icon-tips-everyone.webp){class="toolbox-tip-icon"}
 
-Everyone has different needs and faces different dangers when their personal data is exposed. To give actionable privacy advice and recommendations, it's essential to keep in mind everyone's unique situation. Learn more about better evaluating each person's threat model.
+Chaque personne a des besoins différents et fait face à des dangers spécifiques lorsque ses données personnelles sont exposées. Pour donner des conseils et des recommandations concrètes, il est essentiel de garder à l'esprit les situations spécifiques à chacun. En savoir plus sur comment mieux évaluer des modèles de menace specifiques à chacun.
 
 Pour en savoir plus :material-arrow-right-drop-circle:{align=right}
 
@@ -165,16 +165,16 @@ Pour en savoir plus :material-arrow-right-drop-circle:{align=right}
 
 <button class="toolbox-button-top">[Retour au début :material-toolbox:](#toolbox-compartments)</button> <br>
 
-## Support The Community
+## Soutenir la communauté
 
 <a href="tip-lift-your-allies-up">
 <div class="toolbox-tip-card toolbox-border-community" markdown>
 
-### 1. Lift your allies up
+### 1. Encouragez vos alliés
 
-![Two hands icon](../../assets/img/activism/icons/icon-tips/icon-tips-lift.webp){class="toolbox-tip-icon"}
+![Symbole de deux mains](../../assets/img/activism/icons/icon-tips/icon-tips-lift.webp){class="toolbox-tip-icon"}
 
-At times, it might feel like the privacy community is niche and isolated. The battle for privacy rights is difficult, and its defenders are often scattered. This is why it's essential that we support and uplift each other at every opportunity. Learn more about how to lift your allies up and grow the movement.
+Parfois, on peut avoir l'impression que la communauté de la protection de la vie privée est niche ou isolée. Le combat pour les droits de protection de la vie privée est difficile, et ses militants souvent éparpillés. C'est pour cela qu'il est essentiel de nous soutenir et de nous encourager chaque fois que cela est possible. En savoir plus sur comment encourager vos alliés et faire grandir le mouvement.
 
 Pour en savoir plus :material-arrow-right-drop-circle:{align=right}
 
@@ -184,11 +184,11 @@ Pour en savoir plus :material-arrow-right-drop-circle:{align=right}
 <a href="tip-support-your-privacy-comrades">
 <div class="toolbox-tip-card toolbox-border-community" markdown>
 
-### 2. Support your privacy comrades
+### 2. Soutenez vos camarades
 
-![Hand holding a heart icon](../../assets/img/activism/icons/icon-tips/icon-tips-support.webp){class="toolbox-tip-icon"}
+![Symbole de main tenant un cœur](../../assets/img/activism/icons/icon-tips/icon-tips-support.webp){class="toolbox-tip-icon"}
 
-Fighting for privacy rights is a collective endeavor. You cannot do it alone. Anyone around you contributing is fighting the same battle by your side. This battle can be difficult and isolating at time. This is why it's critical to care for each other. Learn more about how you can support your privacy comrades.
+Se battre pour de meilleurs droits est une entreprise collective. Vous n'y arriverez pas seul. Chaque personne autour de vous qui contribue se bat à vos côtés. Ce combat peut être difficile et peut parfois conduire à de l'isolement. C'est pourquoi il est nécessaire de prendre soin les uns des autres. En savoir plus sur comment soutenir vos camarades de lutte pour la protection de la vie privée.
 
 Pour en savoir plus :material-arrow-right-drop-circle:{align=right}
 
@@ -197,11 +197,11 @@ Pour en savoir plus :material-arrow-right-drop-circle:{align=right}
 <a href="tip-be-kind-to-people-but-be-relentless-with-institutions">
 <div class="toolbox-tip-card toolbox-border-community" markdown>
 
-### 3. Be kind to people, but be relentless with institutions
+### 3. Soyez bienveillant avec les autres mais sans merci pour les institutions
 
-![Two hands holding a sphere icon](../../assets/img/activism/icons/icon-tips/icon-tips-kind.webp){class="toolbox-tip-icon"}
+![Symbole de deux mains tenant une sphère](../../assets/img/activism/icons/icon-tips/icon-tips-kind.webp){class="toolbox-tip-icon"}
 
-Kindness is essential for privacy advocates. To grow our movement, we must meet people from a place of camaraderie. People don't change their mind by being berated. However, this isn't true for institutions. Learn more about how to integrate kindness in your work, while being relentless with institutions.
+La compassion est essentielle pour les militants de la protection de la vie privée. Pour faire grandir le mouvement, nous devons aller vers les gens dans un esprit de camaraderie. Les gens ne changent pas d'avis en se faisant réprimander. Cependant, ceci ne s'applique pas aux institutions. En savoir plus sur comment être bienveillant dans votre militantisme tout en étant implacable avec les institutions.
 
 Pour en savoir plus :material-arrow-right-drop-circle:{align=right}
 
@@ -210,16 +210,16 @@ Pour en savoir plus :material-arrow-right-drop-circle:{align=right}
 
 <button class="toolbox-button-top">[Retour au début :material-toolbox:](#toolbox-compartments)</button> <br>
 
-## Build Alliances
+## Construire des alliances
 
 <a href="tip-start-alliances-not-wars">
 <div class="toolbox-tip-card toolbox-border-alliances" markdown>
 
-### 1. Start alliances, not wars
+### 1. Créez des alliances, pas des guerres
 
-![handshake icon](../../assets/img/activism/icons/icon-tips/icon-tips-alliances.webp){class="toolbox-tip-icon"}
+![Symbole de serrage de main](../../assets/img/activism/icons/icon-tips/icon-tips-alliances.webp){class="toolbox-tip-icon"}
 
-The privacy community consists of a patchwork of individuals and organizations that sometimes hold quite different views. When these divergences lead to infighting, we need to ask how these internal wars are impacting our community negatively. Learn more about how to start alliances instead of wars.
+La communauté de la défense de la vie privée est constituée d'une myriade d'individus et d'organisations qui ne partagent pas toujours les mêmes point de vue. Lorsque ces divergences mènent à des luttes internes, nous devons nous demander comment celle-ci impactent notre communauté. En savoir plus sur comment construire des alliances plutôt que des guerres.
 
 Pour en savoir plus :material-arrow-right-drop-circle:{align=right}
 
@@ -229,11 +229,11 @@ Pour en savoir plus :material-arrow-right-drop-circle:{align=right}
 <a href="tip-value-allies-with-complementary-expertise">
 <div class="toolbox-tip-card toolbox-border-alliances" markdown>
 
-### 2. Value allies with expertise complementary to yours
+### 2. Valorisez les alliés avec une expérience complémentaire à la votre
 
-![Sphere with half dark half light icon](../../assets/img/activism/icons/icon-tips/icon-tips-complement.webp){class="toolbox-tip-icon"}
+![Symbole d'une sphère à moité noire et à moitié blanche](../../assets/img/activism/icons/icon-tips/icon-tips-complement.webp){class="toolbox-tip-icon"}
 
-In privacy, like everywhere else, diversity is a strength. If you want your community to have a broad understanding of threat models, and be able to fight on multiple levels, you need to value a diversity of expertises. Learn more about recognizing, respecting, and retaining experts with skills different to yours.
+En terme de protection de la vie privée, comme partout ailleurs, la diversité est une force. Si vous voulez que votre communauté possède une large compréhension des modèles de menaces, et soit capable de batailler sur plusieurs fronts, vous devez valoriser la diversité des expertises. En savoir plus sur la reconnaissance, le respect et la collaboration avec des experts qui ont des compétences différentes des votre.
 
 Pour en savoir plus :material-arrow-right-drop-circle:{align=right}
 
@@ -243,11 +243,11 @@ Pour en savoir plus :material-arrow-right-drop-circle:{align=right}
 <a href="tip-give-credit-where-credit-is-due">
 <div class="toolbox-tip-card toolbox-border-alliances" markdown>
 
-### 3. Give credit where credit is due
+### 3. Rendez à César ce qui appartient à César
 
-![Thumbs up icon](../../assets/img/activism/icons/icon-tips/icon-tips-credit.webp){class="toolbox-tip-icon"}
+![Symbole de pouce en l'air](../../assets/img/activism/icons/icon-tips/icon-tips-credit.webp){class="toolbox-tip-icon"}
 
-To succeed, we must support each other. A good way to do this is to never forget to give credit where credit is due. When another advocate or organization says something you agree with, boost them up, spread their reach, and thank them publicly. Learn more about making your allies feel seen and valued.
+Pour réussir, nous devons nous soutenir mutuellement. Une bonne façon d'y arriver est de reconnaitre et valoriser les actions qui le mérite. Lorsqu'une autre personne ou une autre organisation dit quelque chose avec lequel vous êtes d'accord, soutenez-les, partagez et remerciez-les publiquement. En savoir plus sur comment valoriser et soutenir vos alliés.
 
 Pour en savoir plus :material-arrow-right-drop-circle:{align=right}
 
@@ -256,16 +256,16 @@ Pour en savoir plus :material-arrow-right-drop-circle:{align=right}
 
 <button class="toolbox-button-top">[Retour au début :material-toolbox:](#toolbox-compartments)</button> <br>
 
-## Make It Accessible
+## Travaillez l'accessibilité
 
 <a href="tip-welcome-beginners">
 <div class="toolbox-tip-card toolbox-border-accessibility" markdown>
 
-### 1. Welcome beginners
+### 1. Soyez accueillant avec les débutants
 
-![Person with plus sign icon](../../assets/img/activism/icons/icon-tips/icon-tips-beginner.webp){class="toolbox-tip-icon"}
+![Symbole de personne avec un signe plus](../../assets/img/activism/icons/icon-tips/icon-tips-beginner.webp){class="toolbox-tip-icon"}
 
-For our privacy rights movement to grow, we must bring more people in. To accomplish this, it's fundamental to discuss privacy in ways that are accessible to newcomers who aren't familiar with basic concepts yet. Learn more about improving your advocacy work to make it more approachable to beginners.
+Pour que le mouvement grandisse, nous devons rallier de nouvelles personnes. Dans ce but, il est essentiel d'adapter nos discussions de façon à ce qu'elles soient compréhensibles pour les nouveaux arrivants qui ne sont pas encore au point sur les concepts basiques. En savoir plus sur comment améliorer votre militantisme pour le rendre plus accessible aux débutants.
 
 Pour en savoir plus :material-arrow-right-drop-circle:{align=right}
 
@@ -275,11 +275,11 @@ Pour en savoir plus :material-arrow-right-drop-circle:{align=right}
 <a href="tip-keep-your-posts-and-community-inclusive">
 <div class="toolbox-tip-card toolbox-border-accessibility" markdown>
 
-### 2. Keep your posts and community inclusive
+### 2. Rendez vos postes et votre communauté inclusive
 
-![Heart with plus sign icon](../../assets/img/activism/icons/icon-tips/icon-tips-inclusivity.webp){class="toolbox-tip-icon"}
+![Symbole de cœur avec un signe plus](../../assets/img/activism/icons/icon-tips/icon-tips-inclusivity.webp){class="toolbox-tip-icon"}
 
-Inclusivity is not only the right thing to do, it's also essential to grow our movement. If we want privacy rights to succeed, it's imperative that we build communities where _everyone_ feels safe and welcomed, regardless of who they are. Learn more about keeping your communications and communities inclusive.
+L'inclusivité n'est pas seulement une question d'éthique mais aussi de stratégie. Si nous voulons que le combat pour la protection de la vie privée soit victorieux, il est impératif que _tout le monde_ s'y sente le ou la bienvenue et en sécurité, quelle que soit leur identité. En savoir plus sur comment rendre vos communications et vos communautés plus inclusives.
 
 Pour en savoir plus :material-arrow-right-drop-circle:{align=right}
 
@@ -289,11 +289,11 @@ Pour en savoir plus :material-arrow-right-drop-circle:{align=right}
 <a href="tip-be-mindful-of-accessibility">
 <div class="toolbox-tip-card toolbox-border-accessibility" markdown>
 
-### 3. Be mindful of accessibility
+### 3. Faites attention à l'accessibilité
 
-![Heart with checkmark icon](../../assets/img/activism/icons/icon-tips/icon-tips-accessibility.webp){class="toolbox-tip-icon"}
+![Symbole d'un cœur avec une coche](../../assets/img/activism/icons/icon-tips/icon-tips-accessibility.webp){class="toolbox-tip-icon"}
 
-Accessibility is indispensable to inclusivity, and should always be a priority in our work. To make our privacy communities welcoming to all, accessibility cannot be an afterthought. We must integrate it in our practice from the start. Learn more about improving the accessibility of your privacy work.
+L'accessibilité est une composante essentielle de l'inclusivité et devrait toujours être une priorité dans notre travail. Pour que nos communautés soient accueillantes pour toutes et tous, l'accessibilité ne doit pas être négligée. Nous devons l'intégrer dans nos pratiques dès le début. En savoir plus sur comment améliorer l'accessibilité de votre travail autour de la vie privée.
 
 Pour en savoir plus :material-arrow-right-drop-circle:{align=right}
 
@@ -303,11 +303,11 @@ Pour en savoir plus :material-arrow-right-drop-circle:{align=right}
 <a href="tip-make-it-cute">
 <div class="toolbox-tip-card toolbox-border-accessibility" markdown>
 
-### 4. Make it cute
+### 4. Pensez mignon
 
-![Cat icon](../../assets/img/activism/icons/icon-tips/icon-tips-cute.webp){class="toolbox-tip-icon"}
+![Symbole de chat](../../assets/img/activism/icons/icon-tips/icon-tips-cute.webp){class="toolbox-tip-icon"}
 
-If you are developing a privacy-focused application or website, do not neglect the design aspect of it. This is a common mistake that can have a significant negative impact on adoption by a general audience. Learn more about making your design appealing and accessible to all. Make it cute!
+Lorsque vous développez une application ou un site web autour de la vie privée, ne négligez pas la partie design. C'est une erreur courante qui peut avoir un impact significativement négatif sur l'adoption d'un outil par le grand public. En savoir plus sur comment rendre vos design attrayants et accessible à toustes. Pensez mignon !
 
 Pour en savoir plus :material-arrow-right-drop-circle:{align=right}
 
@@ -316,16 +316,16 @@ Pour en savoir plus :material-arrow-right-drop-circle:{align=right}
 
 <button class="toolbox-button-top">[Retour au début :material-toolbox:](#toolbox-compartments)</button> <br>
 
-## Uphold Integrity
+## Maintenir l'intégrité
 
-<a href="tip-refuse-to-participate">
-<div class="toolbox-tip-card toolbox-border-integrity" markdown>
+<0>
+<1>
 
-### 1. Refuse to participate
+### 1. Refusez de participer
 
-![Circle with x icon](../../assets/img/activism/icons/icon-tips/icon-tips-refuse.webp){class="toolbox-tip-icon"}
+![Symbole d'une croix dans un cercle](../../assets/img/activism/icons/icon-tips/icon-tips-refuse.webp){class="toolbox-tip-icon"}
 
-As privacy advocates and activists, it's important to be a voice for resistance and take a stand against abusive practices. One substantial way to do this is to refuse to participate in privacy-intrusive requests, or use invasive software. Learn more about refusing to comply with privacy-abusive practices.
+En tant que militant et défenseur de la protection de la vie privée, il est important d'exprimer votre désaccord et de vous positionner contre des pratiques abusives. Il est important de refuser des demandes intrusives ou d'utiliser des logiciels intrusifs. En savoir plus sur comment refuser de se soumettre aux pratiques instrusives et abusives.
 
 Pour en savoir plus :material-arrow-right-drop-circle:{align=right}
 
@@ -335,11 +335,11 @@ Pour en savoir plus :material-arrow-right-drop-circle:{align=right}
 <a href="tip-stay-true-to-your-principles">
 <div class="toolbox-tip-card toolbox-border-integrity" markdown>
 
-### 2. Stay true to your principles
+### 2. Restez fidèle à vos principes.
 
-![Star icon](../../assets/img/activism/icons/icon-tips/icon-tips-principles.webp){class="toolbox-tip-icon"}
+![Symbole d'étoile](../../assets/img/activism/icons/icon-tips/icon-tips-principles.webp){class="toolbox-tip-icon"}
 
-If you manage a digital rights group or organization, make sure you aren't subjecting your contributors to the very privacy-invasive tech you're fighting against. Sadly, it's not rare to see communities that aren't following their own advice for internal practices. Learn more about the importance of maintaining integrity _internally_ as well as externally.
+Si vous gérez un groupe ou une organisation défendant les droits numériques, faites en sorte de ne pas faire subir à vos contributeurs les mêmes pratiques intrusives que vous combattez. Malheureusement, ce n'est pas rare de voir des communautés qui ne suivent pas leurs propres conseils concernant leurs pratiques internes. En savoir plus sur l'importance de maintenir une intégrité _intérieure_ également
 
 Pour en savoir plus :material-arrow-right-drop-circle:{align=right}
 
@@ -349,11 +349,11 @@ Pour en savoir plus :material-arrow-right-drop-circle:{align=right}
 <a href="tip-protect-your-allies">
 <div class="toolbox-tip-card toolbox-border-integrity" markdown>
 
-### 3. Protect your allies
+### 3. Protéger vos alliéEs
 
-![Shield with heart icon](../../assets/img/activism/icons/icon-tips/icon-tips-protect.webp){class="toolbox-tip-icon"}
+![Symbole de coeur avec un bouclier](../../assets/img/activism/icons/icon-tips/icon-tips-protect.webp){class="toolbox-tip-icon"}
 
-Through your privacy work, be careful to never collect or share the data of others without their explicit consent. It's crucial to protect your allies' data in all that you do, whether that's individual action or organizational leadership. Learn more about safeguarding the data of your privacy comrades.
+Lors de votre travail autour de la vie privée, soyez attentif à ne jamais collecter ou partager les données de autres sans leur consentement explicite. It's crucial to protect your allies' data in all that you do, whether that's individual action or organizational leadership. Learn more about safeguarding the data of your privacy comrades.
 
 Pour en savoir plus :material-arrow-right-drop-circle:{align=right}
 
