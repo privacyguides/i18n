@@ -274,7 +274,7 @@ Tuta stores your [emails](https://tuta.com/support#what-encrypted), [address boo
 
 ### تكنولوجي
 
-هذه الميزات مهمة لتقديم خدمة تحمي خصوصيتك وتعمل بأفضل شكل ممكن. You should consider whether the provider has the features you require.
+هذه الميزات مهمة لتقديم خدمة تحمي خصوصيتك وتعمل بأفضل شكل ممكن. تأكد أن المزود يقدم الميزات التي تناسب احتياجاتك.
 
 **الحد الأدنى لترشيح الخدمة:**
 
