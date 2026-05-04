@@ -1,16 +1,16 @@
 ---
-title: "Why Privacy Matters"
+title: "গোপনীয়তা কেন গুরুত্বপূর্ণ"
 icon: 'material/shield-account'
-description: In the modern age of digital data exploitation, your privacy has never been more critical, and yet many believe it is already a lost cause. It is not.
+description: ডিজিটাল তথ্যের অপব্যবহারের এই আধুনিক যুগে, আপনার গোপনীয়তা আগের চেয়ে অনেক বেশি গুরুত্বপূর্ণ, তারপরও অনেকেই মনে করেন এটি ইতোমধ্যে হাতছাড়া হয়ে গেছে। কিন্তু তা নয়।
 ---
 
-In the modern age of digital data exploitation, your privacy has never been more critical, and yet many believe it is already a lost cause. It is not. ==Your privacy is up for grabs==, and you need to care about it. Privacy is about power, and it is so important that this power ends up in the right hands.
+ডিজিটাল তথ্যের অপব্যবহারের এই আধুনিক যুগে, আপনার গোপনীয়তা আগের চেয়ে অনেক বেশি গুরুত্বপূর্ণ, তারপরও অনেকেই মনে করেন এটি ইতোমধ্যে হাতছাড়া হয়ে গেছে। কিন্তু তা নয়। ==আপনার গোপনীয়তা এখন সবার নাগালে==, এবং এটা নিয়ে আপনার ভাবা দরকার। গোপনীয়তা আসলে ক্ষমতার ব্যাপার, আর এটা খুবই গুরুত্বপূর্ণ যে এই ক্ষমতা শেষ পর্যন্ত সঠিক মানুষের হাতেই যায়।
 
-Privacy is ultimately about human information, and this is important because we know that human information confers power over human beings. If we care about our ability to be authentic, fulfilled, and free humans, we have to care about the rules that apply to information about us. So much of our modern society is structured around **information**. When you shop online, read the news, look something up, vote, seek directions, or really anything else, you are relying on information. If we live in an information society, our information matters, and therefore privacy matters.
+গোপনীয়তার মূল বিষয়ই হলো মানুষের তথ্য, আর এটা গুরুত্বপূর্ণ কারণ আমরা জানি মানুষের তথ্যই মানুষকে নিয়ন্ত্রণ করার ক্ষমতা দেয়। আমরা যদি সত্যিকারের পরিপূর্ণ ও স্বাধীন মানুষ হিসেবে বাঁচতে চাই, তাহলে আমাদের ব্যক্তিগত তথ্যের ওপর কী নিয়ম প্রযোজ্য হয় সেটা নিয়ে ভাবতেই হবে। আমাদের আধুনিক সমাজের বেশিরভাগ কাঠামোই এখন **তথ্যকে** কেন্দ্র করে গড়ে উঠেছে। অনলাইনে শপিং হোক, খবর পড়া হোক, কোনো কিছু খোঁজা হোক, ভোট দেওয়া হোক, রাস্তা চেনা হোক, আসলে সবকিছুতেই আপনি তথ্যের ওপর ভরসা করছেন। আমরা যদি তথ্যের সমাজে বাস করি, তাহলে আমাদের তথ্য গুরুত্বপূর্ণ আর তাই গোপনীয়তাও গুরুত্বপূর্ণ।
 
-## What is Privacy?
+## গোপনীয়তা আসলে কী?
 
-Many people get the concepts of **privacy**, **security**, and **anonymity** confused. You'll see people criticize various products as "not private" when really they mean it doesn't provide anonymity, for example. On this website, we cover all three of these topics, but it is important you understand the difference between them, and when each one comes into play.
+বেশিরভাগ মানুষই **গোপনীয়তা**, **নিরাপত্তা** এবং **পরিচয় গোপন** রাখার মধ্যে পার্থক্য বুঝতে পারেন না। আপনি দেখবেন, মানুষ বিভিন্ন প্রোডাক্টের সমালোচনা করে বলে "এটা গোপনীয়তা দেয় না" অথচ তারা আসলে বুঝাচ্ছে যে সেটি পরিচয় গোপন রাখতে পারে না। On this website, we cover all three of these topics, but it is important you understand the difference between them, and when each one comes into play.
 
 [:material-movie-open-play-outline: Video: Stop Confusing Privacy, Anonymity, and Security](https://www.privacyguides.org/videos/2025/03/14/stop-confusing-privacy-anonymity-and-security ""){.md-button}
 

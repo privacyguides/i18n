@@ -1,10 +1,10 @@
 ---
-title: "Common Threats"
+title: "সাধারণ ঝুঁকিগুলো"
 icon: 'material/eye-outline'
-description: Your threat model is personal to you, but these are some of the things many visitors to this site care about.
+description: আপনার ঝুঁকির রূপরেখা একান্তই আপনার ব্যক্তিগত বিষয়, তবে এই সাইটের অনেক ব্যবহারকারী যে বিষয়গুলোর প্রতি গুরুত্ব দেন তার কয়েকটির তালিকা এখানে দেওয়া হলো।
 ---
 
-Broadly speaking, we categorize our recommendations into the [threats](threat-modeling.md) or goals that apply to most people. ==You may be concerned with none, one, a few, or all of these possibilities==, and the tools and services you use depend on what your goals are. You may have specific threats outside these categories as well, which is perfectly fine! The important part is developing an understanding of the benefits and shortcomings of the tools you choose to use, because virtually none of them will protect you from every threat.
+সাধারণভাবে বলতে গেলে, আমরা আমাদের পরামর্শগুলোকে এমন সব ঝুঁকি বা লক্ষ্যের ভিত্তিতে শ্রেণীবদ্ধ করি যা বেশিরভাগ মানুষের ক্ষেত্রে প্রযোজ্য। ==You may be concerned with none, one, a few, or all of these possibilities==, and the tools and services you use depend on what your goals are. You may have specific threats outside these categories as well, which is perfectly fine! The important part is developing an understanding of the benefits and shortcomings of the tools you choose to use, because virtually none of them will protect you from every threat.
 
 <span class="pg-purple">:material-incognito: **Anonymity**</span>
 :
