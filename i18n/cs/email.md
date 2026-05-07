@@ -161,8 +161,7 @@ Tarif Proton Mail [Unlimited](https://proton.me/support/proton-plans#proton-unli
 </div>
 
 #### :material-check:{ .pg-green } Vlastní domény a aliasy
-
-Mailbox Mail vám umožňuje používat vlastní doménu a podporuje [catch-all](https://kb.mailbox.org/en/private/custom-domains/how-to-set-up-a-catch-all-alias-with-a-custom-domain-name) adresy. Mailbox Mail také podporuje [sub-adresování](https://kb.mailbox.org/en/private/account-article/what-is-an-alias-and-how-do-i-use-it), což je užitečné pro ty, kteří si nechtějí kupovat doménu.
+z Mailbox Mail lets you use your own domain, and they support [catch-all](https://kb.mailbox.org/en/private/custom-domains/use-your-own-domain-with-catch-all/) addresses. Mailbox Mail also supports [sub-addressing](https://kb.mailbox.org/en/private/e-mail/what-is-an-alias-and-how-do-i-use-it/), which is useful if you don't want to purchase a domain.
 
 #### :material-check:{ .pg-green } Soukromé platební metody
 
@@ -170,29 +169,29 @@ Mailbox Mail nepřijímá žádné kryptoměny, jelikož jejich platební brána
 
 #### :material-check:{ .pg-green } Zabezpečení účtu
 
-Mailbox Mail podporuje [dvoufaktorové ověřování](https://kb.mailbox.org/en/private/account-article/how-to-use-two-factor-authentication-2fa) jen pro svůj webmail. Můžete použít buď TOTP nebo [YubiKey](security-keys.md#yubikey) přes [YubiCloud](https://yubico.com/products/services-software/yubicloud). Webové standardy, jako je např. [WebAuthn](basics/multi-factor-authentication.md#fido-fast-identity-online), nejsou zatím podporovány.
+Mailbox Mail supports [two-factor authentication](https://kb.mailbox.org/en/private/security-and-privacy/how-to-use-two-factor-authentication-2fa/) for their webmail only. Můžete použít buď TOTP nebo [YubiKey](security-keys.md#yubikey) přes [YubiCloud](https://yubico.com/products/services-software/yubicloud). Webové standardy, jako je např. [WebAuthn](basics/multi-factor-authentication.md#fido-fast-identity-online), nejsou zatím podporovány.
 
 #### :material-information-outline:{ .pg-blue } Zabezpečení dat
 
-Mailbox Mail umožňuje šifrování příchozí pošty pomocí jejich [šifrovaných schránek](https://kb.mailbox.org/en/private/e-mail-article/your-encrypted-mailbox). Nové zprávy, které obdržíte, budou automaticky zašifrované pomocí vašeho veřejného klíče.
+Mailbox Mail allows for encryption of incoming mail using their [encrypted mailbox](https://kb.mailbox.org/en/private/encryption/your-encrypted-mailbox/). Nové zprávy, které obdržíte, budou automaticky zašifrované pomocí vašeho veřejného klíče.
 
-[Open-Xchange](https://en.wikipedia.org/wiki/Open-Xchange), softwarová platforma používaná Mailbox Mail, nicméně [nepodporuje](https://kb.mailbox.org/en/private/security-privacy-article/encryption-of-calendar-and-address-book) šifrování vašich kontaktů a kalendáře. Pro tato data může být vhodnější jiná, [oddělená služba](calendar.md).
+However, [Open-Xchange](https://en.wikipedia.org/wiki/Open-Xchange), the software platform used by Mailbox Mail, [does not support](https://kb.mailbox.org/en/business/security-privacy-article/encryption-of-calendar-and-address-book/) the encryption of your address book and calendar. Pro tato data může být vhodnější jiná, [oddělená služba](calendar.md).
 
 #### :material-check:{ .pg-green } Šifrování e-malu
 
-Mailbox Mail má [integrované šifrování](https://kb.mailbox.org/en/private/e-mail-article/send-encrypted-e-mails-with-guard) v jejich webmailu, které zjednodušuje posílání zpráv lidem s veřejnými OpenPGP klíči. Také umožňuje [vzdáleným příjemcům dešifrovat e-mail](https://kb.mailbox.org/en/private/e-mail-article/my-recipient-does-not-use-pgp) na serverech Mailbox Mail. Tato funkce je užitečná v případě, že vzdálený příjemnce nemá OpenPGP a nemůže dešifrovat kopii e-mailu v jeho vlastní schránce.
+Mailbox Mail has [integrated encryption](https://kb.mailbox.org/en/private/encryption/how-can-e-mails-be-encrypted-with-pgp/) in their webmail, which simplifies sending messages to people with public OpenPGP keys. They also allow [remote recipients to decrypt an email](https://kb.mailbox.org/en/private/encryption/my-recipient-does-not-use-pgp/) on Mailbox Mail's servers. Tato funkce je užitečná v případě, že vzdálený příjemnce nemá OpenPGP a nemůže dešifrovat kopii e-mailu v jeho vlastní schránce.
 
 Mailbox Mail také podporuje zjišťování veřejných klíču skrz HTTP z jejich WKD. To umožňuje lidem mimo Mailbox Mail najít OpenPGP klíče Mailbox. org účtů jednoduše pro E2EE mezi různými poskytovateli. To ale platí pouze pro e-mailové adresy ve vlastních doménách Mailbox Mail, jako je např. `@mailbox.org`. Pokud používáte vlastní doménu, je potřeba [nastavit WKD](basics/email-security.md#what-is-the-web-key-directory-standard) zvlášť.
 
 #### :material-information-outline:{ .pg-blue } Ukončení účtu
 
-Váš účet bude nastaven jako omezený, jakmile skončí vaše smlouva. Následně bude nenávratně smazaný po [30 dnech](https://kb.mailbox.org/en/private/payment-article/what-happens-at-the-end-of-my-contract).
+Váš účet bude nastaven jako omezený, jakmile skončí vaše smlouva. It will be irrevocably deleted after [30 days](https://kb.mailbox.org/en/en/private/account/reactivate-a-deleted-account/).
 
 #### :material-information-outline:{ .pg-blue } Dodatečné funkce
 
-Můžete přistupovat ke svému Mailbox Mail účtu pomocí IMAP/SMTP skrz jejich [.onion službu](https://kb.mailbox.org/en/private/faq-article/the-tor-exit-node-of-mailbox-org). Přes .onion službu ale nemůžete přistupovat k jejich webmail rozhraní a může docházet k chybám s TLS certifikátem.
+You can access your Mailbox Mail account via IMAP/SMTP using their [.onion service](https://kb.mailbox.org/en/en/private/security-privacy/using-the-tor-exit-node-from-mailbox/). Přes .onion službu ale nemůžete přistupovat k jejich webmail rozhraní a může docházet k chybám s TLS certifikátem.
 
-Všechny účtu obsahují omezené cloudové úložiště, které [lze šifrovat](https://kb.mailbox.org/en/private/drive-article/encrypt-files-on-your-drive). Mailbox Mail také nabízí alias [@secure.mailbox.org](https://kb.mailbox.org/en/private/e-mail-article/ensuring-e-mails-are-sent-securely), který vynucuje TLS šifrování na spojení mezi poštovními servery, jinak se zpráva vůbec neodešle. Mailbox Mail také podporuje [Exchange ActiveSync](https://en.wikipedia.org/wiki/Exchange_ActiveSync) kromě standardních přístupových protokolů, jako je IMAP nebo POP3.
+All accounts come with limited cloud storage that [can be encrypted](https://kb.mailbox.org/en/private/drive/encrypt-files-on-your-drive/). Mailbox Mail also offers the alias [@secure.mailbox.org](https://kb.mailbox.org/en/business/e-mail-article/ensuring-e-mails-are-sent-securely/), which enforces the TLS encryption on the connection between mail servers, otherwise the message will not be sent at all. Mailbox Mail také podporuje [Exchange ActiveSync](https://en.wikipedia.org/wiki/Exchange_ActiveSync) kromě standardních přístupových protokolů, jako je IMAP nebo POP3.
 
 Mailbox Mail má službu digitálního dědictví ve všech tarifech. Můžete si vybrat, která data budou poskytnuta vašim dědičům v případě, že o ně požádají a poskytnou vaši závěť. Případně můžete určit osobu podle jména a adresy.
 

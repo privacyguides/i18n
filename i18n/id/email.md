@@ -161,8 +161,7 @@ Akun dimulai dengan penyimpanan hingga 2 GB, yang dapat ditingkatkan sesuai kebu
 </div>
 
 #### :material-check:{ .pg-green } Domain dan Alias Khusus
-
-Mailbox Mail memungkinkan Anda menggunakan domain Anda sendiri, dan mereka mendukung alamat [catch-all](https://kb.mailbox.org/en/private/custom-domains/how-to-set-up-a-catch-all-alias-with-a-custom-domain-name). Mailbox Mail juga mendukung [sub-addressing](https://kb.mailbox.org/en/private/account-article/what-is-an-alias-and-how-do-i-use-it), yang berguna jika Anda tidak ingin membeli domain.
+z Mailbox Mail lets you use your own domain, and they support [catch-all](https://kb.mailbox.org/en/private/custom-domains/use-your-own-domain-with-catch-all/) addresses. Mailbox Mail also supports [sub-addressing](https://kb.mailbox.org/en/private/e-mail/what-is-an-alias-and-how-do-i-use-it/), which is useful if you don't want to purchase a domain.
 
 #### :material-check:{ .pg-green } Metode Pembayaran Pribadi
 
@@ -170,29 +169,29 @@ Mailbox Mail tidak menerima mata uang kripto apa pun karena prosesor pembayaran 
 
 #### :material-check:{ .pg-green } Keamanan Akun
 
-MailBox Mail mendukung [two-factor authentication](https://kb.mailbox.org/en/private/account-article/how-to-use-two-factor-authentication-2fa) hanya untuk webmail mereka. Anda dapat menggunakan TOTP atau [YubiKey](security-keys.md#yubikey) melalui [YubiCloud](https://yubico.com/products/services-software/yubicloud). Standar web seperti [WebAuthn](basics/multi-factor-authentication.md#fido-fast-identity-online) belum didukung.
+Mailbox Mail supports [two-factor authentication](https://kb.mailbox.org/en/private/security-and-privacy/how-to-use-two-factor-authentication-2fa/) for their webmail only. Anda dapat menggunakan TOTP atau [YubiKey](security-keys.md#yubikey) melalui [YubiCloud](https://yubico.com/products/services-software/yubicloud). Standar web seperti [WebAuthn](basics/multi-factor-authentication.md#fido-fast-identity-online) belum didukung.
 
 #### :material-information-outline:{ .pg-blue } Keamanan Data
 
-Mailbox Mail memungkinkan enkripsi email masuk menggunakan [encrypted mailbox](https://kb.mailbox.org/en/private/e-mail-article/your-encrypted-mailbox). Pesan baru yang Anda terima akan segera dienkripsi dengan kunci publik Anda.
+Mailbox Mail allows for encryption of incoming mail using their [encrypted mailbox](https://kb.mailbox.org/en/private/encryption/your-encrypted-mailbox/). Pesan baru yang Anda terima akan segera dienkripsi dengan kunci publik Anda.
 
-Namun, [Open-Xchange](https://en.wikipedia.org/wiki/Open-Xchange), platform perangkat lunak yang digunakan oleh Mailbox Mail, [tidak mendukung](https://kb.mailbox.org/en/private/security-privacy-article/encryption-of-calendar-and-address-book) enkripsi buku alamat dan kalender Anda. [Opsi mandiri](calendar.md) mungkin lebih tepat untuk data tersebut.
+However, [Open-Xchange](https://en.wikipedia.org/wiki/Open-Xchange), the software platform used by Mailbox Mail, [does not support](https://kb.mailbox.org/en/business/security-privacy-article/encryption-of-calendar-and-address-book/) the encryption of your address book and calendar. [Opsi mandiri](calendar.md) mungkin lebih tepat untuk data tersebut.
 
 #### :material-check:{ .pg-green } Enkripsi Email
 
-Mailbox Mail telah [mengintegrasikan enkripsi](https://kb.mailbox.org/en/private/e-mail-article/send-encrypted-e-mails-with-guard) di webmail mereka, yang menyederhanakan pengiriman pesan ke orang-orang dengan kunci OpenPGP publik. Mereka juga memungkinkan [penerimaan jarak jauh untuk mendekripsi email](https://kb.mailbox.org/en/private/e-mail-article/my-recipient-does-not-use-pgp) di server Mailbox Mail. Fitur ini berguna ketika penerima jarak jauh tidak memiliki OpenPGP dan tidak dapat mendekripsi salinan email di kotak surat mereka sendiri.
+Mailbox Mail has [integrated encryption](https://kb.mailbox.org/en/private/encryption/how-can-e-mails-be-encrypted-with-pgp/) in their webmail, which simplifies sending messages to people with public OpenPGP keys. They also allow [remote recipients to decrypt an email](https://kb.mailbox.org/en/private/encryption/my-recipient-does-not-use-pgp/) on Mailbox Mail's servers. Fitur ini berguna ketika penerima jarak jauh tidak memiliki OpenPGP dan tidak dapat mendekripsi salinan email di kotak surat mereka sendiri.
 
 Mailbox Mail juga mendukung discovery kunci publik melalui HTTP dari WKD mereka. Hal ini memungkinkan orang di luar Mailbox Mail untuk menemukan kunci OpenPGP dari akun Mailbox Mail dengan mudah untuk E2EE lintas penyedia. Ini hanya berlaku untuk alamat email yang berakhiran dengan salah satu domain Mailbox Mail sendiri, seperti `@mailbox.org`. Jika Anda menggunakan domain khusus, Anda harus [mengonfigurasi WKD](basics/email-security.md#what-is-the-web-key-directory-standard) secara terpisah.
 
 #### :material-information-outline:{ .pg-blue } Penghentian Akun
 
-Akun Anda diatur ke akun pengguna terbatas ketika kontrak Anda berakhir. Data ini akan dihapus secara permanen setelah [30 hari](https://kb.mailbox.org/en/private/payment-article/what-happens-at-the-end-of-my-contract).
+Akun Anda diatur ke akun pengguna terbatas ketika kontrak Anda berakhir. It will be irrevocably deleted after [30 days](https://kb.mailbox.org/en/en/private/account/reactivate-a-deleted-account/).
 
 #### :material-information-outline:{ .pg-blue } Fungsionalitas Tambahan
 
-Anda dapat mengakses akun Mailbox Mail Anda melalui IMAP/SMTP menggunakan layanan [.onion](https://kb.mailbox.org/en/private/faq-article/the-tor-exit-node-of-mailbox-org). Namun, antarmuka webmail mereka tidak dapat diakses melalui layanan .onion mereka, dan Anda mungkin mangalami kesalahan sertifikat TLS.
+You can access your Mailbox Mail account via IMAP/SMTP using their [.onion service](https://kb.mailbox.org/en/en/private/security-privacy/using-the-tor-exit-node-from-mailbox/). Namun, antarmuka webmail mereka tidak dapat diakses melalui layanan .onion mereka, dan Anda mungkin mangalami kesalahan sertifikat TLS.
 
-Semua akun dilengkapi penyimpanan awan terbatas yang [dapat dienkripsi](https://kb.mailbox.org/en/private/drive-article/encrypt-files-on-your-drive). Mailbox Mail juga menawarkan alias [@secure.mailbox.org](https://kb.mailbox.org/en/private/e-mail-article/ensuring-e-mails-are-sent-securely), yang memberlakukan enkripsi TLS pada koneksi antara server email, jika tidak, pesan tidak akan terkirim sama sekali. Mailbox Mail juga mendukung [Exchange ActiveSync](https://en.wikipedia.org/wiki/Exchange_ActiveSync) selain protokol akses standar seperti IMAP dan POP3.
+All accounts come with limited cloud storage that [can be encrypted](https://kb.mailbox.org/en/private/drive/encrypt-files-on-your-drive/). Mailbox Mail also offers the alias [@secure.mailbox.org](https://kb.mailbox.org/en/business/e-mail-article/ensuring-e-mails-are-sent-securely/), which enforces the TLS encryption on the connection between mail servers, otherwise the message will not be sent at all. Mailbox Mail juga mendukung [Exchange ActiveSync](https://en.wikipedia.org/wiki/Exchange_ActiveSync) selain protokol akses standar seperti IMAP dan POP3.
 
 Mailbox Mail memiliki fitur warisan digital untuk semua paket. Anda dapat memilih apakah Anda ingin data Anda diwariskan kepada ahli waris, asalkan mereka mengajukan permohonan dan memberikan surat wasiat Anda. Sebagai alternatif, Anda dapat menominasikan seseorang berdasarkan nama dan alamat.
 

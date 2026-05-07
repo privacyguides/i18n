@@ -161,8 +161,7 @@ Proton Mail також публікує відкриті ключі акаунт
 </div>
 
 #### :material-check:{ .pg-green } Користувацькі домени та псевдоніми
-
-Mailbox Mail дозволяє використовувати власний домен і підтримує [catch-al](https://kb.mailbox.org/en/private/custom-domains/how-to-set-up-a-catch-all-alias-with-a-custom-domain-name) адреси. Mailbox Mail також підтримує [субадресацію](https://kb.mailbox.org/en/private/account-article/what-is-an-alias-and-how-do-i-use-it), що корисно, якщо ви не хочете купувати домен.
+z Mailbox Mail lets you use your own domain, and they support [catch-all](https://kb.mailbox.org/en/private/custom-domains/use-your-own-domain-with-catch-all/) addresses. Mailbox Mail also supports [sub-addressing](https://kb.mailbox.org/en/private/e-mail/what-is-an-alias-and-how-do-i-use-it/), which is useful if you don't want to purchase a domain.
 
 #### :material-check:{ .pg-green } Приватні способи оплати
 
@@ -170,29 +169,29 @@ Mailbox Mail не приймає жодних криптовалют, оскіл
 
 #### :material-check:{ .pg-green } Безпека облікового запису
 
-Mailbox Mail підтримує [двофакторну автентифікацію](https://kb.mailbox.org/en/private/account-article/how-to-use-two-factor-authentication-2fa) лише для своєї вебпошти. Ви можете використовувати TOTP або [YubiKey](security-keys.md#yubikey) через [YubiCloud](https://yubico.com/products/services-software/yubicloud). Вебстандарти, такі як [WebAuthn](basics/multi-factor-authentication.md#fido-fast-identity-online), поки що не підтримуються.
+Mailbox Mail supports [two-factor authentication](https://kb.mailbox.org/en/private/security-and-privacy/how-to-use-two-factor-authentication-2fa/) for their webmail only. Ви можете використовувати TOTP або [YubiKey](security-keys.md#yubikey) через [YubiCloud](https://yubico.com/products/services-software/yubicloud). Вебстандарти, такі як [WebAuthn](basics/multi-factor-authentication.md#fido-fast-identity-online), поки що не підтримуються.
 
 #### :material-information-outline:{ .pg-blue } Безпека даних
 
-Mailbox Mail дозволяє шифрувати вхідну пошту, використовуючи свою [зашифровану поштову скриньку](https://kb.mailbox.org/en/private/e-mail-article/your-encrypted-mailbox). Нові повідомлення, які ви отримуєте, будуть негайно зашифровані вашим публічним ключем.
+Mailbox Mail allows for encryption of incoming mail using their [encrypted mailbox](https://kb.mailbox.org/en/private/encryption/your-encrypted-mailbox/). Нові повідомлення, які ви отримуєте, будуть негайно зашифровані вашим публічним ключем.
 
-Однак [Open-Xchange](https://en.wikipedia.org/wiki/Open-Xchange), програмна платформа, яку використовує Mailbox Mail, [не підтримує](https://kb.mailbox.org/en/private/security-privacy-article/encryption-of-calendar-and-address-book) шифрування вашої адресної книги та календаря. Для цих даних може бути більш доречною [окрема опція](calendar.md).
+However, [Open-Xchange](https://en.wikipedia.org/wiki/Open-Xchange), the software platform used by Mailbox Mail, [does not support](https://kb.mailbox.org/en/business/security-privacy-article/encryption-of-calendar-and-address-book/) the encryption of your address book and calendar. Для цих даних може бути більш доречною [окрема опція](calendar.md).
 
 #### :material-check:{ .pg-green } Шифрування електронної пошти
 
-Mailbox Mail [інтегрував шифрування](https://kb.mailbox.org/en/private/e-mail-article/send-encrypted-e-mails-with-guard) у свою вебпошту, що спрощує надсилання повідомлень людям з відкритими ключами OpenPGP. Сервіс також дозволяє [віддаленим одержувачам розшифровувати електронні](https://kb.mailbox.org/en/private/e-mail-article/my-recipient-does-not-use-pgp) листи на серверах Mailbox. Ця функція корисна, коли віддалений одержувач не має OpenPGP і не може розшифрувати копію листа у власній поштовій скриньці.
+Mailbox Mail has [integrated encryption](https://kb.mailbox.org/en/private/encryption/how-can-e-mails-be-encrypted-with-pgp/) in their webmail, which simplifies sending messages to people with public OpenPGP keys. They also allow [remote recipients to decrypt an email](https://kb.mailbox.org/en/private/encryption/my-recipient-does-not-use-pgp/) on Mailbox Mail's servers. Ця функція корисна, коли віддалений одержувач не має OpenPGP і не може розшифрувати копію листа у власній поштовій скриньці.
 
 Mailbox Mail також підтримує отримання відкритих ключів через HTTP з їх WKD. Це дозволяє людям за межами Mailbox Mail легко знаходити ключі OpenPGP облікових записів Mailbox Mail для інших сервісів E2EE. Це стосується лише адрес електронної пошти, які закінчуються на один із власних доменів Mailbox, наприклад `@mailbox.org`. Якщо ви використовуєте власний домен, вам потрібно [налаштувати WKD](basics/email-security.md#what-is-the-web-key-directory-standard) окремо.
 
 #### :material-information-outline:{ .pg-blue } Видалення облікового запису
 
-Після закінчення терміну дії контракту ваш обліковий запис буде переведено в режим обмеженого користувача. Він буде безповоротно видалений через [30 днів](https://kb.mailbox.org/en/private/payment-article/what-happens-at-the-end-of-my-contract).
+Після закінчення терміну дії контракту ваш обліковий запис буде переведено в режим обмеженого користувача. It will be irrevocably deleted after [30 days](https://kb.mailbox.org/en/en/private/account/reactivate-a-deleted-account/).
 
 #### :material-information-outline:{ .pg-blue } Додатковий функціонал
 
-Ви можете отримати доступ до свого облікового запису Mailbox через IMAP/SMTP за допомогою їхнього [ сервісу .onion](https://kb.mailbox.org/en/private/faq-article/the-tor-exit-node-of-mailbox-org). Однак їхній інтерфейс вебпошти не може бути доступний через службу .onion, і у вас можуть виникати помилки TLS сертифіката.
+You can access your Mailbox Mail account via IMAP/SMTP using their [.onion service](https://kb.mailbox.org/en/en/private/security-privacy/using-the-tor-exit-node-from-mailbox/). Однак їхній інтерфейс вебпошти не може бути доступний через службу .onion, і у вас можуть виникати помилки TLS сертифіката.
 
-Усі акаунти мають обмежений обсяг хмарного сховища, який [можна зашифрувати](https://kb.mailbox.org/en/private/drive-article/encrypt-files-on-your-drive). Mailbox Mail також пропонує псевдонім [@secure.mailbox.org](https://kb.mailbox.org/en/private/e-mail-article/ensuring-e-mails-are-sent-securely), який забезпечує шифрування TLS на з'єднанні між поштовими серверами, інакше повідомлення не буде надіслано взагалі. Mailbox Mail також підтримує [Exchange ActiveSync](https://en.wikipedia.org/wiki/Exchange_ActiveSync) на додаток до стандартних протоколів доступу, таких як IMAP і POP3.
+All accounts come with limited cloud storage that [can be encrypted](https://kb.mailbox.org/en/private/drive/encrypt-files-on-your-drive/). Mailbox Mail also offers the alias [@secure.mailbox.org](https://kb.mailbox.org/en/business/e-mail-article/ensuring-e-mails-are-sent-securely/), which enforces the TLS encryption on the connection between mail servers, otherwise the message will not be sent at all. Mailbox Mail також підтримує [Exchange ActiveSync](https://en.wikipedia.org/wiki/Exchange_ActiveSync) на додаток до стандартних протоколів доступу, таких як IMAP і POP3.
 
 Mailbox Mail має функцію цифрової спадщини для всіх тарифних планів. Ви можете вибрати, чи хочете ви, щоб будь-які ваші дані були передані спадкоємцям, за умови, що вони подадуть заяву та нададуть ваш заповіт. Крім того, ви можете призначити особу, вказавши її ім'я та адресу.
 

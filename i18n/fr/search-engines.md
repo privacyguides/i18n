@@ -45,8 +45,6 @@ Brave Search est le moteur de recherche par défaut du [navigateur Brave](deskto
 
 </div>
 
-Si vous utilisez Brave Search en étant connecté à un compte Premium, il y a un risque que Brave associe vos recherches à votre compte.
-
 Nous vous recommandons de désactiver [la télémétrie anonyme d'usage](https://search.brave.com/help/usage-metrics), car elle est activée par défaut et peut se paramétrer depuis les réglages.
 
 ### DuckDuckGo

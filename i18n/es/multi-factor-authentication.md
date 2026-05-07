@@ -1,7 +1,7 @@
 ---
 title: Autenticación Multifactor
 icon: material/two-factor-authentication
-description: Estas herramientas le ayudan a proteger sus cuentas de Internet con autenticación multifactor sin enviar sus secretos a terceros.
+description: These tools assist you with securing your internet accounts with multifactor authentication without sending your secrets to a third party.
 cover: multi-factor-authentication.webp
 ---
 
@@ -28,7 +28,7 @@ Recomendamos encarecidamente que utilice aplicaciones TOTP para móviles en luga
 
 **Ente Auth** es una aplicación gratuita y de código abierto que almacena y genera tokens TOTP. Se puede utilizar con una cuenta en línea para realizar copias de seguridad y sincronizar sus tokens en todos sus dispositivos (y acceder a ellos a través de una interfaz web) de forma segura y cifrada de extremo a extremo. También se puede utilizar sin conexión a Internet en un único dispositivo sin la necesidad de una cuenta.
 
-[:octicons-home-16: Homepage](https://ente.com/auth){ .md-button .[:octicons-eye-16:](https://ente.com/privacy){ .card-link title="Privacy Policy" }
+[:octicons-home-16: Homepage](https://ente.com/auth){ .md-button .md-button--primary } [:octicons-eye-16:](https://ente.com/privacy){ .card-link title="Privacy Policy" }
 [:octicons-info-16:](https://ente.com/help/auth){ .card-link title="Documentation" }
 [:octicons-code-16:](https://github.com/ente-io/ente/tree/main/auth#readme){ .card-link title="Source Code" }
 

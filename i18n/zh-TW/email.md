@@ -161,8 +161,7 @@ Proton Mail 的[Unlimited](https://proton.me/support/proton-plans#proton-unlimit
 </div>
 
 #### :material-check:{ .pg-green } 自訂域名和別名
-
-Mailbox Mail 可使用自訂域名，且支援 [catch-all](https://kb.mailbox.org/en/private/custom-domains/how-to-set-up-a-catch-all-alias-with-a-custom-domain-name) 位址。 Mailbox Mail 也支援[子位址](https://kb.mailbox.org/en/private/account-article/what-is-an-alias-and-how-do-i-use-it)，如果您不想購買網域，這非常有用。
+z Mailbox Mail lets you use your own domain, and they support [catch-all](https://kb.mailbox.org/en/private/custom-domains/use-your-own-domain-with-catch-all/) addresses. Mailbox Mail also supports [sub-addressing](https://kb.mailbox.org/en/private/e-mail/what-is-an-alias-and-how-do-i-use-it/), which is useful if you don't want to purchase a domain.
 
 #### :material-check:{ .pg-green } 私人付款方式
 
@@ -170,29 +169,29 @@ Mailbox Mail 不接受任何加密貨幣，因為他們的支付處理商 BitPay
 
 #### :material-check:{ .pg-green } 帳號安全
 
-Mailbox Mail 僅對其網頁郵件提供[雙重要素驗證](https://kb.mailbox.org/en/private/account-article/how-to-use-two-factor-authentication-2fa)。 您可以使用 TOTP 或通過 [YubiKey](security-keys.md#yubikey) 來使用 [YubiCloud](https://yubico.com/products/services-software/yubicloud) 進行雙重認證。 Web 標準如[WebAuthn ](basics/multi-factor-authentication.md#fido-fast-identity-online)等尚不支援。
+Mailbox Mail supports [two-factor authentication](https://kb.mailbox.org/en/private/security-and-privacy/how-to-use-two-factor-authentication-2fa/) for their webmail only. 您可以使用 TOTP 或通過 [YubiKey](security-keys.md#yubikey) 來使用 [YubiCloud](https://yubico.com/products/services-software/yubicloud) 進行雙重認證。 Web 標準如[WebAuthn ](basics/multi-factor-authentication.md#fido-fast-identity-online)等尚不支援。
 
 #### :material-information-outline:{ .pg-blue } 資料安全
 
-Mailbox Mail 允許使用[加密信箱](https://kb.mailbox.org/en/private/e-mail-article/your-encrypted-mailbox)對傳入郵件進行加密。 收到的新訊息將立即用您的公鑰加密。
+Mailbox Mail allows for encryption of incoming mail using their [encrypted mailbox](https://kb.mailbox.org/en/private/encryption/your-encrypted-mailbox/). 收到的新訊息將立即用您的公鑰加密。
 
-不過，Mailbox Mail 所使用的軟體平台 [Open-Xchange](https://en.wikipedia.org/wiki/Open-Xchange)，[並不支援](https://kb.mailbox.org/en/private/security-privacy-article/encryption-of-calendar-and-address-book)對您的通訊錄與行事曆進行加密。 [獨立的選項](calendar.md) 可能更適合此類資料。
+However, [Open-Xchange](https://en.wikipedia.org/wiki/Open-Xchange), the software platform used by Mailbox Mail, [does not support](https://kb.mailbox.org/en/business/security-privacy-article/encryption-of-calendar-and-address-book/) the encryption of your address book and calendar. [獨立的選項](calendar.md) 可能更適合此類資料。
 
 #### :material-check:{ .pg-green } 電子郵件加密
 
-Mailbox Mail 在他們的網頁郵件中 [整合了加密功能](https://kb.mailbox.org/en/private/e-mail-article/send-encrypted-e-mails-with-guard) ，這簡化了向有 OpenPGP 公鑰的人寄送郵件的麻煩。 它們也讓遠端收件者可以在 Mailbox Mail 的伺服器上[解密電子郵件](https://kb.mailbox.org/en/private/e-mail-article/my-recipient-does-not-use-pgp)。 當遠端收件人沒有 OpenPGP 無法解密自己郵箱中的電子郵件時，此功能非常有用。
+Mailbox Mail has [integrated encryption](https://kb.mailbox.org/en/private/encryption/how-can-e-mails-be-encrypted-with-pgp/) in their webmail, which simplifies sending messages to people with public OpenPGP keys. They also allow [remote recipients to decrypt an email](https://kb.mailbox.org/en/private/encryption/my-recipient-does-not-use-pgp/) on Mailbox Mail's servers. 當遠端收件人沒有 OpenPGP 無法解密自己郵箱中的電子郵件時，此功能非常有用。
 
 Mailbox Mail 也支援透過 HTTP 從其 WKD 探索公鑰。 這可讓非 Mailbox Mail 使用者輕鬆找到 Mailbox 帳號的 OpenPGP 金鑰，以進行跨供應商 E2EE。 這只適用於以 Mailbox Mail 自身網域結尾的電子郵件地址，例如：`@mailbox.org`。 如果使用自訂網域，則必須另行[設定 WKD](basics/email-security.md#what-is-the-web-key-directory-standard)。
 
 #### :material-information-outline:{ .pg-blue } 終止帳號
 
-當合約結束時，帳戶將被設定為受限使用者帳戶。 [30天](https://kb.mailbox.org/en/private/ payment-article/what-happens-at-the-end-of-my-contract)後，它會被不可回復地刪除。
+當合約結束時，帳戶將被設定為受限使用者帳戶。 It will be irrevocably deleted after [30 days](https://kb.mailbox.org/en/en/private/account/reactivate-a-deleted-account/).
 
 #### :material-information-outline:{ .pg-blue } 額外功能
 
-可利用他們的 [.onion 服務](https://kb.mailbox.org/en/private/faq-article/the-tor-exit-node-of-mailbox-org)與 IMAP/SMTP 協定來存取 Mailbox Mail 帳號。 不過，他們的網頁郵件介面無法透過其 .onion 服務存取，而且您可能會遇到 TLS 憑證錯誤。
+You can access your Mailbox Mail account via IMAP/SMTP using their [.onion service](https://kb.mailbox.org/en/en/private/security-privacy/using-the-tor-exit-node-from-mailbox/). 不過，他們的網頁郵件介面無法透過其 .onion 服務存取，而且您可能會遇到 TLS 憑證錯誤。
 
-所有帳號都附帶有限的[可以加密](https://kb.mailbox.org/en/private/drive-article/encrypt-files-on-your-drive)雲端儲存空間 。 Mailbox Mail 還提供別名 [@secure.mailbox.org](https://kb.mailbox.org/en/private/e-mail-article/ensuring-e-mails-are-sent-securely)，它對郵件伺服器之間的連線強制進行 TLS 加密，若未加密則完全不會寄送信件。 Mailbox Mail 除了支援 IMAP 與 POP3 等標準存取通訊協定外，還支援 [Exchange ActiveSync](https://en.wikipedia.org/wiki/Exchange_ActiveSync) 。
+All accounts come with limited cloud storage that [can be encrypted](https://kb.mailbox.org/en/private/drive/encrypt-files-on-your-drive/). Mailbox Mail also offers the alias [@secure.mailbox.org](https://kb.mailbox.org/en/business/e-mail-article/ensuring-e-mails-are-sent-securely/), which enforces the TLS encryption on the connection between mail servers, otherwise the message will not be sent at all. Mailbox Mail 除了支援 IMAP 與 POP3 等標準存取通訊協定外，還支援 [Exchange ActiveSync](https://en.wikipedia.org/wiki/Exchange_ActiveSync) 。
 
 Mailbox Mail 所有方案都提供了數位遺產功能。 只要繼承人提出申請並提供您的遺囑即可獲得你選擇要傳給他們的資料。 或者，您可以透過姓名和位址提出人選。
 

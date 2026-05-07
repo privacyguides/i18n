@@ -45,8 +45,6 @@ Brave Search is the default search engine for the [Brave Browser](desktop-browse
 
 </div>
 
-If you use Brave Search while logged in to a Premium account, there is a risk of Brave correlating search queries with your account.
-
 我們建議停用 [Anonymous usage metrics（匿名使用指標）](https://search.brave.com/help/usage-metrics) ，它預設為啟用，可在設定中停用。
 
 ### DuckDuckGo

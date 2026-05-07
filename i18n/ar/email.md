@@ -161,8 +161,7 @@ Certain information stored in [Proton Contacts](https://proton.me/support/proton
 </div>
 
 #### :material-check:{ .pg-green } النطاقات المخصَّصة والكنى
-
-Mailbox Mail lets you use your own domain, and they support [catch-all](https://kb.mailbox.org/en/private/custom-domains/how-to-set-up-a-catch-all-alias-with-a-custom-domain-name) addresses. Mailbox Mail also supports [sub-addressing](https://kb.mailbox.org/en/private/account-article/what-is-an-alias-and-how-do-i-use-it), which is useful if you don't want to purchase a domain.
+z Mailbox Mail lets you use your own domain, and they support [catch-all](https://kb.mailbox.org/en/private/custom-domains/use-your-own-domain-with-catch-all/) addresses. Mailbox Mail also supports [sub-addressing](https://kb.mailbox.org/en/private/e-mail/what-is-an-alias-and-how-do-i-use-it/), which is useful if you don't want to purchase a domain.
 
 #### :material-check:{ .pg-green } وسائل الدفع الخاصة
 
@@ -170,29 +169,29 @@ Mailbox Mail doesn't accept any cryptocurrencies as a result of their payment pr
 
 #### :material-check:{ .pg-green } أمن الحساب
 
-Mailbox Mail supports [two-factor authentication](https://kb.mailbox.org/en/private/account-article/how-to-use-two-factor-authentication-2fa) for their webmail only. You can use either TOTP or a [YubiKey](security-keys.md#yubikey) via the [YubiCloud](https://yubico.com/products/services-software/yubicloud). لم يتم دعم معايير الويب مثل [WebAuthn](basics/multi-factor-authentication.md#fido-fast-identity-online) حتى الآن، وهي تقنية حديثة تتيح تسجيل الدخول بشكل آمن بدون الحاجة إلى كلمات مرور.
+Mailbox Mail supports [two-factor authentication](https://kb.mailbox.org/en/private/security-and-privacy/how-to-use-two-factor-authentication-2fa/) for their webmail only. You can use either TOTP or a [YubiKey](security-keys.md#yubikey) via the [YubiCloud](https://yubico.com/products/services-software/yubicloud). لم يتم دعم معايير الويب مثل [WebAuthn](basics/multi-factor-authentication.md#fido-fast-identity-online) حتى الآن، وهي تقنية حديثة تتيح تسجيل الدخول بشكل آمن بدون الحاجة إلى كلمات مرور.
 
 #### :material-information-outline:{ .pg-blue } أمن البيانات
 
-Mailbox Mail allows for encryption of incoming mail using their [encrypted mailbox](https://kb.mailbox.org/en/private/e-mail-article/your-encrypted-mailbox). تعمَّى الرسائل الواردة باستخدام مفتاحك العامِّ فورًا.
+Mailbox Mail allows for encryption of incoming mail using their [encrypted mailbox](https://kb.mailbox.org/en/private/encryption/your-encrypted-mailbox/). تعمَّى الرسائل الواردة باستخدام مفتاحك العامِّ فورًا.
 
-However, [Open-Xchange](https://en.wikipedia.org/wiki/Open-Xchange), the software platform used by Mailbox Mail, [does not support](https://kb.mailbox.org/en/private/security-privacy-article/encryption-of-calendar-and-address-book) the encryption of your address book and calendar. إذا كنت ترغب في حماية تقويمك وجهات اتصالك بتشفير كامل، فمن الأفضل استخدام [خدمة منفصلة](calendar.md) مخصصة لذلك.
+However, [Open-Xchange](https://en.wikipedia.org/wiki/Open-Xchange), the software platform used by Mailbox Mail, [does not support](https://kb.mailbox.org/en/business/security-privacy-article/encryption-of-calendar-and-address-book/) the encryption of your address book and calendar. إذا كنت ترغب في حماية تقويمك وجهات اتصالك بتشفير كامل، فمن الأفضل استخدام [خدمة منفصلة](calendar.md) مخصصة لذلك.
 
 #### :material-check:{ .pg-green } تشفير البريد الإلكتروني
 
-Mailbox Mail has [integrated encryption](https://kb.mailbox.org/en/private/e-mail-article/send-encrypted-e-mails-with-guard) in their webmail, which simplifies sending messages to people with public OpenPGP keys. They also allow [remote recipients to decrypt an email](https://kb.mailbox.org/en/private/e-mail-article/my-recipient-does-not-use-pgp) on Mailbox Mail's servers. فائدة هذا تظهر في حال كان المستقبل ليس لديه أوبن‌بي‌جي‌بي ولا يستطيع كشف تعمية نسخة من الرسالة في صندوق بريده.
+Mailbox Mail has [integrated encryption](https://kb.mailbox.org/en/private/encryption/how-can-e-mails-be-encrypted-with-pgp/) in their webmail, which simplifies sending messages to people with public OpenPGP keys. They also allow [remote recipients to decrypt an email](https://kb.mailbox.org/en/private/encryption/my-recipient-does-not-use-pgp/) on Mailbox Mail's servers. فائدة هذا تظهر في حال كان المستقبل ليس لديه أوبن‌بي‌جي‌بي ولا يستطيع كشف تعمية نسخة من الرسالة في صندوق بريده.
 
 Mailbox Mail also supports the discovery of public keys via HTTP from their WKD. This allows people outside of Mailbox Mail to find the OpenPGP keys of Mailbox Mail accounts easily for cross-provider E2EE. This only applies to email addresses ending in one of Mailbox Mail's own domains, like `@mailbox.org`. إذا كنت تستخدم نطاقا مخصصًا (أي عنوان بريد إلكتروني ينتهي باسم نطاقك الخاص بدلًا من ‎@proton.me)، فستحتاج إلى [إعداد WKD](basics/email-security.md#what-is-the-web-key-directory-standard) يدويا بشكل منفصل.
 
 #### :material-information-outline:{ .pg-blue } إنهاء الحسابات
 
-سيتم تحويل حسابك إلى حساب محدود الصلاحيات عند انتهاء الاشتراك. سيتم حذف الحساب بشكل نهائي ولا يمكن استعادته بعد [30 يومًا](https://kb.mailbox.org/en/private/payment-article/what-happens-at-the-end-of-my-contract) من انتهاء الاشتراك.
+سيتم تحويل حسابك إلى حساب محدود الصلاحيات عند انتهاء الاشتراك. It will be irrevocably deleted after [30 days](https://kb.mailbox.org/en/en/private/account/reactivate-a-deleted-account/).
 
 #### :material-information-outline:{ .pg-blue } وظائف إضافية
 
-You can access your Mailbox Mail account via IMAP/SMTP using their [.onion service](https://kb.mailbox.org/en/private/faq-article/the-tor-exit-node-of-mailbox-org). واجهة البريد على الموقع لا تعمل بالكامل عند الدخول عبر شبكة Tor باستخدام عنوان ‎.onion، وقد تظهر رسائل تحذير تتعلّق بشهادة الأمان عند محاولة الاتصال.
+You can access your Mailbox Mail account via IMAP/SMTP using their [.onion service](https://kb.mailbox.org/en/en/private/security-privacy/using-the-tor-exit-node-from-mailbox/). واجهة البريد على الموقع لا تعمل بالكامل عند الدخول عبر شبكة Tor باستخدام عنوان ‎.onion، وقد تظهر رسائل تحذير تتعلّق بشهادة الأمان عند محاولة الاتصال.
 
-تأتي جميع الحسابات بسعة تخزين سحابي محدودة، ويمكنك [تشفير الملفات](https://kb.mailbox.org/en/private/drive-article/encrypt-files-on-your-drive) داخلها مباشرة من خلال واجهة Mailbox.org لحماية خصوصيتك، دون الحاجة إلى أدوات خارجية. Mailbox Mail also offers the alias [@secure.mailbox.org](https://kb.mailbox.org/en/private/e-mail-article/ensuring-e-mails-are-sent-securely), which enforces the TLS encryption on the connection between mail servers, otherwise the message will not be sent at all. Mailbox Mail also supports [Exchange ActiveSync](https://en.wikipedia.org/wiki/Exchange_ActiveSync) in addition to standard access protocols like IMAP and POP3.
+All accounts come with limited cloud storage that [can be encrypted](https://kb.mailbox.org/en/private/drive/encrypt-files-on-your-drive/). Mailbox Mail also offers the alias [@secure.mailbox.org](https://kb.mailbox.org/en/business/e-mail-article/ensuring-e-mails-are-sent-securely/), which enforces the TLS encryption on the connection between mail servers, otherwise the message will not be sent at all. Mailbox Mail also supports [Exchange ActiveSync](https://en.wikipedia.org/wiki/Exchange_ActiveSync) in addition to standard access protocols like IMAP and POP3.
 
 Mailbox Mail has a digital legacy feature for all plans. يمكنك اختيار ما إذا كنت ترغب في تمرير أي من بياناتك إلى الورثة، بشرط أن يتقدموا بطلب رسمي ويُقدموا وصيتك القانونية. غير ذلك فيمكنك ترشيح شخص باسمه وعنوانه.
 

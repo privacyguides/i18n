@@ -45,8 +45,6 @@ Brave Search es el motor de búsqueda predeterminado de [Brave Browser](desktop-
 
 </div>
 
-Si utiliza Brave Search mientras está conectado a una cuenta Premium, existe el riesgo de que Brave correlacione las consultas de búsqueda con su cuenta.
-
 Le recomendamos que desactive las [Estadísticas de uso anónimas](https://search.brave.com/help/usage-metrics), ya que están activadas por defecto y pueden desactivarse en la configuración.
 
 ### DuckDuckGo

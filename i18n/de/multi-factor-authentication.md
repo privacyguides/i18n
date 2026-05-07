@@ -1,7 +1,7 @@
 ---
 title: Multi-Faktor-Authentisierung
 icon: material/two-factor-authentication
-description: Diese Werkzeuge helfen Ihre online Konten zusichern mit Multi-Faktor-Authentifizierung, ohne Ihre Geheimnisse an Dritte zu schicken.
+description: These tools assist you with securing your internet accounts with multifactor authentication without sending your secrets to a third party.
 cover: multi-factor-authentication.webp
 ---
 
@@ -28,7 +28,7 @@ Wir empfehlen dir dringend, mobile TOTP-Apps anstelle von Desktop-Alternativen z
 
 **Ente Auth** ist eine kostenlose und quelloffene Anwendung, die TOTP-Tokens speichert und erzeugt. Es kann zusammen mit einem Online-Konto verwendet werden, um deine Token auf deinen Geräten zu sichern und zu synchronisieren (und über eine Weboberfläche auf sie zuzugreifen), und zwar auf sichere, E2EE Weise. Sie kann auch offline auf einem einzigen Gerät genutzt werden, ohne dass ein Konto erforderlich ist.
 
-[:octicons-home-16: Homepage](https://ente.com/auth){ .md-button .[:octicons-eye-16:](https://ente.com/privacy){ .card-link title="Privacy Policy" }
+[:octicons-home-16: Homepage](https://ente.com/auth){ .md-button .md-button--primary } [:octicons-eye-16:](https://ente.com/privacy){ .card-link title="Privacy Policy" }
 [:octicons-info-16:](https://ente.com/help/auth){ .card-link title="Documentation" }
 [:octicons-code-16:](https://github.com/ente-io/ente/tree/main/auth#readme){ .card-link title="Source Code" }
 

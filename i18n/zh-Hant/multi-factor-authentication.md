@@ -1,7 +1,7 @@
 ---
 title: 多重要素驗證
 icon: material/two-factor-authentication
-description: These tools assist you with securing your internet accounts with multifactor authentication without sending your secrets to a third-party.
+description: These tools assist you with securing your internet accounts with multifactor authentication without sending your secrets to a third party.
 cover: multi-factor-authentication.webp
 ---
 
@@ -28,7 +28,7 @@ cover: multi-factor-authentication.webp
 
 **Ente Auth** 是一個自由且開放原始碼的應用程式，可儲存私鑰並產生 TOTP 一次性密碼。 它可與線上帳戶一起使用，以安全、端對端加密的方式備份和同步您各個裝置上的 令牌 (token)，並透過網頁介面存取。 它也可在單一設備上離線使用，無需帳戶。
 
-[:octicons-home-16: Homepage](https://ente.com/auth){ .md-button .[:octicons-eye-16:](https://ente.com/privacy){ .card-link title="Privacy Policy" }
+[:octicons-home-16: Homepage](https://ente.com/auth){ .md-button .md-button--primary } [:octicons-eye-16:](https://ente.com/privacy){ .card-link title="Privacy Policy" }
 [:octicons-info-16:](https://ente.com/help/auth){ .card-link title="Documentation" }
 [:octicons-code-16:](https://github.com/ente-io/ente/tree/main/auth#readme){ .card-link title="Source Code" }
 
