@@ -1,7 +1,7 @@
 ---
 title: "Notatniki"
 icon: material/notebook-edit-outline
-description: These encrypted note-taking apps let you keep track of your notes without giving them to a third party.
+description: Te zaszyfrowane notatki pozwalają Ci prowadzić swoje notatki bez oddawania ich stronom trzecim.
 cover: notebooks.webp
 ---
 

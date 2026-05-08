@@ -18,7 +18,7 @@ Wszystkie urządzenia z systemem iOS sprawdzane są na serwerach blokady aktywac
 
 ### Obowiązkowa aplikacja App Store
 
-The only source for apps on iOS is Apple's App Store, which requires an Apple Account to access. This means that Apple has a record of every app you install on your device, and can likely tie that information to your actual identity if you provide the App Store with a payment method.
+Jedynym źródłem aplikacji na iOS jest App Store firmy Apple, do którego dostęp wymaga konta Apple. Oznacza to, że Apple ma rejestr każdej aplikacji zainstalowanej na urządzeniu i może prawdopodobnie powiązać te informacje z rzeczywistą tożsamością użytkownika, jeśli poda on w App Store metodę płatności.
 
 ### Inwazyjna telemetria
 

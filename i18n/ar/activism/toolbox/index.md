@@ -220,16 +220,16 @@ Kindness is essential for privacy advocates. To grow our movement, we must meet 
 
 <button class="toolbox-button-top">[العودة إلى الأعلى :material-toolbox:] (#toolbox-compartments)</button> <br>
 
-## Build Alliances
+## بناء التحالفات
 
 <a href="tip-start-alliances-not-wars">
 <div class="toolbox-tip-card toolbox-border-alliances" markdown>
 
-### 1. Start alliances, not wars
+### 1. لنبنِ جسوراً للتعاون بدلا من خوض المعارك
 
-![handshake icon](../../assets/img/activism/icons/icon-tips/icon-tips-alliances.webp){class="toolbox-tip-icon"}
+![أيقونة المصافحة] (../../assets/img/activism/icons/icon-tips/icon-tips-alliances.webp){class="toolbox-tip-tip-conic"}
 
-The privacy community consists of a patchwork of individuals and organizations that sometimes hold quite different views. When these divergences lead to infighting, we need to ask how these internal wars are impacting our community negatively. Learn more about how to start alliances instead of wars.
+يتألف مجتمع المدافعين عن الخصوصية من مجموعات وأفراد متنوعين، ومن الطبيعي أن نجد بينهم أحياناً اختلافاً كبيراً في الآراء والتوجهات. حين تتحول اختلافاتنا إلى صراعات داخلية، علينا أن نتوقف ونسأل أنفسنا: كيف تضعف هذه المعارك الجانبية مجتمعنا وتؤثر عليه سلبا. اكتشف المزيد حول كيفية بناء جسور التعاون بدلا من خوض المعارك الجانبية، لكي نتمكن معا من تحقيق تغيير حقيقي.
 
 تعرف على المزيد :material-arrow-right-drop-circle:
 {align=right} {align=right}
