@@ -109,11 +109,11 @@ cover: activism/banner-activism-toolbox.webp
 <a href="tip-improve-your-social-media-and-build-resilient-communities">
 <div class="toolbox-tip-card toolbox-border-tools" markdown>
 
-### 3. Improve your social media and build resilient communities
+### 3. عزز حضورك الرقمي، وابنِ مجتمعاتٍ صلبة ومترابطة
 
-![Octagon icon](../../assets/img/activism/icons/icon-tips/icon-tips-plant.webp){class="toolbox-tip-icon"}
+![أيقونة مثمنة] (../../assets/img/activism/icons/icon-tips/icon-tips-plant.webp){class="رمز صندوق الأدوات-تلميح-أيقونة"}
 
-Commercial social media platforms represent one of the biggest sources of data exploitation. By staying active on these platforms we continue to feed the beast, and indirectly support their invasion of our privacy rights. Learn more about how to minimize your presence there, and slowly build better social networks.
+تعد منصات التواصل الاجتماعي التجارية من أوسع الميادين التي تتعرض فيها بياناتنا للاستغلال. ببقائنا نشطين على هذه المنصات، نحن نزيد من نهمها لبياناتنا، ونساهم دون قصد في إضعاف حصون خصوصيتنا. اكتشف كيف تخفف من أثرك الرقمي هناك، وتبدأ خطوة بخطوة في بناء مجتمعات تواصل أكثر أمانا ووعيا.
 
 تعرف على المزيد :material-arrow-right-drop-circle:
 {align=right} {align=right}
@@ -123,16 +123,16 @@ Commercial social media platforms represent one of the biggest sources of data e
 
 <button class="toolbox-button-top">[العودة إلى الأعلى :material-toolbox:] (#toolbox-compartments)</button> <br>
 
-## Expand Your Perspective
+## وسع منظورك
 
 <a href="tip-dont-stop-at-individual-solutions">
 <div class="toolbox-tip-card toolbox-border-perspective" markdown>
 
-### 1. Don't stop at individual solutions, consider the collective impact
+### 1. لا تقف عند حدود الحلول الفردية، بل تأمل في قوة الأثر حين نصنعه معا
 
-![People with radiating lines icon](../../assets/img/activism/icons/icon-tips/icon-tips-expand.webp){class="toolbox-tip-icon"}
+![أشخاص بأيقونة خطوط مشعة](../../assets/img/activism/icons/icon-tips/icon-tips-expand.webp) {class="toolbox-tip-tip-conic"}
 
-When we think about our privacy, we often focus on the technical tools we can use. While this is indeed an important component, it's crucial not to lose sight of how regulations and invasive practices impact us collectively. Learn more about how to expand your perspective on data privacy.
+حين نفكر في خصوصيتنا، غالبا ما يتجه تركيزنا نحو الأدوات والحلول التقنية التي بين أيدينا. ورغم أن هذا الجانب ركن أساسي، إلا أنه من الضروري ألا نغفل عن أثر القوانين والممارسات الجائرة على مجتمعنا ككل. استكشف كيف تفتح آفاقا أرحب لرؤيتك تجاه خصوصية البيانات وأبعادها الشاملة.
 
 تعرف على المزيد :material-arrow-right-drop-circle:
 {align=right} {align=right}
@@ -210,7 +210,7 @@ Fighting for privacy rights is a collective endeavor. You cannot do it alone. An
 
 ![Two hands holding a sphere icon](../../assets/img/activism/icons/icon-tips/icon-tips-kind.webp){class="toolbox-tip-icon"}
 
-Kindness is essential for privacy advocates. To grow our movement, we must meet people from a place of camaraderie. التوبيخ لا يدفع أحدا لتغيير رأيه، فالبداية دائما تكون بالكلمة الطيبة والوعي. لكن الأمر يختلف تماما عندما نتعامل مع المؤسسات والشركات. Learn more about how to integrate kindness in your work, while being relentless with institutions.
+Kindness is essential for privacy advocates. To grow our movement, we must meet people from a place of camaraderie. التوبيخ لا يدفع أحدا لتغيير رأيه، فالبداية دائما تكون بالكلمة الطيبة والوعي. لكن الأمر يختلف تماما عندما نتعامل مع المؤسسات والشركات. اكتشف المزيد حول كيفية تبني اللطف في دعوتك للآخرين، بينما تظل حازماً ولا تلين في مطالبة المؤسسات بحقوقنا.
 
 تعرف على المزيد :material-arrow-right-drop-circle:
 {align=right} {align=right}
@@ -240,11 +240,11 @@ Kindness is essential for privacy advocates. To grow our movement, we must meet 
 <a href="tip-value-allies-with-complementary-expertise">
 <div class="toolbox-tip-card toolbox-border-alliances" markdown>
 
-### 2. Value allies with expertise complementary to yours
+### 2. لنتعاون مع الخبراء في المجالات الأخرى.. فقوتنا في تكاملنا
 
-![Sphere with half dark half light icon](../../assets/img/activism/icons/icon-tips/icon-tips-complement.webp){class="toolbox-tip-icon"}
+![كرة ذات أيقونة نصف مظلمة ونصف فاتحة](../../assets/img/activism/icons/icon-tips/icon-tips-complement.webp){class="toolbox-tip-tip-conic"}
 
-In privacy, like everywhere else, diversity is a strength. If you want your community to have a broad understanding of threat models, and be able to fight on multiple levels, you need to value a diversity of expertises. Learn more about recognizing, respecting, and retaining experts with skills different to yours.
+لتنوع هو سر قوتنا في عالم الخصوصية، تماما كما هو الحال في كل مجالات الحياة. لكي يمتلك مجتمعنا وعياً شاملاً بالمخاطر الرقمية ويكون قادرا على مواجهتها من زوايا مختلفة، علينا أن نؤمن بأن كل خبرة متنوعة هي إضافة حقيقية وقيمة لنا. اكتشف المزيد حول كيفية تقدير المواهب التي تختلف عن مواهبك، وكيف نبني بيئة تحترم الجميع وتشجعهم على البقاء والمساهمة معنا.
 
 تعرف على المزيد :material-arrow-right-drop-circle:
 {align=right} {align=right}
@@ -255,11 +255,11 @@ In privacy, like everywhere else, diversity is a strength. If you want your comm
 <a href="tip-give-credit-where-credit-is-due">
 <div class="toolbox-tip-card toolbox-border-alliances" markdown>
 
-### 3. Give credit where credit is due
+### 3. إعطاء كل ذي حق حقه
 
-![Thumbs up icon](../../assets/img/activism/icons/icon-tips/icon-tips-credit.webp){class="toolbox-tip-icon"}
+![رمز الإبهام لأعلى](../../assets/img/activism/icons/icon-tips/icon-tips-credit.webp){class="رمز-إشارة-تلميح-صندوق-أدوات"}
 
-To succeed, we must support each other. A good way to do this is to never forget to give credit where credit is due. When another advocate or organization says something you agree with, boost them up, spread their reach, and thank them publicly. Learn more about making your allies feel seen and valued.
+النجاح لا يتحقق إلا بتكاتفنا ودعمنا لبعضنا البعض. وخير وسيلة لدعم بعضنا هي ألا ننسى أبدا أن ننسب الفضل لأصحابه ونقدر مجهود من ساعدنا. حينما يشارك زميل أو منظمة فكرة تعجبك، بادر بدعمهم ونشر رسالتهم على أوسع نطاق، ولا تتردد في شكرهم أمام الجميع. اكتشف المزيد حول كيفية إخبار شركائنا في الرحلة بأن مجهوداتهم مرئية ومقدرة، لكي نبني معاً بيئة يسودها الاحترام المتبادل.
 
 تعرف على المزيد :material-arrow-right-drop-circle:
 {align=right} {align=right}
@@ -269,16 +269,16 @@ To succeed, we must support each other. A good way to do this is to never forget
 
 <button class="toolbox-button-top">[العودة إلى الأعلى :material-toolbox:] (#toolbox-compartments)</button> <br>
 
-## Make It Accessible
+## لنجعل الخصوصية في متناول الجميع
 
 <a href="tip-welcome-beginners">
 <div class="toolbox-tip-card toolbox-border-accessibility" markdown>
 
-### 1. Welcome beginners
+### 1. مرحباً بالمبتدئين
 
-![Person with plus sign icon](../../assets/img/activism/icons/icon-tips/icon-tips-beginner.webp){class="toolbox-tip-icon"}
+![شخص مع أيقونة علامة زائد](../../assets/img/activism/icons/icon-tips/icon-tips-beginner.webp){class="toolbox-tip-tip-conic"}
 
-For our privacy rights movement to grow, we must bring more people in. To accomplish this, it's fundamental to discuss privacy in ways that are accessible to newcomers who aren't familiar with basic concepts yet. Learn more about improving your advocacy work to make it more approachable to beginners.
+لكي تنمو حركتنا وتزدهر، علينا أن نفتح أبوابنا للجميع وندعو المزيد من الناس للانضمام إلينا. وعلشان نحقق ده، لازم نبسط كلامنا عن الخصوصية ونستخدم لغة واضحة وسهلة يفهمها أي حد لسه بيبدأ معانا، حتى لو ميعرفش المصطلحات التقنية. ولتحقيق ذلك، من الضروري جداً أن نتحدث عن الخصوصية بأسلوب بسيط وواضح، خاصةً للقادمين الجدد الذين لم يتعرفوا بعد على المفاهيم الأساسية.
 
 تعرف على المزيد :material-arrow-right-drop-circle:
 {align=right} {align=right}
@@ -289,11 +289,11 @@ For our privacy rights movement to grow, we must bring more people in. To accomp
 <a href="tip-keep-your-posts-and-community-inclusive">
 <div class="toolbox-tip-card toolbox-border-accessibility" markdown>
 
-### 2. Keep your posts and community inclusive
+### 2. اجعل منشوراتك ومجتمعك شاملا للجميع
 
-![Heart with plus sign icon](../../assets/img/activism/icons/icon-tips/icon-tips-inclusivity.webp){class="toolbox-tip-icon"}
+![قلب مع أيقونة علامة زائد](../../assets/img/activism/icons/icon-tips/icon-tips-inclusivity.webp){class="toolbox-tip-tip-conic"}
 
-Inclusivity is not only the right thing to do, it's also essential to grow our movement. If we want privacy rights to succeed, it's imperative that we build communities where _everyone_ feels safe and welcomed, regardless of who they are. Learn more about keeping your communications and communities inclusive.
+الشمولية ليست مجرد فعل صواب نقوم به، بل هي ضرورة أساسية لنمو حركتنا واتساع تأثيرها. إذا أردنا لحقوق الخصوصية أن تنجح، فمن الواجب علينا بناء مجتمعات يشعر فيها الجميع بالأمان والترحيب، بغض النظر عن خلفياتهم أو هويتهم. تعرف على المزيد حول كيفية جعل تواصلك ومجتمعاتك شاملة ومرحبة بالجميع.
 
 تعرف على المزيد :material-arrow-right-drop-circle:
 {align=right} {align=right}
@@ -304,11 +304,11 @@ Inclusivity is not only the right thing to do, it's also essential to grow our m
 <a href="tip-be-mindful-of-accessibility">
 <div class="toolbox-tip-card toolbox-border-accessibility" markdown>
 
-### 3. Be mindful of accessibility
+### 3. ضع سهولة الوصول في الحسبان
 
-![Heart with checkmark icon](../../assets/img/activism/icons/icon-tips/icon-tips-accessibility.webp){class="toolbox-tip-icon"}
+![قلب مع أيقونة علامة اختيار](../../assets/img/activism/icons/icon-tips/icon-tips-accessibility.webp){class="toolbox-tip-tip-conic"}
 
-Accessibility is indispensable to inclusivity, and should always be a priority in our work. To make our privacy communities welcoming to all, accessibility cannot be an afterthought. We must integrate it in our practice from the start. Learn more about improving the accessibility of your privacy work.
+سهولة الوصول جزء لا يتجزأ من الشمولية، ويجب أن تكون دائماً أولوية في كل ما نقوم به. لنجعل مجتمعات الخصوصية ترحب بالجميع، لا يمكن أن تكون سهولة الوصول مجرد فكرة ثانوية أو لاحقة. يجب أن ندمجها في ممارساتنا اليومية منذ البداية. تعرف على المزيد حول سبل تحسين سهولة الوصول في عملك المتعلق بالخصوصية.
 
 تعرف على المزيد :material-arrow-right-drop-circle:
 {align=right} {align=right}
@@ -319,11 +319,11 @@ Accessibility is indispensable to inclusivity, and should always be a priority i
 <a href="tip-make-it-cute">
 <div class="toolbox-tip-card toolbox-border-accessibility" markdown>
 
-### 4. Make it cute
+### 4. تعرف كيف تجعل أعمالك سهلة للجميع
 
-![Cat icon](../../assets/img/activism/icons/icon-tips/icon-tips-cute.webp){class="toolbox-tip-icon"}
+![رمز القطة] (../../assets/img/activism/icons/icon-tips/icon-tips-cute.webp){class="رمز-تلميح-صندوق-أدوات-تلميح"}
 
-If you are developing a privacy-focused application or website, do not neglect the design aspect of it. This is a common mistake that can have a significant negative impact on adoption by a general audience. Learn more about making your design appealing and accessible to all. Make it cute!
+إذا كنت تطور تطبيقاً أو موقعاً إلكترونياً يركز على الخصوصية، فلا تهمل جانب التصميم فيه. هذا خطأ شائع قد يُبعد الناس عن فكرتك الجميلة، فالبساطة هي سر النجاح. تعرف كيف تجعل تصاميمك جذابة لتناسب الجميع. تعرف كيف تجعل أعمالك سهلة للجميع!
 
 تعرف على المزيد :material-arrow-right-drop-circle:
 {align=right} {align=right}
@@ -333,16 +333,16 @@ If you are developing a privacy-focused application or website, do not neglect t
 
 <button class="toolbox-button-top">[العودة إلى الأعلى :material-toolbox:] (#toolbox-compartments)</button> <br>
 
-## Uphold Integrity
+## لنكن أهلا للثقة
 
 <a href="tip-refuse-to-participate">
 <div class="toolbox-tip-card toolbox-border-integrity" markdown>
 
-### 1. Refuse to participate
+### 1. امتنع عن المشاركة
 
-![Circle with x icon](../../assets/img/activism/icons/icon-tips/icon-tips-refuse.webp){class="toolbox-tip-icon"}
+![دائرة برمز x] (../../assets/img/activism/icons/icon-tips/icon-tips-refuse.webp){class="رمز-تلميح-صندوق-أدوات-تلميح-أيقونة"}
 
-As privacy advocates and activists, it's important to be a voice for resistance and take a stand against abusive practices. One substantial way to do this is to refuse to participate in privacy-intrusive requests, or use invasive software. Learn more about refusing to comply with privacy-abusive practices.
+كأصدقاء للخصوصية، لنكن صوتا شجاعا يرفض الممارسات المؤذية. أبسط خطوة هي أن ترفض أي برنامج أو طلب يتطفل على مساحتك الخاصة. تعرّف كيف ترفض أي تطفل على خصوصيتك.
 
 تعرف على المزيد :material-arrow-right-drop-circle:
 {align=right} {align=right}
@@ -353,11 +353,11 @@ As privacy advocates and activists, it's important to be a voice for resistance 
 <a href="tip-stay-true-to-your-principles">
 <div class="toolbox-tip-card toolbox-border-integrity" markdown>
 
-### 2. Stay true to your principles
+### 2. حافظ على مبادئك
 
-![Star icon](../../assets/img/activism/icons/icon-tips/icon-tips-principles.webp){class="toolbox-tip-icon"}
+![رمز النجمة] (../../assets/img/activism/icons/icon-tips/icon-tips-principles.webp){class="رمز-تلميح-صندوق-أدوات-تلميح"}
 
-If you manage a digital rights group or organization, make sure you aren't subjecting your contributors to the very privacy-invasive tech you're fighting against. Sadly, it's not rare to see communities that aren't following their own advice for internal practices. Learn more about the importance of maintaining integrity _internally_ as well as externally.
+إذا كنت تدير مجموعة أو منظمة تُعنى بالحقوق الرقمية، فاحرص على ألا تعرض مساهميك لنفس التقنيات التي تنتهك الخصوصية والتي تحاربها. للأسف، أحيانا لا تطبق بعض المجتمعات نصائحها على نفسها. تعرف كيف تحافظ على صدق مبادئك، في _الداخل_ كما في الخارج.
 
 تعرف على المزيد :material-arrow-right-drop-circle:
 {align=right} {align=right}
@@ -368,11 +368,11 @@ If you manage a digital rights group or organization, make sure you aren't subje
 <a href="tip-protect-your-allies">
 <div class="toolbox-tip-card toolbox-border-integrity" markdown>
 
-### 3. Protect your allies
+### 3. حافظ على أمان رفاقك
 
-![Shield with heart icon](../../assets/img/activism/icons/icon-tips/icon-tips-protect.webp){class="toolbox-tip-icon"}
+![درع بأيقونة قلب](../../assets/img/activism/icons/icon-tips/icon-tips-protect.webp){class="رمز-تلميح-صندوق-أدوات-تلميح-أيقونة"}
 
-Through your privacy work, be careful to never collect or share the data of others without their explicit consent. It's crucial to protect your allies' data in all that you do, whether that's individual action or organizational leadership. Learn more about safeguarding the data of your privacy comrades.
+في رحلتك مع الخصوصية، احرص ألا تجمع أو تشارك بيانات أحد دون استئذانه. أمان بيانات رفاقك أمانة في كل خطواتك، سواء كنت تعمل وحدك أو تقود فريقا. تعرف كيف تحمي بيانات رفاقك في رحلة الخصوصية.
 
 تعرف على المزيد :material-arrow-right-drop-circle:
 {align=right} {align=right}
@@ -382,16 +382,16 @@ Through your privacy work, be careful to never collect or share the data of othe
 
 <button class="toolbox-button-top">[العودة إلى الأعلى :material-toolbox:] (#toolbox-compartments)</button> <br>
 
-## Stay Persistent
+## حافظ على ثباتك
 
 <a href="tip-small-actions-matter">
 <div class="toolbox-tip-card toolbox-border-persistence" markdown>
 
-### 1. Small actions matter
+### 1. الخطوات البسيطة تصنع فارقا
 
-![Puzzle piece icon](../../assets/img/activism/icons/icon-tips/icon-tips-small.webp){class="toolbox-tip-icon"}
+![رمز قطعة اللغز] (../../assets/img/activism/icons/icon-tips/icon-tips-small.webp){class="رمز-تلميح-صندوق-أدوات-تلميح-أيقونة"}
 
-There is so much to do in the movement for better privacy rights. So much, that it's sometimes easy to feel discouraged when facing the scale of what's left to accomplish. But everything helps, and even the smallest action counts. Learn more about why every action and every victory matters, no matter how small.
+أمامنا الكثير لنقدمه في رحلتنا نحو خصوصية أفضل. لدرجة أننا قد نشعر ببعض الإحباط أحيانا حين نتأمل طول الطريق المتبقي. لكن تذكر، كل مجهودٍ يُثمر، وأبسط الخطوات تترك أثرا. تعرف كيف أن كل خطوة وكل انتصار يترك أثراً، مهما كان بسيطا.
 
 تعرف على المزيد :material-arrow-right-drop-circle:
 {align=right} {align=right}
@@ -402,11 +402,11 @@ There is so much to do in the movement for better privacy rights. So much, that 
 <a href="tip-take-time-to-rest">
 <div class="toolbox-tip-card toolbox-border-persistence" markdown>
 
-### 2. Take time to rest, but come back to fight with us
+### 2. خذ وقتك لتلتقط أنفاسك، ثم عد لنقف معا من جديد
 
-![Low battery icon](../../assets/img/activism/icons/icon-tips/icon-tips-rest.webp){class="toolbox-tip-icon"}
+![رمز البطارية المنخفضة] (../../assets/img/activism/icons/icon-tips/icon-tips-rest.webp){class="رمز-تلميح-صندوق-أدوات-تلميح-أيقونة"}
 
-The battle for privacy rights will be a long one. This isn't a sprint, it's a marathon. If you want to be a good advocate, you _must_ take the time to rest when needed. Burning out isn't an option, we cannot afford to lose your precious contribution! Learn more about why it's fundamental to learn to rest when you need it.
+رحلتنا من أجل حقوق الخصوصية قد تطول. لأمر ليس سباقا قصيرا، بل مسيرة تحتاج لنَفَس طويل. لتستمر في ترك أثر جميل، لا تنس أن تمنح نفسك حق الراحة متى احتجتها. لا تدع الإرهاق يُطفئ شغفك، فبصمتك الغالية لا غنى لنا عنها! تعرف أكثر على أهمية أن تمنح نفسك حق الراحة متى احتجت لذلك.
 
 تعرف على المزيد :material-arrow-right-drop-circle:
 {align=right} {align=right}
@@ -416,16 +416,16 @@ The battle for privacy rights will be a long one. This isn't a sprint, it's a ma
 
 <button class="toolbox-button-top">[العودة إلى الأعلى :material-toolbox:] (#toolbox-compartments)</button> <br>
 
-## Take Action!
+## بادر بخطوتك!
 
 <a href="tip-engage-boosts-and-contribute">
 <div class="toolbox-tip-card toolbox-border-action" markdown>
 
-### 1. Engage, boost, and contribute
+### 1. شارك، ساند، وضَع بصمتك
 
-![Megaphone icon](../../assets/img/activism/icons/icon-tips/icon-tips-engage.webp){class="toolbox-tip-icon"}
+![أيقونة مكبر الصوت](../../assets/img/activism/icons/icon-tips/icon-tips-engage.webp){class="رمز صندوق الأدوات-تلميح-أيقونة"}
 
-Once you have the knowledge, motivation, and energy, it's time to act! Perhaps you've read all of these tips, or read through our Knowledge Base already! But you don't need to know that much about privacy to start contributing. Learn more about how to start being a privacy activist.
+بمجرد أن تكتمل معرفتك، ويتجدد شغفك وطاقتك، فقد حان وقت الانطلاق! لعلك قرأتَ كل هذه النصائح، أو أبحرتَ بالفعل في قاعدة معارفنا! لكنك لا تحتاج لأن تكون خبيرا في الخصوصية لتبدأ بترك أثرك. اكتشف كيف تبدأ خطواتك الأولى كداعم ومدافع عن الخصوصية.
 
 تعرف على المزيد :material-arrow-right-drop-circle:
 {align=right} {align=right}
@@ -436,11 +436,11 @@ Once you have the knowledge, motivation, and energy, it's time to act! Perhaps y
 <a href="tip-level-up-assemble-and-organize">
 <div class="toolbox-tip-card toolbox-border-action" markdown>
 
-### 2. Level up! Assemble and organize
+### 2. ارتقِ بمهاراتك! نظم جهودك
 
-![Raised fist icon](../../assets/img/activism/icons/icon-tips/icon-tips-organize.webp){class="toolbox-tip-icon"}
+![أيقونة القبضة المرفوعة] (../../assets/img/activism/icons/icon-tips/icon-tips-organize.webp){class="رمز صندوق الأدوات-تلميح-أيقونة"}
 
-If you've been a privacy advocate for a while, maybe it's time to level up and grow as a leader in your community. Becoming a leader can mean starting a local group, or initiating bigger projects online. Learn more about how to become a _good_ leader in the privacy rights movement.
+إن كنتَ تسير في درب الدفاع عن الخصوصية منذ مدة، فلعله الوقت المناسب لتنتقل إلى آفاق أرحب وتغدو ملهما وقائدا في مجتمعك. أن تصبح قائدا يعني أن تبادر بتأسيس مجموعة محلية حولك، أو تطلق مشاريع طموحة تصل للعالم أجمع عبر الإنترنت. اكتشف كيف تصبح صوتا _ملهماً_ وقائدا مؤثراً في رحلة الدفاع عن حقوق الخصوصية.
 
 تعرف على المزيد :material-arrow-right-drop-circle:
 {align=right} {align=right}

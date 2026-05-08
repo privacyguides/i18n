@@ -58,6 +58,6 @@ The server-side source code and infrastructure which underpins Ente Photos under
 - Must allow for easy exports of all files/documents.
 - Musi być open source.
 
-### Best Case
+### Najlepszy scenariusz
 
 - Should have a published audit from a reputable, independent third party.

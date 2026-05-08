@@ -5,7 +5,7 @@ icon: fontawesome/solid/puzzle-piece
 cover: activism/banner-toolbox-tip-small.webp
 ---
 
-There is so much to do in the movement for better privacy rights. So much, that it's sometimes easy to feel discouraged when facing the scale of what's left to accomplish. But **everything helps**. Every small improvement counts, and every small victory should be celebrated.
+أمامنا الكثير لنقدمه في رحلتنا نحو خصوصية أفضل. لدرجة أننا قد نشعر ببعض الإحباط أحيانا حين نتأمل طول الطريق المتبقي. But **everything helps**. Every small improvement counts, and every small victory should be celebrated.
 
 Even if you don't feel like you have the [energy](tip-take-time-to-rest.md) to move a mountain today, there are plenty of small actions you can do.
 
