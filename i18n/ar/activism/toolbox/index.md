@@ -143,11 +143,11 @@ cover: activism/banner-activism-toolbox.webp
 <a href="tip-keep-in-mind-the-whole-landscape">
 <div class="toolbox-tip-card toolbox-border-perspective" markdown>
 
-### 2. Keep in mind the whole landscape
+### 2. أبقِ الصورة الشاملة حاضرة في ذهنك
 
-![Globe icon](../../assets/img/activism/icons/icon-tips/icon-tips-landscape.webp){class="toolbox-tip-icon"}
+![أيقونة الكرة الأرضية] (../../assets/img/activism/icons/icon-tips/icon-tips-landscape.webp){class="رمز صندوق الأدوات-تلميح-أيقونة"}
 
-Privacy isn't just about the tools, the laws, or the practices of any individual or organization. To move our society in a place where everyone benefits from privacy by default, we must consider technologies, laws, and culture holistically. Learn more about remembering to consider the whole landscape.
+الخصوصية لا تقتصر على الأدوات التي نستخدمها، أو القوانين التي تُسن، أو حتى ممارسات فرد أو مؤسسة بعينها. لنصل بمجتمعنا إلى واقع يلمس فيه الجميع ثمار الخصوصية كحق تلقائي، علينا أن ننظر إلى التقنيات، والقوانين، والثقافة بمنظور شمولي ومتكامل. اكتشف المزيد حول كيفية إبقاء الصورة الشاملة نصب عينيك.
 
 تعرف على المزيد :material-arrow-right-drop-circle:
 {align=right} {align=right}
@@ -158,11 +158,11 @@ Privacy isn't just about the tools, the laws, or the practices of any individual
 <a href="tip-consider-everyones-unique-situation">
 <div class="toolbox-tip-card toolbox-border-perspective" markdown>
 
-### 3. Consider everyone's unique situation
+### 3. ضع في حسبانك تباين الظروف لكل فرد
 
-![People with line over and under icon](../../assets/img/activism/icons/icon-tips/icon-tips-everyone.webp){class="toolbox-tip-icon"}
+![الأشخاص الذين لديهم خط فوق الأيقونة وتحتها](../../assets/img/activism/icons/icon-tips/icon-tips-everyone.webp){class="toolbox-tip-tip-conic"}
 
-Everyone has different needs and faces different dangers when their personal data is exposed. To give actionable privacy advice and recommendations, it's essential to keep in mind everyone's unique situation. Learn more about better evaluating each person's threat model.
+فلكلِ فردٍ احتياجاته الخاصة، ومخاطر متباينة قد تتربص به عند تعرض بياناته الشخصية للانكشاف. لكي نقدم نصائح وتوصيات عملية في حماية الخصوصية، من الجوهري أن نضع نُصب أعيننا تباين الظروف والسياقات الفريدة لكل فرد. Learn more about better evaluating each person's threat model.
 
 تعرف على المزيد :material-arrow-right-drop-circle:
 {align=right} {align=right}

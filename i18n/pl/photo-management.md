@@ -1,16 +1,16 @@
 ---
 title: Zarządzanie zdjęciami
 icon: material/image
-description: These photo management tools keep your personal photos safe from the prying eyes of cloud storage providers and other unauthorized parties.
+description: Te narzędzia do zarządzania zdjęciami chronią prywatne fotografie przed wścibskimi spojrzeniami dostawców chmury i innych nieuprawnionych podmiotów.
 cover: photo-management.webp
 ---
 
 <small>Chroni przed następującymi zagrożeniami:</small>
 
-- [:material-bug-outline: Passive Attacks](basics/common-threats.md#security-and-privacy){ .pg-orange }
+- [:material-bug-outline: Ataki pasywne](basics/common-threats.md#security-and-privacy){ .pg-orange }
 - [:material-server-network: Dostawcy usług](basics/common-threats.md#privacy-from-service-providers){ .pg-teal }
 
-Most cloud **photo management solutions** like Google Photos, Flickr, and Amazon Photos don't secure your photos against being accessed by the cloud storage provider themselves. These options keep your personal photos private, while allowing you to share them only with family and trusted people.
+Większość rozwiązań do zarządzania zdjęciami w chmurze, takich jak Google Photos, Flickr i Amazon Photos, nie zabezpiecza zdjęć przed możliwością dostępu do nich przez samego dostawcę usługodawcę. Te opcje zapewniają prywatność osobistych zdjęć, jednocześnie umożliwiając ich udostępnianie wyłącznie rodzinie i zaufanym osobom.
 
 ## Ente Photos
 
@@ -18,14 +18,14 @@ Most cloud **photo management solutions** like Google Photos, Flickr, and Amazon
 
 ![Ente logo](assets/img/photo-management/ente.svg){ align=right }
 
-**Ente Photos** is an end-to-end encrypted photo backup service which supports automatic backups on iOS and Android. Their code is fully open source, both on the client side and on the server side. It is also [self-hostable](https://github.com/ente-io/ente/tree/main/server#self-hosting).
+Ente Photos to kompleksowa usługa tworzenia kopii zapasowych zdjęć z szyfrowaniem end-to-end, która obsługuje automatyczne kopie zapasowe na iOS i Androidzie. Kod jest w pełni open source, zarówno po stronie klienta, jak i serwera. Jest również możliwość [samodzielnego hostowania](https://github.com/ente-io/ente/tree/main/server#self-hosting).
 
-The free plan offers 10 GB of storage as long as you use the service at least once a year.
+Darmowy plan oferuje 10 GB przestrzeni, pod warunkiem korzystania z usługi co najmniej raz w roku.
 
-[:octicons-home-16: Homepage](https://ente.com){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://ente.com/privacy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://ente.com/faq){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/ente-io/ente){ .card-link title="Source Code" }
+[:octicons-home-16: Strona główna](https://ente.com){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://ente.com/privacy){ .card-link title="Polityka prywatności" }
+[:octicons-info-16:](https://ente.com/faq){ .card-link title="Dokumentacja" }
+[:octicons-code-16:](https://github.com/ente-io/ente){ .card-link title="Kod źródłowy" }
 
 <details class="downloads" markdown>
 <summary>Pobierz</summary>
@@ -37,13 +37,13 @@ The free plan offers 10 GB of storage as long as you use the service at least o
 - [:fontawesome-brands-windows: Windows](https://ente.com/download)
 - [:simple-apple: macOS](https://ente.com/download)
 - [:simple-linux: Linux](https://ente.com/download)
-- [:octicons-browser-16: Web](https://web.ente.io)
+- [:octicons-browser-16: W przeglądarce](https://web.ente.io)
 
 </details>
 
 </div>
 
-The server-side source code and infrastructure which underpins Ente Photos underwent an audit by [Cure53](https://ente.com/blog/cern-audit) in October 2025. Previous audits were completed by [Cure53](https://ente.com/blog/cryptography-audit) in March 2023 and by [Fallible](https://ente.com/reports/Fallible-Audit-Report-19-04-2023.pdf) in April 2023.
+Kod serwera oraz infrastruktura na której opiera się Ente Photos zostały poddane audytowi przez [Cure53](https://ente.com/blog/cern-audit) w październiku 2025 roku. Wcześniejsze audyty zostały przeprowadzone przez [Cure53](https://ente.com/blog/cryptography-audit) w marcu 2023 roku oraz przez [Fallible](https://ente.com/reports/Fallible-Audit-Report-19-04-2023.pdf) w kwietniu 2023 roku.
 
 ## Kryteria
 
@@ -51,13 +51,13 @@ The server-side source code and infrastructure which underpins Ente Photos under
 
 ### Minimalne wymagania
 
-- Cloud-hosted providers must enforce E2EE.
-- Must offer a free plan or trial period for testing.
-- Must support TOTP or FIDO2 multifactor authentication, or passkey logins.
-- Must offer a web interface which supports basic file management functionality.
-- Must allow for easy exports of all files/documents.
+- Dostawcy usług hostowanych w chmurze muszą egzekwować E2EE.
+- Musi oferować bezpłatny plan lub okres próbny do testowania.
+- Musi obsługiwać uwierzytelnianie wieloskładnikowe TOTP lub FIDO2 albo logowanie za pomocą klucza dostępu.
+- Musi oferować interfejs sieciowy obsługujący podstawowe funkcje zarządzania plikami.
+- Musi umożliwiać łatwy eksport wszystkich plików/dokumentów.
 - Musi być open source.
 
 ### Najlepszy scenariusz
 
-- Should have a published audit from a reputable, independent third party.
+- Powinna mieć opublikowany audyt przeprowadzony przez renomowaną, niezależną stronę trzecią.

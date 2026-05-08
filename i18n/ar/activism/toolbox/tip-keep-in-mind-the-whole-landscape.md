@@ -5,7 +5,7 @@ icon: fontawesome/solid/globe
 cover: activism/banner-toolbox-tip-landscape.webp
 ---
 
-Privacy isn't just about the tools, the laws, or the practices of any individual or organization. It's about _all_ of that. To move our society in a place where everyone benefits from privacy by default, we must consider technologies, laws, and culture holistically.
+الخصوصية لا تقتصر على الأدوات التي نستخدمها، أو القوانين التي تُسن، أو حتى ممارسات فرد أو مؤسسة بعينها. It's about _all_ of that. لنصل بمجتمعنا إلى واقع يلمس فيه الجميع ثمار الخصوصية كحق تلقائي، علينا أن ننظر إلى التقنيات، والقوانين، والثقافة بمنظور شمولي ومتكامل.
 
 Here's how to get better at **considering the whole landscape**:
 

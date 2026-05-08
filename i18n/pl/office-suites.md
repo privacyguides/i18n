@@ -1,7 +1,7 @@
 ---
 title: "Pakiety biurowe"
 icon: material/file-edit-outline
-description: These office suites offer their full functionality without an account and can be used offline.
+description: Te pakiety biurowe oferują pełną funkcjonalność bez konieczności posiadania konta i mogą być używane offline.
 cover: office-suites.webp
 ---
 
@@ -9,7 +9,7 @@ cover: office-suites.webp
 
 - [:material-server-network: Dostawcy usług](basics/common-threats.md#privacy-from-service-providers){ .pg-teal }
 
-Choose an **office suite** that does not require logging in to an account to access its full functionality. The tools listed here can be used offline and could reasonably act as a replacement for Microsoft Office for most needs.
+Wybierz **pakiet biurowy**, który nie wymaga logowania do konta w celu uzyskania dostępu do pełnej funkcjonalności. Wymienione tutaj narzędzia mogą być używane w trybie offline i w większości przypadków mogą zastąpić pakiet Microsoft Office.
 
 ## LibreOffice
 
@@ -17,13 +17,13 @@ Choose an **office suite** that does not require logging in to an account to acc
 
 ![LibreOffice logo](assets/img/office-suites/libreoffice.svg){ align=right }
 
-**LibreOffice** is a free and open-source office suite with extensive functionality.
+**LibreOffice** to darmowy pakiet biurowy open source, o szerokiej funkcjonalności.
 
-[:octicons-home-16: Homepage](https://libreoffice.org){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://libreoffice.org/about-us/privacy/privacy-policy-en){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://documentation.libreoffice.org/en/english-documentation){ .card-link title=Documentation}
-[:octicons-code-16:](https://libreoffice.org/about-us/source-code){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://libreoffice.org/donate){ .card-link title=Contribute }
+[:octicons-home-16: Strona Główna](https://libreoffice.org){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://libreoffice.org/about-us/privacy/privacy-policy-en){ .card-link title="Polityka Prywatności" }
+[:octicons-info-16:](https://documentation.libreoffice.org/en/english-documentation){ .card-link title=Dokumentacja}
+[:octicons-code-16:](https://libreoffice.org/about-us/source-code){ .card-link title="Kod źródłowy" }
+[:octicons-heart-16:](https://libreoffice.org/donate){ .card-link title=Datki }
 
 <details class="downloads" markdown>
 <summary>Pobierz</summary>
@@ -45,12 +45,12 @@ Choose an **office suite** that does not require logging in to an account to acc
 
 ![OnlyOffice logo](assets/img/office-suites/onlyoffice.svg){ align=right }
 
-**OnlyOffice** is a cloud-based free and open-source office suite with extensive functionality, including integration with Nextcloud.
+**OnlyOffice** to oparty na chmurze darmowy pakiet biurowy open source z rozbudowaną funkcjonalnością, w tym integracją z Nextcloud.
 
-[:octicons-home-16: Homepage](https://onlyoffice.com){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://help.onlyoffice.com/products/files/doceditor.aspx?fileid=5048502&doc=SXhWMEVzSEYxNlVVaXJJeUVtS0kyYk14YWdXTEFUQmRWL250NllHNUFGbz0_IjUwNDg1MDIi0){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://helpcenter.onlyoffice.com/userguides.aspx){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/ONLYOFFICE){ .card-link title="Source Code" }
+[:octicons-home-16: Strona główna](https://onlyoffice.com){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://help.onlyoffice.com/products/files/doceditor.aspx?fileid=5048502&doc=SXhWMEVzSEYxNlVVaXJJeUVtS0kyYk14YWdXTEFUQmRWL250NllHNUFGbz0_IjUwNDg1MDIi0){ .card-link title="Polityka prywatności" }
+[:octicons-info-16:](https://helpcenter.onlyoffice.com/userguides.aspx){ .card-link title="Dokumentacja"}
+[:octicons-code-16:](https://github.com/ONLYOFFICE){ .card-link title="Kod źródłowy" }
 
 <details class="downloads" markdown>
 <summary>Pobierz</summary>
@@ -70,8 +70,8 @@ Choose an **office suite** that does not require logging in to an account to acc
 
 **Należy pamiętać, że nie jesteśmy powiązani z żadnym z polecanych przez nas projektów.** Oprócz [naszych standardowych kryteriów](about/criteria.md) opracowaliśmy jasny zestaw wymagań, które pozwalają nam formułować obiektywne zalecenia. Sugerujemy zapoznanie się z tą listą przed wyborem projektu oraz przeprowadzenie własnych badań, aby upewnić się, że jest to odpowiedni wybór dla Ciebie.
 
-- Must be cross-platform.
+- Musi być wieloplatformowy.
 - Musi być oprogramowaniem typu open source.
-- Must function offline.
-- Must support editing documents, spreadsheets, and slideshows.
-- Must export files to standard document formats.
+- Musi działać offline.
+- Musi obsługiwać edycję dokumentów, arkuszy kalkulacyjnych i pokazów slajdów.
+- Musi eksportować pliki do standardowych formatów dokumentów.

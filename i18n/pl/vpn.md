@@ -36,8 +36,8 @@ Zalecani przez nas dostawcy stosują szyfrowanie, obsługują WireGuard i OpenVP
 | Dostawca              | Kraje | WireGuard                     | Przekierowanie portów                                     | IPv6                                                            | Płatności anonimowe |
 | --------------------- | ----- | ----------------------------- | --------------------------------------------------------- | --------------------------------------------------------------- | ------------------- |
 | [Proton](#proton-vpn) | 127+  | :material-check:{ .pg-green } | :material-alert-outline:{ .pg-orange } Częściowe wsparcie | :material-information-outline:{ .pg-blue } Ograniczone wsparcie | Gotówka             |
-| [IVPN](#ivpn)         | 41+   | :material-check:{ .pg-green } | :material-alert-outline:{ .pg-orange }                    | :material-information-outline:{ .pg-blue } Tylko wychodzące     | Monero  Cash        |
-| [Mullvad](#mullvad)   | 49+   | :material-check:{ .pg-green } | :material-alert-outline:{ .pg-orange }                    | :material-check:{ .pg-green }                                   | Monero  Cash        |
+| [IVPN](#ivpn)         | 41+   | :material-check:{ .pg-green } | :material-alert-outline:{ .pg-orange }                    | :material-information-outline:{ .pg-blue } Tylko wychodzące     | Monero  Gotówka     |
+| [Mullvad](#mullvad)   | 49+   | :material-check:{ .pg-green } | :material-alert-outline:{ .pg-orange }                    | :material-check:{ .pg-green }                                   | Monero  Gotówka     |
 
 ### Proton VPN
 
@@ -77,7 +77,7 @@ Uważamy też, że dla bezpieczeństwa kluczy prywatnych dostawcy VPN lepiej jes
 
 #### :material-check:{ .pg-green } Niezależnie audytowany
 
-Independent security researcher Ruben Santamarta conducted audits for Proton VPN's [browser extensions](https://drive.proton.me/urls/RWDD2SHT98#v7ZrwNcafkG8) and [apps](https://drive.proton.me/urls/RVW8TXG484#uTXX5Fc9GADo) in September 2024 and January 2025, respectively. Infrastruktura Proton VPN przechodzi [coroczny audyt](https://protonvpn.com/blog/no-logs-audit) przeprowadzany przez Securitum od 2022.
+Niezależny badacz bezpieczeństwa Ruben Santamarta przeprowadził audyty dla [rozszerzeń przeglądarki](https://drive.proton.me/urls/RWDD2SHT98#v7ZrwNcafkG8) we wrześniu 2024 i [aplikacji](https://drive.proton.me/urls/RVW8TXG484#uTXX5Fc9GADo) w styczniu 2025. Infrastruktura Proton VPN przechodzi [coroczny audyt](https://protonvpn.com/blog/no-logs-audit) przeprowadzany przez Securitum od 2022.
 
 Wcześniej, Proton VPN przeszedł niezależny audyt przeprowadzony przez SEC Consult w Styczniu 2020. Audyt wykazał kilka luk o średnim i niskim ryzyku w aplikacjach Proton VPN dla systemów Windows, Android i iOS, które zostały „należycie naprawione” przez Proton VPN przed publikacją raportów. Żaden ze znalezionych problemów nie mógł umożliwić atakującemu zdalnego dostępu do Twojego urządzenia ani ruchu sieciowego. Poszczególne raporty dla każdej platformy można znaleźć w ich dedykowanym [wpisie na blogu](https://web.archive.org/web/20250307041036/https://protonvpn.com/blog/open-source) na ten audytu.
 
@@ -122,15 +122,15 @@ Warto o tym wspomnieć, ponieważ choć niekoniecznie odradzamy dzielenie się a
 
 </div>
 
-#### :material-alert-outline:{ .pg-orange } Additional Notes
+#### :material-alert-outline:{ .pg-orange } Dodatkowe uwagi
 
 Aplikacje Proton VPN obsługują uwierzytelnianie dwuskładnikowe na wszystkich platformach. Proton VPN posiada własne serwery i centra danych w Szwajcarii, Islandii i Szwecji. Usługa oferuje blokowanie treści oraz znanego złośliwego oprogramowania poprzez serwery DNS. Dodatkowo Proton VPN udostępnia serwery „Tor”, umożliwiające łatwe łączenie się z witrynami .onion, choć wciąż zdecydowanie zalecamy korzystanie z [oficjalnej przeglądarki Tor Browser](tor.md#tor-browser) w tym celu.
 
 ##### Funkcja Kill switch zapewnia słabą ochronę na macOS
 
-Kill switch Proton VPN na macOS nie blokuje żadnego ruchu sieciowego, kiedy celowo rozłączysz VPN, <em x-id"3">, w tym gdy rozłączysz się, poprzez przełączanie serwera.</em> Nie należy nawiązywać żadnych poufnych połączeń, gdy VPN jest wyłączony, ani podczas przełączania serwerów. It is only designed to prevent traffic leaks in the case of an unexpected VPN disconnection, which is still a useful feature to have, but it does not provide the same level of protection as a kill switch that blocks all traffic when the VPN is turned off.
+Kill switch Proton VPN na macOS nie blokuje żadnego ruchu sieciowego, kiedy celowo rozłączysz VPN, <em x-id"3">, w tym gdy rozłączysz się, poprzez przełączanie serwera.</em> Nie należy nawiązywać żadnych poufnych połączeń, gdy VPN jest wyłączony, ani podczas przełączania serwerów. Został zaprojektowany wyłącznie w celu zapobiegania wyciekom ruchu w przypadku nieoczekiwanego rozłączenia VPN. Choć nadal jest to przydatna funkcja, nie zapewnia ona takiego samego poziomu ochrony jak kill switch, który blokuje cały ruch po wyłączeniu VPN.
 
-Additionally, system crashes [may occur](https://protonvpn.com/support/macos-t2-chip-kill-switch) on Intel-based Macs when using the VPN kill switch. Jeśli potrzebujesz tej funkcji i korzystasz z Maca z chipsetem Intel, warto rozważyć użycie innej usługi VPN.
+Ponadto korzystanie z funkcji VPN kill switch na komputerach Mac z procesorami Intel [może powodować](https://protonvpn.com/support/macos-t2-chip-kill-switch) awarie systemu. Jeśli potrzebujesz tej funkcji i korzystasz z Maca z chipsetem Intel, warto rozważyć użycie innej usługi VPN.
 
 ### IVPN
 
@@ -301,20 +301,20 @@ Ważne jest, aby pamiętać, że korzystanie z dostawcy usługi VPN nie czyni Ci
 
 ### Technologia
 
-We require our recommended providers to support modern technologies currently available to VPNs.
+Od rekomendowanych przez nas dostawców wymagamy obsługi nowoczesnych technologii dostępnych obecnie dla sieci VPN.
 
 **Minimalne wymagania:**
 
-- Must provide standard configuration files which can be used in a generic, open-source client such as the WireGuard apps.
-- Support for strong protocols such as WireGuard.
-- Functional kill switch built in to service-provided clients on our recommended [desktop](desktop.md) and [mobile](android/distributions.md) platforms. This kill switch should be able to block all internet traffic when the VPN connection drops unexpectedly.
+- Musi zapewniać standardowe pliki konfiguracyjne, które mogą być używane w ogólnodostępnym kliencie open source, takim jak aplikacje WireGuard.
+- Obsługa silnych protokołów, takich jak WireGuard.
+- Funkcjonalny Kill switch wbudowany w klientów świadczących usługi na naszych zalecanych platformach [stacjonarnych](desktop.md) i [mobilnych](android/distributions.md). Ten wyłącznik awaryjny powinien być w stanie zablokować cały ruch internetowy, gdy połączenie VPN zostanie nieoczekiwanie przerwane.
 - Obsługa multi-hop (łączenie przez wiele serwerów), co zwiększa prywatność w razie kompromitacji jednego z węzłów.
 - Jeśli dostawca oferuje własne aplikacje, powinny być one [open source](https://en.wikipedia.org/wiki/Open_source), podobnie jak oprogramowanie VPN, na którym zazwyczaj są oparte. Wierzymy, że dostępność [kodu źródłowego](https://en.wikipedia.org/wiki/Source_code) zapewnia większą przejrzystość i możliwość weryfikacji działania programu.
 - Funkcje odporne na cenzurę, zaprojektowane tak, aby omijać zapory sieciowe bez konieczności analizy głębokiej zawartości pakietów (DPI).
 
 **Najlepszy scenariusz:**
 
-- Kill switch on all major platforms with highly configurable options (enable/disable on certain networks, on boot, etc.)
+- Kill switch na wszystkich głównych platformach z rozbudowanymi opcjami konfiguracji (włączenie/wyłączenie w określonych sieciach, uruchamianie przy starcie systemu itp.).
 - Łatwe w obsłudze aplikacje VPN.
 - Obsługa protokołu [IPv6](https://en.wikipedia.org/wiki/IPv6). Oczekujemy, że serwery umożliwiają zarówno połączenia przychodzące przez IPv6, jak i dostęp do usług działających w tej sieci.
 - Możliwość [zdalnego przekierowywania portów](https://en.wikipedia.org/wiki/Port_forwarding#Remote_port_forwarding), co ułatwia tworzenie połączeń w aplikacjach typu P2P ([peer-to-peer](https://en.wikipedia.org/wiki/Peer-to-peer)) lub przy hostowaniu własnych usług (np. serwera Mumble).
