@@ -43,7 +43,7 @@ Darmowy plan oferuje 10 GB przestrzeni, pod warunkiem korzystania z usługi co n
 
 </div>
 
-Kod serwera oraz infrastruktura na której opiera się Ente Photos zostały poddane audytowi przez [Cure53](https://ente.com/blog/cern-audit) w październiku 2025 roku. Wcześniejsze audyty zostały przeprowadzone przez [Cure53](https://ente.com/blog/cryptography-audit) w marcu 2023 roku oraz przez [Fallible](https://ente.com/reports/Fallible-Audit-Report-19-04-2023.pdf) w kwietniu 2023 roku.
+Kod źródłowy serwera oraz infrastruktura, na której opiera się Ente Photos zostały poddane audytowi przez [Cure53](https://ente.com/blog/cern-audit) w październiku 2025 roku. Wcześniejsze audyty zostały przeprowadzone przez [Cure53](https://ente.com/blog/cryptography-audit) w marcu 2023 roku oraz przez [Fallible](https://ente.com/reports/Fallible-Audit-Report-19-04-2023.pdf) w kwietniu 2023 roku.
 
 ## Kryteria
 

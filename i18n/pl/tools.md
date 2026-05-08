@@ -455,13 +455,13 @@ Do szyfrowania dysku z systemem operacyjnym zwykle zalecamy użycie narzędzia s
 
 <div class="grid cards" markdown>
 
-- ![Redlib logo](assets/img/frontends/redlib.svg){ .twemoji loading=lazy } [Redlib (Reddit, Web)](frontends.md#redlib)
-- ![ProxiTok logo](assets/img/frontends/proxitok.svg){ .twemoji loading=lazy } [ProxiTok (TikTok, Web)](frontends.md#proxitok)
-- ![FreeTube logo](assets/img/frontends/freetube.svg){ .twemoji loading=lazy } [FreeTube (YouTube, Desktop)](frontends.md#freetube)
-- ![LibreTube logo](assets/img/frontends/libretube.svg#only-light){ .twemoji loading=lazy }![LibreTube logo](assets/img/frontends/libretube-dark.svg#only-dark){ .twemoji loading=lazy } [LibreTube (YouTube, Android)](frontends.md#libretube-android)
-- ![NewPipe logo](assets/img/frontends/newpipe.svg){ .twemoji loading=lazy } [NewPipe (YouTube, Android)](frontends.md#newpipe-android)
-- ![Invidious logo](assets/img/frontends/invidious.svg#only-light){ .twemoji loading=lazy }![Invidious logo](assets/img/frontends/invidious-dark.svg#only-dark){ .twemoji loading=lazy } [Invidious (YouTube, Web)](frontends.md#invidious)
-- ![Piped logo](assets/img/frontends/piped.svg){ .twemoji loading=lazy } [Piped (YouTube, Web)](frontends.md#piped)
+- ![Logo Redlib](assets/img/frontends/redlib.svg){ .twemoji loading=lazy } [Redlib (Reddit; w przeglądarce)](frontends.md#redlib)
+- ![Logo ProxiTok](assets/img/frontends/proxitok.svg){ .twemoji loading=lazy } [ProxiTok (TikTok; w przeglądarce)](frontends.md#proxitok)
+- ![Logo FreeTube](assets/img/frontends/freetube.svg){ .twemoji loading=lazy } [FreeTube (YouTube; aplikacja komputerowa)](frontends.md#freetube)
+- ![Logo LibreTube](assets/img/frontends/libretube.svg#only-light){ .twemoji loading=lazy }![Logo LibreTube](assets/img/frontends/libretube-dark.svg#only-dark){ .twemoji loading=lazy } [LibreTube (YouTube; Android)](frontends.md#libretube-android)
+- ![Logo NewPipe](assets/img/frontends/newpipe.svg){ .twemoji loading=lazy } [NewPipe (YouTube; Android)](frontends.md#newpipe-android)
+- ![Logo Invidious](assets/img/frontends/invidious.svg#only-light){ .twemoji loading=lazy }![Logo Invidious](assets/img/frontends/invidious-dark.svg#only-dark){ .twemoji loading=lazy } [Invidious (YouTube; w przeglądarce)](frontends.md#invidious)
+- ![Logo Piped](assets/img/frontends/piped.svg){ .twemoji loading=lazy } [Piped (YouTube; w przeglądarce)](frontends.md#piped)
 
 </div>
 
@@ -471,13 +471,13 @@ Do szyfrowania dysku z systemem operacyjnym zwykle zalecamy użycie narzędzia s
 
 <div class="grid cards" markdown>
 
-- ![Drip logo](assets/img/health-and-wellness/drip.png){ .twemoji loading=lazy } [Drip](health-and-wellness.md#drip)
-- ![Euki logo](assets/img/health-and-wellness/euki.svg){ .twemoji loading=lazy } [Euki](health-and-wellness.md#euki)
-- ![Apple Health logo](assets/img/health-and-wellness/apple-health.webp#only-light){ .twemoji loading=lazy } ![Apple Health logo](assets/img/health-and-wellness/apple-health-dark.webp#only-dark){ .twemoji loading=lazy } [Apple Health](health-and-wellness.md#apple-health)
-- ![Apple Fitness logo](assets/img/health-and-wellness/apple-fitness.webp){ .twemoji loading=lazy } [Apple Fitness](health-and-wellness.md#apple-fitness)
-- ![Gadgetbridge logo](assets/img/health-and-wellness/gadgetbridge.svg#only-light){ .twemoji loading=lazy }![Gadgetbridge logo](assets/img/health-and-wellness/gadgetbridge-dark.svg#only-dark){ .twemoji loading=lazy } [Gadgetbridge](health-and-wellness.md#gadgetbridge)
-- ![Apple Health logo](assets/img/health-and-wellness/apple-health.webp#only-light){ .twemoji loading=lazy } ![Apple Health logo](assets/img/health-and-wellness/apple-health-dark.webp#only-dark){ .twemoji loading=lazy } [Apple Health Records](health-and-wellness.md#apple-health-records)
-- ![CommonHealth logo](assets/img/health-and-wellness/commonhealth.png){ .twemoji loading=lazy } [CommonHealth](health-and-wellness.md#commonhealth)
+- ![Logo Drip](assets/img/health-and-wellness/drip.png){ .twemoji loading=lazy } [Drip](health-and-wellness.md#drip)
+- ![Logo Euki](assets/img/health-and-wellness/euki.svg){ .twemoji loading=lazy } [Euki](health-and-wellness.md#euki)
+- ![Logo Apple Zdrowie](assets/img/health-and-wellness/apple-health.webp#only-light){ .twemoji loading=lazy } ![Logo Apple Zdrowie](assets/img/health-and-wellness/apple-health-dark.webp#only-dark){ .twemoji loading=lazy } [Apple Zdrowie](health-and-wellness.md#apple-health)
+- ![Logo Apple Fitness](assets/img/health-and-wellness/apple-fitness.webp){ .twemoji loading=lazy } [Apple Fitness](health-and-wellness.md#apple-fitness)
+- ![Logo Gadgetbridge](assets/img/health-and-wellness/gadgetbridge.svg#only-light){ .twemoji loading=lazy }![Logo Gadgetbridge](assets/img/health-and-wellness/gadgetbridge-dark.svg#only-dark){ .twemoji loading=lazy } [Gadgetbridge](health-and-wellness.md#gadgetbridge)
+- ![Logo Apple Zdrowie](assets/img/health-and-wellness/apple-health.webp#only-light){ .twemoji loading=lazy } ![Logo Apple Zdrowie](assets/img/health-and-wellness/apple-health-dark.webp#only-dark){ .twemoji loading=lazy } [Rekordy zdrowotne Apple](health-and-wellness.md#apple-health-records)
+- ![Logo CommonHealth](assets/img/health-and-wellness/commonhealth.png){ .twemoji loading=lazy } [CommonHealth](health-and-wellness.md#commonhealth)
 
 </div>
 

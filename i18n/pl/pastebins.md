@@ -1,7 +1,7 @@
 ---
 title: "Pastebiny"
 icon: material/content-paste
-description: These tools allow you to have full control of any pasted data you share to other parties.
+description: Te narzędzia umożliwiają Ci na pełną kontrolę nad wszelkimi danymi, które udostępniasz innym podmiotom.
 cover: pastebins.webp
 ---
 
@@ -9,20 +9,20 @@ cover: pastebins.webp
 
 - [:material-server-network: Dostawcy usług](basics/common-threats.md#privacy-from-service-providers){ .pg-teal }
 
-[**Pastebins**](https://en.wikipedia.org/wiki/Pastebin) are online services most commonly used to share large blocks of code in a convenient and efficient manner. The pastebins listed here employ client-side encryption and password protection for pasted content; both of these features prevent the website or server operator from reading or accessing the contents of any paste.
+[**Pastebin**](https://en.wikipedia.org/wiki/Pastebin) to usługa online używana zazwyczaj do udostępniania dużych bloków kodu w wygodny i wydajny sposób. Pastebiny tutaj wymienione wykorzystują szyfrowanie po stronie klienta i ochronę hasłem wklejonych treści; obie te funkcje zapobiegają odczytywaniu i uzyskaniu dostępu do zawartości wklejonej stronie i operatorowi serwera.
 
 ## PrivateBin
 
 <div class="admonition recommendation" markdown>
 
-![PrivateBin logo](assets/img/pastebins/privatebin.svg){ align=right }
+![Logo PrivateBin](assets/img/pastebins/privatebin.svg){ align=right }
 
-**PrivateBin** is a minimalist, open-source, online pastebin where the server cannot decrypt and read any pasted data you submit. Data is encrypted/decrypted in the browser using 256-bit AES. It is the improved version of ZeroBin.
+**PrivateBin** to minimalistyczny online pastebin open source, w którym serwer nie może odszyfrować i odczytać wklejonych przez Ciebie danych. Dane są szyfrowane/odszyfrowywane w przeglądarce przy użyciu 256-bitowego algorytmu AES. Jest to ulepszona wersja ZeroBin.
 
-[:octicons-home-16: Homepage](https://privatebin.info){ .md-button .md-button--primary }
-[:octicons-server-16:](https://privatebin.info/directory){ .card-link title="Public Instances"}
-[:octicons-info-16:](https://github.com/PrivateBin/PrivateBin/wiki/FAQ){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/PrivateBin/PrivateBin){ .card-link title="Source Code" }
+[:octicons-home-16: Strona Główna](https://privatebin.info){ .md-button .md-button--primary }
+[:octicons-server-16:](https://privatebin.info/directory){ .card-link title="Instancje publiczne" }
+[:octicons-info-16:](https://github.com/PrivateBin/PrivateBin/wiki/FAQ){ .card-link title="Dokumentacja" }
+[:octicons-code-16:](https://github.com/PrivateBin/PrivateBin){ .card-link title="Kod źródłowy" }
 
 </div>
 
@@ -30,15 +30,15 @@ cover: pastebins.webp
 
 <div class="admonition recommendation" markdown>
 
-![Paaster logo](assets/img/pastebins/paaster.svg){ align=right }
+![Logo Paster](assets/img/pastebins/paaster.svg){ align=right }
 
-**Paaster** is a secure and user-friendly pastebin application that prioritizes privacy and simplicity. With end-to-end encryption and paste history, Paaster ensures that your pasted code remains confidential and accessible.
+**Paaster** to bezpieczna i łatwa w obsłudze aplikacja pastebin, która priorytetowo traktuje prywatność i prostotę. Dzięki szyfrowaniu end-to-end i historii wklejania Paaster zapewnia, że wklejony przez Ciebie kod pozostaje poufny i dostępny.
 
-[:octicons-home-16: Homepage](https://paaster.io){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://paaster.io/privacy-policy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://github.com/WardPearce/paaster#security){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/WardPearce/paaster){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://github.com/sponsors/WardPearce){ .card-link title="Contribute" }
+[:octicons-home-16: Strona główna](https://paaster.io){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://paaster.io/privacy-policy){ .card-link title="Polityka prywatności" }
+[:octicons-info-16:](https://github.com/WardPearce/paaster#security){ .card-link title="Dokumentacja" }
+[:octicons-code-16:](https://github.com/WardPearce/paaster){ .card-link title="Kod źródłowy" }
+[:octicons-heart-16:](https://github.com/sponsors/WardPearce){ .card-link title="Wesprzyj" }
 
 </div>
 
@@ -49,11 +49,11 @@ cover: pastebins.webp
 ### Minimalne wymagania
 
 - Musi być open source.
-- Must encrypt pasted data on the client side before it is sent to the server.
-- Must support password-protected files.
+- Musi szyfrować wklejone dane po stronie klienta, zanim zostaną wysłane na serwer.
+- Musi obsługiwać pliki chronione hasłem.
 
 ### Najlepszy scenariusz
 
 Nasze kryteria „najlepszego scenariusza” określają, jak powinien wyglądać idealny projekt w tej kategorii. Nasze zalecenia nie muszą spełniać wszystkich tych warunków, jednak projekty, które spełniają więcej z nich, mogą być oceniane wyżej od pozostałych na stronie.
 
-- Should have a published audit from a reputable, independent third party.
+- Powinna mieć opublikowany audyt przeprowadzony przez renomowaną, niezależną stronę trzecią.
