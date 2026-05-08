@@ -1,36 +1,36 @@
 ---
-title: "Data Protection Authorities"
-description: The DPA Directory is a tool to help you find the principal consumer privacy law in your region, the authority mandated to enforce it, and how to report violations.
+title: "الجهات المسؤولة عن حماية بياناتك"
+description: صممنا "دليل جهات حماية البيانات" ليكون أداة تساعدك في اكتشاف أهم قوانين خصوصية المستهلك في بلدك أو منطقتك، ومعرفة الجهة المسؤولة عن تطبيقها، والخطوات اللازمة للإبلاغ عن أي مخالفات.
 #icon: fontawesome/solid/address-card
 cover: activism/banner-activism-dpadirectory.webp
 ---
 
-<small>Last update: 2026-03-30</small>
+<small>آخر تحديث: 2026-03-30</small>
 
-The **Data Protection Authority** (DPA) **Directory** is a tool to help you find the main consumer privacy law in your region, and the authority mandated to enforce the law.
+صممنا **دليل جهات حماية البيانات (DPA)** ليكون أداة تساعدك في اكتشاف أهم قوانين خصوصية المستهلك في منطقتك، ومعرفة الجهة المسؤولة عن تطبيقها.
 
-Additionally, this table provides information about each law, authority, contact information for questions, and a link to place a complaint for violation of the law with each authority.
+أيضا، ستجد في هذا الجدول معلومات عن كل قانون والجهة المسؤولة عنه، وبيانات التواصل إذا كان لديك أي استفسار، ورابطاً يمكنك من خلاله الإبلاغ عن أي مخالفة للقانون لدى تلك الجهات.
 
 <div class="admonition info" markdown>
-<p class="admonition-title">More information on privacy laws and reporting violations</p>
+<p class="admonition-title">تعرف على المزيد حول قوانين الخصوصية وكيفية الإبلاغ عن المخالفات</p>
 
-- For more information on how to find a specific privacy law that might not be listed here, and what to look for when reading it, consult the Privacy Activist Toolbox tip to [Know Your Privacy Laws](../toolbox/tip-know-your-privacy-laws.md).
+- للحصول على معلومات أكتر حول كيفية البحث عن قانون خصوصية معين قد لا تجده هنا، وما الذي يجب أن تنتبه إليه عند قراءته، يمكنك مراجعة نصيحة [تعرف على قوانين الخصوصية الخاصة بك](../toolbox/tip-know-your-privacy-laws.md) ضمن "مجموعة أدوات ناشط الخصوصية".
 
-- For more information on how to proceed when reporting a privacy law violation, consult the Privacy Activist Toolbox tip to [Report Privacy Violations](../toolbox/tip-report-privacy-violations.md).
+- لمعرفة المزيد حول الخطوات التي يمكنك اتخاذها عند الإبلاغ عن انتهاك لقوانين الخصوصية، يمكنك مراجعة نصيحة [الإبلاغ عن انتهاكات الخصوصية](../toolbox/tip-report-privacy-violations.md) المتوفرة في "مجموعة أدوات ناشط الخصوصية".
 
 </div>
 
-## Scope and limitations
+## ما يغطيه هذا الدليل وحدوده
 
-- This directory does not constitute legal advice. For any legal questions, consult a privacy lawyer or contact the authority responsible for enforcing the law.
+- يرجى العلم أن هذا الدليل ليس بديلا عن الاستشارة القانونية المتخصصة. للحصول على إجابات لأسئلتك القانونية، يمكنك مراجعة محامي خبير في قوانين الخصوصية أو التواصل مع الجهة المسؤولة عن حماية حقوقك.
 
-- This directory only lists comprehensive consumer data privacy regulations that were effective on the date of the last update.
+- يعرض هذا الدليل فقط قوانين خصوصية بيانات المستهلك الشاملة التي كانت مفعلة وقت آخر تحديث للموقع.
 
-- This directory isn't a complete list of all existing data protection regulations worldwide. If you feel like your region's regulation should be added to it, please reach out to us.
+- يُرجى ملاحظة أن هذا الدليل لا يغطي كل قوانين حماية البيانات حول العالم، فهو ليس قائمة شاملة لكل التشريعات القائمة. إذا كنت تعتقد أن قوانين منطقتك يجب أن تُضاف إلى هذا الدليل، يسعدنا جداً تواصلك معنا.
 
-- This directory does not list specialized privacy regulations related to specific data types, such as health data or children data.
+- يرجى ملاحظة أن هذا الدليل لا يغطي القوانين الخاصة بأنواع معينة من البيانات (مثل بيانات الأطفال أو البيانات الصحية)، حيث يركز بشكل أساسي على القوانين العامة.
 
-- Remember that your data _could_ be protected by a privacy regulation that isn't listed here. This will depend on the region, circumstances, and type of data involved.
+- ضع في اعتبارك أن بياناتك _قد_ تظل محمية بقوانين خصوصية لم تُذكر في هذا الدليل بعد. This will depend on the region, circumstances, and type of data involved.
 
 <div class="admonition warning" markdown>
 <p class="admonition-title">Privacy warning</p>
