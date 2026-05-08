@@ -112,7 +112,7 @@ Metadane dotyczące orientacji obrazu nie są usuwane. Jeśli włączysz zapisyw
 ![Logo Secure PDF Viewer](../assets/img/android/secure_pdf_viewer.svg#only-light){ align=right }
 ![Logo Secure PDF Viewer](../assets/img/android/secure_pdf_viewer-dark.svg#only-dark){ align=right }
 
-**Secure PDF Viewer** to przeglądarka PDF oparta na bibliotece [pdf.js](https://pl.wikipedia.org/wiki/PDF.js), która nie wymaga żadnych uprawnień. PDF jest ładowany do widoku [WebView](https://developer.android.com/guide/webapps/webview) uruchomionego w [piaskownicy](https://pl.wikipedia.org/wiki/Piaskownica_\(środowisko_testowe\)). Oznacza to, że nie jest potrzebne przyznawanie uprawnień bezpośrednio do dostępu do treści czy plików.
+**Secure PDF Viewer** to przeglądarka PDF oparta na bibliotece [pdf.js](https://pl.wikipedia.org/wiki/PDF.js), która nie wymaga żadnych uprawnień. PDF jest ładowany do widoku [WebView](https://developer.android.com/guide/webapps/webview) uruchomionego w [piaskownicy](https://pl.wikipedia.org/wiki/Piaskownica_(środowisko_testowe)). Oznacza to, że nie jest potrzebne przyznawanie uprawnień bezpośrednio do dostępu do treści czy plików.
 
 Do wymuszenia, aby skrypty JavaScript i arkusze stylów w widoku WebView były wyłącznie statyczną zawartością, stosowana jest [Polityka bezpieczeństwa treści](https://en.wikipedia.org/wiki/Content_Security_Policy).
 

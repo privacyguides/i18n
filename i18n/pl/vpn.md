@@ -77,9 +77,9 @@ Uważamy też, że dla bezpieczeństwa kluczy prywatnych dostawcy VPN lepiej jes
 
 #### :material-check:{ .pg-green } Niezależnie audytowany
 
-Independent security researcher Ruben Santamarta conducted audits for Proton VPN's [browser extensions](https://drive.proton.me/urls/RWDD2SHT98#v7ZrwNcafkG8) and [apps](https://drive.proton.me/urls/RVW8TXG484#uTXX5Fc9GADo) in September 2024 and January 2025, respectively. Proton VPN's infrastrcture has undergone [annual audits](https://protonvpn.com/blog/no-logs-audit) by Securitum since 2022.
+Independent security researcher Ruben Santamarta conducted audits for Proton VPN's [browser extensions](https://drive.proton.me/urls/RWDD2SHT98#v7ZrwNcafkG8) and [apps](https://drive.proton.me/urls/RVW8TXG484#uTXX5Fc9GADo) in September 2024 and January 2025, respectively. Infrastruktura Proton VPN przechodzi [coroczny audyt](https://protonvpn.com/blog/no-logs-audit) przeprowadzany przez Securitum od 2022.
 
-Previously, Proton VPN underwent an independent audit by SEC Consult in January 2020. Audyt wykazał kilka luk o średnim i niskim ryzyku w aplikacjach Proton VPN dla systemów Windows, Android i iOS, które zostały „należycie naprawione” przez Proton VPN przed publikacją raportów. Żaden ze znalezionych problemów nie mógł umożliwić atakującemu zdalnego dostępu do Twojego urządzenia ani ruchu sieciowego. Poszczególne raporty dla każdej platformy można znaleźć w ich dedykowanym [wpisie na blogu](https://web.archive.org/web/20250307041036/https://protonvpn.com/blog/open-source) na ten audytu.
+Wcześniej, Proton VPN przeszedł niezależny audyt przeprowadzony przez SEC Consult w Styczniu 2020. Audyt wykazał kilka luk o średnim i niskim ryzyku w aplikacjach Proton VPN dla systemów Windows, Android i iOS, które zostały „należycie naprawione” przez Proton VPN przed publikacją raportów. Żaden ze znalezionych problemów nie mógł umożliwić atakującemu zdalnego dostępu do Twojego urządzenia ani ruchu sieciowego. Poszczególne raporty dla każdej platformy można znaleźć w ich dedykowanym [wpisie na blogu](https://web.archive.org/web/20250307041036/https://protonvpn.com/blog/open-source) na ten audytu.
 
 #### :material-check:{ .pg-green } Oprogramowanie typu open source
 
@@ -87,7 +87,7 @@ Proton VPN udostępnia kod źródłowy swoich aplikacji desktopowych i mobilnych
 
 #### :material-check:{ .pg-green } Akceptuje płatności gotówką
 
-Proton VPN, in addition to accepting credit/debit cards, PayPal, and [Bitcoin](advanced/payments.md#other-coins-bitcoin-ethereum-etc), also accepts **cash/local currency** as an anonymous form of payment.
+Proton VPN, oprócz przyjmowania kart kredytowych i debetowych, PayPala i [Bitcoinów](advanced/payments.md#other-coins-bitcoin-ethereum-etc), także przyjmuje **gotówkę/walutę lokalną** jako anonimową formę płatności.
 
 #### :material-check:{ .pg-green } Obsługa WireGuard
 
@@ -126,9 +126,9 @@ Warto o tym wspomnieć, ponieważ choć niekoniecznie odradzamy dzielenie się a
 
 Aplikacje Proton VPN obsługują uwierzytelnianie dwuskładnikowe na wszystkich platformach. Proton VPN posiada własne serwery i centra danych w Szwajcarii, Islandii i Szwecji. Usługa oferuje blokowanie treści oraz znanego złośliwego oprogramowania poprzez serwery DNS. Dodatkowo Proton VPN udostępnia serwery „Tor”, umożliwiające łatwe łączenie się z witrynami .onion, choć wciąż zdecydowanie zalecamy korzystanie z [oficjalnej przeglądarki Tor Browser](tor.md#tor-browser) w tym celu.
 
-##### Kill switch feature provides poor protections on macOS
+##### Funkcja Kill switch zapewnia słabą ochronę na macOS
 
-Proton VPN's kill switch on macOS does not block any traffic when you intentionally disconnect from the VPN, *including when you disconnect by switching servers.* You should not make any sensitive connections while the VPN is turned off, nor when switching servers. It is only designed to prevent traffic leaks in the case of an unexpected VPN disconnection, which is still a useful feature to have, but it does not provide the same level of protection as a kill switch that blocks all traffic when the VPN is turned off.
+Kill switch Proton VPN na macOS nie blokuje żadnego ruchu sieciowego, kiedy celowo rozłączysz VPN, <em x-id"3">, w tym gdy rozłączysz się, poprzez przełączanie serwera.</em> Nie należy nawiązywać żadnych poufnych połączeń, gdy VPN jest wyłączony, ani podczas przełączania serwerów. It is only designed to prevent traffic leaks in the case of an unexpected VPN disconnection, which is still a useful feature to have, but it does not provide the same level of protection as a kill switch that blocks all traffic when the VPN is turned off.
 
 Additionally, system crashes [may occur](https://protonvpn.com/support/macos-t2-chip-kill-switch) on Intel-based Macs when using the VPN kill switch. Jeśli potrzebujesz tej funkcji i korzystasz z Maca z chipsetem Intel, warto rozważyć użycie innej usługi VPN.
 

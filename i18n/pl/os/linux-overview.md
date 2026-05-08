@@ -1,16 +1,16 @@
 ---
 title: Przegląd systemu Linux
 icon: simple/linux
-description: Linux is an open-source, privacy-focused desktop operating system alternative, but not all distribitions are created equal.
+description: Linux jest alternatywnym systemem operacyjnym open source, ale nie wszystkie dystrybucje są sobie równe.
 ---
 
-**Linux** is an open-source, privacy-focused desktop operating system alternative. In the face of pervasive telemetry and other privacy-encroaching technologies in mainstream operating systems, desktop Linux has remained the clear choice for people looking for total control over their computers from the ground up.
+**Linux** jest alternatywnym systemem operacyjnym open source. W obliczu wszechobecnej telemetrii i innych technologii naruszających prywatność w mainstreamowych systemach operacyjnych stacjonarny Linux pozostaje oczywistym wyborem dla osób poszukujących całkowitej kontroli nad swoimi komputerami od podszewki.
 
-Our website generally uses the term “Linux” to describe **desktop** Linux distributions. Other operating systems which also use the Linux kernel such as ChromeOS, Android, and Qubes OS are not discussed on this page.
+Nasza strona zazwyczaj używa terminu "Linux" aby opisać **stacjonarne** dystrybucje Linuksa. Inne systemy operacyjne, które także używają jądra Linux takie jak ChromeOS, Android, Qubes OS, nie zostały omówione na tej stronie.
 
-[Our Linux Recommendations :material-arrow-right-drop-circle:](../desktop.md ""){.md-button}
+[Nasze rekomendacje dotyczące systemu Linux :material-arrow-right-drop-circle:](../desktop.md ""){.md-button}
 
-## Security Notes
+## Uwagi dotyczące bezpieczeństwa
 
 There are some notable security concerns with Linux which you should be aware of. Despite these drawbacks, desktop Linux distributions are still great for most people who want to:
 

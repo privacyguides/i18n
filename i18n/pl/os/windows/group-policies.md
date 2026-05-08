@@ -86,7 +86,7 @@ Mimo nazw tych zasad domyślnie niczego nie _wymagają_, ale odblokowują _możl
 
 - Zezwalaj na dane diagnostyczne: **Włączone**
   - Opcje: **Wysyłaj wymagane dane diagnostyczne** (w wersji Pro); lub
-  - Options: **Diagnostic data off** (Enterprise or Education Edition)
+  - Opcje: **Dane diagnostyczne wyłączone** (Wersje Enterprise i Education)
 - Ogranicz zbieranie dzienników diagnostycznych: **Włączone**
 - Ogranicz zbieranie zrzutów: **Włączone**
 - Ogranicz opcjonalne dane diagnostyczne dla usługi Desktop Analytics: **Włączone**
