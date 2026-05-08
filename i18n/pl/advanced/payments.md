@@ -1,16 +1,16 @@
 ---
-title: Private Payments
+title: Płatności prywatne
 icon: material/hand-coin
-description: Your buying habits are the holy grail of ad targeting, but you still have plenty of options when it comes to making payments privately.
+description: Twoje nawyki zakupowe są świętym Graalem targetowania reklam, ale nadal masz wiele opcji, jeśli chodzi o dokonywanie płatności prywatnie.
 ---
 
-Data about your buying habits is considered the holy grail of ad targeting: Your purchases can leak a veritable treasure trove of data about you. Unfortunately, the current financial system is anti-privacy by design, enabling banks, other companies, and governments to easily trace transactions. Nevertheless, you have plenty of options when it comes to making payments privately.
+Dane o zwyczajach zakupowych użytkowników są uważane za święty Graal reklam celowanych: Twoje zakupy mogą być prawdziwą skarbnicą danych na Twój temat. Niestety, obecny system finansowy jest z założenia antyprywatny, umożliwiając bankom, innym firmom i rządom na łatwe śledzenie transakcji. Nevertheless, you have plenty of options when it comes to making payments privately.
 
 ## Gotówka
 
-For centuries, **cash** has functioned as the primary form of private payment. Cash has excellent privacy properties in most cases, is widely accepted in most countries, and is **fungible**, meaning it is non-unique and completely interchangeable.
+Przez wieki **gotówka** funkcjonowała jako podstawowa forma prywatnych płatności. Cash has excellent privacy properties in most cases, is widely accepted in most countries, and is **fungible**, meaning it is non-unique and completely interchangeable.
 
-Cash payment laws vary by country. In the United States, special disclosure is required for cash payments over $10,000 to the IRS on [Form 8300](https://irs.gov/businesses/small-businesses-self-employed/form-8300-and-reporting-cash-payments-of-over-10000). The receiving business is required to ID verify the payee’s name, address, occupation, date of birth, and Social Security Number or other TIN (with some exceptions). Regulated exchanges, banks, and money services businesses must collect an ID for transactions exceeding $3,000. Cash contains serial numbers to assist law enforcement in targeted investigations.
+Przepisy dotyczące płatności gotówkowych różnią się w zależności od kraju. In the United States, special disclosure is required for cash payments over $10,000 to the IRS on [Form 8300](https://irs.gov/businesses/small-businesses-self-employed/form-8300-and-reporting-cash-payments-of-over-10000). The receiving business is required to ID verify the payee’s name, address, occupation, date of birth, and Social Security Number or other TIN (with some exceptions). Regulated exchanges, banks, and money services businesses must collect an ID for transactions exceeding $3,000. Cash contains serial numbers to assist law enforcement in targeted investigations.
 
 Despite the above, cash is typically the best option when available.
 

@@ -25,7 +25,7 @@ Do pozostałych zastosowań zalecamy różnorodne usługi e-mail, oparte na zró
 | Dostawca                      | OpenPGP / WKD                          | IMAP / SMTP                                                         | Encrypted Storage                                       | Anonimowe metody płatności                                 |
 | ----------------------------- | -------------------------------------- | ------------------------------------------------------------------- | ------------------------------------------------------- | ---------------------------------------------------------- |
 | [Proton Mail](#proton-mail)   | :material-check:{ .pg-green }          | :material-information-outline:{ .pg-blue } Tylko w płatnych planach | :material-check:{ .pg-green }                           | Gotówka <br>Monero przez pośrednika                  |
-| [mailbox Mail](#mailbox-mail) | :material-check:{ .pg-green }          | :material-check:{ .pg-green }                                       | :material-information-outline:{ .pg-blue } Tylko poczta | Gotówka                                                    |
+| [Mailbox Mail](#mailbox-mail) | :material-check:{ .pg-green }          | :material-check:{ .pg-green }                                       | :material-information-outline:{ .pg-blue } Tylko poczta | Gotówka                                                    |
 | [Tuta](#tuta)                 | :material-alert-outline:{ .pg-orange } | :material-alert-outline:{ .pg-orange }                              | :material-check:{ .pg-green }                           | Monero przez pośrednika <br>Gotówka przez pośrednika |
 
 Oprócz (lub zamiast) jednego z wymienionych tutaj dostawców usług e-mail, możesz rozważyć skorzystanie z dedykowanej [usługi aliasingu e-maili](email-aliasing.md#recommended-providers) w celu zwiększenia swojej prywatności. Między innymi takie usługi pomagają chronić Twoją prawdziwą skrzynkę przed spamem, uniemożliwiają marketerom powiązanie Twoich kont oraz szyfrują wszystkie przychodzące wiadomości za pomocą PGP.
@@ -95,15 +95,15 @@ Proton Mail gromadzi wewnętrzne raporty o awariach, które **nie są** udostęp
 
     Z poziomu skrzynki odbiorczej wybierz :gear: → **Wszystkie ustawienia** → **Konto** → **Bezpieczeństwo i prywatność** → **Prywatność i gromadzenie danych**.
 
-    - [ ] Disable **Collect usage dignostics**
-    - [ ] Disable **Send crash reports**
+    - [ ] Wyłącz **Zbieraj dane diagnostyczne**
+    - [ ] Wyłącz **Wysyłaj raporty o awariach**
 
 === "W aplikacji mobilnej"
 
     Z poziomu skrzynki odbiorczej wybierz :material-menu: → :gear: **Ustawienia** → wybierz swoją nazwę użytkownika.
 
-    - [ ] Disable **Send crash reports**
-    - [ ] Disable **Collect usage dignostics**
+    - [ ] Wyłącz **Wysyłaj raporty o awariach**
+    - [ ] Wyłącz **Zbieraj dane diagnostyczne**
 
 #### :material-check:{ .pg-green } Własne domeny i aliasy
 
@@ -111,7 +111,7 @@ Płatni użytkownicy Proton Mail mogą korzystać z własnej domeny lub z adresu
 
 #### :material-check:{ .pg-green } Prywatne metody płatności
 
-Proton Mail [akceptuje](https://proton.me/pl/support/payment-options) płatność **gotówką** wysłaną pocztą, a także standardowe płatności kartą kredytową/debetową, [Bitcoinem](advanced/payments.md#other-coins-bitcoin-ethereum-etc) oraz przez PayPal. Additionally, you can use [**Monero**](cryptocurrency.md#monero) to purchase vouchers for Proton Mail Plus or Proton Unlimited via their [official](https://discuss.privacyguides.net/t/add-monero-as-an-anonymous-payment-method-for-proton-services/31058/15) reseller [ProxyStore](https://dys2p.com/en/2025-09-09-proton.html).
+Proton Mail [akceptuje](https://proton.me/pl/support/payment-options) płatność **gotówką** wysłaną pocztą, a także standardowe płatności kartą kredytową/debetową, [Bitcoinem](advanced/payments.md#other-coins-bitcoin-ethereum-etc) oraz przez PayPal. Dodatkowo, możesz użyć [**Monero**](cryptocurrency.md#monero) aby zakupić vouchery na Proton Mail Plus albo Proton Unlimited przez ich [oficjalnego](https://discuss.privacyguides.net/t/add-monero-as-an-anonymous-payment-method-for-proton-services/31058/15) pośrednika</a> sprzedaży [ProxyStore](https://dys2p.com/en/2025-09-09-proton.html)
 
 #### :material-check:{ .pg-green } Bezpieczeństwo konta
 
@@ -119,9 +119,9 @@ Proton Mail obsługuje [uwierzytelnianie dwuskładnikowe](https://proton.me/pl/s
 
 #### :material-check:{ .pg-green } Bezpieczeństwo danych
 
-Proton Mail stores your [emails](https://proton.me/blog/zero-access-encryption) and [calendars](https://proton.me/news/protoncalendar-security-model) with PGP-based encryption at rest, where only you have the decryption keys needed to access them later.
+Proton Mail przechowuje twoje [e-maile](https://proton.me/blog/zero-access-encryption) i[ kalendarze](https://proton.me/news/protoncalendar-security-model) z wykorzystaniem szyfrowania opartego na PGP w stanie spoczynku, gdzie tylko Ty posiadasz klucze deszyfrujące potrzebne do późniejszego uzyskania do nich dostępu.
 
-Certain information stored in [Proton Contacts](https://proton.me/support/proton-contacts), such as display names and email addresses, are **not** secured with your own encryption keys, so Proton is able to read them. Contact fields which are protected with your own encryption keys, such as phone numbers, are indicated with a padlock icon.
+Niektóre informacje przechowywane w [Proton Contacts](https://proton.me/support/proton-contacts), takie jak wyświetlane nazwy czy adresy e-mail, **nie** są zabezpieczone twoimi własnymi kluczami szyfrującymi, więc Proton jest w stanie je odczytać. Pola kontaktów, chronione własnymi kluczami szyfrowania, takie jak numer telefonu, oznaczone są ikoną kłódki.
 
 #### :material-check:{ .pg-green } Szyfrowanie wiadomości e-mail
 
@@ -137,7 +137,7 @@ Jeśli posiadasz konto płatne i Twój [rachunek pozostaje nieopłacony](https:/
 
 Plan [Proton Unlimited](https://proton.me/pl/support/proton-plans#proton-unlimited) umożliwia dostęp do innych usług Proton, a także zapewnia korzystanie z wielu własnych domen, nieograniczonej liczby aliasów z funkcją hide-my-email oraz 500 GB przestrzeni dyskowej.
 
-### mailbox Mail
+### Mailbox Mail
 
 <div class="admonition recommendation" markdown>
 
@@ -161,7 +161,7 @@ Konta oferują do 2 GB przestrzeni, którą można zwiększyć w razie potrzeby.
 </div>
 
 #### :material-check:{ .pg-green } Własne domeny i aliasy
-z Mailbox Mail lets you use your own domain, and they support [catch-all](https://kb.mailbox.org/en/private/custom-domains/use-your-own-domain-with-catch-all/) addresses. Mailbox Mail also supports [sub-addressing](https://kb.mailbox.org/en/private/e-mail/what-is-an-alias-and-how-do-i-use-it/), which is useful if you don't want to purchase a domain.
+Mailbox Mail umożliwia korzystanie z własnej domeny oraz obsługuje adresy typu [catch-all](https://kb.mailbox.org/en/private/custom-domains/use-your-own-domain-with-catch-all/) Mailbox Mail również wspiera [sub-adresowanie](https://kb.mailbox.org/en/private/e-mail/what-is-an-alias-and-how-do-i-use-it/), przydatne dla osób, które nie chcą kupować własnej domeny.
 
 #### :material-check:{ .pg-green } Prywatne metody płatności
 
@@ -173,9 +173,9 @@ Mailbox Mail supports [two-factor authentication](https://kb.mailbox.org/en/priv
 
 #### :material-information-outline:{ .pg-blue } Bezpieczeństwo danych
 
-Mailbox Mail allows for encryption of incoming mail using their [encrypted mailbox](https://kb.mailbox.org/en/private/encryption/your-encrypted-mailbox/). Nowe wiadomości, które otrzymujesz, są automatycznie szyfrowane Twoim kluczem publicznym.
+Mailbox Mail umożliwia szyfrowanie przychodzących wiadomości za pomocą ich [szyfrowanej skrzynki pocztowej](https://kb.mailbox.org/en/private/encryption/your-encrypted-mailbox/). Nowe wiadomości, które otrzymujesz, są automatycznie szyfrowane Twoim kluczem publicznym.
 
-However, [Open-Xchange](https://en.wikipedia.org/wiki/Open-Xchange), the software platform used by Mailbox Mail, [does not support](https://kb.mailbox.org/en/business/security-privacy-article/encryption-of-calendar-and-address-book/) the encryption of your address book and calendar. Do tych danych bardziej odpowiednie może być [oddzielne rozwiązanie](calendar.md).
+Mimo to platforma oprogramowania [Open-Xchange](https://en.wikipedia.org/wiki/Open-Xchange), z którego korzysta Mailbox Mail, [nie obsługuje](https://kb.mailbox.org/en/business/security-privacy-article/encryption-of-calendar-and-address-book/) szyfrowania książki adresowej ani kalendarza. Do tych danych bardziej odpowiednie może być [oddzielne rozwiązanie](calendar.md).
 
 #### :material-check:{ .pg-green } Szyfrowanie wiadomości e-mail
 
