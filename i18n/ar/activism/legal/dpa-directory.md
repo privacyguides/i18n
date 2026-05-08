@@ -30,53 +30,53 @@ cover: activism/banner-activism-dpadirectory.webp
 
 - يرجى ملاحظة أن هذا الدليل لا يغطي القوانين الخاصة بأنواع معينة من البيانات (مثل بيانات الأطفال أو البيانات الصحية)، حيث يركز بشكل أساسي على القوانين العامة.
 
-- ضع في اعتبارك أن بياناتك _قد_ تظل محمية بقوانين خصوصية لم تُذكر في هذا الدليل بعد. This will depend on the region, circumstances, and type of data involved.
+- ضع في اعتبارك أن بياناتك _قد_ تظل محمية بقوانين خصوصية لم تُذكر في هذا الدليل بعد. يختلف هذا باختلاف منطقتك، وطبيعة الموقف، ونوع البيانات التي تتعامل معها.
 
 <div class="admonition warning" markdown>
-<p class="admonition-title">Privacy warning</p>
+<p class="admonition-title">تنبيه لحماية خصوصيتك</p>
 
-When sharing personal information with a DPA, keep in mind this information could be shared with the subject of the complaint, and/or displayed publicly. Make sure to consult your DPA's privacy notice first, or ask anonymously how your complaint data might be shared before sending any sensitive information.
+يرجى الانتباه عند مشاركة بياناتك الشخصية مع جهات حماية البيانات؛ فمن المحتمل أن تطلع عليها الجهة التي تشتكي ضدها، أو حتى تُنشر للعلن في بعض الأحيان. من الأفضل أن تطلع على إشعار الخصوصية الخاص بجهة حماية البيانات أولاً، أو تسألهم (دون ذكر اسمك) عن طريقة مشاركة بيانات الشكوى قبل أن ترسل أي تفاصيل حساسة.
 
-For example, the DPA for the state of Oregon in the United States specifies that: "Any information submitted to this form is subject to Oregon’s Public Records Law. You may choose not to include personally identifiable data that you do not wish to be subject to public records requests."
+مثلا، تشير جهة حماية البيانات في ولاية أوريغون بالولايات المتحدة إلى أن: "أي بيانات ترسلها عبر هذا النموذج ستكون خاضعة لقانون السجلات العامة في الولاية". لك كامل الحرية في عدم إضافة أي معلومات شخصية لا تحب أن تظهر للعلن من خلال طلبات السجلات العامة
 
 </div>
 
-## The Directory
+## الدليل
 
 <div class="toolbox-button-grid" markdown>
 
-[:fontawesome-solid-earth-africa:{ .toolbox-button-icon } Africa](#africa){ .toolbox-button .dpadirectory-button .dpadirectory-button-africa }
+[:fontawesome-solid-earth-africa:{ .toolbox-button-icon } أفريقيا](#africa){ .toolbox-button .dpadirectory-button .dpadirectory-button-africa }
 
-[:fontawesome-solid-earth-asia:{ .toolbox-button-icon } Asia](#asia){ .toolbox-button .dpadirectory-button .dpadirectory-button-asia }
+[:fontawesome-solid-earth-asia:{ .toolbox-button-icon } أسيا](#asia){ .toolbox-button .dpadirectory-button .dpadirectory-button-asia }
 
-[:fontawesome-solid-earth-europe:{ .toolbox-button-icon } Europe](#europe){ .toolbox-button .dpadirectory-button .dpadirectory-button-europe }
+[:fontawesome-solid-earth-europe:{ .toolbox-button-icon } أوروبا](#europe){ .toolbox-button .dpadirectory-button .dpadirectory-button-europe }
 
-[:fontawesome-solid-earth-america:{ .toolbox-button-icon } North America](#north-america){ .toolbox-button .dpadirectory-button .dpadirectory-button-northamerica }
+[:fontawesome-solid-earth-america:{ .toolbox-button-icon } شمال أمريكا](#north-america){ .toolbox-button .dpadirectory-button .dpadirectory-button-northamerica }
 
-[:fontawesome-solid-earth-oceania:{ .toolbox-button-icon } Oceania](#oceania){ .toolbox-button .dpadirectory-button .dpadirectory-button-oceania }
+[:fontawesome-solid-earth-oceania:{ .toolbox-button-icon } أوقيانوسيا](#oceania){ .toolbox-button .dpadirectory-button .dpadirectory-button-oceania }
 
-[:fontawesome-solid-earth-america:{ .toolbox-button-icon } South America](#south-america){ .toolbox-button .dpadirectory-button .dpadirectory-button-southamerica }
+[:fontawesome-solid-earth-america:{ .toolbox-button-icon } جنوب أفريقيا](#south-america){ .toolbox-button .dpadirectory-button .dpadirectory-button-southamerica }
 
 </div>
 
 ---
 
-### Africa
+### أفريقيا
 
 <div class="table-wrapper">
 
   <table role="table" class="dpadirectory-table table-africa">
-    <caption role="caption">Data Protection Authority Directory (Africa)</caption>
+    <caption role="caption">دليل حماية البيانات (أفريقيا)</caption>
 
     <!-- Table header -->
     <thead>
       <tr role="row">
-        <th role="column">Region</th>
-        <th role="column" class="table-large-cell">Privacy Law</th>
-        <th role="column">Abbreviation</th>
+        <th role="column">المنطقة</th>
+        <th role="column" class="table-large-cell">قانون حماية البيانات</th>
+        <th role="column">الاسم المختصر</th>
         <th role="column" class="table-large-cell">DPA</th>
-        <th role="column">Contact</th>
-        <th role="column">Complaint</th>
+        <th role="column">التواصل</th>
+        <th role="column">تقديم شكوى</th>
       </tr>
      </thead>
     
@@ -84,151 +84,150 @@ For example, the DPA for the state of Oregon in the United States specifies that
     
       <!-- Egypt -->
       <tr role="row">
-        <td data-cell="Region" role="rowheader">Egypt</td>
+        <td data-cell="Region" role="rowheader">مصر</td>
         <td data-cell="Law" role="cell"><a href="https://pdpc.gov.eg/assets/pdf-data/PDPL%20no.%20151%20of%202020%20(ar).pdf" target="_blank">
-          Personal Data Protection Law No. 151/2020
+          قانون حماية البيانات الشخصية رقم ١٥١ لسنة ٢٠٢٠
         </a></td>
-        <td data-cell="Abbreviation" role="cell">PDPL</td>
+        <td data-cell="Abbreviation" role="cell">قانون حماية البيانات (PDPL)</td>
         <td data-cell="DPA" role="cell"><a href="https://pdpc.gov.eg" target="_blank">
-          Personal Data Protection Center (PDPC)
+         مركز حماية البيانات الشخصية (PDPC)
         </a></td>
-        <td data-cell="Contact" role="cell">TBA</td>
-        <td data-cell="Complaint" role="cell">TBA</td>
+        <td data-cell="Contact" role="cell">سيتم الإعلان عنه لاحقاً</td>
+        <td data-cell="Complaint" role="cell">سيتم الإعلان عنه لاحقاً</td>
       </tr>
     
       <!-- Ghana -->
       <tr role="row">
-        <td data-cell="Region" role="rowheader">Ghana</td>
+        <td data-cell="Region" role="rowheader">غانا</td>
         <td data-cell="Law" role="cell"><a href="https://dataprotection.org.gh/for-individuals/" target="_blank">
-          Data Protection Act of 2012
+          قانون حماية البيانات لعام ٢٠١٢
         </a></td>
-        <td data-cell="Abbreviation" role="cell">Act 843</td>
+        <td data-cell="Abbreviation" role="cell">القانون رقم 843</td>
         <td data-cell="DPA" role="cell"><a href="https://dataprotection.org.gh/" target="_blank">
-          Data Protection Commission (DPC)
+          مفوضية حماية البيانات (DPC)
         </a></td>
-        <td data-cell="Contact" role="cell"><a href="https://dataprotection.org.gh/contact/" target="_blank">Contact Page</a></td>
-        <td data-cell="Complaint" role="cell"><a href="https://dataprotection.org.gh/file-a-complaint/" target="_blank">Complaint Link</a></td>
+        <td data-cell="Contact" role="cell"><a href="https://dataprotection.org.gh/contact/" target="_blank">صفحة التواصل</a></td>
+        <td data-cell="Complaint" role="cell"><a href="https://dataprotection.org.gh/file-a-complaint/" target="_blank">رابط الشكاوي</a></td>
       </tr>
     
       <!-- Kenya -->
       <tr role="row">
-        <td data-cell="Region" role="rowheader">Kenya</td>
+        <td data-cell="Region" role="rowheader">كينيا</td>
         <td data-cell="Law" role="cell"><a href="https://www.odpc.go.ke/data-protection-laws-kenya/" target="_blank">
-          Data Protection Act, 2019
+          قانون حماية البيانات لعام ٢٠١٩
         </a></td>
-        <td data-cell="Abbreviation" role="cell">The Act</td>
+        <td data-cell="Abbreviation" role="cell">القانون</td>
         <td data-cell="DPA" role="cell"><a href="https://www.odpc.go.ke/" target="_blank">
-          Office of the Data Protection Commissioner (ODPC)
+          مكتب مفوض حماية البيانات (ODPC)
         </a></td>
-        <td data-cell="Contact" role="cell"><a href="https://www.odpc.go.ke/contact-us/" target="_blank">Contact Page</a></td>
-        <td data-cell="Complaint" role="cell"><a href="https://cie.odpc.go.ke/" target="_blank">Complaint Link</a></td>
+        <td data-cell="Contact" role="cell"><a href="https://www.odpc.go.ke/contact-us/" target="_blank">صفحة التواصل</a></td>
+        <td data-cell="Complaint" role="cell"><a href="https://cie.odpc.go.ke/" target="_blank">رابط الشكاوي</a></td>
       </tr>
     
       <!-- Morocco -->
       <tr role="row">
-        <td data-cell="Region" role="rowheader">Morocco</td>
+        <td data-cell="Region" role="rowheader">المغرب</td>
         <td data-cell="Law" role="cell"><a href="https://www.cndp.ma/loi-09-08/" target="_blank">
-          Law No. 09-08 on the protection of individuals with regard to the processing of personal data
-        </a></td>
-        <td data-cell="Abbreviation" role="cell">Law 09-08</td>
+    القانون رقم 08-09 المتعلق بحماية الأشخاص الذاتيين تجاه معالجة المعطيات ذات الطابع الشخصي    </a></td>
+        <td data-cell="Abbreviation" role="cell">القانون 08-09</td>
         <td data-cell="DPA" role="cell"><a href="https://www.cndp.ma" target="_blank">
-          National Commission for the Protection of Personal Data (CNDP)
+          اللجنة الوطنية لمراقبة حماية المعطيات ذات الطابع الشخصي (CNDP)
         </a></td>
-        <td data-cell="Contact" role="cell"><a href="https://www.cndp.ma/contact/" target="_blank">Contact Page</a></td>
-        <td data-cell="Complaint" role="cell"><a href="https://www.cndp.ma/deposer-une-plainte/" target="_blank">Complaint Link</a></td>
+        <td data-cell="Contact" role="cell"><a href="https://www.cndp.ma/contact/" target="_blank">صفحة التواصل</a></td>
+        <td data-cell="Complaint" role="cell"><a href="https://www.cndp.ma/deposer-une-plainte/" target="_blank">رابط الشكاوي</a></td>
       </tr>
     
       <!-- Nigeria -->
       <tr role="row">
-        <td data-cell="Region" role="rowheader">Nigeria</td>
+        <td data-cell="Region" role="rowheader">نيجيريا</td>
         <td data-cell="Law" role="cell"><a href="https://ndpc.gov.ng/wp-content/uploads/2025/07/NDP-ACT-GAID-2025-MARCH-20TH.pdf" target="_blank">
-          Nigeria Data Protection Act
+          نيجيريا: قانون حماية البيانات لعام ٢٠٢٣
         </a></td>
         <td data-cell="Abbreviation" role="cell">NDP</td>
         <td data-cell="DPA" role="cell"><a href="https://ndpc.gov.ng/" target="_blank">
-          Nigeria Data Protection Commission (NDPC)
+          المفوضية النيجيرية لحماية البيانات (NDPC)
         </a></td>
-        <td data-cell="Contact" role="cell"><a href="https://ndpc.gov.ng/contact/" target="_blank">Contact Page</a></td>
-        <td data-cell="Complaint" role="cell"><a href="https://services.ndpc.gov.ng/breach/" target="_blank">Complaint Link</a></td>
+        <td data-cell="Contact" role="cell"><a href="https://ndpc.gov.ng/contact/" target="_blank">صفحة التواصل</a></td>
+        <td data-cell="Complaint" role="cell"><a href="https://services.ndpc.gov.ng/breach/" target="_blank">رابط الشكاوي</a></td>
       </tr>
     
       <!-- Senegal -->
       <tr role="row">
-        <td data-cell="Region" role="rowheader">Senegal</td>
+        <td data-cell="Region" role="rowheader">السنغال</td>
         <td data-cell="Law" role="cell"><a href="https://stcc-ssi.sn/wp-content/uploads/2025/03/protection-des-donnees-personnelles.pdf" target="_blank">
-          Loi n° 2008-12 du 25 janvier 2008 portant protection des données à caractère personnel
+          القانون رقم 2008-12 الصادر في 25 يناير 2008 المتعلق بحماية المعطيات ذات الطابع الشخصي
         </a></td>
-        <td data-cell="Abbreviation" role="cell">Loi no. 2008-12</td>
+        <td data-cell="Abbreviation" role="cell">القانون رقم 12-2008</td>
         <td data-cell="DPA" role="cell"><a href="https://www.cdp.sn/" target="_blank">
-          Commission de Protection des Données Personnelles (CDP)
+          لجنة حماية البيانات الشخصية (CDP)
         </a></td>
-        <td data-cell="Contact" role="cell"><a href="https://www.cdp.sn/contact" target="_blank">Contact Page</a></td>
-        <td data-cell="Complaint" role="cell"><a href="https://www.cdp.sn/plainte" target="_blank">Complaint Link</a></td>
+        <td data-cell="Contact" role="cell"><a href="https://www.cdp.sn/contact" target="_blank">صفحة التواصل</a></td>
+        <td data-cell="Complaint" role="cell"><a href="https://www.cdp.sn/plainte" target="_blank">رابط الشكاوي</a></td>
       </tr>
     
       <!-- South Africa -->
       <tr role="row">
-        <td data-cell="Region" role="rowheader">South Africa</td>
+        <td data-cell="Region" role="rowheader">جنوب افريقيا</td>
         <td data-cell="Law" role="cell"><a href="https://inforegulator.org.za/wp-content/uploads/2025/08/PROTECTION-OF-PERSONAL-INFORMATION-ACT-4-OF-2013.pdf" target="_blank">
-          Protection of Personal Information Act, 2013
+          قانون حماية المعلومات الشخصية لعام ٢٠١٣
         </a></td>
         <td data-cell="Abbreviation" role="cell">POPIA</td>
         <td data-cell="DPA" role="cell"><a href="https://inforegulator.org.za/" target="_blank">
-          Information Regulator
+          هيئة تنظيم المعلومات
         </a></td>
-        <td data-cell="Contact" role="cell"><a href="https://inforegulator.org.za/contact-us/" target="_blank">Contact Page</a></td>
-        <td data-cell="Complaint" role="cell"><a href="https://inforegulator.org.za/complaints/" target="_blank">Complaint Link</a></td>
+        <td data-cell="Contact" role="cell"><a href="https://inforegulator.org.za/contact-us/" target="_blank">صفحة التواصل</a></td>
+        <td data-cell="Complaint" role="cell"><a href="https://inforegulator.org.za/complaints/" target="_blank">رابط الشكاوي</a></td>
       </tr>
     
       <!-- Tanzania -->
       <tr role="row">
-        <td data-cell="Region" role="rowheader">Tanzania</td>
+        <td data-cell="Region" role="rowheader">تنزانيا</td>
         <td data-cell="Law" role="cell"><a href="https://www.pdpc.go.tz/media/media/THE_PERSONAL_DATA_PROTECTION_ACT.pdf" target="_blank">
-          Personal Data Protection Act
+         قانون حماية البيانات الشخصية
         </a></td>
         <td data-cell="Abbreviation" role="cell">-</td>
         <td data-cell="DPA" role="cell"><a href="https://www.pdpc.go.tz/en/" target="_blank">
           Personal Data Protection Commission (PDPC)
         </a></td>
-        <td data-cell="Contact" role="cell"><a href="https://www.pdpc.go.tz/en/data-alliance/alliances/" target="_blank">Contact Page</a></td>
-        <td data-cell="Complaint" role="cell"><a href="https://dataprotection.pdpc.go.tz/complaint-form-one" target="_blank">Complaint Link</a></td>
+        <td data-cell="Contact" role="cell"><a href="https://www.pdpc.go.tz/en/data-alliance/alliances/" target="_blank">صفحة التواصل</a></td>
+        <td data-cell="Complaint" role="cell"><a href="https://dataprotection.pdpc.go.tz/complaint-form-one" target="_blank">رابط الشكاوي</a></td>
       </tr>
     
       <!-- Tunisia -->
       <tr role="row">
-        <td data-cell="Region" role="rowheader">Tunisia</td>
+        <td data-cell="Region" role="rowheader">تونس</td>
         <td data-cell="Law" role="cell"><a href="https://www.inpdp.tn/ressources/loi_2004.pdf" target="_blank">
-          Organic Act n° 2004-63 of July 27th 2004 on the protection of personal data
+          القانون الأساسي رقم ٦٣ لسنة ٢٠٠٤ المؤرخ في ٢٧ يوليو ٢٠٠٤ المتعلق بحماية المعطيات الشخصية
         </a></td>
-        <td data-cell="Abbreviation" role="cell">Organic Act No. 2004-63</td>
+        <td data-cell="Abbreviation" role="cell">القانون الأساسي رقم 2004-63</td>
         <td data-cell="DPA" role="cell"><a href="https://www.inpdp.tn/" target="_blank">
-          National Authority for Protection of Personal Data (INPDP)
+         الهيئة الوطنية لحماية المعطيات الشخصية (INPDP)
         </a></td>
-        <td data-cell="Contact" role="cell"><a href="https://www.inpdp.tn/contact.html" target="_blank">Contact Page</a></td>
-        <td data-cell="Complaint" role="cell"><a href="https://www.inpdp.tn/Formulaires.html" target="_blank">Complaint Link</a></td>
+        <td data-cell="Contact" role="cell"><a href="https://www.inpdp.tn/contact.html" target="_blank">صفحة التواصل</a></td>
+        <td data-cell="Complaint" role="cell"><a href="https://www.inpdp.tn/Formulaires.html" target="_blank">رابط الشكاوي</a></td>
       </tr>
     
     </tbody>
   </table>
 </div>
 
-<button class="toolbox-button-top">[Back to tables menu :material-map-search:](#the-directory)</button> <br>
+<button class="toolbox-button-top">[العودة إلى قائمة الجداول :material-map-search:](#the-directory)</button> <br>
 
-### Asia
+### أسيا
 
 <div class="table-wrapper">
   <table role="table" class="dpadirectory-table table-asia">
-    <caption role="caption">Data Protection Authority Directory (Asia)</caption>
+    <caption role="caption">دليل حماية البيانات (آسيا)</caption>
 
     <!-- Table header -->
     <thead>
       <tr role="row">
-        <th role="column">Region</th>
-        <th role="column" class="table-large-cell">Privacy Law</th>
-        <th role="column">Abbreviation</th>
+        <th role="column">المنطقة</th>
+        <th role="column" class="table-large-cell">قانون حماية البيانات</th>
+        <th role="column">الإختصارات</th>
         <th role="column" class="table-large-cell">DPA</th>
-        <th role="column">Contact</th>
-        <th role="column">Complaint</th>
+        <th role="column">التواصل</th>
+        <th role="column">تقديم الشكاوي</th>
       </tr>
     </thead>
     
@@ -236,155 +235,155 @@ For example, the DPA for the state of Oregon in the United States specifies that
     
        <!-- Bahrain -->
       <tr role="row">
-        <td data-cell="Region" role="rowheader">Bahrain</td>
+        <td data-cell="Region" role="rowheader">البحرين</td>
         <td data-cell="Law" role="cell"><a href="https://www.pdp.gov.bh/en/regulations.html" target="_blank">
-          Personal Data Protection Law
+          قانون حماية البيانات الشخصية
         </a></td>
-        <td data-cell="Abbreviation" role="cell">Law No. (30)</td>
+        <td data-cell="Abbreviation" role="cell">القانون رقم (٣٠) لسنة ٢٠١٨</td>
         <td data-cell="DPA" role="cell"><a href="https://www.pdp.gov.bh/en/index.html" target="_blank">
-          Personal Data Protection Authority (PDP)
+          الهيئة العامة لحماية البيانات الشخصية (PDP)
         </a></td>
-        <td data-cell="Contact" role="cell"><a href="https://www.pdp.gov.bh/en/contact.html" target="_blank">Contact Page</a></td>
-        <td data-cell="Complaint" role="cell"><a href="https://www.pdp.gov.bh/en/assets/pdf/forms/Personal%20Data%20Complaint%20Submission%20Form.pdf" target="_blank">Complaint Link</a></td>
+        <td data-cell="Contact" role="cell"><a href="https://www.pdp.gov.bh/en/contact.html" target="_blank">التواصل صفحة</a></td>
+        <td data-cell="Complaint" role="cell"><a href="https://www.pdp.gov.bh/en/assets/pdf/forms/Personal%20Data%20Complaint%20Submission%20Form.pdf" target="_blank">رابط الشكاوي</a></td>
       </tr>
     
       <!-- Hong Kong -->
       <tr role="row">
-        <td data-cell="Region" role="rowheader">Hong Kong</td>
+        <td data-cell="Region" role="rowheader">هونغ كونغ</td>
         <td data-cell="Law" role="cell"><a href="https://www.pcpd.org.hk/english/data_privacy_law/ordinance_at_a_Glance/ordinance.html" target="_blank">
-          Personal Data (Privacy) Ordinance
+          قانون (خصوصية) البيانات الشخصية
         </a></td>
         <td data-cell="Abbreviation" role="cell">PDPO</td>
         <td data-cell="DPA" role="cell"><a href="https://www.pcpd.org.hk/" target="_blank">
-          Office of the Privacy Commissioner of Personal Data (PCPD)
+          مكتب مفوض الخصوصية للبيانات الشخصية (PCPD)
         </a></td>
-        <td data-cell="Contact" role="cell"><a href="https://www.pcpd.org.hk/english/contact_us/contact_us.html" target="_blank">Contact Page</a></td>
-        <td data-cell="Complaint" role="cell"><a href="https://www.pcpd.org.hk/english/complaints/how_complaint/complaint/complaint.html" target="_blank">Complaint Link</a></td>
+        <td data-cell="Contact" role="cell"><a href="https://www.pcpd.org.hk/english/contact_us/contact_us.html" target="_blank">صفحة التواصل</a></td>
+        <td data-cell="Complaint" role="cell"><a href="https://www.pcpd.org.hk/english/complaints/how_complaint/complaint/complaint.html" target="_blank">رابط الشكاوي</a></td>
       </tr>
     
       <!-- India -->
       <tr role="row">
-        <td data-cell="Region" role="rowheader">India</td>
+        <td data-cell="Region" role="rowheader">الهند</td>
         <td data-cell="Law" role="cell"><a href="https://egazette.gov.in/WriteReadData/2023/248045.pdf" target="_blank">
-          Digital Personal Data Protection Act, 2023
+          قانون حماية البيانات الشخصية الرقمية لعام ٢٠٢٣
         </a></td>
         <td data-cell="Abbreviation" role="cell">DPDP Act</td>
         <td data-cell="DPA" role="cell"><a href="https://en.wikipedia.org/wiki/Data_Protection_Board_of_India" target="_blank">
-          Data Protection Board of India (DPBI)
+          مجلس حماية البيانات الهندي (DPBI)
         </a></td>
-        <td data-cell="Contact" role="cell">TBA</td>
-        <td data-cell="Complaint" role="cell">TBA</td>
+        <td data-cell="Contact" role="cell">سيتم الإعلان عنه لاحقا</td>
+        <td data-cell="Complaint" role="cell">سيتم الإعلان عنه لاحقا</td>
       </tr>
     
       <!-- Indonesia -->
       <tr role="row">
-        <td data-cell="Region" role="rowheader">Indonesia</td>
+        <td data-cell="Region" role="rowheader">اندونيسيا</td>
         <td data-cell="Law" role="cell"><a href="https://jdih.komdigi.go.id/produk_hukum/view/id/832/t/undangundang+nomor+27+tahun+2022" target="_blank">
-          Law No. 27 of 2022 on Personal Data Protection
+          قانون حماية البيانات الشخصية رقم ٢٧ لعام ٢٠٢٢
         </a></td>
         <td data-cell="Abbreviation" role="cell">PDP Law</td>
         <td data-cell="DPA" role="cell"><a href="https://en.wikipedia.org/wiki/Personal_Data_Protection_Authority" target="_blank">
-          Personal Data Protection Agency
+          وكالة حماية البيانات الشخصية
         </a></td>
-        <td data-cell="Contact" role="cell">TBA</td>
-        <td data-cell="Complaint" role="cell">TBA</td>
+        <td data-cell="Contact" role="cell">سيتم الإعلان عنه لاحقا</td>
+        <td data-cell="Complaint" role="cell">سيتم الإعلان عنه لاحقا</td>
       </tr>
     
       <!-- Japan -->
       <tr role="row">
-        <td data-cell="Region" role="rowheader">Japan</td>
+        <td data-cell="Region" role="rowheader">اليابان</td>
         <td data-cell="Law" role="cell"><a href="https://www.japaneselawtranslation.go.jp/en/laws/view/4241/en" target="_blank">
-          Act on the Protection of Personal Information
+          قانون حماية المعلومات الشخصية
         </a></td>
         <td data-cell="Abbreviation" role="cell">APPI</td>
         <td data-cell="DPA" role="cell"><a href="https://www.ppc.go.jp/en/" target="_blank">
-          Personal Information Protection Commission Japan (PPC)
+          لجنة حماية المعلومات الشخصية اليابانية (PPC)
         </a></td>
-        <td data-cell="Contact" role="cell"><a href="https://www.ppc.go.jp/en/contactus/piinquiry/" target="_blank">Contact Page</a></td>
-        <td data-cell="Complaint" role="cell"><a href="https://www.ppc.go.jp/en/contactus/mnmediation/" target="_blank">Complaint Link</a></td>
+        <td data-cell="Contact" role="cell"><a href="https://www.ppc.go.jp/en/contactus/piinquiry/" target="_blank">صفحة التواصل</a></td>
+        <td data-cell="Complaint" role="cell"><a href="https://www.ppc.go.jp/en/contactus/mnmediation/" target="_blank">رابط الشكاوي</a></td>
       </tr>
     
       <!-- Malaysia -->
       <tr role="row">
-        <td data-cell="Region" role="rowheader">Malaysia</td>
+        <td data-cell="Region" role="rowheader">ماليزيا</td>
         <td data-cell="Law" role="cell"><a href="https://www.pdp.gov.my/ppdpv1/en/akta/pdp-act-2010-en/" target="_blank">
-          Personal Data Protection Act 2010 (Act 709)
+          قانون حماية البيانات الشخصية لعام ٢٠١٠ (القانون ٧٠٩)
         </a></td>
         <td data-cell="Abbreviation" role="cell">APDP</td>
         <td data-cell="DPA" role="cell"><a href="https://www.pdp.gov.my/ppdpv1/en/main-page/" target="_blank">
-          Personal Data Protection Commissioner (PPDP)
+         مفوض حماية البيانات الشخصية (PPDP)
         </a></td>
-        <td data-cell="Contact" role="cell"><a href="https://www.pdp.gov.my/ppdpv1/en/ppdp-eng/" target="_blank">Contact Page</a></td>
-        <td data-cell="Complaint" role="cell"><a href="https://daftar.pdp.gov.my/p_aduan" target="_blank">Complaint Link</a></td>
+        <td data-cell="Contact" role="cell"><a href="https://www.pdp.gov.my/ppdpv1/en/ppdp-eng/" target="_blank">صفحة التواصل</a></td>
+        <td data-cell="Complaint" role="cell"><a href="https://daftar.pdp.gov.my/p_aduan" target="_blank">الشكاوي رابط</a></td>
       </tr>
     
       <!-- Singapore -->
       <tr role="row">
-        <td data-cell="Region" role="rowheader">Singapore</td>
+        <td data-cell="Region" role="rowheader">سنغافورة</td>
         <td data-cell="Law" role="cell"><a href="https://www.pdpc.gov.sg/overview-of-pdpa/the-legislation/personal-data-protection-act" target="_blank">
-          Personal Data Protection Act
+          قانون حماية البيانات الشخصية (PDPA)
         </a></td>
         <td data-cell="Abbreviation" role="cell">PDPA</td>
         <td data-cell="DPA" role="cell"><a href="https://www.pdpc.gov.sg/" target="_blank">
-          Personal Data Protection Commission (PDPC)
+          لجنة حماية البيانات الشخصية (PDPC)
         </a></td>
-        <td data-cell="Contact" role="cell"><a href="https://www.pdpc.gov.sg/contact-us" target="_blank">Contact Page</a></td>
-        <td data-cell="Complaint" role="cell"><a href="https://www.pdpc.gov.sg/complaints-and-reviews/report-a-personal-data-protection-concern" target="_blank">Complaint Link</a></td>
+        <td data-cell="Contact" role="cell"><a href="https://www.pdpc.gov.sg/contact-us" target="_blank">التواصل صفحة</a></td>
+        <td data-cell="Complaint" role="cell"><a href="https://www.pdpc.gov.sg/complaints-and-reviews/report-a-personal-data-protection-concern" target="_blank">رابط الشكاوي</a></td>
       </tr>
     
       <!-- South Korea -->
       <tr role="row">
-        <td data-cell="Region" role="rowheader">South Korea</td>
+        <td data-cell="Region" role="rowheader">كوريا الجنوبية</td>
         <td data-cell="Law" role="cell"><a href="https://www.pipc.go.kr/eng/user/lgp/law/lawDetail.do" target="_blank">
-          Personal Information Protection Act
+          قانون حماية المعلومات الشخصية
         </a></td>
         <td data-cell="Abbreviation" role="cell">PIPA</td>
         <td data-cell="DPA" role="cell"><a href="https://www.pipc.go.kr/eng/index.do" target="_blank">
-          Personal Information Protection Commission (PIPC)
+          لجنة حماية المعلومات الشخصية (PIPC)
         </a></td>
-        <td data-cell="Contact" role="cell"><a href="mailto:contactpipc@korea.kr" target="_blank">Email Address</a></td>
-        <td data-cell="Complaint" role="cell"><a href="https://www.privacy.go.kr/front/contents/cntntsView.do?contsNo=45" target="_blank">Complaint Link</a></td>
+        <td data-cell="Contact" role="cell"><a href="mailto:contactpipc@korea.kr" target="_blank">البريد الالكتروني</a></td>
+        <td data-cell="Complaint" role="cell"><a href="https://www.privacy.go.kr/front/contents/cntntsView.do?contsNo=45" target="_blank">رابط الشكاوي</a></td>
       </tr>
     
       <!-- Thailand -->
       <tr role="row">
-        <td data-cell="Region" role="rowheader">Thailand</td>
+        <td data-cell="Region" role="rowheader">تايلاند</td>
         <td data-cell="Law" role="cell"><a href="https://www.pdpc.or.th/en/10455/" target="_blank">
-          Personal Data Protection Act, B.E. 2562 (2019)
+          قانون حماية البيانات الشخصية، لعام ٢٥٦٢ (٢٠١٩)
         </a></td>
         <td data-cell="Abbreviation" role="cell">PDPA</td>
         <td data-cell="DPA" role="cell"><a href="https://www.pdpc.or.th/en/home/" target="_blank">
-          Office of the Personal Data Protection Committee (PDPC)
+          مكتب لجنة حماية البيانات الشخصية (PDPC)
         </a></td>
-        <td data-cell="Contact" role="cell"><a href="https://www.pdpc.or.th/contact-us/" target="_blank">Contact Page</a></td>
-        <td data-cell="Complaint" role="cell"><a href="https://complaint.pdpc.or.th/" target="_blank">Complaint Link</a></td>
+        <td data-cell="Contact" role="cell"><a href="https://www.pdpc.or.th/contact-us/" target="_blank">صفحة الشكاوي</a></td>
+        <td data-cell="Complaint" role="cell"><a href="https://complaint.pdpc.or.th/" target="_blank">رابط الشكاوي</a></td>
       </tr>
     
       <!-- Turkey -->
       <tr role="row">
-        <td data-cell="Region" role="rowheader">Turkey</td>
+        <td data-cell="Region" role="rowheader">تركيا</td>
         <td data-cell="Law" role="cell"><a href="https://www.kvkk.gov.tr/Icerik/6649/Personal-Data-Protection-Law" target="_blank">
-          Personal Data Protection Law
+          قانون حماية البيانات الشخصية
         </a></td>
-        <td data-cell="Abbreviation" role="cell">Law No. 6698</td>
+        <td data-cell="Abbreviation" role="cell">القانون رقم ٦٦٩٨</td>
         <td data-cell="DPA" role="cell"><a href="https://www.kvkk.gov.tr/" target="_blank">
-          Personal Data Protection Authority
+          هيئة حماية البيانات الشخصية (KVKK)
         </a></td>
-        <td data-cell="Contact" role="cell"><a href="https://www.kvkk.gov.tr/contact" target="_blank">Contact Page</a></td>
-        <td data-cell="Complaint" role="cell"><a href="https://sikayet.kvkk.gov.tr/" target="_blank">Complaint Link</a></td>
+        <td data-cell="Contact" role="cell"><a href="https://www.kvkk.gov.tr/contact" target="_blank">صفحةالتواصل </a></td>
+        <td data-cell="Complaint" role="cell"><a href="https://sikayet.kvkk.gov.tr/" target="_blank">رابط الشكاوي</a></td>
       </tr>
     
     </tbody>
   </table>
 </div>
 
-<button class="toolbox-button-top">[Back to tables menu :material-map-search:](#the-directory)</button> <br>
+<button class="toolbox-button-top">[العودة إلى قائمة الجداول :material-map-search:](#the-directory)</button> <br>
 
-### Europe
+### اوروبا
 
 <div class="table-wrapper">
   <table role="table" class="dpadirectory-table table-europe">
-    <caption role="caption">Data Protection Authority Directory (Europe)</caption>
+    <caption role="caption">دليل حماية البيانات (اوروبا)</caption>
 
     <!-- Table header -->
     <thead>
@@ -936,7 +935,7 @@ For example, the DPA for the state of Oregon in the United States specifies that
   </table>
 </div>
 
-<button class="toolbox-button-top">[Back to tables menu :material-map-search:](#the-directory)</button> <br>
+<button class="toolbox-button-top">[العودة إلى قائمة الجداول :material-map-search:](#the-directory)</button> <br>
 
 ### North America
 
@@ -1312,7 +1311,7 @@ For example, the DPA for the state of Oregon in the United States specifies that
   </table>
 </div>
 
-<button class="toolbox-button-top">[Back to tables menu :material-map-search:](#the-directory)</button> <br>
+<button class="toolbox-button-top">[العودة إلى قائمة الجداول :material-map-search:](#the-directory)</button> <br>
 
 ### Oceania
 
@@ -1366,7 +1365,7 @@ For example, the DPA for the state of Oregon in the United States specifies that
   </table>
 </div>
 
-<button class="toolbox-button-top">[Back to tables menu :material-map-search:](#the-directory)</button> <br>
+<button class="toolbox-button-top">[العودة إلى قائمة الجداول :material-map-search:](#the-directory)</button> <br>
 
 ### South America
 
@@ -1462,7 +1461,7 @@ For example, the DPA for the state of Oregon in the United States specifies that
   </table>
 </div>
 
-<button class="toolbox-button-top">[Back to tables menu :material-map-search:](#the-directory)</button> <br>
+<button class="toolbox-button-top">[العودة إلى قائمة الجداول :material-map-search:](#the-directory)</button> <br>
 
 ## Additional resources
 

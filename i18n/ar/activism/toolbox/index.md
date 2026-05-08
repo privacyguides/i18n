@@ -1,46 +1,46 @@
 ---
-title: "Privacy Activist Toolbox"
-description: The Privacy Activist Toolbox is a unique resource with tips for anyone interested in becoming a better privacy rights activist, or anyone who wants to start.
+title: "أدوات ناشط الخصوصية"
+description: تعتبر 'أدوات ناشط الخصوصية' دليلا فريدا من نوعه، يقدم نصائح عملية لكل من يطمح لتعزيز مهاراته كناشط في حقوق الخصوصية، أو حتى لمن يفكر في البدء والقيام بخطوته الأولى.
 hide:
-  - feedback
+  - الملاحظات
 cover: activism/banner-activism-toolbox.webp
 ---
 
-The **Privacy Activist Toolbox** is a resource for anyone interested in becoming a better privacy rights activist, or anyone who wants to start advocating for privacy rights.
+سواء كنت تسعى لتطوير مهاراتك في الدفاع عن الخصوصية أو كنت تفكر في أخذ خطوتك الأولى في هذا المجال، فإن 'أدوات ناشط الخصوصية' هي رفيقك الأمثل لتبدأ رحلتك معنا.
 
-This page is also a resource to help digital rights organizations that would like to expand their work focusing on privacy.
+هذه الصفحة مخصصة أيضا لمساعدة منظمات الحقوق الرقمية اللي حابة تطور عملها وتركز مجهوداتها أكثر على حماية الخصوصية.
 
-:material-cursor-default-click: By clicking on any of the tips listed on this page, you can access more information on each topic, as well as additional resources to support your advocacy.
+:material-cursor-default-click: بإمكانك الضغط على أي من النصائح الموجودة في هذه الصفحة لتكتشف معلومات أكثر حول كل موضوع، وستجد أيضاً مصادر إضافية تدعمك في رحلتك للدفاع عن الخصوصية.
 
 ---
 
-## Toolbox Compartments
+## مكونات الأدوات
 
 <div class="toolbox-button-grid" markdown>
 
-[:fontawesome-solid-scale-balanced:{ .toolbox-button-icon } Check<br>Your Laws](#check-your-laws){ .toolbox-button .toolbox-bg-legal }
+[:fontawesome-solid-scale-balanced:{ .toolbox-button-icon } تحقق من<br>قوانينك] (#check-your-laws) { .toolbox-button .toolbox-bg-legal-legal }
 
-[:fontawesome-solid-toolbox:{ .toolbox-button-icon } Choose<br>Your Tools](#choose-your-tools){ .toolbox-button .toolbox-bg-tools }
+[:fontawesome-solid-toolbox:{ .toolbox-button-icon } اختر<br>أدواتك](#choose-your-tools) { .toolbox-button .toolbox-bg-tools}
 
-[:fontawesome-solid-users-rays:{ .toolbox-button-icon } Expand Your<br>Perspective](#expand-your-perspective){ .toolbox-button .toolbox-bg-perspective }
+[:fontawesome-solid-users-rays:{ .toolbox-button-icon } وسع منظور<br>الخاص بك ] (#expand-your-perspective) { .toolbox-button .toolbox-bg-perspective }
 
-[:fontawesome-solid-hands-holding-circle:{ .toolbox-button-icon } Support The<br>Community](#support-the-community){ .toolbox-button .toolbox-bg-community }
+[:fontawesome-solid-hands-holding-circle:{ .toolbox-button-icon } دعم المجتمع<br>] (#support-the-community) { .toolbox-button .toolbox-bg-community }
 
-[:fontawesome-solid-handshake-angle:{ .toolbox-button-icon } Build<br>Alliances](#build-alliances){ .toolbox-button .toolbox-bg-alliances }
+[:fontawesome-solid-handshake-angle:{ .toolbox-button-icon } لنبنِ جسور <br>التعاون] (#build-alliances) { .toolbox-button .toolbox-bg-alliances }
 
-[:fontawesome-solid-heart-circle-check:{ .toolbox-button-icon } Make It<br>Accessible](#make-it-accessible){ .toolbox-button .toolbox-bg-accessibility }
+[:fontawesome-solid-heart-circle-check:{ .toolbox-button-icon } لنجعل الخصوصية<br>في متناول الجميع] (#make-it-accessible) { .toolbox-button .toolbox-bg-accessibility }
 
-[:fontawesome-solid-star:{ .toolbox-button-icon } Uphold<br>Integrity](#uphold-integrity){ .toolbox-button .toolbox-bg-integrity }
+[:fontawesome-solid-star:{ .toolbox-button-icon } لنكن أهلا<br>للثقة] (#uphold-integrity) { .toolbox-button .toolbox-bg-integrity}
 
-[:fontawesome-solid-heart:{ .toolbox-button-icon } Stay<br>Persistent](#stay-persistent){ .toolbox-button .toolbox-bg-persistence }
+[:fontawesome-solid-heart:{ .toolbox-button-icon } لنواصل الطريق <br>بعزيمة] (#stay-persistent) { .toolbox-button .toolbox-bg-persistence}
 
-[:fontawesome-solid-hand-fist:{ .toolbox-button-icon } Take<br>Action!](#take-action){ .toolbox-button .toolbox-bg-action }
+[:fontawesome-solid-hand-fist:{ .toolbox-button-icon } لنبدأ بالعمل<br>معاً] (#take-action) { .toolbox-button .toolbox-bg-action-action}
 
 </div>
 
 ---
 
-## Check Your Laws
+## لنكتشف معا حقوقنا والقوانين المحلية
 
 <a href="tip-know-your-privacy-laws/">
 <div class="toolbox-tip-card toolbox-border-legal" markdown>
