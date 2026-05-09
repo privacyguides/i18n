@@ -28,18 +28,18 @@ Many banks and credit card providers offer native virtual card functionality. If
 
 </div>
 
-### Privacy.com (US)
+### Privacy.com (USA)
 
 <div class="admonition recommendation" markdown>
 
-![Privacy.com logo](assets/img/financial-services/privacy_com.svg#only-light){ align=right }
-![Privacy.com logo](assets/img/financial-services/privacy_com-dark.svg#only-dark){ align=right }
+![Logo Privacy.com](assets/img/financial-services/privacy_com.svg#only-light){ align=right }
+![Logo Privacy.com](assets/img/financial-services/privacy_com-dark.svg#only-dark){ align=right }
 
-**Privacy.com**'s free plan allows you to create up to 12 virtual cards per month, set spend limits on those cards, and shut off cards instantly. Their paid plans provide higher limits on the number of cards that can be created each month.
+Darmowy plan **Privacy.com** umożliwia utworzenie do 12 wirtualnych kart miesięcznie, ustawienie limitów wydatków na tych kartach i natychmiastowe wyłączanie kart. Ich płatne plany zapewniają wyższe limity liczby kart, które można utworzyć co miesiąc.
 
-[:octicons-home-16: Homepage](https://privacy.com){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://privacy.com/privacy-policy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://support.privacy.com){ .card-link title=Documentation}
+[:octicons-home-16: Strona Główna](https://privacy.com){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://privacy.com/privacy-policy){ .card-link title="Polityka prywatności" }
+[:octicons-info-16:](https://support.privacy.com){ .card-link title="Dokumentacja}
 
 </details>
 
@@ -47,24 +47,24 @@ Many banks and credit card providers offer native virtual card functionality. If
 
 Privacy.com gives information about the merchants you purchase from to your bank by [default](https://support.privacy.com/hc/en-us/articles/360012407533-What-will-I-see-on-my-bank-statement-when-I-make-a-purchase-with-Privacy). Their "[private spend mode](https://support.privacy.com/hc/en-us/articles/26732314558487-What-is-Private-Spend-Mode)" feature hides merchant information from your bank, so your bank only sees that a purchase was made with Privacy.com, but not where that money was spent. However, that is not foolproof, and of course, Privacy.com still has knowledge about the merchants you are spending money with.
 
-### MySudo (US, Paid)
+### MySudo (USA, płatne)
 
 <div class="admonition recommendation" markdown>
 
-![MySudo logo](assets/img/financial-services/mysudo.svg#only-light){ align=right }
-![MySudo logo](assets/img/financial-services/mysudo-dark.svg#only-dark){ align=right }
+![Logo MySudo](assets/img/financial-services/mysudo.svg#only-light){ align=right }
+![Logo MySudo](assets/img/financial-services/mysudo-dark.svg#only-dark){ align=right }
 
-**MySudo** provides up to 9 virtual cards depending on the plan you purchase. Their paid plans additionally include functionality which may be useful for making purchases privately, such as virtual phone numbers and email addresses, although we typically recommend other [email aliasing providers](email-aliasing.md) for extensive email aliasing use.
+**MySudo** zapewnia do 9 wirtualnych kart w zależności od zakupionego planu. Their paid plans additionally include functionality which may be useful for making purchases privately, such as virtual phone numbers and email addresses, although we typically recommend other [email aliasing providers](email-aliasing.md) for extensive email aliasing use.
 
-[:octicons-home-16: Homepage](https://mysudo.com){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://anonyome.com/privacy-policy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://support.mysudo.com){ .card-link title=Documentation}
+[:octicons-home-16: Strona Główna](https://mysudo.com){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://anonyome.com/privacy-policy){ .card-link title="Polityka prywatności" }
+[:octicons-info-16:](https://support.mysudo.com){ .card-link title="Dokumentacja}
 
 </details>
 
 </div>
 
-MySudo's virtual cards are currently only available via their iOS app.
+Wirtualne karty MySudo są obecnie dostępne tylko za pośrednictwem aplikacji na iOS.
 
 ### Kryteria
 
@@ -73,7 +73,7 @@ MySudo's virtual cards are currently only available via their iOS app.
 - Allows the creation of multiple cards which function as a shield between the merchant and your personal finances.
 - Cards must not require you to provide accurate billing address information to the merchant.
 
-## Gift Card Marketplaces
+## Internetowe platformy handlowe oferujące karty podarunkowe
 
 <small>Chroni przed następującymi zagrożeniami:</small>
 
@@ -89,9 +89,9 @@ These services allow you to purchase gift cards for a variety of merchants onlin
 
 **Coincards** allows you to purchase gift cards for a large variety of merchants. Their homepage has a complete listing of the various countries where their service is available.
 
-[:octicons-home-16: Homepage](https://coincards.com){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://coincards.com/privacy-policy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://coincards.com/frequently-asked-questions){ .card-link title=Documentation}
+[:octicons-home-16: Strona Główna](https://coincards.com){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://coincards.com/privacy-policy){ .card-link title="Polityka prywatności" }
+[:octicons-info-16:](https://coincards.com/frequently-asked-questions){ .card-link title="Dokumentacja}
 
 </details>
 
@@ -101,12 +101,12 @@ These services allow you to purchase gift cards for a variety of merchants onlin
 
 **Należy pamiętać, że nie jesteśmy powiązani z żadnym z polecanych przez nas projektów.** Oprócz [naszych standardowych kryteriów](about/criteria.md) opracowaliśmy jasny zestaw wymagań, które pozwalają nam formułować obiektywne zalecenia. Sugerujemy zapoznanie się z tą listą przed wyborem projektu oraz przeprowadzenie własnych badań, aby upewnić się, że jest to odpowiedni wybór dla Ciebie.
 
-- Accepts payment in [a recommended cryptocurrency](cryptocurrency.md).
-- No ID requirement.
+- Akceptuje płatności w [jednej z zalecanych walut](cryptocurrency.md).
+- Brak wymogu poświadczenia dowodem tożsamości
 
 <div class="admonition tip" markdown>
 <p class="admonition-title">Important notices</p>
 
-The content here is not legal or financial advice. We do not endorse or encourage illicit activities, and we do not endorse or encourage anything which violates a company's terms of service. Check with a professional to confirm that these recommendations are legal and available in your jurisdiction. [See all notices](about/notices.md).
+Treści tutaj zawarte nie stanowią porady prawnej ani finansowej. We do not endorse or encourage illicit activities, and we do not endorse or encourage anything which violates a company's terms of service. Check with a professional to confirm that these recommendations are legal and available in your jurisdiction. [See all notices](about/notices.md).
 
 </div>

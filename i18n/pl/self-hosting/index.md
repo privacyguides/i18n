@@ -1,5 +1,5 @@
 ---
-title: Self-Hosting
+title: Samodzielny hosting
 meta_title: "Self-Hosting Software and Services - Privacy Guides"
 description: For our more technical readers, self-hosting software and services can provide additional privacy assurances since you have maximum control over your data.
 cover: router.webp
@@ -17,56 +17,56 @@ Self-hosting your own solutions requires advanced technical knowledge and a deep
 
 <div class="grid cards" markdown>
 
-- ![AdGuard Home logo](../assets/img/self-hosting/adguard-home.svg){ .twemoji loading=lazy } [AdGuard Home](dns-filtering.md#adguard-home)
-- ![Pi-Hole logo](../assets/img/self-hosting/pi-hole.svg){ .twemoji loading=lazy } [Pi-Hole](dns-filtering.md#pi-hole)
+- ![Logo AdGuard Home](../assets/img/self-hosting/adguard-home.svg){ .twemoji loading=lazy } [AdGuard Home](dns-filtering.md#adguard-home)
+- ![Logo Pi-Hole](../assets/img/self-hosting/pi-hole.svg){ .twemoji loading=lazy } [Pi-Hole](dns-filtering.md#pi-hole)
 
 </div>
 
-[Learn more :material-arrow-right-drop-circle:](dns-filtering.md)
+[Dowiedz się więcej  :material-arrow-right-drop-circle:](dns-filtering.md)
 
 ## :material-email: Email Servers
 
 <div class="grid cards" markdown>
 
-- ![Stalwart logo](../assets/img/self-hosting/stalwart.svg){ .twemoji loading=lazy } [Stalwart](email-servers.md#stalwart)
-- ![Mailcow logo](../assets/img/self-hosting/mailcow.svg){ .twemoji loading=lazy } [Mailcow](email-servers.md#mailcow)
-- ![Mail-in-a-Box logo](../assets/img/self-hosting/mail-in-a-box.svg){ .twemoji loading=lazy } [Mail-in-a-Box](email-servers.md#mail-in-a-box)
+- ![Logo Stalwart](../assets/img/self-hosting/stalwart.svg){ .twemoji loading=lazy } [Stalwart](email-servers.md#stalwart)
+- ![Logo Mailcow](../assets/img/self-hosting/mailcow.svg){ .twemoji loading=lazy } [Mailcow](email-servers.md#mailcow)
+- ![Logo Mail-in-a-Box](../assets/img/self-hosting/mail-in-a-box.svg){ .twemoji loading=lazy } [Mail-in-a-Box](email-servers.md#mail-in-a-box)
 
 </div>
 
-[Learn more :material-arrow-right-drop-circle:](email-servers.md)
+[Dowiedz się więcej  :material-arrow-right-drop-circle:](email-servers.md)
 
-## :material-file-multiple-outline: File Management
+## :material-file-multiple-outline: Zarządzanie plikami
 
 <div class="grid cards" markdown>
 
-- ![PhotoPrism logo](../assets/img/self-hosting/photoprism.svg){ .twemoji loading=lazy } [PhotoPrism](file-management.md#photoprism)
-- ![FreedomBox logo](../assets/img/self-hosting/freedombox.svg){ .twemoji loading=lazy } [FreedomBox](file-management.md#freedombox)
-- ![Nextcloud logo](../assets/img/self-hosting/nextcloud.svg){ .twemoji loading=lazy } [Nextcloud](file-management.md#nextcloud)
+- ![Logo PhotoPrism](../assets/img/self-hosting/photoprism.svg){ .twemoji loading=lazy } [PhotoPrism](file-management.md#photoprism)
+- ![Logo FreedomBox](../assets/img/self-hosting/freedombox.svg){ .twemoji loading=lazy } [FreedomBox](file-management.md#freedombox)
+- ![Logo Nextcloud](../assets/img/self-hosting/nextcloud.svg){ .twemoji loading=lazy } [Nextcloud](file-management.md#nextcloud)
 
 </div>
 
-[Learn more :material-arrow-right-drop-circle:](file-management.md)
+[Dowiedz się więcej  :material-arrow-right-drop-circle:](file-management.md)
 
-## :material-form-textbox-password: Password Management
+## :material-form-textbox-password: Zarządzanie hasłami
 
 ### Vaultwarden
 
 <div class="admonition recommendation" markdown>
 
-![Vaultwarden logo](../assets/img/self-hosting/vaultwarden.svg#only-light){ align=right }
-![Vaultwarden logo](../assets/img/self-hosting/vaultwarden-dark.svg#only-dark){ align=right }
+![Logo Vaultwarden](../assets/img/self-hosting/vaultwarden.svg#only-light){ align=right }
+![Logo Vaultwarden](../assets/img/self-hosting/vaultwarden-dark.svg#only-dark){ align=right }
 
 **Vaultwarden** is an alternative implementation of [Bitwarden](../passwords.md#bitwarden)'s sync server written in Rust and compatible with official Bitwarden clients, perfect for self-hosted deployment where running the resource-heavy, [official service](https://github.com/bitwarden/server) might not be ideal.
 
-[:octicons-repo-16: Repository](https://github.com/dani-garcia/vaultwarden#readme){ .md-button .md-button--primary }
-[:octicons-info-16:](https://github.com/dani-garcia/vaultwarden/wiki){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/dani-garcia/vaultwarden){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://github.com/sponsors/dani-garcia){ .card-link title="Contribute" }
+[:octicons-repo-16: Repozytorium](https://github.com/dani-garcia/vaultwarden#readme){ .md-button .md-button--primary }
+[:octicons-info-16:](https://github.com/dani-garcia/vaultwarden/wiki){ .card-link title=Dokumentacja}
+[:octicons-code-16:](https://github.com/dani-garcia/vaultwarden){ .card-link title="Kod źródłowy" }
+[:octicons-heart-16:](https://github.com/sponsors/dani-garcia){ .card-link title=Wesprzyj" }
 
 </div>
 
-## :material-account-supervisor-circle-outline: Social Networks
+## :material-account-supervisor-circle-outline: Sieci społecznościowe
 
 Self-hosting your own instance of a social network software can help circumvent potential [censorship on a server level](../social-networks.md#censorship-resistance) by a public server's administrator or admin team.
 
@@ -74,12 +74,12 @@ Self-hosting your own instance of a social network software can help circumvent 
 
 <div class="admonition recommendation" markdown>
 
-![Mastodon logo](../assets/img/social-networks/mastodon.svg){ align=right }
+![Logo Mastodon](../assets/img/social-networks/mastodon.svg){ align=right }
 
 **Mastodon** is a social network based on open web protocols and free, open-source software. It uses the decentralized **:simple-activitypub: ActivityPub** protocol.
 
-[:octicons-home-16:](https://joinmastodon.org){ .card-link title="Homepage" }
-[:octicons-info-16:](https://docs.joinmastodon.org/admin/prerequisites){ .card-link title="Admin Documentation" }
+[:octicons-home-16:](https://joinmastodon.org){ .card-link title="Strona główna" }
+[:octicons-info-16:](https://docs.joinmastodon.org/admin/prerequisites){ .card-link title="Dokumentacja administratora" }
 
 </div>
 
@@ -91,153 +91,153 @@ Mastodon benefits greatly from a large and active self-hosting community, and it
 
 <div class="admonition recommendation" markdown>
 
-![Element logo](../assets/img/social-networks/element.svg){ align=right }
+![Logo Element](../assets/img/social-networks/element.svg){ align=right }
 
 **Element** is the flagship client for the **:simple-matrix: Matrix** protocol, an open standard that enables decentralized communication by way of federated chat rooms.
 
-[:octicons-home-16:](https://element.io){ .card-link title="Homepage" }
-[:octicons-info-16:](https://element-hq.github.io/synapse/latest){ .card-link title="Admin Documentation" }
-[:octicons-code-16:](https://github.com/element-hq){ .card-link title="Source Code" }
+[:octicons-home-16:](https://element.io){ .card-link title="Strona główna" }
+[:octicons-info-16:](https://element-hq.github.io/synapse/latest){ .card-link title="Dokumentacja administratora" }
+[:octicons-code-16:](https://github.com/element-hq){ .card-link title="Kod źródłowy" }
 
 </div>
 
-## :material-flip-to-front: Frontends
+## :material-flip-to-front: Frontendy (Fasady)
 
 Self-hosting your own instance of a web-based frontend can help you circumvent rate limits that you may encounter on high-traffic, public instances. It is important that you have other people using your instance as well in order for you to blend in. Należy zachować ostrożność przy wyborze miejsca i sposobu hostowania, ponieważ aktywność innych osób będzie powiązana z Twoim serwerem.
 
 <div class="grid cards" markdown>
 
-- ![Redlib logo](../assets/img/frontends/redlib.svg){ .lg .middle .twemoji } [**Redlib (Reddit)**](../frontends.md#redlib)
+- ![Logo Redlib](../assets/img/frontends/redlib.svg){ .lg .middle .twemoji } [**Redlib (Reddit)**](../frontends.md#redlib)
 
   ---
 
-  [:octicons-info-16:](https://github.com/redlib-org/redlib#deployment){ .card-link title="Admin Documentation" }
-  [:octicons-code-16:](https://github.com/redlib-org/redlib){ .card-link title="Source Code" }
+  [:octicons-info-16:](https://github.com/redlib-org/redlib#deployment){ .card-link title="Dokumentacja administratora" }
+  [:octicons-code-16:](https://github.com/redlib-org/redlib){ .card-link title="Kod źródłowy" }
 
-- ![ProxiTok logo](../assets/img/frontends/proxitok.svg){ .lg .middle .twemoji } [**ProxiTok (TikTok)**](../frontends.md#proxitok)
-
-  ---
-
-  [:octicons-info-16:](https://github.com/pablouser1/ProxiTok/wiki/Self-hosting){ .card-link title="Admin Documentation" }
-  [:octicons-code-16:](https://github.com/pablouser1/ProxiTok){ .card-link title="Source Code" }
-
-- ![Invidious logo](../assets/img/frontends/invidious.svg#only-light){ .twemoji }![Invidious logo](../assets/img/frontends/invidious-dark.svg#only-dark){ .twemoji } [**Invidious (YouTube)**](../frontends.md#invidious)
+- ![Logo ProxiTok](../assets/img/frontends/proxitok.svg){ .lg .middle .twemoji } [**ProxiTok (TikTok)**](../frontends.md#proxitok)
 
   ---
 
-  [:octicons-home-16:](https://invidious.io){ .card-link title="Homepage" }
-  [:octicons-info-16:](https://docs.invidious.io/installation){ .card-link title="Admin Documentation" }
-  [:octicons-code-16:](https://github.com/iv-org/invidious){ .card-link title="Source Code" }
+  [:octicons-info-16:](https://github.com/pablouser1/ProxiTok/wiki/Self-hosting){ .card-link title="Dokumentacja administratora" }
+  [:octicons-code-16:](https://github.com/pablouser1/ProxiTok){ .card-link title="Kod źródłowy" }
 
-- ![Piped logo](../assets/img/frontends/piped.svg){ .twemoji } [**Piped (YouTube)**](../frontends.md#piped)
+- ![Logo Invidious](../assets/img/frontends/invidious.svg#only-light){ .twemoji }![Logo Invidious](../assets/img/frontends/invidious-dark.svg#only-dark){ .twemoji } [**Invidious (YouTube)**](../frontends.md#invidious)
 
   ---
 
-  [:octicons-info-16:](https://docs.piped.video/docs/self-hosting){ .card-link title="Admin Documentation" }
-  [:octicons-code-16:](https://github.com/TeamPiped/Piped){ .card-link title="Source Code" }
+  [:octicons-home-16:](https://invidious.io){ .card-link title="Strona główna" }
+  [:octicons-info-16:](https://docs.invidious.io/installation){ .card-link title="Dokumentacja administratora" }
+  [:octicons-code-16:](https://github.com/iv-org/invidious){ .card-link title="Kod źródłowy" }
+
+- ![Logo Piped](../assets/img/frontends/piped.svg){ .twemoji } [**Piped (YouTube)**](../frontends.md#piped)
+
+  ---
+
+  [:octicons-info-16:](https://docs.piped.video/docs/self-hosting){ .card-link title="Dokumentacja administratora" }
+  [:octicons-code-16:](https://github.com/TeamPiped/Piped){ .card-link title="Kod źródłowy" }
 
 </div>
 
-## More Tools...
+## Więcej narzędzi...
 
 Tool recommendations in other categories of the website also provide a self-hosted option, so you could consider this if you are confident in your ability to host the software after reading their documentation.
 
 <div class="grid cards" markdown>
 
-- ![Peergos logo](../assets/img/cloud/peergos.svg){ .twemoji } [**Peergos**](../cloud.md#peergos)
+- ![Logo Peergos](../assets/img/cloud/peergos.svg){ .twemoji } [**Peergos**](../cloud.md#peergos)
 
   ---
 
-  [:octicons-home-16:](https://peergos.org){ .card-link title="Homepage" }
-  [:octicons-info-16:](https://github.com/peergos/peergos#usage---running-locally-to-log-in-to-another-instance){ .card-link title="Admin Documentation" }
-  [:octicons-code-16:](https://github.com/Peergos/Peergos){ .card-link title="Source Code" }
+  [:octicons-home-16:](https://peergos.org){ .card-link title="Strona główna" }
+  [:octicons-info-16:](https://github.com/peergos/peergos#usage---running-locally-to-log-in-to-another-instance){ .card-link title="Dokumentacja administratora" }
+  [:octicons-code-16:](https://github.com/Peergos/Peergos){ .card-link title="Kod źródłowy" }
 
-- ![Addy.io logo](../assets/img/email-aliasing/addy.svg){ .twemoji } [**Addy.io**](../email-aliasing.md#addyio)
-
-  ---
-
-  [:octicons-home-16:](https://addy.io){ .card-link title="Homepage" }
-  [:octicons-info-16:](https://addy.io/self-hosting){ .card-link title="Admin Documentation" }
-  [:octicons-code-16:](https://github.com/anonaddy){ .card-link title="Source Code" }
-
-- ![SimpleLogin logo](../assets/img/email-aliasing/simplelogin.svg){ .twemoji } [**SimpleLogin**](../email-aliasing.md#simplelogin)
+- ![Logo Addy.io](../assets/img/email-aliasing/addy.svg){ .twemoji } [**Addy.io**](../email-aliasing.md#addyio)
 
   ---
 
-  [:octicons-home-16:](https://addy.io){ .card-link title="Homepage" }
-  [:octicons-info-16:](https://github.com/simple-login/app#prerequisites){ .card-link title="Admin Documentation" }
-  [:octicons-code-16:](https://github.com/simple-login){ .card-link title="Source Code" }
+  [:octicons-home-16:](https://addy.io){ .card-link title="Strona główna" }
+  [:octicons-info-16:](https://addy.io/self-hosting){ .card-link title="Dokumentacja administratora" }
+  [:octicons-code-16:](https://github.com/anonaddy){ .card-link title="Kod źródłowy" }
 
-- ![Ente logo](../assets/img/photo-management/ente.svg){ .twemoji } [**Ente Photos**](../photo-management.md#ente-photos)
-
-  ---
-
-  [:octicons-home-16:](https://ente.com){ .card-link title="Homepage" }
-  [:octicons-info-16:](https://ente.com/help/self-hosting/){ .card-link title="Admin Documentation" }
-  [:octicons-code-16:](https://github.com/ente-io/ente){ .card-link title="Source Code" }
-
-- ![CryptPad logo](../assets/img/document-collaboration/cryptpad.svg){ .twemoji } [**CryptPad**](../document-collaboration.md#cryptpad)
+- ![Logo SimpleLogin](../assets/img/email-aliasing/simplelogin.svg){ .twemoji } [**SimpleLogin**](../email-aliasing.md#simplelogin)
 
   ---
 
-  [:octicons-home-16:](https://cryptpad.fr){ .card-link title="Homepage" }
-  [:octicons-info-16:](https://docs.cryptpad.org/en/admin_guide/index.html){ .card-link title="Admin Documentation" }
-  [:octicons-code-16:](https://github.com/xwiki-labs/cryptpad){ .card-link title="Source Code" }
+  [:octicons-home-16:](https://addy.io){ .card-link title="Strona główna" }
+  [:octicons-info-16:](https://github.com/simple-login/app#prerequisites){ .card-link title="Dokumentacja administratora" }
+  [:octicons-code-16:](https://github.com/simple-login){ .card-link title="Kod źródłowy" }
 
-- ![Send logo](../assets/img/file-sharing-sync/send.svg){ .twemoji } [**Send**](../file-sharing.md#send)
-
-  ---
-
-  [:octicons-home-16:](https://send.vis.ee){ .card-link title="Homepage" }
-  [:octicons-info-16:](https://github.com/timvisee/send/blob/master/docs/deployment.md){ .card-link title="Admin Documentation" }
-  [:octicons-code-16:](https://github.com/timvisee/send){ .card-link title="Source Code" }
-
-- ![LibreTranslate logo](../assets/img/language-tools/libretranslate.png){ .twemoji } [**LibreTranslate**](../language-tools.md#libretranslate)
+- ![Logo Ente](../assets/img/photo-management/ente.svg){ .twemoji } [**Ente Photos**](../photo-management.md#ente-photos)
 
   ---
 
-  [:octicons-home-16:](https://libretranslate.com){ .card-link title="Homepage" }
-  [:octicons-info-16:](https://docs.libretranslate.com){ .card-link title="Admin Documentation" }
-  [:octicons-code-16:](https://github.com/LibreTranslate/LibreTranslate){ .card-link title="Source Code" }
+  [:octicons-home-16:](https://ente.com){ .card-link title="Strona główna" }
+  [:octicons-info-16:](https://ente.com/help/self-hosting/){ .card-link title="Dokumentacja administratora" }
+  [:octicons-code-16:](https://github.com/ente-io/ente){ .card-link title="Kod źródłowy" }
 
-- ![Miniflux logo](../assets/img/news-aggregators/miniflux.svg#only-light){ .twemoji }![Miniflux logo](../assets/img/news-aggregators/miniflux-dark.svg#only-dark){ .twemoji } [**Miniflux**](../news-aggregators.md#miniflux)
-
-  ---
-
-  [:octicons-home-16:](https://miniflux.app){ .card-link title="Homepage" }
-  [:octicons-info-16:](https://miniflux.app/docs/index.html#administration-guide){ .card-link title="Admin Documentation" }
-  [:octicons-code-16:](https://github.com/miniflux/v2){ .card-link title="Source Code" }
-
-- ![Standard Notes logo](../assets/img/notebooks/standard-notes.svg){ .twemoji } [**Standard Notes**](../notebooks.md#standard-notes)
+- ![Logo CryptPad](../assets/img/document-collaboration/cryptpad.svg){ .twemoji } [**CryptPad**](../document-collaboration.md#cryptpad)
 
   ---
 
-  [:octicons-home-16:](https://standardnotes.com){ .card-link title="Homepage" }
-  [:octicons-info-16:](https://standardnotes.com/help/47/can-i-self-host-standard-notes){ .card-link title="Admin Documentation" }
-  [:octicons-code-16:](https://github.com/standardnotes){ .card-link title="Source Code" }
+  [:octicons-home-16:](https://cryptpad.fr){ .card-link title="Strona główna" }
+  [:octicons-info-16:](https://docs.cryptpad.org/en/admin_guide/index.html){ .card-link title="Dokumentacja administratora" }
+  [:octicons-code-16:](https://github.com/xwiki-labs/cryptpad){ .card-link title="Kod źródłowy" }
 
-- ![PrivateBin logo](../assets/img/pastebins/privatebin.svg){ .twemoji } [**PrivateBin**](../pastebins.md#privatebin)
-
-  ---
-
-  [:octicons-home-16:](https://privatebin.info){ .card-link title="Homepage" }
-  [:octicons-info-16:](https://github.com/PrivateBin/PrivateBin/blob/master/doc/Installation.md){ .card-link title="Admin Documentation" }
-  [:octicons-code-16:](https://github.com/PrivateBin/PrivateBin){ .card-link title="Source Code" }
-
-- ![Paaster logo](../assets/img/pastebins/paaster.svg){ .twemoji } [**Paaster**](../pastebins.md#paaster)
+- ![Logo Send](../assets/img/file-sharing-sync/send.svg){ .twemoji } [**Send**](../file-sharing.md#send)
 
   ---
 
-  [:octicons-home-16:](https://paaster.io){ .card-link title="Homepage" }
-  [:octicons-info-16:](https://github.com/WardPearce/paaster#deployment){ .card-link title="Admin Documentation" }
-  [:octicons-code-16:](https://github.com/WardPearce/paaster){ .card-link title="Source Code" }
+  [:octicons-home-16:](https://send.vis.ee){ .card-link title="Strona główna" }
+  [:octicons-info-16:](https://github.com/timvisee/send/blob/master/docs/deployment.md){ .card-link title="Dokumentacja administratora" }
+  [:octicons-code-16:](https://github.com/timvisee/send){ .card-link title="Kod źródłowy" }
 
-- ![SimpleX Chat logo](../assets/img/messengers/simplex.svg){ .twemoji } [**SimpleX Chat**](../real-time-communication.md#simplex-chat)
+- ![Logo LibreTranslate](../assets/img/language-tools/libretranslate.png){ .twemoji } [**LibreTranslate**](../language-tools.md#libretranslate)
 
   ---
 
-  [:octicons-home-16:](https://simplex.chat){ .card-link title="Homepage" }
-  [:octicons-info-16:](https://simplex.chat/docs/server.html){ .card-link title="Admin Documentation" }
-  [:octicons-code-16:](https://github.com/simplex-chat){ .card-link title="Source Code" }
+  [:octicons-home-16:](https://libretranslate.com){ .card-link title="Strona główna" }
+  [:octicons-info-16:](https://docs.libretranslate.com){ .card-link title="Dokumentacja administratora" }
+  [:octicons-code-16:](https://github.com/LibreTranslate/LibreTranslate){ .card-link title="Kod źródłowy" }
+
+- ![Logo Miniflux](../assets/img/news-aggregators/miniflux.svg#only-light){ .twemoji }![Logo Miniflux](../assets/img/news-aggregators/miniflux-dark.svg#only-dark){ .twemoji } [**Miniflux**](../news-aggregators.md#miniflux)
+
+  ---
+
+  [:octicons-home-16:](https://miniflux.app){ .card-link title="Strona główna" }
+  [:octicons-info-16:](https://miniflux.app/docs/index.html#administration-guide){ .card-link title="Dokumentacja administratora" }
+  [:octicons-code-16:](https://github.com/miniflux/v2){ .card-link title="Kod źródłowy" }
+
+- ![Logo Standard Notes](../assets/img/notebooks/standard-notes.svg){ .twemoji } [**Standard Notes**](../notebooks.md#standard-notes)
+
+  ---
+
+  [:octicons-home-16:](https://standardnotes.com){ .card-link title="Strona główna" }
+  [:octicons-info-16:](https://standardnotes.com/help/47/can-i-self-host-standard-notes){ .card-link title="Dokumentacja administratora" }
+  [:octicons-code-16:](https://github.com/standardnotes){ .card-link title="Kod źródłowy" }
+
+- ![Logo PrivateBin](../assets/img/pastebins/privatebin.svg){ .twemoji } [**PrivateBin**](../pastebins.md#privatebin)
+
+  ---
+
+  [:octicons-home-16:](https://privatebin.info){ .card-link title="Strona główna" }
+  [:octicons-info-16:](https://github.com/PrivateBin/PrivateBin/blob/master/doc/Installation.md){ .card-link title="Dokumentacja administratora" }
+  [:octicons-code-16:](https://github.com/PrivateBin/PrivateBin){ .card-link title="Kod źródłowy" }
+
+- ![Logo Paaster](../assets/img/pastebins/paaster.svg){ .twemoji } [**Paaster**](../pastebins.md#paaster)
+
+  ---
+
+  [:octicons-home-16:](https://paaster.io){ .card-link title="Strona główna" }
+  [:octicons-info-16:](https://github.com/WardPearce/paaster#deployment){ .card-link title="Dokumentacja administratora" }
+  [:octicons-code-16:](https://github.com/WardPearce/paaster){ .card-link title="Kod źródłowy" }
+
+- ![Logo SimpleX Chat](../assets/img/messengers/simplex.svg){ .twemoji } [**SimpleX Chat**](../real-time-communication.md#simplex-chat)
+
+  ---
+
+  [:octicons-home-16:](https://simplex.chat){ .card-link title="Strona główna" }
+  [:octicons-info-16:](https://simplex.chat/docs/server.html){ .card-link title="Dokumentacja administratora" }
+  [:octicons-code-16:](https://github.com/simplex-chat){ .card-link title="Kod źródłowy" }
 
 </div>
