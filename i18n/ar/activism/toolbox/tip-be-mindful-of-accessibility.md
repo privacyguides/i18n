@@ -61,35 +61,35 @@ cover: activism/banner-toolbox-tip-accessibility.webp
 
 ### تسهيلات الوصول للمكان
 
-عند تنظيم الفعاليات واللقاءات حضوريا، من الضروري مراعاة سهولة الوصول المادي للأشخاص الذين يواجهون تحديات حركية بمختلف أنواعها. This includes accessibility around the venue, but also on the journey to the venue.
+عند تنظيم الفعاليات واللقاءات حضوريا، من الضروري مراعاة سهولة الوصول المادي للأشخاص الذين يواجهون تحديات حركية بمختلف أنواعها. لا يقتصر ذلك على سهولة الوصول داخل وحول مقر الفعالية فحسب، بل يشمل أيضا مسار الرحلة للوصول إليه.
 
-- [x] Ensure the venue you select is [accessible for people using wheelchairs](https://sites.augsburg.edu/events/policies/accessible-events/accessible-event-planning-guide/). Check that there is access to an elevator if it's on an upper floor, that there are access ramps and automatic doors if required, and that doorways and hallways are wide enough to accommodate a wheelchair.
+- [x] تأكد من أن مكان الفعالية الذي تختاره [مهيأ لاستقبال مستخدمي الكراسي المتحركة](https://sites.augsburg.edu/events/policies/accessible-events/accessible-event-planning-guide/). تأكد من توفر مصعد إذا كان المكان في طابق علوي، ووجود منحدرات مخصصة وأبواب أوتوماتيكية عند الحاجة، مع التأكد من أن المداخل والممرات واسعة بما يكفي لمرور الكراسي المتحركة بسهولة.
 
-- [x] Make certain that there will be enough comfortable seating for your guests, and that seating and eating areas will be accessible to guests using wheelchairs or other mobility aids.
+- [x] احرص على توفير مقاعد مريحة بعدد كاف لضيوفك، وتأكد من أن مناطق الجلوس وتناول الطعام مهيأة لاستقبال مستخدمي الكراسي المتحركة أو أي وسائل مساعدة حركية أخرى.
 
-- [x] Check that there are wheelchair-accessible bathrooms nearby.
+- [x] تأكد من وجود دورات مياه قريبة ومهيأة لاستخدام أصحاب الكراسي المتحركة.
 
-- [x] Evaluate the accessibility of the transit options available to reach the venue you select, including specialized transits for people who are using wheelchairs, or other types of mobility aids. Publish a map of the transit accesses around your venue.
+- [x] قيّم مدى سهولة استخدام وسائل النقل المتاحة للوصول إلى المكان الذي اخترته، بما في ذلك توافر وسائل نقل مخصصة لمستخدمي الكراسي المتحركة أو غيرها من وسائل المساعدة على الحركة. انشر خريطة توضح وسائل النقل وطرق الوصول المتاحة حول مقر الفعالية.
 
-- [x] Research if your venue has access to parking and accessible parking spots. Publish this information with your invitation.
+- [x] تأكد مما إذا كان المكان يوفر مواقف للسيارات، بما في ذلك المساحات المخصصة لسيارات ذوي الاحتياجات الخاصة. احرص على نشر هذه المعلومات ضمن تفاصيل دعوتك للفعالية.
 
-- [x] Verify the venue you select is accessible to people with visual or auditory impairments.  For example, check if elevators are marked with Braille or raised letters, and make sure that hosts are informed on how to communicate with guests who are deaf or hard of hearing.
+- [x] تأكد من أن مقر الفعالية الذي تختاره مهيأ لتلبية احتياجات الأشخاص ذوي الإعاقات البصرية أو السمعية.  على سبيل المثال، تأكد مما إذا كانت أزرار المصاعد تحمل علامات بلغة 'برايل' أو حروفاً بارزة، واحرص على توعية فريق التنظيم بكيفية التواصل مع الضيوف من الصم أو ضعاف السمع.
 
-### Health accessibility
+### توفير بيئة صحية ميسرة للجميع
 
-In-person accessibility isn't just about mobility. Accessibility is also important to consider for a variety of health conditions, including people who are vulnerable to infectious diseases, or require other accommodations related to their health.
+سهولة الوصول للفعاليات الحضورية لا تقتصر على حرية الحركة فحسب. من المهم أيضا مراعاة إمكانية الوصول لمختلف الحالات الصحية، بما في ذلك الأشخاص الأكثر عرضة للأمراض المعدية، أو الذين يحتاجون لترتيبات خاصة تتعلق بصحتهم.
 
-- [x] Designate a trained person responsible for accessibility, and share their contact information in advance. That way, people will be able to contact this person if they have any questions before or during the event.
+- [x] خصص شخصاً مدربا ليكون مسؤولا عن 'سهولة الوصول'، وشارك بيانات التواصل معه مسبقاً. وبهذه الطريقة، سيتمكن الحضور من التواصل مع هذا الشخص في حال وجود أي استفسارات لديهم قبل الفعالية أو أثنائها.
 
-- [x] Encourage your participants to wear a mask, and try to select a venue with adequate ventilation to minimize the risks for people who are [vulnerable to respiratory infections](https://health.clevelandclinic.org/superspreader-events). If food is served, try to select a venue with an area allowing to consume food outside.
+- [x] شجع المشاركين على ارتداء الكمامة، واحرص على اختيار مكان بتهوية جيدة لتقليل المخاطر على الأشخاص [الأكثر عرضة للإصابة بالعدوى التنفسية](https://health.clevelandclinic.org/superspreader-events). في حال تقديم الطعام، حاول اختيار مكان يوفر مساحة تسمح بتناوله في الهواء الطلق.
 
-- [x] Make sure to bring a few boxes of [protective face masks](https://health.clevelandclinic.org/do-masks-work) to your event that guests can use for free. That way, people who might be at risk in dense crowd can decide to wear a mask once they arrived, or if they forgot to bring their own.
+- [x] احرص على إحضار بضع علب من [كمامات الوجه الواقية](https://health.clevelandclinic.org/do-masks-work) لفعاليتك، بحيث يمكن للضيوف استخدامها مجانا. وبهذه الطريقة، يمكن للأشخاص الذين قد يشعرون بالخطر في الزحام الشديد اتخاذ قرار بارتداء الكمامة عند وصولهم، أو في حال نسيان إحضار كمامتهم الخاصة.
 
-- [x] Try to prepare an area in your venue, or near your venue, where people can rest comfortably in a [quiet space](https://eventwell.org/ensuring-inclusive-events-the-importance-of-supervising-quiet-spaces-for-neurodivergent-attendees-and-vulnerable-adults/), if they feel tired or overstimulated during the event.
+- [x] حاول تجهيز منطقة داخل مقر الفعالية أو بالقرب منه، بحيث يمكن للحضور الاستراحة براحة في [مساحة هادئة](https://eventwell.org/ensuring-inclusive-events-the-importance-of-supervising-quiet-spaces-for-neurodivergent-attendees-and-vulnerable-adults/) إذا شعروا بالتعب أو الإرهاق الحسي خلال الحدث.
 
-- [x] Promote a [scent-free](https://www.chrc-ccdp.gc.ca/resources/publications/environmental-sensitivities-and-scent-free-policies) environment to make your event welcoming to people who have scent allergies, environmental sensibilities, or other health conditions that can be affected by scents.
+- [x] شجع على توفير بيئة [خالية من العطور](https://www.chrc-ccdp.gc.ca/resources/publications/environmental-sensitivities-and-scent-free-policies) لجعل فعاليتك مكانا يرحب بالأشخاص الذين يعانون من حساسية الروائح، أو الحساسيات البيئية، أو الحالات الصحية الأخرى التي قد تتأثر بالروائح النفاذة.
 
-- [x] Provide training for hosts and event volunteers to make sure they are aware of available accommodations, and can give helpful information upon request.
+- [x] وفر تدريبا للمنظمين والمتطوعين لضمان معرفتهم بكافة التسهيلات المتاحة، وقدرتهم على تقديم معلومات مفيدة للضيوف عند الطلب.
 
 ### Dietary accessibility
 
@@ -145,13 +145,13 @@ Another aspect of accessibility that is often overlooked is financial accessibil
 
 - [x] توخ الحذر عند استخدام المصطلحات التخصصية المعقدة، وحاول أن تكون واضحا تماما عبر استخدام كلمات بسيطة وأمثلة تشبيهية لتقريب المعنى.
 
-- [x] احذر من ممارسات 'الاستعلاء المعرفي' (Gatekeeping). Try to stay aware of newcomers that might be quiet or isolated from the group. [Be inclusive](tip-keep-your-posts-and-community-inclusive.md) and invite them to participate.
+- [x] احذر من ممارسات 'الاستعلاء المعرفي' (Gatekeeping). حاول أن تظل منتبها للمنضمين الجدد الذين قد يميلون للصمت أو يشعرون بالعزلة عن المجموعة. تبنّ مبدأ [الاحتواء والشمول](tip-keep-your-posts-and-community-inclusive.md) واعمل على دعوتهم للمساهمة الفعالة.
 
-- [x] Specify that your event welcomes beginners.
+- [x] أوضح صراحة أن فعاليتك ترحب بالمبتدئين.
 
-- [x] Be mindful of advertising your event in places where potential newcomers might see it. Be careful about not inviting people only from places reaching out to people who are already part of the privacy community.
+- [x] احرص على الترويج لفعاليتك في الأماكن والمنصات التي يتواجد فيها المنضمون الجدد المحتملون ليتمكنوا من رؤيتها. احذر من حصر دعواتك في الأماكن التي تصل فقط للأشخاص المنخرطين بالفعل في مجتمع الخصوصية.
 
-## More resources
+## المزيد من المصادر
 
 - [How to make your social justice event accessible (_The Commons Social Change Library_)](https://commonslibrary.org/how-to-make-your-social-justice-event-accessible/)
 
