@@ -11,7 +11,7 @@ description: These services can assist you in protecting your privacy from merch
 
 Making payments online is one of the biggest challenges to privacy. These services can assist you in protecting your privacy from merchants and other trackers, provided you have a strong understanding of how to make private payments effectively. We strongly encourage you first read our payments overview article before making any purchases:
 
-[Making Private Payments :material-arrow-right-drop-circle:](advanced/payments.md ""){.md-button}
+[Dokonywanie prywatnych płatności  :material-arrow-right-drop-circle:](advanced/payments.md ""){.md-button}
 
 ## Usługi maskowania płatności
 
@@ -70,8 +70,8 @@ Wirtualne karty MySudo są obecnie dostępne tylko za pośrednictwem aplikacji n
 
 **Należy pamiętać, że nie jesteśmy powiązani z żadnym z polecanych przez nas projektów.** Oprócz [naszych standardowych kryteriów](about/criteria.md) opracowaliśmy jasny zestaw wymagań, które pozwalają nam formułować obiektywne zalecenia. Sugerujemy zapoznanie się z tą listą przed wyborem projektu oraz przeprowadzenie własnych badań, aby upewnić się, że jest to odpowiedni wybór dla Ciebie.
 
-- Allows the creation of multiple cards which function as a shield between the merchant and your personal finances.
-- Cards must not require you to provide accurate billing address information to the merchant.
+- Umożliwia tworzenie wielu kart, które działają jako tarcza między sprzedawcą i Twoimi finansami osobistymi.
+- Karty nie mogą wymagać od użytkownika podania sprzedawcy dokładnych informacji o adresie rozliczeniowym.
 
 ## Internetowe platformy handlowe oferujące karty podarunkowe
 
@@ -79,15 +79,15 @@ Wirtualne karty MySudo są obecnie dostępne tylko za pośrednictwem aplikacji n
 
 - [:material-eye-outline: Masowa inwigilacja](basics/common-threats.md#mass-surveillance-programs ""){.pg-blue}
 
-These services allow you to purchase gift cards for a variety of merchants online with [cryptocurrency](cryptocurrency.md). Some of these services offer ID verification options for higher limits, but they also allow accounts with just an email address. Basic limits typically start at $5,000-10,000 a day for basic accounts, with significantly higher limits for ID verified accounts (if offered).
+Te usługi umożliwiają Ci zakupienie kart podarunkowych do różnych sprzedawców internetowych za pomocą [kryptowaluty](cryptocurrency.md). Część z tych usług oferuje opcje weryfikacji dowodu tożsamości w celu zwiększenia limitów, jednak umożliwiają również zakładanie kont wyłącznie za pomocą adresu e-mail Podstawowe limity zwykle zaczynają się od 5 000-10 000 USD dziennie dla kont podstawowych, ze znacznie wyższymi limitami dla kont zweryfikowanych dowodem tożsamości (jeśli są oferowane).
 
 ### Coincards
 
 <div class="admonition recommendation" markdown>
 
-![Coincards logo](assets/img/financial-services/coincards.svg){ align=right }
+![Logo Coincards](assets/img/financial-services/coincards.svg){ align=right }
 
-**Coincards** allows you to purchase gift cards for a large variety of merchants. Their homepage has a complete listing of the various countries where their service is available.
+**Coincards** umożliwia zakup kart podarunkowych do szerokiej gamy różnych sprzedawców. Ich strona główna zawiera pełną listę krajów, w których ich usługa jest dostępna.
 
 [:octicons-home-16: Strona Główna](https://coincards.com){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://coincards.com/privacy-policy){ .card-link title="Polityka prywatności" }
@@ -105,8 +105,9 @@ These services allow you to purchase gift cards for a variety of merchants onlin
 - Brak wymogu poświadczenia dowodem tożsamości
 
 <div class="admonition tip" markdown>
-<p class="admonition-title">Important notices</p>
+<p class="admonition-title">Ważne informacje</p>
 
-Treści tutaj zawarte nie stanowią porady prawnej ani finansowej. We do not endorse or encourage illicit activities, and we do not endorse or encourage anything which violates a company's terms of service. Check with a professional to confirm that these recommendations are legal and available in your jurisdiction. [See all notices](about/notices.md).
+Treści tutaj zawarte nie stanowią porady prawnej ani finansowej. Niniejszy materiał ma charakter wyłącznie informacyjny i edukacyjny i nie stanowi porady prawnej, finansowej ani inwestycyjnej.
+Nie wspieramy ani nie zachęcamy do działań niezgodnych z obowiązującym prawem lub naruszających regulaminy usługodawców. Przed wykorzystaniem opisanych rozwiązań należy skonsultować się z odpowiednim specjalistą i zweryfikować ich legalność i dostępność w swojej jurysdykcji. [Pełna treść informacji prawnych](about/notices.md).
 
 </div>
