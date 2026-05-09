@@ -4,11 +4,11 @@ icon: simple/qubesos
 description: Qubes to system operacyjny oparty na izolowaniu aplikacji w *qubes* (dawniej "maszynach wirtualnych") w celu zwiększenia bezpieczeństwa.
 ---
 
-[**Qubes OS**](../desktop.md#qubes-os) is an open-source operating system which uses the [Xen](https://en.wikipedia.org/wiki/Xen) hypervisor to provide strong security for desktop computing through isolated *qubes*, (which are Virtual Machines). You can assign each *qube* a level of trust based on its purpose. Qubes OS provides security by using isolation. It only permits actions on a per-case basis and therefore is the opposite of [badness enumeration](https://ranum.com/security/computer_security/editorials/dumb).
+[**Qubes OS**](../desktop.md#qubes-os) to system operacyjny open-source, który używa hiperwizora [Xen](https://en.wikipedia.org/wiki/Xen) aby zapewnić silną ochronę dla komputerów stacjonarnych poprzez izolowane *qubes*, (maszyny wirtualne). Każdej *qube* można przypisać poziom zaufania w zależności od jej przeznaczenia. Qubes OS zapewnia bezpieczeństwo poprzez izolację. It only permits actions on a per-case basis and therefore is the opposite of [badness enumeration](https://ranum.com/security/computer_security/editorials/dumb).
 
-## How does Qubes OS work?
+## Jak działa Qubes OS?
 
-Qubes uses [compartmentalization](https://qubes-os.org/intro) to keep the system secure. Qubes are created from templates, the defaults being for Fedora, Debian and [Whonix](../desktop.md#whonix). Qubes OS also allows you to create once-use [disposable](https://qubes-os.org/doc/how-to-use-disposables) *qubes*.
+Qubes używa [kompartmentalizacji](https://qubes-os.org/intro), aby zapewnić bezpieczeństwo systemu. Qubes are created from templates, the defaults being for Fedora, Debian and [Whonix](../desktop.md#whonix). Qubes OS also allows you to create once-use [disposable](https://qubes-os.org/doc/how-to-use-disposables) *qubes*.
 
 <details class="note" markdown>
 <summary>The term <em>qubes</em> is gradually being updated to avoid referring to them as "virtual machines".</summary>
@@ -17,7 +17,7 @@ Some of the information here and on the Qubes OS documentation may contain confl
 
 </details>
 
-![Qubes architecture](../assets/img/qubes/qubes-trust-level-architecture.png)
+![Architektura Qubes](../assets/img/qubes/qubes-trust-level-architecture.png)
 <figcaption>Qubes Architecture, Credit: What is Qubes OS Intro</figcaption>
 
 Each qube has a [colored border](https://qubes-os.org/screenshots) that can help you keep track of the domain in which it runs. You could, for example, use a specific color for your banking browser, while using a different color for a general untrusted browser.
@@ -31,7 +31,7 @@ Qubes OS is useful if your [threat model](../basics/threat-modeling.md) requires
 
 Qubes OS utilizes [dom0](https://wiki.xenproject.org/wiki/Dom0) Xen VM for controlling other *qubes* on the host OS, all of which display individual application windows within dom0's desktop environment. There are many uses for this type of architecture. Here are some tasks you can perform. You can see just how much more secure these processes are made by incorporating multiple steps.
 
-### Copying and Pasting Text
+### Kopiowanie i wklejanie tekstu
 
 You can [copy and paste text](https://qubes-os.org/doc/how-to-copy-and-paste-text) using `qvm-copy-to-vm` or the below instructions:
 
@@ -63,7 +63,7 @@ After [creating a new ProxyVM](https://forum.qubes-os.org/t/configuring-a-proxyv
 
 Your qubes should be configured in a manner similar to this:
 
-| Qube name       | Opis Qube                                                                                                        | NetVM           |
+| Nazwa Qube      | Opis Qube                                                                                                        | NetVM           |
 | --------------- | ---------------------------------------------------------------------------------------------------------------- | --------------- |
 | sys-net         | *Twój domyślny qube sieciowy (preinstalowany)*                                                                   | *n/a*           |
 | sys-firewall    | *Domyślna zapora sieciowa qube (preinstalowana)*                                                                 | sys-net         |

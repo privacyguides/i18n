@@ -17,18 +17,18 @@ cover: news-aggregators.webp
 
 <div class="admonition recommendation" markdown>
 
-![Akregator logo](assets/img/news-aggregators/akregator.svg){ align=right }
+![Logo Akregatora](assets/img/news-aggregators/akregator.svg){ align=right }
 
-**Akregator** is a news feed reader that is a part of the [KDE](https://kde.org) project. It comes with a fast search, advanced archiving functionality, and an internal browser for easy news reading.
+**Akregator** jest czytnikiem kanałów, który jest częścią projektu [KDE](https://kde.org). It comes with a fast search, advanced archiving functionality, and an internal browser for easy news reading.
 
-[:octicons-home-16: Homepage](https://apps.kde.org/akregator){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://kde.org/privacypolicy-apps){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://docs.kde.org/?application=akregator){ .card-link title="Documentation" }
-[:octicons-code-16:](https://invent.kde.org/pim/akregator){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://kde.org/community/donations){ .card-link title="Contribute" }
+[:octicons-home-16: Strona główna](https://apps.kde.org/akregator){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://kde.org/privacypolicy-apps){ .card-link title="Polityka prywatności" }
+[:octicons-info-16:](https://docs.kde.org/?application=akregator){ .card-link title="Dokumentacja" }
+[:octicons-code-16:](https://invent.kde.org/pim/akregator){ .card-link title="Kod źródłowy" }
+[:octicons-heart-16:](https://kde.org/community/donations){ .card-link title="Wesprzyj" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Pobierz</summary>
 
 - [:simple-flathub: Flathub](https://flathub.org/apps/details/org.kde.akregator)
 
@@ -40,9 +40,9 @@ cover: news-aggregators.webp
 
 <div class="admonition recommendation" markdown>
 
-![NewsFlash logo](assets/img/news-aggregators/newsflash.png){ align=right }
+![Logo NewsFlash](assets/img/news-aggregators/newsflash.png){ align=right }
 
-**NewsFlash** is an open-source, modern, and easy-to-use news feed reader for Linux. It can be used offline or with services like [Inoreader](https://inoreader.com) or [Nextcloud News](https://apps.nextcloud.com/apps/news). It has a search feature and a pre-defined list of sources that you can add directly.
+**NewsFlash** to open-source, nowoczesny i łatwy w użyciu czytnik kanałów dla systemu Linux. It can be used offline or with services like [Inoreader](https://inoreader.com) or [Nextcloud News](https://apps.nextcloud.com/apps/news). It has a search feature and a pre-defined list of sources that you can add directly.
 
 [:octicons-repo-16: Repository](https://gitlab.com/news-flash/news_flash_gtk#newsflash){ .md-button .md-button--primary }
 [:octicons-code-16:](https://gitlab.com/news-flash/news_flash_gtk){ .card-link title="Source Code" }
@@ -60,18 +60,18 @@ cover: news-aggregators.webp
 
 <div class="admonition recommendation" markdown>
 
-![Feeder logo](assets/img/news-aggregators/feeder.png){ align=right }
+![Logo Feeder](assets/img/news-aggregators/feeder.png){ align=right }
 
-**Feeder** is a modern RSS client for Android that has many [features](https://github.com/spacecowboy/Feeder#features) and works well with folders of RSS feeds.
+**Feeder** to nowoczesny klient RSS dla Androida, który ma wiele [funkcji](https://github.com/spacecowboy/Feeder#features) i działa z folderami kanałów RSS.
 
-It supports [RSS](https://en.wikipedia.org/wiki/RSS), [Atom](https://en.wikipedia.org/wiki/Atom_(Web_standard)), [RDF](https://en.wikipedia.org/wiki/RDF%2FXML), and [JSON Feed](https://en.wikipedia.org/wiki/JSON_Feed).
+Obsługuje [RSS](https://en.wikipedia.org/wiki/RSS), [Atom](https://en.wikipedia.org/wiki/Atom_(Web_standard)), [RDF](https://en.wikipedia.org/wiki/RDF%2FXML) i [JSON Feed](https://en.wikipedia.org/wiki/JSON_Feed).
 
-[:octicons-repo-16: Repository](https://github.com/spacecowboy/Feeder#readme){ .md-button .md-button--primary }
-[:octicons-code-16:](https://github.com/spacecowboy/Feeder){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://ko-fi.com/spacecowboy){ .card-link title="Contribute" }
+[:octicons-repo-16: Repozytorium](https://github.com/spacecowboy/Feeder#readme){ .md-button .md-button--primary }
+[:octicons-code-16:](https://github.com/spacecowboy/Feeder){ .card-link title="Kod źródłowy" }
+[:octicons-heart-16:](https://ko-fi.com/spacecowboy){ .card-link title=Wesprzyj }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Pobierz</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.nononsenseapps.feeder.play)
 - [:simple-github: GitHub](https://github.com/spacecowboy/Feeder/releases)
@@ -84,17 +84,17 @@ It supports [RSS](https://en.wikipedia.org/wiki/RSS), [Atom](https://en.wikipedi
 
 <div class="admonition recommendation" markdown>
 
-![Miniflux logo](assets/img/news-aggregators/miniflux.svg#only-light){ align=right }
-![Miniflux logo](assets/img/news-aggregators/miniflux-dark.svg#only-dark){ align=right }
+![Logo Miniflux](assets/img/news-aggregators/miniflux.svg#only-light){ align=right }
+![Logo Miniflux](assets/img/news-aggregators/miniflux-dark.svg#only-dark){ align=right }
 
-**Miniflux** is a web-based news aggregator that you can self-host.
+**Miniflux** to internetowy agregator wiadomości, który można samodzielnie hostować.
 
-It supports [RSS](https://en.wikipedia.org/wiki/RSS), [Atom](https://en.wikipedia.org/wiki/Atom_(Web_standard)), [RDF](https://en.wikipedia.org/wiki/RDF%2FXML), and [JSON Feed](https://en.wikipedia.org/wiki/JSON_Feed).
+Obsługuje [RSS](https://en.wikipedia.org/wiki/RSS), [Atom](https://en.wikipedia.org/wiki/Atom_(Web_standard)), [RDF](https://en.wikipedia.org/wiki/RDF%2FXML) i [JSON Feed](https://en.wikipedia.org/wiki/JSON_Feed).
 
-[:octicons-home-16: Homepage](https://miniflux.app){ .md-button .md-button--primary }
-[:octicons-info-16:](https://miniflux.app/docs/index#user-guide){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/miniflux/v2){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://miniflux.app/#donations){ .card-link title="Contribute" }
+[:octicons-home-16: Strona główna](https://miniflux.app){ .md-button .md-button--primary }
+[:octicons-info-16:](https://miniflux.app/docs/index#user-guide){ .card-link title="Dokumentacja" }
+[:octicons-code-16:](https://github.com/miniflux/v2){ .card-link title="Kod źródłowy" }
+[:octicons-heart-16:](https://miniflux.app/#donations){ .card-link title="Wesprzyj" }
 
 </div>
 
@@ -170,9 +170,9 @@ You can subscribe to YouTube channels without logging in and associating usage i
 <div class="admonition example" markdown>
 <p class="admonition-title">Przykład</p>
 
-To subscribe to a YouTube channel with an RSS client, first look for its [channel code](https://support.google.com/youtube/answer/6180214). The channel code can be found in the expanded description (i.e., the "About" section) of the YouTube channel you wish to subscribe to: **About** → **Share channel** → **Copy channel ID**. Replace `[CHANNEL ID]` below:
+To subscribe to a YouTube channel with an RSS client, first look for its [channel code](https://support.google.com/youtube/answer/6180214). The channel code can be found in the expanded description (i.e., the "About" section) of the YouTube channel you wish to subscribe to: **About** → **Share channel** → **Copy channel ID**. Zastąp `[CHANNEL ID]` poniżej:
 
-```text
+``text
 https://youtube.com/feeds/videos.xml?channel_id=[CHANNEL ID]
 ```
 

@@ -139,7 +139,7 @@ W razie potrzeby można je obniżyć dla poszczególnych witryn, jednak domyśln
     - [x] Zaznacz **Automatycznie przekierowuj śledzące adresy URL**
     - \[x\] (Opcjonalnie) Zaznacz **Zablokuj skrypty** (1)
     - [x] Zaznacz **Zablokuj rozpoznawanie urządzenia**
-    - [x] Select **Site Tabs Closed** under *Auto Shred*
+    - [x] Zaznacz **Zamknięte zakładki strony** pod *Automatyczne usuwanie*
 
     <details class="warning" markdown>
     <summary>Używaj domyślnych list filtrów</summary>
@@ -357,7 +357,7 @@ Te opcje znajdziesz w :gear: **Ustawienia** → **Aplikacje** → **Safari** →
 
 ##### Ograniczanie rozpoznawania
 
-The **Advanced Tracking and Fingerprinting Protection** setting will randomize certain values so that it's more difficult to fingerprint you:
+Ustawienie **Zaawansowana ochrona (śledzenie i fingerprinting)** wprowadzi losowość niektórych wartości, aby trudniej było pobrać twój wirtualny odcisk palca:
 
 - [x] Zaznacz ** Całość przeglądania** lub **Przeglądanie Prywatne**
 
