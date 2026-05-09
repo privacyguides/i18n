@@ -14,13 +14,13 @@ Nasza strona zazwyczaj używa terminu "Linux" aby opisać **stacjonarne** dystry
 
 Istnieją pewne istotne obawy związane z bezpieczeństwem Linuksa, których należy być świadomym. Pomimo tych wad, dystrybucje systemu Linux na komputery stacjonarne są nadal świetnym wyborem dla większości osób, które chcą:
 
-- Avoid telemetry that often comes with proprietary operating systems
-- Maintain [software freedom](https://gnu.org/philosophy/free-sw.en.html#four-freedoms)
-- Use privacy-focused systems such as [Whonix](../desktop.md#whonix) or [Tails](../desktop.md#tails)
+- Unikać telemetrii, która często występuje w zamkniętych systemach operacyjnych
+- Zachować [wolność oprogramowania](https://gnu.org/philosophy/free-sw.en.html#four-freedoms)
+- Korzystać z systemów nastawionych na prywatność takich jak [Whonix](../desktop.md#whonix) lub [Tails](../desktop.md#tails)
 
-### Open-Source Security
+### Bezpieczeństwo open-source
 
-It is a [common misconception](../basics/common-misconceptions.md#open-source-software-is-always-secure-or-proprietary-software-is-more-secure) that Linux and other open-source software are inherently secure simply because the source code is available. There is an expectation that community verification occurs regularly, but this isn’t always [the case](https://seirdy.one/posts/2022/02/02/floss-security).
+Powszechne jest [ błędne przekonanie](../basics/common-misconceptions.md#open-source-software-is-always-secure-or-proprietary-software-is-more-secure), że Linux i inne oprogramowanie open-source są z natury bezpieczne tylko dlatego, że kod źródłowy jest dostępny. There is an expectation that community verification occurs regularly, but this isn’t always [the case](https://seirdy.one/posts/2022/02/02/floss-security).
 
 In reality, distro security depends on a number of factors, such as project activity, developer experience, the level of rigor applied to code reviews, and how often attention is given to specific parts of the codebase that may go untouched for years.
 
