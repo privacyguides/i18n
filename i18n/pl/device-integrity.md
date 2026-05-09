@@ -1,15 +1,15 @@
 ---
-title: "Device Integrity"
+title: "Integralność urządzenia"
 icon: material/security
 description: These tools can be used to check your devices for compromise.
 cover: device-integrity.webp
 robots: nofollow, max-snippet:-1, max-image-preview:large
 ---
 
-These tools can be used to validate the integrity of your mobile devices and check them for indicators of compromise by spyware and malware such as Pegasus, Predator, or KingsPawn. This page focuses on **mobile security**, because mobile devices typically have read-only systems with well-known configurations, so detecting malicious modifications is easier than on traditional desktop systems. We may expand the focus of this page in the future.
+These tools can be used to validate the integrity of your mobile devices and check them for indicators of compromise by spyware and malware such as Pegasus, Predator, or KingsPawn. This page focuses on **mobile security**, because mobile devices typically have read-only systems with well-known configurations, so detecting malicious modifications is easier than on traditional desktop systems. W przyszłości możemy rozszerzyć zakres tej strony.
 
 <div class="admonition note" markdown>
-<p class="admonition-title">This is an advanced topic</p>
+<p class="admonition-title">To jest zaawansowany temat</p>
 
 Te narzędzia mogą być przydatne dla niektórych osób. They provide functionality which most people do not need to worry about, and often require more in-depth technical knowledge to use effectively.
 
@@ -17,7 +17,7 @@ Te narzędzia mogą być przydatne dla niektórych osób. They provide functiona
 
 It is **critical** to understand that scanning your device for public indicators of compromise is **not sufficient** to determine that a device is "clean", and not targeted with a particular spyware tool. Reliance on these publicly-available scanning tools can miss recent security developments and give you a false sense of security.
 
-## General Advice
+## Porady ogólne
 
 The majority of system-level exploits on modern mobile devices—especially zero-click compromises—are non-persistent, meaning they will not remain or run automatically after a reboot. For this reason, we highly recommend rebooting your device regularly. We recommend everybody reboot their devices once a week at minimum, but if non-persistent malware is of particular concern for you, we and many security experts recommend a daily reboot schedule.
 
@@ -44,11 +44,11 @@ These tools provide analysis based on the information they have the ability to a
 1. Indicators of compromise are just that: _indicators_. They are not a definitive finding, and may occasionally be **false positives**. If an indicator of compromise is detected, it means you should do additional research into the _potential_ threat.
 2. The indicators of compromise these tools look for are published by threat research organizations, but not all indicators are made available to the public! This means that these tools can present a **false negative**, if your device is infected with spyware which is not detected by any of the public indicators. Reliable and comprehensive digital forensic support and triage require access to non-public indicators, research, and threat intelligence.
 
-## External Verification Tools
+## Zewnętrzne narzędzia weryfikacyjne
 
 <small>Chroni przed następującymi zagrożeniami:</small>
 
-- [:material-target-account: Targeted Attacks](basics/common-threats.md#attacks-against-specific-individuals){ .pg-red }
+- [:material-target-account: Ataki ukierunkowane](basics/common-threats.md#attacks-against-specific-individuals){ .pg-red }
 
 External verification tools run on your computer and scan your mobile device for forensic traces, which are helpful to identify potential compromise.
 
@@ -69,13 +69,13 @@ These tools can trigger false-positives. If any of these tools finds indicators 
 
 <div class="admonition recommendation" markdown>
 
-![MVT logo](assets/img/device-integrity/mvt.webp#only-light){ align=right }
-![MVT logo](assets/img/device-integrity/mvt-dark.png#only-dark){ align=right }
+![Logo MVT](assets/img/device-integrity/mvt.webp#only-light){ align=right }
+![Logo MVT](assets/img/device-integrity/mvt-dark.png#only-dark){ align=right }
 
 **Mobile Verification Toolkit** (**MVT**) is a collection of utilities which simplifies and automates the process of scanning mobile devices for potential traces of targeting or infection by known spyware campaigns. MVT was developed by Amnesty International and released in 2021 in the context of the [Pegasus Project](https://forbiddenstories.org/about-the-pegasus-project).
 
-[:octicons-home-16: Homepage](https://mvt.re){ .md-button .md-button--primary }
-[:octicons-code-16:](https://github.com/mvt-project/mvt){ .card-link title="Source Code" }
+[:octicons-home-16: Strona Główna](https://mvt.re){ .md-button .md-button--primary }
+[:octicons-code-16:](https://github.com/mvt-project/mvt){ .card-link title="Kod źródłowy" }
 
 <details class="downloads" markdown>
 <summary>Pobierz</summary>
@@ -152,16 +152,16 @@ Using these apps is insufficient to determine that a device is "clean", and not 
 
 <div class="admonition recommendation" markdown>
 
-![Auditor logo](assets/img/device-integrity/auditor.svg#only-light){ align=right }
-![Auditor logo](assets/img/device-integrity/auditor-dark.svg#only-dark){ align=right }
+![Logo Auditor](assets/img/device-integrity/auditor.svg#only-light){ align=right }
+![Logo Auditor](assets/img/device-integrity/auditor-dark.svg#only-dark){ align=right }
 
 **Auditor** is an app which leverages hardware security features to provide device integrity monitoring by actively validating the identity of a device and the integrity of its operating system. Currently, it only works with GrapheneOS or the stock operating system for [supported devices](https://attestation.app/about#device-support).
 
-[:octicons-home-16: Homepage](https://attestation.app){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://attestation.app/privacy-policy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://attestation.app/about){ .card-link title=Documentation}
-[:octicons-code-16:](https://attestation.app/source){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://attestation.app/donate){ .card-link title=Contribute }
+[:octicons-home-16: Strona Główna](https://attestation.app){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://attestation.app/privacy-policy){ .card-link title="Polityka Prywatności" }
+[:octicons-info-16:](https://attestation.app/about){ .card-link title=Dokumentacja}
+[:octicons-code-16:](https://attestation.app/source){ .card-link title="Kod źródłowy" }
+[:octicons-heart-16:](https://attestation.app/donate){ .card-link title="Wesprzyj" }
 
 <details class="downloads" markdown>
 <summary>Pobierz</summary>

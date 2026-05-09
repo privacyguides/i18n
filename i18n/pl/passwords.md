@@ -227,12 +227,12 @@ All issues were addressed and fixed shortly after the [report](https://res.cloud
 
 1Password is [audited](https://support.1password.com/security-assessments) on a regular basis and provides exceptional customer support. 1Password is closed source; however, the security of the product is thoroughly documented in their [security white paper](https://1passwordstatic.com/files/security/1password-white-paper.pdf).
 
-[:octicons-home-16: Homepage](https://1password.com){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://1password.com/legal/privacy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://support.1password.com){ .card-link title="Documentation" }
+[:octicons-home-16: Strona Główna](https://1password.com){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://1password.com/legal/privacy){ .card-link title="Polityka prywatności" }
+[:octicons-info-16:](https://support.1password.com){ .card-link title="Dokumentacja" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Pobierz</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.onepassword.android)
 - [:simple-appstore: App Store](https://apps.apple.com/app/id1511601750)
@@ -261,13 +261,13 @@ Your 1Password vault is secured with both your master password and a randomized 
 
 **Psono** is a free and open-source password manager from Germany, with a focus on password management for teams. Psono supports secure sharing of passwords, files, bookmarks, and emails. All secrets are protected by a master password.
 
-[:octicons-home-16: Homepage](https://psono.com){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://psono.com/privacy-policy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://doc.psono.com){ .card-link title="Documentation" }
-[:octicons-code-16:](https://gitlab.com/psono){ .card-link title="Source Code" }
+[:octicons-home-16: Strona główna](https://psono.com){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://psono.com/privacy-policy){ .card-link title="Polityka prywatności" }
+[:octicons-info-16:](https://doc.psono.com){ .card-link title="Dokumentacja" }
+[:octicons-code-16:](https://gitlab.com/psono){ .card-link title="Kod źródłowy" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Pobierz</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.psono.psono)
 - [:simple-appstore: App Store](https://apps.apple.com/app/id1545581224)
@@ -314,14 +314,14 @@ These options allow you to manage an encrypted password database locally.
 
 **KeePassXC** is a community fork of KeePassX, a native cross-platform port of KeePass Password Safe, with the goal of extending and improving it with new features and bug fixes to provide a feature-rich, cross-platform, and modern open-source password manager.
 
-[:octicons-home-16: Homepage](https://keepassxc.org){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://keepassxc.org/privacy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://keepassxc.org/docs){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/keepassxreboot/keepassxc){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://keepassxc.org/donate){ .card-link title="Contribute" }
+[:octicons-home-16: Strona główna](https://keepassxc.org){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://keepassxc.org/privacy){ .card-link title="Polityka prywatności" }
+[:octicons-info-16:](https://keepassxc.org/docs){ .card-link title="Dokumentacja" }
+[:octicons-code-16:](https://github.com/keepassxreboot/keepassxc){ .card-link title="Kod źródłowy" }
+[:octicons-heart-16:](https://keepassxc.org/donate){ .card-link title="Wesprzyj" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Pobierz</summary>
 
 - [:fontawesome-brands-windows: Windows](https://keepassxc.org/download/#windows)
 - [:simple-apple: macOS](https://keepassxc.org/download/#mac)
@@ -344,13 +344,13 @@ KeePassXC stores its export data as [CSV](https://en.wikipedia.org/wiki/Comma-se
 
 **KeePassDX** is a lightweight password manager for Android; it allows for editing encrypted data in a single file in KeePass format and can fill in forms securely.
 
-[:octicons-home-16: Homepage](https://keepassdx.com){ .md-button .md-button--primary }
-[:octicons-info-16:](https://github.com/Kunzisoft/KeePassDX/wiki){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/Kunzisoft/KeePassDX){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://keepassdx.com/#donation){ .card-link title="Contribute" }
+[:octicons-home-16: Strona główna](https://keepassdx.com){ .md-button .md-button--primary }
+[:octicons-info-16:](https://github.com/Kunzisoft/KeePassDX/wiki){ .card-link title="Dokumentacja" }
+[:octicons-code-16:](https://github.com/Kunzisoft/KeePassDX){ .card-link title="Kod źródłowy" }
+[:octicons-heart-16:](https://keepassdx.com/#donation){ .card-link title="Wesprzyj" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Pobierz</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.kunzisoft.keepass.free)
 - [:simple-github: GitHub](https://github.com/Kunzisoft/KeePassDX/releases)
@@ -369,16 +369,16 @@ The [pro version](https://play.google.com/store/apps/details?id=com.kunzisoft.ke
 
 KeePassium is a commercial, open-source password manager made by KeePassium Labs that's compatible with other KeePass applications. It provides autofill support, passkey management, automatic two-way synchronization through [most cloud storage providers](https://support.keepassium.com/kb/sync), and more.
 
-[:material-star-box: Read our latest KeePassium review.](https://www.privacyguides.org/articles/2025/05/13/keepassium-review)
+[:material-star-box: Przeczytaj naszą ostatnią recenzję KeePassium.](https://www.privacyguides.org/articles/2024/09/18/onion-browser-review)
 
-[:octicons-home-16: Homepage](https://keepassium.com){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://keepassium.com/privacy/app){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://support.keepassium.com){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/keepassium/KeePassium){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://keepassium.com/donate){ .card-link title="Contribute" }
+[:octicons-home-16: Strona główna](https://onionbrowser.com){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://onionbrowser.com/privacy-policy){ .card-link title="Polityka prywatności" }
+[:octicons-info-16:](https://onionbrowser.com/faqs){ .card-link title="Dokumentacja" }
+[:octicons-code-16:](https://github.com/OnionBrowser/OnionBrowser){ .card-link title="Kod źródłowy" }
+[:octicons-heart-16:](https://onionbrowser.com/donate){ .card-link title="Wesprzyj" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Pobierz</summary>
 
 - [:simple-appstore: App Store](https://apps.apple.com/us/app/id1435127111)
 
@@ -398,13 +398,13 @@ KeePassium's iOS app has been [audited](https://cure53.de/pentest-report_keepass
 
 **Gopass** is a minimal password manager for the command line written in Go. It can be used within scripting applications and works on all major desktop and server operating systems.
 
-[:octicons-home-16: Homepage](https://gopass.pw){ .md-button .md-button--primary }
-[:octicons-info-16:](https://github.com/gopasspw/gopass/tree/master/docs){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/gopasspw/gopass){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://github.com/sponsors/dominikschulz){ .card-link title="Contribute" }
+[:octicons-home-16: Strona główna](https://gopass.pw){ .md-button .md-button--primary }
+[:octicons-info-16:](https://github.com/gopasspw/gopass/tree/master/docs){ .card-link title="Dokumentacja" }
+[:octicons-code-16:](https://github.com/gopasspw/gopass){ .card-link title="Kod źródłowy" }
+[:octicons-heart-16:](https://github.com/sponsors/dominikschulz){ .card-link title="Wesprzyj" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Pobierz</summary>
 
 - [:fontawesome-brands-windows: Windows](https://gopass.pw/#install-windows)
 - [:simple-apple: macOS](https://gopass.pw/#install-macos)
@@ -419,4 +419,4 @@ KeePassium's iOS app has been [audited](https://cure53.de/pentest-report_keepass
 
 **Należy pamiętać, że nie jesteśmy powiązani z żadnym z polecanych przez nas projektów.** Oprócz [naszych standardowych kryteriów](about/criteria.md) opracowaliśmy jasny zestaw wymagań, które pozwalają nam formułować obiektywne zalecenia. Sugerujemy zapoznanie się z tą listą przed wyborem projektu oraz przeprowadzenie własnych badań, aby upewnić się, że jest to odpowiedni wybór dla Ciebie.
 
-- Must be cross-platform.
+- Musi być wieloplatformowy.

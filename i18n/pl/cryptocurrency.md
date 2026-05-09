@@ -30,10 +30,10 @@ Many if not most cryptocurrency projects are scams. Make transactions carefully 
 
 **Monero** uses a blockchain with privacy-enhancing technologies that obfuscate transactions to achieve [:material-incognito: Anonymity](basics/common-threats.md#anonymity-vs-privacy){ .pg-purple }. Every Monero transaction hides the transaction amount, sending and receiving addresses, and source of funds without any hoops to jump through, making it an ideal choice for cryptocurrency novices.
 
-[:octicons-home-16: Homepage](https://getmonero.org){ .md-button .md-button--primary }
-[:octicons-info-16:](https://getmonero.org/resources/user-guides){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/monero-project/monero){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://getmonero.org/get-started/contributing){ .card-link title=Contribute }
+[:octicons-home-16: Strona główna](https://getmonero.org){ .md-button .md-button--primary }
+[:octicons-info-16:](https://getmonero.org/resources/user-guides){ .card-link title=Dokumentacja}
+[:octicons-code-16:](https://github.com/monero-project/monero){ .card-link title="Kod źródłowy" }
+[:octicons-heart-16:](https://getmonero.org/get-started/contributing){ .card-link title=Wesprzyj }
 
 </details>
 
