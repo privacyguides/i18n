@@ -1,11 +1,11 @@
 ---
 title: Support Your Privacy Comrades
-description: Fighting for privacy rights is a collective endeavor. This battle can be difficult and isolating at time. That's why it's critical to care for each other.
+description: الدفاع عن حقوق الخصوصية هو جهد جماعي مشترك. هذه المعركة قد تكون صعبة وتشعرك بالعزلة أحيانا. That's why it's critical to care for each other.
 icon: fontawesome/solid/hand-holding-heart
 cover: activism/banner-toolbox-tip-support.webp
 ---
 
-Fighting for better privacy rights, privacy tools, and privacy practices is a collective endeavor. You cannot do it alone. Anyone around you contributing is fighting the same battle by your side. This battle _can_ be difficult and isolating at times. That's why it's critical to care for each other.
+Fighting for better privacy rights, privacy tools, and privacy practices is a collective endeavor. لا يمكنك القيام بذلك بمفردك. كل من يساهم من حولك يخوض المعركة نفسها إلى جانبك. This battle _can_ be difficult and isolating at times. That's why it's critical to care for each other.
 
 Here are things you can do to **support your privacy comrades**:
 

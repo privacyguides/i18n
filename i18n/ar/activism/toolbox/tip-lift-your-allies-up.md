@@ -5,7 +5,7 @@ icon: fontawesome/solid/hand-holding-hand
 cover: activism/banner-toolbox-tip-lift.webp
 ---
 
-At times, it might feel like the privacy community is niche and isolated.
+أحيانا، قد تشعر أن مجتمع المهتمين بالخصوصية هو مجتمع صغير ومنعزل عن البقية.
 
 The battle for privacy rights is difficult, and its defenders are scattered and spread out all around the world. This is why it's essential that we **support and uplift each other**, every time we can.
 

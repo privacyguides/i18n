@@ -162,7 +162,7 @@ cover: activism/banner-activism-toolbox.webp
 
 ![الأشخاص الذين لديهم خط فوق الأيقونة وتحتها](../../assets/img/activism/icons/icon-tips/icon-tips-everyone.webp){class="toolbox-tip-tip-conic"}
 
-فلكلِ فردٍ احتياجاته الخاصة، ومخاطر متباينة قد تتربص به عند تعرض بياناته الشخصية للانكشاف. لكي نقدم نصائح وتوصيات عملية في حماية الخصوصية، من الجوهري أن نضع نُصب أعيننا تباين الظروف والسياقات الفريدة لكل فرد. Learn more about better evaluating each person's threat model.
+فلكلِ فردٍ احتياجاته الخاصة، ومخاطر متباينة قد تتربص به عند تعرض بياناته الشخصية للانكشاف. لكي نقدم نصائح وتوصيات عملية في حماية الخصوصية، من الجوهري أن نضع نُصب أعيننا تباين الظروف والسياقات الفريدة لكل فرد. اكتشف كيف تصقل مهاراتك في تقدير المخاطر وفهم 'نموذج التهديد' الخاص بكل فرد بعناية أكبر.
 
 تعرف على المزيد :material-arrow-right-drop-circle:
 {align=right} {align=right}
@@ -172,16 +172,16 @@ cover: activism/banner-activism-toolbox.webp
 
 <button class="toolbox-button-top">[العودة إلى الأعلى :material-toolbox:] (#toolbox-compartments)</button> <br>
 
-## Support The Community
+## دعم المجتمع
 
 <a href="tip-lift-your-allies-up">
 <div class="toolbox-tip-card toolbox-border-community" markdown>
 
-### 1. Lift your allies up
+### 1. كن سندا لمجتمعك
 
-![Two hands icon](../../assets/img/activism/icons/icon-tips/icon-tips-lift.webp){class="toolbox-tip-icon"}
+![أيقونة اليدين] (../../assets/img/activism/icons/icon-tips/icon-tips-lift.webp){class="رمز صندوق الأدوات-تلميح-أيقونة"}
 
-At times, it might feel like the privacy community is niche and isolated. The battle for privacy rights is difficult, and its defenders are often scattered. This is why it's essential that we support and uplift each other at every opportunity. Learn more about how to lift your allies up and grow the movement.
+أحيانا، قد تشعر أن مجتمع المهتمين بالخصوصية هو مجتمع صغير ومنعزل عن البقية. المعركة من أجل حقوق الخصوصية صعبة، والمدافعون عنها غالبا ما يكونون متفرقين. ولهذا السبب، من الضروري أن ندعم ونشجع بعضنا البعض في كل فرصة تتاح لنا. تعرف أكثر على كيفية مساندة حلفائك والمساهمة في نمو هذا الحراك.
 
 تعرف على المزيد :material-arrow-right-drop-circle:
 {align=right} {align=right}
@@ -192,11 +192,11 @@ At times, it might feel like the privacy community is niche and isolated. The ba
 <a href="tip-support-your-privacy-comrades">
 <div class="toolbox-tip-card toolbox-border-community" markdown>
 
-### 2. Support your privacy comrades
+### 2. ادعم زملائك المدافعين عن الخصوصية
 
-![Hand holding a heart icon](../../assets/img/activism/icons/icon-tips/icon-tips-support.webp){class="toolbox-tip-icon"}
+![يد تحمل أيقونة قلب](../../assets/img/activism/icons/icon-tips/icon-tips-support.webp){class="toolbox-tip-tip-conic"}
 
-Fighting for privacy rights is a collective endeavor. You cannot do it alone. Anyone around you contributing is fighting the same battle by your side. This battle can be difficult and isolating at time. This is why it's critical to care for each other. Learn more about how you can support your privacy comrades.
+الدفاع عن حقوق الخصوصية هو جهد جماعي مشترك. لا يمكنك القيام بذلك بمفردك. كل من يساهم من حولك يخوض المعركة نفسها إلى جانبك. هذه المعركة قد تكون صعبة وتشعرك بالعزلة أحيانا. ولهذا السبب، من الضروري جدا أن نهتم ببعضنا البعض. تعرف أكثر على كيفية دعم ومساندة زملائك المدافعين عن الخصوصية.
 
 تعرف على المزيد :material-arrow-right-drop-circle:
 {align=right} {align=right}
@@ -206,11 +206,11 @@ Fighting for privacy rights is a collective endeavor. You cannot do it alone. An
 <a href="tip-be-kind-to-people-but-be-relentless-with-institutions">
 <div class="toolbox-tip-card toolbox-border-community" markdown>
 
-### 3. Be kind to people, but be relentless with institutions
+### 3. كُن لطيفا مع الناس، ولكن لا تتهاون مع المؤسسات
 
-![Two hands holding a sphere icon](../../assets/img/activism/icons/icon-tips/icon-tips-kind.webp){class="toolbox-tip-icon"}
+![يدان تحملان أيقونة كرة](../../assets/img/activism/icons/icon-tips/icon-tips-kind.webp){class="toolbox-tip-tip-conic"}
 
-Kindness is essential for privacy advocates. To grow our movement, we must meet people from a place of camaraderie. التوبيخ لا يدفع أحدا لتغيير رأيه، فالبداية دائما تكون بالكلمة الطيبة والوعي. لكن الأمر يختلف تماما عندما نتعامل مع المؤسسات والشركات. اكتشف المزيد حول كيفية تبني اللطف في دعوتك للآخرين، بينما تظل حازماً ولا تلين في مطالبة المؤسسات بحقوقنا.
+اللطف أمر أساسي لكل من يدافع عن الخصوصية. لكي تنمو حركتنا، يجب أن نتواصل مع الناس بروح من الزمالة والود. التوبيخ لا يدفع أحدا لتغيير رأيه، فالبداية دائما تكون بالكلمة الطيبة والوعي. لكن الأمر يختلف تماما عندما نتعامل مع المؤسسات والشركات. اكتشف المزيد حول كيفية تبني اللطف في دعوتك للآخرين، بينما تظل حازماً ولا تلين في مطالبة المؤسسات بحقوقنا.
 
 تعرف على المزيد :material-arrow-right-drop-circle:
 {align=right} {align=right}
