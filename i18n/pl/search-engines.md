@@ -2,7 +2,7 @@
 meta_title: "Recommended Search Engines: Anonymous Alternatives to Google - Privacy Guides"
 title: Wyszukiwarki
 icon: material/search-web
-description: Use privacy-respecting search engines which don't build an advertising profile based on your searches.
+description: Korzystaj z wyszukiwarek szanujących prywatność, które nie tworzą profilu reklamowego na podstawie Twoich wyszukiwań.
 cover: search-engines.webp
 global:
   - 
@@ -14,7 +14,7 @@ global:
 
 - [:material-account-cash: Kapitalizm inwigilacji](basics/common-threats.md#surveillance-as-a-business-model ""){.pg-brown}
 
-Use a **search engine** that doesn't build an advertising profile based on your searches.
+Korzystaj z **wyszukiwarki**, która nie tworzy profilu reklamowego na podstawie Twoich wyszukiwań.
 
 ## Zalecani dostawcy
 
@@ -22,26 +22,27 @@ The recommendations here do not collect personally identifying information (PII)
 
 Consider using a [VPN](vpn.md) or [Tor](tor.md) if your threat model requires hiding your IP address from the search provider.
 
-| Dostawca                      | Search Index                                                                                                                                                                  | Tor Hidden Service            | Logging / Privacy Policy | Country of Operation |
-| ----------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------- | ------------------------ | -------------------- |
-| [Brave Search](#brave-search) | [Independent](https://brave.com/search-independence)                                                                                                                          | :material-check:{ .pg-green } | Anonymized[^1]           | United States        |
-| [DuckDuckGo](#duckduckgo)     | [Bing](https://help.duckduckgo.com/results/sources)                                                                                                                           | :material-check:{ .pg-green } | Anonymized[^2]           | United States        |
-| [Startpage](#startpage)       | [Google and Bing](https://support.startpage.com/hc/articles/4522435533844-What-is-the-relationship-between-Startpage-and-your-search-partners-like-Google-and-Microsoft-Bing) | :material-check:{ .pg-green } | Anonymized[^3]           | Netherlands          |
+| Dostawca                      | Indeks wyszukiwania                                                                                                                                                         | Tor Hidden Service            | Logging / Privacy Policy | Country of Operation |
+| ----------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------- | ------------------------ | -------------------- |
+| [Brave Search](#brave-search) | [Niezależny](https://brave.com/search-independence)                                                                                                                         | :material-check:{ .pg-green } | Zanonimizowany[^1]       | Stany Zjednoczone    |
+| [DuckDuckGo](#duckduckgo)     | [Bing](https://help.duckduckgo.com/results/sources)                                                                                                                         | :material-check:{ .pg-green } | Zanonimizowany[^2]       | Stany Zjednoczone    |
+| [Startpage](#startpage)       | [Google i Bing](https://support.startpage.com/hc/articles/4522435533844-What-is-the-relationship-between-Startpage-and-your-search-partners-like-Google-and-Microsoft-Bing) | :material-check:{ .pg-green } | Zanonimizowany[^3]       | Niderlandy           |
 
 ### Brave Search
 
 <div class="admonition recommendation" markdown>
 
-![Brave Search logo](assets/img/search-engines/brave-search.svg){ align=right }
+![Logo Brave Search](assets/img/search-engines/brave-search.svg){ align=right }
 
-**Brave Search** is a search engine developed by Brave. It includes unique features such as [Discussions](https://search.brave.com/help/discussions), which highlights conversation-focused results such as forum posts.
+**Brave Search** to wyszukiwarka opracowana przez firmę Brave. It includes unique features such as [Discussions](https://search.brave.com/help/discussions), which highlights conversation-focused results such as forum posts.
 
 Brave Search is the default search engine for the [Brave Browser](desktop-browsers.md#brave).
 
-[:octicons-home-16: Homepage](https://search.brave.com){ .md-button .md-button--primary }
-[:simple-torbrowser:](https://search.brave4u7jddbv7cyviptqjc7jusxh72uik7zt6adtckl5f4nwy2v72qd.onion){ .card-link title="Onion Service" }
-[:octicons-eye-16:](https://search.brave.com/help/privacy-policy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://search.brave.com/help){ .card-link title="Documentation" }
+[:octicons-home-16: Strona główna](https://search.brave.com/pl){ .md-button .md-button--primary }[:simple-torbrowser:]
+(https://search.brave4u7jddbv7cyviptqjc7jusxh72uik7zt6adtckl5f4nwy2v72qd.onion){ .card-link title="Usługa onion" }
+[:octicons-eye-16:](https://search.brave.com/help/privacy-policy){ .card-link title="Polityka prywatności" }
+[:octicons-info-16:](https://search.brave.com/help){ .card-link title="Polityka prywatności" }
+[](){ .card-link title="Kod źródłowy" }
 
 </div>
 
@@ -70,15 +71,15 @@ DuckDuckGo offers two [other versions](https://help.duckduckgo.com/features/non-
 
 <div class="admonition recommendation" markdown>
 
-![Startpage logo](assets/img/search-engines/startpage.svg#only-light){ align=right }
-![Startpage logo](assets/img/search-engines/startpage-dark.svg#only-dark){ align=right }
+![Logo Startpage](assets/img/search-engines/startpage.svg#only-light){ align=right }
+![Logo Startpage](assets/img/search-engines/startpage-dark.svg#only-dark){ align=right }
 
-**Startpage** is a private search engine. One of Startpage's unique features is the [Anonymous View](https://startpage.com/en/anonymous-view), which puts forth efforts to standardize user activity to make it more difficult to be uniquely identified. The feature can be useful for hiding [some](https://support.startpage.com/hc/articles/4455540212116-The-Anonymous-View-Proxy-technical-details) network and browser properties. Unlike the name suggests, the feature should not be relied upon for anonymity. If you are looking for anonymity, use the [Tor Browser](tor.md#tor-browser) instead.
+**Startpage** jest prywatną wyszukiwarką. One of Startpage's unique features is the [Anonymous View](https://startpage.com/en/anonymous-view), which puts forth efforts to standardize user activity to make it more difficult to be uniquely identified. The feature can be useful for hiding [some](https://support.startpage.com/hc/articles/4455540212116-The-Anonymous-View-Proxy-technical-details) network and browser properties. Unlike the name suggests, the feature should not be relied upon for anonymity. If you are looking for anonymity, use the [Tor Browser](tor.md#tor-browser) instead.
 
-[:octicons-home-16: Homepage](https://startpage.com){ .md-button .md-button--primary }
-[:simple-torbrowser:](http://startpagel6srwcjlue4zgq3zevrujfaow726kjytqbbjyrswwmjzcqd.onion){ .card-link title="Onion Service" }
-[:octicons-eye-16:](https://startpage.com/en/privacy-policy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://support.startpage.com/hc/categories/4481917470356-Startpage-Search-Engine){ .card-link title="Documentation" }
+[:octicons-home-16: Strona główna](https://startpage.com/pl){ .md-button .md-button--primary }[:simple-torbrowser:]
+(http://startpagel6srwcjlue4zgq3zevrujfaow726kjytqbbjyrswwmjzcqd.onion){ .card-link title="Usługa onion" }
+[:octicons-eye-16:](https://startpage.com/en/privacy-policy){ .card-link title="Polityka prywatności" }
+[:octicons-info-16:](https://support.startpage.com/hc/categories/4481917470356-Startpage-Search-Engine){ .card-link title="Dokumentacja" }
 
 </div>
 

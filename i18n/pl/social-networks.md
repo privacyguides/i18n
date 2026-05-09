@@ -44,12 +44,12 @@ If you are greatly concerned about an existing server censoring your content, th
 
 <div class="admonition recommendation" markdown>
 
-![Mastodon logo](assets/img/social-networks/mastodon.svg){ align=right }
+![Logo Mastodon](assets/img/social-networks/mastodon.svg){ align=right }
 
 **Mastodon** is a social network based on open web protocols and free, open-source software. It uses the **:simple-activitypub: ActivityPub** protocol, which is decentralized like email: Users can exist on different servers or even different platforms but still communicate with each other.
 
-[:octicons-home-16: Homepage](https://joinmastodon.org){ .md-button .md-button--primary }
-[:octicons-info-16:](https://docs.joinmastodon.org){ .card-link title="Documentation" }
+[:octicons-home-16: Strona Główna](https://joinmastodon.org){ .md-button .md-button--primary }
+[:octicons-info-16:](https://docs.joinmastodon.org){ .card-link title="Dokumentacja" }
 
 </div>
 
@@ -116,16 +116,16 @@ If you used our recommended configuration settings above, you should be posting 
 
 <div class="admonition recommendation" markdown>
 
-![Element logo](assets/img/social-networks/element.svg){ align=right }
+![Logo Element](assets/img/social-networks/element.svg){ align=right }
 
 **Element** is the flagship client for the **:simple-matrix: [Matrix](https://matrix.org/docs/chat_basics/matrix-for-im)** protocol, an [open standard](https://spec.matrix.org/latest) that enables decentralized communication by way of federated chat rooms. Users can exist on different homeservers but still communicate with each other.
 
-[:octicons-home-16: Homepage](https://element.io){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://element.io/privacy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://element.io/help){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/element-hq){ .card-link title="Source Code" }
+[:octicons-home-16: Strona główna](https://element.io){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://element.io/privacy){ .card-link title="Polityka prywatności" }
+[:octicons-info-16:](https://element.io/help){ .card-link title="Dokumentacja" }
+[:octicons-code-16:](https://github.com/element-hq){ .card-link title="Kod źródłowy" }
 
-<details class="downloads" markdown><summary>Downloads</summary>
+<details class="downloads" markdown><0>Pobierz</0>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=io.element.android.x)
 - [:simple-appstore: App Store](https://apps.apple.com/app/id1631335820)
@@ -133,7 +133,7 @@ If you used our recommended configuration settings above, you should be posting 
 - [:fontawesome-brands-windows: Windows](https://element.io/download)
 - [:simple-apple: macOS](https://element.io/download)
 - [:simple-linux: Linux](https://element.io/download)
-- [:octicons-browser-16: Web](https://app.element.io)
+- [:octicons-browser-16: W przeglądarce](https://app.element.io)
 
 </details>
 

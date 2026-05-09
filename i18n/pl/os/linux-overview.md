@@ -12,7 +12,7 @@ Nasza strona zazwyczaj używa terminu "Linux" aby opisać **stacjonarne** dystry
 
 ## Uwagi dotyczące bezpieczeństwa
 
-There are some notable security concerns with Linux which you should be aware of. Despite these drawbacks, desktop Linux distributions are still great for most people who want to:
+Istnieją pewne istotne obawy związane z bezpieczeństwem Linuksa, których należy być świadomym. Pomimo tych wad, dystrybucje systemu Linux na komputery stacjonarne są nadal świetnym wyborem dla większości osób, które chcą:
 
 - Avoid telemetry that often comes with proprietary operating systems
 - Maintain [software freedom](https://gnu.org/philosophy/free-sw.en.html#four-freedoms)
@@ -91,7 +91,7 @@ SELinux on [Fedora](https://docs.fedoraproject.org/en-US/quick-docs/selinux-gett
 
 ## Ogólne zalecenia
 
-### Drive Encryption
+### Szyfrowanie dysku
 
 Most Linux distributions have an option within its installer for enabling [LUKS](../encryption.md#linux-unified-key-setup) FDE. If this option isn’t set at installation time, you will have to back up your data and re-install, as encryption is applied after [disk partitioning](https://en.wikipedia.org/wiki/Disk_partitioning), but before [file systems](https://en.wikipedia.org/wiki/File_system) are formatted. We also suggest securely erasing your storage device:
 
@@ -109,7 +109,7 @@ Some Linux distributions (such as [Linux-libre](https://en.wikipedia.org/wiki/Li
 
 We **highly recommend** that you install microcode updates, as they contain important security patches for the CPU which can not be fully mitigated in software alone. Fedora and openSUSE both apply microcode updates by default.
 
-### Updates
+### Aktualizacje
 
 Most Linux distributions will automatically install updates or remind you to do so. It is important to keep your OS up to date so that your software is patched when a vulnerability is found.
 
@@ -123,7 +123,7 @@ Desktop environments that support the [Wayland](https://wayland.freedesktop.org)
 
 ## Privacy Tweaks
 
-### MAC Address Randomization
+### Randomizacja adresów MAC
 
 Many desktop Linux distributions (Fedora, openSUSE, etc.) come with [NetworkManager](https://en.wikipedia.org/wiki/NetworkManager) to configure Ethernet and Wi-Fi settings.
 

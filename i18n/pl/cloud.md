@@ -1,8 +1,8 @@
 ---
-meta_title: "The Best Private and Secure Cloud Storage Providers - Privacy Guides"
+meta_title: "Najlepsi prywatni i bezpieczni dostawcy usług przechowywania danych w chmurze — Privacy Guides"
 title: Przechowywanie w chmurze
 icon: material/file-cloud
-description: Many cloud storage providers require your trust that they will not look at your files. These are private alternatives!
+description: Many cloud storage providers require your trust that they will not look at your files. To są prywatne alternatywy!
 cover: cloud.webp
 ---
 
@@ -16,7 +16,7 @@ Many **cloud storage providers** require your full trust that they will not look
 If these alternatives do not fit your needs, we suggest you look into using encryption software like [Cryptomator](encryption.md#cryptomator-cloud) with another cloud provider. Using Cryptomator in conjunction with **any** cloud provider (including these) may be a good idea to reduce the risk of encryption flaws in a provider's native clients.
 
 <details class="admonition info" markdown>
-<summary>Looking for Nextcloud?</summary>
+<summary>Szukasz Nextcloud?</summary>
 
 For more technical readers, Nextcloud is [still a recommended tool](self-hosting/file-management.md#nextcloud) for self-hosting a file management suite, however we do not recommend third-party Nextcloud storage providers at the moment, because we do [not recommend](https://discuss.privacyguides.net/t/dont-recommend-nextcloud-e2ee/10352/29) Nextcloud's built-in E2EE functionality for home users.
 
@@ -30,15 +30,15 @@ For more technical readers, Nextcloud is [still a recommended tool](self-hosting
 
 **Proton Drive** is an encrypted cloud storage provider from the popular encrypted email provider [Proton Mail](email.md#proton-mail).
 
-The initial free storage is limited to 2 GB, but with the completion of [certain steps](https://proton.me/support/more-free-storage-existing-users), additional storage can be obtained up to 5 GB.
+Początkowa bezpłatna przestrzeń dyskowa jest ograniczona do 2 GB, ale po wykonaniu [określonych kroków](https://proton.me/support/more-free-storage-existing-users) można uzyskać dodatkową przestrzeń dyskową do 5 GB.
 
-[:octicons-home-16: Homepage](https://proton.me/drive){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://proton.me/drive/privacy-policy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://proton.me/support/drive){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/ProtonMail/WebClients){ .card-link title="Source Code" }
+[:octicons-home-16: Strona główna](https://proton.me/drive){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://proton.me/drive/privacy-policy){ .card-link title="Polityka prywatności" }
+[:octicons-info-16:](https://proton.me/support/drive){ .card-link title="Dokumentacja" }
+[:octicons-code-16:](https://github.com/ProtonMail/WebClients){ .card-link title="Kod źródłowy" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Pobierz</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=me.proton.android.drive)
 - [:simple-appstore: App Store](https://apps.apple.com/app/id1509667851)
@@ -59,14 +59,12 @@ The Proton Drive web application has been independently audited by Securitum in 
 
 **Tresorit** is a Swiss-Hungarian encrypted cloud storage provider founded in 2011. Tresorit is owned by the Swiss Post, the national postal service of Switzerland.
 
-[:octicons-home-16: Homepage](https://tresorit.com){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://tresorit.com/legal/privacy-policy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://support.tresorit.com){ .card-link title="Documentation" }
+[:octicons-home-16: Strona główna](https://tresorit.com){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://tresorit.com/legal/privacy-policy){ .card-link title="Polityka prywatności" }
+[:octicons-info-16:](https://support.tresorit.com){ .card-link title="Dokumentacja" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
-
-- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.tresorit.mobile)
+<summary>Pobierz</summary>- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.tresorit.mobile)
 - [:simple-appstore: App Store](https://apps.apple.com/app/id722163232)
 - [:fontawesome-brands-windows: Windows](https://tresorit.com/download)
 - [:simple-apple: macOS](https://tresorit.com/download)
@@ -76,10 +74,10 @@ The Proton Drive web application has been independently audited by Securitum in 
 
 </div>
 
-Tresorit has received a number of independent security audits:
+Tresorit przeszedł szereg niezależnych audytów bezpieczeństwa:
 
-- [2022](https://tresorit.com/blog/tresorit-receives-iso-27001-certification): ISO/IEC 27001:2013[^1] Compliance [Certification](https://certipedia.com/quality_marks/9108644476) by TÜV Rheinland InterCert Kft
-- [2021](https://tresorit.com/blog/fresh-penetration-testing-confirms-tresorit-security): Penetration Testing by Computest
+- [2022](https://tresorit.com/blog/tresorit-receives-iso-27001-certification): ISO/IEC 27001:2013[^1] Certyfikacja [Zgodności](https://certipedia.com/quality_marks/9108644476) przez TÜV Rheinland InterCert Kft
+- [2021](https://tresorit.com/blog/fresh-penetration-testing-confirms-tresorit-security): Testy penetracyjne przeprowadzane przez Computest
     - This review assessed the security of the Tresorit web client, Android app, Windows app, and associated infrastructure.
     - Computest discovered two vulnerabilities which have been resolved.
 - [2019](https://tresorit.com/blog/ernst-young-review-verifies-tresorits-security-architecture): Penetration Testing by Ernst & Young.
@@ -98,23 +96,22 @@ They have also received the Digital Trust Label, a certification from the [Swiss
 
 **Peergos** is a decentralized protocol and open-source platform for storage, social media, and applications. It provides a secure and private space where users can store, share, view, and edit their photos, videos, documents, etc.
 
-Peergos secures your files with quantum-resistant E2EE and ensures all data about your files remains private. It is also [self-hostable](https://book.peergos.org/features/self).
+Peergos secures your files with quantum-resistant E2EE and ensures all data about your files remains private. Jest również możliwość [samodzielnego hostowania](https://book.peergos.org/features/self).
 
-[:octicons-home-16: Homepage](https://peergos.org){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://peergos.net/privacy.html){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://book.peergos.org){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/Peergos/Peergos){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://github.com/peergos/peergos#support){ .card-link title="Contribute" }
+[:octicons-home-16: Strona główna](https://peergos.org){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://peergos.net/privacy.html){ .card-link title="Polityka prywatności" }
+[:octicons-info-16:](https://book.peergos.org){ .card-link title="Dokumentacja" }
+[:octicons-code-16:](https://github.com/Peergos/Peergos){ .card-link title="Kod źródłowy" }
+[:octicons-heart-16:](https://github.com/peergos/peergos#support){ .card-link title="Wesprzyj" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
-
+<summary>Pobierz</summary>
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=peergos.android)
-- [:simple-github: GitHub](https://github.com/Peergos/web-ui/releases)
+- [:simple-github: Github](https://github.com/Peergos/web-ui/releases)
 - [:fontawesome-brands-windows: Windows](https://peergos.org/download#windows)
 - [:simple-apple: macOS](https://peergos.org/download#macos)
 - [:simple-linux: Linux](https://peergos.org/download#linux)
-- [:octicons-browser-16: Web](https://peergos.net)
+- [:octicons-browser-16: W przeglądarce](https://peergos.net)
 
 </details>
 

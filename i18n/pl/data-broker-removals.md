@@ -61,16 +61,16 @@ Otherwise, privacy journalist Yael Grauer has compiled an excellent list of data
 
 If you don't use an automatic scanner to find results about you, consider setting a reminder to re-do this process every 3, 6, or 12 months depending on your risk level and the amount of personal data you have out there. Unfortunately, it is common for your data to re-appear over time or show up on brand-new people search sites even after you opt out.
 
-## EasyOptOuts <small>Paid</small>
+## EasyOptOuts <0>Płatne</0>
 
 <div class="admonition recommendation" markdown>
 
-![EasyOptOuts logo](assets/img/data-broker-removals/easyoptouts.svg){ align=right }
+![Logo EasyOptOuts](assets/img/data-broker-removals/easyoptouts.svg){ align=right }
 
 **EasyOptOuts** is a $20/year service which will search a number of different data broker sites and automatically submit opt-out requests on your behalf. They will perform the first search and removal process immediately, and then re-run the process every 4 months in case your data shows up on new sites over time.
 
-[:octicons-home-16: Homepage](https://easyoptouts.com){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://easyoptouts.com/privacy){ .card-link title="Privacy Policy" }
+[:octicons-home-16: Strona Główna](https://easyoptouts.com){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://easyoptouts.com/privacy){ .card-link title="Polityka prywatności" }
 
 </div>
 
@@ -101,12 +101,12 @@ While Google is not a data broker themselves _per se_, as they don't sell or sha
 
 <div class="admonition recommendation" markdown>
 
-![Google logo](assets/img/data-broker-removals/google.svg){ align=right }
+![Logo Google](assets/img/data-broker-removals/google.svg){ align=right }
 
-**Results about you** is a free tool which helps you discover whether your personal contact information, including your home address, phone number, and email address, appears in Google search results. If any personal information is found, you can request its removal.
+**Wyniki wyszukiwania informacji o Tobie** to darmowe narzędzie, które pomaga Ci odkryć czy twoje dane kontaktowe, w tym adres domowy, numer telefonu i adres e-mail, pojawiają się w wynikach wyszukiwania Google. W przypadku znalezienia jakichkolwiek danych osobowych użytkownik może zażądać ich usunięcia.
 
-[:octicons-globe-16: Open Web Tool](https://myactivity.google.com/results-about-you){ .md-button .md-button--primary }
-[:octicons-info-16:](https://support.google.com/websearch/answer/12719076){ .card-link title=Documentation}
+[:octicons-globe-16: Otwórz narzędzie internetowe](https://myactivity.google.com/results-about-you){ .md-button .md-button--primary }
+[:octicons-info-16:](https://support.google.com/websearch/answer/12719076){ .card-link title=Dokumentacja}
 
 </div>
 

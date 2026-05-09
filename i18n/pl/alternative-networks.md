@@ -23,11 +23,11 @@ When it comes to anonymizing networks, we want to specially note that [Tor](adva
 
 The **Tor** network is a group of volunteer-operated servers that allows you to connect for free and improve your privacy and security on the Internet. Osoby i organizacje mogą również wymieniać się informacjami w sieci Tor za pomocą „ukrytych usług .onion”, nie narażając swojej prywatności. Because Tor traffic is difficult to block and trace, Tor is an effective [:material-close-outline: Censorship](basics/common-threats.md#avoiding-censorship){ .pg-blue-gray } circumvention tool.
 
-[:octicons-home-16:](https://torproject.org){ .card-link title=Homepage }
-[:simple-torbrowser:](http://2gzyxa5ihm7nsggfxnu52rck2vv4rvmdlkiu3zzui5du4xyclen53wid.onion){ .card-link title="Onion Service" }
-[:octicons-info-16:](https://tb-manual.torproject.org){ .card-link title=Documentation}
+[:octicons-home-16: Strona główna](https://torproject.org/pl){ .md-button .md-button--primary }
+[:simple-torbrowser:](http://2gzyxa5ihm7nsggfxnu52rck2vv4rvmdlkiu3zzui5du4xyclen53wid.onion){ .card-link title="Usługa onion" }
+[:octicons-info-16:](https://tb-manual.torproject.org){ .card-link title="Dokumentacja" }
 [:octicons-code-16:](https://gitlab.torproject.org/tpo/core/tor){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://donate.torproject.org){ .card-link title=Contribute }
+[:octicons-heart-16:](https://donate.torproject.org){ .card-link title="Wspomóż projekt" }
 
 </div>
 
@@ -48,15 +48,15 @@ You can try connecting to _Privacy Guides_ via Tor at [xoe4vn5uwdztif6goazfbmogh
 
 <div class="admonition recommendation" markdown>
 
-![Orbot logo](assets/img/self-contained-networks/orbot.svg){ align=right }
+![Logo Orbot](assets/img/self-contained-networks/orbot.svg){ align=right }
 
 **Orbot** is a mobile application which routes traffic from any app on your device through the Tor network.
 
-[:octicons-home-16: Homepage](https://orbot.app){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://orbot.app/privacy-policy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://orbot.app/faqs){ .card-link title="Documentation" }
-[:octicons-code-16:](https://orbot.app/code){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://orbot.app/donate){ .card-link title="Contribute" }
+[:octicons-home-16: Strona główna](https://orbot.app){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://orbot.app/privacy-policy){ .card-link title="Polityka prywatności" }
+[:octicons-info-16:](https://orbot.app/faqs){ .card-link title="Dokumentacja" }
+[:octicons-code-16:](https://orbot.app/code){ .card-link title="Kod źródłowy" }
+[:octicons-heart-16:](https://orbot.app/donate){ .card-link title="Wesprzyj" }
 
 <details class="downloads" markdown>
 <summary>Pobierz</summary>
@@ -90,17 +90,17 @@ On iOS, Orbot has some limitations that could potentially cause crashes or leaks
 
 <div class="admonition recommendation" markdown>
 
-![Snowflake logo](assets/img/self-contained-networks/snowflake.svg#only-light){ align=right }
-![Snowflake logo](assets/img/self-contained-networks/snowflake-dark.svg#only-dark){ align=right }
+![Logo Snowflake](assets/img/self-contained-networks/snowflake.svg#only-light){ align=right }
+![Logo Snowflake](assets/img/self-contained-networks/snowflake-dark.svg#only-dark){ align=right }
 
 **Snowflake** allows you to donate bandwidth to the Tor Project by operating a "Snowflake proxy" within your browser.
 
 People who are censored can use Snowflake proxies to connect to the Tor network. Snowflake is a great way to contribute to the network even if you don't have the technical know-how to run a Tor relay or bridge.
 
-[:octicons-home-16: Homepage](https://snowflake.torproject.org){ .md-button .md-button--primary }
-[:octicons-info-16:](https://gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/snowflake/-/wikis/Technical%20Overview){ .card-link title=Documentation}
-[:octicons-code-16:](https://gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/snowflake){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://donate.torproject.org){ .card-link title=Contribute }
+[:octicons-home-16: Strona główna](https://snowflake.torproject.org){ .md-button .md-button--primary }
+[:octicons-info-16:](https://gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/snowflake/-/wikis/Technical%20Overview){ .card-link title=Dokumentacja}
+[:octicons-code-16:](https://gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/snowflake){ .card-link title="Kod źródłowy" }
+[:octicons-heart-16:](https://donate.torproject.org){ .card-link title=Wesprzyj }
 
 </details>
 
@@ -114,19 +114,19 @@ Snowflake does not increase your privacy in any way, nor is it used to connect t
 
 Running a Snowflake proxy is low-risk, even more so than running a Tor relay or bridge which are already not particularly risky endeavors. However, it does still proxy traffic through your network which can be impactful in some ways, especially if your network is bandwidth-limited. Make sure you understand [how Snowflake works](https://gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/snowflake/-/wikis/home) before deciding whether to run a proxy.
 
-### I2P (The Invisible Internet Project)
+### I2P (Projekt Niewidzialny Internet)
 
 <div class="admonition recommendation" markdown>
 
-![I2P logo](assets/img/self-contained-networks/i2p.svg#only-light){ align=right }
-![I2P logo](assets/img/self-contained-networks/i2p-dark.svg#only-dark){ align=right }
+![Logo I2P](assets/img/self-contained-networks/i2p.svg#only-light){ align=right }
+![Logo I2P](assets/img/self-contained-networks/i2p-dark.svg#only-dark){ align=right }
 
 **I2P** is a network layer which encrypts your connections and routes them via a network of computers distributed around the world. It is mainly focused on creating an alternative, privacy-protecting network rather than making regular internet connections anonymous.
 
-[:octicons-home-16: Homepage](https://geti2p.net/en){ .md-button .md-button--primary }
-[:octicons-info-16:](https://geti2p.net/en/about/software){ .card-link title=Documentation }
-[:octicons-code-16:](https://github.com/i2p/i2p.i2p){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://geti2p.net/en/get-involved){ .card-link title=Contribute }
+[:octicons-home-16: Strona główna](https://geti2p.net/en){ .md-button .md-button--primary }
+[:octicons-info-16:](https://geti2p.net/en/about/software){ .card-link title=Dokumentacja}
+[:octicons-code-16:](https://github.com/i2p/i2p.i2p){ .card-link title="Kod źródłowy" }
+[:octicons-heart-16:](https://geti2p.net/en/get-involved){ .card-link title=Wesprzyj }
 
 <details class="downloads" markdown>
 <summary>Pobierz</summary>

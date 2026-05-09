@@ -1,6 +1,6 @@
 ---
 meta_title: "Recommended Maps and Navigation Apps - Privacy Guides"
-title: Maps and Navigation
+title: Mapy i Nawigacja
 icon: material/map
 description: Privacy-respecting map providers and navigation apps which don't build an advertising profile based on your searches and locations.
 cover: maps.webp
@@ -18,17 +18,17 @@ The recommendations here do not collect personally identifying information (PII)
 
 <div class="admonition recommendation" markdown>
 
-![Organic Maps logo](assets/img/maps/organic-maps.svg){ align=right }
+![Logo Organic Maps](assets/img/maps/organic-maps.svg){ align=right }
 
 **Organic Maps** is an open-source, community-developed map display and satnav-style navigation app for walkers, drivers, and cyclists. The app offers worldwide, offline maps based on OpenStreetMap data, and navigation with privacy — no location tracking, no data collection, and no ads. The app can be used completely offline.
 
 Features include cycling routes, hiking trails and walking paths, turn-by-turn navigation with voice guidance, and public transport route planning (only available in supported regions and cities).
 
-[:octicons-home-16: Homepage](https://organicmaps.app){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://organicmaps.app/privacy){ .card-link title="Privacy Policy" }
-[:octicons-code-16:](https://github.com/organicmaps/organicmaps){ .card-link title="Source Code" }
+[:octicons-home-16: Strona główna](https://organicmaps.app){ .md-button .md-button--primary }[:octicons-eye-16:](https://organicmaps.app/privacy){ .card-link title="Polityka prywatności" }
+[:octicons-code-16:](https://github.com/organicmaps/organicmaps){ .card-link title="Dokumentacja"}
+{ .card-link title="Kod źródłowy" }
 
-<details class="downloads" markdown><summary>Downloads</summary>
+<details class="downloads" markdown><0>Pobierz</0>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=app.organicmaps)
 - [:simple-appstore: App Store](https://apps.apple.com/app/organic-maps/id1567437057)
@@ -45,16 +45,16 @@ Please note that Organic Maps is a simple, basic app that lacks certain features
 
 <div class="admonition recommendation" markdown>
 
-![OsmAnd logo](assets/img/maps/osmand.svg){ align=right }
+![Logo OsmAnd](assets/img/maps/osmand.svg){ align=right }
 
 **OsmAnd** is an open-source, offline map and navigation application based on OpenStreetMap that offers turn-by-turn navigation for walking, cycling, driving, as well as public transport. You can find a detailed overview of OsmAnd's supported [features](https://wiki.openstreetmap.org/wiki/OsmAnd#Features) on the OpenStreet Map Wiki.
 
-[:octicons-home-16: Homepage](https://osmand.net){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://osmand.net/docs/legal/privacy-policy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://osmand.net/docs/intro){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/osmandapp){ .card-link title="Source Code" }
+[:octicons-home-16: Strona główna](https://osmand.net){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://osmand.net/docs/legal/privacy-policy){ .card-link title="Polityka prywatności" }
+[:octicons-info-16:](https://osmand.net/docs/intro){ .card-link title="Dokumentacja" }
+[:octicons-code-16:](https://github.com/osmandapp){ .card-link title="Kod źródłowy" }
 
-<details class="downloads" markdown><summary>Downloads</summary>
+<details class="downloads" markdown><summary>Pobierz</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=net.osmand)
 - [:simple-appstore: App Store](https://apps.apple.com/us/app/id934850257)
@@ -65,7 +65,7 @@ Please note that Organic Maps is a simple, basic app that lacks certain features
 </div>
 
 <div class="admonition warning" markdown>
-<p class="admonition-title">Unique User Identifier</p>
+<p class="admonition-title">Unikalny identyfikator użytkownika</p>
 
 OsmAnd generates a [unique user identifier (UUID)](https://osmand.net/docs/legal/terms-of-use/#6-unique-user-indentifier) for each app install that rotates every three months and is used for internal reports and statistics. The UUID is also sent to OsmAnd's servers when downloading maps. On Android, there is a setting that controls whether the UUID is sent with each download request. From the home screen, go to :material-menu: → :gear: **Settings** → :gear: **OsmAnd settings** → :material-web: **Identifiers**.
 
