@@ -11,7 +11,7 @@ cover: news-aggregators.webp
 
 **Agregator wiadomości** (inaczej <0>agregator newsów</0>) to oprogramowanie, które gromadzi treści z internetowych gazet, blogów, podcastów i innych źródeł w jednym miejscu, aby ułatwić ich przeglądanie. Using one can be a great way to keep up with your favorite content.
 
-## Aggregator clients
+## Klienci agregatorów
 
 ### Akregator
 
@@ -42,13 +42,13 @@ cover: news-aggregators.webp
 
 ![Logo NewsFlash](assets/img/news-aggregators/newsflash.png){ align=right }
 
-**NewsFlash** to open-source, nowoczesny i łatwy w użyciu czytnik kanałów dla systemu Linux. It can be used offline or with services like [Inoreader](https://inoreader.com) or [Nextcloud News](https://apps.nextcloud.com/apps/news). It has a search feature and a pre-defined list of sources that you can add directly.
+**NewsFlash** to open-source, nowoczesny i łatwy w użyciu czytnik kanałów dla systemu Linux. Może być używany w trybie offline lub z usługami takimi jak [Inoreader](https://inoreader.com) lub [Nextcloud News](https://apps.nextcloud.com/apps/news). It has a search feature and a pre-defined list of sources that you can add directly.
 
-[:octicons-repo-16: Repository](https://gitlab.com/news-flash/news_flash_gtk#newsflash){ .md-button .md-button--primary }
-[:octicons-code-16:](https://gitlab.com/news-flash/news_flash_gtk){ .card-link title="Source Code" }
+[:octicons-repo-16: Repozytorium](https://gitlab.com/news-flash/news_flash_gtk#newsflash){ .md-button .md-button--primary }
+[:octicons-code-16:](https://gitlab.com/news-flash/news_flash_gtk){ .card-link title="Kod źródłowy" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Pobierz</summary>
 
 - [:simple-flathub: Flathub](https://flathub.org/apps/io.gitlab.news_flash.NewsFlash)
 
@@ -108,13 +108,13 @@ Obsługuje [RSS](https://en.wikipedia.org/wiki/RSS), [Atom](https://en.wikipedia
 
 It supports conventional feed formats and includes built-in support for Reddit feeds.
 
-[:octicons-home-16: Homepage](https://netnewswire.com){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://netnewswire.com/privacypolicy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://netnewswire.com/help){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/Ranchero-Software/NetNewsWire){ .card-link title="Source Code" }
+[:octicons-home-16: Strona główna](https://netnewswire.com){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://netnewswire.com/privacypolicy){ .card-link title="Polityka prywatności" }
+[:octicons-info-16:](https://netnewswire.com/help){ .card-link title="Dokumentacja" }
+[:octicons-code-16:](https://github.com/Ranchero-Software/NetNewsWire){ .card-link title="Kod źródłowy" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Pobierz</summary>
 
 - [:simple-appstore: App Store](https://apps.apple.com/app/id1480640210)
 - [:simple-apple: macOS](https://netnewswire.com)
@@ -127,13 +127,12 @@ It supports conventional feed formats and includes built-in support for Reddit f
 
 <div class="admonition recommendation" markdown>
 
-![Newsboat logo](assets/img/news-aggregators/newsboat.svg){ align=right }
+![Logo Newsboat](assets/img/news-aggregators/newsboat.svg){ align=right }
 
-**Newsboat** is an RSS/Atom feed reader for the text console. It's an actively maintained fork of [Newsbeuter](https://en.wikipedia.org/wiki/Newsbeuter). It is very lightweight and ideal for use over [Secure Shell](https://en.wikipedia.org/wiki/Secure_Shell).
+**Newsboat** to czytnik kanałów RSS/Atom dla konsoli tekstowej. Jest to aktywny fork [Newsbeuter](https://en.wikipedia.org/wiki/Newsbeuter). Jest bardzo lekki i idealny do użytku przez [Secure Shell](https://en.wikipedia.org/wiki/Secure_Shell).
 
-[:octicons-home-16: Homepage](https://newsboat.org){ .md-button .md-button--primary }
-[:octicons-info-16:](https://newsboat.org/releases/2.38/docs/newsboat.html){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/newsboat/newsboat){ .card-link title="Source Code" }
+[:octicons-home-16: Strona główna](https://newsboat.org){ .md-button .md-button--primary }[:octicons-info-16:](https://newsboat.org/releases/2.38/docs/newsboat.html){ .card-link title="Dokumentacja" }
+[:octicons-code-16:](https://github.com/newsboat/newsboat){ .card-link title="Kod źródłowy" }
 
 </div>
 
@@ -142,20 +141,20 @@ It supports conventional feed formats and includes built-in support for Reddit f
 **Należy pamiętać, że nie jesteśmy powiązani z żadnym z polecanych przez nas projektów.** Oprócz [naszych standardowych kryteriów](about/criteria.md) opracowaliśmy jasny zestaw wymagań, które pozwalają nam formułować obiektywne zalecenia. Sugerujemy zapoznanie się z tą listą przed wyborem projektu oraz przeprowadzenie własnych badań, aby upewnić się, że jest to odpowiedni wybór dla Ciebie.
 
 - Musi być oprogramowaniem typu open source.
-- Must operate locally, i.e. must not be a cloud service.
+- Musi działać lokalnie, tj. nie może być usługą w chmurze.
 
-## Social Media RSS Support
+## Obsługa RSS w mediach społecznościowych
 
 Some social media services also support RSS, although it's not often advertised.
 
 ### Reddit
 
-Reddit allows you to subscribe to Subreddits via RSS.
+Reddit umożliwia subskrybowanie subredditów za pośrednictwem RSS.
 
 <div class="admonition example" markdown>
 <p class="admonition-title">Przykład</p>
 
-Replace `[SUBREDDIT]` with the Subreddit you wish to subscribe to.
+Zastąp `[SUBREDDIT]` subredditem, który chcesz subskrybować.
 
 ```text
 https://reddit.com/r/[SUBREDDIT]/new/.rss
@@ -170,7 +169,7 @@ You can subscribe to YouTube channels without logging in and associating usage i
 <div class="admonition example" markdown>
 <p class="admonition-title">Przykład</p>
 
-To subscribe to a YouTube channel with an RSS client, first look for its [channel code](https://support.google.com/youtube/answer/6180214). The channel code can be found in the expanded description (i.e., the "About" section) of the YouTube channel you wish to subscribe to: **About** → **Share channel** → **Copy channel ID**. Zastąp `[CHANNEL ID]` poniżej:
+Aby zasubskrybować kanał YouTube za pomocą klienta RSS, należy najpierw wyszukać jego [kod kanału](https://support.google.com/youtube/answer/6180214). The channel code can be found in the expanded description (i.e., the "About" section) of the YouTube channel you wish to subscribe to: **About** → **Share channel** → **Copy channel ID**. Zastąp `[CHANNEL ID]` poniżej:
 
 ``text
 https://youtube.com/feeds/videos.xml?channel_id=[CHANNEL ID]
