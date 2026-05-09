@@ -91,41 +91,41 @@ cover: activism/banner-toolbox-tip-accessibility.webp
 
 - [x] وفر تدريبا للمنظمين والمتطوعين لضمان معرفتهم بكافة التسهيلات المتاحة، وقدرتهم على تقديم معلومات مفيدة للضيوف عند الطلب.
 
-### Dietary accessibility
+### توفير خيارات طعام تناسب الجميع
 
-If your event provides meals, snacks, or drinks, make sure to prepare well in-advance to consider the potential dietary restrictions of your guests.
+إذا كانت فعاليتك تتضمن تقديم وجبات أو وجبات خفيفة أو مشروبات، فاحرص على التحضير المسبق جيدا لمراعاة أي قيود غذائية محتملة لدى ضيوفك.
 
-- [x] List clearly what types of food and drinks with be served (or available) at the event.
+- [x] اذكر بوضوح أنواع الأطعمة والمشروبات التي سيتم تقديمها (أو ستكون متوفرة) خلال الفعالية.
 
-- [x] Provide contact information for people to reach out in advance if they have special dietary requirements or requests that have not already been addressed.
+- [x] وفر بيانات التواصل ليتمكن الحضور من مراسلتك مسبقا في حال وجود أي متطلبات غذائية خاصة أو طلبات لم يتم التطرق إليها بعد.
 
-- [x] Try to provide food and beverages that will cover a variety of dietary needs, such as vegan, nut-free, gluten-free, lactose-free, alcohol-free, or low-sugar options.
+- [x] حاول توفير أطعمة ومشروبات تغطي مجموعة متنوعة من الاحتياجات الغذائية، مثل الخيارات الخضرية (Vegan)، والخالية من المكسرات، والجلوتين، واللاكتوز، بالإضافة إلى المشروبات الخالية من الكحول والخيارات قليلة السكر.
 
-- [x] If you host a large event, consider keeping a few [epinephrine autoinjectors](https://greatergood.com/blogs/news/epinephrine-public-areas) available on site in your emergency kit, in case anyone experiences a dangerous allergic reaction.
+- [x] إذا كنت تستضيف فعالية كبيرة، فكر في توفير بضع [حقن إبينفرين ذاتية](https://greatergood.com/blogs/news/epinephrine-public-areas) في حقيبة الإسعافات الأولية بالموقع، تحسباً لتعرض أي شخص لرد فعل تحسسي خطير.
 
-- [x] Make sure guests will have access to free and clean water, especially if your event is scheduled during a heat wave.
+- [x] تأكد من توفير مياه شرب نظيفة ومجانية للضيوف، خاصة إذا كانت فعاليتك مقامة خلال موجة حر.
 
-- [x] Ensure there is a quiet and private room available for anyone who might be breastfeeding.
+- [x] احرص على توفير غرفة هادئة وخاصة لأي شخص قد يحتاج للرضاعة الطبيعية.
 
-- [x] Provide all this information in advance with your invitation, so that guests can evaluate properly if the event is accessible to them.
+- [x] احرص على تقديم كافة هذه المعلومات مسبقا مع الدعوة، حتى يتمكن الضيوف من تقييم ما إذا كانت الفعالية مهيأة لاحتياجاتهم بشكل دقيق.
 
-### Safety accessibility
+### الأمان وسهولة الوصول
 
-Safety is also an important aspect of accessibility. Everyone has a unique threat model, and, for a variety of reasons, some people might be at an elevated risk to their physical safety when going to and participating in an event in person.
+تعتبر السلامة أيضا ركنا أساسيا من أركان سهولة الوصول. لكل شخص منظوره الفريد للمخاطر التي قد تواجهه، ولأسباب متنوعة، قد يكون البعض عرضة لمخاطر متزايدة تمس سلامتهم الجسدية عند التوجه للمشاركة في الفعاليات حضورياً.
 
-- [x] Implement a [Code of Conduct](https://oshwa.org/resources/how-to-write-a-code-of-conduct/) for your event or community. Ensure there are clear channels to report bad behaviors, and that your Code of Conduct is enforced properly.
+- [x] اعتمد [ميثاقا للسلوك](https://oshwa.org/resources/how-to-write-a-code-of-conduct/) لفعاليتك أو لمجتمعك. تأكد من وجود قنوات واضحة للإبلاغ عن السلوكيات المرفوضة، واحرص على تطبيق ميثاق السلوك بجدية وعدالة.
 
-- [x] Verify that access to the bathrooms is safe and well lit at your venue.
+- [x] تأكد من أن المسار المؤدي إلى دورات المياه آمن ومُضاء بشكل جيد داخل مقر فعاليتك.
 
-- [x] Make sure the venue you select is safe to access by transits or cars, and that the nearest parking lot or bus stop is well lit if the event ends late at night.
+- [x] تأكد من أن مقر الفعالية آمن للوصول إليه عبر المواصلات العامة أو السيارات، وأن أقرب موقف سيارات أو محطة حافلات مُضاء جيداً، خاصة إذا كانت الفعالية تنتهي في وقت متأخر من الليل.
 
-- [x] If your venue is located in an area that might be more dangerous at night, consider setting up an [accompaniment service](https://www.concordia.ca/campus-life/security/services/safe-walk.html) with a set of volunteers offering to walk guests safely back to their bus stop, for example. Make this information known in advance.
+- [x] إذا كان مقر فعاليتك يقع في منطقة قد تكون غير آمنة ليلا، فكر في توفير [خدمة رفقة آمنة](https://www.concordia.ca/campus-life/security/services/safe-walk.html) من خلال مجموعة من المتطوعين الذين يعرضون مرافقة الضيوف بأمان إلى محطة الحافلات، على سبيل المثال. احرص على إعلان هذه المعلومات مسبقاً.
 
-- [x] Implement a clear [Photo Policy](https://events.ccc.de/congress/2025/infos/privacy.html#photo-policy) for your event, and forbid all nonconsensual photos. You can also provide "No Photos" or "Photos OK" stickers, buttons, or lanyards for guests upon arrival. That way, guests can explicitly opt out of being photographed at your event if they prefer not to. If your event hired an official photographer, make sure they are careful to never take photos that include people wearing these badges. Ideally, limit event photos to a minimum, and only take photos of people after asking for their explicit consent first.
+- [x] طبق [سياسة تصوير](https://events.ccc.de/congress/2025/infos/privacy.html#photo-policy) واضحة لفعاليتك، وامنع تماماً التقاط أي صور دون موافقة أصحابها. يمكنك أيضا توفير ملصقات أو أزرار أو أشرطة تعريفية تحمل عبارة 'ممنوع التصوير' أو 'التصوير مسموح'، ليختار منها الضيوف عند وصولهم. وبهذه الطريقة، يمكن للضيوف اختيار عدم التصوير في فعاليتك بشكل صريح إذا كانوا يفضلون ذلك. إذا قمت بتعيين مصور رسمي للفعالية، فاحرص على توجيهه ليتجنب تماما التقاط أي صور تظهر الأشخاص الذين يرتدون هذه الشارات. من الناحية المثالية، حاول قصر تصوير الفعالية على الحد الأدنى، ولا تلتقط صورا للأشخاص إلا بعد الحصول على موافقتهم الصريحة أولاً.
 
-### Financial accessibility
+### توفير خيارات تناسب الجميع ماديا
 
-Another aspect of accessibility that is often overlooked is financial accessibility. Sadly, many people are unable to access certain events due to financial limitations, even if it would be very helpful to them to network and meet privacy advocacy peers. When you organize an event, be mindful of providing options to increase financial accessibility.
+ثمة جانب آخر من جوانب سهولة الوصول غالبا ما يتم إغفاله، وهو تيسير الوصول المادي (أو مراعاة القدرة المالية). للأسف، يعجز الكثيرون عن حضور فعاليات معينة بسبب العوائق المادية، رغم الأهمية الكبيرة لهذه الفعاليات في بناء شبكة علاقات ولقاء أقرانهم من المدافعين عن الخصوصية. عندما تنظم فعالية ما، كن حريصا على توفير خيارات تساهم في تيسير الوصول المادي للجميع.
 
 - [x] حاول أن تجعل فعالياتك مجانية أو مدعومة جزئيا قدر الإمكان، مع البقاء يقظا وحذرا بشأن قبول تمويل من [جهات راعية](https://www.privacyguides.org/articles/2025/09/03/red-and-green-privacy-flags/#donations-event-sponsorships-and-other-revenues) قد تتعارض مصالحها مع قيم الخصوصية التي تتبناها.
 
