@@ -359,7 +359,7 @@ Te opcje znajdziesz w :gear: **Ustawienia** → **Aplikacje** → **Safari** →
 
 The **Advanced Tracking and Fingerprinting Protection** setting will randomize certain values so that it's more difficult to fingerprint you:
 
-- [x] Select **All Browsing** or **Private Browsing**
+- [x] Zaznacz ** Całość przeglądania** lub **Przeglądanie Prywatne**
 
 ##### Miary dot. reklam zachowujące prywatność
 
