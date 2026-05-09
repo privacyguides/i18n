@@ -9,15 +9,15 @@ schema:
     name: Mobile Phone Recommendations
     url: "./"
   - "@context": http://schema.org
-    "@type": Product
+    "@type": Produkt
     name: Pixel
     brand:
-      "@type": Brand
+      "@type": Marka
       name: Google
     image: /assets/img/android/google-pixel.png
-    sameAs: https://en.wikipedia.org/wiki/Google_Pixel
+    sameAs: https://pl.wikipedia.org/wiki/Google_Pixel
     review:
-      "@type": Review
+      "@type": Recenzja
       author:
         "@type": Organization
         name: Privacy Guides
