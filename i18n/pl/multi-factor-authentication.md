@@ -1,7 +1,7 @@
 ---
 title: Uwierzytelnianie wieloskładnikowe
 icon: material/two-factor-authentication
-description: These tools assist you with securing your internet accounts with multifactor authentication without sending your secrets to a third party.
+description: Te narzędzia pomagają Ci zabezpieczyć twoje konta internetowe przy pomocy uwierzytelniania wieloskładnikowego, bez wysyłania sekretu do strony trzeciej.
 cover: multi-factor-authentication.webp
 ---
 
@@ -16,9 +16,9 @@ cover: multi-factor-authentication.webp
 
 </div>
 
-**Aplikacje do uwierzytelniania wieloskładnikowego** wdrażają standard bezpieczeństwa przyjęty przez Internet Engineering Task Force (IETF) o nazwie **Time-based One-time Passwords** lub **TOTP**. This is a method where websites share a secret with you which is used by your authenticator app to generate a six (usually) digit code based on the current time, which you enter while logging in for the website to check. Typically, these codes are regenerated every 30 seconds, and once a new code is generated the old one becomes useless. Even if a hacker gets one six-digit code, there is no way for them to reverse that code to get the original secret or otherwise be able to predict what any future codes might be.
+**Aplikacje do uwierzytelniania wieloskładnikowego** wdrażają standard bezpieczeństwa przyjęty przez Internet Engineering Task Force (IETF) o nazwie **Time-based One-time Passwords** lub **TOTP**. Jest to metoda, w której strony internetowe udostępniają sekret z użytkownikiem, który jest wykorzystywany przez twoją aplikację uwierzytelniającą do wygenerowania (zazwyczaj) sześciocyfrowego kodu na podstawie aktualnej godziny, który wprowadzasz podczas logowania się na stronę internetową. Zazwyczaj kody te są odnawiane co 30 sekund, a po wygenerowaniu nowego kodu stary staję się bezużyteczny. Nawet jeśli haker zdobędzie jeden sześciocyfrowy kod, nie ma możliwości odwrócić (poprzez inżynierię odwrotną) tego kodu, aby uzyskać oryginalny sekret lub w inny sposób przewidzieć, jakie mogą być przyszłe kody.
 
-We highly recommend that you use mobile TOTP apps instead of desktop alternatives as Android and iOS have better security and app isolation than most desktop operating systems.
+Zdecydowanie zalecamy używanie mobilnych aplikacji TOTP zamiast ich alternatyw na komputer stacjonarne, ponieważ Android i iOS mają lepsze zabezpieczenia i izolację aplikacji niż większość stacjonarnych systemów operacyjnych.
 
 ## Ente Auth
 
@@ -26,7 +26,7 @@ We highly recommend that you use mobile TOTP apps instead of desktop alternative
 
 ![Logo Ente Auth](assets/img/multi-factor-authentication/ente-auth.svg){ align=right }
 
-**Ente Auth** to darmowa aplikacja open source która przechowuje i generuje tokeny TOTP. It can be used with an online account to back up and sync your tokens across your devices (and access them via a web interface) in a secure, end-to-end encrypted fashion. It can also be used offline on a single device with no account necessary.
+**Ente Auth** to darmowa aplikacja open source która przechowuje i generuje tokeny TOTP. Może być używana z kontem online w celu tworzenia kopii zapasowej i synchronizacji tokenów na wszystkich twoich urządzeniach (oraz uzyskiwania do nich dostępu za pośrednictwem interfejsu sieciowego) w bezpieczny szyfrowany end to end sposób. Może być również używana offline na jednym urządzeniu bez konieczności posiadania konta.
 
 [:octicons-home-16: Strona główna](https://ente.com/auth){ .md-button .md-button--primary }[:octicons-eye-16:](https://ente.com/privacy){ .card-link title="Polityka prywatności" }
 [:octicons-info-16:](https://ente.com/help/auth){ .card-link title="Dokumentacja" }
