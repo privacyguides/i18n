@@ -1,67 +1,67 @@
 ---
 title: احرص على أن يكون المحتوى متاحا للجميع
-description: يجب أن تظل سهولة الوصول دائما في مقدمة أولوياتنا. To make our privacy communities welcoming to all, we must integrate it in our practice from the start.
+description: يجب أن تظل سهولة الوصول دائما في مقدمة أولوياتنا. لكي نجعل مجتمعاتنا المهتمة بالخصوصية مكانا يرحب بالجميع، علينا أن نجعل هذا المبدأ جزءاً لا يتجزأ من أسلوب عملنا منذ البداية.
 icon: fontawesome/solid/heart-circle-check
 cover: activism/banner-toolbox-tip-accessibility.webp
 ---
 
-**Accessibility** is indispensable to [inclusivity](tip-keep-your-posts-and-community-inclusive.md), and should always be a priority in our work. To make our privacy communities welcoming to all, accessibility cannot be an afterthought. We must integrate it in our practice from the start. This means making sure the languages, visuals, tools, and venues we use are accessible to as many people as possible.
+تُعد سهولة الوصول ركنا لا غنى عنه لتحقيق [الشمولية](tip-keep-your-posts-and-community-inclusive.md)، ويجب أن تظل دائما في مقدمة أولوياتنا. لكي نجعل مجتمعات الخصوصية لدينا مكانا يرحب بالجميع، لا يمكن لسهولة الوصول أن تكون مجرد فكرة ثانوية تأتي لاحقا. يجب أن نجعلها جزءاً لا يتجزأ من أسلوب عملنا منذ اللحظة الأولى. وهذا يعني أن نحرص على أن تكون اللغات، والعناصر المرئية، والأدوات، والمنصات التي نستخدمها متاحة وسهلة الاستخدام لأكبر عدد ممكن من الناس.
 
-Here's what you can do to improve accessibility for your privacy-related content and communities:
+إليك ما يمكنك فعله للمساهمة في تحسين سهولة الوصول لمحتواك ومجتمعاتك المهتمة بالخصوصية:
 
-## Accessibility for all, in all the ways
+## سهولة الوصول للجميع، وبكافة السبل
 
-For many people who don't need any specific accommodations, accessibility is often only thought about in terms of solutions to _mobility_ impairments, such as for people requiring the use of a wheelchair.
+كثير من الناس الذين لا يحتاجون لمساعدة خاصة، يظنون أن «سهولة الوصول» تقتصر فقط على حلول مشاكل الحركة، مثل احتياجات مستخدمي الكراسي المتحركة.
 
-While this is indeed and important factor to consider, there are many other types of disabilities and accommodations we should be mindful of in our privacy work.
+ورغم أن هذا الجانب مهم جدا بلا شك، إلا أن هناك أنواعا أخرى كثيرة من الاحتياجات الخاصة والتسهيلات التي يجب أن نضعها في اعتبارنا أثناء عملنا في مجال الخصوصية.
 
-Considering how each part of our work could be accessed more easily by everyone is essential to grow our movement, and to diversify our privacy communities.
+إن التفكير في كيفية تسهيل وصول الجميع لكل جانب من جوانب عملنا هو ركيزة أساسية لنمو حركتنا، ولإضفاء التنوع على مجتمعات الخصوصية لدينا.
 
-Ethically, it's also just the right thing to do, and should be the norm everywhere.
+أخلاقيا، هذا هو عين الصواب، وينبغي أن يصبح هو القاعدة المعمول بها في كل مكان.
 
-### Visual, auditory, and other sensorial accessibility
+### تيسير الوصول لذوي الاحتياجات البصرية والسمعية والحسية الأخرى
 
-Anytime you are using images, audio, or any other sensorial elements in your advocacy work, you should always make sure to follow best practices to ensure your content will be accessible to people with visual, auditory, or other sensorial impairments.
+كلما استخدمت الصور أو المقاطع الصوتية أو أي عناصر حسية أخرى في نشاطك التوعوي، احرص دائماً على اتباع أفضل الممارسات لضمان وصول محتواك للجميع، بما في ذلك الأشخاص الذين يواجهون تحديات بصرية أو سمعية أو حسية.
 
-- [x] If you use images in your websites or social media posts, make sure to always add proper [alt text](https://abilitynet.org.uk/resources/digital-accessibility/five-golden-rules-compliant-alt-text) to describe the information the image represents. Keep in mind visitors that might be using a [screen reader](https://en.wikipedia.org/wiki/Screen_reader).
+- [x] عند استخدامك للصور في مواقعك الإلكترونية أو منشوراتك على منصات التواصل الاجتماعي، احرص دائماً على إضافة [alt text](https://abilitynet.org.uk/resources/digital-accessibility/five-golden-rules-compliant-alt-text) مناسب يصف المعلومات التي تعبر عنها الصورة. ضع في اعتبارك الزوار الذين قد يستخدمون [قارئ الشاشة (screen reader)](https://en.wikipedia.org/wiki/Screen_reader).
 
-- [x] When designing websites, posters, flyers, or zines, keep in mind [visual accessibility](https://webdesign.tutsplus.com/accessibility-basics-designing-for-visual-impairment--cms-27634a) for people with blindness, low vision, color blindness, and other visual impairments.
+- [x] عند تصميم المواقع الإلكترونية، أو الملصقات، أو المطويات، أو المجلات الفنية المستقلة، ضع في حسبانك [سهولة الوصول البصري](https://webdesign.tutsplus.com/accessibility-basics-designing-for-visual-impairment--cms-27634a) للأشخاص المكفوفين، وضعاف البصر، والمصابين بعمى الألوان، وغيرهم ممن يواجهون تحديات بصرية.
 
-- [x] Be careful to refrain from using designs and videos with [flashing lights](https://developer.mozilla.org/en-US/docs/Web/Accessibility/Guides/Seizure_disorders), or display proper warning if you do. Flashing or flickering light effects, and even certain high-contrast static images, can trigger seizures in people with photosensitive epilepsy.
+- [x] احرص على تجنب استخدام التصاميم ومقاطع الفيديو التي تحتوي على [أضواء وامضة](https://developer.mozilla.org/en-US/docs/Web/Accessibility/Guides/Seizure_disorders)، أو احرص على وضع تحذير مناسب إذا اضطررت لاستخدامها. إن تأثيرات الأضواء الوامضة أو المتذبذبة، وحتى بعض الصور الثابتة عالية التباين، قد تحفز نوبات صرع لدى المصابين بالصرع الحساس للضوء.
 
-- [x] If you use [audio material](https://www.w3.org/WAI/people-use-web/abilities-barriers/auditory/) in your advocacy, try to include captions or transcripts in your content for people with auditory impairments. If you organize a larger event with speakers, try to see if you could hire a sign language interpreter.
+- [x] إذا كنت تستخدم [مواد صوتية](https://www.w3.org/WAI/people-use-web/abilities-barriers/auditory/) في نشاطك التوعوي، حاول توفير نصوص توضيحية أو تفريغ نصي ضمن محتواك، لمساعدة الأشخاص الذين يواجهون تحديات سمعية. إذا كنت بصدد تنظيم فعالية كبيرة تضم متحدثين، فحاول استكشاف إمكانية الاستعانة بمترجم للغة الإشارة.
 
-- [x] Whenever you develop content or organize events, always be mindful of people with sensory impairments or [sensory sensitivities](https://accessforallllc.com/sensory-and-cognitive-accessibility/).
+- [x] كلما قمت بإعداد محتوى أو تنظيم فعاليات، احرص دائماً على مراعاة الأشخاص الذين يواجهون تحديات حسية أو [حساسيات حسية](https://accessforallllc.com/sensory-and-cognitive-accessibility/).
 
-### Website accessibility
+### إمكانية الوصول للموقع الإلكتروني
 
-If you develop a website in your privacy work, make sure to follow the international standards for web accessibility.
+إذا كنت تعمل على تطوير موقع إلكتروني كجزء من جهودك في حماية الخصوصية، فاحرص دائماً على اتباع المعايير الدولية لسهولة الوصول.
 
-This is very important to ensure readers using assistive devices will be able to access your content, and that people with visual impairments will not struggle to access your content.
+يُعد هذا الأمر في غاية الأهمية لضمان وصول القراء الذين يعتمدون على التقنيات المساعدة إلى محتواك بكل يسر، ولضمان ألا يواجه الأشخاص الذين يعانون من تحديات بصرية أي صعوبة في تصفح ما تقدمه.
 
-- [x] Get familiar with the World Wide Web Consortium (W3C) [international Web standards](https://www.w3.org/WAI/standards-guidelines/). These standards have been reviewed for accessibility support by the Accessible Platform Architectures ([APA](https://www.w3.org/WAI/about/groups/apawg/)) Working Group.
+- [x] ندعوك للتعرف على [المعايير الدولية للويب](https://www.w3.org/WAI/standards-guidelines/) الصادرة عن رابطة الشبكة العالمية (W3C). تمت مراجعة هذه المعايير من قِبل مجموعة عمل ([APA])(https://www.w3.org/WAI/about/groups/apawg/) للتأكد من دعمها لسهولة الوصول.
 
-- [x] Use a [web accessibility evaluation tool](https://www.w3.org/WAI/test-evaluate/tools/list/) to verify that your web content meets accessibility guidelines, or otherwise make sure to follow the [Web Content Accessibility Guidelines](https://www.pivotalaccessibility.com/2024/11/how-to-perform-a-web-accessibility-audit-step-by-step-guide/) (WCAG).
+- [x] استخدم [أداة لتقييم سهولة وصول الويب](https://www.w3.org/WAI/test-evaluate/tools/list/) للتحقق من أن محتوى موقعك يلتزم بإرشادات الوصول، أو احرص على اتباع [إرشادات الوصول إلى محتوى الويب](https://www.pivotalaccessibility.com/2024/11/how-to-perform-a-web-accessibility-audit-step-by-step-guide/) (WCAG).
 
-- [x] If your organization can afford it, hire a [web accessibility consultant](https://accessibilityinnovations.com/blogs/web-accessibility-consultant/).
+- [x] إذا كانت ميزانية منظمتك تسمح، استعن بـ [مستشار في سهولة وصول الويب](https://accessibilityinnovations.com/blogs/web-accessibility-consultant/).
 
-### Global accessibility
+### الوصول الشامل
 
-Whether you write a post, an article, or a whole website in English, keep in mind that your audience is likely global.
+سواء كنت تكتب منشورا، أو مقالا، أو موقعا إلكترونيا كاملا باللغة الإنجليزية، فضع في حسبانك أن جمهورك على الأرجح هو جمهور عالمي.
 
-People from all around the world will be able to read or watch your English content, many who don't speak English as their first language. Don't assume that your audience is only coming from your own country or region. This is a good thing, by the way! ==The battle for privacy rights must be global now.==
+سيتمكن أشخاص من كافة أرجاء العالم من قراءة محتواك باللغة الإنجليزية أو مشاهدته، علما بأن الكثيرين منهم لا يتحدثون الإنجليزية كلغة أولى. تجنب افتراض أن جمهورك ينتمي فقط إلى بلدك أو منطقتك الجغرافية؛ فالمحتوى الرقمي يتجاوز الحدود. وهذا في الواقع أمر رائع، بالمناسبة! ==إن معركة حقوق الخصوصية يجب أن تأخذ طابعاً عالمياً الآن.==
 
-- [x] Be careful not to use too many references that are unique to your own country or region. If you do, make sure to explain what it is for people from other regions.
+- [x] احرص على تجنب الإكثار من الإشارات الثقافية أو الأمثلة التي تقتصر معرفتها على بلدك أو منطقتك فقط. وإذا اضطررت لاستخدامها، فاحرص على شرح المقصود بها للأشخاص الذين يعيشون في مناطق أخرى.
 
-- [x] When talking about issues related to politics, make sure to specify what governmental entities are, and explain any special rights your country has (don't just name them). That way, outsiders will be able to understand and support your cause as well, even if perhaps they aren't directly impacted by this issue at the moment.
+- [x] عند الحديث عن قضايا سياسية، احرص على توضيح ماهية الجهات الحكومية التي تقصدها، واشرح أي حقوق قانونية خاصة تتمتع بها في بلدك (بدلا من مجرد ذكر أسمائها فقط). وبهذه الطريقة، سيتمكن الآخرون من فهم قضيتك ودعمها أيضا، حتى وإن لم يكونوا متأثرين بها بشكل مباشر في الوقت الحالي.
 
-- [x] Don't assume everyone knows all the popular internet acronyms such as DIY (Do It Yourself) or IIRC (If I Recall Correctly). These acronyms are very challenging for non-native English speakers. When using acronyms in your content, always explain the full expression in parentheses at least once, or better yet, simply use whole words instead.
+- [x] تجنب افتراض أن الجميع على دراية بكل الاختصارات الشائعة على الإنترنت، مثل DIY (افعلها بنفسك) أو IIRC (إن لم تخنّي الذاكرة). تشكل هذه الاختصارات تحديا كبيرا لمن ليست الإنجليزية لغتهم الأم. عند استخدام الاختصارات في محتواك، احرص دائما على توضيح المصطلح بالكامل بين قوسين لمرة واحدة على الأقل، أو الأفضل من ذلك، استخدم الكلمات كاملة فحسب.
 
-- [x] When inviting people to an event, consider that people from other time zones might be reading your invitation. If your event is online, always specify the [time zone](https://www.timeanddate.com/time/map/) for the announced time. If your event is in person, always specify the whole location with the country and region ([do _not_ just name the city](https://www.roughmaps.com/destinations/20-places-around-the-world-that-share-the-same-name/22)).
+- [x] عندما تدعو الآخرين لحضور فعالية ما، ضع في حسبانك أن أشخاصا من مناطق زمنية مختلفة قد يقرؤون دعوتك. إذا كانت فعاليتك ستقام عبر الإنترنت، فاحرص دائما على تحديد [المنطقة الزمنية](https://www.timeanddate.com/time/map/) للوقت المعلن. أما إذا كانت الفعالية ستقام حضوريا، فاحرص دائما على ذكر الموقع بالكامل موضحا الدولة والمنطقة ([ولا تكتف بذكر اسم المدينة فحسب])(https://www.roughmaps.com/destinations/20-places-around-the-world-that-share-the-same-name/22).
 
-### Physical accessibility
+### تسهيلات الوصول للمكان
 
-When organizing events and meetups in person, it's essential to keep in mind physical accessibility for people with mobility challenges of all kind. This includes accessibility around the venue, but also on the journey to the venue.
+عند تنظيم الفعاليات واللقاءات حضوريا، من الضروري مراعاة سهولة الوصول المادي للأشخاص الذين يواجهون تحديات حركية بمختلف أنواعها. This includes accessibility around the venue, but also on the journey to the venue.
 
 - [x] Ensure the venue you select is [accessible for people using wheelchairs](https://sites.augsburg.edu/events/policies/accessible-events/accessible-event-planning-guide/). Check that there is access to an elevator if it's on an upper floor, that there are access ramps and automatic doors if required, and that doorways and hallways are wide enough to accommodate a wheelchair.
 
@@ -127,25 +127,25 @@ Safety is also an important aspect of accessibility. Everyone has a unique threa
 
 Another aspect of accessibility that is often overlooked is financial accessibility. Sadly, many people are unable to access certain events due to financial limitations, even if it would be very helpful to them to network and meet privacy advocacy peers. When you organize an event, be mindful of providing options to increase financial accessibility.
 
-- [x] Try to keep your events free or partly free whenever possible, while remaining vigilant about accepting money from [financial sponsors](https://www.privacyguides.org/articles/2025/09/03/red-and-green-privacy-flags/#donations-event-sponsorships-and-other-revenues) that could be in contradiction with your privacy values.
+- [x] حاول أن تجعل فعالياتك مجانية أو مدعومة جزئيا قدر الإمكان، مع البقاء يقظا وحذرا بشأن قبول تمويل من [جهات راعية](https://www.privacyguides.org/articles/2025/09/03/red-and-green-privacy-flags/#donations-event-sponsorships-and-other-revenues) قد تتعارض مصالحها مع قيم الخصوصية التي تتبناها.
 
-- [x] Reserve a quantity of free tickets for people with more severe limitations.
+- [x] احرص على تخصيص عدد من التذاكر المجانية للأشخاص الذين يواجهون قيودا أو تحديات أكثر حدة.
 
-- [x] Offer discounts for students or unemployed peers.
+- [x] وفر تخفيضات للطلبة ولغير العاملين من زملائك.
 
-- [x] Create opportunities for part-time volunteering, where people can offer to help a little, then participate in the rest of the event for free.
+- [x] وفر فرصًا للتطوع الجزئي، بحيث يمكن للمهتمين تقديم مساعدة بسيطة مقابل حضور بقية الفعالية مجانا.
 
-- [x] Provide contact information for people who would like to request free or cheaper access, or discuss their unique situation with you.
+- [x] وفر بيانات اتصال واضحة لمن يرغبون في طلب دخول مجاني أو بأسعار مخفضة، أو لمن يودون شرح ظروفهم الخاصة لك.
 
-### Beginners accessibility
+### سهولة الوصول للمبتدئين
 
-[Welcoming beginners](tip-welcome-beginners.md) is crucial in all the work we do. To keep your content and events accessible to beginners, it's important to be mindful of the language you use, the ways you present content, and the places where you promote your events.
+إن [الترحيب بالمبتدئين](tip-welcome-beginners.md) ركيزة أساسية في صميم كل ما نقوم به. لضمان سهولة وصول المبتدئين إلى محتواك وفعالياتك، من المهم مراعاة اللغة التي تستخدمها، وطرق عرضك للمحتوى، والأماكن التي تروج فيها لفعالياتك.
 
-- [x] Always explain acronyms with whole words before only using the letters only.
+- [x] احرص دائما على شرح الاختصارات باستخدام الكلمات الكاملة قبل البدء في استخدام الحروف المختصرة وحدها.
 
-- [x] Be careful when using jargon, try to be explicit and use simple words and analogies.
+- [x] توخ الحذر عند استخدام المصطلحات التخصصية المعقدة، وحاول أن تكون واضحا تماما عبر استخدام كلمات بسيطة وأمثلة تشبيهية لتقريب المعنى.
 
-- [x] Beware of gatekeeping. Try to stay aware of newcomers that might be quiet or isolated from the group. [Be inclusive](tip-keep-your-posts-and-community-inclusive.md) and invite them to participate.
+- [x] احذر من ممارسات 'الاستعلاء المعرفي' (Gatekeeping). Try to stay aware of newcomers that might be quiet or isolated from the group. [Be inclusive](tip-keep-your-posts-and-community-inclusive.md) and invite them to participate.
 
 - [x] Specify that your event welcomes beginners.
 
