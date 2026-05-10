@@ -23,21 +23,21 @@ cover: activism/banner-toolbox-tip-kind.webp
 
 حافظ على صبرك وتعاطفك، حتى عندما يطرح الناس أسئلة قد تبدو بديهية بالنسبة لك. كن صبورا عندما لا يفهم الناس ما تشرحه من المرة الأولى. بادر بكل سرور إلى التوضيح بعبارات أبسط عند الحاجة، دون أي استعلاء.
 
-تقبل أن بعض الأشخاص قد لا يتمكنون من تبني كل مقترحاتك دفعة واحدة. It's okay, let them grow at their own pace.
+تقبل أن بعض الأشخاص قد لا يتمكنون من تبني كل مقترحاتك دفعة واحدة. لا بأس، دعهم يتطورون بالسرعة التي تناسبهم.
 
-Give time for ideas to brew and change minds. Plant seeds for change, and gently wait for growth.
+دع الأفكار تتخمر مع الوقت لتأخذ مجراها في تغيير الآراء. انثر بذور التغيير، وترقب نماءها بكل تأنٍ ورفق.
 
-## Be relentless with corporations, governments, and public institutions
+## قف بصلابة وبلا هوادة في مواجهة الشركات والحكومات والمؤسسات العامة
 
-While patience and kindness are crucial to bring your message the right way to individuals, institutions do not function the same way.
+في حين أن الصبر واللطف أمران بالغان الأهمية لإيصال رسالتك بالشكل الصحيح للأفراد، فإن المؤسسات لا تعمل بالطريقة ذاتها.
 
-Whether you are trying to report a privacy-abusive corporate practice, push back against an invasive regulation proposal, or raise awareness about a public institution's privacy malpractices, you must be firm, loud, and determined.
+سواء كنت تحاول الإبلاغ عن ممارسات شركة تنتهك الخصوصية، أو التصدي لمقترح قانوني اجتياحي، أو التوعية بتجاوزات مؤسسة عامة في مجال الخصوصية، فعليك أن تكون حازما، ومسموع الصوت، ومصمما.
 
-Respect and politeness are vital here as well. Violence or threat to representatives of these institutions would only be detrimental to your goals. However, patience shouldn't be extended to privacy-abusive organizations that aren't demonstrating any realistic intentions to improve.
+يبقى الاحترام والتعامل بلباقة ركنين أساسيين في هذا السياق أيضا. إن العنف أو تهديد ممثلي هذه المؤسسات لن يؤدي إلا إلى الإضرار بأهدافك. غير أن هذا الصبر لا يجب أن يُمنح للمنظمات المسيئة للخصوصية، طالما أنها لا تظهر أي مساعٍ جادة لإصلاح نهجها.
 
-\==To bring significant changes to institutions and corporations, your message must be loud and clear.==
+\==لإحداث تغييرات جوهرية في المؤسسات والشركات، يجب أن تكون رسالتك قوية وواضحة.==
 
-You should try to bring as many people and allied organizations to your cause, and be as loud as possible in the media. Your campaign must be powerful enough to grab media's attention, and to send a firm message that the people want change and will not back down.
+يجب عليك السعي لاستمالة أكبر عدد ممكن من الأفراد والمنظمات الحليفة لقضيتك، وأن تكون مسموع الصوت لأقصى حد في وسائل الإعلام. Your campaign must be powerful enough to grab media's attention, and to send a firm message that the people want change and will not back down.
 
 Each time your message is ignored, and the abuse continues, **shout louder** (metaphorically). Bring even _more_ people to the cause, until the popular discontent is so strong that they have no choice but to stop the abuse.
 
