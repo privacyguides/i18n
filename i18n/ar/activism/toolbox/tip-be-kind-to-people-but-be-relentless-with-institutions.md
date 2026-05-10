@@ -1,29 +1,29 @@
 ---
-title: Be Kind to People, But Be Relentless With Institutions
-description: Kindness and patience are essential qualities for privacy advocates. To grow our movement, we must meet people from a place of camaraderie.
+title: كُن لطيفا مع الناس، ولكن لا تتهاون مع المؤسسات
+description: اللطف والصبر من السمات الأساسية للمدافعين عن الخصوصية. من أجل تنمية حركتنا، يتحتم علينا التقرب إلى الآخرين بروح من التضامن والألفة.
 icon: fontawesome/solid/hands-holding-circle
 cover: activism/banner-toolbox-tip-kind.webp
 ---
 
-Kindness and patience are essential qualities for privacy advocates. To grow our movement, we must meet people from a place of camaraderie. People don't change their mind by being berated. However, this isn't true for institutions.
+اللطف والصبر من السمات الأساسية للمدافعين عن الخصوصية. من أجل تنمية حركتنا، يتحتم علينا التقرب إلى الآخرين بروح من التضامن والألفة. التوبيخ لا يدفع أحدا لتغيير رأيه، فالبداية دائما تكون بالكلمة الطيبة والوعي. لكن الأمر يختلف تماما عندما نتعامل مع المؤسسات والشركات.
 
-Here's how you can **integrate kindness in your work**, while being relentless with institutions:
+اكتشف المزيد حول كيفية تبني اللطف في دعوتك للآخرين، بينما تظل حازماً ولا تلين في مطالبة المؤسسات بحقوقنا:
 
-## Use kindness and patience while working with individuals
+## عليك بالرفق والأناة عند تواصلك مع الآخرين
 
-Whenever you talk with individuals in your privacy work, make sure to **stay kind and calm** when communicating with them.
+في كل مرة تتحدث فيها مع الأفراد ضمن عملك في مجال الخصوصية، احرص على التحلي **باللطف والهدوء** عند التواصل معهم.
 
-Perhaps you are posting on social media, replying to posts or emails, answering questions after a talk, or writing advices on the best privacy tools to use. No matter the context, when communicating with individuals, ==kindness is your greatest asset== to persuade and bring more people to the movement.
+قد تكون بصدد النشر عبر منصات التواصل الاجتماعي، أو الرد على المنشورات والرسائل الإلكترونية، أو الإجابة عن تساؤلات الحضور عقب إلقاء كلمة، أو تدوين نصائح حول أفضل أدوات حماية الخصوصية التي يُنصح باستخدامها. مهما كان السياق، عند تواصلك مع الأفراد، فإن ==اللطف هو رصيدك الأهم== للإقناع وجذب المزيد من الأشخاص إلى الحركة.
 
-Sadly, it's not rare to see replies to beginners' posts by more advanced peers online that are humiliating and berating their uninformed or misinformed questions. People don't learn and don't change their mind by being yelled at. Aggression isn't an effective way to communicate.
+للأسف، ليس من النادر على الإنترنت رؤية ردود من مستخدمين أكثر خبرة على منشورات المبتدئين، تحمل إهانة وتوبيخا لأسئلتهم التي تفتقر للمعلومات أو تستند إلى مفاهيم خاطئة. إن الناس لا يكتسبون المعرفة ولا تتغير قناعاتهم بالصياح في وجوههم. الأسلوب الهجومي ليس وسيلة مجدية للتواصل.
 
-Furthermore, aggression is a horrible strategy to bring more people to your cause, which should be your ultimate goal as a privacy rights advocate and activist.
+علاوة على ذلك، تُعد العدوانية استراتيجية مريعة لجذب المزيد من الأشخاص إلى قضيتك، وهو ما ينبغي أن يكون هدفك الأسمى بصفتك ناشطا ومدافعا عن حقوق الخصوصية.
 
-Instead, be gentle and [develop your empathy skills](https://www.verywellmind.com/what-is-empathy-2795562). Write from a place of compassion, to gradually attract more and more [new people](tip-welcome-beginners.md) to the cause.
+بدلا من ذلك، كن لطيفا و[طور مهارات التعاطف لديك](https://www.verywellmind.com/what-is-empathy-2795562). اكتب من منطلق التعاطف، لجذب المزيد والمزيد من [الأشخاص الجدد](tip-welcome-beginners.md) إلى القضية تدريجياً.
 
-Stay patient and compassionate, even when people ask questions that might sound obvious to you. Be patient when people don't understand the first time you explain something. Happily clarify with simpler terms when needed, without being condescending.
+حافظ على صبرك وتعاطفك، حتى عندما يطرح الناس أسئلة قد تبدو بديهية بالنسبة لك. كن صبورا عندما لا يفهم الناس ما تشرحه من المرة الأولى. بادر بكل سرور إلى التوضيح بعبارات أبسط عند الحاجة، دون أي استعلاء.
 
-Accept that some people might not be able to adopt all of your suggestions at once. It's okay, let them grow at their own pace.
+تقبل أن بعض الأشخاص قد لا يتمكنون من تبني كل مقترحاتك دفعة واحدة. It's okay, let them grow at their own pace.
 
 Give time for ideas to brew and change minds. Plant seeds for change, and gently wait for growth.
 
