@@ -1,25 +1,25 @@
 ---
-title: Make It Cute
-description: If you are developing a privacy-focused application or website, it's important that you do not neglect the design aspect of it. تعرف كيف تجعل أعمالك سهلة للجميع!
+title: تعرف كيف تجعل أعمالك سهلة للجميع
+description: إذا كنت تطور تطبيقاً أو موقعاً إلكترونياً يركز على الخصوصية، فلا تهمل جانب التصميم فيه. تعرف كيف تجعل أعمالك سهلة للجميع!
 icon: fontawesome/solid/cat
 cover: activism/banner-toolbox-tip-cute.webp
 ---
 
-If you are developing a privacy-focused application or website, it's important that you **do not neglect the design** aspect of it. هذا خطأ شائع قد يُبعد الناس عن فكرتك الجميلة، فالبساطة هي سر النجاح. تعرف كيف تجعل أعمالك سهلة للجميع!
+إذا كنت تطور تطبيقاً أو موقعاً إلكترونياً يركز على الخصوصية، فلا تهمل جانب التصميم فيه. هذا خطأ شائع قد يُبعد الناس عن فكرتك الجميلة، فالبساطة هي سر النجاح. تعرف كيف تجعل أعمالك سهلة للجميع!
 
-Here's why you should make your design appealing and accessible to everyone:
+فيما يلي الأسباب التي تجعل من المهم أن يكون تصميمك جذّابًا وسهل الوصول للجميع:
 
-## What happens when your app is ugly
+## ما أثر التصميم غير الجذاب على تطبيقك
 
-Quality design for User Interface (UI) and User Experience (UX) is fundamental to product adoption. Unfortunately, this is regularly neglected by developers working on privacy-focused projects. Often, this is due to lack of resources, but sometimes it's simply an oversight.
+يُعد التصميم عالي الجودة لواجهة المستخدم (UI) وتجربة المستخدم (UX) عاملا أساسيا في تبني المنتج. ومع الأسف، لا يحظى هذا الجانب بالاهتمام الكافي لدى مطوري المشاريع التي تُعنى بالخصوصية. غالبا ما يرجع ذلك إلى نقص الموارد، لكنه يكون أحيانا مجرد سهو.
 
-The problem is that if your application or website isn't appealing visually, is awkward to use, difficult to understand, or use jargon inaccessible to newcomers, ==people who aren't already in your community are much less likely to adopt your product==, regardless of the privacy benefits it offers. Trying to tell people a billion times they should switch to using your app will be no help at all if it's unpleasant to use on a daily basis.
+تكمن المشكلة في أنه إذا لم يكن تطبيقك أو موقعك الإلكتروني جذابا من الناحية البصرية، أو كان استخدامه غير سلس، أو يصعب فهمه، أو يستخدم مصطلحات متخصصة لا يستطيع القادمون الجدد استيعابها، فإن الأشخاص غير المنتمين أصلا إلى مجتمعك سيكونون أقل ميلا بكثير إلى تبني منتجك، مهما كانت فوائد الخصوصية التي يقدمها. لن تنفع دعوة الناس مرارا إلى استخدام تطبيقك إذا كانت تجربته اليومية غير مريحة أو منفّرة.
 
-When your app is ugly, fewer people want to use it, and fewer people benefit from its protections. Minimizing the importance of visual appeal and ease-of-use will only impact your goals negatively.
+عندما يكون تطبيقك غير جذاب، يقل عدد الراغبين في استخدامه، ويقل بالتالي عدد المستفيدين من وسائل الحماية التي يوفرها. إن عدم إعطاء الجاذبية البصرية وسهولة الاستخدام حقهما من الاهتمام سيؤثر سلبا في تحقيق أهدافك.
 
-## Beyond privacy features: Develop a product that is also accessible, functional, and cute!
+## إلى جانب مزايا الخصوصية: احرص على تطوير منتج ميسر، وعملي، وجذاب!
 
-If you've already done your homework to build the best app for people to protect their privacy, or the best website to provide privacy advice, here are other aspects you should consider to increase your product's popularity:
+إذا كنت قد بذلت جهدك بالفعل في بناء أفضل تطبيق يساعد الناس على حماية خصوصيتهم، أو أفضل موقع يقدم نصائح متعلقة بالخصوصية، فإليك جوانب أخرى ينبغي مراعاتها لزيادة انتشار منتجك:
 
 <style>
 .emoji-list-a ul {
@@ -28,24 +28,24 @@ If you've already done your homework to build the best app for people to protect
 @counter-style emoji-list-a {
   system: fixed;
   symbols: "☑️" "🎁" "🥰" "⭐️" "🚀";
-  suffix: "  ";
+  suffix: "  "؛
 </style>
 
 <div class="emoji-list-a" markdown>
 
-- Make sure that your app or website is [accessible](tip-be-mindful-of-accessibility.md) as much as possible. Accessibility will not only make more people able to use your application, but it's likely to also improve user experience for everyone.
+- احرص على أن يكون تطبيقك أو موقعك الإلكتروني [ميسر الوصول](tip-be-mindful-of-accessibility.md) قدر الإمكان. لا تقتصر فائدة تيسير الوصول على تمكين عدد أكبر من الناس من استخدام تطبيقك، بل يرجح أن تسهم أيضا في تحسين تجربة المستخدم للجميع.
 
-- Wrap your product in a pretty package. If you can afford it, hire a professional designer to polish your app or website interface, as well as your organization's logo and promotional material. Design can truly be a make-or-break moment. Do not neglect it!
+- قدم منتجك في قالب جميل وجذاب. إذا كان ذلك ضمن إمكاناتك، فاستعن بمصمّم محترف لصقل واجهة تطبيقك أو موقعك الإلكتروني، فضلا عن شعار مؤسستك وموادها الترويجية. يمكن للتصميم أن يكون بالفعل نقطة فارقة بين النجاح والفشل. لا تهمله!
 
-- People like cute things! Make your app and content cute! Additionally, this helps to make technically-intimidating projects feel more accessible to newcomers and beginners.
+- للأشياء اللطيفة وقع محبب لدى الناس! امنح تطبيقك ومحتواك طابعا لطيفا ومحببا! كما أن ذلك يساعد على تقريب المشاريع التقنية المعقدة من المستخدمين الجدد والمبتدئين، وجعلها أقل رهبةً لهم.
 
-- Use good design to reinforce your privacy features or topics. Visual elements can be great assets to bring more attention to your product or content, and to highlight important privacy features in your application. Use design to guide users instinctively towards good privacy. And use design to make the information you share on your website or other content easier to digest.
+- اجعل التصميم الجيد وسيلة لتعزيز رسائلك ومزاياك المتعلقة بالخصوصية. قد تسهم العناصر المرئية بدرجة كبيرة في لفت الانتباه إلى منتجك أو محتواك، وفي تسليط الضوء على خصائص الخصوصية المهمة داخل تطبيقك. اجعل التصميم وسيلة تقود المستخدمين بشكل طبيعي نحو حماية أفضل لخصوصيتهم. واستعن بالتصميم لجعل المعلومات التي تقدمها عبر موقعك الإلكتروني أو غيره من المحتوى أكثر سهولة في الفهم والاستيعاب.
 
-- Make sure your application or website isn't just cute and privacy-positive, but also _functional_. Without good user experience, you will not be able to retain the users or readers you have managed to attract with cuteness or privacy, and people will move back to their old bad habits.
+- تأكد من أن تطبيقك أو موقعك الإلكتروني لا يقتصر على كونه جذابا ومراعيا للخصوصية، بل يؤدي وظيفته بكفاءة أيضا. من دون تجربة مستخدم جيدة، لن تتمكن من الاحتفاظ بالمستخدمين أو القراء الذين نجحت في جذبهم من خلال الجاذبية أو الخصوصية، وسيعود الناس إلى عاداتهم القديمة السيئة.
 
 </div>
 
-## More resources
+## المزيد من المصادر
 
 - [Why are cute objects so seductive (_Laura Sabau Tatar_)](https://uxdesign.cc/why-are-cute-objects-so-seductive-8de1c58bd47c)
 

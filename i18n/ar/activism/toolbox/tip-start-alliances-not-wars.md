@@ -51,7 +51,7 @@ Here are a few ideas to start building alliances within the privacy community:
 
 - **Get familiar** with what your allies are working on. Think about ways their mission might be compatible with yours.
 
-- **Reach out** to your allies and [amplify their voices](tip-lift-your-allies-up.md) whenever you can. Boost them up! 📣
+- **Reach out** to your allies and [amplify their voices](tip-lift-your-allies-up.md) whenever you can. ارفع من معنوياتهم! 📣
 
 - **Participate** in local events where you might be able to meet allies in-person, if this is something you can afford and do safely.
 

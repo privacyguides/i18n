@@ -1,13 +1,13 @@
 ---
-title: Beware of Privacy Snake Oil
+title: كيف تحمي نفسك من وعود الخصوصية الكاذبة
 description: In your privacy advocacy, it's important to recommend tools that reliably protect your and other people's privacy. Learn how to evaluate privacy claims.
 icon: fontawesome/solid/skull-crossbones
 cover: activism/banner-toolbox-tip-snakeoil.webp
 ---
 
-In your privacy advocacy, it's essential to use and recommend tools that _reliably_ protect privacy. For this, you need to **investigate and remain highly skeptical** of any dangerous or unproven marketing claims.
+خلال رحلتك في الدفاع عن الخصوصية، من المهم جدا أن تستخدم وتنصح بأدوات توفر حماية حقيقية وموثوقة للجميع. وللقيام بذلك، من المهم أن تبحث بدقة خلف الوعود التسويقية، وأن تتعامل بشيء من الحذر والشك مع أي ادعاءات غير مثبتة أو قد تبدو مبالغا فيها.
 
-Here's how to evaluate privacy claims, and recommend tools that are trustworthy:
+اكتشف المزيد حول كيفية التأكد من وعود الخصوصية، لكي تتمكن من اختيار واقتراح الأدوات التي تستحق الثقة فعلا:
 
 ## Why is there so much privacy snake oil?
 
@@ -47,13 +47,13 @@ Here are some red flags you should always keep in mind when evaluating a privacy
 
 <div class="emoji-list-a" markdown>
 
-- [**Conflict of interest**](https://www.privacyguides.org/articles/2025/09/03/red-and-green-privacy-flags/#conflict-of-interest): Is the source that is telling you this product is trustworthy independent of the company or parent-company that owns this product?
+- [**Conflict of interest**](https://www.privacyguides.org/articles/2025/09/03/red-and-green-privacy-flags/#conflict-of-interest): Is the source that is telling you this product is trustworthy independent of the company or parent-company that owns this product؟
 
 - [**Biased reviews**](https://www.privacyguides.org/articles/2025/09/03/red-and-green-privacy-flags/#fake-reviews): Is the review recommending this product truly independent, or has it received sponsorship money? Was the review AI-generated?
 
 - [**Meaningless attestations**](https://www.privacyguides.org/articles/2025/09/03/red-and-green-privacy-flags/#meaningless-privacy-compliance-badges): Are claims of privacy law compliance or trustworthiness supported by external sources, or do they only come from the organization itself?
 
-- [**Buzzword language**](https://www.privacyguides.org/articles/2025/09/03/red-and-green-privacy-flags/#buzzword-language): Is the advertising and description of the product using a lot of privacy buzzwords like "military-grade encryption" or "AI-powered"?
+- [**Buzzword language**](https://www.privacyguides.org/articles/2025/09/03/red-and-green-privacy-flags/#buzzword-language): Is the advertising and description of the product using a lot of privacy buzzwords like "military-grade encryption" or "AI-powered"؟
 
 - [**Unsupported claims**](https://www.privacyguides.org/articles/2025/09/03/red-and-green-privacy-flags/#checkbox-compliance-and-copy-paste-policies): Are the product's claims supported by documentation and detailed descriptions? It's not enough to write "end-to-end encrypted." This claim should be supported by a detailed account of _how_ the data is end-to-end encrypted, including which protocols and algorithms it is using.
 

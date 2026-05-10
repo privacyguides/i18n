@@ -1,37 +1,37 @@
 ---
-title: Lift Your Allies Up
-description: The battle for privacy rights is difficult, and its defenders are scattered. This is why it's essential to support and uplift each other, every time we can.
+title: كن سندا لمجتمعك
+description: المعركة من أجل حقوق الخصوصية صعبة، والمدافعون عنها غالبا ما يكونون متفرقين. ولهذا السبب، من الضروري أن ندعم ونشجع بعضنا البعض في كل فرصة تتاح لنا.
 icon: fontawesome/solid/hand-holding-hand
 cover: activism/banner-toolbox-tip-lift.webp
 ---
 
 أحيانا، قد تشعر أن مجتمع المهتمين بالخصوصية هو مجتمع صغير ومنعزل عن البقية.
 
-The battle for privacy rights is difficult, and its defenders are scattered and spread out all around the world. This is why it's essential that we **support and uplift each other**, every time we can.
+إن المعركة من أجل حقوق الخصوصية صعبة، والمدافعون عنها متفرقون ومنتشرون في جميع أنحاء العالم. ولهذا السبب، من الضروري أن \*\* ندعم ونشجع بعضنا البعض\*\* في كل فرصة تتاح لنا.
 
-Here's how you can lift your allies up, and help to grow the movement:
+إليك كيف يمكنك دعم حلفائك، والمساعدة في تنمية الحركة:
 
-## Your allies share your goals
+## حلفاؤك يشاركونك أهدافك
 
-It's easy to get lost in our own niche advocacy, and lose track of what others in our community are working on.
+من السهل جدا أن ننغمس في نطاق مناصرتنا الضيق، وأن يغيب عن بالنا ما يبذله الآخرون في مجتمعنا من جهود.
 
-Nevertheless, if we want to [**build a movement**](tip-start-alliances-not-wars.md) (and to succeed, we must) we need all the help we can get, from every person and organization sharing our values.
+ومع ذلك، إذا أردنا [بناء حركة](tip-start-alliances-not-wars.md) (ولكي ننجح، يجب علينا ذلك)، فإننا بحاجة إلى كل مساعدة يمكننا الحصول عليها، من كل شخص ومنظمة تشاركنا قيمنا.
 
-- [x] Whenever you see an organization with a campaign compatible with your mission, lift them up!
+- [x] كلما رأيت منظمة لديها حملة تتوافق مع مهمتك، فبادر بدعمها!
 
-- [x] Even if you are an organization yourself, lift others up too!
+- [x] حتى وإن كنت أنت نفسك منظمة، فبادر بدعم الآخرين أيضاً!
 
-- [x] Even if you are also working on a similar project, lift them up with you!
+- [x] حتى وإن كنت تعمل أيضا على مشروع مشابه، فبادر بدعمهم ليرتقوا معك!
 
-It doesn't matter if you are working on something comparable yourself, or if perhaps you would word their work slightly differently.  As long as the message is aligned with your mission and values, spread the words of your allies loud and far!
+لا يهم إن كنت تعمل بنفسك على شيء مشابه، أو إن كنت ربما ستصوغ عملهم بطريقة مختلفة قليلًا.  ما دامت الرسالة منسجمة مع رسالتك وقيمك، فانشر كلمات حلفائك على نطاق واسع وبصوت واضح!
 
-By lifting each other up, we will broaden the reach of the message we share, and ultimately this serves our goals and our community too.
+بدعم بعضنا لبعض، نستطيع توسيع مدى وصول رسالتنا المشتركة، وهو ما يصب في النهاية في مصلحة أهدافنا ومجتمعنا أيضا.
 
-In privacy advocacy, we truly need to adopt the mindset: ==The more, the merrier.==
+في مناصرة الخصوصية، نحن بحاجة فعلية إلى تبني مبدأ: ==كلما ازداد المشاركون، ازداد الخير.==
 
-## Concrete ways to support and lift your allies up
+## طرق عملية لدعم حلفائك والارتقاء بهم
 
-There are infinite ways to lift your allies up. Here are some ideas to get you started, whether you are an independent advocate, a digital rights organization, or a privacy-focused business:
+لا تنفد السبل التي يمكنك من خلالها دعم حلفائك ورفع شأنهم. إليك بعض الأفكار التي تساعدك على البدء، سواء كنت مناصرا مستقلا، أو منظمة معنية بالحقوق الرقمية، أو شركة تركز على الخصوصية:
 
 <style>
 .emoji-list-a ul {
@@ -40,26 +40,26 @@ There are infinite ways to lift your allies up. Here are some ideas to get you s
 @counter-style emoji-list-a {
   system: fixed;
   symbols: "👍" "✍️" "💛" "🤝" "🙌" "✊";
-  suffix: "  ";
+  suffix: "  "؛
 </style>
 
 <div class="emoji-list-a" markdown>
 
-- When an organization or business sharing you values starts a campaign, repost them on social media. Additionally, you can quote them or write about it yourself, while linking to their profile and campaign. Boost them up!
+- إذا أطلقت منظمة أو شركة تتقاسم معك القيم نفسها حملةً، فادعمها بإعادة نشرها على منصات التواصل الاجتماعي. إضافة إلى ذلك، يمكنك مشاركة اقتباس من كلامهم أو كتابة منشورك الخاص عن الحملة، مع تضمين روابط إلى ملفهم الشخصي وحملتهم. ارفع من معنوياتهم!
 
-- If you are a writer, regularly link to material created by other trustworthy organizations and people sharing your values, while giving them credit.
+- إذا كنت كاتبا، فاحرص بانتظام على الإشارة إلى مواد أنشأتها منظمات وأشخاص موثوقون يشاركونك القيم نفسها، مع نسب الفضل إليهم.
 
-- When an individual creates material favorable to your organization or project, take the time to repost them and thank them. This is bringing more people to your cause, without any work on your side!
+- عندما ينشئ أحد الأفراد مادةً داعمة لمنظمتك أو مشروعك، فخصص وقتا لإعادة نشرها وشكره. هذا يجذب مزيدا من الناس إلى قضيتك، من دون أي جهد من جانبك!
 
-- Change your mindset from competition to collaboration. See your peers as people fighting by your side. Whenever they win, you win too. Congratulate them on their successes, and support them in times of need.
+- غير طريقة تفكيرك من المنافسة إلى التعاون. اعتبر أقرانك رفاقا في النضال، لا خصوما لك. كلما حققوا نجاحا، كان ذلك نجاحا لك أيضا. هنئهم على نجاحاتهم، وساندهم في أوقات الحاجة.
 
-- When you see that your allies need help with an expertise you have, try to offer your time and resources if you can afford it.
+- إذا لاحظت أن حلفاءك بحاجة إلى خبرة تمتلكها، فحاول أن تعرض عليهم وقتك ومواردك متى كان ذلك في مقدورك.
 
-- When reaching out to your community, talk about your allies' work as well, and help people discover new resources. Everyone has different ways to absorb new information. Perhaps you can help others find resources that are more compatible with their needs, even if it's not your material. You are not losing a member when you refer people externally, you are winning, because you are contributing to grow the movement.
+- حين تخاطب مجتمعك، احرص كذلك على إبراز أعمال حلفائك ومساعدة الناس على التعرّف إلى مصادر جديدة. لكل فرد أسلوبه الخاص في تلقي المعلومات الجديدة وفهمها. ربما يمكنك مساعدة الآخرين على العثور على مصادر أكثر توافقا مع احتياجاتهم، حتى لو لم تكن من إعدادك. لن تخسر فردا من مجتمعك حين ترشد الناس إلى مصادر خارجية؛ بل ستربح، لأنك تسهم في ازدهار الحركة وانتشارها.
 
 </div>
 
-## More resources
+## المزيد من المصادر
 
 - [Bits of Freedom & Privacy Guides partnership announcement (_Privacy Guides_)](https://www.privacyguides.org/posts/2025/10/08/privacy-guides-bits-of-freedom-partnering-to-enhance-fixjeprivacy-nl/)
 

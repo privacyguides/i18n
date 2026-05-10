@@ -37,11 +37,11 @@ cover: activism/banner-toolbox-tip-kind.webp
 
 \==لإحداث تغييرات جوهرية في المؤسسات والشركات، يجب أن تكون رسالتك قوية وواضحة.==
 
-يجب عليك السعي لاستمالة أكبر عدد ممكن من الأفراد والمنظمات الحليفة لقضيتك، وأن تكون مسموع الصوت لأقصى حد في وسائل الإعلام. Your campaign must be powerful enough to grab media's attention, and to send a firm message that the people want change and will not back down.
+يجب عليك السعي لاستمالة أكبر عدد ممكن من الأفراد والمنظمات الحليفة لقضيتك، وأن تكون مسموع الصوت لأقصى حد في وسائل الإعلام. ليكن لحملتك من القوة ما يسترعي انتباه الإعلام، ويحمل رسالة قاطعة بأن الناس قد عزموا على التغيير ولن يثنيهم عنه شيء.
 
-Each time your message is ignored, and the abuse continues, **shout louder** (metaphorically). Bring even _more_ people to the cause, until the popular discontent is so strong that they have no choice but to stop the abuse.
+في كل مرة يتم فيها تجاهل رسالتك، ويستمر الانتهاك، **ارفع صوتك** أكثر (بالمعنى المجازي). استقطب المزيد من الناس لقضيتك، حتى يصبح السخط الشعبي قويا لدرجة لا تترك لهم خياراً سوى إيقاف هذه الانتهاكات.
 
-## More resources
+## المزيد من المصادر
 
 - [Rich resource for campaign strategy and community organizing (The Commons Social Change Library)](https://commonslibrary.org/)
 
