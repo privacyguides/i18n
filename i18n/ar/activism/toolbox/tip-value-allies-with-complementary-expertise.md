@@ -1,41 +1,41 @@
 ---
-title: Value Allies with Complementary Expertise
-description: In privacy like everywhere else, diversity is a strength. If you want your community to have a broad set of skills, you need to value a diversity of expertises.
+title: قدر الحلفاء ذوي الخبرات المكملة
+description: في مجال الخصوصية، كما هو الحال في كل مكان آخر، يُعتبر التنوع نقطة قوة. إذا أردت أن يتمتع مجتمعك بمجموعة واسعة من المهارات، فيجب عليك أن تقدر تنوع الخبرات.
 icon: fontawesome/solid/circle-half-stroke
 cover: activism/banner-toolbox-tip-complement.webp
 ---
 
-In privacy, like in other areas of life, **diversity is an incredible strength**. If you want your community to have a broad understanding of threat models, and be able to address issues on multiple levels, you need to value a diversity of expertises.
+في مجال الخصوصية، كما في مجالات الحياة الأخرى، **التنوع هو قوة مذهلة**. لكي يمتلك مجتمعنا وعياً شاملاً بالمخاطر الرقمية ويكون قادرا على مواجهتها من زوايا مختلفة، علينا أن نؤمن بأن كل خبرة متنوعة هي إضافة حقيقية وقيمة لنا.
 
-Gathering people with a wide range of skills and experiences in your community is critical to effective work. People with different skill sets and lived experiences will together be able to reach out to a broader audience, and provide much more accurate and useful advice covering a variety of situations.
+إن جمع أشخاص ذوي نطاق واسع من المهارات والخبرات في مجتمعك هو أمر بالغ الأهمية للعمل الفعال. سيكون الأشخاص ذوو المهارات والتجارب الحياتية المختلفة قادرين معاً على الوصول إلى جمهور أوسع، وتقديم نصائح أكثر دقة وفائدة تغطي مجموعة متنوعة من المواقف.
 
-Here's how to recognize, respect, and retain experts with skills that are different to your own:
+إليك كيفية التعرف على الخبراء ذوي المهارات المختلفة عن مهاراتك، واحترامهم، والاحتفاظ بهم:
 
-## Recognize people with different skills
+## تعرّف على الأشخاص ذوي المهارات المختلفة
 
-Privacy is a vast multidisciplinary field. It doesn't just encompass the privacy technologies we use to protect our data, but also the laws that determine the legality of the tools and practices we use. Furthermore, the culture plays an essential role in our fight for better rights, despite being often a neglected aspect of privacy.
+الخصوصية هي مجال واسع متعدد التخصصات. فهو لا يقتصر على تقنيات الخصوصية التي نستخدمها لحماية بياناتنا فحسب، بل يشمل أيضا القوانين التي تحدد قانونية الأدوات والممارسات التي نتبعها. علاوة على ذلك، تلعب الثقافة دورا أساسيا في نضالنا من أجل حقوق أفضل، على الرغم من كونها في كثير من الأحيان جانبا مهملا من جوانب الخصوصية.
 
-Being an expert in privacy can mean so many things. No two specialists have the same knowledge.
+أن تكون خبيراً في الخصوصية يمكن أن يعني أشياء كثيرة. لا يوجد متخصصان يمتلكان المعرفة ذاتها.
 
-Whatever your own privacy expertise might be, make sure to always stay aware of the [bigger picture](tip-keep-in-mind-the-whole-landscape.md), and recognize that other privacy specialists might have knowledge entirely different from yours. Your knowledge might intersect, or you might not share any at all.
+مهما كانت خبرتك الخاصة في مجال الخصوصية، تأكد دائما من البقاء على دراية بـ [الصورة الأكبر](tip-keep-in-mind-the-whole-landscape.md)، وأدرك أن متخصصي الخصوصية الآخرين قد يمتلكون معرفة مختلفة تماما عن معرفتك. قد تتقاطع معرفتكم، أو قد لا تتشاركون أي شيء على الإطلاق.
 
-This doesn't mean they are any less valuable. On the contrary, this ==diversity of knowledge gives us the best chance to succeed== in our common cause.
+وهذا لا يعني أبدا أنهم أقل قيمة. على العكس من ذلك، فإن هذا ==التنوع في المعرفة يمنحنا أفضل فرصة للنجاح== في قضيتنا المشتركة.
 
-## Respect people with different knowledge
+## احترم الأشخاص ذوي المعرفة المختلفة
 
-It's easy to fall in the trap of staying with our own group of peers who share the same knowledge as ours and discard the others. Unfortunately, this attitude is detrimental to our movement.
+من السهل الوقوع في فخ البقاء مع مجموعتنا من الأقران الذين يشاركوننا المعرفة ذاتها وتجاهل الآخرين. للأسف، هذا الموقف ضار بحركتنا.
 
-As a privacy activist, it's essential to **develop respect** for privacy advocates who specialize in privacy-related knowledge other than your own. You need them to fight _with_ you, and they need you to fight with them.
+بصفتك ناشطا في مجال الخصوصية، من الضروري أن **تُطور احترامك** لدعاة الخصوصية المتخصصين في معارف متعلقة بالخصوصية تختلف عن معارفك. أنت بحاجة إليهم _ليناضلوا_ معك، وهم بحاجة إليك لتناضل معهم.
 
-Pay attention to the people in your groups that might be pushed aside because their area of expertise is different from the majority that are present. Try to make them feel respected and included in your groups and communities. Engage with them positively when they contribute, even if you don't understand their specialty.
+انتبه للأشخاص في مجموعاتك الذين قد يتم تهميشهم لأن مجال خبرتهم يختلف عن الأغلبية الحاضرة. حاول أن تجعلهم يشعرون بالاحترام والاندماج في مجموعاتك ومجتمعاتك. تفاعل معهم بشكل إيجابي عندما يشاركون، حتى لو كنت لا تفهم تخصصهم.
 
-If you specialize in technical tools, value people with legal and social knowledge and be public about your respect for these specialties. Conversely, if you are a privacy lawyer, bring technical or cultural experts to your groups, and value their roles working for our common cause.
+إذا كنت متخصصا في الأدوات التقنية، فقدر الأشخاص ذوي المعرفة القانونية والاجتماعية، وكن علنياً في احترامك لهذه التخصصات. وعلى العكس من ذلك، إذا كنت محاميا في مجال الخصوصية، فاجذب الخبراء التقنيين أو الثقافيين إلى مجموعاتك، وقدر أدوارهم في العمل من أجل قضيتنا المشتركة.
 
-## Retain specialists that are different
+## حافظ على المتخصصين المختلفين
 
-**Inclusivity is key** to retaining newcomers in your groups and communities. People who are new or different from the majority of the group should feel welcome and valued.
+تظل **سياسة الاحتواء هي المفتاح** لضمان استمرار الوافدين الجدد ضمن أوساطك ومجتمعاتك. يجب أن يشعر الأشخاص الجدد أو المختلفون عن أغلبية المجموعة بأنهم مرحب بهم ومقدرون.
 
-Work on developing your awareness of these dynamics in your groups. Try to improve your empathy skills, and [support better your privacy comrades](tip-support-your-privacy-comrades.md), especially those who might be different from the majority because of their expertise, demographic, or location. Reach out to them in private to make them feel welcome. Praise them publicly when they contribute in a way you like. [Give credit where credit is due](tip-give-credit-where-credit-is-due.md).
+اعمل على تطوير وعيك بهذه الديناميكيات في مجموعاتك. حاول تحسين مهارات التعاطف لديك، و[ادعم رفاقك في مجال الخصوصية بشكل أفضل](tip-support-your-privacy-comrades.md)، خاصة أولئك الذين قد يختلفون عن الأغلبية بسبب خبرتهم أو ديموغرافيتهم أو موقعهم. Reach out to them in private to make them feel welcome. Praise them publicly when they contribute in a way you like. [Give credit where credit is due](tip-give-credit-where-credit-is-due.md).
 
 If you organize an event or hire people, make sure to fairly compensate all your contributors. Pay special attention to make sure people with different expertises or demographics aren't always the ones who have to work as volunteers.
 
