@@ -1,23 +1,23 @@
 ---
-title: Give Credit Where Credit Is Due
-description: To succeed with our movement to defend privacy rights, we must support each other. One good way to do this is to give credit where credit is due.
+title: إعطاء كل ذي حق حقه
+description: لكي ننجح معا في حركتنا للدفاع عن حقوق الخصوصية، علينا أن ندعم بعضنا بعضا. وخير وسيلة لدعم بعضنا هي ألا ننسى أبدا أن ننسب الفضل لأصحابه ونقدر مجهود من ساعدنا.
 icon: fontawesome/solid/thumbs-up
 cover: activism/banner-toolbox-tip-credit.webp
 ---
 
-To succeed in our battle, we must **support each other**. One good way to accomplish this is to never forget to give credit where credit is due. When another advocate or organization says something you agree with, boost them up, spread their reach, and thank them publicly.
+حتى ننجح في هذا النضال، لا بد أن **نساند بعضنا بعضا**. ومن الطرق الجيدة لتحقيق ذلك ألا ننسى أبدا نسب الفضل إلى أهله. إذا عبر مناصر أو منظمة أخرى عن فكرة توافق عليها، فساعد على إبراز صوتهم، ونشر رسالتهم، وتوجيه الشكر لهم على الملأ.
 
-Here are a few ways you can help your allies feel seen and valued:
+فيما يلي بعض الوسائل التي تساعدك على إشعار حلفائك بأن جهودهم ملحوظة ومحل تقدير:
 
-## Why crediting people and organization is important
+## لماذا يُعد نسب الفضل إلى الأشخاص والمنظمات أمرا مهما
 
-Giving credit to the right person or organization isn't only the ethical thing to do, it's also a way to **build alliances**, to bring more people to the cause, and to retain the allies you already have.
+لا يقتصر إسناد الفضل إلى صاحبه، فردا كان أو منظمة، على كونه واجبا أخلاقيا؛ بل يساعد أيضا على بناء التحالفات، وتوسيع دائرة المؤيدين للقضية، والحفاظ على الحلفاء القائمين.
 
-When people feel valued, they are usually inclined to work harder. People are also more likely to stick around places where they feel seen and appreciated. This is incredibly important for our movement.
+إذا شعر الناس بأن جهودهم مقدرة، فإن ذلك يدفعهم غالبا إلى العمل بمزيد من الاجتهاد. ومن المرجح كذلك أن يبقى الناس في الأماكن التي يشعرون فيها بأنهم موضع اهتمام وتقدير. هذا أمر بالغ الأهمية لحركتنا.
 
-When giving credit to organizations, you are also making a whole team feel valued. Organizations are made of people, after all. Caring about the people who work hard at your allied organizations is fundamental to build our movement.
+حين تمنح التقدير لمنظمة ما، فأنت في الوقت نفسه تجعل فريقا كاملا يشعر بأن جهوده محل تقدير. فالمنظمات، في نهاية المطاف، تتكون من أشخاص. الاهتمام بمن يعملون بجد في المنظمات المتحالفة معنا يُعد ركيزة أساسية في بناء حركتنا.
 
-## Ways to credit your allies in your advocacy work
+## طرق نسب الفضل إلى حلفائك في عملك المناصر للقضية
 
 <style>
 .emoji-list-a ul {
@@ -26,29 +26,29 @@ When giving credit to organizations, you are also making a whole team feel value
 @counter-style emoji-list-a {
   system: fixed;
   symbols: "💬" "🔗" "👍" "🙌" "💛" "😊" "🏆";
-  suffix: "  ";
+  suffix: "  "؛
 </style>
 
 <div class="emoji-list-a" markdown>
 
-- **Quote** your allies' work in your own content and material. Make sure to always credit their name and link to their external resources when you do.
+- **استشهد** بأعمال حلفائك ضمن المحتوى والمواد التي تنشئها. عند فعل ذلك، احرص على نسب العمل إليهم بذكر أسمائهم وإضافة روابط إلى مصادرهم الخارجية.
 
-- **Link** to your allies' resources on your own platforms. Give them credit for their work, and encourage your own audience to consult your allies' material.
+- عرّف جمهورك بالمصادر الخاصة بـ حلفائك عبر منصاتك الخاصة. قدر جهودهم، وادعوا جمهورك إلى الاطلاع على مواد حلفائك والاستفادة منها.
 
-- **Support** your allies publicly on social media. Repost their content to increase their reach. Post about them while tagging them, to encourage your circle to follow them as well. Reply to their posts thanking them for their hard work for the cause.
+- **أظهر** دعمك لحلفائك على منصات التواصل الاجتماعي. شارك محتواهم من جديد حتى يصل إلى عدد أكبر من الناس. تحدث عنهم في منشوراتك واذكر حساباتهم، حتى تشجع من حولك على متابعتهم. اكتب لهم تعليقا لطيفا تشكرهم فيه على ما يبذلونه من جهد من أجل القضية.
 
-- **Reach out** to offer your help on their projects, whenever you have the resources to do so.
+- **تواصل معهم** لتسأل كيف يمكنك المساعدة في مشاريعهم، متى كان ذلك ضمن إمكاناتك.
 
-- **Thank** your allies publicly when working with a group, whether it's for paid or volunteer work. Make the members of your group feel recognized and valued individually.
+- **لا تنسَ أن تشكر** حلفاءك على الملأ عند العمل مع فريق، سواء كان التعاون مدفوعا أو تطوعيا. احرص على أن يشعر كل عضو في مجموعتك بأنه محل تقدير واهتمام.
 
-- **Attribute** the work of each contributor to the name they have agreed to share publicly, depending on the platform you use. Ask first how they prefer to be credited, but do not forget to credit them.
+- **اذكر اسم كل مساهم** بالطريقة التي وافق على إظهارها للعلن، وفقا للمنصة التي تنشر عليها. ابدأ بسؤالهم عن الطريقة التي يفضلون أن يُذكروا بها، ولا تنسَ نسب الفضل إليهم.
 
-- **Nominate** your allies for rewards/awards if the opportunity arises, and make sure to add your vote to support them.
+- إذا أتيحت الفرصة، فاقترح حلفاءك لنيل الجوائز أو التقدير، ولا تنسَ أن تصوت لهم دعما لجهودهم.
 
 </div>
 
-## More resources
+## المزيد من المصادر
 
 - [3 ways to use recognition to boost performance and engagement (_HumanResourceMag_)](https://www.humanresourcemag.com/news/277/3-ways-to-use-recognition-to-boost-performance-and-engagement)
 
-- [The fine line between teamwork and taking credit: Why recognition matters (_Gwendolyn F. McGraw_)](https://blog.gwendolynmcgraw.net/2025/07/12/the-fine-line-between-teamwork-and-taking-credit-why-recognition-matters/)
+- [The fine line between teamwork and taking credit: Why recognition matters (_Gwendolyn F. McGraw_)](https://blog.gwendolynmcgraw.net/2025/07/12/the-fine-line-between-teamwork-and-taking-credit-why-recognition-matters/)

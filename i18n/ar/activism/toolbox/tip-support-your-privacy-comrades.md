@@ -1,53 +1,53 @@
 ---
-title: Support Your Privacy Comrades
-description: الدفاع عن حقوق الخصوصية هو جهد جماعي مشترك. هذه المعركة قد تكون صعبة وتشعرك بالعزلة أحيانا. That's why it's critical to care for each other.
+title: ادعم زملائك المدافعين عن الخصوصية
+description: الدفاع عن حقوق الخصوصية هو جهد جماعي مشترك. هذه المعركة قد تكون صعبة وتشعرك بالعزلة أحيانا. ولهذا السبب، من الضروري جدا أن نهتم ببعضنا البعض.
 icon: fontawesome/solid/hand-holding-heart
 cover: activism/banner-toolbox-tip-support.webp
 ---
 
-Fighting for better privacy rights, privacy tools, and privacy practices is a collective endeavor. لا يمكنك القيام بذلك بمفردك. كل من يساهم من حولك يخوض المعركة نفسها إلى جانبك. This battle _can_ be difficult and isolating at times. That's why it's critical to care for each other.
+إن النضال من أجل حقوق وخدمات وممارسات أفضل للخصوصية هو مسعى جماعي. لا يمكنك القيام بذلك بمفردك. كل من يساهم من حولك يخوض المعركة نفسها إلى جانبك. هذه المعركة قد تكون صعبة وتشعرك بالعزلة أحيانا. ولهذا السبب، من الضروري جدا أن نهتم ببعضنا البعض.
 
-Here are things you can do to **support your privacy comrades**:
+إليك أشياء يمكنك القيام بها لـ **دعم رفاقك في مجال الخصوصية**:
 
-## Fighting for privacy rights can be isolating in unique ways
+## إن النضال من أجل حقوق الخصوصية قد يكون مسببا للعزلة بطرق فريدة
 
-We live in a world of social connections. Regrettably, when we moved these connections online, we also gave power to large corporations to monitor and monetize our social relationships and communications.
+إننا نعيش في عالم قوامُه الروابط الاجتماعية. ومع الأسف، عندما نقلنا هذه الروابط إلى الإنترنت، منحنا أيضا الشركات الكبرى سلطة مراقبة علاقاتنا واتصالاتنا الاجتماعية والتربح منها.
 
-Many privacy advocates will choose, rightly so, to completely [leave](tip-migrate-outside-the-surveillance-ecosystem.md) those abusive platforms. Sadly, a side effect of this is often severed relationships with loved ones, who refuse to join us on better, privacy-respectful environments. It's unfortunately common to lose friends when we quit Facebook, or refuse to join a Discord server. Taking a stand for our privacy values can come at the cost of some painful social losses.
+سيختار الكثير من المدافعين عن الخصوصية، وبحق، أن [يغادروا](tip-migrate-outside-the-surveillance-ecosystem.md) تلك المنصات المسيئة تماماً. وللأسف، غالبا ما يكون الأثر الجانبي لذلك هو انقطاع العلاقات مع الأحباء الذين يرفضون الانضمام إلينا في بيئات أفضل تحترم الخصوصية. من الشائع للأسف أن نفقد أصدقاءنا عندما نغادر فيسبوك، أو نرفض الانضمام إلى خادم ديسكورد. إن اتخاذ موقف دفاعا عن قيم الخصوصية لدينا قد يأتي على حساب بعض الخسائر الاجتماعية المؤلمة.
 
-Moreover, fighting to protect privacy rights while reading about attacks on those rights every day in the news can be draining.
+علاوة على ذلك، قد يكون النضال من أجل حماية حقوق الخصوصية، مع قراءة الأخبار اليومية عن الاعتداءات على تلك الحقوق، أمرا مُرهقا.
 
-Most advocates have experienced moments of great discouragement, and feelings of helplessness while facing the magnitude of the task at hand. ==Social support is a matter of survival== to recharge and continue this long battle for human rights.
+عانى أغلب المناصرين في وقت ما من إحباط كبير، ومن شعور بالعجز أمام جسامة المهمة التي يواجهونها. ==إن الدعم الاجتماعي ضرورة لا غنى عنها للاستمرار؛== فهو يعيننا على تجديد طاقتنا ومواصلة هذا النضال الطويل في سبيل حقوق الإنسان.
 
-This is why we must work to rebuild communities of our own. Supportive privacy communities that are [kind](tip-be-kind-to-people-but-be-relentless-with-institutions.md), [inclusive](tip-keep-your-posts-and-community-inclusive.md), and [accessible](tip-be-mindful-of-accessibility.md).
+من هنا تأتي ضرورة العمل على إعادة بناء مجتمعاتنا بأنفسنا. مجتمعات خصوصية حاضنة، تتّسم [بالرفق](tip-be-kind-to-people-but-be-relentless-with-institutions.md) و[الشمول](tip-keep-your-posts-and-community-inclusive.md) و[تيسير الوصول](tip-be-mindful-of-accessibility.md).
 
-## Stay vigilant to spot signs of distress and fatigue
+## ابق يقظا لرصد علامات الضيق والإرهاق
 
-Whether you are participating in a [privacy-oriented forum](https://discuss.privacyguides.net/) or reading posts and replies of your privacy comrades on social media, pay attention to potential signs of distress.
+سواء كنت منخرطا في [منتدى يعنى بالخصوصية](https://discuss.privacyguides.net/)، أو تطالع منشورات زملائك المدافعين عن الخصوصية وتعليقاتهم على منصات التواصل الاجتماعي، فاحرص على ملاحظة مؤشرات الضيق المحتملة.
 
-Some people will periodically take time off from the internet to rest, which can be very healthy at time. But others might isolate from fatigue and discouragement. Keep your eyes open, and try to develop your compassion whenever you read comments that could be a clue someone is at the end of their rope, and in need of support.
+قد يأخذ بعض الناس من حين لآخر استراحة من الإنترنت للراحة، وهذا قد يكون صحيا جدا في بعض الأحيان. لكن آخرين قد يلجؤون إلى العزلة نتيجة الشعور بالإرهاق وخيبة الأمل. كن يقظا، واسعى إلى تعزيز تعاطفك عندما تصادف تعليقات قد تدل على أن أحدهم وصل إلى حد الإنهاك وبات بحاجة إلى المساندة.
 
-## Help whenever you can
+## ساعد كلما استطعت
 
-Here are a few things you can do to support your privacy comrades in times of need:
+إليك بعض الأمور التي يمكنك فعلها لدعم رفاقك في مجال الخصوصية في أوقات الحاجة:
 
-- [x] Work on strengthening your empathy skills, and demonstrate more compassion. This is a superpower to take care of your community.
+- [x] احرص على تنمية مهاراتك في التعاطف، وأبدِ قدرا أكبر من التفهّم والرحمة. إنها قدرة استثنائية تمكنك من الاعتناء بمجتمعك.
 
-- [x] Tell them you understand this is difficult, and that you are here to help if they need support.
+- [x] أكد لهم أنك تدرك مدى صعوبة ما يمرون به، وأنك هنا لدعمهم إذا احتاجوا إلى ذلك.
 
-- [x] Ask if they would like to talk more about their difficulties in private.
+- [x] اسألهم ما إذا كانوا يودّون مناقشة ما يمرّون به من صعوبات في محادثة خاصة.
 
-- [x] Offer your time to talk with them on a privacy-respectful chat, audio, or video call, if this is something you are comfortable doing.
+- [x] يمكنك أن تعرض وقتك للحديث معهم عبر وسيلة تواصل تحترم الخصوصية، سواء كانت محادثة نصية أو مكالمة صوتية أو مرئية، إن كنت مرتاحا لذلك.
 
-- [x] Invite them to join your community or group of like-minded people, if you think they might be a good fit.
+- [x] إذا كنت تعتقد أنهم قد ينسجمون مع مجتمعك، فادعهم إلى الانضمام إليه أو إلى مجموعة من أصحاب الاهتمامات والقيم المشتركة.
 
-- [x] Organize a group or event to socialize with your privacy comrades regularly, offline or online, in a privacy-respectful way.
+- [x] نظم لقاءات منتظمة، حضورية أو افتراضية، للتواصل مع رفاقك المعنيين بالخصوصية ضمن بيئة تراعي الخصوصية.
 
-- [x] Depending on circumstances (and only if they might be open to it), refer them to a helpful resource in private. However, be careful not to fall into [the advice trap](https://www.psychologytoday.com/us/blog/the-questionologist/202103/how-guide-people-without-giving-advice), unless they specifically asked for advice.
+- [x] بحسب الظروف، وفقط إذا بدا أنهم قد يتقبلون ذلك، أرشدهم إلى مصدر مفيد على انفراد. ومع ذلك، احرص على ألا تقع في فخ [تقديم النصائح](https://www.psychologytoday.com/us/blog/the-questionologist/202103/how-guide-people-without-giving-advice)، ما لم يطلبوا النصيحة تحديدا.
 
-- [x] Stay kind and do not take it personally if they refuse your help or disagree with your [_solicited_ advice](https://www.verywellmind.com/whats-behind-different-types-of-unsolicited-advice-3144961). Let them know the door is always open to reach out to you whenever they might need help later.
+- [x] ابق لطيفا، ولا تأخذ الأمر على محمل شخصي إذا رفضوا مساعدتك أو [خالفوا نصيحتك](https://www.verywellmind.com/whats-behind-different-types-of-unsolicited-advice-3144961) التي طلبوها منك. أخبِرهم أن باب التواصل معك مفتوح دائما إذا احتاجوا إلى المساعدة لاحقا.
 
-## More resources
+## المزيد من المصادر
 
 - [_Privacy Guides_ Forum](https://discuss.privacyguides.net/)
 

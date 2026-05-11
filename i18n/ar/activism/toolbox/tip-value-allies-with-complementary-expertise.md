@@ -35,13 +35,13 @@ cover: activism/banner-toolbox-tip-complement.webp
 
 تظل **سياسة الاحتواء هي المفتاح** لضمان استمرار الوافدين الجدد ضمن أوساطك ومجتمعاتك. يجب أن يشعر الأشخاص الجدد أو المختلفون عن أغلبية المجموعة بأنهم مرحب بهم ومقدرون.
 
-اعمل على تطوير وعيك بهذه الديناميكيات في مجموعاتك. حاول تحسين مهارات التعاطف لديك، و[ادعم رفاقك في مجال الخصوصية بشكل أفضل](tip-support-your-privacy-comrades.md)، خاصة أولئك الذين قد يختلفون عن الأغلبية بسبب خبرتهم أو ديموغرافيتهم أو موقعهم. Reach out to them in private to make them feel welcome. Praise them publicly when they contribute in a way you like. [Give credit where credit is due](tip-give-credit-where-credit-is-due.md).
+اعمل على تطوير وعيك بهذه الديناميكيات في مجموعاتك. حاول تحسين مهارات التعاطف لديك، و[ادعم رفاقك في مجال الخصوصية بشكل أفضل](tip-support-your-privacy-comrades.md)، خاصة أولئك الذين قد يختلفون عن الأغلبية بسبب خبرتهم أو ديموغرافيتهم أو موقعهم. تواصل معهم بشكل خاص لتجعلهم يشعرون بأنهم مرحب بهم. أثنِ عليهم علناً عندما يساهمون بطريقة تنال إعجابك. [اذكر الفضل لأهل الفضل] (tip-give-credit-where-credit-is-due.md).
 
-If you organize an event or hire people, make sure to fairly compensate all your contributors. Pay special attention to make sure people with different expertises or demographics aren't always the ones who have to work as volunteers.
+إذا كنت تنظم فعالية أو توظف أشخاصا، فتأكد من تعويض جميع المساهمين بشكل عادل. أولِ اهتماما خاصا للتأكد من أن الأشخاص ذوي الخبرات أو الديموغرافيات المختلفة ليسوا دائماً هم من يتعين عليهم العمل كمتطوعين.
 
-Inclusivity, empathy, support, acknowledging successes publicly, and fair compensation are all tools that will help you retain diverse specialists with expertises that are complementary to yours in your communities.
+إن الاحتواء والتعاطف والدعم والاعتراف بالنجاحات علنا والتعويض العادل، كلها أدوات ستساعدك على الاستبقاء على متخصصين متنوعين ذوي خبرات مكملة لخبراتك في مجتمعاتك.
 
-This is something that is _incredibly_ valuable in our fight for privacy rights, together.
+هذا أمر ذو قيمة _هائلة_ في نضالنا من أجل حقوق الخصوصية، معا.
 
 ## المزيد من المصادر
 
