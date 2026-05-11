@@ -8,23 +8,23 @@ hide:
 cover: activism/banner-activism.webp
 ---
 
-The **Guides and Tools for Privacy Activists** project from [_Privacy Guides_](../about.md) offers a new way to empower the digital rights community.
+يوفر مشروع أدلة إرشادية وأدوات لمناصري الخصوصية التابع لـ [_Privacy Guides_](../about.md) نهجاً جديدا لتمكين مجتمع الحقوق الرقمية.
 
-This section contains information to help you become a better defender of privacy rights, both for individuals and organizations.
+يحتوي هذا القسم على معلومات لمساعدتك على أن تصبح مدافعا أفضل عن حقوق الخصوصية، سواء للأفراد أو المنظمات.
 
-## We must fight for privacy rights collectively
+## علينا أن نناضل من أجل حقوق الخصوصية صفا واحدا
 
-Fighting to improve our privacy cannot _only_ be a matter of individual protections.
+إن الكفاح من أجل تحسين خصوصيتنا لا يمكن أن يكون _فقط_ مسألة تتعلق بالحماية الفردية.
 
-When [regulations keep attacking](https://www.privacyguides.org/articles/2025/09/08/chat-control-must-be-stopped/) the tools and services we rely on to protect our personal information, when corporations [exploit our data](../basics/common-threats.md/#surveillance-as-a-business-model) more aggressively every day, and when platforms exponentially [erode online pseudonymity](https://www.privacyguides.org/articles/2025/10/15/real-name-policies/), we must broaden our reach to fight for our rights.
+حين [تواصل القوانين هجومها على](https://www.privacyguides.org/articles/2025/09/08/chat-control-must-be-stopped/) الأدوات والخدمات التي نركن إليها لحفظ بياناتنا الشخصية، وحين [تستبيح الشركات بياناتنا](../basics/common-threats.md/#surveillance-as-a-business-model) بشراسة مطردة كل يوم، وحين تعمد المنصات إلى [القضاء تدريجيا على خيار الأسماء المستعارة عبر الإنترنت](https://www.privacyguides.org/articles/2025/10/15/real-name-policies/)، لا بد لنا من توسيع آفاق حراكنا للذود عن حقوقنا.
 
-\==For privacy to become a valued and respected human right, we must work together== to defend privacy rights as a community.
+\==لكي تصبح الخصوصية حقاً من حقوق الإنسان يحظى بالتقدير والاحترام، يجب أن نعمل معا== للدفاع عن حقوق الخصوصية كمجتمع.
 
-This section will progressively grow with more tools to support the community in its privacy advocacy and activism effort. The Privacy Activist Toolbox and the DPA Directory are the first parts of this new development.
+سيزداد هذا القسم ثراء بمرور الوقت بمزيد من الأدوات المصممة لدعم المجتمع في جهوده ونضاله من أجل الخصوصية. تُمثل "مجموعة أدوات مناصري الخصوصية" و"دليل هيئات حماية البيانات (DPA)" أولى ثمرات هذا التوجه الجديد.
 
 <div class="toolbox-button-grid" markdown>
 
-[:fontawesome-solid-toolbox:{ .toolbox-button-icon } Privacy Activist Toolbox](toolbox/index.md){ .toolbox-button .toolbox-bg }
+[:fontawesome-solid-toolbox:{ .toolbox-button-icon } مجموعة أدوات مناصري الخصوصية](toolbox/index.md){ .toolbox-button .toolbox-bg }
 
 [:fontawesome-solid-address-card:{ .toolbox-button-icon } DPA Directory](legal/dpa-directory.md){ .toolbox-button .dpadirectory-bg }
 

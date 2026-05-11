@@ -1,23 +1,23 @@
 ---
-title: Welcome Beginners
-description: For our privacy rights movement to grow, we must bring more people in. To accomplish this, it's fundamental to make our communities welcoming to newcomers.
+title: مرحباً بالمبتدئين
+description: لكي تنمو حركتنا وتزدهر، علينا أن نفتح أبوابنا للجميع وندعو المزيد من الناس للانضمام إلينا. لتحقيق ذلك، من الأساسي أن نجعل مجتمعاتنا مرحبة بالوافدين الجدد.
 icon: fontawesome/solid/user-plus
 cover: activism/banner-toolbox-tip-beginners.webp
 ---
 
-For our privacy rights movement to grow, we must **bring more people in**. To accomplish this, it's fundamental to discuss privacy in ways that are accessible to newcomers who aren't familiar with the basic concepts yet.
+لكي تنمو حركتنا وتزدهر، علينا أن نفتح أبوابنا للجميع وندعو المزيد من الناس للانضمام إلينا\*\*. وعلشان نحقق ده، لازم نبسط كلامنا عن الخصوصية ونستخدم لغة واضحة وسهلة يفهمها أي حد لسه بيبدأ معانا، حتى لو ميعرفش المصطلحات التقنية.
 
-Here's how you can improve your advocacy work to make it more approachable to beginners:
+ولتحقيق ذلك، من الضروري جداً أن نتحدث عن الخصوصية بأسلوب بسيط وواضح، خاصةً للقادمين الجدد الذين لم يتعرفوا بعد على المفاهيم الأساسية:
 
-## We cannot grow our movement without newcomers
+## لا يمكننا تنمية حركتنا دون الوافدين الجدد
 
-Beginners and newcomers are _indispensable_ to our privacy rights movement. Without them, we cannot grow. And without growth, we cannot win.
+إن المبتدئين والمنضمين الجدد _لا غنى عنهم_ في حركة حقوق الخصوصية الخاصة بنا. بدونهم، لا يمكننا أن ننمو. وبدون النمو، لا يمكننا الانتصار.
 
-To attract new people to our communities and our cause, we need to create an environment that is welcoming, safe, and pleasant to be in. When newcomers face rudeness and criticism, they leave. And when they leave, we lose.
+لجذب أشخاص جدد إلى مجتمعاتنا وقضيتنا، نحتاج إلى توفير بيئة مرحبة، وآمنة، ومريحة للتواجد فيها. عندما يواجه الوافدون الجدد الفظاظة والانتقاد، فإنهم يغادرون. وبانسحابهم، نكون نحن الخاسرين.
 
-Kindness, patience, and compassion are the first steps to attract and retain newcomers. Then, knowledge accessibility is vital. There are many things you can do in your daily advocacy to help with this.
+اللطف، والصبر، والتعاطف، هي الخطوات الأولى لجذب الوافدين الجدد والاحتفاظ بهم. وتأتي بعد ذلك الأهمية البالغة لتيسير الوصول إلى المعرفة. هناك العديد من الأشياء التي يمكنك القيام بها في مناصرتك اليومية للمساعدة في ذلك.
 
-## What to keep in mind to make beginners feel welcomed
+## ما يجب وضعه في الاعتبار لجعل المبتدئين يشعرون بالترحيب
 
 <style>
 .emoji-list-a ul {
@@ -26,26 +26,26 @@ Kindness, patience, and compassion are the first steps to attract and retain new
 @counter-style emoji-list-a {
   system: fixed;
   symbols: "🔤" "📟" "1️⃣" "🙋" "🆗" "📚";
-  suffix: "  ";
+  suffix: "  "؛
 </style>
 
 <div class="emoji-list-a" markdown>
 
-- **Beware of acronyms:** Do not assume that everyone knows the acronyms you use in your material, even the most common such as VPN (Virtual Private Network). Always make sure to write the whole expression at least once before carrying on with the acronym's letters only.
+- **تجنب الاختصارات**: لا تفترض أن الجميع يعرف الاختصارات التي تستخدمها في موادك، حتى أكثرها شيوعاً مثل VPN (الشبكة الافتراضية). احرص دائما على كتابة المصطلح كاملا لمرة واحدة على الأقل، قبل الاستمرار في استخدام أحرف الاختصار فقط.
 
-- **Explain technologies:** As for acronyms, don't assume that everyone has the same knowledge as you when it comes to technology, even the technologies that seem basic to you. Perhaps you have been in tech for so long that you have forgotten not everyone knows what an Operating System (OS) is. Nevertheless, make sure to provide a short explanation or example to keep your content welcoming to beginners. If you talk about Operating Systems, perhaps also add "such as macOS, Windows, or Linux" to add context that could make your point more accessible.
+- **اشرح التقنيات**: تماما كما هو الحال مع الاختصارات، لا تفترض أن الجميع يمتلكون نفس معرفتك عندما يتعلق الأمر بالتكنولوجيا، حتى تلك التقنيات التي تبدو بسيطة بالنسبة لك. ربما قضيت وقتا طويلا في المجال التقني لدرجة أنك نسيت أن ليس الجميع يعرفون ما هو "نظام التشغيل" (OS). ومع ذلك، احرص على تقديم شرح قصير أو مثال ليبقى محتواك مرحباً بالمبتدئين. إذا كنت تتحدث عن أنظمة التشغيل، فربما يجدر بك أيضا إضافة "مثل ماك، أو ويندوز، أو لينكس" لإضفاء سياق يجعل فكرتك أكثر وضوحا وسهولة في الفهم.
 
-- **Start with the basics:** Depending on the context, do not neglect to discuss the most basic privacy concepts before jumping in the juicy tech. Fundamental ideas such as consent, data collection, data storage, or encryption are important to master in order to understand the benefits and dangers related to data privacy. Specific tech and services come and go, but _fundamental_ ideas remain. Anyone who comprehends these core concepts will have a much easier time understanding all that follows.
+- **ابدأ بالأساسيات:** بناءً على السياق، لا تهمل مناقشة مفاهيم الخصوصية الأكثر أساسية قبل القفز إلى التقنيات المتقدمة والمثيرة. يُعد استيعاب المبادئ الجوهرية —كالموافقة المستنيرة، وآليات جمع البيانات وحفظها، والتشفير— مدخلا لا غنى عنه لإدراك ما تنطوي عليه خصوصية البيانات من فوائد ومحاذير. التقنيات والخدمات المحددة تأتي وتذهب، لكن الأفكار _الجوهرية_ تظل باقية. أي شخص يستوعب هذه المفاهيم الجوهرية، سيجد سهولة أكبر بكثير في فهم كل ما يلي.
 
-- **No stupid questions:** There are no stupid questions, only impatient answerers. Whenever a beginner asks a question that seems obvious to you, refrain from replying with something dry or snarky such as "Google it," or its privacy-equivalent "DuckDuckGo it." This only has the effect of chasing people away from our community. If you don't feel like helping, just reply nothing. But if you do want to help, try to find an answer for them. If you are in a rush, something like "Hey! Sorry I don't have the answer, but maybe this [resource](../../basics/why-privacy-matters.md) might be helpful to you!" or "Sorry I'm not sure, but perhaps asking on this [forum](https://discuss.privacyguides.net/) might get you an answer."
+- **لا توجد أسئلة غبية:** لا توجد أسئلة غبية، بل يوجد فقط مجيبون قليلوا الصبر. كلما طرح مبتدئ سؤالاً يبدو بديهياً بالنسبة لك، امتنع عن الرد بأسلوب جاف أو ساخر مثل "ابحث عنه في جوجل"، أو ما يعادلها في عالم الخصوصية "ابحث عنه في داك داك جو (DuckDuckGo  it)". ليس لهذا الفعل أي أثر سوى إبعاد الأشخاص عن مجتمعنا. إذا لم ترغب في تقديم المساعدة، فببساطة لا ترد بشيء. أما إذا كنت ترغب في المساعدة، فحاول العثور على إجابة لهم. إذا كنت في عجلة من أمرك، فيمكنك قول شيء مثل: "مرحباً! عذرا، لا أملك الإجابة، ولكن ربما يكون هذا [المصدر](../../basics/why-privacy-matters.md) مفيدا لك!" أو "عذرا، لست متأكدا، ولكن ربما تجد إجابة إذا سألت في هذا [المنتدى](https://discuss.privacyguides.net/).
 
-- **Stay patient and compassionate:** Always stay patient with beginners and newcomers (and everyone else, actually). To keep people fighting with us and grow our movement, we cannot afford to lose anyone just because we felt angry that day. Develop your [empathy skills](tip-support-your-privacy-comrades.md) to provide support and reply with compassion. People stay where they feel safe and welcomed. ==Make them feel safe and welcomed.==
+- **تحلَّ بالصبر والتعاطف:** كن صبورا دائما مع المبتدئين والمنضمين الجدد (ومع الجميع في الواقع). من أجل إبقاء الناس يقاتلون معنا وتنمية حركتنا، لا يمكننا تحمل خسارة أي شخص لمجرد أننا شعرنا بالغضب في ذلك اليوم. طور [مهارات التعاطف](tip-support-your-privacy-comrades.md) لديك لتقديم الدعم والرد بمودة. يستقر الناس حيث يشعرون بالأمان والترحيب. ==امنحهم شعورا بالأمان، وأشعرهم بأنهم مرحب بهم دائما.==
 
-- **Do not confound lack of knowledge with lack of intelligence:** Everyone has a different set of knowledge. Lack of knowledge doesn't mean someone isn't intelligent, it just means they haven't come in contact with this area of knowledge yet. They probably know a lot of things you don't know at all. Be careful not to sound patronizing when communicating with newcomers (or anyone else really). This is a behavior sadly too common in the privacy community, and we all need to work on this to create an environment that is more welcoming and enjoyable for everyone.
+- **لا تخلط بين نقص المعرفة ونقص الذكاء:** فلكل شخص مجموعة مختلفة من المعارف. الجهل بموضوعٍ ما ليس دليلا على تدني الذكاء، بل هو مجرد مؤشر على أن الفرد لم يطلع على هذا الجانب المعرفي بعد. من المحتمل أنهم يعرفون الكثير من الأشياء التي لا تعرف عنها شيئا على الإطلاق. احذر من أن تبدو استعلائياً عند التواصل مع المنضمين الجدد (أو مع أي شخص آخر في الواقع). هذا السلوك، للأسف، شائع جدا في مجتمع الخصوصية، وعلينا جميعا العمل على تغييره لإنشاء بيئة أكثر ترحيبا ومتعة للجميع.
 
 </div>
 
-## More resources
+## المزيد من المصادر
 
 - [Building a community for beginners (_Jennifer Konikowski_)](https://www.jenniferkonikowski.com/blog/2017/2/10/building-a-community-for-beginners)
 
