@@ -1,7 +1,7 @@
 ---
-title: "Privacy Activism"
-meta_title: "Guides and Tools for Privacy Activists"
-description: Privacy Guides' Activism section contains tools to support the community in its privacy advocacy and activism effort, both for individuals and organizations.
+title: "مناصرة الخصوصية"
+meta_title: "أدلة إرشادية وأدوات لمناصري الخصوصية"
+description: يشتمل قسم النشاط الحقوقي في Privacy Guides على أدوات تهدف إلى دعم جهود المجتمع في مناصرة الخصوصية، متيحاً الاستفادة منها للأفراد والمنظمات معاً.
 hide:
   - toc
   - footer
