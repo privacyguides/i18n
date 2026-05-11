@@ -43,10 +43,10 @@ Inclusivity, empathy, support, acknowledging successes publicly, and fair compen
 
 This is something that is _incredibly_ valuable in our fight for privacy rights, together.
 
-## More resources
+## المزيد من المصادر
 
 - [The psychology of activism and movement longevity (_Museum of Protest_)](https://museumofprotest.org/guides/guide-the-psychology-of-activism-and-movement-longevity/)
 
 - [Is your team using its biggest resource (_Social Science Space_)](https://www.socialsciencespace.com/2013/07/is-your-team-using-its-biggest-resource/)
 
-- [How to make people feel valued on projects (_PM Today_)](https://www.pmtoday.co.uk/how-to-make-people-feel-valued-on-projects/)
+- [Is your team using its biggest resource (_Social Science Space_)](https://www.socialsciencespace.com/2013/07/is-your-team-using-its-biggest-resource/)
