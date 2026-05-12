@@ -272,40 +272,39 @@ Governments, in particular [China](https://zdnet.com/article/china-is-now-blocki
     tshark -r /tmp/pg_ocsp.pcap -Tfields -Y ocsp.serialNumber -e ocsp.serialNumber
     ```
 
-بما أن الشهادة العامة (public certificate) متاحة للجميع، يمكن لمراقب الشبكة مقارنة الرقم التسلسلي (الـ serial number) بها، ثم يعرف من ذلك الموقع الذي تزوره. The process can be automated and can associate IP addresses with serial numbers. It is also possible to check [Certificate Transparency](https://en.wikipedia.org/wiki/Certificate_Transparency) logs for the serial number.
+بما أن الشهادة العامة (public certificate) متاحة للجميع، يمكن لمراقب الشبكة مقارنة الرقم التسلسلي (الـ serial number) بها، ثم يعرف من ذلك الموقع الذي تزوره. يمكن جعل هذه العملية تعمل تلقائيا، فتربط بين عناوين IP والأرقام التسلسلية (الـ serial numbers). يمكن أيضا البحث داخل سجلات الـ [Certificate Transparency](https://en.wikipedia.org/wiki/Certificate_Transparency) عن هذا الرقم التسلسلي (serial number).
 
-## Should I use encrypted DNS?
+## هل ينبغي أن أستخدم DNS مشفرا؟
 
-We made this flow chart to describe when you *should* use encrypted DNS:
+صممنا هذا المخطط الانسيابي لمساعدتك على معرفة متى *ينبغي* استخدام DNS مشفر:
 
 ``` mermaid
-graph TB
-    Start[Start] --> anonymous{Trying to be<br> anonymous?}
-    anonymous--> | Yes | tor(Use Tor)
-    anonymous --> | No | censorship{Avoiding<br> censorship?}
-    censorship --> | Yes | vpnOrTor(Use<br> VPN or Tor)
-    censorship --> | No | privacy{Want privacy<br> from ISP?}
-    privacy --> | Yes | vpnOrTor
-    privacy --> | No | obnoxious{ISP makes<br> obnoxious<br> redirects?}
-    obnoxious --> | Yes | encryptedDNS(Use<br> encrypted DNS<br> with 3rd party)
-    obnoxious --> | No | ispDNS{Does ISP support<br> encrypted DNS?}
-    ispDNS --> | Yes | useISP(Use<br> encrypted DNS<br> with ISP)
-    ispDNS --> | No | nothing(Do nothing)
+Start[البداية] --> anonymous{هل تحاول أن تكون<br> مجهول الهوية؟}
+    anonymous --> | نعم | tor(استخدم Tor)
+anonymous --> | لا | censorship{هل تحاول تجنب<br> الرقابة؟}
+    censorship --> | نعم | vpnOrTor(استخدم<br> VPN أو Tor)
+censorship --> | لا | privacy{هل تريد حماية خصوصيتك<br> من مزوّد خدمة الإنترنت؟}
+    privacy --> | نعم | vpnOrTor
+privacy --> | لا | obnoxious{هل يقوم مزوّد خدمة الإنترنت<br> بإعادة توجيه مزعجة؟<br>}
+    obnoxious --> | نعم | encryptedDNS(استخدم<br> DNS مشفرا<br> من مزود آخر)
+obnoxious --> | لا | ispDNS{هل يوفر مزوّد خدمة الإنترنت<br> DNS مشفرا؟}
+    ispDNS --> | نعم | useISP(استخدم<br> DNS مشفرا<br> من مزود خدمة الإنترنت)
+ispDNS --> | لا | nothing(لا تحتاج إلى فعل شيء)
 ```
 
-Encrypted DNS with a third party should only be used to get around redirects and basic [DNS blocking](https://en.wikipedia.org/wiki/DNS_blocking) when you can be sure there won't be any consequences, or you're interested in a provider that does some rudimentary filtering.
+لا تستخدم DNS مشفرا من مزود آخر إلا إذا كنت تريد تجاوز إعادة التوجيه أو [ الـ DNS blocking ](https://en.wikipedia.org/wiki/DNS_blocking)، وكنت متأكدا من أن ذلك لن يسبب لك مشكلة، أو إذا كنت تريد مزودا يوفر بعض التصفية البسيطة.
 
-[List of recommended DNS servers](../dns.md ""){.md-button}
+[قائمة خوادم الـ DNS الموصى بها](../dns.md ""){.md-button}
 
-## What is DNSSEC?
+## ما هو الـ DNSSEC؟
 
-[Domain Name System Security Extensions](https://en.wikipedia.org/wiki/Domain_Name_System_Security_Extensions) (DNSSEC) is a feature of DNS that authenticates responses to domain name lookups. It does not provide privacy protections for those lookups, but rather prevents attackers from manipulating or poisoning the responses to DNS requests.
+[](https://en.wikipedia.org/wiki/Domain_Name_System_Security_Extensions) (DNSSEC) هي ميزة في DNS تساعد على التأكد من أن الردود على طلبات أسماء النطاقات صحيحة. هي لا تحمي خصوصية هذه الطلبات، بل تمنع المهاجمين من تغيير ردود الـ DNS أو إفسادها.
 
-In other words, DNSSEC digitally signs data to help ensure its validity. In order to ensure a secure lookup, the signing occurs at every level in the DNS lookup process. As a result, all answers from DNS can be trusted.
+بمعنى أبسط، يضيف DNSSEC توقيعا رقميا إلى البيانات حتى يساعد على التأكد من أنها صحيحة. حتى يكون استعلام الـ DNS آمنا، يحدث التوقيع في كل مرحلة من مراحل عملية البحث. ونتيجة لذلك، يمكن الوثوق بجميع الردود القادمة من DNS.
 
-The DNSSEC signing process is similar to someone signing a legal document with a pen; that person signs with a unique signature that no one else can create, and a court expert can look at that signature and verify that the document was signed by that person. These digital signatures ensure that data has not been tampered with.
+يمكن تشبيه توقيع DNSSEC بتوقيع شخص على ورقة قانونية بقلم؛ فلكل شخص توقيع مميز لا يستطيع الآخرون تقليده، ويمكن للخبير أن يفحصه ويتأكد من أن الشخص نفسه هو من وقع الوثيقة. تساعد هذه التوقيعات الرقمية على التأكد من أن البيانات لم يتم تغييرها أو العبث بها.
 
-DNSSEC implements a hierarchical digital signing policy across all layers of DNS. For example, in the case of a `privacyguides.org` lookup, a root DNS server would sign a key for the `.org` nameserver, and the `.org` nameserver would then sign a key for `privacyguides.org`’s authoritative nameserver.
+يطبق DNSSEC سياسة توقيع رقمي هرمية عبر جميع طبقات DNS. For example, in the case of a `privacyguides.org` lookup, a root DNS server would sign a key for the `.org` nameserver, and the `.org` nameserver would then sign a key for `privacyguides.org`’s authoritative nameserver.
 
 <small>Adapted from [DNS Security Extensions (DNSSEC) overview](https://cloud.google.com/dns/docs/dnssec) by Google and [DNSSEC: An Introduction](https://blog.cloudflare.com/dnssec-an-introduction) by Cloudflare, both licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0).</small>
 
