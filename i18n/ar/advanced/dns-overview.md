@@ -1,30 +1,30 @@
 ---
-title: "DNS Overview"
+title: "نظرة عامة على DNS"
 icon: material/dns
-description: The Domain Name System is the "phonebook of the internet," helping your browser find the website it's looking for.
+description: نظام أسماء النطاقات DNS يشبه دليل الهاتف للإنترنت؛ فهو يساعد المتصفح على العثور على الموقع الذي تريد زيارته.
 ---
 
-The [Domain Name System](https://en.wikipedia.org/wiki/Domain_Name_System) is the 'phone book of the Internet'. DNS translates domain names to IP addresses so browsers and other services can load Internet resources, through a decentralized network of servers.
+يُعد [نظام أسماء النطاقات (DNS)](https://en.wikipedia.org/wiki/Domain_Name_System) بمثابة “دليل الهاتف للإنترنت”. عندما تكتب اسم موقع، يحوله DNS إلى عنوان IP، حتى يعرف المتصفح أين يجد الموقع، وذلك عبر شبكة من الخوادم المنتشرة.
 
-## What is DNS?
+## ما هو الـ DNS؟
 
-When you visit a website, a numerical address is returned. For example, when you visit `privacyguides.org`, the address `192.98.54.105` is returned.
+عندما تفتح موقعا، يحصل المتصفح على عنوان رقمي يساعده في الوصول إليه. مثلا، عند فتح `privacyguides.org`، يحصل المتصفح على العنوان `192.98.54.105`.
 
-DNS has existed since the [early days](https://en.wikipedia.org/wiki/Domain_Name_System#History) of the Internet. DNS requests made to and from DNS servers are **not** generally encrypted. In a residential setting, a customer is given servers by the ISP via [DHCP](https://en.wikipedia.org/wiki/Dynamic_Host_Configuration_Protocol).
+ظهر DNS منذ [البدايات الأولى](https://en.wikipedia.org/wiki/Domain_Name_System#History) للإنترنت. غالبًا ما تكون طلبات الـ DNS بين جهازك وخوادم الـ DNS **غير** مشفرة. عادةً في المنزل، يعطي مزود خدمة الإنترنت (ISP) جهازك خوادم DNS باستخدام [DHCP](https://en.wikipedia.org/wiki/Dynamic_Host_Configuration_Protocol).
 
-Unencrypted DNS requests are able to be easily **surveilled** and **modified** in transit. In some parts of the world, ISPs are ordered to do primitive [DNS filtering](https://en.wikipedia.org/wiki/DNS_blocking). When you request the IP address of a domain that is blocked, the server may not respond or may respond with a different IP address. As the DNS protocol is not encrypted, the ISP (or any network operator) can use [DPI](https://en.wikipedia.org/wiki/Deep_packet_inspection) to monitor requests. ISPs can also block requests based on common characteristics, regardless of which DNS server is used.
+طلبات DNS غير المشفرة يمكن أن **تُراقَب** و**تُعدل** بسهولة وهي في طريقها بين جهازك والخادم. في بعض البلدان، يُطلب من مزودي خدمة الإنترنت استخدام طريقة بسيطة في [تصفية DNS (DNS filtering)](https://en.wikipedia.org/wiki/DNS_blocking) لحجب بعض المواقع. إذا طلبت عنوان IP لموقع محجوب، فقد لا يستجيب الخادم، أو قد يعطيك عنوان IP مختلفا. لأن DNS غير مشفر، يستطيع مزود خدمة الإنترنت أو مشغل الشبكة استخدام [DPI](https://en.wikipedia.org/wiki/Deep_packet_inspection) لرؤية الطلبات التي ترسلها. قد يحجب مزود خدمة الإنترنت بعض الطلبات لأنها تشبه طلبات معينة، حتى لو كنت تستخدم خادم DNS مختلفا.
 
-Below, we discuss and provide a tutorial to prove what an outside observer may see using regular unencrypted DNS and [encrypted DNS](#what-is-encrypted-dns).
+في القسم التالي، نوضح بتجربة بسيطة ما الذي قد يراه شخص يراقب من الخارج عند استخدام DNS عادي غير مشفر و[DNS مشفر](#what-is-encrypted-dns).
 
-### Unencrypted DNS
+### الـ DNS غير المشفر
 
-1. Using [`tshark`](https://wireshark.org/docs/man-pages/tshark.html) (part of the [Wireshark](https://en.wikipedia.org/wiki/Wireshark) project) we can monitor and record internet packet flow. This command records packets that meet the rules specified:
+1. من خلال [`tshark`](https://wireshark.org/docs/man-pages/tshark.html)، وهو جزء من [Wireshark](https://en.wikipedia.org/wiki/Wireshark)، نستطيع رؤية حزم الإنترنت (الـ internet packets) أثناء انتقالها وتسجيلها. هذا الأمر يسجل حزم البيانات (الـ packets) التي توافق الشروط المحددة:
 
     ```bash
     tshark -w /tmp/dns.pcap udp port 53 and host 1.1.1.1 or host 8.8.8.8
     ```
 
-2. We can then use [`dig`](https://en.wikipedia.org/wiki/Dig_(command)) (Linux, macOS, etc.) or [`nslookup`](https://en.wikipedia.org/wiki/Nslookup) (Windows) to send the DNS lookup to both servers. Software such as web browsers do these lookups automatically, unless they are configured to use encrypted DNS.
+2. بعدها، نستخدم [`dig`](https://en.wikipedia.org/wiki/Dig_(command)) على Linux وmacOS، أو [`nslookup`](https://en.wikipedia.org/wiki/Nslookup) على Windows، لنسأل كلا الخادمين عن عنوان DNS. البرامج، مثل المتصفحات، تسأل عن عناوين الـ DNS تلقائيا، إلا إذا تم ضبطها على استخدام DNS مشفر.
 
     === "Linux, macOS"
 
@@ -32,14 +32,14 @@ Below, we discuss and provide a tutorial to prove what an outside observer may s
         dig +noall +answer privacyguides.org @1.1.1.1
         dig +noall +answer privacyguides.org @8.8.8.8
         ```
-    === "Windows"
+    === "Linux, macOS"
 
         ```
         nslookup privacyguides.org 1.1.1.1
         nslookup privacyguides.org 8.8.8.8
         ```
 
-3. Next, we want to [analyze](https://wireshark.org/docs/wsug_html_chunked/ChapterIntroduction.html#ChIntroWhatIs) the results:
+3. بعد ذلك، نريد [تحليل](https://wireshark.org/docs/wsug_html_chunked/ChapterIntroduction.html#ChIntroWhatIs) النتائج:
 
     === "Wireshark"
 
@@ -53,7 +53,7 @@ Below, we discuss and provide a tutorial to prove what an outside observer may s
         tshark -r /tmp/dns.pcap
         ```
 
-If you run the Wireshark command above, the top pane shows the "[frames](https://en.wikipedia.org/wiki/Ethernet_frame)", and the bottom pane shows all the data about the selected frame. Enterprise filtering and monitoring solutions (such as those purchased by governments) can do the process automatically, without human interaction, and can aggregate those frames to produce statistical data useful to the network observer.
+عند تشغيل أمر Wireshark السابق، سترى في الجزء العلوي “[الإطارات (الـ frames)](https://en.wikipedia.org/wiki/Ethernet_frame)”، وفي الجزء السفلي ستظهر جميع المعلومات عن الإطار (الـ frame) الذي اخترته. تستطيع أنظمة التصفية والمراقبة الخاصة (الـ filtering and monitoring) بالمؤسسات، مثل الأنظمة التي تشتريها الحكومات، القيام بهذه العملية تلقائيا من دون أي تدخل من الإنسان، ثم جمع هذه الإطارات (الـ frames) لاستخراج بيانات إحصائية يستفيد منها مراقب الشبكة.
 
 | No. | Time     | Source    | Destination | Protocol | Length | Info                                                                   |
 | --- | -------- | --------- | ----------- | -------- | ------ | ---------------------------------------------------------------------- |
@@ -62,23 +62,23 @@ If you run the Wireshark command above, the top pane shows the "[frames](https:/
 | 3   | 1.682109 | 192.0.2.1 | 8.8.8.8     | DNS      | 104    | Standard query 0xf1a9 A privacyguides.org OPT                          |
 | 4   | 2.154698 | 8.8.8.8   | 192.0.2.1   | DNS      | 108    | Standard query response 0xf1a9 A privacyguides.org A 198.98.54.105 OPT |
 
-An observer could modify any of these packets.
+يمكن للمراقب تعديل أي من هذه الحزم (الـ packets).
 
-## What is "encrypted DNS"?
+## ما هو "الـ DNS المشفر"؟
 
-Encrypted DNS can refer to one of a number of protocols, the most common ones being [DNSCrypt](#dnscrypt), [DNS over TLS](#dns-over-tls-dot), and [DNS over HTTPS](#dns-over-https-doh).
+عند الحديث عن الـ DNS المشفر، فقد نقصد واحدا من عدة طرق لحماية طلبات الـ DNS، مثل [DNSCrypt](#dnscrypt) و[DNS over TLS](#dns-over-tls-dot) و[DNS over HTTPS](#dns-over-https-doh).
 
 ### DNSCrypt
 
-[**DNSCrypt**](https://en.wikipedia.org/wiki/DNSCrypt) was one of the first methods of encrypting DNS queries. DNSCrypt operates on port 443 and works with both the TCP or UDP transport protocols. DNSCrypt has never been submitted to the [Internet Engineering Task Force (IETF)](https://en.wikipedia.org/wiki/Internet_Engineering_Task_Force) nor has it gone through the [Request for Comments (RFC)](https://en.wikipedia.org/wiki/Request_for_Comments) process, so it has not been used widely outside a few [implementations](https://dnscrypt.info/implementations). As a result, it has been largely replaced by the more popular [DNS over HTTPS](#dns-over-https-doh).
+كان [**DNSCrypt**](https://en.wikipedia.org/wiki/DNSCrypt) من أوائل الطرق التي جعلت طلبات الـ DNS محمية بالتشفير. يستخدم DNSCrypt المنفذ (الـ port) 443، ويمكنه إرسال البيانات باستخدام TCP أو UDP. لم يُقدم DNSCrypt رسميا إلى [فريق هندسة الإنترنت IETF](https://en.wikipedia.org/wiki/Internet_Engineering_Task_Force)، ولم يمر بخطوات [طلب التعليقات RFC](https://en.wikipedia.org/wiki/Request_for_Comments)، لذلك لم ينتشر كثيرا، وبقي مستخدما فقط في بعض [التطبيقات](https://dnscrypt.info/implementations). لذلك، أصبح الناس يستخدمون [DNS over HTTPS](#dns-over-https-doh) الأكثر انتشارا بدلا منه في أغلب الأحيان.
 
 ### DNS over TLS (DoT)
 
-[**DNS over TLS**](https://en.wikipedia.org/wiki/DNS_over_TLS) is another method for encrypting DNS communication that is defined in [RFC 7858](https://datatracker.ietf.org/doc/html/rfc7858). Support was first implemented in Android 9, iOS 14, and on Linux in [systemd-resolved](https://freedesktop.org/software/systemd/man/resolved.conf.html#DNSOverTLS=) in version 237. Preference in the industry has been moving away from DoT to DoH in recent years, as DoT is a [complex protocol](https://dnscrypt.info/faq) and has varying compliance to the RFC across the implementations that exist. DoT also operates on a dedicated port 853 which can be blocked easily by restrictive firewalls.
+هناك طريقة أخرى لحماية اتصال DNS بالتشفير، وهي [**DNS over TLS**](https://en.wikipedia.org/wiki/DNS_over_TLS)، وقد شرحت في [RFC 7858](https://datatracker.ietf.org/doc/html/rfc7858). بدأت الأنظمة في دعم هذه الميزة مع Android 9 وiOS 14، وعلى Linux من خلال [systemd-resolved](https://freedesktop.org/software/systemd/man/resolved.conf.html#DNSOverTLS=) بدءً من الإصدار 237. في السنوات الأخيرة، صار المجال التقني يفضل DoH أكثر من DoT، لأن DoT [بروتوكول معقد](https://dnscrypt.info/faq)، ولأن تطبيقاته لا تتبع معيار RFC دائما بالطريقة نفسها. يعمل DoT على منفذ (port) خاص اسمه 853، لذلك يمكن للجدران النارية (الـ firewalls) الصارمة أن تحجبه بسهولة.
 
-### DNS over HTTPS (DoH)
+### DNS over TLS (DoT)
 
-[**DNS over HTTPS**](https://en.wikipedia.org/wiki/DNS_over_HTTPS), as defined in [RFC 8484](https://datatracker.ietf.org/doc/html/rfc8484), packages queries in the [HTTP/2](https://en.wikipedia.org/wiki/HTTP/2) protocol and provides security with HTTPS. Support was first added in web browsers such as Firefox 60 and Chrome 83.
+يعمل [**DNS over HTTPS**](https://en.wikipedia.org/wiki/DNS_over_HTTPS)، كما يشرحه [RFC 8484](https://datatracker.ietf.org/doc/html/rfc8484)، على إرسال طلبات DNS داخل [HTTP/2](https://en.wikipedia.org/wiki/HTTP/2)، ثم يحميها باستخدام HTTPS. Support was first added in web browsers such as Firefox 60 and Chrome 83.
 
 Native implementation of DoH showed up in iOS 14, macOS 11, Microsoft Windows, and Android 13 (however, it won't be enabled [by default](https://android-review.googlesource.com/c/platform/packages/modules/DnsResolver/+/1833144)). General Linux desktop support is waiting on the systemd [implementation](https://github.com/systemd/systemd/issues/8639) so [installing third-party software is still required](../dns.md#encrypted-dns-proxies).
 
@@ -182,52 +182,52 @@ Governments, in particular [China](https://zdnet.com/article/china-is-now-blocki
 
 ### Online Certificate Status Protocol (OCSP)
 
-Another way your browser can disclose your browsing activities is with the [Online Certificate Status Protocol](https://en.wikipedia.org/wiki/Online_Certificate_Status_Protocol). When visiting an HTTPS website, the browser might check to see if the website's [certificate](https://en.wikipedia.org/wiki/Public_key_certificate) has been revoked. This is generally done through the HTTP protocol, meaning it is **not** encrypted.
+هناك طريقة أخرى قد تجعل متصفحك يكشف المواقع التي تزورها، وهي عبر [الـ Online Certificate Status Protocol](https://en.wikipedia.org/wiki/Online_Certificate_Status_Protocol). عند دخولك إلى موقع يستخدم HTTPS، قد يتحقق المتصفح من [شهادة](https://en.wikipedia.org/wiki/Public_key_certificate) الموقع ليرى هل ما زالت صالحة أم تم إلغاؤها. عادة يستخدم المتصفح HTTP لفعل ذلك، وهذا يعني أن الطلب **غير** مشفر.
 
-The OCSP request contains the certificate "[serial number](https://en.wikipedia.org/wiki/Public_key_certificate#Common_fields)", which is unique. It is sent to the "OCSP responder" in order to check its status.
+يحتوي طلب OCSP على["الرقم التسلسلي (serial number)](https://en.wikipedia.org/wiki/Public_key_certificate#Common_fields)" للشهادة، وهو[رقم](https://en.wikipedia.org/wiki/Public_key_certificate#Common_fields) فريد من نوعه. يرسل المتصفح هذا الطلب إلى “الـ OCSP responder” حتى يتأكد من حالة الشهادة.
 
-We can simulate what a browser would do using the [`openssl`](https://en.wikipedia.org/wiki/OpenSSL) command.
+نستطيع تقليد ما يقوم به المتصفح باستخدام أمر [`openssl`](https://en.wikipedia.org/wiki/OpenSSL).
 
-1. Get the server certificate and use [`sed`](https://en.wikipedia.org/wiki/Sed) to keep just the important part and write it out to a file:
+1. احصل على شهادة الخادم، ثم استخدم [`sed`](https://en.wikipedia.org/wiki/Sed) حتى تحفظ الجزء المهم فقط في ملف:
 
     ```bash
     openssl s_client -connect privacyguides.org:443 < /dev/null 2>&1 |
         sed -n '/^-*BEGIN/,/^-*END/p' > /tmp/pg_server.cert
     ```
 
-2. Get the intermediate certificate. [Certificate Authorities (CA)](https://en.wikipedia.org/wiki/Certificate_authority) normally don't sign a certificate directly; they use what is known as an "intermediate" certificate.
+2. احصل على الشهادة الوسيطة. عادةً لا توقّع [الـ CA](https://en.wikipedia.org/wiki/Certificate_authority) الشهادة مباشرةً، بل تستخدم شهادة أخرى في المنتصف تُسمّى “الشهادة الوسيطة (intermediate" certificate)”.
 
     ```bash
     openssl s_client -showcerts -connect privacyguides.org:443 < /dev/null 2>&1 |
         sed -n '/^-*BEGIN/,/^-*END/p' > /tmp/pg_and_intermediate.cert
     ```
 
-3. The first certificate in `pg_and_intermediate.cert` is actually the server certificate from step 1. We can use `sed` again to delete until the first instance of END:
+3. أول شهادة داخل `pg_and_intermediate.cert` هي في الحقيقة شهادة الخادم من الخطوة الأولى. نستطيع استخدام `sed` مجددا لحذف كل ما يسبق أول ظهور لـ END:
 
     ```bash
     sed -n '/^-*END CERTIFICATE-*$/!d;:a n;p;ba' \
         /tmp/pg_and_intermediate.cert > /tmp/intermediate_chain.cert
     ```
 
-4. Get the OCSP responder for the server certificate:
+4. استخرج OCSP responder من شهادة الخادم:
 
     ```bash
     openssl x509 -noout -ocsp_uri -in /tmp/pg_server.cert
     ```
 
-    Our certificate shows the Lets Encrypt certificate responder. If we want to see all the details of the certificate we can use:
+    تبين الشهادة لدينا الـ Lets Encrypt certificate responder. إذا أردنا رؤية كل تفاصيل الشهادة، يمكننا استخدام الأمر التالي:
 
     ```bash
     openssl x509 -text -noout -in /tmp/pg_server.cert
     ```
 
-5. Start the packet capture:
+5. ابدأ التقاط حزم البيانات (الـ packet):
 
     ```bash
     tshark -w /tmp/pg_ocsp.pcap -f "tcp port http"
     ```
 
-6. Make the OCSP request:
+6. قم بإرسال طلب الـ OCSP:
 
     ```bash
     openssl ocsp -issuer /tmp/intermediate_chain.cert \
@@ -242,7 +242,7 @@ We can simulate what a browser would do using the [`openssl`](https://en.wikiped
     wireshark -r /tmp/pg_ocsp.pcap
     ```
 
-    There will be two packets with the "OCSP" protocol: a "Request" and a "Response". For the "Request" we can see the "serial number" by expanding the triangle &#9656; next to each field:
+    سترى حزمتين مرتبطتين ببروتوكول “OCSP”: واحدة ترسل الطلب “Request”، والأخرى تحمل الرد “Response”. في طلب “Request”، يمكنك إظهار “الرقم التسلسلي (الـ serial number)” عن طريق فتح المثلث &#9656; الموجود بجانب كل خانة:
 
     ```bash
     ▸ Online Certificate Status Protocol
@@ -253,7 +253,7 @@ We can simulate what a browser would do using the [`openssl`](https://en.wikiped
               serialNumber
     ```
 
-    For the "Response" we can also see the "serial number":
+    في الاستجابة “Response”، يظهر “الرقم التسلسلي (الـ serial number)” أيضا:
 
     ```bash
     ▸ Online Certificate Status Protocol
@@ -266,13 +266,13 @@ We can simulate what a browser would do using the [`openssl`](https://en.wikiped
                   serialNumber
     ```
 
-8. Or use `tshark` to filter the packets for the Serial Number:
+8. أو استخدم `tshark` للبحث داخل الحزم (الـ packets) عن الرقم التسلسلي (الـ serial number):
 
     ```bash
     tshark -r /tmp/pg_ocsp.pcap -Tfields -Y ocsp.serialNumber -e ocsp.serialNumber
     ```
 
-If the network observer has the public certificate, which is publicly available, they can match the serial number with that certificate and therefore determine the site you're visiting from that. The process can be automated and can associate IP addresses with serial numbers. It is also possible to check [Certificate Transparency](https://en.wikipedia.org/wiki/Certificate_Transparency) logs for the serial number.
+بما أن الشهادة العامة (public certificate) متاحة للجميع، يمكن لمراقب الشبكة مقارنة الرقم التسلسلي (الـ serial number) بها، ثم يعرف من ذلك الموقع الذي تزوره. The process can be automated and can associate IP addresses with serial numbers. It is also possible to check [Certificate Transparency](https://en.wikipedia.org/wiki/Certificate_Transparency) logs for the serial number.
 
 ## Should I use encrypted DNS?
 
