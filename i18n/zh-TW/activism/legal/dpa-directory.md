@@ -35,7 +35,7 @@ Additionally, this table provides information about each law, authority, contact
 <div class="admonition warning" markdown>
 <p class="admonition-title">隱私權警告</p>
 
-When sharing personal information with a DPA, keep in mind this information could be shared with the subject of the complaint, and/or displayed publicly. Make sure to consult your DPA's privacy notice first, or ask anonymously how your complaint data might be shared before sending any sensitive information.
+與 DPA 共用個人資訊時，請記住此資訊可能會與申訴對象共用和公開展示，也可能不公開展示。 Make sure to consult your DPA's privacy notice first, or ask anonymously how your complaint data might be shared before sending any sensitive information.
 
 For example, the DPA for the state of Oregon in the United States specifies that: "Any information submitted to this form is subject to Oregon’s Public Records Law. You may choose not to include personally identifiable data that you do not wish to be subject to public records requests."
 
