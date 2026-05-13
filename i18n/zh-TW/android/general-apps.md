@@ -112,7 +112,7 @@ Shelter 支援阻止跨配置檔案的聯絡人搜尋以及透過預設檔案管
 ![Secure PDF Viewer logo](../assets/img/android/secure_pdf_viewer.svg#only-light){ align=right }
 ![Secure PDF Viewer logo](../assets/img/android/secure_pdf_viewer-dark.svg#only-dark){ align=right }
 
-**Secure PDF Viewer** 是一個基於 [pdf.js](https://zh.wikipedia.org/wiki/PDF.js) 的 PDF檢視器，它不要求任何權限即可完美運行。 在運行時，被檢視的 PDF 將被送入 [沙盒化](https://zh.wikipedia.org/wiki/%E6%B2%99%E7%9B%92_\(%E9%9B%BB%E8%85%A6%E5%AE%89%E5%85%A8\)) [WebView](https://developer.android.com/guide/webapps/webview)。 這意味著它不需要直接存取內容或文件的權限。
+**Secure PDF Viewer** 是一個基於 [pdf.js](https://zh.wikipedia.org/wiki/PDF.js) 的 PDF檢視器，它不要求任何權限即可完美運行。 在運行時，被檢視的 PDF 將被送入 [沙盒化](https://zh.wikipedia.org/wiki/%E6%B2%99%E7%9B%92_(%E9%9B%BB%E8%85%A6%E5%AE%89%E5%85%A8)) [WebView](https://developer.android.com/guide/webapps/webview)。 這意味著它不需要直接存取內容或文件的權限。
 
 [內容安全策略](https://zh.wikipedia.org/wiki/%E5%86%85%E5%AE%B9%E5%AE%89%E5%85%A8%E7%AD%96%E7%95%A5) 用於強制 WebView 中的 JavaScript 和樣式屬性完全是靜態內容。
 

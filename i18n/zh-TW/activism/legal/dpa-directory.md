@@ -33,7 +33,7 @@ Additionally, this table provides information about each law, authority, contact
 - Remember that your data _could_ be protected by a privacy regulation that isn't listed here. This will depend on the region, circumstances, and type of data involved.
 
 <div class="admonition warning" markdown>
-<p class="admonition-title">Privacy warning</p>
+<p class="admonition-title">隱私權警告</p>
 
 When sharing personal information with a DPA, keep in mind this information could be shared with the subject of the complaint, and/or displayed publicly. Make sure to consult your DPA's privacy notice first, or ask anonymously how your complaint data might be shared before sending any sensitive information.
 
