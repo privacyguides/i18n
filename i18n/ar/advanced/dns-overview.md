@@ -78,17 +78,17 @@ description: نظام أسماء النطاقات DNS يشبه دليل الها
 
 ### DNS over TLS (DoT)
 
-يعمل [**DNS over HTTPS**](https://en.wikipedia.org/wiki/DNS_over_HTTPS)، كما يشرحه [RFC 8484](https://datatracker.ietf.org/doc/html/rfc8484)، على إرسال طلبات DNS داخل [HTTP/2](https://en.wikipedia.org/wiki/HTTP/2)، ثم يحميها باستخدام HTTPS. Support was first added in web browsers such as Firefox 60 and Chrome 83.
+يعمل [**DNS over HTTPS**](https://en.wikipedia.org/wiki/DNS_over_HTTPS)، كما يشرحه [RFC 8484](https://datatracker.ietf.org/doc/html/rfc8484)، على إرسال طلبات DNS داخل [HTTP/2](https://en.wikipedia.org/wiki/HTTP/2)، ثم يحميها باستخدام HTTPS. بدأت بعض متصفحات الويب بدعم هذه الميزة، مثل Firefox 60 وChrome 83.
 
-Native implementation of DoH showed up in iOS 14, macOS 11, Microsoft Windows, and Android 13 (however, it won't be enabled [by default](https://android-review.googlesource.com/c/platform/packages/modules/DnsResolver/+/1833144)). General Linux desktop support is waiting on the systemd [implementation](https://github.com/systemd/systemd/issues/8639) so [installing third-party software is still required](../dns.md#encrypted-dns-proxies).
+بدأت الأنظمة مثل iOS 14 وmacOS 11 وMicrosoft Windows وAndroid 13 بدعم DoH بشكل مدمج، ولكن هذا الدعم لا يكون [مفعلا تلقائيا](https://android-review.googlesource.com/c/platform/packages/modules/DnsResolver/+/1833144). على أجهزة Linux، ما زال الدعم العام ينتظر أن يوفر systemd هذه [الميزة](https://github.com/systemd/systemd/issues/8639)، لذلك تحتاج حاليًا إلى [تثبيت برنامج خارجي](../dns.md#encrypted-dns-proxies).
 
-### Native Operating System Support
+### دعم أنظمة التشغيل دون برامج إضافية
 
 #### Android
 
 يدعم أندرويد ٩ وما بعده أنظمة أسماء النطاقات عبر أمن طبقة النقل (DNS over TLS). تجد هذا الإعداد في: **الإعدادات** ← ** الشبكة والإنترنت ** ← **نظام أسماء نطاقات خاص**.
 
-#### Apple Devices
+#### أجهزة أبل
 
 تدعم آخر إصدارات آي‌أو‌إس و آيباد‌أو‌إس و تي‌في‌أو‌إس و ماك‌أو‌إس أنظمة DoT و DoH. يوجد دعم أصيل لهذه الموافيق باستخدام [ملفَّات تعريف الضبط](https://support.apple.com/guide/security/configuration-profile-enforcement-secf6fb9f053/web) أو باستخدام [واجهة برمجة إعدادات نظام تسمية النطاقات](https://developer.apple.com/documentation/networkextension/dns_settings).
 
@@ -96,11 +96,11 @@ Native implementation of DoH showed up in iOS 14, macOS 11, Microsoft Windows, a
 
 لا تتيح أبل واجهةً أصيلةً لإنشاء ملفَّات تعريف معمَّاة. [مُنشئ ملفَّات تعريف نظام تسمية النطاقات الآمن](https://dns.notjakob.com/tool.html) هو أداة غير رسمية تتيح لك إنشاء ملفَّات تعريف نظام تسمية النطاقات معمَّاة، ولكن ضع في حسبانك أنها لن توقَّع. تفضَّل ملفَّات التعريف الموقَّعة على غيرها، وذلك ﻷن التوقيع يؤكِّد أصلها وصحَّتها. تعلَّم ملفَّات التعريف الموقَّعة بعلامة «مؤكَّد» خضراء. لتستزيد علمًا عن توقيع الرموز عليك مطالعة [عن توقيع الرموز](https://developer.apple.com/library/archive/documentation/Security/Conceptual/CodeSigningGuide/Introduction/Introduction.html).
 
-#### Linux
+#### لينكس
 
-`systemd-resolved`, which many Linux distributions use to do their DNS lookups, doesn't yet [support DoH](https://github.com/systemd/systemd/issues/8639). If you want to use DoH, you'll need to install a proxy like [dnscrypt-proxy](../dns.md#dnscrypt-proxy) and [configure it](https://wiki.archlinux.org/title/Dnscrypt-proxy) to take all the DNS queries from your system resolver and forward them over HTTPS.
+تعتمد كثير من توزيعات Linux على `systemd-resolved` لإجراء طلبات الـ DNS، لكن هذه الأداة لا [تدعم DoH](https://github.com/systemd/systemd/issues/8639) بعد. إذا كنت تريد استخدام DoH، فعليك تثبيت وسيط مثل [dnscrypt-proxy](../dns.md#dnscrypt-proxy) و[ضبطه](https://wiki.archlinux.org/title/Dnscrypt-proxy) لكي يأخذ طلبات الـ DNS من النظام ويمررها عبر HTTPS.
 
-## What can an outside party see?
+## ما الذي يستطيع طرف خارجي رؤيته؟
 
 In this example we will record what happens when we make a DoH request:
 
