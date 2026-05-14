@@ -156,12 +156,14 @@ Firefoxは、Mozillaのウェブサイトからのダウンロードに固有の
 
 「検索候補を表示する」機能は検索をしなくても、アドレスバーに入力した文字をすべてデフォルトの検索エンジンに送信します。 「検索候補を表示する」機能を無効化することで検索エンジンに送る情報をより厳密に決めることができます。
 
-##### Firefox Suggest (アメリカのみ)
+##### Firefox Suggest
 
-[Firefox Suggest](https://support.mozilla.org/kb/firefox-suggest)は「検索候補を表示する」と同様の機能を提供します（アメリカのみで利用可能）。 同じ理由でFirefox suggestも無効化することを推奨します。 **アドレスバー**のヘッダーに以下のオプションが表示されない場合、この機能は提供されていないので、設定を変更する必要はありません。
+[Firefox Suggest](https://support.mozilla.org/kb/firefox-suggest) is a feature similar to search suggestions. 同じ理由でFirefox suggestも無効化することを推奨します。 **アドレスバー**のヘッダーに以下のオプションが表示されない場合、この機能は提供されていないので、設定を変更する必要はありません。
 
 - [ ] **「Firefoxからの提案」**からチェックを外す
 - [ ] **スポンサーからの提案**のチェックを外すこと
+
+> According to Mozilla, ["Certain parts of Firefox Suggest are currently available only in some regions."](https://support.mozilla.org/kb/firefox-suggest)
 
 #### プライバシーとセキュリティ
 

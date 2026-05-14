@@ -156,12 +156,14 @@ Le funzionalità di suggerimento di ricerca potrebbero non essere disponibili ne
 
 I suggerimenti di ricerca inviano tutto ciò che digiti nella barra degli indirizzi al motore di ricerca predefinito, anche se non effettui la ricerca. Disabilitare i suggerimenti di ricerca ti consente di controllare con maggiore precisione i dati inviati al fornitore del motore di ricerca.
 
-##### Firefox Suggest (solo USA)
+##### Firefox Suggest
 
-[Firefox Suggest](https://support.mozilla.org/kb/firefox-suggest) è una funzionalità simile ai suggerimenti di ricerca, disponibile solo negli Stati Uniti. Consigliamo di disattivarla per lo stesso motivo per cui consigliamo di disattivare i suggerimenti di ricerca. Se non vedi queste opzioni sotto l'intestazione della **Barra degli indirizzi**, significa che non hai la nuova esperienza e puoi ignorare queste modifiche.
+[Firefox Suggest](https://support.mozilla.org/kb/firefox-suggest) is a feature similar to search suggestions. Consigliamo di disattivarla per lo stesso motivo per cui consigliamo di disattivare i suggerimenti di ricerca. Se non vedi queste opzioni sotto l'intestazione della **Barra degli indirizzi**, significa che non hai la nuova esperienza e puoi ignorare queste modifiche.
 
 - [ ] Deselezionare i **suggerimenti da Firefox**
 - [ ] Rimuovi la spunta da **Suggestions from sponsors**
+
+> According to Mozilla, ["Certain parts of Firefox Suggest are currently available only in some regions."](https://support.mozilla.org/kb/firefox-suggest)
 
 #### Privacy e sicurezza
 

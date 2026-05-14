@@ -159,12 +159,14 @@ Os recursos de sugestão de pesquisa podem não estar disponíveis na sua regiã
 
 As sugestões de pesquisa enviam tudo o que você digita na barra de endereços para o mecanismo de pesquisa padrão, independentemente de você realizar uma pesquisa de fato. Desativar as sugestões de pesquisa permite que você controle com mais precisão quais dados são enviados ao seu provedor de mecanismo de pesquisa.
 
-##### Firefox Suggest (apenas nos EUA)
+##### Firefox Suggest
 
-[Firefox Suggest](https://support.mozilla.org/kb/firefox-suggest) é um recurso semelhante às sugestões de pesquisa, disponível apenas nos EUA. Recomendamos desativá-lo pelo mesmo motivo que sugerimos desativar as sugestões de pesquisa. Se você não ver essas opções sob o cabeçalho **Barra de Endereços**, significa que não possui a nova experiência e pode ignorar essas alterações.
+[Firefox Suggest](https://support.mozilla.org/kb/firefox-suggest) is a feature similar to search suggestions. Recomendamos desativá-lo pelo mesmo motivo que sugerimos desativar as sugestões de pesquisa. Se você não ver essas opções sob o cabeçalho **Barra de Endereços**, significa que não possui a nova experiência e pode ignorar essas alterações.
 
 - [ ] Desmarque **Sugestões de patrocinadores**
 - [ ] Desmarque **Sugestões de patrocinadores**
+
+> According to Mozilla, ["Certain parts of Firefox Suggest are currently available only in some regions."](https://support.mozilla.org/kb/firefox-suggest)
 
 #### Privacidade & Segurança
 

@@ -156,12 +156,14 @@ Functies voor zoeksuggesties zijn mogelijk niet beschikbaar in jouw regio.
 
 Zoeksuggesties sturen alles wat je in de adresbalk typt naar de standaard zoekmachine, ongeacht of je een echte zoekopdracht opgeeft. Door zoeksuggesties uit te schakelen, kan je nauwkeuriger bepalen welke gegevens je naar jouw zoekmachineprovider stuurt.
 
-##### Firefox Suggesties (alleen VS)
+##### Firefox Suggest
 
-[Firefox Suggest](https://support.mozilla.org/kb/firefox-suggest) is een functie die lijkt op zoeksuggesties, maar is alleen beschikbaar in de VS. We raden aan deze functie uit te schakelen om dezelfde reden waarom we aanraden zoeksuggesties uit te schakelen. Als je deze opties niet ziet onder de **adresbalk**, heb je de nieuwe ervaring niet en kun je deze wijzigingen negeren.
+[Firefox Suggest](https://support.mozilla.org/kb/firefox-suggest) is a feature similar to search suggestions. We raden aan deze functie uit te schakelen om dezelfde reden waarom we aanraden zoeksuggesties uit te schakelen. Als je deze opties niet ziet onder de **adresbalk**, heb je de nieuwe ervaring niet en kun je deze wijzigingen negeren.
 
 - [ ] Deselecteer **Suggesties van Firefox**
 - [ ] Deselecteer **Suggesties van sponsors**
+
+> According to Mozilla, ["Certain parts of Firefox Suggest are currently available only in some regions."](https://support.mozilla.org/kb/firefox-suggest)
 
 #### Privacy & beveiliging
 

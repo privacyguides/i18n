@@ -156,12 +156,14 @@ Fitur saran pencarian mungkin tidak tersedia di wilayah Anda.
 
 Saran pencarian mengirimkan semua yang Anda ketik di bilah alamat ke mesin pencarian default, terlepas dari apakah Anda mengirimkan pencarian yang sebenarnya. Dengan menonaktifkan saran pencarian, Anda dapat mengontrol data yang Anda kirimkan ke penyedia mesin pencari dengan lebih tepat.
 
-##### Firefox Suggest (hanya di AS)
+##### Firefox Suggest
 
-[Firefox Suggest](https://support.mozilla.org/kb/firefox-suggest) adalah fitur yang mirip dengan saran pencarian yang hanya tersedia di AS. Kami sarankan untuk menonaktifkannya karena alasan yang sama dengan menonaktifkan saran pencarian. Jika Anda tidak melihat opsi-opsi ini di bawah tajuk **Address Bar**, Anda tidak memiliki "new experience" dan dapat mengabaikan perubahan ini.
+[Firefox Suggest](https://support.mozilla.org/kb/firefox-suggest) is a feature similar to search suggestions. Kami sarankan untuk menonaktifkannya karena alasan yang sama dengan menonaktifkan saran pencarian. Jika Anda tidak melihat opsi-opsi ini di bawah tajuk **Address Bar**, Anda tidak memiliki "new experience" dan dapat mengabaikan perubahan ini.
 
 - [ ] Hapus centang **Suggestions from Firefox**
 - [ ] Hapus centang **Suggestions from sponsors**
+
+> According to Mozilla, ["Certain parts of Firefox Suggest are currently available only in some regions."](https://support.mozilla.org/kb/firefox-suggest)
 
 #### Privasi & Keamanan
 

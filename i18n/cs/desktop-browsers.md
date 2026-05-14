@@ -156,12 +156,14 @@ Funkce návrhů našeptávače nemusí být ve vaší oblasti dostupná.
 
 Návrhy našeptávače odesílají všechno, co napíšete do adresního řádku, výchozímu vyhledávači, bez ohledu na to, jestli požadavek opravdu zadáte. Vypnutí našeptávače vám umožní přesněji kontrolovat, jaká data posíláte svému poskytovateli vyhledávače.
 
-##### Firefox Suggest (pouze pro USA)
+##### Firefox Suggest
 
-[Firefox Suggest](https://support.mozilla.org/kb/firefox-suggest) je funkce podobná návrhům našeptávače, která je dostupná pouze v USA. Doporučujeme ji vypnout ze stejného důvodu jako našeptávač. Pokud nevidíte tyto možnosti v záhlaví **adresního řádku**, tato funkce se vás netýká a můžete tato nastavení ignorovat.
+[Firefox Suggest](https://support.mozilla.org/kb/firefox-suggest) is a feature similar to search suggestions. Doporučujeme ji vypnout ze stejného důvodu jako našeptávač. Pokud nevidíte tyto možnosti v záhlaví **adresního řádku**, tato funkce se vás netýká a můžete tato nastavení ignorovat.
 
 - [ ] Odškrtněte **Doporučení od Firefoxu**
 - [ ] Odšrtněte **Doporučení od sponzorů**
+
+> According to Mozilla, ["Certain parts of Firefox Suggest are currently available only in some regions."](https://support.mozilla.org/kb/firefox-suggest)
 
 #### Soukromí a zabezpečení
 

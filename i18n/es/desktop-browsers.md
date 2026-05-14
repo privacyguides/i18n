@@ -156,12 +156,14 @@ Es posible que las funciones de sugerencia de búsqueda no estén disponibles en
 
 Las sugerencias de búsqueda envían todo lo que escribes en la barra de direcciones al motor de búsqueda predeterminado, independientemente de si realizas una búsqueda real. Desactivar las sugerencias de búsqueda te permite controlar con mayor precisión qué datos envías al proveedor de tu motor de búsqueda.
 
-##### Firefox Suggest (solo en EE. UU.)
+##### Firefox Suggest
 
-[Firefox Suggest](https://support.mozilla.org/kb/firefox-suggest) es una función similar a las sugerencias de búsqueda que solo está disponible en Estados Unidos. Recomendamos desactivarlo por la misma razón que recomendamos desactivar las sugerencias de búsqueda. Si no ves estas opciones en el encabezado de la **Barra de Direcciones**, no tienes la nueva experiencia y puedes ignorar estos cambios.
+[Firefox Suggest](https://support.mozilla.org/kb/firefox-suggest) is a feature similar to search suggestions. Recomendamos desactivarlo por la misma razón que recomendamos desactivar las sugerencias de búsqueda. Si no ves estas opciones en el encabezado de la **Barra de Direcciones**, no tienes la nueva experiencia y puedes ignorar estos cambios.
 
 - [ ] Desmarca **Sugerencias de Firefox**
 - [ ] Desmarca **Sugerencias de los patrocinadores**
+
+> According to Mozilla, ["Certain parts of Firefox Suggest are currently available only in some regions."](https://support.mozilla.org/kb/firefox-suggest)
 
 #### Privacidad & Seguridad
 

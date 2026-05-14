@@ -156,12 +156,14 @@ Suchvorschläge sind in deiner Region möglicherweise nicht verfügbar.
 
 Suchvorschläge senden alles, was du in die Adressleiste eingibst, an die Standardsuchmaschine, unabhängig davon, ob du die Suche tatsächlich durchführst. Indem du die Suchvorschläge deaktivierst, kannst du präziser kontrollieren, welche Daten an den Suchmaschinenanbieter gesendet werden.
 
-##### Firefox Suggest (nur US)
+##### Firefox Suggest
 
-[Firefox Suggest](https://support.mozilla.org/kb/firefox-suggest) ist eine Funktion, die Suchvorschlägen ähnelt und nur in den USA verfügbar ist. Wir empfehlen, sie aus demselben Grund zu deaktivieren, aus dem wir auch empfehlen, Suchvorschläge zu deaktivieren. Wenn du diese Optionen im Abschnitt **Adressleiste** nicht siehst, ist dieses neue Feature bei dir noch nicht verfügbar, du kannst die beschriebenen Änderungen also ignorieren.
+[Firefox Suggest](https://support.mozilla.org/kb/firefox-suggest) is a feature similar to search suggestions. Wir empfehlen, sie aus demselben Grund zu deaktivieren, aus dem wir auch empfehlen, Suchvorschläge zu deaktivieren. Wenn du diese Optionen im Abschnitt **Adressleiste** nicht siehst, ist dieses neue Feature bei dir noch nicht verfügbar, du kannst die beschriebenen Änderungen also ignorieren.
 
 - [ ] Deaktiviere **Vorschläge von Firefox**
 - [ ] Deaktiviere **Vorschläge von Sponsoren**
+
+> According to Mozilla, ["Certain parts of Firefox Suggest are currently available only in some regions."](https://support.mozilla.org/kb/firefox-suggest)
 
 #### Datenschutz & Sicherheit
 

@@ -156,12 +156,14 @@ Funkcje podpowiedzi wyszukiwania mogą nie być dostępne w Twoim regionie.
 
 Podpowiedzi wyszukiwania powodują, że wszystko, co wpisujesz w pasku adresu, jest wysyłane do domyślnej wyszukiwarki – niezależnie od tego, czy faktycznie wysyłasz zapytanie. Wyłączenie podpowiedzi pozwala dokładniej kontrolować, jakie dane przekazujesz dostawcy wyszukiwarki.
 
-##### Firefox Suggest (tylko w USA)
+##### Firefox Suggest
 
-[Firefox Suggest](https://support.mozilla.org/kb/firefox-suggest) to funkcja podobna do podpowiedzi wyszukiwania, dostępna wyłącznie w Stanach Zjednoczonych. Zalecamy jej wyłączenie z tego samego powodu, dla którego zalecamy wyłączenie podpowiedzi wyszukiwania. Jeśli nie widzisz tych opcji w sekcji **Pasek adresu**, oznacza to, że nie masz tej funkcji i możesz zignorować te zmiany.
+[Firefox Suggest](https://support.mozilla.org/kb/firefox-suggest) is a feature similar to search suggestions. Zalecamy jej wyłączenie z tego samego powodu, dla którego zalecamy wyłączenie podpowiedzi wyszukiwania. Jeśli nie widzisz tych opcji w sekcji **Pasek adresu**, oznacza to, że nie masz tej funkcji i możesz zignorować te zmiany.
 
 - [ ] Odznacz **Sugestie od Firefoksa**
 - [ ] Odznacz **Sugestie od sponsorów**
+
+> According to Mozilla, ["Certain parts of Firefox Suggest are currently available only in some regions."](https://support.mozilla.org/kb/firefox-suggest)
 
 #### Prywatność i bezpieczeństwo
 
