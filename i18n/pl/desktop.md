@@ -53,6 +53,8 @@ openSUSE Tumbleweed uses [Btrfs](https://en.wikipedia.org/wiki/Btrfs) and [Snapp
 
 </div>
 
+As with the recommendation to avoid X11 in our [criteria](#criteria) for Linux distributions, we recommend avoiding desktop environments that support only the legacy X11 window system (for example, Xfce). Currently, KDE Plasma defaults to X11, but Wayland is supported.
+
 Tumbleweed follows a rolling release model where each update is released as a snapshot of the distribution. Podczas aktualizacji systemu pobierany jest nowy punkt kontrolny. Każdy z nich jest poddawany serii testów przez [openQA](https://openqa.opensuse.org), aby zapewnić o jego jakości.
 
 ### Arch Linux
