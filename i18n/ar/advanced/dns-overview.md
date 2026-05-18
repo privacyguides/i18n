@@ -128,15 +128,15 @@ In this example we will record what happens when we make a DoH request:
 
 ## لماذا **لا ينبغي** لي استخدام DNS مشفر؟
 
-في الأماكن التي تفرض رقابة أو تصفية للإنترنت، قد تترتب على زيارة المصادر المحظورة عواقب خاصة بها، وهو أمر يجب عليك مراعاته في [نموذج التهديد ](../basics/threat-modeling.md)الخاص بك. **لا** نقترح استخدام DNS المشفر لهذا الغرض. استخدم [Tor](../advanced/tor-overview.md) أو [VPN](../vpn.md) بدلا من ذلك. If you're using a VPN, you should use your VPN's DNS servers. When using a VPN, you are already trusting them with all your network activity.
+في الأماكن التي تفرض رقابة أو تصفية للإنترنت، قد تترتب على زيارة المصادر المحظورة عواقب خاصة بها، وهو أمر يجب عليك مراعاته في [نموذج التهديد ](../basics/threat-modeling.md)الخاص بك. **لا** نقترح استخدام DNS المشفر لهذا الغرض. استخدم [Tor](../advanced/tor-overview.md) أو [VPN](../vpn.md) بدلا من ذلك. إذا كنت تستخدم شبكة الـ VPN، فمن الضروري الاعتماد على خوادم الـ DNS الخاصة بمزود الخدمة نفسه. عند استخدام الـ VPN، فإنك تضع ثقتك الكاملة في مزود الخدمة بالفعل، وتأتمنه على كافة أنشطتك وتحركاتك عبر الشبكة.
 
-When we do a DNS lookup, it's generally because we want to access a resource. Below, we will discuss some of the methods that may disclose your browsing activities even when using encrypted DNS:
+عندما نقوم بإجراء استعلام من خلال الـ DNS، فغالبا ما يكون ذلك بسبب رغبتنا في الوصول إلى مصدر معين على الشبكة. في السطور التالية، سنناقش بعض الطرق التي قد تتسبب في كشف أنشطة تصفحك، حتى عند استخدامك لبروتوكول الـ DNS المشفّر:
 
-### IP Address
+### الـ IP Address
 
-The simplest way to determine browsing activity might be to look at the IP addresses your devices are accessing. For example, if the observer knows that `privacyguides.org` is at `198.98.54.105`, and your device is requesting data from `198.98.54.105`, there is a good chance you're visiting Privacy Guides.
+قد تكون أسهل طريقة لمعرفة نشاط تصفحك هي النظر إلى عناوين الـ IP التي تتصل بها أجهزتك. ببساطة، إذا كان من يراقب الشبكة يعلم مسبقا أن عنوان `privacyguides.org` هو `198.98.54.105`، ولاحظ أن جهازك يتصل بهذا العنوان تحديداً، فسوف يستنتج بسهولة أنك تتصفح موقع Privacy Guides.
 
-This method is only useful when the IP address belongs to a server that only hosts few websites. It's also not very useful if the site is hosted on a shared platform (e.g. GitHub Pages, Cloudflare Pages, Netlify, WordPress, Blogger, etc.). It also isn't very useful if the server is hosted behind a [reverse proxy](https://en.wikipedia.org/wiki/Reverse_proxy), which is very common on the modern Internet.
+تكون هذه الطريقة مفيدة فقط عندما ينتمي عنوان الـ IP إلى خادم (Server) يستضيف عددا قليلا من المواقع. It's also not very useful if the site is hosted on a shared platform (e.g. GitHub Pages, Cloudflare Pages, Netlify, WordPress, Blogger, etc.). It also isn't very useful if the server is hosted behind a [reverse proxy](https://en.wikipedia.org/wiki/Reverse_proxy), which is very common on the modern Internet.
 
 ### Server Name Indication (SNI)
 
