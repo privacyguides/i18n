@@ -104,31 +104,31 @@ description: نظام أسماء النطاقات DNS يشبه دليل الها
 
 In this example we will record what happens when we make a DoH request:
 
-1. First, start `tshark`:
+1. أولا، قم بتشغيل أداة `tshark`:
 
     ```bash
     tshark -w /tmp/dns_doh.pcap -f "tcp port https and host 1.1.1.1"
     ```
 
-2. Second, make a request with `curl`:
+2. ثانيا، قم بإرسال طلب باستخدام `curl`:
 
     ```bash
     curl -vI --doh-url https://1.1.1.1/dns-query https://privacyguides.org
     ```
 
-3. After making the request, we can stop the packet capture with <kbd>CTRL</kbd> + <kbd>C</kbd>.
+3. بعد إرسال الطلب، يمكنك إيقاف عملية التقاط الحزم بالضغط (packet capture) على <kbd>CTRL</kbd>+ <kbd>C</kbd>.
 
-4. Analyze the results in Wireshark:
+4. والآن، دعنا نُحلل البيانات التي حصلنا عليها في Wireshark:
 
     ```bash
     wireshark -r /tmp/dns_doh.pcap
     ```
 
-We can see the [connection establishment](https://en.wikipedia.org/wiki/Transmission_Control_Protocol#Connection_establishment) and [TLS handshake](https://cloudflare.com/learning/ssl/what-happens-in-a-tls-handshake) that occurs with any encrypted connection. When looking at the "application data" packets that follow, none of them contain the domain we requested or the IP address returned.
+يمكننا رؤية عملية [إنشاء الاتصال](https://en.wikipedia.org/wiki/Transmission_Control_Protocol#Connection_establishment) و [TLS handshake](https://cloudflare.com/learning/ssl/what-happens-in-a-tls-handshake) التي تحدث مع أي اتصال مشفر. إذا تصفحت حزم البيانات التالية الخاصة بالتطبيق، ستلاحظ أنها لا تُظهر اسم النطاق الذي طلبته ولا عنوان الـ IP الذي رجع إلينا، فالبيانات أصبحت مخفية تماما.
 
-## Why **shouldn't** I use encrypted DNS?
+## لماذا **لا ينبغي** لي استخدام DNS مشفر؟
 
-In locations where there is internet filtering (or censorship), visiting forbidden resources may have its own consequences which you should consider in your [threat model](../basics/threat-modeling.md). We do **not** suggest the use of encrypted DNS for this purpose. Use [Tor](../advanced/tor-overview.md) or a [VPN](../vpn.md) instead. If you're using a VPN, you should use your VPN's DNS servers. When using a VPN, you are already trusting them with all your network activity.
+في الأماكن التي تفرض رقابة أو تصفية للإنترنت، قد تترتب على زيارة المصادر المحظورة عواقب خاصة بها، وهو أمر يجب عليك مراعاته في [نموذج التهديد ](../basics/threat-modeling.md)الخاص بك. **لا** نقترح استخدام DNS المشفر لهذا الغرض. استخدم [Tor](../advanced/tor-overview.md) أو [VPN](../vpn.md) بدلا من ذلك. If you're using a VPN, you should use your VPN's DNS servers. When using a VPN, you are already trusting them with all your network activity.
 
 When we do a DNS lookup, it's generally because we want to access a resource. Below, we will discuss some of the methods that may disclose your browsing activities even when using encrypted DNS:
 

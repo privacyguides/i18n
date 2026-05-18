@@ -83,21 +83,21 @@ description: استعراض سريع لعدد من تصميمات الشبكات
 
 ![رسم توضيحي لإخفاء مسار بياناتك](../assets/img/layout/network-anonymous-routing.svg){ align=left }
 
-A messenger using [anonymous routing](https://doi.org/10.1007/978-1-4419-5906-5_628) hides either the identity of the sender, the receiver, or evidence that they have been communicating. Ideally, a messenger should hide all three.
+عندما يعتمد تطبيق الدردشة على [التوجيه الخفي للبيانات](https://doi.org/10.1007/978-1-4419-5906-5_628)، فإنه يحميك إما بإخفاء هويتك، أو هوية من تراسله، أو حتى إخفاء حقيقة أنكما تتحدثان معا. من الناحية المثالية، يجب أن يُخفي التطبيق الثلاثة معا.
 
-There are [many](https://doi.org/10.1145/3182658) ways to implement anonymous routing. One of the most famous is [onion routing](https://en.wikipedia.org/wiki/Onion_routing) (i.e. [Tor](tor-overview.md)), which communicates encrypted messages through a virtual [overlay network](https://en.wikipedia.org/wiki/Overlay_network) that hides the location of each node as well as the recipient and sender of each message. The sender and recipient never interact directly and only meet through a secret rendezvous node so that there is no leak of IP addresses nor physical location. Nodes cannot decrypt messages, nor the final destination; only the recipient can. Each intermediary node can only decrypt a part that indicates where to send the still encrypted message next, until it arrives at the recipient who can fully decrypt it, hence the "onion layers."
+توجد [وسائل كثيرة ومختلفة](https://doi.org/10.1145/3182658) لحماية وتوجيه بياناتك بشكل خفي. لعل أشهر مثال على ذلك هو نظام التوجيه عبر [طبقات الحماية](https://en.wikipedia.org/wiki/Onion_routing) المعروف باسم شبكة [Tor](tor-overview.md). يقوم هذا النظام بنقل رسائلك المشفرة عبر [شبكة افتراضية](https://en.wikipedia.org/wiki/Overlay_network) ممتدة فوق الإنترنت لتمر بعدة محطات؛ حيث يحجب موقع كل محطة تمر بها الرسالة، ويمنع أي شخص من معرفة مَن أرسلها ومن استلمها. لا يحدث أي اتصال مباشر بينك وبين الطرف الآخر، بل تمر رسائلكما بنقطة التقاء سرية في المنتصف. بهذه الطريقة، يضمن النظام عدم كشف عنوان الـ IP الخاص بك أو موقعك الحقيقي. كل الأجهزة الوسيطة التي تعبرها رسالتك في الطريق عاجزة عن معرفة محتواها، وحتى السيرفر الأخير الذي يستقبلها لا يمكنه ذلك؛ المستلم الفعلي وحده هو من يستطيع فتح الرسالة وقراءتها. كل محطة وسيطة تمر بها الرسالة لا تفك تشفير سوى جزء صغير يحدد لها الوجهة التالية فقط، بينما يظل باقي محتوى الرسالة مشفرا، وتستمر هذه العملية حتى تصل إلى المستلم الفعلي الذي يمكنه قراءتها بالكامل؛ ومن هنا جاءت تسمية 'الطبقات المتراكبة'.
 
-Self-hosting a node in an anonymous routing network does not provide the host with additional privacy benefits, but rather contributes to the whole network's resilience against identification attacks for everyone's benefit.
+أن تشغل بنفسك جهازا وسيطا لدعم شبكات الحماية والخصوصية لن يعطيك خصوصية أكبر من بقية المستخدمين، لكن قيمته الحقيقية هي أنه يجعل الشبكة بأكملها أقوى وأكثر أمانا ضد محاولات التجسس وكشف الهوية، مما يفيد الجميع في النهاية.
 
 **ما الذي يميزها:**
 
-- Minimal to no information is exposed to other parties.
-- Messages can be relayed in a decentralized manner even if one of the parties is offline.
+- لا يتم كشف أي معلومات تقريباً للجهات الخارجية، أو يقتصر الأمر على أقل قدر ممكن منها.
+- يمكن نقل الرسائل وتوصيلها دون الحاجة لسيرفر مركزي، حتى لو كان أحد الطرفين غير متصل بالإنترنت.
 
 **العيوب:**
 
-- Slow message propagation.
-- Often limited to fewer media types, mostly text, since the network is slow.
-- Less reliable if nodes are selected by randomized routing, some nodes may be very far from the sender and receiver, adding latency or even failing to transmit messages if one of the nodes goes offline.
-- More complex to get started, as the creation and secured backup of a cryptographic private key is required.
-- Just like other decentralized platforms, adding features is more complex for developers than on a centralized platform. Hence, features may be lacking or incompletely implemented, such as offline message relaying or message deletion.
+- تأخر في وصول الرسائل.
+- غالبا ما يقتصر الأمر على إرسال النصوص فقط، نظرا لأن الشبكة بطيئة ولا تتحمل ملفات الوسائط الكبيرة.
+- قد يكون النظام أقل استقرارا عندما يتم اختيار مسارات الرسائل بشكل عشوائي؛ فبعض الأجهزة الوسيطة قد تكون بعيدة جدا عنك وعن الطرف الآخر، مما يسبب تأخيرا في وصول الرسائل، أو حتى فشل إرسالها تماما إذا انقطع اتصال أحد هذه الأجهزة بالإنترنت.
+- خطوات البداية أكثر تعقيدا؛ حيث يتطلب الأمر إنشاء مفتاح تشفير خاص بك وحفظ نسخة احتياطية منه بشكل آمن تماما.
+- تماما كغيرها من الأنظمة اللامركزية، فإن إضافة ميزات جديدة تكون أكثر تعقيدا على المطورين مقارنة بالمنصات المركزية. ونتيجة لذلك، قد تفتقر المنصة لبعض الميزات أو تجدها غير مكتملة التطوير، مثل ميزة تمرير الرسائل في حالة عدم الاتصال أو خاصية حذف الرسائل.
