@@ -31,7 +31,7 @@ description: استعراض سريع لعدد من تصميمات الشبكات
 - اذا كانت الخدمة بيد جهة واحدة، فمن السهل ان تتبدل [ملكيتها](https://web.archive.org/web/20210729191953/https://blog.privacytools.io/delisting-wire)او سياسة الخصوصية او اسلوب ادارتها، ومع الوقت قد ينعكس ذلك سلبا على خصوصية المستخدمين.
 - الاستضافة الذاتية ليست دائما سهلة، فهي تحتاج بعض المعرفة التقنية وجهدا في الاعداد.
 
-## شبكات خوادم متعددة مترابطة
+## شبكات متعددة الخوادم
 
 ![شكل يوضح شبكات متعددة الخوادم](../assets/img/layout/network-decentralized.svg){ align=left }
 
@@ -56,7 +56,7 @@ description: استعراض سريع لعدد من تصميمات الشبكات
 
 ## شبكات اتصال مباشر بين الاجهزة (Peer-to-Peer Networks)
 
-![P2P diagram](../assets/img/layout/network-distributed.svg){ align=left }
+![مخطط شبكات اتصال مباشر بين المستخدمين](../assets/img/layout/network-distributed.svg){ align=left }
 
 في تطبيقات المراسلة ذات الاتصال المباشر، يتم تمرير الرسالة عبر [شبكة موزعة](https://en.wikipedia.org/wiki/Distributed_networking) من العقد حتى تصل للمستلم، من غير وجود خادم مركزي لطرف ثالث.
 
@@ -68,20 +68,20 @@ description: استعراض سريع لعدد من تصميمات الشبكات
 
 **ما الذي يميزها:**
 
-- Minimal information is exposed to third-parties.
-- Modern P2P platforms implement E2EE by default. There are no servers that could potentially intercept and decrypt your transmissions, unlike centralized and federated models.
+- يتم كشف الحد الأدنى من المعلومات لأطراف ثالثة.
+- تعتمد منصات الاتصال المباشر (P2P) الحديثة على التشفير من الطرفين تلقائيا لحماية خصوصيتك. لا توجد خوادم وسيطة يمكنها اعتراض أو قراءة بياناتك، على عكس الأنظمة التقليدية.
 
 **العيوب:**
 
-- Reduced feature set:
-- Messages can only be sent when both peers are online, however, your client may store messages locally to wait for the contact to return online.
-- Generally increases battery usage on mobile devices, because the client must stay connected to the distributed network to learn about who is online.
-- Some common messenger features may not be implemented or incompletely, such as message deletion.
-- Your IP address and that of the contacts you're communicating with may be exposed if you do not use the software in conjunction with a [VPN](../vpn.md) or [Tor](../tor.md). Many countries have some form of mass surveillance and/or metadata retention.
+- خيارات وإضافات أقل:
+- يجب أن تكون أنت ومُستقبِل الرسالة متصلين بالإنترنت معاً لتصل رسائلك. ولكن لا تقلق، يمكن للتطبيق حفظ رسالتك على جهازك وإرسالها تلقائيا بمجرد اتصال الشخص الآخر.
+- قد تلاحظ استهلاكا أسرع لبطارية هاتفك، والسبب ببساطة أن التطبيق يعمل بشكل دائم في الخلفية ليتأكد من حالة اتصال الآخرين.
+- قد تفتقد بعض الميزات التي تعودت عليها في تطبيقات المراسلة العادية، مثل حذف الرسائل، أو قد تجدها لا تعمل بنفس الكفاءة.
+- انتبه، قد يظهر عنوانك الرقمي (IP) وعناوين من تراسلهم للعلن، إلا إذا قمت بحماية اتصالك باستخدام [VPN ](../vpn.md)أو [Tor](../tor.md). تقوم الكثير من الدول بمراقبة الإنترنت على نطاق واسع، أو على الأقل تحتفظ بسجلات تُظهر مع من تتواصل ومتى.
 
-## Anonymous Routing
+## إخفاء مسار بياناتك
 
-![Anonymous routing diagram](../assets/img/layout/network-anonymous-routing.svg){ align=left }
+![رسم توضيحي لإخفاء مسار بياناتك](../assets/img/layout/network-anonymous-routing.svg){ align=left }
 
 A messenger using [anonymous routing](https://doi.org/10.1007/978-1-4419-5906-5_628) hides either the identity of the sender, the receiver, or evidence that they have been communicating. Ideally, a messenger should hide all three.
 
