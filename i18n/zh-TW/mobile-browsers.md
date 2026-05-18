@@ -27,26 +27,14 @@ schema:
   - 
     "@context": http://schema.org
     "@type": MobileApplication
-    name: Cromite
-    image: /assets/img/browsers/cromite.svg
-    url: https://cromite.org
-    applicationCategory: Web Browser
-    operatingSystem:
-      - Android
-    subjectOf:
-      "@type": 網頁
-      url: "./"
-  - 
-    "@context": http://schema.org
-    "@type": MobileApplication
     name: Safari
     image: /assets/img/browsers/safari.svg
     url: https://apple.com/safari
-    applicationCategory: 網路瀏覽器
+    applicationCategory: Web Browser
     operatingSystem:
       - iOS
     subjectOf:
-      "@type": WebPage
+      "@type": 網頁
       url: "./"
 ---
 
@@ -204,67 +192,6 @@ Brave 的[防護 (Shields)](https://support.brave.com/hc/articles/360022973471-W
 #### Brave 同步
 
 [Brave 同步](https://support.brave.com/hc/articles/360059793111-Understanding-Brave-Sync) 可在不同裝置上存取瀏覽數據 (歷史記錄，書籤等)，無需帳戶且受 E2EE 保護。
-
-## Cromite (Android)
-
-<div class="admonition recommendation" markdown>
-
-![Cromite 標誌](assets/img/browsers/cromite.svg){ align=right }
-
-**Cromite** 是一個基於 Chromium 的瀏覽器，內建廣告封鎖、指紋保護及其他[隱私與安全強化功能](https://github.com/uazo/cromite/blob/master/docs/FEATURES.md)。 它是已停止維護的 **Bromite** 瀏覽器之分支。
-
-[:octicons-home-16: 首頁](https://cromite.org){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://github.com/uazo/cromite/blob/master/docs/PRIVACY_POLICY.md){ .card-link title="隱私權政策" }
-[:octicons-info-16:](https://github.com/uazo/cromite?tab=readme-ov-file#docs){ .card-link title="文件" }
-[:octicons-code-16:](https://github.com/uazo/cromite){ .card-link title="原始碼" }
-
-<details class="downloads" markdown>
-<summary>下載</summary>
-
-- [:simple-android: F-Droid](https://cromite.org/fdroid/repo/?fingerprint=49F37E74DEE483DCA2B991334FB5A0200787430D0B5F9A783DD5F13695E9517B)
-- [:simple-github: GitHub](https://github.com/uazo/cromite/releases/latest)
-
-</details>
-
-</div>
-
-### 建議的設定
-
-這些選項可以在 :material-menu: → :gear: **設定** → **隱私權和安全性** 中找到。
-
-#### 瀏覽資料
-
-- [x] 勾選 **Close all open tabs on exit**
-
-#### 無痕模式
-
-- [x] 勾選 **Open external links in incognito**
-
-#### 安全性
-
-- [x] 勾選 **一律使用安全連線**
-
-這可以防止您無意間以明文 HTTP 連線到網站。 如今，僅支援 HTTP 的網站已不多見，因此這對您日常瀏覽的影響幾乎沒有影響。
-
-#### Adblock Plus 設定
-
-這些選項可以在 :material-menu: → :gear: **設定** → **Adblock Plus settings** 中找到。
-
-Cromite 包含 Adblock Plus 的客製化版本，預設啟用 EasyList，您也可以在**過濾規則清單**選單中選取更多過濾規則清單。
-
-使用額外的清單將使您從其他 Cromite 使用者中脫穎而出，並且如果瀏覽器存在漏洞，而您使用的清單之一被加入了惡意規則，也可能會增加攻擊面。
-
-- \[x\] (選擇性) 勾選 **Enable anti-circumvention and snippets**
-
-此設定會新增額外的 Adblock Plus 清單，可能會提高 Cromite 封鎖內容的效能。 關於從其他使用者中脫穎而出和潛在增加攻擊面的警告仍然適用。
-
-#### 舊版 Adblock 設定
-
-這些選項可以在 :material-menu: → :gear: **設定** → **Legacy Adblock settings** 中找到。
-
-- [x] 勾選 Autoupdate disabled
-
-這會停用對已停止維護的 Bromite 廣告過濾器的更新檢查。
 
 ## Safari (iOS)
 

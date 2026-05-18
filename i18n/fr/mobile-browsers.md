@@ -27,26 +27,14 @@ schema:
   - 
     "@context": http://schema.org
     "@type": MobileApplication
-    name: Cromite
-    image: /assets/img/browsers/cromite.svg
-    url: https://cromite.org
-    applicationCategory: Web Browser
-    operatingSystem:
-      - Android
-    subjectOf:
-      "@type": WebPage
-      url: "./"
-  - 
-    "@context": http://schema.org
-    "@type": MobileApplication
     name: Safari
     image: /assets/img/browsers/safari.svg
     url: https://apple.com/safari
-    applicationCategory: Navigateur Internet
+    applicationCategory: Web Browser
     operatingSystem:
       - iOS
     subjectOf:
-      "@type": Page Web
+      "@type": WebPage
       url: "./"
 ---
 
@@ -204,67 +192,6 @@ Ces options se trouvent dans :material-menu:/:fontawesome-solid-ellipsis: → **
 #### Brave Sync
 
 La [Synchronisation Brave](https://support.brave.com/hc/articles/360059793111-Understanding-Brave-Sync) permet à vos données de navigation (historique, favoris, etc.) d'être accessibles sur tous vos appareils sans nécessiter de compte et les protège avec E2EE.
-
-## Cromite (Android)
-
-<div class="admonition recommendation" markdown>
-
-![logo de Cromite](assets/img/browsers/cromite.svg){ align=right }
-
-**Cromite** est un navigateur basé sur Chromium qui intègre le blocage des publicités, des protections contre l'empreinte digitale, et d'autres [améliorations en matière de confidentialité et de sécurité](https://github.com/uazo/cromite/blob/master/docs/FEATURES.md). Il s'agit d'une version dérivée du navigateur populaire Bromite, aujourd'hui abandonné.
-
-[:octicons-home-16: Page d'accueil](https://cromite.org){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://github.com/uazo/cromite/blob/master/docs/PRIVACY_POLICY.md){ .card-link title="Politique de confidentialité" }
-[:octicons-info-16:](https://github.com/uazo/cromite?tab=readme-ov-file#docs){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/uazo/cromite){ .card-link title="Code source" }
-
-<details class="downloads" markdown>
-<summary>Téléchargements</summary>
-
- [:simple-android: F-Droid](https://cromite.org/fdroid/repo/?fingerprint=49F37E74DEE483DCA2B991334FB5A0200787430D0B5F9A783DD5F13695E9517B)
-- [:simple-github: GitHub](https://github.com/uazo/cromite/releases/latest)
-
-</details>
-
-</div>
-
-### Configuration recommandée
-
-Ces options se trouvent dans :material-menu: -> :gear: **Paramètres** -> **Vie privée et sécurité**.
-
-#### Données de navigation
-
-- [x] Cochez **Fermer les onglets en quittant**
-
-#### Mode navigation privée
-
-- [x] Cochez **Ouvrir les liens externes en mode navigation privée**
-
-#### Sécurité
-
-- [x] Cochez **Toujours utiliser une connexion sécurisée**
-
-Cela vous empêche de vous connecter involontairement à un site Web en "clair" HTTP. Les sites sans HTTPS sont rares de nos jours. Cela ne devrait donc avoir que peu ou pas d'impact sur votre navigation quotidienne.
-
-#### Paramètres d'Adblock Plus
-
-Ces options se trouvent dans :material-menu: → :gear:**Paramètres** → **Paramètres d'Adblock Plus**.
-
-Cromite inclus une version personnalisée d'Adblock Plus avec EasyList activé par défaut, ainsi que des options pour sélectionner d'autres listes de filtres dans le menu **Listes de filtres**.
-
-L'utilisation de listes supplémentaires vous distinguera des autres utilisateurs de Brave et peut également augmenter la surface d'attaque s'il y a une faille dans Brave et qu'une règle malveillante est ajoutée à l'une des listes que vous utilisez.
-
-- \[x\] (Facultatif) Sélectionnez **Activer l'anti-contournement et les snippets**
-
-Ce paramètre ajoute une liste Adblock Plus supplémentaire qui peut augmenter l'efficacité du blocage de contenu de Cromite. Les mises en garde concernant le fait de se démarquer et d'augmenter potentiellement la surface d'attaque s'appliquent.
-
-#### Paramètres Adblock Plus
-
-Ces options se trouvent dans :material-menu: → :gear:**Paramètres** → **Paramètres d'Adblock Plus**.
-
-- [ ] Décocher le paramètre de mise à jour automatique
-
-Ceci désactive les vérifications de mise à jour pour le filtre adblock obsolète Bromite .
 
 ## Safari (iOS)
 

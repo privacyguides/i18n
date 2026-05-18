@@ -90,22 +90,14 @@ Pour avoir plus de détails sur chaque projet, pour savoir pourquoi ils ont ét�
 
     **Brave** est un navigateur "privacy by default" basé sur Chromium, il devrait donc être familier et avoir peu de problèmes de compatibilité avec les sites web.
 
-    - [Présentation de Brave Desktop :material-arrow-right-drop-circle:](desktop-browsers.md#brave)
-    - [Présentation de Brave Mobile :material-arrow-right-drop-circle:](mobile-browsers.md#brave)
+    - [Brave Desktop Review :material-arrow-right-drop-circle:](desktop-browsers.md#brave)
+    - [Brave Mobile Review :material-arrow-right-drop-circle:](mobile-browsers.md#brave)
 
-- ![Logo de Cromite](assets/img/browsers/cromite.svg){ .lg .middle .twemoji } **Cromite (Android)**
-
-    ---
-
-    **Cromite** est un navigateur Android basé sur Chromium avec un bloqueur de publicité intégré et des [améliorations en termes de protection de la vie privée](https://github.com/uazo/cromite/blob/master/docs/FEATURES.md). Il s'agit d'une version dérivée du navigateur populaire Bromite, aujourd'hui abandonné.
-
-    - [Notre présentation complète :material-arrow-right-drop-circle:](mobile-browsers.md#cromite-android)
-
-- ![Logo de Safari](assets/img/browsers/safari.svg){ .lg .middle .twemoji } **Safari (iOS)**
+- ![Safari logo](assets/img/browsers/safari.svg){ .lg .middle .twemoji } **Safari (iOS)**
 
     ---
 
-    Nous recommandons **Safari** en raison de ses fonctionnalités [anti-fingerprinting](https://webkit.org/blog/15697/private-browsing-2-0) et de son blocage par défaut des trackers. Il sépare également vos cookies en mode de navigation privée pour éviter le suivi entre les onglets.
+    We recommend **Safari** due to its [anti-fingerprinting](https://webkit.org/blog/15697/private-browsing-2-0) features and default tracker blocking. Il sépare également vos cookies en mode de navigation privée pour éviter le suivi entre les onglets.
 
     - [Notre présentation complète :material-arrow-right-drop-circle:](mobile-browsers.md#safari-ios)
 

@@ -27,26 +27,14 @@ schema:
   - 
     "@context": http://schema.org
     "@type": MobileApplication
-    name: Cromite
-    image: /assets/img/browsers/cromite.svg
-    url: https://cromite.org
-    applicationCategory: Web Browser
-    operatingSystem:
-      - Android
-    subjectOf:
-      "@type": WebPage
-      url: "./"
-  - 
-    "@context": http://schema.org
-    "@type": Aplicativo Móvel
     name: Safari
     image: /assets/img/browsers/safari.svg
     url: https://apple.com/safari
-    applicationCategory: Navegador de Internet
+    applicationCategory: Web Browser
     operatingSystem:
       - iOS
     subjectOf:
-      "@type": Página da Web
+      "@type": WebPage
       url: "./"
 ---
 
@@ -204,67 +192,6 @@ Essas opções podem ser encontradas em :material-menu:/:fontawesome-solid-ellip
 #### Sincronização do Brave
 
 O [Brave Sync](https://support.brave.com/hc/articles/360059793111-Understanding-Brave-Sync) permite que os seus dados de navegação (histórico, marcadores, etc.) sejam acessíveis em todos os seus dispositivos sem necessidade de uma conta e protege-os com E2EE.
-
-## Cromite (Android)
-
-<div class="admonition recommendation" markdown>
-
-![Logotipo da Cromite](assets/img/browsers/cromite.svg){ align=right }
-
-**Cromite** é um navegador baseado no Chromium (fork do Chrome) com bloqueio de anúncios incorporado, proteções de impressão digital e outros [aprimoramentos de privacidade e segurança](https://github.com/uazo/cromite/blob/master/docs/FEATURES.md). É um <em>fork</em> do navegador **Bromite**.
-
-[:octicons-home-16: Repositório](https://cromite.org){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://github.com/uazo/cromite/blob/master/docs/PRIVACY_POLICY.md){ .card-link title="Política de Privacidade" }
-[:octicons-info-16:](https://github.com/uazo/cromite?tab=readme-ov-file#docs){ .card-link title=Documentação}
-[:octicons-code-16:](https://github.com/uazo/cromite){ .card-link title="Código-fonte" }
-
-<details class="downloads" markdown>
-<summary>Downloads</summary>
-
-- [:simple-android: F-Droid](https://cromite.org/fdroid/repo/?fingerprint=49F37E74DEE483DCA2B991334FB5A0200787430D0B5F9A783DD5F13695E9517B)
-- [:simple-github: GitHub](https://github.com/uazo/cromite/releases/latest)
-
-</details>
-
-</div>
-
-### Firefox
-
-Essas opções podem ser encontradas em :material-menu: → **Configurações** → **Privacidade  Segurança**.
-
-#### Dados de navegação
-
-- [x] Selecione **Fechar guias ao sair**
-
-#### Modo incógnito (navegação "anônima")
-
-- [x] Selecione **Abrir links externos no modo de navegação anônima**
-
-#### Segurança
-
-- [x] Selecione **Sempre usar conexões seguras**
-
-Isso impede que você se conecte involuntariamente a um site usando HTTP em texto simples. Sites sem HTTPS são raros hoje em dia, portanto, isso deve ter pouco ou nenhum impacto na sua navegação diária.
-
-#### Configurações do AdBlock Plus
-
-Essas opções podem ser encontradas em :material-menu:/:gear: → **Settings** → **Search engines**.
-
-O Cromite contém uma versão personalizada do Adblock Plus com o EasyList ativado por padrão, bem como opções para selecionar mais listas de filtros no menu **Listas de filtros**.
-
-Utilizar listas complementares fará com que sua máquina se destaque na rede em relação aos outros usuários do Brave e pode aumentar as chances de ataque se houver uma vulnerabilidade no Brave ou uma regra maliciosa estiver presente em uma das listas que você utiliza.
-
-- \[x\] (Opcional) Selecione **Enable anti-circumvention and snippets (Ativar anti-circunvenção e trechos**)
-
-Essa configuração adiciona uma lista adicional do Adblock Plus que pode aumentar a eficácia do bloqueio de conteúdo da Cromite. Aplicam-se os avisos sobre permanência e potencialmente aumento da superfície de ataque.
-
-#### Configurações antigas do Adblock
-
-Essas opções podem ser encontradas em :material-menu:/:gear: → **Settings** → **Search engines**.
-
-- [ ] Desmarque a configuração de atualização automática
-
-Isso desativa as verificações de atualização do filtro de bloqueio de anúncios Bromite não atualizado.
 
 ## Safari (iOS)
 

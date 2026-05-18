@@ -27,18 +27,6 @@ schema:
   - 
     "@context": http://schema.org
     "@type": MobileApplication
-    name: Cromite
-    image: /assets/img/browsers/cromite.svg
-    url: https://cromite.org
-    applicationCategory: Web Browser
-    operatingSystem:
-      - Android
-    subjectOf:
-      "@type": WebPage
-      url: "./"
-  - 
-    "@context": http://schema.org
-    "@type": MobileApplication
     name: Safari
     image: /assets/img/browsers/safari.svg
     url: https://apple.com/safari
@@ -204,67 +192,6 @@ Braveの[シールド](https://support.brave.com/hc/articles/360022973471-What-i
 #### Brave Sync
 
 [Brave Sync](https://support.brave.com/hc/articles/360059793111-Understanding-Brave-Sync)により、ブラウジングデータ（履歴、ブックマークなど）をすべてのデバイスで利用可能にします。アカウントは不要でE2EE（エンドツーエンド暗号化）で保護されます。
-
-## Cromite(Android)
-
-<div class="admonition recommendation" markdown>
-
-![Cromite logo](assets/img/browsers/cromite.svg){ align=right }
-
-**Cromite**はビルトインの広告ブロック、フィンガープリンティングの保護や[プライバシーとセキュリティが強化](https://github.com/uazo/cromite/blob/master/docs/FEATURES.md)されたChromiumベースのブラウザです。 更新停止となった**Bromite**ブラウザーのフォークです。
-
-[:octicons-home-16: ウェブページ](https://cromite.org){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://github.com/uazo/cromite/blob/master/docs/PRIVACY_POLICY.md){ .card-link title="プライバシーポリシー" }
-[:octicons-info-16:](https://github.com/uazo/cromite?tab=readme-ov-file#docs){ .card-link title="ドキュメント" }
-[:octicons-code-16:](https://github.com/uazo/cromite){ .card-link title="ソースコード" }
-
-<details class="downloads" markdown>
-<summary>ダウンロード</summary>
-
-- [:simple-android: F-Droid](https://cromite.org/fdroid/repo/?fingerprint=49F37E74DEE483DCA2B991334FB5A0200787430D0B5F9A783DD5F13695E9517B)
-- [:simple-github: GitHub](https://github.com/uazo/cromite/releases/latest)
-
-</details>
-
-</div>
-
-### 推奨する設定
-
-以下のオプションは:material-menu: → :gear: **設定** → **プライバシーとセキュリティ**にあります。
-
-#### Browsing data
-
-- [x] **Close all open tabs on exit**を選択
-
-#### シークレットモード
-
-- [x] **Open external links in incognito**を選択
-
-#### セキュリティー
-
-- [x] **常に安全な接続を使用する**を選択
-
-この機能により、意図せずプレーンテキストのHTTPでウェブサイトに接続することを防ぎます。 現在ではHTTPはほとんど使用されていないため、通常のブラウジングにおいて影響がでることはほとんどありません。
-
-#### Adblock Plus settings
-
-以下のオプションは:material-menu: → :gear: **設定** → **Adblock Plus settings**にあります。
-
-Cromiteには標準でEasyListを有効にしたカスタマイズされたAdblock Plusがあり、**Filter lists**メニューから追加のフィルターリストを選択することもできます。
-
-追加のリストを使用した場合、他のCromiteユーザーよりも目立つようになり、追加したルールに悪意のあるルールが追加された場合に、アタックサーフェスが増える可能性があります。
-
-- [x] （任意）**Enable anti-circumvention and snippets**を選択
-
-追加のAdblock Plusのリストが使用され、Cromiteのコンテンツブロックがより効果的になる可能性があります。 ただし、潜在的なアタックサーフェスが増える可能性はあります。
-
-#### Legacy Adblock settings
-
-以下のオプションは:material-menu: → :gear: **設定** → **Legacy Adblock settings**にあります。
-
-- [ ] Autoupdate settingのチェックを外す
-
-Bromiteの更新されていない広告フィルタへのアップデートを無効にします。
 
 ## Safari (iOS)
 

@@ -90,19 +90,11 @@ Anonimliğe ihtiyacınız varsa **Tor Browser** (Masaüstü ve Android) en iyi s
     - [Brave Desktop Review :material-arrow-right-drop-circle:](desktop-browsers.md#brave)
     - [Brave Mobile Review :material-arrow-right-drop-circle:](mobile-browsers.md#brave)
 
-- ![Cromite logosu](assets/img/browsers/cromite.svg){ .lg .middle .twemoji } **Cromite (Android)**
+- ![Safari logo](assets/img/browsers/safari.svg){ .lg .middle .twemoji } **Safari (iOS)**
 
     ---
 
-    **Cromite** yerleşik reklam engelleme ve [gizlilik geliştirmeleri](https://github.com/uazo/cromite/blob/master/docs/FEATURES.md) içeren Chromium tabanlı bir Android tarayıcıdır. Artık kullanımdan kaldırılmış olan popüler Bromite tarayıcısının bir çatalıdır.
-
-    - [Read Full Review :material-arrow-right-drop-circle:](mobile-browsers.md#cromite-android)
-
-- ![Safari logosu](assets/img/browsers/safari.svg){ .lg .middle .twemoji } **Safari (iOS)**
-
-    ---
-
-    [Parmak izi önleme](https://webkit.org/blog/15697/private-browsing-2-0) özellikleri ve varsayılan izleyici engellemesi nedeniyle **Safari**'yi öneriyoruz. Ayrıca sekmeler arasında izlemeyi önlemek için çerezlerinizi özel tarama modunda ayırır.
+    We recommend **Safari** due to its [anti-fingerprinting](https://webkit.org/blog/15697/private-browsing-2-0) features and default tracker blocking. Ayrıca sekmeler arasında izlemeyi önlemek için çerezlerinizi özel tarama modunda ayırır.
 
     - [Read Full Review :material-arrow-right-drop-circle:](mobile-browsers.md#safari-ios)
 

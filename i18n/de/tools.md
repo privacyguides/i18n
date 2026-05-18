@@ -92,19 +92,11 @@ Drücke auf den "Mehr lernen" link oder auf die Empfehlung selber für mehr Deta
     - [Brave Desktop Review :material-arrow-right-drop-circle:](desktop-browsers.md#brave)
     - [Brave Mobile Review :material-arrow-right-drop-circle:](mobile-browsers.md#brave)
 
-- ![Cromite logo](assets/img/browsers/cromite.svg){ .lg .middle .twemoji } **Cromite (Android)**
-
-    ---
-
-    **Cromite** ist ein Chromium-basierter Android browser mit eingebautes ad-blocking and [Privatsphären-Verbesserungen](https://github.com/uazo/cromite/blob/master/docs/FEATURES.md). Es ist ein Fork des bekannten und eingestellten Bromite Browser.
-
-    - [Lese die vollständige Review :material-arrow-right-drop-circle:](mobile-browsers.md#cromite-android)
-
 - ![Safari logo](assets/img/browsers/safari.svg){ .lg .middle .twemoji } **Safari (iOS)**
 
     ---
 
-    wir empfehlen **Safari** wegen die [Anti-Fingerprinting](https://webkit.org/blog/15697/private-browsing-2-0)-Features sowie das standardmäßige Tracker-Blocking. Es trennt deine Cookies im Privaten-Browsing-Modus, um Tracking zwischen Tabs zu verhindern.
+    We recommend **Safari** due to its [anti-fingerprinting](https://webkit.org/blog/15697/private-browsing-2-0) features and default tracker blocking. Es trennt deine Cookies im Privaten-Browsing-Modus, um Tracking zwischen Tabs zu verhindern.
 
     - [Lese die vollständige Review :material-arrow-right-drop-circle:](mobile-browsers.md#safari-ios)
 

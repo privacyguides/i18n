@@ -89,22 +89,14 @@ Aby uzyskać więcej informacji na temat każdego projektu, dlaczego został wyb
 
     **Brave** to przeglądarka domyślnie nastawiona na prywatność, oparta na Chromium, dzięki czemu jej interfejs i działanie powinny być dobrze znane większości osób, a problemy ze zgodnością stron internetowych są minimalne.
 
-    - [Recenzja Brave dla komputerów stacjonarnych :material-arrow-right-drop-circle:](desktop-browsers.md#brave)
-    - [Recenzja Brave dla urządzeń mobilnych :material-arrow-right-drop-circle:](mobile-browsers.md#brave)
+    - [Brave Desktop Review :material-arrow-right-drop-circle:](desktop-browsers.md#brave)
+    - [Brave Mobile Review :material-arrow-right-drop-circle:](mobile-browsers.md#brave)
 
-- ![Logo Cromite](assets/img/browsers/cromite.svg){ .lg .middle .twemoji } **Cromite (Android)**
-
-    ---
-
-    **Cromite** to przeglądarka na Androida oparta na Chromium z wbudowanym blokowaniem reklam i [usprawnieniami prywatności](https://github.com/uazo/cromite/blob/master/docs/FEATURES.md). Jest to fork popularnej, obecnie porzuconej przeglądarki Bromite.
-
-    - [Przeczytaj pełną recenzję :material-arrow-right-drop-circle:](mobile-browsers.md#cromite-android)
-
-- ![Logo Safari](assets/img/browsers/safari.svg){ .lg .middle .twemoji } **Safari (iOS)**
+- ![Safari logo](assets/img/browsers/safari.svg){ .lg .middle .twemoji } **Safari (iOS)**
 
     ---
 
-    Zalecamy przeglądarkę **Safari** ze względu na jej funkcje [ochrony przed identyfikacją](https://webkit.org/blog/15697/private-browsing-2-0) oraz domyślne blokowanie trackerów. Oddziela też pliki cookie w trybie przeglądania prywatnego, co zapobiega śledzeniu między kartami.
+    We recommend **Safari** due to its [anti-fingerprinting](https://webkit.org/blog/15697/private-browsing-2-0) features and default tracker blocking. Oddziela też pliki cookie w trybie przeglądania prywatnego, co zapobiega śledzeniu między kartami.
 
     - [Przeczytaj pełną recenzję :material-arrow-right-drop-circle:](mobile-browsers.md#safari-ios)
 

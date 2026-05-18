@@ -27,18 +27,6 @@ schema:
   - 
     "@context": http://schema.org
     "@type": MobileApplication
-    name: Cromite
-    image: /assets/img/browsers/cromite.svg
-    url: https://cromite.org
-    applicationCategory: Web Browser
-    operatingSystem:
-      - Android
-    subjectOf:
-      "@type": WebPage
-      url: "./"
-  - 
-    "@context": http://schema.org
-    "@type": MobileApplication
     name: Safari
     image: /assets/img/browsers/safari.svg
     url: https://apple.com/safari
@@ -204,67 +192,6 @@ Opsi ini dapat ditemukan di :material-menu:/:fontawesome-solid-ellipsis: → **S
 #### Brave Sync
 
 [Brave Sync](https://support.brave.com/hc/articles/360059793111-Understanding-Brave-Sync) memungkinkan data penjelajahan Anda (riwayat, penanda, dll.) dapat diakses di semua perangkat Anda tanpa memerlukan akun dan melindunginya dengan E2EE.
-
-## Cromite (Android)
-
-<div class="admonition recommendation" markdown>
-
-![Cromite logo](assets/img/browsers/cromite.svg){ align=right }
-
-**Cromite** adalah peramban berbasis Chromium dengan pemblokiran iklan bawaan, perlindungan fingerprinting dan [peningkatan privasi dan keamanan](https://github.com/uazo/cromite/blob/master/docs/FEATURES.md). Ini adalah cabang dari peramban **Bromite**.
-
-[:octicons-home-16: Halaman Utama](https://cromite.org){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://github.com/uazo/cromite/blob/master/docs/PRIVACY_POLICY.md){ .card-link title="Kebijakan Privasi" }
-[:octicons-info-16:](https://github.com/uazo/cromite?tab=readme-ov-file#docs){ .card-link title="Dokumentasi" }
-[:octicons-code-16:](https://github.com/uazo/cromite){ .card-link title="Kode Sumber" }
-
-<details class="downloads" markdown>
-<summary>Unduhan</summary>
-
-- [:simple-android: F-Droid](https://cromite.org/fdroid/repo/?fingerprint=49F37E74DEE483DCA2B991334FB5A0200787430D0B5F9A783DD5F13695E9517B)
-- [:simple-github: GitHub](https://github.com/uazo/cromite/releases/latest)
-
-</details>
-
-</div>
-
-### Konfigurasi yang Disarankan
-
-Opsi ini dapat ditemukan di :material-menu: → :gear: **Settings** → **Privacy and security**.
-
-#### Data Penjelajahan
-
-- [x] Pilih **Close all open tabs on exit**
-
-#### Mode Incognito
-
-- [x] Pilih **Open external links in incognito**
-
-#### Keamanan
-
-- [x] Pilih **Always use secure connections**
-
-Hal ini mencegah Anda secara tidak sengaja tersambung ke situs web dalam HTTP teks biasa. HTTP sangat jarang digunakan saat ini, jadi hal ini seharusnya hanya berdampak kecil atau bahkan tidak berdampak sama sekali pada penjelajahan Anda sehari-hari.
-
-#### Pengaturan Adblock Plus
-
-Opsi-opsi ini dapat ditemukan di :material-menu: → :gear: **Settings** → **Adblock Plus settings**.
-
-Cromite berisi versi khusus Adblock Plus dengan EasyList yang diaktifkan secara default, serta opsi untuk memilih lebih banyak daftar filter di dalam menu **Filter lists**.
-
-Menggunakan daftar tambahan akan membuat Anda terlihat berbeda dari pengguna Cromite lainnya dan juga dapat meningkatkan permukaan serangan jika aturan berbahaya ditambahkan ke salah satu daftar yang Anda gunakan.
-
-- \[x\] (Opsional) Pilih **Enable anti-circumvention and snippets**
-
-Pengaturan ini menambahkan daftar Adblock Plus tambahan yang dapat meningkatkan efektivitas pemblokiran konten Cromite. Peringatan mengenai keunggulan dan potensi peningkatan permukaan serangan berlaku.
-
-#### Pengaruran Adblock lama
-
-Opsi ini dapat ditemukan di :material-menu: → :gear: **Settings** → **Legacy Adblock settings**.
-
-- [ ] Hapus centang pada autoupdate setting
-
-Ini menonaktifkan pemeriksaan pembaruan untuk filter adblock Bromite yang tidak dipelihara.
 
 ## Safari (iOS)
 

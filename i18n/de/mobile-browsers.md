@@ -27,18 +27,6 @@ schema:
   - 
     "@context": http://schema.org
     "@type": MobileApplication
-    name: Cromite
-    image: /assets/img/browsers/cromite.svg
-    url: https://cromite.org
-    applicationCategory: Web Browser
-    operatingSystem:
-      - Android
-    subjectOf:
-      "@type": WebPage
-      url: "./"
-  - 
-    "@context": http://schema.org
-    "@type": MobileApplication
     name: Safari
     image: /assets/img/browsers/safari.svg
     url: https://www.apple.com/de/safari/
@@ -204,67 +192,6 @@ These options can be found in :material-menu:/:fontawesome-solid-ellipsis: → *
 #### Brave Sync
 
 [Brave Sync](https://support.brave.com/hc/articles/360059793111-Understanding-Brave-Sync) ermöglicht den Zugriff auf deine Browsing-Daten (Verlauf, Lesezeichen usw.) auf all deinen Geräten und schützt diese Daten mit E2EE.
-
-## Cromite (Android)
-
-<div class="admonition recommendation" markdown>
-
-![Cromite-Logo](assets/img/browsers/cromite.svg){ align=right }
-
-**Cromite** ist ein auf Chromium basierender Browser mit eingebautem Werbeblocker, Schutz vor Fingerprinting und anderen [Datenschutz- und Sicherheitsverbesserungen](https://github.com/uazo/cromite/blob/master/docs/FEATURES.md). Er ist ein Fork des eingestellten Browsers **Bromite**.
-
-[:octicons-home-16: Homepage](https://cromite.org){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://github.com/uazo/cromite/blob/master/docs/PRIVACY_POLICY.md){ .card-link title="Datenschutzerklärung" }
-[:octicons-info-16:](https://github.com/uazo/cromite?tab=readme-ov-file#docs){ .card-link title="Dokumentation" }
-[:octicons-code-16:](https://github.com/uazo/cromite){ .card-link title="Quellcode" }
-
-<details class="downloads" markdown>
-<summary>Downloads</summary>
-
-- [:simple-android: F-Droid](https://cromite.org/fdroid/repo/?fingerprint=49F37E74DEE483DCA2B991334FB5A0200787430D0B5F9A783DD5F13695E9517B)
-- [:simple-github: GitHub](https://github.com/uazo/cromite/releases/latest)
-
-</details>
-
-</div>
-
-### Empfohlene Konfiguration
-
-These options can be found in :material-menu: → :gear: **Settings** → **Privacy and security**.
-
-#### Browsing data
-
-- [x] Select **Close all open tabs on exit**
-
-#### Incognito mode
-
-- [x] Select **Open external links in incognito**
-
-#### Sicherheit
-
-- [x] Select **Always use secure connections**
-
-Dadurch wird verhindert, dass ungewollt eine Verbindung zu einer Website mit einer unverschlüsselten HTTP-Verbindung hergestellt wird. HTTP is extremely uncommon nowadays, so this should have little to no impact on your day-to-day browsing.
-
-#### Adblock Plus Einstellungen
-
-These options can be found in :material-menu: → :gear: **Settings** → **Adblock Plus settings**.
-
-Cromite contains a customized version of Adblock Plus with EasyList enabled by default, as well as options to select more filter lists within the **Filter lists** menu.
-
-Using extra lists will make you stand out from other Cromite users and may also increase attack surface if a malicious rule is added to one of the lists you use.
-
-- \[x\] (Optional) Select **Enable anti-circumvention and snippets**
-
-This setting adds an additional Adblock Plus list that may increase the effectiveness of Cromite's content blocking. The warnings about standing out and potentially increasing attack surface apply.
-
-#### Legacy Adblock settings
-
-These options can be found in :material-menu: → :gear: **Settings** → **Legacy Adblock settings**.
-
-- [ ] Uncheck the autoupdate setting
-
-This disables update checks for the unmaintained Bromite adblock filter.
 
 ## Safari (iOS)
 
