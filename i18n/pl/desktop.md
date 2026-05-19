@@ -11,27 +11,27 @@ cover: desktop.webp
 
 Dystrybucje systemu Linux są powszechnie polecane, jeśli chodzi o ochronę prywatności oraz wolne oprogramowanie. Jeśli nie korzystasz jeszcze z systemu Linux, poniżej znajdziesz kilka dystrybucji, które polecamy wypróbować oraz kilka ogólnych porad dotyczących lepszej prywatności i bezpieczeństwa, które mają zastosowanie dla wielu dystrybucji systemu Linux.
 
-- [General Linux Overview :material-arrow-right-drop-circle:](os/linux-overview.md)
+- [Ogólny przegląd systemów Linuks :material-arrow-right-drop-circle:](os/linux-overview.md)
 
 ## Tradycyjne dystrybucje
 
-### Fedora Linux
+### Fedora Linuks
 
 <div class="admonition recommendation" markdown>
 
-![Fedora logo](assets/img/linux-desktop/fedora.svg){ align=right }
+![Logo Fedory](assets/img/linux-desktop/fedora.svg){ align=right }
 
-**Fedora Linux** is our recommended desktop distribution for people new to Linux. Fedora generally adopts newer technologies (e.g., [Wayland](https://wayland.freedesktop.org) and [PipeWire](https://pipewire.org)) before other distributions. These new technologies often come with improvements in security, privacy, and usability in general.
+**Fedora Linuks** jest polecaną przez nas dystrybucją stacjonarną dla osób, które dopiero rozpoczynają swoją przygodę z Linuksem. Fedora zazwyczaj przyjmuje nowsze technologie (np. [Wayland](https://wayland.freedesktop.org) i [PipeWire](https://pipewire.org)) przed innymi dystrybucjami. Te nowe technologie często wiążą się z poprawą bezpieczeństwa, prywatności i ogólnej użyteczności.
 
-[:octicons-home-16: Homepage](https://fedoraproject.org){ .md-button .md-button--primary }
-[:octicons-info-16:](https://docs.fedoraproject.org/en-US/docs){ .card-link title="Documentation" }
-[:octicons-heart-16:](https://whatcanidoforfedora.org){ .card-link title="Contribute" }
+[:octicons-home-16: Strona Główna](https://fedoraproject.org){ .md-button .md-button--primary }
+[:octicons-info-16:](https://docs.fedoraproject.org/en-US/docs){ .card-link title="Dokumentacja" }
+[:octicons-heart-16:](https://whatcanidoforfedora.org){ .card-link title="Wesprzyj" }
 
 </details>
 
 </div>
 
-Fedora comes in two primary desktop editions, [Fedora Workstation](https://fedoraproject.org/workstation), which uses the GNOME desktop environment, and [Fedora KDE Plasma Desktop](https://fedoraproject.org/kde), which uses KDE. Historically, Fedora Workstation has been more popular and widely recommended, but KDE has been gaining in popularity and provides an experience more similar to Windows, which may make transitioning to Linux easier for some. The security and privacy benefits of both editions are very similar, so it mostly comes down to personal preference.
+Fedora jest dostępna w dwóch podstawowych wersjach stacjonarnych: [Fedora Workstation](https://fedoraproject.org/workstation), która używa środowiska graficznego GNOME, oraz [Fedora KDE Plasma Desktop](https://fedoraproject.org/kde), która używa środowiska KDE. Historycznie Fedora Workstation była bardziej popularna i powszechnie polecana, ale KDE zyskuje na popularności i zapewnia wrażenia bardziej zbliżone do Windows, co może ułatwić niektórym przejście na Linuksa. Korzyści związane z bezpieczeństwem i prywatnością w obu wersjach są bardzo podobne, więc wybór sprowadza się głównie do osobistych preferencji.
 
 Fedora has a semi-rolling release cycle. While some packages like the desktop environment are frozen until the next Fedora release, most packages (including the kernel) are updated frequently throughout the lifespan of the release. Każde wydanie Fedora jest wspierane przez jeden rok, a nowe wersje są wydawane co 6 miesięcy.
 
@@ -45,9 +45,9 @@ Fedora has a semi-rolling release cycle. While some packages like the desktop en
 
 openSUSE Tumbleweed uses [Btrfs](https://en.wikipedia.org/wiki/Btrfs) and [Snapper](https://en.opensuse.org/openSUSE:Snapper_Tutorial) to ensure that snapshots can be rolled back should there be a problem.
 
-[:octicons-home-16: Homepage](https://get.opensuse.org/tumbleweed){ .md-button .md-button--primary }
-[:octicons-info-16:](https://doc.opensuse.org){ .card-link title="Documentation" }
-[:octicons-heart-16:](https://shop.opensuse.org){ .card-link title="Contribute" }
+[:octicons-home-16: Strona Główna](https://get.opensuse.org/tumbleweed){ .md-button .md-button--primary }
+[:octicons-info-16:](https://doc.opensuse.org){ .card-link title="Dokumentacja" }
+[:octicons-heart-16:](https://shop.opensuse.org){ .card-link title="Wesprzyj" }
 
 </details>
 
@@ -61,27 +61,27 @@ Tumbleweed follows a rolling release model where each update is released as a sn
 
 <div class="admonition recommendation" markdown>
 
-![Arch logo](assets/img/linux-desktop/archlinux.svg){ align=right }
+![Logo Arch](assets/img/linux-desktop/archlinux.svg){ align=right }
 
-**Arch Linux** is a lightweight, do-it-yourself (DIY) distribution, meaning that you only get what you install. For more information see their [FAQ](https://wiki.archlinux.org/title/Frequently_asked_questions).
+**Arch Linux** jest lekką dystrybucją typu "zrób to sam" (DIY), co oznacza, że otrzymujesz tylko to, co zainstalujesz. Aby uzyskać więcej informacji, zobacz ich [FAQ](https://wiki.archlinux.org/title/Frequently_asked_questions).
 
-[:octicons-home-16: Homepage](https://archlinux.org){ .md-button .md-button--primary }
-[:octicons-info-16:](https://wiki.archlinux.org){ .card-link title="Documentation" }
-[:octicons-heart-16:](https://archlinux.org/donate){ .card-link title="Contribute" }
+[:octicons-home-16: Strona Główna](https://archlinux.org){ .md-button .md-button--primary }
+[:octicons-info-16:](https://wiki.archlinux.org){ .card-link title="Dokumentacja" }
+[:octicons-heart-16:](https://archlinux.org/donate){ .card-link title="Wesprzyj" }
 
 </details>
 
 </div>
 
-Arch Linux has a rolling release cycle. There is no fixed release schedule and packages are updated very frequently.
+Arch Linux has a rolling release cycle. Nie ma ustalonego harmonogramu wydań, a pakiety są aktualizowane bardzo często.
 
-Being a DIY distribution, you are [expected to set up and maintain](os/linux-overview.md#arch-based-distributions) your system on your own. Arch has an [official installer](https://wiki.archlinux.org/title/Archinstall) to make the installation process a little easier.
+Jako, że jest to dystrbucja DIY,  [oczekuje się, że skonfigurujesz i utrzymasz](os/linux-overview.md#arch-based-distributions) swój system samodzielnie. Arch posiada [oficjalny instalator](https://wiki.archlinux.org/title/Archinstall), który ułatwia proces instalacji.
 
-A large portion of [Arch Linux’s packages](https://reproducible.archlinux.org) are [reproducible](https://reproducible-builds.org)[^1].
+Duża część [pakietów Arch Linux](https://reproducible.archlinux.org) jest [odtwarzalna](https://reproducible-builds.org)[^1].
 
-## Atomic Distributions
+## Dystrybucje atomowe
 
-**Atomic distributions** (sometimes also referred to as **immutable distributions**) are operating systems which handle package installation and updates by layering changes atop your core system image, rather than by directly modifying the system. Advantages of atomic distros include increased stability and the ability to easily roll back updates. See [*Traditional vs. Atomic Updates*](os/linux-overview.md#traditional-vs-atomic-updates) for more info.
+**Dystrybucje atomowe** (czasami określane również jako **dystrybucje niezmienne**) to systemy operacyjne, które obsługują instalację pakietów i aktualizacje poprzez nakładanie zmian na podstawowy obraz systemu, a nie poprzez bezpośrednią modyfikację systemu. Zalety dystrybucji atomowych obejmują większą stabilność i możliwość łatwego wycofywania aktualizacji. Zobacz [*Tradycyjne vs atomowe aktualizacje*](os/linux-overview.md#traditional-vs-atomic-updates) aby uzyskać więcej informacji.
 
 ### Fedora Atomic Desktops
 
@@ -91,9 +91,9 @@ A large portion of [Arch Linux’s packages](https://reproducible.archlinux.org)
 
 **Fedora Atomic Desktops** are variants of Fedora which use the `rpm-ostree` package manager and have a strong focus on containerized workflows and Flatpak for desktop applications. All of these variants follow the same release schedule as Fedora Workstation, benefiting from the same fast updates and staying very close to upstream.
 
-[:octicons-home-16: Homepage](https://fedoraproject.org/atomic-desktops){ .md-button .md-button--primary }
-[:octicons-info-16:](https://docs.fedoraproject.org/en-US/emerging){ .card-link title="Documentation" }
-[:octicons-heart-16:](https://whatcanidoforfedora.org){ .card-link title="Contribute" }
+[:octicons-home-16: Strona Główna](https://fedoraproject.org/atomic-desktops){ .md-button .md-button--primary }
+[:octicons-info-16:](https://docs.fedoraproject.org/en-US/emerging){ .card-link title="Dokumentacja" }
+[:octicons-heart-16:](https://whatcanidoforfedora.org){ .card-link title="Wesprzyj" }
 
 </details>
 
@@ -117,17 +117,16 @@ As an alternative to Flatpaks, there is the option of [Toolbx](https://docs.fedo
 
 NixOS is an independent distribution based on the Nix package manager with a focus on reproducibility and reliability.
 
-[:octicons-home-16: Homepage](https://nixos.org){ .md-button .md-button--primary }
-[:octicons-info-16:](https://nixos.org/learn.html){ .card-link title="Documentation" }
-[:octicons-heart-16:](https://nixos.org/donate.html){ .card-link title="Contribute" }
+[:octicons-home-16: Strona główna](https://nixos.org){ .md-button .md-button--primary }[:octicons-info-16:](https://nixos.org/learn.html){ .card-link title="Dokumentacja" }
+[:octicons-heart-16:](https://nixos.org/donate.html){ .card-link title="Wesprzyj" }
 
 </details>
 
 </div>
 
-NixOS’s package manager keeps every version of every package in a different folder in the **Nix store**. Due to this you can have different versions of the same package installed on your system. After the package contents have been written to the folder, the folder is made read-only.
+Menedżer pakietów NixOS przechowuje każdą wersję każdego pakietu w innym folderze w **sklepie Nix**. W związku z tym możesz mieć różne wersje tego samego pakietu zainstalowanego w Twoim systemie Po zapisaniu zawartości pakietu w folderze folder staje się tylko do odczytu.
 
-NixOS also provides atomic updates. It first downloads (or builds) the packages and files for the new system generation and then switches to it. There are different ways to switch to a new generation: you can tell NixOS to activate it after reboot, or you can switch to it at runtime. You can also *test* the new generation by switching to it at runtime, but not setting it as the current system generation. If something in the update process breaks, you can just reboot and automatically and return to a working version of your system.
+NixOS zapewnia również aktualizacje atomowe. It first downloads (or builds) the packages and files for the new system generation and then switches to it. There are different ways to switch to a new generation: you can tell NixOS to activate it after reboot, or you can switch to it at runtime. You can also *test* the new generation by switching to it at runtime, but not setting it as the current system generation. If something in the update process breaks, you can just reboot and automatically and return to a working version of your system.
 
 The Nix package manager uses a purely functional language—which is also called Nix—to define packages.
 
@@ -135,7 +134,7 @@ The Nix package manager uses a purely functional language—which is also called
 
 Nix is a source-based package manager; if there’s no pre-built available in the binary cache, Nix will just build the package from source using its definition. It builds each package in a sandboxed *pure* environment, which is as independent of the host system as possible. Binaries built with this method are reproducible[^1].
 
-## Anonymity-Focused Distributions
+## Dystrybucje "skoncentrowane na anonimowości"
 
 ### Whonix
 
@@ -143,18 +142,18 @@ Nix is a source-based package manager; if there’s no pre-built available in th
 
 ![Whonix logo](assets/img/linux-desktop/whonix.svg){ align=right }
 
-**Whonix** is based on [Kicksecure](#kicksecure), a security-focused fork of Debian. It aims to provide privacy, security, and [:material-incognito: Anonymity](basics/common-threats.md#anonymity-vs-privacy){ .pg-purple } on the internet. Whonix is best used in conjunction with [Qubes OS](#qubes-os).
+**Whonix** is based on [Kicksecure](#kicksecure), a security-focused fork of Debian. Jego celem jest zapewnienie prywatności, bezpieczeństwa i [:material-incognito: anonimowości](basics/common-threats.md#anonymity-vs-privacy){ .pg-purple } w Internecie. Whonix najlepiej używać w połączeniu z [Qubes OS](#qubes-os).
 
-[:octicons-home-16: Homepage](https://whonix.org){ .md-button .md-button--primary }
-[:simple-torbrowser:](http://dds6qkxpwdeubwucdiaord2xgbbeyds25rbsgr73tbfpqpt4a6vjwsyd.onion){ .card-link title="Onion Service" }
-[:octicons-info-16:](https://whonix.org/wiki/Documentation){ .card-link title="Documentation" }
-[:octicons-heart-16:](https://whonix.org/wiki/Donate){ .card-link title="Contribute" }
+[:octicons-home-16: Strona główna](https://whonix.org){ .md-button .md-button--primary }
+[:simple-torbrowser:](http://dds6qkxpwdeubwucdiaord2xgbbeyds25rbsgr73tbfpqpt4a6vjwsyd.onion){ .card-link title="Usługa .onion" }
+[:octicons-info-16:](https://whonix.org/wiki/Documentation){ .card-link title="Dokumentacja" }
+[:octicons-heart-16:](https://whonix.org/wiki/Donate){ .card-link title="Wesprzyj" }
 
 </details>
 
 </div>
 
-Whonix is meant to run as two virtual machines: a “Workstation” and a Tor “Gateway.” All communications from the Workstation must go through the Tor gateway. This means that even if the Workstation is compromised by malware of some kind, the true IP address remains hidden.
+Whonix ma działać jako dwie maszyny wirtualne: "stacja robocza" i "bramka Tor". Cała komunikacja ze stacji roboczej musi przechodzić przez bramę Tor. Oznacza to, że nawet jeśli stacja robocza zostanie przejęta przez złośliwe oprogramowanie, prawdziwy adres IP pozostanie ukryty.
 
 Some of its features include Tor Stream Isolation, [keystroke anonymization](https://whonix.org/wiki/Keystroke_Deanonymization#Kloak), [encrypted swap](https://github.com/Whonix/swap-file-creator), and a hardened memory allocator. Future versions of Whonix will likely include [full system AppArmor policies](https://github.com/roddhjav/apparmor.d) and a [sandboxed app launcher](https://whonix.org/wiki/Sandbox-app-launcher) to fully confine all processes on the system.
 
@@ -166,11 +165,11 @@ Whonix is best used [in conjunction with Qubes](https://whonix.org/wiki/Qubes/Wh
 
 ![Tails logo](assets/img/linux-desktop/tails.svg){ align=right }
 
-**Tails** is a live operating system based on Debian that routes all communications through Tor, which can boot on on almost any computer from a DVD, USB stick, or SD card installation. It uses [Tor](tor.md) to preserve privacy and [:material-incognito: Anonymity](basics/common-threats.md#anonymity-vs-privacy){ .pg-purple } while circumventing censorship, and it leaves no trace of itself on the computer it is used on after it is powered off.
+**Tails** is a live operating system based on Debian that routes all communications through Tor, which can boot on on almost any computer from a DVD, USB stick, or SD card installation. Wykorzystuje [Tor](tor.md), aby zachować prywatność i [:material-incognito: Anonimowość](basics/common-threats.md#anonymity-vs-privacy){ .pg-purple } omijając przy tym cenzurę i nie pozostawiając po sobie śladu na komputerze, na którym jest używany po wyłączeniu.
 
-[:octicons-home-16: Homepage](https://tails.net){ .md-button .md-button--primary }
-[:octicons-info-16:](https://tails.net/doc/index.en.html){ .card-link title="Documentation" }
-[:octicons-heart-16:](https://tails.net/donate){ .card-link title="Contribute" }
+[:octicons-home-16: Strona Główna](https://tails.net){ .md-button .md-button--primary }
+[:octicons-info-16:](https://tails.net/doc/index.en.html){ .card-link title="Dokumentacja" }
+[:octicons-heart-16:](https://tails.net/donate){ .card-link title="Wesprzyj" }
 
 </details>
 
@@ -179,17 +178,17 @@ Whonix is best used [in conjunction with Qubes](https://whonix.org/wiki/Qubes/Wh
 <div class="admonition warning" markdown>
 <p class="admonition-title">Ostrzeżenie</p>
 
-Tails [doesn't erase](https://gitlab.tails.boum.org/tails/tails/-/issues/5356) the [video memory](https://en.wikipedia.org/wiki/Dual-ported_video_RAM) when shutting down. When you restart your computer after using Tails, it might briefly display the last screen that was displayed in Tails. If you shut down your computer instead of restarting it, the video memory will erase itself automatically after being unpowered for some time.
+Tails [nie usuwa](https://gitlab.tails.boum.org/tails/tails/-/issues/5356) [pamięci wideo](https://en.wikipedia.org/wiki/Dual-ported_video_RAM) podczas wyłączania. Po ponownym uruchomieniu komputera po użyciu aplikacji Tails może on na chwilę wyświetlić ostatni ekran wyświetlany w aplikacji Tails. Jeśli wyłączysz komputer, zamiast go ponownie uruchamiać, pamięć wideo usunie się automatycznie po pewnym czasie bez zasilania.
 
 </div>
 
-Tails is great for counter forensics due to amnesia (meaning nothing is written to the disk); however, it is not a hardened distribution like Whonix. It lacks many anonymity and security features that Whonix has and gets updated much less often (only once every six weeks). A Tails system that is compromised by malware may potentially bypass the transparent proxy, allowing for the user to be deanonymized.
+Tails is great for counter forensics due to amnesia (meaning nothing is written to the disk); however, it is not a hardened distribution like Whonix. Brakuje mu wielu funkcji anonimowości i bezpieczeństwa, które posiada Whonix i jest aktualizowany znacznie rzadziej (tylko raz na sześć tygodni). A Tails system that is compromised by malware may potentially bypass the transparent proxy, allowing for the user to be deanonymized.
 
-Tails includes [uBlock Origin](browser-extensions.md#ublock-origin) in Tor Browser by default, which may potentially make it easier for adversaries to fingerprint Tails users. [Whonix](desktop.md#whonix) virtual machines may be more leak-proof, however they are not amnesic, meaning data may be recovered from your storage device.
+Tails domyślnie zawiera [uBlock Origin](browser-extensions.md#ublock-origin) w przeglądarce Tor, co może potencjalnie ułatwić adwersarzom pobieranie odcisków palców użytkowników Tails. Maszyny wirtualne [Whonix](desktop.md#whonix) mogą być bardziej odporne na wycieki, jednak nie są amnezyjne, co oznacza, że dane mogą zostać odzyskane z urządzenia pamięci masowej.
 
-By design, Tails is meant to completely reset itself after each reboot. Encrypted [persistent storage](https://tails.net/doc/persistent_storage/index.en.html) can be configured to store some data between reboots.
+Z założenia Tails ma się całkowicie resetować po każdym ponownym uruchomieniu. Szyfrowana [pamięć trwała](https://tails.net/doc/persistent_storage/index.en.html) może być skonfigurowana do przechowywania niektórych danych między restartami.
 
-## Security-focused Distributions
+## Dystrybucje "skoncentrowane na bezpieczeństwie"
 
 <small>Chroni przed następującymi zagrożeniami:</small>
 
@@ -203,33 +202,33 @@ By design, Tails is meant to completely reset itself after each reboot. Encrypte
 
 **Qubes OS** is an open-source operating system designed to provide strong security for desktop computing through secure virtual machines (or "qubes"). Qubes is based on Xen, the X Window System, and Linux. It can run most Linux applications and use most of the Linux drivers.
 
-[:octicons-home-16: Homepage](https://qubes-os.org){ .md-button .md-button--primary }
-[:simple-torbrowser:](http://qubesosfasa4zl44o4tws22di6kepyzfeqv3tg4e3ztknltfxqrymdad.onion){ .card-link title="Onion Service" }
-[:octicons-eye-16:](https://qubes-os.org/privacy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://qubes-os.org/doc){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/QubesOS){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://qubes-os.org/donate){ .card-link title="Contribute" }
+[:octicons-home-16: Strona główna](https://qubes-os.org){ .md-button .md-button--primary }
+[:simple-torbrowser:](http://qubesosfasa4zl44o4tws22di6kepyzfeqv3tg4e3ztknltfxqrymdad.onion){ .card-link title="Serwis cebulowy" }
+[:octicons-eye-16:](https://qubes-os.org/privacy){ .card-link title="Serwis .onion" }
+[:octicons-info-16:](https://qubes-os.org/doc){ .card-link title="Dokumentacja" }
+[:octicons-code-16:](https://github.com/QubesOS){ .card-link title="Kod źródłowy" }
+[:octicons-heart-16:](https://qubes-os.org/donate){ .card-link title="Wesprzyj" }
 
 </details>
 
 </div>
 
-Qubes OS secures the computer by isolating subsystems (e.g., networking, USB, etc.) and applications in separate *qubes*. Should one part of the system be compromised via an exploit in a [:material-target-account: Targeted Attack](basics/common-threats.md#attacks-against-specific-individuals ""){.pg-red}, the extra isolation is likely to protect the rest of the *qubes* and the core system.
+Qubes OS zabezpiecza komputer, izolując podsystemy (np. sieciowe, USB itp.) i aplikacje w oddzielnych *qubes*. Jeśli jedna część systemu zostanie naruszona w ramach [:material-target-account: ataku ukierunkowanego](basics/common-threats.md#attacks-against-specific-individuals ""){.pg-red}, dodatkowa izolacja prawdopodobnie ochroni resztę *qubów* i główny system.
 
-For further information about how Qubes works, read our full [Qubes OS overview](os/qubes-overview.md) page.
+Aby uzyskać więcej informacji na temat działania Qubes, przeczytaj naszą pełną stronę [przegląd Qubes OS](os/qubes-overview.md).
 
 ### Secureblue
 
 <div class="admonition recommendation" markdown>
 
-![Secureblue logo](assets/img/linux-desktop/secureblue.svg){ align=right }
+![Logo Secureblue](assets/img/linux-desktop/secureblue.svg){ align=right }
 
-**Secureblue** is a security-focused operating system based on [Fedora Atomic Desktops](#fedora-atomic-desktops). It includes a number of [security features](https://secureblue.dev/features) intended to proactively defend against the exploitation of both known and unknown vulnerabilities, and ships with [Trivalent](https://github.com/secureblue/Trivalent), their hardened, Chromium-based web browser.
+**Secureblue** to skoncentrowany na bezpieczeństwie system operacyjny oparty na [Fedora Atomic Desktops](#fedora-atomic-desktops). It includes a number of [security features](https://secureblue.dev/features) intended to proactively defend against the exploitation of both known and unknown vulnerabilities, and ships with [Trivalent](https://github.com/secureblue/Trivalent), their hardened, Chromium-based web browser.
 
-[:octicons-home-16: Homepage](https://secureblue.dev){ .md-button .md-button--primary }
-[:octicons-info-16:](https://secureblue.dev/install){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/secureblue/secureblue){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://secureblue.dev/donate){ .card-link title="Contribute" }
+[:octicons-home-16: Strona główna](https://secureblue.dev){ .md-button .md-button--primary }
+[:octicons-info-16:](https://secureblue.dev/install){ .card-link title="Dokumentacja" }
+[:octicons-code-16:](https://github.com/secureblue/secureblue){ .card-link title="Kod źródłowy" }
+[:octicons-heart-16:](https://secureblue.dev/donate){ .card-link title="Wesprzyj" }
 
 </div>
 
@@ -243,15 +242,15 @@ While we [recommend against](os/linux-overview.md#release-cycle) "perpetually ou
 
 <div class="admonition recommendation" markdown>
 
-![Kicksecure logo](assets/img/linux-desktop/kicksecure.svg){ align=right }
+![Logo Kicksecure](assets/img/linux-desktop/kicksecure.svg){ align=right }
 
-**Kicksecure**—in oversimplified terms—is a set of scripts, configurations, and packages that substantially reduce the attack surface of Debian. It covers a lot of privacy and hardening recommendations by default. It also serves as the base OS for [Whonix](#whonix).
+**Kicksecure**— w dużym uproszczeniu — to zestaw skryptów, konfiguracji i pakietów, które znacznie zmniejszają powierzchnię ataku Debiana. Domyślnie obejmuje wiele zaleceń dotyczących prywatności i zabezpieczeń. Służy również jako podstawowy system operacyjny dla [Whonix](#whonix).
 
-[:octicons-home-16: Homepage](https://kicksecure.com){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://kicksecure.com/wiki/Privacy_Policy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://kicksecure.com/wiki/Documentation){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/Kicksecure){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://kicksecure.com/wiki/Donate){ .card-link title="Contribute" }
+[:octicons-home-16: Strona główna](https://kicksecure.com){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://kicksecure.com/wiki/Privacy_Policy){ .card-link title="Polityka prywatności" }
+[:octicons-info-16:](https://kicksecure.com/wiki/Documentation){ .card-link title="Dokumentacja" }
+[:octicons-code-16:](https://github.com/Kicksecure){ .card-link title="Kod źródłowy" }
+[:octicons-heart-16:](https://kicksecure.com/wiki/Donate){ .card-link title="Wesprzyj" }
 
 </details>
 
@@ -259,19 +258,19 @@ While we [recommend against](os/linux-overview.md#release-cycle) "perpetually ou
 
 ## Kryteria
 
-Choosing a Linux distro that is right for you will come down to a huge variety of personal preferences, and this page is **not** meant to be an exhaustive list of every viable distribution. Our Linux overview page has some advice on [choosing a distro](os/linux-overview.md#choosing-your-distribution) in more detail. The distros on *this* page do all generally follow the guidelines we covered there, and all meet these standards:
+Wybór rozprawy, która jest słuszna dla ciebie, będzie zależeć od wielu osobistych preferencji, i ta strona to **nie** ma być wyczerpującą listą wszystkich możliwych dystrybucji. Nasza strona z przeglądem Linuksa zawiera bardziej szczegółowe porady dotyczące [wyboru dystrybucji](os/linux-overview.md#choosing-your-distribution). The distros on *this* page do all generally follow the guidelines we covered there, and all meet these standards:
 
-- Free and open source.
-- Receives regular software and kernel updates.
-- Avoids X11, as its last major release was [more than a decade](https://x.org/wiki/Releases) ago.
-    - The notable exception here is Qubes, but the [isolation issues](https://blog.invisiblethings.org/2011/04/23/linux-security-circus-on-gui-isolation) which X11 typically has are avoided by virtualization. This isolation only applies to apps *running in different qubes* (virtual machines); apps running in the *same* qube are not protected from each other.
-- Supports full-disk encryption during installation.
-- Doesn't freeze regular releases for more than 1 year.
-    - We [recommend against](os/linux-overview.md#release-cycle) "Long Term Support" or "stable" distro releases for desktop usage.
-- Supports a wide variety of hardware.
-- Preference towards larger projects.
-    - Maintaining an operating system is a major challenge, and smaller projects have a tendency to make more avoidable mistakes, or delay critical updates (or worse, disappear entirely). We lean towards projects which will likely be around 10 years from now (whether that's due to corporate backing or very significant community support), and away from projects which are hand-built or have a small number of maintainers.
+- Darmowy i open source.
+- Otrzymuje regularne aktualizacje oprogramowania i jądra.
+- Unika X11, ponieważ jego ostatnia duża wersja miała miejsce [ponad dekadę](https://x.org/wiki/Releases) temu.
+    - The notable exception here is Qubes, but the [isolation issues](https://blog.invisiblethings.org/2011/04/23/linux-security-circus-on-gui-isolation) which X11 typically has are avoided by virtualization. Ta izolacja dotyczy tylko aplikacji *działających w różnych qubes* (maszynach wirtualnych); aplikacje działające w *tym samym* qube nie są chronione przed sobą nawzajem.
+- Obsługuje pełne szyfrowanie dysku podczas instalacji.
+- Nie zamraża regularnych wydań na dłużej niż 1 rok.
+    - [Odradzamy](os/linux-overview.md#release-cycle) wersje dystrybucji "długoterminowego wsparcia" lub "stabilne" dla komputerów stacjonarnych.
+- Obsługuje szeroką gamę sprzętu.
+- Preferowane większe projekty.
+    - Utrzymanie systemu operacyjnego jest dużym wyzwaniem, a mniejsze projekty mają tendencję do popełniania większej liczby możliwych do uniknięcia błędów lub opóźniania krytycznych aktualizacji (lub, co gorsza, całkowitego zniknięcia). Skłaniamy się ku projektom, które prawdopodobnie będą istniały za 10 lat (czy to dzięki wsparciu korporacji, czy bardzo znaczącemu wsparciu społeczności), a z dala od projektów, które są budowane ręcznie lub mają niewielką liczbę konserwatorów.
 
-In addition, [our standard criteria](about/criteria.md) for recommended projects still applies. **Please note we are not affiliated with any of the projects we recommend.**
+Ponadto nadal obowiązują [nasze standardowe kryteria](about/criteria.md) dla rekomendowanych projektów. **Należy pamiętać, że nie jesteśmy powiązani z żadnym z polecanych przez nas projektów.**
 
-[^1]: Reproducibility entails the ability to verify that packages and binaries made available to the end user match the source code, which can be useful against potential [:material-package-variant-closed-remove: Supply Chain Attacks](basics/common-threats.md#attacks-against-certain-organizations ""){.pg-viridian}.
+[^1]: Odtwarzalność wiąże się z możliwością zweryfikowania, czy pakiety i pliki binarne udostępnione użytkownikowi końcowemu są zgodne z kodem źródłowym, co może być przydatne w przypadku potencjalnych [:material-package-variant-closed-remove: ataków w łańcuchu dostaw](basics/common-threats.md#attacks-against-certain-organizations ""){.pg-viridian}.
