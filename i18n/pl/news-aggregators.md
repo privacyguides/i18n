@@ -1,7 +1,7 @@
 ---
 title: "Agregatory wiadomości"
 icon: material/rss
-description: These news aggregator clients let you keep up with your favorite blogs and news sites using internet standards like RSS.
+description: Klienci agregatorów wiadomości umożliwiają śledzenie ulubionych blogów i portali informacyjnych przy użyciu standardów internetowych, takich jak RSS.
 cover: news-aggregators.webp
 ---
 
@@ -9,7 +9,7 @@ cover: news-aggregators.webp
 
 - [:material-server-network: Dostawcy usług](basics/common-threats.md#privacy-from-service-providers ""){.pg-teal}
 
-**Agregator wiadomości** (inaczej <0>agregator newsów</0>) to oprogramowanie, które gromadzi treści z internetowych gazet, blogów, podcastów i innych źródeł w jednym miejscu, aby ułatwić ich przeglądanie. Using one can be a great way to keep up with your favorite content.
+**Agregator wiadomości** (inaczej <0>agregator newsów</0>) to oprogramowanie, które gromadzi treści z internetowych gazet, blogów, podcastów i innych źródeł w jednym miejscu, aby ułatwić ich przeglądanie. Korzystanie z jednego z nich może być świetnym sposobem na śledzenie ulubionych treści.
 
 ## Klienci agregatorów
 
@@ -19,7 +19,7 @@ cover: news-aggregators.webp
 
 ![Logo Akregatora](assets/img/news-aggregators/akregator.svg){ align=right }
 
-**Akregator** jest czytnikiem kanałów, który jest częścią projektu [KDE](https://kde.org). It comes with a fast search, advanced archiving functionality, and an internal browser for easy news reading.
+**Akregator** jest czytnikiem kanałów, który jest częścią projektu [KDE](https://kde.org). Oferuje szybkie wyszukiwanie, zaawansowane funkcje archiwizacji oraz wbudowaną przeglądarkę ułatwiającą czytanie wiadomości.
 
 [:octicons-home-16: Strona główna](https://apps.kde.org/akregator){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://kde.org/privacypolicy-apps){ .card-link title="Polityka prywatności" }
@@ -42,7 +42,7 @@ cover: news-aggregators.webp
 
 ![Logo NewsFlash](assets/img/news-aggregators/newsflash.png){ align=right }
 
-**NewsFlash** to open-source, nowoczesny i łatwy w użyciu czytnik kanałów dla systemu Linux. Może być używany w trybie offline lub z usługami takimi jak [Inoreader](https://inoreader.com) lub [Nextcloud News](https://apps.nextcloud.com/apps/news). It has a search feature and a pre-defined list of sources that you can add directly.
+**NewsFlash** to open-source, nowoczesny i łatwy w użyciu czytnik kanałów dla systemu Linux. Może być używany w trybie offline lub z usługami takimi jak [Inoreader](https://inoreader.com) lub [Nextcloud News](https://apps.nextcloud.com/apps/news). Posiada on funkcję wyszukiwania oraz gotową listę źródeł, które można dodać bezpośrednio w aplikacji.
 
 [:octicons-repo-16: Repozytorium](https://gitlab.com/news-flash/news_flash_gtk#newsflash){ .md-button .md-button--primary }
 [:octicons-code-16:](https://gitlab.com/news-flash/news_flash_gtk){ .card-link title="Kod źródłowy" }
@@ -102,11 +102,11 @@ Obsługuje [RSS](https://en.wikipedia.org/wiki/RSS), [Atom](https://en.wikipedia
 
 <div class="admonition recommendation" markdown>
 
-![NetNewsWire logo](assets/img/news-aggregators/netnewswire.png){ align=right }
+![Logo NetNewsWire](assets/img/news-aggregators/netnewswire.png){ align=right }
 
-**NetNewsWire** is a free and open-source feed reader for macOS and iOS with a focus on a native design and feature set.
+**NetNewsWire** to open-source'owy i darmowy czytnik kanałów dla systemów macOS i iOS, skupiający się na natywnym wyglądzie i zestawie funkcji.
 
-It supports conventional feed formats and includes built-in support for Reddit feeds.
+Obsługuje standardowe formaty kanałów i oferuje wbudowane wsparcie dla kanałów Reddita.
 
 [:octicons-home-16: Strona główna](https://netnewswire.com){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://netnewswire.com/privacypolicy){ .card-link title="Polityka prywatności" }
@@ -145,7 +145,7 @@ It supports conventional feed formats and includes built-in support for Reddit f
 
 ## Obsługa RSS w mediach społecznościowych
 
-Some social media services also support RSS, although it's not often advertised.
+Niektóre serwisy społecznościowe również obsługują RSS, choć często się tym nie chwalą.
 
 ### Reddit
 
@@ -164,12 +164,12 @@ https://reddit.com/r/[SUBREDDIT]/new/.rss
 
 ### YouTube
 
-You can subscribe to YouTube channels without logging in and associating usage information with your Google account.
+Możesz zasubskrybować kanały YouTube bez zalogowania się i skojarzenia informacji o użytkowaniu z twoim kontem Google.
 
 <div class="admonition example" markdown>
 <p class="admonition-title">Przykład</p>
 
-Aby zasubskrybować kanał YouTube za pomocą klienta RSS, należy najpierw wyszukać jego [kod kanału](https://support.google.com/youtube/answer/6180214). The channel code can be found in the expanded description (i.e., the "About" section) of the YouTube channel you wish to subscribe to: **About** → **Share channel** → **Copy channel ID**. Zastąp `[CHANNEL ID]` poniżej:
+Aby zasubskrybować kanał YouTube za pomocą klienta RSS, należy najpierw wyszukać jego [kod kanału](https://support.google.com/youtube/answer/6180214). Kod kanału można znaleźć w rozszerzonym opisie (tj. w sekcji "Opis") kanału YouTube, który chcesz subskrybować: **Opis** → **Udostępnij kanał** → **kopiuj indentyfikator kanału**. Zastąp `[CHANNEL ID]` poniżej:
 
 ``text
 https://youtube.com/feeds/videos.xml?channel_id=[CHANNEL ID]
