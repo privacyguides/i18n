@@ -1,8 +1,8 @@
 ---
-meta_title: "Recommended Maps and Navigation Apps - Privacy Guides"
+meta_title: "Zalecane mapy i aplikacje nawigacyjne - Privacy Guides"
 title: Mapy i Nawigacja
 icon: material/map
-description: Privacy-respecting map providers and navigation apps which don't build an advertising profile based on your searches and locations.
+description: Szanujący prywatność dostawcy map i aplikacje nawigacyjne, które nie tworzą profilu reklamowego na podstawie wyszukiwań i lokalizacji użytkownika.
 cover: maps.webp
 ---
 
@@ -10,9 +10,9 @@ cover: maps.webp
 
 - [:material-account-cash: Kapitalizm inwigilacji](basics/common-threats.md#surveillance-as-a-business-model){ .pg-brown }
 
-Use a **map and navigation app** that doesn't build an advertising profile based on your searches and location history. Instead of using Google Maps, Apple Maps, or Waze, we recommend these privacy-respecting alternatives.
+Korzystaj z **aplikacji do map i nawigacji**, która nie tworzy profilu reklamowego na podstawie twoich wyszukiwań i historii lokalizacji. Zamiast korzystać z Google Maps, Apple Maps lub Waze, zalecamy te alternatywne rozwiązania, które szanują prywatność.
 
-The recommendations here do not collect personally identifying information (PII) based on each application's privacy policy. There is **no guarantee** that these privacy policies are honored.
+Niniejsze zalecenia nie gromadzą informacji umożliwiających identyfikację użytkownika (PII) na podstawie politykę prywatności każdej z aplikacji. Nie ma **żadnej gwarancji**, że te polityki prywatności są przestrzegane.
 
 ## Organic Maps
 
@@ -20,9 +20,9 @@ The recommendations here do not collect personally identifying information (PII)
 
 ![Logo Organic Maps](assets/img/maps/organic-maps.svg){ align=right }
 
-**Organic Maps** is an open-source, community-developed map display and satnav-style navigation app for walkers, drivers, and cyclists. The app offers worldwide, offline maps based on OpenStreetMap data, and navigation with privacy — no location tracking, no data collection, and no ads. The app can be used completely offline.
+**Organic Maps** to rozwijana przez społeczność aplikacja open source do wyświetlania map i nawigacji satelitarnej dla pieszych, kierowców i rowerzystów. Aplikacja oferuje mapy całego świata, offline oparte na danych OpenStreetMap i nawigację z prywatnością — bez śledzenia lokalizacji, bez gromadzenia danych i bez reklam. Aplikacja może być używana całkowicie offline.
 
-Features include cycling routes, hiking trails and walking paths, turn-by-turn navigation with voice guidance, and public transport route planning (only available in supported regions and cities).
+Funkcje obejmują trasy rowerowe, szlaki turystyczne i ścieżki spacerowe, nawigację zakręt po zakręcie ze wskazówkami głosowymi oraz planowanie tras transportu publicznego (dostępne tylko w obsługiwanych regionach i miastach).
 
 [:octicons-home-16: Strona główna](https://organicmaps.app){ .md-button .md-button--primary }[:octicons-eye-16:](https://organicmaps.app/privacy){ .card-link title="Polityka prywatności" }
 [:octicons-code-16:](https://github.com/organicmaps/organicmaps){ .card-link title="Dokumentacja"}
@@ -39,7 +39,7 @@ Features include cycling routes, hiking trails and walking paths, turn-by-turn n
 
 </div>
 
-Please note that Organic Maps is a simple, basic app that lacks certain features many users might expect, such as satellite images, street view images, and real-time traffic information.
+Należy pamiętać, że Organic Maps to prosta, podstawowa aplikacja, w której brakuje niektórych funkcji, których wielu użytkowników może oczekiwać, takich jak zdjęcia satelitarne, zdjęcia z widokiem ulicy i informacje o ruchu drogowym w czasie rzeczywistym.
 
 ## OsmAnd
 
@@ -47,7 +47,7 @@ Please note that Organic Maps is a simple, basic app that lacks certain features
 
 ![Logo OsmAnd](assets/img/maps/osmand.svg){ align=right }
 
-**OsmAnd** is an open-source, offline map and navigation application based on OpenStreetMap that offers turn-by-turn navigation for walking, cycling, driving, as well as public transport. You can find a detailed overview of OsmAnd's supported [features](https://wiki.openstreetmap.org/wiki/OsmAnd#Features) on the OpenStreet Map Wiki.
+**OsmAnd** jest mapa i aplikacja nawigacyjna offline i open source opartą na OpenStreetMap, która oferuje nawigację zakręt po zakręcie dla pieszych, rowerzystów, kierowców, a także transportu publicznego. Szczegółowy przegląd obsługiwanych przez OsmAnd [funkcji](https://wiki.openstreetmap.org/wiki/OsmAnd#Features) można znaleźć na OpenStreet Map Wiki.
 
 [:octicons-home-16: Strona główna](https://osmand.net){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://osmand.net/docs/legal/privacy-policy){ .card-link title="Polityka prywatności" }
@@ -67,19 +67,19 @@ Please note that Organic Maps is a simple, basic app that lacks certain features
 <div class="admonition warning" markdown>
 <p class="admonition-title">Unikalny identyfikator użytkownika</p>
 
-OsmAnd generates a [unique user identifier (UUID)](https://osmand.net/docs/legal/terms-of-use/#6-unique-user-indentifier) for each app install that rotates every three months and is used for internal reports and statistics. The UUID is also sent to OsmAnd's servers when downloading maps. On Android, there is a setting that controls whether the UUID is sent with each download request. From the home screen, go to :material-menu: → :gear: **Settings** → :gear: **OsmAnd settings** → :material-web: **Identifiers**.
+OsmAnd generuje [unikalny identyfikator użytkownika (UUID)](https://osmand.net/docs/legal/terms-of-use/#6-unique-user-indentifier) dla każdej instalacji aplikacji, który zmienia się co trzy miesiące i jest używany do wewnętrznych raportów i statystyk. UUID jest również wysyłany do serwerów OsmAnd podczas pobierania map. W systemie Android istnieje ustawienie, które kontroluje, czy identyfikator UUID jest wysyłany z każdym żądaniem pobrania. Na ekranie głównym przejdź do :material-menu: → :gear: **Ustawienia** → :gear: **Ustawienia OsmAnd** → :material-web: **Identyfikatory**.
 
-- [ ] Uncheck **Send Unique User Identifier (UUID)**
+- [ ] Odznacz **Wyślij unikalny identyfikator użytkownika (UUID)**
 
-This setting is not available on the iOS app.
+To ustawienie nie jest dostępne w aplikacji na telefonach z iOS.
 
 </div>
 
-The app also includes a setting for sharing anonymous data about your downloaded maps and the features you use. This setting is disabled by default on Android, but enabled by default on iOS. To disable it in the iOS app, tap the :material-menu: on the home screen to find the :gear: **Settings** menu. Select that, then select :gear: **OsmAnd settings**.
+Aplikacja posiada również ustawienie udostępniania anonimowych danych o pobranych przez Ciebie mapach i używanych przez Ciebie funkcjach. To ustawienie jest domyślnie wyłączone w wersji na systemy Android, ale domyślnie włączone w wersji systemy iOS. Aby wyłączyć je w aplikacji iOS, dotknij :material-menu: na ekranie głównym, aby znaleźć menu :gear: **Ustawienia**. Wybierz tę opcję, a następnie wybierz :gear: **Ustawienia OsmAnd**.
 
-- [ ] Uncheck **Send anonymous data**
+- [ ] Odznacz **Wyślij anonimowe dane**
 
-OsmAnd allows you to overlay or underlay external map data, such as satellite images from Microsoft or [traffic data](https://themm.net/public/osmand_traffic) from Google, although the latter is ignored by the automatic route planning. OsmAnd also has an optional integration of street view images provided by [Mapillary](https://mapillary.com).
+OsmAnd umożliwia nakładanie lub podkładanie zewnętrznych danych map, takich jak zdjęcia satelitarne od Microsoft lub [dane o ruchu drogowym](https://themm.net/public/osmand_traffic) od Google, chociaż te drugie są ignorowane przez automatyczne planowanie trasy. OsmAnd posiada również opcjonalną integrację obrazów widoku ulicy dostarczanych przez [Mapillary](https://mapillary.com).
 
 ## Kryteria
 
@@ -87,16 +87,16 @@ OsmAnd allows you to overlay or underlay external map data, such as satellite im
 
 ### Minimalne wymagania
 
-- Must not collect PII per their privacy policy.
-- Must not require users to create an account with them.
-- Must not require users to share location data. If the user opts in to sharing their location, this data must be anonymized.
-- Must retain core functionality when offline and allow users to download maps for offline use.
+- Nie może gromadzić danych osobowych zgodnie z polityką prywatności.
+- Nie może wymagać od użytkowników utworzenia konta.
+- Nie może wymagać od użytkowników udostępniania danych o lokalizacji. Jeśli użytkownik wyrazi zgodę na udostępnianie swojej lokalizacji, dane te muszą zostać zanonimizowane.
+- Musi zachowywać podstawowe funkcje w trybie offline i umożliwiać użytkownikom pobieranie map do użytku offline.
 
 ### Najlepszy scenariusz
 
 Nasze kryteria „najlepszego scenariusza” określają, jak powinien wyglądać idealny projekt w tej kategorii. Nasze zalecenia nie muszą spełniać wszystkich tych warunków, jednak projekty, które spełniają więcej z nich, mogą być oceniane wyżej od pozostałych na stronie.
 
-- Apps should be open source.
-- Should have route planning for public transport.
-- Should have real-time traffic information for route planning.
-- Should support advanced features such as detailed shop/point of interest (POI) information and reviews, topographic maps, and satellite and street view images.
+- Aplikacje powinny być open source.
+- Powinny mieć możliwość planowania tras dla transportu publicznego.
+- Powinny mieć informacje o ruchu drogowym w czasie rzeczywistym do planowania trasy.
+- Powinny obsługiwać zaawansowane funkcje, takie jak szczegółowe informacje i recenzje sklepów/punktów zainteresowania (POI), mapy topograficzne oraz zdjęcia satelitarne i widoki ulic.

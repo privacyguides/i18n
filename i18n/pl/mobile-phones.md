@@ -1,12 +1,12 @@
 ---
 title: Telefony komórkowe
 icon: material/cellphone-check
-description: These mobile devices provide the best hardware security support for custom Android operating systems.
+description: Te urządzenia mobilne zapewniają najlepszą obsługę zabezpieczeń sprzętowych dla niestandardowych systemów operacyjnych Android.
 cover: android.webp
 schema:
   - "@context": http://schema.org
     "@type": WebPage
-    name: Mobile Phone Recommendations
+    name: Zalecenia dotyczące telefonów komórkowych
     url: "./"
   - "@context": http://schema.org
     "@type": Produkt
@@ -19,85 +19,95 @@ schema:
     review:
       "@type": Recenzja
       author:
-        "@type": Organization
+        "@type": Organizacja
         name: Privacy Guides
 robots: nofollow, max-snippet:-1, max-image-preview:large
 ---
 
 <small>Chroni przed następującymi zagrożeniami:</small>
 
-- [:material-target-account: Targeted Attacks](basics/common-threats.md#attacks-against-specific-individuals){ .pg-red }
-- [:material-bug-outline: Passive Attacks](basics/common-threats.md#security-and-privacy){ .pg-orange }
+- [:material-target-account: Ataki ukierunkowane](basics/common-threats.md#attacks-against-specific-individuals){ .pg-red }
+- [:material-bug-outline: Ataki pasywne](basics/common-threats.md#security-and-privacy){ .pg-orange }
 
-Most **mobile phones** receive short or limited windows of security updates from OEMs; after these devices reach the end of their support period, they **cannot** be considered secure as they no longer receive firmware or driver security updates.
+Większość **telefonów komórkowych** otrzymuje krótki albo ograniczony okres aktualizacji zabezpieczeń od producentów; po osiągnięciu okresu zakończenia wsparca przez te urządzenia, **nie mogą** zostac uznane za zabezpieczone, ponieważ nie otrzymują one już nowych aktualizacji zabezpieczeń oprogramowania i sterowników.
 
-The mobile devices listed here provide a long lifespan of guaranteed security updates and allow you to install a custom operating system without violating the Android security model.
+Wymienione tutaj urządzenia mobilne, zapewniają długi okres gwarantowanych aktualizacji zabezpieczeń i pozwalają na zainstalowanie    niestandardowego systemu operacyjnego bez naruszenia modelu bezpieczeństwa Androida.
 
-[Recommended Android Distributions :material-arrow-right-drop-circle:](android/distributions.md){ .md-button .md-button--primary } [Details about Android Security :material-arrow-right-drop-circle:](os/android-overview.md#security-protections){ .md-button }
+[Zalecane dystrybucje Androida :material-arrow-right-drop-circle:](android/distributions.md){ .md-button .md-button--primary } [Szczegóły dotyczące bezpieczeństwa systemu Android :material-arrow-right-drop-circle:](os/android-overview.md#security-protections){ .md-button }
 
 <div class="admonition warning" markdown>
 <p class="admonition-title">Ostrzeżenie</p>
 
-End-of-life devices (such as GrapheneOS's "extended support" devices) do not have full security patches (firmware updates) due to the OEM discontinuing support. These devices cannot be considered completely secure regardless of installed software.
+Urządzenia z zakończonym okresem wsparcia (takie jak urządzenia z "rozszerzonym wsparciem" dla GrapheneOS) nie posiadają pełnych poprawek bezpieczeństwa (aktualizacji oprogramowania), ponieważ ich producenci przestali je wspierać. Te urządzenia nie mogą być uznawane za w pełni bezpieczne niezależnie od zainstalowanego oprogramowania.
 
 </div>
 
-## General Purchasing Advice
+## Ogólne porady dotyczące zakupu
 
-When purchasing a device, we recommend getting one as new as possible. The software and firmware of mobile devices are only supported for a limited time, so buying new extends that lifespan as much as possible.
+Kupując urządzenie mobilne, zalecamy zakup możliwie najnowszego modelu. Systemy oraz oprogramowanie sprzętowe urządzeń mobilnych są wspierane tylko przez ograniczony czas, więc kupno nowego urządzenia wydłuża jego żywotność, maksymalnie jak jest to możliwe.
 
-Avoid buying phones from mobile network operators. These often have a **locked bootloader** and do not support [OEM unlocking](https://source.android.com/devices/bootloader/locking_unlocking). These phone variants will prevent you from installing any kind of alternative Android distribution.
+Unikaj kupowania urządzeń od operatorów sieci komórkowych. Często mają one **zablokowany program rozruchowy** i nie obsługują [odblokowania OEM](https://source.android.com/devices/bootloader/locking_unlocking). Te warianty urządzeń uniemożliwią Ci zainstalowanie jakiejkolwiek alternatywnej dystrybucji Androida.
 
-Be very **careful** about buying second hand phones from online marketplaces. Always check the reputation of the seller. If the device is stolen, there's a possibility of it being entered in the [IMEI database](https://gsma.com/get-involved/working-groups/terminal-steering-group/imei-database). There is also a risk involved with you being associated with the activity of the previous owner.
+Zachowaj szczególną **ostrożność** w przypadku kupowania używanych urządzeń z internetowych platform handlowych. Zawsze sprawdzaj reputację sprzedawcy. Jeśli urządzenie zostało skradzione, istnieje możliwość, że zostało wprowadzone do [bazy danych IMEI](https://gsma.com/get-involved/working-groups/terminal-steering-group/imei-database). Istnieje również ryzyko powiązania Cię z aktywnością poprzedniego właściciela.
 
-A few more tips regarding Android devices and operating system compatibility:
+Oto jeszcze parę wskazówek dotyczących urządzeń z Androidem i zgodności systemów operacyjnych:
 
-- Do not buy devices that have reached or are near their end-of-life; additional firmware updates must be provided by the manufacturer.
-- Do not buy preloaded LineageOS or /e/ OS phones or any Android phones without proper [Verified Boot](https://source.android.com/security/verifiedboot) support and firmware updates. These devices also have no way for you to check whether they've been tampered with.
-- In short, if a device is not listed here, there is probably a good reason. Check out our [forum](https://discuss.privacyguides.net) to find details!
+- Nie kupuj urządzeń, które osiągnęły lub zbliżają się do końca okresu wsparcia; dodatkowe aktualizacje oprogramowania sprzętowego muszą być dostarczane przez producenta.
+- Nie kupuj urządzeń z fabrycznie wgranym LineageOS lub /e/ OS lub jakiegokolwiek urządzenia z Androidem bez odpowiedniego wsparcia dla [Zweryfikowanego rozruchu]https://source.android.com/security/verifiedboot oraz aktualizacji oprogramowania. Urządzenia te nie mają również możliwości sprawdzenia, czy nie zostały naruszone.
+- Krótko mówiąc, jeśli jakiegoś urządzenia nie ma na liście, prawdopodobnie jest ku temu dobry powód. Sprawdź nasze [forum](https://discuss.privacyguides.net), aby poznać szczegóły!
 
 ## Google Pixel
 
-Google Pixel phones are the **only** devices we recommend for purchase. Pixel phones have stronger hardware security than any other Android devices currently on the market, due to proper AVB support for third-party operating systems and Google's custom [Titan](https://security.googleblog.com/2021/10/pixel-6-setting-new-standard-for-mobile.html) security chips acting as the Secure Element.
+Telefony Google Pixel to **jedyne** urządzenia, których zakup zalecamy. Te urządzenia posiadają silniejsze zabezpieczenia sprzętowe niż jakiekolwiek inne urządzenia z Androidem obecnie dostępne na rynku dzięki odpowiedniemu wsparciu AVB dla alternatywnych systemów operacyjnych oraz układom bezpieczeństwa Google <a href="https://security.googleblog.com/2021/10/pixel-6-setting-new-standard-for-mobile.html">[Titan]</a> działającymi jako Secure Element.
 
 <div class="admonition recommendation" markdown>
 
 ![Google Pixel 6](assets/img/android/google-pixel.png){ align=right }
 
-**Google Pixel** devices are known to have good security and properly support [Verified Boot](https://source.android.com/security/verifiedboot), even when installing custom operating systems.
+Urządzenia **Google Pixel** są znane z dobrych zabezpieczeń i prawidłowo obsługują [Zweryfikowany rozruch](https://source.android.com/security/verifiedboot), nawet podczas instalowania niestandardowych systemów operacyjnych.
 
-Beginning with the **Pixel 8** and **8 Pro**, Pixel devices receive a minimum of 7 years of guaranteed security updates, ensuring a much longer lifespan compared to the 2-5 years competing OEMs typically offer.
+Począwszy od **Pixel 8** i **8 Pro**, urządzenia Pixel otrzymują co najmniej 7 lat gwarantowanych aktualizacji zabezpieczeń, zapewniając znacznie dłuższą żywotność w porównaniu do 2-5 lat, które zazwyczaj oferują konkurencyjni producenci.
 
-[:material-shopping: Store](https://store.google.com/category/phones){ .md-button .md-button--primary }
+[:material-shopping: Sklep](https://store.google.com/category/phones){ .md-button .md-button--primary }
 
 </div>
 
-### Hardware Security
+### Bezpieczeństwo sprzętu
 
-Secure Elements like the Titan M2 are more limited than the processor's Trusted Execution Environment (TEE) used by most other phones as they are only used for secrets storage, hardware attestation, and rate limiting, not for running "trusted" programs. Phones without a Secure Element have to use the TEE for _all_ of those functions, resulting in a larger attack surface.
+Secure Elements, takie jak Titan M2, są bardziej ograniczone niż Trusted Execution Environment (TEE) procesora używane w większości innych telefonów, ponieważ są używane tylko do przechowywania sekretów, poświadczania sprzętu i ograniczania szybkości, a nie do uruchamiania "zaufanych" programów. Telefony bez Secure Element muszą używać TEE do _wszystkich_ tych funkcji, co skutkuje większą powierzchnią ataku.
 
-Google Pixel phones use a TEE OS called Trusty which is [open source](https://source.android.com/security/trusty#whyTrusty), unlike many other phones.
+Telefony Google Pixel korzystają z systemu operacyjnego TEE o nazwie Trusty, który jest [open source](https://source.android.com/security/trusty#whyTrusty), w przeciwieństwie do wielu innych telefonów.
 
-The Pixel 8 series and later supports ARM's Memory Tagging Extension ([MTE](https://developer.arm.com/documentation/108035/0100/Introduction-to-the-Memory-Tagging-Extension)), a hardware security enhancement that drastically lowers the probability of exploits occurring through memory corruption bugs. The stock Pixel OS allows you to enable MTE for supported apps through Google's Advanced Protection Program or via a developer option, but its usability is quite limited. [GrapheneOS](android/distributions.md#grapheneos), an alternative Android OS we recommend, greatly improves the usability and coverage of MTE in its implementation of the feature.
+Seria Pixel 8 i nowsze obsługuje rozszerzenie ARM Memory Tagging Extension ([MTE](https://developer.arm.com/documentation/108035/0100/Introduction-to-the-Memory-Tagging-Extension)), sprzętowe ulepszenie zabezpieczeń, które drastycznie obniża prawdopodobieństwo wystąpienia nadużyć poprzez błędy związane z uszkodzeniem pamięci. Standardowy system operacyjny Pixel umożliwia włączenie MTE dla obsługiwanych aplikacji za pośrednictwem programu zaawansowanej ochrony Google lub opcji programisty, ale jego użyteczność jest dość ograniczona. [GrapheneOS](android/distributions.md#grapheneos), alternatywny system operacyjny Android, który polecamy, znacznie poprawia użyteczność i pokrycie MTE w jego implementacji tej funkcji.
 
-### Buying a Google Pixel
+### Zakup Google Pixel
 
-A few more tips for purchasing a Google Pixel:
+Kilka dodatkowych wskazówek dotyczących zakupu Google Pixel:
 
-- If you're after a bargain on a Pixel device, we suggest buying an "**a**" model, just after the next flagship is released. Discounts are usually available because Google will be trying to clear their stock.
-- Consider price beating options and specials offered at physical stores.
-- Look at online community bargain sites in your country. These can alert you to good sales.
-- Google provides a list showing the [support cycle](https://support.google.com/nexus/answer/4457705) for each one of their devices. The price per day for a device can be calculated as: <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline" class="tml-display" style="display:inline math;"> <mfrac> <mtext>Cost</mtext> <mrow> <mtext>End of Life Date</mtext> <mo>−</mo> <mtext>Current Date</mtext> </mrow> </mfrac> </math>
-  , meaning that the longer use of the device the lower cost per day.
-- If the Pixel is unavailable in your region, the [NitroPhone](https://shop.nitrokey.com/shop) can be shipped globally.
+- Jeśli szukasz okazji na urządzenie Pixel, sugerujemy zakup modelu "**a**", tuż po wydaniu kolejnego flagowca. Zniżki są zwykle dostępne, ponieważ Google będzie próbowało wyczyścić swoje magazyny.
+- Rozważ opcje obniżania cen i promocje oferowane w sklepach fizycznych.
+- Sprawdź serwisy społecznościowe w swoim kraju. Mogą Cię poinformować o dobrych przecenach.
+- Google udostępnia listę pokazującą [cykl wsparcia](https://support.google.com/nexus/answer/4457705) dla każdego ze swoich urządzeń. Cenę za dzień dla urządzenia można obliczyć jako:
+  <0>
+  <1>
+  <2>Koszt</2>
+  <3>
+  <2>Data zakończenia wsparcia</2>
+  <4>-</4>
+  <2>Data bieżąca</2>
+  </3>
+  </1>
+  </0>
+  Oznacza to, że im dłuższe użytkowanie urządzenia, tym niższy dzienny koszt.
+- Jeśli Pixel jest niedostępny w twoim regionie, [NitroPhone](https://shop.nitrokey.com/shop) może być wysłany globalnie.
 
-The installation of GrapheneOS on a Pixel phone is easy with their [web installer](https://grapheneos.org/install/web). If you don't feel comfortable doing it yourself and are willing to spend a bit of extra money, check out the [NitroPhone](https://shop.nitrokey.com/shop) as they come preloaded with GrapheneOS from the reputable [Nitrokey](https://nitrokey.com/about) company.
+Instalacja GrapheneOS na telefonie Pixel jest łatwa dzięki ich [instalatorowi internetowemu](https://grapheneos.org/install/web). Jeśli nie czujesz się komfortowo, robiąc to samemu i jesteś skłonny wydać trochę więcej pieniędzy, sprawdź [NitroPhone](https://shop.nitrokey.com/shop), ponieważ są one fabrycznie wyposażone w GrapheneOS przez renomowaną firmę [Nitrokey](https://nitrokey.com/about).
 
 ## Kryteria
 
 **Należy pamiętać, że nie jesteśmy powiązani z żadnym z polecanych przez nas projektów.** Oprócz [naszych standardowych kryteriów](about/criteria.md) opracowaliśmy jasny zestaw wymagań, które pozwalają nam formułować obiektywne zalecenia. Sugerujemy zapoznanie się z tą listą przed wyborem projektu oraz przeprowadzenie własnych badań, aby upewnić się, że jest to odpowiedni wybór dla Ciebie.
 
-- Must support at least one of our recommended custom operating systems.
-- Must be currently sold new in stores.
-- Must receive a minimum of 5 years of security updates.
-- Must have dedicated secure element hardware.
+- Musi obsługiwać co najmniej jeden z naszych zalecanych niestandardowych systemów operacyjnych.
+- Musi być obecnie sprzedawany jako nowy w sklepach.
+- Musi otrzymywać aktualizacje zabezpieczeń przez co najmniej 5 lat.
+- Musi mieć dedykowany układ secure element.

@@ -20,25 +20,25 @@ Istnieją pewne istotne obawy związane z bezpieczeństwem Linuksa, których nal
 
 ### Bezpieczeństwo open-source
 
-Powszechne jest [ błędne przekonanie](../basics/common-misconceptions.md#open-source-software-is-always-secure-or-proprietary-software-is-more-secure), że Linux i inne oprogramowanie open-source są z natury bezpieczne tylko dlatego, że kod źródłowy jest dostępny. There is an expectation that community verification occurs regularly, but this isn’t always [the case](https://seirdy.one/posts/2022/02/02/floss-security).
+Powszechne jest [ błędne przekonanie](../basics/common-misconceptions.md#open-source-software-is-always-secure-or-proprietary-software-is-more-secure), że Linux i inne oprogramowanie open-source są z natury bezpieczne tylko dlatego, że kod źródłowy jest dostępny. Oczekuje się, że weryfikacja społeczności odbywa się regularnie, ale nie zawsze [tak](https://seirdy.one/posts/2022/02/02/floss-security) jest.
 
-In reality, distro security depends on a number of factors, such as project activity, developer experience, the level of rigor applied to code reviews, and how often attention is given to specific parts of the codebase that may go untouched for years.
+W rzeczywistości bezpieczeństwo dystrybucji zależy od wielu czynników, takich jak aktywność projektu, doświadczenie deweloperów, poziom rygoru stosowanego do przeglądów kodu i tego, jak często zwraca się uwagę na określone części bazy kodu, które mogą pozostać nietknięte przez lata.
 
-### Missing Security Features
+### Brakujące funkcje bezpieczeństwa
 
-At the moment, desktop Linux [falls behind alternatives](https://discussion.fedoraproject.org/t/fedora-strategy-2028-proposal-fedora-linux-is-as-secure-as-macos/46899/9) like macOS or Android when it comes to certain security features. We hope to see improvements in these areas in the future.
+W chwili obecnej desktopowy Linux [pozostaje w tyle za alternatywami](https://discussion.fedoraproject.org/t/fedora-strategy-2028-proposal-fedora-linux-is-as-secure-as-macos/46899/9) takimi jak macOS czy Android, jeśli chodzi o niektóre funkcje bezpieczeństwa. Mamy nadzieję na poprawę w tych obszarach w przyszłości.
 
-- **Verified boot** on Linux is not as robust as alternatives such as Apple’s [Secure Boot](https://support.apple.com/guide/security/secac71d5623/web) or Android’s [Verified Boot](https://source.android.com/security/verifiedboot). Verified boot prevents persistent tampering by malware and [evil maid attacks](https://en.wikipedia.org/wiki/Evil_Maid_attack), but is still largely [unavailable on even the most advanced distributions](https://discussion.fedoraproject.org/t/has-silverblue-achieved-verified-boot/27251/3).
+- **Zweryfikowany rozruch** w systemie Linux nie jest tak rozbudowany jak alternatywy, takie jak [Bezpieczny rozruch](https://support.apple.com/guide/security/secac71d5623/web) firmy Apple lub [Zweryfikowany rozruch](https://source.android.com/security/verifiedboot) Androida. Verified boot prevents persistent tampering by malware and [evil maid attacks](https://en.wikipedia.org/wiki/Evil_Maid_attack), but is still largely [unavailable on even the most advanced distributions](https://discussion.fedoraproject.org/t/has-silverblue-achieved-verified-boot/27251/3).
 
-- **Strong sandboxing** for apps on Linux is severely lacking, even with containerized apps like Flatpaks or sandboxing solutions like Firejail. Flatpak is the most promising sandboxing utility for Linux thus far, but is still deficient in many areas and allows for [unsafe defaults](https://flatkill.org/2020) which permit most apps to trivially bypass their sandbox.
+- **Silna piaskownica** dla aplikacji na Linuksie ma duże braki, nawet w przypadku aplikacji kontenerowych, takich jak Flatpak'i lub rozwiązań piaskownicy, takich jak Firejail. Flatpak is the most promising sandboxing utility for Linux thus far, but is still deficient in many areas and allows for [unsafe defaults](https://flatkill.org/2020) which permit most apps to trivially bypass their sandbox.
 
 Additionally, Linux falls behind in implementing [exploit mitigations](https://madaidans-insecurities.github.io/linux.html#exploit-mitigations) which are now standard on other operating systems, such as Arbitrary Code Guard on Windows or Hardened Runtime on macOS. Also, most Linux programs and Linux itself are coded in memory-unsafe languages. Memory corruption bugs are responsible for the [majority of vulnerabilities](https://msrc.microsoft.com/blog/2019/07/a-proactive-approach-to-more-secure-code) fixed and assigned a CVE. While this is also true for Windows and macOS, they are quickly making progress on adopting memory-safe languages such as Rust and Swift, respectively.
 
-## Choosing your distribution
+## Wybór dystrybucji
 
-Not all Linux distributions are created equal. Our [Linux recommendation page](../desktop.md) is not meant to be an authoritative source on which distribution you should use, but our recommendations *are* aligned with the following guidelines. These are a few things you should keep in mind when choosing a distribution:
+Nie wszystkie dystrybucje Linuksa są sobie równe. Our [Linux recommendation page](../desktop.md) is not meant to be an authoritative source on which distribution you should use, but our recommendations *are* aligned with the following guidelines. These are a few things you should keep in mind when choosing a distribution:
 
-### Release cycle
+### Cykl wydań
 
 We highly recommend that you choose distributions which stay close to the stable upstream software releases, often referred to as rolling release distributions. This is because frozen release cycle distributions often don’t update package versions and fall behind on security updates.
 
@@ -48,7 +48,7 @@ We don’t believe holding packages back and applying interim patches is a good 
 
 - [Regular Releases are Wrong, Roll for your life](https://youtu.be/i8c0mg_mS7U) <small>(YouTube)</small>
 
-### Traditional vs Atomic Updates
+### Aktualizacje tradycyjne vs atomowe
 
 Traditionally, Linux distributions update by sequentially updating the desired packages. Traditional updates such as those used in Fedora, Arch Linux, and Debian-based distributions can be less reliable if an error occurs while updating.
 
@@ -58,11 +58,11 @@ The atomic update method can achieve reliability with this model and is used for
 
 - [Let's try Fedora Silverblue — an immutable desktop OS! - Adam Šamalík](https://youtu.be/-hpV5l-gJnQ) <small>(YouTube)</small>
 
-### “Security-focused” distributions
+### Dystrybucje "skoncentrowane na bezpieczeństwie"
 
 There is often some confusion between “security-focused” distributions and “pentesting” distributions. A quick search for “the most secure Linux distribution” will often give results like Kali Linux, Black Arch, or Parrot OS. These distributions are offensive penetration testing distributions that bundle tools for testing other systems. They don’t include any “extra security” or defensive mitigations intended for regular use.
 
-### Arch-based distributions
+### Dystrybucje oparte na Arch
 
 Arch and Arch-based distributions are not recommended for those new to Linux (regardless of distribution) as they require regular [system maintenance](https://wiki.archlinux.org/title/System_maintenance). Arch does not have a distribution update mechanism for the underlying software choices. As a result you have to stay aware with current trends and adopt technologies on your own as they supersede older practices.
 
@@ -79,11 +79,11 @@ Additionally, we recommend **against** these two Arch derivatives specifically:
 - **Manjaro**: This distribution holds packages back for 2 weeks to make sure that their own changes don’t break, not to make sure that upstream is stable. When AUR packages are used, they are often built against the latest [libraries](https://en.wikipedia.org/wiki/Library_(computing)) from Arch’s repositories.
 - **Garuda**: They use [Chaotic-AUR](https://aur.chaotic.cx) which automatically and blindly compiles packages from the AUR. There is no verification process to make sure that the AUR packages don’t suffer from supply chain attacks.
 
-### Linux-libre kernel and “Libre” distributions
+### Jądro Linux-libre i dystrybucje "Libre"
 
 We recommend **against** using the Linux-libre kernel, since it [removes security mitigations](https://phoronix.com/news/GNU-Linux-Libre-5.7-Released) and [suppresses kernel warnings](https://news.ycombinator.com/item?id=29674846) about vulnerable microcode.
 
-### Mandatory access control
+### Obowiązkowa kontrola dostępu
 
 Mandatory access control is a set of additional security controls which help to confine parts of the system such as apps and system services. The two common forms of mandatory access control found in Linux distributions are [SELinux](https://github.com/SELinuxProject) and [AppArmor](https://apparmor.net). Fedora and Tumbleweed use SELinux by default, with Tumbleweed offering an option in its installer to choose AppArmor instead.
 
@@ -97,7 +97,7 @@ Most Linux distributions have an option within its installer for enabling [LUKS]
 
 - [Secure Data Erasure :material-arrow-right-drop-circle:](https://blog.privacyguides.org/2022/05/25/secure-data-erasure)
 
-### Swap
+### Pamięć wymiany (Swap)
 
 Consider using [ZRAM](https://wiki.archlinux.org/title/Zram#Using_zram-generator) instead of a traditional swap file or partition to avoid writing potentially sensitive memory data to persistent storage (and improve performance). Fedora-based distributions [use ZRAM by default](https://fedoraproject.org/wiki/Changes/SwapOnZRAM).
 
@@ -117,11 +117,11 @@ Some distributions (particularly those aimed at advanced users) are more bare bo
 
 Additionally, some distributions will not download firmware updates automatically. For that, you will need to install [`fwupd`](https://wiki.archlinux.org/title/Fwupd).
 
-### Permission Controls
+### Kontrola uprawnień
 
 Desktop environments that support the [Wayland](https://wayland.freedesktop.org) display protocol are [more secure](https://lwn.net/Articles/589147) than those that only support X11. Moreover, we *generally* recommend installing and using applications which are sandboxed such as those obtained via **Flatpak**. Flatpak supports the [`security-context-v1`](https://github.com/flatpak/flatpak/pull/4920) protocol and the ability to filter D-Bus protocols, which allow Flatpak to properly identify apps for the purpose of sandboxing them through permission controls.[^1] Conversely, applications outside sandboxes are free to perform privileged actions such as capturing your screen, either by [overwriting the portal permission store](https://invent.kde.org/plasma/xdg-desktop-portal-kde/-/issues/7#note_1112260), or [making use of privileged Wayland protocols](https://github.com/swaywm/sway/pull/7648#issuecomment-2507730794).
 
-## Privacy Tweaks
+## Poprawki prywatności
 
 ### Randomizacja adresów MAC
 
@@ -152,14 +152,14 @@ If you are using [systemd-networkd](https://en.wikipedia.org/wiki/Systemd#Ancill
 
 MAC address randomization is primarily beneficial for Wi-Fi connections. For Ethernet connections, randomizing your MAC address provides little (if any) benefit, because a network administrator can trivially identify your device by other means (such as inspecting the port you are connected to on the network switch). Randomizing Wi-Fi MAC addresses depends on support from the Wi-Fi’s firmware.
 
-### Other Identifiers
+### Inne identyfikatory
 
 There are other system identifiers which you may wish to be careful about. You should give this some thought to see if it applies to your [threat model](../basics/threat-modeling.md):
 
 - **Hostnames:** Your system's hostname is shared with the networks you connect to. You should avoid including identifying terms like your name or operating system in your hostname, instead sticking to generic terms or random strings.
 - **Usernames:** Similarly, your username is used in a variety of ways across your system. Consider using generic terms like "user" rather than your actual name.
 
-### System Counting
+### Zliczanie systemów
 
 The Fedora Project [counts](https://fedoraproject.org/wiki/Changes/DNF_Better_Counting) how many unique systems access its mirrors by using a [`countme`](https://fedoraproject.org/wiki/Changes/DNF_Better_Counting#Detailed_Description) variable instead of a unique ID. Fedora does this to determine load and provision better servers for updates where necessary.
 
