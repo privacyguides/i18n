@@ -11,7 +11,7 @@ cover: cryptocurrency.webp
 - [:material-eye-outline: Masowa inwigilacja](basics/common-threats.md#mass-surveillance-programs ""){.pg-blue}
 - [:material-close-outline: Cenzura](basics/common-threats.md#avoiding-censorship ""){.pg-blue-gray}
 
-Making payments online is one of the biggest challenges to privacy. These cryptocurrencies provide transaction privacy by default (something which is **not** guaranteed by the majority of cryptocurrencies), provided you have a strong understanding of how to make private payments effectively. We strongly encourage you first read our payments overview article before making any purchases:
+Dokonywanie płatności online jest jednym z największych wyzwań dla prywatności. These cryptocurrencies provide transaction privacy by default (something which is **not** guaranteed by the majority of cryptocurrencies), provided you have a strong understanding of how to make private payments effectively. Zdecydowanie zachęcamy do zapoznania się z naszym artykułem na temat płatności przed dokonaniem jakichkolwiek zakupów:
 
 [Dokonywanie prywatnych płatności  :material-arrow-right-drop-circle:](advanced/payments.md ""){.md-button}
 
