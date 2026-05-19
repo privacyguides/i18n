@@ -89,14 +89,14 @@ Aby uzyskać więcej informacji na temat każdego projektu, dlaczego został wyb
 
     **Brave** to przeglądarka domyślnie nastawiona na prywatność, oparta na Chromium, dzięki czemu jej interfejs i działanie powinny być dobrze znane większości osób, a problemy ze zgodnością stron internetowych są minimalne.
 
-    - [Brave Desktop Review :material-arrow-right-drop-circle:](desktop-browsers.md#brave)
-    - [Brave Mobile Review :material-arrow-right-drop-circle:](mobile-browsers.md#brave)
+    - [Recenzja Brave na komputery stacjonarne :material-arrow-right-drop-circle:](desktop-browsers.md#brave)
+    - [Recenzja Brave na urządzenia mobilne :material-arrow-right-drop-circle:](mobile-browsers.md#brave)
 
-- ![Safari logo](assets/img/browsers/safari.svg){ .lg .middle .twemoji } **Safari (iOS)**
+- ![Logo Safari](assets/img/browsers/safari.svg){ .lg .middle .twemoji } **Safari (iOS)**
 
     ---
 
-    We recommend **Safari** due to its [anti-fingerprinting](https://webkit.org/blog/15697/private-browsing-2-0) features and default tracker blocking. Oddziela też pliki cookie w trybie przeglądania prywatnego, co zapobiega śledzeniu między kartami.
+    Zalecamy przeglądarkę **Safari** ze względu na jej funkcje [ochrony przed identyfikacją](https://webkit.org/blog/15697/private-browsing-2-0) oraz domyślne blokowanie trackerów. Oddziela też pliki cookie w trybie przeglądania prywatnego, co zapobiega śledzeniu między kartami.
 
     - [Przeczytaj pełną recenzję :material-arrow-right-drop-circle:](mobile-browsers.md#safari-ios)
 
