@@ -4,13 +4,13 @@ icon: simple/apple
 description: iOS is een mobiel besturingssysteem ontwikkeld door Apple voor de iPhone.
 ---
 
-**iOS** en **iPadOS** zijn gesloten mobiele besturingssystemen ontwikkeld door Apple voor respectievelijk hun iPhone en iPad producten. Als u een Apple mobiel apparaat bezit, kunt u uw privacy verbeteren door wat ingebouwde telemetrie functies uit te schakelen en wat privacy- en beveiligingsinstellingen aan te scherpen, welke zijn ingebouwd in het systeem.
+**iOS** en **iPadOS** zijn gesloten mobiele besturingssystemen ontwikkeld door Apple voor respectievelijk hun iPhone en iPad producten. Als u een mobiel apparaat van Apple bezit, kunt u uw privacy verbeteren door wat ingebouwde telemetrie functies uit te schakelen en wat privacy- en beveiligingsinstellingen aan te scherpen, die zijn ingebouwd in het systeem.
 
 ## Privacy Opmerkingen
 
-iOS-apparaten worden regelmatig geprijsd door beveiligingsexperts wegens hun robuuste gegevensbeveiliging en voor het volgen van moderne, beste praktijken. Echter, de restrictiviteit van Apples ecosysteem - met name met hun mobiele apparaten - belemmert privacy nog steeds op een aantal manieren.
+iOS-apparaten worden regelmatig geprezen door beveiligingsexperts vanwege hun robuuste gegevensbeveiliging en wegens het volgen van moderne, beste praktijken. Echter, de restrictiviteit van Apples ecosysteem - met name met hun mobiele apparaten - belemmert privacy nog steeds op een aantal manieren.
 
-We zijn over het algemeen van mening dat iOS voor de meeste mensen een beter dan gemiddelde bescherming biedt op het gebied van privacy en beveiliging, vergeleken met klassiek Android-apparaten van welke fabrikant dan ook. However, you can achieve even higher standards of privacy with a [custom Android operating system](../android/distributions.md) like GrapheneOS, if you want or need to be completely independent of Apple or Google's cloud services.
+We zijn over het algemeen van mening dat iOS voor de meeste mensen een beter dan gemiddelde bescherming biedt op het gebied van privacy en beveiliging, vergeleken met klassiek Android-apparaten van welke fabrikant dan ook. Je kunt echter een nog hoger niveau van privacy bereiken met een [aangepast Android-besturingssysteem](../android/distributions.md) zoals GrapheneOS, als je compleet onafhankelijk wil zijn van de clouddiensten van Apple of Google. 
 
 ### Activeringsslot
 
