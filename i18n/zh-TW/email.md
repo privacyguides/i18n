@@ -22,7 +22,7 @@ global:
 
 除此之外，我們還推薦各種基於可持續商業模式和內建安全和隱私功能的電子郵件提供商。 閱讀我們[完整的標準清單](#criteria)，瞭解更多資訊。
 
-| 供應商                           | OpenPGP / WKD                          | IMAP / SMTP                                       | Encrypted Storage                                 | 匿名付款方式                            |
+| 供應商                           | OpenPGP / WKD                          | IMAP / SMTP                                       | 加密儲存                                              | 匿名付款方式                            |
 | ----------------------------- | -------------------------------------- | ------------------------------------------------- | ------------------------------------------------- | --------------------------------- |
 | [Proton Mail](#proton-mail)   | :material-check:{ .pg-green }          | :material-information-outline:{ .pg-blue } 僅提供付費版 | :material-check:{ .pg-green }                     | 現金<br>透過第三方使用 Monero        |
 | [Mailbox Mail](#mailbox-mail) | :material-check:{ .pg-green }          | :material-check:{ .pg-green }                     | :material-information-outline:{ .pg-blue } 限 Mail | 現金                                |
