@@ -14,7 +14,7 @@ global:
 
 - [:material-account-cash: Capitalisme de surveillance](basics/common-threats.md#surveillance-as-a-business-model ""){.pg-brown}
 
-Si vous recherchez plus de *confidentialité* vis-à-vis de votre fournisseur d'accès à Internet, sur un réseau Wi-Fi public ou lorsque vous téléchargez des fichiers en torrent, un **VPN** peut être la solution qu'il vous faut.
+If you're looking for additional *privacy* from your ISP or on a public Wi-Fi network, a **VPN** may be the solution for you.
 
 <div class="admonition danger" markdown>
 <p class="admonition-title">Les VPN ne garantissent pas l'anonymat</p>

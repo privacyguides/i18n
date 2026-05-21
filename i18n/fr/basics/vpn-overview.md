@@ -36,11 +36,9 @@ Notez qu'un VPN n'ajoute pas de sécurité ou de chiffrement à votre trafic ent
 
 ## Dois-je utiliser un VPN ?
 
-**Oui**, presque certainement. Un VPN a de nombreux avantages, y compris :
-
+**Oui**, presque certainement. The advantages of a VPN include:
 1. Cacher votre trafic de **seulement** votre Fournisseur d'Accès Internet.
-1. Cacher vos téléchargements (tels que les torrents) à votre FAI et aux organisations anti-piratage.
-1. Cacher votre adresse IP des sites et services tiers, et ce faisant vous aider à vous fondre dans le traffic et à prévenir le suivi basé sur l'adresse IP.
+1. Hiding your IP from third-party websites and services, preventing IP based tracking.
 1. Permettre de contourner les restrictions géographiques sur certains contenus.
 
 Les VPNs peuvent fournir *certains* des mêmes avantages fournis par Tor, comme cacher votre adresse IP aux sites Web que vous visitez et déplacer géographiquement votre trafic réseau, et de bons fournisseurs VPN ne coopéreront pas, par exemple avec les autorités légales de régimes oppressifs, en particulier si vous choisissez un fournisseur VPN hors de votre juridiction.

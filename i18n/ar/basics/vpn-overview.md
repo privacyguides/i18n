@@ -36,11 +36,9 @@ flowchart LR
 
 ## هل يجب عليَّ استخدام شبكة خاصة افتراضية؟
 
-**Yes**, almost certainly. تتمتع الشبكة الخاصة الافتراضية بالعديد من المزايا، بما في ذلك:
-
+**Yes**, almost certainly. The advantages of a VPN include:
 1. Hiding your traffic from **only** your Internet Service Provider.
-1. إخفاء التنزيلات الخاصة بك (مثل التورنت) عن مزود خدمة الإنترنت والمنظمات المناهضة للقرصنة.
-1. يساعدك إخفاء عنوان IP الخاص بك عن مواقع الويب والخدمات التابعة لجهات خارجية على التخفي ومنع التتبع القائم على عنوان IP.
+1. Hiding your IP from third-party websites and services, preventing IP based tracking.
 1. يتيح لك تجاوز القيود الجغرافية على محتوى معين.
 
 VPNs can provide *some* of the same benefits Tor provides, such as hiding your IP from the websites you visit and geographically shifting your network traffic, and good VPN providers will not cooperate with e.g. legal authorities from oppressive regimes, especially if you choose a VPN provider outside your own jurisdiction.

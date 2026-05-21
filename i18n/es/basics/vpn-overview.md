@@ -36,11 +36,9 @@ Ten en cuenta que una VPN no añade ningún tipo de seguridad o cifrado a tu tr�
 
 ## ¿Debería usar una VPN?
 
-**Sí**, casi seguro. Una VPN tiene muchas ventajas, entre ellas:
-
+**Sí**, casi seguro. The advantages of a VPN include:
 1. Oculta tu tráfico **solo** de tu proveedor de servicios de Internet.
-1. Oculta tus descargas (como los torrents) de tu ISP y las organizaciones antipiratería.
-1. Oculta tu IP de sitios web y servicios de terceros, ayudándote a pasar desapercibido y evitando el rastreo basado en la IP.
+1. Hiding your IP from third-party websites and services, preventing IP based tracking.
 1. Te permite saltarte las restricciones geográficas de determinados contenidos.
 
 Las VPN pueden proporcionar a *algunos* de los mismos beneficios que proporciona Tor, como ocultar tu IP de los sitios web que visitas y desplazar geográficamente tu tráfico de red, y los buenos proveedores de VPN no cooperarán con, por ejemplo, las autoridades legales de regímenes opresivos, especialmente si eliges un proveedor de VPN fuera de tu propia jurisdicción.

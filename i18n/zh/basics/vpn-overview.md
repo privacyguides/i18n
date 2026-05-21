@@ -36,11 +36,9 @@ Note that a VPN does not add any security or encryption to your traffic between 
 
 ## 我应该使用VPN吗？
 
-**Yes**, almost certainly. A VPN has many advantages, including:
-
+**Yes**, almost certainly. The advantages of a VPN include:
 1. **仅仅** 向您的Internet服务提供商隐藏流量。
-1. 向你的ISP和反盗版组织隐藏你的下载（如torrent）。
-1. Hiding your IP from third-party websites and services, helping you blend in and preventing IP based tracking.
+1. Hiding your IP from third-party websites and services, preventing IP based tracking.
 1. Allowing you to bypass geo-restrictions on certain content.
 
 VPNs can provide *some* of the same benefits Tor provides, such as hiding your IP from the websites you visit and geographically shifting your network traffic, and good VPN providers will not cooperate with e.g. legal authorities from oppressive regimes, especially if you choose a VPN provider outside your own jurisdiction.

@@ -36,11 +36,9 @@ Note that a VPN does not add any security or encryption to your traffic between 
 
 ## Следует ли мне использовать VPN?
 
-**Да**, почти наверняка. VPN позволяет:
-
+**Да**, почти наверняка. The advantages of a VPN include:
 1. Скрывать ваш трафик **только** от вашего интернет-провайдера.
-1. Скрывать ваши загрузки (например, торренты) от провайдера и антипиратских организаций.
-1. Скрывать ваш IP от сторонних веб-сайтов и служб, маскируясь и предотвращая отслеживание по IP.
+1. Hiding your IP from third-party websites and services, preventing IP based tracking.
 1. Обходить гео-ограничения на определённый контент.
 
 VPNs can provide *some* of the same benefits Tor provides, such as hiding your IP from the websites you visit and geographically shifting your network traffic, and good VPN providers will not cooperate with e.g. legal authorities from oppressive regimes, especially if you choose a VPN provider outside your own jurisdiction.

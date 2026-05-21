@@ -14,7 +14,7 @@ global:
 
 - [:material-account-cash: 監視資本主義](basics/common-threats.md#surveillance-as-a-business-model ""){.pg-brown}
 
-ISPや公衆Wi-Fiから*プライバシー*をさらに保護したい場合やP2Pソフトを使う際にそうしたい場合、**VPN**を使うことは良い方法になります。
+If you're looking for additional *privacy* from your ISP or on a public Wi-Fi network, a **VPN** may be the solution for you.
 
 <div class="admonition danger" markdown>
 <p class="admonition-title">VPNでは匿名性を確保することはできません</p>

@@ -36,11 +36,9 @@ flowchart LR
 
 ## 我應該使用 VPN 嗎？
 
-**是的**，幾乎可以肯定。 VPN 有很多優點，包括：
-
+**是的**，幾乎可以肯定。 The advantages of a VPN include:
 1. **僅需**對網路連線服務商隱藏您的流量 。
-1. 對 ISP 和反盜版組織隱藏您的下載（如 torrents）。
-1. 向第三方網站和服務隱藏 IP，幫助您混入防止基於 IP 的追蹤。
+1. Hiding your IP from third-party websites and services, preventing IP based tracking.
 1. 可繞過某些內容的地理限制。
 
 VPN 可以提供 Tor 一些相同好處，例如對造訪的網站隱藏 IP 以及在地理位置上轉移您的網路流量，而優秀的 VPN 服務通常不會與壓迫政權的法律當局合作，特別是選擇自身司法管轄範圍之外的 VPN 服務商。

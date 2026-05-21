@@ -14,7 +14,7 @@ global:
 
 - [:material-account-cash: Capitalismo de Vigilância](basics/common-threats.md#surveillance-as-a-business-model ""){.pg-brown}
 
-Se você está procurando mais **privacidade** do seu provedor de internet (ISP), ou em uma rede Wi-Fi pública, ou ao fazer arquivos do tipo torrent, uma VPN pode será a melhor solução para você, desde que você também entenda os riscos envolvidos.
+If you're looking for additional *privacy* from your ISP or on a public Wi-Fi network, a **VPN** may be the solution for you.
 
 <div class="admonition danger" markdown>
 <p class="admonition-title">As VPNs não fornecem anonimato</p>

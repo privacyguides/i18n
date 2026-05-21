@@ -14,7 +14,7 @@ global:
 
 - [:material-account-cash: رأسمالية المراقبة](basics/common-threats.md#surveillance-as-a-business-model ""){.pg-brown}
 
-إذا كنت تبحث عن *خصوصية* إضافية من مزود خدمة الإنترنت الخاص بك، أو على شبكة Wi-Fi عامة، أو في أثناء تحميل ملفات تورنت، فقد تكون **الشبكة الافتراضية الخاصة** هي الحل المناسب لك.
+If you're looking for additional *privacy* from your ISP or on a public Wi-Fi network, a **VPN** may be the solution for you.
 
 <div class="admonition danger" markdown>
 <p class="admonition-title">لا تحميك الشبكات الخاصة الافتراضية من التعرف على هويتك</p>

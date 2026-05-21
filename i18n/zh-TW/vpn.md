@@ -14,7 +14,7 @@ global:
 
 - [:material-account-cash: 監控資本主義](basics/common-threats.md#surveillance-as-a-business-model ""){.pg-brown}
 
-如果您想從 ISP、公共 Wi-Fi 或傳送檔案時獲得更多*隱私*，**VPN**可能是您的解決方案。
+If you're looking for additional *privacy* from your ISP or on a public Wi-Fi network, a **VPN** may be the solution for you.
 
 <div class="admonition danger" markdown>
 <p class="admonition-title">VPN 不提供匿名性</p>

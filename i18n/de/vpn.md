@@ -14,7 +14,7 @@ global:
 
 - [:material-account-cash: Überwachungskapitalismus](basics/common-threats.md#surveillance-as-a-business-model ""){.pg-brown}
 
-Wenn du zusätzliche *Privatsphäre* vor deinem ISP, in einem öffentlichen Wi-Fi-Netzwerk oder beim Herunterladen von Dateien über Torrents benötigst, könnte ein **VPN** die Lösung für dich sein.
+If you're looking for additional *privacy* from your ISP or on a public Wi-Fi network, a **VPN** may be the solution for you.
 
 <div class="admonition danger" markdown>
 <p class="admonition-title">VPNs bieten keine Anonymität</p>

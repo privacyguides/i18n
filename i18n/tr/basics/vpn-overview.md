@@ -36,11 +36,9 @@ VPN'in, VPN sunucusu ile internetteki hedefiniz arasındaki trafiğinize herhang
 
 ## VPN kullanmalı mıyım?
 
-**Evet**, neredeyse kesinlikle. VPN'in aşağıdakiler de dahil olmak üzere birçok avantajı vardır:
-
+**Evet**, neredeyse kesinlikle. The advantages of a VPN include:
 1. Trafiğinizi **yalnızca** İnternet Servis Sağlayıcınızdan gizlemek.
-1. İndirmelerinizi (torrentler gibi) İSS'nizden ve korsanla mücadele kuruluşlarından gizlemek.
-1. IP'nizi üçüncü taraf web sitelerinden ve hizmetlerinden gizleyerek uyum sağlamanıza yardımcı olur ve IP tabanlı izlemeyi önler.
+1. Hiding your IP from third-party websites and services, preventing IP based tracking.
 1. Belirli içerikler üzerindeki coğrafi kısıtlamaları aşmanıza olanak tanır.
 
 VPN'ler, ziyaret ettiğiniz web sitelerinden IP'nizi gizlemek ve ağ trafiğinizi coğrafi olarak kaydırmak gibi Tor'un sağladığı faydaların *bazılarını* sağlayabilir ve iyi VPN sağlayıcıları, özellikle kendi yargı alanınızın dışında bir VPN sağlayıcısı seçerseniz, örneğin baskıcı rejimlerden yasal yetkililerle işbirliği yapmayacaktır.

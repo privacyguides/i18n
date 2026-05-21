@@ -14,7 +14,7 @@ global:
 
 - [:material-account-cash: سرمایه‌داری نظارتی](basics/common-threats.md#surveillance-as-a-business-model ""){.pg-brown}
 
-اگر به دنبال *حریم خصوصی* بیشتری از ارائه‌دهنده خدمات اینترنت خود، در یک شبکه وای‌فای عمومی یا هنگام تورنت کردن فایل‌ها هستید، یک **VPN** ممکن است راه‌حل مناسبی برای شما باشد.
+If you're looking for additional *privacy* from your ISP or on a public Wi-Fi network, a **VPN** may be the solution for you.
 
 <div class="admonition danger" markdown>
 <p class="admonition-title">وی‌پی‌ان‌ها ناشناس بودن را فراهم نمی‌کنند</p>

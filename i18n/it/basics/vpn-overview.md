@@ -36,11 +36,9 @@ Nota che una VPN non aggiunge alcuna sicurezza o crittografia al tuo traffico, t
 
 ## Dovrei utilizzare una VPN?
 
-**Sì**, quasi sicuramente. Una VPN presenta molti vantaggi, tra cui:
-
+**Sì**, quasi sicuramente. The advantages of a VPN include:
 1. Nascondere il tuo traffico **solo** dal tuo Internet Service Provider.
-1. Nascondere i tuoi download (come i torrent) dal tuo ISP e dalle organizzazioni antipirateria.
-1. Nascondere il tuo IP da siti web e servizi di terze parti, aiutandoti a mimetizzarti e impedendo il tracciamento basato sull'IP.
+1. Hiding your IP from third-party websites and services, preventing IP based tracking.
 1. Permette di aggirare le restrizioni geografiche su alcuni contenuti.
 
 Le VPN possono fornire *alcuni* degli stessi vantaggi offerti da Tor, come nascondere il tuo IP dai siti web visitati e spostare geograficamente il tuo traffico di rete, inoltre i buoni fornitori di VPN non collaboreranno con le autorità legali di regimi oppressivi, soprattutto se scegli un fornitore di VPN al di fuori della tua giurisdizione.

@@ -36,11 +36,9 @@ Zwróć uwagę, że VPN nie dodaje żadnego zabezpieczenia ani szyfrowania do ru
 
 ## Czy warto korzystać z VPN?
 
-**Tak**, prawie na pewno. VPN ma wiele zalet, w tym:
-
+**Tak**, prawie na pewno. The advantages of a VPN include:
 1. Ukrywanie ruchu **tylko** przed dostawcą usług internetowych.
-1. Ukrywanie pobieranych plików (np. torrentów) przed ISP i organizacjami antypirackimi.
-1. Ukrywanie Twojego adresu IP przed stronami i usługami zewnętrznymi, co pomaga wtopić się w tłum i utrudnia śledzenie oparte na adresie IP.
+1. Hiding your IP from third-party websites and services, preventing IP based tracking.
 1. Umożliwianie omijania ograniczeń geograficznych dla niektórych treści.
 
 VPN-y mogą zapewnić *niektóre* z tych samych korzyści, co Tor — na przykład ukrywanie adresu IP przed odwiedzanymi stronami i geograficzne przesunięcie ruchu sieciowego — a dobrzy dostawcy VPN nie będą współpracować z np. organami represyjnych reżimów, szczególnie jeśli wybierzesz dostawcę spoza własnej jurysdykcji.

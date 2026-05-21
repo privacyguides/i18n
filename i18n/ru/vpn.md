@@ -14,7 +14,7 @@ global:
 
 - [:material-account-cash: Капитализм слежки](basics/common-threats.md#surveillance-as-a-business-model ""){.pg-brown}
 
-Если вам нужна дополнительная *конфиденциальность* от интернет-провайдера, в публичной сети Wi-Fi или используя торрент, **VPN** может стать для вас решением.
+If you're looking for additional *privacy* from your ISP or on a public Wi-Fi network, a **VPN** may be the solution for you.
 
 <div class="admonition danger" markdown>
 <p class="admonition-title">VPN не обеспечивает анонимность</p>

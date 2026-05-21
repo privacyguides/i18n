@@ -14,7 +14,7 @@ global:
 
 - [:material-account-cash: Kapitalizm inwigilacji](basics/common-threats.md#surveillance-as-a-business-model ""){.pg-brown}
 
-Jeżeli chcesz zwiększyć swoją *prywatność* wobec dostawcy Internetu, podczas korzystania z publicznej sieci Wi-Fi lub przy pobieraniu plików z torrentów, **VPN** może być rozwiązaniem dla Ciebie.
+If you're looking for additional *privacy* from your ISP or on a public Wi-Fi network, a **VPN** may be the solution for you.
 
 <div class="admonition danger" markdown>
 <p class="admonition-title">VPN nie zapewnia anonimowości</p>

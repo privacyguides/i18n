@@ -14,7 +14,7 @@ global:
 
 - [:material-account-cash: Surveillance kapitalisme](basics/common-threats.md#surveillance-as-a-business-model ""){.pg-brown}
 
-Als je op zoek bent naar extra *privacy* van je ISP, op een openbaar Wi-Fi-netwerk of tijdens het torrenten van bestanden, dan kan een **VPN** de oplossing voor jou zijn.
+If you're looking for additional *privacy* from your ISP or on a public Wi-Fi network, a **VPN** may be the solution for you.
 
 <div class="admonition danger" markdown>
 <p class="admonition-title">VPN's bieden geen anonimiteit</p>
