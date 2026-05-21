@@ -103,7 +103,7 @@ Proto je nutné, abyste nepřenastavovali prohlížeč mimo už vytvořené [úr
 
 Note that while you can use Mullvad Browser with any VPN provider, other people on that VPN must also be using Mullvad Browser for this "crowd" to exist, something which is more likely on Mullvad VPN compared to other providers. Mullvad Browser nemá zabudované připojení k VPN a ani nekontroluje před prohlížením, jestli VPN používáte; vaše VPN připojení si musíte nastavit a spravovat mimo prohlízeč.
 
-Mullvad Browser má v základu předinstalovaná rozšíření *uBlock Origin* a *NoScript*. Zatímco obvykle nedoporučujeme přidávat *další* [rozšíření](browser-extensions.md), tyto předinstalovaná rozšíření byste **neměli** odstraňovat nebo měnit jejich nastavení, protože už to odlišuje váš otisk od ostatních uživatelů Mullvad Browseru. Zároveň má v základu i Mullvad Browser Extension, které *můžete* bezpečně odebrat, aniž by to mělo vliv na váš otisk v případě, že to tak chcete, ale zároveň je v pořádku si ho ponechat i v případě, že Mullvad VPN nepoužívate.
+Mullvad Browser má v základu předinstalovaná rozšíření *uBlock Origin* a *NoScript*. Zatímco obvykle nedoporučujeme přidávat *další* [rozšíření](browser-extensions.md), tyto předinstalovaná rozšíření byste **neměli** odstraňovat nebo měnit jejich nastavení, protože už to odlišuje váš otisk od ostatních uživatelů Mullvad Browseru. It also comes pre-installed with the Mullvad Browser Extension, which *can* be safely removed without [impacting](https://mullvad.net/en/help/tag/mullvad-browser#112) your browser fingerprint if you would like, but is also safe to keep even if you don't use Mullvad VPN.
 
 ### Režim soukromého prohlížení
 

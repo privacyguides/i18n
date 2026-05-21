@@ -102,7 +102,7 @@ schema:
 
 Note that while you can use Mullvad Browser with any VPN provider, other people on that VPN must also be using Mullvad Browser for this "crowd" to exist, something which is more likely on Mullvad VPN compared to other providers. متصفح Mullvad لا يحتوي على VPN مدمج، ولا يتحقّق من أنك تستخدم VPN قبل بدء التصفّح، لذلك يجب إعداد اتصال الـVPN وتشغيله بشكل منفصل.
 
- يأتي متصفح Mullvad مزودا مسبقا بإضافتي *uBlock Origin* و*NoScript* لمتصفح الويب. رغم أننا عادةً لا ننصح بإضافة *إضافات جديدة* إلى [المتصفح](browser-extensions.md)، إلا أن الإضافات المثبّتة مسبقًا مع متصفح Mullvad يجب **عدم** حذفها أو تعديل إعداداتها الافتراضية، لأن القيام بذلك قد يجعل بصمة متصفحك مختلفة بوضوح عن باقي مستخدمي Mullvad Browser. يأتي المتصفح أيضا مزوّدا مسبقا بإضافة Mullvad Browser Extension، والتي *يمكنك* إزالتها بأمان دون أن يؤثر ذلك على بصمة المتصفح، إذا رغبت بذلك. كما أنه لا بأس في الاحتفاظ بها حتى إذا كنت لا تستخدم Mullvad VPN.
+ يأتي متصفح Mullvad مزودا مسبقا بإضافتي *uBlock Origin* و*NoScript* لمتصفح الويب. رغم أننا عادةً لا ننصح بإضافة *إضافات جديدة* إلى [المتصفح](browser-extensions.md)، إلا أن الإضافات المثبّتة مسبقًا مع متصفح Mullvad يجب **عدم** حذفها أو تعديل إعداداتها الافتراضية، لأن القيام بذلك قد يجعل بصمة متصفحك مختلفة بوضوح عن باقي مستخدمي Mullvad Browser. It also comes pre-installed with the Mullvad Browser Extension, which *can* be safely removed without [impacting](https://mullvad.net/en/help/tag/mullvad-browser#112) your browser fingerprint if you would like, but is also safe to keep even if you don't use Mullvad VPN.
 
 ### الوضع الخفي
 
