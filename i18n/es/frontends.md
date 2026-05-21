@@ -46,34 +46,6 @@ Redlib es útil si desea desactivar JavaScript en su navegador, como [Tor Browse
 
 </div>
 
-## TikTok
-
-### ProxiTok
-
-<div class="admonition recommendation" markdown>
-
-![ProxiTok logo](assets/img/frontends/proxitok.svg){ align=right }
-
-**ProxiTok** es un frontend de código abierto para el sitio web [TikTok](https://tiktok.com) que también es autoalojable.
-
-Hay varias instancias públicas, con algunas que ofrecen un servicio de onion [Tor](tor.md) o un eepsite [I2P](alternative-networks.md#i2p-the-invisible-internet-project).
-
-[:octicons-repo-16: Repositorio](https://github.com/pablouser1/ProxiTok){ .md-button .md-button--primary }
-[:octicons-server-16:](https://github.com/pablouser1/ProxiTok/wiki/Public-instances){ .card-link title="Instancias Públicas" }
-[:octicons-info-16:](https://github.com/pablouser1/ProxiTok/wiki){ .card-link title="Documentación" }
-[:octicons-code-16:](https://github.com/pablouser1/ProxiTok){ .card-link title="Código Fuente" }
-
-</details>
-
-</div>
-
-<div class="admonition tip" markdown>
-<p class="admonition-title">Consejo</p>
-
-ProxiTok es útil si quieres desactivar JavaScript en tu navegador, como [Tor Browser](tor.md#tor-browser) en el nivel de seguridad Más Seguro.
-
-</div>
-
 ## YouTube
 
 **Nota:** YouTube ha introducido gradualmente cambios en su reproductor de vídeo y en su API que han desbaratado algunos de los métodos utilizados por las interfaces de terceros para extraer datos de YouTube. Si experimenta problemas de fiabilidad con una interfaz de YouTube, considere probar otra que utilice un método de extracción diferente.

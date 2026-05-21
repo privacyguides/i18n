@@ -114,13 +114,6 @@ El autoalojamiento de tu propia instancia de una interfaz de usuario basada en w
   [:octicons-info-16:](https://github.com/redlib-org/redlib#deployment){ .card-link title="Documentación de Administrador" }
   [:octicons-code-16:](https://github.com/redlib-org/redlib){ .card-link title="Código Fuente" }
 
-- ![ProxiTok logo](../assets/img/frontends/proxitok.svg){ .lg .middle .twemoji } [**ProxiTok (TikTok)**](../frontends.md#proxitok)
-
-  ---
-
-  [:octicons-info-16:](https://github.com/pablouser1/ProxiTok/wiki/Self-hosting){ .card-link title="Documentación de Administrador" }
-  [:octicons-code-16:](https://github.com/pablouser1/ProxiTok){ .card-link title="Código Fuente" }
-
 - ![Invidious logo](../assets/img/frontends/invidious.svg#only-light){ .twemoji }![Invidious logo](../assets/img/frontends/invidious-dark.svg#only-dark){ .twemoji } [**Invidious (YouTube)**](../frontends.md#invidious)
 
   ---

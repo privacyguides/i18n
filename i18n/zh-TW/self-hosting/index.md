@@ -114,13 +114,6 @@ Mastodon 從龐大且活躍的自行架設社群中獲益良多，其管理方�
   [:octicons-info-16:](https://github.com/redlib-org/redlib#deployment){ .card-link title="管理文件" }
   [:octicons-code-16:](https://github.com/redlib-org/redlib){ .card-link title="原始碼" }
 
-- ![ProxiTok 圖示](../assets/img/frontends/proxitok.svg){ .lg .middle .twemoji } [**ProxiTok (TikTok)**](../frontends.md#proxitok)
-
-  ---
-
-  [:octicons-info-16:](https://github.com/pablouser1/ProxiTok/wiki/Self-hosting){ .card-link title="管理文件" }
-  [:octicons-code-16:](https://github.com/pablouser1/ProxiTok){ .card-link title="原始碼" }
-
 - ![Invidious 圖示](../assets/img/frontends/invidious.svg#only-light){ .twemoji }![Invidious logo](../assets/img/frontends/invidious-dark.svg#only-dark){ .twemoji } [**Invidious (YouTube)**](../frontends.md#invidious)
 
   ---

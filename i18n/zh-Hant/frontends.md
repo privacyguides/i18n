@@ -46,34 +46,6 @@ cover: frontends.webp
 
 </div>
 
-## TikTok
-
-### ProxiTok
-
-<div class="admonition recommendation" markdown>
-
-![ProxiTok logo](assets/img/frontends/proxitok.svg){ align=right }
-
-**ProxiTok** 是 [TikTok](https://tiktok.com)網站的開源前端，也可自主託管。
-
-有許多公開的實例，有些提供 [Tor](tor.md) 洋蔥服務或 [I2P](alternative-networks.md#i2p-the-invisible-internet-project) 匿名站點。
-
-[:octicons-repo-16: 儲存庫](https://github.com/pablouser1/ProxiTok){ .md-button .md-button--primary }
-[:octicons-server-16:](https://github.com/pablouser1/ProxiTok/wiki/Public-instances){ .card-link title="公開實例" }
-[:octicons-info-16:](https://github.com/pablouser1/ProxiTok/wiki){ .card-link title="說明文件" }
-[:octicons-code-16:](https://github.com/pablouser1/ProxiTok){ .card-link title="原始碼" }
-
-</details>
-
-</div>
-
-<div class="admonition tip" markdown>
-<p class="admonition-title">溫馨提示</p>
-
-如果想在瀏覽器中禁用 JavaScript ，例如 [Tor瀏覽器](tor.md#tor-browser/) 最安全級別， ProxiTok 非常有用。
-
-</div>
-
 ## YouTube
 
 **注意：** YouTube 已逐步推出對其影片播放器和 API 的變更，這些變更使得第三方前端用來擷取 YouTube 資料的某些方法失效。 如果您在使用一個 YouTube 前端時遇到可靠性問題，請考慮嘗試另一個使用不同擷取方法的前端。

@@ -114,13 +114,6 @@ Self-hosting your own instance of a web-based frontend can help you circumvent r
   [:octicons-info-16:](https://github.com/redlib-org/redlib#deployment){ .card-link title="Dokumentacja administratora" }
   [:octicons-code-16:](https://github.com/redlib-org/redlib){ .card-link title="Kod źródłowy" }
 
-- ![Logo ProxiTok](../assets/img/frontends/proxitok.svg){ .lg .middle .twemoji } [**ProxiTok (TikTok)**](../frontends.md#proxitok)
-
-  ---
-
-  [:octicons-info-16:](https://github.com/pablouser1/ProxiTok/wiki/Self-hosting){ .card-link title="Dokumentacja administratora" }
-  [:octicons-code-16:](https://github.com/pablouser1/ProxiTok){ .card-link title="Kod źródłowy" }
-
 - ![Logo Invidious](../assets/img/frontends/invidious.svg#only-light){ .twemoji }![Logo Invidious](../assets/img/frontends/invidious-dark.svg#only-dark){ .twemoji } [**Invidious (YouTube)**](../frontends.md#invidious)
 
   ---

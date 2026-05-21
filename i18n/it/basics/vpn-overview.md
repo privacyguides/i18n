@@ -59,7 +59,7 @@ Inoltre, non dovresti fidarti di una VPN per proteggere la connessione a una des
 
 A meno che il tuo fornitore di VPN non ospiti i server DNS crittografati, **probabilmente no**. Utilizzare DOH/DOT (o qualsiasi altra forma di DNS crittografato) con i server di terze parti, aggiungerà semplicemente più entità di cui fidarsi. Il tuo fornitore VPN può comunque vedere quali siti web visiti in base agli indirizzi IP e ad altri metodi. Detto ciò, potrebbero esistere dei vantaggi nell'abilitare il DNS crittografato, per consentire ulteriori funzionalità di sicurezza nel tuo browser, come ECH. Le tecnologie per browser che si affidano al DNS crittografato nel browser sono relativamente nuove e non ancora ampiamente diffuse, quindi, se sono rilevanti per te in particolare, è un esercizio che ti lasciamo ricercare indipendentemente.
 
-Un'altra motivazione comune per cui il DNS crittografato è consigliato, è che impedisce lo spoofing DNS. Tuttavia, il browser dovrebbe già verificare la presenza di [certificati TLS](https://en.wikipedia.org/wiki/Transport_Layer_Security#Digital_certificates) con **HTTPS** e avvisare l'utente. Se non stai utilizzando **HTTPS**, un avversario può comunque modificare qualsiasi cosa oltre alle query DNS e il risultato finale sarà poco diverso.
+Another common reason encrypted DNS is recommended is that it prevents DNS manipulation attacks. Tuttavia, il browser dovrebbe già verificare la presenza di [certificati TLS](https://en.wikipedia.org/wiki/Transport_Layer_Security#Digital_certificates) con **HTTPS** e avvisare l'utente. Se non stai utilizzando **HTTPS**, un avversario può comunque modificare qualsiasi cosa oltre alle query DNS e il risultato finale sarà poco diverso.
 
 ## Dovrei usare Tor *e* una VPN?
 

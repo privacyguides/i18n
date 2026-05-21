@@ -59,7 +59,7 @@ Using a VPN in cases where you're using your [real-life or well-known identity](
 
 Unless your VPN provider hosts the encrypted DNS servers themselves, **probably not**. إن استخدام DoH/DOT (أو أي شكل آخر من أشكال نظام أسماء النطاقات المشفر) مع خوادم خارجية سيضيف ببساطة المزيد من الكيانات التي بحاجة أن تثق بها. لا يزال بإمكان مزود الشبكة الخاصة الافتراضية الخاص بك معرفة مواقع الويب التي تزورها بناءً على عناوين IP وطرق أخرى. بعد كل هذا، قد تكون هناك بعض المزايا لتمكين نظام أسماء النطاقات المشفر من أجل تمكين ميزات الأمان الأخرى في متصفحك، مثل: ECH. إن تقنيات المتصفح الداخلية التي تعتمد على نظام أسماء النطاقات المشفر جديدة نسبياً وغير منتشرة على نطاق واسع حتى الآن، لذا سواء إذا كانت ذات صلة بك على وجه الخصوص فهي مهمة سنتركها لك للبحث فيها بشكل مستقل.
 
-سبب شائع آخر لتوصية استخدام نظام أسماء نطاقات مشفر هو أنه يمنع انتحال النظام. However, your browser should already be checking for [TLS certificates](https://en.wikipedia.org/wiki/Transport_Layer_Security#Digital_certificates) with **HTTPS** and warn you about it. If you are not using **HTTPS**, then an adversary can still just modify anything other than your DNS queries and the end result will be little different.
+Another common reason encrypted DNS is recommended is that it prevents DNS manipulation attacks. However, your browser should already be checking for [TLS certificates](https://en.wikipedia.org/wiki/Transport_Layer_Security#Digital_certificates) with **HTTPS** and warn you about it. If you are not using **HTTPS**, then an adversary can still just modify anything other than your DNS queries and the end result will be little different.
 
 ## Should I use Tor *and* a VPN?
 

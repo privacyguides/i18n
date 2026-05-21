@@ -59,7 +59,7 @@ You also should not trust a VPN to secure your connection to an unencrypted, HTT
 
 Unless your VPN provider hosts the encrypted DNS servers themselves, **probably not**. Using DOH/DOT (or any other form of encrypted DNS) with third-party servers will simply add more entities to trust. Jouw VPN-provider kan nog steeds zien welke websites je bezoekt op basis van de IP-adressen en andere methoden. All this being said, there may be some advantages to enabling encrypted DNS in order to enable other security features in your browser, such as ECH. Browser technologies which are reliant on in-browser encrypted DNS are relatively new and not yet widespread, so whether they are relevant to you in particular is an exercise we will leave to you to research independently.
 
-Another common reason encrypted DNS is recommended is that it prevents DNS spoofing. Jouw browser zou echter al moeten controleren op [TLS-certificaten](https://en.wikipedia.org/wiki/Transport_Layer_Security#Digital_certificates) met **HTTPS** en je daarvoor moeten waarschuwen. Als je **HTTPS** niet gebruikt, dan kan een tegenstander nog steeds gewoon iets anders dan jouw DNS-query's wijzigen en zal het eindresultaat weinig anders zijn.
+Another common reason encrypted DNS is recommended is that it prevents DNS manipulation attacks. Jouw browser zou echter al moeten controleren op [TLS-certificaten](https://en.wikipedia.org/wiki/Transport_Layer_Security#Digital_certificates) met **HTTPS** en je daarvoor moeten waarschuwen. Als je **HTTPS** niet gebruikt, dan kan een tegenstander nog steeds gewoon iets anders dan jouw DNS-query's wijzigen en zal het eindresultaat weinig anders zijn.
 
 ## Moet ik Tor *gebruiken en* een VPN?
 

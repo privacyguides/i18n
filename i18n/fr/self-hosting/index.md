@@ -114,13 +114,6 @@ L'auto-h√©bergement de votre propre instance d'un frontend web peut vous aider √
   [:octicons-info-16:](https://github.com/redlib-org/redlib#deployment){ .card-link title="Documentation Administrateur" }
   [:octicons-code-16:](https://github.com/redlib-org/redlib){ .card-link title="Code Source" }
 
-- ![Logo de ProxiTok](../assets/img/frontends/proxitok.svg){ .lg .middle .twemoji } [**ProxiTok (TikTok)**](../frontends.md#proxitok)
-
-  ---
-
-  [:octicons-info-16:](https://github.com/pablouser1/ProxiTok/wiki/Self-hosting){ .card-link title="Documentation Admnistrateur" }
-  [:octicons-code-16:](https://github.com/pablouser1/ProxiTok){ .card-link title="Code Source" }
-
 - ![Logo de Invidious](../assets/img/frontends/invidious.svg#only-light){ .twemoji }![Logo de Invidious](../assets/img/frontends/invidious-dark.svg#only-dark){ .twemoji } [**Invidious (YouTube)**](../frontends.md#invidious)
 
   ---

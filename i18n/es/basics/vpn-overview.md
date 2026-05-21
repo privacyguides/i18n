@@ -59,7 +59,7 @@ Tampoco deberías confiar en una VPN para asegurar tu conexión a un destino HTT
 
 A menos que tu proveedor de VPN aloje los propios servidores DNS cifrados, **probablemente no**. Utilizar DOH/DOT (o cualquier otra forma de DNS cifrado) con servidores de terceros simplemente añadirá más entidades en las que confiar. Tu proveedor de VPN aún puede ver qué sitios web visitas basándose en las direcciones IP y otros métodos. Dicho esto, puede tener algunas ventajas activar el DNS cifrado para activar otras funciones de seguridad en tu navegador, como ECH. Las tecnologías de navegación que dependen del DNS cifrado en el navegador son relativamente nuevas y aún no están muy extendidas, por lo que si son relevantes para ti en particular es un ejercicio que te dejamos para que lo investigues por tu cuenta.
 
-Otra razón común por la que se recomienda el DNS cifrado es que evita la suplantación de DNS (DNS spoofing). Sin embargo, tu navegador ya debería estar buscando [certificados TLS](https://en.wikipedia.org/wiki/Transport_Layer_Security#Digital_certificates) con **HTTPS** y advertirte al respecto. Si no estás utilizando **HTTPS**, entonces un adversario todavía puede simplemente modificar cualquier cosa que no sean tus consultas DNS y el resultado final será similar.
+Another common reason encrypted DNS is recommended is that it prevents DNS manipulation attacks. Sin embargo, tu navegador ya debería estar buscando [certificados TLS](https://en.wikipedia.org/wiki/Transport_Layer_Security#Digital_certificates) con **HTTPS** y advertirte al respecto. Si no estás utilizando **HTTPS**, entonces un adversario todavía puede simplemente modificar cualquier cosa que no sean tus consultas DNS y el resultado final será similar.
 
 ## ¿Debería usar Tor *y* una VPN?
 

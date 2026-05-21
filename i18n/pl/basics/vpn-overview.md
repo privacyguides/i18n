@@ -59,7 +59,7 @@ Nie należy też polegać na VPN w kwestii zabezpieczenia połączenia z niezasz
 
 O ile dostawca VPN nie prowadzi samodzielnie szyfrowanych serwerów DNS, **prawdopodobnie nie**. Korzystanie z DOH/DOT (lub innej formy szyfrowanego DNS) przy użyciu serwerów stron trzecich tylko zwiększa liczbę podmiotów, którym trzeba ufać. Twój dostawca VPN nadal może widzieć, które strony odwiedzasz, na podstawie adresów IP i innych metod. Mimo to mogą istnieć pewne korzyści z włączenia szyfrowanego DNS, np. aby umożliwić inne funkcje bezpieczeństwa w przeglądarce, takie jak ECH. Technologie przeglądarek opierające się na szyfrowanym DNS po stronie przeglądarki są stosunkowo nowe i jeszcze niezbyt rozpowszechnione, więc to, w jakim stopniu są dla Ciebie istotne, pozostawiamy do samodzielnego zbadania.
 
-Innym częstym powodem, dla którego zalecane jest szyfrowane DNS, jest ochrona przed podszywaniem się pod DNS (DNS spoofing). Jednak przeglądarka powinna już sprawdzać [certyfikaty TLS](https://en.wikipedia.org/wiki/Transport_Layer_Security#Digital_certificates) przy użyciu **HTTPS** i ostrzegać o problemach. Jeśli nie korzystasz z **HTTPS**, przeciwnik może zmodyfikować wszystko poza zapytaniami DNS i wynik będzie niewiele się różnił.
+Another common reason encrypted DNS is recommended is that it prevents DNS manipulation attacks. Jednak przeglądarka powinna już sprawdzać [certyfikaty TLS](https://en.wikipedia.org/wiki/Transport_Layer_Security#Digital_certificates) przy użyciu **HTTPS** i ostrzegać o problemach. Jeśli nie korzystasz z **HTTPS**, przeciwnik może zmodyfikować wszystko poza zapytaniami DNS i wynik będzie niewiele się różnił.
 
 ## Czy warto używać sieci Tor *oraz* VPN?
 

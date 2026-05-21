@@ -46,34 +46,6 @@ Redilb vous permet de contourner les restrictions liées à JavaScript si vous s
 
 </div>
 
-## TikTok
-
-### ProxiTok
-
-<div class="admonition recommendation" markdown>
-
-![Logo de ProxiTok](assets/img/frontends/proxitok.svg){ align=right }
-
-**ProxiTok** est une frontend open-source auto-hébergeable du site web [TikTok](https://tiktok.com).
-
-Il existe un grand nombre d'instances publiques, dont certaines avec un service onion de [Tor](tor.md) ou un eepsite [I2P](alternative-networks.md#i2p-the-invisible-internet-project).
-
-[:octicons-repo-16: Dépôt](https://github.com/pablouser1/ProxiTok){ .md-button .md-button--primary }
-[:octicons-server-16:](https://github.com/pablouser1/ProxiTok/wiki/Public-instances){ .card-link title="Instances Publiques" }
-[:octicons-info-16:](https://github.com/pablouser1/ProxiTok/wiki){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/pablouser1/ProxiTok){ .card-link title="Code Source" }
-
-</details>
-
-</div>
-
-<div class="admonition tip" markdown>
-<p class="admonition-title">Conseil</p>
-
-ProxiTok vous permet de contourner les restrictions liées à JavaScript si vous souhaitez le désactiver dans votre navigateur, comme sur le niveau de sécurité le plus élevé du [navigateur Tor](tor.md#tor-browser).
-
-</div>
-
 ## YouTube
 
 **Remarque :** YouTube a progressivement apporté des modifications à son lecteur vidéo et à son API, ce qui a permis de contrecarrer certaines méthodes utilisées par les frontends pour extraire des données de YouTube. Si vous rencontrez des problèmes de fiabilité avec une des frontends de YouTube, essayez d'en utiliser une autre qui utilise une méthode d'extraction différente.

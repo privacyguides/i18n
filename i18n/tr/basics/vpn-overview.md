@@ -59,7 +59,7 @@ Ayrıca, şifrelenmemiş bir HTTP hedefine olan bağlantınızı güvence altın
 
 VPN sağlayıcınız şifrelenmiş DNS sunucularını kendisi barındırmıyorsa, **muhtemelen hayır**. Üçüncü taraf sunucularla DOH/DOT (veya başka bir şifreli DNS biçimi) kullanmak, güvenilecek daha fazla varlık ekleyecektir. VPN sağlayıcınız, IP adreslerine ve diğer yöntemlere dayanarak hangi web sitelerini ziyaret ettiğinizi yine de görebilir. Tüm bunlarla birlikte, tarayıcınızda ECH gibi diğer güvenlik özelliklerini etkinleştirmek için şifrelenmiş DNS'yi etkinleştirmenin bazı avantajları olabilir. Tarayıcı içi şifrelenmiş DNS'e dayanan tarayıcı teknolojileri nispeten yenidir ve henüz yaygın değildir, bu nedenle özellikle sizinle ilgili olup olmadıkları, bağımsız olarak araştırmanız için size bırakacağımız bir egzersizdir.
 
-Şifrelenmiş DNS'in önerilmesinin bir diğer yaygın nedeni de DNS sahtekarlığını önlemesidir. Ancak, tarayıcınızın **HTTPS** ile [TLS sertifikalarını](https://en.wikipedia.org/wiki/Transport_Layer_Security#Digital_certificates) zaten kontrol ediyor olması ve sizi bu konuda uyarması gerekir. **HTTPS** kullanmıyorsanız, bir saldırgan DNS sorgularınız dışında herhangi bir şeyi değiştirebilir ve sonuç çok az farklı olacaktır.
+Another common reason encrypted DNS is recommended is that it prevents DNS manipulation attacks. Ancak, tarayıcınızın **HTTPS** ile [TLS sertifikalarını](https://en.wikipedia.org/wiki/Transport_Layer_Security#Digital_certificates) zaten kontrol ediyor olması ve sizi bu konuda uyarması gerekir. **HTTPS** kullanmıyorsanız, bir saldırgan DNS sorgularınız dışında herhangi bir şeyi değiştirebilir ve sonuç çok az farklı olacaktır.
 
 ## Tor *ve* VPN kullanmalı mıyım?
 
