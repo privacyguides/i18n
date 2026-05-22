@@ -376,9 +376,10 @@ Jeśli zależy Ci na dodatkowym **bezpieczeństwie**, zawsze upewnij się, że �
 
 <div class="grid cards" markdown>
 
-- ![Logo MAT2](assets/img/data-redaction/mat2.svg){ .twemoji loading=lazy } [MAT2](data-redaction.md#mat2)
-- ![Logo ExifEraser](assets/img/data-redaction/exiferaser.svg){ .twemoji loading=lazy } [ExifEraser (Android)](data-redaction.md#exiferaser-android)
-- ![Logo ExifTool](assets/img/data-redaction/exiftool.png){ .twemoji loading=lazy } [ExifTool (CLI)](data-redaction.md#exiftool-cli)
+- ![MAT2 logo](assets/img/data-redaction/mat2.svg){ .twemoji loading=lazy } [MAT2](data-redaction.md#mat2)
+- ![Metadata Cleaner](assets/img/data-redaction/metadatacleaner.svg){ .twemoji loading-lazy } [Metadata Cleaner](data-redaction.md#metadata-cleaner)
+- ![ExifEraser logo](assets/img/data-redaction/exiferaser.svg){ .twemoji loading=lazy } [ExifEraser (Android)](data-redaction.md#exiferaser-android)
+- ![ExifTool logo](assets/img/data-redaction/exiftool.png){ .twemoji loading=lazy } [ExifTool (CLI)](data-redaction.md#exiftool-cli)
 
 </div>
 
