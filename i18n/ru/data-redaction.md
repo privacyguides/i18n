@@ -8,7 +8,7 @@ cover: data-redaction.webp
 
 <small>Защищает от следующих угроз:</small>
 
-- [:material-account-search: Публичная экспозиция](basics/common-threats.md#limiting-public-information ""){.pg-green}
+- [:material-account-search: Информация в открытом доступе](basics/common-threats.md#limiting-public-information ""){.pg-green}
 
 Когда вы делитесь с кем-то файлами, то не забудьте удалить связанные с ними метаданные. Файлы изображений обычно содержат [данные EXIF](https://ru.wikipedia.org/wiki/Exif). Иногда фотографии даже содержат ваши GPS координаты в метаданных файла.
 

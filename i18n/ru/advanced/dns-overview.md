@@ -4,7 +4,7 @@ icon: material/dns
 description: Система доменных имен - это "телефонная книга интернета", помогающая вашему браузеру найти нужный сайт.
 ---
 
-The [Domain Name System](https://en.wikipedia.org/wiki/Domain_Name_System) is the 'phone book of the Internet'. DNS переводит доменные имена в IP адреса, чтобы браузеры и другие службы могли загружать интернет-ресурсы, через децентрализованную сеть серверов.
+[Система доменных имён](https://ru.wikipedia.org/wiki/DNS) — это "телефонная книга Интернета". DNS переводит доменные имена в IP адреса, чтобы браузеры и другие службы могли загружать интернет-ресурсы, через децентрализованную сеть серверов.
 
 ## Что такое DNS?
 
@@ -66,11 +66,11 @@ DNS существует с [первых дней](https://en.wikipedia.org/wik
 
 ## Что такое "зашифрованный DNS"?
 
-Encrypted DNS can refer to one of a number of protocols, the most common ones being [DNSCrypt](#dnscrypt), [DNS over TLS](#dns-over-tls-dot), and [DNS over HTTPS](#dns-over-https-doh).
+Под термином "зашифрованный DNS" могут подразумеваться разные протоколы. Наиболее распространённые из них - [DNSCrypt](#dnscrypt), [DNS over TLS](#dns-over-tls-dot) и [DNS over HTTPS](#dns-over-https-doh).
 
 ### DNSCrypt
 
-[**DNSCrypt**](https://en.wikipedia.org/wiki/DNSCrypt) был одним из первых методов шифрования DNS-запросов. DNSCrypt работает через порт 443 и работает с транспортными протоколами TCP или UDP. DNSCrypt has never been submitted to the [Internet Engineering Task Force (IETF)](https://en.wikipedia.org/wiki/Internet_Engineering_Task_Force) nor has it gone through the [Request for Comments (RFC)](https://en.wikipedia.org/wiki/Request_for_Comments) process, so it has not been used widely outside a few [implementations](https://dnscrypt.info/implementations). В результате он был в значительной степени заменён более популярным [DNS через HTTPS](#dns-over-https-doh).
+[**DNSCrypt**](https://en.wikipedia.org/wiki/DNSCrypt) был одним из первых методов шифрования DNS-запросов. DNSCrypt работает через порт 443 и работает с транспортными протоколами TCP или UDP. DNSCrypt никогда не был представлен в [Internet Engineering Task Force (IETF)](https://en.wikipedia.org/wiki/Internet_Engineering_Task_Force) и не проходил процедуру [Request for Comments (RFC)](https://en.wikipedia.org/wiki/Request_for_Comments), поэтому, помимо нескольких [реализаций](https://dnscrypt.info/implementations), он не получил широкого распространения. В результате он был в значительной степени заменён более популярным [DNS через HTTPS](#dns-over-https-doh).
 
 ### DNS через TLS (DoT)
 

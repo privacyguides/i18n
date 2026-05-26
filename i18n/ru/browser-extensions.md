@@ -117,7 +117,7 @@ We recommend [Safari](mobile-browsers.md#safari-ios) for iOS users, which unfort
 - Не должны копировать встроенную функциональность браузера или ОС.
 - Должны непосредственно влиять на конфиденциальность пользователя, т.е. не просто предоставлять информацию.
 
-[^1]: uBlock Origin Lite _itself_ will consume no resources, because it uses newer APIs which make the browser process the filter lists natively, instead of running JavaScript code within the extension to handle the filtering. However, this resource advantage is only [theoretical](https://github.com/uBlockOrigin/uBOL-home/wiki/Frequently-asked-questions-\(FAQ\)#is-ubol-more-efficient-cpu--and-memory-wise-than-ubo), because it's possible that standard uBlock Origin's filtering code is more efficient than your browser's native filtering code. This has not yet been benchmarked.
+[^1]: uBlock Origin Lite _itself_ will consume no resources, because it uses newer APIs which make the browser process the filter lists natively, instead of running JavaScript code within the extension to handle the filtering. However, this resource advantage is only [theoretical](https://github.com/uBlockOrigin/uBOL-home/wiki/Frequently-asked-questions-(FAQ)#is-ubol-more-efficient-cpu--and-memory-wise-than-ubo), because it's possible that standard uBlock Origin's filtering code is more efficient than your browser's native filtering code. This has not yet been benchmarked.
 
 [^2]: A [workaround](https://github.com/uBlockOrigin/uBlock-issues/discussions/3690#discussioncomment-14548779) stil exists as of early December 2025.
 
