@@ -78,11 +78,11 @@ Brave בנוי על פרויקט דפדפן Chromium, כך שהוא אמור ל�
 
 === "Android"
 
-    These options can be found in :material-menu: → **Settings** → **Brave Shields & privacy**.
+    These options can be found in :material-dots-vertical: → **Settings** → **Brave Shields & privacy**.
 
 === "iOS"
 
-    These options can be found in :fontawesome-solid-ellipsis: → **Settings** → **Shields & Privacy**.
+    These options can be found in :material-dots-horizontal: → **All Settings** → **Shields & Privacy**.
 
 #### Brave shields global defaults
 
@@ -110,7 +110,7 @@ Brave includes some anti-fingerprinting measures in its [Shields](https://suppor
 
     </details>
 
-    - [x] Select **Forget me when I close this site**
+    - [x] Select **Site Tabs Closed** under *Auto Shred*
 
     </div>
 
@@ -139,24 +139,16 @@ Brave includes some anti-fingerprinting measures in its [Shields](https://suppor
 
     1. This option disables JavaScript, which will break a lot of sites. To unbreak them, you can set exceptions on a per-site basis by tapping on the Shield icon in the address bar and unchecking this setting under *Advanced controls*.
 
-##### Clear browsing data (Android only)
-
-- [x] בחר **נקה נתונים ביציאה**
-
-##### Social Media Blocking (Android only)
-
-- [ ] בטל את הסימון של כל רכיבי המדיה החברתית
-
 #### Other privacy settings
 
 === "Android"
 
     <div class="annotate" markdown>
 
-    - [x] Select **Disable non-proxied UDP** under [*WebRTC IP handling policy*](https://support.brave.com/hc/articles/360017989132-How-do-I-change-my-Privacy-Settings#webrtc)
     - \[x\] (Optional) Select **No protection** under *Safe Browsing* (1)
+    - [x] Select **Disable non-proxied UDP** under [*WebRTC IP handling policy*](https://support.brave.com/hc/articles/360017989132-How-do-I-change-my-Privacy-Settings#webrtc)
     - [ ] Uncheck **Allow sites to check if you have payment methods saved**
-    - [ ] Uncheck **Javascript optimization & security** under the setting with the same name
+    - [x] Select **Do not speed up sites with Brave's V8 engine but make Brave slightly more resistant to attacks**
     - [x] Select **Close tabs on exit**
     - [ ] Uncheck **Allow privacy-preserving product analytics (P3A)**
     - [ ] Uncheck **Automatically send diagnostic reports**
@@ -171,23 +163,33 @@ Brave includes some anti-fingerprinting measures in its [Shields](https://suppor
     - [ ] Uncheck **Allow Privacy-Preserving Product Analytics (P3A)**
     - [ ] Uncheck **Automatically send daily usage ping to Brave**
 
-#### Leo
+#### Leo AI
 
-These options can be found in :material-menu: → **Settings** → **Leo**.
+=== "Android"
 
-<div class="annotate" markdown>
+    These options can be found in :material-dots-vertical: → **Settings** → **Leo AI**.
 
-- [ ] Uncheck **Show autocomplete suggestions in address bar** (1)
+    - [ ] Uncheck **Show autocomplete suggestions in address bar**
 
-</div>
+=== "iOS"
 
-1. This option is not present in Brave's iOS app.
+    These options can be found in :material-dots-horizontal: → **All Settings** → **Leo AI**.
+
+    - [ ] Uncheck **Show In Quick Search Engine Bar**
 
 #### Search engines
 
-These options can be found in :material-menu:/:fontawesome-solid-ellipsis: → **Settings** → **Search engines**.
+=== "Android"
 
-- [ ] Uncheck **Show search suggestions**
+    These options can be found in :material-dots-vertical: → **Settings** → **Search engines**.
+
+    - [ ] Uncheck **Show search suggestions**
+
+=== "iOS"
+
+    These options can be found in :material-dots-horizontal: → **All Settings** → **Search engines**.
+
+    - [ ] Uncheck **Show In Quick Search Engine Bar**
 
 #### Brave Sync
 

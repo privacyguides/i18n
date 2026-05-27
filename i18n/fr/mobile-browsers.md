@@ -78,11 +78,11 @@ Le navigateur Tor est le seul moyen de vraiment naviguer anonymement sur Interne
 
 === "Android"
 
-    Ces options se trouvent dans :material-menu: → **Paramètres** → **Boucliers Brave et confidentialité**.
+    These options can be found in :material-dots-vertical: → **Settings** → **Brave Shields & privacy**.
 
 === "iOS"
 
-    Ces paramètres se trouvent dans :fontawesome-solid-ellipsis: → **Paramètres** → **Boucliers & Confidentialité**.
+    These options can be found in :material-dots-horizontal: → **All Settings** → **Shields & Privacy**.
 
 #### Paramètres par défaut des boucliers Brave
 
@@ -110,7 +110,7 @@ Les options "Boucliers" peuvent être réduites par site selon les besoins, mais
 
     </details>
 
-    - [x] Cochez **Oubliez moi lorsque je ferme ce site**
+    - [x] Sélectionner **Onglets fermés** sous *Déchiquetage automatique*
 
     </div>
 
@@ -139,24 +139,16 @@ Les options "Boucliers" peuvent être réduites par site selon les besoins, mais
 
     1. Cette option désactive JavaScript, ce qui rendra inutilisable beaucoup de sites. Pour les débloquer, vous pouvez définir des exceptions par site en appuyant sur l'icône Bouclier dans la barre d'adresse et en décochant ce paramètre sous *Contrôles Avancés*.
 
-##### Effacer les données de navigation (Android uniquement)
-
-- [x] Sélectionner **Effacer les données en quittant**
-
-##### Blocage des médias sociaux (Android uniquement)
-
-- [ ] Décochez toutes les fonctionnalités de médias sociaux
-
 #### Autres paramètres de confidentialité
 
 === "Android"
 
     <div class="annotate" markdown>
 
-    - [x] Sélectionnez **Désactiver l'UDP non proxy** dans la rubrique [*Politique de traitement IP WebRTC*](https://support.brave.com/hc/articles/360017989132-How-do-I-change-my-Privacy-Settings#webrtc)
     - \[x\] (Facultatif) Cochez **Aucune protection** sous *Navigation sécurisée* (1)
+    - [x] Sélectionnez **Désactiver l'UDP non proxy** dans la rubrique [*Politique de traitement IP WebRTC*](https://support.brave.com/hc/articles/360017989132-How-do-I-change-my-Privacy-Settings#webrtc)
     - [] Décochez **Autoriser les sites à vérifier si vous avez enregistré des méthodes de paiement**
-    - []Décocher **Optimisation Javascript & security** sous le paramètre du même nom
+    - [x] Select **Do not speed up sites with Brave's V8 engine but make Brave slightly more resistant to attacks**
     - [x] Cochez **Fermer les onglets en quittant**
     - [ ] Décochez **Autoriser l'analyse de produits respectueuse de la vie privée (P3A)**
     - [Décocher l'**option Envoyer automatiquement les rapports de diagnostic**
@@ -171,23 +163,33 @@ Les options "Boucliers" peuvent être réduites par site selon les besoins, mais
     - [ ] Décochez **Autoriser l'analyse de produits respectueuse de la vie privée (P3A)**
     - [ ] Décochez **Envoyer automatiquement un signal d'utilisation quotidienne à Brave**
 
-#### Leo
+#### Leo AI
 
-Ces options se trouvent dans :material-menu: → **Paramètres** → **Leo**.
+=== "Android"
 
-<div class="annotate" markdown>
+    These options can be found in :material-dots-vertical: → **Settings** → **Leo AI**.
 
-- Décocher **Affichez les suggestions d'autocomplétions dans la barre d'adresse** (1)
+    - [ ] Uncheck **Show autocomplete suggestions in address bar**
 
-</div>
+=== "iOS"
 
-1. Cette option n'est pas disponible dans l'applications iOS de Brave.
+    These options can be found in :material-dots-horizontal: → **All Settings** → **Leo AI**.
+
+    - [ ] Uncheck **Show In Quick Search Engine Bar**
 
 #### Moteurs de recherche
 
-Ces options se trouvent dans :material-menu:/:fontawesome-solid-ellipsis: → **Paramètres** → **Moteurs de recherches**.
+=== "Android"
 
-- [ ] Décochez **Afficher les suggestions de recherche**
+    These options can be found in :material-dots-vertical: → **Settings** → **Search engines**.
+
+    - [ ] Décochez **Afficher les suggestions de recherche**
+
+=== "iOS"
+
+    These options can be found in :material-dots-horizontal: → **All Settings** → **Search engines**.
+
+    - [ ] Uncheck **Show In Quick Search Engine Bar**
 
 #### Brave Sync
 

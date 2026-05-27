@@ -78,11 +78,11 @@ Tor Browser adalah satu-satunya cara untuk benar-benar menjelajah internet secar
 
 === "Android"
 
-    Opsi ini dapat ditemukan di :material-menu: → **Settings** → **Brave Shields & privacy**.
+    These options can be found in :material-dots-vertical: → **Settings** → **Brave Shields & privacy**.
 
 === "iOS"
 
-    Opsi ini dapat ditemukan di :fontawesome-solid-ellipsis: → **Settings** → **Shields & Privacy**.
+    These options can be found in :material-dots-horizontal: → **All Settings** → **Shields & Privacy**.
 
 #### Default global Brave Shield
 
@@ -110,7 +110,7 @@ Opsi Shields dapat diturunkan pada basis per situs sesuai kebutuhan, tetapi seca
 
     </details>
 
-    - [x] Pilih **Forget me when I close this site**
+    - [x] Pilih **Site Tabs Closed** di bawah *Auto Shred*
 
     </div>
 
@@ -139,24 +139,16 @@ Opsi Shields dapat diturunkan pada basis per situs sesuai kebutuhan, tetapi seca
 
     1. Opsi ini menonaktifkan JavaScript, yang akan merusak banyak situs. Untuk membatalkannya, Anda dapat menetapkan pengecualian per situs dengan mengetuk ikon Perisai di bilah alamat dan menghapus centang pada pengaturan ini di bawah *Advanced controls*.
 
-##### Menghapus data penelusuran (hanya untuk Android)
-
-- [x] Pilih **Clear data on exit**
-
-##### Pemblokiran Media Sosial (khusus Android)
-
-- [ ] Hapus centang pada semua komponen media sosial
-
 #### Pengaturan privasi lainnya
 
 === "Android"
 
     <div class="annotate" markdown>
 
-    - [x] Pilih **Disable non-proxied UDP** di bawah [*WebTPC IP handling policy*](https://support.brave.com/hc/articles/360017989132-How-do-I-change-my-Privacy-Settings#webrtc)
     - \[x\] (Opsional) Pilih **No protection** di bawah *Safe Browsing* (1)
+    - [x] Pilih **Disable non-proxied UDP** di bawah [*WebTPC IP handling policy*](https://support.brave.com/hc/articles/360017989132-How-do-I-change-my-Privacy-Settings#webrtc)
     - [ ] Hapus centang **Allow sites to check if you have payment methods saved**
-    - [ ] Hapus centang **Javascript optimization & security** di bawah pengaturan dengan nama yang sama
+    - [x] Select **Do not speed up sites with Brave's V8 engine but make Brave slightly more resistant to attacks**
     - [x] Pilih **Close tabs on exit**
     - [ ] Hapus centang **Allow privacy-preserving product analytics (P3A)**
     - [ ] Hapus centang **Automatically send diagnostic reports**
@@ -171,23 +163,33 @@ Opsi Shields dapat diturunkan pada basis per situs sesuai kebutuhan, tetapi seca
     - [ ] Hapus centang **Allow Privacy-Preserving Product Analytics (P3A)**
     - [ ] Hapus centang **Automatically send daily usage ping to Brave**
 
-#### Leo
+#### Leo AI
 
-Opsi ini dapat ditambahkan di :material-menu: → **Settings** → **Leo**.
+=== "Android"
 
-<div class="annotate" markdown>
+    These options can be found in :material-dots-vertical: → **Settings** → **Leo AI**.
 
-- [ ] Hapus centang **Show autocomplete suggestions in address bar** (1)
+    - [ ] Uncheck **Show autocomplete suggestions in address bar**
 
-</div>
+=== "iOS"
 
-1. Opsi ini tidak ada di aplikasi iOS Brave.
+    These options can be found in :material-dots-horizontal: → **All Settings** → **Leo AI**.
+
+    - [ ] Uncheck **Show In Quick Search Engine Bar**
 
 #### Mesin pencari
 
-Opsi ini dapat ditemukan di :material-menu:/:fontawesome-solid-ellipsis: → **Settings** → **Search engines**.
+=== "Android"
 
-- [ ] Hapus centang **Show search suggestions**
+    These options can be found in :material-dots-vertical: → **Settings** → **Search engines**.
+
+    - [ ] Hapus centang **Show search suggestions**
+
+=== "iOS"
+
+    These options can be found in :material-dots-horizontal: → **All Settings** → **Search engines**.
+
+    - [ ] Uncheck **Show In Quick Search Engine Bar**
 
 #### Brave Sync
 

@@ -78,11 +78,11 @@ O Navegador Tor é a única maneira de realmente navegar na Internet de forma an
 
 === "Android"
 
-    Essas opções podem ser encontradas em :material-menu: → Configurações → Proteções do Brave & privacidade**.
+    These options can be found in :material-dots-vertical: → **Settings** → **Brave Shields & privacy**.
 
 === "iOS"
 
-    Essas opções podem ser encontradas em :fontawesome-solid-ellipsis: → Configurações → Proteções do Brave & privacidade**.
+    These options can be found in :material-dots-horizontal: → **All Settings** → **Shields & Privacy**.
 
 #### Configuração padrão dos filtros do Brave
 
@@ -110,7 +110,7 @@ As opções do Shields (Escudos) podem ser reduzidas de acordo com o site, confo
 
     </details>
 
-    - [x] Selecione **Esquecer-me quando eu fechar este site**
+    - [x] Selecione **as guias do site fechadas** em *Destruição automática*
 
     </div>
 
@@ -139,24 +139,16 @@ As opções do Shields (Escudos) podem ser reduzidas de acordo com o site, confo
 
     1. Essa opção desabilita o JavaScript, o que interromperá muitos sites. Para desbloqueá-los, você pode definir exceções por site clicando no ícone do Shields na barra de endereços e desmarcando essa configuração em *Controles avançados*.
 
-##### Limpar dados de navegação (somente Android)
-
-- [x] Selecione **Limpar dados ao sair**
-
-##### Bloqueio de mídia social (somente Android)
-
-- [ ] Desmarque todos os componentes de redes sociais
-
 #### Outras configurações de privacidade
 
 === "Android"
 
     <div class="annotate" markdown>
 
-    - [x] Selecione **Disable non-proxied UDP (Desativar UDP sem proxy** ) em [*Política de tratamento de IP WebRTC*](https://support.brave.com/hc/articles/360017989132-How-do-I-change-my-Privacy-Settings#webrtc)
     - \[x\] (Opcional) Selecione **Nenhuma proteção** em *Navegação segura* (1)
+    - [x] Selecione **Disable non-proxied UDP (Desativar UDP sem proxy** ) em [*Política de tratamento de IP WebRTC*](https://support.brave.com/hc/articles/360017989132-How-do-I-change-my-Privacy-Settings#webrtc)
     - [Desmarque a opção **Permitir que os sites verifiquem se você tem métodos de pagamento salvos**
-    - [ ] Uncheck **Javascript optimization & security** under the setting with the same name
+    - [x] Select **Do not speed up sites with Brave's V8 engine but make Brave slightly more resistant to attacks**
     - [x] Selecione **Fechar guias ao sair**
     - [ ] Desmarque **Permitir análise de produtos com preservação da privacidade (P3A)**
     - [ ] Desmarque **Automaticamente enviar relatórios de diagnóstico**
@@ -171,23 +163,33 @@ As opções do Shields (Escudos) podem ser reduzidas de acordo com o site, confo
     - [ ] Desmarque **Permitir análise de produtos com preservação da privacidade (P3A)**
     - [ ] Desmarque **Automaticamente enviar ping de uso diário para Brave**
 
-#### Leo
+#### Leo AI
 
-Essas opções podem ser encontradas em :material-menu:/ → **Settings** → **Search engines**.
+=== "Android"
 
-<div class="annotate" markdown>
+    These options can be found in :material-dots-vertical: → **Settings** → **Leo AI**.
 
-- [ ] Desmarque **Mostrar sugestões de preenchimento automático na barra de endereços** (1)
+    - [ ] Uncheck **Show autocomplete suggestions in address bar**
 
-</div>
+=== "iOS"
 
-1. Essa opção não está presente no aplicativo iOS do Brave.
+    These options can be found in :material-dots-horizontal: → **All Settings** → **Leo AI**.
+
+    - [ ] Uncheck **Show In Quick Search Engine Bar**
 
 #### Mecanismo de busca
 
-Essas opções podem ser encontradas em :material-menu:/:fontawesome-solid-ellipsis: → **Settings** → **Search engines**.
+=== "Android"
 
-- [ ] Desmarque **Mostrar sugestões de pesquisa**
+    These options can be found in :material-dots-vertical: → **Settings** → **Search engines**.
+
+    - [ ] Desmarque **Mostrar sugestões de pesquisa**
+
+=== "iOS"
+
+    These options can be found in :material-dots-horizontal: → **All Settings** → **Search engines**.
+
+    - [ ] Uncheck **Show In Quick Search Engine Bar**
 
 #### Sincronização do Brave
 

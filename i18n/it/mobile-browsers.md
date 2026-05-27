@@ -78,11 +78,11 @@ Il Tor Browser è l'unico che veramente permette di navigare Internet anonimamen
 
 === "Android"
 
-    Queste opzioni si trovano in :material-menu: → **Impostazioni** → **Protezioni Brave e privacy**.
+    These options can be found in :material-dots-vertical: → **Settings** → **Brave Shields & privacy**.
 
 === "iOS"
 
-    These options can be found in :fontawesome-solid-ellipsis: → **Settings** → **Shields & Privacy**.
+    These options can be found in :material-dots-horizontal: → **All Settings** → **Shields & Privacy**.
 
 #### Brave shields global defaults
 
@@ -110,7 +110,7 @@ Le funzionalità di Shields possono essere ridotte per ogni sito se necessario; 
 
     </details>
 
-    - [x] Seleziona **Dimenticami quando chiudo questo sito**
+    - [x] Select **Site Tabs Closed** under *Auto Shred*
 
     </div>
 
@@ -139,24 +139,16 @@ Le funzionalità di Shields possono essere ridotte per ogni sito se necessario; 
 
     1. Questa opzione disabilita JavaScript, il che porterà al malfunzionamento di molti siti. Per far funzionare normalmente un sito, puoi impostare le eccezioni per ogni sito toccando l'icona dello scudo nella barra degli indirizzi e deselezionando l'impostazione in *Controlli avanzati*.
 
-##### Clear browsing data (Android only)
-
-- [x] Seleziona **Cancella dati all'uscita**
-
-##### Social Media Blocking (Android only)
-
-- [ ] Rimuovi la spunta da tutti i componenti social
-
 #### Altre impostazioni sulla privacy
 
 === "Android"
 
     <div class="annotate" markdown>
 
-    - [x] Seleziona **Disabilita UDP senza proxy** in [*Gestione politica IP WebRTC*](https://support.brave.com/hc/articles/360017989132-How-do-I-change-my-Privacy-Settings#webrtc)
     - \[x\] (Opzionale) Seleziona **Nessuna protezione** in *Navigazione sicura* (1)
+    - [x] Seleziona **Disabilita UDP senza proxy** in [*Gestione politica IP WebRTC*](https://support.brave.com/hc/articles/360017989132-How-do-I-change-my-Privacy-Settings#webrtc)
     - [ ] Rimuovi la spunta da **Consenti ai siti di controllare se hai metodi di pagamento salvati**
-    - [ ] Uncheck **Javascript optimization & security** under the setting with the same name
+    - [x] Select **Do not speed up sites with Brave's V8 engine but make Brave slightly more resistant to attacks**
     - [x] Seleziona **Chiudi le schede quando esci**
     - [ ] Deseleziona **Acconsenti all'analisi dei prodotti di tutela della privacy (P3A)**
     - [ ] Deseleziona **Inviare automaticamente i rapporti di diagnostica**
@@ -171,23 +163,33 @@ Le funzionalità di Shields possono essere ridotte per ogni sito se necessario; 
     - [ ] Uncheck **Allow Privacy-Preserving Product Analytics (P3A)**
     - [ ] Deseleziona **Invia automaticamente un ping di utilizzo giornaliero a Brave**
 
-#### Leo
+#### Leo AI
 
-These options can be found in :material-menu: → **Settings** → **Leo**.
+=== "Android"
 
-<div class="annotate" markdown>
+    These options can be found in :material-dots-vertical: → **Settings** → **Leo AI**.
 
-- [ ] Uncheck **Show autocomplete suggestions in address bar** (1)
+    - [ ] Uncheck **Show autocomplete suggestions in address bar**
 
-</div>
+=== "iOS"
 
-1. This option is not present in Brave's iOS app.
+    These options can be found in :material-dots-horizontal: → **All Settings** → **Leo AI**.
+
+    - [ ] Uncheck **Show In Quick Search Engine Bar**
 
 #### Motori di ricerca
 
-Queste opzioni si trovano in :material-menu:/:fontawesome-solid-ellipsis: → **Impostazioni** → **Motori di ricerca**.
+=== "Android"
 
-- [ ] Disabilita **Visualizza suggerimenti di ricerca**
+    These options can be found in :material-dots-vertical: → **Settings** → **Search engines**.
+
+    - [ ] Disabilita **Visualizza suggerimenti di ricerca**
+
+=== "iOS"
+
+    These options can be found in :material-dots-horizontal: → **All Settings** → **Search engines**.
+
+    - [ ] Uncheck **Show In Quick Search Engine Bar**
 
 #### Brave Sync
 

@@ -78,11 +78,11 @@ Tor 瀏覽器是真正匿名瀏覽網際網路的唯一途徑。 當您使用 Br
 
 === "Android"
 
-    這些選項可以在 :material-menu: → **設定** → **Brave 防護與安全性** 中找到。
+    These options can be found in :material-dots-vertical: → **Settings** → **Brave Shields & privacy**.
 
 === "iOS"
 
-    這些選項可以在 :fontawesome-solid-ellipsis: → **設定** → **Shields 與隱私權** 中找到。
+    These options can be found in :material-dots-horizontal: → **All Settings** → **Shields & Privacy**.
 
 #### Brave 防護全域預設設定
 
@@ -110,7 +110,7 @@ Brave 的[防護 (Shields)](https://support.brave.com/hc/articles/360022973471-W
 
     </details>
 
-    - [x] 勾選 **當我關閉此網站時忘記我**
+    - [x] 在*自動銷毀*下選取**已關閉的網站分頁**
 
     </div>
 
@@ -139,24 +139,16 @@ Brave 的[防護 (Shields)](https://support.brave.com/hc/articles/360022973471-W
 
     1. 此選項會停用 JavaScript，這會破壞許多網站。 若您想要避免破壞它們，可以針對個別需要的網站設定例外。只需按一下網址列上的 Shield 圖示，然後在 *進階控制* 下取消勾選此設定即可。
 
-##### 清除瀏覽資料 (僅適用於 Android)
-
-- [x] 勾選 **結束時清除資料**
-
-##### 阻擋社群媒體 (僅適用於 Android)
-
-- [ ] 取消勾選所有社群媒體元件
-
 #### 其他隱私設定
 
 === "Android"
 
     <div class="annotate" markdown>
 
-    - [x] 將 [*WebRTC IP 處理政策*](https://support.brave.com/hc/articles/360017989132-How-do-I-change-my-Privacy-Settings#webrtc) 設定為 **停用非代理 UDP**
     - [x] （可選） 將 *安全瀏覽* 設定為 **無防護** (1)
+    - [x] 將 [*WebRTC IP 處理政策*](https://support.brave.com/hc/articles/360017989132-How-do-I-change-my-Privacy-Settings#webrtc) 設定為 **停用非代理 UDP**
     - [ ] 取消勾選 **允許網站檢查是否有已儲存的付款方式**
-    - [ ] 取消勾選同名設定下的 **Javascript 最佳化與安全性**
+    - [x] Select **Do not speed up sites with Brave's V8 engine but make Brave slightly more resistant to attacks**
     - [x] 勾選 **退出時關閉分頁**
     - [ ] 取消勾選 **允許保護私隱的產品分析 (P3A)**
     - [ ] 取消勾選 **自動傳送診斷報告**
@@ -171,23 +163,33 @@ Brave 的[防護 (Shields)](https://support.brave.com/hc/articles/360022973471-W
     - [ ] 取消勾選 **允許保護隱私的產品分析 (P3A)**
     - [ ] 取消勾選 **自動傳送每日使用 ping 到 Brave**
 
-#### Leo
+#### Leo AI
 
-這些選項可以在 :material-menu: → **設定** → **Leo** 中找到。
+=== "Android"
 
-<div class="annotate" markdown>
+    These options can be found in :material-dots-vertical: → **Settings** → **Leo AI**.
 
-- [ ] 取消勾選 **在網址列顯示自動完成建議** (1)
+    - [ ] Uncheck **Show autocomplete suggestions in address bar**
 
-</div>
+=== "iOS"
 
-1. Brave 的 iOS 版應用程式中沒有此選項。
+    These options can be found in :material-dots-horizontal: → **All Settings** → **Leo AI**.
+
+    - [ ] Uncheck **Show In Quick Search Engine Bar**
 
 #### 搜尋引擎
 
-這些選項可以在 :material-menu:/:fontawesome-solid-ellipsis: → **設定** → **搜尋引擎** 中找到。
+=== "Android"
 
-- [ ] 取消勾選 **顯示搜尋建議**
+    These options can be found in :material-dots-vertical: → **Settings** → **Search engines**.
+
+    - [ ] 取消勾選 **顯示搜尋建議**
+
+=== "iOS"
+
+    These options can be found in :material-dots-horizontal: → **All Settings** → **Search engines**.
+
+    - [ ] Uncheck **Show In Quick Search Engine Bar**
 
 #### Brave 同步
 

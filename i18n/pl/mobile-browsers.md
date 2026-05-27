@@ -79,11 +79,11 @@ Tor Browser to jedyny sposób na prawdziwie anonimowe przeglądanie Internetu. K
 
 === "Android"
 
-    Te opcje znajdziesz w :material-menu: → **Ustawienia** → **Tarcze Brave i prywatność**.
+    These options can be found in :material-dots-vertical: → **Settings** → **Brave Shields & privacy**.
 
 === "iOS"
 
-    Te opcje znajdziesz w :fontawesome-solid-ellipsis: → **Ustawienia** → **Tarcze i prywatność**.
+    These options can be found in :material-dots-horizontal: → **All Settings** → **Shields & Privacy**.
 
 #### Domyślne ustawienia Tarcz Brave
 
@@ -111,7 +111,7 @@ W razie potrzeby można je obniżyć dla poszczególnych witryn, jednak domyśln
 
     </details>
 
-    - [x] Zaznacz **Zapomnij po zamknięciu tej strony**
+    - [x] Zaznacz **Zamknięte zakładki strony** pod *Automatyczne usuwanie*
 
     </div>
 
@@ -140,24 +140,16 @@ W razie potrzeby można je obniżyć dla poszczególnych witryn, jednak domyśln
 
     1. Ta opcja wyłącza JavaScript, co sprawi, że wiele stron przestanie działać prawidłowo. Aby przywrócić ich działanie, możesz dodać wyjątki dla konkretnych stron, stukając ikonę tarczy w pasku adresu i odznaczając tę opcję w sekcji *Zaawansowane sterowanie*.
 
-##### Wyczyść dane przeglądania (tylko Android)
-
-- [x] Zaznacz **Wyczyść dane przy wyjściu**
-
-##### Zablokuj sieci społecznościowe (tylko Android)
-
-- [ ] Odznacz wszystkie komponenty mediów społecznościowych
-
 #### Inne ustawienia prywatności
 
 === "Android"
 
     <div class="annotate" markdown>
 
-    - [x] Wybierz **Wyłącz UDP bez proxy** w sekcji [*Zasady obsługi IP WebRTC IP*](https://support.brave.com/hc/articles/360017989132-How-do-I-change-my-Privacy-Settings#webrtc)
     - \[x\] (Opcjonalnie) Wybierz **Brak ochrony** w sekcji *Bezpieczne przeglądanie* (1)
+    - [x] Wybierz **Wyłącz UDP bez proxy** w sekcji [*Zasady obsługi IP WebRTC IP*](https://support.brave.com/hc/articles/360017989132-How-do-I-change-my-Privacy-Settings#webrtc)
     - [ ] Odznacz **Zezwalaj stronom internetowym na sprawdzanie, czy masz zapisane formy płatności**
-    - [ ] Odznacz **Optymalizacja i zabezpieczenia JavaScriptu** w sekcji o tej samej nazwie
+    - [x] Select **Do not speed up sites with Brave's V8 engine but make Brave slightly more resistant to attacks**
     - [x] Zaznacz **Zamknij karty przy wyjściu**
     - [ ] Odznacz **Zezwól na zastosowanie analizy produktów z zachowaniem prywatności (P3A)**
     - [ ] Odznacz **Automatycznie wysyłaj raporty diagnostyczne**
@@ -172,23 +164,33 @@ W razie potrzeby można je obniżyć dla poszczególnych witryn, jednak domyśln
     - [ ] Odznacz **Zezwól na zastosowanie analizy produktów z zachowaniem prywatności (P3A)**
     - [ ] Odznacz **Automatycznie wysyłaj pingi dziennego użycia do Brave**
 
-#### Leo
+#### Leo AI
 
-Te opcje znajdziesz w :material-menu: → **Ustawienia** → **Sztuczna inteligencja Leo**.
+=== "Android"
 
-<div class="annotate" markdown>
+    These options can be found in :material-dots-vertical: → **Settings** → **Leo AI**.
 
-- [ ] Odznacz **Pokaż sugestie automatycznego uzupełniania na pasku adresu** (1)
+    - [ ] Uncheck **Show autocomplete suggestions in address bar**
 
-</div>
+=== "iOS"
 
-1. Ta opcja nie występuje w aplikacji Brave na iOS.
+    These options can be found in :material-dots-horizontal: → **All Settings** → **Leo AI**.
+
+    - [ ] Uncheck **Show In Quick Search Engine Bar**
 
 #### Wyszukiwarki
 
-Te opcje znajdziesz w :material-menu:/:fontawesome-solid-ellipsis: → **Ustawienia** → **Wyszukiwarki**.
+=== "Android"
 
-- [ ] Odznacz **Pokaż sugestie wyszukiwania**
+    These options can be found in :material-dots-vertical: → **Settings** → **Search engines**.
+
+    - [ ] Odznacz **Pokaż sugestie wyszukiwania**
+
+=== "iOS"
+
+    These options can be found in :material-dots-horizontal: → **All Settings** → **Search engines**.
+
+    - [ ] Uncheck **Show In Quick Search Engine Bar**
 
 #### Synchronizacja
 

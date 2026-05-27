@@ -78,11 +78,11 @@ schema:
 
 === "أندرويد"
 
-    يمكن العثور على هذه الخيارات في :material-menu: → **Settings**→ **Brave Shields & privacy**.
+    These options can be found in :material-dots-vertical: → **Settings** → **Brave Shields & privacy**.
 
 === "iOS"
 
-    يمكن العثور على هذه الخيارات في :fontawesome-solid-ellipsis: → **Settings**→ **Shields & Privacy**.
+    These options can be found in :material-dots-horizontal: → **All Settings** → **Shields & Privacy**.
 
 #### الإعدادات الافتراضية لـ Brave shields
 
@@ -110,7 +110,7 @@ schema:
 
     </details>
 
-    - [x] اختر **Forget me when I close this site**
+    - [x] اختر **Site Tabs Closed** تحت خيار *Auto Shred*
 
     </div>
 
@@ -139,24 +139,16 @@ schema:
 
     1. هذا الخيار يعطل JavaScript، مما قد يؤدي إلى تعطل العديد من المواقع أو عدم عملها بشكل صحيح. لإصلاح ذلك، يمكنك إضافة استثناءات لكل موقع على حدة، وذلك بالضغط على أيقونة الدرع (Shield) في شريط العنوان (Adress bar)، ثم إلغاء تفعيل هذا الخيار من قسم *Advanced controls*.
 
-##### مسح بيانات التصفح (لأجهزة أندرويد فقط)
-
-- [x] اختر **Clear data on exit**
-
-##### حجب وسائل التواصل الاجتماعي (لأجهزة أندرويد فقط)
-
-- [ ] ألغِ تفعيل جميع مكونات وسائل التواصل الاجتماعي
-
 #### إعدادات إضافية للخصوصية
 
 === "أندرويد"
 
     <div class="annotate" markdown>
 
-    - [x] اختر **Disable non-proxied UDP** تحت خيار [*WebRTC IP handling policy*](https://support.brave.com/hc/articles/360017989132-How-do-I-change-my-Privacy-Settings#webrtc)
     - \[x\] (إختياري) اختر **No protection** تحت خيار *Safe Browsing*  (1)
+    - [x] اختر **Disable non-proxied UDP** تحت خيار [*WebRTC IP handling policy*](https://support.brave.com/hc/articles/360017989132-How-do-I-change-my-Privacy-Settings#webrtc)
     - [ ] أزل التحديد عن **Allow sites to check if you have payment methods saved**
-    - [ ] Uncheck **Javascript optimization & security** under the setting with the same name
+    - [x] Select **Do not speed up sites with Brave's V8 engine but make Brave slightly more resistant to attacks**
     - [x] اختر **Close tabs on exit**
     -  [ ] أزل التحديد عن **Allow privacy-preserving product analytics (P3A)**
     - [ ] أزل التحديد عن **Automatically send diagnostic reports**
@@ -171,23 +163,33 @@ schema:
     -  [ ] أزل التحديد عن **Allow Privacy-Preserving Product Analytics (P3A)**
     - [ ] أزل التحديد عن **Automatically send daily usage ping to Brave**
 
-#### Leo
+#### Leo AI
 
-يمكن العثور على هذه الخيارات في :material-menu: → **Settings** → **Leo**.
+=== "أندرويد"
 
-<div class="annotate" markdown>
+    These options can be found in :material-dots-vertical: → **Settings** → **Leo AI**.
 
-- [ ] أزل التحديد عن *Show autocomplete suggestions in address bar** (1)
+    - [ ] Uncheck **Show autocomplete suggestions in address bar**
 
-</div>
+=== "iOS"
 
-1. هذا الخيار غير متوفر في تطبيق Brave على iOS.
+    These options can be found in :material-dots-horizontal: → **All Settings** → **Leo AI**.
+
+    - [ ] Uncheck **Show In Quick Search Engine Bar**
 
 #### محركات البحث
 
-يمكن العثور على هذه الخيارات في :material-menu:/:fontawesome-solid-ellipsis: → **Settings** → **Search engines**.
+=== "أندرويد"
 
-- [ ] أزل التحديد عن **عرض اقتراحات البحث**
+    These options can be found in :material-dots-vertical: → **Settings** → **Search engines**.
+
+    - [ ] أزل التحديد عن **عرض اقتراحات البحث**
+
+=== "iOS"
+
+    These options can be found in :material-dots-horizontal: → **All Settings** → **Search engines**.
+
+    - [ ] Uncheck **Show In Quick Search Engine Bar**
 
 #### Brave Sync
 
