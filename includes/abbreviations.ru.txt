@@ -28,7 +28,7 @@
 *[FDE]: (англ. Full Disk Encryption) - Полное шифрование диска
 *[FIDO]: (англ. Fast IDentity Online) - Стандарт для быстрой и безопасной аутентификации онлайн
 *[ПС]: Прямая секретность (Forward Secrecy)
-*[форк]: A new software project created by copying an existing project and adding to it independently
+*[форк]: (англ. fork) - Новый программный проект, созданный путем копирования существующего проекта и внесения в него изменений
 *[GDPR]: (англ. General Data Protection Regulation) - Это регламент ЕС, направленный на защиту персональных данных
 *[GPG]: GNU Privacy Guard (реализация PGP)
 *[GPS]: (англ. Global Positioning System) - Глобальная система позиционирования
@@ -36,7 +36,7 @@
 *[GnuPG]: GNU Privacy Guard (реализация PGP)
 *[HDD]: Жесткий диск
 *[HOTP]: HMAC (Hash-based Message Authentication Code) based One-Time Password
-*[HTTPS]: Безопасный протокол передачи гипертекста
+*[HTTPS]: (англ. Hypertext Transfer Protocol Secure) - Безопасный протокол передачи гипертекста
 *[HTTP]: Протокол передачи гипертекста
 *[гипервизор]: Computer software, firmware, or hardware that splits the resources of a CPU among multiple operating systems
 *[ICCID]: Integrated Circuit Card Identifier
@@ -77,7 +77,7 @@
 *[PGP]: Pretty Good Privacy (see OpenPGP)
 *[ПД]: Персональные данные
 *[QNAME]: Квалифицированное имя элемента, атрибута или идентификатора в документе XML
-*[QUIC]: A network protocol based on UDP, but aiming to combine the speed of UDP with the reliability of TCP.
+*[QUIC]: Сетевой протокол, основанный на UDP, но стремящийся объединить скорость UDP с надежностью TCP.
 *[rate limits]: Ограничения на количество запросов или действий, которые можно выполнить в определенный период времени.
 *[rolling release]: Updates which are released frequently rather than set intervals
 *[RSS]: Способ распространения лент новостей или изменений в блогах
@@ -109,5 +109,5 @@
 *[W3C]: Консорциум всемирной паутины
 *[XMPP]: (англ. Extensible Messaging and Presence Protocol) - Расширяемый протокол обмена сообщениями и информацией о присутствии
 *[PWA]: (англ. Progressive Web App) - Прогрессивное веб-приложение
-*[PWAs]: Progressive Web Apps
+*[PWAs]: (англ. Progressive Web Apps) - Прогрессивные веб-приложения
 *[WKD]: Web Key Directory

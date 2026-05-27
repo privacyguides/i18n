@@ -158,7 +158,7 @@ Firefox добавляет уникальный [маркер загрузки](
 
 ##### Firefox Suggest
 
-[Firefox Suggest](https://support.mozilla.org/kb/firefox-suggest) is a feature similar to search suggestions. Мы рекомендуем отключить её по той же причине, по которой мы рекомендуем отключать поисковые подсказки. Если вы не видите эти параметры в разделе **Адресная строка**, у вас нет нового интерфейса, и вы можете игнорировать эти изменения.
+[Firefox Suggest](https://support.mozilla.org/kb/firefox-suggest) - это функция, аналогичная предложениям поиска. Мы рекомендуем отключить её по той же причине, по которой мы рекомендуем отключать поисковые подсказки. Если вы не видите эти параметры в разделе **Адресная строка**, у вас нет нового интерфейса, и вы можете игнорировать эти изменения.
 
 - [ ] Отключите **Suggestions from Firefox**
 - [ ] Отключите **Suggestions from sponsors**
@@ -183,11 +183,11 @@ Firefox добавляет уникальный [маркер загрузки](
 
 ##### Сбор и использование данных Firefox
 
-- [ ] Uncheck **Send technical and interaction data to Mozilla**
-- [ ] Uncheck **Allow personalized extension recommendations**
-- [ ] Uncheck **Install and run studies**
-- [ ] Uncheck **Send daily usage ping to Mozilla**
-- [ ] Uncheck **Automatically send crash reports**
+- [ ] Отключите **Отправлять технические данные и данные взаимодействия в Mozilla**
+- [ ] Отключите **Разрешить персонализированные рекомендации расширение**
+- [ ] Отключите **Разрешить Firefox проводить исследования функций**
+- [ ] Отключите **Отправлять ежедневный пинг использования в Mozilla**
+- [ ] Отключите **Автоматически отправлять сообщения и падениях**
 
 Согласно политике конфиденциальности Mozilla для Firefox,
 

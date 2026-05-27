@@ -14,7 +14,7 @@ global:
 
 - [:material-account-cash: Капитализм слежки](basics/common-threats.md#surveillance-as-a-business-model ""){.pg-brown}
 
-If you're looking for additional *privacy* from your ISP or on a public Wi-Fi network, a **VPN** may be the solution for you.
+Если вы хотите повысить уровень *конфиденциальности* при использовании интернета — например, скрыть активность от провайдера или защититься в общественном Wi-Fi — вам может помочь **VPN**.
 
 <div class="admonition danger" markdown>
 <p class="admonition-title">VPN не обеспечивает анонимность</p>
@@ -88,7 +88,7 @@ If you're looking for additional *privacy* from your ISP or on a public Wi-Fi ne
 
 #### :material-check:{ .pg-green } Принимает наличные
 
-Proton VPN, in addition to accepting credit/debit cards, PayPal, and [Bitcoin](advanced/payments.md#other-coins-bitcoin-ethereum-etc), also accepts **cash/local currency** as an anonymous form of payment.
+Помимо кредитных/дебетовых карт, PayPal и [Bitcoin](advanced/payments.md#other-coins-bitcoin-ethereum-etc), Proton VPN принимает **наличные/местную валюту** в качестве анонимной формы оплаты.
 
 #### :material-check:{ .pg-green } Поддержка WireGuard
 
@@ -123,7 +123,7 @@ Proton VPN опубликовал клиенты [App Store](https://apps.apple.
 
 </div>
 
-#### :material-alert-outline:{ .pg-orange } Additional Notes
+#### :material-alert-outline:{ .pg-orange } Дополнительные замечания
 
 Клиенты Proton VPN поддерживают двухфакторную аутентификацию на всех платформах. Proton VPN имеет собственные серверы и дата-центры в Швейцарии, Исландии и Швеции. Они предлагают блокировку контента и блокировку известного вредоносного ПО с помощью своей DNS-службы. Кроме того, Proton VPN также предлагает "Tor" серверы, позволяющие вам легко подключаться к onion-сайтам, но мы все еще настоятельно рекомендуем использовать [официальный Tor Browser](tor.md#tor-browser) для этой цели.
 

@@ -1,6 +1,6 @@
 ---
-title: Don't Stop at Individual Solutions, Consider The Collective Impact
-description: When we think about privacy, we often focus on technical individual solutions. But it's also crucial to consider the collective impact of privacy issues.
+title: Не останавливайтесь на индивидуальных решениях, подумайте о коллективном воздействии
+description: Когда мы думаем о конфиденциальности, мы часто фокусируемся на технических индивидуальных решениях. Но также крайне важно учитывать коллективное влияние проблем, связанных с конфиденциальностью.
 icon: fontawesome/solid/users-rays
 cover: activism/banner-toolbox-tip-expand.webp
 ---
@@ -9,7 +9,7 @@ When we think about our privacy, we often focus on the technical tools we can us
 
 Here's what to keep in mind to **expand your perspective on data privacy** beyond individual solutions:
 
-## The danger of focusing only on individual solutions
+## Опасность сосредоточения только на индивидуальных решениях
 
 While it might feel easier to focus on our own needs, nobody lives in a vacuum. Even if you were able to somehow protect all the data you have custody of, there is a lot of data about you that isn't under your control, and a lot of data about _others_ that impact you.
 
