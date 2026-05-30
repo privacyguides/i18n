@@ -78,7 +78,7 @@ When replying to someone on a mailing list in Thunderbird Mobile, the "reply" op
 
 ##### 遙測
 
-- [ ] 取消勾選 **允許 Thunderbird 傳送技術與互動資料傳送給 Mozilla**
+- [ ] Uncheck **Allow Thunderbird to send technical and interaction data to Mozilla**
 
 #### Thunderbird-user.js （進階）
 

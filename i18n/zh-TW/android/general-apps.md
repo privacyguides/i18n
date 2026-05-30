@@ -30,7 +30,7 @@ robots: nofollow, max-snippet:-1, max-image-preview:large
 
 我們在本網站上推薦了各種 Android 應用程式。 此處列出的應用程式是 Android 獨有的，專門增強或替換了關鍵系統功能。
 
-### Shelter
+## Shelter
 
 如果您的裝置是 Android 15 或更高版本，我們建議您改用原生的 [私人空間](../os/android-overview.md#private-space) 功能，它提供幾乎相同的功能；而不需要信任第三方應用程式並授予其極高的權限。
 
@@ -57,7 +57,7 @@ Shelter 支援阻止跨配置檔案的聯絡人搜尋以及透過預設檔案管
 
 建議使用Shelter，而不是 [Insular](https://secure-system.gitlab.io/Insular) 和 [Island](https://github.com/oasisfeng/island) ，因為它支援 [聯絡人搜尋屏蔽](https://secure-system.gitlab.io/Insular/faq.html) 。
 
-### Secure Camera
+## Secure Camera
 
 <small>防護下列威脅：</small>
 
@@ -101,7 +101,7 @@ Shelter 支援阻止跨配置檔案的聯絡人搜尋以及透過預設檔案管
 
 </div>
 
-### Secure PDF Viewer
+## Secure PDF Viewer
 
 <small>防護下列威脅：</small>
 

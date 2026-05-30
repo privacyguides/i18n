@@ -30,7 +30,7 @@ robots: nofollow, max-snippet:-1, max-image-preview:large
 
 We recommend a wide variety of Android apps throughout this site. Приложения, упомянутые здесь, разработаны исключительно для Android и ориентированы на улучшение или замену основных функций операционной системы.
 
-### Shelter
+## Shelter
 
 Если ваше устройство работает на Android 15 или более новой версии, мы рекомендуем использовать встроенную функцию [Private Space](../os/android-overview.md#private-space), которая предоставляет аналогичный функционал, но без необходимости доверять стороннему приложению и предоставлять ему расширенные разрешения.
 
@@ -57,7 +57,7 @@ When using Shelter, you are placing complete trust in its developer, as Shelter 
 
 Shelter is recommended over [Insular](https://secure-system.gitlab.io/Insular) and [Island](https://github.com/oasisfeng/island) as it supports [contact search blocking](https://secure-system.gitlab.io/Insular/faq.html).
 
-### Secure Camera
+## Secure Camera
 
 <small>Защищает от следующих угроз:</small>
 
@@ -101,7 +101,7 @@ The image orientation metadata is not deleted. If you enable location (in Secure
 
 </div>
 
-### Secure PDF Viewer
+## Secure PDF Viewer
 
 <small>Protects against the following threat(s):</small>
 

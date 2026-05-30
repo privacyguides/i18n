@@ -30,7 +30,7 @@ robots: nofollow, max-snippet:-1, max-image-preview:large
 
 Zamieszczamy tu szerokie zalecenia dotyczące aplikacji na Androida. Aplikacje wymienione poniżej są dostępne wyłącznie na Androida i stanowią rozszerzenie lub zamiennik kluczowych funkcji systemowych.
 
-### Shelter
+## Shelter
 
 Jeśli Twoje urządzenie działa na Androidzie 15 lub nowszym, zalecamy zamiast tego skorzystanie z natywnej funkcji [Przestrzeni prywatnej](../os/android-overview.md#private-space), która oferuje niemal te same możliwości, bez potrzeby obdarzania zaufaniem aplikacji firm trzecich i przyznawania im rozległych uprawnień.
 
@@ -57,7 +57,7 @@ Korzystając z aplikacji Shelter, należy całkowicie zaufać jego twórcy, poni
 
 Shelter jest zalecany zamiast aplikacji [Insular](https://secure-system.gitlab.io/Insular) i [Island](https://github.com/oasisfeng/island), ponieważ obsługuje [blokowanie wyszukiwania kontaktów](https://secure-system.gitlab.io/Insular/faq.html).
 
-### Secure Camera
+## Secure Camera
 
 <small>Chroni przed następującymi zagrożeniami:</small>
 
@@ -101,7 +101,7 @@ Metadane dotyczące orientacji obrazu nie są usuwane. Jeśli włączysz zapisyw
 
 </div>
 
-### Secure PDF Viewer
+## Secure PDF Viewer
 
 <small>Chroni przed następującymi zagrożeniami:</small>
 

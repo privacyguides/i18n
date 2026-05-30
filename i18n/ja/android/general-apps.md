@@ -30,7 +30,7 @@ robots: nofollow, max-snippet:-1, max-image-preview:large
 
 本サイトでは様々なAndroidアプリをおすすめしています。 本記事で紹介するアプリはAndroid専用アプリで、システムの重要な機能を強化あるいは置換するものです。
 
-### Shelter
+## Shelter
 
 Android 15以上のデバイスを使用しているのであれば、Shelterではなく、標準機能である[プライベートスペース](../os/android-overview.md#private-space)を使うことを推奨します。サードパーティを信用して強力な権限を与える必要がなく、ほぼ同様の機能が使えます。
 
@@ -57,7 +57,7 @@ Shelterを使用することで、Shelterの開発者を完全に信頼するこ
 
 Shelterは[連絡先の検索をブロック](https://secure-system.gitlab.io/Insular/faq.html)できるため、[Insular](https://secure-system.gitlab.io/Insular)や[Island](https://github.com/oasisfeng/island)よりもおすすめです。
 
-### Secure Camera
+## Secure Camera
 
 <small>以下の脅威から保護します：</small>
 
@@ -101,7 +101,7 @@ Shelterは[連絡先の検索をブロック](https://secure-system.gitlab.io/In
 
 </div>
 
-### Secure PDF Viewer
+## Secure PDF Viewer
 
 <small>以下の脅威から保護します：</small>
 
@@ -112,7 +112,7 @@ Shelterは[連絡先の検索をブロック](https://secure-system.gitlab.io/In
 ![Secure PDF Viewerのロゴ](../assets/img/android/secure_pdf_viewer.svg#only-light){ align=right }
 ![Secure PDF Viewerのロゴ](../assets/img/android/secure_pdf_viewer-dark.svg#only-dark){ align=right }
 
-**Secure PDF Viewer**は、[pdf.js](https://ja.wikipedia.org/wiki/PDF.js)をベースにしたPDFビューアで、権限が一切必要ありません。 開いたPDFは[サンドボックス化](https://ja.wikipedia.org/wiki/%E3%82%B5%E3%83%B3%E3%83%89%E3%83%9C%E3%83%83%E3%82%AF%E3%82%B9_\(%E3%82%BD%E3%83%95%E3%83%88%E3%82%A6%E3%82%A7%E3%82%A2%E9%96%8B%E7%99%BA\))された[WebView](https://developer.android.com/guide/webapps/webview)に送られます。 そのため、コンテンツやファイルに直接アクセスしに行く権限が必要ありません。
+**Secure PDF Viewer**は、[pdf.js](https://ja.wikipedia.org/wiki/PDF.js)をベースにしたPDFビューアで、権限が一切必要ありません。 開いたPDFは[サンドボックス化](https://ja.wikipedia.org/wiki/%E3%82%B5%E3%83%B3%E3%83%89%E3%83%9C%E3%83%83%E3%82%AF%E3%82%B9_(%E3%82%BD%E3%83%95%E3%83%88%E3%82%A6%E3%82%A7%E3%82%A2%E9%96%8B%E7%99%BA))された[WebView](https://developer.android.com/guide/webapps/webview)に送られます。 そのため、コンテンツやファイルに直接アクセスしに行く権限が必要ありません。
 
 [Content-Security-Policy](https://en.wikipedia.org/wiki/Content_Security_Policy)を使用することで、WebView内のJavaScriptとスタイルプロパティがすべて静的コンテンツであることを強制するようになっています。
 

@@ -30,7 +30,7 @@ robots: nofollow, max-snippet:-1, max-image-preview:large
 
 Recomendamos uma ampla variedade de aplicativos Android neste site. Os aplicativos listados aqui são exclusivos do Android e melhoram ou substituem as principais funcionalidades do sistema.
 
-### Shelter
+## Shelter
 
 Se o seu dispositivo estiver no Android 15 ou superior, recomendamos o uso do recurso nativo [Private Space](../os/android-overview.md#private-space), em vez disso, que fornece quase a mesma funcionalidade sem precisar confiar e conceder poderosas permissões a um app de terceiros.
 
@@ -57,7 +57,7 @@ Ao usar o Shelter, você está colocando total confiança em seu desenvolvedor, 
 
 O Shelter é recomendado sobre [Insular](https://secure-system.gitlab.io/Insular) e [Island](https://github.com/oasisfeng/island), já que suporta [bloqueio de busca de contatos](https://secure-system.gitlab.io/Insular/faq.html).
 
-### Secure Camera
+## Secure Camera
 
 <small>Protege contra a(s) seguinte(s) ameaça(s):</small>
 
@@ -101,7 +101,7 @@ Os metadados da orientação da imagem não são excluídos. Se você ativar a l
 
 </div>
 
-### Secure PDF Viewer
+## Secure PDF Viewer
 
 <small>Protege contra a(s) seguinte(s) ameaça(s):</small>
 
@@ -112,7 +112,7 @@ Os metadados da orientação da imagem não são excluídos. Se você ativar a l
 ![Secure PDF Viewer logo](../assets/img/android/secure_pdf_viewer.svg#only-light){ align=right }
 ![Secure PDF Viewer logo](../assets/img/android/secure_pdf_viewer-dark.svg#only-dark){ align=right }
 
-O **Secure PDF Viewer** é um visualizador de PDF baseado em [pdf.js] (https://pt.wikipedia.org/wiki/PDF.js) que não requer nenhuma permissão. O PDF é alimentado em um [sandboxed](https://pt.wikipedia.org/wiki/Sandbox_\(desenvolvimento_de_software\)) [WebView](https://developer.android.com/guide/webapps/webview). Isso significa que não requer permissão direta para acessar conteúdo ou arquivos.
+O **Secure PDF Viewer** é um visualizador de PDF baseado em [pdf.js] (https://pt.wikipedia.org/wiki/PDF.js) que não requer nenhuma permissão. O PDF é alimentado em um [sandboxed](https://pt.wikipedia.org/wiki/Sandbox_(desenvolvimento_de_software)) [WebView](https://developer.android.com/guide/webapps/webview). Isso significa que não requer permissão direta para acessar conteúdo ou arquivos.
 
 A [Content-Security-Policy](https://en.wikipedia.org/wiki/Content_Security_Policy) é usada para impor que o JavaScript e as propriedades de estilo dentro do WebView sejam conteúdo totalmente estático.
 

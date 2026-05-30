@@ -30,7 +30,7 @@ description: Microsoft Windows هو نظام تشغيل شائع، لكنه يف
 ## ملاحظات حول الخصوصية
 
 نظام Microsoft Windows – وخاصة الإصدارات الموجهة للمستخدمين العاديين مثل نسخة Home – غالبا ما لا تعطي الأولوية لخيارات تحافظ على الخصوصية [بشكل افتراضي](https://theguardian.com/technology/2015/jul/31/windows-10-microsoft-faces-criticism-over-privacy-default-settings). ونتيجة لذلك، نشهد غالبا [جمعا للبيانات](https://en.wikipedia.org/wiki/Criticism_of_Microsoft#Telemetry_and_data_collection) أكثر مما هو ضروري، وذلك دون أي تنبيه واضح بأن هذا هو السلوك الافتراضي للنظام. في محاولة من مايكروسوفت لمنافسة Google في مجال الإعلانات،
-قامت بإدخال ميزات في [Cortana](https://en.wikipedia.org/wiki/Cortana_(virtual_assistant) مثل الـ (Advertising ID)، وذلك بهدف تتبع الاستخدام ومساعدة المعلنين في تقديم إعلانات موجهة.  عند إطلاق Windows 10، لم يكن من الممكن إيقاف جمع البيانات التلقائي (Telemetry) في الإصدارات المخصصة للمستخدمين العاديين،
+قامت بإدخال ميزات في [Cortana](https://en.wikipedia.org/wiki/Cortana_(virtual_assistant) مثل الـ (Advertising ID)، وذلك بهدف تتبع الاستخدام ومساعدة المعلنين في تقديم إعلانات موجهة. عند إطلاق Windows 10، لم يكن من الممكن إيقاف جمع البيانات التلقائي (Telemetry) في الإصدارات المخصصة للمستخدمين العاديين،
 مثل نسخة Home وPro، بل كان ذلك متاحا فقط في الإصدارات الموجهة للشركات (Enterprise). وحتى الآن، لا يمكن إيقاف جمع البيانات بالكامل، لكن مايكروسوفت أضافت خيارا يسمح [بتقليل](https://extremetech.com/computing/243079-upcoming-windows-update-reduces-spying-microsoft-still-mum-data-collects) كمية البيانات التي يتم إرسالها إليها.
 
 في نظام Windows 11، هناك عدد من القيود أو الإعدادات الافتراضية التي قد تؤثر على الخصوصية، مثل:

@@ -27,7 +27,7 @@ This section is a work in progress, because it takes considerably more time and 
 
 ## 隱私筆記
 
-Microsoft Windows, particularly those versions aimed at consumers like the **Home** version often don't prioritize privacy-friendly features by [default](https://theguardian.com/technology/2015/jul/31/windows-10-microsoft-faces-criticism-over-privacy-default-settings). 因此，我們經常看到比必要更多的 [資料收集](https://en.wikipedia.org/wiki/Criticism_of_Microsoft#Telemetry_and_data_collection)，卻沒有任何真正的警告說明這是預設行為。 為了在廣告領域與 Google 競爭，[Cortana](https://en.wikipedia.org/wiki/Cortana_\(virtual_assistant\)) 加入了獨特的識別碼，例如「廣告 ID」，以便關聯使用情況，協助廣告商針對性地投放廣告。  在 Windows 10 推出時，非企業版無法停用遙測功能。 現在仍然無法停用，但微軟新增了 [減少](https://extremetech.com/computing/243079-upcoming-windows-update-reduces-spying-microsoft-still-mum-data-collects) 傳送資料的功能。
+Microsoft Windows, particularly those versions aimed at consumers like the **Home** version often don't prioritize privacy-friendly features by [default](https://theguardian.com/technology/2015/jul/31/windows-10-microsoft-faces-criticism-over-privacy-default-settings). 因此，我們經常看到比必要更多的 [資料收集](https://en.wikipedia.org/wiki/Criticism_of_Microsoft#Telemetry_and_data_collection)，卻沒有任何真正的警告說明這是預設行為。 為了在廣告領域與 Google 競爭，[Cortana](https://en.wikipedia.org/wiki/Cortana_(virtual_assistant)) 加入了獨特的識別碼，例如「廣告 ID」，以便關聯使用情況，協助廣告商針對性地投放廣告。 在 Windows 10 推出時，非企業版無法停用遙測功能。 現在仍然無法停用，但微軟新增了 [減少](https://extremetech.com/computing/243079-upcoming-windows-update-reduces-spying-microsoft-still-mum-data-collects) 傳送資料的功能。
 
 Windows 11 有許多限制或預設值，例如：
 

@@ -30,7 +30,7 @@ robots: nofollow, max-snippet:-1, max-image-preview:large
 
 Nous recommandons une grande variété d'applications Android sur ce site. Les applications répertoriées ici sont exclusives à Android et améliorent ou remplacent les principales fonctionnalités du système.
 
-### Shelter
+## Shelter
 
 Si votre appareil fonctionne sous Android 15 ou supérieur, nous vous recommandons d'utiliser la fonction native [Espace privé] (../os/android-overview.md#private-space), qui offre pratiquement la même fonctionnalité sans avoir à faire confiance à une application tierce et à lui accorder de puissantes autorisations.
 
@@ -57,7 +57,7 @@ En utilisant Shelter, vous accordez une confiance totale à son développeur, ca
 
 Shelter est recommandé par rapport à [Insular](https://secure-system.gitlab.io/Insular) et [Island](https://github.com/oasisfeng/island) car il permet le [blocage de la recherche de contact](https://secure-system.gitlab.io/Insular/faq.html).
 
-### Secure Camera
+## Secure Camera
 
 <small>Protège contre la(les) menace(s) suivante(s)</small>
 
@@ -101,7 +101,7 @@ Les métadonnées d'orientation de l'image ne sont pas supprimées. Si vous acti
 
 </div>
 
-### Secure PDF Viewer
+## Secure PDF Viewer
 
 <small>Protège contre la(les) menace(s) suivante(s) :</small>
 
@@ -112,7 +112,7 @@ Les métadonnées d'orientation de l'image ne sont pas supprimées. Si vous acti
 ![logo de Secure PDF Viewer](../assets/img/android/secure_pdf_viewer.svg#only-light){ align=right }
 ![logo de Secure PDF Viewer](../assets/img/android/secure_pdf_viewer-dark.svg#only-dark){ align=right }
 
-**Secure PDF Viewer** est une visionneuse de PDF basée sur [pdf.js](https://en.wikipedia.org/wiki/PDF.js) qui ne nécessite aucune permission. Le PDF est introduit dans une [webview](https://developer.android.com/guide/webapps/webview) [sandboxée](https://en.wikipedia.org/wiki/Sandbox_\(software_development\)). Cela signifie qu'il n'a pas besoin d'autorisation directe pour accéder au contenu ou aux fichiers.
+**Secure PDF Viewer** est une visionneuse de PDF basée sur [pdf.js](https://en.wikipedia.org/wiki/PDF.js) qui ne nécessite aucune permission. Le PDF est introduit dans une [webview](https://developer.android.com/guide/webapps/webview) [sandboxée](https://en.wikipedia.org/wiki/Sandbox_(software_development)). Cela signifie qu'il n'a pas besoin d'autorisation directe pour accéder au contenu ou aux fichiers.
 
 [Content-Security-Policy](https://en.wikipedia.org/wiki/Content_Security_Policy) est utilisé pour s'assurer que les propriétés JavaScript et de style à l'intérieur de la WebView sont entièrement statiques.
 

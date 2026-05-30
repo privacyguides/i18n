@@ -30,7 +30,7 @@ robots: nofollow, max-snippet:-1, max-image-preview:large
 
 En este sitio web recomendamos una amplia variedad de aplicaciones para Android. Las aplicaciones que se encuentran listadas son exclusivas para Android y están diseñadas para mejorar o reemplazar funcionalidades clave del sistema.
 
-### Shelter
+## Shelter
 
 Si tu dispositivo está en Android 15 o superior, te recomendamos que utilices la función nativa [Espacio Privado](../os/android-overview.md#private-space) en su lugar, que proporciona casi la misma funcionalidad sin necesidad de confiar en una aplicación de terceros y concederle potentes permisos.
 
@@ -57,7 +57,7 @@ Al utilizar Shelter, estás depositando toda tu confianza en su desarrollador, y
 
 Se recomienda Shelter en lugar de [Insular](https://secure-system.gitlab.io/Insular) e [Island](https://github.com/oasisfeng/island), ya que admite [bloqueo de búsqueda de contactos](https://secure-system.gitlab.io/Insular/faq.html).
 
-### Secure Camera
+## Secure Camera
 
 <small>Protege contra la(s) siguiente(s) amenaza(s):</small>
 
@@ -101,7 +101,7 @@ Los metadatos de orientación de la imagen no se borran. Si activas la localizac
 
 </div>
 
-### Secure PDF Viewer
+## Secure PDF Viewer
 
 <small>Protege contra la(s) siguiente(s) amenaza(s):</small>
 
@@ -112,7 +112,7 @@ Los metadatos de orientación de la imagen no se borran. Si activas la localizac
 ![Secure PDF Viewer logo](../assets/img/android/secure_pdf_viewer.svg#only-light){ align=right }
 ![Secure PDF Viewer logo](../assets/img/android/secure_pdf_viewer-dark.svg#only-dark){ align=right }
 
-**Secure PDF Viewer** es un visor de PDF basado en [pdf.js](https://en.wikipedia.org/wiki/PDF.js) que no requiere ningún permiso. El PDF se introduce en un [WebView](https://developer.android.com/guide/webapps/webview) [aislado](https://es.wikipedia.org/wiki/Entorno_de_pruebas_\(inform%C3%A1tica\)). Esto significa que no necesita permiso directamente para acceder a contenidos o archivos.
+**Secure PDF Viewer** es un visor de PDF basado en [pdf.js](https://en.wikipedia.org/wiki/PDF.js) que no requiere ningún permiso. El PDF se introduce en un [WebView](https://developer.android.com/guide/webapps/webview) [aislado](https://es.wikipedia.org/wiki/Entorno_de_pruebas_(inform%C3%A1tica)). Esto significa que no necesita permiso directamente para acceder a contenidos o archivos.
 
 [Content-Security-Policy](https://en.wikipedia.org/wiki/Content_Security_Policy) se utiliza para reforzar que las propiedades JavaScript y de estilo dentro del WebView sean enteramente contenido estático.
 

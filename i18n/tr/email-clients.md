@@ -78,7 +78,7 @@ Bu seçenekler :material-menu: → **Ayarlar** → Gizlilik ve Güvenlik sekmesi
 
 ##### Telemetri
 
-- [ ] **Thunderbird'ün Mozilla'ya teknik ve etkileşim verilerini göndermesine izin ver** seçeneğini kapatın
+- [ ] Uncheck **Allow Thunderbird to send technical and interaction data to Mozilla**
 
 #### Thunderbird-user.js (ileri düzey)
 
