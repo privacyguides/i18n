@@ -198,12 +198,6 @@ De plus, le service Mozilla Accounts collecte [certaines données techniques](ht
 1. Ouvrez les [paramètres de votre profil sur accounts.firefox.com](https://accounts.firefox.com/settings#data-collection)
 2. Décochez **Collecte et utilisation de données** > **Aidez à améliorer les comptes Firefox**
 
-##### Préférences publicitaires des sites web
-
-- [ ] Décocher **Autoriser les sites web à effectuer des mesures publicitaires en respectant la vie privée**
-
-Avec la sortie de Firefox 128, un nouveau paramètre pour l'[attribution respectueuse de la vie privée](https://support.mozilla.org/kb/privacy-preserving-attribution) (privacy-preserving attribution, PPA) a été ajouté et est [activé par défaut](https://blog.privacyguides.org/2024/07/14/mozilla-disappoints-us-yet-again-2). La PPA permet aux annonceurs d'utiliser votre navigateur web pour mesurer l'efficacité des campagnes web, au lieu d'utiliser un suivi traditionnel basé sur JavaScript. Nous considérons que ce comportement n'entre pas dans le cadre des responsabilités d'un agent utilisateur, et le fait qu'il soit désactivé par défaut dans Arkenfox est un indicateur supplémentaire en faveur de la désactivation de cette fonctionnalité.
-
 ##### Mode HTTPS uniquement
 
 - [x] Sélectionnez **Activer le mode HTTPS uniquement dans toutes les fenêtres**

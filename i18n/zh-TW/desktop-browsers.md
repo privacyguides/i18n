@@ -198,12 +198,6 @@ Firefox 在 Mozilla 網站的下載中包含一個獨特的 [下載令牌](https
 1. 在 [accounts.firefox.com 開啟您的個人資料設定](https://accounts.firefox.com/settings#data-collection)
 2. 取消勾選 **資料收集與使用** > **幫助我們改善 ⁨Mozilla 帳號⁩**
 
-##### 網站廣告偏好設定
-
-- [ ] 取消勾選 **允許網站進行能保護隱私的廣告成效測量**
-
-Firefox 在 128 版本的更新，新增了一個[尊重隱私的成效測量](https://support.mozilla.org/kb/privacy-preserving-attribution) (簡稱 PPA) 的設定，並且[預設為開啟狀態](https://blog.privacyguides.org/2024/07/14/mozilla-disappoints-us-yet-again-2)。 PPA 允許廣告商利用您的瀏覽器進行廣告成效測量，進而取代基於 JavaScript 的傳統追蹤方式。 我們認為此行為超出了使用者代理的職責範圍，而 Arkenfox 預設停用此功能的決定，也進一步表明應該停用這項功能。
-
 ##### 純 HTTPS 模式
 
 - [x] 勾選 **在所有視窗都只使用 HTTPS 連線**

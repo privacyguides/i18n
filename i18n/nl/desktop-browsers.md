@@ -198,12 +198,6 @@ Daarnaast verzamelt de Mozilla Accounts service [enkele technische gegevens](htt
 1. Open jouw [profielinstellingen op accounts.firefox.com](https://accounts.firefox.com/settings#data-collection)
 2. Schakel **Gegevensverzameling en -gebruik uit** > **Help Firefox-accounts verbeteren**
 
-##### Website Advertentievoorkeuren
-
-- [ ] Deselecteer **Websites toestaan om privacy-beschermende advertentiemeting uit te voeren**
-
-Met de release van Firefox 128 is een nieuwe instelling voor [privacy-beschermende attributie](https://support.mozilla.org/kb/privacy-preserving-attribution) (PPA) toegevoegd en [standaard ingeschakeld](https://blog.privacyguides.org/2024/07/14/mozilla-disappoints-us-yet-again-2). Met PPA kunnen adverteerders je webbrowser gebruiken om de effectiviteit van webcampagnes te meten, in plaats van traditionele tracking op basis van JavaScript te gebruiken. Wij zijn van mening dat dit gedrag buiten de verantwoordelijkheden van een user agent valt, en het feit dat het standaard is uitgeschakeld in Arkenfox is een extra indicator voor het uitschakelen van deze functie.
-
 ##### HTTPS-Only Modus
 
 - [x] Selecteer **HTTPS-only modus in alle vensters inschakelen**

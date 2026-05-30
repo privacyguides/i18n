@@ -201,12 +201,6 @@ Além disso, o serviço de Contas Mozilla coleta [alguns dados técnicos](https:
 1. Abra as suas [configurações de perfil em accounts.firefox.com](https://accounts.firefox.com/settings#data-collection)
 2. Desmarque **Coleta de dados e uso** > **Ajude a melhorar as contas Firefox**
 
-##### Preferências de publicidade em sites
-
-- [ ] Desmarque **Permitir que sites façam medição de publicidade respeitando sua privacidade**
-
-Com o lançamento do Firefox 128, uma nova configuração para [atribuição com preservação de privacidade](https://support.mozilla.org/kb/privacy-preserving-attribution) (PPA) foi adicionada e [ativada por padrão](https://blog.privacyguides.org/2024/07/14/mozilla-disappoints-us-yet-again-2). O PPA permite que os anunciantes usem seu navegador para medir a eficácia das campanhas na web, em vez de usar o rastreamento tradicional baseado em JavaScript. Consideramos esse comportamento fora do escopo das responsabilidades de um user agent, e o fato de estar desativado por padrão no Arkenfox é um indicativo adicional para desativar esse recurso.
-
 ##### Modo Somente HTTPS
 
 - Selecione **Ativar modo somente HTTPS em todas as janelas**

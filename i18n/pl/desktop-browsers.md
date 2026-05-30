@@ -198,12 +198,6 @@ Ponadto usługa kont Mozilla Accounts gromadzi [pewne dane techniczne](https://w
 1. Otwórz [ustawienia profilu na accounts.firefox.com](https://accounts.firefox.com/pl/settings#data-collection)
 2. Odznacz **Gromadzenie i wykorzystywanie danych** > **Pomóż ulepszyć konta Firefox**
 
-##### Preferencje dotyczące reklam na witrynach
-
-- [ ] Odznacz **Zezwalanie witrynom na przeprowadzanie pomiarów reklam przy zachowaniu prywatności**
-
-Wraz z wydaniem Firefoksa 128 dodano nowe ustawienie dotyczące [atrybucji z zachowaniem prywatności](https://support.mozilla.org/pl/kb/privacy-preserving-attribution) (PPA), które zostało [domyślnie włączone](https://blog.privacyguides.org/2024/07/14/mozilla-disappoints-us-yet-again-2). PPA pozwala reklamodawcom wykorzystywać Twoją przeglądarkę do mierzenia skuteczności kampanii internetowych zamiast tradycyjnych metod śledzenia opartych na JavaScripcie. Uważamy, że takie działanie wykracza poza zakres obowiązków przeglądarki, a fakt, że funkcja ta jest domyślnie wyłączona w Arkenfoxie, stanowi dodatkowy argument za jej wyłączeniem.
-
 ##### Tryb używania wyłącznie protokołu HTTPS
 
 - [x] Zaznacz **Włącz we wszystkich oknach**

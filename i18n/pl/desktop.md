@@ -126,7 +126,7 @@ NixOS is an independent distribution based on the Nix package manager with a foc
 
 Menedżer pakietów NixOS przechowuje każdą wersję każdego pakietu w innym folderze w **sklepie Nix**. W związku z tym możesz mieć różne wersje tego samego pakietu zainstalowanego w Twoim systemie Po zapisaniu zawartości pakietu w folderze folder staje się tylko do odczytu.
 
-NixOS zapewnia również aktualizacje atomowe. It first downloads (or builds) the packages and files for the new system generation and then switches to it. There are different ways to switch to a new generation: you can tell NixOS to activate it after reboot, or you can switch to it at runtime. You can also *test* the new generation by switching to it at runtime, but not setting it as the current system generation. If something in the update process breaks, you can just reboot and automatically and return to a working version of your system.
+NixOS zapewnia również aktualizacje atomowe. It first downloads (or builds) the packages and files for the new system generation and then switches to it. There are different ways to switch to a new generation: you can tell NixOS to activate it after reboot, or you can switch to it at runtime. You can also *test* the new generation by switching to it at runtime, but not setting it as the current system generation. If something breaks during the update process, you can just reboot to return to a working version of your system.
 
 The Nix package manager uses a purely functional language—which is also called Nix—to define packages.
 

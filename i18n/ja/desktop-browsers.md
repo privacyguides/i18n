@@ -198,12 +198,6 @@ MozillaのFirefoxプライバシーポリシーでは以下のように記載さ
 1. [accounts.firefox.comのプロフィール設定](https://accounts.firefox.com/settings#data-collection)を開く
 2. **データの収集と使用** > **Firefoxアカウントの改善を支援する**のチェックを外す
 
-##### ウェブサイトの広告設定
-
-- [ ] **プライバシー保護された広告解析をウェブサイトに許可する**のチェックを外す
-
-Firefox 128から、[プライバシー保護されたアトリビューション](https://support.mozilla.org/kb/privacy-preserving-attribution)（PPA）の新たな設定が追加され、[デフォルトで有効](https://blog.privacyguides.org/2024/07/14/mozilla-disappoints-us-yet-again-2)になりました。 従来のJavaScriptベースのトラッキングの代わりにPPAにより、広告主がウェブブラウザを通じてウェブキャンペーンの効果測定ができるようになります。 ユーザーが利用するブラウザの責任の範囲外であると考えていますが、Arkenfoxではデフォルトで無効化されていることは、この機能を無効化する指針になり得ます。
-
 ##### HTTPS-Only モード
 
 - [x] **すべてのウィンドウで HTTPS-Only モードを有効にする**を選択する

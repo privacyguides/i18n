@@ -198,12 +198,6 @@ Additionally, the Mozilla Accounts service collects [some technical data](https:
 1. 在 [accounts.firefox.com 開啟您的個人資料設定](https://accounts.firefox.com/settings#data-collection)
 2. 取消勾選 **資料收集與使用** > **幫助我們改善 ⁨Mozilla 帳號⁩**
 
-##### 網站廣告偏好設定
-
-- [ ] 取消勾選 **允許網站進行能保護隱私的廣告成效測量**
-
-With the release of Firefox 128, a new setting for [privacy-preserving attribution](https://support.mozilla.org/kb/privacy-preserving-attribution) (PPA) has been added and [enabled by default](https://blog.privacyguides.org/2024/07/14/mozilla-disappoints-us-yet-again-2). PPA allows advertisers to use your web browser to measure the effectiveness of web campaigns, instead of using traditional JavaScript-based tracking. We consider this behavior to be outside the scope of a user agent's responsibilities, and the fact that it is disabled by default in Arkenfox is an additional indicator for disabling this feature.
-
 ##### 純 HTTPS 模式
 
 - [x] 勾選 **在所有視窗都只使用 HTTPS 連線**

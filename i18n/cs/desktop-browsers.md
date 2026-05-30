@@ -198,12 +198,6 @@ Služba Mozilla Accounts navíc shromažďuje [některé technické údaje](http
 1. Otevřete svoje [nastavení profilu na „account.firefox.com“](https://accounts.firefox.com/settings#data-collection)
 2. Odškrtněte **Sběr dat a jejich použití** > **Povolte ⁨účtu Mozilla⁩ zasílat ⁨Mozille⁩ technická data a data o interakcích.**
 
-##### Reklamní předvolby webových stránek
-
-- [ ] Odškrtněte **Umožnit webům použití sledující reklamy, která je šetrná k soukromí**
-
-S vydáním Firefoxu 128 bylo přidáno nové nastavení pro „privacy-preserving attribution“ (PPA), které je v základu povolené. PPA dovolují inzerentům používat váš prohlížeč pro měření efektivity webových kampaní namísto toho, aby používali původní sledování pomocí JavaScriptu. Vnímáme toto chování jako mimo rámec toho, co by měl prohlížeč dělat, a skutečnost, že v Arkenfoxu je toto nastavení předem zakázané, je dalším důvodem pro zakázání této funkce.
-
 ##### Režim „pouze HTTPS“
 
 - [x] Zaškrtněte **Zapnout režim „pouze HTTPS“ ve všech oknech**

@@ -198,12 +198,6 @@ Außerdem sammelt der Mozilla-Konten-Dienst [einige technische Daten](https://mo
 1. Öffnen deine [Profileinstellungen auf accounts.firefox.com](https://accounts.firefox.com/settings#data-collection)
 2. Deaktiviere **Datenerfassung und -nutzung** > **Helfen Sie, Firefox-Konten zu verbessern**
 
-##### Werbeeinstellungen für Websites
-
-- [ ] Deaktiviere **Websites anweisen, meine Daten nicht zu verkaufen oder weiterzugeben**
-
-With the release of Firefox 128, a new setting for [privacy-preserving attribution](https://support.mozilla.org/kb/privacy-preserving-attribution) (PPA) has been added and [enabled by default](https://blog.privacyguides.org/2024/07/14/mozilla-disappoints-us-yet-again-2). PPA allows advertisers to use your web browser to measure the effectiveness of web campaigns, instead of using traditional JavaScript-based tracking. We consider this behavior to be outside the scope of a user agent's responsibilities, and the fact that it is disabled by default in Arkenfox is an additional indicator for disabling this feature.
-
 ##### Nur-HTTPS-Modus
 
 - [x] Wähle **Nur-HTTPS-Modus in allen Fenstern aktivieren**

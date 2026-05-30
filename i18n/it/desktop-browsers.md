@@ -198,12 +198,6 @@ Inoltre, il servizio Mozilla Accounts raccoglie [alcuni dati tecnici](https://mo
 1. Apri le [impostazioni del tuo profilo su accounts.firefox.com](https://accounts.firefox.com/settings#data-collection)
 2. Deseleziona ** Raccolta e utilizzo dati ** > **Aiutaci a migliorare gli ⁨account Firefox⁩**
 
-##### Impostazioni per le pubblicità nei siti web
-
-- [ ] Rimuovi la spunta da **Permetti ai siti web di effettuare misurazioni pubblicitarie nel rispetto della privacy**
-
-Con il rilascio di Firefox 128, è stata aggiunta una nuova impostazione per [l'attribuzione nel rispetto della privacy](https://support.mozilla.org/kb/privacy-preserving-attribution) (PPA), [attivata di default](https://blog.privacyguides.org/2024/07/14/mozilla-disappoints-us-yet-again-2). La PPA consente agli inserzionisti di utilizzare il tuo browser web per misurare l'efficacia delle campagne web, invece di utilizzare il tradizionale tracciamento basato su JavaScript. Riteniamo che questo comportamento non rientri nell'ambito delle responsabilità di un user agent e il fatto che sia disabilitato di default in Arkenfox è un ulteriore indicatore per disabilitare questa funzione.
-
 ##### Modalità solo HTTPS
 
 - [x] Seleziona **Attiva in tutte le finestre**

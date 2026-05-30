@@ -127,7 +127,7 @@ NixOS es una distribución independiente basada en el gestor de paquetes Nix y c
 
 El gestor de paquetes de NixOS guarda cada versión de cada paquete en una carpeta diferente del almacén **Nix**. Debido a esto, puedes tener diferentes versiones del mismo paquete instalado en tu sistema. Después de escribir el contenido del paquete en la carpeta, esta pasa a ser de solo lectura.
 
-NixOS también proporciona actualizaciones atómicas. Primero descarga (o construye) los paquetes y archivos para la nueva generación de sistemas y luego cambia a ella. Hay diferentes maneras de cambiar a una nueva generación: puedes decirle a NixOS que la active después de reiniciar, o puedes cambiar a ella durante el tiempo de ejecución. También puedes *probar* la nueva generación cambiando a ella durante el tiempo de ejecución, pero sin establecerla como la generación actual del sistema. Si algo en el proceso de actualización se rompe, puedes simplemente reiniciar y automáticamente volver a una versión de trabajo de tu sistema.
+NixOS también proporciona actualizaciones atómicas. Primero descarga (o construye) los paquetes y archivos para la nueva generación de sistemas y luego cambia a ella. Hay diferentes maneras de cambiar a una nueva generación: puedes decirle a NixOS que la active después de reiniciar, o puedes cambiar a ella durante el tiempo de ejecución. También puedes *probar* la nueva generación cambiando a ella durante el tiempo de ejecución, pero sin establecerla como la generación actual del sistema. If something breaks during the update process, you can just reboot to return to a working version of your system.
 
 El gestor de paquetes Nix utiliza un lenguaje puramente funcional -que también se llama Nix- para definir paquetes.
 

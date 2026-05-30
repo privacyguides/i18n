@@ -198,12 +198,6 @@ Selain itu, layanan Akun Mozilla mengumpulkan [beberapa data teknis](https://moz
 1. Buka [pengaturan profil Anda di accounts.firefox.com](https://accounts.firefox.com/settings#data-collection)
 2. Hapus centang pada **Data Collection and Use**>**Help improve Firefox Accounts**
 
-##### Preferensi Iklan Situs Web
-
-- [ ] Hapus centang **Allow websites to perform privacy-preserving ad measurement**
-
-Dengan rilis Firefox 128, pengaturan baru untuk [privacy-preserving attribution](https://support.mozilla.org/kb/privacy-preserving-attribution) (PPA) telah ditambahkan dan [diaktifkan secara default](https://blog.privacyguides.org/2024/07/14/mozilla-disappoints-us-yet-again-2). PPA memungkinkan pengiklan untuk menggunakan browser web Anda untuk mengukur efektivitas kampanye web, alih-alih menggunakan pelacakan berbasis JavaScript tradisional. Kami menganggap perilaku ini berada di luar cakupan tanggung jawab agen pengguna, dan fakta bahwa fitur ini dinonaktifkan secara default di Arkenfox merupakan indikator tambahan untuk menonaktifkan fitur ini.
-
 ##### Mode HTTPS-Only
 
 - [x] Pilih **Enable HTTPS-Only Mode in all windows**
