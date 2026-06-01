@@ -28,7 +28,7 @@ cover: data-broker-removals.webp
 
 您應該先在這些網站上搜尋您的資訊，如果找到您的資訊，請提交退出請求。 從這些仲介移除您的資料，通常會同時從許多小型網站移除您的資料。
 
-- Advanced Background Checks（[搜尋](https://advancedbackgroundchecks.com)、[退出](https://advancedbackgroundchecks.com/removal)）
+- Advanced Background Checks ([Search](https://advancedbackgroundchecks.com), [Opt-Out](https://www.advancedbackgroundchecks.com/opt-out))
 - BeenVerified（[搜尋](https://beenverified.com/app/optout/search)、 [退出](https://beenverified.com/app/optout/address-search)）
 - CheckPeople（ [搜尋](https://checkpeople.com/do-not-sell-info) ，發現資料後選擇 _Remove Record_ 即可）
 - ClustrMaps（[搜尋](https://clustrmaps.com)、 [退出](https://clustrmaps.com/bl/opt-out)）

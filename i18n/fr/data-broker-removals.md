@@ -28,7 +28,7 @@ Faire une demande manuelle de suppression de données est la façon la plus simp
 
 Commencez par vérifier que vos données sont disponibles en cherchant sur ces sites puis, dans le cas où vous trouvez vos informations, faites une demande de suppression. Retirer vos données de ces fournisseurs les retire généralement en même temps d'autres sites plus petits.
 
-- Advanced Background Checks ([Recherche](https://advancedbackgroundchecks.com), [Suppression](https://advancedbackgroundchecks.com/removal))
+- Advanced Background Checks ([Search](https://advancedbackgroundchecks.com), [Opt-Out](https://www.advancedbackgroundchecks.com/opt-out))
 - BeenVerified ([Recherche](https://beenverified.com/app/optout/search), [Suppression](https://beenverified.com/app/optout/address-search))
 - CheckPeople ([Recherche](https://checkpeople.com/do-not-sell-info), sélectionnez _Supprimer vos donnnées personnelles_ pour vous désinscrire)
 - ClustrMaps ([Recherche](https://clustrmaps.com), [Suppression](https://clustrmaps.com/bl/opt-out))

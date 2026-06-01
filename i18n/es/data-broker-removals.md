@@ -28,7 +28,7 @@ La forma más rápida, eficaz y privada de darse de baja de los sitios de búsqu
 
 Primero deberías buscar tu información en estos sitios y enviar una solicitud de exclusión si encuentras tu información. Al eliminar tus datos de estos proveedores, normalmente se eliminan tus datos de muchos sitios más pequeños al mismo tiempo.
 
-- Advanced Background Checks ([Buscar](https://advancedbackgroundchecks.com), [Darse de baja](https://advancedbackgroundchecks.com/removal))
+- Advanced Background Checks ([Search](https://advancedbackgroundchecks.com), [Opt-Out](https://www.advancedbackgroundchecks.com/opt-out))
 - BeenVerified ([Buscar](https://beenverified.com/app/optout/search), [Darse de baja](https://beenverified.com/app/optout/address-search))
 - CheckPeople ([Buscar](https://checkpeople.com/do-not-sell-info), selecciona _Remove Record_ para darte de baja)
 - ClustrMaps ([Buscar](https://clustrmaps.com), [Darse de baja](https://clustrmaps.com/bl/opt-out))
