@@ -117,7 +117,7 @@ Les listes de filtres supplémentaires ralentissent la navigation et peuvent aug
 - Ne doit pas dupliquer une fonctionnalité intégrée dans le navigateur ou dans le système d'exploitation.
 - Doit avoir un impact direct sur la vie privée des utilisateurs, c'est-à-dire qu'il ne doit pas simplement fournir des informations.
 
-[^1]: uBlock Origin Lite _lui-même_ ne consommera aucune ressource, parce qu'il utilise des APIs plus récentes qui permettent au navigateur de traiter nativement les listes de filtres, au lieu d'exécuter du code JavaScript dans l'extension pour gérer le filtrage. Cependant, cet avantage en termes de ressources n'est que [théorique](https://github.com/uBlockOrigin/uBOL-home/wiki/Frequently-asked-questions-\(FAQ\)#is-ubol-more-efficient-cpu--and-memory-wise-than-ubo), car il est possible que le code de filtrage standard de uBlock Origin soit plus efficace que le code de filtrage natif de votre navigateur. Cela n'a pas encore été évalué.
+[^1]: uBlock Origin Lite _lui-même_ ne consommera aucune ressource, parce qu'il utilise des APIs plus récentes qui permettent au navigateur de traiter nativement les listes de filtres, au lieu d'exécuter du code JavaScript dans l'extension pour gérer le filtrage. Cependant, cet avantage en termes de ressources n'est que [théorique](https://github.com/uBlockOrigin/uBOL-home/wiki/Frequently-asked-questions-(FAQ)#is-ubol-more-efficient-cpu--and-memory-wise-than-ubo), car il est possible que le code de filtrage standard de uBlock Origin soit plus efficace que le code de filtrage natif de votre navigateur. Cela n'a pas encore été évalué.
 
 [^2]: A [workaround](https://github.com/uBlockOrigin/uBlock-issues/discussions/3690#discussioncomment-14548779) stil exists as of early December 2025.
 

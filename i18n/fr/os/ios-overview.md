@@ -117,7 +117,7 @@ Sélectionnez **Actualisation des applications en arrière-plan** et désactivez
 
 #### Apple Intelligence & Siri
 
-This is available if your device supports **[Apple Intelligence](https://support.apple.com/guide/iphone/apple-intelligence-and-privacy-iphe3f499e0e/ios)**. Apple Intelligence uses a combination of on-device processing and their **[Private Cloud Compute](https://security.apple.com/blog/private-cloud-compute)** for things that take more processing power than your device can provide.
+This is available if your device supports **[Apple Intelligence](https://support.apple.com/guide/iphone/apple-intelligence-and-privacy-iphe3f499e0e/ios)**. Apple Intelligence utilise une combinaison de traitement sur l'appareil et de son **[Private Cloud Compute](https://security.apple.com/blog/private-cloud-compute) ** pour les tâches qui nécessitent une puissance de traitement supérieure à celle que votre appareil peut fournir.
 
 To see a report of all the requests made to Apple's servers, you can navigate to **Privacy & Security** → **Apple Intelligence Report** and press **Export Activity** to see activity from the either the last 15 minutes or 7 days, depending on what you set it for. Cette fonctionnalité, assez similaire au **Rapport de confidentialité des apps** qui permet de connaitre les permissions récemment utilisées par les applications sur votre téléphone, vous permet de consulter ce qui est envoyé aux serveurs d'Apple lorsque vous utilisez Apple Intelligence.
 

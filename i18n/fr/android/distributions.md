@@ -42,7 +42,7 @@ Nous recommandons d'installer GrapheneOS si vous avez un Google Pixel, puisqu'il
 
 **GrapheneOS** est le meilleur choix en matière de confidentialité et de sécurité.
 
-GrapheneOS fournit des [renforcements de sécurité](https://en.wikipedia.org/wiki/Hardening_\(computing\)) et de confidentialité supplémentaire. Il dispose d'un [allocateur de mémoire renforcé](https://github.com/GrapheneOS/hardened_malloc), de permissions de réseau et de capteurs, et de diverses autres [fonctions de sécurité](https://grapheneos.org/features). GrapheneOS est également livré avec des mises à jour complètes du micrologiciel et des versions signées, de sorte que le démarrage sécurisé est entièrement pris en charge.
+GrapheneOS fournit des [renforcements de sécurité](https://en.wikipedia.org/wiki/Hardening_(computing)) et de confidentialité supplémentaire. Il dispose d'un [allocateur de mémoire renforcé](https://github.com/GrapheneOS/hardened_malloc), de permissions de réseau et de capteurs, et de diverses autres [fonctions de sécurité](https://grapheneos.org/features). GrapheneOS est également livré avec des mises à jour complètes du micrologiciel et des versions signées, de sorte que le démarrage sécurisé est entièrement pris en charge.
 
 [:octicons-home-16: Page d'Accueil](https://grapheneos.org){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://grapheneos.org/faq#privacy-policy){ .card-link title="Politique de confidentialité" }
