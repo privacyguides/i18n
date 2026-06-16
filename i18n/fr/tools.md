@@ -67,7 +67,7 @@ Pour avoir plus de détails sur chaque projet, pour savoir pourquoi ils ont ét�
 
 <div class="grid cards" markdown>
 
-- ![Logo du navigateur Mullvad](assets/img/browsers/mullvad_browser.svg){ .lg .middle .twemoji }{ align=right } **Navigateur Mullvad**
+- ![Logo du navigateur Mullvad](assets/img/browsers/mullvad_browser.svg){ .lg .middle .twemoji } **Navigateur Mullvad**
 
     ---
 
@@ -79,8 +79,7 @@ Pour avoir plus de détails sur chaque projet, pour savoir pourquoi ils ont ét�
 
     ---
 
-    
-**Firefox** offre de bons paramètres de confidentialité, tels que la [protection renforcée contre le suivi](https://support.mozilla.org/kb/enhanced-tracking-protection-firefox-desktop), qui peut contribuer à bloquer divers [types de trackers](https://support.mozilla.org/kb/enhanced-tracking-protection-firefox-desktop#w_what-enhanced-tracking-protection-blocks).
+    **Firefox** offre de bons paramètres de confidentialité, tels que la [protection renforcée contre le suivi](https://support.mozilla.org/kb/enhanced-tracking-protection-firefox-desktop), qui peut contribuer à bloquer divers [types de trackers](https://support.mozilla.org/kb/enhanced-tracking-protection-firefox-desktop#w_what-enhanced-tracking-protection-blocks).
 
     - [Notre présentation complète :material-arrow-right-drop-circle:](desktop-browsers.md#firefox)
 
