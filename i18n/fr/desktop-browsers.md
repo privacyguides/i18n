@@ -103,7 +103,7 @@ Toute modification autre que le réglage de ce paramètre rendrait votre emprein
 
 Bien qu'il soit possible d'utiliser Mullvad Browser avec n'importe quel service VPN, les autres utilisateurs sur ce VPN doivent aussi utiliser Mullvad Browser pour que la "foule" existe, ce qui est plus probable avec Mullvad VPN qu'avec d'autres fournisseurs. Le Navigateur Mullvad ne dispose pas d'une connectivité VPN intégrée et ne vérifie pas non plus si vous utilisez un VPN avant de naviguer ; votre connexion VPN doit être configurée et gérée séparément.
 
-Le Navigateur Mullvad est livré avec les extensions *uBlock Origin* et *NoScript* préinstallées. Bien que nous découragions généralement l'ajout d'[extensions de navigateur](browser-extensions.md), celles qui sont préinstallées avec le navigateur **ne** doivent **pas** être supprimées ou configurées en dehors de leurs valeurs par défaut, car cela rendrait votre empreinte numérique distincte de celle des autres utilisateurs du navigateur Mullvad. It also comes pre-installed with the Mullvad Browser Extension, which *can* be safely removed without [impacting](https://mullvad.net/en/help/tag/mullvad-browser#112) your browser fingerprint if you would like, but is also safe to keep even if you don't use Mullvad VPN.
+Le Navigateur Mullvad est livré avec les extensions *uBlock Origin* et *NoScript* préinstallées. Bien que nous découragions généralement l'ajout d'[extensions de navigateur](browser-extensions.md), celles qui sont préinstallées avec le navigateur **ne** doivent **pas** être supprimées ou configurées en dehors de leurs valeurs par défaut, car cela rendrait votre empreinte numérique distincte de celle des autres utilisateurs du navigateur Mullvad. Il est également livré avec l'extension de navigateur Mullvad préinstallée ; *vous pouvez* la désinstaller en toute sécurité sans [que cela n'affecte](https://mullvad.net/en/help/tag/mullvad-browser#112) l'empreinte digitale de votre navigateur si vous le souhaitez, mais vous pouvez aussi la conserver sans risque même si vous n'utilisez pas le VPN Mullvad.
 
 ### Mode de navigation privée
 
@@ -158,12 +158,12 @@ Les suggestions de recherche envoient tout ce que vous tapez dans la barre d'adr
 
 ##### Firefox Suggest
 
-[Firefox Suggest](https://support.mozilla.org/kb/firefox-suggest) is a feature similar to search suggestions. Nous recommandons de les désactiver pour la même raison que nous recommandons de désactiver les suggestions de recherche. Si vous ne voyez pas ces options dans l'en-tête de la **barre d'adresse**, c'est que vous n'avez pas la nouvelle expérience et que vous pouvez ignorer ces changements.
+[Firefox Suggest](https://support.mozilla.org/kb/firefox-suggest) est une fonctionnalité similaire aux suggestions de recherche. Nous recommandons de les désactiver pour la même raison que nous recommandons de désactiver les suggestions de recherche. Si vous ne voyez pas ces options dans l'en-tête de la **barre d'adresse**, c'est que vous n'avez pas la nouvelle expérience et que vous pouvez ignorer ces changements.
 
 - [ ] Décochez **Suggestions de Firefox**
 - [ ] Décochez **Suggestions des sponsors**
 
-> According to Mozilla, ["Certain parts of Firefox Suggest are currently available only in some regions."](https://support.mozilla.org/kb/firefox-suggest)
+> Selon Mozilla, [ « certaines fonctionnalités de Firefox Suggest ne sont actuellement disponibles que dans certaines régions ».](https://support.mozilla.org/kb/firefox-suggest)
 
 #### Confidentialité & sécurité
 

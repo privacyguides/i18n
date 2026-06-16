@@ -161,7 +161,7 @@ Un compte commence avec 2 Go de stockage, qui peuvent être augmentés autant q
 </div>
 
 #### :material-check:{ .pg-green } Domaines personnalisés et alias
-z Mailbox Mail lets you use your own domain, and they support [catch-all](https://kb.mailbox.org/en/private/custom-domains/use-your-own-domain-with-catch-all/) addresses. Mailbox Mail also supports [sub-addressing](https://kb.mailbox.org/en/private/e-mail/what-is-an-alias-and-how-do-i-use-it/), which is useful if you don't want to purchase a domain.
+Mailbox Mail vous permet d'utiliser votre propre domaine et prend en charge les adresses « [catch-all](https://kb.mailbox.org/en/private/custom-domains/use-your-own-domain-with-catch-all/) ». Mailbox Mail prend également en charge le [sous-adressage](https://kb.mailbox.org/en/private/e-mail/what-is-an-alias-and-how-do-i-use-it/), ce qui est utile si vous ne souhaitez pas acheter un domaine.
 
 #### :material-check:{ .pg-green } Modes de paiement privés
 
@@ -169,29 +169,29 @@ Mailbox Mail n'accepte aucune crypto-monnaie en raison de la suspension des acti
 
 #### :material-check:{ .pg-green } Sécurité du compte
 
-Mailbox Mail supports [two-factor authentication](https://kb.mailbox.org/en/private/security-and-privacy/how-to-use-two-factor-authentication-2fa/) for their webmail only. Vous pouvez utiliser TOTP ou une [YubiKey](security-keys.md#yubikey) via [YubiCloud](https://yubico.com/products/services-software/yubicloud). Les normes Web telles que [WebAuthn](basics/multi-factor-authentication.md#fido-fast-identity-online) ne sont pas encore prises en charge.
+Mailbox Mail prend en charge [l'authentification à deux facteurs](https://kb.mailbox.org/en/private/security-and-privacy/how-to-use-two-factor-authentication-2fa/) uniquement pour sa messagerie Web. Vous pouvez utiliser TOTP ou une [YubiKey](security-keys.md#yubikey) via [YubiCloud](https://yubico.com/products/services-software/yubicloud). Les normes Web telles que [WebAuthn](basics/multi-factor-authentication.md#fido-fast-identity-online) ne sont pas encore prises en charge.
 
 #### :material-information-outline:{ .pg-blue } Sécurité des données
 
-Mailbox Mail allows for encryption of incoming mail using their [encrypted mailbox](https://kb.mailbox.org/en/private/encryption/your-encrypted-mailbox/). Les nouveaux messages que vous recevrez seront alors immédiatement chiffrés avec votre clé publique.
+Mailbox Mail permet de chiffrer les e-mails entrants grâce à sa [boîte mail chiffrée](https://kb.mailbox.org/en/private/encryption/your-encrypted-mailbox/). Les nouveaux messages que vous recevrez seront alors immédiatement chiffrés avec votre clé publique.
 
-However, [Open-Xchange](https://en.wikipedia.org/wiki/Open-Xchange), the software platform used by Mailbox Mail, [does not support](https://kb.mailbox.org/en/business/security-privacy-article/encryption-of-calendar-and-address-book/) the encryption of your address book and calendar. Une [option autonome](calendar.md) peut être plus appropriée pour ces données.
+Cependant, [Open-Xchange](https://en.wikipedia.org/wiki/Open-Xchange), la plateforme logicielle utilisée par Mailbox Mail, [ne prend pas en charge](https://kb.mailbox.org/en/business/security-privacy-article/encryption-of-calendar-and-address-book/) le chiffrement de votre carnet d'adresses et de votre calendrier. Une [option autonome](calendar.md) peut être plus appropriée pour ces données.
 
 #### :material-check:{ .pg-green } Chiffrement des e-mails
 
-Mailbox Mail has [integrated encryption](https://kb.mailbox.org/en/private/encryption/how-can-e-mails-be-encrypted-with-pgp/) in their webmail, which simplifies sending messages to people with public OpenPGP keys. They also allow [remote recipients to decrypt an email](https://kb.mailbox.org/en/private/encryption/my-recipient-does-not-use-pgp/) on Mailbox Mail's servers. Cette fonction est utile lorsque le destinataire distant ne dispose pas d'OpenPGP et ne peut pas déchiffrer une copie de l'e-mail dans sa propre boîte mail.
+Mailbox Mail a [intégré un système de chiffrement](https://kb.mailbox.org/en/private/encryption/how-can-e-mails-be-encrypted-with-pgp/) dans son service mail en ligne, ce qui facilite l'envoi de messages aux personnes disposant de clés OpenPGP publiques. Ils permettent également [aux destinataires distants de déchiffrer un e-mail](https://kb.mailbox.org/en/private/encryption/my-recipient-does-not-use-pgp/) sur les serveurs de Mailbox Mail. Cette fonction est utile lorsque le destinataire distant ne dispose pas d'OpenPGP et ne peut pas déchiffrer une copie de l'e-mail dans sa propre boîte mail.
 
 Mailbox Mail prend également en charge la découverte de clés publiques via HTTP à partir de son WKD. Cela permet aux personnes extérieures à Mailbox Mail de trouver facilement les clés OpenPGP des comptes Mailbox Mail, pour un E2EE inter-fournisseurs. Cela ne s'applique qu'aux adresses électroniques se terminant par l'un des domaines propres à Mailbox Mail, comme `@mailbox.org`. Si vous utilisez un domaine personnalisé, vous devez [configurer WKD](basics/email-security.md#what-is-the-web-key-directory-standard) séparément.
 
 #### :material-information-outline:{ .pg-blue } Résiliation du compte
 
-Votre compte sera marqué comme un compte d'utilisateur restreint à la fin de votre contrat. It will be irrevocably deleted after [30 days](https://kb.mailbox.org/en/en/private/account/reactivate-a-deleted-account/).
+Votre compte sera marqué comme un compte d'utilisateur restreint à la fin de votre contrat. Il sera définitivement supprimé au bout de [30 jours](https://kb.mailbox.org/en/en/private/account/reactivate-a-deleted-account/).
 
 #### :material-information-outline:{ .pg-blue } Fonctionnalités supplémentaires
 
-You can access your Mailbox Mail account via IMAP/SMTP using their [.onion service](https://kb.mailbox.org/en/en/private/security-privacy/using-the-tor-exit-node-from-mailbox/). Cependant, leur interface d'e-mail web n'est pas accessible via leur service .onion et vous pouvez rencontrer des erreurs de certificat TLS.
+Vous pouvez accéder à votre compte Mailbox Mail via IMAP/SMTP en utilisant leur [ service .onion](https://kb.mailbox.org/en/en/private/security-privacy/using-the-tor-exit-node-from-mailbox/). Cependant, leur interface d'e-mail web n'est pas accessible via leur service .onion et vous pouvez rencontrer des erreurs de certificat TLS.
 
-All accounts come with limited cloud storage that [can be encrypted](https://kb.mailbox.org/en/private/drive/encrypt-files-on-your-drive/). Mailbox Mail also offers the alias [@secure.mailbox.org](https://kb.mailbox.org/en/business/e-mail-article/ensuring-e-mails-are-sent-securely/), which enforces the TLS encryption on the connection between mail servers, otherwise the message will not be sent at all. Mailbox Mail prend également en charge [Exchange ActiveSync](https://en.wikipedia.org/wiki/Exchange_ActiveSync) en plus des protocoles d'accès standard comme IMAP et POP3.
+Tous les comptes disposent d'un espace de stockage dans le cloud limité [pouvant être chiffré](https://kb.mailbox.org/en/private/drive/encrypt-files-on-your-drive/). Mailbox Mail propose également l'alias [@secure.mailbox.org](https://kb.mailbox.org/en/business/e-mail-article/ensuring-e-mails-are-sent-securely/), qui impose le chiffrement TLS sur la connexion entre les serveurs de messagerie ; sans cela, le message ne sera tout simplement pas envoyé. Mailbox Mail prend également en charge [Exchange ActiveSync](https://en.wikipedia.org/wiki/Exchange_ActiveSync) en plus des protocoles d'accès standard comme IMAP et POP3.
 
 Mailbox Mail dispose d'une fonction d'héritage numérique pour toutes les offres. Vous pouvez choisir de transmettre certaines de vos données à vos héritiers, à condition d'en faire la demande et de fournir votre testament. Vous pouvez également désigner une personne par son nom et son adresse.
 
@@ -290,7 +290,7 @@ Nous considérons ces caractéristiques comme importantes afin de fournir un ser
 - Prise en charge d'une boîte mail temporaire pour les utilisateurs externes. Cette fonction est utile lorsque vous souhaitez envoyer un e-mail chiffré, sans envoyer une copie réelle à votre destinataire. Ces e-mails ont généralement une durée de vie limitée et sont ensuite automatiquement supprimés. Ils n'obligent pas non plus le destinataire à configurer un système de chiffrement comme OpenPGP.
 - Devrait permettre le [sous-adressage](https://en.wikipedia.org/wiki/Email_address#Sub-addressing).
 - Devrait permettre aux utilisateurs d'utiliser leur propre [nom de domaine](https://en.wikipedia.org/wiki/Domain_name). Les noms de domaine personnalisés sont importants pour les utilisateurs car ils leur permettent de conserver leur indépendance du service, au cas où celui-ci tournerait mal ou serait racheté par une autre société qui ne donne pas priorité à la vie privée.
-- Fonctionnalité fourre-tout ou alias pour ceux qui possèdent leurs propres domaines.
+- Fonctionnalité catch-all ou alias pour ceux qui possèdent leurs propres domaines.
 - Devrait utiliser des protocoles d'accès au courrier électronique standard tels que IMAP, SMTP ou [JMAP](https://en.wikipedia.org/wiki/JSON_Meta_Application_Protocol). Les protocoles d'accès standard garantissent que les clients peuvent facilement télécharger l'ensemble de leurs e-mails, s'ils souhaitent changer de fournisseur.
 - Les services du fournisseur de courrier électronique doivent être disponibles via un [service onion](https://en.wikipedia.org/wiki/.onion).
 

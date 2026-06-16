@@ -78,11 +78,11 @@ Le navigateur Tor est le seul moyen de vraiment naviguer anonymement sur Interne
 
 === "Android"
 
-    These options can be found in :material-dots-vertical: → **Settings** → **Brave Shields & privacy**.
+    Ces options se trouvent dans :material-dots-vertical: → Paramètres → Boucliers Brave & confidentialité**.
 
 === "iOS"
 
-    These options can be found in :material-dots-horizontal: → **All Settings** → **Shields & Privacy**.
+    Ces options se trouvent dans :material-dots-horizontal: → Paramètres → Boucliers & confidentialité**.
 
 #### Paramètres par défaut des boucliers Brave
 
@@ -148,7 +148,7 @@ Les options "Boucliers" peuvent être réduites par site selon les besoins, mais
     - \[x\] (Facultatif) Cochez **Aucune protection** sous *Navigation sécurisée* (1)
     - [x] Sélectionnez **Désactiver l'UDP non proxy** dans la rubrique [*Politique de traitement IP WebRTC*](https://support.brave.com/hc/articles/360017989132-How-do-I-change-my-Privacy-Settings#webrtc)
     - [] Décochez **Autoriser les sites à vérifier si vous avez enregistré des méthodes de paiement**
-    - [x] Select **Do not speed up sites with Brave's V8 engine but make Brave slightly more resistant to attacks**
+    - [x] Sélectionnez **« Do not speed up sites with Brave's V8 engine but make Brave slightly more resistant to attacks** »
     - [x] Cochez **Fermer les onglets en quittant**
     - [ ] Décochez **Autoriser l'analyse de produits respectueuse de la vie privée (P3A)**
     - [Décocher l'**option Envoyer automatiquement les rapports de diagnostic**
@@ -163,33 +163,31 @@ Les options "Boucliers" peuvent être réduites par site selon les besoins, mais
     - [ ] Décochez **Autoriser l'analyse de produits respectueuse de la vie privée (P3A)**
     - [ ] Décochez **Envoyer automatiquement un signal d'utilisation quotidienne à Brave**
 
-#### Leo AI
+#### IA Leo
 
 === "Android"
 
-    These options can be found in :material-dots-vertical: → **Settings** → **Leo AI**.
+    Ces options se trouvent dans :material-dots-vertical: → Paramètres → IA Leo**.
 
-    - [ ] Uncheck **Show autocomplete suggestions in address bar**
+    - [ ] Décochez la case « **Afficher les suggestions semi-automatiques dans la barre d'adresse** »
 
 === "iOS"
 
-    These options can be found in :material-dots-horizontal: → **All Settings** → **Leo AI**.
-
-    - [ ] Uncheck **Show In Quick Search Engine Bar**
+    - [ ] Décochez la case « **Afficher dans la barre de recherche rapide** »
 
 #### Moteurs de recherche
 
 === "Android"
 
-    These options can be found in :material-dots-vertical: → **Settings** → **Search engines**.
+    Ces options se trouvent dans :material-dots-vertical:/ → Paramètres → Moteurs de recherches**.
 
     - [ ] Décochez **Afficher les suggestions de recherche**
 
 === "iOS"
 
-    These options can be found in :material-dots-horizontal: → **All Settings** → **Search engines**.
+    Ces options se trouvent dans :material-dots-horizontal:/ → Paramètres → Moteurs de recherches**.
 
-    - [ ] Uncheck **Show In Quick Search Engine Bar**
+    - [ ] Décochez la case « **Afficher dans la barre de recherche rapide** »
 
 #### Brave Sync
 
