@@ -5,7 +5,7 @@ icon: fontawesome/solid/puzzle-piece
 cover: activism/banner-toolbox-tip-small.webp
 ---
 
-Il y a beaucoup à faire dans le mouvement pour des meilleurs droits pour la protection de la vie privée. So much, that it's sometimes easy to feel discouraged when facing the scale of what's left to accomplish. But **everything helps**. Every small improvement counts, and every small victory should be celebrated.
+Il y a beaucoup à faire dans le mouvement pour des meilleurs droits pour la protection de la vie privée. À tel point qu'il est parfois facile de se sentir découragé face à l'ampleur de ce qu'il reste à accomplir. But **everything helps**. Every small improvement counts, and every small victory should be celebrated.
 
 Even if you don't feel like you have the [energy](tip-take-time-to-rest.md) to move a mountain today, there are plenty of small actions you can do.
 

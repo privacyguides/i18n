@@ -371,7 +371,7 @@ Pour en savoir plus :material-arrow-right-drop-circle:{align=right}
 
 ![Symbole de pièce de puzzle](../../assets/img/activism/icons/icon-tips/icon-tips-small.webp){class="toolbox-tip-icon"}
 
-Il y a beaucoup à faire dans le mouvement pour des meilleurs droits pour la protection de la vie privée. So much, that it's sometimes easy to feel discouraged when facing the scale of what's left to accomplish. But everything helps, and even the smallest action counts. Learn more about why every action and every victory matters, no matter how small.
+Il y a beaucoup à faire dans le mouvement pour des meilleurs droits pour la protection de la vie privée. À tel point qu'il est parfois facile de se sentir découragé face à l'ampleur de ce qu'il reste à accomplir. Mais chaque geste compte, et même le plus petit geste fait la différence. Découvrez pourquoi chaque geste et chaque victoire comptent, aussi modestes soient-ils.
 
 Pour en savoir plus :material-arrow-right-drop-circle:{align=right}
 
@@ -381,11 +381,11 @@ Pour en savoir plus :material-arrow-right-drop-circle:{align=right}
 <a href="tip-take-time-to-rest">
 <div class="toolbox-tip-card toolbox-border-persistence" markdown>
 
-### 2. Take time to rest, but come back to fight with us
+### 2. Prenez le temps de vous reposer, mais revenez combattre avec nous
 
-![Low battery icon](../../assets/img/activism/icons/icon-tips/icon-tips-rest.webp){class="toolbox-tip-icon"}
+![Icône de batterie faible](../../assets/img/activism/icons/icon-tips/icon-tips-rest.webp){class="toolbox-tip-icon"}
 
-The battle for privacy rights will be a long one. This isn't a sprint, it's a marathon. If you want to be a good advocate, you _must_ take the time to rest when needed. Burning out isn't an option, we cannot afford to lose your precious contribution! Learn more about why it's fundamental to learn to rest when you need it.
+La lutte pour le droit à la vie privée s'annonce longue. Ce n'est pas un sprint, c'est un marathon. Si vous voulez être un bon défenseur, vous _devez_ prendre le temps de vous reposer lorsque nécessaire. Le burn-out n'est pas une option, nous ne pouvons pas nous permettre de perdre votre précieuse contribution ! Découvrez pourquoi il est essentiel d'apprendre à se reposer quand on en a besoin.
 
 Pour en savoir plus :material-arrow-right-drop-circle:{align=right}
 
@@ -394,16 +394,16 @@ Pour en savoir plus :material-arrow-right-drop-circle:{align=right}
 
 <button class="toolbox-button-top">[Retour au début :material-toolbox:](#toolbox-compartments)</button> <br>
 
-## Take Action!
+## Passez à l'action!
 
 <a href="tip-engage-boosts-and-contribute">
 <div class="toolbox-tip-card toolbox-border-action" markdown>
 
-### 1. Engage, boost, and contribute
+### 1. Engagez-vous, boostez et contribuez
 
-![Megaphone icon](../../assets/img/activism/icons/icon-tips/icon-tips-engage.webp){class="toolbox-tip-icon"}
+![Icône « mégaphone »](../../assets/img/activism/icons/icon-tips/icon-tips-engage.webp){class="toolbox-tip-icon"}
 
-Once you have the knowledge, motivation, and energy, it's time to act! Perhaps you've read all of these tips, or read through our Knowledge Base already! But you don't need to know that much about privacy to start contributing. Learn more about how to start being a privacy activist.
+Une fois que vous disposez des connaissances, de la motivation et de l'énergie nécessaires, il est temps de passer à l'action ! Peut-être avez-vous déjà lu tous ces conseils, ou parcouru notre base de connaissances ! Toutefois, Il n'est pas nécessaire d'en savoir autant sur la protection de la vie privée pour commencer à contribuer. Découvrez comment devenir un militant pour la protection de la vie privée.
 
 Pour en savoir plus :material-arrow-right-drop-circle:{align=right}
 
@@ -413,11 +413,11 @@ Pour en savoir plus :material-arrow-right-drop-circle:{align=right}
 <a href="tip-level-up-assemble-and-organize">
 <div class="toolbox-tip-card toolbox-border-action" markdown>
 
-### 2. Level up! Assemble and organize
+### 2. Passez au niveau supérieur ! Assemblez-vous et organisez-vous
 
-![Raised fist icon](../../assets/img/activism/icons/icon-tips/icon-tips-organize.webp){class="toolbox-tip-icon"}
+![Icône « poing levé »](../../assets/img/activism/icons/icon-tips/icon-tips-organize.webp){class="toolbox-tip-icon"}
 
-If you've been a privacy advocate for a while, maybe it's time to level up and grow as a leader in your community. Becoming a leader can mean starting a local group, or initiating bigger projects online. Learn more about how to become a _good_ leader in the privacy rights movement.
+Si vous militez depuis un certain temps déjà pour la protection de la vie privée, il est peut-être temps de passer à la vitesse supérieure et de vous affirmer en tant que leader au sein de votre communauté. Devenir un leader peut signifier créer un groupe local ou lancer des projets de plus grande envergure sur Internet. Découvrez comment devenir un _bon_ leader au sein du mouvement de défense du droit à la vie privée.
 
 Pour en savoir plus :material-arrow-right-drop-circle:{align=right}
 
