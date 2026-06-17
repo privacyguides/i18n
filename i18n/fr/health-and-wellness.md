@@ -61,13 +61,13 @@ Les traqueurs menstruels populaires tels que [Flo](https://techcrunch.com/2021/0
 
 </div>
 
-### Apple Health
+### Apple Santé
 
 <div class="admonition recommendation" markdown>
 
 ![Logo de Apple](assets/img/health-and-wellness/apple-health.webp#only-light){ align=right }![Apple logo](assets/img/health-and-wellness/apple-health-dark.webp#only-dark){ align=right }
 
-Apple Health is one of the default apps installed on iOS devices. It includes many health and wellness features (see [Health Records](#apple-health-records)), including menstrual cycle tracking. It also uses gender-neutral language. Apple Health always uses end-to-end encryption when syncing across multiple devices.
+Apple Santé fait partie des applications préinstallées sur les appareils iOS. Elle propose de nombreuses fonctionnalités liées à la santé et au bien-être (voir [Dossiers médicaux](#apple-health-records)), notamment le suivi du cycle menstruel. Il utilise également un langage non genré. Apple Santé utilise systématiquement un chiffrement de bout en bout lors de la synchronisation entre plusieurs appareils.
 
 [:octicons-home-16: Page d'Accueil](https://apple.com/health){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://apple.com/legal/privacy/consumer-health-personal-data/en-ww){ .card-link title="Politique de Confidentialité" }
@@ -131,13 +131,13 @@ Assurez-vous que la montre que vous souhaitez acheter soit bien [compatible](htt
 
 Ces applications vous permettent de collecter et de gérer vos données personnelles de santé et de les partager avec des soignants, des organisations ou d'autres applications.
 
-### Dossier de santé Apple
+### Dossiers Médicaux (Apple)
 
 <div class="admonition recommendation" markdown>
 
 ![Logo de Apple](assets/img/health-and-wellness/apple-health.webp#only-light){ align=right }![Apple logo](assets/img/health-and-wellness/apple-health-dark.webp#only-dark){ align=right }
 
-**Apple Health Records** is a built-in feature within [Apple Health](#apple-health) that allows you to view, store, and share your health records.
+**Dossier Médicaux** est une fonctionnalité intégrée à [Apple Santé](#apple-health) qui vous permet de consulter, de stocker et de partager vos dossiers médicaux.
 
 [:octicons-home-16: Page d'Accueil](https://apple.com/health){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://apple.com/legal/privacy/consumer-health-personal-data/en-ww){ .card-link title="Politique de Confidentialité" }

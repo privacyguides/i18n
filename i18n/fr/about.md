@@ -86,7 +86,7 @@ Le comité exécutif du projet est composé de cinq bénévoles chargés de gér
 
   ---
 
-  :material-text-account: Founder, Program Director
+  :material-text-account: Fondateur, directeur de programme
 
   [:material-account: Profil](https://discuss.privacyguides.net/u/jonah)
 
@@ -142,7 +142,7 @@ Notre personnel est rémunéré pour contribuer au contenu supplémentaire à Pr
 
   ---
 
-  :material-text-account: Digital Content Producer
+  :material-text-account: Producteur de contenu numérique
 
   [:material-account: Profile](https://discuss.privacyguides.net/u/Jordan)
 
@@ -154,13 +154,13 @@ Notre personnel est rémunéré pour contribuer au contenu supplémentaire à Pr
 
   ---
 
-  :material-text-account: Digital Content Producer
+  :material-text-account: Producteur de contenu
 
-  [:material-account: Profile](https://discuss.privacyguides.net/u/nateb)
+  [:material-account: Profil](https://discuss.privacyguides.net/u/nateb)
 
-  [:material-github:](https://github.com/tnonate "GitHub")
-  [:material-mastodon:](https://mastodon.thenewoil.org/@nateb "@nateb@mastodon.thenewoil.org"){rel=me}
-  [:material-email:](mailto:nate@privacyguides.org "Email")
+  [:material-github:](https://github.com/tnonate « GitHub »)
+  [:material-mastodon:](https://mastodon.thenewoil.org/@nateb « @nateb@mastodon.thenewoil.org »){rel=me}
+  [:material-email:](mailto:nate@privacyguides.org « E-mail »)
 
 </div>
 
@@ -187,7 +187,7 @@ Cependant, Privacy Guides possède des comptes de réseaux sociaux sur une grand
 - [:simple-tiktok: TikTok](https://www.tiktok.com/@privacyguides)
 - [:simple-facebook: Facebook](https://www.facebook.com/PrivacyGuides.org)
 - [:simple-instagram: Instagram](https://www.instagram.com/privacy.guides/)
-- [:simple-threads: Threads](https://www.threads.net/@privacy.guides)
+- [:simple-threads: Fils de discussion](https://www.threads.net/@privacy.guides)
 
 </div>
 
@@ -215,9 +215,9 @@ Nous avons également lancé notre nouveau forum de discussion sur [discuss.priv
 
 En 2023, nous avons lancé des traductions internationales de notre site web en [français](https://www.privacyguides.org/fr), [hébreu](https://www.privacyguides.org/he), [néerlandais](https://www.privacyguides.org/nl), et dans d'autres langues, grâce à notre excellente équipe de traduction sur [Crowdin](https://crowdin.com/project/privacyguides).
 
-In 2024, we successfully fundraised to hire several full-time staff members, Em, Jordan, and Kevin; to help with content creation, community management, and video production. Cela nous a permis d'étendre notre portée et de fournir des mises à jour plus fréquentes à notre public.
+En 2024, nous avons mené à bien une campagne de financement qui nous a permis d'embaucher plusieurs collaborateurs à temps plein, Em, Jordan et Kevin, afin de nous aider dans la création de contenu, la gestion de la communauté et la production vidéo. Cela nous a permis d'étendre notre portée et de fournir des mises à jour plus fréquentes à notre public.
 
-In 2025, we launched our [newsroom](https://www.privacyguides.org/news), providing timely articles on the latest developments in privacy and security. We also hired Nate as a Digital Content Producer to bring more consistency to our educational video content.
+En 2025, nous avons lancé notre [espace presse](https://www.privacyguides.org/news), qui propose des articles d'actualité sur les dernières évolutions en matière de confidentialité et de sécurité. Nous avons également embauché Nate en tant que producteur de contenu numérique afin d'assurer une plus grande cohérence dans nos vidéos éducatives.
 
 Nous avons l'intention de poursuivre notre mission de sensibilisation et d'éducation, et trouver des moyens de mieux mettre en évidence les dangers d'un manque de sensibilisation à la protection de la vie privée à l'ère numérique moderne, et la prévalence et les conséquences des failles de sécurité dans l'industrie de la technologie.
 

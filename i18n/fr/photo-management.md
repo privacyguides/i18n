@@ -22,10 +22,10 @@ La majorité des **gestionnaires de photos** comme Google Photo, Flickr et Amazo
 
 Le plan gratuit offre 10 Go de stockage à condition que vous utilisiez le service au moins une fois par an.
 
-[:octicons-home-16: Homepage](https://ente.com){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://ente.com/privacy){ .card-link title="Privacy Policy" }
+[:octicons-home-16: Page d'accueil](https://ente.com){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://ente.com/privacy){ .card-link title="Politique de confidentialité" }
 [:octicons-info-16:](https://ente.com/faq){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/ente-io/ente){ .card-link title="Source Code" }
+[:octicons-code-16:](https://github.com/ente-io/ente){ .card-link title="Code source" }
 
 <details class="downloads" markdown>
 <summary>Télécharger</summary>
@@ -43,7 +43,7 @@ Le plan gratuit offre 10 Go de stockage à condition que vous utilisiez le servi
 
 </div>
 
-The server-side source code and infrastructure which underpins Ente Photos underwent an audit by [Cure53](https://ente.com/blog/cern-audit) in October 2025. Previous audits were completed by [Cure53](https://ente.com/blog/cryptography-audit) in March 2023 and by [Fallible](https://ente.com/reports/Fallible-Audit-Report-19-04-2023.pdf) in April 2023.
+Le code source côté serveur et l'infrastructure sur lesquels repose Ente Photos ont fait l'objet d'un audit réalisé par [Cure53](https://ente.com/blog/cern-audit) en octobre 2025. Les audits précédents ont été réalisés par [Cure53](https://ente.com/blog/cryptography-audit) en mars 2023 et par [Fallible](https://ente.com/reports/Fallible-Audit-Report-19-04-2023.pdf) en avril 2023.
 
 ## Critères
 

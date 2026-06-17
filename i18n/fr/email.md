@@ -275,7 +275,7 @@ Tuta offre la version professionnelle de [Tuta aux organisations à but non lucr
 
 Nous considérons ces caractéristiques comme importantes afin de fournir un service sûr et optimal. Vous devez vous demander si le fournisseur possède les fonctionnalités dont vous avez besoin.
 
-**Minimum pour se qualifier :**
+**Exigences minimales :**
 
 - Doit chiffrer les données du compte mail au repos avec un chiffrement asymétrique, dont seul l'utilisateur possède la clef privée nécessaire pour les déchiffrer.
 - Doit être capable d'exporter des courriels sous forme de [Mbox](https://en.wikipedia.org/wiki/Mbox) ou de .EML individuel selon la norme [RFC5322](https://datatracker.ietf.org/doc/rfc5322).
@@ -298,7 +298,7 @@ Nous considérons ces caractéristiques comme importantes afin de fournir un ser
 
 Nous préférons que nos prestataires recommandés collectent le moins de données possible.
 
-**Minimum pour se qualifier :**
+**Exigences minimales :**
 
 - Doit protéger l'adresse IP de l'expéditeur, ce qui peut impliquer de la filtrer pour qu'elle n'apparaisse pas dans le champ d'en-tête `Received`.
 - Ne doit pas nécessiter d'informations personnelles identifiables (IPI) autres qu'un nom d'utilisateur et un mot de passe.
@@ -313,7 +313,7 @@ Nous préférons que nos prestataires recommandés collectent le moins de donné
 
 Les serveurs d'e-mail traitent un grand nombre de données très sensibles. Nous nous attendons à ce que les fournisseurs adoptent les meilleures pratiques du secteur afin de protéger leurs clients.
 
-**Minimum pour se qualifier :**
+**Exigences minimales :**
 
 - Protection du webmail par 2FA, tel que [TOTP](basics/multi-factor-authentication.md#time-based-one-time-password-totp).
 - Le chiffrement au repos, utilisant un chiffrement asymétrique dont le fournisseur ne possède pas la clef pour déchiffrer les données enregistrées. Cela permet d'éviter qu'un employé mal intentionné ne fasse fuiter les données auxquelles il a accès, ou qu'un attaquant à distance ne diffuse les données qu'il aurait volé en accèdant illégalement au serveur.
@@ -346,7 +346,7 @@ Les serveurs d'e-mail traitent un grand nombre de données très sensibles. Nous
 
 Vous ne confieriez pas vos finances à une personne ayant une fausse identité, alors pourquoi lui confier vos e-mails ? Nous exigeons de nos fournisseurs recommandés qu'ils rendent public leur propriété ou leur direction. Nous aimerions également voir des rapports de transparence fréquents, notamment en ce qui concerne la manière dont les demandes de gouvernement sont traitées.
 
-**Minimum pour se qualifier :**
+**Exigences minimales :**
 
 - Une direction ou un propriétaire public.
 
@@ -358,7 +358,7 @@ Vous ne confieriez pas vos finances à une personne ayant une fausse identité, 
 
 Avec les fournisseurs d'e-mail que nous recommandons, nous aimons voir un marketing responsable.
 
-**Minimum pour se qualifier :**
+**Exigences minimales :**
 
 - Doit héberger lui-même ses outils d'analyse de trafic (pas de Google Analytics, Adobe Analytics, etc.).
 - Il ne doit pas y avoir de marketing irresponsable, ce qui peut inclure les éléments suivants :

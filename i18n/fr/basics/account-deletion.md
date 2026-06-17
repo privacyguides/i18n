@@ -1,7 +1,7 @@
 ---
 title: Suppression de compte
 icon: material/account-remove
-description: It's easy to accumulate a large number of internet accounts. Voici quelques astuces pour réduire votre collection.
+description: On accumule facilement un grand nombre de comptes en ligne. Voici quelques astuces pour réduire votre collection.
 ---
 
 Au fil du temps, il est facile d'accumuler un certain nombre de comptes en ligne, dont beaucoup ne sont peut-être plus utilisés. La suppression de ces comptes inutilisés est une étape importante dans la récupération de votre vie privée, car les comptes inactifs sont vulnérables aux fuites de données. Une fuite de données survient lorsque la sécurité d'un service est compromise et que des informations protégées sont consultées, transmises ou volées par un ou plusieurs tiers non autorisés. Les fuites de données sont malheureusement [très fréquentes](https://haveibeenpwned.com/PwnedWebsites) de nos jours, et donc le meilleur moyen de minimiser l'impact qu'elles ont sur votre vie et de pratiquer une bonne hygiène numérique. L'objectif de ce guide est donc de vous aider à traverser le processus fastidieux de la suppression d'un compte, souvent rendu difficile à cause des [interfaces trompeuses](https://deceptive.design), une pratique que certains services utilisent afin que vous abandonniez l'idée de supprimer votre compte.
@@ -16,13 +16,13 @@ Si vous disposez d'un gestionnaire de mots de passe que vous avez utilisé penda
   ![Fonctionnalité de recherche de fuite de données par Bitwarden](../assets/img/account-deletion/exposed_passwords.png)
 </figure>
 
-Even if you haven't explicitly used a password manager before, there's a chance you've used the one in your browser ([Firefox](https://support.mozilla.org/kb/password-manager-remember-delete-edit-logins), [Chrome](https://passwords.google.com/intro), [Edge](https://support.microsoft.com/microsoft-edge/save-or-forget-passwords-in-microsoft-edge-b4beecb0-f2a8-1ca0-f26f-9ec247a3f336)) or your phone ([Google](https://passwords.google.com/intro) on stock Android, [Passwords](https://support.apple.com/HT211146) on iOS) without even realizing it.
+Même si vous n'avez jamais utilisé explicitement de gestionnaire de mots de passe, il est possible que vous ayez déjà utilisé celui intégré à votre navigateur ([Firefox](https://support.mozilla.org/kb/password-manager-remember-delete-edit-logins), [Chrome](https://passwords.google.com/intro), [Edge](https://support.microsoft.com/microsoft-edge/save-or-forget-passwords-in-microsoft-edge-b4beecb0-f2a8-1ca0-f26f-9ec247a3f336)) ou à votre téléphone ([Google](https://passwords.google.com/intro) sur Android de base, [Passwords](https://support.apple.com/HT211146) sur iOS) sans même vous en rendre compte.
 
 Les systèmes d'exploitation aussi, disposent souvent d'un gestionnaire de mots de passe qui peut vous aider à récupérer les mots de passe que vous avez oubliés :
 
 - Windows : [Gestionnaire d’informations d’identification](https://support.microsoft.com/windows/accessing-credential-manager-1b5c916a-6a16-889f-8581-fc16e8165ac0)
-- macOS: [Passwords](https://support.apple.com/HT211145)
-- Linux: Gnome Keyring (accessed through [Seahorse](https://gitlab.gnome.org/GNOME/seahorse#seahorse)) or [KDE Wallet Manager](https://userbase.kde.org/KDE_Wallet_Manager)
+- macOS : [Mots de passe](https://support.apple.com/HT211145)
+- Linux : Gnome Keyring (accessible via [Seahorse](https://gitlab.gnome.org/GNOME/seahorse#seahorse)) ou [KDE Wallet Manager](https://userbase.kde.org/KDE_Wallet_Manager)
 
 ### Email
 

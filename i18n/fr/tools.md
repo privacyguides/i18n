@@ -89,14 +89,14 @@ Pour avoir plus de détails sur chaque projet, pour savoir pourquoi ils ont ét�
 
     **Brave** est un navigateur "privacy by default" basé sur Chromium, il devrait donc être familier et avoir peu de problèmes de compatibilité avec les sites web.
 
-    - [Brave Desktop Review :material-arrow-right-drop-circle:](desktop-browsers.md#brave)
-    - [Brave Mobile Review :material-arrow-right-drop-circle:](mobile-browsers.md#brave)
+    - [Article sur Brave Desktop :material-arrow-right-drop-circle:](desktop-browsers.md#brave)
+    - [Article sur Brave Mobile :material-arrow-right-drop-circle:](mobile-browsers.md#brave)
 
-- ![Safari logo](assets/img/browsers/safari.svg){ .lg .middle .twemoji } **Safari (iOS)**
+- ![Logo de Safari](assets/img/browsers/safari.svg){ .lg .middle .twemoji } **Safari (iOS)**
 
     ---
 
-    We recommend **Safari** due to its [anti-fingerprinting](https://webkit.org/blog/15697/private-browsing-2-0) features and default tracker blocking. Il sépare également vos cookies en mode de navigation privée pour éviter le suivi entre les onglets.
+    Nous recommandons **Safari** en raison de ses fonctionnalités [anti-fingerprinting](https://webkit.org/blog/15697/private-browsing-2-0) et de son blocage par défaut des traceurs. Il sépare également vos cookies en mode de navigation privée pour éviter le suivi entre les onglets.
 
     - [Notre présentation complète :material-arrow-right-drop-circle:](mobile-browsers.md#safari-ios)
 
@@ -376,10 +376,10 @@ Nous [recommandons](dns.md#recommended-providers) un certain nombre de serveurs 
 
 <div class="grid cards" markdown>
 
-- ![MAT2 logo](assets/img/data-redaction/mat2.svg){ .twemoji loading=lazy } [MAT2](data-redaction.md#mat2)
+- ![Logo MAT2](assets/img/data-redaction/mat2.svg){ .twemoji loading=lazy } [MAT2](data-redaction.md#mat2)
 - ![Metadata Cleaner](assets/img/data-redaction/metadatacleaner.svg){ .twemoji loading-lazy } [Metadata Cleaner](data-redaction.md#metadata-cleaner)
-- ![ExifEraser logo](assets/img/data-redaction/exiferaser.svg){ .twemoji loading=lazy } [ExifEraser (Android)](data-redaction.md#exiferaser-android)
-- ![ExifTool logo](assets/img/data-redaction/exiftool.png){ .twemoji loading=lazy } [ExifTool (CLI)](data-redaction.md#exiftool-cli)
+- ![Logo ExifEraser](assets/img/data-redaction/exiferaser.svg){ .twemoji loading=lazy } [ExifEraser (Android)](data-redaction.md#exiferaser-android)
+- ![Logo ExifTool](assets/img/data-redaction/exiftool.png){ .twemoji loading=lazy } [ExifTool (CLI)](data-redaction.md#exiftool-cli)
 
 </div>
 
@@ -448,12 +448,12 @@ Pour chiffre le disque de votre système d'exploitation, nous vous recommandons 
 
 <div class="grid cards" markdown>
 
-- ![Redlib logo](assets/img/frontends/redlib.svg){ .twemoji loading=lazy } [Redlib (Reddit, Web)](frontends.md#redlib)
-- ![FreeTube logo](assets/img/frontends/freetube.svg){ .twemoji loading=lazy } [FreeTube (YouTube, Desktop)](frontends.md#freetube)
-- ![LibreTube logo](assets/img/frontends/libretube.svg#only-light){ .twemoji loading=lazy }![LibreTube logo](assets/img/frontends/libretube-dark.svg#only-dark){ .twemoji loading=lazy } [LibreTube (YouTube, Android)](frontends.md#libretube-android)
-- ![NewPipe logo](assets/img/frontends/newpipe.svg){ .twemoji loading=lazy } [NewPipe (YouTube, Android)](frontends.md#newpipe-android)
-- ![Invidious logo](assets/img/frontends/invidious.svg#only-light){ .twemoji loading=lazy }![Invidious logo](assets/img/frontends/invidious-dark.svg#only-dark){ .twemoji loading=lazy } [Invidious (YouTube, Web)](frontends.md#invidious)
-- ![Piped logo](assets/img/frontends/piped.svg){ .twemoji loading=lazy } [Piped (YouTube, Web)](frontends.md#piped)
+- ![Logo de Redlib](assets/img/frontends/redlib.svg){ .twemoji loading=lazy } [Redlib (Reddit, Web)](frontends.md#redlib)
+- ![Logo de FreeTube](assets/img/frontends/freetube.svg){ .twemoji loading=lazy } [FreeTube (YouTube, ordinateur)](frontends.md#freetube)
+- ![Logo de LibreTube](assets/img/frontends/libretube.svg#only-light){ .twemoji loading=lazy }![Logo de LibreTube](assets/img/frontends/libretube-dark.svg#only-dark){ .twemoji loading=lazy } [LibreTube (YouTube, Android)](frontends.md#libretube-android)
+- ![Logo de NewPipe](assets/img/frontends/newpipe.svg){ .twemoji loading=lazy } [NewPipe (YouTube, Android)](frontends.md#newpipe-android)
+- ![Logo d'Invidious](assets/img/frontends/invidious.svg#only-light){ .twemoji loading=lazy }![Logo Invidious](assets/img/frontends/invidious-dark.svg#only-dark){ .twemoji loading=lazy } [Invidious (YouTube, Web)](frontends.md#invidious)
+- ![Logo de Piped](assets/img/frontends/piped.svg){ .twemoji loading=lazy } [Piped (YouTube, Web)](frontends.md#piped)
 
 </div>
 
@@ -463,13 +463,13 @@ Pour chiffre le disque de votre système d'exploitation, nous vous recommandons 
 
 <div class="grid cards" markdown>
 
-- ![Drip logo](assets/img/health-and-wellness/drip.png){ .twemoji loading=lazy } [Drip](health-and-wellness.md#drip)
-- ![Euki logo](assets/img/health-and-wellness/euki.svg){ .twemoji loading=lazy } [Euki](health-and-wellness.md#euki)
-- ![Apple Health logo](assets/img/health-and-wellness/apple-health.webp#only-light){ .twemoji loading=lazy } ![Apple Health logo](assets/img/health-and-wellness/apple-health-dark.webp#only-dark){ .twemoji loading=lazy } [Apple Health](health-and-wellness.md#apple-health)
-- ![Apple Fitness logo](assets/img/health-and-wellness/apple-fitness.webp){ .twemoji loading=lazy } [Apple Fitness](health-and-wellness.md#apple-fitness)
-- ![Gadgetbridge logo](assets/img/health-and-wellness/gadgetbridge.svg#only-light){ .twemoji loading=lazy }![Gadgetbridge logo](assets/img/health-and-wellness/gadgetbridge-dark.svg#only-dark){ .twemoji loading=lazy } [Gadgetbridge](health-and-wellness.md#gadgetbridge)
-- ![Apple Health logo](assets/img/health-and-wellness/apple-health.webp#only-light){ .twemoji loading=lazy } ![Apple Health logo](assets/img/health-and-wellness/apple-health-dark.webp#only-dark){ .twemoji loading=lazy } [Apple Health Records](health-and-wellness.md#apple-health-records)
-- ![CommonHealth logo](assets/img/health-and-wellness/commonhealth.png){ .twemoji loading=lazy } [CommonHealth](health-and-wellness.md#commonhealth)
+- ![Logo de Drip](assets/img/health-and-wellness/drip.png){ .twemoji loading=lazy } [Drip](health-and-wellness.md#drip)
+- ![Logo d'Euki](assets/img/health-and-wellness/euki.svg){ .twemoji loading=lazy } [Euki](health-and-wellness.md#euki)
+- ![Logo d'Apple Santé](assets/img/health-and-wellness/apple-health.webp#only-light){ .twemoji loading=lazy } ![Logo Apple Santé](assets/img/health-and-wellness/apple-health-dark.webp#only-dark){ .twemoji loading=lazy } [Apple Health](health-and-wellness.md#apple-health)
+- ![Logo Apple Fitness](assets/img/health-and-wellness/apple-fitness.webp){ .twemoji loading=lazy } [Apple Fitness](health-and-wellness.md#apple-fitness)
+- ![Logo de Gadgetbridge](assets/img/health-and-wellness/gadgetbridge.svg#only-light){ .twemoji loading=lazy }![Logo de Gadgetbridge](assets/img/health-and-wellness/gadgetbridge-dark.svg#only-dark){ .twemoji loading=lazy } [Gadgetbridge](health-and-wellness.md#gadgetbridge)
+- ![Logo d'Apple Santé](assets/img/health-and-wellness/apple-health.webp#only-light){ .twemoji loading=lazy } ![Logo d'Apple Santé](assets/img/health-and-wellness/apple-health-dark.webp#only-dark){ .twemoji loading=lazy } [Dossiers Médicaux (Apple)](health-and-wellness.md#apple-health-records)
+- ![Logo de CommonHealth](assets/img/health-and-wellness/commonhealth.png){ .twemoji loading=lazy } [CommonHealth](health-and-wellness.md#commonhealth)
 
 </div>
 

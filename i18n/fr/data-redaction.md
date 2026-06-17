@@ -49,14 +49,14 @@ Vous ne devez **jamais** utiliser le flou pour expurger [du texte dans les image
 
 ![Metadata Cleaner logo](assets/img/data-redaction/metadatacleaner.svg){ align=right }
 
-**Metadata Cleaner** is a graphical metadata removal tool for Linux powered by [MAT2](https://github.com/jvoisin/mat2).
+**Metadata Cleaner** est un outil graphique de suppression de métadonnées pour Linux basé sur [MAT2](https://github.com/jvoisin/mat2).
 
 [:octicons-home-16: Homepage](https://metadatacleaner.gitlab.io/metadatacleaner/){ .md-button .md-button--primary }
-[:octicons-code-16:](https://gitlab.com/metadatacleaner/metadatacleaner/){ .card-link title="Source Code" }
+[:octicons-code-16:](https://gitlab.com/metadatacleaner/metadatacleaner/){ .card-link title= "Code source" }
 [:octicons-heart-16:](https://gitlab.com/metadatacleaner/metadatacleaner/-/blob/main/CONTRIBUTING.md){ .card-link title="Contribute" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Téléchargements</summary>
 
 - [:simple-flathub: Flathub](https://flathub.org/en/apps/io.gitlab.metadatacleaner.metadatacleaner)
 

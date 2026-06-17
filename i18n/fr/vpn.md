@@ -14,7 +14,7 @@ global:
 
 - [:material-account-cash: Capitalisme de surveillance](basics/common-threats.md#surveillance-as-a-business-model ""){.pg-brown}
 
-If you're looking for additional *privacy* from your ISP or on a public Wi-Fi network, a **VPN** may be the solution for you.
+Si vous souhaitez renforcer *la confidentialité* de vos données vis-à-vis de votre FAI ou lorsque vous vous connectez à un réseau Wi-Fi public, un **VPN** pourrait être la solution qu'il vous faut.
 
 <div class="admonition danger" markdown>
 <p class="admonition-title">Les VPN ne garantissent pas l'anonymat</p>
@@ -88,7 +88,7 @@ Proton VPN a mis à disposition le code source de leurs clients mobile et bureau
 
 #### :material-check:{ .pg-green } Accepte l'argent liquide
 
-Proton VPN, in addition to accepting credit/debit cards, PayPal, and [Bitcoin](advanced/payments.md#other-coins-bitcoin-ethereum-etc), also accepts **cash/local currency** as an anonymous form of payment.
+En plus d'accepter les paiements par carte bancaires, Paypal et [Bitcoin](advanced/payments.md#other-coins-bitcoin-ethereum-etc), Proton VPN accepte également les **espèces/monnaie locale** comme forme de paiement anonyme.
 
 #### :material-check:{ .pg-green } Prise en charge de WireGuard
 
@@ -123,15 +123,15 @@ Nous tenons à le signaler car, bien que nous ne déconseillions pas nécessaire
 
 </div>
 
-#### :material-alert-outline:{ .pg-orange } Additional Notes
+#### :material-alert-outline:{ .pg-orange } Remarques supplémentaires
 
 Les clients Proton VPN prennent en charge l'authentification à deux facteurs sur toutes les plateformes. Proton VPN possède ses propres serveurs et centres de données en Suisse, en Islande et en Suède. Ils proposent le blocage des contenus et des domaines de logiciels malveillants connus avec leur service DNS. En outre, Proton VPN propose également des serveurs "Tor" vous permettant de vous connecter facilement aux sites onion, mais nous recommandons fortement d'utiliser [le navigateur officiel Tor](tor.md#tor-browser) à cette fin.
 
-##### Kill switch feature provides poor protections on macOS
+##### La fonctionnalité « Kill Switch » offre une protection insuffisante sous macOS
 
-Proton VPN's kill switch on macOS does not block any traffic when you intentionally disconnect from the VPN, *including when you disconnect by switching servers.* You should not make any sensitive connections while the VPN is turned off, nor when switching servers. It is only designed to prevent traffic leaks in the case of an unexpected VPN disconnection, which is still a useful feature to have, but it does not provide the same level of protection as a kill switch that blocks all traffic when the VPN is turned off.
+Le « kill switch » de Proton VPN sous macOS ne bloque aucun trafic lorsque vous vous déconnectez volontairement du VPN, *y compris lorsque vous vous déconnectez en changeant de serveur.* Vous ne devez pas établir de connexions sensibles lorsque le VPN est désactivé, ni lorsque vous changez de serveur. Cette fonctionnalité est uniquement destinée à empêcher les fuites de trafic en cas de déconnexion inattendue du VPN, ce qui reste tout de même utile, mais elle n'offre pas le même niveau de protection qu'un « kill switch », qui bloque tout le trafic lorsque le VPN est désactivé.
 
-Additionally, system crashes [may occur](https://protonvpn.com/support/macos-t2-chip-kill-switch) on Intel-based Macs when using the VPN kill switch. Si vous avez besoin de cette fonction, et que vous utilisez un Mac avec un chipset Intel, vous devriez envisager d'utiliser un autre service VPN.
+Par ailleurs, des plantages du système [peuvent se produire](https://protonvpn.com/support/macos-t2-chip-kill-switch) sur les Mac équipés de processeurs Intel lors de l'utilisation du « kill switch » du VPN. Si vous avez besoin de cette fonction, et que vous utilisez un Mac avec un chipset Intel, vous devriez envisager d'utiliser un autre service VPN.
 
 ### IVPN
 
@@ -198,7 +198,7 @@ IVPN prenait auparavant en charge la redirection de port, mais a supprimé cette
 
 #### :material-check:{ .pg-green } Anti-censure
 
-IVPN dispose de modes d'obscurcissement utilisant [v2ray](https://v2ray.com/en/index.html) qui aide dans les situations où les protocoles VPN comme OpenVPN ou WireGuard sont bloqués. It has two modes where it can use [VMess](https://guide.v2fly.org/en_US/basics/vmess) over QUIC or TCP connections. QUIC est un protocole moderne avec un meilleur contrôle de la congestion et peut donc être plus rapide avec une latence réduite. Le mode TCP fait apparaître vos données comme du trafic HTTP normal.
+IVPN dispose de modes d'obscurcissement utilisant [v2ray](https://v2ray.com/en/index.html) qui aide dans les situations où les protocoles VPN comme OpenVPN ou WireGuard sont bloqués. Elle dispose de deux modes d'utilisation de [VMess](https://guide.v2fly.org/en_US/basics/vmess) via des connexions QUIC ou TCP. QUIC est un protocole moderne avec un meilleur contrôle de la congestion et peut donc être plus rapide avec une latence réduite. Le mode TCP fait apparaître vos données comme du trafic HTTP normal.
 
 #### :material-check:{ .pg-green } Clients mobiles
 
@@ -301,20 +301,20 @@ Il est important de noter que l'utilisation d'un fournisseur VPN ne vous rendra 
 
 ### Technologie
 
-We require our recommended providers to support modern technologies currently available to VPNs.
+Nous exigeons de nos prestataires recommandés qu'ils prennent en charge les technologies modernes actuellement disponibles pour les VPN.
 
-**Minimum pour se qualifier :**
+**Exigences minimales :**
 
-- Must provide standard configuration files which can be used in a generic, open-source client such as the WireGuard apps.
-- Support for strong protocols such as WireGuard.
-- Functional kill switch built in to service-provided clients on our recommended [desktop](desktop.md) and [mobile](android/distributions.md) platforms. This kill switch should be able to block all internet traffic when the VPN connection drops unexpectedly.
+- Il faut fournir des fichiers de configuration standard pouvant être utilisés dans un client générique open source, tel que les applications WireGuard.
+- Prise en charge de protocoles robustes tels que WireGuard.
+- Fonction « kill switch » intégrée aux clients fournis par le service sur nos plateformes [de bureau](desktop.md) et [mobiles](android/distributions.md) recommandées. Ce « kill switch » devrait permettre de bloquer tout le trafic Internet en cas de coupure inopinée de la connexion VPN.
 - Prise en charge du multi-hop. Le multi-hop est important pour préserver la confidentialité des données en cas de compromission d'un seul nœud.
 - Si des clients VPN sont fournis, ils doivent être [open source](https://en.wikipedia.org/wiki/Open_source), comme le logiciel VPN qui y est généralement intégré. Nous pensons que la disponibilité du [code source](https://fr.wikipedia.org/wiki/Code_source) offre une plus grande transparence sur les activités réelles du programme.
 - Fonctions de résistance à la censure conçues pour contourner les pare-feux sans Inspection Profonde des Paquets (IPP)
 
 **Dans le meilleur des cas :**
 
-- Kill switch on all major platforms with highly configurable options (enable/disable on certain networks, on boot, etc.)
+- Fonction « kill switch » disponible sur toutes les principales plateformes, avec des options hautement personnalisables (activation/désactivation sur certains réseaux, au démarrage, etc.)
 - Clients VPN faciles à utiliser
 - Prise en charge de l'[IPV6](https://fr.wikipedia.org/wiki/IPv6). Nous nous attendons à ce que les serveurs autorisent les connexions entrantes via IPv6 et vous permettent d'accéder aux services hébergés sur des adresses IPv6.
 - La capacité de [transfert de port à distance](https://en.wikipedia.org/wiki/Port_forwarding#Remote_port_forwarding) aide à créer des connexions lors de l'utilisation de logiciels de partage de fichiers P2P ([Peer-to-Peer](https://en.wikipedia.org/wiki/Peer-to-peer)) ou de l'hébergement d'un serveur (par exemple, Mumble).
@@ -324,7 +324,7 @@ We require our recommended providers to support modern technologies currently av
 
 Nous préférons que nos prestataires recommandés collectent le moins de données possible. Ne pas recueillir de renseignements personnels sur l'inscription et accepter des modes de paiement anonymes sont requis.
 
-**Minimum pour se qualifier :**
+**Exigences minimales :**
 
 - Option de paiement en [crypto-monnaie anonyme](cryptocurrency.md) **ou** en espèces.
 - Aucune information personnelle requise pour s'inscrire : seuls le nom d'utilisateur, le mot de passe et l'e-mail sont requis.
@@ -338,7 +338,7 @@ Nous préférons que nos prestataires recommandés collectent le moins de donné
 
 Un VPN est inutile s'il ne peut même pas fournir une sécurité adéquate. Nous exigeons de tous les fournisseurs que nous recommandons qu'ils respectent les normes de sécurité en vigueur. Idéalement, ils utiliseraient par défaut des schémas de chiffrement plus évolutifs. Nous exigeons également qu'un tiers indépendant procède à un audit de la sécurité du fournisseur, idéalement de manière très complète et de manière répétée (chaque année).
 
-**Minimum pour se qualifier :**
+**Exigences minimales :**
 
 - Schémas de chiffrement forts : OpenVPN avec authentification SHA-256 ; poignée de main RSA-2048 ou mieux ; chiffrement des données AES-256-GCM ou AES-256-CBC.
 - Confidentialité persistante.
@@ -357,7 +357,7 @@ Un VPN est inutile s'il ne peut même pas fournir une sécurité adéquate. Nous
 
 Vous ne confieriez pas vos finances à une personne ayant une fausse identité, alors pourquoi lui confier vos données internet ? Nous exigeons de nos fournisseurs recommandés qu'ils rendent public leur propriété ou leur direction. Nous aimerions également voir des rapports de transparence fréquents, notamment en ce qui concerne la manière dont les demandes de gouvernement sont traitées.
 
-**Minimum pour se qualifier :**
+**Exigences minimales :**
 
 - Une direction ou un propriétaire public.
 - Entreprise basée dans une juridiction où elle ne peut être contrainte à une journalisation secrète.
@@ -371,7 +371,7 @@ Vous ne confieriez pas vos finances à une personne ayant une fausse identité, 
 
 Avec les fournisseurs de VPN que nous recommandons, nous aimons voir un marketing responsable.
 
-**Minimum pour se qualifier :**
+**Exigences minimales :**
 
 - Doit héberger soi-même ses systèmes de télémétrie (ex : pas d'utilisation de Google Analytics).
 

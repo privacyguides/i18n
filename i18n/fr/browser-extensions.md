@@ -50,11 +50,11 @@ Voici d'autres [listes de filtres] (https://github.com/gorhill/uBlock/wiki/Dashb
 
 ### uBlock Origin Lite
 
-uBlock Origin also has a "Lite" version of their extension, which offers a limited feature-set compared to the original extension. Cependant, elle a quelques avantages distincts par rapport à sa grande soeur, donc vous pouvez l'envisager si...
+uBlock Origin propose également une version « Lite » de son extension, qui offre un ensemble de fonctionnalités plus restreint que l'extension originale. Cependant, elle a quelques avantages distincts par rapport à sa grande soeur, donc vous pouvez l'envisager si...
 
 - ...vous ne voulez pas accorder les autorisations complètes de "lecture/modification des données de sites web" à une extension (même une de confiance comme uBlock Origin)
 - ...vous voulez un bloqueur de contenu plus efficace en termes de ressources (mémoire/CPU)[^1]
-- ...your browser only supports Manifest V3 extensions. This is the case for Chrome [^2] , Edge and most Chromium browsers.
+- ...votre navigateur ne prend en charge que les extensions Manifest V3. C'est le cas pour Chrome [^2], Edge et la plupart des navigateurs basés sur Chromium.
 
 <div class="admonition recommendation" markdown>
 
@@ -78,7 +78,7 @@ uBlock Origin also has a "Lite" version of their extension, which offers a limit
 
 </div>
 
-We only recommend this version of uBlock Origin if you never want to add any filter lists not included by default, or need advanced options such as [dynamic filtering](https://github.com/gorhill/ublock/wiki/dynamic-filtering:-quick-guide) and the network logger. These restrictions are due to limitations in Manifest V3's design, notably the hard limit on the number of filtering rules, and the fact that extensions generally cannot fetch remote resources.[^3]
+Nous ne recommandons cette version d'uBlock Origin que si vous ne souhaitez jamais ajouter de listes de filtres non incluses par défaut, ou si vous avez besoin d'options avancées telles que le [filtrage dynamique](https://github.com/gorhill/ublock/wiki/dynamic-filtering:-quick-guide) et l'enregistreur de réseau. Ces restrictions sont dues à certaines limites inhérentes à la conception de Manifest V3, notamment la limite stricte imposée au nombre de règles de filtrage, ainsi qu'au fait que les extensions ne peuvent généralement pas récupérer de ressources distantes.[^3]
 
 Cette version offre trois niveaux de blocage : "Basique" fonctionne sans avoir besoin de privilèges spéciaux pour afficher et modifier le contenu du site, tandis que les niveaux "Optimal" et "Complet" requièrent cette large autorisation, mais offrent une meilleure expérience de filtrage avec des règles cosmétiques supplémentaires et des injections de scriptlet.
 
@@ -88,7 +88,7 @@ uBlock Origin Lite ne reçoit les mises à jour de la liste de blocage que lorsq
 
 ### AdGuard
 
-We recommend [Safari](mobile-browsers.md#safari-ios) for iOS users, which unfortunately is only supported by uBlock Origin **Lite**. Heureusement, AdGuard offre une alternative adéquate :
+Nous recommandons [Safari](mobile-browsers.md#safari-ios) aux utilisateurs d'iOS ; malheureusement, ce navigateur n'est pris en charge que par la version **Lite** d'uBlock Origin. Heureusement, AdGuard offre une alternative adéquate :
 
 <div class="admonition recommendation" markdown>
 
@@ -119,6 +119,6 @@ Les listes de filtres supplémentaires ralentissent la navigation et peuvent aug
 
 [^1]: uBlock Origin Lite _lui-même_ ne consommera aucune ressource, parce qu'il utilise des APIs plus récentes qui permettent au navigateur de traiter nativement les listes de filtres, au lieu d'exécuter du code JavaScript dans l'extension pour gérer le filtrage. Cependant, cet avantage en termes de ressources n'est que [théorique](https://github.com/uBlockOrigin/uBOL-home/wiki/Frequently-asked-questions-(FAQ)#is-ubol-more-efficient-cpu--and-memory-wise-than-ubo), car il est possible que le code de filtrage standard de uBlock Origin soit plus efficace que le code de filtrage natif de votre navigateur. Cela n'a pas encore été évalué.
 
-[^2]: A [workaround](https://github.com/uBlockOrigin/uBlock-issues/discussions/3690#discussioncomment-14548779) stil exists as of early December 2025.
+[^2]: Une [solution de contournement](https://github.com/uBlockOrigin/uBlock-issues/discussions/3690#discussioncomment-14548779) existe toujours début décembre 2025.
 
-[^3]: This is starting to change, as MV3 extensions can now request to use scripts. This has enabled [AdGuard](https://adguard.com/en/blog/adguard-browser-extension-v5-2.html) to propose to import custom filters list by the url, as opposed to having to manually paste the rules, as is the case with uBOL.
+[^3]: La situation commence à évoluer, puisque les extensions MV3 peuvent désormais demander à utiliser des scripts. Cela a permis à [AdGuard](https://adguard.com/en/blog/adguard-browser-extension-v5-2.html) de proposer l'importation d'une liste de filtres personnalisés via une URL, plutôt que de devoir coller manuellement les règles, comme c'est le cas avec uBOL.

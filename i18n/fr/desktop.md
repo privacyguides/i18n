@@ -53,7 +53,7 @@ openSUSE Tumbleweed utilise [Btrfs](https://en.wikipedia.org/wiki/Btrfs) and [Sn
 
 </div>
 
-As with the recommendation to avoid X11 in our [criteria](#criteria) for Linux distributions, we recommend avoiding desktop environments that support only the legacy X11 window system (for example, Xfce). Currently, KDE Plasma defaults to X11, but Wayland is supported.
+Tout comme nous recommandons d'éviter X11 dans nos [critères](#criteria) relatifs aux distributions Linux, nous recommandons d'éviter les environnements de bureau qui ne prennent en charge que l'ancien système de fenêtrage X11 (par exemple, Xfce). Actuellement, KDE Plasma utilise X11 par défaut, mais Wayland est pris en charge.
 
 Tumbleweed suit un modèle de publication continu où chaque mise à jour est publiée comme un instantané de la distribution. Lorsque vous mettez votre système à niveau, un nouvel instantané est téléchargé. Chaque livraison est soumise à une série de tests automatisés par [openQA](https://openqa.opensuse.org) afin de garantir sa qualité.
 
@@ -127,7 +127,7 @@ NixOS est une distribution indépendante basée sur le gestionnaire de paquets N
 
 Le gestionnaire de paquets de NixOS conserve chaque version de chaque paquet dans un dossier différent dans le **magasin Nix**. De ce fait, vous pouvez avoir différentes versions d'un même paquet installé sur votre système. Une fois que le contenu du paquet a été écrit dans le dossier, ce dernier est mis en lecture seule.
 
-Des mises à jour atomiques sont également disponible avec NixOS. En premier lieu NixOS télécharge (ou "build") les paquets et les fichiers pour la génération du nouveau système, puis il bascule dessus. Il existe différentes manières de basculer vers une nouvelle génération : soit au redémarrage, soit au moment de l'exécution. Vous pouvez également *tester* la nouvelle génération en basculant sur celle-ci pendant l'exécution, mais sans la définir comme la génération actuelle du système. If something breaks during the update process, you can just reboot to return to a working version of your system.
+Des mises à jour atomiques sont également disponible avec NixOS. En premier lieu NixOS télécharge (ou "build") les paquets et les fichiers pour la génération du nouveau système, puis il bascule dessus. Il existe différentes manières de basculer vers une nouvelle génération : soit au redémarrage, soit au moment de l'exécution. Vous pouvez également *tester* la nouvelle génération en basculant sur celle-ci pendant l'exécution, mais sans la définir comme la génération actuelle du système. Si un problème survient pendant la mise à jour, il vous suffit de redémarrer pour revenir à une version fonctionnelle de votre système.
 
 Le gestionnaire de paquet Nix utilise un langage purement fonctionne (lui aussi appelé Nix) pour définir les paquets.
 

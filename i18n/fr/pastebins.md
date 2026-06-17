@@ -17,7 +17,7 @@ Les [**Pastebins**](https://en.wikipedia.org/wiki/Pastebin) sont des services we
 
 ![Logo de PrivateBin](assets/img/pastebins/privatebin.svg){ align=right }
 
-**PrivateBin** is a minimalist, open-source, online pastebin where the server cannot decrypt and read any pasted data you submit. Les données sont chiffrées/déchiffrées dans le navigateur en utilisant AES 256 bits. Il s'agit de la version améliorée de ZeroBin.
+**PrivateBin** est un pastebin en ligne minimaliste et open source, sur lequel le serveur ne peut ni déchiffrer ni lire les données que vous y collez. Les données sont chiffrées/déchiffrées dans le navigateur en utilisant AES 256 bits. Il s'agit de la version améliorée de ZeroBin.
 
 [:octicons-home-16: Pas d'Accueil](https://privatebin.info){ .md-button .md-button--primary }
 [:octicons-server-16:](https://privatebin.info/directory){ .card-link title="Instances Publiques"}
@@ -49,7 +49,7 @@ Les [**Pastebins**](https://en.wikipedia.org/wiki/Pastebin) sont des services we
 ### Exigences minimales
 
 - Doit être open-source.
-- Must encrypt pasted data on the client side before it is sent to the server.
+- Les données collées doivent être chiffrées côté client avant d'être envoyées au serveur.
 - Doit prendre en charge les fichiers protégés par un mot de passe.
 
 ### Critères optimaux

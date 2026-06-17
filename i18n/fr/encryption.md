@@ -98,9 +98,9 @@ Les solutions de chiffrement intégrées au système d'exploitation s'appuient g
 
 <details class="warning" markdown>
 
-<summary>Shut devices down when not in use.</summary>
+<summary>Éteignez les appareils lorsqu'ils ne sont pas utilisés.</summary>
 
-Powering off your devices when they’re not in use provides the highest level of security, as it minimizes the attack surface of your FDE method by ensuring no encryption keys remain in memory.
+Éteindre vos appareils lorsqu'ils ne sont pas utilisés garantit un niveau de sécurité optimal, car cela réduit au minimum la surface d'attaque de votre méthode de chiffrement complet (FDE) en s'assurant qu'aucune clé de chiffrement ne reste en mémoire.
 
 </details>
 
@@ -118,9 +118,9 @@ Powering off your devices when they’re not in use provides the highest level o
 
 </div>
 
-BitLocker is [officially supported](https://support.microsoft.com/en-us/windows/bitlocker-overview-44c0c61c-989d-4a69-8822-b95cd49b1bbf) on the Pro, Enterprise, and Education editions of Windows. The Home edition only supports automatic [Device Encryption](https://support.microsoft.com/en-us/windows/device-encryption-in-windows-cf7e2b6f-3e70-4882-9532-18633605b7df) and must meet specific hardware requirements. If you’re using the Home edition, we recommend [upgrading to Pro](https://support.microsoft.com/en-us/windows/upgrade-windows-home-to-windows-pro-ef34d520-e73f-3198-c525-d1a218cc2818), which can be done without reinstalling Windows or losing your files.
+BitLocker est [officiellement disponible](https://support.microsoft.com/en-us/windows/bitlocker-overview-44c0c61c-989d-4a69-8822-b95cd49b1bbf) sur les éditions Pro, Entreprise et Education de Windows. L'édition Home ne prend en charge que [le chiffrement automatique de l'appareil](https://support.microsoft.com/en-us/windows/device-encryption-in-windows-cf7e2b6f-3e70-4882-9532-18633605b7df) et doit répondre à des exigences matérielles spécifiques. Si vous utilisez l'édition Home, nous vous recommandons [de passer à l'édition Pro](https://support.microsoft.com/en-us/windows/upgrade-windows-home-to-windows-pro-ef34d520-e73f-3198-c525-d1a218cc2818), ce qui peut se faire sans réinstaller Windows ni perdre vos fichiers.
 
-Pro and higher editions also support the more secure pre-boot [TPM+PIN](https://learn.microsoft.com/en-us/windows/security/operating-system-security/data-protection/bitlocker/faq#what-is-the-difference-between-a-tpm-owner-password--recovery-password--recovery-key--pin--enhanced-pin--and-startup-key) feature, configured through the appropriate [group policy](os/windows/group-policies.md#bitlocker-drive-encryption) settings. The PIN is rate limited and the TPM will panic and lock access to the encryption key either permanently or for a period of time if someone attempts to brute force access.
+Les éditions Pro et supérieures prennent également en charge la fonctionnalité [TPM+PIN](https://learn.microsoft.com/en-us/windows/security/operating-system-security/data-protection/bitlocker/faq#what-is-the-difference-between-a-tpm-owner-password--recovery-password--recovery-key--pin--enhanced-pin--and-startup-key) avant démarrage, plus sécurisée, qui se configure via les paramètres [de stratégie de groupe](os/windows/group-policies.md#bitlocker-drive-encryption) appropriés. Le code PIN est soumis à une limitation de fréquence d'essais ; si quelqu'un tente de forcer l'accès par une attaque par force brute, le TPM se mettra en mode de sécurité et bloquera l'accès à la clé de chiffrement, soit de manière définitive, soit pour une durée déterminée.
 
 </details>
 
