@@ -45,7 +45,7 @@ Cette page est également une ressource pour aider les organisations de droits n
 <0>
 <1>
 
-### 1. Connaître les lois sur la protection de la vie privée
+### 1. Connaître les lois en vigueur sur la protection de la vie privée
 
 ![Scale icon](../../assets/img/activism/icons/icon-tips/icon-tips-laws.webp){class="toolbox-tip-icon"}
 

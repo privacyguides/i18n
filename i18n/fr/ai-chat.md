@@ -2,7 +2,7 @@
 meta_title: "Chat IA recommandé : alternatives privées à ChatGPT – Privacy Guides"
 title: "Chat IA"
 icon: material/assistant
-description: Unlike OpenAI's ChatGPT and its Big Tech competitors, these AI tools run locally so your data never leaves your desktop device.
+description: "Contrairement à ChatGPT d'OpenAI et à ses concurrents du secteur des « Big Tech », ces outils d'IA fonctionnent en local : vos données ne quittent donc jamais votre ordinateur."
 cover: ai-chatbots.webp
 ---
 
@@ -10,67 +10,67 @@ cover: ai-chatbots.webp
 
 - [:material-server-network: Fournisseurs de Services](basics/common-threats.md#privacy-from-service-providers){ .pg-teal }
 - [:material-account-cash: Capitalisme de Surveillance](basics/common-threats.md#surveillance-as-a-business-model){ .pg-brown }
-- [:material-close-outline: Censorship](basics/common-threats.md#avoiding-censorship){ .pg-blue-gray }
+- [:material-close-outline: Censure](basics/common-threats.md#avoiding-censorship){ .pg-blue-gray }
 
-The use of **AI chat**, also known as Large Language Models (LLMs), has become increasingly common since the release of ChatGPT in 2022. LLMs can help us write better, understand unfamiliar subjects, or answer a wide range of questions. They work by statistically predicting the next word in their responses based on a vast amount of data scraped from the web.
+L'utilisation des **chatbots basés sur l'IA**, également appelés « grands modèles linguistiques » (LLM), s'est généralisée depuis le lancement de ChatGPT en 2022. Les modèles de langage de grande envergure (LLM) peuvent nous aider à mieux rédiger, à comprendre des sujets qui ne nous sont pas familiers ou à répondre à un large éventail de questions. Ils fonctionnent en prédisant statistiquement le mot suivant dans leurs réponses, à partir d'une immense quantité de données extraites du Web.
 
 ## Problèmes de confidentialité liés aux modèles de langage
 
-Data used to train AI models, however, includes a massive amount of publicly available data scraped from the web, which can include sensitive information like names and addresses. Cloud-based AI software often [collects your inputs](https://openai.com/policies/row-privacy-policy), meaning your chats are not private from them. This practice also introduces a risk of data breaches. Furthermore, there is a real possibility that an LLM will leak your private chat information in future conversations with other users.
+Les données utilisées pour entraîner les modèles d'IA comprennent toutefois une quantité considérable de données accessibles au public, extraites du Web, qui peuvent contenir des informations sensibles telles que des noms et des adresses. Les logiciels d'IA basés sur le cloud [collectent souvent vos données](https://openai.com/policies/row-privacy-policy), ce qui signifie que vos conversations ne sont pas confidentielles à leurs yeux. Cette pratique comporte également un risque de violation de données. De plus, il existe un risque réel qu’un LLM divulgue les informations de vos conversations privées lors de futures discussions avec d’autres utilisateurs.
 
-If you are concerned about these practices, you can either refuse to use AI, or use [truly open-source models](https://proton.me/blog/how-to-build-privacy-first-ai) which publicly release and allow you to inspect their training datasets. One such model is [OLMoE](https://allenai.org/blog/olmoe-an-open-small-and-state-of-the-art-mixture-of-experts-model-c258432d0514) made by [Ai2](https://allenai.org/open-data).
+Si ces pratiques vous préoccupent, vous pouvez soit refuser d'utiliser l'IA, soit recourir à des [modèles véritablement open source](https://proton.me/blog/how-to-build-privacy-first-ai) dont les ensembles de données d'entraînement sont rendus publics et que vous pouvez consulter. L'un de ces modèles est [OLMoE](https://allenai.org/blog/olmoe-an-open-small-and-state-of-the-art-mixture-of-experts-model-c258432d0514), développé par [Ai2](https://allenai.org/open-data).
 
-Alternatively, you can run AI models locally so that your data never leaves your device and is therefore never shared with third parties. As such, local models are a more private and secure alternative to cloud-based solutions and allow you to share sensitive information to the AI model without worry.
+Vous pouvez également exécuter des modèles d'IA en local, de sorte que vos données ne quittent jamais votre appareil et ne soient donc jamais partagées avec des tiers. À ce titre, les modèles locaux constituent une alternative plus confidentielle et plus sécurisée que les solutions basées sur le cloud et vous permettent de partager sans crainte des informations sensibles avec le modèle d'IA.
 
-## AI Models
+## Modèles d'IA
 
-### Hardware for Local AI Models
+### Hardware pour les modèles d'IA locaux
 
-Local models are also fairly accessible. It's possible to run smaller models at lower speeds on as little as 8 GB of RAM. Using more powerful hardware such as a dedicated GPU with sufficient VRAM or a modern system with fast LPDDR5X memory offers the best experience.
+Les modèles locaux sont également relativement accessibles. Il est possible d'exécuter des modèles plus petits à des vitesses réduites avec seulement 8 Go de mémoire vive. L'utilisation d'un hardware plus performant, tel qu'un GPU dédié doté d'une mémoire vidéo (VRAM) suffisante ou un système moderne équipé d'une mémoire LPDDR5X rapide, garantit une expérience optimale.
 
-LLMs can usually be differentiated by the number of parameters, which can vary between 1.3B to 405B for open-source models available for end users. For example, models below 6.7B parameters are only good for basic tasks like text summaries, while models between 7B and 13B are a great compromise between quality and speed. Models with advanced reasoning capabilities are generally around 70B.
+Les modèles de langage à grande échelle (LLM) se distinguent généralement par le nombre de paramètres, qui peut varier entre 1,3 milliard et 405 milliards pour les modèles open source accessibles aux utilisateurs finaux. Par exemple, les modèles comportant moins de 6,7 milliards de paramètres ne conviennent qu’à des tâches élémentaires telles que la synthèse de textes, tandis que ceux comptant entre 7 et 13 milliards de paramètres constituent un excellent compromis entre qualité et rapidité. Les modèles dotés de capacités de raisonnement avancées ont généralement une taille d'environ 70 milliards.
 
-For consumer-grade hardware, it is generally recommended to use [quantized models](https://huggingface.co/docs/optimum/en/concept_guides/quantization) for the best balance between model quality and performance. Check out the table below for more precise information about the typical requirements for different sizes of quantized models.
+Pour le hardware grand public, il est généralement recommandé d'utiliser des [modèles quantifiés](https://huggingface.co/docs/optimum/en/concept_guides/quantization) afin d'obtenir le meilleur compromis entre la qualité du modèle et les performances. Consultez le tableau ci-dessous pour obtenir des informations plus précises sur les exigences types relatives aux différentes tailles de modèles quantifiés.
 
-| Model Size (in Parameters) | Minimum RAM | Minimum Processor                            |
-| --------------------------------------------- | ----------- | -------------------------------------------- |
-| 7B                                            | 8 GB        | Modern CPU (AVX2 support) |
-| 13B                                           | 16 GB       | Modern CPU (AVX2 support) |
-| 70B                                           | 72 GB       | GPU with VRAM                                |
+| Taille du modèle (en nombre de paramètres) | Mémoire vive minimale | Configuration minimale du processeur                           |
+| ------------------------------------------------------------- | --------------------- | -------------------------------------------------------------- |
+| 7B                                                            | 8 Go                  | Processeur moderne (prise en charge d'AVX2) |
+| 13B                                                           | 16 Go                 | Processeur moderne (prise en charge d'AVX2) |
+| 70B                                                           | 72 Go                 | Carte graphique avec mémoire vidéo (VRAM)   |
 
-To run AI locally, you need both an AI model and an AI client.
+Pour exécuter l'IA en local, vous avez besoin à la fois d'un modèle d'IA et d'un client d'IA.
 
-### Choosing a Model
+### Choisir un Modèle
 
-There are many permissively licensed models available to download. [Hugging Face](https://huggingface.co/models) is a platform that lets you browse, research, and download models in common formats like [GGUF](https://huggingface.co/docs/hub/en/gguf). Companies that provide good open-weights models include big names like Mistral, Meta, Microsoft, and Google. However, there are also many community models and [fine-tuned](https://en.wikipedia.org/wiki/Fine-tuning_(deep_learning)) models available. As mentioned above, quantized models offer the best balance between model quality and performance for those using consumer-grade hardware.
+Il existe de nombreux modèles disponibles au téléchargement sous licence libre [Hugging Face](https://huggingface.co/models) est une plateforme qui vous permet de parcourir, de rechercher et de télécharger des modèles dans des formats courants tels que [GGUF](https://huggingface.co/docs/hub/en/gguf). Parmi les entreprises proposant de bons modèles à poids ouverts, on trouve de grands noms tels que Mistral, Meta, Microsoft et Google. Il existe toutefois également de nombreux modèles communautaires et des modèles [fine-tunés](https://en.wikipedia.org/wiki/Fine-tuning_(deep_learning)). Comme indiqué plus haut, les modèles quantifiés offrent le meilleur compromis entre qualité et performances pour les utilisateurs disposant d'un hardware grand public.
 
-To help you choose a model that fits your needs, you can look at leaderboards and benchmarks. The most widely-used leaderboard is the community-driven [LM Arena](https://lmarena.ai). Additionally, the [OpenLLM Leaderboard](https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard) focuses on the performance of open-weights models on common benchmarks like [MMLU-Pro](https://arxiv.org/abs/2406.01574). There are also specialized benchmarks which measure factors like [emotional intelligence](https://eqbench.com), ["uncensored general intelligence"](https://huggingface.co/spaces/DontPlanToEnd/UGI-Leaderboard), and [many others](https://nebuly.com/blog/llm-leaderboards).
+Pour vous aider à choisir un modèle adapté à vos besoins, vous pouvez consulter les classements et les tests de performance. Le classement le plus utilisé est celui géré par la communauté, [LM Arena](https://lmarena.ai). Par ailleurs, le [classement OpenLLM](https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard) se concentre sur les performances des modèles à poids ouverts sur des benchmarks courants tels que [MMLU-Pro](https://arxiv.org/abs/2406.01574). Il existe également des tests de référence spécialisés qui évaluent des facteurs tels que [l'intelligence émotionnelle](https://eqbench.com), [« l'intelligence générale non censurée »](https://huggingface.co/spaces/DontPlanToEnd/UGI-Leaderboard) et [bien d'autres encore](https://nebuly.com/blog/llm-leaderboards).
 
-## AI Chat Clients
+## Clients de chat IA
 
-| Feature              | [Kobold.cpp](#koboldcpp)                                      | [Ollama](#ollama-cli)                                                         | [Llamafile](#llamafile)                                                                                            |
-| -------------------- | ----------------------------------------------------------------------------- | ----------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------ |
-| GPU Support          | :material-check:{ .pg-green } | :material-check:{ .pg-green } | :material-check:{ .pg-green }                                      |
-| Image Generation     | :material-check:{ .pg-green } | :material-close:{ .pg-red }   | :material-close:{ .pg-red }                                        |
-| Speech Recognition   | :material-check:{ .pg-green } | :material-close:{ .pg-red }   | :material-close:{ .pg-red }                                        |
-| Auto-download Models | :material-close:{ .pg-red }   | :material-check:{ .pg-green } | :material-alert-outline:{ .pg-orange } Few models available        |
-| Custom Parameters    | :material-check:{ .pg-green } | :material-close:{ .pg-red }   | :material-check:{ .pg-green }                                      |
-| Multi-plateforme     | :material-check:{ .pg-green } | :material-check:{ .pg-green } | :material-alert-outline:{ .pg-orange } Size limitations on Windows |
+| Fonctionnalité                         |                                                                               | [Ollama](#ollama-cli)                                                         | [Llamafile](#llamafile)                                                                                                    |
+| -------------------------------------- | ----------------------------------------------------------------------------- | ----------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------- |
+| Prise en charge des GPU                | :material-check:{ .pg-green } | :material-check:{ .pg-green } | :material-check:{ .pg-green }                                              |
+| Génération d'images                    | :material-check:{ .pg-green } | :material-close:{ .pg-red }   | :material-close:{ .pg-red }                                                |
+| Reconnaissance vocale                  | :material-check:{ .pg-green } | :material-close:{ .pg-red }   | :material-close:{ .pg-red }                                                |
+| Téléchargement automatique des modèles | :material-close:{ .pg-red }   | :material-check:{ .pg-green } | :material-alert-outline:{ .pg-orange } Peu de modèles disponibles          |
+| Paramètres personnalisés               | :material-check:{ .pg-green } | :material-close:{ .pg-red }   | :material-check:{ .pg-green }                                              |
+| Multi-plateforme                       | :material-check:{ .pg-green } | :material-check:{ .pg-green } | :material-alert-outline:{ .pg-orange } Restrictions de taille sous Windows |
 
 ### Kobold.cpp
 
 <div class="admonition recommendation" markdown>
 
-![Kobold.cpp Logo](assets/img/ai-chat/kobold.png){align=right}
+![Logo Kobold.cpp](assets/img/ai-chat/kobold.png){align=right}
 
-**Kobold.cpp** is an AI client that runs locally on your Windows, Mac, or Linux computer. It's an excellent choice if you are looking for heavy customization and tweaking, such as for role-playing purposes.
+**Kobold.cpp** est un client de chat IA qui s'exécute localement sur votre ordinateur Windows, Mac ou Linux. C'est un excellent choix si vous recherchez des possibilités de personnalisation et de réglages poussés, notamment pour les jeux de rôle.
 
-In addition to supporting a large range of text models, Kobold.cpp also supports image generators such as [Stable Diffusion](https://stability.ai/stable-image) and automatic speech recognition tools such as [Whisper](https://github.com/ggerganov/whisper.cpp).
+Outre la prise en charge d'une large gamme de modèles textuels, Kobold.cpp prend également en charge des générateurs d'images tels que [Stable Diffusion](https://stability.ai/stable-image) et des outils de reconnaissance vocale automatique tels que [Whisper](https://github.com/ggerganov/whisper.cpp).
 
-[:octicons-repo-16: Repository](https://github.com/LostRuins/koboldcpp#readme){ .md-button .md-button--primary }
+[:octicons-repo-16: Dépôt](https://github.com/LostRuins/koboldcpp#readme){ .md-button .md-button--primary }
 [:octicons-info-16:](https://github.com/LostRuins/koboldcpp/wiki){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/LostRuins/koboldcpp){ .card-link title="Source Code" }
-[:octicons-lock-16:](https://github.com/LostRuins/koboldcpp/blob/2f3597c29abea8b6da28f21e714b6b24a5aca79b/SECURITY.md){ .card-link title="Security Policy" }
+[:octicons-code-16:](https://github.com/LostRuins/koboldcpp){ .card-link title="Code source" }
+[:octicons-lock-16:](https://github.com/LostRuins/koboldcpp/blob/2f3597c29abea8b6da28f21e714b6b24a5aca79b/SECURITY.md){ .card-link title="Politique de sécurité" }
 
 <details class="downloads" markdown>
 <summary>Télécharger</summary>
@@ -84,28 +84,28 @@ In addition to supporting a large range of text models, Kobold.cpp also supports
 </div>
 
 <div class="admonition info" markdown>
-<p class="admonition-title">Compatibility Issues</p>
+<p class="admonition-title">Problèmes de compatibilité</p>
 
-Kobold.cpp might not run on computers without AVX/AVX2 support.
+Il se peut que « Kobold.cpp » ne fonctionne pas sur les ordinateurs ne prenant pas en charge les instructions AVX/AVX2.
 
 </div>
 
-Kobold.cpp allows you to modify parameters such as the AI model temperature and the AI chat's system prompt. It also supports creating a network tunnel to access AI models from other devices such as your phone.
+Kobold.cpp vous permet de modifier certains paramètres, tels que la « température » du modèle d'IA et le message d'accueil du système de chat IA. Il permet également de créer un tunnel réseau pour accéder à des modèles d'IA depuis d'autres appareils, comme votre téléphone.
 
 ### Ollama (CLI)
 
 <div class="admonition recommendation" markdown>
 
-![Ollama Logo](assets/img/ai-chat/ollama.png){align=right}
+![Logo Ollama](assets/img/ai-chat/ollama.png){align=right}
 
-**Ollama** is a command-line AI assistant that is available on macOS, Linux, and Windows. Ollama is a great choice if you're looking for an AI client that's easy-to-use, widely compatible, and fast due to its use of inference and other techniques. It also doesn't involve any manual setup.
+**Ollama** est un assistant IA en ligne de commande disponible sur macOS, Linux et Windows. Ollama est un excellent choix si vous recherchez un client IA facile à utiliser, largement compatible et rapide grâce à l'utilisation de l'inférence et d'autres techniques. Il ne nécessite pas de configuration manuelle particulière.
 
-In addition to supporting a wide range of text models, Ollama also supports [LLaVA](https://github.com/haotian-liu/LLaVA) models and has experimental support for Meta's [Llama vision capabilities](https://huggingface.co/blog/llama32#what-is-llama-32-vision).
+Outre la prise en charge d'un large éventail de modèles textuels, Ollama prend également en charge les modèles [LLaVA](https://github.com/haotian-liu/LLaVA) et offre une prise en charge expérimentale des [fonctionnalités de vision de Llama](https://huggingface.co/blog/llama32#what-is-llama-32-vision) de Meta.
 
-[:octicons-home-16: Homepage](https://ollama.com){ .md-button .md-button--primary }
+[:octicons-home-16: Page d'accueil](https://ollama.com){ .md-button .md-button--primary }
 [:octicons-info-16:](https://github.com/ollama/ollama#readme){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/ollama/ollama){ .card-link title="Source Code" }
-[:octicons-lock-16:](https://github.com/ollama/ollama/blob/a14f76491d694b2f5a0dec6473514b7f93beeea0/SECURITY.md){ .card-link title="Security Policy" }
+[:octicons-code-16:](https://github.com/ollama/ollama){ .card-link title="Code source" }
+[:octicons-lock-16:](https://github.com/ollama/ollama/blob/a14f76491d694b2f5a0dec6473514b7f93beeea0/SECURITY.md){ .card-link title="Politique de sécurité" }
 
 <details class="downloads" markdown>
 <summary>Télécharger</summary>
@@ -118,81 +118,81 @@ In addition to supporting a wide range of text models, Ollama also supports [LLa
 
 </div>
 
-Ollama simplifies the process of setting up a local AI chat by downloading the AI model you want to use automatically. For example, running `ollama run llama3.2` will automatically download and run the Llama 3.2 model. Furthermore, Ollama maintains their own [model library](https://ollama.com/library) where they host the files of various AI models. This ensures that models are vetted for both performance and security, eliminating the need to manually verify model authenticity.
+Ollama simplifie la mise en place d'un chat IA local en téléchargeant automatiquement le modèle d'IA que vous souhaitez utiliser. Par exemple, la commande `ollama run llama3.2` permet de télécharger et d'exécuter automatiquement le modèle Llama 3.2. Par ailleurs, Ollama gère sa propre [bibliothèque de modèles](https://ollama.com/library) dans laquelle sont hébergés les fichiers de divers modèles d'IA. Cela garantit que les modèles sont contrôlés tant au niveau de leurs performances que de leur sécurité, ce qui évite d'avoir à vérifier manuellement leur authenticité.
 
 ### Llamafile
 
 <div class="admonition recommendation" markdown>
 
-![Llamafile Logo](assets/img/ai-chat/llamafile.webp){align=right}
+![Logo Llamafile](assets/img/ai-chat/llamafile.webp){align=right}
 
-**Llamafile** is a lightweight, single-file executable that allows users to run LLMs locally on their own computers without any setup involved. It is [backed by Mozilla](https://hacks.mozilla.org/2023/11/introducing-llamafile) and available on Linux, macOS, and Windows.
+**Llamafile** est un binaire léger, constitué d'un seul fichier, qui permet aux utilisateurs d'exécuter des modèles de langage (LLM) localement sur leur propre ordinateur, sans aucune configuration préalable. Le projet est [soutenu par Mozilla](https://hacks.mozilla.org/2023/11/introducing-llamafile) et disponible sous Linux, macOS et Windows.
 
-Llamafile also supports LLaVA. However, it doesn't support speech recognition or image generation.
+Llamafile prend également en charge LLaVA. Cependant, il ne prend pas en charge la reconnaissance vocale ni la génération d'images.
 
-[:octicons-repo-16: Repository](https://github.com/Mozilla-Ocho/llamafile#readme){ .md-button .md-button--primary }
+[:octicons-repo-16: Dépôt](https://github.com/Mozilla-Ocho/llamafile#readme){ .md-button .md-button--primary }
 [:octicons-info-16:](https://github.com/Mozilla-Ocho/llamafile#quickstart){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/Mozilla-Ocho/llamafile){ .card-link title="Source Code" }
-[:octicons-lock-16:](https://github.com/Mozilla-Ocho/llamafile#security){ .card-link title="Security Policy" }
+[:octicons-code-16:](https://github.com/Mozilla-Ocho/llamafile){ .card-link title="Code source" }
+[:octicons-lock-16:](https://github.com/Mozilla-Ocho/llamafile#security){ .card-link title="Politique de sécurité" }
 
 <details class="downloads" markdown>
 <summary>Télécharger</summary>
 
 - [:fontawesome-brands-windows: Windows](https://github.com/Mozilla-Ocho/llamafile#quickstart)
-- [:simple-apple: macOS](https://github.com/Mozilla-Ocho/llamafile#quickstart)
-- [:simple-linux: Linux](https://github.com/Mozilla-Ocho/llamafile#quickstart)
+-
+-
 
 </details>
 
 </div>
 
-Mozilla has made llamafiles available for only some Llama and Mistral models, while there are few third-party llamafiles available. Moreover, Windows limits `.exe` files to 4 GB, and most models are larger than that.
 
-To circumvent these issues, you can [load external weights](https://github.com/Mozilla-Ocho/llamafile#using-llamafile-with-external-weights).
 
-## Securely Downloading Models
 
-If you use an AI client that maintains their own library of model files (such as [Ollama](#ollama-cli) and [Llamafile](#llamafile)), you should download it from there. However, if you want to download models not present in their library, or use an AI client that doesn't maintain its library (such as [Kobold.cpp](#koboldcpp)), you will need to take extra steps to ensure that the AI model you download is safe and legitimate.
 
-We recommend downloading model files from Hugging Face since it provides several features to verify that your download is genuine and safe to use.
+##
 
-To check the authenticity and safety of the model, look for:
+Toutefois, si vous souhaitez télécharger des modèles qui ne figurent pas dans leur bibliothèque, ou utiliser un client IA qui ne met pas à jour sa bibliothèque (comme [Kobold.cpp](#koboldcpp)), vous devrez prendre des précautions supplémentaires pour vous assurer que le modèle IA que vous téléchargez est sûr et légitime.
 
-- Model cards with clear documentation
-- A verified organization badge
-- Community reviews and usage statistics
-- A "Safe" badge next to the model file (Hugging Face only)
-- Matching checksums[^1]
-  - On Hugging Face, you can find the hash by clicking on a model file and looking for the **Copy SHA256** button below it. You should compare this checksum with the one from the model file you downloaded.
+Nous vous recommandons de télécharger les fichiers de modèles depuis Hugging Face, car cette plateforme propose plusieurs fonctionnalités permettant de vérifier que votre téléchargement est authentique et peut être utilisé en toute sécurité.
 
-A downloaded model is generally safe if it satisfies all the above checks.
+Pour vérifier l'authenticité et la sécurité du modèle, vérifiez les points suivants :
+
+- Fiches techniques accompagnées d'une documentation claire
+- Un badge d'organisation vérifiée
+- Avis de la communauté et statistiques d'utilisation
+- Un badge « Safe » à côté du fichier du modèle (sur Hugging Face uniquement)
+- Checksums concordants[^1]
+  - Sur Hugging Face, vous pouvez trouver le hachage en cliquant sur un fichier de modèle et en recherchant le bouton **Copier SHA256** situé en dessous. Vous devriez comparer ce checksum avec celui du fichier du modèle que vous avez téléchargé.
+
+Un modèle téléchargé est généralement sûr s'il répond à tous les critères de vérification mentionnés ci-dessus.
 
 ## Critères
 
-Please note we are not affiliated with any of the projects we recommend. In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. We suggest you familiarize yourself with this list before choosing to use a project and conduct your own research to ensure it's the right choice for you.
+Veuillez noter que nous ne sommes affiliés à aucun des projets que nous recommandons. Outre [nos critères habituels](about/criteria.md), nous avons défini un ensemble précis d'exigences afin de pouvoir formuler des recommandations objectives. Nous vous suggérons de vous familiariser avec cette liste avant de faire votre choix, et de mener vos propres recherches pour vous assurer que celui-ci répond bien à vos besoins.
 
 ### Exigences minimales
 
 - Doit être open-source.
-- Must not transmit personal data, including chat data.
-- Must be multi-platform.
-- Must not require a GPU.
-- Must support GPU-powered, fast inference.
-- Must not require an internet connection.
+- Il est interdit de transmettre des données à caractère personnel, y compris les données issues des discussions en ligne.
+- Dois être multiplateforme.
+- Ne doit pas nécessiter de carte graphique.
+- Doit prendre en charge l'inférence rapide via le GPU.
+- Ne doit pas nécessiter de connexion Internet.
 
 ### Critères optimaux
 
-Our best-case criteria represent what we _would_ like to see from the perfect project in this category. Nos recommandations peuvent ne pas inclure tout ou partie de ces fonctionnalités, mais celles qui l'inclus peuvent être mieux classées que les autres sur cette page.
+Nos critères optimaux représentent ce que nous aimerions voir d'un projet parfait dans cette catégorie. Nos recommandations peuvent ne pas inclure tout ou partie de ces fonctionnalités, mais celles qui l'inclus peuvent être mieux classées que les autres sur cette page.
 
-- Should be easy to download and set up, e.g. with a one-click installation process.
-- Should have a built-in model downloader option.
-- The user should be able to modify the LLM parameters, such as its system prompt or temperature.
+- Le projet devrait être facile à télécharger et à configurer, par exemple grâce à une procédure d'installation en un clic.
+- Il devrait avoir une option intégrée permettant de télécharger des modèles.
+- L'utilisateur doit pouvoir modifier les paramètres du LLM, tels que son prompt système ou sa température.
 
-\*[LLaVA]: Large Language and Vision Assistant (multimodal AI model)
-\*[LLM]: Large Language Model (AI model such as ChatGPT)
-\*[LLMs]: Large Language Models (AI models such as ChatGPT)
-\*[open-weights models]: AI models that anyone can download and use, but the underlying training data and/or algorithms for them are proprietary.
-\*[system prompt]: The general instructions given by a human to guide how an AI chat should operate.
-\*[temperature]: A parameter used in AI models to control the level of randomness and creativity in the generated text.
+\*[LLaVA] : Assistant multimodal de langage et de vision (modèle d'IA multimodal)
+\*[LLM] : Modèle de langage à grande échelle (modèle d’IA tel que ChatGPT)
+\*[LLMs] : grands modèles linguistiques (modèles d’IA tels que ChatGPT)
+\*[modèles à paramètres ouverts] : modèles d’IA que tout le monde peut télécharger et utiliser, mais dont les données d’entraînement et/ou les algorithmes sous-jacents sont propriétaires.
+\*[prompt système] : Instructions générales données par un humain pour définir le mode de fonctionnement d'un chatbot basé sur l'IA.
+\*[température] : paramètre utilisé dans les modèles d'IA pour contrôler le niveau d'aléatoire et de créativité du texte généré.
 
-[^1]: A file checksum is a type of anti-tampering fingerprint. A developer usually provides a checksum in a text file that can be downloaded separately, or on the download page itself. Verifying that the checksum of the file you downloaded matches the one provided by the developer helps ensure that the file is genuine and wasn't tampered with in transit. You can use commands like `sha256sum` on Linux and macOS, or `certutil -hashfile file SHA256` on Windows to generate the downloaded file's checksum.
+[^1]: La somme de contrôle d'un fichier est une sorte d'empreinte permettant de détecter toute altération. Un développeur fournit généralement un checksum dans un fichier texte pouvant être téléchargé séparément, ou directement sur la page de téléchargement. Vérifier que le checksum du fichier que vous avez téléchargé correspond à cellui fourni par le développeur permet de s'assurer que le fichier est authentique et qu'il n'a pas été altéré pendant le transfert. Vous pouvez utiliser des commandes telles que `sha256sum` sous Linux et macOS, ou `certutil -hashfile fichier SHA256` sous Windows pour générer le checksum du fichier téléchargé.

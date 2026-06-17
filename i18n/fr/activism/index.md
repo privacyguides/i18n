@@ -1,31 +1,31 @@
 ---
-title: "Privacy Activism"
-meta_title: "Guides and Tools for Privacy Activists"
-description: Privacy Guides' Activism section contains tools to support the community in its privacy advocacy and activism effort, both for individuals and organizations.
+title: "Militantisme en faveur de la protection de la vie privée"
+meta_title: "Guides et outils destinés aux défenseurs de la vie privée"
+description: La section « Activisme » de Privacy Guides propose des outils destinés à soutenir la communauté dans ses actions de défense et de promotion de la vie privée, tant pour les particuliers que pour les organisations.
 hide:
   - toc
   - footer
 cover: activism/banner-activism.webp
 ---
 
-The **Guides and Tools for Privacy Activists** project from [_Privacy Guides_](../about.md) offers a new way to empower the digital rights community.
+Le projet **« Guides et outils pour les militants de la protection de la vie privée »**, issu de [_Privacy Guides_](../about.md), propose une nouvelle façon de donner plus de moyens à la communauté des défenseurs des droits numériques.
 
-This section contains information to help you become a better defender of privacy rights, both for individuals and organizations.
+Cette section contient des informations destinées à vous aider à mieux défendre le droit à la vie privée, tant pour les particuliers que pour les organisations.
 
-## We must fight for privacy rights collectively
+## Nous devons lutter ensemble pour défendre le droit à la vie privée
 
-Fighting to improve our privacy cannot _only_ be a matter of individual protections.
+La lutte pour renforcer la protection de notre vie privée ne peut pas se limiter _uniquement_ à la protection des individus.
 
-When [regulations keep attacking](https://www.privacyguides.org/articles/2025/09/08/chat-control-must-be-stopped/) the tools and services we rely on to protect our personal information, when corporations [exploit our data](../basics/common-threats.md/#surveillance-as-a-business-model) more aggressively every day, and when platforms exponentially [erode online pseudonymity](https://www.privacyguides.org/articles/2025/10/15/real-name-policies/), we must broaden our reach to fight for our rights.
+Alors que [les réglementations ne cessent de s'en prendre](https://www.privacyguides.org/articles/2025/09/08/chat-control-must-be-stopped/) aux outils et services sur lesquels nous comptons pour protéger nos données personnelles, que les entreprises [exploitent nos données](../basics/common-threats.md/#surveillance-as-a-business-model) de manière toujours plus agressive, et que les plateformes [portent atteinte de manière exponentielle à l'anonymat en ligne](https://www.privacyguides.org/articles/2025/10/15/real-name-policies/), nous devons élargir notre champ d'action pour défendre nos droits.
 
-\==For privacy to become a valued and respected human right, we must work together== to defend privacy rights as a community.
+\==Pour que la vie privée devienne un droit humain reconnu et respecté, nous devons unir nos forces== afin de défendre, en tant que communauté, le droit à la vie privée.
 
-This section will progressively grow with more tools to support the community in its privacy advocacy and activism effort. The Privacy Activist Toolbox and the DPA Directory are the first parts of this new development.
+Cette section s'enrichira progressivement de nouveaux outils destinés à soutenir la communauté dans ses actions de défense et de militantisme en faveur de la protection de la vie privée. La Boîte à outils de l'activiste et l'annuaire DPA sont les premières parties de cette nouvelle initiative.
 
 <div class="toolbox-button-grid" markdown>
 
-[:fontawesome-solid-toolbox:{ .toolbox-button-icon } Privacy Activist Toolbox](toolbox/index.md){ .toolbox-button .toolbox-bg }
+[:fontawesome-solid-toolbox:{ .toolbox-button-icon } Boîte à outils de l'activiste en faveur de la vie privée](toolbox/index.md){ .toolbox-button .toolbox-bg }
 
-[:fontawesome-solid-address-card:{ .toolbox-button-icon } DPA Directory](legal/dpa-directory.md){ .toolbox-button .dpadirectory-bg }
+[:fontawesome-solid-address-card:{ .toolbox-button-icon } Annuaire DPA](legal/dpa-directory.md){ .toolbox-button .dpadirectory-bg }
 
 </div>
