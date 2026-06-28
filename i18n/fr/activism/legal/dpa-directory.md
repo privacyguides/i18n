@@ -9,12 +9,12 @@ cover: activism/banner-activism-dpadirectory.webp
 
 **L’Annuaire de l’autorité de protection des données (APD)** est un outil conçu pour vous aider à identifier la loi principale relative à la protection des données à caractère personnel des consommateurs applicable dans votre région, ainsi que l’autorité chargée de veiller à l’application de cette loi.
 
-Additionally, this table provides information about each law, authority, contact information for questions, and a link to place a complaint for violation of the law with each authority.
+En outre, ce tableau fournit des informations sur chaque loi et chaque autorité, les coordonnées à utiliser pour toute question, ainsi qu’un lien permettant de déposer une plainte en cas de violation de la loi auprès de chaque autorité.
 
 <div class="admonition info" markdown>
-<p class="admonition-title">More information on privacy laws and reporting violations</p>
+<p class="admonition-title">Informations complémentaires sur les lois en matière de protection de la vie privée et sur la manière de déclarer les violations</p>
 
-- For more information on how to find a specific privacy law that might not be listed here, and what to look for when reading it, consult the Privacy Activist Toolbox tip to [Know Your Privacy Laws](../toolbox/tip-know-your-privacy-laws.md).
+- Pour en savoir plus sur la manière de trouver une loi spécifique en matière de protection de la vie privée qui pourrait ne pas figurer ici, ainsi que sur les éléments à rechercher lors de sa lecture, consultez l’astuce de la « Boîte à outils du militant pour les droits à la protection des données et à la vie privée » intitulée « Connaissez vos droits en matière de protection des données et à la vie privée » (../toolbox/tip-know-your-privacy-laws.md).
 
 - For more information on how to proceed when reporting a privacy law violation, consult the Privacy Activist Toolbox tip to [Report Privacy Violations](../toolbox/tip-report-privacy-violations.md).
 
