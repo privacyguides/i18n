@@ -1,17 +1,17 @@
 ---
-title: Give Credit Where Credit Is Due
-description: To succeed with our movement to defend privacy rights, we must support each other. One good way to do this is to give credit where credit is due.
+title: Rendre à César ce qui appartient à César
+description: Pour que notre mouvement de défense du droit à la vie privée soit couronné de succès, nous devons nous soutenir les uns les autres. Une bonne façon d'y arriver est de ne pas oublier de valoriser les actions qui le mérite et les créditer.
 icon: fontawesome/solid/thumbs-up
 cover: activism/banner-toolbox-tip-credit.webp
 ---
 
-To succeed in our battle, we must **support each other**. One good way to accomplish this is to never forget to give credit where credit is due. When another advocate or organization says something you agree with, boost them up, spread their reach, and thank them publicly.
+Pour remporter notre combat, nous devons **nous soutenir les uns les autres**. Une bonne façon d'y arriver est de reconnaitre et valoriser les actions qui le mérite. Lorsqu'une autre personne ou une autre organisation dit quelque chose avec lequel vous êtes d'accord, soutenez-les, partagez et remerciez-les publiquement.
 
-Here are a few ways you can help your allies feel seen and valued:
+Voici quelques conseils pour aider vos alliés à se sentir reconnus et valorisés :
 
-## Why crediting people and organization is important
+## Pourquoi il est important de reconnaître le mérite des personnes et des organisations et leur donner du crédit
 
-Giving credit to the right person or organization isn't only the ethical thing to do, it's also a way to **build alliances**, to bring more people to the cause, and to retain the allies you already have.
+Reconnaître le mérite de la bonne personne ou de la bonne organisation n'est pas seulement une question d'éthique, c'est aussi un moyen de **tisser des liens**, d'attirer davantage de personnes vers la cause et de fidéliser les alliés que vous avez déjà.
 
 When people feel valued, they are usually inclined to work harder. People are also more likely to stick around places where they feel seen and appreciated. This is incredibly important for our movement.
 

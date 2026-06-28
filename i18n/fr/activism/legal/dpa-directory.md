@@ -1,13 +1,13 @@
 ---
-title: "Data Protection Authorities"
-description: The DPA Directory is a tool to help you find the principal consumer privacy law in your region, the authority mandated to enforce it, and how to report violations.
+title: "Autorités de protection des données"
+description: L’Annuaire de l’APD vous aide à identifier, selon votre région, la loi principale relative à la protection des données personnelles des consommateurs, l’autorité mandatée à en assurer l’application, ainsi que la procédure pour déclarer les violations.
 #icon: fontawesome/solid/address-card
 cover: activism/banner-activism-dpadirectory.webp
 ---
 
-<small>Last update: 2026-03-30</small>
+<small>Dernière mise à jour : 2026-03-30</small>
 
-The **Data Protection Authority** (DPA) **Directory** is a tool to help you find the main consumer privacy law in your region, and the authority mandated to enforce the law.
+**L’Annuaire de l’autorité de protection des données (APD)** est un outil conçu pour vous aider à identifier la loi principale relative à la protection des données à caractère personnel des consommateurs applicable dans votre région, ainsi que l’autorité chargée de veiller à l’application de cette loi.
 
 Additionally, this table provides information about each law, authority, contact information for questions, and a link to place a complaint for violation of the law with each authority.
 

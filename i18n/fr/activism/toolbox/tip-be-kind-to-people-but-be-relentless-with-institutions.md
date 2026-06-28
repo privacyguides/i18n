@@ -1,52 +1,52 @@
 ---
-title: Be Kind to People, But Be Relentless With Institutions
-description: Kindness and patience are essential qualities for privacy advocates. To grow our movement, we must meet people from a place of camaraderie.
+title: Soyez bienveillants envers les gens, mais intransigeants envers les institutions
+description: La bienveillance et la patience sont des qualités indispensables pour les défenseurs de la vie privée. Pour faire grandir notre mouvement, nous devons aller à la rencontre des gens dans un esprit de camaraderie.
 icon: fontawesome/solid/hands-holding-circle
 cover: activism/banner-toolbox-tip-kind.webp
 ---
 
-Kindness and patience are essential qualities for privacy advocates. To grow our movement, we must meet people from a place of camaraderie. People don't change their mind by being berated. However, this isn't true for institutions.
+La bienveillance et la patience sont des qualités indispensables pour les défenseurs de la vie privée. Pour faire grandir notre mouvement, nous devons aller à la rencontre des gens dans un esprit de camaraderie. Ce n'est pas en se faisant réprimander que les gens changent d'avis. Cependant, cela ne s'applique pas aux institutions.
 
-Here's how you can **integrate kindness in your work**, while being relentless with institutions:
+Voici comment vous pouvez **intégrer la bienveillance dans votre travail**, tout en restant intransigeant envers les institutions :
 
-## Use kindness and patience while working with individuals
+## Faites preuve de bienveillance et de patience dans vos relations avec les autres
 
-Whenever you talk with individuals in your privacy work, make sure to **stay kind and calm** when communicating with them.
+Chaque fois que vous discutez avec des personnes dans le cadre de votre travail lié à la protection de la vie privée, veillez à **rester aimable et calme** dans vos échanges avec elles.
 
-Perhaps you are posting on social media, replying to posts or emails, answering questions after a talk, or writing advices on the best privacy tools to use. No matter the context, when communicating with individuals, ==kindness is your greatest asset== to persuade and bring more people to the movement.
+Peut-être que vous publiez sur les réseaux sociaux, que vous répondez à des publications ou à des emails, que vous répondez aux questions après une conférence, ou que vous rédigez des conseils sur les meilleurs outils de protection de la vie privée à utiliser. Quel que soit le contexte, lorsque vous communiquez avec d'autres personnes, ==la bienveillance est votre meilleur atout== pour convaincre et rallier davantage de personnes à la cause.
 
-Sadly, it's not rare to see replies to beginners' posts by more advanced peers online that are humiliating and berating their uninformed or misinformed questions. People don't learn and don't change their mind by being yelled at. Aggression isn't an effective way to communicate.
+Malheureusement, il n'est pas rare de voir, sur Internet, des réponses aux messages de débutants rédigées par des utilisateurs plus expérimentés, qui se moquent d'eux et les réprimandent pour leurs questions naïves ou mal informées. Ce n'est pas en criant sur les gens qu'on leur apprend quelque chose ou qu'on les fait changer d'avis. L'agressivité n'est pas un moyen efficace de communiquer.
 
-Furthermore, aggression is a horrible strategy to bring more people to your cause, which should be your ultimate goal as a privacy rights advocate and activist.
+De plus, l'agressivité est une stratégie désastreuse pour rallier davantage de personnes à votre cause, ce qui devrait être votre objectif ultime en tant que défenseur et militant des droits à la vie privée.
 
-Instead, be gentle and [develop your empathy skills](https://www.verywellmind.com/what-is-empathy-2795562). Write from a place of compassion, to gradually attract more and more [new people](tip-welcome-beginners.md) to the cause.
+Au contraire, faites preuve de bienveillance et [développez votre empathie](https://www.verywellmind.com/what-is-empathy-2795562). Écrivez avec bienveillance, afin d'attirer progressivement de plus en plus de [nouvelles personnes](tip-welcome-beginners.md) vers cette cause.
 
-Stay patient and compassionate, even when people ask questions that might sound obvious to you. Be patient when people don't understand the first time you explain something. Happily clarify with simpler terms when needed, without being condescending.
+Faites preuve de patience et de bienveillance, même lorsque les gens posent des questions qui peuvent vous sembler évidentes. Faites preuve de patience lorsque les gens ne comprennent pas dès la première fois que vous leur expliquez quelque chose. N'hésitez pas à expliquer les choses en termes plus simples lorsque cela s'avère nécessaire, sans pour autant paraître condescendant.
 
-Accept that some people might not be able to adopt all of your suggestions at once. It's okay, let them grow at their own pace.
+Acceptez le fait que certaines personnes ne soient peut-être pas en mesure de mettre en pratique toutes vos suggestions d'un seul coup. Ce n'est pas grave, laisse-les grandir à leur rythme.
 
-Give time for ideas to brew and change minds. Plant seeds for change, and gently wait for growth.
+Laissez le temps aux idées de mûrir et aux mentalités d'évoluer. Semez les graines du changement, puis attendez patiemment qu'elles poussent.
 
-## Be relentless with corporations, governments, and public institutions
+## Faites preuve d'une détermination sans faille face aux entreprises, aux gouvernements et aux institutions publiques
 
-While patience and kindness are crucial to bring your message the right way to individuals, institutions do not function the same way.
+Si la patience et la bienveillance sont essentielles pour faire passer votre message de la bonne manière auprès des individus, les institutions ne fonctionnent pas de la même façon.
 
-Whether you are trying to report a privacy-abusive corporate practice, push back against an invasive regulation proposal, or raise awareness about a public institution's privacy malpractices, you must be firm, loud, and determined.
+Que vous cherchiez à dénoncer une pratique d'entreprise portant atteinte à la vie privée, à vous opposer à un projet de réglementation intrusif ou à sensibiliser le public aux manquements d'une institution publique en matière de protection de la vie privée, vous devez vous montrer ferme, clair et déterminé.
 
-Respect and politeness are vital here as well. Violence or threat to representatives of these institutions would only be detrimental to your goals. However, patience shouldn't be extended to privacy-abusive organizations that aren't demonstrating any realistic intentions to improve.
+Le respect et la politesse sont ici aussi essentiels. Tout acte de violence ou toute menace à l'encontre des représentants de ces institutions ne ferait que nuire à la réalisation de vos objectifs. Toutefois, cette patience ne devrait pas s'étendre aux organisations qui bafouent la vie privée et ne font preuve d'aucune volonté concrète de s'améliorer.
 
-\==To bring significant changes to institutions and corporations, your message must be loud and clear.==
+\==Pour faire évoluer en profondeur les institutions et les entreprises, votre message doit être fort et clair.==
 
-You should try to bring as many people and allied organizations to your cause, and be as loud as possible in the media. Your campaign must be powerful enough to grab media's attention, and to send a firm message that the people want change and will not back down.
+Vous devriez essayer de rallier le plus grand nombre possible de personnes et d'organisations alliées à votre cause, et vous faire entendre le plus fort possible dans les médias. Votre campagne doit être suffisamment percutante pour attirer l'attention des médias et faire passer un message clair : le peuple veut du changement et ne cédera pas.
 
-Each time your message is ignored, and the abuse continues, **shout louder** (metaphorically). Bring even _more_ people to the cause, until the popular discontent is so strong that they have no choice but to stop the abuse.
+Chaque fois que votre message est ignoré et que les abus persistent, **criez plus fort** (au sens figuré). Mobilisez encore _plus_ de monde autour de cette cause, jusqu’à ce que le mécontentement populaire soit si fort qu’ils n’aient d’autre choix que de mettre fin à ces abus.
 
-## More resources
+## Plus d'informations
 
-- [Rich resource for campaign strategy and community organizing (The Commons Social Change Library)](https://commonslibrary.org/)
+- [Une mine d'informations sur la stratégie de campagne et l'organisation communautaire (The Commons Social Change Library)](https://commonslibrary.org/)
 
-- [Campaign canvas template (Mobilisation Lab)](https://mobilisationlab.org/resources/campaign-canvas/)
+- [Modèle de page de campagne (Mobilisation Lab)](https://mobilisationlab.org/resources/campaign-canvas/)
 
-- [Campaigning guides for activists (Activist Handbook)](https://activisthandbook.org/)
+- [Guides de campagne pour les militants (Manuel du militant)](https://activisthandbook.org/)
 
-- [How to do public speaking for activism (Activist Handbook)](https://activisthandbook.org/communication/public-speaking)
+- [Comment prendre la parole en public dans le cadre d'un engagement militant (Guide de l'activiste)](https://activisthandbook.org/communication/public-speaking)
