@@ -34,7 +34,7 @@ Cette page est également une ressource pour aider les organisations de droits n
 
 [:fontawesome-solid-heart:{ .toolbox-button-icon }Soyez<br>Tenace](#stay-persistent){ .toolbox-button .toolbox-bg-persistence }
 
-[:fontawesome-solid-hand-fist:{ .toolbox-button-icon }Passez à<a href="tip-know-your-privacy-laws/">l'Action!](#take-action){ .toolbox-button .toolbox-bg-action }
+[:fontawesome-solid-hand-fist:{ .toolbox-button-icon }Passez à l'Action !](#take-action){ .toolbox-button .toolbox-bg-action }
 
 </div>
 
@@ -149,8 +149,8 @@ Pour en savoir plus :material-arrow-right-drop-circle:{align=right}
 </div>
 </a>
 
-<0>
-<1>
+<a href="tip-consider-everyones-unique-situation">
+<div class="toolbox-tip-card toolbox-border-perspective" markdown>
 
 ### 3. Gardez à l'esprit la situation unique de chaque individu
 
@@ -318,8 +318,8 @@ Pour en savoir plus :material-arrow-right-drop-circle:{align=right}
 
 ## Maintenir l'intégrité
 
-<0>
-<1>
+<a href="tip-refuse-to-participate">
+<div class="toolbox-tip-card toolbox-border-integrity" markdown>
 
 ### 1. Refusez de participer
 
