@@ -161,7 +161,8 @@ Konten starten mit bis zu 2 GB Speicher, welches bei Nachfrage erweitert werden 
 </div>
 
 #### :material-check:{ .pg-green } Eigene Domains und Aliase
-z Mailbox Mail lets you use your own domain, and they support [catch-all](https://kb.mailbox.org/en/private/custom-domains/use-your-own-domain-with-catch-all/) addresses. Mailbox Mail also supports [sub-addressing](https://kb.mailbox.org/en/private/e-mail/what-is-an-alias-and-how-do-i-use-it/), which is useful if you don't want to purchase a domain.
+
+Mailbox Mail lets you use your own domain, and they support [catch-all](https://kb.mailbox.org/en/private/custom-domains/use-your-own-domain-with-catch-all/) addresses. Mailbox Mail also supports [sub-addressing](https://kb.mailbox.org/en/private/e-mail/what-is-an-alias-and-how-do-i-use-it/), which is useful if you don't want to purchase a domain.
 
 #### :material-check:{ .pg-green } Diskrete Zahlungsmöglichkeiten
 

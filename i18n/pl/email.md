@@ -161,7 +161,8 @@ Konta oferują do 2 GB przestrzeni, którą można zwiększyć w razie potrzeby.
 </div>
 
 #### :material-check:{ .pg-green } Własne domeny i aliasy
-Mailbox Mail umożliwia korzystanie z własnej domeny oraz obsługuje adresy typu [catch-all](https://kb.mailbox.org/en/private/custom-domains/use-your-own-domain-with-catch-all/) Mailbox Mail również wspiera [sub-adresowanie](https://kb.mailbox.org/en/private/e-mail/what-is-an-alias-and-how-do-i-use-it/), przydatne dla osób, które nie chcą kupować własnej domeny.
+
+Mailbox Mail lets you use your own domain, and they support [catch-all](https://kb.mailbox.org/en/private/custom-domains/use-your-own-domain-with-catch-all/) addresses. Mailbox Mail również wspiera [sub-adresowanie](https://kb.mailbox.org/en/private/e-mail/what-is-an-alias-and-how-do-i-use-it/), przydatne dla osób, które nie chcą kupować własnej domeny.
 
 #### :material-check:{ .pg-green } Prywatne metody płatności
 

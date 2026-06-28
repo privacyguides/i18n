@@ -161,7 +161,8 @@ Un compte commence avec 2 Go de stockage, qui peuvent être augmentés autant q
 </div>
 
 #### :material-check:{ .pg-green } Domaines personnalisés et alias
-Mailbox Mail vous permet d'utiliser votre propre domaine et prend en charge les adresses « [catch-all](https://kb.mailbox.org/en/private/custom-domains/use-your-own-domain-with-catch-all/) ». Mailbox Mail prend également en charge le [sous-adressage](https://kb.mailbox.org/en/private/e-mail/what-is-an-alias-and-how-do-i-use-it/), ce qui est utile si vous ne souhaitez pas acheter un domaine.
+
+Mailbox Mail lets you use your own domain, and they support [catch-all](https://kb.mailbox.org/en/private/custom-domains/use-your-own-domain-with-catch-all/) addresses. Mailbox Mail prend également en charge le [sous-adressage](https://kb.mailbox.org/en/private/e-mail/what-is-an-alias-and-how-do-i-use-it/), ce qui est utile si vous ne souhaitez pas acheter un domaine.
 
 #### :material-check:{ .pg-green } Modes de paiement privés
 
