@@ -1,6 +1,6 @@
 ---
 title: "Autorités de protection des données"
-description: L’Annuaire de l’APD vous aide à identifier, selon votre région, la loi principale relative à la protection des données personnelles des consommateurs, l’autorité mandatée à en assurer l’application, ainsi que la procédure pour déclarer les violations.
+description: L’Annuaire de l’APD vous aide à identifier, selon votre région, la loi principale relative à la protection des données à caractère personnelles des consommateurs, l’autorité mandatée à en assurer l’application, ainsi que la procédure pour déclarer les violations.
 #icon: fontawesome/solid/address-card
 cover: activism/banner-activism-dpadirectory.webp
 ---
@@ -16,57 +16,57 @@ En outre, ce tableau fournit des informations sur chaque loi et chaque autorité
 
 - Pour en savoir plus sur la manière de trouver une loi spécifique en matière de protection de la vie privée qui pourrait ne pas figurer ici, ainsi que sur les éléments à rechercher lors de sa lecture, consultez l’astuce de la « Boîte à outils du militant pour les droits à la protection des données et à la vie privée » intitulée « Connaissez vos droits en matière de protection des données et à la vie privée » (../toolbox/tip-know-your-privacy-laws.md).
 
-- For more information on how to proceed when reporting a privacy law violation, consult the Privacy Activist Toolbox tip to [Report Privacy Violations](../toolbox/tip-report-privacy-violations.md).
+- Pour plus d’informations sur la marche à suivre lorsque vous déclarez une violation d’une loi en matière de droits à la protection des données et à la vie privée, consultez l’astuce de la « Boîte à outils du militant pour les droits à la protection des données et à la vie privée » intitulée « Déclarer les violations des droits à la protection des données et à la vie privée » (../toolbox/tip-report-privacy-violations.md).
 
 </div>
 
-## Scope and limitations
+## Champ d’application et contraintes
 
-- This directory does not constitute legal advice. For any legal questions, consult a privacy lawyer or contact the authority responsible for enforcing the law.
+- Cet annuaire ne constitue pas un avis juridique. Pour toute question d’ordre juridique, consultez un avocat en droit de la protection des données ou contactez l’autorité chargée de veiller à l’application des lois concernées.
 
-- This directory only lists comprehensive consumer data privacy regulations that were effective on the date of the last update.
+- Cet annuaire ne recense que des réglementations complètes en matière de protection des données personnelles des consommateurs qui étaient en vigueur à la date de la dernière mise à jour.
 
-- This directory isn't a complete list of all existing data protection regulations worldwide. If you feel like your region's regulation should be added to it, please reach out to us.
+- Cet annuaire ne constitue pas une liste exhaustive de l’ensemble des réglementations en matière de protection des données existant dans le monde. Si vous estimez que la réglementation applicable à votre région devrait y figurer, veuillez nous contacter.
 
-- This directory does not list specialized privacy regulations related to specific data types, such as health data or children data.
+- Cet annuaire ne recense pas non plus les réglementations spécialisées en matière de protection de la vie privée liées à des catégories de données spécifiques, telles que les données de santé ou les données concernant les enfants.
 
-- Remember that your data _could_ be protected by a privacy regulation that isn't listed here. This will depend on the region, circumstances, and type of data involved.
+- Gardez à l’esprit que vos données peuvent être protégées par une réglementation en matière de protection de la vie privée qui n’est pas mentionnée ici. Cela dépendra de la région, des circonstances et du type de données concerné. Cela dépendra de la région, des circonstances et du type de données concernées.
 
 <div class="admonition warning" markdown>
-<p class="admonition-title">Privacy warning</p>
+<p class="admonition-title">Avertissement relatif à la protection des données</p>
 
-When sharing personal information with a DPA, keep in mind this information could be shared with the subject of the complaint, and/or displayed publicly. Make sure to consult your DPA's privacy notice first, or ask anonymously how your complaint data might be shared before sending any sensitive information.
+Lorsque vous partagez des informations à caractère personnel avec une APD, gardez à l’esprit que ces informations pourraient être communiquées à la personne visée par la plainte et/ou être affichées publiquement. Assurez-vous de consulter d’abord la politique de confidentialité de votre APD, ou demandez de manière anonyme comment les données de votre plainte pourraient être partagées avant d’envoyer toute information sensible.
 
-For example, the DPA for the state of Oregon in the United States specifies that: "Any information submitted to this form is subject to Oregon’s Public Records Law. You may choose not to include personally identifiable data that you do not wish to be subject to public records requests."
+Par exemple, l’APD de l’État de l’Oregon, aux États-Unis, précise que : « Toute information soumise au moyen de ce formulaire est soumise à la loi publique de l’État de l’Oregon relative aux dossiers publics (Public Records Law). Vous pouvez choisir de ne pas inclure de données à caractère personnel que vous ne souhaitez pas soumettre à des demandes d’accès aux documents publics ».
 
 </div>
 
-## The Directory
+## L’Annuaire
 
 <div class="toolbox-button-grid" markdown>
 
-[:fontawesome-solid-earth-africa:{ .toolbox-button-icon } Africa](#africa){ .toolbox-button .dpadirectory-button .dpadirectory-button-africa }
+[:fontawesome-solid-earth-africa:{ .toolbox-button-icon } Afrique](#africa){ .toolbox-button .dpadirectory-button .dpadirectory-button-africa }
 
-[:fontawesome-solid-earth-asia:{ .toolbox-button-icon } Asia](#asia){ .toolbox-button .dpadirectory-button .dpadirectory-button-asia }
+[:fontawesome-solid-earth-asia:{ .toolbox-button-icon } Asie](#asia){ .toolbox-button .dpadirectory-button .dpadirectory-button-asia }
 
 [:fontawesome-solid-earth-europe:{ .toolbox-button-icon } Europe](#europe){ .toolbox-button .dpadirectory-button .dpadirectory-button-europe }
 
-[:fontawesome-solid-earth-america:{ .toolbox-button-icon } North America](#north-america){ .toolbox-button .dpadirectory-button .dpadirectory-button-northamerica }
+[:fontawesome-solid-earth-america:{ .toolbox-button-icon } Amérique du Nord](#north-america){ .toolbox-button .dpadirectory-button .dpadirectory-button-northamerica }
 
-[:fontawesome-solid-earth-oceania:{ .toolbox-button-icon } Oceania](#oceania){ .toolbox-button .dpadirectory-button .dpadirectory-button-oceania }
+[:fontawesome-solid-earth-oceania:{ .toolbox-button-icon } Océanie](#oceania){ .toolbox-button .dpadirectory-button .dpadirectory-button-oceania }
 
-[:fontawesome-solid-earth-america:{ .toolbox-button-icon } South America](#south-america){ .toolbox-button .dpadirectory-button .dpadirectory-button-southamerica }
+[:fontawesome-solid-earth-america:{ .toolbox-button-icon } Amérique du Sud](#south-america){ .toolbox-button .dpadirectory-button .dpadirectory-button-southamerica }
 
 </div>
 
 ---
 
-### Africa
+### Afrique
 
 <div class="table-wrapper">
 
   <table role="table" class="dpadirectory-table table-africa">
-    <caption role="caption">Data Protection Authority Directory (Africa)</caption>
+    <caption role="caption">Annuaire de l’autorité de protection des données (Afrique)</caption>
 
     <!-- Table header -->
     <thead>
@@ -214,11 +214,11 @@ For example, the DPA for the state of Oregon in the United States specifies that
 
 <button class="toolbox-button-top">[Back to tables menu :material-map-search:](#the-directory)</button> <br>
 
-### Asia
+### Asie
 
 <div class="table-wrapper">
   <table role="table" class="dpadirectory-table table-asia">
-    <caption role="caption">Data Protection Authority Directory (Asia)</caption>
+    <caption role="caption">Annuaire de l’autorité de protection des données (Asie)</caption>
 
     <!-- Table header -->
     <thead>
@@ -384,7 +384,7 @@ For example, the DPA for the state of Oregon in the United States specifies that
 
 <div class="table-wrapper">
   <table role="table" class="dpadirectory-table table-europe">
-    <caption role="caption">Data Protection Authority Directory (Europe)</caption>
+    <caption role="caption">Annuaire de l’autorité de protection des données (Europe)</caption>
 
     <!-- Table header -->
     <thead>
@@ -938,11 +938,11 @@ For example, the DPA for the state of Oregon in the United States specifies that
 
 <button class="toolbox-button-top">[Back to tables menu :material-map-search:](#the-directory)</button> <br>
 
-### North America
+### Amérique du Nord
 
 <div class="table-wrapper">
   <table role="table" class="dpadirectory-table table-northamerica">
-    <caption role="caption">Data Protection Authority Directory (North America)</caption>
+    <caption role="caption">Annuaire de l’autorité de protection des données (Amérique du Nord)</caption>
 
     <!-- Table header -->
     <thead>
