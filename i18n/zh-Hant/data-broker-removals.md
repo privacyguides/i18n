@@ -13,7 +13,7 @@ cover: data-broker-removals.webp
 
 :flag_us: **備註：** 其中許多工具僅在美國可用，資料仲介從公共記錄和其他資源中收集、分享和銷售資訊，主要是以美國為中心的問題。 在許多其他地區，您的資料已經受到 GDPR 等法規的保護。 我們將始終主張在美國提供類似的強大隱私權保護，但今天受影響的人仍可能受惠於這些「權宜之計」的解決方案。
 
-與直覺相反的是，從網路上移除您在這些網站上的個人資料，通常需要向這些公司_提供_您的個人資料，他們才會遵照您的要求。 不幸的是，在大多數情況下，仍值得這樣做，以盡量減少您的個人資料可被公開存取的數量。
+與直覺相反的是，從網路上移除您在這些網站上的個人資料，通常需要向這些公&#x53F8;_&#x63D0;&#x4F9B;_&#x60A8;的個人資料，他們才會遵照您的要求。 不幸的是，在大多數情況下，仍值得這樣做，以盡量減少您的個人資料可被公開存取的數量。
 
 <div class="admonition example" markdown>
 <p class="admonition-title">試試看</p>
@@ -34,7 +34,6 @@ cover: data-broker-removals.webp
 - ClustrMaps ([Search](https://clustrmaps.com), [Opt-Out](https://clustrmaps.com/bl/opt-out))
 - InfoTracer ([Search](https://infotracer.com), [Opt-Out](https://infotracer.com/optout))
 - Intelius ([Search](https://intelius.com), [Opt-Out](https://suppression.peopleconnect.us/login))
-- PeekYou ([Search](https://peekyou.com), [Opt-Out](https://peekyou.com/about/contact/ccpa_optout/do_not_sell))
 - PublicDataUSA ([Search](https://publicdatausa.com), [Opt-Out](https://publicdatausa.com/remove.php))
 - Radaris ([Search](https://radaris.com), [Opt-Out](https://radaris.com/page/how-to-remove))
 - Spokeo ([Search](https://spokeo.com/search), [Opt-Out](https://spokeo.com/optout))
@@ -84,7 +83,6 @@ Our [testing](https://www.privacyguides.org/articles/2025/02/03/easyoptouts-revi
 EasyOptOuts 並不涵蓋下列我們認為「高度優先」的網站，因此您仍需手動選擇退出：
 
 - Intelius ([Search](https://intelius.com), [Opt-Out](https://suppression.peopleconnect.us/login))
-- PeekYou ([Search](https://peekyou.com), [Opt-Out](https://peekyou.com/about/contact/ccpa_optout/do_not_sell))
 
 </div>
 

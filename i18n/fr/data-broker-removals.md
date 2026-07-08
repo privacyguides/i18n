@@ -34,7 +34,6 @@ Commencez par vérifier que vos données sont disponibles en cherchant sur ces s
 - ClustrMaps ([Recherche](https://clustrmaps.com), [Suppression](https://clustrmaps.com/bl/opt-out))
 - InfoTracer ([Recherche](https://infotracer.com), [Suppression](https://infotracer.com/optout))
 - Intelius ([Recherche](https://intelius.com), [Suppression](https://suppression.peopleconnect.us/login))
-- PeekYou ([Recherche](https://peekyou.com), [Suppression](https://peekyou.com/about/contact/ccpa_optout/do_not_sell))
 - PublicDataUSA ([Recherche](https://publicdatausa.com), [Suppression](https://publicdatausa.com/remove.php))
 - Radaris ([Recherche](https://radaris.com), [Suppression](https://radaris.com/page/how-to-remove))
 - Spokeo ([Recherche](https://spokeo.com/search), [Suppression](https://spokeo.com/optout))
@@ -84,7 +83,6 @@ Notre [test](https://www.privacyguides.org/articles/2025/02/03/easyoptouts-revie
 Certains sites que nous considérons "hautement prioritaire" ne sont pas pris en charge par EasyOptOut, vous devriez donc manuellement faire des demandes de suppression pour les sites suivants :
 
 - Intelius ([Recherche](https://intelius.com), [Suppression](https://suppression.peopleconnect.us/login))
-- PeekYou ([Recherche](https://peekyou.com), [Suppression](https://peekyou.com/about/contact/ccpa_optout/do_not_sell))
 
 </div>
 
