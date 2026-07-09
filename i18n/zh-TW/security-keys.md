@@ -103,7 +103,7 @@ Nitrokey 模式可用 [Nitrokey 應用程式](https://nitrokey.com/download) 來
 <div class="admonition warning" markdown>
 <p class="admonition-title">警告</p>
 
-除了 Nitrokey 3 以外，支援 HOTP 與 TOTP 的 Nitrokey 並沒有加密儲存空間，因此很容易遭到實體攻擊。
+Starting with Nitrokey 3, HOTP and TOTP secrets are additionally encrypted at rest. Older Nitrokey devices like Nitrokey Pro 2 and Nitrokey Storage 2 did not encrypt OTP secrets at rest, which makes the OTP secrets on these devices potentially vulnerable to physical attacks.
 
 </div>
 
