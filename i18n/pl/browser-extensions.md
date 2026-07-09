@@ -36,6 +36,7 @@ Nie instaluj rozszerzeń, których od razu nie potrzebujesz, ani takich, które 
 - [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/firefox/addon/ublock-origin)
 - [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm)
 - [:fontawesome-brands-edge: Edge](https://microsoftedge.microsoft.com/addons/detail/ublock-origin/odfafepnkmbhccpbejgmiehpchacaeak)
+- [:fontawesome-brands-opera: Opera](https://addons.opera.com/en/extensions/details/ublock/)
 
 </details>
 
@@ -54,7 +55,7 @@ uBlock Origin ma też wersję „Lite”, która oferuje ograniczony zestaw funk
 
 - nie chcesz przyznawać żadnym rozszerzeniom pełnych uprawnień „odczytu i modyfikacji danych witryn” (nawet zaufanemu jak uBlock Origin),
 - zależy Ci na bardziej oszczędnym pod względem zasobów (pamięci/procesora) blokerze treści[^1],
-- Twoja przeglądarka obsługuje jedynie rozszerzenia zgodne z Manifest V3. Dotyczy to Chrome [^2], Edge i większości przeglądarek Chromium.
+- Twoja przeglądarka obsługuje jedynie rozszerzenia zgodne z Manifest V3. This is the case for Chrome[^2].
 
 <div class="admonition recommendation" markdown>
 
@@ -119,6 +120,6 @@ Dodatkowe listy filtrów mogą spowalniać działanie i zwiększać powierzchni�
 
 [^1]: uBlock Origin Lite _sam w sobie_ nie zużywa zasobów bezpośrednio, ponieważ wykorzystuje nowsze interfejsy API, które sprawiają, że to przeglądarka natywnie przetwarza listy filtrów, zamiast uruchamiać kod JavaScript w rozszerzeniu do obsługi filtrowania. Ta przewaga zasobowa jest jednak jedynie [teoretyczna](https://github.com/uBlockOrigin/uBOL-home/wiki/Frequently-asked-questions-(FAQ)#is-ubol-more-efficient-cpu--and-memory-wise-than-ubo), ponieważ możliwe, że kod filtrowania standardowego uBlock Origin jest bardziej wydajny niż natywne filtrowanie przeglądarki. Nie zostało to jak dotąd zbadane.
 
-[^2]: Na stan z początku grudnia 2025 roku nadal istniało [obejście](https://github.com/uBlockOrigin/uBlock-issues/discussions/3690#discussioncomment-14548779) tego ograniczenia.
+[^2]: [Brave](https://brave.com/blog/brave-shields-manifest-v3/) and [Opera](https://xcancel.com/Opera_Security/status/2066543496001888753) have committed to maintain MV2 support for as long as they're able to.
 
 [^3]: Sytuacja zaczyna się jednak zmieniać, ponieważ rozszerzenia MV3 mogą teraz uzyskiwać uprawnienia do korzystania ze skryptów. Dzięki temu [AdGuard](https://adguard.com/en/blog/adguard-browser-extension-v5-2.html) może umożliwić import własnych list filtrów za pomocą adresu URL, zamiast konieczności ręcznego wklejania reguł, jak ma to miejsce w uBOL.

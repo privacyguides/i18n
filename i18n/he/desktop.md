@@ -9,7 +9,7 @@ cover: desktop.webp
 
 - [:material-account-cash: קפיטליזם מעקב](basics/common-threats.md#surveillance-as-a-business-model ""){.pg-brown}
 
-הפצות לינוקס מומלצות בדרך כלל להגנה על פרטיות וחופש תוכנה. אם אינך משתמש עדיין בלינוקס, להלן כמה הפצות שאנו מציעים לנסות, כמו גם כמה טיפים כלליים לשיפור פרטיות ואבטחה החלים על הפצות לינוקס רבות.
+הפצות לינוקס מומלצות בדרך כלל להגנה על פרטיות וחופש תוכנה. אם אינך משתמש עדיין בלינוקס, להלן כמה הפצות שאנו מציעים לנסות, כמו גם כמה טיפים כלליים לשיפור פרטיות ואבטחה החלים על הפצות לינוקס רבות. Please note that some of our recommended software may not be packaged for your Linux distribution of choice.
 
 - [סקירה כללית של לינוקס :material-arrow-right-drop-circle:](os/linux-overview.md)
 

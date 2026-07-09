@@ -9,7 +9,7 @@ cover: desktop.webp
 
 - [:material-account-cash: Kapitalizm inwigilacji](basics/common-threats.md#surveillance-as-a-business-model ""){.pg-brown}
 
-Dystrybucje systemu Linux są powszechnie polecane, jeśli chodzi o ochronę prywatności oraz wolne oprogramowanie. Jeśli nie korzystasz jeszcze z systemu Linux, poniżej znajdziesz kilka dystrybucji, które polecamy wypróbować oraz kilka ogólnych porad dotyczących lepszej prywatności i bezpieczeństwa, które mają zastosowanie dla wielu dystrybucji systemu Linux.
+Dystrybucje systemu Linux są powszechnie polecane, jeśli chodzi o ochronę prywatności oraz wolne oprogramowanie. Jeśli nie korzystasz jeszcze z systemu Linux, poniżej znajdziesz kilka dystrybucji, które polecamy wypróbować oraz kilka ogólnych porad dotyczących lepszej prywatności i bezpieczeństwa, które mają zastosowanie dla wielu dystrybucji systemu Linux. Please note that some of our recommended software may not be packaged for your Linux distribution of choice.
 
 - [Ogólny przegląd systemów Linuks :material-arrow-right-drop-circle:](os/linux-overview.md)
 

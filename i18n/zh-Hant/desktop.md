@@ -9,7 +9,7 @@ cover: desktop.webp
 
 - [:material-account-cash: 監控資本主義](basics/common-threats.md#surveillance-as-a-business-model ""){.pg-brown}
 
-基於隱私保護和軟體自由，通常建議用 Linux 發行版。 如果您還不曾用過 Linux ，以下是我們建議可試試的發行版，以及一些 Linux發行版的隱私和安全提升技巧。
+基於隱私保護和軟體自由，通常建議用 Linux 發行版。 如果您還不曾用過 Linux ，以下是我們建議可試試的發行版，以及一些 Linux發行版的隱私和安全提升技巧。 Please note that some of our recommended software may not be packaged for your Linux distribution of choice.
 
 - [一般Linux 概述 :material-arrow-right-drop-circle:](os/linux-overview.md)
 

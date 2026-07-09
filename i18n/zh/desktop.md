@@ -9,7 +9,7 @@ cover: desktop.webp
 
 - [:material-account-cash: 监视资本主义](basics/common-threats.md#surveillance-as-a-business-model ""){.pg-brown}
 
-由于隐私保护和软件自由，Linux发行版被普遍推荐。 如果你还没有使用Linux，下面是我们建议尝试的一些发行版，以及一些适用于许多Linux发行版的一般隐私和安全改进提示。
+由于隐私保护和软件自由，Linux发行版被普遍推荐。 如果你还没有使用Linux，下面是我们建议尝试的一些发行版，以及一些适用于许多Linux发行版的一般隐私和安全改进提示。 Please note that some of our recommended software may not be packaged for your Linux distribution of choice.
 
 - [安卓概况 :material-arrow-right-drop-circle:](os/linux-overview.md)
 

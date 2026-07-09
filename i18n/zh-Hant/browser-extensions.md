@@ -36,6 +36,7 @@ cover: browser-extensions.webp
 - [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/firefox/addon/ublock-origin)
 - [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm)
 - [:fontawesome-brands-edge: Edge](https://microsoftedge.microsoft.com/addons/detail/ublock-origin/odfafepnkmbhccpbejgmiehpchacaeak)
+- [:fontawesome-brands-opera: Opera](https://addons.opera.com/en/extensions/details/ublock/)
 
 </details>
 
@@ -54,7 +55,7 @@ uBlock Origin also has a "Lite" version of their extension, which offers a limit
 
 - ...不想對擴充功能授予完整的「讀取/修改網站資料」權限（即使是像 uBlock Origin 這樣受信任的擴充功能）
 - ....想要一個資源（記憶體/CPU）利用更高效的內容攔截器[^1]
-- ...your browser only supports Manifest V3 extensions. This is the case for Chrome [^2] , Edge and most Chromium browsers.
+- ...your browser only supports Manifest V3 extensions. This is the case for Chrome[^2].
 
 <div class="admonition recommendation" markdown>
 
@@ -117,8 +118,8 @@ We recommend [Safari](mobile-browsers.md#safari-ios) for iOS users, which unfort
 - 不得複製內建瀏覽器或作業系統功能。
 - 必須直接影響用戶隱私，即不得簡單地提供資訊。
 
-[^1]: uBlock Origin Lite **本身**不會消耗任何資源，因為它使用更新的API，瀏覽器能夠本地處理過濾器列表，而不是在擴充功能中執行JavaScript 程式碼來處理過濾。 然而，這種資源優勢僅止於 [理論](https://github.com/uBlockOrigin/uBOL-home/wiki/Frequently-asked-questions-\(FAQ\)#is-ubol-more-efficient-cpu--and-memory-wise-than-ubo)，因為標準uBlock Origin 的過濾程式碼可能比瀏覽器的本機過濾程式碼更有效。 目前尚未對此進行基準測試。
+[^1]: uBlock Origin Lite **本身**不會消耗任何資源，因為它使用更新的API，瀏覽器能夠本地處理過濾器列表，而不是在擴充功能中執行JavaScript 程式碼來處理過濾。 然而，這種資源優勢僅止於 [理論](https://github.com/uBlockOrigin/uBOL-home/wiki/Frequently-asked-questions-(FAQ)#is-ubol-more-efficient-cpu--and-memory-wise-than-ubo)，因為標準uBlock Origin 的過濾程式碼可能比瀏覽器的本機過濾程式碼更有效。 目前尚未對此進行基準測試。
 
-[^2]: A [workaround](https://github.com/uBlockOrigin/uBlock-issues/discussions/3690#discussioncomment-14548779) stil exists as of early December 2025.
+[^2]: [Brave](https://brave.com/blog/brave-shields-manifest-v3/) and [Opera](https://xcancel.com/Opera_Security/status/2066543496001888753) have committed to maintain MV2 support for as long as they're able to.
 
 [^3]: This is starting to change, as MV3 extensions can now request to use scripts. This has enabled [AdGuard](https://adguard.com/en/blog/adguard-browser-extension-v5-2.html) to propose to import custom filters list by the url, as opposed to having to manually paste the rules, as is the case with uBOL.

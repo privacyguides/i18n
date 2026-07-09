@@ -9,7 +9,7 @@ cover: desktop.webp
 
 - [:material-account-cash: Surveillance Capitalism](basics/common-threats.md#surveillance-as-a-business-model ""){.pg-brown}
 
-Linux distributions are commonly recommended for privacy protection and software freedom. Eğer linux kullanmıyorsanız, aşağıda denemenizi önerdiğimiz dağıtımların yanı sıra birçok linux dağıtımı için geçerli bazı genel gizlilik ve güvenlik ipuçları bulabilirsiniz.
+Linux distributions are commonly recommended for privacy protection and software freedom. Eğer linux kullanmıyorsanız, aşağıda denemenizi önerdiğimiz dağıtımların yanı sıra birçok linux dağıtımı için geçerli bazı genel gizlilik ve güvenlik ipuçları bulabilirsiniz. Please note that some of our recommended software may not be packaged for your Linux distribution of choice.
 
 - [Linux'a Genel Bakış :material-arrow-right-drop-circle:](os/linux-overview.md)
 

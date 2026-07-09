@@ -36,6 +36,7 @@ No instales extensiones que no necesites de inmediato o que dupliquen la funcion
 - [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/firefox/addon/ublock-origin)
 - [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm)
 - [:fontawesome-brands-edge: Edge](https://microsoftedge.microsoft.com/addons/detail/ublock-origin/odfafepnkmbhccpbejgmiehpchacaeak)
+- [:fontawesome-brands-opera: Opera](https://addons.opera.com/en/extensions/details/ublock/)
 
 </details>
 
@@ -54,7 +55,7 @@ uBlock Origin también tiene una versión «Lite» de su extensión, que ofrece 
 
 - ...no quieres conceder permisos completos para "leer/modificar datos del sitio web" a ninguna extensión (incluso una de confianza como uBlock Origin)
 - ...quieres un bloqueador de contenidos[^1] más eficiente en cuanto a recursos (memoria/CPU)
-- ...tu navegador solo admite extensiones Manifest V3. Este es el caso de Chrome [^2] , Edge y la mayoría de los navegadores Chromium.
+- ...tu navegador solo admite extensiones Manifest V3. This is the case for Chrome[^2].
 
 <div class="admonition recommendation" markdown>
 
@@ -117,8 +118,8 @@ Las listas de filtros adicionales ralentizan las cosas y pueden aumentar su supe
 - No debe replicar la funcionalidad integrada del navegador o del sistema operativo.
 - Debe afectar directamente a la privacidad del usuario, es decir, no debe limitarse a proporcionar información.
 
-[^1]: uBlock Origin Lite _en sí mismo_ no consumirá recursos, ya que utiliza API más recientes que hacen que el navegador procese las listas de filtros de forma nativa, en lugar de ejecutar código JavaScript dentro de la extensión para gestionar el filtrado. Sin embargo, esta ventaja de recursos es solo [teórica](https://github.com/uBlockOrigin/uBOL-home/wiki/Frequently-asked-questions-\(FAQ\)#is-ubol-more-efficient-cpu--and-memory-wise-than-ubo), porque es posible que el código de filtrado estándar de uBlock Origin sea más eficiente que el código de filtrado nativo de tu navegador. Aún no se ha realizado una evaluación comparativa de esto.
+[^1]: uBlock Origin Lite _en sí mismo_ no consumirá recursos, ya que utiliza API más recientes que hacen que el navegador procese las listas de filtros de forma nativa, en lugar de ejecutar código JavaScript dentro de la extensión para gestionar el filtrado. Sin embargo, esta ventaja de recursos es solo [teórica](https://github.com/uBlockOrigin/uBOL-home/wiki/Frequently-asked-questions-(FAQ)#is-ubol-more-efficient-cpu--and-memory-wise-than-ubo), porque es posible que el código de filtrado estándar de uBlock Origin sea más eficiente que el código de filtrado nativo de tu navegador. Aún no se ha realizado una evaluación comparativa de esto.
 
-[^2]: Una [solución alternativa](https://github.com/uBlockOrigin/uBlock-issues/discussions/3690#discussioncomment-14548779) existe desde principios de diciembre de 2025.
+[^2]: [Brave](https://brave.com/blog/brave-shields-manifest-v3/) and [Opera](https://xcancel.com/Opera_Security/status/2066543496001888753) have committed to maintain MV2 support for as long as they're able to.
 
 [^3]: Esto está empezando a cambiar, ya que las extensiones MV3 ahora pueden solicitar el uso de scripts. Esto ha permitido a [AdGuard](https://adguard.com/en/blog/adguard-browser-extension-v5-2.html) proponer la importación de listas de filtros personalizadas mediante la url, en lugar de tener que pegar manualmente las reglas, como es el caso de uBOL.

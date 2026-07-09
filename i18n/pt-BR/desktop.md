@@ -9,7 +9,7 @@ cover: desktop.webp
 
 - [:material-account-cash: Surveillance Capitalism](basics/common-threats.md#surveillance-as-a-business-model ""){.pg-brown}
 
-Distribuições Linux são comumente recomendadas para proteção de sua privacidade e liberdade digital. Se você ainda não é um usuário de Linux, abaixo você pode encontrar algumas sugestões de distribuições para experimentar. Também encontrará algumas informações e recomendações de privacidade e elevação da segurança de seu dispositivo aplicáveis numa vasta gama de distribuições Linux.
+Distribuições Linux são comumente recomendadas para proteção de sua privacidade e liberdade digital. Se você ainda não é um usuário de Linux, abaixo você pode encontrar algumas sugestões de distribuições para experimentar. Também encontrará algumas informações e recomendações de privacidade e elevação da segurança de seu dispositivo aplicáveis numa vasta gama de distribuições Linux. Please note that some of our recommended software may not be packaged for your Linux distribution of choice.
 
 - [Visão Geral do Linux  :material-arrow-right-drop-circle:](os/linux-overview.md)
 
