@@ -11,23 +11,23 @@ Podívejte se, jak můžete **zakomponovat laskavost do svého úsilí**, zatím
 
 ## Přistupujte k lidem s laskavostí a trpělivostí
 
-Whenever you talk with individuals in your privacy work, make sure to **stay kind and calm** when communicating with them.
+Kdykoliv se budete s někým bavit o tématu soukromí, buďte při tom **vlídní a klidní**, zatímco s nimi komunikujete.
 
-Perhaps you are posting on social media, replying to posts or emails, answering questions after a talk, or writing advices on the best privacy tools to use. No matter the context, when communicating with individuals, ==kindness is your greatest asset== to persuade and bring more people to the movement.
+Možná postujete na sociální sítě, odpovídáte na příspěvky nebo emaily, odpovídáte na otázky po přednášce, nebo píšete o tom, jaké nejlepší privacy nástroje používat. Ať už jde o jakýkoliv kontext, při komunikaci s lidmi je ==laskavost vaše nejlepší karta==, díky které můžete přesvědčit více lidí, aby se přidali ke hnutí.
 
-Sadly, it's not rare to see replies to beginners' posts by more advanced peers online that are humiliating and berating their uninformed or misinformed questions. People don't learn and don't change their mind by being yelled at. Aggression isn't an effective way to communicate.
+Bohužel, není neobvyklé vidět odpovědi u příspěvků od nováčků, kde je pokročilejší vrstevníci ponižují a nadávají jim za jejich neinformované nebo zmatené dotazy. Lidé se neučí a nemění názory, když dostávají seřváno. Agrese není efektivní styl komunikace.
 
-Furthermore, aggression is a horrible strategy to bring more people to your cause, which should be your ultimate goal as a privacy rights advocate and activist.
+Kromě toho je agrese příšernou strategií proto, aby se k tomuto tématu přivedlo více lidí, což by měl být váš hlavní cíl, jakožto obhájce práva na soukromí, a privacy aktivisty.
 
-Instead, be gentle and [develop your empathy skills](https://www.verywellmind.com/what-is-empathy-2795562). Write from a place of compassion, to gradually attract more and more [new people](tip-welcome-beginners.md) to the cause.
+Namísto toho buďte něžní a [vybudujte si empatii](https://www.verywellmind.com/what-is-empathy-2795562). Pište z pozice soucitu, abyste postupně přivedli víc a víc [nových lidí](tip-welcome-beginners.md) k tomuhle tématu.
 
-Stay patient and compassionate, even when people ask questions that might sound obvious to you. Be patient when people don't understand the first time you explain something. Happily clarify with simpler terms when needed, without being condescending.
+Buďte trpěliví a soucitní, i když se vás lidi ptají na otázky, které vám můžou připadat samozřejmé. Buďte trpěliví s lidmi, kteří napoprvé nechápou, co jim vysvětlujete. Pokud bude potřeba věc vysvětlit jednoduššími slovy, udělejte tak s radostí a bez povyšování se.
 
-Accept that some people might not be able to adopt all of your suggestions at once. It's okay, let them grow at their own pace.
+Přijměte, že někteří lidé nemusí být schopni aplikovat všechny vaše rady najednou. Ale to je v pořádku, nechte je jít svým vlastním tempem.
 
-Give time for ideas to brew and change minds. Plant seeds for change, and gently wait for growth.
+Nechejte myšlenkám čas, aby zrály a dokázaly měnit názory. Zasévejte semínka změny a trpělivě čekejte, až vyrostou.
 
-## Be relentless with corporations, governments, and public institutions
+## Buďte neúprosní ke korporacím, vládám a veřejným institucím
 
 While patience and kindness are crucial to bring your message the right way to individuals, institutions do not function the same way.
 
