@@ -1,15 +1,15 @@
 ---
-title: Be Kind to People, But Be Relentless With Institutions
-description: Kindness and patience are essential qualities for privacy advocates. To grow our movement, we must meet people from a place of camaraderie.
+title: Buďte laskaví k lidem, ale neúprosní k institucím
+description: Laskavost a trpělivost jsou nepostradatelné kvality pro obhájce soukromí. Abychom mohli rozvíjet naše hnutí, musíme k lidem přistupovat z pozice vlidnosti.
 icon: fontawesome/solid/hands-holding-circle
 cover: activism/banner-toolbox-tip-kind.webp
 ---
 
-Kindness and patience are essential qualities for privacy advocates. To grow our movement, we must meet people from a place of camaraderie. People don't change their mind by being berated. However, this isn't true for institutions.
+Laskavost a trpělivost jsou nepostradatelné kvality pro obhájce soukromí. Abychom mohli rozvíjet naše hnutí, musíme k lidem přistupovat z pozice vlidnosti. Lidé nemění názory jen proto, že je někdo osočuje. To stejné ale neplatí pro instituce.
 
-Here's how you can **integrate kindness in your work**, while being relentless with institutions:
+Podívejte se, jak můžete **zakomponovat laskavost do svého úsilí**, zatímco budete neúprosní s institucemi:
 
-## Use kindness and patience while working with individuals
+## Přistupujte k lidem s laskavostí a trpělivostí
 
 Whenever you talk with individuals in your privacy work, make sure to **stay kind and calm** when communicating with them.
 
