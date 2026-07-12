@@ -95,7 +95,7 @@ SELinux on [Fedora](https://docs.fedoraproject.org/en-US/quick-docs/selinux-gett
 
 De flesta Linux-distributioner har ett alternativ i installationsprogrammet för att aktivera [LUKS](../encryption.md#linux-unified-key-setup) fde. If this option isn’t set at installation time, you will have to back up your data and re-install, as encryption is applied after [disk partitioning](https://en.wikipedia.org/wiki/Disk_partitioning), but before [file systems](https://en.wikipedia.org/wiki/File_system) are formatted. Vi föreslår också att du raderar din lagringsenhet på ett säkert sätt:
 
-- [Säker radering av data :material-arrow-right-drop-circle:](https://blog.privacyguides.org/2022/05/25/secure-data-erasure)
+- [Säker radering av data :material-arrow-right-drop-circle:](https://www.privacyguides.org/articles/2022/05/25/secure-data-erasure/)
 
 ### Växla
 

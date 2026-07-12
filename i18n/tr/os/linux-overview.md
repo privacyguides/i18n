@@ -95,7 +95,7 @@ Zorunlu erişim denetimi, uygulamalar ve sistem hizmetleri gibi sistem parçalar
 
 Çoğu Linux dağıtımının yükleyicisinde [LUKS](../encryption.md#linux-unified-key-setup) FDE'yi etkinleştirmek için bir seçenek vardır. Bu seçenek kurulum sırasında ayarlanmazsa, şifreleme [disk bölümlemesinden](https://en.wikipedia.org/wiki/Disk_partitioning) sonra, ancak [dosya sistemleri](https://en.wikipedia.org/wiki/File_system) biçimlendirilmeden önce uygulandığından verilerinizi yedeklemeniz ve yeniden kurulum yapmanız gerekecektir. Ayrıca depolama cihazınızı güvenli bir şekilde silmenizi öneririz:
 
-- [DNS hakkında daha fazla bilgi edinin :material-arrow-right-drop-circle:](https://blog.privacyguides.org/2022/05/25/secure-data-erasure)
+- [DNS hakkında daha fazla bilgi edinin :material-arrow-right-drop-circle:](https://www.privacyguides.org/articles/2022/05/25/secure-data-erasure/)
 
 ### Değiştir
 

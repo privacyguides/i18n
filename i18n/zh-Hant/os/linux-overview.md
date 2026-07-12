@@ -95,7 +95,7 @@ Distros which use atomic updates, on the other hand, apply updates in full or no
 
 大多數Linux 發行版安裝程式中都有啟用 [LUKS](../encryption.md#linux-unified-key-setup) FDE之選項。 If this option isn’t set at installation time, you will have to back up your data and re-install, as encryption is applied after [disk partitioning](https://en.wikipedia.org/wiki/Disk_partitioning), but before [file systems](https://en.wikipedia.org/wiki/File_system) are formatted. 我們還建議安全地刪除儲存設備。
 
-- [安全資料清除 :material-arrow-right-drop-circle:](https://blog.privacyguides.org/2022/05/25/secure-data-erasure)
+- [安全資料清除 :material-arrow-right-drop-circle:](https://www.privacyguides.org/articles/2022/05/25/secure-data-erasure/)
 
 ### Swap
 
