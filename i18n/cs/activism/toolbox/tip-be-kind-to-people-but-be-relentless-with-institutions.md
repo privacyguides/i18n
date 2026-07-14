@@ -29,7 +29,7 @@ Nechejte myšlenkám čas, aby zrály a dokázaly měnit názory. Zasévejte sem
 
 ## Buďte neúprosní ke korporacím, vládám a veřejným institucím
 
-While patience and kindness are crucial to bring your message the right way to individuals, institutions do not function the same way.
+Zatímco jsou trpělivost a laskavost klíčové, aby se vaše myšlenky dostaly k lidem, instituce nefungují na stejném principu.
 
 Whether you are trying to report a privacy-abusive corporate practice, push back against an invasive regulation proposal, or raise awareness about a public institution's privacy malpractices, you must be firm, loud, and determined.
 
