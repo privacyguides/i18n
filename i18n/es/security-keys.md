@@ -97,7 +97,7 @@ Los modelos de Nitrokey pueden ser configurados utilizando la [aplicación de Ni
 <div class="admonition warning" markdown>
 <p class="admonition-title">Advertencia</p>
 
-Starting with Nitrokey 3, HOTP and TOTP secrets are additionally encrypted at rest. Older Nitrokey devices like Nitrokey Pro 2 and Nitrokey Storage 2 did not encrypt OTP secrets at rest, which makes the OTP secrets on these devices potentially vulnerable to physical attacks.
+A partir de la Nitrokey 3, los secretos HOTP y TOTP se cifran adicionalmente cuando están en reposo. Los dispositivos Nitrokey más antiguos, como la Nitrokey Pro 2 y la Nitrokey Storage 2, no cifraban los secretos OTP en reposo, lo que hace que dichos secretos en estos dispositivos sean potencialmente vulnerables a ataques físicos.
 
 </div>
 

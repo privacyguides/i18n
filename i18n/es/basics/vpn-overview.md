@@ -36,9 +36,9 @@ Ten en cuenta que una VPN no añade ningún tipo de seguridad o cifrado a tu tr�
 
 ## ¿Debería usar una VPN?
 
-**Sí**, casi seguro. The advantages of a VPN include:
+**Sí**, casi seguro. Entre las ventajas de una VPN se incluyen:
 1. Oculta tu tráfico **solo** de tu proveedor de servicios de Internet.
-1. Hiding your IP from third-party websites and services, preventing IP based tracking.
+1. Oculta tu IP de sitios web y servicios de terceros, evitando el rastreo basado en la IP.
 1. Te permite saltarte las restricciones geográficas de determinados contenidos.
 
 Las VPN pueden proporcionar a *algunos* de los mismos beneficios que proporciona Tor, como ocultar tu IP de los sitios web que visitas y desplazar geográficamente tu tráfico de red, y los buenos proveedores de VPN no cooperarán con, por ejemplo, las autoridades legales de regímenes opresivos, especialmente si eliges un proveedor de VPN fuera de tu propia jurisdicción.
@@ -57,7 +57,7 @@ Tampoco deberías confiar en una VPN para asegurar tu conexión a un destino HTT
 
 A menos que tu proveedor de VPN aloje los propios servidores DNS cifrados, **probablemente no**. Utilizar DOH/DOT (o cualquier otra forma de DNS cifrado) con servidores de terceros simplemente añadirá más entidades en las que confiar. Tu proveedor de VPN aún puede ver qué sitios web visitas basándose en las direcciones IP y otros métodos. Dicho esto, puede tener algunas ventajas activar el DNS cifrado para activar otras funciones de seguridad en tu navegador, como ECH. Las tecnologías de navegación que dependen del DNS cifrado en el navegador son relativamente nuevas y aún no están muy extendidas, por lo que si son relevantes para ti en particular es un ejercicio que te dejamos para que lo investigues por tu cuenta.
 
-Another common reason encrypted DNS is recommended is that it prevents DNS manipulation attacks. Sin embargo, tu navegador ya debería estar buscando [certificados TLS](https://en.wikipedia.org/wiki/Transport_Layer_Security#Digital_certificates) con **HTTPS** y advertirte al respecto. Si no estás utilizando **HTTPS**, entonces un adversario todavía puede simplemente modificar cualquier cosa que no sean tus consultas DNS y el resultado final será similar.
+Otra razón habitual por la que se recomienda el DNS cifrado es que evita los ataques de manipulación del DNS. Sin embargo, tu navegador ya debería estar buscando [certificados TLS](https://en.wikipedia.org/wiki/Transport_Layer_Security#Digital_certificates) con **HTTPS** y advertirte al respecto. Si no estás utilizando **HTTPS**, entonces un adversario todavía puede simplemente modificar cualquier cosa que no sean tus consultas DNS y el resultado final será similar.
 
 ## ¿Debería usar Tor *y* una VPN?
 

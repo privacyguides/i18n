@@ -89,14 +89,14 @@ Para obtener más información sobre cada proyecto, por qué han sido elegidos y
 
     **Brave** es un navegador privado por defecto basado en Chromium, por lo que debería resultar familiar y tener mínimos problemas de compatibilidad con sitios web.
 
-    - [Brave Desktop Review :material-arrow-right-drop-circle:](desktop-browsers.md#brave)
-    - [Brave Mobile Review :material-arrow-right-drop-circle:](mobile-browsers.md#brave)
+    - [Reseña de Brave para PC :material-arrow-right-drop-circle:](desktop-browsers.md#brave)
+    - [Reseña de Brave para Móvil :material-arrow-right-drop-circle:](mobile-browsers.md#brave)
 
 - ![Safari logo](assets/img/browsers/safari.svg){ .lg .middle .twemoji } **Safari (iOS)**
 
     ---
 
-    We recommend **Safari** due to its [anti-fingerprinting](https://webkit.org/blog/15697/private-browsing-2-0) features and default tracker blocking. También separa sus cookies en el modo de navegación privada para evitar el seguimiento entre pestañas.
+    Recomendamos **Safari** por sus funciones [contra el rastreo de huellas digitales](https://webkit.org/blog/15697/private-browsing-2-0) y el bloqueo predeterminado de rastreadores. También separa sus cookies en el modo de navegación privada para evitar el seguimiento entre pestañas.
 
     - [Lea la Reseña Completa :material-arrow-right-drop-circle:](mobile-browsers.md#safari-ios)
 
@@ -449,7 +449,7 @@ Para cifrar su unidad de SO, normalmente recomendamos utilizar la herramienta de
 <div class="grid cards" markdown>
 
 - ![Redlib logo](assets/img/frontends/redlib.svg){ .twemoji loading=lazy } [Redlib (Reddit, Web)](frontends.md#redlib)
-- ![FreeTube logo](assets/img/frontends/freetube.svg){ .twemoji loading=lazy } [FreeTube (YouTube, Desktop)](frontends.md#freetube)
+- ![FreeTube logo](assets/img/frontends/freetube.svg){ .twemoji loading=lazy } [FreeTube (YouTube, Escritorio)](frontends.md#freetube)
 - ![LibreTube logo](assets/img/frontends/libretube.svg#only-light){ .twemoji loading=lazy }![LibreTube logo](assets/img/frontends/libretube-dark.svg#only-dark){ .twemoji loading=lazy } [LibreTube (YouTube, Android)](frontends.md#libretube-android)
 - ![NewPipe logo](assets/img/frontends/newpipe.svg){ .twemoji loading=lazy } [NewPipe (YouTube, Android)](frontends.md#newpipe-android)
 - ![Invidious logo](assets/img/frontends/invidious.svg#only-light){ .twemoji loading=lazy }![Invidious logo](assets/img/frontends/invidious-dark.svg#only-dark){ .twemoji loading=lazy } [Invidious (YouTube, Web)](frontends.md#invidious)
@@ -465,10 +465,10 @@ Para cifrar su unidad de SO, normalmente recomendamos utilizar la herramienta de
 
 - ![Drip logo](assets/img/health-and-wellness/drip.png){ .twemoji loading=lazy } [Drip](health-and-wellness.md#drip)
 - ![Euki logo](assets/img/health-and-wellness/euki.svg){ .twemoji loading=lazy } [Euki](health-and-wellness.md#euki)
-- ![Apple Health logo](assets/img/health-and-wellness/apple-health.webp#only-light){ .twemoji loading=lazy } ![Apple Health logo](assets/img/health-and-wellness/apple-health-dark.webp#only-dark){ .twemoji loading=lazy } [Apple Health](health-and-wellness.md#apple-health)
+- ![Apple Health logo](assets/img/health-and-wellness/apple-health.webp#only-light){ .twemoji loading=lazy } ![Apple Health logo](assets/img/health-and-wellness/apple-health-dark.webp#only-dark){ .twemoji loading=lazy } [Salud de Apple](health-and-wellness.md#apple-health)
 - ![Apple Fitness logo](assets/img/health-and-wellness/apple-fitness.webp){ .twemoji loading=lazy } [Apple Fitness](health-and-wellness.md#apple-fitness)
 - ![Gadgetbridge logo](assets/img/health-and-wellness/gadgetbridge.svg#only-light){ .twemoji loading=lazy }![Gadgetbridge logo](assets/img/health-and-wellness/gadgetbridge-dark.svg#only-dark){ .twemoji loading=lazy } [Gadgetbridge](health-and-wellness.md#gadgetbridge)
-- ![Apple Health logo](assets/img/health-and-wellness/apple-health.webp#only-light){ .twemoji loading=lazy } ![Apple Health logo](assets/img/health-and-wellness/apple-health-dark.webp#only-dark){ .twemoji loading=lazy } [Apple Health Records](health-and-wellness.md#apple-health-records)
+- ![Apple Health logo](assets/img/health-and-wellness/apple-health.webp#only-light){ .twemoji loading=lazy } ![Apple Health logo](assets/img/health-and-wellness/apple-health-dark.webp#only-dark){ .twemoji loading=lazy } [Historial Clínico de Apple](health-and-wellness.md#apple-health-records)
 - ![CommonHealth logo](assets/img/health-and-wellness/commonhealth.png){ .twemoji loading=lazy } [CommonHealth](health-and-wellness.md#commonhealth)
 
 </div>
