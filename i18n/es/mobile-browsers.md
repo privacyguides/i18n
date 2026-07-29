@@ -78,11 +78,11 @@ Tor Browser es la única manera de navegar por Internet de forma verdaderamente 
 
 === "Android"
 
-    These options can be found in :material-dots-vertical: → **Settings** → **Brave Shields & privacy**.
+    Estas opciones se encuentran en :material-dots-vertical: → **Configuración** → **Protecciones y privacidad de Brave**.
 
 === "iOS"
 
-    These options can be found in :material-dots-horizontal: → **All Settings** → **Shields & Privacy**.
+    Estas opciones se encuentran en :material-dots-horizontal: → **Configuración** → **Protecciones y privacidad**.
 
 #### Valores generales predeterminados de los escudos de Brave
 
@@ -148,7 +148,7 @@ Las opciones de los escudos pueden reducirse según las necesidades de cada siti
     - \[x\] (Opcional) Selecciona **Sin protección** en *Navegación segura* (1)
     - [x] Selecciona **Desactivar UDP sin proxy** en [*Política de gestión de IP de WebRTC*](https://support.brave.com/hc/articles/360017989132-How-do-I-change-my-Privacy-Settings#webrtc)
     - [ ] Desmarca **Permite a los sitios comprobar si tienes métodos de pago guardados**
-    - [x] Select **Do not speed up sites with Brave's V8 engine but make Brave slightly more resistant to attacks**
+    - [x] Selecciona **No acelerar los sitios web con el motor V8 de Brave, pero hacer que Brave sea un poco más resistente a los ataques**
     - [x] Selecciona **Cerrar pestañas al salir**
     - [ ] Desmarca **Permitir estadísticas del producto con preservación de la privacidad (P3A)**
     - [ ] Desmarca **Enviar informes de diagnóstico automáticamente**
@@ -167,29 +167,29 @@ Las opciones de los escudos pueden reducirse según las necesidades de cada siti
 
 === "Android"
 
-    These options can be found in :material-dots-vertical: → **Settings** → **Leo AI**.
+    Estas opciones se encuentran en :material-dots-vertical: → **Configuración** → **Leo IA**.
 
-    - [ ] Uncheck **Show autocomplete suggestions in address bar**
+    - [ ] Desmarca **Mostrar sugerencias autocompletadas en la barra de direcciones**
 
 === "iOS"
 
-    These options can be found in :material-dots-horizontal: → **All Settings** → **Leo AI**.
+    Estas opciones se encuentran en :material-dots-horizontal: → **Configuración** → **Leo IA**.
 
-    - [ ] Uncheck **Show In Quick Search Engine Bar**
+    - [ ] Desmarca **Mostrar en la barra de motores de búsqueda rápida**
 
 #### Motores de búsqueda
 
 === "Android"
 
-    These options can be found in :material-dots-vertical: → **Settings** → **Search engines**.
+    Estas opciones se encuentran en :material-dots-vertical: → **Configuración** → **Motores de búsqueda**.
 
     - [ ] Desmarca **Mostrar sugerencias de búsqueda**
 
 === "iOS"
 
-    These options can be found in :material-dots-horizontal: → **All Settings** → **Search engines**.
+    Estas opciones se encuentran en :material-dots-horizontal: → **Configuración** → **Motores de búsqueda**.
 
-    - [ ] Uncheck **Show In Quick Search Engine Bar**
+    - [ ] Desmarca **Mostrar en la barra de motores de búsqueda rápida**
 
 #### Brave Sync
 

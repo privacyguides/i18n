@@ -14,7 +14,7 @@ global:
 
 - [:material-account-cash: Capitalismo de Vigilancia](basics/common-threats.md#surveillance-as-a-business-model ""){.pg-brown}
 
-If you're looking for additional *privacy* from your ISP or on a public Wi-Fi network, a **VPN** may be the solution for you.
+Si buscas mayor *privacidad* frente a tu ISP o en una red wifi pública, una **VPN** puede ser la solución que necesitas.
 
 <div class="admonition danger" markdown>
 <p class="admonition-title">Las VPN no proporcionan anonimato</p>
@@ -90,7 +90,7 @@ Proton VPN proporciona el código fuente para sus clientes de escritorio y móvi
 
 #### :material-check:{ .pg-green } Acepta efectivo
 
-Proton VPN, in addition to accepting credit/debit cards, PayPal, and [Bitcoin](advanced/payments.md#other-coins-bitcoin-ethereum-etc), also accepts **cash/local currency** as an anonymous form of payment.
+Proton VPN, además de tarjetas de crédito/débito, PayPal y [Bitcoin](advanced/payments.md#other-coins-bitcoin-ethereum-etc), también acepta **efectivo/moneda local** como forma de pago anónima.
 
 #### :material-check:{ .pg-green } Soporte de WireGuard
 
@@ -125,15 +125,15 @@ Hacemos notar esto porque, aunque no recomendamos necesariamente que no se compa
 
 </div>
 
-#### :material-alert-outline:{ .pg-orange } Additional Notes
+#### :material-alert-outline:{ .pg-orange } Notas Adicionales
 
 Los clientes de Proton VPN soportan autenticación de doble factor en todas las plataformas. El cliente móvil en Android también está disponible en \[F-Droid\](https://f-droid.org/packages/net.mullvad.mullvadvpn), lo que garantiza que se compila con \[builds reproducibles\](https://www.f-droid.org/en/2019/05/05/trust-privacy-and-free-software.html). Ofrecen bloqueo de contenidos y bloqueo de malware conocido con su servicio DNS. Además, Proton VPN también ofrece servidores de "Tor" que te permiten conectarte con facilidad a los sitios onion, pero recomendamos encarecidamente usar [el navegador oficial de Tor](tor.md#tor-browser) para este propósito.
 
-##### Kill switch feature provides poor protections on macOS
+##### La función «kill switch» ofrece una protección deficiente en macOS
 
-Proton VPN's kill switch on macOS does not block any traffic when you intentionally disconnect from the VPN, *including when you disconnect by switching servers.* You should not make any sensitive connections while the VPN is turned off, nor when switching servers. It is only designed to prevent traffic leaks in the case of an unexpected VPN disconnection, which is still a useful feature to have, but it does not provide the same level of protection as a kill switch that blocks all traffic when the VPN is turned off.
+El «kill switch» de Proton VPN en macOS no bloquea ningún tipo de tráfico cuando te desconectas intencionadamente de la VPN, *ni siquiera cuando lo haces al cambiar de servidor.* No deberías establecer ninguna conexión confidencial mientras la VPN esté desactivada, ni tampoco al cambiar de servidor. Está diseñado únicamente para evitar fugas de tráfico en caso de una desconexión inesperada de la VPN, lo cual sigue siendo una función útil, pero no ofrece el mismo nivel de protección que un «kill switch» que bloquea todo el tráfico cuando se desactiva la VPN.
 
-Additionally, system crashes [may occur](https://protonvpn.com/support/macos-t2-chip-kill-switch) on Intel-based Macs when using the VPN kill switch. Utilizan \[ShadowSocks\](https://shadowsocks.org/en/index.html) en su configuración de ShadowSocks + OpenVPN, lo que les hace más resistentes contra los cortafuegos con \[Inspección profunda de paquete\](https://es.wikipedia.org/wiki/Deep_Packet_Inspection) que intentan bloquear las VPN.
+Además, [podrían producirse](https://protonvpn.com/support/macos-t2-chip-kill-switch) fallos del sistema en los Mac con procesadores Intel al utilizar el «kill switch» de la VPN. Utilizan \[ShadowSocks\](https://shadowsocks.org/en/index.html) en su configuración de ShadowSocks + OpenVPN, lo que les hace más resistentes contra los cortafuegos con \[Inspección profunda de paquete\](https://es.wikipedia.org/wiki/Deep_Packet_Inspection) que intentan bloquear las VPN.
 
 ### IVPN
 
@@ -303,20 +303,20 @@ Es importante tener en cuenta que el uso de un proveedor de VPN no le hará anó
 
 ### Tecnología
 
-We require our recommended providers to support modern technologies currently available to VPNs.
+Exigimos a nuestros proveedores recomendados que sean compatibles con las tecnologías modernas disponibles actualmente para las VPN.
 
 **Mínimo para Calificar:**
 
-- Must provide standard configuration files which can be used in a generic, open-source client such as the WireGuard apps.
-- Support for strong protocols such as WireGuard.
-- Functional kill switch built in to service-provided clients on our recommended [desktop](desktop.md) and [mobile](android/distributions.md) platforms. This kill switch should be able to block all internet traffic when the VPN connection drops unexpectedly.
+- Debe proporcionar archivos de configuración estándar que puedan utilizarse en un cliente genérico de código abierto, como las aplicaciones de WireGuard.
+- Compatibilidad con protocolos robustos como WireGuard.
+- «Kill switch» funcional integrado en los clientes proporcionados por el servicio en nuestras plataformas recomendadas [de escritorio](desktop.md) y [móviles](android/distributions.md). Este «kill switch» debería ser capaz de bloquear todo el tráfico de Internet cuando la conexión VPN se interrumpa de forma inesperada.
 - Soporte de multisalto. Los saltos múltiples son importantes para mantener la privacidad de los datos en caso de que un solo nodo se vea comprometido.
 - Si se proporcionan clientes VPN, deben ser de [código abierto](https://en.wikipedia.org/wiki/Open_source), como el software VPN que generalmente llevan incorporado. Creemos que la disponibilidad del [código fuente](https://en.wikipedia.org/wiki/Source_code) proporciona una mayor transparencia sobre lo que hace realmente el programa.
 - Funciones de resistencia a la censura diseñadas para eludir cortafuegos sin DPI.
 
 **Mejor Caso:**
 
-- Kill switch on all major platforms with highly configurable options (enable/disable on certain networks, on boot, etc.)
+- «Kill switch» en todas las plataformas principales, con opciones con muchas configuraciones posibles (activar/desactivar en determinadas redes, al arrancar el sistema, etc.)
 - Clientes VPN fáciles de usar
 - Soporte de [IPv6](https://en.wikipedia.org/wiki/IPv6). Esperamos que los servidores permitan las conexiones entrantes a través de IPv6 y le permitan acceder a los servicios alojados en direcciones IPv6.
 - La capacidad de [redirección de puertos](https://en.wikipedia.org/wiki/Port_forwarding#Remote_port_forwarding) ayuda a crear conexiones cuando se utiliza software de intercambio de archivos P2P ([Peer-to-Peer](https://en.wikipedia.org/wiki/Peer-to-peer)), Freenet, o se aloja un servidor (por ejemplo, Mumble).

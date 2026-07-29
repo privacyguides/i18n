@@ -61,13 +61,13 @@ Aplicaciones de seguimiento menstrual populares como [Flo](https://techcrunch.co
 
 </div>
 
-### Apple Health
+### Salud de Apple
 
 <div class="admonition recommendation" markdown>
 
 ![Apple logo](assets/img/health-and-wellness/apple-health.webp#only-light){ align=right }![Apple logo](assets/img/health-and-wellness/apple-health-dark.webp#only-dark){ align=right }
 
-Apple Health is one of the default apps installed on iOS devices. It includes many health and wellness features (see [Health Records](#apple-health-records)), including menstrual cycle tracking. It also uses gender-neutral language. Apple Health always uses end-to-end encryption when syncing across multiple devices.
+Salud de Apple es una de las aplicaciones predeterminadas que vienen instaladas en los dispositivos iOS. Incluye numerosas funciones relacionadas con la salud y el bienestar (véase [Registros Sanitarios](#apple-health-records)), entre las que se encuentra el seguimiento del ciclo menstrual. Además, utiliza un lenguaje neutro respecto al género. Salud de Apple siempre utiliza el cifrado de extremo a extremo cuando se sincroniza en varios dispositivos.
 
 [:octicons-home-16: Página Principal](https://apple.com/health){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://apple.com/legal/privacy/consumer-health-personal-data/en-ww){ .card-link title="Política de Privacidad" }
@@ -137,7 +137,7 @@ Estas aplicaciones te ayudan a recopilar y gestionar datos de tu salud y a compa
 
 ![Apple logo](assets/img/health-and-wellness/apple-health.webp#only-light){ align=right }![Apple logo](assets/img/health-and-wellness/apple-health-dark.webp#only-dark){ align=right }
 
-**Apple Health Records** is a built-in feature within [Apple Health](#apple-health) that allows you to view, store, and share your health records.
+**Historial Clínico de Apple** es una función integrada en [Salud de Apple](#apple-health) que te permite ver, almacenar y compartir tus historiales médicos.
 
 [:octicons-home-16: Página Principal](https://apple.com/health){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://apple.com/legal/privacy/consumer-health-personal-data/en-ww){ .card-link title="Política de Privacidad" }

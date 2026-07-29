@@ -162,37 +162,37 @@ Las cuentas empiezan con hasta 2 GB de almacenamiento, que pueden ampliarse seg�
 
 #### :material-check:{ .pg-green } Dominios Personalizados y Alias
 
-Mailbox Mail lets you use your own domain, and they support [catch-all](https://kb.mailbox.org/en/private/custom-domains/use-your-own-domain-with-catch-all/) addresses. Mailbox Mail also supports [sub-addressing](https://kb.mailbox.org/en/private/e-mail/what-is-an-alias-and-how-do-i-use-it/), which is useful if you don't want to purchase a domain.
+Mailbox Mail te permite utilizar tu propio dominio, y admite direcciones [catch-all](https://kb.mailbox.org/en/private/custom-domains/use-your-own-domain-with-catch-all/). Mailbox Mail también permite el [subdireccionamiento](https://kb.mailbox.org/en/private/e-mail/what-is-an-alias-and-how-do-i-use-it/), lo que resulta útil si no deseas adquirir un dominio.
 
 #### :material-check:{ .pg-green } Métodos Privados de Pago
 
-Mailbox Mail no acepta criptomonedas debido a que su procesador de pagos BitPay suspendió sus operaciones en Alemania. Sin embargo, aceptan **efectivo** por correo, pago en **efectivo** a cuenta bancaria, transferencia bancaria, tarjeta de crédito, PayPal y un par de procesadores específicos alemanes: Paydirekt y Sofortüberweisung.
+Mailbox Mail no acepta criptomonedas debido a que su procesador de pagos BitPay suspendió sus operaciones en Alemania. Sin embargo, acepta **efectivo** por correo, pago en **efectivo** a cuenta bancaria, transferencia bancaria, tarjeta de crédito, PayPal y un par de procesadores específicos alemanes: Paydirekt y Sofortüberweisung.
 
 #### :material-check:{ .pg-green } Seguridad de Cuenta
 
-Mailbox Mail supports [two-factor authentication](https://kb.mailbox.org/en/private/security-and-privacy/how-to-use-two-factor-authentication-2fa/) for their webmail only. Puedes utilizar TOTP o una [YubiKey](security-keys.md#yubikey) a través de [YubiCloud](https://yubico.com/products/services-software/yubicloud). Estándares web como [WebAuthn](basics/multi-factor-authentication.md#fido-fast-identity-online) aún no son soportados.
+Mailbox Mail solo admite la [autenticación de dos factores](https://kb.mailbox.org/en/private/security-and-privacy/how-to-use-two-factor-authentication-2fa/) para su correo web. Puedes utilizar TOTP o una [YubiKey](security-keys.md#yubikey) a través de [YubiCloud](https://yubico.com/products/services-software/yubicloud). Estándares web como [WebAuthn](basics/multi-factor-authentication.md#fido-fast-identity-online) aún no son soportados.
 
 #### :material-information-outline:{ .pg-blue } Seguridad de Datos
 
-Mailbox Mail allows for encryption of incoming mail using their [encrypted mailbox](https://kb.mailbox.org/en/private/encryption/your-encrypted-mailbox/). Nuevos mensajes que recibas se encriptaran inmediatamente con tu clave pública.
+Mailbox Mail permite encriptar el correo entrante utilizando su [buzón encriptado](https://kb.mailbox.org/en/private/encryption/your-encrypted-mailbox/). Nuevos mensajes que recibas se encriptaran inmediatamente con tu clave pública.
 
-However, [Open-Xchange](https://en.wikipedia.org/wiki/Open-Xchange), the software platform used by Mailbox Mail, [does not support](https://kb.mailbox.org/en/business/security-privacy-article/encryption-of-calendar-and-address-book/) the encryption of your address book and calendar. Una [opción independiente](calendar.md) puede ser más apropiada para esos datos.
+Sin embargo, [Open-Xchange](https://en.wikipedia.org/wiki/Open-Xchange), la plataforma de software utilizada por Mailbox Mail, [no admite](https://kb.mailbox.org/en/business/security-privacy-article/encryption-of-calendar-and-address-book/) el cifrado de tu libreta de contactos ni de tu calendario. Una [opción independiente](calendar.md) puede ser más apropiada para esos datos.
 
 #### :material-check:{ .pg-green } Encriptación de Correo Electrónico
 
-Mailbox Mail has [integrated encryption](https://kb.mailbox.org/en/private/encryption/how-can-e-mails-be-encrypted-with-pgp/) in their webmail, which simplifies sending messages to people with public OpenPGP keys. They also allow [remote recipients to decrypt an email](https://kb.mailbox.org/en/private/encryption/my-recipient-does-not-use-pgp/) on Mailbox Mail's servers. Esta característica es útil cuando el destinatario remoto no tiene OpenPGP y no puede descifrar una copia del correo electrónico en su propio buzón de correo.
+Mailbox Mail tiene [encriptación integrada](https://kb.mailbox.org/en/private/encryption/how-can-e-mails-be-encrypted-with-pgp/) en su correo web, lo que simplifica el envío de mensajes a personas con claves OpenPGP públicas. También permite que [los destinatarios remotos desencripten un correo electrónico](https://kb.mailbox.org/en/private/encryption/my-recipient-does-not-use-pgp/) en los servidores de Mailbox Mail. Esta característica es útil cuando el destinatario remoto no tiene OpenPGP y no puede descifrar una copia del correo electrónico en su propio buzón de correo.
 
 Mailbox Mail también admite el descubrimiento de claves públicas a través de HTTP desde su WKD. Esto permite a personas que no utilizan Mailbox Mail encontrar fácilmente las claves OpenPGP de las cuentas de Mailbox Mail para E2EE entre proveedores. Esto solo se aplica a las direcciones de correo electrónico que terminan en uno de los dominios propios de Mailbox Mail, como `@mailbox.org`. Si usas un dominio personalizado, debes [configurar WKD](basics/email-security.md#what-is-the-web-key-directory-standard) por separado.
 
 #### :material-information-outline:{ .pg-blue } Cancelación de Cuenta
 
-Tu cuenta se convertirá en una cuenta de usuario restringida cuando tu contrato finalice. It will be irrevocably deleted after [30 days](https://kb.mailbox.org/en/en/private/account/reactivate-a-deleted-account/).
+Tu cuenta se convertirá en una cuenta de usuario restringida cuando tu contrato finalice. Se eliminará de forma definitiva al cabo de [30 días](https://kb.mailbox.org/en/en/private/account/reactivate-a-deleted-account/).
 
 #### :material-information-outline:{ .pg-blue } Funcionalidad Adicional
 
-You can access your Mailbox Mail account via IMAP/SMTP using their [.onion service](https://kb.mailbox.org/en/en/private/security-privacy/using-the-tor-exit-node-from-mailbox/). Sin embargo, no se puede acceder a su interfaz de correo web a través de su servicio .onion, y es posible que se produzcan errores de certificado TLS.
+Puedes acceder a tu cuenta de Mailbox Mail a través de IMAP/SMTP utilizando su [servicio .onion](https://kb.mailbox.org/en/en/private/security-privacy/using-the-tor-exit-node-from-mailbox/). Sin embargo, no se puede acceder a su interfaz de correo web a través de su servicio .onion, y es posible que se produzcan errores de certificado TLS.
 
-All accounts come with limited cloud storage that [can be encrypted](https://kb.mailbox.org/en/private/drive/encrypt-files-on-your-drive/). Mailbox Mail also offers the alias [@secure.mailbox.org](https://kb.mailbox.org/en/business/e-mail-article/ensuring-e-mails-are-sent-securely/), which enforces the TLS encryption on the connection between mail servers, otherwise the message will not be sent at all. Mailbox Mail también es compatible con [Exchange ActiveSync](https://en.wikipedia.org/wiki/Exchange_ActiveSync), además de con protocolos de acceso estándar como IMAP y POP3.
+Todas las cuentas incluyen almacenamiento limitado en la nube que [puede cifrarse](https://kb.mailbox.org/en/private/drive/encrypt-files-on-your-drive/). Mailbox Mail también ofrece el alias [@secure.mailbox.org](https://kb.mailbox.org/en/business/e-mail-article/ensuring-e-mails-are-sent-securely/), que impone el cifrado TLS en la conexión entre servidores de correo; de lo contrario, el mensaje no se enviará. Mailbox Mail también es compatible con [Exchange ActiveSync](https://en.wikipedia.org/wiki/Exchange_ActiveSync), además de con protocolos de acceso estándar como IMAP y POP3.
 
 Mailbox Mail tiene una función de legado digital para todos los planes. Puedes elegir si deseas que alguno de tus datos se transmita a los herederos, siempre que lo soliciten y aporten tu testamento. Alternativamente, puedes designar a una persona por su nombre y dirección.
 

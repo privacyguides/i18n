@@ -55,7 +55,7 @@ uBlock Origin también tiene una versión «Lite» de su extensión, que ofrece 
 
 - ...no quieres conceder permisos completos para "leer/modificar datos del sitio web" a ninguna extensión (incluso una de confianza como uBlock Origin)
 - ...quieres un bloqueador de contenidos[^1] más eficiente en cuanto a recursos (memoria/CPU)
-- ...tu navegador solo admite extensiones Manifest V3. This is the case for Chrome[^2].
+- ...tu navegador solo admite extensiones Manifest V3. Este es el caso de Chrome[^2].
 
 <div class="admonition recommendation" markdown>
 
@@ -120,6 +120,6 @@ Las listas de filtros adicionales ralentizan las cosas y pueden aumentar su supe
 
 [^1]: uBlock Origin Lite _en sí mismo_ no consumirá recursos, ya que utiliza API más recientes que hacen que el navegador procese las listas de filtros de forma nativa, en lugar de ejecutar código JavaScript dentro de la extensión para gestionar el filtrado. Sin embargo, esta ventaja de recursos es solo [teórica](https://github.com/uBlockOrigin/uBOL-home/wiki/Frequently-asked-questions-(FAQ)#is-ubol-more-efficient-cpu--and-memory-wise-than-ubo), porque es posible que el código de filtrado estándar de uBlock Origin sea más eficiente que el código de filtrado nativo de tu navegador. Aún no se ha realizado una evaluación comparativa de esto.
 
-[^2]: [Brave](https://brave.com/blog/brave-shields-manifest-v3/) and [Opera](https://xcancel.com/Opera_Security/status/2066543496001888753) have committed to maintain MV2 support for as long as they're able to.
+[^2]: [Brave](https://brave.com/blog/brave-shields-manifest-v3/) y [Opera](https://xcancel.com/Opera_Security/status/2066543496001888753) se han comprometido a mantener la compatibilidad con MV2 por tanto tiempo como les sea posible.
 
 [^3]: Esto está empezando a cambiar, ya que las extensiones MV3 ahora pueden solicitar el uso de scripts. Esto ha permitido a [AdGuard](https://adguard.com/en/blog/adguard-browser-extension-v5-2.html) proponer la importación de listas de filtros personalizadas mediante la url, en lugar de tener que pegar manualmente las reglas, como es el caso de uBOL.

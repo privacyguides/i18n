@@ -9,7 +9,7 @@ cover: desktop.webp
 
 - [:material-account-cash: Capitalismo de Vigilancia](basics/common-threats.md#surveillance-as-a-business-model ""){.pg-brown}
 
-Las distribuciones de Linux se recomiendan comúnmente para la protección de la privacidad y la libertad del software. Si aún no utiliza Linux, a continuación le sugerimos que pruebe algunas distribuciones, así como algunos consejos generales para mejorar la privacidad y la seguridad que son aplicables a muchas distribuciones de Linux. Please note that some of our recommended software may not be packaged for your Linux distribution of choice.
+Las distribuciones de Linux se recomiendan comúnmente para la protección de la privacidad y la libertad del software. Si aún no utiliza Linux, a continuación le sugerimos que pruebe algunas distribuciones, así como algunos consejos generales para mejorar la privacidad y la seguridad que son aplicables a muchas distribuciones de Linux. Por favor, tenga en cuenta que es posible que algunos de los programas que recomendamos no estén disponibles para la distribución de Linux que haya elegido.
 
 - [Vista General de Linux :material-arrow-right-drop-circle:](os/linux-overview.md)
 
@@ -53,7 +53,7 @@ openSUSE Tumbleweed utiliza [Btrfs](https://es.wikipedia.org/wiki/Btrfs) y [Snap
 
 </div>
 
-As with the recommendation to avoid X11 in our [criteria](#criteria) for Linux distributions, we recommend avoiding desktop environments that support only the legacy X11 window system (for example, Xfce). Currently, KDE Plasma defaults to X11, but Wayland is supported.
+Al igual que en el caso de la recomendación de evitar X11 en nuestros [criterios](#criteria) para las distribuciones de Linux, recomendamos evitar los entornos de escritorio que solo sean compatibles con el sistema de ventanas X11 heredado (por ejemplo, Xfce). Actualmente, KDE Plasma utiliza X11 de forma predeterminada, pero es compatible con Wayland.
 
 Tumbleweed sigue un modelo de actualización continua en el que cada actualización se publica como una copia instantánea de la distribución. Al actualizar el sistema, se descarga una nueva copia instantánea. Cada copia instantánea es sometida a una serie de pruebas automatizadas por [openQA](https://openqa.opensuse.org) para garantizar su calidad.
 
@@ -127,7 +127,7 @@ NixOS es una distribución independiente basada en el gestor de paquetes Nix y c
 
 El gestor de paquetes de NixOS guarda cada versión de cada paquete en una carpeta diferente del almacén **Nix**. Debido a esto, puedes tener diferentes versiones del mismo paquete instalado en tu sistema. Después de escribir el contenido del paquete en la carpeta, esta pasa a ser de solo lectura.
 
-NixOS también proporciona actualizaciones atómicas. Primero descarga (o construye) los paquetes y archivos para la nueva generación de sistemas y luego cambia a ella. Hay diferentes maneras de cambiar a una nueva generación: puedes decirle a NixOS que la active después de reiniciar, o puedes cambiar a ella durante el tiempo de ejecución. También puedes *probar* la nueva generación cambiando a ella durante el tiempo de ejecución, pero sin establecerla como la generación actual del sistema. If something breaks during the update process, you can just reboot to return to a working version of your system.
+NixOS también proporciona actualizaciones atómicas. Primero descarga (o construye) los paquetes y archivos para la nueva generación de sistemas y luego cambia a ella. Hay diferentes maneras de cambiar a una nueva generación: puedes decirle a NixOS que la active después de reiniciar, o puedes cambiar a ella durante el tiempo de ejecución. También puedes *probar* la nueva generación cambiando a ella durante el tiempo de ejecución, pero sin establecerla como la generación actual del sistema. Si se produce algún fallo durante el proceso de actualización, solo tiene que reiniciar el equipo para volver a una versión funcional del sistema.
 
 El gestor de paquetes Nix utiliza un lenguaje puramente funcional -que también se llama Nix- para definir paquetes.
 

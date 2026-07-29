@@ -103,7 +103,7 @@ Cualquier otra modificación que no sea el ajuste de esta configuración haría 
 
 Ten en cuenta que aunque puedes usar Mullvad Browser con cualquier proveedor de VPN, otras personas en esa VPN también deben estar usando Mullvad Browser para que exista esta «multitud», algo que es más probable con Mullvad VPN que con otros proveedores. Mullvad Browser no tiene conectividad VPN integrada, ni comprueba si estás usando una VPN antes de navegar; tu conexión VPN tiene que ser configurada y gestionada por separado.
 
-Mullvad Browser viene con las extensiones de navegador *uBlock Origin* y *NoScript* preinstaladas. Aunque normalmente desaconsejamos añadir [extensiones](browser-extensions.md) *adicionales* al navegador, estas extensiones que vienen preinstaladas con el navegador **no** deberían ser eliminadas o configuradas fuera de sus valores por defecto, porque hacerlo haría notablemente distinta tu huella digital del navegador de otros usuarios de Mullvad Browser. It also comes pre-installed with the Mullvad Browser Extension, which *can* be safely removed without [impacting](https://mullvad.net/en/help/tag/mullvad-browser#112) your browser fingerprint if you would like, but is also safe to keep even if you don't use Mullvad VPN.
+Mullvad Browser viene con las extensiones de navegador *uBlock Origin* y *NoScript* preinstaladas. Aunque normalmente desaconsejamos añadir [extensiones](browser-extensions.md) *adicionales* al navegador, estas extensiones que vienen preinstaladas con el navegador **no** deberían ser eliminadas o configuradas fuera de sus valores por defecto, porque hacerlo haría notablemente distinta tu huella digital del navegador de otros usuarios de Mullvad Browser. Además, viene con la extensión Mullvad Browser Extension preinstalada, que *puedes* desinstalar de forma segura sin [que ello afecte a](https://mullvad.net/en/help/tag/mullvad-browser#112) la huella digital de tu navegador si así lo deseas, aunque también es seguro mantenerla aunque no utilices la VPN de Mullvad.
 
 ### Modo de Navegación Privada
 
@@ -156,14 +156,14 @@ Es posible que las funciones de sugerencia de búsqueda no estén disponibles en
 
 Las sugerencias de búsqueda envían todo lo que escribes en la barra de direcciones al motor de búsqueda predeterminado, independientemente de si realizas una búsqueda real. Desactivar las sugerencias de búsqueda te permite controlar con mayor precisión qué datos envías al proveedor de tu motor de búsqueda.
 
-##### Firefox Suggest
+##### Sugerencias de Firefox
 
-[Firefox Suggest](https://support.mozilla.org/kb/firefox-suggest) is a feature similar to search suggestions. Recomendamos desactivarlo por la misma razón que recomendamos desactivar las sugerencias de búsqueda. Si no ves estas opciones en el encabezado de la **Barra de Direcciones**, no tienes la nueva experiencia y puedes ignorar estos cambios.
+[Sugerencias de Firefox](https://support.mozilla.org/kb/firefox-suggest) es una función similar a las sugerencias de búsqueda. Recomendamos desactivarlo por la misma razón que recomendamos desactivar las sugerencias de búsqueda. Si no ves estas opciones en el encabezado de la **Barra de Direcciones**, no tienes la nueva experiencia y puedes ignorar estos cambios.
 
 - [ ] Desmarca **Sugerencias de Firefox**
 - [ ] Desmarca **Sugerencias de los patrocinadores**
 
-> According to Mozilla, ["Certain parts of Firefox Suggest are currently available only in some regions."](https://support.mozilla.org/kb/firefox-suggest)
+> Según Mozilla, [ «Algunas funciones de las Sugerencias de Firefox solo están disponibles actualmente en determinadas regiones».](https://support.mozilla.org/kb/firefox-suggest)
 
 #### Privacidad & Seguridad
 

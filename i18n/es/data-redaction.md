@@ -49,14 +49,14 @@ No se debe **nunca** utilizar el desenfoque para eliminar [texto en imágenes](h
 
 ![Metadata Cleaner logo](assets/img/data-redaction/metadatacleaner.svg){ align=right }
 
-**Metadata Cleaner** is a graphical metadata removal tool for Linux powered by [MAT2](https://github.com/jvoisin/mat2).
+**Metadata Cleaner** es una herramienta gráfica de eliminación de metadatos para Linux basada en [MAT2](https://github.com/jvoisin/mat2).
 
-[:octicons-home-16: Homepage](https://metadatacleaner.gitlab.io/metadatacleaner/){ .md-button .md-button--primary }
-[:octicons-code-16:](https://gitlab.com/metadatacleaner/metadatacleaner/){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://gitlab.com/metadatacleaner/metadatacleaner/-/blob/main/CONTRIBUTING.md){ .card-link title="Contribute" }
+[:octicons-home-16: Página Principal](https://metadatacleaner.gitlab.io/metadatacleaner/){ .md-button .md-button--primary }
+[:octicons-code-16:](https://gitlab.com/metadatacleaner/metadatacleaner/){ .card-link title="Código Fuente" }
+[:octicons-heart-16:](https://gitlab.com/metadatacleaner/metadatacleaner/-/blob/main/CONTRIBUTING.md){ .card-link title="Contribuir" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Downloads "Descargas"</summary>
 
 - [:simple-flathub: Flathub](https://flathub.org/en/apps/io.gitlab.metadatacleaner.metadatacleaner)
 
