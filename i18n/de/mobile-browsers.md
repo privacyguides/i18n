@@ -84,7 +84,7 @@ Tor Browser ist die einzige Möglichkeit, wirklich anonym im Internet zu surfen.
 
     These options can be found in :material-dots-horizontal: → **All Settings** → **Shields & Privacy**.
 
-#### Brave shields global defaults
+#### Globale Standardwerte für Brave Schutz
 
 Brave enthält einige Maßnahmen gegen Fingerabdrücke in seiner Funktion [Shields](https://support.brave.com/hc/articles/360022973471-What-is-Shields). Wir empfehlen, diese Optionen [global](https://support.brave.com/hc/articles/360023646212-How-do-I-configure-global-and-site-specific-Shields-settings) für alle Seiten zu konfigurieren.
 
@@ -149,7 +149,7 @@ Die Optionen im Schutz-Menü können je nach Bedarf für jede Website herunterge
     - [x] Wähle **Nicht-proxisiertes UDP deaktivieren** unter [*WebRTC-IP-Nutzungsrichtlinien*](https://support.brave.com/hc/articles/360017989132-How-do-I-change-my-Privacy-Settings#webrtc)
     - [ ] Deaktiviere **Websites die Abfrage gespeicherter zahlungsmethoden erlauben**
     - [x] Select **Do not speed up sites with Brave's V8 engine but make Brave slightly more resistant to attacks**
-    - [x] Select **Close tabs on exit**
+    - [x] Aktiviere **Registerkarten beim Beenden schließen**
     - [ ] Deaktiviere **Erlaubt Produktanalyse, die den Datenschutz respektiert (P3A)**
     - [ ] Deaktiviere **Automatisch Diagnoseberichte senden**
     - [ ] Deaktiviere **Ping der täglichen Nutzung automatisch an Brave senden**
@@ -160,16 +160,16 @@ Die Optionen im Schutz-Menü können je nach Bedarf für jede Website herunterge
 
 === "iOS"
 
-    - [ ] Uncheck **Allow Privacy-Preserving Product Analytics (P3A)**
+    - [ ] Deaktiviere **Erlaubt Produktanalyse, die den Datenschutz respektiert (P3A)**
     - [ ] Deaktiviere **Ping der täglichen Nutzung automatisch an Brave senden**
 
 #### Leo AI
 
 === "Android"
 
-    These options can be found in :material-dots-vertical: → **Settings** → **Leo AI**.
+    Diese Optionen sind unter :material-dots-vertical: → **Einstellungen** → **Brave Leo** zu finden.
 
-    - [ ] Uncheck **Show autocomplete suggestions in address bar**
+    - [ ] Deaktiviere **Vorschläge zur Autovervollständigung in der Addressleiste anzeigen**
 
 === "iOS"
 
@@ -177,11 +177,11 @@ Die Optionen im Schutz-Menü können je nach Bedarf für jede Website herunterge
 
     - [ ] Uncheck **Show In Quick Search Engine Bar**
 
-#### Search engines
+#### Suchmaschinen
 
 === "Android"
 
-    These options can be found in :material-dots-vertical: → **Settings** → **Search engines**.
+    Diese Optionen sind unter :material-dots-vertical: → **Einstellungen** → **Suchmaschinen** zu finden.
 
     - [ ] **Suchvorschläge anzeigen** deaktivieren
 

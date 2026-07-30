@@ -9,7 +9,7 @@ cover: frontends.webp
 
 - [:material-account-cash: Überwachungskapitalismus](basics/common-threats.md#surveillance-as-a-business-model ""){.pg-brown}
 
-Sometimes services will try to force you to sign up for an account by blocking access to content with annoying popups. They might also break without JavaScript enabled. These frontends can allow you to circumvent these restrictions.
+Sometimes services will try to force you to sign up for an account by blocking access to content with annoying popups. Sie könnten auch nicht funktionieren, wenn JavaScript deaktiviert ist. These frontends can allow you to circumvent these restrictions.
 
 If you choose to self-host these frontends, it is important that you have other people using your instance as well in order for you to blend in. You should be careful with where and how you are hosting, as other peoples' usage will be linked to your hosting.
 

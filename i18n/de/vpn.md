@@ -36,8 +36,8 @@ Die von uns empfohlenen Anbieter verwenden Verschlüsselung, unterstützen WireG
 | Anbieter              | Länder | WireGuard                     | Port-Weiterleitung                                           | IPv6                                                                    | Anonyme Zahlungen |
 | --------------------- | ------ | ----------------------------- | ------------------------------------------------------------ | ----------------------------------------------------------------------- | ----------------- |
 | [Proton](#proton-vpn) | 127+   | :material-check:{ .pg-green } | :material-alert-outline:{ .pg-orange } Teilweise unterstützt | :material-information-outline:{ .pg-blue } Eingeschränkte Unterstützung | Bargeld           |
-| [IVPN](#ivpn)         | 41+    | :material-check:{ .pg-green } | :material-alert-outline:{ .pg-orange }                       | :material-information-outline:{ .pg-blue } Nur ausgehend                | Monero  Cash      |
-| [Mullvad](#mullvad)   | 49+    | :material-check:{ .pg-green } | :material-alert-outline:{ .pg-orange }                       | :material-check:{ .pg-green }                                           | Monero  Cash      |
+| [IVPN](#ivpn)         | 41+    | :material-check:{ .pg-green } | :material-alert-outline:{ .pg-orange }                       | :material-information-outline:{ .pg-blue } Nur ausgehend                | Monero, Bargeld   |
+| [Mullvad](#mullvad)   | 49+    | :material-check:{ .pg-green } | :material-alert-outline:{ .pg-orange }                       | :material-check:{ .pg-green }                                           | Monero, Bargeld   |
 
 ### Proton VPN
 
@@ -66,7 +66,7 @@ Die von uns empfohlenen Anbieter verwenden Verschlüsselung, unterstützen WireG
 
 </div>
 
-#### :material-check:{ .pg-green } 127 Countries
+#### :material-check:{ .pg-green } 127 Länder
 
 Proton VPN has [servers in 127 countries](https://protonvpn.com/vpn-servers)(1) or [10](https://protonvpn.com/support/how-to-create-free-vpn-account) if you use their [free plan](https://protonvpn.com/blog/product-roadmap-winter-2025-2026).(2) Picking a VPN provider with a server nearest to you will reduce latency of the network traffic you send. Der Grund dafür ist eine kürzere Route (weniger Sprünge) zum Ziel.
 { .annotate }

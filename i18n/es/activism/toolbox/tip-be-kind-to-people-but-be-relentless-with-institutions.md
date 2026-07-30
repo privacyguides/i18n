@@ -1,19 +1,19 @@
 ---
 title: Sé amable con las personas, pero implacable con las instituciones
-description: Kindness and patience are essential qualities for privacy advocates. Para hacer crecer nuestro movimiento, debemos acercarnos a las personas en un ambiente de camaradería.
+description: La amabilidad y la paciencia son cualidades esenciales para quienes defendemos la privacidad. Para hacer crecer nuestro movimiento, debemos acercarnos a las personas en un ambiente de camaradería.
 icon: fontawesome/solid/hands-holding-circle
 cover: activism/banner-toolbox-tip-kind.webp
 ---
 
-Kindness and patience are essential qualities for privacy advocates. Para hacer crecer nuestro movimiento, debemos acercarnos a las personas en un ambiente de camaradería. La gente no cambia de opinión por ser reprendida. Sin embargo, esto no es así en el caso de las instituciones.
+La amabilidad y la paciencia son cualidades esenciales para quienes defendemos la privacidad. Para hacer crecer nuestro movimiento, debemos acercarnos a las personas en un ambiente de camaradería. La gente no cambia de opinión por ser reprendida. Sin embargo, esto no es así en el caso de las instituciones.
 
-Here's how you can **integrate kindness in your work**, while being relentless with institutions:
+Así es como puedes **integrar la amabilidad en tu trabajo**, mientras eres implacable con las instituciones:
 
-## Use kindness and patience while working with individuals
+## Sé amable y paciente mientras trabajas con personas
 
-Whenever you talk with individuals in your privacy work, make sure to **stay kind and calm** when communicating with them.
+Siempre que hables con personas en tu trabajo por la privacidad, asegúrate de **ser amable y estar en calma** cuando te comuniques con ellas.
 
-Perhaps you are posting on social media, replying to posts or emails, answering questions after a talk, or writing advices on the best privacy tools to use. No matter the context, when communicating with individuals, ==kindness is your greatest asset== to persuade and bring more people to the movement.
+Tal vez estás publicando en redes sociales, respondiendo a publicaciones o correos electrónicos, respondiendo dudas tras una charla o escribiendo consejos sobre las mejores herramientas de privacidad que se pueden utilizar. No importa el contexto, cuando te comunicas con personas, ==la amabilidad es tu mejor aliada== para convencer y atraer a más gente al movimiento.
 
 Sadly, it's not rare to see replies to beginners' posts by more advanced peers online that are humiliating and berating their uninformed or misinformed questions. People don't learn and don't change their mind by being yelled at. Aggression isn't an effective way to communicate.
 
