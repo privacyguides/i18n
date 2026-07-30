@@ -172,7 +172,7 @@ Our forum is built on Discourse, which uses the following cookies:
 | dosp                                                          | Yes       | Next Page View | enables client denial-of-service protection, a security protection                                                        |
 | text_size                                | Yes       | 1 year         | remembers default text size when a user wants to change it on only one device                                             |
 | cookietest                                                    | Yes       | Session        | checks if cookies are enabled when authentication fails                                                                   |
-| __profilin          | No        | Session        | used by software developers to bypass rack-mini-profiler                                                                  |
+| __profilin          | Nej       | Session        | used by software developers to bypass rack-mini-profiler                                                                  |
 
 Your web browser can show you the cookies you have for any website and help you manage them.
 

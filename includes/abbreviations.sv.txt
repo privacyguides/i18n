@@ -8,7 +8,7 @@
 *[CLI]: Kommandoradsgränssnitt
 *[CSV]: Kommaseparerade värden
 *[CVE]: Vanliga sårbarheter och exponeringar
-*[dark pattern]: A deceptive design pattern intended to trick a user into doing things
+*[vilseledande gränssnitt]: Vilseledande design som syftar till att lura användaren att utföra vissa handlingar
 *[digital legacy feature]: Digital Legacy refers to features that allow you to give other people access to your data when you die
 *[DNSSEC]: Säkerhetstillägg för domännamnssystem
 *[DNS]: Domännamnssystem
@@ -49,7 +49,7 @@
 *[ISP]: Internetleverantör
 *[ISPs]: Internetleverantör
 *[JNI]: Java inbyggt gränssnitt
-*[KYC]: Know Your Customer
+*[KYC]: Känn din kund
 *[LLaVA]: Large Language and Vision Assistant (multimodal AI model)
 *[LLMs]: Large Language Models (AI models such as ChatGPT)
 *[LUKS]: Linux Unified Key Setup (Full-Disk Encryption)
@@ -74,12 +74,12 @@
 *[P2P]: Peer-To-Peer
 *[PAM]: Linux Pluggable autentiseringsmoduler
 *[POP3]: Postkontorets protokoll 3
-*[PGP]: Pretty Good Privacy (see OpenPGP)
+*[PGP]: Pretty Good Privacy (se OpenPGP)
 *[PII]: Personligt identifierbar information
 *[QNAME]: Kvalificerat namn
 *[QUIC]: A network protocol based on UDP, but aiming to combine the speed of UDP with the reliability of TCP.
-*[rate limits]: Rate limits are restrictions that a service imposes on the number of times a user can access their services within a specified period of time.
-*[rullande utgåva]: Updates which are released frequently rather than set intervals
+*[anropsbegränsningar]: En tjänst kan sätta anropsbegränsningar för att begränsa hur många gånger en användare kan använda tjänsten inom en viss tidsperiod.
+*[rullande utgåva]: Uppdateringar som släpps ofta i stället för med fasta intervaller
 *[RSS]: Riktigt enkel syndikering
 *[SELinux]: Linux med förbättrad säkerhet
 *[SIM]: Modul för abonnentidentitet
@@ -109,5 +109,5 @@
 *[W3C]: World Wide Web Consortium
 *[XMPP]: Utökningsbart meddelande- och närvaroprotokoll
 *[PWA]: Progressiv webbapp
-*[PWAs]: Progressive Web Apps
+*[PWAs]: Progressiva webbappar
 *[WKD]: Web Key Directory
