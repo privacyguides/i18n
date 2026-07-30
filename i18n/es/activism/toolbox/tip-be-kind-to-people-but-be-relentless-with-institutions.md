@@ -1,5 +1,5 @@
 ---
-title: Be Kind to People, But Be Relentless With Institutions
+title: Sé amable con las personas, pero implacable con las instituciones
 description: Kindness and patience are essential qualities for privacy advocates. Para hacer crecer nuestro movimiento, debemos acercarnos a las personas en un ambiente de camaradería.
 icon: fontawesome/solid/hands-holding-circle
 cover: activism/banner-toolbox-tip-kind.webp

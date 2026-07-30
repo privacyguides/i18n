@@ -938,11 +938,11 @@ Por ejemplo, la DPA del estado de Oregón, en Estados Unidos, especifica que: «
 
 <button class="toolbox-button-top">[Volver al menú de las tablas :material-map-search:](#the-directory)</button> <br>
 
-### North America
+### América del Norte
 
 <div class="table-wrapper">
   <table role="table" class="dpadirectory-table table-northamerica">
-    <caption role="caption">Data Protection Authority Directory (North America)</caption>
+    <caption role="caption">Directorio de Autoridades de Protección de Datos (América del Norte)</caption>
 
     <!-- Table header -->
     <thead>
@@ -1314,11 +1314,11 @@ Por ejemplo, la DPA del estado de Oregón, en Estados Unidos, especifica que: «
 
 <button class="toolbox-button-top">[Volver al menú de las tablas :material-map-search:](#the-directory)</button> <br>
 
-### Oceania
+### Oceanía
 
 <div class="table-wrapper">
   <table role="table" class="dpadirectory-table table-oceania">
-    <caption role="caption">Data Protection Authority Directory (Oceania)</caption>
+    <caption role="caption">Directorio de Autoridades de Protección de Datos (Oceanía)</caption>
 
     <!-- Table header -->
     <thead>
@@ -1368,11 +1368,11 @@ Por ejemplo, la DPA del estado de Oregón, en Estados Unidos, especifica que: «
 
 <button class="toolbox-button-top">[Volver al menú de las tablas :material-map-search:](#the-directory)</button> <br>
 
-### South America
+### América del Sur
 
 <div class="table-wrapper">
   <table role="table" class="dpadirectory-table table-southamerica">
-    <caption role="caption">Data Protection Authority Directory (South America)</caption>
+    <caption role="caption">Directorio de Autoridades de Protección de Datos (América del Sur)</caption>
 
     <!-- Table header -->
     <thead>
@@ -1464,14 +1464,14 @@ Por ejemplo, la DPA del estado de Oregón, en Estados Unidos, especifica que: «
 
 <button class="toolbox-button-top">[Volver al menú de las tablas :material-map-search:](#the-directory)</button> <br>
 
-## Additional resources
+## Recursos adicionales
 
-- **For EU GDPR**: [Helpful tips on how to proceed with your request or complaint (_NOYB_)](https://noyb.eu/en/helpful-tips)
+- **En relación con el RGPD de la UE**: [Consejos útiles sobre cómo tramitar tu solicitud o reclamación (_NOYB_)](https://noyb.eu/en/helpful-tips)
 
-- **For EU GDPR**: [Explanation on the right to lodge a complaint (_NOYB_)](https://noyb.eu/en/your-right-lodge-complaint-article-77)
+- **En relación con el RGPD de la UE**: [Explicación sobre el derecho a presentar una reclamación (_NOYB_)](https://noyb.eu/en/your-right-lodge-complaint-article-77)
 
-- **For missing regions**[^1]: [Check this Global Privacy Law and DPA Directory (_IAPP_)](https://iapp.org/resources/global-privacy-directory)
+- **En relación con las regiones que faltan**[^1]: [Consulta este directorio de leyes de protección de datos y autoridades de protección de datos (_IAPP_)](https://iapp.org/resources/global-privacy-directory)
 
-- **For more information on each law**: [To learn more on each regulation, you can consult this useful database (_DLA Piper_)](https://www.dlapiperdataprotection.com/)
+- **Para obtener más información sobre cada ley**: [Para saber más sobre cada normativa, puedes consultar esta útil base de datos (_DLA Piper_)](https://www.dlapiperdataprotection.com/)
 
-[^1]: Some information from IAPP's Global Privacy Law and DPA Directory might be out-of-date.
+[^1]: Es posible que parte de la información del Directorio mundial de legislación sobre protección de datos y autoridades de protección de datos de la IAPP esté desactualizada.

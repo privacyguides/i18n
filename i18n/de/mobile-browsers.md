@@ -95,22 +95,22 @@ Die Optionen im Schutz-Menü können je nach Bedarf für jede Website herunterge
     <div class="annotate" markdown>
 
     - [x] Wähle **Aggressiv** unter *Tracker & Anzeigenblockierung*
-    - [x] Select **Auto-redirect AMP pages**
-    - [x] Select **Auto-redirect tracking URLs**
-    - [x] Select **Require all connections to use HTTPS (strict)** under *Upgrade connections to HTTPS*
-    - \[x\] (Optional) Select **Block Scripts** (1)
-    - [x] Select **Block third-party cookies** under *Block Cookies*
-    - [x] Select **Block Fingerprinting**
-    - [x] Select **Prevent fingerprinting via language settings**
+    - [x] Aktiviere **AMP-Seiten automatisch umleiten**
+    - [x] Aktiviere **Tracking-URLs automatisch umleiten**
+    - [x] Wähle **Alle Verbindungen müssen HTTPS verwenden (streng)** unter *Verbindungen auf HTTPS upgraden*
+    - \[x\] (Optional) Aktiviere **Skripte blockieren** (1)
+    - [x] Wähle **Drittanbieter-Cookies blockieren** unter *Cookies blockieren*
+    - [x] Aktiviere **Fingerprinting blockieren**
+    - [x] Aktiviere **Fingerprinting über die Spracheinstellungen verhindern**
 
     <details class="warning" markdown>
-    <summary>Use default filter lists</summary>
+    <summary>Standard Filterlisten verwenden</summary>
 
-    Brave allows you to select additional content filters within the **Content Filtering** menu or the internal `brave://adblock` page. Wir raten davon ab diese Funktion zu verwenden. Verwende stattdessen die voreingestellten Filterlisten. Die Verwendung zusätzlicher Listen hebt dich von anderen Brave-Benutzern ab, kann die Angriffsfläche vergrößern, wenn es eine Sicherheitslücke in Brave gibt und eine bösartige Regel zu einer von dir verwendeten Listen hinzugefügt wird.
+    Brave bietet die Möglichkeit, zusätzliche Inhaltsfilter im **Inhaltsfilter**-Menü oder der internen `brave://adblock` Seite auszuwählen. Wir raten davon ab diese Funktion zu verwenden. Verwende stattdessen die voreingestellten Filterlisten. Die Verwendung zusätzlicher Listen hebt dich von anderen Brave-Benutzern ab, kann die Angriffsfläche vergrößern, wenn es eine Sicherheitslücke in Brave gibt und eine bösartige Regel zu einer von dir verwendeten Listen hinzugefügt wird.
 
     </details>
 
-    - [x] Select **Site Tabs Closed** under *Auto Shred*
+    - Wähle **Tab der Website geschlossen** unter *Schreddern*
 
     </div>
 
@@ -124,12 +124,12 @@ Die Optionen im Schutz-Menü können je nach Bedarf für jede Website herunterge
     - [x] Select **Strict** under *Upgrade Connections to HTTPS*
     - [x] Select **Auto-Redirect AMP pages**
     - [x] Select **Auto-Redirect Tracking URLs**
-    - \[x\] (Optional) Select **Block Scripts** (1)
-    - [x] Select **Block Fingerprinting**
+    - \[x\] (Optional) Aktiviere **Skripte blockieren** (1)
+    - [x] Aktiviere **Fingerprinting blockieren**
     - [x] Select **Site Tabs Closed** under *Auto Shred*
 
     <details class="warning" markdown>
-    <summary>Use default filter lists</summary>
+    <summary>Standard Filterlisten verwenden</summary>
 
     Brave allows you to select additional content filters within the **Content Filtering** menu. Wir raten davon ab diese Funktion zu verwenden. Verwende stattdessen die voreingestellten Filterlisten. Die Verwendung zusätzlicher Listen hebt dich von anderen Brave-Benutzern ab, kann die Angriffsfläche vergrößern, wenn es eine Sicherheitslücke in Brave gibt und eine bösartige Regel zu einer von dir verwendeten Listen hinzugefügt wird.
 
@@ -145,9 +145,9 @@ Die Optionen im Schutz-Menü können je nach Bedarf für jede Website herunterge
 
     <div class="annotate" markdown>
 
-    - \[x\] (Optional) Select **No protection** under *Safe Browsing* (1)
-    - [x] Select **Disable non-proxied UDP** under [*WebRTC IP handling policy*](https://support.brave.com/hc/articles/360017989132-How-do-I-change-my-Privacy-Settings#webrtc)
-    - [ ] Uncheck **Allow sites to check if you have payment methods saved**
+    - \[x\] (Optional) Wähle **Kein Schutz** unter *Safe Browsing* (1)
+    - [x] Wähle **Nicht-proxisiertes UDP deaktivieren** unter [*WebRTC-IP-Nutzungsrichtlinien*](https://support.brave.com/hc/articles/360017989132-How-do-I-change-my-Privacy-Settings#webrtc)
+    - [ ] Deaktiviere **Websites die Abfrage gespeicherter zahlungsmethoden erlauben**
     - [x] Select **Do not speed up sites with Brave's V8 engine but make Brave slightly more resistant to attacks**
     - [x] Select **Close tabs on exit**
     - [ ] Deaktiviere **Erlaubt Produktanalyse, die den Datenschutz respektiert (P3A)**
