@@ -16,7 +16,7 @@ global:
 
 Use a **search engine** that doesn't build an advertising profile based on your searches.
 
-## Recommended Providers
+## Rekommenderade leverantörer
 
 The recommendations here do not collect personally identifying information (PII) based on each service's privacy policy. There is **no guarantee** that these privacy policies are honored.
 
@@ -24,7 +24,7 @@ Consider using a [VPN](vpn.md) or [Tor](tor.md) if your threat model requires hi
 
 | Leverantör                    | Search Index                                                                                                                                                                  | Tor Hidden Service            | Loggning / Integritetspolicy | Country of Operation |
 | ----------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------- | ---------------------------- | -------------------- |
-| [Brave Search](#brave-search) | [Independent](https://brave.com/search-independence)                                                                                                                          | :material-check:{ .pg-green } | Anonymized[^1]               | United States        |
+| [Brave Search](#brave-search) | [Independent](https://brave.com/search-independence)                                                                                                                          | :material-check:{ .pg-green } | Anonymiserad[^1]             | United States        |
 | [DuckDuckGo](#duckduckgo)     | [Bing](https://help.duckduckgo.com/results/sources)                                                                                                                           | :material-check:{ .pg-green } | Anonymized[^2]               | United States        |
 | [Startpage](#startpage)       | [Google och Bing](https://support.startpage.com/hc/articles/4522435533844-What-is-the-relationship-between-Startpage-and-your-search-partners-like-Google-and-Microsoft-Bing) | :material-check:{ .pg-green } | Anonymized[^3]               | Nederländerna        |
 
