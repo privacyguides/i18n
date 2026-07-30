@@ -16,7 +16,7 @@
 *[DoQ]: DNS sobre QUIC
 *[DoH3]: DNS sobre HTTP/3
 *[DoT]: DNS sobre TLS
-*[DPA]: Data Protection Authority
+*[DPA]: Autoridad de Protección de Datos
 *[DPI]: La Inspección Profunda de Paquetes identifica y bloquea los paquetes con cargas útiles específicas
 *[E2EE]: Cifrado/Encriptación de Extremo a Extremo
 *[ECS]: Subred de Cliente EDNS

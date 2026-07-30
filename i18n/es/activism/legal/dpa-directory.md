@@ -1,72 +1,72 @@
 ---
-title: "Data Protection Authorities"
-description: The DPA Directory is a tool to help you find the principal consumer privacy law in your region, the authority mandated to enforce it, and how to report violations.
+title: "Autoridades de Protección de Datos"
+description: El Directorio de las DPA es una herramienta que te ayuda a encontrar la principal ley de protección de datos de los consumidores de tu región, la autoridad encargada de velar por su cumplimiento y cómo denunciar las infracciones.
 #icon: fontawesome/solid/address-card
 cover: activism/banner-activism-dpadirectory.webp
 ---
 
-<small>Last update: 2026-03-30</small>
+<small>Última actualización: 30-03-2026</small>
 
-The **Data Protection Authority** (DPA) **Directory** is a tool to help you find the main consumer privacy law in your region, and the authority mandated to enforce the law.
+El **Directorio** de la **Autoridad de Protección de Datos** (DPA) es una herramienta que te ayuda a encontrar la principal ley de protección de datos de los consumidores de tu región, así como la autoridad encargada de velar por su cumplimiento.
 
-Additionally, this table provides information about each law, authority, contact information for questions, and a link to place a complaint for violation of the law with each authority.
+Además, esta tabla ofrece información sobre cada ley, la autoridad competente, los datos de contacto para resolver dudas y un enlace para presentar una reclamación por incumplimiento de la ley ante cada autoridad.
 
 <div class="admonition info" markdown>
-<p class="admonition-title">More information on privacy laws and reporting violations</p>
+<p class="admonition-title">Más información sobre la legislación en materia de protección de datos y cómo denunciar infracciones</p>
 
-- For more information on how to find a specific privacy law that might not be listed here, and what to look for when reading it, consult the Privacy Activist Toolbox tip to [Know Your Privacy Laws](../toolbox/tip-know-your-privacy-laws.md).
+- Para obtener más información sobre cómo encontrar una ley de protección de datos concreta que quizá no figure en esta lista y sobre qué aspectos debes tener en cuenta al leerla, consulta el consejo de la Caja de Herramientas para Activistas de la Privacidad titulado [Conoce tu legislación sobre la privacidad](../toolbox/tip-know-your-privacy-laws.md).
 
-- For more information on how to proceed when reporting a privacy law violation, consult the Privacy Activist Toolbox tip to [Report Privacy Violations](../toolbox/tip-report-privacy-violations.md).
+- Para obtener más información sobre cómo proceder a la hora de denunciar una infracción de la legislación en materia de protección de datos, consulta el consejo de la Caja de Herramientas para Activistas de la Privacidad sobre cómo [Informar sobre violaciones de la privacidad](../toolbox/tip-report-privacy-violations.md).
 
 </div>
 
-## Scope and limitations
+## Alcance y limitaciones
 
-- This directory does not constitute legal advice. For any legal questions, consult a privacy lawyer or contact the authority responsible for enforcing the law.
+- Este directorio no constituye asesoramiento jurídico. Si tienes alguna duda jurídica, consulta a un abogado especializado en protección de datos o ponte en contacto con la autoridad encargada de velar por el cumplimiento de la ley.
 
-- This directory only lists comprehensive consumer data privacy regulations that were effective on the date of the last update.
+- Este directorio solo recoge las normativas exhaustivas en materia de protección de datos de los consumidores que estaban en vigor en la fecha de la última actualización.
 
-- This directory isn't a complete list of all existing data protection regulations worldwide. If you feel like your region's regulation should be added to it, please reach out to us.
+- Este directorio no es una lista completa de todas las normativas vigentes en materia de protección de datos a nivel mundial. Si crees que debería incluirse la normativa de tu región, por favor, ponte en contacto con nosotros.
 
-- This directory does not list specialized privacy regulations related to specific data types, such as health data or children data.
+- Este directorio no recoge normativas específicas de protección de datos relacionadas con tipos de datos concretos, como los datos sanitarios o los datos de menores.
 
-- Remember that your data _could_ be protected by a privacy regulation that isn't listed here. This will depend on the region, circumstances, and type of data involved.
+- Recuerda que tus datos _podrían_ estar protegidos por una normativa de protección de datos que no figure en esta lista. Esto dependerá de la región, las circunstancias y el tipo de datos de que se trate.
 
 <div class="admonition warning" markdown>
-<p class="admonition-title">Privacy warning</p>
+<p class="admonition-title">Aviso de privacidad</p>
 
-When sharing personal information with a DPA, keep in mind this information could be shared with the subject of the complaint, and/or displayed publicly. Make sure to consult your DPA's privacy notice first, or ask anonymously how your complaint data might be shared before sending any sensitive information.
+Al facilitar datos personales a una autoridad DPA, ten en cuenta que dicha información podría compartirse con el destinatario de la reclamación y/o hacerse pública. Asegúrate de consultar primero la política de privacidad de tu DPA o de preguntar de forma anónima cómo podrían compartirse los datos de tu reclamación antes de enviar cualquier información sensible.
 
-For example, the DPA for the state of Oregon in the United States specifies that: "Any information submitted to this form is subject to Oregon’s Public Records Law. You may choose not to include personally identifiable data that you do not wish to be subject to public records requests."
+Por ejemplo, la DPA del estado de Oregón, en Estados Unidos, especifica que: «Cualquier información facilitada en este formulario está sujeta a la Ley de Registros Públicos de Oregón. Podrías optar por no incluir datos de carácter personal que no desees que sean objeto de solicitudes de acceso a registros públicos».
 
 </div>
 
-## The Directory
+## El Directorio
 
 <div class="toolbox-button-grid" markdown>
 
-[:fontawesome-solid-earth-africa:{ .toolbox-button-icon } Africa](#africa){ .toolbox-button .dpadirectory-button .dpadirectory-button-africa }
+[:fontawesome-solid-earth-africa:{ .toolbox-button-icon } África](#africa){ .toolbox-button .dpadirectory-button .dpadirectory-button-africa }
 
 [:fontawesome-solid-earth-asia:{ .toolbox-button-icon } Asia](#asia){ .toolbox-button .dpadirectory-button .dpadirectory-button-asia }
 
-[:fontawesome-solid-earth-europe:{ .toolbox-button-icon } Europe](#europe){ .toolbox-button .dpadirectory-button .dpadirectory-button-europe }
+[:fontawesome-solid-earth-europe:{ .toolbox-button-icon } Europa](#europe){ .toolbox-button .dpadirectory-button .dpadirectory-button-europe }
 
-[:fontawesome-solid-earth-america:{ .toolbox-button-icon } North America](#north-america){ .toolbox-button .dpadirectory-button .dpadirectory-button-northamerica }
+[:fontawesome-solid-earth-america:{ .toolbox-button-icon } América del Norte](#north-america){ .toolbox-button .dpadirectory-button .dpadirectory-button-northamerica }
 
-[:fontawesome-solid-earth-oceania:{ .toolbox-button-icon } Oceania](#oceania){ .toolbox-button .dpadirectory-button .dpadirectory-button-oceania }
+[:fontawesome-solid-earth-oceania:{ .toolbox-button-icon } Oceanía](#oceania){ .toolbox-button .dpadirectory-button .dpadirectory-button-oceania }
 
-[:fontawesome-solid-earth-america:{ .toolbox-button-icon } South America](#south-america){ .toolbox-button .dpadirectory-button .dpadirectory-button-southamerica }
+[:fontawesome-solid-earth-america:{ .toolbox-button-icon } América del Sur](#south-america){ .toolbox-button .dpadirectory-button .dpadirectory-button-southamerica }
 
 </div>
 
 ---
 
-### Africa
+### África
 
 <div class="table-wrapper">
 
   <table role="table" class="dpadirectory-table table-africa">
-    <caption role="caption">Data Protection Authority Directory (Africa)</caption>
+    <caption role="caption">Directorio de Autoridades de Protección de Datos (África)</caption>
 
     <!-- Table header -->
     <thead>
@@ -212,13 +212,13 @@ For example, the DPA for the state of Oregon in the United States specifies that
   </table>
 </div>
 
-<button class="toolbox-button-top">[Back to tables menu :material-map-search:](#the-directory)</button> <br>
+<button class="toolbox-button-top">[Volver al menú de las tablas :material-map-search:](#the-directory)</button> <br>
 
 ### Asia
 
 <div class="table-wrapper">
   <table role="table" class="dpadirectory-table table-asia">
-    <caption role="caption">Data Protection Authority Directory (Asia)</caption>
+    <caption role="caption">Directorio de Autoridades de Protección de Datos (Asia)</caption>
 
     <!-- Table header -->
     <thead>
@@ -378,13 +378,13 @@ For example, the DPA for the state of Oregon in the United States specifies that
   </table>
 </div>
 
-<button class="toolbox-button-top">[Back to tables menu :material-map-search:](#the-directory)</button> <br>
+<button class="toolbox-button-top">[Volver al menú de las tablas :material-map-search:](#the-directory)</button> <br>
 
-### Europe
+### Europa
 
 <div class="table-wrapper">
   <table role="table" class="dpadirectory-table table-europe">
-    <caption role="caption">Data Protection Authority Directory (Europe)</caption>
+    <caption role="caption">Directorio de Autoridades de Protección de Datos (Europa)</caption>
 
     <!-- Table header -->
     <thead>
@@ -936,7 +936,7 @@ For example, the DPA for the state of Oregon in the United States specifies that
   </table>
 </div>
 
-<button class="toolbox-button-top">[Back to tables menu :material-map-search:](#the-directory)</button> <br>
+<button class="toolbox-button-top">[Volver al menú de las tablas :material-map-search:](#the-directory)</button> <br>
 
 ### North America
 
@@ -1312,7 +1312,7 @@ For example, the DPA for the state of Oregon in the United States specifies that
   </table>
 </div>
 
-<button class="toolbox-button-top">[Back to tables menu :material-map-search:](#the-directory)</button> <br>
+<button class="toolbox-button-top">[Volver al menú de las tablas :material-map-search:](#the-directory)</button> <br>
 
 ### Oceania
 
@@ -1366,7 +1366,7 @@ For example, the DPA for the state of Oregon in the United States specifies that
   </table>
 </div>
 
-<button class="toolbox-button-top">[Back to tables menu :material-map-search:](#the-directory)</button> <br>
+<button class="toolbox-button-top">[Volver al menú de las tablas :material-map-search:](#the-directory)</button> <br>
 
 ### South America
 
@@ -1462,7 +1462,7 @@ For example, the DPA for the state of Oregon in the United States specifies that
   </table>
 </div>
 
-<button class="toolbox-button-top">[Back to tables menu :material-map-search:](#the-directory)</button> <br>
+<button class="toolbox-button-top">[Volver al menú de las tablas :material-map-search:](#the-directory)</button> <br>
 
 ## Additional resources
 
