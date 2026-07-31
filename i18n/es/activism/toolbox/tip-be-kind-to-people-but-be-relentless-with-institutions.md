@@ -29,24 +29,24 @@ Da tiempo para que las ideas crezcan y las opiniones cambien. Siembra semillas p
 
 ## Sé implacable con las empresas, los gobiernos y las instituciones públicas
 
-While patience and kindness are crucial to bring your message the right way to individuals, institutions do not function the same way.
+Mientras la paciencia y la amabilidad son fundamentales para transmitir tu mensaje de forma correcta a las personas, las instituciones no funcionan de la misma manera.
 
-Whether you are trying to report a privacy-abusive corporate practice, push back against an invasive regulation proposal, or raise awareness about a public institution's privacy malpractices, you must be firm, loud, and determined.
+Tanto si intentas denunciar una práctica empresarial abusiva de la privacidad, oponerte a una propuesta regulatoria intrusiva o dar a conocer malas prácticas de una institución en materia de privacidad, debes ser firme, enérgico y decidido.
 
-Respect and politeness are vital here as well. Violence or threat to representatives of these institutions would only be detrimental to your goals. However, patience shouldn't be extended to privacy-abusive organizations that aren't demonstrating any realistic intentions to improve.
+El respeto y la cortesía también son fundamentales en este caso. Actos violentos o amenazas a representantes de estas instituciones solamente irá en contra de tus objetivos. Sin embargo, no se debe tener paciencia con aquellas organizaciones que vulneran la privacidad y que no han mostrado intenciones realistas de mejorar.
 
-\==To bring significant changes to institutions and corporations, your message must be loud and clear.==
+\==Tu mensaje se debe escuchar alto y claro para lograr cambios significativos en las instituciones y empresas.==
 
-You should try to bring as many people and allied organizations to your cause, and be as loud as possible in the media. Your campaign must be powerful enough to grab media's attention, and to send a firm message that the people want change and will not back down.
+Debes intentar que se sumen a tu causa el mayor número posible de personas y organizaciones, y así haceros oír lo más posible en los medios de comunicación. Tu campaña debe ser lo suficientemente contundente como para atraer la atención de los medios de comunicación y debe transmitir un mensaje claro para que la gente quiera un cambio sin vuelta atrás.
 
-Each time your message is ignored, and the abuse continues, **shout louder** (metaphorically). Bring even _more_ people to the cause, until the popular discontent is so strong that they have no choice but to stop the abuse.
+Cada vez que tu mensaje sea ignorado y los abusos continúen **grita más fuerte** (metafóricamente). Atrae _más_ gente a la causa, hasta que el descontento popular sea tan fuerte que no tengan más remedio que parar los abusos.
 
-## More resources
+## Más recursos
 
-- [Rich resource for campaign strategy and community organizing (The Commons Social Change Library)](https://commonslibrary.org/)
+- [Un recurso valioso sobre estrategias de campañas y organización comunitaria (The Commons Social Change Library)](https://commonslibrary.org/)
 
-- [Campaign canvas template (Mobilisation Lab)](https://mobilisationlab.org/resources/campaign-canvas/)
+- [Plantilla para organización de campañas (Mobilisation Lab)](https://mobilisationlab.org/resources/campaign-canvas/)
 
-- [Campaigning guides for activists (Activist Handbook)](https://activisthandbook.org/)
+- [Guía de campañas para activistas (Activist Handbook)](https://activisthandbook.org/)
 
-- [How to do public speaking for activism (Activist Handbook)](https://activisthandbook.org/communication/public-speaking)
+- [Cómo hablar en público para activistas (Activist Handbook)](https://activisthandbook.org/communication/public-speaking)
