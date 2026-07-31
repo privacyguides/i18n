@@ -21,13 +21,13 @@ Es más, la agresividad es una estrategia horrible para lograr que más gente se
 
 En su lugar, sé amable y [desarrolla tus habilidades de empatía](https://www.verywellmind.com/what-is-empathy-2795562). Escribe desde la compasión, para atraer gradualmente a más y más [gente nueva](tip-welcome-beginners.md) a la causa.
 
-Stay patient and compassionate, even when people ask questions that might sound obvious to you. Be patient when people don't understand the first time you explain something. Happily clarify with simpler terms when needed, without being condescending.
+Sé paciente y comprensivo, también cuando la gente te haga preguntas que a ti te parezcan obvias. Sé paciente cuando la gente no entienda algo la primera vez que lo expliques. Explica utilizando términos más sencillos cuando sea necesario sin resultar condescendiente.
 
-Accept that some people might not be able to adopt all of your suggestions at once. It's okay, let them grow at their own pace.
+Acepta el hecho de que algunas personas no adopten todas tus sugerencias de una sola vez. Está bien, deja que crezcan a su propio ritmo.
 
-Give time for ideas to brew and change minds. Plant seeds for change, and gently wait for growth.
+Da tiempo para que las ideas crezcan y las opiniones cambien. Siembra semillas para el cambio y espera pacientemente a que germinen.
 
-## Be relentless with corporations, governments, and public institutions
+## Sé implacable con las empresas, los gobiernos y las instituciones públicas
 
 While patience and kindness are crucial to bring your message the right way to individuals, institutions do not function the same way.
 
