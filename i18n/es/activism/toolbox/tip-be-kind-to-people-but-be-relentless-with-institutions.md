@@ -15,11 +15,11 @@ Siempre que hables con personas en tu trabajo por la privacidad, asegúrate de *
 
 Tal vez estás publicando en redes sociales, respondiendo a publicaciones o correos electrónicos, respondiendo dudas tras una charla o escribiendo consejos sobre las mejores herramientas de privacidad que se pueden utilizar. No importa el contexto, cuando te comunicas con personas, ==la amabilidad es tu mejor aliada== para convencer y atraer a más gente al movimiento.
 
-Sadly, it's not rare to see replies to beginners' posts by more advanced peers online that are humiliating and berating their uninformed or misinformed questions. People don't learn and don't change their mind by being yelled at. Aggression isn't an effective way to communicate.
+Tristemente, no es extraño ver respuestas de usuarios más avanzados a publicaciones de principiantes en las que se les humilla y se les reprende por preguntas desinformadas o erróneas. La gente no aprende ni cambia de opinión por el hecho de que le griten. La agresividad no es una forma de comunicación efectiva.
 
-Furthermore, aggression is a horrible strategy to bring more people to your cause, which should be your ultimate goal as a privacy rights advocate and activist.
+Es más, la agresividad es una estrategia horrible para lograr que más gente se una a tu causa, lo que debería ser tu objetivo final como defensor y activista de los derechos de privacidad.
 
-Instead, be gentle and [develop your empathy skills](https://www.verywellmind.com/what-is-empathy-2795562). Write from a place of compassion, to gradually attract more and more [new people](tip-welcome-beginners.md) to the cause.
+En su lugar, sé amable y [desarrolla tus habilidades de empatía](https://www.verywellmind.com/what-is-empathy-2795562). Escribe desde la compasión, para atraer gradualmente a más y más [gente nueva](tip-welcome-beginners.md) a la causa.
 
 Stay patient and compassionate, even when people ask questions that might sound obvious to you. Be patient when people don't understand the first time you explain something. Happily clarify with simpler terms when needed, without being condescending.
 
