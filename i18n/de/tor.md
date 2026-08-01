@@ -50,9 +50,9 @@ Wenn du Wert auf vollständige Anonymität legst, solltest du **ausschließlich*
 
 <div class="admonition recommendation" markdown>
 
-![Tor Browser logo](assets/img/browsers/tor.svg){ align=right }
+![Tor Browser Logo](assets/img/browsers/tor.svg){ align=right }
 
-**Tor Browser** is the top choice if you need anonymity, as it provides you with access to the Tor network and bridges, and it includes default settings and extensions that are automatically configured by the default security levels: *Standard*, *Safer* and *Safest*.
+**Tor Browser** ist die erste Wahl wenn du Anonymität brauchst, da er Zugriff zu Tor Netzwerk und Bridges bietet. Er enthält Standarteinstellungen und Erweiterungen, die automatisch durch die Standard-Sicherheitsstufen *Standard*, *Sicherer* und *Am sichersten* konfiguriert werden.
 
 [:octicons-home-16: Homepage](https://torproject.org){ .md-button .md-button--primary }
 [:simple-torbrowser:](http://2gzyxa5ihm7nsggfxnu52rck2vv4rvmdlkiu3zzui5du4xyclen53wid.onion){ .card-link title="Onion Service" }
