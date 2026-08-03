@@ -33,9 +33,9 @@ La plateforme de dons personnalisée et open-source MAGIC Grant, notre hôte fis
     [![DeleteMe]](https://joindeleteme.com){ target=_blank title="DeleteMe" }
     [![Cape]](https://www.cape.co){ target=_blank title="Cape" }
 
-      [Power Up Privacy]: ../assets/img/donors/power-up-privacy.webp
-      [DeleteMe]: ../assets/img/donors/deleteme.webp
-      [Cape]: ../assets/img/donors/cape.webp
+      [Power Up Privacy] : ../assets/img/donors/power-up-privacy.webp
+      [DeleteMe] : ../assets/img/donors/deleteme.webp
+      [Cape] : ../assets/img/donors/cape.webp
 
     </div>
 
@@ -105,7 +105,7 @@ Ceci est une liste des [membres](https://donate.magicgrants.org/privacyguides/me
 </h3>
 
 <p spaces-before="0">
-  Organizational members that choose to be recognized publicly are included in our organizational members section (above), and occasionally at other opportunities where appropriate.
+  Les organisations membres qui choisissent d'être mentionnées publiquement figurent dans notre rubrique « Organisations membres » (ci-dessus) et, à l'occasion, dans d'autres contextes lorsque cela s'avère pertinent.
 </p>
 
 <p spaces-before="0">
