@@ -29,11 +29,13 @@ La plateforme de dons personnalisée et open-source MAGIC Grant, notre hôte fis
 
     <div class="mdx-specialthanks" markdown>
 
-    [![Power Up Privacy]](https://powerupprivacy.com){ rel=nofollow target=_blank title="Power Up Privacy" }
-    [![DeleteMe]](https://joindeleteme.com){ rel=nofollow target=_blank title="DeleteMe" }
+    [![Power Up Privacy]](https://powerupprivacy.com){ target=_blank title="Power Up Privacy" }
+    [![DeleteMe]](https://joindeleteme.com){ target=_blank title="DeleteMe" }
+    [![Cape]](https://www.cape.co){ target=_blank title="Cape" }
 
       [Power Up Privacy]: ../assets/img/donors/power-up-privacy.webp
       [DeleteMe]: ../assets/img/donors/deleteme.webp
+      [Cape]: ../assets/img/donors/cape.webp
 
     </div>
 
@@ -103,7 +105,7 @@ Ceci est une liste des [membres](https://donate.magicgrants.org/privacyguides/me
 </h3>
 
 <p spaces-before="0">
-  Les membres professionnels qui choisissent d'être reconnues publiquement sont mentionnés dans la section consacrée aux organisations membres (ci-dessus) et, le cas échéant, à d'autres occasions. Les liens vers les membres professionnels comportent l'attribut <code>rel="nofollow"</code>: nous avons adopté cette politique afin d'éviter tout abus potentiel de notre programme et de notre site dans le but d'améliorer le classement des ceux-ci dans les algorithmes de recherche. C'est malheureusement un problème croissant pour les organisations à but non-lucratif. Il s'agit d'une décision compliquée car nous connaissons de nombreux partisans sincères derrière ces entreprises mais nous avons décidé que c'était le meilleur choix pour nous.
+  Organizational members that choose to be recognized publicly are included in our organizational members section (above), and occasionally at other opportunities where appropriate.
 </p>
 
 <p spaces-before="0">

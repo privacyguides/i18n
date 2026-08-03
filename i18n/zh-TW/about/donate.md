@@ -29,11 +29,13 @@ MAGIC Grants 是我們的金流代理業者，他們的客製化開放原始碼�
 
     <div class="mdx-specialthanks" markdown>
 
-    [![Power Up Privacy]](https://powerupprivacy.com){ rel=nofollow target=_blank title="Power Up Privacy" }
-    [![DeleteMe]](https://joindeleteme.com){ rel=nofollow target=_blank title="DeleteMe" }
+    [![Power Up Privacy]](https://powerupprivacy.com){ target=_blank title="Power Up Privacy" }
+    [![DeleteMe]](https://joindeleteme.com){ target=_blank title="DeleteMe" }
+    [![Cape]](https://www.cape.co){ target=_blank title="Cape" }
 
       [Power Up Privacy]: ../assets/img/donors/power-up-privacy.webp
       [DeleteMe]: ../assets/img/donors/deleteme.webp
+      [Cape]: ../assets/img/donors/cape.webp
 
     </div>
 
@@ -103,7 +105,7 @@ MAGIC Grants 是我們的金流代理業者，他們的客製化開放原始碼�
 </h3>
 
 <p spaces-before="0">
-  願意被公開表彰的組織會員，將列名於上方的組織會員段落中，也偶爾會在其他適當的機會中被表彰。 連結到組織會員的超連結會包含 <code>rel="nofollow"</code> 屬性：我們採用此政策是為了要過濾可能濫用本計畫與網站，讓他們於搜尋引擎演算法中提高排名的可能。 很可惜的是，對於非營利組織來說，這是日益嚴重的問題。 這是一個複雜的決定。我們認識這些公司背後誠摯的支持者，但還是認為這是最適合我們的選擇。
+  Organizational members that choose to be recognized publicly are included in our organizational members section (above), and occasionally at other opportunities where appropriate.
 </p>
 
 <p spaces-before="0">

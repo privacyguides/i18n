@@ -29,11 +29,13 @@ MAGIC Grants is our fiscal host, and their custom, open-source donation platform
 
     <div class="mdx-specialthanks" markdown>
 
-    [![Power Up Privacy]](https://powerupprivacy.com){ rel=nofollow target=_blank title="Power Up Privacy" }
-    [![DeleteMe]](https://joindeleteme.com){ rel=nofollow target=_blank title="DeleteMe" }
+    [![Power Up Privacy]](https://powerupprivacy.com){ target=_blank title="Power Up Privacy" }
+    [![DeleteMe]](https://joindeleteme.com){ target=_blank title="DeleteMe" }
+    [![Cape]](https://www.cape.co){ target=_blank title="Cape" }
 
       [Power Up Privacy]: ../assets/img/donors/power-up-privacy.webp
       [DeleteMe]: ../assets/img/donors/deleteme.webp
+      [Cape]: ../assets/img/donors/cape.webp
 
     </div>
 
@@ -103,7 +105,7 @@ This is a list of our **active** [members](https://donate.magicgrants.org/privac
 </h3>
 
 <p spaces-before="0">
-  Organizational members that choose to be recognized publicly are included in our organizational members section (above), and occasionally at other opportunities where appropriate. Organizational member links include the <code>rel="nofollow"</code> attribute: We adopted this policy to screen out potential abuse of our program and site to raise the rank of third parties in search algorithms. Unfortunately, this is a growing problem for nonprofits. This was a complex decision since we know many of the sincere supporters behind these companies, but we decided that it was the best choice for us.
+  Organizational members that choose to be recognized publicly are included in our organizational members section (above), and occasionally at other opportunities where appropriate.
 </p>
 
 <p spaces-before="0">

@@ -29,11 +29,13 @@ MAGIC Grants es nuestro anfitrión fiscal, y su plataforma de donaciones persona
 
     <div class="mdx-specialthanks" markdown>
 
-    [![Power Up Privacy]](https://powerupprivacy.com){ rel=nofollow target=_blank title="Power Up Privacy" }
-    [![DeleteMe]](https://joindeleteme.com){ rel=nofollow target=_blank title="DeleteMe" }
+    [![Power Up Privacy]](https://powerupprivacy.com){ target=_blank title="Power Up Privacy" }
+    [![DeleteMe]](https://joindeleteme.com){ target=_blank title="DeleteMe" }
+    [![Cape]](https://www.cape.co){ target=_blank title="Cape" }
 
       [Power Up Privacy]: ../assets/img/donors/power-up-privacy.webp
       [DeleteMe]: ../assets/img/donors/deleteme.webp
+      [Cape]: ../assets/img/donors/cape.webp
 
     </div>
 
@@ -103,7 +105,7 @@ Esta es una lista de nuestros [miembros](https://donate.magicgrants.org/privacyg
 </h3>
 
 <p spaces-before="0">
-  Los miembros organizativos que deciden ser reconocidos públicamente se incluyen en nuestra sección de miembros organizativos (arriba), y ocasionalmente en otras oportunidades en las que resulte apropiado. Los enlaces de miembros organizativos incluyen el atributo <code>rel="nofollow"</code>: Adoptamos esta política para filtrar posibles abusos de nuestro programa y sitio con el fin de elevar el rango de terceros en los algoritmos de búsqueda. Por desgracia, se trata de un problema cada vez mayor para las organizaciones sin ánimo de lucro. Fue una decisión compleja, ya que conocemos a muchos de los partidarios sinceros que hay detrás de estas empresas, pero decidimos que era la mejor opción para nosotros.
+  Organizational members that choose to be recognized publicly are included in our organizational members section (above), and occasionally at other opportunities where appropriate.
 </p>
 
 <p spaces-before="0">
