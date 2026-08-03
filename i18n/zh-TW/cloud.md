@@ -88,8 +88,6 @@ Tresorit 已獲得多項獨立安全稽核：
 
         > 測試結果未發現任何偏離 Tresorit 資料保密性聲明的情況。
 
-他們也獲得了數位信任標籤，這是 [Swiss Digital Initiative](https://efd.admin.ch/en/swiss-digital-initiative-en) 發出的認證，要求通過 [35 項](https://swiss-digital-initiative.org/criteria)與安全、隱私與可靠性相關的標準。
-
 ## Peergos
 
 <div class="admonition recommendation" markdown>

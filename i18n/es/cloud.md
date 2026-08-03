@@ -88,8 +88,6 @@ Tresorit ha recibido varias auditorías de seguridad independientes:
 
         > Los resultados de las pruebas no revelaron ninguna desviación con respecto a las afirmaciones de Tresorit sobre la confidencialidad de los datos.
 
-También han recibido el Sello de Confianza Digital, una certificación de la [Swiss Digital Initiative](https://efd.admin.ch/en/swiss-digital-initiative-en) que exige superar [35 criterios](https://swiss-digital-initiative.org/criteria) relacionados con la seguridad, la privacidad y la fiabilidad.
-
 ## Peergos
 
 <div class="admonition recommendation" markdown>

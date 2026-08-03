@@ -88,8 +88,6 @@ Tresorit a fait l'objet d'un certain nombre d'audits de sécurité indépendants
 
         > Les résultats des tests n'ont révélé aucun écart par rapport aux déclarations de confidentialité des données de Tresorit.
 
-Tresorit est également certifié par le Digital Trust Label, délivrée par la [Swiss Digital Initiative](https://efd.admin.ch/en/swiss-digital-initiative-en), qui exigent de satisfaire [35 critères](https://swiss-digital-initiative.org/criteria) en lien avec la sécurité, la confidentialité, et la fiabilité.
-
 ## Peergos
 
 <div class="admonition recommendation" markdown>

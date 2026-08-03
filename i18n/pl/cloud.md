@@ -86,8 +86,6 @@ Tresorit przeszedł szereg niezależnych audytów bezpieczeństwa:
 
         > Test results found no deviation from Tresorit’s data confidentiality claims.
 
-They have also received the Digital Trust Label, a certification from the [Swiss Digital Initiative](https://efd.admin.ch/en/swiss-digital-initiative-en) which requires passing [35 criteria](https://swiss-digital-initiative.org/criteria) related to security, privacy, and reliability.
-
 ## Peergos
 
 <div class="admonition recommendation" markdown>
