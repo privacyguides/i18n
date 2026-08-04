@@ -31,7 +31,7 @@ Here are a few questions you can ask yourself whenever a new privacy issue arise
 
 - [ ] What will be the impact for the people who _cannot_ protect themselves individually?
 
-- [ ] What will be the impact for the people who _can_ protect themselves individually?
+- [ ] Quel sera l'impact pour les personnes qui _peuvent_ se protéger individuellement ?
 
 - [ ] Are there other solutions that could be adopted to fight this issue for _everyone_ at once, without relying on _individual_ harm mitigations.
 
@@ -45,4 +45,4 @@ Here are a few questions you can ask yourself whenever a new privacy issue arise
 
 - [Encryption must not be outlawed for our privacy tools to work (_Privacy Guides_)](https://www.privacyguides.org/articles/2025/04/11/encryption-is-not-a-crime/)
 
-- [Dangerous regulation proposals like Chat Control could impact everyone without many individual solutions (_Privacy Guides_)](https://www.privacyguides.org/articles/2025/09/08/chat-control-must-be-stopped/)
+- [Les propositions de réglementation dangereuses telles que « Chat Control » pourraient avoir des répercussions sur tout le monde, sans qu'il n'existe beaucoup de solutions individuelles (_Guides sur la vie privée_)](https://www.privacyguides.org/articles/2025/09/08/chat-control-must-be-stopped/)
