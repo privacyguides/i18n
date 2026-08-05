@@ -96,26 +96,26 @@ Avec ceci à l'esprit, voici quelques signaux positifs que vous pouvez garder à
 
 - [**Bonne réputation**](https://www.privacyguides.org/articles/2025/09/03/red-and-green-privacy-flags/#reputation-history) : Que disent les experts en confidentialité et sécurité à propos de ce produit ou de cette organisation ? Le produit ou l'organisation ont-ils une bonne réputation dans ce domaine ?
 
-- [**Access to evidence**](https://www.privacyguides.org/articles/2025/09/03/red-and-green-privacy-flags/#verifiable-claims): Are you able to verify the privacy claims from independent sources that aren't related to the business itself?
+- [**Accès aux preuves**](https://www.privacyguides.org/articles/2025/09/03/red-and-green-privacy-flags/#verifiable-claims) : Pouvez-vous vérifier les affirmations de confidentialités via des sources indépendantes qui ne sont pas liées à l'entreprise elle-même ?
 
-- [**Independent review**](https://www.privacyguides.org/articles/2025/09/03/red-and-green-privacy-flags/#independent-reviews): Was the product reviewed by an independent third-party who had significant access to test the product in a meaningful way?
+- [**Avis indépendant**](https://www.privacyguides.org/articles/2025/09/03/red-and-green-privacy-flags/#independent-reviews) : Le produit a-t-il été examiné par une partie tierce indépendante qui a eu un accès suffisant pour tester le produit de manière pertinente ?
 
-- [**Transparency**](https://www.privacyguides.org/articles/2025/09/03/red-and-green-privacy-flags/#transparency): Can you easily find detailed information about what data this organization collects, and how it processes and shares it? Would an independent expert have access to its software code to inspect it?
+- [**Transparence**](https://www.privacyguides.org/articles/2025/09/03/red-and-green-privacy-flags/#transparency) : Pouvez-vous facilement trouver des informations détaillées à propos des données que cette organisation collecte ainsi que sur la manière dont elle les traite et les partage ? Un expert indépendant a-t-il eu accès au code source de ce logiciel pour l'examiner ?
 
-- [**Clear funding model**](https://www.privacyguides.org/articles/2025/09/03/red-and-green-privacy-flags/#clear-funding-model): How does this organization make money? If it's free to use, does this organization rely on donations or grants? Is the product sold to users or to businesses? Where does the money come from?
+- [**Modèle de financement clair**](https://www.privacyguides.org/articles/2025/09/03/red-and-green-privacy-flags/#clear-funding-model) : Comment cette organisation gagne-t-elle de l'argent ? Si l'accès est gratuit, est-ce que cette organisation dépend de dons ou de subventions ? Le produit est-il vendu aux utilisateurs ou à des entreprises ? D'où vient l'argent ?
 
-- [**Availability**](https://www.privacyguides.org/articles/2025/09/03/red-and-green-privacy-flags/#availability): Could you easily contact this organization if you needed to? Can you find an email address dedicated to privacy requests and questions? Can you find where the organization is located? Would you have access to at least two different ways to contact it?
+- [**Disponibilité**](https://www.privacyguides.org/articles/2025/09/03/red-and-green-privacy-flags/#availability) : Pourriez-vous facilement contacter cette organisation si vous en aviez besoin ? Pouvez-vous trouver une adresse email dédiée pour les demandes et questions sur la confidentialité ? Pouvez-vous trouver où se situe cette organisation ? Auriez-vous accès à au moins deux moyens différents de la contacter ?
 
-- [**Expert recommendation**](https://www.privacyguides.org/articles/2025/09/03/red-and-green-privacy-flags/#expert-advice): Is this product recommended by independent privacy experts and nonprofit digital rights organizations?
+- [**Recommandations d'experts**](https://www.privacyguides.org/articles/2025/09/03/red-and-green-privacy-flags/#expert-advice) : Ce produit est-il recommandé par des experts en confidentialité indépendants et par des organisations à but non lucratif de défense des droits numériques ?
 
 </div>
 
-## More resources
+## Plus de ressources
 
-- [Tool recommendations vetted by our community (_Privacy Guides_)](../../tools.md)
+- [Recommandations d'outils validés par notre communauté (_Privacy Guides_)](../../tools.md)
 
-- [Extensive guide on how to evaluate better privacy tools and organizations (_Privacy Guides_)](https://www.privacyguides.org/articles/2025/09/03/red-and-green-privacy-flags/)
+- [Guide complet pour évaluer les meilleurs outils et organisme de protection de la vie privée (_Privacy Guides_)](https://www.privacyguides.org/articles/2025/09/03/red-and-green-privacy-flags/)
 
-- [Privacy washing is a dirty business (_Privacy Guides_)](https://www.privacyguides.org/articles/2025/08/20/privacy-washing-is-a-dirty-business/)
+- [Le "privacy washing" est une pratique douteuse (_Privacy Guides_)](https://www.privacyguides.org/articles/2025/08/20/privacy-washing-is-a-dirty-business/)
 
-- [Understanding encryption and end-to-end encryption (_Privacy Guides_ video)](https://www.privacyguides.org/videos/2025/04/03/is-your-data-really-safe-understanding-encryption/)
+- [Comprendre le chiffrement et le chiffrement de bout en bout (vidéo _Privacy Guides_)](https://www.privacyguides.org/videos/2025/04/03/is-your-data-really-safe-understanding-encryption/)
