@@ -1,61 +1,61 @@
 ---
-title: Be Mindful of Accessibility
-description: Accessibility should always be a priority in our work. To make our privacy communities welcoming to all, we must integrate it in our practice from the start.
+title: Faites attention à l'accessibilité
+description: L'accessibilité devrait toujours être une priorité dans notre travail. Pour rendre nos communautés dédiées à la vie privée accueillantes pour tous, nous devons l'intégrer dans nos pratiques dès le départ.
 icon: fontawesome/solid/heart-circle-check
 cover: activism/banner-toolbox-tip-accessibility.webp
 ---
 
-**Accessibility** is indispensable to [inclusivity](tip-keep-your-posts-and-community-inclusive.md), and should always be a priority in our work. To make our privacy communities welcoming to all, accessibility cannot be an afterthought. We must integrate it in our practice from the start. This means making sure the languages, visuals, tools, and venues we use are accessible to as many people as possible.
+L'**accessibilité** est indispensable pour l'[inclusivité](tip-keep-your-posts-and-community-inclusive.md) et devrait toujours être une priorité dans notre travail. Pour rendre nos communautés dédiées à la vie privée accueillantes pour tous, l'accessibilité ne peut pas être une considération secondaire. Nous devons l'intégrer dans nos pratiques dès le début. Cela implique de veiller à ce que les langues, les visuels, les outils et les lieux que nous utilisons sont accessibles au plus grand nombre.
 
-Here's what you can do to improve accessibility for your privacy-related content and communities:
+Voici ce que vous pouvez faire pour améliorer l'accessibilité de vos contenus et communautés liés à la vie privée :
 
-## Accessibility for all, in all the ways
+## L'accessibilité pour tous, sous toutes ses formes
 
-For many people who don't need any specific accommodations, accessibility is often only thought about in terms of solutions to _mobility_ impairments, such as for people requiring the use of a wheelchair.
+Pour de nombreuses personnes qui n'ont pas besoin d'aménagements spécifiques, l'accessibilité n'est souvent envisagée qu'en termes de solutions aux problèmes de _mobilité_, par exemple pour les personnes qui doivent utiliser un fauteuil roulant.
 
-While this is indeed and important factor to consider, there are many other types of disabilities and accommodations we should be mindful of in our privacy work.
+Bien que ce soit effectivement un facteur important à prendre en compte, il existe de nombreux autres types de handicaps et d'aménagements dont nous devons tenir compte dans notre travail en matière de vie privée.
 
-Considering how each part of our work could be accessed more easily by everyone is essential to grow our movement, and to diversify our privacy communities.
+Réfléchir à la manière dont chacun pourrait accéder plus simplement à notre travail est essentiel pour faire grandir notre mouvement et diversifier nos communautés dédiées à la vie privée.
 
-Ethically, it's also just the right thing to do, and should be the norm everywhere.
+Éthiquement, c'est également simplement la bonne chose à faire, et devrait être la norme partout.
 
-### Visual, auditory, and other sensorial accessibility
+### Accessibilité visuelle, auditive et autres formes d'accessibilité sensorielle
 
-Anytime you are using images, audio, or any other sensorial elements in your advocacy work, you should always make sure to follow best practices to ensure your content will be accessible to people with visual, auditory, or other sensorial impairments.
+Chaque fois que vous utilisez des images, des fichiers audio ou tout autre élément sensoriel dans le cadre de votre travail de plaidoyer, veillez toujours à respecter les bonnes pratiques afin de garantir que votre contenu soit accessible aux personnes souffrant d'un handicap visuel, auditif ou sensoriel.
 
-- [x] If you use images in your websites or social media posts, make sure to always add proper [alt text](https://abilitynet.org.uk/resources/digital-accessibility/five-golden-rules-compliant-alt-text) to describe the information the image represents. Keep in mind visitors that might be using a [screen reader](https://en.wikipedia.org/wiki/Screen_reader).
+- [x] Si vous utilisez des images dans votre site internet ou dans vos publications sur les réseaux sociaux, assurez-vous de toujours ajouter un [texte alternatif](https://abilitynet.org.uk/resources/digital-accessibility/five-golden-rules-compliant-alt-text) approprié pour décrire l'information que l'image représente. Gardez à l'esprit que les visiteurs peuvent utiliser un [lecteur d'écran](https://en.wikipedia.org/wiki/Screen_reader).
 
-- [x] When designing websites, posters, flyers, or zines, keep in mind [visual accessibility](https://webdesign.tutsplus.com/accessibility-basics-designing-for-visual-impairment--cms-27634a) for people with blindness, low vision, color blindness, and other visual impairments.
+- [x] Lorsque vous concevez des sites web, des affiches, des prospectus ou des fanzines, gardez à l'esprit l'[accessibilité visuelle](https://webdesign.tutsplus.com/accessibility-basics-designing-for-visual-impairment--cms-27634a) pour les personnes aveugles, malvoyantes, daltonienns ou souffrant d'autres déficiences visuelles.
 
-- [x] Be careful to refrain from using designs and videos with [flashing lights](https://developer.mozilla.org/en-US/docs/Web/Accessibility/Guides/Seizure_disorders), or display proper warning if you do. Flashing or flickering light effects, and even certain high-contrast static images, can trigger seizures in people with photosensitive epilepsy.
+- [x] Veillez à ne pas utiliser de graphismes ni de vidéos comportant des [lumières clignotantes](https://developer.mozilla.org/en-US/docs/Web/Accessibility/Guides/Seizure_disorders) ou, si vous le faites, affichez un avertissement approprié. Les effets lumineux clignotants ou scintillants, voire certaines images statiques à fort contraste, peuvent déclencher des crises chez les personnes atteintes d'épilepsie photosensible.
 
-- [x] If you use [audio material](https://www.w3.org/WAI/people-use-web/abilities-barriers/auditory/) in your advocacy, try to include captions or transcripts in your content for people with auditory impairments. If you organize a larger event with speakers, try to see if you could hire a sign language interpreter.
+- [x] Si vous utilisez du [contenu audio](https://www.w3.org/WAI/people-use-web/abilities-barriers/auditory/) dans vos plaidoyers, essayez d'inclure des sous-titres ou des transcriptions dans votre contenu pour les personnes malentendantes. Si vous organisez un événement d'envergure avec des intervenants, essayez de voir s'il est possible de faire appel à un interprète en langue des signes.
 
-- [x] Whenever you develop content or organize events, always be mindful of people with sensory impairments or [sensory sensitivities](https://accessforallllc.com/sensory-and-cognitive-accessibility/).
+- [x] Lorsque vous créez du contenu ou organisez des événements, veillez à toujours prendre en comptes les personnes présentant des déficiences sensorielles ou des [sensibilités sensorielles](https://accessforallllc.com/sensory-and-cognitive-accessibility/).
 
-### Website accessibility
+### Accessibilité des sites web
 
-If you develop a website in your privacy work, make sure to follow the international standards for web accessibility.
+Si vous développez un site web dans le cadre de votre travail en protection de la vie privée, veillez à respecter les normes internationales en matière d'accessibilité web.
 
-This is very important to ensure readers using assistive devices will be able to access your content, and that people with visual impairments will not struggle to access your content.
+Il est essentiel de s'assurer que les lecteurs utilisant des appareils d'assistance pourront accéder au contenu et que les personnes malvoyantes n'aient pas de difficulté à y accéder.
 
-- [x] Get familiar with the World Wide Web Consortium (W3C) [international Web standards](https://www.w3.org/WAI/standards-guidelines/). These standards have been reviewed for accessibility support by the Accessible Platform Architectures ([APA](https://www.w3.org/WAI/about/groups/apawg/)) Working Group.
+- [x] Familiarisez-vous avec les [normes web internationales](https://www.w3.org/WAI/standards-guidelines/) du World Wide Web Consortium (W3C). Ces normes ont été examinées selon leur compatibilité avec la prise en charge de l'accessibilité par le groupe de travail Accessible Platform Architecture ([APA](https://www.w3.org/WAI/about/groups/apawg/)).
 
-- [x] Use a [web accessibility evaluation tool](https://www.w3.org/WAI/test-evaluate/tools/list/) to verify that your web content meets accessibility guidelines, or otherwise make sure to follow the [Web Content Accessibility Guidelines](https://www.pivotalaccessibility.com/2024/11/how-to-perform-a-web-accessibility-audit-step-by-step-guide/) (WCAG).
+- [x] Utilisez un [outil d'évaluation de l'accessibilité du Web](https://www.w3.org/WAI/test-evaluate/tools/list/) pour vérifier que votre contenu Web respecte les directives d'accessibilité, ou veillez dans le cas contraire à respecter les [Directives pour l'accessibilité des contenus Web](https://www.pivotalaccessibility.com/2024/11/how-to-perform-a-web-accessibility-audit-step-by-step-guide/) (WCAG).
 
-- [x] If your organization can afford it, hire a [web accessibility consultant](https://accessibilityinnovations.com/blogs/web-accessibility-consultant/).
+- [x] Si votre organisation en a les moyens, engagez une [consultant en accessibilité web](https://accessibilityinnovations.com/blogs/web-accessibility-consultant/).
 
-### Global accessibility
+### Accessibilité mondiale
 
-Whether you write a post, an article, or a whole website in English, keep in mind that your audience is likely global.
+Que vous rédigiez un post, un article ou un site web complet en français, n'oubliez pas que votre audience est probablement internationale.
 
-People from all around the world will be able to read or watch your English content, many who don't speak English as their first language. Don't assume that your audience is only coming from your own country or region. This is a good thing, by the way! ==The battle for privacy rights must be global now.==
+Des internautes du monde entier pourront lire ou regarder votre contenu, dont beaucoup ne parlent pas français comme langue maternelle. Ne partez pas du principe que votre public ne vient que de votre pays ou région. D'ailleurs, c'est une bonne chose ! ==La lutte pour le droit à la vie privée doit maintenant être mondiale.==
 
-- [x] Be careful not to use too many references that are unique to your own country or region. If you do, make sure to explain what it is for people from other regions.
+- [x] Veillez à ne pas utiliser trop de références propres à votre pays ou région. Si vous le faites, pensez à expliquer de quoi il s'agit aux personnes originaires d'autres régions.
 
-- [x] When talking about issues related to politics, make sure to specify what governmental entities are, and explain any special rights your country has (don't just name them). That way, outsiders will be able to understand and support your cause as well, even if perhaps they aren't directly impacted by this issue at the moment.
+- [x] Lorsque vous abordez des sujets politiques, précisez ce que sont les instances gouvernementales et expliquez les droits particuliers dont bénéficies votre pays (ne vous contentez pas de les citer). Ainsi, les personnes extérieures pourront comprendre et soutenir votre cause, même si elles ne sont peut-être pas directement impactées par cette question pour le moment.
 
-- [x] Don't assume everyone knows all the popular internet acronyms such as DIY (Do It Yourself) or IIRC (If I Recall Correctly). These acronyms are very challenging for non-native English speakers. When using acronyms in your content, always explain the full expression in parentheses at least once, or better yet, simply use whole words instead.
+- [x] Ne partez pas du principe que tout le monde connaît les acronymes courants sur internet comme DIY (Do It Yourself / Faites-le vous-même) ou IIRC (If I Recall Correctly / Si je me rappelle bien). Ces acronymes posent de vraies difficultés pour les personnes qui ne sont pas de langue maternelle anglaise. Lorsque vous utilisez des acronymes dans votre contenu, expliquez toujours l'expression complète entre parenthèses au moins une fois, ou mieux encore, utilisez simplement les mots en entier à la place.
 
 - [x] When inviting people to an event, consider that people from other time zones might be reading your invitation. If your event is online, always specify the [time zone](https://www.timeanddate.com/time/map/) for the announced time. If your event is in person, always specify the whole location with the country and region ([do _not_ just name the city](https://www.roughmaps.com/destinations/20-places-around-the-world-that-share-the-same-name/22)).
 
