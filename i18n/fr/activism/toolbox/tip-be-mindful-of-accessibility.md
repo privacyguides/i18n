@@ -125,42 +125,42 @@ La sécurité est également un aspect important de l'accessibilité. Chacun pr�
 
 ### Accessibilité financière
 
-Un autre aspect de l'accessibilité souvent négligé est l'accessibilité financière. Malheureusement, de nombreuses personnes ne peuvent pas se rendre à certains événements en raison de contraintes financières, même si cela leur serait très utile de nouer des contacts et de rencontrer d'autres défenseurs de la vie privée. Lorsque vous organisez un événement, veillez à proposer des option permettant d'améliorer l'acessibilité financière.
+Un autre aspect de l'accessibilité souvent négligé est l'accessibilité financière. Malheureusement, de nombreuses personnes ne peuvent pas se rendre à certains événements en raison de contraintes financières, même si cela leur serait très utile de nouer des contacts et de rencontrer d'autres défenseurs de la vie privée. Lorsque vous organisez un événement, veillez à proposer des options permettant d'améliorer l'accessibilité financière.
 
-- [x] Try to keep your events free or partly free whenever possible, while remaining vigilant about accepting money from [financial sponsors](https://www.privacyguides.org/articles/2025/09/03/red-and-green-privacy-flags/#donations-event-sponsorships-and-other-revenues) that could be in contradiction with your privacy values.
+- [x] Essayez, dans la mesure du possible, de proposer des événements gratuits ou partiellement gratuits, tout en restant vigilant quant à l'acceptation de fonds provenant de [sponsors financiers](https://www.privacyguides.org/articles/2025/09/03/red-and-green-privacy-flags/#donations-event-sponsorships-and-other-revenues) qui pourraient aller à l'encontre de vos valeurs en matière de confidentialité.
 
-- [x] Reserve a quantity of free tickets for people with more severe limitations.
+- [x] Réservez un certain nombre de billets gratuits pour des personnes ayant de plus grandes limitations.
 
-- [x] Offer discounts for students or unemployed peers.
+- [x] Proposez des réductions pour les étudiants ou les chômeurs.
 
-- [x] Create opportunities for part-time volunteering, where people can offer to help a little, then participate in the rest of the event for free.
+- [x] Créez des possibilités de bénévolat à temps partiel, permettant aux participants d'apporter un coup de main et de profiter gratuitement du reste de l'événement.
 
-- [x] Provide contact information for people who would like to request free or cheaper access, or discuss their unique situation with you.
+- [x] Indiquez des coordonnées pour les personnes souhaitant demander un accès gratuit ou moins cher, ou discuter avec vous de leur situation particulière.
 
-### Beginners accessibility
+### Accessibilité pour les débutants
 
-[Welcoming beginners](tip-welcome-beginners.md) is crucial in all the work we do. To keep your content and events accessible to beginners, it's important to be mindful of the language you use, the ways you present content, and the places where you promote your events.
+[Accueillir les débutants](tip-welcome-beginners.md) est essentiel dans tout le travail que nous faisons. Pour garder votre contenu et vos événements accessibles aux débutants, il est important de veiller au langage que vous utilisez, à la manière dont vous présentez le contenu et aux lieux où vous faites la promotion de vos événements.
 
-- [x] Always explain acronyms with whole words before only using the letters only.
+- [x] Expliquez toujours les acronymes avec les mots en entiers avant de n'utiliser que les lettres.
 
-- [x] Be careful when using jargon, try to be explicit and use simple words and analogies.
+- [x] Soyez attentif en utilisant du jargon, essayez d'être explicite et d'utiliser des mots simples et des analogies.
 
-- [x] Beware of gatekeeping. Try to stay aware of newcomers that might be quiet or isolated from the group. [Be inclusive](tip-keep-your-posts-and-community-inclusive.md) and invite them to participate.
+- [x] Méfiez-vous du gatekeeping. Essayez d'être attentif aux nouveaux venus qui pourraient se montrer discrets ou isolés du groupe. [Soyez inclusif](tip-keep-your-posts-and-community-inclusive.md) et invitez-les à participer.
 
-- [x] Specify that your event welcomes beginners.
+- [x] Précisez que votre événement est ouvert aux débutants.
 
-- [x] Be mindful of advertising your event in places where potential newcomers might see it. Be careful about not inviting people only from places reaching out to people who are already part of the privacy community.
+- [x] Pensez à promouvoir votre événement dans des endroits où de potentiels nouveaux venus pourraient le voir. Soyez attentif à ne pas inviter des personnes venant exclusivement d'endroits s'adressant à ceux qui font déjà partie de la communauté de la protection de la vie privée.
 
-## More resources
+## Plus de ressources
 
-- [How to make your social justice event accessible (_The Commons Social Change Library_)](https://commonslibrary.org/how-to-make-your-social-justice-event-accessible/)
+- [Comment rendre votre événement de justice sociale accessible (_The Commons Social Change Library_)](https://commonslibrary.org/how-to-make-your-social-justice-event-accessible/)
 
-- [Make your event accessible and inclusive (_Park People_)](https://parkpeople.ca/make-your-event-accessible-and-inclusive/)
+- [Rendez votre événement accessible et inclusif (_Park People_)](https://parkpeople.ca/make-your-event-accessible-and-inclusive/)
 
-- [How to host a COVID-safe party: Tips and tricks (_Party Pro_)](https://party.pro/covid/)
+- [Comment organiser une fête COVID-compatible : conseils et astuces (_Party Pro_)](https://party.pro/covid/)
 
-- [Dos and don'ts on designing for accessibility (UK Government)](https://accessibility.blog.gov.uk/2016/09/02/dos-and-donts-on-designing-for-accessibility/)
+- [Ce qu'il faut faire et ne pas faire en matière de conception pour l'accessibilité (Gouvernement britannique)](https://accessibility.blog.gov.uk/2016/09/02/dos-and-donts-on-designing-for-accessibility/)
 
-- [Five golden rules for compliant alt text (_AbilityNet_)](https://abilitynet.org.uk/resources/digital-accessibility/five-golden-rules-compliant-alt-text)
+- [Cinq règles d'or pour des textes alternatifs conformes (_Ability Net_)](https://abilitynet.org.uk/resources/digital-accessibility/five-golden-rules-compliant-alt-text)
 
-- [Accessibility developer guide (_Access for all_)](https://www.accessibility-developer-guide.com/)
+- [Guide du développeur sur l'accessibilité (_Access for all_)](https://www.accessibility-developer-guide.com/)

@@ -1,5 +1,5 @@
 ---
-title: Beware of Privacy Snake Oil
+title: Méfiez-vous des remèdes miracles en matière de confidentialité
 description: In your privacy advocacy, it's important to recommend tools that reliably protect your and other people's privacy. Learn how to evaluate privacy claims.
 icon: fontawesome/solid/skull-crossbones
 cover: activism/banner-toolbox-tip-snakeoil.webp
