@@ -51,27 +51,27 @@ Voici quelques signaux d'alerte que vous devriez toujours garder à l'esprit en 
 
 - [**Déclarations sans fondement**](https://www.privacyguides.org/articles/2025/09/03/red-and-green-privacy-flags/#meaningless-privacy-compliance-badges) : Les affirmations de respect de la loi sur la confidentialité ou de fiabilité de l'organisation sont-elles étayées par des sources externes ou proviennent-elles uniquement de l'organisation elle-même ?
 
-- [**Buzzword language**](https://www.privacyguides.org/articles/2025/09/03/red-and-green-privacy-flags/#buzzword-language): Is the advertising and description of the product using a lot of privacy buzzwords like "military-grade encryption" or "AI-powered"?
+- [**Langage à la mode**](https://www.privacyguides.org/articles/2025/09/03/red-and-green-privacy-flags/#buzzword-language) : La publicité et description du produit utilisent-elles beaucoup de mots à la mode en termes de confidentialité, comme "chiffrement de niveau militaire" ou "Optimisé par l'IA" ?
 
-- [**Unsupported claims**](https://www.privacyguides.org/articles/2025/09/03/red-and-green-privacy-flags/#checkbox-compliance-and-copy-paste-policies): Are the product's claims supported by documentation and detailed descriptions? It's not enough to write "end-to-end encrypted." This claim should be supported by a detailed account of _how_ the data is end-to-end encrypted, including which protocols and algorithms it is using.
+- [**Allégations non étayées**](https://www.privacyguides.org/articles/2025/09/03/red-and-green-privacy-flags/#checkbox-compliance-and-copy-paste-policies) : Les allégations du produit sont-elles étayées par de la documentation et des descriptions détaillées ? Il ne suffit pas d'écrire "chiffré de bout en bout". Cette affirmation devrait être étayée par une description détaillée de _comment_ les données sont chiffrées de bout en bout, incluant les protocoles et algorithmes utilisés.
 
-- [**Unrealistic claims**](https://www.privacyguides.org/articles/2025/09/03/red-and-green-privacy-flags/#unverifiable-and-unrealistic-promises): Are the privacy claims being made realistic? Nothing can be 100% private or 100% secure. A trustworthy product will give you reasonable warnings about its limitations.
+- [**Allégations irréalistes**](https://www.privacyguides.org/articles/2025/09/03/red-and-green-privacy-flags/#unverifiable-and-unrealistic-promises) : Est-ce que les allégations concernant la confidentialité sont réalistes ? Rien ne peut être confidentiel à 100% ou 100% sécurisé. Un produit digne de confiance vous donnera des avertissements raisonnables sur ses limites.
 
-- [**Lack of deletion process**](https://www.privacyguides.org/articles/2025/09/03/red-and-green-privacy-flags/#flawed-or-absent-process-for-data-deletion): Does this product or service offer a clear process to delete your data upon request? How much of your data can you delete, and how quickly can you delete it if you wanted to stop using this service tomorrow?
+- [**Absence de procédure de suppression**](https://www.privacyguides.org/articles/2025/09/03/red-and-green-privacy-flags/#flawed-or-absent-process-for-data-deletion) : Ce produit ou service offre-t-il une procédure claire pour supprimer vos données sur demande ? Quelle quantité de vos données pouvez-vous supprimer et en combien de temps pourriez-vous les supprimer si vous décidiez de ne plus utiliser le service demain ?
 
-- [**Untested technologies**](https://www.privacyguides.org/articles/2025/09/03/red-and-green-privacy-flags/#new-and-untested-technologies): Has this technology been tested by experts before? Are there any _external_ parties who have verified its claims?
+- [**Technologies non testées**](https://www.privacyguides.org/articles/2025/09/03/red-and-green-privacy-flags/#new-and-untested-technologies) : Cette technologie a-t-elle déjà été testée par des experts ? Y a-t-il des organisations _externes_ qui ont vérifié ses allégations ?
 
-- [**Bad reputation**](https://www.privacyguides.org/articles/2025/09/03/red-and-green-privacy-flags/#critics-from-experts): What are privacy and security experts saying about this product or organization? Was the product or organization subjected to multiple critiques from privacy experts? Has the organization ever been impacted by major data breaches?
+- [**Mauvaise réputation**](https://www.privacyguides.org/articles/2025/09/03/red-and-green-privacy-flags/#critics-from-experts) : Que disent les experts en confidentialité et sécurité à propos de ce produit ou de cette organisation ? Le produit ou l'organisation ont-ils été sujets à de multiples critiques d'experts de la confidentialité ? L'organisation a-t-elle déjà été impactée par une fuite de données majeure ?
 
 </div>
 
-## How to trust privacy tools and services
+## Comment faire confiance à des outils et services de confidentialité
 
-You should never _completely_ trust a product, service, or organization. Additionally, your trust should always be revocable, and you should revoke it when new information comes to light that warrants it. Even privacy professional sources that you trust might not always be up-to-date.
+Il ne faut jamais faire _entièrement_ confiance à un produit, un service ou une organisation. De plus, votre confiance devrait toujours être révocable, et vous devriez la révoquer lorsque de nouvelles informations apparaissent et qu'elles le justifient. Même les sources spécialisées dans la protection de la vie privée auxquelles vous faites confiance ne sont pas forcément à jour.
 
-Things can change quickly in the tech world, and we must all be prepared to revoke our trust and adapt quickly when required.
+Les choses évoluent rapidement dans le monde des technologies, et nous devrons tous être prêts à révoquer notre confiance et à s'adapter rapidement lorsque cela s'avère nécessaire.
 
-With that in mind, here are some green flags you can keep in mind when evaluating a privacy tool, service, or organization:
+Avec ceci à l'esprit, voici quelques signaux positifs que vous pouvez garder à l'esprit en évaluant un outil, un service ou une organisation liés à la protection de la vie privée :
 
 <style>
 .emoji-list-b ul {
@@ -90,12 +90,11 @@ With that in mind, here are some green flags you can keep in mind when evaluatin
 }
 .emoji-list-b ul li p {
   display: inline;
-}
-</style>
+}</style>
 
 <div class="emoji-list-b" markdown>
 
-- [**Good reputation**](https://www.privacyguides.org/articles/2025/09/03/red-and-green-privacy-flags/#reputation-history): What are privacy and security experts saying about this product or organization? Does the product or organization have a good reputation within the field?
+- [**Bonne réputation**](https://www.privacyguides.org/articles/2025/09/03/red-and-green-privacy-flags/#reputation-history) : Que disent les experts en confidentialité et sécurité à propos de ce produit ou de cette organisation ? Le produit ou l'organisation ont-ils une bonne réputation dans ce domaine ?
 
 - [**Access to evidence**](https://www.privacyguides.org/articles/2025/09/03/red-and-green-privacy-flags/#verifiable-claims): Are you able to verify the privacy claims from independent sources that aren't related to the business itself?
 
