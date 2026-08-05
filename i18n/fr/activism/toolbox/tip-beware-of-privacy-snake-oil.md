@@ -1,32 +1,31 @@
 ---
 title: Méfiez-vous des remèdes miracles en matière de confidentialité
-description: In your privacy advocacy, it's important to recommend tools that reliably protect your and other people's privacy. Learn how to evaluate privacy claims.
+description: Dans votre engagement pour la défense de la vie privée, il est important de recommander des outils qui protègent votre vie privée et celle des autres de manière fiable. Apprenez à évaluer les allégations en matière de vie privée.
 icon: fontawesome/solid/skull-crossbones
 cover: activism/banner-toolbox-tip-snakeoil.webp
 ---
 
-In your privacy advocacy, it's essential to use and recommend tools that _reliably_ protect privacy. For this, you need to **investigate and remain highly skeptical** of any dangerous or unproven marketing claims.
+Dans votre engagement pour la vie privée, il est essentiel d'utiliser et de recommander des outils qui protègent la vie privée de manière _fiable_. Pour cela, il vous faudra **faire des recherches et rester extrêmement sceptique** de tout argument marketing dangereux ou non prouvé.
 
-Here's how to evaluate privacy claims, and recommend tools that are trustworthy:
+Voici comment évaluer les allégations relatives à la confidentialité et recommander des outils de confiance :
 
-## Why is there so much privacy snake oil?
+## Pourquoi y a-t-il autant de remèdes miracles de la confidentialité ?
 
-Regrettably, it's quite common to see businesses using privacy promises as a mere marketing strategy to reassure understandingly concerned users. But many aren't genuinely doing the work to make these promises come true.
+Malheureusement, il est courant de voir des entreprises utiliser des promesses de confidentialités comme simple stratégie marketing pour rassurer les utilisateurs dont les inquiétudes sont légitimes. Mais beaucoup ne font pas réellement le travail nécessaire pour réaliser ces promesses.
 
-Many businesses want to have their cake and eat it too, by attracting users with false promises of privacy while exploiting their data for profit all the while. Other times, failure to meet privacy promises simply comes from incompetence or negligence.
+Beaucoup d'entreprises veulent le beurre et l'argent du beurre, en attirant les utilisateurs avec de fausses promesses de confidentialité tout en exploitant leurs données à des fins lucratives. Dans d'autres cas, le non-respect des engagements en matière de confidentialité vient simplement d'incompétence ou de négligence.
 
-Misleadingly, or fraudulently, presenting a product, service, or organization as being responsible and trustworthy with data privacy when it isn't is called "[privacy washing](https://www.privacyguides.org/articles/2025/08/20/privacy-washing-is-a-dirty-business/)."
+Le fait de présenter, de manière trompeuse ou frauduleuse, un produit, un service ou une organisation comme étant respectueux et digne de confiance en matière de protection des données alors qu'il n'en est rien s'appelle le "[privacy washing](https://www.privacyguides.org/articles/2025/08/20/privacy-washing-is-a-dirty-business/)".
 
-There are many things you can learn to become more resistant to privacy washing, and become better at using and recommending genuinely privacy-preserving technologies.
+Il y a beaucoup de choses à apprendre pour devenir plus résistant au "privacy washing" et mieux utiliser et recommander des technologies qui préservent véritablement la vie privée.
 
-## How to spot privacy snake oil
+## Comment repérer les fausses promesses en matière de confidentialité
 
-Never trust any privacy claims at face value.
+Ne faites jamais confiance aveuglément à quelque allégation que ce soit en matière de vie privée.
 
-Here are some red flags you should always keep in mind when evaluating a privacy tool, service, or organization:
+Voici quelques signaux d'alerte que vous devriez toujours garder à l'esprit en évaluant un outil, un service ou une organisation liés à la protection de la vie privée :
 
-<style>
-.emoji-list-a ul {
+<style>.emoji-list-a ul {
   list-style: none;
 }
 .md-typeset .emoji-list-a ul li {
@@ -42,16 +41,15 @@ Here are some red flags you should always keep in mind when evaluating a privacy
 }
 .emoji-list-a ul li p {
   display: inline;
-}
-</style>
+}</style>
 
 <div class="emoji-list-a" markdown>
 
-- [**Conflict of interest**](https://www.privacyguides.org/articles/2025/09/03/red-and-green-privacy-flags/#conflict-of-interest): Is the source that is telling you this product is trustworthy independent of the company or parent-company that owns this product?
+- [**Conflits d'intérêts**](https://www.privacyguides.org/articles/2025/09/03/red-and-green-privacy-flags/#conflict-of-interest) : Est-ce que la source qui vous affirme qu'un produit est digne de confiance est indépendante de l'entreprise ou de la société mère propriétaire du produit ?
 
-- [**Biased reviews**](https://www.privacyguides.org/articles/2025/09/03/red-and-green-privacy-flags/#fake-reviews): Is the review recommending this product truly independent, or has it received sponsorship money? Was the review AI-generated?
+- [**Avis biaisé**](https://www.privacyguides.org/articles/2025/09/03/red-and-green-privacy-flags/#fake-reviews) : L'avis recommandant ce produit est-il réellement indépendant, ou a-t-il reçu un financement ? L'avis a-t-il été généré par IA ?
 
-- [**Meaningless attestations**](https://www.privacyguides.org/articles/2025/09/03/red-and-green-privacy-flags/#meaningless-privacy-compliance-badges): Are claims of privacy law compliance or trustworthiness supported by external sources, or do they only come from the organization itself?
+- [**Déclarations sans fondement**](https://www.privacyguides.org/articles/2025/09/03/red-and-green-privacy-flags/#meaningless-privacy-compliance-badges) : Les affirmations de respect de la loi sur la confidentialité ou de fiabilité de l'organisation sont-elles étayées par des sources externes ou proviennent-elles uniquement de l'organisation elle-même ?
 
 - [**Buzzword language**](https://www.privacyguides.org/articles/2025/09/03/red-and-green-privacy-flags/#buzzword-language): Is the advertising and description of the product using a lot of privacy buzzwords like "military-grade encryption" or "AI-powered"?
 
