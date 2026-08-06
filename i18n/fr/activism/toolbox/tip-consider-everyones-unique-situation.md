@@ -1,63 +1,63 @@
 ---
-title: Consider Everyone's Unique Situation
-description: To give actionable privacy advices, it's essential to consider everyone's situation. Learn more on how you can evaluate each person's unique threat model.
+title: Gardez à l'esprit la situation unique de chaque individu
+description: Pour donner des conseils concrets à propos de vie privée, il est essentiel de garder à l'esprit la situation de chacun. Apprenez en plus sur comment vous pouvez évaluer le modèle de menace propre à chaque personne.
 icon: fontawesome/solid/users-between-lines
 cover: activism/banner-toolbox-tip-everyone.webp
 ---
 
-Everyone has different needs, and everyone faces different dangers when their personal data gets exposed.
+Chaque personne a des besoins différents et fait face à des dangers spécifiques lorsque ses données personnelles deviennent exposées.
 
-To give actionable privacy advices and recommendations, it's essential to **keep in mind everyone's situation**. There isn't a one-size-fits-all approach when it comes to data privacy.
+Pour donner des conseils et des recommandations concrètes, il est essentiel de **garder à l'esprit les situations de chacun**. Il n'y a pas d'approche universelle en matière de protection des données.
 
-Here's how you can get better at evaluating each person's unique [_threat model_](../../basics/threat-modeling.md):
+Voici comment vous pouvez vous améliorer et évaluer le [_modèle de menace_](../../basics/threat-modeling.md) unique de chacun :
 
-## What is a threat model?
+## Qu'est-ce qu'un modèle de menace ?
 
-We regularly use the term "threat model" in cybersecurity and data privacy. This might sound obscure at first if you haven't seen it before, but it's quite simple: A threat model is an evaluation of what is dangerous for a certain person (or entity) in a given situation, and what protective measures should be prioritized.
+En cybersécurité et confidentialité des données, nous utilisons régulièrement le terme "modèle de menace". Ceci peut sembler obscure au premier abord si vous n'y avez jamais été confronté, mais c'est finalement plutôt simple : Un modèle de menace est une évaluation de ce qui est dangereux pour une certaine personne (ou entité) dans une situation donnée, et quelles mesures de protection doivent être prioritaires.
 
-For example, if you leave near the equator, polar bears might not be an important threat to your safety. However, if you live in Nunavut, it may be important to get information on how to prevent a polar bear attack.
+Par exemple, si vous vivez près de l'équateur, les ours polaires ne seront probablement pas une menace importante pour votre sécurité. Cependant, si vous vivez à Nunavut, il peut être important de vous renseigner sur les moyens de prévenir une attaque d'ours polaire.
 
-Similarly, when you choose privacy protections for yourself or for others, you should first ask a few questions to understand better what information you are trying to protect, from whom, and in which context.
+De même, lorsque vous choisissez des mesures de protections de vie privée pour vous-même ou pour d'autres, vous devez d'abord poser quelques questions pour mieux comprendre l'information que vous essayez de protéger, de qui et dans quel contexte.
 
-## What questions to ask?
+## Quelles questions poser ?
 
-To establish a threat model, ask the following questions:
+Pour établir un modèle de menace, posez les questions suivantes :
 
-1. What information leak could endanger this person or organization the most?
-2. Who this information should be protected from?
-3. How likely is it that this person or entity could access this information?
-4. What could happen if this person or entity had access to this information?
-5. What are the protections available to protect this information specifically from this person or entity?
-6. What would be the downside of using these protections?
-7. How long do these protections need to remain in place?
+1. Quelle fuite d'information pourrait mettre le plus cette personne ou organisation en danger ?
+2. De qui cette information doit-elle être protégée ?
+3. Quelle est la probabilité que cette personne ou entité puisse accéder à cette information ?
+4. Que pourrait-il se passer si cette personne ou entité avait accès à cette information ?
+5. Quelles sont les protections disponibles pour protéger cette information de cette personne ou entité en particulier ?
+6. Quels seraient les inconvénients de l'utilisation de ces mesures de protection ?
+7. Pendant combien de temps ces protections doivent rester en place ?
 
-Ask, rinse, and repeat for each type of information. The answers to these questions will be unique for each person or organization. This is their unique threat model.
+Répétez l'opération pour chaque type d'information. Les réponses à ces questions seront uniques pour chaque personne ou organisation. C'est leur modèle de menace unique.
 
-<details class="danger" markdown><summary>Example scenario: Threat of stalking</summary>
+<details class="danger" markdown><summary>Scénario d'exemple : menace de harcèlement</summary>
 
-**Needs:** Alice is a young celebrity sharing a lot of information about herself on social media. As part of her work, she has to be able to share photos of herself, her legal name, some of her travel information, and details about her personal life.
+**Besoins :** Alice est une jeune célébrité qui partage beaucoup d'informations sur elle-même sur les réseaux sociaux. Dans le cadre de son travail, elle a besoin de pouvoir partager des photos d'elle, son nom officiel, certaines de ses informations de voyage et des détails sur sa vie privée.
 
-**Threat:** However, to protect herself from an aggressive stalker, she must protect information about her _home address_ at all cost.
+**Menace :** Cependant, pour se protéger d'un harceleur agressif, elle doit protéger à tout prix la confidentialité de son _adresse de domicile_.
 
-**Level of danger:** She already received threats online, and the danger to her safety is imminent if her home address were to be known to this aggressive stalker.
+**Niveau de danger :** Elle a déjà reçu des menaces en ligne et sa sécurité serait immédiatement en danger si l'adresse de son domicile venait à être connue de cet harceleur agressif.
 
-**Information to protect and solutions:** Everywhere that Alice is required to share her home address must be protected. She should use a PO box every time her personal address isn't absolutely necessary. She should make sure to only share her address with trusted people that are informed about this danger. And she should inspect all of her photos and metadata carefully, to make sure her location is never precisely [revealed](https://www.privacyguides.org/articles/2025/03/25/privacy-means-safety/#victims-of-stalkers).
-
-</details>
-
-<details class="danger" markdown><summary>Example scenario: Surveillance Capitalism</summary>
-
-**Needs:** Bob feels uncomfortable with companies using his information without his consent. He doesn't trust what they might do with this information later, or whom they might sell it to. He is especially worried about how companies and governments might use facial recognition with him.
-
-**Threat:** To limit facial recognition, Bob doesn't want any companies to have access to a _photo of his face_.
-
-**Level of danger:** If Bob or someone close to Bob posted a photo of his face online, the numerous bots constantly scanning the open web and social media platforms would have a copy of it in no time.
-
-**Information to protect and solutions:** To prevent this, Bob should not post any photos of his face online. He should make sure to only choose profile pictures that don't show his face for social media, and inspect any other photos posted to make sure his face doesn't show up on reflective surfaces. He should also inform his friends and family that he doesn't want photos of himself to be posted online, and he should protect his phone camera roll and cloud storage from getting [scanned](https://www.forbes.com/sites/zakdoffman/2026/01/15/google-upgrade-starts-scanning-all-your-photos-be-very-careful/) by remotely controlled AI. Bob should also opt out of any online platforms demanding a facial scan or photo ID in order to [verify his age](https://www.privacyguides.org/videos/2025/08/15/age-verification-is-a-privacy-nightmare/) or identity.
+**Informations à protéger et solutions :** Tous les endroits où Alice doit partager son adresse de domicile doit être protégé. Elle devrait utiliser une boîte postale chaque fois que l'adresse de son domicile n'est pas nécessaire. Elle doit s'assurer de ne partager son adresse qu'avec des gens de confiance qui sont informées de ce danger. Et elle doit également examiner attentivement ses photos et leurs métadonnées, pour s'assurer que sa localisation ne soit jamais [révélée](https://www.privacyguides.org/articles/2025/03/25/privacy-means-safety/#victims-of-stalkers) avec précision.
 
 </details>
 
-## Respect people's choices when it comes to their own privacy, even if they are different from yours
+<details class="danger" markdown><summary>Scénario d'exemple : Le capitalisme de surveillance</summary>
+
+**Besoins :** Bob se sent mal à l'aise avec les entreprises qui utilisent ses informations sans son consentement. Il se méfie de ce qu'ils pourraient faire avec ses informations plus tard, ou d'à qui ils pourraient les vendre. Il est particulièrement inquiet à propos des entreprises et des gouvernements qui pourraient utiliser la reconnaissance faciale avec lui.
+
+**Menace :** Pour limiter la reconnaissance faciale, Bob ne veut pas que la moindre entreprise ait accès à une _photo de son visage_.
+
+**Niveau de danger :** Si Bob ou l'un de ses proches publiait une photo de son visage en ligne, les nombreux bots scannant constamment les plateformes ouvertes et les réseaux sociaux en auraient une copie en un rien de temps.
+
+**Informations à protéger et solutions :** Pour éviter ceci, Bob ne doit publier aucune photo de son visage en ligne. Il doit s'assurer de toujours choisir des photos de profil qui ne montrent pas son visage pour les réseaux sociaux et vérifier toutes les autres photos publiées pour s'assurer que son visage n'apparaît pas sur des surfaces réfléchissantes. Il doit également information ses amis et sa famille qu'il ne veut pas que des photos de lui soient publiées en ligne et il doit empêcher la galerie de son téléphone et son stockage cloud d'être [scannés](https://www.forbes.com/sites/zakdoffman/2026/01/15/google-upgrade-starts-scanning-all-your-photos-be-very-careful/) par une IA contrôlée à distance. Bob doit aussi se retirer de toutes les plateformes exigeant un scan du visage ou une pièce d'identité avec photo afin de [vérifier son âge](https://www.privacyguides.org/videos/2025/08/15/age-verification-is-a-privacy-nightmare/) ou son identité.
+
+</details>
+
+## Respectez les choix des personnes en matière de vie privée, même s'ils diffèrent des vôtres
 
 When advising others on data privacy, it's easy to get carried away and forget that other people might have different threat models from our own.
 
