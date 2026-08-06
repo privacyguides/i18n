@@ -59,16 +59,16 @@ Répétez l'opération pour chaque type d'information. Les réponses à ces ques
 
 ## Respectez les choix des personnes en matière de vie privée, même s'ils diffèrent des vôtres
 
-When advising others on data privacy, it's easy to get carried away and forget that other people might have different threat models from our own.
+Lorsque l'on donne des conseils à d'autres sur la protection de la vie privée, il est facile de s'emporter et d'oublier que les autres personnes peuvent avoir d'autres modèles de menace que le nôtre.
 
-Once we have provided the information to somebody who might need it, it's important to take a step back and respect their choices. If someone understands the risks, and decides that sharing this information _about themselves_ is an acceptable level of risk to them, we cannot (and shouldn't try) to force them in using the same level of protection we have adopted ourselves, if they don't want to.
+Une fois que nous avons fourni des informations à quelqu'un qui pourrait en avoir besoin, il est important de prendre du recul et de respecter leurs choix. Si une personne comprend les risques et décide que partager cette information _sur elle-même_ est un niveau acceptable de risque, nous ne pouvons pas (et ne devons pas) essayer de l'obliger à utiliser le même niveau de protection que celui que nous avons nous-mêmes mis en place, si elle ne le souhaite pas.
 
-Of course, this might be a different story if their decision also affects the data of others. But if it only concerns their own data, the choice is theirs.
+Bien sûr, la situation pourrait être différente si leur décision avait également des répercussions sur les données d'autres personnes. Mais si cela ne concerne que leurs données, le choix leur appartient.
 
-To be a good privacy advocate is to provide information and support when needed. But ultimately, privacy is about deciding what one is comfortable sharing about themselves or not. We can only choose this for ourselves, not for others.
+Être un bon défenseur de la vie privée signifie fournir des informations et de l'aide lorsque cela est nécessaire. Mais en fin de compte, la vie privée consiste à décider ce que l'on est prêt à partager ou non sur soi-même. Nous ne pouvons faire ce choix que pour nous-mêmes, et non pour les autres.
 
-## More resources
+## Plus de ressources
 
-- [More detailed information on threat modeling (_Privacy Guides_)](../../basics/threat-modeling.md)
+- [Informations plus détaillées sur la modélisation des menaces (_Privacy Guides_)](../../basics/threat-modeling.md)
 
-- [Examples of common threats (_Privacy Guides_)](../../basics/common-threats.md)
+- [Exemples de menaces courantes (_Privacy Guides_)](../../basics/common-threats.md)

@@ -1,11 +1,11 @@
 ---
-title: Engage, Boost, and Contribute
-description: Once you have the knowledge, motivation, and energy to fight for privacy rights, it's time to act! Learn more on what you can do to be a privacy activist.
+title: S'impliquer, dynamiser et contribuer
+description: Une fois que vous disposez des connaissances, de la motivation et de l'énergie nécessaires pour défendre le droit à la vie privée, il est temps de passer à l'action ! Apprenez-en plus sur comment vous pouvez vous engager en faveur de la protection de la vie privée.
 icon: fontawesome/solid/bullhorn
 cover: activism/banner-toolbox-tip-engage.webp
 ---
 
-Once you have the knowledge, motivation, and energy, **it's time to act**! Perhaps you've read all the tips here, or have read through our [Knowledge Base](../../basics/why-privacy-matters.md) already! Toutefois, Il n'est pas nécessaire d'en savoir autant sur la protection de la vie privée pour commencer à contribuer.
+Une fois que vous disposez des connaissances, de la motivation et de l'énergie nécessaires, **il est temps de passer à l'action** ! Peut-être avez-vous lu tous les conseils ici, ou avez-vous déjà parcouru notre [Base de connaissances](../../basics/why-privacy-matters.md) ! Toutefois, Il n'est pas nécessaire d'en savoir autant sur la protection de la vie privée pour commencer à contribuer.
 
 The most important part is that you care about privacy rights, and want to be part of the movement to defend them.
 
