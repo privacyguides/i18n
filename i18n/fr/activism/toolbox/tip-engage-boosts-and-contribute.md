@@ -92,4 +92,4 @@ Voici quelques idées de ce que vous pouvez faire pour devenir un militant de la
 
 - [Apprenez à utiliser des principes de persuasion (_La Boîte à Outils Communautaire_ (Université du Kansas))](https://ctb.ku.edu/en/table-of-contents/participation/promoting-interest/principles-of-persuasion/main)
 
-- [Communicate your message: Making sure your message comes across (_Activist Handbook_)](https://activisthandbook.org/communication)
+- [Faites passer votre message : s'assurer que votre message atteigne sa cible (_Guide du Militant_)](https://activisthandbook.org/communication)
