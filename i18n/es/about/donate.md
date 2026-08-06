@@ -29,8 +29,8 @@ MAGIC Grants es nuestro anfitrión fiscal, y su plataforma de donaciones persona
 
     <div class="mdx-specialthanks" markdown>
 
-    [![Power Up Privacy]](https://powerupprivacy.com){ target=_blank title="Power Up Privacy" }
-    [![DeleteMe]](https://joindeleteme.com){ target=_blank title="DeleteMe" }
+    [![Potencia la Privacidad]](https://powerupprivacy.com){ target=_blank title="Potencia la Privacidad" }
+    [![Borrame]](https://joindeleteme.com){ target=_blank title="Borrame" }
     [![Cape]](https://www.cape.co){ target=_blank title="Cape" }
 
       [Power Up Privacy]: ../assets/img/donors/power-up-privacy.webp
