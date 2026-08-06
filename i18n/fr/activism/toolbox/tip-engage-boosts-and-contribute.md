@@ -1,50 +1,50 @@
 ---
 title: S'impliquer, dynamiser et contribuer
-description: Une fois que vous disposez des connaissances, de la motivation et de l'énergie nécessaires pour défendre le droit à la vie privée, il est temps de passer à l'action ! Apprenez-en plus sur comment vous pouvez vous engager en faveur de la protection de la vie privée.
+description: Une fois que vous disposez des connaissances, de la motivation et de l'énergie nécessaires pour défendre le droit à la vie privée, il est temps de passer à l'action ! Apprenez-en plus sur ce que vous pouvez faire pour devenir un militant de la protection de la vie privée.
 icon: fontawesome/solid/bullhorn
 cover: activism/banner-toolbox-tip-engage.webp
 ---
 
 Une fois que vous disposez des connaissances, de la motivation et de l'énergie nécessaires, **il est temps de passer à l'action** ! Peut-être avez-vous lu tous les conseils ici, ou avez-vous déjà parcouru notre [Base de connaissances](../../basics/why-privacy-matters.md) ! Toutefois, Il n'est pas nécessaire d'en savoir autant sur la protection de la vie privée pour commencer à contribuer.
 
-The most important part is that you care about privacy rights, and want to be part of the movement to defend them.
+L'essentiel, c'est que vous vous souciez du droit à la vie privée et que vous voulez participer au mouvement pour le défendre.
 
-Here's what you can do to become a privacy activist:
+Voici ce que vous pouvez faire pour devenir un militant de la protection de la vie privée :
 
-## Be active! Participate and contribute!
+## Soyez actifs ! Participez et contribuez !
 
-Being a privacy activist means actively taking part in the movement to protect and improve fundamental privacy rights for everyone.
+Être militant pour la protection de la vie privée signifie participer au mouvement pour protéger et améliorer les droits fondamentaux à la vie privée pour chacun.
 
 <div class="admonition quote toolbox-quote" markdown>
-<p class="admonition-title toolbox-quote">We want to help redefine 'activist' to a term that can include anyone who wants to work collectively to create social change. You don't have to be an expert, and you don't have to spend every waking minute trying to do 'activism'. You just have to be a person who wants to create change with other people.</p>
+<p class="admonition-title toolbox-quote">Nous voulons aider à redéfinir le terme "militant" afin qu'il puisse inclure toute personne souhaitant travailler collectivement pour créer un changement social. Vous n'avez pas besoin d'être un expert, et vous n'avez pas besoin de passer chaque minute à faire du "militantisme". Il suffit d'être une personne qui souhaite créer du changement avec d'autres personnes.</p>
 
-<p class="toolbox-quote-source" markdown>Source: [*Activist Handbook*](https://activisthandbook.org/theory/what-is-activism#our-response-take-the-%E2%80%98expert%E2%80%99-out-of-%E2%80%98activism%E2%80%99)</p>
+<p class="toolbox-quote-source" markdown>Source : [*Guide du Militant*](https://activisthandbook.org/theory/what-is-activism#our-response-take-the-%E2%80%98expert%E2%80%99-out-of-%E2%80%98activism%E2%80%99)</p>
 
 </div>
 
-There are many ways to actively engage in the privacy rights movement.
+Il existe beaucoup de manière de s'engager activement dans le mouvement de défense du droit à la vie privée.
 
-While a lot can be accomplished by _anyone_ interested in joining, think about how you can orient your activism around _your_ strengths, skills, and interests. This will help with sustainability.
+Même si _toute personne_ souhaitant s'impliquer peut apporter une grande contribution, réfléchissez à la manière dont vous pouvez axer votre engagement sur _vos_ points forts, _vos_ compétences et _vos_ centres d'intérêt. Cela contribuera à la durabilité.
 
-If you find one way doesn't really work for you, and you get tired or bored quickly, then find another way to contribute. There isn't a one-size-fits-all approach. Find the ways that work best for you.
+Si vous constatez qu'une méthode ne vous correspond pas vraiment et que vous vous lassez ou vous ennuyez rapidement, alors trouvez une autre manière de contribuer. Il n'y a pas d'approche universelle. Trouver les manières qui vous conviennent le mieux.
 
-Perhaps you like to write, to draw, to record videos, or to build applications? Or maybe you prefer to engage with people directly, and become involved in the more social part of privacy advocacy? This can all be incredibly valuable contributions to the movement.
+Peut-être que vous aimez écrire, dessiner, enregistrer des vidéos ou construire des applications ? Ou peut-être préférez-vous interagir directement avec d'autres personnes, et devenir investi dans l'aspect le plus social de la défense de la vie privée ? Tout ceci peut constituer des contributions extrêmement précieuses pour le mouvement.
 
-Ask yourself these questions:
+Posez-vous ces questions :
 
-- [ ] What do I enjoy doing that could also be useful to the cause?
+- [ ] Qu'est-ce que j'aime faire qui pourrait également être utile à la cause ?
 
-- [ ] What are my interests? What do I want to learn more about?
+- [ ] Quels sont mes intérêts ? À propos de quoi est-ce que j'aimerais en savoir plus ?
 
-- [ ] Which skills and social networks do I already have?
+- [ ] Quelles compétences et réseaux sociaux ai-je déjà ?
 
-- [ ] How much time do I have to contribute each week?
+- [ ] Combien de temps ai-je à consacrer à ma contribution chaque semaine ?
 
-- [ ] Who around me shares my privacy values and could be an ally?
+- [ ] Qui autour de moi partage mes valeurs de vie privée et pourrait être un allié ?
 
-## Things you can do to engage, boost, and contribute
+## Ce que vous pouvez faire pour vous impliquer, dynamiser et contribuer
 
-Here are some ideas of what you can do to become a privacy activist in your community, and a valuable member of the privacy rights movement:
+Voici quelques idées de ce que vous pouvez faire pour devenir un militant de la protection de la vie privée dans votre communauté, et un membre actif du mouvement de défense de ce droit :
 
 <style>
 .emoji-list-a ul {
@@ -53,44 +53,43 @@ Here are some ideas of what you can do to become a privacy activist in your comm
 @counter-style emoji-list-a {
   system: fixed;
   symbols: "🚀" "✍️" "💪" "🙅" "🙌" "💵" "📍" "✊" "💛";
-  suffix: "  ";
-</style>
+  suffix: "  ";</style>
 
 <div class="emoji-list-a" markdown>
 
-- [**Spread** the words of your allies.](tip-lift-your-allies-up.md) Repost social media campaigns from digital rights organizations you like, and write about it on your own platforms. Encourage people to participate if there is a call to action.
+- [**Faites passer** le message de vos alliés.](tip-lift-your-allies-up.md) Republiez les campagnes sur les réseaux sociaux par les organisations de défense des droits numériques que vous appréciez, et parlez-en sur vos propres réseaux. Encouragez les gens à participer lorsqu'il y a un appel à l'action.
 
-- **Write** about the privacy issues you care about. Inform the public with accurate information and effective ways of action to push back against invasive technologies and legislations. This can be through your social networks, personal blog, or even a book!
+- **Écrivez** à propos des problèmes de vie privée qui vous tiennent à cœur. Informez le public avec des informations précises et des moyens d'actions concrets pour lutter contre les technologies et les législations envahissantes. Ceci peut se faire via vos réseaux sociaux, votre blog personne ou même un livre !
 
-- [**Participate**](tip-small-actions-matter.md) in the actions organized by others. Reply positively to social media posts related to privacy rights, repost the content of your allies, sign petitions, report violations, join an online forum, and contact your representatives about privacy rights in your region of the world.
+- [**Participez**](tip-small-actions-matter.md) aux actions organisées par d'autres. Répondez de manière positive aux publications sur les réseaux sociaux concernant le droit à la vie privée, partagez les publications de vos alliés, signez des pétitions, signalez les violations, rejoignez un forum en ligne et contactez vos élus au sujet du droit à la vie privée dans votre région du monde.
 
-- [**Refuse**](tip-refuse-to-participate.md) to participate in privacy-invasive requests, and refuse to use privacy-invasive technologies as much as doable for your situation. Sometimes doing nothing can be a powerful action. Try to prioritize your privacy principles over [convenience](https://www.privacyguides.org/articles/2025/06/07/selling-surveillance-as-convenience/), and report on your refusal experiences on social networks and with your local communities.
+- [**Refusez**](tip-refuse-to-participate.md) de répondre aux demandes portant atteinte à la vie privée, et refusez d'utiliser des technologies invasives pour la vie privée dans la mesure du possible compte tenu de votre situation. Parfois, ne rien faire peut être une action forte. Essayez de prioriser vos principes de confidentialités plutôt que la [commodité](https://www.privacyguides.org/articles/2025/06/07/selling-surveillance-as-convenience/), et partagez vos expériences de refus sur les réseaux sociaux et avec votre communauté locale.
 
-- [**Join or build** communities](https://discuss.privacyguides.net/) with people sharing your privacy values. Be a positive contributor and lift your allies up. [Support your privacy comrades](tip-support-your-privacy-comrades.md) and [ask for help](tip-take-time-to-rest.md) when you need it yourself. Look for nonprofit organizations [seeking volunteers](../../about/contributors.md).
+- [**Rejoignez ou construisez** des communautés](https://discuss.privacyguides.net/) avec des personnes partageant vos valeurs de protection de la vie privée. Soyez un contributeur positif et tirez vos alliés vers le haut. [Soutenez vos camarades de défense de la vie privée](tip-support-your-privacy-comrades.md) et [demandez de l'aide](tip-take-time-to-rest.md) lorsque vous en avez besoin. Recherchez des associations à but non lucratif [qui recherchent des bénévoles](../../about/contributors.md).
 
-- [**Contribute** financially](../../about/donate.md) if you can. If you cannot afford to participate in time, consider donating money. There are many digital rights nonprofit organizations that could do _so much more_ if only they had more funding. Offering financial support when you can is a meaningful way to contribute to the privacy rights movement.
+- [**Contribuez** financièrement](../../about/donate.md) si vous le pouvez. Si vous ne pouvez pas vous permettre de participer en donnant de votre temps, pensez à faire un don financier. Il existe de nombreuses associations à but non lucratif œuvrant pour les droits numériques qui pourraient faire _beaucoup plus_ si seulement elles disposaient de davantage de moyens financiers. Offrir un soutien financier lorsque vous le pouvez est un moyen concret de contribuer au mouvement de défense de la vie privée.
 
-- **Go** to local meetups related to privacy and digital rights. Meet people who share your values in-person, and grow your network to find allies in your area.
+- **Allez** dans des rencontres locales liées à la vie privée et aux droits numériques. Rencontrez des gens qui partagent vos valeurs en personne et élargissez votre réseau pour trouver tous les alliés de votre région.
 
-- **Take part** in digital rights protests that support causes and raise awareness on privacy issues you care about. Actively look online for events to join in your local privacy rights community.
+- **Participez** aux manifestations en faveur des droits numériques qui soutiennent des causes et sensibilisent le public aux questions de vie privée qui vous tiennent à cœur. Recherchez activement sur Internet les événements organisés par votre communauté locale de défense des droits à la vie privée auxquels vous pourriez participer.
 
-- **Invite** others to join you in the movement to defend privacy rights!
+- **Invitez** d'autres personnes à vous rejoindre dans le mouvement de la défense des droits à la vie privée !
 
 </div>
 
 <div class="admonition quote toolbox-quote" markdown>
-<p class="admonition-title toolbox-quote">People who do activism reclaim their own agency in deciding what kind of world they want to live in.</p>
+<p class="admonition-title toolbox-quote">Les personnes qui militent reprennent le contrôle de leur destin en décidant dans quel genre de monde elles veulent vivre.</p>
 
-<p class="toolbox-quote-source" markdown>Source: [*Activist Handbook*](https://activisthandbook.org/theory/what-is-activism#personal-is-political)</p>
+<p class="toolbox-quote-source" markdown>Source : [*Guide du Militant*](https://activisthandbook.org/theory/what-is-activism#personal-is-political)</p>
 
 </div>
 
-## More resources
+## Plus de ressources
 
-- [What is activism? (_Activist Handbook_)](https://activisthandbook.org/theory/what-is-activism#personal-is-political)
+- [Qu'est-ce que le militantisme ? (_Guide du Militant_)](https://activisthandbook.org/theory/what-is-activism#personal-is-political)
 
-- [How to be an activist for human rights causes (_WikiHow_)](https://www.wikihow.com/Become-an-Activist)
+- [Comment militer pour la défense des droits de l'homme (_WikiHow_)](https://www.wikihow.com/Become-an-Activist)
 
-- [Learn to use ethical principles of persuasion (_The Community Tool Box_ (University of Kansas))](https://ctb.ku.edu/en/table-of-contents/participation/promoting-interest/principles-of-persuasion/main)
+- [Apprenez à utiliser des principes de persuasion (_La Boîte à Outils Communautaire_ (Université du Kansas))](https://ctb.ku.edu/en/table-of-contents/participation/promoting-interest/principles-of-persuasion/main)
 
 - [Communicate your message: Making sure your message comes across (_Activist Handbook_)](https://activisthandbook.org/communication)
