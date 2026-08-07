@@ -1,13 +1,13 @@
 ---
-title: Know Your Privacy Laws
-description: Being well-informed about the data protection regulations in your own jurisdiction can be a significant asset in your battles for better privacy rights.
+title: Connaître les lois en vigueur sur la protection de la vie privée
+description: Être bien informé sur les règlements à propos de la protection des données dans votre propre juridiction peut être un atout majeur dans vos combats pour de meilleurs droits à la vie privée.
 icon: fontawesome/solid/balance-scale
 cover: activism/banner-toolbox-tip-laws.webp
 ---
 
-Being well-informed about the **data protection regulations** in your own jurisdiction can be a significant asset for your personal and collective battles to improve privacy, for yourself and for others.
+Être bien informé des **règles de protection des données** dans votre propre juridiction peut être un atout important pour vos batailles personnelles et collectives pour améliorer la vie privée, pour vous et pour les autres.
 
-Unfortunately, many people lucky enough to live in jurisdictions benefiting from such regulations often aren't aware of them, or of how to use them.
+Malheureusement, bon nombre de personnes ayant la chance de vivre dans des juridictions bénéficiant de telles réglementations ignorent leur existence ou ne savent pas comment les utiliser.
 
 Here's what to look for when searching information about your local privacy laws:
 
