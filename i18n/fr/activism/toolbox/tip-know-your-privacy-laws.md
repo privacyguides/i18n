@@ -9,16 +9,16 @@ cover: activism/banner-toolbox-tip-laws.webp
 
 Malheureusement, bon nombre de personnes ayant la chance de vivre dans des juridictions bénéficiant de telles réglementations ignorent leur existence ou ne savent pas comment les utiliser.
 
-Here's what to look for when searching information about your local privacy laws:
+Voici les éléments à prendre en compte lors de la recherche d'information sur la législation locale en matière de protection de la vie privée :
 
-## Where is the data subject
+## Où est le sujet des données
 
-For most privacy regulations, legal protections will be applicable to **data subjects** who are citizens or reside in a specific region or country.
+Pour la plupart des réglementations en matière de protection de la vie privée, les protections juridiques seront applicables à des **sujets de données** qui sont citoyens d'un pays ou habitent dans une région ou un pays particulier.
 
 <div class="admonition info inline end" markdown>
-<p class="admonition-title">What is a data subject?</p>
+<p class="admonition-title">Qu'est-ce qu'un sujet de données ?</p>
 
-Different laws might use different terms for this. Sometimes, a regulation might simply refer to a _person_, an _individual_, a _consumer_, a _patient_, or a _customer_.
+Différentes lois peuvent utiliser différents termes pour ceci. Sometimes, a regulation might simply refer to a _person_, an _individual_, a _consumer_, a _patient_, or a _customer_.
 
 Other times, the equivalent expression used will be a _data subject_.
 
