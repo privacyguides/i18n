@@ -18,48 +18,48 @@ Pour la plupart des réglementations en matière de protection de la vie privée
 <div class="admonition info inline end" markdown>
 <p class="admonition-title">Qu'est-ce qu'un sujet de données ?</p>
 
-Différentes lois peuvent utiliser différents termes pour ceci. Sometimes, a regulation might simply refer to a _person_, an _individual_, a _consumer_, a _patient_, or a _customer_.
+Différentes lois peuvent utiliser différents termes pour ceci. Parfois, une réglementation peut simplement faire référence à une _personne_, un _individu_, un _consommateur_, un _patient_ ou un _client_.
 
-Other times, the equivalent expression used will be a _data subject_.
+D'autre fois, l'expression équivalente utilisée sera un _sujet de connées_.
 
-A data subject is simply anyone from whom personal information is collected by an organization. **Data subject** will be used as an umbrella term on this page.
+Un sujet de données est simplement quiconque dont les informations personnelles sont collectées par une organisation. **Sujet de données** sera utilisé comme terme générique sur cette page.
 
 </div>
 
-Contrary to what many believe, it's generally _your_ local regulations that protect you, regardless of where the organization collecting your personal data is located (in addition, organizations are also subjected to their own local regulations).
+Contrairement à ce que beaucoup pensent, ce sont généralement _vos_ réglementations locales qui vous protègent, quel que soit le lieu où se trouve l'organisme qui collecte vos données à caractère personnel (par ailleurs, ces organismes sont également soumis à leurs propres réglementations locales).
 
-Organizations that meet the data subject's local privacy law criteria are legally bound to comply with the laws of each region or country where their data subjects are residing (i.e. where they are conducting business).
+Les organisations qui répondent aux critères prévus par la législation locale en matière de protection des données des sujets de données sont légalement obligées de se conformer avec les lois de chaque région ou pays où résident leurs sujets de données (c-à-d où elles exercent leurs activités).
 
-There are a lot of nuances and regional variations to this, but in general you should focus on _where_ the data subject is residing.
+Il y a de nombreuses nuances et variations régionales à ceci, mais en général vous devez vous concentrer sur _où_ le sujet de données habite.
 
-## Finding your local regulations
+## Trouver vos réglementations locales
 
-If your jurisdiction is protected by one or more privacy laws, it should be relatively easy to find this information online.
+Si votre juridiction est protégée par une ou plusieurs lois sur la protection de la vie privée, vous devriez pouvoir les trouver assez facilement en ligne.
 
-To start your research, you can look at [Privacy Guides' DPA Directory](../legal/dpa-directory.md) and check if your region is listed there. If it is, you will see what is the main consumer privacy law for this region, and you can click on the link to learn more about it.
+Pour commencer vos recherches, vous pouvez consulter le [répertoire des autorités de protection des données de Privacy Guides](../legal/dpa-directory.md) et vérifier si votre région y figure. Si c'est le cas, vous verrez quelle est la loi principale en matière de protection de la vie privée de cette région et vous pouvez cliquer sur le lien pour en apprendre plus à ce sujet.
 
-If your region isn't listed in our DPA Directory, or if you are looking for another more specific privacy-related law, you should be able to find this information online simply using a [trustworthy search engine](../../search-engines.md). Look for keywords with your location (be specific about country + states/provinces/region) and "privacy laws" or "data protection regulations."
+Si votre région n'est pas listée dans notre répertoire des DPA, ou si vous chercher une autre loi plus spécifique relative à la protection de la vie privée, vous devriez pouvoir trouver ces informations en lien en utilisant simplement un [moteur de recherche de confiance](../../search-engines.md). Recherchez des mots-clés en indiquant votre lieu de résidence (précisez le pays et l'état/province/région) et "loi en matière de protection de la vie privée" ou "réglementation en matière de protection des données".
 
-Always make sure to find a result that is from an official government source.
+Assurez-vous toujours de trouver un résultat provenant d'une source officielle du gouvernement.
 
 <div class="admonition warning inline end" markdown>
-<p class="admonition-title">Beware of AI-generated information!</p>
+<p class="admonition-title">Méfiez-vous des informations générées par l'IA !</p>
 
-Be careful to research this _without_ using an automated chatbot or AI-generated information. These tools can have a high error rate, and the information displayed might not be reliable. Be sure to find the official government documentation in order to get the proper _legal_ information.
+Veillez à effectuer cette recherche _sans_ utiliser de chatbot automatisé ni d'information générée par IA. Ces outils peuvent avoir un taux d'erreur élevé et l'information affichée peut ne pas être fiable. Assurez-vous de trouver la documentation officielle du gouvernement afin d'obtenir les informations _juridiques_ correctes.
 
 </div>
 
-While researching about your privacy protections, keep in mind that:
+Lorsque vous faites des recherches sur les mesures de protection de votre vie privée, gardez à l'esprit que :
 
-- [x] You might benefit from multiple privacy laws at once. For example, many regions have separate regulations specifically designed to protect health data, children's data, or employees' data.
+- [x] Vous pourriez bénéficier de plusieurs lois de protection de la vie privée en même temps. Par exemple, plusieurs régions disposent de réglementations conçues spécialement pour protéger les données de santé, les données des enfants ou celles des employés.
 
-- [x] You might benefit from protections by different government levels at once, such as federal, provincial, state level, etc. Look for them all!
+- [x] Vous pourriez bénéficier simultanément des mesures de protection mises en place par différents niveaux de pouvoir, tels que le gouvernement fédéral, les autorités provinciales, les autorités des États, etc. Cherchez-les tous !
 
-- [ ] Your region might unfortunately not be protected by any significant privacy regulations at this time. If this is the case for you: It's time to contact your local representatives and advocate for a local privacy law!
+- [ ] Il se peut malheureusement que votre région ne soit actuellement soumise à aucune réglementation significative en matière de protection de la vie privée. Si c'est le cas pour vous : il est temps de contacter vos représentants locaux et de militer pour une loi locale en matière de protection de la vie privée !
 
-## What to look for in a privacy law
+## Les éléments à rechercher dans une loi sur la protection de la vie privée
 
-Once you've found the official governmental documentation describing the data protection regulation that applies to your region, read it carefully to find:
+Lorsque vous avez trouvé la documentation officielle du gouvernement décrivant la régulation de la protection des données qui s'applique dans votre région, lisez-la attentivement pour trouver :
 
 <style>
 .emoji-list-a ul {
@@ -68,31 +68,30 @@ Once you've found the official governmental documentation describing the data pr
 @counter-style emoji-list-a {
   system: fixed;
   symbols: "👤" "🏢" "💛" "📦" "🔍" "🧑‍⚖️" "☑️";
-  suffix: "  ";
-</style>
+  suffix: "  ";</style>
 
 <div class="emoji-list-a" markdown>
 
-- Who is protected by the law, and in which situations?
+- Qui est protégé par la loi et dans quelles situations ?
 
-- Which types of organizations are bound to comply with the law?
+- Quels types d'organisations sont tenues de se conformer à la loi ?
 
-- What are your data subject rights? (Right to Delete? Right to Access? Right to Opt-out?)
+- Quels sont les droits des sujets de données ? (Droit de suppression ? Droit d'accès ? Droit de retrait ?)
 
-- Does the law include special protections for specific types of sensitive data?
+- Est-ce que la loi contient des protections spéciales pour des types particuliers de données sensibles ?
 
-- Which types of data might be exempt from the law?
+- Quels types de données pourraient être exemptées de l'application de la loi ?
 
-- Which entity is responsible for enforcing the law?
+- Quelle entité est responsable d'appliquer la loi ?
 
-- What is the process to file a complaint?
+- Quel est le processus pour déposer une plainte ?
 
 </div>
 
-## More resources
+## Plus de ressources
 
-- [Directory of comprehensive consumer privacy laws worldwide (_Privacy Guides_)](../legal/dpa-directory.md)
+- [Répertoire des lois exhaustives en matière de protection de la vie privée des consommateurs à travers le monde (_Privacy Guides_)](../legal/dpa-directory.md)
 
-- [Map of data protection and privacy legislation worldwide (_UN Trade and Development_)](https://unctad.org/page/data-protection-and-privacy-legislation-worldwide)
+- [Carte de la législation en matière de protection des données et de la vie privée dans le monde (_UN Trade and Development_)](https://unctad.org/page/data-protection-and-privacy-legislation-worldwide)
 
-- [The future of privacy: How governments shape your digital life (_Privacy Guides_)](https://www.privacyguides.org/articles/2025/02/03/the-future-of-privacy/)
+- [Le futur de la vie privée : Comment les gouvernements façonnent votre vie numérique (_Privacy Guides_)](https://www.privacyguides.org/articles/2025/02/03/the-future-of-privacy/)
