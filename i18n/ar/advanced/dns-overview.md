@@ -136,31 +136,31 @@ In this example we will record what happens when we make a DoH request:
 
 قد تكون أسهل طريقة لمعرفة نشاط تصفحك هي النظر إلى عناوين الـ IP التي تتصل بها أجهزتك. ببساطة، إذا كان من يراقب الشبكة يعلم مسبقا أن عنوان `privacyguides.org` هو `198.98.54.105`، ولاحظ أن جهازك يتصل بهذا العنوان تحديداً، فسوف يستنتج بسهولة أنك تتصفح موقع Privacy Guides.
 
-تكون هذه الطريقة مفيدة فقط عندما ينتمي عنوان الـ IP إلى خادم (Server) يستضيف عددا قليلا من المواقع. It's also not very useful if the site is hosted on a shared platform (e.g. GitHub Pages, Cloudflare Pages, Netlify, WordPress, Blogger, etc.). It also isn't very useful if the server is hosted behind a [reverse proxy](https://en.wikipedia.org/wiki/Reverse_proxy), which is very common on the modern Internet.
+تكون هذه الطريقة مفيدة فقط عندما ينتمي عنوان الـ IP إلى خادم (Server) يستضيف عددا قليلا من المواقع. It's also not very useful if the site is hosted on a shared platform (e.g. GitHub Pages, Cloudflare Pages, Netlify, WordPress, Blogger, etc.). علاوة على ذلك، فإنه يفقد الكثير من فائدته إذا كانت استضافة الخادم تتم خلف [reverse proxy](https://en.wikipedia.org/wiki/Reverse_proxy).
 
 ### Server Name Indication (SNI)
 
-Server Name Indication is typically used when an IP address hosts many websites. This could be a service like Cloudflare, or some other [Denial-of-service attack](https://en.wikipedia.org/wiki/Denial-of-service_attack) protection.
+يُستخدم الـ Server Name Indication عادة عندما يستضيف عنوان IP العديد من مواقع الويب. قد يتمثل ذلك في خدمة مثل Cloudflare، أو أي نظام آخر للحماية من هجمات الـ [(Denial-of-service attack)](https://en.wikipedia.org/wiki/Denial-of-service_attack).
 
-1. Start capturing again with `tshark`. We've added a filter with our IP address, so you don't capture many packets:
+1. ابدأ التتبع مرة أخرى باستخدام `tshark`. لقد أضفنا عامل تصفية بناءً على عنوان IP الخاص بنا، لكي تتجنب التقاط الكثير من الـ packets:
 
     ```bash
     tshark -w /tmp/pg.pcap port 443 and host 198.98.54.105
     ```
 
-2. Then we visit [https://privacyguides.org](https://privacyguides.org).
+2. بعد ذلك، نقوم بزيارة [https://privacyguides.org](https://privacyguides.org).
 
-3. After visiting the website, we want to stop the packet capture with <kbd>CTRL</kbd> + <kbd>C</kbd>.
+3. بعد زيارة الموقع، نريد إيقاف تسجيل الـ packets بالضغط على <kbd>CTRL</kbd> + <kbd>C</kbd>.
 
-4. Next we want to analyze the results:
+4. بعد ذلك، نريد تحليل النتائج:
 
     ```bash
     wireshark -r /tmp/pg.pcap
     ```
 
-    We will see the connection establishment, followed by the TLS handshake for the Privacy Guides website. Around frame 5. you'll see a "Client Hello".
+    سنرى بدء الاتصال، وبعده الـ TLS handshake لموقع Privacy Guides. حوالي الـ frame رقم 5. سترى رسالة «Client Hello».
 
-5. Expand the triangle &#9656; next to each field:
+5. افتح رمز المثلث &#9656; بجوار كل حقل:
 
     ```text
     ▸ Transport Layer Security
@@ -170,15 +170,15 @@ Server Name Indication is typically used when an IP address hosts many websites.
             ▸ Server Name Indication extension
     ```
 
-6. We can see the SNI value which discloses the website we are visiting. The `tshark` command can give you the value directly for all packets containing a SNI value:
+6. يمكننا ملاحظة قيمة SNI، وهي التي تفصح عن هوية موقع الويب الذي نقوم بزيارته. The `tshark` command can give you the value directly for all packets containing a SNI value:
 
     ```bash
     tshark -r /tmp/pg.pcap -Tfields -Y tls.handshake.extensions_server_name -e tls.handshake.extensions_server_name
     ```
 
-This means even if we are using "Encrypted DNS" servers, the domain will likely be disclosed through SNI. The [TLS v1.3](https://en.wikipedia.org/wiki/Transport_Layer_Security#TLS_1.3) protocol brings with it [Encrypted Client Hello](https://blog.cloudflare.com/encrypted-client-hello), which prevents this kind of leak.
+وهذا يعني أنه حتى وإن استخدمنا خوادم الـ "Encrypted DNS"، فمن المرجح أن يُفصح عن النطاق عبر SNI. يجلب بروتوكول [TLS v1.3](https://en.wikipedia.org/wiki/Transport_Layer_Security#TLS_1.3) معه تقنية [Encrypted Client Hello](https://blog.cloudflare.com/encrypted-client-hello)، مما يمنع حدوث هذا النوع من التسريبات.
 
-Governments, in particular [China](https://zdnet.com/article/china-is-now-blocking-all-encrypted-https-traffic-using-tls-1-3-and-esni) and [Russia](https://zdnet.com/article/russia-wants-to-ban-the-use-of-secure-protocols-such-as-tls-1-3-doh-dot-esni), have either already [started blocking](https://en.wikipedia.org/wiki/Server_Name_Indication#Encrypted_Client_Hello) it or expressed a desire to do so. Recently, Russia has [started blocking foreign websites](https://github.com/net4people/bbs/issues/108) that use the [HTTP/3](https://en.wikipedia.org/wiki/HTTP/3) standard. This is because the [QUIC](https://en.wikipedia.org/wiki/QUIC) protocol that is a part of HTTP/3 requires that `ClientHello` also be encrypted.
+الحكومات، وخاصة [الصين](https://zdnet.com/article/china-is-now-blocking-all-encrypted-https-traffic-using-tls-1-3-and-esni) [وروسيا](https://zdnet.com/article/russia-wants-to-ban-the-use-of-secure-protocols-such-as-tls-1-3-doh-dot-esni)، إما أنها بدأت بالفعل في [حظره](https://en.wikipedia.org/wiki/Server_Name_Indication#Encrypted_Client_Hello) أو أعربت عن رغبتها في القيام بذلك. مؤخرًا، روسيا بدأت في [حظر المواقع الأجنبية](https://github.com/net4people/bbs/issues/108) التي تعتمد على الـ [HTTP/3](https://en.wikipedia.org/wiki/HTTP/3). وهذا لأن بروتوكول [QUIC](https://en.wikipedia.org/wiki/QUIC) الذي يعتبر جزءًا من HTTP/3 يتطلب أن يكون `ClientHello` مشفرا أيضا.
 
 ### Online Certificate Status Protocol (OCSP)
 
@@ -304,7 +304,7 @@ ispDNS --> | لا | nothing(لا تحتاج إلى فعل شيء)
 
 يمكن تشبيه توقيع DNSSEC بتوقيع شخص على ورقة قانونية بقلم؛ فلكل شخص توقيع مميز لا يستطيع الآخرون تقليده، ويمكن للخبير أن يفحصه ويتأكد من أن الشخص نفسه هو من وقع الوثيقة. تساعد هذه التوقيعات الرقمية على التأكد من أن البيانات لم يتم تغييرها أو العبث بها.
 
-يطبق DNSSEC سياسة توقيع رقمي هرمية عبر جميع طبقات DNS. For example, in the case of a `privacyguides.org` lookup, a root DNS server would sign a key for the `.org` nameserver, and the `.org` nameserver would then sign a key for `privacyguides.org`’s authoritative nameserver.
+يطبق DNSSEC سياسة توقيع رقمي هرمية عبر جميع طبقات DNS. على سبيل المثال، عند البحث عن `privacyguides.org`، سيقوم خادم الـ root بتوقيع مفتاح لخادم أسماء `.org`، وبعدها سيقوم خادم أسماء `.org` بتوقيع مفتاح للخادم الرئيسي الخاص بـ `privacyguides.org`.
 
 <small>Adapted from [DNS Security Extensions (DNSSEC) overview](https://cloud.google.com/dns/docs/dnssec) by Google and [DNSSEC: An Introduction](https://blog.cloudflare.com/dnssec-an-introduction) by Cloudflare, both licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0).</small>
 
