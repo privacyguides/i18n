@@ -1,10 +1,10 @@
 ---
-title: Private Payments
+title: مدفوعات خاصة
 icon: material/hand-coin
-description: Your buying habits are the holy grail of ad targeting, but you still have plenty of options when it comes to making payments privately.
+description: عاداتك الشرائية عبر الانترنت تمثل لشركات الأعلانات الكنز الثمين للمقترحات الشرائية، ولكن الشئ الجيد، انه مازال لديك عدة اختيارات عندما يتعلق الأمر بالدفع بشكل آمن وبخصوصية تامة.
 ---
 
-Data about your buying habits is considered the holy grail of ad targeting: Your purchases can leak a veritable treasure trove of data about you. Unfortunately, the current financial system is anti-privacy by design, enabling banks, other companies, and governments to easily trace transactions. Nevertheless, you have plenty of options when it comes to making payments privately.
+تُعتبر البيانات المتعلقة بعاداتك الشرائية الكنز الأثمن للاستهداف الإعلاني: إذ يمكن لمشترياتك أن تُسرب ثروة حقيقية من البيانات عنك. Unfortunately, the current financial system is anti-privacy by design, enabling banks, other companies, and governments to easily trace transactions. Nevertheless, you have plenty of options when it comes to making payments privately.
 
 ## Cash
 

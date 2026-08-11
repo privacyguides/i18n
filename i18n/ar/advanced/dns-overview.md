@@ -102,7 +102,7 @@ description: نظام أسماء النطاقات DNS يشبه دليل الها
 
 ## ما الذي يستطيع طرف خارجي رؤيته؟
 
-In this example we will record what happens when we make a DoH request:
+في هذا المثال، سنسجل ما يحدث عندما نرسل طلب الـ DoH:
 
 1. أولا، قم بتشغيل أداة `tshark`:
 
@@ -136,7 +136,7 @@ In this example we will record what happens when we make a DoH request:
 
 قد تكون أسهل طريقة لمعرفة نشاط تصفحك هي النظر إلى عناوين الـ IP التي تتصل بها أجهزتك. ببساطة، إذا كان من يراقب الشبكة يعلم مسبقا أن عنوان `privacyguides.org` هو `198.98.54.105`، ولاحظ أن جهازك يتصل بهذا العنوان تحديداً، فسوف يستنتج بسهولة أنك تتصفح موقع Privacy Guides.
 
-تكون هذه الطريقة مفيدة فقط عندما ينتمي عنوان الـ IP إلى خادم (Server) يستضيف عددا قليلا من المواقع. It's also not very useful if the site is hosted on a shared platform (e.g. GitHub Pages, Cloudflare Pages, Netlify, WordPress, Blogger, etc.). علاوة على ذلك، فإنه يفقد الكثير من فائدته إذا كانت استضافة الخادم تتم خلف [reverse proxy](https://en.wikipedia.org/wiki/Reverse_proxy).
+تكون هذه الطريقة مفيدة فقط عندما ينتمي عنوان الـ IP إلى خادم (Server) يستضيف عددا قليلا من المواقع. كما أنها لا تكون مفيدة جدا إذا كان الموقع مستضافا على منصة مشتركة (مثل: GitHub Pages، و Cloudflare Pages، و Netlify، و WordPress، و Blogger، وغيرها). علاوة على ذلك، فإنه يفقد الكثير من فائدته إذا كانت استضافة الخادم تتم خلف [reverse proxy](https://en.wikipedia.org/wiki/Reverse_proxy).
 
 ### Server Name Indication (SNI)
 
@@ -170,7 +170,7 @@ In this example we will record what happens when we make a DoH request:
             ▸ Server Name Indication extension
     ```
 
-6. يمكننا ملاحظة قيمة SNI، وهي التي تفصح عن هوية موقع الويب الذي نقوم بزيارته. The `tshark` command can give you the value directly for all packets containing a SNI value:
+6. يمكننا ملاحظة قيمة SNI، وهي التي تفصح عن هوية موقع الويب الذي نقوم بزيارته. يمكن لأمر `tshark` أن يعطيك القيمة مباشرة لجميع الـ packets التي تحتوي على قيمة SNI:
 
     ```bash
     tshark -r /tmp/pg.pcap -Tfields -Y tls.handshake.extensions_server_name -e tls.handshake.extensions_server_name
@@ -306,50 +306,58 @@ ispDNS --> | لا | nothing(لا تحتاج إلى فعل شيء)
 
 يطبق DNSSEC سياسة توقيع رقمي هرمية عبر جميع طبقات DNS. على سبيل المثال، عند البحث عن `privacyguides.org`، سيقوم خادم الـ root بتوقيع مفتاح لخادم أسماء `.org`، وبعدها سيقوم خادم أسماء `.org` بتوقيع مفتاح للخادم الرئيسي الخاص بـ `privacyguides.org`.
 
-<small>Adapted from [DNS Security Extensions (DNSSEC) overview](https://cloud.google.com/dns/docs/dnssec) by Google and [DNSSEC: An Introduction](https://blog.cloudflare.com/dnssec-an-introduction) by Cloudflare, both licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0).</small>
+<small>مقتبس من [نظرة عامة على ملحقات أمان DNS (DNSSEC)](https://docs.cloud.google.com/dns/docs/dnssec) بواسطة Google و[DNSSEC: مقدمة](https://blog.cloudflare.com/dnssec-an-introduction) بواسطة Cloudflare، وكلاهما مرخص بموجب [CC BY 4.0](https://creativecommons.org/licenses/by/4.0).</small>
 
-## What is QNAME minimization?
+## ما هو الـ QNAME minimization؟
 
-A QNAME is a "qualified name", for example `discuss.privacyguides.net`. In the past, when resolving a domain name your DNS resolver would ask every server in the chain to provide any information it has about your full query. In this example below, your request to find the IP address for `discuss.privacyguides.net` gets asked of every DNS server provider:
+يشير QNAME إلى "qualified name" (Qualified Name)، مثل `discuss.privacyguides.net`. سابقًا، عند البحث عن أي دومين، كان الـ DNS resolver الخاص بك يسأل كل سيرفر في الشبكة لتقديم أي معلومات يملكها عن طلبك بالكامل. في المثال أدناه، يتم توجيه طلبك للعثور على عنوان IP الخاص بـ `discuss.privacyguides.net` إلى كل مزود لخوادم DNS:
 
-| Server                 | Question Asked                              | Response                                    |
-| ---------------------- | ------------------------------------------- | ------------------------------------------- |
-| Root server            | What's the IP of discuss.privacyguides.net? | I don't know, ask .net's server...          |
-| .net's server          | What's the IP of discuss.privacyguides.net? | I don't know, ask Privacy Guides' server... |
-| Privacy Guides' server | What's the IP of discuss.privacyguides.net? | 5.161.195.190!                              |
+| خادم                  | الأسئلة المطروحة                                | الرد                                   |
+| --------------------- | ----------------------------------------------- | -------------------------------------- |
+| الخادم الأساسي        | ما هو عنوان IP لموقع discuss.privacyguides.net؟ | لا أعرف، اسأل خادم .net...             |
+| خادم .net             | ما هو عنوان IP لموقع discuss.privacyguides.net؟ | لا أعرف، اسأل خادم «Privacy Guides»... |
+| خادم «Privacy Guides» | ما هو عنوان IP لموقع discuss.privacyguides.net؟ | 5.161.195.190!                         |
 
-With "QNAME minimization," your DNS resolver now only asks for just enough information to find the next server in the chain. In this example, the root server is only asked for enough information to find the appropriate nameserver for the .net TLD, and so on, without ever knowing the full domain you're trying to visit:
+باستخدام "QNAME minimization"، لا يطلب الـ DNS resolver الخاص بك الآن سوى المعلومات الضرورية فقط لإيجاد الخادم التالي في الشبكة. في هذا المثال، يُسأل الخادم الأساسي فقط عن معلومات كافية لإيجاد خادم الـ nameserver الملائم لامتداد .net (TLD)، وهكذا، من دون أن يعرف أبدًا الدومين بالكامل الذي تحاول زيارته:
 
-| Server                 | Question Asked                                       | Response                          |
-| ---------------------- | ---------------------------------------------------- | --------------------------------- |
-| Root server            | What's the nameserver for .net?                      | *Provides .net's server*          |
-| .net's server          | What's the nameserver for privacyguides.net?         | *Provides Privacy Guides' server* |
-| Privacy Guides' server | What's the nameserver for discuss.privacyguides.net? | This server!                      |
-| Privacy Guides' server | What's the IP of discuss.privacyguides.net?          | 5.161.195.190                     |
+| خادم                  | الأسئلة المطروحة                                                     | الرد                                  |
+| --------------------- | -------------------------------------------------------------------- | ------------------------------------- |
+| الخادم الأساسي        | ما هو خادم الـ nameserver الخاص بنطاق .net؟                          | *يقوم بتوفير خادم الـ .net*           |
+| خادم .net             | ما هو خادم الـ nameserver الخاص بنطاق الـ privacyguides.net؟         | *يوفر الخادم الخاص بـ Privacy Guides* |
+| خادم «Privacy Guides» | ما هو خادم الـ nameserver الخاص بنطاق الـ discuss.privacyguides.net؟ | هذا الخادم!                           |
+| خادم «Privacy Guides» | ما هو عنوان IP لموقع discuss.privacyguides.net؟                      | 5.161.195.190                         |
 
-While this process can be slightly more inefficient, in this example neither the central root nameservers nor the TLD's nameservers ever receive information about your *full* query, thus reducing the amount of information being transmitted about your browsing habits. Further technical description is defined in [RFC 7816](https://datatracker.ietf.org/doc/html/rfc7816).
+مع أن هذه الطريقة قد تكون أبطأ قليلًا، ففي هذا المثال لا تستلم خوادم الـ root المركزية ولا خوادم الـ TLD أي معلومات أبدًا عن طلبك *بالكامل*، وبالتالي يقل حجم البيانات التي يتم نقلها عن عادات التصفح الخاصة بك. توجد تفاصيل تقنية إضافية في [RFC 7816](https://datatracker.ietf.org/doc/html/rfc7816).
 
-## What is EDNS Client Subnet (ECS)?
+## ما هي الـ EDNS Client Subnet (ECS)؟
 
-The [EDNS Client Subnet](https://en.wikipedia.org/wiki/EDNS_Client_Subnet) is a method for a recursive DNS resolver to specify a [subnetwork](https://en.wikipedia.org/wiki/Subnetwork) for the [host or client](https://en.wikipedia.org/wiki/Client_(computing)) which is making the DNS query.
+تُعد تقنية [EDNS Client Subnet](https://en.wikipedia.org/wiki/EDNS_Client_Subnet) طريقة تتيح للـ recursive DNS resolver تحديد[ شبكة فرعية](https://en.wikipedia.org/wiki/Subnetwork) لـالمضيف أو العميل الذي يقوم بإجراء استعلام DNS.</p> 
 
-It's intended to "speed up" delivery of data by giving the client an answer that belongs to a server that is close to them such as a [content delivery network](https://en.wikipedia.org/wiki/Content_delivery_network), which are often used in video streaming and serving JavaScript web apps.
+الهدف منها هو "تسريع" توصيل البيانات عن طريق تزويد العميل بإجابة من خادم قريب منه، مثل [شبكة توصيل المحتوى (CDN)](https://en.wikipedia.org/wiki/Content_delivery_network)، والتي تُستخدم غالبًا في بث الفيديو وتقديم تطبيقات الـ javascript.
 
-This feature does come at a privacy cost, as it tells the DNS server some information about the client's location, generally your IP network. For example, if your IP address is `198.51.100.32` the DNS provider might share `198.51.100.0/24` with the authoritative server. Some DNS providers anonymize this data by providing another IP address which is approximately near your location.
+إلا أن هذه الميزة لها سلبيتها على الخصوصية؛ فهي تخبر خادم الـ DNS ببعض المعلومات عن الموقع الجغرافي للعميل، وبشكل عام الـ IP الخاصة بك. على سبيل المثال، في حال كان عنوان IP لديك هو `198.51.100.32`، فإن مزود خدمة الـ DNS قد يشارك النطاق `198.51.100.0/24` مع الخادم المعتمد. يقوم بعض مزودي خدمة الـ DNS بإخفاء هوية هذه البيانات من خلال تقديم عنوان IP آخر قريب تقريبًا من موقعك.
 
-If you have `dig` installed you can test whether your DNS provider gives EDNS information out to DNS nameservers with the following command:
+إذا كان لديك `dig` مثبتًا، يمكنك فحص ما إذا كان مزود الـ DNS الخاص بك يشارك معلومات EDNS مع سيرفرات الـ DNS nameservers عبر هذا الأمر:
+
+
 
 ```bash
 dig +nocmd -t txt o-o.myaddr.l.google.com +nocomments +noall +answer +stats
 ```
 
-Note that this command will contact Google for the test, and return your IP as well as EDNS client subnet information. If you want to test another DNS resolver you can specify their IP, to test `9.9.9.11` for example:
+
+يرجى ملاحظة أن هذا الأمر سيتصل بـ Google لإجراء الاختبار، وسيعرض عنوان IP الخاص بك بالإضافة إلى معلومات الـ EDNS client subnet. إذا كنت ترغب في اختبار DNS resolver آخر، يمكنك تحديد عنوان IP الخاص به، لاختبار` 9.9.9.11` على سبيل المثال:
+
+
 
 ```bash
 dig +nocmd @9.9.9.11 -t txt o-o.myaddr.l.google.com +nocomments +noall +answer +stats
 ```
 
-If the results include a second edns0-client-subnet TXT record (like shown below), then your DNS server is passing along EDNS information. The IP or network shown after is the precise information which was shared with Google by your DNS provider.
+
+إذا تضمنت النتائج سجل الـ edns0-client-subnet TXT ثان (كما هو موضح أدناه)، فهذا يعني أن خادم DNS الخاص بك يمرر معلومات الـ EDNS. الـ IP أو الشبكة التي تظهر بعد ذلك هي بالضبط المعلومات التي تمت مشاركتها مع Google بواسطة مزود الـ DNS الخاص بك.
+
+
 
 ```text
 o-o.myaddr.l.google.com. 60 IN TXT "198.51.100.32"
