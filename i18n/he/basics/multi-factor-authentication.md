@@ -141,7 +141,7 @@ sudo defaults write /Library/Preferences/com.apple.loginwindow DisableFDEAutoLog
 
 </div>
 
-מודול `pam_u2f` ב-Linux יכול לספק אימות דו-גורמי לכניסה לרוב ההפצות הפופולריות של לינוקס. אם יש לך מפתח אבטחת חומרה התומך ב-U2F, תוכל להגדיר אימות MFA עבור הכניסה שלך. Yubico has a guide [Ubuntu Linux Login Guide - U2F](https://support.yubico.com/hc/articles/360016649099-Ubuntu-Linux-Login-Guide-U2F) which should work on any distribution. הפקודות של מנהל החבילות - כגון `apt-get` - ושמות החבילות עשויים להיות שונים. מדריך זה **אינו** חל על מערכת ההפעלה Qubes.
+מודול `pam_u2f` ב-Linux יכול לספק אימות דו-גורמי לכניסה לרוב ההפצות הפופולריות של לינוקס. אם יש לך מפתח אבטחת חומרה התומך ב-U2F, תוכל להגדיר אימות MFA עבור הכניסה שלך. Yubico has a guide [Ubuntu Linux Login Guide - U2F](https://support.yubico.com/s/article/Ubuntu-Linux-login-guide-U2F) which should work on any distribution. הפקודות של מנהל החבילות - כגון `apt-get` - ושמות החבילות עשויים להיות שונים. מדריך זה **אינו** חל על מערכת ההפעלה Qubes.
 
 ### Qubes OS
 

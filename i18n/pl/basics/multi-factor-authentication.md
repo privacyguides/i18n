@@ -141,7 +141,7 @@ Jeśli nazwa hosta systemu ulegnie zmianie (np. wskutek DHCP), nie będzie możl
 
 </div>
 
-Moduł `pam_u2f` w systemie Linux może zapewnić uwierzytelnianie dwuskładnikowe przy logowaniu w większości popularnych dystrybucji. Jeśli posiadasz sprzętowy klucz bezpieczeństwa obsługujący U2F, można skonfigurować MFA dla logowania. Yubico przygotowało przewodnik [Ubuntu Linux Login Guide - U2F](https://support.yubico.com/hc/articles/360016649099-Ubuntu-Linux-Login-Guide-U2F) [Przewodnik logowania do Ubuntu Linux – U2F], który powinien działać na dowolnej dystrybucji. Polecenia menedżera pakietów — takie jak `apt-get` — oraz nazwy pakietów mogą się jednak różnić. Ten przewodnik **nie** dotyczy sytemu Qubes OS.
+Moduł `pam_u2f` w systemie Linux może zapewnić uwierzytelnianie dwuskładnikowe przy logowaniu w większości popularnych dystrybucji. Jeśli posiadasz sprzętowy klucz bezpieczeństwa obsługujący U2F, można skonfigurować MFA dla logowania. Yubico has a guide [Ubuntu Linux Login Guide - U2F](https://support.yubico.com/s/article/Ubuntu-Linux-login-guide-U2F) which should work on any distribution. Polecenia menedżera pakietów — takie jak `apt-get` — oraz nazwy pakietów mogą się jednak różnić. Ten przewodnik **nie** dotyczy sytemu Qubes OS.
 
 ### Qubes OS
 

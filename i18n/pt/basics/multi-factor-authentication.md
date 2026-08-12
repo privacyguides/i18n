@@ -141,7 +141,7 @@ If the hostname of your system changes (such as due to DHCP), you would be unabl
 
 </div>
 
-The `pam_u2f` module on Linux can provide two-factor authentication for logging in on most popular Linux distributions. A maioria das coisas deve ser a mesma independentemente da distribuição, no entanto os comandos do gerenciador de pacotes, como "apt-get" e nomes de pacotes podem ser diferentes. Yubico has a guide [Ubuntu Linux Login Guide - U2F](https://support.yubico.com/hc/articles/360016649099-Ubuntu-Linux-Login-Guide-U2F) which should work on any distribution. The package manager commands—such as `apt-get`—and package names may however differ. This guide does **not** apply to Qubes OS.
+The `pam_u2f` module on Linux can provide two-factor authentication for logging in on most popular Linux distributions. A maioria das coisas deve ser a mesma independentemente da distribuição, no entanto os comandos do gerenciador de pacotes, como "apt-get" e nomes de pacotes podem ser diferentes. Yubico has a guide [Ubuntu Linux Login Guide - U2F](https://support.yubico.com/s/article/Ubuntu-Linux-login-guide-U2F) which should work on any distribution. The package manager commands—such as `apt-get`—and package names may however differ. This guide does **not** apply to Qubes OS.
 
 ### SO Qubes
 

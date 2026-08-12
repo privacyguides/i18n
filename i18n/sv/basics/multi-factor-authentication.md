@@ -141,7 +141,7 @@ Om värdnamnet på ditt system ändras (till exempel på grund av DHCP), skulle 
 
 </div>
 
-Modulen `pam_u2f` på Linux kan ge tvåfaktorsautentisering för inloggning på de flesta populära Linuxdistributioner. Om du har en maskinvarusäkerhetsnyckel som stöder U2F kan du konfigurera MFA-autentisering för inloggning. Yubico has a guide [Ubuntu Linux Login Guide - U2F](https://support.yubico.com/hc/articles/360016649099-Ubuntu-Linux-Login-Guide-U2F) which should work on any distribution. Pakethanteraren kommandon-såsom `apt-get`-och paketnamn kan dock skilja sig. Den här guiden gäller **inte** för Qubes OS.
+Modulen `pam_u2f` på Linux kan ge tvåfaktorsautentisering för inloggning på de flesta populära Linuxdistributioner. Om du har en maskinvarusäkerhetsnyckel som stöder U2F kan du konfigurera MFA-autentisering för inloggning. Yubico has a guide [Ubuntu Linux Login Guide - U2F](https://support.yubico.com/s/article/Ubuntu-Linux-login-guide-U2F) which should work on any distribution. Pakethanteraren kommandon-såsom `apt-get`-och paketnamn kan dock skilja sig. Den här guiden gäller **inte** för Qubes OS.
 
 ### Qubes OS
 

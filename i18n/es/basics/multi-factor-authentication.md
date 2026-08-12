@@ -141,7 +141,7 @@ Si el nombre de host de tu sistema cambia (por ejemplo, debido al DHCP), no podr
 
 </div>
 
-El módulo `pam_u2f` en Linux puede proporcionar autenticación de dos factores para iniciar sesión en las distribuciones Linux más populares. Si tienes una llave de seguridad de hardware compatible con U2F, puedes configurar la autenticación MFA para tu inicio de sesión. Yubico tiene una guía [Ubuntu Linux Login Guide - U2F](https://support.yubico.com/hc/articles/360016649099-Ubuntu-Linux-Login-Guide-U2F) que debería funcionar en cualquier distribución. Sin embargo, los comandos del gestor de paquetes—como `"apt-get"`—y los nombres de los paquetes pueden ser diferentes. Esta guía **no** le aplica a Qubes OS.
+El módulo `pam_u2f` en Linux puede proporcionar autenticación de dos factores para iniciar sesión en las distribuciones Linux más populares. Si tienes una llave de seguridad de hardware compatible con U2F, puedes configurar la autenticación MFA para tu inicio de sesión. Yubico has a guide [Ubuntu Linux Login Guide - U2F](https://support.yubico.com/s/article/Ubuntu-Linux-login-guide-U2F) which should work on any distribution. Sin embargo, los comandos del gestor de paquetes—como `"apt-get"`—y los nombres de los paquetes pueden ser diferentes. Esta guía **no** le aplica a Qubes OS.
 
 ### Qubes OS
 
