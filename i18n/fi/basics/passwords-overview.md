@@ -6,19 +6,19 @@ description: Vinkkejä vahvojen salasanojen luomiseen ja tilien suojaamiseen.
 
 Salasanat ovat keskeinen osa jokapäiväistä digitaalista elämäämme. Käytämme niitä tiliemme, laitteidemme ja salaisuuksiemme suojaamiseen. Salasanoja ei yleensä harkita tarkkaan, vaikka ne ovatkin usein ainoa este tietojamme urkkivia vihollisia vastaan, mistä johtuen käytämme helposti arvattavia salasanoja.
 
-## Best Practices
+## Parhaat käytännöt
 
-### Use unique passwords for every service
+### Käytä eri salasanaa jokaiseen palveluun
 
-Imagine this: You sign up for an account with the same e-mail and password on multiple online services. If one of those service providers is malicious, or their service has a data breach that exposes your password in an unencrypted format, all a bad actor would have to do is try that e-mail and password combination across multiple popular services until they get a hit. It doesn't matter how strong that one password is, because they already have it.
+Kuvittele seuraava: luot tilin samalla sähköpostiosoitteella ja salasanalla useisiin verkkopalveluihin. Jos yksikään näistä palveluista on pahantahtoinen, tai jos palvelussa tapahtuneen tietovuodon takia salasanasi paljastuu salaamattomassa muodossa, pahantahtoisten toimijoiden tarvitsee vain kokeilla sähköpostiosoitettasi ja salasanaasi suosittuihin palveluihin kunnes he pääsevät muille tileillesi. Salasanan vahvuudella ei ole väliä, sillä se on jo heidän hallussaan.
 
-This is called [credential stuffing](https://en.wikipedia.org/wiki/Credential_stuffing), and it is one of the most common ways that your accounts can be compromised by bad actors. To avoid this, make sure that you never re-use your passwords.
+Tätä kutsutaan [credential stuffing-hyökkäykseksi](https://en.wikipedia.org/wiki/Credential_stuffing), tai tunnistetietojen täyttämiseksi, ja se on yksi yleisimmistä tavoista joilla pahantahtoiset toimijat voivat murtautua tileillesi. Suojautuaksesi tältä, älä koskaan käytä uudelleen salasanojasi.
 
-### Use randomly generated passwords
+### Käytä satunnaisesti luotuja salasanoja
 
-==You should **never** rely on yourself to come up with a good password.== We recommend using [randomly generated passwords](#passwords) or [diceware passphrases](#diceware-passphrases) with sufficient entropy to protect your accounts and devices.
+==Sinun ei tulisi **koskaan** turvautua itse keksittyihin vahvoihin salasanoihin.== Suosittelemme [satunnaisesti luotuja salasanoja,](#passwords) tai [arpakuution avulla tehtyjä salasanoja](#diceware-passphrases) riittävällä satunnaisuudella tiliesi ja laitteidesi suojaamiseen.
 
-All of our [recommended password managers](../passwords.md) include a built-in password generator that you can use.
+Kaikissa [suosittelemissamme salasananhallintaohjelmissa](../passwords.md) on sisään rakennettu salasanojen luoja jota voit käyttää.
 
 ### Rotating Passwords
 
