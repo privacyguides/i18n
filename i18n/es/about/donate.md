@@ -29,8 +29,7 @@ MAGIC Grants es nuestro anfitrión fiscal, y su plataforma de donaciones persona
 
     <div class="mdx-specialthanks" markdown>
 
-    [![Potencia la Privacidad]](https://powerupprivacy.com){ target=_blank title="Potencia la Privacidad" }
-    [![Borrame]](https://joindeleteme.com){ target=_blank title="Borrame" }
+    ![Power Up Privacy]{ title="Power Up Privacy" }
     [![Cape]](https://www.cape.co){ target=_blank title="Cape" }
 
       [Power Up Privacy]: ../assets/img/donors/power-up-privacy.webp
@@ -44,6 +43,7 @@ MAGIC Grants es nuestro anfitrión fiscal, y su plataforma de donaciones persona
     Gracias a estas organizaciones que han apoyado sustancialmente nuestro proyecto en el pasado.
 
     - [Safing](https://safing.io){ rel=nofollow target=_blank }: 2019 – 2021
+    - [DeleteMe](https://joindeleteme.com){ rel=nofollow target=_blank }: 2025
 
 ## Miembros Activos
 

@@ -29,8 +29,7 @@ MAGIC Grants 是我們的金流代理業者，他們的客製化開放原始碼�
 
     <div class="mdx-specialthanks" markdown>
 
-    [![Power Up Privacy]](https://powerupprivacy.com){ target=_blank title="Power Up Privacy" }
-    [![DeleteMe]](https://joindeleteme.com){ target=_blank title="DeleteMe" }
+    ![Power Up Privacy]{ title="Power Up Privacy" }
     [![Cape]](https://www.cape.co){ target=_blank title="Cape" }
 
       [Power Up Privacy]: ../assets/img/donors/power-up-privacy.webp
@@ -43,7 +42,8 @@ MAGIC Grants 是我們的金流代理業者，他們的客製化開放原始碼�
 
     感謝過去曾實質支持本專案的下列組織。
 
-    - [Safing](https://safing.io){ rel=nofollow target=_blank }：2019 – 2021
+    - [Safing](https://safing.io){ rel=nofollow target=_blank }: 2019 – 2021
+    - [DeleteMe](https://joindeleteme.com){ rel=nofollow target=_blank }: 2025
 
 ## 活躍的會員
 
