@@ -1,17 +1,17 @@
 ---
-title: Support Your Privacy Comrades
-description: Luchar por los derechos a la privacidad es un esfuerzo colectivo. Esta batalla puede ser difícil y solitaria a veces. That's why it's critical to care for each other.
+title: Apoya a tus camaradas de la privacidad
+description: Luchar por los derechos a la privacidad es un esfuerzo colectivo. Esta batalla puede ser difícil y solitaria a veces. Por eso es fundamental que nos cuidemos mutuamente.
 icon: fontawesome/solid/hand-holding-heart
 cover: activism/banner-toolbox-tip-support.webp
 ---
 
-Fighting for better privacy rights, privacy tools, and privacy practices is a collective endeavor. No puedes hacerlo solo. Cualquiera a tu alrededor que contribuya está luchando la misma batalla a tu lado. This battle _can_ be difficult and isolating at times. That's why it's critical to care for each other.
+La lucha por mejorar los derechos, las herramientas y las prácticas de privacidad es un esfuerzo colectivo. No puedes hacerlo solo. Cualquiera a tu alrededor que contribuya está luchando la misma batalla a tu lado. Esta batalla _puede_ ser difícil y solitaria a veces. Por eso es fundamental que nos cuidemos mutuamente.
 
-Here are things you can do to **support your privacy comrades**:
+Estas son algunas cosas que puedes hacer para **apoyar la privacidad de tus compañeros defensores de la privacidad**:
 
-## Fighting for privacy rights can be isolating in unique ways
+## La lucha por los derechos a la privacidad pueden provocar un aislamiento de formas únicas
 
-We live in a world of social connections. Regrettably, when we moved these connections online, we also gave power to large corporations to monitor and monetize our social relationships and communications.
+Vivimos en un mundo de relaciones sociales. Lamentablemente, cuando trasladamos estas conexiones en línea, también dimos poder a las grandes empresas para monitorizar y monetizar nuestras relaciones y comunicaciones sociales.
 
 Many privacy advocates will choose, rightly so, to completely [leave](tip-migrate-outside-the-surveillance-ecosystem.md) those abusive platforms. Sadly, a side effect of this is often severed relationships with loved ones, who refuse to join us on better, privacy-respectful environments. It's unfortunately common to lose friends when we quit Facebook, or refuse to join a Discord server. Taking a stand for our privacy values can come at the cost of some painful social losses.
 
