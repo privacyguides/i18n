@@ -19,21 +19,21 @@ Además, luchar para proteger el derecho a la privacidad mientras se leen notici
 
 La mayoría de los defensores han experimentado momentos de gran desánimo y sentimiento de impotencia al afrontar la magnitud de la tarea que tienen entre manos. ==El apoyo social es una cuestión de supervivencia== para recargar y continuar esta larga batalla por los derechos humanos.
 
-Por eso debemos trabajar para reconstruir nuestras propias comunidades. Supportive privacy communities that are [kind](tip-be-kind-to-people-but-be-relentless-with-institutions.md), [inclusive](tip-keep-your-posts-and-community-inclusive.md), and [accessible](tip-be-mindful-of-accessibility.md).
+Por eso debemos trabajar para reconstruir nuestras propias comunidades. Comunidades de apoyo sobre privacidad que sean [amables](tip-be-kind-to-people-but-be-relentless-with-institutions.md), [inclusivas](tip-keep-your-posts-and-community-inclusive.md) y [accesibles](tip-be-mindful-of-accessibility.md).
 
-## Stay vigilant to spot signs of distress and fatigue
+## Mantén la atención para detectar signos de malestar y cansancio
 
-Whether you are participating in a [privacy-oriented forum](https://discuss.privacyguides.net/) or reading posts and replies of your privacy comrades on social media, pay attention to potential signs of distress.
+Tanto si participas en un foro [orientado a la privacidad](https://discuss.privacyguides.net/) como si lees publicaciones y respuestas de tus compañeros interesados en la privacidad en redes sociales, muestra atención a potenciales síntomas de cansancio.
 
-Some people will periodically take time off from the internet to rest, which can be very healthy at time. But others might isolate from fatigue and discouragement. Keep your eyes open, and try to develop your compassion whenever you read comments that could be a clue someone is at the end of their rope, and in need of support.
+Algunas personas, de vez en cuando, se toman un descanso de internet, lo que puede ser muy saludable a veces. Sin embargo otros se pueden aislar debido al cansancio y el desánimo. Mantén los ojos abiertos e intenta desarrollar tu compasión cada vez que leas comentarios que pueden indicar que alguien está al límite de sus fuerzas y necesita tu apoyo.
 
-## Help whenever you can
+## Ayuda siempre que puedas
 
-Here are a few things you can do to support your privacy comrades in times of need:
+Aquí tienes algunas ideas que puedes hacer para apoyar a tus compañeros defensores de la privacidad en momentos de necesidad:
 
-- [x] Work on strengthening your empathy skills, and demonstrate more compassion. This is a superpower to take care of your community.
+- [x] Trabaja en mejorar tus habilidades de empatía y demuestra más compasión. Este es un superpoder para cuidar de tu comunidad.
 
-- [x] Tell them you understand this is difficult, and that you are here to help if they need support.
+- [x] Diles que entiendes que esto es difícil y que estás aquí para ayudarles si necesitan apoyo.
 
 - [x] Ask if they would like to talk more about their difficulties in private.
 
