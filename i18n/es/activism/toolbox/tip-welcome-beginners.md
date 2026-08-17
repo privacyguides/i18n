@@ -9,15 +9,15 @@ Para que nuestro movimiento por los derechos de privacidad crezca, debemos **atr
 
 A continuación te explicamos cómo puedes mejorar tu labor para hacerla más accesible a los principiantes:
 
-## We cannot grow our movement without newcomers
+## No podemos hacer crecer nuestro movimiento sin gente nueva
 
-Beginners and newcomers are _indispensable_ to our privacy rights movement. Without them, we cannot grow. And without growth, we cannot win.
+Los principiantes y los recién llegados son _indispensables_ para nuestro movimiento por los derechos a la privacidad. Sin ellos, no podemos crecer. Y sin crecer, no podemos ganar.
 
-To attract new people to our communities and our cause, we need to create an environment that is welcoming, safe, and pleasant to be in. When newcomers face rudeness and criticism, they leave. And when they leave, we lose.
+Para atraer a nuevas personas a nuestras comunidades y a nuestra causa necesitamos crear un entorno que sea acogedor, seguro y agradable de estar. Cuando los recién llegados se enfrentan a la falta de educación y a las críticas, se marchan. Y cuando se van, salimos perdiendo.
 
-Kindness, patience, and compassion are the first steps to attract and retain newcomers. Then, knowledge accessibility is vital. There are many things you can do in your daily advocacy to help with this.
+La amabilidad, la paciencia y la compasión son los primeros pasos para atraer y retener a los recién llegados. Entonces, el acceso al conocimiento es fundamental. Hay muchas cosas que puedes hacer en su defensa diaria para ayudar con esto.
 
-## What to keep in mind to make beginners feel welcomed
+## Qué hay que tener en cuenta para hacer que los recién llegados se sientan bienvenidos
 
 <style>
 .emoji-list-a ul {
@@ -31,9 +31,9 @@ Kindness, patience, and compassion are the first steps to attract and retain new
 
 <div class="emoji-list-a" markdown>
 
-- **Beware of acronyms:** Do not assume that everyone knows the acronyms you use in your material, even the most common such as VPN (Virtual Private Network). Always make sure to write the whole expression at least once before carrying on with the acronym's letters only.
+- **Cuidado con los acrónimos:** No de por supuesto que todo el mundo conoce los acrónimos que utilizas en tu material, incluso los más habituales como VPN (Red Privada Virtual). Asegúrate siempre de escribir las expresiones completas al menos una vez antes de seguir utilizando solo el acrónimo.
 
-- **Explain technologies:** As for acronyms, don't assume that everyone has the same knowledge as you when it comes to technology, even the technologies that seem basic to you. Perhaps you have been in tech for so long that you have forgotten not everyone knows what an Operating System (OS) is. Nevertheless, make sure to provide a short explanation or example to keep your content welcoming to beginners. If you talk about Operating Systems, perhaps also add "such as macOS, Windows, or Linux" to add context that could make your point more accessible.
+- **Explica las tecnologías:** Como con los acrónimos, do presupongas que todo el mundo tiene los mismos conocimientos que tú en materia de tecnología, incluso en el caso de tecnologías que te parecen básicas. Quizás llevas tanto tiempo en el sector tecnológico que has olvidado que no todo el mundo sabe qué es un Sistema Operativo (OS). No obstante, asegúrate de dar una breve explicación o ejemplo para que tu contenido sea accesible a principiantes. Si hablas de Sistemas Operativos, quizá puedes añadir "como macOS, Windows o Linux" para añadir contexto que pueda hacer tu argumento más accesible.
 
 - **Start with the basics:** Depending on the context, do not neglect to discuss the most basic privacy concepts before jumping in the juicy tech. Fundamental ideas such as consent, data collection, data storage, or encryption are important to master in order to understand the benefits and dangers related to data privacy. Specific tech and services come and go, but _fundamental_ ideas remain. Anyone who comprehends these core concepts will have a much easier time understanding all that follows.
 
