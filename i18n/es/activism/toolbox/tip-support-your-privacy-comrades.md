@@ -15,11 +15,11 @@ Vivimos en un mundo de relaciones sociales. Lamentablemente, cuando trasladamos 
 
 Muchos defensores de la privacidad elegirán, con razón, por [abandonar](tip-migrate-outside-the-surveillance-ecosystem.md) completamente estas plataformas abusivas. Tristemente, un efecto secundario de esto es que se rompan algunas relaciones con personas queridas, que se niegan a unirse a nosotros en mejores entornos más respetuosos con la privacidad. Es tristemente común perder amistades cuando nos damos de baja de Facebook o nos negamos a unirnos a un servidor de Discord. Adoptar una posición a favor de nuestros valores en materia de privacidad pueden suponer algunas pérdidas sociales dolorosas.
 
-Moreover, fighting to protect privacy rights while reading about attacks on those rights every day in the news can be draining.
+Además, luchar para proteger el derecho a la privacidad mientras se leen noticias sobre ataques a estos derechos a diario puede ser agotador.
 
-Most advocates have experienced moments of great discouragement, and feelings of helplessness while facing the magnitude of the task at hand. ==Social support is a matter of survival== to recharge and continue this long battle for human rights.
+La mayoría de los defensores han experimentado momentos de gran desánimo y sentimiento de impotencia al afrontar la magnitud de la tarea que tienen entre manos. ==El apoyo social es una cuestión de supervivencia== para recargar y continuar esta larga batalla por los derechos humanos.
 
-This is why we must work to rebuild communities of our own. Supportive privacy communities that are [kind](tip-be-kind-to-people-but-be-relentless-with-institutions.md), [inclusive](tip-keep-your-posts-and-community-inclusive.md), and [accessible](tip-be-mindful-of-accessibility.md).
+Por eso debemos trabajar para reconstruir nuestras propias comunidades. Supportive privacy communities that are [kind](tip-be-kind-to-people-but-be-relentless-with-institutions.md), [inclusive](tip-keep-your-posts-and-community-inclusive.md), and [accessible](tip-be-mindful-of-accessibility.md).
 
 ## Stay vigilant to spot signs of distress and fatigue
 
