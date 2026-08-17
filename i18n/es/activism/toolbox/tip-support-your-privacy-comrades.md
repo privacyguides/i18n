@@ -35,25 +35,25 @@ Aquí tienes algunas ideas que puedes hacer para apoyar a tus compañeros defens
 
 - [x] Diles que entiendes que esto es difícil y que estás aquí para ayudarles si necesitan apoyo.
 
-- [x] Ask if they would like to talk more about their difficulties in private.
+- [x] Pregunta si les gustaría hablar más sobre sus dificultades en privado.
 
-- [x] Offer your time to talk with them on a privacy-respectful chat, audio, or video call, if this is something you are comfortable doing.
+- [x] Ofréceles tu tiempo para hablar con ellos en un chat, llamada de audio o videoconferencia respetuosa con su privacidad, si es algo que te sientes cómodo haciendo.
 
-- [x] Invite them to join your community or group of like-minded people, if you think they might be a good fit.
+- [x] Invítales a unirse a tu comunidad o grupo de personas con ideas afines si crees que pueden encajar bien.
 
-- [x] Organize a group or event to socialize with your privacy comrades regularly, offline or online, in a privacy-respectful way.
+- [x] Organiza un grupo o evento para socializar con tus compañeros de privacidad de forma habitual, en línea o presencial, en una manera respetuosa con la privacidad.
 
-- [x] Depending on circumstances (and only if they might be open to it), refer them to a helpful resource in private. However, be careful not to fall into [the advice trap](https://www.psychologytoday.com/us/blog/the-questionologist/202103/how-guide-people-without-giving-advice), unless they specifically asked for advice.
+- [x] Dependiendo de las circunstancias (y solo si se muestran dispuestos a ello), remíteles en privado a un recurso que les pueda ser de ayuda. Sin embargo, ten cuidado con no caer en [la trampa de los consejos](https://www.psychologytoday.com/us/blog/the-questionologist/202103/how-guide-people-without-giving-advice), al menos que lo hayan pedido expresamente.
 
-- [x] Stay kind and do not take it personally if they refuse your help or disagree with your [_solicited_ advice](https://www.verywellmind.com/whats-behind-different-types-of-unsolicited-advice-3144961). Let them know the door is always open to reach out to you whenever they might need help later.
+- [x] Sé amable y no te lo tomes como algo personal si rechazan tu ayuda o no están de acuerdo con tu [_solicitado_ consejo](https://www.verywellmind.com/whats-behind-different-types-of-unsolicited-advice-3144961). Hazles saber que la puerta siempre está abierta para comunicarse contigo si necesitan ayuda más adelante.
 
-## More resources
+## Más recursos
 
-- [_Privacy Guides_ Forum](https://discuss.privacyguides.net/)
+- [Foro _Privacy Guides_](https://discuss.privacyguides.net/)
 
-- [What is empathy, and tips for strengthening your empathy skills (_Verywell Mind_)](https://www.verywellmind.com/what-is-empathy-2795562)
+- [Qué es la empatía y consejos para fortalecer tus habilidades de empáticas (_Verywell Mind_)](https://www.verywellmind.com/what-is-empathy-2795562)
 
-- [How to guide people without giving advice (_Psychology Today_)](https://www.psychologytoday.com/us/blog/the-questionologist/202103/how-guide-people-without-giving-advice)
+- [Cómo guiar a personas sin dar consejos (_Psychology Today_)](https://www.psychologytoday.com/us/blog/the-questionologist/202103/how-guide-people-without-giving-advice)
 
 - [Take care and prevent an activist burnout (_Activist Handbook_)](https://activisthandbook.org/wellbeing)
 
