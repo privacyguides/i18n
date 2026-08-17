@@ -1,13 +1,13 @@
 ---
-title: Welcome Beginners
-description: Para que nuestro movimiento por los derechos a la privacidad crezca, debemos atraer a más personas. To accomplish this, it's fundamental to make our communities welcoming to newcomers.
+title: Bienvenidos, principiantes
+description: Para que nuestro movimiento por los derechos a la privacidad crezca, debemos atraer a más personas. Para lograrlo, es fundamental hacer que nuestras comunidades sean acogedoras para recién llegados.
 icon: fontawesome/solid/user-plus
 cover: activism/banner-toolbox-tip-beginners.webp
 ---
 
-For our privacy rights movement to grow, we must **bring more people in**. To accomplish this, it's fundamental to discuss privacy in ways that are accessible to newcomers who aren't familiar with the basic concepts yet.
+Para que nuestro movimiento por los derechos de privacidad crezca, debemos **atraer a más personas**. Para lograrlo, es fundamental hablar sobre privacidad de modos que sean accesibles para recién llegados que no están familiarizados aún con los conceptos básicos.
 
-Here's how you can improve your advocacy work to make it more approachable to beginners:
+A continuación te explicamos cómo puedes mejorar tu labor para hacerla más accesible a los principiantes:
 
 ## We cannot grow our movement without newcomers
 

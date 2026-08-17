@@ -55,6 +55,6 @@ Aquí tienes algunas ideas que puedes hacer para apoyar a tus compañeros defens
 
 - [Cómo guiar a personas sin dar consejos (_Psychology Today_)](https://www.psychologytoday.com/us/blog/the-questionologist/202103/how-guide-people-without-giving-advice)
 
-- [Take care and prevent an activist burnout (_Activist Handbook_)](https://activisthandbook.org/wellbeing)
+- [Cuídate y evita el agotamiento del activista (_Activist Handbook_)](https://activisthandbook.org/wellbeing)
 
-- [Build communities on privacy-respectful social networks, and invite your privacy comrades to join you there (_Privacy Guides_)](tip-improve-your-social-media-and-build-resilient-communities.md)
+- [Crea comunidades en redes sociales respetuosas con la privacidad e invita a tus compañeros a unirte a ellas (_Privacy Guides_)](tip-improve-your-social-media-and-build-resilient-communities.md)
