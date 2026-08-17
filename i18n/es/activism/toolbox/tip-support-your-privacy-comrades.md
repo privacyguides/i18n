@@ -13,7 +13,7 @@ Estas son algunas cosas que puedes hacer para **apoyar la privacidad de tus comp
 
 Vivimos en un mundo de relaciones sociales. Lamentablemente, cuando trasladamos estas conexiones en línea, también dimos poder a las grandes empresas para monitorizar y monetizar nuestras relaciones y comunicaciones sociales.
 
-Many privacy advocates will choose, rightly so, to completely [leave](tip-migrate-outside-the-surveillance-ecosystem.md) those abusive platforms. Sadly, a side effect of this is often severed relationships with loved ones, who refuse to join us on better, privacy-respectful environments. It's unfortunately common to lose friends when we quit Facebook, or refuse to join a Discord server. Taking a stand for our privacy values can come at the cost of some painful social losses.
+Muchos defensores de la privacidad elegirán, con razón, por [abandonar](tip-migrate-outside-the-surveillance-ecosystem.md) completamente estas plataformas abusivas. Tristemente, un efecto secundario de esto es que se rompan algunas relaciones con personas queridas, que se niegan a unirse a nosotros en mejores entornos más respetuosos con la privacidad. Es tristemente común perder amistades cuando nos damos de baja de Facebook o nos negamos a unirnos a un servidor de Discord. Adoptar una posición a favor de nuestros valores en materia de privacidad pueden suponer algunas pérdidas sociales dolorosas.
 
 Moreover, fighting to protect privacy rights while reading about attacks on those rights every day in the news can be draining.
 
