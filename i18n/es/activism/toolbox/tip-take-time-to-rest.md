@@ -1,6 +1,6 @@
 ---
-title: Take Time to Rest, But Come Back to Fight With Us
-description: The battle for privacy will be a long one. Esto no es un esprint, es una maratón. If you want to be a good advocate, you must learn to rest when you need it.
+title: Tómate un tiempo para descansar, pero vuelve para luchar con nosotros
+description: La batalla por los derechos a la privacidad será larga. Esto no es un esprint, es una maratón. If you want to be a good advocate, you must learn to rest when you need it.
 icon: fontawesome/solid/battery-quarter
 cover: activism/banner-toolbox-tip-rest.webp
 ---
