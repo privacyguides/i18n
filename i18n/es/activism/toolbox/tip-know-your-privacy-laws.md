@@ -28,17 +28,17 @@ Un sujeto de datos es, simplemente, alguien cuya información personal es recogi
 
 En contra de lo que mucha gente cree, generalmente _tus_ normativas locales son las que te protegen sin importar donde esté localizada la empresa que está recopilando tus datos (además, las organizaciones también están sujetas a sus propias normativas locales).
 
-Organizations that meet the data subject's local privacy law criteria are legally bound to comply with the laws of each region or country where their data subjects are residing (i.e. where they are conducting business).
+Las organizaciones que cumplen los criterios de los objetivos de la legislación local en materia de privacidad están obligadas legalmente a cumplir las leyes de cada región o país donde residen los interesados (por ejemplo, donde desarrollan su actividad comercial).
 
-There are a lot of nuances and regional variations to this, but in general you should focus on _where_ the data subject is residing.
+Hay muchos matices y variaciones regionales en esto, pero en general debes poner el foco en _donde_ reside el sujeto de los datos.
 
-## Finding your local regulations
+## Buscando la legislación local
 
-If your jurisdiction is protected by one or more privacy laws, it should be relatively easy to find this information online.
+Si su territorio está protegido por una o más leyes de protección de datos, debería ser relativamente sencillo encontrar esta información en internet.
 
-To start your research, you can look at [Privacy Guides' DPA Directory](../legal/dpa-directory.md) and check if your region is listed there. If it is, you will see what is the main consumer privacy law for this region, and you can click on the link to learn more about it.
+Para comenzar la búsqueda puedes mirar a la [Lista de Autoridades de Protección de Datos de Privacy Guide](../legal/dpa-directory.md) y comprobar si tu región está en la lista. Si es así, puedes ver cuál es la principal ley de protección de datos del consumidor para esa región y puedes pulsar en el enlace para saber más.
 
-If your region isn't listed in our DPA Directory, or if you are looking for another more specific privacy-related law, you should be able to find this information online simply using a [trustworthy search engine](../../search-engines.md). Look for keywords with your location (be specific about country + states/provinces/region) and "privacy laws" or "data protection regulations."
+Si tu región no está listada en el directorio de Autoridades de Protección de Datos, o si estás buscando otra ley de protección de la privacidad más específica, tal vez puedas encontrar esa información usando un [buscador de confianza](../../search-engines.md). Busca palabras clave con tu localización (sé específico sobre el país + estado/provincia/región) y "leyes de privacidad" o "legislación de protección de datos".
 
 Always make sure to find a result that is from an official government source.
 
