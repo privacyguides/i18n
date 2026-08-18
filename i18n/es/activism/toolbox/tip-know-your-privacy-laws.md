@@ -1,32 +1,32 @@
 ---
-title: Know Your Privacy Laws
-description: Being well-informed about the data protection regulations in your own jurisdiction can be a significant asset in your battles for better privacy rights.
+title: Conoce la legislación en materia de privacidad
+description: Estar bien informado sobre la legislación de protección de datos en tu territorio puede ser una ventaja importante en las batallas por mejorar los derechos a la privacidad.
 icon: fontawesome/solid/balance-scale
 cover: activism/banner-toolbox-tip-laws.webp
 ---
 
-Being well-informed about the **data protection regulations** in your own jurisdiction can be a significant asset for your personal and collective battles to improve privacy, for yourself and for others.
+Estar bien informado sobre la **legislación de protección de datos** en tu territorio puede ser una ventaja importante en las batallas personales y colectivas para mejorar tu privacidad y la de otros.
 
-Unfortunately, many people lucky enough to live in jurisdictions benefiting from such regulations often aren't aware of them, or of how to use them.
+Por desgracia, muchas personas tienen la suerte de vivir en lugares que se benefician de este tipo de legislaciones no las conocen o no saben cómo aprovecharlas.
 
-Here's what to look for when searching information about your local privacy laws:
+Esto es lo que debes mirar cuando busques información sobre la legislación local en materia de privacidad:
 
-## Where is the data subject
+## Dónde se encuentra el sujeto de los datos
 
-For most privacy regulations, legal protections will be applicable to **data subjects** who are citizens or reside in a specific region or country.
+La mayoría de las legislaciones de privacidad, las protecciones legales son aplicables al **sujeto de los datos** que son ciudadanos o residentes en una región o país específico.
 
 <div class="admonition info inline end" markdown>
-<p class="admonition-title">What is a data subject?</p>
+<p class="admonition-title">¿Quién es un sujeto de datos?</p>
 
-Different laws might use different terms for this. Sometimes, a regulation might simply refer to a _person_, an _individual_, a _consumer_, a _patient_, or a _customer_.
+Diferentes leyes pueden usar diferentes términos para esto. En ocasiones, una regulación puede referirse simplemente a una _persona_, un _individuo_, un _consumidor_, un _paciente_ o a un _cliente_.
 
-Other times, the equivalent expression used will be a _data subject_.
+Otras veces, la expresión equivalente usada puede ser _sujeto de datos_.
 
-A data subject is simply anyone from whom personal information is collected by an organization. **Data subject** will be used as an umbrella term on this page.
+Un sujeto de datos es, simplemente, alguien cuya información personal es recogida por una organización. **Sujeto de dato** será usado como un término paraguas en esta página.
 
 </div>
 
-Contrary to what many believe, it's generally _your_ local regulations that protect you, regardless of where the organization collecting your personal data is located (in addition, organizations are also subjected to their own local regulations).
+En contra de lo que mucha gente cree, generalmente _tus_ normativas locales son las que te protegen sin importar donde esté localizada la empresa que está recopilando tus datos (además, las organizaciones también están sujetas a sus propias normativas locales).
 
 Organizations that meet the data subject's local privacy law criteria are legally bound to comply with the laws of each region or country where their data subjects are residing (i.e. where they are conducting business).
 
