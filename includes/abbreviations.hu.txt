@@ -3,60 +3,60 @@
 *[AOSP]: Android Open Source Project - Android Nyílt Forráskódú Projekt
 *[ATA]: Advanced Technology Attachment
 *[támadási felület]: Egy rendszerhez való illetéktelen hozzáférés összes lehetséges behatolási pontja
-*[AVB]: Android Verified Boot
-*[cgroups]: Control Groups
-*[CLI]: Command Line Interface - Parancssor Interface
+*[AVB]: Android Verified Boot – Android-hitelesített indítás
+*[cgroups]: Control Groups – Kontrollcsoportok
+*[CLI]: Command Line Interface – Parancssoros felület
 *[CSV]: Comma-Separated Values
 *[CVE]: Common Vulnerabilities and Exposures
-*[dark pattern]: A deceptive design pattern intended to trick a user into doing things
-*[digitális hagyaték funkció]: Digital Legacy refers to features that allow you to give other people access to your data when you die
+*[dark pattern]: Egy megtévesztő tervezési mintázat, amelynek az a célja, hogy bizonyos tettekre rábírja a felhasználót
+*[digitális hagyaték funkció]: A digitális hagyaték olyan funkciókra utal, amelyek lehetővé teszik, hogy hozzáférést biztosíts az adataidhoz másoknak halálod esetén
 *[DNSSEC]: Domain Name System Security Extensions - Domain Név Rendszer Biztonsági Kiterjesztések
 *[DNS]: Domain Name System - Domain Név Rendszer
 *[DoH]: DNS over HTTPS
 *[DoQ]: DNS over QUIC
 *[DoH3]: DNS over HTTP/3
 *[DoT]: DNS over TLS
-*[DPA]: Data Protection Authority
+*[DPA]: Data Protection Authority – Adatvédelmi Hatóság
 *[DPI]: Deep Packet Inspection identifies and blocks packet with specific payloads
-*[End-to-End]: Végponttól végpontig terjedő titkosítás
+*[E2EE]: End-to-End Encryption – Végponttól végpontig terjedő titkosítás
 *[ECS]: EDNS Client Subnet
 *[EEA]: European Economic Area - Európai Gazdasági Övezet
-*[entrópia]: A measurement of how unpredictable something is
-*[EOL]: End-of-Life - Valami életciklusának a vége
+*[entropy]: Annak a mértéke, hogy mennyire kiszámíthatatlan valami
+*[EOL]: End-of-Life – Életciklus vége
 *[Exif]: Exchangeable image file format
 *[FCM]: Firebase Cloud Messaging
 *[FDE]: Full Disk Encryption - Teljes Lemez Titkosítás
 *[FIDO]: Fast IDentity Online
 *[FS]: Forward Secrecy – előre titkosítás
-*[fork]: A new software project created by copying an existing project and adding to it independently
+*[fork]: Egy meglévő projekt másolásával és független hozzájárulással létrehozott új szoftverprojekt
 *[GDPR]: General Data Protection Regulation - Általános Adatvédelmi Rendelet
 *[GPG]: GNU Privacy Guard (PGP implementáció)
 *[GPS]: Global Positioning System - Globális Helymeghatározó Rendszer
-*[GUI]: Graphical User Interface - Grafikus Felhasználói Felület
+*[GUI]: Graphical User Interface – Grafikus felhasználói felület
 *[GnuPG]: GNU Privacy Guard (PGP implementáció)
 *[HDD]: Hard Disk Drive
-*[HOTP]: HMAC (Hash-based Message Authentication Code) based One-Time Password
-*[HTTPS]: Hypertext Transfer Protocol Secure
-*[HTTP]: Hypertext Transfer Protocol
-*[hypervisor]: Computer software, firmware, or hardware that splits the resources of a CPU among multiple operating systems
+*[HOTP]: HMAC (Hash-based Message Authentication Code) alapú egyszeri jelszó
+*[HTTPS]: Hypertext Transfer Protocol Secure – Biztonságos hiperszöveg-átviteli protokoll
+*[HTTP]: Hypertext Transfer Protocol – Hiperszöveg-átviteli protokoll
+*[hypervisor]: Számítógépes szoftver, firmware vagy hardver, amely a CPU erőforrásait több operációs rendszer között osztja fel
 *[ICCID]: Integrated Circuit Card Identifier
-*[IMAP]: Internet Message Access Protocol - Internet Üzenet-Hozzáférési Protokoll
+*[IMAP]: Internet Message Access Protocol – Internetes üzenet-hozzáférési protokoll
 *[IMEI]: International Mobile Equipment Identity
 *[IMSI]: International Mobile Subscriber Identity
-*[IP]: Internet Protocol
-*[IPv4]: Internet Protocol verzió 4
-*[IPv6]: Internet Protocol verzió 6
-*[ISP]: Internet Service Provider - Internet Szolgáltató
-*[ISPs]: Internet Service Providers - Internet Szolgáltatók
+*[IP]: Internet Protocol – Internet protokoll
+*[IPv4]: 4-es verziójú internet protokoll
+*[IPv6]: 6-os verziójú internet protokoll
+*[ISP]: Internet Service Provider – Internetszolgáltató
+*[ISPs]: Internet Service Providers – Internetszolgáltatók
 *[JNI]: Java Native Interface
-*[KYC]: Know Your Customer
+*[KYC]: Know Your Customer – Ismerd meg az ügyfeled
 *[LLaVA]: Large Language and Vision Assistant (multimodal AI model)
-*[LLMs]: Large Language Models (AI models such as ChatGPT)
+*[LLMs]: Large Language Models – nagy nyelvi modellek (MI modellek, mint például a ChatGPT)
 *[LUKS]: Linux Unified Key Setup (Full-Disk Encryption)
 *[MAC]: Media Access Control
 *[MDAG]: Microsoft Defender Application Guard
 *[MEID]: Mobile Equipment Identifier - Mobil Berendezés Azonosító
-*[MFA]: Multi-Factor Authentication - Többlépcsős Hitelesítés
+*[MFA]: Multi-Factor Authentication – Többlépcsős hitelesítés
 *[NVMe]: Nonvolatile Memory Express
 *[NAT]: Network address translation
 *[NAT-PMP]: NAT Port Mapping Protocol
