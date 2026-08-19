@@ -40,12 +40,12 @@ Para comenzar la búsqueda puedes mirar a la [Lista de Autoridades de Protecció
 
 Si tu región no está listada en el directorio de Autoridades de Protección de Datos, o si estás buscando otra ley de protección de la privacidad más específica, tal vez puedas encontrar esa información usando un [buscador de confianza](../../search-engines.md). Busca palabras clave con tu localización (sé específico sobre el país + estado/provincia/región) y "leyes de privacidad" o "legislación de protección de datos".
 
-Always make sure to find a result that is from an official government source.
+Asegúrate siempre de encontrar resultados de fuentes oficiales gubernamentales.
 
 <div class="admonition warning inline end" markdown>
-<p class="admonition-title">Beware of AI-generated information!</p>
+<p class="admonition-title">¡Ten cuidado con la información generada por IA!</p>
 
-Be careful to research this _without_ using an automated chatbot or AI-generated information. These tools can have a high error rate, and the information displayed might not be reliable. Be sure to find the official government documentation in order to get the proper _legal_ information.
+Asegúrate de investigar _sin_ usar chatbot automatizados o información generada por una IA. These tools can have a high error rate, and the information displayed might not be reliable. Be sure to find the official government documentation in order to get the proper _legal_ information.
 
 </div>
 
