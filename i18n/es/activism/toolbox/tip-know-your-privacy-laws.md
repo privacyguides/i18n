@@ -45,13 +45,13 @@ Asegúrate siempre de encontrar resultados de fuentes oficiales gubernamentales.
 <div class="admonition warning inline end" markdown>
 <p class="admonition-title">¡Ten cuidado con la información generada por IA!</p>
 
-Asegúrate de investigar _sin_ usar chatbot automatizados o información generada por una IA. These tools can have a high error rate, and the information displayed might not be reliable. Be sure to find the official government documentation in order to get the proper _legal_ information.
+Asegúrate de investigar _sin_ usar chatbot automatizados o información generada por una IA. Estas herramientas pueden tener una elevada tasa de error y la información mostrada puede no ser confiable. Asegúrate de encontrar documentación oficial del Gobierno para obtener la información _legal_ adecuada.
 
 </div>
 
-While researching about your privacy protections, keep in mind that:
+Mientras investigas sobre protección de la privacidad ten en cuenta que:
 
-- [x] You might benefit from multiple privacy laws at once. For example, many regions have separate regulations specifically designed to protect health data, children's data, or employees' data.
+- [x] Es posible que te beneficies de varias leyes a la vez. Por ejemplo, muchas regiones tienen regulaciones específicas destinadas a la protección de datos sanitarios, datos de menores o datos laborales.
 
 - [x] You might benefit from protections by different government levels at once, such as federal, provincial, state level, etc. Look for them all!
 
