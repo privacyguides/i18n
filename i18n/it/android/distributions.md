@@ -42,7 +42,7 @@ Consigliamo di installare GrapheneOS se hai un Google Pixel, perché migliora la
 
 **GrapheneOS** è la scelta migliore quando si parla di privacy e sicurezza.
 
-GrapheneOS offre un ulteriore miglioramento della privacy e della [sicurezza](https://en.wikipedia.org/wiki/Hardening_\(computing\)). Dispone di un [allocatore di memoria rafforzato](https://github.com/GrapheneOS/hardened_malloc), permessi per rete e sensori, e altre [funzionalità di sicurezza](https://grapheneos.org/features). GrapheneOS include anche aggiornamenti firmware completi e build firmate, quindi il Verified Boot è completamente supportato.
+GrapheneOS offre un ulteriore miglioramento della privacy e della [sicurezza](https://en.wikipedia.org/wiki/Hardening_(computing)). Dispone di un [allocatore di memoria rafforzato](https://github.com/GrapheneOS/hardened_malloc), permessi per rete e sensori, e altre [funzionalità di sicurezza](https://grapheneos.org/features). GrapheneOS include anche aggiornamenti firmware completi e build firmate, quindi il Verified Boot è completamente supportato.
 
 [:octicons-home-16: Homepage](https://grapheneos.org){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://grapheneos.org/faq#privacy-policy){ .card-link title="Privacy Policy" }

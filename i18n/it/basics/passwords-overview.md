@@ -16,7 +16,7 @@ Questo fenomeno è detto [riempimento delle credenziali](https://en.wikipedia.or
 
 ### Usa password generate casualmente
 
-==Non dovresti **mai** basarti su te stesso per generaare una buona password.== Consigliamo di utilizzare le [password generate casualmente](#password) o le [frasi segrete Diceware](#frasi-segrete-diceware), con un'entropia sufficiente per proteggere i tuoi profili e dispositivi.
+==Non dovresti **mai** basarti su te stesso per generare una buona password.== Consigliamo di utilizzare le [password generate casualmente](#password) o le [frasi segrete Diceware](#frasi-segrete-diceware), con un'entropia sufficiente per proteggere i tuoi profili e dispositivi.
 
 Tutti i [gestori di password consigliati](../passwords.md) da noi, includono un generatore di password integrato che puoi utilizzare.
 
