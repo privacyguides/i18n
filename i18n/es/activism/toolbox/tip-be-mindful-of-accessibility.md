@@ -15,25 +15,25 @@ Para muchas personas que no necesitan ninguna adaptación específica, la accesi
 
 Si bien este es un factor importante a tener en cuenta, hay otros muchos tipos de discapacidades y adaptaciones que debemos tener en cuenta en nuestro trabajo por la privacidad.
 
-Considering how each part of our work could be accessed more easily by everyone is essential to grow our movement, and to diversify our privacy communities.
+Considera que es importante que cada parte de tu trabajo pueda ser más accesible de forma sencilla para el crecimiento de nuestro movimiento y diversificar nuestras comunidades orientadas en la privacidad.
 
-Ethically, it's also just the right thing to do, and should be the norm everywhere.
+Éticamente, es lo correcto que hay que hacer y debería ser la norma en todas partes.
 
-### Visual, auditory, and other sensorial accessibility
+### Accesibilidad visual, auditiva y sensorial
 
-Anytime you are using images, audio, or any other sensorial elements in your advocacy work, you should always make sure to follow best practices to ensure your content will be accessible to people with visual, auditory, or other sensorial impairments.
+Cada vez que utilices imágenes, audio u otros elementos sensoriales en tu trabajo, debes asegurarte de seguir unas buenas prácticas para asegurar que tu contenido es accesible para personas con algún impedimento visual, auditivo o sensorial.
 
-- [x] If you use images in your websites or social media posts, make sure to always add proper [alt text](https://abilitynet.org.uk/resources/digital-accessibility/five-golden-rules-compliant-alt-text) to describe the information the image represents. Keep in mind visitors that might be using a [screen reader](https://en.wikipedia.org/wiki/Screen_reader).
+- [x] Si usas imágenes en tu web o redes sociales, asegúrate de usar siempre [texto alternativo](https://abilitynet.org.uk/resources/digital-accessibility/five-golden-rules-compliant-alt-text) que describa la información que la imagen transmite. Ten en cuenta que los visitantes pueden estar usando un [lector de pantalla](https://en.wikipedia.org/wiki/Screen_reader).
 
-- [x] When designing websites, posters, flyers, or zines, keep in mind [visual accessibility](https://webdesign.tutsplus.com/accessibility-basics-designing-for-visual-impairment--cms-27634a) for people with blindness, low vision, color blindness, and other visual impairments.
+- [x] Cuando diseñes una web, pósters, carteles o fanzines, piensa en la [accesibilidad visual](https://webdesign.tutsplus.com/accessibility-basics-designing-for-visual-impairment--cms-27634a) para personas con ceguera, baja visión, daltonismo y otros impedimentos visuales.
 
-- [x] Be careful to refrain from using designs and videos with [flashing lights](https://developer.mozilla.org/en-US/docs/Web/Accessibility/Guides/Seizure_disorders), or display proper warning if you do. Flashing or flickering light effects, and even certain high-contrast static images, can trigger seizures in people with photosensitive epilepsy.
+- [x] Evita usar diseños y vídeos con [luces destellantes](https://developer.mozilla.org/en-US/docs/Web/Accessibility/Guides/Seizure_disorders), o, si lo haces, muestra avisos adecuados. Los efectos visuales luminosos o parpadeantes, o incluso ciertos altos contrastes en imágenes estáticas, pueden provocar convulsiones en personas con epilepsia fotosensible.
 
-- [x] If you use [audio material](https://www.w3.org/WAI/people-use-web/abilities-barriers/auditory/) in your advocacy, try to include captions or transcripts in your content for people with auditory impairments. If you organize a larger event with speakers, try to see if you could hire a sign language interpreter.
+- [x] Si usas [material audible](https://www.w3.org/WAI/people-use-web/abilities-barriers/auditory/) en tu trabajo, intenta incluir subtítulos o una transcripción en tu contenido para personas con deficiencia auditiva. Si organizas un evento de envergadura con ponentes, intenta ver si puedes contratar a un intérprete de lengua de signos.
 
-- [x] Whenever you develop content or organize events, always be mindful of people with sensory impairments or [sensory sensitivities](https://accessforallllc.com/sensory-and-cognitive-accessibility/).
+- [x] Siempre que crees contenido u organices eventos, piensa siempre en personas con impedimentos sensoriales o [sensibilidades sensoriales](https://accessforallllc.com/sensory-and-cognitive-accessibility/).
 
-### Website accessibility
+### Accesibilidad de la página web
 
 If you develop a website in your privacy work, make sure to follow the international standards for web accessibility.
 
