@@ -1,19 +1,19 @@
 ---
-title: Be Mindful of Accessibility
-description: Accessibility should always be a priority in our work. To make our privacy communities welcoming to all, we must integrate it in our practice from the start.
+title: Ten en cuenta la accesibilidad
+description: La accesibilidad debería ser siempre una prioridad en tu trabajo. Para hacer nuestras comunidades de privacidad acogedoras para todos, debemos integrar la accesibilidad en nuestra práctica desde el principio.
 icon: fontawesome/solid/heart-circle-check
 cover: activism/banner-toolbox-tip-accessibility.webp
 ---
 
-**Accessibility** is indispensable to [inclusivity](tip-keep-your-posts-and-community-inclusive.md), and should always be a priority in our work. Para que nuestras comunidades de privacidad sean acogedoras para todos, la accesibilidad no puede ser una cuestión secundaria. Debemos integrarla en nuestra práctica desde el principio. This means making sure the languages, visuals, tools, and venues we use are accessible to as many people as possible.
+**La accesibilidad** es parte indispensable de la [inclusividad](tip-keep-your-posts-and-community-inclusive.md), y siempre debe ser una prioridad en nuestro trabajo. Para que nuestras comunidades de privacidad sean acogedoras para todos, la accesibilidad no puede ser una cuestión secundaria. Debemos integrarla en nuestra práctica desde el principio. Esto significa que debemos asegurarnos de que los idiomas, recursos visuales, herramientas y espacios que usamos son accesibles para cuanta más gente mejor.
 
-Here's what you can do to improve accessibility for your privacy-related content and communities:
+Esto es lo que puedes hacer para mejorar la accesibilidad de tu contenido y comunidades relacionadas con la privacidad:
 
-## Accessibility for all, in all the ways
+## Accesibilidad para todos, de todas las maneras
 
-For many people who don't need any specific accommodations, accessibility is often only thought about in terms of solutions to _mobility_ impairments, such as for people requiring the use of a wheelchair.
+Para muchas personas que no necesitan ninguna adaptación específica, la accesibilidad solo la piensan en términos de solucionar impedimentos para la _movilidad_, como en el caso de las personas que necesitan sillas de ruedas.
 
-While this is indeed and important factor to consider, there are many other types of disabilities and accommodations we should be mindful of in our privacy work.
+Si bien este es un factor importante a tener en cuenta, hay otros muchos tipos de discapacidades y adaptaciones que debemos tener en cuenta en nuestro trabajo por la privacidad.
 
 Considering how each part of our work could be accessed more easily by everyone is essential to grow our movement, and to diversify our privacy communities.
 

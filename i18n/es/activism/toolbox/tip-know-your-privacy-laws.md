@@ -53,13 +53,13 @@ Mientras investigas sobre protección de la privacidad ten en cuenta que:
 
 - [x] Es posible que te beneficies de varias leyes a la vez. Por ejemplo, muchas regiones tienen regulaciones específicas destinadas a la protección de datos sanitarios, datos de menores o datos laborales.
 
-- [x] You might benefit from protections by different government levels at once, such as federal, provincial, state level, etc. Look for them all!
+- [x] Es posible que te beneficies de las protecciones legales de diferentes niveles gubernamentales a la vez, como el federal, provincial, estatal, etc. ¡Búscalos todos!
 
-- [ ] Your region might unfortunately not be protected by any significant privacy regulations at this time. If this is the case for you: It's time to contact your local representatives and advocate for a local privacy law!
+- [ ] Tu región puede, desafortunadamente, no estar protegida por ninguna legislación de protección de la privacidad en este momento. Si este es su caso: ¡es hora de contactar con tus representantes locales y abogar por una ley de privacidad local!
 
-## What to look for in a privacy law
+## Qué buscar en una ley de privacidad
 
-Once you've found the official governmental documentation describing the data protection regulation that applies to your region, read it carefully to find:
+Una vez has encontrado la documentación oficial del gobierno que regula la protección de datos que es aplicable en tu región, léela con detenimiento para encontrar:
 
 <style>
 .emoji-list-a ul {
@@ -73,26 +73,26 @@ Once you've found the official governmental documentation describing the data pr
 
 <div class="emoji-list-a" markdown>
 
-- Who is protected by the law, and in which situations?
+- ¿Quién está protegido por la legislación y en qué situaciones?
 
-- Which types of organizations are bound to comply with the law?
+- ¿Qué tipo de organizaciones están obligadas a cumplir esta ley?
 
-- What are your data subject rights? (Right to Delete? Right to Access? Right to Opt-out?)
+- ¿Cuáles son sus derechos como interesado? (¿Derecho de borrado? ¿Derecho de acceso? ¿Derecho de exclusión?)
 
-- Does the law include special protections for specific types of sensitive data?
+- ¿La ley incluye protecciones especiales para determinados tipos de datos sensibles?
 
-- Which types of data might be exempt from the law?
+- ¿Qué tipos de datos podrían quedar exentos de esta ley?
 
-- Which entity is responsible for enforcing the law?
+- ¿Qué entidad es la responsable de velar por el cumplimiento de esta ley?
 
-- What is the process to file a complaint?
+- ¿Cuál es el procedimiento para presentar una reclamación?
 
 </div>
 
-## More resources
+## Más recursos
 
-- [Directory of comprehensive consumer privacy laws worldwide (_Privacy Guides_)](../legal/dpa-directory.md)
+- [Directorio de leyes integrales de privacidad de todo el mundo (_Privacy Guides_)](../legal/dpa-directory.md)
 
-- [Map of data protection and privacy legislation worldwide (_UN Trade and Development_)](https://unctad.org/page/data-protection-and-privacy-legislation-worldwide)
+- [Mapa de legislaciones sobre protección de datos y privacidad a nivel mundial (_Agencia de la ONU para el Comercio y el Desarrollo_)](https://unctad.org/page/data-protection-and-privacy-legislation-worldwide)
 
-- [The future of privacy: How governments shape your digital life (_Privacy Guides_)](https://www.privacyguides.org/articles/2025/02/03/the-future-of-privacy/)
+- [El futuro de la privacidad: Cómo los gobiernos influyen en tu vida digital (_Privacy Guides_)](https://www.privacyguides.org/articles/2025/02/03/the-future-of-privacy/)
