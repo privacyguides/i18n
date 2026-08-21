@@ -51,15 +51,15 @@ Tanto si escribes una entrada, un artículo o una web entera en español, ten en
 
 Gente de todo el mundo podrá leer o ver tu contenido en español, muchas que no hablan español como su lengua materna. No des por sentado que tu audiencia viene solo de tu país o región. Por cierto, ¡esto es algo bueno! ==La batalla por los derechos a la privacidad debe ser global.==
 
-- [x] Be careful not to use too many references that are unique to your own country or region. If you do, make sure to explain what it is for people from other regions.
+- [x] Procura no usar muchas referencias que son únicas de tu región o país. Si lo haces, asegúrate de explicarla lo que significa para personas de otras regiones.
 
-- [x] When talking about issues related to politics, make sure to specify what governmental entities are, and explain any special rights your country has (don't just name them). That way, outsiders will be able to understand and support your cause as well, even if perhaps they aren't directly impacted by this issue at the moment.
+- [x] Cuando hables de temas relacionados con la política, asegúrate de explicar que entidades gubernamentales son y de explicar los derechos especiales que tiene tu país (no solo nombrarlos). De este modo, las personas de otras regiones podrán entender y apoyar tu causa, incluso si no se ven directamente afectados por este asunto en este momento.
 
-- [x] Don't assume everyone knows all the popular internet acronyms such as DIY (Do It Yourself) or IIRC (If I Recall Correctly). These acronyms are very challenging for non-native English speakers. When using acronyms in your content, always explain the full expression in parentheses at least once, or better yet, simply use whole words instead.
+- [x] No asumas que todo el mundo conoce los acrónimos populares de internet como DIY (hazlo tú mismo) o IIRC (Si recuerdo correctamente). Estas siglas pueden ser un gran obstáculo para personas no nativos de inglés. Cuando uses acrónimos en tu contenido, incluye siempre la expresión completa entre paréntesis, o mejor incluso, usa las palabras completas en su lugar.
 
-- [x] When inviting people to an event, consider that people from other time zones might be reading your invitation. If your event is online, always specify the [time zone](https://www.timeanddate.com/time/map/) for the announced time. If your event is in person, always specify the whole location with the country and region ([do _not_ just name the city](https://www.roughmaps.com/destinations/20-places-around-the-world-that-share-the-same-name/22)).
+- [x] Cuando invites a personas a un evento, ten en cuenta que puede que estén leyendo tu invitación personas de otras zonas horarias. Si tu evento es en línea, especifica siempre el [uso horario](https://www.timeanddate.com/time/map/) correspondiente a la hora anunciada. Si tu evento es presencial, especifica siempre la localización completa con el país y la región ([_no_ solo el nombre de la ciudad](https://www.roughmaps.com/destinations/20-places-around-the-world-that-share-the-same-name/22)).
 
-### Physical accessibility
+### Accesibilidad física
 
 When organizing events and meetups in person, it's essential to keep in mind physical accessibility for people with mobility challenges of all kind. This includes accessibility around the venue, but also on the journey to the venue.
 
