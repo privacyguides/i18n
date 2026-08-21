@@ -63,49 +63,49 @@ Gente de todo el mundo podrá leer o ver tu contenido en español, muchas que no
 
 Cuando organices eventos y encuentros en persona, es esencial tener en cuenta la accesibilidad física para personas con dificultades de movilidad de cualquier tipo. Esto incluye accesibilidad alrededor del recinto y también en el viaje hacia él.
 
-- [x] Asegúrate de que el lugar que vas a elegir es [accesible para personas en sillas de ruedas](https://sites.augsburg.edu/events/policies/accessible-events/accessible-event-planning-guide/). Check that there is access to an elevator if it's on an upper floor, that there are access ramps and automatic doors if required, and that doorways and hallways are wide enough to accommodate a wheelchair.
+- [x] Asegúrate de que el lugar que vas a elegir es [accesible para personas en sillas de ruedas](https://sites.augsburg.edu/events/policies/accessible-events/accessible-event-planning-guide/). Comprueba que hay acceso en ascensor si es en un piso superior, que hay rampas de acceso y puertas automáticas si es necesario y que las puertas y los pasillos sean lo suficientemente anchos para que pase una silla de ruedas.
 
-- [x] Make certain that there will be enough comfortable seating for your guests, and that seating and eating areas will be accessible to guests using wheelchairs or other mobility aids.
+- [x] Asegúrate de que haya suficientes asientos cómodos para los invitados y que las zonas de descanso y de comedor sean accesibles para personas que utilicen silla de ruedas u otras ayudas a la movilidad.
 
-- [x] Check that there are wheelchair-accessible bathrooms nearby.
+- [x] Comprueba que hay lavabos accesibles para silla de ruedas cerca.
 
-- [x] Evaluate the accessibility of the transit options available to reach the venue you select, including specialized transits for people who are using wheelchairs, or other types of mobility aids. Publish a map of the transit accesses around your venue.
+- [x] Evalúa la accesibilidad a las opciones de transporte público disponibles para acudir al lugar que elijas, incluyendo transporte especializado para personas que usan silla de ruedas u otro tipo de ayudas a la movilidad. Publica un plano con los accesos con transporte público al recinto.
 
-- [x] Research if your venue has access to parking and accessible parking spots. Publish this information with your invitation.
+- [x] Comprueba si el recinto tiene acceso a aparcamiento y hay plazas adaptadas. Publica esta información en las invitaciones.
 
-- [x] Verify the venue you select is accessible to people with visual or auditory impairments. For example, check if elevators are marked with Braille or raised letters, and make sure that hosts are informed on how to communicate with guests who are deaf or hard of hearing.
+- [x] Comprueba que el recinto que has elegido es accesible para personas con impedimentos visuales o auditivos. Por ejemplo, comprueba si los ascensores tienen etiquetas en Braille o letras en relieve y asegúrate de que el personal esté informado sobre cómo comunicarse con invitados sordos o con problemas de audición.
 
-### Health accessibility
+### Medidas sanitarias de accesibilidad
 
-In-person accessibility isn't just about mobility. Accessibility is also important to consider for a variety of health conditions, including people who are vulnerable to infectious diseases, or require other accommodations related to their health.
+La accesibilidad presencial no trata solo sobre movilidad. También es importante tener en cuenta la accesibilidad para diferentes condiciones sanitarias, incluyendo personas vulnerables a enfermedades infecciosas o que requieren otras adaptaciones relacionadas con su salud.
 
-- [x] Designate a trained person responsible for accessibility, and share their contact information in advance. That way, people will be able to contact this person if they have any questions before or during the event.
+- [x] Nombra a una persona entrenada como responsable de accesibilidad y comparte su información de contacto con antelación. De esta forma, la gente podrá contactar con esta persona si tiene alguna duda antes o durante el evento.
 
-- [x] Encourage your participants to wear a mask, and try to select a venue with adequate ventilation to minimize the risks for people who are [vulnerable to respiratory infections](https://health.clevelandclinic.org/superspreader-events). If food is served, try to select a venue with an area allowing to consume food outside.
+- [x] Anima a los participantes a que lleven mascarilla e intenta elegir un espacio con ventilación adecuada para minimizar riesgos para personas [vulnerables a infecciones respiratorias](https://health.clevelandclinic.org/superspreader-events). Si se sirve comida, intenta elegir un espacio que cuente con zonas para comer al aire libre.
 
-- [x] Make sure to bring a few boxes of [protective face masks](https://health.clevelandclinic.org/do-masks-work) to your event that guests can use for free. That way, people who might be at risk in dense crowd can decide to wear a mask once they arrived, or if they forgot to bring their own.
+- [x] Asegúrate de tener unas cuantas cajas de [mascarillas protectoras](https://health.clevelandclinic.org/do-masks-work) para tu evento que los invitados puedan usar de forma gratuita. De esta manera, las personas que puedan estar en riesgo en lugares muy concurridos pueden decidir ponerse mascarilla cuando llegan, por si se han olvidado de traer la suya propia.
 
-- [x] Try to prepare an area in your venue, or near your venue, where people can rest comfortably in a [quiet space](https://eventwell.org/ensuring-inclusive-events-the-importance-of-supervising-quiet-spaces-for-neurodivergent-attendees-and-vulnerable-adults/), if they feel tired or overstimulated during the event.
+- [x] Intenta habilitar una zona de tu recinto o próximo a él donde la gente pueda descansar en un [lugar tranquilo](https://eventwell.org/ensuring-inclusive-events-the-importance-of-supervising-quiet-spaces-for-neurodivergent-attendees-and-vulnerable-adults/) si se encuentran cansados o sobreestimulados durante el evento.
 
-- [x] Promote a [scent-free](https://www.chrc-ccdp.gc.ca/resources/publications/environmental-sensitivities-and-scent-free-policies) environment to make your event welcoming to people who have scent allergies, environmental sensibilities, or other health conditions that can be affected by scents.
+- [x] Fomenta un [espacio sin olores](https://www.chrc-ccdp.gc.ca/resources/publications/environmental-sensitivities-and-scent-free-policies) para hacer el evento amigable con personas que tienen alergias a los olores, sensibilidad ambiental u otras afecciones de salud que puedan verse afectadas por los olores.
 
-- [x] Provide training for hosts and event volunteers to make sure they are aware of available accommodations, and can give helpful information upon request.
+- [x] Proporciona formación a los anfitriones y voluntarios para asegurarte de que están al tanto de las adaptaciones disponibles y puedan dar información útil cuando se la soliciten.
 
-### Dietary accessibility
+### Accesibilidad alimentaria
 
-If your event provides meals, snacks, or drinks, make sure to prepare well in-advance to consider the potential dietary restrictions of your guests.
+Si en el evento se sirve comida, aperitivos o bebidas, asegúrate de prepararlo todo con antelación para tener en cuenta las restricciones alimentarias de los invitados.
 
-- [x] List clearly what types of food and drinks with be served (or available) at the event.
+- [x] Indica claramente que tipos de alimentos y bebidas van a servirse (o están disponibles) en el evento.
 
-- [x] Provide contact information for people to reach out in advance if they have special dietary requirements or requests that have not already been addressed.
+- [x] Proporciona información de contacto para que las personas con requisitos dietéticos especiales puedan contactar previamente o hacer peticiones que no hayan sido tenidas en cuenta.
 
-- [x] Try to provide food and beverages that will cover a variety of dietary needs, such as vegan, nut-free, gluten-free, lactose-free, alcohol-free, or low-sugar options.
+- [x] Trata de proporcionar alimentos y bebidas que cubran diversas necesidades dietéticas como opciones veganas, sin frutos secos, sin gluten, sin lactosa, sin alcohol o sin azúcar.
 
-- [x] If you host a large event, consider keeping a few [epinephrine autoinjectors](https://greatergood.com/blogs/news/epinephrine-public-areas) available on site in your emergency kit, in case anyone experiences a dangerous allergic reaction.
+- [x] Si organizas un evento grande, considera tener algunos [inyectores de epinefrina](https://greatergood.com/blogs/news/epinephrine-public-areas) disponibles en el kit de emergencias en el caso de que alguien tenga una reacción alérgica peligrosa.
 
-- [x] Make sure guests will have access to free and clean water, especially if your event is scheduled during a heat wave.
+- [x] Asegúrate de que los invitados tienen acceso a agua limpia de forma gratuita, especialmente si tu evento se realiza durante una ola de calor.
 
-- [x] Ensure there is a quiet and private room available for anyone who might be breastfeeding.
+- [x] Asegúrate de que hay un espacio limpio y tranquilo para cualquier persona que lo necesite para dar el pecho.
 
 - [x] Provide all this information in advance with your invitation, so that guests can evaluate properly if the event is accessible to them.
 
@@ -135,32 +135,32 @@ Another aspect of accessibility that is often overlooked is financial accessibil
 
 - [x] Crea oportunidades de voluntariado a tiempo parcial para que las personas puedan ofrecer ayuda un poco y luego participar en el resto de los eventos de forma gratuita.
 
-- [x] Provide contact information for people who would like to request free or cheaper access, or discuss their unique situation with you.
+- [x] Facilita información de contacto para personas que quieran solicitar un acceso gratuito o a un precio reducido o que quieran comentar su situación personal contigo.
 
-### Beginners accessibility
+### Accesibilidad para principiantes
 
-[Welcoming beginners](tip-welcome-beginners.md) is crucial in all the work we do. To keep your content and events accessible to beginners, it's important to be mindful of the language you use, the ways you present content, and the places where you promote your events.
+[Dar la bienvenida a principiantes](tip-welcome-beginners.md) es vital en todo nuestro trabajo. Para mantener tus contenidos y eventos accesibles para principiantes, es importante prestar atención al lenguaje que utilizamos, la forma en la que presentamos los contenidos y los lugares en los que promocionamos los eventos.
 
-- [x] Always explain acronyms with whole words before only using the letters only.
+- [x] Explica siempre los acrónimos con palabras completas antes de utilizar solo las letras.
 
-- [x] Be careful when using jargon, try to be explicit and use simple words and analogies.
+- [x] Ten cuidado al usar una jerga. Intenta ser claro, usar palabras sencillas y analogías.
 
-- [x] Beware of gatekeeping. Try to stay aware of newcomers that might be quiet or isolated from the group. [Be inclusive](tip-keep-your-posts-and-community-inclusive.md) and invite them to participate.
+- [x] Cuidado con el control de acceso. Intenta estar atento a recién llegados que puedan mostrarse callados o aislados del grupo. [Se inclusivo](tip-keep-your-posts-and-community-inclusive.md) e invítales a participar.
 
-- [x] Specify that your event welcomes beginners.
+- [x] Indica que tu evento está abierto a principiantes.
 
-- [x] Be mindful of advertising your event in places where potential newcomers might see it. Be careful about not inviting people only from places reaching out to people who are already part of the privacy community.
+- [x] Ten en cuenta publicitar tu evento en lugares donde los posibles nuevos participantes puedan verlo. Ten cuidado con no invitar solo a personas de lugares exclusivos para gente que ya forma parte de la comunidad de la privacidad.
 
-## More resources
+## Más recursos
 
-- [How to make your social justice event accessible (_The Commons Social Change Library_)](https://commonslibrary.org/how-to-make-your-social-justice-event-accessible/)
+- [Cómo hacer accesibles tus eventos de justicia social (_The Commons Social Change Library_)](https://commonslibrary.org/how-to-make-your-social-justice-event-accessible/)
 
-- [Make your event accessible and inclusive (_Park People_)](https://parkpeople.ca/make-your-event-accessible-and-inclusive/)
+- [Haz tus eventos accesibles e inclusivos (_Park People_)](https://parkpeople.ca/make-your-event-accessible-and-inclusive/)
 
-- [How to host a COVID-safe party: Tips and tricks (_Party Pro_)](https://party.pro/covid/)
+- [Cómo organizar una fiesta segura frente al COVID: consejos y trucos (_Party Pro_)](https://party.pro/covid/)
 
-- [Dos and don'ts on designing for accessibility (UK Government)](https://accessibility.blog.gov.uk/2016/09/02/dos-and-donts-on-designing-for-accessibility/)
+- [Qué hacer y qué no diseñando la accesibilidad (UK Government)](https://accessibility.blog.gov.uk/2016/09/02/dos-and-donts-on-designing-for-accessibility/)
 
-- [Five golden rules for compliant alt text (_AbilityNet_)](https://abilitynet.org.uk/resources/digital-accessibility/five-golden-rules-compliant-alt-text)
+- [Cinco reglas de oro para el texto alternativo (_AbilityNet_)](https://abilitynet.org.uk/resources/digital-accessibility/five-golden-rules-compliant-alt-text)
 
-- [Accessibility developer guide (_Access for all_)](https://www.accessibility-developer-guide.com/)
+- [Guía para desarrolladores sobre accesibilidad (_Access for all_)](https://www.accessibility-developer-guide.com/)
