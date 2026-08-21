@@ -35,21 +35,21 @@ Cada vez que utilices imágenes, audio u otros elementos sensoriales en tu traba
 
 ### Accesibilidad de la página web
 
-If you develop a website in your privacy work, make sure to follow the international standards for web accessibility.
+Si estás creando una página web en tu trabajo en pro de la privacidad, asegúrate de seguir los estándares internacionales de accesibilidad web.
 
-This is very important to ensure readers using assistive devices will be able to access your content, and that people with visual impairments will not struggle to access your content.
+Esto es muy importante para garantizar que las personas que utilicen dispositivos de apoyo puedan acceder al contenido, y que las personas con impedimentos visuales no tengan dificultades.
 
-- [x] Get familiar with the World Wide Web Consortium (W3C) [international Web standards](https://www.w3.org/WAI/standards-guidelines/). These standards have been reviewed for accessibility support by the Accessible Platform Architectures ([APA](https://www.w3.org/WAI/about/groups/apawg/)) Working Group.
+- [x] Familiarízate con los [estándares internacionales de la web](https://www.w3.org/WAI/standards-guidelines/) del Consorcio World Wide Web (W3C). Estos estándares han sido revisados para garantizar la accesibilidad por el grupo de trabajo de la Plataforma de Arquitecturas Accesibles ([APA](https://www.w3.org/WAI/about/groups/apawg/)).
 
-- [x] Use a [web accessibility evaluation tool](https://www.w3.org/WAI/test-evaluate/tools/list/) to verify that your web content meets accessibility guidelines, or otherwise make sure to follow the [Web Content Accessibility Guidelines](https://www.pivotalaccessibility.com/2024/11/how-to-perform-a-web-accessibility-audit-step-by-step-guide/) (WCAG).
+- [x] Usa la [herramienta de accesibilidad web](https://www.w3.org/WAI/test-evaluate/tools/list/) para comprobar que el contenido de tu web cumple con las directrices de accesibilidad, o en su defecto, asegúrate de seguir las [Directrices de Accesibilidad a Contenido Web](https://www.pivotalaccessibility.com/2024/11/how-to-perform-a-web-accessibility-audit-step-by-step-guide/) (WCAG).
 
-- [x] If your organization can afford it, hire a [web accessibility consultant](https://accessibilityinnovations.com/blogs/web-accessibility-consultant/).
+- [x] Si tu organización se lo puede permitir, contratad a un [consultor en accesibilidad web](https://accessibilityinnovations.com/blogs/web-accessibility-consultant/).
 
-### Global accessibility
+### Accesibilidad global
 
-Whether you write a post, an article, or a whole website in English, keep in mind that your audience is likely global.
+Tanto si escribes una entrada, un artículo o una web entera en español, ten en cuenta que es probable que la audiencia sea global.
 
-People from all around the world will be able to read or watch your English content, many who don't speak English as their first language. Don't assume that your audience is only coming from your own country or region. This is a good thing, by the way! ==The battle for privacy rights must be global now.==
+Gente de todo el mundo podrá leer o ver tu contenido en español, muchas que no hablan español como su lengua materna. No des por sentado que tu audiencia viene solo de tu país o región. Por cierto, ¡esto es algo bueno! ==La batalla por los derechos a la privacidad debe ser global.==
 
 - [x] Be careful not to use too many references that are unique to your own country or region. If you do, make sure to explain what it is for people from other regions.
 
