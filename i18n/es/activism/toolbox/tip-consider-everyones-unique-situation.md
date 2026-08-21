@@ -33,7 +33,7 @@ Para establecer un modelo de amenaza, haga las siguientes preguntas:
 
 Pregunte, clarifique y repita para cada tipo de información. Las respuestas a estas preguntas serán únicas para cada persona u organización. Este es su modelo único de amenaza.
 
-<details class="danger" markdown><summary>Ejemplo de situación: Amenaza de acoso</summary>
+<details class="danger" markdown><summary>Escenario de ejemplo: Amenaza de acoso</summary>
 
 **Necesidad:** Alice es una joven estrella que comparte mucha información sobre ella misma en redes sociales. Como parte de su trabajo, tiene que poder compartir fotos suyas, su nombre legal, algunos datos de sus viajes y detalles sobre su vida personal.
 
@@ -41,13 +41,13 @@ Pregunte, clarifique y repita para cada tipo de información. Las respuestas a e
 
 **Nivel de peligro:** Ya ha recibido amenazas online, y el peligro para su seguridad es inminente si su domicilio fuera conocido por este agresivo acosador.
 
-**Information to protect and solutions:** Everywhere that Alice is required to share her home address must be protected. Ella debería usar un apartado de correos cada vez que su dirección personal no sea absolutamente necesaria. Debe asegurarse de compartir su dirección sólo con personas de confianza que estén informadas sobre este peligro. And she should inspect all of her photos and metadata carefully, to make sure her location is never precisely [revealed](https://www.privacyguides.org/articles/2025/03/25/privacy-means-safety/#victims-of-stalkers).
+**Información a proteger y soluciones:** Todos los sitios que le piden a Alice que facilite su dirección deben ser protegidos. Ella debería usar un apartado de correos cada vez que su dirección personal no sea absolutamente necesaria. Debe asegurarse de compartir su dirección sólo con personas de confianza que estén informadas sobre este peligro. Y debe inspeccionar los metadatos de todas sus fotos meticulosamente para estar segura de que su localización no es [revelada](https://www.privacyguides.org/articles/2025/03/25/privacy-means-safety/#victims-of-stalkers).
 
 </details>
 
-<details class="danger" markdown><summary>Example scenario: Surveillance Capitalism</summary>
+<details class="danger" markdown><summary>Escenario de ejemplo: Capitalismo de vigilancia</summary>
 
-**Needs:** Bob feels uncomfortable with companies using his information without his consent. He doesn't trust what they might do with this information later, or whom they might sell it to. Le preocupa especialmente cómo las empresas y los gobiernos puedan utilizar el reconocimiento facial con él.
+**Necesidad:** Bob se siente incómodo con las compañías que usan su información sin su consentimiento. No confía en lo que podrían hacer con esa información o a quien se la podrían vender. Le preocupa especialmente cómo las empresas y los gobiernos puedan utilizar el reconocimiento facial con él.
 
 **Amenaza:** Para limitar el reconocimiento facial, Bob no quiere que ninguna empresa tenga acceso a una _foto de su cara_.
 
