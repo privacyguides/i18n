@@ -120,9 +120,9 @@ Jeśli anulujesz subskrypcję, będziesz nadal korzystać z funkcji płatnego pl
 
 </div>
 
-SimpleLogin został [nabyty przez Proton AG](https://proton.me/news/proton-and-simplelogin-join-forces) z dniem 8 kwietnia 2022 roku. Jeśli używasz Proton Mail jako głównej skrzynki pocztowej, SimpleLogin to świetny wybór. As both products are now owned by the same company you now only have to trust a single entity. We also expect that SimpleLogin will be more tightly integrated with Proton's offerings in the future. SimpleLogin nadal obsługuje przekazywanie do dowolnego wybranego przez Ciebie dostawcy poczty elektronicznej.
+SimpleLogin was [acquired by Proton AG](https://proton.me/news/proton-and-simplelogin-join-forces) on April 8, 2022, making it an excellent option for users of [Proton Mail](email.md#proton-mail) as their primary mailbox. With this acquisition, you only need to trust a single entity for your email services. SimpleLogin still allows forwarding to any email provider of your choice.
 
-Możesz połączyć swoje konto SimpleLogin w ustawieniach z kontem Proton. Jeśli posiadasz plan Proton Pass Plus, Proton Unlimited lub jakikolwiek plan dla wielu użytkowników, otrzymasz także darmowy dostęp do SimpleLogin Premium. Możesz również zakupić kuponu na SimpleLogin Premium anonimowo za pośrednictwem ich oficjalnego odsprzedawcy [ProxyStore](https://simplelogin.io/faq).
+Możesz połączyć swoje konto SimpleLogin w ustawieniach z kontem Proton. Jeśli posiadasz plan Proton Pass Plus, Proton Unlimited lub jakikolwiek plan dla wielu użytkowników, otrzymasz także darmowy dostęp do SimpleLogin Premium. Likewise both the [Free and Premium tiers](https://simplelogin.io/pricing/) of SimpleLogin now include Proton Pass subscriptions. Możesz również zakupić kuponu na SimpleLogin Premium anonimowo za pośrednictwem ich oficjalnego odsprzedawcy [ProxyStore](https://simplelogin.io/faq).
 
 Securitum [przeprowadziło audyt](https://simplelogin.io/blog/security-audit) SimpleLogin na początku 2022 r. i wszystkie kwestie [zostały rozwiązane](https://simplelogin.io/audit2022/web.pdf).
 

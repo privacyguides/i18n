@@ -128,6 +128,17 @@ Ce dernier paramètre désactive OneDrive sur votre système ; veillez à le mod
 
 - Améliorer la reconnaissance d'encre numérique et de saisie : **Désactivé**
 
+#### Windows AI
+
+<div class="admonition info" markdown>
+<p class="admonition-title">Windows Recall</p>
+
+Windows 11 recently introduced a feature called **Recall**, which records all your activity and creates a searchable archive of that activity history. This is a massive privacy vulnerability, because those archives can potentially store highly sensitive information (essentially anything displayed on your screen), and malware without any special permissions or admin access can trivially [access](https://github.com/xaitax/TotalRecall) the full Recall database anytime after it is unlocked.
+
+</div>
+
+- Turn off saving snapshots for use with Recall: **Enabled**
+
 #### Rapport d'erreurs Windows
 
 - Ne pas envoyer de données supplémentaires : **Activé**

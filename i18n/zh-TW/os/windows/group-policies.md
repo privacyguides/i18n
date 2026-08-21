@@ -68,7 +68,7 @@ description: 設定群組政策使 Windows 更尊重隱私的快速指南。
 - 啟動時需要其它驗證:**已啟用**
 - 允許用於啟動的 PIN 增強:**己啟用**
 
-儘管這些原則的名稱是這樣，但預設下並不會_強制_您執行任何動作。不過，這將在 BitLocker 設定精靈中解鎖更複雜的設定_選項_（例如，除 TPM 之外，開機時還需要輸入 PIN 碼）。
+儘管這些原則的名稱是這樣，但預設下並不&#x6703;_&#x5F37;&#x5236;_&#x60A8;執行任何動作。不過，這將在 BitLocker 設定精靈中解鎖更複雜的設&#x5B9A;_&#x9078;項_（例如，除 TPM 之外，開機時還需要輸入 PIN 碼）。
 
 #### 雲端內容
 
@@ -127,6 +127,17 @@ description: 設定群組政策使 Windows 更尊重隱私的快速指南。
 #### 文字輸入
 
 - 改進手寫筆跡與鍵入辨識:**已停用**
+
+#### Windows AI
+
+<div class="admonition info" markdown>
+<p class="admonition-title">Windows Recall</p>
+
+Windows 11 recently introduced a feature called **Recall**, which records all your activity and creates a searchable archive of that activity history. This is a massive privacy vulnerability, because those archives can potentially store highly sensitive information (essentially anything displayed on your screen), and malware without any special permissions or admin access can trivially [access](https://github.com/xaitax/TotalRecall) the full Recall database anytime after it is unlocked.
+
+</div>
+
+- Turn off saving snapshots for use with Recall: **Enabled**
 
 #### Windows 錯誤報告
 

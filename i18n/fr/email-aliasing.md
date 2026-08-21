@@ -120,9 +120,9 @@ Après l'avoir résilié, les avantages de votre abonnement restent valables jus
 
 </div>
 
-SimpleLogin a été [racheté par Proton AG] (https://proton.me/news/proton-and-simplelogin-join-forces) le 8 avril 2022. Si vous utilisez Proton Mail pour votre boîte mail principale, SimpleLogin est un excellent choix. Les deux produits étant désormais détenus par la même société, vous ne devez plus faire confiance qu'à une seule entité. Nous supposons également que SimpleLogin sera plus étroitement intégré aux offres de Proton à l'avenir. SimpleLogin continue de prendre en charge la redirection vers le fournisseur d'e-mail de votre choix.
+SimpleLogin was [acquired by Proton AG](https://proton.me/news/proton-and-simplelogin-join-forces) on April 8, 2022, making it an excellent option for users of [Proton Mail](email.md#proton-mail) as their primary mailbox. With this acquisition, you only need to trust a single entity for your email services. SimpleLogin still allows forwarding to any email provider of your choice.
 
-Vous pouvez lier votre compte SimpleLogin dans les paramètres avec votre compte Proton. SimpleLogin est gratuit pour tous les utilisateurs de Proton Pass Plus, Proton Unlimited, ou tout autre abonnement Proton multi utilisateur. Vous pouvez également acheter une bon pour SimpleLogin Premium de façon anonyme via leur fournisseur officiel [ProxyStore](https://simplelogin.io/faq).
+Vous pouvez lier votre compte SimpleLogin dans les paramètres avec votre compte Proton. SimpleLogin est gratuit pour tous les utilisateurs de Proton Pass Plus, Proton Unlimited, ou tout autre abonnement Proton multi utilisateur. Likewise both the [Free and Premium tiers](https://simplelogin.io/pricing/) of SimpleLogin now include Proton Pass subscriptions. Vous pouvez également acheter une bon pour SimpleLogin Premium de façon anonyme via leur fournisseur officiel [ProxyStore](https://simplelogin.io/faq).
 
 Securitum a [audité](https://simplelogin.io/blog/security-audit) SimpleLogin au début de 2022 et tous les problèmes [ont été résolus](https://simplelogin.io/audit2022/web.pdf).
 

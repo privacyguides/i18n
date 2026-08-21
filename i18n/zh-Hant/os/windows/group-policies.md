@@ -128,6 +128,17 @@ Despite the names of these policies, this doesn't _require_ you to do anything b
 
 - 改進手寫筆跡與鍵入辨識:**已停用**
 
+#### Windows AI
+
+<div class="admonition info" markdown>
+<p class="admonition-title">Windows Recall</p>
+
+Windows 11 recently introduced a feature called **Recall**, which records all your activity and creates a searchable archive of that activity history. This is a massive privacy vulnerability, because those archives can potentially store highly sensitive information (essentially anything displayed on your screen), and malware without any special permissions or admin access can trivially [access](https://github.com/xaitax/TotalRecall) the full Recall database anytime after it is unlocked.
+
+</div>
+
+- Turn off saving snapshots for use with Recall: **Enabled**
+
 #### Windows 錯誤報告
 
 - 不要傳送其它資料:**已啟用**

@@ -120,9 +120,9 @@ Si cancelas tu suscripción, disfrutarás de las características de tu plan de 
 
 </div>
 
-SimpleLogin fue [adquirido por Proton AG](https://proton.me/news/proton-and-simplelogin-join-forces) el 8 de abril de 2022. Si utilizas Proton Mail para tu buzón principal, SimpleLogin es una gran elección. Como ambos productos pertenecen ahora a la misma empresa, ahora sólo tienes que confiar en una única entidad. También esperamos que SimpleLogin se integre más estrechamente con las ofertas de Proton en el futuro. SimpleLogin sigue siendo compatible con el reenvío a cualquier proveedor de correo electrónico de tu elección.
+SimpleLogin was [acquired by Proton AG](https://proton.me/news/proton-and-simplelogin-join-forces) on April 8, 2022, making it an excellent option for users of [Proton Mail](email.md#proton-mail) as their primary mailbox. With this acquisition, you only need to trust a single entity for your email services. SimpleLogin still allows forwarding to any email provider of your choice.
 
-Puedes vincular tu cuenta SimpleLogin en la configuración con tu cuenta Proton. Si tienes Proton Pass Plus, Proton Unlimited o cualquier plan multiusuario de Proton, tendrás SimpleLogin Premium gratis. También puedes comprar un código de cupón para SimpleLogin Premium de forma anónima a través de su distribuidor oficial [ProxyStore](https://simplelogin.io/faq).
+Puedes vincular tu cuenta SimpleLogin en la configuración con tu cuenta Proton. Si tienes Proton Pass Plus, Proton Unlimited o cualquier plan multiusuario de Proton, tendrás SimpleLogin Premium gratis. Likewise both the [Free and Premium tiers](https://simplelogin.io/pricing/) of SimpleLogin now include Proton Pass subscriptions. También puedes comprar un código de cupón para SimpleLogin Premium de forma anónima a través de su distribuidor oficial [ProxyStore](https://simplelogin.io/faq).
 
 Securitum [auditó](https://simplelogin.io/blog/security-audit) SimpleLogin a principios de 2022 y todos los problemas [se solucionaron](https://simplelogin.io/audit2022/web.pdf).
 
