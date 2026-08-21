@@ -61,9 +61,9 @@ Gente de todo el mundo podrá leer o ver tu contenido en español, muchas que no
 
 ### Accesibilidad física
 
-When organizing events and meetups in person, it's essential to keep in mind physical accessibility for people with mobility challenges of all kind. This includes accessibility around the venue, but also on the journey to the venue.
+Cuando organices eventos y encuentros en persona, es esencial tener en cuenta la accesibilidad física para personas con dificultades de movilidad de cualquier tipo. Esto incluye accesibilidad alrededor del recinto y también en el viaje hacia él.
 
-- [x] Ensure the venue you select is [accessible for people using wheelchairs](https://sites.augsburg.edu/events/policies/accessible-events/accessible-event-planning-guide/). Check that there is access to an elevator if it's on an upper floor, that there are access ramps and automatic doors if required, and that doorways and hallways are wide enough to accommodate a wheelchair.
+- [x] Asegúrate de que el lugar que vas a elegir es [accesible para personas en sillas de ruedas](https://sites.augsburg.edu/events/policies/accessible-events/accessible-event-planning-guide/). Check that there is access to an elevator if it's on an upper floor, that there are access ramps and automatic doors if required, and that doorways and hallways are wide enough to accommodate a wheelchair.
 
 - [x] Make certain that there will be enough comfortable seating for your guests, and that seating and eating areas will be accessible to guests using wheelchairs or other mobility aids.
 
@@ -131,9 +131,9 @@ Another aspect of accessibility that is often overlooked is financial accessibil
 
 - [x] Reserve a quantity of free tickets for people with more severe limitations.
 
-- [x] Offer discounts for students or unemployed peers.
+- [x] Ofrece descuentos para estudiantes y personas desempleadas.
 
-- [x] Create opportunities for part-time volunteering, where people can offer to help a little, then participate in the rest of the event for free.
+- [x] Crea oportunidades de voluntariado a tiempo parcial para que las personas puedan ofrecer ayuda un poco y luego participar en el resto de los eventos de forma gratuita.
 
 - [x] Provide contact information for people who would like to request free or cheaper access, or discuss their unique situation with you.
 
