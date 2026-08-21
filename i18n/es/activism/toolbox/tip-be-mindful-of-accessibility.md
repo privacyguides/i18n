@@ -107,29 +107,29 @@ Si en el evento se sirve comida, aperitivos o bebidas, asegúrate de prepararlo 
 
 - [x] Asegúrate de que hay un espacio limpio y tranquilo para cualquier persona que lo necesite para dar el pecho.
 
-- [x] Provide all this information in advance with your invitation, so that guests can evaluate properly if the event is accessible to them.
+- [x] Proporciona toda esta información con antelación en las invitaciones para que los invitados puedan evaluar adecuadamente si el evento es accesible para ellos.
 
-### Safety accessibility
+### Medidas de seguridad
 
-Safety is also an important aspect of accessibility. Everyone has a unique threat model, and, for a variety of reasons, some people might be at an elevated risk to their physical safety when going to and participating in an event in person.
+La seguridad es un aspecto importante de la accesibilidad. Todo el mundo tiene un modelo de amenaza único y, por varias razones, algunas personas pueden correr un riesgo elevado para su seguridad física al participar en un evento en persona.
 
-- [x] Implement a [Code of Conduct](https://oshwa.org/resources/how-to-write-a-code-of-conduct/) for your event or community. Ensure there are clear channels to report bad behaviors, and that your Code of Conduct is enforced properly.
+- [x] Implementa un [Código de Conducta](https://oshwa.org/resources/how-to-write-a-code-of-conduct/) para tu evento o comunidad. Asegúrate de que hay canales para denunciar conductas inadecuadas y que el Código de Conducta se aplica correctamente.
 
-- [x] Verify that access to the bathrooms is safe and well lit at your venue.
+- [x] Comprueba que el acceso a los aseos del local sea seguro y esté bien iluminado.
 
-- [x] Make sure the venue you select is safe to access by transits or cars, and that the nearest parking lot or bus stop is well lit if the event ends late at night.
+- [x] Comprueba que el local elegido sea seguro para acceder en coche o en transporte público y que el aparcamiento y la parada de autobús más cercana estén bien iluminados si el evento termina por la noche.
 
-- [x] If your venue is located in an area that might be more dangerous at night, consider setting up an [accompaniment service](https://www.concordia.ca/campus-life/security/services/safe-walk.html) with a set of volunteers offering to walk guests safely back to their bus stop, for example. Make this information known in advance.
+- [x] Si el local está en una zona que puede resultar peligrosa por la noche considera tener un [servicio de acompañamiento](https://www.concordia.ca/campus-life/security/services/safe-walk.html) con voluntarios que den compañía para volver caminando hasta la parada del autobús, por ejemplo. Da a conocer esta información con antelación.
 
-- [x] Implement a clear [Photo Policy](https://events.ccc.de/congress/2025/infos/privacy.html#photo-policy) for your event, and forbid all nonconsensual photos. You can also provide "No Photos" or "Photos OK" stickers, buttons, or lanyards for guests upon arrival. That way, guests can explicitly opt out of being photographed at your event if they prefer not to. If your event hired an official photographer, make sure they are careful to never take photos that include people wearing these badges. Ideally, limit event photos to a minimum, and only take photos of people after asking for their explicit consent first.
+- [x] Establece una [política de fotografías](https://events.ccc.de/congress/2025/infos/privacy.html#photo-policy) clara para tu evento y no permitas las fotografías no consentidas. Puedes repartir pegatinas o pines de "Fotos No" o "Fotos Sí" a tus invitados a la llegada. De este modo, los invitados pueden manifestar explícitamente si no desean ser fotografiados en el evento. Si para el evento has contratado a un fotógrafo profesional, asegúrate de que es cuidadoso con no tomar fotos de personas que portan estas insignias. Lo ideal es reducir las fotos al mínimo, y solo tomar fotos después de preguntar con su consentimiento explícito.
 
-### Financial accessibility
+### Accesibilidad económica
 
-Another aspect of accessibility that is often overlooked is financial accessibility. Sadly, many people are unable to access certain events due to financial limitations, even if it would be very helpful to them to network and meet privacy advocacy peers. When you organize an event, be mindful of providing options to increase financial accessibility.
+Otro aspecto de la accesibilidad que se suele pasar por alto es la accesibilidad financiera. Tristemente, mucha gente no puede acceder a ciertos eventos debido a sus limitaciones financieras, aunque les resultaría muy útil establecer contactos y conocer a defensores de la privacidad. Cuando organices un evento, piensa en ofrecer opciones que faciliten la accesibilidad financiera.
 
-- [x] Try to keep your events free or partly free whenever possible, while remaining vigilant about accepting money from [financial sponsors](https://www.privacyguides.org/articles/2025/09/03/red-and-green-privacy-flags/#donations-event-sponsorships-and-other-revenues) that could be in contradiction with your privacy values.
+- [x] Intenta realizar eventos gratuítos o parcialmente gratuítos cuando sea posible sin dejar de estar atento al aceptar financiación de [patrocinadores](https://www.privacyguides.org/articles/2025/09/03/red-and-green-privacy-flags/#donations-event-sponsorships-and-other-revenues) que pueden entrar en conflicto con tus valores en temas de privacidad.
 
-- [x] Reserve a quantity of free tickets for people with more severe limitations.
+- [x] Reserva una cantidad de entradas gratuitas para personas con limitaciones importantes.
 
 - [x] Ofrece descuentos para estudiantes y personas desempleadas.
 

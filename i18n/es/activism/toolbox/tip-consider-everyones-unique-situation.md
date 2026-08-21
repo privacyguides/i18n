@@ -9,7 +9,7 @@ Cada persona tiene necesidades diferentes y se enfrenta a peligros diferentes cu
 
 Para brindar consejos y recomendaciones prácticas sobre privacidad, es esencial **tener en cuenta la situación de cada uno**. No existe un enfoque único cuando se trata de la privacidad de los datos.
 
-Here's how you can get better at evaluating each person's unique [_threat model_](../../basics/threat-modeling.md):
+Así es como puedes mejorar la evaluación del [modelo de amenazas](../../basics/threat-modeling.md) específico de cada persona:
 
 ## ¿Qué es un modelo de amenaza?
 
@@ -33,11 +33,11 @@ Para establecer un modelo de amenaza, haga las siguientes preguntas:
 
 Pregunte, clarifique y repita para cada tipo de información. Las respuestas a estas preguntas serán únicas para cada persona u organización. Este es su modelo único de amenaza.
 
-<details class="danger" markdown><summary>Example scenario: Threat of stalking</summary>
+<details class="danger" markdown><summary>Ejemplo de situación: Amenaza de acoso</summary>
 
-**Needs:** Alice is a young celebrity sharing a lot of information about herself on social media. Como parte de su trabajo, tiene que poder compartir fotos suyas, su nombre legal, algunos datos de sus viajes y detalles sobre su vida personal.
+**Necesidad:** Alice es una joven estrella que comparte mucha información sobre ella misma en redes sociales. Como parte de su trabajo, tiene que poder compartir fotos suyas, su nombre legal, algunos datos de sus viajes y detalles sobre su vida personal.
 
-**Threat:** However, to protect herself from an aggressive stalker, she must protect information about her _home address_ at all cost.
+**Amenaza:** Sin embargo, para protegerse de un acosador agresivo, debe proteger información sobre su _dirección personal_ a cualquier coste.
 
 **Nivel de peligro:** Ya ha recibido amenazas online, y el peligro para su seguridad es inminente si su domicilio fuera conocido por este agresivo acosador.
 
