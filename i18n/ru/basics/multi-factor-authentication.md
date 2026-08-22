@@ -141,7 +141,7 @@ sudo defaults write /Library/Preferences/com.apple.loginwindow DisableFDEAutoLog
 
 </div>
 
-Модуль `pam_u2f` в Linux может обеспечить двухфакторную аутентификацию для входа в систему в большинстве популярных дистрибутивов Linux. Если у вас есть аппаратный ключ безопасности, поддерживающий U2F, вы можете настроить МФА для входа в систему. Yubico has a guide [Ubuntu Linux Login Guide - U2F](https://support.yubico.com/s/article/Ubuntu-Linux-login-guide-U2F) which should work on any distribution. Команды менеджера пакетов — например, `apt-get` — и названия пакетов могут отличаться. Данное руководство **не** применимо к Qubes OS.
+Модуль `pam_u2f` в Linux может обеспечить двухфакторную аутентификацию для входа в систему в большинстве популярных дистрибутивов Linux. Если у вас есть аппаратный ключ безопасности, поддерживающий U2F, вы можете настроить МФА для входа в систему. У Yubico есть руководство [«Руководство по входу в Ubuntu Linux -- U2F»](https://support.yubico.com/s/article/Ubuntu-Linux-login-guide-U2F), которое должно работать на любом дистрибутиве. Команды менеджера пакетов — например, `apt-get` — и названия пакетов могут отличаться. Данное руководство **не** применимо к Qubes OS.
 
 ### Qubes OS
 

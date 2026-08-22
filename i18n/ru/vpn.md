@@ -314,7 +314,7 @@ We require our recommended providers to support modern technologies currently av
 
 **В лучшем случае:**
 
-- Kill switch on all major platforms with highly configurable options (enable/disable on certain networks, on boot, etc.)
+- Kill switch на всех основных платформах с широкими возможностями настройки (включение и отключение для определённых сетей, при запуске системы и т. д.)
 - Простые в использовании приложения VPN
 - Поддержка [IPv6](https://en.wikipedia.org/wiki/IPv6). Мы ожидаем, что серверы будут разрешать входящие соединения через IPv6 и позволят вам получить доступ к услугам, размещенным на адресах IPv6.
 - Возможность [удаленной переадресации портов](https://en.wikipedia.org/wiki/Port_forwarding#Remote_port_forwarding) помогает создавать соединения при использовании программного обеспечения для обмена файлами P2P ([Peer-to-Peer](https://en.wikipedia.org/wiki/Peer-to-peer)) или хостинга сервера (например, Mumble).

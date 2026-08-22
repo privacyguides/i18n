@@ -37,11 +37,11 @@ These DNS filtering solutions offer a web dashboard where you can customize the 
 
 <div class="admonition recommendation" markdown>
 
-![Control D logo](assets/img/dns/control-d.svg){ align=right }
+![Логотип Control D](assets/img/dns/control-d.svg){ align=right }
 
-**Control D** is a customizable DNS service which lets you block security threats, unwanted content, and advertisements on a DNS level.
+**Control D** — это настраиваемый DNS-сервис, позволяющий блокировать угрозы безопасности, нежелательный контент и рекламу на уровне DNS.
 
-In addition to their paid plans, they offer a number of preconfigured DNS resolvers you can use for free.
+Помимо платных тарифных планов, они предлагают ряд готовых DNS-резолверов, которыми можно пользоваться бесплатно.
 
 [:octicons-home-16: Главная](https://controld.com){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://controld.com/privacy){ .card-link title="Политика конфиденциальности" }
@@ -68,7 +68,7 @@ In addition to their paid plans, they offer a number of preconfigured DNS resolv
 
 ![NextDNS logo](assets/img/dns/nextdns.svg){ align=right }
 
-**NextDNS** is a customizable DNS service which lets you block security threats, unwanted content, and advertisements on a DNS level.
+**NextDNS** — это настраиваемый DNS-сервис, позволяющий блокировать угрозы безопасности, нежелательный контент и рекламу на уровне DNS.
 
 They offer a fully functional free plan for limited use.
 
@@ -109,10 +109,10 @@ NextDNS also offers a public DoH service at `https://dns.nextdns.io` and DNS-ove
 
 **RethinkDNS** — это открытый Android-клиент, поддерживающий [DoH](advanced/dns-overview.md#dns-over-https-doh), [DoT](advanced/dns-overview.md#dns-over-tls-dot), [DNSCrypt](advanced/dns-overview.md#dnscrypt) и DNS-прокси. It also provides additional functionality such as caching DNS responses, locally logging DNS queries, and using the app as a firewall.
 
-[:octicons-home-16: Homepage](https://rethinkdns.com){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://rethinkdns.com/privacy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://docs.rethinkdns.com){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/celzero/rethink-app){ .card-link title="Source Code" }
+[:octicons-home-16: Главная](https://rethinkdns.com){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://rethinkdns.com/privacy){ .card-link title="Политика конфиденциальности" }
+[:octicons-info-16:](https://docs.rethinkdns.com){ .card-link title="Документация" }
+[:octicons-code-16:](https://github.com/celzero/rethink-app){ .card-link title="Исходный код" }
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
