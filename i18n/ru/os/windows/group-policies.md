@@ -137,7 +137,7 @@ Windows 11 recently introduced a feature called **Recall**, which records all yo
 
 </div>
 
-- Turn off saving snapshots for use with Recall: **Enabled**
+- Отключить сохранение снимков экрана для использования с Recall: **Включено**
 
 #### Отчёты об ошибках Windows
 

@@ -21,13 +21,13 @@ global:
 
 These are our favorite public DNS resolvers based on their privacy and security characteristics, and their worldwide performance. Some of these services offer basic DNS-level blocking of malware or trackers depending on the server you choose, but if you want to be able to see and customize what is blocked, you should use a dedicated DNS filtering product instead.
 
-| DNS-провайдер                                                              | Протоколы                                                                     | Логирование / Политика конфиденциальности | [ECS](advanced/dns-overview.md#what-is-edns-client-subnet-ecs) | Фильтрация                                                                                                                                                | Профиль конфигурации Apple                                                                                                                                                                                                 |
-| -------------------------------------------------------------------------- | ----------------------------------------------------------------------------- | ----------------------------------------- | -------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [**AdGuard Public DNS**](https://adguard-dns.io/en/public-dns.html)        | Без шифрования <br>DoH/3 <br>DoT <br>DoQ <br>DNSCrypt | Анонимное[^1]                             | Анонимное                                                      | Based on server choice. Используемый список фильтрации можно найти здесь. [:octicons-link-external-24:](https://github.com/AdguardTeam/AdGuardSDNSFilter) | Да [:octicons-link-external-24:](https://adguard-dns.io/en/blog/encrypted-dns-ios-14.html)                                                                                                                                 |
-| [**Cloudflare**](https://developers.cloudflare.com/1.1.1.1/setup)          | Без шифрования <br>DoH/3 <br>DoT                                  | Anonymized[^2]                            | Нет                                                            | Based on server choice.                                                                                                                                   | Нет [:octicons-link-external-24:](https://community.cloudflare.com/t/requesting-1-1-1-1-signed-profiles-for-apple/571846)                                                                                                  |
-| [**Control D Free DNS**](https://controld.com/free-dns)                    | Без шифрования <br>DoH/3 <br>DoT <br>DoQ                    | No[^3]                                    | Нет                                                            | Based on server choice.                                                                                                                                   | Да <br>[:simple-apple: iOS](https://docs.controld.com/docs/ios-platform) <br>[:material-apple-finder: macOS](https://docs.controld.com/docs/macos-platform#manual-setup-profile)                               |
-| [**Mullvad**](https://mullvad.net/en/help/dns-over-https-and-dns-over-tls) | DoH <br>DoT                                                             | No[^4]                                    | Нет                                                            | Based on server choice. Используемый список фильтрации можно найти здесь. [:octicons-link-external-24:](https://github.com/mullvad/dns-adblock)           | Да [:octicons-link-external-24:](https://github.com/mullvad/encrypted-dns-profiles)                                                                                                                                        |
-| [**Quad9**](https://quad9.net)                                             | Без шифрования <br>DoH/3 <br>DoT <br>DoQ <br>DNSCrypt | Anonymized[^5]                            | Необязательное[^5]                                             | Based on server choice. Malware blocking is included by default.                                                                                          | Да <br>[:simple-apple: iOS](https://docs.quad9.net/Setup_Guides/iOS/iOS_14_and_later_(Encrypted)) <br>[:material-apple-finder: macOS](https://docs.quad9.net/Setup_Guides/MacOS/Big_Sur_and_later_(Encrypted)) |
+| DNS-провайдер                                                              | Протоколы                                                                     | Логирование / Политика конфиденциальности | [ECS](advanced/dns-overview.md#what-is-edns-client-subnet-ecs) | Фильтрация                                                                                                                                                       | Профиль конфигурации Apple                                                                                                                                                                                                 |
+| -------------------------------------------------------------------------- | ----------------------------------------------------------------------------- | ----------------------------------------- | -------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [**AdGuard Public DNS**](https://adguard-dns.io/en/public-dns.html)        | Без шифрования <br>DoH/3 <br>DoT <br>DoQ <br>DNSCrypt | Анонимное[^1]                             | Анонимное                                                      | Зависит от выбранного сервера. Используемый список фильтрации можно найти здесь. [:octicons-link-external-24:](https://github.com/AdguardTeam/AdGuardSDNSFilter) | Да [:octicons-link-external-24:](https://adguard-dns.io/en/blog/encrypted-dns-ios-14.html)                                                                                                                                 |
+| [**Cloudflare**](https://developers.cloudflare.com/1.1.1.1/setup)          | Без шифрования <br>DoH/3 <br>DoT                                  | Anonymized[^2]                            | Нет                                                            | Зависит от выбранного сервера.                                                                                                                                   | Нет [:octicons-link-external-24:](https://community.cloudflare.com/t/requesting-1-1-1-1-signed-profiles-for-apple/571846)                                                                                                  |
+| [**Control D Free DNS**](https://controld.com/free-dns)                    | Без шифрования <br>DoH/3 <br>DoT <br>DoQ                    | No[^3]                                    | Нет                                                            | Зависит от выбранного сервера.                                                                                                                                   | Да <br>[:simple-apple: iOS](https://docs.controld.com/docs/ios-platform) <br>[:material-apple-finder: macOS](https://docs.controld.com/docs/macos-platform#manual-setup-profile)                               |
+| [**Mullvad**](https://mullvad.net/en/help/dns-over-https-and-dns-over-tls) | DoH <br>DoT                                                             | No[^4]                                    | Нет                                                            | Зависит от выбранного сервера. Используемый список фильтрации можно найти здесь. [:octicons-link-external-24:](https://github.com/mullvad/dns-adblock)           | Да [:octicons-link-external-24:](https://github.com/mullvad/encrypted-dns-profiles)                                                                                                                                        |
+| [**Quad9**](https://quad9.net)                                             | Без шифрования <br>DoH/3 <br>DoT <br>DoQ <br>DNSCrypt | Anonymized[^5]                            | Необязательное[^5]                                             | Зависит от выбранного сервера. Malware blocking is included by default.                                                                                          | Да <br>[:simple-apple: iOS](https://docs.quad9.net/Setup_Guides/iOS/iOS_14_and_later_(Encrypted)) <br>[:material-apple-finder: macOS](https://docs.quad9.net/Setup_Guides/MacOS/Big_Sur_and_later_(Encrypted)) |
 
 ## Облачная фильтрация DNS
 
@@ -43,10 +43,10 @@ These DNS filtering solutions offer a web dashboard where you can customize the 
 
 In addition to their paid plans, they offer a number of preconfigured DNS resolvers you can use for free.
 
-[:octicons-home-16: Homepage](https://controld.com){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://controld.com/privacy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://docs.controld.com/docs/getting-started){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/Control-D-Inc/ctrld){ .card-link title="Source Code" }
+[:octicons-home-16: Главная](https://controld.com){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://controld.com/privacy){ .card-link title="Политика конфиденциальности" }
+[:octicons-info-16:](https://docs.controld.com/docs/getting-started){ .card-link title="Документация" }
+[:octicons-code-16:](https://github.com/Control-D-Inc/ctrld){ .card-link title="Исходный код" }
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
@@ -72,10 +72,10 @@ In addition to their paid plans, they offer a number of preconfigured DNS resolv
 
 They offer a fully functional free plan for limited use.
 
-[:octicons-home-16: Homepage](https://nextdns.io){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://nextdns.io/privacy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://help.nextdns.io){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/nextdns/nextdns){ .card-link title="Source Code" }
+[:octicons-home-16: Главная](https://nextdns.io){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://nextdns.io/privacy){ .card-link title="Политика конфиденциальности" }
+[:octicons-info-16:](https://help.nextdns.io){ .card-link title="Документация" }
+[:octicons-code-16:](https://github.com/nextdns/nextdns){ .card-link title="Исходный код" }
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
@@ -90,7 +90,7 @@ They offer a fully functional free plan for limited use.
 
 </div>
 
-When used with an account, NextDNS will enable insights and logging features by default (as some features require it). You can choose retention time and log storage location for any logs you choose to keep, or disable logs altogether.
+When used with an account, NextDNS will enable insights and logging features by default (as some features require it). Вы можете самостоятельно выбрать время и место хранения ваши логов или вовсе отключить их.
 
 NextDNS's free plan is fully functional, but should not be relied upon for security or other critical filtering applications, because after 300,000 DNS queries in a month all filtering, logging, and other account-based functionality are disabled. It can still be used as a regular DNS provider after that point, so your devices will continue to function and make secure queries via DNS-over-HTTPS (DoH), just without your filter lists.
 
@@ -104,10 +104,10 @@ NextDNS also offers a public DoH service at `https://dns.nextdns.io` and DNS-ove
 
 <div class="admonition recommendation" markdown>
 
-![RethinkDNS logo](assets/img/android/rethinkdns.svg#only-light){ align=right }
-![RethinkDNS logo](assets/img/android/rethinkdns-dark.svg#only-dark){ align=right }
+![Логотип RethinkDNS](assets/img/android/rethinkdns.svg#only-light){ align=right }
+![Логотип RethinkDNS](assets/img/android/rethinkdns-dark.svg#only-dark){ align=right }
 
-**RethinkDNS** is an open-source Android client that supports [DoH](advanced/dns-overview.md#dns-over-https-doh), [DoT](advanced/dns-overview.md#dns-over-tls-dot), [DNSCrypt](advanced/dns-overview.md#dnscrypt) and DNS Proxy. It also provides additional functionality such as caching DNS responses, locally logging DNS queries, and using the app as a firewall.
+**RethinkDNS** — это открытый Android-клиент, поддерживающий [DoH](advanced/dns-overview.md#dns-over-https-doh), [DoT](advanced/dns-overview.md#dns-over-tls-dot), [DNSCrypt](advanced/dns-overview.md#dnscrypt) и DNS-прокси. It also provides additional functionality such as caching DNS responses, locally logging DNS queries, and using the app as a firewall.
 
 [:octicons-home-16: Homepage](https://rethinkdns.com){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://rethinkdns.com/privacy){ .card-link title="Privacy Policy" }
@@ -153,7 +153,7 @@ While RethinkDNS takes up the Android VPN slot, you can still use a VPN or Orbot
 <div class="admonition warning" markdown>
 <p class="admonition-title">Внимание!</p>
 
-The anonymized DNS feature does [not](advanced/dns-overview.md#why-shouldnt-i-use-encrypted-dns) anonymize other network traffic.
+Функция анонимизированного DNS [не](advanced/dns-overview.md#why-shouldnt-i-use-encrypted-dns) анонимизирует весь остальной трафик.
 
 </div>
 
@@ -161,13 +161,13 @@ The anonymized DNS feature does [not](advanced/dns-overview.md#why-shouldnt-i-us
 
 **Обратите внимание, что у нас нет связей ни с одним проектом, которые мы рекомендуем.** В дополнение к [нашим стандартным критериям](about/criteria.md) мы разработали четкий набор требований, позволяющий давать объективные рекомендации. Мы рекомендуем ознакомиться с данным списком перед выбором и провести самостоятельное исследование, чтобы убедиться, что для вас это правильный выбор.
 
-All DNS products...
+Все DNS...
 
-- Must support [DNSSEC](advanced/dns-overview.md#what-is-dnssec).
-- Must support [QNAME Minimization](advanced/dns-overview.md#what-is-qname-minimization).
-- Must anonymize [ECS](advanced/dns-overview.md#what-is-edns-client-subnet-ecs) or disable it by default.
+- Должны поддерживать [DNSSEC](advanced/dns-overview.md#what-is-dnssec).
+- Должны поддерживать [QNAME Minimization](advanced/dns-overview.md#what-is-qname-minimization).
+- Должны анонимизировать [ECS](advanced/dns-overview.md#what-is-edns-client-subnet-ecs) или отключить ее по умолчанию.
 
-Additionally, all public providers...
+Кроме того, все публичные провайдеры...
 
 - Must not log any personal data to disk.
     - As noted in the footnotes, some providers collect query information for purposes like security research, but in such cases, the data must not be associated with any PII such as IP address, etc.
