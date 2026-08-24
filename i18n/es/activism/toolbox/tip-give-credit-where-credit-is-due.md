@@ -33,22 +33,22 @@ Al dar crédito a las organizaciones, también estás haciendo que todo un equip
 
 - **Cita** el trabajo de tus aliados en tu propio contenido y material. Asegúrate de acreditar siempre su nombre y enlazar a sus recursos externos cuando lo hagas.
 
-- **Link** to your allies' resources on your own platforms. Give them credit for their work, and encourage your own audience to consult your allies' material.
+- **Enlaza** a los recursos de tus aliados en sus plataformas. Reconoce su trabajo y anima a tu público a consultar el material de tus aliados.
 
-- **Support** your allies publicly on social media. Repost their content to increase their reach. Post about them while tagging them, to encourage your circle to follow them as well. Reply to their posts thanking them for their hard work for the cause.
+- **Apoya** públicamente a tus aliados en redes sociales. Impulsa su contenido para ampliar su alcance. Publica algo sobre ellos y etiquétales para animar a tu círculo a que les siga. Responde a sus publicaciones agradeciéndoles su duro trabajo por la causa.
 
-- **Reach out** to offer your help on their projects, whenever you have the resources to do so.
+- **Contacta** con ellos para ofrecerles ayuda con sus proyectos siempre que tengas los medios para hacerlo.
 
-- **Thank** your allies publicly when working with a group, whether it's for paid or volunteer work. Make the members of your group feel recognized and valued individually.
+- **Agradece** a tus compañeros públicamente cuando trabajéis en equipo, ya sea voluntario o remunerado. Haz que los miembros de tu grupo se sientan reconocidos y valorados de forma individual.
 
-- **Attribute** the work of each contributor to the name they have agreed to share publicly, depending on the platform you use. Ask first how they prefer to be credited, but do not forget to credit them.
+- **Atribuye** el trabajo de cada colaborador con el nombre que quieran compartir públicamente, dependiendo de la plataforma que utilices. Pregúntales primero cómo prefieren ser acreditados, pero no olvidos de hacerlo.
 
-- **Nominate** your allies for rewards/awards if the opportunity arises, and make sure to add your vote to support them.
+- **Nomina** a tus aliados para que reciban recompensas/premios si surge la oportunidad, y asegúrate de añadir tu voto para apoyarles.
 
 </div>
 
-## More resources
+## Más recursos
 
-- [3 ways to use recognition to boost performance and engagement (_HumanResourceMag_)](https://www.humanresourcemag.com/news/277/3-ways-to-use-recognition-to-boost-performance-and-engagement)
+- [3 formas de usar el reconocimiento para mejorar el rendimiento y el compromiso (_HumanResourceMag_)](https://www.humanresourcemag.com/news/277/3-ways-to-use-recognition-to-boost-performance-and-engagement)
 
-- [The fine line between teamwork and taking credit: Why recognition matters (_Gwendolyn F. McGraw_)](https://blog.gwendolynmcgraw.net/2025/07/12/the-fine-line-between-teamwork-and-taking-credit-why-recognition-matters/)
+- [La fina línea entre el trabajo en equipo y atribuirse el mérito: Por qué el reconocimiento importa (_Gwendolyn F. McGraw_) ](https://blog.gwendolynmcgraw.net/2025/07/12/the-fine-line-between-teamwork-and-taking-credit-why-recognition-matters/)
