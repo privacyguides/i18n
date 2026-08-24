@@ -53,22 +53,22 @@ Pregunte, clarifique y repita para cada tipo de información. Las respuestas a e
 
 **Nivel de peligro:** Si Bob o alguien cercano a Bob publicara una foto de su cara en Internet, los numerosos bots que escanean constantemente la web abierta y las plataformas de redes sociales tendrían una copia de ella en un abrir y cerrar de ojos.
 
-**Información para proteger y soluciones:** Para evitar esto, Bob no debe publicar fotos de su rostro en línea. He should make sure to only choose profile pictures that don't show his face for social media, and inspect any other photos posted to make sure his face doesn't show up on reflective surfaces. He should also inform his friends and family that he doesn't want photos of himself to be posted online, and he should protect his phone camera roll and cloud storage from getting [scanned](https://www.forbes.com/sites/zakdoffman/2026/01/15/google-upgrade-starts-scanning-all-your-photos-be-very-careful/) by remotely controlled AI. Bob should also opt out of any online platforms demanding a facial scan or photo ID in order to [verify his age](https://www.privacyguides.org/videos/2025/08/15/age-verification-is-a-privacy-nightmare/) or identity.
+**Información para proteger y soluciones:** Para evitar esto, Bob no debe publicar fotos de su rostro en línea. Debe asegurarse de elegir solo para redes sociales fotografías de perfil que no muestren su cara y debe inspeccionar otras fotos publicadas para asegurarse de que su cara no se muestra reflejada en superficies. Deberá informar también a sus amigos y familia de que no quiere que se publiquen en internet fotos con su rostro y deberá proteger las fotos contenidas en la memoria de su móvil y su nube para que no sean [analizados](https://www.forbes.com/sites/zakdoffman/2026/01/15/google-upgrade-starts-scanning-all-your-photos-be-very-careful/) por una IA controlada de forma remota. Bob deberá darse de baja de cualquier plataforma en línea que requiera un escaneo facial o una foto de su DNI para [verificar su edad](https://www.privacyguides.org/videos/2025/08/15/age-verification-is-a-privacy-nightmare/) o identidad.
 
 </details>
 
-## Respect people's choices when it comes to their own privacy, even if they are different from yours
+## Respeta la decisión de otras personas sobre su propia privacidad, incluso cuando son diferentes a las tuyas
 
 Al asesorar a otras personas sobre la privacidad de los datos, es fácil dejarse llevar y olvidar que otras personas pueden tener modelos de amenaza diferentes de los nuestros.
 
 Una vez que hemos proporcionado la información a alguien que podría necesitarla, es importante dar un paso atrás y respetar sus decisiones. Si alguien entiende los riesgos, y decide que compartir esta información _sobre sí mismos_ es un nivel aceptable de riesgo para ellos, no podemos (y no deberíamos intentarlo) obligarlos a usar el mismo nivel de protección que nosotros mismos hemos adoptado, si no lo desean.
 
-Of course, this might be a different story if their decision also affects the data of others. But if it only concerns their own data, the choice is theirs.
+Por supuesto, será otra historia si su decisión afecta a los datos de terceras personas. Pero si solo afecta a sus propios datos, la decisión es suya.
 
-To be a good privacy advocate is to provide information and support when needed. But ultimately, privacy is about deciding what one is comfortable sharing about themselves or not. We can only choose this for ourselves, not for others.
+Para ser un buen defensor de la privacidad se debe proveer información y prestar ayuda cuando sea necesario. En última instancia, la privacidad consiste en decidir qué información sobre uno mismo estamos dispuestos a compartir y cuál no. Solo podemos elegir esto para nosotros mismos, no para otros.
 
-## More resources
+## Más recursos
 
-- [More detailed information on threat modeling (_Privacy Guides_)](../../basics/threat-modeling.md)
+- [Más información detallada sobre modelos de amenazas (_Privacy Guides_)](../../basics/threat-modeling.md)
 
-- [Examples of common threats (_Privacy Guides_)](../../basics/common-threats.md)
+- [Ejemplos de amenazas habituales (_Privacy Guides_)](../../basics/common-threats.md)
