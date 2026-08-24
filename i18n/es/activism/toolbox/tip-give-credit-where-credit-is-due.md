@@ -11,13 +11,13 @@ He aquí algunas formas de ayudar a tus aliados a sentirse vistos y valorados:
 
 ## Por qué es importante acreditar a las personas y a la organización
 
-Giving credit to the right person or organization isn't only the ethical thing to do, it's also a way to **build alliances**, to bring more people to the cause, and to retain the allies you already have.
+Reconociendo la autoría a la persona u organización correcta no solo es una acción ética que debemos hacer, es también una forma de **construir alianzas**, añadir a más personas a la causa y de conservar las alianzas que ya tienes.
 
-When people feel valued, they are usually inclined to work harder. People are also more likely to stick around places where they feel seen and appreciated. Esto es increíblemente importante para nuestro movimiento.
+Cuando la gente se siente valorada, suelen estar dispuestas a trabajar más duro. Además la gente suele acudir más a aquellos lugares donde se sienten valoradas y apreciadas. Esto es increíblemente importante para nuestro movimiento.
 
 Al dar crédito a las organizaciones, también estás haciendo que todo un equipo se sienta valorado. Al fin y al cabo, las organizaciones están formadas por personas. Preocuparse por las personas que trabajan duro en sus organizaciones aliadas es fundamental para construir nuestro movimiento.
 
-## Ways to credit your allies in your advocacy work
+## Formas de acreditar a tus aliados en tu labor
 
 <style>
 .emoji-list-a ul {
@@ -31,7 +31,7 @@ Al dar crédito a las organizaciones, también estás haciendo que todo un equip
 
 <div class="emoji-list-a" markdown>
 
-- **Quote** your allies' work in your own content and material. Make sure to always credit their name and link to their external resources when you do.
+- **Cita** el trabajo de tus aliados en tu propio contenido y material. Asegúrate de acreditar siempre su nombre y enlazar a sus recursos externos cuando lo hagas.
 
 - **Link** to your allies' resources on your own platforms. Give them credit for their work, and encourage your own audience to consult your allies' material.
 
