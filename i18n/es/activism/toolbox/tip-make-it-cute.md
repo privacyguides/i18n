@@ -1,23 +1,23 @@
 ---
-title: Make It Cute
-description: If you are developing a privacy-focused application or website, it's important that you do not neglect the design aspect of it. ¡Hazlo bonito!
+title: Hazlo bonito
+description: Si desarrollas una web o aplicación enfocada en la privacidad, es importante que no descuides el diseño. ¡Hazlo bonito!
 icon: fontawesome/solid/cat
 cover: activism/banner-toolbox-tip-cute.webp
 ---
 
-If you are developing a privacy-focused application or website, it's important that you **do not neglect the design** aspect of it. Este es un error común que puede tener un impacto negativo significativo en la adopción por parte del público general. ¡Hazlo bonito!
+Si desarrollas una web o aplicación enfocada en la privacidad, es importante que **no descuides** el diseño. Este es un error común que puede tener un impacto negativo significativo en la adopción por parte del público general. ¡Hazlo bonito!
 
-Here's why you should make your design appealing and accessible to everyone:
+Este es el porqué debes realizar un diseño atractivo y accesible para todos:
 
-## What happens when your app is ugly
+## Qué sucede cuando tu aplicación es fea
 
-Quality design for User Interface (UI) and User Experience (UX) is fundamental to product adoption. Unfortunately, this is regularly neglected by developers working on privacy-focused projects. Often, this is due to lack of resources, but sometimes it's simply an oversight.
+Un diseño de calidad de la interfaz de usuario (UI) y de la experiencia de usuario (UX) es fundamental para la adopción de un producto. Desafortunadamente, esto es ignorado por desarrolladores que trabajan enfocados en la privacidad. A menudo, esto se debe a la falta de recursos, pero en ocasiones es un simple descuido.
 
-The problem is that if your application or website isn't appealing visually, is awkward to use, difficult to understand, or use jargon inaccessible to newcomers, ==people who aren't already in your community are much less likely to adopt your product==, regardless of the privacy benefits it offers. Trying to tell people a billion times they should switch to using your app will be no help at all if it's unpleasant to use on a daily basis.
+El problema es que si tu aplicación o página web no es visualmente atractiva, es incómoda de usar, complicada de entender o usa jerga inaccesible para novatos, ==las personas que no forman parte de tu comunidad serán menos propensas a adoptar tu producto==, independientemente de los beneficios para la privacidad que ofrezca. Decir un millón de veces a la gente que deben usar tu aplicación no servirá de nada si no es agradable de usar en el día a día.
 
-When your app is ugly, fewer people want to use it, and fewer people benefit from its protections. Minimizing the importance of visual appeal and ease-of-use will only impact your goals negatively.
+Cuando tu aplicación es fea, menos gente quiere usarla y menos gente se beneficia de sus medidas de protección. Minimizar la importancia del atractivo visual y la facilidad de uso tendrá un impacto negativo en tus objetivos.
 
-## Beyond privacy features: Develop a product that is also accessible, functional, and cute!
+## Más allá de las funciones de privacidad: ¡Desarrolla un producto que sea accesible, funcional y bonito!
 
 If you've already done your homework to build the best app for people to protect their privacy, or the best website to provide privacy advice, here are other aspects you should consider to increase your product's popularity:
 
