@@ -19,7 +19,7 @@ Cuando tu aplicación es fea, menos gente quiere usarla y menos gente se benefic
 
 ## Más allá de las funciones de privacidad: ¡Desarrolla un producto que sea accesible, funcional y bonito!
 
-If you've already done your homework to build the best app for people to protect their privacy, or the best website to provide privacy advice, here are other aspects you should consider to increase your product's popularity:
+Si ya has hecho el trabajo de construir la mejor aplicación para proteger la privacidad de la gente, o la mejor web para dar información sobre privacidad, aquí tienes otros aspectos a considerar para incrementar la popularidad de tu producto:
 
 <style>
 .emoji-list-a ul {
@@ -33,11 +33,11 @@ If you've already done your homework to build the best app for people to protect
 
 <div class="emoji-list-a" markdown>
 
-- Make sure that your app or website is [accessible](tip-be-mindful-of-accessibility.md) as much as possible. Accessibility will not only make more people able to use your application, but it's likely to also improve user experience for everyone.
+- Asegúrate de que tu aplicación o página es lo más [accesible](tip-be-mindful-of-accessibility.md) posible. La accesibilidad no solo va a hacer que más gente puedan usar tu aplicación, sino que mejorará la experiencia de usuario para todo el mundo.
 
-- Wrap your product in a pretty package. If you can afford it, hire a professional designer to polish your app or website interface, as well as your organization's logo and promotional material. Design can truly be a make-or-break moment. Do not neglect it!
+- Envuelve tu producto en un paquete bonito. Si te lo puedes permitir, contrata un diseñador profesional para que pula la interfaz de tu aplicación o página web así como el logotipo y material promocional de tu organización. El diseño puede ser realmente un factor decisivo. ¡No lo descuides!
 
-- People like cute things! Make your app and content cute! Additionally, this helps to make technically-intimidating projects feel more accessible to newcomers and beginners.
+- ¡A la gente le gustan las cosas bonitas! ¡Haz tu aplicación y contenido bonito! Additionally, this helps to make technically-intimidating projects feel more accessible to newcomers and beginners.
 
 - Use good design to reinforce your privacy features or topics. Visual elements can be great assets to bring more attention to your product or content, and to highlight important privacy features in your application. Use design to guide users instinctively towards good privacy. And use design to make the information you share on your website or other content easier to digest.
 
