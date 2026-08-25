@@ -120,9 +120,9 @@ Si cancelas tu suscripción, disfrutarás de las características de tu plan de 
 
 </div>
 
-SimpleLogin was [acquired by Proton AG](https://proton.me/news/proton-and-simplelogin-join-forces) on April 8, 2022, making it an excellent option for users of [Proton Mail](email.md#proton-mail) as their primary mailbox. With this acquisition, you only need to trust a single entity for your email services. SimpleLogin still allows forwarding to any email provider of your choice.
+SimpleLogin fue [comprado por Proton AG](https://proton.me/news/proton-and-simplelogin-join-forces) el 8 de abril de 2022, haciéndolo una excelente opción para usuarios que tienen [Proton Mail](email.md#proton-mail) como su buzón principal. Con esta compra solo tienes que confiar en una única entidad para tus servicios de correo electrónico. SimpleLogin aún permite el reenvío para cualquier proveedor de correo electrónico de tu elección.
 
-Puedes vincular tu cuenta SimpleLogin en la configuración con tu cuenta Proton. Si tienes Proton Pass Plus, Proton Unlimited o cualquier plan multiusuario de Proton, tendrás SimpleLogin Premium gratis. Likewise both the [Free and Premium tiers](https://simplelogin.io/pricing/) of SimpleLogin now include Proton Pass subscriptions. También puedes comprar un código de cupón para SimpleLogin Premium de forma anónima a través de su distribuidor oficial [ProxyStore](https://simplelogin.io/faq).
+Puedes vincular tu cuenta SimpleLogin en la configuración con tu cuenta Proton. Si tienes Proton Pass Plus, Proton Unlimited o cualquier plan multiusuario de Proton, tendrás SimpleLogin Premium gratis. Del mismo modo, tanto el [nivel Gratuito como el Prémium](https://simplelogin.io/pricing/) de SimpleLogin ahora incluye suscripción a Proton Pass. También puedes comprar un código de cupón para SimpleLogin Premium de forma anónima a través de su distribuidor oficial [ProxyStore](https://simplelogin.io/faq).
 
 Securitum [auditó](https://simplelogin.io/blog/security-audit) SimpleLogin a principios de 2022 y todos los problemas [se solucionaron](https://simplelogin.io/audit2022/web.pdf).
 

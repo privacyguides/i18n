@@ -37,20 +37,20 @@ Si ya has hecho el trabajo de construir la mejor aplicación para proteger la pr
 
 - Envuelve tu producto en un paquete bonito. Si te lo puedes permitir, contrata un diseñador profesional para que pula la interfaz de tu aplicación o página web así como el logotipo y material promocional de tu organización. El diseño puede ser realmente un factor decisivo. ¡No lo descuides!
 
-- ¡A la gente le gustan las cosas bonitas! ¡Haz tu aplicación y contenido bonito! Additionally, this helps to make technically-intimidating projects feel more accessible to newcomers and beginners.
+- ¡A la gente le gustan las cosas bonitas! ¡Haz tu aplicación y contenido bonito! Además, esto ayuda a hacer que proyectos tecnológicamente intimidantes parezcan más accesibles para recién llegados y novatos.
 
-- Use good design to reinforce your privacy features or topics. Visual elements can be great assets to bring more attention to your product or content, and to highlight important privacy features in your application. Use design to guide users instinctively towards good privacy. And use design to make the information you share on your website or other content easier to digest.
+- Usa un buen diseño para reforzar tus funciones o temas relacionados con la privacidad. Los elementos visuales peden ser atractivos útiles para llamar la atención hacia su producto o contenido y para remarcar características importantes para la privacidad de su aplicación. Utiliza el diseño para guiar a tus usuarios instintivamente hacia una buena privacidad. Y usa el diseño para hacer que la información que compartes en tu web u otro contenido sea fácil de asimilar.
 
-- Make sure your application or website isn't just cute and privacy-positive, but also _functional_. Without good user experience, you will not be able to retain the users or readers you have managed to attract with cuteness or privacy, and people will move back to their old bad habits.
+- Haz que tu aplicación o página web no solo sea bonita y respete la privacidad sino que también sea _funcional_. Sin una buena experiencia de usuario no serás capaz de mantener a los usuarios o lectores que has conseguido atraer con un diseño atractivo o la privacidad y la gente volverá a sus malos hábitos.
 
 </div>
 
-## More resources
+## Más recursos
 
-- [Why are cute objects so seductive (_Laura Sabau Tatar_)](https://uxdesign.cc/why-are-cute-objects-so-seductive-8de1c58bd47c)
+- [¿Por qué los objetos bonitos son tan atrayentes? (_Laura Sabau Tatar_)](https://uxdesign.cc/why-are-cute-objects-so-seductive-8de1c58bd47c)
 
-- [The importance of User Interface (UI) and User Experience (UX) design (_Geeks for Geeks_)](https://www.geeksforgeeks.org/websites-apps/importance-of-ui-ux-design/)
+- [La importancia del diseño de la Interfaz de Usuario (UI) y de la Experiencia de Usuario (UX) (_Geeks for Geeks_)](https://www.geeksforgeeks.org/websites-apps/importance-of-ui-ux-design/)
 
-- [Why do open source applications often have less polished UIs than commercial software (_Darren Horrocks_)](https://www.darrenhorrocks.co.uk/why-open-source-ui-design-sucks/)
+- [Por qué habitualmente las aplicaciones de código abierto tienen UIs menos pulidas que el software comercial (_Darren Horrocks_)](https://www.darrenhorrocks.co.uk/why-open-source-ui-design-sucks/)
 
-- [How to start with design in your open source project (_All Things Open_)](https://allthingsopen.org/articles/start-design-open-source-project)
+- [Cómo comenzar con el diseño en tu proyecto de código abierto (_All Things Open_)](https://allthingsopen.org/articles/start-design-open-source-project)

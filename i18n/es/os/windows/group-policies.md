@@ -128,16 +128,16 @@ Este último ajuste desactiva OneDrive en tu sistema; asegúrate de cambiarlo a 
 
 - Mejorar el Reconocimiento de la Escritura y la Entrada Manuscrita: **Deshabilitada**
 
-#### Windows AI
+#### IA de Windows
 
 <div class="admonition info" markdown>
 <p class="admonition-title">Windows Recall</p>
 
-Windows 11 recently introduced a feature called **Recall**, which records all your activity and creates a searchable archive of that activity history. This is a massive privacy vulnerability, because those archives can potentially store highly sensitive information (essentially anything displayed on your screen), and malware without any special permissions or admin access can trivially [access](https://github.com/xaitax/TotalRecall) the full Recall database anytime after it is unlocked.
+Windows 11 incorporó recientemente una función llamada **Recall** que registra toda la actividad y crea un archivo en el que se puede realizar búsquedas del historial de actividad. Esta es una vulnerabilidad de la privacidad masiva, porque esos archivos pueden almacenar información muy sensible (básicamente cualquier cosa mostrada en tu pantalla) y malware sin necesidad de un permiso especial o un administrador pueden tener un fácil [acceso](https://github.com/xaitax/TotalRecall) a la base de datos completa de **Recall** una vez se haya desbloqueado.
 
 </div>
 
-- Turn off saving snapshots for use with Recall: **Enabled**
+- Desactivar el guardado de capturas de pantalla para su uso con Recall: **Activado**
 
 #### Informes de Errores de Windows
 
