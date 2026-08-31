@@ -113,10 +113,10 @@ In the months since, BurungHantu has threatened and begged for returning Subredd
 
 - [2021年6月28日，请求控制r/privacytoolsIO](https://reddit.com/comments/o9tllh)
 - [2021年7月27日，在PrivacyTools博客上宣布了我们的搬迁意向，由团队撰写](https://web.archive.org/web/20210729184422/https://blog.privacytools.io/the-future-of-privacytools)
-- [2021年9月13日，在r/privacytoolsIO上宣布我们开始过渡到隐私指南。](https://reddit.com/pnql46)
+- [2021年9月13日，在r/privacytoolsIO上宣布我们开始过渡到隐私指南。](https://archive.ph/rMevJ)
 - [2021年9月17日，Jonah在OpenCollective上发布的公告](https://opencollective.com/privacyguides/updates/transitioning-to-privacy-guides)
 - [2021 年9月30日，Twitter 主题详细介绍了本页上描述的大部分事件](https://twitter.com/privacy_guides/status/1443633412800225280)
 - [2021年10月1日，u/dng99发帖指出子域名失败。](https://reddit.com/comments/pymthv/comment/hexwrps)
 - [2022年4月2日u/dng99对PrivacyTools的指责性博文的回应](https://reddit.com/comments/tuo7mm/comment/i35kw5a)
 - [2022年5月16日，由@TommyTran732在Twitter上回应](https://twitter.com/TommyTran732/status/1526153497984618496)
-- [2022年9月3日在Techlore的论坛上发表的帖子：@dngray](https://discuss.techlore.tech/t/has-anyone-seen-this-video-wondering-your-thoughts/792/20)
+- [2022年9月3日在Techlore的论坛上发表的帖子：@dngray](https://web.archive.org/web/20260521005749/https://discuss.techlore.tech/t/has-anyone-seen-this-video-wondering-your-thoughts/792/20)

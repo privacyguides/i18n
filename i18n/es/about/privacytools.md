@@ -108,10 +108,10 @@ Este tema se ha debatido ampliamente en nuestras comunidades en varios lugares, 
 
 - [28 de junio de 2021: solicitud de control de r/privacytoolsIO](https://reddit.com/comments/o9tllh)
 - [27 de julio de 2021: anuncio de nuestras intenciones de mudanza en el blog de PrivacyTools, escrito por el equipo](https://web.archive.org/web/20210729184422/https://blog.privacytools.io/the-future-of-privacytools)
-- [13 de septiembre de 2021: anuncio del inicio de nuestra transición a Privacy Guides en r/privacytoolsIO](https://reddit.com/pnql46)
+- [13 de septiembre de 2021: anuncio del inicio de nuestra transición a Privacy Guides en r/privacytoolsIO](https://archive.ph/rMevJ)
 - [17 de septiembre, 2021: anuncio en OpenCollective de Jonah](https://opencollective.com/privacyguides/updates/transitioning-to-privacy-guides)
 - [30 de septiembre de 2021: Hilo de Twitter en el que se detallan la mayoría de los acontecimientos que ahora se describen en esta página](https://twitter.com/privacy_guides/status/1443633412800225280)
 - [Oct 1, 2021: post de u/dng99 observando fallo de subdominio](https://reddit.com/comments/pymthv/comment/hexwrps)
 - [2 de abril de 2022: respuesta de u/dng99 a la publicación acusatoria en el blog de PrivacyTools](https://reddit.com/comments/tuo7mm/comment/i35kw5a)
 - [16 de mayo de 2022: respuesta de @TommyTran732 en Twitter](https://twitter.com/TommyTran732/status/1526153497984618496)
-- [3 de septiembre de 2022: post en el foro de Techlore por @dngray](https://discuss.techlore.tech/t/has-anyone-seen-this-video-wondering-your-thoughts/792/20)
+- [3 de septiembre de 2022: post en el foro de Techlore por @dngray](https://web.archive.org/web/20260521005749/https://discuss.techlore.tech/t/has-anyone-seen-this-video-wondering-your-thoughts/792/20)

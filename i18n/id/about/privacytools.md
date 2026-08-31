@@ -108,10 +108,10 @@ Topik ini telah dibahas secara luas dalam komunitas kami di berbagai tempat, dan
 
 - [28 Juni 2021 permintaan untuk mengontrol r/privacytoolsIO](https://reddit.com/comments/o9tllh)
 - [27 Juli 2021 pengumuman tentang niat kami untuk memindahkan blog PrivacyTools, yang ditulis oleh tim](https://web.archive.org/web/20210729184422/https://blog.privacytools.io/the-future-of-privacytools)
-- [13 September 2021 pengumuman awal transisi kami ke Privacy Guides di r/privacytoolsIO](https://reddit.com/pnql46)
+- [13 September 2021 pengumuman awal transisi kami ke Privacy Guides di r/privacytoolsIO](https://archive.ph/rMevJ)
 - [17 September 2021 pengemuman di OpenCollective dari Jonah](https://opencollective.com/privacyguides/updates/transitioning-to-privacy-guides)
 - [30 September 2021 utas Twitter yang merinci sebagian besar peristiwa yang sekarang dijelaskan di halaman ini](https://twitter.com/privacy_guides/status/1443633412800225280)
 - [1 Oktober 2021 dikirim oleh u/dng99 yang mencatat kegagalan subdomain](https://reddit.com/comments/pymthv/comment/hexwrps)
 - [2 April 2022 tanggapan oleh u/dng99 untuk kiriman blog yang menuduh dari PrivacyTools](https://reddit.com/comments/tuo7mm/comment/i35kw5a)
 - [16 Mei 2022 tanggapan oleh @TommyTran732 di Twitter](https://twitter.com/TommyTran732/status/1526153497984618496)
-- [3 Sep 2022 kiriman di forum Techlore oleh @dngray](https://discuss.techlore.tech/t/has-anyone-seen-this-video-wondering-your-thoughts/792/20)
+- [3 Sep 2022 kiriman di forum Techlore oleh @dngray](https://web.archive.org/web/20260521005749/https://discuss.techlore.tech/t/has-anyone-seen-this-video-wondering-your-thoughts/792/20)

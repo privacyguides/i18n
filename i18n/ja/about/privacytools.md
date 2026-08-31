@@ -108,10 +108,10 @@ This topic has been discussed extensively within our communities in various loca
 
 - [2021年6月28日 r/privacytoolsIOの管理に関する要請](https://reddit.com/comments/o9tllh)
 - [2021年7月27日 PrivacyToolsのブログで、移行に関する意図を発表](https://web.archive.org/web/20210729184422/https://blog.privacytools.io/the-future-of-privacytools)
-- [2021年9月13日 r/privacytoolsIOでPrivacy Guidesへの移行の開始についての発表](https://reddit.com/pnql46)
+- [2021年9月13日 r/privacytoolsIOでPrivacy Guidesへの移行の開始についての発表](https://archive.ph/rMevJ)
 - [2021年9月17日 JonahからOpenCollectiveでの発表](https://opencollective.com/privacyguides/updates/transitioning-to-privacy-guides)
 - [2021年9月30日 現在このページで説明されているほとんどの出来事の詳細を記述したTwitterのスレッド](https://twitter.com/privacy_guides/status/1443633412800225280)
 - [2021年10月1日 u/dng99によるサブドメインの障害を指摘する投稿](https://reddit.com/comments/pymthv/comment/hexwrps)
 - [2022年4月2日 PrivacyToolsの非難的なブログ記事に対するu/dng99の回答](https://reddit.com/comments/tuo7mm/comment/i35kw5a)
 - [2022年5月16日 @TommyTran732によるTwitterでの反応](https://twitter.com/TommyTran732/status/1526153497984618496)
-- [2022年9月3日 Techloreのフォーラムへの@dngrayによる投稿](https://discuss.techlore.tech/t/has-anyone-seen-this-video-wondering-your-thoughts/792/20)
+- [2022年9月3日 Techloreのフォーラムへの@dngrayによる投稿](https://web.archive.org/web/20260521005749/https://discuss.techlore.tech/t/has-anyone-seen-this-video-wondering-your-thoughts/792/20)

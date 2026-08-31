@@ -108,10 +108,10 @@ Ezt a témát már több helyen is részletesen megvitattuk közösségeinkben, 
 
 - [2021. június 28. – Kérés az r/privacytoolsIO irányítására](https://reddit.com/comments/o9tllh)
 - [2021. július 27. – Bejelentés a költözési szándékunkról a PrivacyTools blogon, a csapat írása alapján](https://web.archive.org/web/20210729184422/https://blog.privacytools.io/the-future-of-privacytools)
-- [2021. szeptember 13. – Bejelentés a Privacy Guides-ra való áttérésünk kezdetéről az r/privacytoolsIO oldalon](https://reddit.com/pnql46)
+- [2021. szeptember 13. – Bejelentés a Privacy Guides-ra való áttérésünk kezdetéről az r/privacytoolsIO oldalon](https://archive.ph/rMevJ)
 - [2021. szeptember 17. – Bejelentés az OpenCollective-en Jonah-tól](https://opencollective.com/privacyguides/updates/transitioning-to-privacy-guides)
 - [2021. szept. 30. – Twitter thread, amely az ezen az oldalon most leírt események nagy részét részletezi](https://twitter.com/privacy_guides/status/1443633412800225280)
 - [2021. október 1. –u/dng99 egy bejegyzésben jelzi a subdomainek leállását](https://reddit.com/comments/pymthv/comment/hexwrps)
 - [2022. április 2. – u/dng99 válasza a PrivacyTools vádaskodó blogbejegyzésére](https://reddit.com/comments/tuo7mm/comment/i35kw5a)
 - [2022. május 16. – @TommyTran732 válasza a Twitteren](https://twitter.com/TommyTran732/status/1526153497984618496)
-- [2022. szeptember 3. – @dngray bejegyzése a Techlore's fórumon](https://discuss.techlore.tech/t/has-anyone-seen-this-video-wondering-your-thoughts/792/20)
+- [2022. szeptember 3. – @dngray bejegyzése a Techlore's fórumon](https://web.archive.org/web/20260521005749/https://discuss.techlore.tech/t/has-anyone-seen-this-video-wondering-your-thoughts/792/20)

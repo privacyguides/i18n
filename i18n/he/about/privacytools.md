@@ -108,10 +108,10 @@ In the months since, BurungHantu has threatened and begged for returning Subredd
 
 - [28 ביוני 2021 בקשה לשליטה ב - r/privacytoolsIO](https://reddit.com/comments/o9tllh)
 - [27 ביולי 2021 הודעה על כוונותינו לעבור לבלוג PrivacyTools, נכתב על ידי הצוות](https://web.archive.org/web/20210729184422/https://blog.privacytools.io/the-future-of-privacytools)
-- [13 בספטמבר 2021 הודעה על תחילת המעבר שלנו למדריכי פרטיות ב - r/privacytoolsIO](https://reddit.com/pnql46)
+- [13 בספטמבר 2021 הודעה על תחילת המעבר שלנו למדריכי פרטיות ב - r/privacytoolsIO](https://archive.ph/rMevJ)
 - [17 בספטמבר 2021 הכרזה על OpenCollective מאת Jona](https://opencollective.com/privacyguides/updates/transitioning-to-privacy-guides)
 - [30 בספטמבר 2021 שרשור טוויטר המפרט את רוב האירועים המתוארים כעת בדף זה](https://twitter.com/privacy_guides/status/1443633412800225280)
 - [1 באוקטובר 2021 פוסט מאת u/dng99 שציין כשל בתת - דומיין](https://reddit.com/comments/pymthv/comment/hexwrps)
 - [2 באפריל 2022 תגובה מאת u/dng99 לפוסט ההאשמות של PrivacyTools](https://reddit.com/comments/tuo7mm/comment/i35kw5a)
 - [16 במאי 2022 מענה @TommyTran732 בטוויטר](https://twitter.com/TommyTran732/status/1526153497984618496)
-- [ספטמבר 3, 2022 פוסט על הפורום של Techlore על ידי @dngray](https://discuss.techlore.tech/t/has-anyone-seen-this-video-wondering-your-thoughts/792/20)
+- [ספטמבר 3, 2022 פוסט על הפורום של Techlore על ידי @dngray](https://web.archive.org/web/20260521005749/https://discuss.techlore.tech/t/has-anyone-seen-this-video-wondering-your-thoughts/792/20)

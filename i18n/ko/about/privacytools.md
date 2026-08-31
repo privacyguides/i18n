@@ -108,10 +108,10 @@ In the months since, BurungHantu has threatened and begged for returning Subredd
 
 - [2021년 6월 28일: r/privacytoolsIO 권한 요청](https://reddit.com/comments/o9tllh)
 - [2021년 7월 27일: 팀이 PrivacyTools 블로그에 작성한 이전 계획 발표](https://web.archive.org/web/20210729184422/https://blog.privacytools.io/the-future-of-privacytools)
-- [2021년 9월 13일: r/privacytoolsIO Privacy Guides로의 이전 개시 발표](https://reddit.com/pnql46)
+- [2021년 9월 13일: r/privacytoolsIO Privacy Guides로의 이전 개시 발표](https://archive.ph/rMevJ)
 - [2021년 9월 17일: Open Collective 관련 공지 (Jonah 작성)](https://opencollective.com/privacyguides/updates/transitioning-to-privacy-guides)
 - [2021년 9월 30일: 현재 보고 계신 이 페이지에 설명된 대부분의 사건을 자세히 설명하는 Twitter 스레드](https://twitter.com/privacy_guides/status/1443633412800225280)
 - [2021년 10월 1일: 서브도메인 중단 알림 게시글 (u/dng99 작성)](https://reddit.com/comments/pymthv/comment/hexwrps)
 - [2022년 4월 2일: PrivacyTool의 비난 블로그 포스트에 대한 u/dnd99의 응답](https://reddit.com/comments/tuo7mm/comment/i35kw5a)
 - [2022년 5월 16일: Twitter에 작성된 응답 (@TommyTran732 작성)](https://twitter.com/TommyTran732/status/1526153497984618496)
-- [2022년 9월 3일: Techlore 포럼에 작성된 포스트 (@dngray 작성)](https://discuss.techlore.tech/t/has-anyone-seen-this-video-wondering-your-thoughts/792/20)
+- [2022년 9월 3일: Techlore 포럼에 작성된 포스트 (@dngray 작성)](https://web.archive.org/web/20260521005749/https://discuss.techlore.tech/t/has-anyone-seen-this-video-wondering-your-thoughts/792/20)

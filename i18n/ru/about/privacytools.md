@@ -108,10 +108,10 @@ In the months since, BurungHantu has threatened and begged for returning Subredd
 
 - [28 июня 2021 года запрос на контроль над r/privacytoolsIO](https://reddit.com/comments/o9tllh)
 - [27 июля 2021 года объявление о наших намерениях переехать в блоге PrivacyTools, написанное командой](https://web.archive.org/web/20210729184422/https://blog.privacytools.io/the-future-of-privacytools)
-- [13 сентября 2021 года объявление о начале нашего перехода на Privacy Guides на r/privacytoolsIO](https://reddit.com/pnql46)
+- [13 сентября 2021 года объявление о начале нашего перехода на Privacy Guides на r/privacytoolsIO](https://archive.ph/rMevJ)
 - [17 сентября 2021 года объявление на OpenCollective от Jonah](https://opencollective.com/privacyguides/updates/transitioning-to-privacy-guides)
 - [30 сентября 2021 года в Твиттере подробно описано большинство событий, описанных на этой странице](https://twitter.com/privacy_guides/status/1443633412800225280)
 - [1 октября 2021 года сообщение от u/dng99 о сбое поддомена](https://reddit.com/comments/pymthv/comment/hexwrps)
 - [2 апреля 2022 года ответ u/dng99 на обвинения в блоге PrivacyTools](https://reddit.com/comments/tuo7mm/comment/i35kw5a)
 - [16 мая 2022 года ответ от @TommyTran732 в Twitter](https://twitter.com/TommyTran732/status/1526153497984618496)
-- [3 сентября 2022 года пост на форуме Techlore от @dngray](https://discuss.techlore.tech/t/has-anyone-seen-this-video-wondering-your-thoughts/792/20)
+- [3 сентября 2022 года пост на форуме Techlore от @dngray](https://web.archive.org/web/20260521005749/https://discuss.techlore.tech/t/has-anyone-seen-this-video-wondering-your-thoughts/792/20)
