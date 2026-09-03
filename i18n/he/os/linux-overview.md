@@ -68,16 +68,13 @@ The atomic update method can achieve reliability with this model and is used for
 
 For a secure system, you are also expected to have sufficient Linux knowledge to properly set up security for their system such as adopting a [mandatory access control](#mandatory-access-control) system, setting up [kernel module](https://en.wikipedia.org/wiki/Loadable_kernel_module#Security) blacklists, hardening boot parameters, manipulating [sysctl](https://en.wikipedia.org/wiki/Sysctl) parameters, and knowing what components they need such as [Polkit](https://en.wikipedia.org/wiki/Polkit).
 
-כל מי שמשתמש ב[Arch User Repository (AUR)](https://wiki.archlinux.org/title/Arch_User_Repository) **חייב** להרגיש בנוח ביקורת PKGBUILD שהם מורידים מהשירות הזה. AUR packages are community-produced content and are not vetted in any way, and therefore are vulnerable to software [:material-package-variant-closed-remove: Supply Chain Attacks](../basics/common-threats.md#attacks-against-certain-organizations ""){.pg-viridian}, which has in fact happened [in the past](https://bleepingcomputer.com/news/security/malware-found-in-arch-linux-aur-package-repository).
+Arch-based derivatives designed to make Arch "easier to use" are not recommended, as they frequently encourage poor security practices while weakening the base system. These practices include bundling outdated packages in downstream repositories that are updated less frequently than Arch's official channels. Furthermore, these distributions usually fail to properly educate users on the risks associated with the Arch User Repository (AUR).
+
+Anyone using the [Arch User Repository (AUR)](https://wiki.archlinux.org/title/Arch_User_Repository) **must** be comfortable auditing PKGBUILDs (the recipes that build packages) that they download from that service. AUR packages are community-produced content and are not vetted in any way, and therefore are vulnerable to software [:material-package-variant-closed-remove: Supply Chain Attacks](../basics/common-threats.md#attacks-against-certain-organizations ""){.pg-viridian}, which has in fact happened [in the past](https://bleepingcomputer.com/news/security/malware-found-in-arch-linux-aur-package-repository) and more recently when [1500 packages](https://discuss.privacyguides.net/t/around-1-500-aur-packages-compromised-with-rootkit-like-malware/38517) were compromised.
 
 תמיד יש להשתמש ב-AUR במשורה, ולעתים קרובות יש הרבה עצות רעות בדפים שונים שמפנים אנשים להשתמש באופן עיוור ב[עוזרים של AUR](https://wiki.archlinux.org/title/AUR_helpers) ללא אזהרה מספקת. Similar warnings apply to the use of third-party Personal Package Archives (PPAs) on Debian-based distributions or Community Projects (COPR) on Fedora.
 
-אם אתה מנוסה עם לינוקס וברצונך להשתמש בהפצה מבוססת Arch, אנו ממליצים בדרך כלל על Arch Linux על פני כל אחת מהנגזרות שלו.
-
-בנוסף, אנו ממליצים על **נגד** שתי נגזרות Arch אלו במיוחד:
-
-- **Manjaro**: הפצה זו מעכבת חבילות למשך שבועיים כדי לוודא שהשינויים שלהן לא יישברו, לא כדי לוודא שהמעלה הזרם יציב. כאשר נעשה שימוש בחבילות AUR, הן בנויות לרוב על פי [ספריות](https://en.wikipedia.org/wiki/Library_(computing)) העדכניות ביותר מהמאגרים של Arch.
-- **Garuda**: They use [Chaotic-AUR](https://aur.chaotic.cx) which automatically and blindly compiles packages from the AUR. אין תהליך אימות כדי לוודא שחבילות AUR אינן סובלות מהתקפות שרשרת האספקה.
+If you are experienced with Linux and wish to use an Arch-based distribution, mainline Arch Linux is the **only** recommended option.
 
 ### הפצות ליבה של לינוקס ו-"Libre"
 

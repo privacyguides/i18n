@@ -68,16 +68,13 @@ Linux 有一些值得注意的安全問題，您應該注意。 儘管有這些�
 
 對於安全的系統，您也應該有足夠的 Linux 知識來正確設定其系統，例如添加 [強制訪問控制](#mandatory-access-control) 系統、設定 [核心模組](https://en.wikipedia.org/wiki/Loadable_kernel_module#Security) 黑名單、加固開機參數、修改 [sysctl](https://en.wikipedia.org/wiki/Sysctl)參數，以及知道他們需要哪些元件，例如：[Polkit](https://en.wikipedia.org/wiki/Polkit)。
 
-使用 [Arch User Repository (AUR)](https://wiki.archlinux.org/title/Arch_User_Repository)者 **必須** 對該服務下載的 PKGBUILD進行審計。 AUR 套件是社群製作的內容，未經任何審核，因此容易受到軟體 [:material-package-variant-closed-remove: 供應鏈攻擊](../basics/common-threats.md#attacks-against-certain-organizations ""){.pg-viridian} ，事實上 [過去](https://bleepingcomputer.com/news/security/malware-found-in-arch-linux-aur-package-repository) 確實曾發生過。
+Arch-based derivatives designed to make Arch "easier to use" are not recommended, as they frequently encourage poor security practices while weakening the base system. These practices include bundling outdated packages in downstream repositories that are updated less frequently than Arch's official channels. Furthermore, these distributions usually fail to properly educate users on the risks associated with the Arch User Repository (AUR).
+
+Anyone using the [Arch User Repository (AUR)](https://wiki.archlinux.org/title/Arch_User_Repository) **must** be comfortable auditing PKGBUILDs (the recipes that build packages) that they download from that service. AUR packages are community-produced content and are not vetted in any way, and therefore are vulnerable to software [:material-package-variant-closed-remove: Supply Chain Attacks](../basics/common-threats.md#attacks-against-certain-organizations ""){.pg-viridian}, which has in fact happened [in the past](https://bleepingcomputer.com/news/security/malware-found-in-arch-linux-aur-package-repository) and more recently when [1500 packages](https://discuss.privacyguides.net/t/around-1-500-aur-packages-compromised-with-rootkit-like-malware/38517) were compromised.
 
 應該少用 AUR，而往往各種網頁有很多不好的建議，指導人們盲目地使用 [AUR 助手](https://wiki.archlinux.org/title/AUR_helpers) 卻沒有足夠警告。 類似的警告也適用於使用基於 Debian 的發行版上的第三方個人套件檔案（PPA）或 Fedora 系統上的社群專案（COPR）。
 
-如果是 Linux 老手，希望使用基於 Arch 發行版，我們只推薦主線 Arch Linux，而不是任何衍生品。
-
-此外，我們特別**反推薦**這兩個 Arch 衍生品：
-
-- **Manjaro**: 此發行版將軟體套件保留 2週，以確保不會破壞他們自己的修改，而不是確保上游的穩定。 使用AUR軟體套件時，通常是根據 Arch 軟體庫中最新的 [存放庫構建](https://en.wikipedia.org/wiki/Library_(computing))。
-- **Garuda**: 他們使用 [Chaotic-AUR](https://aur.chaotic.cx) ，會自動從 AUR 編譯軟體套件。 沒有驗證程序去確保 AUR 套件不會受到供應鏈攻擊。
+If you are experienced with Linux and wish to use an Arch-based distribution, mainline Arch Linux is the **only** recommended option.
 
 ### Linux-libre 內核與 “Libre” 發行版
 

@@ -68,26 +68,17 @@ Arch et les distributions basées sur Arch ne sont pas recommandées pour ceux q
 
 Pour un système sécurisé, vous êtes également censé avoir suffisamment de connaissances sur Linux pour configurer correctement la sécurité de leur système, comme adopter un [système de contrôle d'accès obligatoire](#mandatory-access-control), configurer un [ module de noyau](https://en.wikipedia.org/wiki/Loadable_kernel_module#Security), une liste noire, renforcer les paramètres de démarrage, manipuler les paramètres [sysctl](https://en.wikipedia.org/wiki/Sysctl) et savoir quels composants sont nécessaires comme [Polkit](https://en.wikipedia.org/wiki/Polkit).
 
-Toute personne utilisant le [Arch User Repository (AUR)](https://wiki.archlinux.org/title/Arch_User_Repository) **doit** être à l'aise avec l'audit des PKGBUILDs qu'elle télécharge depuis ce service. Les paquets AUR sont des contenus produits par la communauté et ne font l'objet d'aucune vérification. Ils sont donc vulnérables aux
+Arch-based derivatives designed to make Arch "easier to use" are not recommended, as they frequently encourage poor security practices while weakening the base system. These practices include bundling outdated packages in downstream repositories that are updated less frequently than Arch's official channels. Furthermore, these distributions usually fail to properly educate users on the risks associated with the Arch User Repository (AUR).
 
-:material-package-variant-closed-remove: attaques de la chaîne d'approvisionnement des logiciels, ce qui s'est d'ailleurs produit [dans le passé](https://bleepingcomputer.com/news/security/malware-found-in-arch-linux-aur-package-repository).</p> 
+Anyone using the [Arch User Repository (AUR)](https://wiki.archlinux.org/title/Arch_User_Repository) **must** be comfortable auditing PKGBUILDs (the recipes that build packages) that they download from that service. AUR packages are community-produced content and are not vetted in any way, and therefore are vulnerable to software [:material-package-variant-closed-remove: Supply Chain Attacks](../basics/common-threats.md#attacks-against-certain-organizations ""){.pg-viridian}, which has in fact happened [in the past](https://bleepingcomputer.com/news/security/malware-found-in-arch-linux-aur-package-repository) and more recently when [1500 packages](https://discuss.privacyguides.net/t/around-1-500-aur-packages-compromised-with-rootkit-like-malware/38517) were compromised.
 
 Le AUR doit toujours être utilisé avec parcimonie, et l'on trouve souvent de nombreux mauvais conseils sur diverses pages qui incitent les gens à utiliser aveuglément [AUR helpers](https://wiki.archlinux.org/title/AUR_helpers) sans avertissement suffisant. Des avertissements similaires s'appliquent à l'utilisation des Archives de Paquets Personnels (PPAs) conçu par de tiers sur les distributions basées sur Debian ou des Projets Communautaires (COPR) sur Fedora.
 
-Si vous avez de l'expérience avec Linux et que vous souhaitez utiliser une distribution basée sur Arch, nous recommandons généralement la version principale d'Arch Linux plutôt que l'un de ses dérivés.
-
-En outre, nous ne recommandons particulièrement **pas** ces deux dérivés d'Arch :
-
-- **Manjaro**: cette distribution bloque les mises à jour des paquets pendant 2 semaines pour s'assurer que leurs propres changements ne cassent pas, et non pas pour s'assurer que l'amont est stable. Lorsque des paquets AUR sont utilisés, ils sont souvent construits avec les dernières [bibliothèques](https://en.wikipedia.org/wiki/Library_(computing)) des dépôts d'Arch.
-- **Garuda**: ils utilisent [Chaotic-AUR](https://aur.chaotic.cx) qui compile automatiquement et aveuglément les paquets de l'AUR. Il n'existe aucun processus de vérification pour s'assurer que les paquets AUR ne souffrent pas d'attaques de la chaîne d'approvisionnement.
-
-
+If you are experienced with Linux and wish to use an Arch-based distribution, mainline Arch Linux is the **only** recommended option.
 
 ### Le noyau Linux-libre et les distributions "libres"
 
 Nous vous **déconseillons d'**utiliser le noyau Linux-libre, car il [supprime les mesures d'atténuation de la sécurité](https://phoronix.com/news/GNU-Linux-Libre-5.7-Released) et les [avertissements du noyau](https://news.ycombinator.com/item?id=29674846) concernant le microcode vulnérable.
-
-
 
 ### Contrôle d'Accès Obligatoire
 
@@ -95,11 +86,7 @@ Le contrôle d'accès obligatoire est un ensemble de contrôles de sécurité su
 
 SELinux sur [Fedora](https://docs.fedoraproject.org/en-US/quick-docs/selinux-getting-started) confine par défaut les conteneurs Linux, les machines virtuelles et les daemons de service. AppArmor est utilisé par le daemon snap pour le [sandboxing](https://snapcraft.io/docs/security-sandboxing) des snaps qui ont un confinement [strict](https://snapcraft.io/docs/snap-confinement) comme [Firefox](https://snapcraft.io/firefox). La communauté s'efforce de confiner davantage de parties du système dans Fedora avec le groupe d'intérêt spécial [ConfinedUsers](https://fedoraproject.org/wiki/SIGs/ConfinedUsers).
 
-
-
 ## Recommandations générales
-
-
 
 ### Chiffrement de disque
 
@@ -107,23 +94,17 @@ La plupart des distributions Linux ont une option dans leur installateur pour ac
 
 - [Effacement sécurisé des données :material-arrow-right-drop-circle:](https://www.privacyguides.org/articles/2022/05/25/secure-data-erasure/)
 
-
-
 ### Swap
 
 Envisagez d'utiliser [ZRAM](https://wiki.archlinux.org/title/Zram#Using_zram-generator) au lieu d'un fichier swap traditionnel ou d'une partition afin d'éviter d'écrire des données de mémoire potentiellement sensibles sur un stockage permanent (et d'améliorer les performances). Les distributions basées sur Fedora [utilisent ZRAM par défaut](https://fedoraproject.org/wiki/Changes/SwapOnZRAM).
 
 Si vous avez besoin d'une fonctionnalité de suspension sur disque (hibernation), vous devrez toujours utiliser un fichier ou une partition swap. Veillez à ce que l'espace swap que vous avez sur un périphérique de stockage persistant soit au minimum [chiffré](https://wiki.archlinux.org/title/Dm-crypt/Swap_encryption) afin d'atténuer certaines de ces menaces.
 
-
-
 ### Micrologiciel propriétaire (mises à jour du microcode)
 
 Certaines distributions Linux (telles que les distributions basées sur [Linux-libre](https://en.wikipedia.org/wiki/Linux-libre)ou les distributions DIY) ne sont pas livrées avec les mises à jour propriétaires du [microcode](https://en.wikipedia.org/wiki/Microcode) qui corrigent les failles de sécurité critiques. Parmi les exemples notables de ces vulnérabilités figurent [Spectre](https://en.wikipedia.org/wiki/Spectre_(security_vulnerability)), [Meltdown](https://en.wikipedia.org/wiki/Meltdown_(security_vulnerability)), [SSB](https://en.wikipedia.org/wiki/Speculative_Store_Bypass), [Foreshadow](https://en.wikipedia.org/wiki/Foreshadow), [MDS](https://en.wikipedia.org/wiki/Microarchitectural_Data_Sampling), [SWAPGS](https://en.wikipedia.org/wiki/SWAPGS_(security_vulnerability)) et d'autres [vulnérabilités matérielles](https://kernel.org/doc/html/latest/admin-guide/hw-vuln/index.html).
 
 Nous **recommandons vivement** d'installer les mises à jour du microcode, car elles contiennent d'importants correctifs de sécurité pour l'unité centrale qui ne peuvent pas être entièrement atténués par le logiciel seul. Fedora et openSUSE appliquent tous deux des mises à jour du microcode par défaut.
-
-
 
 ### Mises à jour
 
@@ -133,17 +114,11 @@ Certaines distributions (en particulier celles destinées aux utilisateurs avanc
 
 En outre, certaines distributions ne téléchargent pas automatiquement les mises à jour du micrologiciel. Pour cela, vous devez installer [`fwupd`](https://wiki.archlinux.org/title/Fwupd).
 
-
-
 ### Contrôles des autorisations
 
 Les environnements de bureau compatibles avec le protocole d'affichage [Wayland](https://wayland.freedesktop.org) sont [plus sécurisés](https://lwn.net/Articles/589147) que ceux qui ne sont compatibles qu'avec X11. De plus, nous vous recommandons *généralement* d'installer et d'utiliser des applications sandboxées, comme celles obtenues via **Flatpak**. Flatpak est compatible avec le protocole [`security-context-v1`](https://github.com/flatpak/flatpak/pull/4920) et permet de filtrer les protocoles D-Bus, ce qui permet à Flatpak d'identifier correctement les applications dans le but de les sandboxées en contrôlant leurs permissions.[^1] Inversement, les applications en dehors des sandbox sont libres d'effectuer des actions privilégiées comme la capture d'écran, soit en [modifiant les autorisations des applications](https://invent.kde.org/plasma/xdg-desktop-portal-kde/-/issues/7#note_1112260), soit en [utilisant les protocoles privilégiés de Wayland](https://github.com/swaywm/sway/pull/7648#issuecomment-2507730794).
 
-
-
 ## Ajustements de confidentialité
-
-
 
 ### Adresse MAC aléatoire
 
@@ -152,8 +127,6 @@ De nombreuses distributions Linux de bureau (Fedora, openSUSE, etc.) sont livré
 Il est possible de rendre aléatoire l'[adresse MAC](https://en.wikipedia.org/wiki/MAC_address) lors de l'utilisation de NetworkManager. Cela permet de protéger un peu plus la vie privée sur les réseaux Wi-Fi, car il est plus difficile de suivre des appareils spécifiques sur le réseau auquel vous êtes connecté. Cela ne vous rend [**pas**](https://papers.mathyvanhoef.com/wisec2016.pdf) anonyme.
 
 Dans le terminal, créez un nouveau fichier `/etc/NetworkManager/conf.d/00-macrandomize.` conf et ajoutez-y ce qui suit :
-
-
 
 ```text
 [device]
@@ -164,15 +137,11 @@ wifi.cloned-mac-address=random
 ethernet.cloned-mac-address=random
 ```
 
-
 Redémarrez ensuite NetworkManager:
-
-
 
 ```sh
 systemctl restart NetworkManager
 ```
-
 
 Optionnellement, changer le paramètre de connexion de `aléatoirement` à `stable` vous donnera une adresse MAC aléatoire *par réseau*, mais la stabilité pour ce réseau lorsque vous vous reconnectez plus tard. L'utilisation de `random` vous donnera une adresse MAC aléatoire *par connexion*. Cela peut être souhaitable pour les réseaux avec des portails captifs ou lorsque vous avez une affectation DHCP statique, au détriment de l'identification par un seul opérateur de réseau auquel vous vous connectez plusieurs fois.
 
@@ -180,16 +149,12 @@ Si vous utilisez [systemd-networkd](https://en.wikipedia.org/wiki/Systemd#Ancill
 
 La randomisation des adresses MAC est principalement bénéfique pour les connexions Wi-Fi. Pour les connexions Ethernet, la randomisation de l'adresse MAC ne présente que peu d'avantages (voire aucun), car un administrateur de réseau peut trivialement identifier votre appareil par d'autres moyens (par exemple en inspectant le port auquel vous êtes connecté sur le commutateur du réseau). Rendre aléatoire les adresses MAC Wi-Fi dépend de la prise en charge par le micrologiciel du Wi-Fi.
 
-
-
 ### Autres identifiants
 
 Il existe d'autres identifiants de système auxquels vous devez faire attention. Vous devriez y réfléchir pour voir si cela s'applique à votre [modèle de menace](../basics/threat-modeling.md) :
 
 - **Noms d'hôte :** Le nom d'hôte de votre système est partagé avec les réseaux auxquels vous vous connectez. Vous devriez éviter d'inclure des termes d'identification comme votre nom ou votre système d'exploitation dans votre nom d'hôte, et vous en tenir plutôt à des termes génériques ou à des chaînes aléatoires.
 - **Noms d'utilisateur :** De même, votre nom d'utilisateur est utilisé de diverses manières dans votre système. Envisagez d'utiliser des termes génériques comme "utilisateur" plutôt que votre nom réel.
-
-
 
 ### Comptage des systèmes
 
@@ -199,7 +164,4 @@ Cette [option](https://dnf.readthedocs.io/en/latest/conf_ref.html#options-for-bo
 
 openSUSE utilise également un [identifiant unique](https://en.opensuse.org/openSUSE:Statistics) pour compter les systèmes, qui peut être désactivé en vidant le fichier `/var/lib/zypp/AnonymousUniqueId`.
 
-
-
-[^1]:    
-    Les compositeurs Wayland disposent ainsi d'un moyen fiable d'obtenir des informations d'identification sur un client. Ils peuvent alors appliquer des politiques de sécurité s'ils le souhaitent. [https://github.com/flatpak/flatpak/commit/f0e626a4b60439f211f06d35df74b675a9ef42f4](https://github.com/flatpak/flatpak/commit/f0e626a4b60439f211f06d35df74b675a9ef42f4)
+[^1]: Les compositeurs Wayland disposent ainsi d'un moyen fiable d'obtenir des informations d'identification sur un client. Ils peuvent alors appliquer des politiques de sécurité s'ils le souhaitent. [https://github.com/flatpak/flatpak/commit/f0e626a4b60439f211f06d35df74b675a9ef42f4](https://github.com/flatpak/flatpak/commit/f0e626a4b60439f211f06d35df74b675a9ef42f4)

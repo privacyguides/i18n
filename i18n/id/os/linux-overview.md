@@ -68,16 +68,13 @@ Arch dan distribusi berbasis Arch tidak direkomendasikan bagi mereka yang baru m
 
 For a secure system, you are also expected to have sufficient Linux knowledge to properly set up security for their system such as adopting a [mandatory access control](#mandatory-access-control) system, setting up [kernel module](https://en.wikipedia.org/wiki/Loadable_kernel_module#Security) blacklists, hardening boot parameters, manipulating [sysctl](https://en.wikipedia.org/wiki/Sysctl) parameters, and knowing what components they need such as [Polkit](https://en.wikipedia.org/wiki/Polkit).
 
-Siapa pun yang menggunakan [Arch User Repository (AUR)](https://wiki.archlinux.org/title/Arch_User_Repository) **tidak boleh** segan untuk mengaudit PKGBUILD yang mereka unduh dari layanan tersebut. AUR packages are community-produced content and are not vetted in any way, and therefore are vulnerable to software [:material-package-variant-closed-remove: Supply Chain Attacks](../basics/common-threats.md#attacks-against-certain-organizations ""){.pg-viridian}, which has in fact happened [in the past](https://bleepingcomputer.com/news/security/malware-found-in-arch-linux-aur-package-repository).
+Arch-based derivatives designed to make Arch "easier to use" are not recommended, as they frequently encourage poor security practices while weakening the base system. These practices include bundling outdated packages in downstream repositories that are updated less frequently than Arch's official channels. Furthermore, these distributions usually fail to properly educate users on the risks associated with the Arch User Repository (AUR).
+
+Anyone using the [Arch User Repository (AUR)](https://wiki.archlinux.org/title/Arch_User_Repository) **must** be comfortable auditing PKGBUILDs (the recipes that build packages) that they download from that service. AUR packages are community-produced content and are not vetted in any way, and therefore are vulnerable to software [:material-package-variant-closed-remove: Supply Chain Attacks](../basics/common-threats.md#attacks-against-certain-organizations ""){.pg-viridian}, which has in fact happened [in the past](https://bleepingcomputer.com/news/security/malware-found-in-arch-linux-aur-package-repository) and more recently when [1500 packages](https://discuss.privacyguides.net/t/around-1-500-aur-packages-compromised-with-rootkit-like-malware/38517) were compromised.
 
 AUR harus selalu digunakan dengan hemat, dan sering kali ada banyak saran buruk di berbagai halaman yang mengarahkan orang untuk secara membabi buta menggunakan [pembantu AUR](https://wiki.archlinux.org/title/AUR_helpers) tanpa peringatan yang memadai. Similar warnings apply to the use of third-party Personal Package Archives (PPAs) on Debian-based distributions or Community Projects (COPR) on Fedora.
 
-Jika Anda berpengalaman dengan Linux dan ingin menggunakan distribusi berbasis Arch, kami umumnya merekomendasikan Arch Linux *mainline* daripada turunannya.
-
-Selain itu, kami merekomendasikan untuk **tidak** menggunakan kedua turunan Arch ini secara khusus:
-
-- **Manjaro**: Distribusi ini menahan paket selama 2 minggu untuk memastikan bahwa perubahan yang mereka buat tidak rusak, bukan untuk memastikan bahwa hulu stabil. Ketika paket AUR digunakan, paket ini sering kali dibuat berdasarkan [pustaka](https://en.wikipedia.org/wiki/Library_(computing)) terbaru dari repositori Arch.
-- **Garuda**: Mereka menggunakan [Chaotic-AUR](https://aur.chaotic.cx) yang secara otomatis dan membabi buta mengkompilasi paket-paket dari AUR. Tidak ada proses verifikasi untuk memastikan bahwa paket AUR tidak mengalami serangan rantai pasok.
+If you are experienced with Linux and wish to use an Arch-based distribution, mainline Arch Linux is the **only** recommended option.
 
 ### Kernel Linux-libre dan distribusi "Libre"
 
