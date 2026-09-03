@@ -272,7 +272,7 @@ Daha fazla **güvenlik** arıyorsanız, her zaman HTTPS kullanan web sitelerine 
 
 #### DNS Sağlayıcıları
 
-Diğerlerinin yanı sıra [Mullvad](https://mullvad.net/en/help/dns-over-https-and-dns-over-tls) ve [Quad9](https://quad9.net) gibi çeşitli kriterlere dayalı bir dizi şifreli DNS sunucusu [öneriyoruz](dns.md#recommended-providers). Bir sağlayıcı seçmeden önce DNS ile ilgili sayfalarımızı okumanızı tavsiye ederiz. Çoğu durumda, alternatif bir DNS sağlayıcısı kullanılması önerilmez.
+We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers based on a variety of criteria, such as [Quad9](https://quad9.net) amongst others. Bir sağlayıcı seçmeden önce DNS ile ilgili sayfalarımızı okumanızı tavsiye ederiz. Çoğu durumda, alternatif bir DNS sağlayıcısı kullanılması önerilmez.
 
 [Dns hakkında daha fazla bilgi edinin :material-arrow-right-drop-circle:](dns.md)
 

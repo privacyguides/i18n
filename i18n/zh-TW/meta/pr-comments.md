@@ -7,7 +7,7 @@ description: 參與 Pull Request 討論的指南。
 
 ![請勿使用 GitHub 一般的 "Add a comment" 區塊](../assets/img/meta/pr-avoid-general-comments.png)
 
-以這個方式留下的註解不會拆分成_討論串_，在有多個對話進行時很難追蹤。
+以這個方式留下的註解不會拆分&#x6210;_&#x8A0E;論串_，在有多個對話進行時很難追蹤。
 
 以下列方式留下的註解則會有內建的回覆區塊，讓對話固定在同一個討論串中。 討論結束後，也可以標示為已解決，讓討論更容易追蹤。
 
@@ -19,13 +19,13 @@ description: 參與 Pull Request 討論的指南。
 
 ![Pull request 的標籤擷圖。 "Files changed" 標籤有深橘色外框。](https://docs.github.com/assets/cb-23571/mw-1440/images/help/pull_requests/pull-request-tabs-changed-files.webp)
 
-若要對 PR 留下_一般性_的註解，請點擊檔案右方的 :octicons-comment-16: 評論圖示：
+若要對 PR 留&#x4E0B;_&#x4E00;般&#x6027;_&#x7684;註解，請點擊檔案右方的 :octicons-comment-16: 評論圖示：
 
 ![Pull request 的 "Files changed" 頁面當中圖檔的擷圖。 檔案右側，註解圖示有橘色外框。](https://docs.github.com/assets/cb-73771/mw-1440/images/help/pull_requests/pull-request-comment-on-file.webp)
 
 如果 PR 一次變更了多個檔案，則只註解主要或最相關的變更檔案；如果無法決定，則註解在第一個檔案。
 
-若只要對 PR 的_特定行_留下註解，請將滑鼠停留在您要新增註解的那一行，然後點擊藍色的註解圖示：
+若只要對 PR &#x7684;_&#x7279;定&#x884C;_&#x7559;下註解，請將滑鼠停留在您要新增註解的那一行，然後點擊藍色的註解圖示：
 
 ![Pull request 當中的修改差異擷圖。 在行號旁邊，有一個橘色外框強調的藍色加號圖示。](https://docs.github.com/assets/cb-44227/mw-1440/images/help/commits/hover-comment-icon.webp)
 

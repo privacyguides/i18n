@@ -276,7 +276,7 @@ Se stai cercando maggiore **sicurezza**, dovresti sempre assicurarti di connette
 
 #### Fornitori DNS
 
-[Consigliamo](dns.md#recommended-providers) una serie di server DNS crittografati, in base a svariati criteri, come [Mullvad](https://mullvad.net/en/help/dns-over-https-and-dns-over-tls) e [Quad9](https://quad9.net), tra gli altri. Ti consigliamo di leggere le nostre pagine sui DNS prima di scegliere un fornitore. In molti casi, l'utilizzo di un fornitore DNS alternativo non è consigliato.
+We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers based on a variety of criteria, such as [Quad9](https://quad9.net) amongst others. Ti consigliamo di leggere le nostre pagine sui DNS prima di scegliere un fornitore. In molti casi, l'utilizzo di un fornitore DNS alternativo non è consigliato.
 
 [Scopri di più :material-arrow-right-drop-circle:](dns.md)
 

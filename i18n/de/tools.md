@@ -276,7 +276,7 @@ Wenn du zusätzliche **Sicherheit** suchst, solltest du immer sicherstellen, das
 
 #### DNS-Anbieter
 
-Wir [empfehlen](dns.md#recommended-providers) eine Mehrzahl von verschlüsselten DNS-Servern aufgrund verschiedenen Kriterien, wie z.B. [Mullvad](https://mullvad.net/en/help/dns-over-https-and-dns-over-tls) und [Quad9](https://quad9.net) sowie andere. Wir empfehlen dir unsere Seiten die DNS besprechen zu lesen bevor du einen Anbieter wählst. In vielen Fällen ist das Nutzen eines alternativen DNS-Anbieters nicht empfehlbar.
+We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers based on a variety of criteria, such as [Quad9](https://quad9.net) amongst others. Wir empfehlen dir unsere Seiten die DNS besprechen zu lesen bevor du einen Anbieter wählst. In vielen Fällen ist das Nutzen eines alternativen DNS-Anbieters nicht empfehlbar.
 
 [Lerne mehr :material-arrow-right-drop-circle:](dns.md)
 

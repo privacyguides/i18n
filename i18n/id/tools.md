@@ -276,7 +276,7 @@ If you're looking for added **security**, you should always ensure you're connec
 
 #### Penyedia DNS
 
-We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers based on a variety of criteria, such as [Mullvad](https://mullvad.net/en/help/dns-over-https-and-dns-over-tls) and [Quad9](https://quad9.net) amongst others. Kami menyarankan Anda untuk membaca halaman kami tentang DNS sebelum memilih penyedia. Dalam banyak kasus, menggunakan penyedia DNS alternatif tidak disarankan.
+We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers based on a variety of criteria, such as [Quad9](https://quad9.net) amongst others. Kami menyarankan Anda untuk membaca halaman kami tentang DNS sebelum memilih penyedia. Dalam banyak kasus, menggunakan penyedia DNS alternatif tidak disarankan.
 
 [Pelajari lebih lanjut :material-arrow-right-drop-circle:](dns.md)
 

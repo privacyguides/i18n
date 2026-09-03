@@ -103,7 +103,7 @@ MVT 對掃描 iOS 裝置「最」有用。 Android 儲存的診斷資訊非常�
 
 2. 經常觸發 _sysdiagnose_ 記錄日誌並在外部備份。 如果需要，這些日誌可為鑑識調查人員提供寶貴的資料。
 
-   執行操作過程因型號而異，但可以在較新的手機上按住_電源_ + _音量調高_ + _音量調低_直到感覺到短暫的振動來觸發。 幾分鐘後，帶有時間戳記的 _sysdiagnose_ 日誌將出現在 **設定** > **隱私和安全性** > **分析和改進** > **分析資料** 中。
+   執行操作過程因型號而異，但可以在較新的手機上按&#x4F4F;_&#x96FB;源_ + _音量調高_ + _音量調&#x4F4E;_&#x76F4;到感覺到短暫的振動來觸發。 幾分鐘後，帶有時間戳記的 _sysdiagnose_ 日誌將出現在 **設定** > **隱私和安全性** > **分析和改進** > **分析資料** 中。
 
 3. 啟用[鎖定模式](https://blog.privacyguides.org/2022/10/27/macos-ventura-privacy-security-updates/#lockdown-mode)。
 
@@ -179,8 +179,8 @@ Auditor 並不像本頁上的其他工具一樣是掃描/分析工具。 相反�
 
 Auditor 使用 **兩個** 設備執行證明和入侵檢測，即一個 _被驗證者（auditee）_ 和一個 _驗證者（auditor）_。 驗證者 可以是任何 Android 10+ 裝置（或是由 [GrapheneOS](android/distributions.md#grapheneos) 所持有的遠端網路服務），而 被驗證者 必須是特定 [支援的裝置](https://attestation.app/about#device-support)。 Auditor 運行原理：
 
-- 在_auditor_和_auditee_之間使用 [Trust On First Use (TOFU)](https://en.wikipedia.org/wiki/Trust_on_first_use) 模式，雙方在 [由硬體支援的 keystore](https://source.android.com/security/keystore/) 中建立 _Auditor（軟體）_ 的私鑰。
-- _驗證者_可以是 Auditor應用程式 的另一個實例，也可以是 [遠端憑證服務](https://attestation.app)。
+- &#x5728;_&#x61;udito&#x72;_&#x548C;_audite&#x65;_&#x4E4B;間使用 [Trust On First Use (TOFU)](https://en.wikipedia.org/wiki/Trust_on_first_use) 模式，雙方在 [由硬體支援的 keystore](https://source.android.com/security/keystore/) 中建立 _Auditor（軟體）_ 的私鑰。
+- _驗證&#x8005;_&#x53EF;以是 Auditor應用程式 的另一個實例，也可以是 [遠端憑證服務](https://attestation.app)。
 - _驗證者_ 會記錄 _被驗證者_ 當前的狀態和配置。
 - 如果在配對完成後 被驗證者的作業系統 遭到篡改 ，驗證者設備 將意識到設備狀態和配置的變化。
 - 您將收到更改的提醒。

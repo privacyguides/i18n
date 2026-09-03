@@ -276,7 +276,7 @@ description: Privacy Guides 社群所推薦的隱私工具、服務、軟體及�
 
 #### DNS 提供者
 
-我們根據各種標準[推薦](dns.md#recommulated-providers)一些加密的 DNS 伺服器，例如[Mullvad](https://mulvad.net/en/ help/dns- over-https-and-dns-over-tls) 和[Quad9](https://quad9.net) 等。 建議您在選擇供應商之前先閱讀我們有關 DNS 的頁面。 在許多情況下，不建議使用替代 DNS 提供商。
+We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers based on a variety of criteria, such as [Quad9](https://quad9.net) amongst others. 建議您在選擇供應商之前先閱讀我們有關 DNS 的頁面。 在許多情況下，不建議使用替代 DNS 提供商。
 
 [了解更多 :material-arrow-right-drop-circle:](dns.md)
 

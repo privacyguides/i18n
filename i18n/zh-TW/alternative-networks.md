@@ -40,7 +40,7 @@ cover: alternative-networks.webp
 <div class="admonition example" markdown>
 <p class="admonition-title">試用一下！</p>
 
-可以嘗試透過 Tor 連線到_Privacy Guides_：[xoe4vn5uwdztif6goazfbmogh6wh5jc4up35bqdflu6bkdc5cas5vjqd.onion](http://www.xoe4vn5uwdztif6goazfbmogh6wh5jc4up35bqdflu6bkdc5cas5vjqd.onion).
+可以嘗試透過 Tor 連線&#x5230;_&#x50;rivacy Guides_：[xoe4vn5uwdztif6goazfbmogh6wh5jc4up35bqdflu6bkdc5cas5vjqd.onion](http://www.xoe4vn5uwdztif6goazfbmogh6wh5jc4up35bqdflu6bkdc5cas5vjqd.onion).
 
 </div>
 

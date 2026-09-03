@@ -276,7 +276,7 @@ If you're looking for added **security**, you should always ensure you're connec
 
 #### DNS Szolgáltatók
 
-We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers based on a variety of criteria, such as [Mullvad](https://mullvad.net/en/help/dns-over-https-and-dns-over-tls) and [Quad9](https://quad9.net) amongst others. Javasoljuk, hogy egy szolgáltató kiválasztása előtt olvasd el a DNS-ről szóló oldalainkat. Sok esetben nem ajánlott alternatív DNS-szolgáltató használata.
+We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers based on a variety of criteria, such as [Quad9](https://quad9.net) amongst others. Javasoljuk, hogy egy szolgáltató kiválasztása előtt olvasd el a DNS-ről szóló oldalainkat. Sok esetben nem ajánlott alternatív DNS-szolgáltató használata.
 
 [További információ :material-arrow-right-drop-circle:](dns.md)
 
