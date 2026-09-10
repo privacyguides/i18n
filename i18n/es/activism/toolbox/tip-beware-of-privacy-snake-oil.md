@@ -1,21 +1,21 @@
 ---
-title: Beware of Privacy Snake Oil
-description: In your privacy advocacy, it's important to recommend tools that reliably protect your and other people's privacy. Learn how to evaluate privacy claims.
+title: Cuidado con los remedios para la privacidad milagrosos
+description: En tu labor de defensa de la privacidad, es importante recomendar herramientas que protegen de manera fiable tu privacidad y la de otros. Aprende cómo evaluar afirmaciones sobre privacidad.
 icon: fontawesome/solid/skull-crossbones
 cover: activism/banner-toolbox-tip-snakeoil.webp
 ---
 
-In your privacy advocacy, it's essential to use and recommend tools that _reliably_ protect privacy. For this, you need to **investigate and remain highly skeptical** of any dangerous or unproven marketing claims.
+En tu labor de defensa de la privacidad, es importante usar y recomendar herramientas que protegen la privacidad de forma _fiable_. Para ello, es necesario **investigar y ser escéptico** ante cualquier afirmación de marketing peligrosa o sin demostrar.
 
-Here's how to evaluate privacy claims, and recommend tools that are trustworthy:
+A continuación te explicamos cómo evaluar afirmaciones sobre la privacidad y recomendar herramientas confiables:
 
-## Why is there so much privacy snake oil?
+## ¿Por qué hay tantos productos milagrosos en torno a la privacidad?
 
-Regrettably, it's quite common to see businesses using privacy promises as a mere marketing strategy to reassure understandingly concerned users. But many aren't genuinely doing the work to make these promises come true.
+Lamentablemente, es bastante común ver negocios usando promesas sobre privacidad como una simple estrategia comercial para tranquilizar a usuarios que están comprensiblemente preocupados. Pero muchos no están haciendo realmente el trabajo necesario para que esas promesas se cumplan.
 
-Many businesses want to have their cake and eat it too, by attracting users with false promises of privacy while exploiting their data for profit all the while. Other times, failure to meet privacy promises simply comes from incompetence or negligence.
+Muchos negocios quieren comerse su parte de la tarta atrayendo a usuarios con falsas promesas de privacidad mientras usan sus datos para obtener beneficios. Otras veces, el cumplimiento de las promesas de privacidad vienen por errores debidos a la incompetencia o la negligencia.
 
-Misleadingly, or fraudulently, presenting a product, service, or organization as being responsible and trustworthy with data privacy when it isn't is called "[privacy washing](https://www.privacyguides.org/articles/2025/08/20/privacy-washing-is-a-dirty-business/)."
+Presentar de forma engañosa o fraudulenta un producto, servicio u organización como responsable y confiable con la protección de la privacidad cuando no lo es, se conoce como "[lavado de privacidad](https://www.privacyguides.org/articles/2025/08/20/privacy-washing-is-a-dirty-business/)."
 
 There are many things you can learn to become more resistant to privacy washing, and become better at using and recommending genuinely privacy-preserving technologies.
 
