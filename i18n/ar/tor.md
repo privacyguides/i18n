@@ -82,7 +82,7 @@ schema:
 
 </div>
 
-صمِّم متصفِّح تور لمكافحة التبصيم، أو كشف هويَّتك حسب ضبط متصفِّحك. ولهذا السبب، من المهم جدا أن **لا تغير** إعدادات متصفح Tor خارج [المستويات الأمنية المضمنة](https://tb-manual.torproject.org/security-settings)، لأن أي تعديل قد يعرضك لخطر كشف الهوية. إذا قمت بتغيير مستوى الأمان، **من الضروري** إعادة تشغيل متصفح Tor لتطبيق التغييرات بشكل صحيح قبل مواصلة التصفح. وإلا، فقد لا تُطبَّق [إعدادات الأمان بشكل كامل](https://www.privacyguides.org/articles/2025/05/02/tor-security-slider-flaw)، مما قد يعرّضك لخطر التتبع واستغلال الثغرات، مقارنة بما تتوقعه من مستوى الأمان الذي اخترته.
+صمِّم متصفِّح تور لمكافحة التبصيم، أو كشف هويَّتك حسب ضبط متصفِّحك. Therefore, it is imperative that you do **not** modify the browser beyond the default [security levels](https://tb-manual.torproject.org/security-settings). When modifying the security level setting, you **must** always restart the browser before continuing to use it. وإلا، فقد لا تُطبَّق [إعدادات الأمان بشكل كامل](https://www.privacyguides.org/articles/2025/05/02/tor-security-slider-flaw)، مما قد يعرّضك لخطر التتبع واستغلال الثغرات، مقارنة بما تتوقعه من مستوى الأمان الذي اخترته.
 
 بالإضافة إلى إمكانية تثبيت متصفح Tor مباشرة على جهازك، هناك أيضا أنظمة تشغيل صُممت خصيصا لاستخدام شبكة Tor، مثل [Whonix](desktop.md#whonix) ضمن [Qubes OS](desktop.md#qubes-os)، والتي توفر مستوى أعلى من الأمان والحماية مقارنة باستخدام متصفح Tor فقط.
 

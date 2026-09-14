@@ -92,7 +92,7 @@ Tor 網路並非在任何情況下都是完美的隱私保護工具，其存在�
 
 ### Tor 瀏覽器不是最*安全*的瀏覽器
 
-匿名性常常與安全性互相矛盾：Tor 的匿名性要求每個使用者都是相同的，這會造成單一文化（所有 Tor 瀏覽器使用者都存在相同的錯誤）。 依網路安全的經驗法則，單一文化通常認為不好：透過多樣性（Tor 所缺乏的）實現安全性，透過將漏洞限制在較小的群體中，提供了自然隔離通常是可取的，但這種多樣性對於匿名性來說也不太有利。
+Anonymity can often be at odds with security. Tor achieves anonymity by ensuring every user appears identical, creating a digital monoculture where the same vulnerabilities exist across all installations. In cybersecurity, monocultures are generally considered a risk. Security through diversity provides natural segmentation by limiting the impact of an exploit to a smaller segment of users. While such diversity is structurally desirable for security, it inherently compromises user anonymity by making individuals trackable.
 
 此外，Tor 瀏覽器是 Firefox 的擴展支援版本，僅接收被視為*嚴重*和*高*漏洞的補丁>（不是*中*和*低*）。 這意味著攻擊者可以（例如）：
 

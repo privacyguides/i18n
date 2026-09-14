@@ -330,6 +330,7 @@ Le funzionalità Web3 di Brave possono potenzialmente aumentare il fingerprint d
 
 - Selezionare **Estensioni** sotto *Portafoglio Ethereum predefinito*
 - Selezionare **Estensioni** sotto *Portafoglio Solana predefinito*
+- Select **Extensions (no fallback)** under *Default Cardano wallet*
 
 #### Estensioni
 

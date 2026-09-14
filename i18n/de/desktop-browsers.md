@@ -330,6 +330,7 @@ Die Web3-Funktionen von Brave können deinen Browser-Fingerabdruck und deine Ang
 
 - Wähle **Erweiterungen (kein Backup)** unter *Standard-Ethereum-Wallet*
 - Wähle **Erweiterungen (kein Backup)** unter *Standard-Solana-Wallet*
+- Select **Extensions (no fallback)** under *Default Cardano wallet*
 
 #### Erweiterungen
 

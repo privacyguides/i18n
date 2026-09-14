@@ -92,7 +92,7 @@ Ważne jest rozróżnienie między omijaniem cenzury a unikaniem wykrycia. To pi
 
 ### Tor Browser nie jest naj*bezpieczniejszą* przeglądarką
 
-Anonimowość często stoi w sprzeczności z bezpieczeństwem: anonimowość sieci Tor wymaga, by wszyscy użytkownicy byli identyczni, co tworzy monokulturę (np. te same błędy występują u wszystkich użytkowników przeglądarki Tor Browser). Z punktu widzenia cyberbezpieczeństwa monokultury zwykle uznawane są za złe: bezpieczeństwo przez różnorodność (którego Tor nie zapewnia) naturalnie dzieli środowisko i ogranicza zasięg podatności, co z reguły jest pożądane, choć mniej korzystne dla anonimowości.
+Anonymity can often be at odds with security. Tor achieves anonymity by ensuring every user appears identical, creating a digital monoculture where the same vulnerabilities exist across all installations. In cybersecurity, monocultures are generally considered a risk. Security through diversity provides natural segmentation by limiting the impact of an exploit to a smaller segment of users. While such diversity is structurally desirable for security, it inherently compromises user anonymity by making individuals trackable.
 
 Ponadto przeglądarka Tor Browser bazuje na wydaniach Firefoksa o wydłużonym wsparciu (Extended Support Release – ESR), które otrzymują poprawki tylko dla podatności sklasyfikowanych jako *krytyczne* i *wysokie* (nie dla *średnich* i *niskich*). Oznacza to, że atakujący mogą (na przykład):
 

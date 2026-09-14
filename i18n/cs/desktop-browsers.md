@@ -330,6 +330,7 @@ Funkce Web3 může potenciálně zvýšit riziko zanechání otisku a zvětšit 
 
 - V *Základní peněženka Ethereum* vyberte **Rozšíření (bez náhradního řešení)**
 - V *Základní peněženka Solana* vyberte **Rozšíření (bez náhradního řešení)**
+- Select **Extensions (no fallback)** under *Default Cardano wallet*
 
 #### Rozšíření
 

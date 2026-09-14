@@ -330,6 +330,7 @@ Les fonctionnalités Web3 de Brave peuvent potentiellement ajouter à l'empreint
 
 - Sélectionnez **Extensions (no fallback)** sous *Portefeuille Ethereum par défaut*
 - Sélectionnez **Extensions (no fallback)** sous *Default Solana wallet (portefeuille Solana par défaut)*
+- Select **Extensions (no fallback)** under *Default Cardano wallet*
 
 #### Extensions
 

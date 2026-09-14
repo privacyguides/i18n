@@ -92,7 +92,7 @@ Esistono altri trasporti collegabili oltre questi tre, ma si affidano tipicament
 
 ### Il Browser Tor non è il browser più *sicuro*
 
-Anonymity can often be at odds with security: Tor's anonymity requires every user to be identical, which creates a monoculture (e.g., the same bugs are present across all Tor Browser users). Come regola generale di cybersicurezza, le monoculture sono generalmente considerate come negative: la sicurezza tramite la diversità (che manca a Tor), fornisce la segmentazione naturale, limitando le vulnerabilità dei gruppi più piccoli, ed è dunque più desiderabile, pur essendo a costo dell'anonimato.
+Anonymity can often be at odds with security. Tor achieves anonymity by ensuring every user appears identical, creating a digital monoculture where the same vulnerabilities exist across all installations. In cybersecurity, monocultures are generally considered a risk. Security through diversity provides natural segmentation by limiting the impact of an exploit to a smaller segment of users. While such diversity is structurally desirable for security, it inherently compromises user anonymity by making individuals trackable.
 
 Inoltre, Tor Browser si basa sulle build delle Versioni di Supporto Esteso di Firefox, che ricevono correzioni soltanto per le vulnerabilità considerate *Critiche* ed *Elevate* (non *Medie* e *Basse*). Ciò significa che dei malintenzionati potrebbero, ad esempio:
 

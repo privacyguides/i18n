@@ -330,6 +330,7 @@ Fitur Web3 Brave berpotensi manambah fingerprinting browser Anda dan permukaan s
 
 - Pilih **Extensions (no fallback)** di bawah *Default Ethereum wallet*
 - Pilih **Extensions (no fallback)** di bawah *Default Solana wallet*
+- Select **Extensions (no fallback)** under *Default Cardano wallet*
 
 #### Ekstensi
 

@@ -330,6 +330,7 @@ Brave's Web3 features can potentially add to your browser fingerprint and attack
 
 - 將 *預設以太坊錢包* 設定為 **擴充功能 (無後援)**
 - 將 *預設 Solana 錢包* 設定為 **擴充功能 (無後援)**
+- Select **Extensions (no fallback)** under *Default Cardano wallet*
 
 #### 擴充功能
 

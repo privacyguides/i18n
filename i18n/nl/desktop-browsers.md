@@ -330,6 +330,7 @@ De Web3-functies van Brave kunnen mogelijk de vingerafdruk van jouw browser en h
 
 - Selecteer **Extensions (no fallback)** onder *Default Ethereum wallet*
 - Selecteer **Extensions (no fallback)** onder *Default Solana wallet*
+- Select **Extensions (no fallback)** under *Default Cardano wallet*
 
 #### Extensies
 

@@ -330,6 +330,7 @@ Las funciones Web3 de Brave pueden aumentar potencialmente la huella digital de 
 
 - Selecciona **Extensiones (sin copia de seguridad)** en *Cartera predeterminada de Ethereum*
 - Selecciona **Extensiones (sin copia de seguridad)** en *Cartera predeterminada de Solana*
+- Select **Extensions (no fallback)** under *Default Cardano wallet*
 
 #### Extensiones
 

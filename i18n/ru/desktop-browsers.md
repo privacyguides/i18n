@@ -330,6 +330,7 @@ Brave позволяет выбирать дополнительные филь�
 
 - Выберите **Extensions (no fallback)** в разделе *Default Ethereum wallet*
 - Выберите **Extensions (no fallback)** в разделе *Default Solana wallet*
+- Select **Extensions (no fallback)** under *Default Cardano wallet*
 
 #### Расширения
 

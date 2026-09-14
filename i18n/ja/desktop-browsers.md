@@ -330,6 +330,7 @@ BraveのWeb3機能はブラウザのフィンガープリントとアタック�
 
 - *デフォルトのEthereumウォレット*の**拡張機能（フォールバックなし）**を選択
 - *デフォルトのSolanaウォレット*の**拡張機能（フォールバックなし）**を選択
+- Select **Extensions (no fallback)** under *Default Cardano wallet*
 
 #### 拡張機能
 

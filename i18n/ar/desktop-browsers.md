@@ -328,6 +328,7 @@ Firefox يوفّر إعدادات قوية لحماية الخصوصية، مث�
 
 - اختر **Extensions (no fallback)** ضمن *Default Ethereum wallet*
 - اختر **Extensions (no fallback)** ضمن *Default Solana wallet*
+- Select **Extensions (no fallback)** under *Default Cardano wallet*
 
 #### الإضافات (قم بإيقاف كل الإضافات المدمجة غير الضرورية بالنسبة لك)
 

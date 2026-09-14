@@ -80,7 +80,7 @@ Anda sebaiknya **jangan pernah** memasang ekstensi tambahan apa pun pada Tor Bro
 
 </div>
 
-Tor Browser dirancang untuk mencegah fingerprinting, atau mengidentifikasi Anda berdasarkan konfigurasi peramban Anda. Oleh karena itu, sangat penting bagi Anda untuk **tidak** memodifikasi peramban di luar [tingkat keamanan](https://tb-manual.torproject.org/security-settings) bawaan. Saat menyesuaikan tingkat keamanan, Anda **harus** selalu memulai ulang peramban sebelum melanjutkan penggunaannya. Jika tidak, [pengaturan keamanan mungkin tidak sepenuhnya diterapkan](https://www.privacyguides.org/articles/2025/05/02/tor-security-slider-flaw), sehingga Anda berada pada risiko fingerprinting dan eksploitasi yang lebih tinggi daripada yang Anda harapkan berdasarkan pengaturan yang dipilih.
+Tor Browser dirancang untuk mencegah fingerprinting, atau mengidentifikasi Anda berdasarkan konfigurasi peramban Anda. Therefore, it is imperative that you do **not** modify the browser beyond the default [security levels](https://tb-manual.torproject.org/security-settings). When modifying the security level setting, you **must** always restart the browser before continuing to use it. Jika tidak, [pengaturan keamanan mungkin tidak sepenuhnya diterapkan](https://www.privacyguides.org/articles/2025/05/02/tor-security-slider-flaw), sehingga Anda berada pada risiko fingerprinting dan eksploitasi yang lebih tinggi daripada yang Anda harapkan berdasarkan pengaturan yang dipilih.
 
 Selain aplikasi yang terancam di bawah ini, ada juga sistem operasi yang dirancang khusus untuk terhubung ke jaringan Tor seperti [Whonix](desktop.md#whonix) di [Qubes OS](desktop.md#qubes-os), yang menyediakan keamanan dan perlindungan yang lebih besar daripada Tor Browser standar.
 

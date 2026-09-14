@@ -330,6 +330,7 @@ Brave 的 Web3 功能可能會增加您的瀏覽器數位指紋與攻擊面。 �
 
 - 將 *預設以太坊錢包* 設定為 **擴充功能 (無後援)**
 - 將 *預設 Solana 錢包* 設定為 **擴充功能 (無後援)**
+- Select **Extensions (no fallback)** under *Default Cardano wallet*
 
 #### 擴充功能
 

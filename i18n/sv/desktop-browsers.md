@@ -330,6 +330,7 @@ Brave's Web3 features can potentially add to your browser fingerprint and attack
 
 - Select **Extensions (no fallback)** under *Default Ethereum wallet*
 - Select **Extensions (no fallback)** under *Default Solana wallet*
+- Select **Extensions (no fallback)** under *Default Cardano wallet*
 
 #### Tillägg
 

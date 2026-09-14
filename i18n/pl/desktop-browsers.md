@@ -330,6 +330,7 @@ Funkcje Web3 w przeglądarce Brave mogą potencjalnie zwiększyć unikalność T
 
 - Wybierz **Rozszerzenia (bez kopii zapasowej)** w sekcji *Domyślny portfel Ethereum*
 - Wybierz **Rozszerzenia (bez kopii zapasowej)** w sekcji *Domyślny portfel Solana*
+- Select **Extensions (no fallback)** under *Default Cardano wallet*
 
 #### Rozszerzenia
 

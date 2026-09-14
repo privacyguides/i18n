@@ -333,6 +333,7 @@ As funcionalidades Web3 do Brave potencialmente podem acrescentar à 'impressão
 
 - Selecione **Extensões (sem fallback)** sob *carteira Ethereum padrão*
 - Selecione **Extensões (sem fallback)** sob *Carteira Solana padrão*
+- Select **Extensions (no fallback)** under *Default Cardano wallet*
 
 #### Extensões
 
