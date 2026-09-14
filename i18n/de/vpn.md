@@ -14,7 +14,7 @@ global:
 
 - [:material-account-cash: Überwachungskapitalismus](basics/common-threats.md#surveillance-as-a-business-model ""){.pg-brown}
 
-If you're looking for additional *privacy* from your ISP or on a public Wi-Fi network, a **VPN** may be the solution for you.
+Wenn du zusätzliche *Privatsphäre* gegenüber deinem ISP, in einem öffentlichen Wi-Fi-Netzwerk oder beim Herunterladen von Dateien über Torrents benötigst, könnte ein **VPN** die Lösung für dich sein.
 
 <div class="admonition danger" markdown>
 <p class="admonition-title">VPNs bieten keine Anonymität</p>
@@ -68,19 +68,19 @@ Die von uns empfohlenen Anbieter verwenden Verschlüsselung, unterstützen WireG
 
 #### :material-check:{ .pg-green } 127 Länder
 
-Proton VPN has [servers in 127 countries](https://protonvpn.com/vpn-servers)(1) or [10](https://protonvpn.com/support/how-to-create-free-vpn-account) if you use their [free plan](https://protonvpn.com/blog/product-roadmap-winter-2025-2026).(2) Picking a VPN provider with a server nearest to you will reduce latency of the network traffic you send. Der Grund dafür ist eine kürzere Route (weniger Sprünge) zum Ziel.
+Proton VPN hat [Server in 127 Ländern](https://protonvpn.com/vpn-servers)(1) oder [10](https://protonvpn.com/support/how-to-create-free-vpn-account) bei Verwendung der [kostenlosen Version](https://protonvpn.com/blog/product-roadmap-winter-2025-2026).(2) Die Auswahl eines VPN-Anbieters mit einem Server in deiner Nähe verringert die Latenz des von dir gesendeten Netzwerkverkehrs. Der Grund dafür ist eine kürzere Route (weniger Sprünge) zum Ziel.
 { .annotate }
 
-1. Of which at least 71 are virtual servers, meaning your IP will appear from the country but the server is in another. 12 more locations have both hardware and virtual servers. [Source](https://protonvpn.com/support/how-smart-routing-works)
-2. Last checked: 2025-10-28
+1. Davon sind mindestens 71 virtuelle Server, was bedeutet, dass deine IP-Adresse zwar aus dem Land stammt, der Server sich jedoch in einem anderen Land befindet. An 12 weiteren Standorten gibt es sowohl Hardware- als auch virtuelle Server. [Quelle](https://protonvpn.com/support/how-smart-routing-works)
+2. Zuletzt überprüft: 28.10.2025
 
 Wir sind außerdem der Meinung, dass es für die Sicherheit der privaten Schlüssel des VPN-Anbieters besser ist, wenn er [dedizierte Server](https://en.wikipedia.org/wiki/Dedicated_hosting_service) verwendet, anstatt billigere gemeinsame Lösungen (mit anderen Kunden) wie [virtuelle private Server](https://en.wikipedia.org/wiki/Virtual_private_server).
 
 #### :material-check:{ .pg-green } Unabhängig geprüft
 
-Independent security researcher Ruben Santamarta conducted audits for Proton VPN's [browser extensions](https://drive.proton.me/urls/RWDD2SHT98#v7ZrwNcafkG8) and [apps](https://drive.proton.me/urls/RVW8TXG484#uTXX5Fc9GADo) in September 2024 and January 2025, respectively. Proton VPN's infrastrcture has undergone [annual audits](https://protonvpn.com/blog/no-logs-audit) by Securitum since 2022.
+Der unabhängige Sicherheitsforscher Ruben Santamarta führte Prüfungen für die Proton VPN [Browser Erweiterungen](https://drive.proton.me/urls/RWDD2SHT98#v7ZrwNcafkG8) und [Apps](https://drive.proton.me/urls/RVW8TXG484#uTXX5Fc9GADo) im September 2024 bzw. Januar 2025 durch. Securitum führt seit 2022 [jährliche Prüfungen](https://protonvpn.com/blog/no-logs-audit) der Proton VPN Infrastruktur durch.
 
-Previously, Proton VPN underwent an independent audit by SEC Consult in January 2020. SEC Consult fand einige Sicherheitslücken mit mittlerem und niedrigem Risiko in den Windows-, Android- und iOS-Anwendungen von Proton VPN, die alle von Proton VPN vor der Veröffentlichung der Berichte "ordnungsgemäß behoben" wurden. Keines der festgestellten Probleme hätte angreifenden Fernzugriff auf dein Gerät oder deinen Datenverkehr ermöglicht. You can view individual reports for each platform in their dedicated [blog post](https://web.archive.org/web/20250307041036/https://protonvpn.com/blog/open-source) on the audit.
+Zuvor wurde Proton VPN im Januar 2020 einer unabhängigen Prüfung durch SEC Consult unterzogen. SEC Consult fand einige Sicherheitslücken mit mittlerem und niedrigem Risiko in den Windows-, Android- und iOS-Anwendungen von Proton VPN, die alle von Proton VPN vor der Veröffentlichung der Berichte "ordnungsgemäß behoben" wurden. Keines der festgestellten Probleme hätte angreifenden Fernzugriff auf dein Gerät oder deinen Datenverkehr ermöglicht. You can view individual reports for each platform in their dedicated [blog post](https://web.archive.org/web/20250307041036/https://protonvpn.com/blog/open-source) on the audit.
 
 #### :material-check:{ .pg-green } Open-Source Anwendungen
 
@@ -166,7 +166,7 @@ Additionally, system crashes [may occur](https://protonvpn.com/support/macos-t2-
 IVPN has [servers in 41 countries](https://ivpn.net/status).(1) Picking a VPN provider with a server nearest to you will reduce latency of the network traffic you send. Der Grund dafür ist eine kürzere Route (weniger Sprünge) zum Ziel.
 { .annotate }
 
-1. Last checked: 2025-10-28
+1. Zuletzt überprüft: 28.10.2025
 
 Wir sind außerdem der Meinung, dass es für die Sicherheit der privaten Schlüssel des VPN-Anbieters besser ist, wenn er [dedizierte Server](https://en.wikipedia.org/wiki/Dedicated_hosting_service) verwendet, anstatt billigere gemeinsame Lösungen (mit anderen Kunden) wie [virtuelle private Server](https://en.wikipedia.org/wiki/Virtual_private_server).
 
@@ -241,7 +241,7 @@ IVPN-Clients unterstützen die Zwei-Faktor-Authentisierung. IVPN bietet auch die
 Mullvad has [servers in 49 countries](https://mullvad.net/servers).(1) Picking a VPN provider with a server nearest to you will reduce latency of the network traffic you send. Der Grund dafür ist eine kürzere Route (weniger Sprünge) zum Ziel.
 { .annotate }
 
-1. Last checked: 2025-10-28
+1. Zuletzt überprüft: 28.10.2025
 
 Wir sind außerdem der Meinung, dass es für die Sicherheit der privaten Schlüssel des VPN-Anbieters besser ist, wenn er [dedizierte Server](https://en.wikipedia.org/wiki/Dedicated_hosting_service) verwendet, anstatt billigere gemeinsame Lösungen (mit anderen Kunden) wie [virtuelle private Server](https://en.wikipedia.org/wiki/Virtual_private_server).
 
