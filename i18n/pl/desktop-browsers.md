@@ -63,7 +63,7 @@ schema:
 
 Oto nasze aktualne zalecenia dotyczące **przeglądarek internetowych na komputery stacjonarne** oraz ich konfiguracji do standardowego/nieanonimowego przeglądania. Zalecamy przeglądarkę [Mullvad](#mullvad-browser), jeśli zależy Ci na silnej ochronie prywatności i wbudowanych zabezpieczeniach przed tzw. „odciskami palców” bez konieczności konfiguracji; [Firefox](#firefox) dla osób szukających dobrej alternatywy dla Google Chrome do codziennego przeglądania, oraz [Brave](#brave), jeśli potrzebujesz zgodności z przeglądarkami opartymi na silniku Chromium.
 
-Jeśli chcesz przeglądać Internet anonimowo, skorzystaj z sieci [Tor](tor.md). Na tej stronie przedstawiamy pewne zalecenia dotyczące konfiguracji, jednak każda przeglądarka inna niż Tor Browser będzie możliwa do zidentyfikowania przez *kogoś* w taki czy inny sposób.
+If you need to browse the internet anonymously, you should use [Tor Browser](tor.md) instead. We make some configuration recommendations on this page, but Tor Browser offers the best protections against online tracking.
 
 ## Przeglądarka Mullvad
 
@@ -89,7 +89,7 @@ Jeśli chcesz przeglądać Internet anonimowo, skorzystaj z sieci [Tor](tor.md).
 
 </div>
 
-Podobnie jak [Tor Browser](tor.md), przeglądarka Mullvad została zaprojektowana tak, aby zapobiegać identyfikacji przez „odcisk palca” przeglądarki, sprawiając, że Twój profil przeglądarki jest identyczny ze wszystkimi innymi użytkownikami przeglądarki Mullvad. Zawiera ona domyślne ustawienia i rozszerzenia automatycznie konfigurowane w zależności od wybranego poziomu zabezpieczeń: *Standardowy*, *Bezpieczniejszy* i *Najbezpieczniejszy*.
+Like [Tor Browser](tor.md), Mullvad Browser is designed to prevent fingerprinting by making your browser fingerprint similar to a large number of other Mullvad Browser users, and it includes default settings and extensions that are automatically configured by the default security levels: *Standard*, *Safer* and *Safest*.
 
 Z tego powodu nie należy wprowadzać żadnych zmian w przeglądarce poza dostosowaniem domyślnych [poziomów zabezpieczeń](https://tb-manual.torproject.org/security-settings). Po zmianie poziomu zabezpieczeń **koniecznie** należy ponownie uruchomić przeglądarkę przed dalszym korzystaniem. W przeciwnym razie [ustawienia bezpieczeństwa mogą nie zostać w pełni zastosowane](https://www.privacyguides.org/articles/2025/05/02/tor-security-slider-flaw), co zwiększa ryzyko identyfikacji lub wykorzystania luk, mimo że wybrany poziom ochrony może sugerować coś innego.
 
@@ -99,7 +99,7 @@ Jakiekolwiek inne modyfikacje sprawią, że Twój odcisk przeglądarki stanie si
 
 **Bez** korzystania z [VPN-a](vpn.md), przeglądarka Mullvad zapewnia taki sam poziom ochrony przed [prostymi skryptami identyfikującymi](https://github.com/arkenfox/user.js/wiki/3.3-Overrides-%5BTo-RFP-or-Not%5D#-fingerprinting) jak inne przeglądarki ukierunkowane na prywatność, takie jak Firefox+[Arkenfox](#arkenfox-advanced) czy [Brave](#brave). Przeglądarka Mullvad zapewnia te zabezpieczenia od razu po instalacji, kosztem pewnej elastyczności i wygody, które mogą zapewnić inne prywatne przeglądarki.
 
-== Dla najskuteczniejszej ochrony przed identyfikacją zalecamy korzystanie z przeglądarki Mullvad w połączeniu z VPN-em ==, niezależnie od tego, czy będzie to Mullvad, czy inny zalecany dostawca VPN. Korzystając z przeglądarki Mullvad wraz z VPN, współdzielisz odcisk przeglądarki i pulę adresów IP z wieloma innymi użytkownikami, co pozwala Ci „zniknąć w tłumie”. To jedyna skuteczna metoda ochrony przed zaawansowanymi technikami śledzenia i jest to dokładnie taka technika, która stosuje Tor Browser.
+== Dla najskuteczniejszej ochrony przed identyfikacją zalecamy korzystanie z przeglądarki Mullvad w połączeniu z VPN-em ==, niezależnie od tego, czy będzie to Mullvad, czy inny zalecany dostawca VPN. Korzystając z przeglądarki Mullvad wraz z VPN, współdzielisz odcisk przeglądarki i pulę adresów IP z wieloma innymi użytkownikami, co pozwala Ci „zniknąć w tłumie”. This strategy is the best way to defend against advanced tracking scripts, and is the same anti-fingerprinting technique used by Tor Browser.
 
 Warto zauważyć, że choć przeglądarkę Mullvad można używać z dowolnym dostawcą VPN, efekt „tłumu” pojawi się tylko wtedy, gdy inni użytkownicy tego samego VPN również korzystają z przeglądarki Mullvad. Jest to obecnie bardziej prawdopodobne w przypadku Mullvad VPN niż innych usług. Przeglądarka Mullvad nie ma wbudowanej obsługi VPN ani nie sprawdza, czy korzystasz z VPN przed rozpoczęciem przeglądania; połączenie VPN należy skonfigurować i utrzymywać samodzielnie.
 

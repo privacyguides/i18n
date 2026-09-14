@@ -63,7 +63,7 @@ schema:
 
 Standart/anonim-olmayan gezinme için önerdiğimiz **masaüstü tarayıcılar** ve ayarları şunlardır. Eğer varsayılan olarak güçlü mahremiyet koruması ve parmak izi önleme istiyorsanız [Mullvad Browser'ı](#mullvad-browser), Google Chrome için iyi bir alternatif arayan normal kullanıcılar için [Firefox'u](#firefox) ve eğer Chromium uyumlu bir tarayıcıya ihtiyacınız varsa [Brave'i](#brave) öneririz.
 
-İnternette anonim olarak gezinmeniz gerekiyorsa, bunlar yerine [Tor](tor.md) kullanmalısınız. Bu sayfada bazı yapılandırma önerilerinde bulunmaktayız fakat Tor Browser hariç tüm tarayıcılar *birisi* tarafından herhangi bir şekilde takip edilebilirdir.
+If you need to browse the internet anonymously, you should use [Tor Browser](tor.md) instead. We make some configuration recommendations on this page, but Tor Browser offers the best protections against online tracking.
 
 ## Mullvad Browser
 
@@ -89,7 +89,7 @@ Standart/anonim-olmayan gezinme için önerdiğimiz **masaüstü tarayıcılar**
 
 </div>
 
-[Tor Browser](tor.md) gibi, Mullvad Browser da tarayıcı parmak izinizi diğer tüm Mullvad Browser kullanıcılarıyla aynı hale getirerek parmak izini önlemek için tasarlanmıştır ve varsayılan güvenlik düzeyleri tarafından otomatik olarak yapılandırılan varsayılan ayarları ve eklentileri içerir: *Standart*, *Daha güvenli* ve *En güvenli*.
+Like [Tor Browser](tor.md), Mullvad Browser is designed to prevent fingerprinting by making your browser fingerprint similar to a large number of other Mullvad Browser users, and it includes default settings and extensions that are automatically configured by the default security levels: *Standard*, *Safer* and *Safest*.
 
 Bu nedenle, varsayılan [güvenlik düzeylerini](https://tb-manual.torproject.org/security-settings)ayarlamak dışında tarayıcıda hiçbir değişiklik yapmamanız gerekir. Güvenlik düzeyini ayarladıktan sonra tarayıcıyı kullanmaya devam etmeden önce **mutlaka** tarayıcıyı yeniden başlatmalısınız. Aksi takdirde, [güvenlik ayarları tam olarak uygulanmayabilir](https://www.privacyguides.org/articles/2025/05/02/tor-security-slider-flaw) ve bu da seçtiğiniz ayara göre beklediğinizden daha yüksek bir parmak izi tespit ve güvenlik açığı istismarı riskiyle karşı karşıya kalmanıza neden olabilir.
 
@@ -99,7 +99,7 @@ Bu ayarın değiştirilmesi dışındaki herhangi bir değişiklik, parmak izini
 
 [VPN](vpn.md) ** olmadan ** Mullvad Browser'ı kullanmak, [Firefox+Arkenfox](#arkenfox-advanced) veya [Brave](#brave) gibi diğer gizlilik odaklı tarayıcılara benzer şekilde, [basit parmak izi alma betiklerine](https://github.com/arkenfox/user.js/wiki/3.3-Overrides-%5BTo-RFP-or-Not%5D#-fingerprinting) karşı koruma sağlar. Mulvad Browser bu korumaları varsayılan olarak sağlar, ancak bazı esneklik ve kullanışlıktan feragat edersiniz.
 
-==For the strongest anti-fingerprinting protection, we recommend using Mullvad Browser in conjunction **with** a VPN==, whether that is Mullvad or another recommended VPN provider. Mullvad Browser ile birlikte VPN kullanırken, diğer birçok kullanıcıyla beraber parmak izi ve IP adresi havuzu paylaşırsınız, böylece bir kalabalığın içine karışırsınız. Bu strateji, gelişmiş izleme komut dosyalarını engellemenin tek yoludur ve Tor Browser tarafından kullanılan parmak izi önleme tekniğinin aynısıdır.
+==For the strongest anti-fingerprinting protection, we recommend using Mullvad Browser in conjunction **with** a VPN==, whether that is Mullvad or another recommended VPN provider. Mullvad Browser ile birlikte VPN kullanırken, diğer birçok kullanıcıyla beraber parmak izi ve IP adresi havuzu paylaşırsınız, böylece bir kalabalığın içine karışırsınız. This strategy is the best way to defend against advanced tracking scripts, and is the same anti-fingerprinting technique used by Tor Browser.
 
 Note that while you can use Mullvad Browser with any VPN provider, other people on that VPN must also be using Mullvad Browser for this "crowd" to exist, something which is more likely on Mullvad VPN compared to other providers. Mullvad Browser yerleşik VPN bağlantısına sahip değildir ve gezinmeden önce VPN kullanıp kullanmadığınızı kontrol etmez; VPN bağlantınızın ayrı olarak yapılandırılması ve yönetilmesi gerekir.
 

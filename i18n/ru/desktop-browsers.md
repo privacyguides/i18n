@@ -63,7 +63,7 @@ schema:
 
 Это наши актуальные рекомендации **десктопных браузеров** и конфигураций для стандартного/неанонимного использования. Мы рекомендуем [Mullvad Browser](#mullvad-browser), если вам важна надёжная защита конфиденциальности и защита от цифровых отпечатков «из коробки», [Firefox](#firefox) для людей, ищущих альтернативу Google Chrome, и [Brave](#brave), если вам нужна совместимость с браузером на базе Chromium.
 
-Если вам нужна анонимность в интернете, то используйте [Tor](tor.md). На этой странице мы даём рекомендации по настройке браузеров, однако они все, кроме Tor Browser, могут быть так или иначе *кем-то* отслежены.
+If you need to browse the internet anonymously, you should use [Tor Browser](tor.md) instead. We make some configuration recommendations on this page, but Tor Browser offers the best protections against online tracking.
 
 ## Mullvad Browser
 
@@ -89,7 +89,7 @@ schema:
 
 </div>
 
-Как и [Tor Browser](tor.md), браузер Mullvad разработан для предотвращения фингерпринтинга, делая отпечаток вашего браузера идентичным всем другим пользователям браузера Mullvad, и включает в себя настройки по умолчанию и расширения, которые автоматически настраиваются в соответствии с уровнями безопасности по умолчанию:  *Standard* (Стандартный),  *Safer* (Повышенный уровень) и  *Safest* (Самый безопасный).
+Like [Tor Browser](tor.md), Mullvad Browser is designed to prevent fingerprinting by making your browser fingerprint similar to a large number of other Mullvad Browser users, and it includes default settings and extensions that are automatically configured by the default security levels: *Standard*, *Safer* and *Safest*.
 
 Поэтому крайне важно, чтобы вы никак не модифицировали браузер, кроме настройки стандартных [уровней безопасности](https://tb-manual.torproject.org/security-settings). При изменении уровня безопасности вы **обязательно** должны перезапустить браузер перед продолжением его использования. В противном случае [настройки безопасности могут быть применены не полностью](https://www.privacyguides.org/articles/2025/05/02/tor-security-slider-flaw), что подвергает вас более высокому риску фингерпринтинга и эксплойтов, чем вы можете ожидать, исходя из выбранных настроек.
 
@@ -99,7 +99,7 @@ schema:
 
 **Без** использования [VPN](vpn.md), Mullvad Browser обеспечивает такую же защиту от [простых скриптов распознавания цифровых отпечатков](https://github.com/arkenfox/user.js/wiki/3.3-Overrides-%5BTo-RFP-or-Not%5D#-fingerprinting), как и другие конфиденциальные браузеры, такие как Firefox+[Arkenfox](#arkenfox-advanced) или [Brave](#brave). Mullvad Browser обеспечивает эту защиту из коробки, в обмен на некоторую гибкость и удобство, которые могут предоставить другие конфиденциальные браузеры.
 
-==Для улучшения системы скрытия цифровых отпечатков мы рекомендуем использовать Mullvad Browser в сочетании **с** VPN==, будь то Mullvad или другой рекомендованный VPN провайдер. Используя VPN с Mullvad Browser, у вас и других пользователей будет общий цифровой отпечаток браузера и пул IP-адресов, что позволит вам слиться с «толпой». Эта стратегия - единственный способ противостоять продвинутым скриптам отслеживания, и это та же самая техника защиты от цифровых отпечатков, которую использует Tor Browser.
+==Для улучшения системы скрытия цифровых отпечатков мы рекомендуем использовать Mullvad Browser в сочетании **с** VPN==, будь то Mullvad или другой рекомендованный VPN провайдер. Используя VPN с Mullvad Browser, у вас и других пользователей будет общий цифровой отпечаток браузера и пул IP-адресов, что позволит вам слиться с «толпой». This strategy is the best way to defend against advanced tracking scripts, and is the same anti-fingerprinting technique used by Tor Browser.
 
 Обратите внимание, что, если вы пользуетесь Mullvad Browser с каким-то VPN, то другие люди с этим VPN тоже должны использовать Mullvad Browser, чтобы эта «толпа» существовала, что становится более вероятным с Mullvad VPN. Mullvad Browser ни имеет встроенной возможности подключаться к VPN, ни проверяет, используете ли вы VPN; вы должны сами настроить и управлять своим VPN-соединением.
 

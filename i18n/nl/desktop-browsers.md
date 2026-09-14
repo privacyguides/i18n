@@ -63,7 +63,7 @@ schema:
 
 Dit zijn momenteel onze aanbevolen **desktop webbrowsers** en configuraties voor standaard/ niet-anoniem internetten. Wij bevelen [Mullvad Browser](#mullvad-browser) aan als je gericht bent op sterke privacybescherming en anti-vingerafdrukken, [Firefox](#firefox) voor casual internetters op zoek naar een goed alternatief voor Google Chrome, en [Brave](#brave) als je Chromium-browsercompatibiliteit nodig hebt.
 
-Als je anoniem wil browsen, gebruik in plaats daarvan dan [ Tor](tor.md). We doen een aantal aanbevelingen voor configuratie op deze pagina, maar alle andere browsers dan Tor Browser zullen op de een of andere manier door *iemand* getraceerd kunnen worden.
+If you need to browse the internet anonymously, you should use [Tor Browser](tor.md) instead. We make some configuration recommendations on this page, but Tor Browser offers the best protections against online tracking.
 
 ## Mullvad Browser
 
@@ -89,7 +89,7 @@ Mullvad Browser logo](assets/img/browsers/mullvad_browser.svg){ align=right }
 
 </div>
 
-Net als [ Tor Browser](tor.md) is Mullvad Browser ontworpen om vingerafdrukken te voorkomen door jouw browser vingerafdruk identiek te maken aan andere Mulvad Browser gebruikers, en bevat standaard instellingen en extensies die automatisch worden geconfigureerd aan de standaard beveiligingsniveaus: *Standaard*, *Veilig* en *Veiligst*.
+Like [Tor Browser](tor.md), Mullvad Browser is designed to prevent fingerprinting by making your browser fingerprint similar to a large number of other Mullvad Browser users, and it includes default settings and extensions that are automatically configured by the default security levels: *Standard*, *Safer* and *Safest*.
 
 Daarom is het absoluut noodzakelijk dat je de browser niet wijzigt buiten het aanpassen van de standaard [beveiligingsniveaus](https://tb-manual.torproject.org/security-settings). Wanneer je het beveiligingsniveau aanpast, **moet** je de browser altijd opnieuw opstarten voordat je deze verder gebruikt. Anders [worden de beveiligingsinstellingen mogelijk niet volledig toegepast](https://www.privacyguides.org/articles/2025/05/02/tor-security-slider-flaw), waardoor je een hoger risico loopt op vingerafdrukken en exploitatie dan je zou verwachten op basis van de gekozen instelling.
 
@@ -99,7 +99,7 @@ Andere wijzigingen zouden jouw vingerafdruk uniek maken, wat het doel van het ge
 
 **Zonder** een [VPN](vpn.md) te gebruiken, biedt Mullvad Browser bescherming tegen [naïeve fingerprinting scripts](https://github.com/arkenfox/user.js/wiki/3.3-Overrides-%5BTo-RFP-or-Not%5D#-fingerprinting), vergelijkbaar met andere privébrowsers zoals Firefox+[Arkenfox](#arkenfox-advanced) of [Brave](#brave). Mullvad Browser biedt deze bescherming, ten koste van enige mate van flexibiliteit en gemak die andere privé-browsers kunnen bieden.
 
-==Voor de sterkste bescherming tegen vingerafdrukken raden we aan Mullvad Browser te gebruiken in combinatie **met** een VPN==, of dat nu Mullvad is of een andere aanbevolen VPN-provider. Wanneer je een VPN met Mullvad Browser gebruikt, deelt je een vingerafdruk en een pool van IP-adressen met vele andere gebruikers, waardoor je een "menigte" krijgt om in op te gaan. Deze strategie is de enige manier om geavanceerde volgscripts te dwarsbomen, en is dezelfde anti-vingerafdruk techniek die Tor Browser gebruikt.
+==Voor de sterkste bescherming tegen vingerafdrukken raden we aan Mullvad Browser te gebruiken in combinatie **met** een VPN==, of dat nu Mullvad is of een andere aanbevolen VPN-provider. Wanneer je een VPN met Mullvad Browser gebruikt, deelt je een vingerafdruk en een pool van IP-adressen met vele andere gebruikers, waardoor je een "menigte" krijgt om in op te gaan. This strategy is the best way to defend against advanced tracking scripts, and is the same anti-fingerprinting technique used by Tor Browser.
 
 Denk eraan dat je Mullvad Browser kunt gebruiken met elke VPN-provider, maar dat andere mensen op die VPN ook Mullvad Browser moeten gebruiken om deze "menigte" te laten bestaan, iets wat waarschijnlijker is bij Mullvad VPN in vergelijking met andere providers. Mullvad Browser heeft geen ingebouwde VPN-verbinding en controleert niet of je een VPN gebruikt voordat je gaat browsen; jouw VPN-verbinding moet apart worden geconfigureerd en beheerd.
 

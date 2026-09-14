@@ -63,7 +63,7 @@ schema:
 
 These are our currently recommended **desktop web browsers** and configurations for standard/non-anonymous browsing. Προτείνουμε τον [Mullvad Browser](#mullvad-browser) εαν σε απασχολεί ιδιαίτερα η ιδιωτικότητα και η προστασία του ψηφιακού σου αποτυπώματος και θέλεις αυτά να υφίστανται από προεπιλογή, [το Firefox](#firefox) για καθημερινή περιήγηση αν κυρίως αναζητάς μια καλή εναλλακτική στο Google Chrome, και τέλος [το Brave](#brave) αν χρειάζεσαι συμβατότητα με περιηγητές τύπου Chromium.
 
-Εάν χρειάζεται να περιηγηθείς στο διαδίκτυο ανώνυμα, θα πρέπει να χρησιμοποιήσεις το [Tor](tor.md). Προτείνουμε ορισμένες ρυθμίσεις στην παρούσα σελίδα, μα όλοι οι περιηγητές εκτός του Tor Browser θα είναι ανιχνεύσιμοι από *κάποιο* με τον έναν ή τον άλλο τρόπο, ανεξαρτήτως ρυθμίσεων.
+If you need to browse the internet anonymously, you should use [Tor Browser](tor.md) instead. We make some configuration recommendations on this page, but Tor Browser offers the best protections against online tracking.
 
 ## Mullvad Browser
 
@@ -89,7 +89,7 @@ These are our currently recommended **desktop web browsers** and configurations 
 
 </div>
 
-Like [Tor Browser](tor.md), Mullvad Browser is designed to prevent fingerprinting by making your browser fingerprint identical to all other Mullvad Browser users, and it includes default settings and extensions that are automatically configured by the default security levels: *Standard*, *Safer* and *Safest*.
+Like [Tor Browser](tor.md), Mullvad Browser is designed to prevent fingerprinting by making your browser fingerprint similar to a large number of other Mullvad Browser users, and it includes default settings and extensions that are automatically configured by the default security levels: *Standard*, *Safer* and *Safest*.
 
 Therefore, it is imperative that you do not modify the browser at all outside adjusting the default [security levels](https://tb-manual.torproject.org/security-settings). When adjusting the security level, you **must** always restart the browser before continuing to use it. Otherwise, [the security settings may not be fully applied](https://www.privacyguides.org/articles/2025/05/02/tor-security-slider-flaw), putting you at a higher risk of fingerprinting and exploits than you may expect based on the setting chosen.
 
@@ -99,7 +99,7 @@ Modifications other than adjusting this setting would make your fingerprint uniq
 
 **Without** using a [VPN](vpn.md), Mullvad Browser provides protections against [naive fingerprinting scripts](https://github.com/arkenfox/user.js/wiki/3.3-Overrides-%5BTo-RFP-or-Not%5D#-fingerprinting) similar to other private browsers like Firefox+[Arkenfox](#arkenfox-advanced) or [Brave](#brave). Ο Mullvad Browser παρέχει εξαρχής αυτές τις προστασίες εις βάρος ορισμένης ευελιξίας και ευχρηστίας που δύναται να παρέχουν άλλοι ιδιωτικοί περιηγητές.
 
-==Για την ισχυρότερη προστασία έναντι του fingerprinting, συνιστούμε τη χρήση του περιηγητή Mullvad σε συνδυασμό **με** ένα VPN==, είτε αυτό είναι της Mullvad είτε ενός άλλου συνιστώμενου παρόχου VPN. Όταν χρησιμοποιείτε ένα VPN με το περιηγητή Mullvad, θα μοιράζεστε ένα ψηφιακό δακτυλικό αποτύπωμα και μια ομάδα διευθύνσεων IP με πολλούς άλλους χρήστες, δίνοντάς σας έτσι ένα "πλήθος" για να κρυφτείται ανάμεσα. Αυτή η στρατηγική είναι ο μόνος τρόπος για να αποτρέψεις προηγμένα ιχνηλατικά σκριπτάκια, και είναι η ίδια τεχνική anti-fingerprinting που χρησιμοποιεί ο Tor Browser.
+==Για την ισχυρότερη προστασία έναντι του fingerprinting, συνιστούμε τη χρήση του περιηγητή Mullvad σε συνδυασμό **με** ένα VPN==, είτε αυτό είναι της Mullvad είτε ενός άλλου συνιστώμενου παρόχου VPN. Όταν χρησιμοποιείτε ένα VPN με το περιηγητή Mullvad, θα μοιράζεστε ένα ψηφιακό δακτυλικό αποτύπωμα και μια ομάδα διευθύνσεων IP με πολλούς άλλους χρήστες, δίνοντάς σας έτσι ένα "πλήθος" για να κρυφτείται ανάμεσα. This strategy is the best way to defend against advanced tracking scripts, and is the same anti-fingerprinting technique used by Tor Browser.
 
 Note that while you can use Mullvad Browser with any VPN provider, other people on that VPN must also be using Mullvad Browser for this "crowd" to exist, something which is more likely on Mullvad VPN compared to other providers. Ο περιηγητής Mullvad δε διαθέτει ενσωματωμένη συνδεσιμότητα VPN, ούτε ελέγχει εάν χρησιμοποιείτε ένα VPN πριν από την περιήγηση- η σύνδεση VPN πρέπει να ρυθμιστεί και να υπόκειται σε διαχείρισή ξεχωριστά.
 

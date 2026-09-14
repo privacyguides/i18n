@@ -63,7 +63,7 @@ schema:
 
 Це наші поточні рекомендовані **веббраузери для ПК** та конфігурації для стандартного/неанонімного перегляду. Ми рекомендуємо [Mullvad Browser](#mullvad-browser), якщо вам потрібен надійний захист конфіденційності та захист від цифрових відбитків "з коробки", [Firefox](#firefox) браузер для повсякденних потреб і хорошу альтернативу Google Chrome, і [Brave](#brave), якщо вам потрібна сумісність з браузером Chromium.
 
-Якщо вам потрібно переглядати інтернет анонімно, використовуйте [Tor](tor.md). На цій сторінці ми надаємо деякі рекомендації щодо налаштування, але всі браузери, окрім Tor Browser, так чи інакше будуть відстежуватися *кимось*.
+If you need to browse the internet anonymously, you should use [Tor Browser](tor.md) instead. We make some configuration recommendations on this page, but Tor Browser offers the best protections against online tracking.
 
 ## Браузер Mullvad
 
@@ -89,7 +89,7 @@ schema:
 
 </div>
 
-Як і [Tor Browser](tor.md), Mullvad Browser розроблений для запобігання зняття цифрових відбитків, роблячи ваш відбиток ідентичним з відбитками всіх інших користувачів Mullvad Browser, і включає в себе налаштування за замовчуванням і розширення, які автоматично налаштовуються на рівні безпеки за замовчуванням: *Стандартний*, *Безпечний* та *Найбезпечніший*.
+Like [Tor Browser](tor.md), Mullvad Browser is designed to prevent fingerprinting by making your browser fingerprint similar to a large number of other Mullvad Browser users, and it includes default settings and extensions that are automatically configured by the default security levels: *Standard*, *Safer* and *Safest*.
 
 Тому вкрай важливо, щоб ви взагалі не змінювали браузер, окрім налаштування [рівнів безпеки](https://tb-manual.torproject.org/security-settings) за замовчуванням. При зміні рівня безпеки завжди **потрібно** перезапускати браузер, перш ніж продовжувати користуватися ним. В іншому випадку [налаштування безпеки можуть бути застосовані не в повному обсязі](https://www.privacyguides.org/articles/2025/05/02/tor-security-slider-flaw), що призведе до більшого ризику зняття відбитків та їх використання зловмисниками, ніж ви можете очікувати, виходячи з обраних налаштувань.
 
@@ -99,7 +99,7 @@ schema:
 
 **Without** using a [VPN](vpn.md), Mullvad Browser provides protections against [naive fingerprinting scripts](https://github.com/arkenfox/user.js/wiki/3.3-Overrides-%5BTo-RFP-or-Not%5D#-fingerprinting) similar to other private browsers like Firefox+[Arkenfox](#arkenfox-advanced) or [Brave](#brave). Mullvad Browser надає ці засоби захисту "з коробки", шляхом певної гнучкості та зручності, які можуть забезпечити й інші приватні браузери.
 
-==Для найсильнішого захисту від відбитків ми рекомендуємо використовувати Mullvad Browser у поєднанні **з** VPN, будь то Mullvad або інший рекомендований VPN-провайдер. Використовуючи VPN з Mullvad Browser, ви ділитеся відбитком браузера і пулом IP-адрес з багатьма іншими користувачами, створюючи "натовп", з яким можна змішатися. Ця стратегія - єдиний спосіб перешкодити просунутим скриптам стеження, і це той самий метод боротьби з відбитками, що використовується браузером Tor.
+==Для найсильнішого захисту від відбитків ми рекомендуємо використовувати Mullvad Browser у поєднанні **з** VPN, будь то Mullvad або інший рекомендований VPN-провайдер. Використовуючи VPN з Mullvad Browser, ви ділитеся відбитком браузера і пулом IP-адрес з багатьма іншими користувачами, створюючи "натовп", з яким можна змішатися. This strategy is the best way to defend against advanced tracking scripts, and is the same anti-fingerprinting technique used by Tor Browser.
 
 Note that while you can use Mullvad Browser with any VPN provider, other people on that VPN must also be using Mullvad Browser for this "crowd" to exist, something which is more likely on Mullvad VPN compared to other providers. Mullvad Browser не має вбудованого VPN-з'єднання, а також не перевіряє, чи використовуєте ви VPN перед переглядом вебсторінок; ваше VPN-з'єднання має бути налаштоване і кероване окремо.
 

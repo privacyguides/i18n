@@ -63,7 +63,7 @@ schema:
 
 Ezek az általunk jelenleg ajánlott **asztali webböngészők** és konfigurációk a hétköznapi, nem anonim böngészéshez. A [Mullvad Böngészőt](#mullvad-browser) ajánljuk, ha kiemelten fontos számodra az erős adatvédelem és az alapértelmezett ujjlenyomat-védelem, a [Firefox](#firefox)-ot azoknak ajánljuk, akik jó alternatívát keresnek a Google Chrome-hoz, és csak hétköznapi internetezők. A [Brave](#brave)-et pedig akkor, ha szükséged van a Chromium böngésző kompatibilitására.
 
-Ha névtelenül szeretnél böngészni az interneten, használd inkább a [Tor](tor.md) szolgáltatást. Ezen az oldalon teszünk néhány konfigurációs ajánlást, de a Tor Böngésző kivételével minden más böngésző *lekövehtető* valamilyen módon.
+If you need to browse the internet anonymously, you should use [Tor Browser](tor.md) instead. We make some configuration recommendations on this page, but Tor Browser offers the best protections against online tracking.
 
 ## Mullvad Browser
 
@@ -89,7 +89,7 @@ Ha névtelenül szeretnél böngészni az interneten, használd inkább a [Tor](
 
 </div>
 
-Like [Tor Browser](tor.md), Mullvad Browser is designed to prevent fingerprinting by making your browser fingerprint identical to all other Mullvad Browser users, and it includes default settings and extensions that are automatically configured by the default security levels: *Standard*, *Safer* and *Safest*.
+Like [Tor Browser](tor.md), Mullvad Browser is designed to prevent fingerprinting by making your browser fingerprint similar to a large number of other Mullvad Browser users, and it includes default settings and extensions that are automatically configured by the default security levels: *Standard*, *Safer* and *Safest*.
 
 Therefore, it is imperative that you do not modify the browser at all outside adjusting the default [security levels](https://tb-manual.torproject.org/security-settings). When adjusting the security level, you **must** always restart the browser before continuing to use it. Otherwise, [the security settings may not be fully applied](https://www.privacyguides.org/articles/2025/05/02/tor-security-slider-flaw), putting you at a higher risk of fingerprinting and exploits than you may expect based on the setting chosen.
 
@@ -99,7 +99,7 @@ Modifications other than adjusting this setting would make your fingerprint uniq
 
 **Without** using a [VPN](vpn.md), Mullvad Browser provides protections against [naive fingerprinting scripts](https://github.com/arkenfox/user.js/wiki/3.3-Overrides-%5BTo-RFP-or-Not%5D#-fingerprinting) similar to other private browsers like Firefox+[Arkenfox](#arkenfox-advanced) or [Brave](#brave). A Mullvad böngésző beépítetten ezeket a védelmi mechanizmusokat biztosítja, azonban ennek következtében némi rugalmasság és kényelem elvesztésével jár, szemben a más privát böngészők nyújtotta lehetőségekkel.
 
-== A legerősebb ujjlenyomat-védelem érdekében javasoljuk, hogy a Mullvad Browser-t VPN-nel **együtt** használja==, legyen az a Mullvad vagy egy másik ajánlott VPN szolgáltató. Amikor VPN-el együtt használod a Mullvad Böngészőt, akkor egy ujjlenyomatot és egy IP-címtartományt osztasz meg sok más felhasználóval, így elvegyülhetsz a "tömegben". Ez a stratégia az egyetlen módja a fejlett nyomkövető szkriptek meghiúsításának, és ugyanezt az ujjlenyomat-ellenes technikát használja a Tor Böngésző is.
+== A legerősebb ujjlenyomat-védelem érdekében javasoljuk, hogy a Mullvad Browser-t VPN-nel **együtt** használja==, legyen az a Mullvad vagy egy másik ajánlott VPN szolgáltató. Amikor VPN-el együtt használod a Mullvad Böngészőt, akkor egy ujjlenyomatot és egy IP-címtartományt osztasz meg sok más felhasználóval, így elvegyülhetsz a "tömegben". This strategy is the best way to defend against advanced tracking scripts, and is the same anti-fingerprinting technique used by Tor Browser.
 
 Note that while you can use Mullvad Browser with any VPN provider, other people on that VPN must also be using Mullvad Browser for this "crowd" to exist, something which is more likely on Mullvad VPN compared to other providers. A Mullvad Böngészőnek nincs beépített VPN kapcsolódási lehetősége, és nem ellenőrzi, hogy VPN-t használsz-e a böngészés előtt; a VPN kapcsolatot külön kell konfigurálni és kezelni.
 
