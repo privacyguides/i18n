@@ -35,7 +35,6 @@ Commencez par vérifier que vos données sont disponibles en cherchant sur ces s
 - InfoTracer ([Recherche](https://infotracer.com), [Suppression](https://infotracer.com/optout))
 - Intelius ([Recherche](https://intelius.com), [Suppression](https://suppression.peopleconnect.us/login))
 - PublicDataUSA ([Recherche](https://publicdatausa.com), [Suppression](https://publicdatausa.com/remove.php))
-- Radaris ([Recherche](https://radaris.com), [Suppression](https://radaris.com/page/how-to-remove))
 - Spokeo ([Recherche](https://spokeo.com/search), [Suppression](https://spokeo.com/optout))
 - That's Them ([Recherche](https://thatsthem.com), [Suppression](https://thatsthem.com/optout))
 - USPhonebook ([Recherche et Suppression](https://usphonebook.com/opt-out))

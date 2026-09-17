@@ -35,7 +35,6 @@ cover: data-broker-removals.webp
 - InfoTracer（[搜尋](https://infotracer.com)、[退出](https://infotracer.com/optout)）
 - Intelius（[搜尋](https://intelius.com)、[退出](https://suppression.peopleconnect.us/login)）
 - PublicDataUSA（[搜尋](https://publicdatausa.com)、[退出](https://publicdatausa.com/remove.php)）
-- Radaris（[搜尋](https://radaris.com)、[退出](https://radaris.com/page/how-to-remove)）
 - Spokeo（[搜尋](https://spokeo.com/search)、[退出](https://spokeo.com/optout)）
 - That's Them（[搜尋](https://thatsthem.com)、[退出](https://thatsthem.com/optout)）
 - USPhonebook（[搜尋並退出](https://usphonebook.com/opt-out)）

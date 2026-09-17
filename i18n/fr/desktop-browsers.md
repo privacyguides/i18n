@@ -63,7 +63,7 @@ schema:
 
 Voici les **navigateurs internet** et configurations actuellement recommandés pour la navigation standard/non-anonyme. Nous recommandons le [Navigateur Mullvad](#mullvad-browser) si vous recherchez des protections solides de la vie privée et une protection contre la capture des empreintes numériques, [Firefox](#firefox) pour les internautes occasionnels qui recherchent une bonne alternative à Google Chrome, et [Brave](#brave) si vous avez besoin d'une compatibilité avec le navigateur Chromium.
 
-If you need to browse the internet anonymously, you should use [Tor Browser](tor.md) instead. We make some configuration recommendations on this page, but Tor Browser offers the best protections against online tracking.
+Si vous souhaitez naviguer sur Internet de manière anonyme, vous devriez plutôt utiliser [le navigateur Tor](tor.md). Nous faisons quelques recommandations de configuration sur cette page, mais le navigateur Tor offre les meilleures protections contre le suivi en ligne.
 
 ## Navigateur Mullvad
 
