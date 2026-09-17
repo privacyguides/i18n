@@ -276,7 +276,7 @@ Si vous recherchez une **sécurité** supplémentaire, vous devez toujours vous 
 
 #### Fournisseurs de DNS
 
-We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers based on a variety of criteria, such as [Quad9](https://quad9.net) amongst others. Nous vous recommandons de lire nos pages sur les DNS avant de choisir un fournisseur. Dans de nombreux cas, l'utilisation d'un autre fournisseur de DNS n'est pas recommandée.
+Nous [recommandons](dns.md#recommended-providers) plusieurs serveurs DNS cryptés, sélectionnés selon divers critères, tels que [Quad9](https://quad9.net), entre autres. Nous vous recommandons de lire nos pages sur les DNS avant de choisir un fournisseur. Dans de nombreux cas, l'utilisation d'un autre fournisseur de DNS n'est pas recommandée.
 
 [En savoir plus :material-arrow-right-drop-circle:](dns.md)
 

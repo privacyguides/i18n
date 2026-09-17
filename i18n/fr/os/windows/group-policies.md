@@ -133,11 +133,11 @@ Ce dernier paramètre désactive OneDrive sur votre système ; veillez à le mod
 <div class="admonition info" markdown>
 <p class="admonition-title">Windows Recall</p>
 
-Windows 11 recently introduced a feature called **Recall**, which records all your activity and creates a searchable archive of that activity history. This is a massive privacy vulnerability, because those archives can potentially store highly sensitive information (essentially anything displayed on your screen), and malware without any special permissions or admin access can trivially [access](https://github.com/xaitax/TotalRecall) the full Recall database anytime after it is unlocked.
+Windows 11 a récemment introduit une fonctionnalité appelée **Recall**, qui enregistre toutes vos activités et crée une archive consultable de cet historique d'activités. Il s'agit d'une faille de sécurité majeure en matière de confidentialité, car ces archives peuvent potentiellement contenir des informations hautement sensibles (pratiquement tout ce qui s'affiche sur votre écran), et un logiciel malveillant, sans aucune autorisation particulière ni accès administrateur, peut très facilement [accéder](https://github.com/xaitax/TotalRecall) à l'intégralité de la base de données Recall à tout moment une fois celle-ci déverrouillée.
 
 </div>
 
-- Turn off saving snapshots for use with Recall: **Enabled**
+- Désactiver l'enregistrement des instantanés pour une utilisation avec Recall : **Activé**
 
 #### Rapport d'erreurs Windows
 

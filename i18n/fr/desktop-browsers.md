@@ -89,7 +89,7 @@ Le **navigateur Mullvad** est une version de [navigateur Tor](tor.md#tor-browser
 
 </div>
 
-Like [Tor Browser](tor.md), Mullvad Browser is designed to prevent fingerprinting by making your browser fingerprint similar to a large number of other Mullvad Browser users, and it includes default settings and extensions that are automatically configured by the default security levels: *Standard*, *Safer* and *Safest*.
+Tout comme [Tor](tor.md), le navigateur Mullvad est conçu pour empêcher l'identification par empreinte numérique en rendant l'empreinte numérique de votre navigateur similaire à celle d'un grand nombre d'autres utilisateurs du navigateur Mullvad. Il intègre des paramètres par défaut et des extensions qui sont automatiquement configurés en fonction des niveaux de sécurité par défaut : « *Standard* », « *Safer* » et « *Safest* ».
 
 Il est donc impératif de ne pas modifier le navigateur mis à part l'ajustement des [niveaux de sécurité](https://tb-manual.torproject.org/security-settings) par défaut. Lorsque vous réglez le niveau de sécurité, vous **devez** toujours redémarrer le navigateur avant de continuer à l'utiliser. Dans le cas contraire, [les paramètres de sécurité peuvent ne pas être entièrement appliqués](https://www.privacyguides.org/articles/2025/05/02/tor-security-slider-flaw), ce qui vous expose à un risque plus élevé de captures d'empreinte et de vulnérabilités que vous ne l'auriez imaginé sur la base des paramètres choisis.
 
@@ -99,7 +99,7 @@ Toute modification autre que le réglage de ce paramètre rendrait votre emprein
 
 **Sans** utiliser de [VPN](vpn.md), Mullvad Browser protège contre [les scripts rudimentaires de reconnaissance d'empreintes numériques ](https://github.com/arkenfox/user.js/wiki/3.3-Overrides-%5BTo-RFP-or-Not%5D#-fingerprinting) de la même façon que Firefox+[Arkenfox](#arkenfox-advanced) ou [Brave](#brave). Le Navigateur Mullvad fournit ces protections dès le départ, au détriment d'une certaine flexibilité et d'une commodité que d'autres navigateurs privés peuvent offrir.
 
-==Pour une protection anti-capture d'empreintes numériques optimale, nous recommandons d'utiliser le Navigateur Mullvad en conjonction **avec** un VPN==, qu'il s'agisse de Mullvad ou d'un autre fournisseur de VPN recommandé. Lorsque vous utilisez un VPN avec le Navigateur Mullvad, vous partagez une empreinte numérique et un ensemble d'adresses IP avec de nombreux autres utilisateurs, ce qui vous permet de vous fondre dans la "foule". This strategy is the best way to defend against advanced tracking scripts, and is the same anti-fingerprinting technique used by Tor Browser.
+==Pour une protection anti-capture d'empreintes numériques optimale, nous recommandons d'utiliser le Navigateur Mullvad en conjonction **avec** un VPN==, qu'il s'agisse de Mullvad ou d'un autre fournisseur de VPN recommandé. Lorsque vous utilisez un VPN avec le Navigateur Mullvad, vous partagez une empreinte numérique et un ensemble d'adresses IP avec de nombreux autres utilisateurs, ce qui vous permet de vous fondre dans la "foule". Cette stratégie constitue le meilleur moyen de se protéger contre les scripts de suivi sophistiqués ; il s'agit de la même technique anti-empreinte numérique que celle utilisée par le navigateur Tor.
 
 Bien qu'il soit possible d'utiliser Mullvad Browser avec n'importe quel service VPN, les autres utilisateurs sur ce VPN doivent aussi utiliser Mullvad Browser pour que la "foule" existe, ce qui est plus probable avec Mullvad VPN qu'avec d'autres fournisseurs. Le Navigateur Mullvad ne dispose pas d'une connectivité VPN intégrée et ne vérifie pas non plus si vous utilisez un VPN avant de naviguer ; votre connexion VPN doit être configurée et gérée séparément.
 
@@ -330,7 +330,7 @@ Les fonctionnalités Web3 de Brave peuvent potentiellement ajouter à l'empreint
 
 - Sélectionnez **Extensions (no fallback)** sous *Portefeuille Ethereum par défaut*
 - Sélectionnez **Extensions (no fallback)** sous *Default Solana wallet (portefeuille Solana par défaut)*
-- Select **Extensions (no fallback)** under *Default Cardano wallet*
+- Sélectionnez « **Extensions » (no fallback)** dans *le portefeuille Cardano par défaut*
 
 #### Extensions
 

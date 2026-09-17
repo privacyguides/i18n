@@ -92,7 +92,7 @@ Il est essentiel de comprendre la différence entre contourner la censure et éc
 
 ### Le Navigateur Tor n'est pas le navigateur le plus *sûr*
 
-Anonymity can often be at odds with security. Tor achieves anonymity by ensuring every user appears identical, creating a digital monoculture where the same vulnerabilities exist across all installations. In cybersecurity, monocultures are generally considered a risk. Security through diversity provides natural segmentation by limiting the impact of an exploit to a smaller segment of users. While such diversity is structurally desirable for security, it inherently compromises user anonymity by making individuals trackable.
+L'anonymat peut souvent aller à l'encontre de la sécurité. Tor garantit l'anonymat en veillant à ce que tous les utilisateurs se présentent de manière identique, créant ainsi une « monoculture numérique » où les mêmes vulnérabilités existent dans toutes les installations. En matière de cybersécurité, les monocultures sont généralement considérées comme un risque. La sécurité par la diversité assure une segmentation naturelle en limitant l'impact d'une faille à un groupe restreint d'utilisateurs. Si une telle diversité est souhaitable d'un point de vue structurel pour la sécurité, elle compromet toutefois intrinsèquement l'anonymat des utilisateurs en rendant ces derniers identifiables.
 
 En outre, le Navigateur Tor est basé sur les versions Extended Support Release de Firefox, qui ne reçoivent des correctifs que pour les vulnérabilités considérées comme *Critique* et *Élevée* (et non pour celles *Moyenne* et *Faible*). Cela signifie que les attaquants pourraient (par exemple) :
 

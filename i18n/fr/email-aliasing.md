@@ -120,9 +120,9 @@ Après l'avoir résilié, les avantages de votre abonnement restent valables jus
 
 </div>
 
-SimpleLogin was [acquired by Proton AG](https://proton.me/news/proton-and-simplelogin-join-forces) on April 8, 2022, making it an excellent option for users of [Proton Mail](email.md#proton-mail) as their primary mailbox. With this acquisition, you only need to trust a single entity for your email services. SimpleLogin still allows forwarding to any email provider of your choice.
+SimpleLogin a été [racheté par Proton AG](https://proton.me/news/proton-and-simplelogin-join-forces) le 8 avril 2022, ce qui en fait une excellente option pour les utilisateurs de [Proton Mail](email.md#proton-mail) comme boîte mail principale. Grâce à cette acquisition, vous n'avez plus qu'à faire confiance à un seul prestataire pour vos services de messagerie électronique. SimpleLogin vous permet toujours de transférer vos e-mails vers le fournisseur de messagerie de votre choix.
 
-Vous pouvez lier votre compte SimpleLogin dans les paramètres avec votre compte Proton. SimpleLogin est gratuit pour tous les utilisateurs de Proton Pass Plus, Proton Unlimited, ou tout autre abonnement Proton multi utilisateur. Likewise both the [Free and Premium tiers](https://simplelogin.io/pricing/) of SimpleLogin now include Proton Pass subscriptions. Vous pouvez également acheter une bon pour SimpleLogin Premium de façon anonyme via leur fournisseur officiel [ProxyStore](https://simplelogin.io/faq).
+Vous pouvez lier votre compte SimpleLogin dans les paramètres avec votre compte Proton. SimpleLogin est gratuit pour tous les utilisateurs de Proton Pass Plus, Proton Unlimited, ou tout autre abonnement Proton multi utilisateur. De même, les deux [formules Free et Premium](https://simplelogin.io/pricing/) de SimpleLogin incluent désormais des abonnements à Proton Pass. Vous pouvez également acheter une bon pour SimpleLogin Premium de façon anonyme via leur fournisseur officiel [ProxyStore](https://simplelogin.io/faq).
 
 Securitum a [audité](https://simplelogin.io/blog/security-audit) SimpleLogin au début de 2022 et tous les problèmes [ont été résolus](https://simplelogin.io/audit2022/web.pdf).
 

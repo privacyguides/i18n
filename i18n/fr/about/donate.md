@@ -32,9 +32,9 @@ La plateforme de dons personnalisée et open-source MAGIC Grant, notre hôte fis
     ![Power Up Privacy]{ title="Power Up Privacy" }
     [![Cape]](https://www.cape.co){ target=_blank title="Cape" }
 
-      [Power Up Privacy]: ../assets/img/donors/power-up-privacy.webp
-      [DeleteMe]: ../assets/img/donors/deleteme.webp
-      [Cape]: ../assets/img/donors/cape.webp
+      [Power Up Privacy] : ../assets/img/donors/power-up-privacy.webp
+      [DeleteMe] : ../assets/img/donors/deleteme.webp
+      [Cape] : ../assets/img/donors/cape.webp
 
     </div>
 
@@ -43,7 +43,7 @@ La plateforme de dons personnalisée et open-source MAGIC Grant, notre hôte fis
     Nous remercions ces organismes d'avoir soutenu Privacy Guides de façon aussi significative.
 
     - [Safing](https://safing.io){ rel=nofollow target=_blank }: 2019 – 2021
-    - [DeleteMe](https://joindeleteme.com){ rel=nofollow target=_blank }: 2025
+    - [DeleteMe](https://joindeleteme.com){ rel=nofollow target=_blank } : 2025
 
 ## Membres Actifs
 
