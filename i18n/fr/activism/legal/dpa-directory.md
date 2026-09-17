@@ -386,7 +386,553 @@ Par exemple, l’APD de l’État de l’Oregon, aux États-Unis, précise que :
   <table role="table" class="dpadirectory-table table-europe">
     <caption role="caption">Annuaire de l’autorité de protection des données (Europe)</caption>
 
+    <!-- En-tête du tableau -->
+    <thead>
+      <tr role="row">
+        <th role="column">Région</th>
+        <th role="column" class="table-large-cell">Loi sur la protection de la vie privée</th>
+        <th role="column">Abréviation</th>
+        <th role="column" class="table-large-cell">Autorité de protection des données</th>
+        <th role="column">Coordonnées</th>
+        <th role="column">Plainte</th>
+      </tr>
+    </thead>
     
+    <tbody role="rowgroup">
+    
+      <!-- Union européenne -->
+      <tr role="row">
+        <td data-cell="Region" role="rowheader"><b>Union européenne</b></td>
+        <td data-cell="Law" role="cell"><a href="https://eur-lex.europa.eu/eli/reg/2018/1725/oj/eng/pdf" target="_blank">
+         Règlement (CE) n° 2018/1725
+        </a></td>
+        <td data-cell="Abbreviation" role="cell">-</td>
+        <td data-cell="DPA" role="cell"><a href="https://www.edps.europa.eu/" target="_blank">
+          Contrôleur européen de la protection des données (CEPD)
+        </a></td>
+        <td data-cell="Contact" role="cell"><a href="https://www.edps.europa.eu/about-edps/contact_en" target="_blank">Page de contact</a></td>
+        <td data-cell="Complaint" role="cell"><a href="https://www.edps.europa.eu/data-protection/our-role-supervisor/complaints_en" target="_blank">Lien pour déposer une plainte</a></td>
+      </tr>
+    
+      <!-- Autriche (Union européenne) -->
+      <tr role="row">
+        <td data-cell="Region" role="rowheader">Autriche</td>
+        <td data-cell="Law" role="cell"><a href="https://gdpr-info.eu/" target="_blank">
+          Règlement général sur la protection des données
+        </a></td>
+        <td data-cell="Abbreviation" role="cell">RGPD</td>
+        <td data-cell="DPA" role="cell"><a href="https://data-protection-authority.gv.at/data-protection-in-austria/duplikat-data-protection-in-austria" target="_blank">
+          Autorité autrichienne de protection des données (DSB)
+        </a></td>
+        <td data-cell="Contact" role="cell"><a href="https://data-protection-authority.gv.at/" target="_blank">Page de contact</a></td>
+        <td data-cell="Complaint" role="cell"><a href="https://data-protection-authority.gv.at/data-protection-in-austria/right-to-lodge-a-complaint" target="_blank">Lien vers le formulaire de réclamation</a></td>
+      </tr>
+    
+      <!-- Belgique (Union européenne) -->
+      <tr role="row">
+        <td data-cell="Region" role="rowheader">Belgique</td>
+        <td data-cell="Law" role="cell"><a href="https://gdpr-info.eu/" target="_blank">
+          Règlement général sur la protection des données
+        </a></td>
+        <td data-cell="Abbreviation" role="cell">RGPD</td>
+        <td data-cell="DPA" role="cell"><a href="https://www.dataprotectionauthority.be/citizen" target="_blank">
+          Autorité belge de protection des données (APD-GBA)
+        </a></td>
+        <td data-cell="Contact" role="cell"><a href="https://www.dataprotectionauthority.be/citizen/actions/contact" target="_blank">Page de contact</a></td>
+        <td data-cell="Complaint" role="cell"><a href="https://www.dataprotectionauthority.be/citizen/actions/lodge-a-complaint" target="_blank">Lien vers le formulaire de réclamation</a></td>
+      </tr>
+    
+      <!-- Bulgarie (Union européenne) -->
+      <tr role="row">
+        <td data-cell="Region" role="rowheader">Bulgarie</td>
+        <td data-cell="Law" role="cell"><a href="https://gdpr-info.eu/" target="_blank">
+          Règlement général sur la protection des données
+        </a></td>
+        <td data-cell="Abbreviation" role="cell">RGPD</td>
+        <td data-cell="DPA" role="cell"><a href="https://cpdp.bg/en/" target="_blank">
+          Commission pour la protection des données à caractère personnel (CPDP)
+        </a></td>
+        <td data-cell="Contact" role="cell"><a href="https://cpdp.bg/en/contacts/" target="_blank">Page de contact</a></td>
+        <td data-cell="Complaint" role="cell"><a href="https://cpdp.bg/en/lodging-complaints-and-alerts/" target="_blank">Lien vers le formulaire de réclamation</a></td>
+      </tr>
+    
+      <!-- Croatie (Union européenne) -->
+      <tr role="row">
+        <td data-cell="Region" role="rowheader">Croatie</td>
+        <td data-cell="Law" role="cell"><a href="https://gdpr-info.eu/" target="_blank">
+          Règlement général sur la protection des données
+        </a></td>
+        <td data-cell="Abbreviation" role="cell">RGPD</td>
+        <td data-cell="DPA" role="cell"><a href="https://azop.hr/naslovna-english/" target="_blank">
+          Agence croate de protection des données à caractère personnel (AZOP)
+        </a></td>
+        <td data-cell="Contact" role="cell"><a href="https://azop.hr/contact/" target="_blank">Page de contact</a></td>
+        <td data-cell="Complaint" role="cell"><a href="https://azop.hr/how-to-lodge-a-complaint/" target="_blank">Lien vers le formulaire de réclamation</a></td>
+      </tr>
+    
+      <!-- Chypre (Union européenne) -->
+      <tr role="row">
+        <td data-cell="Region" role="rowheader">Chypre</td>
+        <td data-cell="Law" role="cell"><a href="https://gdpr-info.eu/" target="_blank">
+          Règlement général sur la protection des données
+        </a></td>
+        <td data-cell="Abbreviation" role="cell">RGPD</td>
+        <td data-cell="DPA" role="cell"><a href="https://www.dataprotection.gov.cy/" target="_blank">
+          Commissaire à la protection des données à caractère personnel
+        </a></td>
+        <td data-cell="Contact" role="cell"><a href="https://www.dataprotection.gov.cy/dataprotection/dataprotection.nsf/contact_en/contact_en?opendocument" target="_blank">Page de contact</a></td>
+        <td data-cell="Complaint" role="cell"><a href="https://www.dataprotection.gov.cy/dataprotection/dataprotection.nsf/page1i_en/page1i_en?opendocument" target="_blank">Lien vers le formulaire de réclamation</a></td>
+      </tr>
+    
+      <!-- République tchèque (Union européenne) -->
+      <tr role="row">
+        <td data-cell="Region" role="rowheader">République tchèque</td>
+        <td data-cell="Law" role="cell"><a href="https://gdpr-info.eu/" target="_blank">
+          Règlement général sur la protection des données
+        </a></td>
+        <td data-cell="Abbreviation" role="cell">RGPD</td>
+        <td data-cell="DPA" role="cell"><a href="https://uoou.gov.cz/en" target="_blank">
+          Office de protection des données à caractère personnel (UOOU)
+        </a></td>
+        <td data-cell="Contact" role="cell"><a href="https://uoou.gov.cz/en/consultation/contact" target="_blank">Page de contact</a></td>
+        <td data-cell="Complaint" role="cell"><a href="https://uoou.gov.cz/verejnost/stiznost-na-spravce-nebo-zpracovatele" target="_blank">Lien vers le formulaire de réclamation</a></td>
+      </tr>
+    
+      <!-- Danemark (Union européenne) -->
+      <tr role="row">
+        <td data-cell="Region" role="rowheader">Danemark</td>
+        <td data-cell="Law" role="cell"><a href="https://gdpr-info.eu/" target="_blank">
+          Règlement général sur la protection des données
+        </a></td>
+        <td data-cell="Abbreviation" role="cell">RGPD</td>
+        <td data-cell="DPA" role="cell"><a href="https://www.datatilsynet.dk/english" target="_blank">
+          Agence danoise de protection des données
+        </a></td>
+        <td data-cell="Contact" role="cell"><a href="https://www.datatilsynet.dk/english/contact-us" target="_blank">Page de contact</a></td>
+        <td data-cell="Complaint" role="cell"><a href="https://www.datatilsynet.dk/english/file-a-complaint" target="_blank">Lien vers le formulaire de réclamation</a></td>
+      </tr>
+    
+      <!-- Estonie (Union européenne) -->
+      <tr role="row">
+        <td data-cell="Region" role="rowheader">Estonie</td>
+        <td data-cell="Law" role="cell"><a href="https://gdpr-info.eu/" target="_blank">
+          Règlement général sur la protection des données
+        </a></td>
+        <td data-cell="Abbreviation" role="cell">RGPD</td>
+        <td data-cell="DPA" role="cell"><a href="https://www.aki.ee/en" target="_blank">
+          Inspection de la protection des données
+        </a></td>
+        <td data-cell="Contact" role="cell"><a href="https://www.aki.ee/en/contact" target="_blank">Page de contact</a></td>
+        <td data-cell="Complaint" role="cell"><a href="https://www.aki.ee/meist/vota-uhendust/kaebus-isikuandmete-kaitse-asjas#saada-kaebus-isikuan--2" target="_blank">Lien vers le formulaire de réclamation</a></td>
+      </tr>
+    
+      <!-- Finlande (Union européenne) -->
+      <tr role="row">
+        <td data-cell="Region" role="rowheader">Finlande</td>
+        <td data-cell="Law" role="cell"><a href="https://gdpr-info.eu/" target="_blank">
+          Règlement général sur la protection des données
+        </a></td>
+        <td data-cell="Abbreviation" role="cell">RGPD</td>
+        <td data-cell="DPA" role="cell"><a href="https://tietosuoja.fi/en/home" target="_blank">
+          Bureau du médiateur chargé de la protection des données
+        </a></td>
+        <td data-cell="Contact" role="cell"><a href="https://tietosuoja.fi/en/contact-information" target="_blank">Page de contact</a></td>
+        <td data-cell="Complaint" role="cell"><a href="https://tietosuoja.fi/en/request-for-an-order-concerning-the-rights-of-the-data-subject" target="_blank">Lien vers le formulaire de réclamation</a></td>
+      </tr>
+    
+      <!-- France (Union européenne) -->
+      <tr role="row">
+        <td data-cell="Region" role="rowheader">France</td>
+        <td data-cell="Law" role="cell"><a href="https://gdpr-info.eu/" target="_blank">
+          Règlement général sur la protection des données
+        </a></td>
+        <td data-cell="Abbreviation" role="cell">RGPD</td>
+        <td data-cell="DPA" role="cell"><a href="https://www.cnil.fr/en" target="_blank">
+          Commission nationale de l’informatique et des libertés (CNIL)
+        </a></td>
+        <td data-cell="Contact" role="cell"><a href="https://www.cnil.fr/en/contact-us" target="_blank">Page de contact</a></td>
+        <td data-cell="Complaint" role="cell"><a href="https://www.cnil.fr/fr/plaintes" target="_blank">Lien vers le formulaire de réclamation</a></td>
+      </tr>
+    
+      <!-- Allemagne (Union européenne) -->
+      <tr role="row">
+        <td data-cell="Region" role="rowheader">Allemagne</td>
+        <td data-cell="Law" role="cell"><a href="https://gdpr-info.eu/" target="_blank">
+          Règlement général sur la protection des données
+        </a></td>
+        <td data-cell="Abbreviation" role="cell">RGPD</td>
+        <td data-cell="DPA" role="cell"><a href="https://www.bfdi.bund.de/EN/Home/home_node.html" target="_blank">
+          Commissaire fédéral à la protection des données et à la liberté d'information (BfDI)
+        </a></td>
+        <td data-cell="Contact" role="cell"><a href="https://www.bfdi.bund.de/EN/Service/Kontakt/kontakt_node.html" target="_blank">Page de contact</a></td>
+        <td data-cell="Complaint" role="cell"><a href="https://www.bfdi.bund.de/DE/Service/Kontakt/Kontaktfinder/kontaktfinder_node.html" target="_blank">Lien vers le formulaire de réclamation</a></td>
+      </tr>
+    
+      <!-- Grèce (Union européenne) -->
+      <tr role="row">
+        <td data-cell="Region" role="rowheader">Grèce</td>
+       <td data-cell="Law" role="cell"><a href="https://gdpr-info.eu/" target="_blank">
+          Règlement général sur la protection des données
+        </a></td>
+        <td data-cell="Abbreviation" role="cell">RGPD</td>
+        <td data-cell="DPA" role="cell"><a href="https://www.dpa.gr/en" target="_blank">
+          Autorité hellénique de protection des données (HDPA)
+        </a></td>
+        <td data-cell="Contact" role="cell"><a href="https://www.dpa.gr/en" target="_blank">Page de contact</a></td>
+        <td data-cell="Complaint" role="cell"><a href="https://www.dpa.gr/en/individuals/complaint-to-the-hellenic-dpa" target="_blank">Lien vers le formulaire de réclamation</a></td>
+      </tr>
+    
+      <!-- Hongrie (Union européenne) -->
+      <tr role="row">
+        <td data-cell="Region" role="rowheader">Hongrie</td>
+        <td data-cell="Law" role="cell"><a href="https://gdpr-info.eu/" target="_blank">
+          Règlement général sur la protection des données
+        </a></td>
+        <td data-cell="Abbreviation" role="cell">RGPD</td>
+        <td data-cell="DPA" role="cell"><a href="https://www.naih.hu/about-the-authority" target="_blank">
+          Autorité nationale hongroise pour la protection des données et la liberté d'information (NAIH)
+        </a></td>
+        <td data-cell="Contact" role="cell"><a href="https://naih.hu/" target="_blank">Page de contact</a></td>
+        <td data-cell="Complaint" role="cell"><a href="https://www.naih.hu/adatkezeles-erintettjekent-fordulok-a-hatosaghoz/adatvedelmi-hatosagi-eljaras-gdpr" target="_blank">Lien vers le formulaire de réclamation</a></td>
+      </tr>
+    
+      <!-- Islande (Espace économique européen) -->
+      <tr role="row">
+        <td data-cell="Region" role="rowheader">Islande</td>
+        <td data-cell="Law" role="cell"><a href="https://gdpr-info.eu/" target="_blank">
+          Règlement général sur la protection des données
+        </a></td>
+        <td data-cell="Abbreviation" role="cell">RGPD</td>
+        <td data-cell="DPA" role="cell"><a href="https://island.is/en/o/the-data-protection-authority" target="_blank">
+          Autorité de protection des données
+        </a></td>
+        <td data-cell="Contact" role="cell"><a href="https://island.is/en/o/the-data-protection-authority/general-enquiries-form" target="_blank">Page de contact</a></td>
+        <td data-cell="Complaint" role="cell"><a href="https://island.is/en/complaint-to-the-data-protection-authority" target="_blank">Lien vers le formulaire de réclamation</a></td>
+      </tr>
+    
+      <!-- Irlande (Union européenne) -->
+      <tr role="row">
+        <td data-cell="Region" role="rowheader">Irlande</td>
+        <td data-cell="Law" role="cell"><a href="https://gdpr-info.eu/" target="_blank">
+          Règlement général sur la protection des données
+        </a></td>
+        <td data-cell="Abbreviation" role="cell">RGPD</td>
+        <td data-cell="DPA" role="cell"><a href="https://www.dataprotection.ie" target="_blank">
+          Commission de protection des données (DPC)
+        </a></td>
+        <td data-cell="Contact" role="cell"><a href="https://www.dataprotection.ie/en/contact/how-contact-us" target="_blank">Page de contact</a></td>
+        <td data-cell="Complaint" role="cell"><a href="https://www.dataprotection.ie/en/individuals/exercising-your-rights/raising-concern-commission" target="_blank">Lien vers le formulaire de réclamation</a></td>
+      </tr>
+    
+      <!-- Italie (Union européenne) -->
+      <tr role="row">
+        <td data-cell="Region" role="rowheader">Italie</td>
+        <td data-cell="Law" role="cell"><a href="https://gdpr-info.eu/" target="_blank">
+          Règlement général sur la protection des données
+        </a></td>
+        <td data-cell="Abbreviation" role="cell">RGPD</td>
+        <td data-cell="DPA" role="cell"><a href="https://www.garanteprivacy.it/" target="_blank">
+          Autorité italienne de protection des données (GPDP)
+        </a></td>
+        <td data-cell="Contact" role="cell"><a href="https://www.garanteprivacy.it/web/garante-privacy-en" target="_blank">Page de contact</a></td>
+        <td data-cell="Complaint" role="cell"><a href="https://www.garanteprivacy.it/diritti/come-agire-per-tutelare-i-tuoi-dati-personali/reclamo" target="_blank">Lien de réclamation</a></td>
+      </tr>
+    
+      <!-- Lettonie (Union européenne) -->
+      <tr role="row">
+        <td data-cell="Region" role="rowheader">Lettonie</td>
+        <td data-cell="Law" role="cell"><a href="https://gdpr-info.eu/" target="_blank">
+          Règlement général sur la protection des données
+        </a></td>
+        <td data-cell="Abbreviation" role="cell">RGPD</td>
+        <td data-cell="DPA" role="cell"><a href="https://www.dvi.gov.lv/en" target="_blank">
+          Inspection nationale de la protection des données (DVI)
+        </a></td>
+        <td data-cell="Contact" role="cell"><a href="https://www.dvi.gov.lv/en/contacts-authority" target="_blank">Page de contact</a></td>
+        <td data-cell="Complaint" role="cell"><a href="https://www.dvi.gov.lv/lv/iesniegumu-paraugi" target="_blank">Lien vers le formulaire de réclamation</a></td>
+      </tr>
+    
+      <!-- Liechtenstein (Espace économique européen) -->
+      <tr role="row">
+        <td data-cell="Region" role="rowheader">Liechtenstein</td>
+        <td data-cell="Law" role="cell"><a href="https://gdpr-info.eu/" target="_blank">
+          Règlement général sur la protection des données
+        </a></td>
+        <td data-cell="Abbreviation" role="cell">RGPD</td>
+        <td data-cell="DPA" role="cell"><a href="https://www.datenschutzstelle.li/" target="_blank">
+          Autorité de protection des données
+        </a></td>
+        <td data-cell="Contact" role="cell"><a href="https://www.datenschutzstelle.li/ueber-uns" target="_blank">Page de contact</a></td>
+        <td data-cell="Complaint" role="cell"><a href="https://www.datenschutzstelle.li/services-und-downloads/formulare#Beschwerdeformular" target="_blank">Lien vers le formulaire de réclamation</a></td>
+      </tr>
+    
+      <!-- Lituanie (Union européenne) -->
+      <tr role="row">
+        <td data-cell="Region" role="rowheader">Lituanie</td>
+        <td data-cell="Law" role="cell"><a href="https://gdpr-info.eu/" target="_blank">
+          Règlement général sur la protection des données
+        </a></td>
+        <td data-cell="Abbreviation" role="cell">RGPD</td>
+        <td data-cell="DPA" role="cell"><a href="https://vdai.lrv.lt/en/" target="_blank">
+          Inspection nationale de la protection des données (VDAI)
+        </a></td>
+        <td data-cell="Contact" role="cell"><a href="https://vdai.lrv.lt/en/structure-and-contacts/contacts-1/" target="_blank">Page de contact</a></td>
+        <td data-cell="Complaint" role="cell"><a href="https://vdai.lrv.lt/lt/veiklos-sritys-1/skundu-nagrinejimas/" target="_blank">Lien vers le formulaire de réclamation</a></td>
+      </tr>
+    
+      <!-- Luxembourg (Union européenne) -->
+      <tr role="row">
+        <td data-cell="Region" role="rowheader">Luxembourg</td>
+        <td data-cell="Law" role="cell"><a href="https://gdpr-info.eu/" target="_blank">
+          Règlement général sur la protection des données
+        </a></td>
+        <td data-cell="Abbreviation" role="cell">RGPD</td>
+        <td data-cell="DPA" role="cell"><a href="https://cnpd.public.lu/en.html" target="_blank">
+          Commission nationale de la protection des données (CNPD)
+        </a></td>
+        <td data-cell="Contact" role="cell"><a href="https://cnpd.public.lu/en/support/contact/contact-prive.html" target="_blank">Page de contact</a></td>
+        <td data-cell="Complaint" role="cell"><a href="https://cnpd.public.lu/en/particuliers/faire-valoir/formulaire-plainte.html" target="_blank">Lien vers le formulaire de réclamation</a></td>
+      </tr>
+    
+      <!-- Malte (Union européenne) -->
+      <tr role="row">
+        <td data-cell="Region" role="rowheader">Malte</td>
+        <td data-cell="Law" role="cell"><a href="https://gdpr-info.eu/" target="_blank">
+          Règlement général sur la protection des données
+        </a></td>
+        <td data-cell="Abbreviation" role="cell">RGPD</td>
+        <td data-cell="DPA" role="cell"><a href="https://idpc.org.mt/" target="_blank">
+          Bureau du commissaire à l'information et à la protection des données (IDPC)
+        </a></td>
+        <td data-cell="Contact" role="cell"><a href="https://idpc.org.mt/contact/" target="_blank">Page de contact</a></td>
+        <td data-cell="Complaint" role="cell"><a href="https://idpc.org.mt/file-a-complaint/" target="_blank">Lien vers le formulaire de réclamation</a></td>
+      </tr>
+    
+      <!-- Pays-Bas (Union européenne) -->
+      <tr role="row">
+        <td data-cell="Region" role="rowheader">Pays-Bas</td>
+        <td data-cell="Law" role="cell"><a href="https://gdpr-info.eu/" target="_blank">
+          Règlement général sur la protection des données
+        </a></td>
+        <td data-cell="Abbreviation" role="cell">RGPD</td>
+        <td data-cell="DPA" role="cell"><a href="https://autoriteitpersoonsgegevens.nl/en" target="_blank">
+          Autoriteit Persoonsgegevens (AP)
+        </a></td>
+        <td data-cell="Contact" role="cell"><a href="https://autoriteitpersoonsgegevens.nl/en/contact" target="_blank">Page de contact</a></td>
+        <td data-cell="Complaint" role="cell"><a href="https://autoriteitpersoonsgegevens.nl/en/submitting-a-tip-off-or-a-complaint-to-the-ap" target="_blank">Lien vers le formulaire de réclamation</a></td>
+      </tr>
+    
+       <!-- Macédoine du Nord -->
+      <tr role="row">
+        <td data-cell="Region" role="rowheader">Macédoine du Nord</td>
+        <td data-cell="Law" role="cell"><a href="https://azlp.mk/wp-content/uploads/2022/12/lpdp_2020.pdf" target="_blank">
+          Loi sur la protection des données à caractère personnel
+        </a></td>
+        <td data-cell="Abbreviation" role="cell">-</td>
+        <td data-cell="DPA" role="cell"><a href="https://azlp.mk/en/" target="_blank">
+          Agence pour la protection des données à caractère personnel (AZLP)
+        </a></td>
+        <td data-cell="Contact" role="cell"><a href="https://azlp.mk/en/contact/" target="_blank">Page de contact</a></td>
+        <td data-cell="Complaint" role="cell"><a href="https://azlp.mk/en/citizens/directions/request-for-determination-of-violation-of-the-right-to-protection-of-personal-data/" target="_blank">Lien vers le formulaire de réclamation</a></td>
+      </tr>
+    
+      <!-- Norvège (Espace économique européen) -->
+      <tr role="row">
+        <td data-cell="Region" role="rowheader">Norvège</td>
+        <td data-cell="Law" role="cell"><a href="https://gdpr-info.eu/" target="_blank">
+          Règlement général sur la protection des données
+        </a></td>
+        <td data-cell="Abbreviation" role="cell">RGPD</td>
+        <td data-cell="DPA" role="cell"><a href="https://www.datatilsynet.no/" target="_blank">
+          Datatilsynet
+        </a></td>
+        <td data-cell="Contact" role="cell"><a href="https://www.datatilsynet.no/om-datatilsynet/kontakt-oss/" target="_blank">Page de contact</a></td>
+        <td data-cell="Complaint" role="cell"><a href="https://www.datatilsynet.no/om-datatilsynet/kontakt-oss/klage-til-datatilsynet/" target="_blank">Lien vers le formulaire de plainte</a></td>
+      </tr>
+    
+      <!-- Pologne (Union européenne) -->
+      <tr role="row">
+        <td data-cell="Region" role="rowheader">Pologne</td>
+        <td data-cell="Law" role="cell"><a href="https://gdpr-info.eu/" target="_blank">
+          Règlement général sur la protection des données
+        </a></td>
+        <td data-cell="Abbreviation" role="cell">RGPD</td>
+        <td data-cell="DPA" role="cell"><a href="https://uodo.gov.pl/en" target="_blank">
+          Président de l'Office de protection des données à caractère personnel (UODO)
+        </a></td>
+        <td data-cell="Contact" role="cell"><a href="https://uodo.gov.pl/en/p/contact" target="_blank">Page de contact</a></td>
+        <td data-cell="Complaint" role="cell"><a href="https://uodo.gov.pl/en/681/1404" target="_blank">Lien vers le formulaire de réclamation</a></td>
+      </tr>
+    
+      <!-- Portugal (Union européenne) -->
+      <tr role="row">
+        <td data-cell="Region" role="rowheader">Portugal</td>
+        <td data-cell="Law" role="cell"><a href="https://gdpr-info.eu/" target="_blank">
+          Règlement général sur la protection des données
+        </a></td>
+        <td data-cell="Abbreviation" role="cell">RGPD</td>
+        <td data-cell="DPA" role="cell"><a href="https://www.cnpd.pt/" target="_blank">
+          Comissão Nacional de Proteção de Dados (CNPD)
+        </a></td>
+        <td data-cell="Contact" role="cell"><a href="https://www.cnpd.pt/cnpd/o-que-somos-e-quem-somos/" target="_blank">Page de contact</a></td>
+        <td data-cell="Complaint" role="cell"><a href="https://www.cnpd.pt/cidadaos/participacoes/" target="_blank">Lien vers le formulaire de réclamation</a></td>
+      </tr>
+    
+      <!-- Roumanie (Union européenne) -->
+      <tr role="row">
+        <td data-cell="Region" role="rowheader">Roumanie</td>
+        <td data-cell="Law" role="cell"><a href="https://gdpr-info.eu/" target="_blank">
+          Règlement général sur la protection des données
+        </a></td>
+        <td data-cell="Abbreviation" role="cell">RGPD</td>
+        <td data-cell="DPA" role="cell"><a href="https://www.dataprotection.ro/index.jsp?page=home&lang=en" target="_blank">
+          Autorité nationale de contrôle du traitement des données à caractère personnel (ANSPDCP)
+        </a></td>
+        <td data-cell="Contact" role="cell"><a href="https://www.dataprotection.ro/index.jsp?page=contact&lang=en" target="_blank">Page de contact</a></td>
+        <td data-cell="Complaint" role="cell"><a href="https://www.dataprotection.ro/index.jsp?page=Plangeri_RGPD" target="_blank">Lien vers le formulaire de réclamation</a></td>
+      </tr>
+    
+      <!-- Serbie -->
+      <tr role="row">
+        <td data-cell="Region" role="rowheader">Serbie</td>
+        <td data-cell="Law" role="cell"><a href="https://www.poverenik.rs/en/%D0%B7%D0%B0%D0%BA%D0%BE%D0%BD%D0%B84/2970-% D0%B7%D0%B0%D0%BA%D0%BE%D0%BD-%D0%BE-%D0%B7%D0%B0%D1%88%D1%82%D0%B8%D1%82%D0%B8-%D0%BF%D0%BE%D0%B4%D0% B0%D1%82%D0%B0%D0%BA%D0%B0-%D0%BE-%D0%BB%D0%B8%D1%87%D0%BD%D0%BE%D1%81%D1%82%D0%B8-%D1%81%D0%BB-%D0%B3%D0% BB%D0%B0%D1%81%D0%BD%D0%B8%D0%BA-%D1%80%D1%81-%D0%B1%D1%80-87-2018-%D0%BE%D0%B4-13-11-2018.html" target="_blank">
+          Loi sur la protection des données à caractère personnel
+        </a></td>
+        <td data-cell="Abbreviation" role="cell">LPDP</td>
+        <td data-cell="DPA" role="cell"><a href="https://www.poverenik.rs/en/" target="_blank">
+          Commissaire à l'information d'intérêt public et à la protection des données à caractère personnel (Poverenik)
+        </a></td>
+        <td data-cell="Contact" role="cell"><a href="https://www.poverenik.rs/en/contact.html" target="_blank">Page de contact</a></td>
+        <td data-cell="Complaint" role="cell"><a href="https://www.poverenik.rs/en/data-protection/%D0%BA%D0%B0%D0%BA%D0%BE-% D0%BE%D1%81%D1%82%D0%B2%D0%B0%D1%80%D0%B8%D1%82%D0%B8-%D0%B7%D0%B0%D1%88%D1%82%D0%B8%D1%82%D1%83-% D0%BF%D1%80%D0%B0%D0%B2%D0%B02.html" target="_blank">Lien vers le formulaire de réclamation</a></td>
+      </tr>
+    
+      <!-- Slovaquie (Union européenne) -->
+      <tr role="row">
+        <td data-cell="Region" role="rowheader">Slovaquie</td>
+        <td data-cell="Law" role="cell"><a href="https://gdpr-info.eu/" target="_blank">
+          Règlement général sur la protection des données
+        </a></td>
+        <td data-cell="Abbreviation" role="cell">RGPD</td>
+        <td data-cell="DPA" role="cell"><a href="https://dataprotection.gov.sk/en/" target="_blank">
+          Office de protection des données à caractère personnel de la République slovaque (UOOU)
+        </a></td>
+        <td data-cell="Contact" role="cell"><a href="https://dataprotection.gov.sk/en/contact/" target="_blank">Page de contact</a></td>
+        <td data-cell="Complaint" role="cell"><a href="https://dataprotection.gov.sk/en/rights-data-subjects/proposal-initiate-proceedings-on-personal-data-protection/" target="_blank">Lien vers le formulaire de réclamation</a></td>
+      </tr>
+    
+      <!-- Slovénie (Union européenne) -->
+      <tr role="row">
+        <td data-cell="Region" role="rowheader">Slovénie</td>
+        <td data-cell="Law" role="cell"><a href="https://gdpr-info.eu/" target="_blank">
+          Règlement général sur la protection des données
+        </a></td>
+        <td data-cell="Abbreviation" role="cell">RGPD</td>
+        <td data-cell="DPA" role="cell"><a href="https://www.ip-rs.si/en/" target="_blank">
+          Commissaire à l'information de la République de Slovénie (IP)
+        </a></td>
+        <td data-cell="Contact" role="cell"><a href="https://www.ip-rs.si/en/about/information-commissioner" target="_blank">Page de contact</a></td>
+        <td data-cell="Complaint" role="cell"><a href="https://www.ip-rs.si/en/data-protection/how-to-file-an-application" target="_blank">Lien vers le formulaire de réclamation</a></td>
+      </tr>
+    
+      <!-- Espagne (Union européenne) -->
+      <tr role="row">
+        <td data-cell="Region" role="rowheader">Espagne</td>
+        <td data-cell="Law" role="cell"><a href="https://gdpr-info.eu/" target="_blank">
+          Règlement général sur la protection des données
+        </a></td>
+        <td data-cell="Abbreviation" role="cell">RGPD</td>
+        <td data-cell="DPA" role="cell"><a href="https://www.aepd.es/en" target="_blank">
+          Agence espagnole de protection des données (AEPD)
+        </a></td>
+        <td data-cell="Contact" role="cell"><a href="https://www.aepd.es/la-agencia/donde-encontrarnos" target="_blank">Page de contact</a></td>
+        <td data-cell="Complaint" role="cell"><a href="https://sedeaepd.gob.es/sede-electronica/procedures/claims/claims-info" target="_blank">Lien vers le formulaire de réclamation</a></td>
+      </tr>
+    
+      <!-- Espagne, Andalousie (Union européenne) -->
+      <tr role="row">
+        <td data-cell="Region" role="rowheader">Espagne (Andalousie)</td>
+        <td data-cell="Law" role="cell"><a href="https://gdpr-info.eu/" target="_blank">
+          Règlement général sur la protection des données
+        </a></td>
+        <td data-cell="Abbreviation" role="cell">RGPD</td>
+        <td data-cell="DPA" role="cell"><a href="https://www.ctpdandalucia.es/" target="_blank">
+          Conseil de transparence et de protection des données d'Andalousie (CTPDA)
+        </a></td>
+        <td data-cell="Contact" role="cell"><a href="https://www.ctpdandalucia.es/contacto" target="_blank">Page de contact</a></td>
+        <td data-cell="Complaint" role="cell"><a href="https://www.ctpdandalucia.es/area-de-proteccion-de-datos/reclamaciones-ante-el-consejo-por-vulneracion-la-normativa-proteccion-datos-personales" target="_blank">Lien vers le formulaire de réclamation</a></td>
+      </tr>
+    
+      <!-- Espagne, Pays basque (Union européenne) -->
+      <tr role="row">
+        <td data-cell="Region" role="rowheader">Espagne (Pays basque)</td>
+        <td data-cell="Law" role="cell"><a href="https://gdpr-info.eu/" target="_blank">
+          Règlement général sur la protection des données
+        </a></td>
+        <td data-cell="Abbreviation" role="cell">RGPD</td>
+        <td data-cell="DPA" role="cell"><a href="https://www.avpd.eus/inicio/" target="_blank">
+          Datuak Babesteko Euskal Bulegoa (DBEB)
+        </a></td>
+        <td data-cell="Contact" role="cell"><a href="https://www.avpd.eus/webavpd00-content/es/contenidos/informacion/contacto/es_9493/index.shtml" target="_blank">Page de contact</a></td>
+        <td data-cell="Complaint" role="cell"><a href="https://www.avpd.eus/modelos-para-el-ejercicio-de-derechos-y-modelos-de-reclamaciones/webavpd00-content/es/" target="_blank">Lien vers le formulaire de réclamation</a></td>
+      </tr>
+    
+      <!-- Espagne, Catalogne (Union européenne) -->
+      <tr role="row">
+        <td data-cell="Region" role="rowheader">Espagne (Catalogne)</td>
+        <td data-cell="Law" role="cell"><a href="https://gdpr-info.eu/" target="_blank">
+          Règlement général sur la protection des données
+        </a></td>
+        <td data-cell="Abbreviation" role="cell">RGPD</td>
+        <td data-cell="DPA" role="cell"><a href="https://www.apdcat.cat/en" target="_blank">
+          Autorité catalane de protection des données (APDCAT)
+        </a></td>
+        <td data-cell="Contact" role="cell"><a href="https://www.apdcat.cat/en/formulari-contacte" target="_blank">Page de contact</a></td>
+        <td data-cell="Complaint" role="cell"><a href="https://www.apdcat.cat/en/persones/reclama-i-denuncia" target="_blank">Lien vers le formulaire de réclamation</a></td>
+      </tr>
+    
+      <!-- Suède (Union européenne) -->
+      <tr role="row">
+        <td data-cell="Region" role="rowheader">Suède</td>
+        <td data-cell="Law" role="cell"><a href="https://gdpr-info.eu/" target="_blank">
+          Règlement général sur la protection des données
+        </a></td>
+        <td data-cell="Abbreviation" role="cell">RGPD</td>
+        <td data-cell="DPA" role="cell"><a href="https://www.imy.se/en/" target="_blank">
+          Autorité suédoise de protection de la vie privée (IMY)
+        </a></td>
+        <td data-cell="Contact" role="cell"><a href="https://www.imy.se/en/about-us/contact-us/" target="_blank">Page de contact</a></td>
+        <td data-cell="Complaint" role="cell"><a href="https://www.imy.se/en/individuals/forms-and-e-services/file-a-gdpr-complaint/" target="_blank">Lien vers le formulaire de réclamation</a></td>
+      </tr>
+    
+      <!-- Suisse -->
+      <tr role="row">
+        <td data-cell="Region" role="rowheader">Suisse</td>
+        <td data-cell="Law" role="cell"><a href="https://www.fedlex.admin.ch/eli/cc/2022/491/en" target="_blank">
+          Loi fédérale sur la protection des données
+        </a></td>
+        <td data-cell="Abbreviation" role="cell">LPD</td>
+        <td data-cell="DPA" role="cell"><a href="https://www.edoeb.admin.ch" target="_blank">
+          Préposé fédéral à la protection des données et à la transparence (PFPDT)
+        </a></td>
+        <td data-cell="Contact" role="cell"><a href="https://www.edoeb.admin.ch/en/contact-2" target="_blank">Page de contact</a></td>
+        <td data-cell="Complaint" role="cell"><a href="https://www.edoeb.admin.ch/en/submitting-a-complaint" target="_blank">Lien vers le formulaire de réclamation</a></td>
+      </tr>
+    
+      <!-- Royaume-Uni -->
+      <tr role="row">
+        <td data-cell="Region" role="rowheader">Royaume-Uni</td>
+        <td data-cell="Law" role="cell"><a href="https://www.legislation.gov.uk/eur/2016/679/contents" target="_blank">
+          Règlement général sur la protection des données au Royaume-Uni
+        </a></td>
+        <td data-cell="Abbreviation" role="cell">RGPD britannique</td>
+        <td data-cell="DPA" role="cell"><a href="https://ico.org.uk/" target="_blank">
+          Bureau du commissaire à l'information (ICO)
+        </a></td>
+        <td data-cell="Contact" role="cell"><a href="https://ico.org.uk/global/contact-us/contact-us-public/" target="_blank">Page de contact</a></td>
+        <td data-cell="Complaint" role="cell"><a href="https://ico.org.uk/make-a-complaint/data-protection-complaints/" target="_blank">Lien pour déposer une réclamation</a></td>
+      </tr>
+    
+    </tbody>
   </table>
 </div>
 
@@ -768,11 +1314,11 @@ Par exemple, l’APD de l’État de l’Oregon, aux États-Unis, précise que :
 
 <button class="toolbox-button-top">[Retour au menu des tableaux :material-map-search:](#the-directory)</button> <br>
 
-### Oceania
+### Océanie
 
 <div class="table-wrapper">
   <table role="table" class="dpadirectory-table table-oceania">
-    <caption role="caption">Data Protection Authority Directory (Oceania)</caption>
+    <caption role="caption">Annuaire des autorités chargées de la protection des données (Océanie)</caption>
 
     <!-- Table header -->
     <thead>
@@ -822,11 +1368,11 @@ Par exemple, l’APD de l’État de l’Oregon, aux États-Unis, précise que :
 
 <button class="toolbox-button-top">[Retour au menu des tableaux :material-map-search:](#the-directory)</button> <br>
 
-### South America
+### Amérique du Sud
 
 <div class="table-wrapper">
   <table role="table" class="dpadirectory-table table-southamerica">
-    <caption role="caption">Data Protection Authority Directory (South America)</caption>
+    <caption role="caption">Annuaire des autorités chargées de la protection des données (Amérique du Sud)</caption>
 
     <!-- Table header -->
     <thead>
@@ -918,14 +1464,14 @@ Par exemple, l’APD de l’État de l’Oregon, aux États-Unis, précise que :
 
 <button class="toolbox-button-top">[Retour au menu des tableaux :material-map-search:](#the-directory)</button> <br>
 
-## Additional resources
+## Ressources supplémentaires
 
-- **For EU GDPR**: [Helpful tips on how to proceed with your request or complaint (_NOYB_)](https://noyb.eu/en/helpful-tips)
+- **Conformément au RGPD de l'UE** : [Conseils utiles pour formuler votre demande ou votre réclamation (_NOYB_)](https://noyb.eu/en/helpful-tips)
 
-- **For EU GDPR**: [Explanation on the right to lodge a complaint (_NOYB_)](https://noyb.eu/en/your-right-lodge-complaint-article-77)
+- **Conformément au RGPD de l'UE** : [Explications sur le droit d'introduire une réclamation (_NOYB_)](https://noyb.eu/en/your-right-lodge-complaint-article-77)
 
-- **For missing regions**[^1]: [Check this Global Privacy Law and DPA Directory (_IAPP_)](https://iapp.org/resources/global-privacy-directory)
+- **Pour les régions non répertoriées**[^1] : [Consultez ce répertoire des lois mondiales sur la protection de la vie privée et des autorités de protection des données (_IAPP_)](https://iapp.org/resources/global-privacy-directory)
 
-- **For more information on each law**: [To learn more on each regulation, you can consult this useful database (_DLA Piper_)](https://www.dlapiperdataprotection.com/)
+- **Pour plus d'informations sur chaque loi** : [Pour en savoir plus sur chaque réglementation, vous pouvez consulter cette base de données très utile (_DLA Piper_)](https://www.dlapiperdataprotection.com/)
 
 [^1]: Certaines informations issues du « Global Privacy Law and DPA Directory » de l'IAPP pourraient ne plus être à jour.

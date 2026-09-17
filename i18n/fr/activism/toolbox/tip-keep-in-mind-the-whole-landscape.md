@@ -81,19 +81,19 @@ Here are a few practices to improve our culture surrounding data privacy that yo
 
 - [x] Never share the location or contact information of someone without their explicit consent.
 
-- [x] Block external applications from accessing the contact information of others (e.g. don't allow the Facebook app to access your contacts).
+- [x] Empêchez les applications externes d'accéder aux coordonnées d'autres personnes (par exemple, ne permettez pas à l'application Facebook d'accéder à vos contacts).
 
-- [x] Be mindful of how one's computer or phone stores and records other people's information. Never use an application that scans content with potential information about others, such as AI note-takers, AI assistants, or applications like Microsoft's Recall.
+- [x] Faites attention à la manière dont votre ordinateur ou votre téléphone stocke et enregistre les informations concernant d'autres personnes. N'utilisez jamais d'application qui analyse du contenu susceptible de contenir des informations sur des tiers, comme les outils de prise de notes basés sur l'IA, les assistants IA ou des applications telles que « Recall » de Microsoft.
 
-- [x] Never share the files of others with a third-party person or application without their prior permission.
+- [x] Ne partagez jamais les fichiers d'autrui avec un tiers ou une application sans leur autorisation préalable.
 
-- [x] Unplug smart devices equipped with a microphone or camera at home before any guests enter. If this isn't possible for some reason, then inform your guests about these devices _before_ they enter your home, and _before_ the device collects any information about them.
+- [x] Débranchez les appareils connectés équipés d'un micro ou d'une caméra chez vous avant l'arrivée de vos invités. Si cela n'est pas possible pour une raison quelconque, informez vos invités de l'existence de ces appareils _avant_ qu'ils n'entrent chez vous et _avant_ que l'appareil ne recueille la moindre information les concernant.
 
-- [x] Never use devices like Meta's Ray-Ban glasses, i.e. devices equipped with a microphone and/or camera that might record others without their consent.
+- [x] N'utilisez jamais d'appareils tels que les lunettes Ray-Ban de Meta, c'est-à-dire des appareils équipés d'un microphone et/ou d'une caméra susceptibles d'enregistrer des personnes sans leur consentement.
 
-## More resources
+## Plus de Ressources
 
-- **Technology:** [Privacy tools and technology recommendations (_Privacy Guides_)](https://www.privacyguides.org/en/tools/)
+- **Technologie :** [Outils de protection de la vie privée (_Privacy Guides_)](https://www.privacyguides.org/en/tools/)
 
 - **Legislative:** [How governments and laws shape our digital lives (_Privacy Guides_)](https://www.privacyguides.org/articles/2025/02/03/the-future-of-privacy/)
 

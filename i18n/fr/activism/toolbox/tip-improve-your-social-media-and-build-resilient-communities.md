@@ -1,59 +1,59 @@
 ---
-title: Improve Your Social Media and Build Resilient Communities
-description: Commercial social media platforms represent one of the biggest source of data exploitation. Learn how you can build better and more resilient social networks.
-icon: fontawesome/solid/seedling
+title: Améliorez votre présence sur les réseaux sociaux et renforcez la résilience de vos communautés
+description: Les plateformes commerciales de réseaux sociaux constituent l'une des principales sources d'exploitation des données. Découvrez comment créer des réseaux sociaux plus efficaces et plus résilients.
+icon: fontawesome/solide/seedling
 cover: activism/banner-toolbox-tip-plant.webp
 ---
 
-Commercial social media platforms represent one of the biggest source of data exploitation. Facebook, Instagram, Threads, TikTok, and X all exploit their users' data to generate billions in profit every year. By staying active on these platforms, we continue to feed the beast and indirectly support this invasion of privacy rights.
+Les réseaux sociaux commerciaux constituent l'une des principales sources d'exploitation des données. Facebook, Instagram, Threads, TikTok et X exploitent tous les données de leurs utilisateurs pour générer des milliards de bénéfices chaque année. En restant actifs sur ces plateformes, nous continuons à alimenter le système et à soutenir indirectement cette atteinte au droit à la vie privée.
 
-Here's how you can **minimize your presence on commercial social media**, and slowly build more autonomous communities:
+Voici comment vous pouvez **limiter au maximum votre présence sur les réseaux sociaux commerciaux** et développer progressivement des communautés plus autonomes :
 
-## Why it's important to move away
+## Pourquoi il est important de prendre ses distances
 
-Moving away from large commercial platforms can be a complex process, but it's a very important one nonetheless.
+Se détourner des grandes plateformes commerciales peut s'avérer un processus complexe, mais il n'en reste pas moins essentiel.
 
-[Reducing our dependence on Big Tech](tip-migrate-outside-the-surveillance-ecosystem.md), including for social media platforms, is essential in our fight for better privacy rights.
+[Réduire notre dépendance vis-à-vis des géants de la Tech](tip-migrate-outside-the-surveillance-ecosystem.md), notamment en ce qui concerne les réseaux sociaux, est essentiel dans notre lutte pour une meilleure protection de la vie privée.
 
-Not only this allows us to stop feeding a surveillance machine that grows ever hungry for data every month, but it gives us an opportunity to build much more resilient communities, and support platforms that aren't devouring peoples' privacy.
+Non seulement cela nous permet de cesser d'alimenter une machine de surveillance dont l'appétit pour les données ne cesse de croître chaque mois, mais cela nous offre également l'occasion de bâtir des communautés bien plus résilientes et de soutenir des plateformes qui ne portent pas atteinte à la vie privée des gens.
 
-Many are reluctant to quit commercial social media, despite the many issues that have only become worse in the past few years. It's not always easy to leave a place that feels like home and rebuild elsewhere. However, ==when the house is on fire, it's time to leave.==
+Beaucoup hésitent à abandonner les réseaux sociaux commerciaux, malgré les nombreux problèmes qui n'ont fait que s'aggraver ces dernières années. Ce n'est pas toujours facile de quitter un endroit où l'on se sent chez soi pour repartir de zéro ailleurs. Cependant, ==quand la maison est en feu, il est temps de partir.==
 
-The more we produce content, and the more we engage with our community on these privacy-invasive platforms, the more we contribute to sustain these predatory corporations making money and thriving at the expense of our followers' data.
+Plus nous produisons de contenu et plus nous interagissons avec notre communauté sur ces plateformes qui portent atteinte à la vie privée, plus nous contribuons à soutenir ces entreprises prédatrices qui s'enrichissent et prospèrent aux dépens des données de nos abonnés.
 
-It's a responsibility for any privacy advocates to stay true to their values, and minimize their presence on exploitive platforms as much as feasible.
+Il incombe à tout défenseur de la vie privée de rester fidèle à ses valeurs et de limiter autant que possible sa présence sur les plateformes qui exploitent les utilisateurs.
 
-## Minimizing your presence on commercial social media platforms
+## Réduire au minimum votre présence sur les réseaux sociaux à vocation commerciale
 
-Here are a few things you can start doing to reduce your contribution to Big Tech social media. This is presented on an escalating scale. Go as far as realistically possible for your situation:
+Voici quelques mesures que vous pouvez prendre dès maintenant pour réduire votre contribution aux réseaux sociaux des géants de la technologie. Ces données sont présentées sur une échelle croissante. Allez aussi loin que possible, compte tenu de votre situation :
 
-1. Create an account that mirrors your regular posts on a [privacy-respecting platform](#embracing-privacy-respectful-alternatives), and announce it prominently on your commercial social media accounts.
+1. Créez un compte qui reprenne vos publications habituelles sur une [plateforme respectueuse de la vie privée](#embracing-privacy-respectful-alternatives), et faites-en la promotion de manière bien visible sur vos comptes professionnels sur les réseaux sociaux.
 
-2. Regularly post on your commercial social media that you don't support this platform and encourage your followers to meet you on your new privacy-respecting social network instead.
+2. Publiez régulièrement sur vos comptes professionnels sur les réseaux sociaux que vous ne soutenez pas cette plateforme et encouragez vos abonnés à vous retrouver plutôt sur votre nouveau réseau social respectueux de la vie privée.
 
-3. Use your commercial social media profile pictures and banners to advertise your new social network account (this will help fight potential Big Tech [censorship](https://gizmodo.com/elon-musk-twitter-ban-mastodon-1849903839) of text posts promoting competitors).
+3. Utilisez les photos de profil et les bannières de vos comptes professionnels sur les réseaux sociaux pour faire la promotion de votre nouveau compte sur ce réseau social (cela permettra de contrer la [censure](https://gizmodo.com/elon-musk-twitter-ban-mastodon-1849903839) que pourraient exercer les géants de la tech à l'encontre des publications textuelles faisant la promotion de concurrents).
 
-4. Tell your followers on commercial social media that you will stop engaging in replies here, but will reply to questions and comments on your new social network profile, and follow through.
+4. Indiquez à vos abonnés sur les réseaux sociaux commerciaux que vous ne répondrez plus aux messages ici, mais que vous répondrez aux questions et aux commentaires sur votre nouveau profil de réseau social, et tenez votre promesse.
 
-5. If this makes sense for your situation, after backing up your data, start deleting older content from your commercial social media profiles (you can use a tool like [Cyd](https://docs.cyd.social/docs/intro/) to help you with deletion).
+5. Si cela vous semble pertinent dans votre cas, après avoir sauvegardé vos données, commencez à supprimer les anciens contenus de vos profils professionnels sur les réseaux sociaux (vous pouvez utiliser un outil tel que [Cyd](https://docs.cyd.social/docs/intro/) pour vous aider dans cette suppression).
 
-6. Gradually decrease your posting activity on commercial social media, and increase your presence and engagement with your new social network account on a privacy-respecting platform.
+6. Réduisez progressivement votre activité de publication sur les réseaux sociaux commerciaux, et renforcez votre présence et votre interaction via votre nouveau compte sur un réseau social respectueux de la vie privée.
 
-7. Stop posting on your commercial social media account entirely. Only keep a pinned post and profile description with your new social network account information, and encourage your followers to meet you there.
+7. Cessez complètement de publier sur votre compte professionnel sur les réseaux sociaux. Ne conservez que la publication épinglée et la description de votre profil contenant les informations relatives à votre nouveau compte sur les réseaux sociaux, et encouragez vos abonnés à vous retrouver sur cette plateforme.
 
-8. When you are ready, delete your data and close your accounts on commercial social media entirely. Before leaving permanently, make sure to post an announcement (a week before maybe) about why you are leaving and how your followers can find you on your new social network.
+8. Lorsque vous serez prêt, supprimez vos données et fermez définitivement vos comptes sur les réseaux sociaux commerciaux. Avant de partir définitivement, pense à publier un message (peut-être une semaine à l'avance) pour expliquer pourquoi tu pars et indiquer à tes abonnés comment te retrouver sur ton nouveau réseau social.
 
-## Embracing privacy-respectful alternatives
+## Adopter des solutions respectueuses de la vie privée
 
-Perhaps you are already convinced to leave exploitive social media platforms for better places, but aren't sure where to go. Thankfully, there are alternatives that genuinely respect users and their privacy.
+Peut-être êtes-vous déjà convaincu de quitter les réseaux sociaux abusifs pour des espaces plus sains, mais vous ne savez pas encore vers où vous tourner. Heureusement, il existe des alternatives qui respectent véritablement les utilisateurs et leur vie privée.
 
-One such network is the [**Fediverse**](https://en.wikipedia.org/wiki/Fediverse), a decentralized collection of interconnected applications and servers that can communicate with each other.
+L'un de ces réseaux est le [**Fediverse**](https://en.wikipedia.org/wiki/Fediverse), un ensemble décentralisé d'applications et de serveurs interconnectés capables de communiquer entre eux.
 
-The Fediverse was built from a desire for social connection, not from greed for profits. ==This is a fundamental difference that leads to substantial benefits.== Most servers that are part of the Fediverse network are hosted by volunteers who simply want to support their communities.
+Le Fediverse est né d'un désir de liens sociaux, et non d'une soif de profits. ==Il s'agit là d'une différence fondamentale qui apporte des avantages considérables.== La plupart des serveurs faisant partie du réseau Fediverse sont hébergés par des bénévoles qui souhaitent simplement soutenir leurs communautés.
 
-There are many applications that can connect to the Fediverse, the most famous probably being the microblogging platform [Mastodon](https://joinmastodon.org/). But you could also choose to join an app more similar to Instagram with [Pixelfed](https://pixelfed.org/), or more similar to YouTube with [PeerTube](https://joinpeertube.org/). They all connect together!
+Il existe de nombreuses applications permettant de se connecter au Fediverse, la plus connue étant sans doute la plateforme de microblogging [Mastodon](https://joinmastodon.org/). Mais vous pouvez également choisir de rejoindre une application plus proche d'Instagram, comme [Pixelfed](https://pixelfed.org/), ou plus proche de YouTube, comme [PeerTube](https://joinpeertube.org/). Ils sont tous reliés entre eux !
 
-Here are some resources to help you learn more about this social network, and its many applications:
+Voici quelques ressources qui vous permettront d'en savoir plus sur ce réseau social et ses nombreuses applications :
 
 <style>
 .emoji-list-a ul {
@@ -67,52 +67,52 @@ Here are some resources to help you learn more about this social network, and it
 
 <div class="emoji-list-a" markdown>
 
-- [Learn why the Fediverse is a better alternative (_Elena Rossini_ video)](https://blog.elenarossini.com/fediverse-video/)
+- [Découvrez pourquoi le Fediverse est une meilleure alternative (vidéo d'_Elena Rossini_)](https://blog.elenarossini.com/fediverse-video/)
 
-- [What is the Fediverse and how it's interconnected (_Stefan Bohacek_ project)](https://jointhefediverse.net)
+- [Qu'est-ce que le Fediverse et comment est-il interconnecté ? (projet de _Stefan Bohacek_)](https://jointhefediverse.net)
 
-- [Social network recommendations (_Privacy Guides_)](../../social-networks.md)
+- [Recommandations relatives aux réseaux sociaux (_Guides sur la confidentialité_)](../../social-networks.md)
 
-- [Privacy and security on Mastodon (_Privacy Guides_)](https://www.privacyguides.org/articles/2025/07/15/mastodon-privacy-and-security/)
+- [Confidentialité et sécurité sur Mastodon (_Guides sur la confidentialité_)](https://www.privacyguides.org/articles/2025/07/15/mastodon-privacy-and-security/)
 
-- [How to create a Mastodon account (_Doc Pop_)](https://docpop.org/2025/02/how-to-get-started-with-mastodon/)
+- [Comment créer un compte Mastodon (_Doc Pop_)](https://docpop.org/2025/02/how-to-get-started-with-mastodon/)
 
 </div>
 
-## Building resilient communities
+## Construire des communautés résilientes
 
-If you decide to make the Fediverse-connected social network Mastodon your new home, you will be able to choose between a variety of servers (instances) to create your account.
+Si vous décidez de rejoindre Mastodon, le réseau social connecté au Fediverse, vous pourrez choisir parmi plusieurs serveurs (instances) pour créer votre compte.
 
-You can also simply choose the Mastodon organization's main server [mastodon.social](https://mastodon.social/about), if you don't feel like thinking about this too much. Mastodon has a feature allowing to migrate your account from one server to another, so this isn't a permanent decision. You can always move later if you choose to (you can't move your content for now, but you can move your followers).
+Vous pouvez aussi tout simplement choisir le serveur principal de l'organisation Mastodon [mastodon.social](https://mastodon.social/about), si vous n'avez pas envie de trop vous prendre la tête avec ça. Mastodon propose une fonctionnalité permettant de migrer votre compte d'un serveur à un autre ; il ne s'agit donc pas d'une décision définitive. Vous pourrez toujours effectuer le transfert plus tard si vous le souhaitez (pour l'instant, vous ne pouvez pas transférer votre contenu, mais vous pouvez transférer vos abonnés).
 
-That being said, if you're up for a more resilient solution, one option that is truly empowering is to host your own Mastodon server (or many other applications that are part of the Fediverse family).
+Cela dit, si vous recherchez une solution plus résiliente, une option qui vous offre une véritable autonomie consiste à héberger votre propre serveur Mastodon (ou de nombreuses autres applications faisant partie de la famille Fediverse).
 
-Self-hosting your Mastodon server of course requires more time and resources. But, if you can afford it, hosting your own server will allow you to be much more independent and genuinely own your own data.
+L'auto-hébergement de votre serveur Mastodon nécessite bien sûr davantage de temps et de ressources. Mais, si vous en avez les moyens, héberger votre propre serveur vous permettra d'être beaucoup plus indépendant et d'être véritablement propriétaire de vos données.
 
-This is the best way to build a community that is truly resilient, and billionaire-resistant.
+C'est le meilleur moyen de bâtir une communauté véritablement résiliente et à l'épreuve des milliardaires.
 
-### Wikimedia has its own Mastodon instance!
+### Wikimedia dispose désormais de sa propre instance Mastodon !
 
-As an example of an organization self-hosting its Mastodon account, the [Wikimedia Foundation](https://wikimediafoundation.org/) (the nonprofit organization hosting _Wikipedia_) has its [own](https://meta.wikimedia.org/wiki/Wikimedia.Social) Mastodon server at [wikimedia.social](https://wikimedia.social/about).
+À titre d'exemple d'organisation hébergeant elle-même son compte Mastodon, la [Fondation Wikimedia](https://wikimediafoundation.org/) (l'organisation à but non lucratif qui héberge _Wikipédia_) dispose de son [propre](https://meta.wikimedia.org/wiki/Wikimedia.Social) serveur Mastodon à l'adresse [wikimedia.social](https://wikimedia.social/about).
 
-From their [Wikimedia's Mastodon account](https://wikimedia.social/@wikimediafoundation) on this server, you can see that the organization's official website is listed in green. This verifies the account's authenticity by linking together the website address with the Mastodon account. It's easy to do, and entirely free.
+Sur leur [compte Mastodon de Wikimedia](https://wikimedia.social/@wikimediafoundation) hébergé sur ce serveur, on peut voir que le site officiel de l'organisation apparaît en vert. Cela permet de vérifier l'authenticité du compte en associant l'adresse du site web au compte Mastodon. C'est facile à faire, et c'est entièrement gratuit.
 
-You can also see this page is visible to anyone, regardless of if they have a Mastodon account or not. This makes the information you want to share with your community much more accessible. It doesn't require your community to share any sensitive data if they prefer not to, like they would have to do to follow you on Facebook, Instagram, X, or TikTok.
+Vous pouvez également constater que cette page est accessible à tous, que les visiteurs possèdent ou non un compte Mastodon. Cela rend les informations que vous souhaitez partager avec votre communauté beaucoup plus accessibles. Cela n'oblige pas les membres de votre communauté à partager des données sensibles s'ils préfèrent ne pas le faire, comme ils devraient le faire pour vous suivre sur Facebook, Instagram, X ou TikTok.
 
-Additionally, this allows you to keep full control over your profile page, regardless of social media ownership, or censorship. This is how you can build a truly resilient community for your privacy advocacy work.
+De plus, cela vous permet de garder un contrôle total sur votre page de profil, quels que soient les propriétaires des réseaux sociaux ou les mesures de censure. Voici comment vous pouvez bâtir une communauté véritablement solide pour soutenir votre action en faveur de la protection de la vie privée.
 
-Privacy Guides does this too, of course! You can [follow _Privacy Guides_](https://mastodon.neat.computer/@privacyguides) from our own self-hosted Mastodon server 💛
+« Privacy Guides » le fait aussi, bien sûr ! Vous pouvez [suivre _Privacy Guides_](https://mastodon.neat.computer/@privacyguides) depuis notre propre serveur Mastodon auto-hébergé 💛
 
-## More resources
+## Plus de Ressources
 
-- [Official Mastodon website](https://joinmastodon.org/)
+- [Site officiel de Mastodon](https://joinmastodon.org/)
 
-- [List of curated smaller Fediverse servers (_Fedi Garden_)](https://fedi.garden/)
+- [Liste des petits serveurs du Fediverse sélectionnés (_Fedi Garden_)](https://fedi.garden/)
 
-- [Find answers to all your questions about Mastodon and the Fediverse (_Fedi Tips_)](https://fedi.tips/)
+- [Trouvez les réponses à toutes vos questions sur Mastodon et le Fediverse (_Conseils Fedi_)](https://fedi.tips/)
 
-- [Tutorial to optimize privacy and security on a Mastodon account (_Privacy Guides_)](https://www.privacyguides.org/articles/2025/07/22/mastodon-tutorial-privacy-and-security/)
+- [Tutoriel pour optimiser la confidentialité et la sécurité sur un compte Mastodon (_Guides de confidentialité_)](https://www.privacyguides.org/articles/2025/07/22/mastodon-tutorial-privacy-and-security/)
 
-- [Organizations: Tutorial to verify your Mastodon account (_Privacy Guides_)](https://www.privacyguides.org/articles/2025/07/22/mastodon-tutorial-privacy-and-security/#verifying-yourself-and-others)
+- [Organisations : Tutoriel pour vérifier votre compte Mastodon (_Guides sur la confidentialité_)](https://www.privacyguides.org/articles/2025/07/22/mastodon-tutorial-privacy-and-security/#verifying-yourself-and-others)
 
-- [Organizations and Writers: Tutorial to attribute your articles to your Mastodon account, including when others share links on the network (_Privacy Guides_)](https://www.privacyguides.org/articles/2025/07/22/mastodon-tutorial-privacy-and-security/#author-attribution-for-journalists-and-writers)
+- [Organisations et auteurs : guide pratique pour associer vos articles à votre compte Mastodon, y compris lorsque d'autres utilisateurs partagent des liens sur le réseau (_Guides de confidentialité_)](https://www.privacyguides.org/articles/2025/07/22/mastodon-tutorial-privacy-and-security/#author-attribution-for-journalists-and-writers)
