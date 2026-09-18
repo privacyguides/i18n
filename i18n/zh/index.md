@@ -40,23 +40,23 @@ schema:
 <!-- markdownlint-disable -->
 <div class="grid" markdown>
 <div markdown>
-## 为什么我要关心这个？
+## 为什么我要关心隐私问题？
 
-> “I have nothing to hide. Why should I care about my privacy?”
+>”我又没啥好隐瞒的。我为啥要关心我的隐私？”
 
-与跨种族间婚姻权、妇女选举权、言论自由和许多其他权利一样，我们的隐私权并非总是存在和得到保障。在一些独裁国家中，近乎完全不存在隐私。 Generations before ours fought for our right to privacy. ===隐私是我们每个人与生俱来的人权，===我们有权享有(不受歧视)。
+与跨种族间婚姻权、妇女选举权、言论自由和许多其他权利一样，我们的隐私权并非总是存在和得到保障。在一些独裁国家中，近乎完全不存在隐私。而我们的前辈们曾经为了我们的隐私权而力争。 ===隐私是我们每个人与生俱来的人权，===我们有权(不受歧视地)享有隐私权。
 
 您不应该将隐私与保密混为一谈。即使我们都知道浴室会发生什么，但您还是关上了门。那是因为你想要隐私，而不是对此保密。**每个人**都有需要保护的东西。隐私是我们之所以为人的原因。
 
-[:material-book-outline: Why Privacy Matters](basics/why-privacy-matters.md){ class="md-button" }
+[:material-book-outline: 为什么隐私这么重要](basics/why-privacy-matters.md){ class="md-button" }
 </div>
 
 <div markdown>
-## What should I do?
+## 我应该做些什么？
 
-> First, you need to make a plan
+> 首先，你需要指定一个计划
 
-Trying to protect all your data from everyone all the time is impractical, expensive, and exhausting. 但是别担心！安全是一个过程，并且通过向前思考，你可以制定出一个适合你的计划。 Security isn't just about the *privacy tools* you use or the software you download. 相反，它始于了解你所面临的独特的威胁，以及解决它们的办法。
+在任何时候，不让任何人看到你的任何数据，这种尝试既不现实，也不经济，还相当累人。但是别担心！安全是一个过程，并且通过向前思考，你可以制定出一个适合你的计划。安全，不止是跟你用的*隐私工具*、你下载的软件有关。相反，它始于了解你所面临的独特的威胁，以及解决它们的办法。
 
 ==This process of identifying threats and defining countermeasures is called **threat modeling**==, and it forms the basis of every good security and privacy plan.
 

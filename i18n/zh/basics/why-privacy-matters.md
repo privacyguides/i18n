@@ -12,7 +12,7 @@ description: 在数据被大量利用的现代，你的隐私从未这样重要�
 
 许多人会混淆 **隐私**、 **安全**和 **匿名** 的概念。例如，你会看到有人批评各种产品 "不私密"，但他们的意思其实是这些产品不提供匿名性。在本网站上，我们这三个主题都会介绍，但重要的是，你要了解它们之间的区别，以及每一个主题何时发挥作用。
 
-[:material-movie-open-play-outline: Video: Stop Confusing Privacy, Anonymity, and Security](https://www.privacyguides.org/videos/2025/03/14/stop-confusing-privacy-anonymity-and-security ""){.md-button}
+[:material-movie-open-play-outline: 视频：别再混淆隐私、匿名性和安全性了](https://www.privacyguides.org/videos/2025/03/14/stop-confusing-privacy-anonymity-and-security ""){.md-button}
 
 <!-- markdownlint-disable-next-line -->
 **隐私**

@@ -1,10 +1,10 @@
 ---
-meta_title: "Ad-Free Privacy Tool/Service Recommendations - Privacy Guides"
+meta_title: "无广告的隐私工具/服务推荐 - Privacy Guides"
 title: "隐私工具"
 icon: 资料/工具
 hide:
   - toc
-description: A complete list of the privacy tools, services, software, and hardware recommended by the Privacy Guides community.
+description: Privacy Guides 社区推荐的隐私工具、服务、软件和硬件的完整列表。
 ---
 
 如果你正在寻找某项具体解决方案，这里是一些我们推荐的各种类别的软硬件工具。我们推荐的隐私工具主要依据它们的安全功能来选择，另外还强调了去中心化和开源。 They are applicable to a variety of threat models ranging from protection against global mass surveillance programs and avoiding big tech companies to mitigating attacks, but only you can determine what will work best for your needs.
