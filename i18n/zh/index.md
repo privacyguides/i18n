@@ -60,33 +60,33 @@ schema:
 
 ==This process of identifying threats and defining countermeasures is called **threat modeling**==, and it forms the basis of every good security and privacy plan.
 
-[:material-book-outline: Learn More About Threat Modeling](basics/threat-modeling.md){ class="md-button" }
+[:material-book-outline: 了解威胁建模 ](basics/threat-modeling.md){ class="md-button" }
 </div>
 </div>
 
-## Trustworthy Privacy Software Reviews
+## 值得信赖的隐私软件评测
 
 <div class="grid" markdown>
 
 <div markdown>
-**Privacy Guides** has a dedicated [community](https://discuss.privacyguides.net) independently reviewing various *privacy tools* and services. Each of our recommendations comply with a strict set of criteria to ensure they provide the most value to most people, and provide the best balance of privacy, security, and convenience. As part of a non-profit **public charity**, Privacy Guides has strict **journalistic standards** and policies to ensure our recommendations are free of conflict of interest, and we do not partner with providers or affiliate programs that could sway our reviews and recommendations.
+**Privacy Guides** 拥有一个专门的 [社区](https://discuss.privacyguides.net)，该社区会对各种*隐私工具*与服务进行独立评测。我们的每一项推荐都符合一套严格的标准，以确保它们能为大多数人带来最大价值，并在隐私、安全与便利之间取得最佳平衡。作为一家非营利性**公共慈善机构**，Privacy Guides 恪守严格的**新闻标准**和政策，以确保我们推荐的测评不存在利益冲突，且我们不会与可能影响我们评测和建议的服务提供商或联盟计划建立合作关系。
 
-[:material-heart:{.pg-red} Support Our Work](about/donate.md){ class="md-button md-button--primary" data-portal="signup" }
+[:material-heart:{.pg-red} 支持下我们的工作吧](about/donate.md){ class="md-button md-button--primary" data-portal="signup" }
 
 </div>
 
-- [x] **Ad-Free Recommendations**
-- [x] **Complete Editorial Independence**
-- [x] **Non-Profit & Open Source**
-- [x] **Frequent Updates**
-- [x] **Trusted by Journalists**
-- [x] **Trusted by Readers**
+- [x] **无广告推荐**
+- [x] **完全独立编辑**
+- [x] **非营利与开源**
+- [x] **频繁更新**
+- [x] **深受记者信赖**
+- [x] **深受读者信赖**
 
 </div>
 
 ---
 
-## About Privacy Guides
+## 关于Privacy Guides
 
 ![Privacy Guides logo](assets/brand/logos/png/square/pg-yellow.png){ align=right loading=lazy }
 
