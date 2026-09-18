@@ -9,7 +9,7 @@ cover: desktop.webp
 
 - [:material-account-cash: 监视资本主义](basics/common-threats.md#surveillance-as-a-business-model ""){.pg-brown}
 
-由于隐私保护和软件自由，Linux发行版被普遍推荐。 如果你还没有使用Linux，下面是我们建议尝试的一些发行版，以及一些适用于许多Linux发行版的一般隐私和安全改进提示。 Please note that some of our recommended software may not be packaged for your Linux distribution of choice.
+由于隐私保护和软件自由，Linux发行版被普遍推荐。如果你还没有使用Linux，下面是我们建议尝试的一些发行版，以及一些适用于许多Linux发行版的一般隐私和安全改进提示。 Please note that some of our recommended software may not be packaged for your Linux distribution of choice.
 
 - [安卓概况 :material-arrow-right-drop-circle:](os/linux-overview.md)
 
@@ -55,7 +55,7 @@ openSUSE Tumbleweed uses [Btrfs](https://en.wikipedia.org/wiki/Btrfs) and [Snapp
 
 As with the recommendation to avoid X11 in our [criteria](#criteria) for Linux distributions, we recommend avoiding desktop environments that support only the legacy X11 window system (for example, Xfce). Currently, KDE Plasma defaults to X11, but Wayland is supported.
 
-Tumbleweed采用的是滚动发布模式，每次更新都是以快照的形式发布。 当你升级你的系统时，会下载一个新的快照。 每个快照都要通过一系列的自动测试，由 [openQA](https://openqa.opensuse.org) ，以确保其质量。
+Tumbleweed采用的是滚动发布模式，每次更新都是以快照的形式发布。当你升级你的系统时，会下载一个新的快照。每个快照都要通过一系列的自动测试，由 [openQA](https://openqa.opensuse.org) ，以确保其质量。
 
 ### Arch Linux
 
@@ -73,7 +73,7 @@ Tumbleweed采用的是滚动发布模式，每次更新都是以快照的形式�
 
 </div>
 
-Arch Linux有一个滚动的发布周期。 没有固定的发布时间表，软件包的更新非常频繁。
+Arch Linux有一个滚动的发布周期。没有固定的发布时间表，软件包的更新非常频繁。
 
 作为一个 DIY 发行版，您需要 [自行设置并维护您的](os/linux-overview.md#arch-based-distributions) 系统。 Arch有一个 [官方安装程序](https://wiki.archlinux.org/title/Archinstall) ，使安装过程更容易一些。
 

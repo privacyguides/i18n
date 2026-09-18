@@ -10,9 +10,9 @@ description: These are some tips and tricks on how to create the strongest passw
 
 ### 为每项服务使用独立的密码
 
-Imagine this: You sign up for an account with the same e-mail and password on multiple online services. 只要这些服务提供商有一个是恶意的，或者他们的服务出现数据泄露，使你的密码以明文形式暴露出来，那么坏人只需要在多个流行的服务中尝试这个电子邮件和密码的组合，就能得手。 密码有多强根本不重要，因为那个密码他们已经拿到了。
+Imagine this: You sign up for an account with the same e-mail and password on multiple online services. 只要这些服务提供商有一个是恶意的，或者他们的服务出现数据泄露，使你的密码以明文形式暴露出来，那么坏人只需要在多个流行的服务中尝试这个电子邮件和密码的组合，就能得手。密码有多强根本不重要，因为那个密码他们已经拿到了。
 
-这被称为[凭据填充](https://en.wikipedia.org/wiki/Credential_stuffing), 这也是坏人攻破你帐户的最常见方式之一。 为了避免这种情况，确保你从不复用你的密码。
+这被称为[凭据填充](https://en.wikipedia.org/wiki/Credential_stuffing), 这也是坏人攻破你帐户的最常见方式之一。为了避免这种情况，确保你从不复用你的密码。
 
 ### 使用随机生成的密码
 
@@ -29,7 +29,7 @@ When it comes to passwords that you don't have to remember (such as passwords st
 <div class="admonition tip" markdown>
 <p class="admonition-title">Checking for data breaches</p>
 
-如果你的密码管理器允许你检查被泄露的密码，请确保这样做，并及时更改任何可能在数据泄露中被泄露的密码。 你还可以在[新闻聚合器](.../news-aggregators.md)的帮助下关注[Have I Been Pwned's Latest Breaches feed]（https://feeds.feedburner.com/HaveIBeenPwnedLatestBreaches）。
+如果你的密码管理器允许你检查被泄露的密码，请确保这样做，并及时更改任何可能在数据泄露中被泄露的密码。你还可以在[新闻聚合器](.../news-aggregators.md)的帮助下关注[Have I Been Pwned's Latest Breaches feed]（https://feeds.feedburner.com/HaveIBeenPwnedLatestBreaches）。
 
 </div>
 
@@ -37,7 +37,7 @@ When it comes to passwords that you don't have to remember (such as passwords st
 
 ### 密码
 
-很多服务在涉及到密码时都有一定的标准，包括最小或最大长度，以及可以使用哪些特殊字符（如果有的话）。 你应该使用你的密码管理器的内置密码生成器，通过包括大写和小写字母、数字和特殊字符，创建当前服务所允许的尽可能长和复杂的密码。
+很多服务在涉及到密码时都有一定的标准，包括最小或最大长度，以及可以使用哪些特殊字符（如果有的话）。你应该使用你的密码管理器的内置密码生成器，通过包括大写和小写字母、数字和特殊字符，创建当前服务所允许的尽可能长和复杂的密码。
 
 如果你需要一个可以记住的密码，我们推荐[diceware口令](#diceware)。
 
@@ -69,7 +69,7 @@ These instructions assume that you are using [EFF's large word list](https://eff
 <div class="admonition warning" markdown>
 <p class="admonition-title">Important</p>
 
-你**不**应该重新生成单词，来得到一个吸引你的单词组合。 这个过程应该是完全随机的。
+你**不**应该重新生成单词，来得到一个吸引你的单词组合。这个过程应该是完全随机的。
 
 </div>
 
@@ -90,7 +90,7 @@ The [EFF's large word list](https://eff.org/files/2016/07/18/eff_large_wordlist.
 
 Let's put all of this in perspective: A seven word passphrase using [EFF's large word list](https://eff.org/files/2016/07/18/eff_large_wordlist.txt) is one of ~1,719,070,799,748,422,500,000,000,000 possible passphrases.
 
-平均而言，需要尝试所有可能的组合中的50%来猜测你的短语。 考虑到这一点，即使你的对手每秒能够猜出1,000,000,000,000次，他们仍然需要27,255,689年才能猜出你的口令。 即使以下情况属实，情况也是如此:
+平均而言，需要尝试所有可能的组合中的50%来猜测你的短语。考虑到这一点，即使你的对手每秒能够猜出1,000,000,000,000次，他们仍然需要27,255,689年才能猜出你的口令。即使以下情况属实，情况也是如此:
 
 - 你的对手知道你使用了diceware方法。
 - Your adversary knows the specific word list that you used.
@@ -104,9 +104,9 @@ Let's put all of this in perspective: A seven word passphrase using [EFF's large
 
 ### 生产力工具
 
-存储密码的最佳方式是使用密码管理器。 它们允许你将密码存储在文件或云中，并以单一的主密码保护它们。 这样一来，你只需记住一个强密码，就可以访问其余的密码。
+存储密码的最佳方式是使用密码管理器。它们允许你将密码存储在文件或云中，并以单一的主密码保护它们。这样一来，你只需记住一个强密码，就可以访问其余的密码。
 
-有许多好的选择，包括基于云的和本地的。 选择我们推荐的密码管理器之一，并使用它在你的所有账户中建立强大的密码。 我们建议用一个至少由七个词组成的 [diceware](#diceware) 口令来保护你的密码管理器。
+有许多好的选择，包括基于云的和本地的。选择我们推荐的密码管理器之一，并使用它在你的所有账户中建立强大的密码。我们建议用一个至少由七个词组成的 [diceware](#diceware) 口令来保护你的密码管理器。
 
 [推荐的密码管理器列表](../passwords.md ""){.md-button}
 
@@ -117,10 +117,10 @@ When using [TOTP codes as multifactor authentication](multi-factor-authenticatio
 
 你应该使用专门的[TOTP应用程序]（.../multi-factor-authentication.md/#authenticator-apps）来代替。
 
-此外，我们不建议在您的密码管理器中存储用于一次性恢复的代码。 它们应当单独存储在，例如离线存储设备上的加密容器中。
+此外，我们不建议在您的密码管理器中存储用于一次性恢复的代码。它们应当单独存储在，例如离线存储设备上的加密容器中。
 
 </div>
 
 ### 备份
 
-你应该在多个存储设备或云存储提供商上存储 [加密的](../encryption.md) 密码备份。 如果你的主要设备或你正在使用的服务发生意外，这可以帮助你访问你的密码。
+你应该在多个存储设备或云存储提供商上存储 [加密的](../encryption.md) 密码备份。如果你的主要设备或你正在使用的服务发生意外，这可以帮助你访问你的密码。

@@ -29,7 +29,7 @@ schema:
 - [:material-eye-outline: 大规模监控](basics/common-threats.md#mass-surveillance-programs ""){.pg-blue}
 - [:material-close-outline: 审查](basics/common-threats.md#avoiding-censorship ""){.pg-blue-gray}
 
-**Tor** is a group of volunteer-operated servers that allows you to connect for free and improve your privacy and security on the Internet. 个人和组织也可以通过Tor网络与".onion隐藏服务"分享信息，而不损害其隐私。 由于Tor流量难以阻止和跟踪，因此Tor是一种有效的审查规避工具。
+**Tor** is a group of volunteer-operated servers that allows you to connect for free and improve your privacy and security on the Internet. 个人和组织也可以通过Tor网络与".onion隐藏服务"分享信息，而不损害其隐私。由于Tor流量难以阻止和跟踪，因此Tor是一种有效的审查规避工具。
 
 [Detailed Tor Overview :material-arrow-right-drop-circle:](advanced/tor-overview.md ""){.md-button.md-button--primary} [:material-movie-open-play-outline: Video: Why You Need Tor](https://www.privacyguides.org/videos/2025/03/02/why-you-need-tor ""){.md-button}
 

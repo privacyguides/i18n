@@ -5,9 +5,9 @@ description: Information about our website license, acceptable use policy, and o
 
 ## 法律声明
 
-隐私指南不是律师事务所。 因此，隐私指南网站和撰稿人并不提供法律意见。 我们网站和指南中的材料和建议不构成法律意见，也不会为网站做出贡献或就我们网站与隐私指南或其他贡献者进行沟通，从而建立律师-客户关系。
+隐私指南不是律师事务所。因此，隐私指南网站和撰稿人并不提供法律意见。我们网站和指南中的材料和建议不构成法律意见，也不会为网站做出贡献或就我们网站与隐私指南或其他贡献者进行沟通，从而建立律师-客户关系。
 
-与任何人类努力一样，运行此网站都涉及不确定性和权衡。 我们希望这个网站有所帮助，但它可能包含错误，无法解决所有问题。 如果您对自己的情况有任何疑问，我们建议您自己进行研究，寻求其他专家，并与隐私指南社区进行讨论。 如果您有任何法律问题，请先咨询您自己的法律顾问，然后再继续。
+与任何人类努力一样，运行此网站都涉及不确定性和权衡。我们希望这个网站有所帮助，但它可能包含错误，无法解决所有问题。如果您对自己的情况有任何疑问，我们建议您自己进行研究，寻求其他专家，并与隐私指南社区进行讨论。如果您有任何法律问题，请先咨询您自己的法律顾问，然后再继续。
 
 Privacy Guides is an open-source project contributed to under licenses that include terms that, for the protection of the website and its contributors, make clear that the Privacy Guides project and website is offered "as-is", without warranty, and disclaiming liability for damages resulting from using the website or any recommendations contained within. 此外， 隐私指南不保证、不代表使用本网站、或其他与资料相关，或任何关联本网站的其他网站上资料的准确性，可能导致的结果或可靠性。
 
@@ -31,7 +31,7 @@ This does not include third-party code embedded in the Privacy Guides code repos
 * The [Public Sans](https://github.com/privacyguides/brand/tree/67166ed8b641d8ac1837d0b75329e02ed4056704/fonts/Public%20Sans) font used for most text on the site is licensed under the terms detailed [here](https://github.com/privacyguides/brand/blob/67166ed8b641d8ac1837d0b75329e02ed4056704/fonts/Public%20Sans/LICENSE.txt).
 * The [DM Mono](https://github.com/privacyguides/brand/tree/67166ed8b641d8ac1837d0b75329e02ed4056704/fonts/DM%20Mono) font used for monospaced text on the site is licensed under the [SIL Open Font License 1.1](https://github.com/privacyguides/brand/blob/67166ed8b641d8ac1837d0b75329e02ed4056704/fonts/DM%20Mono/LICENSE.txt).
 
-我们认为从第三方提供商获得的 `资产` 中的标志和其他图像属于公共领域或 **合理使用**。 In a nutshell, legal [fair use doctrine](https://copyright.gov/fair-use/more-info.html) allows the use of copyrighted images in order to identify the subject for purposes of public comment. 然而，在一个或多个司法管辖区，这些徽标和其他图像仍可能受商标法的约束。 在使用此内容之前，请确保其用于识别拥有商标的实体或组织，并且根据适用于您预期使用情况的法律，您有权使用商标。 *从本网站复制内容时，您应自行负责确保您不侵犯他人的商标或版权。*
+我们认为从第三方提供商获得的 `资产` 中的标志和其他图像属于公共领域或 **合理使用**。 In a nutshell, legal [fair use doctrine](https://copyright.gov/fair-use/more-info.html) allows the use of copyrighted images in order to identify the subject for purposes of public comment. 然而，在一个或多个司法管辖区，这些徽标和其他图像仍可能受商标法的约束。在使用此内容之前，请确保其用于识别拥有商标的实体或组织，并且根据适用于您预期使用情况的法律，您有权使用商标。*从本网站复制内容时，您应自行负责确保您不侵犯他人的商标或版权。*
 
 When you contribute to our website you are doing so under the above licenses, and you are granting Privacy Guides a perpetual, worldwide, non-exclusive, transferable, royalty-free, irrevocable license with the right to sublicense such rights through multiple tiers of sublicensees, to reproduce, modify, display, perform and distribute your contribution as part of our project.
 

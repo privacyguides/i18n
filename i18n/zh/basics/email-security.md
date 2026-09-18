@@ -19,11 +19,11 @@ There is another standard which is popular with business called [S/MIME](https:/
 
 ## 什么是网络密钥目录标准？
 
-The [Web Key Directory (WKD)](https://wiki.gnupg.org/WKD) standard allows email clients to discover the OpenPGP key for other mailboxes, even those hosted on a different provider. 支持 WKD 的电子邮件客户端会要求收件人的服务器根据电子邮件地址的域名提供密钥。 例如，如果您向 `jonah@privacyguides.org`发送电子邮件，您的电子邮件客户端会向 `privacyguides.org` 询问 Jonah 的 OpenPGP 密钥，如果 `privacyguides.org` 拥有该账户的密钥，您的邮件就会自动加密。
+The [Web Key Directory (WKD)](https://wiki.gnupg.org/WKD) standard allows email clients to discover the OpenPGP key for other mailboxes, even those hosted on a different provider. 支持 WKD 的电子邮件客户端会要求收件人的服务器根据电子邮件地址的域名提供密钥。例如，如果您向 `jonah@privacyguides.org`发送电子邮件，您的电子邮件客户端会向 `privacyguides.org` 询问 Jonah 的 OpenPGP 密钥，如果 `privacyguides.org` 拥有该账户的密钥，您的邮件就会自动加密。
 
-除了我们推荐的 [电子邮件客户端（](../email-clients.md) ）支持 WKD 外，一些网络邮件提供商也支持 WKD。 *您自己的* 密钥是否发布到 WKD 供他人使用，取决于您的域配置。 If you use an [email provider](../email.md#openpgp-compatible-services) which supports WKD, such as Proton Mail or Mailbox Mail, they can publish your OpenPGP key on their domain for you.
+除了我们推荐的 [电子邮件客户端（](../email-clients.md) ）支持 WKD 外，一些网络邮件提供商也支持 WKD。*您自己的* 密钥是否发布到 WKD 供他人使用，取决于您的域配置。 If you use an [email provider](../email.md#openpgp-compatible-services) which supports WKD, such as Proton Mail or Mailbox Mail, they can publish your OpenPGP key on their domain for you.
 
-如果使用自己的自定义域，则需要单独配置 WKD。 如果您能控制自己的域名，那么无论您的电子邮件提供商是谁，您都可以设置 WKD。 One easy way to do this is to use the "[WKD as a Service](https://keys.openpgp.org/about/usage#wkd-as-a-service)" feature from the `keys.openpgp.org` server: Set a CNAME record on the `openpgpkey` subdomain of your domain pointed to `wkd.keys.openpgp.org`, then upload your key to [keys.openpgp.org](https://keys.openpgp.org). 或者，您也可以 [自行将 WKD 托管在自己的网络服务器上](https://wiki.gnupg.org/WKDHosting)。
+如果使用自己的自定义域，则需要单独配置 WKD。如果您能控制自己的域名，那么无论您的电子邮件提供商是谁，您都可以设置 WKD。 One easy way to do this is to use the "[WKD as a Service](https://keys.openpgp.org/about/usage#wkd-as-a-service)" feature from the `keys.openpgp.org` server: Set a CNAME record on the `openpgpkey` subdomain of your domain pointed to `wkd.keys.openpgp.org`, then upload your key to [keys.openpgp.org](https://keys.openpgp.org). 或者，您也可以 [自行将 WKD 托管在自己的网络服务器上](https://wiki.gnupg.org/WKDHosting)。
 
 If you use a shared domain from a provider which doesn't support WKD, like `@gmail.com`, you won't be able to share your OpenPGP key with others via this method.
 
@@ -41,7 +41,7 @@ It is advantageous for the decryption to occur on the smart card to avoid possib
 
 Email metadata is stored in the [message header](https://en.wikipedia.org/wiki/Email#Message_header) of the email message and includes some visible headers that you may have seen such as `To`, `From`, `Cc`, `Date`, and `Subject`. 许多电子邮件客户和供应商还包括一些隐藏的标题，可以揭示有关你的账户的信息。
 
-客户端软件可以使用电子邮件元数据来显示信息来自谁，以及什么时间收到的。 服务器可能使用它来确定电子邮件必须发送到哪里，其中还有一些不那么透明的 [其他目的](https://en.wikipedia.org/wiki/Email#Message_header) 。
+客户端软件可以使用电子邮件元数据来显示信息来自谁，以及什么时间收到的。服务器可能使用它来确定电子邮件必须发送到哪里，其中还有一些不那么透明的 [其他目的](https://en.wikipedia.org/wiki/Email#Message_header) 。
 
 ### 谁可以查看电子邮件元数据？
 

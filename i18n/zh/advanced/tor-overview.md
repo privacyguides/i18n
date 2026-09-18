@@ -6,7 +6,7 @@ description: Tor是一个免费使用的去中心化网络，专为尽量隐私�
 
 ![Tor logo](../assets/img/self-contained-networks/tor.svg){ align=right }
 
-[**Tor**](../alternative-networks.md#tor) is a free to use, decentralized network designed for using the internet with as much privacy as possible. 如果使用得当，该网络可以实现隐私且匿名地浏览和通信。 由于Tor流量难以阻止和跟踪，因此Tor是一种有效的审查规避工具。
+[**Tor**](../alternative-networks.md#tor) is a free to use, decentralized network designed for using the internet with as much privacy as possible. 如果使用得当，该网络可以实现隐私且匿名地浏览和通信。由于Tor流量难以阻止和跟踪，因此Tor是一种有效的审查规避工具。
 
 [:material-movie-open-play-outline: Video: Why You Need Tor](https://www.privacyguides.org/videos/2025/03/02/why-you-need-tor ""){.md-button}
 
@@ -117,32 +117,32 @@ Those at risk of browser vulnerabilities should consider additional protections 
 
 ### 入口节点
 
-入口节点，通常被称为守护节点，是你的Tor客户端连接到的第一个节点。 入口节点能够看到你的IP地址，但它无法看到你正在连接什么。
+入口节点，通常被称为守护节点，是你的Tor客户端连接到的第一个节点。入口节点能够看到你的IP地址，但它无法看到你正在连接什么。
 
 与其他节点不同，Tor客户端会随机选择一个入口节点并坚持两到三个月，以保护你免受某些攻击。[^1]
 
 ### 中间节点
 
-中间节点是你的Tor客户端连接的第二个节点。 它可以看到流量来自哪个节点--入口节点--以及它接下来要去哪个节点。 中间节点不能，看到你的IP地址或你正在连接的域。
+中间节点是你的Tor客户端连接的第二个节点。它可以看到流量来自哪个节点--入口节点--以及它接下来要去哪个节点。中间节点不能，看到你的IP地址或你正在连接的域。
 
 对于每个新线路，在所有可用的Tor节点中随机选择中间节点。
 
 ### 出口节点
 
-出口节点是你的网络流量离开Tor网络并被转发到待达目的地的地方。 出口节点无法看到你的IP地址，但它确实知道正在连接到哪个网站。
+出口节点是你的网络流量离开Tor网络并被转发到待达目的地的地方。出口节点无法看到你的IP地址，但它确实知道正在连接到哪个网站。
 
 出口节点将从运行有出口中继标志的所有可用Tor节点中随机选择。[^2]
 
 ## 建立通往暗网网络服务的链路
 
-暗网服务是只能通过 Tor 浏览器访问的网站。 这些网站有一个以 `.onion` 结尾的随机生成的长域名。
+暗网服务是只能通过 Tor 浏览器访问的网站。这些网站有一个以 `.onion` 结尾的随机生成的长域名。
 
 在 Tor 中连接到暗网服务的工作原理与连接到公网服务非常相似，但在到达目的地服务器之前，你的流量会经过**六个**节点。 Just like before, however, only three of these nodes are contributing to *your* anonymity, the other three nodes protect *the Onion Service's* anonymity, hiding the website's true IP and location in the same manner that Tor Browser is hiding yours.
 
 <figure style="width:100%" markdown>
   ![显示您的流量通过三个 Tor 节点以及另外三个隐藏暗网服务身份的 Tor 节点的 Tor 链路](.../assets/img/how-tor-works/tor-path-hidden-service.svg#only-light)
   ![显示您的流量通过三个 Tor 节点以及另外三个隐藏暗网服务身份的 Tor 节点的 Tor 链路](../assets/img/how-tor-works/tor-path-hidden-service-dark.svg#only-dark)
-  <figcaption>使用暗网服务的 Tor 链路。 <span class="pg-blue">蓝色</span> 方框中的节点属于您的浏览器，而 <span class="pg-red">红色</span> 方框中的节点属于服务器，因此它们的身份对您是隐藏的。</figcaption>
+  <figcaption>使用暗网服务的 Tor 链路。<span class="pg-blue">蓝色</span> 方框中的节点属于您的浏览器，而 <span class="pg-red">红色</span> 方框中的节点属于服务器，因此它们的身份对您是隐藏的。</figcaption>
 </figure>
 
 ## 加密
@@ -151,13 +151,13 @@ Tor encrypts each packet (a block of transmitted data) three times with the keys
 
 一旦Tor建立了一个电路，数据传输就会按以下方式进行。
 
-1. Firstly: When the packet arrives at the entry node, the first layer of encryption is removed. 在这个加密的数据包中，入口节点会发现另一个带有中间节点地址的加密数据包。 然后，入口节点将把数据包转发给中间节点。
+1. Firstly: When the packet arrives at the entry node, the first layer of encryption is removed. 在这个加密的数据包中，入口节点会发现另一个带有中间节点地址的加密数据包。然后，入口节点将把数据包转发给中间节点。
 
 2. Secondly: When the middle node receives the packet from the entry node, it too will remove a layer of encryption with its key, and this time finds an encrypted packet with the exit node's address. 然后，中间节点将把数据包转发给出口节点。
 
 3. Lastly: When the exit node receives its packet, it will remove the last layer of encryption with its key. 出口节点将看到目标地址并将数据包转发到该地址。
 
-下面是一个显示该过程的替代图。 每个节点都会移除自己的加密层，而当目的地服务器返回数据时，同样的过程会完全反向发生。 例如，出口节点不知道你是谁，但它知道它来自哪个节点，因此它添加了自己的加密层并将其发送回来。
+下面是一个显示该过程的替代图。每个节点都会移除自己的加密层，而当目的地服务器返回数据时，同样的过程会完全反向发生。例如，出口节点不知道你是谁，但它知道它来自哪个节点，因此它添加了自己的加密层并将其发送回来。
 
 <figure markdown>
   ![Tor encryption](../assets/img/how-tor-works/tor-encryption.svg#only-light)
@@ -165,7 +165,7 @@ Tor encrypts each packet (a block of transmitted data) three times with the keys
   <figcaption>Sending and receiving data through the Tor Network</figcaption>
 </figure>
 
-通过使用Tor，我们可以在没有任何一方知道整个线路的情况下连接到一个服务器。 入口节点知道你是谁，但不知道你要去哪里；中间节点不知道你是谁，也不知道你要去哪里；而出口节点知道你要去哪里，但不知道你是谁。 因为出口节点是进行最终连接的，目标服务器永远不会知道你的IP地址。
+通过使用Tor，我们可以在没有任何一方知道整个线路的情况下连接到一个服务器。入口节点知道你是谁，但不知道你要去哪里；中间节点不知道你是谁，也不知道你要去哪里；而出口节点知道你要去哪里，但不知道你是谁。因为出口节点是进行最终连接的，目标服务器永远不会知道你的IP地址。
 
 ## Caveats (注意)
 
@@ -205,6 +205,6 @@ It is [possible](https://discuss.privacyguides.net/t/clarify-tors-weaknesses-wit
 - [How Tor Works - Computerphile](https://youtube.com/watch?v=QRYzre4bf7I) <small>(YouTube)</small>
 - [Tor Onion Services - Computerphile](https://youtube.com/watch?v=lVcbq_a5N9I) <small>(YouTube)</small>
 
-[^1]: 您线路上的第一个中继称为“入口警卫“或“警卫”。 它是一个快速而稳定的中继，会在2-3个月内持续作为你的线路的第一个中继，以防止已知的破坏匿名性的攻击。 你的线路其余部分会随着你访问的每个新网站而改变，所有这些中继器一起提供Tor的全部隐私保护。 关于警卫中继器如何工作的更多信息，请参阅这篇 [博文](https://blog.torproject.org/improving-tors-anonymity-changing-guard-parameters) 和 [关于入口警卫的论文](https://www-users.cs.umn.edu/~hoppernj/single_guard.pdf)。 ([https://support.torproject.org/tbb/tbb-2](https://support.torproject.org/tbb/tbb-2))
+[^1]: 您线路上的第一个中继称为“入口警卫“或“警卫”。它是一个快速而稳定的中继，会在2-3个月内持续作为你的线路的第一个中继，以防止已知的破坏匿名性的攻击。你的线路其余部分会随着你访问的每个新网站而改变，所有这些中继器一起提供Tor的全部隐私保护。关于警卫中继器如何工作的更多信息，请参阅这篇 [博文](https://blog.torproject.org/improving-tors-anonymity-changing-guard-parameters) 和 [关于入口警卫的论文](https://www-users.cs.umn.edu/~hoppernj/single_guard.pdf)。 ([https://support.torproject.org/tbb/tbb-2](https://support.torproject.org/tbb/tbb-2))
 
 [^2]: 中继标志：由目录权限分配并在目录协议规范中进一步定义的线路位置（例如， “Guard”、“Exit”、“BadExit” ）、线路属性（例如， “Fast”、“Stable” ）或角色（例如， “Authority”、“HSDir” ）的中继的特殊（ dis- ）限定。 ([https://metrics.torproject.org/glossary.html](https://metrics.torproject.org/glossary.html#relay-flag))

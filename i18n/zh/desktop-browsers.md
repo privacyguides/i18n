@@ -2,7 +2,7 @@
 meta_title: "尊重隐私的 PC 和 Mac 网络浏览器 - Privacy Guides"
 title: 电脑浏览器
 icon: material/laptop
-description: These privacy-protecting browsers are what we currently recommend for standard/non-anonymous internet browsing on desktop systems.
+description: 我们目前推荐使用这些隐私保护型浏览器，这些浏览器可以在桌面系统上用于标准和非匿名的上网方式。
 cover: desktop-browsers.webp
 schema:
   - 
@@ -61,22 +61,22 @@ schema:
 
 - [:material-account-cash: 监视资本主义](basics/common-threats.md#surveillance-as-a-business-model ""){.pg-brown}
 
-These are our currently recommended **desktop web browsers** and configurations for standard/non-anonymous browsing. 如果你需要强大的隐私保护和开箱即用的防指纹功能，我们推荐 [Mullvad 浏览器](#mullvad-browser) ；如果你需要谷歌 Chrome 浏览器的良好替代品，我们推荐 [Firefox](#firefox) ；如果你需要 Chromium 浏览器的兼容性，我们推荐 [Brave](#brave)。
+这些是我们目前推荐的用于标准及非匿名浏览的**桌面浏览器**和配置。如果你需要强大的隐私保护和开箱即用的防指纹功能，我们推荐 [Mullvad 浏览器](#mullvad-browser) ；如果你需要谷歌 Chrome 浏览器的良好替代品，我们推荐 [Firefox](#firefox) ；如果你需要 Chromium 浏览器的兼容性，我们推荐 [Brave](#brave)。
 
-If you need to browse the internet anonymously, you should use [Tor Browser](tor.md) instead. We make some configuration recommendations on this page, but Tor Browser offers the best protections against online tracking.
+如果你需要匿名浏览互联网，你需要改用[Tor 浏览器](tor.md)。本页面提供了一些配置建议，但 Tor 浏览器能提供最佳的防网络追踪保护。
 
 ## Mullvad 浏览器
 
 <div class="admonition recommendation" markdown>
 
-![Mullvad Browser logo](assets/img/browsers/mullvad_browser.svg){ align=right }
+![Mullvad 浏览器logo](assets/img/browsers/mullvad_browser.svg){ align=right }
 
-**Mullvad Browser** is a version of [Tor Browser](tor.md#tor-browser) with Tor network integrations removed. It aims to provide to VPN users Tor Browser's anti-fingerprinting browser technologies, which are key protections against [:material-eye-outline: Mass Surveillance](basics/common-threats.md#mass-surveillance-programs){ .pg-blue }. 它由 Tor 项目开发，由 [Mullvad](vpn.md#mullvad) 发布，**不需要** 使用 Mullvad 的 VPN。
+**Mullvad 浏览器** 是 [Tor 浏览器](tor.md#tor-browser) 的一个版本，其中已移除了与 Tor 网络的集成功能。该项目旨在为VPN用户提供Tor浏览器中的反指纹识别技术，这些技术是抵御[:material-eye-outline: 大规模监控](basics/common-threats.md#mass-surveillance-programs){ .pg-blue } 的关键防护措施。该软件由Tor项目开发，由[Mullvad](vpn.md#mullvad)分发，且**无需**使用Mullvad的VPN。
 
-[:octicons-home-16: Homepage](https://mullvad.net/en/browser){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://mullvad.net/en/help/privacy-policy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://mullvad.net/en/help/tag/mullvad-browser){ .card-link title="Documentation" }
-[:octicons-code-16:](https://gitlab.torproject.org/tpo/applications/mullvad-browser){ .card-link title="Source Code" }
+[:octicons-home-16: 主页](https://mullvad.net/en/browser){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://mullvad.net/en/help/privacy-policy){ .card-link title="隐私条款" }
+[:octicons-info-16:](https://mullvad.net/en/help/tag/mullvad-browser){ .card-link title="文档"}
+[:octicons-code-16:](https://gitlab.torproject.org/tpo/applications/mullvad-browser){ .card-link title="源代码" }
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
@@ -99,7 +99,7 @@ Modifications other than adjusting this setting would make your fingerprint uniq
 
 **Without** using a [VPN](vpn.md), Mullvad Browser provides protections against [naive fingerprinting scripts](https://github.com/arkenfox/user.js/wiki/3.3-Overrides-%5BTo-RFP-or-Not%5D#-fingerprinting) similar to other private browsers like Firefox+[Arkenfox](#arkenfox-advanced) or [Brave](#brave). Mullvad 浏览器自带这些保护，但牺牲了其他隐私浏览器提供的一些灵活性和便利性。
 
-==为了最完善的反指纹保护，我们建议将 Mullvad 浏览器与 **和** VPN== 结合使用，无论是 Mullvad 还是其他推荐的 VPN 提供商。 在使用 Mullvad 浏览器的 VPN 时，你将与许多其他用户共享一个指纹和一个 IP 地址池，使你混入“人群”。 This strategy is the best way to defend against advanced tracking scripts, and is the same anti-fingerprinting technique used by Tor Browser.
+==为了最完善的反指纹保护，我们建议将 Mullvad 浏览器与 **和** VPN== 结合使用，无论是 Mullvad 还是其他推荐的 VPN 提供商。在使用 Mullvad 浏览器的 VPN 时，你将与许多其他用户共享一个指纹和一个 IP 地址池，使你混入“人群”。 This strategy is the best way to defend against advanced tracking scripts, and is the same anti-fingerprinting technique used by Tor Browser.
 
 Note that while you can use Mullvad Browser with any VPN provider, other people on that VPN must also be using Mullvad Browser for this "crowd" to exist, something which is more likely on Mullvad VPN compared to other providers. Mullvad 浏览器没有内置 VPN 连接，也不会在浏览前检查你是否在使用 VPN；你的 VPN 连接必须单独配置和管理。
 
@@ -107,9 +107,9 @@ Mullvad 浏览器预装了 *uBlock Origin* 和 *NoScript* 浏览器扩展程序�
 
 ### 无痕模式
 
-Mullvad 浏览器一直在无痕浏览模式下运行，这意味着每次关闭浏览器时，你的历史记录、cookies 和其他网站数据都会被清除。 您的书签、浏览器设置和扩展程序设置会被保留。
+Mullvad 浏览器一直在无痕浏览模式下运行，这意味着每次关闭浏览器时，你的历史记录、cookies 和其他网站数据都会被清除。您的书签、浏览器设置和扩展程序设置会被保留。
 
-这是防止深度跟踪的必要条件，但确实牺牲了一些便利性和一些 Firefox 的功能（如多账户容器）。 当然，您可以同时使用多种浏览器，例如，您可以考虑使用 Firefox+Arkenfox 浏览一些需要保持登录状态或在 Mullvad 浏览器中无法正常运行的网站，并使用 Mullvad 浏览器进行一般浏览。
+这是防止深度跟踪的必要条件，但确实牺牲了一些便利性和一些 Firefox 的功能（如多账户容器）。当然，您可以同时使用多种浏览器，例如，您可以考虑使用 Firefox+Arkenfox 浏览一些需要保持登录状态或在 Mullvad 浏览器中无法正常运行的网站，并使用 Mullvad 浏览器进行一般浏览。
 
 ## Firefox（火狐浏览器）
 
@@ -191,7 +191,7 @@ This protects you from persistent cookies, but does not protect you against cook
 
 According to Mozilla's privacy policy for Firefox,
 
-> 火狐浏览器会向我们发送有关您的火狐浏览器版本和语言、设备操作系统和硬件配置、内存、有关崩溃和错误的基本信息以及更新、安全浏览和激活等自动处理结果的数据。 当火狐浏览器向我们发送数据时，您的IP地址会被暂时收集，作为我们服务器日志的一部分。
+> 火狐浏览器会向我们发送有关您的火狐浏览器版本和语言、设备操作系统和硬件配置、内存、有关崩溃和错误的基本信息以及更新、安全浏览和激活等自动处理结果的数据。当火狐浏览器向我们发送数据时，您的IP地址会被暂时收集，作为我们服务器日志的一部分。
 
 Additionally, the Mozilla Accounts service collects [some technical data](https://mozilla.org/privacy/mozilla-accounts). If you use a Mozilla Account you can opt out:
 
@@ -297,7 +297,7 @@ Shields的选项可以根据需要在每个站点的基础上进行降级，但�
 <details class="warning" markdown>
 <summary>Use default filter lists</summary>
 
-Brave allows you to select additional content filters within the internal `brave://adblock` page. 我们建议不要使用这个功能；相反，保留默认的过滤列表。 使用额外的列表会使你从其他Brave用户中脱颖而出，如果Brave中存在漏洞，恶意规则被添加到你使用的列表中，也可能增加攻击面。
+Brave allows you to select additional content filters within the internal `brave://adblock` page. 我们建议不要使用这个功能；相反，保留默认的过滤列表。使用额外的列表会使你从其他Brave用户中脱颖而出，如果Brave中存在漏洞，恶意规则被添加到你使用的列表中，也可能增加攻击面。
 
 </details>
 

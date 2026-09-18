@@ -80,7 +80,7 @@ We also think it's better for the security of the VPN provider's private keys if
 
 Independent security researcher Ruben Santamarta conducted audits for Proton VPN's [browser extensions](https://drive.proton.me/urls/RWDD2SHT98#v7ZrwNcafkG8) and [apps](https://drive.proton.me/urls/RVW8TXG484#uTXX5Fc9GADo) in September 2024 and January 2025, respectively. Proton VPN's infrastrcture has undergone [annual audits](https://protonvpn.com/blog/no-logs-audit) by Securitum since 2022.
 
-Previously, Proton VPN underwent an independent audit by SEC Consult in January 2020. SEC Consult在Proton VPN的Windows、Android和iOS应用程序中发现了一些中度和低度风险的漏洞，在报告发布前，Proton VPN都已经 "妥善修复"。 所发现的问题中没有任何一个能让攻击者远程访问你的设备或流量。 You can view individual reports for each platform in their dedicated [blog post](https://web.archive.org/web/20250307041036/https://protonvpn.com/blog/open-source) on the audit.
+Previously, Proton VPN underwent an independent audit by SEC Consult in January 2020. SEC Consult在Proton VPN的Windows、Android和iOS应用程序中发现了一些中度和低度风险的漏洞，在报告发布前，Proton VPN都已经 "妥善修复"。所发现的问题中没有任何一个能让攻击者远程访问你的设备或流量。 You can view individual reports for each platform in their dedicated [blog post](https://web.archive.org/web/20250307041036/https://protonvpn.com/blog/open-source) on the audit.
 
 #### :material-check:{ .pg-green } Open-Source Clients
 
@@ -293,11 +293,11 @@ Mullvad is very transparent about which nodes they [own or rent](https://mullvad
 <div class="admonition danger" markdown>
 <p class="admonition-title">Danger</p>
 
-值得注意的是，使用VPN供应商不会使你成为匿名者，但在某些情况下会给你更好的隐私。 VPN不是非法活动的工具。 不要依赖 "无日志 "政策。
+值得注意的是，使用VPN供应商不会使你成为匿名者，但在某些情况下会给你更好的隐私。 VPN不是非法活动的工具。不要依赖 "无日志 "政策。
 
 </div>
 
-**请注意，我们与我们推荐的任何供应商都没有关系。 这使我们能够提供完全客观的建议。** 除了 [我们的标准标准](about/criteria.md)，我们还为任何希望被推荐的VPN供应商制定了一套明确的要求，包括强大的加密、独立的安全审计、现代技术等。 我们建议你在选择VPN供应商之前熟悉这份清单，并进行自己的研究，以确保你选择的VPN供应商尽可能值得信赖。
+**请注意，我们与我们推荐的任何供应商都没有关系。这使我们能够提供完全客观的建议。** 除了 [我们的标准标准](about/criteria.md)，我们还为任何希望被推荐的VPN供应商制定了一套明确的要求，包括强大的加密、独立的安全审计、现代技术等。我们建议你在选择VPN供应商之前熟悉这份清单，并进行自己的研究，以确保你选择的VPN供应商尽可能值得信赖。
 
 ### 技术
 

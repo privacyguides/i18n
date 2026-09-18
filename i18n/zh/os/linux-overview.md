@@ -40,7 +40,7 @@ Additionally, Linux falls behind in implementing [exploit mitigations](https://m
 
 ### 发布周期
 
-我们强烈建议你选择与稳定的上游软件版本接近的发行版，通常被称为滚动发行版。 这是因为冻结发布周期的发行版往往不更新软件包版本，并且在安全更新方面落后。
+我们强烈建议你选择与稳定的上游软件版本接近的发行版，通常被称为滚动发行版。这是因为冻结发布周期的发行版往往不更新软件包版本，并且在安全更新方面落后。
 
 For frozen distributions such as [Debian](https://debian.org/security/faq#handling), package maintainers are expected to backport patches to fix vulnerabilities rather than bump the software to the “next version” released by the upstream developer. Some security fixes (particularly for less popular software) [do not](https://arxiv.org/abs/2105.14565) receive a [CVE ID](https://en.wikipedia.org/wiki/Common_Vulnerabilities_and_Exposures) at all and therefore do not make it into the distribution with this patching model. As a result, minor security fixes are sometimes held back until the next major release.
 
@@ -60,7 +60,7 @@ The atomic update method can achieve reliability with this model and is used for
 
 ### “以安全为重点”的分发
 
-通常在“以安全为中心”的发行版和“渗透测试”发行版之间存在一些混淆。 A quick search for “the most secure Linux distribution” will often give results like Kali Linux, Black Arch, or Parrot OS. 这些发行版是攻击性的渗透测试发行版，捆绑了测试其他系统的工具。 它们不包括任何 "额外的安全 "或用于常规使用的防御性缓解措施。
+通常在“以安全为中心”的发行版和“渗透测试”发行版之间存在一些混淆。 A quick search for “the most secure Linux distribution” will often give results like Kali Linux, Black Arch, or Parrot OS. 这些发行版是攻击性的渗透测试发行版，捆绑了测试其他系统的工具。它们不包括任何 "额外的安全 "或用于常规使用的防御性缓解措施。
 
 ### 基于Arch的发行版
 
@@ -108,7 +108,7 @@ We **highly recommend** that you install microcode updates, as they contain impo
 
 ### 更新
 
-大多数Linux发行版会自动安装更新或提醒你这样做。 重要的是保持你的操作系统是最新的，这样当发现漏洞时，你的软件就会打上补丁。
+大多数Linux发行版会自动安装更新或提醒你这样做。重要的是保持你的操作系统是最新的，这样当发现漏洞时，你的软件就会打上补丁。
 
 Some distributions (particularly those aimed at advanced users) are more bare bones and expect you to do things yourself (e.g. Arch or Debian). 这些将需要手动运行 "软件包管理器" (`apt`, `pacman`, `dnf`, 等等)，以便接收重要的安全更新。
 
@@ -124,7 +124,7 @@ Desktop environments that support the [Wayland](https://wayland.freedesktop.org)
 
 Many desktop Linux distributions (Fedora, openSUSE, etc.) come with [NetworkManager](https://en.wikipedia.org/wiki/NetworkManager) to configure Ethernet and Wi-Fi settings.
 
-It is possible to randomize the [MAC address](https://en.wikipedia.org/wiki/MAC_address) when using NetworkManager. 这在Wi-Fi网络上提供了更多的隐私，因为它使你更难追踪你所连接的网络上的特定设备。 它并不是 [****](https://papers.mathyvanhoef.com/wisec2016.pdf) 让你匿名。
+It is possible to randomize the [MAC address](https://en.wikipedia.org/wiki/MAC_address) when using NetworkManager. 这在Wi-Fi网络上提供了更多的隐私，因为它使你更难追踪你所连接的网络上的特定设备。它并不是 [****](https://papers.mathyvanhoef.com/wisec2016.pdf) 让你匿名。
 
 In the terminal, create a new file `/etc/NetworkManager/conf.d/00-macrandomize.conf` and add the following to it:
 
@@ -151,16 +151,16 @@ MAC address randomization is primarily beneficial for Wi-Fi connections. For Eth
 
 ### 其他标识符
 
-还有一些其他的系统标识符，你可能要小心对待。 你应该考虑一下，看看它是否适用于你的 [威胁模型](../basics/threat-modeling.md)。
+还有一些其他的系统标识符，你可能要小心对待。你应该考虑一下，看看它是否适用于你的 [威胁模型](../basics/threat-modeling.md)。
 
-- **主机名。** 你的系统的主机名是与你所连接的网络共享的。 你应该避免在你的主机名中包括像你的名字或操作系统这样的识别术语，而是坚持使用通用术语或随机字符串。
-- **用户名。** 同样地，你的用户名在你的系统中以各种方式使用。 考虑使用 "用户 "这样的通用术语，而不是你的真实姓名。
+- **主机名。** 你的系统的主机名是与你所连接的网络共享的。你应该避免在你的主机名中包括像你的名字或操作系统这样的识别术语，而是坚持使用通用术语或随机字符串。
+- **用户名。** 同样地，你的用户名在你的系统中以各种方式使用。考虑使用 "用户 "这样的通用术语，而不是你的真实姓名。
 
 ### 系统计数
 
 Fedora 项目 [通过使用一个 [`countme`](https://fedoraproject.org/wiki/Changes/DNF_Better_Counting#Detailed_Description) 变量而不是唯一的 ID 来计算](https://fedoraproject.org/wiki/Changes/DNF_Better_Counting) 有多少独特的系统访问它的镜像。 Fedora这样做是为了确定负载并在必要时为更新提供更好的服务器。
 
-这个 [选项](https://dnf.readthedocs.io/en/latest/conf_ref.html#options-for-both-main-and-repo) ，目前默认是关闭的。 我们建议将 `countme=false` 添加到 `/etc/dnf/dnf.conf` ，以备将来启用它。 On systems that use `rpm-ostree` such as Silverblue, the `countme` option is disabled by masking the [rpm-ostree-countme](https://fedoramagazine.org/getting-better-at-counting-rpm-ostree-based-systems) timer.
+这个 [选项](https://dnf.readthedocs.io/en/latest/conf_ref.html#options-for-both-main-and-repo) ，目前默认是关闭的。我们建议将 `countme=false` 添加到 `/etc/dnf/dnf.conf` ，以备将来启用它。 On systems that use `rpm-ostree` such as Silverblue, the `countme` option is disabled by masking the [rpm-ostree-countme](https://fedoramagazine.org/getting-better-at-counting-rpm-ostree-based-systems) timer.
 
 openSUSE also uses a [unique ID](https://en.opensuse.org/openSUSE:Statistics) to count systems, which can be disabled by emptying the `/var/lib/zypp/AnonymousUniqueId` file.
 

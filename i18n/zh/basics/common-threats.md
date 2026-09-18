@@ -57,19 +57,19 @@ Avoiding censored access to information or being censored yourself when speaking
 
 <span class="pg-purple">:material-incognito: 匿名性</span>
 
-匿名和隐私经常被混淆，但这是两个截然不同的概念。 隐私是你对如何使用和分享你的数据所做的一系列选择，而匿名则是将你的在线活动与你的现实生活身份完全脱离关系。
+匿名和隐私经常被混淆，但这是两个截然不同的概念。隐私是你对如何使用和分享你的数据所做的一系列选择，而匿名则是将你的在线活动与你的现实生活身份完全脱离关系。
 
-例如，举报人和记者可能会有一个相对极端的威胁模型，需要完全匿名。 这不仅是在隐藏他们所做的事情，他们有哪些数据，不被黑客或政府入侵，而且还完全隐藏他们是谁。 这意味着为了保护他们的匿名性、隐私或安全，他们可以牺牲任何形式的便利，因为他们的生命可能依赖于前者。 大多数普通人都不需要去这样做。
+例如，举报人和记者可能会有一个相对极端的威胁模型，需要完全匿名。这不仅是在隐藏他们所做的事情，他们有哪些数据，不被黑客或政府入侵，而且还完全隐藏他们是谁。这意味着为了保护他们的匿名性、隐私或安全，他们可以牺牲任何形式的便利，因为他们的生命可能依赖于前者。大多数普通人都不需要去这样做。
 
 ## 安全和隐私
 
 <span class="pg-orange">:material-bug-outline: 被动攻击</span>
 
-安全和隐私经常被混为一谈，因为你需要安全来获得任何形式的隐私。如果这些工具可以很容易地被攻击者利用并随后泄漏你的数据，那么无论再怎么看似隐私都无济于事。 然而，反之亦然；世界上最安全的服务 *不一定是* 私密的。 这方面最好的例子是将数据托付给谷歌，鉴于其规模，谷歌能够通过雇用行业领先的安全专家来保护他们的基础设施，从而最大限度地减少了安全事件。 尽管谷歌提供了非常安全的服务，但很少有人会认为他们在谷歌的免费消费者产品(Gmail、YouTube等) 中的数据是私有的。
+安全和隐私经常被混为一谈，因为你需要安全来获得任何形式的隐私。如果这些工具可以很容易地被攻击者利用并随后泄漏你的数据，那么无论再怎么看似隐私都无济于事。然而，反之亦然；世界上最安全的服务 *不一定是* 私密的。这方面最好的例子是将数据托付给谷歌，鉴于其规模，谷歌能够通过雇用行业领先的安全专家来保护他们的基础设施，从而最大限度地减少了安全事件。尽管谷歌提供了非常安全的服务，但很少有人会认为他们在谷歌的免费消费者产品(Gmail、YouTube等) 中的数据是私有的。
 
-当涉及到应用程序安全时，我们通常不知道（有时甚至无法知道）我们使用的软件是否是恶意的，或者在未来的某一天会不会变成恶意的。 即使是最值得信赖的开发人员，通常也不能保证他们的软件没有可能在以后被利用的严重漏洞。
+当涉及到应用程序安全时，我们通常不知道（有时甚至无法知道）我们使用的软件是否是恶意的，或者在未来的某一天会不会变成恶意的。即使是最值得信赖的开发人员，通常也不能保证他们的软件没有可能在以后被利用的严重漏洞。
 
-为了最大限度地减少恶意软件可能造成的损害，您应该采用隔离方式进行安全防护。 这可以是使用不同的计算机进行不同的工作，使用虚拟机来分离不同的相关应用程序组，或者使用一个安全的操作系统，重点是要有应用程序沙盒和强制性的访问控制。
+为了最大限度地减少恶意软件可能造成的损害，您应该采用隔离方式进行安全防护。这可以是使用不同的计算机进行不同的工作，使用虚拟机来分离不同的相关应用程序组，或者使用一个安全的操作系统，重点是要有应用程序沙盒和强制性的访问控制。
 
 <div class="admonition tip" markdown>
 <p class="admonition-title">Tip</p>
@@ -84,16 +84,16 @@ Avoiding censored access to information or being censored yourself when speaking
 
 <span class="pg-red">:material-target-account: 定向攻击</span>
 
-针对特定用户的有针对性的攻击更加难以处理。 常见的攻击途径包括通过电子邮件发送恶意文件，利用浏览器和操作系统的漏洞，以及物理攻击。 如果您担心这一点，则可能需要采用更高级的威胁缓解策略。
+针对特定用户的有针对性的攻击更加难以处理。常见的攻击途径包括通过电子邮件发送恶意文件，利用浏览器和操作系统的漏洞，以及物理攻击。如果您担心这一点，则可能需要采用更高级的威胁缓解策略。
 
 <div class="admonition tip" markdown>
 <p class="admonition-title">Tip</p>
 
-**网络浏览器**、**电子邮件客户端**和**办公应用程序**在设计上通常都运行源自第三方的不可信代码。 运行多个虚拟机来将此类应用程序从主机系统中分离出来，以及彼此分离，是您可以使用的一种技术，以避免这些应用程序中的漏洞被利用，危及系统的其余部分。 例如，Qubes OS或Windows上的Microsoft Defender Application Guard等技术提供了无缝执行此操作的便捷方法。
+**网络浏览器**、**电子邮件客户端**和**办公应用程序**在设计上通常都运行源自第三方的不可信代码。运行多个虚拟机来将此类应用程序从主机系统中分离出来，以及彼此分离，是您可以使用的一种技术，以避免这些应用程序中的漏洞被利用，危及系统的其余部分。例如，Qubes OS或Windows上的Microsoft Defender Application Guard等技术提供了无缝执行此操作的便捷方法。
 
 </div>
 
-If you are concerned about **physical attacks** you should use an operating system with a secure verified boot implementation, such as Android, iOS, macOS, or [Windows (with TPM)](https://learn.microsoft.com/windows/security/information-protection/secure-the-windows-10-boot-process). 你还应该确保你的驱动器是加密的，并且操作系统使用TPM或安全 [Enclave](https://support.apple.com/guide/security/secure-enclave-sec59b0b31ff/1/web/1) 或 [Element](https://developers.google.com/android/security/android-ready-se) ，以限制输入加密口令的重试速率。 你应该避免与你不信任的人分享你的电脑，因为大多数桌面操作系统没有按用户单独加密数据。
+If you are concerned about **physical attacks** you should use an operating system with a secure verified boot implementation, such as Android, iOS, macOS, or [Windows (with TPM)](https://learn.microsoft.com/windows/security/information-protection/secure-the-windows-10-boot-process). 你还应该确保你的驱动器是加密的，并且操作系统使用TPM或安全 [Enclave](https://support.apple.com/guide/security/secure-enclave-sec59b0b31ff/1/web/1) 或 [Element](https://developers.google.com/android/security/android-ready-se) ，以限制输入加密口令的重试速率。你应该避免与你不信任的人分享你的电脑，因为大多数桌面操作系统没有按用户单独加密数据。
 
 ## Attacks against Certain Organizations
 
@@ -126,18 +126,18 @@ These sorts of attacks can require a lot of time and preparation to perform and 
 
 <span class="pg-teal">:material-server-network: 服务提供商</span>
 
-我们生活在一个几乎所有东西都与互联网相连的世界里。 我们的 "私人 "信息、电子邮件、社交互动通常存储在某个服务器上。 通常，当您向某人发送消息时，该消息会存储在服务器上，当您的朋友想要阅读该消息时，服务器会将其显示给他们。
+我们生活在一个几乎所有东西都与互联网相连的世界里。我们的 "私人 "信息、电子邮件、社交互动通常存储在某个服务器上。通常，当您向某人发送消息时，该消息会存储在服务器上，当您的朋友想要阅读该消息时，服务器会将其显示给他们。
 
-这样做的明显问题是，服务提供商（或入侵服务器的黑客）可以随时随地查看你的 "私人 "对话，而你却对此一无所知。 这适用于许多常见服务，如短信、Telegram、Discord等。
+这样做的明显问题是，服务提供商（或入侵服务器的黑客）可以随时随地查看你的 "私人 "对话，而你却对此一无所知。这适用于许多常见服务，如短信、Telegram、Discord等。
 
-值得庆幸的是，可以通过在发送到服务器之前就对您与收件人之间的通信进行端到端加密来缓解此问题。 只要服务提供者不能获得任何一方的私钥，就能保证你的信息的保密性。
+值得庆幸的是，可以通过在发送到服务器之前就对您与收件人之间的通信进行端到端加密来缓解此问题。只要服务提供者不能获得任何一方的私钥，就能保证你的信息的保密性。
 
 <div class="admonition note" markdown>
 <p class="admonition-title">Note on Web-based Encryption</p>
 
-在实践中，不同的端到端加密实现的有效性各不相同。 [Signal](../real-time-communication.md＃signal)这类应用程序在您的设备本地运行，并且应用程序副本在不同的安装下保持相同。 如果服务提供商在他们的应用程序中设置后门，试图窃取你的私钥，这可以在未来通过逆向工程检测出来。
+在实践中，不同的端到端加密实现的有效性各不相同。 [Signal](../real-time-communication.md＃signal)这类应用程序在您的设备本地运行，并且应用程序副本在不同的安装下保持相同。如果服务提供商在他们的应用程序中设置后门，试图窃取你的私钥，这可以在未来通过逆向工程检测出来。
 
-On the other hand, web-based E2EE implementations, such as Proton Mail's web app or Bitwarden's *Web Vault*, rely on the server dynamically serving JavaScript code to the browser to handle cryptography. 一个恶意的服务器可以针对一个特定的用户，向他们发送恶意的JavaScript代码来窃取他们的加密密钥，而用户是很难注意到这样的事情的。 即使用户注意到有人试图窃取他们的密钥，也很难证明是提供商试图这样做，因为服务器可以选择向不同的用户提供不同的网络客户端。
+On the other hand, web-based E2EE implementations, such as Proton Mail's web app or Bitwarden's *Web Vault*, rely on the server dynamically serving JavaScript code to the browser to handle cryptography. 一个恶意的服务器可以针对一个特定的用户，向他们发送恶意的JavaScript代码来窃取他们的加密密钥，而用户是很难注意到这样的事情的。即使用户注意到有人试图窃取他们的密钥，也很难证明是提供商试图这样做，因为服务器可以选择向不同的用户提供不同的网络客户端。
 
 因此，当依赖端到端加密时，你应该尽可能选择使用本地应用程序而不是网络客户端。
 
@@ -149,7 +149,7 @@ On the other hand, web-based E2EE implementations, such as Proton Mail's web app
 
 <span class="pg-blue">:material-eye-outline: 大规模监控</span>
 
-大规模监控是指对许多或所有特定人群进行监控的工作。 它通常是指像[Edward Snowden在2013披露](https://en.wikipedia.org/wiki/Global_surveillance_disclosures_(2013%E2%80%93present))的那一类政府项目。
+大规模监控是指对许多或所有特定人群进行监控的工作。它通常是指像[Edward Snowden在2013披露](https://en.wikipedia.org/wiki/Global_surveillance_disclosures_(2013%E2%80%93present))的那一类政府项目。
 
 <div class="admonition abstract" markdown>
 <p class="admonition-title">Atlas of Surveillance</p>
@@ -187,27 +187,27 @@ If you're concerned about mass surveillance programs, you can use strategies lik
 
 > 监视资本主义是一种以获取个人数据和将个人数据商品化为核心，从而以此营利的经济体系。[^2]
 
-确保您的数据私密性的最佳方法是首先不要将其放在外面。 删除你在网上发现的关于自己的信息是你为了恢复隐私可以采取的最佳初步措施之一。 使用内容拦截器等工具来限制对其服务器的网络请求，并阅读你使用的服务的隐私政策，可以帮助你避免许多基本的对手（尽管它不能完全防止跟踪）。[^4]
+确保您的数据私密性的最佳方法是首先不要将其放在外面。删除你在网上发现的关于自己的信息是你为了恢复隐私可以采取的最佳初步措施之一。使用内容拦截器等工具来限制对其服务器的网络请求，并阅读你使用的服务的隐私政策，可以帮助你避免许多基本的对手（尽管它不能完全防止跟踪）。[^4]
 
-Additionally, even companies outside the *AdTech* or tracking industry can share your information with [data brokers](https://en.wikipedia.org/wiki/Information_broker) (such as Cambridge Analytica, Experian, or Datalogix) or other parties. 例如，如果您的帐户具有“隐私模式” ，请启用此功能以确保您的帐户不会被搜索引擎索引，并且不会被未经您事先审核的人查看。 对企业数据收集最有力的保护是尽可能地加密或混淆你的数据，使不同的供应商难以将数据相互关联并建立你的档案。
+Additionally, even companies outside the *AdTech* or tracking industry can share your information with [data brokers](https://en.wikipedia.org/wiki/Information_broker) (such as Cambridge Analytica, Experian, or Datalogix) or other parties. 例如，如果您的帐户具有“隐私模式” ，请启用此功能以确保您的帐户不会被搜索引擎索引，并且不会被未经您事先审核的人查看。对企业数据收集最有力的保护是尽可能地加密或混淆你的数据，使不同的供应商难以将数据相互关联并建立你的档案。
 
 ## 限制公共信息
 
 <span class="pg-green">:material-account-search: 公开曝光</span>
 
-保持数据私密性的最佳方法是首先不要将其公开。 删除你在网上发现的不需要的信息是你可以采取的最好的第一步，以重新获得你的隐私。
+保持数据私密性的最佳方法是首先不要将其公开。删除你在网上发现的不需要的信息是你可以采取的最好的第一步，以重新获得你的隐私。
 
 - [查看我们的账户删除指南 :material-arrow-right-drop-circle:](account-deletion.md)
 
-极权主义政府、网络管理员和服务提供商都可以在不同程度上进行在线审查，以控制用户的言论和用户可以获得的信息。 这些过滤互联网的行为将永远与言论自由的理想不相容。
+极权主义政府、网络管理员和服务提供商都可以在不同程度上进行在线审查，以控制用户的言论和用户可以获得的信息。这些过滤互联网的行为将永远与言论自由的理想不相容。
 
-随着Twitter和Facebook等平台对公众需求、市场压力和政府机构的压力做出让步，企业平台的审查制度也越来越普遍。 政府可以向企业隐蔽，例如白宫 [要求删除](https://www.nytimes.com/2012/09/17/technology/on-the-web-a-fine-line-on-free-speech-across-globe.html) 某个挑衅性的YouTube视频；也可以是公开的，例如中国政府要求企业遵守严格的审查制度。
+随着Twitter和Facebook等平台对公众需求、市场压力和政府机构的压力做出让步，企业平台的审查制度也越来越普遍。政府可以向企业隐蔽，例如白宫 [要求删除](https://www.nytimes.com/2012/09/17/technology/on-the-web-a-fine-line-on-free-speech-across-globe.html) 某个挑衅性的YouTube视频；也可以是公开的，例如中国政府要求企业遵守严格的审查制度。
 
 ## 避免审查
 
 <span class="pg-blue-gray">:material-close-outline: 审查</span>
 
-包括极权主义政府、网络管理员和服务提供商在内的行为者都可以（在不同程度上）进行网上审查。 这些控制通讯和限制获取信息的努力，总是与言论自由的人权不相容。[^5]
+包括极权主义政府、网络管理员和服务提供商在内的行为者都可以（在不同程度上）进行网上审查。这些控制通讯和限制获取信息的努力，总是与言论自由的人权不相容。[^5]
 
 企业平台的审查制度越来越普遍，因为像Twitter和Facebook这样的平台屈服于公众需求、市场压力和政府机构的压力。 Government pressures can be covert requests to businesses, such as the White House [requesting the takedown](https://nytimes.com/2012/09/17/technology/on-the-web-a-fine-line-on-free-speech-across-globe.html) of a provocative YouTube video, or overt, such as the Chinese government requiring companies to adhere to a strict regime of censorship.
 
@@ -218,11 +218,11 @@ People concerned with the threat of censorship can use technologies like [Tor](.
 
 虽然逃避审查本身很容易，但隐藏你正在做的事实可能非常有问题。
 
-你应该考虑你的对手可以观察到网络的哪些方面，以及你的行动是否有合理的可否认性。 例如，使用[加密DNS](.../advanced/dns-overview.md#what-is-encrypted-dns)可以帮助你绕过初级的、基于DNS的审查系统，但它不能真正向ISP隐藏你正在访问的内容。 VPN或Tor可以帮助向网络管理员隐藏你正在访问的内容，但不能隐藏你首先在使用这些网络。 可插拔的传输工具（如Obfs4proxy、Meek或Shadowsocks）可以帮助你逃避阻挡普通VPN协议或Tor的防火墙，但你的规避尝试仍然可以被探测或[深度包检查](https://en.wikipedia.org/wiki/Deep_packet_inspection)等方法发现。
+你应该考虑你的对手可以观察到网络的哪些方面，以及你的行动是否有合理的可否认性。例如，使用[加密DNS](.../advanced/dns-overview.md#what-is-encrypted-dns)可以帮助你绕过初级的、基于DNS的审查系统，但它不能真正向ISP隐藏你正在访问的内容。 VPN或Tor可以帮助向网络管理员隐藏你正在访问的内容，但不能隐藏你首先在使用这些网络。可插拔的传输工具（如Obfs4proxy、Meek或Shadowsocks）可以帮助你逃避阻挡普通VPN协议或Tor的防火墙，但你的规避尝试仍然可以被探测或[深度包检查](https://en.wikipedia.org/wiki/Deep_packet_inspection)等方法发现。
 
 </div>
 
-你必须始终考虑试图绕过审查制度的风险，潜在的后果，以及你的对手可能有多复杂。 你应该谨慎地选择软件，并有一个备份计划，以防被发现。
+你必须始终考虑试图绕过审查制度的风险，潜在的后果，以及你的对手可能有多复杂。你应该谨慎地选择软件，并有一个备份计划，以防被发现。
 
 [^1]: 美国隐私和公民自由监督委员会。 [关于根据第215条进行的电话记录计划的报告](https://documents.pclob.gov/prod/Documents/OversightReport/ec542143-1079-424a-84b3-acc354698560/215-Report_on_the_Telephone_Records_Program.pdf)
 [^2]: 维基百科： [监控资本主义](https://en.wikipedia.org/wiki/Surveillance_capitalism)

@@ -10,7 +10,7 @@ cover: data-redaction.webp
 
 - [:material-account-search: 公开曝光](basics/common-threats.md#limiting-public-information ""){.pg-green}
 
-共享文件时，请务必删除关联的元数据。 图像文件通常包括 [Exif](https://en.wikipedia.org/wiki/Exif) 数据。 照片有时甚至包括文件元数据中的GPS坐标。
+共享文件时，请务必删除关联的元数据。图像文件通常包括 [Exif](https://en.wikipedia.org/wiki/Exif) 数据。照片有时甚至包括文件元数据中的GPS坐标。
 
 <div class="admonition warning" markdown>
 <p class="admonition-title">警告</p>
@@ -97,7 +97,7 @@ It currently supports JPEG, PNG, and WebP files.
 
 在处理完图像后，ExifEraser会向你提供一份完整的报告，说明每张图像中到底有哪些被删除。
 
-该应用程序提供多种方法来消除图像中的元数据。 名称：
+该应用程序提供多种方法来消除图像中的元数据。名称：
 
 - 你可以用ExifEraser分享另一个应用程序的图像。
 - 通过应用程序本身，你可以选择一张图片，一次选择多张图片，甚至是整个目录。

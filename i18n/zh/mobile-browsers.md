@@ -74,7 +74,7 @@ Brave是建立在Chromium网络浏览器项目之上的，所以它应该有熟�
 
 ### Recommended Brave Configuration
 
-Tor浏览器是匿名浏览互联网的唯一途径。 当您使用Brave时，我们建议您更改以下设置，以保护您的隐私不受某些方的侵害，但除了 [Tor浏览器](tor.md#tor-browser) 之外的所有浏览器都可以在某些方面被 *个人* 追踪。
+Tor浏览器是匿名浏览互联网的唯一途径。当您使用Brave时，我们建议您更改以下设置，以保护您的隐私不受某些方的侵害，但除了 [Tor浏览器](tor.md#tor-browser) 之外的所有浏览器都可以在某些方面被 *个人* 追踪。
 
 === "Android"
 
@@ -106,7 +106,7 @@ Shields的选项可以根据需要在每个站点的基础上进行降级，但�
     <details class="warning" markdown>
     <summary>Use default filter lists</summary>
 
-    Brave allows you to select additional content filters within the **Content Filtering** menu or the internal `brave://adblock` page. 我们建议不要使用这个功能；相反，保留默认的过滤列表。 使用额外的列表会使你从其他Brave用户中脱颖而出，如果Brave中存在漏洞，恶意规则被添加到你使用的列表中，也可能增加攻击面。
+    Brave allows you to select additional content filters within the **Content Filtering** menu or the internal `brave://adblock` page. 我们建议不要使用这个功能；相反，保留默认的过滤列表。使用额外的列表会使你从其他Brave用户中脱颖而出，如果Brave中存在漏洞，恶意规则被添加到你使用的列表中，也可能增加攻击面。
 
     </details>
 
@@ -131,7 +131,7 @@ Shields的选项可以根据需要在每个站点的基础上进行降级，但�
     <details class="warning" markdown>
     <summary>Use default filter lists</summary>
 
-    Brave allows you to select additional content filters within the **Content Filtering** menu. 我们建议不要使用这个功能；相反，保留默认的过滤列表。 使用额外的列表会使你从其他Brave用户中脱颖而出，如果Brave中存在漏洞，恶意规则被添加到你使用的列表中，也可能增加攻击面。
+    Brave allows you to select additional content filters within the **Content Filtering** menu. 我们建议不要使用这个功能；相反，保留默认的过滤列表。使用额外的列表会使你从其他Brave用户中脱颖而出，如果Brave中存在漏洞，恶意规则被添加到你使用的列表中，也可能增加攻击面。
 
     </details>
 

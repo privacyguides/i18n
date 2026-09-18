@@ -14,7 +14,7 @@ global:
 
 - [:material-server-network: 服务提供商](basics/common-threats.md#privacy-from-service-providers ""){.pg-teal}
 
-电子邮件实际上是使用任何在线服务的必需品，但我们不建议使用它进行人与人之间的对话。 与其使用电子邮件与他人联系，不如考虑使用支持前向保密的即时通讯媒介。
+电子邮件实际上是使用任何在线服务的必需品，但我们不建议使用它进行人与人之间的对话。与其使用电子邮件与他人联系，不如考虑使用支持前向保密的即时通讯媒介。
 
 [推荐的即时通讯工具](real-time-communication.md ""){.md-button}
 
@@ -131,7 +131,7 @@ Proton Mail also publishes the public keys of Proton accounts via HTTP from thei
 
 #### :material-information-outline:{ .pg-blue } Account Termination
 
-If you have a paid account and your [bill is unpaid](https://proton.me/support/delinquency) after 14 days, you won't be able to access your data. 30天后，你的账户将成为欠费账户，不会收到来信。 在此期间，您将继续收到账单。 Proton will [delete inactive free accounts](https://proton.me/support/inactive-accounts) after one year. You **cannot** reuse the email address of a deactivated account.
+If you have a paid account and your [bill is unpaid](https://proton.me/support/delinquency) after 14 days, you won't be able to access your data. 30天后，你的账户将成为欠费账户，不会收到来信。在此期间，您将继续收到账单。 Proton will [delete inactive free accounts](https://proton.me/support/inactive-accounts) after one year. You **cannot** reuse the email address of a deactivated account.
 
 #### :material-information-outline:{ .pg-blue } Additional Functionality
 

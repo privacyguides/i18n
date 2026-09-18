@@ -9,7 +9,7 @@ cover: frontends.webp
 
 - [:material-account-cash: 监视资本主义](basics/common-threats.md#surveillance-as-a-business-model ""){.pg-brown}
 
-有时，一些服务会用烦人的弹窗阻止你访问内容，以此来强迫你注册账户。 此时如果停用JavaScript网站也会崩溃。 These frontends can allow you to circumvent these restrictions.
+有时，一些服务会用烦人的弹窗阻止你访问内容，以此来强迫你注册账户。此时如果停用JavaScript网站也会崩溃。 These frontends can allow you to circumvent these restrictions.
 
 If you choose to self-host these frontends, it is important that you have other people using your instance as well in order for you to blend in. You should be careful with where and how you are hosting, as other peoples' usage will be linked to your hosting.
 

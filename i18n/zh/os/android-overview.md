@@ -23,27 +23,27 @@ Key components of the Android security model include [verified boot](#verified-b
 
 [**Verified Boot**](https://source.android.com/security/verifiedboot) is an important part of the Android security model. 它能够保护您免受 [罪恶的](https://en.wikipedia.org/wiki/Evil_maid_attack) 攻击、恶意软件的持久性，并确保安全更新不能用 [回滚保护降级](https://source.android.com/security/verifiedboot/verified-boot#rollback-protection)
 
-安卓10及以上版本已经从全盘加密转向更灵活的 [基于文件的加密](https://source.android.com/security/encryption/file-based)。 你的数据使用独特的加密密钥进行加密，而操作系统文件则不被加密。
+安卓10及以上版本已经从全盘加密转向更灵活的 [基于文件的加密](https://source.android.com/security/encryption/file-based)。你的数据使用独特的加密密钥进行加密，而操作系统文件则不被加密。
 
-验证启动确保了操作系统文件的完整性，从而防止有物理访问权限的对手在设备上篡改或安装恶意软件。 在不太可能的情况下，如果恶意软件能够利用系统的其他部分并获得更高的特权访问，验证性启动将防止并在重启设备时恢复对系统分区的更改。
+验证启动确保了操作系统文件的完整性，从而防止有物理访问权限的对手在设备上篡改或安装恶意软件。在不太可能的情况下，如果恶意软件能够利用系统的其他部分并获得更高的特权访问，验证性启动将防止并在重启设备时恢复对系统分区的更改。
 
-遗憾的是，OEM厂商只有在其库存的安卓系统上才有义务支持验证性启动。 只有少数OEM厂商，如谷歌，支持在他们的设备上定制AVB密钥注册。 此外，一些AOSP衍生产品，如LineageOS或/e/ OS，即使在对第三方操作系统有验证启动支持的硬件上也不支持验证启动。 我们建议你在</strong> 购买新设备之前，先查看支持 **。 不支持验证性启动的AOSP衍生产品是 **，不推荐**。</p>
+遗憾的是，OEM厂商只有在其库存的安卓系统上才有义务支持验证性启动。只有少数OEM厂商，如谷歌，支持在他们的设备上定制AVB密钥注册。此外，一些AOSP衍生产品，如LineageOS或/e/ OS，即使在对第三方操作系统有验证启动支持的硬件上也不支持验证启动。我们建议你在</strong> 购买新设备之前，先查看支持 **。不支持验证性启动的AOSP衍生产品是 **，不推荐**。</p>
 
-许多原始设备制造商也有破碎的实施验证启动，你必须注意他们的营销之外。 例如，Fairphone 3和4在默认情况下是不安全的，因为 [股票引导程序信任公共AVB签名密钥](https://forum.fairphone.com/t/bootloader-avb-keys-used-in-roms-for-fairphone-3-4/83448/11)。 This breaks verified boot on a stock Fairphone device, as the system will boot alternative Android operating systems (such as /e/) [without any warning](https://source.android.com/security/verifiedboot/boot-flow#locked-devices-with-custom-root-of-trust) about custom operating system usage.
+许多原始设备制造商也有破碎的实施验证启动，你必须注意他们的营销之外。例如，Fairphone 3和4在默认情况下是不安全的，因为 [股票引导程序信任公共AVB签名密钥](https://forum.fairphone.com/t/bootloader-avb-keys-used-in-roms-for-fairphone-3-4/83448/11)。 This breaks verified boot on a stock Fairphone device, as the system will boot alternative Android operating systems (such as /e/) [without any warning](https://source.android.com/security/verifiedboot/boot-flow#locked-devices-with-custom-root-of-trust) about custom operating system usage.
 
 ### 固件更新
 
-**Firmware updates** are critical for maintaining security and without them your device cannot be secure. 原始设备制造商与他们的合作伙伴有支持协议，在有限的支持期内提供闭源组件。 这些内容详见每月的 [Android安全公告](https://source.android.com/security/bulletin)。
+**Firmware updates** are critical for maintaining security and without them your device cannot be secure. 原始设备制造商与他们的合作伙伴有支持协议，在有限的支持期内提供闭源组件。这些内容详见每月的 [Android安全公告](https://source.android.com/security/bulletin)。
 
-由于手机的组件，如处理器和无线电技术依赖于闭源组件，更新必须由各自的制造商提供。 因此，重要的是，你要在一个有效的支持周期内购买设备。 [Qualcomm](https://qualcomm.com/news/releases/2020/12/qualcomm-and-google-announce-collaboration-extend-android-os-support-and) and [Samsung](https://news.samsung.com/us/samsung-galaxy-security-extending-updates-knox) support their devices for 4 years, while cheaper products often have shorter support cycles. With the introduction of the [Pixel 6](https://support.google.com/pixelphone/answer/4457705), Google now makes their own SoC, and they will provide a minimum of 5 years of support. With the introduction of the Pixel 8 series, Google increased that support window to 7 years.
+由于手机的组件，如处理器和无线电技术依赖于闭源组件，更新必须由各自的制造商提供。因此，重要的是，你要在一个有效的支持周期内购买设备。 [Qualcomm](https://qualcomm.com/news/releases/2020/12/qualcomm-and-google-announce-collaboration-extend-android-os-support-and) and [Samsung](https://news.samsung.com/us/samsung-galaxy-security-extending-updates-knox) support their devices for 4 years, while cheaper products often have shorter support cycles. With the introduction of the [Pixel 6](https://support.google.com/pixelphone/answer/4457705), Google now makes their own SoC, and they will provide a minimum of 5 years of support. With the introduction of the Pixel 8 series, Google increased that support window to 7 years.
 
-不再受SoC制造商支持的EOL设备无法从OEM供应商或后市场Android分销商处获得固件更新。 这意味着这些设备的安全问题将继续得不到解决。
+不再受SoC制造商支持的EOL设备无法从OEM供应商或后市场Android分销商处获得固件更新。这意味着这些设备的安全问题将继续得不到解决。
 
-Fairphone, for example, markets their Fairphone 4 device as receiving 6 years of support. 然而，SoC（Fairphone 4上的高通骁龙750G）的EOL日期要短得多。 这意味着高通公司为Fairphone 4提供的固件安全更新将在2023年9月结束，无论Fairphone是否继续发布软件安全更新。
+Fairphone, for example, markets their Fairphone 4 device as receiving 6 years of support. 然而，SoC（Fairphone 4上的高通骁龙750G）的EOL日期要短得多。这意味着高通公司为Fairphone 4提供的固件安全更新将在2023年9月结束，无论Fairphone是否继续发布软件安全更新。
 
 ### Android 权限
 
-[**Permissions on Android**](https://developer.android.com/guide/topics/permissions/overview) grant you control over what apps are allowed to access. 谷歌定期在每个连续的版本中对权限系统进行 [改善](https://developer.android.com/about/versions/11/privacy/permissions)。 你安装的所有应用程序都是严格的 [沙箱](https://source.android.com/security/app-sandbox)，因此，没有必要安装任何杀毒软件。
+[**Permissions on Android**](https://developer.android.com/guide/topics/permissions/overview) grant you control over what apps are allowed to access. 谷歌定期在每个连续的版本中对权限系统进行 [改善](https://developer.android.com/about/versions/11/privacy/permissions)。你安装的所有应用程序都是严格的 [沙箱](https://source.android.com/security/app-sandbox)，因此，没有必要安装任何杀毒软件。
 
 A smartphone with the latest version of Android will always be more secure than an old smartphone with an antivirus that you have paid for. It's better not to pay for antivirus software and to save money to buy a new smartphone such as a [Google Pixel](../mobile-phones.md#google-pixel).
 
@@ -94,7 +94,7 @@ Privacy-friendly apps such as [Bitwarden](https://reports.exodus-privacy.eu.org/
 
 Multiple **user profiles** can be found in :gear: **Settings** → **System** → **Users** and are the simplest way to isolate in Android.
 
-With user profiles, you can impose restrictions on a specific profile, such as: making calls, using SMS, or installing apps. 每个用户资料使用自己的加密密钥进行加密，不能访问任何其他人的个人资料。 即使是设备所有者，如果不知道他们的密码，也不能查看其他人的个人资料。 多个个人资料是一种更安全的隔离方法。
+With user profiles, you can impose restrictions on a specific profile, such as: making calls, using SMS, or installing apps. 每个用户资料使用自己的加密密钥进行加密，不能访问任何其他人的个人资料。即使是设备所有者，如果不知道他们的密码，也不能查看其他人的个人资料。多个个人资料是一种更安全的隔离方法。
 
 ### 工作身份
 
@@ -102,7 +102,7 @@ With user profiles, you can impose restrictions on a specific profile, such as: 
 
 A **device controller** app such as [Shelter](../android/general-apps.md#shelter) is required to create a Work Profile without an enterprise MDM, unless you're using a custom Android OS which includes one.
 
-该工作档案依赖于设备控制器来运作。 诸如 *文件穿梭* 和 *接触搜索封锁* 或任何种类的隔离功能必须由控制器实现。 You must also fully trust the device controller app, as it has full access to your data inside the work profile.
+该工作档案依赖于设备控制器来运作。诸如 *文件穿梭* 和 *接触搜索封锁* 或任何种类的隔离功能必须由控制器实现。 You must also fully trust the device controller app, as it has full access to your data inside the work profile.
 
 This method is generally less secure than a secondary user profile; however, it does allow you the convenience of running apps in both the owner profile and work profile simultaneously.
 
@@ -116,11 +116,11 @@ Unlike work profiles, Private Space is a feature native to Android that does not
 
 ### VPN kill switch
 
-Android 7 and above supports a VPN kill switch, and it is available without the need to install third-party apps. 如果VPN断开连接，此功能可以防止泄漏。 可以在 :gear: **设置** → **网络 & 互联网** → **VPN** → :gear: → **阻止没有VPN的连接**。
+Android 7 and above supports a VPN kill switch, and it is available without the need to install third-party apps. 如果VPN断开连接，此功能可以防止泄漏。可以在 :gear: **设置** → **网络 & 互联网** → **VPN** → :gear: → **阻止没有VPN的连接**。
 
 ### 全局切换
 
-现代安卓设备有全局切换键，用于禁用蓝牙和定位服务。 安卓12引入了相机和麦克风的切换功能。 在不使用时，我们建议禁用这些功能。 Apps cannot use disabled features (even if granted individual permissions) until re-enabled.
+现代安卓设备有全局切换键，用于禁用蓝牙和定位服务。安卓12引入了相机和麦克风的切换功能。在不使用时，我们建议禁用这些功能。 Apps cannot use disabled features (even if granted individual permissions) until re-enabled.
 
 ## Google Services
 
@@ -147,9 +147,9 @@ If you have a Google account we suggest enrolling in the [Advanced Protection Pr
 
 ### Google Play 系统更新
 
-在过去，安卓系统的安全更新必须由操作系统供应商来提供。 从安卓10开始，安卓变得更加模块化，谷歌可以通过特权游戏服务推送安全更新， **一些** 系统组件。
+在过去，安卓系统的安全更新必须由操作系统供应商来提供。从安卓10开始，安卓变得更加模块化，谷歌可以通过特权游戏服务推送安全更新， **一些** 系统组件。
 
-如果你有一个以安卓10或以上系统出厂的EOL设备，并且无法在你的设备上运行我们推荐的任何操作系统，你很可能最好坚持使用你的OEM安卓安装（而不是这里没有列出的操作系统，如LineageOS或/e/ OS）。 这将允许你从谷歌获得 **，一些** 安全修复，同时不会因为使用不安全的安卓衍生产品而违反安卓安全模式，增加你的攻击面。 我们仍然建议尽快升级到支持的设备。
+如果你有一个以安卓10或以上系统出厂的EOL设备，并且无法在你的设备上运行我们推荐的任何操作系统，你很可能最好坚持使用你的OEM安卓安装（而不是这里没有列出的操作系统，如LineageOS或/e/ OS）。这将允许你从谷歌获得 **，一些** 安全修复，同时不会因为使用不安全的安卓衍生产品而违反安卓安全模式，增加你的攻击面。我们仍然建议尽快升级到支持的设备。
 
 ### 广告 ID
 
@@ -168,6 +168,6 @@ You will either be given the option to delete your advertising ID or to *Opt out
 
 ### SafetyNet和Play Integrity API
 
-[安全网](https://developer.android.com/training/safetynet/attestation) 和 [Play Integrity APIs](https://developer.android.com/google/play/integrity) ，一般用于 [银行应用程序](https://grapheneos.org/usage#banking-apps)。 许多银行应用程序在GrapheneOS中使用沙盒游戏服务可以正常工作，但是一些非金融应用程序有自己的粗略防篡改机制，可能会失败。 GrapheneOS通过了 `basicIntegrity` 检查，但没有通过认证检查 `ctsProfileMatch`。 安卓8或更高版本的设备有硬件认证支持，如果没有泄露的密钥或严重的漏洞，就无法绕过。
+[安全网](https://developer.android.com/training/safetynet/attestation) 和 [Play Integrity APIs](https://developer.android.com/google/play/integrity) ，一般用于 [银行应用程序](https://grapheneos.org/usage#banking-apps)。许多银行应用程序在GrapheneOS中使用沙盒游戏服务可以正常工作，但是一些非金融应用程序有自己的粗略防篡改机制，可能会失败。 GrapheneOS通过了 `basicIntegrity` 检查，但没有通过认证检查 `ctsProfileMatch`。安卓8或更高版本的设备有硬件认证支持，如果没有泄露的密钥或严重的漏洞，就无法绕过。
 
 As for Google Wallet, we don't recommend this due to their [privacy policy](https://payments.google.com/payments/apis-secure/get_legal_document?ldo=0&ldt=privacynotice&ldl=en), which states you must opt out if you don't want your credit rating and personal information shared with affiliate marketing services.
