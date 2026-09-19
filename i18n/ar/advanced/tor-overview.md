@@ -1,54 +1,54 @@
 ---
-title: "Tor Overview"
+title: "نظرة عامة على Tor"
 icon: 'simple/torproject'
-description: Tor is a free to use, decentralized network designed for using the internet with as much privacy as possible.
+description: Tor هي شبكة مجانية ولا مركزية، صُممت لاستخدام الإنترنت بأكبر قدر ممكن من الخصوصية.
 ---
 
 ![شعار تور](../assets/img/self-contained-networks/tor.svg){ align=right }
 
-[**Tor**](../alternative-networks.md#tor) is a free to use, decentralized network designed for using the internet with as much privacy as possible. If used properly, the network enables private and anonymous browsing and communications. فكون اتصالات تور صعبة الحظر والتتبع يجعل تور أداةً فعَّالةً لتجاوز الرقابة.
+[**شبكة Tor**](../alternative-networks.md#tor) هي شبكة مجانية ولا مركزية، صُمِّمت لاستخدام الإنترنت بأكبر قدر ممكن من الخصوصية. عند استخدام الشبكة بشكل صحيح، تتيح لك تصفح الإنترنت والتواصل بخصوصية ومن دون الكشف عن هويتك. فكون اتصالات تور صعبة الحظر والتتبع يجعل تور أداةً فعَّالةً لتجاوز الرقابة.
 
-[:material-movie-open-play-outline: Video: Why You Need Tor](https://www.privacyguides.org/videos/2025/03/02/why-you-need-tor ""){.md-button}
+[:material-movie-open-play-outline: فيديو: لماذا تحتاج إلى Tor](https://www.privacyguides.org/videos/2025/03/02/why-you-need-tor ""){.md-button}
 
-Tor works by routing your internet traffic through volunteer-operated servers instead of making a direct connection to the site you're trying to visit. يلبِّس هذا أصل الاتصال، وليس بوسع أي خادم في سبيل الاتصال رؤيته من بدايته لمقصده، مما يعني أن حتى الخوادم المستخدمة للاتصال لا تنتهك مجهوليتك.
+تعمل Tor من خلال تمرير حركة الإنترنت الخاصة بك عبر خوادم يديرها متطوعون، بدلا من الاتصال مباشرة بالموقع الذي تريد زيارته. يلبِّس هذا أصل الاتصال، وليس بوسع أي خادم في سبيل الاتصال رؤيته من بدايته لمقصده، مما يعني أن حتى الخوادم المستخدمة للاتصال لا تنتهك مجهوليتك.
 
-[:octicons-home-16:](https://torproject.org){ .card-link title=Homepage }
-[:simple-torbrowser:](http://2gzyxa5ihm7nsggfxnu52rck2vv4rvmdlkiu3zzui5du4xyclen53wid.onion){ .card-link title="Onion Service" }
-[:octicons-info-16:](https://tb-manual.torproject.org){ .card-link title=Documentation}
-[:octicons-code-16:](https://gitlab.torproject.org/tpo/core/tor){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://donate.torproject.org){ .card-link title=Contribute }
+[:octicons-home-16:](https://torproject.org){ .card-link title=الصفحة الرئيسية }
+[:simple-torbrowser:](http://2gzyxa5ihm7nsggfxnu52rck2vv4rvmdlkiu3zzui5du4xyclen53wid.onion){ .card-link title="خدمة Onion" }
+[:octicons-info-16:](https://tb-manual.torproject.org){ .card-link title=التوثيق }
+[:octicons-code-16:](https://gitlab.torproject.org/tpo/core/tor){ .card-link title="الكود المصدري" }
+[:octicons-heart-16:](https://donate.torproject.org){ .card-link title=المساهمة }
 
-## Safely Connecting to Tor
+## الاتصال بشبكة Tor بأمان
 
-Before connecting to Tor, you should carefully consider what you're looking to accomplish by using Tor in the first place, and who you're trying to hide your network activity from.
+قبل الاتصال بشبكة Tor، فكر جيدا في الهدف الذي تريد تحقيقه من استخدامها، وفي الجهة التي تريد إخفاء نشاطك على الشبكة عنها.
 
-If you live in a free country, are accessing mundane content via Tor, aren't worried about your ISP or local network administrators having the knowledge that you're using Tor, and want to help [destigmatize](https://2019.www.torproject.org/about/torusers.html.en) Tor usage, you can likely connect to Tor directly via standard means like [Tor Browser](../tor.md) without worry.
+إذا كنت تعيش في بلد يتمتع بحرية الإنترنت، وتستخدم Tor للوصول إلى محتوى عادي، ولا تمانع أن يعرف مزوّد خدمة الإنترنت أو مسؤولو الشبكة المحلية أنك تستخدم Tor، كما ترغب في المساعدة على [إزالة الوصمة المرتبطة باستخدام Tor](https://2019.www.torproject.org/about/torusers.html.en)، فيمكنك غالبًا الاتصال بشبكة Tor مباشرةً بالطرق المعتادة، مثل استخدام [متصفح Tor](../tor.md)، دون قلق.
 
-If you have the ability to access a trusted VPN provider and **any** of the following are true, you almost certainly should connect to Tor through a VPN:
+إذا كان بإمكانك استخدام خدمة VPN موثوقة، وكان **أي** مما يلي ينطبق عليك، فمن الأفضل على الأرجح الاتصال بشبكة Tor عبر VPN:
 
-- You already use a [trusted VPN provider](../vpn.md)
-- Your threat model includes an adversary which is capable of extracting information from your ISP
-- Your threat model includes your ISP itself as an adversary
-- Your threat model includes local network administrators before your ISP as an adversary
+- أنت تستخدم بالفعل [خدمة VPN موثوقة](../vpn.md)
+- يتضمّن نموذج التهديدات (Threat Model) الخاص بك جهة قد تتمكّن من الحصول على معلومات عن نشاطك من مزوّد خدمة الإنترنت (ISP).
+- يتضمّن نموذج التهديدات (Threat Model) الخاص بك مزوّد خدمة الإنترنت (ISP) نفسه كجهة قد تتجسّس على نشاطك أو تحاول تتبّعه
+- يتضمّن نموذج التهديدات (Threat Model) الخاص بك مسؤولي الشبكة المحلية، الذين تمرّ اتصالاتك عبر شبكتهم قبل الوصول إلى مزوّد خدمة الإنترنت (ISP)، كجهة قد تحاول مراقبة نشاطك أو تتبّعه
 
-Because we already [generally recommend](../basics/vpn-overview.md) that the vast majority of people use a trusted VPN provider for a variety of reasons, the following recommendation about connecting to Tor via a VPN likely applies to you. <mark>There is no need to disable your VPN before connecting to Tor</mark>, as some online resources would lead you to believe.
+وبما أننا [نوصي عموما](../basics/vpn-overview.md) بأن يستخدم معظم الناس خدمة VPN موثوقة لأسباب متعددة، فمن المرجّح أن تنطبق عليك أيضًا التوصية التالية بالاتصال بشبكة Tor عبر VPN. <mark>لا تحتاج إلى إيقاف تشغيل الـ VPN قبل الاتصال بشبكة Tor</mark>، رغم أن بعض المصادر على الإنترنت قد توحي لك بعكس ذلك.
 
-Connecting directly to Tor will make your connection stand out to any local network administrators or your ISP. Detecting and correlating this traffic [has been done](https://edition.cnn.com/2013/12/17/justice/massachusetts-harvard-hoax) in the past by network administrators to identify and deanonymize specific Tor users on their network. On the other hand, connecting to a VPN is almost always less suspicious, because commercial VPN providers are used by everyday consumers for a variety of mundane tasks like bypassing geo-restrictions, even in countries with heavy internet restrictions.
+الاتصال مباشرةً بشبكة Tor سيجعل استخدامك لها واضحًا لمسؤولي الشبكة المحلية أو لمزوّد خدمة الإنترنت (ISP). Detecting and correlating this traffic [has been done](https://edition.cnn.com/2013/12/17/justice/massachusetts-harvard-hoax) in the past by network administrators to identify and deanonymize specific Tor users on their network. في المقابل، يكون الاتصال بخدمة VPN أقل إثارة للشك في معظم الحالات، لأن خدمات الـ VPN التجارية يستخدمها الناس بشكل عادي لأغراض كثيرة، مثل تجاوز القيود الجغرافية على المحتوى، حتى في البلدان التي تفرض قيودًا شديدة على الإنترنت.
 
-Therefore, you should make an effort to hide your IP address **before** connecting to the Tor network. You can do this by simply connecting to a VPN (through a client installed on your computer) and then accessing [Tor](../tor.md) as normal (e.g., through Tor Browser). This creates a connection chain like so:
+لذلك، من الأفضل أن تحاول إخفاء عنوان IP الخاص بك **قبل** الاتصال بشبكة Tor. يمكنك فعل ذلك ببساطة عن طريق الاتصال بخدمة VPN أولًا، باستخدام تطبيق مثبت على جهازك، ثم استخدام [Tor](../tor.md) كالمعتاد، مثلًا من خلال متصفح Tor. وبذلك يصبح مسار اتصالك كالتالي:
 
-- [x] You → VPN → Tor → Internet
+- [x] أنت ← VPN ← Tor ← الإنترنت
 
-From your ISP's perspective, it looks like you're accessing a VPN normally (with the associated cover that provides you). From your VPN's perspective, they can see that you are connecting to the Tor network, but nothing about what websites you're accessing. From Tor's perspective, you're connecting normally, but in the unlikely event of some sort of Tor network compromise, only your VPN's IP would be exposed, and your VPN would *additionally* have to be compromised to deanonymize you.
+من وجهة نظر مزوّد خدمة الإنترنت (ISP)، سيبدو الأمر وكأنك تستخدم VPN بشكل عادي، وهذا يساعد على إخفاء حقيقة أنك تستخدم Tor. من وجهة نظر مزوّد خدمة الـ VPN، يمكنه معرفة أنك تتصل بشبكة Tor، لكنه لا يستطيع معرفة المواقع التي تزورها من خلالها. ومن وجهة نظر شبكة Tor، فأنت تتصل بها بشكل طبيعي. وحتى في الحالة غير المحتملة التي تتعرّض فيها شبكة Tor للاختراق، فلن ينكشف سوى عنوان IP الخاص بالـ VPN، وسيكون من الضروري *أيضًا* اختراق خدمة الـ VPN نفسها حتى يمكن كشف هويتك.
 
-This is **not** censorship circumvention advice because if Tor is blocked entirely by your ISP, your VPN likely is as well. Rather, this recommendation aims to make your traffic blend in better with commonplace VPN user traffic, and provide you with some level of plausible deniability by obscuring the fact that you're connecting to Tor from your ISP.
+هذه **ليست** نصيحة لتجاوز الحجب، لأنه إذا كان مزوّد خدمة الإنترنت (ISP) يحجب Tor بالكامل، فمن المحتمل أن يحجب الـ VPN أيضًا. بل تهدف هذه التوصية إلى جعل حركة الإنترنت الخاصة بك تبدو أكثر شبهًا بحركة مستخدمي الـ VPN العاديين، ومنحك قدرًا من إمكانية الإنكار المعقول، وذلك بإخفاء حقيقة اتصالك بشبكة Tor عن مزوّد خدمة الإنترنت (ISP).
 
 ---
 
-We **very strongly discourage** combining Tor with a VPN in any other manner. Do not configure your connection in a way which resembles any of the following:
+نحن **نحذر بشدة** من الجمع بين Tor وVPN بأي طريقة أخرى. لا تضبط اتصالك بطريقة تشبه أيًا من الأشكال التالية:
 
-- You → Tor → VPN → Internet
-- You → VPN → Tor → VPN → Internet
+- أنت ← VPN ← Tor ← الإنترنت
+- أنت ← VPN ← Tor ← VPN ← الإنترنت
 - Any other configuration
 
 Some VPN providers and other publications will occasionally recommend these **bad** configurations to evade Tor bans (i.e., exit nodes being blocked by websites) in some places. [Normally](https://support.torproject.org/#about_change-paths), Tor frequently changes your circuit path through the network. When you choose a permanent *destination* VPN (connecting to a VPN server *after* Tor), you're eliminating this advantage and drastically harming your anonymity.

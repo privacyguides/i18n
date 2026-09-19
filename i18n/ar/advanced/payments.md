@@ -81,17 +81,17 @@ description: عاداتك الشرائية عبر الانترنت تمثل لش
 
 [أماكن موصى بها لشراء Monero](../cryptocurrency.md#buying-monero ""){.md-button}
 
-إذا اخترت هذه الطريقة، فاحرص على شراء Monero في أوقات وبمبالغ تختلف عن أوقات ومبالغ إنفاقه، حتى يصعب الربط بين عملية الشراء والمعاملات التي تجريها لاحقًا. فإذا اشتريت مثلا ما قيمته 5,000 دولار من Monero من إحدى منصات التداول، ثم أنفقت ما قيمته 5,000 دولار من Monero بعد ساعة فقط، فقد يتمكن طرف خارجي من الربط بين العمليتين، حتى لو مرّت العملات في مسار مختلف بين الشراء والإنفاق. Staggering purchases and purchasing larger amounts of Monero in advance to later spend on multiple smaller transactions can avoid this pitfall.
+إذا اخترت هذه الطريقة، فاحرص على شراء Monero في أوقات وبمبالغ تختلف عن أوقات ومبالغ إنفاقه، حتى يصعب الربط بين عملية الشراء والمعاملات التي تجريها لاحقًا. فإذا اشتريت مثلا ما قيمته 5,000 دولار من Monero من إحدى منصات التداول، ثم أنفقت ما قيمته 5,000 دولار من Monero بعد ساعة فقط، فقد يتمكن طرف خارجي من الربط بين العمليتين، حتى لو مرّت العملات في مسار مختلف بين الشراء والإنفاق. يمكن تجنب هذه المشكلة عن طريق توزيع عمليات الشراء على أوقات مختلفة، أو شراء كمية أكبر من Monero مسبقا ثم استخدامها لاحقا في عدة معاملات أصغر.
 
-## Additional Considerations
+## اعتبارات إضافية
 
-When you're making a payment in person with cash, make sure to keep your in-person privacy in mind. Security cameras are ubiquitous. Consider wearing non-distinct clothing and a face mask (such as a surgical mask or N95). Don’t sign up for rewards programs or provide any other information about yourself.
+عند الدفع نقدا بشكل مباشر، احرص أيضا على حماية خصوصيتك أثناء وجودك في المكان. كاميرات المراقبة موجودة في كل مكان تقريبا. فكر في ارتداء ملابس غير لافتة للنظر، مع استخدام قناع للوجه، مثل الكمامة الطبية أو كمامة N95. لا تسجل في برامج المكافآت، ولا تقدّم أي معلومات شخصية أخرى عن نفسك.
 
-When purchasing online, ideally you should do so over [Tor](tor-overview.md). However, many merchants don’t allow purchases with Tor. You can consider using a [recommended VPN](../vpn.md) (paid for with cash, gift card, or Monero), or making the purchase from a coffee shop or library with free Wi-Fi. If you are ordering a physical item that needs to be delivered, you will need to provide a delivery address. You should consider using a PO box, private mailbox, or work address.
+عند الشراء عبر الإنترنت، يُفضل أن تقوم بذلك من خلال [Tor](tor-overview.md). لكن كثيرا من المتاجر لا تسمح بإجراء عمليات الشراء عبر Tor. يمكنك التفكير في استخدام [خدمة VPN موصى بها](../vpn.md)، على أن تدفع مقابلها نقدا أو باستخدام بطاقة هدايا أو Monero، أو إجراء عملية الشراء من مقهى أو مكتبة توفر شبكة Wi-Fi مجانية. إذا كنت تطلب منتجا ماديا يحتاج إلى التوصيل، فستحتاج إلى تقديم عنوان لاستلامه. يمكنك التفكير في استخدام صندوق بريد، أو صندوق بريد خاص، أو عنوان مكان عملك بدلًا من عنوان منزلك.
 
 <div class="admonition tip" markdown>
-<p class="admonition-title">Important notices</p>
+<p class="admonition-title">تنبيهات مهمة</p>
 
-The content here is not legal or financial advice. We do not endorse or encourage illicit activities, and we do not endorse or encourage anything which violates a company's terms of service. Check with a professional to confirm that these recommendations are legal and available in your jurisdiction. [See all notices](../about/notices.md).
+المحتوى الوارد هنا لا يُعد نصيحة قانونية أو مالية. نحن لا نؤيد أو نشجع أي أنشطة غير قانونية، كما لا نشجع على أي تصرف يخالف شروط استخدام أي شركة أو خدمة. استشر مختصا للتأكد من أن هذه التوصيات قانونية ومتاحة في بلدك أو منطقتك. [اطّلع على جميع التنبيهات](../about/notices.md).
 
 </div>
