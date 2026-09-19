@@ -18,7 +18,7 @@ Making payments online is one of the biggest challenges to privacy. These crypto
 <div class="admonition danger" markdown>
 <p class="admonition-title">Danger</p>
 
-Many if not most cryptocurrency projects are scams. Make transactions carefully with only projects you trust.
+Many if not most cryptocurrency projects are scams. أجرِ معاملاتك بحذر، ولا تستخدم إلا مشاريع العملات الرقمية التي تثق بها.
 
 </div>
 

@@ -35,7 +35,7 @@ If you're looking for additional *privacy* from your ISP or on a public Wi-Fi ne
 
 | مزوّد                 | البُلدان | WireGuard                     | إعادة توجيه المنفذ (Port Forwarding)                | IPv6                                                     | المدفوعات المخفيّة |
 | --------------------- | -------- | ----------------------------- | --------------------------------------------------- | -------------------------------------------------------- | ------------------ |
-| [Proton](#proton-vpn) | 127+     | :material-check:{ .pg-green } | :material-alert-outline:{ .pg-orange } الدعم الجزئي | :material-information-outline:{ .pg-blue } الدعم المحدود | Cash               |
+| [Proton](#proton-vpn) | 127+     | :material-check:{ .pg-green } | :material-alert-outline:{ .pg-orange } الدعم الجزئي | :material-information-outline:{ .pg-blue } الدعم المحدود | الدفع نقدًا        |
 | [IVPN](#ivpn)         | 41+      | :material-check:{ .pg-green } | :material-alert-outline:{ .pg-orange }              | :material-information-outline:{ .pg-blue } الصادر فقط    | Monero  Cash       |
 | [ملفاد](#mullvad)     | 49+      | :material-check:{ .pg-green } | :material-alert-outline:{ .pg-orange }              | :material-check:{ .pg-green }                            | Monero  Cash       |
 

@@ -4,84 +4,84 @@ icon: material/hand-coin
 description: عاداتك الشرائية عبر الانترنت تمثل لشركات الأعلانات الكنز الثمين للمقترحات الشرائية، ولكن الشئ الجيد، انه مازال لديك عدة اختيارات عندما يتعلق الأمر بالدفع بشكل آمن وبخصوصية تامة.
 ---
 
-تُعتبر البيانات المتعلقة بعاداتك الشرائية الكنز الأثمن للاستهداف الإعلاني: إذ يمكن لمشترياتك أن تُسرب ثروة حقيقية من البيانات عنك. Unfortunately, the current financial system is anti-privacy by design, enabling banks, other companies, and governments to easily trace transactions. Nevertheless, you have plenty of options when it comes to making payments privately.
+تُعتبر البيانات المتعلقة بعاداتك الشرائية الكنز الأثمن للاستهداف الإعلاني: إذ يمكن لمشترياتك أن تُسرب ثروة حقيقية من البيانات عنك. للأسف، النظام المالي الحالي مصمم بطريقة لا تراعي الخصوصية، مما يتيح للبنوك والشركات الأخرى والحكومات تتبع المعاملات بسهولة. ومع ذلك، لا تزال هناك خيارات عديدة تتيح لك إجراء مدفوعاتك بقدر أكبر من الخصوصية.
 
-## Cash
+## الدفع نقدًا
 
-For centuries, **cash** has functioned as the primary form of private payment. Cash has excellent privacy properties in most cases, is widely accepted in most countries, and is **fungible**, meaning it is non-unique and completely interchangeable.
+على مدى قرون، كان **الدفع نقدًا** الوسيلة الأساسية لإجراء المدفوعات بخصوصية. يوفّر الدفع نقدًا مستوى ممتازًا من الخصوصية في معظم الحالات، كما أنه مقبول على نطاق واسع في معظم البلدان. ومن مزاياه أيضا أن كل ورقة أو عملة من نفس القيمة يمكن **استخدامها بدلًا ** من الأخرى؛ فمثلًا، أي ورقة نقدية بقيمة معينة تعادل أي ورقة أخرى بالقيمة نفسها.
 
-Cash payment laws vary by country. In the United States, special disclosure is required for cash payments over $10,000 to the IRS on [Form 8300](https://irs.gov/businesses/small-businesses-self-employed/form-8300-and-reporting-cash-payments-of-over-10000). The receiving business is required to ID verify the payee’s name, address, occupation, date of birth, and Social Security Number or other TIN (with some exceptions). Regulated exchanges, banks, and money services businesses must collect an ID for transactions exceeding $3,000. Cash contains serial numbers to assist law enforcement in targeted investigations.
+تختلف القوانين المتعلقة بالدفع نقدًا من بلد إلى آخر. في الولايات المتحدة، يجب الإبلاغ عن المدفوعات النقدية التي تتجاوز 10,000 دولار إلى مصلحة الضرائب الأمريكية (IRS) باستخدام [النموذج 8300](https://irs.gov/businesses/small-businesses-self-employed/form-8300-and-reporting-cash-payments-of-over-10000). ويجب على الجهة التجارية التي تستلم المبلغ التحقق من هوية صاحب الدفع، بما في ذلك اسمه وعنوانه ومهنته وتاريخ ميلاده ورقم الضمان الاجتماعي أو أي رقم تعريف ضريبي (TIN) آخر، مع وجود بعض الاستثناءات. يجب على منصات الصرافة الخاضعة للرقابة والبنوك وشركات الخدمات المالية طلب إثبات هوية عند إجراء معاملات تتجاوز قيمتها 3,000 دولار. تحمل الأوراق النقدية أرقامًا تسلسلية يمكن أن تساعد جهات إنفاذ القانون في بعض التحقيقات المحددة.
 
-Despite the above, cash is typically the best option when available.
+ورغم كل ما سبق، يظل الدفع نقدًا الخيار الأفضل عادةً عندما يكون متاحًا.
 
-## Prepaid Cards & Gift Cards
+## بطاقات الدفع المسبق وبطاقات الهدايا
 
-You can easily purchase gift cards and prepaid cards at most grocery stores and convenience stores with cash. Gift cards usually don’t have a fee, though prepaid cards often do, so pay close attention to these fees and expiry dates. Some stores may ask to see your ID at checkout in an effort to reduce fraud.
+يمكنك بسهولة شراء بطاقات الهدايا وبطاقات الدفع المسبق نقدًا من معظم متاجر البقالة والمتاجر الصغيرة. لا تفرض بطاقات الهدايا رسوما عادةً، بينما تفرض بطاقات الدفع المسبق رسوما في كثير من الأحيان؛ لذلك انتبه جيدا لهذه الرسوم ولتواريخ انتهاء الصلاحية. قد تطلب منك بعض المتاجر إبراز إثبات هويتك عند الدفع، وذلك في محاولة للحد من عمليات الاحتيال.
 
-Gift cards usually have limits of up to $200 per card, but some offer limits of up to $2,000 per card. Prepaid cards (e.g. from Visa or Mastercard) usually have limits of up to $1,000 per card.
+عادةً ما يكون الحد الأقصى لقيمة بطاقة الهدايا 200 دولار، لكن بعض البطاقات قد تصل قيمتها إلى 2,000 دولار. عادة ما يصل الحد الأقصى للبطاقات مسبقة الدفع، مثل بطاقات Visa أو Mastercard، إلى 1,000 دولار لكل بطاقة.
 
-Gift cards have the downside of being subject to merchant policies, which can have terrible terms and restrictions. For example, some merchants don’t accept payment in gift cards exclusively, or they may cancel the value of the card if they consider you to be a high-risk user. Once you have merchant credit, the merchant has a strong degree of control over this credit.
+من عيوب بطاقات الهدايا أنها تخضع لسياسات المتجر أو الجهة المصدرة، وقد تتضمن هذه السياسات شروطا وقيودا سيئة جدا. فعلى سبيل المثال، قد لا تسمح بعض المتاجر بالدفع باستخدام بطاقات الهدايا وحدها، وقد تلغي رصيد البطاقة إذا اعتبرتك مستخدما عالي المخاطر. بمجرد أن يصبح لديك رصيد لدى المتجر، تكون للمتجر سيطرة كبيرة على هذا الرصيد.
 
-Prepaid cards usually don’t allow cash withdrawals from ATMs or “peer-to-peer” payments in Venmo and similar apps.
+عادة لا تسمح البطاقات مسبقة الدفع بسحب النقود من أجهزة الصراف الآلي، ولا بإجراء المدفوعات بين الأفراد عبر تطبيقات مثل Venmo وما شابهها.
 
-Cash remains the best option for in-person purchases for most people. Gift cards are often sold at a discount, which make them attractive. Prepaid cards can be useful for places that don’t accept cash. Gift cards and prepaid cards are easier to use online than cash, and they are easier to acquire with cryptocurrencies than cash.
+يظل الدفع نقدًا الخيار الأفضل لمعظم الناس عند الشراء بشكل مباشر. غالبا ما تُباع بطاقات الهدايا بسعر أقل من قيمتها، مما يجعلها خيارا جذابا. قد تكون البطاقات مسبقة الدفع مفيدة في الأماكن التي لا تقبل الدفع نقدا. تُعد بطاقات الهدايا والبطاقات مسبقة الدفع أسهل من النقد عند استخدامها للشراء عبر الإنترنت، كما أن الحصول عليها باستخدام العملات الرقمية أسهل من تحويل العملات الرقمية إلى نقود.
 
-### Online Marketplaces
+### الأسواق الإلكترونية
 
-If you have [cryptocurrency](../cryptocurrency.md), you can purchase gift cards with an online gift card marketplace. Some of these services offer high limits (with ID verification), but they usually allow basic, low-limit accounts with just an email address. Expect limits under $10,000 for basic accounts and significantly higher limits for ID verified accounts (if offered).
+إذا كنت تمتلك [عملات رقمية](../cryptocurrency.md)، فيمكنك استخدامها لشراء بطاقات هدايا من أحد الأسواق الإلكترونية المتخصصة في بيع بطاقات الهدايا. تسمح بعض هذه الخدمات بشراء مبالغ كبيرة إذا تحققت من هويتك، لكنها تتيح عادةً أيضًا استخدام الخدمة بمبالغ محدودة بمجرد إدخال عنوان بريد إلكتروني، دون الحاجة إلى إثبات الهوية. عادة ما تكون حدود الحسابات الأساسية أقل من 10,000 دولار، بينما تكون أعلى بكثير للحسابات التي تم التحقق من هوية أصحابها، إذا كانت الخدمة تتيح ذلك.
 
-When buying gift cards online, there is usually a slight discount. Prepaid cards are usually sold online at face value or with a fee. If you buy prepaid cards and gift cards with cryptocurrencies, you should strongly prefer to pay with Monero which provides strong privacy (more on this below). Paying for a gift card with a traceable payment method negates the benefits a gift card can provide when purchased with cash or Monero.
+عند شراء بطاقات الهدايا عبر الإنترنت، غالبًا ما تحصل عليها بسعر أقل قليلًا من قيمتها. عادة ما تباع البطاقات مسبقة الدفع عبر الإنترنت بقيمتها الأصلية، أو مع إضافة رسوم عليها. إذا كنت تشتري بطاقات مسبقة الدفع أو بطاقات هدايا باستخدام العملات الرقمية، فمن الأفضل بشدة استخدام Monero، لأنها توفّر مستوى قويًا من الخصوصية (وسنتحدث عنها بمزيد من التفصيل لاحقًا). استخدام وسيلة دفع يمكن تتبّعها لشراء بطاقة هدايا يفقدك جزءا كبيرا من مزايا الخصوصية التي تحصل عليها عند شرائها نقدا أو باستخدام Monero.
 
-- [Online Gift Card Marketplaces :material-arrow-right-drop-circle:](../financial-services.md#gift-card-marketplaces)
+- [أسواق بطاقات الهدايا عبر الإنترنت :material-arrow-right-drop-circle:](../financial-services.md#gift-card-marketplaces)
 
-## Virtual Cards
+## البطاقات الافتراضية
 
-Another way to protect your information from merchants online is to use virtual, single-use cards which mask your actual banking or billing information. This is primarily useful for protecting you from merchant data breaches, less sophisticated tracking or purchase correlation by marketing agencies, and online data theft. They do **not** assist you in making a purchase completely anonymously, nor do they hide any information from the banking institution themselves. Regular financial institutions which offer virtual cards are subject to "Know Your Customer" (KYC) laws, meaning they may require your ID or other identifying information.
+هناك طريقة أخرى لحماية معلوماتك عند الشراء عبر الإنترنت، وهي استخدام بطاقات افتراضية مخصّصة للاستخدام مرة واحدة، بحيث تُخفي بياناتك البنكية أو معلومات الدفع الحقيقية عن المتجر. وتفيد هذه البطاقات بشكل أساسي في حمايتك من تسرّب بيانات المتاجر، ومن بعض أساليب التتبّع البسيطة أو ربط مشترياتك ببعضها لأغراض التسويق، وكذلك من سرقة بياناتك عبر الإنترنت. لكنها **لا** تتيح لك الشراء بشكل مجهول تمامًا، كما أنها لا تُخفي معلوماتك عن البنك أو الجهة المالية التي أصدرت البطاقة. تخضع المؤسسات المالية العادية التي توفّر البطاقات الافتراضية لقوانين «اعرف عميلك» (KYC)، ما يعني أنها قد تطلب منك إثبات هويتك أو معلومات أخرى تُستخدم للتعرّف عليك.
 
-- [Recommended Payment Masking Services :material-arrow-right-drop-circle:](../financial-services.md#payment-masking-services)
+- [خدمات إخفاء بيانات الدفع الموصى بها :material-arrow-right-drop-circle:](../financial-services.md#payment-masking-services)
 
-These tend to be good options for recurring/subscription payments online, while prepaid gift cards are preferred for one-time transactions.
+تعد هذه الخدمات خيارا مناسبا للمدفوعات المتكررة والاشتراكات عبر الإنترنت، بينما تكون البطاقات مسبقة الدفع وبطاقات الهدايا أنسب عادةً للمدفوعات التي تُجرى لمرة واحدة.
 
-## Cryptocurrency
+## العملات الرقمية
 
-Cryptocurrencies are a digital form of currency designed to work without central authorities such as a government or bank. While *some* cryptocurrency projects can allow you to make private transactions online, many use a transparent blockchain which does not provide any transaction privacy. Cryptocurrencies also tend to be very volatile assets, meaning their value can change rapidly and significantly. As such, we generally don't recommend using cryptocurrency as a long-term store of value. If you decide to use cryptocurrency online, make sure you have a full understanding of its privacy aspects beforehand, and only purchase amounts which would not be disastrous to lose.
+العملات الرقمية هي شكل رقمي من النقود، صمم ليعمل دون الحاجة إلى جهة مركزية مثل الحكومات أو البنوك. رغم أن *بعض* العملات الرقمية تسمح بإجراء معاملات تحافظ على الخصوصية، فإن كثيرا منها يسجّل المعاملات على Blockchain عامة وشفافة، بحيث يمكن الاطلاع على تفاصيلها، وبالتالي لا توفر خصوصية حقيقية للمعاملات. كما أن العملات الرقمية غالبا ما تكون شديدة التقلب، أي إن قيمتها قد ترتفع أو تنخفض بسرعة وبنسب كبيرة. لذلك، لا نوصي عمومًا بالاعتماد على العملات الرقمية كوسيلة لحفظ القيمة على المدى الطويل. إذا قررت استخدام العملات الرقمية عبر الإنترنت، فتأكد أولًا من فهمك الجيد لمدى الخصوصية التي توفّرها، ولا تشترِ إلا بمبالغ يمكنك تحمّل خسارتها دون أن يسبب ذلك لك ضررًا كبيرًا.
 
 <div class="admonition danger" markdown>
-<p class="admonition-title">Danger</p>
+<p class="admonition-title">تحذير</p>
 
-The vast majority of cryptocurrencies operate on a **transparent** blockchain, meaning that every transaction's details are public knowledge. This includes most well-known cryptocurrencies like Bitcoin and Ethereum. Transactions with these cryptocurrencies should not be considered private and will not protect your anonymity.
+تعمل الغالبية العظمى من العملات الرقمية على Blockchain **شفافة**، ما يعني أن تفاصيل كل معاملة تكون متاحة للعامة ويمكن لأي شخص الاطلاع عليها. ويشمل ذلك معظم العملات الرقمية المعروفة، مثل Bitcoin وEthereum. لا ينبغي اعتبار المعاملات التي تُجرى بهذه العملات خاصة، كما أنها لا تحمي هويتك أو تضمن بقاءك مجهولا.
 
-Additionally, many if not most cryptocurrencies are scams. Make transactions carefully with only projects you trust. Transactions are irreversible and do not include any consumer protections.
+بالإضافة إلى ذلك، فإن كثيرا من العملات الرقمية، إن لم يكن معظمها، عبارة عن عمليات احتيال. أجرِ معاملاتك بحذر، ولا تستخدم إلا مشاريع العملات الرقمية التي تثق بها. تعامل بحذر، ولا تُجرِ معاملاتك إلا باستخدام منصات تثق بها.
 
 </div>
 
-### Privacy Coins
+### عملات الخصوصية
 
-There are a number of cryptocurrency projects which purport to provide privacy by making transactions anonymous. We recommend using one which provides transaction anonymity **by default** to avoid operational errors.
+هناك عدد من مشاريع العملات الرقمية التي تدعي توفير الخصوصية من خلال إخفاء هوية أصحاب المعاملات. نوصي باستخدام عملة توفر إخفاء هوية المعاملات **بشكل افتراضي**، لتقليل احتمال الوقوع في أخطاء أثناء الاستخدام.
 
-- [Recommended Cryptocurrency :material-arrow-right-drop-circle:](../cryptocurrency.md#monero)
+- [العملة الرقمية الموصى بها :material-arrow-right-drop-circle:](../cryptocurrency.md#monero)
 
-Privacy coins have been subject to increasing scrutiny by government agencies. In 2020, [the IRS published a $625,000 bounty](https://forbes.com/sites/kellyphillipserb/2020/09/14/irs-will-pay-up-to-625000-if-you-can-crack-monero-other-privacy-coins/?sh=2e9808a085cc) for tools which can trace (at least to some extent) Bitcoin Lightning Network and/or Monero transactions. They ultimately [paid two companies](https://sam.gov/opp/5ab94eae1a8d422e88945b64181c6018/view) (Chainalysis and Integra Fec) a combined $1.25 million to further develop tools to do so. Due to the secrecy surrounding tools like these, ==none of these methods of tracing cryptocurrencies have been independently confirmed.== However, it is quite likely that tools which assist targeted investigations into private coin transactions exist, and that privacy coins in their current form only succeed in thwarting mass surveillance.
+تخضع عملات الخصوصية لتدقيق متزايد من قِبل الجهات الحكومية. في عام 2020، [عرضت مصلحة الضرائب الأمريكية (IRS) مكافأة قدرها 625,000 دولار](https://forbes.com/sites/kellyphillipserb/2020/09/14/irs-will-pay-up-to-625000-if-you-can-crack-monero-other-privacy-coins/?sh=2e9808a085cc) لتطوير أدوات قادرة على تتبّع معاملات Bitcoin Lightning Network و/أو Monero، ولو بشكل جزئي. وفي النهاية، [دفعت مصلحة الضرائب لشركتين](https://sam.gov/opp/5ab94eae1a8d422e88945b64181c6018/view)، هما Chainalysis وIntegra Fec، ما مجموعه 1.25 مليون دولار لمواصلة تطوير أدوات قادرة على تتبّع هذه المعاملات. نظرًا للسرية المحيطة بمثل هذه الأدوات، ==لم يتم تأكيد فعالية أي من طرق تتبّع العملات الرقمية هذه بشكل مستقل.== ومع ذلك، فمن المرجّح أن توجد أدوات تساعد في التحقيقات الموجّهة لتتبّع معاملات عملات الخصوصية، وأن هذه العملات في شكلها الحالي تنجح أساسا في مقاومة المراقبة الجماعية، لا في منع التتبّع تماما.
 
-### Other Coins (Bitcoin, Ethereum, etc.)
+### العملات الأخرى (Bitcoin وEthereum وغيرها)
 
-The vast majority of cryptocurrency projects use a transparent blockchain, meaning that all transactions are both easily traceable and permanent. As such, we strongly discourage the use of most cryptocurrency for privacy-related reasons.
+تستخدم الغالبية العظمى من مشاريع العملات الرقمية Blockchain شفافة، أي أن تفاصيل المعاملات تكون متاحة ويمكن تتبعها بسهولة، كما تظل هذه المعاملات مسجّلة على الـ Blockchain بشكل دائم. لذلك، لا ننصح بشدة باستخدام معظم العملات الرقمية إذا كان هدفك هو الحفاظ على الخصوصية.
 
-Anonymous transactions on a transparent blockchain are *theoretically* possible, and the Bitcoin wiki [gives one example of a "completely anonymous" transaction](https://en.bitcoin.it/wiki/Privacy#Example_-_A_perfectly_private_donation). However, this example requires a complicated setup involving Tor and "solo-mining" a block to generate completely independent cryptocurrency, a practice which has not been practical (even for enthusiasts) for many years.
+من الناحية *النظرية*، يمكن إجراء معاملات مجهولة الهوية حتى على Blockchain شفافة، ويعرض موقع Bitcoin Wiki [مثالًا على معاملة «مجهولة الهوية بالكامل»](https://en.bitcoin.it/wiki/Privacy#Example_-_A_perfectly_private_donation). لكن تنفيذ هذا المثال معقد جدا، لأنه يتطلب استخدام Tor و«التعدين الفردي» (solo-mining) للحصول على عملات رقمية لا ترتبط بمعاملات سابقة. وهذه الطريقة لم تعد عملية منذ سنوات، حتى بالنسبة للهواة.
 
-==Your best option is to avoid these cryptocurrencies entirely and stick with one which provides privacy by default.== Attempting to use other cryptocurrency is outside the scope of this site and strongly discouraged.
+==الخيار الأفضل هو تجنّب هذه العملات الرقمية تمامًا، واستخدام عملة توفّر الخصوصية بشكل افتراضي.== أما محاولة استخدام عملات رقمية أخرى مع الحفاظ على الخصوصية، فهي خارج نطاق هذا الموقع ولا ننصح بها بشدة.
 
-### Wallet Custody
+### حيازة المحفظة
 
-With cryptocurrency there are two forms of wallets: custodial wallets and self-custody wallets. Custodial wallets are operated by centralized companies/exchanges, where the private key for your wallet is held by that company, and you can access them anywhere typically with a regular username and password. Self-custody wallets are wallets where you control and manage the private keys to access it. Assuming you keep your wallet's private keys secured and backed up, self-custody wallets provide greater security and censorship resistance over custodial wallets, because your cryptocurrency can't be stolen or frozen by a company with custody over your private keys. Key custody is especially important when it comes to privacy coins: Custodial wallets grant the operating company the ability to view your transactions, negating the privacy benefits of those cryptocurrencies.
+في العملات الرقمية، هناك نوعان من المحافظ: محافظ تديرها جهة أخرى نيابةً عنك (Custodial Wallets)، ومحافظ تحتفظ أنت بنفسك بالسيطرة عليها (Self-Custody Wallets). المحافظ التي تديرها جهة أخرى (Custodial Wallets) تشغلها شركات أو منصات تداول مركزية، وتحتفظ هذه الجهة بالمفتاح الخاص بمحفظتك بدلا منك. وعادة يمكنك الدخول إلى المحفظة من أي مكان باستخدام اسم مستخدم وكلمة مرور عاديين. أما المحافظ التي تحتفظ بها (Self-Custody Wallets)، فهي محافظ تتحكم أنت بنفسك في مفاتيحها الخاصة وتديرها للوصول إلى أموالك. إذا حافظت على أمان المفاتيح الخاصة بمحفظتك واحتفظت بنسخة احتياطية منها، فإن محافظ الحفظ الذاتي (Self-Custody Wallets) توفر أمانا أكبر ومقاومة أفضل للرقابة من المحافظ التي تديرها جهة أخرى، لأن أي شركة لا تملك مفاتيحك الخاصة، وبالتالي لا تستطيع تجميد عملاتك الرقمية أو الاستيلاء عليها. تُعد مسألة التحكم في المفاتيح الخاصة مهمة بشكل خاص عند استخدام عملات الخصوصية؛ لأن المحافظ التي تديرها جهة أخرى تتيح للشركة المشغِّلة رؤية معاملاتك، مما يفقد هذه العملات جزءًا كبيرا من مزايا الخصوصية التي توفرها.
 
-### Acquisition
+### الحصول على العملات الرقمية
 
-Acquiring [cryptocurrencies](../cryptocurrency.md) like Monero privately can be difficult. P2P marketplaces (platforms which facilitate trades between people) are one option, though the user experience typically suffers. If using an exchange which requires KYC is acceptable for you as long as subsequent transactions can't be traced, it's much easier to purchase Monero on a centralized exchange or purchase Bitcoin/Litecoin from a KYC exchange which can then be swapped for Monero. Then, you can withdraw the purchased Monero to your own self-custody wallet to use privately from that point forward.
+قد يكون الحصول على [عملات رقمية](../cryptocurrency.md) مثل Monero بطريقة تحافظ على خصوصيتك أمرًا صعبًا. تُعد أسواق التداول بين الأفراد (P2P)، وهي منصات تسهل البيع والشراء مباشرة بين المستخدمين، أحد الخيارات المتاحة، لكن استخدامها يكون عادة أقل سهولة وراحة. إذا لم تكن تمانع استخدام منصة تداول تطلب التحقق من الهوية (KYC)، ما دامت معاملاتك اللاحقة لا يمكن تتبّعها، فسيكون من الأسهل شراء Monero مباشرة من منصة تداول مركزية، أو شراء Bitcoin أو Litecoin من منصة تطلب KYC ثم استبدالها بـ Monero. بعد ذلك، يمكنك سحب عملات Monero التي اشتريتها إلى محفظة الحفظ الذاتي الخاصة بك، واستخدامها بخصوصية أكبر من تلك النقطة فصاعدًا.
 
-[Recommended places to buy Monero](../cryptocurrency.md#buying-monero ""){.md-button}
+[أماكن موصى بها لشراء Monero](../cryptocurrency.md#buying-monero ""){.md-button}
 
-If you go this route, make sure to purchase Monero at different times and in different amounts than where you will spend it. If you purchase $5000 of Monero at an exchange and make a $5000 purchase in Monero an hour later, those actions could potentially be correlated by an outside observer regardless of which path the Monero took. Staggering purchases and purchasing larger amounts of Monero in advance to later spend on multiple smaller transactions can avoid this pitfall.
+إذا اخترت هذه الطريقة، فاحرص على شراء Monero في أوقات وبمبالغ تختلف عن أوقات ومبالغ إنفاقه، حتى يصعب الربط بين عملية الشراء والمعاملات التي تجريها لاحقًا. فإذا اشتريت مثلا ما قيمته 5,000 دولار من Monero من إحدى منصات التداول، ثم أنفقت ما قيمته 5,000 دولار من Monero بعد ساعة فقط، فقد يتمكن طرف خارجي من الربط بين العمليتين، حتى لو مرّت العملات في مسار مختلف بين الشراء والإنفاق. Staggering purchases and purchasing larger amounts of Monero in advance to later spend on multiple smaller transactions can avoid this pitfall.
 
 ## Additional Considerations
 
