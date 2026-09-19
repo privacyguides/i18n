@@ -49,26 +49,26 @@ description: Tor هي شبكة مجانية ولا مركزية، صُممت ل�
 
 - أنت ← VPN ← Tor ← الإنترنت
 - أنت ← VPN ← Tor ← VPN ← الإنترنت
-- Any other configuration
+- أي إعداد آخر
 
-Some VPN providers and other publications will occasionally recommend these **bad** configurations to evade Tor bans (i.e., exit nodes being blocked by websites) in some places. [Normally](https://support.torproject.org/#about_change-paths), Tor frequently changes your circuit path through the network. When you choose a permanent *destination* VPN (connecting to a VPN server *after* Tor), you're eliminating this advantage and drastically harming your anonymity.
+توصي بعض خدمات الـ VPN وبعض المصادر أحيانًا بهذه الإعدادات **السيئة** لتجاوز حظر Tor في بعض الأماكن، مثل حظر المواقع لعُقد الخروج (Exit Nodes). [عادة](https://support.torproject.org/#about_change-paths)، يغيّر Tor بشكل متكرر مسار اتصالك عبر الشبكة. عندما تستخدم VPN كـ *وجهة ثابتة* بعد Tor، أي تتصل بخادم VPN *بعد* المرور عبر شبكة Tor، فأنت تلغي هذه الميزة وتُضعف إخفاء هويتك بشكل كبير.
 
-Setting up bad configurations like these is difficult to do accidentally, because it usually involves either setting up custom proxy settings inside Tor Browser, or setting up custom proxy settings inside your VPN client which routes your VPN traffic through the Tor Browser. As long as you avoid these non-default configurations, you're probably fine.
+من الصعب أن تصل إلى مثل هذه الإعدادات الخاطئة عن طريق الخطأ، لأنها تتطلب عادةً ضبط إعدادات Proxy مخصّصة داخل متصفح Tor، أو داخل تطبيق الـ VPN بحيث يتم تمرير اتصال الـ VPN عبر متصفح Tor. As long as you avoid these non-default configurations, you're probably fine.
 
 ---
 
 <div class="admonition info" markdown>
-<p class="admonition-title">VPN/SSH Fingerprinting</p>
+<p class="admonition-title">بصمات VPN/SSH</p>
 
-The Tor Project [notes](https://gitlab.torproject.org/legacy/trac/-/wikis/doc/TorPlusVPN#vpnssh-fingerprinting) that *theoretically* using a VPN to hide Tor activities from your ISP may not be foolproof. VPNs have been found to be vulnerable to website traffic fingerprinting, where an adversary can still guess what website is being visited because all websites have specific traffic patterns.
+يشير مشروع Tor إلى أنه من الناحية النظرية، قد لا يكون استخدام VPN لإخفاء نشاطك على Tor عن مزوّد خدمة الإنترنت (ISP) حلًا مضمونًا بالكامل. قد يتمكن من يراقب اتصال الـ VPN من تخمين الموقع الذي تزوره من شكل حركة البيانات، لأن لكل موقع نمطًا مميزًا في طريقة إرسال واستقبال البيانات.
 
-Therefore, it's not unreasonable to believe that encrypted Tor traffic hidden by a VPN could also be detected via similar methods. There are no research papers on this subject, and we still consider the benefits of using a VPN to far outweigh these risks, but it is something to keep in mind.
+لذلك، من الممكن أن يتم التعرف أيضا على حركة Tor المشفرة والمخفية داخل اتصال VPN باستخدام طرق مشابهة. لا توجد أبحاث منشورة حول هذا الأمر حتى الآن، وما زلنا نرى أن فوائد استخدام VPN أكبر بكثير من هذه المخاطر، لكن من الجيد أن تضع هذا الاحتمال في الحسبان.
 
 If you still believe that pluggable transports (bridges) provide additional protection against website traffic fingerprinting that a VPN does not, you always have the option to use a bridge **and** a VPN in conjunction.
 
 </div>
 
-Determining whether you should first use a VPN to connect to the Tor network will require some common sense and knowledge of your own government's and ISP's policies relating to what you're connecting to. To reiterate, though, you will be better off being seen as connecting to a commercial VPN network than directly to the Tor network in most cases. If VPN providers are censored in your area, then you can also consider using Tor pluggable transports (e.g., Snowflake or meek bridges) as an alternative, but using these bridges may arouse more suspicion than standard WireGuard/OpenVPN tunnels.
+تحديد ما إذا كان من الأفضل أن تتصل أولا بخدمة VPN قبل استخدام Tor يعتمد على تقديرك للموقف، ومعرفتك بسياسات حكومتك ومزوّد خدمة الإنترنت (ISP) تجاه نوع الاتصالات التي تستخدمها. ومع ذلك، نؤكد مرة أخرى أنه في معظم الحالات، من الأفضل أن يبدو اتصالك وكأنك تستخدم شبكة VPN تجارية بدلًا من الاتصال مباشرةً بشبكة Tor. إذا كانت خدمات الـ VPN محجوبة في منطقتك، فيمكنك استخدام وسائل النقل القابلة للتمويه (Pluggable Transports) في Tor، مثل الجسور (Bridges) من نوع Snowflake أو meek، كبديل. لكن استخدام هذه الجسور قد يلفت الانتباه أكثر من اتصالات WireGuard أو OpenVPN العادية.
 
 ## What Tor is Not
 
