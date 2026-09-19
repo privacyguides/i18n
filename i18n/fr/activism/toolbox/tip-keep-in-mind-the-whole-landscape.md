@@ -1,13 +1,13 @@
 ---
 title: Keep in Mind The Whole Landscape
-description: Privacy isn't just about the tools, or just about the laws, or just about the practices either. It's about all of it. Learn how to consider the whole landscape.
+description: La protection de la vie privée ne se limite pas à l'utilisation d'outils spécifiques, aux lois ou aux pratiques individuelles ou collectives. It's about all of it. Learn how to consider the whole landscape.
 icon: fontawesome/solid/globe
 cover: activism/banner-toolbox-tip-landscape.webp
 ---
 
 La protection de la vie privée ne se limite pas à l'utilisation d'outils spécifiques, aux lois ou aux pratiques individuelles ou collectives. It's about _all_ of that. Pour faire advenir une société où chacun et chacune peut bénéficier de la confidentialité par défaut, nous devons considérer les technologies, les lois et les cultures de façon systémique.
 
-Here's how to get better at **considering the whole landscape**:
+Voici comment apprendre à mieux **prendre en compte l'ensemble du contexte** :
 
 ## The technology
 
