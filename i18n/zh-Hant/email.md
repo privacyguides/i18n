@@ -14,13 +14,13 @@ global:
 
 - [:material-server-network: 服務提供商](basics/common-threats.md#privacy-from-service-providers ""){.pg-teal}
 
-電子郵件實際上是使用任何線上服務的必需品，但我們不建議把它應用於人與人之間的對話。 與其使用電子郵件聯繫他人，不如考慮使用支援前向保密的即時通訊媒介。
+電子郵件實際上是使用任何線上服務的必需品，但我們不建議把它應用於人與人之間的對話。與其使用電子郵件聯繫他人，不如考慮使用支援前向保密的即時通訊媒介。
 
 [推薦的即時通訊工具](real-time-communication.md ""){.md-button}
 
 ## 推薦的提供商
 
-除此之外，我們還推薦各種基於可持續商業模式和內建安全和隱私功能的電子郵件提供商。 閱讀我們[完整的標準清單](#criteria)，瞭解更多資訊。
+除此之外，我們還推薦各種基於可持續商業模式和內建安全和隱私功能的電子郵件提供商。閱讀我們[完整的標準清單](#criteria)，瞭解更多資訊。
 
 | 供應商                           | OpenPGP / WKD                          | IMAP / SMTP                                       | Encrypted Storage                                 | 匿名付款方式                                                |
 | ----------------------------- | -------------------------------------- | ------------------------------------------------- | ------------------------------------------------- | ----------------------------------------------------- |
@@ -28,7 +28,7 @@ global:
 | [Mailbox Mail](#mailbox-mail) | :material-check:{ .pg-green }          | :material-check:{ .pg-green }                     | :material-information-outline:{ .pg-blue } 限 Mail | 現金                                                    |
 | [Tuta](#tuta)                 | :material-alert-outline:{ .pg-orange } | :material-alert-outline:{ .pg-orange }            | :material-check:{ .pg-green }                     | Monero via third party <br>Cash via third party |
 
-除了這裡建議的電子郵件供應商及他們的替代品之外，您也可以考慮使用專用的[電子郵件別名服務](email-aliasing.md#recommended-providers)來保護您的隱私。 除此之外，這些服務有助於保護真實收件匣免受垃圾郵件的侵害，防止行銷人員關聯您的帳戶，並使用 PGP 加密所有傳入的訊息。
+除了這裡建議的電子郵件供應商及他們的替代品之外，您也可以考慮使用專用的[電子郵件別名服務](email-aliasing.md#recommended-providers)來保護您的隱私。除此之外，這些服務有助於保護真實收件匣免受垃圾郵件的侵害，防止行銷人員關聯您的帳戶，並使用 PGP 加密所有傳入的訊息。
 
 - [更多資訊 :material-arrow-right-drop-circle:](email-aliasing.md)
 
@@ -46,7 +46,7 @@ global:
 <div class="admonition warning" markdown>
 <p class="admonition-title">警告</p>
 
-當使用像 OpenPGP 這類 E2EE 技術時，電子郵件仍然會有一些元數據無法加密如主旨列。 了解更多[電子郵件元數據](basics/email-security.md#email-metadata-overview).
+當使用像 OpenPGP 這類 E2EE 技術時，電子郵件仍然會有一些元數據無法加密如主旨列。了解更多[電子郵件元數據](basics/email-security.md#email-metadata-overview).
 
 OpenPGP 也不支援前向保密 (forward secrecy)，這表示如果您或訊息接收者的私鑰被竊，則之前使用該金鑰加密的所有訊息都會曝光。
 
@@ -60,7 +60,7 @@ OpenPGP 也不支援前向保密 (forward secrecy)，這表示如果您或訊息
 
 ![Proton Mail logo](assets/img/email/protonmail.svg){ align=right }
 
-**Proton Mail** 是一個專注於隱私、加密、安全性和易用性的電子郵件服務。 他們自 2013 年起開始營運。 Proton AG 的總部位於瑞士日內瓦。
+**Proton Mail** 是一個專注於隱私、加密、安全性和易用性的電子郵件服務。他們自 2013 年起開始營運。 Proton AG 的總部位於瑞士日內瓦。
 
 Proton 免費方案提供 500 MB 的郵件儲存空間，您可以免費增加至 1 GB。
 
@@ -95,7 +95,7 @@ Proton Mail has internal crash reports that are **not** shared with third partie
 
     From your inbox, select :gear: → **All Settings** → **Account** → **Security and privacy** → **Privacy and data collection**.
 
-    - [ ] Disable **Collect usage dignostics**
+    - [ ] Disable **Collect usage diagnostics**
     - [ ] Disable **Send crash reports**
 
 === "Mobile"
@@ -103,7 +103,7 @@ Proton Mail has internal crash reports that are **not** shared with third partie
     From your inbox, select :material-menu: → :gear: **Settings** → select your username.
 
     - [ ] Disable **Send crash reports**
-    - [ ] Disable **Collect usage dignostics**
+    - [ ] Disable **Collect usage diagnostics**
 
 #### :material-check:{ .pg-green } 自訂域名和別名
 
@@ -115,7 +115,7 @@ Proton Mail 除了 [支援](https://proton.me/support/payment-options) 郵寄**�
 
 #### :material-check:{ .pg-green } 帳號安全
 
-Proton Mail 支援使用 TOTP 作為 [雙重要素驗證](https://proton.me/support/two-factor-authentication-2fa)，以及使用 FIDO2 或 U2F 標準的[硬體安全金鑰](https://proton.me/support/2fa-security-key)。 使用硬體安全金鑰需要先設定 TOTP 雙重要素驗證。
+Proton Mail 支援使用 TOTP 作為 [雙重要素驗證](https://proton.me/support/two-factor-authentication-2fa)，以及使用 FIDO2 或 U2F 標準的[硬體安全金鑰](https://proton.me/support/2fa-security-key)。使用硬體安全金鑰需要先設定 TOTP 雙重要素驗證。
 
 #### :material-check:{ .pg-green } 資料安全
 
@@ -125,13 +125,13 @@ Certain information stored in [Proton Contacts](https://proton.me/support/proton
 
 #### :material-check:{ .pg-green } 電子郵件加密
 
-Proton Mail 網頁郵件整合了 [OpenPGP 加密](https://proton.me/support/how-to-use-pgp) 。 發送到其他 Proton Mail 帳號的電子郵件會自動加密，並且可以在您的帳號設定中輕鬆啟用「使用 OpenPGP 金鑰對非 Proton Mail 位址進行加密」。 Proton 也支援使用 WKD 自動獲取外部金鑰。 因此發送到其他同樣使用 WKD 的供應商的電子郵件也將使用 OpenPGP 自動加密，無需與聯絡人手動交換 PGP 公鑰。 它們也允許您[在沒有 OpenPGP 的情況下，為寄給非 Proton Mail 郵箱的郵件加密](https://proton.me/support/password-protected-emails)，而不需要他們註冊 Proton Mail 帳戶。
+Proton Mail 網頁郵件整合了 [OpenPGP 加密](https://proton.me/support/how-to-use-pgp) 。發送到其他 Proton Mail 帳號的電子郵件會自動加密，並且可以在您的帳號設定中輕鬆啟用「使用 OpenPGP 金鑰對非 Proton Mail 位址進行加密」。 Proton 也支援使用 WKD 自動獲取外部金鑰。因此發送到其他同樣使用 WKD 的供應商的電子郵件也將使用 OpenPGP 自動加密，無需與聯絡人手動交換 PGP 公鑰。它們也允許您[在沒有 OpenPGP 的情況下，為寄給非 Proton Mail 郵箱的郵件加密](https://proton.me/support/password-protected-emails)，而不需要他們註冊 Proton Mail 帳戶。
 
-Proton Mail 也透過 HTTP 從其 WKD 發布 Proton 帳戶的公鑰。 這可讓不使用 Proton Mail 的人輕鬆找到 Proton Mail 帳號的 OpenPGP 金鑰，以進行跨供應商 E2EE。 這只適用於以 Proton 自家網域結尾的電子郵件地址，例如：`@proton.me`。 如果使用自訂網域，則必須另行[設定 WKD](basics/email-security.md#what-is-the-web-key-directory-standard)。
+Proton Mail 也透過 HTTP 從其 WKD 發布 Proton 帳戶的公鑰。這可讓不使用 Proton Mail 的人輕鬆找到 Proton Mail 帳號的 OpenPGP 金鑰，以進行跨供應商 E2EE。這只適用於以 Proton 自家網域結尾的電子郵件地址，例如：`@proton.me`。如果使用自訂網域，則必須另行[設定 WKD](basics/email-security.md#what-is-the-web-key-directory-standard)。
 
 #### :material-information-outline:{ .pg-blue } 終止帳號
 
-若您的付費帳戶逾期 14 天[未付款](https://proton.me/support/delinquency)，您將無法讀取自己的資料。 30 天後，您的帳戶將標記為欠費狀態，無法再收取郵件。 在此期間，您將繼續收到帳單。 Proton 會[刪除六個月未登入使用的免費帳戶](https://proton.me/support/inactive-accounts) 。 **不能**重複使用已停用帳號的電子郵件位址。
+若您的付費帳戶逾期 14 天[未付款](https://proton.me/support/delinquency)，您將無法讀取自己的資料。 30 天後，您的帳戶將標記為欠費狀態，無法再收取郵件。在此期間，您將繼續收到帳單。 Proton 會[刪除六個月未登入使用的免費帳戶](https://proton.me/support/inactive-accounts) 。**不能**重複使用已停用帳號的電子郵件位址。
 
 #### :material-information-outline:{ .pg-blue } 額外功能
 
@@ -194,7 +194,7 @@ You can access your Mailbox Mail account via IMAP/SMTP using their [.onion servi
 
 All accounts come with limited cloud storage that [can be encrypted](https://kb.mailbox.org/en/private/drive/encrypt-files-on-your-drive/). Mailbox Mail also offers the alias [@secure.mailbox.org](https://kb.mailbox.org/en/business/e-mail-article/ensuring-e-mails-are-sent-securely/), which enforces the TLS encryption on the connection between mail servers, otherwise the message will not be sent at all. Mailbox Mail also supports [Exchange ActiveSync](https://en.wikipedia.org/wiki/Exchange_ActiveSync) in addition to standard access protocols like IMAP and POP3.
 
-Mailbox Mail has a digital legacy feature for all plans. 只要繼承人提出申請並提供您的遺囑即可獲得你選擇要傳給他們的資料。 或者，您可以透過姓名和位址提出人選。
+Mailbox Mail has a digital legacy feature for all plans. 只要繼承人提出申請並提供您的遺囑即可獲得你選擇要傳給他們的資料。或者，您可以透過姓名和位址提出人選。
 
 ## 更多供應商
 
@@ -238,7 +238,7 @@ These providers encrypt your emails in a way that only you can read them later, 
 
 </div>
 
-Tuta 不支援 [ IMAP 協議](https://tuta.com/support#imap) 或使用第三方 [電子郵件客戶端](email-clients.md)，您也無法將 [外部電子郵件帳戶](https://github.com/tutao/tutanota/issues/544#issuecomment-670473647) 添加到 Tuta 應用程式。 目前不支援[匯入電子郵件](https://github.com/tutao/tutanota/issues/630) ，但這點很快就[會改善](https://tuta.com/blog/kickoff-import)。 電子郵件可以單個 [或選擇資料夾批量](https://tuta.com/support#generalMail)匯出 ，但若您有許多資料夾，可能會不方便。
+Tuta 不支援 [ IMAP 協議](https://tuta.com/support#imap) 或使用第三方 [電子郵件客戶端](email-clients.md)，您也無法將 [外部電子郵件帳戶](https://github.com/tutao/tutanota/issues/544#issuecomment-670473647) 添加到 Tuta 應用程式。目前不支援[匯入電子郵件](https://github.com/tutao/tutanota/issues/630) ，但這點很快就[會改善](https://tuta.com/blog/kickoff-import)。電子郵件可以單個 [或選擇資料夾批量](https://tuta.com/support#generalMail)匯出 ，但若您有許多資料夾，可能會不方便。
 
 #### :material-check:{ .pg-green } 自訂域名和別名
 
@@ -258,11 +258,11 @@ Tuta stores your [emails](https://tuta.com/support#what-encrypted), [address boo
 
 #### :material-information-outline:{ .pg-blue } 電子郵件加密
 
-Tuta [不使用 OpenPGP ](https://tuta.com/support/#pgp)。 只能透過 [臨時 Tuta 郵箱](https://tuta.com/support/#encrypted-email-external)，才能接收非Tuta 電子郵件帳戶寄出的加密電子郵件。
+Tuta [不使用 OpenPGP ](https://tuta.com/support/#pgp)。只能透過 [臨時 Tuta 郵箱](https://tuta.com/support/#encrypted-email-external)，才能接收非Tuta 電子郵件帳戶寄出的加密電子郵件。
 
 #### :material-information-outline:{ .pg-blue } 終止帳號
 
-Tuta [刪除六個月未登入使用的免費帳戶](https://tuta.com/support#inactive-accounts) 。 付費後，可以重用激活已停用的免費帳戶。
+Tuta [刪除六個月未登入使用的免費帳戶](https://tuta.com/support#inactive-accounts) 。付費後，可以重用激活已停用的免費帳戶。
 
 #### :material-information-outline:{ .pg-blue } 額外功能
 
@@ -270,7 +270,7 @@ Tuta 向非營利組織提供免費 [商業版本](https://tuta.com/blog/secure-
 
 ## 標準
 
-**請注意，我們與以下推薦的任何供應商並無瓜葛。** 除了 [我們的條件標準](about/criteria.md)外，我們還為任何希望獲得推薦的電子郵件供應商制定了一套明確要求，包括實施業界最佳做法，現代技術等。 我們建議您在選擇電子郵件提供商之前熟悉此列表，並進行自己的研究，以確保您選擇的電子郵件提供商是您的正確選擇。
+**請注意，我們與以下推薦的任何供應商並無瓜葛。** 除了 [我們的條件標準](about/criteria.md)外，我們還為任何希望獲得推薦的電子郵件供應商制定了一套明確要求，包括實施業界最佳做法，現代技術等。我們建議您在選擇電子郵件提供商之前熟悉此列表，並進行自己的研究，以確保您選擇的電子郵件提供商是您的正確選擇。
 
 ### 技術
 
@@ -280,7 +280,7 @@ Tuta 向非營利組織提供免費 [商業版本](https://tuta.com/blog/secure-
 
 - Must encrypt email account data at rest with asymmetric encryption, where only the user has the private keys needed to decrypt it.
 - 必須能夠以 [Mbox](https://en.wikipedia.org/wiki/Mbox) 或符合 [RFC5322](https://datatracker.ietf.org/doc/rfc5322) 標準的個別 .EML 匯出電子郵件。
-- 允許使用者使用自己的[網域名稱](https://en.wikipedia.org/wiki/Domain_name)。 自定網域名稱對用戶來說很重要，因為它允許用戶在使用服務時仍能維持自我代理，以防服務變差或被另一家不優先考慮隱私的公司收購。
+- 允許使用者使用自己的[網域名稱](https://en.wikipedia.org/wiki/Domain_name)。自定網域名稱對用戶來說很重要，因為它允許用戶在使用服務時仍能維持自我代理，以防服務變差或被另一家不優先考慮隱私的公司收購。
 - 必須在自有的基礎架構上運作，即不建基於第三方電子郵件服務供應商。
 
 **最佳情況：**
@@ -288,11 +288,11 @@ Tuta 向非營利組織提供免費 [商業版本](https://tuta.com/blog/secure-
 - Should encrypt all account data (contacts, calendars, etc.) at rest with asymmetric encryption, where only the user has the private keys needed to decrypt it.
 - 應提供整合式網頁郵件 E2EE/PGP 加密功能，方便用戶使用。
 - 應支援 WKD，以便透過 HTTP 改善公共 OpenPGP 金鑰的發現。 GnuPG 使用者可以使用下列指令取得金鑰：`gpg --locate-key example_user@example.com`。
-- 支援外部使用者的臨時信箱。 當您要傳送加密的電子郵件，但又不想傳送實際副本給收件人時，這個功能就很有用。 這些電子郵件通常具有限定時效，之後會被自動刪除。 它們也不需要收件人配置任何像OpenPGP這樣的加密技術。
+- 支援外部使用者的臨時信箱。當您要傳送加密的電子郵件，但又不想傳送實際副本給收件人時，這個功能就很有用。這些電子郵件通常具有限定時效，之後會被自動刪除。它們也不需要收件人配置任何像OpenPGP這樣的加密技術。
 - 應支援 [sub-addressing](https://en.wikipedia.org/wiki/Email_address#Sub-addressing)。
-- 應允許使用者使用自己的[網域名稱](https://en.wikipedia.org/wiki/Domain_name)。 自定網域名稱對用戶來說很重要，因為它允許用戶在使用服務時仍能維持自我代理，以防服務變差或被另一家不優先考慮隱私的公司收購。
+- 應允許使用者使用自己的[網域名稱](https://en.wikipedia.org/wiki/Domain_name)。自定網域名稱對用戶來說很重要，因為它允許用戶在使用服務時仍能維持自我代理，以防服務變差或被另一家不優先考慮隱私的公司收購。
 - 為那些使用自己網域的人提供Catch-all或別名功能。
-- 應使用標準的電子郵件存取通訊協定，例如：IMAP、SMTP 或 [JMAP](https://en.wikipedia.org/wiki/JSON_Meta_Application_Protocol)。 標準存取通訊協定可確保客戶在轉換其他供應商時，能輕鬆下載所有電子郵件。
+- 應使用標準的電子郵件存取通訊協定，例如：IMAP、SMTP 或 [JMAP](https://en.wikipedia.org/wiki/JSON_Meta_Application_Protocol)。標準存取通訊協定可確保客戶在轉換其他供應商時，能輕鬆下載所有電子郵件。
 - 電子郵件供應商的服務應可透過[洋蔥服務](https://en.wikipedia.org/wiki/.onion)提供。
 
 ### 隱私
@@ -312,7 +312,7 @@ Tuta 向非營利組織提供免費 [商業版本](https://tuta.com/blog/secure-
 
 ### 安全
 
-電子郵件伺服器處理大量非常敏感的資料。 我們期望供應商會採用業界最佳實務，以保護其客戶。
+電子郵件伺服器處理大量非常敏感的資料。我們期望供應商會採用業界最佳實務，以保護其客戶。
 
 **最低合格要求：**
 
@@ -324,7 +324,7 @@ Tuta 向非營利組織提供免費 [商業版本](https://tuta.com/blog/secure-
 - 有效的 [MTA-STS](https://tools.ietf.org/html/rfc8461) 和[TLS-RPT](https://tools.ietf.org/html/rfc8460) 政策。
 - 有效 [DANE](https://en.wikipedia.org/wiki/DNS-based_Authentication_of_Named_Entities) 紀錄。
 - 有效的 [SPF ](https://en.wikipedia.org/wiki/Sender_Policy_Framework) 和 [ DKIM ](https://en.wikipedia.org/wiki/DomainKeys_Identified_Mail) 記錄。
-- 必須有適當的 [DMARC](https://en.wikipedia.org/wiki/DMARC) 記錄和政策，或使用 [ARC](https://en.wikipedia.org/wiki/Authenticated_Received_Chain) 進行驗證。 如果正在使用 DMARC 驗證，則必須將原則設定為 `拒絕` 或 `隔離`。
+- 必須有適當的 [DMARC](https://en.wikipedia.org/wiki/DMARC) 記錄和政策，或使用 [ARC](https://en.wikipedia.org/wiki/Authenticated_Received_Chain) 進行驗證。如果正在使用 DMARC 驗證，則必須將原則設定為 `拒絕` 或 `隔離`。
 - 伺服器套件最好為 TLS 1.2或更高版本以及 [ RFC8996](https://datatracker.ietf.org/doc/rfc8996)計劃。
 - 假設使用SMTP，[SMTPS](https://en.wikipedia.org/wiki/SMTPS) 提交。
 - 網站安全標準，例如：
@@ -345,7 +345,7 @@ Tuta 向非營利組織提供免費 [商業版本](https://tuta.com/blog/secure-
 
 ### 信任
 
-您不會把財務資料交給身份作假的人，那麼為什麼會信任讓他們來使用您的電子郵件？ 我們要求推薦的供應商公開其所有權或領導層級狀況。 我們也希望能夠看到經常性的透明度報告，尤其是如何處理政府要求的部份。
+您不會把財務資料交給身份作假的人，那麼為什麼會信任讓他們來使用您的電子郵件？我們要求推薦的供應商公開其所有權或領導層級狀況。我們也希望能夠看到經常性的透明度報告，尤其是如何處理政府要求的部份。
 
 **最低合格要求：**
 
@@ -363,8 +363,8 @@ Tuta 向非營利組織提供免費 [商業版本](https://tuta.com/blog/secure-
 
 - 必須自行託管分析服務（不使用 Google Analytics、Adobe Analytics 等）。
 - 不得有任何不負責任的行銷行為，可能包括下列內容：
-    - 聲稱「無法破解的加密」。 使用加密時應考慮到，當未來有破解技術時，被加密的資料可能就不是秘密了。
-    - 保證 100% 匿名性保護。 當有人宣稱某件事是 100% 時，這表示不可能失敗。 我們知道人們可以透過許多方式輕易地去匿名化，例如：
+    - 聲稱「無法破解的加密」。使用加密時應考慮到，當未來有破解技術時，被加密的資料可能就不是秘密了。
+    - 保證 100% 匿名性保護。當有人宣稱某件事是 100% 時，這表示不可能失敗。我們知道人們可以透過許多方式輕易地去匿名化，例如：
         - 重複使用他們在沒有使用 Tor 等匿名軟體的情況下存取的個人資訊（例如：電子郵件帳號、獨特假名 等）
         - [瀏覽器指紋](https://en.wikipedia.org/wiki/Device_fingerprint#Browser_fingerprint)
 

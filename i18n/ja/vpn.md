@@ -2,7 +2,7 @@
 meta_title: "プライベートVPNサービスの推奨事項と比較、スポンサーや広告なし - Privacy Guides"
 title: VPNサービス
 icon: material/vpn
-description: オンラインでのプライバシーとセキュリティを保護するための最良のVPNサービス。 ひそかにあなたを監視することがないVPNサービスプロバイダーを挙げています。
+description: オンラインでのプライバシーとセキュリティを保護するための最良のVPNサービス。ひそかにあなたを監視することがないVPNサービスプロバイダーを挙げています。
 cover: vpn.webp
 global:
   - 
@@ -21,7 +21,7 @@ If you're looking for additional *privacy* from your ISP or on a public Wi-Fi ne
 
 VPNを使用しても、ブラウジング傾向を匿名化したり、安全ではない（HTTP）通信のセキュリティが強化されたりすることは**ありません**。
 
-**匿名性**を確保するには、Tor Browserを使用してください。 **セキュリティ**を強化するには、常にウェブサイトへの接続にHTTPSを使用してください。 VPNは、優れたセキュリティーの代わりにはなりません。
+**匿名性**を確保するには、Tor Browserを使用してください。**セキュリティ**を強化するには、常にウェブサイトへの接続にHTTPSを使用してください。 VPNは、優れたセキュリティーの代わりにはなりません。
 
 [Introduction to the Tor Browser](tor.md#tor-browser){ .md-button .md-button--primary } [Tor Myths & FAQ](advanced/tor-overview.md){ .md-button }
 
@@ -31,7 +31,7 @@ VPNを使用しても、ブラウジング傾向を匿名化したり、安全�
 
 ## 推奨するサービスプロバイダー
 
-推奨するプロバイダーは暗号化され、WireGuardとOpenVPNへ対応し、ノーログポリシーがあります。 詳細については、[基準の完全なリスト](#criteria)をお読みください。
+推奨するプロバイダーは暗号化され、WireGuardとOpenVPNへ対応し、ノーログポリシーがあります。詳細については、[基準の完全なリスト](#criteria)をお読みください。
 
 | プロバイダー                | サーバーロケーション国数 | WireGuard                     | ポートフォワーディング                                 | IPv6                                                       | 匿名での支払い      |
 | --------------------- | ------------ | ----------------------------- | ------------------------------------------- | ---------------------------------------------------------- | ------------ |
@@ -78,9 +78,9 @@ Proton VPN has [servers in 127 countries](https://protonvpn.com/vpn-servers)(1) 
 
 #### :material-check:{ .pg-green } 独立監査済み
 
-Independent security researcher Ruben Santamarta conducted audits for Proton VPN's [browser extensions](https://drive.proton.me/urls/RWDD2SHT98#v7ZrwNcafkG8) and [apps](https://drive.proton.me/urls/RVW8TXG484#uTXX5Fc9GADo) in September 2024 and January 2025, respectively. Proton VPN's infrastrcture has undergone [annual audits](https://protonvpn.com/blog/no-logs-audit) by Securitum since 2022.
+Independent security researcher Ruben Santamarta conducted audits for Proton VPN's [browser extensions](https://drive.proton.me/urls/RWDD2SHT98#v7ZrwNcafkG8) and [apps](https://drive.proton.me/urls/RVW8TXG484#uTXX5Fc9GADo) in September 2024 and January 2025, respectively. Proton VPN's infrastructure has undergone [annual audits](https://protonvpn.com/blog/no-logs-audit) by Securitum since 2022.
 
-Previously, Proton VPN underwent an independent audit by SEC Consult in January 2020. SEC ConsultはProton VPNのWindows、Android、iOSアプリに中、低リスクの脆弱性を発見しましたが、これらすべてはProton VPNによって報告書が公表される前に「適切に修正」されました。 確認された問題はいずれも攻撃者がデバイスやトラフィックへリモートアクセスを可能にするものではありませんでした。 You can view individual reports for each platform in their dedicated [blog post](https://web.archive.org/web/20250307041036/https://protonvpn.com/blog/open-source) on the audit.
+Previously, Proton VPN underwent an independent audit by SEC Consult in January 2020. SEC ConsultはProton VPNのWindows、Android、iOSアプリに中、低リスクの脆弱性を発見しましたが、これらすべてはProton VPNによって報告書が公表される前に「適切に修正」されました。確認された問題はいずれも攻撃者がデバイスやトラフィックへリモートアクセスを可能にするものではありませんでした。 You can view individual reports for each platform in their dedicated [blog post](https://web.archive.org/web/20250307041036/https://protonvpn.com/blog/open-source) on the audit.
 
 #### :material-check:{ .pg-green } オープンソースクライアント
 
@@ -92,17 +92,17 @@ Proton VPN, in addition to accepting credit/debit cards, PayPal, and [Bitcoin](a
 
 #### :material-check:{ .pg-green } WireGuard対応
 
-Proton VPNはWireGuard®プロトコルに対応しています。 [Wireguard](https://wireguard.com)は最先端の[暗号化技術](https://wireguard.com/protocol)を用いた新しいプロトコルです。 加えて、WireGuardはよりシンプルかつより高性能であることを目指しています。
+Proton VPNはWireGuard®プロトコルに対応しています。 [Wireguard](https://wireguard.com)は最先端の[暗号化技術](https://wireguard.com/protocol)を用いた新しいプロトコルです。加えて、WireGuardはよりシンプルかつより高性能であることを目指しています。
 
-Proton VPNはWireGuardを用いることを[推奨](https://protonvpn.com/blog/wireguard)しています。 また、Proton VPNでは公式のWireGuard[アプリ](https://wireguard.com/install)で使用するWireGuard設定を作成できます。
+Proton VPNはWireGuardを用いることを[推奨](https://protonvpn.com/blog/wireguard)しています。また、Proton VPNでは公式のWireGuard[アプリ](https://wireguard.com/install)で使用するWireGuard設定を作成できます。
 
 #### :material-alert-outline:{ .pg-orange } IPv6の対応は制限あり
 
-Protonはブラウザの拡張機能とLinux向けクライアントで[現在、IPv6に対応しています](https://protonvpn.com/support/prevent-ipv6-vpn-leaks)が、IPv6に対応したサーバーは80%のみです。 他のプラットフォームではProtonVPNクライアントはすべてのIPv6のアウトバウンドトラフィックをブロックするため、使用しているIPv6アドレスが漏れる心配はありませんが、IPv6専用のサイトには接続できず、IPv6専用ネットワークからProtonVPNに接続することもできません。
+Protonはブラウザの拡張機能とLinux向けクライアントで[現在、IPv6に対応しています](https://protonvpn.com/support/prevent-ipv6-vpn-leaks)が、IPv6に対応したサーバーは80%のみです。他のプラットフォームではProtonVPNクライアントはすべてのIPv6のアウトバウンドトラフィックをブロックするため、使用しているIPv6アドレスが漏れる心配はありませんが、IPv6専用のサイトには接続できず、IPv6専用ネットワークからProtonVPNに接続することもできません。
 
 #### :material-information-outline:{ .pg-info } リモートポートフォワーディング
 
-Proton VPNでは、NAT-PMP経由の60秒でリリースされる一時的なリモート[ポートフォワーディング](https://protonvpn.com/support/port-forwarding)のみ対応しています。 公式のWindows・Linuxアプリでは簡単に設定することができますが、他のOSでは[NAT-PMPクライアント](https://protonvpn.com/support/port-forwarding-manual-setup)を自分で実行する必要があります。 Torrentアプリは多くの場合NAT-PMPをネイティブサポートしています。
+Proton VPNでは、NAT-PMP経由の60秒でリリースされる一時的なリモート[ポートフォワーディング](https://protonvpn.com/support/port-forwarding)のみ対応しています。公式のWindows・Linuxアプリでは簡単に設定することができますが、他のOSでは[NAT-PMPクライアント](https://protonvpn.com/support/port-forwarding-manual-setup)を自分で実行する必要があります。 Torrentアプリは多くの場合NAT-PMPをネイティブサポートしています。
 
 #### :material-information-outline:{ .pg-blue } 検閲への対抗
 
@@ -117,7 +117,7 @@ Proton VPNは[App Store](https://apps.apple.com/app/id1437005085)と[Google Play
 <div class="admonition warning" markdown>
 <p class="admonition-title">テレメトリーの共有をオプトアウトする方法</p>
 
-Android版では設定の「**検閲との闘いにご協力ください**」という誤解を招くような名前のメニューの中にテレメトリーの設定が隠されています。 他のプラットフォームでは設定の「**統計の使用**」のメニューの中にあります。
+Android版では設定の「**検閲との闘いにご協力ください**」という誤解を招くような名前のメニューの中にテレメトリーの設定が隠されています。他のプラットフォームでは設定の「**統計の使用**」のメニューの中にあります。
 
 匿名の統計情報を開発者と共有することを必ずしも推奨していませんが、この設定を見つけやすく、わかりやすくなっていることが重要であるため、注意しています。
 
@@ -125,7 +125,7 @@ Android版では設定の「**検閲との闘いにご協力ください**」と
 
 #### :material-alert-outline:{ .pg-orange } Additional Notes
 
-Proton VPNクライアントはすべてのプラットフォームで二要素認証に対応しています。 Proton VPNはスイス、アイスランド、スウェーデンに独自のサーバーとデータセンターを持っています。 DNSサービスで広告ブロックと既知のマルウェアブロックをしています。 また、Proton VPNにはonionサイトに簡単に接続することのできるTorサーバーがありますが、[公式のTor Browser](tor.md#tor-browser)の使用を強く推奨します。
+Proton VPNクライアントはすべてのプラットフォームで二要素認証に対応しています。 Proton VPNはスイス、アイスランド、スウェーデンに独自のサーバーとデータセンターを持っています。 DNSサービスで広告ブロックと既知のマルウェアブロックをしています。また、Proton VPNにはonionサイトに簡単に接続することのできるTorサーバーがありますが、[公式のTor Browser](tor.md#tor-browser)の使用を強く推奨します。
 
 ##### Kill switch feature provides poor protections on macOS
 
@@ -176,7 +176,7 @@ IVPNは2019年から複数の[独立した監査](https://ivpn.net/en/blog/tags/
 
 #### :material-check:{ .pg-green } オープンソースクライアント
 
-2020年2月時点で[IVPNのアプリケーションはオープンソースとなっています](https://ivpn.net/blog/ivpn-applications-are-now-open-source)。 ソースコードは[GitHub](https://github.com/ivpn)から入手できます。
+2020年2月時点で[IVPNのアプリケーションはオープンソースとなっています](https://ivpn.net/blog/ivpn-applications-are-now-open-source)。ソースコードは[GitHub](https://github.com/ivpn)から入手できます。
 
 #### :material-check:{ .pg-green } 現金とMoneroが利用可能
 
@@ -184,9 +184,9 @@ IVPNはクレジット・デビットカードやPayPalでの支払いに加え�
 
 #### :material-check:{ .pg-green } WireGuard対応
 
-IVPNはWireGuard®️プロトコルをサポートしています。 [Wireguard](https://wireguard.com)は最先端の[暗号化技術](https://wireguard.com/protocol)を用いた新しいプロトコルです。 加えて、WireGuardはよりシンプルかつより高性能であることを目指しています。
+IVPNはWireGuard®️プロトコルをサポートしています。 [Wireguard](https://wireguard.com)は最先端の[暗号化技術](https://wireguard.com/protocol)を用いた新しいプロトコルです。加えて、WireGuardはよりシンプルかつより高性能であることを目指しています。
 
-IVPNはWireGuardの使用を[推奨](https://ivpn.net/wireguard)しており、IVPNのすべてのアプリケーションでデフォルトとなっています。 また、公式のWireGuard[アプリ](https://wireguard.com/install)で使用するWireGuard設定を作成できます。
+IVPNはWireGuardの使用を[推奨](https://ivpn.net/wireguard)しており、IVPNのすべてのアプリケーションでデフォルトとなっています。また、公式のWireGuard[アプリ](https://wireguard.com/install)で使用するWireGuard設定を作成できます。
 
 #### :material-information-outline:{ .pg-blue } IPv6の対応
 
@@ -194,7 +194,7 @@ IVPNでは[IPv6を使用するサービスへの接続](https://ivpn.net/knowled
 
 #### :material-alert-outline:{ .pg-orange } リモートポートフォワーディング
 
-IVPNでは以前、ポートフォワーディングに対応していましたが、[2023年6月](https://ivpn.net/blog/gradual-removal-of-port-forwarding)にオプションを削除しました。 この機能の削除により、特にトレント・クライアントなどのピア・ツー・ピアアプリケーションには悪影響を及ぼす可能性があります。
+IVPNでは以前、ポートフォワーディングに対応していましたが、[2023年6月](https://ivpn.net/blog/gradual-removal-of-port-forwarding)にオプションを削除しました。この機能の削除により、特にトレント・クライアントなどのピア・ツー・ピアアプリケーションには悪影響を及ぼす可能性があります。
 
 #### :material-check:{ .pg-green } 検閲への対抗
 
@@ -206,7 +206,7 @@ IVPNは[App Store](https://apps.apple.com/app/id1193122683)と[Google Play](http
 
 #### :material-information-outline:{ .pg-blue } 追記事項
 
-IVPNのクライアントは二要素認証に対応しています。 また、[AntiTracker](https://ivpn.net/antitracker)機能により、広告ネットワークやトラッカーをネットワークレベルでブロックすることができます。
+IVPNのクライアントは二要素認証に対応しています。また、[AntiTracker](https://ivpn.net/antitracker)機能により、広告ネットワークやトラッカーをネットワークレベルでブロックすることができます。
 
 ### Mullvad
 
@@ -238,7 +238,7 @@ IVPNのクライアントは二要素認証に対応しています。 また、
 
 #### :material-check:{ .pg-green } 49カ国
 
-Mullvadは[49カ国にサーバー](https://mullvad.net/servers)を設置しています。(1) VPNプロバイダーの最も近いサーバーを選ぶことで、ネットワークトラフィックのレイテンシーを小さくすることができます。 これは目的地までのルートが短い(ホップが少ない) ことによります。
+Mullvadは[49カ国にサーバー](https://mullvad.net/servers)を設置しています。(1) VPNプロバイダーの最も近いサーバーを選ぶことで、ネットワークトラフィックのレイテンシーを小さくすることができます。これは目的地までのルートが短い(ホップが少ない) ことによります。
 { .annotate }
 
 1. Last checked: 2025-10-28
@@ -259,7 +259,7 @@ Mullvadはクレジット・デビットカードやPayPalでの支払いに加�
 
 #### :material-check:{ .pg-green } WireGuard対応
 
-MullvadはWireGuard®️プロトコルをサポートしています。 [Wireguard](https://wireguard.com)は最先端の[暗号化技術](https://wireguard.com/protocol)を用いた新しいプロトコルです。 加えて、WireGuardはよりシンプルかつより高性能であることを目指しています。
+MullvadはWireGuard®️プロトコルをサポートしています。 [Wireguard](https://wireguard.com)は最先端の[暗号化技術](https://wireguard.com/protocol)を用いた新しいプロトコルです。加えて、WireGuardはよりシンプルかつより高性能であることを目指しています。
 
 MullvadはWireGuardを用いることを[推奨](https://mullvad.net/en/help/why-wireguard)しています。 It is the only protocol supported on their mobile apps, and their desktop apps will [lose OpenVPN support](https://mullvad.net/en/blog/reminder-that-openvpn-is-being-removed) in 2025. Additionally, their servers will stop accepting OpenVPN connections by January 15, 2026. また、公式のWireGuard[アプリ](https://wireguard.com/install)で使用するWireGuard設定を作成できます。
 
@@ -269,15 +269,15 @@ Mullvadでは[IPv6でホストされているサービスへのアクセス](htt
 
 #### :material-alert-outline:{ .pg-orange } リモートポートフォワーディング
 
-Mullvadでは以前、ポートフォワーディングに対応していましたが、[2023年3月](https://mullvad.net/en/blog/2023/5/29/removing-the-support-for-forwarded-ports)にオプションを削除しました。 この機能の削除により、特にトレント・クライアントなどのピア・ツー・ピアアプリケーションには悪影響を及ぼす可能性があります。
+Mullvadでは以前、ポートフォワーディングに対応していましたが、[2023年3月](https://mullvad.net/en/blog/2023/5/29/removing-the-support-for-forwarded-ports)にオプションを削除しました。この機能の削除により、特にトレント・クライアントなどのピア・ツー・ピアアプリケーションには悪影響を及ぼす可能性があります。
 
 #### :material-check:{ .pg-green } 検閲への対抗
 
 Mullvadには検閲を回避し、自由にインターネットにアクセスするための機能があります：
 
-- **難読化モード**：「UDP-over-TCP」と[「WireGuard over Shadowsocks」](https://mullvad.net/en/blog/introducing-shadowsocks-obfuscation-for-wireguard)の2つのモードがあります。 VPNトラフィックを通常のウェブトラフィックに偽装し、検閲当局による検出とブロックを困難にします。 おそらく、中国は[Shadowsocks経由のトラフィックを妨害するために新しい方法](https://gfw.report/publications/usenixsecurity23/en)を使う必要があります。
-- **Shadowsocksとv2rayによる高度な難読化**：高度なユーザーのためにMullvadクライアント上で[Shadowsocksをv2ray](https://mullvad.net/en/help/shadowsocks-with-v2ray)プラグインと使うための方法を公開しています。 設定することで、難読化と暗号化レイヤーが追加されます。
-- **カスタムサーバーIP**：IPブロックに対抗するため、MullvadのサポートチームにカスタムサーバーIPをリクエストできます。 カスタムIPを受取り、「Server IP override」の設定でテキストファイルを入力します。検閲当局に知られていない選択したサーバーのIPアドレスで上書きします。
+- **難読化モード**：「UDP-over-TCP」と[「WireGuard over Shadowsocks」](https://mullvad.net/en/blog/introducing-shadowsocks-obfuscation-for-wireguard)の2つのモードがあります。 VPNトラフィックを通常のウェブトラフィックに偽装し、検閲当局による検出とブロックを困難にします。おそらく、中国は[Shadowsocks経由のトラフィックを妨害するために新しい方法](https://gfw.report/publications/usenixsecurity23/en)を使う必要があります。
+- **Shadowsocksとv2rayによる高度な難読化**：高度なユーザーのためにMullvadクライアント上で[Shadowsocksをv2ray](https://mullvad.net/en/help/shadowsocks-with-v2ray)プラグインと使うための方法を公開しています。設定することで、難読化と暗号化レイヤーが追加されます。
+- **カスタムサーバーIP**：IPブロックに対抗するため、MullvadのサポートチームにカスタムサーバーIPをリクエストできます。カスタムIPを受取り、「Server IP override」の設定でテキストファイルを入力します。検閲当局に知られていない選択したサーバーのIPアドレスで上書きします。
 - **ブリッジおよびプロキシ**：Mullvadでは（認証に必要な）APIにアクセスするためのブリッジやプロキシを利用できます。APIへのアクセスをブロックする検閲を回避することができます。
 
 #### :material-check:{ .pg-green } モバイルクライアント
@@ -286,18 +286,18 @@ Mullvadは[App Store](https://apps.apple.com/app/id1488466513)と[Google Play](h
 
 #### :material-information-outline:{ .pg-blue } 追記事項
 
-Mullvadはノードごとに[所有もしくはレンタル](https://mullvad.net/en/servers)しているかに関して非常に透明性が高いです。 また、アプリではDefense Against AI-guided Traffic Analysis ([DAITA](https://mullvad.net/en/blog/daita-defense-against-ai-guided-traffic-analysis)) を使うこともできます。 DAITAはVPNトラフィックのパターンと特定のウェブサイトを関連付ける高度なトラフィック分析の脅威から保護します。
+Mullvadはノードごとに[所有もしくはレンタル](https://mullvad.net/en/servers)しているかに関して非常に透明性が高いです。また、アプリではDefense Against AI-guided Traffic Analysis ([DAITA](https://mullvad.net/en/blog/daita-defense-against-ai-guided-traffic-analysis)) を使うこともできます。 DAITAはVPNトラフィックのパターンと特定のウェブサイトを関連付ける高度なトラフィック分析の脅威から保護します。
 
 ## 規準
 
 <div class="admonition danger" markdown>
 <p class="admonition-title">警告</p>
 
-VPNプロバイダーを利用すると、特定の状況下ではより良いプライバシーが得られますが、VPNプロバイダーは匿名性を与えるものではないことに注意が必要です。 VPNは違法行為のためのツールではありません。 「ログなし」ポリシーに依存しないでください。
+VPNプロバイダーを利用すると、特定の状況下ではより良いプライバシーが得られますが、VPNプロバイダーは匿名性を与えるものではないことに注意が必要です。 VPNは違法行為のためのツールではありません。「ログなし」ポリシーに依存しないでください。
 
 </div>
 
-**私たちは、推奨するいずれのプロバイダーとも提携していません。 このために完全に客観的に推奨することができます。**さらに[標準的な基準](about/criteria.md)に加え、強力な暗号化、独立したセキュリティ監査、新しい技術などを含む、推奨するために必要なVPNプロバイダーへの明確な要件を定めています。 プロジェクトを利用する前に、このリストをよく理解し、ご自身で調査を行って、そのプロジェクトがあなたにとって適切な選択かどうかをご確認ください。
+**私たちは、推奨するいずれのプロバイダーとも提携していません。このために完全に客観的に推奨することができます。**さらに[標準的な基準](about/criteria.md)に加え、強力な暗号化、独立したセキュリティ監査、新しい技術などを含む、推奨するために必要なVPNプロバイダーへの明確な要件を定めています。プロジェクトを利用する前に、このリストをよく理解し、ご自身で調査を行って、そのプロジェクトがあなたにとって適切な選択かどうかをご確認ください。
 
 ### テクノロジー
 
@@ -308,21 +308,21 @@ We require our recommended providers to support modern technologies currently av
 - Must provide standard configuration files which can be used in a generic, open-source client such as the WireGuard apps.
 - Support for strong protocols such as WireGuard.
 - Functional kill switch built in to service-provided clients on our recommended [desktop](desktop.md) and [mobile](android/distributions.md) platforms. This kill switch should be able to block all internet traffic when the VPN connection drops unexpectedly.
-- マルチホップへの対応。 マルチホップは単一のノードがセキュリティ侵害を受けた際、データのプライベートを保護するために重要です。
-- VPNクライアントを提供する場合、一般的にビルトインされているVPNソフトウェアのように[オープンソース](https://en.wikipedia.org/wiki/Open_source)であること。 [ソースコード](https://en.wikipedia.org/wiki/Source_code)が公開されることでプログラムの実際の挙動についてのより高い透明性が得られると考えています。
+- マルチホップへの対応。マルチホップは単一のノードがセキュリティ侵害を受けた際、データのプライベートを保護するために重要です。
+- VPNクライアントを提供する場合、一般的にビルトインされているVPNソフトウェアのように[オープンソース](https://en.wikipedia.org/wiki/Open_source)であること。[ソースコード](https://en.wikipedia.org/wiki/Source_code)が公開されることでプログラムの実際の挙動についてのより高い透明性が得られると考えています。
 - 検閲に対抗するため、DPIを受けることなくファイヤーウォールを回避する機能。
 
 **満たされることが望ましい基準：**
 
 - Kill switch on all major platforms with highly configurable options (enable/disable on certain networks, on boot, etc.)
 - 使いやすいVPNクライアントであること。
-- [IPv6](https://en.wikipedia.org/wiki/IPv6)への対応。 サーバーがIPv6経由の着信接続を許可し、IPv6アドレスでホストされているサービスにアクセスできることが望ましい。
+- [IPv6](https://en.wikipedia.org/wiki/IPv6)への対応。サーバーがIPv6経由の着信接続を許可し、IPv6アドレスでホストされているサービスにアクセスできることが望ましい。
 - [リモートポート転送](https://en.wikipedia.org/wiki/Port_forwarding#Remote_port_forwarding)機能が備わっていること。リモートポート転送機能は、P2P（[Peer-to-Peer](https://en.wikipedia.org/wiki/Peer-to-peer)）ファイル共有ソフトウェアを使用していたり、サーバー（Mumbleなど）をホストしていたりする際に接続を確立することを支援するものです。
 - DPIのような高度なインターネット検閲を回避するための、インターネットトラフィックの正体を偽装する難読化技術。
 
 ### プライバシー
 
-私たちは、推奨するサービスプロバイダーができるだけデータを収集しないことを望んでいます。 登録時に個人情報を収集しないこと、また、匿名の支払い方法を受け入れることが必要です。
+私たちは、推奨するサービスプロバイダーができるだけデータを収集しないことを望んでいます。登録時に個人情報を収集しないこと、また、匿名の支払い方法を受け入れることが必要です。
 
 **最低条件：**
 
@@ -336,7 +336,7 @@ We require our recommended providers to support modern technologies currently av
 
 ### セキュリティー
 
-十分なセキュリティがなければ、VPNは意味がありません。 推奨するためには現行のセキュリティ基準を遵守する必要があります。 理想的には、将来を見越した暗号化方法をデフォルトで使用することが望ましいです。 また、プロバイダーのセキュリティに対して独立した第三者による監査があり、理想的には包括的な監査で、繰り返し（毎年）行われている必要もあります。
+十分なセキュリティがなければ、VPNは意味がありません。推奨するためには現行のセキュリティ基準を遵守する必要があります。理想的には、将来を見越した暗号化方法をデフォルトで使用することが望ましいです。また、プロバイダーのセキュリティに対して独立した第三者による監査があり、理想的には包括的な監査で、繰り返し（毎年）行われている必要もあります。
 
 **最低条件：**
 
@@ -355,7 +355,7 @@ We require our recommended providers to support modern technologies currently av
 
 ### 信頼
 
-あなたは偽の身分証を持つ人物に自分の財政を託すことはないでしょう。インターネットのデータに関しても、同じことが言えるはずです。 推奨されるサービスプロバイダーには、自社の所有権やリーダーシップについて公表することが求められます。 また、特に政府からの要請がどのように処理されるかについて、透明性の高い報告が頻繁に行われることを望んでいます。
+あなたは偽の身分証を持つ人物に自分の財政を託すことはないでしょう。インターネットのデータに関しても、同じことが言えるはずです。推奨されるサービスプロバイダーには、自社の所有権やリーダーシップについて公表することが求められます。また、特に政府からの要請がどのように処理されるかについて、透明性の高い報告が頻繁に行われることを望んでいます。
 
 **最低条件：**
 
@@ -377,11 +377,11 @@ We require our recommended providers to support modern technologies currently av
 
 無責任なマーケティングを行わないこと。
 
-- 匿名性を100％保証するという主張。 誰かが何かを100％だと主張するとき、それは失敗の確実性が全く存在しないということを意味します。 私たちは、人々が以下のような多くの方法で簡単に匿名化を解除できることを知っています。
+- 匿名性を100％保証するという主張。誰かが何かを100％だと主張するとき、それは失敗の確実性が全く存在しないということを意味します。私たちは、人々が以下のような多くの方法で簡単に匿名化を解除できることを知っています。
     - 匿名化ソフトウェア（Tor、VPNなど）を使用せずにアクセスした個人情報（メールアカウント、固有のペンネームなど）を再利用すること。
     - [ブラウザーのフィンガープリンティングを行うこと。](https://en.wikipedia.org/wiki/Device_fingerprint#Browser_fingerprint)
 - 単一回線のVPNが、定期的に変更される3ホップ以上の回線であるTorよりも「匿名性が高い」という主張。
-- 責任ある言葉遣いをしてください。VPNが「切断されている」または「接続されていない」と表現するのは問題ありませんが、誰かが「公開されている」とか「脆弱である」、または「侵害されている」と主張するのは、警戒感を煽る言葉を不必要に、しかも誤った可能性のある仕方で使用しているにすぎません。 例えば、その人は単に他のVPNプロバイダーのサービスを利用していたり、Torを使ったりしているだけかもしれません。
+- 責任ある言葉遣いをしてください。VPNが「切断されている」または「接続されていない」と表現するのは問題ありませんが、誰かが「公開されている」とか「脆弱である」、または「侵害されている」と主張するのは、警戒感を煽る言葉を不必要に、しかも誤った可能性のある仕方で使用しているにすぎません。例えば、その人は単に他のVPNプロバイダーのサービスを利用していたり、Torを使ったりしているだけかもしれません。
 
 **満たされることが望ましい基準：**
 
@@ -392,4 +392,4 @@ We require our recommended providers to support modern technologies currently av
 
 ### 追加機能
 
-厳密な要件ではありませんが、推奨するサービスプロバイダーを決定する際に考慮した要素がいくつかあります。 広告ブロック、令状のカナリア、優れたカスタマーサポート、可能な同時接続数などが含まれます。
+厳密な要件ではありませんが、推奨するサービスプロバイダーを決定する際に考慮した要素がいくつかあります。広告ブロック、令状のカナリア、優れたカスタマーサポート、可能な同時接続数などが含まれます。

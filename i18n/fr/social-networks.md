@@ -179,7 +179,7 @@ En tant qu'utilisateur final d'une instance publique, vous pouvez décocher l'op
 
 - [ ] (Optionnel) Décochez **Enregistrez le nom, la version et l'URL du client afin de reconnaitre les sessions plus facilement dans le gestionnaire de sessions**
 
-Désactiver cette option peut rendre plus difficile de reconnaitre vos sessions actives si vous vous êtes connectés sur plusieurs appareils.
+Unchecking this option may make it more difficult to discern your active sessions if you logged in to your Matrix account on multiple devices.
 
 #### Chiffrement
 

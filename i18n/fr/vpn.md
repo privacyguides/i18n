@@ -78,7 +78,7 @@ Nous pensons également qu'il est préférable pour la sécurité des clés priv
 
 #### :material-check:{ .pg-green } Audit indépendant
 
-Le chercheur indépendant en sécurité numérique Ruben Santamarta a mené un audit des [extensions de navigateur](https://drive.proton.me/urls/RWDD2SHT98#v7ZrwNcafkG8) et [des applications](https://drive.proton.me/urls/RVW8TXG484#uTXX5Fc9GADo) de Proton VPN en septembre 2024 et janvier 2025, respectivement. L'infrastructure de Proton VPN fait l'objet d'[audits annuels](https://protonvpn.com/blog/no-logs-audit) par Securitum depuis 2022.
+Le chercheur indépendant en sécurité numérique Ruben Santamarta a mené un audit des [extensions de navigateur](https://drive.proton.me/urls/RWDD2SHT98#v7ZrwNcafkG8) et [des applications](https://drive.proton.me/urls/RVW8TXG484#uTXX5Fc9GADo) de Proton VPN en septembre 2024 et janvier 2025, respectivement. Proton VPN's infrastructure has undergone [annual audits](https://protonvpn.com/blog/no-logs-audit) by Securitum since 2022.
 
 En janvier 2020., Proton VPN a fait l'objet d'un audit indépendant par SEC Consult. SEC Consult a trouvé quelques vulnérabilités à risque moyen et faible dans les applications Windows, Android et iOS de Proton VPN, qui ont toutes été "correctement corrigées" par Proton VPN avant la publication des rapports. Aucun des problèmes identifiés n'aurait permis à un attaquant d'accéder à distance à votre appareil ou à votre trafic. Vous pouvez consulter leur rapport sur chaque plateforme de Proton VPN dans leur [post de blog](https://web.archive.org/web/20250307041036/https://protonvpn.com/blog/open-source) dédié à l'audit.
 

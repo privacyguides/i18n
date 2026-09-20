@@ -1,7 +1,7 @@
 ---
 title: Linux Übersicht
 icon: simple/linux
-description: Linux ist eine quelloffene, privatsphärenorientierte Desktopbetriebssystem-Alternative, aber nicht alle Distributionen sind gleich.
+description: Linux is an open-source, privacy-focused desktop operating system alternative, but not all distributions are created equal.
 ---
 
 **Linux** ist eine Open-Source-Alternative für Desktop-Betriebssysteme, bei der die Privatsphäre im Vordergrund steht. Mit Telemetrie und privatsphäreneindringende Technologien in den meistbenutzten Betriebssystemen, ist Linux eine klare Wahl für Leute die absolute Kontrolle über ihren Computer haben wollen.

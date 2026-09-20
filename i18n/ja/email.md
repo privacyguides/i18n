@@ -14,13 +14,13 @@ global:
 
 - [:material-server-network: サービスプロバイダー](basics/common-threats.md#privacy-from-service-providers ""){.pg-teal}
 
-実質的に、電子メールはどんなオンラインサービスを使うにも必要ですが、個人間での会話にはお勧めしません。 他人との連絡には電子メールを使うよりも、前方秘匿性のあるインスタントメッセンジャの使用を検討してください。
+実質的に、電子メールはどんなオンラインサービスを使うにも必要ですが、個人間での会話にはお勧めしません。他人との連絡には電子メールを使うよりも、前方秘匿性のあるインスタントメッセンジャの使用を検討してください。
 
 [おすすめのインスタントメッセンジャー](real-time-communication.md ""){.md-button}
 
 ## 推奨するサービスプロバイダー
 
-それ以外にも、持続可能なビジネスモデル、組み込まれたセキュリティーとプライバシー機能に基づき、様々な電子メールプロバイダーを推奨します。 詳細については、[基準の完全なリスト](#criteria)をお読みください。
+それ以外にも、持続可能なビジネスモデル、組み込まれたセキュリティーとプライバシー機能に基づき、様々な電子メールプロバイダーを推奨します。詳細については、[基準の完全なリスト](#criteria)をお読みください。
 
 | プロバイダー                        | OpenPGP / WKD                          | IMAP / SMTP                                        | Encrypted Storage                                | 匿名での支払方法                                              |
 | ----------------------------- | -------------------------------------- | -------------------------------------------------- | ------------------------------------------------ | ----------------------------------------------------- |
@@ -28,7 +28,7 @@ global:
 | [Mailbox Mail](#mailbox-mail) | :material-check:{ .pg-green }          | :material-check:{ .pg-green }                      | :material-information-outline:{ .pg-blue } メールのみ | 現金                                                    |
 | [Tuta](#tuta)                 | :material-alert-outline:{ .pg-orange } | :material-alert-outline:{ .pg-orange }             | :material-check:{ .pg-green }                    | Monero via third party <br>Cash via third party |
 
-推奨するEメールプロバイダーに加え（もしくは代わりに）、プライバシー保護のために[Eメールエイリアスサービス](email-aliasing.md#recommended-providers)を検討してください。 特に、スパムから実際の受信トレイを保護し、企業のマーケティング活動によるアカウントの関連付けを防ぎ、すべての受信メールをPGPで暗号化することができます。
+推奨するEメールプロバイダーに加え（もしくは代わりに）、プライバシー保護のために[Eメールエイリアスサービス](email-aliasing.md#recommended-providers)を検討してください。特に、スパムから実際の受信トレイを保護し、企業のマーケティング活動によるアカウントの関連付けを防ぎ、すべての受信メールをPGPで暗号化することができます。
 
 - [詳細 :material-arrow-right-drop-circle:](email-aliasing.md)
 
@@ -46,7 +46,7 @@ OpenPGPによる暗号化・復号化や[Web Key Directory(WKD)標準](basics/em
 <div class="admonition warning" markdown>
 <p class="admonition-title">注意</p>
 
-OpenPGPのようなE2EE（エンドツーエンド暗号化）を利用しても、件名などを含むメールのヘッダーには暗号化されていないメタデータが残ります！ 詳細は [電子メールのメタデータ](basics/email-security.md#email-metadata-overview)のページにあります。
+OpenPGPのようなE2EE（エンドツーエンド暗号化）を利用しても、件名などを含むメールのヘッダーには暗号化されていないメタデータが残ります！詳細は [電子メールのメタデータ](basics/email-security.md#email-metadata-overview)のページにあります。
 
 OpenPGPは前方秘匿性に対応していないため、送信者か受信者の秘密鍵が盗まれた場合、その秘密鍵で暗号化した過去すべてのメッセージの暗号化が解除できる状態となります。
 
@@ -95,7 +95,7 @@ Proton Mail has internal crash reports that are **not** shared with third partie
 
     From your inbox, select :gear: → **All Settings** → **Account** → **Security and privacy** → **Privacy and data collection**.
 
-    - [ ] Disable **Collect usage dignostics**
+    - [ ] Disable **Collect usage diagnostics**
     - [ ] Disable **Send crash reports**
 
 === "Mobile"
@@ -103,7 +103,7 @@ Proton Mail has internal crash reports that are **not** shared with third partie
     From your inbox, select :material-menu: → :gear: **Settings** → select your username.
 
     - [ ] Disable **Send crash reports**
-    - [ ] Disable **Collect usage dignostics**
+    - [ ] Disable **Collect usage diagnostics**
 
 #### :material-check:{ .pg-green } カスタムドメインとエイリアス
 
@@ -115,7 +115,7 @@ Proton Mailは郵送による**現金**やクレジットカード・デビッ�
 
 #### :material-check:{ .pg-green } アカウントのセキュリティ
 
-Proton MailはFIDO2やU2Fを用いたTOTP[二要素認証](https://proton.me/support/two-factor-authentication-2fa)や[ハードウェアセキュリティキー](https://proton.me/support/2fa-security-key)に対応しています。 ハードウェアセキュリティキーを使用するには、先にTOTP二要素認証の設定が必要です。
+Proton MailはFIDO2やU2Fを用いたTOTP[二要素認証](https://proton.me/support/two-factor-authentication-2fa)や[ハードウェアセキュリティキー](https://proton.me/support/2fa-security-key)に対応しています。ハードウェアセキュリティキーを使用するには、先にTOTP二要素認証の設定が必要です。
 
 #### :material-check:{ .pg-green } データのセキュリティ
 
@@ -125,13 +125,13 @@ Certain information stored in [Proton Contacts](https://proton.me/support/proton
 
 #### :material-check:{ .pg-green } メールの暗号化
 
-Proton Mailはwebメールに [OpenPGP暗号化を組み込んでいます。](https://proton.me/support/how-to-use-pgp) 他のProton Mailアカウントへのメールは自動的に暗号化され、OpenPGPキーによる非Proton Mailアドレスへの暗号化はアカウント設定から簡単に有効化できます。 ProtonはWKDによる外部の鍵の自動探索にも対応しています。 WKDを使った他のプロバイダーに送信されるEメールは自動的にOpenPGPで暗号化され、PGP公開鍵と連絡先を手動で交換する必要はありません。 また、[Proton Mailではないアドレスに送るメッセージをOpenPGPを使わずに暗号化する](https://proton.me/support/password-protected-emails)こともでき、受信者はProton Mailアカウントへのサインアップが必要ありません。
+Proton Mailはwebメールに [OpenPGP暗号化を組み込んでいます。](https://proton.me/support/how-to-use-pgp)他のProton Mailアカウントへのメールは自動的に暗号化され、OpenPGPキーによる非Proton Mailアドレスへの暗号化はアカウント設定から簡単に有効化できます。 ProtonはWKDによる外部の鍵の自動探索にも対応しています。 WKDを使った他のプロバイダーに送信されるEメールは自動的にOpenPGPで暗号化され、PGP公開鍵と連絡先を手動で交換する必要はありません。また、[Proton Mailではないアドレスに送るメッセージをOpenPGPを使わずに暗号化する](https://proton.me/support/password-protected-emails)こともでき、受信者はProton Mailアカウントへのサインアップが必要ありません。
 
-Proton MailではProtonアカウントの公開鍵をWKDからHTTP経由で公開します。 Proton Mailを使っていない人でもProton MailのOpenPGP鍵を簡単に見つけることができ、プロバイダーをまたいだエンドツーエンド暗号化が可能になります。 `@proton.me`のようなProtonが所有するドメインで終わるEメールアドレスのみ対象です。 カスタムドメインを使用する場合、別途[WKDの設定](basics/email-security.md#what-is-the-web-key-directory-standard)が必要になります。
+Proton MailではProtonアカウントの公開鍵をWKDからHTTP経由で公開します。 Proton Mailを使っていない人でもProton MailのOpenPGP鍵を簡単に見つけることができ、プロバイダーをまたいだエンドツーエンド暗号化が可能になります。 `@proton.me`のようなProtonが所有するドメインで終わるEメールアドレスのみ対象です。カスタムドメインを使用する場合、別途[WKDの設定](basics/email-security.md#what-is-the-web-key-directory-standard)が必要になります。
 
 #### :material-information-outline:{ .pg-blue } アカウントの停止
 
-有料アカウントを持っており、しかし14日を過ぎても [請求への支払いが無い](https://proton.me/support/delinquency) 場合、データにアクセスできなくなります。 30日を過ぎるとアカウントは滞納者となり、受信メールは届かなくなります。 この期間も請求は継続されます。 Protonは1年間[アクティブではないフリープランのアカウントを削除します](https://proton.me/support/inactive-accounts)。 削除されたアカウントのメールアドレスは再利用**できません**。
+有料アカウントを持っており、しかし14日を過ぎても [請求への支払いが無い](https://proton.me/support/delinquency) 場合、データにアクセスできなくなります。 30日を過ぎるとアカウントは滞納者となり、受信メールは届かなくなります。この期間も請求は継続されます。 Protonは1年間[アクティブではないフリープランのアカウントを削除します](https://proton.me/support/inactive-accounts)。削除されたアカウントのメールアドレスは再利用**できません**。
 
 #### :material-information-outline:{ .pg-blue } 追加機能
 
@@ -194,7 +194,7 @@ You can access your Mailbox Mail account via IMAP/SMTP using their [.onion servi
 
 All accounts come with limited cloud storage that [can be encrypted](https://kb.mailbox.org/en/private/drive/encrypt-files-on-your-drive/). Mailbox Mail also offers the alias [@secure.mailbox.org](https://kb.mailbox.org/en/business/e-mail-article/ensuring-e-mails-are-sent-securely/), which enforces the TLS encryption on the connection between mail servers, otherwise the message will not be sent at all. Mailbox Mail also supports [Exchange ActiveSync](https://en.wikipedia.org/wiki/Exchange_ActiveSync) in addition to standard access protocols like IMAP and POP3.
 
-Mailbox Mail has a digital legacy feature for all plans. 相続人が申請し、遺言状が提出されることを条件に、利用者のデータを相続人に渡すこともできます。 または、名前と住所で人を指名することもできます。
+Mailbox Mail has a digital legacy feature for all plans. 相続人が申請し、遺言状が提出されることを条件に、利用者のデータを相続人に渡すこともできます。または、名前と住所で人を指名することもできます。
 
 ## その他のプロバイダ
 
@@ -238,7 +238,7 @@ These providers encrypt your emails in a way that only you can read them later, 
 
 </div>
 
-Tutaは[IMAPプロトコル](https://tuta.com/support#imap)やサードパーティの[メールクライアント](email-clients.md)に対応しておらず、Tutaアプリに[外部のメールアカウント](https://github.com/tutao/tutanota/issues/544#issuecomment-670473647)を追加することもできません。 [Eメールのインポート](https://github.com/tutao/tutanota/issues/630)にも現状は対応していませんが、[変更される予定](https://tuta.com/blog/kickoff-import)です。 フォルダごとに[個別もしくは一括選択](https://tuta.com/support#generalMail)してエクスポートすることはできますが、複数のフォルダがある場合は不便な可能性があります。
+Tutaは[IMAPプロトコル](https://tuta.com/support#imap)やサードパーティの[メールクライアント](email-clients.md)に対応しておらず、Tutaアプリに[外部のメールアカウント](https://github.com/tutao/tutanota/issues/544#issuecomment-670473647)を追加することもできません。 [Eメールのインポート](https://github.com/tutao/tutanota/issues/630)にも現状は対応していませんが、[変更される予定](https://tuta.com/blog/kickoff-import)です。フォルダごとに[個別もしくは一括選択](https://tuta.com/support#generalMail)してエクスポートすることはできますが、複数のフォルダがある場合は不便な可能性があります。
 
 #### :material-check:{ .pg-green } カスタムドメインとエイリアス
 
@@ -262,7 +262,7 @@ Tutaは[OpenPGPを使用していません](https://tuta.com/support/#pgp)。 Tu
 
 #### :material-information-outline:{ .pg-blue } アカウントの停止
 
-Tutaは6ヶ月間[アクティブではないフリープランのアカウント](https://tuta.com/support#inactive-accounts)を削除します。 料金を払えば、停止された無料アカウントを再利用できます。
+Tutaは6ヶ月間[アクティブではないフリープランのアカウント](https://tuta.com/support#inactive-accounts)を削除します。料金を払えば、停止された無料アカウントを再利用できます。
 
 #### :material-information-outline:{ .pg-blue } 追加機能
 
@@ -274,13 +274,13 @@ Tutaは[非営利団体](https://tuta.com/blog/secure-email-for-non-profit)向�
 
 ### テクノロジー
 
-安全で最適なサービスのために以下の機能が重要であると考えています。 どのプロバイダーに必要な機能があるか検討してください。
+安全で最適なサービスのために以下の機能が重要であると考えています。どのプロバイダーに必要な機能があるか検討してください。
 
 **最低条件：**
 
 - Must encrypt email account data at rest with asymmetric encryption, where only the user has the private keys needed to decrypt it.
 - [Mbox](https://en.wikipedia.org/wiki/Mbox)もしくは[RFC5322](https://datatracker.ietf.org/doc/rfc5322)に基づいた個別の.EMLファイルとしてエクスポートできること。
-- ユーザーの独自[ドメイン名](https://en.wikipedia.org/wiki/Domain_name)が利用できること。 プロバイダーが悪化したり、プライバシーを重視しない他の会社に買収されたりした場合に備えることができるため、カスタムドメイン名はユーザーにとって非常に重要である。
+- ユーザーの独自[ドメイン名](https://en.wikipedia.org/wiki/Domain_name)が利用できること。プロバイダーが悪化したり、プライバシーを重視しない他の会社に買収されたりした場合に備えることができるため、カスタムドメイン名はユーザーにとって非常に重要である。
 - 自社所有のインフラで運用されていること。第三者のEメールサービスプロバイダーによるサービス提供ではないこと。
 
 **満たされることが望ましい基準：**
@@ -288,11 +288,11 @@ Tutaは[非営利団体](https://tuta.com/blog/secure-email-for-non-profit)向�
 - Should encrypt all account data (contacts, calendars, etc.) at rest with asymmetric encryption, where only the user has the private keys needed to decrypt it.
 - 利便性のため、エンドツーエンド暗号化・PGP暗号化されたウェブメールサービスが提供されること。
 - HTTP経由でのOpenPGP公開鍵の探索をしやすくするため、WKDへ対応していること。 GnuPGでは次のコマンドで鍵を取得できます： `gpg --locate-key example_user@example.com`。
-- 外部ユーザー用の一時的なメールボックスがあること。 暗号化されたメールのコピーを送ることなく、暗号化されたメールを送る際に役立ちます。 通常の場合、一時的なメールボックスのメールには期限があり、自動的に削除されます。 また、受信者はOpenPGPのような暗号化を設定する必要がありません。
+- 外部ユーザー用の一時的なメールボックスがあること。暗号化されたメールのコピーを送ることなく、暗号化されたメールを送る際に役立ちます。通常の場合、一時的なメールボックスのメールには期限があり、自動的に削除されます。また、受信者はOpenPGPのような暗号化を設定する必要がありません。
 - [サブアドレス](https://en.wikipedia.org/wiki/Email_address#Sub-addressing)に対応していること。
-- ユーザーの独自[ドメイン名](https://en.wikipedia.org/wiki/Domain_name)が利用できること。 プロバイダーが悪化したり、プライバシーを重視しない他の会社に買収されたりした場合に備えることができるため、カスタムドメイン名はユーザーにとって非常に重要である。
+- ユーザーの独自[ドメイン名](https://en.wikipedia.org/wiki/Domain_name)が利用できること。プロバイダーが悪化したり、プライバシーを重視しない他の会社に買収されたりした場合に備えることができるため、カスタムドメイン名はユーザーにとって非常に重要である。
 - 独自ドメインを利用した際、キャッチオール機能もしくはエイリアス機能があること。
-- IMAP、SMTPや[JMAP](https://en.wikipedia.org/wiki/JSON_Meta_Application_Protocol)などの標準的なEメールプロトコルを使用していること。 標準的なプロトコルを採用していることで、他のプロバイダーへ変更する際にすべてのメールを簡単にダウンロードすることができます。
+- IMAP、SMTPや[JMAP](https://en.wikipedia.org/wiki/JSON_Meta_Application_Protocol)などの標準的なEメールプロトコルを使用していること。標準的なプロトコルを採用していることで、他のプロバイダーへ変更する際にすべてのメールを簡単にダウンロードすることができます。
 - Eメールプロバイダーのサービスは[onion service](https://en.wikipedia.org/wiki/.onion)経由で利用できること。
 
 ### プライバシー
@@ -312,7 +312,7 @@ Tutaは[非営利団体](https://tuta.com/blog/secure-email-for-non-profit)向�
 
 ### セキュリティー
 
-メールサーバーは機密性の高いデータを大量に扱います。 プロバイダーが顧客を保護するために業界のベストプラクティスを採用することを期待しています。
+メールサーバーは機密性の高いデータを大量に扱います。プロバイダーが顧客を保護するために業界のベストプラクティスを採用することを期待しています。
 
 **最低条件：**
 
@@ -345,7 +345,7 @@ Tutaは[非営利団体](https://tuta.com/blog/secure-email-for-non-profit)向�
 
 ### 信頼
 
-偽の身分証を持つ人に資金管理を託すことはないと思いますが、メールに関しても同じことが言えます。 推奨されるサービスプロバイダーには、自社の所有権やリーダーシップについて公表することが求められます。 また、特に政府からの要請がどのように処理されるかについて、透明性の高い報告が頻繁に行われることを望んでいます。
+偽の身分証を持つ人に資金管理を託すことはないと思いますが、メールに関しても同じことが言えます。推奨されるサービスプロバイダーには、自社の所有権やリーダーシップについて公表することが求められます。また、特に政府からの要請がどのように処理されるかについて、透明性の高い報告が頻繁に行われることを望んでいます。
 
 **最低条件：**
 
@@ -363,8 +363,8 @@ Tutaは[非営利団体](https://tuta.com/blog/secure-email-for-non-profit)向�
 
 - アナリティクスをセルフホスティングしていること（Google AnalyticsやAdobe Analyticsを使用していないこと）。
 - 以下のような無責任なマーケティングは行っていないこと：
-    - 「解読不可能な暗号化」と主張すること。 暗号化は、その暗号化を解読する技術が将来に現れた際には、もはや秘密ではなくなってしまうかもしれないということを念頭に置いて使用されるべきものです。
-    - 匿名性を100％保証すると主張すること。 100%であるということを主張することは、失敗する可能性が全くないことを意味します。 匿名化を無意味にしてしまう様々な方法があります。例えば：
+    - 「解読不可能な暗号化」と主張すること。暗号化は、その暗号化を解読する技術が将来に現れた際には、もはや秘密ではなくなってしまうかもしれないということを念頭に置いて使用されるべきものです。
+    - 匿名性を100％保証すると主張すること。 100%であるということを主張することは、失敗する可能性が全くないことを意味します。匿名化を無意味にしてしまう様々な方法があります。例えば：
         - Torなどの匿名化ソフトウェアを使わずにアクセスした個人情報（メールアカウント、ハンドルネームなど）を再利用する
         - [ブラウザーのフィンガープリンティングを行うこと。](https://en.wikipedia.org/wiki/Device_fingerprint#Browser_fingerprint)
 

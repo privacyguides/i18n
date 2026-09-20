@@ -2,7 +2,7 @@
 meta_title: "Privacy-Respecting Health and Wellness apps for Android and iOS - Privacy Guides"
 title: "Health and Wellness"
 icon: material/heart-pulse
-description: These applications are what we currently recommend for all health- and fitness-related activites on your phone.
+description: These applications are what we currently recommend for all health- and fitness-related activities on your phone.
 cover: health.webp
 ---
 
@@ -10,7 +10,7 @@ cover: health.webp
 
 - [:material-server-network: 服務提供商](basics/common-threats.md#privacy-from-service-providers){ .pg-teal }
 
-使用這些應用程式追蹤您的健康。 與他們替代的主流方案不同，您的個人健康資訊將被保密。
+使用這些應用程式追蹤您的健康。與他們替代的主流方案不同，您的個人健康資訊將被保密。
 
 ## 月經週期追蹤
 

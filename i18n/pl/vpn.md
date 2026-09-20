@@ -77,7 +77,7 @@ Uważamy też, że dla bezpieczeństwa kluczy prywatnych dostawcy VPN lepiej jes
 
 #### :material-check:{ .pg-green } Niezależnie audytowany
 
-Niezależny badacz bezpieczeństwa Ruben Santamarta przeprowadził audyty dla [rozszerzeń przeglądarki](https://drive.proton.me/urls/RWDD2SHT98#v7ZrwNcafkG8) we wrześniu 2024 i [aplikacji](https://drive.proton.me/urls/RVW8TXG484#uTXX5Fc9GADo) w styczniu 2025. Infrastruktura Proton VPN przechodzi [coroczny audyt](https://protonvpn.com/blog/no-logs-audit) przeprowadzany przez Securitum od 2022.
+Niezależny badacz bezpieczeństwa Ruben Santamarta przeprowadził audyty dla [rozszerzeń przeglądarki](https://drive.proton.me/urls/RWDD2SHT98#v7ZrwNcafkG8) we wrześniu 2024 i [aplikacji](https://drive.proton.me/urls/RVW8TXG484#uTXX5Fc9GADo) w styczniu 2025. Proton VPN's infrastructure has undergone [annual audits](https://protonvpn.com/blog/no-logs-audit) by Securitum since 2022.
 
 Wcześniej, Proton VPN przeszedł niezależny audyt przeprowadzony przez SEC Consult w Styczniu 2020. Audyt wykazał kilka luk o średnim i niskim ryzyku w aplikacjach Proton VPN dla systemów Windows, Android i iOS, które zostały „należycie naprawione” przez Proton VPN przed publikacją raportów. Żaden ze znalezionych problemów nie mógł umożliwić atakującemu zdalnego dostępu do Twojego urządzenia ani ruchu sieciowego. Poszczególne raporty dla każdej platformy można znaleźć w ich dedykowanym [wpisie na blogu](https://web.archive.org/web/20250307041036/https://protonvpn.com/blog/open-source) na ten audytu.
 

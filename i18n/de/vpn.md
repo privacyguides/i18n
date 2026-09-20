@@ -78,7 +78,7 @@ Wir sind außerdem der Meinung, dass es für die Sicherheit der privaten Schlüs
 
 #### :material-check:{ .pg-green } Unabhängig geprüft
 
-Der unabhängige Sicherheitsforscher Ruben Santamarta führte Prüfungen für die Proton VPN [Browser Erweiterungen](https://drive.proton.me/urls/RWDD2SHT98#v7ZrwNcafkG8) und [Apps](https://drive.proton.me/urls/RVW8TXG484#uTXX5Fc9GADo) im September 2024 bzw. Januar 2025 durch. Securitum führt seit 2022 [jährliche Prüfungen](https://protonvpn.com/blog/no-logs-audit) der Proton VPN Infrastruktur durch.
+Der unabhängige Sicherheitsforscher Ruben Santamarta führte Prüfungen für die Proton VPN [Browser Erweiterungen](https://drive.proton.me/urls/RWDD2SHT98#v7ZrwNcafkG8) und [Apps](https://drive.proton.me/urls/RVW8TXG484#uTXX5Fc9GADo) im September 2024 bzw. Januar 2025 durch. Proton VPN's infrastructure has undergone [annual audits](https://protonvpn.com/blog/no-logs-audit) by Securitum since 2022.
 
 Zuvor wurde Proton VPN im Januar 2020 einer unabhängigen Prüfung durch SEC Consult unterzogen. SEC Consult fand einige Sicherheitslücken mit mittlerem und niedrigem Risiko in den Windows-, Android- und iOS-Anwendungen von Proton VPN, die alle von Proton VPN vor der Veröffentlichung der Berichte "ordnungsgemäß behoben" wurden. Keines der festgestellten Probleme hätte angreifenden Fernzugriff auf dein Gerät oder deinen Datenverkehr ermöglicht. You can view individual reports for each platform in their dedicated [blog post](https://web.archive.org/web/20250307041036/https://protonvpn.com/blog/open-source) on the audit.
 

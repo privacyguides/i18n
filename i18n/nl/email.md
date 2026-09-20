@@ -95,7 +95,7 @@ Proton Mail heeft interne crashrapporten die **niet** met derden worden gedeeld 
 
     Selecteer in je inbox :gear: → **Alle instellingen** → **Account** → **Veiligheid en privacy** → **Privacy en gegevensverzameling**.
 
-    - [ ] Deselecteer **Verzamel gebruikscijfers**
+    - [ ] Disable **Collect usage diagnostics**
     - [ ] Deselecteer **Crashrapporten verzenden**
 
 === "Mobiel"
@@ -103,7 +103,7 @@ Proton Mail heeft interne crashrapporten die **niet** met derden worden gedeeld 
     Selecteer in je inbox :material-menu: → :gear: **Instellingen** → selecteer je gebruikersnaam.
 
     - [ ] Deselecteer **Crashrapporten verzenden**
-    - [ ] Deselecteer **Verzamel gebruikscijfers**
+    - [ ] Disable **Collect usage diagnostics**
 
 #### :material-check:{ .pg-green } Aangepaste domeinen en aliassen
 

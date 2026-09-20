@@ -95,7 +95,7 @@ Proton Mail hat interne Ausfallberichte, die **nicht** mit Dritten geteilt werde
 
     Von deinem Postfach, klicke auf :gear: → **Alle Einstellungen** → **Konto** → **Sicherheit und Datenschutz** →**Privatsphäre und Datenerfassung**.
 
-    - [ ] Deaktiviere **Nutzungsdiagnosedaten sammeln**
+    - [ ] Disable **Collect usage diagnostics**
     - [ ] Deaktiviere **Absturzberichte senden**
 
 === "Handy"
@@ -103,7 +103,7 @@ Proton Mail hat interne Ausfallberichte, die **nicht** mit Dritten geteilt werde
     Von deinem Postfach, Wähle :material-menu: →:gear: **Einstellungen** → wähle dein Benutzername.
 
     - [ ] Deaktiviere **Absturzberichte senden**
-    - [ ] Deaktiviere **Nutzungsdiagnosedaten sammeln**
+    - [ ] Disable **Collect usage diagnostics**
 
 #### :material-check:{ .pg-green } Eigene Domains und Aliase
 

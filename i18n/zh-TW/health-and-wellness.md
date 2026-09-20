@@ -2,7 +2,7 @@
 meta_title: "尊重隱私的 Android 與 iOS 健康應用程式 - Privacy Guides"
 title: "健康與保健"
 icon: material/heart-pulse
-description: 我們目前建議您在手機上使用這些應用程式來處理所有與健康及健身相關的事務。
+description: These applications are what we currently recommend for all health- and fitness-related activities on your phone.
 cover: health.webp
 ---
 
@@ -10,11 +10,11 @@ cover: health.webp
 
 - [:material-server-network: 服務提供商](basics/common-threats.md#privacy-from-service-providers){ .pg-teal }
 
-使用這些應用程式追蹤您的健康。 與他們替代的主流方案不同，您的個人健康資訊將被保密。
+使用這些應用程式追蹤您的健康。與他們替代的主流方案不同，您的個人健康資訊將被保密。
 
 ## 月經週期追蹤
 
-廣受歡迎的經期追蹤器，如： [Flo](https://techcrunch.com/2021/01/13/flo-gets-ftc-slap-for-sharing-user-data-when-it-promised-privacy)，因收集和分享您的使用者資料而臭名昭著。 根據您所屬的司法管轄區，此舉可能導致影響您生育自主權的[法律後果](https://forbes.com/sites/abigaildubiniecki/2024/11/14/post-roe-your-period-app-data-could-be-used-against-you)。
+廣受歡迎的經期追蹤器，如： [Flo](https://techcrunch.com/2021/01/13/flo-gets-ftc-slap-for-sharing-user-data-when-it-promised-privacy)，因收集和分享您的使用者資料而臭名昭著。根據您所屬的司法管轄區，此舉可能導致影響您生育自主權的[法律後果](https://forbes.com/sites/abigaildubiniecki/2024/11/14/post-roe-your-period-app-data-could-be-used-against-you)。
 
 ### Drip
 
@@ -22,7 +22,7 @@ cover: health.webp
 
 ![Drip 標誌](assets/img/health-and-wellness/drip.png){ align=right }
 
-**Drip** 是一款性別包容且開源的月經週期追蹤器，適用於所有行動平台。 其依靠「基礎體溫法」來預測排卵。 所有使用者資料都本機儲存在裝置上，並可使用密碼保護。
+**Drip** 是一款性別包容且開源的月經週期追蹤器，適用於所有行動平台。其依靠「基礎體溫法」來預測排卵。所有使用者資料都本機儲存在裝置上，並可使用密碼保護。
 
 [:octicons-home-16: 首頁](https://bloodyhealth.gitlab.io){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://bloodyhealth.gitlab.io/privacy-policy.html){ .card-link title="隱私權政策" }
@@ -45,7 +45,7 @@ cover: health.webp
 
 ![Euki 標誌](assets/img/health-and-wellness/euki.svg){ align=right }
 
-**Euki** 是一款由非營利組織支持的月經週期追蹤器，同時兼具藥物追蹤功能與性健康知識庫。 其可讓您排程自動刪除應用程式中的個人資料。 所有使用者資料都本機儲存在裝置上，並可使用密碼保護。
+**Euki** 是一款由非營利組織支持的月經週期追蹤器，同時兼具藥物追蹤功能與性健康知識庫。其可讓您排程自動刪除應用程式中的個人資料。所有使用者資料都本機儲存在裝置上，並可使用密碼保護。
 
 [:octicons-home-16: 首頁](https://eukiapp.org){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://eukiapp.org/privacy-policy){ .card-link title="隱私權政策" }
@@ -90,7 +90,7 @@ Apple Health is one of the default apps installed on iOS devices. It includes ma
 
 ![Apple 健身標誌](assets/img/health-and-wellness/apple-fitness.webp){ align=right }
 
-**Apple 健身**是 iOS 的預設健身應用程式。 Apple 健身在跨多裝置同步時一律使用端到端加密。 此外，幾乎所有測得的資料都會在您的裝置上處理。
+**Apple 健身**是 iOS 的預設健身應用程式。 Apple 健身在跨多裝置同步時一律使用端到端加密。此外，幾乎所有測得的資料都會在您的裝置上處理。
 
 [:octicons-eye-16:](https://apple.com/legal/privacy/consumer-health-personal-data/en-ww){ .card-link title="隱私權政策" }
 
@@ -108,7 +108,7 @@ Apple Health is one of the default apps installed on iOS devices. It includes ma
 
 ![Gadgetbridge 標誌](assets/img/health-and-wellness/gadgetbridge.svg#only-light){ align=right }![Gadgetbridge 標誌](assets/img/health-and-wellness/gadgetbridge-dark.svg#only-dark){ align=right }
 
-**Gadgetbridge** 是一款開放原始碼的 Android 應用程式，讓您無需依賴廠商提供的應用程式，即可配對與管理藍牙裝置。 當與相容的智慧手錶配對時，它能模擬這些手錶的健康與保健功能，且無第三方資料蒐集。
+**Gadgetbridge** 是一款開放原始碼的 Android 應用程式，讓您無需依賴廠商提供的應用程式，即可配對與管理藍牙裝置。當與相容的智慧手錶配對時，它能模擬這些手錶的健康與保健功能，且無第三方資料蒐集。
 
 [:octicons-home-16: 首頁](https://gadgetbridge.org){ .md-button .md-button--primary }
 [:octicons-info-16:](https://gadgetbridge.org/basics){ .card-link title="文件" }
@@ -125,7 +125,7 @@ Apple Health is one of the default apps installed on iOS devices. It includes ma
 
 Gadgetbridge 應用程式功能包含但不限於：計步、睡眠追蹤、心率監測等。
 
-購買裝置前，請務必確認智慧型手錶[相容性清單](https://gadgetbridge.org/gadgets)。 部份裝置在安裝 Gadgetbridge 前，需要先下載廠商的應用程式，並將智慧型手錶連線至其伺服器。
+購買裝置前，請務必確認智慧型手錶[相容性清單](https://gadgetbridge.org/gadgets)。部份裝置在安裝 Gadgetbridge 前，需要先下載廠商的應用程式，並將智慧型手錶連線至其伺服器。
 
 ## 健康記錄
 
@@ -156,7 +156,7 @@ Gadgetbridge 應用程式功能包含但不限於：計步、睡眠追蹤、心�
 
 ![CommonHealth 標誌](assets/img/health-and-wellness/commonhealth.png){ align=right }
 
-**CommonHealth** 是一款尊重隱私的 Android 應用程式，讓使用者能夠存取個人電子健康紀錄，並安全地與醫療提供者分享。 所有的健康資料都儲存在您的裝置上，並可使用密碼或生物辨識驗證加以保護。
+**CommonHealth** 是一款尊重隱私的 Android 應用程式，讓使用者能夠存取個人電子健康紀錄，並安全地與醫療提供者分享。所有的健康資料都儲存在您的裝置上，並可使用密碼或生物辨識驗證加以保護。
 
 [:octicons-home-16: 首頁](https://commonhealth.org){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://commonhealth.org/privacy){ .card-link title="隱私權政策" }
@@ -169,11 +169,11 @@ Gadgetbridge 應用程式功能包含但不限於：計步、睡眠追蹤、心�
 
 </div>
 
-CommonHealth 僅於美國提供服務。 雖然應用程式本身是封閉原始碼，但[開發者 SDK 是開放原始碼的](https://github.com/the-commons-project)。
+CommonHealth 僅於美國提供服務。雖然應用程式本身是封閉原始碼，但[開發者 SDK 是開放原始碼的](https://github.com/the-commons-project)。
 
 ## 標準
 
-\*\*請注意，我們與推薦的任何專案均無隸屬關係。\*\*除了[我們的通用標準](about/criteria.md)以外，我們還制定了一套明確的要求，讓我們能夠提供客觀的推薦。 我們建議您在選擇使用項目之前先熟悉此列表，並進行自己的研究，以確保它是您的正確選擇。
+\*\*請注意，我們與推薦的任何專案均無隸屬關係。\*\*除了[我們的通用標準](about/criteria.md)以外，我們還制定了一套明確的要求，讓我們能夠提供客觀的推薦。我們建議您在選擇使用項目之前先熟悉此列表，並進行自己的研究，以確保它是您的正確選擇。
 
 ### 最低合格要求
 

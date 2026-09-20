@@ -95,7 +95,7 @@ Proton Mail gromadzi wewnętrzne raporty o awariach, które **nie są** udostęp
 
     Z poziomu skrzynki odbiorczej wybierz :gear: → **Wszystkie ustawienia** → **Konto** → **Bezpieczeństwo i prywatność** → **Prywatność i gromadzenie danych**.
 
-    - [ ] Wyłącz **Zbieraj dane diagnostyczne**
+    - [ ] Disable **Collect usage diagnostics**
     - [ ] Wyłącz **Wysyłaj raporty o awariach**
 
 === "W aplikacji mobilnej"
@@ -103,7 +103,7 @@ Proton Mail gromadzi wewnętrzne raporty o awariach, które **nie są** udostęp
     Z poziomu skrzynki odbiorczej wybierz :material-menu: → :gear: **Ustawienia** → wybierz swoją nazwę użytkownika.
 
     - [ ] Wyłącz **Wysyłaj raporty o awariach**
-    - [ ] Wyłącz **Zbieraj dane diagnostyczne**
+    - [ ] Disable **Collect usage diagnostics**
 
 #### :material-check:{ .pg-green } Własne domeny i aliasy
 

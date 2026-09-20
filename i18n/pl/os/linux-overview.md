@@ -1,7 +1,7 @@
 ---
 title: Przegląd systemu Linux
 icon: simple/linux
-description: Linux jest alternatywnym systemem operacyjnym open source, ale nie wszystkie dystrybucje są sobie równe.
+description: Linux is an open-source, privacy-focused desktop operating system alternative, but not all distributions are created equal.
 ---
 
 **Linux** jest alternatywnym systemem operacyjnym open source. W obliczu wszechobecnej telemetrii i innych technologii naruszających prywatność w mainstreamowych systemach operacyjnych stacjonarny Linux pozostaje oczywistym wyborem dla osób poszukujących całkowitej kontroli nad swoimi komputerami od podszewki.

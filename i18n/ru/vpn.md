@@ -78,7 +78,7 @@ global:
 
 #### :material-check:{ .pg-green } Независимый аудит
 
-Независимый аналитик в области информационной безопасности Рубен Сантамарта провёл аудиты для [браузерных расширений](https://drive.proton.me/urls/RWDD2SHT98#v7ZrwNcafkG8) и [клиентов](https://drive.proton.me/urls/RVW8TXG484#uTXX5Fc9GADo) Proton VPN в сентябре 2024 и январе 2025 года соответственно. Инфраструктура Proton VPN проходит [ежегодный аудит](https://protonvpn.com/blog/no-logs-audit) Securitum начиная с 2022 года.
+Независимый аналитик в области информационной безопасности Рубен Сантамарта провёл аудиты для [браузерных расширений](https://drive.proton.me/urls/RWDD2SHT98#v7ZrwNcafkG8) и [клиентов](https://drive.proton.me/urls/RVW8TXG484#uTXX5Fc9GADo) Proton VPN в сентябре 2024 и январе 2025 года соответственно. Proton VPN's infrastructure has undergone [annual audits](https://protonvpn.com/blog/no-logs-audit) by Securitum since 2022.
 
 Ранее, в январе 2020 года, Proton VPN прошел независимый аудит SEC Consult. SEC Consult обнаружила несколько уязвимостей среднего и низкого риска в приложениях Proton VPN для Windows, Android и iOS, все из которых Proton VPN "должным образом устранил" ещё до публикации отчетов. Ни одна из выявленных проблем не предоставила бы злоумышленнику удаленный доступ к вашему устройству или трафику. Отдельные отчеты по каждой платформе вы можете посмотреть в их специальном [блоге](https://web.archive.org/web/20250307041036/https://protonvpn.com/blog/open-source), посвященном аудиту.
 

@@ -95,7 +95,7 @@ Proton Mail memiliki laporan kerusakan internal yang **tidak** dibagikan dengan 
 
     Dari inbox Anda, pilih :gear: → **All Settings** → **Account** → **Security and privacy** → **Privacy and data collection**.
 
-    - [ ] Nonaktifkan **Collect usage diagnostics**
+    - [ ] Disable **Collect usage diagnostics**
     - [ ] Nonaktifkan **Send crash reports**
 
 === "Mobile"
@@ -103,7 +103,7 @@ Proton Mail memiliki laporan kerusakan internal yang **tidak** dibagikan dengan 
     Dari inbox Anda, pilih :material-menu: → :gear: **Settings** → pilih nama pengguna Anda.
 
     - [ ] Nonaktifkan **Send crash reports**
-    - [ ] Nonaktifkan **Collect usage diagnostics**
+    - [ ] Disable **Collect usage diagnostics**
 
 #### :material-check:{ .pg-green } Domain dan Alias Khusus
 

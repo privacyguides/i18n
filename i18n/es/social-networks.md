@@ -179,7 +179,7 @@ Como usuario final en un servidor doméstico público, puedes considerar desmarc
 
 - [ ] (Opcional) Desmarca **Registrar el nombre del cliente, la versión y URL para reconocer de forma más fácil las sesiones en el gestor**
 
-Desmarcar esta opción puede hacer más difícil discernir tus sesiones activas si has iniciado sesión en tu cuenta de Matrix en varios dispositivos.
+Unchecking this option may make it more difficult to discern your active sessions if you logged in to your Matrix account on multiple devices.
 
 #### Cifrado
 

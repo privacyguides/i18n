@@ -1,7 +1,7 @@
 ---
 title: Linux'a Genel Bakış
 icon: simple/linux
-description: Linux açık kaynaklı, gizlilik odaklı bir masaüstü işletim sistemi alternatifidir, ancak tüm dağıtımlar eşit yaratılmamıştır.
+description: Linux is an open-source, privacy-focused desktop operating system alternative, but not all distributions are created equal.
 ---
 
 **Linux** açık kaynaklı, gizlilik odaklı bir masaüstü işletim sistemi alternatifidir. Yaygın telemetri ve ana akım işletim sistemlerindeki diğer gizliliği ihlal eden teknolojiler karşısında, masaüstü Linux, bilgisayarları üzerinde sıfırdan tam kontrol isteyen insanlar için açık bir seçim olmaya devam etti.

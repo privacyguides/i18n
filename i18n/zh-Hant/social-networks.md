@@ -12,11 +12,11 @@ cover: social-networks.webp
 
 These privacy-respecting **social networks** allow you to participate in online communities without giving up your personal information like your full name, phone number, and other data commonly requested by tech companies.
 
-社交媒體平台間日益嚴重的問題是兩種不同形式的審查。 首先，他們經常默許非法的審查要求，這些要求可能來自惡意的政府，也可能來自他們自己的內部政策。 Second, they often require accounts to access walled-off content that would otherwise be published freely on the open internet; this effectively censors the browsing activities of privacy-conscious users who are unable to pay the privacy cost of opening an account on these networks.
+社交媒體平台間日益嚴重的問題是兩種不同形式的審查。首先，他們經常默許非法的審查要求，這些要求可能來自惡意的政府，也可能來自他們自己的內部政策。 Second, they often require accounts to access walled-off content that would otherwise be published freely on the open internet; this effectively censors the browsing activities of privacy-conscious users who are unable to pay the privacy cost of opening an account on these networks.
 
-我們推薦的社交網路透過開放且分散的社交網路協定來解決審查問題。 檢視公開內容也不需要帳號。
+我們推薦的社交網路透過開放且分散的社交網路協定來解決審查問題。檢視公開內容也不需要帳號。
 
-您應該注意，所有社交網路都 **不** 適合私人或敏感的通訊。 若要直接與他人聊天，您應該使用我們推薦—具有強大端對端加密功能的 [即時通訊工具](real-time-communication.md) ，並只使用社交媒體上的直接訊息，以便與聯絡人建立更私密、更安全的聊天平台。
+您應該注意，所有社交網路都 **不** 適合私人或敏感的通訊。若要直接與他人聊天，您應該使用我們推薦—具有強大端對端加密功能的 [即時通訊工具](real-time-communication.md) ，並只使用社交媒體上的直接訊息，以便與聯絡人建立更私密、更安全的聊天平台。
 
 ## Decentralization
 
@@ -53,19 +53,19 @@ If you are greatly concerned about an existing server censoring your content, th
 
 </div>
 
-有許多軟體平台使用 ActivityPub 作為其後端社交網路通訊協定，這意味著即使它們執行不同的軟體，也能與伺服器進行通訊。 例如，PeerTube 是使用 ActivityPub 的影片發佈軟體，這表示您可以使用另一個 PeerTube 帳戶追蹤 PeerTube 上的頻道， _或_ 使用 Mastodon 帳戶，因為 Mastodon 也使用 ActivityPub。
+有許多軟體平台使用 ActivityPub 作為其後端社交網路通訊協定，這意味著即使它們執行不同的軟體，也能與伺服器進行通訊。例如，PeerTube 是使用 ActivityPub 的影片發佈軟體，這表示您可以使用另一個 PeerTube 帳戶追蹤 PeerTube 上的頻道， _或_ 使用 Mastodon 帳戶，因為 Mastodon 也使用 ActivityPub。
 
 基於以下這些原因，我們選擇推薦 Mastodon 而非其他 ActivityPub 軟體作為您的主要社交媒體平台：
 
-1. Mastodon 具有穩固的安全更新歷史。 In the handful of circumstances where major security vulnerabilities have been found, they coordinate patch releases quickly and cleanly. 過去，他們也會將這些安全修補程式回傳到較舊的功能分支。 這讓資歷較淺的伺服器管理員更容易保持實例安全，因為他們可能不習慣立即升級到最新版本。 Mastodon 也在網頁介面中內建了更新通知系統，讓伺服器管理員更有可能知道可用於其實例的重要安全修補程式。
+1. Mastodon 具有穩固的安全更新歷史。 In the handful of circumstances where major security vulnerabilities have been found, they coordinate patch releases quickly and cleanly. 過去，他們也會將這些安全修補程式回傳到較舊的功能分支。這讓資歷較淺的伺服器管理員更容易保持實例安全，因為他們可能不習慣立即升級到最新版本。 Mastodon 也在網頁介面中內建了更新通知系統，讓伺服器管理員更有可能知道可用於其實例的重要安全修補程式。
 
 2. 大多數內容類型可用於 Mastodon。 While it is primarily a microblogging platform, Mastodon easily handles longer posts, image posts, video posts, and most other posts you might encounter when following ActivityPub users who aren't on Mastodon. 這讓您的 Mastodon 帳戶成為追蹤任何人的理想「中央樞紐」，不論他們選擇使用何種平台。 In contrast, if you were only using a PeerTube account, you would _only_ be able to follow other video channels, for example.
 
-3. Mastodon 有相當全面的隱私權控制。 它有許多內建功能，可讓您限制是否共享資料和資料共用的方式，以下會介紹其中一些功能。 他們在開發新功能時也會考慮到隱私權。 For example, while other ActivityPub software quickly implemented "quote posts" by merely handling links to other posts with a slightly different embed modal, Mastodon is [developing](https://blog.joinmastodon.org/2025/02/bringing-quote-posts-to-mastodon) a quote post feature which will give you more fine-grained control when your post is quoted.
+3. Mastodon 有相當全面的隱私權控制。它有許多內建功能，可讓您限制是否共享資料和資料共用的方式，以下會介紹其中一些功能。他們在開發新功能時也會考慮到隱私權。 For example, while other ActivityPub software quickly implemented "quote posts" by merely handling links to other posts with a slightly different embed modal, Mastodon is [developing](https://blog.joinmastodon.org/2025/02/bringing-quote-posts-to-mastodon) a quote post feature which will give you more fine-grained control when your post is quoted.
 
 ### 選擇實例
 
-為了從 Mastodon 獲得最大的效益，選擇一個與您想要張貼或閱讀的內容類型相匹配的伺服器或「實例」是至關重要的。 我們目前不推薦任何特定的實例，但您可以在我們的社群中找到建議。 我們建議避免使用 _mastodon.social_ 和 _mastodon.online_ ，因為它們是由開發 Mastodon 軟體本身的同一家公司所經營。 從去中心化的角度長遠來看，不要使用軟體開發者所控制的伺服器是比較好的做法，這樣就沒有任何一方可以對整個網路施加過多的控制。
+為了從 Mastodon 獲得最大的效益，選擇一個與您想要張貼或閱讀的內容類型相匹配的伺服器或「實例」是至關重要的。我們目前不推薦任何特定的實例，但您可以在我們的社群中找到建議。我們建議避免使用 _mastodon.social_ 和 _mastodon.online_ ，因為它們是由開發 Mastodon 軟體本身的同一家公司所經營。從去中心化的角度長遠來看，不要使用軟體開發者所控制的伺服器是比較好的做法，這樣就沒有任何一方可以對整個網路施加過多的控制。
 
 ### Recommended Privacy Settings
 
@@ -179,7 +179,7 @@ As an end user on a public homeserver, you can consider unchecking the **Enable 
 
 - [ ] (Optional) Uncheck **Record the client name, version, and url to recognize sessions for easily in session manager**
 
-Unchecking this option may make it more diffcult to discern your active sessions if you logged in to your Matrix account on multiple devices.
+Unchecking this option may make it more difficult to discern your active sessions if you logged in to your Matrix account on multiple devices.
 
 #### 加密
 

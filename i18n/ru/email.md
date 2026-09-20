@@ -95,7 +95,7 @@ Proton Mail has internal crash reports that are **not** shared with third partie
 
     From your inbox, select :gear: → **All Settings** → **Account** → **Security and privacy** → **Privacy and data collection**.
 
-    - [ ] Disable **Collect usage dignostics**
+    - [ ] Disable **Collect usage diagnostics**
     - [ ] Отключить **отправку отчетов о сбоях**
 
 === "Mobile"
@@ -103,7 +103,7 @@ Proton Mail has internal crash reports that are **not** shared with third partie
     From your inbox, select :material-menu: → :gear: **Settings** → select your username.
 
     - [ ] Отключить **отправку отчетов о сбоях**
-    - [ ] Disable **Collect usage dignostics**
+    - [ ] Disable **Collect usage diagnostics**
 
 #### :material-check:{ .pg-green } Пользовательские домены и псевдонимы
 

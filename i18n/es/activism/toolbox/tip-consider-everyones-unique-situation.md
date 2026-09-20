@@ -1,6 +1,6 @@
 ---
 title: Considera la Situación Única de Todas
-description: Para brindar consejos prácticos sobre privacidad, es esencial considerar la situación de cada uno. Aprenda más sobre cómo puede evaluar el modelo de amenaza único de cada persona.
+description: To give actionable privacy advice, it's essential to consider everyone's situation. Aprenda más sobre cómo puede evaluar el modelo de amenaza único de cada persona.
 icon: fontawesome/solid/users-between-lines
 cover: activism/banner-toolbox-tip-everyone.webp
 ---

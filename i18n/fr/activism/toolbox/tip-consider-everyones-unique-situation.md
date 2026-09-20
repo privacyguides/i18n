@@ -1,6 +1,6 @@
 ---
 title: Gardez à l'esprit la situation unique de chaque individu
-description: Pour donner des conseils concrets à propos de vie privée, il est essentiel de garder à l'esprit la situation de chacun. Apprenez en plus sur comment vous pouvez évaluer le modèle de menace propre à chaque personne.
+description: To give actionable privacy advice, it's essential to consider everyone's situation. Apprenez en plus sur comment vous pouvez évaluer le modèle de menace propre à chaque personne.
 icon: fontawesome/solid/users-between-lines
 cover: activism/banner-toolbox-tip-everyone.webp
 ---
