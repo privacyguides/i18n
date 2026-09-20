@@ -70,15 +70,15 @@ If you still believe that pluggable transports (bridges) provide additional prot
 
 تحديد ما إذا كان من الأفضل أن تتصل أولا بخدمة VPN قبل استخدام Tor يعتمد على تقديرك للموقف، ومعرفتك بسياسات حكومتك ومزوّد خدمة الإنترنت (ISP) تجاه نوع الاتصالات التي تستخدمها. ومع ذلك، نؤكد مرة أخرى أنه في معظم الحالات، من الأفضل أن يبدو اتصالك وكأنك تستخدم شبكة VPN تجارية بدلًا من الاتصال مباشرةً بشبكة Tor. إذا كانت خدمات الـ VPN محجوبة في منطقتك، فيمكنك استخدام وسائل النقل القابلة للتمويه (Pluggable Transports) في Tor، مثل الجسور (Bridges) من نوع Snowflake أو meek، كبديل. لكن استخدام هذه الجسور قد يلفت الانتباه أكثر من اتصالات WireGuard أو OpenVPN العادية.
 
-## What Tor is Not
+## ما ليس عليه Tor
 
-The Tor network is not the perfect privacy protection tool in all cases and has a number of drawbacks which should be carefully considered. These things should not discourage you from using Tor if it is appropriate for your needs, but they are still things to think about when deciding which solution is most appropriate for you.
+شبكة Tor ليست أداة مثالية لحماية الخصوصية في جميع الحالات، ولديها عدد من العيوب التي ينبغي أخذها بعين الاعتبار بعناية. لا ينبغي أن تمنعك هذه الأمور من استخدام Tor إذا كان مناسبا لاحتياجاتك، لكنها تظل نقاطا مهمة يجب التفكير فيها عند تحديد الحل الأنسب لك.
 
-### Tor is not a free VPN
+### شبكة Tor ليس شبكة VPN مجانية
 
-The release of the *Orbot* mobile app has lead many people to describe Tor as a "free VPN" for all of your device traffic. However, treating Tor like this poses some dangers compared to a typical VPN.
+أدى إصدار تطبيق *Orbot* للهواتف المحمولة إلى وصف كثير من الناس لشبكة Tor بأنها «VPN مجاني» لكل حركة المرور على جهازك. لكن استخدام Tor بهذه الطريقة ينطوي على بعض المخاطر مقارنةً بخدمة الـ VPN التقليدية.
 
-Unlike Tor exit nodes, VPN providers are usually not *actively* [malicious](#caveats). Because Tor exit nodes can be created by anybody, they are hotspots for network logging and modification. In 2020, many Tor exit nodes were documented to be downgrading HTTPS traffic to HTTP in order to [hijack cryptocurrency transactions](https://therecord.media/thousands-of-tor-exit-nodes-attacked-cryptocurrency-users-over-the-past-year). Other exit node attacks such as replacing downloads via unencrypted channels with malware have also been observed. HTTPS does mitigate these threats to an extent.
+على عكس عُقد الخروج (Exit Nodes) في Tor، فإن مزودي خدمات الـ VPN لا يكونون *عادةً* جهات [خبيثة](#caveats) تتعمد الإضرار بالمستخدمين. لأن أي شخص يمكنه إنشاء عُقد خروج (Exit Nodes) في Tor، فقد تُستخدم هذه العُقد لمراقبة حركة الإنترنت أو التلاعب بها. In 2020, many Tor exit nodes were documented to be downgrading HTTPS traffic to HTTP in order to [hijack cryptocurrency transactions](https://therecord.media/thousands-of-tor-exit-nodes-attacked-cryptocurrency-users-over-the-past-year). Other exit node attacks such as replacing downloads via unencrypted channels with malware have also been observed. HTTPS does mitigate these threats to an extent.
 
 As we've alluded to already, Tor is also easily identifiable on the network. Unlike an actual VPN provider, using Tor will make you stick out as a person likely attempting to evade authorities. In a perfect world, Tor would be seen by network administrators and authorities as a tool with many uses (like how VPNs are viewed), but in reality the perception of Tor is still far less legitimate than the perception of commercial VPNs. As such, using a real VPN provides you with plausible deniability, e.g. "I was just using it to watch Netflix," etc.
 
