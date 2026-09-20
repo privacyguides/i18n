@@ -13,7 +13,7 @@ description: The real story behind the team transition from privacytools.io to p
 
 PrivacyTools由“BurungHantu”于2015年创立，他希望在斯诺登揭露事件后创造一个隐私信息资源--实用的工具。该网站发展成为一个蓬勃发展的开源项目，有 [个众多贡献者](https://github.com/privacytools/privacytools.io/graphs/contributors)，其中一些最终承担了各种组织责任，例如运营Matrix和Mastodon等在线服务，管理和审查GitHub网站的变化，为该项目寻找赞助商，撰写博客文章，以及运营Twitter等社交媒体外联平台等。
 
-从2019年开始， BurungHantu越来越远离网站和社区的积极发展，并开始延迟与我们运营的服务器相关的付款。 To avoid having our system administrator pay server costs out of their own pocket, we changed the donation methods listed on the site from BurungHantu's personal PayPal and crypto accounts to a new OpenCollective page on [October 31, 2019](https://web.archive.org/web/20210729184557/https://blog.privacytools.io/privacytools-io-joins-the-open-collective-foundation). 这具有额外的好处，使我们的财务完全透明，我们坚信这一价值，并且在美国可以免税，因为它们由开放集体基金会501 (c) 3持有。这一变动得到了团队的一致同意，没有引起争议。
+从2019年开始， BurungHantu越来越远离网站和社区的积极发展，并开始延迟与我们运营的服务器相关的付款。为了避免让我们的系统管理员自掏腰包支付服务器费用，我们于[2019年10月31日](https://web.archive.org/web/20210729184557/https://blog.privacytools.io/privacytools-io-joins-the-open-collective-foundation)将网站上列出的捐赠方式，从BurungHantu的个人PayPal和加密货币账户，更改为一个新的OpenCollective页面。这具有额外的好处，使我们的财务完全透明，我们坚信这一价值，并且在美国可以免税，因为它们由开放集体基金会501 (c) 3持有。这一变动得到了团队的一致同意，没有引起争议。
 
 ## 我们为什么要继续前进
 

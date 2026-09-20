@@ -1,5 +1,5 @@
 ---
-meta_title: "隐私指南：个人隐私 & 安全指南"
+meta_title: "Privacy Guides：个人隐私 & 安全指南"
 description: "Privacy Guides 成立于 2021 年，是最受欢迎且值得信赖的非营利性资源，可帮助您查找隐私保护工具并了解如何保护您的数字生活。"
 template: home.html
 social:
@@ -90,30 +90,30 @@ schema:
 
 ![Privacy Guides logo](assets/brand/logos/png/square/pg-yellow.png){ align=right loading=lazy }
 
-Established in 2021 due to the difficulty of finding unbiased reviewers in the VPN and privacy space, **Privacy Guides** is the most popular, trustworthy, non-profit website that provides information about protecting your *personal* data security and privacy. Our crowdsourced recommendations and reviews of **privacy tools** and our community dedicated to helping others set us apart from other blogs and content creators. The team behind this project has been researching privacy and security in the open-source space for over 5 years, originally with a now-defunct web resource that eventually became the *Privacy Guides* millions of readers trust.
+鉴于在VPN和隐私领域难以找到公正的评测者**，Privacy Guides**于2021年成立，并成为了最受欢迎、最值得信赖的非营利网站，该网站致力于提供有关保护*个人*数据安全与隐私的信息。我们关于**隐私工具**的众包推荐和评测，以及致力于帮助他人的社区，使我们与其他博客和内容创作者区别开来。该项目背后的团队在开源领域深耕隐私与安全超过5年，最初运营的是一个现已停更的网络资源，该资源后来发展成了深受数百万读者信赖的*Privacy Guides*。
 
-*Our website is free of advertisements and not affiliated with any of the listed providers.*
+*我们的网站不含广告，且与所列的任何提供商均无关联。*
 
-As seen in **WIRED**, **Tweakers.net**, **The New York Times**, and many other publications as a reliable source for privacy and security knowledge.
+**WIRED**、**Tweakers.net**、**纽约时报**以及许多其他出版物均将本项目视为隐私与安全知识的可靠来源。
 
-[:material-information: More About Who We Are](about.md){ class="md-button" }
+[:material-information: 关于我们的更多细节](about.md){ class="md-button" }
 
 <div class="grid" markdown>
 <div markdown>
-## What are privacy tools?
+## 隐私工具是什么？
 
-We recommend a wide variety of **privacy tools** (a.k.a. *privacy apps*, *privacy utilities*, *privacy software*) spanning software and hardware that you can use to improve your privacy. Many of the tools we recommend are completely free to use and open-source software, while some are commercial services available for purchase. Switching from mainstream data-hungry software like Google Chrome and Windows to privacy-focused tools like [Brave](desktop-browsers.md#brave) and [Linux](desktop.md) can go a long way towards controlling the information you share with companies and others.
+We recommend a wide variety of **privacy tools** (a.k.a. *隐私应用*、*隐私工具*、*隐私软件*）——涵盖软件和硬件，可用于改善您的隐私保护。我们推荐的许多工具都是完全免费的开源软件，而有些则是可购买的商业服务。从谷歌浏览器（Google Chrome）和Windows等主流、大量收集数据的软件，转向[Brave](desktop-browsers.md#brave)和[Linux](desktop.md)等注重隐私的工具，将极大地有助于控制您与公司及其他方共享的信息。
 
-[:material-check-all: Our General Criteria](about/criteria.md){ class="md-button" }
+[:material-check-all: 我们的通用标准](about/criteria.md){ class="md-button" }
 </div>
 
 <div markdown>
-## Why does privacy matter?
+## 为什么隐私这么重要？
 
-In the modern age of digital data exploitation, your privacy has never been more critical, yet many believe it is already a lost cause. 事实并非如此。 ==Your privacy is up for grabs, and you need to care about it.== Privacy is about power, and it is so important that this power ends up in the right hands.
+在数据被大量利用的现代，你的隐私从未这样重要，但许多人却以为这已经是一个无法解决的问题。事实并非如此。 ==你的隐私岌岌可危，你必须重视这一点。== 隐私关乎权力，而确保这种权力掌握在正确的人手中至关重要。
 
-Many people get the concepts of privacy, security, and anonymity confused. 例如，你会看到有人批评各种产品 "不私密"，但他们的意思其实是这些产品不提供匿名性。在本网站上，我们这三个主题都会介绍，但重要的是，你要了解它们之间的区别，以及每一个主题何时发挥作用。
+许多人会搞混隐私、安全和匿名这三个概念。例如，你会看到有人批评各种产品 "不私密"，但他们的意思其实是这些产品不提供匿名性。在本网站上，我们这三个主题都会介绍，但重要的是，你要了解它们之间的区别，以及每一个主题何时发挥作用。
 
-[:material-movie-open-play-outline: Video: 5 Steps to Improve Your Privacy](https://www.privacyguides.org/videos/2025/02/14/5-easy-steps-to-protect-yourself-online){ class="md-button" }
+[:material-movie-open-play-outline: 视频：5个步骤，改善隐私保护](https://www.privacyguides.org/videos/2025/02/14/5-easy-steps-to-protect-yourself-online){ class="md-button" }
 </div>
 </div>
