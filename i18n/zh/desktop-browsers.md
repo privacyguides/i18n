@@ -144,19 +144,19 @@ Firefox 在从 Mozilla 网站下载的文件中包含一个唯一的 [下载令�
 
 </div>
 
-### Recommended Firefox Configuration
+### 推荐的 Firefox 配置
 
-These options can be found in :material-menu: → **Settings**.
+这些选项可在 :material-menu: →**“设置”** 中找到。
 
 #### 搜索
 
-- [ ] Uncheck **Show search suggestions**
+- [ ] 取消勾选**“显示搜索建议”**
 
-Search suggestion features may not be available in your region.
+您所在的地区可能无法使用搜索建议功能。
 
-Search suggestions send everything you type in the address bar to the default search engine, regardless of whether you submit an actual search. Disabling search suggestions allows you to more precisely control what data you send to your search engine provider.
+搜索建议会将您在地址栏中输入的所有内容发送至默认搜索引擎，无论您是否提交了实际的搜索请求。禁用搜索建议功能可让您更精确地控制发送给搜索引擎提供商的数据。
 
-##### Firefox Suggest
+##### Firefox 建议
 
 [Firefox Suggest](https://support.mozilla.org/kb/firefox-suggest) is a feature similar to search suggestions. We recommend disabling it for the same reason we recommend disabling search suggestions. If you don't see these options under the **Address Bar** header, you do not have the new experience and can ignore these changes.
 
@@ -280,7 +280,7 @@ Brave adds a "[referral code](https://github.com/brave/brave-browser/wiki/Brave%
 
 ### Recommended Brave Configuration
 
-These options can be found in :material-menu: → **Settings**.
+这些选项可在 :material-menu: →**“设置”** 中找到。
 
 
 
@@ -367,7 +367,7 @@ Brave's Web3 features can potentially add to your browser fingerprint and attack
 
 We recommend disabling search suggestions in Brave for the same reason we recommend disabling this feature in [Firefox](#search).
 
-- [ ] Uncheck **Show search suggestions**
+- [ ] 取消勾选**“显示搜索建议”**
 
 
 

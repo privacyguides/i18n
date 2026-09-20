@@ -183,7 +183,7 @@ Shields的选项可以根据需要在每个站点的基础上进行降级，但�
 
     These options can be found in :material-dots-vertical: → **Settings** → **Search engines**.
 
-    - [ ] Uncheck **Show search suggestions**
+    - [ ] 取消勾选**“显示搜索建议”**
 
 === "iOS"
 
@@ -232,7 +232,7 @@ This prevents Siri from using content from Safari for Siri suggestions.
 
 - [ ] Disable **Search Engine Suggestions**
 
-This setting sends whatever you type in the address bar to the search engine set in Safari. Disabling search suggestions allows you to more precisely control what data you send to your search engine provider.
+This setting sends whatever you type in the address bar to the search engine set in Safari. 禁用搜索建议功能可让您更精确地控制发送给搜索引擎提供商的数据。
 
 #### Profiles
 
