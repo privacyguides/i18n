@@ -19,7 +19,7 @@ PrivacyTools由“BurungHantu”于2015年创立，他希望在斯诺登揭露�
 
 2020年， BurungHantu的缺席变得更加明显。有一次，我们要求将该域名的名称服务器改为由我们的系统管理员控制的名称服务器，以避免未来的中断，而这一改变在最初的要求后一个多月才完成。他在Matrix的公共聊天室和私人团队聊天室里一连消失了好几个月，偶尔会突然出现，给一些小的反馈，或者承诺会更加活跃，然后再次消失。
 
-In October 2020, the PrivacyTools system administrator (Jonah) [left](https://web.archive.org/web/20210729190742/https://blog.privacytools.io/blacklight447-taking-over) the project because of these difficulties, handing control to another long-time contributor. </em> Jonah一直在操作几乎所有的PrivacyTools服务，并在BurungHantu不在的情况下担任 *事实上的网站开发项目负责人，因此他的离开对组织来说是一个重大变化。当时，由于这些重大的组织变化，BurungHantu向剩余的团队承诺，他将回来控制这个项目的发展。在接下来的几个月里， PrivacyTools团队通过几种沟通方式进行了联系，但没有收到任何回复。</p>
+在如此困难之下，PrivacyTools 系统管理员 (Jonah)于2020年10月[离开](https://web.archive.org/web/20210729190742/https://blog.privacytools.io/blacklight447-taking-over)了这个项目，并将控制权转移给另一个长期贡献者。 </em> Jonah一直在操作几乎所有的PrivacyTools服务，并在BurungHantu不在的情况下担任 *事实上的网站开发项目负责人，因此他的离开对组织来说是一个重大变化。当时，由于这些重大的组织变化，BurungHantu向剩余的团队承诺，他将回来控制这个项目的发展。在接下来的几个月里， PrivacyTools团队通过几种沟通方式进行了联系，但没有收到任何回复。</p>
 
 ## 域名可靠性
 
