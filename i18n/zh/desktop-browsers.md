@@ -117,13 +117,13 @@ Mullvad 浏览器一直在无痕浏览模式下运行，这意味着每次关闭
 
 ![火狐标志](assets/img/browsers/firefox.svg){ align=right }
 
-**火狐浏览器**提供强大的隐私设置，如[增强型跟踪保护](https://support.mozilla.org/kb/enhanced-tracking-protection-firefox-desktop)，它可以帮助阻止各种[类型的跟踪](https://support.mozilla.org/kb/enhanced-tracking-protection-firefox-desktop#w_what-enhanced-tracking-protection-blocks)。
+**火狐浏览器**提供强大的隐私设置，如[增强型跟踪保护](https://support.mozilla.org/kb/enhanced-tracking-protection-firefox-desktop)，它可以帮助阻止各种[跟踪类型](https://support.mozilla.org/kb/enhanced-tracking-protection-firefox-desktop#w_what-enhanced-tracking-protection-blocks)。
 
-[:octicons-home-16: Homepage](https://firefox.com){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://mozilla.org/privacy/firefox){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://support.mozilla.org/products/firefox){ .card-link title="Documentation" }
-[:octicons-code-16:](https://hg.mozilla.org/mozilla-central){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://donate.mozilla.org){ .card-link title="Contribute" }
+[:octicons-home-16: 主页](https://firefox.com){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://mozilla.org/privacy/firefox){ .card-link title="隐私政策" }
+[:octicons-info-16:](https://support.mozilla.org/products/firefox){ .card-link title=文档}
+[:octicons-code-16:](https://hg.mozilla.org/mozilla-central){ .card-link title="源代码" }
+[:octicons-heart-16:](https://donate.mozilla.org){ .card-link title="贡献" }
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
@@ -140,7 +140,7 @@ Mullvad 浏览器一直在无痕浏览模式下运行，这意味着每次关闭
 <div class="admonition warning" markdown>
 <p class="admonition-title">警告</p>
 
-Firefox includes a unique [download token](https://bugzilla.mozilla.org/show_bug.cgi?id=1677497#c0) in downloads from Mozilla's website and uses telemetry in Firefox to send the token. The token is **not** included in releases from the [Mozilla FTP](https://ftp.mozilla.org/pub/firefox/releases/).
+Firefox 在从 Mozilla 网站下载的文件中包含一个唯一的 [下载令牌](https://bugzilla.mozilla.org/show_bug.cgi?id=1677497#c0)，并利用 Firefox 中的遥测功能发送该令牌。该令牌**未**包含在 [Mozilla FTP](https://ftp.mozilla.org/pub/firefox/releases/) 发布的版本中。
 
 </div>
 
