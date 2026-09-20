@@ -33,7 +33,7 @@ description: Tor هي شبكة مجانية ولا مركزية، صُممت ل�
 
 وبما أننا [نوصي عموما](../basics/vpn-overview.md) بأن يستخدم معظم الناس خدمة VPN موثوقة لأسباب متعددة، فمن المرجّح أن تنطبق عليك أيضًا التوصية التالية بالاتصال بشبكة Tor عبر VPN. <mark>لا تحتاج إلى إيقاف تشغيل الـ VPN قبل الاتصال بشبكة Tor</mark>، رغم أن بعض المصادر على الإنترنت قد توحي لك بعكس ذلك.
 
-الاتصال مباشرةً بشبكة Tor سيجعل استخدامك لها واضحًا لمسؤولي الشبكة المحلية أو لمزوّد خدمة الإنترنت (ISP). Detecting and correlating this traffic [has been done](https://edition.cnn.com/2013/12/17/justice/massachusetts-harvard-hoax) in the past by network administrators to identify and deanonymize specific Tor users on their network. في المقابل، يكون الاتصال بخدمة VPN أقل إثارة للشك في معظم الحالات، لأن خدمات الـ VPN التجارية يستخدمها الناس بشكل عادي لأغراض كثيرة، مثل تجاوز القيود الجغرافية على المحتوى، حتى في البلدان التي تفرض قيودًا شديدة على الإنترنت.
+الاتصال مباشرةً بشبكة Tor سيجعل استخدامك لها واضحًا لمسؤولي الشبكة المحلية أو لمزوّد خدمة الإنترنت (ISP). سبق أن استخدم مسؤولو بعض الشبكات [رصد هذا النوع من حركة الإنترنت وربطه بنشاط المستخدمين](https://edition.cnn.com/2013/12/17/justice/massachusetts-harvard-hoax) للتعرّف على مستخدمين محددين لشبكة Tor وكشف هوياتهم. في المقابل، يكون الاتصال بخدمة VPN أقل إثارة للشك في معظم الحالات، لأن خدمات الـ VPN التجارية يستخدمها الناس بشكل عادي لأغراض كثيرة، مثل تجاوز القيود الجغرافية على المحتوى، حتى في البلدان التي تفرض قيودًا شديدة على الإنترنت.
 
 لذلك، من الأفضل أن تحاول إخفاء عنوان IP الخاص بك **قبل** الاتصال بشبكة Tor. يمكنك فعل ذلك ببساطة عن طريق الاتصال بخدمة VPN أولًا، باستخدام تطبيق مثبت على جهازك، ثم استخدام [Tor](../tor.md) كالمعتاد، مثلًا من خلال متصفح Tor. وبذلك يصبح مسار اتصالك كالتالي:
 
@@ -53,7 +53,7 @@ description: Tor هي شبكة مجانية ولا مركزية، صُممت ل�
 
 توصي بعض خدمات الـ VPN وبعض المصادر أحيانًا بهذه الإعدادات **السيئة** لتجاوز حظر Tor في بعض الأماكن، مثل حظر المواقع لعُقد الخروج (Exit Nodes). [عادة](https://support.torproject.org/#about_change-paths)، يغيّر Tor بشكل متكرر مسار اتصالك عبر الشبكة. عندما تستخدم VPN كـ *وجهة ثابتة* بعد Tor، أي تتصل بخادم VPN *بعد* المرور عبر شبكة Tor، فأنت تلغي هذه الميزة وتُضعف إخفاء هويتك بشكل كبير.
 
-من الصعب أن تصل إلى مثل هذه الإعدادات الخاطئة عن طريق الخطأ، لأنها تتطلب عادةً ضبط إعدادات Proxy مخصّصة داخل متصفح Tor، أو داخل تطبيق الـ VPN بحيث يتم تمرير اتصال الـ VPN عبر متصفح Tor. As long as you avoid these non-default configurations, you're probably fine.
+من الصعب أن تصل إلى مثل هذه الإعدادات الخاطئة عن طريق الخطأ، لأنها تتطلب عادةً ضبط إعدادات Proxy مخصّصة داخل متصفح Tor، أو داخل تطبيق الـ VPN بحيث يتم تمرير اتصال الـ VPN عبر متصفح Tor. من غير المحتمل أن تستخدم هذه الإعدادات الخاطئة عن طريق الخطأ، لأنها تتطلب عادةً إعداد Proxy مخصّص داخل متصفح Tor، أو إعداد Proxy داخل تطبيق الـ VPN لتمرير اتصال الـ VPN عبر متصفح Tor.
 
 ---
 
@@ -64,7 +64,7 @@ description: Tor هي شبكة مجانية ولا مركزية، صُممت ل�
 
 لذلك، من الممكن أن يتم التعرف أيضا على حركة Tor المشفرة والمخفية داخل اتصال VPN باستخدام طرق مشابهة. لا توجد أبحاث منشورة حول هذا الأمر حتى الآن، وما زلنا نرى أن فوائد استخدام VPN أكبر بكثير من هذه المخاطر، لكن من الجيد أن تضع هذا الاحتمال في الحسبان.
 
-If you still believe that pluggable transports (bridges) provide additional protection against website traffic fingerprinting that a VPN does not, you always have the option to use a bridge **and** a VPN in conjunction.
+إذا كنت لا تزال ترى أن وسائل النقل القابلة للتمويه (Pluggable Transports) أو الجسور (Bridges) توفّر حماية إضافية من تحليل بصمة حركة المواقع لا يوفّرها الـ VPN، فيمكنك استخدام Bridge وVPN معًا.
 
 </div>
 
@@ -78,21 +78,21 @@ If you still believe that pluggable transports (bridges) provide additional prot
 
 أدى إصدار تطبيق *Orbot* للهواتف المحمولة إلى وصف كثير من الناس لشبكة Tor بأنها «VPN مجاني» لكل حركة المرور على جهازك. لكن استخدام Tor بهذه الطريقة ينطوي على بعض المخاطر مقارنةً بخدمة الـ VPN التقليدية.
 
-على عكس عُقد الخروج (Exit Nodes) في Tor، فإن مزودي خدمات الـ VPN لا يكونون *عادةً* جهات [خبيثة](#caveats) تتعمد الإضرار بالمستخدمين. لأن أي شخص يمكنه إنشاء عُقد خروج (Exit Nodes) في Tor، فقد تُستخدم هذه العُقد لمراقبة حركة الإنترنت أو التلاعب بها. In 2020, many Tor exit nodes were documented to be downgrading HTTPS traffic to HTTP in order to [hijack cryptocurrency transactions](https://therecord.media/thousands-of-tor-exit-nodes-attacked-cryptocurrency-users-over-the-past-year). Other exit node attacks such as replacing downloads via unencrypted channels with malware have also been observed. HTTPS does mitigate these threats to an extent.
+على عكس عُقد الخروج (Exit Nodes) في Tor، فإن مزودي خدمات الـ VPN لا يكونون *عادةً* جهات [خبيثة](#caveats) تتعمد الإضرار بالمستخدمين. لأن أي شخص يمكنه إنشاء عُقد خروج (Exit Nodes) في Tor، فقد تُستخدم هذه العُقد لمراقبة حركة الإنترنت أو التلاعب بها. في عام 2020، تم توثيق العديد من عُقد الخروج (Exit Nodes) في Tor وهي تُحوِّل اتصالات HTTPS إلى HTTP بهدف [اختطاف معاملات العملات الرقمية](https://therecord.media/thousands-of-tor-exit-nodes-attacked-cryptocurrency-users-over-the-past-year). كما تم رصد هجمات أخرى عبر عُقد الخروج (Exit Nodes)، مثل استبدال الملفات التي يتم تنزيلها عبر اتصالات غير مشفّرة ببرامج ضارة. يساعد HTTPS في تقليل هذه المخاطر إلى حدٍّ ما.
 
-As we've alluded to already, Tor is also easily identifiable on the network. Unlike an actual VPN provider, using Tor will make you stick out as a person likely attempting to evade authorities. In a perfect world, Tor would be seen by network administrators and authorities as a tool with many uses (like how VPNs are viewed), but in reality the perception of Tor is still far less legitimate than the perception of commercial VPNs. As such, using a real VPN provides you with plausible deniability, e.g. "I was just using it to watch Netflix," etc.
+وكما ذكرنا سابقًا، يمكن أيضًا التعرّف بسهولة على استخدام Tor من خلال الشبكة. على عكس استخدام خدمة VPN عادية، فإن استخدام Tor قد يجعلك أكثر لفتًا للانتباه على الشبكة، وقد يُنظر إليك على أنك تحاول تجنّب مراقبة السلطات. في عالم مثالي، كان من المفترض أن ينظر مسؤولو الشبكات والسلطات إلى Tor على أنه أداة لها استخدامات عديدة، مثلما يُنظر إلى خدمات VPN. لكن في الواقع، لا يزال Tor يُنظر إليه على أنه أقل شرعية وموثوقية بكثير من خدمات VPN التجارية. لذلك، يمنحك استخدام VPN عادي إمكانية تقديم تفسير مقبول لاستخدامك له، مثل: «كنت أستخدمه فقط لمشاهدة Netflix»، وما إلى ذلك.
 
-### Tor usage is not undetectable
+### استخدام Tor ليس مخفيًا تمامًا عن الاكتشاف
 
-**Even if you use bridges and pluggable transports,** the Tor Project doesn't provide any tools to hide the fact that you are using Tor from your ISP. Even using obfuscated "pluggable transports" or non-public bridges do not hide the fact that you are using a private communications channel. The most popular pluggable transports like obfs4 (which obfuscates your traffic to "look like nothing") and meek (which uses domain fronting to camouflage your traffic) can be [detected](https://hackerfactor.com/blog/index.php?/archives/889-Tor-0day-Burning-Bridges.html) with fairly standard traffic analysis techniques. Snowflake has similar issues, and can be [easily detected](https://hackerfactor.com/blog/index.php?/archives/944-Tor-0day-Snowflake.html) *before* a Tor connection is even established.
+**حتى إذا كنت تستخدم الجسور (Bridges) ووسائل النقل القابلة للتوصيل (Pluggable Transports)،** فإن مشروع Tor لا يوفّر أدوات تخفي عن مزود خدمة الإنترنت (ISP) حقيقة أنك تستخدم Tor. حتى استخدام وسائل النقل المُموّهة (Pluggable Transports) أو الجسور غير العامة (non-public bridges) لا يُخفي حقيقة أنك تستخدم قناة اتصال خاصة (private communications channel). يمكن [اكتشاف](https://hackerfactor.com/blog/index.php?/archives/889-Tor-0day-Burning-Bridges.html) أشهر وسائل النقل القابلة للتوصيل (Pluggable Transports)، مثل obfs4 الذي يُموّه حركة الإنترنت لتبدو وكأنها بلا نمط واضح، وmeek الذي يستخدم تقنية Domain Fronting لإخفاء حركة الإنترنت، وذلك باستخدام أساليب تحليل حركة الشبكة الشائعة نسبيًا. ويواجه Snowflake مشكلات مشابهة، إذ يمكن [اكتشافه بسهولة](https://hackerfactor.com/blog/index.php?/archives/944-Tor-0day-Snowflake.html) حتى *قبل* إنشاء اتصال Tor من الأساس.
 
-Pluggable transports other than these three do exist, but typically rely on security through obscurity to evade detection. They aren't impossible to detect—they are just used by so few people that it's not worth the effort building detectors for them. They shouldn't be relied upon if you specifically are being monitored.
+توجد وسائل نقل قابلة للتوصيل (Pluggable Transports) أخرى غير هذه الثلاثة، لكنها تعتمد غالبًا على صعوبة معرفة كيفية عملها لتجنّب اكتشافها. هذا لا يعني أنه من المستحيل اكتشافها، بل إن عدد مستخدميها قليل جدًا لدرجة أن تطوير أدوات مخصصة لاكتشافها لا يستحق الجهد عادةً. لا ينبغي الاعتماد عليها إذا كنت أنت تحديدا تحت المراقبة.
 
-It is critical to understand the difference between bypassing censorship and evading detection. It is easier to accomplish the former because of the many real-world limitations on what network censors can realistically do en masse, but these techniques do not hide the fact that you—*specifically* you—are using Tor from an interested party monitoring your network.
+من المهم جدا فهم الفرق بين تجاوز الرقابة وتجنّب اكتشاف استخدامك لـ Tor. تجاوز الرقابة أسهل، لأن الجهات التي تراقب الشبكات لا تستطيع عمليًا منع كل شيء على نطاق واسع. لكن هذه الطرق لا تُخفي عن جهة تراقب شبكتك أنك أنت *بالتحديد* تستخدم Tor.
 
-### Tor Browser is not the most *secure* browser
+### متصفح Tor ليس المتصفح الأكثر *أمانًا*
 
-Anonymity can often be at odds with security. Tor achieves anonymity by ensuring every user appears identical, creating a digital monoculture where the same vulnerabilities exist across all installations. In cybersecurity, monocultures are generally considered a risk. Security through diversity provides natural segmentation by limiting the impact of an exploit to a smaller segment of users. While such diversity is structurally desirable for security, it inherently compromises user anonymity by making individuals trackable.
+قد تتعارض إخفاء الهوية أحيانا مع الأمان. يحقق Tor إخفاء الهوية بجعل جميع المستخدمين يبدون متشابهين، مما يخلق بيئة رقمية موحّدة تتشارك فيها جميع النسخ نفس نقاط الضعف. In cybersecurity, monocultures are generally considered a risk. Security through diversity provides natural segmentation by limiting the impact of an exploit to a smaller segment of users. While such diversity is structurally desirable for security, it inherently compromises user anonymity by making individuals trackable.
 
 Additionally, Tor Browser is based on Firefox's Extended Support Release builds, which only receives patches for vulnerabilities considered *Critical* and *High* (not *Medium* and *Low*). This means that attackers could (for example):
 
