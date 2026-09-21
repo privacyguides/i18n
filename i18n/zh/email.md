@@ -28,9 +28,9 @@ global:
 | [Mailbox Mail](#mailbox-mail) | :material-check:{ .pg-green }          | :material-check:{ .pg-green }                    | :material-information-outline:{ .pg-blue } 仅邮件加密 | 现金                                                    |
 | [Tuta](#tuta)                 | :material-alert-outline:{ .pg-orange } | :material-alert-outline:{ .pg-orange }           | :material-check:{ .pg-green }                    | Monero via third party <br>Cash via third party |
 
-In addition to (or instead of) an email provider recommended here, you may wish to consider a dedicated [email aliasing service](email-aliasing.md#recommended-providers) to protect your privacy. Among other things, these services can help protect your real inbox from spam, prevent marketers from correlating your accounts, and encrypt all incoming messages with PGP.
+除了（或代替）本文推荐的电子邮件服务商外，您不妨考虑使用专门的[邮件别名服务](email-aliasing.md#recommended-providers)来保护您的隐私。这些服务除其他作用外，还能帮助保护您的真实收件箱免受垃圾邮件侵扰，防止营销人员将您的账户关联起来，并使用PGP对所有收到的邮件进行加密。
 
-- [More Information :material-arrow-right-drop-circle:](email-aliasing.md)
+- [更多信息 :material-arrow-right-drop-circle:](email-aliasing.md)
 
 ## OpenPGP 兼容服务
 
@@ -46,11 +46,11 @@ In addition to (or instead of) an email provider recommended here, you may wish 
 <div class="admonition warning" markdown>
 <p class="admonition-title">警告</p>
 
-当使用像OpenPGP这样的E2EE技术时，电子邮件仍然会有一些元数据没有在电子邮件的标题中进行加密。 Read more about [email metadata](basics/email-security.md#email-metadata-overview).
+当使用像OpenPGP这样的E2EE技术时，电子邮件仍然会有一些元数据没有在电子邮件的标题中进行加密。了解更多关于[电子邮件元数据](basics/email-security.md#email-metadata-overview)的信息。
 
-OpenPGP also does not support forward secrecy, which means if the private key of either you or the message recipient is ever stolen, all previous messages encrypted with it will be exposed.
+此外，OpenPGP 不支持前向保密，这就意味着一旦您的私钥或消息接收方的私钥被盗，所有此前使用这些私钥加密的消息都会泄露。
 
-- [How do I protect my private keys?](basics/email-security.md#how-do-i-protect-my-private-keys)
+- [如何保护我的私钥？](basics/email-security.md#how-do-i-protect-my-private-keys)
 
 </div>
 
@@ -60,15 +60,15 @@ OpenPGP also does not support forward secrecy, which means if the private key of
 
 ! [Proton Mail徽标] (assets/img/email/protonmail.svg) {align = right}
 
-* * Proton Mail * *是一项专注于隐私、加密、安全性和易用性的电子邮件服务。 They have been in operation since 2013. Proton AG is based in Geneva, Switzerland.
+* * Proton Mail * *是一项专注于隐私、加密、安全性和易用性的电子邮件服务。它们自2013年以来一直处于运营状态。 Proton AG 总部位于瑞士日内瓦。
 
-The Proton Free plan comes with 500 MB of Mail storage, which you can increase up to 1 GB for free.
+“Proton Free”套餐提供 500 MB 的邮件存储空间，您可以免费将其扩容至 1 GB。
 
-[:octicons-home-16: Homepage](https://proton.me/mail){ .md-button .md-button--primary }
-[:simple-torbrowser:](https://protonmailrmez3lotccipshtkleegetolb73fuirgj7r4o4vfu7ozyd.onion){ .card-link title="Onion Service" }
-[:octicons-eye-16:](https://proton.me/mail/privacy-policy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://proton.me/support/mail){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/ProtonMail){ .card-link title="Source Code" }
+[:octicons-home-16: 首页](https://proton.me/mail){ .md-button .md-button--primary }
+[:simple-torbrowser:](https://protonmailrmez3lotccipshtkleegetolb73fuirgj7r4o4vfu7ozyd.onion){ .card-link title="Onion服务" }
+[:octicons-eye-16:](https://proton.me/mail/privacy-policy){ .card-link title="隐私政策" }
+[:octicons-info-16:](https://proton.me/support/mail){ .card-link title="文档"}
+[:octicons-code-16:](https://github.com/ProtonMail){ .card-link title="源代码" }
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
@@ -85,47 +85,47 @@ The Proton Free plan comes with 500 MB of Mail storage, which you can increase u
 
 </div>
 
-Free accounts have some limitations, such as not being able to search body text and not having access to [Proton Mail Bridge](https://proton.me/mail/bridge), which is required to use a [recommended desktop email client](email-clients.md) such as Thunderbird. 付费帐户包括Proton Mail Bridge等功能，额外的存储空间和自定义域支持。 The Proton Unlimited plan or any multi-user Proton plan includes access to [SimpleLogin](email-aliasing.md#simplelogin) Premium.
+其免费账户存在一些限制，比如不能搜索正文，不能访问 [Proton Mail Bridge](https://proton.me/mail/bridge)，这是使用 [推荐的桌面邮件客户端](email-clients.md) 所必需的，如Thunderbird等客户端。付费帐户包括Proton Mail Bridge等功能，额外的存储空间和自定义域支持。 “Proton Unlimited”套餐或任何多用户版 Proton 套餐均包含[SimpleLogin](email-aliasing.md#simplelogin)Premium 的使用权限。
 
-A [letter of attestation](https://res.cloudinary.com/dbulfrlrz/images/v1714639878/wp-pme/letter-of-attestation-proton-mail-20211109_3138714c61/letter-of-attestation-proton-mail-20211109_3138714c61.pdf) was provided for Proton Mail's apps in November 2021 by [Securitum](https://research.securitum.com).
+这是2021年11月[Securitum](https://research.securitum.com)为Proton Mail的应用提供的[认证函](https://res.cloudinary.com/dbulfrlrz/images/v1714639878/wp-pme/letter-of-attestation-proton-mail-20211109_3138714c61/letter-of-attestation-proton-mail-20211109_3138714c61.pdf)。
 
-Proton Mail has internal crash reports that are **not** shared with third parties and can be disabled.
+Proton Mail 自带内部崩溃报告，这些报告**不会**与第三方共享，并且可以关闭。
 
-=== "Web"
+=== “网页端” ===
 
-    From your inbox, select :gear: → **All Settings** → **Account** → **Security and privacy** → **Privacy and data collection**.
+    在您的收件箱中，选择 :gear: → **所有设置** → **账户** → **安全与隐私** → **隐私与数据收集**。
 
-    - [ ] Disable **Collect usage diagnostics**
-    - [ ] Disable **Send crash reports**
+    - [ ] 禁用**收集使用情况诊断信息**
+    - [ ] 禁用**“发送崩溃报告**”功能
 
-=== "Mobile"
+=== “移动端” ===
 
-    From your inbox, select :material-menu: → :gear: **Settings** → select your username.
+    在收件箱中，选择 :material-menu: → :gear: **设置** → 选择您的用户名。
 
-    - [ ] Disable **Send crash reports**
-    - [ ] Disable **Collect usage diagnostics**
+    - [ ] 禁用**“发送崩溃报告**”功能
+    - [ ] 禁用**收集使用情况诊断信息**
 
-#### :material-check:{ .pg-green } Custom Domains and Aliases
+#### :material-check:{ .pg-green } 自定义域名和别名
 
-Paid Proton Mail subscribers can use their own domain with the service or a [catch-all](https://proton.me/support/catch-all) address. Proton Mail also supports [sub-addressing](https://proton.me/support/creating-aliases), which is useful for people who don't want to purchase a domain.
+Proton Mail的付费用户可以在该服务中使用自己的域名或[通配符邮箱](https://proton.me/support/catch-all)地址。 Proton Mail 还支持[子地址功能](https://proton.me/support/creating-aliases)，这对不想购买域名的人来说非常有用。
 
-#### :material-check:{ .pg-green } Private Payment Methods
+#### :material-check:{ .pg-green } 隐私性支付方式
 
-Proton Mail [accepts](https://proton.me/support/payment-options) **cash** by mail in addition to standard credit/debit card, [Bitcoin](advanced/payments.md#other-coins-bitcoin-ethereum-etc), and PayPal payments. Additionally, you can use [**Monero**](cryptocurrency.md#monero) to purchase vouchers for Proton Mail Plus or Proton Unlimited via their [official](https://discuss.privacyguides.net/t/add-monero-as-an-anonymous-payment-method-for-proton-services/31058/15) reseller [ProxyStore](https://dys2p.com/en/2025-09-09-proton.html).
+除了标准的信用卡/借记卡、[比特币](advanced/payments.md#other-coins-bitcoin-ethereum-etc)和PayPal支付方式外，Proton Mail还[接受](https://proton.me/support/payment-options)邮寄**现金**。此外，您还可以使用 [**门罗币**](cryptocurrency.md#monero) 通过其[官方](https://discuss.privacyguides.net/t/add-monero-as-an-anonymous-payment-method-for-proton-services/31058/15)经销商[ProxyStore](https://dys2p.com/en/2025-09-09-proton.html)购买Proton Mail Plus或Proton Unlimited的代金券。
 
-#### :material-check:{ .pg-green } Account Security
+#### :material-check:{ .pg-green } 账户安全
 
-Proton Mail supports TOTP [two-factor authentication](https://proton.me/support/two-factor-authentication-2fa) and [hardware security keys](https://proton.me/support/2fa-security-key) using FIDO2 or U2F standards. The use of a hardware security key requires setting up TOTP two-factor authentication first.
+Proton Mail 支持基于 FIDO2 或 U2F 标准的 TOTP[双因素认证](https://proton.me/support/two-factor-authentication-2fa)以及[硬件安全密钥](https://proton.me/support/2fa-security-key)。要使用硬件安全密钥，需要先设置TOTP双因素认证。
 
-#### :material-check:{ .pg-green } Data Security
+#### :material-check:{ .pg-green } 数据安全
 
-Proton Mail stores your [emails](https://proton.me/blog/zero-access-encryption) and [calendars](https://proton.me/news/protoncalendar-security-model) with PGP-based encryption at rest, where only you have the decryption keys needed to access them later.
+Proton Mail 采用基于 PGP 的加密技术存储您的[邮件](https://proton.me/blog/zero-access-encryption)和[日历](https://proton.me/news/protoncalendar-security-model)，只有您本人拥有解密密钥，才能在以后访问这些内容。
 
-Certain information stored in [Proton Contacts](https://proton.me/support/proton-contacts), such as display names and email addresses, are **not** secured with your own encryption keys, so Proton is able to read them. Contact fields which are protected with your own encryption keys, such as phone numbers, are indicated with a padlock icon.
+存储在[Proton 联系人](https://proton.me/support/proton-contacts)中的某些信息（例如显示名称和电子邮件地址）**并未**使用您自己的加密密钥进行加密，因此 Proton 可以读取这些信息。 Contact fields which are protected with your own encryption keys, such as phone numbers, are indicated with a padlock icon.
 
-#### :material-check:{ .pg-green } Email Encryption
+#### :material-check:{ .pg-green } 邮件加密
 
-Proton Mail has [integrated OpenPGP encryption](https://proton.me/support/how-to-use-pgp) in their webmail. 给其他Proton Mail账户的邮件是自动加密的，用OpenPGP密钥给非Proton Mail地址加密可以在账户设置中轻松启用。 Proton also supports automatic external key discovery with WKD. This means that emails sent to other providers which use WKD will be automatically encrypted with OpenPGP as well, without the need to manually exchange public PGP keys with your contacts. They also allow you to [encrypt messages to non-Proton Mail addresses without OpenPGP](https://proton.me/support/password-protected-emails), without the need for them to sign up for a Proton Mail account.
+Proton Mail 已在网页版邮箱中[集成了 OpenPGP 加密功能](https://proton.me/support/how-to-use-pgp)。给其他Proton Mail账户的邮件是自动加密的，用OpenPGP密钥给非Proton Mail地址加密可以在账户设置中轻松启用。 Proton also supports automatic external key discovery with WKD. This means that emails sent to other providers which use WKD will be automatically encrypted with OpenPGP as well, without the need to manually exchange public PGP keys with your contacts. They also allow you to [encrypt messages to non-Proton Mail addresses without OpenPGP](https://proton.me/support/password-protected-emails), without the need for them to sign up for a Proton Mail account.
 
 Proton Mail also publishes the public keys of Proton accounts via HTTP from their WKD. This allows people who don't use Proton Mail to find the OpenPGP keys of Proton Mail accounts easily for cross-provider E2EE. This only applies to email addresses ending in one of Proton's own domains, like `@proton.me`. If you use a custom domain, you must [configure WKD](basics/email-security.md#what-is-the-web-key-directory-standard) separately.
 
@@ -160,15 +160,15 @@ Accounts start with up to 2 GB storage, which can be upgraded as needed.
 
 </div>
 
-#### :material-check:{ .pg-green } Custom Domains and Aliases
+#### :material-check:{ .pg-green } 自定义域名和别名
 
 Mailbox Mail lets you use your own domain, and they support [catch-all](https://kb.mailbox.org/en/private/custom-domains/use-your-own-domain-with-catch-all/) addresses. Mailbox Mail also supports [sub-addressing](https://kb.mailbox.org/en/private/e-mail/what-is-an-alias-and-how-do-i-use-it/), which is useful if you don't want to purchase a domain.
 
-#### :material-check:{ .pg-green } Private Payment Methods
+#### :material-check:{ .pg-green } 隐私性支付方式
 
 Mailbox Mail doesn't accept any cryptocurrencies as a result of their payment processor BitPay suspending operations in Germany. However, they do accept **cash** by mail, **cash** payment to bank account, bank transfer, credit card, PayPal, and a couple of German-specific processors: Paydirekt and Sofortüberweisung.
 
-#### :material-check:{ .pg-green } Account Security
+#### :material-check:{ .pg-green } 账户安全
 
 Mailbox Mail supports [two-factor authentication](https://kb.mailbox.org/en/private/security-and-privacy/how-to-use-two-factor-authentication-2fa/) for their webmail only. You can use either TOTP or a [YubiKey](security-keys.md#yubikey) via the [YubiCloud](https://yubico.com/products/services-software/yubicloud). Web standards such as [WebAuthn](basics/multi-factor-authentication.md#fido-fast-identity-online) are not yet supported.
 
@@ -178,7 +178,7 @@ Mailbox Mail allows for encryption of incoming mail using their [encrypted mailb
 
 However, [Open-Xchange](https://en.wikipedia.org/wiki/Open-Xchange), the software platform used by Mailbox Mail, [does not support](https://kb.mailbox.org/en/business/security-privacy-article/encryption-of-calendar-and-address-book/) the encryption of your address book and calendar. A [standalone option](calendar.md) may be more appropriate for that data.
 
-#### :material-check:{ .pg-green } Email Encryption
+#### :material-check:{ .pg-green } 邮件加密
 
 Mailbox Mail has [integrated encryption](https://kb.mailbox.org/en/private/encryption/how-can-e-mails-be-encrypted-with-pgp/) in their webmail, which simplifies sending messages to people with public OpenPGP keys. They also allow [remote recipients to decrypt an email](https://kb.mailbox.org/en/private/encryption/my-recipient-does-not-use-pgp/) on Mailbox Mail's servers. This feature is useful when the remote recipient does not have OpenPGP and cannot decrypt a copy of the email in their own mailbox.
 
@@ -240,7 +240,7 @@ Free accounts start with 1 GB of storage.
 
 Tuta doesn't support the [IMAP protocol](https://tuta.com/support#imap) or the use of third-party [email clients](email-clients.md), and you also won't be able to add [external email accounts](https://github.com/tutao/tutanota/issues/544#issuecomment-670473647) to the Tuta app. [Email import](https://github.com/tutao/tutanota/issues/630) is not currently supported either, though this is [due to be changed](https://tuta.com/blog/kickoff-import). Emails can be exported [individually or by bulk selection](https://tuta.com/support#generalMail) per folder, which may be inconvenient if you have many folders.
 
-#### :material-check:{ .pg-green } Custom Domains and Aliases
+#### :material-check:{ .pg-green } 自定义域名和别名
 
 Paid Tuta accounts can use either 15 or 30 aliases depending on their plan and unlimited aliases on [custom domains](https://tuta.com/support#custom-domain). Tuta doesn't allow for [sub-addressing (plus addresses)](https://tuta.com/support#plus), but you can use a [catch-all](https://tuta.com/support#settings-global) with a custom domain.
 
@@ -248,11 +248,11 @@ Paid Tuta accounts can use either 15 or 30 aliases depending on their plan and u
 
 Tuta only directly accepts credit cards and PayPal, however you can use [**cryptocurrency**](cryptocurrency.md) to purchase gift cards via their [partnership](https://tuta.com/support/#cryptocurrency) with ProxyStore.
 
-#### :material-check:{ .pg-green } Account Security
+#### :material-check:{ .pg-green } 账户安全
 
 Tuta supports [two-factor authentication](https://tuta.com/support#2fa) with either TOTP or U2F.
 
-#### :material-check:{ .pg-green } Data Security
+#### :material-check:{ .pg-green } 数据安全
 
 Tuta stores your [emails](https://tuta.com/support#what-encrypted), [address book contacts](https://tuta.com/support#encrypted-address-book), and [calendars](https://tuta.com/support#calendar) with strong encryption where only you have the decryption keys. This means the messages and other data stored in your account cannot be read by anyone other than you after they are stored.
 
