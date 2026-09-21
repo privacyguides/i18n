@@ -125,7 +125,7 @@ Proton Mail 采用基于 PGP 的加密技术存储您的[邮件](https://proton.
 
 #### :material-check:{ .pg-green } 邮件加密
 
-Proton Mail 已在网页版邮箱中[集成了 OpenPGP 加密功能](https://proton.me/support/how-to-use-pgp)。给其他Proton Mail账户的邮件是自动加密的，用OpenPGP密钥给非Proton Mail地址加密可以在账户设置中轻松启用。 Proton also supports automatic external key discovery with WKD. This means that emails sent to other providers which use WKD will be automatically encrypted with OpenPGP as well, without the need to manually exchange public PGP keys with your contacts. They also allow you to [encrypt messages to non-Proton Mail addresses without OpenPGP](https://proton.me/support/password-protected-emails), without the need for them to sign up for a Proton Mail account.
+Proton Mail 已在网页版邮箱中[集成了 OpenPGP 加密功能](https://proton.me/support/how-to-use-pgp)。给其他Proton Mail账户的邮件是自动加密的，用OpenPGP密钥给非Proton Mail地址加密可以在账户设置中轻松启用。 Proton 还支持通过 WKD 进行自动外部密钥发现。 This means that emails sent to other providers which use WKD will be automatically encrypted with OpenPGP as well, without the need to manually exchange public PGP keys with your contacts. They also allow you to [encrypt messages to non-Proton Mail addresses without OpenPGP](https://proton.me/support/password-protected-emails), without the need for them to sign up for a Proton Mail account.
 
 Proton Mail also publishes the public keys of Proton accounts via HTTP from their WKD. This allows people who don't use Proton Mail to find the OpenPGP keys of Proton Mail accounts easily for cross-provider E2EE. This only applies to email addresses ending in one of Proton's own domains, like `@proton.me`. If you use a custom domain, you must [configure WKD](basics/email-security.md#what-is-the-web-key-directory-standard) separately.
 
