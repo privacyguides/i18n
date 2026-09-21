@@ -22,11 +22,11 @@ global:
 
 对于其他一切，我们根据可持续的商业模式和内置的安全和隐私功能，推荐各种电子邮件供应商。 Read our [full list of criteria](#criteria) for more information.
 
-| Provider                      | OpenPGP / WKD                          | IMAP / SMTP                                                | Encrypted Storage                                    | Anonymous Payment Methods                             |
-| ----------------------------- | -------------------------------------- | ---------------------------------------------------------- | ---------------------------------------------------- | ----------------------------------------------------- |
-| [Proton Mail](#proton-mail)   | :material-check:{ .pg-green }          | :material-information-outline:{ .pg-blue } Paid plans only | :material-check:{ .pg-green }                        | Cash <br>Monero via third party                 |
-| [Mailbox Mail](#mailbox-mail) | :material-check:{ .pg-green }          | :material-check:{ .pg-green }                              | :material-information-outline:{ .pg-blue } Mail only | Cash                                                  |
-| [Tuta](#tuta)                 | :material-alert-outline:{ .pg-orange } | :material-alert-outline:{ .pg-orange }                     | :material-check:{ .pg-green }                        | Monero via third party <br>Cash via third party |
+| Provider                      | OpenPGP / WKD                          | IMAP / SMTP                                      | Encrypted Storage                                    | Anonymous Payment Methods                             |
+| ----------------------------- | -------------------------------------- | ------------------------------------------------ | ---------------------------------------------------- | ----------------------------------------------------- |
+| [Proton Mail](#proton-mail)   | :material-check:{ .pg-green }          | :material-information-outline:{ .pg-blue } 仅付费方案 | :material-check:{ .pg-green }                        | Cash <br>Monero via third party                 |
+| [Mailbox Mail](#mailbox-mail) | :material-check:{ .pg-green }          | :material-check:{ .pg-green }                    | :material-information-outline:{ .pg-blue } Mail only | Cash                                                  |
+| [Tuta](#tuta)                 | :material-alert-outline:{ .pg-orange } | :material-alert-outline:{ .pg-orange }           | :material-check:{ .pg-green }                        | Monero via third party <br>Cash via third party |
 
 In addition to (or instead of) an email provider recommended here, you may wish to consider a dedicated [email aliasing service](email-aliasing.md#recommended-providers) to protect your privacy. Among other things, these services can help protect your real inbox from spam, prevent marketers from correlating your accounts, and encrypt all incoming messages with PGP.
 

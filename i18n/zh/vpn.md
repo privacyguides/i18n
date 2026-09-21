@@ -78,7 +78,7 @@ We also think it's better for the security of the VPN provider's private keys if
 
 #### :material-check:{ .pg-green } Independently Audited
 
-Independent security researcher Ruben Santamarta conducted audits for Proton VPN's [browser extensions](https://drive.proton.me/urls/RWDD2SHT98#v7ZrwNcafkG8) and [apps](https://drive.proton.me/urls/RVW8TXG484#uTXX5Fc9GADo) in September 2024 and January 2025, respectively. Proton VPN's infrastructure has undergone [annual audits](https://protonvpn.com/blog/no-logs-audit) by Securitum since 2022.
+Independent security researcher Ruben Santamarta conducted audits for Proton VPN's [browser extensions](https://drive.proton.me/urls/RWDD2SHT98#v7ZrwNcafkG8) and [apps](https://drive.proton.me/urls/RVW8TXG484#uTXX5Fc9GADo) in September 2024 and January 2025, respectively. 自 2022 年以来，Proton VPN 的基础设施一直在接受 Securitum的[年度审计](https://protonvpn.com/blog/no-logs-audit)。
 
 Previously, Proton VPN underwent an independent audit by SEC Consult in January 2020. SEC Consult在Proton VPN的Windows、Android和iOS应用程序中发现了一些中度和低度风险的漏洞，在报告发布前，Proton VPN都已经 "妥善修复"。所发现的问题中没有任何一个能让攻击者远程访问你的设备或流量。 You can view individual reports for each platform in their dedicated [blog post](https://web.archive.org/web/20250307041036/https://protonvpn.com/blog/open-source) on the audit.
 

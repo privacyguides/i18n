@@ -1,7 +1,7 @@
 ---
 title: Linux Overview
 icon: simple/linux
-description: Linux is an open-source, privacy-focused desktop operating system alternative, but not all distributions are created equal.
+description: Linux 是一种开源的、注重隐私的桌面系统替代方案，但不是所有发行版都一样。
 ---
 
 **Linux** is an open-source, privacy-focused desktop operating system alternative. In the face of pervasive telemetry and other privacy-encroaching technologies in mainstream operating systems, desktop Linux has remained the clear choice for people looking for total control over their computers from the ground up.
