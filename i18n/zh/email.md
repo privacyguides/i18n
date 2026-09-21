@@ -22,11 +22,11 @@ global:
 
 对于其他一切，我们根据可持续的商业模式和内置的安全和隐私功能，推荐各种电子邮件供应商。 Read our [full list of criteria](#criteria) for more information.
 
-| Provider                      | OpenPGP / WKD                          | IMAP / SMTP                                      | Encrypted Storage                                    | Anonymous Payment Methods                             |
-| ----------------------------- | -------------------------------------- | ------------------------------------------------ | ---------------------------------------------------- | ----------------------------------------------------- |
-| [Proton Mail](#proton-mail)   | :material-check:{ .pg-green }          | :material-information-outline:{ .pg-blue } 仅付费方案 | :material-check:{ .pg-green }                        | Cash <br>Monero via third party                 |
-| [Mailbox Mail](#mailbox-mail) | :material-check:{ .pg-green }          | :material-check:{ .pg-green }                    | :material-information-outline:{ .pg-blue } Mail only | Cash                                                  |
-| [Tuta](#tuta)                 | :material-alert-outline:{ .pg-orange } | :material-alert-outline:{ .pg-orange }           | :material-check:{ .pg-green }                        | Monero via third party <br>Cash via third party |
+| 提供商                           | OpenPGP / WKD                          | IMAP / SMTP                                      | 加密存储                                             | 匿名支付方式                                                |
+| ----------------------------- | -------------------------------------- | ------------------------------------------------ | ------------------------------------------------ | ----------------------------------------------------- |
+| [Proton Mail](#proton-mail)   | :material-check:{ .pg-green }          | :material-information-outline:{ .pg-blue } 仅付费方案 | :material-check:{ .pg-green }                    | 现金、<br>通过第三方支付门罗币                               |
+| [Mailbox Mail](#mailbox-mail) | :material-check:{ .pg-green }          | :material-check:{ .pg-green }                    | :material-information-outline:{ .pg-blue } 仅邮件加密 | 现金                                                    |
+| [Tuta](#tuta)                 | :material-alert-outline:{ .pg-orange } | :material-alert-outline:{ .pg-orange }           | :material-check:{ .pg-green }                    | Monero via third party <br>Cash via third party |
 
 In addition to (or instead of) an email provider recommended here, you may wish to consider a dedicated [email aliasing service](email-aliasing.md#recommended-providers) to protect your privacy. Among other things, these services can help protect your real inbox from spam, prevent marketers from correlating your accounts, and encrypt all incoming messages with PGP.
 
@@ -34,7 +34,7 @@ In addition to (or instead of) an email provider recommended here, you may wish 
 
 ## OpenPGP 兼容服务
 
-These providers natively support OpenPGP encryption/decryption and the [Web Key Directory (WKD) standard](basics/email-security.md#what-is-the-web-key-directory-standard), allowing for provider-agnostic end-to-end encrypted emails. For example, a Proton Mail user could send an E2EE message to a Mailbox Mail user, or you could receive OpenPGP-encrypted notifications from internet services which support it.
+这些服务商原生支持 OpenPGP 加密/解密以及[Web Key Directory（WKD）标准](basics/email-security.md#what-is-the-web-key-directory-standard)，从而能够实现与服务商无关的端到端加密电子邮件。例如，Proton Mail 用户可以向 Mailbox Mail 用户发送一条端到端加密消息，或者您可以从支持该功能的互联网服务中接收经过 OpenPGP 加密的通知。
 
 <div class="grid cards" markdown>
 
