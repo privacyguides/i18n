@@ -71,7 +71,7 @@ global:
 [:octicons-code-16:](https://github.com/ProtonMail){ .card-link title="源代码" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>下载</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=ch.protonmail.android)
 - [:simple-appstore: App Store](https://apps.apple.com/app/id979659905)
@@ -192,13 +192,13 @@ Mailbox Mail also supports the discovery of public keys via HTTP from their WKD.
 
 您可以通过其[.onion 服务](https://kb.mailbox.org/en/en/private/security-privacy/using-the-tor-exit-node-from-mailbox/)，使用 IMAP/SMTP 访问您的 Mailbox Mail 账户。不过，无法通过其 .onion 服务访问他们的网页邮件界面，而且您可能会遇到 TLS 证书错误。
 
-所有账户都自带[可加密](https://kb.mailbox.org/en/private/drive/encrypt-files-on-your-drive/)的有限云空间。 Mailbox Mail 还提供了一个别名[@secure.mailbox.org，](https://kb.mailbox.org/en/business/e-mail-article/ensuring-e-mails-are-sent-securely/)该别名会强制在邮件服务器之间的连接中启用 TLS 加密，否则邮件将无法发送。 Mailbox Mail also supports [Exchange ActiveSync](https://en.wikipedia.org/wiki/Exchange_ActiveSync) in addition to standard access protocols like IMAP and POP3.
+所有账户都自带[可加密](https://kb.mailbox.org/en/private/drive/encrypt-files-on-your-drive/)的有限云空间。 Mailbox Mail 还提供了一个别名[@secure.mailbox.org，](https://kb.mailbox.org/en/business/e-mail-article/ensuring-e-mails-are-sent-securely/)该别名会强制在邮件服务器之间的连接中启用 TLS 加密，否则邮件将无法发送。除了 IMAP 和 POP3 等标准访问协议外，Mailbox Mail 还支持[Exchange ActiveSync](https://en.wikipedia.org/wiki/Exchange_ActiveSync)。
 
-Mailbox Mail has a digital legacy feature for all plans. You can choose whether you want any of your data to be passed to heirs, providing that they apply and provide your testament. Alternatively, you can nominate a person by name and address.
+Mailbox Mail 的所有套餐均提供“数字遗产”功能。您可以选择是否将您的任何数据传递给继承人，前提是他们提出申请并出示您的遗嘱。 Alternatively, you can nominate a person by name and address.
 
-## More Providers
+## 更多服务提供商
 
-These providers encrypt your emails in a way that only you can read them later, making them great options for keeping your stored emails secure. However, they don't support interoperable encryption standards for E2EE communications between different providers.
+这些提供商对您的邮件进行加密，只有您可以稍后阅读它们，使它们更能保证您存储的邮件的安全。然而，它们并不支持不同服务提供商之间端到端加密通信的互操作性加密标准。
 
 <div class="grid cards" markdown>
 
@@ -210,18 +210,18 @@ These providers encrypt your emails in a way that only you can read them later, 
 
 <div class="admonition recommendation" markdown>
 
-![Tuta logo](assets/img/email/tuta.svg#only-light){ align=right }
-![Tuta logo](assets/img/email/tuta-dark.svg#only-dark){ align=right }
+![Tuta 标志](assets/img/email/tuta.svg#only-light){ align=right }
+![Tuta 标志](assets/img/email/tuta-dark.svg#only-dark){ align=right }
 
-**Tuta** (formerly *Tutanota*) is an email service with a focus on security and privacy through the use of encryption. Tuta has been in operation since 2011 and is based in Hanover, Germany.
+**Tuta**（原名 *Tutanota*）是一项通过加密技术专注于安全与隐私的邮件服务。 Tuta自2011年起开始运营，总部位于德国汉诺威。
 
-Free accounts start with 1 GB of storage.
+免费账户自带 1 GB储存空间。
 
-[:octicons-home-16: Homepage](https://tuta.com){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://tuta.com/privacy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://tuta.com/support){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/tutao/tutanota){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://tuta.com/community){ .card-link title="Contribute" }
+[:octicons-home-16: 主页](https://tuta.com){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://tuta.com/privacy){ .card-link title="隐私政策" }
+[:octicons-info-16:](https://tuta.com/support){ .card-link title="文档" }
+[:octicons-code-16:](https://github.com/tutao/tutanota){ .card-link title="源代码" }
+[:octicons-heart-16:](https://tuta.com/community){ .card-link title="贡献" }
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
@@ -238,19 +238,19 @@ Free accounts start with 1 GB of storage.
 
 </div>
 
-Tuta doesn't support the [IMAP protocol](https://tuta.com/support#imap) or the use of third-party [email clients](email-clients.md), and you also won't be able to add [external email accounts](https://github.com/tutao/tutanota/issues/544#issuecomment-670473647) to the Tuta app. [Email import](https://github.com/tutao/tutanota/issues/630) is not currently supported either, though this is [due to be changed](https://tuta.com/blog/kickoff-import). Emails can be exported [individually or by bulk selection](https://tuta.com/support#generalMail) per folder, which may be inconvenient if you have many folders.
+Tuta 不支持[IMAP 协议](https://tuta.com/support#imap)，也不支持使用[第三方邮件客户端](email-clients.md)，此外，您也无法在 Tuta 应用中添加[外部邮箱账户](https://github.com/tutao/tutanota/issues/544#issuecomment-670473647)。目前也不支持[邮件导入](https://github.com/tutao/tutanota/issues/630)，不过这一情况[预计将有所改变](https://tuta.com/blog/kickoff-import)。邮件可以[逐封导出，或者按文件夹批量选择导出](https://tuta.com/support#generalMail)，但如果文件夹数量较多，这种操作可能会不方便。
 
 #### :material-check:{ .pg-green } 自定义域名和别名
 
-Paid Tuta accounts can use either 15 or 30 aliases depending on their plan and unlimited aliases on [custom domains](https://tuta.com/support#custom-domain). Tuta doesn't allow for [sub-addressing (plus addresses)](https://tuta.com/support#plus), but you can use a [catch-all](https://tuta.com/support#settings-global) with a custom domain.
+付费版 Tuta 账户可根据其套餐使用 15 个或 30 个别名，并在[自定义域名](https://tuta.com/support#custom-domain)上使用不限数量的别名。 Tuta 不支持[子地址（加号地址）](https://tuta.com/support#plus)，但您可以使用自定义域名的[“通配地址”](https://tuta.com/support#settings-global)。
 
-#### :material-information-outline:{ .pg-blue } Private Payment Methods
+#### :material-information-outline:{ .pg-blue } 隐私性支付方式
 
-Tuta only directly accepts credit cards and PayPal, however you can use [**cryptocurrency**](cryptocurrency.md) to purchase gift cards via their [partnership](https://tuta.com/support/#cryptocurrency) with ProxyStore.
+Tuta 仅直接接受信用卡和 PayPal 支付，但您可以使用 [**加密货币**](cryptocurrency.md) 通过其与ProxyStore[的合作关系](https://tuta.com/support/#cryptocurrency)购买礼品卡。
 
 #### :material-check:{ .pg-green } 账户安全
 
-Tuta supports [two-factor authentication](https://tuta.com/support#2fa) with either TOTP or U2F.
+Tuta 支持使用 TOTP 或 U2F[进行双因素认证](https://tuta.com/support#2fa)。
 
 #### :material-check:{ .pg-green } 数据安全
 

@@ -95,7 +95,7 @@ If you use Android and your threat model requires protecting against [:material-
 
 Note that you are trusting multiple parties by using Molly, as you now need to trust the Signal team *and* the Molly team to deliver safe and timely updates.
 
-Molly provides support for [reproducible builds](https://github.com/mollyim/mollyim-android/tree/main/reproducible-builds), meaning it's possible to confirm that the compiled APKs match the source code.
+Molly 支持[可重复构建](https://github.com/mollyim/mollyim-android/tree/main/reproducible-builds)，这意味着可以确认编译后的 APK 与源代码一致。
 
 ## SimpleX Chat
 
@@ -161,7 +161,7 @@ SimpleX Chat was independently audited in [July 2024](https://simplex.chat/blog/
 
 To add a contact on Briar, you must both add each other first. You can either exchange `briar://` links or scan a contact’s QR code if they are nearby.
 
-Briar has a fully [published specification](https://code.briarproject.org/briar/briar-spec). Briar supports forward secrecy[^1] by using the Bramble [Handshake](https://code.briarproject.org/briar/briar-spec/blob/master/protocols/BHP.md) and [Transport](https://code.briarproject.org/briar/briar-spec/blob/master/protocols/BTP.md) protocol.
+Briar has a fully [published specification](https://code.briarproject.org/briar/briar-spec). Briar 支持前向保密[^1] 通过使用 Bramble[握手](https://code.briarproject.org/briar/briar-spec/blob/master/protocols/BHP.md)和[传输](https://code.briarproject.org/briar/briar-spec/blob/master/protocols/BTP.md)协议来实现。
 
 The client software was independently [audited](https://briarproject.org/news/2017-beta-released-security-audit), and the anonymous routing protocol uses the Tor network which has also been audited.
 
