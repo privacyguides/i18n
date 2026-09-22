@@ -153,7 +153,7 @@ description: Tor هي شبكة مجانية ولا مركزية، صُممت ل�
 
 بعد أن ينشئ Tor الـ circuit، يتم نقل البيانات بالشكل التالي:
 
-1. أولا: عندما تصل الـ packet إلى عقدة الدخول (Entry Node)، تتم إزالة طبقة التشفير الأولى. داخل الـ packet المشفّرة، تجد عقدة الدخول (Entry Node) packet أخرى ما زالت مشفّرة، ومعها عنوان العقدة الوسطى (Middle Node) التي يجب إرسالها إليها. The entry node will then forward the packet to the middle node.
+1. أولا: عندما تصل الـ packet إلى عقدة الدخول (Entry Node)، تتم إزالة طبقة التشفير الأولى. داخل الـ packet المشفّرة، تجد عقدة الدخول (Entry Node) packet أخرى ما زالت مشفّرة، ومعها عنوان العقدة الوسطى (Middle Node) التي يجب إرسالها إليها. بعد ذلك، ترسل عقدة الدخول (Entry Node) الـ packet إلى العقدة الوسطى (Middle Node).
 
 2. Secondly: When the middle node receives the packet from the entry node, it too will remove a layer of encryption with its key, and this time finds an encrypted packet with the exit node's address. The middle node will then forward the packet to the exit node.
 
