@@ -175,7 +175,7 @@ description: Tor هي شبكة مجانية ولا مركزية، صُممت ل�
 على الرغم من أن Tor يوفر ضمانات قوية للخصوصية، فمن المهم أن نكون على دراية بأن Tor ليس مثاليا:
 
 - متصفح Tor لا يحميك من كشف هويتك بالخطأ، مثل أن تشارك معلومات كثيرة جدا عن هويتك الحقيقية.
-- Tor exit nodes can **modify** unencrypted traffic which passes through them. This means traffic which is not encrypted, such as plain HTTP traffic, can be changed by a malicious exit node. **Never** download files from an unencrypted `http://` website over Tor, and ensure your browser is set to always upgrade HTTP traffic to HTTPS.
+- يمكن لـ Tor exit nodes أن **تُعدّل** الـ traffic غير المشفّر الذي يمر من خلالها. This means traffic which is not encrypted, such as plain HTTP traffic, can be changed by a malicious exit node. **Never** download files from an unencrypted `http://` website over Tor, and ensure your browser is set to always upgrade HTTP traffic to HTTPS.
 - Tor exit nodes can also monitor traffic that passes through them. Unencrypted traffic which contains personally identifiable information can deanonymize you to that exit node. Again, we recommend only using HTTPS over Tor.
 - Powerful adversaries with the capability to passively watch *all* network traffic around the globe ("Global Passive Adversaries") are **not** something that Tor protects you against (and using Tor [with a VPN](#safely-connecting-to-tor) doesn't change this fact).
 - Well-funded adversaries with the capability to passively watch *most* network traffic around the globe still have a *chance* of deanonymizing Tor users by means of advanced traffic analysis.
