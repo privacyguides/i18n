@@ -92,50 +92,51 @@ description: Tor هي شبكة مجانية ولا مركزية، صُممت ل�
 
 ### متصفح Tor ليس المتصفح الأكثر *أمانًا*
 
-قد تتعارض إخفاء الهوية أحيانا مع الأمان. يحقق Tor إخفاء الهوية بجعل جميع المستخدمين يبدون متشابهين، مما يخلق بيئة رقمية موحّدة تتشارك فيها جميع النسخ نفس نقاط الضعف. In cybersecurity, monocultures are generally considered a risk. Security through diversity provides natural segmentation by limiting the impact of an exploit to a smaller segment of users. While such diversity is structurally desirable for security, it inherently compromises user anonymity by making individuals trackable.
+قد تتعارض إخفاء الهوية أحيانا مع الأمان. يحقق Tor إخفاء الهوية بجعل جميع المستخدمين يبدون متشابهين، مما يخلق بيئة رقمية موحّدة تتشارك فيها جميع النسخ نفس نقاط الضعف. في الأمن السيبراني، تُعدّ البيئات الموحّدة عمومًا مصدرًا للمخاطر. الأمان من خلال التنوع يوفر عزلا طبيعيا، لأنه يحد من تأثير أي ثغرة بحيث يقتصر على شريحة أصغر من المستخدمين. ورغم أن هذا التنوع مفيد للأمان من ناحية البنية، فإنه يضعف إخفاء هوية المستخدمين بطبيعته، لأنه يجعل تتبّع كل مستخدم أسهل.
 
-Additionally, Tor Browser is based on Firefox's Extended Support Release builds, which only receives patches for vulnerabilities considered *Critical* and *High* (not *Medium* and *Low*). This means that attackers could (for example):
+بالإضافة إلى ذلك، يعتمد متصفح Tor على إصدارات Firefox Extended Support Release، والتي لا تتلقى تحديثات أمنية إلا للثغرات المصنفة على أنها *Critical* و*High*، وليس *Medium* و*Low*. هذا يعني أن المهاجمين يمكنهم، على سبيل المثال:
 
-1. Look for new Critical/High vulnerabilities in Firefox nightly or beta builds, then check if they are exploitable in Tor Browser (this vulnerability period can last weeks).
-2. Chain *multiple* Medium/Low vulnerabilities together until they get the level of access they're looking for (this vulnerability period can last months or longer).
+1. البحث عن ثغرات Critical أو High جديدة في إصدارات Firefox Nightly أو Beta، ثم التحقق مما إذا كان يمكن استغلالها في Tor Browser. وقد تستمر هذه الفترة التي تكون فيها الثغرة قابلة للاستغلال لعدة أسابيع.
+2. دمج *عدة* ثغرات من نوع Medium أو Low معًا، حتى يحصل المهاجم على مستوى الوصول الذي يريده. وقد تستمر فترة قابلية الاستغلال هذه لعدة أشهر أو أكثر.
 
-Those at risk of browser vulnerabilities should consider additional protections to defend against Tor Browser exploits, such as using Whonix in [Qubes](../os/qubes-overview.md) to contain your Tor browsing in a secure virtual machine and protect against leaks.
+ينبغي لمن قد يكونون عرضة لثغرات المتصفح التفكير في وسائل حماية إضافية ضد استغلال ثغرات Tor Browser، مثل استخدام Whonix داخل [Qubes](../os/qubes-overview.md) لعزل تصفح Tor داخل آلة افتراضية آمنة والحماية من تسريب البيانات.
 
-## Path Building to Clearnet Services
+## بناء مسار Tor للوصول إلى مواقع الإنترنت العادية
 
-"Clearnet services" are websites which you can access with any browser, like [privacyguides.org](https://www.privacyguides.org). Tor lets you connect to these websites anonymously by routing your traffic through a network comprised of thousands of volunteer-run servers called nodes (or relays).
+مصطلح "Clearnet services" يقصد به المواقع التي يمكنك الوصول إليها باستخدام أي متصفح، مثل [privacyguides.org](https://www.privacyguides.org). يتيح لك Tor الاتصال بهذه المواقع دون كشف هويتك، وذلك عبر تمرير اتصالك من خلال شبكة تضم آلاف الخوادم التي يديرها متطوعون، وتُسمى nodes أو relays.
 
-Every time you [connect to Tor](../tor.md), it will choose three nodes to build a path to the internet—this path is called a "circuit."
+في كل مرة [تتصل فيها بشبكة Tor](../tor.md)، يختار Tor ثلاث nodes لبناء مسار إلى الإنترنت، ويُسمّى هذا المسار "circuit".
 
 <figure markdown>
-  ![Tor path showing your device connecting to an entry node, middle node, and exit node before reaching the destination website](../assets/img/how-tor-works/tor-path.svg#only-light)
-  ![Tor path showing your device connecting to an entry node, middle node, and exit node before reaching the destination website](../assets/img/how-tor-works/tor-path-dark.svg#only-dark)
-  <figcaption>Tor circuit pathway</figcaption>
+  ![مسار Tor يوضّح اتصال جهازك بـ entry node ثم middle node ثم exit node قبل الوصول إلى الموقع المطلوب](../assets/img/how-tor-works/tor-path.svg#only-light)
+![مسار Tor يوضّح اتصال جهازك بـ entry node ثم middle node ثم exit node قبل الوصول إلى الموقع المطلوب](../assets/img/how-tor-works/tor-path-dark.svg#only-dark)
+
+<figcaption>مسار Tor circuit</figcaption>
 </figure>
 
-Each of these nodes has its own function:
+كل node من هذه الـ nodes لها وظيفة خاصة بها:
 
-### The Entry Node
+### عقدة الدخول (Entry Node)
 
-The entry node, often called the guard node, is the first node to which your Tor client connects. The entry node is able to see your IP address, however it is unable to see what you are connecting to.
+عقدة الدخول (Entry Node)، والتي تُسمّى غالبًا Guard Node، هي أول node يتصل بها Tor client لديك. يمكن لعقدة الدخول (Entry Node) رؤية عنوان IP الخاص بك، لكنها لا تستطيع معرفة الموقع أو الخدمة التي تتصل بها.
 
-Unlike the other nodes, the Tor client will randomly select an entry node and stick with it for two to three months to protect you from certain attacks.[^1]
+على عكس باقي الـ nodes، يختار Tor client عقدة دخول (Entry Node) بشكل عشوائي ويستمر في استخدامها لمدة تتراوح بين شهرين وثلاثة أشهر، وذلك لحمايتك من بعض أنواع الهجمات.[^1]
 
-### The Middle Node
+### العقدة الوسطى (Middle Node)
 
-The middle node is the second node to which your Tor client connects. It can see which node the traffic came from—the entry node—and to which node it goes to next. The middle node cannot, see your IP address or the domain you are connecting to.
+العقدة الوسطى (Middle Node) هي ثاني node يتصل بها Tor client لديك. يمكنها معرفة الـ node التي جاءت منها حركة البيانات، وهي عقدة الدخول (Entry Node)، وكذلك الـ node التي ستنتقل إليها بعد ذلك. لكن العقدة الوسطى (Middle Node) لا يمكنها رؤية عنوان IP الخاص بك أو اسم النطاق الذي تتصل به.
 
-For each new circuit, the middle node is randomly selected out of all available Tor nodes.
+مع كل circuit جديد، يتم اختيار العقدة الوسطى (Middle Node) بشكل عشوائي من بين جميع Tor nodes المتاحة.
 
-### The Exit Node
+### عقدة الخروج (Exit Node)
 
-The exit node is the point in which your web traffic leaves the Tor network and is forwarded to your desired destination. The exit node is unable to see your IP address, but it does know what site it's connecting to.
+عقدة الخروج (Exit Node) هي النقطة التي تغادر عندها حركة الإنترنت الخاصة بك شبكة Tor، ثم يتم توجيهها إلى الوجهة التي تريد الوصول إليها. لا تستطيع عقدة الخروج (Exit Node) رؤية عنوان IP الخاص بك، لكنها تعرف الموقع الذي تتصل به.
 
-The exit node will be chosen at random from all available Tor nodes ran with an exit relay flag.[^2]
+يتم اختيار عقدة الخروج (Exit Node) بشكل عشوائي من بين جميع Tor nodes المتاحة التي تعمل بعلامة exit relay.[^2]
 
-## Path Building to Onion Services
+## بناء المسار إلى خدمات Onion
 
-"Onion Services" (also commonly referred to as "hidden services") are websites which can only be accessed by the Tor browser. These websites have a long randomly generated domain name ending with `.onion`.
+"خدمات Onion" (ويشار إليها أيضا باسم "الخدمات المخفية") هي مواقع لا يمكن الوصول إليها إلا باستخدام Tor Browser. تستخدم هذه المواقع أسماء نطاق طويلة يتم إنشاؤها عشوائيًا، وتنتهي بـ `.onion`.
 
 Connecting to an Onion Service in Tor works very similarly to connecting to a clearnet service, but your traffic is routed through a total of **six** nodes before reaching the destination server. Just like before, however, only three of these nodes are contributing to *your* anonymity, the other three nodes protect *the Onion Service's* anonymity, hiding the website's true IP and location in the same manner that Tor Browser is hiding yours.
 
