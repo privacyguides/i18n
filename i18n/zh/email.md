@@ -22,11 +22,11 @@ global:
 
 对于其他一切，我们根据可持续的商业模式和内置的安全和隐私功能，推荐各种电子邮件供应商。 Read our [full list of criteria](#criteria) for more information.
 
-| 提供商                           | OpenPGP / WKD                          | IMAP / SMTP                                      | 加密存储                                             | 匿名支付方式                                                |
-| ----------------------------- | -------------------------------------- | ------------------------------------------------ | ------------------------------------------------ | ----------------------------------------------------- |
-| [Proton Mail](#proton-mail)   | :material-check:{ .pg-green }          | :material-information-outline:{ .pg-blue } 仅付费方案 | :material-check:{ .pg-green }                    | 现金、<br>通过第三方支付门罗币                               |
-| [Mailbox Mail](#mailbox-mail) | :material-check:{ .pg-green }          | :material-check:{ .pg-green }                    | :material-information-outline:{ .pg-blue } 仅邮件加密 | 现金                                                    |
-| [Tuta](#tuta)                 | :material-alert-outline:{ .pg-orange } | :material-alert-outline:{ .pg-orange }           | :material-check:{ .pg-green }                    | Monero via third party <br>Cash via third party |
+| 提供商                           | OpenPGP / WKD                          | IMAP / SMTP                                      | 加密存储                                             | 匿名支付方式                        |
+| ----------------------------- | -------------------------------------- | ------------------------------------------------ | ------------------------------------------------ | ----------------------------- |
+| [Proton Mail](#proton-mail)   | :material-check:{ .pg-green }          | :material-information-outline:{ .pg-blue } 仅付费方案 | :material-check:{ .pg-green }                    | 现金、<br>通过第三方支付门罗币       |
+| [Mailbox Mail](#mailbox-mail) | :material-check:{ .pg-green }          | :material-check:{ .pg-green }                    | :material-information-outline:{ .pg-blue } 仅邮件加密 | 现金                            |
+| [Tuta](#tuta)                 | :material-alert-outline:{ .pg-orange } | :material-alert-outline:{ .pg-orange }           | :material-check:{ .pg-green }                    | 通过第三方使用门罗币<br>通过第三方使用现金 |
 
 除了（或代替）本文推荐的电子邮件服务商外，您不妨考虑使用专门的[邮件别名服务](email-aliasing.md#recommended-providers)来保护您的隐私。这些服务除其他作用外，还能帮助保护您的真实收件箱免受垃圾邮件侵扰，防止营销人员将您的账户关联起来，并使用PGP对所有收到的邮件进行加密。
 
@@ -121,35 +121,35 @@ Proton Mail 支持基于 FIDO2 或 U2F 标准的 TOTP[双因素认证](https://p
 
 Proton Mail 采用基于 PGP 的加密技术存储您的[邮件](https://proton.me/blog/zero-access-encryption)和[日历](https://proton.me/news/protoncalendar-security-model)，只有您本人拥有解密密钥，才能在以后访问这些内容。
 
-存储在[Proton 联系人](https://proton.me/support/proton-contacts)中的某些信息（例如显示名称和电子邮件地址）**并未**使用您自己的加密密钥进行加密，因此 Proton 可以读取这些信息。 Contact fields which are protected with your own encryption keys, such as phone numbers, are indicated with a padlock icon.
+存储在[Proton 联系人](https://proton.me/support/proton-contacts)中的某些信息（例如显示名称和电子邮件地址）**并未**使用您自己的加密密钥进行加密，因此 Proton 可以读取这些信息。使用您自己的加密密钥进行保护的联系字段（例如电话号码）会显示一个挂锁图标。
 
 #### :material-check:{ .pg-green } 邮件加密
 
-Proton Mail 已在网页版邮箱中[集成了 OpenPGP 加密功能](https://proton.me/support/how-to-use-pgp)。给其他Proton Mail账户的邮件是自动加密的，用OpenPGP密钥给非Proton Mail地址加密可以在账户设置中轻松启用。 Proton 还支持通过 WKD 进行自动外部密钥发现。 This means that emails sent to other providers which use WKD will be automatically encrypted with OpenPGP as well, without the need to manually exchange public PGP keys with your contacts. They also allow you to [encrypt messages to non-Proton Mail addresses without OpenPGP](https://proton.me/support/password-protected-emails), without the need for them to sign up for a Proton Mail account.
+Proton Mail 已在网页版邮箱中[集成了 OpenPGP 加密功能](https://proton.me/support/how-to-use-pgp)。给其他Proton Mail账户的邮件是自动加密的，用OpenPGP密钥给非Proton Mail地址加密可以在账户设置中轻松启用。 Proton 还支持通过 WKD 进行自动外部密钥发现。 This means that emails sent to other providers which use WKD will be automatically encrypted with OpenPGP as well, without the need to manually exchange public PGP keys with your contacts. 此外，它们还允许您[对发送到Proton Mail之外地址的消息进行加密](https://proton.me/support/password-protected-emails)，不需要使用OpenPGP，收件人也不需要注册Proton Mail账户。
 
-Proton Mail also publishes the public keys of Proton accounts via HTTP from their WKD. This allows people who don't use Proton Mail to find the OpenPGP keys of Proton Mail accounts easily for cross-provider E2EE. This only applies to email addresses ending in one of Proton's own domains, like `@proton.me`. If you use a custom domain, you must [configure WKD](basics/email-security.md#what-is-the-web-key-directory-standard) separately.
+Proton Mail also publishes the public keys of Proton accounts via HTTP from their WKD. 这个做法可以让不使用 Proton Mail 的用户也能轻松找到 Proton Mail 账户的 OpenPGP 密钥，从而实现跨服务商的端到端加密。这项功能只能用于以 Proton 自有域名结尾的邮件地址，比如`@proton.me`。 If you use a custom domain, you must [configure WKD](basics/email-security.md#what-is-the-web-key-directory-standard) separately.
 
-#### :material-information-outline:{ .pg-blue } Account Termination
+#### :material-information-outline:{ .pg-blue } 账户停用
 
-If you have a paid account and your [bill is unpaid](https://proton.me/support/delinquency) after 14 days, you won't be able to access your data. 30天后，你的账户将成为欠费账户，不会收到来信。在此期间，您将继续收到账单。 Proton will [delete inactive free accounts](https://proton.me/support/inactive-accounts) after one year. You **cannot** reuse the email address of a deactivated account.
+如果您拥有付费账户，而且14天后[账单仍然没有支付](https://proton.me/support/delinquency)，您将无法访问您的数据。 30天后，你的账户将成为欠费账户，不会收到来信。在此期间，您将继续收到账单。 Proton 将在一年后[删除处于非活跃状态的免费账户](https://proton.me/support/inactive-accounts)。而且已经停用账户的邮件地址是**不能**再次使用的。
 
-#### :material-information-outline:{ .pg-blue } Additional Functionality
+#### :material-information-outline:{ .pg-blue } 附加功能
 
-Proton Mail's [Unlimited](https://proton.me/support/proton-plans#proton-unlimited) plan also enables access to other Proton services in addition to providing multiple custom domains, unlimited hide-my-email aliases, and 500 GB of storage.
+Proton Mail[的“无限”](https://proton.me/support/proton-plans#proton-unlimited)套餐除了提供多个自定义域名、无限量的马甲邮箱以及 500 GB 存储空间外，还可使用其他 Proton 服务。
 
 ### Mailbox Mail
 
 <div class="admonition recommendation" markdown>
 
-![Mailbox Mail logo](assets/img/email/mailbox-mail.svg){ align=right }
+![Mailbox Mail 标志](assets/img/email/mailbox-mail.svg){ align=right }
 
-**Mailbox Mail** (formerly *Mailbox.org*) is an email service with a focus on being secure, ad-free, and powered by 100% eco-friendly energy. 他们自2014年以来一直在运作。 Mailbox Mail is based in Berlin, Germany.
+**Mailbox Mail**（前身为 *Mailbox.org*）是一款以安全、无广告为重点，且100%采用环保能源的邮件服务。他们自2014年以来一直在运作。 Mailbox Mail 总部位于德国柏林。
 
-Accounts start with up to 2 GB storage, which can be upgraded as needed.
+账户创建后自带高达2GB存储，可以根据需要进行升级。
 
-[:octicons-home-16: Homepage](https://mailbox.org){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://mailbox.org/en/data-protection-privacy-policy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://kb.mailbox.org/en/private){ .card-link title="Documentation" }
+[:octicons-home-16: 主页](https://mailbox.org){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://mailbox.org/en/data-protection-privacy-policy){ .card-link title="隐私政策" }
+[:octicons-info-16:](https://kb.mailbox.org/en/private){ .card-link title="文档" }
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
@@ -162,37 +162,37 @@ Accounts start with up to 2 GB storage, which can be upgraded as needed.
 
 #### :material-check:{ .pg-green } 自定义域名和别名
 
-Mailbox Mail lets you use your own domain, and they support [catch-all](https://kb.mailbox.org/en/private/custom-domains/use-your-own-domain-with-catch-all/) addresses. Mailbox Mail also supports [sub-addressing](https://kb.mailbox.org/en/private/e-mail/what-is-an-alias-and-how-do-i-use-it/), which is useful if you don't want to purchase a domain.
+Mailbox Mail 允许您使用自己的域名，并且支持[“通配”](https://kb.mailbox.org/en/private/custom-domains/use-your-own-domain-with-catch-all/)邮箱地址。 Mailbox Mail 还支持[子邮箱功能](https://kb.mailbox.org/en/private/e-mail/what-is-an-alias-and-how-do-i-use-it/)，如果您不想购买域名，这会非常有用。
 
 #### :material-check:{ .pg-green } 隐私性支付方式
 
-Mailbox Mail doesn't accept any cryptocurrencies as a result of their payment processor BitPay suspending operations in Germany. However, they do accept **cash** by mail, **cash** payment to bank account, bank transfer, credit card, PayPal, and a couple of German-specific processors: Paydirekt and Sofortüberweisung.
+由于其支付服务商BitPay暂停了在德国的业务，Mailbox Mail不再接受任何加密货币支付。不过，他们确实接受邮寄**现金**、银行账户**现金**支付、银行转账、信用卡、PayPal，以及两种德国特有的支付渠道：Paydirekt 和 Sofortüberweisung。
 
 #### :material-check:{ .pg-green } 账户安全
 
-Mailbox Mail supports [two-factor authentication](https://kb.mailbox.org/en/private/security-and-privacy/how-to-use-two-factor-authentication-2fa/) for their webmail only. You can use either TOTP or a [YubiKey](security-keys.md#yubikey) via the [YubiCloud](https://yubico.com/products/services-software/yubicloud). Web standards such as [WebAuthn](basics/multi-factor-authentication.md#fido-fast-identity-online) are not yet supported.
+Mailbox Mail 仅对其网页版邮箱支持[双因素认证](https://kb.mailbox.org/en/private/security-and-privacy/how-to-use-two-factor-authentication-2fa/)。您可以通过[YubiCloud](https://yubico.com/products/services-software/yubicloud) 使用 TOTP 或[YubiKey](security-keys.md#yubikey)。目前尚不支持[WebAuthn](basics/multi-factor-authentication.md#fido-fast-identity-online)等 Web 标准。
 
-#### :material-information-outline:{ .pg-blue } Data Security
+#### :material-information-outline:{ .pg-blue } 数据安全
 
-Mailbox Mail allows for encryption of incoming mail using their [encrypted mailbox](https://kb.mailbox.org/en/private/encryption/your-encrypted-mailbox/). New messages that you receive will then be immediately encrypted with your public key.
+Mailbox Mail 支持通过其[加密邮箱](https://kb.mailbox.org/en/private/encryption/your-encrypted-mailbox/)对收到的邮件进行加密。您收到的新消息后将立即使用您的公钥进行加密。
 
-However, [Open-Xchange](https://en.wikipedia.org/wiki/Open-Xchange), the software platform used by Mailbox Mail, [does not support](https://kb.mailbox.org/en/business/security-privacy-article/encryption-of-calendar-and-address-book/) the encryption of your address book and calendar. A [standalone option](calendar.md) may be more appropriate for that data.
+然而，Mailbox Mail 所使用的软件平台[Open-Xchange](https://en.wikipedia.org/wiki/Open-Xchange) [不支持](https://kb.mailbox.org/en/business/security-privacy-article/encryption-of-calendar-and-address-book/)对您的通讯录和日历进行加密。 A [standalone option](calendar.md) may be more appropriate for that data.
 
 #### :material-check:{ .pg-green } 邮件加密
 
-Mailbox Mail has [integrated encryption](https://kb.mailbox.org/en/private/encryption/how-can-e-mails-be-encrypted-with-pgp/) in their webmail, which simplifies sending messages to people with public OpenPGP keys. They also allow [remote recipients to decrypt an email](https://kb.mailbox.org/en/private/encryption/my-recipient-does-not-use-pgp/) on Mailbox Mail's servers. This feature is useful when the remote recipient does not have OpenPGP and cannot decrypt a copy of the email in their own mailbox.
+Mailbox Mail 在其网页邮箱中[集成了加密功能](https://kb.mailbox.org/en/private/encryption/how-can-e-mails-be-encrypted-with-pgp/)，这使得向拥有公开 OpenPGP 密钥的用户发送邮件变得更加简单。该功能还允许[远程收件人解密](https://kb.mailbox.org/en/private/encryption/my-recipient-does-not-use-pgp/)在Mailbox Mail 服务器上的邮件。当远程收件人没有 OpenPGP 且无法对其邮箱中的邮件副本进行解密时，此功能非常有用。
 
-Mailbox Mail also supports the discovery of public keys via HTTP from their WKD. This allows people outside of Mailbox Mail to find the OpenPGP keys of Mailbox Mail accounts easily for cross-provider E2EE. This only applies to email addresses ending in one of Mailbox Mail's own domains, like `@mailbox.org`. If you use a custom domain, you must [configure WKD](basics/email-security.md#what-is-the-web-key-directory-standard) separately.
+Mailbox Mail also supports the discovery of public keys via HTTP from their WKD. 这使得 Mailbox Mail 平台外的用户能够轻松找到 Mailbox Mail 账户的 OpenPGP 密钥，从而实现跨提供商的端到端加密E2EE。这项功能只能用于以Mailbox Mail自有域名结尾的邮件地址，比如`@mailbox.org`。 If you use a custom domain, you must [configure WKD](basics/email-security.md#what-is-the-web-key-directory-standard) separately.
 
-#### :material-information-outline:{ .pg-blue } Account Termination
+#### :material-information-outline:{ .pg-blue } 账户停用
 
-Your account will be set to a restricted user account when your contract ends. It will be irrevocably deleted after [30 days](https://kb.mailbox.org/en/en/private/account/reactivate-a-deleted-account/).
+合约到期后，您的账户将被设为受限用户账户。 [30天](https://kb.mailbox.org/en/en/private/account/reactivate-a-deleted-account/)后，该内容将被永久删除。
 
-#### :material-information-outline:{ .pg-blue } Additional Functionality
+#### :material-information-outline:{ .pg-blue } 附加功能
 
-You can access your Mailbox Mail account via IMAP/SMTP using their [.onion service](https://kb.mailbox.org/en/en/private/security-privacy/using-the-tor-exit-node-from-mailbox/). However, their webmail interface cannot be accessed via their .onion service, and you may experience TLS certificate errors.
+您可以通过其[.onion 服务](https://kb.mailbox.org/en/en/private/security-privacy/using-the-tor-exit-node-from-mailbox/)，使用 IMAP/SMTP 访问您的 Mailbox Mail 账户。不过，无法通过其 .onion 服务访问他们的网页邮件界面，而且您可能会遇到 TLS 证书错误。
 
-All accounts come with limited cloud storage that [can be encrypted](https://kb.mailbox.org/en/private/drive/encrypt-files-on-your-drive/). Mailbox Mail also offers the alias [@secure.mailbox.org](https://kb.mailbox.org/en/business/e-mail-article/ensuring-e-mails-are-sent-securely/), which enforces the TLS encryption on the connection between mail servers, otherwise the message will not be sent at all. Mailbox Mail also supports [Exchange ActiveSync](https://en.wikipedia.org/wiki/Exchange_ActiveSync) in addition to standard access protocols like IMAP and POP3.
+所有账户都自带[可加密](https://kb.mailbox.org/en/private/drive/encrypt-files-on-your-drive/)的有限云空间。 Mailbox Mail 还提供了一个别名[@secure.mailbox.org，](https://kb.mailbox.org/en/business/e-mail-article/ensuring-e-mails-are-sent-securely/)该别名会强制在邮件服务器之间的连接中启用 TLS 加密，否则邮件将无法发送。 Mailbox Mail also supports [Exchange ActiveSync](https://en.wikipedia.org/wiki/Exchange_ActiveSync) in addition to standard access protocols like IMAP and POP3.
 
 Mailbox Mail has a digital legacy feature for all plans. You can choose whether you want any of your data to be passed to heirs, providing that they apply and provide your testament. Alternatively, you can nominate a person by name and address.
 
@@ -260,11 +260,11 @@ Tuta stores your [emails](https://tuta.com/support#what-encrypted), [address boo
 
 Tuta [does not use OpenPGP](https://tuta.com/support/#pgp). Tuta accounts can only receive encrypted emails from non-Tuta email accounts when sent via a [temporary Tuta mailbox](https://tuta.com/support/#encrypted-email-external).
 
-#### :material-information-outline:{ .pg-blue } Account Termination
+#### :material-information-outline:{ .pg-blue } 账户停用
 
 Tuta will [delete inactive free accounts](https://tuta.com/support#inactive-accounts) after six months. You can reuse a deactivated free account if you pay.
 
-#### :material-information-outline:{ .pg-blue } Additional Functionality
+#### :material-information-outline:{ .pg-blue } 附加功能
 
 Tuta offers the business version of [Tuta to non-profit organizations](https://tuta.com/blog/secure-email-for-non-profit) for free or with a heavy discount.
 
@@ -372,6 +372,6 @@ With the email providers we recommend, we like to see responsible marketing.
 
 - Clear and easy-to-read documentation for tasks like setting up 2FA, email clients, OpenPGP, etc.
 
-### Additional Functionality
+### 附加功能
 
 While not strictly requirements, there are some other convenience or privacy factors we looked into when determining which providers to recommend.
