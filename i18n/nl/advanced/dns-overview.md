@@ -126,7 +126,7 @@ In dit voorbeeld zullen we vastleggen wat er gebeurt als we een DoH-verzoek doen
 
 We can see the [connection establishment](https://en.wikipedia.org/wiki/Transmission_Control_Protocol#Connection_establishment) and [TLS handshake](https://cloudflare.com/learning/ssl/what-happens-in-a-tls-handshake) that occurs with any encrypted connection. Als we kijken naar de "toepassingsgegevens" pakketten die volgen, bevat geen van hen het domein dat we hebben aangevraagd of het IP-adres dat wordt teruggestuurd.
 
-## Waarom **zou ik geen** versleutelde DNS gebruiken?
+## Encrypted DNS Limitations
 
 Op plaatsen waar internet wordt gefilterd (of gecensureerd), kan het bezoeken van verboden bronnen eigen gevolgen hebben waarmee je rekening moet houden in jouw [bedreigingsmodel](../basics/threat-modeling.md). We raden het gebruik van versleutelde DNS voor dit doel **af**. Use [Tor](../advanced/tor-overview.md) or a [VPN](../vpn.md) instead. Als je een VPN gebruikt, moet je de DNS-servers van jouw VPN gebruiken. Wanneer je een VPN gebruikt, vertrouwt je hen al jouw netwerkactiviteiten toe.
 

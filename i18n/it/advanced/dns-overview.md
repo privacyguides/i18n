@@ -126,7 +126,7 @@ In questo esempio registreremo cosa si verifica quando effettuiamo una richiesta
 
 Possiamo vedere la [creazione della connessione](https://en.wikipedia.org/wiki/Transmission_Control_Protocol#Connection_establishment) e l'[handshake TLS](https://cloudflare.com/learning/ssl/what-happens-in-a-tls-handshake) che si verifica con qualsiasi connessione crittografata. Osservando i successivi pacchetti di "dati dell'applicazione", nessuno di essi contiene il dominio richiesto o l'indirizzo IP restituito.
 
-## Perché **non dovrei** utilizzare il DNS crittografato?
+## Encrypted DNS Limitations
 
 Nei luoghi in cui esiste il filtraggio (o censura) di Internet, visitare le risorse proibite potrebbe avere delle conseguenze, che dovresti considerare nel tuo [modello di minaccia](../basics/threat-modeling.md). [Non](https://en.wikipedia.org/wiki/Internet_Engineering_Task_Force) suggeriamo di utilizzare il DNS crittografato per tale scopo. Utilizza invece [Tor](../advanced/tor-overview.md) o una [VPN](../vpn.md). Se stai utilizzando una VPN, dovresti utilizzare i server DNS della tua VPN. Utilizzando una VPN, stai già affidando loro tutta la tua attività di rete.
 

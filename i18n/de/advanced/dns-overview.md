@@ -126,7 +126,7 @@ In diesem Beispiel werden wir aufzeichnen, was passiert, wenn wir eine DoH-Anfra
 
 Wir können den [Verbindungsaufbau](https://en.wikipedia.org/wiki/Transmission_Control_Protocol#Connection_establishment) und den [TLS-Handshake](https://cloudflare.com/learning/ssl/what-happens-in-a-tls-handshake) sehen, der bei jeder verschlüsselten Verbindung stattfindet. Die folgenden "Anwendungsdaten"-Pakete enthalten weder die von uns angeforderte Domäne noch die zurückgegebene IP-Adresse.
 
-## Why **shouldn't** I use encrypted DNS?
+## Encrypted DNS Limitations
 
 In locations where there is internet filtering (or censorship), visiting forbidden resources may have its own consequences which you should consider in your [threat model](../basics/threat-modeling.md). We do **not** suggest the use of encrypted DNS for this purpose. Use [Tor](../advanced/tor-overview.md) or a [VPN](../vpn.md) instead. If you're using a VPN, you should use your VPN's DNS servers. When using a VPN, you are already trusting them with all your network activity.
 

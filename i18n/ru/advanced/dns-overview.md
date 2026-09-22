@@ -126,7 +126,7 @@ Apple не предоставляет нативного интерфейса д
 
 We can see the [connection establishment](https://en.wikipedia.org/wiki/Transmission_Control_Protocol#Connection_establishment) and [TLS handshake](https://cloudflare.com/learning/ssl/what-happens-in-a-tls-handshake) that occurs with any encrypted connection. При просмотре последующих пакетов "данных приложения" ни один из них не содержит запрашиваемого нами домена или возвращаемого IP-адреса.
 
-## Почему мне **не следует** использовать зашифрованный DNS?
+## Encrypted DNS Limitations
 
 В местах, где существует фильтрация интернета (или цензура), посещение запрещенных ресурсов может иметь свои последствия, которые следует учитывать в [модели угроз](../basics/threat-modeling.md). Мы **не** предлагаем использовать для этих целей зашифрованный DNS. Use [Tor](../advanced/tor-overview.md) or a [VPN](../vpn.md) instead. Если вы используете VPN, вам следует использовать DNS-серверы вашего VPN. Используя VPN, вы уже доверяете им всю свою сетевую активность.
 

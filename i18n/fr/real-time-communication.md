@@ -72,9 +72,9 @@ Si vous êtes sous Android et que votre modèle de menace vous expose à des [:m
 
 <div class="admonition recommendation" markdown>
 
-![Logo de Molly](assets/img/messengers/molly.svg){ align=right }
+![Molly logo](assets/img/messengers/molly.svg){ align=right }
 
-**Molly** est un client alternatif de Signal pour Android qui vous permet de chiffrer la base de données locale avec une phrase de passe après la mise en veille, de détruire de façon sécurisée les données de RAM non utilisées, de faire passer votre connexion par Tor, [et bien d'autres](https://blog.privacyguides.org/2022/07/07/signal-configuration-and-hardening#privacy-and-security-features). Elle permet également de programmer une sauvegarde automatique, de verrouiller l'application automatiquement et d'avoir la possibilité d'utiliser votre téléphone Android comme appareil lié plutôt que comme appareil principal pour un compte Signal.
+**Molly** is an alternative Signal client for Android which allows you to encrypt the local database with a passphrase at rest, to have unused RAM data securely shredded, to route your connection via Tor, and [more](https://www.privacyguides.org/articles/2022/07/07/signal-configuration-and-hardening#privacy-and-security-features). Elle permet également de programmer une sauvegarde automatique, de verrouiller l'application automatiquement et d'avoir la possibilité d'utiliser votre téléphone Android comme appareil lié plutôt que comme appareil principal pour un compte Signal.
 
 [:octicons-home-16: Page d'Accueil](https://molly.im){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://signal.org/legal/#privacy-policy){ .card-link title="Politique de Confidentialité" }
@@ -93,13 +93,9 @@ Si vous êtes sous Android et que votre modèle de menace vous expose à des [:m
 
 </div>
 
-Molly est mise à jour toutes les deux semaines afin d'inclure les dernières fonctionnalités et les corrections de bug de Signal. Les mis à jour de sécurité sont quant à elles mises à disposition le plus vite possible. Il peut parfois avoir un petit délai, ce qui peut affecter certaines actions, comme la [migration de Signal à Molly](https://github.com/mollyim/mollyim-android/wiki/Migrating-From-Signal#migrating-from-signal).
-
 Lorsque vous utilisez Molly, vous faites confiance à plusieurs intermédiaires pour vous fournir rapidement des mises à jour sécurisées, à savoir l'équipe de Signal *et* l'équipe de Molly.
 
-**Molly-FOSS** est une version de Molly qui retire tout le code propriétaire utilisé par Signal et Molly (comme les services Google), au prix de certaines fonctionnalités (comme les notifications push économisant la batterie via les services Google Play). Vous pouvez paramétrer les notifications push sans les services Google dans les deux versions de Molly avec [UnifiedPush](https://unifiedpush.org). Cette méthode d'envoi de notifications nécessite l'accès à un serveur [MollySocket](https://github.com/mollyim/mollysocket), mais vous pouvez choisir une instance publique de MollySocket.[^3]
-
-Les deux versions de Molly possèdent les mêmes améliorations de sécurité et sont compatibles avec les [builds reproductibles](https://github.com/mollyim/mollyim-android/tree/main/reproducible-builds), ce qui vous permet de confirmer que les APKs correspondent au code source.
+Molly provides support for [reproducible builds](https://github.com/mollyim/mollyim-android/tree/main/reproducible-builds), meaning it's possible to confirm that the compiled APKs match the source code.
 
 ## SimpleX Chat
 
@@ -165,7 +161,7 @@ SimpleX Chat a été audité par un organisme indépendant en [juillet 2024](htt
 
 Pour ajouter un contact sur Briar, vous devez vous ajouter mutuellement. Vous pouvez échanger vos liens `briar://` ou scanner le QR code de votre contact si vous êtes à proximité.
 
-Briar a publié entièrement son [cahier des charges](https://code.briarproject.org/briar/briar-spec). Briar est compatible avec la confidentialité persistante [^1] grâce aux protocoles [Bramble Handshake](https://code.briarproject.org/briar/briar-spec/blob/master/protocols/BHP.md) et [Transport](https://code.briarproject.org/briar/briar-spec/blob/master/protocols/BTP.md).
+Briar a publié entièrement son [cahier des charges](https://code.briarproject.org/briar/briar-spec). Briar supports forward secrecy[^1] by using the Bramble [Handshake](https://code.briarproject.org/briar/briar-spec/blob/master/protocols/BHP.md) and [Transport](https://code.briarproject.org/briar/briar-spec/blob/master/protocols/BTP.md) protocol.
 
 Le logiciel client a été [audité](https://briarproject.org/news/2017-beta-released-security-audit) par un organisme indépendant et le protocole de routage anonyme utilise le réseau Tor, qui a également été audité.
 
@@ -179,19 +175,18 @@ Le logiciel client a été [audité](https://briarproject.org/news/2017-beta-rel
 - Ne doit pas obliger à partager des identificateurs personnels (en particulier un mail ou un numéro de téléphone) avec les contacts.
 - Doit utiliser le chiffrement de bout-en-bout par défaut pour les messages privés.
 - Doit prendre en charge le chiffrement de bout-en-bout pour tous les messages.
-- Doit être compatible avec la confidentialité persistante[^1]
+- Must support forward secrecy[^1]
 - Doit disposer d'un audit publié par une tierce partie indépendante et réputée.
 
 ### Critères optimaux
 
 Nos critères optimaux représentent ce que nous aimerions voir d'un projet parfait dans cette catégorie. Nos recommandations peuvent ne pas inclure tout ou partie de ces fonctionnalités, mais celles qui l'inclus peuvent être mieux classées que les autres sur cette page.
 
-- Devrait prendre en charge la confidentialité future (sécurité post-compromission)[^2]
+- Should support future secrecy (post-compromise security)[^2]
 - Devrait avoir des serveurs open-source.
 - Devrait utiliser un réseau décentralisé, soit [fédéré ou P2P (pair à pair)](advanced/communication-network-types.md).
 - Devrait utiliser le chiffrement de bout-en-bout par défaut pour tous les messages.
 - Devrait être disponible sur Linux, macOS, Windows, Android et iOS.
-[^3]: Vous pouvez utiliser ce tutoriel étape par étape en allemand pour paramétrer UnifiedPush en tant que fournisseur de notification pour Molly :[https://kuketz-blog.de/messenger-wechsel-von-signal-zu-molly-unifiedpush-mollysocket-ntfy](https://kuketz-blog.de/messenger-wechsel-von-signal-zu-molly-unifiedpush-mollysocket-ntfy).
 
 [^1]: La [confidentialité persistante](https://en.wikipedia.org/wiki/Forward_secrecy) désigne le fait d'utiliser une rotation très fréquente des clefs pour protéger les **anciens** messages lorsque la clé de chiffrement présente est compromise.
 [^2]: La confidentialité future (ou [sécurité post-compromission](https://eprint.iacr.org/2016/221.pdf)) est une fonctionnalité qui empêche un attaquant de déchiffrer les messages **futurs** lorsqu'une clef est compromise, à moins qu'il ne compromette également les futures clefs. Cela force l'attaquant à devoir intercepter toutes les communications entre les parties puisqu'il en perd l'accès dès qu'un nouvel échange de clé n'est pas intercepté.

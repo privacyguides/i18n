@@ -126,7 +126,7 @@ DoH的原生实现出现在iOS 14、macOS 11、微软Windows和Android 13中（�
 
 We can see the [connection establishment](https://en.wikipedia.org/wiki/Transmission_Control_Protocol#Connection_establishment) and [TLS handshake](https://cloudflare.com/learning/ssl/what-happens-in-a-tls-handshake) that occurs with any encrypted connection. 当查看下面的“应用程序数据”数据包时，没有一个数据包包含我们请求的域或返回的IP地址。
 
-## 为什么我**不应该** 使用加密的DNS？
+## Encrypted DNS Limitations
 
 在有互联网过滤（或审查）的地方，访问被禁止的资源可能会有自己的后果，你应该在你的 [威胁模型](../basics/threat-modeling.md)。我们 **不** 建议为此目的使用加密的DNS。 Use [Tor](../advanced/tor-overview.md) or a [VPN](../vpn.md) instead. 如果您使用的是VPN ，则应使用VPN的DNS服务器。使用VPN时，您已经信任它们的所有网络活动。
 

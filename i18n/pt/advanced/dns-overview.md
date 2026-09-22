@@ -126,7 +126,7 @@ Neste exemplo, vamos registar o que acontece quando fazemos um pedido ao DoH:
 
 We can see the [connection establishment](https://en.wikipedia.org/wiki/Transmission_Control_Protocol#Connection_establishment) and [TLS handshake](https://cloudflare.com/learning/ssl/what-happens-in-a-tls-handshake) that occurs with any encrypted connection. Ao olhar para os pacotes de "dados da aplicação" que se seguem, verificamos que nenhum deles contém o domínio que pedimos ou o endereço IP devolvido.
 
-## Por que razão **não devo** utilizar DNS encriptado?
+## Encrypted DNS Limitations
 
 Em locais onde existe filtragem (ou censura) da Internet, visitar recursos proibidos pode ter as suas próprias consequências, que devem ser consideradas no [modelo de ameaças](../basics/threat-modeling.md). **Não** sugerimos a utilização de DNS encriptado para este fim. Use [Tor](../advanced/tor-overview.md) or a [VPN](../vpn.md) instead. Se estiver a utilizar uma VPN, deve utilizar os servidores DNS da sua VPN. Ao utilizar uma VPN, está a confiar-lhes toda a sua atividade de rede.
 

@@ -126,7 +126,7 @@ Dans cet exemple, nous allons enregistrer ce qui se passe lorsque nous faisons u
 
 Nous pouvons voir l'[établissement de la connexion](https://en.wikipedia.org/wiki/Transmission_Control_Protocol#Connection_establishment) et la [poignée de main TLS](https://cloudflare.com/learning/ssl/what-happens-in-a-tls-handshake) qui se produit avec toute connexion chiffrée. Lorsque l'on regarde les paquets de "données d'application" qui suivent, aucun d'entre eux ne contient le domaine que nous avons demandé ou l'adresse IP renvoyée.
 
-## Pourquoi **ne devrais-je pas** utiliser un DNS chiffré ?
+## Encrypted DNS Limitations
 
 Dans les endroits où il existe un filtrage (ou une censure) de l'Internet, la visite de ressources interdites peut avoir ses propres conséquences que vous devez prendre en compte dans votre [modèle de menace](../basics/threat-modeling.md). Nous ne suggérons **pas** l'utilisation de DNS chiffrés à cette fin. Utilisez plutôt [Tor](../advanced/tor-overview.md) ou un [VPN](../vpn.md). Si vous utilisez un VPN, vous devez utiliser les serveurs DNS de votre VPN. En utilisant un VPN, vous lui confiez déjà toute votre activité réseau.
 

@@ -126,7 +126,7 @@ Apple אינה מספקת ממשק מקורי ליצירת פרופילי DNS מ
 
 We can see the [connection establishment](https://en.wikipedia.org/wiki/Transmission_Control_Protocol#Connection_establishment) and [TLS handshake](https://cloudflare.com/learning/ssl/what-happens-in-a-tls-handshake) that occurs with any encrypted connection. כאשר מסתכלים על חבילות "האפליקציה" שלאחר מכן, אף אחת מהן לא מכילה את הדומיין שביקשנו או את כתובת ה-IP שהוחזרה.
 
-## מדוע **אסור** לי להשתמש ב-DNS מוצפן?
+## Encrypted DNS Limitations
 
 במקומות שבהם קיים סינון (או צנזורה) באינטרנט, לביקור במשאבים אסורים עשויות להיות השלכות משלו, שכדאי לשקול ב[מודל האיומים](../basics/threat-modeling.md) שלך. אנו **לא** מציעים להשתמש ב-DNS מוצפן למטרה זו. Use [Tor](../advanced/tor-overview.md) or a [VPN](../vpn.md) instead. אם אתה משתמש ב-VPN, עליך להשתמש בשרתי ה-DNS של ה-VPN שלך. כשאתה משתמש ב-VPN, אתה כבר סומך עליהם בכל פעילות הרשת שלך.
 

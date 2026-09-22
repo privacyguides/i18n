@@ -126,7 +126,7 @@ W tym przykładzie zarejestrujemy, co się dzieje podczas wysyłania żądania D
 
 Możemy zobaczyć przebieg [nawiązywania połączenia](https://pl.wikipedia.org/wiki/Protokół_sterowania_transmisją#Nawiązywanie_połączenia) oraz tzw. [uścisku dłoni TLS](https://cloudflare.com/learning/ssl/what-happens-in-a-tls-handshake) (*TLS handshake*), które występują przy każdym szyfrowanym połączeniu. Patrząc na pakiety oznaczone jako „application data”, żaden z nich nie zawiera ani żądanej domeny, ani zwróconego adresu IP.
 
-## Dlaczego **nie należy** używać szyfrowanego DNS?
+## Encrypted DNS Limitations
 
 W miejscach, gdzie stosowane jest filtrowanie Internetu (lub cenzura), odwiedzanie zabronionych zasobów może nieść za sobą konsekwencje, które warto uwzględnić w swoim [modelu zagrożeń](../basics/threat-modeling.md). **Nie zalecamy** używania szyfrowanego DNS w tym celu. Zamiast tego skorzystaj z sieci [Tor](../advanced/tor-overview.md) lub [VPN](../vpn.md). Jeśli korzystasz z sieci VPN, używaj serwerów DNS dostarczanych przez jej dostawcę. Przy użyciu VPN już ufa się dostawcy w kwestii całej swojej aktywności internetowej.
 

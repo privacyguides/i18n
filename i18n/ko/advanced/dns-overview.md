@@ -126,7 +126,7 @@ Apple은 암호화 DNS 프로필 생성을 위한 기본 인터페이스를 제�
 
 We can see the [connection establishment](https://en.wikipedia.org/wiki/Transmission_Control_Protocol#Connection_establishment) and [TLS handshake](https://cloudflare.com/learning/ssl/what-happens-in-a-tls-handshake) that occurs with any encrypted connection. 뒤따르는 'Application Data' 패킷을 살펴보면 요청했던 도메인이나 반환된 IP 주소가 포함되어 있지 않다는 것 또한 확인할 수 있습니다.
 
-## 암호화 DNS를 사용하지 **말아야** 하는 이유는 무엇인가요?
+## Encrypted DNS Limitations
 
 인터넷 필터링(혹은 검열)이 존재하는 지역에서는 '차단된 정보에 접근하는 행위' 자체가 자신의 [위협 모델](../basics/threat-modeling.md)에서 고려해야 할 어떠한 결과를 초래할 수도 있습니다. Privacy Guides는 이러한 목적으로 암호화 DNS를 사용하는 것은 추천드리지 **않습니다**. Use [Tor](../advanced/tor-overview.md) or a [VPN](../vpn.md) instead. VPN을 사용하는 경우, 자신이 사용하는 VPN의 DNS 서버를 사용해야 합니다. VPN을 사용하는 순간부터 이미 자신의 모든 네트워크 활동을 VPN 업체에게 맡기고 있는 것이기 때문입니다.
 
