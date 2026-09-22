@@ -254,15 +254,15 @@ Tuta 支持使用 TOTP 或 U2F[进行双因素认证](https://tuta.com/support#2
 
 #### :material-check:{ .pg-green } 数据安全
 
-Tuta stores your [emails](https://tuta.com/support#what-encrypted), [address book contacts](https://tuta.com/support#encrypted-address-book), and [calendars](https://tuta.com/support#calendar) with strong encryption where only you have the decryption keys. This means the messages and other data stored in your account cannot be read by anyone other than you after they are stored.
+Tuta 会将您的[电子邮件](https://tuta.com/support#what-encrypted)、[通讯录联系人](https://tuta.com/support#encrypted-address-book)以及[日历](https://tuta.com/support#calendar)通过强加密技术进行存储，只有您拥有解密密钥。这意味着，一旦消息和其他数据存储到您的账户中，除您本人外，任何人都无法读取这些内容。
 
-#### :material-information-outline:{ .pg-blue } Email Encryption
+#### :material-information-outline:{ .pg-blue } 邮件加密
 
-Tuta [does not use OpenPGP](https://tuta.com/support/#pgp). Tuta accounts can only receive encrypted emails from non-Tuta email accounts when sent via a [temporary Tuta mailbox](https://tuta.com/support/#encrypted-email-external).
+Tuta[不使用 OpenPGP](https://tuta.com/support/#pgp)。 Tuta accounts can only receive encrypted emails from non-Tuta email accounts when sent via a [temporary Tuta mailbox](https://tuta.com/support/#encrypted-email-external).
 
 #### :material-information-outline:{ .pg-blue } 账户停用
 
-Tuta will [delete inactive free accounts](https://tuta.com/support#inactive-accounts) after six months. You can reuse a deactivated free account if you pay.
+Tuta 将在六个月后[删除处于非活跃状态的免费账户](https://tuta.com/support#inactive-accounts)。只要付费，您就可以重新使用已被停用的免费账户。
 
 #### :material-information-outline:{ .pg-blue } 附加功能
 
@@ -270,7 +270,7 @@ Tuta offers the business version of [Tuta to non-profit organizations](https://t
 
 ## Criteria
 
-**Please note we are not affiliated with any of the providers we recommend.** In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements for any email provider wishing to be recommended, including implementing industry best practices, modern technology and more. We suggest you familiarize yourself with this list before choosing an email provider, and conduct your own research to ensure the email provider you choose is the right choice for you.
+**请注意，我们与所推荐的任何服务提供商均无关联。**除[标准评选标准](about/criteria.md)外，我们还针对希望获得推荐的邮件服务提供商制定了一套明确的要求，包括实施行业最佳实践、采用现代技术等。 We suggest you familiarize yourself with this list before choosing an email provider, and conduct your own research to ensure the email provider you choose is the right choice for you.
 
 ### 技术
 
