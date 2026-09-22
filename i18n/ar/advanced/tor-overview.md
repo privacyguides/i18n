@@ -155,21 +155,22 @@ description: Tor هي شبكة مجانية ولا مركزية، صُممت ل�
 
 1. أولا: عندما تصل الـ packet إلى عقدة الدخول (Entry Node)، تتم إزالة طبقة التشفير الأولى. داخل الـ packet المشفّرة، تجد عقدة الدخول (Entry Node) packet أخرى ما زالت مشفّرة، ومعها عنوان العقدة الوسطى (Middle Node) التي يجب إرسالها إليها. بعد ذلك، ترسل عقدة الدخول (Entry Node) الـ packet إلى العقدة الوسطى (Middle Node).
 
-2. Secondly: When the middle node receives the packet from the entry node, it too will remove a layer of encryption with its key, and this time finds an encrypted packet with the exit node's address. The middle node will then forward the packet to the exit node.
+2. ثانيا: عندما تستقبل العقدة الوسطى (Middle Node) الـ packet من عقدة الدخول (Entry Node)، تزيل هي أيضا طبقة من التشفير باستخدام مفتاحها. بعدها تجد بداخلها packet أخرى ما زالت مشفّرة، ومعها عنوان عقدة الخروج (Exit Node) التي يجب إرسالها إليها. بعد ذلك، ترسل العقدة الوسطى (Middle Node) الـ packet إلى عقدة الخروج (Exit Node).
 
-3. Lastly: When the exit node receives its packet, it will remove the last layer of encryption with its key. The exit node will see the destination address and forward the packet to that address.
+3. أخيرًا: عندما تستقبل عقدة الخروج (Exit Node) الـ packet، تزيل آخر طبقة من التشفير باستخدام مفتاحها. بعد ذلك، ترى عقدة الخروج (Exit Node) عنوان الوجهة، ثم ترسل الـ packet إلى هذا العنوان.
 
-Below is an alternative diagram showing the process. Each node removes its own layer of encryption, and when the destination server returns data, the same process happens entirely in reverse. For example, the exit node does not know who you are, but it does know which node it came from, and so it adds its own layer of encryption and sends it back.
+فيما يلي رسم توضيحي آخر يشرح هذه العملية. تزيل كل node طبقة التشفير الخاصة بها، وعندما يرسل خادم الوجهة (destination server) البيانات مرة أخرى، تحدث العملية نفسها بالكامل ولكن بالترتيب العكسي. على سبيل المثال، لا تعرف عقدة الخروج (Exit Node) من أنت، لكنها تعرف الـ node التي جاءت منها البيانات، لذلك تضيف طبقة التشفير الخاصة بها ثم ترسل البيانات إليها مرة أخرى.
 
 <figure markdown>
-  ![Tor encryption](../assets/img/how-tor-works/tor-encryption.svg#only-light)
-  ![Tor encryption](../assets/img/how-tor-works/tor-encryption-dark.svg#only-dark)
-  <figcaption>Sending and receiving data through the Tor Network</figcaption>
+  ![تشفير Tor](../assets/img/how-tor-works/tor-encryption.svg#only-light)
+![تشفير Tor](../assets/img/how-tor-works/tor-encryption-dark.svg#only-dark)
+
+<figcaption>إرسال واستقبال البيانات عبر شبكة Tor</figcaption>
 </figure>
 
-Tor allows us to connect to a server without any single party knowing the entire path. The entry node knows who you are, but not where you are going; the middle node doesn’t know who you are or where you are going; and the exit node knows where you are going, but not who you are. Because the exit node is what makes the final connection, the destination server will never know your IP address.
+يتيح لنا Tor الاتصال بخادم دون أن يعرف أي طرف بمفرده المسار الكامل للاتصال. تعرف عقدة الدخول (Entry Node) من أنت، لكنها لا تعرف إلى أين تتجه. أما العقدة الوسطى (Middle Node) فلا تعرف من أنت ولا إلى أين تتجه. بينما تعرف عقدة الخروج (Exit Node) إلى أين تتجه، لكنها لا تعرف من أنت. ولأن عقدة الخروج (Exit Node) هي التي تنشئ الاتصال النهائي، فلن يعرف خادم الوجهة (destination server) عنوان IP الخاص بك.
 
-## Caveats
+## ملاحظات مهمة
 
 Though Tor does provide strong privacy guarantees, one must be aware that Tor is not perfect:
 
