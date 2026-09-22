@@ -172,7 +172,7 @@ description: Tor هي شبكة مجانية ولا مركزية، صُممت ل�
 
 ## ملاحظات مهمة
 
-Though Tor does provide strong privacy guarantees, one must be aware that Tor is not perfect:
+على الرغم من أن Tor يوفر ضمانات قوية للخصوصية، فمن المهم أن نكون على دراية بأن Tor ليس مثاليا:
 
 - Tor never protects you from exposing yourself by mistake, such as if you share too much information about your real identity.
 - Tor exit nodes can **modify** unencrypted traffic which passes through them. This means traffic which is not encrypted, such as plain HTTP traffic, can be changed by a malicious exit node. **Never** download files from an unencrypted `http://` website over Tor, and ensure your browser is set to always upgrade HTTP traffic to HTTPS.
