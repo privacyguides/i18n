@@ -138,21 +138,22 @@ description: Tor هي شبكة مجانية ولا مركزية، صُممت ل�
 
 "خدمات Onion" (ويشار إليها أيضا باسم "الخدمات المخفية") هي مواقع لا يمكن الوصول إليها إلا باستخدام Tor Browser. تستخدم هذه المواقع أسماء نطاق طويلة يتم إنشاؤها عشوائيًا، وتنتهي بـ `.onion`.
 
-Connecting to an Onion Service in Tor works very similarly to connecting to a clearnet service, but your traffic is routed through a total of **six** nodes before reaching the destination server. Just like before, however, only three of these nodes are contributing to *your* anonymity, the other three nodes protect *the Onion Service's* anonymity, hiding the website's true IP and location in the same manner that Tor Browser is hiding yours.
+يعمل الاتصال بخدمة Onion عبر Tor بشكل مشابه جدًا للاتصال بخدمة Clearnet، لكن حركة البيانات الخاصة بك تمر عبر **ست** nodes إجمالًا قبل الوصول إلى الخادم المطلوب. لكن كما سبق، ثلاث فقط من هذه الـ nodes تساهم في إخفاء *هويتك* أنت، بينما تحمي الـ nodes الثلاث الأخرى *هوية خدمة Onion*، من خلال إخفاء عنوان IP الحقيقي للموقع وموقعه الجغرافي، بالطريقة نفسها التي يخفي بها Tor Browser عنوانك وموقعك.
 
 <figure style="width:100%" markdown>
-  ![Tor path showing your traffic being routed through your three Tor nodes plus three additional Tor nodes which hide the website's identity](../assets/img/how-tor-works/tor-path-hidden-service.svg#only-light)
-  ![Tor path showing your traffic being routed through your three Tor nodes plus three additional Tor nodes which hide the website's identity](../assets/img/how-tor-works/tor-path-hidden-service-dark.svg#only-dark)
-  <figcaption>Tor circuit pathway with Onion Services. Nodes in the <span class="pg-blue">blue</span> fence belong to your browser, while nodes in the <span class="pg-red">red</span> fence belong to the server, so their identity is hidden from you.</figcaption>
+  ![مسار Tor يوضح مرور حركة البيانات الخاصة بك عبر ثلاث Tor nodes، بالإضافة إلى ثلاث Tor nodes أخرى تُخفي هوية الموقع](../assets/img/how-tor-works/tor-path-hidden-service.svg#only-light)
+![مسار Tor يوضّح مرور حركة البيانات الخاصة بك عبر ثلاث Tor nodes، بالإضافة إلى ثلاث Tor nodes أخرى تُخفي هوية الموقع](../assets/img/how-tor-works/tor-path-hidden-service-dark.svg#only-dark)
+
+<figcaption>مسار Tor circuit عند استخدام خدمات Onion. الـ nodes الموجودة داخل الإطار <span class="pg-blue">الأزرق</span> تتبع متصفحك، بينما الـ nodes الموجودة داخل الإطار <span class="pg-red">الأحمر</span> تتبع الخادم، ولذلك تظل هويته مخفية عنك.</figcaption>
 </figure>
 
-## Encryption
+## التشفير (Encryption)
 
-Tor encrypts each packet (a block of transmitted data) three times with the keys from the exit, middle, and entry node in that order.
+يقوم Tor بتشفير كل packet (وهي كتلة من البيانات التي يتم إرسالها) ثلاث مرات، باستخدام مفاتيح عقدة الخروج (Exit Node)، ثم العقدة الوسطى (Middle Node)، ثم عقدة الدخول (Entry Node)، بهذا الترتيب.
 
-Once Tor has built a circuit, data transmission is done as follows:
+بعد أن ينشئ Tor الـ circuit، يتم نقل البيانات بالشكل التالي:
 
-1. Firstly: When the packet arrives at the entry node, the first layer of encryption is removed. In this encrypted packet, the entry node will find another encrypted packet with the middle node’s address. The entry node will then forward the packet to the middle node.
+1. أولا: عندما تصل الـ packet إلى عقدة الدخول (Entry Node)، تتم إزالة طبقة التشفير الأولى. داخل الـ packet المشفّرة، تجد عقدة الدخول (Entry Node) packet أخرى ما زالت مشفّرة، ومعها عنوان العقدة الوسطى (Middle Node) التي يجب إرسالها إليها. The entry node will then forward the packet to the middle node.
 
 2. Secondly: When the middle node receives the packet from the entry node, it too will remove a layer of encryption with its key, and this time finds an encrypted packet with the exit node's address. The middle node will then forward the packet to the exit node.
 

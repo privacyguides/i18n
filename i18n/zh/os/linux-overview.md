@@ -48,9 +48,9 @@ For frozen distributions such as [Debian](https://debian.org/security/faq#handli
 
 - [Regular Releases are Wrong, Roll for your life](https://youtu.be/i8c0mg_mS7U) <small>(YouTube)</small>
 
-### Traditional vs Atomic Updates
+### 传统更新与原子更新
 
-传统上，Linux发行版的更新方式是依次更新所需的软件包。 Traditional updates such as those used in Fedora, Arch Linux, and Debian-based distributions can be less reliable if an error occurs while updating.
+传统上，Linux发行版的更新方式是依次更新所需的软件包。如果更新过程中发生错误，像 Fedora、Arch Linux 和基于 Debian 的发行版中使用的传统更新方式可能会不太可靠。
 
 Distros which use atomic updates, on the other hand, apply updates in full or not at all. On an atomic distribution, if an error occurs while updating (perhaps due to a power failure), nothing is changed on the system.
 

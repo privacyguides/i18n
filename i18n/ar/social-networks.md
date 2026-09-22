@@ -181,7 +181,7 @@ As an end user on a public homeserver, you can consider unchecking the **Enable 
 
 Unchecking this option may make it more difficult to discern your active sessions if you logged in to your Matrix account on multiple devices.
 
-#### Encryption
+#### التشفير (Encryption)
 
 - [x] (Optional) Check **In encrypted rooms, only send messages to verified users**
 
