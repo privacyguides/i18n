@@ -55,20 +55,20 @@ robots: nofollow, max-snippet:-1, max-image-preview:large
 
 </div>
 
-Shelter is recommended over [Insular](https://secure-system.gitlab.io/Insular) and [Island](https://github.com/oasisfeng/island) as it supports [contact search blocking](https://secure-system.gitlab.io/Insular/faq.html).
+نوصي باستخدام Shelter بدلا من [Insular](https://secure-system.gitlab.io/Insular) و[Island](https://github.com/oasisfeng/island)، لأنه يدعم [ميزة حظر البحث عن جهات الاتصال](https://secure-system.gitlab.io/Insular/faq.html) بين الـ profiles.
 
 ## Secure Camera
 
-<small>Protects against the following threat(s):</small>
+<small>يحمي من التهديدات التالية:</small>
 
-- [:material-account-search: Public Exposure](../basics/common-threats.md#limiting-public-information){ .pg-green }
+- [:material-account-search: الانكشاف العام **Public Exposure**](../basics/common-threats.md#limiting-public-information){ .pg-green }
 
 <div class="admonition recommendation" markdown>
 
 ![Secure camera logo](../assets/img/android/secure_camera.svg#only-light){ align=right }
 ![Secure camera logo](../assets/img/android/secure_camera-dark.svg#only-dark){ align=right }
 
-**Secure Camera** is a camera app focused on privacy and security which can capture images, videos, and QR codes. CameraX vendor extensions (Portrait, HDR, Night Sight, Face Retouch, and Auto) are also supported on available devices.
+تطبيق **Secure Camera** هو تطبيق كاميرا يركز على الخصوصية والأمان، ويمكنه التقاط الصور ومقاطع الفيديو وقراءة QR codes. كما يدعم التطبيق إضافات CameraX vendor extensions على الأجهزة المتوافقة، مثل Portrait وHDR وNight Sight وFace Retouch وAuto.
 
 [:octicons-repo-16: Repository](https://github.com/GrapheneOS/Camera#readme){ .md-button .md-button--primary }
 [:octicons-info-16:](https://grapheneos.org/usage#camera){ .card-link title=Documentation}
@@ -76,7 +76,7 @@ Shelter is recommended over [Insular](https://secure-system.gitlab.io/Insular) a
 [:octicons-heart-16:](https://grapheneos.org/donate){ .card-link title=Contribute }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>التنزيلات</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=app.grapheneos.camera.play)
 - [:simple-github: GitHub](https://github.com/GrapheneOS/Camera/releases)
@@ -86,42 +86,42 @@ Shelter is recommended over [Insular](https://secure-system.gitlab.io/Insular) a
 
 </div>
 
-Main privacy features include:
+تشمل أهم ميزات الخصوصية:
 
-- Auto removal of [Exif](https://en.wikipedia.org/wiki/Exif) metadata (enabled by default)
-- Use of the new [Media](https://developer.android.com/training/data-storage/shared/media) API, therefore [storage permissions](https://developer.android.com/training/data-storage) are not required
-- Microphone permission not required unless you want to record sound
+- الإزالة التلقائية لبيانات [Exif](https://en.wikipedia.org/wiki/Exif) الوصفية metadata (مفعّلة افتراضيًا)
+- استخدام واجهة [Media](https://developer.android.com/training/data-storage/shared/media) API الجديدة، ولذلك لا يحتاج التطبيق إلى [storage permissions](https://developer.android.com/training/data-storage)
+- لا يحتاج التطبيق إلى صلاحية Microphone إلا إذا كنت تريد تسجيل الصوت
 
 <div class="admonition note" markdown>
-<p class="admonition-title">Note</p>
+<p class="admonition-title">ملحوظة</p>
 
-Metadata is not currently deleted from video files, but that is planned.
+لا يتم حاليا حذف بيانات metadata من ملفات الفيديو، لكن من المخطط إضافة هذه الميزة مستقبلًا.
 
-The image orientation metadata is not deleted. If you enable location (in Secure Camera) that **won't** be deleted either. If you want to delete that later you will need to use an external app such as [ExifEraser](../data-redaction.md#exiferaser-android).
+لا يتم حذف بيانات metadata الخاصة باتجاه الصورة. إذا فعلت الـ Location داخل تطبيق Secure Camera، فلن يتم حذف بيانات الموقع أيضا. إذا أردت حذف هذه البيانات لاحقا، فستحتاج إلى استخدام تطبيق خارجي مثل [ExifEraser](../data-redaction.md#exiferaser-android).
 
 </div>
 
 ## Secure PDF Viewer
 
-<small>Protects against the following threat(s):</small>
+<small>يحمي من التهديدات التالية:</small>
 
-- [:material-target-account: Targeted Attacks](../basics/common-threats.md#attacks-against-specific-individuals){ .pg-red }
+- [:material-target-account: الهجمات الموجّهة **Targeted Attacks**](../basics/common-threats.md#attacks-against-specific-individuals){ .pg-red }
 
 <div class="admonition recommendation" markdown>
 
 ![Secure PDF Viewer logo](../assets/img/android/secure_pdf_viewer.svg#only-light){ align=right }
 ![Secure PDF Viewer logo](../assets/img/android/secure_pdf_viewer-dark.svg#only-dark){ align=right }
 
-**Secure PDF Viewer** is a PDF viewer based on [pdf.js](https://en.wikipedia.org/wiki/PDF.js) that doesn't require any permissions. The PDF is fed into a [sandboxed](https://en.wikipedia.org/wiki/Sandbox_(software_development)) [WebView](https://developer.android.com/guide/webapps/webview). This means that it doesn't require permission directly to access content or files.
+تطبيق Secure PDF Viewer هو تطبيق لعرض ملفات PDF يعتمد على [pdf.js](https://en.wikipedia.org/wiki/PDF.js)، ولا يحتاج إلى أي صلاحيات. يتم فتح ملف PDF داخل [WebView](https://developer.android.com/guide/webapps/webview) يعمل في بيئة [sandboxed](https://en.wikipedia.org/wiki/Sandbox_(software_development) معزولة، مما يساعد على تقليل قدرة الملف على التأثير في بقية النظام. هذا يعني أن التطبيق لا يحتاج إلى صلاحية مباشرة للوصول إلى المحتوى أو الملفات على جهازك.
 
-[Content-Security-Policy](https://en.wikipedia.org/wiki/Content_Security_Policy) is used to enforce that the JavaScript and styling properties within the WebView are entirely static content.
+يتم استخدام [Content-Security-Policy](https://en.wikipedia.org/wiki/Content_Security_Policy) لضمان أن أكواد JavaScript وخصائص التنسيق داخل WebView تكون محتوى ثابتًا بالكامل ولا يمكن تغييرها أو تحميلها ديناميكيا.
 
 [:octicons-repo-16: Repository](https://github.com/GrapheneOS/PdfViewer#readme){ .md-button .md-button--primary }
 [:octicons-code-16:](https://github.com/GrapheneOS/PdfViewer){ .card-link title="Source Code" }
 [:octicons-heart-16:](https://grapheneos.org/donate){ .card-link title=Contribute }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>التنزيلات</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=app.grapheneos.pdfviewer.play)
 - [:simple-github: GitHub](https://github.com/GrapheneOS/PdfViewer/releases)
@@ -131,10 +131,10 @@ The image orientation metadata is not deleted. If you enable location (in Secure
 
 </div>
 
-## Criteria
+## المعايير
 
-**Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](../about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. We suggest you familiarize yourself with this list before choosing to use a project, and conduct your own research to ensure it's the right choice for you.
+يرجى ملاحظة أننا غير مرتبطين بأي من المشاريع التي نوصي بها. بالإضافة إلى [معاييرنا العامة](../about/criteria.md)، وضعنا مجموعة واضحة من المتطلبات التي تساعدنا على تقديم توصيات موضوعية. ننصحك بالاطلاع على هذه القائمة وفهمها قبل اختيار أي مشروع، وإجراء بحثك الخاص للتأكد من أنه الخيار المناسب لك.
 
-- Applications on this page must not be applicable to any other software category on the site.
-- General applications should extend or replace core system functionality.
-- Applications should receive regular updates and maintenance.
+- يجب ألا تندرج التطبيقات الموجودة في هذه الصفحة تحت أي فئة برمجية أخرى موجودة في الموقع.
+- يجب أن تعمل التطبيقات العامة على تحسين وظائف النظام الأساسية أو استبدالها.
+- يجب أن تحصل التطبيقات على تحديثات وصيانة بشكل منتظم.
