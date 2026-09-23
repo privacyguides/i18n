@@ -1,6 +1,6 @@
 ---
-title: "General Apps"
-description: The apps listed here are Android-exclusive and specifically enhance or replace key system functionality.
+title: "التطبيقات العامة"
+description: التطبيقات المذكورة هنا متاحة حصريا على Android، وهي مصممة خصيصا لتحسين وظائف أساسية في النظام أو استبدالها.
 schema:
   - "@context": http://schema.org
     "@type": WebPage
@@ -26,21 +26,21 @@ robots: nofollow, max-snippet:-1, max-image-preview:large
 
 <small>Protects against the following threat(s):</small>
 
-- [:material-bug-outline: Passive Attacks](../basics/common-threats.md#security-and-privacy){ .pg-orange }
+- [:material-bug-outline: الهجمات السلبية **Passive Attacks**](../basics/common-threats.md#security-and-privacy){ .pg-orange }
 
-We recommend a wide variety of Android apps throughout this site. The apps listed here are Android-exclusive and specifically enhance or replace key system functionality.
+نوصي بمجموعة واسعة من تطبيقات Android في مختلف أقسام هذا الموقع. التطبيقات المذكورة هنا متاحة حصريا على Android، وهي مصممة خصيصا لتحسين وظائف أساسية في النظام أو استبدالها.
 
 ## Shelter
 
-If your device is on Android 15 or greater, we recommend using the native [Private Space](../os/android-overview.md#private-space) feature instead, which provides nearly the same functionality without needing to place trust in and grant powerful permissions to a third-party app.
+إذا كان جهازك يعمل بنظام Android 15 أو أحدث، فنوصي بدلًا من ذلك باستخدام ميزة [Private Space](../os/android-overview.md#private-space) المدمجة في النظام. فهي توفر تقريبًا نفس الوظائف، من دون الحاجة إلى الوثوق بتطبيق من جهة خارجية أو منحه صلاحيات واسعة.
 
 <div class="admonition recommendation" markdown>
 
 ![Shelter logo](../assets/img/android/shelter.svg){ align=right }
 
-**Shelter** is an app that helps you leverage Android's Work Profile functionality to isolate or duplicate apps on your device.
+تطبيق Shelter هو تطبيق يساعدك على الاستفادة من ميزة Work Profile في Android لعزل التطبيقات على جهازك أو إنشاء نسخ منفصلة منها.
 
-Shelter supports blocking contact search cross profiles and sharing files across profiles via the default file manager ([DocumentsUI](https://source.android.com/devices/architecture/modular-system/documentsui)).
+يدعم Shelter منع البحث عن جهات الاتصال بين الـ profiles المختلفة، كما يتيح مشاركة الملفات بين هذه الـ profiles باستخدام مدير الملفات الافتراضي [DocumentsUI](https://source.android.com/devices/architecture/modular-system/documentsui).
 
 [:octicons-repo-16: Repository](https://gitea.angry.im/PeterCxy/Shelter#shelter){ .md-button .md-button--primary }
 [:octicons-code-16:](https://gitea.angry.im/PeterCxy/Shelter){ .card-link title="Source Code" }
@@ -51,7 +51,7 @@ Shelter supports blocking contact search cross profiles and sharing files across
 <div class="admonition warning" markdown>
 <p class="admonition-title">تنوية</p>
 
-When using Shelter, you are placing complete trust in its developer, as Shelter acts as a [Device Admin](https://developer.android.com/guide/topics/admin/device-admin) to create the Work Profile, and it has extensive access to the data stored within the Work Profile.
+عند استخدام Shelter، فأنت تضع ثقة كاملة في مطوّره، لأن Shelter يعمل كـ [Device Admin](https://developer.android.com/guide/topics/admin/device-admin) لإنشاء Work Profile، كما يمتلك صلاحيات واسعة للوصول إلى البيانات المخزنة داخل هذا الـ Work Profile.
 
 </div>
 

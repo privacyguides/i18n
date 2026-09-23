@@ -40,28 +40,28 @@ schema:
 
 يمكن حل هذه المشكلة باستخدام توزيعة بديلة من Android، تُعرف عادةً باسم custom ROM، ولا تأتي مدمجة بهذه التكاملات المتطفلة. للأسف، كثير من توزيعات Android المخصّصة custom Android distributions لا تلتزم بنموذج الأمان الخاص بـ Android، لأنها لا تدعم بعض ميزات الأمان المهمة مثل AVB وrollback protection وتحديثات firmware وغيرها. تأتي بعض التوزيعات أيضًا بإصدارات [userdebug](https://source.android.com/setup/build/building#choose-a-target)، والتي تتيح الوصول إلى root عبر [ADB](https://developer.android.com/studio/command-line/adb)، كما تتطلب سياسات SELinux [أكثر تساهلًا](https://github.com/LineageOS/android_system_sepolicy/search?q=userdebug&type=code) لدعم ميزات debugging. ونتيجة لذلك، تزداد الـ attack surface بشكل أكبر ويصبح نموذج الأمان أضعف.
 
-Ideally, when choosing a custom Android distribution, you should make sure that it upholds the Android security model. At the very least, the distribution should have production builds, support for AVB, rollback protection, timely firmware and operating system updates, and SELinux in [enforcing mode](https://source.android.com/security/selinux/concepts#enforcement_levels). All of our recommended Android distributions satisfy these criteria:
+من الأفضل عند اختيار توزيعة Android مخصصة custom Android distribution أن تتأكد من أنها تحافظ على نموذج الأمان الخاص بـ Android. على أقل تقدير، يجب أن توفر التوزيعة إصدارات production builds، وأن تدعم AVB وrollback protection، وأن تحصل على تحديثات firmware ونظام التشغيل في الوقت المناسب، مع تشغيل SELinux في وضع [enforcing](https://source.android.com/security/selinux/concepts#enforcement_levels). جميع توزيعات Android التي نوصي بها تستوفي هذه المعايير:
 
-[Recommended Distributions :material-arrow-right-drop-circle:](distributions.md){ .md-button }
+التوزيعات الموصى بها :material-arrow-right-drop-circle:{ .md-button }
 
-### Avoid Root
+### تجنب الـ Root
 
-[Rooting](https://en.wikipedia.org/wiki/Rooting_(Android)) Android phones can decrease security significantly as it weakens the complete [Android security model](https://en.wikipedia.org/wiki/Android_(operating_system)#Security_and_privacy). This can decrease privacy should there be an exploit that is assisted by the decreased security. Common rooting methods involve directly tampering with the boot partition, making it impossible to perform successful Verified Boot. Apps that require root will also modify the system partition, meaning that Verified Boot would have to remain disabled. Having root exposed directly in the user interface also increases the attack surface of your device and may assist in [privilege escalation](https://en.wikipedia.org/wiki/Privilege_escalation) vulnerabilities and SELinux policy bypasses.
+يمكن أن يؤدي عمل الـ [Root](https://en.wikipedia.org/wiki/Rooting_(Android) لهواتف Android إلى تقليل مستوى الأمان بشكل كبير، لأنه يضعف [نموذج الأمان الخاص بـ Android](https://en.wikipedia.org/wiki/Android_(operating_system) ككل. وقد يؤدي ذلك أيضا إلى تقليل مستوى الخصوصية إذا وُجدت ثغرة (exploit) يمكنه الاستفادة من هذا الضعف في الأمان. تتضمن طرق الـ Root الشائعة التعديل مباشرةً على الـ boot partition، مما يجعل من المستحيل إجراء Verified Boot بشكل ناجح. كما أن التطبيقات التي تتطلب صلاحيات Root ستقوم أيضا بتعديل system partition، وهذا يعني أن Verified Boot سيحتاج إلى البقاء معطلًا. كما أن إتاحة صلاحيات الـ Root مباشرة من خلال واجهة المستخدم تزيد من الـ attack surface على جهازك، وقد تساعد في استغلال ثغرات privilege escalation وتجاوز سياسات SELinux.
 
-Content blockers which modify the [hosts file](https://en.wikipedia.org/wiki/Hosts_(file)) (like AdAway) and firewalls which require root access persistently (like AFWall+) are dangerous and should not be used. They are also not the correct way to solve their intended purposes. For content blocking, we suggest encrypted [DNS](../dns.md) or content blocking functionality provided by a VPN instead. TrackerControl and AdAway in non-root mode will take up the VPN slot (by using a local loopback VPN), preventing you from using privacy-enhancing services such as [Orbot](../alternative-networks.md#orbot) or a [real VPN provider](../vpn.md).
+أدوات حجب المحتوى التي تعدّل [ملف hosts](https://en.wikipedia.org/wiki/Hosts_(file) مثل AdAway، وكذلك تطبيقات firewall التي تحتاج إلى صلاحيات الـ Root بشكل دائم مثل AFWall+، تُعد خطرة ولا يُنصح باستخدامها. كما أنها ليست الطريقة الصحيحة لتحقيق الأهداف التي صُممت من أجلها. لحجب المحتوى، نوصي باستخدام [DNS](../dns.md) مشفر، أو استخدام ميزة حجب المحتوى التي توفرها بعض خدمات VPN بدلًا من ذلك. يستخدم كل من TrackerControl وAdAway في وضع non-root خانة الـ VPN على الجهاز، وذلك عبر إنشاء local loopback VPN. وهذا يمنعك من استخدام خدمات أخرى تعزز الخصوصية مثل [Orbot](../alternative-networks.md#orbot) أو [مزود VPN](../vpn.md) حقيقي.
 
-AFWall+ works based on the [packet filtering](https://en.wikipedia.org/wiki/Firewall_(computing)#Packet_filter) approach and may be bypassable in some situations.
+يعمل AFWall+ بالاعتماد على أسلوب [packet filtering](https://en.wikipedia.org/wiki/Firewall_(computing)، وقد يكون من الممكن تجاوزه في بعض الحالات.
 
-We do not believe that the security sacrifices made by rooting a phone are worth the questionable privacy benefits of those apps.
+نرى أن المخاطر الأمنية الناتجة عن عمل الـ Root للهاتف أكبر من فوائد الخصوصية التي قد توفرها هذه التطبيقات، خصوصا أن هذه الفوائد ليست مضمونة دائما.
 
-### Install Updates Regularly
+### ثبّت التحديثات بانتظام
 
-It's important to not use an [end-of-life](https://endoflife.date/android) version of Android. Newer versions of Android receive not only security updates for the operating system but also important privacy enhancing updates too.
+من المهم ألا تستخدم إصدارا من Android وصل إلى مرحلة end-of-life، أي أنه لم يعد يحصل على تحديثات أمنية أو دعم رسمي. الإصدارات الأحدث من Android لا تحصل فقط على تحديثات أمنية لنظام التشغيل، بل تتلقى أيضا تحديثات مهمة تعمل على تحسين الخصوصية.
 
-For example, [prior to Android 10](https://developer.android.com/about/versions/10/privacy/changes) any apps with the [`READ_PHONE_STATE`](https://developer.android.com/reference/android/Manifest.permission#READ_PHONE_STATE) permission could access sensitive and unique serial numbers of your phone such as [IMEI](https://en.wikipedia.org/wiki/International_Mobile_Equipment_Identity), [MEID](https://en.wikipedia.org/wiki/Mobile_equipment_identifier), or your SIM card's [IMSI](https://en.wikipedia.org/wiki/International_mobile_subscriber_identity); whereas now they must be system apps to do so. System apps are only provided by the OEM or Android distribution.
+على سبيل المثال، قبل Android 10https://developer.android.com/about/versions/10/privacy/changes، كان بإمكان أي تطبيق لديه صلاحية [READ_PHONE_STATE](https://developer.android.com/reference/android/Manifest.permission#READ_PHONE_STATE) الوصول إلى أرقام تعريف حساسة وفريدة خاصة بهاتفك، مثل [IMEI](https://en.wikipedia.org/wiki/International_Mobile_Equipment_Identity) و[MEID](https://en.wikipedia.org/wiki/Mobile_equipment_identifier) و[IMSI](https://en.wikipedia.org/wiki/International_mobile_subscriber_identity) الخاص بشريحة SIM. أما الآن، فلا يمكن للتطبيق الوصول إلى هذه المعلومات إلا إذا كان system app. تطبيقات System apps لا يتم توفيرها إلا من قِبل الشركة المصنعة للجهاز OEM أو من خلال توزيعة Android نفسها.
 
-### Use Built-in Sharing Features
+### استخدم ميزات المشاركة المدمجة
 
-You can avoid giving many apps permission to access your media with Android's built-in sharing features. Many applications allow you to "share" a file with them for media upload.
+يمكنك تجنب منح العديد من التطبيقات صلاحية الوصول إلى الصور والوسائط على جهازك، وذلك باستخدام ميزات المشاركة المدمجة في Android. تسمح لك العديد من التطبيقات باستخدام خيار "Share" لإرسال ملف إليها من أجل رفعه كوسائط.
 
-For example, if you want to post a picture to Discord you can open your file manager or gallery and share that picture with the Discord app, instead of granting Discord full access to your media and photos.
+على سبيل المثال، إذا أردت نشر صورة على Discord، يمكنك فتح file manager أو معرض الصور، ثم استخدام خيار Share لمشاركة الصورة مع تطبيق Discord مباشرة، بدلًا من منح Discord صلاحية الوصول الكامل إلى جميع الصور والوسائط على جهازك.
