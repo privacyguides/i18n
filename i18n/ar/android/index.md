@@ -1,36 +1,36 @@
 ---
 title: "Android"
-description: Our advice for replacing privacy-invasive default Android features with private and secure alternatives.
+description: نصائحنا لاستبدال ميزات Android الافتراضية التي تنتهك الخصوصية ببدائل أكثر خصوصية وأمانا.
 icon: 'simple/android'
 cover: android.webp
 schema:
   - "@context": http://schema.org
     "@type": WebPage
     name: Android Recommendations
-    url: "./"
-  - "@context": http://schema.org
-    "@type": CreativeWork
+    url: ""
+  - "@context": ""
+    "@type": ""
     name: Android
-    image: /assets/img/android/android.svg
-    url: https://source.android.com/
-    sameAs: https://en.wikipedia.org/wiki/Android_(operating_system)
+    image: ""
+    url: ""
+    sameAs: ""
 ---
 
-![Android logo](../assets/img/android/android.svg){ align=right }
 
-The **Android Open Source Project** (AOSP) is an open-source mobile operating system led by Google which powers the majority of the world's mobile devices. Most phones sold with Android are modified to include invasive integrations and apps such as Google Play Services, so you can significantly improve your privacy on your mobile device by replacing your phone's default installation with a version of Android without these invasive features.
 
-[General Android Overview :material-arrow-right-drop-circle:](../os/android-overview.md){ .md-button .md-button--primary }
+يُعد Android Open Source Project (AOSP) نظام تشغيل مفتوح المصدر للأجهزة المحمولة تقوده Google، وهو الأساس الذي تعمل عليه أغلب أجهزة الهواتف المحمولة حول العالم. معظم الهواتف التي تُباع بنظام Android تأتي بنسخة معدلة منه تتضمن خدمات وتطبيقات قد تنتهك الخصوصية، مثل Google Play Services. لذلك يمكنك تحسين خصوصيتك بشكل كبير عبر استبدال نسخة Android الافتراضية على هاتفك بإصدار لا يحتوي على هذه الميزات المتطفلة.
 
-## Our Advice
+[نظرة عامة على Android :material-arrow-right-drop-circle:](../os/android-overview.md){ .md-button .md-button--primary }
 
-### Replace Google Services
+## نصائحنا
 
-There are many methods of obtaining apps on Android while avoiding Google Play. Whenever possible, try using one of these methods before getting your apps from non-private sources:
+### استبدال خدمات Google
 
-[Obtaining Applications :material-arrow-right-drop-circle:](obtaining-apps.md){ .md-button }
+توجد طرق عديدة للحصول على التطبيقات على Android دون استخدام Google Play. كلما أمكن، حاول استخدام إحدى هذه الطرق أولًا قبل الحصول على تطبيقاتك من مصادر لا تحترم الخصوصية:
 
-There are also many private alternatives to the apps that come pre-installed on your phone, such as the camera app. Besides the Android apps we recommend throughout this site in general, we've created a list of system utilities specific to Android which you might find useful.
+[الحصول على التطبيقات :material-arrow-right-drop-circle:](obtaining-apps.md){ .md-button }
+
+توجد أيضا بدائل عديدة تحترم الخصوصية للتطبيقات التي تأتي مثبتة مسبقا على هاتفك، مثل تطبيق الكاميرا. Besides the Android apps we recommend throughout this site in general, we've created a list of system utilities specific to Android which you might find useful.
 
 [General App Recommendations :material-arrow-right-drop-circle:](general-apps.md){ .md-button }
 

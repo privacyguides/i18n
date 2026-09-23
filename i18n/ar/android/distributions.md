@@ -8,7 +8,7 @@ schema:
     name: Private Android Operating Systems
     url: "./"
   - "@context": http://schema.org
-    "@type": CreativeWork
+    "@type": ""
     name: GrapheneOS
     image: /assets/img/android/grapheneos.svg
     url: https://grapheneos.org/
