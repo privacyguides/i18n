@@ -72,9 +72,9 @@ Si vous êtes sous Android et que votre modèle de menace vous expose à des [:m
 
 <div class="admonition recommendation" markdown>
 
-![Molly logo](assets/img/messengers/molly.svg){ align=right }
+![Logo de Molly](assets/img/messengers/molly.svg){ align=right }
 
-**Molly** is an alternative Signal client for Android which allows you to encrypt the local database with a passphrase at rest, to have unused RAM data securely shredded, to route your connection via Tor, and [more](https://www.privacyguides.org/articles/2022/07/07/signal-configuration-and-hardening#privacy-and-security-features). Elle permet également de programmer une sauvegarde automatique, de verrouiller l'application automatiquement et d'avoir la possibilité d'utiliser votre téléphone Android comme appareil lié plutôt que comme appareil principal pour un compte Signal.
+**Molly** est un client alternatif de Signal pour Android qui vous permet de chiffrer la base de données locale avec une phrase de passe après la mise en veille, de détruire de façon sécurisée les données de RAM non utilisées, de faire passer votre connexion par Tor, [et bien d'autres](https://www.privacyguides.org/articles/2022/07/07/signal-configuration-and-hardening#privacy-and-security-features). Elle permet également de programmer une sauvegarde automatique, de verrouiller l'application automatiquement et d'avoir la possibilité d'utiliser votre téléphone Android comme appareil lié plutôt que comme appareil principal pour un compte Signal.
 
 [:octicons-home-16: Page d'Accueil](https://molly.im){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://signal.org/legal/#privacy-policy){ .card-link title="Politique de Confidentialité" }
@@ -95,7 +95,7 @@ Si vous êtes sous Android et que votre modèle de menace vous expose à des [:m
 
 Lorsque vous utilisez Molly, vous faites confiance à plusieurs intermédiaires pour vous fournir rapidement des mises à jour sécurisées, à savoir l'équipe de Signal *et* l'équipe de Molly.
 
-Molly provides support for [reproducible builds](https://github.com/mollyim/mollyim-android/tree/main/reproducible-builds), meaning it's possible to confirm that the compiled APKs match the source code.
+Molly prend en charge les [builds reproductibles](https://github.com/mollyim/mollyim-android/tree/main/reproducible-builds), ce qui signifie qu'il est possible de confirmer que les APK compilés correspondent au code source.
 
 ## SimpleX Chat
 
@@ -161,7 +161,7 @@ SimpleX Chat a été audité par un organisme indépendant en [juillet 2024](htt
 
 Pour ajouter un contact sur Briar, vous devez vous ajouter mutuellement. Vous pouvez échanger vos liens `briar://` ou scanner le QR code de votre contact si vous êtes à proximité.
 
-Briar a publié entièrement son [cahier des charges](https://code.briarproject.org/briar/briar-spec). Briar supports forward secrecy[^1] by using the Bramble [Handshake](https://code.briarproject.org/briar/briar-spec/blob/master/protocols/BHP.md) and [Transport](https://code.briarproject.org/briar/briar-spec/blob/master/protocols/BTP.md) protocol.
+Briar a publié entièrement son [cahier des charges](https://code.briarproject.org/briar/briar-spec). Briar prend en charge la confidentialité persistante[^1] en utilisant le protocole [Handshake](https://code.briarproject.org/briar/briar-spec/blob/master/protocols/BHP.md) et [Transport](https://code.briarproject.org/briar/briar-spec/blob/master/protocols/BTP.md) de Bramble.
 
 Le logiciel client a été [audité](https://briarproject.org/news/2017-beta-released-security-audit) par un organisme indépendant et le protocole de routage anonyme utilise le réseau Tor, qui a également été audité.
 
@@ -175,14 +175,14 @@ Le logiciel client a été [audité](https://briarproject.org/news/2017-beta-rel
 - Ne doit pas obliger à partager des identificateurs personnels (en particulier un mail ou un numéro de téléphone) avec les contacts.
 - Doit utiliser le chiffrement de bout-en-bout par défaut pour les messages privés.
 - Doit prendre en charge le chiffrement de bout-en-bout pour tous les messages.
-- Must support forward secrecy[^1]
+- Doit être compatible avec la confidentialité persistante[^1]
 - Doit disposer d'un audit publié par une tierce partie indépendante et réputée.
 
 ### Critères optimaux
 
 Nos critères optimaux représentent ce que nous aimerions voir d'un projet parfait dans cette catégorie. Nos recommandations peuvent ne pas inclure tout ou partie de ces fonctionnalités, mais celles qui l'inclus peuvent être mieux classées que les autres sur cette page.
 
-- Should support future secrecy (post-compromise security)[^2]
+- Devrait prendre en charge la confidentialité future (sécurité post-compromission)[^2]
 - Devrait avoir des serveurs open-source.
 - Devrait utiliser un réseau décentralisé, soit [fédéré ou P2P (pair à pair)](advanced/communication-network-types.md).
 - Devrait utiliser le chiffrement de bout-en-bout par défaut pour tous les messages.

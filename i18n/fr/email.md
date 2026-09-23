@@ -95,7 +95,7 @@ Proton Mail utilise un système de rapport de plantage interne, ceux-ci ne sont 
 
     Depuis votre boite mail, sélectionnez :gear: → **Tous les paramètres** → **Compte** → **Sécurité et vie privée** → **Vie privée et collecte de données**.
 
-    - [ ] Disable **Collect usage diagnostics**
+    - [ ] Désactivez **Recueillir les diagnostics d'utilisation**
     - [ ] Désactivez **Envoyer les rapports de plantage**
 
 === "Mobile"
@@ -103,7 +103,7 @@ Proton Mail utilise un système de rapport de plantage interne, ceux-ci ne sont 
     Depuis votre boite mail, sélectionnez :material-menu: → :gear: **Paramètres** → sélectionnez votre nom d'utilisateur.
 
     - [ ] Désactivez **Envoyer les rapports de plantage**
-    - [ ] Disable **Collect usage diagnostics**
+    - [ ] Désactivez **Recueillir les diagnostics d'utilisation**
 
 #### :material-check:{ .pg-green } Domaines personnalisés et alias
 

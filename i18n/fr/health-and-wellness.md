@@ -2,7 +2,7 @@
 meta_title: "Applications de santé et bien-être respectueuses de la vie privée pour Android et iOS - Privacy Guides"
 title: "Santé et Bien-être"
 icon: material/heart-pulse
-description: These applications are what we currently recommend for all health- and fitness-related activities on your phone.
+description: Ces applications sont celles que nous recommandons actuellement pour toutes les activités liées à la santé et à la forme physique sur votre téléphone.
 cover: health.webp
 ---
 
