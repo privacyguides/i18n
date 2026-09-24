@@ -5,6 +5,7 @@
 *[attack surface]: العدد الإجمالي لنقاط الدخول المحتملة للوصول غير المصرح به إلى النظام
 *[AVB]: Android Verified Boot
 *[cgroups]: Control Groups
+*[C2PA]: Coalition for Content Provenance and Authenticity
 *[CLI]: واجهة سطر الأوامر
 *[CSV]: Comma-Separated Values
 *[CVE]: Common Vulnerabilities and Exposures
@@ -48,6 +49,7 @@
 *[IPv6]: قواعد الإنترنت الإصدار 6
 *[ISP]: مزود خدمة الإنترنت
 *[ISPs]: مزودي خدمة الإنترنت
+*[IPTC]: International Press Telecommunications Council
 *[JNI]: Java Native Interface
 *[KYC]: اعرف عميلك
 *[LLaVA]: Large Language and Vision Assistant (multimodal AI model)
@@ -107,6 +109,7 @@
 *[VLAN]: الشبكة المحلية الافتراضية
 *[VoIP]: Voice over IP (Internet Protocol)
 *[W3C]: رابطة الشبكة العالمية
+*[XMP]:  Extensible Metadata Platform
 *[XMPP]: Extensible Messaging and Presence Protocol
 *[PWA]: تطبيق ويب تقدمي
 *[PWAs]: تطبيقات الويب التقدمية

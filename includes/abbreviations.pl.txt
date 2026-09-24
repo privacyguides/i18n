@@ -5,6 +5,7 @@
 *[powierzchnia ataku]: Całkowita liczba możliwych punktów dostępu umożliwiających nieautoryzowany dostęp do systemu
 *[AVB]: Android Verified Boot
 *[cgroups]: Grupy kontrolne
+*[C2PA]: Coalition for Content Provenance and Authenticity
 *[CLI]: Wiersz poleceń
 *[CSV]: Wartości rozdzielone przecinkiem
 *[CVE]: Common Vulnerabilities and Exposures
@@ -48,6 +49,7 @@
 *[IPv6]: Protokół internetowy w wersji 6
 *[ISP]: Dostawca usług internetowych
 *[dostawcy ISP]: Dostawcy usług internetowych
+*[IPTC]: International Press Telecommunications Council
 *[JNI]: Natywny interfejs Java
 *[KYC]: Poznaj swojego klienta
 *[LLaVA]: Large Language and Vision Assistant (wielomodalny model sztucznej inteligencji)
@@ -107,6 +109,7 @@
 *[VLAN]: Wirtualna sieć lokalna
 *[VoIP]: Voice over IP (telefonia internetowa)
 *[W3C]: Konsorcjum World Wide Web
+*[XMP]:  Extensible Metadata Platform
 *[XMPP]: Rozszerzalny protokół przesyłania wiadomości i statusu
 *[PWA]: Progresywna aplikacja internetowa
 *[aplikacje PWA]: Progresywne aplikacje internetowe

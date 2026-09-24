@@ -5,6 +5,7 @@
 *[attack surface]: Die Gesamtzahl der möglichen Einstiegspunkte für einen unbefugten Zugriff auf ein System
 *[AVB]: Android Verified Boot
 *[cgroups]: Control Groups. Ein Bestandteil des Linux-Kernels, welcher Resourcennutzung isoliert und begrenzt.
+*[C2PA]: Coalition for Content Provenance and Authenticity
 *[CLI]: Kommandozeilen-Schnittstelle
 *[CSV]: Kommagetrennte Werte
 *[CVE]: Häufige Schwachstellen und Gefährdungen
@@ -48,6 +49,7 @@
 *[IPv6]: Internetprotokoll Version 6
 *[ISP]: Internetdienstanbieter
 *[ISPs]: Internetdienstanbieter
+*[IPTC]: International Press Telecommunications Council
 *[JNI]: Native Java-Schnittstelle
 *[KYC]: Know Your Customer
 *[LLaVA]: Großes Sprach- und Blickassisentierenden (multimodalem KI Model)
@@ -107,6 +109,7 @@
 *[VLAN]: Virtual Local Area Network
 *[VoIP]: Voice over IP (Internet Protokoll)
 *[W3C]: World Wide Web Consortium
+*[XMP]:  Extensible Metadata Platform
 *[XMPP]: Extensible Messaging and Presence Protocol
 *[PWA]: Progressive Webanwendung
 *[PWAs]: Progressive Webanwendungen

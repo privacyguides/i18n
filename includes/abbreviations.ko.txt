@@ -5,6 +5,7 @@
 *[공격 표면]: The total number of possible entry points for unauthorized access to a system
 *[AVB]: Android 자체 검사 부팅
 *[cgroups]: Control Groups
+*[C2PA]: Coalition for Content Provenance and Authenticity
 *[CLI]: 명령어 인터페이스
 *[CSV]: Comma-Separated Values
 *[CVE]: 공통 보안 취약점 및 노출(Common Vulnerabilities and Exposures)
@@ -48,6 +49,7 @@
 *[IPv6]: IP 버전 6 (Internet Protocol version 6)
 *[ISP]: 인터넷 서비스 제공자(Internet Service Provider)
 *[ISPs]: 인터넷 서비스 제공자 (Internet service providers)
+*[IPTC]: International Press Telecommunications Council
 *[JNI]: Java Native Interface
 *[KYC]: 고객 확인 제도
 *[LLaVA]: Large Language and Vision Assistant (multimodal AI model)
@@ -107,6 +109,7 @@
 *[VLAN]: Virtual Local Area Network
 *[VoIP]: Voice over IP (Internet Protocol)
 *[W3C]: World Wide Web Consortium
+*[XMP]:  Extensible Metadata Platform
 *[XMPP]: Extensible Messaging and Presence Protocol
 *[PWA]: 프로그레시브 웹 앱
 *[PWAs]: Progressive Web Apps

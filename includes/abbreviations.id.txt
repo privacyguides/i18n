@@ -5,6 +5,7 @@
 *[attack surface]: The total number of possible entry points for unauthorized access to a system
 *[AVB]: Android Verified Boot
 *[cgroups]: Kelompok Kontrol
+*[C2PA]: Coalition for Content Provenance and Authenticity
 *[CLI]: Antarmuka Baris Perintah
 *[CSV]: Nilai yang Dipisahkan dengan Koma
 *[CVE]: Common Vulnerabilities and Exposures
@@ -48,6 +49,7 @@
 *[IPv6]: Protokol Internet versi 6
 *[ISP]: Penyedia Layanan Internet
 *[ISPs]: Penyedia Layanan Internet
+*[IPTC]: International Press Telecommunications Council
 *[JNI]: Antarmuka Asli Java
 *[KYC]: Kenali Pelanggan Anda
 *[LLaVA]: Large Language and Vision Assistant (multimodal AI model)
@@ -107,6 +109,7 @@
 *[VLAN]: Virtual Local Area Network
 *[VoIP]: Suara melalui IP (Protokol Internet)
 *[W3C]: Konsorsium Waring Wera Wanua
+*[XMP]:  Extensible Metadata Platform
 *[XMPP]: Protokol Perpesanan dan Kehadiran yang Dapat Diperluas
 *[PWA]: Aplikasi Web Progresif
 *[PWAs]: Progressive Web Apps

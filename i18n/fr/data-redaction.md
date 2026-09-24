@@ -10,7 +10,14 @@ cover: data-redaction.webp
 
 - [:material-account-search: Exposition publique](basics/common-threats.md#limiting-public-information ""){.pg-green}
 
-Lorsque vous partagez des fichiers, veillez à supprimer les métadonnées associées. Les fichiers d'image comprennent généralement des données [Exif](https://en.wikipedia.org/wiki/Exif) . Les photos comportent parfois même des coordonnées GPS dans les métadonnées du fichier.
+Lorsque vous partagez des fichiers, veillez à supprimer les métadonnées associées. Most common file types (including documents, images, and videos) include metadata. Image files, for example, commonly include Exif data. Les photos comportent parfois même des coordonnées GPS dans les métadonnées du fichier.
+
+Windows has a built-in metadata remover, but unfortunately it cannot remove many types of data such as:
+
+- Documents: Comments, author names, tracked changes, hidden worksheets, slide notes, custom XML, and document revision histories.
+- Images: Camera serial numbers, XMP/IPTC data, C2PA metadata, and image thumbnails (which can dangerously expose original details from cropped or erased areas).
+- Audio & Video: XMP metadata, C2PA metadata, and certain ID3v2 tag fields.
+- Embedded Files: Hidden metadata nested inside images that are embedded within documents.
 
 <div class="admonition warning" markdown>
 <p class="admonition-title">Avertissement</p>

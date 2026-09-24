@@ -5,11 +5,12 @@
 *[攻撃対象領域]: システムへの不正アクセスの可能な侵入箇所の総数
 *[AVB]: 確認付きブート（Android Verified Boot）
 *[cgroups]: Control Groups
+*[C2PA]: Coalition for Content Provenance and Authenticity
 *[CLI]: コマンドライン インターフェース
 *[CSV]: Comma-Separated Values
 *[CVE]: Common Vulnerabilities and Exposures
-*[ダークパターン]： ユーザーを騙して意図しない行動をさせる欺瞞的なデザインパターン
-*[デジタルレガシー]： あなたが亡くなった際に他の人にあなたのデータへのアクセスを許可する機能
+*[ダークパターン]：ユーザーを騙して意図しない行動をさせる欺瞞的なデザインパターン
+*[デジタルレガシー]：あなたが亡くなった際に他の人にあなたのデータへのアクセスを許可する機能
 *[DNSSEC]: Domain Name System Security Extensions
 *[DNS]: ドメインネームシステム
 *[DoH]: DNS over HTTPS
@@ -21,14 +22,14 @@
 *[E2EE]: エンドツーエンド暗号化（End-to-End Encryption/Encrypted）
 *[ECS]: EDNSクライアントサブネット（EDNS Client Subnet）
 *[EEA]: 欧州経済領域
-*[entropy]： 何かがどれだけ予測不可能であるかを測定する指標
+*[entropy]：何かがどれだけ予測不可能であるかを測定する指標
 *[EOL]: サポート終了（End-of-Life）
 *[Exif]: 交換可能な画像ファイル形式（Exchangeable image file format）
 *[FCM]: Firebaseクラウドメッセージング
 *[FDE]: フルディスク暗号化（Full Disk Encryption）
 *[FIDO]: Fast IDentity Online
 *[FS]: 前方秘匿性（Forward Secrecy）
-*[fork]： 既存のプロジェクトをコピーし、それに独立して追加することで作成された新しいソフトウェアプロジェクト
+*[fork]：既存のプロジェクトをコピーし、それに独立して追加することで作成された新しいソフトウェアプロジェクト
 *[GDPR]: EU一般データ保護規則（General Data Protection Regulation）
 *[GPG]: GNU Privacy Guard（PGPの実装）
 *[GPS]: 全地球測位システム（Global Positioning System）
@@ -48,10 +49,11 @@
 *[IPv6]: Internet Protocol version 6
 *[ISP]: インターネットサービスプロバイダー（Internet Service Provider）
 *[ISPs]: インターネットサービスプロバイダー（Internet Service Providers）
+*[IPTC]: International Press Telecommunications Council
 *[JNI]: Javaネイティブインターフェース
 *[KYC]: Know Your Customer(本人確認を行うための手続き)
-*[LLaVA]： 大規模言語およびビジョンアシスタント（マルチモーダルAIモデル）
-*[LLMs]： 大規模言語モデル（ChatGPTなどのAIモデル）
+*[LLaVA]：大規模言語およびビジョンアシスタント（マルチモーダルAIモデル）
+*[LLMs]：大規模言語モデル（ChatGPTなどのAIモデル）
 *[LUKS]: Linux Unified Key Setup (フルディスク暗号化)
 *[MAC]: メディア・アクセス・コントロール
 *[MDAG]: Microsoft Defender Application Guard
@@ -66,7 +68,7 @@
 *[OCSP]: オンライン証明書ステータスプロトコル（Online Certificate Status Protocol）
 *[OEM]: オリジナル機器製造者
 *[OEMs]: オリジナル機器製造者
-*[open-weights]： 誰でもダウンロードして使用できるAIモデルだが、基盤となるトレーニングデータやアルゴリズムは独自のものであるモデル
+*[open-weights]：誰でもダウンロードして使用できるAIモデルだが、基盤となるトレーニングデータやアルゴリズムは独自のものであるモデル
 *[OS]: オペレーティングシステム（Operating System）
 *[OTP]: ワンタイムパスワード
 *[OTPs]: ワンタイムパスワード
@@ -107,6 +109,7 @@
 *[VLAN]: Virtual Local Area Network
 *[VoIP]: Voice over IP
 *[W3C]: ワールド・ワイド・ウェブ・コンソーシアム（World Wide Web Consortium）
+*[XMP]:  Extensible Metadata Platform
 *[XMPP]: Extensible Messaging and Presence Protocol
 *[PWA]: プログレッシブウェブアプリ（Progressive Web App）
 *[PWAs]: Progressive Web Apps

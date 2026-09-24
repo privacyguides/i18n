@@ -5,6 +5,7 @@
 *[támadási felület]: Egy rendszerhez való illetéktelen hozzáférés összes lehetséges behatolási pontja
 *[AVB]: Android Verified Boot – Android-hitelesített indítás
 *[cgroups]: Control Groups – Kontrollcsoportok
+*[C2PA]: Coalition for Content Provenance and Authenticity
 *[CLI]: Command Line Interface – Parancssoros felület
 *[CSV]: Comma-Separated Values
 *[CVE]: Common Vulnerabilities and Exposures
@@ -48,6 +49,7 @@
 *[IPv6]: 6-os verziójú internet protokoll
 *[ISP]: Internet Service Provider – Internetszolgáltató
 *[ISPs]: Internet Service Providers – Internetszolgáltatók
+*[IPTC]: International Press Telecommunications Council
 *[JNI]: Java Native Interface
 *[KYC]: Know Your Customer – Ismerd meg az ügyfeled
 *[LLaVA]: Large Language and Vision Assistant (multimodal AI model)
@@ -107,6 +109,7 @@
 *[VLAN]: Virtual Local Area Network
 *[VoIP]: Voice over IP (Internet Protocol)
 *[W3C]: World Wide Web Consortium
+*[XMP]:  Extensible Metadata Platform
 *[XMPP]: Extensible Messaging and Presence Protocol
 *[PWA]: Progressive Web App - Progresszív Webes Alkalmazás
 *[PWAs]: Progressive Web Apps

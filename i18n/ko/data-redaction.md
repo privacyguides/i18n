@@ -10,7 +10,14 @@ cover: data-redaction.webp
 
 - [:material-account-search: 공개 노출(Public Exposure)](basics/common-threats.md#limiting-public-information ""){.pg-green}
 
-파일을 공유할 때에는 관련 메타데이터를 제거해야 합니다. 이미지 파일에는 보통 [Exif](https://en.wikipedia.org/wiki/Exif) 데이터가 포함되어 있습니다. 사진 파일 메타데이터에는 GPS 좌표가 포함될 때도 있습니다.
+파일을 공유할 때에는 관련 메타데이터를 제거해야 합니다. Most common file types (including documents, images, and videos) include metadata. Image files, for example, commonly include Exif data. 사진 파일 메타데이터에는 GPS 좌표가 포함될 때도 있습니다.
+
+Windows has a built-in metadata remover, but unfortunately it cannot remove many types of data such as:
+
+- Documents: Comments, author names, tracked changes, hidden worksheets, slide notes, custom XML, and document revision histories.
+- Images: Camera serial numbers, XMP/IPTC data, C2PA metadata, and image thumbnails (which can dangerously expose original details from cropped or erased areas).
+- Audio & Video: XMP metadata, C2PA metadata, and certain ID3v2 tag fields.
+- Embedded Files: Hidden metadata nested inside images that are embedded within documents.
 
 <div class="admonition warning" markdown>
 <p class="admonition-title">Warning</p>

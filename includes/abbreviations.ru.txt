@@ -5,6 +5,7 @@
 *[поверхность атаки]: The total number of possible entry points for unauthorized access to a system
 *[AVB]: (англ. Android Verified Boot) - Проверенная загрузка Android
 *[cgroups]: (англ. Control Groups) - Контрольные группы
+*[C2PA]: Coalition for Content Provenance and Authenticity
 *[CLI]: (англ. Command-line interface) - Интерфейс командной строки
 *[CSV]: Comma-Separated Values, формат таблиц
 *[CVE]: Common Vulnerabilities and Exposures
@@ -48,6 +49,7 @@
 *[IPv6]: Интернет-протокол версии 6
 *[ISP]: Интернет-провайдер
 *[ISPs]: Интернет-провайдеры
+*[IPTC]: International Press Telecommunications Council
 *[JNI]: Нативный интерфейс Java
 *[KYC]: Знай своего клиента (Know Your Customer)
 *[LLaVA]: Large Language and Vision Assistant (multimodal AI model)
@@ -107,6 +109,7 @@
 *[VLAN]: (англ. Virtual Local Area Network) - Виртуальная локальная сеть
 *[VoIP]: (англ. Voice over IP) - Интернет протокол передачи голоса по IP
 *[W3C]: Консорциум всемирной паутины
+*[XMP]:  Extensible Metadata Platform
 *[XMPP]: (англ. Extensible Messaging and Presence Protocol) - Расширяемый протокол обмена сообщениями и информацией о присутствии
 *[PWA]: (англ. Progressive Web App) - Прогрессивное веб-приложение
 *[PWAs]: (англ. Progressive Web Apps) - Прогрессивные веб-приложения

@@ -10,7 +10,14 @@ cover: data-redaction.webp
 
 - [:material-account-search: 公共曝露](basics/common-threats.md#limiting-public-information ""){.pg-green}
 
-分享檔案時，請務必移除相關的中繼資料。 映像文件通常包含 [Exif](https://en.wikipedia.org/wiki/Exif) 數據。 照片有時甚至在文件元數據中包含GPS坐標。
+分享檔案時，請務必移除相關的中繼資料。 Most common file types (including documents, images, and videos) include metadata. Image files, for example, commonly include Exif data. 照片有時甚至在文件元數據中包含GPS坐標。
+
+Windows has a built-in metadata remover, but unfortunately it cannot remove many types of data such as:
+
+- Documents: Comments, author names, tracked changes, hidden worksheets, slide notes, custom XML, and document revision histories.
+- Images: Camera serial numbers, XMP/IPTC data, C2PA metadata, and image thumbnails (which can dangerously expose original details from cropped or erased areas).
+- Audio & Video: XMP metadata, C2PA metadata, and certain ID3v2 tag fields.
+- Embedded Files: Hidden metadata nested inside images that are embedded within documents.
 
 <div class="admonition warning" markdown>
 <p class="admonition-title">警告</p>
@@ -97,7 +104,7 @@ It currently supports JPEG, PNG, and WebP files.
 
 處理完影像後， ExifEraser會為您提供一份完整的報告，說明每張影像中究竟刪除了哪些內容。
 
-該應用程式提供了多種方式來清除圖像中的中繼數據。 亦即:
+該應用程式提供了多種方式來清除圖像中的中繼數據。亦即:
 
 - 您可以使用 ExifEraser 分享其他應用程式的圖片。
 - 通過應用程式本身，可以一次選擇單個圖片，多個圖片，甚至是整個目錄。
@@ -152,7 +159,7 @@ exiftool -all= *.file_extension
 
 ## 標準
 
-**請注意，我們與推薦的任何項目均無關。**除了[我們的通用標準](about/criteria.md)外，我們還制定了一套明確的要求，以便我們能夠提供客觀的建議。 我們建議您在選擇使用項目之前先熟悉此列表，並進行自己的研究，以確保它是您的正確選擇。
+**請注意，我們與推薦的任何項目均無關。**除了[我們的通用標準](about/criteria.md)外，我們還制定了一套明確的要求，以便我們能夠提供客觀的建議。我們建議您在選擇使用項目之前先熟悉此列表，並進行自己的研究，以確保它是您的正確選擇。
 
 - 為開源作業系統開發的應用程式必須是開源的。
 - 應用程式必須是免費的，不應包含廣告或其他限制。

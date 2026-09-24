@@ -5,6 +5,7 @@
 *[prostor pro útok]: Nejvyšší počet možných vstupů pro neautorizovaný přístup do systému
 *[AVB]: Android Verified Boot (Ověřené zavedení systému Android)
 *[cgroups]: Kontrolní skupiny
+*[C2PA]: Coalition for Content Provenance and Authenticity
 *[CLI]: Příkazová řádka (Command Line Interface)
 *[CSV]: Comma-Separated Values (hodnoty oddělené čárkou)
 *[CVE]: Běžné zranitelnosti a expozice (Common Vulnerabilities and Exposures)
@@ -48,6 +49,7 @@
 *[IPv6]: Internetový protokol verze 6
 *[ISP]: Poskytovatel internetových služeb (Internet Service Provider)
 *[ISPs]: Poskytovatelé internetových služeb (Internet Service Providers)
+*[IPTC]: International Press Telecommunications Council
 *[JNI]: Nativní rozhraní Java
 *[KYC]: Know Your Customer
 *[LLaVA]: Large Language and Vision Assistant (multimodal AI model)
@@ -107,6 +109,7 @@
 *[VLAN]: Virtual Local Area Network (virtuální lokální síť)
 *[VoIP]: Voice over IP (hlas přes IP, internetový protokol)
 *[W3C]: Konsorcium World Wide Web
+*[XMP]:  Extensible Metadata Platform
 *[XMPP]: Extensible Messaging and Presence Protocol (rozšiřitelný protokol pro posílání zpráv a zjištění stavu)
 *[PWA]: Progresivní Webová Aplikace
 *[PWAs]: Progresivní webové aplikace

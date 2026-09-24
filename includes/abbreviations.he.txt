@@ -5,6 +5,7 @@
 *[משטח התקפה]: The total number of possible entry points for unauthorized access to a system
 *[AVB]: אתחול מאומת של אנדרואיד
 *[cgroups]: קבוצות בקרה
+*[C2PA]: Coalition for Content Provenance and Authenticity
 *[CLI]: ממשק שורת הפקודה
 *[CSV]: Comma-Separated Values
 *[CVE]: פגיעויות וחשיפות נפוצות
@@ -48,6 +49,7 @@
 *[IPv6]: פרוטוקול אינטרנט גרסה 6
 *[ISP]: ספק שירותי אינטרנט
 *[ISPs]: ספקי שירותי אינטרנט
+*[IPTC]: International Press Telecommunications Council
 *[JNI]: ממשק מקורי של Java
 *[KYC]: הכר את הלקוח שלך
 *[LLaVA]: Large Language and Vision Assistant (multimodal AI model)
@@ -107,6 +109,7 @@
 *[VLAN]: Virtual Local Area Network
 *[VoIP]: קול על IP (פרוטוקול אינטרנט)
 *[W3C]: קונסורציום האינטרנט העולמי
+*[XMP]:  Extensible Metadata Platform
 *[XMPP]: Extensible Messaging and Presence Protocol
 *[PWA]: Progressive Web App
 *[PWAs]: Progressive Web Apps

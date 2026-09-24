@@ -5,6 +5,7 @@
 *[saldırı yüzeyi]: The total number of possible entry points for unauthorized access to a system
 *[AVB]: Android Onaylanmış Önyükleme
 *[cgroups]: Kontrol Grupları
+*[C2PA]: Coalition for Content Provenance and Authenticity
 *[CLI]: Komut Satırı Arayüzü
 *[CSV]: CSV Dosyası
 *[CVE]: Yaygın Zafiyetler ve Açıklar
@@ -48,6 +49,7 @@
 *[IPv6]: İnternet Protokolü Versiyon 6
 *[İSS]: İnternet Servis Sağlayıcısı
 *[İSS'ler]: İnternet Servis Sağlayıcıları
+*[IPTC]: International Press Telecommunications Council
 *[JNI]: Java Yerel Arayüzü
 *[KYC]: Müşterini Tanı
 *[LLaVA]: Large Language and Vision Assistant (multimodal AI model)
@@ -107,6 +109,7 @@
 *[VLAN]: Sanal Yerel Alan Ağı
 *[VoIP]: IP üzerinden Ses (İnternet Protokolü)
 *[W3C]: Dünya Çapında Ağ Konsorsiyumu
+*[XMP]:  Extensible Metadata Platform
 *[XMPP]: Genişletilebilir Mesajlaşma ve Varlık Protokolü
 *[PWA]: İleri Web Uygulaması
 *[PWAs]: Progressive Web Apps

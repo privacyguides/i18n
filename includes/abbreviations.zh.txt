@@ -5,6 +5,7 @@
 *[攻击面]: 系统可能被未经授权访问的入口点总数
 *[AVB]: 安卓验证启动
 *[cgroups]: 控制组
+*[C2PA]: Coalition for Content Provenance and Authenticity
 *[CLI]: 命令行界面
 *[CSV]: 逗号分隔值
 *[CVE]: 常见漏洞和风险
@@ -48,6 +49,7 @@
 *[IPv6]: 互联网通信协议第六版
 *[ISP]: 互联网服务供应商
 *[ISPs]: 互联网服务提供商
+*[IPTC]: International Press Telecommunications Council
 *[JNI]: Java原生接口
 *[KYC]: 认识你的客户（Know Your Customer）
 *[LLaVA]: Large Language and Vision Assistant（多模态AI模型）
@@ -107,6 +109,7 @@
 *[VLAN]: 虚拟局域网
 *[VoIP]: 基于IP的语音传输
 *[W3C]: 万维网联盟
+*[XMP]:  Extensible Metadata Platform
 *[XMPP]: 可扩展消息和表示协议
 *[PWA]: 渐进式网页应用程序
 *[PWAs]: 渐进式网页应用程序

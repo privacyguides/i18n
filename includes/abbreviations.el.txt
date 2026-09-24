@@ -5,6 +5,7 @@
 *[επιφάνεια επίθεσης]: Τους συνολικούς αριθμούς των πιθανών σημείων για μην εξουσιοδοτημένη πρόσβαση στο σύστημα
 *[AVB]: Android Verified Boot (ελληνιστί: Επαληθευμένη Εκκίνηση Android)
 *[cgroups]: Ομάδες Ελέγχου
+*[C2PA]: Coalition for Content Provenance and Authenticity
 *[CLI]: Διεπαφή Γραμμής Εντολών (αγγλικά: Command-Line Interface)
 *[CSV]: Τιμές Διαχωρισμένες με Κόμμα
 *[CVE]: Κοινές Ευπάθειες και Εκθέσεις
@@ -48,6 +49,7 @@
 *[IPv6]: Διαδικτυακό Πρωτόκολλο έκδοση 6
 *[ISP]: Πάροχος Υπηρεσιών Διαδικτύου
 *[ISPs]: Πάροχοι Υπηρεσιών Διαδικτύου
+*[IPTC]: International Press Telecommunications Council
 *[JNI]: Java Native Interface (ελληνιστί: Εγγενής Διεπαφή Java)
 *[KYC]: Μέτρα Δέουσας Επιμέλειας (νομικός όρος) ή "Συστηθείτε" (μαρκετίστικος όρος)
 *[LLaVA]: Μεγάλη Γλώσσα και Βοηθός Όρασης (πολύτροπο μοντέλο τεχνητής νοημοσύνης)
@@ -107,6 +109,7 @@
 *[ΕΤΔ]: Εικονικό Τοπικό Δίκτυο
 *[VoIP]: Voice over Internet Protocol (ελληνιστί: Φωνή επί Διαδικτυακού Πρωτοκόλλου)
 *[W3C]: World Wide Web Consortium
+*[XMP]:  Extensible Metadata Platform
 *[XMPP]: Extensible Messaging and Presence Protocol
 *[PWA]: Προοδευτική Διαδικτυακή Εφαρμογή (αγγλικά: Progressive Web App)
 *[PWAs]: Progressive Web Apps

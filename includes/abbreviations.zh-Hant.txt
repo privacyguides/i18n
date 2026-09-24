@@ -5,6 +5,7 @@
 *[攻擊面]: 未經授權存取系統的可能進入點總數
 *[AVB]: Android 驗證啟動
 *[cgroups]: 對照組
+*[C2PA]: Coalition for Content Provenance and Authenticity
 *[CLI]: 命令列介面
 *[CSV]: 字元分隔值
 *[CVE]: 公共漏洞和暴露
@@ -48,10 +49,11 @@
 *[IPv6]: 網際網路通訊協定第 6 版
 *[ISP]: 網際網路服務提供商
 *[ISPs]: 網際網路服務提供商
+*[IPTC]: International Press Telecommunications Council
 *[JNI]: Java 原生介面
 *[KYC]: 客戶身分審查
 *[LLaVA]: Large Language and Vision Assistant（多模態 AI 模型）
-*[LLMs]： 大型語言模型（AI 模型，例如：ChatGPT）
+*[LLMs]：大型語言模型（AI 模型，例如：ChatGPT）
 *[LUKS]: Linux 統一金鑰設定 (全磁碟加密)
 *[MAC]: 媒體存取控制
 *[MDAG]: Microsoft Defender 應用程式防護
@@ -66,7 +68,7 @@
 *[OCSP]: 線上憑證狀態協定
 *[OEM]: 原始設備製造商
 *[OEMs]: 原始設備製造商
-*[open-weights]： 開放權重模型是任何人都可以下載和使用的 AI 模型，但其基礎訓練資料和/或演算法是專有的。
+*[open-weights]：開放權重模型是任何人都可以下載和使用的 AI 模型，但其基礎訓練資料和/或演算法是專有的。
 *[OS]: 操作系統
 *[OTP]: 一次性密碼
 *[OTPs]: 一次性密碼
@@ -107,7 +109,8 @@
 *[VLAN]: 虛擬區域網路
 *[VoIP]: 網路電話 (Voice over IP)
 *[W3C]: 全球資訊網協會
+*[XMP]:  Extensible Metadata Platform
 *[XMPP]: 可延伸傳訊與顯示通訊協定
 *[PWA]: 漸進式網路應用程式
-*[PWAs]： 漸進式網路應用程式
-*[WKD]： 網路金鑰目錄 (Web Key Directory)
+*[PWAs]：漸進式網路應用程式
+*[WKD]：網路金鑰目錄 (Web Key Directory)

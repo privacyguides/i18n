@@ -10,7 +10,14 @@ cover: data-redaction.webp
 
 - [:material-account-search: חשיפה ציבורית](basics/common-threats.md#limiting-public-information ""){.pg-green}
 
-בעת שיתוף קבצים, הקפד להסיר מטא נתונים משויכים. קבצי תמונה כוללים בדרך כלל [נתוני Exif](https://en.wikipedia.org/wiki/Exif). תמונות לפעמים אפילו כוללות קואורדינטות GPS במטא-נתונים של הקובץ.
+בעת שיתוף קבצים, הקפד להסיר מטא נתונים משויכים. Most common file types (including documents, images, and videos) include metadata. Image files, for example, commonly include Exif data. תמונות לפעמים אפילו כוללות קואורדינטות GPS במטא-נתונים של הקובץ.
+
+Windows has a built-in metadata remover, but unfortunately it cannot remove many types of data such as:
+
+- Documents: Comments, author names, tracked changes, hidden worksheets, slide notes, custom XML, and document revision histories.
+- Images: Camera serial numbers, XMP/IPTC data, C2PA metadata, and image thumbnails (which can dangerously expose original details from cropped or erased areas).
+- Audio & Video: XMP metadata, C2PA metadata, and certain ID3v2 tag fields.
+- Embedded Files: Hidden metadata nested inside images that are embedded within documents.
 
 <div class="admonition warning" markdown>
 <p class="admonition-title">Warning</p>

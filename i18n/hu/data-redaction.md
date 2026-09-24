@@ -10,7 +10,14 @@ cover: data-redaction.webp
 
 - [:material-account-search: Public Exposure](basics/common-threats.md#limiting-public-information ""){.pg-green}
 
-Fájlok megosztásakor ügyelj a kapcsolódó metaadatok eltávolítsára. A képfájlok gyakran tartalmaznak [Exif](https://en.wikipedia.org/wiki/Exif) adatokat. A fényképek időnként még GPS-koordinátákat is tartalmaznak a fájl metaadataiban.
+Fájlok megosztásakor ügyelj a kapcsolódó metaadatok eltávolítsára. Most common file types (including documents, images, and videos) include metadata. Image files, for example, commonly include Exif data. A fényképek időnként még GPS-koordinátákat is tartalmaznak a fájl metaadataiban.
+
+Windows has a built-in metadata remover, but unfortunately it cannot remove many types of data such as:
+
+- Documents: Comments, author names, tracked changes, hidden worksheets, slide notes, custom XML, and document revision histories.
+- Images: Camera serial numbers, XMP/IPTC data, C2PA metadata, and image thumbnails (which can dangerously expose original details from cropped or erased areas).
+- Audio & Video: XMP metadata, C2PA metadata, and certain ID3v2 tag fields.
+- Embedded Files: Hidden metadata nested inside images that are embedded within documents.
 
 <div class="admonition warning" markdown>
 <p class="admonition-title">Figyelmeztetés</p>

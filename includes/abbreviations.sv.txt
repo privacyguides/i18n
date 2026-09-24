@@ -5,6 +5,7 @@
 *[attackyta]: The total number of possible entry points for unauthorized access to a system
 *[AVB]: Android verifierad uppstart
 *[cgroups]: Kontrollgrupper
+*[C2PA]: Coalition for Content Provenance and Authenticity
 *[CLI]: Kommandoradsgränssnitt
 *[CSV]: Kommaseparerade värden
 *[CVE]: Vanliga sårbarheter och exponeringar
@@ -48,6 +49,7 @@
 *[IPv6]: Internetprotokoll version 6
 *[ISP]: Internetleverantör
 *[ISPs]: Internetleverantör
+*[IPTC]: International Press Telecommunications Council
 *[JNI]: Java inbyggt gränssnitt
 *[KYC]: Känn din kund
 *[LLaVA]: Large Language and Vision Assistant (multimodal AI model)
@@ -107,6 +109,7 @@
 *[VLAN]: Virtual Local Area Network
 *[VoIP]: Röst över IP (Internet Protocol)
 *[W3C]: World Wide Web Consortium
+*[XMP]:  Extensible Metadata Platform
 *[XMPP]: Utökningsbart meddelande- och närvaroprotokoll
 *[PWA]: Progressiv webbapp
 *[PWAs]: Progressiva webbappar

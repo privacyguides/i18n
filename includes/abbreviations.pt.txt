@@ -5,6 +5,7 @@
 *[superfície de ataque]: The total number of possible entry points for unauthorized access to a system
 *[AVB]: Boot verificado de Android
 *[cgroups]: Grupo de controle
+*[C2PA]: Coalition for Content Provenance and Authenticity
 *[CLI]: Interface de Linha de Comando
 *[CSV]: Valores separados por vírgulas
 *[CVE]: Vulnerabilidades e exposições comuns
@@ -48,6 +49,7 @@
 *[IPv6]: Protocolo Internet versão 6
 *[ISP]: Internet Service Providers – Fornecedores de Internet
 *[ISPs]: Internet Service Providers – Fornecedores de Internet
+*[IPTC]: International Press Telecommunications Council
 *[JNI]: Interface nativa Java
 *[KYC]: Conheça o seu cliente
 *[LLaVA]: Large Language and Vision Assistant (multimodal AI model)
@@ -107,6 +109,7 @@
 *[VLAN]: Virtual Local Area Network
 *[VoIP]: Voz sobre IP (Protocolo Internet)
 *[W3C]: Consórcio da World Wide Web
+*[XMP]:  Extensible Metadata Platform
 *[XMPP]: Protocolo Extensível de Mensagens e Presença
 *[PWA]: Aplicação Web progressiva
 *[PWAs]: Progressive Web Apps

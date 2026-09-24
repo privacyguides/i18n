@@ -10,7 +10,14 @@ cover: data-redaction.webp
 
 - [:material-account-search: Publiekelijke bekendheid](basics/common-threats.md#limiting-public-information ""){.pg-green}
 
-Wanneer je bestanden deelt, is het belangrijk om de bijbehorende metadata te verwijderen. Afbeeldingsbestanden bevatten vaak [Exif](https://en.wikipedia.org/wiki/Exif) data. Foto's bevatten soms zelfs GPS-coördinaten in de metadata van het bestand.
+Wanneer je bestanden deelt, is het belangrijk om de bijbehorende metadata te verwijderen. Most common file types (including documents, images, and videos) include metadata. Image files, for example, commonly include Exif data. Foto's bevatten soms zelfs GPS-coördinaten in de metadata van het bestand.
+
+Windows has a built-in metadata remover, but unfortunately it cannot remove many types of data such as:
+
+- Documents: Comments, author names, tracked changes, hidden worksheets, slide notes, custom XML, and document revision histories.
+- Images: Camera serial numbers, XMP/IPTC data, C2PA metadata, and image thumbnails (which can dangerously expose original details from cropped or erased areas).
+- Audio & Video: XMP metadata, C2PA metadata, and certain ID3v2 tag fields.
+- Embedded Files: Hidden metadata nested inside images that are embedded within documents.
 
 <div class="admonition warning" markdown>
 <p class="admonition-title">Waarschuwing</p>
