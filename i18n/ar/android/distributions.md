@@ -1,7 +1,7 @@
 ---
-meta_title: "The Best Android Operating Systems - Privacy Guides"
-title: Alternative Distributions
-description: You can replace the operating system on your Android phone with these secure and privacy-respecting alternatives.
+meta_title: "أفضل أنظمة تشغيل أندرويد — دليل الخصوصية"
+title: توزيعات أندرويد البديلة
+description: يمكنك استبدال نظام التشغيل على هاتف أندرويد بأحد هذه البدائل الآمنة والتي تحترم خصوصيتك.
 schema:
   - "@context": http://schema.org
     "@type": WebPage
