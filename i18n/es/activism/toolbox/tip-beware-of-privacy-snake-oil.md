@@ -17,13 +17,13 @@ Muchos negocios quieren comerse su parte de la tarta atrayendo a usuarios con fa
 
 Presentar de forma engañosa o fraudulenta un producto, servicio u organización como responsable y confiable con la protección de la privacidad cuando no lo es, se conoce como "[lavado de privacidad](https://www.privacyguides.org/articles/2025/08/20/privacy-washing-is-a-dirty-business/)."
 
-There are many things you can learn to become more resistant to privacy washing, and become better at using and recommending genuinely privacy-preserving technologies.
+Hay muchas cosas que puedes aprender para ser más resistente al "lavado de privacidad" y ser mejor usando y recomendando tecnologías que realmente protejan la privacidad.
 
-## How to spot privacy snake oil
+## Cómo detectar productos de privacidad milagrosos
 
-Never trust any privacy claims at face value.
+Nunca confíes en anuncios de privacidad a la primera.
 
-Here are some red flags you should always keep in mind when evaluating a privacy tool, service, or organization:
+Aquí tienes algunas banderas rojas que debes tener en cuenta cuando evalúas una herramienta, servicio u organización relacionados con la privacidad:
 
 <style>
 .emoji-list-a ul {
@@ -47,11 +47,11 @@ Here are some red flags you should always keep in mind when evaluating a privacy
 
 <div class="emoji-list-a" markdown>
 
-- [**Conflict of interest**](https://www.privacyguides.org/articles/2025/09/03/red-and-green-privacy-flags/#conflict-of-interest): Is the source that is telling you this product is trustworthy independent of the company or parent-company that owns this product?
+- [**Conflicto de interés**](https://www.privacyguides.org/articles/2025/09/03/red-and-green-privacy-flags/#conflict-of-interest): ¿La fuente que te está diciendo que ese producto es fiable es independiente de la empresa o compañía padre propietaria del mismo?
 
-- [**Biased reviews**](https://www.privacyguides.org/articles/2025/09/03/red-and-green-privacy-flags/#fake-reviews): Is the review recommending this product truly independent, or has it received sponsorship money? Was the review AI-generated?
+- [**Reseñas sesgadas**](https://www.privacyguides.org/articles/2025/09/03/red-and-green-privacy-flags/#fake-reviews): ¿La reseña que está recomendando este producto es realmente independiente o ha recibido fondos de patrocinio? ¿La reseña ha sido generada mediante IA?
 
-- [**Meaningless attestations**](https://www.privacyguides.org/articles/2025/09/03/red-and-green-privacy-flags/#meaningless-privacy-compliance-badges): Are claims of privacy law compliance or trustworthiness supported by external sources, or do they only come from the organization itself?
+- [**Declaraciones sin fundamento**](https://www.privacyguides.org/articles/2025/09/03/red-and-green-privacy-flags/#meaningless-privacy-compliance-badges): ¿Las afirmaciones sobre el cumplimiento de legislación en materia de privacidad o la fiabilidad están sustentadas por enlaces externos o proceden de la propia organización?
 
 - [**Buzzword language**](https://www.privacyguides.org/articles/2025/09/03/red-and-green-privacy-flags/#buzzword-language): Is the advertising and description of the product using a lot of privacy buzzwords like "military-grade encryption" or "AI-powered"?
 
