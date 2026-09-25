@@ -10,13 +10,13 @@ One of the newest examples was called **Recall**, a part of the Copilot AI featu
 
 Unfortunately, this feature was added without too much thought about the privacy implications of having such a feature enabled by default (which it now [no longer is](https://wired.com/story/microsoft-recall-off-default-security-concerns)). It is not an isolated example, however. Another example was Microsoft automatically [enabling folder backups to OneDrive](https://neowin.net/news/windows-11-is-now-automatically-enabling-onedrive-folder-backup-without-asking-permission) on new Windows 11 installations without asking for permission.
 
-You can enhance your privacy and security on Windows without downloading any third-party tools with these guides:
+Улучшить конфиденциальность и безопасность Windows можно без установки стороннего ПО. Ниже приведены пошаговые руководства, которые помогут это сделать:
 
-- Initial Installation (coming soon)
-- [Group Policy Settings](group-policies.md)
-- Privacy Settings (coming soon)
-- Application Sandboxing (coming soon)
-- Security Hardening (coming soon)
+- Установка (скоро появится)
+- [Параметры групповой политики](group-policies.md)
+- Настройки конфиденциальности (скоро появится)
+- Изоляция приложений (скоро появится)
+- Усиление безопасности (скоро появится)
 
 <div class="admonition example" markdown>
 <p class="admonition-title">This section is new</p>
@@ -53,11 +53,11 @@ Students and teachers may be able to obtain a Windows **Education** (equivalent 
 
 It is not recommended to use third party modified versions of Windows such as Windows AME. Since modified versions of Windows like Windows AME don't receive updates, security features and antivirus definitions in Windows Defender will fall behind the current threat landscape, opening you up to attacks, thus making you even less secure.
 
-## Obtaining Windows
+## Получение Windows
 
-Currently, only Windows 11 license keys are available for purchase, but these keys will work on Windows 10 as well, so you can still purchase a Windows 11 Pro key to activate a Windows 10 install.
+Сейчас в продаже доступны только лицензионные ключи для Windows 11, однако эти ключи будут работать и на Windows 10. Вы можете приобрести ключ для Windows 11 Pro, чтобы активировать установленную Windows 10.
 
-The official [Media Creation Tool](https://microsoft.com/software-download/windows11) is the best way to put a Windows installer on a USB flash drive. Third-party tools like Rufus or Etcher may unexpectedly modify the files, which could lead to boot issues or other troubles when installing.
+Официальный [Media Creation Tool](https://microsoft.com/software-download/windows11) - это лучший способ создать установочный USB с Windows. Сторонние утилиты, такие как Rufus или Etcher, могут непреднамеренно изменить файлы, что может привести к проблемам с загрузкой или установкой.
 
 This tool only lets you install a **Home** or **Pro** installation, as there are no publicly available downloads for Windows **Enterprise** edition. If you have an **Enterprise** license key, you can easily upgrade a **Pro** installation. To do this, install Windows **Pro** without entering a license key during setup, then enter your **Enterprise** key in the Settings app after completing the installation. Your **Pro** install will be upgraded to **Enterprise** automatically after entering a valid license key.
 

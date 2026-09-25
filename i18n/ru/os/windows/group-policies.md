@@ -133,7 +133,7 @@ description: Краткое руководство по конфигурации
 <div class="admonition info" markdown>
 <p class="admonition-title">Windows Recall</p>
 
-Windows 11 recently introduced a feature called **Recall**, which records all your activity and creates a searchable archive of that activity history. This is a massive privacy vulnerability, because those archives can potentially store highly sensitive information (essentially anything displayed on your screen), and malware without any special permissions or admin access can trivially [access](https://github.com/xaitax/TotalRecall) the full Recall database anytime after it is unlocked.
+В Windows 11 недавно появилась функция **Recall**, которая сохраняет информацию о ваших действиях и формирует архив с ними. По этому архиву впоследствии можно выполнять поиск. Это создаёт серьёзную угрозу конфиденциальности, поскольку такой архив потенциально может содержать крайне чувствительную информацию (фактически всё, что отображается на экране, может быть записано). Более того, вредоносное ПО без специальных разрешений или прав администратора может относительно легко [получить доступ](https://github.com/xaitax/TotalRecall) ко всей базе данных Recall после того, как она будет разблокирована.
 
 </div>
 
