@@ -92,7 +92,7 @@ Es fundamental comprender la diferencia entre eludir la censura y eludir la dete
 
 ### Tor Browser no es el navegador más *seguro*
 
-Anonymity can often be at odds with security. Tor achieves anonymity by ensuring every user appears identical, creating a digital monoculture where the same vulnerabilities exist across all installations. In cybersecurity, monocultures are generally considered a risk. Security through diversity provides natural segmentation by limiting the impact of an exploit to a smaller segment of users. While such diversity is structurally desirable for security, it inherently compromises user anonymity by making individuals trackable.
+El anonimato puede entrar en conflicto con la seguridad. Tor logra el anonimato garantizando que todos los usuarios parezcan idénticos, creando un monocultivo digital donde las mismas vulnerabilidades existen en todas las instalaciones. En ciberseguridad, los monocultivos suelen ser considerados un riesgo. La seguridad mediante la diversidad proporciona una segmentación natural, ya que limita el impacto de un ataque a un segmento más reducido de usuarios. Si bien esa diversidad es estructuralmente deseable para la seguridad, compromete el anonimato de los usuarios al hacer a los individuos rastreables.
 
 Adicionalmente, Tor Browser está basado en la versión de Soporte Extendido de Firefox, que solo recibe parches para vulnerabilidades consideradas *Críticas* y *Altas* (no *Medias* y *Bajas*). Esto significa que los atacantes podrían (por ejemplo):
 

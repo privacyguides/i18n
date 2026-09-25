@@ -126,7 +126,7 @@ En este ejemplo registraremos lo que sucede cuando hacemos una solicitud de DoH:
 
 Podemos ver el [establecimiento de la conexión](https://en.wikipedia.org/wiki/Transmission_Control_Protocol#Connection_establishment) y el [handshake TLS](https://cloudflare.com/learning/ssl/what-happens-in-a-tls-handshake) que se produce con cualquier conexión cifrada. Al mirar los paquetes de "datos de aplicación" que siguen, ninguno de ellos contiene el dominio que solicitamos ni la dirección IP devuelta.
 
-## Encrypted DNS Limitations
+## Limitaciones de DNS cifrado
 
 En los lugares en los que existe el filtrado de Internet (o la censura), visitar recursos prohibidos puede tener sus propias consecuencias, que deberás tener en cuenta en tu [modelo de amenazas](../basics/threat-modeling.md). Nosotros **no** sugerimos el uso de DNS encriptados para este propósito. Utiliza [Tor](../advanced/tor-overview.md) o un [VPN](../vpn.md) en su lugar. Si estás usando una VPN, deberías usar los servidores DNS de tu VPN. Al utilizar una VPN, ya les estás confiando toda tu actividad en la red.
 
