@@ -78,7 +78,7 @@ También pensamos que es mejor para la seguridad de las claves privadas del prov
 
 #### :material-check:{ .pg-green } Auditado independientemente
 
-El investigador de seguridad independiente Rubén Santamarta llevó a cabo auditorías de las [extensiones de navegador](https://drive.proton.me/urls/RWDD2SHT98#v7ZrwNcafkG8) y las [aplicaciones](https://drive.proton.me/urls/RVW8TXG484#uTXX5Fc9GADo) de Proton VPN en septiembre de 2024 y enero de 2025, respectivamente. Proton VPN's infrastructure has undergone [annual audits](https://protonvpn.com/blog/no-logs-audit) by Securitum since 2022.
+El investigador de seguridad independiente Rubén Santamarta llevó a cabo auditorías de las [extensiones de navegador](https://drive.proton.me/urls/RWDD2SHT98#v7ZrwNcafkG8) y las [aplicaciones](https://drive.proton.me/urls/RVW8TXG484#uTXX5Fc9GADo) de Proton VPN en septiembre de 2024 y enero de 2025, respectivamente. La infraestructura de la VPN de Protón se somete a [auditorías anuales](https://protonvpn.com/blog/no-logs-audit) de Securitum desde 2022.
 
 Anteriormente, Proton VPN se sometió a una auditoría independiente realizada por SEC Consult en enero de 2020. Los investigadores de seguridad concluyeron:
 

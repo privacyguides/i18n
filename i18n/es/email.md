@@ -95,7 +95,7 @@ Proton Mail dispone de informes de errores internos que **no** se comparten con 
 
     En la bandeja de entrada, selecciona :gear: → **Todos los ajustes** → **Cuenta** → **Seguridad y privacidad** → **Privacidad y recopilación de datos**.
 
-    - [ ] Disable **Collect usage diagnostics**
+    - [ ] Desactiva **Enviar diagnóstico de uso**
     - [ ] Desactiva **Enviar informes de error**
 
 === "Móvil"
@@ -103,7 +103,7 @@ Proton Mail dispone de informes de errores internos que **no** se comparten con 
     En la bandeja de entrada, selecciona :material-menu: → :gear: **Configuración** → selecciona tu nombre de usuario.
 
     - [ ] Desactiva **Enviar informes de error**
-    - [ ] Disable **Collect usage diagnostics**
+    - [ ] Desactiva **Enviar diagnóstico de uso**
 
 #### :material-check:{ .pg-green } Dominios Personalizados y Alias
 
