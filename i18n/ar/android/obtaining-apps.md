@@ -1,9 +1,9 @@
 ---
-title: "Obtaining Applications"
-description: We recommend these methods for obtaining applications on Android without interacting with Google Play Services.
+title: "نزيل التطبيقات"
+description: نوصي بهذه الطرق للحصول على التطبيقات على Android دون الحاجة إلى التعامل مع خدمات Google Play.
 ---
 
-There are many ways to obtain Android apps privately, even from the Play Store, without interacting with Google Play Services. We recommend the following methods of obtaining applications on Android, listed in order of preference.
+هناك طرق عديدة للحصول على تطبيقات Android بخصوصية، حتى من Play Store، دون الحاجة إلى التعامل مع خدمات Google Play. نوصي بالطرق التالية للحصول على التطبيقات على Android، مرتبة حسب الأفضلية.
 
 ## Obtainium
 
@@ -11,7 +11,7 @@ There are many ways to obtain Android apps privately, even from the Play Store, 
 
 ![Obtainium logo](../assets/img/android/obtainium.svg){ align=right }
 
-**Obtainium** is an app manager which allows you to install and update apps directly from the developer's own releases page (i.e. GitHub, GitLab, the developer's website, etc.), rather than a centralized app store/repository. It supports automatic background updates on Android 12 and higher.
+تطبيق Obtainium هو مدير تطبيقات (App Manager) يتيح لك تثبيت التطبيقات وتحديثها مباشرةً من صفحة الإصدارات الخاصة بالمطور نفسه. مثل GitHub أو GitLab أو موقع المطور نفسه، بدلا من الاعتماد على متجر تطبيقات أو مستودع مركزي (Centralized App Store/Repository). It supports automatic background updates on Android 12 and higher.
 
 [:octicons-repo-16: Repository](https://github.com/ImranR98/Obtainium#readme){ .md-button .md-button--primary }
 [:octicons-info-16:](https://github.com/ImranR98/Obtainium/wiki){ .card-link title=Documentation}

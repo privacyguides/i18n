@@ -8,7 +8,7 @@ schema:
     name: Private Android Operating Systems
     url: "./"
   - "@context": http://schema.org
-    "@type": ""
+    "@type": CreativeWork
     name: GrapheneOS
     image: /assets/img/android/grapheneos.svg
     url: https://grapheneos.org/
@@ -42,7 +42,7 @@ robots: nofollow, max-snippet:-1, max-image-preview:large
 
 يُعد **GrapheneOS** الخيار الأفضل عندما يتعلق الأمر بالخصوصية والأمان.
 
-يوفر GrapheneOS المزيد من تحسينات [التقوية الأمنية](https://en.wikipedia.org/wiki/Hardening_(computing) (Security Hardening) وميزات إضافية لتعزيز الخصوصية. يحتوي على [مُخصص ذاكرة مُعزز](https://github.com/GrapheneOS/hardened_malloc) (Hardened Memory Allocator)، وأذونات للتحكم في الوصول إلى الشبكة والمستشعرات، إلى جانب العديد من [ميزات الأمان الأخرى](https://grapheneos.org/features). GrapheneOS also comes with full firmware updates and signed builds, so verified boot is fully supported.
+يوفر GrapheneOS المزيد من تحسينات [التقوية الأمنية](https://en.wikipedia.org/wiki/Hardening_(computing) (Security Hardening) وميزات إضافية لتعزيز الخصوصية. يحتوي على [مُخصص ذاكرة مُعزز](https://github.com/GrapheneOS/hardened_malloc) (Hardened Memory Allocator)، وأذونات للتحكم في الوصول إلى الشبكة والمستشعرات، إلى جانب العديد من [ميزات الأمان الأخرى](https://grapheneos.org/features). يأتي GrapheneOS أيضا مع تحديثات كاملة للبرامج الثابتة (Firmware) وإصدارات موقعة (Signed Builds)، لذلك فهو يدعم الإقلاع الموثق (Verified Boot) بشكل كامل.
 
 [:octicons-home-16: Homepage](https://grapheneos.org){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://grapheneos.org/faq#privacy-policy){ .card-link title="Privacy Policy" }
@@ -54,25 +54,25 @@ robots: nofollow, max-snippet:-1, max-image-preview:large
 
 يدعم GrapheneOS تشغيل Google Play داخل [بيئة معزولة](https://grapheneos.org/usage#sandboxed-google-play) (Sandboxed Google Play)، حيث تعمل خدمات Google Play داخل Sandbox بالكامل مثل أي تطبيق عادي آخر. هذا يعني أنه يمكنك الاستفادة من معظم خدمات Google Play، مثل الإشعارات الفورية (Push Notifications)، مع الاحتفاظ بالتحكم الكامل في أذوناتها وما يمكنها الوصول إليه، بالإضافة إلى إمكانية حصرها داخل [ملف عمل](../os/android-overview.md#work-profile) (Work Profile) أو [ملف مستخدم](../os/android-overview.md#user-profiles) (User Profile) محدد من اختيارك.
 
-تُعد هواتف Google Pixel الأجهزة الوحيدة التي تستوفي حاليا الـ [متطلبات أمان العتاد (Hardware Security Requirements)](https://grapheneos.org/faq#future-devices) الخاصة بـ GrapheneOS. يدعم Pixel 8 والإصدارات الأحدث ميزة Memory Tagging Extension (MTE) من ARM، وهي ميزة أمان على مستوى الـ Hardware تقلل بشكل كبير من احتمال استغلال الثغرات الناتجة عن أخطاء تلف الذاكرة (Memory Corruption Bugs). GrapheneOS greatly expands the coverage of MTE on supported devices. Whereas the stock OS only allows you to opt in to a limited implementation of MTE via a developer option or Google's Advanced Protection Program, GrapheneOS features a more robust implementation of MTE by default in the system kernel, default system components, and their Vanadium web browser and its WebView.
+تُعد هواتف Google Pixel الأجهزة الوحيدة التي تستوفي حاليا الـ [متطلبات أمان العتاد (Hardware Security Requirements)](https://grapheneos.org/faq#future-devices) الخاصة بـ GrapheneOS. يدعم Pixel 8 والإصدارات الأحدث ميزة Memory Tagging Extension (MTE) من ARM، وهي ميزة أمان على مستوى الـ Hardware تقلل بشكل كبير من احتمال استغلال الثغرات الناتجة عن أخطاء تلف الذاكرة (Memory Corruption Bugs). يوسّع GrapheneOS بشكل كبير نطاق استخدام MTE على الأجهزة التي تدعمها. بينما لا يسمح لك نظام التشغيل الافتراضي (Stock OS) إلا بتفعيل تطبيق محدود لميزة MTE من خلال أحد خيارات المطوّرين أو برنامج الحماية المتقدمة من Google (Advanced Protection Program)، يوفر GrapheneOS تطبيقا أقوى وأكثر شمولًا لميزة MTE بشكل افتراضي في نواة النظام (System Kernel)، ومكونات النظام الافتراضية، ومتصفح Vanadium الخاص به وميزة الـ WebView.
 
-GrapheneOS also provides a global toggle for enabling MTE on all user-installed apps at :gear: **Settings** → **Security & privacy** → **Exploit protection** → **Memory tagging** → **Enable by default**. The OS also features per-app toggles to opt out of MTE for apps which may crash due to compatibility issues.
+يوفر GrapheneOS أيضًا مفتاحًا عامًا (Global Toggle) لتفعيل MTE على جميع التطبيقات التي يثبتها المستخدم، وذلك من خلال: :gear: **الإعدادات** (Settings) ← **الأمان والخصوصية** (Security & privacy) ← **الحماية من الاستغلال** (Exploit protection) ← **وسم الذاكرة** (Memory tagging) ← **التفعيل افتراضيا** (Enable by default). يوفر نظام التشغيل أيضًا خيارات منفصلة لكل تطبيق لتعطيل MTE للتطبيقات التي قد تتعطل بسبب مشاكل التوافق (Compatibility Issues).
 
-### Connectivity Checks
+### فحوصات الاتصال (Connectivity Checks)
 
-By default, Android makes many network connections to Google to perform DNS connectivity checks, to sync with current network time, to check your network connectivity, and for many other background tasks. GrapheneOS replaces these with connections to servers operated by GrapheneOS and subject to their privacy policy. This hides information like your IP address [from Google](../basics/common-threats.md#privacy-from-service-providers), but means it is trivial for an admin on your network or ISP to see you are making connections to `grapheneos.network`, `grapheneos.org`, etc. and deduce what operating system you are using.
+افتراضيا، يجري Android العديد من الاتصالات عبر الشبكة مع Google لإجراء الـ (DNS Connectivity Checks)، ومزامنة الوقت الحالي عبر الشبكة، والتحقق من اتصال جهازك بالشبكة، بالإضافة إلى العديد من المهام الأخرى التي تعمل في الخلفية. يستبدل GrapheneOS هذه الاتصالات باتصالات إلى خوادم تديرها GrapheneOS وتخضع لسياسة الخصوصية الخاصة بها. يؤدي ذلك إلى إخفاء معلومات مثل عنوان الـ (IP Address) الخاص بك عن Google، لكنه يعني أيضًا أنه سيكون من السهل جدًا على مسؤول الشبكة لديك أو مزود خدمة الإنترنت (ISP) ملاحظة أنك تتصل بعناوين مثل grapheneos.network وgrapheneos.org وغيرها، ومن ثم استنتاج نظام التشغيل الذي تستخدمه.
 
-If you want to hide information like this from an adversary on your network or ISP, you **must** use a [trusted VPN](../vpn.md) in addition to changing the connectivity check setting to **Standard (Google)**. It can be found in :gear: **Settings** → **Network & internet** → **Internet connectivity checks**. This option allows you to connect to Google's servers for connectivity checks, which, alongside the usage of a VPN, helps you blend in with a larger pool of Android devices.
+إذا كنت تريد إخفاء معلومات كهذه عن جهة معادية على شبكتك أو عن مزود خدمة الإنترنت (ISP)، فيجب عليك استخدام VPN موثوق، بالإضافة إلى تغيير إعداد فحص الاتصال (Connectivity Check) إلى Standard (Google). يمكن العثور على هذا الإعداد من خلال: :gear: **الإعدادات** (Settings) ← **الشبكة والإنترنت** (Network & internet) ← **فحوصات اتصال الإنترنت** (Internet connectivity checks). يتيح لك هذا الخيار الاتصال بخوادم Google لإجراء فحوصات الاتصال (Connectivity Checks)، ومع استخدام VPN يساعد ذلك على جعلك أقل تميزا ضمن مجموعة أكبر من أجهزة Android.
 
-## Criteria
+## المعايير
 
-**Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](../about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. We suggest you familiarize yourself with this list before choosing to use a project, and conduct your own research to ensure it's the right choice for you.
+يرجى ملاحظة أننا غير مرتبطين بأي من المشاريع التي نوصي بها. بالإضافة إلى [معاييرنا العامة](../about/criteria.md)، وضعنا مجموعة واضحة من المتطلبات التي تساعدنا على تقديم توصيات موضوعية. ننصحك بالاطلاع على هذه القائمة وفهمها قبل اختيار أي مشروع، وإجراء بحثك الخاص للتأكد من أنه الخيار المناسب لك.
 
-- Must be open-source software.
-- Must support bootloader locking with custom AVB key support.
-- Must receive major Android updates within 0-1 months of release.
-- Must receive Android feature updates (minor version) within 0-14 days of release.
-- Must receive regular security patches within 0-5 days of release.
-- Must **not** be "rooted" out of the box.
-- Must **not** enable Google Play Services by default.
-- Must **not** require system modification to support Google Play Services.
+- يجب أن يكون البرنامج مفتوح المصدر (open-source software).
+- يجب أن يدعم الـ (Bootloader Locking) مع دعم مفتاح AVB مخصّص (Custom AVB Key).
+- يجب أن يتلقى تحديثات Android الرئيسية (Major Android Updates) خلال مدة تتراوح بين 0 و1 شهر من تاريخ إصدارها.
+- يجب أن يحصل على تحديثات ميزات  (Android Feature Updates) خلال 14 يوما كحد أقصى من إصدارها.
+- يجب أن يحصل على تحديثات الأمان (Security Patches) بشكل منتظم خلال 5 أيام كحد أقصى من إصدارها.
+- يجب **ألا** يأتي بصلاحيات **الروت** (Rooted) بشكل افتراضي.
+- يجب ألا تكون خدمات Google Play مفعلة بشكل افتراضي.
+- يجب **ألا** يتطلب تعديل النظام حتى يدعم خدمات Google Play.
