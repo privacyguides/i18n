@@ -11,7 +11,7 @@ description: نوصي بهذه الطرق للحصول على التطبيقات
 
 ![Obtainium logo](../assets/img/android/obtainium.svg){ align=right }
 
-تطبيق Obtainium هو مدير تطبيقات (App Manager) يتيح لك تثبيت التطبيقات وتحديثها مباشرةً من صفحة الإصدارات الخاصة بالمطور نفسه. مثل GitHub أو GitLab أو موقع المطور نفسه، بدلا من الاعتماد على متجر تطبيقات أو مستودع مركزي (Centralized App Store/Repository). It supports automatic background updates on Android 12 and higher.
+تطبيق Obtainium هو مدير تطبيقات (App Manager) يتيح لك تثبيت التطبيقات وتحديثها مباشرةً من صفحة الإصدارات الخاصة بالمطور نفسه. مثل GitHub أو GitLab أو موقع المطور نفسه، بدلا من الاعتماد على متجر تطبيقات أو مستودع مركزي (Centralized App Store/Repository). يدعم التحديثات التلقائية في الخلفية على Android 12 والإصدارات الأحدث.
 
 [:octicons-repo-16: Repository](https://github.com/ImranR98/Obtainium#readme){ .md-button .md-button--primary }
 [:octicons-info-16:](https://github.com/ImranR98/Obtainium/wiki){ .card-link title=Documentation}
@@ -19,7 +19,7 @@ description: نوصي بهذه الطرق للحصول على التطبيقات
 [:octicons-heart-16:](https://github.com/sponsors/ImranR98){ .card-link title=Contribute }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>التنزيلات</summary>
 
 - [:simple-github: GitHub](https://github.com/ImranR98/Obtainium/releases)
 
@@ -27,28 +27,28 @@ description: نوصي بهذه الطرق للحصول على التطبيقات
 
 </div>
 
-Obtainium allows you to download APK installer files from a wide variety of sources, and it is up to you to ensure those sources and apps are legitimate. For example, using Obtainium to install Signal from [Signal's APK landing page](https://signal.org/android/apk) should be fine, but installing from third-party APK repositories like Aptoide or APKPure may pose additional risks. The risk of installing a malicious _update_ is lower, because Android itself verifies that all app updates are signed by the same developer as the existing app on your phone before installing them.
+يتيح لك Obtainium تنزيل ملفات تثبيت APK من مجموعة كبيرة من المصادر، وتقع عليك مسؤولية التأكد من أن هذه المصادر والتطبيقات موثوقة وشرعية. على سبيل المثال، يُفترض أن يكون استخدام Obtainium لتثبيت Signal من صفحة APK الرسمية الخاصة بـ [Signal](https://signal.org/android/apk) آمنًا، لكن تثبيت التطبيقات من مستودعات APK تابعة لجهات خارجية مثل Aptoide أو APKPure قد ينطوي على مخاطر إضافية. خطر تثبيت تحديث ضار أقل، لأن Android يتأكد قبل التثبيت أن التحديث صادر من نفس مطور التطبيق الموجود على هاتفك.
 
-## GrapheneOS App Store
+## متجر تطبيقات GrapheneOS
 
-GrapheneOS's app store is available on [GitHub](https://github.com/GrapheneOS/Apps/releases). It supports Android 12 and above and is capable of updating itself. The app store has standalone applications built by the GrapheneOS project such as the [Auditor](../device-integrity.md#auditor-android), [Camera](general-apps.md#secure-camera), and [PDF Viewer](general-apps.md#secure-pdf-viewer). If you are looking for these applications, we highly recommend that you get them from GrapheneOS's app store instead of the Play Store, as the apps on their store are signed by the GrapheneOS's project own signature that Google does not have access to.
+يتوفر متجر تطبيقات GrapheneOS على GitHub. It supports Android 12 and above and is capable of updating itself. يضم متجر التطبيقات، تطبيقات مستقلة طوّرها مشروع GrapheneOS، مثل [Auditor](../device-integrity.md#auditor-android) و[Camera](general-apps.md#secure-camera) و[PDF Viewer](general-apps.md#secure-pdf-viewer). إذا كنت تبحث عن هذه التطبيقات، فننصح بشدة بتنزيلها من متجر GrapheneOS بدلا من Play Store، لأن التطبيقات الموجودة في متجر GrapheneOS موقعة بتوقيع خاص بالمشروع نفسه، ولا تملك Google إمكانية الوصول إليه.
 
-## Aurora Store
+## متجر أورورا
 
-The Google Play Store requires a Google account to log in, which is not great for privacy. You can get around this by using an alternative client, such as Aurora Store.
+يتطلب Google Play Store تسجيل الدخول باستخدام حساب Google، وهذا ليس جيدا للخصوصية. يمكنك تجنب ذلك باستخدام تطبيق بديل، مثل Aurora Store.
 
 <div class="admonition recommendation" markdown>
 
 ![Aurora Store logo](../assets/img/android/aurora-store.webp){ align=right }
 
-**Aurora Store** is a Google Play Store client which does not require a Google account, Google Play Services, or microG to download apps.
+تطبيق **Aurora Store** هو تطبيق بديل لـ Google Play Store، ولا يحتاج إلى حساب Google أو Google Play Services أو microG لتنزيل التطبيقات.
 
 [:octicons-home-16: Homepage](https://auroraoss.com){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://gitlab.com/AuroraOSS/AuroraStore/-/blob/master/POLICY.md){ .card-link title="Privacy Policy" }
 [:octicons-code-16:](https://gitlab.com/AuroraOSS/AuroraStore){ .card-link title="Source Code" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>التنزيلات</summary>
 
 - [:simple-gitlab: GitLab](https://gitlab.com/AuroraOSS/AuroraStore/-/releases)
 
@@ -56,11 +56,11 @@ The Google Play Store requires a Google account to log in, which is not great fo
 
 </div>
 
-Aurora Store does not allow you to download paid apps with their anonymous account feature. You can optionally log in with your Google account with Aurora Store to download apps you have purchased, which does give access to the list of apps you've installed to Google. However, you still benefit from not requiring the full Google Play client and Google Play Services or microG on your device.
+لا يتيح لك Aurora Store تنزيل التطبيقات المدفوعة عند استخدام ميزة الحساب المجهول. يمكنك أيضا تسجيل الدخول إلى Aurora Store باستخدام حساب Google لتنزيل التطبيقات التي اشتريتها، لكن هذا سيتيح لـ Google معرفة قائمة التطبيقات التي ثبتها. ومع ذلك، ستظل تستفيد من عدم الحاجة إلى تثبيت Google Play Store الكامل أو Google Play Services أو microG على جهازك.
 
-## Manually with RSS Notifications
+## يدويًا باستخدام إشعارات RSS
 
-For apps that are released on platforms like GitHub and GitLab, you may be able to add an RSS feed to your [news aggregator](../news-aggregators.md) that will help you keep track of new releases.
+بالنسبة للتطبيقات التي تُنشر على منصات مثل GitHub وGitLab، يمكنك إضافة RSS feed إلى [قارئ الأخبار](../news-aggregators.md) لمتابعة الإصدارات الجديدة.
 
 ![RSS APK](../assets/img/android/rss-apk-light.png#only-light) ![RSS APK](../assets/img/android/rss-apk-dark.png#only-dark) ![APK Changes](../assets/img/android/rss-changes-light.png#only-light) ![APK Changes](../assets/img/android/rss-changes-dark.png#only-dark)
 
