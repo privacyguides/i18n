@@ -32,54 +32,54 @@ description: أصبح إنشاء الحسابات على الإنترنت ضرو
 <div class="admonition tip" markdown>
 <p class="admonition-title">نصيحة</p>
 
-يمكنك استخدام الـ password manager لتنظيم طرق المصادقة (authentication methods) الأخرى أيضا! Just add the new entry and fill the appropriate fields, you can add notes for things like security questions or a backup key.
+يمكنك استخدام الـ password manager لتنظيم طرق المصادقة (authentication methods) الأخرى أيضا! ما عليك سوى إضافة إدخال جديد (new entry) وملء الحقول المناسبة، ويمكنك إضافة ملاحظات لأشياء مثل أسئلة الأمان أو مفتاح احتياطي (backup key).
 
 </div>
 
-You will be responsible for managing your login credentials. For added security, you can set up [MFA](multi-factor-authentication.md) on your accounts.
+ستكون مسؤولا عن إدارة بيانات تسجيل الدخول الخاصة بك. لمزيد من الأمان، يمكنك إعداد [MFA](multi-factor-authentication.md) على حساباتك.
 
-[Recommended password managers](../passwords.md ""){.md-button}
+[الـ password managers الموصى بها](../passwords.md ""){.md-button}
 
-#### Email aliases
+#### الأسماء المستعارة للبريد الإلكتروني
 
-If you don't want to give your real email address to a service, you have the option to use an alias. We describe them in more detail on our email services recommendation page. Essentially, alias services allow you to generate new email addresses that forward all emails to your main address. This can help prevent tracking across services and help you manage the marketing emails that sometimes come with the sign-up process. Those can be filtered automatically based on the alias they are sent to.
+إذا كنت لا تريد إعطاء عنوان بريدك الإلكتروني الحقيقي لإحدى الخدمات، فيمكنك استخدام عنوان بريد إلكتروني مستعار. نشرحها بمزيد من التفصيل في صفحة توصيات خدمات البريد الإلكتروني لدينا. بشكل أساسي، تتيح لك خدمات الأسماء المستعارة إنشاء عناوين بريد إلكتروني جديدة تقوم بإعادة توجيه جميع الرسائل إلى عنوانك الرئيسي. يمكن أن يساعد ذلك في منع التتبع عبر الخدمات، ويساعدك أيضا على إدارة رسائل البريد الإلكتروني التسويقية التي قد تصلك أحيانا عند إنشاء حساب. يمكن تصفية هذه الرسائل تلقائيا بناء على الاسم المستعار الذي أُرسلت إليه.
 
-Should a service get hacked, you might start receiving phishing or spam emails to the address you used to sign up. Using unique aliases for each service can assist in identifying exactly what service was hacked.
+إذا تعرضت إحدى الخدمات للاختراق، فقد تبدأ في تلقي رسائل تصيد احتيالي أو رسائل مزعجة على العنوان الذي استخدمته للتسجيل. يمكن أن يساعد استخدام أسماء مستعارة فريدة لكل خدمة في تحديد الخدمة التي تعرضت للاختراق بدقة.
 
-[Recommended email aliasing services](../email-aliasing.md ""){.md-button}
+[خدمات الأسماء المستعارة للبريد الإلكتروني الموصى بها](../email-aliasing.md ""){.md-button}
 
-### "Sign in with..." (OAuth)
+### "تسجيل الدخول باستخدام..." (OAuth)
 
-[Open Authorization (OAuth)](https://en.wikipedia.org/wiki/OAuth) is an authentication protocol that allows you to register for a service without sharing much information with the service provider, if any, by using an existing account you have with another service instead. Whenever you see something along the lines of "Sign in with *provider name*" on a registration form, it's typically using OAuth.
+بروتوكول [Open Authorization (OAuth)](https://en.wikipedia.org/wiki/OAuth) هو بروتوكول مصادقة يتيح لك التسجيل في خدمة باستخدام حساب موجود لديك في خدمة أخرى، دون مشاركة الكثير من المعلومات مع مزوّد الخدمة، أو حتى دون مشاركة أي معلومات. كلما رأيت شيئا مثل "تسجيل الدخول باستخدام *اسم المزود*" في نموذج التسجيل، فهذا يعني عادة أنه يستخدم OAuth.
 
-When you sign in with OAuth, it will open a login page with the provider you choose, and your existing account and new account will be connected. Your password won't be shared, but some basic information typically will (you can review it during the login request). This process is needed every time you want to log in to the same account.
+عند تسجيل الدخول باستخدام OAuth، ستُفتح صفحة تسجيل الدخول الخاصة بالمزود الذي اخترته، وسيتم ربط حسابك الحالي بالحساب الجديد. لن تتم مشاركة كلمة مرورك، لكن عادة ستتم مشاركة بعض المعلومات الأساسية (ويمكنك مراجعتها أثناء طلب تسجيل الدخول). هذه العملية مطلوبة في كل مرة تريد فيها تسجيل الدخول إلى الحساب نفسه.
 
-The main advantages are:
+المزايا الرئيسية هي:
 
-- **Security**: You don't have to trust the security practices of the service you're logging into when it comes to storing your login credentials because they are stored with the external OAuth provider. Common OAuth providers like Apple and Google typically follow the best security practices, continuously audit their authentication systems, and don't store credentials inappropriately (such as in plain text).
-- **Ease-of-use**: Multiple accounts are managed by a single login.
+- **الأمان**: لا تحتاج إلى الوثوق بممارسات الأمان الخاصة بالخدمة التي تسجل الدخول إليها فيما يتعلق بتخزين بيانات تسجيل الدخول، لأنها تُخزن لدى مزود OAuth الخارجي. عادةً ما يتبع مزودو OAuth الشائعون مثل Apple وGoogle أفضل ممارسات الأمان، ويُجرون مراجعات مستمرة لأنظمة المصادقة لديهم، ولا يخزنون بيانات تسجيل الدخول بطرق غير آمنة (مثل تخزينها كنص عادي).
+- **سهولة الاستخدام**: يمكن إدارة عدة حسابات من خلال تسجيل دخول واحد.
 
-But there are disadvantages:
+لكن توجد بعض العيوب:
 
-- **Privacy**: The OAuth provider you log in with will know the services you use.
-- **Centralization**: If the account you use for OAuth is compromised, or you aren't able to log in to it, all other accounts connected to it are affected.
+- **الخصوصية**: سيعرف مزود OAuth الذي تسجل الدخول من خلاله الخدمات التي تستخدمها.
+- **المركزية**: إذا تم اختراق الحساب الذي تستخدمه مع OAuth، أو لم تتمكن من تسجيل الدخول إليه، فستتأثر جميع الحسابات الأخرى المرتبطة به.
 
-OAuth can be especially useful in those situations where you could benefit from deeper integration between services. Our recommendation is to limit using OAuth to only where you need it, and always protect the main account with [MFA](multi-factor-authentication.md).
+يمكن أن يكون OAuth مفيدا بشكل خاص في الحالات التي تستفيد فيها من تكامل أعمق بين الخدمات. نوصي بقصر استخدام OAuth على الحالات التي تحتاج إليه فيها فقط، وحماية الحساب الرئيسي دائما باستخدام [MFA](multi-factor-authentication.md).
 
-All the services that use OAuth will be as secure as your underlying OAuth provider's account. For example, if you want to secure an account with a hardware key, but that service doesn't support hardware keys, you can secure the account you use with OAuth with a hardware key instead, and now you essentially have hardware MFA on all your accounts. It is worth noting though that weak authentication on your OAuth provider account means that any account tied to that login will also be weak.
+ستكون جميع الخدمات التي تستخدم OAuth بمستوى أمان حساب مزود OAuth الأساسي نفسه. على سبيل المثال، إذا كنت تريد حماية حساب باستخدام مفتاح أمان مادي (hardware key)، لكن الخدمة لا تدعم مفاتيح الأمان المادية، فيمكنك بدلًا من ذلك حماية الحساب الذي تستخدمه مع OAuth بمفتاح أمان مادي، وبذلك يصبح لديك فعليا MFA باستخدام مفتاح أمان مادي على جميع حساباتك. لكن يجدر الانتباه إلى أن ضعف المصادقة في حساب مزود OAuth يعني أن أي حساب مرتبط بتسجيل الدخول هذا سيكون ضعيف الحماية أيضا.
 
-There is an additional danger when using *Sign in with Google*, *Facebook*, or another service, which is that typically the OAuth process allows for *bidirectional* data sharing. For example, logging in to a forum with your Twitter account could grant that forum access to do things on your Twitter account such as post, read your messages, or access other personal data. OAuth providers will typically present you with a list of things you are granting the external service access to, and you should always ensure that you read through that list and don't inadvertently grant the external service access to anything it doesn't require.
+هناك خطر إضافي عند استخدام *Sign in with Google* أو *Facebook* أو خدمة أخرى، وهو أن عملية OAuth تسمح عادة بمشاركة البيانات في *الاتجاهين*. على سبيل المثال، قد يمنح تسجيل الدخول إلى منتدى باستخدام حسابك على X ذلك المنتدى صلاحية القيام بأشياء على حسابك في X، مثل نشر المنشورات، أو قراءة رسائلك، أو الوصول إلى بيانات شخصية أخرى. عادة ما يعرض لك مزودو OAuth قائمة بالأشياء التي تمنح الخدمة الخارجية صلاحية الوصول إليها، ويجب عليك دائما قراءة هذه القائمة والتأكد من أنك لا تمنح الخدمة الخارجية، عن طريق الخطأ، صلاحية الوصول إلى أي شيء لا تحتاج إليه.
 
-Malicious applications, particularly on mobile devices where the application has access to the WebView session used for logging in to the OAuth provider, can also abuse this process by hijacking your session with the OAuth provider and gaining access to your OAuth account through those means. Using the *Sign in with* option with any provider should usually be considered a matter of convenience that you only use with services you trust to not be actively malicious.
+يمكن للتطبيقات الخبيثة أيضا إساءة استخدام هذه العملية، خصوصا على الأجهزة المحمولة التي يمكن فيها للتطبيق الوصول إلى جلسة WebView المستخدمة لتسجيل الدخول إلى مزوّد OAuth، وذلك عبر اختطاف جلستك مع مزود OAuth والوصول إلى حساب OAuth الخاص بك بهذه الطريقة. يجب عادة اعتبار استخدام خيار *Sign in with* مع أي مزوّد وسيلة للراحة فقط، واستخدامه مع الخدمات التي تثق بأنها لن تتصرف بشكل ضار عن قصد.
 
-### Phone number
+### رقم الهاتف
 
-We recommend avoiding services that require a phone number for sign up. A phone number can identify you across multiple services and depending on data sharing agreements this will make your usage easier to track, particularly if one of those services is breached as the phone number is often **not** encrypted.
+نوصي بتجنب الخدمات التي تتطلب رقم هاتف للتسجيل. يمكن لرقم الهاتف أن يعرف بك عبر عدة خدمات، وبحسب اتفاقيات مشاركة البيانات قد يجعل ذلك تتبّع استخدامك أسهل، خصوصا إذا تعرضت إحدى هذه الخدمات لاختراق، لأن رقم الهاتف غالبا ما يكون **غير** مشفّر.
 
-You should avoid giving out your real phone number if you can. Some services will allow the use of VoIP numbers, however these often trigger fraud detection systems, causing an account to be locked down, so we don't recommend that for important accounts.
+يجب أن تتجنب إعطاء رقم هاتفك الحقيقي إذا كان بإمكانك ذلك. تسمح بعض الخدمات باستخدام أرقام VoIP، لكن هذه الأرقام غالبًا ما تؤدي إلى تشغيل أنظمة اكتشاف الاحتيال، مما قد يتسبب في تقييد الحساب، لذلك لا نوصي باستخدامها للحسابات المهمة.
 
-In many cases you will need to provide a number that you can receive SMS or calls from, particularly when shopping internationally, in case there is a problem with your order at border screening. It's common for services to use your number as a verification method; don't let yourself get locked out of an important account because you wanted to be clever and give a fake number!
+في كثير من الحالات، ستحتاج إلى تقديم رقم يمكنك استقبال رسائل SMS أو المكالمات عليه، خصوصا عند التسوق دوليا، في حال حدوث مشكلة في طلبك أثناء التفتيش على الحدود. من الشائع أن تستخدم الخدمات رقم هاتفك كوسيلة للتحقق؛ فلا تعرّض نفسك لفقدان الوصول إلى حساب مهم لمجرد أنك أردت التحايل واستخدام رقم مزيف!
 
-### Username and password
+### اسم المستخدم وكلمة المرور
 
-Some services allow you to register without using an email address and only require you to set a username and password. These services may provide increased anonymity when combined with a VPN or Tor. Keep in mind that for these accounts there will most likely be **no way to recover your account** in the event you forget your username or password.
+تسمح لك بعض الخدمات بالتسجيل دون استخدام عنوان بريد إلكتروني، وتطلب منك فقط تعيين اسم مستخدم وكلمة مرور. قد توفر هذه الخدمات قدرًا أكبر من إخفاء الهوية عند استخدامها مع VPN أو Tor. ضع في اعتبارك أنه في هذه الحسابات، على الأرجح **لن تكون هناك أي طريقة لاستعادة حسابك** إذا نسيت اسم المستخدم أو كلمة المرور.
