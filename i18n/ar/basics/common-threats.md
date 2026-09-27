@@ -36,40 +36,40 @@ description: نموذج تهديداتك يخصّك شخصيًا، ولكن هذ
 
 الحماية من وكالات الحكومة، ومؤسساتها، ومواقعها الإلكترونية، وخدماتها التي تعمل معًا لتعقّب أنشطتك.
 
-<span class="pg-brown">:material-account-cash: **Surveillance Capitalism**</span>
+<span class="pg-brown">:material-account-cash: **رأسمالية المراقبة**</span>
 :
 
-Protecting yourself from big advertising networks, like Google and Facebook, as well as a myriad of other third-party data collectors.
+حماية نفسك من شبكات الإعلانات الكبيرة مثل Google وFacebook، وكذلك من عدد كبير من الجهات الخارجية التي تجمع البيانات.
 
-<span class="pg-green">:material-account-search: **Public Exposure**</span>
+<span class="pg-green">:material-account-search: **الظهور العلني**</span>
 :
 
-Limiting the information about you that is accessible online—to search engines or the public.
+تقليل المعلومات المتاحة عنك على الإنترنت لمحركات البحث أو للعامة.
 
-<span class="pg-blue-gray">:material-close-outline: **Censorship**</span>
+<span class="pg-blue-gray">:material-close-outline: **الرقابة**</span>
 :
 
-Avoiding censored access to information or being censored yourself when speaking online.
+تجنب حجب الوصول إلى المعلومات أو التعرض للرقابة عند التعبير عن رأيك على الإنترنت.
 
-Some of these threats may be more important to you than others, depending on your specific concerns. For example, a software developer with access to valuable or critical data may be primarily concerned with <span class="pg-viridian">:material-package-variant-closed-remove: Supply Chain Attacks</span> and <span class="pg-red">:material-target-account: Targeted Attacks</span>. They will likely still want to protect their personal data from being swept up in <span class="pg-blue">:material-eye-outline: Mass Surveillance</span> programs. Similarly, many people may be primarily concerned with <span class="pg-green">:material-account-search: Public Exposure</span> of their personal data, but they should still be wary of security-focused issues, such as <span class="pg-orange">:material-bug-outline: Passive Attacks</span>—like malware affecting their devices.
+قد تكون بعض هذه التهديدات أهم بالنسبة لك من غيرها، حسب مخاوفك واحتياجاتك الخاصة. على سبيل المثال، قد يكون مطور برمجيات لديه وصول إلى بيانات قيمة أو حساسة مهتما بشكل أساسي بـ <span class="pg-viridian">:material-package-variant-closed-remove: هجمات سلسلة التوريد (Supply Chain Attacks)</span> و<span class="pg-red">:material-target-account: الهجمات المستهدفة (Targeted Attacks)</span>. ومن المرجح أنهم سيظلون يرغبون في حماية بياناتهم الشخصية من أن تُجمع ضمن برامج <span class="pg-blue">:material-eye-outline: المراقبة الجماعية (Mass Surveillance)</span>. وبالمثل، قد يكون اهتمام كثير من الناس الأساسي هو <span class="pg-green">:material-account-search: الظهور العلني (Public Exposure)</span> لبياناتهم الشخصية، لكن ينبغي لهم أيضا الحذر من المشكلات المتعلقة بالأمان، مثل <span class="pg-orange">:material-bug-outline: الهجمات السلبية (Passive Attacks)</span>، كإصابة أجهزتهم ببرمجيات ضارة.
 
-## Anonymity vs. Privacy
+## إخفاء الهوية مقابل الخصوصية
 
-<span class="pg-purple">:material-incognito: Anonymity</span>
+<span class="pg-purple">:material-incognito: إخفاء الهوية</span>
 
-Anonymity is often confused with privacy, but they're distinct concepts. While privacy is a set of choices you make about how your data is used and shared, anonymity is the complete disassociation of your online activities from your real identity.
+غالبا ما يتم الخلط بين إخفاء الهوية والخصوصية، لكنهما مفهومان مختلفان. بينما تعني الخصوصية مجموعة الخيارات التي تتخذها بشأن كيفية استخدام بياناتك ومشاركتها، فإن إخفاء الهوية يعني فصل أنشطتك على الإنترنت تماما عن هويتك الحقيقية.
 
-Whistleblowers and journalists, for example, can have a much more extreme threat model which requires total anonymity. That's not only hiding what they do, what data they have, and not getting hacked by malicious actors or governments, but also hiding who they are entirely. They will often sacrifice any kind of convenience if it means protecting their anonymity, privacy, or security, because their lives could depend on it. Most people don't need to go so far.
+على سبيل المثال، قد يكون لدى المبلغين عن المخالفات والصحفيين نموذج تهديد (Threat Model) أكثر صرامة بكثير، ويتطلب إخفاء الهوية بشكل كامل. ولا يقتصر الأمر على إخفاء ما يفعلونه والبيانات التي لديهم، أو تجنب اختراقهم من جهات خبيثة أو حكومات، بل يشمل أيضا إخفاء هويتهم بالكامل. وغالبا ما يضحون بأي قدر من الراحة إذا كان ذلك يساعد على حماية إخفاء هويتهم أو خصوصيتهم أو أمانهم، لأن حياتهم قد تعتمد على ذلك. معظم الناس لا يحتاجون إلى الذهاب إلى هذا الحد.
 
-## Security and Privacy
+## الأمان والخصوصية
 
-<span class="pg-orange">:material-bug-outline: Passive Attacks</span>
+<span class="pg-orange">:material-bug-outline: الهجمات السلبية</span>
 
-Security and privacy are also often confused, because you need security to obtain any semblance of privacy: Using tools—even if they're private by design—is futile if they could be easily exploited by attackers who later release your data. However, the inverse isn't necessarily true: The most secure service in the world *isn't necessarily* private. The best example of this is trusting data to Google who, given their scale, have had few security incidents by employing industry-leading security experts to secure their infrastructure. Even though Google provides very secure services, very few people would consider their data private in Google's free consumer products (Gmail, YouTube, etc.)
+غالبا ما يتم الخلط أيضا بين الأمان والخصوصية، لأنك تحتاج إلى الأمان للحصول على أي قدر من الخصوصية: فاستخدام الأدوات، حتى لو كانت مصممة لحماية الخصوصية، لا فائدة منه إذا كان بإمكان المهاجمين استغلال ثغراتها بسهولة ثم نشر بياناتك. قد تكون الخدمة آمنة جدا من الاختراق والهجمات، لكنها في الوقت نفسه *لا تحترم* خصوصيتك. أفضل مثال على ذلك هو الوثوق ببياناتك لدى Google، التي شهدت عددا قليلا من الحوادث الأمنية مقارنة بحجمها، بفضل توظيف خبراء أمان من الأفضل في المجال لحماية بنيتها التحتية. رغم أن خدمات Google آمنة جدا من ناحية الحماية، فإن كثيرا من الناس لا يعتقدون أن Google تحافظ على خصوصية بياناتهم عند استخدام خدماتها المجانية مثل Gmail وYouTube
 
-When it comes to application security, we generally don't (and sometimes can't) know if the software we use is malicious, or might one day become malicious. Even with the most trustworthy developers, there's generally no guarantee that their software doesn't have a serious vulnerability that could later be exploited.
+عندما يتعلق الأمر بأمان التطبيقات، فنحن عادة لا نعرف — وأحيانا لا يمكننا أن نعرف — ما إذا كان البرنامج الذي نستخدمه ضارا، أو قد يصبح ضارا يوما ما. حتى مع أكثر المطورين موثوقية، لا يوجد عادة ما يضمن أن برامجهم خالية من ثغرة خطيرة قد يتم استغلالها لاحقا.
 
-To minimize the damage that a malicious piece of software *could* do, you should employ security by compartmentalization. For example, this could come in the form of using different computers for different jobs, using virtual machines to separate different groups of related applications, or using a secure operating system with a strong focus on application sandboxing and mandatory access control.
+لتقليل الضرر الذي *قد* يسببه برنامج ضار، ينبغي استخدام أسلوب الأمان عبر العزل (ecurity by compartmentalization). For example, this could come in the form of using different computers for different jobs, using virtual machines to separate different groups of related applications, or using a secure operating system with a strong focus on application sandboxing and mandatory access control.
 
 <div class="admonition tip" markdown>
 <p class="admonition-title">Tip</p>

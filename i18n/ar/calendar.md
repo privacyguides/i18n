@@ -7,7 +7,7 @@ cover: calendar.webp
 
 <small>Protects against the following threat(s):</small>
 
-- [:material-bug-outline: Passive Attacks](basics/common-threats.md#security-and-privacy ""){.pg-orange}
+- [:material-bug-outline: الهجمات السلبية](basics/common-threats.md#security-and-privacy ""){.pg-orange}
 - [:material-server-network: Service Providers](basics/common-threats.md#privacy-from-service-providers ""){.pg-teal}
 
 **Calendars** contain some of your most sensitive data; use products that implement end-to-end encryption at rest to prevent a provider from reading them.
