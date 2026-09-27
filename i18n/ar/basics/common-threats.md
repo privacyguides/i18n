@@ -69,49 +69,49 @@ description: نموذج تهديداتك يخصّك شخصيًا، ولكن هذ
 
 عندما يتعلق الأمر بأمان التطبيقات، فنحن عادة لا نعرف — وأحيانا لا يمكننا أن نعرف — ما إذا كان البرنامج الذي نستخدمه ضارا، أو قد يصبح ضارا يوما ما. حتى مع أكثر المطورين موثوقية، لا يوجد عادة ما يضمن أن برامجهم خالية من ثغرة خطيرة قد يتم استغلالها لاحقا.
 
-لتقليل الضرر الذي *قد* يسببه برنامج ضار، ينبغي استخدام أسلوب الأمان عبر العزل (ecurity by compartmentalization). For example, this could come in the form of using different computers for different jobs, using virtual machines to separate different groups of related applications, or using a secure operating system with a strong focus on application sandboxing and mandatory access control.
+لتقليل الضرر الذي *قد* يسببه برنامج ضار، ينبغي استخدام أسلوب الأمان عبر العزل (ecurity by compartmentalization). على سبيل المثال، يمكن تطبيق ذلك باستخدام أجهزة كمبيوتر مختلفة لمهام مختلفة، أو استخدام أجهزة افتراضية لفصل مجموعات التطبيقات المرتبطة ببعضها، أو استخدام نظام تشغيل آمن يركز بشكل كبير على الـ sandboxing للتطبيقات والـ Mandatory Access Control.
 
 <div class="admonition tip" markdown>
-<p class="admonition-title">Tip</p>
+<p class="admonition-title">نصيحة</p>
 
-Mobile operating systems generally have better application sandboxing than desktop operating systems: Apps can't obtain root access, and require permission for access to system resources.
+توفر أنظمة تشغيل الهواتف عادة الـ sandboxing أفضل للتطبيقات مقارنة بأنظمة تشغيل الكمبيوتر: فلا يمكن للتطبيقات الحصول على صلاحيات الـ root، وتحتاج إلى إذن للوصول إلى موارد النظام.
 
-Desktop operating systems generally lag behind on proper sandboxing. ChromeOS has similar sandboxing capabilities to Android, and macOS has full system permission control (and developers can opt in to sandboxing for applications). However, these operating systems do transmit identifying information to their respective OEMs. Linux tends to not submit information to system vendors, but it has poor protection against exploits and malicious apps. This can be mitigated somewhat with specialized distributions which make significant use of virtual machines or containers, such as [Qubes OS](../desktop.md#qubes-os).
+أنظمة تشغيل الكمبيوتر عادة أضعف من ناحية الـ sandboxing المناسب. يتمتع ChromeOS بإمكانات الـ sandboxing مشابهة لـ Android، بينما يوفر macOS تحكما كاملًا في أذونات النظام (ويمكن للمطورين اختيار استخدام الـ sandboxing لتطبيقاتهم). لكن هذه الأنظمة ترسل معلومات يمكن استخدامها للتعرف عليك إلى الشركات المصنعة لأجهزتها. يميل Linux إلى عدم إرسال معلومات إلى مزودي النظام (system vendors)، لكنه يوفر حماية ضعيفة ضد استغلال الثغرات والتطبيقات الضارة. يمكن تقليل هذه المخاطر إلى حدٍ ما باستخدام توزيعات متخصصة تعتمد بشكل كبير على الأجهزة الافتراضية (virtual machines) أو الحاويات (containers)، مثل [Qubes OS](../desktop.md#qubes-os).
 
 </div>
 
-## Attacks against Specific Individuals
+## هجمات تستهدف أفرادا محددين
 
-<span class="pg-red">:material-target-account: Targeted Attacks</span>
+<span class="pg-red">:material-target-account: الهجمات المستهدفة</span>
 
-Targeted attacks against a specific person are more problematic to deal with. Common attacks include sending malicious documents via email, exploiting vulnerabilities (e.g. in browsers and operating systems), and physical attacks. If this is a concern for you, you should employ more advanced threat mitigation strategies.
+يصعب التعامل مع الهجمات التي تستهدف شخصا محددا بشكل أكبر. تشمل الهجمات الشائعة إرسال مستندات ضارة عبر البريد الإلكتروني، واستغلال الثغرات (مثل الثغرات الموجودة في المتصفحات وأنظمة التشغيل) والهجمات التي تتطلب وصولًا فعليا إلى الجهاز. إذا كان هذا الأمر يشكل مصدر قلق لك، فينبغي استخدام استراتيجيات أكثر تقدما للحد من التهديدات.
 
 <div class="admonition tip" markdown>
-<p class="admonition-title">Tip</p>
+<p class="admonition-title">نصيحة</p>
 
-By design, **web browsers**, **email clients**, and **office applications** typically run untrusted code, sent to you from third parties. Running multiple virtual machines—to separate applications like these from your host system, as well as each other—is one technique you can use to mitigate the chance of an exploit in these applications compromising the rest of your system. For example, technologies like Qubes OS or Microsoft Defender Application Guard on Windows provide convenient methods to do this.
+بحكم تصميمها، تقوم **متصفحات الويب** و**برامج البريد الإلكتروني** و**التطبيقات المكتبية (office applications)** عادةً بتشغيل تعليمات برمجية غير موثوقة تُرسل إليك من جهات خارجية. تشغيل عدة أجهزة افتراضية (virtual machines)—لفصل تطبيقات كهذه عن نظامك المضيف وعن بعضها البعض—هو أحد الأساليب التي يمكنك استخدامها لتقليل احتمال أن يؤدي استغلال ثغرة في هذه التطبيقات إلى اختراق بقية نظامك. على سبيل المثال، توفر تقنيات مثل Qubes OS أو Microsoft Defender Application Guard على Windows طرقًا سهلة لتنفيذ ذلك.
 
 </div>
 
-If you are concerned about **physical attacks** you should use an operating system with a secure verified boot implementation, such as Android, iOS, macOS, or [Windows (with TPM)](https://learn.microsoft.com/windows/security/information-protection/secure-the-windows-10-boot-process). You should also make sure that your drive is encrypted, and that the operating system uses a TPM or Secure [Enclave](https://support.apple.com/guide/security/secure-enclave-sec59b0b31ff/1/web/1) or [Element](https://developers.google.com/android/security/android-ready-se) to rate limit attempts to enter the encryption passphrase. You should avoid sharing your computer with people you don't trust, because most desktop operating systems don't encrypt data separately per-user.
+إذا كنت قلقا بشأن **الهجمات التي تتطلب وصولا فعليا إلى الجهاز**، فينبغي استخدام نظام تشغيل يدعم إقلاعا آمنا ومتحققًا منه ((secure verified boot))، مثل Android أو iOS أو macOS أو [Windows (مع TPM)](https://learn.microsoft.com/windows/security/information-protection/secure-the-windows-10-boot-process). كما ينبغي التأكد من أن محرك الأقراص (drive) لديك مُشفر، وأن نظام التشغيل يستخدم TPM أو Secure [Enclave](https://support.apple.com/guide/security/secure-enclave-sec59b0b31ff/1/web/1) أو [Element](https://developers.google.com/android/security/android-ready-se) للحد من عدد محاولات إدخال الـ encryption passphrase. يجب تجنب مشاركة جهاز الكمبيوتر مع أشخاص لا تثق بهم، لأن معظم أنظمة تشغيل سطح المكتب (desktop operating systems) لا تشفّر بيانات كل مستخدم بشكل منفصل.
 
-## Attacks against Certain Organizations
+## هجمات تستهدف مؤسسات معيّنة
 
-<span class="pg-viridian">:material-package-variant-closed-remove: Supply Chain Attacks</span>
+<span class="pg-viridian">:material-package-variant-closed-remove: هجمات سلسلة التوريد (Supply Chain Attacks)</span>
 
-Supply chain attacks are frequently a form of <span class="pg-red">:material-target-account: Targeted Attack</span> towards businesses, governments, and activists, although they can end up compromising the public at large as well.
+تكون هجمات سلسلة التوريد (Supply Chain Attacks) غالبا نوعا من <span class="pg-red">:material-target-account: الهجمات المستهدفة (Targeted Attack)</span> ضد الشركات والحكومات والناشطين، لكنها قد تؤدي أيضا إلى اختراق عامة الناس.
 
 <div class="admonition example" markdown>
-<p class="admonition-title">Example</p>
+<p class="admonition-title">مثال</p>
 
-A notable example of this occurred in 2017 when M.E.Doc, a popular accounting software in Ukraine, was infected with the *NotPetya* virus, subsequently infecting people who downloaded that software with ransomware. NotPetya itself was a ransomware attack which impacted 2000+ companies in various countries, and was based on the *EternalBlue* exploit developed by the NSA to attack Windows computers over the network.
+حدث مثال بارز على ذلك في عام 2017، عندما أُصيب برنامج المحاسبة الشهير M.E.Doc في أوكرانيا بفيروس NotPetya، مما أدى لاحقًا إلى إصابة الأشخاص الذين نزّلوا ذلك البرنامج ببرمجية فدية. كان NotPetya نفسه هجوما ببرمجية فدية أثّر على أكثر من 2000 شركة في دول مختلفة، واعتمد على ثغرة EternalBlue التي طورتها NSA لمهاجمة أجهزة Windows عبر الشبكة.
 
 </div>
 
-There are few ways in which this type of attack might be carried out:
+هناك عدة طرق يمكن من خلالها تنفيذ هذا النوع من الهجمات:
 
-1. A contributor or employee might first work their way into a position of power within a project or organization, and then abuse that position by adding malicious code.
-2. A developer may be coerced by an outside party to add malicious code.
+1. قد يعمل أحد المساهمين أو الموظفين أولا على الوصول إلى منصب ذي صلاحيات داخل مشروع أو مؤسسة، ثم يسيء استخدام هذا المنصب بإضافة تعليمات برمجية ضارة.
+2. قد تُجبر جهة خارجية أحد المطورين على إضافة تعليمات برمجية ضارة.
 3. An individual or group might identify a third party software dependency (also known as a library) and work to infiltrate it with the above two methods, knowing that it will be used by "downstream" software developers.
 
 These sorts of attacks can require a lot of time and preparation to perform and are risky because they can be detected, particularly in open source projects if they are popular and have outside interest. Unfortunately they're also one of the most dangerous as they are very hard to mitigate entirely. We would encourage readers to only use software which has a good reputation and makes an effort to reduce risk by:
@@ -154,78 +154,78 @@ Mass surveillance is the intricate effort to monitor the "behavior, many activit
 <div class="admonition abstract" markdown>
 <p class="admonition-title">Atlas of Surveillance</p>
 
-If you want to learn more about surveillance methods and how they're implemented in your city you can also take a look at the [Atlas of Surveillance](https://atlasofsurveillance.org) by the [Electronic Frontier Foundation](https://eff.org).
+إذا كنت تريد معرفة المزيد عن أساليب المراقبة وكيفية استخدامها في مدينتك، يمكنك أيضا الاطلاع على [Atlas of Surveillance](https://atlasofsurveillance.org) من [Electronic Frontier Foundation](https://eff.org).
 
-In France, you can take a look at the [Technopolice website](https://technopolice.fr/villes) maintained by the non-profit association La Quadrature du Net.
+في فرنسا، يمكنك الاطلاع على موقع [Technopolice](https://technopolice.fr/villes) الذي تديره الجمعية غير الربحية La Quadrature du Net.
 
 </div>
 
-Governments often justify mass surveillance programs as necessary means to combat terrorism and prevent crime. However, as breaches of human rights, they're most often used to disproportionately target minority groups and political dissidents, among others.
+غالبا ما تبرر الحكومات برامج المراقبة الجماعية بأنها ضرورية لمكافحة الإرهاب ومنع الجريمة. لكن هذه البرامج، بما تنطوي عليه من انتهاكات لحقوق الإنسان، تُستخدم غالبا لاستهداف الأقليات والمعارضين السياسيين بشكل غير متناسب، إلى جانب فئات أخرى.
 
 <div class="admonition quote" markdown>
-<p class="admonition-title">ACLU: <em><a href="https://aclu.org/news/national-security/the-privacy-lesson-of-9-11-mass-surveillance-is-not-the-way-forward">The Privacy Lesson of 9/11: Mass Surveillance is Not the Way Forward</a></em></p>
+<p class="admonition-title">ACLU: <em><a href="https://aclu.org/news/national-security/the-privacy-lesson-of-9-11-mass-surveillance-is-not-the-way-forward">درس الخصوصية من أحداث 11 سبتمبر: المراقبة الجماعية ليست الطريق الصحيح للمضي قدما</a></em></p>
 
-In the face of Edward Snowden's disclosures of government programs such as [PRISM](https://en.wikipedia.org/wiki/PRISM) and [Upstream](https://en.wikipedia.org/wiki/Upstream_collection), intelligence officials also admitted that the NSA had for years been secretly collecting records about virtually every American’s phone calls — who’s calling whom, when those calls are made, and how long they last. This kind of information, when amassed by the NSA day after day, can reveal incredibly sensitive details about people’s lives and associations, such as whether they have called a pastor, an abortion provider, an addiction counselor, or a suicide hotline.
+في أعقاب كشف إدوارد سنودن عن برامج حكومية مثل [PRISM](https://en.wikipedia.org/wiki/PRISM) و[Upstream](https://en.wikipedia.org/wiki/Upstream_collection)، أقر مسؤولو الاستخبارات أيضا بأن NSA كانت تجمع سرا ولسنوات سجلات تتعلق بمكالمات كل أمريكي تقريبا — من يتصل بمن، ومتى تُجرى هذه المكالمات، ومدة استمرارها. عندما تجمع NSA هذا النوع من المعلومات يوما بعد يوم، فقد يكشف تفاصيل شديدة الحساسية عن حياة الأشخاص وعلاقاتهم، مثل ما إذا كانوا قد اتصلوا بقس، أو بجهة تقدم خدمات الإجهاض، أو بمستشار لعلاج الإدمان، أو بخط مساعدة للوقاية من الانتحار.
 
 </div>
 
-Despite growing mass surveillance in the United States, the government has found that mass surveillance programs like Section 215 have had "little unique value" with respect to stopping actual crimes or terrorist plots, with efforts largely duplicating the FBI's own targeted surveillance programs.[^2]
+رغم تزايد المراقبة الجماعية في الولايات المتحدة، وجدت الحكومة أن برامج المراقبة الجماعية مثل Section 215 كانت ذات «قيمة إضافية محدودة جدا» في منع الجرائم الفعلية أو المخططات الإرهابية، إذ كانت هذه الجهود تكرّر إلى حد كبير برامج المراقبة المستهدفة الخاصة بـ FBI.[^2]
 
-Online, you can be tracked via a variety of methods, including but not limited to:
+على الإنترنت، يمكن تتبّعك بطرق مختلفة، منها على سبيل المثال لا الحصر:
 
-- Your IP address
-- Browser cookies
-- The data you submit to websites
-- Your browser or device fingerprint
-- Payment method correlation
+- عنوان IP الخاص بك
+- ملفات تعريف الارتباط في المتصفح (Cookies)
+- البيانات التي ترسلها إلى مواقع الويب
+- بصمة متصفحك أو جهازك
+- ربط طرق الدفع ببعضها
 
-If you're concerned about mass surveillance programs, you can use strategies like compartmentalizing your online identities, blending in with other users, or, whenever possible, simply avoiding giving out identifying information.
+إذا كنت قلقا بشأن برامج المراقبة الجماعية، فيمكنك استخدام أساليب مثل فصل هوياتك على الإنترنت عن بعضها، والاندماج بين المستخدمين الآخرين، أو ببساطة تجنب تقديم معلومات تكشف هويتك كلما أمكن.
 
-## Surveillance as a Business Model
+## المراقبة كوسيلة لتحقيق الأرباح
 
-<span class="pg-brown">:material-account-cash: Surveillance Capitalism</span>
+<span class="pg-brown">:material-account-cash: رأسمالية المراقبة</span>
 
-> Surveillance capitalism is an economic system centered around the capture and commodification of personal data for the core purpose of profit-making.[^3]
+> رأسمالية المراقبة هي نظام اقتصادي يقوم على جمع البيانات الشخصية وتحويلها إلى سلعة، بهدف أساسي هو تحقيق الأرباح.[^3]
 
-For many people, tracking and surveillance by private corporations is a growing concern. Pervasive ad networks, such as those operated by Google and Facebook, span the internet far beyond just the sites they control, tracking your actions along the way. Using tools like content blockers to limit network requests to their servers, and reading the privacy policies of the services you use can help you avoid many basic adversaries (although it can't completely prevent tracking).[^4]
+بالنسبة لكثير من الناس، أصبح التتبع والمراقبة من قِبل الشركات الخاصة مصدر قلق متزايد. تمتد شبكات الإعلانات واسعة الانتشار، مثل تلك التي تديرها Google وFacebook، عبر الإنترنت إلى ما هو أبعد بكثير من المواقع التي تسيطر عليها، وتتابع نشاطك أثناء تنقلك بين المواقع. استخدام أدوات مثل أدوات حظر المحتوى (content blockers) للحد من طلبات الشبكة المرسلة إلى خوادمهم، وقراءة سياسات الخصوصية للخدمات التي تستخدمها، يمكن أن يساعدك على تجنب العديد من الجهات التي تحاول تتبعك بطرق بسيطة (لكن لا يمكنه منع التتبّع بالكامل).[^4]
 
-Additionally, even companies outside the *AdTech* or tracking industry can share your information with [data brokers](https://en.wikipedia.org/wiki/Information_broker) (such as Cambridge Analytica, Experian, or Datalogix) or other parties. You can't automatically assume your data is safe just because the service you're using doesn't fall within the typical AdTech or tracking business model. The strongest protection against corporate data collection is to encrypt or obfuscate your data whenever possible, making it difficult for different providers to correlate data with each other and build a profile on you.
+بالإضافة إلى ذلك، حتى الشركات التي لا تعمل في مجال *AdTech* أو التتبع يمكنها مشاركة معلوماتك مع [وسطاء البيانات](https://en.wikipedia.org/wiki/Information_broker) (مثل Cambridge Analytica أو Experian أو Datalogix) أو مع جهات أخرى. لا يمكنك افتراض أن بياناتك آمنة لمجرد أن الخدمة التي تستخدمها لا تعتمد نموذج أعمال AdTech أو التتبع المعتاد. أقوى وسيلة للحماية من جمع الشركات لبياناتك هي تشفير بياناتك أو إخفاء معالمها كلما أمكن، بحيث يصعب على الجهات المختلفة ربط هذه البيانات ببعضها وبناء ملف شخصي عنك.
 
-## Limiting Public Information
+## الحد من المعلومات المتاحة للعامة
 
-<span class="pg-green">:material-account-search: Public Exposure</span>
+<span class="pg-green">:material-account-search: الظهور العلني</span>
 
-The best way to keep your data private is simply not making it public in the first place. Deleting unwanted information you find about yourself online is one of the best first steps you can take to regain your privacy.
+أفضل طريقة للحفاظ على خصوصية بياناتك هي ببساطة عدم نشرها للعامة من الأساس. حذف المعلومات غير المرغوب فيها التي تجدها عن نفسك على الإنترنت هو من أفضل الخطوات الأولى التي يمكنك اتخاذها لاستعادة خصوصيتك.
 
-- [View our guide on account deletion :material-arrow-right-drop-circle:](account-deletion.md)
+- [اطلع على دليلنا لحذف الحسابات :material-arrow-right-drop-circle:](account-deletion.md)
 
-On sites where you do share information, checking the privacy settings of your account to limit how widely that data is spread is very important. For example, enable "private mode" on your accounts if given the option: This ensures that your account isn't being indexed by search engines, and that it can't be viewed without your permission.
+في المواقع التي تشارك فيها معلوماتك، من المهم جدا مراجعة إعدادات الخصوصية في حسابك للحد من مدى انتشار هذه البيانات. على سبيل المثال، فعل "private mode" في حساباتك إذا كان هذا الخيار متاحا: يضمن ذلك عدم فهرسة حسابك بواسطة محركات البحث، وعدم إمكانية الاطلاع عليه دون إذنك.
 
-If you've already submitted your real information to sites which shouldn't have it, consider using disinformation tactics, like submitting fictitious information related to that online identity. This makes your real information indistinguishable from the false information.
+إذا كنت قد قدمت بالفعل معلوماتك الحقيقية إلى مواقع لا ينبغي أن تمتلكها، ففكر في استخدام أساليب التضليل، مثل تقديم معلومات وهمية مرتبطة بتلك الهوية على الإنترنت. هذا يجعل من الصعب التمييز بين معلوماتك الحقيقية والمعلومات الزائفة.
 
-## Avoiding Censorship
+## تجنب الرقابة
 
-<span class="pg-blue-gray">:material-close-outline: Censorship</span>
+<span class="pg-blue-gray">:material-close-outline: الرقابة</span>
 
-Censorship online can be carried out (to varying degrees) by actors including totalitarian governments, network administrators, and service providers. These efforts to control communication and restrict access to information will always be incompatible with the human right to Freedom of Expression.[^5]
+يمكن فرض الرقابة على الإنترنت بدرجات متفاوتة من قِبل جهات تشمل الحكومات الشمولية، ومسؤولي الشبكات، ومقدمي الخدمات. تتعارض محاولات التحكم في التواصل ومنع الوصول إلى المعلومات مع حق الإنسان في حرية التعبير.[^5]
 
-Censorship on corporate platforms is increasingly common, as platforms like Twitter and Facebook give in to public demand, market pressures, and pressures from government agencies. Government pressures can be covert requests to businesses, such as the White House [requesting the takedown](https://nytimes.com/2012/09/17/technology/on-the-web-a-fine-line-on-free-speech-across-globe.html) of a provocative YouTube video, or overt, such as the Chinese government requiring companies to adhere to a strict regime of censorship.
+أصبحت الرقابة على منصات الشركات أكثر شيوعا، إذ تستجيب منصات مثل X (تويتر سابقًا) وFacebook لضغوط الرأي العام والسوق والجهات الحكومية. يمكن أن تكون ضغوط الحكومات على الشركات سرية، مثل [طلب البيت الأبيض إزالة](https://nytimes.com/2012/09/17/technology/on-the-web-a-fine-line-on-free-speech-across-globe.html) مقطع فيديو مثير للجدل من YouTube، أو علنية، مثل مطالبة الحكومة الصينية الشركات بالالتزام بنظام رقابة صارم.
 
-People concerned with the threat of censorship can use technologies like [Tor](../advanced/tor-overview.md) to circumvent it, and support censorship-resistant communication platforms like [Matrix](../social-networks.md#element), which doesn't have a centralized account authority that can close accounts arbitrarily.
+يمكن للأشخاص القلقين من خطر الرقابة استخدام تقنيات مثل [Tor](../advanced/tor-overview.md) لتجاوزها، ودعم منصات تواصل مقاومة للرقابة مثل [Matrix](../social-networks.md#element)، التي لا توجد فيها جهة مركزية تتحكم بالحسابات ويمكنها إغلاقها بشكل تعسفي.
 
 <div class="admonition tip" markdown>
-<p class="admonition-title">Tip</p>
+<p class="admonition-title">نصيحة</p>
 
-While evading censorship itself can be easy, hiding the fact that you are doing it can be very problematic.
+بينما قد يكون تجاوز الرقابة نفسها أمرا سهلا، فإن إخفاء حقيقة أنك تفعل ذلك قد يكون صعبا جدا.
 
-You should consider which aspects of the network your adversary can observe, and whether you have plausible deniability for your actions. For example, using [encrypted DNS](../advanced/dns-overview.md#what-is-encrypted-dns) can help you bypass rudimentary, DNS-based censorship systems, but it can't truly hide what you are visiting from your ISP. A VPN or Tor can help hide what you are visiting from network administrators, but can't hide that you're using those networks in the first place. Pluggable transports (such as Obfs4proxy, Meek, or Shadowsocks) can help you evade firewalls that block common VPN protocols or Tor, but your circumvention attempts can still be detected by methods like probing or [deep packet inspection](https://en.wikipedia.org/wiki/Deep_packet_inspection).
+يجب أن تفكر في ما يستطيع خصمك مراقبته من نشاطك على الشبكة، وما إذا كان بإمكانك إنكار قيامك بهذه الأفعال بشكل مقنع. على سبيل المثال، يمكن أن يساعدك استخدام [DNS المشفر](../advanced/dns-overview.md#what-is-encrypted-dns) في تجاوز أنظمة الرقابة البسيطة المعتمدة على الـ DNS، لكنه لا يستطيع إخفاء المواقع التي تزورها فعليا عن مزود خدمة الإنترنت (ISP). يمكن أن يساعد VPN أو Tor في إخفاء المواقع التي تزورها عن مسؤولي الشبكة، لكنهما لا يستطيعان إخفاء حقيقة أنك تستخدم VPN أو Tor من الأساس. يمكن أن تساعدك الـ Pluggable Transports (مثل Obfs4proxy أو Meek أو Shadowsocks) في تجاوز جدران الحماية (firewalls) التي تحظر بروتوكولات الـ VPN الشائعة أو Tor، لكن قد تظل محاولاتك لتجاوز الرقابة قابلة للاكتشاف باستخدام أساليب مثل probing أو [الفحص العميق للحزم (deep packet inspection)](https://en.wikipedia.org/wiki/Deep_packet_inspection).
 
 </div>
 
-You must always consider the risks of trying to bypass censorship, the potential consequences, and how sophisticated your adversary may be. You should be cautious with your software selection, and have a backup plan in case you are caught.
+يجب أن تضع دائما في اعتبارك مخاطر محاولة تجاوز الرقابة، والعواقب المحتملة، ومدى تطور قدرات خصمك. يجب أن تكون حذرا عند اختيار البرامج التي تستخدمها، وأن تكون لديك خطة بديلة في حال تم اكتشافك.
 
-[^1]: Wikipedia: [*Mass Surveillance*](https://en.wikipedia.org/wiki/Mass_surveillance) and [*Surveillance*](https://en.wikipedia.org/wiki/Surveillance).
+[^1]: Wikipedia: [*المراقبة الجماعية*](https://en.wikipedia.org/wiki/Mass_surveillance) و[*المراقبة*](https://en.wikipedia.org/wiki/Surveillance). [↩](#fnref:1){.footnote-backref}
 [^2]: United States Privacy and Civil Liberties Oversight Board: [*Report on the Telephone Records Program Conducted under Section 215*](https://documents.pclob.gov/prod/Documents/OversightReport/ec542143-1079-424a-84b3-acc354698560/215-Report_on_the_Telephone_Records_Program.pdf)
 [^3]: Wikipedia: [*Surveillance capitalism*](https://en.wikipedia.org/wiki/Surveillance_capitalism)
-[^4]: "[Enumerating badness](https://ranum.com/security/computer_security/editorials/dumb)" (or, "listing all the bad things that we know about"), as many content blockers and antivirus programs do, fails to adequately protect you from new and unknown threats because they have not yet been added to the filter list. You should also employ other mitigation techniques.
+[^4]: "[حصر الأشياء الضارة (Enumerating badness)](https://ranum.com/security/computer_security/editorials/dumb)" (أي "إعداد قائمة بكل الأشياء الضارة التي نعرفها")، كما تفعل العديد من أدوات حظر المحتوى وبرامج مكافحة الفيروسات، لا يحميك بشكل كاف من التهديدات الجديدة وغير المعروفة، لأنها لم تُضف بعد إلى قائمة التصفية. يجب أيضًا استخدام أساليب أخرى للحد من المخاطر.
 [^5]: United Nations: [*Universal Declaration of Human Rights*](https://un.org/en/about-us/universal-declaration-of-human-rights).

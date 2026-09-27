@@ -8,7 +8,7 @@ cover: data-redaction.webp
 
 <small>Protects against the following threat(s):</small>
 
-- [:material-account-search: Public Exposure](basics/common-threats.md#limiting-public-information ""){.pg-green}
+- [:material-account-search: الظهور العلني](basics/common-threats.md#limiting-public-information ""){.pg-green}
 
 When sharing files, be sure to remove associated metadata. Most common file types (including documents, images, and videos) include metadata. Image files, for example, commonly include Exif data. Photos sometimes even include GPS coordinates in the file metadata.
 
