@@ -1,38 +1,38 @@
 ---
-meta_title: "How to Create Internet Accounts Privately - Privacy Guides"
-title: "Account Creation"
+meta_title: "كيفية إنشاء حسابات على الإنترنت بخصوصية - Privacy Guides"
+title: "إنشاء الحسابات"
 icon: 'material/account-plus'
-description: Creating accounts online is practically an internet necessity, take these steps to make sure you stay private.
+description: أصبح إنشاء الحسابات على الإنترنت ضرورة شبه أساسية، لذا اتبع هذه الخطوات للحفاظ على خصوصيتك.
 ---
 
-Often people sign up for services without thinking. Maybe it's a streaming service to watch that new show everyone's talking about, or an account that gives you a discount for your favorite fast food place. Whatever the case may be, you should consider the implications for your data now and later on down the line.
+غالبا ما يسجل الناس في الخدمات دون تفكير. قد تكون خدمة بث لمشاهدة ذلك المسلسل الجديد الذي يتحدث عنه الجميع، أو حسابا يمنحك خصما في مطعم الوجبات السريعة المفضل لديك. مهما كان السبب، ينبغي أن تفكر في تأثير ذلك على بياناتك الآن وفي المستقبل.
 
-There are risks associated with every new service that you use. Data breaches; disclosure of customer information to third parties; rogue employees accessing data; all are possibilities that must be considered when giving your information out. You need to be confident that you can trust the service, which is why we don't recommend storing valuable data on anything but the most mature and battle-tested products. That usually means services which provide E2EE and have undergone a cryptographic audit. An audit increases assurance that the product was designed without glaring security issues caused by an inexperienced developer.
+هناك مخاطر مرتبطة بكل خدمة جديدة تستخدمها. تسرب البيانات، وكشف معلومات العملاء لجهات خارجية، ووصول موظفين غير موثوق بهم إلى البيانات؛ كلها احتمالات يجب أخذها في الاعتبار عند مشاركة معلوماتك. يجب أن تكون واثقا من قدرتك على الوثوق بالخدمة، ولهذا لا نوصي بتخزين البيانات المهمة إلا على المنتجات الأكثر نضجا والتي أثبتت موثوقيتها مع مرور الوقت. وهذا يعني عادة الخدمات التي توفر E2EE وخضعت لتدقيق تشفيري. يزيد التدقيق من الثقة بأن المنتج صُمم دون مشكلات أمنية واضحة ناتجة عن قلة خبرة المطوّر.
 
-It can also be difficult to delete the accounts on some services. Sometimes [overwriting data](account-deletion.md#overwriting-account-information) associated with an account can be possible, but in other cases the service will keep an entire history of changes to the account.
+قد يكون من الصعب أيضا حذف حساباتك من بعض الخدمات. أحيانا قد يكون من الممكن [الكتابة فوق البيانات (overwriting)](account-deletion.md#overwriting-account-information) المرتبطة بالحساب، لكن في حالات أخرى قد تحتفظ الخدمة بسجل كامل لكل التغييرات التي أُجريت على الحساب.
 
-## Terms of Service & Privacy Policy
+## شروط الخدمة وسياسة الخصوصية
 
-The ToS are the rules that you agree to follow when using the service. With larger services these rules are often enforced by automated systems. Sometimes these automated systems can make mistakes. For example, you may be banned or locked out of your account on some services for using a VPN or VoIP number. Appealing such bans is often difficult, and involves an automated process too, which isn't always successful. This would be one of the reasons why we wouldn't suggest using Gmail for email as an example. Email is crucial for access to other services you might have signed up for.
+شروط الخدمة هي القواعد التي توافق على اتباعها عند استخدام الخدمة. في الخدمات الكبيرة، غالبا ما تطبّق هذه القواعد بواسطة أنظمة آلية (automated systems). أحيانا قد ترتكب هذه الأنظمة الآلية (automated systems) أخطاء. على سبيل المثال، قد يتم حظرك أو منعك من الوصول إلى حسابك في بعض الخدمات بسبب استخدام الـ VPN أو رقم VoIP. غالبا ما يكون الاعتراض على مثل هذا الحظر صعبا، كما أن عملية الاعتراض نفسها تكون آلية أيضا، ولا تنجح دائما. وهذا أحد الأسباب التي تجعلنا لا ننصح باستخدام Gmail للبريد الإلكتروني، على سبيل المثال. البريد الإلكتروني ضروري للوصول إلى الخدمات الأخرى التي قد تكون قد سجلت فيها.
 
-The Privacy Policy is how the service says they will use your data, and it is worth reading so that you understand how your data will be used. A company or organization might not be legally obligated to follow everything contained in the policy (it depends on the jurisdiction). We would recommend having some idea what your local laws are and what they permit a provider to collect.
+سياسة الخصوصية توضح كيف تقول الخدمة إنها ستستخدم بياناتك، ومن المفيد قراءتها حتى تفهم كيف سيتم استخدام بياناتك. قد لا تكون الشركة أو المؤسسة ملزمة قانونيا باتباع كل ما ورد في السياسة (ويعتمد ذلك على الولاية القضائية). نوصي بأن تكون لديك فكرة عامة عن القوانين المحلية وما الذي تسمح لمزود الخدمة بجمعه.
 
-We recommend looking for particular terms such as "data collection", "data analysis", "cookies", "ads" or "3rd-party" services. Sometimes you will be able to opt out from data collection or from sharing your data, but it is best to choose a service that respects your privacy from the start.
+نوصي بالبحث عن مصطلحات محددة مثل "جمع البيانات (data collection)" و"تحليل البيانات (data analysis)" و"ملفات تعريف الارتباط (cookies)" و"الإعلانات (ads)" أو خدمات "الجهات الخارجية (3rd-party services)". أحيانا ستتمكن من إلغاء الاشتراك في جمع بياناتك أو مشاركتها، لكن من الأفضل اختيار خدمة تحترم خصوصيتك منذ البداية.
 
-Keep in mind you're also placing your trust in the company or organization and that they will comply with their own privacy policy.
+ضع في اعتبارك أنك تضع ثقتك أيضا في الشركة أو المؤسسة، وفي التزامها بسياسة الخصوصية الخاصة بها.
 
-## Authentication methods
+## طرق المصادقة (Authentication methods)
 
-There are usually multiple ways to sign up for an account, each with their own benefits and drawbacks.
+عادة ما توجد عدة طرق لإنشاء حساب، ولكل منها مزايا وعيوب.
 
-### Email and password
+### البريد الإلكتروني وكلمة المرور
 
-The most common way to create a new account is by an email address and password. When using this method, you should use a password manager and follow [best practices](passwords-overview.md) regarding passwords.
+الطريقة الأكثر شيوعا لإنشاء حساب جديد هي استخدام عنوان بريد إلكتروني وكلمة مرور. عند استخدام هذه الطريقة، يجب عليك استخدام password manager واتباع [أفضل الممارسات](passwords-overview.md) المتعلقة بكلمات المرور.
 
 <div class="admonition tip" markdown>
-<p class="admonition-title">Tip</p>
+<p class="admonition-title">نصيحة</p>
 
-You can use your password manager to organize other authentication methods too! Just add the new entry and fill the appropriate fields, you can add notes for things like security questions or a backup key.
+يمكنك استخدام الـ password manager لتنظيم طرق المصادقة (authentication methods) الأخرى أيضا! Just add the new entry and fill the appropriate fields, you can add notes for things like security questions or a backup key.
 
 </div>
 

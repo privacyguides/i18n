@@ -242,7 +242,7 @@ Tools with command-line interfaces are useful for integrating [shell scripts](ht
 
 - [:material-target-account: الهجمات المستهدفة](basics/common-threats.md#attacks-against-specific-individuals ""){.pg-red}
 - [:material-bug-outline: الهجمات السلبية](basics/common-threats.md#security-and-privacy ""){.pg-orange}
-- [:material-server-network: Service Providers](basics/common-threats.md#privacy-from-service-providers ""){.pg-teal}
+- [:material-server-network: مزودو الخدمات](basics/common-threats.md#privacy-from-service-providers ""){.pg-teal}
 
 OpenPGP is sometimes needed for specific tasks such as digitally signing and encrypting email. PGP has many features and is [complex](https://latacora.micro.blog/2019/07/16/the-pgp-problem.html) as it has been around a long time. For tasks such as signing or encrypting files, we suggest the above options.
 

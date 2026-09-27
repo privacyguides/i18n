@@ -112,44 +112,44 @@ description: نموذج تهديداتك يخصّك شخصيًا، ولكن هذ
 
 1. قد يعمل أحد المساهمين أو الموظفين أولا على الوصول إلى منصب ذي صلاحيات داخل مشروع أو مؤسسة، ثم يسيء استخدام هذا المنصب بإضافة تعليمات برمجية ضارة.
 2. قد تُجبر جهة خارجية أحد المطورين على إضافة تعليمات برمجية ضارة.
-3. An individual or group might identify a third party software dependency (also known as a library) and work to infiltrate it with the above two methods, knowing that it will be used by "downstream" software developers.
+3. قد يستهدف شخص أو مجموعة مكتبة برمجية (library) تابعة لجهة خارجية، ويحاول إدخال كود ضار إليها بإحدى الطريقتين المذكورتين سابقا، لأنه يعلم أن مطوري برامج أخرى سيستخدمون هذه المكتبة في برامجهم.
 
-These sorts of attacks can require a lot of time and preparation to perform and are risky because they can be detected, particularly in open source projects if they are popular and have outside interest. Unfortunately they're also one of the most dangerous as they are very hard to mitigate entirely. We would encourage readers to only use software which has a good reputation and makes an effort to reduce risk by:
+قد يتطلب تنفيذ هذه الأنواع من الهجمات الكثير من الوقت والتحضير، كما أنها تنطوي على مخاطر لأنها قد تُكتشف، خصوصا في المشاريع مفتوحة المصدر إذا كانت مشهورة وتحظى باهتمام من جهات خارجية. للأسف، تُعد هذه الهجمات أيضا من أخطر الأنواع، لأنه من الصعب جدا الحد من مخاطرها بشكل كامل. نشجع القراء على استخدام البرامج التي تتمتع بسمعة جيدة وتعمل على تقليل المخاطر من خلال:
 
-1. Only adopting popular software that has been around for a while. The more interest in a project, the greater likelihood that external parties will notice malicious changes. A malicious actor will also need to spend more time gaining community trust with meaningful contributions.
-2. Finding software which releases binaries with widely-used, trusted build infrastructure platforms, as opposed to developer workstations or self-hosted servers. Some systems like GitHub Actions let you inspect the build script that runs publicly for extra confidence. This lessens the likelihood that malware on a developer's machine could infect their packages, and gives confidence that the binaries produced are in fact produced correctly.
-3. Looking for code signing on individual source code commits and releases, which creates an auditable trail of who did what. For example: Was the malicious code in the software repository? Which developer added it? Was it added during the build process?
-4. Checking whether the source code has meaningful commit messages (such as [conventional commits](https://conventionalcommits.org)) which explain what each change is supposed to accomplish. Clear messages can make it easier for outsiders to the project to verify, audit, and find bugs.
-5. Noting the number of contributors or maintainers a program has. A lone developer may be more susceptible to being coerced into adding malicious code by an external party, or to negligently enabling undesirable behavior. This may very well mean software developed by "Big Tech" has more scrutiny than a lone developer who doesn't answer to anyone.
+1. اعتماد البرامج الشائعة فقط، والتي مضى على وجودها وقت كاف. كلما زاد الاهتمام بمشروع ما، زادت احتمالية أن تلاحظ جهات خارجية أي تغييرات ضارة. سيحتاج المهاجم أيضا إلى قضاء وقت أطول في كسب ثقة المجتمع من خلال تقديم مساهمات مفيدة.
+2. اختيار برامج تنشر الملفات التنفيذية (releases binaries) باستخدام منصات بناء موثوقة وشائعة الاستخدام، بدلا من إنشائها على أجهزة عمل المطورين أو خوادم مستضافة ذاتيا. تتيح لك بعض الأنظمة مثل GitHub Actions فحص (inspect) سكربت البناء (build script) الذي يتم تشغيله علنا، مما يمنحك ثقة إضافية. هذا يقلل من احتمال أن تنتقل برمجيات ضارة من جهاز المطوّر إلى الـ packages التي ينشرها، كما يزيد الثقة بأن الملفات التنفيذية (the binaries) الناتجة تم إنشاؤها بالطريقة الصحيحة.
+3. البحث عن مشاريع تستخدم code signing لتوقيع كل تعديل (commit) وإصدار (releases) من الـ Source code، بحيث يمكن مراجعة السجل لاحقا ومعرفة من قام بكل تغيير. على سبيل المثال: هل كان الكود الضار موجودا في مستودع البرنامج (software repository)؟ أي مطور هو الذي أضافه؟ هل تمت إضافته أثناء عملية بناء البرنامج؟
+4. التحقق مما إذا كان الـ source code يحتوي على رسائل commit واضحة ومفيدة (مثل [conventional commits](https://conventionalcommits.org)) تشرح ما الذي يفترض أن يحققه كل تغيير. يمكن للرسائل الواضحة أن تسهّل على الأشخاص من خارج المشروع التحقق من التغييرات ومراجعتها والعثور على الأخطاء.
+5. ملاحظة عدد المساهمين أو المشرفين على البرنامج. قد يكون المطور الذي يعمل بمفرده أكثر عرضة للضغط من جهة خارجية لإضافة كود ضار، أو لارتكاب إهمال يؤدي إلى سلوك غير مرغوب فيه في البرنامج. قد يعني هذا أن البرامج التي تطورها شركات "Big Tech" تخضع لمراجعة ورقابة أكبر من البرامج التي يطورها شخص يعمل بمفرده ولا يخضع لمساءلة أحد.
 
-## Privacy from Service Providers
+## الخصوصية من مقدمي الخدمات
 
-<span class="pg-teal">:material-server-network: Service Providers</span>
+<span class="pg-teal">:material-server-network: مزودو الخدمات</span>
 
-We live in a world where almost everything is connected to the internet. Our "private" messages, emails, and social interactions are typically stored on a server, somewhere. Generally, when you send someone a message it's stored on a server, and when your friend wants to read the message the server will show it to them.
+نعيش في عالم يكاد يكون فيه كل شيء متصلا بالإنترنت. تُخزن رسائلنا "الخاصة" ورسائل البريد الإلكتروني وتفاعلاتنا الاجتماعية عادة على خادم ما في مكان ما. بشكل عام، عندما ترسل رسالة إلى شخص ما، يتم تخزينها على خادم، وعندما يريد صديقك قراءتها يعرضها له الخادم.
 
-The obvious problem with this is that the service provider (or a hacker who has compromised the server) can access your conversations whenever and however they want, without you ever knowing. This applies to many common services, like SMS messaging, Telegram, and Discord.
+المشكلة الواضحة هنا هي أن مقدم الخدمة (أو مخترقا تمكن من اختراق الخادم) يمكنه الوصول إلى محادثاتك متى شاء وبأي طريقة يريد، دون أن تعرف بذلك أبدا. ينطبق هذا على العديد من الخدمات الشائعة، مثل رسائل SMS وTelegram وDiscord.
 
-Thankfully, E2EE can alleviate this issue by encrypting communications between you and your desired recipients before they are even sent to the server. The confidentiality of your messages is guaranteed, assuming the service provider doesn't have access to the private keys of either party.
+لحسن الحظ، يمكن لـ E2EE التخفيف من هذه المشكلة من خلال تشفير الاتصالات بينك وبين المستلمين المقصودين قبل إرسالها إلى الخادم من الأساس. تظل رسائلك سرية، بشرط ألا يتمكن مقدم الخدمة من الوصول إلى المفاتيح الخاصة لأي من الطرفين.
 
 <div class="admonition note" markdown>
-<p class="admonition-title">Note on Web-based Encryption</p>
+<p class="admonition-title">ملاحظة حول التشفير عبر الويب</p>
 
-In practice, the effectiveness of different E2EE implementations varies. Applications, such as [Signal](../real-time-communication.md#signal), run natively on your device, and every copy of the application is the same across different installations. If the service provider were to introduce a [backdoor](https://en.wikipedia.org/wiki/Backdoor_(computing)) in their application—in an attempt to steal your private keys—it could later be detected with [reverse engineering](https://en.wikipedia.org/wiki/Reverse_engineering).
+عمليا، تختلف فعالية طرق تطبيق E2EE من خدمة إلى أخرى. تطبيقات مثل [Signal](../real-time-communication.md#signal) تُثبت وتعمل على جهازك natively، وتكون جميع نسخ التطبيق متطابقة عبر عمليات التثبيت المختلفة. إذا أضاف مقدم الخدمة [backdoor](https://en.wikipedia.org/wiki/Backdoor_(computing) إلى تطبيقه في محاولة لسرقة مفاتيحك الخاصة، فقد يكون من الممكن اكتشافه لاحقًا باستخدام [الهندسة العكسية (reverse engineering)](https://en.wikipedia.org/wiki/Reverse_engineering).
 
-On the other hand, web-based E2EE implementations, such as Proton Mail's web app or Bitwarden's *Web Vault*, rely on the server dynamically serving JavaScript code to the browser to handle cryptography. A malicious server can target you and send you malicious JavaScript code to steal your encryption key (and it would be extremely hard to notice). Because the server can choose to serve different web clients to different people—even if you noticed the attack—it would be incredibly hard to prove the provider's guilt.
+من ناحية أخرى، تعتمد تطبيقات E2EE التي تعمل عبر الويب، مثل تطبيق Proton Mail على الويب أو**Web Vault** من Bitwarden، على أن يرسل الخادم كود JavaScript إلى المتصفح بشكل ديناميكي للتعامل مع عمليات التشفير. يمكن لخادم ضار أن يستهدفك ويرسل إلى متصفحك كود JavaScript ضارا لسرقة مفتاح التشفير الخاص بك، وسيكون من الصعب جدا ملاحظة ذلك. ولأن الخادم يمكنه إرسال نسخ مختلفة من تطبيق الويب إلى أشخاص مختلفين، فحتى لو اكتشفت الهجوم، سيكون من الصعب جدا إثبات أن مقدم الخدمة هو المسؤول عنه.
 
-Therefore, you should use native applications over web clients whenever possible.
+لذلك، يُفضل استخدام التطبيقات التي تثبت وتعمل على جهازك بدلا من تطبيقات الويب كلما أمكن.
 
 </div>
 
-Even with E2EE, service providers can still profile you based on **metadata**, which typically isn't protected. While the service provider can't read your messages, they can still observe important things, such as whom you're talking to, how often you message them, and when you're typically active. Protection of metadata is fairly uncommon, and—if it's within your [threat model](threat-modeling.md)—you should pay close attention to the technical documentation of the software you're using to see if there's any metadata minimization or protection at all.
+حتى مع استخدام E2EE، لا يزال بإمكان مقدمي الخدمات إنشاء ملف تعريفي عنك استنادا إلى **Metadata**، والتي لا تكون محمية عادة. بينما لا يستطيع مقدم الخدمة قراءة رسائلك، فإنه لا يزال قادرا على معرفة معلومات مهمة، مثل الأشخاص الذين تتواصل معهم، وعدد مرات مراسلتهم، والأوقات التي تكون فيها نشطا عادة. حماية الـ Metadata ليست شائعة جدا، وإذا كانت ضمن الـ [Threat Model](threat-modeling.md) الخاص بك، فينبغي أن تراجع بعناية الوثائق التقنية للبرنامج الذي تستخدمه لمعرفة ما إذا كان يوفر أي وسائل لتقليل الـ Metadata أو حمايتها.
 
-## Mass Surveillance Programs
+## برامج المراقبة الجماعية
 
-<span class="pg-blue">:material-eye-outline: Mass Surveillance</span>
+<span class="pg-blue">:material-eye-outline: المراقبة الجماعيّة</span>
 
-Mass surveillance is the intricate effort to monitor the "behavior, many activities, or information" of an entire (or substantial fraction of a) population.[^1] It often refers to government programs, such as the ones [disclosed by Edward Snowden in 2013](https://en.wikipedia.org/wiki/Global_surveillance_disclosures_(2013%E2%80%93present)). However, it can also be carried out by corporations, either on behalf of government agencies or by their own initiative.
+المراقبة الجماعية هي عملية واسعة ومعقدة تهدف إلى مراقبة "سلوك أو أنشطة أو معلومات" مجتمع كامل أو جزء كبير منه.[^1] وغالبًا ما يشير هذا المصطلح إلى برامج حكومية، مثل البرامج التي [كشف عنها إدوارد سنودن عام 2013](https://en.wikipedia.org/wiki/Global_surveillance_disclosures_(2013%E2%80%93present)). ومع ذلك، يمكن للشركات أيضا تنفيذ هذه المراقبة، إما نيابة عن جهات حكومية أو بمبادرة منها.
 
 <div class="admonition abstract" markdown>
 <p class="admonition-title">Atlas of Surveillance</p>
