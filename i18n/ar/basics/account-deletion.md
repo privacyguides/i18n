@@ -1,30 +1,30 @@
 ---
-title: Account Deletion
+title: حذف الحساب
 icon: material/account-remove
-description: It's easy to accumulate a large number of internet accounts. Here are some tips on how to prune your collection.
+description: من السهل أن يتراكم لديك عدد كبير من الحسابات على الإنترنت. إليك بعض النصائح لتقليل عدد هذه الحسابات.
 ---
 
-Over time, it can be easy to accumulate a number of online accounts, many of which you may no longer use. Deleting these unused accounts is an important step in reclaiming your privacy, as dormant accounts are vulnerable to data breaches. A data breach occurs when a service's security is compromised and protected information is viewed, transmitted, or stolen by unauthorized actors. Data breaches are unfortunately all [too common](https://haveibeenpwned.com/PwnedWebsites) these days, and so practicing good digital hygiene is the best way to minimize the impact they have on your life. The goal of this guide then is to help navigate you through the irksome process of account deletion, often made difficult by [deceptive design](https://deceptive.design), for the betterment of your online presence.
+مع مرور الوقت، من السهل أن يتراكم لديك عدد من الحسابات على الإنترنت، وقد لا تعود تستخدم الكثير منها. يُعد حذف هذه الحسابات غير المستخدمة خطوة مهمة لاستعادة خصوصيتك، لأن الحسابات الخاملة (dormant accounts) تكون أكثر عرضة لتسريبات البيانات. يحدث خرق للبيانات عندما يتم اختراق أمان خدمة ما، فتتم مشاهدة المعلومات المحمية أو نقلها أو سرقتها من قِبل جهات غير مصرح لها. للأسف، أصبحت خروقات البيانات [شائعة جدا](https://haveibeenpwned.com/PwnedWebsites) هذه الأيام، لذلك فإن اتباع عادات رقمية جيدة هو أفضل طريقة لتقليل تأثيرها على حياتك. يهدف هذا الدليل إلى مساعدتك على حذف حساباتك بسهولة أكبر، لأن بعض المواقع تجعل حذف الحساب صعبا عن طريق [تصميمات مضللة](https://deceptive.design). والهدف هو مساعدتك على تقليل حساباتك القديمة وتحسين خصوصيتك على الإنترنت.
 
-## Finding Old Accounts
+## العثور على الحسابات القديمة
 
 ### Password Manager
 
-If you have a password manager that you've used for your entire digital life, this part will be very easy. Oftentimes, they include built-in functionality for detecting if your credentials were exposed in a data breach—such as Bitwarden's [Data Breach Report](https://bitwarden.com/blog/have-you-been-pwned).
+إذا كنت تستخدم Password Manager طوال فترة استخدامك للإنترنت، فسيكون هذا الجزء سهلا جدا. غالبًا ما تتضمن هذه الأدوات ميزة مدمجة للتحقق مما إذا كانت بيانات تسجيل الدخول الخاصة بك قد ظهرت في خرق للبيانات، مثل [Data Breach Report](https://bitwarden.com/blog/have-you-been-pwned) في Bitwarden.
 
 <figure markdown>
   ![Bitwarden's Data Breach Report feature](../assets/img/account-deletion/exposed_passwords.png)
 </figure>
 
-Even if you haven't explicitly used a password manager before, there's a chance you've used the one in your browser ([Firefox](https://support.mozilla.org/kb/password-manager-remember-delete-edit-logins), [Chrome](https://passwords.google.com/intro), [Edge](https://support.microsoft.com/microsoft-edge/save-or-forget-passwords-in-microsoft-edge-b4beecb0-f2a8-1ca0-f26f-9ec247a3f336)) or your phone ([Google](https://passwords.google.com/intro) on stock Android, [Passwords](https://support.apple.com/HT211146) on iOS) without even realizing it.
+حتى إذا لم تستخدم Password Manager بشكل مباشر من قبل، فمن المحتمل أنك استخدمت مدير كلمات المرور الموجود في متصفحك ([Firefox](https://support.mozilla.org/kb/password-manager-remember-delete-edit-logins)، [Chrome](https://passwords.google.com/intro)، [Edge](https://support.microsoft.com/microsoft-edge/save-or-forget-passwords-in-microsoft-edge-b4beecb0-f2a8-1ca0-f26f-9ec247a3f336)) أو هاتفك ([Google](https://passwords.google.com/intro) على Android الأساسي، و[Passwords](https://support.apple.com/HT211146) على iOS) دون أن تدرك ذلك.
 
-Desktop platforms also often have a password manager which may help you recover passwords you've forgotten about:
+غالبا ما تتضمن أنظمة سطح المكتب أيضا على Password Manager، وقد يساعدك في العثور على كلمات مرور نسيتها:
 
-- Windows: [Credential Manager](https://support.microsoft.com/windows/accessing-credential-manager-1b5c916a-6a16-889f-8581-fc16e8165ac0)
+- ويندوز: [Credential Manager](https://support.microsoft.com/windows/accessing-credential-manager-1b5c916a-6a16-889f-8581-fc16e8165ac0)
 - macOS: [Passwords](https://support.apple.com/HT211145)
 - Linux: Gnome Keyring (accessed through [Seahorse](https://gitlab.gnome.org/GNOME/seahorse#seahorse)) or [KDE Wallet Manager](https://userbase.kde.org/KDE_Wallet_Manager)
 
-### Email
+### البريد الإلكتروني
 
 If you didn't use a password manager in the past, or you think you have accounts that were never added to your password manager, another option is to search the email account(s) that you believe you signed up on. On your email client, search for keywords such as "verify" or "welcome." Almost every time you make an online account, the service will send a verification link or an introductory message to your email. This can be a good way to find old, forgotten accounts.
 
