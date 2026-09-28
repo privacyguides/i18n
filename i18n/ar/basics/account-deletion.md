@@ -26,15 +26,15 @@ description: من السهل أن يتراكم لديك عدد كبير من ا�
 
 ### البريد الإلكتروني
 
-If you didn't use a password manager in the past, or you think you have accounts that were never added to your password manager, another option is to search the email account(s) that you believe you signed up on. On your email client, search for keywords such as "verify" or "welcome." Almost every time you make an online account, the service will send a verification link or an introductory message to your email. This can be a good way to find old, forgotten accounts.
+If you didn't use a password manager in the past, or you think you have accounts that were never added to your password manager, another option is to search the email account(s) that you believe you signed up on. في تطبيق البريد الإلكتروني، ابحث عن كلمات مثل "verify" أو "welcome". في كل مرة تقريبا تنشئ فيها حسابا على الإنترنت، سترسل الخدمة رابط تحقق أو رسالة ترحيبية إلى بريدك الإلكتروني. قد تكون هذه طريقة جيدة للعثور على الحسابات القديمة التي نسيتها.
 
-## Deleting Old Accounts
+## حذف الحسابات القديمة
 
-### Log In
+### تسجيل الدخول
 
-In order to delete your old accounts, you'll need to first make sure you can log in to them. Again, if the account was in your password manager, this step is easy. If not, you can try to guess your password. Failing that, there are typically options to regain access to your account, commonly available through a "forgot password" link on the login page. It may also be possible that accounts you've abandoned have already been deleted—sometimes services prune all old accounts.
+لحذف حساباتك القديمة، ستحتاج أولا إلى التأكد من أنك تستطيع تسجيل الدخول إليها. ومرة أخرى، إذا كان الحساب محفوظا في الـ Password Manager، فستكون هذه الخطوة سهلة. إذا لم يكن كذلك، فيمكنك محاولة تخمين كلمة المرور. إذا لم ينجح ذلك، فعادة ما توجد طرق لاستعادة الوصول إلى حسابك، وغالبا تكون من خلال رابط "نسيت كلمة المرور" في صفحة تسجيل الدخول. من الممكن أيضا أن تكون الحسابات التي تركتها قد حُذفت بالفعل، إذ تقوم بعض الخدمات أحيانا بحذف جميع الحسابات القديمة.
 
-When attempting to regain access, if the site returns an error message saying that email is not associated with an account, or you never receive a reset link after multiple attempts, then you do not have an account under that email address and should try a different one. If you can't figure out which email address you used, or you no longer have access to that email, you can try contacting the service's customer support. Unfortunately, there is no guarantee that you will be able to reclaim access your account.
+عند محاولة استعادة الوصول إلى حسابك، إذا عرض الموقع رسالة خطأ تفيد بأن هذا البريد الإلكتروني غير مرتبط بأي حساب، أو لم يصلك رابط لإعادة تعيين كلمة المرور بعد عدة محاولات، فهذا يعني أنه لا يوجد حساب مرتبط بهذا البريد الإلكتروني، وعليك تجربة عنوان بريد إلكتروني آخر. If you can't figure out which email address you used, or you no longer have access to that email, you can try contacting the service's customer support. Unfortunately, there is no guarantee that you will be able to reclaim access your account.
 
 ### GDPR (EEA residents only)
 
