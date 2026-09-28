@@ -280,7 +280,6 @@ Wij beschouwen deze kenmerken als belangrijk om een veilige en optimale dienst t
 
 - Must encrypt email account data at rest with asymmetric encryption, where only the user has the private keys needed to decrypt it.
 - Moet e-mails kunnen exporteren als [Mbox](https://en.wikipedia.org/wiki/Mbox) of individuele .EML met [RFC5322](https://datatracker.ietf.org/doc/rfc5322) standaard.
-- Laat gebruikers hun eigen [domeinnaam](https://en.wikipedia.org/wiki/Domain_name) gebruiken. Aangepaste domeinnamen zijn belangrijk voor gebruikers omdat ze zo hun agentschap van de dienst kunnen behouden, mocht het slecht aflopen of overgenomen worden door een ander bedrijf dat geen prioriteit geeft aan privacy.
 - Moet werken op een eigen infrastructuur, d.w.z. niet gebaseerd op e-mailserviceproviders van derden.
 
 **Beste geval:**

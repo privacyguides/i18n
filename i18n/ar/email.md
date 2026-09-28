@@ -280,7 +280,6 @@ Tuta stores your [emails](https://tuta.com/support#what-encrypted), [address boo
 
 - Must encrypt email account data at rest with asymmetric encryption, where only the user has the private keys needed to decrypt it.
 - يجب أن يوفر إمكانية تصدير (exporting) الرسائل بصيغة [MBOX](https://en.wikipedia.org/wiki/Mbox) أو ملفات .EML فردية وفقًا لمعيار [RFC5322](https://datatracker.ietf.org/doc/rfc5322).
-- يجب أن تتيح الخدمة للمستخدمين إمكانية استخدام [اسم النطاق الخاص بهم](https://en.wikipedia.org/wiki/Domain_name). استخدام أسماء النطاقات المخصصة مهم للمستخدمين، لأنه يمنحهم استقلالية عن مزود الخدمة، في حال تدهورت الخدمة أو تم الاستحواذ عليها من قبل شركة لا تهتم بالخصوصية.
 - يجب أن تعمل الخدمة على بنية تحتية مملوكة لها بالكامل، أي دون الاعتماد على مزودي خدمات بريد إلكتروني خارجيين.
 
 **أحسن الاحتمالات:**

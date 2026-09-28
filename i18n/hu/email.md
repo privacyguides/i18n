@@ -280,7 +280,6 @@ Ezeket a funkciókat fontosnak tartjuk a biztonságos és optimális szolgáltat
 
 - Must encrypt email account data at rest with asymmetric encryption, where only the user has the private keys needed to decrypt it.
 - Must be capable of exporting emails as [Mbox](https://en.wikipedia.org/wiki/Mbox) or individual .EML with [RFC5322](https://datatracker.ietf.org/doc/rfc5322) standard.
-- Allow users to use their own [domain name](https://en.wikipedia.org/wiki/Domain_name). Az egyéni domain nevek azért fontosak a felhasználók számára, mert lehetővé teszik számukra, hogy megőrizzék a függetlenedési képességüket a szolgáltatástól, ha az rosszra fordulna, vagy ha egy másik vállalat felvásárolná, amely nem helyezi előtérbe az adatvédelmet.
 - Must operate on owned infrastructure, i.e. not built upon third-party email service providers.
 
 **Legjobb esetben:**

@@ -280,7 +280,6 @@ Consideramos que estas características son importantes para ofrecer un servicio
 
 - Debe cifrar los datos de las cuentas de correo electrónico en reposo con un cifrado asimétrico, para el que solo el usuario dispone de las claves privadas necesarias para descifrarlos.
 - Debe ser capaz de exportar correos electrónicos como [Mbox](https://en.wikipedia.org/wiki/Mbox) o .EML individuales con el estándar [RFC5322](https://datatracker.ietf.org/doc/rfc5322).
-- Permite a los usuarios utilizar su propio [nombre de dominio](https://en.wikipedia.org/wiki/Domain_name). Los nombres de dominio personalizados son importantes para los usuarios porque les permiten mantener su agencia del servicio, en caso de que éste se estropee o sea adquirido por otra empresa que no dé prioridad a la privacidad.
 - Debe funcionar con infraestructura propia, es decir, no debe basarse en proveedores de servicios de correo electrónico de terceros.
 
 **Mejor Caso:**

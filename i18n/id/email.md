@@ -280,7 +280,6 @@ Kami menganggap fitur-fitur ini penting untuk memberikan layanan yang aman dan o
 
 - Must encrypt email account data at rest with asymmetric encryption, where only the user has the private keys needed to decrypt it.
 - Harus mampu mengekspor email sebagai [Mbox](https://en.wikipedia.org/wiki/Mbox) atau .EML individual dengan standar [RFC5322](https://datatracker.ietf.org/doc/rfc5322).
-- Izinkan pengguna untuk menggunakan [nama domain](https://en.wikipedia.org/wiki/Domain_name) mereka sendiri. Nama domain khusus penting bagi pengguna karena memungkinkan mereka untuk mempertahankan keagenan meraka dari layanan, jika layanan berubah menjadi buruk atau diakuisisi oleh perusahaan lain yang tidak memprioritaskan privasi.
 - Harus beroperasi pada infrastruktur milik sendiri, yaitu tidak dibangun di atas penyedia layanan email pihak ketiga.
 
 **Kasus Terbaik:**
@@ -290,7 +289,7 @@ Kami menganggap fitur-fitur ini penting untuk memberikan layanan yang aman dan o
 - Harus mendukung WKD untuk memungkinkan penemuan kunci OpenPGP publik yang lebih baik melalui HTTP. Pengguna GnuPG dapat memperoleh kunci dengan perintah `gpg --locate-key example_user@example.com`.
 - Dukungan untuk temporary mailbox untuk pengguna eksternal. Ini berguna ketika Anda ingin mengirim email terenkripsi tanpa mengirimkan salinan yang sebenarnya kepada penerima. Email ini biasanya memiliki masa berlaku terbatas dan kemudian dihapus secara otomatis. Mereka juga tidak mengharuskan penerima untuk mengonfigurasi kriptografi apa pun seperti OpenPGP.
 - Harus mendukung [sub-addressing](https://en.wikipedia.org/wiki/Email_address#Sub-addressing).
-- Harus mengizinkan pengguna untuk menggunakan [nama domain](https://en.wikipedia.org/wiki/Domain_name) mereka sendiri. Nama domain khusus penting bagi pengguna karena memungkinkan mereka untuk mempertahankan keagenan mereka dari layanan, jika layanan berubah menjadi buruk atau diakuisisi oleh perusahaan lain yang tidak memprioritaskan privasi.
+- Harus mengizinkan pengguna untuk menggunakan [nama domain](https://en.wikipedia.org/wiki/Domain_name) mereka sendiri. Nama domain khusus penting bagi pengguna karena memungkinkan mereka untuk mempertahankan keagenan meraka dari layanan, jika layanan berubah menjadi buruk atau diakuisisi oleh perusahaan lain yang tidak memprioritaskan privasi.
 - Fungsionalitas catch-all atau alias bagi mereka yang menggunakan domain sendiri.
 - Sebaiknya gunakan protokol akses email standar seperti IMAP, SMTP, atau [JMAP](https://en.wikipedia.org/wiki/JSON_Meta_Application_Protocol). Protokol akses standar memastikan pelanggan dapat dengan mudah mengunduh semua email mereka, jika mereka ingin beralih ke penyedia lain.
 - Layanan penyedia email harus tersedia melalui [layanan onion](https://en.wikipedia.org/wiki/.onion).

@@ -280,7 +280,6 @@ Tuta 向非營利組織提供免費 [商業版本](https://tuta.com/blog/secure-
 
 - Must encrypt email account data at rest with asymmetric encryption, where only the user has the private keys needed to decrypt it.
 - 必須能夠以 [Mbox](https://en.wikipedia.org/wiki/Mbox) 或符合 [RFC5322](https://datatracker.ietf.org/doc/rfc5322) 標準的個別 .EML 匯出電子郵件。
-- 允許使用者使用自己的[網域名稱](https://en.wikipedia.org/wiki/Domain_name)。自定網域名稱對用戶來說很重要，因為它允許用戶在使用服務時仍能維持自我代理，以防服務變差或被另一家不優先考慮隱私的公司收購。
 - 必須在自有的基礎架構上運作，即不建基於第三方電子郵件服務供應商。
 
 **最佳情況：**

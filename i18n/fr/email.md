@@ -280,7 +280,6 @@ Nous considérons ces caractéristiques comme importantes afin de fournir un ser
 
 - Doit chiffrer les données du compte mail au repos avec un chiffrement asymétrique, dont seul l'utilisateur possède la clef privée nécessaire pour les déchiffrer.
 - Doit être capable d'exporter des courriels sous forme de [Mbox](https://en.wikipedia.org/wiki/Mbox) ou de .EML individuel selon la norme [RFC5322](https://datatracker.ietf.org/doc/rfc5322).
-- Permettre aux utilisateurs d'utiliser leur propre [nom de domaine](https://en.wikipedia.org/wiki/Domain_name). Les noms de domaine personnalisés sont importants pour les utilisateurs car ils leur permettent de conserver leur indépendance du service, au cas où celui-ci tournerait mal ou serait racheté par une autre société qui ne donne pas priorité à la vie privée.
 - Doit fonctionner sur une infrastructure propre, c'est-à-dire qu'elle ne doit pas reposer sur des fournisseurs de services de messagerie tiers.
 
 **Dans le meilleur des cas :**

@@ -280,7 +280,6 @@ Wir halten diese Merkmale für wichtig, um einen sicheren und optimalen Service 
 
 - Must encrypt email account data at rest with asymmetric encryption, where only the user has the private keys needed to decrypt it.
 - Muss fähig sein, E-Mails als [Mbox](https://en.wikipedia.org/wiki/Mbox) oder als einzelne .EML laut [RFC5322](https://datatracker.ietf.org/doc/rfc5322) Standard zu exportieren.
-- Erlaubt Nutzer ihre eigenen [Domainnamen](https://de.wikipedia.org/wiki/Domain_(Internet)) zu nutzen. Benutzerdefinierte Domänennamen sind für die Nutzer wichtig, da du so deine Identität von dem Dienst fernhalten kannst, falls dieser sich als schlecht erweist oder von einem anderen Unternehmen übernommen wird, bei dem der Datenschutz keine Rolle spielt.
 - Muss auf besitzte Infrastruktur betrieben werden, d.h. nicht auf Drittanbieter aufgebaut sein.
 
 **Im besten Fall:**

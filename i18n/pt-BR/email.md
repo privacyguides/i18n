@@ -280,7 +280,6 @@ Consideramos esses recursos importantes para fornecer um serviço seguro e otimi
 
 - Must encrypt email account data at rest with asymmetric encryption, where only the user has the private keys needed to decrypt it.
 - Must be capable of exporting emails as [Mbox](https://en.wikipedia.org/wiki/Mbox) or individual .EML with [RFC5322](https://datatracker.ietf.org/doc/rfc5322) standard.
-- Allow users to use their own [domain name](https://en.wikipedia.org/wiki/Domain_name). Nomes de domínio personalizados são importantes para os usuários, porque lhes permite manter sua agência a partir do serviço. Deve piorar ou ser adquirido por outra empresa que não priorize a privacidade.
 - Must operate on owned infrastructure, i.e. not built upon third-party email service providers.
 
 **Melhor Caso:**

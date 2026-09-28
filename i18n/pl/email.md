@@ -280,7 +280,6 @@ Poniższe funkcje uznajemy za istotne dla zapewnienia bezpiecznej i wydajnej us�
 
 - Musi szyfrować dane konta e-mail w spoczynku za pomocą szyfrowania asymetrycznego, w którym tylko użytkownik ma klucze prywatne potrzebne do ich odszyfrowania.
 - Musi umożliwiać eksport wiadomości e-mail w formacie [mbox](https://pl.wikipedia.org/wiki/Mbox) lub jako pojedyncze pliki .EML zgodne ze standardem [RFC5322](https://datatracker.ietf.org/doc/rfc5322).
-- Musi pozwalać użytkownikom na korzystanie z własnej [nazwy domeny](https://pl.wikipedia.org/wiki/Domena_internetowa). Własne domeny są istotne, ponieważ pozwalają użytkownikowi zachować niezależność od dostawcy, jeśli ten np. zmieni właściciela lub przestanie dbać o prywatność.
 - Musi działać na własnej infrastrukturze, tj. nie może być zbudowany w oparciu o zewnętrzne platformy e-mailowe.
 
 **Najlepszy scenariusz:**

@@ -280,7 +280,6 @@ Tyto funkce považujeme za důležité pro to, aby byla služba bezpečná a opt
 
 - Must encrypt email account data at rest with asymmetric encryption, where only the user has the private keys needed to decrypt it.
 - Musí být schopen exportovat e-maily jako [Mbox](https://en.wikipedia.org/wiki/Mbox) nebo jednotlivé .EML v normě [RFC5322](https://datatracker.ietf.org/doc/rfc5322).
-- Umožňovat uživatelům používat jejich vlastní [domény](https://en.wikipedia.org/wiki/Domain_name). Vlastní domény jsou pro uživatele důležité, protože jim umožňují zachovávat nezávislost na službě, ať už z důvodu jejího úpadku nebo převzetí jinou společností, která nepovažuje soukromí za prioritu.
 - Musí fungovat na vlastní infrastruktuře, tzn. že nesmí běžet na e-mailových službách třetích stran.
 
 **Nejlepší případ:**

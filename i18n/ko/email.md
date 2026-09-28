@@ -280,7 +280,6 @@ Tuta offers the business version of [Tuta to non-profit organizations](https://t
 
 - Must encrypt email account data at rest with asymmetric encryption, where only the user has the private keys needed to decrypt it.
 - Must be capable of exporting emails as [Mbox](https://en.wikipedia.org/wiki/Mbox) or individual .EML with [RFC5322](https://datatracker.ietf.org/doc/rfc5322) standard.
-- Allow users to use their own [domain name](https://en.wikipedia.org/wiki/Domain_name). 사용자 지정 도메인 이름은 서비스가 부실해지거나 프라이버시 보호를 우선시하지 않는 다른 회사에 인수되는 경우에도 에이전시를 유지할 수 있도록 해주기 때문에 사용자에게 중요합니다.
 - Must operate on owned infrastructure, i.e. not built upon third-party email service providers.
 
 **우대 사항:**

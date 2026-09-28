@@ -280,7 +280,6 @@ Tutaは[非営利団体](https://tuta.com/blog/secure-email-for-non-profit)向�
 
 - Must encrypt email account data at rest with asymmetric encryption, where only the user has the private keys needed to decrypt it.
 - [Mbox](https://en.wikipedia.org/wiki/Mbox)もしくは[RFC5322](https://datatracker.ietf.org/doc/rfc5322)に基づいた個別の.EMLファイルとしてエクスポートできること。
-- ユーザーの独自[ドメイン名](https://en.wikipedia.org/wiki/Domain_name)が利用できること。プロバイダーが悪化したり、プライバシーを重視しない他の会社に買収されたりした場合に備えることができるため、カスタムドメイン名はユーザーにとって非常に重要である。
 - 自社所有のインフラで運用されていること。第三者のEメールサービスプロバイダーによるサービス提供ではないこと。
 
 **満たされることが望ましい基準：**
