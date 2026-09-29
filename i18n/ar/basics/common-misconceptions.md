@@ -1,7 +1,7 @@
 ---
-title: "Common Misconceptions"
+title: "مفاهيم خاطئة شائعة"
 icon: 'material/robot-confused'
-description: Privacy isn't a straightforward topic, and it's easy to get caught up in marketing claims and other disinformation.
+description: الخصوصية ليست موضوعا بسيطا، ومن السهل الانخداع بالادعاءات التسويقية وغيرها من المعلومات المضللة.
 schema:
   - 
     "@context": https://schema.org
@@ -9,18 +9,18 @@ schema:
     mainEntity:
       - 
         "@type": Question
-        name: Is open-source software inherently secure?
+        name: هل البرمجيات مفتوحة المصدر آمنة بطبيعتها؟
         acceptedAnswer:
           "@type": Answer
           text: |
-            Whether the source code is available and how software is licensed does not inherently affect its security in any way. Open-source software has the potential to be more secure than proprietary software, but there is absolutely no guarantee this is the case. When you evaluate software, you should look at the reputation and security of each tool on an individual basis.
+            إتاحة الـ Source Code وطريقة ترخيص البرنامج لا تؤثران بطبيعتهما في مستوى أمانه بأي شكل. قد تكون البرمجيات مفتوحة المصدر أكثر أمانا من البرمجيات الاحتكارية، لكن لا يوجد أي ضمان بأن يكون هذا هو الحال فعلا. عند تقييم أي برنامج، يجب النظر إلى سمعة كل أداة (tool) ومستوى أمانها بشكل منفصل.
       - 
         "@type": Question
-        name: Can shifting trust to another provider increase privacy?
+        name: هل يمكن أن يؤدي نقل الثقة إلى مزود آخر إلى تحسين الخصوصية؟
         acceptedAnswer:
           "@type": Answer
           text: |
-            We talk about "shifting trust" a lot when discussing solutions like VPNs (which shift the trust you place in your ISP to the VPN provider). While this protects your browsing data from your ISP specifically, the VPN provider you choose still has access to your browsing data: Your data isn't completely secured from all parties.
+            نتحدث كثيرا عن «نقل الثقة» عند مناقشة حلول مثل الـ VPN (حيث تنقل الثقة التي تضعها في مزود خدمة الإنترنت لديك إلى مزود VPN). While this protects your browsing data from your ISP specifically, the VPN provider you choose still has access to your browsing data: Your data isn't completely secured from all parties.
       - 
         "@type": Question
         name: Are privacy-focused solutions inherently trustworthy?
