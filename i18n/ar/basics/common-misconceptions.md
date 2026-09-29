@@ -20,78 +20,78 @@ schema:
         acceptedAnswer:
           "@type": Answer
           text: |
-            نتحدث كثيرا عن «نقل الثقة» عند مناقشة حلول مثل الـ VPN (حيث تنقل الثقة التي تضعها في مزود خدمة الإنترنت لديك إلى مزود VPN). While this protects your browsing data from your ISP specifically, the VPN provider you choose still has access to your browsing data: Your data isn't completely secured from all parties.
+            نتحدث كثيرا عن «نقل الثقة» عند مناقشة حلول مثل الـ VPN (حيث تنقل الثقة التي تضعها في مزود خدمة الإنترنت (ISP) لديك إلى مزود VPN). رغم أن هذا يحمي بيانات تصفحك من مزود خدمة الإنترنت (ISP) لديك تحديدا، فإن مزود الـ VPN الذي تختاره يظل قادرا على الوصول إلى بيانات تصفحك. أي أن بياناتك ليست محمية بالكامل من جميع الأطراف.
       - 
         "@type": Question
-        name: Are privacy-focused solutions inherently trustworthy?
+        name: هل الحلول التي تركز على الخصوصية جديرة بالثقة بطبيعتها؟
         acceptedAnswer:
           "@type": Answer
           text: |
-            Focusing solely on the privacy policies and marketing of a tool or provider can blind you to its weaknesses. When you're looking for a more private solution, you should determine what the underlying problem is and find technical solutions to that problem. For example, you may want to avoid Google Drive, which gives Google access to all of your data. The underlying problem in this case is lack of E2EE, so you should make sure that the provider you switch to actually implements E2EE, or use a tool (like Cryptomator) which provides E2EE on any cloud provider. Switching to a "privacy-focused" provider (that doesn't implement E2EE) doesn't solve your problem: it just shifts trust from Google to that provider.
+            قد يجعلك التركيز فقط على سياسات الخصوصية والتسويق الخاص بأداة أو مزود ما تتغاضى عن نقاط ضعفه. عندما تبحث عن حل يوفر خصوصية أفضل، عليك أولا تحديد المشكلة الأساسية ثم البحث عن حلول تقنية تعالج هذه المشكلة. على سبيل المثال، قد ترغب في تجنب Google Drive، لأنه يتيح لـ Google الوصول إلى جميع بياناتك. المشكلة الأساسية هنا هي عدم وجود الـ E2EE، لذلك يجب التأكد من أن المزود الذي ستنتقل إليه يطبق E2EE فعليا، أو استخدام أداة مثل Cryptomator توفر E2EE مع أي مزود تخزين سحابي (cloud provider). الانتقال إلى مزود «يركز على الخصوصية» (لكنه لا يطبق E2EE) لا يحل المشكلة؛ بل ينقل الثقة فقط من Google إلى ذلك المزود.
       - 
         "@type": Question
-        name: How complicated should my threat model be?
+        name: ما مدى تعقيد الـ Threat Model الخاص بي؟
         acceptedAnswer:
           "@type": Answer
           text: |
-            We often see people describing privacy threat models that are overly complex. Often, these solutions include problems like many different email accounts or complicated setups with lots of moving parts and conditions. The replies are usually answers to "What is the best way to do X?"
-            Finding the "best" solution for yourself doesn't necessarily mean you are after an infallible solution with dozens of conditions—these solutions are often difficult to work with realistically. As we discussed previously, security often comes at the cost of convenience.
+            غالبا ما نرى أشخاصا يضعون الـ Threat Models للخصوصية معقدة أكثر من اللازم. غالبًا ما تتضمن هذه الحلول أمورا مثل استخدام عدة حسابات بريد إلكتروني مختلفة، أو إعدادات معقدة تحتوي على الكثير من الأجزاء والشروط. غالبا ما تكون هذه الردود إجابات عن أسئلة مثل: «ما أفضل طريقة لفعل X؟»
+            العثور على الحل «الأفضل» لك لا يعني بالضرورة البحث عن حل لا يمكن أن يفشل ويعتمد على عشرات الشروط؛ فغالبا ما يكون من الصعب استخدام مثل هذه الحلول عمليا. كما ذكرنا سابقا، غالبا ما يأتي الأمان على حساب سهولة الاستخدام.
 ---
 
-## "Open-source software is always secure" or "Proprietary software is more secure"
+## «البرمجيات مفتوحة المصدر آمنة دائما» أو «البرمجيات الاحتكارية أكثر أمانًا»
 
-These myths stem from a number of prejudices, but whether the source code is available and how software is licensed does not inherently affect its security in any way. ==Open-source software has the *potential* to be more secure than proprietary software, but there is absolutely no guarantee this is the case.== When you evaluate software, you should look at the reputation and security of each tool on an individual basis.
+تنبع هذه المفاهيم الخاطئة من عدة تحيزات، لكن إتاحة الـ Source code وطريقة ترخيص البرنامج لا تؤثران بطبيعتهما في مستوى أمانه بأي شكل. ==تتمتع البرمجيات مفتوحة المصدر *بإمكانية* أن تكون أكثر أمانا من البرمجيات الاحتكارية، لكن لا يوجد أي ضمان بأن يكون هذا هو الحال.== عند تقييم أي برنامج، يجب النظر إلى سمعة كل أداة ومستوى أمانها بشكل منفصل.
 
-Open-source software *can* be audited by third-parties, and is often more transparent about potential vulnerabilities than proprietary counterparts. It also allows you to review the code and disable any suspicious functionality you find yourself. However, *unless you do so*, there is no guarantee that code has ever been evaluated, especially with smaller software projects. The open development process has also sometimes been exploited to introduce new vulnerabilities known as [:material-package-variant-closed-remove: Supply Chain Attacks](common-threats.md#attacks-against-certain-organizations ""){.pg-viridian}, which are discussed further in our [Common Threats](common-threats.md) page.[^1]
+يمكن *تدقيق* البرمجيات مفتوحة المصدر من قِبل جهات خارجية، وغالبا ما تكون أكثر شفافية بشأن الثغرات المحتملة مقارنةً بالبرمجيات الاحتكارية. كما تتيح لك مراجعة الـ Code وتعطيل أي وظائف مشبوهة تكتشفها بنفسك. لكن *ما لم تفعل ذلك بنفسك*، فلا يوجد ما يضمن أن الـ Code قد خضع للمراجعة أصلا، خصوصا في مشاريع البرمجيات الصغيرة. كما تم أحيانا استغلال عملية التطوير المفتوحة (open development process) لإدخال ثغرات جديدة تُعرف باسم [:material-package-variant-closed-remove: هجمات سلسلة التوريد (Supply Chain Attacks)](common-threats.md#attacks-against-certain-organizations ""){.pg-viridian}، والتي نناقشها بمزيد من التفصيل في صفحة [التهديدات الشائعة](common-threats.md).[^1]
 
-On the flip side, proprietary software is less transparent, but that doesn't imply that it's not secure. Major proprietary software projects can be audited internally and by third-party agencies, and independent security researchers can still find vulnerabilities with techniques like reverse engineering.
+من ناحية أخرى، البرمجيات الاحتكارية أقل شفافية، لكن هذا لا يعني أنها غير آمنة. يمكن تدقيق مشاريع البرمجيات الاحتكارية الكبيرة داخليا ومن قِبل جهات خارجية، كما يمكن للباحثين الأمنيين المستقلين العثور على الثغرات باستخدام تقنيات مثل الهندسة العكسية (reverse engineering).
 
-To avoid biased decisions, it's *vital* that you evaluate the privacy and security standards of the software you use.
+من *الضروري* تقييم معايير الخصوصية والأمان في البرامج التي تستخدمها لتجنب القرارات المتحيزة.
 
-## "Shifting trust can increase privacy"
+## «نقل الثقة يمكن أن يحسن الخصوصية»
 
-We talk about "shifting trust" a lot when discussing solutions like VPNs (which shift the trust you place in your ISP to the VPN provider). While this protects your browsing data from your ISP *specifically*, the VPN provider you choose still has access to your browsing data: Your data isn't completely secured from all parties. This means that:
+نتحدث كثيرا عن «نقل الثقة» عند مناقشة حلول مثل الـ VPN (حيث تنقل الثقة التي تضعها في مزود خدمة الإنترنت (ISP) لديك إلى مزود VPN). رغم أن هذا يحمي بيانات تصفحك من مزود خدمة الإنترنت (ISP) لديك *تحديدا*، فإن مزود الـ VPN الذي تختاره يظل قادرا على الوصول إلى بيانات تصفحك. أي أن بياناتك ليست محمية بالكامل من جميع الأطراف. وهذا يعني أن:
 
-1. You must exercise caution when choosing a provider to shift trust to.
-2. You should still use other techniques, like E2EE, to protect your data completely. Merely distrusting one provider to trust another is not securing your data.
+1. يجب توخي الحذر عند اختيار مزود تنقل إليه ثقتك.
+2. لا يزال عليك استخدام تقنيات أخرى، مثل E2EE، لحماية بياناتك بشكل كامل. مجرد عدم الثقة بمزود ما ونقل هذه الثقة إلى مزود آخر لا يعني أن بياناتك أصبحت آمنة.
 
-## "Privacy-focused solutions are inherently trustworthy"
+## «الحلول التي تركز على الخصوصية جديرة بالثقة بطبيعتها»
 
-Focusing solely on the privacy policies and marketing of a tool or provider can blind you to its weaknesses. When you're looking for a more private solution, you should determine what the underlying problem is and find technical solutions to that problem. For example, you may want to avoid Google Drive, which gives Google access to all of your data. The underlying problem in this case is lack of E2EE, so you should make sure that the provider you switch to actually implements E2EE, or use a tool (like [Cryptomator](../encryption.md#cryptomator-cloud)) which provides E2EE on any cloud provider. Switching to a "privacy-focused" provider (that doesn't implement E2EE) doesn't solve your problem: it just shifts trust from Google to that provider.
+قد يجعلك التركيز فقط على سياسات الخصوصية والتسويق الخاص بأداة أو مزود ما تتغاضى عن نقاط ضعفه. عندما تبحث عن حل يوفر خصوصية أفضل، عليك أولا تحديد المشكلة الأساسية ثم البحث عن حلول تقنية تعالج هذه المشكلة. على سبيل المثال، قد ترغب في تجنب Google Drive، لأنه يتيح لـ Google الوصول إلى جميع بياناتك. المشكلة الأساسية هنا هي عدم وجود الـ E2EE، لذلك يجب التأكد من أن المزود الذي ستنتقل إليه يطبق E2EE فعليا، أو استخدام أداة مثل [Cryptomator](../encryption.md#cryptomator-cloud) توفر E2EE مع أي مزود تخزين سحابي (cloud provider). الانتقال إلى مزود «يركز على الخصوصية» (لكنه لا يطبق E2EE) لا يحل المشكلة؛ بل ينقل الثقة فقط من Google إلى ذلك المزود.
 
-The privacy policies and business practices of providers you choose are very important, but should be considered secondary to technical guarantees of your privacy: You shouldn't shift trust to another provider when trusting a provider isn't a requirement at all.
+سياسات الخصوصية وممارسات العمل لدى المزودين (providers) الذين تختارهم مهمة جدا، لكنها تأتي في المرتبة الثانية بعد الضمانات التقنية لخصوصيتك: فلا ينبغي أن تنقل ثقتك إلى مزود آخر عندما لا تكون هناك حاجة أصلا إلى الوثوق بأي مزود.
 
-## "Complicated is better"
+## «الأكثر تعقيدًا هو الأفضل»
 
-We often see people describing privacy threat models that are overly complex. Often, these solutions include problems like multiple email accounts or complicated setups with lots of moving parts and conditions. The replies are usually answers to "What is the best way to do *X*?"
+غالبا ما نرى أشخاصا يضعون الـ Threat Models للخصوصية معقدة أكثر من اللازم. غالبا ما تتضمن هذه الحلول أمورا مثل استخدام عدة حسابات بريد إلكتروني، أو إعدادات معقدة تحتوي على الكثير من الأجزاء والشروط. غالبا ما تكون هذه الردود إجابات عن أسئلة مثل: «ما أفضل طريقة لفعل *X*؟»
 
-Finding the "best" solution for yourself doesn't necessarily mean you are after an infallible solution with dozens of conditions—these solutions are often difficult to work with realistically. As we discussed previously, security often comes at the cost of convenience. Below, we provide some tips:
+العثور على الحل «الأفضل» لك لا يعني بالضرورة البحث عن حل لا يمكن أن يفشل ويعتمد على عشرات الشروط؛ فغالبا ما يكون من الصعب استخدام مثل هذه الحلول عمليا. كما ذكرنا سابقا، غالبا ما يأتي الأمان على حساب سهولة الاستخدام. فيما يلي بعض النصائح:
 
-1. ==Actions need to serve a particular purpose:== think about how to do what you want with the fewest actions.
-2. ==Remove human failure points:== We fail, get tired, and forget things. To maintain security, avoid relying on manual conditions and processes that you have to remember.
-3. ==Use the right level of protection for what you intend.== We often see recommendations of so-called law-enforcement or subpoena-proof solutions. These often require specialist knowledge and generally aren't what people want. There's no point in building an intricate threat model for anonymity if you can be easily deanonymized by a simple oversight.
+1. ==يجب أن يكون لكل إجراء هدف محدد:== فكر في كيفية تحقيق ما تريده بأقل عدد ممكن من الخطوات.
+2. ==قلل نقاط الخطأ البشري:== نحن نخطئ، ونتعب، وننسى. للحفاظ على الأمان، تجنب الاعتماد على شروط وإجراءات يدوية يجب عليك تذكرها.
+3. ==استخدم مستوى الحماية المناسب لما تريد تحقيقه.== كثيرا ما نرى توصيات بحلول يُزعم أنها محصنة ضد جهات إنفاذ القانون أو أوامر الاستدعاء القضائية. غالبا ما تتطلب هذه الحلول معرفة متخصصة، وعادة لا تكون ما يبحث عنه معظم الناس. لا فائدة من بناء Threat Model معقد للحفاظ على المجهولية إذا كان من السهل كشف هويتك بسبب خطأ بسيط.
 
-So, how might this look?
+إذا، كيف يمكن تطبيق ذلك عمليا؟
 
-One of the clearest threat models is one where people *know who you are* and one where they do not. There will always be situations where you must declare your legal name and there are others where you don't need to.
+أحد أوضح الـ Threat Models هو التمييز بين الحالات التي *يعرف فيها الآخرون هويتك* والحالات التي لا يعرفونها فيها. ستكون هناك دائما مواقف يتعين عليك فيها ذكر اسمك القانوني، ومواقف أخرى لا تحتاج فيها إلى ذلك.
 
-1. **Known identity** - A known identity is used for things where you must declare your name. There are many legal documents and contracts where a legal identity is required. This could range from opening a bank account, signing a property lease, obtaining a passport, customs declarations when importing items, or otherwise dealing with your government. These things will usually lead to credentials such as credit cards, credit rating checks, account numbers, and possibly physical addresses.
+1. **هوية معروفة** - تُستخدم الهوية المعروفة في الحالات التي يتعين عليك فيها ذكر اسمك. هناك العديد من المستندات والعقود القانونية التي تتطلب استخدام هوية قانونية. قد يشمل ذلك فتح حساب مصرفي، أو توقيع عقد إيجار عقار، أو الحصول على جواز سفر، أو تقديم إقرارات جمركية عند استيراد سلع، أو التعامل مع الجهات الحكومية بأي شكل آخر. عادة ما تؤدي هذه الأمور إلى بيانات تعريف مثل بطاقات الائتمان، وعمليات التحقق من التصنيف الائتماني، وأرقام الحسابات، وربما العناوين الفعلية.
 
-    We don't suggest using a VPN or Tor for any of these things, as your identity is already known through other means.
+    لا ننصح باستخدام الـ VPN أو Tor في أي من هذه الحالات، لأن هويتك تكون معروفة بالفعل بوسائل أخرى.
 
     <div class="admonition tip" markdown>
-    <p class="admonition-title">Tip</p>
+    <p class="admonition-title">نصيحة</p>
 
-    When shopping online, the use of a [parcel locker](https://en.wikipedia.org/wiki/Parcel_locker) can help keep your physical address private.
+    عند التسوق عبر الإنترنت، يمكن أن يساعد استخدام [المطراد (parcel locker)](https://en.wikipedia.org/wiki/Parcel_locker) في الحفاظ على خصوصية عنوانك الفعلي.
 
     </div>
 
-2. **Unknown identity** - An unknown identity could be a stable pseudonym that you regularly use. It is not anonymous because it doesn't change. If you're part of an online community, you may wish to retain a persona that others know. This pseudonym isn't anonymous because—if monitored for long enough—details about the owner can reveal further information, such as the way they write, their general knowledge about topics of interest, etc.
+2. **هوية غير معروفة** - يمكن أن تكون الهوية غير المعروفة اسما مستعارا ثابتا تستخدمه بانتظام. هي ليست مجهولة الهوية لأنها لا تتغير. إذا كنت جزءا من مجتمع على الإنترنت، فقد ترغب في الاحتفاظ بشخصية يعرفك بها الآخرون. هذا الاسم المستعار لا يوفر إخفاء كاملا للهوية، لأنه إذا جرت مراقبته لفترة كافية فقد تكشف تفاصيل عن صاحبه معلومات إضافية، مثل أسلوب كتابته، ومعرفته العامة بالموضوعات التي يهتم بها، وغير ذلك.
 
-    You may wish to use a VPN for this, to mask your IP address. Financial transactions are more difficult to mask: You could consider using anonymous cryptocurrencies, such as [Monero](../cryptocurrency.md#monero). Employing altcoin shifting may also help to disguise where your currency originated. Typically, exchanges require KYC (know your customer) to be completed before they'll allow you to exchange fiat currency into any kind of cryptocurrency. Local meet-up options may also be a solution; however, those are often more expensive and sometimes also require KYC.
+    قد ترغب في استخدام الـ VPN لهذا الغرض لإخفاء عنوان IP الخاص بك. يصعب إخفاء المعاملات المالية: يمكنك التفكير في استخدام عملات مشفرة توفر إخفاء الهوية، مثل [Monero](../cryptocurrency.md#monero). قد يساعد استخدام altcoin shifting أيضا في إخفاء مصدر عملتك. عادةً ما تطلب منصات التداول إكمال إجراءات الـ KYC (اعرف عميلك) قبل السماح لك بتحويل العملات التقليدية (fiat currency) إلى أي نوع من العملات المشفرة. يمكنك أحيانا شراء العملات المشفرة مباشرةً من شخص آخر في لقاء بينك وبينه محلياً، بدلا من استخدام منصة تداول على الإنترنت. لكن هذه الطريقة غالبا تكون أغلى، وقد يطلب الطرف أو الخدمة التي تنظم اللقاء أيضا التحقق من هويتك عبر KYC.
 
-3. **Anonymous identity** - Even with experience, anonymous identities are difficult to maintain over long periods of time. They should be short-term and short-lived identities which are rotated regularly.
+3. **هوية مجهولة** - حتى مع الخبرة، يصعب الحفاظ على هوية مجهولة لفترات طويلة. ينبغي أن تكون هويات مؤقتة وقصيرة الأمد، ويتم تغييرها بانتظام.
 
-    Using Tor can help with this. It is also worth noting that greater anonymity is possible through asynchronous communication: Real-time communication is vulnerable to analysis of typing patterns (i.e. more than a paragraph of text, distributed on a forum, via email, etc.)
+    يمكن أن يساعد استخدام Tor في ذلك. ومن الجدير بالذكر أيضا أنه يمكن تحقيق مستوى أكبر من إخفاء الهوية باستخدام التواصل غير المتزامن (asynchronous communication): فالتواصل في الوقت الفعلي قد يكون عرضة لتحليل أنماط الكتابة (مثل تحليل أكثر من فقرة من النصوص المنشورة في منتدى، أو المرسلة عبر البريد الإلكتروني، وما إلى ذلك)
 
-[^1]: A notable supply chain attack occurred in March 2024, when a malicious maintainer added an obfuscated backdoor into `xz`, a popular compression library. The backdoor ([CVE-2024-3094](https://cve.org/CVERecord?id=CVE-2024-3094)) was intended to give an unknown party remote access to most Linux servers via SSH, but it was discovered before it had been widely deployed.
+[^1]: وقع هجوم بارز على سلسلة التوريد في مارس 2024، عندما أضاف أحد المشرفين الخبيثين بابا خلفيا (backdoor) مُموّهًا إلى `xz`، وهي مكتبة ضغط شائعة. كان الهدف من الباب الخلفي (backdoor) ([CVE-2024-3094](https://cve.org/CVERecord?id=CVE-2024-3094)) منح جهة مجهولة إمكانية الوصول عن بُعد إلى معظم خوادم Linux عبر SSH، لكنه اكتُشف قبل أن ينتشر على نطاق واسع. [↩](#fnref:1){.footnote-backref}
