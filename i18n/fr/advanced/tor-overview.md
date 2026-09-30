@@ -92,7 +92,10 @@ Il est essentiel de comprendre la différence entre contourner la censure et éc
 
 ### Le Navigateur Tor n'est pas le navigateur le plus *sûr*
 
-L'anonymat peut souvent aller à l'encontre de la sécurité. Tor garantit l'anonymat en veillant à ce que tous les utilisateurs se présentent de manière identique, créant ainsi une « monoculture numérique » où les mêmes vulnérabilités existent dans toutes les installations. En matière de cybersécurité, les monocultures sont généralement considérées comme un risque. La sécurité par la diversité assure une segmentation naturelle en limitant l'impact d'une faille à un groupe restreint d'utilisateurs. Si une telle diversité est souhaitable d'un point de vue structurel pour la sécurité, elle compromet toutefois intrinsèquement l'anonymat des utilisateurs en rendant ces derniers identifiables.
+L'anonymat peut souvent aller à l'encontre de la sécurité. Tor achieves anonymity by ensuring more users appear [similar](https://support.torproject.org/tor-browser/features/fingerprinting-protections/#:~:text=Tor%20Browser%20is,individual%20users%20effectively.):
+> Tor Browser is specifically engineered to minimize the uniqueness of each user's fingerprint across various metrics. While it is practically impossible to make all Tor Browser users identical, the goal is to reduce the number of distinguishable "buckets" for each metric. This approach makes it harder to track individual users effectively.
+
+ While this is effective at preserving anonymity, it also creates a digital monoculture where the same vulnerabilities exist across many installations. En matière de cybersécurité, les monocultures sont généralement considérées comme un risque. La sécurité par la diversité assure une segmentation naturelle en limitant l'impact d'une faille à un groupe restreint d'utilisateurs. Si une telle diversité est souhaitable d'un point de vue structurel pour la sécurité, elle compromet toutefois intrinsèquement l'anonymat des utilisateurs en rendant ces derniers identifiables.
 
 En outre, le Navigateur Tor est basé sur les versions Extended Support Release de Firefox, qui ne reçoivent des correctifs que pour les vulnérabilités considérées comme *Critique* et *Élevée* (et non pour celles *Moyenne* et *Faible*). Cela signifie que les attaquants pourraient (par exemple) :
 

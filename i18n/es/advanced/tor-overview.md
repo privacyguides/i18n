@@ -92,7 +92,10 @@ Es fundamental comprender la diferencia entre eludir la censura y eludir la dete
 
 ### Tor Browser no es el navegador más *seguro*
 
-El anonimato puede entrar en conflicto con la seguridad. Tor logra el anonimato garantizando que todos los usuarios parezcan idénticos, creando un monocultivo digital donde las mismas vulnerabilidades existen en todas las instalaciones. En ciberseguridad, los monocultivos suelen ser considerados un riesgo. La seguridad mediante la diversidad proporciona una segmentación natural, ya que limita el impacto de un ataque a un segmento más reducido de usuarios. Si bien esa diversidad es estructuralmente deseable para la seguridad, compromete el anonimato de los usuarios al hacer a los individuos rastreables.
+El anonimato puede entrar en conflicto con la seguridad. Tor achieves anonymity by ensuring more users appear [similar](https://support.torproject.org/tor-browser/features/fingerprinting-protections/#:~:text=Tor%20Browser%20is,individual%20users%20effectively.):
+> Tor Browser is specifically engineered to minimize the uniqueness of each user's fingerprint across various metrics. While it is practically impossible to make all Tor Browser users identical, the goal is to reduce the number of distinguishable "buckets" for each metric. This approach makes it harder to track individual users effectively.
+
+ While this is effective at preserving anonymity, it also creates a digital monoculture where the same vulnerabilities exist across many installations. En ciberseguridad, los monocultivos suelen ser considerados un riesgo. La seguridad mediante la diversidad proporciona una segmentación natural, ya que limita el impacto de un ataque a un segmento más reducido de usuarios. Si bien esa diversidad es estructuralmente deseable para la seguridad, compromete el anonimato de los usuarios al hacer a los individuos rastreables.
 
 Adicionalmente, Tor Browser está basado en la versión de Soporte Extendido de Firefox, que solo recibe parches para vulnerabilidades consideradas *Críticas* y *Altas* (no *Medias* y *Bajas*). Esto significa que los atacantes podrían (por ejemplo):
 

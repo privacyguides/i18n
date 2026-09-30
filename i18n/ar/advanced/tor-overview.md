@@ -92,7 +92,10 @@ description: Tor هي شبكة مجانية ولا مركزية، صُممت ل�
 
 ### متصفح Tor ليس المتصفح الأكثر *أمانًا*
 
-قد تتعارض إخفاء الهوية أحيانا مع الأمان. يحقق Tor إخفاء الهوية بجعل جميع المستخدمين يبدون متشابهين، مما يخلق بيئة رقمية موحّدة تتشارك فيها جميع النسخ نفس نقاط الضعف. في الأمن السيبراني، تُعدّ البيئات الموحّدة عمومًا مصدرًا للمخاطر. الأمان من خلال التنوع يوفر عزلا طبيعيا، لأنه يحد من تأثير أي ثغرة بحيث يقتصر على شريحة أصغر من المستخدمين. ورغم أن هذا التنوع مفيد للأمان من ناحية البنية، فإنه يضعف إخفاء هوية المستخدمين بطبيعته، لأنه يجعل تتبّع كل مستخدم أسهل.
+قد تتعارض إخفاء الهوية أحيانا مع الأمان. Tor achieves anonymity by ensuring more users appear [similar](https://support.torproject.org/tor-browser/features/fingerprinting-protections/#:~:text=Tor%20Browser%20is,individual%20users%20effectively.):
+> Tor Browser is specifically engineered to minimize the uniqueness of each user's fingerprint across various metrics. While it is practically impossible to make all Tor Browser users identical, the goal is to reduce the number of distinguishable "buckets" for each metric. This approach makes it harder to track individual users effectively.
+
+ While this is effective at preserving anonymity, it also creates a digital monoculture where the same vulnerabilities exist across many installations. في الأمن السيبراني، تُعدّ البيئات الموحّدة عمومًا مصدرًا للمخاطر. الأمان من خلال التنوع يوفر عزلا طبيعيا، لأنه يحد من تأثير أي ثغرة بحيث يقتصر على شريحة أصغر من المستخدمين. ورغم أن هذا التنوع مفيد للأمان من ناحية البنية، فإنه يضعف إخفاء هوية المستخدمين بطبيعته، لأنه يجعل تتبّع كل مستخدم أسهل.
 
 بالإضافة إلى ذلك، يعتمد متصفح Tor على إصدارات Firefox Extended Support Release، والتي لا تتلقى تحديثات أمنية إلا للثغرات المصنفة على أنها *Critical* و*High*، وليس *Medium* و*Low*. هذا يعني أن المهاجمين يمكنهم، على سبيل المثال:
 

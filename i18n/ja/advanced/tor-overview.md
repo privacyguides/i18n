@@ -92,7 +92,10 @@ It is critical to understand the difference between bypassing censorship and eva
 
 ### Tor Browser is not the most *secure* browser
 
-Anonymity can often be at odds with security. Tor achieves anonymity by ensuring every user appears identical, creating a digital monoculture where the same vulnerabilities exist across all installations. In cybersecurity, monocultures are generally considered a risk. Security through diversity provides natural segmentation by limiting the impact of an exploit to a smaller segment of users. While such diversity is structurally desirable for security, it inherently compromises user anonymity by making individuals trackable.
+Anonymity can often be at odds with security. Tor achieves anonymity by ensuring more users appear [similar](https://support.torproject.org/tor-browser/features/fingerprinting-protections/#:~:text=Tor%20Browser%20is,individual%20users%20effectively.):
+> Tor Browser is specifically engineered to minimize the uniqueness of each user's fingerprint across various metrics. While it is practically impossible to make all Tor Browser users identical, the goal is to reduce the number of distinguishable "buckets" for each metric. This approach makes it harder to track individual users effectively.
+
+ While this is effective at preserving anonymity, it also creates a digital monoculture where the same vulnerabilities exist across many installations. In cybersecurity, monocultures are generally considered a risk. Security through diversity provides natural segmentation by limiting the impact of an exploit to a smaller segment of users. While such diversity is structurally desirable for security, it inherently compromises user anonymity by making individuals trackable.
 
 Additionally, Tor Browser is based on Firefox's Extended Support Release builds, which only receives patches for vulnerabilities considered *Critical* and *High* (not *Medium* and *Low*). This means that attackers could (for example):
 
@@ -117,7 +120,7 @@ Those at risk of browser vulnerabilities should consider additional protections 
 
 ### 入力ノード
 
-入力ノードはしばしばガードノードと呼ばれ、Torのクライアントが最初に接続するノードです。 入力ノードはあなたのIPアドレスを見ることができますが、あなたが何に接続しているかを見ることはできません。
+入力ノードはしばしばガードノードと呼ばれ、Torのクライアントが最初に接続するノードです。入力ノードはあなたのIPアドレスを見ることができますが、あなたが何に接続しているかを見ることはできません。
 
 他のノードとは異なり、Torクライアントはランダムに入力ノードを選択した後、特定の攻撃からあなたを守るため、2～3ヶ月間そのノードを使用します。[^1]
 
@@ -151,7 +154,7 @@ Tor encrypts each packet (a block of transmitted data) three times with the keys
 
 Torが回路を構築すると、データの伝送は以下のように行われます。
 
-1. Firstly: When the packet arrives at the entry node, the first layer of encryption is removed. この暗号化されたパケットの中から、入力ノードは中間ノードのアドレスを持つ、別の暗号化されたパケットを見つけます。 入力ノードはその後、パケットを中間ノードに転送します。
+1. Firstly: When the packet arrives at the entry node, the first layer of encryption is removed. この暗号化されたパケットの中から、入力ノードは中間ノードのアドレスを持つ、別の暗号化されたパケットを見つけます。入力ノードはその後、パケットを中間ノードに転送します。
 
 2. Secondly: When the middle node receives the packet from the entry node, it too will remove a layer of encryption with its key, and this time finds an encrypted packet with the exit node's address. 中間ノードはその後、パケットを出口ノードに転送します。
 
@@ -165,7 +168,7 @@ Torが回路を構築すると、データの伝送は以下のように行わ�
   <figcaption>Sending and receiving data through the Tor Network</figcaption>
 </figure>
 
-Torを使えば、誰にも全経路を知られることなくサーバーに接続することができます。 入口ノードは、あなたが誰であるかは知っているが、どこへ行こうとしているかは知りません。中間ノードには、あなたが誰であるかも、どこへ行こうとしているかも知ることができません。出口ノードは、あなたがどこへ行こうとしているかは知っていますが、誰であるかは知りません。 最終的な接続を行うのは出口ノードであるため、接続先のサーバーが、あなたのIPアドレスを知ることは決してありません。
+Torを使えば、誰にも全経路を知られることなくサーバーに接続することができます。入口ノードは、あなたが誰であるかは知っているが、どこへ行こうとしているかは知りません。中間ノードには、あなたが誰であるかも、どこへ行こうとしているかも知ることができません。出口ノードは、あなたがどこへ行こうとしているかは知っていますが、誰であるかは知りません。最終的な接続を行うのは出口ノードであるため、接続先のサーバーが、あなたのIPアドレスを知ることは決してありません。
 
 ## 注意事項
 
