@@ -122,6 +122,6 @@ Repozytoria [F-Droid](https://f-droid.org/pl/packages) i [IzzyOnDroid](https://a
 <div class="admonition note" markdown>
 <p class="admonition-title">F-Droid Basic</p>
 
-W rzadkich przypadkach zdarza się, że twórca dystrybuuje aplikację wyłącznie za pośrednictwem F-Droid (przykładem jest aplikacja [Gadgetbridge](../health-and-wellness.md#gadgetbridge)). Jeśli naprawdę potrzebujesz takiej aplikacji, zalecamy skorzystanie z nowszego klienta [F-Droid Basic](https://f-droid.org/en/packages/org.fdroid.basic) zamiast oryginalnej aplikacji F-Droid. F-Droid Basic obsługuje automatyczne aktualizacje w tle bez potrzeby rozszerzeń z uprawnieniami uprzywilejowanymi czy roota i ma ograniczony zestaw funkcji (co zmniejsza powierzchnię ataku).
+In some rare cases, an app may only be available through F-Droid. If you really need an app like that, we recommend using the newer [F-Droid Basic](https://f-droid.org/en/packages/org.fdroid.basic) client instead of the original F-Droid app to obtain it, as it has a reduced feature set (limiting attack surface).
 
 </div>

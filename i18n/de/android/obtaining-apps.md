@@ -122,6 +122,6 @@ Die [F-Droid](https://f-droid.org/en/packages) und [IzzyOnDroid](https://apt.izz
 <div class="admonition note" markdown>
 <p class="admonition-title">F-Droid Basic</p>
 
-In seltenen Fällen werden App-Entwickler ihre Apps nur über F-Droid verteilen ([GadgetBridge](../health-and-wellness.md#gadgetbridge) ist ein Beispiel davon). Wenn du wirklich eine solche App brauchst, empfehlen wir den neueren [F-Droid Basic](https://f-droid.org/en/packages/org.fdroid.basic) Client anstelle der ursprünglichen F-Droid App zu verwenden. F-Droid Basic unterstützt automatische Hintergrundaktualisierungen ohne privilegierte Zugriffsrechte oder Root und hat einen reduzierten Funktionsumfang (Begrenzung der Angriffsfläche).
+In some rare cases, an app may only be available through F-Droid. If you really need an app like that, we recommend using the newer [F-Droid Basic](https://f-droid.org/en/packages/org.fdroid.basic) client instead of the original F-Droid app to obtain it, as it has a reduced feature set (limiting attack surface).
 
 </div>

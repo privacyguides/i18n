@@ -122,6 +122,6 @@ description: نوصي بهذه الطرق للحصول على التطبيقات
 <div class="admonition note" markdown>
 <p class="admonition-title">F-Droid Basic</p>
 
-في بعض الحالات النادرة، يوزّع مطور التطبيق تطبيقه عبر F-Droid فقط، ويُعد Gadgetbridge مثالًا على ذلك. إذا كنت تحتاج فعلا إلى تطبيق كهذا، فننصح باستخدام [F-Droid Basic](https://f-droid.org/en/packages/org.fdroid.basic) الأحدث بدلًا من تطبيق F-Droid الأصلي للحصول عليه. يدعم F-Droid Basic التحديثات التلقائية في الخلفية بدون الحاجة إلى privileged extension أو root، كما أنه يحتوي على ميزات أقل، وهذا يساعد على تقليل الـ attack surface.
+In some rare cases, an app may only be available through F-Droid. If you really need an app like that, we recommend using the newer [F-Droid Basic](https://f-droid.org/en/packages/org.fdroid.basic) client instead of the original F-Droid app to obtain it, as it has a reduced feature set (limiting attack surface).
 
 </div>
