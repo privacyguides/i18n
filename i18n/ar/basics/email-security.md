@@ -21,7 +21,7 @@ description: البريد الإلكتروني غير آمن من نواحٍ ع�
 
 يتيح معيار [Web Key Directory (WKD)](https://wiki.gnupg.org/WKD) لتطبيقات البريد الإلكتروني العثور على مفتاح الـ OpenPGP الخاص بعناوين بريد إلكتروني أخرى، حتى إذا كانت مستضافة لدى مزود مختلف. ستطلب تطبيقات البريد الإلكتروني التي تدعم الـ WKD من خادم المستلم مفتاحا استنادًا إلى اسم النطاق الخاص بعنوان البريد الإلكتروني. على سبيل المثال، إذا أرسلت رسالة إلى `jonah@privacyguides.org`، فسيطلب تطبيق البريد الإلكتروني الذي تستخدمه من `privacyguides.org` مفتاح الـ OpenPGP الخاص بـ Jonah، وإذا كان لدى `privacyguides.org` مفتاح لهذا الحساب، فسيتم تشفير رسالتك تلقائيا.
 
-In addition to the [email clients we recommend](../email-clients.md) which support WKD, some webmail providers also support WKD. يعتمد نشر مفتاحك *الخاص* في WKD ليستخدمه الآخرون على إعدادات النطاق لديك. إذا كنت تستخدم [مزود بريد إلكتروني](../email.md#openpgp-compatible-services) يدعم WKD، مثل Proton Mail أو Mailbox Mail، فيمكنه نشر مفتاح الـ OpenPGP الخاص بك على نطاقه نيابةً عنك.
+بالإضافة إلى [تطبيقات البريد الإلكتروني التي نوصي بها](../email-clients.md) والتي تدعم WKD، يدعم بعض مزوّدي البريد الإلكتروني عبر الويب WKD أيضًا. يعتمد نشر مفتاحك *الخاص* في WKD ليستخدمه الآخرون على إعدادات النطاق لديك. إذا كنت تستخدم [مزود بريد إلكتروني](../email.md#openpgp-compatible-services) يدعم WKD، مثل Proton Mail أو Mailbox Mail، فيمكنه نشر مفتاح الـ OpenPGP الخاص بك على نطاقه نيابةً عنك.
 
 إذا كنت تستخدم نطاقك الخاص، فستحتاج إلى إعداد WKD بشكل منفصل. إذا كنت تتحكم في اسم نطاقك، فيمكنك إعداد WKD بغض النظر عن مزود البريد الإلكتروني الذي تستخدمه. إحدى الطرق السهلة للقيام بذلك هي استخدام ميزة الـ "[WKD as a Service](https://keys.openpgp.org/about/usage#wkd-as-a-service)" من خادم `keys.openpgp.org`: أضف سجل CNAME إلى النطاق الفرعي `openpgpkey` في نطاقك، واجعله يشير إلى `wkd.keys.openpgp.org`، ثم ارفع مفتاحك إلى [keys.openpgp.org](https://keys.openpgp.org). بدلا من ذلك، يمكنك [استضافة WKD بنفسك على خادم الويب الخاص بك](https://wiki.gnupg.org/WKDHosting).
 
@@ -33,20 +33,20 @@ In addition to the [email clients we recommend](../email-clients.md) which suppo
 
 ### كيف أحمي مفاتيحي الخاصة؟
 
-A smart card (such as a [YubiKey](https://support.yubico.com/hc/articles/360013790259-Using-Your-YubiKey-with-OpenPGP) or [Nitrokey](../security-keys.md#nitrokey)) works by receiving an encrypted email message from a device (phone, tablet, computer, etc.) running an email/webmail client. The message is then decrypted by the smart card and the decrypted content is sent back to the device.
+تعمل البطاقة الذكية (مثل [YubiKey](https://support.yubico.com/hc/articles/360013790259-Using-Your-YubiKey-with-OpenPGP) أو [Nitrokey](../security-keys.md#nitrokey)) عن طريق تلقي رسالة بريد إلكتروني مشفرة من جهاز (هاتف، جهاز لوحي، كمبيوتر، إلخ) يشغل تطبيق بريد إلكتروني أو بريدا عبر الويب. ثم تقوم البطاقة الذكية بفك تشفير الرسالة وإرسال المحتوى بعد فك تشفيره إلى الجهاز.
 
-It is advantageous for the decryption to occur on the smart card to avoid possibly exposing your private key to a compromised device.
+من الأفضل أن يتم فك التشفير على البطاقة الذكية لتجنب احتمال كشف مفتاحك الخاص لجهاز مخترق.
 
-## Email Metadata Overview
+## نظرة عامة على الـ Metadata الخاصة بالبريد الإلكتروني
 
-Email metadata is stored in the [message header](https://en.wikipedia.org/wiki/Email#Message_header) of the email message and includes some visible headers that you may have seen such as `To`, `From`, `Cc`, `Date`, and `Subject`. There are also a number of hidden headers included by many email clients and providers that can reveal information about your account.
+يتم تخزين الـ Metadata للبريد الإلكتروني في الـ[message header](https://en.wikipedia.org/wiki/Email#Message_header)، وتشمل بعض الـ headers الظاهرة التي ربما رأيتها من قبل مثل `To` و`From` و`Cc` و`Date` و`Subject`. هناك أيضا عدد من الـ headers المخفية التي تضيفها العديد من تطبيقات ومزودي البريد الإلكتروني، وقد تكشف معلومات عن حسابك.
 
-Client software may use email metadata to show who a message is from and what time it was received. Servers may use it to determine where an email message must be sent, among [other purposes](https://en.wikipedia.org/wiki/Email#Message_header) which are not always transparent.
+قد تستخدم تطبيقات البريد الإلكتروني الـ Metadata لإظهار من الشخص الذي أرسل الرسالة ووقت استلامها. قد تستخدم الخوادم هذه المعلومات لتحديد المكان الذي يجب إرسال رسالة البريد الإلكتروني إليه، إلى جانب [أغراض أخرى](https://en.wikipedia.org/wiki/Email#Message_header) لا تكون واضحة دائما.
 
-### Who Can View Email Metadata?
+### من يمكنه رؤية الـ Metadata للبريد الإلكتروني؟
 
-Email metadata is protected from outside observers with [opportunistic TLS](https://en.wikipedia.org/wiki/Opportunistic_TLS), but it is still able to be seen by your email client software (or webmail) and any servers relaying the message from you to any recipients including your email provider. Sometimes email servers will also use third-party services to protect against spam, which generally also have access to your messages.
+تكون الـ Metadata للبريد الإلكتروني محمية من المراقبين الخارجيين باستخدام [opportunistic TLS](https://en.wikipedia.org/wiki/Opportunistic_TLS)، لكن يظل بإمكان تطبيق البريد الإلكتروني الذي تستخدمه (أو البريد عبر الويب) وأي خوادم تنقل الرسالة منك إلى المستلمين، بما في ذلك مزوّد البريد الإلكتروني، رؤيتها. أحيانا تستخدم خوادم البريد الإلكتروني خدمات خارجية للحماية من الرسائل المزعجة، وعادة ما تكون لهذه الخدمات أيضا إمكانية الوصول إلى رسائلك.
 
-### Why Can't Metadata be E2EE?
+### لماذا لا يمكن تشفير الـ Metadata باستخدام End-to-End Encryption؟
 
-Email metadata is crucial to the most basic functionality of email (where it came from, and where it has to go). E2EE was not built into standard email protocols originally, instead requiring add-on software like OpenPGP. Because OpenPGP messages still have to work with traditional email providers, it cannot encrypt some of this email metadata required for identifying the parties communicating. That means that even when using OpenPGP, outside observers can see lots of information about your messages, such as whom you're emailing, when you're emailing, etc.
+تُعد الـ Metadata للبريد الإلكتروني ضرورية لعمل البريد الإلكتروني بشكل أساسي، مثل معرفة مصدر الرسالة وإلى أين يجب إرسالها. لم يتم تضمين الـEnd-to-End Encryption في بروتوكولات البريد الإلكتروني القياسية (standard protocols) من البداية، بل يتطلب استخدام أدوات إضافية مثل OpenPGP. لأن رسائل الـ OpenPGP يجب أن تظل متوافقة مع مزودي البريد الإلكتروني التقليديين، فلا يمكنها تشفير بعض الـ Metadata البريد الإلكتروني اللازمة لتحديد الأطراف التي تتواصل مع بعضها. هذا يعني أنه حتى عند استخدام الـ OpenPGP، يمكن للمراقبين الخارجيين رؤية الكثير من المعلومات عن رسائلك، مثل الأشخاص الذين تراسلهم ووقت إرسال الرسائل وغير ذلك.
