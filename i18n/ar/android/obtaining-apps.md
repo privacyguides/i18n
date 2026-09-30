@@ -122,6 +122,6 @@ description: نوصي بهذه الطرق للحصول على التطبيقات
 <div class="admonition note" markdown>
 <p class="admonition-title">F-Droid Basic</p>
 
-In some rare cases, an app may only be available through F-Droid. If you really need an app like that, we recommend using the newer [F-Droid Basic](https://f-droid.org/en/packages/org.fdroid.basic) client instead of the original F-Droid app to obtain it, as it has a reduced feature set (limiting attack surface).
+في بعض الحالات النادرة، قد يكون التطبيق متاحا فقط عبر F-Droid. إذا كنت تحتاج فعلا إلى تطبيق من هذا النوع، فننصح باستخدام تطبيق [F-Droid Basic](https://f-droid.org/en/packages/org.fdroid.basic) الأحدث بدلا من تطبيق F-Droid الأصلي للحصول عليه، لأنه يتضمن ميزات أقل (مما يحد من attack surface).
 
 </div>
