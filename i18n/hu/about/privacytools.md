@@ -1,6 +1,6 @@
 ---
-title: "PrivacyTools FAQ"
-description: The real story behind the team transition from privacytools.io to privacyguides.org
+title: "PrivacyTools GYIK"
+description: A valós történet a privacytools.io-ról a privacyguides.org-ra való átállás mögött
 ---
 
 2021 szeptemberében minden aktív közreműködőnk egyhangúlag beleegyezett abba, hogy a PrivacyToolsról átköltözik a Privacy Guides oldalra. Erre a döntésre azért került sor, mert a PrivacyTools alapítója és a domain név kezelője hosszabb időre eltűnt, és nem lehetett kapcsolatba lépni vele.
@@ -37,9 +37,9 @@ Anélkül, hogy bármilyen kapcsolatban álltunk volna a BurungHantuval, úgy d�
 
 ## Az r/privacytoolsIO ellenőrzése
 
-Simultaneously with the ongoing website issues at privacytools.io, the r/privacytoolsIO moderation team was facing challenges with managing the Subreddit. The Subreddit had always been operated mostly independently of the website's development, but BurungHantu was the primary moderator of the Subreddit as well, and he was the only moderator granted "Full Control" privileges. u/trai_dep volt az egyetlen aktív moderátor abban az időben, és 2021. június 28-án kérvényt [küldött](https://reddit.com/comments/o9tllh) a Reddit adminisztrátorainak, amelyben kérte, hogy megkapja az elsődleges moderátori pozíciót és a teljes irányítási jogosultságokat, hogy a szükséges változtatásokat elvégezhesse a subredditen.
+A privacytool.io-n fennálló problémákkal párhuzamosan az r/privacytoolsIO moderátor csapata is nehézségekkel küzdött a subreddit kezelésével kapcsolatban. A subreddit a honlap fejlesztésétől mindig is nagyrészt függetlenül működött, de a subredditnek is BurungHantu volt az elsődleges moderátora és az egyetlen moderátor "teljes hozzáférés" jogosultsággal. u/trai_dep volt az egyetlen aktív moderátor abban az időben, és 2021. június 28-án kérvényt [küldött](https://reddit.com/comments/o9tllh) a Reddit adminisztrátorainak, amelyben kérte, hogy megkapja az elsődleges moderátori pozíciót és a teljes irányítási jogosultságokat, hogy a szükséges változtatásokat elvégezhesse a subredditen.
 
-Reddit requires that Subreddits have active moderators. Ha az elsődleges moderátor hosszabb ideig (például egy évig) inaktív, az elsődleges moderátori pozíciót a soron következő moderátor töltheti be újra. Ahhoz, hogy ezt a kérést teljesítsék, BurungHantunak hosszú időn keresztül teljesen távol kellett volna maradnia minden Reddit-tevékenységtől, ami összhangban volt a más platformokon tanúsított viselkedésével.
+A Reddit megköveteli, hogy a subredditeknek legyenek aktív moderátorai. Ha az elsődleges moderátor hosszabb ideig (például egy évig) inaktív, az elsődleges moderátori pozíciót a soron következő moderátor töltheti be újra. Ahhoz, hogy ezt a kérést teljesítsék, BurungHantunak hosszú időn keresztül teljesen távol kellett volna maradnia minden Reddit-tevékenységtől, ami összhangban volt a más platformokon tanúsított viselkedésével.
 
 > Ha Reddit-kérésen keresztül eltávolítottak moderátorként egy alredditből, az azért van, mert a válaszadás és az aktivitás hiánya miatt az r/redditrequest alreddit áthelyezésre jogosult.
 > 
@@ -49,13 +49,13 @@ Reddit requires that Subreddits have active moderators. Ha az elsődleges moder�
 
 2021. szeptember 14-én [bejelentettük](https://blog.privacyguides.org/2021/09/14/welcome-to-privacy-guides) az új domainre való áttérésünk kezdetét:
 
-> [...] szükségesnek láttuk, hogy az átállást mihamarabb végrehajtsuk, hogy az emberek időben értesülhessenek róla. This gives us adequate time to transition the domain name, which is currently redirecting to `www.privacyguides.org`, and it hopefully gives everyone enough time to notice the change, update bookmarks and websites, etc.
+> [...] szükségesnek láttuk, hogy az átállást mihamarabb végrehajtsuk, hogy az emberek időben értesülhessenek róla. Ez elég időt biztosít számunkra a domainnév átállításához, ami jelenleg a `www.privacyguides.org` oldalra irányít és remélhetőleg elég időt ad arra mindenkinek, hogy észrevegye a változást, frissítse a könyvjelzőket és weboldalakat, stb.
 
 Ez a változás [a következőket vonta maga után:](https://reddit.com/comments/pnhn4a)
 
-- Redirecting `www.privacytools.io` to [www.privacyguides.org](https://www.privacyguides.org).
+- A `www.privacytools.io` átirányítása a [www.privacyguides.org](https://www.privacyguides.org) oldalra.
 - A forráskód archiválása a GitHubon, hogy megőrizzük a korábbi munkánkat és a problémakövetőt, amelyet továbbra is használtunk az oldal jövőbeli fejlesztésének hónapjai során.
-- Posting announcements to our Subreddit and various other communities informing people of the official change.
+- Bejelentések közzététele a subreddit-ünkön és számos egyéb közösségben, tájékoztatva az embereket a hivatalos változásról.
 - A privacytools.io szolgáltatások, mint például a Matrix és a Mastodon hivatalos bezárása, és a meglévő felhasználók ösztönzése a lehető leghamarabbi áttérésre.
 
 Úgy tűnt, hogy a dolgok zökkenőmentesen mennek, és az aktív közösségünk nagy része pontosan úgy váltott át az új projektünkre, ahogy reméltük.
@@ -64,7 +64,7 @@ Ez a változás [a következőket vonta maga után:](https://reddit.com/comments
 
 Nagyjából egy héttel az átállást követően BurungHantu közel egy év után először tért vissza online, azonban a csapatunkból senki sem volt hajlandó visszatérni a PrivacyToolshoz a korábbi megbízhatatlansága miatt. Ahelyett, hogy bocsánatot kért volna hosszas távolléte miatt, azonnal támadásba lendült, és a Privacy Guides-ra való áttérést az ellene és a projektje elleni támadásnak minősítette. Később sok ilyen bejegyzést [törölt](https://reddit.com/comments/pp9yie/comment/hd49wbn), amikor a közösség rámutatott, hogy nem volt jelen, és elhagyta a projektet.
 
-At this point, BurungHantu claimed he wanted to continue working on privacytools.io on his own and requested that we remove the redirect from `www.privacytools.io` to [www.privacyguides.org](https://www.privacyguides.org). Mi köteleztük és kértük, hogy tartsa aktívan a Matrix, Mastodon és PeerTube aldomainjeit, hogy legalább néhány hónapig nyilvános szolgáltatásként működtethessük a közösségünk számára, hogy az ezeken a platformokon lévő felhasználók könnyen át tudjanak menni más fiókokra. A szolgáltatásaink feldarabolt jellege miatt azok specifikus domain nevekhez voltak kötve, ami nagyon nehézzé tette az áttelepülést (néhány esetben lehetetlenné).
+Ezen a ponton BurungHantu kijelentette, hogy egyedül akar tovább dolgozni a privacytools.io-n és kérte, hogy távolítsuk el a `www.privacytools.io` átirányítását a [www.privacyguides.org](https://www.privacyguides.org)-ra. Mi köteleztük és kértük, hogy tartsa aktívan a Matrix, Mastodon és PeerTube aldomainjeit, hogy legalább néhány hónapig nyilvános szolgáltatásként működtethessük a közösségünk számára, hogy az ezeken a platformokon lévő felhasználók könnyen át tudjanak menni más fiókokra. A szolgáltatásaink feldarabolt jellege miatt azok specifikus domain nevekhez voltak kötve, ami nagyon nehézzé tette az áttelepülést (néhány esetben lehetetlenné).
 
 Unfortunately, because control of the r/privacytoolsIO Subreddit was not returned to BurungHantu at his demand (further information below), those subdomains were [cut off](https://reddit.com/comments/pymthv/comment/hexwrps) at the beginning of October, ending any migration possibilities to any users still using those services.
 
