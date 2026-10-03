@@ -1,56 +1,56 @@
 ---
-title: "Choosing Your Hardware"
+title: "اختيار أجهزتك"
 icon: 'material/chip'
-description: Software isn't all that matters; learn about the hardware tools you use every day to protect your privacy.
+description: البرامج ليست كل شيء؛ تعرّف على الأجهزة التي تستخدمها يوميًا وكيف تساعدك على حماية خصوصيتك.
 ---
 
-When it comes to discussions about privacy, hardware is often not thought about as much as what software we use. Your hardware should be considered the foundation on which you build the rest of your privacy setup.
+عند الحديث عن الخصوصية، غالبًا ما لا نهتم بالأجهزة بقدر اهتمامنا بالبرامج التي نستخدمها. يجب اعتبار أجهزتك الأساس الذي تبني عليه بقية إعدادات الخصوصية لديك.
 
-## Picking a Computer
+## اختيار جهاز كمبيوتر
 
-The internals of your devices process and store all of your digital data. It is important that all devices are supported by the manufacturer and developers by continuing to receive security updates.
+تعالج المكوّنات الداخلية لأجهزتك جميع بياناتك الرقمية وتخزنها. من المهم أن تظل جميع الأجهزة مدعومة من الشركة المصنعة والمطورين، وأن تستمر في تلقي تحديثات الأمان.
 
-### Hardware Security Programs
+### برامج الحماية على مستوى الأجهزة
 
-Some devices will have a "hardware security program", which is a collaboration between vendors on best practices and recommendations when designing hardware, for example:
+تحتوي بعض الأجهزة على «برنامج لأمان الأجهزة»، وهو تعاون بين الشركات المصنعة لتطبيق أفضل الممارسات والتوصيات عند تصميم الأجهزة، على سبيل المثال:
 
-- [Windows Secured-core PCs](https://learn.microsoft.com/en-us/windows-hardware/design/device-experiences/oem-highly-secure-11) meet a higher security criteria specified by Microsoft. These protections aren't only applicable to Windows users; Users of other operating systems can still take advantage of features like [DMA protection](https://learn.microsoft.com/en-us/windows/security/information-protection/kernel-dma-protection-for-thunderbolt) and the ability to completely distrust Microsoft certificates.
-- [Android Ready SE](https://developers.google.com/android/security/android-ready-se) is a collaboration between vendors to ensure their devices follow [best practices](https://source.android.com/docs/security/best-practices/hardware) and include tamper resistant hardware backed storage for things like encryption keys.
-- macOS running on an Apple SoC takes advantage of [hardware security](../os/macos-overview.md#hardware-security) which may not be available with third party operating systems.
-- [ChromeOS security](https://chromium.org/chromium-os/developer-library/reference/security/security-whitepaper) is at its best when running on a Chromebook as it is able to make use of available hardware features such as the [hardware root-of-trust](https://chromium.org/chromium-os/developer-library/reference/security/security-whitepaper/#hardware-root-of-trust-and-verified-boot).
+- تستوفي أجهزة [Windows Secured-core PCs](https://learn.microsoft.com/en-us/windows-hardware/design/device-experiences/oem-highly-secure-11) معايير أمان أعلى تحددها Microsoft. لا تقتصر وسائل الحماية هذه على مستخدمي Windows فقط؛ إذ يمكن لمستخدمي أنظمة التشغيل الأخرى أيضا الاستفادة من ميزات مثل [DMA protection](https://learn.microsoft.com/en-us/windows/security/information-protection/kernel-dma-protection-for-thunderbolt) وإمكانية عدم الوثوق إطلاقا بشهادات Microsoft.
+- يُعد [Android Ready SE](https://developers.google.com/android/security/android-ready-se) تعاونا بين الشركات المصنّعة لضمان أن أجهزتها تتبع [أفضل الممارسات](https://source.android.com/docs/security/best-practices/hardware)، ومزوّدة بوحدة تخزين عتادية آمنة ومحمية من التلاعب، لحفظ أشياء مثل مفاتيح التشفير.
+- يستفيد macOS عند تشغيله على Apple SoC من [الأمان على مستوى الأجهزة](../os/macos-overview.md#hardware-security)، وقد لا تتوفر هذه الميزات عند استخدام أنظمة تشغيل من جهات خارجية.
+- يكون أمان [ChromeOS security](https://chromium.org/chromium-os/developer-library/reference/security/security-whitepaper) في أفضل حالاته عند تشغيله على جهاز Chromebook، لأنه يستطيع الاستفادة من ميزات الأجهزة المتاحة، مثل [hardware root-of-trust](https://chromium.org/chromium-os/developer-library/reference/security/security-whitepaper/#hardware-root-of-trust-and-verified-boot).
 
-Even if you don't use these operating systems, participation in these programs may indicate that the manufacturer is following best practices when it comes to hardware security and updates.
+حتى إذا كنت لا تستخدم أنظمة التشغيل هذه، فقد تشير مشاركة الشركة المصنّعة في هذه البرامج إلى أنها تتبع أفضل الممارسات فيما يتعلق بأمان الأجهزة وتحديثاتها.
 
-### Preinstalled OS
+### نظام التشغيل المثبت مسبقا
 
-New computers nearly always come with Windows preinstalled, unless you buy a Mac or a specialty Linux machine. It's usually a good idea to wipe the drive and install a fresh copy of your operating system of choice, even if that means just reinstalling Windows from scratch. Due to agreements between hardware vendors and shady software vendors, the default Windows install often comes preloaded with bloatware, [adware](https://bleepingcomputer.com/news/technology/lenovo-gets-a-slap-on-the-wrist-for-superfish-adware-scandal), or even [malware](https://zdnet.com/article/dell-poweredge-motherboards-ship-with-malware).
+تأتي أجهزة الكمبيوتر الجديدة دائما تقريبا مع Windows مثبتا مسبقا، إلا إذا اشتريت جهاز Mac أو جهازا مخصصا يعمل بنظام Linux. يُفضل عادةً مسح القرص وتثبيت نسخة جديدة من نظام التشغيل الذي تختاره، حتى لو كان ذلك يعني فقط إعادة تثبيت Windows من البداية. بسبب الاتفاقيات بين الشركات المصنعة للأجهزة وشركات البرمجيات المشبوهة، غالبا ما تأتي نسخة Windows الافتراضية محملة مسبقًا ببرامج غير ضرورية، أو [برامج إعلانية](https://bleepingcomputer.com/news/technology/lenovo-gets-a-slap-on-the-wrist-for-superfish-adware-scandal)، أو حتى [برامج ضارة](https://zdnet.com/article/dell-poweredge-motherboards-ship-with-malware).
 
-### Firmware Updates
+### تحديثات الـ Firmware
 
-Hardware often has security issues that are discovered and patched through firmware updates for your hardware.
+غالبا ما تحتوي الأجهزة على مشكلات أمنية يتم اكتشافها وإصلاحها من خلال تحديثات الـ Firmware الخاصة بها.
 
-Almost every component of your computer requires firmware to operate, from your motherboard to your storage devices. It is ideal for all the components of your device to be fully supported. Apple devices, Chromebooks, most Android phones, and Microsoft Surface devices will handle firmware updates for you as long as the device is supported.
+تحتاج كل مكونات جهاز الكمبيوتر تقريبا إلى Firmware لكي تعمل، بدءا من اللوحة الأم وحتى وحدات التخزين. من الأفضل أن تكون جميع مكونات جهازك مدعومة بالكامل. تتولى أجهزة Apple وChromebook ومعظم هواتف Android وأجهزة Microsoft Surface تحديثات Firmware تلقائيا ما دام الجهاز لا يزال مدعوما.
 
-If you build your own PC, you may need to manually update your motherboard's firmware by downloading it from your OEM's website. If you use Linux, consider using the built-in [`fwupd`](https://fwupd.org) tool that will let you check for and apply any firmware updates available for your motherboard.
+إذا قمت بتجميع جهاز الكمبيوتر بنفسك، فقد تحتاج إلى تحديث Firmware الخاص باللوحة الأم (motherboard) يدويا عن طريق تنزيله من موقع الشركة المصنعة (OEM). إذا كنت تستخدم Linux، ففكر في استخدام أداة fwupd المدمجة، والتي تتيح لك التحقق من تحديثات Firmware المتاحة للوحة الأم (motherboard) وتثبيتها.
 
-### TPM/Secure Cryptoprocessor
+### TPM/معالج التشفير الآمن
 
-Most computers and phones come equipped with a TPM (or a similar secure cryptoprocessor) which safely stores your encryption keys and handles other security-related functions. If you're currently using a machine that doesn't have one of these, you might benefit from purchasing a newer computer that has this feature. Some desktop and server motherboards have a "TPM header" which can accept a small accessory board containing the TPM.
+تأتي معظم أجهزة الكمبيوتر والهواتف مزودة بـ TPM (أو معالج تشفير آمن مشابه)، والذي يخزن مفاتيح التشفير بأمان ويتولى وظائف أخرى متعلقة بالأمان. إذا كنت تستخدم حاليا جهازًا لا يحتوي على إحدى هذه الميزات، فقد يكون من الأفضل شراء جهاز كمبيوتر أحدث يدعمها. تحتوي بعض اللوحات الأم (motherboard) لأجهزة الكمبيوتر المكتبية (desktops) والخوادم على "TPM header"، يمكن توصيل لوحة صغيرة به تحتوي على TPM.
 
 <div class="admonition Note" markdown>
-<p class="admonition-title">Note</p>
+<p class="admonition-title">ملحوظة</p>
 
-Virtual TPMs are susceptible to side-channel attacks and external TPMs, as a result of being separate from the CPU on the motherboard, are vulnerable to [sniffing](https://pulsesecurity.co.nz/articles/TPM-sniffing) when an attacker has access to the hardware. The solution to this problem is to include the secure processor inside the CPU itself, which is the case for Apple's chips and Microsoft's [Pluton](https://microsoft.com/en-us/security/blog/2020/11/17/meet-the-microsoft-pluton-processor-the-security-chip-designed-for-the-future-of-windows-pcs).
+تكون وحدات الـ (virtual TPM) عرضة لهجمات side-channel، بينما تكون وحدات الـ TPM الخارجية، بسبب انفصالها عن الـ CPU على اللوحة الأم (motherboard)، عرضة لـ sniffing عندما يتمكن المهاجم من الوصول فعليا إلى الجهاز. الحل لهذه المشكلة هو دمج المعالج الآمن داخل الـ CPU نفسه، كما هو الحال في شرائح Apple ومعالج [Pluton](https://microsoft.com/en-us/security/blog/2020/11/17/meet-the-microsoft-pluton-processor-the-security-chip-designed-for-the-future-of-windows-pcs) من Microsoft.
 
 </div>
 
-### Biometrics
+### الـ Biometrics أو القياسات الحيوية
 
-Many devices come equipped with a fingerprint reader or face recognition capabilities. These can be very convenient, but they aren't perfect and sometimes fail. Most devices will fall back to a PIN or password when this happens, meaning that the security of your devices is still only as good as your password.
+تأتي العديد من الأجهزة مزودة بقارئ بصمات الأصابع (fingerprint) أو بميزة التعرف على الوجه. قد تكون هذه الميزات مريحة جدا، لكنها ليست مثالية وقد تفشل أحيانا. عند حدوث ذلك، ستعود معظم الأجهزة إلى استخدام الـ PIN أو كلمة المرور، ما يعني أن أمان جهازك يظل معتمدًا على قوة كلمة مرورك.
 
-Biometrics can prevent someone from watching you type in your password, so if shoulder-surfing is part of your threat model then biometrics are a good option.
+يمكن للـBiometrics أن تمنع شخصا من مراقبتك أثناء كتابة كلمة مرورك، لذلك إذا كان التلصص على ما تكتبه جزءا من Threat Model لديك، فالـ Biometrics خيار جيد.
 
-Most implementations of face authentication require you to be looking at your phone and also only work from a relatively close distance, so you don't need to worry too much about someone pointing your phone at your face to unlock it without your consent. You can still disable biometrics when your phone is locked if you want. On iOS, you can hold the side button and a volume button for 3 seconds to disable Face ID on models that support it. On Android, hold the power button and press Lockdown on the menu.
+تتطلب معظم تقنيات التعرف على الوجه (face authentication) أن تنظر إلى هاتفك مباشرة، كما أنها لا تعمل إلا من مسافة قريبة نسبيا، لذلك لا داعي للقلق كثيرا من أن يوجه شخص ما هاتفك نحو وجهك لفتحه دون موافقتك. لا يزال بإمكانك تعطيل الـ Biometrics عندما يكون هاتفك مقفلًا إذا أردت. On iOS, you can hold the side button and a volume button for 3 seconds to disable Face ID on models that support it. On Android, hold the power button and press Lockdown on the menu.
 
 <div class="admonition warning" markdown>
 <p class="admonition-title">تنوية</p>
