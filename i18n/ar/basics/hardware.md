@@ -50,26 +50,26 @@ description: البرامج ليست كل شيء؛ تعرّف على الأجه�
 
 يمكن للـBiometrics أن تمنع شخصا من مراقبتك أثناء كتابة كلمة مرورك، لذلك إذا كان التلصص على ما تكتبه جزءا من Threat Model لديك، فالـ Biometrics خيار جيد.
 
-تتطلب معظم تقنيات التعرف على الوجه (face authentication) أن تنظر إلى هاتفك مباشرة، كما أنها لا تعمل إلا من مسافة قريبة نسبيا، لذلك لا داعي للقلق كثيرا من أن يوجه شخص ما هاتفك نحو وجهك لفتحه دون موافقتك. لا يزال بإمكانك تعطيل الـ Biometrics عندما يكون هاتفك مقفلًا إذا أردت. On iOS, you can hold the side button and a volume button for 3 seconds to disable Face ID on models that support it. On Android, hold the power button and press Lockdown on the menu.
+تتطلب معظم تقنيات التعرف على الوجه (face authentication) أن تنظر إلى هاتفك مباشرة، كما أنها لا تعمل إلا من مسافة قريبة نسبيا، لذلك لا داعي للقلق كثيرا من أن يوجه شخص ما هاتفك نحو وجهك لفتحه دون موافقتك. لا يزال بإمكانك تعطيل الـ Biometrics عندما يكون هاتفك مقفلًا إذا أردت. على iOS، يمكنك الضغط مطولا على الزر الجانبي وأحد زري مستوى الصوت لمدة 3 ثوان لتعطيل Face ID على الأجهزة التي تدعمه. على Android، اضغط مطولا على زر التشغيل، ثم اضغط على Lockdown من القائمة.
 
 <div class="admonition warning" markdown>
 <p class="admonition-title">تنوية</p>
 
-Some devices do not have the proper hardware for secure face authentication. There are two main types of face authentication: 2D and 3D. 3D face authentication makes use of a dot projector that lets the device create a 3D depth map of your face. Make sure that your device has this capability.
+بعض الأجهزة لا تحتوي على المكونات اللازمة للتعرف الآمن على الوجه. هناك نوعان رئيسيان من التعرف على الوجه: ثنائي الأبعاد (2D) وثلاثي الأبعاد (3D). يستخدم التعرف على الوجه ثلاثي الأبعاد (3D) جهازا لإسقاط النقاط، ما يسمح للجهاز بإنشاء خريطة عمق ثلاثية الأبعاد لوجهك. تأكد من أن جهازك يدعم هذه الميزة.
 
 </div>
 
-Android defines three [security classes](https://source.android.com/docs/security/features/biometric/measure#biometric-classes) for biometrics; you should check that your device is Class 3 before enabling biometrics.
+يحدّد Android ثلاث فئات أمان للـbiometrics؛ ويُنصح بالتأكد من أن جهازك ضمن Class 3 قبل تفعيل الـbiometrics.
 
-### Device Encryption
+### التشفير على مستوى الجهاز
 
-If your device is [encrypted](../encryption.md), your data is most secure when your device is completely powered off (as opposed to merely asleep), i.e. before you've entered your encryption key or lock screen password for the first time. On phones, this state of higher security is referred to as "Before First Unlock" (BFU), and "After First Unlock" (AFU) once you enter the correct password after a reboot/power-on. AFU is considerably less secure against digital forensics toolkits and other exploits, compared to BFU. Therefore, if you are concerned about an attacker with physical access to your device, you should turn it off fully whenever you aren't using it.
+إذا كان جهازك [مشفرًا](../encryption.md)، تكون بياناتك أكثر أمانا عندما يكون الجهاز مغلقا بالكامل، وليس في وضع السكون فقط، أي قبل إدخال مفتاح التشفير أو كلمة مرور شاشة القفل للمرة الأولى. على الهواتف، يُشار إلى حالة الأمان الأعلى هذه باسم "Before First Unlock" (BFU)، وبعد إدخال كلمة المرور الصحيحة لأول مرة عقب إعادة التشغيل أو تشغيل الهاتف، تصبح الحالة "After First Unlock" (AFU). تُعد حالة الـ AFU أقل أمانا بكثير من الـ BFU في مواجهة أدوات التحليل الجنائي الرقمي وغيرها من أساليب الاستغلال. لذلك، إذا كنت قلقا من وصول مهاجم فعليا إلى جهازك، فمن الأفضل إيقاف تشغيله بالكامل عندما لا تستخدمه.
 
-This may be impractical, so consider whether it's worth it, but in either case even AFU mode is effective against most threats, given you are using a strong encryption key.
+قد لا يكون هذا عمليا دائما، لذا فكّر فيما إذا كان يستحق ذلك. ومع ذلك، حتى وضع الـ AFU يظل فعّالًا ضد معظم التهديدات، ما دمت تستخدم مفتاح تشفير قويًا.
 
-## External Hardware
+## المكونات الخارجية
 
-Some threats can't be protected against by your internal components alone. Many of these options are highly situational; please evaluate if they are really necessary for your threat model.
+لا يمكن للمكونات الداخلية لجهازك وحدها حمايتك من بعض التهديدات. العديد من هذه الخيارات تعتمد بشكل كبير على حالتك؛ لذا قيّم ما إذا كانت ضرورية فعلًا ضمن الـ Threat Model الخاص بك.
 
 ### Hardware Security Keys
 
