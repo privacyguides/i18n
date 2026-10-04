@@ -104,49 +104,49 @@ description: البرامج ليست كل شيء؛ تعرّف على الأجه�
 
 يمكنك أيضا استخدام كابلات مثل [BusKill](https://buskill.in)، والتي تقفل جهاز الكمبيوتر أو تمسح بياناته عند فصل الكابل.
 
-### Anti-Interdiction/Evil Maid Attack
+### الحماية من اعتراض الجهاز/هجوم Evil Maid
 
-The best way to prevent a targeted attack against you before a device is in your possession is to purchase a device in a physical store, rather than ordering it to your address.
+أفضل طريقة لمنع هجوم يستهدفك قبل أن يصبح الجهاز بحوزتك هي شراء الجهاز من متجر فعلي بدلا من طلب توصيله إلى عنوانك.
 
-Make sure your device supports secure boot/verified boot, and you have it enabled. Try to avoid leaving your device unattended whenever possible.
+تأكد من أن جهازك يدعم Secure Boot أو Verified Boot، وأن هذه الميزة مفعلة. حاول قدر الإمكان عدم ترك جهازك دون مراقبة.
 
-### Kensington Locks
+### أقفال Kensington
 
-Many laptops come equipped with a [Kensington slot](https://www.kensington.com/solutions/product-category/security/?srsltid=AfmBOorQOlRnqRJOAqM-Mvl7wumed0wBdiOgktlvdidpMHNIvGfwj9VI) that can be used to secure your device with a **metal cable** that locks into the slot on your machine. These locks can be combination locks or keyed.
+تأتي العديد من أجهزة الكمبيوتر المحمولة مزودة [بفتحة Kensington](https://www.kensington.com/solutions/product-category/security/?srsltid=AfmBOorQOlRnqRJOAqM-Mvl7wumed0wBdiOgktlvdidpMHNIvGfwj9VI)، ويمكن استخدامها لتأمين جهازك بواسطة كابل معدني يثبّت في هذه الفتحة. يمكن أن تكون هذه الأقفال برمز رقمي أو بمفتاح.
 
-As with all locks, Kensington locks are vulnerable to [physical attacks](https://youtu.be/vgvCxL7dMJk) so you should mainly use them to deter petty theft. You can secure your laptop at home or even when you're out in public using a table leg or something that won't move easily.
+مثل جميع الأقفال، يمكن تجاوز أقفال Kensington باستخدام [أساليب فعلية لكسر القفل أو فتحه](https://youtu.be/vgvCxL7dMJk)، لذلك يُفضّل استخدامها بشكل أساسي لردع السرقات البسيطة. يمكنك تأمين حاسوبك المحمول في المنزل أو حتى في الأماكن العامة بربطه بساق طاولة أو بأي شيء ثابت يصعب تحريكه.
 
-## Secure your Network
+## أمّن شبكتك
 
-### Compartmentalization
+### الفصل بين الأنشطة
 
-Many solutions exist that allow you to separate what you're doing on a computer, such as virtual machines and sandboxing. However, the best compartmentalization is physical separation. This is useful especially for situations where certain software requires you to bypass security features in your OS, such as with anti-cheat software bundled with many games.
+توجد حلول عديدة تتيح لك فصل الأنشطة التي تقوم بها على الكمبيوتر، مثل الأجهزة الافتراضية والـ sandboxing. لكن أفضل طريقة للفصل بين الأنشطة هي استخدام أجهزة منفصلة. وهذا مفيد خصوصا في الحالات التي تتطلب فيها بعض البرامج تجاوز ميزات الأمان في نظام التشغيل، مثل برامج مكافحة الغش المرفقة مع العديد من الألعاب.
 
-For gaming, it may be useful to designate one machine as your "gaming" machine and only use it for that one task. Keep it on a separate VLAN. This may require the use of a managed switch and a router that supports segregated networks.
+بالنسبة إلى الألعاب، قد يكون من المفيد تخصيص جهاز واحد ليكون جهاز «الألعاب» واستخدامه لهذا الغرض فقط. اجعله على شبكة VLAN منفصلة. قد يتطلب ذلك استخدام الـ Managed Switch وراوتر يدعم فصل الشبكات عن بعضها.
 
-Most consumer routers allow you to do this by enabling a separate "guest" network that can't talk to your main network. All untrusted devices can go here, including IoT devices like your smart fridge, thermostat, TV, etc.
+تتيح لك معظم أجهزة الراوتر المنزلية فعل ذلك عبر تفعيل شبكة «guest» منفصلة لا يمكنها الاتصال بشبكتك الرئيسية. يمكن وضع جميع الأجهزة غير الموثوقة في هذه الشبكة، بما في ذلك أجهزة IoT مثل الثلاجة الذكية، ومنظم الحرارة، والتلفاز، وغيرها.
 
-### Minimalism
+### البساطة
 
-As the saying goes, "less is more". The fewer devices you have connected to your network, the less potential attack surface you'll have and the less work it will be to make sure they all stay up-to-date.
+كما يقول المثل: «رُبَّ قليلٍ خيرٌ من كثير». كلما قل عدد الأجهزة المتصلة بشبكتك، قل الـ attack surface المحتمل، وقل الجهد اللازم للتأكد من أن جميع الأجهزة تظل محدّثة.
 
-You may find it useful to go around your home and make a list of every connected device you have to help you keep track.
+قد يكون من المفيد أن تتفقد منزلك وتُعد قائمة بكل الأجهزة المتصلة لديك، حتى يسهل عليك متابعتها.
 
-### Routers
+### أجهزة الراوتر
 
-Your router handles all your network traffic and acts as your first line of defense between you and the open internet.
+يتعامل الراوتر مع جميع حركة البيانات في شبكتك، ويشكّل خط الدفاع الأول بينك وبين الإنترنت العام.
 
 <div class="admonition Note" markdown>
-<p class="admonition-title">Note</p>
+<p class="admonition-title">ملحوظة</p>
 
-A lot of routers come with storage to put your files on so you can access them from any computer on your network. We recommend you don't use networking devices for things other than networking. In the event your router was compromised, your files would also be compromised.
+تأتي العديد من أجهزة الراوتر بمساحة تخزين يمكنك وضع ملفاتك عليها، بحيث تستطيع الوصول إليها من أي كمبيوتر على شبكتك. نوصي بعدم استخدام أجهزة الشبكة لأغراض أخرى غير إدارة الشبكة. إذا تم اختراق الراوتر، فقد يتمكن المهاجم أيضا من الوصول إلى ملفاتك.
 
 </div>
 
-The most important thing to think about with routers is keeping them up-to-date. Many modern routers will automatically install updates, but many others won't. You should check on your router's settings page for this option. That page can usually be accessed by typing `192.168.1.1` or `192.168.0.1` into the URL bar of any browser assuming you're on the same network. You can also check in the network settings of your OS for "router" or "gateway".
+أهم ما يجب الاهتمام به في أجهزة الراوتر هو إبقاؤها محدثة. تثبت العديد من أجهزة الراوتر الحديثة التحديثات تلقائيا، لكن الكثير من الأجهزة الأخرى لا تفعل ذلك. يجب عليك التحقق من صفحة إعدادات الراوتر لمعرفة ما إذا كان هذا الخيار متاحا. يمكنك عادةً الوصول إلى هذه الصفحة بكتابة `192.168.1.1` أو `192.168.0.1` في شريط العنوان بأي متصفح، بشرط أن تكون متصلًا بالشبكة نفسها. يمكنك أيضا التحقق من إعدادات الشبكة في نظام التشغيل والبحث عن «router» أو «gateway».
 
-If your router does not support automatic updates, you will need to go to the manufacturer's site to download the updates and apply them manually.
+إذا كان الراوتر لا يدعم التحديثات التلقائية، فستحتاج إلى زيارة موقع الشركة المصنعة لتنزيل التحديثات وتثبيتها يدويا.
 
-Many consumer-grade routers aren't supported for very long. If your router isn't supported by the manufacturer anymore, you can check if it's supported by [FOSS firmware](../router.md). You can also buy routers that come with FOSS firmware installed by default; these tend to be supported longer than most routers.
+العديد من أجهزة الراوتر المخصصة للمستخدمين العاديين لا تستمر في تلقي الدعم لفترة طويلة. إذا لم يعد الراوتر مدعوما من الشركة المصنعة، يمكنك التحقق مما إذا كان مدعوما بواسطة [Firmware مفتوح المصدر (FOSS)](../router.md). يمكنك أيضا شراء أجهزة راوتر تأتي مع [Firmware مفتوح المصدر (FOSS)] مثبتًا بشكل افتراضي، وغالبًا ما تستمر هذه الأجهزة في تلقي الدعم لفترة أطول من معظم أجهزة الراوتر.
 
-Some ISPs provide a combined router/modem. It can be beneficial for security to purchase a separate router and set your ISP router/modem into modem-only mode. This way, even when your ISP-provided router is no longer getting updates, you can still get security updates and patches. It also means any problems that affect your modem won't affect your router and vice versa.
+توفر بعض شركات الإنترنت جهازا يجمع بين الراوتر والمودم. قد يكون من الأفضل من ناحية الأمان شراء راوتر منفصل وضبط جهاز الراوتر/المودم الذي توفره شركة الإنترنت على وضع المودم فقط. بهذه الطريقة، حتى إذا توقف الراوتر الذي توفره شركة الإنترنت عن تلقي التحديثات، سيظل بإمكانك الحصول على تحديثات وتصحيحات الأمان للراوتر المنفصل الذي تستخدمه. ويعني ذلك أيضا أن أي مشكلة تؤثر في المودم لن تؤثر في الراوتر، والعكس صحيح.
