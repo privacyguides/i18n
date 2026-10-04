@@ -71,38 +71,38 @@ description: البرامج ليست كل شيء؛ تعرّف على الأجه�
 
 لا يمكن للمكونات الداخلية لجهازك وحدها حمايتك من بعض التهديدات. العديد من هذه الخيارات تعتمد بشكل كبير على حالتك؛ لذا قيّم ما إذا كانت ضرورية فعلًا ضمن الـ Threat Model الخاص بك.
 
-### Hardware Security Keys
+### مفاتيح الأمان المادية (Hardware Security Keys)
 
-Hardware keys are devices that use strong cryptography to authenticate you to a device or account. The idea is that because they can not be copied, you can use them to secure accounts in such a way that they can only be accessed with physical possession of the key, eliminating many remote attacks.
+مفاتيح الأمان المادية هي أجهزة تستخدم تشفيرا قويا للتحقق من هويتك عند تسجيل الدخول إلى جهاز أو حساب. الفكرة هي أنه لا يمكن نسخ هذه المفاتيح، لذلك يمكنك استخدامها لحماية حساباتك بحيث لا يمكن الوصول إليها إلا عند امتلاك المفتاح فعليا، مما يمنع العديد من الهجمات عن بُعد.
 
-[Recommended Hardware Keys :material-arrow-right-drop-circle:](../security-keys.md){ .md-button .md-button--primary } [Learn More about Hardware Keys :material-arrow-right-drop-circle:](multi-factor-authentication.md#hardware-security-keys){ .md-button }
+[مفاتيح الأمان المادية الموصى بها :material-arrow-right-drop-circle:](../security-keys.md){ .md-button .md-button--primary } [اعرف المزيد عن مفاتيح الأمان المادية :material-arrow-right-drop-circle:](multi-factor-authentication.md#hardware-security-keys){ .md-button }
 
-### Camera/Microphone
+### الكاميرا / الميكروفون
 
-If you don't want to trust your OS's permission controls to prevent the camera from activating in the first place, you can buy camera blockers that physically prevent light from reaching the camera. You could also buy a device that doesn't have a built-in camera and use an external camera that you can unplug whenever you're done using it. Some devices come with built-in camera blockers or hardware switches that physically disconnect the camera from power.
+إذا كنت لا تريد الاعتماد على إعدادات الأذونات في نظام التشغيل لمنع تشغيل الكاميرا من الأساس، يمكنك شراء أغطية للكاميرا تمنع وصول الضوء إليها فعليا. يمكنك أيضا شراء جهاز لا يحتوي على كاميرا مدمجة، واستخدام كاميرا خارجية يمكنك فصلها بعد الانتهاء من استخدامها. بعض الأجهزة تحتوي على غطاء مدمج للكاميرا أو زر فعلي يقطع عنها الكهرباء تماما.
 
 <div class="admonition warning" markdown>
 <p class="admonition-title">تنوية</p>
 
-You should only buy covers that fit your laptop and won't cause damage when you close the lid. Covering the camera will interfere with automatic brightness and face authentication features.
+يجب أن تشتري فقط أغطية كاميرا تناسب حاسوبك المحمول ولا تسبب أي ضرر عند إغلاق الشاشة. سيؤثر تغطية الكاميرا في ميزات السطوع التلقائي والمصادقة بالوجه.
 
 </div>
 
-For microphone access, in most cases you will need to trust your OS's built-in permission controls. Alternatively, buy a device that doesn't have a built-in microphone and use an external microphone that you can unplug when you're done using it. Some devices, like a [MacBook or an iPad](https://support.apple.com/guide/security/hardware-microphone-disconnect-secbbd20b00b/web), feature a hardware disconnect for the microphone when you close the lid.
+بالنسبة إلى الوصول إلى الميكروفون، ستحتاج في معظم الحالات إلى الاعتماد على إعدادات الأذونات المدمجة في نظام التشغيل. بدلًا من ذلك، يمكنك شراء جهاز لا يحتوي على ميكروفون مدمج، واستخدام ميكروفون خارجي يمكنك فصله بعد الانتهاء من استخدامه. بعض الأجهزة، مثل [MacBook أو iPad](https://support.apple.com/guide/security/hardware-microphone-disconnect-secbbd20b00b/web)، تفصل الميكروفون فعليا عند إغلاق الجهاز.
 
-Many computers have a BIOS option to disable the camera and microphone. When disabled there, the hardware won't even appear as a device on a booted system.
+تحتوي العديد من أجهزة الكمبيوتر على خيار في الـ BIOS لتعطيل الكاميرا والميكروفون. عند تعطيلها من الـ BIOS، لن يتعرّف النظام على الكاميرا أو الميكروفون كأجهزة حتى بعد تشغيل الكمبيوتر.
 
-### Privacy Screens
+### شاشات الخصوصية
 
-Privacy screens are a film you can put over your normal screen so that the screen is only visible from a certain angle. These are good if your threat model includes others peeking at your screen, but it is not foolproof as anyone could just move to a different viewing angle and see what's on your screen.
+شاشات الخصوصية هي طبقة يمكنك وضعها فوق شاشتك العادية، بحيث لا يمكن رؤية محتوى الشاشة إلا من زاوية محددة. هذه الشاشات مفيدة إذا كان الـ Threat Model لديك يشمل أشخاصا قد ينظرون إلى شاشتك، لكنها ليست حلا مضمونا، إذ يمكن لأي شخص تغيير زاوية النظر ورؤية ما يظهر على الشاشة.
 
-### Dead Man's Switches
+### مفاتيح الأمان عند عدم الاستجابة
 
-A dead man's switch stops a piece of machinery from operating without the presence of a human operator. These were originally designed as a safety measure, but the same concept can be applied to an electronic device to lock it when you're not present.
+هو نظام يجعل الآلة تتوقف تلقائيا إذا لم يكن الشخص الذي يشغلها موجودا أو قادرا على التحكم بها. صممت هذه الأنظمة في الأصل كوسيلة أمان، لكن يمكن تطبيق الفكرة نفسها على الأجهزة الإلكترونية لقفلها عندما لا تكون موجودا.
 
-Some laptops are able to [detect](https://support.microsoft.com/en-us/windows/managing-presence-sensing-settings-in-windows-11-82285c93-440c-4e15-9081-c9e38c1290bb) when you're present and can lock automatically when you aren't sitting in front of the screen. You should check the settings in your OS to see if your computer supports this feature.
+تستطيع بعض أجهزة الكمبيوتر المحمولة [اكتشاف](https://support.microsoft.com/en-us/windows/managing-presence-sensing-settings-in-windows-11-82285c93-440c-4e15-9081-c9e38c1290bb) وجودك، ويمكنها قفل الجهاز تلقائيا عندما لا تكون جالسا أمام الشاشة. يجب عليك التحقق من إعدادات نظام التشغيل لمعرفة ما إذا كان جهازك يدعم هذه الميزة.
 
-You can also get cables, like [BusKill](https://buskill.in), that will lock or wipe your computer when the cable is disconnected.
+يمكنك أيضا استخدام كابلات مثل [BusKill](https://buskill.in)، والتي تقفل جهاز الكمبيوتر أو تمسح بياناته عند فصل الكابل.
 
 ### Anti-Interdiction/Evil Maid Attack
 
