@@ -16,7 +16,7 @@ schema:
     operatingSystem:
       - Windows
       - macOS
-      - Linux
+      - لينكس
       - Android
     subjectOf:
       "@type": WebPage

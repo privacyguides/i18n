@@ -34,29 +34,29 @@ description: تُعد الـ MFA آلية أمان أساسية لحماية ح�
 
 على عكس الـ[WebAuthn](#fido-fast-identity-online)، لا توفر TOTP أي حماية من [التصيد الاحتيالي (Phishing)](https://en.wikipedia.org/wiki/Phishing) أو هجمات إعادة الاستخدام. إذا حصل المهاجم منك على رمز صالح، فيمكنه استخدامه عدة مرات كما يشاء حتى تنتهي صلاحيته (عادة خلال 60 ثانية).
 
-An adversary could set up a website to imitate an official service in an attempt to trick you into giving out your username, password and current TOTP code. If the adversary then uses those recorded credentials they may be able to log into the real service and hijack the account.
+يمكن للمهاجم إنشاء موقع ينتحل شكل خدمة رسمية، في محاولة لخداعك ودفعك إلى إدخال اسم المستخدم وكلمة المرور ورمز الـ TOTP الحالي. إذا استخدم المهاجم بيانات الدخول التي حصل عليها، فقد يتمكن من تسجيل الدخول إلى الخدمة الحقيقية والاستيلاء على الحساب.
 
-Although not perfect, TOTP is secure enough for most people, and when [hardware security keys](../security-keys.md) are not supported [authenticator apps](../multi-factor-authentication.md) are still a good option.
+رغم أن الـTOTP ليست مثالية، فإنها آمنة بما يكفي لمعظم الأشخاص، وعندما لا تكون [الـ Hardware Security Keys](../security-keys.md) مدعومة، تظل [تطبيقات المصادقة](../multi-factor-authentication.md) خيارا جيدا.
 
-### Hardware security keys
+### مفاتيح الأمان المادية (Hardware Security Keys)
 
-The YubiKey stores data on a tamper-resistant solid-state chip which is [impossible to access](https://security.stackexchange.com/a/245772) non-destructively without an expensive process and a forensics laboratory.
+يخزّن الـ YubiKey البيانات على شريحة صلبة مقاومة للعبث، ويُعد [الوصول إليها مستحيلًا](https://security.stackexchange.com/a/245772) دون إتلافها إلا باستخدام عملية مكلفة ومختبر متخصص في التحليل الجنائي الرقمي.
 
-These keys are generally multi-function and provide a number of methods to authenticate. Below are the most common ones.
+تكون هذه المفاتيح عادةً متعددة الوظائف، وتوفر عدة طرق للمصادقة. فيما يلي أكثرها شيوعا.
 
 #### Yubico OTP
 
-Yubico OTP is an authentication protocol typically implemented in hardware security keys. When you decide to use Yubico OTP, the key will generate a public ID, private ID, and a Secret Key which is then uploaded to the Yubico OTP server.
+الـ Yubico OTP هو بروتوكول مصادقة يُستخدم عادةً في مفاتيح الأمان المادية (hardware security keys). عندما تقرر استخدام Yubico OTP، سيُنشئ المفتاح معرفا عاما، ومعرفا خاصا، ومفتاحا سريا، ثم تُرفع هذه البيانات إلى خادم Yubico OTP.
 
-When logging into a website, all you need to do is to physically touch the security key. The security key will emulate a keyboard and print out a one-time password into the password field.
+عند تسجيل الدخول إلى موقع ويب، كل ما عليك فعله هو لمس مفتاح الأمان فعليًا. سيحاكي مفتاح الأمان لوحة مفاتيح، ويدخل كلمة مرور لمرة واحدة في حقل كلمة المرور.
 
-The service will then forward the one-time password to the Yubico OTP server for validation. A counter is incremented both on the key and Yubico's validation server. The OTP can only be used once, and when a successful authentication occurs, the counter is increased which prevents reuse of the OTP. Yubico provides a [detailed document](https://developers.yubico.com/OTP/OTPs_Explained.html) about the process.
+بعد ذلك، سترسل الخدمة كلمة المرور لمرة واحدة إلى خادم Yubico OTP للتحقق منها. يتم زيادة عدّاد (counter) على كل من المفتاح وخادم التحقق التابع لـ Yubico. لا يمكن استخدام الـOTP إلا مرة واحدة، وعند نجاح المصادقة يزداد العداد، مما يمنع إعادة استخدام الرمز نفسه. توفّر Yubico [وثيقة مفصلة](https://developers.yubico.com/OTP/OTPs_Explained.html) تشرح هذه العملية.
 
 <figure markdown>
   ![Yubico OTP](../assets/img/multi-factor-authentication/yubico-otp.png)
 </figure>
 
-There are some benefits and disadvantages to using Yubico OTP when compared to TOTP.
+هناك بعض المزايا والعيوب لاستخدام Yubico OTP مقارنة بـ TOTP.
 
 The Yubico validation server is a cloud based service, and you're placing trust in Yubico that they are storing data securely and not profiling you. The public ID associated with Yubico OTP is reused on every website and could be another avenue for third-parties to profile you. Like TOTP, Yubico OTP does not provide phishing resistance.
 
@@ -124,39 +124,39 @@ macOS has [native support](https://support.apple.com/guide/deployment/intro-to-s
 
 Yubico have a guide [Using Your YubiKey as a Smart Card in macOS](https://support.yubico.com/hc/articles/360016649059) which can help you set up your YubiKey on macOS.
 
-After your smart card/security key is set up, we recommend running this command in the Terminal:
+بعد إعداد البطاقة الذكية/مفتاح الأمان، نوصي بتشغيل هذا الأمر في الـ Terminal:
 
 ```text
 sudo defaults write /Library/Preferences/com.apple.loginwindow DisableFDEAutoLogin -bool YES
 ```
 
-The command will prevent an adversary from bypassing MFA when the computer boots.
+سيمنع هذا الأمر المهاجم من تجاوز الـ MFA عند إقلاع الكمبيوتر.
 
-### Linux
+### لينكس
 
 <div class="admonition warning" markdown>
 <p class="admonition-title">تنوية</p>
 
-If the hostname of your system changes (such as due to DHCP), you would be unable to login. It is vital that you set up a proper hostname for your computer before following this guide.
+إذا تغير اسم المضيف (hostname) لنظامك، مثلا بسبب DHCP، فلن تتمكن من تسجيل الدخول. من الضروري تعيين اسم مضيف (hostname) مناسب لجهازك قبل اتباع هذا الدليل.
 
 </div>
 
-The `pam_u2f` module on Linux can provide two-factor authentication for logging in on most popular Linux distributions. If you have a hardware security key that supports U2F, you can set up MFA authentication for your login. Yubico has a guide [Ubuntu Linux Login Guide - U2F](https://support.yubico.com/s/article/Ubuntu-Linux-login-guide-U2F) which should work on any distribution. The package manager commands—such as `apt-get`—and package names may however differ. This guide does **not** apply to Qubes OS.
+يمكن لوحدة `pam_u2f` على Linux توفير المصادقة الثنائية عند تسجيل الدخول في معظم توزيعات Linux الشائعة. إذا كان لديك مفتاح أمان مادي يدعم الـU2F، فيمكنك إعداد MFA لتسجيل الدخول. لدى Yubico دليل [تسجيل الدخول إلى Ubuntu Linux باستخدام U2F](https://support.yubico.com/s/article/Ubuntu-Linux-login-guide-U2F)، ومن المفترض أن يعمل مع أي توزيعة Linux. لكن قد تختلف أوامر مدير الحزم، مثل `apt-get`، وكذلك أسماء الحزم. هذا الدليل **لا** ينطبق على Qubes OS.
 
 ### Qubes OS
 
-Qubes OS has support for Challenge-Response authentication with YubiKeys. If you have a YubiKey with Challenge-Response authentication support, take a look at the Qubes OS [YubiKey documentation](https://qubes-os.org/doc/yubikey) if you want to set up MFA on Qubes OS.
+يدعم Qubes OS المصادقة بنظام الـChallenge-Response باستخدام YubiKeys. إذا كان لديك YubiKey يدعم مصادقة الـChallenge-Response، فراجع [وثائق الـ YubiKey](https://qubes-os.org/doc/yubikey) الخاصة بـ Qubes OS إذا كنت تريد إعداد MFA على Qubes OS.
 
 ### SSH
 
-#### Hardware Security Keys
+#### مفاتيح الأمان المادية (Hardware Security Keys)
 
-SSH MFA could be set up using multiple different authentication methods that are popular with hardware security keys. We recommend that you check out Yubico's [documentation](https://developers.yubico.com/SSH) on how to set this up.
+يمكن إعداد الـMFA لاتصالات الـSSH باستخدام عدة طرق مصادقة مختلفة تدعمها مفاتيح الأمان المادية بشكل شائع. نوصي بالاطلاع على [وثائق](https://developers.yubico.com/SSH) Yubico لمعرفة كيفية إعداد ذلك.
 
 #### TOTP
 
-SSH MFA can also be set up using TOTP. DigitalOcean has provided a tutorial [How To Set Up Multi-Factor Authentication for SSH on Ubuntu 20.04](https://digitalocean.com/community/tutorials/how-to-set-up-multi-factor-authentication-for-ssh-on-ubuntu-20-04). Most things should be the same regardless of distribution, however the package manager commands—such as `apt-get`—and package names may differ.
+يمكن أيضا إعداد MFA لاتصالات SSH باستخدام TOTP. قدّمت DigitalOcean دليلا بعنوان [كيفية إعداد المصادقة متعددة العوامل لـ SSH على Ubuntu 20.04](https://digitalocean.com/community/tutorials/how-to-set-up-multi-factor-authentication-for-ssh-on-ubuntu-20-04). يُفترض أن تكون معظم الخطوات متشابهة بغض النظر عن التوزيعة، لكن قد تختلف أوامر مدير الحزم، مثل `apt-get`، وكذلك أسماء الحزم.
 
 ### KeePass (and KeePassXC)
 
-KeePass and KeePassXC databases can be secured using HOTP or Challenge-Response as a second-factor of authentication. Yubico has provided a document for KeePass [Using Your YubiKey with KeePass](https://support.yubico.com/hc/articles/360013779759-Using-Your-YubiKey-with-KeePass) and there is also one on the [KeePassXC](https://keepassxc.org/docs/#faq-yubikey-2fa) website.
+يمكن تأمين قواعد بيانات KeePass وKeePassXC باستخدام HOTP أو Challenge-Response كعامل مصادقة ثانٍ. قدمت Yubico دليلا خاصا بـ KeePass بعنوان [استخدام YubiKey مع KeePass](https://support.yubico.com/hc/articles/360013779759-Using-Your-YubiKey-with-KeePass)، كما يوجد دليل آخر على موقع [KeePassXC](https://keepassxc.org/docs/#faq-yubikey-2fa).

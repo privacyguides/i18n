@@ -21,7 +21,7 @@ schema:
     operatingSystem:
       - Windows
       - macOS
-      - Linux
+      - لينكس
     subjectOf:
       "@type": WebPage
       url: "./"
@@ -36,7 +36,7 @@ schema:
     operatingSystem:
       - Windows
       - macOS
-      - Linux
+      - لينكس
     subjectOf:
       "@type": WebPage
       url: "./"
@@ -51,7 +51,7 @@ schema:
     operatingSystem:
       - Windows
       - macOS
-      - Linux
+      - لينكس
     subjectOf:
       "@type": WebPage
       url: "./"

@@ -21,7 +21,7 @@ schema:
     operatingSystem:
       - Windows
       - macOS
-      - Linux
+      - لينكس
       - Android
       - iOS
     subjectOf:
@@ -39,7 +39,7 @@ schema:
     operatingSystem:
       - Windows
       - macOS
-      - Linux
+      - لينكس
       - Android
       - iOS
     subjectOf:
@@ -85,7 +85,7 @@ schema:
     operatingSystem:
       - Windows
       - macOS
-      - Linux
+      - لينكس
     subjectOf:
       "@context": http://schema.org
       "@type": WebPage
@@ -112,7 +112,7 @@ schema:
     operatingSystem:
       - Windows
       - macOS
-      - Linux
+      - لينكس
       - FreeBSD
     subjectOf:
       "@context": http://schema.org
