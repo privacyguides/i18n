@@ -1,38 +1,38 @@
 ---
-title: Multifactor Authentication
+title: الـ Multifactor Authentication
 icon: material/two-factor-authentication
-description: MFA is a critical security mechanism for securing your online accounts, but some methods are stronger than others.
+description: تُعد الـ MFA آلية أمان أساسية لحماية حساباتك على الإنترنت، لكن بعض طرقها أقوى من غيرها.
 ---
 
-**Multifactor Authentication** (**MFA**) is a security mechanism that requires additional steps beyond entering your username (or email) and password. The most common method is time limited codes you might receive from SMS or an app.
+**الـ Multifactor Authentication** (**MFA**) هي آلية أمان تتطلب خطوات إضافية إلى جانب إدخال اسم المستخدم (أو البريد الإلكتروني) وكلمة المرور. الطريقة الأكثر شيوعا هي استخدام رموز مؤقتة قد تصلك عبر الـ SMS أو من خلال تطبيق.
 
-Normally, if a hacker (or adversary) is able to figure out your password then they’d gain access to the account that password belongs to. An account with MFA forces the hacker to have both the password (something you *know*) and a device that you own (something you *have*), like your phone.
+عادةً، إذا تمكن مخترق (أو مهاجم) من معرفة كلمة مرورك، فسيتمكن من الوصول إلى الحساب المرتبط بها. الحساب الذي يستخدم الـ MFA يُجبر المخترق على امتلاك كلمة المرور (شيء *تعرفه*) وجهاز تملكه (شيء *لديك*)، مثل هاتفك.
 
-MFA methods vary in security, but are based on the premise that the more difficult it is for an attacker to gain access to your MFA method, the better. Examples of MFA methods (from weakest to strongest) include SMS, Email codes, app push notifications, TOTP, Yubico OTP and FIDO.
+تختلف طرق الـ MFA في مستوى الأمان، لكنها تعتمد على مبدأ بسيط: كلما كان من الصعب على المهاجم الوصول إلى وسيلة الـMFA التي تستخدمها، كان ذلك أفضل. تشمل أمثلة طرق الـ MFA، من الأضعف إلى الأقوى: SMS، ورموز البريد الإلكتروني، وإشعارات التطبيقات، وTOTP، وYubico OTP، وFIDO.
 
-## MFA Method Comparison
+## مقارنة طرق الـ MFA
 
-### SMS or Email MFA
+### الـ MFA عبر SMS أو البريد الإلكتروني
 
-Receiving OTP codes via SMS or email are one of the weaker ways to secure your accounts with MFA. Obtaining a code by email or SMS takes away from the "something you *have*" idea, because there are a variety of ways a hacker could [take over your phone number](https://en.wikipedia.org/wiki/SIM_swap_scam) or gain access to your email without having physical access to any of your devices at all. If an unauthorized person gained access to your email, they would be able to use that access to both reset your password and receive the authentication code, giving them full access to your account.
+يُعد تلقي رموز OTP عبر الـ SMS أو البريد الإلكتروني من أضعف الطرق لتأمين حساباتك باستخدام الـ MFA. الحصول على رمز عبر البريد الإلكتروني أو الـ SMS يُضعف فكرة «شيء *تملكه*»، لأن هناك عدة طرق يمكن للمخترق من خلالها [الاستيلاء على رقم هاتفك](https://en.wikipedia.org/wiki/SIM_swap_scam) أو الوصول إلى بريدك الإلكتروني دون الحاجة إلى الوصول الفعلي إلى أي من أجهزتك. إذا تمكن شخص غير مصرح له من الوصول إلى بريدك الإلكتروني، فسيكون بإمكانه استخدام هذا الوصول لإعادة تعيين كلمة مرورك واستلام رمز المصادقة أيضا، مما يمنحه وصولا كاملا إلى حسابك.
 
-### Push Notifications
+### الإشعارات الفورية
 
-Push notification MFA takes the form of a message being sent to an app on your phone asking you to confirm new account logins. This method is a lot better than SMS or email, since an attacker typically wouldn't be able to get these push notifications without having an already logged-in device, which means they would need to compromise one of your other devices first.
+تعمل الـ MFA عبر الإشعارات الفورية من خلال إرسال رسالة إلى تطبيق على هاتفك تطلب منك تأكيد عمليات تسجيل الدخول الجديدة إلى حسابك. هذه الطريقة أفضل بكثير من الـ SMS أو البريد الإلكتروني، لأن المهاجم عادةً لن يتمكن من تلقي هذه الإشعارات دون امتلاك جهاز مسجّل الدخول بالفعل، ما يعني أنه سيحتاج أولا إلى اختراق أحد أجهزتك الأخرى.
 
-We all make mistakes, and there is the risk that you might accept the login attempt by accident. Push notification login authorizations are typically sent to *all* your devices at once, widening the availability of the MFA code if you have many devices.
+جميعنا قد نخطئ، وهناك احتمال أن توافق على محاولة تسجيل الدخول عن طريق الخطأ. عادةً ما تُرسل طلبات الموافقة على تسجيل الدخول عبر الإشعارات الفورية إلى *جميع* أجهزتك في الوقت نفسه، مما يزيد عدد الأجهزة التي يمكن من خلالها الموافقة على تسجيل الدخول إذا كان لديك عدة أجهزة.
 
-The security of push notification MFA is dependent on both the quality of the app, the server component and the trust of the developer who produces it. Installing an app may also require you to accept invasive privileges that grant access to other data on your device. An individual app also requires that you have a specific app for each service which may not require a password to open, unlike a good TOTP generator app.
+يعتمد أمان الـ MFA عبر الإشعارات الفورية على جودة التطبيق ومكوّن الخادم، وكذلك على مدى موثوقية المطوّر الذي أنشأه. قد يتطلب تثبيت التطبيق أيضا منح صلاحيات واسعة تمكنه من الوصول إلى بيانات أخرى على جهازك. كما أن هذه الطريقة تتطلب عادة تطبيقا مخصصا لكل خدمة، وقد لا يتطلب هذا التطبيق كلمة مرور لفتحه، بخلاف تطبيق جيد لتوليد رموز TOTP.
 
-### Time-based One-time Password (TOTP)
+### كلمة المرور الصالحة لمرة واحدة المستندة إلى الوقت (TOTTP)
 
-TOTP is one of the most common forms of MFA available. When you set up TOTP, you are generally required to scan a [QR Code](https://en.wikipedia.org/wiki/QR_code) which establishes a "[shared secret](https://en.wikipedia.org/wiki/Shared_secret)" with the service that you intend to use. The shared secret is secured inside the authenticator app's data, and is sometimes protected by a password.
+تُعد الـ TOTP واحدة من أكثر أشكال الـ MFA شيوعا. عند إعداد TOTP، يُطلب منك عادةً مسح [رمز الـQR](https://en.wikipedia.org/wiki/QR_code) لإنشاء "[سر مشترك](https://en.wikipedia.org/wiki/Shared_secret)" مع الخدمة التي تريد استخدامها. يُحفظ السر المشترك بشكل آمن داخل بيانات تطبيق المصادقة، ويكون محميًا أحيانا بكلمة مرور.
 
-The time-limited code is then derived from the shared secret and the current time. As the code is only valid for a short time, without access to the shared secret, an adversary cannot generate new codes.
+بعد ذلك، يتم توليد الرمز المؤقت اعتمادا على السر المشترك والوقت الحالي. وبما أن الرمز صالح لفترة قصيرة فقط، فلن يتمكن المهاجم من توليد رموز جديدة دون الوصول إلى السر المشترك.
 
-If you have a hardware security key with TOTP support (such as a YubiKey with [Yubico Authenticator](https://yubico.com/products/yubico-authenticator)), we recommend that you store your "shared secrets" on the hardware. Hardware such as the YubiKey was developed with the intention of making the "shared secret" difficult to extract and copy. A YubiKey is also not connected to the Internet, unlike a phone with a TOTP app.
+إذا كان لديك مفتاح أمان مادي يدعم TOTP (مثل YubiKey مع [Yubico Authenticator](https://yubico.com/products/yubico-authenticator))، فننصحك بتخزين "الأسرار المشتركة (shared secrets)" على المفتاح نفسه. تم تطوير أجهزة مثل YubiKey بهدف جعل استخراج "السر المشترك (shared secret)" ونسخه أمرًا صعبًا. كما أن الـ YubiKey غير متصل بالإنترنت، بخلاف الهاتف الذي يحتوي على تطبيق TOTP.
 
-Unlike [WebAuthn](#fido-fast-identity-online), TOTP offers no protection against [phishing](https://en.wikipedia.org/wiki/Phishing) or reuse attacks. If an adversary obtains a valid code from you, they may use it as many times as they like until it expires (generally 60 seconds).
+على عكس الـ[WebAuthn](#fido-fast-identity-online)، لا توفر TOTP أي حماية من [التصيد الاحتيالي (Phishing)](https://en.wikipedia.org/wiki/Phishing) أو هجمات إعادة الاستخدام. إذا حصل المهاجم منك على رمز صالح، فيمكنه استخدامه عدة مرات كما يشاء حتى تنتهي صلاحيته (عادة خلال 60 ثانية).
 
 An adversary could set up a website to imitate an official service in an attempt to trick you into giving out your username, password and current TOTP code. If the adversary then uses those recorded credentials they may be able to log into the real service and hijack the account.
 
