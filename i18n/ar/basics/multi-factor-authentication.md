@@ -58,15 +58,15 @@ description: تُعد الـ MFA آلية أمان أساسية لحماية ح�
 
 هناك بعض المزايا والعيوب لاستخدام Yubico OTP مقارنة بـ TOTP.
 
-The Yubico validation server is a cloud based service, and you're placing trust in Yubico that they are storing data securely and not profiling you. The public ID associated with Yubico OTP is reused on every website and could be another avenue for third-parties to profile you. Like TOTP, Yubico OTP does not provide phishing resistance.
+خادم التحقق من الـ Yubico هو خدمة سحابية، واستخدامه يعني أنك تثق في Yubico لحفظ بياناتك بشكل آمن وعدم إنشاء ملف تعريفي عنك. يُعاد استخدام الـ public ID المرتبط بـ Yubico OTP على كل موقع، وقد يتيح ذلك لجهات خارجية وسيلة أخرى لإنشاء ملف تعريفي عنك. مثل الـ TOTP، لا يوفر Yubico OTP حماية من التصيد الاحتيالي.
 
-If your threat model requires you to have different identities on different websites, **do not** use Yubico OTP with the same hardware security key across those websites as public ID is unique to each security key.
+إذا كان الـ Threat Model الخاص بك يتطلب استخدام هويات مختلفة على مواقع مختلفة، **فلا** تستخدم الـ Yubico OTP بمفتاح الأمان المادي نفسه عبر هذه المواقع، لأن public ID فريد لكل مفتاح أمان.
 
-#### FIDO (Fast IDentity Online)
+#### FIDO (الهوية السريعة عبر الإنترنت)
 
-[FIDO](https://en.wikipedia.org/wiki/FIDO_Alliance) includes a number of standards, first there was [U2F](https://en.wikipedia.org/wiki/Universal_2nd_Factor) and then later [FIDO2](https://en.wikipedia.org/wiki/FIDO2_Project) which includes the web standard [WebAuthn](https://en.wikipedia.org/wiki/WebAuthn).
+[FIDO](https://en.wikipedia.org/wiki/FIDO_Alliance) يشمل عددًا من المعايير؛ بدأ أولًا بـ [U2F](https://en.wikipedia.org/wiki/Universal_2nd_Factor)، ثم جاء لاحقًا [FIDO2](https://en.wikipedia.org/wiki/FIDO2_Project)، والذي يتضمن معيار الويب [WebAuthn](https://en.wikipedia.org/wiki/WebAuthn).
 
-U2F and FIDO2 refer to the [Client to Authenticator Protocol](https://en.wikipedia.org/wiki/Client_to_Authenticator_Protocol), which is the protocol between the security key and the computer, such as a laptop or phone. It complements WebAuthn which is the component used to authenticate with the website (the "Relying Party") you're trying to log in on.
+يشير U2F وFIDO2 إلى [Client to Authenticator Protocol](https://en.wikipedia.org/wiki/Client_to_Authenticator_Protocol)، وهو البروتوكول المستخدم بين مفتاح الأمان والجهاز، مثل الكمبيوتر المحمول أو الهاتف. It complements WebAuthn which is the component used to authenticate with the website (the "Relying Party") you're trying to log in on.
 
 WebAuthn is the most secure and private form of second factor authentication. While the authentication experience is similar to Yubico OTP, the key does not print out a one-time password and validate with a third-party server. Instead, it uses [public key cryptography](https://en.wikipedia.org/wiki/Public-key_cryptography) for authentication.
 
