@@ -66,63 +66,63 @@ description: تُعد الـ MFA آلية أمان أساسية لحماية ح�
 
 [FIDO](https://en.wikipedia.org/wiki/FIDO_Alliance) يشمل عددًا من المعايير؛ بدأ أولًا بـ [U2F](https://en.wikipedia.org/wiki/Universal_2nd_Factor)، ثم جاء لاحقًا [FIDO2](https://en.wikipedia.org/wiki/FIDO2_Project)، والذي يتضمن معيار الويب [WebAuthn](https://en.wikipedia.org/wiki/WebAuthn).
 
-يشير U2F وFIDO2 إلى [Client to Authenticator Protocol](https://en.wikipedia.org/wiki/Client_to_Authenticator_Protocol)، وهو البروتوكول المستخدم بين مفتاح الأمان والجهاز، مثل الكمبيوتر المحمول أو الهاتف. It complements WebAuthn which is the component used to authenticate with the website (the "Relying Party") you're trying to log in on.
+يشير U2F وFIDO2 إلى [Client to Authenticator Protocol](https://en.wikipedia.org/wiki/Client_to_Authenticator_Protocol)، وهو البروتوكول المستخدم بين مفتاح الأمان والجهاز، مثل الكمبيوتر المحمول أو الهاتف. وهو يعمل إلى جانب WebAuthn، وهو المكوّن المستخدم للمصادقة مع الموقع (الـ "Relying Party") الذي تحاول تسجيل الدخول إليه.
 
-WebAuthn is the most secure and private form of second factor authentication. While the authentication experience is similar to Yubico OTP, the key does not print out a one-time password and validate with a third-party server. Instead, it uses [public key cryptography](https://en.wikipedia.org/wiki/Public-key_cryptography) for authentication.
+الـ WebAuthn هو أكثر طرق التحقق بخطوتين أمانًا وحفاظًا على الخصوصية. رغم أن تجربة المصادقة تشبه الـ Yubico OTP، فإن المفتاح لا يُنشئ كلمة مرور تُستخدم لمرة واحدة ولا يعتمد على خادم تابع لجهة خارجية للتحقق منها. بدلًا من ذلك، يستخدم [تشفير المفتاح العام (public key cryptography)](https://en.wikipedia.org/wiki/Public-key_cryptography) للمصادقة.
 
 <figure markdown>
   ![FIDO](../assets/img/multi-factor-authentication/fido.png)
 </figure>
 
-When you create an account, the public key is sent to the service, then when you log in, the service will require you to "sign" some data with your private key. The benefit of this is that no password data is ever stored by the service, so there is nothing for an adversary to steal.
+عند إنشاء حساب، يُرسل المفتاح العام (public key) إلى الخدمة، ثم عند تسجيل الدخول تطلب منك الخدمة «توقيع» بعض البيانات باستخدام مفتاحك الخاص. ميزة ذلك هي أن الخدمة لا تخزّن أي بيانات خاصة بكلمة المرور، وبالتالي لا يوجد ما يمكن للمهاجم سرقته.
 
-This presentation discusses the history of password authentication, the pitfalls (such as password reuse), and the standards for FIDO2 and [WebAuthn](https://webauthn.guide):
+يناقش هذا العرض تاريخ المصادقة باستخدام كلمات المرور، ومشكلاتها (مثل إعادة استخدام كلمة المرور)، ومعايير FIDO2 و[WebAuthn](https://webauthn.guide):
 
-- [How FIDO2 and WebAuthn Stop Account Takeovers](https://youtu.be/aMo4ZlWznao) <small>(YouTube)</small>
+- [كيف يمنع FIDO2 وWebAuthn الاستيلاء على الحسابات](https://youtu.be/aMo4ZlWznao) <small>(YouTube)</small>
 
-FIDO2 and WebAuthn have superior security and privacy properties when compared to any MFA methods.
+يتمتع FIDO2 وWebAuthn بخصائص أمان وخصوصية أفضل مقارنة بأي من طرق الـ MFA الأخرى.
 
-Typically, for web services it is used with WebAuthn which is a part of the [W3C recommendations](https://en.wikipedia.org/wiki/World_Wide_Web_Consortium#W3C_recommendation_(REC)). It uses public key authentication and is more secure than shared secrets used in Yubico OTP and TOTP methods, as it includes the origin name (usually, the domain name) during authentication. Attestation is provided to protect you from phishing attacks, as it helps you to determine that you are using the authentic service and not a fake copy.
+بالنسبة لخدمات الويب، يُستخدم عادة مع WebAuthn، وهو جزء من [معايير W3C الموصى بها](https://en.wikipedia.org/wiki/World_Wide_Web_Consortium#W3C_recommendation_(REC)). يستخدم المصادقة بالمفتاح العام (public key)، وهو أكثر أمانًا من الأسرار المشتركة (shared secrets) المستخدمة في طريقتَي Yubico OTP وTOTP، لأنه يتضمن اسم المصدر (عادةً اسم النطاق) أثناء المصادقة. تُستخدم الـ Attestation لحمايتك من هجمات التصيد الاحتيالي (phishing)، إذ تساعدك على التأكد من أنك تستخدم الخدمة الأصلية وليست نسخة مزيفة.
 
-Unlike Yubico OTP, WebAuthn does not use any public ID, so the key is **not** identifiable across different websites. It also does not use any third-party cloud server for authentication. All communication is completed between the key and the website you are logging into. FIDO also uses a counter which is incremented upon use in order to prevent session reuse and cloned keys.
+على عكس الـ Yubico OTP، لا يستخدم WebAuthn أي معرف عام، لذلك لا يمكن التعرّف على المفتاح عبر مواقع ويب مختلفة **على أنه نفس المفتاح**. كما أنه لا يستخدم أي خادم سحابي تابع لجهة خارجية لإجراء المصادقة. تتم جميع الاتصالات مباشرةً بين المفتاح وموقع الويب الذي تسجّل الدخول إليه. يستخدم FIDO أيضًا عدّادًا تزداد قيمته مع كل استخدام، لمنع إعادة استخدام الجلسات واستخدام المفاتيح المستنسخة.
 
-If a website or service supports WebAuthn for the authentication, it is highly recommended that you use it over any other form of MFA.
+إذا كان موقع ويب أو خدمة يدعم الـ WebAuthn للمصادقة، فننصح بشدة باستخدامه بدلًا من أي طريقة أخرى من طرق MFA.
 
-## General Recommendations
+## توصيات عامة
 
-We have these general recommendations:
+لدينا التوصيات التالية:
 
-### Which Method Should I Use?
+### أي طريقة يجب أن أستخدم؟
 
-When configuring your MFA method, keep in mind that it is only as secure as your weakest authentication method you use. This means it is important that you only use the best MFA method available. For instance, if you are already using TOTP, you should disable email and SMS MFA. If you are already using FIDO2/WebAuthn, you should not be using Yubico OTP or TOTP on your account.
+عند إعداد طريقة الـ MFA، تذكّر أن مستوى أمانها لا يتجاوز أمان أضعف طريقة مصادقة تستخدمها. هذا يعني أنه من المهم استخدام أفضل طريقة MFA متاحة فقط. على سبيل المثال، إذا كنت تستخدم TOTP بالفعل، فيجب تعطيل MFA عبر البريد الإلكتروني والرسائل النصية SMS. إذا كنت تستخدم FIDO2/WebAuthn بالفعل، فلا ينبغي أن تستخدم Yubico OTP أو TOTP على حسابك.
 
-### Backups
+### النسخ الاحتياطي
 
-You should always have backups for your MFA method. Hardware security keys can get lost, stolen or simply stop working over time. It is recommended that you have a pair of hardware security keys with the same access to your accounts instead of just one.
+يجب أن تحتفظ دائما بنسخ احتياطية لطريقة الـ MFA التي تستخدمها. قد تضيع مفاتيح الأمان المادية أو تُسرق، أو ببساطة تتوقف عن العمل بمرور الوقت. يُنصح بأن يكون لديك مفتاحا أمان ماديان، وكلاهما يتيح الوصول نفسه إلى حساباتك، بدلًا من الاعتماد على مفتاح واحد فقط.
 
-When using TOTP with an authenticator app, be sure to back up your recovery keys or the app itself, or copy the "shared secrets" to another instance of the app on a different phone or to an encrypted container (e.g. [VeraCrypt](../encryption.md#veracrypt-disk)).
+عند استخدام الـ TOTP مع تطبيق مصادقة، تأكد من الاحتفاظ بنسخة احتياطية من مفاتيح الاسترداد أو من التطبيق نفسه، أو انسخ "الأسرار المشتركة" إلى نسخة أخرى من التطبيق على هاتف مختلف أو إلى حاوية مشفرة (مثل [VeraCrypt](../encryption.md#veracrypt-disk)).
 
-### Initial Set Up
+### الإعداد الأولي
 
-When buying a security key, it is important that you change the default credentials, set up password protection for the key, and enable touch confirmation if your key supports it. Products such as the YubiKey have multiple interfaces with separate credentials for each one of them, so you should go over each interface and set up protection as well.
+عند شراء مفتاح أمان، من المهم تغيير بيانات الاعتماد الافتراضية (default credentials)، وإعداد حماية بكلمة مرور للمفتاح، وتفعيل تأكيد اللمس إذا كان المفتاح يدعم ذلك. تحتوي منتجات مثل YubiKey على عدة واجهات، ولكل واجهة بيانات اعتماد منفصلة، لذلك يجب مراجعة كل واجهة وإعداد الحماية لها أيضًا.
 
-### Email and SMS
+### البريد الإلكتروني والرسائل النصية القصيرة (SMS)
 
-If you have to use email for MFA, make sure that the email account itself is secured with a proper MFA method.
+إذا اضطررت إلى استخدام البريد الإلكتروني كطريقة للـMFA، فتأكد من أن حساب البريد الإلكتروني نفسه محمي بطريقة الـ MFA مناسبة.
 
-If you use SMS MFA, use a carrier who will not switch your phone number to a new SIM card without account access, or use a dedicated VoIP number from a provider with similar security to avoid a [SIM swap attack](https://en.wikipedia.org/wiki/SIM_swap_scam).
+إذا كنت تستخدم SMS للمصادقة متعددة العوامل (MFA)، فاستخدم شركة اتصالات لا تنقل رقم هاتفك إلى شريحة SIM جديدة دون الوصول إلى حسابك، أو استخدم رقم VoIP مخصصًا من مزود يقدم مستوى حماية مشابهًا لتجنب [هجوم تبديل شريحة SIM](https://en.wikipedia.org/wiki/SIM_swap_scam).
 
-[MFA tools we recommend](../multi-factor-authentication.md ""){.md-button}
+[أدوات MFA التي نوصي بها](../multi-factor-authentication.md ""){.md-button}
 
-## More Places to Set Up MFA
+## أماكن أخرى لإعداد MFA
 
-Beyond just securing your website logins, multifactor authentication can be used to secure your local logins, SSH keys or even password databases as well.
+إلى جانب تأمين تسجيل الدخول إلى مواقع الويب، يمكن استخدام المصادقة متعددة العوامل (MFA) أيضا لتأمين تسجيل الدخول المحلي، ومفاتيح الـSSH، وحتى قواعد بيانات كلمات المرور.
 
 ### macOS
 
-macOS has [native support](https://support.apple.com/guide/deployment/intro-to-smart-card-integration-depd0b888248/web) for authentication with smart cards (PIV). If you have a smart card or a hardware security key that supports the PIV interface such as the YubiKey, we recommend that you follow your smart card or hardware security vendor's documentation and set up second factor authentication for your macOS computer.
+يحتوي macOS على [دعم مدمج](https://support.apple.com/guide/deployment/intro-to-smart-card-integration-depd0b888248/web) للمصادقة باستخدام البطاقات الذكية (PIV). إذا كانت لديك بطاقة ذكية أو مفتاح أمان مادي يدعم واجهة PIV مثل YubiKey، فنوصي باتباع تعليمات الشركة المصنّعة للبطاقة الذكية أو مفتاح الأمان، وإعداد المصادقة بعامل ثانٍ (second factor authentication) لجهاز macOS الخاص بك.
 
-Yubico have a guide [Using Your YubiKey as a Smart Card in macOS](https://support.yubico.com/hc/articles/360016649059) which can help you set up your YubiKey on macOS.
+لدى Yubico دليل بعنوان [استخدام YubiKey كبطاقة ذكية في macOS](https://support.yubico.com/hc/articles/360016649059) يمكنه مساعدتك في إعداد YubiKey على macOS.
 
 بعد إعداد البطاقة الذكية/مفتاح الأمان، نوصي بتشغيل هذا الأمر في الـ Terminal:
 

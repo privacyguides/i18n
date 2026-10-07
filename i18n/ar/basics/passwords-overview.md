@@ -121,6 +121,6 @@ Furthermore, we do not recommend storing single-use recovery codes in your passw
 
 </div>
 
-### Backups
+### النسخ الاحتياطي
 
 You should store an [encrypted](../encryption.md) backup of your passwords on multiple storage devices or a cloud storage provider. This can help you access your passwords if something happens to your primary device or the service you are using.
