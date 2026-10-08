@@ -1,22 +1,22 @@
 ---
-title: Introduction to Passwords
+title: مقدمة عن كلمات المرور
 icon: material/form-textbox-password
-description: These are some tips and tricks on how to create the strongest passwords and keep your accounts secure.
+description: إليك بعض النصائح والحيل لإنشاء كلمات مرور قوية قدر الإمكان والحفاظ على أمان حساباتك.
 ---
 
-Passwords are an essential part of our everyday digital lives. We use them to protect our accounts, our devices, and our secrets. Despite often being the only thing between us and an adversary who's after our private information, not a lot of thought is put into them, which often leads to people using passwords that can be easily guessed or brute-forced.
+كلمات المرور جزء أساسي من حياتنا الرقمية اليومية. نستخدمها لحماية حساباتنا وأجهزتنا ومعلوماتنا السرية. رغم أن كلمات المرور غالبا ما تكون الحاجز الوحيد بيننا وبين من يحاول الوصول إلى معلوماتنا الخاصة، فإن كثيرا من الناس لا يهتمون باختيارها بعناية، مما يدفعهم إلى استخدام كلمات مرور يسهل تخمينها أو اختراقها بتجربة عدد كبير من الاحتمالات (Brute Force).
 
-## Best Practices
+## أفضل الممارسات
 
-### Use unique passwords for every service
+### استخدم كلمة مرور مختلفة لكل خدمة
 
-Imagine this: You sign up for an account with the same e-mail and password on multiple online services. If one of those service providers is malicious, or their service has a data breach that exposes your password in an unencrypted format, all a bad actor would have to do is try that e-mail and password combination across multiple popular services until they get a hit. It doesn't matter how strong that one password is, because they already have it.
+تخيل أنك أنشأت حسابات على عدة خدمات عبر الإنترنت باستخدام نفس البريد الإلكتروني وكلمة المرور. إذا كانت إحدى هذه الخدمات غير موثوقة، أو تعرضت لاختراق أدى إلى تسريب كلمة مرورك دون تشفير، فكل ما يحتاج إليه المهاجم هو تجربة نفس البريد الإلكتروني وكلمة المرور على خدمات أخرى مشهورة حتى يتمكن من الدخول إلى أحد حساباتك. لا يهم مدى قوة كلمة المرور، لأنها أصبحت بالفعل بحوزتهم.
 
-This is called [credential stuffing](https://en.wikipedia.org/wiki/Credential_stuffing), and it is one of the most common ways that your accounts can be compromised by bad actors. To avoid this, make sure that you never re-use your passwords.
+يُعرف هذا الأسلوب باسم [ تجربة بيانات تسجيل الدخول المسروقة](https://en.wikipedia.org/wiki/Credential_stuffing) وهو من أكثر الطرق شيوعا التي يستخدمها المهاجمون لاختراق حساباتك. لتجنب ذلك، احرص على عدم استخدام كلمة المرور نفسها في أكثر من حساب.
 
 ### Use randomly generated passwords
 
-==You should **never** rely on yourself to come up with a good password.== We recommend using [randomly generated passwords](#passwords) or [diceware passphrases](#diceware-passphrases) with sufficient entropy to protect your accounts and devices.
+==يجب ألا **تعتمد** على نفسك في ابتكار كلمة مرور قوية.== ننصح باستخدام [كلمات مرور مولدة بشكل عشوائي](#passwords) أو[ تتمتع بقدر كافٍ من العشوائية](#diceware-passphrases) لحماية حساباتك وأجهزتك.
 
 All of our [recommended password managers](../passwords.md) include a built-in password generator that you can use.
 
