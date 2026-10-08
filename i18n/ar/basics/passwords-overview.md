@@ -14,113 +14,113 @@ description: إليك بعض النصائح والحيل لإنشاء كلمات
 
 يُعرف هذا الأسلوب باسم [ تجربة بيانات تسجيل الدخول المسروقة](https://en.wikipedia.org/wiki/Credential_stuffing) وهو من أكثر الطرق شيوعا التي يستخدمها المهاجمون لاختراق حساباتك. لتجنب ذلك، احرص على عدم استخدام كلمة المرور نفسها في أكثر من حساب.
 
-### Use randomly generated passwords
+### استخدم كلمات مرور مولدة بشكل عشوائي
 
 ==يجب ألا **تعتمد** على نفسك في ابتكار كلمة مرور قوية.== ننصح باستخدام [كلمات مرور مولدة بشكل عشوائي](#passwords) أو[ تتمتع بقدر كافٍ من العشوائية](#diceware-passphrases) لحماية حساباتك وأجهزتك.
 
-All of our [recommended password managers](../passwords.md) include a built-in password generator that you can use.
+جميع[الـ password managers الموصى بها](../passwords.md) تحتوي على أداة مدمجة لتوليد كلمات المرور يمكنك استخدامها.
 
-### Rotating Passwords
+### تغيير كلمات المرور بشكل دوري
 
-You should avoid changing passwords that you have to remember (such as your password manager's master password) too often unless you have reason to believe it has been compromised, as changing it too often exposes you to the risk of forgetting it.
+تجنب تغيير كلمات المرور التي تحتاج إلى تذكّرها (مثل كلمة المرور الرئيسية لمدير كلمات المرور) بشكل متكرر، إلا إذا كان لديك سبب للاعتقاد بأنها قد تسربت، لأن تغييرها كثيرا يزيد من احتمال نسيانها.
 
-When it comes to passwords that you don't have to remember (such as passwords stored inside your password manager), if your [threat model](threat-modeling.md) calls for it, we recommend going through important accounts (especially accounts that don't use multifactor authentication) and changing their password every couple of months, in case they have been compromised in a data breach that hasn't become public yet. Most password managers allow you to set an expiry date for your password to make this easier to manage.
+أما كلمات المرور التي لا تحتاج إلى تذكرها (مثل كلمات المرور المحفوظة في مدير كلمات المرور)، فنوصي بتغيير كلمات مرور حساباتك المهمة كل شهرين تقريبا إذا كان [الـThreat Model ](threat-modeling.md)الخاص بك يستدعي ذلك، خاصةً الحسابات التي لا تستخدم المصادقة متعددة العوامل (Mfa). فهذا يساعد على حمايتك في حال تسرّبت كلمات المرور في اختراق للبيانات لم يُعلن عنه بعد. تتيح لك معظم برامج إدارة كلمات المرور تحديد تاريخ انتهاء صلاحية لكلمة المرور، مما يسهل عليك متابعة تغييرها.
 
 <div class="admonition tip" markdown>
-<p class="admonition-title">Checking for data breaches</p>
+<p class="admonition-title">التحقق من تسرب البيانات</p>
 
-If your password manager lets you check for compromised passwords, make sure to do so and promptly change any password that may have been exposed in a data breach. Alternatively, you could follow [Have I Been Pwned's Latest Breaches feed](https://feeds.feedburner.com/HaveIBeenPwnedLatestBreaches) with the help of a [news aggregator](../news-aggregators.md).
+إذا كان مدير كلمات المرور لديك يتيح لك التحقق من كلمات المرور التي تسرّبت، فتأكد من استخدام هذه الميزة، وغيّر فورا أي كلمة مرور يُحتمل أنها تسربت في اختراق للبيانات. بدلا من ذلك، يمكنك متابعة [آخر تسريبات البيانات على Have I Been Pwned](https://feeds.feedburner.com/HaveIBeenPwnedLatestBreaches) بمساعدة الـ [news aggregator](../news-aggregators.md).
 
 </div>
 
-## Creating strong passwords
+## إنشاء كلمات مرور قوية
 
-### Passwords
+### كلمات المرور
 
-A lot of services impose certain criteria when it comes to passwords, including a minimum or maximum length, as well as which special characters, if any, can be used. You should use your password manager's built-in password generator to create passwords that are as long and complex as the service will allow by including capitalized and lowercase letters, numbers and special characters.
+تفرض الكثير من الخدمات شروطا معينة على كلمات المرور، مثل الحد الأدنى أو الأقصى لعدد الأحرف، والرموز الخاصة المسموح باستخدامها، إن وجدت. استخدم أداة توليد كلمات المرور المدمجة في مدير كلمات المرور لإنشاء كلمات مرور طويلة ومعقدة قدر الإمكان، ضمن الحدود التي تسمح بها الخدمة، بحيث تحتوي على أحرف إنجليزية كبيرة وصغيرة وأرقام ورموز خاصة.
 
-If you need a password you can memorize, we recommend a [diceware passphrase](#diceware-passphrases).
+إذا كنت بحاجة إلى كلمة مرور يسهل عليك تذكرها، فنوصي باستخدام عبارة مرور من نوع [الـdiceware.](#diceware-passphrases)
 
-### Diceware Passphrases
+### عبارات المرور باستخدام الـDiceware
 
-Diceware is a method for creating passphrases which are easy to remember, but hard to guess.
+طريقة الـ Diceware هي طريقة لإنشاء عبارات مرور يسهل تذكرها، لكن يصعب تخمينها.
 
-Diceware passphrases are a great option when you need to memorize or manually input your credentials, such as for your password manager's master password or your device's encryption password.
+عبارات المرور باستخدام Diceware خيار ممتاز عندما تحتاج إلى تذكر بيانات تسجيل الدخول أو إدخالها يدويا، مثل كلمة المرور الرئيسية لمدير كلمات المرور أو كلمة المرور المستخدمة لتشفير جهازك.
 
-An example of a diceware passphrase is `viewable fastness reluctant squishy seventeen shown pencil`.
+مثال على عبارة مرور باستخدام Diceware هو `قمر تفاحة حصان نافذة بحر كتاب شجرة.`
 
-To generate a diceware passphrase using real dice, follow these steps:
+لإنشاء عبارة مرور باستخدام Diceware ونرد حقيقي، اتبع الخطوات التالية:
 
 <div class="admonition Note" markdown>
-<p class="admonition-title">Note</p>
+<p class="admonition-title">ملحوظة</p>
 
-These instructions assume that you are using [EFF's large word list](https://eff.org/files/2016/07/18/eff_large_wordlist.txt) to generate the passphrase, which requires five dice rolls per word. Other word lists may require more or less rolls per word, and may require a different amount of words to achieve the same entropy.
+تفترض هذه التعليمات أنك تستخدم قائمة [الكلمات الكبيرة من EFF](https://eff.org/files/2016/07/18/eff_large_wordlist.txt) لإنشاء عبارة المرور، والتي تتطلب رمي النرد خمس مرات لاختيار كل كلمة. قد تتطلب قوائم الكلمات الأخرى رمي النرد مرات أكثر أو أقل لاختيار كل كلمة، وقد تحتاج إلى عدد مختلف من الكلمات للوصول إلى نفس مستوى العشوائية (Entropy).
 
 </div>
 
-1. Roll a six-sided die five times, noting down the number after each roll.
+1. ارمِ نردا بستة أوجه خمس مرات، وسجل الرقم الذي يظهر في كل مرة.
 
-2. As an example, let's say you rolled `2-5-2-6-6`. Look through the [EFF's large word list](https://eff.org/files/2016/07/18/eff_large_wordlist.txt) for the word that corresponds to `25266`.
+2. على سبيل المثال، لنفترض أنك حصلت على الأرقام `2-5-2-6-6.` ابحث في قائمة[ الكلمات الكبيرة من EFF](https://eff.org/files/2016/07/18/eff_large_wordlist.txt) عن الكلمة المقابلة للرقم `25266`.
 
-3. You will find the word `encrypt`. Write that word down.
+3. ستجد كلمة `encrypt`، والتي تعني «تشفير». دوّن هذه الكلمة.
 
-4. Repeat this process until your passphrase has as many words as you need, which you should separate with a space.
+4. كرّر هذه الخطوات حتى تحصل على عدد الكلمات الذي تحتاجه في عبارة المرور، مع وضع مسافة بين كل كلمة وأخرى.
 
 <div class="admonition warning" markdown>
-<p class="admonition-title">Important</p>
+<p class="admonition-title">هام</p>
 
-You should **not** re-roll words until you get a combination of words that appeal to you. The process should be completely random.
+**لا** تُعِد رمي النرد لمجرد الحصول على مجموعة كلمات تعجبك. يجب أن تكون العملية عشوائية تمامًا.
 
 </div>
 
-If you don't have access to or would prefer to not use real dice, you can use your password manager's built-in password generator, as most of them have the option to generate diceware passphrases in addition to regular passwords. We recommend setting the generated passphrase length to at least 6 words.
+إذا لم يكن لديك نرد حقيقي أو كنت تفضل عدم استخدامه، فيمكنك استخدام أداة توليد كلمات المرور المدمجة في مدير كلمات المرور، إذ تتيح لك معظم هذه البرامج إنشاء عبارات مرور باستخدام Diceware، إلى جانب كلمات المرور العادية. نوصي بأن تتكوّن عبارة المرور التي تنشئها من 6 كلمات على الأقل.
 
-We also recommend using [EFF's large word list](https://eff.org/files/2016/07/18/eff_large_wordlist.txt) to generate your diceware passphrases, as it offers the exact same security as the original list, while containing words that are easier to memorize. There are also [word lists in different languages](https://theworld.com/~reinhold/diceware.html#Diceware%20in%20Other%20Languages|outline), if you do not want your passphrase to be in English.
+نوصي أيضًا باستخدام قائمة[ الكلمات الكبيرة من EFF](https://eff.org/files/2016/07/18/eff_large_wordlist.txt) لإنشاء عبارات المرور باستخدام Diceware، لأنها توفر نفس مستوى الأمان الذي توفره القائمة الأصلية تمامًا، لكنها تحتوي على كلمات يسهل تذكّرها. تتوفر أيضا [قوائم كلمات بلغات مختلفة](https://theworld.com/~reinhold/diceware.html#Diceware%20in%20Other%20Languages|outline) إذا كنت لا تريد أن تكون عبارة المرور باللغة الإنجليزية.
 
 <details class="note" markdown>
-<summary>Explanation of entropy and strength of diceware passphrases</summary>
+<summary>شرح مستوى العشوائية (Entropy) وقوة عبارات المرور باستخدام Diceware</summary>
 
-To demonstrate how strong diceware passphrases are, we'll use the aforementioned seven word passphrase (`viewable fastness reluctant squishy seventeen shown pencil`) and [EFF's large word list](https://eff.org/files/2016/07/18/eff_large_wordlist.txt) as an example.
+لتوضيح مدى قوة عبارات المرور باستخدام Diceware، سنستخدم عبارة المرور المكوّنة من سبع كلمات التي ذكرناها سابقًا (`قمر تفاحة حصان نافذة بحر كتاب شجرة`)، مع [قائمة الكلمات الكبيرة من EFF](https://eff.org/files/2016/07/18/eff_large_wordlist.txt)، كمثال.
 
-One metric to determine the strength of a diceware passphrase is how much entropy it has. The entropy per word in a diceware passphrase is calculated as <math> <mrow> <msub> <mtext>log</mtext> <mn>2</mn> </msub> <mo form="prefix" stretchy="false">(</mo> <mtext>WordsInList</mtext> <mo form="postfix" stretchy="false">)</mo> </mrow> </math> and the overall entropy of the passphrase is calculated as: <math> <mrow> <msub> <mtext>log</mtext> <mn>2</mn> </msub> <mo form="prefix" stretchy="false">(</mo> <msup> <mtext>WordsInList</mtext> <mtext>WordsInPhrase</mtext> </msup> <mo form="postfix" stretchy="false">)</mo> </mrow> </math>
+إحدى طرق قياس قوة عبارة المرور باستخدام Diceware هي معرفة مقدار العشوائية (Entropy) فيها. يُحسب مقدار العشوائية (Entropy) لكل كلمة في عبارة مرور باستخدام Diceware كما يلي <math> <mrow> <msub> <mtext>log</mtext> <mn>2</mn> </msub> <mo form="prefix" stretchy="false">(</mo> <mtext>WordsInList</mtext> <mo form="postfix" stretchy="false">)</mo> </mrow> </math> ويُحسب إجمالي مقدار العشوائية (Entropy) في عبارة المرور كما يلي: <math> <mrow> <msub> <mtext>log</mtext> <mn>2</mn> </msub> <mo form="prefix" stretchy="false">(</mo> <msup> <mtext>WordsInList</mtext> <mtext>WordsInPhrase</mtext> </msup> <mo form="postfix" stretchy="false">)</mo> </mrow> </math>
 
-Therefore, each word in the aforementioned list results in ~12.9 bits of entropy (<math> <mrow> <msub> <mtext>log</mtext> <mn>2</mn> </msub> <mo form="prefix" stretchy="false">(</mo> <mn>7776</mn> <mo form="postfix" stretchy="false">)</mo> </mrow> </math>), and a seven word passphrase derived from it has ~90.47 bits of entropy (<math> <mrow> <msub> <mtext>log</mtext> <mn>2</mn> </msub> <mo form="prefix" stretchy="false">(</mo> <msup> <mn>7776</mn> <mn>7</mn> </msup> <mo form="postfix" stretchy="false">)</mo> </mrow> </math>).
+لذلك، تضيف كل كلمة من القائمة المذكورة سابقًا نحو 12.9 بت من العشوائية (Entropy) (<math> <mrow> <msub> <mtext>log</mtext> <mn>2</mn> </msub> <mo form="prefix" stretchy="false">(</mo> <mn>7776</mn> <mo form="postfix" stretchy="false">)</mo> </mrow> </math>)، وتحتوي عبارة المرور المكوّنة من سبع كلمات من هذه القائمة على نحو 90.47 بت من العشوائية (Entropy) (<math> <mrow> <msub> <mtext>log</mtext> <mn>2</mn> </msub> <mo form="prefix" stretchy="false">(</mo> <msup> <mn>7776</mn> <mn>7</mn> </msup> <mo form="postfix" stretchy="false">)</mo> </mrow> </math>).
 
-The [EFF's large word list](https://eff.org/files/2016/07/18/eff_large_wordlist.txt) contains 7776 unique words. To calculate the amount of possible passphrases, all we have to do is <math> <msup> <mtext>WordsInList</mtext> <mtext>WordsInPhrase</mtext> </msup> </math>, or in our case, <math><msup><mn>7776</mn><mn>7</mn></msup></math>.
+تحتوي [قائمة الكلمات الكبيرة من EFF](https://eff.org/files/2016/07/18/eff_large_wordlist.txt) على 7776 كلمة مختلفة. لحساب عدد عبارات المرور الممكنة، كل ما علينا فعله هو <math> <msup> <mtext>WordsInList</mtext> <mtext>WordsInPhrase</mtext> </msup> </math>، أو في حالتنا، <math><msup><mn>7776</mn><mn>7</mn></msup></math>.
 
-Let's put all of this in perspective: A seven word passphrase using [EFF's large word list](https://eff.org/files/2016/07/18/eff_large_wordlist.txt) is one of ~1,719,070,799,748,422,500,000,000,000 possible passphrases.
+لتوضيح مدى ضخامة هذا الرقم: عبارة المرور المكونة من سبع كلمات باستخدام [قائمة الكلمات الكبيرة من EFF](https://eff.org/files/2016/07/18/eff_large_wordlist.txt) هي واحدة من نحو 1,719,070,799,748,422,500,000,000,000 عبارة مرور ممكنة.
 
-On average, it takes trying 50% of all the possible combinations to guess your phrase. With that in mind, even if your adversary is capable of ~1,000,000,000,000 guesses per second, it would still take them ~27,255,689 years to guess your passphrase. That is the case even if the following things are true:
+في المتوسط، ستحتاج إلى تجربة 50% من جميع التركيبات الممكنة لتخمين عبارة المرور الخاصة بك. وبناءً على ذلك، حتى لو كان المهاجم قادرًا على تجربة نحو 1,000,000,000,000 احتمال في الثانية، فسيظل بحاجة إلى نحو 27,255,689 سنة لتخمين عبارة المرور الخاصة بك. وهذا صحيح حتى لو تحققت جميع الشروط التالية:
 
-- Your adversary knows that you used the diceware method.
-- Your adversary knows the specific word list that you used.
-- Your adversary knows how many words your passphrase contains.
+- يعرف المهاجم أنك استخدمت طريقة Diceware.
+- يعرف المهاجم قائمة الكلمات التي استخدمتها بالتحديد.
+- يعرف المهاجم عدد الكلمات التي تتكوّن منها عبارة المرور الخاصة بك.
 
 </details>
 
-To sum it up, diceware passphrases are your best option when you need something that is both easy to remember *and* exceptionally strong.
+باختصار، عبارات المرور باستخدام Diceware هي أفضل خيار عندما تحتاج إلى كلمة مرور يسهل تذكّرها *و*تكون قوية جدًا في الوقت نفسه.
 
-## Storing Passwords
+## تخزين كلمات المرور
 
-### Password Managers
+### مدير كلمات المرور (Password Manager)
 
-The best way to store your passwords is by using a password manager. They allow you to store your passwords in a file or in the cloud and protect them with a single master password. That way, you will only have to remember one strong password, which lets you access the rest of them.
+أفضل طريقة لحفظ كلمات المرور هي استخدام مدير كلمات المرور. تتيح لك برامج إدارة كلمات المرور حفظ كلمات مرورك في ملف أو على السحابة، وحمايتها جميعا بكلمة مرور رئيسية واحدة. بهذه الطريقة، لن تحتاج إلا إلى تذكر كلمة مرور قوية واحدة للوصول إلى جميع كلمات المرور الأخرى.
 
-There are many good options to choose from, both cloud-based and local. Choose one of our recommended password managers and use it to establish strong passwords across all of your accounts. We recommend securing your password manager with a [diceware passphrase](#diceware-passphrases) comprised of at least seven words.
+هناك العديد من الخيارات الجيدة التي يمكنك الاختيار من بينها، سواء كانت تعمل عبر السحابة أو تخزن بياناتك على جهازك. اختر أحد برامج إدارة كلمات المرور التي نوصي بها، واستخدمه لإنشاء كلمات مرور قوية لجميع حساباتك. نوصي بحماية مدير كلمات المرور باستخدام عبارة مرور من نوع [Diceware](#diceware-passphrases) تتكوّن من سبع كلمات على الأقل.
 
-[List of recommended password managers](../passwords.md ""){.md-button}
+[قائمة برامج إدارة كلمات المرور التي نوصي بها](../passwords.md ""){.md-button}
 
 <div class="admonition warning" markdown>
-<p class="admonition-title">Don't place your passwords and TOTP tokens inside the same password manager</p>
+<p class="admonition-title">لا تحفظ كلمات المرور ورموز TOTP في نفس مدير كلمات المرور</p>
 
-When using [TOTP codes as multifactor authentication](multi-factor-authentication.md#time-based-one-time-password-totp), the best security practice is to keep your TOTP codes in a [separate app](../multi-factor-authentication.md).
+عند استخدام [رموز TOTP للمصادقة متعددة العوامل (MFA)](multi-factor-authentication.md#time-based-one-time-password-totp) فإن أفضل ممارسة أمنية هي [الاحتفاظ بهذه الرموز](../multi-factor-authentication.md) في تطبيق منفصل.
 
-Storing your TOTP tokens in the same place as your passwords, while convenient, reduces the accounts to a single factor in the event that an adversary gains access to your password manager.
+رغم أن حفظ رموز TOTP في نفس المكان الذي تحفظ فيه كلمات المرور أمر مريح، فإنه يقلل من مستوى حماية حساباتك، إذ تصبح محمية بعامل واحد فقط إذا تمكّن المهاجم من الوصول إلى مدير كلمات المرور.
 
-Furthermore, we do not recommend storing single-use recovery codes in your password manager. Those should be stored separately such as in an encrypted container on an offline storage device.
+بالإضافة إلى ذلك، لا نوصي بحفظ رموز الاسترداد التي تستخدم لمرة واحدة في مدير كلمات المرور. يجب حفظ هذه الرموز بشكل منفصل، مثلا داخل حاوية مشفرة على جهاز تخزين غير متصل بالإنترنت.
 
 </div>
 
 ### النسخ الاحتياطي
 
-You should store an [encrypted](../encryption.md) backup of your passwords on multiple storage devices or a cloud storage provider. This can help you access your passwords if something happens to your primary device or the service you are using.
+يجب الاحتفاظ بنسخة احتياطية [مشفرة](../encryption.md) من كلمات مرورك على عدة أجهزة تخزين أو لدى خدمة تخزين سحابي. يساعدك ذلك على الوصول إلى كلمات مرورك إذا حدثت مشكلة في جهازك الأساسي أو الخدمة التي تستخدمها.
