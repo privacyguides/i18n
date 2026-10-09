@@ -1,25 +1,25 @@
 ---
-title: Android Overview
+title: نظرة عامة على Android
 icon: simple/android
-description: Android is an open-source operating system with strong security protections, which makes it our top choice for phones.
+description: نظام Android هو نظام تشغيل مفتوح المصدر، ويوفر حماية أمنية قوية، مما يجعله خيارنا الأول للهواتف.
 robots: nofollow, max-snippet:-1, max-image-preview:large
 ---
 
 ![Android logo](../assets/img/android/android.svg){ align=right }
 
-The **Android Open Source Project** is a secure mobile operating system featuring strong [app sandboxing](https://source.android.com/security/app-sandbox), [Verified Boot](https://source.android.com/security/verifiedboot) (AVB), and a robust [permission](https://developer.android.com/guide/topics/permissions/overview) control system.
+يُعد **Android Open Source Project** نظام تشغيل آمنًا للهواتف، ويتميز بنظام قوي لعزل التطبيقات ([sandboxing](https://source.android.com/security/app-sandbox))، وميزة [Verified Boot (AVB)](https://source.android.com/security/verifiedboot)، ونظام محكم للتحكم في[ الأذونات (permissions)](https://developer.android.com/guide/topics/permissions/overview).
 
 [:octicons-home-16:](https://source.android.com){ .card-link title=Homepage }
 [:octicons-info-16:](https://source.android.com/docs){ .card-link title=Documentation}
 [:octicons-code-16:](https://cs.android.com/android/platform/superproject/main){ .card-link title="Source Code" }
 
-[Our Android Advice :material-arrow-right-drop-circle:](../android/index.md ""){.md-button.md-button--primary}
+[نصائحنا لنظام Android :material-arrow-right-drop-circle:](../android/index.md ""){.md-button.md-button--primary}
 
-## Security Protections
+## وسائل الحماية الأمنية
 
-Key components of the Android security model include [verified boot](#verified-boot), [firmware updates](#firmware-updates), and a robust [permission system](#android-permissions). These important security features form the baseline of the minimum criteria for our [mobile phone](../mobile-phones.md) and [custom Android OS](../android/distributions.md) recommendations.
+تشمل أهم عناصر نظام الحماية في Android التحقق من[ سلامة الإقلاع (verified boot)](#verified-boot)، [وتحديثات البرامج الثابتة (Firmware)](#firmware-updates)، [ونظامًا قويًا للتحكم في الأذونات](#android-permissions). تُشكّل ميزات الأمان المهمة هذه الأساس الذي نعتمد عليه في تحديد الحد الأدنى من المعايير لاختيار [الهواتف](../mobile-phones.md) و[أنظمة Android المعدّلة](../android/distributions.md) التي نوصي بها.
 
-### Verified Boot
+### التحقق من سلامة الإقلاع (Verified Boot)
 
 [**Verified Boot**](https://source.android.com/security/verifiedboot) is an important part of the Android security model. It provides protection against [evil maid](https://en.wikipedia.org/wiki/Evil_maid_attack) attacks, malware persistence, and ensures security updates cannot be downgraded with [rollback protection](https://source.android.com/security/verifiedboot/verified-boot#rollback-protection).
 
