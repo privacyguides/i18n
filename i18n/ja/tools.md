@@ -7,7 +7,7 @@ hide:
 description: A complete list of the privacy tools, services, software, and hardware recommended by the Privacy Guides community.
 ---
 
-何か特定のソリューションをお探しなら、様々なカテゴリーでおすすめのハードウェアとソフトウェアのツールをご紹介します。 私たちがおすすめするプライバシーツールは、主にセキュリティ機能に基づいて選択されており、さらに分散型やオープンソースのツールに重点を置いています。 これらは、世界的な大規模監視プログラムからの保護や大手ハイテク企業の回避から攻撃の緩和まで、さまざまな脅威モデルに適用できます。しかし、あなただけがあなたのニーズに最適であるかを判断できます。
+何か特定のソリューションをお探しなら、様々なカテゴリーでおすすめのハードウェアとソフトウェアのツールをご紹介します。私たちがおすすめするプライバシーツールは、主にセキュリティ機能に基づいて選択されており、さらに分散型やオープンソースのツールに重点を置いています。これらは、世界的な大規模監視プログラムからの保護や大手ハイテク企業の回避から攻撃の緩和まで、さまざまな脅威モデルに適用できます。しかし、あなただけがあなたのニーズに最適であるかを判断できます。
 
 <div class="grid" markdown>
 
@@ -479,7 +479,6 @@ For encrypting your OS drive, we typically recommend using the encryption tool y
 
 <div class="grid cards" markdown>
 
-- ![LanguageTool logo](assets/img/language-tools/languagetool.svg#only-light){ .twemoji loading=lazy }![LanguageTool logo](assets/img/language-tools/languagetool-dark.svg#only-dark){ .twemoji loading=lazy } [LanguageTool](language-tools.md#languagetool)
 - ![LibreTranslate logo](assets/img/language-tools/libretranslate.png){ .twemoji } [LibreTranslate](language-tools.md#libretranslate)
 
 </div>

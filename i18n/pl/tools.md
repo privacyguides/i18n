@@ -479,8 +479,7 @@ Do szyfrowania dysku z systemem operacyjnym zwykle zalecamy użycie narzędzia s
 
 <div class="grid cards" markdown>
 
-- ![Logo LanguageTool](assets/img/language-tools/languagetool.svg#only-light){ .twemoji loading=lazy }![Logo LanguageTool](assets/img/language-tools/languagetool-dark.svg#only-dark){ .twemoji loading=lazy } [LanguageTool](language-tools.md#languagetool)
-- ![Logo LibreTranslate](assets/img/language-tools/libretranslate.png){ .twemoji } [LibreTranslate](language-tools.md#libretranslate)
+- ![LibreTranslate logo](assets/img/language-tools/libretranslate.png){ .twemoji } [LibreTranslate](language-tools.md#libretranslate)
 
 </div>
 

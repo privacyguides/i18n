@@ -479,8 +479,7 @@ Pour chiffre le disque de votre système d'exploitation, nous vous recommandons 
 
 <div class="grid cards" markdown>
 
-- ![Logo de LanguageTool](assets/img/language-tools/languagetool.svg#only-light){ .twemoji loading=lazy }![Logo de LanguageTool](assets/img/language-tools/languagetool-dark.svg#only-dark){ .twemoji loading=lazy } [LanguageTool](language-tools.md#languagetool)
-- ![Logo de LibreTranslate](assets/img/language-tools/libretranslate.png){ .twemoji } [LibreTranslate](language-tools.md#libretranslate)
+- ![LibreTranslate logo](assets/img/language-tools/libretranslate.png){ .twemoji } [LibreTranslate](language-tools.md#libretranslate)
 
 </div>
 

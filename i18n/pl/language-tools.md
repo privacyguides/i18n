@@ -12,39 +12,6 @@ cover: language-tools.webp
 
 Tekst wprowadzany do narzędzi sprawdzających gramatykę, ortografię i styl oraz do usług tłumaczeniowych może zawierać poufne informacje, które mogą być przechowywane na serwerach tych usług przez nieokreślony czas i sprzedawane stronom trzecim. Narzędzia językowe wymienione na tej stronie nie przechowują przesyłanych tekstów na serwer i można je hostować samodzielnie, aby mieć maksymalną kontrolę nad swoimi danymi.
 
-## Gramatyka i ortografia
-
-### LanguageTool
-
-<div class="admonition recommendation" markdown>
-
-![Logo LanguageTool](assets/img/language-tools/languagetool.svg#only-light){ align=right }
-![Logo LanguageTool](assets/img/language-tools/languagetool-dark.svg#only-dark){ align=right }
-
-**LanguageTool** to wielojęzyczne narzędzie do sprawdzania gramatyki, stylu i ortografii, obsługujące ponad 20 języków. Zgodnie z ich polityką prywatności nie przechowuje żadnych treści przesyłanych do ich usługi w celu sprawdzenia, jednak dla większej pewności oprogramowanie można [hostować samodzielnie](https://dev.languagetool.org/http-server).
-
-[:octicons-home-16: Strona główna](https://languagetool.org/pl){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://languagetool.org/pl/legal/privacy){ .card-link title="Polityka prywatności" }
-[:octicons-info-16:](https://languagetooler.freshdesk.com/en/support/solutions){ .card-link title="Dokumentacja" }
-[:octicons-code-16:](https://github.com/languagetool-org){ .card-link title="Kod źródłowy" }
-
-<details class="downloads" markdown>
-<summary>Pobierz</summary>
-
-- [:simple-appstore: App Store](https://apps.apple.com/app/id1534275760)
-- [:fontawesome-brands-windows: Windows](https://languagetool.org/pl/windows-desktop)
-- [:simple-apple: macOS](https://languagetool.org/pl/mac-desktop)
-- [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/firefox/addon/languagetool)
-- [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/oldceeleldhonbafppcapldpdifcinji)
-- [:fontawesome-brands-edge: Edge](https://microsoftedge.microsoft.com/addons/detail/hfjadhjooeceemgojogkhlppanjkbobc)
-- [:simple-safari: Safari](https://apps.apple.com/app/id1534275760)
-
-</details>
-
-</div>
-
-LanguageTool oferuje integrację z różnymi [pakietami biurowymi](https://languagetool.org/pl/services#text_editors) i [klientami poczty e-mail](https://languagetool.org/pl/services#mail_clients).
-
 ## Narzędzia do tłumaczenia
 
 ### LibreTranslate
@@ -65,9 +32,11 @@ Dostępne są publiczne instancje LibreTranslate, w tym niektóre oferujące us�
 
 Używamy hostowanej lokalnie instancji LibreTranslate do automatycznego tłumaczenia wpisów na naszym [forum](https://discuss.privacyguides.net) na wiele języków.
 
+We use the VSCode extension in our GitHub repository configuration to find any grammar and spelling errors on our website and in our articles.
+
 ## Kryteria
 
 **Należy pamiętać, że nie jesteśmy powiązani z żadnym z polecanych przez nas projektów.** Oprócz [naszych standardowych kryteriów](about/criteria.md) opracowaliśmy jasny zestaw wymagań, które pozwalają nam formułować obiektywne zalecenia. Sugerujemy zapoznanie się z tą listą przed wyborem projektu oraz przeprowadzenie własnych badań, aby upewnić się, że jest to odpowiedni wybór dla Ciebie.
 
 - Musi być open source.
-- Musi być możliwy do samodzielnego hostowania.
+- Must run completely offline.

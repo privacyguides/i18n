@@ -7,7 +7,7 @@ hide:
 description: Privacy Guides 社群所推薦的隱私工具、服務、軟體及硬體的完整清單。
 ---
 
-如果您正在尋找特定的解決方案，這些是我們在各種類別中推薦的硬體和軟體工具。 我們推薦的隱私工具主要是基於安全功能而選擇的，並特別強調去中心化和開源工具。 它們適用於各種威脅模型，從防止全球大規模監控計劃，避免大型科技公司到減輕攻擊，但只有您才能確定哪些最適合您的需求。
+如果您正在尋找特定的解決方案，這些是我們在各種類別中推薦的硬體和軟體工具。我們推薦的隱私工具主要是基於安全功能而選擇的，並特別強調去中心化和開源工具。它們適用於各種威脅模型，從防止全球大規模監控計劃，避免大型科技公司到減輕攻擊，但只有您才能確定哪些最適合您的需求。
 
 <div class="grid" markdown>
 
@@ -59,7 +59,7 @@ description: Privacy Guides 社群所推薦的隱私工具、服務、軟體及�
 
 ![Tor Browser logo](assets/img/browsers/tor.svg){ align=left }
 
-如果您需要匿名， **Tor 瀏覽器** （電腦版、 Android 版) 是您的首選，因為它可讓您存取 **Tor** 網路，這是一群由志工操作的伺服器，可讓您免費連線，並改善您在網際網路上的隱私與安全性。 個人和組織還可以通過 Tor 網路 與「.onion 洋蔥服務」分享資訊，而不會損害他們的隱私。 很難阻止和追蹤 Tor 流量，因此它是一種有效的審查規避工具。
+如果您需要匿名， **Tor 瀏覽器** （電腦版、 Android 版) 是您的首選，因為它可讓您存取 **Tor** 網路，這是一群由志工操作的伺服器，可讓您免費連線，並改善您在網際網路上的隱私與安全性。個人和組織還可以通過 Tor 網路 與「.onion 洋蔥服務」分享資訊，而不會損害他們的隱私。很難阻止和追蹤 Tor 流量，因此它是一種有效的審查規避工具。
 
 [閱讀完整評論 :material-arrow-right-drop-circle:](tor.md){ .md-button .md-button--primary }
 
@@ -193,7 +193,7 @@ description: Privacy Guides 社群所推薦的隱私工具、服務、軟體及�
 
     ---
 
-    Proton Mail 是一個注重隱私、加密、安全和易用性的電子郵件服務。 他們自 2013 年起開始營運。 Proton AG 的總部位於瑞士日內瓦。 The Proton Mail Free plan comes with 500 MB of Mail storage, which you can increase up to 1 GB for free.
+    Proton Mail 是一個注重隱私、加密、安全和易用性的電子郵件服務。他們自 2013 年起開始營運。 Proton AG 的總部位於瑞士日內瓦。 The Proton Mail Free plan comes with 500 MB of Mail storage, which you can increase up to 1 GB for free.
 
     [Read Full Review :material-arrow-right-drop-circle:](email.md#proton-mail)
 
@@ -276,7 +276,7 @@ description: Privacy Guides 社群所推薦的隱私工具、服務、軟體及�
 
 #### DNS 提供者
 
-We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers based on a variety of criteria, such as [Quad9](https://quad9.net) amongst others. 建議您在選擇供應商之前先閱讀我們有關 DNS 的頁面。 在許多情況下，不建議使用替代 DNS 提供商。
+We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers based on a variety of criteria, such as [Quad9](https://quad9.net) amongst others. 建議您在選擇供應商之前先閱讀我們有關 DNS 的頁面。在許多情況下，不建議使用替代 DNS 提供商。
 
 [了解更多 :material-arrow-right-drop-circle:](dns.md)
 
@@ -479,7 +479,6 @@ For encrypting your OS drive, we typically recommend using the encryption tool y
 
 <div class="grid cards" markdown>
 
-- ![LanguageTool logo](assets/img/language-tools/languagetool.svg#only-light){ .twemoji loading=lazy }![LanguageTool logo](assets/img/language-tools/languagetool-dark.svg#only-dark){ .twemoji loading=lazy } [LanguageTool](language-tools.md#languagetool)
 - ![LibreTranslate logo](assets/img/language-tools/libretranslate.png){ .twemoji } [LibreTranslate](language-tools.md#libretranslate)
 
 </div>
@@ -694,7 +693,7 @@ For encrypting your OS drive, we typically recommend using the encryption tool y
 
 ## 進階工具
 
-這些工具可能對某些人很實用。 它們提供了多數人用不到的功能，通常需要更深入的技術知識才能有效地利用。
+這些工具可能對某些人很實用。它們提供了多數人用不到的功能，通常需要更深入的技術知識才能有效地利用。
 
 ### 替代網路
 
