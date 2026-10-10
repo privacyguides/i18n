@@ -39,34 +39,34 @@ robots: nofollow, max-snippet:-1, max-image-preview:large
 
 الأجهزة التي انتهت فترة دعمها (EOL) من الشركة المصنعة للمعالج (SoC) لا يمكنها تلقي تحديثات الـ (Firmware)، سواء من الشركات المصنعة للأجهزة (OEMs) أو من مطوّري إصدارات Android البديلة. هذا يعني أن الثغرات الأمنية في هذه الأجهزة ستظل دون إصلاح.
 
-على سبيل المثال، تروج شركة Fairphone لجهاز Fairphone 4 على أنه سيحصل على الدعم لمدة 6 سنوات. لكن المعالج (SoC) المستخدم في Fairphone 4، وهو Qualcomm Snapdragon 750G، تنتهي فترة دعمه قبل ذلك بوقت طويل. This means that firmware security updates from Qualcomm for the Fairphone 4 will end in September 2023, regardless of whether Fairphone continues to release software security updates.
+على سبيل المثال، تروج شركة Fairphone لجهاز Fairphone 4 على أنه سيحصل على الدعم لمدة 6 سنوات. لكن المعالج (SoC) المستخدم في Fairphone 4، وهو Qualcomm Snapdragon 750G، تنتهي فترة دعمه قبل ذلك بوقت طويل. هذا يعني أن تحديثات الـ (Firmware) التي توفرها Qualcomm لجهاز Fairphone 4 ستتوقف في سبتمبر 2023، حتى لو استمرت Fairphone في إصدار تحديثات أمنية للنظام.
 
-### Android Permissions
+### أذونات الـ Android
 
-[**Permissions on Android**](https://developer.android.com/guide/topics/permissions/overview) grant you control over what apps are allowed to access. Google regularly makes [improvements](https://developer.android.com/about/versions/11/privacy/permissions) on the permission system in each successive version. All apps you install are strictly [sandboxed](https://source.android.com/security/app-sandbox), therefore, there is no need to install any antivirus apps.
+تتيح لك [**الأذونات في Android **](https://developer.android.com/guide/topics/permissions/overview)التحكم فيما يُسمح للتطبيقات بالوصول إليه. تُجري Google [تحسينات](https://developer.android.com/about/versions/11/privacy/permissions) مستمرة على نظام الأذونات مع كل إصدار جديد. تعمل جميع التطبيقات التي تثبتها داخل بيئات معزولة [(sandboxing)](https://source.android.com/security/app-sandbox) تفرض قيودا صارمة عليها، لذلك لا حاجة لتثبيت أي تطبيق لمكافحة الفيروسات.
 
-A smartphone with the latest version of Android will always be more secure than an old smartphone with an antivirus that you have paid for. It's better not to pay for antivirus software and to save money to buy a new smartphone such as a [Google Pixel](../mobile-phones.md#google-pixel).
+الهاتف الذي يعمل بأحدث إصدار من Android سيكون دائما أكثر أمانا من هاتف قديم ثبت عليه تطبيقا مدفوعا لمكافحة الفيروسات. من الأفضل ألا تنفق أموالك على برامج مكافحة الفيروسات، وأن تدّخرها لشراء هاتف جديد مثل [Google Pixel](../mobile-phones.md#google-pixel).
 
-Android 10:
+أندرويد 10:
 
-- [Scoped Storage](https://developer.android.com/about/versions/10/privacy/changes#scoped-storage) gives you more control over your files and can limit what can [access external storage](https://developer.android.com/training/data-storage#permissions). Apps can have a specific directory in external storage as well as the ability to store specific types of media there.
-- Tighter access on [device location](https://developer.android.com/about/versions/10/privacy/changes#app-access-device-location) by introducing the `ACCESS_BACKGROUND_LOCATION` permission. This prevents apps from accessing the location when running in the background without express permission from the user.
+- تمنحك ميزة [Scoped Storage](https://developer.android.com/about/versions/10/privacy/changes#scoped-storage) تحكما أكبر في ملفاتك، وتتيح لك تقييد وصول التطبيقات إلى [وحدة التخزين الخارجية](https://developer.android.com/training/data-storage#permissions). يمكن أن يكون لكل تطبيق مجلد خاص به في وحدة التخزين الخارجية، كما يمكنه تخزين أنواع معينة من ملفات الوسائط فيها.
+- فرض قيود أكثر صرامة على الوصول إلى [موقع الجهاز](https://developer.android.com/about/versions/10/privacy/changes#app-access-device-location)، من خلال إضافة إذن `ACCESS_BACKGROUND_LOCATION`. هذا يمنع التطبيقات من معرفة موقعك أثناء عملها في الخلفية، إلا إذا سمحت لها بذلك بشكل واضح.
 
-Android 11:
+أندرويد 11:
 
-- [One-time permissions](https://developer.android.com/about/versions/11/privacy/permissions#one-time) which allows you to grant a permission to an app just once.
-- [Auto-reset permissions](https://developer.android.com/about/versions/11/privacy/permissions#auto-reset), which resets [runtime permissions](https://developer.android.com/guide/topics/permissions/overview#runtime) that were granted when the app was opened.
-- Granular permissions for accessing [phone number](https://developer.android.com/about/versions/11/privacy/permissions#phone-numbers) related features.
+- أذونات تُستخدم [لمرة واحدة](https://developer.android.com/about/versions/11/privacy/permissions#one-time)، تتيح لك منح التطبيق إذنا لمرة واحدة فقط.
+- [إعادة ضبط الأذونات تلقائيا](https://developer.android.com/about/versions/11/privacy/permissions#auto-reset)، حيث تُلغى الأذونات التي مُنحت للتطبيق [أثناء استخدامه](https://developer.android.com/guide/topics/permissions/overview#runtime).
+- أذونات منفصلة للتحكم في الوصول إلى الميزات المتعلقة[برقم الهاتف.](https://developer.android.com/about/versions/11/privacy/permissions#phone-numbers)
 
-Android 12:
+أندرويد 12:
 
-- A permission to grant only the [approximate location](https://developer.android.com/about/versions/12/behavior-changes-12#approximate-location).
-- Auto-reset of [hibernated apps](https://developer.android.com/about/versions/12/behavior-changes-12#app-hibernation).
-- [Data access auditing](https://developer.android.com/about/versions/12/behavior-changes-12#data-access-auditing) which makes it easier to determine what part of an app is performing a specific type of data access.
+- إذن يتيح لك مشاركة موقعك [التقريبي فقط](https://developer.android.com/about/versions/12/behavior-changes-12#approximate-location).
+- إعادة ضبط أذونات [التطبيقات غير المستخدمة](https://developer.android.com/about/versions/12/behavior-changes-12#app-hibernation) تلقائيًا.
+- [تتبّع وصول](https://developer.android.com/about/versions/12/behavior-changes-12#data-access-auditing) التطبيقات إلى البيانات، مما يسهّل معرفة أي جزء من التطبيق يصل إلى نوع معيّن من البيانات.
 
-Android 13:
+أندرويد 13:
 
-- A permission for [nearby Wi-Fi access](https://developer.android.com/about/versions/13/behavior-changes-13#nearby-wifi-devices-permission). The MAC addresses of nearby Wi-Fi access points were a popular way for apps to track a user's location.
+- إذن للوصول إلى [أجهزة Wi-Fi القريبة](https://developer.android.com/about/versions/13/behavior-changes-13#nearby-wifi-devices-permission). كانت التطبيقات تستخدم عناوين MAC الخاصة بنقاط اتصال Wi-Fi القريبة بشكل شائع لتتبع موقع المستخدم.
 - More [granular media permissions](https://developer.android.com/about/versions/13/behavior-changes-13#granular-media-permissions), meaning you can grant access to images, videos or audio files only.
 - Background use of sensors now requires the [`BODY_SENSORS`](https://developer.android.com/about/versions/13/behavior-changes-13#body-sensors-background-permission) permission.
 
