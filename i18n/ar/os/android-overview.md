@@ -72,33 +72,33 @@ robots: nofollow, max-snippet:-1, max-image-preview:large
 
 قد يطلب التطبيق إذنا لاستخدام ميزة معينة فيه. على سبيل المثال، أي تطبيق يمكنه مسح رموز QR سيحتاج إلى إذن الوصول إلى الكاميرا. قد تطلب بعض التطبيقات أذونات أكثر مما تحتاج إليه.
 
-[Exodus](https://exodus-privacy.eu.org) can be useful when comparing apps that have similar purposes. If an app requires a lot of permissions and has a lot of advertising and analytics this is probably a bad sign. We recommend looking at the individual trackers and reading their descriptions rather than simply **counting the total** and assuming all items listed are equal.
+يمكن أن يكون [Exodus](https://exodus-privacy.eu.org) مفيدا عند مقارنة التطبيقات التي تؤدي وظائف متشابهة. إذا كان التطبيق يطلب الكثير من الأذونات ويحتوي على الكثير من الإعلانات وأدوات التحليل، فغالبا ما تكون هذه علامة سيئة. ننصحك **بمراجعة** أدوات التتبّع الموجودة في التطبيق وقراءة وظيفة كل أداة، بدلا من الحكم عليها بناء على عددها فقط، لأن أدوات التتبّع تختلف في طريقة عملها ومدى تأثيرها على خصوصيتك.
 
 <div class="admonition warning" markdown>
 <p class="admonition-title">تنوية</p>
 
-If an app is mostly a web-based service, the tracking may occur on the server side. [Facebook](https://reports.exodus-privacy.eu.org/en/reports/com.facebook.katana/latest) shows "no trackers" but certainly does track users' interests and behavior across the site. Apps may evade detection by not using standard code libraries produced by the advertising industry, though this is unlikely.
+إذا كان التطبيق يعتمد بشكل أساسي على خدمة عبر الويب، فقد يحدث التتبع على الخادم نفسه. يظهر أن [Facebook](https://reports.exodus-privacy.eu.org/en/reports/com.facebook.katana/latest) لا يحتوي على «أي أدوات تتبع»، لكنه بالتأكيد يتتبع اهتمامات المستخدمين وسلوكهم على الموقع. قد تتمكن بعض التطبيقات من تجنب اكتشاف أدوات التتبع فيها إذا لم تستخدم مكتبات البرمجة المعتادة التي توفرها شركات الإعلانات، لكن هذا غير شائع.
 
 </div>
 
 <div class="admonition note" markdown>
-<p class="admonition-title">Note</p>
+<p class="admonition-title">ملحوظة</p>
 
-Privacy-friendly apps such as [Bitwarden](https://reports.exodus-privacy.eu.org/en/reports/com.x8bit.bitwarden/latest) may show some trackers such as [Google Firebase Analytics](https://reports.exodus-privacy.eu.org/en/trackers/49). This library includes [Firebase Cloud Messaging](https://en.wikipedia.org/wiki/Firebase_Cloud_Messaging) which can provide [push notifications](https://en.wikipedia.org/wiki/Push_technology) in apps. This [is the case](https://fosstodon.org/@bitwarden/109636825700482007) with Bitwarden. That doesn't mean that Bitwarden is using all the analytics features that are provided by Google Firebase Analytics.
+قد تظهر بعض أدوات التتبّع مثل [Google Firebase Analytics](https://reports.exodus-privacy.eu.org/en/trackers/49) في التطبيقات التي تحترم خصوصيتك، مثل [Bitwarden](https://reports.exodus-privacy.eu.org/en/reports/com.x8bit.bitwarden/latest). تتضمن هذه المكتبة [Firebase Cloud Messaging](https://en.wikipedia.org/wiki/Firebase_Cloud_Messaging)، التي يمكن استخدامها لإرسال [إشعارات فورية](https://en.wikipedia.org/wiki/Push_technology) داخل التطبيقات. وهذا [هو الحال](https://fosstodon.org/@bitwarden/109636825700482007) مع Bitwarden. هذا لا يعني أن Bitwarden يستخدم جميع ميزات تحليل البيانات التي توفرها Google Firebase Analytics.
 
 </div>
 
-## Privacy Features
+## ميزات الخصوصية
 
-### User Profiles
+### ملفات تعريف المستخدمين
 
-Multiple **user profiles** can be found in :gear: **Settings** → **System** → **Users** and are the simplest way to isolate in Android.
+يمكنك العثور على ميزة** ملفات تعريف المستخدمين** المتعددة في **Settings** → **System** → **Users**، وهي أبسط طريقة لعزل التطبيقات والبيانات على Android.
 
-With user profiles, you can impose restrictions on a specific profile, such as: making calls, using SMS, or installing apps. Each profile is encrypted using its own encryption key and cannot access the data of any other profiles. Even the device owner cannot view the data of other profiles without knowing their password. Multiple user profiles are a more secure method of isolation.
+تتيح لك ملفات تعريف المستخدمين فرض قيود على ملف تعريف معين، مثل منع إجراء المكالمات أو استخدام الرسائل النصية SMS أو تثبيت التطبيقات. يُشفر كل ملف تعريف بمفتاح تشفير خاص به، ولا يمكنه الوصول إلى بيانات أي ملف تعريف آخر. حتى صاحب الهاتف لا يمكنه الاطلاع على بيانات ملفات التعريف الأخرى دون معرفة كلمات المرور الخاصة بها. استخدام ملفات تعريف متعددة للمستخدمين هو طريقة أكثر أمانا لعزل بيانات كل مستخدم عن الآخرين.
 
-### Work Profile
+### الملف الشخصي للعمل
 
-[**Work Profiles**](https://support.google.com/work/android/answer/6191949) are another way to isolate individual apps and may be more convenient than separate user profiles.
+تُعد ملفات تعريف العمل[ (Work Profiles)****](https://support.google.com/work/android/answer/6191949) طريقة أخرى لعزل التطبيقات عن بعضها، وقد تكون أسهل في الاستخدام من إنشاء ملفات تعريف منفصلة للمستخدمين.
 
 A **device controller** app such as [Shelter](../android/general-apps.md#shelter) is required to create a Work Profile without an enterprise MDM, unless you're using a custom Android OS which includes one.
 
