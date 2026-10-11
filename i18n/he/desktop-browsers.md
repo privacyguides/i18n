@@ -1,5 +1,5 @@
 ---
-meta_title: "דפדפני אינטרנט המכבדים פרטיות עבור מחשב ו-מק - Privacy Guides"
+meta_title: "דפדפנים מכבדי פרטיות ל־PC ו־Mac - ‏Privacy Guides"
 title: דפדפנים שולחניים
 icon: material/laptop
 description: These privacy-protecting browsers are what we currently recommend for standard/non-anonymous internet browsing on desktop systems.
@@ -57,7 +57,7 @@ schema:
       url: "./"
 ---
 
-<small>Protects against the following threat(s):</small>
+<small>מגן מפני האיומים הבאים:</small>
 
 - [:material-account-cash: קפיטליזם מעקב](basics/common-threats.md#surveillance-as-a-business-model ""){.pg-brown}
 
@@ -93,7 +93,7 @@ Like [Tor Browser](tor.md), Mullvad Browser is designed to prevent fingerprintin
 
 Therefore, it is imperative that you do not modify the browser at all outside adjusting the default [security levels](https://tb-manual.torproject.org/security-settings). When adjusting the security level, you **must** always restart the browser before continuing to use it. Otherwise, [the security settings may not be fully applied](https://www.privacyguides.org/articles/2025/05/02/tor-security-slider-flaw), putting you at a higher risk of fingerprinting and exploits than you may expect based on the setting chosen.
 
-Modifications other than adjusting this setting would make your fingerprint unique, defeating the purpose of using this browser. אם אתה רוצה להגדיר את הדפדפן שלך בצורה כבדה יותר וטביעת אצבע אינה מדאיגה אותך, אנו ממליצים במקום זאת על [Firefox](#firefox).
+התאמות אחרות שאינן הכוונון של הגדרה זו עלולות להפוך את טביעת האצבע שלך לייחודית, מה שמחמיץ את מטרת השינוי בדפדפן זה. אם ברצונך לשנות יותר הגדרות דפדפן ואין לך בעיה שטביעת האצבע שלך תהיה ייחודית, אנחנו ממליצים לך על [Firefox](#firefox) במקום.
 
 ### נגד טביעת אצבע
 
@@ -138,7 +138,7 @@ Mullvad Browser מגיע עם *uBlock Origin* ו*NoScript* הרחבות דפדפ
 </div>
 
 <div class="admonition warning" markdown>
-<p class="admonition-title">Warning</p>
+<p class="admonition-title">אזהרה</p>
 
 Firefox includes a unique [download token](https://bugzilla.mozilla.org/show_bug.cgi?id=1677497#c0) in downloads from Mozilla's website and uses telemetry in Firefox to send the token. The token is **not** included in releases from the [Mozilla FTP](https://ftp.mozilla.org/pub/firefox/releases/).
 
@@ -156,7 +156,7 @@ Search suggestion features may not be available in your region.
 
 Search suggestions send everything you type in the address bar to the default search engine, regardless of whether you submit an actual search. Disabling search suggestions allows you to more precisely control what data you send to your search engine provider.
 
-##### Firefox Suggest
+##### הצעות של Firefox
 
 [Firefox Suggest](https://support.mozilla.org/kb/firefox-suggest) is a feature similar to search suggestions. We recommend disabling it for the same reason we recommend disabling search suggestions. If you don't see these options under the **Address Bar** header, you do not have the new experience and can ignore these changes.
 
@@ -181,7 +181,7 @@ If you want to stay logged in to particular sites, you can allow exceptions in *
 
 This protects you from persistent cookies, but does not protect you against cookies acquired during any one browsing session. When this is enabled, it becomes possible to easily cleanse your browser cookies by simply restarting Firefox. You can set exceptions on a per-site basis, if you wish to stay logged in to a particular site you visit often.
 
-##### Telemetry
+##### איסוף נתוני שימוש
 
 - [ ] Uncheck **Send technical and interaction data to Mozilla**
 - [ ] Uncheck **Allow personalized extension recommendations**
@@ -189,16 +189,16 @@ This protects you from persistent cookies, but does not protect you against cook
 - [ ] Uncheck **Send daily usage ping to Mozilla**
 - [ ] Uncheck **Automatically send crash reports**
 
-According to Mozilla's privacy policy for Firefox,
+לפי מדיניות הפרטיות של Mozilla עבור Firefox,
 
 > Firefox שולח נתונים על הגרסה והשפה של Firefox שלך; תצורת מערכת ההפעלה והחומרה של המכשיר; זיכרון, מידע בסיסי על קריסות ושגיאות; תוצאה של תהליכים אוטומטיים כמו עדכונים, גלישה בטוחה והפעלה אלינו. כאשר Firefox שולח לנו נתונים, כתובת ה-IP שלך נאספת זמנית כחלק מיומני השרת שלנו.
 
-Additionally, the Mozilla Accounts service collects [some technical data](https://mozilla.org/privacy/mozilla-accounts). If you use a Mozilla Account you can opt out:
+בנוסף, שירות החשבונות של Mozilla אוסף [נתונים טכניים מסוימים](https://mozilla.org/privacy/mozilla-accounts). אם חשבון Mozilla משמש אותך, אפשר לבטל את ההסכמה:
 
 1. פתח את [הגדרות הפרופיל שלך ב ](https://accounts.firefox.com/settings#data-collection)accounts.firefox.com
 2. ביטול סימון **איסוף נתונים ושימוש** > **עזרה בשיפור חשבונות Firefox**
 
-##### HTTPS-Only Mode
+##### מצב HTTPS בלבד
 
 - [x] בחר **הפעלת מצב HTTPS בלבד בכל החלונות**
 
@@ -206,13 +206,13 @@ This prevents you from unintentionally connecting to a website in plain-text HTT
 
 ##### DNS דרך HTTPS
 
-If you use a [DNS over HTTPS provider](dns.md):
+אם נעשה שימוש ב[ספק DNS דרך HTTPS](dns.md):
 
 - [x] בחר **Max Protection** ובחר ספק מתאים
 
 Max Protection enforces the use of DNS over HTTPS, and a security warning will show if Firefox can’t connect to your secure DNS resolver, or if your secure DNS resolver says that records for the domain you are trying to access do not exist. This stops the network you're connected to from secretly downgrading your DNS security.
 
-#### Sync
+#### סנכרון
 
 [Firefox Sync](https://hacks.mozilla.org/2018/11/firefox-sync-privacy) allows your browsing data (history, bookmarks, etc.) to be accessible on all your devices and protects it with E2EE.
 
@@ -269,7 +269,7 @@ Brave מוסיף "[קוד הפניה](https://github.com/brave/brave-browser/wik
 
 These options can be found in :material-menu: → **Settings**.
 
-#### Shields
+#### הגנות
 
 Brave includes some anti-fingerprinting measures in its [Shields](https://support.brave.com/hc/articles/360022973471-What-is-Shields) feature. We suggest configuring these options [globally](https://support.brave.com/hc/articles/360023646212-How-do-I-configure-global-and-site-specific-Shields-settings) across all pages that you visit.
 
@@ -314,11 +314,11 @@ Brave allows you to select additional content filters within the internal `brave
 
 1. Disabling the V8 optimizer reduces your attack surface by disabling [*some*](https://grapheneos.social/@GrapheneOS/112708049232710156) parts of JavaScript Just-In-Time (JIT) compilation.
 
-##### Tor windows
+##### חלונות Tor
 
 [**Private Window with Tor**](https://support.brave.com/hc/articles/360018121491-What-is-a-Private-Window-with-Tor-Connectivity) allows you to route your traffic through the Tor network in Private Windows and access .onion services, which may be useful in some cases. However, Brave is **not** as resistant to fingerprinting as the Tor Browser is, and far fewer people use Brave with Tor, so you will stand out. If your threat model requires strong anonymity, use the [Tor Browser](tor.md#tor-browser).
 
-##### Data Collection
+##### איסוף נתונים
 
 - [ ] Uncheck **Allow privacy-preserving product analytics (P3A)**
 - [ ] Uncheck **Automatically send daily usage ping to Brave**
@@ -369,7 +369,7 @@ We recommend disabling search suggestions in Brave for the same reason we recomm
 ### דרישות מינימליות
 
 - חייבת להיות תוכנת קוד פתוח.
-- חייב לתמוך בעדכונים אוטומטיים.
+- חייבת לתמוך בעדכונים אוטומטיים.
 - Must receive engine updates in 0-1 days from upstream release.
 - Must be available on Linux, macOS, and Windows.
 - Any changes required to make the browser more privacy-respecting must not negatively impact user experience.
