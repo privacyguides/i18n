@@ -100,74 +100,74 @@ robots: nofollow, max-snippet:-1, max-image-preview:large
 
 تُعد ملفات تعريف العمل[ (Work Profiles)****](https://support.google.com/work/android/answer/6191949) طريقة أخرى لعزل التطبيقات عن بعضها، وقد تكون أسهل في الاستخدام من إنشاء ملفات تعريف منفصلة للمستخدمين.
 
-A **device controller** app such as [Shelter](../android/general-apps.md#shelter) is required to create a Work Profile without an enterprise MDM, unless you're using a custom Android OS which includes one.
+لإنشاء ملف تعريف عمل (Work Profile) دون استخدام نظام إدارة أجهزة تابع لشركة (MDM)، ستحتاج إلى تطبيق **لإدارة الجهاز** مثل [Shelter](../android/general-apps.md#shelter)، إلا إذا كنت تستخدم نسخة معدّلة من Android تتضمن هذه الميزة بالفعل.
 
-The work profile is dependent on a device controller to function. Features such as *File Shuttle* and *contact search blocking* or any kind of isolation features must be implemented by the controller. You must also fully trust the device controller app, as it has full access to your data inside the work profile.
+يعتمد ملف تعريف العمل (Work Profile) على تطبيق لإدارة الجهاز حتى يعمل. يجب أن يدعم تطبيق إدارة الجهاز ميزات مثل* نقل الملفات (File Shuttle)*، و*منع البحث في جهات الاتصال*، وأي ميزات أخرى لعزل التطبيقات والبيانات عن بعضها. يجب أيضا أن تثق تماما في تطبيق إدارة الجهاز، لأنه يستطيع الوصول إلى جميع بياناتك داخل ملف تعريف العمل (Work Profile).
 
-This method is generally less secure than a secondary user profile; however, it does allow you the convenience of running apps in both the owner profile and work profile simultaneously.
+هذه الطريقة عموما أقل أمانًا من استخدام ملف تعريف منفصل للمستخدم، لكنها تتيح لك تشغيل التطبيقات في ملفك الشخصي الأساسي وملف تعريف العمل (Work Profile) في الوقت نفسه.
 
-### Private Space
+### المساحة الخاصة
 
-**Private Space** is a feature introduced in Android 15 that adds another way of isolating individual apps. You can set up a private space in the owner profile by navigating to :gear: **Settings** → **Security & privacy** → **Private space**. Once set up, your private space resides at the bottom of the app drawer.
+**المساحة الخاصة (Private Space)** هي ميزة أُضيفت في Android 15، وتوفّر طريقة أخرى لعزل التطبيقات عن بعضها. يمكنك إعداد مساحة خاصة (Private Space) في ملف تعريف المستخدم الأساسي من خلال الانتقال إلى **Settings** → **Security & privacy** → **Private space**. بعد إعداد المساحة الخاصة، ستجدها في أسفل قائمة التطبيقات.
 
-Like user profiles, a private space is encrypted using its own encryption key, and you have the option to set up a different unlock method. Like work profiles, you can use apps from both the owner profile and private space simultaneously. Apps launched from a private space are distinguished by an icon depicting a key within a shield.
+مثل ملفات تعريف المستخدمين، تُشفر المساحة الخاصة (Private Space) بمفتاح تشفير خاص بها، ويمكنك اختيار طريقة مختلفة لفتح قفلها. مثل ملفات تعريف العمل (Work Profiles)، يمكنك تشغيل التطبيقات الموجودة في ملفك الشخصي الأساسي والمساحة الخاصة (Private Space) في الوقت نفسه. يمكنك تمييز التطبيقات التي تُشغلها من المساحة الخاصة (Private Space) من خلال أيقونة على شكل مفتاح داخل درع.
 
-Unlike work profiles, Private Space is a feature native to Android that does not require a third-party app to manage it. For this reason, we generally recommend using a private space over a work profile, though you can use a work profile alongside a private space.
+على عكس ملفات تعريف العمل (Work Profiles)، فإن المساحة الخاصة (Private Space) ميزة مدمجة في Android، ولا تحتاج إلى تطبيق خارجي لإدارتها. لهذا السبب، ننصح عموما باستخدام المساحة الخاصة (Private Space) بدلا من ملف تعريف العمل (Work Profile)، لكن يمكنك استخدامهما معا في الوقت نفسه.
 
 ### VPN kill switch
 
-Android 7 and above supports a VPN kill switch, and it is available without the need to install third-party apps. This feature can prevent leaks if the VPN is disconnected. It can be found in :gear: **Settings** → **Network & internet** → **VPN** → :gear: → **Block connections without VPN**.
+يدعم Android 7 والإصدارات الأحدث ميزة Kill Switch للـ VPN، ويمكنك استخدامها دون الحاجة إلى تثبيت تطبيقات خارجية. تساعد هذه الميزة على منع تسرب بياناتك إذا انقطع اتصال الـ VPN. يمكنك العثور على هذه الميزة من خلال الانتقال إلى :gear:**Settings** → **Network & internet** → **VPN** → :gear: → **Block connections without VPN**.
 
-### Global Toggles
+### إعدادات التحكم العامة
 
-Modern Android devices have global toggles for disabling Bluetooth and location services. Android 12 introduced toggles for the camera and microphone. When not in use, we recommend disabling these features. Apps cannot use disabled features (even if granted individual permissions) until re-enabled.
+توفر أجهزة Android الحديثة خيارات لإيقاف Bluetooth وخدمات الموقع على مستوى الجهاز بالكامل. أضاف Android 12 خيارات لتعطيل الكاميرا والميكروفون. ننصحك بإيقاف هذه الميزات عندما لا تحتاج إلى استخدامها. لا يمكن للتطبيقات استخدام هذه الميزات بعد إيقافها، حتى لو سبق أن منحتها الأذونات اللازمة، إلا بعد إعادة تفعيلها.
 
-## Google Services
+## خدمات جوجل
 
-If you are using a device with Google services—whether with the stock operating system or an operating system that safely sandboxes Google Play Services like GrapheneOS—there are a number of additional changes you can make to improve your privacy. We still recommend avoiding Google services entirely, or limiting Google Play Services to a specific user/work profile by combining a device controller like *Shelter* with GrapheneOS's Sandboxed Google Play.
+إذا كنت تستخدم جهازا يحتوي على خدمات Google، سواء بنظام التشغيل الأصلي أو بنظام يعزل Google Play Services بطريقة آمنة مثل GrapheneOS، فهناك بعض الإعدادات الإضافية التي يمكنك تغييرها لتحسين خصوصيتك. ما زلنا ننصح بتجنّب خدمات Google تمامًا، أو حصر استخدامها في ملف تعريف مستخدم أو ملف تعريف عمل (Work Profile) محدّد، من خلال الجمع بين تطبيق لإدارة الجهاز مثل *Shelter* وميزة Sandboxed Google Play في GrapheneOS.
 
-### Advanced Protection Program
+### برنامج الحماية المتقدمة
 
-If you have a Google account we suggest enrolling in the [Advanced Protection Program](https://landing.google.com/advancedprotection). It is available at no cost to anyone with two or more hardware security keys with [FIDO](../basics/multi-factor-authentication.md#fido-fast-identity-online) support. Alternatively, you can use [passkeys](https://fidoalliance.org/passkeys).
+إذا كان لديك حساب Google، فننصحك بالاشتراك في برنامج الحماية المتقدّمة [ (Advanced Protection Program)](https://landing.google.com/advancedprotection). البرنامج مجاني ومتاح لأي شخص لديه مفتاحا أمان فعليان أو أكثر يدعمان [FIDO](../basics/multi-factor-authentication.md#fido-fast-identity-online). يمكنك أيضًا استخدام [مفاتيح المرور (Passkeys)](https://fidoalliance.org/passkeys) بدلًا من ذلك.
 
-The Advanced Protection Program provides enhanced threat monitoring and enables:
+يوفر برنامج الحماية المتقدمة مراقبة أفضل للتهديدات الأمنية، ويتيح الميزات التالية:
 
-- Stricter two-factor authentication; e.g. that [FIDO](../basics/multi-factor-authentication.md#fido-fast-identity-online) **must** be used and disallows the use of [SMS OTPs](../basics/multi-factor-authentication.md#sms-or-email-mfa), [TOTP](../basics/multi-factor-authentication.md#time-based-one-time-password-totp) and [OAuth](../basics/account-creation.md#sign-in-with-oauth)
-- Only Google and verified third-party apps can access account data
-- Scanning of incoming emails on Gmail accounts for [phishing](https://en.wikipedia.org/wiki/Phishing#Email_phishing) attempts
-- Stricter [safe browser scanning](https://google.com/chrome/privacy/whitepaper.html#malware) with Google Chrome
-- Stricter recovery process for accounts with lost credentials
+- مصادقة ثنائية أكثر صرامة، حيث **يُشترط** استخدام [FIDO](../basics/multi-factor-authentication.md#fido-fast-identity-online)، ولا يُسمح باستخدام [رموز التحقق عبر SMS](../basics/multi-factor-authentication.md#sms-or-email-mfa) أو [TOTP](../basics/multi-factor-authentication.md#time-based-one-time-password-totp) أو [OAuth](../basics/account-creation.md#sign-in-with-oauth)
+- لا يمكن الوصول إلى بيانات الحساب إلا من خلال Google والتطبيقات الخارجية التي تم التحقق منها
+- فحص الرسائل الواردة إلى حسابات Gmail للكشف عن محاولات [التصيد الاحتيالي (Phising)](https://en.wikipedia.org/wiki/Phishing#Email_phishing)
+- [فحص أكثر صرامة](https://google.com/chrome/privacy/whitepaper.html#malware) للمواقع الخطيرة أثناء التصفح باستخدام Google Chrome
+- إجراءات أكثر صرامة لاستعادة الحسابات عند فقدان بيانات تسجيل الدخول
 
- If you use non-sandboxed Google Play Services (common on stock operating systems), the Advanced Protection Program also comes with [additional benefits](https://support.google.com/accounts/answer/9764949) such as:
+ إذا كنت تستخدم Google Play Services دون عزلها عن بقية النظام (كما هو شائع في أنظمة التشغيل الأصلية)، فإن برنامج الحماية المتقدمة يوفّر لك أيضا [مزايا إضافية](https://support.google.com/accounts/answer/9764949)، مثل:
 
-- Not allowing app installation outside the Google Play Store, the OS vendor's app store, or via [`adb`](https://en.wikipedia.org/wiki/Android_Debug_Bridge)
-- Mandatory automatic device scanning with [Play Protect](https://support.google.com/googleplay/answer/2812853?#zippy=%2Chow-malware-protection-works%2Chow-privacy-alerts-work)
-- Warning you about unverified applications
-- Enabling ARM's hardware-based [Memory Tagging Extension (MTE)](https://developer.arm.com/documentation/108035/0100/Introduction-to-the-Memory-Tagging-Extension) for supported apps, which lowers the likelihood of device exploits happening through memory corruption bugs
+- منع تثبيت التطبيقات من خارج Google Play Store أو متجر التطبيقات التابع للشركة المصنعة للجهاز، إلا عند تثبيتها باستخدام [`adb`](https://en.wikipedia.org/wiki/Android_Debug_Bridge)
+- فحص الجهاز تلقائيًا وبشكل إلزامي باستخدام [Play Protect](https://support.google.com/googleplay/answer/2812853?#zippy=%2Chow-malware-protection-works%2Chow-privacy-alerts-work)
+- تحذيرك من التطبيقات التي لم يتم التحقق منها
+- تفعيل ميزة [Memory Tagging Extension (MTE)](https://developer.arm.com/documentation/108035/0100/Introduction-to-the-Memory-Tagging-Extension) من ARM، التي تعتمد على مكونات الجهاز وتعمل مع التطبيقات التي تدعمها، مما يقلّل من احتمال استغلال الثغرات الناتجة عن أخطاء في الذاكرة لاختراق الجهاز.
 
-### Google Play System Updates
+### تحديثات نظام Google Play
 
-In the past, Android security updates had to be shipped by the operating system vendor. Android has become more modular beginning with Android 10, and Google can push security updates for **some** system components via the privileged Play Services.
+في السابق، كانت تحديثات الأمان لنظام Android تصل إلى المستخدمين عن طريق الشركة المطوّرة لنظام التشغيل. بدءا من Android 10، أصبح النظام مقسّما إلى مكوّنات مستقلة بشكل أكبر، مما يتيح لـ Google إرسال تحديثات أمنية **لبعض** هذه المكوّنات مباشرة عبر Play Services، التي تمتلك صلاحيات خاصة داخل النظام.
 
-If you have an EOL device shipped with Android 10 or above and are unable to run any of our recommended operating systems on your device, you are likely going to be better off sticking with your OEM Android installation (as opposed to an operating system not listed here such as LineageOS or /e/ OS). This will allow you to receive **some** security fixes from Google, while not violating the Android security model by using an insecure Android derivative and increasing your attack surface. We would still recommend upgrading to a supported device as soon as possible.
+إذا كان جهازك قد انتهى دعمه (EOL)، وكان يعمل بنظام Android 10 أو أحدث، ولا يمكنك تثبيت أي من أنظمة التشغيل التي نوصي بها، فمن الأفضل غالبا الاستمرار في استخدام نظام Android الأصلي من الشركة المصنعة لجهازك، بدلًا من تثبيت نظام آخر لا نوصي به هنا، مثل LineageOS أو /e/ OS. بهذه الطريقة، ستظل تتلقى **بعض** الإصلاحات الأمنية من Google، دون الإخلال بنظام الحماية في Android باستخدام نسخة معدلة وغير آمنة منه، أو زيادة فرص تعرض جهازك للهجمات. ومع ذلك، ما زلنا ننصحك بالانتقال إلى جهاز لا يزال يتلقى التحديثات الأمنية في أقرب وقت ممكن.
 
-### Advertising ID
+### معرف الإعلانات
 
-All devices with Google Play Services installed automatically generate an [advertising ID](https://support.google.com/googleplay/android-developer/answer/6048248) used for targeted advertising. Disable this feature to limit the data collected about you.
+تُنشئ جميع الأجهزة التي تحتوي على Google Play Services [معرفا إعلانيا](https://support.google.com/googleplay/android-developer/answer/6048248) تلقائيا، يُستخدم لعرض إعلانات تستهدف المستخدم حسب اهتماماته. عطل هذه الميزة لتقليل كمية البيانات التي تُجمع عنك.
 
-On Android distributions with [sandboxed Google Play](https://grapheneos.org/usage#sandboxed-google-play), go to :gear: **Settings** → **Apps** → **Sandboxed Google Play** → **Google Settings** → **All services** → **Ads**.
+في إصدارات Android التي تستخدم Google Play المعزول [(Sandboxed Google Play)](https://grapheneos.org/usage#sandboxed-google-play)، انتقل إلى :gear: **Settings** → **Apps** →** Sandboxed Google Play** → **Google Settings** → **All services** → **Ads**.
 
-- [x] Select **Delete advertising ID**
+- [x] اختر **Delete advertising ID**
 
-On Android distributions with privileged Google Play Services (which includes the stock installation on most devices), the setting may be in one of several locations. Check
+في إصدارات Android التي تعمل فيها Google Play Services بصلاحيات خاصة داخل النظام (مثل النظام الأصلي في معظم الأجهزة)، قد تجد هذا الإعداد في أكثر من مكان. تحقق
 
 - :gear: **Settings** → **Google** → **Ads**
 - :gear: **Settings** → **Privacy** → **Ads**
 
-You will either be given the option to delete your advertising ID or to *Opt out of interest-based ads* (this varies between OEM distributions of Android). If presented with the option to delete the advertising ID, that is preferred. If not, then make sure to opt out and reset your advertising ID.
+ستجد خيارا لحذف معرفك الإعلاني أو إيقاف الإعلانات التي* تستهدفك حسب اهتماماتك*، ويختلف الخيار المتاح حسب إصدار Android والشركة المصنعة للجهاز. إذا كان خيار حذف المعرف الإعلاني متاحا، فننصحك باختياره. إذا لم يكن متاحا، فتأكد من إيقاف الإعلانات التي تستهدفك حسب اهتماماتك، ثم إعادة تعيين معرفك الإعلاني.
 
-### SafetyNet and Play Integrity API
+### SafetyNet وPlay Integrity API
 
-[SafetyNet](https://developer.android.com/training/safetynet/attestation) and the [Play Integrity APIs](https://developer.android.com/google/play/integrity) are generally used for [banking apps](https://grapheneos.org/usage#banking-apps). Many banking apps will work fine in GrapheneOS with sandboxed Play services, however some non-financial apps have their own crude anti-tampering mechanisms which might fail. GrapheneOS passes the `basicIntegrity` check, but not the certification check `ctsProfileMatch`. Devices with Android 8 or later have hardware attestation support which cannot be bypassed without leaked keys or serious vulnerabilities.
+تُستخدم [SafetyNet](https://developer.android.com/training/safetynet/attestation) وواجهات [Play Integrity API](https://developer.android.com/google/play/integrity) عادةً في [التطبيقات البنكية](https://grapheneos.org/usage#banking-apps). تعمل الكثير من التطبيقات البنكية بشكل طبيعي على GrapheneOS مع خدمات Google Play المعزولة، لكن بعض التطبيقات غير المالية تستخدم وسائل بدائية خاصة بها للكشف عن التلاعب بالتطبيق أو النظام، وقد لا تعمل هذه الوسائل بشكل صحيح. يجتاز GrapheneOS فحص السلامة الأساسي` (basicIntegrity)`، لكنه لا يجتاز فحص اعتماد الجهاز `(ctsProfileMatch).` تدعم الأجهزة التي تعمل بنظام Android 8 أو أحدث ميزة التحقق من سلامة الجهاز باستخدام مكوّناته الفعلية (Hardware Attestation)، ولا يمكن تجاوز هذا التحقق إلا إذا تسربت مفاتيح الأمان أو وُجدت ثغرات أمنية خطيرة.
 
-As for Google Wallet, we don't recommend this due to their [privacy policy](https://payments.google.com/payments/apis-secure/get_legal_document?ldo=0&ldt=privacynotice&ldl=en), which states you must opt out if you don't want your credit rating and personal information shared with affiliate marketing services.
+أما بالنسبة إلى Google Wallet، فلا ننصح باستخدامه بسبب[ سياسة الخصوصية](https://payments.google.com/payments/apis-secure/get_legal_document?ldo=0&ldt=privacynotice&ldl=en) الخاصة به، التي تنص على أنه يجب عليك إلغاء الاشتراك في مشاركة البيانات إذا كنت لا تريد مشاركة تصنيفك الائتماني ومعلوماتك الشخصية مع خدمات التسويق التابعة لشركات مرتبطة بـ Google.
