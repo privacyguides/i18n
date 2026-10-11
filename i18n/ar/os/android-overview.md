@@ -67,10 +67,10 @@ robots: nofollow, max-snippet:-1, max-image-preview:large
 أندرويد 13:
 
 - إذن للوصول إلى [أجهزة Wi-Fi القريبة](https://developer.android.com/about/versions/13/behavior-changes-13#nearby-wifi-devices-permission). كانت التطبيقات تستخدم عناوين MAC الخاصة بنقاط اتصال Wi-Fi القريبة بشكل شائع لتتبع موقع المستخدم.
-- More [granular media permissions](https://developer.android.com/about/versions/13/behavior-changes-13#granular-media-permissions), meaning you can grant access to images, videos or audio files only.
-- Background use of sensors now requires the [`BODY_SENSORS`](https://developer.android.com/about/versions/13/behavior-changes-13#body-sensors-background-permission) permission.
+- [أذونات أكثر دقة](https://developer.android.com/about/versions/13/behavior-changes-13#granular-media-permissions) للوصول إلى الوسائط، بحيث يمكنك السماح بالوصول إلى الصور أو الفيديوهات أو الملفات الصوتية فقط.
+- أصبح استخدام المستشعرات في الخلفية يتطلب إذن الـ [BODY_SENSORS``](https://developer.android.com/about/versions/13/behavior-changes-13#body-sensors-background-permission).
 
-An app may request a permission for a specific feature it has. For example, any app that can scan QR codes will require the camera permission. Some apps can request more permissions than they need.
+قد يطلب التطبيق إذنا لاستخدام ميزة معينة فيه. على سبيل المثال، أي تطبيق يمكنه مسح رموز QR سيحتاج إلى إذن الوصول إلى الكاميرا. قد تطلب بعض التطبيقات أذونات أكثر مما تحتاج إليه.
 
 [Exodus](https://exodus-privacy.eu.org) can be useful when comparing apps that have similar purposes. If an app requires a lot of permissions and has a lot of advertising and analytics this is probably a bad sign. We recommend looking at the individual trackers and reading their descriptions rather than simply **counting the total** and assuming all items listed are equal.
 
