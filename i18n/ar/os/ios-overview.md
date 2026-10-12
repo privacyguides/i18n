@@ -1,36 +1,36 @@
 ---
-title: iOS Overview
+title: نظرة عامة على iOS
 icon: simple/apple
-description: iOS is a mobile operating system developed by Apple for the iPhone.
+description: الـ iOS هو نظام تشغيل للهواتف المحمولة طورته Apple لأجهزة iPhone.
 ---
 
-**iOS** and **iPadOS** are proprietary mobile operating systems developed by Apple for their iPhone and iPad products, respectively. If you have an Apple mobile device, you can increase your privacy by disabling some built-in telemetry features, and hardening some privacy and security settings which are built in to the system.
+الـ **iOS** و**iPadOS** هما نظاما تشغيل مغلقا المصدر طوّرتهما Apple لأجهزة iPhone وiPad على الترتيب. إذا كان لديك جهاز محمول من Apple، يمكنك تحسين خصوصيتك من خلال تعطيل بعض ميزات telemetry المدمجة التي تجمع بيانات الاستخدام، وضبط بعض إعدادات الخصوصية والأمان الموجودة في النظام لجعل جهازك أكثر أمانا.
 
-## Privacy Notes
+## ملاحظات حول الخصوصية
 
-iOS devices are frequently praised by security experts for their robust data protection and adherence to modern best practices. However, the restrictiveness of Apple's ecosystem—particularly with their mobile devices—does still hamper privacy in a number of ways.
+غالبا ما يشيد خبراء الأمان بأجهزة iOS لقوة حمايتها للبيانات واتباعها لأحدث الممارسات الأمنية الموصى بها. ومع ذلك، فإن القيود التي تفرضها Apple على نظامها، خاصةً في أجهزتها المحمولة، لا تزال تؤثر سلبا على الخصوصية بعدة طرق.
 
-We generally consider iOS to provide better than average privacy and security protections for most people, compared to stock Android devices from any manufacturer. However, you can achieve even higher standards of privacy with a [custom Android operating system](../android/distributions.md) like GrapheneOS, if you want or need to be completely independent of Apple or Google's cloud services.
+نرى عموما أن iOS يوفر لمعظم المستخدمين حماية للخصوصية والأمان أفضل من المتوسط، مقارنةً بأجهزة Android التي تعمل بنسخته الأصلية من أي شركة مصنّعة. ومع ذلك، يمكنك الحصول على مستوى أعلى من الخصوصية باستخدام [نظام Android مخصص](../android/distributions.md) مثل GrapheneOS، إذا كنت ترغب في الاستغناء تماما عن الخدمات السحابية من Apple أو Google أو كنت بحاجة إلى ذلك.
 
-### Activation Lock
+### قفل التنشيط
 
-All iOS devices must be checked against Apple's Activation Lock servers when they are initially set up or reset, meaning an internet connection is **required** to use an iOS device.
+يجب التحقق من جميع أجهزة iOS عبر خوادم قفل التنشيط (Activation Lock) التابعة لشركة Apple عند إعدادها لأول مرة أو إعادة ضبطها، مما يعني أنك **بحاجة** إلى اتصال بالإنترنت لاستخدام جهاز iOS.
 
-### Mandatory App Store
+### متجر التطبيقات الإلزامي
 
-The only source for apps on iOS is Apple's App Store, which requires an Apple Account to access. This means that Apple has a record of every app you install on your device, and can likely tie that information to your actual identity if you provide the App Store with a payment method.
+المصدر الوحيد للتطبيقات على iOS هو متجر App Store التابع لشركة Apple، والذي يتطلب حساب Apple للوصول إليه. هذا يعني أن Apple تحتفظ بسجل لجميع التطبيقات التي تثبتها على جهازك، ويمكنها على الأرجح ربط هذه المعلومات بهويتك الحقيقية إذا أضفت وسيلة دفع إلى App Store.
 
-### Invasive Telemetry
+### جمع بيانات الاستخدام بشكل ينتهك الخصوصية
 
-Apple has historically had problems with properly disassociating their telemetry from Apple Accounts on iOS. In [2019](https://theguardian.com/technology/2019/jul/26/apple-contractors-regularly-hear-confidential-details-on-siri-recordings), Apple was found to transmit Siri recordings—some containing highly confidential information—to their servers for manual review by third-party contractors. Though Apple temporarily stopped that program after that practice was [widely reported on](https://theverge.com/2019/8/23/20830120/apple-contractors-siri-recordings-listening-1000-a-day-globetech-microsoft-cortana), the company rolled out a switch to [**opt out** of uploading conversations with Siri](https://theguardian.com/technology/2019/oct/30/apple-lets-users-opt-out-of-having-siri-conversations-recorded) a few months later in the succeeding iOS update. Moreover, in 2021, [Apple reworked Siri](https://theguardian.com/technology/2021/jun/07/apple-overhauls-siri-to-address-privacy-concerns-and-improve-performance) so that it processes voice recordings locally rather than sending it to their servers.
+واجهت Apple في السابق مشكلات في فصل بيانات telemetry التي تجمعها على iOS عن حسابات Apple بشكل صحيح. في عام [2019](https://theguardian.com/technology/2019/jul/26/apple-contractors-regularly-hear-confidential-details-on-siri-recordings)، تبين أن Apple كانت ترسل تسجيلات Siri إلى خوادمها ليراجعها موظفون لدى شركات خارجية يدويا، وكان بعضها يحتوي على معلومات شديدة السرية. ورغم أن Apple أوقفت هذا البرنامج مؤقتا بعد [انتشار التقارير عنه](https://theverge.com/2019/8/23/20830120/apple-contractors-siri-recordings-listening-1000-a-day-globetech-microsoft-cortana)، فإنها أضافت بعد بضعة أشهر، في تحديث لاحق لنظام iOS، خيارًا يتيح للمستخدمين [**منع**](https://theguardian.com/technology/2019/oct/30/apple-lets-users-opt-out-of-having-siri-conversations-recorded) رفع محادثاتهم مع Siri. علاوة على ذلك، في عام 2021، [عدلت Apple](https://theguardian.com/technology/2021/jun/07/apple-overhauls-siri-to-address-privacy-concerns-and-improve-performance) طريقة عمل Siri بحيث تعالج التسجيلات الصوتية على الجهاز نفسه بدلًا من إرسالها إلى خوادمها.
 
-More recently, Apple has been found to transmit analytics [even when analytics sharing is disabled](https://gizmodo.com/apple-iphone-analytics-tracking-even-when-off-app-store-1849757558) on iOS, and this data [appears](https://twitter.com/mysk_co/status/1594515229915979776) to be easily linked to unique iCloud account identifiers despite supposedly being decoupled from Apple Accounts.
+وفي الآونة الأخيرة، تبين أن Apple ترسل بيانات تحليل الاستخدام حتى عند [تعطيل مشاركة هذه البيانات في iOS](https://gizmodo.com/apple-iphone-analytics-tracking-even-when-off-app-store-1849757558). ويبدو أنه يمكن بسهولة [ربط](https://twitter.com/mysk_co/status/1594515229915979776) هذه البيانات بمعرفات فريدة لحسابات iCloud، رغم أن Apple تقول إنها منفصلة عن حسابات Apple.
 
-### Traffic Outside Active VPN Connections
+### حركة مرور الإنترنت خارج اتصالات VPN النشطة
 
-Apple's [privacy policy regarding VPNs](https://apple.com/legal/privacy/data/en/vpns) states:
+تنص سياسة الخصوصية لدى Apple [فيما يتعلق بخدمات VPN](https://apple.com/legal/privacy/data/en/vpns) على ما يلي:
 
-> Even when a VPN is active, some traffic that is necessary for essential system services will take place outside the VPN so that your device can function properly.
+> حتى عند تشغيل VPN، قد تمر بعض اتصالات الإنترنت الضرورية لخدمات النظام الأساسية خارج اتصال VPN، حتى يتمكن جهازك من العمل بشكل صحيح.
 
 ## Recommended Configuration
 
