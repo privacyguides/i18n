@@ -32,60 +32,60 @@ description: الـ iOS هو نظام تشغيل للهواتف المحمولة
 
 > حتى عند تشغيل VPN، قد تمر بعض اتصالات الإنترنت الضرورية لخدمات النظام الأساسية خارج اتصال VPN، حتى يتمكن جهازك من العمل بشكل صحيح.
 
-## Recommended Configuration
+## الإعدادات الموصى بها
 
-**Note:** This guide assumes that you're running the latest version of iOS.
+**ملاحظة:** يفترض هذا الدليل أنك تستخدم أحدث إصدار من iOS.
 
 ### iCloud
 
-The majority of privacy and security concerns with Apple products are related to their cloud services, not their hardware or software. When you use Apple services like iCloud, most of your information is stored on their servers and secured with keys which Apple has access to by default. You can check [Apple's documentation](https://support.apple.com/HT202303) for information on which services are end-to-end encrypted. Anything listed as "in transit" or "on server" means it's possible for Apple to access that data without your permission. This level of access has occasionally been abused by law enforcement to get around the fact that your data is otherwise securely encrypted on your device, and of course Apple is vulnerable to data breaches like any other company.
+ترتبط معظم المخاوف المتعلقة بالخصوصية والأمان في منتجات Apple بخدماتها السحابية، وليس بأجهزتها أو برامجها. عندما تستخدم خدمات Apple مثل iCloud، تُخزن معظم معلوماتك على خوادم الشركة، وتُحمى بمفاتيح تشفير تستطيع Apple الوصول إليها بشكل افتراضي. يمكنك الاطلاع على [وثائق Apple](https://support.apple.com/HT202303) لمعرفة الخدمات التي تستخدم End-to-End Encryption. أي بيانات يُذكر أنها مشفرة "in transit" أو "on server" تعني أن Apple قد تتمكن من الوصول إليها دون إذنك. استغلت جهات إنفاذ القانون هذه الإمكانية أحيانا للوصول إلى بياناتك رغم أنها مشفّرة بشكل آمن على جهازك. وبالطبع، فإن Apple معرّضة أيضًا لاختراقات البيانات مثل أي شركة أخرى.
 
-Therefore, if you do use iCloud you should [enable **Advanced Data Protection**](https://support.apple.com/HT212520). This encrypts nearly all of your iCloud data with keys stored on your devices (end-to-end encryption), rather than Apple's servers, so that your iCloud data is secured in the event of a data breach, and otherwise hidden from Apple.
+لذلك، إذا كنت تستخدم iCloud، فمن الأفضل [تفعيل **Advanced Data Protection.**](https://support.apple.com/HT212520) تعمل هذه الميزة على تشفير جميع بياناتك تقريبا على iCloud باستخدام مفاتيح تشفير مخزنة على أجهزتك بدلا من خوادم Apple، وذلك من خلال End-to-End Encryption. وبهذا، تظل بياناتك محمية حتى في حال حدوث اختراق للبيانات، ولا تستطيع Apple الاطلاع عليها.
 
-The encryption used by Advanced Data Protection, while strong, [is not *quite* as robust](https://discuss.privacyguides.net/t/apple-advances-user-security-with-powerful-new-data-protections/10778/4) as the encryption offered by other [cloud services](../cloud.md), particularly when it comes to iCloud Drive. While we strongly encourage using Advanced Data Protection if you use iCloud, we would also suggest considering finding an alternative to iCloud from a more [privacy-focused service provider](../tools.md), although it is unlikely most people would be impacted by these encryption quirks.
+رغم أن التشفير الذي تستخدمه ميزة Advanced Data Protection قوي، [فإنه ليس بمستوى *قوة* التشفير](https://discuss.privacyguides.net/t/apple-advances-user-security-with-powerful-new-data-protections/10778/4) الذي توفره بعض[ الخدمات السحابية](../cloud.md) الأخرى، خاصةً فيما يتعلق بـ iCloud Drive. ننصح بشدة بتفعيل Advanced Data Protection إذا كنت تستخدم iCloud، لكننا ننصحك أيضا بالتفكير في استخدام خدمة بديلة [تهتم بالخصوصية](../tools.md) بشكل أكبر. ومع ذلك، فمن غير المرجح أن تؤثر هذه الاختلافات في التشفير على معظم المستخدمين.
 
-You can also protect your data by limiting what you sync to iCloud in the first place. At the top of the **Settings** app, you'll see your name and profile picture if you are signed in to iCloud. Select that, then **iCloud**, and turn off the switches for any services you don't want to sync to iCloud. You may see third-party apps listed under **Show All** if they sync to iCloud, which you can disable here.
+يمكنك أيضا حماية بياناتك عن طريق تقليل البيانات التي تزامنها مع iCloud من الأساس. في أعلى تطبيق **الإعدادات**، سيظهر اسمك وصورتك الشخصية إذا كنت قد سجلت الدخول إلى iCloud. اضغط عليه، ثم اختر **iCloud**، وأوقف المزامنة لأي خدمات لا تريد مزامنتها مع iCloud. قد تظهر بعض تطبيقات الجهات الخارجية ضمن قائمة **Show All** إذا كانت تزامن بياناتها مع iCloud، ويمكنك إيقاف مزامنتها من هنا.
 
 #### iCloud+
 
-A paid **iCloud+** subscription (with any iCloud storage plan) comes with some privacy-protecting functionality. While these may provide adequate service for current iCloud customers, we wouldn't recommend purchasing an iCloud+ plan over a [VPN](../vpn.md) and [standalone email aliasing service](../email-aliasing.md) just for these features alone.
+يتضمن الاشتراك المدفوع في **iCloud+** (بأي خطة تخزين على iCloud) بعض الميزات التي تساعد على حماية خصوصيتك. رغم أن هذه الميزات قد تكون مناسبة لمستخدمي iCloud الحاليين، فإننا لا ننصح بالاشتراك في iCloud+ من أجلها فقط، بدلا من استخدام [VPN](../vpn.md) وخدمة مستقلة لإنشاء [عناوين بريد إلكتروني](../email-aliasing.md) بديلة.
 
-[**Private Relay**](https://apple.com/legal/privacy/data/en/icloud-relay) is a proxy service which relays all of your Safari traffic, your DNS queries, and unencrypted traffic on your device through two servers: one owned by Apple and one owned by a third-party provider (including Akamai, Cloudflare, and Fastly). In theory this should prevent any single provider in the chain—including Apple—from having full visibility into which websites you visit while connected. Unlike a VPN, Private Relay does not protect traffic that's already encrypted.
+الـ [**Private Relay**](https://apple.com/legal/privacy/data/en/icloud-relay) هي خدمة Proxy تمرر جميع اتصالات Safari، واستعلامات DNS، والاتصالات غير المشفرة على جهازك عبر خادمين: أحدهما تابع لشركة Apple، والآخر تابع لشركة خارجية (مثل Akamai وCloudflare وFastly). من الناحية النظرية، يفترض أن يمنع هذا أي جهة مشاركة في الخدمة، بما فيها Apple، من معرفة جميع المواقع التي تزورها أثناء استخدامك لها. على عكس VPN، لا تحمي خدمة Private Relay الاتصالات المشفرة بالفعل.
 
-**Hide My Email** is Apple's email aliasing service. You can create an email aliases for free when you *Sign In With Apple* on a website or app, or generate unlimited aliases on demand with a paid iCloud+ plan. Hide My Email has the advantage of using the `@icloud.com` domain for its aliases, which may be less likely to be blocked compared to other email aliasing services, but does not offer functionality offered by standalone services such as automatic PGP encryption or multiple mailbox support.
+خدمة **Hide My Email** هي خدمة من Apple لإنشاء عناوين بريد إلكتروني بديلة. يمكنك إنشاء عنوان بريد إلكتروني بديل مجانا عند استخدام *Sign In With Apple* على موقع أو تطبيق، أو إنشاء عدد غير محدود من العناوين البديلة وقتما تشاء من خلال اشتراك مدفوع في iCloud+. تتميز خدمة Hide My Email باستخدام نطاق `@icloud.com` لعناوين البريد الإلكتروني البديلة، مما يجعل احتمال حظرها أقل مقارنة بخدمات أخرى. لكنها لا توفر بعض الميزات الموجودة في الخدمات المستقلة، مثل تشفير PGP التلقائي أو دعم صناديق بريد متعددة.
 
-#### Media & Purchases
+#### الوسائط والمشتريات
 
-At the top of the **Settings** app, you'll see your name and profile picture if you are signed in to an Apple Account. Select that, then select **Media & Purchases** → **View Account**.
+في أعلى تطبيق **الإعدادات**، سيظهر اسمك وصورتك الشخصية إذا كنت قد سجلت الدخول إلى حساب Apple. اضغط عليه، ثم اختر **الوسائط والمشتريات (Media & Purchases)** ← **عرض الحساب (View Account)**.
 
-- [ ] Turn off **Personalized Recommendations**
+- [ ] **أوقف التوصيات المخصصة (Personalized Recommendations)**
 
 #### Find My
 
-**Find My** is a service that lets you track your Apple devices and share your location with your friends and family. It also allows you to wipe your device remotely in case it is stolen, preventing a thief from accessing your data. Your Find My [location data is E2EE](https://apple.com/legal/privacy/data/en/find-my) when:
+خدمة **Find My** هي خدمة تتيح لك تتبّع أجهزة Apple الخاصة بك ومشاركة موقعك مع أصدقائك وعائلتك. وتتيح لك أيضا مسح بيانات جهازك عن بُعد في حال سرقته، لمنع السارق من الوصول إلى بياناتك. تكون [بيانات موقعك في Find My](https://apple.com/legal/privacy/data/en/find-my) محمية بتشفير End-to-End Encryption في الحالات التالية:
 
-- Your location is shared with a family member or friend, and you both use iOS 17 or greater.
-- Your device is offline and is located by the Find My Network.
+- عندما تشارك موقعك مع أحد أفراد عائلتك أو أصدقائك، ويستخدم كلاكما iOS 17 أو إصدارا أحدث.
+- عندما يكون جهازك غير متصل بالإنترنت، ويتم تحديد موقعه عبر شبكة Find My.
 
-Your location data is not E2EE when your device is online and you use Find My iPhone remotely to locate your device. You will have to make the decision whether these trade-offs are worth the anti-theft benefits of Activation Lock.
+لا تكون بيانات موقعك محمية بتشفير End-to-End Encryption عندما يكون جهازك متصلا بالإنترنت وتستخدم Find My iPhone لتحديد موقعه عن بُعد. عليك أن تقرر ما إذا كانت مزايا الحماية من السرقة التي توفرها ميزة Activation Lock تستحق هذه التنازلات.
 
-At the top of the **Settings** app, you'll see your name and profile picture if you are signed in to an Apple Account. Select that, then select **Find My**. Here you can choose whether to enable or disable Find My location features.
+في أعلى تطبيق **الإعدادات**، سيظهر اسمك وصورتك الشخصية إذا كنت قد سجلت الدخول إلى حساب Apple. اضغط عليه، ثم اختر **Find My**. يمكنك من هنا اختيار تفعيل ميزات تحديد الموقع في Find My أو إيقافها.
 
-### Settings
+### الاعدادات
 
-Many other privacy-related settings can be found in the **Settings** app.
+يمكنك العثور على العديد من الإعدادات الأخرى المتعلقة بالخصوصية في تطبيق **الإعدادات**.
 
-#### Airplane Mode
+#### وضع الطيران
 
-Enabling **Airplane Mode** stops your phone from contacting cell towers. You will still be able to connect to Wi-Fi and Bluetooth, so whenever you are connected to Wi-Fi you can turn this setting on.
+يؤدي تفعيل **وضع الطيران** إلى منع هاتفك من الاتصال بأبراج شبكات المحمول. سيظل بإمكانك الاتصال بشبكات Wi-Fi واستخدام Bluetooth، لذا يمكنك تفعيل وضع الطيران عندما تكون متصلًا بشبكة Wi-Fi.
 
 #### Wi-Fi
 
-You can enable [hardware address randomization](https://support.apple.com/en-us/102509#triswitch) to protect you from tracking across Wi-Fi networks, and on the same network over time. On the network you are currently connected to, tap the :material-information: button:
+يمكنك تفعيل ميزة استخدام [عناوين أجهزة عشوائية](https://support.apple.com/en-us/102509#triswitch) لحمايتك من التتبع عبر شبكات Wi-Fi المختلفة، وكذلك عند الاتصال بالشبكة نفسها على مدار الوقت. في الشبكة التي تتصل بها حاليا، اضغط على زر :material-information: التالي:
 
-- [x] Set **Private Wi-Fi Address** to **Fixed** or **Rotating**
+- [x] اضبط **Private Wi-Fi Address** على **Fixed** أو **Rotating**
 
-You also have the option to **Limit IP Address Tracking**. This is similar to iCloud Private Relay but only affects connections to "known trackers." Because it only affects connections to potentially malicious servers, this setting is probably fine to leave enabled, but if you don't want *any* traffic to be routed through Apple's servers, you should turn it off.
+يمكنك أيضًا تفعيل خيار **Limit IP Address Tracking**. This is similar to iCloud Private Relay but only affects connections to "known trackers." Because it only affects connections to potentially malicious servers, this setting is probably fine to leave enabled, but if you don't want *any* traffic to be routed through Apple's servers, you should turn it off.
 
 #### Bluetooth
 
