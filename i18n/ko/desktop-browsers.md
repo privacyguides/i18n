@@ -198,55 +198,55 @@ Firefox는 Mozilla 웹사이트에서 다운로드하는 파일에 고유한 [�
 1. [accounts.firefox.com 프로필 설정](https://accounts.firefox.com/settings#data-collection) 열기
 2. **데이터 수집 및 사용** > **Firefox 계정 개선에 참여** 비활성화
 
-##### HTTPS-Only Mode
+##### HTTPS 전용 모드
 
 - [x] **모든 창에서 HTTPS 전용 모드 사용** 활성화
 
-This prevents you from unintentionally connecting to a website in plain-text HTTP. Sites without HTTPS are uncommon nowadays, so this should have little to no impact on your day-to-day browsing.
+이를 통해 사용자가 의도치 않게 일반 텍스트 HTTP를 통해 웹사이트에 접속하는 것을 방지할 수 있습니다. 요즘은 HTTPS를 지원하지 않는 사이트가 드물기 때문에, 이는 여러분의 일상적인 웹 브라우징에 거의 또는 전혀 영향을 미치지 않습니다.
 
 ##### DNS over HTTPS
 
-If you use a [DNS over HTTPS provider](dns.md):
+[HTTPS를 통한 DNS(DNS over HTTPS) 제공업체](dns.md)를 사용하는 경우:
 
-- [x] Select **Max Protection** and choose a suitable provider
+- [x] **‘최대 보호’를** 선택하고 적합한 제공업체를 선택하세요
 
-Max Protection enforces the use of DNS over HTTPS, and a security warning will show if Firefox can’t connect to your secure DNS resolver, or if your secure DNS resolver says that records for the domain you are trying to access do not exist. This stops the network you're connected to from secretly downgrading your DNS security.
+최대 보호 모드는 DNS over HTTPS 사용을 강제합니다. Firefox가 보안 DNS 확인 서버에 연결하지 못하거나, 해당 서버가 접속하려는 도메인의 DNS 레코드가 존재하지 않는다고 응답하면 보안 경고가 표시됩니다. 이를 통해 사용자가 연결한 네트워크가 DNS 보안 수준을 몰래 낮추는 행위를 방지할 수 있습니다.
 
-#### Sync
+#### 동기화(Sync)
 
-[Firefox Sync](https://hacks.mozilla.org/2018/11/firefox-sync-privacy) allows your browsing data (history, bookmarks, etc.) to be accessible on all your devices and protects it with E2EE.
+[Firefox Sync](https://hacks.mozilla.org/2018/11/firefox-sync-privacy)를 사용하면 방문 기록과 북마크 등의 브라우징 데이터를 여러 기기에서 이용할 수 있으며, 해당 데이터는 종단 간 암호화(E2EE)로 보호됩니다.
 
 ### Arkenfox (고급)
 
 <div class="admonition tip" markdown>
-<p class="admonition-title">Use Mullvad Browser for advanced anti-fingerprinting</p>
+<p class="admonition-title">고급 지문 추적 방지가 필요하다면 Mullvad Browser를 사용하세요.</p>
 
-[Mullvad Browser](#mullvad-browser) provides stronger anti-fingerprinting protections out of the box than Firefox, and does not require the use of Mullvad's VPN to benefit from these protections. VPN을 함께 사용할 경우, Mullvad 브라우저는 Arkenfox가 차단하지 못하는 고급 추적 스크립트까지 차단할 수 있습니다. Firefox still has the advantage of being much more flexible, and allowing per-site exceptions for websites which you need to stay logged in to.
+[Mullvad Browser](#mullvad-browser)는 기본 설정만으로도 Firefox보다 강력한 브라우저 지문 추적 방지 기능을 제공하며, 이러한 보호 기능을 이용하기 위해 Mullvad VPN을 반드시 사용할 필요는 없습니다. VPN을 함께 사용할 경우, Mullvad 브라우저는 Arkenfox가 차단하지 못하는 고급 추적 스크립트까지 차단할 수 있습니다. Firefox는 여전히 훨씬 유연하다는 장점이 있습니다. 또한 로그인 상태를 유지해야 하는 웹사이트에 대해 사이트별 예외를 설정할 수 있습니다.
 
 </div>
 
-The [Arkenfox project](https://github.com/arkenfox/user.js) provides a set of carefully considered options for Firefox. If you [decide](https://github.com/arkenfox/user.js/wiki/1.1-To-Arkenfox-or-Not) to use Arkenfox, a [few options](https://github.com/arkenfox/user.js/wiki/3.2-Overrides-%5BCommon%5D) are subjectively strict and/or may cause some websites to not work properly—which you can [easily change](https://github.com/arkenfox/user.js/wiki/3.1-Overrides) to suit your needs. We **strongly recommend** reading through their full [wiki](https://github.com/arkenfox/user.js/wiki). Arkenfox also enables [container](https://support.mozilla.org/kb/containers#w_for-advanced-users) support.
+[Arkenfox 프로젝트](https://github.com/arkenfox/user.js)는 Firefox에 적용할 수 있는, 신중하게 검토된 설정 모음을 제공합니다. Arkenfox를 사용하기로 [결정하셨다면](https://github.com/arkenfox/user.js/wiki/1.1-To-Arkenfox-or-Not), [몇 가지 설정이](https://github.com/arkenfox/user.js/wiki/3.2-Overrides-%5BCommon%5D) 주관적으로 다소 까다롭거나 일부 웹사이트가 제대로 작동하지 않을 수 있습니다. 하지만 이러한 설정은 필요에 따라 [쉽게 변경할](https://github.com/arkenfox/user.js/wiki/3.1-Overrides) 수 있습니다. 해당 [위키의](https://github.com/arkenfox/user.js/wiki) 전체 [내용을](https://github.com/arkenfox/user.js/wiki) 꼼꼼히 읽어보시기를 **강력히 권장합니다**. Arkenfox는 [컨테이너](https://support.mozilla.org/kb/containers#w_for-advanced-users) 지원 기능도 제공합니다.
 
-Arkenfox only aims to thwart basic or naive tracking scripts through canvas randomization and Firefox's built-in fingerprint resistance configuration settings. It does not aim to make your browser blend in with a large crowd of other Arkenfox users in the same way Mullvad Browser or Tor Browser do, which is the only way to thwart advanced fingerprint tracking scripts. Remember that you can always use multiple browsers, for example, you could consider using Firefox+Arkenfox for a few sites that you want to stay logged in on or otherwise trust, and Mullvad Browser for general browsing.
+Arkenfox는 캔버스 무작위화(canvas randomization)와 Firefox에 내장된 지문 추적 방지 설정을 통해 기본적이거나 단순한 추적 스크립트를 방해하는 것을 목표로 합니다. 하지만 Mullvad Browser나 Tor Browser와 달리, 동일한 Arkenfox 설정을 사용하는 다수의 사용자 사이에 브라우저를 섞어 눈에 띄지 않게 만드는 것까지 목표로 하지는 않습니다. 이러한 방식으로 다른 사용자들과 브라우저의 특성을 비슷하게 만들어야 고급 지문 추적 스크립트의 추적을 효과적으로 방해할 수 있습니다. 브라우저를 여러 개 함께 사용해도 된다는 점을 기억하세요. 예를 들어, 로그인 상태를 유지해야 하거나 신뢰하는 일부 웹사이트에는 Firefox와 Arkenfox를 사용하고, 일반적인 웹 브라우징에는 Mullvad Browser를 사용할 수 있습니다.
 
 ## Brave
 
 <div class="admonition recommendation annotate" markdown>
 
-![Brave logo](assets/img/browsers/brave.svg){ align=right }
+![Brave 로고](assets/img/browsers/brave.svg){ align=right }
 
-**Brave Browser** includes a built-in content blocker and [privacy features](https://brave.com/privacy-features), many of which are enabled by default.
+**Brave 브라우저**에는 내장 콘텐츠 차단기와 [개인정보 보호 기능](https://brave.com/privacy-features)이 포함되어 있으며, 이들 중 상당수는 기본적으로 활성화되어 있습니다.
 
 Brace는 Chromium 웹 브라우저 프로젝트 기반으로 구축되었으므로, 친숙하며 웹사이트 호환성 문제가 적습니다.
 
-[:octicons-home-16: Homepage](https://brave.com){ .md-button .md-button--primary }
-[:simple-torbrowser:](https://brave4u7jddbv7cyviptqjc7jusxh72uik7zt6adtckl5f4nwy2v72qd.onion){ .card-link title="Onion Service" }
-[:octicons-eye-16:](https://brave.com/privacy/browser){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://support.brave.com){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/brave/brave-browser){ .card-link title="Source Code" }
+[:octicons-home-16: 홈페이지](https://brave.com){ .md-button .md-button--primary }
+[:simple-torbrowser:](https://brave4u7jddbv7cyviptqjc7jusxh72uik7zt6adtckl5f4nwy2v72qd.onion){ .card-link title="Onion 서비스" }
+[:octicons-eye-16:](https://brave.com/privacy/browser){ .card-link title="개인정보 처리방침" }
+[:octicons-info-16:](https://support.brave.com){ .card-link title="문서" }
+[:octicons-code-16:](https://github.com/brave/brave-browser){ .card-link title="소스 코드" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>다운로드</summary>
 
 - [:simple-github: GitHub](https://github.com/brave/brave-browser/releases)
 - [:fontawesome-brands-windows: Windows](https://brave.com/download)
@@ -259,19 +259,19 @@ Brace는 Chromium 웹 브라우저 프로젝트 기반으로 구축되었으므�
 </div>
 
 <div class="admonition warning" markdown>
-<p class="admonition-title">Warning</p>
+<p class="admonition-title">경고</p>
 
-Brave adds a "[referral code](https://github.com/brave/brave-browser/wiki/Brave%E2%80%99s-Use-of-Referral-Codes)" to the file name in downloads from the Brave website, which is used to track which source the browser was downloaded from, for example `BRV002` in a download named `Brave-Browser-BRV002.pkg`. The installer will then ping Brave's server with the referral code at the end of the installation process. If you're concerned about this, you can rename the installer file before opening it.
+Brave는 Brave 웹사이트에서 다운로드한 파일의 이름에 “[추천 코드](https://github.com/brave/brave-browser/wiki/Brave%E2%80%99s-Use-of-Referral-Codes)”를 추가하는데, 이는 브라우저가 어느 출처에서 다운로드되었는지 추적하기 위한 것입니다. 예를 들어, `Brave-Browser-BRV002.pkg`라는 이름의 다운로드 파일에는 `BRV002`가 포함됩니다. 그러면 설치 프로그램이 설치 과정이 끝날 무렵 추천 코드를 포함해 Brave 서버에 핑을 보냅니다. 이 점이 걱정된다면, 설치 파일을 열기 전에 파일 이름을 변경할 수 있습니다.
 
 </div>
 
-### Recommended Brave Configuration
+### 권장되는 브레이브 설정
 
 이 옵션들은 :material-menu: → **설정에서** 찾을 수 있습니다.
 
-#### Shields
+#### 쉴드
 
-Brave includes some anti-fingerprinting measures in its [Shields](https://support.brave.com/hc/articles/360022973471-What-is-Shields) feature. We suggest configuring these options [globally](https://support.brave.com/hc/articles/360023646212-How-do-I-configure-global-and-site-specific-Shields-settings) across all pages that you visit.
+브레이브는 [‘쉴드’](https://support.brave.com/hc/articles/360022973471-What-is-Shields) 기능에 몇 가지 지문 추적 방지 조치를 포함하고 있습니다. We suggest configuring these options [globally](https://support.brave.com/hc/articles/360023646212-How-do-I-configure-global-and-site-specific-Shields-settings) across all pages that you visit.
 
 필요에 따라 사이트별로 보호 옵션을 낮출 수 있으나, 기본적으로 다음과 같이 설정할 것을 권장드립니다:
 
@@ -286,12 +286,12 @@ Brave allows you to select additional content filters within the internal `brave
 
 </details>
 
-- [x] Select **Strict** under *Upgrade connections to HTTPS*
-- [x] (Optional) Select **Block Scripts** (1)
-- [x] Check **Block fingerprinting**
-- [x] Select **Block third-party cookies**
-- [x] Check **Forget me when I close this site** (2)
-- [ ] Uncheck all social media components
+- [x] *HTTPS로 연결 업그레이드* 항목에서 **엄격**을 선택합니다.
+- [x] (선택 사항) **스크립트 차단**을 선택합니다. (1)
+- [x] **핑거프린팅 차단**을 선택합니다.
+- [x] **제3자 쿠키 차단**을 선택합니다.
+- [x] **이 사이트를 닫을 때 내 정보를 잊어주세요**(2)를 선택합니다.
+- [ ] 모든 소셜 미디어 구성 요소의 선택을 해제합니다
 
 </div>
 
