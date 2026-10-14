@@ -85,63 +85,63 @@ description: الـ iOS هو نظام تشغيل للهواتف المحمولة
 
 - [x] اضبط **Private Wi-Fi Address** على **Fixed** أو **Rotating**
 
-يمكنك أيضًا تفعيل خيار **Limit IP Address Tracking**. This is similar to iCloud Private Relay but only affects connections to "known trackers." Because it only affects connections to potentially malicious servers, this setting is probably fine to leave enabled, but if you don't want *any* traffic to be routed through Apple's servers, you should turn it off.
+يمكنك أيضًا تفعيل خيار **Limit IP Address Tracking**. هذا يشبه iCloud Private Relay، لكنه يؤثر فقط على الاتصالات بجهات التتبع المعروفة. لأن هذا الإعداد يؤثر فقط على الاتصالات بخوادم يُحتمل أن تكون ضارة، فلا بأس غالبًا بتركه مفعّلًا. لكن إذا كنت لا تريد توجيه *أي* من حركة مرور الإنترنت عبر خوادم Apple، فعليك تعطيله.
 
-#### Bluetooth
+#### البلوتوث
 
-**Bluetooth** should be disabled when you aren't using it as it increases your attack surface. Disabling Bluetooth (or Wi-Fi) via the Control Center only disables it temporarily: you must switch it off in Settings for disabling it to remain effective.
+يُفضل تعطيل **Bluetooth** عندما لا تستخدمه، لأنه يزيد من فرص تعرّض جهازك للهجمات. تعطيل الـBluetooth (أو الـ Wi-Fi) من مركز التحكم (Control Center) يعطله مؤقتًا فقط. ولإبقائه معطلًا، يجب إيقافه من الإعدادات.
 
-- [ ] Turn off **Bluetooth**
+- [ ] إيقاف تشغيل **Bluetooth**
 
-Note that Bluetooth is automatically turned on after every system update.
+لاحظ أن Bluetooth يُفعل تلقائيا بعد كل تحديث للنظام.
 
-#### General
+#### عام
 
-Your iPhone's device name will by default contain your first name, and this will be visible to anyone on networks you connect to. You should change this to something more generic, like "iPhone." Select **About** → **Name** and enter the device name you prefer.
+يحتوي اسم جهاز الـ iPhone افتراضيا على اسمك الأول، ويمكن لأي شخص على الشبكات التي تتصل بها رؤية هذا الاسم. يُفضل تغييره إلى اسم عام، مثل "iPhone". اختر **About** → **Name**، ثم أدخل الاسم الذي تفضله لجهازك.
 
-It is important to install software updates frequently to get the latest security fixes. You can enable automatic updates to keep your phone up-to-date without needing to constantly check for updates. Select **Software Update** → **Automatic Updates**:
+من المهم تثبيت تحديثات البرامج بانتظام للحصول على أحدث الإصلاحات الأمنية. يمكنك تفعيل التحديثات التلقائية لإبقاء هاتفك محدثا دون الحاجة إلى التحقق باستمرار من وجود تحديثات جديدة. اختر **Software Update** → **Automatic Updates**:
 
-- [x] Turn on **Automatically Install**
+- [x] فعّل **Automatically Install**
 
-**AirDrop** is commonly used to easily share files, but it represents a significant privacy risk. The AirDrop protocol constantly broadcasts your personal information to your surroundings, with [very weak](https://usenix.org/system/files/sec21-heinrich.pdf) security protections. Your identity can easily be discovered by attackers even with limited resources, and the Chinese government has [openly acknowledged](https://arstechnica.com/security/2024/01/hackers-can-id-unique-apple-airdrop-users-chinese-authorities-claim-to-do-just-that) using such techniques to identify AirDrop users in public since 2022.
+يُستخدم **AirDrop** عادةً لمشاركة الملفات بسهولة، لكنه يشكل خطرا كبيرا على الخصوصية. يبث بروتوكول AirDrop معلوماتك الشخصية باستمرار إلى الأجهزة المحيطة بك، مع وجود وسائل حماية أمنية [ضعيفة جدا](https://usenix.org/system/files/sec21-heinrich.pdf). يمكن للمهاجمين اكتشاف هويتك بسهولة حتى لو كانت مواردهم محدودة، وقد أعلنت الحكومة الصينية صراحةً أنها تستخدم هذه الأساليب للتعرف على مستخدمي AirDrop في [الأماكن العامة](https://arstechnica.com/security/2024/01/hackers-can-id-unique-apple-airdrop-users-chinese-authorities-claim-to-do-just-that) منذ عام 2022.
 
-- [x] Select **AirDrop** → **Receiving Off**
+- [x] اختر **AirDrop** → **Receiving Off**
 
-**AirPlay** lets you seamlessly stream content from your iPhone to a TV; however, you might not always want this. Select **AirPlay & Continuity** → **Automatically AirPlay**:
+يتيح لك **AirPlay** بث المحتوى من جهاز iPhone إلى التلفزيون بسهولة، لكنك قد لا ترغب في ذلك دائما. اختر **AirPlay & Continuity** → **Automatically AirPlay**:
 
-- [x] Select **Never** or **Ask**
+- [x] اختر **Never** أو **Ask**
 
-**Background App Refresh** allows your apps to refresh their content while you're not using them. This may cause them to make unwanted connections. Turning this off can also save battery life, but may affect an app's ability to receive updated information, particularly weather and messaging apps.
+تتيح ميزة **Background App Refresh** للتطبيقات تحديث محتواها حتى عندما لا تستخدمها. قد يؤدي ذلك إلى إجراء التطبيقات اتصالات غير مرغوب فيها. قد يساعد تعطيل هذه الميزة أيضا في توفير البطارية، لكنه قد يؤثر على قدرة بعض التطبيقات على تلقي المعلومات الجديدة، خصوصا تطبيقات الطقس والمراسلة.
 
-Select **Background App Refresh** and switch off any apps you don't want to continue refreshing in the background. If you don't want any apps to refresh in the background, you can select **Background App Refresh** again and turn it **Off**.
+اختر **Background App Refresh**، ثم عطل الميزة لأي تطبيق لا تريد أن يستمر في تحديث محتواه في الخلفية. إذا كنت لا تريد أن تحدث أي تطبيقات محتواها في الخلفية، يمكنك اختيار **Background App Refresh** مرة أخرى، ثم تحديد **Off**.
 
 #### Apple Intelligence & Siri
 
-This is available if your device supports **[Apple Intelligence](https://support.apple.com/guide/iphone/apple-intelligence-and-privacy-iphe3f499e0e/ios)**. Apple Intelligence uses a combination of on-device processing and their **[Private Cloud Compute](https://security.apple.com/blog/private-cloud-compute)** for things that take more processing power than your device can provide.
+تتوفر هذه الميزة إذا كان جهازك يدعم **[Apple Intelligence](https://support.apple.com/guide/iphone/apple-intelligence-and-privacy-iphe3f499e0e/ios)**. تستخدم Apple Intelligence مزيجا من المعالجة على جهازك وخدمة **[Private Cloud Compute](https://security.apple.com/blog/private-cloud-compute)** لمعالجة المهام التي تتطلب قدرة معالجة أكبر مما يستطيع جهازك توفيره.
 
-To see a report of all the requests made to Apple's servers, you can navigate to **Privacy & Security** → **Apple Intelligence Report** and press **Export Activity** to see activity from the either the last 15 minutes or 7 days, depending on what you set it for. Similar to the **App Privacy Report** which shows you the recent permissions accessed by the apps on your phone, the Apple Intelligence Report likewise shows what is being sent to Apple's servers while using Apple Intelligence.
+لعرض تقرير بجميع الطلبات التي أُرسلت إلى خوادم Apple، انتقل إلى **Privacy & Security** → **Apple Intelligence Report**، ثم اضغط على **Export Activity** لعرض النشاط خلال آخر 15 دقيقة أو 7 أيام، حسب المدة التي حددتها. مثل تقرير **App Privacy Report** الذي يعرض الأذونات التي استخدمتها التطبيقات على هاتفك مؤخرا، يعرض تقرير Apple Intelligence Report أيضا المعلومات التي تُرسل إلى خوادم Apple أثناء استخدام Apple Intelligence.
 
-Apple Intelligence can integrate with [ChatGPT](https://support.apple.com/guide/iphone/use-chatgpt-with-apple-intelligence-iph00fd3c8c2/ios). If you want ChatGPT integration, you can navigate to **ChatGPT** and press **Set Up**. If you want to disable it, go to the same place:
+يمكن دمج Apple Intelligence مع [ChatGPT](https://support.apple.com/guide/iphone/use-chatgpt-with-apple-intelligence-iph00fd3c8c2/ios). إذا كنت تريد دمج ChatGPT، يمكنك الانتقال إلى **ChatGPT** ثم الضغط على **Set Up**. إذا كنت تريد تعطيله، فانتقل إلى المكان نفسه:
 
-- [ ] Turn off **Use ChatGPT**
+- [ ] عطّل **Use ChatGPT**
 
-You can also have it ask for confirmation every time if you leave ChatGPT integration on:
+يمكنك أيضا ضبطه ليطلب تأكيدك في كل مرة، إذا تركت دمج ChatGPT مفعلا:
 
-- [x] Turn on **Confirm Requests**
+- [x] فعّل ** Confirm Requests**
 
-If you don't want anyone to be able to control your phone with Siri when it is locked, you can turn that off here.
+إذا كنت لا تريد أن يتمكن أي شخص من التحكم في هاتفك باستخدام Siri عندما يكون مقفلا، يمكنك تعطيل هذه الميزة من هنا.
 
-- [ ] Turn off **Allow Siri When Locked**
+- [ ] عطّل **Allow Siri When Locked**
 
-#### Face ID/Touch ID & Passcode
+#### الـFace ID/Touch ID ورمز الدخول (Passcode)
 
-Setting a strong password on your phone is the most important step you can take for physical device security. You'll have to make trade-offs here between security and convenience: A longer password will be annoying to type in every time, but a shorter password or PIN will be easier to guess. Setting up Face ID or Touch ID along with a strong password can be a good compromise between usability and security.
+يُعد تعيين كلمة مرور قوية لهاتفك أهم خطوة يمكنك اتخاذها لحماية جهازك من الوصول إليه مباشرة. ستحتاج هنا إلى الموازنة بين الأمان وسهولة الاستخدام: فكلمة المرور الطويلة قد يكون إدخالها في كل مرة مزعجا، لكن كلمة المرور القصيرة أو رمز PIN سيكون أسهل في التخمين. يمكن أن يكون إعداد Face ID أو Touch ID مع كلمة مرور قوية حلا جيدا يوازن بين سهولة الاستخدام والأمان.
 
-Select **Turn Passcode On** or **Change Passcode** → **Passcode Options** → **Custom Alphanumeric Code**. Make sure that you create a [secure password](../basics/passwords-overview.md).
+اختر **Turn Passcode On** أو **Change Passcode** → **Passcode Options** → **Custom Alphanumeric Code**. تأكد من إنشاء كلمة [مرور قوية](../basics/passwords-overview.md).
 
-If you wish to use Face ID or Touch ID, you can go ahead and set it up now. Your phone will use the password you set up earlier as a fallback in case your biometric verification fails. Biometric unlock methods are primarily a convenience, although they do stop surveillance cameras or people over your shoulder from watching you input your passcode.
+إذا كنت ترغب في استخدام Face ID أو Touch ID، يمكنك إعداده الآن. سيستخدم هاتفك كلمة المرور التي عينتها سابقا كطريقة بديلة لفتح القفل في حال فشل التحقق باستخدام بصمة الوجه أو الإصبع. تُستخدم طرق فتح القفل ببصمة الوجه أو الإصبع أساسا لتسهيل الاستخدام، لكنها تمنع أيضا كاميرات المراقبة أو الأشخاص الذين ينظرون من خلف كتفك من رؤية رمز الدخول أثناء إدخاله.
 
-If you use biometrics, you should know how to turn them off quickly in an emergency. Holding down the [side button](https://support.apple.com/en-us/105103) and *either* volume button until you see the Slide to Power Off slider will disable biometrics, requiring your passcode to unlock. Your passcode will be required after your device restarts.
+إذا كنت تستخدم بصمة الوجه أو الإصبع، فمن المهم أن تعرف كيف تعطّلها بسرعة في حالات الطوارئ. Holding down the [side button](https://support.apple.com/en-us/105103) and *either* volume button until you see the Slide to Power Off slider will disable biometrics, requiring your passcode to unlock. Your passcode will be required after your device restarts.
 
 You can similarly disable biometrics by pressing the side button five times, or for devices with Touch ID, you can hold down the side button and nothing else. Make sure you try this in advance, so you know which method works for your device.
 
