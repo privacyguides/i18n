@@ -32,11 +32,11 @@ Puedes usar LibreTranslate a través de varias instancias públicas, algunas de 
 
 Utilizamos una instancia autoalojada de LibreTranslate para traducir automáticamente las publicaciones de nuestro [foro](https://discuss.privacyguides.net) a varios idiomas.
 
-We use the VSCode extension in our GitHub repository configuration to find any grammar and spelling errors on our website and in our articles.
+Utilizamos la extensión de VSCode en la configuración de nuestro repositorio de GitHub para encontrar errores gramaticales y ortográficos en nuestra web y nuestros artículos.
 
 ## Criterios
 
 **Por favor, ten en cuenta que no estamos afiliados a ninguno de los proyectos que recomendamos.** Además de [nuestros criterios estándar](about/criteria.md), hemos desarrollado un conjunto claro de requisitos que nos permiten ofrecer recomendaciones objetivas. Sugerimos que te familiarices con esta lista, antes de decidir utilizar un proyecto y realizar tu propia investigación para asegurarte de que es la elección ideal para ti.
 
 - Debe ser de código abierto.
-- Must run completely offline.
+- Debe funcionar completamente sin conexión.

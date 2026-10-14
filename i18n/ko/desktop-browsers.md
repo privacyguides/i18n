@@ -2,7 +2,7 @@
 meta_title: "프라이버시 중점 PC, Mac용 웹 브라우저 - Privacy Guides"
 title: 데스크톱 브라우저
 icon: material/laptop
-description: These privacy-protecting browsers are what we currently recommend for standard/non-anonymous internet browsing on desktop systems.
+description: 이러한 개인정보 보호 브라우저는 데스크톱 시스템에서 일반적인/비익명 인터넷 브라우징을 할 때 현재 권장하는 브라우저입니다.
 cover: desktop-browsers.webp
 schema:
   - 
@@ -57,13 +57,13 @@ schema:
       url: "./"
 ---
 
-<small>Protects against the following threat(s):</small>
+<small>다음 위협으로부터 보호합니다:</small>
 
 - [:material-account-cash: 감시 자본주의(Surveillance Capitalism)](basics/common-threats.md#surveillance-as-a-business-model ""){.pg-brown}
 
-These are our currently recommended **desktop web browsers** and configurations for standard/non-anonymous browsing. 강력한 프라이버시 보호 및 핑거프린팅 방지가 기본 제공되는 브라우저를 원하신다면 [Mullvad Browser](#mullvad-browser)를, 평범한 인터넷 브라우저 중 Google Chrome의 적절한 대체제를 원하신다면 [Firefox](#firefox)를, Chromium 브라우저 호환성이 필요하시다면 [Brave](#brave)를 추천드립니다.
+다음은 표준/비익명 브라우징을 위해 현재 권장하는 **데스크톱 웹 브라우저** 및 설정입니다. 강력한 프라이버시 보호 및 핑거프린팅 방지가 기본 제공되는 브라우저를 원하신다면 [Mullvad Browser](#mullvad-browser)를, 평범한 인터넷 브라우저 중 Google Chrome의 적절한 대체제를 원하신다면 [Firefox](#firefox)를, Chromium 브라우저 호환성이 필요하시다면 [Brave](#brave)를 추천드립니다.
 
-If you need to browse the internet anonymously, you should use [Tor Browser](tor.md) instead. We make some configuration recommendations on this page, but Tor Browser offers the best protections against online tracking.
+익명으로 인터넷을 이용해야 한다면, 대신 [Tor 브라우저를](tor.md) 사용해야 합니다. 이 페이지에서는 몇 가지 설정 관련 권장 사항을 제시하고 있지만, 온라인 추적으로부터 가장 효과적으로 보호해 주는 것은 Tor 브라우저입니다.
 
 ## Mullvad Browser
 
@@ -71,15 +71,15 @@ If you need to browse the internet anonymously, you should use [Tor Browser](tor
 
 ![Mullvad Browser logo](assets/img/browsers/mullvad_browser.svg){ align=right }
 
-**Mullvad Browser** is a version of [Tor Browser](tor.md#tor-browser) with Tor network integrations removed. It aims to provide to VPN users Tor Browser's anti-fingerprinting browser technologies, which are key protections against [:material-eye-outline: Mass Surveillance](basics/common-threats.md#mass-surveillance-programs){ .pg-blue }. Tor 프로젝트에서 개발하고 [Mullvad](vpn.md#mullvad)에서 배포합니다. Mullvad VPN 사용이 필수적이지 **않습니다**.
+**멀바드 브라우져** 는 토르[Tor Browser](tor.md#tor-browser)에서 토르 네트워크 통합 기능이 빠진 브라우져입니다. 이 프로젝트는 VPN 사용자에게 Tor 브라우저의 지문 인식 방지 기술을 제공하는 것을 목표로 하며, 이는 [:material-eye-outline: 대규모 감시](basics/common-threats.md#mass-surveillance-programs)에 대항하는 핵심적인 보호 수단입니다{ .pg-blue }. Tor 프로젝트에서 개발하고 [Mullvad](vpn.md#mullvad)에서 배포합니다. Mullvad VPN 사용이 필수적이지 **않습니다**.
 
-[:octicons-home-16: Homepage](https://mullvad.net/en/browser){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://mullvad.net/en/help/privacy-policy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://mullvad.net/en/help/tag/mullvad-browser){ .card-link title="Documentation" }
-[:octicons-code-16:](https://gitlab.torproject.org/tpo/applications/mullvad-browser){ .card-link title="Source Code" }
+[:octicons-home-16: 홈페이지](https://mullvad.net/en/browser){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://mullvad.net/en/help/privacy-policy){ .card-link title="프라이버시 정책" }
+[:octicons-info-16:](https://mullvad.net/en/help/tag/mullvad-browser){ .card-link title=문서}
+[:octicons-code-16:](https://gitlab.torproject.org/tpo/applications/mullvad-browser){ .card-link title="소스 코드" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>다운로드</summary>
 
 - [:fontawesome-brands-windows: Windows](https://mullvad.net/en/download/browser/windows)
 - [:simple-apple: macOS](https://mullvad.net/en/download/browser/macos)
@@ -89,21 +89,21 @@ If you need to browse the internet anonymously, you should use [Tor Browser](tor
 
 </div>
 
-Like [Tor Browser](tor.md), Mullvad Browser is designed to prevent fingerprinting by making your browser fingerprint similar to a large number of other Mullvad Browser users, and it includes default settings and extensions that are automatically configured by the default security levels: *Standard*, *Safer* and *Safest*.
+[Tor 브라우저와](tor.md) 마찬가지로, Mullvad 브라우저는 사용자의 브라우저 지문을 다른 수많은 Mullvad 브라우저 사용자들의 지문과 유사하게 만들어 지문 추적을 방지하도록 설계되었으며, *‘표준(Standard*)’, *‘더 안전(Safer* )’, *‘가장 안전(Safest*)’이라는 기본 보안 수준에 따라 자동으로 구성되는 기본 설정과 확장 기능을 포함하고 있습니다.
 
-Therefore, it is imperative that you do not modify the browser at all outside adjusting the default [security levels](https://tb-manual.torproject.org/security-settings). When adjusting the security level, you **must** always restart the browser before continuing to use it. Otherwise, [the security settings may not be fully applied](https://www.privacyguides.org/articles/2025/05/02/tor-security-slider-flaw), putting you at a higher risk of fingerprinting and exploits than you may expect based on the setting chosen.
+따라서 기본 [보안 수준을](https://tb-manual.torproject.org/security-settings) 조정하는 것 외에는 브라우저 설정을 절대 아무것도 변경하지 않는 것이 매우 중요합니다. 보안 수준을 조정한 후에는 브라우저를 계속 사용하려면 반드시 브라우저를 다시 시작해야 **합니다**. 그렇지 않으면 [보안 설정이 완전히 적용되지 않을 수 있으며](https://www.privacyguides.org/articles/2025/05/02/tor-security-slider-flaw), 이로 인해 선택한 설정에 근거해 예상했던 것보다 지문 정보 노출 및 악용에 대한 위험이 더 커질 수 있습니다.
 
-Modifications other than adjusting this setting would make your fingerprint unique, defeating the purpose of using this browser. 만약 핑거프린팅을 신경 쓰지 않고 자유로운 브라우저 설정을 원하실 경우, [Firefox](#firefox)를 추천드립니다.
+추가적인 수정을 할 경우 고유한 핑거프린트를 갖게 됩니다. 즉 이 브라우저를 쓰는 의미가 사라집니다. 만약 핑거프린팅을 신경 쓰지 않고 자유로운 브라우저 설정을 원하실 경우, [Firefox](#firefox)를 추천드립니다.
 
 ### 핑거프린팅 방지
 
-**Without** using a [VPN](vpn.md), Mullvad Browser provides protections against [naive fingerprinting scripts](https://github.com/arkenfox/user.js/wiki/3.3-Overrides-%5BTo-RFP-or-Not%5D#-fingerprinting) similar to other private browsers like Firefox+[Arkenfox](#arkenfox-advanced) or [Brave](#brave). Mullvad 브라우저는 다른 비공개 탐색 브라우저에서 제공하는 유연성과 편의성을 일부 희생하여, 별도로 설정할 필요 없이 핑거프린트 보호 기능을 기본으로 제공합니다.
+[VPN을](vpn.md) 사용하지 **않더라도**, Mullvad 브라우저는[Firefox+Arkenfox나](#arkenfox-advanced) [Brave와](#brave) 같은 다른 프라이버시 브라우저와 마찬가지로 [단순한 지문 인식 스크립트에](https://github.com/arkenfox/user.js/wiki/3.3-Overrides-%5BTo-RFP-or-Not%5D#-fingerprinting) 대한 보호 기능을 제공합니다. Mullvad 브라우저는 다른 비공개 탐색 브라우저에서 제공하는 유연성과 편의성을 일부 희생하여, 별도로 설정할 필요 없이 핑거프린트 보호 기능을 기본으로 제공합니다.
 
-==가장 강력한 핑거프린팅 방지 보호를 원하시는 경우, **Mullvad 브라우저와 VPN을 같이 사용**하실 것을 권장합니다.==(Mullvad VPN 혹은 그 외 권장 VPN 서비스) Mullvad 브라우저와 VPN을 사용하면 핑거프린트, IP 주소 대역을 다른 많은 사용자와 공유하여 '군중' 사이에 섞일 수 있습니다. This strategy is the best way to defend against advanced tracking scripts, and is the same anti-fingerprinting technique used by Tor Browser.
+==가장 강력한 핑거프린팅 방지 보호를 원하시는 경우, **Mullvad 브라우저와 VPN을 같이 사용**하실 것을 권장합니다.==(Mullvad VPN 혹은 그 외 권장 VPN 서비스) Mullvad 브라우저와 VPN을 사용하면 핑거프린트, IP 주소 대역을 다른 많은 사용자와 공유하여 '군중' 사이에 섞일 수 있습니다. 이 전략은 고급 추적 스크립트에 대응하는 가장 효과적인 방법이며, Tor Browser에서 사용하는 것과 동일한 핑거프린팅 방지 기술입니다.
 
-Note that while you can use Mullvad Browser with any VPN provider, other people on that VPN must also be using Mullvad Browser for this "crowd" to exist, something which is more likely on Mullvad VPN compared to other providers. Mullvad 브라우저는 VPN 연결 기능을 내장하고 있지 않으며, 브라우저 이용에 앞서 VPN 사용 여부를 확인하는 기능 또한 없습니다. 사용자는 VPN 연결을 따로 설정하고 관리해야 합니다.
+Mullvad 브라우저는 어떤 VPN 제공업체와도 함께 사용할 수 있지만, 이 “군중(crowd)”이 형성되려면 해당 VPN을 사용하는 다른 사람들도 모두 Mullvad 브라우저를 사용해야 합니다. 이러한 상황은 다른 VPN 제공업체보다 Mullvad VPN에서 더 발생할 가능성이 높습니다. Mullvad 브라우저는 VPN 연결 기능을 내장하고 있지 않으며, 브라우저 이용에 앞서 VPN 사용 여부를 확인하는 기능 또한 없습니다. 사용자는 VPN 연결을 따로 설정하고 관리해야 합니다.
 
-Mullvad 브라우저는 *uBlock Origin*, *NoScript* 브라우저 확장 프로그램이 기본 설치되어 있습니다. While we typically discourage adding *additional* [browser extensions](browser-extensions.md), these extensions that come pre-installed with the browser should **not** be removed or configured outside their default values, because doing so would noticeably make your browser fingerprint distinct from other Mullvad Browser users. It also comes pre-installed with the Mullvad Browser Extension, which *can* be safely removed without [impacting](https://mullvad.net/en/help/tag/mullvad-browser#112) your browser fingerprint if you would like, but is also safe to keep even if you don't use Mullvad VPN.
+Mullvad 브라우저는 *uBlock Origin*, *NoScript* 브라우저 확장 프로그램이 기본 설치되어 있습니다. 일반적으로 [브라우저 확장 프로그램을](browser-extensions.md) *추가로* 설치하는 것은 권장하지 않지만, 브라우저에 기본으로 설치된 이러한 확장 프로그램은 제거하거나 기본 설정값을 변경해서는 **안** 됩니다. 그렇게 할 경우, 사용자의 브라우저 지문이 다른 Mullvad 브라우저 사용자들의 것과 눈에 띄게 달라질 수 있기 때문입니다. 또한 Mullvad 브라우저 확장 프로그램이 미리 설치되어 있는데, 원하신다면 브라우저 지문에 [영향을 주지](https://mullvad.net/en/help/tag/mullvad-browser#112) 않고 안전하게 제거할 *수* 있지만, Mullvad VPN을 사용하지 않더라도 그대로 두어도 안전합니다.
 
 ### 사생활 보호 모드
 
@@ -119,14 +119,14 @@ Mullvad 브라우저는 항상 사생활 보호 모드로 작동하므로 방문
 
 **Firefox**는 [다양한 추적](https://support.mozilla.org/ko/kb/enhanced-tracking-protection-firefox-desktop#w_hyangsangdoen-cujeog-bangji-gineungi-cadanhaneun-geos)을 방지하는 [향상된 추적 방지 기능](https://support.mozilla.org/ko/kb/enhanced-tracking-protection-firefox-desktop) 등 강력한 프라이버시 설정을 제공합니다.
 
-[:octicons-home-16: Homepage](https://firefox.com){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://mozilla.org/privacy/firefox){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://support.mozilla.org/products/firefox){ .card-link title="Documentation" }
-[:octicons-code-16:](https://hg.mozilla.org/mozilla-central){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://donate.mozilla.org){ .card-link title="Contribute" }
+[:octicons-home-16: 홈페이지](https://firefox.com){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://mozilla.org/privacy/firefox){ .card-link title="개인정보 처리방침" }
+[:octicons-info-16:](https://support.mozilla.org/products/firefox){ .card-link title="문서" }
+[:octicons-code-16:](https://hg.mozilla.org/mozilla-central){ .card-link title="소스 코드" }
+[:octicons-heart-16:](https://donate.mozilla.org){ .card-link title="기여하기" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>다운로드</summary>
 
 - [:fontawesome-brands-windows: Windows](https://mozilla.org/firefox/windows)
 - [:simple-apple: macOS](https://mozilla.org/firefox/mac)
@@ -138,32 +138,32 @@ Mullvad 브라우저는 항상 사생활 보호 모드로 작동하므로 방문
 </div>
 
 <div class="admonition warning" markdown>
-<p class="admonition-title">Warning</p>
+<p class="admonition-title">경고</p>
 
-Firefox includes a unique [download token](https://bugzilla.mozilla.org/show_bug.cgi?id=1677497#c0) in downloads from Mozilla's website and uses telemetry in Firefox to send the token. The token is **not** included in releases from the [Mozilla FTP](https://ftp.mozilla.org/pub/firefox/releases/).
+Firefox는 Mozilla 웹사이트에서 다운로드하는 파일에 고유한 [다운로드 토큰](https://bugzilla.mozilla.org/show_bug.cgi?id=1677497#c0)을 포함하며, Firefox의 원격 측정 기능을 통해 이 토큰을 전송합니다. 이 토큰은 [Mozilla FTP](https://ftp.mozilla.org/pub/firefox/releases/ )에서 배포되는 버전에는 **포함되어 있지 않습니다**.
 
 </div>
 
-### Recommended Firefox Configuration
+### 권장 파이어폭스 설정
 
-These options can be found in :material-menu: → **Settings**.
+이 옵션들은 :material-menu: → **설정에서** 찾을 수 있습니다.
 
 #### 검색
 
 -
 
-Search suggestion features may not be available in your region.
+사용자님의 지역에서는 검색 제안 기능이 제공되지 않을 수 있습니다.
 
-Search suggestions send everything you type in the address bar to the default search engine, regardless of whether you submit an actual search. Disabling search suggestions allows you to more precisely control what data you send to your search engine provider.
+검색어 제안 기능은 지역에 따라 제공되지 않을 수 있습니다. 검색어 제안 기능을 사용하면 실제로 검색을 실행하지 않더라도 주소 표시줄에 입력하는 모든 내용이 기본 검색 엔진으로 전송됩니다. 검색어 제안 기능을 비활성화하면 검색 엔진 제공업체에 어떤 데이터를 전송할지 더 세밀하게 제어할 수 있습니다.
 
-##### Firefox Suggest
+##### Firefox 제안
 
-[Firefox Suggest](https://support.mozilla.org/kb/firefox-suggest) is a feature similar to search suggestions. We recommend disabling it for the same reason we recommend disabling search suggestions. If you don't see these options under the **Address Bar** header, you do not have the new experience and can ignore these changes.
+[Firefox Suggest는](https://support.mozilla.org/kb/firefox-suggest) 검색 제안 기능과 유사한 기능입니다. 검색어 제안 기능을 비활성화하도록 권장하는 것과 같은 이유로 Firefox Suggest도 비활성화할 것을 권장합니다. **주소 표시줄** 항목 아래에 이러한 설정이 보이지 않는다면, 아직 새로운 인터페이스가 적용되지 않은 것이므로 해당 설정은 무시해도 됩니다.
 
-- [ ] Uncheck **Suggestions from Firefox**
+- [ ] **웹에서 제안** 비활성화
 - [ ] **스폰서에서 제안** 비활성화
 
-> According to Mozilla, ["Certain parts of Firefox Suggest are currently available only in some regions."](https://support.mozilla.org/kb/firefox-suggest)
+> 모질라에 따르면, [ “파이어폭스 제안 기능의 일부는 현재 일부 지역에서만 이용할 수 있습니다.”](https://support.mozilla.org/kb/firefox-suggest)
 
 #### 개인 정보 및 보안
 
@@ -171,29 +171,29 @@ Search suggestions send everything you type in the address bar to the default se
 
 - [x] 향상된 추적 방지 기능에서 **엄격** 활성화
 
-This protects you by blocking social media trackers, fingerprinting scripts (note that this does not protect you from *all* fingerprinting), cryptominers, cross-site tracking cookies, and some other tracking content. ETP protects against many common threats, but it does not block all tracking avenues because it is designed to have minimal to no impact on site usability.
+이 설정은 소셜 미디어 추적기, 브라우저 지문 수집 스크립트(단, 모든 종류의 지문 수집을 방지하는 것은 아닙니다), 암호화폐 채굴 스크립트, 사이트 간 추적 쿠키 및 기타 일부 추적 콘텐츠를 차단하여 사용자를 보호합니다. ETP는 여러 가지 일반적인 위협으로부터 사용자를 보호하지만, 사이트 사용성에 미치는 영향을 최소화하거나 아예 없도록 설계되었기 때문에 모든 추적 경로를 차단하지는 않습니다.
 
 ##### 종료 시 데이터 정리
 
-If you want to stay logged in to particular sites, you can allow exceptions in **Cookies and Site Data** → **Manage Exceptions...**
+특정 사이트에 계속 로그인된 상태를 유지하려면, **‘쿠키 및 사이트 데이터’** → **‘예외 관리...**’에서 예외를 허용할 수 있습니다 **.**
 
 - [x] **Firefox를 닫을 때 쿠키와 사이트 데이터를 삭제** 활성화
 
-This protects you from persistent cookies, but does not protect you against cookies acquired during any one browsing session. When this is enabled, it becomes possible to easily cleanse your browser cookies by simply restarting Firefox. You can set exceptions on a per-site basis, if you wish to stay logged in to a particular site you visit often.
+이 설정은 지속적으로 저장되는 쿠키로부터 사용자를 보호하지만, 하나의 브라우징 세션 동안 획득되는 쿠키까지 방지하지는 못합니다. 이 옵션을 활성화하면 Firefox를 재시작하는 것만으로 브라우저의 쿠키를 간편하게 삭제할 수 있습니다. 자주 방문하는 특정 웹사이트의 로그인 상태를 유지하고 싶다면, 사이트별로 예외를 설정할 수 있습니다.
 
 ##### 원격 분석
 
-- [ ] Uncheck **Send technical and interaction data to Mozilla**
-- [ ] Uncheck **Allow personalized extension recommendations**
-- [ ] Uncheck **Install and run studies**
-- [ ] Uncheck **Send daily usage ping to Mozilla**
-- [ ] Uncheck **Automatically send crash reports**
+- [ ] **‘기술 및 상호작용 데이터를 Mozilla에 전송’** 항목의 선택을 해제하세요
+- [ ] **‘맞춤형 확장 프로그램 추천 허용’의** 선택을 해제하세요
+- [ ] **‘연구 설치 및 실행**’ 선택 해제
+- [ ] **‘Mozilla에 일일 사용 현황 핑 보내기**’ 선택 해제
+- [ ] **‘충돌 보고서 자동 전송**’ 선택 해제
 
-According to Mozilla's privacy policy for Firefox,
+모질라의 파이어폭스 개인정보 처리방침에 따르면,
 
 > Firefox는 사용자의 Firefox 버전 및 언어, 기기 운영 체제 및 하드웨어 구성, 메모리, 충돌 및 오류에 대한 기본 정보, 업테이트 및 세이프 브라우징 같은 자동화 프로세스의 결과, 활성화 여부 등의 데이터를 당사(Mozilla)로 전송합니다. Firefox가 당사에 데이터를 전송할 때 사용자의 IP 주소는 당사 서버 로그의 일부로 일시적으로 수집됩니다.
 
-Additionally, the Mozilla Accounts service collects [some technical data](https://mozilla.org/privacy/mozilla-accounts). If you use a Mozilla Account you can opt out:
+또한, Mozilla 계정 서비스는 [일부 기술적 데이터를](https://mozilla.org/privacy/mozilla-accounts) 수집합니다. Mozilla 계정을 사용 중이라면 다음을 통해 수신 거부할 수 있습니다:
 
 1. [accounts.firefox.com 프로필 설정](https://accounts.firefox.com/settings#data-collection) 열기
 2. **데이터 수집 및 사용** > **Firefox 계정 개선에 참여** 비활성화
@@ -267,7 +267,7 @@ Brave adds a "[referral code](https://github.com/brave/brave-browser/wiki/Brave%
 
 ### Recommended Brave Configuration
 
-These options can be found in :material-menu: → **Settings**.
+이 옵션들은 :material-menu: → **설정에서** 찾을 수 있습니다.
 
 #### Shields
 

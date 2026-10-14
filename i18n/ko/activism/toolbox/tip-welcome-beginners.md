@@ -40,18 +40,18 @@ cover: activism/banner-toolbox-tip-beginners.webp
 - **기본부터 시작하세요:** 상황에 따라 바로 복잡한 기술 이야기로 넘어가기 전에 가장 기본적인 개인정보 보호 개념을 먼저 설명하는 것을 잊지 마세요. 동의(consent), 데이터 수집, 데이터 저장, 암호화와 같은 기본 개념은 데이터 개인정보 보호와 관련된 이점과 위험을 이해하는 데 중요합니다. 특정 기술과 서비스는 계속 바뀌지만, 기본 원칙은 변하지 않습니다. 이러한 핵심 개념을 이해하는 사람은 이후 내용을 훨씬 쉽게 이해할 수 있습니다.
 
 - **어리석은 질문은 없습니다:** 어리석은 질문은 없고, 참을성 없는 답변자만 있을 뿐입니다. 초보자가 여러분에게는 당연해 보이는 질문을 하더라도 “검색해 보세요” 또는 개인정보 보호 커뮤니티식 표현인 “DuckDuckGo에서 찾아보세요” 같은 무뚝뚝하거나 비꼬는 답변은 피하세요. 이는 사람들을 커뮤니티에서 멀어지게 할 뿐입니다. 도움을 줄 생각이 없다면 그냥 답하지 마세요. 하지만 돕고 싶다면 답을 찾도록 노력하세요. 시간이 없다면 다음과 같이 답할 수 있습니다.
-  “안녕하세요! Sorry I don't have the answer, but maybe this [resource](../../basics/why-privacy-matters.md) might be helpful to you!" or "Sorry I'm not sure, but perhaps asking on this [forum](https://discuss.privacyguides.net/) might get you an answer."
+  “안녕하세요! "죄송하게도 제가 틀릴수도 있지만, 이 [자료](../../basics/why-privacy-matters.md)가 도움이 될지도 몰라요!" 또는 "확실히는 잘 모르겠네요. 이 [포럼](https://discuss.privacyguides.net/)에 질문해 보시면 답을 얻으실 수 있을지도 모릅니다."
 
-- **Stay patient and compassionate:** Always stay patient with beginners and newcomers (and everyone else, actually). To keep people fighting with us and grow our movement, we cannot afford to lose anyone just because we felt angry that day. Develop your [empathy skills](tip-support-your-privacy-comrades.md) to provide support and reply with compassion. People stay where they feel safe and welcomed. ==Make them feel safe and welcomed.==
+- **항상 인내심과 배려를 유지하세요:** 초보자와 신규 참여자(사실 모든 사람)에게 항상 인내심을 가지세요 사람들이 계속 함께하고 운동이 성장하려면, 그날 기분이 나빴다는 이유로 누군가를 잃어서는 안 됩니다. [공감 능력](tip-support-your-privacy-comrades.md)을 기르셔서 상대방을 배려심 있게 응답할 수 있도록 하세요. 사람들은 자신들이 환영받는다고 느끼는 곳에 머뭅니다. ==그들이 안전하고 환영받는다고 느끼게 하세요.==
 
-- **Do not confound lack of knowledge with lack of intelligence:** Everyone has a different set of knowledge. Lack of knowledge doesn't mean someone isn't intelligent, it just means they haven't come in contact with this area of knowledge yet. They probably know a lot of things you don't know at all. Be careful not to sound patronizing when communicating with newcomers (or anyone else really). This is a behavior sadly too common in the privacy community, and we all need to work on this to create an environment that is more welcoming and enjoyable for everyone.
+- **지식의 부족을 지능의 부족과 혼동해서는 안 됩니다:** 사람마다 가지고 있는 지식의 범위는 각기 다릅니다. 어떤 분야에 대한 지식이 부족하다고 해서 그 사람이 똑똑하지 않은 것은 아닙니다. 단지 아직 그 분야의 지식을 접하지 못했을 뿐입니다. 그 사람은 여러분이 전혀 모르는 많은 것을 알고 있을 수도 있습니다. 신규 참여자(또는 사실 누구와 대화할 때든)에게 거만하게 들리지 않도록 주의하세요. 이런 태도는 안타깝게도 개인정보 보호 커뮤니티에서 흔히 볼 수 있으며, 모두가 더 환영받고 즐겁게 참여할 수 있는 환경을 만들기 위해 개선해야 합니다.
 
 </div>
 
-## More resources
+## 더 많은 자료들
 
-- [Building a community for beginners (_Jennifer Konikowski_)](https://www.jenniferkonikowski.com/blog/2017/2/10/building-a-community-for-beginners)
+- [초보자를 위한 커뮤니티 만들기 (_제니퍼 코니코프스키_)](https://www.jenniferkonikowski.com/blog/2017/2/10/building-a-community-for-beginners)
 
-- [Creating a welcoming space for beginners (_Raquel Moss_)](https://www.raquelmoss.com/creating-a-welcoming-space-for-beginners/)
+- [초보자를 위한 편안한 공간 만들기 (_라켈 모스_)](https://www.raquelmoss.com/creating-a-welcoming-space-for-beginners/)
 
-- [Bring kindness back to open source (_Scott Hanselman_)](https://www.hanselman.com/blog/bring-kindness-back-to-open-source)
+- [오픈 소스에 친절함을 되찾자 (_스콧 핸셀만_)](https://www.hanselman.com/blog/bring-kindness-back-to-open-source)

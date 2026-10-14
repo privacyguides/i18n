@@ -122,6 +122,6 @@ Los repositorios [F-Droid](https://f-droid.org/es/packages) e [IzzyOnDroid](http
 <div class="admonition note" markdown>
 <p class="admonition-title">F-Droid Basic</p>
 
-In some rare cases, an app may only be available through F-Droid. If you really need an app like that, we recommend using the newer [F-Droid Basic](https://f-droid.org/en/packages/org.fdroid.basic) client instead of the original F-Droid app to obtain it, as it has a reduced feature set (limiting attack surface).
+En algunos casos excepcionales, es posible que una aplicación solo esté disponible en F-Droid. Si realmente necesitas una aplicación como esa, te recomendamos que utilices el nuevo cliente [F-Droid Basic](https://f-droid.org/en/packages/org.fdroid.basic) en lugar de la aplicación F-Droid original, ya que tiene unas características limitadas (para reducir la superficie de ataque).
 
 </div>

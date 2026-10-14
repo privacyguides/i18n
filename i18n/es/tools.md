@@ -479,7 +479,7 @@ Para cifrar su unidad de SO, normalmente recomendamos utilizar la herramienta de
 
 <div class="grid cards" markdown>
 
-- ![LibreTranslate logo](assets/img/language-tools/libretranslate.png){ .twemoji } [LibreTranslate](language-tools.md#libretranslate)
+- ![Logo de LibreTranlate](assets/img/language-tools/libretranslate.png){ .twemoji } [LibreTranslate](language-tools.md#libretranslate)
 
 </div>
 

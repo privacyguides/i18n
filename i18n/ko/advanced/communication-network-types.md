@@ -6,7 +6,7 @@ description: 메신저 애플리케이션에서 보편적으로 사용되는 몇
 
 사람들 간에 메시지를 전달할 때 일반적으로 쓰이는 네트워크의 구조는 여러 유형이 있습니다. 네트워크 유형마다 프라이버시 면에서 각각 다른 장단점이 존재하므로, 어떤 유형의 애플리케이션을 사용할지는 여러분의 [위협 모델](../basics/threat-modeling.md)을 고려하여 결정하는 것이 좋습니다.
 
-[Recommended Instant Messengers](../real-time-communication.md ""){.md-button} [:material-movie-open-play-outline: Video: It's time to stop using SMS](https://www.privacyguides.org/videos/2025/01/24/its-time-to-stop-using-sms-heres-why ""){.md-button}
+[추천 인스턴트 메신저](../real-time-communication.md ""){.md-button} [:material-movie-open-play-outline: 동영상: 이제 SMS 사용을 그만둘 때입니다](https://www.privacyguides.org/videos/2025/01/24/its-time-to-stop-using-sms-heres-why ""){.md-button}
 
 ## 중앙 집중형 네트워크
 
@@ -28,7 +28,7 @@ description: 메신저 애플리케이션에서 보편적으로 사용되는 몇
 - [접근이나 제어가 제한적](https://drewdevault.com/2018/08/08/Signal.html)일 수 있습니다. 예시는 다음과 같습니다:
 - 더 자유로운 커스텀이나 더 나은 사용 경험을 제공 가능한 제3자 클라이언트를 중앙 집중형 네트워크에 연결하는 것이 [금지됩니다](https://github.com/LibreSignal/LibreSignal/issues/37#issuecomment-217211165). 이는 이용 약관에 정의되어 있는 경우가 많습니다.
 - 외부 개발자를 위한 문서가 부실하거나 아예 없습니다.
-- The [ownership](https://web.archive.org/web/20210729191953/https://blog.privacytools.io/delisting-wire), privacy policy, and operations of the service can change easily when a single entity controls it, potentially compromising the service later on.
+- 단일 주체가 서비스를 통제하는 경우, 서비스의 [소유권](https://web.archive.org/web/20210729191953/https://blog.privacytools.io/delisting-wire), 프라이버시 정책, 운영이 쉽게 뒤바뀔 수 있으며, 추후에 서비스가 손상될 가능성이 존재합니다.
 - 자체 호스팅을 하기 위해서는 서비스 구축에 대한 노력과 지식이 필요합니다.
 
 ## 연합형 네트워크
@@ -44,7 +44,7 @@ description: 메신저 애플리케이션에서 보편적으로 사용되는 몇
 - 자체 서버를 운영하는 경우 자신의 데이터에 대한 통제력이 향상됩니다.
 - 여러 '공개' 서버 중 원하는 서버를 고르는 것으로 데이터 신뢰 대상을 취사선택 가능합니다.
 - 네이티브, 커스텀, 사용 경험 면에서 더 뛰어난 제3자 클라이언트를 사용할 수 있도록 허용하는 경우가 많습니다.
-- Server software can be verified that it matches public source code, assuming you have access to the server, or you trust the person who does (e.g., a family member).
+- 서버 소프트웨어는 해당 서버에 접근할 수 있거나, 접근 권한을 가진 사람(예: 가족 구성원)을 신뢰한다면 공개된 소스 코드와 일치하는지 검증할 수 있습니다.
 
 **단점:**
 
@@ -60,7 +60,7 @@ description: 메신저 애플리케이션에서 보편적으로 사용되는 몇
 
 P2P 메신저는 [분산형(Distributed) 네트워크](https://en.wikipedia.org/wiki/Distributed_networking)에 노드로서 연결되어 제3자 서버 없이 수신자에게 메시지를 전달합니다.
 
-클라이언트(피어)는 일반적으로 [분산 컴퓨팅](https://en.wikipedia.org/wiki/Distributed_computing) 네트워크를 이용해 서로를 찾아냅니다. 예시로는 [토렌트](https://ko.wikipedia.org/wiki/%EB%B9%84%ED%8A%B8%ED%86%A0%EB%A0%8C%ED%8A%B8), [IPFS](https://ko.wikipedia.org/wiki/InterPlanetary_File_System)에서 사용하는 [분산 해시 테이블](https://ko.wikipedia.org/wiki/%EB%B6%84%EC%82%B0_%ED%95%B4%EC%8B%9C_%ED%85%8C%EC%9D%B4%EB%B8%94)(DHT)이 있습니다. Another approach is proximity based networks, where a connection is established over Wi-Fi or Bluetooth (for example, Briar or the [Scuttlebutt](https://scuttlebutt.nz) social network protocol).
+클라이언트(피어)는 일반적으로 [분산 컴퓨팅](https://en.wikipedia.org/wiki/Distributed_computing) 네트워크를 이용해 서로를 찾아냅니다. 예시로는 [토렌트](https://ko.wikipedia.org/wiki/%EB%B9%84%ED%8A%B8%ED%86%A0%EB%A0%8C%ED%8A%B8), [IPFS](https://ko.wikipedia.org/wiki/InterPlanetary_File_System)에서 사용하는 [분산 해시 테이블](https://ko.wikipedia.org/wiki/%EB%B6%84%EC%82%B0_%ED%95%B4%EC%8B%9C_%ED%85%8C%EC%9D%B4%EB%B8%94)(DHT)이 있습니다. Wi-Fi나 Bluetooth를 통해 연결하는 근접 기반 네트워크 방식(Proximity Based Network)을 사용하는 경우도 있습니다. Briar, [Scuttlebutt](https://scuttlebutt.nz) 소셜 네트워크 프로토콜이 대표적입니다.
 
 피어가 이러한 방법을 통해 연락 상대로 연결되는 경로를 찾아내면 서로 직접 연결이 이루어집니다. 메시지에는 일반적으로 암호화가 적용되나, 관찰자는 발신자/수신자의 위치와 신원을 유추할 수 있습니다.
 
@@ -85,9 +85,9 @@ P2P 네트워크는 피어가 서로 직접 통신하므로 서버를 사용하�
 
 [익명 라우팅](https://doi.org/10.1007/978-1-4419-5906-5_628)을 사용하는 메신저는 발신자, 수신자의 신원 혹은 통신 흔적을 드러내지 않습니다. 이상적으로는, 메신저는 이 세 가지(발신자 신원, 수신자 신원, 통신 흔적) 모두를 숨길 수 있어야 합니다.
 
-There are [many](https://doi.org/10.1145/3182658) ways to implement anonymous routing. 대표적인 방법으로는 [Onion 라우팅](https://en.wikipedia.org/wiki/Onion_routing)([Tor](tor-overview.md))이 존재합니다. 각 메시지의 발신자나 수신자뿐만 아니라 각 노드의 위치를 숨기는 가상 [오버레이 네트워크](https://en.wikipedia.org/wiki/Overlay_network)를 통해 암호화 메시지를 주고받습니다. 발신자와 수신자는 직접적으로 상호작용하지 않고 비밀 랑데부 노드를 통해서만 만나기 때문에 IP 주소나 실제 위치는 노출되지 않습니다. 노드는 메시지를 복호화하거나 최종 목적지를 알 수 없으며, 수신자만이 해독 가능합니다. 각 중개 노드는 메시지를 다음에는 어디로 보낼지를 나타내는 부분만 해독 가능하며 그 외에는 여전히 암호화가 적용되어 있습니다. 그리고 이 과정은 수신자에게 도달해 완전히 복호화될 때까지 반복됩니다. 'Onion(양파) 레이어'라는 명칭은 이러한 작동 방식에서 유래되었습니다.
+익명 라우팅을 구현하는 방법은 [여러](https://doi.org/10.1145/3182658) 가지가 있습니다. 대표적인 방법으로는 [Onion 라우팅](https://en.wikipedia.org/wiki/Onion_routing)([Tor](tor-overview.md))이 존재합니다. 각 메시지의 발신자나 수신자뿐만 아니라 각 노드의 위치를 숨기는 가상 [오버레이 네트워크](https://en.wikipedia.org/wiki/Overlay_network)를 통해 암호화 메시지를 주고받습니다. 발신자와 수신자는 직접적으로 상호작용하지 않고 비밀 랑데부 노드를 통해서만 만나기 때문에 IP 주소나 실제 위치는 노출되지 않습니다. 노드는 메시지를 복호화하거나 최종 목적지를 알 수 없으며, 수신자만이 해독 가능합니다. 각 중개 노드는 메시지를 다음에는 어디로 보낼지를 나타내는 부분만 해독 가능하며 그 외에는 여전히 암호화가 적용되어 있습니다. 그리고 이 과정은 수신자에게 도달해 완전히 복호화될 때까지 반복됩니다. 'Onion(양파) 레이어'라는 명칭은 이러한 작동 방식에서 유래되었습니다.
 
-Self-hosting a node in an anonymous routing network does not provide the host with additional privacy benefits, but rather contributes to the whole network's resilience against identification attacks for everyone's benefit.
+익명 라우팅 네트워크에서 노드를 직접 호스팅하는 것은 호스트에게 추가적인 개인정보 보호 혜택을 제공하지 않습니다. 대신 모든 사용자의 이익을 위해 네트워크 전체가 식별 공격에 견딜 수 있는 회복력을 갖추는 데 기여합니다.
 
 **장점:**
 

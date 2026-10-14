@@ -92,10 +92,10 @@ Es fundamental comprender la diferencia entre eludir la censura y eludir la dete
 
 ### Tor Browser no es el navegador más *seguro*
 
-El anonimato puede entrar en conflicto con la seguridad. Tor achieves anonymity by ensuring more users appear [similar](https://support.torproject.org/tor-browser/features/fingerprinting-protections/#:~:text=Tor%20Browser%20is,individual%20users%20effectively.):
-> Tor Browser is specifically engineered to minimize the uniqueness of each user's fingerprint across various metrics. While it is practically impossible to make all Tor Browser users identical, the goal is to reduce the number of distinguishable "buckets" for each metric. This approach makes it harder to track individual users effectively.
+El anonimato puede entrar en conflicto con la seguridad. Tor consigue el anonimato haciendo que un mayor número de usuarios parezcan [similares](https://support.torproject.org/tor-browser/features/fingerprinting-protections/#:~:text=Tor%20Browser%20is,individual%20users%20effectively.):
+> El navegador Tor está desarrollado específicamente para minimizar la singularidad de la huella digital de cada usuario en diversos parámetros. Aunque es prácticamente imposible hacer que todos los usuarios del navegador Tor sean idénticos, el objetivo es reducir el número de "grupos" distinguibles de cada métrica. Esta aproximación dificulta el seguimiento de usuarios particulares de forma efectiva.
 
- While this is effective at preserving anonymity, it also creates a digital monoculture where the same vulnerabilities exist across many installations. En ciberseguridad, los monocultivos suelen ser considerados un riesgo. La seguridad mediante la diversidad proporciona una segmentación natural, ya que limita el impacto de un ataque a un segmento más reducido de usuarios. Si bien esa diversidad es estructuralmente deseable para la seguridad, compromete el anonimato de los usuarios al hacer a los individuos rastreables.
+ Aunque esto resulta eficaz para preservar el anonimato, también da lugar a un monocultivo digital en la que las mismas vulnerabilidades están presentes en numerosas instalaciones. En ciberseguridad, los monocultivos suelen ser considerados un riesgo. La seguridad mediante la diversidad proporciona una segmentación natural, ya que limita el impacto de un ataque a un segmento más reducido de usuarios. Si bien esa diversidad es estructuralmente deseable para la seguridad, compromete el anonimato de los usuarios al hacer a los individuos rastreables.
 
 Adicionalmente, Tor Browser está basado en la versión de Soporte Extendido de Firefox, que solo recibe parches para vulnerabilidades consideradas *Críticas* y *Altas* (no *Medias* y *Bajas*). Esto significa que los atacantes podrían (por ejemplo):
 
