@@ -1,8 +1,8 @@
 ---
-meta_title: "이메일이 프라이버시, 보안 면에서 최선의 선택이 아닌 이유 - Privacy Guides"
+meta_title: "이메일이 프라이버시, 보안 면에서 최선의 선택이 아닌 이유 - 프라이버시 가이드(Privacy Guides)"
 title: 이메일 보안
 icon: material/email
-description: Email is insecure in many ways, and these are some of the reasons it isn't our top choice for secure communications.
+description: 이메일은 기술적으로 원래 여러 가지 면에서 안전하지 않습니다. 따라서 강한 프라이버시를 위한 좋은 옵션은 아닙니다.
 ---
 
 기본적으로, 이메일은 안전하지 않은 통신 형식입니다. You can improve your email security with tools such as OpenPGP, which add end-to-end encryption to your messages, but OpenPGP still has a number of drawbacks compared to encryption in other messaging applications.
