@@ -1,5 +1,5 @@
 ---
-title: "Email Aliasing"
+title: "Сокрытие электронной почты через создание её псевдонимов"
 icon: material/email-lock
 description: Сервисы по генерации псевдонимов электронной почты позволяют с легкостью создавать по отдельной почте для каждой вашей регистрации.
 cover: email-aliasing.webp
@@ -10,17 +10,17 @@ cover: email-aliasing.webp
 - [:material-account-cash: Surveillance Capitalism](basics/common-threats.md#surveillance-as-a-business-model){ .pg-brown }
 - [:material-account-search: Public Exposure](basics/common-threats.md#limiting-public-information){ .pg-green }
 
-An **email aliasing service** allows you to easily generate a new email address for every website you register for. The email aliases you generate are then forwarded to an email address of your choosing, hiding both your "main" email address and the identity of your [email provider](email.md).
+Сервисы по генерации **псевдонимов электронной почты** позволяют с легкостью создавать по отдельной почте для каждой вашей регистрации. Письма с таких альтернативных почт будут пересылаться на выбранный вами почтовый адрес, скрывая тем самым вашу "настоящую" почту и то, какому [оператору](email.md) она принадлежит.
 
-Email aliasing can also act as a safeguard in case your email provider ever ceases operation. In that scenario, you can easily re-route your aliases to a new email address. In turn, however, you are placing trust in the aliasing service to continue functioning.
+Также они могут оказаться полезны на случай, если ваш оператор электронной почты когда-нибудь прекратит свою работу. При таком сценарии вы в пару кликов сможете перенаправить пересылку со всех своих псевдонимов на новый почтовый ящик. При этом, правда, вы будете вынуждены полагаться на то, что сервис по сокрытию почты будет продолжать свою работу.
 
-## Benefits
+## Преимущества
 
-Using a service which allows you to individually manage email aliases has a number of benefits over conventional mailbox management/filtering methods:
+Использование сервиса, который позволяет вам управлять псевдонимами электронной почты, имеет целый ряд преимуществ над более традиционными методами фильтрации и управления почтой:
 
 ### Over Plus Addressing
 
-True email aliasing is better than plus addressing commonly used and supported by many providers, which allows you to create aliases like `yourname+[anythinghere]@example.com`, because websites, advertisers, and tracking networks can trivially remove anything after the `+` sign. Organizations like the [IAB](https://en.wikipedia.org/wiki/Interactive_Advertising_Bureau) require that advertisers [normalize email addresses](https://shkspr.mobi/blog/2023/01/the-iab-loves-tracking-users-but-it-hates-users-tracking-them) so that they can be correlated and tracked, regardless of users' privacy wishes.
+Настоящие псевдонимы электронной почты лучше обычно используемого и поддерживаемого большинством провайдеров метода, который заключается в создании почт вида "ваша_основная_почта+[что_угодно_ещё]@example.com", где "+" выступает разделителем. Такой метод ни от чего не защищает, поскольку веб-сайты, рекламщики и отслеживающие сети могут запросто избавиться от всего, что идёт после него. Organizations like the [IAB](https://en.wikipedia.org/wiki/Interactive_Advertising_Bureau) require that advertisers [normalize email addresses](https://shkspr.mobi/blog/2023/01/the-iab-loves-tracking-users-but-it-hates-users-tracking-them) so that they can be correlated and tracked, regardless of users' privacy wishes.
 
 ### Over Catch-All Aliases
 

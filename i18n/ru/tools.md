@@ -218,7 +218,7 @@ If you're looking for added **security**, you should always ensure you're connec
 <div class="grid" markdown>
 
 <div markdown>
-### Email Aliasing Services
+Сервисы, позволяющие создать псевдонимы электронной почты
 
 <div class="grid cards" markdown>
 
