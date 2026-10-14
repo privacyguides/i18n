@@ -1,8 +1,8 @@
 ---
-title: "Privacy Activist Toolbox"
-description: The Privacy Activist Toolbox is a unique resource with tips for anyone interested in becoming a better privacy rights activist, or anyone who wants to start.
+title: "개인정보 보호 활동가 도구 모음"
+description: ‘개인정보 보호 활동가 도구 상자’는 더 나은 개인정보 보호 활동가가 되고자 하는 분이나, 이제 막 활동을 시작하려는 분 모두를 위한 유용한 팁이 담긴 독창적인 자료입니다.
 hide:
-  - feedback
+  - 피드백
 cover: activism/banner-activism-toolbox.webp
 ---
 
