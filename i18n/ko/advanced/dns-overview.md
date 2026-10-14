@@ -4,7 +4,7 @@ icon: material/dns
 description: DNS, 즉 도메인 네임 시스템은 '인터넷의 전화번호부'라고 할 수 있습니다. DNS가 있기 때문에 여러분은 브라우저에서 원하는 사이트를 찾아 연결할 수 있습니다.
 ---
 
-The [Domain Name System](https://en.wikipedia.org/wiki/Domain_Name_System) is the 'phone book of the Internet'. DNS는 분산 서버 네트워크를 통해 도메인 이름을 IP 주소로 변환합니다. 브라우저 등의 서비스는 이를 이용해 인터넷 리소스를 로드할 수 있습니다.
+[도메인 이름 시스템](https://en.wikipedia.org/wiki/Domain_Name_System) (DNS)은 ‘인터넷의 전화번호부’입니다. DNS는 분산 서버 네트워크를 통해 도메인 이름을 IP 주소로 변환합니다. 브라우저 등의 서비스는 이를 이용해 인터넷 리소스를 로드할 수 있습니다.
 
 ## DNS란 무엇인가요?
 
@@ -18,7 +18,7 @@ DNS는 [인터넷의 초창기](https://ko.wikipedia.org/wiki/%EB%8F%84%EB%A9%94
 
 ### 암호화되지 않은 DNS
 
-1. Using [`tshark`](https://wireshark.org/docs/man-pages/tshark.html) (part of the [Wireshark](https://en.wikipedia.org/wiki/Wireshark) project) we can monitor and record internet packet flow. 다음 명령어는 명시된 규칙을 충족하는 패킷을 기록합니다.
+1. 다음 명령어를 사용하여 [`tshark`](https://wireshark.org/docs/man-pages/tshark.html) ( [Wireshark](https://en.wikipedia.org/wiki/Wireshark) 프로젝트의 일부)를 사용하면 인터넷 패킷 흐름을 모니터링하고 기록할 수 있습니다. 다음 명령어는 명시된 규칙을 충족하는 패킷을 기록합니다.
 
     ```bash
     tshark -w /tmp/dns.pcap udp port 53 and host 1.1.1.1 or host 8.8.8.8

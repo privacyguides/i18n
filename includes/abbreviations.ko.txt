@@ -2,44 +2,44 @@
 *[ADB]: Android 디버그 브리지
 *[AOSP]: Android 오픈소스 프로젝트
 *[ATA]: 고급 기술 결합(Advanced Technology Attachment)
-*[공격 표면]: The total number of possible entry points for unauthorized access to a system
+*[공격 표면]: 시스템에 무단 접근이 발생할 수 있는 가능한 진입 지점의 총 개수
 *[AVB]: Android 자체 검사 부팅
 *[cgroups]: Control Groups
-*[C2PA]: Coalition for Content Provenance and Authenticity
+*[C2PA]: 콘텐츠 출처 및 진위 확인 연합
 *[CLI]: 명령어 인터페이스
 *[CSV]: Comma-Separated Values
 *[CVE]: 공통 보안 취약점 및 노출(Common Vulnerabilities and Exposures)
-*[dark pattern]: A deceptive design pattern intended to trick a user into doing things
-*[digital legacy feature]: Digital Legacy refers to features that allow you to give other people access to your data when you die
+*[다크 패턴]: 사용자가 특정 행동을 하도록 속이기 위해 설계된 기만적 디자인 패턴
+*[디지털 유산 기능]: 디지털 유산(Digital Legacy)은 사망한 후 다른 사람이 자신의 데이터에 접근할 수 있도록 하는 기능을 의미합니다
 *[DNSSEC]: DNS Security Extensions
 *[DNS]: 도메인 네임 시스템
 *[DoH]: DNS over HTTPS
 *[DoQ]: DNS over QUIC
 *[DoH3]: DNS over HTTP/3
 *[DoT]: DNS over TLS
-*[DPA]: Data Protection Authority
-*[DPI]: Deep Packet Inspection identifies and blocks packet with specific payloads
+*[DPA]: 개인정보 보호 감독 기관
+*[DPI]: 심층 패킷 검사(Deep Packet Inspection)는 특정 페이로드를 포함한 패킷을 식별하고 차단합니다
 *[E2EE]: 종단 간 암호화(End-to-End Encryption/Encrypted)
 *[ECS]: EDNS 클라이언트 서브넷
 *[EEA]: 유럽 경제 지역
-*[엔트로피]: A measurement of how unpredictable something is
+*[엔트로피]: 예측하기 어려운 정도를 표현하는 척도
 *[EOL]: 지원 종료 (End-of-Life)
 *[Exif]: 교환 이미지 파일 형식(Exchangeable image file format)
 *[FCM]: Firebase 클라우드 메시징
 *[FDE]: 전체 디스크 암호화
 *[FIDO]: Fast IDentity Online
 *[FS]: 순방향 비밀성
-*[포크]: A new software project created by copying an existing project and adding to it independently
+*[포크]: 기존 프로젝트를 복사한 뒤 독립적으로 기능을 추가하여 만들어진 새로운 소프트웨어 프로젝트
 *[GDPR]: 유럽 연합 일반 데이터 보호 규칙(General Data Protection Regulation)
 *[GPG]: GNU Privacy Guard (PGP 구현체)
 *[GPS]: Global Positioning System
 *[GUI]: 그래픽 사용자 인터페이스
 *[GnuPG]: GNU Privacy Guard (PGP 구현체)
 *[HDD]: Hard Disk Drive
-*[HOTP]: HMAC (Hash-based Message Authentication Code) based One-Time Password
+*[HOTP]: HMAC(해시 기반 메시지 인증 코드) 기반의 일회용 비밀번호
 *[HTTPS]: 하이퍼텍스트 보안 전송 프로토콜
 *[HTTP]: 하이퍼텍스트 전송 프로토콜
-*[하이퍼바이저]: Computer software, firmware, or hardware that splits the resources of a CPU among multiple operating systems
+*[하이퍼바이저]: CPU의 자원을 여러 운영 체제 간에 분배하는 컴퓨터 소프트웨어, 펌웨어 또는 하드웨어
 *[ICCID]: Integrated Circuit Card Identifier
 *[IMAP]: 인터넷 메시지 접속 프로토콜(Internet Message Access Protocol)
 *[IMEI]: 국제 이동 단말기 식별 번호(International Mobile Equipment Identity)
@@ -49,26 +49,26 @@
 *[IPv6]: IP 버전 6 (Internet Protocol version 6)
 *[ISP]: 인터넷 서비스 제공자(Internet Service Provider)
 *[ISPs]: 인터넷 서비스 제공자 (Internet service providers)
-*[IPTC]: International Press Telecommunications Council
+*[IPTC]: 국제언론통신위원회
 *[JNI]: Java Native Interface
 *[KYC]: 고객 확인 제도
-*[LLaVA]: Large Language and Vision Assistant (multimodal AI model)
-*[LLMs]: Large Language Models (AI models such as ChatGPT)
-*[LUKS]: Linux Unified Key Setup (Full-Disk Encryption)
+*[LLaVA]: 대규모 언어·시각 보조 모델(멀티모달 AI 모델)
+*[LLMs]: 대규모 언어 모델(ChatGPT와 같은 AI 모델)
+*[LUKS]: Linux 통합 키 설정(전체 디스크 암호화)
 *[MAC]: Media Access Control
 *[MDAG]: Microsoft Defender Application Guard
 *[MEID]: 이동 장비 식별 번호(Mobile Equipment Identifier)
 *[MFA]: 다중 인증
-*[NVMe]: Nonvolatile Memory Express
-*[NAT]: Network address translation
-*[NAT-PMP]: NAT Port Mapping Protocol
+*[NVMe]: 비휘발성 메모리 익스프레스
+*[NAT]: 네트워크 주소 변환
+*[NAT-PMP]: NAT 포트 매핑 프로토콜
 *[NTP]: 네트워크 타임 프로토콜(Network Time Protocol)
-*[Nunavut]: The largest and northernmost territory of Canada
+*[Nunavut]: 캐나다에서 가장 크고 최북단에 위치한 준주
 *[OCI]: Open Container Initiative
 *[OCSP]: 온라인 인증서 상태 프로토콜(Online Certificate Status Protocol)
 *[OEM]: 주문자 상표 부착 생산
 *[OEMs]: 주문자 상표 부착 생산
-*[open-weights]: An open weights-model is an AI model that anyone can download and use, but for which the underlying training data and/or algorithms are proprietary.
+*[open-weights]: 오픈 가중치 모델(open weights-model)은 누구나 다운로드하여 사용할 수 있지만, 기반 학습 데이터 및/또는 알고리즘은 독점적인 AI 모델을 의미합니다.
 *[OS]: 운영 체제
 *[OTP]: 일회용 비밀번호
 *[OTPs]: 일회용 비밀번호
@@ -76,12 +76,12 @@
 *[P2P]: Peer-to-Peer
 *[PAM]: 장착형 인증 모듈
 *[POP3]: Post Office Protocol 3
-*[PGP]: Pretty Good Privacy (see OpenPGP)
+*[PGP]: Pretty Good Privacy (OpenPGP 참조)
 *[PII]: 개인 식별 정보(Personally Identifiable Information)
 *[QNAME]: Qualified Name
-*[QUIC]: A network protocol based on UDP, but aiming to combine the speed of UDP with the reliability of TCP.
-*[rate limits]: Rate limits are restrictions that a service imposes on the number of times a user can access their services within a specified period of time.
-*[롤링 릴리스]: Updates which are released frequently rather than set intervals
+*[QUIC]: UDP를 기반으로 하면서, UDP의 속도와 TCP의 신뢰성을 결합하는 것을 목표로 하는 네트워크 프로토콜.
+*[요청 제한]: 요청 제한(rate limits)은 서비스가 사용자가 일정 기간 동안 해당 서비스를 이용할 수 있는 횟수를 제한하는 규칙입니다.
+*[롤링 릴리스]: 정해진 주기가 아닌, 빈번히 릴리스되는 업데이트
 *[RSS]: Really Simple Syndication
 *[SELinux]: 보안 강화 리눅스(Security-Enhanced Linux)
 *[SIM]: 가입자 식별 모듈(Subscriber Identity Module)
@@ -90,12 +90,12 @@
 *[SNI]: 서버 이름 표시(Server Name Indication)
 *[SSD]: Solid-State Drive
 *[SSH]: 보안 셸(Secure Shell)
-*[SUID]: Set Owner User ID
+*[SUID]: 소유자 사용자 ID 지정
 *[SaaS]: 서비스형 소프트웨어 (클라우드 기반 소프트웨어)
 *[SoC]: System on Chip
-*[SSO]: Single sign-on
-*[system prompt]: The system prompt of an AI chat is the general instructions given by a human to guide how it should operate.
-*[temperature]: AI temperature is a parameter used in AI models to control the level of randomness and creativity in the generated text.
+*[SSO]: 단일로그인(SSO)
+*[시스템 프롬프트]: AI 채팅의 시스템 프롬프트(system prompt)는 AI가 어떻게 작동해야 하는지 안내하기 위해 사람이 제공하는 일반적인 지침입니다.
+*[temperature]: AI temperature는 AI 모델에서 생성되는 텍스트의 무작위성과 창의성 수준을 조절하는 데 사용되는 매개변수입니다.
 *[TCP]: 전송 제어 프로토콜
 *[TEE]: 신뢰 실행 환경(Trusted Execution Environment)
 *[TLS]: 전송 계층 보안
@@ -106,11 +106,11 @@
 *[UEFI]: 통합 확장 펌웨어 인터페이스(Unified Extensible Firmware Interface)
 *[UDP]: 사용자 데이터그램 프로토콜
 *[VPN]: 가상 사설망(Virtual Private Network)
-*[VLAN]: Virtual Local Area Network
+*[VLAN]: 가상 근거리 통신망
 *[VoIP]: Voice over IP (Internet Protocol)
 *[W3C]: World Wide Web Consortium
-*[XMP]:  Extensible Metadata Platform
+*[XMP]:  확장 가능한 메타데이터 플랫폼
 *[XMPP]: Extensible Messaging and Presence Protocol
 *[PWA]: 프로그레시브 웹 앱
-*[PWAs]: Progressive Web Apps
-*[WKD]: Web Key Directory
+*[PWA]: 프로그레시브 웹 앱
+*[WKD]: 웹 키 디렉토리

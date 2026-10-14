@@ -278,7 +278,7 @@ Learn More :material-arrow-right-drop-circle:
 
 ![Person with plus sign icon](../../assets/img/activism/icons/icon-tips/icon-tips-beginner.webp){class="toolbox-tip-icon"}
 
-For our privacy rights movement to grow, we must bring more people in. To accomplish this, it's fundamental to discuss privacy in ways that are accessible to newcomers who aren't familiar with basic concepts yet. Learn more about improving your advocacy work to make it more approachable to beginners.
+우리의 프라이버시 권리 운동이 성장하기 위해서는 더 많은 사람들을 참여시켜야 합니다. To accomplish this, it's fundamental to discuss privacy in ways that are accessible to newcomers who aren't familiar with basic concepts yet. Learn more about improving your advocacy work to make it more approachable to beginners.
 
 Learn More :material-arrow-right-drop-circle:
 {align=right}
