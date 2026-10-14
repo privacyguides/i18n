@@ -18,24 +18,24 @@ cover: email-aliasing.webp
 
 Использование сервиса, который позволяет вам управлять псевдонимами электронной почты, имеет целый ряд преимуществ над более традиционными методами фильтрации и управления почтой:
 
-### Over Plus Addressing
+### Над разделением почты на отдельные адреса с помощью плюса
 
-Настоящие псевдонимы электронной почты лучше обычно используемого и поддерживаемого большинством провайдеров метода, который заключается в создании почт вида "ваша_основная_почта+[что_угодно_ещё]@example.com", где "+" выступает разделителем. Такой метод ни от чего не защищает, поскольку веб-сайты, рекламщики и отслеживающие сети могут запросто избавиться от всего, что идёт после него. Organizations like the [IAB](https://en.wikipedia.org/wiki/Interactive_Advertising_Bureau) require that advertisers [normalize email addresses](https://shkspr.mobi/blog/2023/01/the-iab-loves-tracking-users-but-it-hates-users-tracking-them) so that they can be correlated and tracked, regardless of users' privacy wishes.
+Настоящие псевдонимы электронной почты лучше обычно используемого и поддерживаемого большинством провайдеров метода, который заключается в создании почт вида "ваша_основная_почта+[что_угодно_ещё]@example.com", где "+" выступает разделителем. Такой метод ни от чего не защищает, поскольку веб-сайты, рекламщики и отслеживающие сети могут запросто избавиться от всего, что идёт после него. Организации вроде [Бюро по интерактивной рекламе](https://en.wikipedia.org/wiki/Interactive_Advertising_Bureau) требуют, чтобы рекламщики приводили электронные почты [к базовому виду](https://shkspr.mobi/blog/2023/01/the-iab-loves-tracking-users-but-it-hates-users-tracking-them) так, чтобы они могли быть сопоставлены и остлежены вне зависимости от желания самих пользователей.
 
-### Over Catch-All Aliases
+### Над одним-двумя псевдонимами для всего и сразу
 
-Using a dedicated email aliasing service has a number of benefits over a catch-all alias on a custom domain:
+Использование специального сервиса для маскировки вашей почты обладает преимуществами и над тем, чтобы иметь отдельный псевдоним на личном домене:
 
-- Aliases can be turned on and off individually when you need them, preventing websites from emailing you randomly.
-- Replies are sent from the alias address, shielding your real email address.
+- Все псевдонимы могут быть включены и выключены по отдельности по мере вашей нужды в них, защищая вас от получения случайных сообщений.
+- Ответы могут отправляться с такого псевдонима, скрывая ваш настоящий электронный адрес.
 
-### Over Temporary Email Services
+### Над временными почтовыми сервисами
 
 Email aliasing services also have a number of benefits over "temporary email" services:
 
-- Aliases are permanent and can be turned on again if you need to receive something like a password reset.
-- Emails are sent to your trusted mailbox rather than stored by the alias provider.
-- Temporary email services typically have public mailboxes which can be accessed by anyone who knows the address, while aliases are private to you.
+- Псевдонимы постоянны и могут быть заново включены, например, если понадобится сделать что-то вроде сброса пароля.
+- Письма пересылаются на ваш предпочтительный почтовый ящик вместо хранения непосредственно поставщиком временной почты.
+- На сервисах временной почты адрес ящика часто публичен и может выбираться самим пользователем. То есть у любого человека, знакомого с адресом, будет возможность получить доступ к нему, в противоположность псевдонимам, которые принадлежат только вам.
 
 ## Рекомендованные провайдеры
 
