@@ -113,7 +113,7 @@ cover: activism/banner-activism-toolbox.webp
 
 ![Octagon icon](../../assets/img/activism/icons/icon-tips/icon-tips-plant.webp){class="toolbox-tip-icon"}
 
-商业社交媒体平台是数据滥用最主要的来源之一。 By staying active on these platforms we continue to feed the beast, and indirectly support their invasion of our privacy rights. Learn more about how to minimize your presence there, and slowly build better social networks.
+商业社交媒体平台是数据滥用最主要的来源之一。我们若继续在这些平台上活跃，就是在继续喂饱这头怪物，并间接助长它们对我们隐私权的侵犯。进一步了解如何减少你在那里的痕迹，并逐步建立更优质的社交网络。
 
 进一步了解 :material-arrow-right-drop-circle:
 {align=right}
@@ -130,9 +130,9 @@ cover: activism/banner-activism-toolbox.webp
 
 ### 1. 不要止步于个人解决方案，要考虑集体影响
 
-![带有放射线条的人物图标](../../assets/img/activism/icons/icon-tips/icon-tips-expand.webp){class="toolbox-tip-icon"}
+![People with radiating lines icon](../../assets/img/activism/icons/icon-tips/icon-tips-expand.webp){class="toolbox-tip-icon"}
 
-When we think about our privacy, we often focus on the technical tools we can use. While this is indeed an important component, it's crucial not to lose sight of how regulations and invasive practices impact us collectively. Learn more about how to expand your perspective on data privacy.
+一提到隐私，我们往往会把关注于可使用的技术工具上。这固然是重要一环，但绝不能忽视监管法规和侵犯性做法如何共同影响我们。进一步了解如何拓宽您对数据隐私的视野。
 
 了解更多 :material-arrow-right-drop-circle:
 {align=right}
@@ -147,7 +147,7 @@ When we think about our privacy, we often focus on the technical tools we can us
 
 ![地球图标](../../assets/img/activism/icons/icon-tips/icon-tips-landscape.webp){class="toolbox-tip-icon"}
 
-隐私不仅仅关乎工具、法律，或任何个人及组织的做法。为了推动我们的社会走向每个人都默认享有隐私的境地，我们必须从整体上综合考量技术、法律和文化。了解更多关于时刻着眼于整体局势的信息。 To move our society in a place where everyone benefits from privacy by default, we must consider technologies, laws, and culture holistically. Learn more about remembering to consider the whole landscape.
+隐私不仅仅关乎工具、法律，或是任何个人或组织的做法。为了让我们的社会迈向一个人人默认享有隐私权的境地，我们必须从整体上考虑技术、法律和文化。进一步了解如何时刻关注全局。
 
 了解更多 :material-arrow-right-drop-circle:
 {align=right}
@@ -158,13 +158,13 @@ When we think about our privacy, we often focus on the technical tools we can us
 <a href="tip-consider-everyones-unique-situation">
 <div class="toolbox-tip-card toolbox-border-perspective" markdown>
 
-### 3. 考虑每个人的独特处境
+### 3. 考虑到每个人的具体情况
 
-![上下有线条的人物图标](../../assets/img/activism/icons/icon-tips/icon-tips-everyone.webp){class="toolbox-tip-icon"}
+![People with line over and under icon](../../assets/img/activism/icons/icon-tips/icon-tips-everyone.webp){class="toolbox-tip-icon"}
 
-每个人都有不同的需求，在个人数据暴露时也面临着不同的风险。为了提供切实可行的隐私建议和推荐方案，必须将每个人的独特处境考虑在内。了解更多关于如何更好地评估每个人的威胁模型（Threat Model）。 To give actionable privacy advice and recommendations, it's essential to keep in mind everyone's unique situation. Learn more about better evaluating each person's threat model.
+每个人的需求各不相同，当个人数据泄露时，他们面临的危险也各不相同。为了提供切实可行的隐私建议和推荐，必须考虑到每个人的具体情况。进一步了解如何更好地评估每个人的威胁模型。
 
-了解更多 :material-arrow-right-drop-circle:
+进一步了解 :material-arrow-right-drop-circle:
 {align=right}
 
 </div>
@@ -172,16 +172,16 @@ When we think about our privacy, we often focus on the technical tools we can us
 
 <button class="toolbox-button-top">[返回顶部 :material-toolbox:](#toolbox-compartments)</button> <br>
 
-## 支持社区 { #support-the-community }
+## 支持社区
 
 <a href="tip-lift-your-allies-up">
 <div class="toolbox-tip-card toolbox-border-community" markdown>
 
-### 1. 扶持您的盟友
+### 1. 支持你的同道者
 
-![双手图标](../../assets/img/activism/icons/icon-tips/icon-tips-lift.webp){class="toolbox-tip-icon"}
+![Two hands icon](../../assets/img/activism/icons/icon-tips/icon-tips-lift.webp){class="toolbox-tip-icon"}
 
-At times, it might feel like the privacy community is niche and isolated. The battle for privacy rights is difficult, and its defenders are often scattered. This is why it's essential that we support and uplift each other at every opportunity. Learn more about how to lift your allies up and grow the movement.
+有时候，会让人觉得隐私圈子是一个小众而孤立的群体。隐私权的斗争异常艰难，而捍卫者往往分散各地。正因如此，我们必须抓住每一个机会相互支持、相互鼓舞。进一步了解如何支持你的同道者并推动运动的发展。
 
 进一步了解 :material-arrow-right-drop-circle:
 {align=right}
@@ -196,9 +196,9 @@ At times, it might feel like the privacy community is niche and isolated. The ba
 
 ![Hand holding a heart icon](../../assets/img/activism/icons/icon-tips/icon-tips-support.webp){class="toolbox-tip-icon"}
 
-Fighting for privacy rights is a collective endeavor. You cannot do it alone. Anyone around you contributing is fighting the same battle by your side. This battle can be difficult and isolating at time. This is why it's critical to care for each other. Learn more about how you can support your privacy comrades.
+捍卫隐私权是一项集体事业。你无法独自完成这件事。你身边的每一位贡献者，都在与你并肩作战，共同面对同样的挑战。这场战斗有时会很艰难，也会让人感到孤立无援。这就是为什么互相关怀至关重要。了解更多关于如何支持您的隐私事业伙伴的信息。
 
-了解更多 :material-arrow-right-drop-circle:
+进一步了解 :material-arrow-right-drop-circle:
 {align=right}
 
 </div></a>
@@ -206,13 +206,13 @@ Fighting for privacy rights is a collective endeavor. You cannot do it alone. An
 <a href="tip-be-kind-to-people-but-be-relentless-with-institutions">
 <div class="toolbox-tip-card toolbox-border-community" markdown>
 
-### 3. 对人友善，但对机构毫不妥协
+### 3. 对人友善，但对体制毫不妥协
 
 ![Two hands holding a sphere icon](../../assets/img/activism/icons/icon-tips/icon-tips-kind.webp){class="toolbox-tip-icon"}
 
-Kindness is essential for privacy advocates. To grow our movement, we must meet people from a place of camaraderie. People don't change their mind by being berated. However, this isn't true for institutions. Learn more about how to integrate kindness in your work, while being relentless with institutions.
+善意对隐私权倡导者来说不可或缺。要壮大我们的运动，我们必须以同道情谊与人打交道。人们不会因为被斥责就改变想法。但体制并非如此。进一步了解如何在工作中践行善意，同时对体制保持毫不妥协的态度。
 
-了解更多 :material-arrow-right-drop-circle:
+进一步了解 :material-arrow-right-drop-circle:
 {align=right}
 
 </div>
@@ -220,18 +220,18 @@ Kindness is essential for privacy advocates. To grow our movement, we must meet 
 
 <button class="toolbox-button-top">[返回顶部 :material-toolbox:](#toolbox-compartments)</button> <br>
 
-## 建立联盟 { #build-alliances }
+## 建立联盟
 
 <a href="tip-start-alliances-not-wars">
 <div class="toolbox-tip-card toolbox-border-alliances" markdown>
 
 ### 1. 缔结联盟，而非挑起纷争
 
-![握手图标](../../assets/img/activism/icons/icon-tips/icon-tips-alliances.webp){class="toolbox-tip-icon"}
+![handshake icon](../../assets/img/activism/icons/icon-tips/icon-tips-alliances.webp){class="toolbox-tip-icon"}
 
-The privacy community consists of a patchwork of individuals and organizations that sometimes hold quite different views. When these divergences lead to infighting, we need to ask how these internal wars are impacting our community negatively. Learn more about how to start alliances instead of wars.
+隐私社群由形形色色的个人和组织组成，他们有时持有截然不同的观点。当这些分歧导致内讧时，我们需要思考这些内部冲突正在对我们的社区产生怎样的负面影响。进一步了解如何建立联盟而非发动战争。
 
-了解更多 :material-arrow-right-drop-circle:
+进一步了解 :material-arrow-right-drop-circle:
 {align=right}
 
 </div>
@@ -244,9 +244,9 @@ The privacy community consists of a patchwork of individuals and organizations t
 
 ![Sphere with half dark half light icon](../../assets/img/activism/icons/icon-tips/icon-tips-complement.webp){class="toolbox-tip-icon"}
 
-In privacy, like everywhere else, diversity is a strength. If you want your community to have a broad understanding of threat models, and be able to fight on multiple levels, you need to value a diversity of expertises. Learn more about recognizing, respecting, and retaining experts with skills different to yours.
+在隐私领域，就像在其他任何领域一样，多样性是一种优势。如果你希望你的社区能够对威胁模型有全面的了解，并能在多个层面进行应对，你就必须重视各种专业领域的多样性。进一步了解如何赏识、尊重那些技能与你不同的专家，并让他们愿意留下来。
 
-了解更多 :material-arrow-right-drop-circle:
+进一步了解 :material-arrow-right-drop-circle:
 {align=right}
 
 </div>
@@ -255,13 +255,13 @@ In privacy, like everywhere else, diversity is a strength. If you want your comm
 <a href="tip-give-credit-where-credit-is-due">
 <div class="toolbox-tip-card toolbox-border-alliances" markdown>
 
-### 3. 归功于应得之人
+### 3. 论功行赏，实至名归
 
 ![Thumbs up icon](../../assets/img/activism/icons/icon-tips/icon-tips-credit.webp){class="toolbox-tip-icon"}
 
-To succeed, we must support each other. A good way to do this is to never forget to give credit where credit is due. When another advocate or organization says something you agree with, boost them up, spread their reach, and thank them publicly. Learn more about making your allies feel seen and valued.
+要想成功，我们必须相互支持。一个好做法是始终记得功劳该归谁就归谁。当另一位倡导者或组织发表了你赞同的观点时，要为他们助力，扩大他们的影响，并公开对他们表示感谢。进一步了解如何让你的同道感到自己被看见、被重视。
 
-了解更多 :material-arrow-right-drop-circle:
+进一步了解 :material-arrow-right-drop-circle:
 {align=right}
 
 </div>
@@ -269,7 +269,7 @@ To succeed, we must support each other. A good way to do this is to never forget
 
 <button class="toolbox-button-top">[返回顶部 :material-toolbox:](#toolbox-compartments)</button> <br>
 
-## Make It Accessible
+## 确保无门槛
 
 <a href="tip-welcome-beginners">
 <div class="toolbox-tip-card toolbox-border-accessibility" markdown>
@@ -278,9 +278,9 @@ To succeed, we must support each other. A good way to do this is to never forget
 
 ![Person with plus sign icon](../../assets/img/activism/icons/icon-tips/icon-tips-beginner.webp){class="toolbox-tip-icon"}
 
-For our privacy rights movement to grow, we must bring more people in. To accomplish this, it's fundamental to discuss privacy in ways that are accessible to newcomers who aren't familiar with basic concepts yet. Learn more about improving your advocacy work to make it more approachable to beginners.
+为了让我们的隐私权运动不断壮大，我们必须吸引更多人参与进来。为了实现这一目标，必须以通俗易懂的方式讨论隐私问题，让尚未熟悉基本概念的新手也能理解。进一步了解如何改进您的倡导工作，使其对初学者更易于接受。
 
-了解更多 :material-arrow-right-drop-circle:
+进一步了解 :material-arrow-right-drop-circle:
 {align=right}
 
 </div>
@@ -289,13 +289,13 @@ For our privacy rights movement to grow, we must bring more people in. To accomp
 <a href="tip-keep-your-posts-and-community-inclusive">
 <div class="toolbox-tip-card toolbox-border-accessibility" markdown>
 
-### 2. 保持您的帖子和社区具有包容性
+### 2. 让你的帖子和社群兼容并包
 
 ![Heart with plus sign icon](../../assets/img/activism/icons/icon-tips/icon-tips-inclusivity.webp){class="toolbox-tip-icon"}
 
-Inclusivity is not only the right thing to do, it's also essential to grow our movement. If we want privacy rights to succeed, it's imperative that we build communities where _everyone_ feels safe and welcomed, regardless of who they are. Learn more about keeping your communications and communities inclusive.
+包容性不仅是正确之举，也是我们运动壮大的必要条件。如果我们希望隐私权得以实现，我们就必须建立&#x8BA9;_&#x6BCF;个人_——无论其身份——都感到安心且被欢迎的社群。进一步了解如何让您的沟通和社区更具包容性。
 
-了解更多 :material-arrow-right-drop-circle:
+进一步了解 :material-arrow-right-drop-circle:
 {align=right}
 
 </div>
@@ -308,7 +308,7 @@ Inclusivity is not only the right thing to do, it's also essential to grow our m
 
 ![Heart with checkmark icon](../../assets/img/activism/icons/icon-tips/icon-tips-accessibility.webp){class="toolbox-tip-icon"}
 
-Accessibility is indispensable to inclusivity, and should always be a priority in our work. To make our privacy communities welcoming to all, accessibility cannot be an afterthought. We must integrate it in our practice from the start. Learn more about improving the accessibility of your privacy work.
+Accessibility is indispensable to inclusivity, and should always be a priority in our work. 为了让我们的隐私社区对所有人来说都充满包容性，无障碍设计绝不能被当作事后才考虑的事项。我们必须从一开始就将其融入实践。 Learn more about improving the accessibility of your privacy work.
 
 了解更多 :material-arrow-right-drop-circle:
 {align=right}

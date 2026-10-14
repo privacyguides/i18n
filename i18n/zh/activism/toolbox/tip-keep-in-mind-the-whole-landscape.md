@@ -5,7 +5,7 @@ icon: fontawesome/solid/globe
 cover: activism/banner-toolbox-tip-landscape.webp
 ---
 
-隐私不仅仅关乎工具、法律，或任何个人及组织的做法。为了推动我们的社会走向每个人都默认享有隐私的境地，我们必须从整体上综合考量技术、法律和文化。了解更多关于时刻着眼于整体局势的信息。 It's about _all_ of that. To move our society in a place where everyone benefits from privacy by default, we must consider technologies, laws, and culture holistically.
+隐私不仅仅关乎工具、法律，或是任何个人或组织的做法。 It's about _all_ of that. 为了让我们的社会迈向一个人人默认享有隐私权的境地，我们必须从整体上考虑技术、法律和文化。
 
 Here's how to get better at **considering the whole landscape**:
 
