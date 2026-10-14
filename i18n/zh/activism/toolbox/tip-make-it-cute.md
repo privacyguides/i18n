@@ -1,11 +1,11 @@
 ---
 title: Make It Cute
-description: If you are developing a privacy-focused application or website, it's important that you do not neglect the design aspect of it. Make it cute!
+description: If you are developing a privacy-focused application or website, it's important that you do not neglect the design aspect of it. 把它做得可爱一点！
 icon: fontawesome/solid/cat
 cover: activism/banner-toolbox-tip-cute.webp
 ---
 
-If you are developing a privacy-focused application or website, it's important that you **do not neglect the design** aspect of it. This is a common mistake that can have a significant negative impact on adoption by a general audience. Make it cute!
+If you are developing a privacy-focused application or website, it's important that you **do not neglect the design** aspect of it. 这个常见错误会严重妨碍普通用户接受它。把它做得可爱一点！
 
 Here's why you should make your design appealing and accessible to everyone:
 

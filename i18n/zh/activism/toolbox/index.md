@@ -308,9 +308,9 @@ cover: activism/banner-activism-toolbox.webp
 
 ![Heart with checkmark icon](../../assets/img/activism/icons/icon-tips/icon-tips-accessibility.webp){class="toolbox-tip-icon"}
 
-Accessibility is indispensable to inclusivity, and should always be a priority in our work. 为了让我们的隐私社区对所有人来说都充满包容性，无障碍设计绝不能被当作事后才考虑的事项。我们必须从一开始就将其融入实践。 Learn more about improving the accessibility of your privacy work.
+无障碍设计是实现包容性的不可或缺的要素，应始终作为我们工作的优先事项。为了让我们的隐私社区对所有人来说都充满包容性，无障碍设计绝不能被当作事后才考虑的事项。我们必须从一开始就将其融入实践。进一步了解如何提高隐私工作的无障碍性。
 
-了解更多 :material-arrow-right-drop-circle:
+进一步了解 :material-arrow-right-drop-circle:
 {align=right}
 
 </div>
@@ -323,9 +323,9 @@ Accessibility is indispensable to inclusivity, and should always be a priority i
 
 ![Cat icon](../../assets/img/activism/icons/icon-tips/icon-tips-cute.webp){class="toolbox-tip-icon"}
 
-如果您正在开发一款注重隐私的应用程序或网站，请不要忽视它的设计。 This is a common mistake that can have a significant negative impact on adoption by a general audience. Learn more about making your design appealing and accessible to all. Make it cute!
+如果你正在开发一款以隐私为核心的应用或网站，不要忽略设计这一环。这个常见错误会严重妨碍普通用户接受它。进一步了解如何让您的设计更具吸引力，并确保所有人都能轻松使用。把它做得可爱一点！
 
-了解更多 :material-arrow-right-drop-circle:
+进一步了解 :material-arrow-right-drop-circle:
 {align=right}
 
 </div>
@@ -333,18 +333,18 @@ Accessibility is indispensable to inclusivity, and should always be a priority i
 
 <button class="toolbox-button-top">[返回顶部 :material-toolbox:](#toolbox-compartments)</button> <br>
 
-## 坚守原则 { #uphold-integrity }
+## 坚守原则
 
 <a href="tip-refuse-to-participate">
 <div class="toolbox-tip-card toolbox-border-integrity" markdown>
 
 ### 1. 拒绝参与
 
-![带有叉号的圆圈图标](../../assets/img/activism/icons/icon-tips/icon-tips-refuse.webp){class="toolbox-tip-icon"}
+![Circle with x icon](../../assets/img/activism/icons/icon-tips/icon-tips-refuse.webp){class="toolbox-tip-icon"}
 
-As privacy advocates and activists, it's important to be a voice for resistance and take a stand against abusive practices. 作为隐私倡议者和活动家，发出抵制的声音并坚决反对滥用行为非常重要。实现这一点的一个重要方式，就是拒绝参与侵犯隐私的请求，或拒绝使用侵入性软件。了解更多关于如何拒绝配合侵犯隐私的做法。 Learn more about refusing to comply with privacy-abusive practices.
+作为隐私倡导者和行动者，重要的是发出反抗的声音，并对侵权做法表明反对立场。一个切实的做法，就是拒绝配合侵犯隐私的要求，或拒绝使用侵权软件。进一步了解如何拒绝服从侵犯隐私的做法。
 
-了解更多 :material-arrow-right-drop-circle:
+进一步了解 :material-arrow-right-drop-circle:
 {align=right}
 
 </div>
@@ -353,13 +353,13 @@ As privacy advocates and activists, it's important to be a voice for resistance 
 <a href="tip-stay-true-to-your-principles">
 <div class="toolbox-tip-card toolbox-border-integrity" markdown>
 
-### 2. 忠于您的原则
+### 2. 坚守自己的原则
 
-![星星图标](../../assets/img/activism/icons/icon-tips/icon-tips-principles.webp){class="toolbox-tip-icon"}
+![Star icon](../../assets/img/activism/icons/icon-tips/icon-tips-principles.webp){class="toolbox-tip-icon"}
 
-如果您管理着一个数字权利团体或组织，请确保不要让您的贡献者受到您正在抵制的那些侵犯隐私的技术的侵害。 Sadly, it's not rare to see communities that aren't following their own advice for internal practices. Learn more about the importance of maintaining integrity _internally_ as well as externally.
+如果你负责管理一个数字权利团体或组织，务必不要让贡献者受制于你们正在对抗的、侵犯隐私的技术。可悲的是，不少社群在内部实践中并不践行自己给出的建议。进一步了解内外都保持原则一致的重要性。
 
-了解更多 :material-arrow-right-drop-circle:
+进一步了解 :material-arrow-right-drop-circle:
 {align=right}
 
 </div>
@@ -368,13 +368,13 @@ As privacy advocates and activists, it's important to be a voice for resistance 
 <a href="tip-protect-your-allies">
 <div class="toolbox-tip-card toolbox-border-integrity" markdown>
 
-### 3. 保护您的盟友
+### 3. 保护您的同道者
 
-![带有爱心的盾牌图标](../../assets/img/activism/icons/icon-tips/icon-tips-protect.webp){class="toolbox-tip-icon"}
+![Shield with heart icon](../../assets/img/activism/icons/icon-tips/icon-tips-protect.webp){class="toolbox-tip-icon"}
 
-在您的隐私工作中，请务必注意，绝不要在未经他人明确同意的情况下收集或分享他们的数据。 It's crucial to protect your allies' data in all that you do, whether that's individual action or organizational leadership. Learn more about safeguarding the data of your privacy comrades.
+在开展隐私保护工作时，请务必注意，切勿在未获得他人明确同意的情况下收集或分享其数据。无论是在个人行动还是组织领导中，保护同道者的数据都至关重要。进一步了解如何保护您的隐私同道的数据。
 
-了解更多 :material-arrow-right-drop-circle:
+进一步了解 :material-arrow-right-drop-circle:
 {align=right}
 
 </div>
@@ -391,9 +391,9 @@ As privacy advocates and activists, it's important to be a voice for resistance 
 
 ![Puzzle piece icon](../../assets/img/activism/icons/icon-tips/icon-tips-small.webp){class="toolbox-tip-icon"}
 
-There is so much to do in the movement for better privacy rights. So much, that it's sometimes easy to feel discouraged when facing the scale of what's left to accomplish. But everything helps, and even the smallest action counts. Learn more about why every action and every victory matters, no matter how small.
+为更好隐私权而开展的运动中，要做的事太多了。多到有时面对剩余任务的庞大，难免令人泄气。但一切努力都有用，再小的行动也算数。进一步了解为什么每一项行动、每一场胜利都至关重要，无论它们多么微不足道。
 
-了解更多 :material-arrow-right-drop-circle:
+进一步了解 :material-arrow-right-drop-circle:
 {align=right}
 
 </div>
@@ -402,13 +402,13 @@ There is so much to do in the movement for better privacy rights. So much, that 
 <a href="tip-take-time-to-rest">
 <div class="toolbox-tip-card toolbox-border-persistence" markdown>
 
-### 2. 抽出时间休息，但请回来与我们继续并肩作战
+### 2. 花点时间休息一下，但请回来与我们继续并肩作战
 
 ![Low battery icon](../../assets/img/activism/icons/icon-tips/icon-tips-rest.webp){class="toolbox-tip-icon"}
 
-The battle for privacy rights will be a long one. This isn't a sprint, it's a marathon. If you want to be a good advocate, you _must_ take the time to rest when needed. Burning out isn't an option, we cannot afford to lose your precious contribution! Learn more about why it's fundamental to learn to rest when you need it.
+隐私权之战将是漫长的。这不是短跑，而是马拉松。若想成为一名优秀的倡导者，&#x5C31;_&#x5FC5;&#x987B;_&#x5728;需要时花时间休息。让自己燃尽绝不是选项，我们承受不起失去你宝贵贡献的代价！进一步了解为什么学会在需要时休息至关重要。
 
-了解更多 :material-arrow-right-drop-circle:
+进一步了解 :material-arrow-right-drop-circle:
 {align=right}
 
 </div>
@@ -423,11 +423,11 @@ The battle for privacy rights will be a long one. This isn't a sprint, it's a ma
 
 ### 1. 参与、助力并作出贡献
 
-![扩音器图标](../../assets/img/activism/icons/icon-tips/icon-tips-engage.webp){class="toolbox-tip-icon"}
+![Megaphone icon](../../assets/img/activism/icons/icon-tips/icon-tips-engage.webp){class="toolbox-tip-icon"}
 
-Once you have the knowledge, motivation, and energy, it's time to act! Perhaps you've read all of these tips, or read through our Knowledge Base already! But you don't need to know that much about privacy to start contributing. Learn more about how to start being a privacy activist.
+一旦具备了知识、动力和干劲，就该付诸行动了！也许您已经阅读了所有这些提示，或者已经浏览过我们的知识库了！不过，你不必对隐私了解太多，也能开始做出贡献。进一步了解如何开始成为一名隐私权倡导者。
 
-了解更多 :material-arrow-right-drop-circle:
+进一步了解 :material-arrow-right-drop-circle:
 {align=right}
 
 </div>
@@ -436,13 +436,13 @@ Once you have the knowledge, motivation, and energy, it's time to act! Perhaps y
 <a href="tip-level-up-assemble-and-organize">
 <div class="toolbox-tip-card toolbox-border-action" markdown>
 
-### 2. Level up! 进阶提升！集结与组织
+### 2. 进阶提升！集结与组织
 
-![举起拳头图标](../../assets/img/activism/icons/icon-tips/icon-tips-organize.webp){class="toolbox-tip-icon"}
+![Raised fist icon](../../assets/img/activism/icons/icon-tips/icon-tips-organize.webp){class="toolbox-tip-icon"}
 
-如果您作为隐私倡议者已经有一段时间了，也许是时候进阶提升，成长为您所在社区的领导者了。 Becoming a leader can mean starting a local group, or initiating bigger projects online. Learn more about how to become a _good_ leader in the privacy rights movement.
+如果您作为隐私倡议者已经有一段时间了，也许是时候进阶提升，成长为您所在社区的领导者了。成为一名领导者，可以是组建一个当地小组，也可以是在网上发起更大的项目。进一步了解如何成为隐私权运动中的一&#x4F4D;_&#x4F18;&#x79C0;_&#x9886;导者。
 
-了解更多 :material-arrow-right-drop-circle:
+进一步了解 :material-arrow-right-drop-circle:
 {align=right}
 
 </div>
