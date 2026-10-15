@@ -141,15 +141,15 @@ description: الـ iOS هو نظام تشغيل للهواتف المحمولة
 
 إذا كنت ترغب في استخدام Face ID أو Touch ID، يمكنك إعداده الآن. سيستخدم هاتفك كلمة المرور التي عينتها سابقا كطريقة بديلة لفتح القفل في حال فشل التحقق باستخدام بصمة الوجه أو الإصبع. تُستخدم طرق فتح القفل ببصمة الوجه أو الإصبع أساسا لتسهيل الاستخدام، لكنها تمنع أيضا كاميرات المراقبة أو الأشخاص الذين ينظرون من خلف كتفك من رؤية رمز الدخول أثناء إدخاله.
 
-إذا كنت تستخدم بصمة الوجه أو الإصبع، فمن المهم أن تعرف كيف تعطّلها بسرعة في حالات الطوارئ. Holding down the [side button](https://support.apple.com/en-us/105103) and *either* volume button until you see the Slide to Power Off slider will disable biometrics, requiring your passcode to unlock. Your passcode will be required after your device restarts.
+إذا كنت تستخدم بصمة الوجه أو الإصبع، فمن المهم أن تعرف كيف تعطّلها بسرعة في حالات الطوارئ. سيؤدي الضغط مطولا على [الزر الجانبي](https://support.apple.com/en-us/105103) *وأحد* زري الصوت حتى يظهر شريط التمرير لإيقاف التشغيل (Slide to Power Off) إلى تعطيل فتح القفل بالبصمة أو الوجه، وسيُطلب منك إدخال رمز الدخول لفتح الجهاز. سيُطلب منك إدخال رمز الدخول بعد إعادة تشغيل جهازك.
 
-You can similarly disable biometrics by pressing the side button five times, or for devices with Touch ID, you can hold down the side button and nothing else. Make sure you try this in advance, so you know which method works for your device.
+يمكنك أيضا تعطيل فتح القفل بالبصمة أو الوجه بالضغط على الزر الجانبي خمس مرات، أو بالضغط مطولًا على الزر الجانبي وحده إذا كان جهازك يدعم Touch ID. تأكد من تجربة هذه الطرق مسبقا حتى تعرف أيها يعمل على جهازك.
 
-**Stolen Device Protection** adds additional security intended to protect your personal data if your device is stolen while unlocked. If you enable both biometric authentication and the [Find My](#find-my) iPhone feature, we recommend enabling this protection:
+تضيف ميزة **Stolen Device Protection** طبقة حماية إضافية لبياناتك الشخصية في حال سُرق جهازك وهو مفتوح القفل. إذا كنت تستخدم المصادقة بالبصمة أو الوجه وميزة [Find My iPhone](#find-my)، فننصحك بتفعيل هذه الحماية:
 
-- [x] Turn on **Stolen Device Protection**
+- [x] تفعيل ميزة** Stolen Device Protection**
 
-After enabling Stolen Device Protection, [certain actions](https://support.apple.com/HT212510) will require biometric authentication without a password fallback (in the event that a shoulder surfer has obtained your PIN), such as using password autofill, accessing payment information, and disabling Lost Mode. It also adds a security delay to certain actions performed away from your home or another "familiar location," such as requiring a 1-hour timer to reset your Apple Account password or sign out of your Apple Account. This delay is intended to give you time to enable Lost Mode and secure your account before a thief can reset your device.
+بعد تفعيل ميزة Stolen Device Protection،[ ستتطلب بعض الإجراءات](https://support.apple.com/HT212510) استخدام بصمة الإصبع أو الوجه للتحقق من هويتك، ولن تتمكن من استخدام رمز الدخول كبديل (حتى لو تمكن شخص من معرفة رمز الدخول أثناء مراقبتك وأنت تكتبه). وتشمل هذه الإجراءات الملء التلقائي لكلمات المرور، والوصول إلى معلومات الدفع، وإيقاف وضع الفقدان (Lost Mode). It also adds a security delay to certain actions performed away from your home or another "familiar location," such as requiring a 1-hour timer to reset your Apple Account password or sign out of your Apple Account. This delay is intended to give you time to enable Lost Mode and secure your account before a thief can reset your device.
 
 **Allow Access When Locked** presents options for what you can allow when your phone is locked. Pick and choose which feature you want to disable to prevent unauthorized access if someone gets their hands on your phone. The more of these options you disable, the less someone without your password can do, but the less convenient it will be for you.
 
