@@ -8,7 +8,7 @@ schema:
   - 
     "@context": http://schema.org
     "@type": WebPage
-    name: 隐私桌面浏览器建议
+    name: 隐私桌面端浏览器建议
     url: "./"
     relatedLink: "../mobile-browsers/"
   - 
@@ -57,7 +57,7 @@ schema:
       url: "./"
 ---
 
-<small>Protects against the following threat(s):</small>
+<small>可防范以下威胁：</small>
 
 - [:material-account-cash: 监视资本主义](basics/common-threats.md#surveillance-as-a-business-model ""){.pg-brown}
 
@@ -71,7 +71,7 @@ schema:
 
 ![Mullvad 浏览器logo](assets/img/browsers/mullvad_browser.svg){ align=right }
 
-**Mullvad 浏览器** 是 [Tor 浏览器](tor.md#tor-browser) 的一个版本，其中已移除了与 Tor 网络的集成功能。该项目旨在为VPN用户提供Tor浏览器中的反指纹识别技术，这些技术是抵御[:material-eye-outline: 大规模监控](basics/common-threats.md#mass-surveillance-programs){ .pg-blue } 的关键防护措施。该软件由Tor项目开发，由[Mullvad](vpn.md#mullvad)分发，且**无需**使用Mullvad的VPN。
+**Mullvad 浏览器** 是 [Tor 浏览器](tor.md#tor-browser) 的一个版本，其中已移除了与 Tor 网络的集成功能。该项目旨在为VPN用户提供Tor浏览器中的反指纹识别技术，这些技术是抵御[:material-eye-outline: 大规模监控](basics/common-threats.md#mass-surveillance-programs){ .pg-blue } 的关键防护措施。该软件由Tor项目开发，由[Mullvad](vpn.md#mullvad)发行，且**无需**使用Mullvad的VPN。
 
 [:octicons-home-16: 主页](https://mullvad.net/en/browser){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://mullvad.net/en/help/privacy-policy){ .card-link title="隐私条款" }
@@ -91,13 +91,13 @@ schema:
 
 与[Tor 浏览器](tor.md)类似，Mullvad 浏览器旨在通过使您的浏览器指纹与大量其他 Mullvad 浏览器用户保持相似，从而防止指纹识别；它包含默认设置和扩展程序，这些设置和扩展程序会根据默认安全级别：*标准*、*更安全*、*最安全*来自动配置。
 
-Therefore, it is imperative that you do not modify the browser at all outside adjusting the default [security levels](https://tb-manual.torproject.org/security-settings). When adjusting the security level, you **must** always restart the browser before continuing to use it. Otherwise, [the security settings may not be fully applied](https://www.privacyguides.org/articles/2025/05/02/tor-security-slider-flaw), putting you at a higher risk of fingerprinting and exploits than you may expect based on the setting chosen.
+因此，除调整默认的[安全级别](https://tb-manual.torproject.org/security-settings)外，切勿对浏览器进行任何其他修改。调整安全级别后，你**必须**先重启浏览器，然后才能继续使用。否则，[安全设置可能无法完全生效](https://www.privacyguides.org/articles/2025/05/02/tor-security-slider-flaw)，这会使您面临比根据所选设置所预期的更高的指纹识别和漏洞利用风险。
 
-Modifications other than adjusting this setting would make your fingerprint unique, defeating the purpose of using this browser. 如果你想对浏览器进行更多的配置而且不担心指纹识别，我们建议你使用 [Firefox](#firefox)。
+其他修改会使您的指纹变得独一无二，从而失去使用该浏览器的意义。如果你想对浏览器进行更多的配置而且不担心指纹识别，我们建议你使用 [Firefox](#firefox)。
 
 ### 防指纹
 
-**Without** using a [VPN](vpn.md), Mullvad Browser provides protections against [naive fingerprinting scripts](https://github.com/arkenfox/user.js/wiki/3.3-Overrides-%5BTo-RFP-or-Not%5D#-fingerprinting) similar to other private browsers like Firefox+[Arkenfox](#arkenfox-advanced) or [Brave](#brave). Mullvad 浏览器自带这些保护，但牺牲了其他隐私浏览器提供的一些灵活性和便利性。
+**即使不**使用[VPN](vpn.md)，Mullvad浏览器也能像[Firefox+Arkenfox](#arkenfox-advanced)或[Brave](#brave)等其他隐私浏览器一样，抵御[简单的指纹识别脚本](https://github.com/arkenfox/user.js/wiki/3.3-Overrides-%5BTo-RFP-or-Not%5D#-fingerprinting)。 Mullvad 浏览器自带这些保护，但牺牲了其他隐私浏览器提供的一些灵活性和便利性。
 
 ==为了最完善的反指纹保护，我们建议将 Mullvad 浏览器与 **和** VPN== 结合使用，无论是 Mullvad 还是其他推荐的 VPN 提供商。在使用 Mullvad 浏览器的 VPN 时，你将与许多其他用户共享一个指纹和一个 IP 地址池，使你混入“人群”。 This strategy is the best way to defend against advanced tracking scripts, and is the same anti-fingerprinting technique used by Tor Browser.
 
@@ -126,7 +126,7 @@ Mullvad 浏览器一直在无痕浏览模式下运行，这意味着每次关闭
 [:octicons-heart-16:](https://donate.mozilla.org){ .card-link title="贡献" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>下载</summary>
 
 - [:fontawesome-brands-windows: Windows](https://mozilla.org/firefox/windows)
 - [:simple-apple: macOS](https://mozilla.org/firefox/mac)
