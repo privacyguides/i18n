@@ -8,7 +8,7 @@ cover: 활동주의/배너-활동주의-도구상자.webp
 
 The **Privacy Activist Toolbox** is a resource for anyone interested in becoming a better privacy rights activist, or anyone who wants to start advocating for privacy rights.
 
-This page is also a resource to help digital rights organizations that would like to expand their work focusing on privacy.
+이 페이지는 또한 개인정보 보호에 중점을 둔 활동을 확대하고자 하는 디지털 권리 단체들을 돕기 위한 자료이기도 합니다.
 
 :material-cursor-default-click: By clicking on any of the tips listed on this page, you can access more information on each topic, as well as additional resources to support your advocacy.
 
