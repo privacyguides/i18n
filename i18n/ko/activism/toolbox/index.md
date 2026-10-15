@@ -6,15 +6,15 @@ hide:
 cover: 활동주의/배너-활동주의-도구상자.webp
 ---
 
-The **Privacy Activist Toolbox** is a resource for anyone interested in becoming a better privacy rights activist, or anyone who wants to start advocating for privacy rights.
+\*\*‘개인정보 보호 활동가 도구 모음’\*\*은 더 나은 개인정보 보호 권리 활동가가 되고자 하는 분이나, 개인정보 보호 권리 옹호 활동을 시작하고자 하는 분들을 위한 자료입니다.
 
 이 페이지는 또한 개인정보 보호에 중점을 둔 활동을 확대하고자 하는 디지털 권리 단체들을 돕기 위한 자료이기도 합니다.
 
-:material-cursor-default-click: By clicking on any of the tips listed on this page, you can access more information on each topic, as well as additional resources to support your advocacy.
+:material-cursor-default-click: 이 페이지에 나열된 팁 중 하나를 클릭하면 각 주제에 대한 자세한 정보와 옹호 활동을 뒷받침해 줄 추가 자료를 확인할 수 있습니다.
 
 ---
 
-## Toolbox Compartments
+## 도구함 수납공간
 
 <div class="toolbox-button-grid" markdown>
 
