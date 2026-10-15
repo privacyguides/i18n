@@ -86,7 +86,7 @@ Brace는 Chromium 웹 브라우저 프로젝트 기반으로 구축되었으므�
 
 #### Brave shields global defaults
 
-브레이브는 [‘쉴드’](https://support.brave.com/hc/articles/360022973471-What-is-Shields) 기능에 몇 가지 지문 추적 방지 조치를 포함하고 있습니다. We suggest configuring these options [globally](https://support.brave.com/hc/articles/360023646212-How-do-I-configure-global-and-site-specific-Shields-settings) across all pages that you visit.
+브레이브는 [‘쉴드’](https://support.brave.com/hc/articles/360022973471-What-is-Shields) 기능에 몇 가지 지문 추적 방지 조치를 포함하고 있습니다. 방문하는 모든 페이지에 대해 이러한 옵션을 [전체적으로](https://support.brave.com/hc/articles/360023646212-How-do-I-configure-global-and-site-specific-Shields-settings) 설정하는 것을 권장합니다.
 
 필요에 따라 사이트별로 보호 옵션을 낮출 수 있으나, 기본적으로 다음과 같이 설정할 것을 권장드립니다:
 
@@ -114,7 +114,7 @@ Brace는 Chromium 웹 브라우저 프로젝트 기반으로 구축되었으므�
 
     </div>
 
-    1. This option disables JavaScript, which will break a lot of sites. To unbreak them, you can set exceptions on a per-site basis by tapping on the Shield icon in the address bar and unchecking this setting under *Advanced controls*.
+    1. 이 옵션을 선택하면 자바스크립트가 비활성화되어 많은 웹사이트가 제대로 작동하지 않게 됩니다. To unbreak them, you can set exceptions on a per-site basis by tapping on the Shield icon in the address bar and unchecking this setting under *Advanced controls*.
 
 === "iOS"
 
@@ -137,7 +137,7 @@ Brace는 Chromium 웹 브라우저 프로젝트 기반으로 구축되었으므�
 
     </div>
 
-    1. This option disables JavaScript, which will break a lot of sites. To unbreak them, you can set exceptions on a per-site basis by tapping on the Shield icon in the address bar and unchecking this setting under *Advanced controls*.
+    1. 이 옵션을 선택하면 자바스크립트가 비활성화되어 많은 웹사이트가 제대로 작동하지 않게 됩니다. To unbreak them, you can set exceptions on a per-site basis by tapping on the Shield icon in the address bar and unchecking this setting under *Advanced controls*.
 
 #### Other privacy settings
 

@@ -271,18 +271,18 @@ Brave는 Brave 웹사이트에서 다운로드한 파일의 이름에 “[추천
 
 #### 쉴드
 
-브레이브는 [‘쉴드’](https://support.brave.com/hc/articles/360022973471-What-is-Shields) 기능에 몇 가지 지문 추적 방지 조치를 포함하고 있습니다. We suggest configuring these options [globally](https://support.brave.com/hc/articles/360023646212-How-do-I-configure-global-and-site-specific-Shields-settings) across all pages that you visit.
+브레이브는 [‘쉴드’](https://support.brave.com/hc/articles/360022973471-What-is-Shields) 기능에 몇 가지 지문 추적 방지 조치를 포함하고 있습니다. 방문하는 모든 페이지에 대해 이러한 옵션을 [전체적으로](https://support.brave.com/hc/articles/360023646212-How-do-I-configure-global-and-site-specific-Shields-settings) 설정하는 것을 권장합니다.
 
 필요에 따라 사이트별로 보호 옵션을 낮출 수 있으나, 기본적으로 다음과 같이 설정할 것을 권장드립니다:
 
 <div class="annotate" markdown>
 
-- [x] Select **Aggressive** under *Trackers & ads blocking*
+- [x] *추적기 및 광고 차단* 항목에서 **공격적**으로 설정
 
 <details class="warning" markdown>
-<summary>Use default filter lists</summary>
+<summary>기본 필터 목록 사용</summary>
 
-Brave allows you to select additional content filters within the internal `brave://adblock` page. 이 기능을 사용하지 말고 기본 필터 목록을 유지할 것을 권장드립니다. 추가적인 목록을 사용하면 다른 Brave 사용자에 비해 더 눈에 띄게 되며, 만약 Brave에 취약점이 존재하고 여러분이 사용하는 규칙 목록에 악성 규칙이 포함될 경우 공격 표면을 증가시킬 수도 있습니다.
+브레이브는 내장된 `brave://adblock` 페이지에서 추가적으로 컨텐츠를 차단할 수 있는 필터를 선택할 수 있습니다. 이 기능을 사용하지 말고 기본 필터 목록을 유지할 것을 권장드립니다. 추가적인 목록을 사용하면 다른 Brave 사용자에 비해 더 눈에 띄게 되며, 만약 Brave에 취약점이 존재하고 여러분이 사용하는 규칙 목록에 악성 규칙이 포함될 경우 공격 표면을 증가시킬 수도 있습니다.
 
 </details>
 
@@ -295,26 +295,26 @@ Brave allows you to select additional content filters within the internal `brave
 
 </div>
 
-1. This option disables JavaScript, which will break a lot of sites. To fix them, you can set exceptions on a per-site basis by clicking on the Shield icon in the address bar and unchecking this setting under *Advanced controls*.
-2. If you wish to stay logged in to a particular site you visit often, you can set exceptions on a per-site basis by clicking on the Shield icon in the address bar and unchecking this setting under *Advanced controls*.
+1. 이 옵션을 선택하면 자바스크립트가 비활성화되어 많은 웹사이트가 제대로 작동하지 않게 됩니다. To fix them, you can set exceptions on a per-site basis by clicking on the Shield icon in the address bar and unchecking this setting under *Advanced controls*.
+2. 자주 방문하는 특정 사이트에 로그인 상태를 유지하고 싶다면, 주소 표시줄의 방패 아이콘을 클릭한 후 *‘고급 설정*’에서 해당 설정의 체크 표시를 해제하여 사이트별로 예외를 설정할 수 있습니다.
 
-#### Privacy and security
+#### 개인 정보 보호 및 보안
 
 <div class="annotate" markdown>
 
-- [x] Select **Don’t allow sites to use JavaScript optimization** under *Security* → *Manage JavaScript optimization & security* (1)
-- [x] Select **Automatically remove permissions from unused sites** under *Sites and Shields Settings*
-- [x] Select **Disable non-proxied UDP** under [*WebRTC IP Handling Policy*](https://support.brave.com/hc/articles/360017989132-How-do-I-change-my-Privacy-Settings#webrtc)
-- [ ] Uncheck **Use Google services for push messaging**
-- [x] Select **Auto-redirect AMP pages**
-- [x] Select **Auto-redirect tracking URLs**
-- [x] Select **Prevent sites from fingerprinting me based on my language preferences**
+- [x] *보안* → *자바스크립트 최적화 및 보안 관리*에서 **사이트의 자바스크립트 최적화 사용 허용 안 함**을 선택합니다 (1)
+- [x] *사이트 및 쉴드 설정*에서 **사용하지 않는 사이트의 권한을 자동으로 제거**를 선택합니다.
+- [x] [*WebRTC IP 처리 정책*](https://support.brave.com/hc/articles/360017989132-How-do-I-change-my-Privacy-Settings#webrtc)에서 **프록시되지 않은 UDP 비활성화**를 선택합니다.
+- [ ] **푸시 메시징에 Google 서비스 사용** 항목의 체크를 해제합니다.
+- [x] **AMP 페이지 자동 리디렉션**을 선택합니다.
+- [x] **추적 URL 자동 리디렉션**을 선택합니다.
+- [x] **내 언어 기본 설정에 따라 사이트가 내 지문을 식별하는 것을 방지**를 선택합니다.
 
 </div>
 
-1. Disabling the V8 optimizer reduces your attack surface by disabling [*some*](https://grapheneos.social/@GrapheneOS/112708049232710156) parts of JavaScript Just-In-Time (JIT) compilation.
+1. V8 최적화 기능을 비활성화하면 다음 기능을 비활성화함으로써 공격 표면을 줄일 수 있습니다. [*일부*](https://grapheneos.social/@GrapheneOS/112708049232710156) 자바스크립트 JIT(Just-In-Time) 컴파일 기능을 비활성화함으로써 공격 표면을 줄입니다.
 
-##### Tor windows
+##### Tor 창
 
 [**Private Window with Tor**](https://support.brave.com/hc/articles/360018121491-What-is-a-Private-Window-with-Tor-Connectivity) allows you to route your traffic through the Tor network in Private Windows and access .onion services, which may be useful in some cases. However, Brave is **not** as resistant to fingerprinting as the Tor Browser is, and far fewer people use Brave with Tor, so you will stand out. If your threat model requires strong anonymity, use the [Tor Browser](tor.md#tor-browser).
 
