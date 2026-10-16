@@ -122,7 +122,7 @@ Whenever an application requests a permission, it will show up here. You can dec
 
 You can individually allow location services per-app. If you don't need apps to use your location, turning off location services entirely is the most private option.
 
-- [ ] Turn off **Location Services**
+- [ ] عطّل خدمات الموقع **(Location Services)**
 
 ##### Analytics & Improvements
 
@@ -132,7 +132,7 @@ Decide whether you want to share analytics data with Apple and app developers.
 
 Decide whether you want personalized ads based on your usage.
 
-- [ ] Turn off **Personalized Ads**
+- [ ] عطّل خيار **Personalized Ads**
 
 ##### FileVault
 

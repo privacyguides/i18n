@@ -149,64 +149,64 @@ description: الـ iOS هو نظام تشغيل للهواتف المحمولة
 
 - [x] تفعيل ميزة** Stolen Device Protection**
 
-بعد تفعيل ميزة Stolen Device Protection،[ ستتطلب بعض الإجراءات](https://support.apple.com/HT212510) استخدام بصمة الإصبع أو الوجه للتحقق من هويتك، ولن تتمكن من استخدام رمز الدخول كبديل (حتى لو تمكن شخص من معرفة رمز الدخول أثناء مراقبتك وأنت تكتبه). وتشمل هذه الإجراءات الملء التلقائي لكلمات المرور، والوصول إلى معلومات الدفع، وإيقاف وضع الفقدان (Lost Mode). It also adds a security delay to certain actions performed away from your home or another "familiar location," such as requiring a 1-hour timer to reset your Apple Account password or sign out of your Apple Account. This delay is intended to give you time to enable Lost Mode and secure your account before a thief can reset your device.
+بعد تفعيل ميزة Stolen Device Protection،[ ستتطلب بعض الإجراءات](https://support.apple.com/HT212510) استخدام بصمة الإصبع أو الوجه للتحقق من هويتك، ولن تتمكن من استخدام رمز الدخول كبديل (حتى لو تمكن شخص من معرفة رمز الدخول أثناء مراقبتك وأنت تكتبه). وتشمل هذه الإجراءات الملء التلقائي لكلمات المرور، والوصول إلى معلومات الدفع، وإيقاف وضع الفقدان (Lost Mode). وتضيف هذه الميزة أيضا فترة انتظار أمنية لبعض الإجراءات التي تحاول تنفيذها خارج منزلك أو أي «مكان مألوف» آخر، مثل الانتظار لمدة ساعة قبل أن تتمكن من إعادة تعيين كلمة مرور حساب Apple أو تسجيل الخروج منه. الهدف من فترة الانتظار هذه هو منحك وقتا لتفعيل وضع الفقدان (Lost Mode) وتأمين حسابك قبل أن يتمكن السارق من إعادة تعيين جهازك.
 
-**Allow Access When Locked** presents options for what you can allow when your phone is locked. Pick and choose which feature you want to disable to prevent unauthorized access if someone gets their hands on your phone. The more of these options you disable, the less someone without your password can do, but the less convenient it will be for you.
+يعرض خيار **Allow Access When Locked** الخيارات التي يمكنك السماح بالوصول إليها أثناء قفل هاتفك. اختر الميزات التي تريد تعطيلها لمنع أي شخص من الوصول إليها دون إذنك إذا وقع هاتفك في يده. كلما عطلت المزيد من هذه الخيارات، قلّت الأشياء التي يمكن لأي شخص لا يعرف كلمة مرورك فعلها، لكن استخدام الهاتف سيصبح أقل سهولة بالنسبة لك.
 
-iPhones are already resistant to brute-force attacks by making you wait long periods of time after multiple failed attempts; however, there have historically been exploits to get around this. To be extra safe, you can set your phone to wipe itself after 10 failed passcode attempts.
+تتمتع أجهزة iPhone بالفعل بحماية ضد هجمات التخمين المتكرر (Brute-force)، إذ تفرض عليك الانتظار لفترات طويلة بعد عدة محاولات فاشلة لإدخال رمز الدخول. ومع ذلك، ظهرت في الماضي ثغرات أمنية تسمح بتجاوز هذه الحماية. لمزيد من الأمان، يمكنك ضبط هاتفك على مسح جميع بياناته تلقائيا بعد 10 محاولات فاشلة لإدخال رمز الدخول.
 
 <div class="admonition warning" markdown>
 <p class="admonition-title">تنوية</p>
 
-With this setting enabled, someone could intentionally wipe your phone by entering the wrong password many times. Make sure you have proper backups and only enable this setting if you feel comfortable with it.
+عند تفعيل هذا الإعداد، يمكن لأي شخص مسح جميع بيانات هاتفك عمدا عن طريق إدخال رمز دخول خاطئ عدة مرات. تأكد من وجود نسخ احتياطية مناسبة لبياناتك، ولا تفعل هذا الإعداد إلا إذا كنت مرتاحا لاستخدامه.
 
 </div>
 
-- [x] Turn on **Erase Data**
+- [x] فعّل خيار **Erase Data**
 
 #### الخصوصية والأمان
 
-**Location Services** allows you to use features like Find My and Maps. If you don't need these features, you can disable Location Services. Alternatively, you can review and pick which apps can use your location here. Select **Location Services**:
+تتيح لك خدمات الموقع **(Location Services)** استخدام ميزات مثل Find My والخرائط. إذا لم تكن بحاجة إلى هذه الميزات، يمكنك تعطيل خدمات الموقع (Location Services). أو يمكنك مراجعة التطبيقات واختيار التطبيقات التي يُسمح لها بالوصول إلى موقعك من هنا. اختر خدمات الموقع **(Location Services)**:
 
-- [ ] Turn off **Location Services**
+- [ ] عطّل خدمات الموقع **(Location Services)**
 
-A purple arrow will appear next to an app in these settings that has used your location recently, while a gray arrow indicates that your location has been accessed within the last 24 hours. If you decide to leave Location Services on, Apple will use it for System Services by default. You can review and pick which services can use your location here. However, if you don't want to submit location analytics to Apple, which they use to improve Apple Maps, you can disable this here as well. Select **System Services**:
+سيظهر سهم بنفسجي بجانب أي تطبيق استخدم موقعك مؤخرا في هذه الإعدادات، بينما يشير السهم الرمادي إلى أن التطبيق وصل إلى موقعك خلال آخر 24 ساعة. إذا قررت إبقاء خدمات الموقع (Location Services) مفعلة، فستستخدمها Apple لخدمات النظام (System Services) تلقائيا. يمكنك من هنا مراجعة الخدمات واختيار الخدمات التي يُسمح لها بالوصول إلى موقعك. لكن إذا كنت لا تريد إرسال بيانات تحليلية عن موقعك إلى Apple، والتي تستخدمها لتحسين خرائط Apple، فيمكنك تعطيل هذا الخيار من هنا أيضا. اختر خدمات النظام **(System Services)**:
 
-- [ ] Turn off **iPhone Analytics**
-- [ ] Turn off **Routing & Traffic**
-- [ ] Turn off **Improve Maps**
+- [ ] عطّل خيار **iPhone Analytics**
+- [ ] عطّل خيار **Routing & Traffic**
+- [ ] عطّل خيار **Improve Maps**
 
-You can decide to allow apps to request to **track** you here. Disabling this disallows all apps from tracking you with your phone's advertising ID. Select **Tracking**:
+يمكنك من هنا تحديد ما إذا كنت تريد السماح للتطبيقات بطلب إذنك **لتتبع** نشاطك. يؤدي تعطيل هذا الخيار إلى منع جميع التطبيقات من تتبع نشاطك باستخدام المعرف الإعلاني (advertising ID) لهاتفك. اختر التتبع **(Tracking)**:
 
-- [ ] Turn off **Allow Apps to Request to Track**
+- [ ] عطّل خيار **Allow Apps to Request to Track**
 
-This is disabled by default and cannot be changed for users under 18.
+هذا الخيار معطل تلقائيا، ولا يمكن للمستخدمين الذين تقل أعمارهم عن 18 عاما تغييره.
 
-You should turn off **Research Sensor & Usage Data** if you don't wish to participate in studies. Select **Research Sensor & Usage Data**:
+يُفضل تعطيل خيار **Research Sensor & Usage Data** إذا كنت لا ترغب في المشاركة في الدراسات البحثية. اختر **Research Sensor & Usage Data**:
 
-- [ ] Turn off **Sensor & Usage Data Collection**
+- [ ] عطّل خيار **Sensor & Usage Data Collection**
 
-**[Safety Check](https://support.apple.com/guide/personal-safety/safety-check-iphone-ios-16-ips2aad835e1/1.0/web/1.0)** allows you to quickly view and revoke certain people and apps that might have permission to access your data. Here, you can perform an **Emergency Reset**, immediately resetting permissions for all people and apps which might have access to device resources. You can also **Manage Sharing & Access**, which allows you to review and customize who and what has access to your device and account resources. If you're in an abusive situation, read Apple's [Personal Safety User Guide](https://support.apple.com/guide/personal-safety/welcome/web) for guidance on what you should do.
+تتيح لك ميزة **[Safety Check](https://support.apple.com/guide/personal-safety/safety-check-iphone-ios-16-ips2aad835e1/1.0/web/1.0)** مراجعة الأشخاص والتطبيقات التي قد يكون لديها إذن بالوصول إلى بياناتك، وإلغاء هذا الإذن بسرعة. يمكنك من هنا إجراء إعادة ضبط طارئة **(Emergency Reset)** لإعادة تعيين أذونات جميع الأشخاص والتطبيقات التي قد تتمكن من الوصول إلى موارد جهازك، بشكل فوري. يمكنك أيضا استخدام خيار **Manage Sharing & Access** لمراجعة وتحديد الأشخاص والتطبيقات التي يمكنها الوصول إلى موارد جهازك وحسابك، وتعديل أذونات الوصول حسب رغبتك. إذا كنت تتعرض للإساءة أو العنف، فاقرأ دليل Apple للسلامة الشخصية [(Personal Safety User Guide)](https://support.apple.com/guide/personal-safety/welcome/web) لمعرفة الخطوات التي يُنصح باتباعها.
 
-You should disable analytics if you don't wish to send usage data to Apple. Select **Analytics & Improvements** and unselect the type(s) of analytics that you don't want to send to Apple.
+يُفضل تعطيل التحليلات إذا كنت لا ترغب في إرسال بيانات استخدامك إلى Apple. اختر **Analytics & Improvements**، ثم ألغِ تحديد أنواع التحليلات التي لا تريد إرسالها إلى Apple.
 
-Disable **Personalized Ads** if you don't want targeted ads. Select **Apple Advertising**:
+عطّل خيار الـ **Personalized Ads** إذا كنت لا ترغب في رؤية إعلانات موجهة إليك. اختر **Apple Advertising**:
 
-- [ ] Turn off **Personalized Ads**
+- [ ] عطّل خيار **Personalized Ads**
 
-**App Privacy Report** is a built-in tool that allows you to see which permissions your apps are using. Select **App Privacy Report**:
+تقرير خصوصية التطبيقات **(App Privacy Report)** هو أداة مدمجة تتيح لك معرفة الأذونات التي تستخدمها تطبيقاتك. اختر تقرير خصوصية التطبيقات **(App Privacy Report)**:
 
-- [x] Select **Turn On App Privacy Report**
+- [x] اختر **Turn On App Privacy Report**
 
-Set wired accessories to ask for permission when you connect them. Select **Wired Accessories**:
+اضبط الملحقات المتصلة بسلك بحيث تطلب إذنك عند توصيلها. اختر **Wired Accessories**:
 
-- [x] Select **Always Ask** or **Ask for New Accessories**
+- اختر **Always Ask** أو **Ask for New Accessories**
 
-**[Lockdown Mode](https://blog.privacyguides.org/2022/10/27/macos-ventura-privacy-security-updates/#lockdown-mode)** is a security setting you can enable to make your phone more resistant to attacks. Be aware that certain apps and features [won't work](https://support.apple.com/HT212650) as they do normally.
+وضع التأمين **(Lockdown Mode)[](https://blog.privacyguides.org/2022/10/27/macos-ventura-privacy-security-updates/#lockdown-mode)** هو إعداد أمني يمكنك تفعيله لجعل هاتفك أكثر مقاومة للهجمات. انتبه إلى أن بعض التطبيقات والميزات [لن تعمل](https://support.apple.com/HT212650) بالطريقة المعتادة.
 
-- [x] Select **Turn On Lockdown Mode**
+- اختر **Turn On Lockdown Mode**
 
-## Additional Advice
+## نصائح إضافية
 
 ### E2EE Calls
 
@@ -259,11 +259,11 @@ Sometimes you might want to hand your phone to someone to make a call or do a sp
 <div class="admonition warning" markdown>
 <p class="admonition-title">تنوية</p>
 
-Guided Access isn't foolproof, as it's possible you could leak data unintentionally or the feature could be bypassed. You should only use Guided Access for situations where you casually hand your phone to someone to use. You should not use it as a tool to protect against advanced adversaries.
+Guided Access isn't foolproof, as it's possible you could leak data unintentionally or the feature could be bypassed. You should only use Guided Access for situations where you casually hand your phone to someone to use. لا ينبغي الاعتماد عليه كوسيلة للحماية من جهات متقدمة تمتلك قدرات عالية على تنفيذ الهجمات.
 
 </div>
 
-### Redacting Elements in Images
+### إخفاء عناصر من الصور
 
 If you need to hide information in a photo, you can use Apple's built-in editing tools to do so.
 
