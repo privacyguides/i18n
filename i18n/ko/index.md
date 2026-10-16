@@ -1,5 +1,5 @@
 ---
-meta_title: "Privacy Guides: Independent Privacy & Security Resources"
+meta_title: "Privacy Guides: 여러분의 개인 프라이버시 & 보안 리소스"
 description: "Established in 2021, Privacy Guides is the most popular & trustworthy non-profit resource to find privacy tools and learn about protecting your digital life."
 template: home.html
 social:
