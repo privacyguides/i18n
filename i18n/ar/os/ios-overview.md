@@ -265,16 +265,16 @@ Guided Access isn't foolproof, as it's possible you could leak data unintentiona
 
 ### إخفاء عناصر من الصور
 
-If you need to hide information in a photo, you can use Apple's built-in editing tools to do so.
+إذا كنت بحاجة إلى إخفاء معلومات في صورة، يمكنك استخدام أدوات التعديل المدمجة في أجهزة Apple للقيام بذلك.
 
-You can use the [Clean Up](https://support.apple.com/en-us/121429) feature on supported devices to pixelate faces or remove objects from images.
+يمكنك استخدام ميزة [Clean Up](https://support.apple.com/en-us/121429) على الأجهزة المدعومة لطمس الوجوه بتأثير البكسلة أو إزالة عناصر من الصور.
 
-- Open the **Photos** app and tap the photo you have selected for redaction
-- Tap the :material-tune:
-- Tap the button labeled **Clean Up**
-- Draw a circle around whatever you want to redact. Faces will be pixelated, and it will attempt to delete anything else.
+- افتح تطبيق **Photos** واضغط على الصورة التي اخترتها لإخفاء معلومات منها
+- اضغط على :material-tune:
+- اضغط على الزر الذي يحمل اسم **Clean Up**
+- ارسم دائرة حول أي شيء تريد إخفاءه. سيتم طمس الوجوه بتأثير البكسلة، وستحاول الميزة إزالة أي عناصر أخرى.
 
-Our warning [against blurring text](../data-redaction.md) also applies here, so we recommend to instead add a black shape with 100% opacity over it. In addition to redacting text, you can also black out any face or object using the **Photos** app.
+ينطبق تحذيرنا من استخدام التمويه [لإخفاء النصوص](../data-redaction.md) هنا أيضا، لذلك ننصح بدلا من ذلك بوضع شكل أسود معتم تماما (بنسبة 100%) فوق النص الذي تريد إخفاءه. بالإضافة إلى إخفاء النصوص، يمكنك أيضا تغطية أي وجه أو عنصر باللون الأسود باستخدام تطبيق **Photos**.
 
 <div class="annotate" markdown>
 
