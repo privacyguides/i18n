@@ -278,35 +278,35 @@ Guided Access isn't foolproof, as it's possible you could leak data unintentiona
 
 <div class="annotate" markdown>
 
-- Tap the image you have selected for redaction
-- Tap the :material-tune: → :material-dots-horizontal: (1) → Markup → :material-plus:
-- Select **Add Shape** and choose the square or circle
-- On the toolbar, tap the circle and choose black as the color for filling in the shape. You can also move the shape and increase its size as you see fit.
+- اضغط على الصورة التي اخترتها لإخفاء معلومات منها.
+- اضغط على :material-tune: ← :material-dots-horizontal: (1) ← Markup ← :material-plus:
+- اختر **Add Shape**، ثم اختر المربع أو الدائرة.
+- من شريط الأدوات، اضغط على الدائرة واختر اللون الأسود لتعبئة الشكل. يمكنك أيضا تحريك الشكل وتكبير حجمه حسب الحاجة.
 
 </div>
 
-1. This may not appear on certain iPhone models.
+1. قد لا يظهر هذا الخيار على بعض طرازات iPhone.
 
-**Don't** use the highlighter to obfuscate information, as its opacity is not quite 100%.
+**لا تستخدم** أداة التمييز (Highlighter) لإخفاء المعلومات، لأنها ليست معتمة تمامًا بنسبة 100%.
 
-### Avoid Jailbreaking
+### تجنب كسر حماية الجهاز (Jailbreaking)
 
-Jailbreaking an iPhone undermines its security and makes you vulnerable. Running untrusted, third-party software could cause your device to be infected with malware.
+يؤدي كسر حماية جهاز iPhone ‏(Jailbreaking) إلى إضعاف أمانه وجعلك أكثر عرضة للهجمات. قد يؤدي تشغيل برامج غير موثوقة من جهات خارجية إلى إصابة جهازك ببرامج ضارة.
 
-### iOS Betas
+### الإصدارات التجريبية لنظام الـiOS
 
-Apple always makes beta versions of iOS available early for those that wish to help find and report bugs. We don't recommend installing beta software on your phone. Beta releases are potentially unstable and could have undiscovered security vulnerabilities.
+تتيح Apple دائما إصدارات تجريبية (Beta) من iOS مبكرا لمن يرغبون في المساعدة على اكتشاف الأخطاء والإبلاغ عنها. لا ننصح بتثبيت الإصدارات التجريبية (Beta) من البرامج على هاتفك. قد تكون الإصدارات التجريبية (Beta) غير مستقرة، وقد تحتوي على ثغرات أمنية لم تُكتشف بعد.
 
-## Security Highlights
+## أبرز الميزات الأمنية
 
-### Before First Unlock
+### قبل فتح القفل لأول مرة
 
-If your threat model includes [:material-target-account: Targeted Attacks](../basics/common-threats.md#attacks-against-specific-individuals ""){.pg-red} that involve forensic tools, and you want to minimize the chance of exploits being used to access your phone, you should restart your device frequently. The state *after* a reboot but *before* unlocking your device is referred to as "Before First Unlock" (BFU), and when your device is in that state it makes it [significantly more difficult](https://belkasoft.com/checkm8_glossary) for forensic tools to exploit vulnerabilities to access your data. This BFU state allows you to receive notifications for calls, texts, and alarms, but most of the data on your device is still encrypted and inaccessible. This can be impractical, so consider whether these trade-offs make sense for your situation.
+إذا كان Threat Model الخاص بك يشمل[:material-target-account: هجمات مستهدفة](../basics/common-threats.md#attacks-against-specific-individuals ""){.pg-red} تستخدم أدوات التحليل الجنائي الرقمي، وكنت تريد تقليل احتمال استغلال الثغرات الأمنية للوصول إلى هاتفك، فيُنصح بإعادة تشغيل جهازك بشكل متكرر. تُعرف حالة الجهاز *بعد* إعادة تشغيله و*قبل* فتح قفله لأول مرة باسم "Before First Unlock" ‏(BFU). وعندما يكون جهازك في هذه الحالة، يصبح من [الصعب جدًا](https://belkasoft.com/checkm8_glossary) على أدوات التحليل الجنائي الرقمي استغلال الثغرات الأمنية للوصول إلى بياناتك. تتيح لك حالة BFU تلقّي إشعارات المكالمات والرسائل النصية والتنبيهات، لكن معظم البيانات الموجودة على جهازك تظل مشفرة ولا يمكن الوصول إليها. قد يكون هذا غير عملي، لذا فكر فيما إذا كانت الفوائد الأمنية تستحق التنازل عن بعض سهولة الاستخدام في حالتك.
 
-iPhones [automatically reboot](https://support.apple.com/guide/security/protecting-user-data-in-the-face-of-attack-secf5549a4f5/1/web/1#:~:text=On%20an%20iPhone%20or%20iPad%20with%20iOS%2018%20and%20iPadOS%2018%20or%20later%2C%20a%20new%20security%20protection%20will%20restart%20devices%20if%20they%20remain%20locked%20for%20a%20prolonged%20period%20of%20time.) if they're not unlocked after a period of time.
+تُعيد أجهزة iPhone تشغيل نفسها [تلقائيًا](https://support.apple.com/guide/security/protecting-user-data-in-the-face-of-attack-secf5549a4f5/1/web/1#:~:text=On%20an%20iPhone%20or%20iPad%20with%20iOS%2018%20and%20iPadOS%2018%20or%20later%2C%20a%20new%20security%20protection%20will%20restart%20devices%20if%20they%20remain%20locked%20for%20a%20prolonged%20period%20of%20time.) إذا لم يُفتح قفلها لفترة من الوقت.
 
 ### MTE
 
-The iPhone 17 line and later offer a security enhancement called [Memory Tagging Extension](https://developer.arm.com/documentation/108035/0100/Introduction-to-the-Memory-Tagging-Extension) (MTE), which makes it significantly harder for an attacker to exploit memory corruption vulnerabilities. This always-on protection depends on hardware support, so it's not available for older devices.
+توفّر سلسلة iPhone 17 والإصدارات الأحدث ميزة أمنية تُسمّى [Memory Tagging Extension](https://developer.arm.com/documentation/108035/0100/Introduction-to-the-Memory-Tagging-Extension) (MTE)، تجعل من الصعب جدًا على المهاجمين استغلال ثغرات تلف الذاكرة. تعتمد هذه الحماية، التي تعمل بشكل دائم، على دعم خاص في مكونات الجهاز، لذلك فهي غير متاحة على الأجهزة الأقدم.
 
-For more details on Apple's implementation of MTE, read the [blog post](https://security.apple.com/blog/memory-integrity-enforcement) published by Apple Security Research. We also cover Apple's implementation of MTE and how it compares to Android's implementation in the Google Pixel 8 series and later in our [own article](https://www.privacyguides.org/posts/2025/09/20/memory-integrity-enforcement-changes-the-game-on-ios).
+لمزيد من التفاصيل حول كيفية تطبيق Apple لميزة MTE، اقرأ [المقال](https://security.apple.com/blog/memory-integrity-enforcement) المنشور على مدونة Apple Security Research. نتناول أيضا في [مقالنا](https://www.privacyguides.org/posts/2025/09/20/memory-integrity-enforcement-changes-the-game-on-ios) الخاص كيفية تطبيق Apple لميزة MTE، ونقارنها بطريقة تطبيق الميزة نفسها في أجهزة Google Pixel 8 والإصدارات الأحدث التي تعمل بنظام Android.
