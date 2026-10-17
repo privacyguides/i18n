@@ -1,5 +1,5 @@
 ---
-title: Be Mindful of Accessibility
+title: 접근성 고려하기
 description: Accessibility should always be a priority in our work. To make our privacy communities welcoming to all, we must integrate it in our practice from the start.
 icon: fontawesome/solid/heart-circle-check
 cover: activism/banner-toolbox-tip-accessibility.webp

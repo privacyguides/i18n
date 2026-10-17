@@ -1,77 +1,77 @@
 ---
-meta_title: "비공개 암호화 이메일 서비스 권장 목록 - Privacy Guides"
+meta_title: "암호화된 비공개 이메일 서비스 추천 - 프라이버시 가이드"
 title: 이메일 서비스
 icon: material/email
 description: 이러한 이메일 제공 업체는 여러분의 이메일을 안전하게 보관하기에 적합합니다. 대부분이 OpenPGP 암호화를 제공하여 다른 이메일 서비스와도 호환됩니다.
 cover: email.webp
 global:
   - 
-    - randomize-element
+    - 요소 무작위 배열
     - "table tbody"
 ---
 
-<small>Protects against the following threat(s):</small>
+<small>다음 위협으로부터 보호합니다:</small>
 
-- [:material-server-network: 서비스 제공자/제공 업체(Service Providers)](basics/common-threats.md#privacy-from-service-providers ""){.pg-teal}
+- [:material-server-network: 서비스 제공업체](basics/common-threats.md#privacy-from-service-providers ""){.pg-teal}
 
-이메일은 모든 온라인 서비스 이용에 사실상 필수적이지만, 개인 간 대화에는 권장드리지 않습니다. 다른 사람에게 연락할 때는 이메일보다는 순방향 비밀성을 지원하는 메신저를 사용하는 것이 좋습니다.
+이메일은 거의 모든 온라인 서비스를 이용하는 데 필수적이지만, 개인 간 대화 수단으로는 권장하지 않습니다. 다른 사람에게 연락할 때는 이메일 대신 순방향 비밀성을 지원하는 인스턴트 메신저를 사용하는 방법을 고려해 보세요.
 
 [권장 메신저](real-time-communication.md ""){.md-button}
 
-## 권장 제공 업체
+## 추천 서비스 제공업체
 
-그 외 용도로 이메일을 사용한다면, 지속 가능한 비즈니스 모델을 갖추고 보안 및 프라이버시 기능을 기본 제공하는 이메일 제공 업체를 권장합니다. 자세한 사항은 [전체 평가 기준](#criteria)을 참고해 주세요.
+그 밖의 용도에는 지속 가능한 비즈니스 모델과 기본 제공 보안 및 프라이버시 기능을 갖춘 다양한 이메일 제공업체를 추천합니다. 자세한 사항은 [전체 평가 기준](#criteria)을 참고해 주세요.
 
-| 서비스 제공자                       | OpenPGP/WKD                            | IMAP / SMTP                                        | Encrypted Storage                                    | Anonymous Payment Methods                             |
-| ----------------------------- | -------------------------------------- | -------------------------------------------------- | ---------------------------------------------------- | ----------------------------------------------------- |
-| [Proton Mail](#proton-mail)   | :material-check:{ .pg-green }          | :material-information-outline:{ .pg-blue } 유료 요금제만 | :material-check:{ .pg-green }                        | Cash <br>Monero via third party                 |
-| [Mailbox Mail](#mailbox-mail) | :material-check:{ .pg-green }          | :material-check:{ .pg-green }                      | :material-information-outline:{ .pg-blue } Mail only | 현금                                                    |
-| [Tuta](#tuta)                 | :material-alert-outline:{ .pg-orange } | :material-alert-outline:{ .pg-orange }             | :material-check:{ .pg-green }                        | Monero via third party <br>Cash via third party |
+| 제공업체                     | OpenPGP/WKD                            | IMAP / SMTP                                        | 저장 데이터 암호화                                      | 익명 결제 수단                                  |
+| ------------------------ | -------------------------------------- | -------------------------------------------------- | ----------------------------------------------- | ----------------------------------------- |
+| [프로톤 메일](#proton-mail)   | :material-check:{ .pg-green }          | :material-information-outline:{ .pg-blue } 유료 요금제만 | :material-check:{ .pg-green }                   | 현금<br>제3자 판매처를 통한 모네로 결제            |
+| [메일박스 메일](#mailbox-mail) | :material-check:{ .pg-green }          | :material-check:{ .pg-green }                      | :material-information-outline:{ .pg-blue } 이메일만 | 현금                                        |
+| [투타](#tuta)              | :material-alert-outline:{ .pg-orange } | :material-alert-outline:{ .pg-orange }             | :material-check:{ .pg-green }                   | 제3자 판매처를 통한 모네로 결제<br>제3자를 통한 현금 결제 |
 
-In addition to (or instead of) an email provider recommended here, you may wish to consider a dedicated [email aliasing service](email-aliasing.md#recommended-providers) to protect your privacy. Among other things, these services can help protect your real inbox from spam, prevent marketers from correlating your accounts, and encrypt all incoming messages with PGP.
+여기에 추천된 이메일 제공업체를 이용하는 것에 더해(또는 대신), 프라이버시를 보호하기 위해 전용 [이메일 별칭 서비스](email-aliasing.md#recommended-providers)를 고려해 볼 수 있습니다. 이러한 서비스는 여러모로 실제 받은편지함을 스팸으로부터 보호하고, 마케팅 업체가 여러 계정을 서로 연결해 추적하지 못하게 하며, 수신되는 모든 메시지를 PGP로 암호화하는 데 도움이 됩니다.
 
-- [More Information :material-arrow-right-drop-circle:](email-aliasing.md)
+- [추가 정보 :material-arrow-right-drop-circle:](email-aliasing.md)
 
 ## OpenPGP 호환 서비스
 
-These providers natively support OpenPGP encryption/decryption and the [Web Key Directory (WKD) standard](basics/email-security.md#what-is-the-web-key-directory-standard), allowing for provider-agnostic end-to-end encrypted emails. For example, a Proton Mail user could send an E2EE message to a Mailbox Mail user, or you could receive OpenPGP-encrypted notifications from internet services which support it.
+이러한 제공업체는 OpenPGP 암호화 및 복호화를 기본적으로 지원하고 [웹 키 디렉터리(Web Key Directory, WKD) 표준](basics/email-security.md#what-is-the-web-key-directory-standard)도 지원합니다. 따라서 특정 제공업체에 종속되지 않고 종단 간 암호화된 이메일을 주고받을 수 있습니다. 예를 들어 프로톤 메일 사용자는 메일박스 메일 사용자에게 E2EE 메시지를 보낼 수 있습니다. 또는 이를 지원하는 인터넷 서비스에서 OpenPGP로 암호화된 알림을 받을 수도 있습니다.
 
 <div class="grid cards" markdown>
 
-- ![Proton Mail logo](assets/img/email/protonmail.svg){ .twemoji } [Proton Mail](#proton-mail)
-- ![Mailbox Mail logo](assets/img/email/mailbox-mail.svg){ .twemoji } [Mailbox Mail](#mailbox-mail)
+- ![프로톤 메일 로고](assets/img/email/protonmail.svg){ .twemoji } [프로톤 메일](#proton-mail)
+- ![메일박스 메일 로고](assets/img/email/mailbox-mail.svg){ .twemoji } [메일박스 메일](#mailbox-mail)
 
 </div>
 
 <div class="admonition warning" markdown>
-<p class="admonition-title">Warning</p>
+<p class="admonition-title">주의</p>
 
-When using E2EE technology like OpenPGP your email will still have some metadata that is not encrypted in the header of the email, generally including the subject line! Read more about [email metadata](basics/email-security.md#email-metadata-overview).
+OpenPGP와 같은 E2EE 기술을 사용하더라도 이메일 헤더에는 암호화되지 않는 일부 메타데이터가 남습니다. 여기에는 일반적으로 제목도 포함됩니다! [이메일 메타데이터](basics/email-security.md#email-metadata-overview)에 관해 더 알아보세요.
 
-OpenPGP also does not support forward secrecy, which means if the private key of either you or the message recipient is ever stolen, all previous messages encrypted with it will be exposed.
+OpenPGP는 순방향 비밀성도 지원하지 않습니다. 따라서 사용자나 수신자의 개인 키가 유출되면, 해당 키로 암호화했던 과거 메시지도 모두 노출될 수 있습니다.
 
-- [How do I protect my private keys?](basics/email-security.md#how-do-i-protect-my-private-keys)
+- [개인 키를 어떻게 보호할 수 있나요?](basics/email-security.md#how-do-i-protect-my-private-keys)
 
 </div>
 
-### Proton Mail
+### 프로톤 메일
 
 <div class="admonition recommendation" markdown>
 
-![Proton Mail 로고](assets/img/email/protonmail.svg){ align=right }
+![프로톤 메일 로고](assets/img/email/protonmail.svg){ align=right }
 
-**Proton Mail**은 프라이버시, 암호화, 보안, 사용 편의성에 중점을 둔 이메일 서비스입니다. They have been in operation since 2013. Proton AG is based in Geneva, Switzerland.
+**프로톤 메일**은 프라이버시, 암호화, 보안, 사용 편의성에 중점을 둔 이메일 서비스입니다. 2013년부터 서비스를 운영해 왔습니다. 프로톤 AG는 스위스 제네바에 본사를 두고 있습니다.
 
-The Proton Free plan comes with 500 MB of Mail storage, which you can increase up to 1 GB for free.
+프로톤 무료 요금제는 이메일 저장 공간 500MB를 제공하며, 무료로 최대 1GB까지 늘릴 수 있습니다.
 
-[:octicons-home-16: Homepage](https://proton.me/mail){ .md-button .md-button--primary }
-[:simple-torbrowser:](https://protonmailrmez3lotccipshtkleegetolb73fuirgj7r4o4vfu7ozyd.onion){ .card-link title="Onion Service" }
-[:octicons-eye-16:](https://proton.me/mail/privacy-policy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://proton.me/support/mail){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/ProtonMail){ .card-link title="Source Code" }
+[:octicons-home-16: 홈페이지](https://proton.me/mail){ .md-button .md-button--primary }
+[:simple-torbrowser:](https://protonmailrmez3lotccipshtkleegetolb73fuirgj7r4o4vfu7ozyd.onion){ .card-link title="어니언 서비스" }
+[:octicons-eye-16:](https://proton.me/mail/privacy-policy){ .card-link title="프라이버시 정책" }
+[:octicons-info-16:](https://proton.me/support/mail){ .card-link title="문서" }
+[:octicons-code-16:](https://github.com/ProtonMail){ .card-link title="소스 코드" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>다운로드</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=ch.protonmail.android)
 - [:simple-appstore: App Store](https://apps.apple.com/app/id979659905)
@@ -79,82 +79,82 @@ The Proton Free plan comes with 500 MB of Mail storage, which you can increase u
 - [:fontawesome-brands-windows: Windows](https://proton.me/mail/bridge#download)
 - [:simple-apple: macOS](https://proton.me/mail/bridge#download)
 - [:simple-linux: Linux](https://proton.me/mail/bridge#download)
-- [:octicons-browser-16: Web](https://mail.proton.me)
+- [:octicons-browser-16: 웹](https://mail.proton.me)
 
 </details>
 
 </div>
 
-Free accounts have some limitations, such as not being able to search body text and not having access to [Proton Mail Bridge](https://proton.me/mail/bridge), which is required to use a [recommended desktop email client](email-clients.md) such as Thunderbird. 유료 계정에는 Proton Mail Bridge, 추가 저장 공간, 사용자 지정 도메인 지원 등의 기능이 제공됩니다. The Proton Unlimited plan or any multi-user Proton plan includes access to [SimpleLogin](email-aliasing.md#simplelogin) Premium.
+무료 계정에는 이메일 본문 검색을 사용할 수 없고, Thunderbird 같은 [추천 데스크톱 이메일 클라이언트](email-clients.md)를 이용하는 데 필요한 [프로톤 메일 브리지](https://proton.me/mail/bridge)에 접근할 수 없는 등의 제한이 있습니다. 유료 계정에는 프로톤 메일 Bridge, 추가 저장 공간, 사용자 지정 도메인 지원 등의 기능이 제공됩니다. 프로톤 언리미티드 요금제 또는 프로톤의 다중 사용자 요금제에는 [심플로그인](email-aliasing.md#simplelogin) 프리미엄 이용권이 포함됩니다.
 
-A [letter of attestation](https://res.cloudinary.com/dbulfrlrz/images/v1714639878/wp-pme/letter-of-attestation-proton-mail-20211109_3138714c61/letter-of-attestation-proton-mail-20211109_3138714c61.pdf) was provided for Proton Mail's apps in November 2021 by [Securitum](https://research.securitum.com).
+2021년 11월, [Securitum](https://research.securitum.com)은 프로톤 메일 앱에 대한 [검증 확인서](https://res.cloudinary.com/dbulfrlrz/images/v1714639878/wp-pme/letter-of-attestation-proton-mail-20211109_3138714c61/letter-of-attestation-proton-mail-20211109_3138714c61.pdf)를 발급했습니다.
 
-Proton Mail has internal crash reports that are **not** shared with third parties and can be disabled.
+프로톤 메일에는 내부 오류 보고 기능이 있습니다. 오류 보고서는 제3자와 공유되지 않으며, 이 기능은 비활성화할 수 있습니다.
 
-=== "Web"
+=== "웹"
 
-    From your inbox, select :gear: → **All Settings** → **Account** → **Security and privacy** → **Privacy and data collection**.
+    받은편지함에서 :gear: → **모든 설정** → **계정** → **보안 및 프라이버시** → **프라이버시 및 데이터 수집**을 선택합니다.
 
-    - [ ] Disable **Collect usage diagnostics**
-    - [ ] Disable **Send crash reports**
+    - [ ] **사용 진단 정보 수집** 비활성화
+    - [ ] **오류 보고서 전송** 비활성화
 
-=== "Mobile"
+=== "모바일"
 
-    From your inbox, select :material-menu: → :gear: **Settings** → select your username.
+    받은편지함에서 :material-menu: → :gear: **설정** → 사용자 이름을 선택합니다.
 
-    - [ ] Disable **Send crash reports**
-    - [ ] Disable **Collect usage diagnostics**
+    - [ ] **오류 보고서 전송** 비활성화
+    - [ ] **사용 진단 정보 수집** 비활성화
 
 #### :material-check:{ .pg-green } 사용자 지정 도메인 및 별칭
 
-Proton Mail 유료 이용자는 서비스에서 자신의 도메인을 사용하거나 [Catch-all](https://proton.me/support/catch-all) 주소를 사용할 수 있습니다. Proton Mail also supports [sub-addressing](https://proton.me/support/creating-aliases), which is useful for people who don't want to purchase a domain.
+프로톤 메일 유료 이용자는 서비스에서 자신의 도메인을 사용하거나 [Catch-all](https://proton.me/support/catch-all) 주소를 사용할 수 있습니다. 프로톤 메일은 [하위 주소 지정(sub-addressing)](https://proton.me/support/creating-aliases)도 지원합니다. 이는 별도 도메인을 구매하고 싶지 않은 사용자에게 유용합니다.
 
 #### :material-check:{ .pg-green } 비공개 결제 수단
 
-Proton Mail [accepts](https://proton.me/support/payment-options) **cash** by mail in addition to standard credit/debit card, [Bitcoin](advanced/payments.md#other-coins-bitcoin-ethereum-etc), and PayPal payments. Additionally, you can use [**Monero**](cryptocurrency.md#monero) to purchase vouchers for Proton Mail Plus or Proton Unlimited via their [official](https://discuss.privacyguides.net/t/add-monero-as-an-anonymous-payment-method-for-proton-services/31058/15) reseller [ProxyStore](https://dys2p.com/en/2025-09-09-proton.html).
+프로톤 메일은 일반적인 신용카드·직불카드, [비트코인](advanced/payments.md#other-coins-bitcoin-ethereum-etc), 페이팔 결제 외에도 우편으로 **현금**을 보내는 결제 방식을 [지원합니다](https://proton.me/support/payment-options). 또한 프로톤의 [공식](https://discuss.privacyguides.net/t/add-monero-as-an-anonymous-payment-method-for-proton-services/31058/15) 재판매업체인 [프록시스토어](https://dys2p.com/en/2025-09-09-proton.html)를 통해 [**모네로**](cryptocurrency.md#monero)로 프로톤 메일 플러스 또는 프로톤 언리미티드 바우처를 구매할 수도 있습니다.
 
 #### :material-check:{ .pg-green } 계정 보안
 
-Proton Mail supports TOTP [two-factor authentication](https://proton.me/support/two-factor-authentication-2fa) and [hardware security keys](https://proton.me/support/2fa-security-key) using FIDO2 or U2F standards. The use of a hardware security key requires setting up TOTP two-factor authentication first.
+프로톤 메일은 FIDO2 또는 U2F 표준을 사용하는 TOTP [2단계 인증](https://proton.me/support/two-factor-authentication-2fa)과 [하드웨어 보안 키](https://proton.me/support/2fa-security-key)를 지원합니다. 하드웨어 보안 키를 사용하려면 먼저 TOTP 2단계 인증을 설정해야 합니다.
 
 #### :material-check:{ .pg-green } 데이터 보안
 
-Proton Mail stores your [emails](https://proton.me/blog/zero-access-encryption) and [calendars](https://proton.me/news/protoncalendar-security-model) with PGP-based encryption at rest, where only you have the decryption keys needed to access them later.
+프로톤 메일은 [이메일](https://proton.me/blog/zero-access-encryption)과 [캘린더](https://proton.me/news/protoncalendar-security-model)를 저장할 때 PGP 기반 저장 데이터 암호화를 적용합니다. 나중에 해당 데이터에 접근하는 데 필요한 복호화 키는 사용자만 보유합니다.
 
-Certain information stored in [Proton Contacts](https://proton.me/support/proton-contacts), such as display names and email addresses, are **not** secured with your own encryption keys, so Proton is able to read them. Contact fields which are protected with your own encryption keys, such as phone numbers, are indicated with a padlock icon.
+[프로톤 연락처](https://proton.me/support/proton-contacts)에 저장되는 표시 이름과 이메일 주소 등의 일부 정보는 사용자의 암호화 키로 보호되지 **않으므로**, 프로톤이 해당 정보를 읽을 수 있습니다. 전화번호처럼 사용자 본인의 암호화 키로 보호되는 연락처 항목에는 자물쇠 아이콘이 표시됩니다.
 
 #### :material-check:{ .pg-green } 이메일 암호화
 
-Proton Mail은 웹메일에 [OpenPGP 암호화 기능을 내장](https://proton.me/support/how-to-use-pgp)하고 있습니다. 다른 Proton Mail 계정으로 보내는 이메일은 자동으로 암호화되며, Proton Mail 외 주소로 보내는 이메일에 대한 OpenPGP 암호화는 계정 설정에서 간편하게 활성화할 수 있습니다. Proton also supports automatic external key discovery with WKD. This means that emails sent to other providers which use WKD will be automatically encrypted with OpenPGP as well, without the need to manually exchange public PGP keys with your contacts. They also allow you to [encrypt messages to non-Proton Mail addresses without OpenPGP](https://proton.me/support/password-protected-emails), without the need for them to sign up for a Proton Mail account.
+프로톤 메일은 웹메일에 [OpenPGP 암호화 기능을 내장](https://proton.me/support/how-to-use-pgp)하고 있습니다. 다른 프로톤 메일 계정으로 보내는 이메일은 자동으로 암호화되며, 프로톤 메일 외 주소로 보내는 이메일에 대한 OpenPGP 암호화는 계정 설정에서 간편하게 활성화할 수 있습니다. 프로톤은 WKD를 이용한 외부 공개 키의 자동 검색도 지원합니다. 따라서 WKD를 사용하는 다른 제공업체로 이메일을 보낼 때도 연락처와 PGP 공개 키를 수동으로 교환하지 않고 OpenPGP로 자동 암호화할 수 있습니다. 또한 상대방이 프로톤 메일 계정에 가입하지 않아도 [OpenPGP 없이 프로톤 메일 이외의 주소로 암호화된 메시지를 보낼 수 있습니다](https://proton.me/support/password-protected-emails).
 
-Proton Mail also publishes the public keys of Proton accounts via HTTP from their WKD. This allows people who don't use Proton Mail to find the OpenPGP keys of Proton Mail accounts easily for cross-provider E2EE. This only applies to email addresses ending in one of Proton's own domains, like `@proton.me`. If you use a custom domain, you must [configure WKD](basics/email-security.md#what-is-the-web-key-directory-standard) separately.
+프로톤 메일은 WKD를 통해 HTTP로 프로톤 계정의 공개 키도 게시합니다. 덕분에 프로톤 메일을 사용하지 않는 사람도 제공업체 간 E2EE 통신을 위해 프로톤 메일 계정의 OpenPGP 키를 쉽게 찾을 수 있습니다. 이 기능은 `@proton.me`처럼 프로톤이 소유한 도메인으로 끝나는 이메일 주소에만 적용됩니다. 사용자 지정 도메인을 사용한다면 [WKD를 별도로 설정](basics/email-security.md#what-is-the-web-key-directory-standard)해야 합니다.
 
 #### :material-information-outline:{ .pg-blue } 계정 해지
 
-유료 계정 사용 중에 14일 이상 요금이 [미납된 경우](https://proton.me/support/delinquency), 여러분은 더 이상 자신의 데이터에 접근할 수 없습니다. 30일이 지나면 계정은 연체 상태가 되며, 더 이상 메일을 수신할 수 없습니다. 이 기간 동안에도 계속해서 요금이 청구됩니다. Proton will [delete inactive free accounts](https://proton.me/support/inactive-accounts) after one year. You **cannot** reuse the email address of a deactivated account.
+유료 계정 사용 중에 14일 이상 요금이 [미납된 경우](https://proton.me/support/delinquency), 여러분은 더 이상 자신의 데이터에 접근할 수 없습니다. 30일이 지나면 계정은 연체 상태가 되며, 더 이상 메일을 수신할 수 없습니다. 이 기간 동안에도 계속해서 요금이 청구됩니다. 프로톤은 1년 동안 활동이 없는 무료 계정을 [삭제합니다](https://proton.me/support/inactive-accounts). 비활성화된 계정의 이메일 주소는 다시 사용할 수 **없습니다**.
 
 #### :material-information-outline:{ .pg-blue } 추가 기능
 
-Proton Mail's [Unlimited](https://proton.me/support/proton-plans#proton-unlimited) plan also enables access to other Proton services in addition to providing multiple custom domains, unlimited hide-my-email aliases, and 500 GB of storage.
+프로톤 메일의 [언리미티드](https://proton.me/support/proton-plans#proton-unlimited) 요금제는 여러 개의 사용자 지정 도메인, 무제한 이메일 숨기기 별칭, 500GB 저장 공간을 제공하며 다른 프로톤 서비스도 이용할 수 있게 합니다.
 
-### Mailbox Mail
+### 메일박스 메일
 
 <div class="admonition recommendation" markdown>
 
-![Mailbox Mail logo](assets/img/email/mailbox-mail.svg){ align=right }
+![메일박스 메일 로고](assets/img/email/mailbox-mail.svg){ align=right }
 
-**Mailbox Mail** (formerly *Mailbox.org*) is an email service with a focus on being secure, ad-free, and powered by 100% eco-friendly energy. 2014년부터 운영되었습니다. Mailbox Mail is based in Berlin, Germany.
+**메일박스 메일**(구 *Mailbox.org*)은 보안과 광고 없는 이용 환경에 중점을 두며, 에너지를 100% 친환경 방식으로 공급받는 이메일 서비스입니다. 2014년부터 운영되었습니다. 메일박스 메일은 독일 베를린에 기반을 두고 있습니다.
 
-Accounts start with up to 2 GB storage, which can be upgraded as needed.
+계정에는 최대 2GB의 저장 공간이 제공되며, 필요에 따라 용량을 늘릴 수 있습니다.
 
-[:octicons-home-16: Homepage](https://mailbox.org){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://mailbox.org/en/data-protection-privacy-policy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://kb.mailbox.org/en/private){ .card-link title="Documentation" }
+[:octicons-home-16: 홈페이지](https://mailbox.org){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://mailbox.org/en/data-protection-privacy-policy){ .card-link title="프라이버시 정책" }
+[:octicons-info-16:](https://kb.mailbox.org/en/private){ .card-link title="문서" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>다운로드</summary>
 
-- [:octicons-browser-16: Web](https://login.mailbox.org)
+- [:octicons-browser-16: 웹](https://login.mailbox.org)
 
 </details>
 
@@ -162,69 +162,69 @@ Accounts start with up to 2 GB storage, which can be upgraded as needed.
 
 #### :material-check:{ .pg-green } 사용자 지정 도메인 및 별칭
 
-Mailbox Mail lets you use your own domain, and they support [catch-all](https://kb.mailbox.org/en/private/custom-domains/use-your-own-domain-with-catch-all/) addresses. Mailbox Mail also supports [sub-addressing](https://kb.mailbox.org/en/private/e-mail/what-is-an-alias-and-how-do-i-use-it/), which is useful if you don't want to purchase a domain.
+메일박스 메일은 자체 도메인을 사용할 수 있으며, [캐치올(catch-all)](https://kb.mailbox.org/en/private/custom-domains/use-your-own-domain-with-catch-all/) 주소도 지원합니다. 메일박스 메일은 [하위 주소 지정(sub-addressing)](https://kb.mailbox.org/en/private/e-mail/what-is-an-alias-and-how-do-i-use-it/)도 지원하므로, 별도 도메인을 구매하지 않으려는 사용자에게 유용합니다.
 
 #### :material-check:{ .pg-green } 비공개 결제 수단
 
-Mailbox Mail doesn't accept any cryptocurrencies as a result of their payment processor BitPay suspending operations in Germany. However, they do accept **cash** by mail, **cash** payment to bank account, bank transfer, credit card, PayPal, and a couple of German-specific processors: Paydirekt and Sofortüberweisung.
+메일박스 메일은 결제 처리 업체인 BitPay가 독일에서 서비스를 중단한 이후 암호화폐 결제를 받지 않습니다. 하지만 우편으로 보내는 **현금**, 은행 계좌로 입금하는 **현금**, 은행 송금, 신용카드, 페이팔과 독일에서 주로 사용하는 Paydirekt 및 Sofortüberweisung 결제는 지원합니다.
 
 #### :material-check:{ .pg-green } 계정 보안
 
-Mailbox Mail supports [two-factor authentication](https://kb.mailbox.org/en/private/security-and-privacy/how-to-use-two-factor-authentication-2fa/) for their webmail only. You can use either TOTP or a [YubiKey](security-keys.md#yubikey) via the [YubiCloud](https://yubico.com/products/services-software/yubicloud). Web standards such as [WebAuthn](basics/multi-factor-authentication.md#fido-fast-identity-online) are not yet supported.
+메일박스 메일은 웹메일에서만 [2단계 인증](https://kb.mailbox.org/en/private/security-and-privacy/how-to-use-two-factor-authentication-2fa/)을 지원합니다. [YubiCloud](https://yubico.com/products/services-software/yubicloud)를 통해 TOTP 또는 [YubiKey](security-keys.md#yubikey)를 사용할 수 있습니다. [WebAuthn](basics/multi-factor-authentication.md#fido-fast-identity-online)과 같은 웹 표준은 아직 지원되지 않습니다.
 
 #### :material-information-outline:{ .pg-blue } 데이터 보안
 
-Mailbox Mail allows for encryption of incoming mail using their [encrypted mailbox](https://kb.mailbox.org/en/private/encryption/your-encrypted-mailbox/). 새로 수신하는 메시지는 즉시 공개 키로 암호화됩니다.
+메일박스 메일은 [암호화된 사서함](https://kb.mailbox.org/en/private/encryption/your-encrypted-mailbox/) 기능으로 수신 메일을 암호화할 수 있습니다. 새로 수신하는 메시지는 즉시 공개 키로 암호화됩니다.
 
-However, [Open-Xchange](https://en.wikipedia.org/wiki/Open-Xchange), the software platform used by Mailbox Mail, [does not support](https://kb.mailbox.org/en/business/security-privacy-article/encryption-of-calendar-and-address-book/) the encryption of your address book and calendar. A [standalone option](calendar.md) may be more appropriate for that data.
+하지만 메일박스 메일이 사용하는 소프트웨어 플랫폼인 [Open-Xchange](https://en.wikipedia.org/wiki/Open-Xchange)는 주소록과 캘린더의 암호화를 [지원하지 않습니다](https://kb.mailbox.org/en/business/security-privacy-article/encryption-of-calendar-and-address-book/). 이 데이터에는 [별도의 서비스](calendar.md)를 사용하는 편이 더 적합할 수 있습니다.
 
 #### :material-check:{ .pg-green } 이메일 암호화
 
-Mailbox Mail has [integrated encryption](https://kb.mailbox.org/en/private/encryption/how-can-e-mails-be-encrypted-with-pgp/) in their webmail, which simplifies sending messages to people with public OpenPGP keys. They also allow [remote recipients to decrypt an email](https://kb.mailbox.org/en/private/encryption/my-recipient-does-not-use-pgp/) on Mailbox Mail's servers. OpenPGP가 없어 수신자가 자신의 메일함에서 직접 복호화할 수 없을 경우에 이 기능을 사용할 수 있습니다.
+메일박스 메일은 웹메일에 [통합 암호화 기능](https://kb.mailbox.org/en/private/encryption/how-can-e-mails-be-encrypted-with-pgp/)을 제공하여 OpenPGP 공개 키를 가진 사람에게 메시지를 쉽게 보낼 수 있습니다. 또한 원격 수신자가 메일박스 메일 서버에서 [이메일을 복호화하도록](https://kb.mailbox.org/en/private/encryption/my-recipient-does-not-use-pgp/) 할 수도 있습니다. OpenPGP가 없어 수신자가 자신의 메일함에서 직접 복호화할 수 없을 경우에 이 기능을 사용할 수 있습니다.
 
-Mailbox Mail also supports the discovery of public keys via HTTP from their WKD. This allows people outside of Mailbox Mail to find the OpenPGP keys of Mailbox Mail accounts easily for cross-provider E2EE. This only applies to email addresses ending in one of Mailbox Mail's own domains, like `@mailbox.org`. If you use a custom domain, you must [configure WKD](basics/email-security.md#what-is-the-web-key-directory-standard) separately.
+메일박스 메일은 WKD를 통해 HTTP로 공개 키를 검색하는 기능도 지원합니다. 따라서 메일박스 메일 외부의 사용자도 제공업체 간 E2EE 통신을 위해 메일박스 메일 계정의 OpenPGP 키를 쉽게 찾을 수 있습니다. 이 기능은 `@mailbox.org`처럼 메일박스 메일이 소유한 도메인으로 끝나는 이메일 주소에만 적용됩니다. 사용자 지정 도메인을 사용한다면 [WKD를 별도로 설정](basics/email-security.md#what-is-the-web-key-directory-standard)해야 합니다.
 
 #### :material-information-outline:{ .pg-blue } 계정 해지
 
-Your account will be set to a restricted user account when your contract ends. It will be irrevocably deleted after [30 days](https://kb.mailbox.org/en/en/private/account/reactivate-a-deleted-account/).
+계약이 종료되면 계정은 기능이 제한된 사용자 계정으로 전환됩니다. [30일](https://kb.mailbox.org/en/en/private/account/reactivate-a-deleted-account/)이 지나면 계정은 복구할 수 없도록 삭제됩니다.
 
 #### :material-information-outline:{ .pg-blue } 추가 기능
 
-You can access your Mailbox Mail account via IMAP/SMTP using their [.onion service](https://kb.mailbox.org/en/en/private/security-privacy/using-the-tor-exit-node-from-mailbox/). However, their webmail interface cannot be accessed via their .onion service, and you may experience TLS certificate errors.
+메일박스 메일의 [.onion 서비스](https://kb.mailbox.org/en/en/private/security-privacy/using-the-tor-exit-node-from-mailbox/)를 통해 IMAP/SMTP로 계정에 접속할 수 있습니다. 하지만 웹메일 인터페이스는 .onion 서비스를 통해 이용할 수 없으며, TLS 인증서 오류가 발생할 수도 있습니다.
 
-All accounts come with limited cloud storage that [can be encrypted](https://kb.mailbox.org/en/private/drive/encrypt-files-on-your-drive/). Mailbox Mail also offers the alias [@secure.mailbox.org](https://kb.mailbox.org/en/business/e-mail-article/ensuring-e-mails-are-sent-securely/), which enforces the TLS encryption on the connection between mail servers, otherwise the message will not be sent at all. Mailbox Mail also supports [Exchange ActiveSync](https://en.wikipedia.org/wiki/Exchange_ActiveSync) in addition to standard access protocols like IMAP and POP3.
+모든 계정에는 제한된 클라우드 저장 공간이 제공되며, 해당 공간은 [암호화할 수 있습니다](https://kb.mailbox.org/en/private/drive/encrypt-files-on-your-drive/). 메일박스 메일은 [@secure.mailbox.org](https://kb.mailbox.org/en/business/e-mail-article/ensuring-e-mails-are-sent-securely/) 별칭도 제공합니다. 이 별칭을 사용하면 메일 서버 간 연결에 TLS 암호화가 적용되며, 암호화할 수 없는 경우 메시지는 아예 전송되지 않습니다. 메일박스 메일은 IMAP 및 POP3 같은 표준 접속 프로토콜 외에도 [Exchange ActiveSync](https://en.wikipedia.org/wiki/Exchange_ActiveSync)를 지원합니다.
 
-Mailbox Mail has a digital legacy feature for all plans. You can choose whether you want any of your data to be passed to heirs, providing that they apply and provide your testament. Alternatively, you can nominate a person by name and address.
+메일박스 메일은 모든 요금제에서 디지털 유산 기능을 제공합니다. 상속인이 신청하고 유언장을 제출하면 어떤 데이터를 상속인에게 전달할지 선택할 수 있습니다. 또는 특정 인물을 이름과 주소로 지정할 수도 있습니다.
 
 ## 그외 제공자
 
-These providers encrypt your emails in a way that only you can read them later, making them great options for keeping your stored emails secure. However, they don't support interoperable encryption standards for E2EE communications between different providers.
+이러한 제공업체는 나중에 사용자 본인만 읽을 수 있도록 이메일을 암호화합니다. 따라서 저장된 이메일을 안전하게 보관하기에 적합합니다. 하지만 서로 다른 제공업체 간 E2EE 통신에 사용할 수 있는 상호 운용 가능한 암호화 표준은 지원하지 않습니다.
 
 <div class="grid cards" markdown>
 
-- ![Tuta logo](assets/img/email/tuta.svg#only-light){ .twemoji loading=lazy }![Tuta logo](assets/img/email/tuta-dark.svg#only-dark){ .twemoji loading=lazy } [Tuta](#tuta)
+- ![투타 로고](assets/img/email/tuta.svg#only-light){ .twemoji loading=lazy }![투타 로고](assets/img/email/tuta-dark.svg#only-dark){ .twemoji loading=lazy } [투타](#tuta)
 
 </div>
 
-### Tuta
+### 투타
 
 <div class="admonition recommendation" markdown>
 
-![Tuta logo](assets/img/email/tuta.svg#only-light){ align=right }
-![Tuta logo](assets/img/email/tuta-dark.svg#only-dark){ align=right }
+![투타 로고](assets/img/email/tuta.svg#only-light){ align=right }
+![투타 로고](assets/img/email/tuta-dark.svg#only-dark){ align=right }
 
-**Tuta** (formerly *Tutanota*) is an email service with a focus on security and privacy through the use of encryption. Tuta has been in operation since 2011 and is based in Hanover, Germany.
+**투타**(구 *Tutanota*)는 암호화를 통해 보안과 프라이버시를 보호하는 데 중점을 둔 이메일 서비스입니다. 투타는 2011년에 서비스를 시작했으며 독일 하노버에 본사를 두고 있습니다.
 
-Free accounts start with 1 GB of storage.
+무료 계정에는 1GB의 저장 공간이 제공됩니다.
 
-[:octicons-home-16: Homepage](https://tuta.com){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://tuta.com/privacy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://tuta.com/support){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/tutao/tutanota){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://tuta.com/community){ .card-link title="Contribute" }
+[:octicons-home-16: 홈페이지](https://tuta.com){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://tuta.com/privacy){ .card-link title="프라이버시 정책" }
+[:octicons-info-16:](https://tuta.com/support){ .card-link title="문서" }
+[:octicons-code-16:](https://github.com/tutao/tutanota){ .card-link title="소스 코드" }
+[:octicons-heart-16:](https://tuta.com/community){ .card-link title="기여하기" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>다운로드</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=de.tutao.tutanota)
 - [:simple-appstore: App Store](https://apps.apple.com/app/id922429609)
@@ -232,123 +232,123 @@ Free accounts start with 1 GB of storage.
 - [:fontawesome-brands-windows: Windows](https://tuta.com/#download)
 - [:simple-apple: macOS](https://tuta.com/#download)
 - [:simple-linux: Linux](https://tuta.com/#download)
-- [:octicons-browser-16: Web](https://app.tuta.com)
+- [:octicons-browser-16: 웹](https://app.tuta.com)
 
 </details>
 
 </div>
 
-Tuta doesn't support the [IMAP protocol](https://tuta.com/support#imap) or the use of third-party [email clients](email-clients.md), and you also won't be able to add [external email accounts](https://github.com/tutao/tutanota/issues/544#issuecomment-670473647) to the Tuta app. [Email import](https://github.com/tutao/tutanota/issues/630) is not currently supported either, though this is [due to be changed](https://tuta.com/blog/kickoff-import). Emails can be exported [individually or by bulk selection](https://tuta.com/support#generalMail) per folder, which may be inconvenient if you have many folders.
+투타는 [IMAP 프로토콜](https://tuta.com/support#imap)이나 타사 [이메일 클라이언트](email-clients.md) 사용을 지원하지 않습니다. 또한 투타 앱에 [외부 이메일 계정](https://github.com/tutao/tutanota/issues/544#issuecomment-670473647)을 추가할 수도 없습니다. 현재 [이메일 가져오기](https://github.com/tutao/tutanota/issues/630)도 지원하지 않습니다. 다만 이 기능은 [추후 지원될 예정](https://tuta.com/blog/kickoff-import)입니다. 이메일은 폴더별로 [개별 내보내기 또는 일괄 선택 내보내기](https://tuta.com/support#generalMail)가 가능합니다. 폴더가 많다면 불편할 수 있습니다.
 
 #### :material-check:{ .pg-green } 사용자 지정 도메인 및 별칭
 
-Paid Tuta accounts can use either 15 or 30 aliases depending on their plan and unlimited aliases on [custom domains](https://tuta.com/support#custom-domain). Tuta doesn't allow for [sub-addressing (plus addresses)](https://tuta.com/support#plus), but you can use a [catch-all](https://tuta.com/support#settings-global) with a custom domain.
+유료 투타 계정은 요금제에 따라 별칭을 15개 또는 30개까지 사용할 수 있으며, [사용자 지정 도메인](https://tuta.com/support#custom-domain)에서는 별칭을 무제한으로 사용할 수 있습니다. 투타는 [하위 주소 지정(플러스 주소)](https://tuta.com/support#plus)을 지원하지 않지만, 사용자 지정 도메인에서는 [캐치올(catch-all)](https://tuta.com/support#settings-global) 주소를 사용할 수 있습니다.
 
 #### :material-information-outline:{ .pg-blue } 비공개 결제 수단
 
-Tuta only directly accepts credit cards and PayPal, however you can use [**cryptocurrency**](cryptocurrency.md) to purchase gift cards via their [partnership](https://tuta.com/support/#cryptocurrency) with ProxyStore.
+투타는 신용카드와 페이팔 결제를 직접 지원합니다. 다만 ProxyStore와의 [제휴](https://tuta.com/support/#cryptocurrency)를 통해 [**암호화폐**](cryptocurrency.md)로 기프트 카드를 구매할 수도 있습니다.
 
 #### :material-check:{ .pg-green } 계정 보안
 
-Tuta supports [two-factor authentication](https://tuta.com/support#2fa) with either TOTP or U2F.
+투타는 TOTP 또는 U2F를 통한 [2단계 인증](https://tuta.com/support#2fa)을 지원합니다.
 
 #### :material-check:{ .pg-green } 데이터 보안
 
-Tuta stores your [emails](https://tuta.com/support#what-encrypted), [address book contacts](https://tuta.com/support#encrypted-address-book), and [calendars](https://tuta.com/support#calendar) with strong encryption where only you have the decryption keys. This means the messages and other data stored in your account cannot be read by anyone other than you after they are stored.
+투타는 [이메일](https://tuta.com/support#what-encrypted), [주소록 연락처](https://tuta.com/support#encrypted-address-book), [캘린더](https://tuta.com/support#calendar)를 강력한 암호화로 보호하며, 복호화 키는 사용자만 보유합니다. 즉, 데이터가 계정에 저장된 뒤에는 사용자 본인 외에는 누구도 메시지나 기타 데이터를 읽을 수 없습니다.
 
 #### :material-information-outline:{ .pg-blue } 이메일 암호화
 
-Tuta [does not use OpenPGP](https://tuta.com/support/#pgp). Tuta accounts can only receive encrypted emails from non-Tuta email accounts when sent via a [temporary Tuta mailbox](https://tuta.com/support/#encrypted-email-external).
+투타는 [OpenPGP를 사용하지 않습니다](https://tuta.com/support/#pgp). 투타 계정은 [임시 투타 메일함](https://tuta.com/support/#encrypted-email-external)을 통해 전송된 경우에만 투타 이외의 이메일 계정에서 암호화된 이메일을 받을 수 있습니다.
 
 #### :material-information-outline:{ .pg-blue } 계정 삭제
 
-Tuta will [delete inactive free accounts](https://tuta.com/support#inactive-accounts) after six months. 돈을 지불하면 비활성화된 계정을 재사용할 수 있습니다.
+투타는 6개월 동안 활동이 없는 무료 계정을 [삭제합니다](https://tuta.com/support#inactive-accounts). 돈을 지불하면 비활성화된 계정을 재사용할 수 있습니다.
 
 #### :material-information-outline:{ .pg-blue } 추가 기능
 
-Tuta offers the business version of [Tuta to non-profit organizations](https://tuta.com/blog/secure-email-for-non-profit) for free or with a heavy discount.
+투타는 [비영리 단체에 투타 비즈니스 버전](https://tuta.com/blog/secure-email-for-non-profit)을 무료로 제공하거나 큰 폭의 할인을 적용합니다.
 
 ## 평가 기준
 
-**Please note we are not affiliated with any of the providers we recommend.** In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements for any email provider wishing to be recommended, including implementing industry best practices, modern technology and more. We suggest you familiarize yourself with this list before choosing an email provider, and conduct your own research to ensure the email provider you choose is the right choice for you.
+**저희가 추천하는 제공업체와 제휴 관계가 없다는 점을 유의해 주세요.** [일반 평가 기준](about/criteria.md) 외에도 업계 모범 사례와 최신 기술 등을 적용하는 것을 포함해, 추천 대상이 되려는 이메일 제공업체가 충족해야 할 명확한 요건을 마련했습니다. 이메일 제공업체를 선택하기 전에 이 목록을 살펴보고, 선택한 서비스가 자신에게 적합한지 판단하기 위해 직접 조사해 보시기를 권합니다.
 
 ### 기술
 
-안전하고 최적화된 서비스를 제공하기 위해서는 이러한 기능이 중요하다고 판단했습니다. You should consider whether the provider has the features you require.
+안전하고 최적화된 서비스를 제공하기 위해서는 이러한 기능이 중요하다고 판단했습니다. 해당 제공업체가 자신에게 필요한 기능을 갖추고 있는지 고려해야 합니다.
 
 **최소 요구 사항:**
 
-- Must encrypt email account data at rest with asymmetric encryption, where only the user has the private keys needed to decrypt it.
-- Must be capable of exporting emails as [Mbox](https://en.wikipedia.org/wiki/Mbox) or individual .EML with [RFC5322](https://datatracker.ietf.org/doc/rfc5322) standard.
-- Must operate on owned infrastructure, i.e. not built upon third-party email service providers.
+- 이메일 계정 데이터를 저장할 때 비대칭 암호화를 적용해야 하며, 복호화에 필요한 개인 키는 사용자만 보유해야 합니다.
+- [Mbox](https://en.wikipedia.org/wiki/Mbox) 형식 또는 [RFC 5322](https://datatracker.ietf.org/doc/rfc5322) 표준을 따르는 개별 .EML 파일로 이메일을 내보낼 수 있어야 합니다.
+- 타사 이메일 서비스 제공업체에 의존하지 않고 자체 소유 인프라에서 서비스를 운영해야 합니다.
 
 **우대 사항:**
 
-- Should encrypt all account data (contacts, calendars, etc.) at rest with asymmetric encryption, where only the user has the private keys needed to decrypt it.
-- Should provide integrated webmail E2EE/PGP encryption as a convenience.
-- Should support WKD to allow improved discovery of public OpenPGP keys via HTTP. GnuPG users can get a key with this command: `gpg --locate-key example_user@example.com`.
-- 외부 사용자를 위해 임시 메일함을 지원해야 합니다. This is useful when you want to send an encrypted email without sending an actual copy to your recipient. 이러한 이메일은 보통 수명이 제한돼 있으며 이후 자동으로 삭제됩니다. 수신자가 OpenPGP 등의 암호화를 설정할 필요가 없습니다.
-- Should support [sub-addressing](https://en.wikipedia.org/wiki/Email_address#Sub-addressing).
-- Should allow users to use their own [domain name](https://en.wikipedia.org/wiki/Domain_name). 사용자 지정 도메인 이름은 서비스가 부실해지거나 프라이버시 보호를 우선시하지 않는 다른 회사에 인수되는 경우에도 에이전시를 유지할 수 있도록 해주기 때문에 사용자에게 중요합니다.
-- Catch-all or alias functionality for those who use their own domains.
-- Should use standard email access protocols such as IMAP, SMTP, or [JMAP](https://en.wikipedia.org/wiki/JSON_Meta_Application_Protocol). Standard access protocols ensure customers can easily download all of their email, should they want to switch to another provider.
-- Email provider's services should be available via an [onion service](https://en.wikipedia.org/wiki/.onion).
+- 연락처와 캘린더 등 모든 계정 데이터를 저장할 때 비대칭 암호화를 적용하는 것이 바람직하며, 복호화에 필요한 개인 키는 사용자만 보유해야 합니다.
+- 편의성을 위해 웹메일에 E2EE/PGP 암호화 기능을 통합 제공하는 것이 바람직합니다.
+- HTTP를 통해 OpenPGP 공개 키를 더 쉽게 찾을 수 있도록 WKD를 지원하는 것이 바람직합니다. GnuPG 사용자는 다음 명령으로 키를 가져올 수 있습니다: `gpg --locate-key example_user@example.com`.
+- 외부 사용자를 위해 임시 메일함을 지원해야 합니다. 수신자에게 실제 사본을 따로 보내지 않고 암호화된 이메일을 전송하려는 경우 유용합니다. 이러한 이메일은 보통 수명이 제한돼 있으며 이후 자동으로 삭제됩니다. 수신자가 OpenPGP 등의 암호화를 설정할 필요가 없습니다.
+- [하위 주소 지정(sub-addressing)](https://en.wikipedia.org/wiki/Email_address#Sub-addressing)을 지원하는 것이 바람직합니다.
+- 사용자가 자신의 [도메인 이름](https://en.wikipedia.org/wiki/Domain_name)을 사용할 수 있어야 합니다. 사용자 지정 도메인 이름은 서비스가 부실해지거나 프라이버시 보호를 우선시하지 않는 다른 회사에 인수되는 경우에도 에이전시를 유지할 수 있도록 해주기 때문에 사용자에게 중요합니다.
+- 자체 도메인을 사용하는 사람을 위해 캐치올 또는 별칭 기능을 제공하는 것이 바람직합니다.
+- IMAP, SMTP 또는 [JMAP](https://en.wikipedia.org/wiki/JSON_Meta_Application_Protocol)과 같은 표준 이메일 접속 프로토콜을 사용하는 것이 바람직합니다. 표준 접속 프로토콜을 지원하면 다른 제공업체로 옮기려 할 때 사용자가 모든 이메일을 쉽게 내려받을 수 있습니다.
+- 이메일 제공업체의 서비스는 [어니언 서비스](https://en.wikipedia.org/wiki/.onion)로도 이용할 수 있어야 합니다.
 
 ### 프라이버시
 
-Privacy Guides이 권장하는 제공자들은 최소한의 데이터만을 수집해야 합니다.
+프라이버시 가이드가 권장하는 제공자들은 최소한의 데이터만을 수집해야 합니다.
 
 **최소 요구 사항:**
 
-- Must protect sender's IP address, which can involve filtering it from showing in the `Received` header field.
-- Must not require personally identifiable information (PII) besides a username and a password.
-- Privacy policy must meet the requirements defined by the GDPR.
+- 발신자의 IP 주소를 보호해야 합니다. 이를 위해 이메일 헤더의 `Received` 필드에 해당 주소가 표시되지 않도록 필터링할 수 있습니다.
+- 사용자 이름과 비밀번호 외에 개인 식별 정보(PII)를 요구해서는 안 됩니다.
+- 프라이버시 정책은 GDPR에서 정한 요건을 충족해야 합니다.
 
 **우대 사항:**
 
-- Should accept [anonymous payment options](advanced/payments.md) ([cryptocurrency](cryptocurrency.md), cash, gift cards, etc.)
-- Should be hosted in a jurisdiction with strong email privacy protection laws.
+- [익명 결제 수단](advanced/payments.md)([암호화폐](cryptocurrency.md), 현금, 기프트 카드 등)을 지원하는 것이 바람직합니다.
+- 이메일 프라이버시 보호 법률이 강력한 관할권에서 서비스를 호스팅하는 것이 바람직합니다.
 
 ### 보안
 
-Email servers deal with a lot of very sensitive data. We expect that providers will adopt industry best practices in order to protect their customers.
+이메일 서버는 매우 민감한 데이터를 대량으로 처리합니다. 제공업체는 고객을 보호하기 위해 업계 모범 사례를 적용할 것으로 기대합니다.
 
 **최소 요구 사항:**
 
-- Protection of webmail with 2FA, such as [TOTP](basics/multi-factor-authentication.md#time-based-one-time-password-totp).
-- Encryption at rest, using asymmetric encryption where the service provider does not have the decryption keys to the data they hold. This prevents a rogue employee leaking data they have access to, or a remote adversary from releasing data they have stolen by gaining unauthorized access to the server.
+- [TOTP](basics/multi-factor-authentication.md#time-based-one-time-password-totp)와 같은 2단계 인증으로 웹메일을 보호해야 합니다.
+- 서비스 제공업체가 보유한 데이터의 복호화 키를 갖지 않는 비대칭 암호화를 사용해 저장 데이터를 암호화해야 합니다. 이렇게 하면 악의적인 직원이 접근 가능한 데이터를 유출하거나, 원격 공격자가 서버에 무단으로 침입해 탈취한 데이터를 외부에 공개하는 일을 막을 수 있습니다.
 - [DNSSEC](https://en.wikipedia.org/wiki/Domain_Name_System_Security_Extensions)를 지원해야 합니다.
-- No TLS errors or vulnerabilities when being profiled by tools such as [Hardenize](https://hardenize.com), [testssl.sh](https://testssl.sh), or [Qualys SSL Labs](https://ssllabs.com/ssltest); this includes certificate related errors and weak DH parameters, such as those that led to [Logjam](https://en.wikipedia.org/wiki/Logjam_(computer_security)).
-- A server suite preference (optional on TLS 1.3) for strong cipher suites which support forward secrecy and authenticated encryption.
-- A valid [MTA-STS](https://tools.ietf.org/html/rfc8461) and [TLS-RPT](https://tools.ietf.org/html/rfc8460) policy.
-- Valid [DANE](https://en.wikipedia.org/wiki/DNS-based_Authentication_of_Named_Entities) records.
-- Valid [SPF](https://en.wikipedia.org/wiki/Sender_Policy_Framework) and [DKIM](https://en.wikipedia.org/wiki/DomainKeys_Identified_Mail) records.
-- Must have a proper [DMARC](https://en.wikipedia.org/wiki/DMARC) record and policy or use [ARC](https://en.wikipedia.org/wiki/Authenticated_Received_Chain) for authentication. If DMARC authentication is being used, the policy must be set to `reject` or `quarantine`.
-- A server suite preference of TLS 1.2 or later and a plan for [RFC8996](https://datatracker.ietf.org/doc/rfc8996).
-- [SMTPS](https://en.wikipedia.org/wiki/SMTPS) submission, assuming SMTP is used.
-- Website security standards such as:
-    - [HTTP Strict Transport Security](https://en.wikipedia.org/wiki/HTTP_Strict_Transport_Security)
-    - [Subresource Integrity](https://en.wikipedia.org/wiki/Subresource_Integrity) if loading things from external domains.
-- Must support viewing of [message headers](https://en.wikipedia.org/wiki/Email#Message_header), as it is a crucial forensic feature to determine if an email is a phishing attempt.
+- [Hardenize](https://hardenize.com), [testssl.sh](https://testssl.sh), [Qualys SSL Labs](https://ssllabs.com/ssltest) 등의 도구로 검사했을 때 TLS 오류나 취약점이 없어야 합니다. 여기에는 인증서 관련 오류와 [Logjam](https://en.wikipedia.org/wiki/Logjam_(computer_security)) 공격의 원인이 된 취약한 DH 매개변수 등이 포함됩니다.
+- 순방향 비밀성과 인증된 암호화를 지원하는 강력한 암호 스위트를 서버에서 우선 사용해야 합니다(TLS 1.3에서는 선택 사항).
+- 유효한 [MTA-STS](https://tools.ietf.org/html/rfc8461) 및 [TLS-RPT](https://tools.ietf.org/html/rfc8460) 정책이 있어야 합니다.
+- 유효한 [DANE](https://en.wikipedia.org/wiki/DNS-based_Authentication_of_Named_Entities) 레코드가 있어야 합니다.
+- 유효한 [SPF](https://en.wikipedia.org/wiki/Sender_Policy_Framework) 및 [DKIM](https://en.wikipedia.org/wiki/DomainKeys_Identified_Mail) 레코드가 있어야 합니다.
+- 올바른 [DMARC](https://en.wikipedia.org/wiki/DMARC) 레코드와 정책을 설정하거나, 인증에 [ARC](https://en.wikipedia.org/wiki/Authenticated_Received_Chain)를 사용해야 합니다. DMARC 인증을 사용하는 경우 정책을 `reject` 또는 `quarantine`으로 설정해야 합니다.
+- 서버에서 TLS 1.2 이상을 사용하도록 설정하고, [RFC 8996](https://datatracker.ietf.org/doc/rfc8996)에 대응할 계획이 있어야 합니다.
+- SMTP를 사용하는 경우 [SMTPS](https://en.wikipedia.org/wiki/SMTPS) 제출을 지원해야 합니다.
+- 다음과 같은 웹사이트 보안 표준을 적용해야 합니다:
+    - [HTTP 엄격한 전송 보안(HTTP Strict Transport Security)](https://en.wikipedia.org/wiki/HTTP_Strict_Transport_Security)
+    - 외부 도메인에서 리소스를 불러오는 경우 [하위 리소스 무결성(Subresource Integrity)](https://en.wikipedia.org/wiki/Subresource_Integrity)을 적용해야 합니다.
+- 이메일이 피싱 시도인지 판단하는 데 중요한 포렌식 기능이므로 [메시지 헤더](https://en.wikipedia.org/wiki/Email#Message_header)를 확인할 수 있어야 합니다.
 
 **우대 사항:**
 
-- Should support hardware authentication, i.e. U2F and [WebAuthn](basics/multi-factor-authentication.md#fido-fast-identity-online).
-- [DNS Certification Authority Authorization (CAA) Resource Record](https://tools.ietf.org/html/rfc6844) in addition to DANE support.
-- Should implement [Authenticated Received Chain (ARC)](https://en.wikipedia.org/wiki/Authenticated_Received_Chain), which is useful for people who post to mailing lists [RFC8617](https://tools.ietf.org/html/rfc8617).
-- Published security audits from a reputable, third-party firm.
+- 하드웨어 인증을 지원하는 것이 바람직합니다. 예를 들면 다음과 같습니다. U2F 및 [WebAuthn](basics/multi-factor-authentication.md#fido-fast-identity-online).
+- DANE 지원 외에도 [DNS 인증 기관 권한 부여(CAA) 리소스 레코드](https://tools.ietf.org/html/rfc6844)가 있어야 합니다.
+- 메일링 리스트에 글을 게시하는 사용자에게 유용한 [인증 수신 체인(ARC)](https://en.wikipedia.org/wiki/Authenticated_Received_Chain)([RFC 8617](https://tools.ietf.org/html/rfc8617))을 구현하는 것이 바람직합니다.
+- 신뢰할 만한 제3자 업체가 수행한 보안 감사 결과를 공개해야 합니다.
 - 버그 바운티 프로그램 또는 체계적인 취약점 공개 프로세스가 있음
-- Website security standards such as:
-    - [Content Security Policy (CSP)](https://en.wikipedia.org/wiki/Content_Security_Policy)
-    - [RFC9163 Expect-CT](https://datatracker.ietf.org/doc/rfc9163)
+- 다음과 같은 웹사이트 보안 표준을 적용하는 것이 바람직합니다:
+    - [콘텐츠 보안 정책(Content Security Policy, CSP)](https://en.wikipedia.org/wiki/Content_Security_Policy)
+    - [RFC 9163 Expect-CT](https://datatracker.ietf.org/doc/rfc9163)
 
 ### 신뢰
 
-You wouldn't trust your finances to someone with a fake identity, so why trust them with your email? We require our recommended providers to be public about their ownership or leadership. We also would like to see frequent transparency reports, especially in regard to how government requests are handled.
+신원이 가짜인 사람에게 돈을 맡기지 않을 텐데, 왜 그런 사람에게 이메일을 맡기겠습니까? 추천하는 제공업체는 소유주나 경영진을 공개해야 합니다. 정부의 정보 요청에 어떻게 대응하는지를 비롯해 투명성 보고서를 자주 공개하는 업체를 선호합니다.
 
 **최소 요구 사항:**
 
-- Public-facing leadership or ownership.
+- 대외적으로 공개된 경영진 또는 소유주 정보.
 
 **우대 사항:**
 
@@ -356,21 +356,21 @@ You wouldn't trust your finances to someone with a fake identity, so why trust t
 
 ### 마케팅
 
-With the email providers we recommend, we like to see responsible marketing.
+추천하는 이메일 제공업체는 책임감 있는 마케팅을 해야 합니다.
 
 **최소 요구 사항:**
 
-- Must self-host analytics (no Google Analytics, Adobe Analytics, etc.).
-- Must not have any irresponsible marketing, which can include the following:
-    - Claims of "unbreakable encryption." Encryption should be used with the intention that it may not be secret in the future when the technology exists to crack it.
-    - Guarantees of protecting anonymity 100%. When someone makes a claim that something is 100%, it means there is no certainty for failure. We know people can quite easily de-anonymize themselves in a number of ways, e.g.:
-        - Reusing personal information e.g. (email accounts, unique pseudonyms, etc.) that they accessed without anonymity software such as Tor
+- 분석 도구를 자체 호스팅해야 합니다(Google Analytics, Adobe Analytics 등은 사용하지 않아야 함).
+- 다음과 같은 무책임한 마케팅을 해서는 안 됩니다:
+    - “절대 해독할 수 없는 암호화”라고 주장하는 행위. 현재는 안전하더라도 향후 암호를 해독할 기술이 등장하면 비밀이 유지되지 않을 수 있다는 점을 전제로 암호화를 사용해야 합니다.
+    - 익명성을 100% 보장한다고 주장하는 행위. 무언가를 100% 보장한다고 주장하면 실패할 가능성이 전혀 없다는 뜻이 됩니다. 하지만 사람들은 여러 방식으로 쉽게 익명성이 드러날 수 있습니다. 예를 들면 다음과 같습니다:
+        - Tor와 같은 익명성 보호 소프트웨어 없이 사용했던 이메일 계정이나 고유한 가명 등의 개인정보를 다시 사용하는 행위.
         - [브라우저 핑거프린팅](https://en.wikipedia.org/wiki/Device_fingerprint#Browser_fingerprint)
 
 **우대 사항:**
 
-- Clear and easy-to-read documentation for tasks like setting up 2FA, email clients, OpenPGP, etc.
+- 2단계 인증 설정, 이메일 클라이언트, OpenPGP 등을 다루는 명확하고 읽기 쉬운 문서를 제공하는 것이 바람직합니다.
 
 ### 추가 기능
 
-While not strictly requirements, there are some other convenience or privacy factors we looked into when determining which providers to recommend.
+엄격한 필수 요건은 아니지만, 제공업체를 추천할 때 편의성이나 프라이버시와 관련된 다른 요소들도 고려했습니다.

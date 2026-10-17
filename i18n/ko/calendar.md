@@ -12,7 +12,7 @@ cover: calendar.webp
 
 **Calendars** contain some of your most sensitive data; use products that implement end-to-end encryption at rest to prevent a provider from reading them.
 
-## Tuta
+## 투타
 
 <div class="admonition recommendation" markdown>
 

@@ -20,7 +20,7 @@ Windows has a built-in metadata remover, but unfortunately it cannot remove many
 - Embedded Files: Hidden metadata nested inside images that are embedded within documents.
 
 <div class="admonition warning" markdown>
-<p class="admonition-title">Warning</p>
+<p class="admonition-title">주의</p>
 
 이미지 내 텍스트를 지우는 용도로 블러 처리를 사용해서는 [**절대** 안 됩니다](https://bishopfox.com/blog/unredacter-tool-never-pixelation). If you want to redact text in an image, you should draw a box over the text.
 
