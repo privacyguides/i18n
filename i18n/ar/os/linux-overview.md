@@ -1,28 +1,28 @@
 ---
-title: Linux Overview
+title: نظرة عامة على Linux
 icon: simple/linux
-description: Linux is an open-source, privacy-focused desktop operating system alternative, but not all distributions are created equal.
+description: نظام Linux هو نظام تشغيل مفتوح المصدر يركّز على الخصوصية، ويمكن استخدامه على أجهزة الكمبيوتر كبديل للأنظمة الأخرى، لكن ليست كل توزيعاته متساوية في الجودة والميزات.
 ---
 
-**Linux** is an open-source, privacy-focused desktop operating system alternative. In the face of pervasive telemetry and other privacy-encroaching technologies in mainstream operating systems, desktop Linux has remained the clear choice for people looking for total control over their computers from the ground up.
+نظام **Linux** هو نظام تشغيل مفتوح المصدر يركّز على الخصوصية، ويمكن استخدامه كبديل لأنظمة تشغيل الكمبيوتر الأخرى. مع انتشار تقنيات الـ telemetry وغيرها من التقنيات التي تنتهك الخصوصية في أنظمة التشغيل الشائعة، ظل Linux على أجهزة الكمبيوتر الخيار الواضح لمن يريدون التحكم الكامل في أجهزتهم من الأساس.
 
-Our website generally uses the term “Linux” to describe **desktop** Linux distributions. Other operating systems which also use the Linux kernel such as ChromeOS, Android, and Qubes OS are not discussed on this page.
+نستخدم مصطلح «Linux» في موقعنا عادةً للإشارة إلى توزيعات Linux المخصّصة** لأجهزة الكمبيوتر**. لا تتناول هذه الصفحة أنظمة التشغيل الأخرى التي تستخدم نواة Linux أيضا، مثل ChromeOS وAndroid وQubes OS.
 
-[Our Linux Recommendations :material-arrow-right-drop-circle:](../desktop.md ""){.md-button}
+[توصياتنا لتوزيعات Linux :material-arrow-right-drop-circle:](../desktop.md ""){.md-button}
 
-## Security Notes
+## ملاحظات أمنية
 
-There are some notable security concerns with Linux which you should be aware of. Despite these drawbacks, desktop Linux distributions are still great for most people who want to:
+هناك بعض المخاطر الأمنية المهمة في Linux التي ينبغي أن تكون على دراية بها. رغم هذه العيوب، تظل توزيعات Linux المخصصة لأجهزة الكمبيوتر خيارا ممتازا لمعظم الأشخاص الذين يرغبون في:
 
-- Avoid telemetry that often comes with proprietary operating systems
-- Maintain [software freedom](https://gnu.org/philosophy/free-sw.en.html#four-freedoms)
-- Use privacy-focused systems such as [Whonix](../desktop.md#whonix) or [Tails](../desktop.md#tails)
+- تجنب جمع بيانات telemetry الذي غالبا ما يصاحب أنظمة التشغيل مغلقة المصدر
+- الحفاظ على [حرية استخدام البرمجيات والتحكم فيها](https://gnu.org/philosophy/free-sw.en.html#four-freedoms)
+- استخدام أنظمة تركز على الخصوصية، مثل [Whonix](../desktop.md#whonix) أو [Tails](../desktop.md#tails)
 
-### Open-Source Security
+### أمان البرمجيات مفتوحة المصدر
 
-It is a [common misconception](../basics/common-misconceptions.md#open-source-software-is-always-secure-or-proprietary-software-is-more-secure) that Linux and other open-source software are inherently secure simply because the source code is available. There is an expectation that community verification occurs regularly, but this isn’t always [the case](https://seirdy.one/posts/2022/02/02/floss-security).
+من [المفاهيم الخاطئة الشائعة](../basics/common-misconceptions.md#open-source-software-is-always-secure-or-proprietary-software-is-more-secure) أن Linux وغيره من البرمجيات مفتوحة المصدر آمنة بطبيعتها لمجرد أن الشيفرة المصدرية (Source Code) متاحة للجميع. يعتقد البعض أن مجتمع المطورين يراجع الشيفرة المصدرية (Source Code) بانتظام، لكن هذا لا يحدث [.دائما](https://seirdy.one/posts/2022/02/02/floss-security).
 
-In reality, distro security depends on a number of factors, such as project activity, developer experience, the level of rigor applied to code reviews, and how often attention is given to specific parts of the codebase that may go untouched for years.
+في الواقع، يعتمد أمان توزيعة Linux على عدة عوامل، مثل مدى نشاط المشروع، وخبرة المطورين، ودقة مراجعة الكود، ومدى الاهتمام بأجزاء معينة من الكود قد تمر سنوات دون مراجعتها أو تعديلها.
 
 ### Missing Security Features
 

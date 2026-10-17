@@ -246,20 +246,20 @@ description: الـ iOS هو نظام تشغيل للهواتف المحمولة
 
 ### طلب المصادقة بالبصمة وإخفاء التطبيقات
 
-يتيح لك iOS قفل معظم التطبيقات باستخدام Touch ID أو Face ID أو رمز الدخول، وهو أمر مفيد لحماية المحتوى الحساس في التطبيقات التي لا توفر هذه الميزة بنفسها. You can lock an app by long-pressing on it and selecting **Require Face ID/Touch ID**. Any app locked in this way requires biometric authentication whenever opening it or accessing its contents in other apps. Also, notification previews for locked apps will not be shown.
+يتيح لك iOS قفل معظم التطبيقات باستخدام Touch ID أو Face ID أو رمز الدخول، وهو أمر مفيد لحماية المحتوى الحساس في التطبيقات التي لا توفر هذه الميزة بنفسها. يمكنك قفل أي تطبيق بالضغط عليه مطولًا واختيار **Require Face ID/Touch ID**. أي تطبيق تقفله بهذه الطريقة سيتطلب المصادقة بالبصمة أو الوجه عند فتحه أو الوصول إلى محتواه من خلال تطبيقات أخرى. كذلك، لن تظهر معاينات الإشعارات للتطبيقات المقفلة.
 
-In addition to locking apps behind biometrics, you can also hide apps so that they don't appear on the Home Screen, App Library, the app list in **Settings**, etc. While hiding apps may be useful in situations where you have to hand your unlocked phone to someone else, the concealment provided by the feature is not absolute, as a hidden app is still visible in some places such as the battery usage list. Moreover, one notable trade off of hiding an app is that you will not receive any of its notifications.
+بالإضافة إلى قفل التطبيقات باستخدام بصمة الوجه أو الإصبع، يمكنك أيضا إخفاؤها حتى لا تظهر على الشاشة الرئيسية أو في مكتبة التطبيقات أو قائمة التطبيقات في **Settings** وغيرها. قد يكون إخفاء التطبيقات مفيدا عندما تضطر إلى إعطاء هاتفك المفتوح لشخص آخر، لكن هذه الميزة لا تخفي التطبيقات تماما، إذ تظل التطبيقات المخفية ظاهرة في بعض الأماكن، مثل قائمة استهلاك البطارية. بالإضافة إلى ذلك، من أبرز سلبيات إخفاء التطبيق أنك لن تتلقى أي إشعارات منه.
 
-You can hide an app by long-pressing on it and selecting **Require Face ID/Touch ID** → **Hide and Require Face ID/Touch ID**. Note that pre-installed Apple apps, as well as the default web browser and email app, cannot be hidden. Hidden apps reside in a **Hidden** folder at the bottom of the App Library, which can be unlocked using biometrics. This folder appears in the App Library whether you hid any apps or not, which provides you a degree of plausible deniability.
+يمكنك إخفاء أي تطبيق بالضغط عليه مطولًا واختيار **Require Face ID/Touch ID** → **Hide and Require Face ID/Touch ID**. لاحظ أنه لا يمكن إخفاء تطبيقات Apple المثبتة مسبقا، ولا المتصفح الافتراضي أو تطبيق البريد الإلكتروني الافتراضي. توجد التطبيقات المخفية في مجلد **Hidden** أسفل مكتبة التطبيقات، ويمكن فتحه باستخدام بصمة الوجه أو الإصبع. يظهر هذا المجلد في مكتبة التطبيقات سواء أخفيت أي تطبيقات أم لا، مما يتيح لك إنكار وجود تطبيقات مخفية دون أن يبدو ذلك مريبا.
 
-### Guided Access
+### الوصول الموجّه
 
-Sometimes you might want to hand your phone to someone to make a call or do a specific task, but you don't want them to have full access to your phone. In these cases, you can quickly enable **[Guided Access](https://support.apple.com/guide/iphone/lock-iphone-to-one-app-iph7fad0d10/ios)** to lock the phone to one specific app until you authenticate.
+أحيانا قد تحتاج إلى إعطاء هاتفك لشخص آخر لإجراء مكالمة أو تنفيذ مهمة معينة، لكنك لا تريد منحه وصولا كاملا إلى هاتفك. في هذه الحالات، يمكنك تفعيل**[ Guided Access](https://support.apple.com/guide/iphone/lock-iphone-to-one-app-iph7fad0d10/ios)** بسرعة لتقييد استخدام الهاتف بتطبيق واحد فقط، حتى تتحقق من هويتك.
 
 <div class="admonition warning" markdown>
 <p class="admonition-title">تنوية</p>
 
-Guided Access isn't foolproof, as it's possible you could leak data unintentionally or the feature could be bypassed. You should only use Guided Access for situations where you casually hand your phone to someone to use. لا ينبغي الاعتماد عليه كوسيلة للحماية من جهات متقدمة تمتلك قدرات عالية على تنفيذ الهجمات.
+ميزة Guided Access ليست مضمونة تماما، فقد تكشف بعض بياناتك دون قصد، أو قد يتمكن شخص ما من تجاوز قيودها. يُنصح باستخدام ميزة Guided Access فقط في المواقف العادية التي تعطي فيها هاتفك لشخص آخر ليستخدمه لفترة قصيرة. لا ينبغي الاعتماد عليه كوسيلة للحماية من جهات متقدمة تمتلك قدرات عالية على تنفيذ الهجمات.
 
 </div>
 
