@@ -208,45 +208,45 @@ description: الـ iOS هو نظام تشغيل للهواتف المحمولة
 
 ## نصائح إضافية
 
-### E2EE Calls
+### مكالمات مشفرة بتقنية E2EE
 
-Normal phone calls made with the Phone app through your carrier are not E2EE. Both FaceTime Video and FaceTime Audio calls are E2EE. Alternatively, you can use [another app](../real-time-communication.md) like Signal for E2EE calls.
+المكالمات الهاتفية العادية التي تجريها باستخدام تطبيق Phone عبر شركة الاتصالات ليست مشفرة بتقنية E2EE. مكالمات FaceTime Video وFaceTime Audio مشفرة بتقنية E2EE. بدلا من ذلك، يمكنك استخدام [تطبيق آخر](../real-time-communication.md) مثل Signal لإجراء مكالمات مشفرة بتقنية E2EE.
 
-### Encrypted iMessage
+### رسائل iMessage المشفرة
 
-The [color of the message bubble](https://support.apple.com/en-us/104972) in the Messages app indicates whether your messages are E2EE or not. A blue bubble indicates that you're using iMessage with E2EE, while a green bubble indicates the other party is using either the outdated SMS and MMS protocols or RCS. RCS on iOS is **not** E2EE. Currently, the only way to have E2EE in Messages is for both parties to be using iMessage on Apple devices.
+يشير [لون فقاعة الرسالة](https://support.apple.com/en-us/104972) في تطبيق Messages إلى ما إذا كانت رسائلك مشفرة بتقنية E2EE أم لا. الفقاعة الزرقاء تعني أنك تستخدم iMessage مع تشفير E2EE، بينما الفقاعة الخضراء تعني أن الطرف الآخر يستخدم إما بروتوكولات SMS وMMS القديمة أو بروتوكول RCS. بروتوكول RCS على نظام iOS **لا** يدعم تشفير E2EE. حاليا، الطريقة الوحيدة للحصول على تشفير E2EE في تطبيق Messages هي أن يستخدم الطرفان iMessage على أجهزة Apple.
 
-If either you or your messaging partner have iCloud Backup enabled without Advanced Data Protection, the encryption key will be stored on Apple's servers, meaning they can access your messages.
+إذا كنت أنت أو الشخص الذي تراسله تستخدمان iCloud Backup دون تفعيل Advanced Data Protection، فسيخزن مفتاح التشفير على خوادم Apple، مما يعني أن Apple يمكنها الوصول إلى رسائلكما.
 
-By default, you trust Apple's identity servers that you're messaging the right person. To defend yourself from a potentially malicious server, you can enable **[Contact Key Verification](https://support.apple.com/en-us/118246)**. At the top of the **Settings** app where your name is, select it, then go to **Contact Key Verification**.
+بشكل افتراضي، أنت تثق بخوادم Apple المسؤولة عن التحقق من الهوية للتأكد من أنك تراسل الشخص الصحيح. لحماية نفسك من خادم قد يكون ضارًا، يمكنك تفعيل.**[Contact Key Verification](https://support.apple.com/en-us/118246)**. في أعلى تطبيق **Settings**، اضغط على اسمك، ثم انتقل إلى **Contact Key Verification**.
 
-- [x] Turn on **Verification in iMessage**
+- [x] فعّل **Verification in iMessage**
 
-Both you and your contacts need to enable Contact Key Verification and follow Apple's [instructions](https://support.apple.com/en-us/118246#verify) for the security assurances mentioned above to take effect.
+يجب عليك وعلى جهات اتصالك تفعيل Contact Key Verification واتباع [تعليمات](https://support.apple.com/en-us/118246#verify) Apple حتى تستفيدوا من الحماية الأمنية المذكورة أعلاه.
 
-### Photo Permissions
+### أذونات الوصول إلى الصور
 
-When an app prompts you for access to your device's photo library, iOS provides you with options to limit what an app can access.
+عندما يطلب أحد التطبيقات الوصول إلى مكتبة الصور على جهازك، يتيح لك iOS خيارات لتحديد الصور التي يمكن للتطبيق الوصول إليها.
 
-Rather than allow an app to access all the photos on your device, you can allow it to only access whichever photos you choose by tapping the "Select Photos..." option in the permission dialog. You can change photo access permissions at any time by navigating to **Settings** → **Privacy & Security** → **Photos**.
+بدلا من السماح للتطبيق بالوصول إلى جميع الصور على جهازك، يمكنك السماح له بالوصول إلى الصور التي تختارها فقط، من خلال الضغط على خيار "Select Photos..." في نافذة طلب الإذن. يمكنك تغيير أذونات الوصول إلى الصور في أي وقت بالانتقال إلى **Settings** → **Privacy & Security** → **Photos**.
 
-![Photo Permissions](../assets/img/ios/photo-permissions-light.png#only-light) ![Photo Permissions](../assets/img/ios/photo-permissions-dark.png#only-dark)
+![أذونات الوصول إلى الصور](../assets/img/ios/photo-permissions-light.png#only-light) ![أذونات الوصول إلى الصور](../assets/img/ios/photo-permissions-dark.png#only-dark)
 
-**Add Photos Only** is a permission that only gives an app the ability to download photos to the photo library. Not all apps which request photo library access provide this option.
+إذن **Add Photos Only** يسمح للتطبيق بإضافة الصور إلى مكتبة الصور فقط. لا توفر جميع التطبيقات التي تطلب الوصول إلى مكتبة الصور هذا الخيار.
 
-![Private Access](../assets/img/ios/private-access-light.png#only-light) ![Private Access](../assets/img/ios/private-access-dark.png#only-dark)
+![الوصول الخاص](../assets/img/ios/private-access-light.png#only-light) ![الوصول الخاص](../assets/img/ios/private-access-dark.png#only-dark)
 
-Some apps also support **Private Access**, which functions similarly to the **Limited Access** permission. However, photos shared to apps using Private Access include their location by default. We recommend unchecking this setting if you do not [remove photo metadata](../data-redaction.md) beforehand.
+تدعم بعض التطبيقات أيضا خيار **Private Access**، الذي يعمل بطريقة مشابهة لإذن **Limited Access**. لكن الصور التي تشاركها مع التطبيقات باستخدام Private Access تتضمن معلومات موقع التقاطها بشكل افتراضي. ننصح بإلغاء تحديد هذا الخيار إذا لم تكن [قد أزلت Metadata](../data-redaction.md) من الصور مسبقا.
 
-### Contact Permissions
+### أذونات الوصول إلى جهات الاتصال
 
-Similarly, rather than allow an app to access all the contacts saved on your device, you can allow it to only access whichever contacts you choose. You can change contact access permissions at any time by navigating to **Settings** → **Privacy & Security** → **Contacts**.
+وبالمثل، بدلا من السماح للتطبيق بالوصول إلى جميع جهات الاتصال المحفوظة على جهازك، يمكنك السماح له بالوصول إلى جهات الاتصال التي تختارها فقط. يمكنك تغيير أذونات الوصول إلى جهات الاتصال في أي وقت بالانتقال إلى **Settings** → **Privacy & Security** → **Contacts**.
 
-![Contact Permissions](../assets/img/ios/contact-permissions-light.png#only-light) ![Contact Permissions](../assets/img/ios/contact-permissions-dark.png#only-dark)
+![أذونات الوصول إلى جهات الاتصال](../assets/img/ios/contact-permissions-light.png#only-light) ![أذونات الوصول إلى جهات الاتصال](../assets/img/ios/contact-permissions-dark.png#only-dark)
 
-### Require Biometrics and Hide Apps
+### طلب المصادقة بالبصمة وإخفاء التطبيقات
 
-iOS offers the ability to lock most apps behind Touch ID/Face ID or your passcode, which can be useful for protecting sensitive content in apps which do not provide the option themselves. You can lock an app by long-pressing on it and selecting **Require Face ID/Touch ID**. Any app locked in this way requires biometric authentication whenever opening it or accessing its contents in other apps. Also, notification previews for locked apps will not be shown.
+يتيح لك iOS قفل معظم التطبيقات باستخدام Touch ID أو Face ID أو رمز الدخول، وهو أمر مفيد لحماية المحتوى الحساس في التطبيقات التي لا توفر هذه الميزة بنفسها. You can lock an app by long-pressing on it and selecting **Require Face ID/Touch ID**. Any app locked in this way requires biometric authentication whenever opening it or accessing its contents in other apps. Also, notification previews for locked apps will not be shown.
 
 In addition to locking apps behind biometrics, you can also hide apps so that they don't appear on the Home Screen, App Library, the app list in **Settings**, etc. While hiding apps may be useful in situations where you have to hand your unlocked phone to someone else, the concealment provided by the feature is not absolute, as a hidden app is still visible in some places such as the battery usage list. Moreover, one notable trade off of hiding an app is that you will not receive any of its notifications.
 
