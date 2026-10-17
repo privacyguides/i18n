@@ -150,13 +150,13 @@ Firefox는 Mozilla 웹사이트에서 다운로드하는 파일에 고유한 [�
 
 #### 검색
 
--
+- [ ] **‘검색 제안 표시’** 선택 해제
 
 사용자님의 지역에서는 검색 제안 기능이 제공되지 않을 수 있습니다.
 
 검색어 제안 기능은 지역에 따라 제공되지 않을 수 있습니다. 검색어 제안 기능을 사용하면 실제로 검색을 실행하지 않더라도 주소 표시줄에 입력하는 모든 내용이 기본 검색 엔진으로 전송됩니다. 검색어 제안 기능을 비활성화하면 검색 엔진 제공업체에 어떤 데이터를 전송할지 더 세밀하게 제어할 수 있습니다.
 
-##### Firefox 제안
+##### 파이어폭스 제안
 
 [Firefox Suggest는](https://support.mozilla.org/kb/firefox-suggest) 검색 제안 기능과 유사한 기능입니다. 검색어 제안 기능을 비활성화하도록 권장하는 것과 같은 이유로 Firefox Suggest도 비활성화할 것을 권장합니다. **주소 표시줄** 항목 아래에 이러한 설정이 보이지 않는다면, 아직 새로운 인터페이스가 적용되지 않은 것이므로 해당 설정은 무시해도 됩니다.
 
@@ -221,23 +221,23 @@ Firefox는 Mozilla 웹사이트에서 다운로드하는 파일에 고유한 [�
 <div class="admonition tip" markdown>
 <p class="admonition-title">고급 지문 추적 방지가 필요하다면 Mullvad Browser를 사용하세요.</p>
 
-[Mullvad Browser](#mullvad-browser)는 기본 설정만으로도 Firefox보다 강력한 브라우저 지문 추적 방지 기능을 제공하며, 이러한 보호 기능을 이용하기 위해 Mullvad VPN을 반드시 사용할 필요는 없습니다. VPN을 함께 사용할 경우, Mullvad 브라우저는 Arkenfox가 차단하지 못하는 고급 추적 스크립트까지 차단할 수 있습니다. Firefox는 여전히 훨씬 유연하다는 장점이 있습니다. 또한 로그인 상태를 유지해야 하는 웹사이트에 대해 사이트별 예외를 설정할 수 있습니다.
+[Mullvad Browser](#mullvad-browser)는 기본 설정만으로도 Firefox보다 강력한 브라우저 지문 추적 방지 기능을 제공하며, 이러한 보호 기능을 이용하기 위해 Mullvad VPN을 반드시 사용할 필요는 없습니다. VPN을 함께 사용할 경우, 멀바드 브라우저는 Arkenfox가 차단하지 못하는 고급 추적 스크립트까지 차단할 수 있습니다. 파이어폭스는 여전히 훨씬 유연하다는 장점이 있습니다. 또한 로그인 상태를 유지해야 하는 웹사이트에 대해 사이트별 예외를 설정할 수 있습니다.
 
 </div>
 
 [Arkenfox 프로젝트](https://github.com/arkenfox/user.js)는 Firefox에 적용할 수 있는, 신중하게 검토된 설정 모음을 제공합니다. Arkenfox를 사용하기로 [결정하셨다면](https://github.com/arkenfox/user.js/wiki/1.1-To-Arkenfox-or-Not), [몇 가지 설정이](https://github.com/arkenfox/user.js/wiki/3.2-Overrides-%5BCommon%5D) 주관적으로 다소 까다롭거나 일부 웹사이트가 제대로 작동하지 않을 수 있습니다. 하지만 이러한 설정은 필요에 따라 [쉽게 변경할](https://github.com/arkenfox/user.js/wiki/3.1-Overrides) 수 있습니다. 해당 [위키의](https://github.com/arkenfox/user.js/wiki) 전체 [내용을](https://github.com/arkenfox/user.js/wiki) 꼼꼼히 읽어보시기를 **강력히 권장합니다**. Arkenfox는 [컨테이너](https://support.mozilla.org/kb/containers#w_for-advanced-users) 지원 기능도 제공합니다.
 
-Arkenfox는 캔버스 무작위화(canvas randomization)와 Firefox에 내장된 지문 추적 방지 설정을 통해 기본적이거나 단순한 추적 스크립트를 방해하는 것을 목표로 합니다. 하지만 Mullvad Browser나 Tor Browser와 달리, 동일한 Arkenfox 설정을 사용하는 다수의 사용자 사이에 브라우저를 섞어 눈에 띄지 않게 만드는 것까지 목표로 하지는 않습니다. 이러한 방식으로 다른 사용자들과 브라우저의 특성을 비슷하게 만들어야 고급 지문 추적 스크립트의 추적을 효과적으로 방해할 수 있습니다. 브라우저를 여러 개 함께 사용해도 된다는 점을 기억하세요. 예를 들어, 로그인 상태를 유지해야 하거나 신뢰하는 일부 웹사이트에는 Firefox와 Arkenfox를 사용하고, 일반적인 웹 브라우징에는 Mullvad Browser를 사용할 수 있습니다.
+Arkenfox는 캔버스 무작위화(canvas randomization)와 Firefox에 내장된 지문 추적 방지 설정을 통해 기본적이거나 단순한 추적 스크립트를 방해하는 것을 목표로 합니다. 하지만 멀바드 브라우저나 토르 브라우져와 달리, 동일한 Arkenfox 설정을 사용하는 다수의 사용자 사이에 브라우저를 섞어 눈에 띄지 않게 만드는 것까지 목표로 하지는 않습니다. 이러한 방식으로 다른 사용자들과 브라우저의 특성을 비슷하게 만들어야 고급 지문 추적 스크립트의 추적을 효과적으로 방해할 수 있습니다. 브라우저를 여러 개 함께 사용해도 된다는 점을 기억하세요. 예를 들어, 로그인 상태를 유지해야 하거나 신뢰하는 일부 웹사이트에는 Firefox와 Arkenfox를 사용하고, 일반적인 웹 브라우징에는 Mullvad Browser를 사용할 수 있습니다.
 
-## Brave
+## 브레이브
 
 <div class="admonition recommendation annotate" markdown>
 
 ![Brave 로고](assets/img/browsers/brave.svg){ align=right }
 
-**Brave 브라우저**에는 내장 콘텐츠 차단기와 [개인정보 보호 기능](https://brave.com/privacy-features)이 포함되어 있으며, 이들 중 상당수는 기본적으로 활성화되어 있습니다.
+**브레이브 브라우저**에는 내장 콘텐츠 차단기와 [개인정보 보호 기능](https://brave.com/privacy-features)이 포함되어 있으며, 이들 중 상당수는 기본적으로 활성화되어 있습니다.
 
-Brace는 Chromium 웹 브라우저 프로젝트 기반으로 구축되었으므로, 친숙하며 웹사이트 호환성 문제가 적습니다.
+브레이브는 크로미움 웹 브라우저 프로젝트 기반으로 구축되었으므로, 친숙하며 웹사이트 호환성 문제가 적습니다.
 
 [:octicons-home-16: 홈페이지](https://brave.com){ .md-button .md-button--primary }
 [:simple-torbrowser:](https://brave4u7jddbv7cyviptqjc7jusxh72uik7zt6adtckl5f4nwy2v72qd.onion){ .card-link title="Onion 서비스" }
@@ -261,7 +261,7 @@ Brace는 Chromium 웹 브라우저 프로젝트 기반으로 구축되었으므�
 <div class="admonition warning" markdown>
 <p class="admonition-title">경고</p>
 
-Brave는 Brave 웹사이트에서 다운로드한 파일의 이름에 “[추천 코드](https://github.com/brave/brave-browser/wiki/Brave%E2%80%99s-Use-of-Referral-Codes)”를 추가하는데, 이는 브라우저가 어느 출처에서 다운로드되었는지 추적하기 위한 것입니다. 예를 들어, `Brave-Browser-BRV002.pkg`라는 이름의 다운로드 파일에는 `BRV002`가 포함됩니다. 그러면 설치 프로그램이 설치 과정이 끝날 무렵 추천 코드를 포함해 Brave 서버에 핑을 보냅니다. 이 점이 걱정된다면, 설치 파일을 열기 전에 파일 이름을 변경할 수 있습니다.
+브레이브는 브레이브 웹사이트에서 다운로드한 파일의 이름에 “[추천 코드](https://github.com/brave/brave-browser/wiki/Brave%E2%80%99s-Use-of-Referral-Codes)”를 추가하는데, 이는 브라우저가 어느 출처에서 다운로드되었는지 추적하기 위한 것입니다. 예를 들어, `Brave-Browser-BRV002.pkg`라는 이름의 다운로드 파일에는 `BRV002`가 포함됩니다. 그러면 설치 프로그램이 설치 과정이 끝날 무렵 추천 코드를 포함해 Brave 서버에 핑을 보냅니다. 이 점이 걱정된다면, 설치 파일을 열기 전에 파일 이름을 변경할 수 있습니다.
 
 </div>
 
@@ -295,7 +295,7 @@ Brave는 Brave 웹사이트에서 다운로드한 파일의 이름에 “[추천
 
 </div>
 
-1. 이 옵션을 선택하면 자바스크립트가 비활성화되어 많은 웹사이트가 제대로 작동하지 않게 됩니다. To fix them, you can set exceptions on a per-site basis by clicking on the Shield icon in the address bar and unchecking this setting under *Advanced controls*.
+1. 이 옵션을 선택하면 자바스크립트가 비활성화되어 많은 웹사이트가 제대로 작동하지 않게 됩니다. 이 문제를 해결하려면 주소 표시줄의 방패 아이콘을 클릭한 다음, *‘고급 제어’* 항목에서 해당 설정의 체크를 해제하여 사이트별로 예외를 설정할 수 있습니다.
 2. 자주 방문하는 특정 사이트에 로그인 상태를 유지하고 싶다면, 주소 표시줄의 방패 아이콘을 클릭한 후 *‘고급 설정*’에서 해당 설정의 체크 표시를 해제하여 사이트별로 예외를 설정할 수 있습니다.
 
 #### 개인 정보 보호 및 보안
@@ -316,51 +316,51 @@ Brave는 Brave 웹사이트에서 다운로드한 파일의 이름에 “[추천
 
 ##### Tor 창
 
-[**Private Window with Tor**](https://support.brave.com/hc/articles/360018121491-What-is-a-Private-Window-with-Tor-Connectivity) allows you to route your traffic through the Tor network in Private Windows and access .onion services, which may be useful in some cases. However, Brave is **not** as resistant to fingerprinting as the Tor Browser is, and far fewer people use Brave with Tor, so you will stand out. If your threat model requires strong anonymity, use the [Tor Browser](tor.md#tor-browser).
+[**Tor가 활성화된 비공개 창**](https://support.brave.com/hc/articles/360018121491-What-is-a-Private-Window-with-Tor-Connectivity) 이를 통해 프라이빗 윈도우에서 트래픽을 Tor 네트워크를 통해 전송하고 .onion 서비스에 접속할 수 있으며, 이는 경우에 따라 유용할 수 있습니다. 하지만 Brave는 Tor 브라우저만큼 지문 추적에 **강하지 않으며**, Tor와 함께 Brave를 사용하는 사람은 훨씬 적기 때문에 눈에 띄게 보일 것입니다. 위협 모델상 강력한 익명성이 필요한 경우, [Tor 브라우저](tor.md#tor-browser)를 사용하십시오.
 
-##### Data Collection
+##### 데이터 수집
 
-- [ ] Uncheck **Allow privacy-preserving product analytics (P3A)**
-- [ ] Uncheck **Automatically send daily usage ping to Brave**
-- [ ] Uncheck **Automatically send diagnostic reports**
+- [ ] **‘개인정보 보호형 제품 분석(P3A) 허용’** 선택 해제
+- [ ] **‘Brave에 매일 사용량 핑을 자동으로 전송**’ 선택 해제
+- [ ] **‘진단 보고서 자동 전송**’ 선택 해제
 
 #### Web3
 
-Brave's Web3 features can potentially add to your browser fingerprint and attack surface. Unless you use any of these features, they should be disabled.
+브레이브의 Web3 기능은 잠재적으로 브라우저의 핑거프린트와 공격 표면을 증가시킬 수 있습니다. 여러분이 해당 기능을 사용하지 않는다면 비활성화해야 합니다.
 
-- Select **Extensions (no fallback)** under *Default Ethereum wallet*
-- Select **Extensions (no fallback)** under *Default Solana wallet*
-- Select **Extensions (no fallback)** under *Default Cardano wallet*
+- *'기본 이더리움 지갑*'에서 **'확장 기능** 선택 **(대체 옵션 없음)'** 을 선택하세요
+- *'기본 Solana 지갑*'에서 **'확장 기능** 선택 **(대체 옵션 없음)'** 을 선택하세요
+- *'기본 카다노 지갑*'에서 **'확장 기능** 선택 **(대체 옵션 없음)'** 을 선택하세요.
 
-#### Extensions
+#### 확장프로그램
 
-- [ ] Uncheck all built-in extensions you don't use
+- [ ] 사용하지 않는 내장 확장 프로그램은 모두 선택 해제하세요
 
-#### Search engine
+#### 검색 엔진
 
-We recommend disabling search suggestions in Brave for the same reason we recommend disabling this feature in [Firefox](#search).
+[파이어폭스에서](#search) 이 기능을 비활성화할 것을 권장하는 것과 같은 이유로, 브레이브에서도 검색 제안 기능을 비활성화하는 것이 좋습니다.
 
--
+- [ ] **‘검색 제안 표시’** 선택 해제
 
-#### System
+#### 시스템
 
 <div class="annotate" markdown>
 
-- [ ] Uncheck **Continue running background apps when Brave is closed** to disable background apps (1)
+- [ ] **Brave가 닫혀 있을 때 백그라운드 앱 계속 실행**의 체크 표시를 해제하여 백그라운드 앱을 비활성화합니다 (1)
 
 </div>
 
 1. 플랫폼에 따라 해당 옵션이 제공되지 않을 수 있습니다.
 
-#### Brave Sync
+#### 브레이브 싱크
 
-[Brave Sync](https://support.brave.com/hc/articles/360059793111-Understanding-Brave-Sync) allows your browsing data (history, bookmarks, etc.) to be accessible on all your devices without requiring an account and protects it with E2EE.
+[브레이브 싱크를](https://support.brave.com/hc/articles/360059793111-Understanding-Brave-Sync) 사용하면 계정 없이도 모든 기기에서 검색 데이터(검색 기록, 북마크 등)에 액세스할 수 있으며, 종단 간 암호화 (E2EE) 로 데이터를 보호합니다.
 
-#### Brave Rewards and Wallet
+#### 브레이브 리워드 및 지갑
 
-**Brave Rewards** lets you receive Basic Attention Token (BAT) cryptocurrency for performing certain actions within Brave. It relies on a custodial account and KYC from a select number of providers. We do not recommend BAT as a [private cryptocurrency](cryptocurrency.md), nor do we recommend using a [custodial wallet](advanced/payments.md#wallet-custody), so we would discourage using this feature.
+**Brave Rewards를** 이용하면 Brave 내에서 특정 행동을 수행함으로써 BAT(Basic Attention Token) 암호화폐를 받을 수 있습니다. 이 기능은 지정된 몇몇 제공업체의 수탁 계좌와 KYC 인증을 필요로 합니다. 당사는 BAT를 [개인용 암호화폐로](cryptocurrency.md) 권장하지 않으며, [수탁형 지갑](advanced/payments.md#wallet-custody) 사용도 권장하지 않으므로 이 기능을 사용하지 않으실 것을 권고합니다.
 
-**Brave Wallet** operates locally on your computer, but does not support any private cryptocurrencies, so we would discourage using this feature as well.
+**Brave Wallet은** 사용자의 컴퓨터에서 로컬로 실행되지만, 개인 암호화폐는 지원하지 않으므로 이 기능의 사용도 권장하지 않습니다.
 
 ## 평가 기준
 
@@ -370,22 +370,22 @@ We recommend disabling search suggestions in Brave for the same reason we recomm
 
 - 오픈 소스 소프트웨어여야 합니다.
 - 자동 업데이트를 지원해야 합니다.
-- Must receive engine updates in 0-1 days from upstream release.
-- Must be available on Linux, macOS, and Windows.
-- Any changes required to make the browser more privacy-respecting must not negatively impact user experience.
-- Must block third-party cookies by default.
-- Must support [state partitioning](https://developer.mozilla.org/docs/Web/Privacy/State_Partitioning) to mitigate cross-site tracking.[^1]
+- 상위 릴리스 이후 0~1일 이내에 엔진 업데이트를 받아야 합니다.
+- 리눅스, 맥OS 및 윈도우에서 사용 가능해야 합니다.
+- 브라우저의 개인정보 보호 기능을 강화하기 위해 필요한 모든 변경 사항은 사용자 경험에 부정적인 영향을 미쳐서는 안 됩니다.
+- 기본적으로 제3자 쿠키를 차단해야 합니다.
+- 사이트 간 추적을 방지하기 위해 [상태 분할을](https://developer.mozilla.org/docs/Web/Privacy/State_Partitioning) 지원해야 합니다.[^1]
 
 ### 우대 사항
 
 평가 기준에서 '우대 사항'은 해당 부문에서 완벽한 프로젝트에 기대하는 바를 나타냅니다. 다음의 우대 사항에 해당하지 않더라도 권장 목록에 포함될 수 있습니다. 단, 우대 사항에 해당할수록 이 페이지의 다른 항목보다 높은 순위를 갖습니다.
 
-- Should include built-in content blocking functionality.
-- Should support cookie compartmentalization (à la [Multi-Account Containers](https://support.mozilla.org/kb/containers)).
-- Should support Progressive Web Apps (PWAs). PWAs enable you to install certain websites as if they were native apps on your computer. This can have advantages over installing Electron-based apps because PWAs benefit from your browser's regular security updates.
-- Should not include add-on functionality (bloatware) that does not impact user privacy.
-- Should not collect telemetry by default.
-- Should provide an open-source sync server implementation.
-- Should default to a [private search engine](search-engines.md).
+- 콘텐츠 차단 기능을 내장해야 합니다.
+- 쿠키 구획화를 지원해야 합니다. (예시: [다중 컨테이너](https://support.mozilla.org/ko/kb/containers))
+- 프로그레시브 웹 앱(PWA)을 지원해야 합니다. PWA를 사용하면 특정 웹사이트를 마치 컴퓨터에 설치된 네이티브 앱처럼 설치할 수 있습니다. PWA는 브라우저의 정기적인 보안 업데이트의 혜택을 받기 때문에, 이는 Electron 기반 앱을 설치하는 것보다 장점이 될 수 있습니다.
+- 사용자의 개인정보 보호에 영향을 미치지 않는 부가 기능(블로트웨어)은 포함해서는 안 됩니다.
+- 기본적으로 원격 분석 데이터를 수집하지 않아야 합니다.
+- 오픈소스 동기화 서버 구현을 제공해야 합니다.
+- [개인 정보 보호 검색 엔진](search-engines.md)이 기본으로 설정되어 있어야 합니다.
 
-[^1]: Brave's implementation is detailed at [Brave Privacy Updates: Partitioning network-state for privacy](https://brave.com/privacy-updates/14-partitioning-network-state).
+[^1]: Brave의 구현 방식에 대한 자세한 내용은 [‘Brave 개인정보 보호 업데이트: 개인정보 보호를 위한 네트워크 상태 분할’에서 확인할](https://brave.com/privacy-updates/14-partitioning-network-state) 수 있습니다.

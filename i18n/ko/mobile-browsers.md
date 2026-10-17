@@ -50,7 +50,7 @@ These are our currently recommended **mobile web browsers** and configurations f
 
 ![Brave 로고](assets/img/browsers/brave.svg){ align=right }
 
-**Brave 브라우저**에는 내장 콘텐츠 차단기와 [개인정보 보호 기능](https://brave.com/privacy-features)이 포함되어 있으며, 이들 중 상당수는 기본적으로 활성화되어 있습니다.
+**브레이브 브라우저**에는 내장 콘텐츠 차단기와 [개인정보 보호 기능](https://brave.com/privacy-features)이 포함되어 있으며, 이들 중 상당수는 기본적으로 활성화되어 있습니다.
 
 Brace는 Chromium 웹 브라우저 프로젝트 기반으로 구축되었으므로, 친숙하며 웹사이트 호환성 문제가 적습니다.
 
@@ -150,9 +150,9 @@ Brace는 Chromium 웹 브라우저 프로젝트 기반으로 구축되었으므�
     - [ ] Uncheck **Allow sites to check if you have payment methods saved**
     - [x] Select **Do not speed up sites with Brave's V8 engine but make Brave slightly more resistant to attacks**
     - [x] Select **Close tabs on exit**
-    - [ ] Uncheck **Allow privacy-preserving product analytics (P3A)**
-    - [ ] Uncheck **Automatically send diagnostic reports**
-    - [ ] Uncheck **Automatically send daily usage ping to Brave**
+    - [ ] **‘개인정보 보호형 제품 분석(P3A) 허용’** 선택 해제
+    - [ ] **‘진단 보고서 자동 전송**’ 선택 해제
+    - [ ] **‘Brave에 매일 사용량 핑을 자동으로 전송**’ 선택 해제
 
     </div>
 
@@ -161,7 +161,7 @@ Brace는 Chromium 웹 브라우저 프로젝트 기반으로 구축되었으므�
 === "iOS"
 
     - [ ] Uncheck **Allow Privacy-Preserving Product Analytics (P3A)**
-    - [ ] Uncheck **Automatically send daily usage ping to Brave**
+    - [ ] **‘Brave에 매일 사용량 핑을 자동으로 전송**’ 선택 해제
 
 #### Leo AI
 
@@ -183,7 +183,7 @@ Brace는 Chromium 웹 브라우저 프로젝트 기반으로 구축되었으므�
 
     These options can be found in :material-dots-vertical: → **Settings** → **Search engines**.
 
-    -
+    - [ ] **‘검색 제안 표시’** 선택 해제
 
 === "iOS"
 
@@ -193,7 +193,7 @@ Brace는 Chromium 웹 브라우저 프로젝트 기반으로 구축되었으므�
 
 #### Brave Sync
 
-[Brave Sync](https://support.brave.com/hc/articles/360059793111-Understanding-Brave-Sync) allows your browsing data (history, bookmarks, etc.) to be accessible on all your devices without requiring an account and protects it with E2EE.
+[브레이브 싱크를](https://support.brave.com/hc/articles/360059793111-Understanding-Brave-Sync) 사용하면 계정 없이도 모든 기기에서 검색 데이터(검색 기록, 북마크 등)에 액세스할 수 있으며, 종단 간 암호화 (E2EE) 로 데이터를 보호합니다.
 
 ## Safari (iOS)
 
