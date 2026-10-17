@@ -1,74 +1,74 @@
 ---
-title: Consider Everyone's Unique Situation
-description: To give actionable privacy advice, it's essential to consider everyone's situation. Learn more on how you can evaluate each person's unique threat model.
+title: 각자의 고유한 상황 고려하기
+description: 실천 가능한 프라이버시 조언을 하려면 각자의 상황을 고려하는 것이 필수입니다. 각 사람의 고유한 위협 모델을 평가하는 방법을 알아보세요.
 icon: fontawesome/solid/users-between-lines
 cover: activism/banner-toolbox-tip-everyone.webp
 ---
 
-Everyone has different needs, and everyone faces different dangers when their personal data gets exposed.
+사람마다 필요가 다르고, 개인 데이터가 노출되었을 때 직면하는 위험도 모두 다릅니다.
 
-To give actionable privacy advices and recommendations, it's essential to **keep in mind everyone's situation**. There isn't a one-size-fits-all approach when it comes to data privacy.
+실천 가능한 프라이버시 조언과 추천을 하려면 **각자의 상황을 염두에 두는 것**이 필수입니다. 데이터 프라이버시에는 모두에게 맞는 단 하나의 방법이 없습니다.
 
-Here's how you can get better at evaluating each person's unique [_threat model_](../../basics/threat-modeling.md):
+각 사람의 고유한 [_위협 모델_](../../basics/threat-modeling.md)을 더 잘 평가하는 방법은 다음과 같습니다:
 
-## What is a threat model?
+## 위협 모델이란 무엇인가요?
 
-We regularly use the term "threat model" in cybersecurity and data privacy. This might sound obscure at first if you haven't seen it before, but it's quite simple: A threat model is an evaluation of what is dangerous for a certain person (or entity) in a given situation, and what protective measures should be prioritized.
+사이버 보안과 데이터 프라이버시 분야에서는 "위협 모델"이라는 용어를 자주 사용합니다. 처음 접한다면 어렵게 들릴 수 있지만, 개념은 아주 간단합니다. 위협 모델이란 주어진 상황에서 특정 사람(또는 주체)에게 무엇이 위험한지, 그리고 어떤 보호 조치를 우선해야 하는지를 평가하는 것입니다.
 
-For example, if you leave near the equator, polar bears might not be an important threat to your safety. However, if you live in Nunavut, it may be important to get information on how to prevent a polar bear attack.
+예를 들어 적도 근처에 산다면 북극곰은 여러분의 안전에 중요한 위협이 아닐 것입니다. 하지만 누나부트에 산다면 북극곰의 공격을 예방하는 방법을 알아 두는 것이 중요할 수 있습니다.
 
-Similarly, when you choose privacy protections for yourself or for others, you should first ask a few questions to understand better what information you are trying to protect, from whom, and in which context.
+마찬가지로 자신이나 다른 사람을 위해 프라이버시 보호 수단을 고를 때는, 먼저 몇 가지 질문을 던져 어떤 정보를, 누구로부터, 어떤 맥락에서 보호하려는 것인지 더 잘 파악해야 합니다.
 
-## What questions to ask?
+## 어떤 질문을 해야 할까요?
 
-To establish a threat model, ask the following questions:
+위협 모델을 세우려면 다음 질문을 던져 보세요:
 
-1. What information leak could endanger this person or organization the most?
-2. Who this information should be protected from?
-3. How likely is it that this person or entity could access this information?
-4. What could happen if this person or entity had access to this information?
-5. What are the protections available to protect this information specifically from this person or entity?
-6. What would be the downside of using these protections?
-7. How long do these protections need to remain in place?
+1. 어떤 정보가 유출되면 이 사람이나 단체가 가장 큰 위험에 처할까?
+2. 이 정보를 누구로부터 보호해야 할까?
+3. 그 사람이나 주체가 이 정보에 접근할 가능성은 얼마나 될까?
+4. 그 사람이나 주체가 이 정보에 접근하면 어떤 일이 일어날 수 있을까?
+5. 바로 그 사람이나 주체로부터 이 정보를 보호하기 위해 사용할 수 있는 수단은 무엇일까?
+6. 이러한 보호 수단을 사용할 때의 단점은 무엇일까?
+7. 이러한 보호 수단을 얼마나 오래 유지해야 할까?
 
-Ask, rinse, and repeat for each type of information. The answers to these questions will be unique for each person or organization. This is their unique threat model.
+정보의 종류마다 이 질문을 반복하세요. 이 질문들에 대한 답은 사람이나 단체마다 다를 것입니다. 이것이 바로 그들의 고유한 위협 모델입니다.
 
-<details class="danger" markdown><summary>Example scenario: Threat of stalking</summary>
+<details class="danger" markdown><summary>예시 시나리오: 스토킹 위협</summary>
 
-**Needs:** Alice is a young celebrity sharing a lot of information about herself on social media. As part of her work, she has to be able to share photos of herself, her legal name, some of her travel information, and details about her personal life.
+**필요:** 앨리스는 소셜 미디어에 자신에 관한 정보를 많이 공유하는 젊은 유명인입니다. 일의 특성상 그녀는 자신의 사진, 법적 이름, 일부 여행 정보, 사생활에 관한 세부 사항을 공유할 수 있어야 합니다.
 
-**Threat:** However, to protect herself from an aggressive stalker, she must protect information about her _home address_ at all cost.
+**위협:** 하지만 공격적인 스토커로부터 자신을 지키기 위해, 그녀는 _집 주&#xC18C;_&#xC5D0; 관한 정보만큼은 무슨 일이 있어도 보호해야 합니다.
 
-**Level of danger:** She already received threats online, and the danger to her safety is imminent if her home address were to be known to this aggressive stalker.
+**위험 수준:** 그녀는 이미 온라인에서 협박을 받았으며, 이 공격적인 스토커가 집 주소를 알게 된다면 그녀의 안전은 즉각적인 위험에 처하게 됩니다.
 
-**Information to protect and solutions:** Everywhere that Alice is required to share her home address must be protected. She should use a PO box every time her personal address isn't absolutely necessary. She should make sure to only share her address with trusted people that are informed about this danger. And she should inspect all of her photos and metadata carefully, to make sure her location is never precisely [revealed](https://www.privacyguides.org/articles/2025/03/25/privacy-means-safety/#victims-of-stalkers).
-
-</details>
-
-<details class="danger" markdown><summary>Example scenario: Surveillance Capitalism</summary>
-
-**Needs:** Bob feels uncomfortable with companies using his information without his consent. He doesn't trust what they might do with this information later, or whom they might sell it to. He is especially worried about how companies and governments might use facial recognition with him.
-
-**Threat:** To limit facial recognition, Bob doesn't want any companies to have access to a _photo of his face_.
-
-**Level of danger:** If Bob or someone close to Bob posted a photo of his face online, the numerous bots constantly scanning the open web and social media platforms would have a copy of it in no time.
-
-**Information to protect and solutions:** To prevent this, Bob should not post any photos of his face online. He should make sure to only choose profile pictures that don't show his face for social media, and inspect any other photos posted to make sure his face doesn't show up on reflective surfaces. He should also inform his friends and family that he doesn't want photos of himself to be posted online, and he should protect his phone camera roll and cloud storage from getting [scanned](https://www.forbes.com/sites/zakdoffman/2026/01/15/google-upgrade-starts-scanning-all-your-photos-be-very-careful/) by remotely controlled AI. Bob should also opt out of any online platforms demanding a facial scan or photo ID in order to [verify his age](https://www.privacyguides.org/videos/2025/08/15/age-verification-is-a-privacy-nightmare/) or identity.
+**보호할 정보와 해결책:** 앨리스가 집 주소를 제공해야 하는 모든 곳에서 주소를 보호해야 합니다. 개인 주소가 꼭 필요하지 않을 때는 언제나 사서함을 사용해야 합니다. 주소는 이 위험을 알고 있는 믿을 수 있는 사람들하고만 공유해야 합니다. 또한 자신의 위치가 정확히 [드러나는](https://www.privacyguides.org/articles/2025/03/25/privacy-means-safety/#victims-of-stalkers) 일이 절대 없도록 모든 사진과 메타데이터를 꼼꼼히 확인해야 합니다.
 
 </details>
 
-## Respect people's choices when it comes to their own privacy, even if they are different from yours
+<details class="danger" markdown><summary>예시 시나리오: 감시 자본주의</summary>
 
-When advising others on data privacy, it's easy to get carried away and forget that other people might have different threat models from our own.
+**필요:** 밥은 기업이 동의 없이 자신의 정보를 사용하는 것이 불편합니다. 그는 기업이 나중에 이 정보로 무엇을 할지, 누구에게 팔아넘길지 믿을 수 없습니다. 특히 기업과 정부가 자신에게 얼굴 인식 기술을 어떻게 사용할지 걱정하고 있습니다.
 
-Once we have provided the information to somebody who might need it, it's important to take a step back and respect their choices. If someone understands the risks, and decides that sharing this information _about themselves_ is an acceptable level of risk to them, we cannot (and shouldn't try) to force them in using the same level of protection we have adopted ourselves, if they don't want to.
+**위협:** 얼굴 인식을 제한하기 위해, 밥은 어떤 기업도 _자신의 얼굴 사&#xC9C4;_&#xC5D0; 접근하지 못하기를 원합니다.
 
-Of course, this might be a different story if their decision also affects the data of others. But if it only concerns their own data, the choice is theirs.
+**위험 수준:** 밥이나 밥의 지인이 그의 얼굴 사진을 온라인에 올리면, 공개 웹과 소셜 미디어 플랫폼을 끊임없이 스캔하는 수많은 봇이 순식간에 사본을 확보할 것입니다.
 
-To be a good privacy advocate is to provide information and support when needed. But ultimately, privacy is about deciding what one is comfortable sharing about themselves or not. We can only choose this for ourselves, not for others.
+**보호할 정보와 해결책:** 이를 막으려면 밥은 자신의 얼굴 사진을 온라인에 올리지 않아야 합니다. 소셜 미디어 프로필 사진은 얼굴이 나오지 않는 것으로만 고르고, 그 밖에 올리는 사진도 반사되는 표면에 얼굴이 비치지 않는지 확인해야 합니다. 또한 친구와 가족에게 자신의 사진이 온라인에 올라가는 것을 원하지 않는다고 알리고, 휴대폰 사진첩과 클라우드 저장소가 원격으로 제어되는 AI에 의해 [스캔](https://www.forbes.com/sites/zakdoffman/2026/01/15/google-upgrade-starts-scanning-all-your-photos-be-very-careful/)되지 않도록 보호해야 합니다. 밥은 [연령 인증](https://www.privacyguides.org/videos/2025/08/15/age-verification-is-a-privacy-nightmare/)이나 신원 확인을 위해 얼굴 스캔이나 사진이 부착된 신분증을 요구하는 온라인 플랫폼도 이용하지 않아야 합니다.
 
-## More resources
+</details>
 
-- [More detailed information on threat modeling (_Privacy Guides_)](../../basics/threat-modeling.md)
+## 자신의 프라이버시에 관한 다른 사람의 선택은, 여러분과 다르더라도 존중하세요
 
-- [Examples of common threats (_Privacy Guides_)](../../basics/common-threats.md)
+다른 사람에게 데이터 프라이버시에 관해 조언하다 보면, 열의가 앞서 다른 사람의 위협 모델이 우리와 다를 수 있다는 사실을 잊기 쉽습니다.
+
+필요할 수 있는 사람에게 정보를 제공했다면, 한발 물러서서 그들의 선택을 존중하는 것이 중요합니다. 누군가가 위험을 이해한 상태에서 _자신에 관한_ 정보를 공유하는 것이 감수할 만한 위험이라고 판단했다면, 본인이 원하지 않는 한 우리가 적용하고 있는 것과 같은 수준의 보호를 강요할 수 없습니다(그리고 강요하려 해서도 안 됩니다).
+
+물론 그 결정이 다른 사람의 데이터에도 영향을 미친다면 이야기가 달라질 수 있습니다. 하지만 자신의 데이터에만 관련된 일이라면, 선택은 그들의 몫입니다.
+
+좋은 프라이버시 옹호자란 필요할 때 정보와 지원을 제공하는 사람입니다. 하지만 결국 프라이버시란 자신에 관해 무엇을 공유해도 괜찮은지 스스로 결정하는 것입니다. 이 선택은 우리 자신을 위해서만 할 수 있을 뿐, 다른 사람을 대신해 할 수는 없습니다.
+
+## 추가 자료
+
+- [위협 모델링에 관한 더 자세한 정보 (_프라이버시 가이드_)](../../basics/threat-modeling.md)
+
+- [흔한 위협의 예시 (_프라이버시 가이드_)](../../basics/common-threats.md)

@@ -37,7 +37,7 @@ Privacy Guides does not buy or receive data about you from data brokers.
 
 ## Does Privacy Guides sell my personal information?
 
-No. Privacy Guides does not sell personal information. Additionally, Privacy Guides does not share personal information with third parties for the purpose of advertising.
+번호 Privacy Guides does not sell personal information. Additionally, Privacy Guides does not share personal information with third parties for the purpose of advertising.
 
 ## What personal information does Privacy Guides collect, and why?
 

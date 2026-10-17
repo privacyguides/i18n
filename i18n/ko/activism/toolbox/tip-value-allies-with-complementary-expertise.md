@@ -1,52 +1,52 @@
 ---
-title: Value Allies with Complementary Expertise
-description: In privacy like everywhere else, diversity is a strength. If you want your community to have a broad set of skills, you need to value a diversity of expertises.
+title: 나와 상호 보완적인 전문성을 지닌 동료 존중하기
+description: 다른 모든 분야와 마찬가지로 프라이버시 분야에서도 다양성은 힘입니다. 커뮤니티가 폭넓은 역량을 갖추기를 바란다면, 다양한 전문성을 존중해야 합니다.
 icon: fontawesome/solid/circle-half-stroke
 cover: activism/banner-toolbox-tip-complement.webp
 ---
 
-In privacy, like in other areas of life, **diversity is an incredible strength**. If you want your community to have a broad understanding of threat models, and be able to address issues on multiple levels, you need to value a diversity of expertises.
+삶의 다른 영역과 마찬가지로 프라이버시 분야에서도 **다양성은 엄청난 힘입니다**. 커뮤니티가 위협 모델을 폭넓게 이해하고 여러 차원에서 문제에 대응할 수 있기를 바란다면, 다양한 전문성을 존중해야 합니다.
 
-Gathering people with a wide range of skills and experiences in your community is critical to effective work. People with different skill sets and lived experiences will together be able to reach out to a broader audience, and provide much more accurate and useful advice covering a variety of situations.
+다양한 기술과 경험을 가진 사람들을 커뮤니티에 모으는 것은 효과적인 활동에 매우 중요합니다. 서로 다른 역량과 삶의 경험을 가진 사람들이 함께하면 더 많은 사람에게 다가갈 수 있고, 다양한 상황을 아우르는 훨씬 더 정확하고 유용한 조언을 제공할 수 있습니다.
 
-Here's how to recognize, respect, and retain experts with skills that are different to your own:
+나와 다른 기술을 가진 전문가를 알아보고, 존중하고, 곁에 머물게 하는 방법은 다음과 같습니다:
 
-## Recognize people with different skills
+## 다른 기술을 가진 사람 알아보기
 
-Privacy is a vast multidisciplinary field. It doesn't just encompass the privacy technologies we use to protect our data, but also the laws that determine the legality of the tools and practices we use. Furthermore, the culture plays an essential role in our fight for better rights, despite being often a neglected aspect of privacy.
+프라이버시는 방대한 학제 간 분야입니다. 여기에는 데이터를 보호하기 위해 사용하는 프라이버시 기술뿐만 아니라, 우리가 사용하는 도구와 관행의 합법성을 결정하는 법률도 포함됩니다. 게다가 프라이버시에서 자주 간과되는 측면이긴 하지만, 문화도 더 나은 권리를 위한 싸움에서 핵심적인 역할을 합니다.
 
-Being an expert in privacy can mean so many things. No two specialists have the same knowledge.
+프라이버시 전문가라는 말은 정말 많은 것을 의미할 수 있습니다. 같은 지식을 가진 전문가는 두 명도 없습니다.
 
-Whatever your own privacy expertise might be, make sure to always stay aware of the [bigger picture](tip-keep-in-mind-the-whole-landscape.md), and recognize that other privacy specialists might have knowledge entirely different from yours. Your knowledge might intersect, or you might not share any at all.
+여러분의 프라이버시 전문 분야가 무엇이든, 항상 [더 큰 그림](tip-keep-in-mind-the-whole-landscape.md)을 놓치지 말고 다른 프라이버시 전문가가 여러분과 전혀 다른 지식을 가지고 있을 수 있다는 점을 인정하세요. 지식이 서로 겹칠 수도 있고, 전혀 겹치지 않을 수도 있습니다.
 
-This doesn't mean they are any less valuable. On the contrary, this ==diversity of knowledge gives us the best chance to succeed== in our common cause.
+그렇다고 그들의 가치가 덜한 것은 아닙니다. 오히려 이러한 ==지식의 다양성이 우리에게 가장 좋은 성공의 기회를 줍니다==. 우리의 공동 대의를 위해서 말이죠.
 
-## Respect people with different knowledge
+## 다른 지식을 가진 사람 존중하기
 
-It's easy to fall in the trap of staying with our own group of peers who share the same knowledge as ours and discard the others. Unfortunately, this attitude is detrimental to our movement.
+우리와 같은 지식을 가진 동료들끼리만 어울리고 다른 사람들은 배제하는 함정에 빠지기 쉽습니다. 안타깝게도 이런 태도는 우리 운동에 해롭습니다.
 
-As a privacy activist, it's essential to **develop respect** for privacy advocates who specialize in privacy-related knowledge other than your own. You need them to fight _with_ you, and they need you to fight with them.
+프라이버시 활동가라면 여러분과 다른 프라이버시 관련 지식을 전문으로 하는 프라이버시 옹호자들을 **존중하는 마음을 기르는 것**이 필수입니다. 여러분에게는 그들이 _함께_ 싸워 줄 필요가 있고, 그들에게도 여러분이 함께 싸워 줄 필요가 있습니다.
 
-Pay attention to the people in your groups that might be pushed aside because their area of expertise is different from the majority that are present. Try to make them feel respected and included in your groups and communities. Engage with them positively when they contribute, even if you don't understand their specialty.
+그룹 안에서 전문 분야가 다수와 다르다는 이유로 밀려날 수 있는 사람들에게 관심을 기울이세요. 그들이 그룹과 커뮤니티에서 존중받고 포용된다고 느끼도록 노력하세요. 그들의 전문 분야를 잘 모르더라도, 그들이 기여할 때는 긍정적으로 반응하세요.
 
-If you specialize in technical tools, value people with legal and social knowledge and be public about your respect for these specialties. Conversely, if you are a privacy lawyer, bring technical or cultural experts to your groups, and value their roles working for our common cause.
+기술적 도구를 전문으로 한다면, 법률과 사회 분야의 지식을 가진 사람들을 존중하고 그 전문성에 대한 존중을 공개적으로 표현하세요. 반대로 프라이버시 변호사라면, 기술이나 문화 분야의 전문가를 그룹에 데려오고 우리의 공동 대의를 위해 일하는 그들의 역할을 존중하세요.
 
-## Retain specialists that are different
+## 다른 전문가가 곁에 머물게 하기
 
-**Inclusivity is key** to retaining newcomers in your groups and communities. People who are new or different from the majority of the group should feel welcome and valued.
+그룹과 커뮤니티에 새로운 사람들이 머물게 하려면 **포용성이 핵심입니다**. 새로 온 사람이나 그룹의 다수와 다른 사람도 환영받고 존중받는다고 느껴야 합니다.
 
-Work on developing your awareness of these dynamics in your groups. Try to improve your empathy skills, and [support better your privacy comrades](tip-support-your-privacy-comrades.md), especially those who might be different from the majority because of their expertise, demographic, or location. Reach out to them in private to make them feel welcome. Praise them publicly when they contribute in a way you like. [Give credit where credit is due](tip-give-credit-where-credit-is-due.md).
+그룹 안에서 이러한 역학을 인식하는 능력을 기르세요. 공감 능력을 키우고, 특히 전문성, 인구통계적 특성, 지역 때문에 다수와 다를 수 있는 사람들을 중심으로 [프라이버시 동지들을 더 잘 지원하세요](tip-support-your-privacy-comrades.md). 개인적으로 연락해 그들이 환영받는다고 느끼게 해 주세요. 그들이 마음에 드는 방식으로 기여하면 공개적으로 칭찬하세요. [인정받아야 할 공로는 마땅히 인정하세요](tip-give-credit-where-credit-is-due.md).
 
-If you organize an event or hire people, make sure to fairly compensate all your contributors. Pay special attention to make sure people with different expertises or demographics aren't always the ones who have to work as volunteers.
+행사를 열거나 사람을 고용한다면, 모든 기여자에게 공정한 보상을 하세요. 다른 전문성이나 인구통계적 특성을 가진 사람들만 늘 자원봉사자로 일하게 되는 일이 없도록 특히 신경 쓰세요.
 
-Inclusivity, empathy, support, acknowledging successes publicly, and fair compensation are all tools that will help you retain diverse specialists with expertises that are complementary to yours in your communities.
+포용성, 공감, 지원, 성공에 대한 공개적인 인정, 공정한 보상은 모두 여러분과 상호 보완적인 전문성을 지닌 다양한 전문가들이 커뮤니티에 머물게 하는 데 도움이 되는 도구입니다.
 
-This is something that is _incredibly_ valuable in our fight for privacy rights, together.
+이는 프라이버시 권리를 위해 함께 싸우는 데 있어 _엄청나게_ 가치 있는 일입니다.
 
-## More resources
+## 추가 자료
 
-- [The psychology of activism and movement longevity (_Museum of Protest_)](https://museumofprotest.org/guides/guide-the-psychology-of-activism-and-movement-longevity/)
+- [행동주의의 심리학과 운동의 지속성 (_뮤지엄 오브 프로테스트_)](https://museumofprotest.org/guides/guide-the-psychology-of-activism-and-movement-longevity/)
 
-- [Is your team using its biggest resource (_Social Science Space_)](https://www.socialsciencespace.com/2013/07/is-your-team-using-its-biggest-resource/)
+- [여러분의 팀은 가장 큰 자원을 활용하고 있나요 (_소셜 사이언스 스페이스_)](https://www.socialsciencespace.com/2013/07/is-your-team-using-its-biggest-resource/)
 
-- [How to make people feel valued on projects (_PM Today_)](https://www.pmtoday.co.uk/how-to-make-people-feel-valued-on-projects/)
+- [프로젝트에서 사람들이 존중받는다고 느끼게 하는 방법 (_PM 투데이_)](https://www.pmtoday.co.uk/how-to-make-people-feel-valued-on-projects/)

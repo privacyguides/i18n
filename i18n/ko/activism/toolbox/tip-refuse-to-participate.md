@@ -1,33 +1,33 @@
 ---
-title: Refuse to Participate
-description: As privacy activists, we must be a voice for resistance and take a stand against abusive practices, by refusing to comply with privacy-intrusive requests.
+title: 참여 거부하기
+description: 프라이버시 활동가로서 우리는 프라이버시를 침해하는 요청에 따르기를 거부함으로써 저항의 목소리를 내고 남용적인 관행에 맞서야 합니다.
 icon: fontawesome/solid/xmark-circle
 cover: activism/banner-toolbox-tip-refuse.webp
 ---
 
-As privacy advocates and activists, it's important to **be a voice for resistance** and take a stand against abusive practices. One substantial way to do this is to refuse to participate in privacy-intrusive requests, or use invasive software.
+프라이버시 옹호자이자 활동가로서 **저항의 목소리를 내고** 남용적인 관행에 맞서는 것이 중요합니다. 그 실질적인 방법 중 하나는 프라이버시를 침해하는 요청에 응하거나 침해적인 소프트웨어를 사용하는 것을 거부하는 것입니다.
 
-Here's how you can refuse to comply with privacy-abusive practices, and why it's imperative that you do whenever possible:
+프라이버시를 침해하는 관행에 따르기를 거부하는 방법과, 가능할 때마다 거부하는 것이 왜 반드시 필요한지 알아봅시다:
 
-## The risk of complying with privacy-invasive requests
+## 프라이버시를 침해하는 요청에 응할 때의 위험
 
-Requests to invade our privacy are part of our daily lives in today's world. Whether it's a store cashier banally asking for our phone number after a purchase, or a prominent facial scan at the airport with no clear instructions on how to opt out, ==privacy-invasive requests have become so normalized== that most people barely notice them anymore.
+오늘날 우리의 프라이버시를 침해하는 요청은 일상의 일부가 되었습니다. 계산 후 매장 직원이 아무렇지 않게 전화번호를 묻는 일이든, 거부하는 방법에 대한 명확한 안내도 없이 공항에서 버젓이 얼굴을 스캔하는 일이든, ==프라이버시를 침해하는 요청은 너무나 일상화되어== 대부분의 사람이 더는 거의 알아차리지 못합니다.
 
-The problem is, each time we mindlessly comply because we are tired, rushed, or failed to even notice how unnecessary and intrusive this is, we directly contribute in normalizing bad practices even more.
+문제는 피곤하거나 바쁘거나, 그 요청이 얼마나 불필요하고 침해적인지 미처 알아차리지 못해 생각 없이 따를 때마다, 우리가 나쁜 관행을 더욱 일상화하는 데 직접 기여한다는 것입니다.
 
-While it might be ambitious to expect people who aren't even aware of privacy issues to say no, as privacy advocates we have a responsibility to lead by example, and refuse every single time we legally can. Ideally, we should also document and report on our experience, as this presents a unique opportunity to raise awareness on the issue.
+프라이버시 문제를 인식조차 못 하는 사람들에게 거절을 기대하는 것은 무리일 수 있지만, 프라이버시 옹호자인 우리에게는 솔선수범하여 법적으로 가능할 때마다 매번 거부할 책임이 있습니다. 이상적으로는 그 경험을 기록하고 알리는 것도 좋습니다. 문제에 대한 인식을 높일 수 있는 특별한 기회가 되기 때문입니다.
 
-## The risk of using privacy-abusive platforms
+## 프라이버시를 침해하는 플랫폼을 사용할 때의 위험
 
-Each time we use a platform, tool, or service that is privacy-invasive in our practice, we also contribute in normalizing the use of privacy-abusive software.
+활동 중에 프라이버시를 침해하는 플랫폼, 도구, 서비스를 사용할 때마다 우리는 프라이버시 침해 소프트웨어의 사용을 일상화하는 데에도 기여하게 됩니다.
 
-It's not always easy to [leave Big Tech](tip-migrate-outside-the-surveillance-ecosystem.md) and adopt more privacy-preserving technologies in our daily work. Nevertheless, it's an essential part of our advocacy.
+일상 업무에서 [빅테크를 떠나](tip-migrate-outside-the-surveillance-ecosystem.md) 프라이버시를 더 잘 보호하는 기술을 도입하는 것이 늘 쉽지만은 않습니다. 그렇지만 이는 옹호 활동의 필수적인 부분입니다.
 
-When we use products that do not reflect the values we are asking people to adopt, we not only undermine our own credibility as privacy advocates, but we also harm the privacy rights movement as a whole. It's crucial to lead by example and publicly refuse to use and participate in privacy-abusive platforms, as much as feasible for our situation.
+사람들에게 받아들이라고 요구하는 가치를 반영하지 않는 제품을 쓰면, 프라이버시 옹호자로서의 신뢰를 스스로 깎아내릴 뿐만 아니라 프라이버시 권리 운동 전체에도 해를 끼치게 됩니다. 각자의 상황에서 가능한 한 솔선수범하여 프라이버시를 침해하는 플랫폼을 사용하거나 참여하는 것을 공개적으로 거부하는 것이 매우 중요합니다.
 
-## How to refuse to participate in abusive practices, and take a stand for privacy rights
+## 남용적인 관행에 대한 참여를 거부하고 프라이버시 권리를 지지하는 방법
 
-There are many ways to refuse to participate in privacy-invasive practices and platforms. Here are a few things you can try to do in your daily life, and in your privacy advocacy work:
+프라이버시를 침해하는 관행과 플랫폼에 대한 참여를 거부하는 방법은 다양합니다. 일상생활과 프라이버시 옹호 활동에서 시도해 볼 수 있는 몇 가지 방법을 소개합니다:
 
 <style>
 .emoji-list-a ul {
@@ -41,40 +41,40 @@ There are many ways to refuse to participate in privacy-invasive practices and p
 
 <div class="emoji-list-a" markdown>
 
-- Use an [ad blocker](https://www.privacyguides.org/en/browser-extensions/) everywhere you can.
+- 가능한 모든 곳에서 [광고 차단기](https://www.privacyguides.org/en/browser-extensions/)를 사용하세요.
 
-- Categorically and obstinately reject all cookies, every single time.
+- 모든 쿠키를 매번 단호하고 끈질기게 거부하세요.
 
-- Read apps' privacy-labels, and always favor applications that are the least intrusive.
+- 앱의 개인정보 보호 라벨을 읽고, 항상 가장 덜 침해적인 애플리케이션을 선택하세요.
 
-- Migrate [away from abusive Big Tech](tip-migrate-outside-the-surveillance-ecosystem.md) products and platforms.
+- [남용적인 빅테크](tip-migrate-outside-the-surveillance-ecosystem.md) 제품과 플랫폼에서 벗어나세요.
 
-- Try to move out or reduce your usage of [privacy-exploiting social media](tip-improve-your-social-media-and-build-resilient-communities.md).
+- [프라이버시를 착취하는 소셜 미디어](tip-improve-your-social-media-and-build-resilient-communities.md)에서 떠나거나 사용을 줄여 보세요.
 
-- Each time you install a new application or create a new account, go through the settings to disable all the privacy-invasive features you can disable. Make sure to disable any AI features as well.
+- 새 애플리케이션을 설치하거나 새 계정을 만들 때마다 설정을 살펴보고, 끌 수 있는 프라이버시 침해 기능은 모두 끄세요. AI 기능도 반드시 끄세요.
 
-- When requested to provide unnecessary personal information by a cashier or an online form, firmly refuse to provide anything that isn't legally necessary.
+- 계산원이나 온라인 양식이 불필요한 개인정보를 요구하면, 법적으로 꼭 필요한 정보가 아닌 한 단호하게 거부하세요.
 
-- Inform yourself in advance about potential legal options to opt out of privacy-invasive technologies such as airport facial scanner.
+- 공항 얼굴 스캐너처럼 프라이버시를 침해하는 기술을 거부할 수 있는 법적 선택지가 있는지 미리 알아 두세요.
 
-- Refuse to provide an official piece of ID online for purposes that aren't strictly necessary, such as government requests. Do not comply with intrusive [age-verification](https://www.privacyguides.org/articles/2025/05/06/age-verification-wants-your-face/) processes. Leave your account abandoned instead, or [delete it](../../basics/account-deletion.md) if you still can. Additionally, consider contacting your government representatives and the platform's complaint email to voice your privacy concerns about such practice.
+- 정부 요청처럼 꼭 필요한 경우가 아니라면 온라인에서 공식 신분증을 제출하지 마세요. 침해적인 [연령 인증](https://www.privacyguides.org/articles/2025/05/06/age-verification-wants-your-face/) 절차에 응하지 마세요. 대신 계정을 방치하거나, 아직 가능하다면 [삭제하세요](../../basics/account-deletion.md). 또한 정부 대표자와 플랫폼의 민원 이메일로 연락해 그러한 관행에 대한 프라이버시 우려를 전달하는 것도 고려해 보세요.
 
-- [Report privacy violations](tip-report-privacy-violations.md) of your local privacy laws whenever you can.
+- 가능할 때마다 지역 개인정보 보호법 위반 사항을 [신고하세요](tip-report-privacy-violations.md).
 
-- Depending on your position, refuse to collect or share personal information on others without their prior, explicit, and informed consent (unless you are _legally_ required). Be mindful of the software or third-party partners you use that could inadvertently share more information about others than you intended, such as [website telemetry](https://sebastiangreger.net/2014/02/privacy-aware-design-replacing-google-analytics/) or [social media buttons](https://www.tunnelbear.com/blog/why-we-created-our-own-social-media-buttons-on-our-website/).
+- 여러분의 입장에 따라, (_법적으로_ 요구되는 경우가 아니라면) 사전에 명시적이고 충분한 설명에 근거한 동의 없이 다른 사람의 개인정보를 수집하거나 공유하는 것을 거부하세요. [웹사이트 텔레메트리](https://sebastiangreger.net/2014/02/privacy-aware-design-replacing-google-analytics/)나 [소셜 미디어 버튼](https://www.tunnelbear.com/blog/why-we-created-our-own-social-media-buttons-on-our-website/)처럼, 의도치 않게 다른 사람의 정보를 생각보다 많이 공유할 수 있는 소프트웨어나 제3자 파트너를 사용하고 있지 않은지 주의하세요.
 
-- Never share the personal information of others with an AI chatbot or platform. Decline to do this in your work, whenever possible.
+- 다른 사람의 개인정보를 절대 AI 챗봇이나 플랫폼에 공유하지 마세요. 업무에서도 가능할 때마다 이를 거절하세요.
 
-- Promote refusal around you. Inform others of their rights and responsibilities to opt out. Create accessible guides to educate the public on how they can also refuse to participate.
+- 주변에 거부 운동을 알리세요. 다른 사람들에게 거부할 수 있는 권리와 책임을 알려 주세요. 대중도 참여를 거부할 수 있는 방법을 알려 주는 이해하기 쉬운 가이드를 만드세요.
 
 </div>
 
-## More resources
+## 추가 자료
 
-- [_Privacy Guides_ tools and services recommendations](../../tools.md)
+- [_프라이버시 가이&#xB4DC;_&#xC758; 도구 및 서비스 추천](../../tools.md)
 
-- [You can say NO (_Privacy Guides_)](https://www.privacyguides.org/articles/2025/06/17/you-can-say-no/)
+- [거절해도 됩니다 (_프라이버시 가이드_)](https://www.privacyguides.org/articles/2025/06/17/you-can-say-no/)
 
-- [Selling surveillance as convenience (_Privacy Guides_)](https://www.privacyguides.org/articles/2025/06/07/selling-surveillance-as-convenience/)
+- [편리함이라는 이름으로 팔리는 감시 (_프라이버시 가이드_)](https://www.privacyguides.org/articles/2025/06/07/selling-surveillance-as-convenience/)
 
-- [6 effective tips to politely say no (_Science of People_)](https://www.scienceofpeople.com/how-to-say-no/)
+- [정중하게 거절하는 효과적인 팁 6가지 (_사이언스 오브 피플_)](https://www.scienceofpeople.com/how-to-say-no/)

@@ -1,59 +1,59 @@
 ---
-title: Improve Your Social Media and Build Resilient Communities
-description: Commercial social media platforms represent one of the biggest source of data exploitation. Learn how you can build better and more resilient social networks.
+title: 소셜 미디어를 개선하고 회복력 있는 커뮤니티 만들기
+description: 상업적 소셜 미디어 플랫폼은 데이터 착취의 가장 큰 원천 중 하나입니다. 더 나은, 더 회복력 있는 소셜 네트워크를 만드는 방법을 알아보세요.
 icon: fontawesome/solid/seedling
 cover: activism/banner-toolbox-tip-plant.webp
 ---
 
-Commercial social media platforms represent one of the biggest source of data exploitation. Facebook, Instagram, Threads, TikTok, and X all exploit their users' data to generate billions in profit every year. By staying active on these platforms, we continue to feed the beast and indirectly support this invasion of privacy rights.
+상업적 소셜 미디어 플랫폼은 데이터 착취의 가장 큰 원천 중 하나입니다. 페이스북, 인스타그램, 스레드, 틱톡, X는 모두 사용자 데이터를 착취해 매년 수십억 달러의 수익을 올립니다. 이러한 플랫폼에서 계속 활동하면 괴물에게 계속 먹이를 주는 셈이며, 이러한 프라이버시 권리 침해를 간접적으로 돕게 됩니다.
 
-Here's how you can **minimize your presence on commercial social media**, and slowly build more autonomous communities:
+**상업적 소셜 미디어에서의 활동을 최소화하고**, 더 자율적인 커뮤니티를 차근차근 만들어 가는 방법은 다음과 같습니다:
 
-## Why it's important to move away
+## 떠나는 것이 중요한 이유
 
-Moving away from large commercial platforms can be a complex process, but it's a very important one nonetheless.
+대형 상업 플랫폼에서 떠나는 것은 복잡한 과정일 수 있지만, 그럼에도 매우 중요한 일입니다.
 
-[Reducing our dependence on Big Tech](tip-migrate-outside-the-surveillance-ecosystem.md), including for social media platforms, is essential in our fight for better privacy rights.
+소셜 미디어 플랫폼을 포함해 [빅테크에 대한 의존을 줄이는 것](tip-migrate-outside-the-surveillance-ecosystem.md)은 더 나은 프라이버시 권리를 위한 싸움에서 필수적입니다.
 
-Not only this allows us to stop feeding a surveillance machine that grows ever hungry for data every month, but it gives us an opportunity to build much more resilient communities, and support platforms that aren't devouring peoples' privacy.
+이렇게 하면 달마다 데이터에 더 굶주려 가는 감시 기계에 먹이를 그만 줄 수 있을 뿐만 아니라, 훨씬 더 회복력 있는 커뮤니티를 만들고 사람들의 프라이버시를 집어삼키지 않는 플랫폼을 지원할 기회도 얻게 됩니다.
 
-Many are reluctant to quit commercial social media, despite the many issues that have only become worse in the past few years. It's not always easy to leave a place that feels like home and rebuild elsewhere. However, ==when the house is on fire, it's time to leave.==
+지난 몇 년 동안 여러 문제가 점점 더 심해졌는데도 많은 사람이 상업적 소셜 미디어를 떠나기를 망설입니다. 집처럼 느껴지는 곳을 떠나 다른 곳에서 다시 시작하는 것은 늘 쉽지만은 않습니다. 하지만 ==집에 불이 났다면 이제 떠날 때입니다.==
 
-The more we produce content, and the more we engage with our community on these privacy-invasive platforms, the more we contribute to sustain these predatory corporations making money and thriving at the expense of our followers' data.
+이런 프라이버시 침해 플랫폼에서 콘텐츠를 만들고 커뮤니티와 소통할수록, 팔로워들의 데이터를 희생시켜 돈을 벌고 번성하는 약탈적인 기업을 유지하는 데 더 많이 기여하게 됩니다.
 
-It's a responsibility for any privacy advocates to stay true to their values, and minimize their presence on exploitive platforms as much as feasible.
+모든 프라이버시 옹호자에게는 자신의 가치에 충실하고, 착취적인 플랫폼에서의 활동을 가능한 한 최소화할 책임이 있습니다.
 
-## Minimizing your presence on commercial social media platforms
+## 상업적 소셜 미디어 플랫폼에서의 활동 최소화하기
 
-Here are a few things you can start doing to reduce your contribution to Big Tech social media. This is presented on an escalating scale. Go as far as realistically possible for your situation:
+빅테크 소셜 미디어에 대한 기여를 줄이기 위해 시작할 수 있는 몇 가지 방법을 소개합니다. 단계별로 점점 강도를 높여 가는 순서로 정리했습니다. 여러분의 상황에서 현실적으로 가능한 만큼 실천해 보세요:
 
-1. Create an account that mirrors your regular posts on a [privacy-respecting platform](#embracing-privacy-respectful-alternatives), and announce it prominently on your commercial social media accounts.
+1. [프라이버시를 존중하는 플랫폼](#embracing-privacy-respectful-alternatives)에 평소 게시물을 똑같이 올리는 계정을 만들고, 상업적 소셜 미디어 계정에 눈에 띄게 알리세요.
 
-2. Regularly post on your commercial social media that you don't support this platform and encourage your followers to meet you on your new privacy-respecting social network instead.
+2. 상업적 소셜 미디어에 이 플랫폼을 지지하지 않는다는 게시물을 꾸준히 올리고, 팔로워들에게 프라이버시를 존중하는 새 소셜 네트워크에서 만나자고 권하세요.
 
-3. Use your commercial social media profile pictures and banners to advertise your new social network account (this will help fight potential Big Tech [censorship](https://gizmodo.com/elon-musk-twitter-ban-mastodon-1849903839) of text posts promoting competitors).
+3. 상업적 소셜 미디어의 프로필 사진과 배너를 활용해 새 소셜 네트워크 계정을 홍보하세요(경쟁 서비스를 홍보하는 글을 빅테크가 [검열](https://gizmodo.com/elon-musk-twitter-ban-mastodon-1849903839)할 가능성에 대응하는 데 도움이 됩니다).
 
-4. Tell your followers on commercial social media that you will stop engaging in replies here, but will reply to questions and comments on your new social network profile, and follow through.
+4. 상업적 소셜 미디어의 팔로워들에게 앞으로 그곳에서는 답글을 달지 않고, 새 소셜 네트워크 프로필에서 질문과 댓글에 답하겠다고 알리고, 실제로 그렇게 하세요.
 
-5. If this makes sense for your situation, after backing up your data, start deleting older content from your commercial social media profiles (you can use a tool like [Cyd](https://docs.cyd.social/docs/intro/) to help you with deletion).
+5. 여러분의 상황에 맞는다면 데이터를 백업한 뒤 상업적 소셜 미디어 프로필의 오래된 콘텐츠부터 삭제하기 시작하세요([시드](https://docs.cyd.social/docs/intro/) 같은 도구를 사용하면 삭제에 도움이 됩니다).
 
-6. Gradually decrease your posting activity on commercial social media, and increase your presence and engagement with your new social network account on a privacy-respecting platform.
+6. 상업적 소셜 미디어에 올리는 게시물을 점차 줄이고, 프라이버시를 존중하는 플랫폼의 새 소셜 네트워크 계정에서의 활동과 소통을 늘리세요.
 
-7. Stop posting on your commercial social media account entirely. Only keep a pinned post and profile description with your new social network account information, and encourage your followers to meet you there.
+7. 상업적 소셜 미디어 계정에 게시하는 것을 완전히 그만두세요. 새 소셜 네트워크 계정 정보를 담은 고정 게시물과 프로필 소개만 남겨 두고, 팔로워들에게 그곳에서 만나자고 권하세요.
 
-8. When you are ready, delete your data and close your accounts on commercial social media entirely. Before leaving permanently, make sure to post an announcement (a week before maybe) about why you are leaving and how your followers can find you on your new social network.
+8. 준비가 되면 상업적 소셜 미디어에서 데이터를 삭제하고 계정을 완전히 닫으세요. 완전히 떠나기 전에(일주일 전쯤에) 떠나는 이유와 팔로워들이 새 소셜 네트워크에서 여러분을 찾는 방법을 알리는 공지를 꼭 올리세요.
 
-## Embracing privacy-respectful alternatives
+## 프라이버시를 존중하는 대안 받아들이기
 
-Perhaps you are already convinced to leave exploitive social media platforms for better places, but aren't sure where to go. Thankfully, there are alternatives that genuinely respect users and their privacy.
+착취적인 소셜 미디어 플랫폼을 떠나 더 나은 곳으로 가야겠다고 이미 마음먹었지만, 어디로 가야 할지 모를 수도 있습니다. 다행히 사용자와 그들의 프라이버시를 진심으로 존중하는 대안이 있습니다.
 
-One such network is the [**Fediverse**](https://en.wikipedia.org/wiki/Fediverse), a decentralized collection of interconnected applications and servers that can communicate with each other.
+그중 하나가 서로 소통할 수 있는 애플리케이션과 서버가 상호 연결된 탈중앙화 네트워크인 [**페디버스**](https://en.wikipedia.org/wiki/Fediverse)입니다.
 
-The Fediverse was built from a desire for social connection, not from greed for profits. ==This is a fundamental difference that leads to substantial benefits.== Most servers that are part of the Fediverse network are hosted by volunteers who simply want to support their communities.
+페디버스는 이윤에 대한 탐욕이 아니라 사회적 연결에 대한 열망에서 만들어졌습니다. ==이는 실질적인 이점으로 이어지는 근본적인 차이입니다.== 페디버스 네트워크에 속한 서버 대부분은 그저 자신의 커뮤니티를 지원하고 싶은 자원봉사자들이 운영합니다.
 
-There are many applications that can connect to the Fediverse, the most famous probably being the microblogging platform [Mastodon](https://joinmastodon.org/). But you could also choose to join an app more similar to Instagram with [Pixelfed](https://pixelfed.org/), or more similar to YouTube with [PeerTube](https://joinpeertube.org/). They all connect together!
+페디버스에 연결할 수 있는 애플리케이션은 많으며, 가장 유명한 것은 아마 마이크로블로깅 플랫폼인 [마스토돈](https://joinmastodon.org/)일 것입니다. 하지만 인스타그램과 더 비슷한 [픽셀페드](https://pixelfed.org/)나, 유튜브와 더 비슷한 [피어튜브](https://joinpeertube.org/) 같은 앱에 가입할 수도 있습니다. 이들은 모두 서로 연결됩니다!
 
-Here are some resources to help you learn more about this social network, and its many applications:
+이 소셜 네트워크와 다양한 애플리케이션에 대해 더 알아보는 데 도움이 될 자료를 소개합니다:
 
 <style>
 .emoji-list-a ul {
@@ -67,52 +67,52 @@ Here are some resources to help you learn more about this social network, and it
 
 <div class="emoji-list-a" markdown>
 
-- [Learn why the Fediverse is a better alternative (_Elena Rossini_ video)](https://blog.elenarossini.com/fediverse-video/)
+- [페디버스가 더 나은 대안인 이유 알아보기 (_엘레나 로시니_ 영상)](https://blog.elenarossini.com/fediverse-video/)
 
-- [What is the Fediverse and how it's interconnected (_Stefan Bohacek_ project)](https://jointhefediverse.net)
+- [페디버스란 무엇이며 어떻게 서로 연결되는가 (_스테판 보하첵_ 프로젝트)](https://jointhefediverse.net)
 
-- [Social network recommendations (_Privacy Guides_)](../../social-networks.md)
+- [소셜 네트워크 추천 (_프라이버시 가이드_)](../../social-networks.md)
 
-- [Privacy and security on Mastodon (_Privacy Guides_)](https://www.privacyguides.org/articles/2025/07/15/mastodon-privacy-and-security/)
+- [마스토돈의 프라이버시와 보안 (_프라이버시 가이드_)](https://www.privacyguides.org/articles/2025/07/15/mastodon-privacy-and-security/)
 
-- [How to create a Mastodon account (_Doc Pop_)](https://docpop.org/2025/02/how-to-get-started-with-mastodon/)
+- [마스토돈 계정 만드는 방법 (_독 팝_)](https://docpop.org/2025/02/how-to-get-started-with-mastodon/)
 
 </div>
 
-## Building resilient communities
+## 회복력 있는 커뮤니티 만들기
 
-If you decide to make the Fediverse-connected social network Mastodon your new home, you will be able to choose between a variety of servers (instances) to create your account.
+페디버스에 연결된 소셜 네트워크인 마스토돈을 새 보금자리로 삼기로 했다면, 다양한 서버(인스턴스) 중에서 골라 계정을 만들 수 있습니다.
 
-You can also simply choose the Mastodon organization's main server [mastodon.social](https://mastodon.social/about), if you don't feel like thinking about this too much. Mastodon has a feature allowing to migrate your account from one server to another, so this isn't a permanent decision. You can always move later if you choose to (you can't move your content for now, but you can move your followers).
+너무 깊이 고민하고 싶지 않다면 마스토돈 운영 단체의 메인 서버인 [mastodon.social](https://mastodon.social/about)을 선택해도 됩니다. 마스토돈에는 계정을 다른 서버로 옮길 수 있는 기능이 있으므로 영구적인 결정이 아닙니다. 원한다면 나중에 언제든 옮길 수 있습니다(현재는 콘텐츠를 옮길 수 없지만 팔로워는 옮길 수 있습니다).
 
-That being said, if you're up for a more resilient solution, one option that is truly empowering is to host your own Mastodon server (or many other applications that are part of the Fediverse family).
+다만 더 회복력 있는 해결책을 원한다면, 직접 마스토돈 서버(또는 페디버스에 속한 다른 많은 애플리케이션)를 운영하는 것이 진정으로 힘을 키우는 선택지가 될 수 있습니다.
 
-Self-hosting your Mastodon server of course requires more time and resources. But, if you can afford it, hosting your own server will allow you to be much more independent and genuinely own your own data.
+물론 마스토돈 서버를 직접 호스팅하려면 시간과 자원이 더 듭니다. 하지만 여유가 된다면 자체 서버를 운영함으로써 훨씬 더 독립적으로 활동하고 자신의 데이터를 진정으로 소유할 수 있습니다.
 
-This is the best way to build a community that is truly resilient, and billionaire-resistant.
+이것이야말로 진정한 회복력을 갖추고 억만장자에게 휘둘리지 않는 커뮤니티를 만드는 가장 좋은 방법입니다.
 
-### Wikimedia has its own Mastodon instance!
+### 위키미디어에는 자체 마스토돈 인스턴스가 있습니다!
 
-As an example of an organization self-hosting its Mastodon account, the [Wikimedia Foundation](https://wikimediafoundation.org/) (the nonprofit organization hosting _Wikipedia_) has its [own](https://meta.wikimedia.org/wiki/Wikimedia.Social) Mastodon server at [wikimedia.social](https://wikimedia.social/about).
+마스토돈 계정을 자체 호스팅하는 단체의 예로, [위키미디어 재단](https://wikimediafoundation.org/)(_위키백&#xACFC;_&#xB97C; 운영하는 비영리 단체)은 [wikimedia.social](https://wikimedia.social/about)에 [자체](https://meta.wikimedia.org/wiki/Wikimedia.Social) 마스토돈 서버를 운영하고 있습니다.
 
-From their [Wikimedia's Mastodon account](https://wikimedia.social/@wikimediafoundation) on this server, you can see that the organization's official website is listed in green. This verifies the account's authenticity by linking together the website address with the Mastodon account. It's easy to do, and entirely free.
+이 서버에 있는 [위키미디어의 마스토돈 계정](https://wikimedia.social/@wikimediafoundation)을 보면 단체의 공식 웹사이트가 초록색으로 표시되어 있습니다. 이는 웹사이트 주소와 마스토돈 계정을 서로 연결해 계정의 진위를 인증하는 것입니다. 쉽게 할 수 있고, 완전히 무료입니다.
 
-You can also see this page is visible to anyone, regardless of if they have a Mastodon account or not. This makes the information you want to share with your community much more accessible. It doesn't require your community to share any sensitive data if they prefer not to, like they would have to do to follow you on Facebook, Instagram, X, or TikTok.
+또한 이 페이지는 마스토돈 계정이 있든 없든 누구나 볼 수 있습니다. 덕분에 커뮤니티와 공유하고 싶은 정보에 훨씬 쉽게 접근할 수 있습니다. 페이스북, 인스타그램, X, 틱톡에서 여러분을 팔로우하려면 민감한 데이터를 공유해야 하는 것과 달리, 원하지 않는다면 커뮤니티 구성원이 민감한 데이터를 공유할 필요가 없습니다.
 
-Additionally, this allows you to keep full control over your profile page, regardless of social media ownership, or censorship. This is how you can build a truly resilient community for your privacy advocacy work.
+또한 소셜 미디어의 소유권이나 검열과 관계없이 프로필 페이지를 완전히 통제할 수 있습니다. 이것이 프라이버시 옹호 활동을 위한 진정으로 회복력 있는 커뮤니티를 만드는 방법입니다.
 
-Privacy Guides does this too, of course! You can [follow _Privacy Guides_](https://mastodon.neat.computer/@privacyguides) from our own self-hosted Mastodon server 💛
+물론 프라이버시 가이드도 이렇게 하고 있습니다! 자체 호스팅하는 마스토돈 서버에서 [_프라이버시 가이&#xB4DC;_&#xB97C; 팔로우](https://mastodon.neat.computer/@privacyguides)할 수 있습니다 💛
 
-## More resources
+## 추가 자료
 
-- [Official Mastodon website](https://joinmastodon.org/)
+- [마스토돈 공식 웹사이트](https://joinmastodon.org/)
 
-- [List of curated smaller Fediverse servers (_Fedi Garden_)](https://fedi.garden/)
+- [엄선된 소규모 페디버스 서버 목록 (_페디 가든_)](https://fedi.garden/)
 
-- [Find answers to all your questions about Mastodon and the Fediverse (_Fedi Tips_)](https://fedi.tips/)
+- [마스토돈과 페디버스에 관한 모든 질문의 답 찾기 (_페디 팁스_)](https://fedi.tips/)
 
-- [Tutorial to optimize privacy and security on a Mastodon account (_Privacy Guides_)](https://www.privacyguides.org/articles/2025/07/22/mastodon-tutorial-privacy-and-security/)
+- [마스토돈 계정의 프라이버시와 보안을 최적화하는 튜토리얼 (_프라이버시 가이드_)](https://www.privacyguides.org/articles/2025/07/22/mastodon-tutorial-privacy-and-security/)
 
-- [Organizations: Tutorial to verify your Mastodon account (_Privacy Guides_)](https://www.privacyguides.org/articles/2025/07/22/mastodon-tutorial-privacy-and-security/#verifying-yourself-and-others)
+- [단체용: 마스토돈 계정 인증 튜토리얼 (_프라이버시 가이드_)](https://www.privacyguides.org/articles/2025/07/22/mastodon-tutorial-privacy-and-security/#verifying-yourself-and-others)
 
-- [Organizations and Writers: Tutorial to attribute your articles to your Mastodon account, including when others share links on the network (_Privacy Guides_)](https://www.privacyguides.org/articles/2025/07/22/mastodon-tutorial-privacy-and-security/#author-attribution-for-journalists-and-writers)
+- [단체 및 작가용: 다른 사람이 네트워크에서 링크를 공유할 때를 포함해 글을 마스토돈 계정에 귀속시키는 튜토리얼 (_프라이버시 가이드_)](https://www.privacyguides.org/articles/2025/07/22/mastodon-tutorial-privacy-and-security/#author-attribution-for-journalists-and-writers)

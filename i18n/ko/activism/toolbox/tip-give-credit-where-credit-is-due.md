@@ -1,23 +1,23 @@
 ---
-title: Give Credit Where Credit Is Due
-description: To succeed with our movement to defend privacy rights, we must support each other. One good way to do this is to give credit where credit is due.
+title: 공로는 마땅히 인정하기
+description: 프라이버시 권리를 지키기 위한 우리의 운동이 성공하려면 서로를 지지해야 합니다. 그 좋은 방법 중 하나는 인정받아야 할 공로를 마땅히 인정하는 것입니다.
 icon: fontawesome/solid/thumbs-up
 cover: activism/banner-toolbox-tip-credit.webp
 ---
 
-To succeed in our battle, we must **support each other**. One good way to accomplish this is to never forget to give credit where credit is due. When another advocate or organization says something you agree with, boost them up, spread their reach, and thank them publicly.
+이 싸움에서 이기려면 우리는 **서로를 지지**해야 합니다. 그 좋은 방법 중 하나는 인정받아야 할 공로를 잊지 않고 인정하는 것입니다. 다른 옹호자나 단체가 여러분이 공감하는 이야기를 하면, 그들을 북돋아 주고, 그 목소리가 더 멀리 퍼지도록 도우며, 공개적으로 감사를 표하세요.
 
-Here are a few ways you can help your allies feel seen and valued:
+동료들이 존중받고 인정받는다고 느끼도록 도울 수 있는 몇 가지 방법을 소개합니다:
 
-## Why crediting people and organization is important
+## 사람과 단체의 공로를 인정하는 것이 중요한 이유
 
-Giving credit to the right person or organization isn't only the ethical thing to do, it's also a way to **build alliances**, to bring more people to the cause, and to retain the allies you already have.
+공로를 마땅한 사람이나 단체에 돌리는 것은 윤리적으로 옳은 일일 뿐만 아니라, **연대를 구축하고**, 더 많은 사람을 대의에 동참시키며, 이미 함께하는 동료들을 지켜 나가는 방법이기도 합니다.
 
-When people feel valued, they are usually inclined to work harder. People are also more likely to stick around places where they feel seen and appreciated. This is incredibly important for our movement.
+사람들은 인정받는다고 느낄 때 대개 더 열심히 일하게 됩니다. 또한 사람들은 존중받고 고마움을 받는다고 느끼는 곳에 더 오래 머무르기 마련입니다. 이는 우리 운동에 있어 매우 중요한 부분입니다.
 
-When giving credit to organizations, you are also making a whole team feel valued. Organizations are made of people, after all. Caring about the people who work hard at your allied organizations is fundamental to build our movement.
+단체의 공로를 인정하면 팀 전체가 인정받는다고 느끼게 됩니다. 결국 단체도 사람들로 이루어져 있으니까요. 연대 단체에서 열심히 일하는 사람들을 아끼는 것은 우리 운동을 만들어 가는 데 있어 기본입니다.
 
-## Ways to credit your allies in your advocacy work
+## 옹호 활동에서 동료의 공로를 인정하는 방법
 
 <style>
 .emoji-list-a ul {
@@ -31,24 +31,24 @@ When giving credit to organizations, you are also making a whole team feel value
 
 <div class="emoji-list-a" markdown>
 
-- **Quote** your allies' work in your own content and material. Make sure to always credit their name and link to their external resources when you do.
+- 여러분의 콘텐츠와 자료에 동료의 작업을 **인용**하세요. 인용할 때는 반드시 그들의 이름을 밝히고 원본 자료로 연결되는 링크를 달아 주세요.
 
-- **Link** to your allies' resources on your own platforms. Give them credit for their work, and encourage your own audience to consult your allies' material.
+- 여러분의 플랫폼에 동료의 자료를 **링크**하세요. 그들의 작업에 공로를 돌리고, 여러분의 독자에게도 동료의 자료를 살펴보도록 권하세요.
 
-- **Support** your allies publicly on social media. Repost their content to increase their reach. Post about them while tagging them, to encourage your circle to follow them as well. Reply to their posts thanking them for their hard work for the cause.
+- 소셜 미디어에서 공개적으로 동료를 **지지**하세요. 그들의 콘텐츠를 공유해 더 많은 사람에게 닿도록 도와주세요. 그들을 태그해 소개하는 게시물을 올려, 주변 사람들도 그들을 팔로우하도록 독려하세요. 그들의 게시물에 답글을 달아 대의를 위해 애써 준 데 감사를 전하세요.
 
-- **Reach out** to offer your help on their projects, whenever you have the resources to do so.
+- 여유가 있을 때마다 먼저 **연락해** 그들의 프로젝트에 도움을 제안하세요.
 
-- **Thank** your allies publicly when working with a group, whether it's for paid or volunteer work. Make the members of your group feel recognized and valued individually.
+- 유급이든 자원봉사든 그룹으로 함께 일할 때는 동료에게 공개적으로 **감사**를 표하세요. 그룹 구성원 한 명 한 명이 인정받고 존중받는다고 느끼게 해 주세요.
 
-- **Attribute** the work of each contributor to the name they have agreed to share publicly, depending on the platform you use. Ask first how they prefer to be credited, but do not forget to credit them.
+- 사용하는 플랫폼에 맞게, 각 기여자의 작업을 그들이 공개하기로 동의한 이름으로 **명시**하세요. 어떤 방식으로 표기되길 원하는지 먼저 묻되, 표기하는 것을 잊지 마세요.
 
-- **Nominate** your allies for rewards/awards if the opportunity arises, and make sure to add your vote to support them.
+- 기회가 생기면 동료를 상이나 시상 후보로 **추천**하고, 꼭 투표로 지지해 주세요.
 
 </div>
 
-## More resources
+## 추가 자료
 
-- [3 ways to use recognition to boost performance and engagement (_HumanResourceMag_)](https://www.humanresourcemag.com/news/277/3-ways-to-use-recognition-to-boost-performance-and-engagement)
+- [인정을 활용해 성과와 참여도를 높이는 3가지 방법 (_휴먼리소스매그_)](https://www.humanresourcemag.com/news/277/3-ways-to-use-recognition-to-boost-performance-and-engagement)
 
-- [The fine line between teamwork and taking credit: Why recognition matters (_Gwendolyn F. McGraw_)](https://blog.gwendolynmcgraw.net/2025/07/12/the-fine-line-between-teamwork-and-taking-credit-why-recognition-matters/)
+- [팀워크와 공로 가로채기 사이의 미묘한 경계: 인정이 중요한 이유 (_그웬돌린 F. 맥그로_)](https://blog.gwendolynmcgraw.net/2025/07/12/the-fine-line-between-teamwork-and-taking-credit-why-recognition-matters/)

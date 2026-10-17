@@ -1,48 +1,48 @@
 ---
-title: Don't Stop at Individual Solutions, Consider The Collective Impact
-description: When we think about privacy, we often focus on technical individual solutions. But it's also crucial to consider the collective impact of privacy issues.
+title: 개인적 해결책에 머무르지 말고, 집단적 영향 고려하기
+description: 프라이버시를 생각할 때 우리는 흔히 기술적인 개인 해결책에 집중합니다. 하지만 프라이버시 문제가 집단에 미치는 영향을 고려하는 것도 매우 중요합니다.
 icon: fontawesome/solid/users-rays
 cover: activism/banner-toolbox-tip-expand.webp
 ---
 
-When we think about our privacy, we often focus on the technical tools we can use to protect it. While this is an important _component_, it's crucial not to lose sight of how regulations and invasive practices impact us collectively.
+우리는 프라이버시를 생각할 때 흔히 이를 보호하기 위해 사용할 수 있는 기술적 도구에 집중합니다. 이것도 중요한 _요&#xC18C;_&#xC774;지만, 규제와 침해적인 관행이 우리 모두에게 집단적으로 어떤 영향을 미치는지 놓치지 않는 것이 매우 중요합니다.
 
-Here's what to keep in mind to **expand your perspective on data privacy** beyond individual solutions:
+개인적 해결책을 넘어 **데이터 프라이버시에 대한 시야를 넓히기** 위해 염두에 두어야 할 점은 다음과 같습니다:
 
-## The danger of focusing only on individual solutions
+## 개인적 해결책에만 집중하는 것의 위험성
 
-While it might feel easier to focus on our own needs, nobody lives in a vacuum. Even if you were able to somehow protect all the data you have custody of, there is a lot of data about you that isn't under your control, and a lot of data about _others_ that impact you.
+자신의 필요에만 집중하는 것이 더 쉽게 느껴질 수 있지만, 그 누구도 진공 속에서 살지는 않습니다. 설령 여러분이 관리하는 모든 데이터를 어떻게든 보호할 수 있다고 해도, 여러분에 관한 데이터 중 상당수는 여러분이 통제할 수 없으며, 여러분에게 영향을 미치는 _다른 사람&#xB4E4;_&#xC5D0; 관한 데이터도 많습니다.
 
-Moreover, it's important to consider others in different situations. For example, even if everyone who has access to a [VPN](../../vpn.md) service can stay protected from a particular issue, what about all the others? It's neither practical nor realistic to expect that _everyone_ would be able to circumvent a problem by using a VPN.
+게다가 다른 상황에 처한 사람들도 고려해야 합니다. 예를 들어 [VPN](../../vpn.md) 서비스를 이용할 수 있는 사람들은 모두 특정 문제로부터 보호받을 수 있다고 해도, 나머지 사람들은 어떻게 될까요? _모든 사&#xB78C;_&#xC774; VPN을 사용해 문제를 우회할 수 있으리라 기대하는 것은 실용적이지도 현실적이지도 않습니다.
 
-While in some cases we might want to discuss immediate individual solutions in order to mitigate some harm, we must also attack the root cause of the problem.
+피해를 줄이기 위해 당장의 개인적 해결책을 논의해야 하는 경우도 있겠지만, 문제의 근본 원인도 함께 공략해야 합니다.
 
-If we only think of _individual_ solutions when a corporation exploits our data, or a government adopts a privacy-invasive regulation, we risk letting our guard down by giving up the fight early. This makes the problem harder to fight later on, and results in more harm to our communities, and eventually to ourselves as well.
+기업이 우리의 데이터를 착취하거나 정부가 프라이버시를 침해하는 규제를 도입할 때 _개인적인_ 해결책만 생각한다면, 일찌감치 싸움을 포기하고 경계를 늦추게 될 위험이 있습니다. 그러면 나중에 문제에 맞서기가 더 어려워지고, 우리 공동체는 물론 결국 우리 자신에게도 더 큰 피해가 돌아옵니다.
 
-## Things to keep in mind when a privacy issue arises
+## 프라이버시 문제가 생겼을 때 염두에 둘 점
 
-Here are a few questions you can ask yourself whenever a new privacy issue arises in the news, to help expand your perspective beyond individual solutions:
+뉴스에서 새로운 프라이버시 문제가 등장할 때마다, 개인적 해결책을 넘어 시야를 넓히는 데 도움이 되도록 스스로에게 던질 수 있는 몇 가지 질문을 소개합니다:
 
-- [ ] What are potential mitigation solutions, and who will realistically be able to use them?
+- [ ] 가능한 완화 방안은 무엇이며, 현실적으로 누가 그것을 사용할 수 있을까요?
 
-- [ ] What will happen to the people who don't have the resources (in time, in money, in knowledge) to protect themselves individually?
+- [ ] 스스로를 개별적으로 보호할 자원(시간, 돈, 지식)이 없는 사람들은 어떻게 될까요?
 
-- [ ] Will this issue impact some communities more than others? Who will this affect the most negatively?
+- [ ] 이 문제가 일부 공동체에 더 큰 영향을 미칠까요? 가장 큰 부정적 영향을 받는 사람은 누구일까요?
 
-- [ ] What will be the impact for the people who _cannot_ protect themselves individually?
+- [ ] 스스로를 개별적으로 보호할 수 _없는_ 사람들에게는 어떤 영향이 있을까요?
 
-- [ ] What will be the impact for the people who _can_ protect themselves individually?
+- [ ] 스스로를 개별적으로 보호할 수 _있는_ 사람들에게는 어떤 영향이 있을까요?
 
-- [ ] Are there other solutions that could be adopted to fight this issue for _everyone_ at once, without relying on _individual_ harm mitigations.
+- [ ] _개인적인_ 피해 완화책에 의존하지 않고, _모&#xB450;_&#xB97C; 위해 한꺼번에 이 문제에 맞설 수 있는 다른 해결책은 없을까요?
 
-- [ ] How can we fight against this issue in a way that will benefit _everyone_ impacted, including the people who aren't even aware of the issue?
+- [ ] 문제를 인식하지조차 못하는 사람들을 포함해, 영향을 받는 _모든 사&#xB78C;_&#xC5D0;게 도움이 되는 방식으로 이 문제에 맞서려면 어떻게 해야 할까요?
 
-## More resources
+## 추가 자료
 
-- [Why you should also care about other people's privacy (_Privacy Guides_)](https://www.privacyguides.org/articles/2025/03/10/the-privacy-of-others/)
+- [다른 사람의 프라이버시도 신경 써야 하는 이유 (_프라이버시 가이드_)](https://www.privacyguides.org/articles/2025/03/10/the-privacy-of-others/)
 
-- [Why privacy might be a safety matter for many (_Privacy Guides_)](https://www.privacyguides.org/articles/2025/03/25/privacy-means-safety/)
+- [많은 이들에게 프라이버시가 안전의 문제일 수 있는 이유 (_프라이버시 가이드_)](https://www.privacyguides.org/articles/2025/03/25/privacy-means-safety/)
 
-- [Encryption must not be outlawed for our privacy tools to work (_Privacy Guides_)](https://www.privacyguides.org/articles/2025/04/11/encryption-is-not-a-crime/)
+- [프라이버시 도구가 제 기능을 하려면 암호화가 불법화되어서는 안 됩니다 (_프라이버시 가이드_)](https://www.privacyguides.org/articles/2025/04/11/encryption-is-not-a-crime/)
 
-- [Dangerous regulation proposals like Chat Control could impact everyone without many individual solutions (_Privacy Guides_)](https://www.privacyguides.org/articles/2025/09/08/chat-control-must-be-stopped/)
+- [챗 컨트롤 같은 위험한 규제안은 개인적 해결책도 마땅치 않은 채 모두에게 영향을 미칠 수 있습니다 (_프라이버시 가이드_)](https://www.privacyguides.org/articles/2025/09/08/chat-control-must-be-stopped/)

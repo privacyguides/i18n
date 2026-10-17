@@ -1,10 +1,10 @@
 ---
 title: "DNS 개요"
 icon: material/dns
-description: DNS, 즉 도메인 네임 시스템은 '인터넷의 전화번호부'라고 할 수 있습니다. DNS가 있기 때문에 여러분은 브라우저에서 원하는 사이트를 찾아 연결할 수 있습니다.
+description: 도메인 이름 시스템(DNS)은 브라우저가 찾고 있는 웹사이트를 찾을 수 있도록 도와주는 '인터넷의 전화번호부'입니다.
 ---
 
-[도메인 이름 시스템](https://en.wikipedia.org/wiki/Domain_Name_System) (DNS)은 ‘인터넷의 전화번호부’입니다. DNS는 분산 서버 네트워크를 통해 도메인 이름을 IP 주소로 변환합니다. 브라우저 등의 서비스는 이를 이용해 인터넷 리소스를 로드할 수 있습니다.
+[도메인 이름 시스템](https://en.wikipedia.org/wiki/Domain_Name_System)(DNS)은 '인터넷의 전화번호부'입니다. DNS는 분산 서버 네트워크를 통해 도메인 이름을 IP 주소로 변환합니다. 브라우저 등의 서비스는 이를 이용해 인터넷 리소스를 로드할 수 있습니다.
 
 ## DNS란 무엇인가요?
 
@@ -18,30 +18,30 @@ DNS는 [인터넷의 초창기](https://ko.wikipedia.org/wiki/%EB%8F%84%EB%A9%94
 
 ### 암호화되지 않은 DNS
 
-1. 다음 명령어를 사용하여 [`tshark`](https://wireshark.org/docs/man-pages/tshark.html) ( [Wireshark](https://en.wikipedia.org/wiki/Wireshark) 프로젝트의 일부)를 사용하면 인터넷 패킷 흐름을 모니터링하고 기록할 수 있습니다. 다음 명령어는 명시된 규칙을 충족하는 패킷을 기록합니다.
+1. [`tshark`](https://wireshark.org/docs/man-pages/tshark.html)([와이어샤크](https://en.wikipedia.org/wiki/Wireshark) 프로젝트의 일부)를 사용하면 인터넷 패킷 흐름을 모니터링하고 기록할 수 있습니다. 다음 명령어는 명시된 규칙을 충족하는 패킷을 기록합니다.
 
     ```bash
     tshark -w /tmp/dns.pcap udp port 53 and host 1.1.1.1 or host 8.8.8.8
     ```
 
-2. We can then use [`dig`](https://en.wikipedia.org/wiki/Dig_(command)) (Linux, macOS, etc.) or [`nslookup`](https://en.wikipedia.org/wiki/Nslookup) (Windows) to send the DNS lookup to both servers. 웹 브라우저 등의 소프트웨어는 암호화된 DNS를 사용하도록 설정된 경우가 아니라면 이러한 조회를 자동으로 수행합니다.
+2. 그런 다음 [`dig`](https://en.wikipedia.org/wiki/Dig_(command))(리눅스, macOS 등)나 [`nslookup`](https://en.wikipedia.org/wiki/Nslookup)(윈도우)을 사용해 두 서버에 DNS 조회를 보낼 수 있습니다. 웹 브라우저 등의 소프트웨어는 암호화된 DNS를 사용하도록 설정된 경우가 아니라면 이러한 조회를 자동으로 수행합니다.
 
-    === "Linux, macOS"
+    === "리눅스, macOS"
 
         ```
         dig +noall +answer privacyguides.org @1.1.1.1
         dig +noall +answer privacyguides.org @8.8.8.8
         ```
-    === "Windows"
+    === "윈도우"
 
         ```
         nslookup privacyguides.org 1.1.1.1
         nslookup privacyguides.org 8.8.8.8
         ```
 
-3. Next, we want to [analyze](https://wireshark.org/docs/wsug_html_chunked/ChapterIntroduction.html#ChIntroWhatIs) the results:
+3. 다음으로 결과를 [분석](https://wireshark.org/docs/wsug_html_chunked/ChapterIntroduction.html#ChIntroWhatIs)합니다:
 
-    === "Wireshark"
+    === "와이어샤크"
 
         ```
         wireshark -r /tmp/dns.pcap
@@ -53,52 +53,52 @@ DNS는 [인터넷의 초창기](https://ko.wikipedia.org/wiki/%EB%8F%84%EB%A9%94
         tshark -r /tmp/dns.pcap
         ```
 
-앞선 과정을 거쳐 Wireshark 명령어를 실행하면 상단 창에 여러 [Frame](https://en.wikipedia.org/wiki/Ethernet_frame)이 표시되고, 하단 창에는 선택한 프레임에 대한 모든 데이터가 표시됩니다. 엔터프라이즈 필터링 및 모니터링 솔루션(정부에서 사용하는 솔루션 등을 말합니다)은 사람이 개입할 필요 없이 자동으로 이런 프로세스를 처리하고 집계하여 네트워크 관찰자에게 필요한 통계 데이터를 생성할 수 있습니다.
+위의 와이어샤크 명령어를 실행하면 상단 창에는 "[프레임](https://en.wikipedia.org/wiki/Ethernet_frame)"이 표시되고, 하단 창에는 선택한 프레임에 대한 모든 데이터가 표시됩니다. 엔터프라이즈 필터링 및 모니터링 솔루션(정부에서 사용하는 솔루션 등을 말합니다)은 사람이 개입할 필요 없이 자동으로 이런 프로세스를 처리하고 집계하여 네트워크 관찰자에게 필요한 통계 데이터를 생성할 수 있습니다.
 
-| No. | Time     | Source    | Destination | Protocol | Length | Info                                                                   |
-| --- | -------- | --------- | ----------- | -------- | ------ | ---------------------------------------------------------------------- |
-| 1   | 0.000000 | 192.0.2.1 | 1.1.1.1     | DNS      | 104    | Standard query 0x58ba A privacyguides.org OPT                          |
-| 2   | 0.293395 | 1.1.1.1   | 192.0.2.1   | DNS      | 108    | Standard query response 0x58ba A privacyguides.org A 198.98.54.105 OPT |
-| 3   | 1.682109 | 192.0.2.1 | 8.8.8.8     | DNS      | 104    | Standard query 0xf1a9 A privacyguides.org OPT                          |
-| 4   | 2.154698 | 8.8.8.8   | 192.0.2.1   | DNS      | 108    | Standard query response 0xf1a9 A privacyguides.org A 198.98.54.105 OPT |
+| 번호 | 시간       | 출발지       | 목적지       | 프로토콜 | 길이  | 정보                                                                     |
+| -- | -------- | --------- | --------- | ---- | --- | ---------------------------------------------------------------------- |
+| 1  | 0.000000 | 192.0.2.1 | 1.1.1.1   | DNS  | 104 | Standard query 0x58ba A privacyguides.org OPT                          |
+| 2  | 0.293395 | 1.1.1.1   | 192.0.2.1 | DNS  | 108 | Standard query response 0x58ba A privacyguides.org A 198.98.54.105 OPT |
+| 3  | 1.682109 | 192.0.2.1 | 8.8.8.8   | DNS  | 104 | Standard query 0xf1a9 A privacyguides.org OPT                          |
+| 4  | 2.154698 | 8.8.8.8   | 192.0.2.1 | DNS  | 108 | Standard query response 0xf1a9 A privacyguides.org A 198.98.54.105 OPT |
 
 네트워크 관찰자는 이러한 패킷을 변조할 수 있습니다.
 
 ## '암호화된 DNS'란 무엇인가요?
 
-Encrypted DNS can refer to one of a number of protocols, the most common ones being [DNSCrypt](#dnscrypt), [DNS over TLS](#dns-over-tls-dot), and [DNS over HTTPS](#dns-over-https-doh).
+암호화된 DNS는 여러 프로토콜 중 하나를 가리킬 수 있으며, 가장 일반적인 것은 [DNSCrypt](#dnscrypt), [DNS over TLS](#dns-over-tls-dot), [DNS over HTTPS](#dns-over-https-doh)입니다.
 
 ### DNSCrypt
 
-[**DNSCrypt**](https://en.wikipedia.org/wiki/DNSCrypt)는 DNS 쿼리를 암호화하는 최초의 방법 중 하나였습니다. DNSCrypt는 443 포트에서 작동하며, TCP/UDP 전송 프로토콜 모두에서 작동합니다. DNSCrypt has never been submitted to the [Internet Engineering Task Force (IETF)](https://en.wikipedia.org/wiki/Internet_Engineering_Task_Force) nor has it gone through the [Request for Comments (RFC)](https://en.wikipedia.org/wiki/Request_for_Comments) process, so it has not been used widely outside a few [implementations](https://dnscrypt.info/implementations). 결과적으로, 보다 널리 사용되는 [DNS over HTTPS](#dns-over-https-doh)로 대체되었습니다.
+[**DNSCrypt**](https://en.wikipedia.org/wiki/DNSCrypt)는 DNS 쿼리를 암호화하는 최초의 방법 중 하나였습니다. DNSCrypt는 443 포트에서 작동하며, TCP/UDP 전송 프로토콜 모두에서 작동합니다. DNSCrypt는 [국제 인터넷 표준화 기구(IETF)](https://en.wikipedia.org/wiki/Internet_Engineering_Task_Force)에 제출된 적도, [RFC(Request for Comments)](https://en.wikipedia.org/wiki/Request_for_Comments) 절차를 거친 적도 없기 때문에 몇몇 [구현체](https://dnscrypt.info/implementations) 외에는 널리 사용되지 않았습니다. 결과적으로, 보다 널리 사용되는 [DNS over HTTPS](#dns-over-https-doh)로 대체되었습니다.
 
-### DOT(DNS over TLS)
+### DNS over TLS (DoT)
 
-[**DNS over TLS**](https://en.wikipedia.org/wiki/DNS_over_TLS)는 DNS 통신을 암호화하는 또 다른 방법으로, [RFC 7858](https://datatracker.ietf.org/doc/html/rfc7858)에 정의되어 있습니다. Support was first implemented in Android 9, iOS 14, and on Linux in [systemd-resolved](https://freedesktop.org/software/systemd/man/resolved.conf.html#DNSOverTLS=) in version 237. Preference in the industry has been moving away from DoT to DoH in recent years, as DoT is a [complex protocol](https://dnscrypt.info/faq) and has varying compliance to the RFC across the implementations that exist. 또한, 853 포트를 전용으로 사용하기 때문에 제한적인 방화벽에 의해 쉽게 차단될 수 있다는 문제도 존재합니다.
+[**DNS over TLS**](https://en.wikipedia.org/wiki/DNS_over_TLS)는 DNS 통신을 암호화하는 또 다른 방법으로, [RFC 7858](https://datatracker.ietf.org/doc/html/rfc7858)에 정의되어 있습니다. 안드로이드 9, iOS 14, 그리고 리눅스에서는 [systemd-resolved](https://freedesktop.org/software/systemd/man/resolved.conf.html#DNSOverTLS=) 237 버전에서 처음 지원되었습니다. DoT는 [복잡한 프로토콜](https://dnscrypt.info/faq)이며 기존 구현체마다 RFC 준수 정도가 제각각이기 때문에, 최근 몇 년간 업계의 선호는 DoT에서 DoH로 옮겨 가고 있습니다. 또한 DoT는 전용 포트인 853번 포트를 사용하므로 제한적인 방화벽에 의해 쉽게 차단될 수 있습니다.
 
-### DoH(DNS over HTTPS)
+### DNS over HTTPS (DoH)
 
-[**DNS over HTTPS**](https://en.wikipedia.org/wiki/DNS_over_HTTPS), as defined in [RFC 8484](https://datatracker.ietf.org/doc/html/rfc8484), packages queries in the [HTTP/2](https://en.wikipedia.org/wiki/HTTP/2) protocol and provides security with HTTPS. Firefox 60, Chrome 83과 같은 웹 브라우저에서 처음으로 지원되었습니다.
+[**DNS over HTTPS**](https://en.wikipedia.org/wiki/DNS_over_HTTPS)는 [RFC 8484](https://datatracker.ietf.org/doc/html/rfc8484)에 정의된 대로 쿼리를 [HTTP/2](https://en.wikipedia.org/wiki/HTTP/2) 프로토콜로 감싸고 HTTPS로 보안을 제공합니다. 파이어폭스 60, 크롬 83 같은 웹 브라우저에서 처음 지원되었습니다.
 
-DoH 네이티브 구현은 iOS 14, macOS 11, Microsoft Windows, Android 13(단, [기본 활성화가 아닙니다](https://android-review.googlesource.com/c/platform/packages/modules/DnsResolver/+/1833144))부터 추가되었습니다. 일반 Linux 데스크톱의 경우, systemd [구현체](https://github.com/systemd/systemd/issues/8639)가 아직 존재하지 않기 때문에 [별도 소프트웨어를 설치해야 합니다](../dns.md#encrypted-dns-proxies).
+DoH의 운영 체제 기본 구현은 iOS 14, macOS 11, 마이크로소프트 윈도우, 안드로이드 13에서 등장했습니다(단, 안드로이드 13에서는 [기본적으로](https://android-review.googlesource.com/c/platform/packages/modules/DnsResolver/+/1833144) 활성화되지 않습니다). 일반적인 리눅스 데스크톱 지원은 systemd의 [구현](https://github.com/systemd/systemd/issues/8639)을 기다리고 있으므로 [여전히 별도 소프트웨어를 설치해야 합니다](../dns.md#encrypted-dns-proxies).
 
 ### 운영 체제 기본 지원
 
-#### Android
+#### 안드로이드
 
-Android 9 이상 버전은 DNS over TLS를 지원합니다. 해당 설정은 **설정** &rarr; **네트워크 및 인터넷** &rarr; **비공개 DNS**에서 확인할 수 있습니다.
+안드로이드 9 이상은 DNS over TLS를 지원합니다. 해당 설정은 **설정** &rarr; **네트워크 및 인터넷** &rarr; **비공개 DNS**에서 확인할 수 있습니다.
 
-#### Apple 기기
+#### 애플 기기
 
 iOS, iPadOS, tvOS, macOS 최신 버전은 DoT, DoH를 모두 지원합니다. 두 프로토콜 모두 [구성 프로필](https://support.apple.com/guide/security/configuration-profile-enforcement-secf6fb9f053/web)이나 [DNS 설정 API](https://developer.apple.com/documentation/networkextension/dns_settings)를 통해 운영 체제에서 기본으로 지원합니다.
 
 구성 프로필이나, DNS 설정 API를 사용하는 앱을 설치하고 나면 DNS 구성에서 선택 가능합니다. VPN이 활성화되어 있는 경우, VPN 연결 내 DNS 요청은 시스템 전체 설정이 아닌 VPN의 DNS 설정을 사용합니다.
 
-Apple은 암호화 DNS 프로필 생성을 위한 기본 인터페이스를 제공하지 않습니다. [보안 DNS 프로필 생성기(Secure DNS profile creator)](https://dns.notjakob.com/tool.html)는 자신만의 암호화 DNS 프로필을 생성할 수 있는 비공식 툴이지만, 프로필 서명은 불가능합니다. 프로필 서명은 프로필 출처 확인 및 무결성 보장에 도움이 되므로, 서명된 프로필이 선호됩니다. 서명된 구성 프로필에는 '확인 완료' 표시가 나타납니다. 코드 서명에 대한 자세한 내용은 [About Code Signing](https://developer.apple.com/library/archive/documentation/Security/Conceptual/CodeSigningGuide/Introduction/Introduction.html)을 참고하세요.
+애플은 암호화된 DNS 프로필을 만드는 기본 인터페이스를 제공하지 않습니다. [보안 DNS 프로필 생성기(Secure DNS profile creator)](https://dns.notjakob.com/tool.html)는 암호화된 DNS 프로필을 직접 만들 수 있는 비공식 도구이지만, 만든 프로필은 서명되지 않습니다. 프로필 서명은 프로필 출처 확인 및 무결성 보장에 도움이 되므로, 서명된 프로필이 선호됩니다. 서명된 구성 프로필에는 초록색 '확인됨' 표시가 붙습니다. 코드 서명에 대한 자세한 내용은 애플의 [코드 서명 안내(About Code Signing)](https://developer.apple.com/library/archive/documentation/Security/Conceptual/CodeSigningGuide/Introduction/Introduction.html)를 참고하세요.
 
-#### Linux
+#### 리눅스
 
-`systemd-resolved`, which many Linux distributions use to do their DNS lookups, doesn't yet [support DoH](https://github.com/systemd/systemd/issues/8639). If you want to use DoH, you'll need to install a proxy like [dnscrypt-proxy](../dns.md#dnscrypt-proxy) and [configure it](https://wiki.archlinux.org/title/Dnscrypt-proxy) to take all the DNS queries from your system resolver and forward them over HTTPS.
+많은 리눅스 배포판이 DNS 조회에 사용하는 `systemd-resolved`는 아직 [DoH를 지원](https://github.com/systemd/systemd/issues/8639)하지 않습니다. DoH를 사용하려면 [dnscrypt-proxy](../dns.md#dnscrypt-proxy) 같은 프록시를 설치하고, 시스템 리졸버의 모든 DNS 쿼리를 받아 HTTPS로 전달하도록 [설정](https://wiki.archlinux.org/title/Dnscrypt-proxy)해야 합니다.
 
 ## 외부 주체는 무엇을 볼 수 있나요?
 
@@ -110,7 +110,7 @@ Apple은 암호화 DNS 프로필 생성을 위한 기본 인터페이스를 제�
     tshark -w /tmp/dns_doh.pcap -f "tcp port https and host 1.1.1.1"
     ```
 
-2. 이후 `curl`를 이용해 요청을 생성합니다.
+2. 이어서 `curl`로 요청을 보냅니다.
 
     ```bash
     curl -vI --doh-url https://1.1.1.1/dns-query https://privacyguides.org
@@ -118,31 +118,31 @@ Apple은 암호화 DNS 프로필 생성을 위한 기본 인터페이스를 제�
 
 3. 요청 후 <kbd>CTRL</kbd> + <kbd>C</kbd>를 눌러 패킷 캡처를 중지합니다.
 
-4. Analyze the results in Wireshark:
+4. 와이어샤크에서 결과를 분석합니다:
 
     ```bash
     wireshark -r /tmp/dns_doh.pcap
     ```
 
-We can see the [connection establishment](https://en.wikipedia.org/wiki/Transmission_Control_Protocol#Connection_establishment) and [TLS handshake](https://cloudflare.com/learning/ssl/what-happens-in-a-tls-handshake) that occurs with any encrypted connection. 뒤따르는 'Application Data' 패킷을 살펴보면 요청했던 도메인이나 반환된 IP 주소가 포함되어 있지 않다는 것 또한 확인할 수 있습니다.
+모든 암호화된 연결에서 일어나는 [연결 수립](https://en.wikipedia.org/wiki/Transmission_Control_Protocol#Connection_establishment)과 [TLS 핸드셰이크](https://cloudflare.com/learning/ssl/what-happens-in-a-tls-handshake)를 확인할 수 있습니다. 뒤따르는 'Application Data' 패킷을 살펴보면 요청했던 도메인이나 반환된 IP 주소가 포함되어 있지 않다는 것 또한 확인할 수 있습니다.
 
-## Encrypted DNS Limitations
+## 암호화된 DNS의 한계
 
-인터넷 필터링(혹은 검열)이 존재하는 지역에서는 '차단된 정보에 접근하는 행위' 자체가 자신의 [위협 모델](../basics/threat-modeling.md)에서 고려해야 할 어떠한 결과를 초래할 수도 있습니다. Privacy Guides는 이러한 목적으로 암호화 DNS를 사용하는 것은 추천드리지 **않습니다**. Use [Tor](../advanced/tor-overview.md) or a [VPN](../vpn.md) instead. VPN을 사용하는 경우, 자신이 사용하는 VPN의 DNS 서버를 사용해야 합니다. VPN을 사용하는 순간부터 이미 자신의 모든 네트워크 활동을 VPN 업체에게 맡기고 있는 것이기 때문입니다.
+인터넷 필터링(혹은 검열)이 존재하는 지역에서는 '차단된 정보에 접근하는 행위' 자체가 자신의 [위협 모델](../basics/threat-modeling.md)에서 고려해야 할 어떠한 결과를 초래할 수도 있습니다. 저희는 이러한 목적으로 암호화된 DNS를 사용하는 것을 권장하지 **않습니다**. 대신 [토르](../advanced/tor-overview.md)나 [VPN](../vpn.md)을 사용하세요. VPN을 사용하는 경우, 자신이 사용하는 VPN의 DNS 서버를 사용해야 합니다. VPN을 사용하는 순간부터 이미 자신의 모든 네트워크 활동을 VPN 업체에게 맡기고 있는 것이기 때문입니다.
 
 일반적으로 우리가 무언가에 대한 DNS 조회를 할 때는 해당 리소스에 접근하고자 하는 의도가 있습니다. 다음은 암호화 DNS를 사용하더라도 여러분의 인터넷 탐색 활동이 노출될 수 있는 몇 가지 경우입니다.
 
 ### IP 주소
 
-인터넷 탐색 활동을 알아내는 가장 쉬운 방법은 해당 기기에서 접근하는 IP 주소를 확인하는 것입니다. 예를 들어, 어떤 관찰자가 `privacyguides.org`는 `198.98.54.105`에 존재함을 알고 있는 상태에서, 여러분의 기기가 `198.98.54.105`로 데이터를 요청한 것을 확인했다면, 여러분이 Privacy Guides를 방문했을 것으로 예상할 수 있습니다.
+인터넷 탐색 활동을 알아내는 가장 쉬운 방법은 해당 기기에서 접근하는 IP 주소를 확인하는 것입니다. 예를 들어 관찰자가 `privacyguides.org`가 `198.98.54.105`에 있다는 것을 알고 있는 상태에서 여러분의 기기가 `198.98.54.105`에 데이터를 요청한다면, 여러분이 프라이버시 가이드를 방문하고 있을 가능성이 큽니다.
 
-이 방식은 해당 IP 주소의 서버가 호스팅하고 있는 웹사이트의 개수가 적을 경우에만 유효합니다. It's also not very useful if the site is hosted on a shared platform (e.g. GitHub Pages, Cloudflare Pages, Netlify, WordPress, Blogger, etc.). 최신 인터넷 환경에서는 매우 일반적인 [리버스 프록시](https://ko.wikipedia.org/wiki/%EB%A6%AC%EB%B2%84%EC%8A%A4_%ED%94%84%EB%A1%9D%EC%8B%9C) 뒤에 호스팅되고 있는 경우에도 마찬가지로 그다지 효과가 없습니다.
+이 방식은 해당 IP 주소의 서버가 호스팅하고 있는 웹사이트의 개수가 적을 경우에만 유효합니다. 사이트가 공유 플랫폼(예: 깃허브 페이지, 클라우드플레어 페이지, 넷리파이, 워드프레스, 블로거 등)에서 호스팅되는 경우에도 그다지 효과가 없습니다. 최신 인터넷 환경에서는 매우 일반적인 [리버스 프록시](https://ko.wikipedia.org/wiki/%EB%A6%AC%EB%B2%84%EC%8A%A4_%ED%94%84%EB%A1%9D%EC%8B%9C) 뒤에 호스팅되고 있는 경우에도 마찬가지로 그다지 효과가 없습니다.
 
 ### SNI(Server Name Indication)
 
-Server Name Indication is typically used when an IP address hosts many websites. Cloudflare 등의 서비스나, 그 외 [서비스 거부 공격(DosS공격)](https://ko.wikipedia.org/wiki/%EC%84%9C%EB%B9%84%EC%8A%A4_%EA%B1%B0%EB%B6%80_%EA%B3%B5%EA%B2%A9) 보호 서비스 등이 해당 예시입니다.
+SNI(Server Name Indication)는 일반적으로 하나의 IP 주소에서 여러 웹사이트를 호스팅할 때 사용됩니다. 클라우드플레어 같은 서비스나 그 밖의 [서비스 거부 공격(DoS 공격)](https://en.wikipedia.org/wiki/Denial-of-service_attack) 방어 서비스가 그 예입니다.
 
-1. 마찬가지로 `tshark`로 캡처를 시작합니다. We've added a filter with our IP address, so you don't capture many packets:
+1. 마찬가지로 `tshark`로 캡처를 시작합니다. 패킷이 너무 많이 캡처되지 않도록 IP 주소로 필터를 추가했습니다:
 
     ```bash
     tshark -w /tmp/pg.pcap port 443 and host 198.98.54.105
@@ -158,7 +158,7 @@ Server Name Indication is typically used when an IP address hosts many websites.
     wireshark -r /tmp/pg.pcap
     ```
 
-    연결이 설정이 이루어지고 Privacy Guides 사이트에 대한 TLS 핸드셰이크 과정을 확인할 수 있습니다. 프레임 5 주변에서 "Client Hello"를 확인할 수 있습니다.
+    연결이 수립된 뒤 프라이버시 가이드 웹사이트에 대한 TLS 핸드셰이크가 이어지는 것을 확인할 수 있습니다. 5번 프레임 근처에서 "Client Hello"를 확인할 수 있습니다.
 
 5. 각 필드 옆의 삼각형 &#9656;을 눌러 펼칩니다.
 
@@ -176,13 +176,13 @@ Server Name Indication is typically used when an IP address hosts many websites.
     tshark -r /tmp/pg.pcap -Tfields -Y tls.handshake.extensions_server_name -e tls.handshake.extensions_server_name
     ```
 
-즉, '암호화 DNS'를 사용하더라도 도메인은 SNI를 통해 노출될 가능성이 높습니다. The [TLS v1.3](https://en.wikipedia.org/wiki/Transport_Layer_Security#TLS_1.3) protocol brings with it [Encrypted Client Hello](https://blog.cloudflare.com/encrypted-client-hello), which prevents this kind of leak.
+즉, '암호화 DNS'를 사용하더라도 도메인은 SNI를 통해 노출될 가능성이 높습니다. [TLS v1.3](https://en.wikipedia.org/wiki/Transport_Layer_Security#TLS_1.3) 프로토콜에는 이런 유출을 막아 주는 [Encrypted Client Hello](https://blog.cloudflare.com/encrypted-client-hello)가 함께 도입되었습니다.
 
-Governments, in particular [China](https://zdnet.com/article/china-is-now-blocking-all-encrypted-https-traffic-using-tls-1-3-and-esni) and [Russia](https://zdnet.com/article/russia-wants-to-ban-the-use-of-secure-protocols-such-as-tls-1-3-doh-dot-esni), have either already [started blocking](https://en.wikipedia.org/wiki/Server_Name_Indication#Encrypted_Client_Hello) it or expressed a desire to do so. 최근 러시아는 [HTTP/3](https://en.wikipedia.org/wiki/HTTP/3) 표준을 사용하는 [해외 사이트를 차단하기 시작했습니다](https://github.com/net4people/bbs/issues/108). HTTP/3의 일부인 [QUIC](https://ko.wikipedia.org/wiki/QUIC) 프로토콜에서는 `ClientHello` 암호화가 필수적이기 때문입니다.
+여러 정부, 특히 [중국](https://zdnet.com/article/china-is-now-blocking-all-encrypted-https-traffic-using-tls-1-3-and-esni)과 [러시아](https://zdnet.com/article/russia-wants-to-ban-the-use-of-secure-protocols-such-as-tls-1-3-doh-dot-esni)는 이미 이를 [차단하기 시작했거나](https://en.wikipedia.org/wiki/Server_Name_Indication#Encrypted_Client_Hello) 차단하려는 의사를 밝혔습니다. 최근 러시아는 [HTTP/3](https://en.wikipedia.org/wiki/HTTP/3) 표준을 사용하는 [해외 사이트를 차단하기 시작했습니다](https://github.com/net4people/bbs/issues/108). HTTP/3의 일부인 [QUIC](https://ko.wikipedia.org/wiki/QUIC) 프로토콜에서는 `ClientHello` 암호화가 필수적이기 때문입니다.
 
 ### OCSP(온라인 인증서 상태 프로토콜)
 
-[OCSP](https://ko.wikipedia.org/wiki/%EC%98%A8%EB%9D%BC%EC%9D%B8_%EC%9D%B8%EC%A6%9D%EC%84%9C_%EC%83%81%ED%83%9C_%ED%94%84%EB%A1%9C%ED%86%A0%EC%BD%9C)를 통해 인터넷 탐색 활동이 노출될 가능성도 있습니다. 여러분이 HTTPS 웹사이트를 방문할 때, 브라우저는 해당 웹사이트의 [인증서](https://ko.wikipedia.org/wiki/%EA%B3%B5%EA%B0%9C_%ED%82%A4_%EC%9D%B8%EC%A6%9D%EC%84%9C)가 만료되었는지 확인합니다. 이 과정은 HTTP 프로토콜을 사용해 이루어집니다. 다시 말해, 암호화가 적용되지 **않습니다**.
+[OCSP](https://ko.wikipedia.org/wiki/%EC%98%A8%EB%9D%BC%EC%9D%B8_%EC%9D%B8%EC%A6%9D%EC%84%9C_%EC%83%81%ED%83%9C_%ED%94%84%EB%A1%9C%ED%86%A0%EC%BD%9C)를 통해 인터넷 탐색 활동이 노출될 가능성도 있습니다. HTTPS 웹사이트를 방문할 때 브라우저는 해당 웹사이트의 [인증서](https://en.wikipedia.org/wiki/Public_key_certificate)가 폐기되었는지 확인할 수 있습니다. 이 과정은 HTTP 프로토콜을 사용해 이루어집니다. 다시 말해, 암호화가 적용되지 **않습니다**.
 
 OCSP 요청에는 고유한 인증서 [일련번호](https://en.wikipedia.org/wiki/Public_key_certificate#Common_fields)가 포함되어 있습니다. 이는 인증서 상태를 확인하는 과정에서 'OCSP 응답자(Responder)'에게 전송됩니다.
 
@@ -215,7 +215,7 @@ OCSP 요청에는 고유한 인증서 [일련번호](https://en.wikipedia.org/wi
     openssl x509 -noout -ocsp_uri -in /tmp/pg_server.cert
     ```
 
-    인증서에서 Lets Encrypt 인증서 응답자를 확인할 수 있습니다. 인증서의 모든 세부 정보를 확인하려면 다음 명령어를 사용합니다.
+    인증서에서 렛츠 인크립트 인증서 응답자를 확인할 수 있습니다. 인증서의 모든 세부 정보를 확인하려면 다음 명령어를 사용합니다.
 
     ```bash
     openssl x509 -text -noout -in /tmp/pg_server.cert
@@ -274,83 +274,83 @@ OCSP 요청에는 고유한 인증서 [일련번호](https://en.wikipedia.org/wi
 
 네트워크 관찰자가 공개적으로 사용할 수 있는 공개 인증서를 가지고 있는 경우, 일련번호를 해당 인증서와 대조할 수 있으므로 여러분이 어떤 사이트를 방문하는지 알아낼 수 있습니다. 이 과정은 자동화될 수 있으며, 일련번호를 IP 주소와 연관시킬 수 있습니다. [인증서 투명성](https://en.wikipedia.org/wiki/Certificate_Transparency) 로그에서 일련번호를 확인하는 것 또한 가능합니다.
 
-## "제가 암호화 DNS를 사용해야 할까요?"
+## 암호화된 DNS를 사용해야 할까요?
 
-Privacy Guides는 여러분이 *언제 암호화 DNS를 사용해야 할지* 판단할 수 있도록 플로우차트로 정리해 보았습니다.
+여러분이 언제 암호화된 DNS를 *사용해야* 하는지 설명하기 위해 다음 흐름도를 만들었습니다:
 
 ``` mermaid
 graph TB
     Start[시작] --> anonymous{익명성을<br>원하시나요?}
-    anonymous--> | 예 | tor(Tor를 사용하세요)
+    anonymous--> | 예 | tor(토르를 사용하세요)
     anonymous --> | 아니요 | censorship{검열 회피가<br>목적인가요?}
-    censorship --> | 예 | vpnOrTor(VPN이나 Tor를<br>사용하세요)
+    censorship --> | 예 | vpnOrTor(VPN이나 토르를<br>사용하세요)
     censorship --> | 아니요 | privacy{ISP로부터의<br>프라이버시가<br>목적인가요?}
     privacy --> | 예 | vpnOrTor
     privacy --> | 아니요 | obnoxious{"ISP의 간섭이<br>성가신가요?<br>(강제 리다이렉트 등)"}
     obnoxious --> | 예 | encryptedDNS(제3자 암호화 DNS를<br>사용하세요)
     obnoxious --> | 아니요 | ispDNS{ISP에서<br>암호화 DNS를<br>지원하나요?}
     ispDNS --> | 예 | useISP(ISP 암호화 DNS를<br>사용하세요)
-    ispDNS --> | 아니요 | nothing(아무 것도<br>할 필요 없습니다)
+    ispDNS --> | 아니요 | nothing(아무것도<br>할 필요 없습니다)
 ```
 
-Encrypted DNS with a third party should only be used to get around redirects and basic [DNS blocking](https://en.wikipedia.org/wiki/DNS_blocking) when you can be sure there won't be any consequences, or you're interested in a provider that does some rudimentary filtering.
+제3자 암호화 DNS는 아무런 불이익이 없다고 확신할 수 있을 때 리다이렉트와 기본적인 [DNS 차단](https://en.wikipedia.org/wiki/DNS_blocking)을 우회하기 위해서만, 또는 기초적인 필터링을 제공하는 업체를 원할 때만 사용해야 합니다.
 
 [권장 DNS 서버 목록](../dns.md ""){.md-button}
 
 ## DNSSEC이란 무엇인가요?
 
-DNSSEC([Domain Name System Security Extensions](https://ko.wikipedia.org/wiki/DNSSEC))는 도메인 이름 조회에 대한 응답을 인증하는 DNS 기능입니다. 이 기능은 프라이버시 보호와는 별 관련이 없지만, 공격자가 DNS 요청 응답을 변조하거나 오염시키는 것을 방지합니다.
+[도메인 이름 시스템 보안 확장](https://en.wikipedia.org/wiki/Domain_Name_System_Security_Extensions)(DNSSEC)은 도메인 이름 조회에 대한 응답을 인증하는 DNS 기능입니다. DNSSEC은 조회에 대한 프라이버시 보호를 제공하지는 않지만, 공격자가 DNS 요청에 대한 응답을 조작하거나 오염시키는 것을 방지합니다.
 
-DNSSEC은 데이터 유효성을 보장하기 위해 데이터에 디지털 서명을 수행합니다. 안전한 조회 과정을 보장하기 위해, 디지털 서명은 DNS 조회 과정의 모든 영역에서 이루어집니다. 결과적으로, 모든 DNS 응답을 신뢰할 수 있습니다.
+즉, DNSSEC은 데이터의 유효성을 보장하기 위해 데이터에 디지털 서명을 합니다. 안전한 조회를 보장하기 위해 DNS 조회 과정의 모든 단계에서 서명이 이루어집니다. 결과적으로, 모든 DNS 응답을 신뢰할 수 있습니다.
 
-DNSSEC 서명 과정은 사람이 펜으로 법적 문서에 서명하는 과정과 유사합니다. 다른 사람이 따라 만들 수 없는 고유한 서명으로 서명하고, 법조인은 해당 서명을 보고 문서의 서명이 위조되지 않았음을 확인합니다. 마찬가지로 디지털 서명은 데이터가 변조되지 않았음을 확인합니다.
+DNSSEC 서명 과정은 누군가 펜으로 법적 문서에 서명하는 것과 비슷합니다. 그 사람은 다른 누구도 만들 수 없는 고유한 서명으로 서명하고, 법원의 감정 전문가는 그 서명을 보고 문서에 그 사람이 서명했음을 확인할 수 있습니다. 이러한 디지털 서명은 데이터가 변조되지 않았음을 보장합니다.
 
-DNSSEC은 DNS의 모든 계층에 걸쳐 계층적(Hierarchical) 디지털 서명 정책을 구현합니다. 예를 들어 `privacyguides.org`를 조회하는 경우, 루트 DNS 서버는 자신의 키로 서명해 `.org` 네임 서버에게 제공하고, `.org` 네임 서버 또한 자신의 키로 서명해 `privacyguides.org`의 권한 있는 서버에 제공합니다.
+DNSSEC은 DNS의 모든 계층에 걸쳐 계층적(Hierarchical) 디지털 서명 정책을 구현합니다. 예를 들어 `privacyguides.org`를 조회하는 경우, 루트 DNS 서버는 `.org` 네임 서버의 키에 서명하고, `.org` 네임 서버는 다시 `privacyguides.org`의 권한 있는 네임 서버의 키에 서명합니다.
 
-<small>Adapted from [DNS Security Extensions (DNSSEC) overview](https://cloud.google.com/dns/docs/dnssec) by Google and [DNSSEC: An Introduction](https://blog.cloudflare.com/dnssec-an-introduction) by Cloudflare, both licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0).</small>
+<small>구글의 [DNS 보안 확장(DNSSEC) 개요](https://cloud.google.com/dns/docs/dnssec)와 클라우드플레어의 [DNSSEC: 소개](https://blog.cloudflare.com/dnssec-an-introduction)를 바탕으로 작성했으며, 두 자료 모두 [CC BY 4.0](https://creativecommons.org/licenses/by/4.0) 라이선스를 따릅니다.</small>
 
 ## QNAME 최소화란 무엇인가요?
 
-QNAME은 '정규화된 이름(Qualified Name)'입니다(예시: `discuss.privacyguides.net`). In the past, when resolving a domain name your DNS resolver would ask every server in the chain to provide any information it has about your full query. In this example below, your request to find the IP address for `discuss.privacyguides.net` gets asked of every DNS server provider:
+QNAME은 '정규화된 이름(Qualified Name)'입니다(예시: `discuss.privacyguides.net`). 과거에는 도메인 이름을 확인할 때 DNS 리졸버가 체인에 있는 모든 서버에 전체 쿼리에 대해 가진 정보를 모두 달라고 요청했습니다. 아래 예시에서는 `discuss.privacyguides.net`의 IP 주소를 찾는 요청이 모든 DNS 서버 제공자에게 그대로 전달됩니다:
 
-| Server            | 질문                                    | 응답                                          |
-| ----------------- | ------------------------------------- | ------------------------------------------- |
-| 루트 서버             | discuss.privacyguides.net의 IP는 무엇인가요? | I don't know, ask .net's server...          |
-| .net 서버           | discuss.privacyguides.net의 IP는 무엇인가요? | I don't know, ask Privacy Guides' server... |
-| Privacy Guides 서버 | discuss.privacyguides.net의 IP는 무엇인가요? | 5.161.195.190!                              |
+| 서버           | 질문                                    | 응답                            |
+| ------------ | ------------------------------------- | ----------------------------- |
+| 루트 서버        | discuss.privacyguides.net의 IP는 무엇인가요? | 모르겠어요, .net 서버에 물어보세요...      |
+| .net 서버      | discuss.privacyguides.net의 IP는 무엇인가요? | 모르겠어요, 프라이버시 가이드 서버에 물어보세요... |
+| 프라이버시 가이드 서버 | discuss.privacyguides.net의 IP는 무엇인가요? | 5.161.195.190!                |
 
-With "QNAME minimization," your DNS resolver now only asks for just enough information to find the next server in the chain. In this example, the root server is only asked for enough information to find the appropriate nameserver for the .net TLD, and so on, without ever knowing the full domain you're trying to visit:
+"QNAME 최소화"를 사용하면 DNS 리졸버는 이제 체인의 다음 서버를 찾는 데 필요한 만큼의 정보만 요청합니다. 이 예시에서 루트 서버는 .net TLD에 맞는 네임 서버를 찾는 데 필요한 만큼의 정보만 요청받으며, 이후 서버도 마찬가지로 여러분이 방문하려는 전체 도메인을 알지 못합니다:
 
-| Server            | 질문                                                   | 응답                                |
-| ----------------- | ---------------------------------------------------- | --------------------------------- |
-| 루트 서버             | What's the nameserver for .net?                      | *Provides .net's server*          |
-| .net 서버           | What's the nameserver for privacyguides.net?         | *Provides Privacy Guides' server* |
-| Privacy Guides 서버 | What's the nameserver for discuss.privacyguides.net? | This server!                      |
-| Privacy Guides 서버 | discuss.privacyguides.net의 IP는 무엇인가요?                | 5.161.195.190                     |
+| 서버           | 질문                                       | 응답                   |
+| ------------ | ---------------------------------------- | -------------------- |
+| 루트 서버        | .net의 네임 서버는 무엇인가요?                      | *.net 서버를 알려 줌*      |
+| .net 서버      | privacyguides.net의 네임 서버는 무엇인가요?         | *프라이버시 가이드 서버를 알려 줌* |
+| 프라이버시 가이드 서버 | discuss.privacyguides.net의 네임 서버는 무엇인가요? | 바로 이 서버!             |
+| 프라이버시 가이드 서버 | discuss.privacyguides.net의 IP는 무엇인가요?    | 5.161.195.190        |
 
-While this process can be slightly more inefficient, in this example neither the central root nameservers nor the TLD's nameservers ever receive information about your *full* query, thus reducing the amount of information being transmitted about your browsing habits. 세부 기술 설명은 [RFC 7816](https://datatracker.ietf.org/doc/html/rfc7816)에 정의되어 있습니다.
+이 과정은 약간 더 비효율적일 수 있지만, 이 예시에서는 중앙 루트 네임 서버도 TLD 네임 서버도 여러분의 *전체* 쿼리 정보를 받지 않으므로, 탐색 습관에 관해 전송되는 정보의 양이 줄어듭니다. 세부 기술 설명은 [RFC 7816](https://datatracker.ietf.org/doc/html/rfc7816)에 정의되어 있습니다.
 
 ## ECS(EDNS 클라이언트 서브넷)란 무엇인가요?
 
-[EDNS 클라이언트 서브넷](https://en.wikipedia.org/wiki/EDNS_Client_Subnet)이란, DNS 쿼리를 생성하는 [호스트나 클라이언트](https://ko.wikipedia.org/wiki/%ED%81%B4%EB%9D%BC%EC%9D%B4%EC%96%B8%ED%8A%B8_(%EC%BB%B4%ED%93%A8%ED%8C%85))의 [서브넷](https://ko.wikipedia.org/wiki/%EB%B6%80%EB%B6%84%EB%A7%9D)을 Recursive DNS 리졸버가 지정할 수 있는 방식입니다.
+[EDNS 클라이언트 서브넷](https://en.wikipedia.org/wiki/EDNS_Client_Subnet)은 재귀 DNS 리졸버가 DNS 쿼리를 보내는 [호스트나 클라이언트](https://en.wikipedia.org/wiki/Subnetwork)의 [서브넷](https://en.wikipedia.org/wiki/Client_(computing))을 지정하는 방식입니다.
 
-ECS는 동영상 스트리밍이나 JavaScript 웹 앱 서비스에 때 자주 쓰이는 [콘텐츠 전송 네트워크(CDN)](https://ko.wikipedia.org/wiki/%EC%BD%98%ED%85%90%EC%B8%A0_%EC%A0%84%EC%86%A1_%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC)처럼 클라이언트와 가까운 서버의 응답을 제공하여 데이터 전송 속도를 높이는 기술입니다.
+동영상 스트리밍이나 자바스크립트 웹 앱 제공에 자주 쓰이는 [콘텐츠 전송 네트워크(CDN)](https://en.wikipedia.org/wiki/Content_delivery_network)처럼, 클라이언트와 가까운 서버의 응답을 제공해 데이터 전송 속도를 "높이기" 위한 기술입니다.
 
-This feature does come at a privacy cost, as it tells the DNS server some information about the client's location, generally your IP network. For example, if your IP address is `198.51.100.32` the DNS provider might share `198.51.100.0/24` with the authoritative server. Some DNS providers anonymize this data by providing another IP address which is approximately near your location.
+이 기능은 클라이언트의 위치에 관한 일부 정보, 보통은 IP 네트워크를 DNS 서버에 알려 주기 때문에 프라이버시를 대가로 치르게 됩니다. 예를 들어 IP 주소가 `198.51.100.32`라면, DNS 제공업체는 권한 있는 서버와 `198.51.100.0/24`를 공유할 수 있습니다. 일부 DNS 제공업체는 여러분의 위치와 대략 가까운 다른 IP 주소를 제공하는 방식으로 이 데이터를 익명화합니다.
 
-If you have `dig` installed you can test whether your DNS provider gives EDNS information out to DNS nameservers with the following command:
+`dig`가 설치되어 있다면, 다음 명령어로 DNS 제공업체가 DNS 네임 서버에 EDNS 정보를 넘기는지 테스트할 수 있습니다:
 
 ```bash
 dig +nocmd -t txt o-o.myaddr.l.google.com +nocomments +noall +answer +stats
 ```
 
-Note that this command will contact Google for the test, and return your IP as well as EDNS client subnet information. If you want to test another DNS resolver you can specify their IP, to test `9.9.9.11` for example:
+이 명령어는 테스트를 위해 구글에 접속하며, 여러분의 IP와 EDNS 클라이언트 서브넷 정보를 반환한다는 점에 유의하세요. 다른 DNS 리졸버를 테스트하고 싶다면 해당 IP를 지정하면 됩니다. 예를 들어 `9.9.9.11`을 테스트하려면:
 
 ```bash
 dig +nocmd @9.9.9.11 -t txt o-o.myaddr.l.google.com +nocomments +noall +answer +stats
 ```
 
-If the results include a second edns0-client-subnet TXT record (like shown below), then your DNS server is passing along EDNS information. The IP or network shown after is the precise information which was shared with Google by your DNS provider.
+결과에 (아래와 같이) 두 번째 edns0-client-subnet TXT 레코드가 포함되어 있다면, DNS 서버가 EDNS 정보를 전달하고 있는 것입니다. 그 뒤에 표시되는 IP나 네트워크가 바로 DNS 제공업체가 구글과 공유한 정확한 정보입니다.
 
 ```text
 o-o.myaddr.l.google.com. 60 IN TXT "198.51.100.32"

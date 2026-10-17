@@ -1,166 +1,166 @@
 ---
 title: 접근성 고려하기
-description: Accessibility should always be a priority in our work. To make our privacy communities welcoming to all, we must integrate it in our practice from the start.
+description: 접근성은 언제나 우리 활동의 우선순위가 되어야 합니다. 프라이버시 커뮤니티가 모두를 환영하는 곳이 되려면 처음부터 접근성을 실천에 녹여내야 합니다.
 icon: fontawesome/solid/heart-circle-check
 cover: activism/banner-toolbox-tip-accessibility.webp
 ---
 
-**Accessibility** is indispensable to [inclusivity](tip-keep-your-posts-and-community-inclusive.md), and should always be a priority in our work. To make our privacy communities welcoming to all, accessibility cannot be an afterthought. We must integrate it in our practice from the start. This means making sure the languages, visuals, tools, and venues we use are accessible to as many people as possible.
+**접근성**은 [포용성](tip-keep-your-posts-and-community-inclusive.md)에 꼭 필요한 요소이며, 언제나 우리 활동의 우선순위가 되어야 합니다. 프라이버시 커뮤니티가 모두를 환영하는 곳이 되려면 접근성을 나중으로 미뤄서는 안 됩니다. 처음부터 접근성을 실천에 녹여내야 합니다. 즉, 우리가 사용하는 언어, 시각 자료, 도구, 장소를 최대한 많은 사람이 이용할 수 있도록 해야 한다는 뜻입니다.
 
-Here's what you can do to improve accessibility for your privacy-related content and communities:
+프라이버시 관련 콘텐츠와 커뮤니티의 접근성을 높이기 위해 할 수 있는 일은 다음과 같습니다:
 
-## Accessibility for all, in all the ways
+## 모두를 위한, 모든 면에서의 접근성
 
-For many people who don't need any specific accommodations, accessibility is often only thought about in terms of solutions to _mobility_ impairments, such as for people requiring the use of a wheelchair.
+특별한 편의 지원이 필요 없는 많은 사람은 접근성을 휠체어 사용자처럼 _이동_ 장애에 대한 해결책 정도로만 생각하는 경우가 많습니다.
 
-While this is indeed and important factor to consider, there are many other types of disabilities and accommodations we should be mindful of in our privacy work.
+이것도 분명 중요한 고려 요소이지만, 프라이버시 활동에서 염두에 두어야 할 장애와 편의 지원의 유형은 그 밖에도 많습니다.
 
-Considering how each part of our work could be accessed more easily by everyone is essential to grow our movement, and to diversify our privacy communities.
+활동의 각 부분을 모두가 더 쉽게 이용할 수 있는 방법을 고민하는 것은 우리 운동을 키우고 프라이버시 커뮤니티를 다양하게 만드는 데 필수입니다.
 
-Ethically, it's also just the right thing to do, and should be the norm everywhere.
+윤리적으로도 마땅히 해야 할 일이며, 어디서나 기본이 되어야 합니다.
 
-### Visual, auditory, and other sensorial accessibility
+### 시각, 청각 및 기타 감각 접근성
 
-Anytime you are using images, audio, or any other sensorial elements in your advocacy work, you should always make sure to follow best practices to ensure your content will be accessible to people with visual, auditory, or other sensorial impairments.
+옹호 활동에서 이미지, 오디오 또는 기타 감각적 요소를 사용할 때는 언제나 모범 사례를 따라 시각, 청각 또는 기타 감각 장애가 있는 사람도 콘텐츠를 이용할 수 있도록 해야 합니다.
 
-- [x] If you use images in your websites or social media posts, make sure to always add proper [alt text](https://abilitynet.org.uk/resources/digital-accessibility/five-golden-rules-compliant-alt-text) to describe the information the image represents. Keep in mind visitors that might be using a [screen reader](https://en.wikipedia.org/wiki/Screen_reader).
+- [x] 웹사이트나 소셜 미디어 게시물에 이미지를 사용한다면, 이미지가 담고 있는 정보를 설명하는 적절한 [대체 텍스트](https://abilitynet.org.uk/resources/digital-accessibility/five-golden-rules-compliant-alt-text)를 항상 추가하세요. [스크린 리더](https://en.wikipedia.org/wiki/Screen_reader)를 사용하는 방문자도 있다는 점을 염두에 두세요.
 
-- [x] When designing websites, posters, flyers, or zines, keep in mind [visual accessibility](https://webdesign.tutsplus.com/accessibility-basics-designing-for-visual-impairment--cms-27634a) for people with blindness, low vision, color blindness, and other visual impairments.
+- [x] 웹사이트, 포스터, 전단지, 진(zine)을 디자인할 때는 실명, 저시력, 색맹 및 기타 시각 장애가 있는 사람을 위한 [시각 접근성](https://webdesign.tutsplus.com/accessibility-basics-designing-for-visual-impairment--cms-27634a)을 염두에 두세요.
 
-- [x] Be careful to refrain from using designs and videos with [flashing lights](https://developer.mozilla.org/en-US/docs/Web/Accessibility/Guides/Seizure_disorders), or display proper warning if you do. Flashing or flickering light effects, and even certain high-contrast static images, can trigger seizures in people with photosensitive epilepsy.
+- [x] [깜빡이는 빛](https://developer.mozilla.org/en-US/docs/Web/Accessibility/Guides/Seizure_disorders)이 있는 디자인과 영상은 사용을 자제하고, 사용한다면 적절한 경고를 표시하세요. 깜빡이거나 번쩍이는 빛 효과, 심지어 일부 고대비 정지 이미지도 광과민성 뇌전증이 있는 사람에게 발작을 일으킬 수 있습니다.
 
-- [x] If you use [audio material](https://www.w3.org/WAI/people-use-web/abilities-barriers/auditory/) in your advocacy, try to include captions or transcripts in your content for people with auditory impairments. If you organize a larger event with speakers, try to see if you could hire a sign language interpreter.
+- [x] 옹호 활동에서 [오디오 자료](https://www.w3.org/WAI/people-use-web/abilities-barriers/auditory/)를 사용한다면, 청각 장애가 있는 사람을 위해 콘텐츠에 자막이나 대본을 포함하세요. 연사가 있는 큰 행사를 연다면 수어 통역사를 섭외할 수 있는지 알아보세요.
 
-- [x] Whenever you develop content or organize events, always be mindful of people with sensory impairments or [sensory sensitivities](https://accessforallllc.com/sensory-and-cognitive-accessibility/).
+- [x] 콘텐츠를 만들거나 행사를 열 때는 언제나 감각 장애나 [감각 과민](https://accessforallllc.com/sensory-and-cognitive-accessibility/)이 있는 사람을 배려하세요.
 
-### Website accessibility
+### 웹사이트 접근성
 
-If you develop a website in your privacy work, make sure to follow the international standards for web accessibility.
+프라이버시 활동을 위해 웹사이트를 만든다면 웹 접근성 국제 표준을 반드시 따르세요.
 
-This is very important to ensure readers using assistive devices will be able to access your content, and that people with visual impairments will not struggle to access your content.
+이는 보조 기기를 사용하는 독자가 콘텐츠에 접근할 수 있도록 하고, 시각 장애가 있는 사람이 콘텐츠를 이용하는 데 어려움을 겪지 않도록 하는 데 매우 중요합니다.
 
-- [x] Get familiar with the World Wide Web Consortium (W3C) [international Web standards](https://www.w3.org/WAI/standards-guidelines/). These standards have been reviewed for accessibility support by the Accessible Platform Architectures ([APA](https://www.w3.org/WAI/about/groups/apawg/)) Working Group.
+- [x] 월드 와이드 웹 컨소시엄(W3C)의 [국제 웹 표준](https://www.w3.org/WAI/standards-guidelines/)을 익혀 두세요. 이 표준들은 접근 가능한 플랫폼 아키텍처([APA](https://www.w3.org/WAI/about/groups/apawg/)) 워킹 그룹의 접근성 지원 검토를 거쳤습니다.
 
-- [x] Use a [web accessibility evaluation tool](https://www.w3.org/WAI/test-evaluate/tools/list/) to verify that your web content meets accessibility guidelines, or otherwise make sure to follow the [Web Content Accessibility Guidelines](https://www.pivotalaccessibility.com/2024/11/how-to-perform-a-web-accessibility-audit-step-by-step-guide/) (WCAG).
+- [x] [웹 접근성 평가 도구](https://www.w3.org/WAI/test-evaluate/tools/list/)를 사용해 웹 콘텐츠가 접근성 지침을 충족하는지 확인하거나, 그렇지 않다면 [웹 콘텐츠 접근성 지침](https://www.pivotalaccessibility.com/2024/11/how-to-perform-a-web-accessibility-audit-step-by-step-guide/)(WCAG)을 반드시 따르세요.
 
-- [x] If your organization can afford it, hire a [web accessibility consultant](https://accessibilityinnovations.com/blogs/web-accessibility-consultant/).
+- [x] 단체에 여유가 있다면 [웹 접근성 컨설턴트](https://accessibilityinnovations.com/blogs/web-accessibility-consultant/)를 고용하세요.
 
-### Global accessibility
+### 글로벌 접근성
 
-Whether you write a post, an article, or a whole website in English, keep in mind that your audience is likely global.
+영어로 게시물이나 기사, 웹사이트 전체를 작성한다면, 독자가 전 세계에 있을 가능성이 크다는 점을 염두에 두세요.
 
-People from all around the world will be able to read or watch your English content, many who don't speak English as their first language. Don't assume that your audience is only coming from your own country or region. This is a good thing, by the way! ==The battle for privacy rights must be global now.==
+전 세계 사람들이 여러분의 영어 콘텐츠를 읽거나 볼 수 있으며, 그중 상당수는 영어가 모국어가 아닙니다. 독자가 여러분의 나라나 지역에서만 온다고 생각하지 마세요. 참고로 이건 좋은 일입니다! ==이제 프라이버시 권리를 위한 싸움은 전 세계적이어야 합니다.==
 
-- [x] Be careful not to use too many references that are unique to your own country or region. If you do, make sure to explain what it is for people from other regions.
+- [x] 여러분의 나라나 지역에서만 통하는 표현을 너무 많이 쓰지 않도록 주의하세요. 그런 표현을 쓴다면 다른 지역 사람들을 위해 그것이 무엇인지 설명해 주세요.
 
-- [x] When talking about issues related to politics, make sure to specify what governmental entities are, and explain any special rights your country has (don't just name them). That way, outsiders will be able to understand and support your cause as well, even if perhaps they aren't directly impacted by this issue at the moment.
+- [x] 정치 관련 문제를 이야기할 때는 정부 기관이 무엇인지 명시하고, 여러분 나라의 특별한 권리를 (이름만 언급하지 말고) 설명해 주세요. 그래야 당장은 그 문제의 직접적인 영향을 받지 않는 외부 사람들도 여러분의 대의를 이해하고 지지할 수 있습니다.
 
-- [x] Don't assume everyone knows all the popular internet acronyms such as DIY (Do It Yourself) or IIRC (If I Recall Correctly). These acronyms are very challenging for non-native English speakers. When using acronyms in your content, always explain the full expression in parentheses at least once, or better yet, simply use whole words instead.
+- [x] 모든 사람이 DIY(Do It Yourself)나 IIRC(If I Recall Correctly) 같은 인터넷 약어를 다 알 것이라고 생각하지 마세요. 이런 약어는 영어가 모국어가 아닌 사람에게 매우 어렵습니다. 콘텐츠에 약어를 쓸 때는 최소 한 번은 괄호 안에 전체 표현을 풀어서 설명하고, 더 좋은 방법은 아예 약어 대신 전체 단어를 쓰는 것입니다.
 
-- [x] When inviting people to an event, consider that people from other time zones might be reading your invitation. If your event is online, always specify the [time zone](https://www.timeanddate.com/time/map/) for the announced time. If your event is in person, always specify the whole location with the country and region ([do _not_ just name the city](https://www.roughmaps.com/destinations/20-places-around-the-world-that-share-the-same-name/22)).
+- [x] 사람들을 행사에 초대할 때는 다른 시간대에 있는 사람들도 초대장을 읽을 수 있다는 점을 고려하세요. 온라인 행사라면 공지한 시간의 [시간대](https://www.timeanddate.com/time/map/)를 항상 명시하세요. 오프라인 행사라면 국가와 지역을 포함한 전체 장소를 항상 명시하세요([도시 이름만 쓰지 _마세요_](https://www.roughmaps.com/destinations/20-places-around-the-world-that-share-the-same-name/22)).
 
-### Physical accessibility
+### 물리적 접근성
 
-When organizing events and meetups in person, it's essential to keep in mind physical accessibility for people with mobility challenges of all kind. This includes accessibility around the venue, but also on the journey to the venue.
+오프라인 행사와 모임을 열 때는 온갖 종류의 이동상 어려움이 있는 사람들을 위한 물리적 접근성을 반드시 염두에 두어야 합니다. 여기에는 행사장 내부뿐만 아니라 행사장까지 가는 경로의 접근성도 포함됩니다.
 
-- [x] Ensure the venue you select is [accessible for people using wheelchairs](https://sites.augsburg.edu/events/policies/accessible-events/accessible-event-planning-guide/). Check that there is access to an elevator if it's on an upper floor, that there are access ramps and automatic doors if required, and that doorways and hallways are wide enough to accommodate a wheelchair.
+- [x] 선택한 행사장이 [휠체어 사용자가 이용할 수 있는지](https://sites.augsburg.edu/events/policies/accessible-events/accessible-event-planning-guide/) 확인하세요. 위층이라면 엘리베이터를 이용할 수 있는지, 필요하다면 경사로와 자동문이 있는지, 출입구와 복도가 휠체어가 지나갈 만큼 넓은지 확인하세요.
 
-- [x] Make certain that there will be enough comfortable seating for your guests, and that seating and eating areas will be accessible to guests using wheelchairs or other mobility aids.
+- [x] 참석자를 위한 편안한 좌석이 충분한지, 좌석과 식사 공간을 휠체어나 기타 이동 보조 기구를 사용하는 참석자도 이용할 수 있는지 확인하세요.
 
-- [x] Check that there are wheelchair-accessible bathrooms nearby.
+- [x] 가까운 곳에 휠체어로 이용할 수 있는 화장실이 있는지 확인하세요.
 
-- [x] Evaluate the accessibility of the transit options available to reach the venue you select, including specialized transits for people who are using wheelchairs, or other types of mobility aids. Publish a map of the transit accesses around your venue.
+- [x] 휠체어나 기타 이동 보조 기구를 사용하는 사람을 위한 특별 교통수단을 포함해, 선택한 행사장까지 갈 수 있는 교통수단의 접근성을 평가하세요. 행사장 주변의 대중교통 접근 지도를 게시하세요.
 
-- [x] Research if your venue has access to parking and accessible parking spots. Publish this information with your invitation.
+- [x] 행사장에 주차장과 장애인 전용 주차 구역이 있는지 알아보세요. 이 정보를 초대장과 함께 게시하세요.
 
-- [x] Verify the venue you select is accessible to people with visual or auditory impairments. For example, check if elevators are marked with Braille or raised letters, and make sure that hosts are informed on how to communicate with guests who are deaf or hard of hearing.
+- [x] 선택한 행사장을 시각 또는 청각 장애가 있는 사람도 이용할 수 있는지 확인하세요. 예를 들어 엘리베이터에 점자나 돋을새김 글자가 표시되어 있는지 확인하고, 진행 요원들이 농인이나 난청이 있는 참석자와 소통하는 방법을 알고 있는지 확인하세요.
 
-### Health accessibility
+### 건강 접근성
 
-In-person accessibility isn't just about mobility. Accessibility is also important to consider for a variety of health conditions, including people who are vulnerable to infectious diseases, or require other accommodations related to their health.
+오프라인 접근성은 이동성에만 국한되지 않습니다. 감염병에 취약하거나 건강과 관련해 다른 편의 지원이 필요한 사람 등, 다양한 건강 상태를 위한 접근성도 고려해야 합니다.
 
-- [x] Designate a trained person responsible for accessibility, and share their contact information in advance. That way, people will be able to contact this person if they have any questions before or during the event.
+- [x] 교육받은 접근성 담당자를 지정하고, 담당자의 연락처를 미리 공유하세요. 그러면 사람들이 행사 전이나 행사 중에 궁금한 점이 있을 때 담당자에게 연락할 수 있습니다.
 
-- [x] Encourage your participants to wear a mask, and try to select a venue with adequate ventilation to minimize the risks for people who are [vulnerable to respiratory infections](https://health.clevelandclinic.org/superspreader-events). If food is served, try to select a venue with an area allowing to consume food outside.
+- [x] 참가자들에게 마스크 착용을 권하고, [호흡기 감염에 취약한](https://health.clevelandclinic.org/superspreader-events) 사람들의 위험을 최소화하기 위해 환기가 잘 되는 행사장을 고르세요. 음식을 제공한다면 야외에서 음식을 먹을 수 있는 공간이 있는 행사장을 고르세요.
 
-- [x] Make sure to bring a few boxes of [protective face masks](https://health.clevelandclinic.org/do-masks-work) to your event that guests can use for free. That way, people who might be at risk in dense crowd can decide to wear a mask once they arrived, or if they forgot to bring their own.
+- [x] 참석자가 무료로 쓸 수 있도록 [보호용 마스크](https://health.clevelandclinic.org/do-masks-work)를 몇 상자 준비해 가세요. 그러면 밀집된 인파 속에서 위험할 수 있는 사람들이 도착한 뒤에 마스크를 쓰기로 하거나, 깜빡하고 마스크를 챙기지 못했을 때도 쓸 수 있습니다.
 
-- [x] Try to prepare an area in your venue, or near your venue, where people can rest comfortably in a [quiet space](https://eventwell.org/ensuring-inclusive-events-the-importance-of-supervising-quiet-spaces-for-neurodivergent-attendees-and-vulnerable-adults/), if they feel tired or overstimulated during the event.
+- [x] 행사 중 피곤하거나 과도한 자극을 느끼는 사람이 편히 쉴 수 있도록, 행사장 안이나 근처에 [조용한 공간](https://eventwell.org/ensuring-inclusive-events-the-importance-of-supervising-quiet-spaces-for-neurodivergent-attendees-and-vulnerable-adults/)을 마련하세요.
 
-- [x] Promote a [scent-free](https://www.chrc-ccdp.gc.ca/resources/publications/environmental-sensitivities-and-scent-free-policies) environment to make your event welcoming to people who have scent allergies, environmental sensibilities, or other health conditions that can be affected by scents.
+- [x] 향 알레르기, 환경 과민증 또는 향에 영향을 받을 수 있는 기타 건강 문제가 있는 사람도 편하게 참석할 수 있도록 [무향](https://www.chrc-ccdp.gc.ca/resources/publications/environmental-sensitivities-and-scent-free-policies) 환경을 장려하세요.
 
-- [x] Provide training for hosts and event volunteers to make sure they are aware of available accommodations, and can give helpful information upon request.
+- [x] 진행 요원과 행사 자원봉사자가 제공되는 편의 지원을 숙지하고 요청 시 유용한 정보를 안내할 수 있도록 교육하세요.
 
-### Dietary accessibility
+### 식단 접근성
 
-If your event provides meals, snacks, or drinks, make sure to prepare well in-advance to consider the potential dietary restrictions of your guests.
+행사에서 식사, 간식, 음료를 제공한다면 참석자의 식이 제한을 고려해 미리 충분히 준비하세요.
 
-- [x] List clearly what types of food and drinks with be served (or available) at the event.
+- [x] 행사에서 제공되는(또는 구할 수 있는) 음식과 음료의 종류를 명확하게 안내하세요.
 
-- [x] Provide contact information for people to reach out in advance if they have special dietary requirements or requests that have not already been addressed.
+- [x] 아직 반영되지 않은 특별한 식이 요구 사항이나 요청이 있는 사람이 미리 연락할 수 있도록 연락처를 제공하세요.
 
-- [x] Try to provide food and beverages that will cover a variety of dietary needs, such as vegan, nut-free, gluten-free, lactose-free, alcohol-free, or low-sugar options.
+- [x] 비건, 견과류 무첨가, 글루텐 프리, 유당 프리, 무알코올, 저당 옵션 등 다양한 식이 요구를 충족하는 음식과 음료를 제공하세요.
 
-- [x] If you host a large event, consider keeping a few [epinephrine autoinjectors](https://greatergood.com/blogs/news/epinephrine-public-areas) available on site in your emergency kit, in case anyone experiences a dangerous allergic reaction.
+- [x] 큰 행사를 연다면 누군가 위험한 알레르기 반응을 보일 경우에 대비해 현장 응급 키트에 [에피네프린 자동 주사기](https://greatergood.com/blogs/news/epinephrine-public-areas)를 몇 개 갖춰 두는 것을 고려하세요.
 
-- [x] Make sure guests will have access to free and clean water, especially if your event is scheduled during a heat wave.
+- [x] 특히 폭염 중에 행사가 열린다면 참석자가 깨끗한 물을 무료로 마실 수 있도록 하세요.
 
-- [x] Ensure there is a quiet and private room available for anyone who might be breastfeeding.
+- [x] 모유 수유를 하는 사람을 위해 조용하고 사적인 공간을 마련하세요.
 
-- [x] Provide all this information in advance with your invitation, so that guests can evaluate properly if the event is accessible to them.
+- [x] 참석자가 행사를 이용할 수 있는지 제대로 판단할 수 있도록 이 모든 정보를 초대장과 함께 미리 제공하세요.
 
-### Safety accessibility
+### 안전 접근성
 
-Safety is also an important aspect of accessibility. Everyone has a unique threat model, and, for a variety of reasons, some people might be at an elevated risk to their physical safety when going to and participating in an event in person.
+안전도 접근성의 중요한 측면입니다. 사람마다 위협 모델이 다르며, 여러 이유로 어떤 사람은 오프라인 행사에 오가고 참여할 때 신체적 안전에 대한 위험이 더 클 수 있습니다.
 
-- [x] Implement a [Code of Conduct](https://oshwa.org/resources/how-to-write-a-code-of-conduct/) for your event or community. Ensure there are clear channels to report bad behaviors, and that your Code of Conduct is enforced properly.
+- [x] 행사나 커뮤니티에 [행동 강령](https://oshwa.org/resources/how-to-write-a-code-of-conduct/)을 도입하세요. 부적절한 행동을 신고할 수 있는 명확한 창구를 마련하고, 행동 강령이 제대로 시행되도록 하세요.
 
-- [x] Verify that access to the bathrooms is safe and well lit at your venue.
+- [x] 행사장의 화장실로 가는 길이 안전하고 조명이 밝은지 확인하세요.
 
-- [x] Make sure the venue you select is safe to access by transits or cars, and that the nearest parking lot or bus stop is well lit if the event ends late at night.
+- [x] 선택한 행사장에 대중교통이나 자동차로 안전하게 갈 수 있는지, 행사가 밤늦게 끝난다면 가장 가까운 주차장이나 버스 정류장에 조명이 밝은지 확인하세요.
 
-- [x] If your venue is located in an area that might be more dangerous at night, consider setting up an [accompaniment service](https://www.concordia.ca/campus-life/security/services/safe-walk.html) with a set of volunteers offering to walk guests safely back to their bus stop, for example. Make this information known in advance.
+- [x] 행사장이 밤에 더 위험할 수 있는 지역에 있다면, 예를 들어 자원봉사자들이 참석자를 버스 정류장까지 안전하게 바래다주는 [동행 서비스](https://www.concordia.ca/campus-life/security/services/safe-walk.html)를 마련하는 것을 고려하세요. 이 정보를 미리 알려 주세요.
 
-- [x] Implement a clear [Photo Policy](https://events.ccc.de/congress/2025/infos/privacy.html#photo-policy) for your event, and forbid all nonconsensual photos. You can also provide "No Photos" or "Photos OK" stickers, buttons, or lanyards for guests upon arrival. That way, guests can explicitly opt out of being photographed at your event if they prefer not to. If your event hired an official photographer, make sure they are careful to never take photos that include people wearing these badges. Ideally, limit event photos to a minimum, and only take photos of people after asking for their explicit consent first.
+- [x] 행사에 명확한 [사진 정책](https://events.ccc.de/congress/2025/infos/privacy.html#photo-policy)을 마련하고, 동의 없는 사진 촬영은 모두 금지하세요. 참석자가 도착하면 "사진 촬영 금지" 또는 "사진 촬영 가능" 스티커, 배지, 목걸이 줄을 나눠 줄 수도 있습니다. 그러면 원하지 않는 참석자는 행사에서 사진에 찍히지 않겠다는 의사를 분명히 밝힐 수 있습니다. 행사에 공식 사진작가를 고용했다면, 이 배지를 단 사람이 포함된 사진은 절대 찍지 않도록 주의시키세요. 가장 좋은 방법은 행사 사진을 최소한으로 줄이고, 사람을 촬영할 때는 먼저 명시적인 동의를 구한 뒤에만 찍는 것입니다.
 
-### Financial accessibility
+### 경제적 접근성
 
-Another aspect of accessibility that is often overlooked is financial accessibility. Sadly, many people are unable to access certain events due to financial limitations, even if it would be very helpful to them to network and meet privacy advocacy peers. When you organize an event, be mindful of providing options to increase financial accessibility.
+자주 간과되는 또 다른 접근성은 경제적 접근성입니다. 안타깝게도 많은 사람이 인맥을 쌓고 프라이버시 옹호 활동을 하는 동료를 만나는 것이 큰 도움이 되는데도 경제적 제약 때문에 특정 행사에 참여하지 못합니다. 행사를 열 때는 경제적 접근성을 높일 수 있는 선택지를 마련하도록 신경 쓰세요.
 
-- [x] Try to keep your events free or partly free whenever possible, while remaining vigilant about accepting money from [financial sponsors](https://www.privacyguides.org/articles/2025/09/03/red-and-green-privacy-flags/#donations-event-sponsorships-and-other-revenues) that could be in contradiction with your privacy values.
+- [x] 가능하면 행사를 무료 또는 부분 무료로 운영하되, 여러분의 프라이버시 가치와 어긋날 수 있는 [후원사](https://www.privacyguides.org/articles/2025/09/03/red-and-green-privacy-flags/#donations-event-sponsorships-and-other-revenues)로부터 돈을 받는 일은 경계하세요.
 
-- [x] Reserve a quantity of free tickets for people with more severe limitations.
+- [x] 형편이 더 어려운 사람들을 위해 무료 티켓을 일정 수량 따로 마련해 두세요.
 
-- [x] Offer discounts for students or unemployed peers.
+- [x] 학생이나 구직 중인 동료에게 할인을 제공하세요.
 
-- [x] Create opportunities for part-time volunteering, where people can offer to help a little, then participate in the rest of the event for free.
+- [x] 조금 도움을 준 뒤 나머지 행사에는 무료로 참여할 수 있는 시간제 자원봉사 기회를 만드세요.
 
-- [x] Provide contact information for people who would like to request free or cheaper access, or discuss their unique situation with you.
+- [x] 무료 또는 할인 참가를 요청하거나 자신의 사정을 상의하고 싶은 사람을 위해 연락처를 제공하세요.
 
-### Beginners accessibility
+### 초보자 접근성
 
-[Welcoming beginners](tip-welcome-beginners.md) is crucial in all the work we do. To keep your content and events accessible to beginners, it's important to be mindful of the language you use, the ways you present content, and the places where you promote your events.
+[초보자를 환영하는 것](tip-welcome-beginners.md)은 우리가 하는 모든 활동에서 매우 중요합니다. 콘텐츠와 행사를 초보자도 쉽게 접할 수 있도록 하려면, 사용하는 언어와 콘텐츠를 보여 주는 방식, 행사를 홍보하는 장소에 신경 써야 합니다.
 
-- [x] Always explain acronyms with whole words before only using the letters only.
+- [x] 약어만 쓰기 전에 항상 전체 단어로 먼저 풀어서 설명하세요.
 
-- [x] Be careful when using jargon, try to be explicit and use simple words and analogies.
+- [x] 전문 용어를 쓸 때는 주의하고, 명확하게 표현하며 쉬운 단어와 비유를 사용하세요.
 
-- [x] Beware of gatekeeping. Try to stay aware of newcomers that might be quiet or isolated from the group. [Be inclusive](tip-keep-your-posts-and-community-inclusive.md) and invite them to participate.
+- [x] 배타적인 텃세를 경계하세요. 조용하거나 무리에서 떨어져 있을 수 있는 새로운 사람들에게 관심을 기울이세요. [포용적인 태도로](tip-keep-your-posts-and-community-inclusive.md) 그들의 참여를 이끌어 주세요.
 
-- [x] Specify that your event welcomes beginners.
+- [x] 행사가 초보자를 환영한다는 점을 명시하세요.
 
-- [x] Be mindful of advertising your event in places where potential newcomers might see it. Be careful about not inviting people only from places reaching out to people who are already part of the privacy community.
+- [x] 새로운 사람들이 볼 수 있는 곳에 행사를 홍보하도록 신경 쓰세요. 이미 프라이버시 커뮤니티에 속한 사람들에게만 닿는 곳에서만 사람들을 초대하지 않도록 주의하세요.
 
-## More resources
+## 추가 자료
 
-- [How to make your social justice event accessible (_The Commons Social Change Library_)](https://commonslibrary.org/how-to-make-your-social-justice-event-accessible/)
+- [사회 정의 행사를 접근 가능하게 만드는 방법 (_커먼스 소셜 체인지 라이브러리_)](https://commonslibrary.org/how-to-make-your-social-justice-event-accessible/)
 
-- [Make your event accessible and inclusive (_Park People_)](https://parkpeople.ca/make-your-event-accessible-and-inclusive/)
+- [행사를 접근 가능하고 포용적으로 만들기 (_파크 피플_)](https://parkpeople.ca/make-your-event-accessible-and-inclusive/)
 
-- [How to host a COVID-safe party: Tips and tricks (_Party Pro_)](https://party.pro/covid/)
+- [코로나19로부터 안전한 파티를 여는 방법: 팁과 요령 (_파티 프로_)](https://party.pro/covid/)
 
-- [Dos and don'ts on designing for accessibility (UK Government)](https://accessibility.blog.gov.uk/2016/09/02/dos-and-donts-on-designing-for-accessibility/)
+- [접근성을 위한 디자인에서 해야 할 일과 하지 말아야 할 일 (영국 정부)](https://accessibility.blog.gov.uk/2016/09/02/dos-and-donts-on-designing-for-accessibility/)
 
-- [Five golden rules for compliant alt text (_AbilityNet_)](https://abilitynet.org.uk/resources/digital-accessibility/five-golden-rules-compliant-alt-text)
+- [기준에 맞는 대체 텍스트를 위한 다섯 가지 황금률 (_어빌리티넷_)](https://abilitynet.org.uk/resources/digital-accessibility/five-golden-rules-compliant-alt-text)
 
-- [Accessibility developer guide (_Access for all_)](https://www.accessibility-developer-guide.com/)
+- [접근성 개발자 가이드 (_액세스 포 올_)](https://www.accessibility-developer-guide.com/)

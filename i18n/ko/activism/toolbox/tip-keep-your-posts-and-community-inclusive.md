@@ -1,45 +1,45 @@
 ---
-title: Keep Your Posts and Community Inclusive
-description: Inclusivity is essential to grow our privacy movement. If we want privacy rights to succeed, we must build communities where everyone feels safe and welcomed.
+title: 게시물과 커뮤니티를 포용적으로 유지하기
+description: 포용성은 프라이버시 운동을 키우는 데 필수입니다. 프라이버시 권리가 승리하기를 바란다면, 모두가 안전하고 환영받는다고 느끼는 커뮤니티를 만들어야 합니다.
 icon: fontawesome/solid/heart-circle-plus
 cover: activism/banner-toolbox-tip-inclusivity.webp
 ---
 
-**Inclusivity** is not only the right thing to do, it's also essential to grow our movement. If we want privacy rights to succeed, it's imperative that we build communities where _everyone_ feels safe and welcomed, regardless of who they are or where they come from.
+**포용성**은 옳은 일일 뿐만 아니라 우리 운동을 키우는 데에도 필수입니다. 프라이버시 권리가 승리하기를 바란다면, 누구든 어디에서 왔든 상관없이 _모든 사&#xB78C;_&#xC774; 안전하고 환영받는다고 느끼는 커뮤니티를 만드는 것이 반드시 필요합니다.
 
-Here's how you can keep your communications and communities inclusive:
+소통과 커뮤니티를 포용적으로 유지하는 방법은 다음과 같습니다:
 
-## Why you need communities that are diverse and inclusive
+## 다양하고 포용적인 커뮤니티가 필요한 이유
 
-In privacy, **diversity** is an incredible strength, a necessity even. When people with different lived experiences, identities, localities, specialties, and mentalities join our group, we benefit from a broader perspective as a whole.
+프라이버시 분야에서 **다양성**은 엄청난 강점이며, 나아가 필수 요소이기도 합니다. 서로 다른 삶의 경험, 정체성, 지역, 전문 분야, 사고방식을 가진 사람들이 함께하면, 우리는 전체적으로 더 넓은 관점을 얻게 됩니다.
 
-Having a broad perspective is essential to understand the scope and impact of privacy issues, as well as the actionable solutions for diverse situations.
+넓은 관점은 프라이버시 문제의 범위와 영향, 그리고 다양한 상황에 맞는 실천 가능한 해결책을 이해하는 데 필수적입니다.
 
-When people with different lived experiences and identities join our group, it expands our understanding of numerous [threat models](../../basics/threat-modeling.md), and allows us to adapt our message in ways that will be more inclusive.
+서로 다른 삶의 경험과 정체성을 가진 사람들이 함께하면 다양한 [위협 모델](../../basics/threat-modeling.md)에 대한 이해가 넓어지고, 메시지를 더 포용적인 방식으로 다듬을 수 있습니다.
 
-When people from different localities join our group, this helps us to regionalize our content and communication to make it accessible to people all around the world, and expand our network. And when people with different mentalities join our group, it helps us to reach out to people with different ways of thinking more easily.
+여러 지역의 사람들이 함께하면 콘텐츠와 소통을 지역에 맞게 조정해 전 세계 사람들이 접근할 수 있도록 만들고, 네트워크를 넓히는 데 도움이 됩니다. 그리고 서로 다른 사고방식을 가진 사람들이 함께하면 다르게 생각하는 사람들에게 더 쉽게 다가갈 수 있습니다.
 
-\==The more diverse is a team, the more resources it has to understand and support a diverse population of people== interested (or potentially interested) in privacy rights.
+\==팀이 다양할수록, 프라이버시 권리에 관심이 있는(또는 관심을 가질 수 있는) 다양한 사람들을 이해하고 지원할 자원도 많아집니다.==
 
-Inclusivity allows diversity to thrive, and diversity will make it easier for your group to be inclusive.
+포용성은 다양성이 꽃피게 하고, 다양성은 그룹이 더 쉽게 포용적일 수 있도록 해 줍니다.
 
-Of course, for all those benefits to happen, it's crucial that [group leaders](tip-level-up-assemble-and-organize.md) be good listeners, and actively nurture diversity and inclusivity.
+물론 이 모든 이점을 누리려면 [그룹 리더](tip-level-up-assemble-and-organize.md)가 잘 경청하고 다양성과 포용성을 적극적으로 길러 나가는 것이 매우 중요합니다.
 
-## Beware of gatekeeping
+## 텃세를 경계하세요
 
-**Gatekeeping** is sadly a common social phenomenon in niche communities, especially in tech communities.
+안타깝게도 **텃세**(게이트키핑)는 소수 커뮤니티, 특히 기술 커뮤니티에서 흔한 사회 현상입니다.
 
-Gatekeeping happens when a group tend to restrict who can join it, or who gets opportunities within it. It can be done maliciously to exclude marginalized people, or inadvertently when it emerges from unconscious biases.
+텃세는 어떤 그룹이 누가 들어올 수 있는지, 혹은 그룹 안에서 누가 기회를 얻는지를 제한하려 할 때 생깁니다. 소외된 사람들을 배제하려는 악의로 생기기도 하고, 무의식적인 편견에서 의도치 않게 생기기도 합니다.
 
-Many of us have had experiences where we felt excluded from other social groups where our privacy values weren't understood. Once we finally find a group that makes us feel like we belong, it's easy to quickly occupy the whole space and forget that newcomers might feel pushed aside if we do not actively try to include them.
+우리 중 많은 사람이 프라이버시 가치관을 이해받지 못하는 다른 사회 집단에서 소외감을 느낀 경험이 있습니다. 마침내 소속감을 느끼는 그룹을 찾고 나면, 공간 전체를 금세 차지해 버리고 새로운 사람들을 적극적으로 끌어안지 않으면 그들이 밀려났다고 느낄 수 있다는 사실을 잊기 쉽습니다.
 
-Sometimes, gatekeeping happens unconsciously when we get overexcited about our own space, and when we tend to only communicate with the people we already know, or who look or sound like us.
+때로는 우리만의 공간에 너무 들뜬 나머지 이미 아는 사람이나 우리와 비슷해 보이거나 비슷하게 말하는 사람하고만 소통하려 할 때, 무의식적으로 텃세가 생기기도 합니다.
 
-To counter this bias, we must actively and continuously examine our own behaviors, and make sure to course correct to leave the doors of our communities opened, and welcoming to all. This isn't always an easy thing to do, but it's critical for our movement to grow.
+이러한 편향에 맞서려면 우리 자신의 행동을 적극적이고 꾸준히 돌아보고, 커뮤니티의 문이 열려 있고 모두를 환영하도록 방향을 바로잡아야 합니다. 늘 쉬운 일은 아니지만, 우리 운동이 성장하려면 매우 중요한 일입니다.
 
-## What can help keep your community inclusive
+## 커뮤니티를 포용적으로 유지하는 데 도움이 되는 것
 
-There are many things you can do to keep your community inclusive and diverse. Here are a few easy tips you can start implementing right now in your privacy advocacy practice, to make more people feel safe and welcomed:
+커뮤니티를 포용적이고 다양하게 유지하기 위해 할 수 있는 일은 많습니다. 더 많은 사람이 안전하고 환영받는다고 느끼도록, 프라이버시 옹호 활동에서 지금 바로 실천할 수 있는 쉬운 팁 몇 가지를 소개합니다:
 
 <style>
 .emoji-list-a ul {
@@ -53,38 +53,38 @@ There are many things you can do to keep your community inclusive and diverse. H
 
 <div class="emoji-list-a" markdown>
 
-- **Keep your language inclusive:** Make sure to keep the door wide open in your communications. Be mindful of the language you use to make newcomers from all origins feel like they could belong in your community. Limit the use of technical jargon, regionalisms, and unnecessarily gendered language.
+- **포용적인 언어를 쓰세요:** 소통할 때 문을 활짝 열어 두세요. 어디에서 왔든 새로운 사람이 여러분의 커뮤니티에 속할 수 있다고 느끼도록 사용하는 언어에 신경 쓰세요. 전문 용어, 지역 특유의 표현, 불필요하게 성별을 구분하는 표현은 되도록 줄이세요.
 
-- **Listen to others:** Listen to people with experiences and identities different from yours, and try to genuinely understand their perspectives. If they don't feel safe sharing, make sure the space is safe enough for them to do so. Regularly reach out to them to ask questions, while not pressuring them to give answers if they prefer not to.
+- **다른 사람의 이야기를 들으세요:** 여러분과 다른 경험과 정체성을 가진 사람들의 이야기를 듣고, 그들의 관점을 진심으로 이해하려고 노력하세요. 그들이 이야기를 꺼내기에 안전하다고 느끼지 못한다면, 그렇게 할 수 있을 만큼 안전한 공간을 만들어 주세요. 꾸준히 다가가 질문하되, 답하고 싶지 않다면 대답을 강요하지 마세요.
 
-- **Ask people their preferred name(s):** Always ask people how they want something attributed to them (or not), and what their preferred public name is before publishing it anywhere. Never assume someone is comfortable sharing their legal name publicly, and never assume someone is comfortable using publicly the name they use privately. This is doubly important for any transgender or gender diverse persons, but it's also true for anyone who might have privacy concerns. Always ask for consent first.
+- **원하는 이름을 물어보세요:** 무언가를 어디에든 게시하기 전에, 그 사람이 어떻게 이름을 밝히기를 원하는지(또는 원하지 않는지), 공개적으로 어떤 이름을 쓰고 싶은지 항상 물어보세요. 누군가 법적 이름을 공개하는 것을 괜찮아할 것이라고 함부로 짐작하지 말고, 사적으로 쓰는 이름을 공개적으로 써도 괜찮아할 것이라고도 짐작하지 마세요. 이는 트랜스젠더나 다양한 성별 정체성을 가진 사람들에게 특히 중요하지만, 프라이버시를 걱정하는 모든 사람에게도 해당됩니다. 항상 먼저 동의를 구하세요.
 
-- **Normalize the use of pronouns:** If you are in a leadership position, it's especially important to lead by example and display your preferred pronouns in your social media profiles, email signatures, and other relevant contexts. Encourage everyone on your team or in your group to do the same. This helps to normalize the practice, and makes a clear statement that your community is inclusive and welcoming to transgender and gender diverse people.
+- **대명사 사용을 당연하게 만드세요:** 리더 위치에 있다면 솔선수범하여 소셜 미디어 프로필, 이메일 서명 등 관련된 곳에 원하는 대명사를 표시하는 것이 특히 중요합니다. 팀이나 그룹의 모든 사람에게도 그렇게 하도록 권하세요. 이렇게 하면 이 관행이 자연스러워지고, 여러분의 커뮤니티가 트랜스젠더와 다양한 성별 정체성을 가진 사람들을 포용하고 환영한다는 분명한 메시지를 전할 수 있습니다.
 
-- **Give credit:** Make sure to appropriately [give credit](tip-give-credit-where-credit-is-due.md) where credit is due, and make people feel supported and seen. Recognition and appreciation are fundamental to inclusion.
+- **공로를 인정하세요:** 인정받아야 할 사람에게 [공로를 제대로 돌리고](tip-give-credit-where-credit-is-due.md), 사람들이 지지받고 존중받는다고 느끼게 하세요. 인정과 감사는 포용의 기본입니다.
 
-- **Prioritize accessibility:** [Accessibility](tip-be-mindful-of-accessibility.md) should never be an afterthought, it should be designed in your content and events right from the start. Make sure that your website or software follows [accessibility standards](https://www.w3.org/WAI/standards-guidelines/wcag/), uses [alt text](https://webaim.org/techniques/alttext/) everywhere you can, and ensure that your [in-person events](https://parkpeople.ca/make-your-event-accessible-and-inclusive/) are accessible and enjoyable for everyone. Reach out to people experiencing disabilities to ask how you could improve accessibility for your content and events.
+- **접근성을 우선시하세요:** [접근성](tip-be-mindful-of-accessibility.md)은 절대 나중으로 미뤄서는 안 되며, 콘텐츠와 행사에 처음부터 반영되어야 합니다. 웹사이트나 소프트웨어가 [접근성 표준](https://www.w3.org/WAI/standards-guidelines/wcag/)을 따르고, 가능한 모든 곳에 [대체 텍스트](https://webaim.org/techniques/alttext/)를 사용하는지 확인하고, [오프라인 행사](https://parkpeople.ca/make-your-event-accessible-and-inclusive/)가 모두에게 접근 가능하고 즐거운지 확인하세요. 장애가 있는 사람들에게 연락해 콘텐츠와 행사의 접근성을 어떻게 개선할 수 있을지 물어보세요.
 
-- **Moderate your community:** To keep your spaces inclusive, it's important to remove bad actors promptly. This is critical if you host a platform where people exchange together such as a forum, but it's also true for replies to your social media posts, your Signal groups, or your in-person gatherings. Whenever you become aware of a reply or answer that is abusive or bigoted, make sure to intervene quickly. If you neglect to moderate the community you are responsible for adequately, marginalized people targeted by these attacks will leave your community, and bad actors will prosper and multiply.
+- **커뮤니티를 관리하세요:** 공간을 포용적으로 유지하려면 악의적인 사용자를 신속하게 내보내는 것이 중요합니다. 포럼처럼 사람들이 서로 교류하는 플랫폼을 운영한다면 특히 중요하지만, 소셜 미디어 게시물의 답글, 시그널 그룹, 오프라인 모임에서도 마찬가지입니다. 모욕적이거나 편견에 찬 답글이나 대답을 발견하면 신속하게 개입하세요. 책임지고 있는 커뮤니티를 제대로 관리하지 않으면, 이런 공격의 표적이 된 소외된 사람들은 커뮤니티를 떠나고 악의적인 사용자들은 번성하고 늘어날 것입니다.
 
-- **Observe special days:** Make sure that your group observes or celebrates special days that are relevant to members in your community. For example, people might have different religious celebrations that are important to them. Make sure you mention these celebrations, and give your members the time they need to observe them. Celebrating special days and months such as Pride Month, Black History Month, National Day for Truth and Reconciliation, and International Women's Day are also important events to acknowledge in your community.
+- **특별한 날을 기념하세요:** 그룹이 커뮤니티 구성원들에게 의미 있는 특별한 날을 지키거나 기념하도록 하세요. 예를 들어 사람마다 중요하게 여기는 종교적 기념일이 다를 수 있습니다. 이런 기념일을 언급하고, 구성원들이 기념일을 지킬 수 있도록 필요한 시간을 주세요. 프라이드의 달, 흑인 역사의 달, 진실과 화해의 날, 세계 여성의 날 같은 특별한 날과 달을 기념하는 것도 커뮤니티에서 챙겨야 할 중요한 일입니다.
 
-- **Representation:** Pay special attention to the diversity of representation within your group, especially for people in positions of power. For your community to be inclusive, it's important for members to see that diverse people can access leadership, and to feel like your community leaders are aware of a diversity of experiences.
+- **대표성을 고려하세요:** 그룹 안에서, 특히 권한을 가진 자리에 있는 사람들의 다양성에 특별히 신경 쓰세요. 커뮤니티가 포용적이려면, 구성원들이 다양한 사람이 리더가 될 수 있다는 것을 보고 커뮤니티 리더들이 다양한 경험을 이해하고 있다고 느낄 수 있어야 합니다.
 
-- **Be mindful of invisible barriers:** If you find your community to be quite homogeneous, take the time to think about what might keep people from different identities and origins to join your group. Perhaps there are some invisible barriers that you could identify and reduce, in order to make your group more inclusive and welcoming. If there are already a few members with diverse identities in your group, try to reach out to them for feedback on ways to improve inclusivity in your community.
+- **보이지 않는 장벽을 살피세요:** 커뮤니티가 꽤 동질적이라면, 다른 정체성과 배경을 가진 사람들이 그룹에 들어오지 못하게 막는 것이 무엇인지 시간을 들여 생각해 보세요. 그룹을 더 포용적이고 환영하는 곳으로 만들기 위해 찾아내고 줄일 수 있는 보이지 않는 장벽이 있을지도 모릅니다. 그룹에 이미 다양한 정체성을 가진 구성원이 몇 명 있다면, 커뮤니티의 포용성을 높일 방법에 대해 그들에게 의견을 구해 보세요.
 
-- **Ask for feedback:** Regularly ask the members of your community and people from diverse groups what you could do to improve inclusivity. Genuinely listen, and be careful not to answer defensively if you receive negative criticism. Stay open and keep in mind that constructive feedback is important to make your group more inclusive and more diverse.
+- **피드백을 요청하세요:** 포용성을 높이기 위해 무엇을 할 수 있을지 커뮤니티 구성원과 다양한 집단의 사람들에게 꾸준히 물어보세요. 진심으로 귀 기울이고, 부정적인 비판을 받더라도 방어적으로 대답하지 않도록 주의하세요. 열린 태도를 유지하고, 건설적인 피드백이 그룹을 더 포용적이고 다양하게 만드는 데 중요하다는 점을 기억하세요.
 
 </div>
 
-## More resources
+## 추가 자료
 
-- [Justice, diversity, and inclusion: Start here guide (_The Commons Social Change Library_)](https://commonslibrary.org/diversity-inclusion-start-here/)
+- [정의, 다양성, 포용성: 시작 가이드 (_커먼스 소셜 체인지 라이브러리_)](https://commonslibrary.org/diversity-inclusion-start-here/)
 
-- [Do better and win bigger by taking on marginalisation (_Mobilisation Lab_)](https://mobilisationlab.org/resources/taking-on-marginalisation/)
+- [소외 문제에 맞서 더 잘하고 더 크게 이기기 (_모빌라이제이션 랩_)](https://mobilisationlab.org/resources/taking-on-marginalisation/)
 
-- [Navigating differences in identity, ideology, and experience (_Museum of Protest_)](https://museumofprotest.org/guides/guide-navigating-differences/)
+- [정체성, 이념, 경험의 차이를 헤쳐 나가기 (_뮤지엄 오브 프로테스트_)](https://museumofprotest.org/guides/guide-navigating-differences/)
 
-- [How to make your social justice event accessible (_The Commons Social Change Library_)](https://commonslibrary.org/how-to-make-your-social-justice-event-accessible/)
+- [사회 정의 행사를 접근 가능하게 만드는 방법 (_커먼스 소셜 체인지 라이브러리_)](https://commonslibrary.org/how-to-make-your-social-justice-event-accessible/)
 
-- [Diversity, equity, and inclusion resources and tools (_Nonprofit Learning Lab_)](https://www.nonprofitlearninglab.org/dei)
+- [다양성, 형평성, 포용성 자료와 도구 (_넌프로핏 러닝 랩_)](https://www.nonprofitlearninglab.org/dei)

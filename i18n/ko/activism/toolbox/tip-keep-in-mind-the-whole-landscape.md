@@ -1,31 +1,31 @@
 ---
-title: Keep in Mind The Whole Landscape
-description: Privacy isn't just about the tools, or just about the laws, or just about the practices either. It's about all of it. Learn how to consider the whole landscape.
+title: 전체적인 지형 염두에 두기
+description: 프라이버시는 도구만의 문제도, 법률만의 문제도, 관행만의 문제도 아닙니다. 이 모두에 관한 문제입니다. 전체적인 지형을 고려하는 방법을 알아보세요.
 icon: fontawesome/solid/globe
 cover: activism/banner-toolbox-tip-landscape.webp
 ---
 
-Privacy isn't just about the tools, the laws, or the practices of any individual or organization. It's about _all_ of that. To move our society in a place where everyone benefits from privacy by default, we must consider technologies, laws, and culture holistically.
+프라이버시는 도구나 법률, 혹은 특정 개인이나 조직의 관행만의 문제가 아닙니다. 이 _모&#xB450;_&#xC5D0; 관한 문제입니다. 모두가 기본적으로 프라이버시를 누리는 사회로 나아가려면 기술, 법률, 문화를 총체적으로 고려해야 합니다.
 
-Here's how to get better at **considering the whole landscape**:
+**전체적인 지형을 고려하는** 능력을 키우는 방법은 다음과 같습니다:
 
-## The technology
+## 기술
 
-Technology plays a crucial role in how we protect our digital information. Most people are already familiar with the [tools and services](../../tools.md) we can use to better protect our privacy, and the ways technology can endanger our privacy rights. Technologies like encryption, for example, are essential in our connected world.
+기술은 우리가 디지털 정보를 보호하는 방식에서 결정적인 역할을 합니다. 대부분의 사람은 프라이버시를 더 잘 보호하기 위해 사용할 수 있는 [도구와 서비스](../../tools.md), 그리고 기술이 우리의 프라이버시 권리를 위협할 수 있는 방식에 이미 익숙합니다. 예를 들어 암호화 같은 기술은 연결된 세상에서 필수적입니다.
 
-But if we only consider the technological aspect, it will not be enough to defend our privacy rights. When we only think and talk about technical solutions, we are missing the bigger picture, and with it, the bigger solutions as well.
+하지만 기술적 측면만 고려해서는 프라이버시 권리를 지키기에 충분하지 않습니다. 기술적 해결책만 생각하고 이야기하면 더 큰 그림을 놓치게 되고, 그와 함께 더 큰 해결책도 놓치게 됩니다.
 
-## The legislative
+## 입법
 
-While technologies can protect our data in several ways, it becomes almost irrelevant when regulations make these technologies illegal.
+기술이 여러 방식으로 데이터를 보호할 수 있더라도, 규제가 그 기술을 불법으로 만들어 버리면 거의 의미가 없어집니다.
 
-Of course, some people will always be willing to use protective technologies even once they're deemed illegal by their governments, but most will not. When our protections are outlawed, we all lose.
+물론 정부가 불법으로 규정한 뒤에도 보호 기술을 기꺼이 사용하는 사람은 언제나 있겠지만, 대부분은 그렇지 않을 것입니다. 우리의 보호 수단이 불법화되면 모두가 잃게 됩니다.
 
-Sadly, this is an overlooked area for many privacy activists. This often contributes to making our community react too little and too late when privacy-invasive laws are proposed.
+안타깝게도 이는 많은 프라이버시 활동가가 간과하는 영역입니다. 이 때문에 프라이버시를 침해하는 법안이 발의되었을 때 우리 커뮤니티의 대응이 너무 미약하고 너무 늦어지는 경우가 많습니다.
 
-If we want to fight for privacy rights, we must take a much stronger and louder approach against intrusive regulation proposals, as soon as we are made aware of them. Because unfortunately, bad legislations _do_ have the power to limit access to the technologies and methodologies we need to stay safe.
+프라이버시 권리를 위해 싸우고 싶다면, 침해적인 규제안을 알게 되는 즉시 훨씬 더 강력하고 큰 목소리로 맞서야 합니다. 안타깝게도 나쁜 법률은 우리가 안전하게 지내는 데 필요한 기술과 방법에 대한 접근을 _실제로_ 제한할 수 있는 힘을 가지고 있기 때문입니다.
 
-Here are a few examples:
+몇 가지 예를 들면 다음과 같습니다:
 
 <style>
 .emoji-list-a ul {
@@ -39,62 +39,62 @@ Here are a few examples:
 
 <div class="emoji-list-a" markdown>
 
-- [**Bad Internet Bills**](https://www.privacyguides.org/videos/2025/12/16/taylor-lorenz-on-kosa-the-screen-act-and-repealing-section-230/) have been proposed in 2025 to undermine the privacy of all Americans, and everyone around the world using American technology.
+- 2025년에는 모든 미국인과 미국 기술을 사용하는 전 세계 모든 사람의 프라이버시를 약화시키는 [**나쁜 인터넷 법안**](https://www.privacyguides.org/videos/2025/12/16/taylor-lorenz-on-kosa-the-screen-act-and-repealing-section-230/)들이 발의되었습니다.
 
-- [**Chat Control**](https://www.privacyguides.org/articles/2025/09/08/chat-control-must-be-stopped/) proposals have been an ongoing issue since 2021.
+- [**챗 컨트롤**](https://www.privacyguides.org/articles/2025/09/08/chat-control-must-be-stopped/) 법안은 2021년부터 계속되고 있는 문제입니다.
 
-- [**Age Verification**](https://www.privacyguides.org/articles/2025/05/06/age-verification-wants-your-face/) regulations and proposals are growing around the world at a terrifying rate.
+- [**연령 인증**](https://www.privacyguides.org/articles/2025/05/06/age-verification-wants-your-face/) 규제와 법안이 전 세계에서 무서운 속도로 늘어나고 있습니다.
 
-- [**Data Brokers**](../../data-broker-removals.md) are incessantly exploiting our data due to weak regulations.
+- 허술한 규제 탓에 [**데이터 브로커**](../../data-broker-removals.md)들이 끊임없이 우리의 데이터를 착취하고 있습니다.
 
-- [**Funding cuts**](https://www.privacyguides.org/articles/2025/02/03/the-future-of-privacy/) from new regulations have frequently impacted negatively the organizations and privacy tools we rely on.
+- 새로운 규제로 인한 [**자금 삭감**](https://www.privacyguides.org/articles/2025/02/03/the-future-of-privacy/)은 우리가 의지하는 단체와 프라이버시 도구에 자주 부정적인 영향을 미쳐 왔습니다.
 
-- [**Attacks on encryption**](https://www.privacyguides.org/articles/2025/04/11/encryption-is-not-a-crime/) have been carried out by [multiple](https://www.privacyguides.org/articles/2025/02/28/uk-forced-apple-to-remove-adp/) governments around the world, [for _decades_](https://www.privacyguides.org/videos/2025/05/08/when-code-became-a-weapon/).
+- 전 세계 [여러](https://www.privacyguides.org/articles/2025/02/28/uk-forced-apple-to-remove-adp/) 정부가 [_수십 년_ 동안](https://www.privacyguides.org/videos/2025/05/08/when-code-became-a-weapon/) [**암호화를 공격**](https://www.privacyguides.org/articles/2025/04/11/encryption-is-not-a-crime/)해 왔습니다.
 
 </div>
 
-## The culture
+## 문화
 
-While considering the tools we use and the laws that should protect us, we shouldn't neglect the impact that our _culture_ has on privacy rights.
+우리가 사용하는 도구와 우리를 보호해야 할 법률을 고려하는 한편, 우리의 _문&#xD654;_&#xAC00; 프라이버시 권리에 미치는 영향도 소홀히 해서는 안 됩니다.
 
-Unfortunately, society seems to be going in the wrong direction about this lately. As privacy activists, we have a lot of work to do to improve our culture surrounding data privacy.
+안타깝게도 최근 사회는 이 문제에서 잘못된 방향으로 가고 있는 듯합니다. 프라이버시 활동가로서 우리에게는 데이터 프라이버시를 둘러싼 문화를 개선하기 위해 할 일이 많습니다.
 
-In the past few decades, technology has changed the way we interact with each other in unprecedented ways. The laws have not caught up with these changes yet, and our culture hasn't really either.
+지난 수십 년 동안 기술은 우리가 서로 관계 맺는 방식을 전례 없이 바꿔 놓았습니다. 법률은 아직 이러한 변화를 따라잡지 못했고, 우리의 문화 역시 마찬가지입니다.
 
-Only a couple of decades ago, it was incredibly rare to be unknowingly filmed by a stranger while wandering in public spaces. If that happened, it was likely a television channel covering some event, a closed-circuit security camera, or a criminal offense. Unless the recording was broadcasted by national television, it was unlikely this footage of ourselves would become available for the whole world to see.
+불과 20~30년 전만 해도 공공장소를 돌아다니다가 낯선 사람에게 자신도 모르게 촬영되는 일은 극히 드물었습니다. 그런 일이 있었다면 아마 어떤 행사를 취재하는 방송사나 폐쇄회로 보안 카메라, 혹은 범죄 행위였을 것입니다. 전국 방송으로 나가지 않는 한, 우리가 찍힌 영상이 전 세계에 공개될 가능성은 낮았습니다.
 
-Today, pretty much everyone on the planet has the power to film strangers and share the footage with the whole world in an instant. But sadly, very few people take the responsibility that comes with this power seriously enough. We must change that.
+오늘날에는 지구상의 거의 모든 사람이 낯선 사람을 촬영해 순식간에 전 세계와 영상을 공유할 수 있는 힘을 가지고 있습니다. 하지만 안타깝게도 이 힘에 따르는 책임을 충분히 진지하게 받아들이는 사람은 거의 없습니다. 이를 바꿔야 합니다.
 
-We must work together to develop and promote a culture of consent around data collection, both for organizations and individuals.
+조직과 개인 모두에게 데이터 수집에 관한 동의 문화를 함께 만들고 확산시켜야 합니다.
 
-Here are a few practices to improve our culture surrounding data privacy that you can adopt yourself, and help promote in your advocacy work:
+여러분이 직접 실천하고 옹호 활동에서 널리 알릴 수 있는, 데이터 프라이버시를 둘러싼 문화를 개선하기 위한 몇 가지 실천 방법을 소개합니다:
 
-- [x] Never publish photos or information about children online.
+- [x] 아이들의 사진이나 정보를 절대 온라인에 올리지 마세요.
 
-- [x] Don't post pictures of others online without their explicit consent.
+- [x] 다른 사람의 명시적인 동의 없이 그들의 사진을 온라인에 올리지 마세요.
 
-- [x] If posting photos that include others cannot be avoided, blur the faces of non-consenting people before publication.
+- [x] 다른 사람이 포함된 사진을 올릴 수밖에 없다면, 게시하기 전에 동의하지 않은 사람의 얼굴을 흐리게 처리하세요.
 
-- [x] Blur any visible vehicle license plates before publishing photos.
+- [x] 사진을 게시하기 전에 보이는 차량 번호판을 모두 흐리게 처리하세요.
 
-- [x] Avoid taking screenshots of other people's posts without their consent (as this prevents them from exercising their right to delete).
+- [x] 다른 사람의 동의 없이 그들의 게시물을 스크린숏으로 찍지 마세요(그러면 그 사람이 삭제할 권리를 행사할 수 없게 됩니다).
 
-- [x] Never share the location or contact information of someone without their explicit consent.
+- [x] 명시적인 동의 없이 다른 사람의 위치나 연락처를 절대 공유하지 마세요.
 
-- [x] Block external applications from accessing the contact information of others (e.g. don't allow the Facebook app to access your contacts).
+- [x] 외부 애플리케이션이 다른 사람의 연락처에 접근하지 못하도록 차단하세요(예: 페이스북 앱이 연락처에 접근하도록 허용하지 마세요).
 
-- [x] Be mindful of how one's computer or phone stores and records other people's information. Never use an application that scans content with potential information about others, such as AI note-takers, AI assistants, or applications like Microsoft's Recall.
+- [x] 컴퓨터나 휴대폰이 다른 사람의 정보를 어떻게 저장하고 기록하는지 신경 쓰세요. AI 회의록 작성 도구, AI 비서, 마이크로소프트의 리콜 같은 애플리케이션처럼 다른 사람에 관한 정보가 담겼을 수 있는 콘텐츠를 스캔하는 애플리케이션은 절대 사용하지 마세요.
 
-- [x] Never share the files of others with a third-party person or application without their prior permission.
+- [x] 다른 사람의 파일을 사전 허락 없이 제3자나 제3자 애플리케이션과 절대 공유하지 마세요.
 
-- [x] Unplug smart devices equipped with a microphone or camera at home before any guests enter. If this isn't possible for some reason, then inform your guests about these devices _before_ they enter your home, and _before_ the device collects any information about them.
+- [x] 손님이 들어오기 전에 집에 있는 마이크나 카메라가 달린 스마트 기기의 전원을 뽑아 두세요. 어떤 이유로 그럴 수 없다면, 손님이 집에 들어오기 _전에_, 그리고 기기가 손님에 관한 정보를 수집하기 _전에_ 이런 기기가 있다는 사실을 알려 주세요.
 
-- [x] Never use devices like Meta's Ray-Ban glasses, i.e. devices equipped with a microphone and/or camera that might record others without their consent.
+- [x] 메타의 레이밴 안경처럼 다른 사람을 동의 없이 녹음하거나 촬영할 수 있는 마이크나 카메라가 달린 기기는 절대 사용하지 마세요.
 
-## More resources
+## 추가 자료
 
-- **Technology:** [Privacy tools and technology recommendations (_Privacy Guides_)](https://www.privacyguides.org/en/tools/)
+- **기술:** [프라이버시 도구 및 기술 추천 (_프라이버시 가이드_)](https://www.privacyguides.org/en/tools/)
 
-- **Legislative:** [How governments and laws shape our digital lives (_Privacy Guides_)](https://www.privacyguides.org/articles/2025/02/03/the-future-of-privacy/)
+- **입법:** [정부와 법률이 우리의 디지털 생활을 어떻게 만들어 가는가 (_프라이버시 가이드_)](https://www.privacyguides.org/articles/2025/02/03/the-future-of-privacy/)
 
-- **Culture:** [Why protecting the data of other is our responsibility (_Privacy Guides_)](https://www.privacyguides.org/articles/2025/03/10/the-privacy-of-others/)
+- **문화:** [다른 사람의 데이터를 보호하는 것이 우리의 책임인 이유 (_프라이버시 가이드_)](https://www.privacyguides.org/articles/2025/03/10/the-privacy-of-others/)

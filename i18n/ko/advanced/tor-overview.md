@@ -1,213 +1,213 @@
 ---
-title: "Tor 개요"
+title: "토르 개요"
 icon: 'simple/torproject'
-description: Tor는 무료로 이용 가능한 탈중앙화 네트워크입니다. 최대한 프라이버시를 보호하면서 인터넷을 이용할 수 있도록 설계되었습니다.
+description: 토르는 프라이버시를 최대한 보호하면서 인터넷을 사용할 수 있도록 설계된, 무료로 이용 가능한 탈중앙화 네트워크입니다.
 ---
 
-![Tor 로고](../assets/img/self-contained-networks/tor.svg){ align=right }
+![토르 로고](../assets/img/self-contained-networks/tor.svg){ align=right }
 
-[**Tor**](../alternative-networks.md#tor) is a free to use, decentralized network designed for using the internet with as much privacy as possible. Tor 네트워크를 올바르게 사용하면 비공개 및 익명 웹 탐색과 커뮤니케이션이 가능합니다. 토르 트래픽은 차단 및 추적이 어렵기 때문에 검열 우회에 효과적입니다.
+[**토르**](../alternative-networks.md#tor)는 프라이버시를 최대한 보호하면서 인터넷을 사용할 수 있도록 설계된, 무료로 이용 가능한 탈중앙화 네트워크입니다. 토르 네트워크를 올바르게 사용하면 비공개 익명 웹 탐색과 통신이 가능합니다. 토르 트래픽은 차단 및 추적이 어렵기 때문에 검열 우회에 효과적입니다.
 
-[:material-movie-open-play-outline: Video: Why You Need Tor](https://www.privacyguides.org/videos/2025/03/02/why-you-need-tor ""){.md-button}
+[:material-movie-open-play-outline: 영상: 토르가 필요한 이유](https://www.privacyguides.org/videos/2025/03/02/why-you-need-tor ""){.md-button}
 
-Tor works by routing your internet traffic through volunteer-operated servers instead of making a direct connection to the site you're trying to visit. 이러한 방식을 통해 트래픽의 출처를 알 수 없게 만들고, 연결 경로상의 서버 또한 트래픽의 전체 경로는 볼 수 없으므로, 연결에 사용한 서버조차도 여러분의 익명성을 깨트릴 수 없습니다.
+토르는 방문하려는 사이트에 직접 연결하는 대신, 자원봉사자가 운영하는 서버를 거쳐 인터넷 트래픽을 라우팅하는 방식으로 작동합니다. 이렇게 하면 트래픽의 출처가 가려지고, 연결 경로상의 어떤 서버도 트래픽이 어디에서 와서 어디로 가는지 전체 경로를 볼 수 없으므로, 연결에 사용하는 서버조차 여러분의 익명성을 깨뜨릴 수 없습니다.
 
-[:octicons-home-16:](https://torproject.org){ .card-link title=Homepage }
-[:simple-torbrowser:](http://2gzyxa5ihm7nsggfxnu52rck2vv4rvmdlkiu3zzui5du4xyclen53wid.onion){ .card-link title="Onion Service" }
-[:octicons-info-16:](https://tb-manual.torproject.org){ .card-link title=Documentation}
-[:octicons-code-16:](https://gitlab.torproject.org/tpo/core/tor){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://donate.torproject.org){ .card-link title=Contribute }
+[:octicons-home-16:](https://torproject.org){ .card-link title=홈페이지 }
+[:simple-torbrowser:](http://2gzyxa5ihm7nsggfxnu52rck2vv4rvmdlkiu3zzui5du4xyclen53wid.onion){ .card-link title="어니언 서비스" }
+[:octicons-info-16:](https://tb-manual.torproject.org){ .card-link title=문서}
+[:octicons-code-16:](https://gitlab.torproject.org/tpo/core/tor){ .card-link title="소스 코드" }
+[:octicons-heart-16:](https://donate.torproject.org){ .card-link title=기여하기 }
 
-## Safely Connecting to Tor
+## 토르에 안전하게 연결하기
 
-Before connecting to Tor, you should carefully consider what you're looking to accomplish by using Tor in the first place, and who you're trying to hide your network activity from.
+토르에 연결하기 전에, 애초에 토르를 사용해 무엇을 이루려고 하는지, 그리고 누구로부터 네트워크 활동을 숨기려는 것인지 신중하게 생각해 봐야 합니다.
 
-If you live in a free country, are accessing mundane content via Tor, aren't worried about your ISP or local network administrators having the knowledge that you're using Tor, and want to help [destigmatize](https://2019.www.torproject.org/about/torusers.html.en) Tor usage, you can likely connect to Tor directly via standard means like [Tor Browser](../tor.md) without worry.
+자유로운 나라에 살고 있고, 토르로 평범한 콘텐츠에 접속하며, ISP나 로컬 네트워크 관리자가 여러분의 토르 사용 사실을 아는 것을 걱정하지 않고, 토르 사용에 대한 [부정적인 인식을 없애는 데](https://2019.www.torproject.org/about/torusers.html.en) 힘을 보태고 싶다면, [토르 브라우저](../tor.md) 같은 일반적인 방법으로 걱정 없이 토르에 직접 연결해도 괜찮을 것입니다.
 
-If you have the ability to access a trusted VPN provider and **any** of the following are true, you almost certainly should connect to Tor through a VPN:
+신뢰할 수 있는 VPN 제공업체를 이용할 수 있고 다음 중 **하나라도** 해당한다면, 거의 확실히 VPN을 거쳐 토르에 연결하는 것이 좋습니다:
 
-- You already use a [trusted VPN provider](../vpn.md)
-- Your threat model includes an adversary which is capable of extracting information from your ISP
-- Your threat model includes your ISP itself as an adversary
-- Your threat model includes local network administrators before your ISP as an adversary
+- 이미 [신뢰할 수 있는 VPN 제공업체](../vpn.md)를 사용하고 있다
+- 여러분의 위협 모델에 ISP로부터 정보를 빼낼 수 있는 공격자가 포함되어 있다
+- 여러분의 위협 모델에 ISP 자체가 공격자로 포함되어 있다
+- 여러분의 위협 모델에 ISP 이전 단계의 로컬 네트워크 관리자가 공격자로 포함되어 있다
 
-Because we already [generally recommend](../basics/vpn-overview.md) that the vast majority of people use a trusted VPN provider for a variety of reasons, the following recommendation about connecting to Tor via a VPN likely applies to you. <mark>There is no need to disable your VPN before connecting to Tor</mark>, as some online resources would lead you to believe.
+저희는 이미 여러 이유로 대다수의 사람에게 신뢰할 수 있는 VPN 제공업체를 사용하라고 [일반적으로 권장](../basics/vpn-overview.md)하고 있으므로, VPN을 거쳐 토르에 연결하는 것에 관한 다음 권장 사항은 여러분에게도 해당될 가능성이 큽니다. 일부 온라인 자료에서 말하는 것과 달리, <mark>토르에 연결하기 전에 VPN을 끌 필요는 없습니다</mark>.
 
-Connecting directly to Tor will make your connection stand out to any local network administrators or your ISP. Detecting and correlating this traffic [has been done](https://edition.cnn.com/2013/12/17/justice/massachusetts-harvard-hoax) in the past by network administrators to identify and deanonymize specific Tor users on their network. On the other hand, connecting to a VPN is almost always less suspicious, because commercial VPN providers are used by everyday consumers for a variety of mundane tasks like bypassing geo-restrictions, even in countries with heavy internet restrictions.
+토르에 직접 연결하면 로컬 네트워크 관리자나 ISP의 눈에 여러분의 연결이 띄게 됩니다. 과거에 네트워크 관리자가 자신의 네트워크에 있는 특정 토르 사용자를 식별하고 탈익명화하기 위해 이런 트래픽을 탐지하고 연관 지은 [사례가 있습니다](https://edition.cnn.com/2013/12/17/justice/massachusetts-harvard-hoax). 반면 VPN에 연결하는 것은 거의 항상 덜 의심스럽습니다. 인터넷 제한이 심한 나라에서조차 일반 소비자들이 지역 제한 우회 같은 평범한 용도로 상용 VPN 제공업체를 널리 사용하기 때문입니다.
 
-Therefore, you should make an effort to hide your IP address **before** connecting to the Tor network. You can do this by simply connecting to a VPN (through a client installed on your computer) and then accessing [Tor](../tor.md) as normal (e.g., through Tor Browser). This creates a connection chain like so:
+따라서 토르 네트워크에 연결하기 **전에** IP 주소를 숨기도록 노력해야 합니다. (컴퓨터에 설치한 클라이언트로) VPN에 연결한 다음 평소처럼(예: 토르 브라우저로) [토르](../tor.md)에 접속하기만 하면 됩니다. 이렇게 하면 다음과 같은 연결 체인이 만들어집니다:
 
-- [x] You → VPN → Tor → Internet
+- [x] 사용자 → VPN → 토르 → 인터넷
 
-From your ISP's perspective, it looks like you're accessing a VPN normally (with the associated cover that provides you). From your VPN's perspective, they can see that you are connecting to the Tor network, but nothing about what websites you're accessing. From Tor's perspective, you're connecting normally, but in the unlikely event of some sort of Tor network compromise, only your VPN's IP would be exposed, and your VPN would *additionally* have to be compromised to deanonymize you.
+ISP의 입장에서는 여러분이 평범하게 VPN에 접속하는 것처럼 보입니다(VPN이 제공하는 위장 효과도 함께 누릴 수 있습니다). VPN의 입장에서는 여러분이 토르 네트워크에 연결한다는 것은 알 수 있지만, 어떤 웹사이트에 접속하는지는 전혀 알 수 없습니다. 토르의 입장에서는 여러분이 평범하게 연결하는 것이지만, 만에 하나 토르 네트워크가 어떤 식으로든 침해되더라도 노출되는 것은 VPN의 IP뿐이며, 여러분을 탈익명화하려면 VPN까지 *추가로* 침해되어야 합니다.
 
-This is **not** censorship circumvention advice because if Tor is blocked entirely by your ISP, your VPN likely is as well. Rather, this recommendation aims to make your traffic blend in better with commonplace VPN user traffic, and provide you with some level of plausible deniability by obscuring the fact that you're connecting to Tor from your ISP.
+이는 검열 우회를 위한 조언이 **아닙니다**. ISP가 토르를 완전히 차단하고 있다면 VPN도 차단되어 있을 가능성이 크기 때문입니다. 오히려 이 권장 사항은 여러분의 트래픽이 흔한 VPN 사용자 트래픽에 더 잘 섞이도록 하고, ISP로부터 토르에 연결한다는 사실을 가려 어느 정도의 그럴듯한 부인 가능성을 제공하는 것을 목표로 합니다.
 
 ---
 
-We **very strongly discourage** combining Tor with a VPN in any other manner. Do not configure your connection in a way which resembles any of the following:
+그 밖의 다른 방식으로 토르와 VPN을 결합하는 것은 **매우 강력히 권장하지 않습니다**. 다음과 비슷한 방식으로 연결을 구성하지 마세요:
 
-- You → Tor → VPN → Internet
-- You → VPN → Tor → VPN → Internet
-- Any other configuration
+- 사용자 → 토르 → VPN → 인터넷
+- 사용자 → VPN → 토르 → VPN → 인터넷
+- 그 밖의 모든 구성
 
-Some VPN providers and other publications will occasionally recommend these **bad** configurations to evade Tor bans (i.e., exit nodes being blocked by websites) in some places. [Normally](https://support.torproject.org/#about_change-paths), Tor frequently changes your circuit path through the network. When you choose a permanent *destination* VPN (connecting to a VPN server *after* Tor), you're eliminating this advantage and drastically harming your anonymity.
+일부 VPN 제공업체나 다른 매체에서는 일부 지역에서 토르 차단(즉, 웹사이트가 출구 노드를 차단하는 것)을 피하기 위해 이런 **나쁜** 구성을 권하기도 합니다. [일반적으로](https://support.torproject.org/#about_change-paths) 토르는 네트워크를 통과하는 회로 경로를 자주 바꿉니다. 고정된 *목적지* VPN을 선택하면(토르 *다음에* VPN 서버에 연결하면) 이 이점이 사라지고 익명성이 크게 손상됩니다.
 
-Setting up bad configurations like these is difficult to do accidentally, because it usually involves either setting up custom proxy settings inside Tor Browser, or setting up custom proxy settings inside your VPN client which routes your VPN traffic through the Tor Browser. As long as you avoid these non-default configurations, you're probably fine.
+이런 나쁜 구성은 보통 토르 브라우저 안에서 사용자 지정 프록시를 설정하거나, VPN 트래픽을 토르 브라우저로 라우팅하도록 VPN 클라이언트 안에서 사용자 지정 프록시를 설정해야 하므로 실수로 설정하기는 어렵습니다. 이런 기본값이 아닌 구성만 피한다면 아마 괜찮을 것입니다.
 
 ---
 
 <div class="admonition info" markdown>
-<p class="admonition-title">VPN/SSH Fingerprinting</p>
+<p class="admonition-title">VPN/SSH 핑거프린팅</p>
 
-The Tor Project [notes](https://gitlab.torproject.org/legacy/trac/-/wikis/doc/TorPlusVPN#vpnssh-fingerprinting) that *theoretically* using a VPN to hide Tor activities from your ISP may not be foolproof. VPNs have been found to be vulnerable to website traffic fingerprinting, where an adversary can still guess what website is being visited because all websites have specific traffic patterns.
+토르 프로젝트는 ISP로부터 토르 활동을 숨기기 위해 VPN을 사용하는 것이 *이론적으로는* 완벽하지 않을 수 있다고 [언급합니다](https://gitlab.torproject.org/legacy/trac/-/wikis/doc/TorPlusVPN#vpnssh-fingerprinting). VPN은 웹사이트 트래픽 핑거프린팅에 취약한 것으로 밝혀졌습니다. 모든 웹사이트에는 고유한 트래픽 패턴이 있어서 공격자가 어떤 웹사이트를 방문하는지 여전히 추측할 수 있기 때문입니다.
 
-Therefore, it's not unreasonable to believe that encrypted Tor traffic hidden by a VPN could also be detected via similar methods. There are no research papers on this subject, and we still consider the benefits of using a VPN to far outweigh these risks, but it is something to keep in mind.
+따라서 VPN으로 숨긴 암호화된 토르 트래픽도 비슷한 방법으로 탐지될 수 있다고 생각하는 것이 무리는 아닙니다. 이 주제에 관한 연구 논문은 없으며, 저희는 여전히 VPN 사용의 이점이 이런 위험보다 훨씬 크다고 보지만, 염두에 둘 필요는 있습니다.
 
-If you still believe that pluggable transports (bridges) provide additional protection against website traffic fingerprinting that a VPN does not, you always have the option to use a bridge **and** a VPN in conjunction.
+그래도 플러그형 전송(브리지)이 VPN이 제공하지 못하는 웹사이트 트래픽 핑거프린팅에 대한 추가 보호를 제공한다고 생각한다면, 언제든 브리지**와** VPN을 함께 사용할 수 있습니다.
 
 </div>
 
-Determining whether you should first use a VPN to connect to the Tor network will require some common sense and knowledge of your own government's and ISP's policies relating to what you're connecting to. To reiterate, though, you will be better off being seen as connecting to a commercial VPN network than directly to the Tor network in most cases. If VPN providers are censored in your area, then you can also consider using Tor pluggable transports (e.g., Snowflake or meek bridges) as an alternative, but using these bridges may arouse more suspicion than standard WireGuard/OpenVPN tunnels.
+토르 네트워크에 연결할 때 먼저 VPN을 사용해야 할지 판단하려면, 어느 정도의 상식과 함께 여러분이 연결하는 대상에 관한 정부와 ISP의 정책을 알아야 합니다. 다시 말하지만, 대부분의 경우 토르 네트워크에 직접 연결하는 것으로 보이기보다 상용 VPN 네트워크에 연결하는 것으로 보이는 편이 더 낫습니다. 여러분의 지역에서 VPN 제공업체가 검열되고 있다면 대안으로 토르 플러그형 전송(예: 스노플레이크나 meek 브리지)을 사용하는 것도 고려할 수 있지만, 이런 브리지를 사용하면 일반적인 와이어가드/OpenVPN 터널보다 더 큰 의심을 살 수 있습니다.
 
-## What Tor is Not
+## 토르의 한계
 
-The Tor network is not the perfect privacy protection tool in all cases and has a number of drawbacks which should be carefully considered. These things should not discourage you from using Tor if it is appropriate for your needs, but they are still things to think about when deciding which solution is most appropriate for you.
+토르 네트워크는 모든 경우에 완벽한 프라이버시 보호 도구가 아니며, 신중하게 고려해야 할 여러 단점이 있습니다. 토르가 여러분의 필요에 맞다면 이런 점 때문에 사용을 망설일 필요는 없지만, 어떤 해결책이 자신에게 가장 적합한지 결정할 때는 생각해 봐야 할 부분입니다.
 
-### Tor is not a free VPN
+### 토르는 무료 VPN이 아닙니다
 
-The release of the *Orbot* mobile app has lead many people to describe Tor as a "free VPN" for all of your device traffic. However, treating Tor like this poses some dangers compared to a typical VPN.
+*오봇* 모바일 앱이 출시되면서 많은 사람이 토르를 기기의 모든 트래픽을 위한 "무료 VPN"이라고 부르게 되었습니다. 하지만 토르를 이렇게 다루면 일반적인 VPN에 비해 몇 가지 위험이 따릅니다.
 
-Unlike Tor exit nodes, VPN providers are usually not *actively* [malicious](#caveats). Because Tor exit nodes can be created by anybody, they are hotspots for network logging and modification. In 2020, many Tor exit nodes were documented to be downgrading HTTPS traffic to HTTP in order to [hijack cryptocurrency transactions](https://therecord.media/thousands-of-tor-exit-nodes-attacked-cryptocurrency-users-over-the-past-year). Other exit node attacks such as replacing downloads via unencrypted channels with malware have also been observed. HTTPS does mitigate these threats to an extent.
+토르 출구 노드와 달리, VPN 제공업체는 보통 *적극적으로* [악의적](#caveats)이지 않습니다. 토르 출구 노드는 누구나 만들 수 있기 때문에 네트워크 기록과 변조가 집중적으로 일어나는 곳입니다. 2020년에는 많은 토르 출구 노드가 [암호화폐 거래를 가로채기](https://therecord.media/thousands-of-tor-exit-nodes-attacked-cryptocurrency-users-over-the-past-year) 위해 HTTPS 트래픽을 HTTP로 다운그레이드한 사실이 기록되었습니다. 암호화되지 않은 채널로 내려받는 파일을 악성 코드로 바꿔치기하는 등 다른 출구 노드 공격도 관찰되었습니다. HTTPS는 이러한 위협을 어느 정도 완화합니다.
 
-As we've alluded to already, Tor is also easily identifiable on the network. Unlike an actual VPN provider, using Tor will make you stick out as a person likely attempting to evade authorities. In a perfect world, Tor would be seen by network administrators and authorities as a tool with many uses (like how VPNs are viewed), but in reality the perception of Tor is still far less legitimate than the perception of commercial VPNs. As such, using a real VPN provides you with plausible deniability, e.g. "I was just using it to watch Netflix," etc.
+앞서 언급했듯이, 토르는 네트워크에서 쉽게 식별되기도 합니다. 실제 VPN 제공업체와 달리, 토르를 사용하면 당국을 피하려는 사람으로 눈에 띄게 됩니다. 이상적인 세상이라면 네트워크 관리자와 당국이 토르를 (VPN처럼) 다양한 용도를 가진 도구로 여기겠지만, 현실에서 토르는 여전히 상용 VPN보다 훨씬 덜 정당한 것으로 인식됩니다. 따라서 실제 VPN을 사용하면 "그냥 넷플릭스를 보려고 썼어요" 같은 그럴듯한 부인 가능성을 얻을 수 있습니다.
 
-### Tor usage is not undetectable
+### 토르 사용은 탐지될 수 있습니다
 
-**Even if you use bridges and pluggable transports,** the Tor Project doesn't provide any tools to hide the fact that you are using Tor from your ISP. Even using obfuscated "pluggable transports" or non-public bridges do not hide the fact that you are using a private communications channel. The most popular pluggable transports like obfs4 (which obfuscates your traffic to "look like nothing") and meek (which uses domain fronting to camouflage your traffic) can be [detected](https://hackerfactor.com/blog/index.php?/archives/889-Tor-0day-Burning-Bridges.html) with fairly standard traffic analysis techniques. Snowflake has similar issues, and can be [easily detected](https://hackerfactor.com/blog/index.php?/archives/944-Tor-0day-Snowflake.html) *before* a Tor connection is even established.
+**브리지와 플러그형 전송을 사용하더라도,** 토르 프로젝트는 ISP로부터 토르를 사용한다는 사실을 숨기는 도구를 제공하지 않습니다. 난독화된 "플러그형 전송"이나 비공개 브리지를 사용하더라도 여러분이 비공개 통신 채널을 사용하고 있다는 사실은 숨길 수 없습니다. obfs4(트래픽을 "아무것도 아닌 것처럼" 보이게 난독화함)와 meek(도메인 프론팅으로 트래픽을 위장함) 같은 가장 인기 있는 플러그형 전송은 꽤 일반적인 트래픽 분석 기법으로 [탐지](https://hackerfactor.com/blog/index.php?/archives/889-Tor-0day-Burning-Bridges.html)될 수 있습니다. 스노플레이크에도 비슷한 문제가 있으며, 토르 연결이 수립되기도 *전에* [쉽게 탐지](https://hackerfactor.com/blog/index.php?/archives/944-Tor-0day-Snowflake.html)될 수 있습니다.
 
-Pluggable transports other than these three do exist, but typically rely on security through obscurity to evade detection. They aren't impossible to detect—they are just used by so few people that it's not worth the effort building detectors for them. They shouldn't be relied upon if you specifically are being monitored.
+이 세 가지 외에도 플러그형 전송이 있지만, 보통 탐지를 피하기 위해 '모호함을 통한 보안'에 의존합니다. 탐지가 불가능한 것은 아닙니다. 사용하는 사람이 너무 적어서 탐지기를 만들 가치가 없을 뿐입니다. 여러분이 특정해서 감시당하고 있다면 이에 의존해서는 안 됩니다.
 
-It is critical to understand the difference between bypassing censorship and evading detection. It is easier to accomplish the former because of the many real-world limitations on what network censors can realistically do en masse, but these techniques do not hide the fact that you—*specifically* you—are using Tor from an interested party monitoring your network.
+검열을 우회하는 것과 탐지를 피하는 것의 차이를 이해하는 것이 매우 중요합니다. 네트워크 검열 기관이 대규모로 할 수 있는 일에는 현실적인 제약이 많기 때문에 전자가 더 쉽지만, 이런 기법은 여러분의 네트워크를 감시하는 이해관계자에게 여러분이, *바로* 여러분이 토르를 사용하고 있다는 사실을 숨겨 주지 못합니다.
 
-### Tor Browser is not the most *secure* browser
+### 토르 브라우저는 가장 *안전한* 브라우저가 아닙니다
 
-Anonymity can often be at odds with security. Tor achieves anonymity by ensuring more users appear [similar](https://support.torproject.org/tor-browser/features/fingerprinting-protections/#:~:text=Tor%20Browser%20is,individual%20users%20effectively.):
-> Tor Browser is specifically engineered to minimize the uniqueness of each user's fingerprint across various metrics. While it is practically impossible to make all Tor Browser users identical, the goal is to reduce the number of distinguishable "buckets" for each metric. This approach makes it harder to track individual users effectively.
+익명성은 종종 보안과 상충할 수 있습니다. 토르는 더 많은 사용자가 [비슷하게](https://support.torproject.org/tor-browser/features/fingerprinting-protections/#:~:text=Tor%20Browser%20is,individual%20users%20effectively.) 보이도록 함으로써 익명성을 확보합니다:
+> 토르 브라우저는 다양한 지표에서 각 사용자의 핑거프린트 고유성을 최소화하도록 특별히 설계되었습니다. 모든 토르 브라우저 사용자를 똑같이 만드는 것은 사실상 불가능하지만, 목표는 각 지표에서 구별 가능한 "버킷"의 수를 줄이는 것입니다. 이 방식은 개별 사용자를 효과적으로 추적하기 어렵게 만듭니다.
 
- While this is effective at preserving anonymity, it also creates a digital monoculture where the same vulnerabilities exist across many installations. In cybersecurity, monocultures are generally considered a risk. Security through diversity provides natural segmentation by limiting the impact of an exploit to a smaller segment of users. While such diversity is structurally desirable for security, it inherently compromises user anonymity by making individuals trackable.
+ 이는 익명성을 지키는 데 효과적이지만, 많은 설치 환경에 같은 취약점이 존재하는 디지털 모노컬처(단일 문화)를 만들어 내기도 합니다. 사이버 보안에서 모노컬처는 일반적으로 위험 요소로 여겨집니다. 다양성을 통한 보안은 익스플로잇의 영향을 더 작은 사용자 집단으로 제한함으로써 자연스러운 분할 효과를 제공합니다. 이러한 다양성은 구조적으로 보안에 바람직하지만, 개인을 추적 가능하게 만들기 때문에 본질적으로 사용자 익명성을 훼손합니다.
 
-Additionally, Tor Browser is based on Firefox's Extended Support Release builds, which only receives patches for vulnerabilities considered *Critical* and *High* (not *Medium* and *Low*). This means that attackers could (for example):
+또한 토르 브라우저는 파이어폭스의 장기 지원판(ESR) 빌드를 기반으로 하는데, 이 빌드는 *심각* 및 *높음* 등급의 취약점에 대해서만 패치를 받습니다(*중간* 및 *낮음* 등급은 제외). 즉, 공격자는 (예를 들어) 다음과 같은 일을 할 수 있습니다:
 
-1. Look for new Critical/High vulnerabilities in Firefox nightly or beta builds, then check if they are exploitable in Tor Browser (this vulnerability period can last weeks).
-2. Chain *multiple* Medium/Low vulnerabilities together until they get the level of access they're looking for (this vulnerability period can last months or longer).
+1. 파이어폭스 나이틀리나 베타 빌드에서 새로운 심각/높음 등급 취약점을 찾은 다음, 토르 브라우저에서 악용할 수 있는지 확인합니다(이 취약 기간은 몇 주간 지속될 수 있습니다).
+2. 원하는 수준의 접근 권한을 얻을 때까지 *여러* 중간/낮음 등급 취약점을 연쇄적으로 엮습니다(이 취약 기간은 몇 달 이상 지속될 수 있습니다).
 
-Those at risk of browser vulnerabilities should consider additional protections to defend against Tor Browser exploits, such as using Whonix in [Qubes](../os/qubes-overview.md) to contain your Tor browsing in a secure virtual machine and protect against leaks.
+브라우저 취약점의 위험에 노출된 사람이라면, [큐브스](../os/qubes-overview.md)에서 후닉스를 사용해 토르 탐색을 안전한 가상 머신 안에 가두고 유출을 막는 등 토르 브라우저 익스플로잇을 방어하기 위한 추가 보호를 고려해야 합니다.
 
-## Clearnet 서비스 경로 구축 방식
+## 클리어넷 서비스로의 경로 구축
 
-클리어넷(Clearnet) 서비스란, 모든 브라우저로 접근 가능한 웹사이트(예시: [privacyguides.org](https://www.privacyguides.org))를 말합니다. 클리어넷 서비스의 동의어로 '표면 웹(Surface Web)'이 쓰이기도 합니다. Tor는 '노드'(혹은 '릴레이')라고 하는 자원 봉사 운영 서버 수천 개로 구성된 네트워크를 통해 트래픽을 라우팅하여, 웹사이트를 익명으로 연결할 수 있도록 합니다.
+"클리어넷 서비스"란 [privacyguides.org](https://www.privacyguides.org)처럼 어떤 브라우저로든 접속할 수 있는 웹사이트를 말합니다. 토르는 노드(또는 릴레이)라고 불리는, 자원봉사자가 운영하는 수천 개의 서버로 이루어진 네트워크를 거쳐 트래픽을 라우팅함으로써 이런 웹사이트에 익명으로 연결할 수 있게 해 줍니다.
 
-여러분이 [Tor에 연결할](../tor.md) 때마다 3개의 노드가 선택되어 인터넷 연결 경로를 구축합니다. 이 경로를 '우회로(Circuit)'라고 합니다.
+[토르에 연결할](../tor.md) 때마다 인터넷까지의 경로를 만들기 위해 세 개의 노드가 선택됩니다. 이 경로를 "회로(circuit)"라고 합니다.
 
 <figure markdown>
-  ![여러분의 기기가 목적지 웹사이트에 도달하기까지 거쳐가는 입구 노드, 중간 노드, 출구 노드를 나타내는 Tor 경로](../assets/img/how-tor-works/tor-path.svg#only-light)
-  ![여러분의 기기가 목적지 웹사이트에 도달하기까지 거쳐가는 입구 노드, 중간 노드, 출구 노드를 나타내는 Tor 경로](../assets/img/how-tor-works/tor-path-dark.svg#only-dark)
-  <figcaption>Tor 우회 경로</figcaption>
+  ![여러분의 기기가 목적지 웹사이트에 도달하기 전에 입구 노드, 중간 노드, 출구 노드를 거쳐 연결되는 토르 경로](../assets/img/how-tor-works/tor-path.svg#only-light)
+  ![여러분의 기기가 목적지 웹사이트에 도달하기 전에 입구 노드, 중간 노드, 출구 노드를 거쳐 연결되는 토르 경로](../assets/img/how-tor-works/tor-path-dark.svg#only-dark)
+  <figcaption>토르 회로 경로</figcaption>
 </figure>
 
 노드는 각각 다른 역할을 가지고 있습니다.
 
 ### 입구 노드
 
-입구 노드(Entry Node)는 Tor 클라이언트가 연결되는 첫 번째 노드입니다. 진입 노드/가드 노드(Guard Node)라고 불리기도 합니다. 입구 노드는 사용자의 IP 주소를 볼 수 있으나, 사용자가 어디에 연결하는지는 알 수 없습니다.
+흔히 가드 노드라고도 불리는 입구 노드는 토르 클라이언트가 처음 연결하는 노드입니다. 입구 노드는 사용자의 IP 주소를 볼 수 있으나, 사용자가 어디에 연결하는지는 알 수 없습니다.
 
-다른 노드와 달리, Tor 클라이언트는 여러분을 특정 공격으로부터 보호하기 위해 무작위로 입구 노드를 선택하여 2~3개월간 해당 노드를 유지합니다.
+다른 노드와 달리, 토르 클라이언트는 특정 공격으로부터 여러분을 보호하기 위해 입구 노드를 무작위로 선택한 뒤 2~3개월 동안 그 노드를 계속 사용합니다.[^1]
 
 ### 중간 노드
 
-중간 노드(Middle Node)는 Tor 클라이언트가 연결되는 두 번째 노드입니다. 중간 노드는 트래픽이 어디서 왔는지, 즉 어떤 입구 노드에서 왔는지, 그리고 다음으로는 어떤 노드로 가는지 알 수 있습니다. 중간 노드는 사용자의 IP 주소 혹은 사용자가 연결하고자 하는 도메인은 알 수 없습니다.
+중간 노드는 토르 클라이언트가 두 번째로 연결하는 노드입니다. 중간 노드는 트래픽이 어느 노드(입구 노드)에서 왔는지, 그리고 다음으로 어느 노드로 가는지 알 수 있습니다. 중간 노드는 사용자의 IP 주소 혹은 사용자가 연결하고자 하는 도메인은 알 수 없습니다.
 
-중간 노드는 우회로를 새로 생성할 때마다 사용 가능한 모든 Tor 노드 중에서 무작위로 선택됩니다.
+중간 노드는 새 회로를 만들 때마다 사용 가능한 모든 토르 노드 중에서 무작위로 선택됩니다.
 
 ### 출구 노드
 
-출구 노드(Exit Node)는 웹 트래픽이 Tor 네트워크를 벗어나, 사용자가 원하는 목적지로 전달되는 지점입니다. 출구 노드는 사용자의 IP 주소를 볼 수 없으나, 어떤 사이트에 연결하고 있는지는 알 수 있습니다.
+출구 노드는 웹 트래픽이 토르 네트워크를 벗어나 원하는 목적지로 전달되는 지점입니다. 출구 노드는 사용자의 IP 주소를 볼 수 없으나, 어떤 사이트에 연결하고 있는지는 알 수 있습니다.
 
-출구 노드는 출구 릴레이 플래그로 실행된 모든 사용 가능한 Tor 노드 중에서 무작위로 선택됩니다.
+출구 노드는 출구 릴레이 플래그가 지정된 채 운영되는 모든 사용 가능한 토르 노드 중에서 무작위로 선택됩니다.[^2]
 
-## Onion 서비스 경로 구축 방식
+## 어니언 서비스로의 경로 구축
 
-'Onion 서비스'('Hidden 서비스'라고도 불립니다)는 Tor 브라우저로만 접근 가능한 웹사이트입니다. Onion 서비스 도메인은 랜덤으로 생성된 긴 문자열로 되어있으며, `.onion`으로 끝납니다.
+"어니언 서비스"("히든 서비스"라고도 흔히 불립니다)는 토르 브라우저로만 접속할 수 있는 웹사이트입니다. 이런 웹사이트의 도메인 이름은 무작위로 생성된 긴 문자열이며, `.onion`으로 끝납니다.
 
-Tor에서 Onion 서비스로의 연결은 클리어넷 서비스 연결과 매우 유사하게 작동하지만, 트래픽은 목적지 서버에 도달하기 전에 총 **6개**의 노드를 거쳐 라우팅됩니다. Just like before, however, only three of these nodes are contributing to *your* anonymity, the other three nodes protect *the Onion Service's* anonymity, hiding the website's true IP and location in the same manner that Tor Browser is hiding yours.
+토르에서 어니언 서비스에 연결하는 것은 클리어넷 서비스에 연결하는 것과 매우 비슷하게 작동하지만, 트래픽은 목적지 서버에 도달하기 전에 총 **6개**의 노드를 거쳐 라우팅됩니다. 하지만 앞에서와 마찬가지로 이 중 세 개의 노드만 *여러분의* 익명성에 기여하며, 나머지 세 노드는 *어니언 서비스의* 익명성을 보호해, 토르 브라우저가 여러분의 IP와 위치를 숨기는 것과 같은 방식으로 웹사이트의 실제 IP와 위치를 숨깁니다.
 
 <figure style="width:100%" markdown>
-  ![3개의 Tor 노드에 더해 웹사이트 신원을 숨기는 3개의 Tor 노드를 추가로 거쳐가는 트래픽을 나타내는 Tor 경로](../assets/img/how-tor-works/tor-path-hidden-service.svg#only-light)
-  ![3개의 Tor 노드에 더해 웹사이트 신원을 숨기는 3개의 Tor 노드를 추가로 거쳐가는 트래픽을 나타내는 Tor 경로](../assets/img/how-tor-works/tor-path-hidden-service-dark.svg#only-dark)
-  <figcaption>Onion 서비스 Tor 우회 경로 <span class="pg-blue">파란색</span> 테두리 내 노드는 사용자 브라우저에 해당하며, <span class="pg-red">빨간색</span> 테두리 내 노드는 서버에 해당합니다. 이리하여 서버의 신원은 노출되지 않습니다.</figcaption>
+  ![여러분의 토르 노드 3개에 더해 웹사이트의 신원을 숨기는 토르 노드 3개를 추가로 거쳐 트래픽이 라우팅되는 토르 경로](../assets/img/how-tor-works/tor-path-hidden-service.svg#only-light)
+  ![여러분의 토르 노드 3개에 더해 웹사이트의 신원을 숨기는 토르 노드 3개를 추가로 거쳐 트래픽이 라우팅되는 토르 경로](../assets/img/how-tor-works/tor-path-hidden-service-dark.svg#only-dark)
+  <figcaption>어니언 서비스를 포함한 토르 회로 경로. <span class="pg-blue">파란색</span> 테두리 안의 노드는 여러분의 브라우저에 속하고, <span class="pg-red">빨간색</span> 테두리 안의 노드는 서버에 속하므로 그 신원은 여러분에게 드러나지 않습니다.</figcaption>
 </figure>
 
 ## 암호화
 
-Tor encrypts each packet (a block of transmitted data) three times with the keys from the exit, middle, and entry node in that order.
+토르는 각 패킷(전송되는 데이터 블록)을 출구 노드, 중간 노드, 입구 노드의 키로 순서대로 세 번 암호화합니다.
 
-Tor 우회로가 구축되고 나면 데이터 전송은 다음과 같이 이루어집니다:
+토르가 회로를 구축하고 나면 데이터는 다음과 같이 전송됩니다:
 
-1. Firstly: When the packet arrives at the entry node, the first layer of encryption is removed. 입구 노드는 해당 암호화 패킷에서 중간 노드 주소가 포함된 또 다른 암호화 패킷을 찾습니다. 이후, 입구 노드는 중간 노드로 패킷을 전송합니다.
+1. 첫째: 패킷이 입구 노드에 도착하면 첫 번째 암호화 레이어가 제거됩니다. 입구 노드는 해당 암호화 패킷에서 중간 노드 주소가 포함된 또 다른 암호화 패킷을 찾습니다. 이후, 입구 노드는 중간 노드로 패킷을 전송합니다.
 
-2. Secondly: When the middle node receives the packet from the entry node, it too will remove a layer of encryption with its key, and this time finds an encrypted packet with the exit node's address. 이후, 중간 노드는 출구 노드로 패킷을 전송합니다.
+2. 둘째: 중간 노드가 입구 노드로부터 패킷을 받으면, 중간 노드도 자신의 키로 암호화 레이어 하나를 제거하고, 이번에는 출구 노드의 주소가 담긴 암호화된 패킷을 찾습니다. 이후, 중간 노드는 출구 노드로 패킷을 전송합니다.
 
-3. Lastly: When the exit node receives its packet, it will remove the last layer of encryption with its key. 출구 노드는 목적지 주소를 확인하고 해당 주소로 패킷을 전송합니다.
+3. 마지막으로: 출구 노드가 패킷을 받으면 자신의 키로 마지막 암호화 레이어를 제거합니다. 출구 노드는 목적지 주소를 확인하고 해당 주소로 패킷을 전송합니다.
 
-다음은 이 과정을 다이어그램으로 나타낸 것입니다. 각 노드는 해당 노드의 암호화 레이어를 제거하며, 목적지 서버가 데이터를 반환할 경우 이와 동일한 과정이 정반대로 진행됩니다. 예를 들어, 출구 노드는 사용자가 누구인지는 알 수 없으나 어떤 노드에서 전송해왔는지는 알고 있으므로 자체 암호화 레이어를 추가하여 전송합니다.
+다음은 이 과정을 보여 주는 또 다른 다이어그램입니다. 각 노드는 해당 노드의 암호화 레이어를 제거하며, 목적지 서버가 데이터를 반환할 경우 이와 동일한 과정이 정반대로 진행됩니다. 예를 들어 출구 노드는 여러분이 누구인지는 모르지만 패킷이 어느 노드에서 왔는지는 알고 있으므로, 자신의 암호화 레이어를 추가해 되돌려 보냅니다.
 
 <figure markdown>
-  ![Tor 암호화](../assets/img/how-tor-works/tor-encryption.svg#only-light)
-  ![Tor 암호화](../assets/img/how-tor-works/tor-encryption-dark.svg#only-dark)
-  <figcaption>Tor 네트워크를 통한 데이터 송수신</figcaption>
+  ![토르 암호화](../assets/img/how-tor-works/tor-encryption.svg#only-light)
+  ![토르 암호화](../assets/img/how-tor-works/tor-encryption-dark.svg#only-dark)
+  <figcaption>토르 네트워크를 통한 데이터 송수신</figcaption>
 </figure>
 
-Tor를 이용하면 단일 주체에게 전체 경로를 노출하지 않고도 서버에 연결 가능합니다. 입구 노드는 사용자가 누구인지는 알지만 목적지는 알 수 없고, 중간 노드는 사용자와 목적지 모두 알 수 없으며, 출구 노드는 목적지는 알지만 사용자가 누구인지는 알 수 없습니다. 최종 연결이 생성되는 지점은 출구 노드이므로, 목적지 서버는 사용자의 IP 주소를 절대 알 수 없습니다.
+토르를 사용하면 어느 한 주체도 전체 경로를 알지 못하는 상태로 서버에 연결할 수 있습니다. 입구 노드는 사용자가 누구인지는 알지만 목적지는 알 수 없고, 중간 노드는 사용자와 목적지 모두 알 수 없으며, 출구 노드는 목적지는 알지만 사용자가 누구인지는 알 수 없습니다. 최종 연결이 생성되는 지점은 출구 노드이므로, 목적지 서버는 사용자의 IP 주소를 절대 알 수 없습니다.
 
 ## 주의 사항
 
-Tor는 강력한 프라이버시를 보장하지만, 완벽하지는 않습니다:
+토르는 강력한 프라이버시 보호를 제공하지만, 완벽하지는 않다는 점을 알아 두어야 합니다:
 
-- Tor never protects you from exposing yourself by mistake, such as if you share too much information about your real identity.
-- Tor exit nodes can **modify** unencrypted traffic which passes through them. This means traffic which is not encrypted, such as plain HTTP traffic, can be changed by a malicious exit node. **Never** download files from an unencrypted `http://` website over Tor, and ensure your browser is set to always upgrade HTTP traffic to HTTPS.
-- Tor 출구 노드가 직접 트래픽을 모니터링하고 있을 수도 있습니다. Unencrypted traffic which contains personally identifiable information can deanonymize you to that exit node. Again, we recommend only using HTTPS over Tor.
-- Powerful adversaries with the capability to passively watch *all* network traffic around the globe ("Global Passive Adversaries") are **not** something that Tor protects you against (and using Tor [with a VPN](#safely-connecting-to-tor) doesn't change this fact).
-- Well-funded adversaries with the capability to passively watch *most* network traffic around the globe still have a *chance* of deanonymizing Tor users by means of advanced traffic analysis.
+- 실제 신원에 관한 정보를 너무 많이 공유하는 등 실수로 자신을 드러내는 것까지 토르가 막아 주지는 않습니다.
+- 토르 출구 노드는 자신을 통과하는 암호화되지 않은 트래픽을 **변조**할 수 있습니다. 즉, 일반 HTTP 트래픽처럼 암호화되지 않은 트래픽은 악의적인 출구 노드에 의해 바뀔 수 있습니다. 토르로 암호화되지 않은 `http://` 웹사이트에서 파일을 **절대** 내려받지 말고, 브라우저가 항상 HTTP 트래픽을 HTTPS로 업그레이드하도록 설정되어 있는지 확인하세요.
+- 토르 출구 노드는 자신을 통과하는 트래픽을 감시할 수도 있습니다. 개인 식별 정보가 담긴 암호화되지 않은 트래픽은 해당 출구 노드에 여러분의 정체를 드러낼 수 있습니다. 다시 말하지만, 토르에서는 HTTPS만 사용하는 것을 권장합니다.
+- 전 세계의 *모든* 네트워크 트래픽을 수동적으로 지켜볼 수 있는 강력한 공격자("전역 수동적 공격자")로부터는 토르가 여러분을 보호해 주지 **못합니다**(그리고 [VPN과 함께](#safely-connecting-to-tor) 토르를 사용해도 이 사실은 달라지지 않습니다).
+- 전 세계 네트워크 트래픽의 *대부분*을 수동적으로 지켜볼 수 있는 자금력 있는 공격자는 여전히 고급 트래픽 분석을 통해 토르 사용자를 탈익명화할 *가능성*이 있습니다.
 
-웹 탐색 용도로 Tor를 이용하고자 하실 경우, 핑거프린팅을 방지하도록 설계된 **공식** Tor 브라우저만 사용하실 것을 권장드립니다.
+웹 탐색에 토르를 사용하고 싶다면 **공식** 토르 브라우저만 사용할 것을 권장합니다. 토르 브라우저는 핑거프린팅을 방지하도록 설계되었습니다.
 
-- [Tor 브라우저 :material-arrow-right-drop-circle:](../tor.md#tor-browser)
+- [토르 브라우저 :material-arrow-right-drop-circle:](../tor.md#tor-browser)
 
-### Protections provided by bridges
+### 브리지가 제공하는 보호
 
-Tor bridges are commonly touted as an alternative method to hiding Tor usage from an ISP, instead of a VPN (as we suggest using if possible). Something to consider is that while bridges may provide adequate censorship circumvention, this is only a *transient* benefit. They do not adequately protect you from your ISP discovering you connected to Tor in the *past* with historical traffic log analysis.
+토르 브리지는 흔히 (가능하면 저희가 사용을 권하는) VPN 대신 ISP로부터 토르 사용을 숨기는 대안으로 소개됩니다. 고려할 점은 브리지가 검열 우회에는 충분할 수 있지만, 이는 *일시적인* 이점일 뿐이라는 것입니다. ISP가 과거 트래픽 로그를 분석해 여러분이 *과거에* 토르에 연결했다는 사실을 알아내는 것까지 충분히 막아 주지는 못합니다.
 
-To illustrate this point, consider the following scenario: You connect to Tor via a bridge, and your ISP doesn’t detect it because they are not doing sophisticated analysis of your traffic, so things are working as intended. Now, 4 months go by, and the IP of your bridge has been made public. This is a very common occurrence with bridges; they are discovered and blocked relatively frequently, just not immediately.
+이를 설명하기 위해 다음 시나리오를 생각해 봅시다. 여러분은 브리지를 통해 토르에 연결하고, ISP는 트래픽을 정교하게 분석하지 않기 때문에 이를 탐지하지 못하므로 모든 것이 의도대로 작동합니다. 이제 4개월이 지나 여러분이 사용한 브리지의 IP가 공개되었습니다. 이는 브리지에서 매우 흔한 일입니다. 브리지는 즉시는 아니더라도 비교적 자주 발견되어 차단됩니다.
 
-Your ISP wants to identify Tor users 4 months ago, and with their limited metadata logging they can see that you connected to an IP address which was later revealed to be a Tor bridge. You have virtually no other excuse to be making such a connection, so the ISP can say with very high confidence that you were a Tor user at that time.
+ISP가 4개월 전의 토르 사용자를 식별하려 한다면, 제한적인 메타데이터 기록만으로도 여러분이 나중에 토르 브리지로 밝혀진 IP 주소에 연결했다는 것을 알 수 있습니다. 그런 연결을 할 다른 이유가 사실상 없으므로, ISP는 여러분이 그 당시 토르 사용자였다고 매우 높은 확신을 가지고 말할 수 있습니다.
 
-Contrast this with our recommended scenario, where you connect to Tor via a VPN. Say that 4 months later your ISP again wants to identify anybody who used Tor 4 months ago. Their logs almost certainly can identify your traffic 4 months ago, but all they would likely be able to see is that you connected to a VPN’s IP address. This is because most ISPs only retain metadata over long periods of time, not the full contents of the traffic you request. Storing the entirety of your traffic data would require a massive quantity of storage which nearly all threat actors wouldn't possess.
+이를 저희가 권장하는 시나리오, 즉 VPN을 거쳐 토르에 연결하는 경우와 비교해 봅시다. 4개월 뒤 ISP가 다시 4개월 전에 토르를 사용한 사람을 식별하려 한다고 해 봅시다. ISP의 로그로 4개월 전 여러분의 트래픽을 식별하는 것은 거의 확실히 가능하겠지만, 아마 알 수 있는 것은 여러분이 VPN의 IP 주소에 연결했다는 사실뿐일 것입니다. 대부분의 ISP는 여러분이 요청한 트래픽의 전체 내용이 아니라 메타데이터만 장기간 보관하기 때문입니다. 트래픽 데이터 전체를 저장하려면 막대한 저장 공간이 필요한데, 거의 모든 위협 행위자는 그런 공간을 갖추고 있지 않습니다.
 
-Because your ISP almost certainly is not capturing all packet-level data and storing it forever, they have no way of determining what you connected to with that VPN *after* the fact with an advanced technique like deep packet inspection, and therefore you have plausible deniability.
+ISP가 패킷 수준의 모든 데이터를 캡처해 영원히 저장하고 있을 가능성은 거의 없으므로, 심층 패킷 검사 같은 고급 기법으로 여러분이 그 VPN으로 무엇에 연결했는지 *사후에* 알아낼 방법이 없으며, 따라서 여러분에게는 그럴듯한 부인 가능성이 있습니다.
 
-Therefore, bridges provide the most benefit when circumventing internet censorship *in the moment*, but they are not an adequate substitute for **all** the benefits that using a VPN alongside Tor can provide. Again, this is not advice *against* using Tor bridges—you should just be aware of these limitations while making your decision. In some cases bridges may be the *only* option (if all VPN providers are blocked, for instance), so you can still use them in those circumstances with this limitation in mind.
+따라서 브리지는 *당장* 인터넷 검열을 우회할 때 가장 큰 이점을 제공하지만, 토르와 함께 VPN을 사용할 때 얻을 수 있는 **모든** 이점을 대신할 수는 없습니다. 다시 말하지만, 이는 토르 브리지를 사용하지 *말라는* 조언이 아닙니다. 결정을 내릴 때 이러한 한계를 알고 있어야 한다는 것뿐입니다. 경우에 따라(예를 들어 모든 VPN 제공업체가 차단된 경우) 브리지가 *유일한* 선택지일 수도 있으므로, 그런 상황에서는 이 한계를 염두에 두고 브리지를 사용하면 됩니다.
 
-If you think that a bridge can aid in defending against fingerprinting or other advanced network analysis more than a VPN's encrypted tunnel already can, you always have the option to use a bridge in conjunction with a VPN as well. That way you are still protected by the pluggable transport's obfuscation techniques even if an adversary gains some level of visibility into your VPN tunnel. If you decide to go this route, we recommend connecting to an obfs4 bridge behind your VPN for optimal fingerprinting protection, rather than meek or Snowflake.
+브리지가 VPN의 암호화된 터널보다 핑거프린팅이나 기타 고급 네트워크 분석을 방어하는 데 더 도움이 된다고 생각한다면, 언제든 브리지를 VPN과 함께 사용할 수도 있습니다. 그러면 공격자가 VPN 터널을 어느 정도 들여다볼 수 있게 되더라도 플러그형 전송의 난독화 기법으로 여전히 보호받을 수 있습니다. 이 방법을 택한다면, 최적의 핑거프린팅 보호를 위해 meek이나 스노플레이크보다는 VPN 뒤에서 obfs4 브리지에 연결하는 것을 권장합니다.
 
-It is [possible](https://discuss.privacyguides.net/t/clarify-tors-weaknesses-with-respect-to-observability/3676/16) that the [WebTunnel](https://forum.torproject.org/t/tor-relays-announcement-webtunnel-a-new-pluggable-transport-for-bridges-now-available-for-deployment/8180) pluggable transport currently being trialed may mitigate some of these concerns. We will continue to keep an eye on that technology as it develops.
+현재 시험 중인 [웹터널](https://forum.torproject.org/t/tor-relays-announcement-webtunnel-a-new-pluggable-transport-for-bridges-now-available-for-deployment/8180) 플러그형 전송이 이러한 우려를 일부 완화할 [가능성](https://discuss.privacyguides.net/t/clarify-tors-weaknesses-with-respect-to-observability/3676/16)이 있습니다. 저희는 이 기술의 발전을 계속 지켜볼 것입니다.
 
 ## 추가 자료
 
-- [Tor 브라우저 사용자 설명서](https://tb-manual.torproject.org)
-- [How Tor Works - Computerphile](https://youtube.com/watch?v=QRYzre4bf7I) <small>(YouTube)</small>
-- [Tor Onion Services - Computerphile](https://youtube.com/watch?v=lVcbq_a5N9I) <small>(YouTube)</small>
+- [토르 브라우저 사용자 설명서](https://tb-manual.torproject.org)
+- [토르의 작동 원리 - 컴퓨터파일](https://youtube.com/watch?v=QRYzre4bf7I) <small>(유튜브)</small>
+- [토르 어니언 서비스 - 컴퓨터파일](https://youtube.com/watch?v=lVcbq_a5N9I) <small>(유튜브)</small>
 
-[^1]: 우회로의 첫 번째 릴레이는 'Entry Guard' 혹은 'Guard'라고 합니다. 알려진 익명성 침해 공격으로부터 보호하기 위해, 우회로에서 첫 번째 릴레이로 2~3개월간 유지되는 빠르고 안정적인 릴레이입니다. 우회로의 나머지 경로는 새로운 웹사이트를 방문할 때마다 변경되며, 이러한 릴레이가 모두 모여 Tor의 완벽한 프라이버시 보호를 제공합니다. 보다 자세한 가드 릴레이 작동 방식 설명은 [이 블로그 포스트](https://blog.torproject.org/improving-tors-anonymity-changing-guard-parameters)와 [이 논문](https://www-users.cs.umn.edu/~hoppernj/single_guard.pdf)을 참고해 주세요. ([https://support.torproject.org/tbb/tbb-2](https://support.torproject.org/tbb/tbb-2))
+[^1]: 회로의 첫 번째 릴레이는 '입구 가드(entry guard)' 또는 '가드(guard)'라고 불립니다. 알려진 익명성 침해 공격으로부터 보호하기 위해, 회로에서 첫 번째 릴레이로 2~3개월간 유지되는 빠르고 안정적인 릴레이입니다. 회로의 나머지 부분은 새 웹사이트를 방문할 때마다 바뀌며, 이 릴레이들이 모두 함께 토르의 프라이버시 보호 기능을 온전히 제공합니다. 보다 자세한 가드 릴레이 작동 방식 설명은 [이 블로그 포스트](https://blog.torproject.org/improving-tors-anonymity-changing-guard-parameters)와 [이 논문](https://www-users.cs.umn.edu/~hoppernj/single_guard.pdf)을 참고해 주세요. ([https://support.torproject.org/tbb/tbb-2](https://support.torproject.org/tbb/tbb-2))
 
-[^2]: '릴레이 플래그'란 우회로 위치(Guard, Exit, BadExit 등), 우회로 속성(Fast, Stable 등), 역할(Authority, HSDir 등) 같은 릴레이의 특수 자격을 말합니다. 이는 Directory Authority에 의해 할당되며, Directory Protocol 사양에 추가로 정의되어 있습니다. ([https://metrics.torproject.org/glossary.html](https://metrics.torproject.org/glossary.html#relay-flag))
+[^2]: 릴레이 플래그: 회로상의 위치(예: "Guard", "Exit", "BadExit"), 회로 속성(예: "Fast", "Stable"), 역할(예: "Authority", "HSDir")에 대해 릴레이에 부여되는 특별한 자격(또는 자격 박탈)으로, 디렉터리 권한 서버(directory authority)가 할당하며 디렉터리 프로토콜 사양에 자세히 정의되어 있습니다. ([https://metrics.torproject.org/glossary.html](https://metrics.torproject.org/glossary.html#relay-flag))

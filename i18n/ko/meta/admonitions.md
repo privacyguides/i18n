@@ -68,7 +68,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 #### `info`
 
 <div class="admonition info" markdown>
-<p class="admonition-title">Info</p>
+<p class="admonition-title">정보</p>
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 

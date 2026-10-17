@@ -1,17 +1,17 @@
 ---
-title: Migrate Outside The Surveillance Ecosystem
-description: As privacy activists, it's important to lead by example and support the tools and organizations with good privacy practices, by moving away from Big Tech.
+title: 감시 생태계에서 벗어나기
+description: 프라이버시 활동가라면 빅테크에서 벗어남으로써 솔선수범하고, 프라이버시를 잘 지키는 도구와 단체를 지지하는 것이 중요합니다.
 icon: fontawesome/solid/arrow-right-from-bracket
 cover: activism/banner-toolbox-tip-migrate.webp
 ---
 
-As privacy activists, it's not only important to support the tools and organizations with good privacy practices, but also to lead by example when it comes to **moving away from the surveillance ecosystem**. We cannot afford to compromise our principles simply for [convenience](https://www.privacyguides.org/articles/2025/06/07/selling-surveillance-as-convenience/).
+프라이버시 활동가라면 프라이버시를 잘 지키는 도구와 단체를 지지하는 것뿐만 아니라, **감시 생태계에서 벗어나는** 데 있어서도 솔선수범하는 것이 중요합니다. 단지 [편리함](https://www.privacyguides.org/articles/2025/06/07/selling-surveillance-as-convenience/) 때문에 우리의 원칙을 타협할 수는 없습니다.
 
-Here's why and how to move away from Big Tech and embrace alternatives:
+빅테크에서 벗어나 대안을 받아들여야 하는 이유와 방법은 다음과 같습니다:
 
-## The cost of using Big Tech in our privacy work
+## 프라이버시 활동에서 빅테크를 사용하는 대가
 
-While using the most popular mainstream tools and platforms for our work might seem efficient at first, there can be an immense cost to it, if these tools and platforms aren't aligned with our privacy values.
+가장 인기 있는 주류 도구와 플랫폼을 활동에 사용하는 것이 처음에는 효율적으로 보일 수 있지만, 그 도구와 플랫폼이 우리의 프라이버시 가치와 맞지 않는다면 엄청난 대가를 치를 수 있습니다.
 
 <style>
 .emoji-list-a ol {
@@ -25,42 +25,42 @@ While using the most popular mainstream tools and platforms for our work might s
 
 <div class="emoji-list-a" markdown>
 
-1. The first drawback is that by using products that are antithetical to our values, we are directly participating in sustaining anti-privacy corporations and contributing to [surveillance capitalism](../../basics/common-threats.md/#surveillance-as-a-business-model).
+1. 첫 번째 단점은 우리의 가치에 정면으로 반하는 제품을 사용함으로써 반프라이버시 기업을 유지하는 데 직접 참여하고 [감시 자본주의](../../basics/common-threats.md/#surveillance-as-a-business-model)에 기여하게 된다는 것입니다.
 
-2. The second drawback is that simply by using Big Tech tools, we are indirectly promoting the usage of services that are horrible for everyone's privacy.
+2. 두 번째 단점은 빅테크 도구를 사용하는 것만으로도 모두의 프라이버시에 끔찍한 서비스의 사용을 간접적으로 홍보하게 된다는 것입니다.
 
-3. The third drawback is that if we use these tools in our action and communications, we are then endangering the data of others who rely on our expertise to keep their data safe. They might think: "If this privacy advocate asks me to fill a Google form, it's probably safe enough to use Google products for sensitive data."
+3. 세 번째 단점은 활동과 소통에 이런 도구를 사용하면, 데이터를 안전하게 지키기 위해 우리의 전문성을 믿고 의지하는 다른 사람들의 데이터를 위험에 빠뜨리게 된다는 것입니다. 그들은 이렇게 생각할 수도 있습니다. "이 프라이버시 옹호자가 구글 폼을 작성해 달라고 하는 걸 보니, 민감한 데이터에 구글 제품을 써도 충분히 안전한가 봐."
 
-   With great _knowledge_ comes great responsibility. We must protect the data people share with us, even more than we would our own.
+   큰 _지&#xC2DD;_&#xC5D0;는 큰 책임이 따릅니다. 사람들이 우리와 공유하는 데이터는 우리 자신의 데이터보다 더 소중히 보호해야 합니다.
 
-4. The fourth drawback is that, as privacy activists, demanding that others use tools violating their privacy rights to communicate with us can damage our credibility, and have a negative impact on the whole community. Observers might think: "If all these privacy advocates use Facebook groups, why should I listen when they recommend that I move away from Facebook?"
+4. 네 번째 단점은 프라이버시 활동가인 우리가 다른 사람들에게 우리와 소통하려면 그들의 프라이버시 권리를 침해하는 도구를 쓰라고 요구하면, 우리의 신뢰가 떨어지고 커뮤니티 전체에 부정적인 영향을 미칠 수 있다는 것입니다. 지켜보는 사람들은 이렇게 생각할지도 모릅니다. "프라이버시 옹호자들이 다 페이스북 그룹을 쓰는데, 페이스북을 떠나라는 그들의 말을 내가 왜 들어야 하지?"
 
-5. Finally, the fifth drawback is that we need to be _leading by example_ and demonstrate that it **is** possible to live a connected life without using privacy-invasive tech.
+5. 마지막으로 다섯 번째 단점은, 우리가 _솔선수&#xBC94;_&#xD558;여 프라이버시 침해 기술 없이도 연결된 삶을 사는 것이 가능**하다는** 것을 보여 줘야 한다는 점입니다.
 
-   Because a better world _is_ actually possible, right now. It might not be as easy and as convenient, but it's certainly possible to thrive outside the Big Tech surveillance apparatus, especially for privacy activists and digital rights organizations.
+   더 나은 세상은 지금 바로 _실제로_ 가능하기 때문입니다. 그만큼 쉽고 편리하지는 않을 수 있지만, 특히 프라이버시 활동가와 디지털 권리 단체라면 빅테크의 감시 장치 밖에서도 충분히 잘 해낼 수 있습니다.
 
-   As the saying goes: ==If not us, then who? If not now, then when?==
+   흔히 하는 말처럼, ==우리가 아니면 누가? 지금이 아니면 언제?==
 
 </div>
 
-## How to migrate away from privacy-harmful tools and choose better alternatives
+## 프라이버시에 해로운 도구에서 벗어나 더 나은 대안을 선택하는 방법
 
 <div class="admonition question inline end" markdown>
-<p class="admonition-title">What is the best tool?</p>
+<p class="admonition-title">가장 좋은 도구는 무엇일까요?</p>
 
-For each proposed alternative, you should always first consider your own [threat model](../../basics/threat-modeling.md). One tool might be ideal for one person or organization, but another tool might be better for another. Make sure to understand well your threat model in order to choose the tools that are the best for your unique situation.
+각 대안을 검토할 때는 항상 먼저 자신의 [위협 모델](../../basics/threat-modeling.md)을 고려해야 합니다. 어떤 사람이나 단체에게는 이상적인 도구가, 다른 사람에게는 다른 도구가 더 나을 수 있습니다. 자신의 고유한 상황에 가장 잘 맞는 도구를 고르려면 위협 모델을 잘 이해해야 합니다.
 
 </div>
 
-There are two good news about this:
+이와 관련해 좋은 소식이 두 가지 있습니다:
 
-- First, there are many wonderful alternatives that already exist to support all kind of tasks, and that will preserve your privacy and the privacy of the people you communicate with.
+- 첫째, 온갖 종류의 작업을 지원하면서 여러분과 여러분이 소통하는 사람들의 프라이버시를 지켜 주는 훌륭한 대안이 이미 많이 있습니다.
 
-- Second, you don't have to do it all at once! Start your migration process slowly, but be persistent about it over the whole year.
+- 둘째, 한꺼번에 다 할 필요는 없습니다! 천천히 이전을 시작하되, 한 해 동안 꾸준히 이어 가세요.
 
-Here's a list of alternative solutions you can start adopting to improve data privacy in your advocacy work:
+옹호 활동에서 데이터 프라이버시를 개선하기 위해 도입하기 시작할 수 있는 대안 목록은 다음과 같습니다:
 
-### For individuals and organizations
+### 개인과 단체를 위해
 
 <style>
 .emoji-list-b ul {
@@ -74,57 +74,57 @@ Here's a list of alternative solutions you can start adopting to improve data pr
 
 <div class="emoji-list-b" markdown>
 
-- **[Messaging communication](../../real-time-communication.md):** Move your text message communication, audio calls, and video calls to a secure messenger like Signal. Enable features like Signal's username option, and disappearing messages.
+- **[메시지 소통](../../real-time-communication.md):** 문자 메시지, 음성 통화, 영상 통화를 시그널 같은 보안 메신저로 옮기세요. 시그널의 사용자 이름 옵션과 사라지는 메시지 같은 기능을 켜세요.
 
-- **Sensitive messaging communication:** If your threat model requires a peer-to-peer solution that doesn't need a phone number and transits over the [Tor network](https://www.privacyguides.org/articles/2025/04/30/in-praise-of-tor/), you might want to use an application such as [Cwtch](https://docs.cwtch.im/) or [Briar](../../real-time-communication.md/#briar).
+- **민감한 메시지 소통:** 위협 모델상 전화번호가 필요 없고 [토르 네트워크](https://www.privacyguides.org/articles/2025/04/30/in-praise-of-tor/)를 거치는 P2P 방식이 필요하다면, [쿠치](https://docs.cwtch.im/)나 [브라이어](../../real-time-communication.md/#briar) 같은 애플리케이션을 사용하는 것이 좋습니다.
 
-- **[Email communication](../../email.md):** Migrate to a privacy-respectful email service that offers end-to-end encryption, such as Proton Mail or Tuta. Make sure to inform yourself about the limitations of email privacy when using email for sensitive communication.
+- **[이메일 소통](../../email.md):** 프로톤 메일이나 투타처럼 종단 간 암호화를 제공하는, 프라이버시를 존중하는 이메일 서비스로 옮기세요. 민감한 소통에 이메일을 사용할 때는 이메일 프라이버시의 한계를 반드시 알아 두세요.
 
     <section class="admonition success inline end" markdown>
-    <p class="admonition-title">Service providers disclosure and compatibility</p>
+    <p class="admonition-title">서비스 제공업체 공개와 호환성</p>
 
-  If you use your own custom domain name for email addresses, let the people you communicate with know what your service provider is.
+  이메일 주소에 자체 도메인을 사용한다면, 소통하는 사람들에게 여러분의 서비스 제공업체가 어디인지 알려 주세요.
 
-  That way, they will know that if they use a compatible service provider, they might benefit from end-to-end encryption protections for the content of their communications with you without requiring any additional steps.
+  그러면 그들이 호환되는 서비스 제공업체를 사용할 경우, 별도의 절차 없이도 여러분과 주고받는 내용에 종단 간 암호화 보호를 받을 수 있다는 사실을 알게 됩니다.
 
-  For example, this is the case when emailing from a Proton Mail account to another Proton Mail account, or from a Tuta Mail account to another Tuta Mail account.
+  예를 들어 프로톤 메일 계정에서 다른 프로톤 메일 계정으로, 또는 투타 메일 계정에서 다른 투타 메일 계정으로 이메일을 보낼 때가 그렇습니다.
 
     </section>
 
-- **[Document storing and sharing](../../document-collaboration.md):** Move away from privacy-invasive Google products to store and share documents. Instead, use an end-to-end encrypted solution such as [CryptPad](https://www.privacyguides.org/articles/2025/02/07/cryptpad-review/) for your collaborative documents and forms. Proton Drive also offers collaborative documents with _Proton Docs_ and _Sheets_.
+- **[문서 저장 및 공유](../../document-collaboration.md):** 문서를 저장하고 공유할 때 프라이버시를 침해하는 구글 제품에서 벗어나세요. 대신 공동 작업 문서와 양식에는 [크립트패드](https://www.privacyguides.org/articles/2025/02/07/cryptpad-review/) 같은 종단 간 암호화 솔루션을 사용하세요. 프로톤 드라이브도 _프로톤 독&#xC2A4;_&#xC640; _시&#xD2B8;_&#xB85C; 공동 작업 문서를 제공합니다.
 
-- **[Storing files](../../cloud.md):** Choose an end-to-end encrypted cloud solution to store and share files. Always keep in mind that if a cloud service provider doesn't offer solid end-to-end encryption, then it can potentially access any of your stored files.
+- **[파일 저장](../../cloud.md):** 파일을 저장하고 공유할 때는 종단 간 암호화된 클라우드 솔루션을 선택하세요. 클라우드 서비스 제공업체가 확실한 종단 간 암호화를 제공하지 않는다면, 저장된 모든 파일에 접근할 수 있다는 점을 항상 기억하세요.
 
-- **Surveys:** Stop using products such as Google Forms to poll your community. Instead, choose a privacy-focused alternative such as [CryptPad Form](https://www.privacyguides.org/articles/2025/02/07/cryptpad-review/#form) or [Framaforms](https://framaforms.org/abc/en/).
+- **설문 조사:** 커뮤니티 의견을 조사할 때 구글 폼 같은 제품은 그만 사용하세요. 대신 [크립트패드 폼](https://www.privacyguides.org/articles/2025/02/07/cryptpad-review/#form)이나 [프라마폼](https://framaforms.org/abc/en/) 같은 프라이버시 중심 대안을 선택하세요.
 
-- **[Online calendar](../../calendar.md):** Your online calendar can be an important source of sensitive data. Moreover, you might store other's people data in it, or use it to share event links with collaborators. It's essential to make sure to use a privacy-protecting solution for online and collaborative calendars.
+- **[온라인 캘린더](../../calendar.md):** 온라인 캘린더는 민감한 데이터의 중요한 출처가 될 수 있습니다. 게다가 다른 사람의 데이터를 저장하거나, 협업자와 행사 링크를 공유하는 데 사용할 수도 있습니다. 온라인 캘린더와 공동 캘린더에는 반드시 프라이버시를 보호하는 솔루션을 사용해야 합니다.
 
-- **Groups and events:** When organizing groups or events, be careful to choose platforms that are privacy-respectful and don't require participants to register personal information. Keep in mind that if you only use Facebook groups, you are contributing to people staying on a privacy-invasive platform. If you only use a closed Meetup group, you are demanding people create an account and share their sensitive data in order to join. Instead, use privacy-respectful platforms such as [Mobilizon](https://mobilizon.org/) or [LAUTI](https://lauti.org/) for groups and events, [Discourse](https://www.discourse.org/) for forums, or simply use your own website to advertise in-person events.
+- **그룹과 행사:** 그룹이나 행사를 조직할 때는 프라이버시를 존중하고 참가자에게 개인정보 등록을 요구하지 않는 플랫폼을 신중하게 고르세요. 페이스북 그룹만 사용하면 사람들이 프라이버시 침해 플랫폼에 계속 머무르게 하는 데 기여하게 된다는 점을 기억하세요. 비공개 밋업 그룹만 사용한다면, 가입하려는 사람들에게 계정을 만들고 민감한 데이터를 공유하라고 요구하는 셈입니다. 대신 그룹과 행사에는 [모빌리존](https://mobilizon.org/)이나 [라우티](https://lauti.org/), 포럼에는 [디스코스](https://www.discourse.org/) 같은 프라이버시를 존중하는 플랫폼을 사용하거나, 오프라인 행사는 그냥 여러분의 웹사이트에서 홍보하세요.
 
-- **Website analytics and cookies:** If you own a website for your organization or for your individual advocacy, make sure to remove from it any [tracking technologies](https://blog.mozilla.org/en/firefox/cross-site-tracking-lets-unpack-that/) that could be sending your visitors' data to Google, Facebook, or other advertising corporations. You shouldn't need a cookie banner for your website, because _your website shouldn't use any non-essential cookies_. If you really need website analytics, try using a privacy-respectful alternative such as [Umami](https://umami.is/) or [Plausible Analytics](https://plausible.io/).
+- **웹사이트 분석 및 쿠키:** 단체나 개인 옹호 활동을 위한 웹사이트가 있다면, 방문자 데이터를 구글, 페이스북 또는 기타 광고 기업에 보낼 수 있는 [추적 기술](https://blog.mozilla.org/en/firefox/cross-site-tracking-lets-unpack-that/)을 모두 제거하세요. _웹사이트에 필수적이지 않은 쿠키를 사용해서는 안 되므로_, 웹사이트에 쿠키 배너가 필요하지 않아야 합니다. 웹사이트 분석이 꼭 필요하다면 [우마미](https://umami.is/)나 [플로저블 애널리틱스](https://plausible.io/) 같은 프라이버시를 존중하는 대안을 사용해 보세요.
 
-- **Smart devices:** Whether you are meeting with other advocates at home or organizing an event, make sure the location is free from Big Tech [surveillance devices](https://www.privacyguides.org/articles/2025/03/10/the-privacy-of-others/#notify-guests-if-you-are-using-a-smart-speaker) that might get easily forgotten. This may include a doorbell equipped with a camera, a smart speaker such as Amazon Echo, Google Home or Google Nest, or any other audio or video recording devices that is on. Physically unplug any such devices in the location _before_ guests arrive. If you cannot unplug them, at least provide a proper warning to any guests before they enter the location and the device collects their audio or video data.
+- **스마트 기기:** 집에서 다른 옹호자들을 만나든 행사를 조직하든, 깜빡 잊기 쉬운 빅테크의 [감시 기기](https://www.privacyguides.org/articles/2025/03/10/the-privacy-of-others/#notify-guests-if-you-are-using-a-smart-speaker)가 그 장소에 없는지 확인하세요. 여기에는 카메라가 달린 초인종, 아마존 에코나 구글 홈, 구글 네스트 같은 스마트 스피커, 그 밖에 켜져 있는 모든 오디오 또는 영상 녹화 기기가 포함될 수 있습니다. 손님이 도착하기 _전에_ 그 장소에 있는 이런 기기의 전원을 물리적으로 뽑아 두세요. 전원을 뽑을 수 없다면, 적어도 손님이 들어와 기기가 그들의 오디오나 영상 데이터를 수집하기 전에 적절히 알려 주세요.
 
-- **Usage of AI:** Be extremely careful if you are using AI platforms. Most current mainstream AI products will send at least some data or metadata to the company's remote server. This can create many privacy issues, ranging from mild to severe. Never use these products to upload data about another person without their _prior explicit consent_. Ideally, refrain from using any AI tools in your advocacy work entirely.
+- **AI 사용:** AI 플랫폼을 사용한다면 극도로 주의하세요. 현재 대부분의 주류 AI 제품은 최소한 일부 데이터나 메타데이터를 회사의 원격 서버로 보냅니다. 이는 가벼운 것부터 심각한 것까지 많은 프라이버시 문제를 일으킬 수 있습니다. 다른 사람의 _사전 명시적 동의_ 없이 그 사람에 관한 데이터를 이런 제품에 절대 업로드하지 마세요. 가장 좋은 방법은 옹호 활동에서 AI 도구를 아예 사용하지 않는 것입니다.
 
-- **Candidates data:** If your organization hires people, be mindful of how you handle candidates' data. Try to select privacy-respecting solutions such as email communication instead of using commercial platforms that might share candidates' data with third-parties. Only request the minimum information required from applicants, and always delete all data you are no longer required to keep as soon as you don't need it anymore.
+- **지원자 데이터:** 단체에서 사람을 채용한다면 지원자 데이터를 어떻게 다루는지 신경 쓰세요. 지원자 데이터를 제3자와 공유할 수 있는 상업 플랫폼 대신, 이메일 소통처럼 프라이버시를 존중하는 방법을 선택하세요. 지원자에게는 꼭 필요한 최소한의 정보만 요청하고, 더 이상 보관할 필요가 없는 데이터는 필요 없어지는 즉시 모두 삭제하세요.
 
-- **Availability:** Make sure you or your organization is reachable outside the Big Tech ecosystem. If your organization only has a Facebook page, then people without a Facebook account cannot reach out to you. The same is true for other commercial social media. Instead, try to rely on a website you control yourself, or a social network page you can host yourself.
+- **연락 가능성:** 빅테크 생태계 밖에서도 여러분이나 단체에 연락할 수 있도록 하세요. 단체에 페이스북 페이지만 있다면 페이스북 계정이 없는 사람은 연락할 수 없습니다. 다른 상업적 소셜 미디어도 마찬가지입니다. 대신 직접 관리하는 웹사이트나 직접 호스팅할 수 있는 소셜 네트워크 페이지를 활용하세요.
 
-- **[Social media](../../social-networks.md):** Move away from commercial social media platforms. Mainstream platforms are almost all abusing their users' data. By keeping an account there, you are indirectly encouraging your followers to stay there as well, perpetuating the platform's abuse.
+- **[소셜 미디어](../../social-networks.md):** 상업적 소셜 미디어 플랫폼에서 벗어나세요. 주류 플랫폼은 거의 모두 사용자 데이터를 남용하고 있습니다. 그곳에 계정을 유지하면 팔로워들도 그곳에 머무르도록 간접적으로 부추겨, 플랫폼의 남용을 지속시키게 됩니다.
 
-  While you may want to keep a minimal presence to advertise that you have now moved your activity to a more privacy-respectful platform, you should keep your engagement there to a minimum.
+  활동을 프라이버시를 더 존중하는 플랫폼으로 옮겼다는 사실을 알리기 위해 최소한의 존재감은 유지하고 싶을 수 있지만, 그곳에서의 활동은 최소한으로 줄여야 합니다.
 
-  Instead, migrate your advocacy work to better social networks that aren't abusing users' data, and encourage your followers to migrate with you. Choose and support a platform that is more aligned with your privacy values, such as [Mastodon](https://www.privacyguides.org/articles/2025/07/15/mastodon-privacy-and-security/) or any other open-source non-commercial applications connected to the [Fediverse](https://blog.elenarossini.com/fediverse-video/).
+  대신 사용자 데이터를 남용하지 않는 더 나은 소셜 네트워크로 옹호 활동을 옮기고, 팔로워들에게도 함께 옮기자고 권하세요. [마스토돈](https://www.privacyguides.org/articles/2025/07/15/mastodon-privacy-and-security/)이나 [페디버스](https://blog.elenarossini.com/fediverse-video/)에 연결된 다른 오픈 소스 비상업 애플리케이션처럼 여러분의 프라이버시 가치에 더 잘 맞는 플랫폼을 선택하고 지원하세요.
 
 </div>
 
-## More resources
+## 추가 자료
 
-- [Alternatives to Big Tech that have been vetted by our community (_Privacy Guides_)](../../tools.md)
+- [커뮤니티가 검증한 빅테크 대안 (_프라이버시 가이드_)](../../tools.md)
 
-- [Privacy-respecting European tech alternatives (_Privacy Guides_)](https://www.privacyguides.org/articles/2025/03/19/private-european-alternatives/)
+- [프라이버시를 존중하는 유럽 기술 대안 (_프라이버시 가이드_)](https://www.privacyguides.org/articles/2025/03/19/private-european-alternatives/)
 
-- [Helpful articles and tips to migrate out of Big Tech (_The Opt Out Project_)](https://www.optoutproject.net/)
+- [빅테크에서 벗어나는 데 도움이 되는 글과 팁 (_옵트 아웃 프로젝트_)](https://www.optoutproject.net/)
 
-- [More advices on how to improve your privacy if you are just getting started (_Privacy Guides_)](https://www.privacyguides.org/articles/2025/07/24/privacy-is-like-broccoli/#tools-and-services-you-can-start-using)
+- [이제 막 시작하는 분을 위한 프라이버시 개선 조언 (_프라이버시 가이드_)](https://www.privacyguides.org/articles/2025/07/24/privacy-is-like-broccoli/#tools-and-services-you-can-start-using)

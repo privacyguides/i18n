@@ -1,45 +1,45 @@
 ---
-title: Small Actions Matter
-description: There is so much to do to improve privacy rights. So much, that it's sometimes easy to feel discouraged. But everything helps, and even small action matters.
+title: 작은 행동도 중요합니다
+description: 프라이버시 권리를 개선하기 위해 할 일이 정말 많습니다. 너무 많아서 때로는 낙담하기 쉽습니다. 하지만 모든 것이 도움이 되며, 작은 행동도 중요합니다.
 icon: fontawesome/solid/puzzle-piece
 cover: activism/banner-toolbox-tip-small.webp
 ---
 
-There is so much to do in the movement for better privacy rights. So much, that it's sometimes easy to feel discouraged when facing the scale of what's left to accomplish. But **everything helps**. Every small improvement counts, and every small victory should be celebrated.
+더 나은 프라이버시 권리를 위한 운동에는 할 일이 정말 많습니다. 너무 많아서, 남은 일의 규모를 마주하면 때로는 낙담하기 쉽습니다. 하지만 **모든 것이 도움이 됩니다**. 작은 개선 하나하나가 의미 있으며, 작은 승리 하나하나를 축하해야 합니다.
 
-Even if you don't feel like you have the [energy](tip-take-time-to-rest.md) to move a mountain today, there are plenty of small actions you can do.
+오늘 산을 옮길 [힘](tip-take-time-to-rest.md)이 없다고 느껴지더라도, 할 수 있는 작은 행동은 얼마든지 있습니다.
 
-Moreover, you don't have to move this mountain alone! If you push on it a little today, and a thousand people join you tomorrow, then a thousand more the day after, this mountain will eventually move.
+게다가 이 산을 혼자 옮길 필요도 없습니다! 오늘 여러분이 조금 밀고, 내일 천 명이 함께하고, 그다음 날 또 천 명이 함께한다면 이 산은 결국 움직일 것입니다.
 
-Here's why every action and each victory matter, no matter how small:
+아무리 작더라도 모든 행동과 모든 승리가 중요한 이유는 다음과 같습니다:
 
-## Small actions cumulate over time, and with numbers
+## 작은 행동은 시간이 지나고 사람이 모이면 쌓입니다
 
-Discouragement often emerges from envisioning too much of what's left to do at once. While it's important to [expand your perspective](tip-dont-stop-at-individual-solutions.md), when it comes to action, it's also important to segment the task at hand into smaller bites.
+낙담은 남은 일을 한꺼번에 너무 많이 떠올릴 때 생기는 경우가 많습니다. [시야를 넓히는 것](tip-dont-stop-at-individual-solutions.md)도 중요하지만, 행동할 때는 당면한 과제를 작게 나누는 것도 중요합니다.
 
-Even if you do not have the resources to organize a large campaign around a privacy issue, do not minimize the power that you have.
+프라이버시 문제를 두고 큰 캠페인을 조직할 자원이 없더라도, 여러분이 가진 힘을 과소평가하지 마세요.
 
-All the ==small contributions you can make will culminate over time==, and end up having a significant impact overall.
+여러분이 할 수 있는 ==작은 기여들은 시간이 지나면서 쌓여==, 결국 전체적으로 큰 영향을 미치게 됩니다.
 
-Additionally, you are [not alone](tip-lift-your-allies-up.md) in this battle. If you can make a small contribution today, and perhaps convince one or two other advocates to do the same, you have already contributed significantly to the movement.
+게다가 이 싸움에서 여러분은 [혼자가 아닙니다](tip-lift-your-allies-up.md). 오늘 작은 기여를 하고, 다른 옹호자 한두 명에게도 함께하자고 설득할 수 있다면, 여러분은 이미 운동에 크게 기여한 것입니다.
 
-## Divide your big ideas in small bites
+## 큰 아이디어는 작게 나누세요
 
-Whenever you have a big idea to attack a privacy issue, make sure to [plan out your action](https://commonslibrary.org/effective-activist-strategic-plans/) by splitting up the task over time, and delegating to allies.
+프라이버시 문제에 맞설 큰 아이디어가 있다면, 과제를 시간에 따라 나누고 동료들에게 맡겨 [행동 계획을 세우세요](https://commonslibrary.org/effective-activist-strategic-plans/).
 
-For example, if you want to organize a petition, perhaps ask one person to help with the website infrastructure, another with the design, another with the text, and another with the backend. Then, instead of trying to collect one million signatures by yourself, try to find allies and ask if they can help collect a few signatures each. Multiply your small impact by delegating to many.
+예를 들어 청원을 조직하고 싶다면, 한 사람에게는 웹사이트 인프라를, 다른 사람에게는 디자인을, 또 다른 사람에게는 문구를, 또 다른 사람에게는 백엔드를 도와 달라고 부탁할 수 있습니다. 그런 다음 혼자서 서명 백만 개를 모으려 하기보다는, 동료들을 찾아 각자 몇 명씩 서명을 받아 줄 수 있는지 물어보세요. 많은 사람에게 나눠 맡겨 여러분의 작은 영향력을 몇 배로 늘리세요.
 
-Each person who signs the petition is contributing their own small action. Each person who helps spread the word about the petition is adding another small action. And each person who contributes to promoting the petition on their own channels helps as well. All this counts, and it all matters.
+청원에 서명하는 사람 한 명 한 명이 자신만의 작은 행동을 보태는 것입니다. 청원을 널리 알리는 사람 한 명 한 명이 또 하나의 작은 행동을 더합니다. 그리고 자신의 채널에서 청원을 홍보하는 사람 한 명 한 명도 힘이 됩니다. 이 모든 것이 쌓이고, 이 모든 것이 중요합니다.
 
-What can seem like a large project at first can become much more realistic and manageable after delegating and splitting up the tasks.
+처음에는 거대한 프로젝트처럼 보였던 일도 일을 나누고 맡기고 나면 훨씬 현실적이고 감당할 만해집니다.
 
-## Evaluate your resources, and see what's possible within these limitations
+## 가진 자원을 따져 보고, 그 한계 안에서 무엇이 가능한지 살펴보세요
 
-What you can accomplish will, of course, depend on the resources you have access to. If you are an individual, or a small organization with a very tight budget, you will not be able to commit as many resources as a large organization with lots of employees and stable funding.
+물론 여러분이 해낼 수 있는 일은 이용할 수 있는 자원에 따라 달라집니다. 개인이나 예산이 아주 빠듯한 작은 단체라면, 직원이 많고 자금이 안정적인 큰 단체만큼 자원을 투입할 수는 없을 것입니다.
 
-But regardless of the resources you have, there's always something you can do to contribute.
+하지만 가진 자원과 상관없이 기여할 수 있는 일은 언제나 있습니다.
 
-Here are examples of some actions you might be able to do, from small tasks to larger projects:
+작은 일부터 큰 프로젝트까지, 여러분이 할 수 있는 행동의 예는 다음과 같습니다:
 
 <style>
 .emoji-list-a ul {
@@ -53,32 +53,32 @@ Here are examples of some actions you might be able to do, from small tasks to l
 
 <div class="emoji-list-a" markdown>
 
-- Sign a petition related to an ongoing privacy issue, and encourage others to do the same.
+- 진행 중인 프라이버시 문제와 관련된 청원에 서명하고, 다른 사람들에게도 권하세요.
 
-- Write a social media post about an ongoing campaign from a digital rights organization you care about.
+- 관심 있는 디지털 권리 단체가 진행 중인 캠페인에 대해 소셜 미디어 게시물을 쓰세요.
 
-- Write a social media post about an ongoing privacy issue you care about.
+- 관심 있는 진행 중인 프라이버시 문제에 대해 소셜 미디어 게시물을 쓰세요.
 
-- Contact your local representatives to tell them how privacy rights are important to you or your organization.
+- 지역 대표자에게 연락해 프라이버시 권리가 여러분이나 여러분의 단체에 얼마나 중요한지 알리세요.
 
-- Donate to a privacy organization and promote a privacy project you like.
+- 프라이버시 단체에 기부하고, 마음에 드는 프라이버시 프로젝트를 홍보하세요.
 
-- Contribute to a privacy project you like that is looking for volunteers.
+- 자원봉사자를 찾고 있는, 마음에 드는 프라이버시 프로젝트에 기여하세요.
 
-- Build a web page to inform the public on a privacy issue (e.g. [Patrick Breyer's Chat Control page](https://www.patrick-breyer.de/en/posts/chat-control/)).
+- 프라이버시 문제를 대중에게 알리는 웹페이지를 만드세요(예: [파트릭 브라이어의 챗 컨트롤 페이지](https://www.patrick-breyer.de/en/posts/chat-control/)).
 
-- Build a web form or application to inform the public and facilitate taking action against a specific privacy issue (e.g. [Fight Chat Control](https://fightchatcontrol.eu/), [Stop Online ID Checks](https://www.stoponlineidchecks.org/)).
+- 특정 프라이버시 문제를 대중에게 알리고 이에 맞선 행동을 쉽게 할 수 있도록 웹 양식이나 애플리케이션을 만드세요(예: [파이트 챗 컨트롤](https://fightchatcontrol.eu/), [스톱 온라인 ID 체크](https://www.stoponlineidchecks.org/)).
 
-- Find organizations sharing your values to sign a public joint statement about an ongoing privacy issue.
+- 진행 중인 프라이버시 문제에 관한 공동 성명에 서명할, 여러분과 가치를 공유하는 단체를 찾아보세요.
 
-- Read more on small and big [tactics you can use for your privacy activism](https://activisthandbook.org/tactics#list-of-tactics) from the Activist Handbook.
+- 액티비스트 핸드북에서 [프라이버시 활동에 활용할 수 있는 전술](https://activisthandbook.org/tactics#list-of-tactics)을 크고 작은 것까지 더 읽어 보세요.
 
 </div>
 
-## More resources
+## 추가 자료
 
-- [Privacy is not dead: Beware the all-or-nothing mindset (_Privacy Guides_)](https://www.privacyguides.org/articles/2025/02/17/privacy-is-not-dead/)
+- [프라이버시는 죽지 않았습니다: 전부 아니면 전무라는 사고방식을 경계하세요 (_프라이버시 가이드_)](https://www.privacyguides.org/articles/2025/02/17/privacy-is-not-dead/)
 
-- [Learn about Points of Intervention to better plan and divide your actions (_The Commons Social Change Library_)](https://commonslibrary.org/points-of-intervention/)
+- [행동을 더 잘 계획하고 나누기 위한 '개입 지점' 알아보기 (_커먼스 소셜 체인지 라이브러리_)](https://commonslibrary.org/points-of-intervention/)
 
-- [Social change myths: What is a movement (_The Commons Social Change Library_)](https://commonslibrary.org/social-change-myths/)
+- [사회 변화에 관한 통념: 운동이란 무엇인가 (_커먼스 소셜 체인지 라이브러리_)](https://commonslibrary.org/social-change-myths/)

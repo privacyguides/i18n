@@ -1,45 +1,45 @@
 ---
-title: Report Privacy Violations
-description: Submitting an official complaint for violation of your privacy rights is often simple, and can have a significant positive impact for your community.
+title: 프라이버시 침해 신고하기
+description: 프라이버시 권리 침해에 대해 공식 민원을 제출하는 것은 대개 간단하며, 커뮤니티에 큰 긍정적 영향을 미칠 수 있습니다.
 icon: fontawesome/solid/gavel
 cover: activism/banner-toolbox-tip-report.webp
 ---
 
-Once you are [informed on your local privacy laws](tip-know-your-privacy-laws.md), it's important to get familiar with the process to **report violations of the law**. Submitting an official complaint is often simple, and can have a significant impact both for yourself and for your community.
+[지역의 개인정보 보호법을 파악했다면](tip-know-your-privacy-laws.md), **법 위반 사항을 신고하는** 절차를 익혀 두는 것이 중요합니다. 공식 민원을 제출하는 것은 대개 간단하며, 여러분 자신과 커뮤니티 모두에 큰 영향을 미칠 수 있습니다.
 
-Here's why and how you should report violations of your local privacy laws:
+지역 개인정보 보호법 위반을 신고해야 하는 이유와 방법은 다음과 같습니다:
 
 <div class="admonition note" markdown>
-<p class="admonition-title">International variations</p>
+<p class="admonition-title">국가별 차이</p>
 
-There are hundreds of privacy regulations currently in effect in the world. Moreover, each country might have multiple privacy laws protecting different regions/states/provinces, and different types of data (health data, children's data, employees' data, etc.).
+현재 전 세계에는 수백 개의 프라이버시 규정이 시행되고 있습니다. 게다가 국가마다 서로 다른 지역/주/도, 그리고 서로 다른 유형의 데이터(건강 데이터, 아동 데이터, 직원 데이터 등)를 보호하는 여러 개인정보 보호법을 두고 있을 수 있습니다.
 
-This tip cannot cover each regulation individually. There will be variations for each privacy law applicable. Read this tip as a general advice and a starting point to guide you through your own regional research.
+이 팁에서 각 규정을 하나하나 다룰 수는 없습니다. 적용되는 개인정보 보호법마다 차이가 있을 것입니다. 이 팁은 일반적인 조언이자 여러분 지역에 대한 조사를 시작하는 출발점으로 읽어 주세요.
 
 </div>
 
-## Why reporting violations matters
+## 위반 신고가 중요한 이유
 
-For many (if not most) privacy regulations, there isn't a mechanism to systematically audit every single organization collecting data from people located in its jurisdiction.
+많은(어쩌면 대부분의) 프라이버시 규정에는 관할권 내 사람들의 데이터를 수집하는 모든 조직을 체계적으로 감사하는 장치가 없습니다.
 
-Unless the enforcing authority decides to investigate an especially important abuse, the process often relies on individual complaints reporting violations of [**data subject**](tip-know-your-privacy-laws.md#where-is-the-data-subject) rights in order to trigger an investigation.
+집행 기관이 특히 중대한 남용 사례를 직접 조사하기로 하지 않는 한, 조사는 대개 [**정보 주체**](tip-know-your-privacy-laws.md#where-is-the-data-subject)의 권리 침해를 신고하는 개인 민원을 계기로 시작됩니다.
 
-If you believe that your privacy rights have been violated by an organization, infringing your local privacy regulations, you can likely report this violation to the entity responsible for enforcing the law, the **Data Protection Authority** (DPA).
+어떤 조직이 지역의 프라이버시 규정을 어기고 여러분의 프라이버시 권리를 침해했다고 생각한다면, 법 집행을 담당하는 기관인 **데이터 보호 기관**(DPA)에 신고할 수 있을 것입니다.
 
 <div class="admonition info inline end" markdown>
-<p class="admonition-title">What is a Data Protection Authority?</p>
+<p class="admonition-title">데이터 보호 기관이란 무엇인가요?</p>
 
-Again, different laws might use different terms for this, depending on the region. For example, in Canada the enforcing authority for a privacy law is often called a _Privacy Commissioner_. In Europe, the term used is a _Data Protection Authority_. In the state of California in the United States, the entity responsible for enforcing the California Consumer Privacy Act (CCPA) is the _California Privacy Protection Agency_.
+이 역시 지역에 따라 법률마다 다른 용어를 쓸 수 있습니다. 예를 들어 캐나다에서는 개인정보 보호법의 집행 기관을 흔히 _프라이버시 커미셔너_(Privacy Commissioner)라고 부릅니다. 유럽에서는 _데이터 보호 기관_(Data Protection Authority)이라는 용어를 씁니다. 미국 캘리포니아주에서는 캘리포니아 소비자 프라이버시법(CCPA)의 집행을 담당하는 기관이 _캘리포니아 개인정보 보호국_(California Privacy Protection Agency)입니다.
 
-This text will use **Data Protection Authority** or **DPA** as an umbrella term to refer to any authorities mandated to enforce a privacy regulation.
+이 글에서는 프라이버시 규정 집행 권한을 가진 모든 기관을 아우르는 용어로 **데이터 보호 기관** 또는 **DPA**를 사용합니다.
 
 </div>
 
-Reporting even small violations can help improve privacy rights not only for yourself but for everyone else as well.
+작은 위반이라도 신고하면 여러분 자신뿐만 아니라 다른 모든 사람의 프라이버시 권리를 개선하는 데 도움이 될 수 있습니다.
 
-Often, reporting is simple and can make a big difference down the line, especially in number.
+신고는 대개 간단하며, 특히 신고가 많이 모이면 장기적으로 큰 차이를 만들 수 있습니다.
 
-Once an organization is ordered to bring corrective changes or is sanctioned for malpractice by a DPA, this can have many beneficial effects at the individual and collective level:
+DPA가 어떤 조직에 시정 명령을 내리거나 부적절한 관행에 대해 제재를 가하면, 개인과 집단 차원에서 여러 긍정적인 효과가 생길 수 있습니다:
 
 <style>
 .emoji-list-a ul {
@@ -53,72 +53,72 @@ Once an organization is ordered to bring corrective changes or is sanctioned for
 
 <div class="emoji-list-a" markdown>
 
-- A delinquent organization might be mandated by law to correct the problem. For example, a company without a clear privacy policy might be ordered to publish one.
+- 위반한 조직은 법에 따라 문제를 바로잡도록 명령받을 수 있습니다. 예를 들어 명확한 개인정보 처리방침이 없는 회사는 처리방침을 게시하라는 명령을 받을 수 있습니다.
 
-- You might be able to get personal data that you were unable to delete before finally deleted with the help of your DPA (and similarly for access requests).
+- 이전에 삭제할 수 없었던 개인 데이터를 DPA의 도움으로 마침내 삭제할 수 있을지도 모릅니다(열람 요청도 마찬가지입니다).
 
-- An abusive organization might be banned from operating in your country entirely.
+- 남용적인 조직은 여러분의 나라에서 아예 영업이 금지될 수도 있습니다.
 
-- Individual complaints can create a legal precedent that could speed up enforcement for similar violations in the future.
+- 개인 민원은 법적 선례가 되어 앞으로 비슷한 위반에 대한 법 집행을 앞당길 수 있습니다.
 
-- Strong sanctions that are made public can send a powerful warning to other organizations to avoid making the same mistakes, and adopt corrective privacy-protective measures preventively.
+- 공개된 강력한 제재는 다른 조직에 같은 실수를 저지르지 말고 프라이버시 보호 조치를 미리 갖추라는 강력한 경고가 될 수 있습니다.
 
-- Cases and sanctions that are publicized can notify the public about potential problems, and potential solutions.
+- 사건과 제재가 알려지면 대중에게 잠재적인 문제와 해결책을 알릴 수 있습니다.
 
-- If a DPA receives multiple complaints targeting a single organization, they might decide to launch a larger investigation and order the organization to improve its privacy practices more broadly.
+- DPA가 한 조직을 대상으로 여러 건의 민원을 받으면, 더 큰 조사에 착수해 그 조직에 프라이버시 관행을 전반적으로 개선하라고 명령할 수도 있습니다.
 
 </div>
 
-## When you can report a violation
+## 위반을 신고할 수 있는 경우
 
-You can **submit a complaint** any time your local privacy rights have been violated by an organization required to comply with the law, and you weren't able to resolve the issue on your own.
+법을 준수할 의무가 있는 조직이 지역 법에 따른 여러분의 프라이버시 권리를 침해했고 스스로 문제를 해결하지 못했다면, 언제든 **민원을 제출할** 수 있습니다.
 
-To report a privacy law violation, first ask yourself these questions:
+개인정보 보호법 위반을 신고하려면 먼저 스스로에게 다음 질문을 던져 보세요:
 
-- [x] Following the criteria described in your local privacy regulation, is the organization obligated to comply with this law?
+- [x] 지역 프라이버시 규정에 명시된 기준에 따라, 해당 조직은 이 법을 준수할 의무가 있나요?
 
-- [x] Is your affected information considered _personal information_ under the law?
+- [x] 영향을 받은 여러분의 정보가 법에서 말하는 _개인정&#xBCF4;_&#xC5D0; 해당하나요?
 
-- [x] Which article(s) of the law has the organization breached?
+- [x] 해당 조직은 법의 어떤 조항을 위반했나요?
 
-When in doubt, never hesitate to send any questions you have to your local DPA.
+확실하지 않을 때는 주저하지 말고 지역 DPA에 질문을 보내세요.
 
-The people working at your local DPA are the best specialists to contact to get the most accurate information specific to your local privacy protections.
+지역 프라이버시 보호에 관한 가장 정확한 정보를 얻으려면, 지역 DPA에서 일하는 사람들이 가장 좋은 전문가입니다.
 
-## How to report a violation
+## 위반을 신고하는 방법
 
-Most regulations will have a clear process to submit an official complaint.
+대부분의 규정에는 공식 민원을 제출하는 명확한 절차가 마련되어 있습니다.
 
-Once you've found the official documentation for your local privacy law(s), read through it to find who is responsible for enforcing the law (who is your DPA), and what the complaint process is.
+지역 개인정보 보호법의 공식 문서를 찾았다면, 꼼꼼히 읽고 누가 법 집행을 담당하는지(여러분의 DPA가 어디인지)와 민원 절차가 어떻게 되는지 확인하세요.
 
 <div class="admonition success" markdown>
-<p class="admonition-title">Finding your local privacy law and enforcement authority</p>
+<p class="admonition-title">지역 개인정보 보호법과 집행 기관 찾기</p>
 
-To help you find the official documentation for your local privacy law, the authority mandated to enforce it, and the contact links to ask questions or place a complaint, Privacy Guides has put together this handy [DPA Directory](../legal/dpa-directory.md).
+지역 개인정보 보호법의 공식 문서, 집행 권한을 가진 기관, 문의하거나 민원을 제기할 수 있는 연락처 링크를 쉽게 찾을 수 있도록 프라이버시 가이드에서 편리한 [DPA 디렉터리](../legal/dpa-directory.md)를 마련했습니다.
 
 </div>
 
-Before submitting a complaint, you may want to:
+민원을 제출하기 전에 다음을 해 두면 좋습니다:
 
-### 1. Document everything you can
+### 1. 가능한 모든 것을 기록하세요
 
-Try to collect as much information as possible to support your case.
+여러분의 주장을 뒷받침할 수 있는 정보를 최대한 많이 모으세요.
 
-Save copies of your email communication with the organization, take screenshots of the organization's chatbot replies to you, print to PDF the organization's privacy policy, etc.
+조직과 주고받은 이메일 사본을 저장하고, 조직의 챗봇이 보낸 답변을 스크린숏으로 남기고, 조직의 개인정보 처리방침을 PDF로 저장하는 식입니다.
 
-### 2. Try contacting the organization directly
+### 2. 먼저 조직에 직접 연락해 보세요
 
-Depending on the context and violation, some legislations will require that you first contact the organization to attempt to resolve the problem directly.
+상황과 위반 내용에 따라, 일부 법률에서는 먼저 조직에 연락해 직접 문제를 해결하려고 시도할 것을 요구합니다.
 
-For example, let's say you want to delete your account's data but cannot find a way to do this within the application. You could then contact the organization's _privacy officer_ to request data deletion. If you don't receive any replies after a certain number of days (usually around 30 or 45 days, depending on regulations), you can then submit a complaint to your DPA to help you resolve this issue, if your local laws include a [Right to Erasure/Delete](https://gdpr-info.eu/art-17-gdpr/) or equivalent.
+예를 들어 계정 데이터를 삭제하고 싶은데 애플리케이션 안에서 방법을 찾을 수 없다고 해 봅시다. 그럴 때는 조직의 _개인정보 보호 책임&#xC790;_&#xC5D0;게 연락해 데이터 삭제를 요청할 수 있습니다. 일정 기간(규정에 따라 보통 30일 또는 45일 정도) 동안 아무 답변도 받지 못했다면, 지역 법에 [삭제권](https://gdpr-info.eu/art-17-gdpr/) 또는 이에 상응하는 권리가 있는 경우 DPA에 민원을 제출해 문제 해결에 도움을 받을 수 있습니다.
 
-This is applicable for any other data subject rights.
+이는 다른 모든 정보 주체의 권리에도 똑같이 적용됩니다.
 
-### 3. File an official complaint with your Data Protection Authority
+### 3. 데이터 보호 기관에 공식 민원을 제출하세요
 
-On the website of your local DPA, you should be able to find either a form to submit a complaint or an email address you can contact with the details.
+지역 DPA 웹사이트에서 민원 제출 양식이나, 세부 내용을 보낼 수 있는 이메일 주소를 찾을 수 있을 것입니다.
 
-When sending an official complaint, make sure to:
+공식 민원을 보낼 때는 다음 사항을 꼭 지키세요:
 
 <style>
 .emoji-list-b ul {
@@ -132,23 +132,23 @@ When sending an official complaint, make sure to:
 
 <div class="emoji-list-b" markdown>
 
-- Follow the complaint process as described in the law or on the DPA's website.
+- 법이나 DPA 웹사이트에 안내된 민원 절차를 따르세요.
 
-- Have the name and contact information of the organization you want to report.
+- 신고하려는 조직의 이름과 연락처를 준비하세요.
 
-- Have a precise summary of the privacy violation and the steps you have taken so far to try resolving the issue.
+- 프라이버시 침해 내용과 지금까지 문제를 해결하기 위해 취한 조치를 정확하게 요약해 두세요.
 
-- Be mindful of the information you share in your complaint.
+- 민원에 담는 정보에 신경 쓰세요.
 
-  This information could get shared with the organization you are complaining against, or even partially published later on. Read the DPA's privacy policy about complaint information, and do not hesitate to ask your DPA questions from an anonymous email address beforehand if needed.
+  이 정보는 여러분이 민원을 제기한 조직과 공유되거나, 나중에 일부 공개될 수도 있습니다. 민원 정보에 관한 DPA의 개인정보 처리방침을 읽어 보고, 필요하다면 미리 익명 이메일 주소로 DPA에 주저 없이 문의하세요.
 
-- Be ready to share additional evidences if your DPA requests it.
+- DPA가 요청하면 추가 증거를 제출할 수 있도록 준비해 두세요.
 
-  This might include screenshots of the infraction, email communication with the delinquent organization, link to the organization's privacy policy, or any other evidences related to your case.
+  위반 사항의 스크린숏, 위반 조직과 주고받은 이메일, 조직의 개인정보 처리방침 링크 등 사건과 관련된 모든 증거가 여기에 포함될 수 있습니다.
 
 </div>
 
-## More resources
+## 추가 자료
 
 <style>
 .emoji-list-c ul {
@@ -162,13 +162,13 @@ When sending an official complaint, make sure to:
 
 <div class="emoji-list-c" markdown>
 
-- [Privacy Laws and Data Protection Authority Directory (_Privacy Guides_)](../legal/dpa-directory.md)
+- [개인정보 보호법 및 데이터 보호 기관 디렉터리 (_프라이버시 가이드_)](../legal/dpa-directory.md)
 
-- [European Union Member States Data Protection Authorities - List and Map (_EDPB_)](https://www.edpb.europa.eu/about-edpb/about-edpb/members_en)
+- [유럽연합 회원국 데이터 보호 기관 목록 및 지도 (_유럽 데이터 보호 위원회_)](https://www.edpb.europa.eu/about-edpb/about-edpb/members_en)
 
 </div>
 
-### Complaint form and process examples (region/law/DPA)
+### 민원 양식 및 절차 예시 (지역/법률/DPA)
 
 <style>
 .emoji-list-d ul {
@@ -182,22 +182,22 @@ When sending an official complaint, make sure to:
 
 <div class="emoji-list-d" markdown>
 
-- [Australia (Privacy Act): Office of the Australian Information Commissioner](https://www.oaic.gov.au/privacy/privacy-complaints/lodge-a-privacy-complaint-with-us)
+- [호주(프라이버시법): 호주 정보위원회 사무국](https://www.oaic.gov.au/privacy/privacy-complaints/lodge-a-privacy-complaint-with-us)
 
-- [Canada (PIPEDA): Office of the Privacy Commissioner of Canada](https://www.priv.gc.ca/en/report-a-concern/file-a-formal-privacy-complaint/)
+- [캐나다(PIPEDA): 캐나다 프라이버시 커미셔너 사무국](https://www.priv.gc.ca/en/report-a-concern/file-a-formal-privacy-complaint/)
 
-- [Canada-Quebec (Law 25): Commission d’accès à l’information du Québec](https://formulaire.cai.gouv.qc.ca/)
+- [캐나다-퀘벡(법률 25호): 퀘벡 정보접근위원회](https://formulaire.cai.gouv.qc.ca/)
 
-- [France (GDPR): Commission Nationale de l’Informatique et des Libertés](https://www.cnil.fr/fr/plaintes)
+- [프랑스(GDPR): 국가정보자유위원회](https://www.cnil.fr/fr/plaintes)
 
-- [Ireland (GDPR): Data Protection Commission](https://www.dataprotection.ie/en/individuals/exercising-your-rights/raising-concern-commission)
+- [아일랜드(GDPR): 데이터 보호 위원회](https://www.dataprotection.ie/en/individuals/exercising-your-rights/raising-concern-commission)
 
-- [Nigeria (NDPA): Nigeria Data Protection Commission](https://services.ndpc.gov.ng/breach/)
+- [나이지리아(NDPA): 나이지리아 데이터 보호 위원회](https://services.ndpc.gov.ng/breach/)
 
-- [United Kingdom (UK GDPR): Information Commissioner's Office](https://ico.org.uk/make-a-complaint/data-protection-complaints/)
+- [영국(UK GDPR): 정보위원회 사무국](https://ico.org.uk/make-a-complaint/data-protection-complaints/)
 
-- [United States-California (CCPA): California Privacy Protection Agency](https://www.cppa.ca.gov/webapplications/complaint)
+- [미국-캘리포니아(CCPA): 캘리포니아 개인정보 보호국](https://www.cppa.ca.gov/webapplications/complaint)
 
-- [United States-Texas (TDPSA): Office of the Attorney General](https://consumerprotection.texasattorneygeneral.gov/consumercomplaintportal/s/)
+- [미국-텍사스(TDPSA): 텍사스주 법무장관실](https://consumerprotection.texasattorneygeneral.gov/consumercomplaintportal/s/)
 
 </div>

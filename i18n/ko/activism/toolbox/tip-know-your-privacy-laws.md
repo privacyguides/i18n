@@ -1,65 +1,65 @@
 ---
-title: Know Your Privacy Laws
-description: Being well-informed about the data protection regulations in your own jurisdiction can be a significant asset in your battles for better privacy rights.
+title: 개인정보 보호법 알기
+description: 자신이 속한 관할권의 데이터 보호 규정을 잘 알고 있으면, 더 나은 프라이버시 권리를 위한 싸움에서 큰 자산이 될 수 있습니다.
 icon: fontawesome/solid/balance-scale
 cover: activism/banner-toolbox-tip-laws.webp
 ---
 
-Being well-informed about the **data protection regulations** in your own jurisdiction can be a significant asset for your personal and collective battles to improve privacy, for yourself and for others.
+자신이 속한 관할권의 **데이터 보호 규정**을 잘 알고 있으면, 자신과 다른 사람의 프라이버시를 개선하기 위한 개인적·집단적 싸움에서 큰 자산이 될 수 있습니다.
 
-Unfortunately, many people lucky enough to live in jurisdictions benefiting from such regulations often aren't aware of them, or of how to use them.
+안타깝게도 운 좋게 이런 규정의 혜택을 받는 관할권에 사는 많은 사람이 그 존재나 활용 방법을 모르는 경우가 많습니다.
 
-Here's what to look for when searching information about your local privacy laws:
+지역의 개인정보 보호법에 관한 정보를 찾을 때 살펴봐야 할 점은 다음과 같습니다:
 
-## Where is the data subject
+## 정보 주체가 있는 곳
 
-For most privacy regulations, legal protections will be applicable to **data subjects** who are citizens or reside in a specific region or country.
+대부분의 프라이버시 규정에서 법적 보호는 특정 지역이나 국가의 시민이거나 그곳에 거주하는 **정보 주체**에게 적용됩니다.
 
 <div class="admonition info inline end" markdown>
-<p class="admonition-title">What is a data subject?</p>
+<p class="admonition-title">정보 주체란 무엇인가요?</p>
 
-Different laws might use different terms for this. Sometimes, a regulation might simply refer to a _person_, an _individual_, a _consumer_, a _patient_, or a _customer_.
+법률마다 이를 가리키는 용어가 다를 수 있습니다. 어떤 규정은 단순히 _사람_, _개인_, _소비자_, _환자_, _고&#xAC1D;_&#xC774;라고 부르기도 합니다.
 
-Other times, the equivalent expression used will be a _data subject_.
+또 어떤 경우에는 이에 해당하는 표현으로 _정보 주&#xCCB4;_&#xB97C; 사용합니다.
 
-A data subject is simply anyone from whom personal information is collected by an organization. **Data subject** will be used as an umbrella term on this page.
+정보 주체란 간단히 말해 조직이 개인정보를 수집하는 대상이 되는 모든 사람을 말합니다. 이 페이지에서는 **정보 주체**를 이 모두를 아우르는 용어로 사용합니다.
 
 </div>
 
-Contrary to what many believe, it's generally _your_ local regulations that protect you, regardless of where the organization collecting your personal data is located (in addition, organizations are also subjected to their own local regulations).
+많은 사람이 생각하는 것과 달리, 개인정보를 수집하는 조직이 어디에 있든 일반적으로 여러분을 보호하는 것은 _여러분이 사는 &#xACF3;_&#xC758; 규정입니다(아울러 조직은 조직이 위치한 지역의 규정도 따라야 합니다).
 
-Organizations that meet the data subject's local privacy law criteria are legally bound to comply with the laws of each region or country where their data subjects are residing (i.e. where they are conducting business).
+정보 주체가 사는 지역의 개인정보 보호법 기준에 해당하는 조직은, 정보 주체가 거주하는 각 지역이나 국가(즉, 그 조직이 사업을 하는 곳)의 법을 준수할 법적 의무가 있습니다.
 
-There are a lot of nuances and regional variations to this, but in general you should focus on _where_ the data subject is residing.
+여기에는 세부적인 차이와 지역별 편차가 많지만, 일반적으로는 정보 주체가 _어디에_ 거주하는지에 초점을 맞추면 됩니다.
 
-## Finding your local regulations
+## 지역 규정 찾기
 
-If your jurisdiction is protected by one or more privacy laws, it should be relatively easy to find this information online.
+여러분의 관할권이 하나 이상의 개인정보 보호법으로 보호받고 있다면, 온라인에서 비교적 쉽게 관련 정보를 찾을 수 있을 것입니다.
 
-To start your research, you can look at [Privacy Guides' DPA Directory](../legal/dpa-directory.md) and check if your region is listed there. If it is, you will see what is the main consumer privacy law for this region, and you can click on the link to learn more about it.
+조사를 시작할 때는 [프라이버시 가이드의 DPA 디렉터리](../legal/dpa-directory.md)를 보고 여러분의 지역이 등재되어 있는지 확인해 보세요. 등재되어 있다면 해당 지역의 주요 소비자 개인정보 보호법이 무엇인지 확인할 수 있으며, 링크를 클릭해 더 자세히 알아볼 수 있습니다.
 
-If your region isn't listed in our DPA Directory, or if you are looking for another more specific privacy-related law, you should be able to find this information online simply using a [trustworthy search engine](../../search-engines.md). Look for keywords with your location (be specific about country + states/provinces/region) and "privacy laws" or "data protection regulations."
+여러분의 지역이 DPA 디렉터리에 없거나 더 구체적인 다른 프라이버시 관련 법률을 찾고 있다면, [신뢰할 수 있는 검색 엔진](../../search-engines.md)만 사용해도 온라인에서 정보를 찾을 수 있을 것입니다. 여러분의 위치(국가와 주/도/지역까지 구체적으로)와 함께 "개인정보 보호법"이나 "데이터 보호 규정" 같은 키워드로 검색하세요.
 
-Always make sure to find a result that is from an official government source.
+반드시 정부의 공식 출처에서 나온 결과인지 확인하세요.
 
 <div class="admonition warning inline end" markdown>
-<p class="admonition-title">Beware of AI-generated information!</p>
+<p class="admonition-title">AI가 생성한 정보를 조심하세요!</p>
 
-Be careful to research this _without_ using an automated chatbot or AI-generated information. These tools can have a high error rate, and the information displayed might not be reliable. Be sure to find the official government documentation in order to get the proper _legal_ information.
+자동화된 챗봇이나 AI가 생성한 정보를 _사용하지 않고_ 조사하도록 주의하세요. 이런 도구는 오류율이 높을 수 있고, 보여 주는 정보를 신뢰하기 어려울 수 있습니다. 정확한 _법률_ 정보를 얻으려면 반드시 정부의 공식 문서를 찾아보세요.
 
 </div>
 
-While researching about your privacy protections, keep in mind that:
+프라이버시 보호에 대해 조사할 때는 다음 사항을 염두에 두세요:
 
-- [x] You might benefit from multiple privacy laws at once. For example, many regions have separate regulations specifically designed to protect health data, children's data, or employees' data.
+- [x] 여러 개인정보 보호법의 혜택을 동시에 받을 수도 있습니다. 예를 들어 많은 지역에서는 건강 데이터, 아동 데이터, 직원 데이터를 보호하기 위한 별도의 규정을 두고 있습니다.
 
-- [x] You might benefit from protections by different government levels at once, such as federal, provincial, state level, etc. Look for them all!
+- [x] 연방, 주, 도 등 여러 정부 단위의 보호를 동시에 받을 수도 있습니다. 모두 찾아보세요!
 
-- [ ] Your region might unfortunately not be protected by any significant privacy regulations at this time. If this is the case for you: It's time to contact your local representatives and advocate for a local privacy law!
+- [ ] 안타깝게도 여러분의 지역에는 현재 이렇다 할 프라이버시 규정이 없을 수도 있습니다. 그런 경우라면 지금이 바로 지역 대표자에게 연락해 지역 개인정보 보호법 제정을 촉구할 때입니다!
 
-## What to look for in a privacy law
+## 개인정보 보호법에서 살펴봐야 할 점
 
-Once you've found the official governmental documentation describing the data protection regulation that applies to your region, read it carefully to find:
+여러분의 지역에 적용되는 데이터 보호 규정을 설명하는 정부 공식 문서를 찾았다면, 꼼꼼히 읽고 다음 사항을 확인하세요:
 
 <style>
 .emoji-list-a ul {
@@ -73,26 +73,26 @@ Once you've found the official governmental documentation describing the data pr
 
 <div class="emoji-list-a" markdown>
 
-- Who is protected by the law, and in which situations?
+- 법은 누구를, 어떤 상황에서 보호하나요?
 
-- Which types of organizations are bound to comply with the law?
+- 어떤 유형의 조직이 법을 준수할 의무가 있나요?
 
-- What are your data subject rights? (Right to Delete? Right to Access? Right to Opt-out?)
+- 정보 주체로서 여러분에게는 어떤 권리가 있나요? (삭제권? 열람권? 처리 거부권?)
 
-- Does the law include special protections for specific types of sensitive data?
+- 특정 유형의 민감 데이터에 대한 특별 보호 조항이 있나요?
 
-- Which types of data might be exempt from the law?
+- 어떤 유형의 데이터가 법 적용에서 제외될 수 있나요?
 
-- Which entity is responsible for enforcing the law?
+- 법 집행을 담당하는 기관은 어디인가요?
 
-- What is the process to file a complaint?
+- 민원을 제기하는 절차는 어떻게 되나요?
 
 </div>
 
-## More resources
+## 추가 자료
 
-- [Directory of comprehensive consumer privacy laws worldwide (_Privacy Guides_)](../legal/dpa-directory.md)
+- [전 세계 포괄적 소비자 개인정보 보호법 디렉터리 (_프라이버시 가이드_)](../legal/dpa-directory.md)
 
-- [Map of data protection and privacy legislation worldwide (_UN Trade and Development_)](https://unctad.org/page/data-protection-and-privacy-legislation-worldwide)
+- [전 세계 데이터 보호 및 프라이버시 법률 지도 (_유엔 무역개발회의_)](https://unctad.org/page/data-protection-and-privacy-legislation-worldwide)
 
-- [The future of privacy: How governments shape your digital life (_Privacy Guides_)](https://www.privacyguides.org/articles/2025/02/03/the-future-of-privacy/)
+- [프라이버시의 미래: 정부가 여러분의 디지털 생활을 어떻게 만들어 가는가 (_프라이버시 가이드_)](https://www.privacyguides.org/articles/2025/02/03/the-future-of-privacy/)

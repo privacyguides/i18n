@@ -1,70 +1,70 @@
 ---
-title: Stay True to Your Principles
-description: If you manage a digital rights group, it's important to make sure you aren't subjecting your contributors to the privacy-invasive tech you're fighting against.
+title: 원칙에 충실하기
+description: 디지털 권리 모임을 운영한다면, 여러분이 맞서 싸우는 프라이버시 침해 기술을 기여자들에게 강요하고 있지는 않은지 확인하는 것이 중요합니다.
 icon: fontawesome/solid/star
 cover: activism/banner-toolbox-tip-principles.webp
 ---
 
-If you manage a digital rights group, meetup, chat room, event, or organization even, make sure you aren't subjecting your members and contributors to the very privacy-invasive tech you're fighting against. Sadly, it's not rare to see organizations and communities that aren't following their own privacy advice for internal practices.
+디지털 권리 모임, 지역 모임, 채팅방, 행사, 나아가 단체를 운영한다면, 여러분이 맞서 싸우는 바로 그 프라이버시 침해 기술을 구성원과 기여자들에게 강요하고 있지는 않은지 확인하세요. 안타깝게도 내부 운영에서는 자신들의 프라이버시 조언을 따르지 않는 단체와 커뮤니티를 드물지 않게 볼 수 있습니다.
 
-Here's why it's important to **stay true to your principles** and lead by example:
+**원칙에 충실하고** 솔선수범하는 것이 중요한 이유는 다음과 같습니다:
 
-## Be the groups and organizations you want to see in the world
+## 세상에서 보고 싶은 그룹과 단체가 되세요
 
-As a leader in your digital rights community, it's critical to set an example and apply your privacy advice internally as well.
+디지털 권리 커뮤니티의 리더라면 모범을 보이고 내부에서도 프라이버시 조언을 실천하는 것이 매우 중요합니다.
 
-Sometimes, it's easy to just use the most popular tool and forget privacy best practices when we're in a rush. But the importance of maintaining integrity by applying _internally_ the principles we promote externally shouldn't be downplayed.
+바쁠 때는 그냥 가장 인기 있는 도구를 쓰고 프라이버시 모범 사례를 잊기 쉽습니다. 하지만 외부에 알리는 원칙을 _내&#xBD80;_&#xC5D0;서도 실천해 진정성을 지키는 것의 중요성을 가볍게 여겨서는 안 됩니다.
 
-Staying true to your privacy values internally has many benefits:
+내부에서 프라이버시 가치에 충실하면 많은 이점이 있습니다:
 
-- [x] It significantly increases your credibility while telling others what tools and practices they should adopt when you are following the same advice yourself.
+- [x] 여러분 자신도 같은 조언을 따르고 있다면, 다른 사람들에게 어떤 도구와 관행을 도입해야 하는지 말할 때 신뢰도가 크게 높아집니다.
 
-- [x] It supports the privacy-enhancing tools and projects you would like to see prosper.
+- [x] 번창하기를 바라는 프라이버시 강화 도구와 프로젝트를 지원하게 됩니다.
 
-- [x] It demonstrates that it is possible to manage a group or organization using privacy-focused services, practices, and partners. It makes you set a positive example.
+- [x] 프라이버시 중심 서비스, 관행, 파트너를 사용해 그룹이나 단체를 운영할 수 있다는 것을 보여 줍니다. 긍정적인 본보기가 됩니다.
 
-- [x] It builds your reputation as someone who knows what they are talking about.
+- [x] 자신이 무슨 말을 하는지 잘 아는 사람이라는 평판을 쌓을 수 있습니다.
 
-- [x] It gives you valuable insight to understand better your own recommendations, and their potential downsides. You will be better equipped to answer questions about how to deal with the disadvantages of some privacy-preserving tools and practices if you have adopted them yourself internally.
+- [x] 자신의 추천과 그 잠재적인 단점을 더 잘 이해할 수 있는 귀중한 통찰을 얻게 됩니다. 일부 프라이버시 보호 도구와 관행을 내부에서 직접 도입해 봤다면, 그 단점에 대처하는 방법에 관한 질문에 더 잘 답할 수 있습니다.
 
-- [x] It makes your group or organization more attractive to recruit new qualified members or employees. Most privacy experts and advocates are in this field because they deeply care about privacy rights. By adopting good practices internally, you will show them that you are trustworthy, know what you're talking about, and will respect their own data if they work with you.
+- [x] 그룹이나 단체가 유능한 새 구성원이나 직원을 모집하는 데 더 매력적인 곳이 됩니다. 대부분의 프라이버시 전문가와 옹호자는 프라이버시 권리를 진심으로 아끼기 때문에 이 분야에 있습니다. 내부에서 좋은 관행을 실천하면, 여러분이 신뢰할 수 있고 무슨 말을 하는지 잘 알며 함께 일할 때 그들의 데이터도 존중할 것이라는 점을 보여 줄 수 있습니다.
 
-- [x] It normalizes the use of privacy-preserving technologies and privacy-respectful practices with your members, contributors, and employees, as well as with any external observers.
+- [x] 구성원, 기여자, 직원은 물론 외부에서 지켜보는 사람들에게도 프라이버시 보호 기술과 프라이버시를 존중하는 관행의 사용을 자연스러운 일로 만듭니다.
 
-## How to stay true to your principles
+## 원칙에 충실하는 방법
 
-There are many things you can do to stay true to your principles, both in your own personal life and in your privacy advocacy work.
+개인 생활과 프라이버시 옹호 활동 모두에서 원칙에 충실하기 위해 할 수 있는 일은 많습니다.
 
-Here are a few examples of practices and good habits you might want to adopt:
+도입해 볼 만한 실천과 좋은 습관의 예를 소개합니다:
 
-- [x] Make sure to [inform yourself about the privacy laws](tip-know-your-privacy-laws.md) you have to comply with in your work, and go above and beyond to respect them carefully.
+- [x] 활동에서 준수해야 하는 [개인정보 보호법을 반드시 알아 두고](tip-know-your-privacy-laws.md), 이를 기대 이상으로 꼼꼼하게 지키세요.
 
-- [x] Create a [Code of Ethics](https://www.wikihow.com/Develop-a-Code-of-Ethics) for your group or organization, and ensure it includes a special emphasis on enforcing your privacy values.
+- [x] 그룹이나 단체를 위한 [윤리 강령](https://www.wikihow.com/Develop-a-Code-of-Ethics)을 만들고, 여기에 프라이버시 가치를 지키는 데 특별히 중점을 두세요.
 
-- [x] Build protocols to minimize data _collection_ and maximize data _protection_ when collecting data internally (e.g. from employees), and externally (e.g. from subscribers). Verify that your protocols are thoroughly followed by everyone in your group or organization.
+- [x] 내부(예: 직원)와 외부(예: 구독자)에서 데이터를 수집할 때 데이터 _수&#xC9D1;_&#xC740; 최소화하고 데이터 _보&#xD638;_&#xB294; 최대화하는 절차를 마련하세요. 그룹이나 단체의 모든 사람이 이 절차를 철저히 따르는지 확인하세요.
 
-- [x] Educate the members and contributors of your group or team. Make sure that everyone understands well your values, your Code of Ethics, and applies your established protocols.
+- [x] 그룹이나 팀의 구성원과 기여자를 교육하세요. 모두가 여러분의 가치와 윤리 강령을 잘 이해하고, 마련한 절차를 실천하도록 하세요.
 
-- [x] Pick your vendors carefully. [Research](https://www.privacyguides.org/articles/2025/09/03/red-and-green-privacy-flags/) each third-party software you use, to select the most privacy-preserving option available.
+- [x] 공급업체를 신중하게 고르세요. 사용하는 제3자 소프트웨어를 하나하나 [조사해](https://www.privacyguides.org/articles/2025/09/03/red-and-green-privacy-flags/) 가장 프라이버시를 잘 보호하는 선택지를 고르세요.
 
-- [x] Whenever relevant, request [Service-Level Agreements](https://en.wikipedia.org/wiki/Service-level_agreement) (SLA) from your service providers, to ensure you have a legally binding contract they have to comply with to respect your own terms of service.
+- [x] 필요한 경우 서비스 제공업체에 [서비스 수준 계약](https://en.wikipedia.org/wiki/Service-level_agreement)(SLA)을 요청해, 그들이 여러분의 서비스 약관을 지키도록 하는 법적 구속력 있는 계약을 확보하세요.
 
-- [x] Reject any offers for partnership or sponsorship from third-parties that have not been properly vetted for being trustworthy and sharing your privacy values, or who might only have profit and advertising in mind.
+- [x] 신뢰성과 프라이버시 가치 공유 여부가 제대로 검증되지 않았거나, 이익과 광고만 생각할 수 있는 제3자의 파트너십이나 후원 제안은 거절하세요.
 
-- [x] Keep your promises. As a privacy advocate, group, or organization, your reputation is the most valuable thing you have. ==If people cannot trust your integrity, they will not trust any of your advice either.== If you promise to never accept sponsorship from certain Big Tech companies, then make sure you are ready to hold this promise. If you promise to never accept venture-capital money for your privacy-preserving app, then keep your word and be ready to reject even attractive offers.
+- [x] 약속을 지키세요. 프라이버시 옹호자, 그룹, 단체에게 평판은 가장 소중한 자산입니다. ==사람들이 여러분의 진정성을 믿지 못한다면, 여러분의 조언도 믿지 않을 것입니다.== 특정 빅테크 기업의 후원을 절대 받지 않겠다고 약속했다면, 그 약속을 지킬 준비가 되어 있어야 합니다. 프라이버시 보호 앱을 위해 벤처 캐피털 자금을 절대 받지 않겠다고 약속했다면, 매력적인 제안이라도 거절할 준비를 하고 약속을 지키세요.
 
-## Integrity is essential to build our movement
+## 진정성은 우리 운동을 만들어 가는 데 필수입니다
 
-Staying true to our principles can be challenging at time. Nonetheless, when we are talking about privacy rights, we are also talking a lot about _trust_. Without integrity, there cannot be any trust.
+원칙에 충실하기란 때로 어려울 수 있습니다. 그렇지만 프라이버시 권리를 이야기할 때 우리는 _신&#xB8B0;_&#xC5D0; 대해서도 많이 이야기하고 있습니다. 진정성 없이는 신뢰도 있을 수 없습니다.
 
-Maintaining integrity with leading by example and keeping our promises is therefore essential to our fight for privacy rights. It's also fundamental to build our community, and to grow our movement with alliances.
+따라서 솔선수범하고 약속을 지켜 진정성을 유지하는 것은 프라이버시 권리를 위한 싸움에서 필수적입니다. 이는 커뮤니티를 만들고, 연대를 통해 운동을 키우는 데에도 기본이 됩니다.
 
-Become a respected privacy-ally others in the community are eager to work with, by staying true to your principles, always.
+언제나 원칙에 충실함으로써, 커뮤니티의 다른 사람들이 함께 일하고 싶어 하는 존경받는 프라이버시 동료가 되세요.
 
-## More resources
+## 추가 자료
 
-- [The complete guide to writing a Code of Ethics (_WikiHow_)](https://www.wikihow.com/Develop-a-Code-of-Ethics)
+- [윤리 강령 작성 완벽 가이드 (_위키하우_)](https://www.wikihow.com/Develop-a-Code-of-Ethics)
 
-- [Privacy washing is a dirty business (_Privacy Guides_)](https://www.privacyguides.org/articles/2025/08/20/privacy-washing-is-a-dirty-business/)
+- [프라이버시 워싱은 더러운 사업입니다 (_프라이버시 가이드_)](https://www.privacyguides.org/articles/2025/08/20/privacy-washing-is-a-dirty-business/)
 
-- [Policy and procedure templates for non-profit organizations (_The Commons Social Change Library_)](https://commonslibrary.org/policy-bank-policy-and-procedure-templates-for-not-for-profit-organisations/)
+- [비영리 단체를 위한 정책 및 절차 템플릿 (_커먼스 소셜 체인지 라이브러리_)](https://commonslibrary.org/policy-bank-policy-and-procedure-templates-for-not-for-profit-organisations/)

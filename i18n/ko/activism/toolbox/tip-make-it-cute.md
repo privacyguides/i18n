@@ -1,25 +1,25 @@
 ---
-title: Make It Cute
-description: If you are developing a privacy-focused application or website, it's important that you do not neglect the design aspect of it. Make it cute!
+title: 귀엽게 만들기
+description: 프라이버시 중심의 애플리케이션이나 웹사이트를 개발하고 있다면 디자인을 소홀히 하지 않는 것이 중요합니다. 귀엽게 만드세요!
 icon: fontawesome/solid/cat
 cover: activism/banner-toolbox-tip-cute.webp
 ---
 
-If you are developing a privacy-focused application or website, it's important that you **do not neglect the design** aspect of it. This is a common mistake that can have a significant negative impact on adoption by a general audience. Make it cute!
+프라이버시 중심의 애플리케이션이나 웹사이트를 개발하고 있다면 **디자인을 소홀히 하지 않는** 것이 중요합니다. 이는 흔히 저지르는 실수로, 일반 사용자의 채택에 상당히 부정적인 영향을 미칠 수 있습니다. 귀엽게 만드세요!
 
-Here's why you should make your design appealing and accessible to everyone:
+디자인을 모두에게 매력적이고 접근하기 쉽게 만들어야 하는 이유는 다음과 같습니다:
 
-## What happens when your app is ugly
+## 앱이 못생기면 벌어지는 일
 
-Quality design for User Interface (UI) and User Experience (UX) is fundamental to product adoption. Unfortunately, this is regularly neglected by developers working on privacy-focused projects. Often, this is due to lack of resources, but sometimes it's simply an oversight.
+사용자 인터페이스(UI)와 사용자 경험(UX)의 디자인 품질은 제품 채택에 있어 기본 중의 기본입니다. 안타깝게도 프라이버시 중심 프로젝트를 하는 개발자들은 이를 자주 소홀히 합니다. 자원이 부족해서인 경우가 많지만, 때로는 단순히 놓친 것일 뿐입니다.
 
-The problem is that if your application or website isn't appealing visually, is awkward to use, difficult to understand, or use jargon inaccessible to newcomers, ==people who aren't already in your community are much less likely to adopt your product==, regardless of the privacy benefits it offers. Trying to tell people a billion times they should switch to using your app will be no help at all if it's unpleasant to use on a daily basis.
+문제는 애플리케이션이나 웹사이트가 시각적으로 매력적이지 않거나, 쓰기 불편하거나, 이해하기 어렵거나, 새로운 사람들이 알아듣기 힘든 전문 용어를 쓴다면, 아무리 프라이버시 이점이 크더라도 ==이미 여러분의 커뮤니티에 속하지 않은 사람들은 그 제품을 채택할 가능성이 훨씬 낮다==는 것입니다. 매일 쓰기 불편한 앱이라면, 사람들에게 그 앱으로 바꿔야 한다고 수십억 번 말해 봐야 아무 소용이 없습니다.
 
-When your app is ugly, fewer people want to use it, and fewer people benefit from its protections. Minimizing the importance of visual appeal and ease-of-use will only impact your goals negatively.
+앱이 못생기면 쓰고 싶어 하는 사람이 줄고, 그만큼 그 보호 기능의 혜택을 받는 사람도 줄어듭니다. 시각적 매력과 사용 편의성의 중요성을 가볍게 여기면 여러분의 목표에 부정적인 영향만 미칠 뿐입니다.
 
-## Beyond privacy features: Develop a product that is also accessible, functional, and cute!
+## 프라이버시 기능을 넘어서: 접근성 있고, 기능적이고, 귀여운 제품을 만드세요!
 
-If you've already done your homework to build the best app for people to protect their privacy, or the best website to provide privacy advice, here are other aspects you should consider to increase your product's popularity:
+사람들이 프라이버시를 보호할 수 있는 최고의 앱이나 프라이버시 조언을 제공하는 최고의 웹사이트를 만들기 위한 기본기를 이미 갖췄다면, 제품의 인기를 높이기 위해 고려해야 할 다른 측면은 다음과 같습니다:
 
 <style>
 .emoji-list-a ul {
@@ -33,24 +33,24 @@ If you've already done your homework to build the best app for people to protect
 
 <div class="emoji-list-a" markdown>
 
-- Make sure that your app or website is [accessible](tip-be-mindful-of-accessibility.md) as much as possible. Accessibility will not only make more people able to use your application, but it's likely to also improve user experience for everyone.
+- 앱이나 웹사이트를 최대한 [접근성 있게](tip-be-mindful-of-accessibility.md) 만드세요. 접근성은 더 많은 사람이 애플리케이션을 사용할 수 있게 해 줄 뿐만 아니라, 모든 사람의 사용자 경험도 개선할 가능성이 큽니다.
 
-- Wrap your product in a pretty package. If you can afford it, hire a professional designer to polish your app or website interface, as well as your organization's logo and promotional material. Design can truly be a make-or-break moment. Do not neglect it!
+- 제품을 예쁘게 포장하세요. 여유가 된다면 전문 디자이너를 고용해 앱이나 웹사이트 인터페이스는 물론, 단체의 로고와 홍보물도 다듬으세요. 디자인은 정말로 성패를 가르는 요소가 될 수 있습니다. 소홀히 하지 마세요!
 
-- People like cute things! Make your app and content cute! Additionally, this helps to make technically-intimidating projects feel more accessible to newcomers and beginners.
+- 사람들은 귀여운 것을 좋아합니다! 앱과 콘텐츠를 귀엽게 만드세요! 또한 이렇게 하면 기술적으로 부담스러운 프로젝트도 새로운 사람과 초보자에게 더 친근하게 느껴집니다.
 
-- Use good design to reinforce your privacy features or topics. Visual elements can be great assets to bring more attention to your product or content, and to highlight important privacy features in your application. Use design to guide users instinctively towards good privacy. And use design to make the information you share on your website or other content easier to digest.
+- 좋은 디자인으로 프라이버시 기능이나 주제를 강조하세요. 시각적 요소는 제품이나 콘텐츠에 더 많은 관심을 끌고 애플리케이션의 중요한 프라이버시 기능을 부각하는 훌륭한 자산이 될 수 있습니다. 디자인을 활용해 사용자가 자연스럽게 좋은 프라이버시 습관으로 향하도록 이끄세요. 그리고 디자인을 활용해 웹사이트나 기타 콘텐츠에서 공유하는 정보를 더 이해하기 쉽게 만드세요.
 
-- Make sure your application or website isn't just cute and privacy-positive, but also _functional_. Without good user experience, you will not be able to retain the users or readers you have managed to attract with cuteness or privacy, and people will move back to their old bad habits.
+- 애플리케이션이나 웹사이트가 귀엽고 프라이버시 친화적일 뿐만 아니라 _기능&#xC801;_&#xC774;기도 한지 확인하세요. 좋은 사용자 경험이 없다면 귀여움이나 프라이버시로 끌어모은 사용자나 독자를 붙잡아 둘 수 없고, 사람들은 예전의 나쁜 습관으로 돌아갈 것입니다.
 
 </div>
 
-## More resources
+## 추가 자료
 
-- [Why are cute objects so seductive (_Laura Sabau Tatar_)](https://uxdesign.cc/why-are-cute-objects-so-seductive-8de1c58bd47c)
+- [귀여운 사물은 왜 그렇게 매혹적일까 (_로라 사바우 타타르_)](https://uxdesign.cc/why-are-cute-objects-so-seductive-8de1c58bd47c)
 
-- [The importance of User Interface (UI) and User Experience (UX) design (_Geeks for Geeks_)](https://www.geeksforgeeks.org/websites-apps/importance-of-ui-ux-design/)
+- [사용자 인터페이스(UI)와 사용자 경험(UX) 디자인의 중요성 (_긱스 포 긱스_)](https://www.geeksforgeeks.org/websites-apps/importance-of-ui-ux-design/)
 
-- [Why do open source applications often have less polished UIs than commercial software (_Darren Horrocks_)](https://www.darrenhorrocks.co.uk/why-open-source-ui-design-sucks/)
+- [오픈 소스 애플리케이션의 UI가 상용 소프트웨어보다 덜 다듬어진 경우가 많은 이유 (_대런 호럭스_)](https://www.darrenhorrocks.co.uk/why-open-source-ui-design-sucks/)
 
-- [How to start with design in your open source project (_All Things Open_)](https://allthingsopen.org/articles/start-design-open-source-project)
+- [오픈 소스 프로젝트에서 디자인을 시작하는 방법 (_올 싱스 오픈_)](https://allthingsopen.org/articles/start-design-open-source-project)

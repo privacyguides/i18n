@@ -1,50 +1,50 @@
 ---
-title: Take Time to Rest, But Come Back to Fight With Us
-description: The battle for privacy will be a long one. This isn't a sprint, it's a marathon. If you want to be a good advocate, you must learn to rest when you need it.
+title: 쉬어 가되, 다시 돌아와 함께 싸우기
+description: 프라이버시를 위한 싸움은 길어질 것입니다. 이것은 단거리 경주가 아니라 마라톤입니다. 좋은 옹호자가 되고 싶다면 필요할 때 쉬는 법을 배워야 합니다.
 icon: fontawesome/solid/battery-quarter
 cover: activism/banner-toolbox-tip-rest.webp
 ---
 
-The battle for privacy rights will be a long one. This isn't a sprint, it's a marathon.
+프라이버시 권리를 위한 싸움은 길어질 것입니다. 이것은 단거리 경주가 아니라 마라톤입니다.
 
-If you want to be a good advocate, who will be able to fight with us for a long time, you _must_ take the time to **rest when needed**.
+오랫동안 우리와 함께 싸울 수 있는 좋은 옹호자가 되고 싶다면, _반드시_ 시간을 내어 **필요할 때 쉬어야** 합니다.
 
-Burning out isn't an option, we cannot afford to lose your precious contribution! And to prevent burning out, you must learn how to rest.
+번아웃은 선택지가 될 수 없습니다. 여러분의 소중한 기여를 잃을 수는 없으니까요! 그리고 번아웃을 막으려면 쉬는 법을 배워야 합니다.
 
-When you are starting to feel the activist and dystopia-fighter fatigue, it's important to take the time off you need until you feel rested. Then, come back to the battlefield to fight with us again!
+활동가로서, 디스토피아에 맞서는 사람으로서 피로가 느껴지기 시작하면, 충분히 쉬었다고 느낄 때까지 필요한 만큼 휴식을 취하는 것이 중요합니다. 그런 다음 다시 전장으로 돌아와 우리와 함께 싸워 주세요!
 
-Here's why it's fundamental to learn how to rest when you need it:
+필요할 때 쉬는 법을 배우는 것이 왜 중요한지 알아봅시다:
 
-## Knowing when to rest is a strength, not a weakness
+## 언제 쉬어야 할지 아는 것은 약점이 아니라 강점입니다
 
-We have some bad news for you: **You are a human.**
+안타까운 소식이 있습니다. **여러분은 인간입니다.**
 
-This has many annoying side effects, such as having limited energy and a flesh-and-bone body you need to take care of. Trying to ignore this undeniable fact will only slow you down even more.
+여기에는 에너지가 한정되어 있고 돌봐야 할 살과 뼈로 된 몸이 있다는 등 귀찮은 부작용이 많습니다. 이 부정할 수 없는 사실을 무시하려 하면 오히려 더 느려질 뿐입니다.
 
-In our society's hustle culture, it's counterproductive that we often value overwork more than strategic rest.
+우리 사회의 성과 중심 문화에서는 전략적인 휴식보다 과로를 더 높이 평가하는 경우가 많은데, 이는 역효과를 낳습니다.
 
-The thing is, overwork isn't a sustainable strategy for the long battle ahead of us. ==What we need to succeed is privacy activists who will fight by our side for a very long time.== We need endurance and persistence. And for this to happen, we need ourselves and our [privacy comrades](tip-support-your-privacy-comrades.md) to be well-rested, by taking pauses and adopting the strategies we all need to recharge.
+문제는 과로가 앞으로 이어질 긴 싸움에서 지속 가능한 전략이 아니라는 것입니다. ==우리가 승리하는 데 필요한 것은 아주 오랫동안 우리 곁에서 함께 싸울 프라이버시 활동가들입니다.== 우리에게는 지구력과 끈기가 필요합니다. 그러려면 우리 자신과 [프라이버시 동지들](tip-support-your-privacy-comrades.md)이 잠시 멈추고 모두에게 필요한 재충전 전략을 실천하며 충분히 쉬어야 합니다.
 
-We need our movement to stay away from the often toxic hustle culture we have all observed from Big Tech companies, and instead embrace a culture of mutual support that encourages self-care.
+우리 운동은 빅테크 기업에서 흔히 보아 온 해로운 성과 중심 문화를 멀리하고, 대신 자기 돌봄을 장려하는 상호 지원 문화를 받아들여야 합니다.
 
-We shouldn't try to imitate our opponents by "[moving fast and breaking things](https://www.privacyguides.org/articles/2022/04/04/move-fast-and-break-things/)."
+"[빠르게 움직이고 무엇이든 부수는](https://www.privacyguides.org/articles/2022/04/04/move-fast-and-break-things/)" 상대의 방식을 흉내 내려 해서는 안 됩니다.
 
-We need to move at a _sustainable_ pace, and build a powerful privacy rights movement that will last.
+우리는 _지속 가능한_ 속도로 나아가며, 오래 이어질 강력한 프라이버시 권리 운동을 만들어야 합니다.
 
-The important part isn't to fight for privacy rights 24/7. What matters most is that once you are well-rested after taking some time off, you come back to the battlefield to fight with us again.
+중요한 것은 연중무휴로 프라이버시 권리를 위해 싸우는 것이 아닙니다. 가장 중요한 것은 휴식을 취하고 충분히 쉰 뒤에 다시 전장으로 돌아와 우리와 함께 싸우는 것입니다.
 
 <div class="admonition quote toolbox-quote" markdown>
-<p class="admonition-title toolbox-quote">Successful social change activists learn to be the tortoise rather than the hare. Looking after yourself and your family is important.</p>
+<p class="admonition-title toolbox-quote">성공한 사회 변화 활동가들은 토끼가 아니라 거북이가 되는 법을 배웁니다. 자기 자신과 가족을 돌보는 것은 중요합니다.</p>
 
-<p class="toolbox-quote-source" markdown>Source: [*The Activists' Handbook* by Aidan Ricketts](https://aidanricketts.com/the-activists-handbook/)</p>
+<p class="toolbox-quote-source" markdown>출처: [에이단 리케츠의 *액티비스츠 핸드북*](https://aidanricketts.com/the-activists-handbook/)</p>
 
 </div>
 
-## Tips to help prevent privacy activism burnout
+## 프라이버시 활동가 번아웃 예방에 도움이 되는 팁
 
-Unfortunately, activism burnout is quite common. And, in the privacy field, this is amplified by the well-documented effect of [privacy fatigue](https://www.sciencedirect.com/science/article/abs/pii/S0747563217306817).
+안타깝게도 활동가 번아웃은 꽤 흔합니다. 게다가 프라이버시 분야에서는 잘 알려진 [프라이버시 피로](https://www.sciencedirect.com/science/article/abs/pii/S0747563217306817) 효과 때문에 이 문제가 더 커집니다.
 
-Additionally, the fact that we have to incessantly push against a tidal wave of new privacy-invasive legislations and technologies is understandingly exhausting. But we can adopt many strategies to prevent activism burnout, minimize privacy fatigue, and learn how to rest and valorize self-care as an essential part of our work:
+또한 새로운 프라이버시 침해 법률과 기술의 거센 물결에 끊임없이 맞서야 한다는 사실은 당연히 지치는 일입니다. 하지만 활동가 번아웃을 예방하고, 프라이버시 피로를 최소화하고, 쉬는 법을 배우며 자기 돌봄을 활동의 필수적인 부분으로 소중히 여기기 위해 우리가 실천할 수 있는 전략은 많습니다:
 
 <style>
 .emoji-list-a ul {
@@ -58,46 +58,46 @@ Additionally, the fact that we have to incessantly push against a tidal wave of 
 
 <div class="emoji-list-a" markdown>
 
-- **Take breaks:** When you start feeling completely discouraged about the state of privacy rights in the world, it's time for a break. Take a few days off if you can, and try to enjoy activities that have nothing to do with your privacy advocacy.
+- **휴식을 취하세요:** 세계의 프라이버시 권리 현실에 완전히 낙담하기 시작했다면, 쉬어야 할 때입니다. 가능하다면 며칠 쉬면서 프라이버시 옹호 활동과 전혀 관계없는 활동을 즐겨 보세요.
 
-- **Take care of your body:** Make sure not to neglect your bodily needs, this should always be a priority. Your body and your brain are the most essential tools you have for your privacy advocacy work. Take care of them first and foremost.
+- **몸을 돌보세요:** 몸에 필요한 것을 소홀히 하지 마세요. 이는 항상 최우선이어야 합니다. 여러분의 몸과 뇌는 프라이버시 옹호 활동에서 가장 중요한 도구입니다. 무엇보다 먼저 몸과 뇌를 돌보세요.
 
-- **Sleep well:** Prioritize quality sleep and adopt a rigorous [sleep routine](https://sleepresearchfoundation.com/2024/03/03/top-10-tips-to-create-an-ideal-sleep-routine/) with a strict schedule.
+- **잘 자세요:** 양질의 수면을 우선시하고, 일정을 엄격히 지키는 [수면 루틴](https://sleepresearchfoundation.com/2024/03/03/top-10-tips-to-create-an-ideal-sleep-routine/)을 꾸준히 실천하세요.
 
-- **Keep bedtime calm:** Try to avoid reading about stressful privacy news or exciting privacy technologies close to bedtime. This can all wait for you tomorrow.
+- **잠들기 전에는 차분하게 지내세요:** 잠자리에 들 무렵에는 스트레스를 주는 프라이버시 뉴스나 흥미진진한 프라이버시 기술에 관한 글을 읽지 않도록 해 보세요. 그런 건 모두 내일까지 기다려 줄 수 있습니다.
 
-- **Separate devices:** If you can afford it, use separate devices for your personal usage and your privacy activism work. This can help keeping a mental barrier between personal and professional, and limiting the "always-on" privacy-advocate mode.
+- **기기를 분리하세요:** 여유가 된다면 개인 용도와 프라이버시 활동 용도로 기기를 따로 사용하세요. 이렇게 하면 개인 생활과 업무 사이에 심리적 경계를 유지하고, "항상 켜져 있는" 프라이버시 옹호자 모드를 줄이는 데 도움이 됩니다.
 
-- **Find friends:** Find a [community of peers](https://discuss.privacyguides.net/) you can talk to. Exchange resources and seek support from your community. Remember that you aren't alone in this battle.
+- **친구를 찾으세요:** 이야기를 나눌 수 있는 [동료 커뮤니티](https://discuss.privacyguides.net/)를 찾으세요. 커뮤니티와 자료를 주고받고 도움을 구하세요. 이 싸움에서 여러분은 혼자가 아니라는 사실을 기억하세요.
 
-- **Split the work:** Delegate tasks to privacy comrades. Seek allies and [alliances](tip-start-alliances-not-wars.md). Reach out for help, and don't take all the responsibilities of your projects on your own shoulders. Build a team, and learn to trust others with the work.
+- **일을 나누세요:** 프라이버시 동지들에게 일을 맡기세요. 동료와 [연대](tip-start-alliances-not-wars.md)를 찾으세요. 도움을 요청하고, 프로젝트의 모든 책임을 혼자 짊어지지 마세요. 팀을 꾸리고, 다른 사람을 믿고 일을 맡기는 법을 배우세요.
 
-- **Celebrate!** Take the time to celebrate each victory, no matter how small. Celebrate with your peers too, and never miss an opportunity to [congratulate](tip-give-credit-where-credit-is-due.md) everyone's hard work.
+- **축하하세요!** 아무리 작더라도 승리 하나하나를 시간을 내어 축하하세요. 동료들과도 함께 축하하고, 모두의 노고를 [축하할](tip-give-credit-where-credit-is-due.md) 기회를 놓치지 마세요.
 
-- **Take vacations:** Plan longer breaks through the year with activities that will have nothing to do with your privacy advocacy work. Make sure they are long enough that you have time to even miss the privacy battlefield, and come back eagerly once you are fully rested.
+- **휴가를 떠나세요:** 한 해 동안 프라이버시 옹호 활동과 전혀 관계없는 활동으로 채운 긴 휴식을 계획하세요. 프라이버시 전장이 그리워질 만큼 충분히 길게 쉬고, 완전히 재충전한 뒤에 기꺼이 돌아오세요.
 
-- **Plan your (temporary) replacement:** If you are in a leadership position, make sure there is a system in place to take over your responsibilities fully when you need time off. You shouldn't be indispensable for your projects to keep going in the short term, and you should have the same access to time off as the rest of your team. As a leader, it's important to valorize rest for your team, leading by example. Rest is essential for you too.
+- **(일시적인) 대체자를 마련하세요:** 리더 위치에 있다면, 여러분이 쉬어야 할 때 책임을 온전히 넘겨받을 수 있는 체계를 갖춰 두세요. 단기적으로 프로젝트가 계속 굴러가는 데 여러분이 없어서는 안 되는 사람이 되어서는 안 되며, 팀의 다른 사람들과 똑같이 휴식을 누릴 수 있어야 합니다. 리더로서 솔선수범하여 팀에서 휴식을 소중히 여기는 것이 중요합니다. 여러분에게도 휴식은 꼭 필요합니다.
 
-- **Keep hope with long-term objectives:** If you feel discouraged by the current state of privacy rights, try to keep in mind the bigger picture. We will lose many fights on the journey to improvement. This is to be expected. But all the work we do matters, including the fights we lose. Try to focus on the movement as a whole, and on advancing privacy rights even just a little in our lifetime. See defeats as opportunities to learn from for the next stronger and better-organized battle.
+- **장기적인 목표로 희망을 유지하세요:** 프라이버시 권리의 현실에 낙담했다면, 더 큰 그림을 떠올려 보세요. 개선을 향한 여정에서 우리는 많은 싸움에서 질 것입니다. 이는 예상된 일입니다. 하지만 우리가 지는 싸움을 포함해 우리가 하는 모든 일은 의미가 있습니다. 운동 전체에, 그리고 우리가 살아 있는 동안 프라이버시 권리를 조금이라도 진전시키는 데 초점을 맞춰 보세요. 패배는 더 강하고 더 잘 조직된 다음 싸움을 위해 배울 수 있는 기회로 여기세요.
 
-- **Call for help:** If you feel like you are at the end of your rope and might be experiencing symptoms of [burnout](https://www.webmd.com/mental-health/burnout-symptoms-signs), seek professional help to support you.
+- **도움을 요청하세요:** 한계에 다다랐다고 느끼거나 [번아웃](https://www.webmd.com/mental-health/burnout-symptoms-signs) 증상을 겪고 있는 것 같다면, 전문가의 도움을 받으세요.
 
-- **Support others:** Don't forget to [support your privacy comrades](tip-support-your-privacy-comrades.md) when you feel well-enough yourself, to prevent exhaustion as a community.
+- **다른 사람을 지원하세요:** 여러분이 충분히 괜찮다고 느낄 때는 커뮤니티 전체가 지치지 않도록 [프라이버시 동지들을 지원하는 것](tip-support-your-privacy-comrades.md)을 잊지 마세요.
 
 </div>
 
-## More resources
+## 추가 자료
 
-- [Find a community of privacy comrades (_Privacy Guides_ forum)](https://discuss.privacyguides.net/)
+- [프라이버시 동지들의 커뮤니티 찾기 (_프라이버시 가이드_ 포럼)](https://discuss.privacyguides.net/)
 
-- [Privacy is like broccoli, take it one step at the time (_Privacy Guides_)](https://www.privacyguides.org/articles/2025/07/24/privacy-is-like-broccoli/)
+- [프라이버시는 브로콜리와 같습니다. 한 번에 한 걸음씩 (_프라이버시 가이드_)](https://www.privacyguides.org/articles/2025/07/24/privacy-is-like-broccoli/)
 
-- [Personal sustainability for activists (_The Commons Social Change Library_)](https://commonslibrary.org/personal-sustainability-for-activists/)
+- [활동가를 위한 개인적 지속 가능성 (_커먼스 소셜 체인지 라이브러리_)](https://commonslibrary.org/personal-sustainability-for-activists/)
 
-- [The role of privacy fatigue in online privacy behavior (_ScienceDirect_)](https://www.sciencedirect.com/science/article/abs/pii/S0747563217306817)
+- [온라인 프라이버시 행동에서 프라이버시 피로의 역할 (_사이언스다이렉트_)](https://www.sciencedirect.com/science/article/abs/pii/S0747563217306817)
 
-- [What can be done about activist burnout? (_Sharon Nepstad_ YouTube video)](https://www.youtube.com/watch?v=BNm2ar3dEug)
+- [활동가 번아웃에 대해 무엇을 할 수 있을까? (_샤론 넵스태드_ 유튜브 영상)](https://www.youtube.com/watch?v=BNm2ar3dEug)
 
-- [How to avoid activist burnout (_Change Atelier_)](https://www.changeatelier.org/blog/how-to-avoid-activist-burnout)
+- [활동가 번아웃을 피하는 방법 (_체인지 아틀리에_)](https://www.changeatelier.org/blog/how-to-avoid-activist-burnout)
 
-- [Strategies to prevent activist burnout (_The Art of Living_)](https://www.newsletter.samuel-warde.com/p/strategies-to-prevent-activist-burnout)
+- [활동가 번아웃을 예방하는 전략 (_아트 오브 리빙_)](https://www.newsletter.samuel-warde.com/p/strategies-to-prevent-activist-burnout)

@@ -131,7 +131,7 @@ schema:
 [비밀번호 입문 :material-arrow-right-drop-circle:](basics/passwords-overview.md)
 
 <div class="admonition info" markdown>
-<p class="admonition-title">Info</p>
+<p class="admonition-title">정보</p>
 
 브라우저나 운영 체제 등에 내장된 비밀번호 관리자는 전용 비밀번호 관리자 소프트웨어에 비해 부족한 경우가 있습니다. The advantage of a built-in password manager is good integration with the software, but it can often be very simple and lack privacy and security features that standalone offerings have.
 

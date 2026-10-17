@@ -1,107 +1,107 @@
 ---
-title: Protect Your Allies
-description: Through your privacy work, it's crucial to protect the data of your allies in all that you do, whether it's individual action or leading an organization.
+title: 동료 보호하기
+description: 개인적인 행동이든 단체를 이끄는 일이든, 프라이버시 활동을 하면서 하는 모든 일에서 동료의 데이터를 보호하는 것이 매우 중요합니다.
 icon: fontawesome/solid/shield-heart
 cover: activism/banner-toolbox-tip-protect.webp
 ---
 
-Through your privacy advocacy work, be careful to never collect or share the data of others without their prior explicit consent. It's crucial to **protect your allies' data** in all that you do, whether it's individual action, organizing an event, or leading an organization.
+프라이버시 옹호 활동을 하면서 다른 사람의 사전 명시적 동의 없이 그들의 데이터를 수집하거나 공유하지 않도록 주의하세요. 개인적인 행동이든, 행사를 조직하는 일이든, 단체를 이끄는 일이든, 하는 모든 일에서 **동료의 데이터를 보호하는 것**이 매우 중요합니다.
 
-Here's what you can do to safeguard the data of your privacy comrades:
+프라이버시 동지들의 데이터를 지키기 위해 할 수 있는 일은 다음과 같습니다:
 
-## Where we might collect and share the data of others
+## 우리가 다른 사람의 데이터를 수집하고 공유할 수 있는 경우
 
-There are many ways we might collect the data of others in the course of our advocacy, sometimes without even realizing it.
+옹호 활동을 하다 보면 때로는 알아차리지도 못한 채 다른 사람의 데이터를 수집하게 되는 경우가 많습니다.
 
-It's important to develop an awareness of the data we collect and share ourselves, and protect the data of others with the greatest care. Not only is this critical for [integrity](tip-stay-true-to-your-principles.md), but it's also fundamental to build and keep the trust of our allies. This in return is essential to build and grow our movement.
+우리가 직접 수집하고 공유하는 데이터를 인식하고, 다른 사람의 데이터를 최대한 신중하게 보호하는 태도를 길러야 합니다. 이는 [진정성](tip-stay-true-to-your-principles.md)을 위해 매우 중요할 뿐만 아니라, 동료들의 신뢰를 얻고 지키는 데에도 기본이 됩니다. 그리고 이는 다시 우리 운동을 만들고 키우는 데 꼭 필요합니다.
 
-Here are a some examples of other people's data we might collect or share in the context of our privacy advocacy work, whether intentionally or inadvertently:
+의도적이든 아니든, 프라이버시 옹호 활동 과정에서 우리가 수집하거나 공유할 수 있는 다른 사람의 데이터의 예는 다음과 같습니다:
 
 <div class="grid" markdown>
 
 <div markdown>
 
-- [ ] Contact information (personal advocacy or professional work)
-- [ ] Donation information (including legal names, emails, and phone numbers)
-- [ ] Purchase information (including legal names and shipping addresses)
-- [ ] Mailing list email addresses
-- [ ] Email content
-- [ ] Instant messaging content
-- [ ] Forum post content
-- [ ] Login credentials
-- [ ] Internet Protocol (IP) addresses
-- [ ] Website telemetry data
-- [ ] Website cookies and fingerprinting data
-- [ ] Chatbot logs
-- [ ] Survey answers
-- [ ] Shared documents
+- [ ] 연락처 정보(개인 옹호 활동 또는 업무)
+- [ ] 기부 정보(법적 이름, 이메일, 전화번호 포함)
+- [ ] 구매 정보(법적 이름, 배송 주소 포함)
+- [ ] 메일링 리스트 이메일 주소
+- [ ] 이메일 내용
+- [ ] 인스턴트 메시지 내용
+- [ ] 포럼 게시물 내용
+- [ ] 로그인 자격 증명
+- [ ] 인터넷 프로토콜(IP) 주소
+- [ ] 웹사이트 텔레메트리 데이터
+- [ ] 웹사이트 쿠키 및 핑거프린팅 데이터
+- [ ] 챗봇 기록
+- [ ] 설문 응답
+- [ ] 공유 문서
 
 </div>
 
 <div markdown>
 
-- [ ] Shared photos and images
-- [ ] Legal names of people on work contracts or partnership agreements
-- [ ] Home addresses of people on work contracts or partnership agreements
-- [ ] Resumes and cover letters from job applicants
-- [ ] Recordings or screenshots of video or audio meetings
-- [ ] Behind-the-scene video footage from interviews
-- [ ] Videos we take during meetups, events, or protests
-- [ ] Photos we take during meetups, events, or protests
-- [ ] License plates information from event photos or event parking lot management
-- [ ] Security camera footage
-- [ ] Dietary restrictions/preferences and health information for events
-- [ ] Screenshots of people's social media posts
-- [ ] And so much more
+- [ ] 공유된 사진과 이미지
+- [ ] 근로 계약서나 파트너십 협약서에 적힌 사람들의 법적 이름
+- [ ] 근로 계약서나 파트너십 협약서에 적힌 사람들의 집 주소
+- [ ] 입사 지원자의 이력서와 자기소개서
+- [ ] 화상 또는 음성 회의의 녹화본이나 스크린숏
+- [ ] 인터뷰 비하인드 영상
+- [ ] 모임, 행사, 시위 중에 촬영한 영상
+- [ ] 모임, 행사, 시위 중에 촬영한 사진
+- [ ] 행사 사진이나 행사 주차장 관리에서 얻은 차량 번호판 정보
+- [ ] 보안 카메라 영상
+- [ ] 행사를 위한 식이 제한/선호 사항 및 건강 정보
+- [ ] 다른 사람의 소셜 미디어 게시물 스크린숏
+- [ ] 그 밖에도 훨씬 더 많습니다
 
 </div>
 
 </div>
 
-## How to protect the data of others
+## 다른 사람의 데이터를 보호하는 방법
 
-Each time we collect data from others, we become its guardian. This isn't a small responsibility, and we should always treat the data of others as [toxic asset](https://www.schneier.com/blog/archives/2016/03/data_is_a_toxic.html).
+다른 사람의 데이터를 수집할 때마다 우리는 그 데이터의 보호자가 됩니다. 이는 결코 작은 책임이 아니며, 다른 사람의 데이터는 언제나 [유독 자산](https://www.schneier.com/blog/archives/2016/03/data_is_a_toxic.html)처럼 다뤄야 합니다.
 
-We should always only collect and keep what was obtained consensually, and what is strictly required for operations.
+항상 동의를 받아 얻은 것, 그리고 운영에 꼭 필요한 것만 수집하고 보관해야 합니다.
 
-Regardless of the data we have to collect, we should always make sure to:
+어떤 데이터를 수집해야 하든, 언제나 다음 사항을 지켜야 합니다:
 
-1. **Minimize** data collection by verifying that it is absolutely necessary for the task ([data minimization](https://en.wikipedia.org/wiki/Data_minimization)).
+1. 해당 작업에 꼭 필요한지 확인해 데이터 수집을 **최소화**하세요([데이터 최소화](https://en.wikipedia.org/wiki/Data_minimization)).
 
-2. **Ask for consent** from the data subject _before_ collecting any data, and make sure consent is explicit and informed.
+2. 데이터를 수집하기 _전에_ 정보 주체에게 **동의를 구하고**, 그 동의가 명시적이며 충분한 설명에 근거한 것인지 확인하세요.
 
-3. **Protect** the collected data with adequate and proportional security measures, ideally using [end-to-end encryption](https://en.wikipedia.org/wiki/End-to-end_encryption) every time this is possible.
+3. 수집한 데이터는 적절하고 비례적인 보안 조치로 **보호하고**, 가능할 때마다 [종단 간 암호화](https://en.wikipedia.org/wiki/End-to-end_encryption)를 사용하는 것이 이상적입니다.
 
-   - If this data needs to be shared with a third-party or a service provider, obtain data subject's consent prior to sharing, and verify the third-party or service provider offers adequate protections and proper deletion mechanisms.
+   - 이 데이터를 제3자나 서비스 제공업체와 공유해야 한다면, 공유하기 전에 정보 주체의 동의를 받고 해당 제3자나 서비스 제공업체가 적절한 보호와 올바른 삭제 방법을 제공하는지 확인하세요.
 
-4. **Delete** the data as soon as it isn't needed anymore, and ensure deletion is done thoroughly.
+4. 데이터가 더 이상 필요하지 않으면 즉시 **삭제하고**, 완전히 삭제되었는지 확인하세요.
 
-### Some practices to normalize in our advocacy work
+### 옹호 활동에서 당연하게 만들어야 할 실천
 
-- [x] Asking for consent before sharing someone's information (legal name, location, contact information, photos, etc.).
+- [x] 다른 사람의 정보(법적 이름, 위치, 연락처, 사진 등)를 공유하기 전에 동의를 구하기.
 
-- [x] Asking people what name and pronouns they want to be referred to publicly.
+- [x] 공개적으로 어떤 이름과 대명사로 불리고 싶은지 묻기.
 
-- [x] Asking people how (and if) they would like to be credited publicly.
+- [x] 공개적으로 어떻게 (그리고 원하는지) 이름을 밝혀 주기를 원하는지 묻기.
 
-- [x] Asking for permission before using the quote of someone else in our own work.
+- [x] 다른 사람의 말을 우리 작업에 인용하기 전에 허락을 구하기.
 
-- [x] Asking for permission before publishing a screenshot of someone else's post.
+- [x] 다른 사람의 게시물 스크린숏을 게시하기 전에 허락을 구하기.
 
-- [x] Respecting people's choices to show their face publicly or not.
+- [x] 얼굴을 공개할지 말지에 대한 사람들의 선택을 존중하기.
 
-- [x] Asking for consent before taking photos at meetups or events.
+- [x] 모임이나 행사에서 사진을 찍기 전에 동의를 구하기.
 
-- [x] Blurring the faces of strangers in crowd photos (especially for children).
+- [x] 군중 사진 속 낯선 사람의 얼굴을 흐리게 처리하기(특히 아이들).
 
-- [x] Using consent badges for photo permission at event, or ideally forbidding taking nonconsensual photos entirely.
+- [x] 행사에서 사진 촬영 동의 배지를 사용하거나, 가장 좋게는 동의 없는 사진 촬영을 아예 금지하기.
 
-- [x] Warning people in advance when there are recording technologies on premise (such as smart speakers or other recording devices).
+- [x] 현장에 녹음·녹화 기술(스마트 스피커나 기타 녹음 기기 등)이 있다면 미리 알리기.
 
-- [x] Not requiring guests to sign up for events. Making sure all the information is public, without requiring to provide any personal information in order to participate.
+- [x] 행사 참석에 사전 등록을 요구하지 않기. 참여하는 데 개인정보를 제공할 필요 없이 모든 정보를 공개해 두기.
 
-## More resources
+## 추가 자료
 
-- [Data is a toxic asset (_Bruce Schneier_)](https://www.schneier.com/blog/archives/2016/03/data_is_a_toxic.html)
+- [데이터는 유독 자산입니다 (_브루스 슈나이어_)](https://www.schneier.com/blog/archives/2016/03/data_is_a_toxic.html)
 
-- [The importance of protecting the data of others (_Privacy Guides_)](https://www.privacyguides.org/articles/2025/03/10/the-privacy-of-others/)
+- [다른 사람의 데이터를 보호하는 것이 중요한 이유 (_프라이버시 가이드_)](https://www.privacyguides.org/articles/2025/03/10/the-privacy-of-others/)

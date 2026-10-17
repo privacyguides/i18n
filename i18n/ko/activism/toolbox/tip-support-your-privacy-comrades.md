@@ -1,60 +1,60 @@
 ---
-title: Support Your Privacy Comrades
-description: Fighting for privacy rights is a collective endeavor. This battle can be difficult and isolating at time. That's why it's critical to care for each other.
+title: 프라이버시 동지 지원하기
+description: 프라이버시 권리를 위한 싸움은 함께하는 노력입니다. 이 싸움은 때로 힘들고 외로울 수 있습니다. 그래서 서로를 돌보는 것이 무엇보다 중요합니다.
 icon: fontawesome/solid/hand-holding-heart
 cover: activism/banner-toolbox-tip-support.webp
 ---
 
-Fighting for better privacy rights, privacy tools, and privacy practices is a collective endeavor. You cannot do it alone. Anyone around you contributing is fighting the same battle by your side. This battle _can_ be difficult and isolating at times. That's why it's critical to care for each other.
+더 나은 프라이버시 권리, 프라이버시 도구, 프라이버시 관행을 위한 싸움은 함께하는 노력입니다. 혼자서는 할 수 없습니다. 주변에서 기여하는 모든 사람이 여러분 곁에서 같은 싸움을 하고 있습니다. 이 싸움은 때로 힘들고 외로울 _수 있습니다_. 그래서 서로를 돌보는 것이 무엇보다 중요합니다.
 
-Here are things you can do to **support your privacy comrades**:
+**프라이버시 동지들을 지원하기** 위해 할 수 있는 일은 다음과 같습니다:
 
-## Fighting for privacy rights can be isolating in unique ways
+## 프라이버시 권리를 위한 싸움은 독특한 방식으로 사람을 고립시킬 수 있습니다
 
-We live in a world of social connections. Regrettably, when we moved these connections online, we also gave power to large corporations to monitor and monetize our social relationships and communications.
+우리는 사회적 관계 속에서 살아갑니다. 안타깝게도 이런 관계를 온라인으로 옮기면서, 우리는 대기업이 우리의 사회적 관계와 소통을 감시하고 돈벌이에 이용할 힘도 함께 넘겨주었습니다.
 
-Many privacy advocates will choose, rightly so, to completely [leave](tip-migrate-outside-the-surveillance-ecosystem.md) those abusive platforms. Sadly, a side effect of this is often severed relationships with loved ones, who refuse to join us on better, privacy-respectful environments. It's unfortunately common to lose friends when we quit Facebook, or refuse to join a Discord server. Taking a stand for our privacy values can come at the cost of some painful social losses.
+많은 프라이버시 옹호자가 이런 남용적인 플랫폼을 완전히 [떠나기로](tip-migrate-outside-the-surveillance-ecosystem.md) 선택하며, 이는 옳은 선택입니다. 안타깝게도 그 부작용으로, 프라이버시를 존중하는 더 나은 환경으로 함께 옮기기를 거부하는 소중한 사람들과의 관계가 끊어지는 경우가 많습니다. 페이스북을 탈퇴하거나 디스코드 서버에 가입하기를 거부하면 친구를 잃는 일도 안타깝지만 흔합니다. 프라이버시 가치를 지키는 대가로 고통스러운 사회적 상실을 겪을 수도 있습니다.
 
-Moreover, fighting to protect privacy rights while reading about attacks on those rights every day in the news can be draining.
+게다가 매일 뉴스에서 프라이버시 권리에 대한 공격 소식을 접하며 그 권리를 지키기 위해 싸우다 보면 지칠 수 있습니다.
 
-Most advocates have experienced moments of great discouragement, and feelings of helplessness while facing the magnitude of the task at hand. ==Social support is a matter of survival== to recharge and continue this long battle for human rights.
+대부분의 옹호자는 눈앞에 놓인 과제의 규모 앞에서 크게 낙담하고 무력감을 느낀 순간을 경험해 봤습니다. 인권을 위한 이 긴 싸움을 이어 가고 재충전하려면 ==사회적 지지는 생존의 문제입니다==.
 
-This is why we must work to rebuild communities of our own. Supportive privacy communities that are [kind](tip-be-kind-to-people-but-be-relentless-with-institutions.md), [inclusive](tip-keep-your-posts-and-community-inclusive.md), and [accessible](tip-be-mindful-of-accessibility.md).
+그렇기 때문에 우리만의 커뮤니티를 다시 만들어 가야 합니다. [친절하고](tip-be-kind-to-people-but-be-relentless-with-institutions.md), [포용적이며](tip-keep-your-posts-and-community-inclusive.md), [접근하기 쉬운](tip-be-mindful-of-accessibility.md), 서로를 지지하는 프라이버시 커뮤니티 말이죠.
 
-## Stay vigilant to spot signs of distress and fatigue
+## 고통과 피로의 신호를 놓치지 않도록 늘 살피세요
 
-Whether you are participating in a [privacy-oriented forum](https://discuss.privacyguides.net/) or reading posts and replies of your privacy comrades on social media, pay attention to potential signs of distress.
+[프라이버시 중심 포럼](https://discuss.privacyguides.net/)에 참여하든, 소셜 미디어에서 프라이버시 동지들의 게시물과 답글을 읽든, 고통의 신호가 보이지 않는지 주의를 기울이세요.
 
-Some people will periodically take time off from the internet to rest, which can be very healthy at time. But others might isolate from fatigue and discouragement. Keep your eyes open, and try to develop your compassion whenever you read comments that could be a clue someone is at the end of their rope, and in need of support.
+어떤 사람들은 쉬기 위해 주기적으로 인터넷을 멀리하는데, 이는 때로 아주 건강한 일일 수 있습니다. 하지만 피로와 낙담 때문에 스스로를 고립시키는 사람도 있을 수 있습니다. 누군가 한계에 다다라 도움이 필요하다는 단서가 될 수 있는 글을 볼 때마다, 눈을 크게 뜨고 연민의 마음을 키우도록 노력하세요.
 
-## Help whenever you can
+## 할 수 있을 때마다 도우세요
 
-Here are a few things you can do to support your privacy comrades in times of need:
+힘든 시기에 프라이버시 동지들을 지원하기 위해 할 수 있는 몇 가지 일을 소개합니다:
 
-- [x] Work on strengthening your empathy skills, and demonstrate more compassion. This is a superpower to take care of your community.
+- [x] 공감 능력을 키우고, 더 많은 연민을 보여 주세요. 이는 커뮤니티를 돌보는 초능력입니다.
 
-- [x] Tell them you understand this is difficult, and that you are here to help if they need support.
+- [x] 힘든 상황임을 이해한다고, 도움이 필요하면 언제든 돕겠다고 말해 주세요.
 
-- [x] Ask if they would like to talk more about their difficulties in private.
+- [x] 어려움에 대해 따로 더 이야기하고 싶은지 물어보세요.
 
-- [x] Offer your time to talk with them on a privacy-respectful chat, audio, or video call, if this is something you are comfortable doing.
+- [x] 여러분이 편하다면, 프라이버시를 존중하는 채팅, 음성 통화, 영상 통화로 이야기를 나눌 시간을 내 주세요.
 
-- [x] Invite them to join your community or group of like-minded people, if you think they might be a good fit.
+- [x] 잘 맞을 것 같다면, 여러분의 커뮤니티나 마음이 맞는 사람들의 모임에 초대하세요.
 
-- [x] Organize a group or event to socialize with your privacy comrades regularly, offline or online, in a privacy-respectful way.
+- [x] 오프라인이든 온라인이든 프라이버시를 존중하는 방식으로, 프라이버시 동지들과 정기적으로 어울릴 수 있는 모임이나 행사를 마련하세요.
 
-- [x] Depending on circumstances (and only if they might be open to it), refer them to a helpful resource in private. However, be careful not to fall into [the advice trap](https://www.psychologytoday.com/us/blog/the-questionologist/202103/how-guide-people-without-giving-advice), unless they specifically asked for advice.
+- [x] 상황에 따라(그리고 상대가 받아들일 마음이 있을 때만), 개인적으로 도움이 될 만한 자료를 알려 주세요. 다만 상대가 직접 조언을 구하지 않는 한 [조언의 함정](https://www.psychologytoday.com/us/blog/the-questionologist/202103/how-guide-people-without-giving-advice)에 빠지지 않도록 주의하세요.
 
-- [x] Stay kind and do not take it personally if they refuse your help or disagree with your [_solicited_ advice](https://www.verywellmind.com/whats-behind-different-types-of-unsolicited-advice-3144961). Let them know the door is always open to reach out to you whenever they might need help later.
+- [x] 상대가 도움을 거절하거나 여러분의 [_요청받은_ 조언](https://www.verywellmind.com/whats-behind-different-types-of-unsolicited-advice-3144961)에 동의하지 않더라도, 친절함을 유지하고 개인적으로 받아들이지 마세요. 나중에라도 도움이 필요하면 언제든 연락할 수 있도록 문이 항상 열려 있다고 알려 주세요.
 
-## More resources
+## 추가 자료
 
-- [_Privacy Guides_ Forum](https://discuss.privacyguides.net/)
+- [_프라이버시 가이드_ 포럼](https://discuss.privacyguides.net/)
 
-- [What is empathy, and tips for strengthening your empathy skills (_Verywell Mind_)](https://www.verywellmind.com/what-is-empathy-2795562)
+- [공감이란 무엇이며 공감 능력을 키우는 팁 (_베리웰 마인드_)](https://www.verywellmind.com/what-is-empathy-2795562)
 
-- [How to guide people without giving advice (_Psychology Today_)](https://www.psychologytoday.com/us/blog/the-questionologist/202103/how-guide-people-without-giving-advice)
+- [조언하지 않고 사람들을 이끄는 방법 (_사이콜로지 투데이_)](https://www.psychologytoday.com/us/blog/the-questionologist/202103/how-guide-people-without-giving-advice)
 
-- [Take care and prevent an activist burnout (_Activist Handbook_)](https://activisthandbook.org/wellbeing)
+- [자신을 돌보고 활동가 번아웃 예방하기 (_액티비스트 핸드북_)](https://activisthandbook.org/wellbeing)
 
-- [Build communities on privacy-respectful social networks, and invite your privacy comrades to join you there (_Privacy Guides_)](tip-improve-your-social-media-and-build-resilient-communities.md)
+- [프라이버시를 존중하는 소셜 네트워크에서 커뮤니티를 만들고 프라이버시 동지들을 초대하세요 (_프라이버시 가이드_)](tip-improve-your-social-media-and-build-resilient-communities.md)

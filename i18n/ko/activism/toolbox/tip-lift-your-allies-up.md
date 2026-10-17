@@ -1,37 +1,37 @@
 ---
-title: Lift Your Allies Up
-description: The battle for privacy rights is difficult, and its defenders are scattered. This is why it's essential to support and uplift each other, every time we can.
+title: 동료 북돋아 주기
+description: 프라이버시 권리를 위한 싸움은 어렵고, 이를 지키는 사람들은 흩어져 있습니다. 그렇기 때문에 기회가 있을 때마다 서로를 지지하고 북돋아 주는 것이 꼭 필요합니다.
 icon: fontawesome/solid/hand-holding-hand
 cover: activism/banner-toolbox-tip-lift.webp
 ---
 
-At times, it might feel like the privacy community is niche and isolated.
+때로는 프라이버시 커뮤니티가 소수의 고립된 집단처럼 느껴질 수도 있습니다.
 
-The battle for privacy rights is difficult, and its defenders are scattered and spread out all around the world. This is why it's essential that we **support and uplift each other**, every time we can.
+프라이버시 권리를 위한 싸움은 어렵고, 이를 지키는 사람들은 전 세계 곳곳에 흩어져 있습니다. 그렇기 때문에 기회가 있을 때마다 **서로를 지지하고 북돋아 주는 것**이 꼭 필요합니다.
 
-Here's how you can lift your allies up, and help to grow the movement:
+동료를 북돋우고 운동을 키우는 데 보탬이 되는 방법은 다음과 같습니다:
 
-## Your allies share your goals
+## 동료들은 여러분과 같은 목표를 가지고 있습니다
 
-It's easy to get lost in our own niche advocacy, and lose track of what others in our community are working on.
+자신만의 좁은 옹호 활동에 빠져, 커뮤니티의 다른 사람들이 무슨 일을 하고 있는지 놓치기 쉽습니다.
 
-Nevertheless, if we want to [**build a movement**](tip-start-alliances-not-wars.md) (and to succeed, we must) we need all the help we can get, from every person and organization sharing our values.
+그렇지만 [**운동을 만들어 가려면**](tip-start-alliances-not-wars.md)(그리고 성공하려면 반드시 그래야 합니다) 우리의 가치를 공유하는 모든 사람과 단체로부터 받을 수 있는 모든 도움이 필요합니다.
 
-- [x] Whenever you see an organization with a campaign compatible with your mission, lift them up!
+- [x] 여러분의 사명과 맞는 캠페인을 펼치는 단체를 보면 언제든 북돋아 주세요!
 
-- [x] Even if you are an organization yourself, lift others up too!
+- [x] 여러분 자신이 단체라 해도, 다른 단체를 북돋아 주세요!
 
-- [x] Even if you are also working on a similar project, lift them up with you!
+- [x] 여러분도 비슷한 프로젝트를 하고 있더라도, 그들을 함께 북돋아 주세요!
 
-It doesn't matter if you are working on something comparable yourself, or if perhaps you would word their work slightly differently. As long as the message is aligned with your mission and values, spread the words of your allies loud and far!
+여러분이 비슷한 일을 하고 있든, 여러분이라면 조금 다르게 표현했을 내용이든 상관없습니다. 메시지가 여러분의 사명 및 가치와 일치한다면, 동료들의 목소리를 크고 널리 퍼뜨리세요!
 
-By lifting each other up, we will broaden the reach of the message we share, and ultimately this serves our goals and our community too.
+서로를 북돋아 주면 우리가 공유하는 메시지가 더 멀리 닿게 되고, 결국 이는 우리의 목표와 커뮤니티에도 도움이 됩니다.
 
-In privacy advocacy, we truly need to adopt the mindset: ==The more, the merrier.==
+프라이버시 옹호 활동에서는 진심으로 이런 마음가짐을 가져야 합니다. ==많을수록 좋다.==
 
-## Concrete ways to support and lift your allies up
+## 동료를 지지하고 북돋아 주는 구체적인 방법
 
-There are infinite ways to lift your allies up. Here are some ideas to get you started, whether you are an independent advocate, a digital rights organization, or a privacy-focused business:
+동료를 북돋아 주는 방법은 무궁무진합니다. 독립적인 옹호자든, 디지털 권리 단체든, 프라이버시 중심 기업이든 시작하는 데 도움이 될 몇 가지 아이디어를 소개합니다:
 
 <style>
 .emoji-list-a ul {
@@ -45,22 +45,22 @@ There are infinite ways to lift your allies up. Here are some ideas to get you s
 
 <div class="emoji-list-a" markdown>
 
-- When an organization or business sharing you values starts a campaign, repost them on social media. Additionally, you can quote them or write about it yourself, while linking to their profile and campaign. Boost them up!
+- 여러분과 가치를 공유하는 단체나 기업이 캠페인을 시작하면 소셜 미디어에 공유하세요. 또한 그들의 프로필과 캠페인을 링크하면서 직접 인용하거나 관련 글을 써도 좋습니다. 힘을 실어 주세요!
 
-- If you are a writer, regularly link to material created by other trustworthy organizations and people sharing your values, while giving them credit.
+- 글을 쓰는 사람이라면, 여러분과 가치를 공유하는 신뢰할 수 있는 단체와 사람들이 만든 자료를 출처를 밝혀 꾸준히 링크하세요.
 
-- When an individual creates material favorable to your organization or project, take the time to repost them and thank them. This is bringing more people to your cause, without any work on your side!
+- 누군가 여러분의 단체나 프로젝트에 우호적인 자료를 만들었다면, 시간을 내어 공유하고 감사를 전하세요. 여러분이 따로 노력하지 않아도 더 많은 사람을 대의로 이끌어 주는 셈입니다!
 
-- Change your mindset from competition to collaboration. See your peers as people fighting by your side. Whenever they win, you win too. Congratulate them on their successes, and support them in times of need.
+- 경쟁이 아니라 협력하는 마음가짐으로 바꾸세요. 동료들을 여러분 곁에서 함께 싸우는 사람들로 바라보세요. 그들이 이기면 여러분도 이기는 것입니다. 그들의 성공을 축하하고, 어려울 때는 힘이 되어 주세요.
 
-- When you see that your allies need help with an expertise you have, try to offer your time and resources if you can afford it.
+- 여러분이 가진 전문성이 동료에게 필요해 보인다면, 여유가 되는 한 시간과 자원을 나눠 주세요.
 
-- When reaching out to your community, talk about your allies' work as well, and help people discover new resources. Everyone has different ways to absorb new information. Perhaps you can help others find resources that are more compatible with their needs, even if it's not your material. You are not losing a member when you refer people externally, you are winning, because you are contributing to grow the movement.
+- 커뮤니티에 이야기할 때는 동료들의 활동도 함께 소개해, 사람들이 새로운 자료를 발견할 수 있도록 도와주세요. 새로운 정보를 받아들이는 방식은 사람마다 다릅니다. 여러분의 자료가 아니더라도, 다른 사람들이 자신의 필요에 더 잘 맞는 자료를 찾도록 도와줄 수 있을지도 모릅니다. 사람들을 외부로 안내한다고 해서 구성원을 잃는 것이 아닙니다. 운동을 키우는 데 기여하고 있으니 오히려 이기는 것입니다.
 
 </div>
 
-## More resources
+## 추가 자료
 
-- [Bits of Freedom & Privacy Guides partnership announcement (_Privacy Guides_)](https://www.privacyguides.org/posts/2025/10/08/privacy-guides-bits-of-freedom-partnering-to-enhance-fixjeprivacy-nl/)
+- [비츠 오브 프리덤과 프라이버시 가이드의 파트너십 발표 (_프라이버시 가이드_)](https://www.privacyguides.org/posts/2025/10/08/privacy-guides-bits-of-freedom-partnering-to-enhance-fixjeprivacy-nl/)
 
-- [The Tor Project's allies uplifting Tor together (_Tor Project_ short video)](https://www.youtube.com/shorts/-hFNMlsePsc)
+- [토르 프로젝트를 함께 북돋아 주는 동료들 (_토르 프로젝트_ 짧은 영상)](https://www.youtube.com/shorts/-hFNMlsePsc)

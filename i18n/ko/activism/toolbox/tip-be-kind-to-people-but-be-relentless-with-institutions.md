@@ -1,52 +1,52 @@
 ---
-title: Be Kind to People, But Be Relentless With Institutions
-description: Kindness and patience are essential qualities for privacy advocates. To grow our movement, we must meet people from a place of camaraderie.
+title: 사람에게는 친절하게, 기관에는 단호하게
+description: 친절과 인내는 프라이버시 옹호자에게 꼭 필요한 자질입니다. 우리 운동을 키우려면 동료애를 바탕으로 사람들에게 다가가야 합니다.
 icon: fontawesome/solid/hands-holding-circle
 cover: activism/banner-toolbox-tip-kind.webp
 ---
 
-Kindness and patience are essential qualities for privacy advocates. To grow our movement, we must meet people from a place of camaraderie. People don't change their mind by being berated. However, this isn't true for institutions.
+친절과 인내는 프라이버시 옹호자에게 꼭 필요한 자질입니다. 우리 운동을 키우려면 동료애를 바탕으로 사람들에게 다가가야 합니다. 사람들은 꾸중을 듣는다고 생각을 바꾸지 않습니다. 하지만 기관은 사정이 다릅니다.
 
-Here's how you can **integrate kindness in your work**, while being relentless with institutions:
+기관에는 단호하게 대하면서도 **활동에 친절함을 녹여내는** 방법은 다음과 같습니다:
 
-## Use kindness and patience while working with individuals
+## 개인을 대할 때는 친절과 인내로
 
-Whenever you talk with individuals in your privacy work, make sure to **stay kind and calm** when communicating with them.
+프라이버시 활동을 하면서 개인과 대화할 때는 언제나 **친절하고 침착한 태도**를 유지하세요.
 
-Perhaps you are posting on social media, replying to posts or emails, answering questions after a talk, or writing advices on the best privacy tools to use. No matter the context, when communicating with individuals, ==kindness is your greatest asset== to persuade and bring more people to the movement.
+소셜 미디어에 글을 올리거나, 게시물이나 이메일에 답장하거나, 강연 후 질문에 답하거나, 어떤 프라이버시 도구를 쓰면 좋을지 조언을 쓰고 있을 수도 있습니다. 어떤 상황이든 개인과 소통할 때 ==친절은 여러분의 가장 큰 자산==으로, 사람들을 설득하고 더 많은 이들을 운동에 동참시키는 힘이 됩니다.
 
-Sadly, it's not rare to see replies to beginners' posts by more advanced peers online that are humiliating and berating their uninformed or misinformed questions. People don't learn and don't change their mind by being yelled at. Aggression isn't an effective way to communicate.
+안타깝게도 온라인에서는 숙련된 사람들이 초보자의 게시물에, 잘 모르거나 잘못 알고 한 질문을 두고 모욕하고 꾸짖는 답글을 다는 모습을 드물지 않게 볼 수 있습니다. 사람들은 고함을 듣는다고 배우거나 생각을 바꾸지 않습니다. 공격적인 태도는 효과적인 소통 방식이 아닙니다.
 
-Furthermore, aggression is a horrible strategy to bring more people to your cause, which should be your ultimate goal as a privacy rights advocate and activist.
+게다가 공격적인 태도는 더 많은 사람을 대의에 동참시키는 데 최악의 전략인데, 바로 그것이 프라이버시 권리 옹호자이자 활동가로서 여러분의 궁극적인 목표여야 합니다.
 
-Instead, be gentle and [develop your empathy skills](https://www.verywellmind.com/what-is-empathy-2795562). Write from a place of compassion, to gradually attract more and more [new people](tip-welcome-beginners.md) to the cause.
+대신 부드럽게 대하고 [공감 능력을 키우세요](https://www.verywellmind.com/what-is-empathy-2795562). 따뜻한 마음으로 글을 써서, 점점 더 많은 [새로운 사람들](tip-welcome-beginners.md)이 대의에 함께하도록 이끄세요.
 
-Stay patient and compassionate, even when people ask questions that might sound obvious to you. Be patient when people don't understand the first time you explain something. Happily clarify with simpler terms when needed, without being condescending.
+여러분에게는 뻔하게 들리는 질문을 받더라도 인내심과 따뜻한 마음을 유지하세요. 처음 설명했을 때 상대가 이해하지 못하더라도 참을성 있게 기다려 주세요. 필요하다면 상대를 깔보지 말고 기꺼이 더 쉬운 말로 다시 설명해 주세요.
 
-Accept that some people might not be able to adopt all of your suggestions at once. It's okay, let them grow at their own pace.
+어떤 사람들은 여러분의 제안을 한꺼번에 모두 받아들이지 못할 수도 있다는 점을 받아들이세요. 괜찮습니다. 각자의 속도대로 성장하도록 두세요.
 
-Give time for ideas to brew and change minds. Plant seeds for change, and gently wait for growth.
+생각이 무르익고 마음이 바뀔 시간을 주세요. 변화의 씨앗을 심고, 자라나기를 느긋하게 기다리세요.
 
-## Be relentless with corporations, governments, and public institutions
+## 기업, 정부, 공공기관에는 단호하게
 
-While patience and kindness are crucial to bring your message the right way to individuals, institutions do not function the same way.
+개인에게 메시지를 올바르게 전달하려면 인내와 친절이 중요하지만, 기관은 같은 방식으로 움직이지 않습니다.
 
-Whether you are trying to report a privacy-abusive corporate practice, push back against an invasive regulation proposal, or raise awareness about a public institution's privacy malpractices, you must be firm, loud, and determined.
+프라이버시를 침해하는 기업 관행을 신고하든, 침해적인 규제안에 맞서든, 공공기관의 잘못된 프라이버시 관행을 알리든, 여러분은 단호하고, 목소리를 높이고, 결연해야 합니다.
 
-Respect and politeness are vital here as well. Violence or threat to representatives of these institutions would only be detrimental to your goals. However, patience shouldn't be extended to privacy-abusive organizations that aren't demonstrating any realistic intentions to improve.
+이때도 존중과 예의는 반드시 지켜야 합니다. 이러한 기관의 관계자에게 폭력을 쓰거나 위협하는 것은 여러분의 목표에 해가 될 뿐입니다. 하지만 개선하려는 현실적인 의지를 전혀 보이지 않는, 프라이버시를 침해하는 조직에까지 인내심을 베풀 필요는 없습니다.
 
-\==To bring significant changes to institutions and corporations, your message must be loud and clear.==
+\==기관과 기업에 의미 있는 변화를 가져오려면 메시지가 크고 분명해야 합니다.==
 
-You should try to bring as many people and allied organizations to your cause, and be as loud as possible in the media. Your campaign must be powerful enough to grab media's attention, and to send a firm message that the people want change and will not back down.
+최대한 많은 사람과 연대 단체를 대의에 끌어들이고, 언론에서 최대한 크게 목소리를 내야 합니다. 여러분의 캠페인은 언론의 관심을 끌 만큼 강력해야 하며, 시민들이 변화를 원하고 물러서지 않을 것이라는 단호한 메시지를 전달해야 합니다.
 
-Each time your message is ignored, and the abuse continues, **shout louder** (metaphorically). Bring even _more_ people to the cause, until the popular discontent is so strong that they have no choice but to stop the abuse.
+메시지가 무시되고 침해가 계속될 때마다 (비유적으로) **더 크게 외치세요**. 대중의 불만이 너무 커서 그들이 침해를 멈출 수밖에 없을 때까지, _더 많은_ 사람을 대의에 동참시키세요.
 
-## More resources
+## 추가 자료
 
-- [Rich resource for campaign strategy and community organizing (The Commons Social Change Library)](https://commonslibrary.org/)
+- [캠페인 전략과 커뮤니티 조직에 관한 풍부한 자료 (커먼스 소셜 체인지 라이브러리)](https://commonslibrary.org/)
 
-- [Campaign canvas template (Mobilisation Lab)](https://mobilisationlab.org/resources/campaign-canvas/)
+- [캠페인 캔버스 템플릿 (모빌라이제이션 랩)](https://mobilisationlab.org/resources/campaign-canvas/)
 
-- [Campaigning guides for activists (Activist Handbook)](https://activisthandbook.org/)
+- [활동가를 위한 캠페인 가이드 (액티비스트 핸드북)](https://activisthandbook.org/)
 
-- [How to do public speaking for activism (Activist Handbook)](https://activisthandbook.org/communication/public-speaking)
+- [활동을 위한 대중 연설 방법 (액티비스트 핸드북)](https://activisthandbook.org/communication/public-speaking)

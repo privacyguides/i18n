@@ -15,7 +15,7 @@ cover: alternative-networks.webp
 
 When it comes to anonymizing networks, we want to specially note that [Tor](advanced/tor-overview.md) is our top choice. It is by far the most utilized, robustly studied, and actively developed anonymous network. Using other networks could be more likely to endanger your [:material-incognito: Anonymity](basics/common-threats.md#anonymity-vs-privacy){ .pg-purple }, unless you know what you're doing.
 
-### Tor
+### 토르
 
 <div class="admonition recommendation" markdown>
 

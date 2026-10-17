@@ -1,74 +1,74 @@
 ---
-title: Level Up! Assemble and Organize
-description: If you've been a privacy advocate for a while, maybe it's time to level up and grow as a leader in your community. Good leaders can benefit the whole movement.
+title: 레벨 업! 모이고 조직하기
+description: 프라이버시 옹호 활동을 한동안 해 왔다면, 이제 레벨 업해서 커뮤니티의 리더로 성장할 때인지도 모릅니다. 좋은 리더는 운동 전체에 도움이 될 수 있습니다.
 icon: fontawesome/solid/fist-raised
 cover: activism/banner-toolbox-tip-organize.webp
 ---
 
-If you've been a privacy advocate for a while, maybe it's time to level up and **grow as a leader** in your community.
+프라이버시 옹호 활동을 한동안 해 왔다면, 이제 레벨 업해서 커뮤니티의 **리더로 성장할** 때인지도 모릅니다.
 
-Becoming a leader can mean many things. Maybe for you, it's starting a local meetup, preparing educational workshops, organizing an event or protest, initiating online projects with a team, or even starting your own organization!
+리더가 된다는 것은 여러 가지를 의미할 수 있습니다. 여러분에게는 지역 모임을 시작하는 것, 교육 워크숍을 준비하는 것, 행사나 시위를 조직하는 것, 팀과 함께 온라인 프로젝트를 시작하는 것, 혹은 직접 단체를 세우는 것일 수도 있습니다!
 
-Here's what you can do to become a _good_ leader in the privacy rights movement:
+프라이버시 권리 운동에서 _좋은_ 리더가 되기 위해 할 수 있는 일은 다음과 같습니다:
 
-## Becoming a leader
+## 리더 되기
 
-There are many styles and scales of leadership. It could mean starting small by initiating actions that require fewer resources, or it can scale up to directing larger campaigns and organizations.
+리더십에는 다양한 스타일과 규모가 있습니다. 자원이 덜 드는 행동부터 시작해 작게 출발할 수도 있고, 더 큰 캠페인과 단체를 이끄는 규모로 키워 갈 수도 있습니다.
 
-Regardless of the scale, it's important to become a _good_ leader to lift your community up, which will benefit the whole movement.
+규모와 상관없이 커뮤니티를 북돋우는 _좋은_ 리더가 되는 것이 중요하며, 이는 운동 전체에 도움이 됩니다.
 
-Becoming a positive leader in your community doesn't mean running everything, and it doesn't mean being the only one taking decisions while telling others what to do either. First and foremost, ==it means supporting and inspiring people== to become the best privacy advocates they can be.
+커뮤니티에서 긍정적인 리더가 된다는 것은 모든 것을 운영한다는 뜻도, 다른 사람에게 할 일을 지시하면서 혼자 결정을 내린다는 뜻도 아닙니다. 무엇보다 ==사람들을 지원하고 영감을 주어== 그들이 최고의 프라이버시 옹호자가 될 수 있도록 돕는다는 뜻입니다.
 
-## Supporting others
+## 다른 사람 지원하기
 
-Being a good leader is primarily being a good listener. A good leader will be attuned to their community, and support community members in reaching their full potential.
+좋은 리더가 된다는 것은 무엇보다 좋은 경청자가 된다는 것입니다. 좋은 리더는 커뮤니티에 귀를 기울이고, 커뮤니티 구성원이 잠재력을 최대한 발휘하도록 지원합니다.
 
-A good leader maximizes the activism strength and energy of each member. This allows the community to thrive, and multiplies the positive impact of everyone's effort.
+좋은 리더는 각 구성원의 활동 역량과 에너지를 최대한 끌어냅니다. 이를 통해 커뮤니티가 번성하고, 모두의 노력이 가져오는 긍정적인 영향이 몇 배로 커집니다.
 
 <div class="admonition quote toolbox-quote" markdown>
-<p class="admonition-title toolbox-quote">Good leaders are the key to community organizing. They do not tell other people what to do, but help others to take charge. They do not grab center stage, but nudge others into the limelight.</p>
+<p class="admonition-title toolbox-quote">좋은 리더는 커뮤니티 조직의 핵심입니다. 그들은 다른 사람에게 할 일을 지시하지 않고, 다른 사람이 주도할 수 있도록 돕습니다. 그들은 무대 중앙을 차지하지 않고, 다른 사람이 주목받도록 슬며시 밀어 줍니다.</p>
 
-<p class="toolbox-quote-source" markdown>Source: [The Citizen's Handbook](https://citizenshandbook.org/1_08_lead.html)</p>
+<p class="toolbox-quote-source" markdown>출처: [시티즌스 핸드북](https://citizenshandbook.org/1_08_lead.html)</p>
 
 </div>
 
-## Keys to positive leadership
+## 긍정적인 리더십의 핵심
 
-Good leaders are like conductors. An orchestra conductor doesn't try to play each instrument by themselves, they trust the musicians to play each part on their own.
+좋은 리더는 지휘자와 같습니다. 오케스트라 지휘자는 모든 악기를 혼자 연주하려 하지 않고, 연주자들이 각자 자기 파트를 연주하리라 믿습니다.
 
-A good conductor ensures that each part is played in harmony with each other, to form a coherent whole, by communicating clearly and transparently with the musicians. They make sure that each musician has the tools and conditions they need to perform at the best of their skills, and always thank the musicians first when the audience applauds.
+좋은 지휘자는 연주자들과 명확하고 투명하게 소통하면서 각 파트가 서로 조화를 이루어 하나의 일관된 전체를 이루도록 합니다. 각 연주자가 기량을 최대한 발휘하는 데 필요한 도구와 환경을 갖추도록 하고, 관객이 박수를 보낼 때는 언제나 연주자들에게 먼저 감사를 전합니다.
 
-Here are a few tips that can help you become a positive leader in your community:
+커뮤니티에서 긍정적인 리더가 되는 데 도움이 될 몇 가지 팁을 소개합니다:
 
-- [x] **Learn to delegate work** and split-up tasks. Do not try to do it all by yourself. Delegating and trusting others to do the work will also help prevent activism burnout.
+- [x] **일을 맡기는 법**과 일을 나누는 법을 배우세요. 모든 것을 혼자 하려고 하지 마세요. 다른 사람을 믿고 일을 맡기면 활동가 번아웃을 예방하는 데에도 도움이 됩니다.
 
-- [x] **Trust the members of your group** according to their unique skill sets, and reach out to them when their [unique expertise](tip-value-allies-with-complementary-expertise.md) or experience is relevant to another part of the project.
+- [x] 각자의 고유한 역량에 따라 **그룹 구성원을 믿고**, 그들의 [고유한 전문성](tip-value-allies-with-complementary-expertise.md)이나 경험이 프로젝트의 다른 부분과 관련될 때는 그들에게 손을 내미세요.
 
-- [x] **Show appreciation** both in private and in public, and [give credit](tip-give-credit-where-credit-is-due.md) where credit is due. This is incredibly important to retain the dedicated members of your group, and to attract new advocates.
+- [x] 사적으로나 공개적으로나 **감사를 표하고**, 인정받아야 할 사람에게 [공로를 돌리세요](tip-give-credit-where-credit-is-due.md). 이는 헌신적인 구성원을 붙잡아 두고 새로운 옹호자를 끌어들이는 데 매우 중요합니다.
 
-- [x] **Inspire and support** your group members to reach their full potential, and to become the best privacy advocates they can be. Make sure their needs are met, and that they feel safe coming to you for requests.
+- [x] 그룹 구성원이 잠재력을 최대한 발휘하고 최고의 프라이버시 옹호자가 될 수 있도록 **영감을 주고 지원하세요**. 그들의 필요가 충족되는지, 그리고 여러분에게 요청하는 것을 편하게 느끼는지 확인하세요.
 
-- [x] **Build a team that is inclusive and diverse.** A [diverse team](tip-keep-your-posts-and-community-inclusive.md) will help your group gain a broader perspective, and be able to do more by having access to a diversity of experiences, skills, and networks. It will also help your message reach more people.
+- [x] **포용적이고 다양한 팀을 만드세요.** [다양한 팀](tip-keep-your-posts-and-community-inclusive.md)은 다양한 경험, 기술, 네트워크를 활용할 수 있어 그룹이 더 넓은 관점을 얻고 더 많은 일을 할 수 있게 해 줍니다. 또한 메시지가 더 많은 사람에게 닿는 데에도 도움이 됩니다.
 
-- [x] **Lead by example** adopting principles of [integrity](tip-stay-true-to-your-principles.md), transparency, and work-life balance. Valorize and exemplify these behaviors within your group.
+- [x] [진정성](tip-stay-true-to-your-principles.md), 투명성, 일과 삶의 균형이라는 원칙을 실천하며 **솔선수범하세요**. 그룹 안에서 이런 행동을 존중하고 몸소 보여 주세요.
 
-- [x] **Plan and organize projects transparently.** Make sure the members of your group are aware of the direction you have in mind, and that they support it. Avoiding surprises internally will make your members feel safer, and will help with retention and satisfaction.
+- [x] **프로젝트를 투명하게 계획하고 조직하세요.** 그룹 구성원들이 여러분이 생각하는 방향을 알고 이를 지지하는지 확인하세요. 내부에서 갑작스러운 일이 없도록 하면 구성원들이 더 안정감을 느끼고, 구성원 유지와 만족도에도 도움이 됩니다.
 
-- [x] **Regularly ask** the members of your group which tasks they prefer to do, and in which direction they want to go. Your group members should enjoy what they are doing, otherwise they will not stick around. Review this regularly, as situations can change and evolve.
+- [x] 그룹 구성원들에게 어떤 일을 하고 싶은지, 어떤 방향으로 나아가고 싶은지 **꾸준히 물어보세요**. 그룹 구성원들이 하는 일을 즐기지 못하면 오래 머물지 않을 것입니다. 상황은 바뀌고 변할 수 있으므로 이를 꾸준히 점검하세요.
 
-- [x] **Make sure your group members have all the rest and resources they need.** This is essential if you want a motivated team, with members that will invest the best of themselves in your group projects.
+- [x] **그룹 구성원들이 필요한 휴식과 자원을 모두 누리도록 하세요.** 의욕이 넘치고 그룹 프로젝트에 최선을 다하는 구성원으로 이루어진 팀을 원한다면 꼭 필요한 일입니다.
 
-- [x] **Organize leisure opportunities** for your group to discuss together about things other than work, and bound as a team. This will help improve communication, increase morale, and build better relationships within your group, as well as nurture a sense of belonging. Don't make this mandatory, however. Respect everyone's personal availabilities and boundaries.
+- [x] 그룹이 일 이외의 이야기를 나누며 팀으로서 유대를 쌓을 수 있도록 **여가 활동 기회를 마련하세요**. 이는 소통을 개선하고, 사기를 높이고, 그룹 내 관계를 돈독하게 하며, 소속감을 키우는 데 도움이 됩니다. 다만 강제로 참여하게 하지는 마세요. 각자의 사정과 경계를 존중하세요.
 
-- [x] **Be (temporarily) replaceable.** If all the work your group does depends on your presence, all your projects will stop when you need to rest. This is a recipe for disaster, because you need to be able to [take time off](tip-take-time-to-rest.md) as much as any other members of your group. Have a backup plan ready, and communicate it with your group in advance. That way, if you fall sick, have to travel, or need time to take care of your family for a while, you will be able to take the time you need. Until you come back, you will be able to rest fully without stress, knowing your projects will keep running well despite your absence.
+- [x] **(일시적으로) 대체 가능한 사람이 되세요.** 그룹의 모든 일이 여러분의 존재에 달려 있다면, 여러분이 쉬어야 할 때 모든 프로젝트가 멈추게 됩니다. 여러분도 다른 그룹 구성원과 마찬가지로 [휴식을 취할](tip-take-time-to-rest.md) 수 있어야 하므로, 이는 재앙으로 가는 지름길입니다. 대비책을 마련해 두고, 미리 그룹과 공유하세요. 그러면 아프거나, 출장을 가야 하거나, 한동안 가족을 돌봐야 할 때도 필요한 만큼 시간을 낼 수 있습니다. 여러분이 없어도 프로젝트가 잘 굴러갈 것이라는 사실을 알기에, 돌아올 때까지 스트레스 없이 푹 쉴 수 있습니다.
 
-## Bigger projects to organize
+## 조직해 볼 만한 더 큰 프로젝트
 
-There are so many ways to be a privacy activist, and so many types of actions that can help our movement.
+프라이버시 활동가가 되는 방법은 정말 다양하고, 우리 운동에 도움이 될 수 있는 행동의 종류도 정말 많습니다.
 
-In fact, it's important that we have a wide variety of initiatives to make this works. The more diverse our activism, the further we can spread the word and bring positive changes.
+사실 이 일이 잘 되려면 다양한 활동이 꼭 필요합니다. 활동이 다양할수록 메시지를 더 멀리 퍼뜨리고 긍정적인 변화를 가져올 수 있습니다.
 
-Here are a few ideas of actions you might want to consider in your privacy work:
+프라이버시 활동에서 고려해 볼 만한 행동 아이디어를 소개합니다:
 
 <style>
 .emoji-list-a ul {
@@ -82,84 +82,84 @@ Here are a few ideas of actions you might want to consider in your privacy work:
 
 <div class="emoji-list-a" markdown>
 
-- **Form a group to develop a website** to inform and facilitate concrete action from the public to fight against a privacy issue. As an example, visit this impactful [web project](https://fightchatcontrol.eu/) to fight Chat Control developed by Joachim.
+- 프라이버시 문제에 맞서 대중에게 정보를 제공하고 구체적인 행동을 쉽게 할 수 있도록 **그룹을 꾸려 웹사이트를 개발하세요**. 예를 들어 요아힘이 챗 컨트롤에 맞서기 위해 개발한 이 영향력 있는 [웹 프로젝트](https://fightchatcontrol.eu/)를 살펴보세요.
 
-- **Develop a web page to inform the public on a privacy issues**, and conduct research to provide a list of which businesses or institutions are participating in the invasive practice, and which ones have pledged not to. As an example, check out this amazing [web page](https://www.banfacialrecognition.com/stores/#scorecard) to ban facial recognition in stores created by Fight for The Future.
+- **프라이버시 문제를 대중에게 알리는 웹페이지를 만들고**, 어떤 기업이나 기관이 침해적인 관행에 참여하고 있고 어떤 곳이 참여하지 않겠다고 약속했는지 조사해 목록을 제공하세요. 예를 들어 파이트 포 더 퓨처가 만든, 매장 내 얼굴 인식 금지를 위한 이 멋진 [웹페이지](https://www.banfacialrecognition.com/stores/#scorecard)를 확인해 보세요.
 
-- **Organize a campaign** to fight a specific issue, and reach out to other organizations to take part in a coalition. As an example, check this [website](https://stopscanningme.eu/en/) to push back against Chat Control developed by European Digital Rights (EDRi).
+- 특정 문제에 맞서는 **캠페인을 조직하고**, 다른 단체들에 연락해 연합에 참여하도록 하세요. 예를 들어 유럽 디지털 권리(EDRi)가 챗 컨트롤에 맞서기 위해 개발한 이 [웹사이트](https://stopscanningme.eu/en/)를 확인해 보세요.
 
-- **Start a petition** collecting citizen signatures to push against a privacy-invasive law or legislative proposal. As an example, read about the [petition](https://www.openrightsgroup.org/publications/joint-briefing-petition-debate-on-repealing-the-online-safety-act/) to repeal the invasive UK Online Safety Act, signed by over 550,000 people.
+- 프라이버시를 침해하는 법률이나 법안에 맞서기 위해 시민 서명을 모으는 **청원을 시작하세요**. 예를 들어 55만 명이 넘는 사람이 서명한, 침해적인 영국 온라인 안전법 폐지를 위한 [청원](https://www.openrightsgroup.org/publications/joint-briefing-petition-debate-on-repealing-the-online-safety-act/)에 대해 읽어 보세요.
 
-- **Gather experts to publicly support an open letter** opposing a privacy issue or supporting a privacy solution, and share it with the media. As an example, read this [open letter](https://csa-scientist-open-letter.org/Sep2025) opposing a Chat Control proposal, signed by over 800 scientists and researchers.
+- 프라이버시 문제에 반대하거나 프라이버시 해결책을 지지하는 **공개서한을 전문가들과 함께 공개적으로 지지하고**, 언론과 공유하세요. 예를 들어 800명이 넘는 과학자와 연구자가 서명한, 챗 컨트롤 법안에 반대하는 이 [공개서한](https://csa-scientist-open-letter.org/Sep2025)을 읽어 보세요.
 
-- **Speak publicly** to raise awareness on privacy issues and educate the public, if you are comfortable doing so. As an example, watch this moving TEDx [talk](https://www.youtube.com/watch?v=xSPRouBvgFE) by Carissa Véliz.
+- 여러분이 편하다면, 프라이버시 문제에 대한 인식을 높이고 대중을 교육하기 위해 **공개적으로 발언하세요**. 예를 들어 카리사 벨리스의 감동적인 TEDx [강연](https://www.youtube.com/watch?v=xSPRouBvgFE)을 시청해 보세요.
 
-- **Start a privacy rights video channel** on your preferred privacy-preserving platform. As an example, check out Privacy Guides' [PeerTube](https://neat.tube/c/privacyguides/videos) and [Loops](https://loops.video/@privacyguides) channels.
+- 선호하는 프라이버시 보호 플랫폼에서 **프라이버시 권리 영상 채널을 시작하세요**. 예를 들어 프라이버시 가이드의 [피어튜브](https://neat.tube/c/privacyguides/videos) 채널과 [룹스](https://loops.video/@privacyguides) 채널을 확인해 보세요.
 
-- **Design educational online or printed material** to provide information about a specific privacy issue or protections. As an example, visit this [website](https://sls.eff.org/) about street level surveillance, or this border search pocket [guide](https://www.eff.org/document/eff-border-search-pocket-guide), both developed by the Electronic Frontier Foundation (EFF).
+- 특정 프라이버시 문제나 보호 수단에 대한 정보를 제공하는 **온라인 또는 인쇄용 교육 자료를 디자인하세요**. 예를 들어 전자 프런티어 재단(EFF)이 개발한 거리 감시에 관한 이 [웹사이트](https://sls.eff.org/)나 국경 검색 포켓 [가이드](https://www.eff.org/document/eff-border-search-pocket-guide)를 살펴보세요.
 
-- **Write content to share your knowledge** about solutions to push back against Big Tech and surveillance capitalism, and encourage others to join your journey. As an example, explore this [blog](https://blog.elenarossini.com/tag/the-future-is-federated/) about joining the Fediverse written by Elena Rossini.
+- 빅테크와 감시 자본주의에 맞서는 해결책에 대한 **지식을 나누는 글을 쓰고**, 다른 사람들도 여러분의 여정에 함께하도록 권하세요. 예를 들어 엘레나 로시니가 쓴 페디버스 합류에 관한 이 [블로그](https://blog.elenarossini.com/tag/the-future-is-federated/)를 둘러보세요.
 
-- Learn about more [types of actions](https://museumofprotest.org/methods/) you can use in your privacy activist work.
+- 프라이버시 활동에 활용할 수 있는 더 많은 [행동 유형](https://museumofprotest.org/methods/)을 알아보세요.
 
 </div>
 
-## Tools that can help you to assemble and organize
+## 모이고 조직하는 데 도움이 되는 도구
 
-Here are a few privacy-focused tools and services that can help you to organize your groups and actions:
+그룹과 행동을 조직하는 데 도움이 되는 몇 가지 프라이버시 중심 도구와 서비스를 소개합니다:
 
 <div class="grid" markdown>
 
 <div class="admonition recommendation" markdown>
 
-![CryptPad logo](../../assets/img/document-collaboration/cryptpad.svg){ align=right }
+![크립트패드 로고](../../assets/img/document-collaboration/cryptpad.svg){ align=right }
 
-**CryptPad** is a free open-source collaborative office suite that uses end-to-end encryption.
+**크립트패드**는 종단 간 암호화를 사용하는 무료 오픈 소스 협업 오피스 도구입니다.
 
-:page_with_curl: Use it as an alternative to Google Docs!
+:page_with_curl: 구글 독스 대신 사용해 보세요!
 
-[More info](../../document-collaboration.md#cryptpad){ .md-button .md-button--primary }
-[:octicons-home-16:](https://cryptpad.fr/){ .card-link title="Homepage" }
-[:octicons-feed-star-16:](https://www.privacyguides.org/articles/2025/02/07/cryptpad-review/){ .card-link title="Our CryptPad review" }
-
-</div>
-
-<div class="admonition recommendation" markdown>
-
-![Mastodon logo](../../assets/img/social-networks/mastodon.svg){ align=right }
-
-**Mastodon** is a free and open-source microblogging social network.
-
-:speech_balloon: Use it as an [alternative](tip-improve-your-social-media-and-build-resilient-communities.md) to commercial social media such as _X_, _Facebook_, _Instagram_, _Threads_, _TikTok_, or _Bluesky_.
-
-[More info](../../social-networks.md#mastodon){ .md-button .md-button--primary }
-[:octicons-home-16:](https://joinmastodon.org/){ .card-link title="Homepage" }
-[:octicons-feed-star-16:](https://www.privacyguides.org/articles/2025/07/15/mastodon-privacy-and-security/){ .card-link title="Notes on Mastodon Privacy & Security" }
+[자세히 보기](../../document-collaboration.md#cryptpad){ .md-button .md-button--primary }
+[:octicons-home-16:](https://cryptpad.fr/){ .card-link title="홈페이지" }
+[:octicons-feed-star-16:](https://www.privacyguides.org/articles/2025/02/07/cryptpad-review/){ .card-link title="크립트패드 리뷰" }
 
 </div>
 
 <div class="admonition recommendation" markdown>
 
-![Element logo](../../assets/img/social-networks/element.svg){ align=right }
+![마스토돈 로고](../../assets/img/social-networks/mastodon.svg){ align=right }
 
-**Element** is a free open-source client for the [Matrix](https://matrix.org/) open standard for chat-room group communication.
+**마스토돈**은 무료 오픈 소스 마이크로블로깅 소셜 네트워크입니다.
 
-:loudspeaker: Use it as a privacy-preserving alternative to _Slack_ or _Discord_.
+:speech_balloon: _X_, _페이스북_, _인스타그램_, _스레드_, _틱톡_, _블루스카이_ 같은 상업적 소셜 미디어의 [대안](tip-improve-your-social-media-and-build-resilient-communities.md)으로 사용해 보세요.
 
-[More info](../../social-networks.md#element){ .md-button .md-button--primary }
-[:octicons-home-16:](https://element.io/){ .card-link title="Homepage" }
+[자세히 보기](../../social-networks.md#mastodon){ .md-button .md-button--primary }
+[:octicons-home-16:](https://joinmastodon.org/){ .card-link title="홈페이지" }
+[:octicons-feed-star-16:](https://www.privacyguides.org/articles/2025/07/15/mastodon-privacy-and-security/){ .card-link title="마스토돈 프라이버시 및 보안 노트" }
 
 </div>
 
 <div class="admonition recommendation" markdown>
 
-![PeerTube logo](../../assets/img/social-networks/peertube.svg){ align=right }
+![엘리먼트 로고](../../assets/img/social-networks/element.svg){ align=right }
 
-**PeerTube** is a free open-source video platform developed by the French nonprofit [Framasoft](https://framasoft.org/en/).
+**엘리먼트**는 채팅방 그룹 소통을 위한 개방형 표준인 [매트릭스](https://matrix.org/)의 무료 오픈 소스 클라이언트입니다.
 
-:video_camera: Use it to share videos with your community free from _YouTube_'s control.
+:loudspeaker: _슬&#xB799;_&#xC774;나 _디스코드_ 대신 프라이버시를 보호하는 대안으로 사용해 보세요.
 
-[:octicons-home-16: Homepage](https://joinpeertube.org/){ .md-button .md-button--primary }
+[자세히 보기](../../social-networks.md#element){ .md-button .md-button--primary }
+[:octicons-home-16:](https://element.io/){ .card-link title="홈페이지" }
+
+</div>
+
+<div class="admonition recommendation" markdown>
+
+![피어튜브 로고](../../assets/img/social-networks/peertube.svg){ align=right }
+
+**피어튜브**는 프랑스의 비영리 단체 [프라마소프트](https://framasoft.org/en/)가 개발한 무료 오픈 소스 영상 플랫폼입니다.
+
+:video_camera: _유튜&#xBE0C;_&#xC758; 통제에서 벗어나 커뮤니티와 영상을 공유할 때 사용해 보세요.
+
+[:octicons-home-16: 홈페이지](https://joinpeertube.org/){ .md-button .md-button--primary }
 
 </div>
 
@@ -175,39 +175,39 @@ Here are a few privacy-focused tools and services that can help you to organize 
   suffix: "  ";
 </style>
 
-<details class="info emoji-list-b" markdown><summary>More Alternatives &nbsp;📗</summary>
+<details class="info emoji-list-b" markdown><summary>더 많은 대안 &nbsp;📗</summary>
 
-- **Maps & Navigation:** [Organic Maps](../../maps.md#organic-maps) or [OsmAnd](../../maps.md#osmand)
-- **Calendar Sync:** [Tuta](../../calendar.md#tuta) or [Proton](../../calendar.md#proton-calendar)
-- **Cloud Storage:** [Proton Drive](../../cloud.md#proton-drive), [Tresorit](../../cloud.md#tresorit), or [Peergos](../../cloud.md#peergos)
-- **File Sharing:** [OnionShare](../../file-sharing.md#onionshare), [Send](../../file-sharing.md#send), or [Syncthing](../../file-sharing.md#syncthing-p2p)
+- **지도 및 내비게이션:** [오가닉 맵스](../../maps.md#organic-maps) 또는 [오스맨드](../../maps.md#osmand)
+- **캘린더 동기화:** [투타](../../calendar.md#tuta) 또는 [프로톤](../../calendar.md#proton-calendar)
+- **클라우드 저장소:** [프로톤 드라이브](../../cloud.md#proton-drive), [트레조릿](../../cloud.md#tresorit), [피어고스](../../cloud.md#peergos)
+- **파일 공유:** [어니언셰어](../../file-sharing.md#onionshare), [센드](../../file-sharing.md#send), [싱크싱](../../file-sharing.md#syncthing-p2p)
 
-More tools for community organization could include [LAUTI](https://lauti.org/) for community calendars, and [Mobilizon](https://mobilizon.org/) for events and groups. For more on better alternatives to use, you can check this [tip on why and how to migrate away from Big Tech](tip-migrate-outside-the-surveillance-ecosystem.md) for your privacy advocacy work.
+커뮤니티 조직에 쓸 수 있는 도구로는 커뮤니티 캘린더용 [라우티](https://lauti.org/), 행사와 그룹용 [모빌리존](https://mobilizon.org/) 등이 있습니다. 더 나은 대안에 대해 더 알고 싶다면, 프라이버시 옹호 활동을 위해 [빅테크에서 벗어나야 하는 이유와 방법에 관한 팁](tip-migrate-outside-the-surveillance-ecosystem.md)을 확인해 보세요.
 
 </details>
 
-## More resources
+## 추가 자료
 
-### Leadership
+### 리더십
 
-- [Tips to become a good leader (_The Citizen's Handbook_)](https://citizenshandbook.org/1_08_lead.html)
+- [좋은 리더가 되기 위한 팁 (_시티즌스 핸드북_)](https://citizenshandbook.org/1_08_lead.html)
 
-- [Start a movement guide: Social movement building (_Activist Handbook_)](https://activisthandbook.org/organising/movement)
+- [운동 시작 가이드: 사회 운동 만들기 (_액티비스트 핸드북_)](https://activisthandbook.org/organising/movement)
 
-- [Positive leadership: 30 must-have traits and skills (_Positive Psychology_)](https://positivepsychology.com/positive-leadership/)
+- [긍정적인 리더십: 꼭 갖춰야 할 30가지 자질과 기술 (_포지티브 사이콜로지_)](https://positivepsychology.com/positive-leadership/)
 
-### Campaigns and Actions
+### 캠페인과 행동
 
-- [New to activism, organising and campaigning? Start here! (_The Commons Social Change Library_)](https://commonslibrary.org/new-to-activism-organising-and-campaigning-start-here/)
+- [행동주의, 조직, 캠페인이 처음이신가요? 여기서 시작하세요! (_커먼스 소셜 체인지 라이브러리_)](https://commonslibrary.org/new-to-activism-organising-and-campaigning-start-here/)
 
-- [How do we begin taking action in the community (_Community Tool Box_)](https://ctb.ku.edu/en/get-started)
+- [커뮤니티에서 행동을 시작하는 방법 (_커뮤니티 툴 박스_)](https://ctb.ku.edu/en/get-started)
 
-- [The methods of nonviolent action (_Museum of Protest_)](https://museumofprotest.org/methods/)
+- [비폭력 행동의 방법 (_뮤지엄 오브 프로테스트_)](https://museumofprotest.org/methods/)
 
-- [Lobbying and advocacy: Start here (_The Commons Social Change Library_)](https://commonslibrary.org/lobbying-and-advocacy-start-here/)
+- [로비와 옹호 활동: 여기서 시작하세요 (_커먼스 소셜 체인지 라이브러리_)](https://commonslibrary.org/lobbying-and-advocacy-start-here/)
 
-- [Develop your activist strategy: Writing a strategy for your movement (_Activist Handbook_)](https://activisthandbook.org/strategy/develop)
+- [활동 전략 세우기: 운동을 위한 전략 작성하기 (_액티비스트 핸드북_)](https://activisthandbook.org/strategy/develop)
 
-- [Campaign accelerator training (_Mobilisation Lab_)](https://mobilisationlab.org/training-coaching/campaign-accelerator-training/)
+- [캠페인 가속 교육 (_모빌라이제이션 랩_)](https://mobilisationlab.org/training-coaching/campaign-accelerator-training/)
 
-<button class="toolbox-tip-button-next">[Go back to toolbox index :material-toolbox:](index.md)</button>
+<button class="toolbox-tip-button-next">[도구 상자 목차로 돌아가기 :material-toolbox:](index.md)</button>

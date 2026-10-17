@@ -1,81 +1,81 @@
 ---
-title: Start Alliances, Not Wars
-description: People in the privacy community can have different views that can create conflicts at times. For our community to thrive, we must start alliances, not wars.
+title: 싸움 대신 연대 시작하기
+description: 프라이버시 커뮤니티의 사람들은 서로 다른 견해를 가질 수 있고, 이것이 때로 갈등을 낳기도 합니다. 커뮤니티가 번성하려면 싸움이 아니라 연대를 시작해야 합니다.
 icon: fontawesome/solid/handshake-angle
 cover: activism/banner-toolbox-tip-alliances.webp
 ---
 
-The privacy community consists of a patchwork of individuals, activists, organizations, and businesses that sometimes hold quite different views. These divergences can create conflict and friction at times.
+프라이버시 커뮤니티는 때로 상당히 다른 견해를 가진 개인, 활동가, 단체, 기업이 조각보처럼 모여 이루어져 있습니다. 이러한 견해차는 때로 갈등과 마찰을 일으킬 수 있습니다.
 
-While reporting falseness and abuse is important, when other differences lead to infighting, gossiping, competitive dunking, and organizations attacking others, we need to pause and ask how these internal wars are negatively impacting the community as a whole, both internally and from an outsider's perspective.
+거짓과 남용을 알리는 것은 중요하지만, 다른 차이가 내분, 뒷말, 서로 깎아내리기 경쟁, 단체 간 공격으로 이어진다면, 잠시 멈추고 이런 내부 싸움이 안팎으로 커뮤니티 전체에 어떤 부정적인 영향을 미치고 있는지 따져 봐야 합니다.
 
-For our community to thrive and slowly build a movement, **we need more alliances, not wars**.
+커뮤니티가 번성하고 차근차근 운동을 만들어 가려면 **싸움이 아니라 더 많은 연대가 필요합니다**.
 
-Here's how you can nurture alliances, instead of fueling conflicts:
+갈등을 부추기는 대신 연대를 키우는 방법은 다음과 같습니다:
 
-## Acknowledge that you cannot win this battle alone, neither as a person nor as a single organization
+## 개인으로서도, 단일 단체로서도 이 싸움에서 혼자 이길 수 없다는 사실을 인정하세요
 
-To fight for privacy rights in this hostile environment, **we need to create a movement**. Effective movements grow from collaboration, not from competition. ==You cannot do it alone.==
+이처럼 적대적인 환경에서 프라이버시 권리를 위해 싸우려면 **운동을 만들어야 합니다**. 효과적인 운동은 경쟁이 아니라 협력에서 자라납니다. ==혼자서는 할 수 없습니다.==
 
-Attacks on digital rights have increased exponentially in the past few years. Not one organization, and certainly not one person, can solve these complex issues on their own. Not even the most prominent ones.
+지난 몇 년 동안 디지털 권리에 대한 공격이 기하급수적으로 늘어났습니다. 어떤 단체도, 하물며 어떤 개인도 이 복잡한 문제를 혼자 해결할 수 없습니다. 가장 유명한 단체나 사람조차도 마찬가지입니다.
 
-Despite our differences and diverse points of view, we are all in this together. If we want to have a chance to succeed in making privacy a valued and respected human right, we must learn to support and uplift each other as a community. We must split up the tasks and learn to work together, even if it's only for sporadic actions.
+서로 다르고 관점도 다양하지만, 우리는 모두 한배를 타고 있습니다. 프라이버시가 소중히 여겨지고 존중받는 인권이 되도록 하는 데 성공할 기회를 얻고 싶다면, 커뮤니티로서 서로를 지지하고 북돋아 주는 법을 배워야 합니다. 일시적인 행동이라 하더라도 일을 나누고 함께 일하는 법을 배워야 합니다.
 
-When people and organizations sharing the same values come together, this builds a movement. And a movement is what is needed to push back against the countless attacks against privacy rights.
+같은 가치를 공유하는 사람과 단체가 모이면 운동이 만들어집니다. 그리고 프라이버시 권리에 대한 수많은 공격에 맞서려면 바로 그런 운동이 필요합니다.
 
-## Reject competition, embrace collaboration
+## 경쟁을 거부하고 협력을 받아들이세요
 
-Sadly, it's quite common in the privacy community to see privacy-focused businesses and organizations publicly dunking on each other instead of collaborating.
+안타깝게도 프라이버시 커뮤니티에서는 프라이버시 중심 기업과 단체가 협력하는 대신 공개적으로 서로를 깎아내리는 모습을 꽤 흔하게 볼 수 있습니다.
 
-Perhaps some businesses and organizations think they are competing for the same scarce privacy-minded customers or donors. But this is a narrow vision that doesn't represent the bigger picture.
+어떤 기업과 단체는 프라이버시에 관심 있는 얼마 안 되는 고객이나 후원자를 두고 경쟁하고 있다고 생각하는지도 모릅니다. 하지만 이는 더 큰 그림을 보여 주지 못하는 좁은 시각입니다.
 
-The digital privacy rights movement is in its infancy.
+디지털 프라이버시 권리 운동은 아직 걸음마 단계입니다.
 
-There are in fact many more potential customers and potential donors, more than enough for every current organizations and privacy-oriented businesses on the planet. The part that is scarce is people who understand why protecting their right to privacy is important, and how to do it.
+사실 잠재적인 고객과 후원자는 훨씬 더 많으며, 지구상의 현존하는 모든 단체와 프라이버시 중심 기업이 나누고도 남을 만큼 충분합니다. 부족한 것은 프라이버시 권리를 지키는 것이 왜 중요한지, 그리고 어떻게 지키는지 이해하는 사람들입니다.
 
-By promoting privacy rights _together_, we all participate in growing a movement where more and more people become aware of these issues, and will be interested in taking part in the solutions.
+프라이버시 권리를 _함께_ 알림으로써, 우리 모두는 더 많은 사람이 이 문제를 인식하고 해결책에 참여하고 싶어 하는 운동을 키우는 데 동참하게 됩니다.
 
-Competition, and especially when this competition leads to businesses and organizations badmouthing each other, ends up damaging the whole movement, therefore impacting negatively all of our goals.
+경쟁, 특히 기업과 단체가 서로를 헐뜯는 경쟁은 결국 운동 전체에 해를 끼치고, 따라서 우리 모두의 목표에 부정적인 영향을 미칩니다.
 
-Additionally, tearing down perceived competitors sharing your values isn't a good look for you. It's draining for people already in the community, and often repulsive to potential new people on the outside. ==This behavior often results in pushing away newcomers== that were initially interested in joining our movement. This is bad for your competitors, sure, but it's _also_ bad for _you_.
+게다가 같은 가치를 공유하는 경쟁자로 여겨지는 상대를 깎아내리는 것은 여러분에게도 좋아 보이지 않습니다. 이미 커뮤니티에 있는 사람들은 지치게 되고, 바깥에 있는 잠재적인 새 사람들은 거부감을 느끼는 경우가 많습니다. ==이런 행동은 처음에는 우리 운동에 관심을 보였던 새로운 사람들을 밀어내는 결과로 이어지는 경우가 많습니다.== 물론 경쟁자에게 나쁜 일이지만, _여러&#xBD84;_&#xC5D0;게도 _마찬가지로_ 나쁜 일입니다.
 
-Newcomers get confused when they receive competing new information. Confusion leads to _inertia_, and inertia in the current Big Tech ecosystem means staying with Gmail instead of moving to Tuta or Proton mail, or any other privacy-focused email services. This is a bad outcome for _all_ of us.
+새로운 사람들은 서로 상충하는 새로운 정보를 접하면 혼란스러워합니다. 혼란은 _관&#xC131;_&#xC73C;로 이어지고, 현재의 빅테크 생태계에서 관성이란 투타나 프로톤 메일, 또는 다른 프라이버시 중심 이메일 서비스로 옮기는 대신 지메일에 그대로 머무르는 것을 뜻합니다. 이는 우리 _모&#xB450;_&#xC5D0;게 나쁜 결과입니다.
 
-_None_ of us win if people stop listening and stay with Big Tech, because we are too busy fighting each other. Instead of damaging the movement with infighting, combat inertia and build alliances with each other.
+우리가 서로 싸우느라 바빠서 사람들이 귀를 닫고 빅테크에 머문다면, 우리 중 _누구도_ 이기지 못합니다. 내분으로 운동에 해를 끼치는 대신, 관성에 맞서고 서로 연대를 구축하세요.
 
-## How to start alliances
+## 연대를 시작하는 방법
 
-Here are a few ideas to start building alliances within the privacy community:
+프라이버시 커뮤니티 안에서 연대를 쌓기 시작할 수 있는 몇 가지 아이디어를 소개합니다:
 
-- **Keep a list** of organizations and other privacy activists sharing your values. Mastodon's [list feature](https://fedi.tips/how-to-use-the-lists-feature-on-mastodon/) can be very helpful to build a social network feed for this. Using an [RSS feed reader](../../news-aggregators.md) is another great way to do this.
+- 여러분과 가치를 공유하는 단체와 다른 프라이버시 활동가의 **목록을 만들어 두세요**. 마스토돈의 [리스트 기능](https://fedi.tips/how-to-use-the-lists-feature-on-mastodon/)을 이용하면 이를 위한 소셜 네트워크 피드를 만드는 데 큰 도움이 됩니다. [RSS 피드 리더](../../news-aggregators.md)를 사용하는 것도 좋은 방법입니다.
 
-- **Get familiar** with what your allies are working on. Think about ways their mission might be compatible with yours.
+- 동료들이 어떤 일을 하고 있는지 **잘 알아 두세요**. 그들의 사명이 여러분의 사명과 어떻게 맞물릴 수 있을지 생각해 보세요.
 
-- **Reach out** to your allies and [amplify their voices](tip-lift-your-allies-up.md) whenever you can. Boost them up! 📣
+- 가능할 때마다 동료들에게 **먼저 연락하고** [그들의 목소리를 널리 알리세요](tip-lift-your-allies-up.md). 힘을 실어 주세요! 📣
 
-- **Participate** in local events where you might be able to meet allies in-person, if this is something you can afford and do safely.
+- 여유가 되고 안전하게 할 수 있다면, 동료를 직접 만날 수 있는 지역 행사에 **참여하세요**.
 
-- **Organize** a campaign and invite value-compatible organizations and people to join your action. Try asking for support that doesn't require too many resources on their part at first. As you build a trust relationship with your allies, you might want to increase your level of collaboration.
+- 캠페인을 **조직하고**, 가치가 맞는 단체와 사람들을 행동에 초대하세요. 처음에는 상대에게 너무 많은 자원이 들지 않는 지원을 요청해 보세요. 동료들과 신뢰 관계를 쌓아 가면서 협력의 수준을 높여 가도 좋습니다.
 
-- When a new privacy rights issue arises in the news, **reach out** to your allies and see how you could coordinate an action together, to make it more powerful. [Joint statements](https://museumofprotest.org/methods/signed-public-statements/) signed by multiple organizations and specialists can be an effective way to sway public opinion, bring an issue to the attention of the media, and get governments to listen.
+- 새로운 프라이버시 권리 문제가 뉴스에 등장하면, 동료들에게 **연락해** 함께 행동을 조율해 더 큰 힘을 낼 수 있는 방법을 찾아보세요. 여러 단체와 전문가가 서명한 [공동 성명](https://museumofprotest.org/methods/signed-public-statements/)은 여론을 움직이고, 언론의 관심을 끌고, 정부가 귀 기울이게 만드는 효과적인 방법이 될 수 있습니다.
 
-- Ask your trusted allies about ways you could **collaborate** together. Think about how you could exchange or share resources to make both of your work stronger with partnerships.
+- 신뢰하는 동료들에게 함께 **협력할** 방법을 물어보세요. 파트너십을 통해 자원을 교환하거나 공유해 서로의 활동을 더 강하게 만들 방법을 생각해 보세요.
 
-## How to stop wars
+## 싸움을 멈추는 방법
 
-Here are a few ways that might help to reduce the impact of infighting within the privacy community:
+프라이버시 커뮤니티 내 내분의 영향을 줄이는 데 도움이 될 수 있는 몇 가지 방법을 소개합니다:
 
-- **Do not badmouth** your competitors. This is a bad look for you, and has a negative impact on the whole community as well.
+- 경쟁자를 **헐뜯지 마세요**. 여러분에게도 좋아 보이지 않고, 커뮤니티 전체에도 부정적인 영향을 미칩니다.
 
-- **Do not engage** when people or organizations are dunking on each other on social platforms. Disengage and do not feed the fire.
+- 사람이나 단체가 소셜 플랫폼에서 서로를 깎아내릴 때 **끼어들지 마세요**. 한발 물러나 불에 기름을 붓지 마세요.
 
-- When trying to advertise your products or organizations, **focus on what you have** to offer that is beneficial and unique, instead of using comparison with your perceived competitors. Make sure to describe what you have to offer in simple terms, so that it's accessible to newcomers.
+- 제품이나 단체를 홍보할 때는 경쟁자로 여겨지는 상대와 비교하는 대신, 여러분이 제공할 수 있는 유익하고 고유한 **장점에 집중하세요**. 새로운 사람들도 이해할 수 있도록 여러분이 제공하는 것을 쉬운 말로 설명하세요.
 
-- **Be a part** of the privacy rights movement. Participate in promoting privacy rights for everyone, even if that means some people might buy another company's services, or donate to another organization.
+- 프라이버시 권리 운동의 **일원이 되세요**. 일부 사람들이 다른 회사의 서비스를 구매하거나 다른 단체에 기부하게 되더라도, 모두를 위한 프라이버시 권리를 알리는 데 참여하세요.
 
-- **Position yourself** as a mature leader in the movement who is above petty infighting. Instead, focus your energy on generously sharing resources for the cause, and promoting our shared values. Become a valued member of the privacy rights community.
+- 사소한 내분에 휘말리지 않는 성숙한 운동의 리더로 **자리매김하세요**. 대신 대의를 위해 자원을 아낌없이 나누고 우리가 공유하는 가치를 알리는 데 힘을 쏟으세요. 프라이버시 권리 커뮤니티의 소중한 일원이 되세요.
 
-## Examples of digital rights alliances and coalitions
+## 디지털 권리 연대와 연합의 예
 
 <style>
 .emoji-list-a ul {
@@ -89,45 +89,45 @@ Here are a few ways that might help to reduce the impact of infighting within th
 
 <div class="emoji-list-a" markdown>
 
-- **Campaign:** [**Bad Internet Bills (2025)**](https://www.badinternetbills.com/)
+- **캠페인:** [**배드 인터넷 빌스 (2025)**](https://www.badinternetbills.com/)
 
-  **Host:** [Fight for The Future](https://www.fightforthefuture.org/)<br>
-  **Participants:** ACLU, Defending Rights & Dissent, EFF, National Coalition Against Censorship, and more.
+  **주최:** [파이트 포 더 퓨처](https://www.fightforthefuture.org/)<br>
+  **참여:** ACLU, 디펜딩 라이츠 앤 디센트, EFF, 전미 검열 반대 연합 등
 
     <hr>
 
-- **Campaign:** [**Stop Scanning Me (2022)**](https://stopscanningme.eu)
+- **캠페인:** [**스톱 스캐닝 미 (2022)**](https://stopscanningme.eu)
 
-  **Host:** [EDRi](https://edri.org/)<br>
-  **Participants:** ApTI, Bits of Freedom, Chaos Computer Club, Digital Courage, EFF, Epicenter Works, Internet Society, La Quadrature du Net, and more.
+  **주최:** [EDRi](https://edri.org/)<br>
+  **참여:** ApTI, 비츠 오브 프리덤, 카오스 컴퓨터 클럽, 디지털쿠라지, 에피센터 웍스, 인터넷 소사이어티, 라 카드라튀르 뒤 네 등
 
     <section class="admonition success" markdown>
-    <p class="admonition-title">Coalition donation page example</p>
+    <p class="admonition-title">연합 기부 페이지 예시</p>
 
-  EDRi's _Stop Scanning Me_ coalition provides a great example of collaboration with a [donation page](https://stopscanningme.eu/en/donate.html) listing all the coalition members with their countries of origin, and linking to external donation pages. EDRi humbly listed their own donation link at the bottom. We need more strong coalitions like this.
+  EDRi의 _스톱 스캐닝 미_ 연합은 모든 연합 회원과 출신 국가를 나열하고 외부 기부 페이지로 연결하는 [기부 페이지](https://stopscanningme.eu/en/donate.html)로 협력의 훌륭한 예를 보여 줍니다. EDRi는 겸손하게 자신들의 기부 링크를 맨 아래에 두었습니다. 이런 강력한 연합이 더 많이 필요합니다.
 
     </section><hr>
 
-- **Campaign:** [**The Nameless Coalition (2015)**](https://act.eff.org/action/dear-facebook-authentic-names-are-authentically-dangerous-for-your-users)
+- **캠페인:** [**네임리스 연합 (2015)**](https://act.eff.org/action/dear-facebook-authentic-names-are-authentically-dangerous-for-your-users)
 
-  **Host:** [EFF](https://www.eff.org/)<br>
-  **Participants:** Access, ACLU, Article 19, Center for Democracy and Technology, Human Rights Watch, OpenMedia, Transgender Law Center, and more.
+  **주최:** [EFF](https://www.eff.org/)<br>
+  **참여:** 액세스, ACLU, 아티클 19, 민주주의와 기술 센터, 휴먼라이츠워치, 오픈미디어, 트랜스젠더 법률 센터 등
 
     <hr>
 
-- **Campaign:** [**Protect Our Privacy Coalition (2013)**](https://openmedia.org/press/item/more-30-organizations-unite-safeguard-canadians-privacy-rights-amid-spy-agency-scandal)
+- **캠페인:** [**프로텍트 아워 프라이버시 연합 (2013)**](https://openmedia.org/press/item/more-30-organizations-unite-safeguard-canadians-privacy-rights-amid-spy-agency-scandal)
 
-  **Host:** [OpenMedia](https://openmedia.org/)<br>
-  **Participants:** Amnesty International, BC CLA, Canadian Civil Liberties Association, EFF, FIPA, GreenPeace, Lead Now, and more.
+  **주최:** [오픈미디어](https://openmedia.org/)<br>
+  **참여:** 국제앰네스티, BC CLA, 캐나다 시민자유협회, EFF, FIPA, 그린피스, 리드나우 등
 
 </div>
 
-## More resources
+## 추가 자료
 
-- [Coalition building: Start here (_The Commons Social Change Library_)](https://commonslibrary.org/coalition-building-start-here/)
+- [연합 구축: 여기서 시작하세요 (_커먼스 소셜 체인지 라이브러리_)](https://commonslibrary.org/coalition-building-start-here/)
 
-- [How to build a new coalition (_Activist Handbook_)](https://activisthandbook.org/organising/coalition-building/starting)
+- [새로운 연합을 만드는 방법 (_액티비스트 핸드북_)](https://activisthandbook.org/organising/coalition-building/starting)
 
-- [How to develop nonprofit relationships to expand and scale (_Nonprofit Learning Lab_)](https://www.nonprofitlearninglab.org/post/how-to-develop-nonprofit-relationships)
+- [비영리 단체 간 관계를 키워 활동을 확장하는 방법 (_넌프로핏 러닝 랩_)](https://www.nonprofitlearninglab.org/post/how-to-develop-nonprofit-relationships)
 
-- [Templates, worksheets, and checklists for changemakers (_The Commons Social Change Library_)](https://commonslibrary.org/templates-worksheets-checklists-for-changemakers/)
+- [변화를 만드는 사람들을 위한 템플릿, 워크시트, 체크리스트 (_커먼스 소셜 체인지 라이브러리_)](https://commonslibrary.org/templates-worksheets-checklists-for-changemakers/)
