@@ -1,10 +1,10 @@
 ---
 title: Przegląd systemu Linux
 icon: simple/linux
-description: Linux is an open-source, privacy-focused desktop operating system alternative, but not all distributions are created equal.
+description: Linux is an open-source, privacy-focused desktop operating system, but not all distributions are created equal.
 ---
 
-**Linux** jest alternatywnym systemem operacyjnym open source. W obliczu wszechobecnej telemetrii i innych technologii naruszających prywatność w mainstreamowych systemach operacyjnych stacjonarny Linux pozostaje oczywistym wyborem dla osób poszukujących całkowitej kontroli nad swoimi komputerami od podszewki.
+**Linux** is an open-source, privacy-focused desktop operating system. W obliczu wszechobecnej telemetrii i innych technologii naruszających prywatność w mainstreamowych systemach operacyjnych stacjonarny Linux pozostaje oczywistym wyborem dla osób poszukujących całkowitej kontroli nad swoimi komputerami od podszewki.
 
 Nasza strona zazwyczaj używa terminu "Linux" aby opisać **stacjonarne** dystrybucje Linuksa. Inne systemy operacyjne, które także używają jądra Linux takie jak ChromeOS, Android, Qubes OS, nie zostały omówione na tej stronie.
 

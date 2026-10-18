@@ -1,10 +1,10 @@
 ---
 title: Linux Overview
 icon: simple/linux
-description: Linux is an open-source, privacy-focused desktop operating system alternative, but not all distributions are created equal.
+description: Linux is an open-source, privacy-focused desktop operating system, but not all distributions are created equal.
 ---
 
-**Linux** היא חלופה למערכת הפעלה שולחנית בקוד פתוח, ממוקדת פרטיות. In the face of pervasive telemetry and other privacy-encroaching technologies in mainstream operating systems, desktop Linux has remained the clear choice for people looking for total control over their computers from the ground up.
+**Linux** is an open-source, privacy-focused desktop operating system. In the face of pervasive telemetry and other privacy-encroaching technologies in mainstream operating systems, desktop Linux has remained the clear choice for people looking for total control over their computers from the ground up.
 
 האתר שלנו משתמש בדרך כלל במונח "Linux" כדי לתאר הפצות לינוקס של **שולחן העבודה**. מערכות הפעלה אחרות המשתמשות גם בליבת לינוקס כגון ChromeOS, Android ו-Qubes OS אינן נדונות בדף זה.
 

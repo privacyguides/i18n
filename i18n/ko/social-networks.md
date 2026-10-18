@@ -1,201 +1,201 @@
 ---
-title: Social Networks
+title: 소셜 네트워크
 icon: material/account-supervisor-circle-outline
-description: Find a new social network that doesn’t pry into your data or monetize your profile.
+description: 여러분의 데이터를 캐거나 프로필로 수익을 올리지 않는 새로운 소셜 네트워크를 찾아보세요.
 cover: social-networks.webp
 ---
 
 <small>다음 위협으로부터 보호합니다:</small>
 
 - [:material-close-outline: 검열](basics/common-threats.md#avoiding-censorship){ .pg-blue-gray }
-- [:material-account-cash: Surveillance Capitalism](basics/common-threats.md#surveillance-as-a-business-model){ .pg-brown }
+- [:material-account-cash: 감시 자본주의](basics/common-threats.md#surveillance-as-a-business-model){ .pg-brown }
 
-These privacy-respecting **social networks** allow you to participate in online communities without giving up your personal information like your full name, phone number, and other data commonly requested by tech companies.
+프라이버시를 존중하는 이 **소셜 네트워크**를 사용하면 실명, 전화번호 등 기술 기업이 흔히 요구하는 개인 정보를 내주지 않고도 온라인 커뮤니티에 참여할 수 있습니다.
 
-A growing problem among social media platforms is censorship in two different forms. First, they often acquiesce to illegitimate censorship requests, either from malicious governments or their own internal policies. Second, they often require accounts to access walled-off content that would otherwise be published freely on the open internet; this effectively censors the browsing activities of privacy-conscious users who are unable to pay the privacy cost of opening an account on these networks.
+소셜 미디어 플랫폼에서 점점 커지는 문제는 두 가지 형태의 검열입니다. 첫째, 이러한 플랫폼은 악의적인 정부나 자체 내부 정책에 따른 부당한 검열 요청에 순순히 응하는 경우가 많습니다. 둘째, 원래라면 개방된 인터넷에 자유롭게 공개되었을 콘텐츠를 보는 데에도 계정을 요구하는 경우가 많습니다. 이는 이러한 네트워크에 계정을 만드는 프라이버시 비용을 감수할 수 없는, 프라이버시를 중시하는 사용자의 브라우징 활동을 사실상 검열하는 것입니다.
 
-The social networks we recommend solve the issue of censorship by operating atop an open and decentralized social networking protocol. They also don't require an account merely to view publicly available content.
+프라이버시 가이드가 추천하는 소셜 네트워크는 개방형 탈중앙화 소셜 네트워킹 프로토콜 위에서 운영되므로 검열 문제를 해결합니다. 또한 공개된 콘텐츠를 보는 것만으로 계정을 요구하지 않습니다.
 
-You should note that **no** social networks are appropriate for private or sensitive communications. For chatting directly with others, you should use a recommended [instant messenger](real-time-communication.md) with strong end-to-end encryption, and only use direct messages on social media in order to establish a more private and secure chat platform with your contacts.
+어떤 소셜 네트워크도 사적이거나 민감한 소통에는 적합하지 **않다**는 점에 유의하세요. 다른 사람과 직접 대화하려면 강력한 종단 간 암호화를 갖춘 추천 [메신저](real-time-communication.md)를 사용해야 하며, 소셜 미디어의 다이렉트 메시지는 연락처와 더 사적이고 안전한 채팅 플랫폼을 마련하는 용도로만 사용해야 합니다.
 
-## Decentralization
+## 탈중앙화 { #decentralization }
 
-Decentralized social networks are built on an architecture that is fundamentally different than mainstream social media platforms, yet quite similar to the underlying structure of email. Instead of opening an account under a single, unified service like you would for Facebook or Discord, you instead choose an independent, public server to join. The server you join can communicate with and discover other servers; this aspect of decentralization is also known as _federation_.
+탈중앙화 소셜 네트워크는 주류 소셜 미디어 플랫폼과 근본적으로 다르지만 이메일의 기반 구조와는 매우 비슷한 아키텍처로 만들어져 있습니다. 페이스북이나 디스코드처럼 하나의 통합된 서비스에 계정을 만드는 대신, 가입할 독립적인 공개 서버를 직접 선택합니다. 가입한 서버는 다른 서버와 통신하고 다른 서버를 찾을 수 있는데, 탈중앙화의 이러한 측면을 \*연합(federation)\*이라고도 합니다.
 
-A significant benefit of this decentralized model is that there is no central authority which can censor your account across the entire network, though it is possible for your account to be banned or silenced by an individual server.
+이러한 탈중앙화 모델의 큰 장점은 네트워크 전체에서 여러분의 계정을 검열할 수 있는 중앙 권한 주체가 없다는 것입니다. 다만 개별 서버에서 계정이 차단되거나 제한될 수는 있습니다.
 
-A caveat of this decentralized model is that each server is its own legal entity, with its own privacy policy, terms of use, administration team, and moderators. While many of these servers are far _less_ restrictive and more privacy-respecting than traditional social media platforms, some can be far _more_ restrictive or potentially _worse_ for your privacy. Typically, the software on which the social network runs does not discriminate between these administrators or place any limitations on their powers.
+이러한 탈중앙화 모델의 단점은 각 서버가 자체 개인정보 처리방침, 이용 약관, 운영팀, 모더레이터를 갖춘 별개의 법적 주체라는 점입니다. 이러한 서버 중 상당수는 기존 소셜 미디어 플랫폼보다 제한이 훨씬 _적고_ 프라이버시를 더 존중하지만, 일부는 훨씬 _더_ 제한적이거나 프라이버시 측면에서 _더 나쁠_ 수 있습니다. 일반적으로 소셜 네트워크가 실행되는 소프트웨어는 이러한 관리자를 차별하거나 그 권한에 제한을 두지 않습니다.
 
-## Censorship Resistance
+## 검열 저항성 { #censorship-resistance }
 
-While censorship in decentralized social networks does not exist on a network level, it is very possible to experience censorship on a server level depending on a server's administrator. Administrators have the power to _defederate_ from other servers, which leads to limiting the content you can view and the people you can interact with.
+탈중앙화 소셜 네트워크에서는 네트워크 수준의 검열은 존재하지 않지만, 서버 관리자에 따라 서버 수준의 검열을 겪을 가능성은 충분히 있습니다. 관리자는 다른 서버와의 _연합을 해&#xC81C;_&#xD560; 수 있으며, 이로 인해 여러분이 볼 수 있는 콘텐츠와 교류할 수 있는 사람이 제한됩니다.
 
-If you are greatly concerned about an existing server censoring your content, the content available to you, or other servers, you generally have two options:
+기존 서버가 여러분의 콘텐츠, 여러분이 접할 수 있는 콘텐츠, 또는 다른 서버를 검열하는 것이 크게 우려된다면, 일반적으로 두 가지 선택지가 있습니다:
 
-1. **Host the social network software yourself.** This approach gives you the exact same censorship resistance as any other website you can host yourself, which is fairly high.
+1. **소셜 네트워크 소프트웨어를 직접 호스팅하세요.** 이 방법은 직접 호스팅할 수 있는 다른 웹사이트와 똑같은 수준의 검열 저항성을 제공하며, 이는 상당히 높은 수준입니다.
 
-2. **Use a managed hosting service.** We don't have any specific recommendations, but there are a variety of hosting services which will create a brand-new server on your own domain (or occasionally a subdomain of their domain, but we recommend against this unless registering your own domain presents too much of a burden to your privacy).
+2. **관리형 호스팅 서비스를 이용하세요.** 특별히 추천하는 서비스는 없지만, 여러분의 도메인(또는 가끔은 업체 도메인의 하위 도메인. 다만 자신의 도메인을 등록하는 것이 프라이버시에 너무 큰 부담이 되는 경우가 아니라면 권장하지 않습니다)에 새 서버를 만들어 주는 다양한 호스팅 서비스가 있습니다.
 
-   Typically, hosting providers will handle the _technical_ side of your server, but completely leave the _moderation_ side up to you. This often represents a better approach than self-hosting for most people because you can benefit from greater control over your own server without worrying about technical problems or unpatched security vulnerabilities.
+   일반적으로 호스팅 제공업체는 서버의 _기술적인_ 측면을 처리하고, _모더레이션_ 측면은 전적으로 여러분에게 맡깁니다. 기술적인 문제나 패치되지 않은 보안 취약점을 걱정하지 않고도 자신의 서버를 더 많이 통제할 수 있으므로, 대부분의 사람에게는 자체 호스팅보다 이 방법이 더 나은 경우가 많습니다.
 
-   You should look closely at your hosting provider's terms of service and acceptable use policies before registering. These are often far more broad than typical hosted server rules, and they are far less likely to be enforced without recourse, but they can still be restrictive in undesirable ways.
+   가입하기 전에 호스팅 제공업체의 서비스 이용 약관과 허용 가능한 사용 정책을 꼼꼼히 살펴봐야 합니다. 이러한 약관은 일반적인 호스팅 서버의 규칙보다 범위가 훨씬 넓은 경우가 많고, 이의 제기 기회 없이 적용될 가능성은 훨씬 낮지만, 여전히 원치 않는 방식으로 제한적일 수 있습니다.
 
-## Mastodon
+## 마스토돈 { #mastodon }
 
 <div class="admonition recommendation" markdown>
 
-![Mastodon logo](assets/img/social-networks/mastodon.svg){ align=right }
+![마스토돈 로고](assets/img/social-networks/mastodon.svg){ align=right }
 
-**Mastodon** is a social network based on open web protocols and free, open-source software. It uses the **:simple-activitypub: ActivityPub** protocol, which is decentralized like email: Users can exist on different servers or even different platforms but still communicate with each other.
+**마스토돈**은 개방형 웹 프로토콜과 자유 오픈 소스 소프트웨어를 기반으로 하는 소셜 네트워크입니다. 이메일처럼 탈중앙화된 **:simple-activitypub: 액티비티펍** 프로토콜을 사용하므로, 사용자는 서로 다른 서버나 심지어 서로 다른 플랫폼에 있어도 서로 소통할 수 있습니다.
 
-[:octicons-home-16: Homepage](https://joinmastodon.org){ .md-button .md-button--primary }
-[:octicons-info-16:](https://docs.joinmastodon.org){ .card-link title="Documentation" }
+[:octicons-home-16: 홈페이지](https://joinmastodon.org){ .md-button .md-button--primary }
+[:octicons-info-16:](https://docs.joinmastodon.org){ .card-link title="문서" }
 
 </div>
 
-There are many software platforms which use ActivityPub as their backend social networking protocol, meaning they can talk to servers even when they are running different software. For example, PeerTube is a video publishing software that uses ActivityPub, meaning you can follow channels on PeerTube either with another PeerTube account, _or_ with a Mastodon account because Mastodon also uses ActivityPub.
+액티비티펍을 백엔드 소셜 네트워킹 프로토콜로 사용하는 소프트웨어 플랫폼은 많으며, 서로 다른 소프트웨어를 실행하는 서버끼리도 소통할 수 있습니다. 예를 들어 피어튜브는 액티비티펍을 사용하는 동영상 게시 소프트웨어이므로, 피어튜브 채널을 다른 피어튜브 계정으로 팔로우할 수도 있고, 마스토돈도 액티비티펍을 사용하므로 마스토돈 계정으로 팔로우할 _수도_ 있습니다.
 
-We chose to recommend Mastodon over other ActivityPub software as your primary social media platform for these reasons:
+프라이버시 가이드는 다음과 같은 이유로 다른 액티비티펍 소프트웨어보다 마스토돈을 주 소셜 미디어 플랫폼으로 추천합니다:
 
-1. Mastodon has a solid history of security updates. In the handful of circumstances where major security vulnerabilities have been found, they coordinate patch releases quickly and cleanly. Historically they have also backported these security patches to older feature branches. This makes it easier for less experienced server hosts who may not feel comfortable upgrading to the latest releases right away to keep their instances secure. Mastodon also has an update notification system built in to the web interface, making it much more likely for server administrators to be aware of critical security patches available for their instance.
+1. 마스토돈은 보안 업데이트에 관한 탄탄한 이력을 가지고 있습니다. 심각한 보안 취약점이 발견된 몇 안 되는 경우에도 신속하고 깔끔하게 조율하여 패치를 출시했습니다. 또한 지금까지 이러한 보안 패치를 이전 기능 브랜치에도 백포트해 왔습니다. 덕분에 최신 릴리스로 바로 업그레이드하기 부담스러운, 경험이 적은 서버 호스트도 인스턴스를 더 쉽게 안전하게 유지할 수 있습니다. 또한 마스토돈은 웹 인터페이스에 업데이트 알림 시스템이 내장되어 있어, 서버 관리자가 인스턴스에 적용할 수 있는 중요한 보안 패치를 알아차릴 가능성이 훨씬 높습니다.
 
-2. Mastodon is largely usable with most content types. While it is primarily a microblogging platform, Mastodon easily handles longer posts, image posts, video posts, and most other posts you might encounter when following ActivityPub users who aren't on Mastodon. This makes your Mastodon account an ideal "central hub" for following anyone regardless of the platform they chose to use. In contrast, if you were only using a PeerTube account, you would _only_ be able to follow other video channels, for example.
+2. 마스토돈은 대부분의 콘텐츠 유형에서 무리 없이 사용할 수 있습니다. 주로 마이크로블로깅 플랫폼이지만, 마스토돈을 사용하지 않는 액티비티펍 사용자를 팔로우할 때 접할 수 있는 긴 글, 이미지 게시물, 동영상 게시물 등 대부분의 게시물을 무리 없이 처리합니다. 따라서 마스토돈 계정은 상대방이 어떤 플랫폼을 사용하든 누구든 팔로우할 수 있는 이상적인 "중앙 허브"가 됩니다. 반면 예를 들어 피어튜브 계정만 사용한다면 다른 동영상 채&#xB110;_&#xB9CC;_ 팔로우할 수 있습니다.
 
-3. Mastodon has fairly comprehensive privacy controls. It has many built-in features which allow you to limit how and when your data is shared, some of which we'll cover below. They also develop new features with privacy in mind. For example, while other ActivityPub software quickly implemented "quote posts" by merely handling links to other posts with a slightly different embed modal, Mastodon is [developing](https://blog.joinmastodon.org/2025/02/bringing-quote-posts-to-mastodon) a quote post feature which will give you more fine-grained control when your post is quoted.
+3. 마스토돈은 상당히 포괄적인 프라이버시 제어 기능을 갖추고 있습니다. 데이터가 공유되는 방식과 시점을 제한할 수 있는 내장 기능이 많으며, 그중 일부는 아래에서 다룹니다. 또한 프라이버시를 염두에 두고 새로운 기능을 개발합니다. 예를 들어 다른 액티비티펍 소프트웨어는 다른 게시물로 가는 링크를 약간 다른 임베드 형태로 처리하는 방식으로 "인용 게시물"을 빠르게 구현했지만, 마스토돈은 여러분의 게시물이 인용될 때 더 세밀하게 제어할 수 있는 인용 게시물 기능을 [개발 중](https://blog.joinmastodon.org/2025/02/bringing-quote-posts-to-mastodon)입니다.
 
-### Choosing an Instance
+### 인스턴스 선택하기 { #choosing-an-instance }
 
-To benefit the most from Mastodon, it is critical to choose a server, or "instance," which is well aligned with the type of content you want to post or read about. We do not currently recommend any specific instances, but you may find advice within our communities. We recommend avoiding _mastodon.social_ and _mastodon.online_ because they are operated by the same company which develops Mastodon itself. From the perspective of decentralization, it is better in the long term to separate software developers and server hosts so that no one party can exert too much control over the network as a whole.
+마스토돈을 최대한 활용하려면 게시하거나 읽고 싶은 콘텐츠 유형에 잘 맞는 서버, 즉 "인스턴스"를 선택하는 것이 매우 중요합니다. 현재 특정 인스턴스를 추천하지는 않지만, 프라이버시 가이드 커뮤니티에서 조언을 얻을 수 있습니다. _mastodon.socia&#x6C;_&#xACFC; _mastodon.onlin&#x65;_&#xC740; 마스토돈을 개발하는 회사가 직접 운영하므로 피할 것을 권장합니다. 탈중앙화 관점에서는 어느 한 주체가 네트워크 전체에 지나친 통제력을 행사하지 못하도록 소프트웨어 개발자와 서버 호스트를 분리하는 것이 장기적으로 더 좋습니다.
 
-### Recommended Privacy Settings
+### 권장 프라이버시 설정 { #recommended-privacy-settings }
 
-From Mastodon's web interface, click the **Administration** link in the right sidebar. Within the administration control panel, you'll find these sections in the left sidebar:
+마스토돈 웹 인터페이스에서 오른쪽 사이드바의 **관리**(Administration) 링크를 클릭하세요. 관리 제어판의 왼쪽 사이드바에서 다음 섹션을 찾을 수 있습니다:
 
-#### Public Profile
+#### 공개 프로필 { #public-profile }
 
-There are a number of privacy controls under the **privacy and reach** tab here. Most notably, pay attention to these:
+이곳의 **개인정보와 도달**(privacy and reach) 탭에 여러 프라이버시 제어 기능이 있습니다. 특히 다음 항목에 주의하세요:
 
-- [ ] **Automatically accept new followers**: You should consider unchecking this box to have a private profile. This will allow you to review who can follow your account before accepting them.
+- [ ] **새 팔로워 자동 수락**(Automatically accept new followers): 비공개 프로필로 만들려면 이 상자의 선택을 해제하는 것을 고려해 보세요. 이렇게 하면 팔로우 요청을 수락하기 전에 누가 여러분의 계정을 팔로우할 수 있는지 검토할 수 있습니다.
 
-  In contrast to most social media platforms, if you have a private profile you still have the _option_ to publish posts which are publicly visible to non-followers and can still be boosted by non-followers. Therefore, unchecking this box is the only way to have the _choice_ to publish to either the entire world or a select group of people.
+  대부분의 소셜 미디어 플랫폼과 달리, 비공개 프로필이라도 팔로워가 아닌 사람도 볼 수 있고 부스트할 수 있는 공개 게시물을 올릴 _선택&#xAD8C;_&#xC740; 여전히 있습니다. 따라서 이 상자의 선택을 해제하는 것이 전 세계에 게시할지, 선택한 사람들에게만 게시할지 _선&#xD0DD;_&#xD560; 수 있는 유일한 방법입니다.
 
-- [ ] **Show follows and followers on profile**: You should uncheck this box to hide your social graph from the public. It is fairly uncommon for the list of people you follow to have some genuine benefit to others, but that information can present a risk to you.
+- [ ] **프로필에 팔로우와 팔로워 표시**(Show follows and followers on profile): 소셜 그래프를 대중에게 숨기려면 이 상자의 선택을 해제해야 합니다. 여러분이 팔로우하는 사람들의 목록이 다른 사람에게 실질적으로 도움이 되는 경우는 드물지만, 그 정보는 여러분에게 위험이 될 수 있습니다.
 
-- [ ] **Display from which app you sent a post**: You should uncheck this box to prevent revealing information about your personal computing setup to others unnecessarily.
+- [ ] **게시물을 작성한 앱 표시**(Display from which app you sent a post): 개인 컴퓨팅 환경에 관한 정보를 다른 사람에게 불필요하게 드러내지 않으려면 이 상자의 선택을 해제해야 합니다.
 
-The other privacy controls on this page should be read through, but we would stress that they are **not** technical controls—they are merely requests that you make to others. For example, if you choose to hide your profile from search engines on this page, **nothing** is actually stopping a search engine from reading your profile. You are merely requesting search engine indexes not publish your content to their users.
+이 페이지의 다른 프라이버시 제어 기능도 읽어 보아야 하지만, 이는 기술적인 제어 장치가 **아니라** 다른 사람에게 하는 요청일 뿐이라는 점을 강조하고 싶습니다. 예를 들어 이 페이지에서 검색 엔진에 프로필을 숨기도록 선택하더라도, 검색 엔진이 여러분의 프로필을 읽는 것을 실제로 막는 것은 **아무것도** 없습니다. 검색 엔진에 여러분의 콘텐츠를 사용자에게 게시하지 말아 달라고 요청하는 것일 뿐입니다.
 
-You will likely still wish to make these requests because they can practically reduce your digital footprint. However, they should not be _relied_ upon. The only effective way to hide your posts from search engines and others is to post with non-public (followers only) visibility settings _and_ limit who can follow your account.
+실제로 디지털 발자국을 줄이는 데 도움이 될 수 있으므로 이러한 요청은 그래도 해 두는 것이 좋습니다. 하지만 이러한 요청에 _의&#xC874;_&#xD574;서는 안 됩니다. 검색 엔진과 다른 사람들로부터 게시물을 숨기는 유일하게 효과적인 방법은 비공개(팔로워 전용) 공개 범위로 게시하는 _동시에_ 계정을 팔로우할 수 있는 사람을 제한하는 것입니다.
 
-#### Preferences
+#### 환경 설정 { #preferences }
 
-You should change your **posting privacy** setting from public to: **Followers-only - Only show to followers**.
+**게시물 공개 범위**(posting privacy) 설정을 공개에서 **팔로워 전용 - 팔로워에게만 공개**(Followers-only - Only show to followers)로 변경해야 합니다.
 
-Note that this only changes your default settings to prevent accidental over-sharing. You can always adjust your visibility level when composing a new post.
+이 설정은 실수로 지나치게 공유하는 것을 막기 위해 기본 설정만 바꾸는 것이라는 점에 유의하세요. 새 게시물을 작성할 때 언제든지 공개 범위를 조정할 수 있습니다.
 
-#### Automated post deletion
+#### 자동 게시물 삭제 { #automated-post-deletion }
 
-- [x] Check the **Automatically delete old posts** box.
+- [x] **오래된 게시물 자동 삭제**(Automatically delete old posts) 상자를 선택하세요.
 
-The default settings here are fine, and will delete any posts you make after 2 weeks, unless you favorite (star) them. This gives you an easy way to control which posts stick around forever, and which ones are only ephemeral. Many settings about how long and when posts are kept can be adjusted here to suit your own needs, however.
+이곳의 기본 설정으로도 충분하며, 즐겨찾기(별표)한 게시물을 제외하고 작성한 게시물을 2주 후에 삭제합니다. 이를 통해 어떤 게시물을 영구적으로 남기고 어떤 게시물을 일시적으로만 둘지 쉽게 관리할 수 있습니다. 하지만 게시물을 얼마나 오래, 언제까지 보관할지에 관한 여러 설정을 필요에 맞게 조정할 수 있습니다.
 
-It is very rare for social media posts older than a few weeks to be read or relevant to others. These older posts are often ignored because they are challenging to deal with in bulk, but they can build a fairly comprehensive profile about you over time. You should always strive to publish content ephemerally by default, and only keep posts around for longer than that very intentionally.
+몇 주 이상 지난 소셜 미디어 게시물이 다른 사람에게 읽히거나 의미가 있는 경우는 매우 드뭅니다. 이러한 오래된 게시물은 한꺼번에 처리하기 어렵기 때문에 방치되는 경우가 많지만, 시간이 지나면서 여러분에 관한 상당히 포괄적인 프로필을 만들어 낼 수 있습니다. 항상 기본적으로 콘텐츠를 일시적으로 게시하도록 하고, 그보다 오래 보관할 게시물은 매우 의도적으로만 남겨 두세요.
 
-### Posting Content
+### 콘텐츠 게시하기 { #posting-content }
 
-When publishing a new post, you will have the option to choose from one of these visibility settings:
+새 게시물을 올릴 때는 다음 공개 범위 설정 중 하나를 선택할 수 있습니다:
 
-- **Public**, which publishes your content to anyone on the internet.
-- **Quiet public**, which you should consider equivalent to publicly posting! This is not a technical guarantee, but merely a request you are making to other servers to hide your post from some feeds.
-- **Followers**, which publishes your content only to your followers. If you did not follow our recommendation of restricting your followers, you should consider this equivalent to publicly posting!
-- **Specific people**, which only shares the post with people who are specifically mentioned within the post. This is Mastodon's version of direct messages, but should never be relied on for private communications as we covered earlier since Mastodon has no E2EE.
+- **공개**(Public): 인터넷의 누구에게나 콘텐츠를 게시합니다.
+- **조용한 공개**(Quiet public): 공개 게시와 같다고 생각해야 합니다! 이는 기술적인 보장이 아니라, 다른 서버에 일부 피드에서 게시물을 숨겨 달라고 요청하는 것일 뿐입니다.
+- **팔로워**(Followers): 팔로워에게만 콘텐츠를 게시합니다. 팔로워를 제한하라는 권장 사항을 따르지 않았다면 이 역시 공개 게시와 같다고 생각해야 합니다!
+- **특정 사람**(Specific people): 게시물에서 언급한 사람들과만 게시물을 공유합니다. 이는 마스토돈판 다이렉트 메시지이지만, 앞서 설명했듯이 마스토돈에는 E2EE가 없으므로 사적인 소통에는 절대 의존해서는 안 됩니다.
 
-If you used our recommended configuration settings above, you should be posting to **Followers** by default, and only posting to **Public** on an intentional and case-by-case basis.
+위의 권장 설정을 따랐다면 기본적으로 **팔로워**에게 게시하고, **공개**로는 의도적으로 사안별로만 게시해야 합니다.
 
-## Element
+## 엘리먼트 { #element }
 
 <div class="admonition recommendation" markdown>
 
-![Element logo](assets/img/social-networks/element.svg){ align=right }
+![엘리먼트 로고](assets/img/social-networks/element.svg){ align=right }
 
-**Element** is the flagship client for the **:simple-matrix: [Matrix](https://matrix.org/docs/chat_basics/matrix-for-im)** protocol, an [open standard](https://spec.matrix.org/latest) that enables decentralized communication by way of federated chat rooms. Users can exist on different homeservers but still communicate with each other.
+**엘리먼트**는 연합된 대화방을 통해 탈중앙화된 통신을 가능하게 하는 [개방형 표준](https://spec.matrix.org/latest)인 **:simple-matrix: [매트릭스](https://matrix.org/docs/chat_basics/matrix-for-im)** 프로토콜의 대표 클라이언트입니다. 사용자는 서로 다른 홈서버에 있어도 서로 소통할 수 있습니다.
 
-[:octicons-home-16: Homepage](https://element.io){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://element.io/privacy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://element.io/help){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/element-hq){ .card-link title="Source Code" }
+[:octicons-home-16: 홈페이지](https://element.io){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://element.io/privacy){ .card-link title="개인정보 처리방침" }
+[:octicons-info-16:](https://element.io/help){ .card-link title="문서" }
+[:octicons-code-16:](https://github.com/element-hq){ .card-link title="소스 코드" }
 
-<details class="downloads" markdown><summary>Downloads</summary>
+<details class="downloads" markdown><summary>다운로드</summary>
 
-- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=io.element.android.x)
-- [:simple-appstore: App Store](https://apps.apple.com/app/id1631335820)
-- [:simple-github: GitHub](https://github.com/element-hq/element-x-android/releases)
-- [:fontawesome-brands-windows: Windows](https://element.io/download)
+- [:simple-googleplay: 구글 플레이](https://play.google.com/store/apps/details?id=io.element.android.x)
+- [:simple-appstore: 앱 스토어](https://apps.apple.com/app/id1631335820)
+- [:simple-github: 깃허브](https://github.com/element-hq/element-x-android/releases)
+- [:fontawesome-brands-windows: 윈도우](https://element.io/download)
 - [:simple-apple: macOS](https://element.io/download)
-- [:simple-linux: Linux](https://element.io/download)
-- [:octicons-browser-16: Web](https://app.element.io)
+- [:simple-linux: 리눅스](https://element.io/download)
+- [:octicons-browser-16: 웹](https://app.element.io)
 
 </details>
 
 </div>
 
-### Choosing a Homeserver
+### 홈서버 선택하기 { #choosing-a-homeserver }
 
-To benefit the most from Matrix, it is critical to choose a homeserver which is well aligned with the subject(s) you want to chat about. We do not currently recommend any specific homeservers, but you may find advice within our communities or third-party resources like [_joinmatrix.org_](https://servers.joinmatrix.org). We recommend avoiding _matrix.org_ because they are operated by the same company which develops Matrix itself. From the perspective of decentralization, it is better in the long term to separate software developers and server hosts so that no one party can exert too much control over the network as a whole.
+매트릭스를 최대한 활용하려면 대화하고 싶은 주제에 잘 맞는 홈서버를 선택하는 것이 매우 중요합니다. 현재 특정 홈서버를 추천하지는 않지만, 프라이버시 가이드 커뮤니티나 [_joinmatrix.org_](https://servers.joinmatrix.org) 같은 제3자 자료에서 조언을 얻을 수 있습니다. _matrix.or&#x67;_&#xB294; 매트릭스를 개발하는 회사가 직접 운영하므로 피할 것을 권장합니다. 탈중앙화 관점에서는 어느 한 주체가 네트워크 전체에 지나친 통제력을 행사하지 못하도록 소프트웨어 개발자와 서버 호스트를 분리하는 것이 장기적으로 더 좋습니다.
 
-### Recommended Privacy Settings
+### 권장 프라이버시 설정 { #recommended-privacy-settings_1 }
 
-From Element's web or desktop app, go to :gear: → **All settings** to find these sections:
+엘리먼트 웹 또는 데스크톱 앱에서 :gear: → **모든 설정**(All settings)으로 이동하면 다음 섹션을 찾을 수 있습니다:
 
-#### Sessions
+#### 세션 { #sessions }
 
-By default, when you log in to Element on a new device, the session name will be automatically populated with the Matrix client and platform you used for login. This information may be visible to other users depending on the Matrix client they use.
+기본적으로 새 기기에서 엘리먼트에 로그인하면, 로그인에 사용한 매트릭스 클라이언트와 플랫폼으로 세션 이름이 자동으로 채워집니다. 이 정보는 다른 사용자가 사용하는 매트릭스 클라이언트에 따라 그들에게 보일 수 있습니다.
 
-To prevent revealing information about your personal device to others unnecessarily, consider emptying the session name; this will change the session name to the randomly generated alphanumeric Session ID instead.
+개인 기기에 관한 정보를 다른 사람에게 불필요하게 드러내지 않으려면 세션 이름을 비우는 것을 고려해 보세요. 그러면 세션 이름이 무작위로 생성된 영숫자 세션 ID로 바뀝니다.
 
-#### Preferences
+#### 환경 설정 { #preferences_1 }
 
-- [ ] Uncheck **Send read receipts**
-- [ ] Uncheck **Send typing notifications**
+- [ ] **읽음 확인 보내기**(Send read receipts) 선택 해제
+- [ ] **입력 중 알림 보내기**(Send typing notifications) 선택 해제
 
-You should uncheck these options to reduce the exposure of metadata to other users when chatting in a public room.
+공개 대화방에서 채팅할 때 다른 사용자에게 노출되는 메타데이터를 줄이려면 이 옵션의 선택을 해제해야 합니다.
 
-#### Voice & Video
+#### 음성 및 영상 { #voice-video }
 
-- [ ] Uncheck **Allow Peer-to-Peer for 1:1 calls**
-- [ ] Uncheck **Allow fallback call assist server (turn.matrix.org)**
+- [ ] **1:1 통화에 P2P 허용**(Allow Peer-to-Peer for 1:1 calls) 선택 해제
+- [ ] **대체 통화 지원 서버 허용(turn.matrix.org)**(Allow fallback call assist server) 선택 해제
 
-If you do decide to use Element for one-to-one communication, we recommend unchecking these settings to prevent the exposure of your IP address to the other party.
+엘리먼트를 일대일 소통에 사용하기로 했다면, 상대방에게 IP 주소가 노출되지 않도록 이 설정의 선택을 해제할 것을 권장합니다.
 
-#### Security & Privacy
+#### 보안 및 개인정보 { #security-privacy }
 
-##### Manage integrations (scalar.vector.im)
+##### 통합 관리(scalar.vector.im) { #manage-integrations-scalarvectorim }
 
-A Matrix integration manager connects Matrix to third-party services such as bots, bridges, and other enhancements. Element collects information to provide these services to those using an integration manager; you can review its detailed [Privacy Notice](https://element.io/integration-manager-privacy-notice) for the exact information Element collects and the ways it uses such information.
+매트릭스 통합 관리자는 매트릭스를 봇, 브리지 및 기타 확장 기능 같은 서드파티 서비스와 연결합니다. 엘리먼트는 통합 관리자를 사용하는 사람들에게 이러한 서비스를 제공하기 위해 정보를 수집합니다. 엘리먼트가 수집하는 정확한 정보와 그 사용 방식은 자세한 [개인정보 처리방침](https://element.io/integration-manager-privacy-notice)에서 확인할 수 있습니다.
 
-As an end user on a public homeserver, you can consider unchecking the **Enable the integration manager** option, which does not affect the visibility of bots or other third-party services. As a homeserver administrator, consider whether the additional parties with which you share your data are worth the extra functionality.
+공개 홈서버의 일반 사용자라면 **통합 관리자 활성화**(Enable the integration manager) 옵션의 선택 해제를 고려해 볼 수 있으며, 이는 봇이나 기타 서드파티 서비스의 표시 여부에는 영향을 주지 않습니다. 홈서버 관리자라면 데이터를 공유하는 추가 주체가 그만큼의 추가 기능을 감수할 가치가 있는지 고려해 보세요.
 
-##### Sessions
+##### 세션 { #sessions_1 }
 
-- [ ] (Optional) Uncheck **Record the client name, version, and url to recognize sessions for easily in session manager**
+- [ ] (선택 사항) **세션 관리자에서 세션을 쉽게 알아볼 수 있도록 클라이언트 이름, 버전, URL 기록**(Record the client name, version, and url to recognize sessions for easily in session manager) 선택 해제
 
-Unchecking this option may make it more difficult to discern your active sessions if you logged in to your Matrix account on multiple devices.
+이 옵션의 선택을 해제하면 여러 기기에서 매트릭스 계정에 로그인한 경우 활성 세션을 구분하기 어려워질 수 있습니다.
 
-#### 암호화
+#### 암호화 { #encryption }
 
-- [x] (Optional) Check **In encrypted rooms, only send messages to verified users**
+- [x] (선택 사항) **암호화된 방에서는 인증된 사용자에게만 메시지 보내기**(In encrypted rooms, only send messages to verified users) 선택
 
-With this setting enabled, unverified users (i.e., those who have not used the **Verify User** function) and unverified devices of verified users will not receive your messages in a room with encryption enabled. This may limit the messages you can view and the people you can interact with.
+이 설정을 활성화하면 암호화가 활성화된 방에서 인증되지 않은 사용자(즉, **사용자 인증**(Verify User) 기능을 사용하지 않은 사용자)와 인증된 사용자의 인증되지 않은 기기는 여러분의 메시지를 받지 못합니다. 이로 인해 볼 수 있는 메시지와 교류할 수 있는 사람이 제한될 수 있습니다.
 
 ## 평가 기준 { #criteria }
 
-**Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. 프로젝트를 선택해 사용하기 전에 이 목록을 숙지하고, 직접 조사하여 자신에게 맞는 선택인지 확인하시기 바랍니다.
+**프라이버시 가이드는 추천하는 어떠한 프로젝트와도 제휴 관계가 없습니다.** [표준 평가 기준](about/criteria.md)에 더해, 객관적인 추천을 제공할 수 있도록 명확한 요구 사항을 마련했습니다. 프로젝트를 선택해 사용하기 전에 이 목록을 숙지하고, 직접 조사하여 자신에게 맞는 선택인지 확인하시기 바랍니다.
 
-- Must be free and open-source software.
-- Must use a federated protocol to communicate with other instances of the social networking software.
-- Must not have non-technical restrictions on who can be federated with.
-- Must be usable within a standard [web browser](desktop-browsers.md).
-- Must make public content accessible to visitors without an account.
-- Must allow you to limit who can follow your profile.
-- Must allow you to post content visible only to your followers.
-- Must support modern web application security standards/features (including [multifactor authentication](multi-factor-authentication.md)).
+- 자유 오픈 소스 소프트웨어여야 합니다.
+- 소셜 네트워킹 소프트웨어의 다른 인스턴스와 통신하는 데 연합 프로토콜을 사용해야 합니다.
+- 연합할 수 있는 대상에 대해 비기술적인 제한이 없어야 합니다.
+- 표준 [웹 브라우저](desktop-browsers.md)에서 사용할 수 있어야 합니다.
+- 계정이 없는 방문자도 공개 콘텐츠에 접근할 수 있어야 합니다.
+- 프로필을 팔로우할 수 있는 사람을 제한할 수 있어야 합니다.
+- 팔로워에게만 보이는 콘텐츠를 게시할 수 있어야 합니다.
+- ([다중 인증](multi-factor-authentication.md)을 포함한) 최신 웹 애플리케이션 보안 표준/기능을 지원해야 합니다.

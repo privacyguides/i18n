@@ -1,10 +1,10 @@
 ---
 title: Linux'a Genel Bakış
 icon: simple/linux
-description: Linux is an open-source, privacy-focused desktop operating system alternative, but not all distributions are created equal.
+description: Linux is an open-source, privacy-focused desktop operating system, but not all distributions are created equal.
 ---
 
-**Linux** açık kaynaklı, gizlilik odaklı bir masaüstü işletim sistemi alternatifidir. Yaygın telemetri ve ana akım işletim sistemlerindeki diğer gizliliği ihlal eden teknolojiler karşısında, masaüstü Linux, bilgisayarları üzerinde sıfırdan tam kontrol isteyen insanlar için açık bir seçim olmaya devam etti.
+**Linux** is an open-source, privacy-focused desktop operating system. Yaygın telemetri ve ana akım işletim sistemlerindeki diğer gizliliği ihlal eden teknolojiler karşısında, masaüstü Linux, bilgisayarları üzerinde sıfırdan tam kontrol isteyen insanlar için açık bir seçim olmaya devam etti.
 
 Web sitemizde genellikle **masaüstü** Linux dağıtımlarını tanımlamak için "Linux" terimi kullanılmaktadır. ChromeOS, Android ve Qubes OS gibi Linux çekirdeğini kullanan diğer işletim sistemleri bu sayfada ele alınmamıştır.
 

@@ -1,10 +1,10 @@
 ---
 title: Resumen de Linux
 icon: simple/linux
-description: Linux is an open-source, privacy-focused desktop operating system alternative, but not all distributions are created equal.
+description: Linux is an open-source, privacy-focused desktop operating system, but not all distributions are created equal.
 ---
 
-**Linux** es un sistema operativo de escritorio alternativo, de código abierto y centrado en la privacidad. Frente a la telemetría omnipresente y otras tecnologías que atentan contra la privacidad en los principales sistemas operativos, Linux de escritorio ha seguido siendo la opción clara para quienes buscan un control total sobre sus ordenadores desde la base.
+**Linux** is an open-source, privacy-focused desktop operating system. Frente a la telemetría omnipresente y otras tecnologías que atentan contra la privacidad en los principales sistemas operativos, Linux de escritorio ha seguido siendo la opción clara para quienes buscan un control total sobre sus ordenadores desde la base.
 
 En general, nuestro sitio web utiliza el término "Linux" para describir las distribuciones Linux de **escritorio**. En esta página no se tratan otros sistemas operativos que también utilizan el núcleo Linux, como ChromeOS, Android y Qubes OS.
 

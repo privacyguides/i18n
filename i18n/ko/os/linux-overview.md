@@ -1,10 +1,10 @@
 ---
 title: 리눅스 개요
 icon: simple/linux
-description: 리눅스는 오픈 소스이자 프라이버시 중심의 대안 데스크톱 운영 체제이지만, 모든 배포판이 똑같지는 않습니다.
+description: Linux is an open-source, privacy-focused desktop operating system, but not all distributions are created equal.
 ---
 
-**리눅스**는 오픈 소스이자 프라이버시 중심의 대안 데스크톱 운영 체제입니다. 주류 운영 체제의 만연한 원격 측정과 기타 프라이버시 침해 기술에 맞서, 데스크톱 리눅스는 컴퓨터를 처음부터 끝까지 완전히 통제하고 싶은 사람들에게 확실한 선택지로 남아 있습니다.
+**Linux** is an open-source, privacy-focused desktop operating system. 주류 운영 체제의 만연한 원격 측정과 기타 프라이버시 침해 기술에 맞서, 데스크톱 리눅스는 컴퓨터를 처음부터 끝까지 완전히 통제하고 싶은 사람들에게 확실한 선택지로 남아 있습니다.
 
 이 웹사이트에서 "리눅스"라는 용어는 일반적으로 **데스크톱** 리눅스 배포판을 가리킵니다. 크롬OS, 안드로이드, 큐브스 OS처럼 리눅스 커널을 사용하는 다른 운영 체제는 이 페이지에서 다루지 않습니다.
 

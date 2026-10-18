@@ -1,350 +1,350 @@
 ---
-title: "Privacy Policy"
-description: We do not sell or share your data with any third-parties.
+title: "개인정보 처리방침"
+description: 프라이버시 가이드는 여러분의 데이터를 제3자에게 판매하거나 공유하지 않습니다.
 ---
 
-## What is Privacy Guides?
+## 프라이버시 가이드란 무엇인가요? { #what-is-privacy-guides }
 
-Privacy Guides is a community project operated by a number of active contributors. The public list of team members [can be found on our forum](https://discuss.privacyguides.net/u?group=team&order=solutions&period=all). Privacy Guides is legally administered by [MAGIC Grants](https://magicgrants.org), a 501(c)(3) public charity acting as our fiscal host.
+프라이버시 가이드는 여러 활발한 기여자들이 운영하는 커뮤니티 프로젝트입니다. 공개된 팀원 목록은 [포럼에서 확인할 수 있습니다](https://discuss.privacyguides.net/u?group=team&order=solutions&period=all). 프라이버시 가이드는 회계 호스트 역할을 하는 501(c)(3) 공익 자선 단체인 [MAGIC 그랜츠](https://magicgrants.org)가 법적으로 관리합니다.
 
-As a project, we make available to the public:
+프로젝트로서 프라이버시 가이드는 다음을 대중에게 제공합니다:
 
-- [privacyguides.org](https://www.privacyguides.org), this website
-- [discuss.privacyguides.net](https://discuss.privacyguides.net), our community forum
-- [code.privacyguides.dev](https://code.privacyguides.dev), public source code repositories
+- [privacyguides.org](https://www.privacyguides.org), 이 웹사이트
+- [discuss.privacyguides.net](https://discuss.privacyguides.net), 커뮤니티 포럼
+- [code.privacyguides.dev](https://code.privacyguides.dev), 공개 소스 코드 저장소
 
-This privacy notice covers all Privacy Guides projects authorized and operated by the MAGIC Privacy Guides Fund executive committee.
+이 개인정보 처리방침은 MAGIC 프라이버시 가이드 기금 운영 위원회가 승인하고 운영하는 모든 프라이버시 가이드 프로젝트에 적용됩니다.
 
-Please note that when you make a donation to us on [donate.magicgrants.org](https://donate.magicgrants.org/privacyguides), MAGIC Grants has published a [separate privacy policy](https://donate.magicgrants.org/privacy) covering that platform.
+[donate.magicgrants.org](https://donate.magicgrants.org/privacyguides)에서 프라이버시 가이드에 기부하는 경우, MAGIC 그랜츠가 해당 플랫폼에 적용되는 [별도의 개인정보 처리방침](https://donate.magicgrants.org/privacy)을 게시하고 있다는 점에 유의하세요.
 
-Additionally, when you browse or make a purchase on [shop.privacyguides.org](https://shop.privacyguides.org/), this is a third-party service provided by Fourthwall. Fourthwall has published a [separate privacy policy](https://shop.privacyguides.org/pages/privacy-policy) covering that platform.
+또한 [shop.privacyguides.org](https://shop.privacyguides.org/)에서 둘러보거나 구매하는 경우, 이는 포스월이 제공하는 제3자 서비스입니다. 포스월은 해당 플랫폼에 적용되는 [별도의 개인정보 처리방침](https://shop.privacyguides.org/pages/privacy-policy)을 게시하고 있습니다.
 
-## How does Privacy Guides collect data about me?
+## 프라이버시 가이드는 나에 관한 데이터를 어떻게 수집하나요? { #how-does-privacy-guides-collect-data-about-me }
 
-Privacy Guides collects data about you:
+프라이버시 가이드는 다음과 같은 경우에 여러분에 관한 데이터를 수집합니다:
 
-- When you visit our websites
-- When you create and use an account on our websites
-- When you post, send private messages, and otherwise participate in a community that Privacy Guides hosts
-- When you sign up for a mailing list, email notifications, or announcements
-- When you become a donating member
-- When you make a donation to us on GitHub Sponsors
-- When you link your MAGIC Grants account to your Privacy Guides forum account
-- When you contribute to our website or other open-source projects
-- When you contact us
+- 웹사이트를 방문할 때
+- 웹사이트에서 계정을 만들고 사용할 때
+- 프라이버시 가이드가 운영하는 커뮤니티에 게시물을 올리거나, 비공개 메시지를 보내거나, 그 밖의 방식으로 참여할 때
+- 메일링 리스트, 이메일 알림, 공지에 가입할 때
+- 후원 회원이 될 때
+- 깃허브 스폰서를 통해 기부할 때
+- MAGIC 그랜츠 계정을 프라이버시 가이드 포럼 계정과 연결할 때
+- 웹사이트나 기타 오픈 소스 프로젝트에 기여할 때
+- 프라이버시 가이드에 연락할 때
 
-Privacy Guides does not buy or receive data about you from data brokers.
+프라이버시 가이드는 데이터 브로커로부터 여러분에 관한 데이터를 구매하거나 받지 않습니다.
 
-## Does Privacy Guides sell my personal information?
+## 프라이버시 가이드는 내 개인 정보를 판매하나요? { #does-privacy-guides-sell-my-personal-information }
 
-번호 Privacy Guides does not sell personal information. Additionally, Privacy Guides does not share personal information with third parties for the purpose of advertising.
+아니요. 프라이버시 가이드는 개인 정보를 판매하지 않습니다. 또한 프라이버시 가이드는 광고 목적으로 제3자와 개인 정보를 공유하지 않습니다.
 
-## What personal information does Privacy Guides collect, and why?
+## 프라이버시 가이드는 어떤 개인 정보를 왜 수집하나요? { #what-personal-information-does-privacy-guides-collect-and-why }
 
-### Privacy Guides collects information about visits to its websites
+### 프라이버시 가이드는 웹사이트 방문에 관한 정보를 수집합니다 { #privacy-guides-collects-information-about-visits-to-its-websites }
 
-When you visit one of our websites, whether you have an account or not, we use server logs and other methods to collect data about what pages you visit and when.
+계정 유무와 관계없이 웹사이트 중 하나를 방문하면, 프라이버시 가이드는 서버 로그 및 기타 방법을 사용하여 어떤 페이지를 언제 방문했는지에 관한 데이터를 수집합니다.
 
-We use this data to:
+이 데이터는 다음 용도로 사용합니다:
 
-- Optimize our websites, so they are quick and easy to use.
-- Diagnose and debug technical errors.
-- Defend our websites from abuse and technical attacks.
-- Compile statistics on page/topic popularity.
-- Compile statistics on the type of browser and devices our visitors use.
+- 웹사이트가 빠르고 사용하기 쉽도록 최적화합니다.
+- 기술적 오류를 진단하고 디버깅합니다.
+- 웹사이트를 악용과 기술적 공격으로부터 방어합니다.
+- 페이지/주제의 인기도에 관한 통계를 작성합니다.
+- 방문자가 사용하는 브라우저와 기기 유형에 관한 통계를 작성합니다.
 
-We generally store the above information for just a few weeks. In special circumstances, such as during an ongoing technical attack or a subsequent investigation, we may preserve some log data longer for analysis.
+일반적으로 위 정보는 몇 주 동안만 보관합니다. 기술적 공격이 진행 중이거나 그에 따른 조사가 이루어지는 경우 같은 특별한 상황에서는 분석을 위해 일부 로그 데이터를 더 오래 보존할 수 있습니다.
 
-Privacy Guides stores aggregated statistics for as long as we host our websites, but those statistics do not contain data identifiable to you personally.
+프라이버시 가이드는 웹사이트를 호스팅하는 동안 집계된 통계를 보관하지만, 이 통계에는 개인을 식별할 수 있는 데이터가 포함되지 않습니다.
 
-### Privacy Guides collects account data
+### 프라이버시 가이드는 계정 데이터를 수집합니다 { #privacy-guides-collects-account-data }
 
-Many features on our forum or other account-based services require an account. For example, you are required to have an account in order to post and reply to topics.
+포럼이나 기타 계정 기반 서비스의 많은 기능을 사용하려면 계정이 필요합니다. 예를 들어 주제를 게시하고 답글을 달려면 계정이 있어야 합니다.
 
-To sign up for an account, Privacy Guides requires your email address, a username, and a password.
+계정에 가입하려면 프라이버시 가이드에 이메일 주소, 사용자 이름, 비밀번호를 제공해야 합니다.
 
-We use this account data in order to identify you on the website, and to create pages specific to you, such as your profile page. We publish your account data to your public profile in accordance to your profile's configuration.
+이 계정 데이터는 웹사이트에서 여러분을 식별하고, 프로필 페이지처럼 여러분에게 특화된 페이지를 만드는 데 사용합니다. 계정 데이터는 프로필 구성에 따라 공개 프로필에 게시됩니다.
 
-Privacy Guides uses your email address to:
+프라이버시 가이드는 이메일 주소를 다음 용도로 사용합니다:
 
-- Notify you about posts and other activity on our website.
-- Reset your password and help keep your account secure.
-- Contact you in special circumstances related to your account.
-- Contact you about legal requests, like DMCA takedown requests.
+- 웹사이트의 게시물 및 기타 활동에 관해 알림을 보냅니다.
+- 비밀번호를 재설정하고 계정을 안전하게 유지하도록 돕습니다.
+- 계정과 관련된 특별한 상황에서 연락합니다.
+- DMCA 게시 중단 요청 같은 법적 요청에 관해 연락합니다.
 
-You may optionally provide additional details about your account, like your name, a short biography, your location, or your birthday, on the profile settings page for your account. Privacy Guides makes that information available to others who have access to the forum. You don’t have to provide this additional information, and you can erase it at any time.
+계정의 프로필 설정 페이지에서 이름, 짧은 자기소개, 위치, 생일 같은 계정에 관한 추가 정보를 선택적으로 제공할 수 있습니다. 프라이버시 가이드는 이러한 정보를 포럼에 접근할 수 있는 다른 사람들이 볼 수 있도록 합니다. 이러한 추가 정보는 제공하지 않아도 되며, 언제든지 지울 수 있습니다.
 
-Privacy Guides stores this account data as long as your account remains open.
+프라이버시 가이드는 계정이 유지되는 동안 이 계정 데이터를 보관합니다.
 
-### Privacy Guides collects data about posts and other activity
+### 프라이버시 가이드는 게시물 및 기타 활동에 관한 데이터를 수집합니다 { #privacy-guides-collects-data-about-posts-and-other-activity }
 
-Privacy Guides collects the content of your posts throughout our websites, plus data about bookmarks, likes, and links you follow in order to share that data with others. We also publish this activity to the public when you request it.
+프라이버시 가이드는 웹사이트 전반에서 여러분이 작성한 게시물의 내용과, 다른 사람과 공유하기 위해 북마크, 좋아요, 따라간 링크에 관한 데이터를 수집합니다. 또한 여러분이 요청하는 경우 이 활동을 공개적으로 게시합니다.
 
-Privacy Guides also collects data about private messages that you send through the forum. Privacy Guides makes private messages available to senders and their recipients, and also to forum moderators and administrators.
+프라이버시 가이드는 포럼을 통해 보내는 비공개 메시지에 관한 데이터도 수집합니다. 프라이버시 가이드는 비공개 메시지를 발신자와 수신자는 물론 포럼 모더레이터와 관리자도 볼 수 있도록 합니다.
 
-Privacy Guides stores your posts and other activity as long as your account remains open.
+프라이버시 가이드는 계정이 유지되는 동안 게시물 및 기타 활동을 보관합니다.
 
-### Privacy Guides collects data you give to sign up for mailing lists and announcements
+### 프라이버시 가이드는 메일링 리스트 및 공지 가입 시 제공한 데이터를 수집합니다 { #privacy-guides-collects-data-you-give-to-sign-up-for-mailing-lists-and-announcements }
 
-When you fill out and submit a web form to sign up for mailing lists or announcements, Privacy Guides collects the information you put in the form, such as your e-mail address.
+메일링 리스트나 공지에 가입하기 위해 웹 양식을 작성하여 제출하면, 프라이버시 가이드는 이메일 주소 등 양식에 입력한 정보를 수집합니다.
 
-Privacy Guides stores this information until you unsubscribe from the mailing list.
+프라이버시 가이드는 메일링 리스트 구독을 취소할 때까지 이 정보를 보관합니다.
 
-### Privacy Guides does not collect sensitive personal information
+### 프라이버시 가이드는 민감한 개인 정보를 수집하지 않습니다 { #privacy-guides-does-not-collect-sensitive-personal-information }
 
-Privacy Guides does not intentionally collect sensitive personal information, such as government identification numbers, information on racial or ethnic origin, political opinions, genetic data, biometric data, health data, or any of the special categories of personal data specified by the GDPR.
+프라이버시 가이드는 정부 발급 식별 번호, 인종 또는 민족적 출신, 정치적 견해, 유전 데이터, 생체 데이터, 건강 데이터에 관한 정보, 또는 GDPR에서 규정하는 특수 범주의 개인 데이터 같은 민감한 개인 정보를 의도적으로 수집하지 않습니다.
 
-### Privacy Guides collects data about open source contributors
+### 프라이버시 가이드는 오픈 소스 기여자에 관한 데이터를 수집합니다 { #privacy-guides-collects-data-about-open-source-contributors }
 
-Contributors to Privacy Guides' website may be asked to provide identifying and contact information such as your name and email address.
+프라이버시 가이드 웹사이트의 기여자는 이름이나 이메일 주소 같은 식별 정보와 연락처 정보를 제공하도록 요청받을 수 있습니다.
 
-Privacy Guides uses this information to maintain the integrity of our website, software, and license agreements, both our own licenses and the license between Privacy Guides and our contributors. Privacy Guides stores this information for as long as your contributions are incorporated into our open source software, including this website.
+프라이버시 가이드는 이 정보를 웹사이트, 소프트웨어, 그리고 프라이버시 가이드 자체 라이선스와 프라이버시 가이드와 기여자 간의 라이선스를 포함한 라이선스 계약의 무결성을 유지하는 데 사용합니다. 프라이버시 가이드는 이 웹사이트를 포함한 오픈 소스 소프트웨어에 여러분의 기여가 포함되어 있는 동안 이 정보를 보관합니다.
 
-### Privacy Guides collects data when you donate to us
+### 프라이버시 가이드는 기부 시 데이터를 수집합니다 { #privacy-guides-collects-data-when-you-donate-to-us }
 
-#### When you subscribe to a membership on privacyguides.org
+#### privacyguides.org에서 회원 가입을 하는 경우 { #when-you-subscribe-to-a-membership-on-privacyguidesorg }
 
-When you donate to us through our [membership program](#/portal), we collect your email address. Your payment information is also collected by our payment processor Stripe in order to facilitate the transaction. You can also optionally provide your name, which is used to personalize your experience, and can be removed or changed in your [profile settings](#/portal/account/profile) at any time.
+[회원 프로그램](#/portal)을 통해 기부하면 이메일 주소를 수집합니다. 결제 정보도 거래를 처리하기 위해 결제 대행사인 스트라이프가 수집합니다. 선택적으로 이름을 제공할 수도 있으며, 이름은 사용 경험을 맞춤화하는 데 사용되고 [프로필 설정](#/portal/account/profile)에서 언제든지 삭제하거나 변경할 수 있습니다.
 
-If your membership and newsletter subscription matches an email address associated with an account on our forum, we will link your membership status to your forum account. This allows you to receive special perks on the forum, such as a members-only title or flair, and access to members-only categories.
+회원 가입 및 뉴스레터 구독에 사용한 이메일 주소가 포럼 계정과 연결된 이메일 주소와 일치하면, 회원 상태를 포럼 계정과 연결합니다. 이를 통해 회원 전용 칭호나 플레어, 회원 전용 카테고리 접근 같은 특별 혜택을 포럼에서 받을 수 있습니다.
 
-If the Member title or Member flair is enabled on your forum profile, Privacy Guides will share your username and profile picture on our websites for the purposes of acknowledging your donation to the project. You may revoke this consent at any time by removing the title and flair from your public profile, and we will no longer share your donation status publicly. This will not affect your access to members-only benefits. It may take until the next website release for your data to be removed from public visibility.
+포럼 프로필에서 회원 칭호나 회원 플레어를 활성화하면, 프라이버시 가이드는 프로젝트에 대한 기부에 감사를 표하기 위해 웹사이트에 여러분의 사용자 이름과 프로필 사진을 공유합니다. 공개 프로필에서 칭호와 플레어를 제거하여 언제든지 이 동의를 철회할 수 있으며, 그러면 더 이상 기부 상태를 공개적으로 공유하지 않습니다. 이는 회원 전용 혜택 이용에는 영향을 주지 않습니다. 데이터가 공개적으로 보이지 않게 되기까지 다음 웹사이트 릴리스까지 걸릴 수 있습니다.
 
-#### When you donate to us via GitHub Sponsors
+#### 깃허브 스폰서를 통해 기부하는 경우 { #when-you-donate-to-us-via-github-sponsors }
 
-When you donate to us on GitHub Sponsors, we collect your GitHub username and profile picture. Your payment information is also collected by our subprocessors GitHub and Stripe in order to facilitate the transaction.
+깃허브 스폰서를 통해 기부하면 깃허브 사용자 이름과 프로필 사진을 수집합니다. 결제 정보도 거래를 처리하기 위해 하위 처리자인 깃허브와 스트라이프가 수집합니다.
 
-If you choose to make your donation public during or after the checkout process on GitHub, Privacy Guides will share your username and profile picture on our websites for the purposes of fulfilling your request. You may revoke this consent at any time, and we will no longer share your donation status publicly. It may take until the next website release for your data to be removed from public visibility.
+깃허브에서 결제 과정 중이나 이후에 기부를 공개하기로 선택하면, 프라이버시 가이드는 그 요청을 이행하기 위해 웹사이트에 여러분의 사용자 이름과 프로필 사진을 공유합니다. 언제든지 이 동의를 철회할 수 있으며, 그러면 더 이상 기부 상태를 공개적으로 공유하지 않습니다. 데이터가 공개적으로 보이지 않게 되기까지 다음 웹사이트 릴리스까지 걸릴 수 있습니다.
 
-#### When you subscribe to a membership or donate to us on donate.magicgrants.org
+#### donate.magicgrants.org에서 회원 가입을 하거나 기부하는 경우 { #when-you-subscribe-to-a-membership-or-donate-to-us-on-donatemagicgrantsorg }
 
-When you donate to us on [donate.magicgrants.org](https://donate.magicgrants.org/privacyguides), a [separate privacy policy](https://donate.magicgrants.org/privacy) applies as noted at the beginning of this document.
+[donate.magicgrants.org](https://donate.magicgrants.org/privacyguides)에서 기부하는 경우, 이 문서의 시작 부분에서 언급한 대로 [별도의 개인정보 처리방침](https://donate.magicgrants.org/privacy)이 적용됩니다.
 
-However, if you optionally link your `donate.magicgrants.org` account to your Privacy Guides forum account, our forum collects some personal data which is covered by this notice: namely your forum username and whether you have an active membership.
+하지만 `donate.magicgrants.org` 계정을 프라이버시 가이드 포럼 계정과 선택적으로 연결하면, 포럼은 이 방침이 적용되는 일부 개인 데이터, 즉 포럼 사용자 이름과 활성 회원 여부를 수집합니다.
 
-We process that information in order to grant you special perks on the forum. Additionally, if you choose to make this status public by setting a members-only title or flair, we will share the status of your active membership on our websites. You may revoke this consent at any time by removing the title and flair from your public profile, and we will no longer share your donation status publicly. This will not affect your access to members-only benefits. It may take until the next website release for your data to be removed from public visibility.
+이 정보는 포럼에서 특별 혜택을 제공하기 위해 처리합니다. 또한 회원 전용 칭호나 플레어를 설정하여 이 상태를 공개하기로 선택하면, 웹사이트에서 여러분의 활성 회원 상태를 공유합니다. 공개 프로필에서 칭호와 플레어를 제거하여 언제든지 이 동의를 철회할 수 있으며, 그러면 더 이상 기부 상태를 공개적으로 공유하지 않습니다. 이는 회원 전용 혜택 이용에는 영향을 주지 않습니다. 데이터가 공개적으로 보이지 않게 되기까지 다음 웹사이트 릴리스까지 걸릴 수 있습니다.
 
-This information is stored for as long as your membership is active, or until you unlink your forum and MAGIC Grants donation accounts in your profile settings.
+이 정보는 회원 자격이 유지되는 동안, 또는 프로필 설정에서 포럼과 MAGIC 그랜츠 기부 계정의 연결을 해제할 때까지 보관됩니다.
 
-### Privacy Guides collects data when you contact us
+### 프라이버시 가이드는 연락 시 데이터를 수집합니다 { #privacy-guides-collects-data-when-you-contact-us }
 
-When you contact Privacy Guides via email, Signal, or any of our other contact methods, we collect the information you submit to us, and any identifying information associated with the account you use to contact us. For example, when you contact us via Signal we will collect your Signal profile information. When you contact us via email we will collect your email address, name, and mail server IP address.
+이메일, 시그널 또는 기타 연락 방법으로 프라이버시 가이드에 연락하면, 프라이버시 가이드는 여러분이 제출한 정보와 연락에 사용한 계정에 연결된 모든 식별 정보를 수집합니다. 예를 들어 시그널로 연락하면 시그널 프로필 정보를 수집합니다. 이메일로 연락하면 이메일 주소, 이름, 메일 서버 IP 주소를 수집합니다.
 
-In this case we limit the processing of any personal data you provide us to what is strictly necessary to communicate with you and organize our messages.
+이 경우 제공받은 개인 데이터의 처리는 여러분과 소통하고 메시지를 정리하는 데 꼭 필요한 범위로 제한합니다.
 
-Privacy Guides stores this data for as long as we are in contact with you, or for up to 1 year after your last contact with us. You have the right to request all data related to your private communication with us be deleted at any time, and we will generally do so within 7 days.
+프라이버시 가이드는 여러분과 연락하는 동안, 또는 마지막 연락 후 최대 1년 동안 이 데이터를 보관합니다. 여러분은 프라이버시 가이드와의 비공개 소통에 관련된 모든 데이터의 삭제를 언제든지 요청할 권리가 있으며, 일반적으로 7일 이내에 삭제합니다.
 
-### The Privacy Guides website stores local data
+### 프라이버시 가이드 웹사이트는 로컬 데이터를 저장합니다 { #the-privacy-guides-website-stores-local-data }
 
-Our website uses Local Storage in your browser to store your color scheme preference. This data is only used by client-side JavaScript to change the color scheme of this website according to your preference.
+웹사이트는 색상 테마 설정을 저장하기 위해 브라우저의 로컬 스토리지를 사용합니다. 이 데이터는 설정에 따라 이 웹사이트의 색상 테마를 변경하기 위해 클라이언트 측 자바스크립트에서만 사용됩니다.
 
-Our website also uses Session Storage to cache the current version number of this website and the number of stars/forks of our GitHub repository. This data is fetched once per session from GitHub, and is only used by client-side JavaScript to display that information at the top of each page.
+또한 웹사이트는 이 웹사이트의 현재 버전 번호와 깃허브 저장소의 스타/포크 수를 캐시하기 위해 세션 스토리지를 사용합니다. 이 데이터는 세션당 한 번 깃허브에서 가져오며, 각 페이지 상단에 해당 정보를 표시하기 위해 클라이언트 측 자바스크립트에서만 사용됩니다.
 
-### The Privacy Guides website uses cookies
+### 프라이버시 가이드 웹사이트는 쿠키를 사용합니다 { #the-privacy-guides-website-uses-cookies }
 
-Our website uses features from the open-source Ghost content management system to manage your membership experience, which uses the following cookies:
+웹사이트는 회원 관련 기능을 관리하기 위해 오픈 소스 콘텐츠 관리 시스템인 고스트의 기능을 사용하며, 이 기능은 다음 쿠키를 사용합니다:
 
-| Name                                                                        | Essential | Expires  | Purpose                                                                                                                |
-| --------------------------------------------------------------------------- | --------- | -------- | ---------------------------------------------------------------------------------------------------------------------- |
-| ghost-members-ssr                                                           | Yes       | 6 months | used to identify your membership on the website                                                                        |
-| ghost-members-ssr.sig                                       | Yes       | 6 months | used to validate your membership on the website                                                                        |
-| __stripe_sid | Yes       | 1 year   | [Stripe](#subprocessors-used-by-privacy-guides) allows online transactions without storing any credit card information |
-| __stripe_mid | Yes       | 1 year   | [Stripe](#subprocessors-used-by-privacy-guides) allows online transactions without storing any credit card information |
+| 이름                                                                          | 필수 | 만료  | 목적                                                                                  |
+| --------------------------------------------------------------------------- | -- | --- | ----------------------------------------------------------------------------------- |
+| ghost-members-ssr                                                           | 예  | 6개월 | 웹사이트에서 회원 자격을 식별하는 데 사용됨                                                            |
+| ghost-members-ssr.sig                                       | 예  | 6개월 | 웹사이트에서 회원 자격을 검증하는 데 사용됨                                                            |
+| __stripe_sid | 예  | 1년  | [스트라이프](#subprocessors-used-by-privacy-guides)가 신용카드 정보를 저장하지 않고 온라인 거래를 처리할 수 있게 함 |
+| __stripe_mid | 예  | 1년  | [스트라이프](#subprocessors-used-by-privacy-guides)가 신용카드 정보를 저장하지 않고 온라인 거래를 처리할 수 있게 함 |
 
-### The Privacy Guides forum uses cookies
+### 프라이버시 가이드 포럼은 쿠키를 사용합니다 { #the-privacy-guides-forum-uses-cookies }
 
-Our forum is built on Discourse, which uses the following cookies:
+포럼은 디스코스를 기반으로 구축되어 있으며, 디스코스는 다음 쿠키를 사용합니다:
 
-| Name                                                          | Essential | Expires        | Purpose                                                                                                                   |
-| ------------------------------------------------------------- | --------- | -------------- | ------------------------------------------------------------------------------------------------------------------------- |
-| email                                                         | Yes       | Session        | remembers your e-mail as you create an account                                                                            |
-| destination_url                          | Yes       | Session        | helps redirect you to your requested page after logging in                                                                |
-| sso_destination_url | Yes       | Session        | helps redirect you to your request page after single sign on                                                              |
-| sso_payload                              | Yes       | Session        | used during SSO authentication when two-factor authentication is enabled                                                  |
-| authentication_data                      | Yes       | Next Page View | temporarily stores user information during login flows                                                                    |
-| theme_ids                                | Yes       | 1 year         | remembers your theme personalization if you don’t tick “Make this my default theme on all my devices”                     |
-| color_scheme_id     | Yes       | 1 year         | remembers your color personalization if you don’t tick “Set default color scheme(s) on all my devices” |
-| dark_scheme_id      | Yes       | 1 year         | remembers your color personalization if you don’t tick “Set default color scheme(s) on all my devices” |
-| cn                                                            | Yes       | Session        | temporarily stores notification read state                                                                                |
-| _bypass_cache       | Yes       | Session        | allows the server-side cache to be bypassed during login flows                                                            |
-| _t                                       | Yes       | 1440 Hours     | remembers who you are when you log in                                                                                     |
-| _forum_session      | Yes       | Session        | associates an ID, and other security-related information, with your browsing session                                      |
-| dosp                                                          | Yes       | Next Page View | enables client denial-of-service protection, a security protection                                                        |
-| text_size                                | Yes       | 1 year         | remembers default text size when a user wants to change it on only one device                                             |
-| cookietest                                                    | Yes       | Session        | checks if cookies are enabled when authentication fails                                                                   |
-| __profilin          | 아니요       | Session        | used by software developers to bypass rack-mini-profiler                                                                  |
+| 이름                                                            | 필수  | 만료          | 목적                                                       |
+| ------------------------------------------------------------- | --- | ----------- | -------------------------------------------------------- |
+| email                                                         | 예   | 세션          | 계정을 만드는 동안 이메일을 기억함                                      |
+| destination_url                          | 예   | 세션          | 로그인 후 요청한 페이지로 리디렉션하는 데 도움을 줌                            |
+| sso_destination_url | 예   | 세션          | 싱글 사인온(SSO) 후 요청한 페이지로 리디렉션하는 데 도움을 줌 |
+| sso_payload                              | 예   | 세션          | 2단계 인증이 활성화되어 있을 때 SSO 인증 중에 사용됨                         |
+| authentication_data                      | 예   | 다음 페이지 조회 시 | 로그인 과정에서 사용자 정보를 일시적으로 저장함                               |
+| theme_ids                                | 예   | 1년          | “모든 기기에서 이 테마를 기본값으로 설정”을 선택하지 않은 경우 테마 개인 설정을 기억함       |
+| color_scheme_id     | 예   | 1년          | “모든 기기에서 기본 색상 테마 설정”을 선택하지 않은 경우 색상 개인 설정을 기억함          |
+| dark_scheme_id      | 예   | 1년          | “모든 기기에서 기본 색상 테마 설정”을 선택하지 않은 경우 색상 개인 설정을 기억함          |
+| cn                                                            | 예   | 세션          | 알림 읽음 상태를 일시적으로 저장함                                      |
+| _bypass_cache       | 예   | 세션          | 로그인 과정에서 서버 측 캐시를 우회할 수 있게 함                             |
+| _t                                       | 예   | 1440시간      | 로그인할 때 사용자를 기억함                                          |
+| _forum_session      | 예   | 세션          | ID 및 기타 보안 관련 정보를 브라우징 세션과 연결함                           |
+| dosp                                                          | 예   | 다음 페이지 조회 시 | 보안 보호 기능인 클라이언트 서비스 거부 공격 방지를 활성화함                       |
+| text_size                                | 예   | 1년          | 사용자가 한 기기에서만 텍스트 크기를 변경하려는 경우 기본 텍스트 크기를 기억함             |
+| cookietest                                                    | 예   | 세션          | 인증에 실패했을 때 쿠키가 활성화되어 있는지 확인함                             |
+| __profilin          | 아니요 | 세션          | 소프트웨어 개발자가 rack-mini-profiler를 우회하는 데 사용함                |
 
-Your web browser can show you the cookies you have for any website and help you manage them.
+웹 브라우저에서 모든 웹사이트의 쿠키를 확인하고 관리할 수 있습니다.
 
-### Privacy Guides makes regular backups of all data
+### 프라이버시 가이드는 모든 데이터를 정기적으로 백업합니다 { #privacy-guides-makes-regular-backups-of-all-data }
 
-Privacy Guides keeps automated backups of **all** data it collects. These backups are stored for up to 30 days. Any time you delete personal data from our websites, a copy may be retained in backup archives until those archives are pruned.
+프라이버시 가이드는 수집하는 **모든** 데이터를 자동으로 백업합니다. 이 백업은 최대 30일 동안 보관됩니다. 웹사이트에서 개인 데이터를 삭제하더라도, 백업 보관본이 정리될 때까지 그 사본이 백업에 남아 있을 수 있습니다.
 
-## Does Privacy Guides use personal information for marketing purposes?
+## 프라이버시 가이드는 개인 정보를 마케팅 목적으로 사용하나요? { #does-privacy-guides-use-personal-information-for-marketing-purposes }
 
-Privacy Guides may use personal data about our users in order to directly promote our own resources, such as for sharing new resources or when fundraising. We also use the information you give us when signing up for our mailing lists and announcements to send those messages.
+프라이버시 가이드는 새로운 자료를 공유하거나 모금할 때처럼 자체 자료를 직접 홍보하기 위해 사용자에 관한 개인 데이터를 사용할 수 있습니다. 또한 메일링 리스트와 공지에 가입할 때 제공한 정보를 사용하여 해당 메시지를 보냅니다.
 
-You can always opt out of marketing communications from us, and you have the right to object to any processing of your information for marketing purposes.
+프라이버시 가이드의 마케팅 커뮤니케이션은 언제든지 거부할 수 있으며, 마케팅 목적의 정보 처리에 이의를 제기할 권리가 있습니다.
 
-Privacy Guides never provides or sells your data to third-parties for marketing purposes.
+프라이버시 가이드는 마케팅 목적으로 여러분의 데이터를 제3자에게 제공하거나 판매하지 않습니다.
 
-## How can I make choices about data collection?
+## 데이터 수집에 관해 어떻게 선택할 수 있나요? { #how-can-i-make-choices-about-data-collection }
 
-Your account on our websites has a settings page which provides you with options about how your data is used.
+웹사이트의 계정에는 데이터 사용 방식에 관한 옵션을 제공하는 설정 페이지가 있습니다.
 
-Most web browsers let you make choices about whether to accept cookies, for specific websites or more generally.
+대부분의 웹 브라우저에서는 특정 웹사이트 또는 전반적으로 쿠키를 허용할지 선택할 수 있습니다.
 
-Privacy Guides does not respond to the (now deprecated) [Do Not Track HTTP header](https://en.wikipedia.org/wiki/Do_Not_Track).
+프라이버시 가이드는 (현재는 사용 중단된) [Do Not Track HTTP 헤더](https://en.wikipedia.org/wiki/Do_Not_Track)에 응답하지 않습니다.
 
-## Where does Privacy Guides store data about me?
+## 프라이버시 가이드는 나에 관한 데이터를 어디에 저장하나요? { #where-does-privacy-guides-store-data-about-me }
 
-Most data is hosted by [Triplebit](https://www.triplebit.org) web services in the United States.
+대부분의 데이터는 미국에 있는 [트리플비트](https://www.triplebit.org) 웹 서비스에 호스팅됩니다.
 
-Some publicly accessible data may be hosted by Content Delivery Networks with servers in other jurisdictions. For example, your profile picture may be stored on multiple servers around the world in order to improve the performance for visitors to our website.
+공개적으로 접근 가능한 일부 데이터는 다른 관할권에 서버가 있는 콘텐츠 전송 네트워크(CDN)에 호스팅될 수 있습니다. 예를 들어 웹사이트 방문자의 성능을 개선하기 위해 프로필 사진이 전 세계 여러 서버에 저장될 수 있습니다.
 
-## Does Privacy Guides comply with the EU General Data Protection Regulation?
+## 프라이버시 가이드는 EU 일반 개인정보 보호법을 준수하나요? { #does-privacy-guides-comply-with-the-eu-general-data-protection-regulation }
 
-Privacy Guides respects rights under the European Union’s General Data Protection Regulation (GDPR). Information that GDPR requires Privacy Guides to give can be found throughout this privacy notice, including information on the rights of data subjects.
+프라이버시 가이드는 유럽연합 일반 개인정보 보호법(GDPR)에 따른 권리를 존중합니다. GDPR이 프라이버시 가이드에 제공하도록 요구하는 정보는 정보 주체의 권리에 관한 정보를 포함하여 이 개인정보 처리방침 전반에서 찾아볼 수 있습니다.
 
-### What are my rights under the GDPR?
+### GDPR에 따른 나의 권리는 무엇인가요? { #what-are-my-rights-under-the-gdpr }
 
-The GDPR provides you with the following rights with respect to personal information about you that we collect or process:
+GDPR은 프라이버시 가이드가 수집하거나 처리하는 여러분의 개인 정보에 대해 다음과 같은 권리를 보장합니다:
 
-- the right to [access](#where-can-i-access-data-about-me) your personal data
-- the right to [rectification](#how-can-i-change-or-erase-data-about-me) of inaccurate or incomplete personal data
-- the right to [erasure](#how-can-i-change-or-erase-data-about-me) of your personal data
-- the right to [data portability](#where-can-i-access-data-about-me)
-- the right to restrict the processing of your personal data
-- the right to object to certain processing of your information, including [automated decision-making](#does-privacy-guides-make-automated-decisions-based-on-my-data) and [direct marketing](#does-privacy-guides-use-personal-information-for-marketing-purposes)
-- the right to lodge a complaint with a supervisory authority
+- 개인 데이터에 [접근](#where-can-i-access-data-about-me)할 권리
+- 부정확하거나 불완전한 개인 데이터를 [정정](#how-can-i-change-or-erase-data-about-me)할 권리
+- 개인 데이터를 [삭제](#how-can-i-change-or-erase-data-about-me)할 권리
+- [데이터 이동](#where-can-i-access-data-about-me)에 관한 권리
+- 개인 데이터의 처리를 제한할 권리
+- [자동화된 의사 결정](#does-privacy-guides-make-automated-decisions-based-on-my-data)과 [직접 마케팅](#does-privacy-guides-use-personal-information-for-marketing-purposes)을 포함하여, 정보의 특정 처리에 이의를 제기할 권리
+- 감독 기관에 민원을 제기할 권리
 
-Information about how to exercise these rights is provided throughout this notice and linked above. We try to make exercising all of these rights easy to do on your own through your account settings, but for more complicated inquiries the best option will be to [contact](#how-can-i-contact-privacy-guides-about-privacy) us.
+이러한 권리를 행사하는 방법에 관한 정보는 이 방침 전반에 걸쳐 제공되어 있으며, 위에 링크되어 있습니다. 프라이버시 가이드는 계정 설정을 통해 이러한 모든 권리를 스스로 쉽게 행사할 수 있도록 노력하고 있지만, 더 복잡한 문의는 [연락](#how-can-i-contact-privacy-guides-about-privacy)하시는 것이 가장 좋습니다.
 
-### What is the lawful basis for data collection and processing?
+### 데이터 수집 및 처리의 법적 근거는 무엇인가요? { #what-is-the-lawful-basis-for-data-collection-and-processing }
 
-Privacy Guides generally processes your data using 3 of the 6 lawful bases for processing set out in Article 6 of the GDPR:
+프라이버시 가이드는 일반적으로 GDPR 제6조에 규정된 6가지 처리의 법적 근거 중 3가지를 사용하여 여러분의 데이터를 처리합니다:
 
-- **Consent**: When you give us clear consent for us to process your personal data. This consent can be easily withdrawn at any time in your account settings, or you may always contact us for assistance with privacy-related matters.
-- **Contract**: When you give us your personal data in order to participate on services we operate according to our terms of service, or when we require personal data in order to take steps prior to entering a contract or to fulfill a contract.
-- **Legitimate interest**: When we process your personal data for fraud prevention, network and information security, or other reasons where the processing is required for our own legitimate interests or for those of a third party we work with.
+- **동의**: 개인 데이터 처리에 대해 명확하게 동의한 경우. 이 동의는 계정 설정에서 언제든지 쉽게 철회할 수 있으며, 프라이버시 관련 문제에 대해서는 언제든지 연락하여 도움을 받을 수 있습니다.
+- **계약**: 서비스 이용 약관에 따라 프라이버시 가이드가 운영하는 서비스에 참여하기 위해 개인 데이터를 제공하는 경우, 또는 계약을 체결하기 전에 필요한 조치를 취하거나 계약을 이행하기 위해 개인 데이터가 필요한 경우.
+- **정당한 이익**: 사기 방지, 네트워크 및 정보 보안, 또는 프라이버시 가이드나 협력하는 제3자의 정당한 이익을 위해 처리가 필요한 기타 이유로 개인 데이터를 처리하는 경우.
 
-The lawful basis for our processing determines what rights are available to you under the GDPR. This table may be used as a reference:
+처리의 법적 근거에 따라 GDPR에서 여러분이 행사할 수 있는 권리가 달라집니다. 다음 표를 참고할 수 있습니다:
 
-| Activity                                                                                               | Data Collected                                                                         | Lawful Basis            | Explanation                                                                                                                                                                                                      |
-| ------------------------------------------------------------------------------------------------------ | -------------------------------------------------------------------------------------- | ----------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [Website visits](#privacy-guides-collects-information-about-visits-to-its-websites)                    | IP Address, User Agent, Pages Visited                                                  | **Legitimate interest** | Required for defending our website from abuse and technical attacks, diagnosing and debugging technical errors, optimizing our websites, and compiling aggregated non-personal statistics for long-term analysis |
-| [Account data](#privacy-guides-collects-account-data)                                                  | Email Address, IP Address                                                              | **Legitimate interest** | Required to defend our website against spam and abuse                                                                                                                                                            |
-| [Account data](#privacy-guides-collects-account-data)                                                  | Email Address, Username, Password                                                      | **Contract**            | Required to make our services available to you according to our terms of service                                                                                                                                 |
-| [Account data](#privacy-guides-collects-account-data)                                                  | Optional profile information (name, location, etc.) | **Consent**             | Required to publish the information you provide to your public or internal profile, according to your preferences                                                                                                |
-| [Posts & activity](#privacy-guides-collects-data-about-posts-and-other-activity)   | Content of your posts, activity data like bookmarks, likes, and links you follow       | **Contract**            | Required to make our services available to you according to our terms of service                                                                                                                                 |
-| [Posts & activity](#privacy-guides-collects-data-about-posts-and-other-activity)   | Content of your private messages                                                       | **Contract**            | Required to make our services available to you according to our terms of service                                                                                                                                 |
-| [Posts & activity](#privacy-guides-collects-data-about-posts-and-other-activity)   | Email Address                                                                          | **Contract**            | Our forum is an email-based platform, and email notifications about forum activity are an integral component required to make our services available to you according to our terms of service                    |
-| [Mailing lists](#privacy-guides-collects-data-you-give-to-sign-up-for-mailing-lists-and-announcements) | Email Address                                                                          | **Consent**             | Required for sending you messages you subscribe to                                                                                                                                                               |
-| [Open source contributions](#privacy-guides-collects-data-about-open-source-contributors)              | Email address, name, GitHub profile information, other information provided via Git    | **Legitimate interest** | We have a legitimate interest in tracking the provenance of contributions to our open source projects to prevent abuse and ensure intellectual property rights are respected                                     |
-| [Donations](#privacy-guides-collects-data-when-you-donate-to-us)                                       | Payment information including billing address and email, GitHub profile information    | **Legitimate interest** | We have a legitimate interest in processing this data to prevent payment abuse and fraud, and for facilitating your transaction                                                                                  |
-| [Donations](#privacy-guides-collects-data-when-you-donate-to-us)                                       | GitHub profile information                                                             | **Consent**             | We process this information to display your donation status publicly in accordance to your wishes                                                                                                                |
-| [Donations](#privacy-guides-collects-data-when-you-donate-to-us)                                       | Forum username and membership status                                                   | **Consent**             | When your membership is linked to your forum account, you can optionally display your membership status to the public                                                                                            |
-| [Contacting us](#privacy-guides-collects-data-when-you-contact-us)                                     | Email address, mail server IP, message content                                         | **Legitimate interest** | We have a legitimate interest in processing incoming email information to prevent spam and network abuse                                                                                                         |
-| [Contacting us](#privacy-guides-collects-data-when-you-contact-us)                                     | Email address, message headers and content                                             | **Contract**            | We store your messages and process your data in order to provide a response to your communication                                                                                                                |
-| [Backups](#privacy-guides-makes-regular-backups-of-all-data)                                           | All personal information we collect                                                    | **Legitimate interest** | We store complete backups to ensure organizational continuity and security for up to 30 days                                                                                                                     |
+| 활동                                                                                               | 수집하는 데이터                                   | 법적 근거      | 설명                                                                                          |
+| ------------------------------------------------------------------------------------------------ | ------------------------------------------ | ---------- | ------------------------------------------------------------------------------------------- |
+| [웹사이트 방문](#privacy-guides-collects-information-about-visits-to-its-websites)                     | IP 주소, 사용자 에이전트, 방문한 페이지                   | **정당한 이익** | 웹사이트를 악용과 기술적 공격으로부터 방어하고, 기술적 오류를 진단 및 디버깅하고, 웹사이트를 최적화하고, 장기 분석을 위한 비개인 집계 통계를 작성하는 데 필요함 |
+| [계정 데이터](#privacy-guides-collects-account-data)                                                  | 이메일 주소, IP 주소                              | **정당한 이익** | 웹사이트를 스팸과 악용으로부터 방어하는 데 필요함                                                                 |
+| [계정 데이터](#privacy-guides-collects-account-data)                                                  | 이메일 주소, 사용자 이름, 비밀번호                       | **계약**     | 서비스 이용 약관에 따라 서비스를 제공하는 데 필요함                                                               |
+| [계정 데이터](#privacy-guides-collects-account-data)                                                  | 선택 사항인 프로필 정보(이름, 위치 등) | **동의**     | 설정에 따라 제공한 정보를 공개 또는 내부 프로필에 게시하는 데 필요함                                                     |
+| [게시물 및 활동](#privacy-guides-collects-data-about-posts-and-other-activity)                         | 게시물 내용, 북마크, 좋아요, 따라간 링크 같은 활동 데이터         | **계약**     | 서비스 이용 약관에 따라 서비스를 제공하는 데 필요함                                                               |
+| [게시물 및 활동](#privacy-guides-collects-data-about-posts-and-other-activity)                         | 비공개 메시지 내용                                 | **계약**     | 서비스 이용 약관에 따라 서비스를 제공하는 데 필요함                                                               |
+| [게시물 및 활동](#privacy-guides-collects-data-about-posts-and-other-activity)                         | 이메일 주소                                     | **계약**     | 포럼은 이메일 기반 플랫폼이며, 포럼 활동에 관한 이메일 알림은 서비스 이용 약관에 따라 서비스를 제공하는 데 필요한 필수 구성 요소임                 |
+| [메일링 리스트](#privacy-guides-collects-data-you-give-to-sign-up-for-mailing-lists-and-announcements) | 이메일 주소                                     | **동의**     | 구독한 메시지를 보내는 데 필요함                                                                          |
+| [오픈 소스 기여](#privacy-guides-collects-data-about-open-source-contributors)                         | 이메일 주소, 이름, 깃허브 프로필 정보, 깃을 통해 제공된 기타 정보    | **정당한 이익** | 악용을 방지하고 지적 재산권이 존중되도록 오픈 소스 프로젝트에 대한 기여의 출처를 추적하는 데 정당한 이익이 있음                             |
+| [기부](#privacy-guides-collects-data-when-you-donate-to-us)                                        | 청구지 주소와 이메일을 포함한 결제 정보, 깃허브 프로필 정보         | **정당한 이익** | 결제 악용과 사기를 방지하고 거래를 처리하기 위해 이 데이터를 처리하는 데 정당한 이익이 있음                                        |
+| [기부](#privacy-guides-collects-data-when-you-donate-to-us)                                        | 깃허브 프로필 정보                                 | **동의**     | 여러분의 희망에 따라 기부 상태를 공개적으로 표시하기 위해 이 정보를 처리함                                                  |
+| [기부](#privacy-guides-collects-data-when-you-donate-to-us)                                        | 포럼 사용자 이름 및 회원 상태                          | **동의**     | 회원 자격이 포럼 계정과 연결되어 있으면 선택적으로 회원 상태를 공개적으로 표시할 수 있음                                          |
+| [연락](#privacy-guides-collects-data-when-you-contact-us)                                          | 이메일 주소, 메일 서버 IP, 메시지 내용                   | **정당한 이익** | 스팸과 네트워크 악용을 방지하기 위해 수신 이메일 정보를 처리하는 데 정당한 이익이 있음                                           |
+| [연락](#privacy-guides-collects-data-when-you-contact-us)                                          | 이메일 주소, 메시지 헤더 및 내용                        | **계약**     | 연락에 대한 답변을 제공하기 위해 메시지를 저장하고 데이터를 처리함                                                       |
+| [백업](#privacy-guides-makes-regular-backups-of-all-data)                                          | 프라이버시 가이드가 수집하는 모든 개인 정보                   | **정당한 이익** | 조직의 연속성과 보안을 보장하기 위해 최대 30일 동안 전체 백업을 보관함                                                   |
 
-### Does Privacy Guides make international data transfers?
+### 프라이버시 가이드는 국외로 데이터를 이전하나요? { #does-privacy-guides-make-international-data-transfers }
 
-Currently:
+현재:
 
-- Privacy Guides [processes personal data on servers outside the European Union](#where-does-privacy-guides-store-data-about-me).
-- Privacy Guides uses [subprocessors](#subprocessors-used-by-privacy-guides) with personnel and computers outside the European Union.
-- Privacy Guides has [personnel](https://discuss.privacyguides.net/u?group=team&order=solutions&period=all) in the United States, Australia, and other non-EU countries without EU adequacy decisions under GDPR. These people need access to forum personal data in order to keep forums running, address security concerns, respond to privacy-related requests from users, field technical support requests, and otherwise assist users.
-- Privacy Guides is very likely subject to section 702 of the Foreign Intelligence Surveillance Act in the United States, a law that the European Court of Justice has found inadequately protects the rights and freedoms of data subjects.
-- Privacy Guides has never received any order or request for personal data under FISA 702 or any similar national security or surveillance law of any other country. Privacy Guides is not subject to any court order or legal obligation that would prevent it from disclosing the existence or non-existence of such an order or request.
-- Privacy Guides has a policy for how we will respond to those orders and requests, in case we ever receive one. Privacy Guides will suspend processing, notify any affected user, minimize disclosure, and resist disclosure of personal data, all as the law allows.
+- 프라이버시 가이드는 [유럽연합 외부의 서버에서 개인 데이터를 처리합니다](#where-does-privacy-guides-store-data-about-me).
+- 프라이버시 가이드는 유럽연합 외부에 인력과 컴퓨터를 둔 [하위 처리자](#subprocessors-used-by-privacy-guides)를 이용합니다.
+- 프라이버시 가이드는 미국, 호주, 그리고 GDPR에 따른 EU 적정성 결정을 받지 않은 기타 비EU 국가에 [인력](https://discuss.privacyguides.net/u?group=team&order=solutions&period=all)을 두고 있습니다. 이 인력은 포럼을 계속 운영하고, 보안 문제를 해결하고, 사용자의 프라이버시 관련 요청에 응답하고, 기술 지원 요청을 처리하고, 그 밖의 방식으로 사용자를 지원하기 위해 포럼 개인 데이터에 접근해야 합니다.
+- 프라이버시 가이드는 미국 해외정보감시법(FISA) 제702조의 적용을 받을 가능성이 매우 높으며, 유럽사법재판소는 이 법이 정보 주체의 권리와 자유를 충분히 보호하지 못한다고 판단한 바 있습니다.
+- 프라이버시 가이드는 FISA 702조나 다른 국가의 유사한 국가 안보 또는 감시 법률에 따른 개인 데이터 명령이나 요청을 받은 적이 없습니다. 프라이버시 가이드는 그러한 명령이나 요청의 존재 여부를 공개하는 것을 막는 법원 명령이나 법적 의무의 적용을 받지 않습니다.
+- 프라이버시 가이드는 그러한 명령과 요청을 받을 경우에 대비해 대응 방침을 마련해 두고 있습니다. 프라이버시 가이드는 법이 허용하는 범위 내에서 처리를 중단하고, 영향을 받는 사용자에게 알리고, 공개를 최소화하며, 개인 데이터 공개에 저항할 것입니다.
 
-Because national security and surveillance laws may be in conflict with European data protection rules, Privacy Guides continually reassesses the practical reach of these laws to ensure our data transfers are adequately safeguarded.
+국가 안보 및 감시 법률은 유럽의 데이터 보호 규정과 충돌할 수 있으므로, 프라이버시 가이드는 데이터 이전이 적절히 보호되도록 이러한 법률의 실질적인 적용 범위를 지속적으로 재평가합니다.
 
-## Does Privacy Guides comply with the California Consumer Privacy Act and other US state comprehensive privacy laws?
+## 프라이버시 가이드는 캘리포니아 소비자 개인정보 보호법 및 기타 미국 주의 포괄적 개인정보 보호법을 준수하나요? { #does-privacy-guides-comply-with-the-california-consumer-privacy-act-and-other-us-state-comprehensive-privacy-laws }
 
-Privacy Guides is not a "business" for the purposes of the California Consumer Privacy Act (CCPA) or a “controller” directly subject to other US state comprehensive privacy laws.
+프라이버시 가이드는 캘리포니아 소비자 개인정보 보호법(CCPA)상의 "사업자"가 아니며, 다른 미국 주의 포괄적 개인정보 보호법이 직접 적용되는 "관리자"도 아닙니다.
 
-Privacy Guides **never** sells your personal information.
+프라이버시 가이드는 여러분의 개인 정보를 **절대** 판매하지 않습니다.
 
-## Where can I access data about me?
+## 나에 관한 데이터는 어디에서 확인할 수 있나요? { #where-can-i-access-data-about-me }
 
-You can see your account data by visiting your profile page on any websites where we offer accounts. Your account profile will also list your posts and other activity on the website.
+계정을 제공하는 웹사이트의 프로필 페이지를 방문하면 계정 데이터를 확인할 수 있습니다. 계정 프로필에는 웹사이트에서의 게시물 및 기타 활동도 표시됩니다.
 
-On the forum, your [profile settings](https://discuss.privacyguides.net/my/preferences/account) include a link to download all of your activity in standard Comma Separated Values format.
+포럼의 [프로필 설정](https://discuss.privacyguides.net/my/preferences/account)에는 모든 활동을 표준 CSV(쉼표로 구분된 값) 형식으로 다운로드할 수 있는 링크가 있습니다.
 
-If you do not have an account with us but have a data access request, please [contact us](about.md).
+계정은 없지만 데이터 열람 요청이 있다면 [연락해 주세요](about.md).
 
-## How can I change or erase data about me?
+## 나에 관한 데이터는 어떻게 변경하거나 삭제할 수 있나요? { #how-can-i-change-or-erase-data-about-me }
 
-You can change your account data at any time by visiting the profile settings page for your account. You also have the option to delete your profile on the settings page of your account. Utilizing this option begins the process of erasing or anonymizing Privacy Guides' records of data you provided for your account. Forum administrators and moderators also have the option to erase and anonymize accounts.
+계정의 프로필 설정 페이지를 방문하면 언제든지 계정 데이터를 변경할 수 있습니다. 계정 설정 페이지에서 프로필을 삭제하는 옵션도 있습니다. 이 옵션을 사용하면 계정에 제공한 데이터에 대한 프라이버시 가이드의 기록을 삭제하거나 익명화하는 절차가 시작됩니다. 포럼 관리자와 모더레이터도 계정을 삭제하고 익명화할 수 있습니다.
 
-You may also be able to edit, anonymize, or erase your posts. When you edit posts, Privacy Guides will keep all versions of your posts. These old versions of posts are not public, but may be accessed by forum moderators or administrators.
+게시물을 편집하거나, 익명화하거나, 삭제할 수도 있습니다. 게시물을 편집하면 프라이버시 가이드는 게시물의 모든 버전을 보관합니다. 이러한 이전 버전의 게시물은 공개되지 않지만, 포럼 모더레이터나 관리자가 볼 수 있습니다.
 
-## Does Privacy Guides make automated decisions based on my data?
+## 프라이버시 가이드는 내 데이터를 바탕으로 자동화된 의사 결정을 하나요? { #does-privacy-guides-make-automated-decisions-based-on-my-data }
 
-### The Privacy Guides forum classifies posts as spam automatically
+### 프라이버시 가이드 포럼은 게시물을 자동으로 스팸으로 분류합니다 { #the-privacy-guides-forum-classifies-posts-as-spam-automatically }
 
-We use data about your posts and other posts on many forums to make automated decisions about whether your posts to our websites are likely spam.
+프라이버시 가이드는 여러분의 게시물과 여러 포럼의 다른 게시물에 관한 데이터를 사용하여, 웹사이트에 올린 게시물이 스팸일 가능성이 있는지 자동으로 판단합니다.
 
-If you think a post has been wrongfully blocked or removed, please contact a forum moderator who can override this decision.
+게시물이 부당하게 차단되거나 삭제되었다고 생각되면, 이 결정을 번복할 수 있는 포럼 모더레이터에게 연락해 주세요.
 
-### The Privacy Guides forum uses data about your posts and activity to set trust levels
+### 프라이버시 가이드 포럼은 게시물과 활동에 관한 데이터를 사용하여 신뢰 수준을 설정합니다 { #the-privacy-guides-forum-uses-data-about-your-posts-and-activity-to-set-trust-levels }
 
-We use data about your posts and activity on our forum to award you badges and calculate a trust level for your account. Your trust level may affect how you can participate in the forum, such as whether you can upload images, as well as give you access to moderation and management powers in the forum. Your trust level therefore reflects forum administrators’ confidence in you, and their willingness to delegate community management functions, like moderation.
+프라이버시 가이드는 포럼에서의 게시물과 활동에 관한 데이터를 사용하여 배지를 수여하고 계정의 신뢰 수준을 계산합니다. 신뢰 수준은 이미지 업로드 가능 여부 등 포럼에 참여하는 방식에 영향을 줄 수 있으며, 포럼의 모더레이션 및 관리 권한을 부여하기도 합니다. 따라서 신뢰 수준은 여러분에 대한 포럼 관리자의 신뢰와, 모더레이션 같은 커뮤니티 관리 기능을 위임할 의향을 반영합니다.
 
-If you think your trust level has been set incorrectly, contact an administrator of your forum. They can manually adjust the trust level of your account.
+신뢰 수준이 잘못 설정되었다고 생각되면 포럼 관리자에게 연락하세요. 관리자가 계정의 신뢰 수준을 직접 조정할 수 있습니다.
 
-### The Privacy Guides forum uses community flags to take automated actions
+### 프라이버시 가이드 포럼은 커뮤니티 신고를 사용하여 자동화된 조치를 취합니다 { #the-privacy-guides-forum-uses-community-flags-to-take-automated-actions }
 
-Your posts may be automatically hidden, or your ability to post may be automatically suspended, as a result of your posts being flagged by other users.
+다른 사용자가 게시물을 신고하면 게시물이 자동으로 숨겨지거나 게시 권한이 자동으로 정지될 수 있습니다.
 
-These decisions are later reviewed by moderators, who can override these decisions at their discretion.
+이러한 결정은 이후 모더레이터가 검토하며, 모더레이터는 재량에 따라 결정을 번복할 수 있습니다.
 
-## Does Privacy Guides share data about me with others?
+## 프라이버시 가이드는 나에 관한 데이터를 다른 사람과 공유하나요? { #does-privacy-guides-share-data-about-me-with-others }
 
-Privacy Guides shares account data with others as described in [the section about account data](#privacy-guides-collects-account-data).
+프라이버시 가이드는 [계정 데이터에 관한 섹션](#privacy-guides-collects-account-data)에 설명된 대로 계정 데이터를 다른 사람과 공유합니다.
 
-Privacy Guides shares data about your posts and other activity as described in [the section about forum data](#privacy-guides-collects-data-about-posts-and-other-activity).
+프라이버시 가이드는 [포럼 데이터에 관한 섹션](#privacy-guides-collects-data-about-posts-and-other-activity)에 설명된 대로 게시물 및 기타 활동에 관한 데이터를 공유합니다.
 
-### Subprocessors used by Privacy Guides
+### 프라이버시 가이드가 이용하는 하위 처리자 { #subprocessors-used-by-privacy-guides }
 
-Privacy Guides uses the following subprocessors, and may share personal data with the service providers we use in order to host our website, deliver content, secure our services, store data, host and manage our open source website, and provide user support.
+프라이버시 가이드는 다음 하위 처리자를 이용하며, 웹사이트 호스팅, 콘텐츠 전송, 서비스 보안, 데이터 저장, 오픈 소스 웹사이트 호스팅 및 관리, 사용자 지원을 위해 이용하는 서비스 제공업체와 개인 데이터를 공유할 수 있습니다.
 
-| Subprocessor                                                                  | Service                                                                                      | Function                                                                                                                                               | Processing       | Links                                                                                                        |
-| ----------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------------- | ------------------------------------------------------------------------------------------------------------ |
-| [Bunny.net](https://bunny.net) (Slovenia)  | [Bunny CDN](https://bunny.net/cdn)                                                           | Content Delivery Network services for distributing images and other static assets.                                                     | Slovenia, Global | [Privacy Notice](https://bunny.net/privacy), [GDPR Center](https://bunny.net/gdpr)                           |
-| [Cloudflare](https://cloudflare.com) (USA)                 | [Authoritative DNS](https://cloudflare.com/application-services/products/dns)                | Authoritative DNS services for our domain names.                                                                                       | USA, Global      | [Privacy Notice](https://cloudflare.com/privacypolicy), [GDPR Center](https://cloudflare.com/trust-hub/gdpr) |
-| [Fediverse Communications LLC](https://fediverse.us) (USA) | PeerTube                                                                                     | For hosting public videos produced by Privacy Guides which are shared or embedded on this website.                                     | USA              | [More information](https://neat.tube/about/instance)                                                         |
-| [GitHub](https://github.com) (USA)                         | Git Repositories                                                                             | _For visitors to this website_: sharing information with our visitors about the current release, repo star count, etc. | USA              | [Privacy Notice](https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement)   |
-| [GitHub](https://github.com) (USA)                         | Git Repositories, Issues, Pull Requests                                                      | _For contributors to this website_: hosting our source code and communications platforms such as our issues tracker.   | USA              | [Privacy Notice](https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement)   |
-| [GitHub](https://github.com) (USA)                         | [Sponsors](https://github.com/sponsors/privacyguides)                                        | For collecting payments for gifts to Privacy Guides                                                                                                    | USA              | [Privacy Notice](https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement)   |
-| [Mailgun](https://www.mailgun.com) (USA)                   | Email Delivery                                                                               | For sending newsletters and other email messages to users                                                                                              | USA              | [Privacy Notice](https://www.mailgun.com/privacy-policy), [GDPR Center](https://www.mailgun.com/gdpr)        |
-| [Stripe](https://stripe.com) (USA)                         | Connect                                                                                      | Payment processing for donations                                                                                                                       | USA              | [Privacy Notice](https://stripe.com/privacy), [GDPR Center](https://stripe.com/legal/privacy-center)         |
-| [Triplebit](https://www.triplebit.org) (USA)               | Object Storage                                                                               | For hosting static websites and static media content, and distributing static content                                                                  | USA, Poland      | [Privacy Notice](https://www.triplebit.org/privacy)                                                          |
-| [Triplebit](https://www.triplebit.org) (USA)               | [Umami Statistics](https://stats.triplebit.net/share/S80jBc50hxr5TquS/www.privacyguides.org) | For compiling aggregated statistics of our website visitor data based on server-side visitor info submissions                                          | USA              | [Privacy Notice](https://www.triplebit.org/privacy)                                                          |
-| [Triplebit](https://www.triplebit.org) (USA)               | Virtual Private Servers                                                                      | For hosting our dynamic websites, storing and processing personal data.                                                                | USA              | [Privacy Notice](https://www.triplebit.org/privacy)                                                          |
+| 하위 처리자                                                                      | 서비스                                                                                  | 기능                                                                                   | 처리 위치       | 링크                                                                                                    |
+| --------------------------------------------------------------------------- | ------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------ | ----------- | ----------------------------------------------------------------------------------------------------- |
+| [Bunny.net](https://bunny.net)(슬로베니아)    | [Bunny CDN](https://bunny.net/cdn)                                                   | 이미지 및 기타 정적 자산을 배포하기 위한 콘텐츠 전송 네트워크 서비스.                             | 슬로베니아, 전 세계 | [개인정보 처리방침](https://bunny.net/privacy), [GDPR 센터](https://bunny.net/gdpr)                             |
+| [클라우드플레어](https://cloudflare.com)(미국)                    | [권한 있는 DNS](https://cloudflare.com/application-services/products/dns)                | 도메인 이름에 대한 권한 있는 DNS 서비스.                                            | 미국, 전 세계    | [개인정보 처리방침](https://cloudflare.com/privacypolicy), [GDPR 센터](https://cloudflare.com/trust-hub/gdpr)   |
+| [Fediverse Communications LLC](https://fediverse.us)(미국) | 피어튜브                                                                                 | 프라이버시 가이드가 제작하여 이 웹사이트에서 공유하거나 삽입하는 공개 동영상을 호스팅하기 위한 용도.             | 미국          | [자세한 정보](https://neat.tube/about/instance)                                                            |
+| [깃허브](https://github.com)(미국)                            | 깃 저장소                                                                                | _이 웹사이트 방문자 대상_: 현재 릴리스, 저장소 스타 수 등에 관한 정보를 방문자와 공유. | 미국          | [개인정보 처리방침](https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement) |
+| [깃허브](https://github.com)(미국)                            | 깃 저장소, 이슈, 풀 리퀘스트                                                                    | _이 웹사이트 기여자 대상_: 소스 코드와 이슈 트래커 같은 커뮤니케이션 플랫폼 호스팅.    | 미국          | [개인정보 처리방침](https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement) |
+| [깃허브](https://github.com)(미국)                            | [스폰서](https://github.com/sponsors/privacyguides)                                     | 프라이버시 가이드에 대한 후원금 결제를 받기 위한 용도                                                       | 미국          | [개인정보 처리방침](https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement) |
+| [메일건](https://www.mailgun.com)(미국)                       | 이메일 전송                                                                               | 사용자에게 뉴스레터와 기타 이메일 메시지를 보내기 위한 용도                                                    | 미국          | [개인정보 처리방침](https://www.mailgun.com/privacy-policy), [GDPR 센터](https://www.mailgun.com/gdpr)          |
+| [스트라이프](https://stripe.com)(미국)                          | 커넥트(Connect)                                                      | 기부금 결제 처리                                                                            | 미국          | [개인정보 처리방침](https://stripe.com/privacy), [GDPR 센터](https://stripe.com/legal/privacy-center)           |
+| [트리플비트](https://www.triplebit.org)(미국)                   | 오브젝트 스토리지                                                                            | 정적 웹사이트와 정적 미디어 콘텐츠를 호스팅하고 정적 콘텐츠를 배포하기 위한 용도                                        | 미국, 폴란드     | [개인정보 처리방침](https://www.triplebit.org/privacy)                                                        |
+| [트리플비트](https://www.triplebit.org)(미국)                   | [Umami 통계](https://stats.triplebit.net/share/S80jBc50hxr5TquS/www.privacyguides.org) | 서버 측에서 제출된 방문자 정보를 바탕으로 웹사이트 방문자 데이터의 집계 통계를 작성하기 위한 용도                              | 미국          | [개인정보 처리방침](https://www.triplebit.org/privacy)                                                        |
+| [트리플비트](https://www.triplebit.org)(미국)                   | 가상 사설 서버                                                                             | 동적 웹사이트를 호스팅하고 개인 데이터를 저장 및 처리하기 위한 용도.                              | 미국          | [개인정보 처리방침](https://www.triplebit.org/privacy)                                                        |
 
-## Does Privacy Guides delete inactive accounts?
+## 프라이버시 가이드는 비활성 계정을 삭제하나요? { #does-privacy-guides-delete-inactive-accounts }
 
-Privacy Guides deletes accounts that have no public activity when they have gone unused for 3 years. If the account has public activity, we will not delete it regardless of inactivity because your profile data is required to continue to publish your activity per your original request.
+프라이버시 가이드는 공개 활동이 없는 계정이 3년 동안 사용되지 않으면 삭제합니다. 계정에 공개 활동이 있다면, 원래 요청에 따라 활동을 계속 게시하는 데 프로필 데이터가 필요하므로 비활성 기간과 관계없이 삭제하지 않습니다.
 
-You can always request the deletion of your data at any time regardless of this policy.
+이 방침과 관계없이 언제든지 데이터 삭제를 요청할 수 있습니다.
 
-## How can I contact Privacy Guides about privacy?
+## 프라이버시와 관련하여 프라이버시 가이드에 어떻게 연락할 수 있나요? { #how-can-i-contact-privacy-guides-about-privacy }
 
-You can send questions, requests, and complaints via email to us at <team@privacyguides.org>. You may also use Signal or another [contact method](about.md#contact-us) to contact us more securely.
+질문, 요청, 불만 사항은 <team@privacyguides.org>로 이메일을 보내 주세요. 시그널이나 다른 [연락 방법](about.md#contact-us)을 사용하여 더 안전하게 연락할 수도 있습니다.
 
-For complaints under GDPR more generally, you always have the option to lodge complaints with your local data protection supervisory authorities.
+GDPR에 관한 일반적인 불만 사항은 언제든지 거주 지역의 개인정보 보호 감독 기관에 제기할 수 있습니다.
 
-## Where do I find out about changes?
+## 변경 사항은 어디에서 확인할 수 있나요? { #where-do-i-find-out-about-changes }
 
-This version of Privacy Guides' privacy notice took effect on September 24, 2025.
+이 버전의 프라이버시 가이드 개인정보 처리방침은 2025년 9월 24일부터 시행되었습니다.
 
-Privacy Guides will post the next version here: <https://www.privacyguides.org/en/privacy/>.
+프라이버시 가이드는 다음 버전을 <https://www.privacyguides.org/en/privacy/>에 게시합니다.
 
-In future versions, Privacy Guides may change how it announces changes. In the meantime, Privacy Guides may update its contact information without announcing a change. Please refer to <https://www.privacyguides.org/en/privacy/> for the latest contact information at any time.
+향후 버전에서는 변경 사항을 알리는 방식이 바뀔 수 있습니다. 그동안 프라이버시 가이드는 변경 사항을 알리지 않고 연락처 정보를 업데이트할 수 있습니다. 최신 연락처 정보는 언제든지 <https://www.privacyguides.org/en/privacy/>에서 확인하세요.
 
-A full revision [history](https://github.com/privacyguides/privacyguides.org/commits/main/docs/privacy.md) of this page can be found on GitHub.
+이 페이지의 전체 수정 [기록](https://github.com/privacyguides/privacyguides.org/commits/main/docs/privacy.md)은 깃허브에서 확인할 수 있습니다.
 
-In the event that a translated copy of this document conflicts with the English copy, the English copy of this document takes precedence.
+이 문서의 번역본이 영어 원본과 상충하는 경우, 영어 원본이 우선합니다.

@@ -1,10 +1,10 @@
 ---
 title: Linux Overview
 icon: simple/linux
-description: Linux is an open-source, privacy-focused desktop operating system alternative, but not all distributions are created equal.
+description: Linux is an open-source, privacy-focused desktop operating system, but not all distributions are created equal.
 ---
 
-**Linux** adalah alternatif sistem operasi komputer sumber terbuka yang berfokus pada privasi. In the face of pervasive telemetry and other privacy-encroaching technologies in mainstream operating systems, desktop Linux has remained the clear choice for people looking for total control over their computers from the ground up.
+**Linux** is an open-source, privacy-focused desktop operating system. In the face of pervasive telemetry and other privacy-encroaching technologies in mainstream operating systems, desktop Linux has remained the clear choice for people looking for total control over their computers from the ground up.
 
 Situs web kami umumnya menggunakan istilah "Linux" untuk menjelaskan distribusi Linux **desktop**. Sistem operasi lain yang juga menggunakan kernel Linux seperti ChromeOS, Android, dan Qubes OS tidak dibahas di halaman ini.
 
