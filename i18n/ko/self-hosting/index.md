@@ -13,7 +13,7 @@ cover: router.webp
 
 자체 호스팅에는 고급 기술 지식과 관련 위험에 대한 깊은 이해가 필요합니다. 자신과 다른 사람들을 위한 호스트가 되면, 그렇지 않았다면 지지 않았을 책임을 지게 됩니다. 프라이버시 소프트웨어를 잘못 자체 호스팅하면 종단 간 암호화 서비스 제공업체 등을 사용하는 것보다 오히려 상황이 나빠질 수 있으므로, 아직 익숙하지 않다면 피하는 것이 좋습니다.
 
-## :material-dns: DNS 필터링 { #material-dns-dns-filtering }
+## :material-dns: DNS 필터링 { #dns-filtering }
 
 <div class="grid cards" markdown>
 
@@ -24,7 +24,7 @@ cover: router.webp
 
 [자세히 알아보기 :material-arrow-right-drop-circle:](dns-filtering.md)
 
-## :material-email: 이메일 서버 { #material-email-email-servers }
+## :material-email: 이메일 서버 { #email-servers }
 
 <div class="grid cards" markdown>
 
@@ -36,7 +36,7 @@ cover: router.webp
 
 [자세히 알아보기 :material-arrow-right-drop-circle:](email-servers.md)
 
-## :material-file-multiple-outline: 파일 관리 { #material-file-multiple-outline-file-management }
+## :material-file-multiple-outline: 파일 관리 { #file-management }
 
 <div class="grid cards" markdown>
 
@@ -48,7 +48,7 @@ cover: router.webp
 
 [자세히 알아보기 :material-arrow-right-drop-circle:](file-management.md)
 
-## :material-form-textbox-password: 비밀번호 관리 { #material-form-textbox-password-password-management }
+## :material-form-textbox-password: 비밀번호 관리 { #password-management }
 
 ### 볼트워든 { #vaultwarden }
 
@@ -66,7 +66,7 @@ cover: router.webp
 
 </div>
 
-## :material-account-supervisor-circle-outline: 소셜 네트워크 { #material-account-supervisor-circle-outline-social-networks }
+## :material-account-supervisor-circle-outline: 소셜 네트워크 { #social-networks }
 
 소셜 네트워크 소프트웨어의 인스턴스를 직접 자체 호스팅하면 공개 서버 관리자나 관리팀에 의한 잠재적인 [서버 수준의 검열](../social-networks.md#censorship-resistance)을 피하는 데 도움이 됩니다.
 
@@ -101,7 +101,7 @@ cover: router.webp
 
 </div>
 
-## :material-flip-to-front: 프런트엔드 { #material-flip-to-front-frontends }
+## :material-flip-to-front: 프런트엔드 { #frontends }
 
 웹 기반 프런트엔드의 인스턴스를 직접 자체 호스팅하면 트래픽이 많은 공개 인스턴스에서 겪을 수 있는 속도 제한을 피하는 데 도움이 됩니다. 다른 사용자들 사이에 섞이려면 다른 사람들도 여러분의 인스턴스를 함께 사용하는 것이 중요합니다. 다른 사람들의 사용 내역이 여러분의 호스팅과 연결되므로, 어디서 어떻게 호스팅하는지에 주의해야 합니다.
 

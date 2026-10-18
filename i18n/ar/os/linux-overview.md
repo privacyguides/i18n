@@ -24,13 +24,13 @@ description: نظام Linux هو نظام تشغيل مفتوح المصدر ي�
 
 في الواقع، يعتمد أمان توزيعة Linux على عدة عوامل، مثل مدى نشاط المشروع، وخبرة المطورين، ودقة مراجعة الكود، ومدى الاهتمام بأجزاء معينة من الكود قد تمر سنوات دون مراجعتها أو تعديلها.
 
-### Missing Security Features
+### ميزات الأمان المفقودة
 
-At the moment, desktop Linux [falls behind alternatives](https://discussion.fedoraproject.org/t/fedora-strategy-2028-proposal-fedora-linux-is-as-secure-as-macos/46899/9) like macOS or Android when it comes to certain security features. We hope to see improvements in these areas in the future.
+حاليا، يتأخر Linux على [أجهزة الكمبيوتر المكتبية (Desktop)](https://discussion.fedoraproject.org/t/fedora-strategy-2028-proposal-fedora-linux-is-as-secure-as-macos/46899/9) عن بدائل مثل macOS وAndroid في بعض ميزات الأمان. نأمل أن نرى تحسينات في هذه الجوانب مستقبلا.
 
-- **Verified boot** on Linux is not as robust as alternatives such as Apple’s [Secure Boot](https://support.apple.com/guide/security/secac71d5623/web) or Android’s [Verified Boot](https://source.android.com/security/verifiedboot). Verified boot prevents persistent tampering by malware and [evil maid attacks](https://en.wikipedia.org/wiki/Evil_Maid_attack), but is still largely [unavailable on even the most advanced distributions](https://discussion.fedoraproject.org/t/has-silverblue-achieved-verified-boot/27251/3).
+- ميزة الـ **Verified Boot** على Linux ليست بقوة البدائل مثل [Secure Boot](https://support.apple.com/guide/security/secac71d5623/web) من Apple أو [Verified Boot](https://source.android.com/security/verifiedboot) من Android. تمنع ميزة الـ Verified Boot البرمجيات الخبيثة من إجراء تعديلات دائمة على النظام، وتحمي من هجمات [Evil Maid](https://en.wikipedia.org/wiki/Evil_Maid_attack)، لكنها [لا تزال غير متاحة على نطاق واسع](https://discussion.fedoraproject.org/t/has-silverblue-achieved-verified-boot/27251/3)، حتى في أكثر توزيعات Linux تطورا.
 
-- **Strong sandboxing** for apps on Linux is severely lacking, even with containerized apps like Flatpaks or sandboxing solutions like Firejail. Flatpak is the most promising sandboxing utility for Linux thus far, but is still deficient in many areas and allows for [unsafe defaults](https://flatkill.org/2020) which permit most apps to trivially bypass their sandbox.
+- يفتقر Linux بشدة إلى **عزل قوي للتطبيقات (sandboxing)**، حتى مع التطبيقات التي تعمل داخل حاويات مثل Flatpaks، أو حلول العزل مثل Firejail. يُعد Flatpak حتى الآن أكثر أدوات العزل (sandboxing) الواعدة على Linux، لكنه لا يزال يعاني من أوجه قصور عديدة، ويسمح [بإعدادات افتراضية](https://flatkill.org/2020) غير آمنة تُمكّن معظم التطبيقات من تجاوز العزل بسهولة.
 
 Additionally, Linux falls behind in implementing [exploit mitigations](https://madaidans-insecurities.github.io/linux.html#exploit-mitigations) which are now standard on other operating systems, such as Arbitrary Code Guard on Windows or Hardened Runtime on macOS. Also, most Linux programs and Linux itself are coded in memory-unsafe languages. Memory corruption bugs are responsible for the [majority of vulnerabilities](https://msrc.microsoft.com/blog/2019/07/a-proactive-approach-to-more-secure-code) fixed and assigned a CVE. While this is also true for Windows and macOS, they are quickly making progress on adopting memory-safe languages such as Rust and Swift, respectively.
 

@@ -5,7 +5,7 @@ description: These security keys provide a form of phishing-immune authenticatio
 cover: multi-factor-authentication.webp
 ---
 
-<small>Protects against the following threat(s):</small>
+<small>다음 위협으로부터 보호합니다:</small>
 
 - [:material-target-account: Targeted Attacks](basics/common-threats.md#attacks-against-specific-individuals){ .pg-red }
 - [:material-bug-outline: Passive Attacks](basics/common-threats.md#security-and-privacy){ .pg-orange }
@@ -107,9 +107,9 @@ Starting with Nitrokey 3, HOTP and TOTP secrets are additionally encrypted at re
 
 </div>
 
-## 평가 기준
+## 평가 기준 { #criteria }
 
-**Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. 어떠한 프로젝트를 선택해 사용하기 전에, 이러한 요구 사항들을 숙지하고 여러분 스스로 조사하는 과정을 거쳐 적절한 선택을 하시기 바랍니다.
+**Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. 프로젝트를 선택해 사용하기 전에 이 목록을 숙지하고, 직접 조사하여 자신에게 맞는 선택인지 확인하시기 바랍니다.
 
 ### 최소 요구 사항
 

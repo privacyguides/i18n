@@ -66,9 +66,9 @@ Privacy.com gives information about the merchants you purchase from to your bank
 
 MySudo's virtual cards are currently only available via their iOS app.
 
-### 평가 기준
+### 평가 기준 { #criteria }
 
-**Privacy Guides는 권장 목록의 어떠한 프로젝트와도 제휴를 맺지 않았습니다.** 객관적인 권장 목록을 제공하기 위해, [일반적인 평가 기준](about/criteria.md)에 더해 명확한 요구 사항을 정립하였습니다. 어떠한 프로젝트를 선택해 사용하기 전에, 이러한 요구 사항들을 숙지하고 여러분 스스로 조사하는 과정을 거쳐 적절한 선택을 하시기 바랍니다.
+**프라이버시 가이드는 추천하는 어떠한 프로젝트와도 제휴 관계가 없습니다.** [표준 평가 기준](about/criteria.md)에 더해, 객관적인 추천을 제공할 수 있도록 명확한 요구 사항을 마련했습니다. 프로젝트를 선택해 사용하기 전에 이 목록을 숙지하고, 직접 조사하여 자신에게 맞는 선택인지 확인하시기 바랍니다.
 
 - Allows the creation of multiple cards which function as a shield between the merchant and your personal finances.
 - Cards must not require you to provide accurate billing address information to the merchant.
@@ -97,16 +97,16 @@ These services allow you to purchase gift cards for a variety of merchants onlin
 
 </div>
 
-### 평가 기준
+### 평가 기준 { #criteria }
 
-**Privacy Guides는 권장 목록의 어떠한 프로젝트와도 제휴를 맺지 않았습니다.** 객관적인 권장 목록을 제공하기 위해, [일반적인 평가 기준](about/criteria.md)에 더해 명확한 요구 사항을 정립하였습니다. 어떠한 프로젝트를 선택해 사용하기 전에, 이러한 요구 사항들을 숙지하고 여러분 스스로 조사하는 과정을 거쳐 적절한 선택을 하시기 바랍니다.
+**프라이버시 가이드는 추천하는 어떠한 프로젝트와도 제휴 관계가 없습니다.** [표준 평가 기준](about/criteria.md)에 더해, 객관적인 추천을 제공할 수 있도록 명확한 요구 사항을 마련했습니다. 프로젝트를 선택해 사용하기 전에 이 목록을 숙지하고, 직접 조사하여 자신에게 맞는 선택인지 확인하시기 바랍니다.
 
 - [권장 암호화폐](cryptocurrency.md)로 결제할 수 있어야 합니다.
 - ID가 필수적이지 않아야 합니다.
 
 <div class="admonition tip" markdown>
-<p class="admonition-title">Important notices</p>
+<p class="admonition-title">중요 고지 사항</p>
 
-The content here is not legal or financial advice. We do not endorse or encourage illicit activities, and we do not endorse or encourage anything which violates a company's terms of service. Check with a professional to confirm that these recommendations are legal and available in your jurisdiction. [See all notices](about/notices.md).
+이 내용은 법률 또는 금융 자문이 아닙니다. 프라이버시 가이드는 불법 행위를 지지하거나 장려하지 않으며, 기업의 서비스 이용 약관을 위반하는 어떠한 행위도 지지하거나 장려하지 않습니다. 이러한 추천이 여러분의 관할 지역에서 합법적이고 이용 가능한지 전문가에게 확인하세요. [모든 고지 사항 보기](about/notices.md).
 
 </div>

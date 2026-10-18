@@ -1,93 +1,93 @@
 ---
-meta_title: "Private Cryptocurrency Blockchains - Privacy Guides"
-description: Unlike most cryptocurrencies, these ones provide transaction privacy by default. Monero is our top choice for obfuscating transaction information.
+meta_title: "프라이버시를 보호하는 암호화폐 블록체인 - 프라이버시 가이드"
+description: 대부분의 암호화폐와 달리, 다음 암호화폐는 기본적으로 거래 프라이버시를 제공합니다. 모네로는 거래 정보를 난독화하는 데 프라이버시 가이드가 가장 추천하는 선택지입니다.
 title: 암호화폐
 icon: material/bank-circle
 cover: cryptocurrency.webp
 ---
 
-<small>Protects against the following threat(s):</small>
+<small>다음 위협으로부터 보호합니다:</small>
 
 - [:material-eye-outline: 대규모 감시](basics/common-threats.md#mass-surveillance-programs ""){.pg-blue}
 - [:material-close-outline: 검열](basics/common-threats.md#avoiding-censorship ""){.pg-blue-gray}
 
-온라인 결제는 프라이버시에 있어서 매우 큰 문제입니다. 다음과 같은 암호화폐는 여러분이 프라이버시를 보호하면서 결제를 하는 방법에 대해 충분한 이해를 갖춘 경우, 거래 프라이버시를 기본적으로 제공합니다.(대부분의 암호화폐는 거래 프라이버시를 보장하지 **않습니다**.) 무엇인가를 구매하기에 앞서, Privacy Guides에서 결제 개요 문서를 읽어보실 것을 강력히 권장드립니다:
+온라인 결제는 프라이버시에 있어 가장 큰 난제 중 하나입니다. 다음 암호화폐는 기본적으로 거래 프라이버시를 제공합니다(대부분의 암호화폐는 이를 보장하지 **않습니다**). 단, 프라이버시를 지키며 효과적으로 결제하는 방법을 충분히 이해하고 있어야 합니다. 무언가를 구매하기 전에 먼저 결제 개요 글을 읽어 볼 것을 강력히 권장합니다:
 
-[Making Private Payments :material-arrow-right-drop-circle:](advanced/payments.md ""){.md-button}
+[프라이버시를 지키며 결제하기 :material-arrow-right-drop-circle:](advanced/payments.md ""){.md-button}
 
 <div class="admonition danger" markdown>
-<p class="admonition-title">Danger</p>
+<p class="admonition-title">위험</p>
 
-전부는 아니지만, 대부분의 암호화폐 프로젝트는 사기입니다. 신뢰할 수 있는 프로젝트로만 신중하게 거래하세요.
+전부는 아니더라도 대부분의 암호화폐 프로젝트는 사기입니다. 신뢰할 수 있는 프로젝트하고만 신중하게 거래하세요.
 
 </div>
 
-## Monero
+## 모네로 { #monero }
 
 <div class="admonition recommendation" markdown>
 
-![Monero logo](assets/img/cryptocurrency/monero.svg){ align=right }
+![모네로 로고](assets/img/cryptocurrency/monero.svg){ align=right }
 
-**Monero** uses a blockchain with privacy-enhancing technologies that obfuscate transactions to achieve [:material-incognito: Anonymity](basics/common-threats.md#anonymity-vs-privacy){ .pg-purple }. 모든 Monero 거래는 거래 금액, 송수신 주소, 자금 출처가 숨겨지므로 암호화폐 초심자에게 이상적인 선택입니다.
+**모네로**는 거래를 난독화하는 프라이버시 강화 기술이 적용된 블록체인을 사용하여 [:material-incognito: 익명성](basics/common-threats.md#anonymity-vs-privacy){ .pg-purple }을 달성합니다. 모든 모네로 거래는 별도의 번거로운 절차 없이도 거래 금액, 송수신 주소, 자금 출처를 숨기므로, 암호화폐 초보자에게 이상적인 선택입니다.
 
-[:octicons-home-16: Homepage](https://getmonero.org){ .md-button .md-button--primary }
-[:octicons-info-16:](https://getmonero.org/resources/user-guides){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/monero-project/monero){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://getmonero.org/get-started/contributing){ .card-link title=Contribute }
+[:octicons-home-16: 홈페이지](https://getmonero.org){ .md-button .md-button--primary }
+[:octicons-info-16:](https://getmonero.org/resources/user-guides){ .card-link title="문서"}
+[:octicons-code-16:](https://github.com/monero-project/monero){ .card-link title="소스 코드" }
+[:octicons-heart-16:](https://getmonero.org/get-started/contributing){ .card-link title="후원하기" }
 
 </details>
 
 </div>
 
-Monero를 사용할 경우, Monero를 거래하는 주소, 거래 금액, 주소 잔액, 거래 내역을 외부 관찰자가 해독할 수 없습니다.
+모네로를 사용하면 외부 관찰자는 모네로를 거래하는 주소, 거래 금액, 주소 잔액, 거래 내역을 알아낼 수 없습니다.
 
 <details class="info" markdown>
-<summary>Monero's resilience to mass surveillance</summary>
+<summary>대규모 감시에 대한 모네로의 회복력</summary>
 
-In August 2021, CipherTrace [announced](https://web.archive.org/web/20240223224846/https://ciphertrace.com/enhanced-monero-tracing) enhanced Monero tracing capabilities for government agencies. 공개 포스트에 따르면, 미국 재무부의 금융 범죄 단속 네트워크(Financial Crimes Enforcement Network)는 2022년 말 CipherTrace의 'Monero 모듈'에 라이선스 자격을 [부여했습니다](https://sam.gov/opp/d12cbe9afbb94ca68006d0f006d355ac/view).
+2021년 8월, 사이퍼트레이스는 정부 기관을 위한 향상된 모네로 추적 기능을 [발표](https://web.archive.org/web/20240223224846/https://ciphertrace.com/enhanced-monero-tracing)했습니다. 공개된 게시물에 따르면 미국 재무부 산하 금융범죄단속네트워크(FinCEN)는 2022년 말 사이퍼트레이스의 "모네로 모듈"에 대한 [라이선스를 취득](https://sam.gov/opp/d12cbe9afbb94ca68006d0f006d355ac/view)했습니다.
 
-Monero 트랜잭션 그래프는 프라이버시 면에서 제한적입니다. 상대적으로 작은 링 서명(Ring Signature)으로 인해, 표적 공격에 취약합니다. Monero's privacy features have also been [called into question](https://web.archive.org/web/20180331203053/https://wired.com/story/monero-privacy) by some security researchers, and a number of severe vulnerabilities have been found and patched in the past, so the claims made by organizations like CipherTrace are not out of the question. 비트코인이나 다른 암호화폐처럼 대규모 감시 도구가 Monero에도 존재할 가능성은 낮지만, 추적 툴이 표적 수사에 효과가 있을 것은 확실합니다.
+모네로의 거래 그래프 프라이버시는 상대적으로 작은 링 서명으로 인해 제한적이며, 특히 표적 공격에 취약합니다. 일부 보안 연구자들은 모네로의 프라이버시 기능에 [의문을 제기](https://web.archive.org/web/20180331203053/https://wired.com/story/monero-privacy)했으며, 과거에 여러 심각한 취약점이 발견되어 패치된 적도 있으므로 사이퍼트레이스 같은 조직의 주장이 전혀 불가능한 것은 아닙니다. 비트코인 등에 대해 존재하는 것과 같은 모네로 대규모 감시 도구가 존재할 가능성은 낮지만, 추적 도구가 표적 수사에 도움이 되는 것은 확실합니다.
 
-종합적으로, Monero는 가장 뛰어난 프라이버시 친화 암호화폐라고 충분히 말할 수 있지만, 프라이버시 주장은 (좋은 쪽으로든 나쁜 쪽으로든) 확실하게 입증된 바 **없습니다**. Monero가 항상 적절한 프라이버시를 보장할 수 있을 만큼 공격에 대한 복원력이 충분한지를 평가하기 위해서는 더 많은 시간과 연구가 필요합니다.
+결론적으로 모네로는 프라이버시 친화적인 암호화폐 중 가장 유력한 후보이지만, 그 프라이버시 주장은 어느 쪽으로도 확실하게 입증된 바 **없습니다**. 모네로가 항상 적절한 프라이버시를 제공할 만큼 공격에 충분히 강한지 평가하려면 더 많은 시간과 연구가 필요합니다.
 
 </details>
 
-### Monero wallets
+### 모네로 지갑 { #monero-wallets }
 
-For optimal privacy, make sure to use a self-custody wallet where the [view key](https://getmonero.org/resources/moneropedia/viewkey.html) stays on the device. 비수탁형 지갑은 사용자 본인 외에는 자금 지출은 물론이고, 들어오고 나가는 트랜잭션을 볼 수 없습니다. If you use a custodial wallet, the provider can see **everything** you do; if you use a “lightweight” wallet where the provider retains your view key, the provider can see almost everything you do (but not spend your funds). Some self-custody wallets where the view key does not leave your device include:
+최적의 프라이버시를 위해 [뷰 키](https://getmonero.org/resources/moneropedia/viewkey.html)가 기기에 그대로 남아 있는 자체 보관형 지갑을 사용하세요. 이렇게 하면 여러분만 자금을 사용하고 입출금 거래를 볼 수 있습니다. 수탁형 지갑을 사용하면 제공업체가 여러분이 하는 **모든 것**을 볼 수 있으며, 제공업체가 뷰 키를 보관하는 "경량" 지갑을 사용하면 제공업체가 여러분이 하는 거의 모든 것을 볼 수 있습니다(자금을 사용할 수는 없지만). 뷰 키가 기기 밖으로 나가지 않는 자체 보관형 지갑으로는 다음이 있습니다:
 
-- [공식 Monero 클라이언트](https://getmonero.org/downloads) (데스크톱)
-- [Cake Wallet](https://cakewallet.com) (iOS, Android, Desktop)
-    - Cake Wallet은 여러 암호화폐를 지원합니다. A Monero-only version of Cake Wallet for iOS and Android is available at [Monero.com](https://monero.com).
-- [Feather Wallet](https://featherwallet.org) (Desktop)
-- [Monerujo](https://monerujo.io) (Android)
+- [공식 모네로 클라이언트](https://getmonero.org/downloads)(데스크톱)
+- [케이크 월렛](https://cakewallet.com)(iOS, 안드로이드, 데스크톱)
+    - 케이크 월렛은 여러 암호화폐를 지원합니다. 모네로 전용 iOS 및 안드로이드용 케이크 월렛은 [Monero.com](https://monero.com)에서 받을 수 있습니다.
+- [페더 월렛](https://featherwallet.org)(데스크톱)
+- [모네루조](https://monerujo.io)(안드로이드)
 
-### Monero nodes
+### 모네로 노드 { #monero-nodes }
 
-For maximum privacy (even with a self-custody wallet), you should run your own Monero node called the [Monero daemon](https://docs.getmonero.org/interacting/monerod-reference), which is included in the [CLI wallet](https://getmonero.org/downloads/#cli). 다른 사람의 노드를 사용할 경우 해당 노드에 연결할 때 사용한 IP 주소, 지갑을 동기화한 시각, 지갑에서 전송된 트랜잭션(해당 트랜잭션에 대한 자세한 정보는 알 수 없음) 등 일부 정보가 해당 노드에 노출됩니다. Alternatively, you can connect to someone else’s Monero node over [Tor](alternative-networks.md#tor), [I2P](alternative-networks.md#i2p-the-invisible-internet-project), or a [VPN](vpn.md).
+(자체 보관형 지갑을 사용하더라도) 최대한의 프라이버시를 원한다면 [CLI 지갑](https://getmonero.org/downloads/#cli)에 포함된 [모네로 데몬](https://docs.getmonero.org/interacting/monerod-reference)이라는 자신만의 모네로 노드를 운영해야 합니다. 다른 사람의 노드를 사용하면 연결하는 IP 주소, 지갑을 동기화하는 시각, 지갑에서 보내는 거래(해당 거래의 다른 세부 정보는 제외) 같은 일부 정보가 노드 운영자에게 노출됩니다. 또는 [토르](alternative-networks.md#tor), [I2P](alternative-networks.md#i2p-the-invisible-internet-project), [VPN](vpn.md)을 통해 다른 사람의 모네로 노드에 연결할 수도 있습니다.
 
-### Buying Monero
+### 모네로 구매하기 { #buying-monero }
 
-[General tips for acquiring Monero](advanced/payments.md#acquisition ""){.md-button}
+[모네로를 얻기 위한 일반적인 팁](advanced/payments.md#acquisition ""){.md-button}
 
-There are numerous centralized exchanges (CEX) as well as P2P marketplaces where you can buy and sell Monero. Some of them require identifying yourself (KYC) to comply with anti-money laundering regulations. However, due to Monero's privacy features, the only thing known to the seller is *that* you bought Monero, but not how much you own or where you spend it (after it leaves the exchange). Some reputable places to buy Monero include:
+모네로를 사고팔 수 있는 중앙화 거래소(CEX)와 P2P 마켓플레이스는 많이 있습니다. 그중 일부는 자금 세탁 방지 규정을 준수하기 위해 신원 확인(KYC)을 요구합니다. 하지만 모네로의 프라이버시 기능 덕분에 판매자가 알 수 있는 것은 여러분이 모네로를 샀다는 *사실*뿐이며, (거래소를 떠난 후) 얼마를 보유하고 있는지나 어디에 사용하는지는 알 수 없습니다. 모네로를 구매할 수 있는 신뢰할 만한 곳으로는 다음이 있습니다:
 
-- [Kraken](https://kraken.com): A well-known CEX. Registration and KYC are mandatory. Card payments and bank transfers accepted. Make sure not to leave your newly purchased Monero on Kraken's platform after the purchase; withdraw them to a self-custody wallet. Monero is not available in all jurisdictions that Kraken operates in.[^1]
-- [Cake Wallet](https://cakewallet.com): A self-custody cross-platform wallet for Monero and other cryptocurrencies. You can buy Monero directly in the app using card payments or bank transfers (through third-party providers such as [Guardarian](https://guardarian.com) or [DFX](https://dfx.swiss)).[^2] KYC is usually not required, but it depends on your country and the amount you are purchasing. In countries where directly purchasing Monero is not possible, you can also use a provider within Cake Wallet to first buy another cryptocurrency such as Bitcoin, Bitcoin Cash, or Litecoin and then exchange it to Monero in-app.
-    - [Monero.com](https://monero.com) is an associated website where you can buy Monero and other cryptocurrencies without having to download an app. The funds will simply be sent to the wallet address of your choice.
+- [크라켄](https://kraken.com): 잘 알려진 중앙화 거래소입니다. 가입과 KYC가 필수입니다. 카드 결제와 계좌 이체를 지원합니다. 구매한 모네로를 크라켄 플랫폼에 그대로 두지 말고, 구매 후 자체 보관형 지갑으로 출금하세요. 크라켄이 운영되는 모든 관할 지역에서 모네로를 구매할 수 있는 것은 아닙니다.[^1]
+- [케이크 월렛](https://cakewallet.com): 모네로와 기타 암호화폐를 위한 자체 보관형 크로스 플랫폼 지갑입니다. ([가디어리언](https://guardarian.com)이나 [DFX](https://dfx.swiss) 같은 서드파티 제공업체를 통해) 카드 결제나 계좌 이체로 앱에서 바로 모네로를 구매할 수 있습니다.[^2] KYC는 대개 필요하지 않지만, 국가와 구매 금액에 따라 달라집니다. 모네로를 직접 구매할 수 없는 국가에서는 케이크 월렛 안의 제공업체를 통해 먼저 비트코인, 비트코인 캐시, 라이트코인 같은 다른 암호화폐를 구매한 다음, 앱 안에서 모네로로 교환할 수도 있습니다.
+    - [Monero.com](https://monero.com)은 앱을 다운로드하지 않고도 모네로와 기타 암호화폐를 구매할 수 있는 관련 웹사이트입니다. 자금은 여러분이 선택한 지갑 주소로 바로 전송됩니다.
 
-## 평가 기준
+## 평가 기준 { #criteria }
 
-**Privacy Guides는 권장 목록의 어떠한 프로젝트와도 제휴를 맺지 않았습니다.** 객관적인 권장 목록을 제공하기 위해, [일반적인 평가 기준](about/criteria.md)에 더해 명확한 요구 사항을 정립하였습니다. 어떠한 프로젝트를 선택해 사용하기 전에, 이러한 요구 사항들을 숙지하고 여러분 스스로 조사하는 과정을 거쳐 적절한 선택을 하시기 바랍니다.
+**프라이버시 가이드는 추천하는 어떠한 프로젝트와도 제휴 관계가 없습니다.** [표준 평가 기준](about/criteria.md)에 더해, 객관적인 추천을 제공할 수 있도록 명확한 요구 사항을 마련했습니다. 프로젝트를 선택해 사용하기 전에 이 목록을 숙지하고, 직접 조사하여 자신에게 맞는 선택인지 확인하시기 바랍니다.
 
-- 암호화페는 기본적으로 비공개/추적 불가능한 트랜잭션을 제공해야 합니다.
+- 암호화폐는 기본적으로 비공개/추적 불가능한 거래를 제공해야 합니다.
 
 <div class="admonition tip" markdown>
-<p class="admonition-title">Important notices</p>
+<p class="admonition-title">중요 고지 사항</p>
 
-The content here is not legal or financial advice. We do not endorse or encourage illicit activities, and we do not endorse or encourage anything which violates a company's terms of service. Check with a professional to confirm that these recommendations are legal and available in your jurisdiction. [See all notices](about/notices.md).
+이 내용은 법률 또는 금융 자문이 아닙니다. 프라이버시 가이드는 불법 행위를 지지하거나 장려하지 않으며, 기업의 서비스 이용 약관을 위반하는 어떠한 행위도 지지하거나 장려하지 않습니다. 이러한 추천이 여러분의 관할 지역에서 합법적이고 이용 가능한지 전문가에게 확인하세요. [모든 고지 사항 보기](about/notices.md).
 
 </div>
 
-[^1]: You may refer to the following pages for up-to-date information on countries in which Kraken does **not** allow the purchase of Monero: [Where is Kraken licensed or regulated?](https://support.kraken.com/hc/en-us/articles/where-is-kraken-licensed-or-regulated) and [Support for Monero (XMR) in Europe](https://support.kraken.com/hc/en-us/articles/support-for-monero-xmr-in-europe).
-[^2]: You may refer to the following pages for up-to-date information on countries in which Cake Wallet and Monero.com **only** allow the direct purchase of Monero (through third-party providers): [Which countries are served by DFX?](https://docs.dfx.swiss/en/faq.html#which-countries-are-served-by-dfx) and [What are the supported countries/regions? (Guardarian)](https://guardarian.freshdesk.com/support/solutions/articles/80001151826-what-are-the-supported-countries-regions).
+[^1]: 크라켄이 모네로 구매를 허용하지 **않는** 국가에 대한 최신 정보는 다음 페이지를 참고하세요: [Where is Kraken licensed or regulated?](https://support.kraken.com/hc/en-us/articles/where-is-kraken-licensed-or-regulated) 및 [Support for Monero (XMR) in Europe](https://support.kraken.com/hc/en-us/articles/support-for-monero-xmr-in-europe).
+[^2]: 케이크 월렛과 Monero.com이 (서드파티 제공업체를 통한) 모네로 직접 구매**만** 허용하는 국가에 대한 최신 정보는 다음 페이지를 참고하세요: [Which countries are served by DFX?](https://docs.dfx.swiss/en/faq.html#which-countries-are-served-by-dfx) 및 [What are the supported countries/regions? (Guardarian)](https://guardarian.freshdesk.com/support/solutions/articles/80001151826-what-are-the-supported-countries-regions).

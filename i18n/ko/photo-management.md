@@ -5,10 +5,10 @@ description: These photo management tools keep your personal photos safe from th
 cover: photo-management.webp
 ---
 
-<small>Protects against the following threat(s):</small>
+<small>다음 위협으로부터 보호합니다:</small>
 
 - [:material-bug-outline: Passive Attacks](basics/common-threats.md#security-and-privacy){ .pg-orange }
-- [:material-server-network: Service Providers](basics/common-threats.md#privacy-from-service-providers){ .pg-teal }
+- [:material-server-network: 서비스 제공업체](basics/common-threats.md#privacy-from-service-providers){ .pg-teal }
 
 Most cloud **photo management solutions** like Google Photos, Flickr, and Amazon Photos don't secure your photos against being accessed by the cloud storage provider themselves. These options keep your personal photos private, while allowing you to share them only with family and trusted people.
 
@@ -45,14 +45,14 @@ The free plan offers 10 GB of storage as long as you use the service at least o
 
 The server-side source code and infrastructure which underpins Ente Photos underwent an audit by [Cure53](https://ente.com/blog/cern-audit) in October 2025. Previous audits were completed by [Cure53](https://ente.com/blog/cryptography-audit) in March 2023 and by [Fallible](https://ente.com/reports/Fallible-Audit-Report-19-04-2023.pdf) in April 2023.
 
-## 평가 기준
+## 평가 기준 { #criteria }
 
-**Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. 어떠한 프로젝트를 선택해 사용하기 전에, 이러한 요구 사항들을 숙지하고 여러분 스스로 조사하는 과정을 거쳐 적절한 선택을 하시기 바랍니다.
+**Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. 프로젝트를 선택해 사용하기 전에 이 목록을 숙지하고, 직접 조사하여 자신에게 맞는 선택인지 확인하시기 바랍니다.
 
 ### 최소 요구 사항
 
 - Cloud-hosted providers must enforce E2EE.
-- 테스트용 무료 요금제/체험판 기간을 제공해야 합니다.
+- 테스트를 위한 무료 요금제나 체험 기간을 제공해야 합니다.
 - Must support TOTP or FIDO2 multifactor authentication, or passkey logins.
 - 기본적인 파일 관리 기능을 지원하는 웹 인터페이스를 제공해야 합니다.
 - 모든 파일/문서를 쉽게 내보낼 수 있어야 합니다.

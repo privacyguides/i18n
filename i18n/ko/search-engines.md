@@ -16,17 +16,17 @@ global:
 
 Use a **search engine** that doesn't build an advertising profile based on your searches.
 
-## 권장 제공 업체
+## 추천 제공업체 { #recommended-providers }
 
 The recommendations here do not collect personally identifying information (PII) based on each service's privacy policy. 실제로 해당 서비스에서 프라이버시 정책이 제대로 지켜진다는 **보장은 없습니다**.
 
 Consider using a [VPN](vpn.md) or [Tor](tor.md) if your threat model requires hiding your IP address from the search provider.
 
-| 서비스 제공자                       | Search Index                                                                                                                                                                  | Tor Hidden Service            | Logging / Privacy Policy | Country of Operation |
-| ----------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------- | ------------------------ | -------------------- |
-| [Brave Search](#brave-search) | [Independent](https://brave.com/search-independence)                                                                                                                          | :material-check:{ .pg-green } | Anonymized[^1]           | United States        |
-| [DuckDuckGo](#duckduckgo)     | [Bing](https://help.duckduckgo.com/results/sources)                                                                                                                           | :material-check:{ .pg-green } | Anonymized[^2]           | United States        |
-| [Startpage](#startpage)       | [Google and Bing](https://support.startpage.com/hc/articles/4522435533844-What-is-the-relationship-between-Startpage-and-your-search-partners-like-Google-and-Microsoft-Bing) | :material-check:{ .pg-green } | Anonymized[^3]           | Netherlands          |
+| 서비스 제공자                       | Search Index                                                                                                                                                                  | Tor Hidden Service            | 로깅 / 개인정보 처리방침 | Country of Operation |
+| ----------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------- | -------------- | -------------------- |
+| [Brave Search](#brave-search) | [Independent](https://brave.com/search-independence)                                                                                                                          | :material-check:{ .pg-green } | 익명화[^1]        | United States        |
+| [DuckDuckGo](#duckduckgo)     | [Bing](https://help.duckduckgo.com/results/sources)                                                                                                                           | :material-check:{ .pg-green } | 익명화[^2]        | United States        |
+| [Startpage](#startpage)       | [Google and Bing](https://support.startpage.com/hc/articles/4522435533844-What-is-the-relationship-between-Startpage-and-your-search-partners-like-Google-and-Microsoft-Bing) | :material-check:{ .pg-green } | Anonymized[^3] | Netherlands          |
 
 ### Brave Search
 

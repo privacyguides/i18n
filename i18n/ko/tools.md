@@ -261,7 +261,7 @@ If you're looking for added **security**, you should always ensure you're connec
 
 [자세히 알아보기 :material-arrow-right-drop-circle:](cloud.md)
 
-### Data Removal Services
+### 데이터 삭제 서비스
 
 <div class="grid cards" markdown>
 
@@ -339,7 +339,7 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 ## 소프트웨어
 
-### AI Chat
+### AI 채팅
 
 <div class="grid cards" markdown>
 
@@ -372,7 +372,7 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 [자세히 알아보기 :material-arrow-right-drop-circle:](cryptocurrency.md)
 
-### Data and Metadata Redaction
+### 데이터 및 메타데이터 가리기
 
 <div class="grid cards" markdown>
 
@@ -385,7 +385,7 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 [자세히 알아보기 :material-arrow-right-drop-circle:](data-redaction.md)
 
-### Document Collaboration
+### 문서 협업
 
 <div class="grid cards" markdown>
 

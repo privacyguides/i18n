@@ -5,7 +5,7 @@ description: An email aliasing service allows you to easily generate a new email
 cover: email-aliasing.webp
 ---
 
-<small>Protects against the following threat(s):</small>
+<small>다음 위협으로부터 보호합니다:</small>
 
 - [:material-account-cash: Surveillance Capitalism](basics/common-threats.md#surveillance-as-a-business-model){ .pg-brown }
 - [:material-account-search: Public Exposure](basics/common-threats.md#limiting-public-information){ .pg-green }
@@ -37,7 +37,7 @@ Email aliasing services also have a number of benefits over "temporary email" se
 - Emails are sent to your trusted mailbox rather than stored by the alias provider.
 - Temporary email services typically have public mailboxes which can be accessed by anyone who knows the address, while aliases are private to you.
 
-## 권장 제공 업체
+## 추천 제공업체 { #recommended-providers }
 
 <div class="grid cards" markdown>
 
@@ -135,7 +135,7 @@ Notable free features:
 
 When your subscription ends, all aliases you created will still be able to receive and send emails. However, you cannot create any new aliases that would exceed the free plan limit, nor can you add a new domain, directory, or mailbox.
 
-## 평가 기준
+## 평가 기준 { #criteria }
 
 **Please note we are not affiliated with any of the providers we recommend.** In addition to [our standard criteria](about/criteria.md), we evaluate email aliasing providers to the same standard as our regular [email provider criteria](email.md#criteria) where applicable. We suggest you familiarize yourself with this list before choosing an email aliasing service, and conduct your own research to ensure the provider you choose is the right choice for you.
 

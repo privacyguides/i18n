@@ -5,9 +5,9 @@ description: These office suites offer their full functionality without an accou
 cover: office-suites.webp
 ---
 
-<small>Protects against the following threat(s):</small>
+<small>다음 위협으로부터 보호합니다:</small>
 
-- [:material-server-network: Service Providers](basics/common-threats.md#privacy-from-service-providers){ .pg-teal }
+- [:material-server-network: 서비스 제공업체](basics/common-threats.md#privacy-from-service-providers){ .pg-teal }
 
 Choose an **office suite** that does not require logging in to an account to access its full functionality. The tools listed here can be used offline and could reasonably act as a replacement for Microsoft Office for most needs.
 
@@ -66,9 +66,9 @@ Choose an **office suite** that does not require logging in to an account to acc
 
 </div>
 
-## 평가 기준
+## 평가 기준 { #criteria }
 
-**Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. 어떠한 프로젝트를 선택해 사용하기 전에, 이러한 요구 사항들을 숙지하고 여러분 스스로 조사하는 과정을 거쳐 적절한 선택을 하시기 바랍니다.
+**Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. 프로젝트를 선택해 사용하기 전에 이 목록을 숙지하고, 직접 조사하여 자신에게 맞는 선택인지 확인하시기 바랍니다.
 
 - 크로스 플랫폼을 지원해야 합니다.
 - 오픈 소스 소프트웨어여야 합니다.
