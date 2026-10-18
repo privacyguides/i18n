@@ -1,64 +1,64 @@
 ---
-title: Windows Overview
+title: 윈도우 개요
 icon: material/microsoft-windows
-description: Microsoft Windows is a common operating system which is extremely non-private out of the box. Our guide covers making some improvements to your computer without replacing your OS.
+description: 마이크로소프트 윈도우는 기본 상태에서 프라이버시를 거의 보호하지 않는 흔한 운영 체제입니다. 이 가이드에서는 OS를 교체하지 않고 컴퓨터를 개선하는 몇 가지 방법을 다룹니다.
 ---
 
-**Microsoft Windows** is a common OS shipped with many PCs by default. The following guides aim to provide some ways to improve privacy and reduce the default telemetry and data stored by disabling some unnecessary features. Over time, Microsoft adds features to the OS which can sometimes rely on cloud-based services. These features will often require certain types of [optional data](https://privacy.microsoft.com/data-collection-windows) that is sometimes sent to remote servers for processing.
+**마이크로소프트 윈도우**는 많은 PC에 기본으로 탑재되어 판매되는 흔한 OS입니다. 다음 가이드는 불필요한 기능을 비활성화하여 프라이버시를 개선하고 기본 원격 측정 및 저장되는 데이터를 줄이는 몇 가지 방법을 제공하는 것을 목표로 합니다. 마이크로소프트는 시간이 지나면서 때때로 클라우드 기반 서비스에 의존하는 기능을 OS에 추가합니다. 이러한 기능에는 처리를 위해 원격 서버로 전송되기도 하는 특정 유형의 [선택적 데이터](https://privacy.microsoft.com/data-collection-windows)가 필요한 경우가 많습니다.
 
-One of the newest examples was called **Recall**, a part of the Copilot AI feature set. Recall periodically screenshots anything you've seen on your PC in order to show it to you at a later date. These "helpful" features create considerable metadata which can be forensically analyzed. In most cases browsing history is sufficient and this feature can be safely disabled. The main concerns with Recall was that the data is stored in a local database that is decrypted when your device is powered on, meaning it is an easy target for hackers if the device ever becomes infected with malware. Recall will not redact sensitive information like copied passwords or financial information from the database, but it does protect against making screenshots of any copyrighted content protected by digital rights management (DRM) systems.
+가장 최근의 사례 중 하나는 코파일럿 AI 기능 모음의 일부인 **리콜**이라는 기능입니다. 리콜은 나중에 다시 보여 주기 위해 PC에서 본 모든 것을 주기적으로 스크린숏으로 저장합니다. 이러한 "유용한" 기능은 포렌식으로 분석될 수 있는 상당한 메타데이터를 만들어 냅니다. 대부분의 경우 브라우징 기록만으로 충분하므로 이 기능은 안심하고 비활성화해도 됩니다. 리콜의 주요 우려 사항은 데이터가 기기 전원이 켜지면 복호화되는 로컬 데이터베이스에 저장된다는 점으로, 기기가 멀웨어에 감염되면 해커의 손쉬운 표적이 됩니다. 리콜은 복사한 비밀번호나 금융 정보 같은 민감한 정보를 데이터베이스에서 가리지 않지만, 디지털 저작권 관리(DRM) 시스템으로 보호되는 저작권 콘텐츠의 스크린숏은 찍지 않습니다.
 
-Unfortunately, this feature was added without too much thought about the privacy implications of having such a feature enabled by default (which it now [no longer is](https://wired.com/story/microsoft-recall-off-default-security-concerns)). It is not an isolated example, however. Another example was Microsoft automatically [enabling folder backups to OneDrive](https://neowin.net/news/windows-11-is-now-automatically-enabling-onedrive-folder-backup-without-asking-permission) on new Windows 11 installations without asking for permission.
+안타깝게도 이 기능은 기본으로 활성화되었을 때의 프라이버시 영향에 대한 충분한 고려 없이 추가되었습니다(현재는 [더 이상 기본으로 활성화되지 않습니다](https://wired.com/story/microsoft-recall-off-default-security-concerns)). 하지만 이것이 유일한 사례는 아닙니다. 또 다른 사례로, 마이크로소프트는 새로 설치한 윈도우 11에서 허락을 구하지 않고 자동으로 [원드라이브 폴더 백업을 활성화](https://neowin.net/news/windows-11-is-now-automatically-enabling-onedrive-folder-backup-without-asking-permission)했습니다.
 
-You can enhance your privacy and security on Windows without downloading any third-party tools with these guides:
+다음 가이드를 통해 서드파티 도구를 다운로드하지 않고도 윈도우에서 프라이버시와 보안을 강화할 수 있습니다:
 
-- Initial Installation (coming soon)
-- [Group Policy Settings](group-policies.md)
-- Privacy Settings (coming soon)
-- Application Sandboxing (coming soon)
-- Security Hardening (coming soon)
+- 초기 설치(준비 중)
+- [그룹 정책 설정](group-policies.md)
+- 프라이버시 설정(준비 중)
+- 애플리케이션 샌드박싱(준비 중)
+- 보안 강화(준비 중)
 
 <div class="admonition example" markdown>
-<p class="admonition-title">This section is new</p>
+<p class="admonition-title">새로 추가된 섹션입니다</p>
 
-This section is a work in progress, because it takes considerably more time and effort to make a Windows installation more privacy-friendly than other operating systems.
+윈도우 설치를 프라이버시 친화적으로 만드는 데는 다른 운영 체제보다 훨씬 많은 시간과 노력이 들기 때문에, 이 섹션은 아직 작성 중입니다.
 
 </div>
 
-## Privacy Notes
+## 프라이버시 참고 사항 { #privacy-notes }
 
-Microsoft Windows, particularly those versions aimed at consumers like the **Home** version often don't prioritize privacy-friendly features by [default](https://theguardian.com/technology/2015/jul/31/windows-10-microsoft-faces-criticism-over-privacy-default-settings). As a result we often see more [data collection](https://en.wikipedia.org/wiki/Criticism_of_Microsoft#Telemetry_and_data_collection) than necessary, without any real warnings that this is the default behavior. In an attempt to compete with Google in the advertising space, [Cortana](https://en.wikipedia.org/wiki/Cortana_(virtual_assistant)) has included unique identifiers such as an "advertising ID" in order to correlate usage and assist advertisers in targeted advertising. At launch, telemetry could not be disabled in non-enterprise editions of Windows 10. It still cannot be disabled, but Microsoft added the ability to [reduce](https://extremetech.com/computing/243079-upcoming-windows-update-reduces-spying-microsoft-still-mum-data-collects) the data that is sent to them.
+마이크로소프트 윈도우, 특히 **홈** 버전처럼 소비자를 대상으로 하는 버전은 [기본적으로](https://theguardian.com/technology/2015/jul/31/windows-10-microsoft-faces-criticism-over-privacy-default-settings) 프라이버시 친화적인 기능을 우선시하지 않는 경우가 많습니다. 그 결과 이것이 기본 동작이라는 실질적인 경고 없이 필요 이상의 [데이터 수집](https://en.wikipedia.org/wiki/Criticism_of_Microsoft#Telemetry_and_data_collection)이 이루어지는 경우가 많습니다. 광고 분야에서 구글과 경쟁하기 위해 [코타나](https://en.wikipedia.org/wiki/Cortana_(virtual_assistant))는 사용 내역을 연관 짓고 광고주의 맞춤 광고를 돕기 위해 "광고 ID" 같은 고유 식별자를 포함했습니다. 출시 당시 윈도우 10의 비기업용 에디션에서는 원격 측정을 비활성화할 수 없었습니다. 지금도 비활성화할 수는 없지만, 마이크로소프트는 전송되는 데이터를 [줄일 수 있는](https://extremetech.com/computing/243079-upcoming-windows-update-reduces-spying-microsoft-still-mum-data-collects) 기능을 추가했습니다.
 
-With Windows 11 there are a number of restrictions or defaults such as:
+윈도우 11에는 다음과 같은 여러 제한이나 기본 설정이 있습니다:
 
-- Requiring the use of a Microsoft account instead of a local account.
-- Making it more difficult to find local account options for Windows **Pro** and **Enterprise**.
-- Enabling all data collection options by default, requiring users to "opt out".
-- Heavily integrating Microsoft services like Bing, OneDrive, and Teams in ways which are difficult to remove and presented as the only option to users.
-- Setting the default browser always to Edge, or reverting to Edge if it's changed.
-- Adding cloud-based AI features to many areas in Windows and various Microsoft Apps.
-- Unnecessarily storing sensitive data. Even data which is stored locally and not sent to Microsoft is still a target for hackers or malware on your device.
+- 로컬 계정 대신 마이크로소프트 계정 사용을 요구합니다.
+- 윈도우 **프로**와 **엔터프라이즈**에서 로컬 계정 옵션을 찾기 더 어렵게 만들었습니다.
+- 모든 데이터 수집 옵션을 기본으로 활성화하여 사용자가 직접 "거부"해야 합니다.
+- 빙, 원드라이브, 팀즈 같은 마이크로소프트 서비스를 제거하기 어려운 방식으로 깊이 통합하고, 사용자에게 유일한 선택지처럼 제시합니다.
+- 기본 브라우저를 항상 엣지로 설정하거나, 변경하면 엣지로 되돌립니다.
+- 윈도우와 여러 마이크로소프트 앱의 많은 영역에 클라우드 기반 AI 기능을 추가합니다.
+- 민감한 데이터를 불필요하게 저장합니다. 로컬에 저장되고 마이크로소프트로 전송되지 않는 데이터라도 여전히 기기의 해커나 멀웨어의 표적이 됩니다.
 
-Microsoft often uses the automatic updates feature to add new functionality to your device and make changes that collect your data and are enabled by default. Some [privacy features](https://blogs.windows.com/windows-insider/2023/11/16/previewing-changes-in-windows-to-comply-with-the-digital-markets-act-in-the-european-economic-area) such as the option to _opt out_ of syncing an online Microsoft account with Windows, require you to select a country in the EEA (European Economic Area) during installation. It can be changed to your real country after Windows is installed.
+마이크로소프트는 자동 업데이트 기능을 이용해 기기에 새 기능을 추가하고, 데이터를 수집하며 기본으로 활성화되는 변경 사항을 적용하는 경우가 많습니다. 온라인 마이크로소프트 계정과 윈도우의 동기화를 _거&#xBD80;_&#xD558;는 옵션 같은 일부 [프라이버시 기능](https://blogs.windows.com/windows-insider/2023/11/16/previewing-changes-in-windows-to-comply-with-the-digital-markets-act-in-the-european-economic-area)은 설치 중에 EEA(유럽 경제 지역) 국가를 선택해야 사용할 수 있습니다. 윈도우를 설치한 후에 실제 국가로 변경할 수 있습니다.
 
-## Windows Editions
+## 윈도우 에디션 { #windows-editions }
 
-Many critical privacy and security features are unfortunately locked away behind higher-cost editions of Windows, instead of being available in Windows **Home**. Some features missing from **Home** include BitLocker Drive Encryption, Hyper-V, and Windows Sandbox. In our Windows guides we will cover how to use all of these features appropriately, so having a premium edition of Windows will be necessary.
+안타깝게도 많은 중요한 프라이버시 및 보안 기능은 윈도우 **홈**에서는 사용할 수 없고 더 비싼 에디션에서만 사용할 수 있습니다. **홈**에 없는 기능으로는 비트로커 드라이브 암호화, Hyper-V, 윈도우 샌드박스 등이 있습니다. 윈도우 가이드에서는 이러한 기능을 모두 적절히 사용하는 방법을 다룰 예정이므로, 상위 에디션의 윈도우가 필요합니다.
 
-Windows **Enterprise** provides the most flexibility when it comes to configuring privacy and security settings built in to Windows. For example, they are the only editions that allow you to enable the highest level of restrictions on data sent to Microsoft via telemetry tools. Unfortunately, Enterprise is not available for retail purchase, so it may not be available to you.
+윈도우 **엔터프라이즈**는 윈도우에 내장된 프라이버시 및 보안 설정을 구성할 때 가장 높은 유연성을 제공합니다. 예를 들어 원격 측정 도구를 통해 마이크로소프트로 전송되는 데이터에 가장 높은 수준의 제한을 걸 수 있는 에디션은 엔터프라이즈 계열뿐입니다. 안타깝게도 엔터프라이즈는 소매로 구매할 수 없으므로 사용하지 못할 수도 있습니다.
 
-The best version available for _retail_ purchase is Windows **Pro** as it has nearly all the features you'll want to use to secure your device, including BitLocker, Hyper-V, etc. The only thing missing is some of the most restrictive limitations on Microsoft's telemetry, unfortunately.
+_소&#xB9E4;_&#xB85C; 구매할 수 있는 최고의 버전은 윈도우 **프로**로, 비트로커, Hyper-V 등 기기를 보호하는 데 필요한 거의 모든 기능을 갖추고 있습니다. 아쉽게도 마이크로소프트 원격 측정에 대한 가장 엄격한 제한 일부만 빠져 있습니다.
 
-Students and teachers may be able to obtain a Windows **Education** (equivalent to Enterprise) or **Pro Education** license (equivalent to Pro) for free, including on personal devices, from their educational institution. Many schools partner with Microsoft via OnTheHub or Microsoft Azure for Education, so you can check those sites or your school's benefits page to see if you qualify. Whether or not you are able to get these licenses depends entirely on your institution. This may be the best way for many people to obtain an Enterprise-level edition of Windows for personal use. There are no additional privacy or security risks associated with using an Education license compared to the retail versions.
+학생과 교사는 교육 기관을 통해 개인 기기에서도 사용할 수 있는 윈도우 **에듀케이션**(엔터프라이즈에 해당) 또는 **프로 에듀케이션**(프로에 해당) 라이선스를 무료로 받을 수 있습니다. 많은 학교가 온더허브나 마이크로소프트 애저 포 에듀케이션을 통해 마이크로소프트와 제휴하고 있으므로, 해당 사이트나 학교 혜택 페이지에서 자격이 되는지 확인해 보세요. 이러한 라이선스를 받을 수 있는지는 전적으로 소속 기관에 달려 있습니다. 많은 사람들에게 이는 개인용으로 엔터프라이즈급 윈도우 에디션을 얻는 가장 좋은 방법일 수 있습니다. 에듀케이션 라이선스를 사용한다고 해서 소매 버전에 비해 추가적인 프라이버시나 보안 위험이 있는 것은 아닙니다.
 
-It is not recommended to use third party modified versions of Windows such as Windows AME. Since modified versions of Windows like Windows AME don't receive updates, security features and antivirus definitions in Windows Defender will fall behind the current threat landscape, opening you up to attacks, thus making you even less secure.
+윈도우 AME 같은 제3자가 수정한 윈도우 버전은 사용하지 않는 것을 권장합니다. 윈도우 AME 같은 수정된 윈도우 버전은 업데이트를 받지 못하므로, 윈도우 디펜더의 보안 기능과 바이러스 정의가 현재 위협 환경에 뒤처지게 되어 공격에 노출되고 오히려 보안이 더 약해집니다.
 
-## Obtaining Windows
+## 윈도우 구하기 { #obtaining-windows }
 
-Currently, only Windows 11 license keys are available for purchase, but these keys will work on Windows 10 as well, so you can still purchase a Windows 11 Pro key to activate a Windows 10 install.
+현재는 윈도우 11 라이선스 키만 구매할 수 있지만, 이 키는 윈도우 10에서도 작동하므로 윈도우 11 프로 키를 구매해 윈도우 10 설치를 정품 인증할 수 있습니다.
 
-The official [Media Creation Tool](https://microsoft.com/software-download/windows11) is the best way to put a Windows installer on a USB flash drive. Third-party tools like Rufus or Etcher may unexpectedly modify the files, which could lead to boot issues or other troubles when installing.
+윈도우 설치 프로그램을 USB 플래시 드라이브에 넣는 가장 좋은 방법은 공식 [미디어 생성 도구](https://microsoft.com/software-download/windows11)를 사용하는 것입니다. 루퍼스나 에처 같은 서드파티 도구는 예기치 않게 파일을 수정할 수 있으며, 이로 인해 설치 시 부팅 문제나 기타 문제가 발생할 수 있습니다.
 
-This tool only lets you install a **Home** or **Pro** installation, as there are no publicly available downloads for Windows **Enterprise** edition. If you have an **Enterprise** license key, you can easily upgrade a **Pro** installation. To do this, install Windows **Pro** without entering a license key during setup, then enter your **Enterprise** key in the Settings app after completing the installation. Your **Pro** install will be upgraded to **Enterprise** automatically after entering a valid license key.
+윈도우 **엔터프라이즈** 에디션은 공개적으로 다운로드할 수 없으므로, 이 도구로는 **홈** 또는 **프로**만 설치할 수 있습니다. **엔터프라이즈** 라이선스 키가 있다면 **프로** 설치를 쉽게 업그레이드할 수 있습니다. 이렇게 하려면 설치 중에 라이선스 키를 입력하지 않고 윈도우 **프로**를 설치한 다음, 설치가 끝나면 설정 앱에서 **엔터프라이즈** 키를 입력하세요. 유효한 라이선스 키를 입력하면 **프로** 설치가 자동으로 **엔터프라이즈**로 업그레이드됩니다.
 
-If you are installing an **Education** license then you will typically have a private download link that will be provided alongside your license key when you obtain it from your institution's benefits portal.
+**에듀케이션** 라이선스를 설치하는 경우, 일반적으로 소속 기관의 혜택 포털에서 라이선스 키를 받을 때 함께 제공되는 비공개 다운로드 링크를 사용하게 됩니다.

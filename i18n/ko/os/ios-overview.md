@@ -1,312 +1,312 @@
 ---
 title: iOS 개요
 icon: simple/apple
-description: iOS is a mobile operating system developed by Apple for the iPhone.
+description: iOS는 애플이 아이폰용으로 개발한 모바일 운영 체제입니다.
 ---
 
-**iOS** and **iPadOS** are proprietary mobile operating systems developed by Apple for their iPhone and iPad products, respectively. If you have an Apple mobile device, you can increase your privacy by disabling some built-in telemetry features, and hardening some privacy and security settings which are built in to the system.
+**iOS**와 **iPadOS**는 애플이 각각 아이폰과 아이패드 제품용으로 개발한 독점 모바일 운영 체제입니다. 애플 모바일 기기를 사용한다면 일부 내장 원격 측정 기능을 비활성화하고 시스템에 내장된 일부 프라이버시 및 보안 설정을 강화하여 프라이버시를 높일 수 있습니다.
 
-## Privacy Notes
+## 프라이버시 참고 사항 { #privacy-notes }
 
-iOS devices are frequently praised by security experts for their robust data protection and adherence to modern best practices. However, the restrictiveness of Apple's ecosystem—particularly with their mobile devices—does still hamper privacy in a number of ways.
+iOS 기기는 강력한 데이터 보호와 최신 모범 사례 준수로 보안 전문가들에게 자주 호평받습니다. 하지만 애플 생태계의 제한적인 특성(특히 모바일 기기에서)은 여전히 여러 면에서 프라이버시를 저해합니다.
 
-We generally consider iOS to provide better than average privacy and security protections for most people, compared to stock Android devices from any manufacturer. However, you can achieve even higher standards of privacy with a [custom Android operating system](../android/distributions.md) like GrapheneOS, if you want or need to be completely independent of Apple or Google's cloud services.
+일반적으로 iOS는 어떤 제조사의 순정 안드로이드 기기와 비교하더라도 대부분의 사람에게 평균 이상의 프라이버시와 보안 보호를 제공한다고 봅니다. 하지만 애플이나 구글의 클라우드 서비스로부터 완전히 독립하고 싶거나 그래야 한다면, 그래핀OS 같은 [커스텀 안드로이드 운영 체제](../android/distributions.md)로 더 높은 수준의 프라이버시를 달성할 수 있습니다.
 
-### 잠금 활성화
+### 활성화 잠금 { #activation-lock }
 
-All iOS devices must be checked against Apple's Activation Lock servers when they are initially set up or reset, meaning an internet connection is **required** to use an iOS device.
+모든 iOS 기기는 처음 설정하거나 재설정할 때 애플의 활성화 잠금 서버에서 확인을 거쳐야 하므로, iOS 기기를 사용하려면 인터넷 연결이 **반드시 필요합니다**.
 
-### Mandatory App Store
+### 앱 스토어 필수 사용 { #mandatory-app-store }
 
-The only source for apps on iOS is Apple's App Store, which requires an Apple Account to access. This means that Apple has a record of every app you install on your device, and can likely tie that information to your actual identity if you provide the App Store with a payment method.
+iOS에서 앱을 받을 수 있는 유일한 곳은 애플의 앱 스토어이며, 앱 스토어에 접근하려면 애플 계정이 필요합니다. 즉, 애플은 여러분이 기기에 설치하는 모든 앱의 기록을 가지고 있으며, 앱 스토어에 결제 수단을 등록했다면 이 정보를 실제 신원과 연결할 수 있을 가능성이 높습니다.
 
-### Invasive Telemetry
+### 침해적인 원격 측정 { #invasive-telemetry }
 
-Apple has historically had problems with properly disassociating their telemetry from Apple Accounts on iOS. In [2019](https://theguardian.com/technology/2019/jul/26/apple-contractors-regularly-hear-confidential-details-on-siri-recordings), Apple was found to transmit Siri recordings—some containing highly confidential information—to their servers for manual review by third-party contractors. Though Apple temporarily stopped that program after that practice was [widely reported on](https://theverge.com/2019/8/23/20830120/apple-contractors-siri-recordings-listening-1000-a-day-globetech-microsoft-cortana), the company rolled out a switch to [**opt out** of uploading conversations with Siri](https://theguardian.com/technology/2019/oct/30/apple-lets-users-opt-out-of-having-siri-conversations-recorded) a few months later in the succeeding iOS update. Moreover, in 2021, [Apple reworked Siri](https://theguardian.com/technology/2021/jun/07/apple-overhauls-siri-to-address-privacy-concerns-and-improve-performance) so that it processes voice recordings locally rather than sending it to their servers.
+애플은 지금까지 iOS의 원격 측정 데이터를 애플 계정과 제대로 분리하지 못한 문제가 있었습니다. [2019년](https://theguardian.com/technology/2019/jul/26/apple-contractors-regularly-hear-confidential-details-on-siri-recordings)에는 애플이 매우 민감한 정보가 포함된 일부 시리 녹음을 서버로 전송하여 제3자 하청업체가 직접 검토하도록 한 사실이 밝혀졌습니다. 이러한 관행이 [널리 보도](https://theverge.com/2019/8/23/20830120/apple-contractors-siri-recordings-listening-1000-a-day-globetech-microsoft-cortana)된 후 애플은 해당 프로그램을 일시 중단했고, 몇 달 뒤 후속 iOS 업데이트에서 [시리와의 대화 업로드를 **거부**할 수 있는](https://theguardian.com/technology/2019/oct/30/apple-lets-users-opt-out-of-having-siri-conversations-recorded) 스위치를 도입했습니다. 또한 2021년에는 [애플이 시리를 개편](https://theguardian.com/technology/2021/jun/07/apple-overhauls-siri-to-address-privacy-concerns-and-improve-performance)하여 음성 녹음을 서버로 보내지 않고 기기에서 처리하도록 했습니다.
 
-More recently, Apple has been found to transmit analytics [even when analytics sharing is disabled](https://gizmodo.com/apple-iphone-analytics-tracking-even-when-off-app-store-1849757558) on iOS, and this data [appears](https://twitter.com/mysk_co/status/1594515229915979776) to be easily linked to unique iCloud account identifiers despite supposedly being decoupled from Apple Accounts.
+최근에는 iOS에서 [분석 공유를 비활성화한 상태에서도](https://gizmodo.com/apple-iphone-analytics-tracking-even-when-off-app-store-1849757558) 애플이 분석 데이터를 전송하는 것으로 밝혀졌으며, 이 데이터는 애플 계정과 분리되어 있다고 알려졌음에도 고유한 아이클라우드 계정 식별자와 쉽게 연결될 수 있는 [것으로 보입니다](https://twitter.com/mysk_co/status/1594515229915979776).
 
-### Traffic Outside Active VPN Connections
+### 활성 VPN 연결 외부의 트래픽 { #traffic-outside-active-vpn-connections }
 
-Apple's [privacy policy regarding VPNs](https://apple.com/legal/privacy/data/en/vpns) states:
+애플의 [VPN 관련 개인정보 처리방침](https://apple.com/legal/privacy/data/en/vpns)에는 다음과 같이 명시되어 있습니다:
 
-> Even when a VPN is active, some traffic that is necessary for essential system services will take place outside the VPN so that your device can function properly.
+> VPN이 활성화된 경우에도 기기가 제대로 작동할 수 있도록 필수 시스템 서비스에 필요한 일부 트래픽은 VPN 외부에서 이루어집니다.
 
-## 권장 설정
+## 권장 설정 { #recommended-configuration }
 
-**Note:** This guide assumes that you're running the latest version of iOS.
+**참고:** 이 가이드는 최신 버전의 iOS를 사용하고 있다고 가정합니다.
 
-### iCloud
+### 아이클라우드 { #icloud }
 
-The majority of privacy and security concerns with Apple products are related to their cloud services, not their hardware or software. When you use Apple services like iCloud, most of your information is stored on their servers and secured with keys which Apple has access to by default. You can check [Apple's documentation](https://support.apple.com/HT202303) for information on which services are end-to-end encrypted. Anything listed as "in transit" or "on server" means it's possible for Apple to access that data without your permission. This level of access has occasionally been abused by law enforcement to get around the fact that your data is otherwise securely encrypted on your device, and of course Apple is vulnerable to data breaches like any other company.
+애플 제품의 프라이버시 및 보안 문제는 대부분 하드웨어나 소프트웨어가 아니라 클라우드 서비스와 관련되어 있습니다. 아이클라우드 같은 애플 서비스를 사용하면 대부분의 정보가 애플 서버에 저장되며, 기본적으로 애플이 접근할 수 있는 키로 보호됩니다. 어떤 서비스가 종단 간 암호화되는지는 [애플의 문서](https://support.apple.com/HT202303)에서 확인할 수 있습니다. "전송 중" 또는 "서버에서"로 표시된 항목은 애플이 여러분의 허락 없이 해당 데이터에 접근할 수 있다는 뜻입니다. 이러한 수준의 접근 권한은 기기에서는 데이터가 안전하게 암호화되어 있다는 사실을 우회하기 위해 법 집행 기관에 의해 악용된 적이 있으며, 물론 애플도 다른 회사와 마찬가지로 데이터 유출에 취약합니다.
 
-Therefore, if you do use iCloud you should [enable **Advanced Data Protection**](https://support.apple.com/HT212520). This encrypts nearly all of your iCloud data with keys stored on your devices (end-to-end encryption), rather than Apple's servers, so that your iCloud data is secured in the event of a data breach, and otherwise hidden from Apple.
+따라서 아이클라우드를 사용한다면 [**고급 데이터 보호**를 활성화](https://support.apple.com/HT212520)해야 합니다. 고급 데이터 보호는 거의 모든 아이클라우드 데이터를 애플 서버가 아닌 여러분의 기기에 저장된 키로 암호화(종단 간 암호화)하므로, 데이터 유출이 발생해도 아이클라우드 데이터가 안전하며 애플로부터도 숨겨집니다.
 
-The encryption used by Advanced Data Protection, while strong, [is not *quite* as robust](https://discuss.privacyguides.net/t/apple-advances-user-security-with-powerful-new-data-protections/10778/4) as the encryption offered by other [cloud services](../cloud.md), particularly when it comes to iCloud Drive. While we strongly encourage using Advanced Data Protection if you use iCloud, we would also suggest considering finding an alternative to iCloud from a more [privacy-focused service provider](../tools.md), although it is unlikely most people would be impacted by these encryption quirks.
+고급 데이터 보호에 사용되는 암호화는 강력하지만, 특히 아이클라우드 드라이브의 경우 다른 [클라우드 서비스](../cloud.md)가 제공하는 암호화만큼 [*완전히* 견고하지는 않습니다](https://discuss.privacyguides.net/t/apple-advances-user-security-with-powerful-new-data-protections/10778/4). 아이클라우드를 사용한다면 고급 데이터 보호를 사용할 것을 강력히 권장하지만, 대부분의 사람은 이러한 암호화상의 특이점에 영향을 받지 않을 가능성이 높더라도 보다 [프라이버시 중심의 서비스 제공업체](../tools.md)에서 아이클라우드의 대안을 찾아보는 것도 고려해 볼 것을 권장합니다.
 
-You can also protect your data by limiting what you sync to iCloud in the first place. At the top of the **Settings** app, you'll see your name and profile picture if you are signed in to iCloud. Select that, then **iCloud**, and turn off the switches for any services you don't want to sync to iCloud. You may see third-party apps listed under **Show All** if they sync to iCloud, which you can disable here.
+애초에 아이클라우드에 동기화하는 항목을 제한하여 데이터를 보호할 수도 있습니다. 아이클라우드에 로그인되어 있다면 **설정** 앱 상단에 이름과 프로필 사진이 표시됩니다. 이를 선택한 다음 **iCloud**를 선택하고, 아이클라우드에 동기화하고 싶지 않은 서비스의 스위치를 끄세요. 아이클라우드에 동기화하는 서드파티 앱은 **모두 보기** 아래에 표시될 수 있으며, 여기에서 비활성화할 수 있습니다.
 
-#### iCloud+
+#### 아이클라우드+ { #icloud_1 }
 
-A paid **iCloud+** subscription (with any iCloud storage plan) comes with some privacy-protecting functionality. While these may provide adequate service for current iCloud customers, we wouldn't recommend purchasing an iCloud+ plan over a [VPN](../vpn.md) and [standalone email aliasing service](../email-aliasing.md) just for these features alone.
+유료 **아이클라우드+** 구독(모든 아이클라우드 저장 공간 요금제)에는 몇 가지 프라이버시 보호 기능이 포함되어 있습니다. 기존 아이클라우드 고객에게는 이러한 기능이 적절한 서비스가 될 수 있지만, 이 기능들만을 위해 [VPN](../vpn.md)과 [독립형 이메일 별칭 서비스](../email-aliasing.md) 대신 아이클라우드+ 요금제를 구매하는 것은 권장하지 않습니다.
 
-[**비공개 릴레이**](https://apple.com/legal/privacy/data/en/icloud-relay) 는 사용자의 모든 Safari 트래픽, DNS 쿼리 및 기기의 암호화되지 않은 트래픽을 Apple 소유의 서버와 타사 제공업체(Akamai, Cloudflare, Fastly 등) 소유의 서버 두 개를 통해 중계하는 프록시 서비스입니다. In theory this should prevent any single provider in the chain—including Apple—from having full visibility into which websites you visit while connected. Unlike a VPN, Private Relay does not protect traffic that's already encrypted.
+[**비공개 릴레이**](https://apple.com/legal/privacy/data/en/icloud-relay)는 모든 사파리 트래픽, DNS 쿼리, 기기의 암호화되지 않은 트래픽을 애플 소유 서버와 제3자 제공업체(아카마이, 클라우드플레어, 패스틀리 등) 소유 서버, 두 개의 서버를 거쳐 중계하는 프록시 서비스입니다. 이론적으로는 애플을 포함해 체인의 어떤 단일 제공업체도 연결된 동안 여러분이 어떤 웹사이트를 방문하는지 완전히 파악할 수 없어야 합니다. VPN과 달리 비공개 릴레이는 이미 암호화된 트래픽은 보호하지 않습니다.
 
-**Hide My Email** is Apple's email aliasing service. You can create an email aliases for free when you *Sign In With Apple* on a website or app, or generate unlimited aliases on demand with a paid iCloud+ plan. Hide My Email has the advantage of using the `@icloud.com` domain for its aliases, which may be less likely to be blocked compared to other email aliasing services, but does not offer functionality offered by standalone services such as automatic PGP encryption or multiple mailbox support.
+**나의 이메일 가리기**는 애플의 이메일 별칭 서비스입니다. 웹사이트나 앱에서 *Apple로 로그인*을 사용하면 무료로 이메일 별칭을 만들 수 있으며, 유료 아이클라우드+ 요금제를 사용하면 필요할 때마다 무제한으로 별칭을 생성할 수 있습니다. 나의 이메일 가리기는 별칭에 `@icloud.com` 도메인을 사용하므로 다른 이메일 별칭 서비스에 비해 차단될 가능성이 낮을 수 있다는 장점이 있지만, 자동 PGP 암호화나 여러 메일함 지원 같은 독립형 서비스의 기능은 제공하지 않습니다.
 
-#### Media & Purchases
+#### 미디어 및 구입 항목 { #media-purchases }
 
-At the top of the **Settings** app, you'll see your name and profile picture if you are signed in to an Apple Account. Select that, then select **Media & Purchases** → **View Account**.
+애플 계정에 로그인되어 있다면 **설정** 앱 상단에 이름과 프로필 사진이 표시됩니다. 이를 선택한 다음 **미디어 및 구입 항목** → **계정 보기**를 선택하세요.
 
-- [ ] Turn off **Personalized Recommendations**
+- [ ] **개인 맞춤형 추천** 끄기
 
-#### Find My
+#### 나의 찾기 { #find-my }
 
-**Find My** is a service that lets you track your Apple devices and share your location with your friends and family. It also allows you to wipe your device remotely in case it is stolen, preventing a thief from accessing your data. Your Find My [location data is E2EE](https://apple.com/legal/privacy/data/en/find-my) when:
+**나의 찾기**는 애플 기기를 추적하고 친구 및 가족과 위치를 공유할 수 있는 서비스입니다. 또한 기기를 도난당했을 때 원격으로 기기를 초기화하여 도둑이 데이터에 접근하지 못하게 할 수 있습니다. 나의 찾기의 [위치 데이터는 다음 경우에 E2EE로 보호됩니다](https://apple.com/legal/privacy/data/en/find-my):
 
-- Your location is shared with a family member or friend, and you both use iOS 17 or greater.
-- Your device is offline and is located by the Find My Network.
+- 가족이나 친구와 위치를 공유하고, 양쪽 모두 iOS 17 이상을 사용하는 경우.
+- 기기가 오프라인 상태이고 나의 찾기 네트워크로 위치가 파악된 경우.
 
-Your location data is not E2EE when your device is online and you use Find My iPhone remotely to locate your device. You will have to make the decision whether these trade-offs are worth the anti-theft benefits of Activation Lock.
+기기가 온라인 상태이고 나의 iPhone 찾기를 원격으로 사용해 기기의 위치를 찾는 경우에는 위치 데이터가 E2EE로 보호되지 않습니다. 이러한 절충이 활성화 잠금의 도난 방지 이점만큼 가치가 있는지 직접 판단해야 합니다.
 
-At the top of the **Settings** app, you'll see your name and profile picture if you are signed in to an Apple Account. Select that, then select **Find My**. Here you can choose whether to enable or disable Find My location features.
+애플 계정에 로그인되어 있다면 **설정** 앱 상단에 이름과 프로필 사진이 표시됩니다. 이를 선택한 다음 **나의 찾기**를 선택하세요. 여기에서 나의 찾기 위치 기능을 활성화할지 비활성화할지 선택할 수 있습니다.
 
-### 설정
+### 설정 { #settings }
 
-Many other privacy-related settings can be found in the **Settings** app.
+그 밖의 많은 프라이버시 관련 설정은 **설정** 앱에서 찾을 수 있습니다.
 
-#### Airplane Mode
+#### 에어플레인 모드 { #airplane-mode }
 
-Enabling **Airplane Mode** stops your phone from contacting cell towers. You will still be able to connect to Wi-Fi and Bluetooth, so whenever you are connected to Wi-Fi you can turn this setting on.
+**에어플레인 모드**를 활성화하면 휴대폰이 기지국과 통신하지 않습니다. 와이파이와 블루투스에는 계속 연결할 수 있으므로, 와이파이에 연결되어 있을 때는 언제든 이 설정을 켜 둘 수 있습니다.
 
 #### Wi-Fi
 
-You can enable [hardware address randomization](https://support.apple.com/en-us/102509#triswitch) to protect you from tracking across Wi-Fi networks, and on the same network over time. On the network you are currently connected to, tap the :material-information: button:
+[하드웨어 주소 무작위화](https://support.apple.com/en-us/102509#triswitch)를 활성화하면 여러 와이파이 네트워크 간, 그리고 같은 네트워크에서 시간에 따른 추적으로부터 보호할 수 있습니다. 현재 연결된 네트워크에서 :material-information: 버튼을 탭하세요:
 
-- [x] Set **Private Wi-Fi Address** to **Fixed** or **Rotating**
+- [x] **비공개 Wi-Fi 주소**를 **고정** 또는 **순환**으로 설정
 
-You also have the option to **Limit IP Address Tracking**. This is similar to iCloud Private Relay but only affects connections to "known trackers." Because it only affects connections to potentially malicious servers, this setting is probably fine to leave enabled, but if you don't want *any* traffic to be routed through Apple's servers, you should turn it off.
+**IP 주소 추적 제한** 옵션도 있습니다. 아이클라우드 비공개 릴레이와 비슷하지만 "알려진 추적기"에 대한 연결에만 적용됩니다. 잠재적으로 악의적인 서버에 대한 연결에만 영향을 주므로 이 설정은 켜 두어도 괜찮겠지만, 애플 서버를 통해 *어떤* 트래픽도 라우팅되기를 원하지 않는다면 꺼야 합니다.
 
-#### 블루투스
+#### Bluetooth
 
-**Bluetooth** should be disabled when you aren't using it as it increases your attack surface. Disabling Bluetooth (or Wi-Fi) via the Control Center only disables it temporarily: you must switch it off in Settings for disabling it to remain effective.
+**블루투스**는 공격 표면을 넓히므로 사용하지 않을 때는 비활성화해야 합니다. 제어 센터에서 블루투스(또는 와이파이)를 끄면 일시적으로만 비활성화됩니다. 계속 비활성화 상태를 유지하려면 설정에서 꺼야 합니다.
 
-- [ ] Turn off **Bluetooth**
+- [ ] **Bluetooth** 끄기
 
-Note that Bluetooth is automatically turned on after every system update.
+시스템 업데이트 후에는 매번 블루투스가 자동으로 켜진다는 점에 유의하세요.
 
-#### General
+#### 일반 { #general }
 
-Your iPhone's device name will by default contain your first name, and this will be visible to anyone on networks you connect to. You should change this to something more generic, like "iPhone." Select **About** → **Name** and enter the device name you prefer.
+아이폰의 기기 이름에는 기본적으로 여러분의 이름이 포함되며, 연결된 네트워크의 모든 사람이 이를 볼 수 있습니다. "iPhone"처럼 더 일반적인 이름으로 바꾸는 것이 좋습니다. **정보** → **이름**을 선택하고 원하는 기기 이름을 입력하세요.
 
-It is important to install software updates frequently to get the latest security fixes. You can enable automatic updates to keep your phone up-to-date without needing to constantly check for updates. Select **Software Update** → **Automatic Updates**:
+최신 보안 수정 사항을 받으려면 소프트웨어 업데이트를 자주 설치하는 것이 중요합니다. 자동 업데이트를 활성화하면 업데이트를 계속 확인하지 않아도 휴대폰을 최신 상태로 유지할 수 있습니다. **소프트웨어 업데이트** → **자동 업데이트**를 선택하세요:
 
-- [x] Turn on **Automatically Install**
+- [x] **자동으로 설치** 켜기
 
-**AirDrop** is commonly used to easily share files, but it represents a significant privacy risk. The AirDrop protocol constantly broadcasts your personal information to your surroundings, with [very weak](https://usenix.org/system/files/sec21-heinrich.pdf) security protections. Your identity can easily be discovered by attackers even with limited resources, and the Chinese government has [openly acknowledged](https://arstechnica.com/security/2024/01/hackers-can-id-unique-apple-airdrop-users-chinese-authorities-claim-to-do-just-that) using such techniques to identify AirDrop users in public since 2022.
+**에어드롭**은 파일을 쉽게 공유하는 데 흔히 사용되지만, 상당한 프라이버시 위험이 있습니다. 에어드롭 프로토콜은 [매우 취약한](https://usenix.org/system/files/sec21-heinrich.pdf) 보안 보호 기능만 갖춘 채 여러분의 개인 정보를 주변에 지속적으로 브로드캐스트합니다. 공격자는 제한된 자원으로도 여러분의 신원을 쉽게 알아낼 수 있으며, 중국 정부는 2022년부터 이러한 기법을 사용해 공공장소에서 에어드롭 사용자를 식별해 왔다고 [공개적으로 인정](https://arstechnica.com/security/2024/01/hackers-can-id-unique-apple-airdrop-users-chinese-authorities-claim-to-do-just-that)했습니다.
 
-- [x] Select **AirDrop** → **Receiving Off**
+- [x] **AirDrop** → **수신 끔** 선택
 
-**AirPlay** lets you seamlessly stream content from your iPhone to a TV; however, you might not always want this. Select **AirPlay & Continuity** → **Automatically AirPlay**:
+**에어플레이**를 사용하면 아이폰의 콘텐츠를 TV로 매끄럽게 스트리밍할 수 있지만, 항상 이 기능이 필요한 것은 아닐 수 있습니다. **AirPlay 및 연속성** → **자동으로 AirPlay**를 선택하세요:
 
-- [x] Select **Never** or **Ask**
+- [x] **안 함** 또는 **묻기** 선택
 
-**Background App Refresh** allows your apps to refresh their content while you're not using them. This may cause them to make unwanted connections. Turning this off can also save battery life, but may affect an app's ability to receive updated information, particularly weather and messaging apps.
+**백그라운드 앱 새로 고침**은 앱을 사용하지 않는 동안에도 콘텐츠를 새로 고칠 수 있게 합니다. 이로 인해 앱이 원치 않는 연결을 할 수 있습니다. 이 기능을 끄면 배터리 수명도 절약할 수 있지만, 특히 날씨나 메시지 앱처럼 최신 정보를 받는 앱의 기능에 영향을 줄 수 있습니다.
 
-Select **Background App Refresh** and switch off any apps you don't want to continue refreshing in the background. If you don't want any apps to refresh in the background, you can select **Background App Refresh** again and turn it **Off**.
+**백그라운드 앱 새로 고침**을 선택하고 백그라운드에서 계속 새로 고치지 않았으면 하는 앱을 끄세요. 백그라운드에서 어떤 앱도 새로 고치지 않게 하려면 **백그라운드 앱 새로 고침**을 다시 선택하고 **끔**으로 설정하세요.
 
-#### Apple Intelligence & Siri
+#### Apple Intelligence 및 Siri
 
-This is available if your device supports **[Apple Intelligence](https://support.apple.com/guide/iphone/apple-intelligence-and-privacy-iphe3f499e0e/ios)**. Apple Intelligence uses a combination of on-device processing and their **[Private Cloud Compute](https://security.apple.com/blog/private-cloud-compute)** for things that take more processing power than your device can provide.
+기기가 **[애플 인텔리전스](https://support.apple.com/guide/iphone/apple-intelligence-and-privacy-iphe3f499e0e/ios)**를 지원하는 경우 사용할 수 있습니다. 애플 인텔리전스는 기기 내 처리와, 기기가 제공할 수 있는 것보다 더 많은 처리 능력이 필요한 작업을 위한 **[프라이빗 클라우드 컴퓨트](https://security.apple.com/blog/private-cloud-compute)**를 함께 사용합니다.
 
-To see a report of all the requests made to Apple's servers, you can navigate to **Privacy & Security** → **Apple Intelligence Report** and press **Export Activity** to see activity from the either the last 15 minutes or 7 days, depending on what you set it for. Similar to the **App Privacy Report** which shows you the recent permissions accessed by the apps on your phone, the Apple Intelligence Report likewise shows what is being sent to Apple's servers while using Apple Intelligence.
+애플 서버로 전송된 모든 요청에 대한 보고서를 보려면 **개인정보 보호 및 보안** → **Apple Intelligence 보고서**로 이동하여 **활동 내보내기**를 누르면, 설정에 따라 최근 15분 또는 7일간의 활동을 확인할 수 있습니다. 휴대폰의 앱이 최근 접근한 권한을 보여 주는 **앱 개인정보 보호 리포트**와 마찬가지로, Apple Intelligence 보고서는 애플 인텔리전스를 사용하는 동안 애플 서버로 전송되는 내용을 보여 줍니다.
 
-Apple Intelligence can integrate with [ChatGPT](https://support.apple.com/guide/iphone/use-chatgpt-with-apple-intelligence-iph00fd3c8c2/ios). If you want ChatGPT integration, you can navigate to **ChatGPT** and press **Set Up**. If you want to disable it, go to the same place:
+애플 인텔리전스는 [ChatGPT](https://support.apple.com/guide/iphone/use-chatgpt-with-apple-intelligence-iph00fd3c8c2/ios)와 통합할 수 있습니다. ChatGPT 통합을 원한다면 **ChatGPT**로 이동하여 **설정**을 누르세요. 비활성화하려면 같은 위치로 이동하세요:
 
-- [ ] Turn off **Use ChatGPT**
+- [ ] **ChatGPT 사용** 끄기
 
-You can also have it ask for confirmation every time if you leave ChatGPT integration on:
+ChatGPT 통합을 켜 둔다면 매번 확인을 요청하도록 설정할 수도 있습니다:
 
-- [x] Turn on **Confirm Requests**
+- [x] **요청 확인** 켜기
 
-If you don't want anyone to be able to control your phone with Siri when it is locked, you can turn that off here.
+휴대폰이 잠겨 있을 때 누구도 시리로 휴대폰을 제어하지 못하게 하려면 여기에서 해당 기능을 끌 수 있습니다.
 
-- [ ] Turn off **Allow Siri When Locked**
+- [ ] **잠겨 있을 때 Siri 허용** 끄기
 
-#### Face ID/Touch ID & Passcode
+#### Face ID/Touch ID 및 암호 { #face-idtouch-id-passcode }
 
-Setting a strong password on your phone is the most important step you can take for physical device security. You'll have to make trade-offs here between security and convenience: A longer password will be annoying to type in every time, but a shorter password or PIN will be easier to guess. Setting up Face ID or Touch ID along with a strong password can be a good compromise between usability and security.
+휴대폰에 강력한 비밀번호를 설정하는 것은 기기의 물리적 보안을 위해 할 수 있는 가장 중요한 단계입니다. 여기서는 보안과 편의성 사이에서 절충해야 합니다. 비밀번호가 길면 매번 입력하기 번거롭지만, 비밀번호나 PIN이 짧으면 추측하기 쉬워집니다. 강력한 비밀번호와 함께 Face ID나 Touch ID를 설정하면 사용성과 보안 사이에서 좋은 절충안이 될 수 있습니다.
 
-Select **Turn Passcode On** or **Change Passcode** → **Passcode Options** → **Custom Alphanumeric Code**. Make sure that you create a [secure password](../basics/passwords-overview.md).
+**암호 켜기** 또는 **암호 변경** → **암호 옵션** → **사용자 지정 영숫자 코드**를 선택하세요. [안전한 비밀번호](../basics/passwords-overview.md)를 만들어야 합니다.
 
-If you wish to use Face ID or Touch ID, you can go ahead and set it up now. Your phone will use the password you set up earlier as a fallback in case your biometric verification fails. Biometric unlock methods are primarily a convenience, although they do stop surveillance cameras or people over your shoulder from watching you input your passcode.
+Face ID나 Touch ID를 사용하고 싶다면 지금 설정하면 됩니다. 생체 인증에 실패하면 휴대폰은 앞서 설정한 비밀번호를 대체 수단으로 사용합니다. 생체 인식 잠금 해제는 주로 편의를 위한 것이지만, 감시 카메라나 어깨너머의 사람들이 여러분이 암호를 입력하는 모습을 보지 못하게 해 주기도 합니다.
 
-If you use biometrics, you should know how to turn them off quickly in an emergency. Holding down the [side button](https://support.apple.com/en-us/105103) and *either* volume button until you see the Slide to Power Off slider will disable biometrics, requiring your passcode to unlock. Your passcode will be required after your device restarts.
+생체 인식을 사용한다면 긴급 상황에서 빠르게 끄는 방법을 알아 두어야 합니다. [측면 버튼](https://support.apple.com/en-us/105103)과 음량 버튼 중 *하나*를 "밀어서 전원 끄기" 슬라이더가 나타날 때까지 길게 누르면 생체 인식이 비활성화되어 잠금을 해제하려면 암호가 필요해집니다. 기기가 재시동된 후에는 암호가 필요합니다.
 
-You can similarly disable biometrics by pressing the side button five times, or for devices with Touch ID, you can hold down the side button and nothing else. Make sure you try this in advance, so you know which method works for your device.
+측면 버튼을 다섯 번 눌러도 생체 인식을 비활성화할 수 있으며, Touch ID가 있는 기기에서는 측면 버튼만 길게 눌러도 됩니다. 미리 시도해 보고 여러분의 기기에서 어떤 방법이 작동하는지 확인해 두세요.
 
-**Stolen Device Protection** adds additional security intended to protect your personal data if your device is stolen while unlocked. If you enable both biometric authentication and the [Find My](#find-my) iPhone feature, we recommend enabling this protection:
+**도난당한 기기 보호**는 잠금 해제된 상태에서 기기를 도난당했을 때 개인 데이터를 보호하기 위한 추가 보안을 제공합니다. 생체 인증과 [나의 찾기](#find-my) 아이폰 기능을 모두 활성화했다면 이 보호 기능을 활성화할 것을 권장합니다:
 
-- [x] Turn on **Stolen Device Protection**
+- [x] **도난당한 기기 보호** 켜기
 
-After enabling Stolen Device Protection, [certain actions](https://support.apple.com/HT212510) will require biometric authentication without a password fallback (in the event that a shoulder surfer has obtained your PIN), such as using password autofill, accessing payment information, and disabling Lost Mode. It also adds a security delay to certain actions performed away from your home or another "familiar location," such as requiring a 1-hour timer to reset your Apple Account password or sign out of your Apple Account. This delay is intended to give you time to enable Lost Mode and secure your account before a thief can reset your device.
+도난당한 기기 보호를 활성화하면 비밀번호 자동 완성 사용, 결제 정보 접근, 분실 모드 해제 같은 [특정 작업](https://support.apple.com/HT212510)에 (어깨너머로 PIN을 훔쳐본 경우에 대비해) 비밀번호 대체 수단 없이 생체 인증이 필요합니다. 또한 집이나 기타 "익숙한 위치"를 벗어난 곳에서 수행하는 특정 작업에 보안 지연을 추가합니다. 예를 들어 애플 계정 비밀번호를 재설정하거나 애플 계정에서 로그아웃하려면 1시간 타이머를 기다려야 합니다. 이 지연은 도둑이 기기를 재설정하기 전에 여러분이 분실 모드를 활성화하고 계정을 보호할 시간을 주기 위한 것입니다.
 
-**Allow Access When Locked** presents options for what you can allow when your phone is locked. Pick and choose which feature you want to disable to prevent unauthorized access if someone gets their hands on your phone. The more of these options you disable, the less someone without your password can do, but the less convenient it will be for you.
+**잠겨 있을 때 접근 허용**에서는 휴대폰이 잠겨 있을 때 허용할 항목을 선택할 수 있습니다. 누군가 휴대폰을 손에 넣었을 때 무단 접근을 막으려면 비활성화할 기능을 골라 선택하세요. 이 옵션을 많이 비활성화할수록 비밀번호를 모르는 사람이 할 수 있는 일은 줄어들지만, 여러분의 편의성도 떨어집니다.
 
-iPhones are already resistant to brute-force attacks by making you wait long periods of time after multiple failed attempts; however, there have historically been exploits to get around this. To be extra safe, you can set your phone to wipe itself after 10 failed passcode attempts.
+아이폰은 여러 번 시도에 실패하면 오랫동안 기다리게 하여 무차별 대입 공격에 이미 저항하지만, 과거에는 이를 우회하는 익스플로잇이 있었습니다. 더욱 안전하게 하려면 암호 입력을 10회 실패하면 휴대폰이 스스로 초기화되도록 설정할 수 있습니다.
 
 <div class="admonition warning" markdown>
-<p class="admonition-title">주의</p>
+<p class="admonition-title">경고</p>
 
-With this setting enabled, someone could intentionally wipe your phone by entering the wrong password many times. Make sure you have proper backups and only enable this setting if you feel comfortable with it.
+이 설정을 활성화하면 누군가 일부러 잘못된 비밀번호를 여러 번 입력하여 휴대폰을 초기화할 수 있습니다. 적절한 백업을 갖추고, 이 설정이 괜찮다고 판단되는 경우에만 활성화하세요.
 
 </div>
 
-- [x] Turn on **Erase Data**
+- [x] **데이터 지우기** 켜기
 
-#### 개인 정보 및 보안
+#### 개인정보 보호 및 보안 { #privacy-security }
 
-**Location Services** allows you to use features like Find My and Maps. If you don't need these features, you can disable Location Services. Alternatively, you can review and pick which apps can use your location here. Select **Location Services**:
+**위치 서비스**를 사용하면 나의 찾기나 지도 같은 기능을 사용할 수 있습니다. 이러한 기능이 필요하지 않다면 위치 서비스를 비활성화할 수 있습니다. 또는 여기에서 위치를 사용할 수 있는 앱을 검토하고 선택할 수 있습니다. **위치 서비스**를 선택하세요:
 
-- [ ] Turn off **Location Services**
+- [ ] **위치 서비스** 끄기
 
-A purple arrow will appear next to an app in these settings that has used your location recently, while a gray arrow indicates that your location has been accessed within the last 24 hours. If you decide to leave Location Services on, Apple will use it for System Services by default. You can review and pick which services can use your location here. However, if you don't want to submit location analytics to Apple, which they use to improve Apple Maps, you can disable this here as well. Select **System Services**:
+이 설정에서 최근 위치를 사용한 앱 옆에는 보라색 화살표가 나타나고, 회색 화살표는 지난 24시간 이내에 위치에 접근했음을 나타냅니다. 위치 서비스를 켜 두기로 했다면, 애플은 기본적으로 시스템 서비스에 위치 서비스를 사용합니다. 여기에서 위치를 사용할 수 있는 서비스를 검토하고 선택할 수 있습니다. 하지만 애플 지도 개선에 사용되는 위치 분석 데이터를 애플에 제출하고 싶지 않다면 여기에서 비활성화할 수도 있습니다. **시스템 서비스**를 선택하세요:
 
-- [ ] Turn off **iPhone Analytics**
-- [ ] Turn off **Routing & Traffic**
-- [ ] Turn off **Improve Maps**
+- [ ] **iPhone 분석** 끄기
+- [ ] **경로 및 교통 상황** 끄기
+- [ ] **지도 개선** 끄기
 
-You can decide to allow apps to request to **track** you here. Disabling this disallows all apps from tracking you with your phone's advertising ID. Select **Tracking**:
+여기에서 앱이 여러분을 **추적**하도록 요청할 수 있게 할지 결정할 수 있습니다. 이를 비활성화하면 모든 앱이 휴대폰의 광고 ID로 여러분을 추적할 수 없게 됩니다. **추적**을 선택하세요:
 
-- [ ] Turn off **Allow Apps to Request to Track**
+- [ ] **앱이 추적을 요청하도록 허용** 끄기
 
-This is disabled by default and cannot be changed for users under 18.
+이 설정은 기본적으로 비활성화되어 있으며, 18세 미만 사용자는 변경할 수 없습니다.
 
-You should turn off **Research Sensor & Usage Data** if you don't wish to participate in studies. Select **Research Sensor & Usage Data**:
+연구에 참여하고 싶지 않다면 **연구 센서 및 사용 데이터**를 꺼야 합니다. **연구 센서 및 사용 데이터**를 선택하세요:
 
-- [ ] Turn off **Sensor & Usage Data Collection**
+- [ ] **센서 및 사용 데이터 수집** 끄기
 
-**[Safety Check](https://support.apple.com/guide/personal-safety/safety-check-iphone-ios-16-ips2aad835e1/1.0/web/1.0)** allows you to quickly view and revoke certain people and apps that might have permission to access your data. Here, you can perform an **Emergency Reset**, immediately resetting permissions for all people and apps which might have access to device resources. You can also **Manage Sharing & Access**, which allows you to review and customize who and what has access to your device and account resources. If you're in an abusive situation, read Apple's [Personal Safety User Guide](https://support.apple.com/guide/personal-safety/welcome/web) for guidance on what you should do.
+**[안전 확인](https://support.apple.com/guide/personal-safety/safety-check-iphone-ios-16-ips2aad835e1/1.0/web/1.0)**을 사용하면 여러분의 데이터에 접근할 권한이 있을 수 있는 특정 사람과 앱을 빠르게 확인하고 권한을 해제할 수 있습니다. 여기에서 **긴급 재설정**을 수행하면 기기 리소스에 접근할 수 있는 모든 사람과 앱의 권한을 즉시 재설정할 수 있습니다. **공유 및 접근 관리**를 사용하면 기기와 계정 리소스에 접근할 수 있는 사람과 항목을 검토하고 조정할 수도 있습니다. 학대 상황에 처해 있다면 애플의 [개인 안전 사용 설명서](https://support.apple.com/guide/personal-safety/welcome/web)를 읽고 어떻게 해야 하는지 안내를 받으세요.
 
-You should disable analytics if you don't wish to send usage data to Apple. Select **Analytics & Improvements** and unselect the type(s) of analytics that you don't want to send to Apple.
+사용 데이터를 애플에 보내고 싶지 않다면 분석 기능을 비활성화해야 합니다. **분석 및 향상**을 선택하고 애플에 보내고 싶지 않은 분석 유형을 선택 해제하세요.
 
-Disable **Personalized Ads** if you don't want targeted ads. Select **Apple Advertising**:
+맞춤 광고를 원하지 않는다면 **개인 맞춤형 광고**를 비활성화하세요. **Apple 광고**를 선택하세요:
 
-- [ ] Turn off **Personalized Ads**
+- [ ] **개인 맞춤형 광고** 끄기
 
-**App Privacy Report** is a built-in tool that allows you to see which permissions your apps are using. Select **App Privacy Report**:
+**앱 개인정보 보호 리포트**는 앱이 어떤 권한을 사용하고 있는지 확인할 수 있는 내장 도구입니다. **앱 개인정보 보호 리포트**를 선택하세요:
 
-- [x] Select **Turn On App Privacy Report**
+- [x] **앱 개인정보 보호 리포트 켜기** 선택
 
-Set wired accessories to ask for permission when you connect them. Select **Wired Accessories**:
+유선 액세서리를 연결할 때 권한을 요청하도록 설정하세요. **유선 액세서리**를 선택하세요:
 
-- [x] Select **Always Ask** or **Ask for New Accessories**
+- [x] **항상 묻기** 또는 **새로운 액세서리에 대해 묻기** 선택
 
-**[Lockdown Mode](https://blog.privacyguides.org/2022/10/27/macos-ventura-privacy-security-updates/#lockdown-mode)** is a security setting you can enable to make your phone more resistant to attacks. Be aware that certain apps and features [won't work](https://support.apple.com/HT212650) as they do normally.
+**[차단 모드](https://blog.privacyguides.org/2022/10/27/macos-ventura-privacy-security-updates/#lockdown-mode)**는 휴대폰이 공격에 더 강하게 저항하도록 활성화할 수 있는 보안 설정입니다. 특정 앱과 기능이 평소처럼 [작동하지 않을 수 있다](https://support.apple.com/HT212650)는 점에 유의하세요.
 
-- [x] Select **Turn On Lockdown Mode**
+- [x] **차단 모드 켜기** 선택
 
-## Additional Advice
+## 추가 조언 { #additional-advice }
 
-### E2EE 통화
+### E2EE 통화 { #e2ee-calls }
 
-Normal phone calls made with the Phone app through your carrier are not E2EE. Both FaceTime Video and FaceTime Audio calls are E2EE. Alternatively, you can use [another app](../real-time-communication.md) like Signal for E2EE calls.
+통신사를 통해 전화 앱으로 거는 일반 전화 통화는 E2EE로 보호되지 않습니다. 페이스타임 영상 통화와 페이스타임 오디오 통화는 모두 E2EE로 보호됩니다. 또는 시그널 같은 [다른 앱](../real-time-communication.md)을 사용하여 E2EE 통화를 할 수 있습니다.
 
-### Encrypted iMessage
+### 암호화된 아이메시지 { #encrypted-imessage }
 
-The [color of the message bubble](https://support.apple.com/en-us/104972) in the Messages app indicates whether your messages are E2EE or not. A blue bubble indicates that you're using iMessage with E2EE, while a green bubble indicates the other party is using either the outdated SMS and MMS protocols or RCS. RCS on iOS is **not** E2EE. Currently, the only way to have E2EE in Messages is for both parties to be using iMessage on Apple devices.
+메시지 앱의 [말풍선 색상](https://support.apple.com/en-us/104972)은 메시지가 E2EE로 보호되는지 여부를 나타냅니다. 파란색 말풍선은 E2EE가 적용된 아이메시지를 사용하고 있음을 나타내고, 초록색 말풍선은 상대방이 오래된 SMS 및 MMS 프로토콜이나 RCS를 사용하고 있음을 나타냅니다. iOS의 RCS는 E2EE로 보호되지 **않습니다**. 현재 메시지 앱에서 E2EE를 사용하는 유일한 방법은 양쪽 모두 애플 기기에서 아이메시지를 사용하는 것입니다.
 
-If either you or your messaging partner have iCloud Backup enabled without Advanced Data Protection, the encryption key will be stored on Apple's servers, meaning they can access your messages.
+여러분이나 대화 상대가 고급 데이터 보호 없이 아이클라우드 백업을 활성화하고 있다면 암호화 키가 애플 서버에 저장되므로, 애플이 여러분의 메시지에 접근할 수 있습니다.
 
-By default, you trust Apple's identity servers that you're messaging the right person. To defend yourself from a potentially malicious server, you can enable **[Contact Key Verification](https://support.apple.com/en-us/118246)**. At the top of the **Settings** app where your name is, select it, then go to **Contact Key Verification**.
+기본적으로 여러분은 올바른 사람과 메시지를 주고받고 있다는 것을 애플의 신원 서버에 의존해 신뢰하게 됩니다. 잠재적으로 악의적인 서버로부터 자신을 보호하려면 **[연락처 키 확인](https://support.apple.com/en-us/118246)**을 활성화할 수 있습니다. **설정** 앱 상단의 이름 부분을 선택한 다음 **연락처 키 확인**으로 이동하세요.
 
-- [x] Turn on **Verification in iMessage**
+- [x] **iMessage에서 확인** 켜기
 
-Both you and your contacts need to enable Contact Key Verification and follow Apple's [instructions](https://support.apple.com/en-us/118246#verify) for the security assurances mentioned above to take effect.
+위에서 언급한 보안 보장이 적용되려면 여러분과 연락처 모두 연락처 키 확인을 활성화하고 애플의 [안내](https://support.apple.com/en-us/118246#verify)를 따라야 합니다.
 
-### Photo Permissions
+### 사진 권한 { #photo-permissions }
 
-When an app prompts you for access to your device's photo library, iOS provides you with options to limit what an app can access.
+앱이 기기의 사진 보관함에 대한 접근을 요청하면, iOS는 앱이 접근할 수 있는 범위를 제한하는 옵션을 제공합니다.
 
-Rather than allow an app to access all the photos on your device, you can allow it to only access whichever photos you choose by tapping the "Select Photos..." option in the permission dialog. You can change photo access permissions at any time by navigating to **Settings** → **Privacy & Security** → **Photos**.
+앱이 기기의 모든 사진에 접근하도록 허용하는 대신, 권한 대화 상자에서 "사진 선택..." 옵션을 탭하여 선택한 사진에만 접근하도록 허용할 수 있습니다. **설정** → **개인정보 보호 및 보안** → **사진**으로 이동하여 언제든지 사진 접근 권한을 변경할 수 있습니다.
 
-![Photo Permissions](../assets/img/ios/photo-permissions-light.png#only-light) ![Photo Permissions](../assets/img/ios/photo-permissions-dark.png#only-dark)
+![사진 권한](../assets/img/ios/photo-permissions-light.png#only-light) ![사진 권한](../assets/img/ios/photo-permissions-dark.png#only-dark)
 
-**Add Photos Only** is a permission that only gives an app the ability to download photos to the photo library. Not all apps which request photo library access provide this option.
+**사진 추가만**은 앱에 사진 보관함으로 사진을 저장하는 기능만 부여하는 권한입니다. 사진 보관함 접근을 요청하는 모든 앱이 이 옵션을 제공하는 것은 아닙니다.
 
-![Private Access](../assets/img/ios/private-access-light.png#only-light) ![Private Access](../assets/img/ios/private-access-dark.png#only-dark)
+![비공개 접근](../assets/img/ios/private-access-light.png#only-light) ![비공개 접근](../assets/img/ios/private-access-dark.png#only-dark)
 
-Some apps also support **Private Access**, which functions similarly to the **Limited Access** permission. However, photos shared to apps using Private Access include their location by default. We recommend unchecking this setting if you do not [remove photo metadata](../data-redaction.md) beforehand.
+일부 앱은 **비공개 접근**도 지원하는데, 이는 **제한된 접근** 권한과 비슷하게 작동합니다. 하지만 비공개 접근을 사용해 앱에 공유된 사진에는 기본적으로 위치 정보가 포함됩니다. 미리 [사진 메타데이터를 제거](../data-redaction.md)하지 않는다면 이 설정을 해제할 것을 권장합니다.
 
-### Contact Permissions
+### 연락처 권한 { #contact-permissions }
 
-Similarly, rather than allow an app to access all the contacts saved on your device, you can allow it to only access whichever contacts you choose. You can change contact access permissions at any time by navigating to **Settings** → **Privacy & Security** → **Contacts**.
+마찬가지로 앱이 기기에 저장된 모든 연락처에 접근하도록 허용하는 대신, 선택한 연락처에만 접근하도록 허용할 수 있습니다. **설정** → **개인정보 보호 및 보안** → **연락처**로 이동하여 언제든지 연락처 접근 권한을 변경할 수 있습니다.
 
-![Contact Permissions](../assets/img/ios/contact-permissions-light.png#only-light) ![Contact Permissions](../assets/img/ios/contact-permissions-dark.png#only-dark)
+![연락처 권한](../assets/img/ios/contact-permissions-light.png#only-light) ![연락처 권한](../assets/img/ios/contact-permissions-dark.png#only-dark)
 
-### Require Biometrics and Hide Apps
+### 생체 인증 요구 및 앱 가리기 { #require-biometrics-and-hide-apps }
 
-iOS offers the ability to lock most apps behind Touch ID/Face ID or your passcode, which can be useful for protecting sensitive content in apps which do not provide the option themselves. You can lock an app by long-pressing on it and selecting **Require Face ID/Touch ID**. Any app locked in this way requires biometric authentication whenever opening it or accessing its contents in other apps. Also, notification previews for locked apps will not be shown.
+iOS는 대부분의 앱을 Touch ID/Face ID나 암호로 잠글 수 있는 기능을 제공하므로, 자체적으로 잠금 옵션을 제공하지 않는 앱의 민감한 콘텐츠를 보호하는 데 유용합니다. 앱을 길게 누르고 **Face ID/Touch ID 필요**를 선택하면 앱을 잠글 수 있습니다. 이렇게 잠근 앱은 열거나 다른 앱에서 해당 앱의 콘텐츠에 접근할 때마다 생체 인증이 필요합니다. 또한 잠긴 앱의 알림 미리 보기가 표시되지 않습니다.
 
-In addition to locking apps behind biometrics, you can also hide apps so that they don't appear on the Home Screen, App Library, the app list in **Settings**, etc. While hiding apps may be useful in situations where you have to hand your unlocked phone to someone else, the concealment provided by the feature is not absolute, as a hidden app is still visible in some places such as the battery usage list. Moreover, one notable trade off of hiding an app is that you will not receive any of its notifications.
+생체 인증으로 앱을 잠그는 것 외에도, 앱이 홈 화면, 앱 보관함, **설정**의 앱 목록 등에 나타나지 않도록 앱을 가릴 수도 있습니다. 앱 가리기는 잠금 해제된 휴대폰을 다른 사람에게 건네야 하는 상황에서 유용할 수 있지만, 가린 앱도 배터리 사용량 목록 등 일부 위치에서는 여전히 보이므로 완벽하게 숨겨지지는 않습니다. 또한 앱을 가릴 때의 주목할 만한 단점은 해당 앱의 알림을 전혀 받지 못한다는 것입니다.
 
-You can hide an app by long-pressing on it and selecting **Require Face ID/Touch ID** → **Hide and Require Face ID/Touch ID**. Note that pre-installed Apple apps, as well as the default web browser and email app, cannot be hidden. Hidden apps reside in a **Hidden** folder at the bottom of the App Library, which can be unlocked using biometrics. This folder appears in the App Library whether you hid any apps or not, which provides you a degree of plausible deniability.
+앱을 길게 누르고 **Face ID/Touch ID 필요** → **가리기 및 Face ID/Touch ID 필요**를 선택하면 앱을 가릴 수 있습니다. 사전 설치된 애플 앱과 기본 웹 브라우저 및 이메일 앱은 가릴 수 없다는 점에 유의하세요. 가린 앱은 앱 보관함 맨 아래의 **가려짐** 폴더에 있으며, 생체 인증으로 잠금을 해제할 수 있습니다. 이 폴더는 가린 앱이 있든 없든 앱 보관함에 표시되므로, 어느 정도 그럴듯한 부인 가능성을 제공합니다.
 
-### Guided Access
+### 사용법 유도 { #guided-access }
 
-Sometimes you might want to hand your phone to someone to make a call or do a specific task, but you don't want them to have full access to your phone. In these cases, you can quickly enable **[Guided Access](https://support.apple.com/guide/iphone/lock-iphone-to-one-app-iph7fad0d10/ios)** to lock the phone to one specific app until you authenticate.
+때로는 전화를 걸거나 특정 작업을 하도록 휴대폰을 다른 사람에게 건네야 하지만, 휴대폰 전체에 접근하게 하고 싶지는 않을 수 있습니다. 이럴 때 **[사용법 유도](https://support.apple.com/guide/iphone/lock-iphone-to-one-app-iph7fad0d10/ios)**를 빠르게 활성화하면 인증할 때까지 휴대폰을 특정 앱 하나로 고정할 수 있습니다.
 
 <div class="admonition warning" markdown>
-<p class="admonition-title">주의</p>
+<p class="admonition-title">경고</p>
 
-Guided Access isn't foolproof, as it's possible you could leak data unintentionally or the feature could be bypassed. You should only use Guided Access for situations where you casually hand your phone to someone to use. You should not use it as a tool to protect against advanced adversaries.
+사용법 유도는 완벽하지 않으며, 의도치 않게 데이터가 유출되거나 기능이 우회될 수 있습니다. 사용법 유도는 가볍게 휴대폰을 남에게 건네 사용하게 하는 상황에서만 사용해야 합니다. 고도화된 공격자를 막는 도구로 사용해서는 안 됩니다.
 
 </div>
 
-### Redacting Elements in Images
+### 이미지에서 요소 가리기 { #redacting-elements-in-images }
 
-If you need to hide information in a photo, you can use Apple's built-in editing tools to do so.
+사진에서 정보를 숨겨야 한다면 애플의 내장 편집 도구를 사용할 수 있습니다.
 
-You can use the [Clean Up](https://support.apple.com/en-us/121429) feature on supported devices to pixelate faces or remove objects from images.
+지원되는 기기에서는 [정리](https://support.apple.com/en-us/121429) 기능을 사용하여 이미지에서 얼굴을 픽셀화하거나 객체를 제거할 수 있습니다.
 
-- Open the **Photos** app and tap the photo you have selected for redaction
-- Tap the :material-tune:
-- Tap the button labeled **Clean Up**
-- Draw a circle around whatever you want to redact. Faces will be pixelated, and it will attempt to delete anything else.
+- **사진** 앱을 열고 가리려는 사진을 탭합니다
+- :material-tune:을 탭합니다
+- **정리**라고 표시된 버튼을 탭합니다
+- 가리고 싶은 부분 주위에 원을 그립니다. 얼굴은 픽셀화되고, 그 외의 것은 지우려고 시도합니다.
 
-Our warning [against blurring text](../data-redaction.md) also applies here, so we recommend to instead add a black shape with 100% opacity over it. In addition to redacting text, you can also black out any face or object using the **Photos** app.
+[텍스트를 흐리게 처리하지 말라는](../data-redaction.md) 경고가 여기에도 적용되므로, 대신 불투명도 100%의 검은색 도형을 그 위에 추가할 것을 권장합니다. 텍스트를 가리는 것 외에도 **사진** 앱을 사용하여 얼굴이나 객체를 검게 가릴 수도 있습니다.
 
 <div class="annotate" markdown>
 
-- Tap the image you have selected for redaction
-- Tap the :material-tune: → :material-dots-horizontal: (1) → Markup → :material-plus:
-- Select **Add Shape** and choose the square or circle
-- On the toolbar, tap the circle and choose black as the color for filling in the shape. You can also move the shape and increase its size as you see fit.
+- 가리려는 이미지를 탭합니다
+- :material-tune: → :material-dots-horizontal: (1) → 마크업 → :material-plus:를 탭합니다
+- **도형 추가**를 선택하고 사각형이나 원을 고릅니다
+- 도구 막대에서 원을 탭하고 도형을 채울 색상으로 검은색을 선택합니다. 원하는 대로 도형을 이동하고 크기를 키울 수도 있습니다.
 
 </div>
 
-1. This may not appear on certain iPhone models.
+1. 일부 아이폰 모델에서는 표시되지 않을 수 있습니다.
 
-**Don't** use the highlighter to obfuscate information, as its opacity is not quite 100%.
+형광펜은 불투명도가 100%가 아니므로 정보를 가리는 데 사용하지 **마세요**.
 
-### Avoid Jailbreaking
+### 탈옥 피하기 { #avoid-jailbreaking }
 
-Jailbreaking an iPhone undermines its security and makes you vulnerable. Running untrusted, third-party software could cause your device to be infected with malware.
+아이폰을 탈옥하면 보안이 약화되어 공격에 취약해집니다. 신뢰할 수 없는 서드파티 소프트웨어를 실행하면 기기가 멀웨어에 감염될 수 있습니다.
 
-### iOS Betas
+### iOS 베타 { #ios-betas }
 
-Apple always makes beta versions of iOS available early for those that wish to help find and report bugs. We don't recommend installing beta software on your phone. Beta releases are potentially unstable and could have undiscovered security vulnerabilities.
+애플은 버그를 찾아 보고하는 데 도움을 주고 싶은 사람들을 위해 항상 iOS 베타 버전을 미리 제공합니다. 휴대폰에 베타 소프트웨어를 설치하는 것은 권장하지 않습니다. 베타 릴리스는 불안정할 수 있으며 아직 발견되지 않은 보안 취약점이 있을 수 있습니다.
 
-## Security Highlights
+## 보안 하이라이트 { #security-highlights }
 
-### Before First Unlock
+### 첫 잠금 해제 전 { #before-first-unlock }
 
-If your threat model includes [:material-target-account: Targeted Attacks](../basics/common-threats.md#attacks-against-specific-individuals ""){.pg-red} that involve forensic tools, and you want to minimize the chance of exploits being used to access your phone, you should restart your device frequently. The state *after* a reboot but *before* unlocking your device is referred to as "Before First Unlock" (BFU), and when your device is in that state it makes it [significantly more difficult](https://belkasoft.com/checkm8_glossary) for forensic tools to exploit vulnerabilities to access your data. This BFU state allows you to receive notifications for calls, texts, and alarms, but most of the data on your device is still encrypted and inaccessible. This can be impractical, so consider whether these trade-offs make sense for your situation.
+위협 모델에 포렌식 도구를 사용하는 [:material-target-account: 표적 공격](../basics/common-threats.md#attacks-against-specific-individuals ""){.pg-red}이 포함되어 있고 익스플로잇을 이용해 휴대폰에 접근할 가능성을 최소화하고 싶다면, 기기를 자주 재시동해야 합니다. 재시동한 *후* 기기를 잠금 해제하기 *전*의 상태를 "첫 잠금 해제 전"(BFU)이라고 하며, 기기가 이 상태일 때는 포렌식 도구가 취약점을 악용해 데이터에 접근하기가 [훨씬 더 어려워집니다](https://belkasoft.com/checkm8_glossary). BFU 상태에서도 전화, 문자, 알람 알림은 받을 수 있지만, 기기의 데이터 대부분은 여전히 암호화되어 접근할 수 없습니다. 이는 비현실적일 수 있으므로, 이러한 절충이 여러분의 상황에 맞는지 고려해 보세요.
 
-iPhones [automatically reboot](https://support.apple.com/guide/security/protecting-user-data-in-the-face-of-attack-secf5549a4f5/1/web/1#:~:text=On%20an%20iPhone%20or%20iPad%20with%20iOS%2018%20and%20iPadOS%2018%20or%20later%2C%20a%20new%20security%20protection%20will%20restart%20devices%20if%20they%20remain%20locked%20for%20a%20prolonged%20period%20of%20time.) if they're not unlocked after a period of time.
+아이폰은 일정 시간 동안 잠금 해제되지 않으면 [자동으로 재시동](https://support.apple.com/guide/security/protecting-user-data-in-the-face-of-attack-secf5549a4f5/1/web/1#:~:text=On%20an%20iPhone%20or%20iPad%20with%20iOS%2018%20and%20iPadOS%2018%20or%20later%2C%20a%20new%20security%20protection%20will%20restart%20devices%20if%20they%20remain%20locked%20for%20a%20prolonged%20period%20of%20time.)됩니다.
 
 ### MTE
 
-The iPhone 17 line and later offer a security enhancement called [Memory Tagging Extension](https://developer.arm.com/documentation/108035/0100/Introduction-to-the-Memory-Tagging-Extension) (MTE), which makes it significantly harder for an attacker to exploit memory corruption vulnerabilities. This always-on protection depends on hardware support, so it's not available for older devices.
+아이폰 17 라인업 이후 모델은 [메모리 태깅 확장](https://developer.arm.com/documentation/108035/0100/Introduction-to-the-Memory-Tagging-Extension)(MTE)이라는 보안 강화 기능을 제공하여, 공격자가 메모리 손상 취약점을 악용하기 훨씬 어렵게 만듭니다. 이 상시 보호 기능은 하드웨어 지원이 필요하므로 이전 기기에서는 사용할 수 없습니다.
 
-For more details on Apple's implementation of MTE, read the [blog post](https://security.apple.com/blog/memory-integrity-enforcement) published by Apple Security Research. We also cover Apple's implementation of MTE and how it compares to Android's implementation in the Google Pixel 8 series and later in our [own article](https://www.privacyguides.org/posts/2025/09/20/memory-integrity-enforcement-changes-the-game-on-ios).
+애플의 MTE 구현에 대한 자세한 내용은 애플 보안 연구팀이 게시한 [블로그 글](https://security.apple.com/blog/memory-integrity-enforcement)을 참고하세요. 프라이버시 가이드의 [자체 기사](https://www.privacyguides.org/posts/2025/09/20/memory-integrity-enforcement-changes-the-game-on-ios)에서도 애플의 MTE 구현과 구글 픽셀 8 시리즈 이후 모델의 안드로이드 구현을 비교하여 다루고 있습니다.

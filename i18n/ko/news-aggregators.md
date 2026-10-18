@@ -153,7 +153,7 @@ Some social media services also support RSS, although it's not often advertised.
 Reddit allows you to subscribe to Subreddits via RSS.
 
 <div class="admonition example" markdown>
-<p class="admonition-title">예시 (example)</p>
+<p class="admonition-title">예시</p>
 
 Replace `[SUBREDDIT]` with the Subreddit you wish to subscribe to.
 
@@ -168,7 +168,7 @@ https://reddit.com/r/[SUBREDDIT]/new/.rss
 You can subscribe to YouTube channels without logging in and associating usage information with your Google account.
 
 <div class="admonition example" markdown>
-<p class="admonition-title">예시 (example)</p>
+<p class="admonition-title">예시</p>
 
 RSS 클라이언트로 Youtube 채널을 구독하려면 [채널 코드](https://support.google.com/youtube/answer/6180214)를 확인해야 합니다. The channel code can be found in the expanded description (i.e., the "About" section) of the YouTube channel you wish to subscribe to: **About** → **Share channel** → **Copy channel ID**. Replace `[CHANNEL ID]` below:
 

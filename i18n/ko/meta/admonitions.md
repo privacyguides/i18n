@@ -50,7 +50,7 @@ ENCLOSED TEXT
 #### `note`
 
 <div class="admonition note" markdown>
-<p class="admonition-title">참고 (note)</p>
+<p class="admonition-title">참고</p>
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 
@@ -59,7 +59,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 #### `abstract`
 
 <div class="admonition abstract" markdown>
-<p class="admonition-title">요약 (abstract)</p>
+<p class="admonition-title">요약</p>
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 
@@ -68,7 +68,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 #### `info`
 
 <div class="admonition info" markdown>
-<p class="admonition-title">정보 (info)</p>
+<p class="admonition-title">정보</p>
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 
@@ -77,7 +77,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 #### `tip`
 
 <div class="admonition tip" markdown>
-<p class="admonition-title">팁 (tip)</p>
+<p class="admonition-title">팁</p>
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 
@@ -86,7 +86,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 #### `success`
 
 <div class="admonition success" markdown>
-<p class="admonition-title">성공 (success)</p>
+<p class="admonition-title">성공</p>
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 
@@ -95,7 +95,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 #### `question`
 
 <div class="admonition question" markdown>
-<p class="admonition-title">질문 (question)</p>
+<p class="admonition-title">질문</p>
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 
@@ -104,7 +104,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 #### `warning`
 
 <div class="admonition warning" markdown>
-<p class="admonition-title">경고 (warning)</p>
+<p class="admonition-title">경고</p>
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 
@@ -113,7 +113,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 #### `failure`
 
 <div class="admonition failure" markdown>
-<p class="admonition-title">실패 (failure)</p>
+<p class="admonition-title">실패</p>
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 
@@ -122,7 +122,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 #### `danger`
 
 <div class="admonition danger" markdown>
-<p class="admonition-title">위험 (danger)</p>
+<p class="admonition-title">위험</p>
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 
@@ -131,7 +131,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 #### `bug`
 
 <div class="admonition bug" markdown>
-<p class="admonition-title">버그 (bug)</p>
+<p class="admonition-title">버그</p>
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 
@@ -140,7 +140,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 #### `example`
 
 <div class="admonition example" markdown>
-<p class="admonition-title">예시 (example)</p>
+<p class="admonition-title">예시</p>
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 
@@ -149,7 +149,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 #### `quote`
 
 <div class="admonition quote" markdown>
-<p class="admonition-title">인용 (quote)</p>
+<p class="admonition-title">인용</p>
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 

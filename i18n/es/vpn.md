@@ -127,7 +127,7 @@ Hacemos notar esto porque, aunque no recomendamos necesariamente que no se compa
 
 #### :material-alert-outline:{ .pg-orange } Notas Adicionales
 
-Los clientes de Proton VPN soportan autenticación de doble factor en todas las plataformas. El cliente móvil en Android también está disponible en \[F-Droid\](https://f-droid.org/packages/net.mullvad.mullvadvpn), lo que garantiza que se compila con \[builds reproducibles\](https://www.f-droid.org/en/2019/05/05/trust-privacy-and-free-software.html). Ofrecen bloqueo de contenidos y bloqueo de malware conocido con su servicio DNS. Además, Proton VPN también ofrece servidores de "Tor" que te permiten conectarte con facilidad a los sitios onion, pero recomendamos encarecidamente usar [el navegador oficial de Tor](tor.md#tor-browser) para este propósito.
+Los clientes de Proton VPN soportan autenticación de doble factor en todas las plataformas. Proton VPN tiene sus propios servidores y centros de datos en Suiza, Islandia y Suecia. Ofrecen bloqueo de contenidos y bloqueo de malware conocido con su servicio DNS. Además, Proton VPN también ofrece servidores de "Tor" que te permiten conectarte con facilidad a los sitios onion, pero recomendamos encarecidamente usar [el navegador oficial de Tor](tor.md#tor-browser) para este propósito.
 
 ##### La función «kill switch» ofrece una protección deficiente en macOS
 
