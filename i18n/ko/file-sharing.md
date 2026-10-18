@@ -7,7 +7,7 @@ cover: file-sharing.webp
 
 <small>Protects against the following threat(s):</small>
 
-- [:material-server-network: 서비스 제공자/제공 업체(Service Providers)](basics/common-threats.md#privacy-from-service-providers ""){.pg-teal}
+- [:material-server-network: 서비스 제공업체](basics/common-threats.md#privacy-from-service-providers ""){.pg-teal}
 
 기기 간에, 친구 및 가족과, 혹은 익명으로 온라인 상에서 파일을 개인적으로 공유하는 방법을 알아보세요.
 

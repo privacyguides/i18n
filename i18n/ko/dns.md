@@ -11,7 +11,7 @@ global:
 
 <small>Protects against the following threat(s):</small>
 
-- [:material-account-cash: 감시 자본주의(Surveillance Capitalism)](basics/common-threats.md#surveillance-as-a-business-model ""){.pg-brown}
+- [:material-account-cash: 감시 자본주의](basics/common-threats.md#surveillance-as-a-business-model ""){.pg-brown}
 
 Encrypted **DNS** with third-party servers should only be used to get around basic [DNS blocking](https://en.wikipedia.org/wiki/DNS_blocking) when you can be sure there won't be any consequences. 암호화 DNS는 여러분의 브라우저 탐색 활동을 숨기는 데에 전혀 도움이 되지 않습니다.
 

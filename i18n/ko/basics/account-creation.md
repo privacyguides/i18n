@@ -1,85 +1,85 @@
 ---
-meta_title: "How to Create Internet Accounts Privately - Privacy Guides"
-title: "Account Creation"
+meta_title: "온라인 계정을 프라이버시를 지키며 만드는 방법 - 프라이버시 가이드"
+title: "계정 생성"
 icon: 'material/account-plus'
-description: Creating accounts online is practically an internet necessity, take these steps to make sure you stay private.
+description: 온라인 계정 생성은 사실상 인터넷 사용의 필수 요소입니다. 다음 단계를 따라 프라이버시를 지키세요.
 ---
 
-사람들은 별다른 생각 없이 서비스에 가입할 때가 많습니다. Maybe it's a streaming service to watch that new show everyone's talking about, or an account that gives you a discount for your favorite fast food place. 어떤 경우든, 현재 및 향후 여러분의 데이터에 미치는 영향을 고려해야 합니다.
+사람들은 별다른 생각 없이 서비스에 가입할 때가 많습니다. 모두가 이야기하는 새 드라마를 보기 위한 스트리밍 서비스일 수도 있고, 좋아하는 패스트푸드점에서 할인을 받을 수 있는 계정일 수도 있습니다. 어떤 경우든 지금과 앞으로 여러분의 데이터에 어떤 영향이 있을지 고려해야 합니다.
 
-새로 사용하는 모든 서비스에는 위험성이 뒤따릅니다. 어딘가에 정보를 제공할 때에는 데이터 유출, 제3자에게 고객 정보 공개, 불량 직원의 데이터 접근 등 다양한 가능성을 고려해야 합니다. 그러니 믿을만한, 즉 가장 성숙하고 실전에서 검증된 서비스 이외에는 여러분의 소중한 데이터를 저장하지 않을 것을 권장드립니다. 믿을 만한 서비스는 일반적으로 E2EE를 제공하고 암호화 감사를 거친 서비스를 의미합니다. 보안 감사는 미숙한 개발자에 의해 생겼을지도 모르는 확연한 보안 문제가 없게 제품이 설계되었음을 보장합니다.
+새로 사용하는 모든 서비스에는 위험이 따릅니다. 데이터 유출, 제3자에 대한 고객 정보 공개, 데이터에 접근하는 불량 직원 등은 모두 정보를 제공할 때 고려해야 할 가능성입니다. 서비스를 신뢰할 수 있다는 확신이 있어야 하며, 그렇기 때문에 가장 성숙하고 실전에서 검증된 제품이 아니라면 중요한 데이터를 저장하지 않을 것을 권장합니다. 이는 대개 E2EE를 제공하고 암호학적 감사를 거친 서비스를 의미합니다. 감사를 거치면 미숙한 개발자로 인한 명백한 보안 문제 없이 제품이 설계되었다는 확신이 높아집니다.
 
-일부 서비스의 경우, 계정 삭제가 쉽지 않을 수 있습니다. 계정 관련 데이터를 [덮어씌우는 것](account-deletion.md#overwriting-account-information)은 가능한 경우도 있지만, 서비스에서 계정 데이터의 변경 기록을 보관하는 경우도 있습니다.
+일부 서비스는 계정을 삭제하기 어려울 수도 있습니다. 계정과 연결된 [데이터를 덮어쓰는 것](account-deletion.md#overwriting-account-information)이 가능한 경우도 있지만, 서비스가 계정의 변경 내역 전체를 보관하는 경우도 있습니다.
 
-## 서비스 이용 약관 & 개인정보 보호 정책(프라이버시 정책)
+## 서비스 이용 약관 및 개인정보 처리방침 { #terms-of-service-privacy-policy }
 
-'이용 약관'은 여러분이 어떤 서비스를 이용할 때 동의해야 하는 규칙입니다. 대규모 서비스에서는 이용 약관 규칙을 자동화된 시스템과 운용하는 경우가 많습니다. 그리고 자동화 시스템에서는 간혹 실수가 발생하기도 합니다. For example, you may be banned or locked out of your account on some services for using a VPN or VoIP number. 이런 제한 조치에 대한 이의 제기는 어려운 경우가 많고 자동화된 과정을 거쳐야 하므로, 항상 성공적이진 않습니다. 이는 Privacy Guides에서 Gmail 이메일 서비스 사용을 권장드리지 않는 이유 중 하나이기도 합니다. 이메일은 여러분이 가입한 다른 서비스에 접근하기 위한 매우 중요한 역할을 맡고 있습니다.
+이용 약관(ToS)은 서비스를 이용할 때 따르기로 동의하는 규칙입니다. 대규모 서비스에서는 이러한 규칙이 자동화된 시스템에 의해 적용되는 경우가 많습니다. 이러한 자동화 시스템은 때때로 실수를 하기도 합니다. 예를 들어 일부 서비스에서는 VPN이나 VoIP 번호를 사용했다는 이유로 계정이 정지되거나 잠길 수 있습니다. 이런 정지 조치에 이의를 제기하기는 어려운 경우가 많고, 이 과정 역시 자동화되어 있어 항상 성공하는 것은 아닙니다. 이것이 예를 들어 이메일로 지메일 사용을 권장하지 않는 이유 중 하나입니다. 이메일은 여러분이 가입했을 수 있는 다른 서비스에 접근하는 데 매우 중요합니다.
 
-The Privacy Policy is how the service says they will use your data, and it is worth reading so that you understand how your data will be used. 회사/조직은 정책 내 모든 내용을 따르도록 법적으로 강제되지는 않을 수 있습니다(관할권에 따라 달라집니다). 제공 업체가 수집 가능한 데이터의 범위와 현지 법률을 어느 정도는 파악해 두는 것이 좋습니다.
+개인정보 처리방침은 서비스가 여러분의 데이터를 어떻게 사용할 것인지 밝힌 것으로, 데이터가 어떻게 사용될지 이해하기 위해 읽어 볼 가치가 있습니다. 회사나 조직은 정책에 포함된 모든 내용을 따를 법적 의무가 없을 수도 있습니다(관할권에 따라 다릅니다). 현지 법률이 어떠하며 제공업체가 무엇을 수집하도록 허용하는지 어느 정도 알아 두는 것을 권장합니다.
 
-살펴봐야 할 주요 용어는 '데이터 수집(Data Collection)', '데이터 분석(Data Analysis)', '쿠키(Cookies)', '광고(Ads)', '제3자/타사(3rd-Party)' 등이 있습니다. Sometimes you will be able to opt out from data collection or from sharing your data, but it is best to choose a service that respects your privacy from the start.
+"데이터 수집", "데이터 분석", "쿠키", "광고", "제3자" 서비스 같은 특정 용어를 찾아보는 것을 권장합니다. 데이터 수집이나 데이터 공유를 거부(옵트아웃)할 수 있는 경우도 있지만, 처음부터 프라이버시를 존중하는 서비스를 선택하는 것이 가장 좋습니다.
 
-또한, 여러분은 해당 서비스 회사/조직이 개인정보 처리 방침을 올바르게 준수할 것이라고 믿고 있을 뿐임을 명심해야 합니다.
+또한 해당 회사나 조직이 자체 개인정보 처리방침을 준수할 것이라고 신뢰하는 것이라는 점도 명심하세요.
 
-## 인증 방법
+## 인증 방법 { #authentication-methods }
 
 계정 가입 방법은 일반적으로 여러 가지가 있으며, 각각 장단점이 있습니다.
 
-### 이메일 주소와 비밀번호
+### 이메일 주소와 비밀번호 { #email-and-password }
 
-새로운 계정을 생성할 때는 이메일 주소와 비밀번호를 사용하는 것이 가장 일반적입니다. 이 경우, 비밀번호 관리자를 사용해야 하며 비밀번호 관련 [모범 사례](passwords-overview.md)를 따라야 합니다.
+새로운 계정을 생성할 때는 이메일 주소와 비밀번호를 사용하는 것이 가장 일반적입니다. 이 방법을 사용할 때는 비밀번호 관리자를 사용하고 비밀번호에 관한 [모범 사례](passwords-overview.md)를 따라야 합니다.
 
 <div class="admonition tip" markdown>
-<p class="admonition-title">Tip</p>
+<p class="admonition-title">팁</p>
 
-다른 인증 방법도 비밀번호 관리자에서 관리할 수 있습니다! 새 항목을 추가하고 적절한 필드를 채우면 보안 질문, 백업 키 등 관련 메모를 추가할 수 있습니다.
+비밀번호 관리자로 다른 인증 방법도 정리할 수 있습니다! 새 항목을 추가하고 해당 필드를 채우기만 하면 되며, 보안 질문이나 백업 키 같은 것은 메모로 추가할 수 있습니다.
 
 </div>
 
-로그인 자격 증명의 관리 책임은 자기 자신에게 있습니다. 보안을 강화하려면 계정에 [MFA](multi-factor-authentication.md)를 설정하세요.
+로그인 자격 증명은 여러분이 직접 관리해야 합니다. 보안을 강화하려면 계정에 [MFA](multi-factor-authentication.md)를 설정하세요.
 
-[권장 비밀번호 관리자](../passwords.md ""){.md-button}
+[추천 비밀번호 관리자](../passwords.md ""){.md-button}
 
-#### 이메일 별칭
+#### 이메일 별칭 { #email-aliases }
 
-실제 이메일 주소를 서비스에 노출하지 않고자 하는 경우 이메일 별칭을 사용할 수 있습니다. We describe them in more detail on our email services recommendation page. 이메일 별칭 서비스를 사용하면 주요 이메일 주소로 모든 이메일이 전달되는 새로운 이메일 주소를 만들 수 있습니다. This can help prevent tracking across services and help you manage the marketing emails that sometimes come with the sign-up process. 어떤 별칭으로 보내졌는지에 따라 자동으로 분류되기 때문입니다.
+실제 이메일 주소를 서비스에 제공하고 싶지 않다면 별칭을 사용할 수 있습니다. 이메일 서비스 추천 페이지에서 더 자세히 설명하고 있습니다. 기본적으로 별칭 서비스를 사용하면 모든 이메일을 주 이메일 주소로 전달하는 새 이메일 주소를 생성할 수 있습니다. 이를 통해 서비스 간 추적을 방지하고, 가입 과정에서 종종 따라오는 마케팅 이메일을 관리하는 데 도움이 됩니다. 이러한 이메일은 수신된 별칭을 기준으로 자동으로 필터링할 수 있습니다.
 
-서비스가 해킹당할 경우, 가입한 이메일 주소로 피싱/스팸 메일이 올 수 있습니다. 서비스마다 고유한 별칭을 사용하면 어떤 서비스가 해킹당했는지 식별 가능합니다.
+서비스가 해킹당하면 가입할 때 사용한 주소로 피싱이나 스팸 이메일이 오기 시작할 수 있습니다. 서비스마다 고유한 별칭을 사용하면 정확히 어떤 서비스가 해킹당했는지 파악하는 데 도움이 됩니다.
 
-[권장 이메일 별칭 서비스](../email-aliasing.md ""){.md-button}
+[추천 이메일 별칭 서비스](../email-aliasing.md ""){.md-button}
 
-### '~ (으)로 로그인' (OAuth)
+### "~(으)로 로그인" (OAuth) { #sign-in-with-oauth }
 
-[Open Authorization (OAuth)](https://en.wikipedia.org/wiki/OAuth) is an authentication protocol that allows you to register for a service without sharing much information with the service provider, if any, by using an existing account you have with another service instead. 가입 시에 '*제공 업체* (으)로 로그인' 문구로 표시되는 방식이 OAuth를 사용하는 것입니다.
+[개방형 인증(OAuth)](https://en.wikipedia.org/wiki/OAuth)은 다른 서비스에 이미 가지고 있는 계정을 대신 사용하여, 서비스 제공업체와 정보를 거의 또는 전혀 공유하지 않고 서비스에 가입할 수 있게 해 주는 인증 프로토콜입니다. 가입 양식에서 "*제공업체 이름*(으)로 로그인"과 같은 문구가 보인다면 대개 OAuth를 사용하는 것입니다.
 
-Oauth 로그인을 선택할 경우, OAuth 제공 업체의 로그인 페이지를 거쳐 계정이 연결됩니다. 여러분의 비밀번호는 공유되지 않지만, 보통 일부 기본 정보(로그인 과정에서 검토 가능합니다)는 공유됩니다. 이 과정은 해당 계정에 로그인할 때마다 필요합니다.
+OAuth로 로그인하면 선택한 제공업체의 로그인 페이지가 열리고, 기존 계정과 새 계정이 연결됩니다. 비밀번호는 공유되지 않지만, 일반적으로 일부 기본 정보는 공유됩니다(로그인 요청 시 검토할 수 있습니다). 이 과정은 해당 계정에 로그인할 때마다 필요합니다.
 
 주요 장점은 다음과 같습니다:
 
-- **Security**: You don't have to trust the security practices of the service you're logging into when it comes to storing your login credentials because they are stored with the external OAuth provider. Common OAuth providers like Apple and Google typically follow the best security practices, continuously audit their authentication systems, and don't store credentials inappropriately (such as in plain text).
-- **Ease-of-use**: Multiple accounts are managed by a single login.
+- **보안**: 로그인 자격 증명은 외부 OAuth 제공업체에 저장되므로, 로그인하려는 서비스의 자격 증명 저장 보안 관행을 신뢰하지 않아도 됩니다. 애플이나 구글 같은 일반적인 OAuth 제공업체는 대개 최고 수준의 보안 관행을 따르고, 인증 시스템을 지속적으로 감사하며, (평문 저장처럼) 부적절한 방식으로 자격 증명을 저장하지 않습니다.
+- **사용 편의성**: 하나의 로그인으로 여러 계정을 관리할 수 있습니다.
 
-단점은 다음과 같습니다:
+하지만 단점도 있습니다:
 
-- **Privacy**: The OAuth provider you log in with will know the services you use.
-- **Centralization**: If the account you use for OAuth is compromised, or you aren't able to log in to it, all other accounts connected to it are affected.
+- **프라이버시**: 로그인에 사용하는 OAuth 제공업체가 여러분이 사용하는 서비스를 알게 됩니다.
+- **중앙화**: OAuth에 사용하는 계정이 침해되거나 해당 계정에 로그인할 수 없게 되면, 연결된 다른 모든 계정도 영향을 받습니다.
 
-OAuth can be especially useful in those situations where you could benefit from deeper integration between services. 되도록 OAuth는 필요한 경우에만 사용하고, 주요 계정은 [MFA](multi-factor-authentication.md)로 보호할 것을 권장드립니다.
+OAuth는 서비스 간의 긴밀한 통합이 도움이 되는 상황에서 특히 유용할 수 있습니다. OAuth는 필요한 경우에만 제한적으로 사용하고, 주 계정은 항상 [MFA](multi-factor-authentication.md)로 보호할 것을 권장합니다.
 
-All the services that use OAuth will be as secure as your underlying OAuth provider's account. 예를 들어, 하드웨어 키를 사용해 계정을 보호하고 싶은데 해당 서비스는 하드웨어 키를 지원하지 않는 경우, OAuth 계정을 하드웨어 키로 보호하면 결과적으로 모든 계정을 하드웨어 키로 보호하는 효과를 얻습니다. 하지만 동시에, OAuth 계정 인증이 취약할 경우에는 해당 계정에 연결된 모든 계정의 인증 또한 취약해진다는 점을 명심해야합니다.
+OAuth를 사용하는 모든 서비스의 보안 수준은 기반이 되는 OAuth 제공업체 계정의 보안 수준과 같습니다. 예를 들어 하드웨어 키로 계정을 보호하고 싶은데 해당 서비스가 하드웨어 키를 지원하지 않는다면, 대신 OAuth에 사용하는 계정을 하드웨어 키로 보호할 수 있으며, 그러면 사실상 모든 계정에 하드웨어 MFA를 적용한 셈이 됩니다. 다만 OAuth 제공업체 계정의 인증이 약하면 해당 로그인에 연결된 모든 계정도 취약해진다는 점에 유의해야 합니다.
 
-There is an additional danger when using *Sign in with Google*, *Facebook*, or another service, which is that typically the OAuth process allows for *bidirectional* data sharing. For example, logging in to a forum with your Twitter account could grant that forum access to do things on your Twitter account such as post, read your messages, or access other personal data. OAuth providers will typically present you with a list of things you are granting the external service access to, and you should always ensure that you read through that list and don't inadvertently grant the external service access to anything it doesn't require.
+*구글로 로그인*, *페이스북* 등의 서비스를 사용할 때는 추가적인 위험이 있는데, 일반적으로 OAuth 과정에서 *양방향* 데이터 공유가 허용된다는 점입니다. 예를 들어 트위터 계정으로 포럼에 로그인하면, 해당 포럼이 트위터 계정에서 게시물 작성, 메시지 읽기, 기타 개인 데이터 접근 같은 작업을 할 수 있는 권한을 얻을 수 있습니다. OAuth 제공업체는 일반적으로 외부 서비스에 부여하는 권한 목록을 보여 주므로, 항상 이 목록을 꼼꼼히 읽고 외부 서비스에 필요하지 않은 권한을 실수로 부여하지 않도록 해야 합니다.
 
-Malicious applications, particularly on mobile devices where the application has access to the WebView session used for logging in to the OAuth provider, can also abuse this process by hijacking your session with the OAuth provider and gaining access to your OAuth account through those means. Using the *Sign in with* option with any provider should usually be considered a matter of convenience that you only use with services you trust to not be actively malicious.
+악성 애플리케이션, 특히 OAuth 제공업체 로그인에 사용되는 웹뷰 세션에 앱이 접근할 수 있는 모바일 기기에서는 OAuth 제공업체와의 세션을 가로채 OAuth 계정에 접근하는 방식으로 이 과정을 악용할 수도 있습니다. 어떤 제공업체든 *~(으)로 로그인* 옵션은 일반적으로 편의를 위한 기능으로 간주해야 하며, 적극적으로 악의적이지 않다고 신뢰할 수 있는 서비스에서만 사용해야 합니다.
 
-### 전화번호
+### 전화번호 { #phone-number }
 
-전화번호 입력이 필수적인 서비스를 가입하는 것은 피하는 것이 좋습니다. A phone number can identify you across multiple services and depending on data sharing agreements this will make your usage easier to track, particularly if one of those services is breached as the phone number is often **not** encrypted.
+가입할 때 전화번호를 요구하는 서비스는 피하는 것을 권장합니다. 전화번호는 여러 서비스에 걸쳐 여러분을 식별할 수 있으며, 데이터 공유 계약에 따라 이용 내역을 추적하기 더 쉬워집니다. 전화번호는 암호화되지 **않는** 경우가 많으므로, 그중 한 서비스에서 유출이 발생하면 특히 그렇습니다.
 
-가능하다면, 실제 전화번호를 제공하지 않는 것이 좋습니다. Some services will allow the use of VoIP numbers, however these often trigger fraud detection systems, causing an account to be locked down, so we don't recommend that for important accounts.
+가능하다면 실제 전화번호를 제공하지 않는 것이 좋습니다. 일부 서비스는 VoIP 번호 사용을 허용하지만, 이런 번호는 사기 탐지 시스템을 작동시켜 계정이 잠기는 경우가 많으므로 중요한 계정에는 권장하지 않습니다.
 
-대부분의 경우, 문자나 전화를 실제로 받을 수 있는 번호를 제공해야 합니다. 대표적으로 해외 직구 시에는 세관에서 문제가 발생할 경우를 대비해야 합니다. 서비스에서는 전화번호가 인증 수단의 역할을 하는 것이 일반적이니, 교묘하게 가짜 번호를 입력했다가 중요 계정이 차단되는 일이 없도록 주의하세요!
+많은 경우 SMS나 전화를 받을 수 있는 번호를 제공해야 하며, 특히 해외 쇼핑 시 통관 검사에서 주문에 문제가 생길 경우를 대비해야 합니다. 서비스에서 전화번호를 인증 수단으로 사용하는 것은 흔한 일이니, 머리를 써서 가짜 번호를 입력했다가 중요한 계정에서 잠기는 일이 없도록 하세요!
 
-### 사용자 이름과 비밀번호
+### 사용자 이름과 비밀번호 { #username-and-password }
 
-일부 서비스는 이메일 주소도 사용하지 않고 사용자 이름과 비밀번호만으로 가입할 수 있습니다. 이러한 서비스는 VPN이나 Tor를 함께 사용하면 익명성이 더욱 강화됩니다. 단, 이런 계정은 사용자 이름이나 비밀번호를 잊어버리면 **계정을 복구할 방법이 없을** 가능성이 높습니다.
+일부 서비스는 이메일 주소도 사용하지 않고 사용자 이름과 비밀번호만으로 가입할 수 있습니다. 이러한 서비스는 VPN이나 토르와 함께 사용하면 익명성을 높일 수 있습니다. 단, 이런 계정은 사용자 이름이나 비밀번호를 잊어버리면 **계정을 복구할 방법이 없을** 가능성이 높습니다.

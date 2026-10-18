@@ -21,7 +21,7 @@ schema:
     operatingSystem:
       - Windows
       - macOS
-      - Linux
+      - '리눅스 { #linux }'
     subjectOf:
       "@type": WebPage
       url: "./"
@@ -36,7 +36,7 @@ schema:
     operatingSystem:
       - Windows
       - macOS
-      - Linux
+      - '리눅스 { #linux }'
     subjectOf:
       "@type": WebPage
       url: "./"
@@ -51,7 +51,7 @@ schema:
     operatingSystem:
       - Windows
       - macOS
-      - Linux
+      - '리눅스 { #linux }'
     subjectOf:
       "@type": WebPage
       url: "./"
@@ -59,7 +59,7 @@ schema:
 
 <small>다음 위협으로부터 보호합니다:</small>
 
-- [:material-account-cash: 감시 자본주의(Surveillance Capitalism)](basics/common-threats.md#surveillance-as-a-business-model ""){.pg-brown}
+- [:material-account-cash: 감시 자본주의](basics/common-threats.md#surveillance-as-a-business-model ""){.pg-brown}
 
 다음은 표준/비익명 브라우징을 위해 현재 권장하는 **데스크톱 웹 브라우저** 및 설정입니다. 강력한 프라이버시 보호 및 핑거프린팅 방지가 기본 제공되는 브라우저를 원하신다면 [Mullvad Browser](#mullvad-browser)를, 평범한 인터넷 브라우저 중 Google Chrome의 적절한 대체제를 원하신다면 [Firefox](#firefox)를, Chromium 브라우저 호환성이 필요하시다면 [Brave](#brave)를 추천드립니다.
 

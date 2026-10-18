@@ -1,120 +1,120 @@
 ---
-meta_title: "How Do VPNs Protect Your Privacy? Our VPN Overview - Privacy Guides"
+meta_title: "VPN은 어떻게 프라이버시를 보호할까요? VPN 개요 - 프라이버시 가이드"
 title: VPN 개요
 icon: 자료/Vpn
-description: Virtual Private Networks shift risk away from your ISP to a third-party you trust. 이러한 사항을 염두해 두셔야 합니다.
+description: 가상 사설망(VPN)은 위험을 ISP에서 여러분이 신뢰하는 제3자에게로 옮깁니다. 다음 사항을 염두에 두어야 합니다.
 ---
 
-Virtual Private Networks are a way of extending the end of your network to exit somewhere else in the world.
+가상 사설망(VPN)은 네트워크의 끝단을 확장하여 세계 다른 곳에서 인터넷으로 나가도록 하는 방법입니다.
 
-[:material-movie-open-play-outline: Video: Do you need a VPN?](https://www.privacyguides.org/videos/2024/12/12/do-you-need-a-vpn ""){.md-button}
+[:material-movie-open-play-outline: 동영상: VPN이 필요할까요?](https://www.privacyguides.org/videos/2024/12/12/do-you-need-a-vpn ""){.md-button}
 
-Normally, an ISP can see the flow of internet traffic entering and exiting your network termination device (i.e. modem). Encryption protocols such as HTTPS are commonly used on the internet, so they may not be able to see exactly what you're posting or reading, but they can get an idea of the [domains you request](../advanced/dns-overview.md#why-shouldnt-i-use-encrypted-dns).
+일반적으로 ISP는 네트워크 종단 장치(즉, 모뎀)로 들어오고 나가는 인터넷 트래픽의 흐름을 볼 수 있습니다. 인터넷에서는 HTTPS 같은 암호화 프로토콜이 널리 사용되므로 ISP가 여러분이 무엇을 게시하거나 읽는지 정확히 볼 수는 없겠지만, 여러분이 [요청하는 도메인](../advanced/dns-overview.md#why-shouldnt-i-use-encrypted-dns)은 파악할 수 있습니다.
 
-Using a VPN hides even this information from your ISP, by shifting the trust you place in your network to a server somewhere else in the world. As a result, the ISP then only sees that you are connected to a VPN and nothing about the activity that you're passing through it.
+VPN을 사용하면 네트워크에 두던 신뢰를 세계 다른 곳의 서버로 옮김으로써 이러한 정보조차 ISP로부터 숨길 수 있습니다. 그 결과 ISP는 여러분이 VPN에 연결되어 있다는 사실만 알 수 있을 뿐, VPN을 통해 오가는 활동에 대해서는 아무것도 알 수 없습니다.
 
 <div class="admonition note" markdown>
-<p class="admonition-title">Note</p>
+<p class="admonition-title">참고</p>
 
-When we refer to "Virtual Private Networks" on this website, we are usually referring to **commercial** [VPN providers](../vpn.md), who you pay a monthly fee to in exchange for routing your internet traffic securely through their public servers. There are many other forms of VPN, such as ones you host yourself or ones operated by workplaces which allow you to securely connect to internal/employee network resources, however, these VPNs are usually designed for accessing remote networks securely, rather than protecting the privacy of your internet connection.
+이 웹사이트에서 "가상 사설망(VPN)"이라고 할 때는 보통 매월 요금을 받고 자사 공용 서버를 통해 인터넷 트래픽을 안전하게 라우팅해 주는 **상업용** [VPN 제공업체](../vpn.md)를 가리킵니다. 직접 호스팅하는 VPN이나 직장에서 운영하여 내부/직원용 네트워크 자원에 안전하게 접속할 수 있게 해 주는 VPN 등 다른 형태의 VPN도 많지만, 이러한 VPN은 보통 인터넷 연결의 프라이버시 보호보다는 원격 네트워크에 안전하게 접속하기 위해 설계된 것입니다.
 
 </div>
 
-## VPN은 어떻게 작동하나요?
+## VPN은 어떻게 작동하나요? { #how-does-a-vpn-work }
 
-VPNs encrypt your traffic between your device and a server owned by your VPN provider. From the perspective of anyone between you and the VPN server, it looks like you're connecting to the VPN server. From the perspective of anyone between the VPN server and your destination site, all they can see is the VPN server connecting to the website.
+VPN은 여러분의 기기와 VPN 제공업체가 소유한 서버 사이의 트래픽을 암호화합니다. 여러분과 VPN 서버 사이에 있는 누군가의 관점에서는 여러분이 VPN 서버에 연결하는 것처럼 보입니다. VPN 서버와 목적지 사이트 사이에 있는 누군가의 관점에서는 VPN 서버가 해당 웹사이트에 연결하는 것만 보입니다.
 
 ``` mermaid
 flowchart LR
- 763931["Your Device<div>(with VPN Client)</div>"] ===|"VPN Encryption"| 404512{"VPN Server"}
- 404512 -.-|"No VPN Encryption"| 593753(("The Internet<div>(Your Destination)</div>"))
- subgraph 763931["Your Device<div>(with VPN Client)</div>"]
+ 763931["사용자 기기<div>(VPN 클라이언트 사용)</div>"] ===|"VPN 암호화"| 404512{"VPN 서버"}
+ 404512 -.-|"VPN 암호화 없음"| 593753(("인터넷<div>(목적지)</div>"))
+ subgraph 763931["사용자 기기<div>(VPN 클라이언트 사용)</div>"]
  end
 ```
 
-Note that a VPN does not add any security or encryption to your traffic between the VPN server and your destination on the internet. To access a website securely you **must** still ensure HTTPS is in use regardless of whether you use a VPN.
+VPN은 VPN 서버와 인터넷상의 목적지 사이의 트래픽에는 어떠한 보안이나 암호화도 추가하지 않는다는 점에 유의하세요. 웹사이트에 안전하게 접속하려면 VPN 사용 여부와 관계없이 **반드시** HTTPS가 사용되고 있는지 확인해야 합니다.
 
-## VPN을 사용해야 하나요?
+## VPN을 사용해야 하나요? { #should-i-use-a-vpn }
 
-**Yes**, almost certainly. The advantages of a VPN include:
-1. Hiding your traffic from **only** your Internet Service Provider.
-1. Hiding your IP from third-party websites and services, preventing IP based tracking.
-1. Allowing you to bypass geo-restrictions on certain content.
+거의 확실히 **그렇습니다**. VPN의 장점은 다음과 같습니다:
+1. 트래픽을 **오직** 인터넷 서비스 제공업체(ISP)로부터만 숨깁니다.
+1. 제3자 웹사이트와 서비스로부터 IP를 숨겨 IP 기반 추적을 방지합니다.
+1. 특정 콘텐츠의 지역 제한을 우회할 수 있습니다.
 
-VPNs can provide *some* of the same benefits Tor provides, such as hiding your IP from the websites you visit and geographically shifting your network traffic, and good VPN providers will not cooperate with e.g. legal authorities from oppressive regimes, especially if you choose a VPN provider outside your own jurisdiction.
+VPN은 방문하는 웹사이트로부터 IP를 숨기고 네트워크 트래픽을 지리적으로 다른 곳으로 옮기는 등 토르가 제공하는 이점 중 *일부*를 제공할 수 있습니다. 또한 좋은 VPN 제공업체는 억압적인 정권의 사법 당국 등에 협조하지 않으며, 자신이 속한 관할권 밖의 VPN 제공업체를 선택하면 더욱 그렇습니다.
 
-VPNs cannot encrypt data outside the connection between your device and the VPN server. VPN providers can also see and modify your traffic the same way your ISP could, so there is still a level of trust you are placing in them. And there is no way to verify a VPN provider's "no logging" policies in any way.
+VPN은 기기와 VPN 서버 간 연결 바깥의 데이터는 암호화할 수 없습니다. 또한 VPN 제공업체도 ISP와 마찬가지로 여러분의 트래픽을 보고 수정할 수 있으므로, 여전히 VPN 제공업체를 어느 정도 신뢰해야 합니다. 게다가 VPN 제공업체의 "로그 미보관" 정책을 검증할 방법은 전혀 없습니다.
 
-## When isn't a VPN suitable?
+## VPN이 적합하지 않은 경우는 언제인가요? { #when-isnt-a-vpn-suitable }
 
-Using a VPN in cases where you're using your [real-life or well-known identity](common-misconceptions.md#complicated-is-better) online is unlikely to be useful. Doing so may trigger spam and fraud detection systems, such as if you were to log into your bank's website.
+온라인에서 [실명이나 널리 알려진 신원](common-misconceptions.md#complicated-is-better)을 사용하는 경우에는 VPN을 사용해도 별 도움이 되지 않습니다. 오히려 은행 웹사이트에 로그인할 때처럼 스팸 및 사기 탐지 시스템이 작동할 수 있습니다.
 
-It's important to remember that a VPN will not provide you with absolute anonymity because the VPN provider itself will still have access to your real IP address, destination website information, and often a money trail that can be linked directly back to you. "No logging" policies are merely a promise; if you need complete safety from the network itself, consider using [Tor](../advanced/tor-overview.md) in addition to or instead of a VPN.
+VPN 제공업체는 여전히 여러분의 실제 IP 주소, 목적지 웹사이트 정보, 그리고 여러분과 직접 연결될 수 있는 결제 기록까지 알 수 있는 경우가 많으므로, VPN이 절대적인 익명성을 제공하지는 않는다는 점을 기억해야 합니다. "로그 미보관" 정책은 약속에 불과합니다. 네트워크 자체로부터 완전한 안전이 필요하다면 VPN과 함께, 또는 VPN 대신 [토르](../advanced/tor-overview.md)를 사용하는 것을 고려하세요.
 
-You also should not trust a VPN to secure your connection to an unencrypted, HTTP destination. In order to keep what you actually do on the websites you visit private and secure, you must use HTTPS. This will keep your passwords, session tokens, and queries safe from the VPN provider and other potential adversaries in between the VPN server and your destination. You should enable HTTPS-only mode in your browser (if it's supported) to mitigate attacks which try to downgrade your connection from HTTPS to HTTP.
+또한 암호화되지 않은 HTTP 목적지와의 연결을 VPN이 보호해 줄 것이라고 믿어서는 안 됩니다. 방문하는 웹사이트에서 실제로 하는 활동을 비공개로 안전하게 유지하려면 반드시 HTTPS를 사용해야 합니다. 그래야 비밀번호, 세션 토큰, 쿼리를 VPN 제공업체 및 VPN 서버와 목적지 사이에 있는 잠재적 공격자로부터 안전하게 지킬 수 있습니다. 연결을 HTTPS에서 HTTP로 다운그레이드하려는 공격을 완화하려면 브라우저에서 (지원되는 경우) HTTPS 전용 모드를 활성화해야 합니다.
 
-## Should I use encrypted DNS with a VPN?
+## VPN과 함께 암호화된 DNS를 사용해야 하나요? { #should-i-use-encrypted-dns-with-a-vpn }
 
-Unless your VPN provider hosts the encrypted DNS servers themselves, **probably not**. Using DOH/DOT (or any other form of encrypted DNS) with third-party servers will simply add more entities to trust. Your VPN provider can still see which websites you visit based on the IP addresses and other methods. All this being said, there may be some advantages to enabling encrypted DNS in order to enable other security features in your browser, such as ECH. Browser technologies which are reliant on in-browser encrypted DNS are relatively new and not yet widespread, so whether they are relevant to you in particular is an exercise we will leave to you to research independently.
+VPN 제공업체가 직접 암호화된 DNS 서버를 호스팅하는 경우가 아니라면 **아마 그럴 필요는 없을 겁니다**. 제3자 서버로 DOH/DOT(또는 다른 형태의 암호화된 DNS)를 사용하면 신뢰해야 할 주체만 늘어날 뿐입니다. VPN 제공업체는 여전히 IP 주소 등의 방법으로 여러분이 어떤 웹사이트를 방문하는지 알 수 있습니다. 그렇긴 하지만, ECH 같은 브라우저의 다른 보안 기능을 사용하기 위해 암호화된 DNS를 활성화하는 데에는 어느 정도 이점이 있을 수 있습니다. 브라우저 내 암호화된 DNS에 의존하는 브라우저 기술은 비교적 새롭고 아직 널리 보급되지 않았으므로, 이러한 기술이 여러분에게 해당되는지는 직접 조사해 보시기 바랍니다.
 
-Another common reason encrypted DNS is recommended is that it prevents DNS manipulation attacks. However, your browser should already be checking for [TLS certificates](https://en.wikipedia.org/wiki/Transport_Layer_Security#Digital_certificates) with **HTTPS** and warn you about it. If you are not using **HTTPS**, then an adversary can still just modify anything other than your DNS queries and the end result will be little different.
+암호화된 DNS가 권장되는 또 다른 흔한 이유는 DNS 조작 공격을 방지한다는 것입니다. 하지만 브라우저는 이미 **HTTPS**를 통해 [TLS 인증서](https://en.wikipedia.org/wiki/Transport_Layer_Security#Digital_certificates)를 확인하고 문제가 있으면 경고해야 합니다. **HTTPS**를 사용하지 않는다면 공격자는 DNS 쿼리 외의 다른 모든 것을 그대로 수정할 수 있으므로, 최종 결과는 별반 다르지 않습니다.
 
-## Tor를 사용할 때에도 VPN을 사용해야 하나요?
+## 토르*와* VPN을 함께 사용해야 하나요? { #should-i-use-tor-and-a-vpn }
 
-Maybe, Tor is not necessarily suitable for everybody in the first place. Consider your [threat model](threat-modeling.md), because if your adversary is not capable of extracting information from your VPN provider, using a VPN alone may provide enough protection.
+경우에 따라 다릅니다. 애초에 토르가 모든 사람에게 적합한 것은 아닙니다. 여러분의 [위협 모델](threat-modeling.md)을 고려하세요. 공격자가 VPN 제공업체로부터 정보를 빼낼 능력이 없다면 VPN만으로도 충분히 보호될 수 있습니다.
 
-If you do use Tor then you are *probably* best off connecting to the Tor network via a commercial VPN provider. However, this is a complex subject which we've written more about on our [Tor overview](../advanced/tor-overview.md) page.
+토르를 사용한다면 상업용 VPN 제공업체를 통해 토르 네트워크에 연결하는 것이 *아마도* 가장 좋습니다. 다만 이는 복잡한 주제이므로 [토르 개요](../advanced/tor-overview.md) 페이지에서 자세히 다루고 있습니다.
 
-## Should I access Tor through VPN providers that provide "Tor nodes"?
+## "토르 노드"를 제공하는 VPN 제공업체를 통해 토르에 접속해야 하나요? { #should-i-access-tor-through-vpn-providers-that-provide-tor-nodes }
 
-You should not use that feature: The primary advantage of using Tor is that you do not trust your VPN provider, which is negated when you use Tor nodes hosted by your VPN instead of connecting directly to Tor from your computer.
+그 기능은 사용하지 않는 것이 좋습니다. 토르를 사용하는 가장 큰 이점은 VPN 제공업체를 신뢰하지 않아도 된다는 것인데, 컴퓨터에서 토르에 직접 연결하는 대신 VPN이 호스팅하는 토르 노드를 사용하면 이 이점이 사라집니다.
 
-Currently, Tor only supports the TCP protocol. UDP (used by [WebRTC](https://en.wikipedia.org/wiki/WebRTC), [HTTP3/QUIC](https://en.wikipedia.org/wiki/HTTP/3), and other protocols), [ICMP](https://en.wikipedia.org/wiki/Internet_Control_Message_Protocol), and other packets will be dropped. To compensate for this, VPN providers typically will route all non-TCP packets through their VPN server (your first hop). This is the case with [ProtonVPN](https://protonvpn.com/support/tor-vpn). Additionally, when using this Tor over VPN setup, you do not have control over other important Tor features such as [Isolated Destination Address](https://whonix.org/wiki/Stream_Isolation) (using a different Tor circuit for every domain you visit).
+현재 토르는 TCP 프로토콜만 지원합니다. UDP([WebRTC](https://en.wikipedia.org/wiki/WebRTC), [HTTP3/QUIC](https://en.wikipedia.org/wiki/HTTP/3) 등의 프로토콜에서 사용), [ICMP](https://en.wikipedia.org/wiki/Internet_Control_Message_Protocol) 등의 패킷은 버려집니다. 이를 보완하기 위해 VPN 제공업체는 보통 TCP가 아닌 모든 패킷을 자사 VPN 서버(첫 번째 홉)를 통해 라우팅합니다. [프로톤 VPN](https://protonvpn.com/support/tor-vpn)이 이러한 방식을 사용합니다. 또한 이처럼 VPN을 거쳐 토르를 사용하는 구성에서는 [목적지 주소 격리](https://whonix.org/wiki/Stream_Isolation)(방문하는 도메인마다 서로 다른 토르 회로를 사용하는 기능) 같은 토르의 다른 중요한 기능을 제어할 수 없습니다.
 
-The feature should be viewed as a *convenient* way to access hidden services on Tor, not to stay anonymous. For proper anonymity, use the actual [Tor Browser](../tor.md).
+이 기능은 익명성을 유지하는 수단이 아니라 토르의 히든 서비스에 접속하는 *편리한* 방법 정도로 봐야 합니다. 제대로 된 익명성을 원한다면 실제 [토르 브라우저](../tor.md)를 사용하세요.
 
-## Commercial VPN Ownership
+## 상업용 VPN의 소유 구조 { #commercial-vpn-ownership }
 
-Most VPN services are owned by the same [few companies](https://vpnpro.com/blog/hidden-vpn-owners-unveiled-97-vpns-23-companies). These shady companies run lots of smaller VPN services to create the illusion that you have more choice than you actually do and to maximize profit. Typically, these providers that feed into their shell company have terrible privacy policies and shouldn't be trusted with your internet traffic. You should be very strict about which provider you decide to use.
+대부분의 VPN 서비스는 [소수의 동일한 회사들](https://vpnpro.com/blog/hidden-vpn-owners-unveiled-97-vpns-23-companies)이 소유하고 있습니다. 이 수상한 회사들은 실제보다 선택지가 많은 것처럼 착각하게 만들고 수익을 극대화하기 위해 여러 소규모 VPN 서비스를 운영합니다. 일반적으로 이렇게 페이퍼 컴퍼니로 수익이 흘러 들어가는 제공업체들은 개인정보 처리방침이 형편없으므로 인터넷 트래픽을 맡겨서는 안 됩니다. 어떤 제공업체를 사용할지는 매우 엄격하게 판단해야 합니다.
 
-You should also be wary that many VPN review sites are merely advertising vehicles open to the highest bidder. ==Privacy Guides does not make money from recommending external products, and never uses affiliate programs.==
+또한 많은 VPN 리뷰 사이트가 가장 높은 금액을 제시하는 업체를 위한 광고 수단에 불과하다는 점도 경계해야 합니다. ==프라이버시 가이드는 외부 제품을 추천하여 수익을 얻지 않으며, 제휴 프로그램을 절대 사용하지 않습니다.==
 
-[Our VPN Recommendations](../vpn.md ""){.md-button}
+[프라이버시 가이드의 VPN 추천](../vpn.md ""){.md-button}
 
-## Modern VPN Alternatives
+## 최신 VPN 대안 { #modern-vpn-alternatives }
 
-Recently, some attempts have been made by various organizations to address some issues which centralized VPNs have. These technologies are relatively new, but worth keeping an eye on as the field develops.
+최근 여러 조직에서 중앙화된 VPN의 몇 가지 문제를 해결하려는 시도를 하고 있습니다. 이러한 기술은 비교적 새롭지만, 분야가 발전하는 만큼 지켜볼 만한 가치가 있습니다.
 
-### Multi-Party Relays
+### 다자간 릴레이 { #multi-party-relays }
 
-Multi-Party Relays (MPRs) use multiple nodes owned by different parties, such that no individual party knows both who you are and what you're connecting to. This is the basic idea behind Tor, but now there are some paid services that try to emulate this model.
+다자간 릴레이(MPR)는 서로 다른 주체가 소유한 여러 노드를 사용하여, 어떤 주체도 여러분이 누구인지와 어디에 연결하는지를 동시에 알 수 없도록 합니다. 이는 토르의 기본 개념이기도 한데, 이제는 이 모델을 모방하려는 유료 서비스도 일부 있습니다.
 
-MPRs seek to solve a problem inherent to VPNs: the fact that you must trust them completely. They accomplish this goal by segmenting the responsibilities between two or more different companies.
+MPR은 VPN에 내재된 문제, 즉 VPN을 완전히 신뢰해야 한다는 문제를 해결하고자 합니다. 이를 위해 MPR은 둘 이상의 서로 다른 회사에 역할을 나눕니다.
 
-One example of a commercially available MPR is Apple's iCloud+ Private Relay, which routes your traffic through two servers:
+상용 MPR의 한 예로 애플의 아이클라우드+ 비공개 릴레이가 있으며, 이 서비스는 트래픽을 두 개의 서버를 거쳐 라우팅합니다:
 
-1. Firstly, a server operated by Apple.
+1. 첫 번째는 애플이 운영하는 서버입니다.
 
-    This server is able to see your device's IP when you connect to it, and has knowledge of your payment information and Apple ID tied to your iCloud subscription. However, it is unable to see what website you are connecting to.
+    이 서버는 여러분이 연결할 때 기기의 IP를 볼 수 있으며, 아이클라우드 구독에 연결된 결제 정보와 애플 ID도 알고 있습니다. 하지만 여러분이 어떤 웹사이트에 연결하는지는 볼 수 없습니다.
 
-2. Secondly, a server operated by a partner CDN, such as Cloudflare or Fastly.
+2. 두 번째는 클라우드플레어나 패스틀리 같은 파트너 CDN이 운영하는 서버입니다.
 
-    This server actually makes the connection to your destination website, but has no knowledge of your device. The only IP address it knows about is Apple's server's.
+    이 서버는 실제로 목적지 웹사이트에 연결하지만, 여러분의 기기에 대해서는 알지 못합니다. 이 서버가 아는 IP 주소는 애플 서버의 IP 주소뿐입니다.
 
-Other MPRs run by different companies operate in a very similar manner. This protection by segmentation only exists if you trust the two companies to not collude with each other to deanonymize you.
+다른 회사들이 운영하는 MPR도 이와 매우 비슷한 방식으로 작동합니다. 이러한 분리를 통한 보호는 두 회사가 서로 공모하여 여러분의 익명성을 해제하지 않을 것이라고 신뢰할 때만 유효합니다.
 
-### Decentralized VPNs
+### 탈중앙화 VPN { #decentralized-vpns }
 
-Another attempt at solving the issues with centralized VPN services are dVPNs. These are based on blockchain technology and claim to eliminate trust in a single party by distributing the nodes across lots of different people. However, many times a dVPN will default to a single node, meaning you need to trust that node completely, just like a traditional VPN. Unlike a traditional VPN, this one node that can see all your traffic is a random person instead of your VPN provider that can be audited and has legal responsibilities to uphold their privacy policy. Multi-hop is needed to solve this, but that comes with a stability and performance cost.
+중앙화된 VPN 서비스의 문제를 해결하려는 또 다른 시도로 dVPN이 있습니다. dVPN은 블록체인 기술을 기반으로 하며, 노드를 수많은 사람들에게 분산함으로써 단일 주체에 대한 신뢰를 없앤다고 주장합니다. 하지만 dVPN은 기본적으로 단일 노드를 사용하는 경우가 많아, 기존 VPN과 마찬가지로 해당 노드를 완전히 신뢰해야 합니다. 기존 VPN과 달리, 여러분의 모든 트래픽을 볼 수 있는 이 단일 노드는 감사를 받을 수 있고 개인정보 처리방침을 준수할 법적 책임이 있는 VPN 제공업체가 아니라 임의의 개인입니다. 이를 해결하려면 멀티홉이 필요하지만, 그 대가로 안정성과 성능이 떨어집니다.
 
-Another consideration is legal liability. The exit node will need to deal with legal problems from misuse of the network, an issue that the Tor network has contended with for its entire existence. This discourages regular people from running nodes and makes it more attractive for a malicious actor with lots of resources to host one. This is a big problem if the service is single-node, as the potentially malicious exit node can see who you are and what you're connecting to.
+법적 책임도 고려해야 할 사항입니다. 출구 노드는 네트워크 악용으로 인한 법적 문제를 감당해야 하는데, 이는 토르 네트워크가 존재해 온 내내 씨름해 온 문제입니다. 이 때문에 일반인은 노드 운영을 꺼리게 되고, 자원이 풍부한 악의적인 행위자에게는 노드를 호스팅하는 것이 더욱 매력적으로 다가옵니다. 서비스가 단일 노드 방식이라면 잠재적으로 악의적인 출구 노드가 여러분이 누구인지와 어디에 연결하는지를 모두 볼 수 있으므로 큰 문제가 됩니다.
 
-Many dVPNs are used to push a cryptocurrency rather than to make the best service. They also tend to be smaller networks with fewer nodes, making them more vulnerable to [Sybil attacks](https://en.wikipedia.org/wiki/Sybil_attack).
+많은 dVPN은 최고의 서비스를 만들기보다는 암호화폐를 홍보하는 데 이용됩니다. 또한 노드 수가 적은 소규모 네트워크인 경우가 많아 [시빌 공격](https://en.wikipedia.org/wiki/Sybil_attack)에 더 취약합니다.
 
-## VPN 관련 추가 정보
+## VPN 관련 정보 { #related-vpn-information }
 
-- [(영문) VPN 및 프라이버시 리뷰 사이트의 문제점](https://blog.privacyguides.org/2019/11/20/the-trouble-with-vpn-and-privacy-review-sites)
-- [(영문) 무료 VPN 앱 조사 내용](https://top10vpn.com/research/free-vpn-investigations/ownership)
-- [(영문) 드러나지 않았던 VPN 운영의 실체: 단 23개의 회사가 101개 VPN 제품을 운영하고 있습니다](https://vpnpro.com/blog/hidden-vpn-owners-unveiled-97-vpns-23-companies)
-- [(영문) 인기 앱 24개에 파고들어 위험한 권한을 요구하고 있는 어떤 중국 회사](https://vpnpro.com/blog/chinese-company-secretly-behind-popular-apps-seeking-dangerous-permissions)
-- [VPN - a Very Precarious Narrative](https://overengineer.dev/blog/2019/04/08/very-precarious-narrative.html) by Dennis Schubert
+- [VPN 및 프라이버시 리뷰 사이트의 문제점](https://blog.privacyguides.org/2019/11/20/the-trouble-with-vpn-and-privacy-review-sites)
+- [무료 VPN 앱 조사](https://top10vpn.com/research/free-vpn-investigations/ownership)
+- [숨겨진 VPN 소유주 공개: 단 23개 회사가 운영하는 101개의 VPN 제품](https://vpnpro.com/blog/hidden-vpn-owners-unveiled-97-vpns-23-companies)
+- [위험한 권한을 요구하는 인기 앱 24개의 배후에 몰래 숨어 있는 중국 회사](https://vpnpro.com/blog/chinese-company-secretly-behind-popular-apps-seeking-dangerous-permissions)
+- 데니스 슈베르트의 [VPN - 매우 위태로운 서사(a Very Precarious Narrative)](https://overengineer.dev/blog/2019/04/08/very-precarious-narrative.html)

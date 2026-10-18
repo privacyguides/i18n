@@ -1,162 +1,162 @@
 ---
-title: Multifactor Authentication
+title: 다중 인증
 icon: material/two-factor-authentication
-description: MFA는 온라인 계정을 보호하는 데에 있어서 중요한 보안 메커니즘이지만, 방식에 따라 보안성은 달라집니다.
+description: MFA는 온라인 계정을 보호하는 중요한 보안 메커니즘이지만, 방식에 따라 보안 강도가 다릅니다.
 ---
 
-**Multifactor Authentication** (**MFA**) is a security mechanism that requires additional steps beyond entering your username (or email) and password. 가장 흔히 볼 수 있는 예시로는 문자 메시지나 앱으로 받는 시간 제한 인증 코드가 대표적입니다.
+**다중 인증**(**MFA**)은 사용자 이름(또는 이메일)과 비밀번호를 입력하는 것 외에 추가 단계를 요구하는 보안 메커니즘입니다. 가장 흔한 방식은 SMS나 앱으로 받는 시간 제한 코드입니다.
 
-보통, 해커/공격자가 여러분의 비밀번호를 알아내는 순간 해당 계정은 뚫립니다. 하지만 해당 계정이 MFA를 사용하고 있다면, 해커는 (여러분의 *머릿속에* 있는) 비밀번호 뿐만 아니라 (여러분의 *손에* 들려있는 휴대폰 등) 기기 또한 탈취해야 합니다.
+일반적으로 해커(또는 공격자)가 여러분의 비밀번호를 알아내면 그 비밀번호에 해당하는 계정에 접근할 수 있습니다. MFA가 적용된 계정이라면 해커는 비밀번호(여러분이 *알고 있는* 것)와 휴대폰처럼 여러분이 소유한 기기(여러분이 *가지고 있는* 것)를 모두 손에 넣어야 합니다.
 
-MFA 방식마다 보안성은 각각 다르지만, 기본적으로는 '공격자가 여러분이 사용하는 MFA 방식에 접근하기 어려운' 방식일수록 더 뛰어나다고 할 수 있습니다. MFA 종류로는(취약한 방식부터 갈수록 강력한 순으로) SMS, 이메일, 앱 푸시 알림, TOTP, Yubico OTP, FIDO 등이 있습니다.
+MFA 방식마다 보안 수준은 다르지만, 공격자가 여러분의 MFA 수단에 접근하기 어려울수록 더 좋다는 전제는 같습니다. MFA 방식의 예로는 (가장 약한 것부터 강한 순으로) SMS, 이메일 코드, 앱 푸시 알림, TOTP, 유비코 OTP, FIDO가 있습니다.
 
-## MFA 방식 비교
+## MFA 방식 비교 { #mfa-method-comparison }
 
-### SMS/이메일 MFA
+### SMS 또는 이메일 MFA { #sms-or-email-mfa }
 
-SMS나 이메일로 OTP 코드를 받는 방식은 MFA를 통한 계정 보호 방법 중 취약한 편에 속합니다. 여러분의 기기에 직접 물리적으로 접근하지 않고도 [전화번호를 탈취](https://en.wikipedia.org/wiki/SIM_swap_scam)하거나 이메일 계정에 접근할 수 있는 방법은 다양하기 때문에, MFA의 장점인 '내 *손에 들려있으니* 남이 몰래 빼앗을 수 없다'라는 점이 퇴색됩니다. 공격자가 여러분의 이메일에 접근 가능한 경우, 해당 접근 권한을 이용해 비밀번호를 재설정 후 인증 코드를 받고 계정의 전체 접근 권한을 얻을 수 있습니다.
+SMS나 이메일로 OTP 코드를 받는 방식은 MFA로 계정을 보호하는 방법 중 취약한 편에 속합니다. 해커가 여러분의 기기에 물리적으로 전혀 접근하지 않고도 [전화번호를 탈취](https://en.wikipedia.org/wiki/SIM_swap_scam)하거나 이메일에 접근할 수 있는 방법은 다양하기 때문에, 이메일이나 SMS로 코드를 받는 방식은 "여러분이 *가지고 있는* 것"이라는 개념을 퇴색시킵니다. 권한 없는 사람이 여러분의 이메일에 접근하면, 그 접근 권한을 이용해 비밀번호를 재설정하고 인증 코드도 받아 계정에 완전히 접근할 수 있습니다.
 
-### 푸시 알림
+### 푸시 알림 { #push-notifications }
 
-푸시 알림 MFA는 계정의 새로운 로그인 확인을 요청하는 메시지가 휴대폰 앱으로 전송되는 방식입니다. 푸시 알림 MFA 방식은 SMS/이메일보다 훨씬 뛰어납니다. 공격자가 이미 해당 계정에 로그인된 기기를 가지고 있지 않은 이상, 여러분의 기기 중 하나를 손상시키지 않고서는 푸시 알림을 받을 수 없기 때문입니다.
+푸시 알림 MFA는 새 계정 로그인을 확인해 달라는 메시지를 휴대폰의 앱으로 보내는 방식입니다. 이 방식은 SMS나 이메일보다 훨씬 낫습니다. 공격자는 일반적으로 이미 로그인된 기기 없이는 푸시 알림을 받을 수 없으므로, 먼저 여러분의 다른 기기 중 하나를 장악해야 하기 때문입니다.
 
-하지만 사람은 누구나 실수를 할 수 있고, 실수로 로그인을 승인할 위험성이 존재합니다. 일반적으로 푸시 알림 로그인 인증은 여러분의 *모든* 기기로 한꺼번에 전송되므로, 사용하는 기기가 많아질수록 MFA 코드의 철저한 관리는 어려워집니다.
+하지만 누구나 실수를 하기 마련이고, 실수로 로그인 시도를 승인할 위험이 있습니다. 푸시 알림 로그인 승인 요청은 보통 여러분의 *모든* 기기에 한꺼번에 전송되므로, 기기가 많을수록 MFA 코드에 접근할 수 있는 경로가 넓어집니다.
 
-푸시 알림 MFA의 보안성은 앱의 품질, 서버 구성 요소, 앱 개발자의 신뢰도에 따라 달라집니다. 어떤 앱은 설치할 때 기기의 다른 데이터에 접근하는 권한 등의 막대한 권한을 부여하도록 강제할 수도 있습니다. An individual app also requires that you have a specific app for each service which may not require a password to open, unlike a good TOTP generator app.
+푸시 알림 MFA의 보안은 앱의 품질, 서버 구성 요소, 그리고 앱을 만든 개발자에 대한 신뢰에 따라 달라집니다. 또한 앱을 설치할 때 기기의 다른 데이터에 접근할 수 있는 침해적인 권한을 허용해야 할 수도 있습니다. 게다가 이 방식은 서비스마다 전용 앱이 필요한데, 좋은 TOTP 생성기 앱과 달리 이러한 앱은 열 때 비밀번호를 요구하지 않을 수도 있습니다.
 
-### TOTP(시간 기반 일회용 비밀번호)
+### 시간 기반 일회용 비밀번호(TOTP) { #time-based-one-time-password-totp }
 
-TOTP(시간 기반 일회용 비밀번호, Time-based One-time Password)는 널리 쓰이는 MFA 방식 중 하나입니다. 일반적으로 TOTP 설정은 사용하고자 하는 서비스에서 [QR 코드](https://ko.wikipedia.org/wiki/QR_%EC%BD%94%EB%93%9C)를 스캔하여 '[공유 비밀(Shared Secret)](https://en.wikipedia.org/wiki/Shared_secret)'을 설정하는 방식으로 이루어집니다. The shared secret is secured inside the authenticator app's data, and is sometimes protected by a password.
+TOTP는 가장 널리 사용되는 MFA 방식 중 하나입니다. TOTP를 설정할 때는 일반적으로 [QR 코드](https://en.wikipedia.org/wiki/QR_code)를 스캔하여 사용하려는 서비스와 "[공유 비밀](https://en.wikipedia.org/wiki/Shared_secret)"을 설정해야 합니다. 공유 비밀은 인증 앱의 데이터 안에 안전하게 보관되며, 경우에 따라 비밀번호로 보호되기도 합니다.
 
 시간 제한 코드는 공유 비밀과 현재 시간 정보를 기반으로 만들어집니다. 코드는 짧은 시간 동안만 유효하므로 공격자는 공유 비밀에 접근하지 않고서는 새로운 코드를 생성할 수 없습니다.
 
-If you have a hardware security key with TOTP support (such as a YubiKey with [Yubico Authenticator](https://yubico.com/products/yubico-authenticator)), we recommend that you store your "shared secrets" on the hardware. YubiKey 등의 하드웨어 보안 키는 '공유 비밀'을 추출하거나 복사하는 것을 어렵게 만들기 위해서 개발되었습니다. 또한, TOTP 앱이 설치된 휴대폰과 달리 YubiKey는 인터넷에 연결되어 있지 않기 때문에 더 안전합니다.
+TOTP를 지원하는 하드웨어 보안 키(예: [유비코 오센티케이터](https://yubico.com/products/yubico-authenticator)를 사용하는 유비키)가 있다면 "공유 비밀"을 하드웨어에 저장하는 것을 권장합니다. 유비키 같은 하드웨어는 "공유 비밀"을 추출하거나 복사하기 어렵게 만들 목적으로 개발되었습니다. 또한 TOTP 앱이 설치된 휴대폰과 달리 유비키는 인터넷에 연결되어 있지 않습니다.
 
-[WebAuthn](#fido-fast-identity-online)과 달리, TOTP는 [피싱](https://ko.wikipedia.org/wiki/%ED%94%BC%EC%8B%B1) 혹은 재사용 공격으로부터 보호하는 기능을 제공하지 않습니다. 만약 공격자가 여러분의 유효 코드를 탈취해낸다면, 공격자는 해당 코드가 만료될 때까지(보통 60초) 몇 번이고 사용할 수 있습니다.
+[WebAuthn](#fido-fast-identity-online)과 달리 TOTP는 [피싱](https://en.wikipedia.org/wiki/Phishing)이나 재사용 공격을 막아 주지 못합니다. 만약 공격자가 여러분의 유효 코드를 탈취해낸다면, 공격자는 해당 코드가 만료될 때까지(보통 60초) 몇 번이고 사용할 수 있습니다.
 
-공격자는 어떤 서비스의 공식 웹사이트를 흉내낸 웹사이트를 만들어서 여러분이 사용자 이름, 비밀번호, 현재 TOTP 코드를 제출하도록 유도할 수도 있습니다. 만약 여러분이 이를 제출할 경우, 공격자는 해당 자격 증명 내용을 이용해 실제 서비스에 로그인하여 계정을 탈취할 수 있습니다.
+공격자는 공식 서비스를 흉내 낸 웹사이트를 만들어 여러분이 사용자 이름, 비밀번호, 현재 TOTP 코드를 입력하도록 속일 수 있습니다. 공격자가 이렇게 기록한 자격 증명을 사용하면 실제 서비스에 로그인하여 계정을 탈취할 수 있습니다.
 
-Although not perfect, TOTP is secure enough for most people, and when [hardware security keys](../security-keys.md) are not supported [authenticator apps](../multi-factor-authentication.md) are still a good option.
+TOTP는 완벽하지는 않지만 대부분의 사람에게 충분히 안전하며, [하드웨어 보안 키](../security-keys.md)가 지원되지 않을 때는 [인증 앱](../multi-factor-authentication.md)이 여전히 좋은 선택지입니다.
 
-### 하드웨어 보안 키
+### 하드웨어 보안 키 { #hardware-security-keys }
 
-Yubikey는 변조 방지 Solid-State 칩에 데이터를 저장합니다. 변조 방지 칩은 포렌식 연구실을 동원하고 고가의 공정을 거치지 않는 이상 비파괴적 접근이 [불가능합니다](https://security.stackexchange.com/a/245772).
+유비키는 변조 방지 솔리드 스테이트 칩에 데이터를 저장하며, 이 칩은 고비용의 공정과 포렌식 연구소 없이는 비파괴적으로 [접근하는 것이 불가능합니다](https://security.stackexchange.com/a/245772).
 
-하드웨어 보안 키는 보통 여러 기능을 가지고 있으며 다양한 인증 방식을 제공합니다. 다음은 가장 일반적인 것들입니다.
+이러한 키는 보통 여러 기능을 갖추고 있으며 다양한 인증 방식을 제공합니다. 가장 일반적인 방식은 다음과 같습니다.
 
-#### Yubico OTP
+#### 유비코 OTP { #yubico-otp }
 
-Yubico OTP는 일반적으로 하드웨어 보안 키로 구현되는 인증 프로토콜입니다. Yubico OTP를 사용하면 공개 ID, 개인 ID, 비밀 키가 생성되고 Yubico OTP 서버로 업로드됩니다.
+유비코 OTP는 일반적으로 하드웨어 보안 키에 구현되는 인증 프로토콜입니다. 유비코 OTP를 사용하기로 하면 키가 공개 ID, 비공개 ID, 비밀 키를 생성하고, 이 정보가 유비코 OTP 서버에 업로드됩니다.
 
-웹사이트에 로그인하려면 보안 키를 물리적으로 터치하기만 하면 됩니다. 보안 키는 키보드 에뮬레이터처럼 작동하여 비밀번호 필드에 일회용 비밀번호를 출력합니다.
+웹사이트에 로그인하려면 보안 키를 물리적으로 터치하기만 하면 됩니다. 보안 키는 키보드를 에뮬레이트하여 비밀번호 입력란에 일회용 비밀번호를 입력합니다.
 
-서비스는 유효성 검사를 위해 Yubico OTP 서버로 일회용 비밀번호를 전달합니다. 카운터는 키, Yubico 유효성 검사 서버 양측 모두에서 증가합니다. OTP는 한 번만 사용할 수 있으며, 인증에 성공하면 카운터가 증가함으로써 OTP 재사용을 방지합니다. Yubico에서 [ 자세히 설명한 문서](https://developers.yubico.com/OTP/OTPs_Explained.html)를 참고하세요.
+그러면 서비스는 검증을 위해 일회용 비밀번호를 유비코 OTP 서버로 전달합니다. 키와 유비코 검증 서버 양쪽에서 카운터가 증가합니다. OTP는 한 번만 사용할 수 있으며, 인증에 성공하면 카운터가 증가함으로써 OTP 재사용을 방지합니다. 유비코는 이 과정에 대한 [상세 문서](https://developers.yubico.com/OTP/OTPs_Explained.html)를 제공합니다.
 
 <figure markdown>
-  ![Yubico OTP](../assets/img/multi-factor-authentication/yubico-otp.png)
+  ![유비코 OTP](../assets/img/multi-factor-authentication/yubico-otp.png)
 </figure>
 
-Yubico OTP는 TOTP와 비교했을 때 몇 가지 장단점이 있습니다.
+유비코 OTP는 TOTP와 비교했을 때 몇 가지 장단점이 있습니다.
 
-Yubico 유효성 검사 서버는 클라우드 기반 서비스입니다. 따라서 사용자는 그저 Yubico 측에서 데이터를 안전하게 저장하고 사용자를 프로파일링하지 않을 것이라 믿고 있어야 합니다. 또한 Yubico OTP와 연결된 공개 ID는 모든 웹사이트에서 재사용되므로 제3자가 여러분을 프로파일링하는 수단으로 쓰일 수 있습니다. TOTP와 마찬가지로 Yubico OTP는 피싱 방지 기능을 제공하지 않습니다.
+유비코 검증 서버는 클라우드 기반 서비스이므로, 유비코가 데이터를 안전하게 저장하고 여러분을 프로파일링하지 않을 것이라고 신뢰해야 합니다. 유비코 OTP와 연결된 공개 ID는 모든 웹사이트에서 재사용되므로 제3자가 여러분을 프로파일링하는 또 다른 수단이 될 수 있습니다. TOTP와 마찬가지로 유비코 OTP도 피싱 방지 기능을 제공하지 않습니다.
 
-여러분의 위협 모델에 따라, '웹사이트마다 서로 다른 신원을 사용하고자 하는 경우'에는 여러 사이트에서 동일한 하드웨어 보안 키로 Yubico OTP를 사용해서는 **안 됩니다**. 각 보안 키는 고유한 공개 ID를 갖기 때문입니다.
+위협 모델상 웹사이트마다 서로 다른 신원을 사용해야 한다면, 공개 ID가 보안 키마다 고유하므로 해당 웹사이트들에서 같은 하드웨어 보안 키로 유비코 OTP를 사용해서는 **안 됩니다**.
 
-#### FIDO(Fast IDentity Online)
+#### FIDO (Fast IDentity Online)
 
-[FIDO](https://en.wikipedia.org/wiki/FIDO_Alliance) includes a number of standards, first there was [U2F](https://en.wikipedia.org/wiki/Universal_2nd_Factor) and then later [FIDO2](https://en.wikipedia.org/wiki/FIDO2_Project) which includes the web standard [WebAuthn](https://en.wikipedia.org/wiki/WebAuthn).
+[FIDO](https://en.wikipedia.org/wiki/FIDO_Alliance)에는 여러 표준이 포함되어 있는데, 처음에는 [U2F](https://en.wikipedia.org/wiki/Universal_2nd_Factor)가 있었고 이후 웹 표준인 [WebAuthn](https://en.wikipedia.org/wiki/WebAuthn)을 포함하는 [FIDO2](https://en.wikipedia.org/wiki/FIDO2_Project)가 나왔습니다.
 
-U2F, FIDO2는 보안 키와 컴퓨터(노트북, 스마트폰 등) 간의 프로토콜인 [CTAP(Client to Authenticator Protocol)](https://en.wikipedia.org/wiki/Client_to_Authenticator_Protocol)를 포함합니다. 이는 여러분이 로그인하려는 웹사이트, 즉 신뢰 당사자(Relying Party)와 인증하는 데 쓰이는 WebAuthn을 보완합니다.
+U2F와 FIDO2는 보안 키와 노트북이나 휴대폰 같은 컴퓨터 사이의 프로토콜인 [클라이언트-인증기 프로토콜(CTAP)](https://en.wikipedia.org/wiki/Client_to_Authenticator_Protocol)을 가리킵니다. 이는 여러분이 로그인하려는 웹사이트("신뢰 당사자")와의 인증에 사용되는 구성 요소인 WebAuthn을 보완합니다.
 
-WebAuthn은 가장 안전하고 프라이버시 친화적인 형태의 이중 인증 방식입니다. 인증 편의성은 Yubico OTP와 비슷한 수준이지만, Yubico OTP와는 달리 일회용 비밀번호를 출력하거나 유효성 검증 과정에 제3자 서버가 끼어들지 않습니다. WebAuthn은 인증 과정에 [공개 키 암호화 방식](https://ko.wikipedia.org/wiki/%EA%B3%B5%EA%B0%9C_%ED%82%A4_%EC%95%94%ED%98%B8_%EB%B0%A9%EC%8B%9D)을 사용합니다.
+WebAuthn은 가장 안전하고 프라이버시를 보호하는 형태의 2차 인증입니다. 인증 경험은 유비코 OTP와 비슷하지만, 키가 일회용 비밀번호를 입력하거나 제3자 서버에서 검증하지 않습니다. 대신 인증에 [공개 키 암호 방식](https://en.wikipedia.org/wiki/Public-key_cryptography)을 사용합니다.
 
 <figure markdown>
   ![FIDO](../assets/img/multi-factor-authentication/fido.png)
 </figure>
 
-계정을 생성할 때에는 공개 키가 서비스로 전송됩니다. 그리고 로그인 시에는 서비스로부터 사용자 측에서 사용자의 개인 키로 일부 데이터에 '서명''할 것을 요구합니다. 이 방식의 장점은, 서비스에 비밀번호 데이터는 전혀 저장되지 않기 때문에 공격자가 훔칠 수 있는게 없다는 점입니다.
+계정을 만들 때 공개 키가 서비스로 전송되고, 이후 로그인할 때 서비스는 여러분의 개인 키로 일부 데이터에 "서명"하도록 요구합니다. 이 방식의 장점은 서비스에 비밀번호 데이터가 전혀 저장되지 않으므로 공격자가 훔칠 것이 없다는 점입니다.
 
-This presentation discusses the history of password authentication, the pitfalls (such as password reuse), and the standards for FIDO2 and [WebAuthn](https://webauthn.guide):
+이 발표에서는 비밀번호 인증의 역사, (비밀번호 재사용 같은) 함정, 그리고 FIDO2와 [WebAuthn](https://webauthn.guide) 표준에 대해 다룹니다:
 
-- [How FIDO2 and WebAuthn Stop Account Takeovers](https://youtu.be/aMo4ZlWznao) <small>(YouTube)</small>
+- [FIDO2와 WebAuthn이 계정 탈취를 막는 방법](https://youtu.be/aMo4ZlWznao) <small>(유튜브)</small>
 
-FIDO2, WebAuthn은 여타 MFA 방식에 비해 보안성과 프라이버시 면에서 우월합니다.
+FIDO2와 WebAuthn은 다른 어떤 MFA 방식보다도 뛰어난 보안성과 프라이버시를 제공합니다.
 
-Typically, for web services it is used with WebAuthn which is a part of the [W3C recommendations](https://en.wikipedia.org/wiki/World_Wide_Web_Consortium#W3C_recommendation_(REC)). WebAuthn은 공개 키 인증을 사용하며 인증 시 출처(보통은 도메인 이름)를 포함하므로, Yubico OTP나 TOTP 방식에 사용되는 공유 비밀보다 안전합니다. 또한 WebAuthn의 증명(Attestation)은 사용자가 현재 위조된 것이 아닌 실제 서비스를 사용하고 있는지를 확인하는 데에 도움이 되어 여러분을 피싱 공격으로부터 보호합니다.
+웹 서비스에서는 보통 [W3C 권고안](https://en.wikipedia.org/wiki/World_Wide_Web_Consortium#W3C_recommendation_(REC))의 일부인 WebAuthn과 함께 사용됩니다. WebAuthn은 공개 키 인증을 사용하며 인증 시 출처(보통은 도메인 이름)를 포함하므로, 유비코 OTP나 TOTP 방식에 사용되는 공유 비밀보다 안전합니다. 증명(Attestation)은 여러분이 가짜가 아닌 진짜 서비스를 사용하고 있는지 확인하는 데 도움을 주어 피싱 공격으로부터 보호합니다.
 
-Yubico OTP와는 달리 WebAuthn은 공개 ID를 사용하지 않기 때문에, 키를 기반으로 여러 사이트에서 누군가를 식별하는 것이 **불가능합니다**. 인증 과정에 제3자 클라우드 서버를 사용하지도 않습니다. 모든 통신은 키와 (로그인하고자 하는) 웹사이트 간에서만 이루어집니다. FIDO는 사용할 때마다 카운터가 증가하는 방식을 사용하기 때문에, 세션 재사용이나 키 복제가 방지됩니다.
+유비코 OTP와 달리 WebAuthn은 공개 ID를 사용하지 않으므로, 서로 다른 웹사이트에서 키를 식별하는 것이 **불가능합니다**. 인증 과정에 제3자 클라우드 서버를 사용하지도 않습니다. 모든 통신은 키와 여러분이 로그인하려는 웹사이트 사이에서만 이루어집니다. FIDO도 세션 재사용과 키 복제를 막기 위해 사용할 때마다 증가하는 카운터를 사용합니다.
 
-만약 웹사이트/서비스가 WebAuthn 인증을 지원하는 경우, 다른 MFA 방식 대신 WebAuthn을 사용하실 것을 강력히 권장드립니다.
+웹사이트나 서비스가 WebAuthn 인증을 지원한다면 다른 어떤 MFA 방식보다 WebAuthn을 사용할 것을 강력히 권장합니다.
 
-## 보편적인 권장 사항
+## 일반 권장 사항 { #general-recommendations }
 
-다음은 보편적으로 적용되는 내용입니다.
+일반적인 권장 사항은 다음과 같습니다:
 
-### 어떤 MFA 방식을 사용해야 하나요?
+### 어떤 방식을 사용해야 하나요? { #which-method-should-i-use }
 
-MFA를 구성할 때 명심해야 하는 것은, '사용하는 방식 중 가장 취약한 방식으로 보안 수준이 결정난다'는 점입니다. 즉, 사용 가능한 것 중 가장 뛰어난 MFA 방식만 사용해야 합니다. 예를 들어, TOTP를 이미 사용하고 있다면 SMS/이메일 MFA를 비활성화해야 합니다. FIDO/WebAuthn을 이미 사용 중인 경우라면 해당 계정에서 Yubico OTP/TOTP를 사용해서는 안 됩니다.
+MFA 방식을 구성할 때는 보안 수준이 여러분이 사용하는 인증 방식 중 가장 약한 방식의 수준에 불과하다는 점을 명심하세요. 따라서 사용 가능한 최선의 MFA 방식만 사용하는 것이 중요합니다. 예를 들어, TOTP를 이미 사용하고 있다면 SMS/이메일 MFA를 비활성화해야 합니다. 이미 FIDO2/WebAuthn을 사용하고 있다면 해당 계정에서 유비코 OTP나 TOTP를 사용해서는 안 됩니다.
 
-### 백업
+### 백업 { #backups }
 
-여러분은 항상 자신이 사용하는 MFA를 백업해두어야 합니다. 하드웨어 보안 키는 세월이 지나며 분실, 도난, 혹은 단순 고장이 발생할 수 있습니다. 계정 접근 권한이 동일한 하드웨어 보안 키를 (예비용을 포함해) 두 개씩 마련해야 합니다.
+MFA 수단은 항상 백업해 두어야 합니다. 하드웨어 보안 키는 분실하거나 도난당할 수 있고, 시간이 지나면서 그냥 고장 날 수도 있습니다. 하드웨어 보안 키를 하나만 두지 말고, 계정에 동일하게 접근할 수 있는 키를 한 쌍으로 마련하는 것이 좋습니다.
 
-When using TOTP with an authenticator app, be sure to back up your recovery keys or the app itself, or copy the "shared secrets" to another instance of the app on a different phone or to an encrypted container (e.g. [VeraCrypt](../encryption.md#veracrypt-disk)).
+인증 앱으로 TOTP를 사용할 때는 복구 키나 앱 자체를 반드시 백업하거나, "공유 비밀"을 다른 휴대폰의 같은 앱이나 암호화된 컨테이너(예: [베라크립트](../encryption.md#veracrypt-disk))에 복사해 두세요.
 
-### 초기 설정
+### 초기 설정 { #initial-set-up }
 
-보안 키를 구매했다면, 기본 자격 증명 변경, 보안 키 비밀번호 보호 설정, (지원하는 경우) 터치식 인증 확인 활성화를 진행해야 합니다. Products such as the YubiKey have multiple interfaces with separate credentials for each one of them, so you should go over each interface and set up protection as well.
+보안 키를 구매했다면 기본 자격 증명을 변경하고, 키에 비밀번호 보호를 설정하고, 키가 지원한다면 터치 확인을 활성화하는 것이 중요합니다. 유비키 같은 제품은 인터페이스가 여러 개이고 각각 별도의 자격 증명을 사용하므로, 인터페이스마다 살펴보고 보호 설정을 해야 합니다.
 
-### 이메일, SMS
+### 이메일 및 SMS { #email-and-sms }
 
-If you have to use email for MFA, make sure that the email account itself is secured with a proper MFA method.
+이메일로 MFA를 사용해야 한다면 해당 이메일 계정 자체가 적절한 MFA 방식으로 보호되고 있는지 확인하세요.
 
-SMS로 MFA를 사용할 경우에는 [SIM 스와핑 사기](https://en.wikipedia.org/wiki/SIM_swap_scam)를 주의해야 합니다. 계정에 접근하지 않고도 휴대폰 번호가 새로운 SIM 카드로 전환되는 통신사는 이용하지 말아야 합니다. 혹은 이런 류의 공격에 대한 보안 기능을 제공하는 제공 업체의 전용 VoIP 번호를 사용해야 합니다.
+SMS MFA를 사용한다면 [SIM 스와핑 공격](https://en.wikipedia.org/wiki/SIM_swap_scam)을 피하기 위해 계정 접근 없이는 전화번호를 새 SIM 카드로 옮겨 주지 않는 통신사를 이용하거나, 비슷한 수준의 보안을 갖춘 제공업체의 전용 VoIP 번호를 사용하세요.
 
-[권장 MFA 툴](../multi-factor-authentication.md ""){.md-button}
+[추천 MFA 도구](../multi-factor-authentication.md ""){.md-button}
 
-## More Places to Set Up MFA
+## MFA를 설정할 수 있는 다른 곳 { #more-places-to-set-up-mfa }
 
-Beyond just securing your website logins, multifactor authentication can be used to secure your local logins, SSH keys or even password databases as well.
+다중 인증은 웹사이트 로그인뿐만 아니라 로컬 로그인, SSH 키, 심지어 비밀번호 데이터베이스를 보호하는 데에도 사용할 수 있습니다.
 
 ### macOS
 
-macOS has [native support](https://support.apple.com/guide/deployment/intro-to-smart-card-integration-depd0b888248/web) for authentication with smart cards (PIV). If you have a smart card or a hardware security key that supports the PIV interface such as the YubiKey, we recommend that you follow your smart card or hardware security vendor's documentation and set up second factor authentication for your macOS computer.
+macOS는 스마트 카드(PIV)를 이용한 인증을 [기본 지원](https://support.apple.com/guide/deployment/intro-to-smart-card-integration-depd0b888248/web)합니다. 유비키처럼 PIV 인터페이스를 지원하는 스마트 카드나 하드웨어 보안 키가 있다면, 스마트 카드나 하드웨어 보안 키 제조사의 문서를 따라 macOS 컴퓨터에 2차 인증을 설정하는 것을 권장합니다.
 
-Yubico have a guide [Using Your YubiKey as a Smart Card in macOS](https://support.yubico.com/hc/articles/360016649059) which can help you set up your YubiKey on macOS.
+유비코에서 제공하는 [macOS에서 유비키를 스마트 카드로 사용하기](https://support.yubico.com/hc/articles/360016649059) 가이드를 참고하면 macOS에서 유비키를 설정하는 데 도움이 됩니다.
 
-After your smart card/security key is set up, we recommend running this command in the Terminal:
+스마트 카드/보안 키를 설정한 후에는 터미널에서 다음 명령을 실행할 것을 권장합니다:
 
 ```text
 sudo defaults write /Library/Preferences/com.apple.loginwindow DisableFDEAutoLogin -bool YES
 ```
 
-The command will prevent an adversary from bypassing MFA when the computer boots.
+이 명령은 컴퓨터가 부팅될 때 공격자가 MFA를 우회하지 못하게 합니다.
 
-### Linux
+### 리눅스 { #linux }
 
 <div class="admonition warning" markdown>
-<p class="admonition-title">주의</p>
+<p class="admonition-title">경고</p>
 
-If the hostname of your system changes (such as due to DHCP), you would be unable to login. It is vital that you set up a proper hostname for your computer before following this guide.
+(DHCP 등으로 인해) 시스템의 호스트 이름이 변경되면 로그인할 수 없게 됩니다. 이 가이드를 따르기 전에 컴퓨터에 적절한 호스트 이름을 설정해 두는 것이 매우 중요합니다.
 
 </div>
 
-The `pam_u2f` module on Linux can provide two-factor authentication for logging in on most popular Linux distributions. If you have a hardware security key that supports U2F, you can set up MFA authentication for your login. Yubico has a guide [Ubuntu Linux Login Guide - U2F](https://support.yubico.com/s/article/Ubuntu-Linux-login-guide-U2F) which should work on any distribution. The package manager commands—such as `apt-get`—and package names may however differ. This guide does **not** apply to Qubes OS.
+리눅스의 `pam_u2f` 모듈을 사용하면 대부분의 인기 리눅스 배포판에서 로그인 시 2단계 인증을 적용할 수 있습니다. U2F를 지원하는 하드웨어 보안 키가 있다면 로그인에 MFA 인증을 설정할 수 있습니다. 유비코의 [우분투 리눅스 로그인 가이드 - U2F](https://support.yubico.com/s/article/Ubuntu-Linux-login-guide-U2F)는 어느 배포판에서든 사용할 수 있을 것입니다. 다만 `apt-get` 같은 패키지 관리자 명령어와 패키지 이름은 다를 수 있습니다. 이 가이드는 큐브스 OS에는 적용되지 **않습니다**.
 
-### Qubes OS
+### 큐브스 OS { #qubes-os }
 
-Qubes OS has support for Challenge-Response authentication with YubiKeys. If you have a YubiKey with Challenge-Response authentication support, take a look at the Qubes OS [YubiKey documentation](https://qubes-os.org/doc/yubikey) if you want to set up MFA on Qubes OS.
+큐브스 OS는 유비키를 이용한 챌린지-응답 인증을 지원합니다. 챌린지-응답 인증을 지원하는 유비키가 있고 큐브스 OS에 MFA를 설정하고 싶다면 큐브스 OS의 [유비키 문서](https://qubes-os.org/doc/yubikey)를 참고하세요.
 
 ### SSH
 
-#### 하드웨어 보안 키
+#### 하드웨어 보안 키 { #hardware-security-keys_1 }
 
-SSH MFA could be set up using multiple different authentication methods that are popular with hardware security keys. We recommend that you check out Yubico's [documentation](https://developers.yubico.com/SSH) on how to set this up.
+SSH MFA는 하드웨어 보안 키에서 널리 쓰이는 여러 인증 방식으로 설정할 수 있습니다. 설정 방법은 유비코의 [문서](https://developers.yubico.com/SSH)를 참고할 것을 권장합니다.
 
 #### TOTP
 
-SSH MFA can also be set up using TOTP. DigitalOcean has provided a tutorial [How To Set Up Multi-Factor Authentication for SSH on Ubuntu 20.04](https://digitalocean.com/community/tutorials/how-to-set-up-multi-factor-authentication-for-ssh-on-ubuntu-20-04). Most things should be the same regardless of distribution, however the package manager commands—such as `apt-get`—and package names may differ.
+SSH MFA는 TOTP로도 설정할 수 있습니다. 디지털오션에서 [우분투 20.04에서 SSH 다중 인증을 설정하는 방법](https://digitalocean.com/community/tutorials/how-to-set-up-multi-factor-authentication-for-ssh-on-ubuntu-20-04) 튜토리얼을 제공합니다. 배포판에 관계없이 대부분 동일하겠지만, `apt-get` 같은 패키지 관리자 명령어와 패키지 이름은 다를 수 있습니다.
 
-### KeePass (KeePassXC)
+### 키패스(및 키패스XC) { #keepass-and-keepassxc }
 
-KeePass and KeePassXC databases can be secured using HOTP or Challenge-Response as a second-factor of authentication. Yubico has provided a document for KeePass [Using Your YubiKey with KeePass](https://support.yubico.com/hc/articles/360013779759-Using-Your-YubiKey-with-KeePass) and there is also one on the [KeePassXC](https://keepassxc.org/docs/#faq-yubikey-2fa) website.
+키패스와 키패스XC 데이터베이스는 HOTP나 챌린지-응답을 2차 인증 요소로 사용하여 보호할 수 있습니다. 유비코에서 키패스용 문서인 [키패스에서 유비키 사용하기](https://support.yubico.com/hc/articles/360013779759-Using-Your-YubiKey-with-KeePass)를 제공하며, [키패스XC](https://keepassxc.org/docs/#faq-yubikey-2fa) 웹사이트에도 관련 문서가 있습니다.

@@ -8,7 +8,7 @@ cover: data-redaction.webp
 
 <small>Protects against the following threat(s):</small>
 
-- [:material-account-search: 공개 노출(Public Exposure)](basics/common-threats.md#limiting-public-information ""){.pg-green}
+- [:material-account-search: 공개 노출](basics/common-threats.md#limiting-public-information ""){.pg-green}
 
 파일을 공유할 때에는 관련 메타데이터를 제거해야 합니다. Most common file types (including documents, images, and videos) include metadata. Image files, for example, commonly include Exif data. 사진 파일 메타데이터에는 GPS 좌표가 포함될 때도 있습니다.
 

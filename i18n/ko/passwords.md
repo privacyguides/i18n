@@ -17,11 +17,11 @@ schema:
     image: /assets/img/password-management/bitwarden.svg
     url: https://bitwarden.com
     sameAs: https://en.wikipedia.org/wiki/Bitwarden
-    applicationCategory: 비밀번호 관리자
+    applicationCategory: '비밀번호 관리자 { #password-manager }'
     operatingSystem:
       - Windows
       - macOS
-      - Linux
+      - '리눅스 { #linux }'
       - Android
       - iOS
     subjectOf:
@@ -35,11 +35,11 @@ schema:
     image: /assets/img/password-management/1password.svg
     url: https://1password.com
     sameAs: https://en.wikipedia.org/wiki/1Password
-    applicationCategory: 비밀번호 관리자
+    applicationCategory: '비밀번호 관리자 { #password-manager }'
     operatingSystem:
       - Windows
       - macOS
-      - Linux
+      - '리눅스 { #linux }'
       - Android
       - iOS
     subjectOf:
@@ -52,7 +52,7 @@ schema:
     name: Proton Pass
     image: /assets/img/password-management/protonpass.svg
     url: https://proton.me/pass
-    applicationCategory: 비밀번호 관리자
+    applicationCategory: '비밀번호 관리자 { #password-manager }'
     operatingSystem:
       - Android
       - iOS
@@ -66,7 +66,7 @@ schema:
     name: Psono
     image: /assets/img/password-management/psono.svg
     url: https://psono.com
-    applicationCategory: 비밀번호 관리자
+    applicationCategory: '비밀번호 관리자 { #password-manager }'
     operatingSystem:
       - Android
       - iOS
@@ -81,11 +81,11 @@ schema:
     image: /assets/img/password-management/keepassxc.svg
     url: https://keepassxc.org
     sameAs: https://en.wikipedia.org/wiki/KeePassXC
-    applicationCategory: 비밀번호 관리자
+    applicationCategory: '비밀번호 관리자 { #password-manager }'
     operatingSystem:
       - Windows
       - macOS
-      - Linux
+      - '리눅스 { #linux }'
     subjectOf:
       "@context": http://schema.org
       "@type": WebPage
@@ -96,7 +96,7 @@ schema:
     name: KeePassDX
     image: /assets/img/password-management/keepassdx.svg
     url: https://keepassdx.com
-    applicationCategory: 비밀번호 관리자
+    applicationCategory: '비밀번호 관리자 { #password-manager }'
     operatingSystem: Android
     subjectOf:
       "@context": http://schema.org
@@ -108,11 +108,11 @@ schema:
     name: Gopass
     image: /assets/img/password-management/gopass.svg
     url: https://gopass.pw
-    applicationCategory: 비밀번호 관리자
+    applicationCategory: '비밀번호 관리자 { #password-manager }'
     operatingSystem:
       - Windows
       - macOS
-      - Linux
+      - '리눅스 { #linux }'
       - FreeBSD
     subjectOf:
       "@context": http://schema.org
@@ -122,9 +122,9 @@ schema:
 
 <small>Protects against the following threat(s):</small>
 
-- [:material-target-account: 표적 공격(Targeted Attacks)](basics/common-threats.md#attacks-against-specific-individuals ""){.pg-red}
-- [:material-bug-outline: 수동적 공격(Passive Attacks)](basics/common-threats.md#security-and-privacy ""){.pg-orange}
-- [:material-server-network: 서비스 제공자/제공 업체(Service Providers)](basics/common-threats.md#privacy-from-service-providers ""){.pg-teal}
+- [:material-target-account: 표적 공격](basics/common-threats.md#attacks-against-specific-individuals ""){.pg-red}
+- [:material-bug-outline: 수동적 공격](basics/common-threats.md#security-and-privacy ""){.pg-orange}
+- [:material-server-network: 서비스 제공업체](basics/common-threats.md#privacy-from-service-providers ""){.pg-teal}
 
 **Password managers** allow you to securely store and manage passwords and other credentials with the use of a master password.
 

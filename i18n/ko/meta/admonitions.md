@@ -1,27 +1,27 @@
 ---
-title: Admonitions
-description: A guide for website contributors on creating admonitions.
+title: 안내 상자
+description: 웹사이트 기여자를 위한 안내 상자 작성 가이드입니다.
 ---
 
-**Admonitions** (or "call-outs") are tools that writers can use to include side content in an article without interrupting the document flow.
+**안내 상자**(admonition, "콜아웃"이라고도 함)는 글쓴이가 문서의 흐름을 방해하지 않고 글에 부가 내용을 넣을 수 있는 도구입니다.
 
 <div class="admonition example" markdown>
-<p class="admonition-title">Example Admonition</p>
+<p class="admonition-title">안내 상자 예시</p>
 
-This is an example of an admonition. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor massa, nec semper lorem quam in massa.
+안내 상자의 예시입니다. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor massa, nec semper lorem quam in massa.
 
 </div>
 
 <details class="example" markdown>
-<summary>Example Collapsible Admonition</summary>
+<summary>접을 수 있는 안내 상자 예시</summary>
 
-This is an example of a collapsible admonition. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor massa, nec semper lorem quam in massa.
+접을 수 있는 안내 상자의 예시입니다. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor massa, nec semper lorem quam in massa.
 
 </details>
 
-## Formatting
+## 형식 { #formatting }
 
-To add an admonition to a page, you can use the following code:
+페이지에 안내 상자를 추가하려면 다음 코드를 사용하세요:
 
 ```markdown title="Admonition"
 <div class="admonition TYPE" markdown>
@@ -41,16 +41,16 @@ ENCLOSED TEXT
 </details>
 ```
 
-The `TITLE` must be specified; if you don't want a specific title you can set it to the same text as the `TYPE` (see below) in title case, e.g. `Note`. The `ENCLOSED TEXT` should be Markdown formatted.
+`TITLE`은 반드시 지정해야 합니다. 특정 제목을 원하지 않는다면 `TYPE`(아래 참조)과 같은 텍스트를 첫 글자만 대문자로 써서 지정할 수 있습니다(예: `Note`). `ENCLOSED TEXT`는 마크다운 형식으로 작성해야 합니다.
 
-### Regular types
+### 일반 유형 { #regular-types }
 
-Replace `TYPE` in the examples above with one of the following:
+위 예시의 `TYPE`을 다음 중 하나로 바꾸세요:
 
 #### `note`
 
 <div class="admonition note" markdown>
-<p class="admonition-title">Note</p>
+<p class="admonition-title">참고 (note)</p>
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 
@@ -59,7 +59,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 #### `abstract`
 
 <div class="admonition abstract" markdown>
-<p class="admonition-title">Abstract</p>
+<p class="admonition-title">요약 (abstract)</p>
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 
@@ -68,7 +68,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 #### `info`
 
 <div class="admonition info" markdown>
-<p class="admonition-title">정보</p>
+<p class="admonition-title">정보 (info)</p>
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 
@@ -77,7 +77,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 #### `tip`
 
 <div class="admonition tip" markdown>
-<p class="admonition-title">Tip</p>
+<p class="admonition-title">팁 (tip)</p>
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 
@@ -86,7 +86,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 #### `success`
 
 <div class="admonition success" markdown>
-<p class="admonition-title">Success</p>
+<p class="admonition-title">성공 (success)</p>
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 
@@ -95,7 +95,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 #### `question`
 
 <div class="admonition question" markdown>
-<p class="admonition-title">Question</p>
+<p class="admonition-title">질문 (question)</p>
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 
@@ -104,7 +104,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 #### `warning`
 
 <div class="admonition warning" markdown>
-<p class="admonition-title">주의</p>
+<p class="admonition-title">경고 (warning)</p>
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 
@@ -113,7 +113,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 #### `failure`
 
 <div class="admonition failure" markdown>
-<p class="admonition-title">Failure</p>
+<p class="admonition-title">실패 (failure)</p>
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 
@@ -122,7 +122,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 #### `danger`
 
 <div class="admonition danger" markdown>
-<p class="admonition-title">Danger</p>
+<p class="admonition-title">위험 (danger)</p>
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 
@@ -131,7 +131,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 #### `bug`
 
 <div class="admonition bug" markdown>
-<p class="admonition-title">Bug</p>
+<p class="admonition-title">버그 (bug)</p>
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 
@@ -140,7 +140,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 #### `example`
 
 <div class="admonition example" markdown>
-<p class="admonition-title">Example</p>
+<p class="admonition-title">예시 (example)</p>
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 
@@ -149,17 +149,17 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 #### `quote`
 
 <div class="admonition quote" markdown>
-<p class="admonition-title">Quote</p>
+<p class="admonition-title">인용 (quote)</p>
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 
 </div>
 
-### Special Types
+### 특수 유형 { #special-types }
 
 #### `recommendation`
 
-This format is used to generate recommendation cards. Notably it is missing the `<p class="admonition-title">` element.
+이 형식은 추천 카드를 만드는 데 사용됩니다. 특히 `<p class="admonition-title">` 요소가 없다는 점이 다릅니다.
 
 ```markdown title="Recommendation Card"
 <div class="admonition recommendation" markdown>
@@ -180,14 +180,14 @@ This format is used to generate recommendation cards. Notably it is missing the 
 
 <div class="admonition recommendation" markdown>
 
-![PhotoPrism logo](../assets/img/self-hosting/photoprism.svg){ align=right }
+![포토프리즘 로고](../assets/img/self-hosting/photoprism.svg){ align=right }
 
-**PhotoPrism** is a self-hostable platform for managing photos. It supports album syncing and sharing as well as a variety of other [features](https://photoprism.app/features). It does not include end-to-end encryption, so it's best hosted on a server that you trust and is under your control.
+**포토프리즘**은 사진을 관리하는 자체 호스팅 가능한 플랫폼입니다. 앨범 동기화 및 공유는 물론 다양한 [기능](https://photoprism.app/features)을 지원합니다. 종단 간 암호화를 지원하지 않으므로, 신뢰할 수 있고 직접 관리하는 서버에서 호스팅하는 것이 가장 좋습니다.
 
-[:octicons-home-16: Homepage](https://photoprism.app){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://photoprism.app/privacy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://photoprism.app/kb){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/photoprism){ .card-link title="Source Code" }
+[:octicons-home-16: 홈페이지](https://photoprism.app){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://photoprism.app/privacy){ .card-link title="개인정보 처리방침" }
+[:octicons-info-16:](https://photoprism.app/kb){ .card-link title="문서" }
+[:octicons-code-16:](https://github.com/photoprism){ .card-link title="소스 코드" }
 
 </div>
 
@@ -195,7 +195,7 @@ This format is used to generate recommendation cards. Notably it is missing the 
 
 #### `downloads`
 
-This is a special type of collapsible admonition which is used to generate sections containing download links. It is only used within recommendation cards, as shown in the example above.
+다운로드 링크가 담긴 섹션을 만드는 데 사용되는 특수한 유형의 접을 수 있는 안내 상자입니다. 위 예시처럼 추천 카드 안에서만 사용됩니다.
 
 ```markdown title="Downloads Section"
 <details class="downloads" markdown>
@@ -215,23 +215,23 @@ This is a special type of collapsible admonition which is used to generate secti
 <div class="result" markdown>
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>다운로드</summary>
 
-- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=ch.protonmail.android)
-- [:simple-appstore: App Store](https://apps.apple.com/app/id979659905)
-- [:simple-github: GitHub](https://github.com/ProtonMail/android-mail/releases)
-- [:fontawesome-brands-windows: Windows](https://proton.me/mail/bridge#download)
+- [:simple-googleplay: 구글 플레이](https://play.google.com/store/apps/details?id=ch.protonmail.android)
+- [:simple-appstore: 앱 스토어](https://apps.apple.com/app/id979659905)
+- [:simple-github: 깃허브](https://github.com/ProtonMail/android-mail/releases)
+- [:fontawesome-brands-windows: 윈도우](https://proton.me/mail/bridge#download)
 - [:simple-apple: macOS](https://proton.me/mail/bridge#download)
-- [:simple-linux: Linux](https://proton.me/mail/bridge#download)
-- [:octicons-browser-16: Web](https://mail.proton.me)
+- [:simple-linux: 리눅스](https://proton.me/mail/bridge#download)
+- [:octicons-browser-16: 웹](https://mail.proton.me)
 
 </details>
 
 </div>
 
-## Old Format
+## 이전 형식 { #old-format }
 
-Throughout the site, you may see some admonitions formatted like the following examples:
+사이트 곳곳에서 다음 예시와 같은 형식의 안내 상자를 볼 수 있습니다:
 
 ```markdown title="Admonition"
 !!! note
@@ -244,7 +244,7 @@ Throughout the site, you may see some admonitions formatted like the following e
 <div class="result" markdown>
 
 <div class="admonition note" markdown>
-<p class="admonition-title">Note</p>
+<p class="admonition-title">참고</p>
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod
 nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor
@@ -265,7 +265,7 @@ massa, nec semper lorem quam in massa.
 <div class="result" markdown>
 
 <details class="example" markdown>
-<summary>Custom Title</summary>
+<summary>사용자 지정 제목</summary>
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod
 nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor
@@ -275,6 +275,6 @@ massa, nec semper lorem quam in massa.
 
 </div>
 
-**This format is no longer used going forward** because it is incompatible with newer versions of our translation software at Crowdin. When adding a new page to the site, only the newer, HTML-based format should be used.
+**이 형식은 앞으로 더 이상 사용되지 않습니다**. 크라우딘에서 사용하는 번역 소프트웨어의 최신 버전과 호환되지 않기 때문입니다. 사이트에 새 페이지를 추가할 때는 HTML 기반의 새 형식만 사용해야 합니다.
 
-There is no rush to convert admonitions with the old format to the new format. Pages currently using this formatting should continue to work, but we will be updating them to use the newer, HTML-based format above over time as we continue to update the site.
+이전 형식의 안내 상자를 서둘러 새 형식으로 변환할 필요는 없습니다. 현재 이 형식을 사용하는 페이지도 계속 정상적으로 작동하지만, 사이트를 꾸준히 업데이트하면서 점차 위의 HTML 기반 새 형식으로 바꿔 나갈 예정입니다.

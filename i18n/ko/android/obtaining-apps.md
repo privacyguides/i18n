@@ -1,90 +1,90 @@
 ---
-title: "Obtaining Applications"
-description: We recommend these methods for obtaining applications on Android without interacting with Google Play Services.
+title: "애플리케이션 받기"
+description: 구글 플레이 서비스를 거치지 않고 안드로이드에서 애플리케이션을 받을 수 있는 방법으로 다음을 권장합니다.
 ---
 
-There are many ways to obtain Android apps privately, even from the Play Store, without interacting with Google Play Services. We recommend the following methods of obtaining applications on Android, listed in order of preference.
+구글 플레이 서비스를 거치지 않고도, 심지어 플레이 스토어에서도 프라이버시를 지키며 안드로이드 앱을 받을 수 있는 방법은 많습니다. 안드로이드에서 애플리케이션을 받는 방법으로 다음을 권장하며, 우선순위 순으로 정리했습니다.
 
-## Obtainium
+## 옵테이니엄 { #obtainium }
 
 <div class="admonition recommendation" markdown>
 
-![Obtainium logo](../assets/img/android/obtainium.svg){ align=right }
+![옵테이니엄 로고](../assets/img/android/obtainium.svg){ align=right }
 
-**Obtainium** is an app manager which allows you to install and update apps directly from the developer's own releases page (i.e. GitHub, GitLab, the developer's website, etc.), rather than a centralized app store/repository. It supports automatic background updates on Android 12 and higher.
+**옵테이니엄**은 앱을 중앙화된 앱 스토어/저장소가 아닌 개발자의 자체 릴리스 페이지(예: 깃허브, 깃랩, 개발자 웹사이트 등)에서 직접 설치하고 업데이트할 수 있게 해 주는 앱 관리자입니다. 안드로이드 12 이상에서는 백그라운드 자동 업데이트를 지원합니다.
 
-[:octicons-repo-16: Repository](https://github.com/ImranR98/Obtainium#readme){ .md-button .md-button--primary }
-[:octicons-info-16:](https://github.com/ImranR98/Obtainium/wiki){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/ImranR98/Obtainium){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://github.com/sponsors/ImranR98){ .card-link title=Contribute }
+[:octicons-repo-16: 저장소](https://github.com/ImranR98/Obtainium#readme){ .md-button .md-button--primary }
+[:octicons-info-16:](https://github.com/ImranR98/Obtainium/wiki){ .card-link title="문서" }
+[:octicons-code-16:](https://github.com/ImranR98/Obtainium){ .card-link title="소스 코드" }
+[:octicons-heart-16:](https://github.com/sponsors/ImranR98){ .card-link title="후원하기" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>다운로드</summary>
 
-- [:simple-github: GitHub](https://github.com/ImranR98/Obtainium/releases)
+- [:simple-github: 깃허브](https://github.com/ImranR98/Obtainium/releases)
 
 </details>
 
 </div>
 
-Obtainium allows you to download APK installer files from a wide variety of sources, and it is up to you to ensure those sources and apps are legitimate. For example, using Obtainium to install Signal from [Signal's APK landing page](https://signal.org/android/apk) should be fine, but installing from third-party APK repositories like Aptoide or APKPure may pose additional risks. The risk of installing a malicious _update_ is lower, because Android itself verifies that all app updates are signed by the same developer as the existing app on your phone before installing them.
+옵테이니엄을 사용하면 매우 다양한 출처에서 APK 설치 파일을 다운로드할 수 있으며, 해당 출처와 앱이 신뢰할 수 있는 정식 출처와 앱인지 확인하는 것은 사용자의 몫입니다. 예를 들어 옵테이니엄으로 [시그널의 APK 배포 페이지](https://signal.org/android/apk)에서 시그널을 설치하는 것은 문제가 없겠지만, 앱토이드나 APKPure 같은 서드파티 APK 저장소에서 설치하는 것은 추가적인 위험을 초래할 수 있습니다. 악성 _업데이&#xD2B8;_&#xB97C; 설치할 위험은 상대적으로 낮은데, 안드로이드가 앱 업데이트를 설치하기 전에 해당 업데이트가 휴대폰에 이미 설치된 앱과 동일한 개발자에 의해 서명되었는지 자체적으로 확인하기 때문입니다.
 
-## GrapheneOS App Store
+## 그래핀OS 앱 스토어 { #grapheneos-app-store }
 
-GrapheneOS's app store is available on [GitHub](https://github.com/GrapheneOS/Apps/releases). It supports Android 12 and above and is capable of updating itself. The app store has standalone applications built by the GrapheneOS project such as the [Auditor](../device-integrity.md#auditor-android), [Camera](general-apps.md#secure-camera), and [PDF Viewer](general-apps.md#secure-pdf-viewer). If you are looking for these applications, we highly recommend that you get them from GrapheneOS's app store instead of the Play Store, as the apps on their store are signed by the GrapheneOS's project own signature that Google does not have access to.
+그래핀OS의 앱 스토어는 [깃허브](https://github.com/GrapheneOS/Apps/releases)에서 받을 수 있습니다. 안드로이드 12 이상을 지원하며, 앱 스토어 자체도 스스로 업데이트할 수 있습니다. 이 앱 스토어에서는 [오디터](../device-integrity.md#auditor-android), [카메라](general-apps.md#secure-camera), [PDF 뷰어](general-apps.md#secure-pdf-viewer) 등 그래핀OS 프로젝트에서 개발한 독립형 애플리케이션을 받을 수 있습니다. 이러한 애플리케이션이 필요하다면 플레이 스토어 대신 그래핀OS 앱 스토어에서 받는 것을 강력히 권장합니다. 그래핀OS 앱 스토어의 앱은 구글이 접근할 수 없는 그래핀OS 프로젝트 자체 서명으로 서명되어 있기 때문입니다.
 
-## Aurora Store
+## 오로라 스토어 { #aurora-store }
 
-The Google Play Store requires a Google account to log in, which is not great for privacy. You can get around this by using an alternative client, such as Aurora Store.
+구글 플레이 스토어는 로그인에 구글 계정이 필요하므로 프라이버시 측면에서 바람직하지 않습니다. 오로라 스토어 같은 대체 클라이언트를 사용하면 이 문제를 피할 수 있습니다.
 
 <div class="admonition recommendation" markdown>
 
-![Aurora Store logo](../assets/img/android/aurora-store.webp){ align=right }
+![오로라 스토어 로고](../assets/img/android/aurora-store.webp){ align=right }
 
-**Aurora Store** is a Google Play Store client which does not require a Google account, Google Play Services, or microG to download apps.
+**오로라 스토어**는 앱을 다운로드할 때 구글 계정, 구글 플레이 서비스, microG가 필요하지 않은 구글 플레이 스토어 클라이언트입니다.
 
-[:octicons-home-16: Homepage](https://auroraoss.com){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://gitlab.com/AuroraOSS/AuroraStore/-/blob/master/POLICY.md){ .card-link title="Privacy Policy" }
-[:octicons-code-16:](https://gitlab.com/AuroraOSS/AuroraStore){ .card-link title="Source Code" }
+[:octicons-home-16: 홈페이지](https://auroraoss.com){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://gitlab.com/AuroraOSS/AuroraStore/-/blob/master/POLICY.md){ .card-link title="개인정보 처리방침" }
+[:octicons-code-16:](https://gitlab.com/AuroraOSS/AuroraStore){ .card-link title="소스 코드" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>다운로드</summary>
 
-- [:simple-gitlab: GitLab](https://gitlab.com/AuroraOSS/AuroraStore/-/releases)
+- [:simple-gitlab: 깃랩](https://gitlab.com/AuroraOSS/AuroraStore/-/releases)
 
 </details>
 
 </div>
 
-Aurora Store does not allow you to download paid apps with their anonymous account feature. You can optionally log in with your Google account with Aurora Store to download apps you have purchased, which does give access to the list of apps you've installed to Google. However, you still benefit from not requiring the full Google Play client and Google Play Services or microG on your device.
+오로라 스토어의 익명 계정 기능으로는 유료 앱을 다운로드할 수 없습니다. 구매한 앱을 다운로드하려면 선택적으로 오로라 스토어에서 구글 계정으로 로그인할 수 있지만, 이 경우 구글이 사용자가 설치한 앱 목록에 접근할 수 있게 됩니다. 그렇더라도 기기에 정식 구글 플레이 클라이언트와 구글 플레이 서비스 또는 microG를 설치하지 않아도 된다는 이점은 여전히 누릴 수 있습니다.
 
-## Manually with RSS Notifications
+## RSS 알림을 활용한 수동 설치 { #manually-with-rss-notifications }
 
-For apps that are released on platforms like GitHub and GitLab, you may be able to add an RSS feed to your [news aggregator](../news-aggregators.md) that will help you keep track of new releases.
+깃허브나 깃랩 같은 플랫폼에서 배포되는 앱이라면, [뉴스 애그리게이터](../news-aggregators.md)에 RSS 피드를 추가하여 새 릴리스를 추적할 수 있습니다.
 
-![RSS APK](../assets/img/android/rss-apk-light.png#only-light) ![RSS APK](../assets/img/android/rss-apk-dark.png#only-dark) ![APK Changes](../assets/img/android/rss-changes-light.png#only-light) ![APK Changes](../assets/img/android/rss-changes-dark.png#only-dark)
+![RSS APK](../assets/img/android/rss-apk-light.png#only-light) ![RSS APK](../assets/img/android/rss-apk-dark.png#only-dark) ![APK 변경 사항](../assets/img/android/rss-changes-light.png#only-light) ![APK 변경 사항](../assets/img/android/rss-changes-dark.png#only-dark)
 
-### GitHub
+### 깃허브 { #github }
 
-On GitHub, using [Secure Camera](general-apps.md#secure-camera) as an example, you would navigate to its [releases page](https://github.com/GrapheneOS/Camera/releases) and append `.atom` to the URL:
+깃허브에서는 [시큐어 카메라](general-apps.md#secure-camera)를 예로 들면, 해당 앱의 [릴리스 페이지](https://github.com/GrapheneOS/Camera/releases)로 이동한 뒤 URL 끝에 `.atom`을 추가하면 됩니다:
 
 `https://github.com/GrapheneOS/Camera/releases.atom`
 
-### GitLab
+### 깃랩 { #gitlab }
 
-On GitLab, using [Aurora Store](#aurora-store) as an example, you would navigate to its [project repository](https://gitlab.com/AuroraOSS/AuroraStore) and append `/-/tags?format=atom` to the URL:
+깃랩에서는 [오로라 스토어](#aurora-store)를 예로 들면, 해당 앱의 [프로젝트 저장소](https://gitlab.com/AuroraOSS/AuroraStore)로 이동한 뒤 URL 끝에 `/-/tags?format=atom`을 추가하면 됩니다:
 
 `https://gitlab.com/AuroraOSS/AuroraStore/-/tags?format=atom`
 
-### Verifying APK Fingerprints
+### APK 지문 확인하기 { #verifying-apk-fingerprints }
 
-If you download APK files to install manually, you can verify their signature with the [`apksigner`](https://developer.android.com/studio/command-line/apksigner) tool, which is a part of Android [build-tools](https://developer.android.com/studio/releases/build-tools).
+APK 파일을 직접 다운로드하여 수동으로 설치하는 경우, 안드로이드 [build-tools](https://developer.android.com/studio/releases/build-tools)에 포함된 [`apksigner`](https://developer.android.com/studio/command-line/apksigner) 도구로 서명을 확인할 수 있습니다.
 
-1. Install [Java JDK](https://oracle.com/java/technologies/downloads).
+1. [자바 JDK](https://oracle.com/java/technologies/downloads)를 설치합니다.
 
-2. Download the [Android Studio command line tools](https://developer.android.com/studio#command-tools).
+2. [안드로이드 스튜디오 명령줄 도구](https://developer.android.com/studio#command-tools)를 다운로드합니다.
 
-3. Extract the downloaded archive:
+3. 다운로드한 압축 파일을 해제합니다:
 
    ```bash
    unzip commandlinetools-*.zip
@@ -92,13 +92,13 @@ If you download APK files to install manually, you can verify their signature wi
    ./bin/sdkmanager --sdk_root=./ "build-tools;29.0.3"
    ```
 
-4. Run the signature verification command:
+4. 서명 확인 명령을 실행합니다:
 
    ```bash
    ./build-tools/29.0.3/apksigner verify --print-certs ../Camera-37.apk
    ```
 
-5. The resulting hashes can then be compared with another source. Some developers such as Signal [show the fingerprints](https://signal.org/android/apk) on their website.
+5. 출력된 해시를 다른 출처의 값과 비교합니다. 시그널처럼 일부 개발자는 웹사이트에 [지문을 공개](https://signal.org/android/apk)하고 있습니다.
 
    ```bash
    Signer #1 certificate DN: CN=GrapheneOS
@@ -109,19 +109,19 @@ If you download APK files to install manually, you can verify their signature wi
 
 ## F-Droid
 
-![F-Droid logo](../assets/img/android/f-droid.svg){ align=right width=120px }
+![F-Droid 로고](../assets/img/android/f-droid.svg){ align=right width=120px }
 
-\==We only recommend F-Droid as a way to obtain apps which cannot be obtained via the means above.== F-Droid is often recommended as an alternative to Google Play, particularly within the privacy community. The option to add third-party repositories and not be confined to Google's walled garden has led to its popularity. F-Droid additionally has [reproducible builds](https://f-droid.org/en/docs/Reproducible_Builds) for some applications and is dedicated to free and open-source software. However, there are some security-related downsides to how F-Droid builds, signs, and delivers packages:
+\==F-Droid는 위의 방법으로 받을 수 없는 앱을 받는 용도로만 권장합니다.== F-Droid는 특히 프라이버시 커뮤니티에서 구글 플레이의 대안으로 자주 추천됩니다. 서드파티 저장소를 추가할 수 있어 구글의 폐쇄형 생태계에 갇히지 않아도 된다는 점이 인기의 요인입니다. 또한 F-Droid는 일부 애플리케이션에 대해 [재현 가능한 빌드](https://f-droid.org/en/docs/Reproducible_Builds)를 제공하며, 자유 오픈 소스 소프트웨어에 전념하고 있습니다. 하지만 F-Droid가 패키지를 빌드하고, 서명하고, 배포하는 방식에는 보안과 관련된 몇 가지 단점이 있습니다:
 
-Due to their process of building apps, apps in the _official_ F-Droid repository often fall behind on updates. F-Droid maintainers also reuse package IDs while signing apps with their own keys, which is not ideal as it gives the F-Droid team ultimate trust. Additionally, the requirements for an app to be included in the official F-Droid repo are less strict than other app stores like Google Play, meaning that F-Droid tends to host a lot more apps which are older, unmaintained, or otherwise no longer meet [modern security standards](https://developer.android.com/google/play/requirements/target-sdk).
+앱을 빌드하는 과정 때문에 _공식_ F-Droid 저장소의 앱은 업데이트가 늦어지는 경우가 많습니다. 또한 F-Droid 관리자는 패키지 ID를 재사용하면서 자체 키로 앱에 서명하는데, 이는 F-Droid 팀에 절대적인 신뢰를 부여하는 것이므로 바람직하지 않습니다. 게다가 공식 F-Droid 저장소에 앱이 등록되기 위한 요건은 구글 플레이 같은 다른 앱 스토어보다 덜 엄격하기 때문에, F-Droid에는 오래되었거나 유지 관리되지 않거나 더 이상 [최신 보안 기준](https://developer.android.com/google/play/requirements/target-sdk)을 충족하지 않는 앱이 훨씬 많은 편입니다.
 
-Other popular third-party repositories for F-Droid such as [IzzyOnDroid](https://apt.izzysoft.de/fdroid) alleviate some of these concerns. The IzzyOnDroid repository pulls builds directly from code forges (GitHub, GitLab, etc.) and is the next best thing to the developers' own repositories. They also offer [reproducible builds](https://android.izzysoft.de/articles/named/iod-rbs-mirrors-clients) for hundreds of applications and have developers who verify the reproducibility of developer-signed APKs. Furthermore, the IzzyOnDroid team conducts [additional security scans](https://android.izzysoft.de/articles/named/iod-scan-apkchecks) of apps housed in the repo, which usually result in [deliberations](https://github.com/gouravkhunger/QuotesApp/issues/22) between them and app developers toward privacy improvements in their apps. Note that apps may be removed from the IzzyOnDroid repo in [certain circumstances](https://gitlab.com/IzzyOnDroid/repo#are-apps-removed-from-the-repo--and-when-does-that-happen).
+[이지온드로이드](https://apt.izzysoft.de/fdroid) 같은 다른 인기 있는 F-Droid 서드파티 저장소는 이러한 우려를 일부 해소해 줍니다. 이지온드로이드 저장소는 코드 호스팅 플랫폼(깃허브, 깃랩 등)에서 빌드를 직접 가져오므로 개발자 자체 저장소 다음으로 가장 좋은 선택지입니다. 또한 수백 개의 애플리케이션에 대해 [재현 가능한 빌드](https://android.izzysoft.de/articles/named/iod-rbs-mirrors-clients)를 제공하며, 개발자가 서명한 APK의 재현 가능성을 검증하는 개발자들도 두고 있습니다. 아울러 이지온드로이드 팀은 저장소에 등록된 앱을 대상으로 [추가 보안 검사](https://android.izzysoft.de/articles/named/iod-scan-apkchecks)를 수행하며, 이는 대개 앱의 프라이버시 개선을 위한 팀과 앱 개발자 간의 [논의](https://github.com/gouravkhunger/QuotesApp/issues/22)로 이어집니다. 단, [특정 상황](https://gitlab.com/IzzyOnDroid/repo#are-apps-removed-from-the-repo--and-when-does-that-happen)에서는 앱이 이지온드로이드 저장소에서 삭제될 수 있다는 점에 유의하세요.
 
-The [F-Droid](https://f-droid.org/en/packages) and [IzzyOnDroid](https://apt.izzysoft.de/fdroid) repositories are home to countless apps, so they can be useful places to search for and discover open-source apps that you can then download through other means such as the Play Store, Aurora Store, or by getting the APK directly from the developer. You should use your best judgment when looking for new apps via this method, and keep an eye on how frequently the app is updated. Outdated apps may rely on unsupported libraries, among other things, posing a potential security risk.
+[F-Droid](https://f-droid.org/en/packages)와 [이지온드로이드](https://apt.izzysoft.de/fdroid) 저장소에는 수많은 앱이 있으므로, 오픈 소스 앱을 검색하고 발견하는 곳으로 유용하게 활용할 수 있습니다. 이렇게 찾은 앱은 플레이 스토어나 오로라 스토어 등 다른 경로를 통하거나 개발자에게서 APK를 직접 받아 설치하면 됩니다. 이 방법으로 새 앱을 찾을 때는 신중하게 판단해야 하며, 앱이 얼마나 자주 업데이트되는지도 꼭 살펴봐야 합니다. 오래된 앱은 지원이 종료된 라이브러리 등에 의존할 수 있어 잠재적인 보안 위험이 될 수 있습니다.
 
 <div class="admonition note" markdown>
 <p class="admonition-title">F-Droid Basic</p>
 
-In some rare cases, an app may only be available through F-Droid. If you really need an app like that, we recommend using the newer [F-Droid Basic](https://f-droid.org/en/packages/org.fdroid.basic) client instead of the original F-Droid app to obtain it, as it has a reduced feature set (limiting attack surface).
+드물게 F-Droid를 통해서만 받을 수 있는 앱도 있습니다. 그런 앱이 꼭 필요하다면 기존 F-Droid 앱 대신 최신 [F-Droid Basic](https://f-droid.org/en/packages/org.fdroid.basic) 클라이언트를 사용해 받는 것을 권장합니다. F-Droid Basic은 기능이 축소되어 있어 공격 표면이 줄어들기 때문입니다.
 
 </div>

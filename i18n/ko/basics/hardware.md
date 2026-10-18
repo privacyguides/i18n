@@ -1,152 +1,152 @@
 ---
-title: "Choosing Your Hardware"
+title: "하드웨어 선택하기"
 icon: 'material/chip'
-description: Software isn't all that matters; learn about the hardware tools you use every day to protect your privacy.
+description: 소프트웨어만 중요한 것이 아닙니다. 프라이버시를 보호하기 위해 매일 사용하는 하드웨어 도구에 대해 알아보세요.
 ---
 
-When it comes to discussions about privacy, hardware is often not thought about as much as what software we use. Your hardware should be considered the foundation on which you build the rest of your privacy setup.
+프라이버시를 논할 때, 하드웨어는 어떤 소프트웨어를 사용하는지에 비해 덜 고려되는 경우가 많습니다. 하드웨어는 나머지 프라이버시 환경을 구축하는 기반으로 생각해야 합니다.
 
-## Picking a Computer
+## 컴퓨터 고르기 { #picking-a-computer }
 
-The internals of your devices process and store all of your digital data. It is important that all devices are supported by the manufacturer and developers by continuing to receive security updates.
+기기 내부 부품은 여러분의 모든 디지털 데이터를 처리하고 저장합니다. 모든 기기가 제조사와 개발자의 지원을 받아 계속 보안 업데이트를 받는 것이 중요합니다.
 
-### Hardware Security Programs
+### 하드웨어 보안 프로그램 { #hardware-security-programs }
 
-Some devices will have a "hardware security program", which is a collaboration between vendors on best practices and recommendations when designing hardware, for example:
+일부 기기는 "하드웨어 보안 프로그램"에 참여하고 있는데, 이는 하드웨어 설계 시의 모범 사례와 권장 사항에 관한 제조사 간 협력입니다. 예를 들면 다음과 같습니다:
 
-- [Windows Secured-core PCs](https://learn.microsoft.com/en-us/windows-hardware/design/device-experiences/oem-highly-secure-11) meet a higher security criteria specified by Microsoft. These protections aren't only applicable to Windows users; Users of other operating systems can still take advantage of features like [DMA protection](https://learn.microsoft.com/en-us/windows/security/information-protection/kernel-dma-protection-for-thunderbolt) and the ability to completely distrust Microsoft certificates.
-- [Android Ready SE](https://developers.google.com/android/security/android-ready-se) is a collaboration between vendors to ensure their devices follow [best practices](https://source.android.com/docs/security/best-practices/hardware) and include tamper resistant hardware backed storage for things like encryption keys.
-- macOS running on an Apple SoC takes advantage of [hardware security](../os/macos-overview.md#hardware-security) which may not be available with third party operating systems.
-- [ChromeOS security](https://chromium.org/chromium-os/developer-library/reference/security/security-whitepaper) is at its best when running on a Chromebook as it is able to make use of available hardware features such as the [hardware root-of-trust](https://chromium.org/chromium-os/developer-library/reference/security/security-whitepaper/#hardware-root-of-trust-and-verified-boot).
+- [윈도우 보안 코어 PC](https://learn.microsoft.com/en-us/windows-hardware/design/device-experiences/oem-highly-secure-11)는 마이크로소프트가 정한 더 높은 보안 기준을 충족합니다. 이러한 보호 기능은 윈도우 사용자에게만 해당되는 것이 아닙니다. 다른 운영 체제 사용자도 [DMA 보호](https://learn.microsoft.com/en-us/windows/security/information-protection/kernel-dma-protection-for-thunderbolt) 같은 기능과 마이크로소프트 인증서를 완전히 불신하도록 설정하는 기능을 활용할 수 있습니다.
+- [안드로이드 레디 SE](https://developers.google.com/android/security/android-ready-se)는 기기가 [모범 사례](https://source.android.com/docs/security/best-practices/hardware)를 따르고 암호화 키 등을 위한 변조 방지 하드웨어 기반 저장소를 갖추도록 하기 위한 제조사 간 협력입니다.
+- 애플 SoC에서 실행되는 macOS는 서드파티 운영 체제에서는 사용할 수 없을 수도 있는 [하드웨어 보안](../os/macos-overview.md#hardware-security)을 활용합니다.
+- [크롬OS 보안](https://chromium.org/chromium-os/developer-library/reference/security/security-whitepaper)은 크롬북에서 실행될 때 가장 강력한데, [하드웨어 신뢰 루트](https://chromium.org/chromium-os/developer-library/reference/security/security-whitepaper/#hardware-root-of-trust-and-verified-boot) 같은 하드웨어 기능을 활용할 수 있기 때문입니다.
 
-Even if you don't use these operating systems, participation in these programs may indicate that the manufacturer is following best practices when it comes to hardware security and updates.
+이러한 운영 체제를 사용하지 않더라도, 이런 프로그램에 참여한다는 것은 제조사가 하드웨어 보안과 업데이트에 관한 모범 사례를 따르고 있다는 신호일 수 있습니다.
 
-### Preinstalled OS
+### 사전 설치된 OS { #preinstalled-os }
 
-New computers nearly always come with Windows preinstalled, unless you buy a Mac or a specialty Linux machine. It's usually a good idea to wipe the drive and install a fresh copy of your operating system of choice, even if that means just reinstalling Windows from scratch. Due to agreements between hardware vendors and shady software vendors, the default Windows install often comes preloaded with bloatware, [adware](https://bleepingcomputer.com/news/technology/lenovo-gets-a-slap-on-the-wrist-for-superfish-adware-scandal), or even [malware](https://zdnet.com/article/dell-poweredge-motherboards-ship-with-malware).
+맥이나 리눅스 전용 기기를 구매하는 경우가 아니라면, 새 컴퓨터에는 거의 항상 윈도우가 사전 설치되어 있습니다. 윈도우를 처음부터 다시 설치하는 것이더라도, 드라이브를 초기화하고 원하는 운영 체제를 새로 설치하는 것이 대개 좋습니다. 하드웨어 제조사와 수상한 소프트웨어 업체 간의 계약 때문에, 기본 설치된 윈도우에는 블로트웨어, [애드웨어](https://bleepingcomputer.com/news/technology/lenovo-gets-a-slap-on-the-wrist-for-superfish-adware-scandal), 심지어 [멀웨어](https://zdnet.com/article/dell-poweredge-motherboards-ship-with-malware)까지 미리 설치되어 있는 경우가 많습니다.
 
-### 펌웨어 업데이트
+### 펌웨어 업데이트 { #firmware-updates }
 
-Hardware often has security issues that are discovered and patched through firmware updates for your hardware.
+하드웨어에는 보안 문제가 있는 경우가 많으며, 이러한 문제는 하드웨어의 펌웨어 업데이트를 통해 발견되고 패치됩니다.
 
-Almost every component of your computer requires firmware to operate, from your motherboard to your storage devices. It is ideal for all the components of your device to be fully supported. Apple devices, Chromebooks, most Android phones, and Microsoft Surface devices will handle firmware updates for you as long as the device is supported.
+메인보드부터 저장 장치까지, 컴퓨터의 거의 모든 부품은 작동하는 데 펌웨어가 필요합니다. 기기의 모든 부품이 완전히 지원되는 것이 이상적입니다. 애플 기기, 크롬북, 대부분의 안드로이드 휴대폰, 마이크로소프트 서피스 기기는 지원 기간 동안 펌웨어 업데이트를 알아서 처리합니다.
 
-If you build your own PC, you may need to manually update your motherboard's firmware by downloading it from your OEM's website. If you use Linux, consider using the built-in [`fwupd`](https://fwupd.org) tool that will let you check for and apply any firmware updates available for your motherboard.
+PC를 직접 조립했다면 OEM 웹사이트에서 메인보드 펌웨어를 다운로드하여 수동으로 업데이트해야 할 수 있습니다. 리눅스를 사용한다면 메인보드에 사용 가능한 펌웨어 업데이트를 확인하고 적용할 수 있는 내장 도구 [`fwupd`](https://fwupd.org)를 사용해 보세요.
 
-### TPM/Secure Cryptoprocessor
+### TPM/보안 암호 프로세서 { #tpmsecure-cryptoprocessor }
 
-Most computers and phones come equipped with a TPM (or a similar secure cryptoprocessor) which safely stores your encryption keys and handles other security-related functions. If you're currently using a machine that doesn't have one of these, you might benefit from purchasing a newer computer that has this feature. Some desktop and server motherboards have a "TPM header" which can accept a small accessory board containing the TPM.
-
-<div class="admonition Note" markdown>
-<p class="admonition-title">Note</p>
-
-Virtual TPMs are susceptible to side-channel attacks and external TPMs, as a result of being separate from the CPU on the motherboard, are vulnerable to [sniffing](https://pulsesecurity.co.nz/articles/TPM-sniffing) when an attacker has access to the hardware. The solution to this problem is to include the secure processor inside the CPU itself, which is the case for Apple's chips and Microsoft's [Pluton](https://microsoft.com/en-us/security/blog/2020/11/17/meet-the-microsoft-pluton-processor-the-security-chip-designed-for-the-future-of-windows-pcs).
-
-</div>
-
-### Biometrics
-
-Many devices come equipped with a fingerprint reader or face recognition capabilities. These can be very convenient, but they aren't perfect and sometimes fail. Most devices will fall back to a PIN or password when this happens, meaning that the security of your devices is still only as good as your password.
-
-Biometrics can prevent someone from watching you type in your password, so if shoulder-surfing is part of your threat model then biometrics are a good option.
-
-Most implementations of face authentication require you to be looking at your phone and also only work from a relatively close distance, so you don't need to worry too much about someone pointing your phone at your face to unlock it without your consent. You can still disable biometrics when your phone is locked if you want. On iOS, you can hold the side button and a volume button for 3 seconds to disable Face ID on models that support it. On Android, hold the power button and press Lockdown on the menu.
-
-<div class="admonition warning" markdown>
-<p class="admonition-title">주의</p>
-
-Some devices do not have the proper hardware for secure face authentication. There are two main types of face authentication: 2D and 3D. 3D face authentication makes use of a dot projector that lets the device create a 3D depth map of your face. Make sure that your device has this capability.
-
-</div>
-
-Android defines three [security classes](https://source.android.com/docs/security/features/biometric/measure#biometric-classes) for biometrics; you should check that your device is Class 3 before enabling biometrics.
-
-### Device Encryption
-
-If your device is [encrypted](../encryption.md), your data is most secure when your device is completely powered off (as opposed to merely asleep), i.e. before you've entered your encryption key or lock screen password for the first time. On phones, this state of higher security is referred to as "Before First Unlock" (BFU), and "After First Unlock" (AFU) once you enter the correct password after a reboot/power-on. AFU is considerably less secure against digital forensics toolkits and other exploits, compared to BFU. Therefore, if you are concerned about an attacker with physical access to your device, you should turn it off fully whenever you aren't using it.
-
-This may be impractical, so consider whether it's worth it, but in either case even AFU mode is effective against most threats, given you are using a strong encryption key.
-
-## External Hardware
-
-Some threats can't be protected against by your internal components alone. Many of these options are highly situational; please evaluate if they are really necessary for your threat model.
-
-### 하드웨어 보안 키
-
-Hardware keys are devices that use strong cryptography to authenticate you to a device or account. The idea is that because they can not be copied, you can use them to secure accounts in such a way that they can only be accessed with physical possession of the key, eliminating many remote attacks.
-
-[Recommended Hardware Keys :material-arrow-right-drop-circle:](../security-keys.md){ .md-button .md-button--primary } [Learn More about Hardware Keys :material-arrow-right-drop-circle:](multi-factor-authentication.md#hardware-security-keys){ .md-button }
-
-### Camera/Microphone
-
-If you don't want to trust your OS's permission controls to prevent the camera from activating in the first place, you can buy camera blockers that physically prevent light from reaching the camera. You could also buy a device that doesn't have a built-in camera and use an external camera that you can unplug whenever you're done using it. Some devices come with built-in camera blockers or hardware switches that physically disconnect the camera from power.
-
-<div class="admonition warning" markdown>
-<p class="admonition-title">주의</p>
-
-You should only buy covers that fit your laptop and won't cause damage when you close the lid. Covering the camera will interfere with automatic brightness and face authentication features.
-
-</div>
-
-For microphone access, in most cases you will need to trust your OS's built-in permission controls. Alternatively, buy a device that doesn't have a built-in microphone and use an external microphone that you can unplug when you're done using it. Some devices, like a [MacBook or an iPad](https://support.apple.com/guide/security/hardware-microphone-disconnect-secbbd20b00b/web), feature a hardware disconnect for the microphone when you close the lid.
-
-Many computers have a BIOS option to disable the camera and microphone. When disabled there, the hardware won't even appear as a device on a booted system.
-
-### Privacy Screens
-
-Privacy screens are a film you can put over your normal screen so that the screen is only visible from a certain angle. These are good if your threat model includes others peeking at your screen, but it is not foolproof as anyone could just move to a different viewing angle and see what's on your screen.
-
-### Dead Man's Switches
-
-A dead man's switch stops a piece of machinery from operating without the presence of a human operator. These were originally designed as a safety measure, but the same concept can be applied to an electronic device to lock it when you're not present.
-
-Some laptops are able to [detect](https://support.microsoft.com/en-us/windows/managing-presence-sensing-settings-in-windows-11-82285c93-440c-4e15-9081-c9e38c1290bb) when you're present and can lock automatically when you aren't sitting in front of the screen. You should check the settings in your OS to see if your computer supports this feature.
-
-You can also get cables, like [BusKill](https://buskill.in), that will lock or wipe your computer when the cable is disconnected.
-
-### Anti-Interdiction/Evil Maid Attack
-
-The best way to prevent a targeted attack against you before a device is in your possession is to purchase a device in a physical store, rather than ordering it to your address.
-
-Make sure your device supports secure boot/verified boot, and you have it enabled. Try to avoid leaving your device unattended whenever possible.
-
-### Kensington Locks
-
-Many laptops come equipped with a [Kensington slot](https://www.kensington.com/solutions/product-category/security/?srsltid=AfmBOorQOlRnqRJOAqM-Mvl7wumed0wBdiOgktlvdidpMHNIvGfwj9VI) that can be used to secure your device with a **metal cable** that locks into the slot on your machine. These locks can be combination locks or keyed.
-
-As with all locks, Kensington locks are vulnerable to [physical attacks](https://youtu.be/vgvCxL7dMJk) so you should mainly use them to deter petty theft. You can secure your laptop at home or even when you're out in public using a table leg or something that won't move easily.
-
-## Secure your Network
-
-### Compartmentalization
-
-Many solutions exist that allow you to separate what you're doing on a computer, such as virtual machines and sandboxing. However, the best compartmentalization is physical separation. This is useful especially for situations where certain software requires you to bypass security features in your OS, such as with anti-cheat software bundled with many games.
-
-For gaming, it may be useful to designate one machine as your "gaming" machine and only use it for that one task. Keep it on a separate VLAN. This may require the use of a managed switch and a router that supports segregated networks.
-
-Most consumer routers allow you to do this by enabling a separate "guest" network that can't talk to your main network. All untrusted devices can go here, including IoT devices like your smart fridge, thermostat, TV, etc.
-
-### Minimalism
-
-As the saying goes, "less is more". The fewer devices you have connected to your network, the less potential attack surface you'll have and the less work it will be to make sure they all stay up-to-date.
-
-You may find it useful to go around your home and make a list of every connected device you have to help you keep track.
-
-### Routers
-
-Your router handles all your network traffic and acts as your first line of defense between you and the open internet.
+대부분의 컴퓨터와 휴대폰에는 암호화 키를 안전하게 저장하고 기타 보안 관련 기능을 처리하는 TPM(또는 이와 유사한 보안 암호 프로세서)이 탑재되어 있습니다. 현재 이런 기능이 없는 기기를 사용하고 있다면, 이 기능이 있는 최신 컴퓨터를 구매하는 것이 도움이 될 수 있습니다. 일부 데스크톱 및 서버 메인보드에는 TPM이 들어 있는 소형 보조 기판을 장착할 수 있는 "TPM 헤더"가 있습니다.
 
 <div class="admonition Note" markdown>
-<p class="admonition-title">Note</p>
+<p class="admonition-title">참고</p>
 
-A lot of routers come with storage to put your files on so you can access them from any computer on your network. We recommend you don't use networking devices for things other than networking. In the event your router was compromised, your files would also be compromised.
+가상 TPM은 부채널 공격에 취약하고, 외장 TPM은 메인보드상에서 CPU와 분리되어 있기 때문에 공격자가 하드웨어에 접근할 수 있는 경우 [스니핑](https://pulsesecurity.co.nz/articles/TPM-sniffing)에 취약합니다. 이 문제의 해결책은 보안 프로세서를 CPU 내부에 포함하는 것으로, 애플의 칩과 마이크로소프트의 [플루톤](https://microsoft.com/en-us/security/blog/2020/11/17/meet-the-microsoft-pluton-processor-the-security-chip-designed-for-the-future-of-windows-pcs)이 이러한 방식을 사용합니다.
 
 </div>
 
-The most important thing to think about with routers is keeping them up-to-date. Many modern routers will automatically install updates, but many others won't. You should check on your router's settings page for this option. That page can usually be accessed by typing `192.168.1.1` or `192.168.0.1` into the URL bar of any browser assuming you're on the same network. You can also check in the network settings of your OS for "router" or "gateway".
+### 생체 인식 { #biometrics }
 
-If your router does not support automatic updates, you will need to go to the manufacturer's site to download the updates and apply them manually.
+많은 기기에 지문 인식기나 얼굴 인식 기능이 탑재되어 있습니다. 매우 편리할 수 있지만 완벽하지는 않으며 가끔 실패하기도 합니다. 이런 경우 대부분의 기기는 PIN이나 비밀번호로 대체하므로, 기기의 보안은 결국 비밀번호의 강도에 달려 있습니다.
 
-Many consumer-grade routers aren't supported for very long. If your router isn't supported by the manufacturer anymore, you can check if it's supported by [FOSS firmware](../router.md). You can also buy routers that come with FOSS firmware installed by default; these tend to be supported longer than most routers.
+생체 인식은 누군가 여러분이 비밀번호를 입력하는 모습을 엿보는 것을 막아 줄 수 있으므로, 어깨너머로 훔쳐보는 것(숄더 서핑)이 위협 모델에 포함된다면 좋은 선택지입니다.
 
-Some ISPs provide a combined router/modem. It can be beneficial for security to purchase a separate router and set your ISP router/modem into modem-only mode. This way, even when your ISP-provided router is no longer getting updates, you can still get security updates and patches. It also means any problems that affect your modem won't affect your router and vice versa.
+대부분의 얼굴 인증 구현은 사용자가 휴대폰을 바라보고 있어야 하고 비교적 가까운 거리에서만 작동하므로, 누군가 여러분의 동의 없이 휴대폰을 얼굴에 들이대 잠금을 해제할까 봐 크게 걱정할 필요는 없습니다. 원한다면 휴대폰이 잠겨 있을 때 생체 인식을 비활성화할 수 있습니다. iOS에서는 Face ID를 지원하는 모델에서 측면 버튼과 음량 버튼 하나를 3초 동안 길게 누르면 Face ID를 비활성화할 수 있습니다. 안드로이드에서는 전원 버튼을 길게 누른 다음 메뉴에서 잠금 모드를 누르세요.
+
+<div class="admonition warning" markdown>
+<p class="admonition-title">경고</p>
+
+일부 기기는 안전한 얼굴 인증을 위한 적절한 하드웨어를 갖추고 있지 않습니다. 얼굴 인증에는 크게 2D와 3D 두 가지 방식이 있습니다. 3D 얼굴 인증은 도트 프로젝터를 사용하여 기기가 얼굴의 3D 깊이 맵을 생성할 수 있게 합니다. 기기에 이 기능이 있는지 확인하세요.
+
+</div>
+
+안드로이드는 생체 인식에 대해 세 가지 [보안 등급](https://source.android.com/docs/security/features/biometric/measure#biometric-classes)을 정의하고 있으므로, 생체 인식을 활성화하기 전에 기기가 클래스 3인지 확인해야 합니다.
+
+### 기기 암호화 { #device-encryption }
+
+기기가 [암호화](../encryption.md)되어 있다면, 데이터는 기기가 (단순히 절전 상태가 아니라) 완전히 꺼져 있을 때, 즉 암호화 키나 잠금 화면 비밀번호를 처음 입력하기 전일 때 가장 안전합니다. 휴대폰에서는 이처럼 보안이 높은 상태를 "첫 잠금 해제 전"(BFU)이라고 하며, 재부팅하거나 전원을 켠 후 올바른 비밀번호를 입력하면 "첫 잠금 해제 후"(AFU) 상태가 됩니다. AFU는 BFU에 비해 디지털 포렌식 도구와 기타 익스플로잇에 상당히 취약합니다. 따라서 기기에 물리적으로 접근할 수 있는 공격자가 우려된다면, 사용하지 않을 때마다 기기를 완전히 꺼 두어야 합니다.
+
+이는 비현실적일 수 있으므로 그만한 가치가 있는지 고려해 보세요. 어느 쪽이든 강력한 암호화 키를 사용하고 있다면 AFU 모드만으로도 대부분의 위협에 효과적입니다.
+
+## 외부 하드웨어 { #external-hardware }
+
+일부 위협은 내부 부품만으로는 막을 수 없습니다. 이러한 선택지 중 상당수는 상황에 크게 좌우되므로, 여러분의 위협 모델에 정말 필요한지 평가해 보세요.
+
+### 하드웨어 보안 키 { #hardware-security-keys }
+
+하드웨어 키는 강력한 암호 기술을 사용하여 기기나 계정에 대해 여러분을 인증하는 장치입니다. 하드웨어 키는 복사할 수 없으므로, 키를 물리적으로 소지해야만 접근할 수 있도록 계정을 보호하여 많은 원격 공격을 차단할 수 있다는 것이 핵심 개념입니다.
+
+[추천 하드웨어 키 :material-arrow-right-drop-circle:](../security-keys.md){ .md-button .md-button--primary } [하드웨어 키에 대해 자세히 알아보기 :material-arrow-right-drop-circle:](multi-factor-authentication.md#hardware-security-keys){ .md-button }
+
+### 카메라/마이크 { #cameramicrophone }
+
+처음부터 카메라가 작동하지 않도록 운영 체제의 권한 제어를 신뢰하고 싶지 않다면, 빛이 카메라에 닿지 않도록 물리적으로 막는 카메라 차단 커버를 구매할 수 있습니다. 내장 카메라가 없는 기기를 구매하고, 사용이 끝나면 분리할 수 있는 외장 카메라를 사용하는 방법도 있습니다. 일부 기기에는 카메라 차단 커버가 내장되어 있거나, 카메라 전원을 물리적으로 차단하는 하드웨어 스위치가 있습니다.
+
+<div class="admonition warning" markdown>
+<p class="admonition-title">경고</p>
+
+커버는 노트북에 맞고 덮개를 닫을 때 손상을 일으키지 않는 것만 구매해야 합니다. 카메라를 가리면 자동 밝기 및 얼굴 인증 기능이 제대로 작동하지 않습니다.
+
+</div>
+
+마이크 접근은 대부분의 경우 운영 체제에 내장된 권한 제어를 신뢰해야 합니다. 또는 내장 마이크가 없는 기기를 구매하고, 사용이 끝나면 분리할 수 있는 외장 마이크를 사용하세요. [맥북이나 아이패드](https://support.apple.com/guide/security/hardware-microphone-disconnect-secbbd20b00b/web) 같은 일부 기기는 덮개를 닫으면 마이크를 하드웨어적으로 차단하는 기능이 있습니다.
+
+많은 컴퓨터에는 카메라와 마이크를 비활성화하는 BIOS 옵션이 있습니다. 여기서 비활성화하면 부팅된 시스템에서 해당 하드웨어가 장치로 나타나지도 않습니다.
+
+### 사생활 보호 필름 { #privacy-screens }
+
+사생활 보호 필름은 일반 화면 위에 붙여 특정 각도에서만 화면이 보이도록 하는 필름입니다. 다른 사람이 화면을 엿보는 것이 위협 모델에 포함된다면 유용하지만, 누구든 다른 각도로 이동하면 화면 내용을 볼 수 있으므로 완벽하지는 않습니다.
+
+### 데드맨 스위치 { #dead-mans-switches }
+
+데드맨 스위치는 사람이 조작하고 있지 않으면 기계가 작동하지 않도록 멈추는 장치입니다. 원래는 안전 장치로 고안되었지만, 같은 개념을 전자 기기에 적용하여 여러분이 자리에 없을 때 기기를 잠글 수 있습니다.
+
+일부 노트북은 사용자가 있는지 [감지](https://support.microsoft.com/en-us/windows/managing-presence-sensing-settings-in-windows-11-82285c93-440c-4e15-9081-c9e38c1290bb)하여, 화면 앞에 앉아 있지 않으면 자동으로 잠길 수 있습니다. 컴퓨터가 이 기능을 지원하는지 운영 체제 설정에서 확인해 보세요.
+
+[버스킬](https://buskill.in) 같은 케이블을 사용하면 케이블이 분리될 때 컴퓨터를 잠그거나 초기화할 수도 있습니다.
+
+### 배송 중 가로채기 방지/이블 메이드 공격 { #anti-interdictionevil-maid-attack }
+
+기기를 손에 넣기 전에 여러분을 노리는 표적 공격을 막는 가장 좋은 방법은 주소지로 주문하는 대신 오프라인 매장에서 기기를 구매하는 것입니다.
+
+기기가 보안 부팅/자체 검사 부팅을 지원하고 이 기능이 활성화되어 있는지 확인하세요. 가능하면 기기를 방치하지 않도록 하세요.
+
+### 켄싱턴 잠금장치 { #kensington-locks }
+
+많은 노트북에는 [켄싱턴 슬롯](https://www.kensington.com/solutions/product-category/security/?srsltid=AfmBOorQOlRnqRJOAqM-Mvl7wumed0wBdiOgktlvdidpMHNIvGfwj9VI)이 있어, 기기의 슬롯에 고정되는 **금속 케이블**로 기기를 보호할 수 있습니다. 이러한 잠금장치는 다이얼식일 수도 있고 열쇠식일 수도 있습니다.
+
+다른 모든 자물쇠와 마찬가지로 켄싱턴 잠금장치도 [물리적 공격](https://youtu.be/vgvCxL7dMJk)에 취약하므로, 주로 좀도둑을 막는 용도로 사용해야 합니다. 집에서는 물론 외출 중에도 책상 다리처럼 쉽게 움직이지 않는 것에 노트북을 고정할 수 있습니다.
+
+## 네트워크 보호하기 { #secure-your-network }
+
+### 구획화 { #compartmentalization }
+
+가상 머신이나 샌드박싱처럼 컴퓨터에서 하는 작업을 분리할 수 있는 다양한 방법이 있습니다. 하지만 가장 좋은 구획화는 물리적 분리입니다. 이는 많은 게임에 포함된 안티치트 소프트웨어처럼, 특정 소프트웨어가 운영 체제의 보안 기능을 우회하도록 요구하는 상황에서 특히 유용합니다.
+
+게임의 경우, 한 대의 기기를 "게임용" 기기로 지정하고 그 용도로만 사용하는 것이 유용할 수 있습니다. 이 기기는 별도의 VLAN에 두세요. 이를 위해서는 관리형 스위치와 분리된 네트워크를 지원하는 라우터가 필요할 수 있습니다.
+
+대부분의 일반 가정용 라우터에서는 메인 네트워크와 통신할 수 없는 별도의 "게스트" 네트워크를 활성화하여 이를 구현할 수 있습니다. 스마트 냉장고, 온도 조절기, TV 같은 IoT 기기를 포함해 신뢰할 수 없는 모든 기기는 이 네트워크에 연결하면 됩니다.
+
+### 미니멀리즘 { #minimalism }
+
+"적을수록 좋다"라는 말이 있습니다. 네트워크에 연결된 기기가 적을수록 잠재적인 공격 표면이 줄어들고, 모든 기기를 최신 상태로 유지하는 수고도 줄어듭니다.
+
+집 안을 둘러보며 연결된 모든 기기의 목록을 만들어 두면 관리하는 데 도움이 될 수 있습니다.
+
+### 라우터 { #routers }
+
+라우터는 모든 네트워크 트래픽을 처리하며, 여러분과 개방된 인터넷 사이의 첫 번째 방어선 역할을 합니다.
+
+<div class="admonition Note" markdown>
+<p class="admonition-title">참고</p>
+
+많은 라우터에는 파일을 저장해 네트워크의 어느 컴퓨터에서나 접근할 수 있는 저장 공간이 있습니다. 네트워크 장비는 네트워킹 외의 용도로 사용하지 않는 것을 권장합니다. 라우터가 침해되면 파일도 함께 침해됩니다.
+
+</div>
+
+라우터와 관련해 가장 중요한 것은 최신 상태로 유지하는 것입니다. 많은 최신 라우터는 업데이트를 자동으로 설치하지만, 그렇지 않은 라우터도 많습니다. 라우터 설정 페이지에서 이 옵션을 확인해야 합니다. 같은 네트워크에 연결되어 있다면, 일반적으로 아무 브라우저의 주소 표시줄에 `192.168.1.1` 또는 `192.168.0.1`을 입력하여 이 페이지에 접속할 수 있습니다. 운영 체제의 네트워크 설정에서 "라우터" 또는 "게이트웨이" 항목을 확인할 수도 있습니다.
+
+라우터가 자동 업데이트를 지원하지 않는다면 제조사 사이트에서 업데이트를 다운로드하여 수동으로 적용해야 합니다.
+
+많은 일반 소비자용 라우터는 지원 기간이 그리 길지 않습니다. 라우터가 더 이상 제조사의 지원을 받지 못한다면 [FOSS 펌웨어](../router.md)가 지원하는지 확인해 볼 수 있습니다. FOSS 펌웨어가 기본으로 설치된 라우터를 구매할 수도 있으며, 이러한 라우터는 대부분의 라우터보다 더 오래 지원되는 경향이 있습니다.
+
+일부 ISP는 라우터와 모뎀이 결합된 장비를 제공합니다. 별도의 라우터를 구매하고 ISP의 라우터/모뎀을 모뎀 전용 모드로 설정하면 보안상 유리할 수 있습니다. 이렇게 하면 ISP가 제공한 라우터가 더 이상 업데이트를 받지 못하더라도 보안 업데이트와 패치를 계속 받을 수 있습니다. 또한 모뎀에 영향을 주는 문제가 라우터에 영향을 주지 않고, 그 반대도 마찬가지입니다.

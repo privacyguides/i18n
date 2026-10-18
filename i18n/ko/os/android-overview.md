@@ -82,7 +82,7 @@ Android 13:
 </div>
 
 <div class="admonition note" markdown>
-<p class="admonition-title">Note</p>
+<p class="admonition-title">참고 (note)</p>
 
 Privacy-friendly apps such as [Bitwarden](https://reports.exodus-privacy.eu.org/en/reports/com.x8bit.bitwarden/latest) may show some trackers such as [Google Firebase Analytics](https://reports.exodus-privacy.eu.org/en/trackers/49). 해당 라이브러리는 앱에서 [푸시 알림](https://ko.wikipedia.org/wiki/%ED%91%B8%EC%8B%9C_%EA%B8%B0%EB%B2%95)을 제공할 수 있는 [Firebase 클라우드 메시징(FCM)](https://en.wikipedia.org/wiki/Firebase_Cloud_Messaging)이 포함되어 있습니다. Bitwarden이 바로 [이러한 경우](https://fosstodon.org/@bitwarden/109636825700482007)에 해당합니다. That doesn't mean that Bitwarden is using all the analytics features that are provided by Google Firebase Analytics.
 

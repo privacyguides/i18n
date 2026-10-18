@@ -7,7 +7,7 @@ cover: desktop.webp
 
 <small>Protects against the following threat(s):</small>
 
-- [:material-account-cash: 감시 자본주의(Surveillance Capitalism)](basics/common-threats.md#surveillance-as-a-business-model ""){.pg-brown}
+- [:material-account-cash: 감시 자본주의](basics/common-threats.md#surveillance-as-a-business-model ""){.pg-brown}
 
 프라이버시 보호와 자유 소프트웨어를 이유로, 일반적으로 Linux 배포판이 권장됩니다. 아직 Linux를 사용하지 않는 분을 위해, 사용해볼 만한 몇 가지 배포판을 추천드립니다. 대부분의 Linux 배포판에 적용 가능한 기본 프라이버시 및 보안 개선 안내도 찾아보실 수 있습니다. Please note that some of our recommended software may not be packaged for your Linux distribution of choice.
 
@@ -193,7 +193,7 @@ By design, Tails is meant to completely reset itself after each reboot. Encrypte
 
 <small>Protects against the following threat(s):</small>
 
-- [:material-bug-outline: 수동적 공격(Passive Attacks)](basics/common-threats.md#security-and-privacy ""){.pg-orange}
+- [:material-bug-outline: 수동적 공격](basics/common-threats.md#security-and-privacy ""){.pg-orange}
 
 ### Qubes OS
 

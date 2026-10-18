@@ -7,7 +7,7 @@ cover: notebooks.webp
 
 <small>Protects against the following threat(s):</small>
 
-- [:material-server-network: 서비스 제공자/제공 업체(Service Providers)](basics/common-threats.md#privacy-from-service-providers ""){.pg-teal}
+- [:material-server-network: 서비스 제공업체](basics/common-threats.md#privacy-from-service-providers ""){.pg-teal}
 
 Keep track of your notes and journals without giving them to a third party.
 

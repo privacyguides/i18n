@@ -1,231 +1,231 @@
 ---
 title: "일반적인 위협"
 icon: 'material/eye-outline'
-description: 위협 모델은 개개인마다 다르지만, 이 사이트의 방문자 대부분이 관심을 가질 사항입니다.
+description: 위협 모델은 사람마다 다르지만, 이 사이트를 방문하는 많은 분들이 신경 쓰는 사항은 다음과 같습니다.
 ---
 
-전반적으로, Privacy Guides의 권장 목록은 대부분의 사람들에게 적용되는 [위협](threat-modeling.md) 혹은 목표로 분류됩니다. 여러분이 사용하는 툴 및 서비스는 여러분의 목표에 따라 달라지며, ==이러한 위협 가능성에 대한 관심도는 사람마다 다를 수 있습니다.== You may have specific threats outside these categories as well, which is perfectly fine! 핵심은 '사용하기로 선택한 툴의 장단점을 이해하는 것' 입니다. 모든 위협으로부터 여러분을 완벽히 보호할 수 있는 툴은 존재하지 않기 때문입니다.
+대체로 프라이버시 가이드의 추천은 대부분의 사람에게 해당하는 [위협](threat-modeling.md) 또는 목표에 따라 분류됩니다. ==여러분은 이러한 가능성 중 아무것도, 하나만, 몇 가지만, 또는 모두를 걱정할 수 있으며==, 사용하는 도구와 서비스는 목표에 따라 달라집니다. 이러한 범주 밖의 특정 위협이 있을 수도 있는데, 그래도 전혀 문제없습니다! 중요한 것은 사용하기로 선택한 도구의 장점과 한계를 이해하는 것입니다. 사실상 어떤 도구도 모든 위협으로부터 여러분을 보호해 주지는 못하기 때문입니다.
 
-<span class="pg-purple">:material-incognito: **Anonymity**</span>
+<span class="pg-purple">:material-incognito: **익명성**</span>
 :
 
-Shielding your online activity from your real identity, protecting you from people who are trying to uncover *your* identity specifically.
+온라인 활동을 실제 신원과 분리하여, *여러분의* 신원을 특정해 밝혀내려는 사람들로부터 보호합니다.
 
-<span class="pg-red">:material-target-account: **Targeted Attacks**</span>
+<span class="pg-red">:material-target-account: **표적 공격**</span>
 :
 
-Being protected from hackers or other malicious actors who are trying to gain access to *your* data or devices specifically.
+*여러분의* 데이터나 기기에 특정해 접근하려는 해커나 기타 악의적인 행위자로부터 보호합니다.
 
-<span class="pg-viridian">:material-package-variant-closed-remove: **Supply Chain Attacks**</span>
+<span class="pg-viridian">:material-package-variant-closed-remove: **공급망 공격**</span>
 :
 
-Typically, a form of <span class="pg-red">:material-target-account: Targeted Attack</span> that centers around a vulnerability or exploit introduced into otherwise good software either directly or through a dependency from a third party.
+일반적으로 <span class="pg-red">:material-target-account: 표적 공격</span>의 한 형태로, 원래는 문제없는 소프트웨어에 직접 또는 제3자 의존성을 통해 심어진 취약점이나 익스플로잇을 중심으로 합니다.
 
-<span class="pg-orange">:material-bug-outline: **Passive Attacks**</span>
+<span class="pg-orange">:material-bug-outline: **수동적 공격**</span>
 :
 
-Being protected from things like malware, data breaches, and other attacks that are made against many people at once.
+멀웨어, 데이터 유출, 그리고 많은 사람을 한꺼번에 노리는 기타 공격으로부터 보호합니다.
 
-<span class="pg-teal">:material-server-network: **Service Providers**</span>
+<span class="pg-teal">:material-server-network: **서비스 제공업체**</span>
 :
 
-Protecting your data from service providers (e.g. with E2EE, which renders your data unreadable to the server).
+서비스 제공업체로부터 데이터를 보호합니다(예: 서버가 데이터를 읽을 수 없게 만드는 E2EE).
 
-<span class="pg-blue">:material-eye-outline: **Mass Surveillance**</span>
+<span class="pg-blue">:material-eye-outline: **대규모 감시**</span>
 :
 
-Protection from government agencies, organizations, websites, and services which work together to track your activities.
+서로 협력하여 여러분의 활동을 추적하는 정부 기관, 조직, 웹사이트, 서비스로부터 보호합니다.
 
-<span class="pg-brown">:material-account-cash: **Surveillance Capitalism**</span>
+<span class="pg-brown">:material-account-cash: **감시 자본주의**</span>
 :
 
-Protecting yourself from big advertising networks, like Google and Facebook, as well as a myriad of other third-party data collectors.
+구글이나 페이스북 같은 대형 광고 네트워크는 물론, 무수히 많은 제3자 데이터 수집업체로부터 자신을 보호합니다.
 
-<span class="pg-green">:material-account-search: **Public Exposure**</span>
+<span class="pg-green">:material-account-search: **공개 노출**</span>
 :
 
-Limiting the information about you that is accessible online—to search engines or the public.
+검색 엔진이나 대중이 온라인에서 접근할 수 있는 여러분에 관한 정보를 제한합니다.
 
-<span class="pg-blue-gray">:material-close-outline: **Censorship**</span>
+<span class="pg-blue-gray">:material-close-outline: **검열**</span>
 :
 
-Avoiding censored access to information or being censored yourself when speaking online.
+정보 접근이 검열되거나 온라인에서 발언할 때 스스로 검열당하는 것을 피합니다.
 
-대응해야 할 위협의 우선 순위는 개인의 관심도에 따라 바뀔 수 있습니다. For example, a software developer with access to valuable or critical data may be primarily concerned with <span class="pg-viridian">:material-package-variant-closed-remove: Supply Chain Attacks</span> and <span class="pg-red">:material-target-account: Targeted Attacks</span>. They will likely still want to protect their personal data from being swept up in <span class="pg-blue">:material-eye-outline: Mass Surveillance</span> programs. 마찬가지로, 대부분의 사람들이 가장 우려하는 위협은 개인 데이터의 <span class="pg-green">:material-account-search: 공개 노출</span>일 테지만, 기기 감염 멀웨어 등의 <span class="pg-orange">:material-bug-outline: 수동적 공격</span> 보안 문제 또한 주의해야 합니다.
+구체적인 관심사에 따라 이 중 일부 위협이 다른 위협보다 더 중요할 수 있습니다. 예를 들어 귀중하거나 중요한 데이터에 접근할 수 있는 소프트웨어 개발자는 주로 <span class="pg-viridian">:material-package-variant-closed-remove: 공급망 공격</span>과 <span class="pg-red">:material-target-account: 표적 공격</span>을 우려할 수 있습니다. 그래도 개인 데이터가 <span class="pg-blue">:material-eye-outline: 대규모 감시</span> 프로그램에 휩쓸리지 않도록 보호하고 싶을 것입니다. 마찬가지로 많은 사람들은 주로 개인 데이터의 <span class="pg-green">:material-account-search: 공개 노출</span>을 우려하겠지만, 기기에 영향을 주는 멀웨어 같은 <span class="pg-orange">:material-bug-outline: 수동적 공격</span> 등 보안 관련 문제도 여전히 경계해야 합니다.
 
-## 익명성 vs 프라이버시
+## 익명성 vs. 프라이버시 { #anonymity-vs-privacy }
 
-<span class="pg-purple">:material-incognito: 익명성(Anonymity)</span>
+<span class="pg-purple">:material-incognito: 익명성</span>
 
-익명성은 프라이버시와 혼동되는 경우가 많지만, 서로 다른 개념입니다. '프라이버시'는 여러분의 데이터가 사용 및 공유되는 방식을 여러분이 선택할 권리를 의미하고, '익명성'은 온라인 활동을 실제 신원과 완전히 분리하는 것을 의미합니다.
+익명성은 프라이버시와 혼동되는 경우가 많지만, 서로 다른 개념입니다. 프라이버시가 여러분의 데이터가 어떻게 사용되고 공유되는지에 대해 여러분이 내리는 일련의 선택이라면, 익명성은 온라인 활동을 실제 신원과 완전히 분리하는 것입니다.
 
-예를 들자면, 내부 고발자나 언론인은 완전한 익명성을 요구하는 극단적인 위협 모델이 필요합니다. 무엇을 하는지, 어떤 데이터를 가지고 있는지를 숨기고, 악의적인 상대나 정부로부터의 해킹을 막을 뿐만 아니라, '자신이 누구인지'도 완전히 숨겨야 합니다. 익명성, 프라이버시, 보안을 위해서라면 어떤 편의성도 포기할 수 있을 겁니다. 목숨이 달렸을 테니까요. 대부분의 사람들은 이렇게까지 할 필요는 없습니다.
+예를 들어 내부 고발자나 언론인은 완전한 익명성이 필요한 훨씬 극단적인 위협 모델을 가질 수 있습니다. 이는 자신이 무엇을 하는지, 어떤 데이터를 가지고 있는지 숨기고 악의적인 행위자나 정부에게 해킹당하지 않는 것뿐만 아니라, 자신이 누구인지도 완전히 숨기는 것을 의미합니다. 이들은 생명이 걸려 있을 수 있기 때문에, 익명성, 프라이버시, 보안을 지킬 수 있다면 어떤 편의성이든 희생하는 경우가 많습니다. 대부분의 사람들은 그렇게까지 할 필요가 없습니다.
 
-## 보안, 프라이버시
+## 보안과 프라이버시 { #security-and-privacy }
 
-<span class="pg-orange">:material-bug-outline: 수동적 공격(Passive Attacks)</span>
+<span class="pg-orange">:material-bug-outline: 수동적 공격</span>
 
-보안, 프라이버시도 자주 혼동됩니다. 프라이버시를 지키기 위해서는 보안이 필요하기 때문입니다. 프라이버시 중점적으로 설계된 서비스라 하여도 해당 서비스의 보안이 취약해 어떤 공격자가 손쉽게 데이터를 유출 및 악용할 수 있다면 무용지물입니다. 하지만, 반대로 뛰어난 보안에 프라이버시가 항상 뒤따라오는 것은 아닙니다. 완벽한 예시로 Google이 있습니다. Google은 업계 최고의 보안 전문가를 고용해 인프라를 보호하여 보안 사고가 거의 발생하지 않았습니다. Google이 제공하는 서비스의 보안은 매우 안전하지만, Google 무료 서비스(Gmail, YouTube 등)에서 자신의 데이터가 비공개라고 생각하는 사람은 거의 없습니다.
+보안과 프라이버시도 자주 혼동되는데, 어느 정도의 프라이버시라도 얻으려면 보안이 필요하기 때문입니다. 설계상 프라이버시를 보호하는 도구라도 공격자가 쉽게 악용하여 나중에 여러분의 데이터를 유출할 수 있다면 무용지물입니다. 하지만 그 반대가 반드시 성립하는 것은 아닙니다. 세상에서 가장 안전한 서비스라고 해서 *반드시* 프라이버시를 보호하는 것은 아닙니다. 가장 좋은 예는 구글에 데이터를 맡기는 것입니다. 구글은 업계 최고의 보안 전문가를 고용해 인프라를 보호하고 있어, 그 규모에 비해 보안 사고가 거의 없었습니다. 구글이 매우 안전한 서비스를 제공하기는 하지만, 구글의 무료 소비자용 제품(지메일, 유튜브 등)에서 자신의 데이터가 비공개라고 생각하는 사람은 거의 없을 것입니다.
 
-애플리케이션 보안 측면에서는, 일반적으로 우리는 사용하는 소프트웨어가 악성 소프트웨어인지 혹은 언젠가 악성 소프트웨어가 될지는 알지 못합니다(때로는 알 방법이 없습니다). 아무리 믿을 만한 개발자라 해도, 훗날에 악용될 수 있는 심각한 취약점이 존재하지 않을 거라는 보장은 일반적으로 없습니다.
+애플리케이션 보안의 경우, 우리는 일반적으로 사용하는 소프트웨어가 악성인지, 또는 언젠가 악성이 될지 알지 못합니다(때로는 알 수도 없습니다). 가장 신뢰할 수 있는 개발자라도 그 소프트웨어에 나중에 악용될 수 있는 심각한 취약점이 없다는 보장은 일반적으로 없습니다.
 
-악성 소프트웨어가 일으킬 *수도 있는* 피해를 최소화하려면 구획화를 이용한 보안을 적용해야합니다. 작업 종류마다 다른 컴퓨터를 사용하거나, 애플리케이션을 연관 그룹별로 분류해 가상 머신에서 사용하거나, 애플리케이션 샌드박스 격리 및 필수 접근 제어 기능에 특화된 보안 운영체제를 사용하는 등의 방법이 있습니다.
+악성 소프트웨어가 일으킬 *수 있는* 피해를 최소화하려면 구획화를 통한 보안을 적용해야 합니다. 예를 들어 작업마다 다른 컴퓨터를 사용하거나, 가상 머신으로 관련 애플리케이션 그룹을 서로 분리하거나, 애플리케이션 샌드박싱과 강제적 접근 제어에 중점을 둔 보안 운영 체제를 사용하는 방법이 있습니다.
 
 <div class="admonition tip" markdown>
-<p class="admonition-title">Tip</p>
+<p class="admonition-title">팁</p>
 
-일반적으로 모바일 운영 체제는 데스크톱 운영 체제보다 애플리케이션 샌드박스 기능이 뛰어납니다. 모바일 운영체제에서는 앱이 루트 권한을 얻을 수 없고, 시스템 리소스에 접근하려면 권한이 필요합니다.
+모바일 운영 체제는 일반적으로 데스크톱 운영 체제보다 애플리케이션 샌드박싱이 뛰어납니다. 앱은 루트 권한을 얻을 수 없으며, 시스템 리소스에 접근하려면 권한이 필요합니다.
 
-데스크톱 운영 체제는 보통 적절한 샌드박스 기능 면에서 뒤처집니다. ChromeOS has similar sandboxing capabilities to Android, and macOS has full system permission control (and developers can opt in to sandboxing for applications). 하지만 이러한 운영 체제는 식별 정보를 각 OEM에 전송합니다. Linux는 대체로 시스템 공급 업체에 정보를 보내지 않지만, 취약점 및 악성 앱으로부터의 보호 기능은 미흡합니다. This can be mitigated somewhat with specialized distributions which make significant use of virtual machines or containers, such as [Qubes OS](../desktop.md#qubes-os).
+데스크톱 운영 체제는 일반적으로 적절한 샌드박싱 측면에서 뒤처져 있습니다. 크롬OS는 안드로이드와 비슷한 샌드박싱 기능을 갖추고 있으며, macOS는 시스템 전체에 대한 권한 제어 기능을 제공합니다(개발자는 애플리케이션에 샌드박싱을 적용하도록 선택할 수 있습니다). 하지만 이러한 운영 체제는 식별 정보를 각 OEM에 전송합니다. 리눅스는 시스템 공급업체에 정보를 보내지 않는 편이지만, 익스플로잇과 악성 앱에 대한 보호 기능은 부족합니다. 이는 [큐브스 OS](../desktop.md#qubes-os)처럼 가상 머신이나 컨테이너를 적극적으로 활용하는 특수 배포판을 사용하면 어느 정도 완화할 수 있습니다.
 
 </div>
 
-## Attacks against Specific Individuals
+## 특정 개인을 노리는 공격 { #attacks-against-specific-individuals }
 
-<span class="pg-red">:material-target-account: 표적 공격(Targeted Attacks)</span>
+<span class="pg-red">:material-target-account: 표적 공격</span>
 
-특정 인물을 대상으로 하는 표적 공격은 더욱 대응하기 어렵습니다. 흔한 예시로는 이메일을 통한 악성 문서 전송, 브라우저 및 운영 체제 등의 취약점 악용, 물리적 공격 등이 있습니다. 표적 공격이 우려된다면, 보다 고급 위협 완화 전략이 필요합니다.
+특정 인물을 노리는 표적 공격은 대응하기가 더 어렵습니다. 흔한 공격으로는 이메일을 통한 악성 문서 전송, (브라우저나 운영 체제 등의) 취약점 악용, 물리적 공격 등이 있습니다. 이것이 우려된다면 보다 고급 위협 완화 전략을 적용해야 합니다.
 
 <div class="admonition tip" markdown>
-<p class="admonition-title">Tip</p>
+<p class="admonition-title">팁</p>
 
-**웹 브라우저**, **이메일 클라이언트**, **오피스 애플리케이션**은 설계상 외부에서 전송된 신뢰할 수 없는 코드를 실행하도록 되어있습니다. 여러 가상 머신을 사용해 이러한 애플리케이션을 호스트 시스템과 분리하는 것은 애플리케이션 취약점으로부터 시스템의 다른 영역이 손상될 가능성을 줄이는 방법 중 하나입니다. 이런 격리 작업을 편리하게 만들어주는 기술로는 Qubes OS/Microsoft Defender Application Guard 등이 있습니다.
+설계상 **웹 브라우저**, **이메일 클라이언트**, **오피스 애플리케이션**은 일반적으로 제3자가 보낸 신뢰할 수 없는 코드를 실행합니다. 여러 가상 머신을 실행하여 이러한 애플리케이션을 호스트 시스템과 분리하고 서로 간에도 분리하는 것은, 이런 애플리케이션의 익스플로잇이 시스템의 나머지 부분을 침해할 가능성을 줄이기 위해 사용할 수 있는 기법 중 하나입니다. 예를 들어 큐브스 OS나 윈도우의 마이크로소프트 디펜더 애플리케이션 가드 같은 기술을 사용하면 이를 편리하게 할 수 있습니다.
 
 </div>
 
-If you are concerned about **physical attacks** you should use an operating system with a secure verified boot implementation, such as Android, iOS, macOS, or [Windows (with TPM)](https://learn.microsoft.com/windows/security/information-protection/secure-the-windows-10-boot-process). 또한 드라이브를 암호화하고, 운영 체제에서 TPM/Secure [Enclave](https://support.apple.com/guide/security/secure-enclave-sec59b0b31ff/1/web/1)/[Element](https://developers.google.com/android/security/android-ready-se)를 이용해 암호 입력 시도를 제한해야 합니다. 대부분의 데스크톱 운영체제는 사용자별 데이터를 암호화하지 않으므로, 신뢰하지 않는 사람과 컴퓨터를 공유하지 말아야 합니다.
+**물리적 공격**이 우려된다면 안드로이드, iOS, macOS, [윈도우(TPM 사용)](https://learn.microsoft.com/windows/security/information-protection/secure-the-windows-10-boot-process)처럼 안전한 자체 검사 부팅이 구현된 운영 체제를 사용해야 합니다. 또한 드라이브가 암호화되어 있는지, 그리고 운영 체제가 TPM이나 Secure [Enclave](https://support.apple.com/guide/security/secure-enclave-sec59b0b31ff/1/web/1) 또는 Secure [Element](https://developers.google.com/android/security/android-ready-se)를 사용하여 암호화 패스프레이즈 입력 시도 횟수를 제한하는지 확인해야 합니다. 대부분의 데스크톱 운영 체제는 사용자별로 데이터를 따로 암호화하지 않으므로, 신뢰하지 않는 사람과 컴퓨터를 공유하지 않아야 합니다.
 
-## Attacks against Certain Organizations
+## 특정 조직을 노리는 공격 { #attacks-against-certain-organizations }
 
-<span class="pg-viridian">:material-package-variant-closed-remove: Supply Chain Attacks</span>
+<span class="pg-viridian">:material-package-variant-closed-remove: 공급망 공격</span>
 
-Supply chain attacks are frequently a form of <span class="pg-red">:material-target-account: Targeted Attack</span> towards businesses, governments, and activists, although they can end up compromising the public at large as well.
+공급망 공격은 기업, 정부, 활동가를 노리는 <span class="pg-red">:material-target-account: 표적 공격</span>의 한 형태인 경우가 많지만, 결국 일반 대중까지 피해를 입힐 수도 있습니다.
 
 <div class="admonition example" markdown>
-<p class="admonition-title">Example</p>
+<p class="admonition-title">예시</p>
 
-A notable example of this occurred in 2017 when M.E.Doc, a popular accounting software in Ukraine, was infected with the *NotPetya* virus, subsequently infecting people who downloaded that software with ransomware. NotPetya itself was a ransomware attack which impacted 2000+ companies in various countries, and was based on the *EternalBlue* exploit developed by the NSA to attack Windows computers over the network.
+대표적인 사례는 2017년에 발생했는데, 우크라이나에서 널리 쓰이던 회계 소프트웨어 M.E.Doc이 *낫페트야* 바이러스에 감염되었고, 이후 해당 소프트웨어를 다운로드한 사람들이 랜섬웨어에 감염되었습니다. 낫페트야 자체는 여러 국가의 2000개 이상 기업에 영향을 준 랜섬웨어 공격으로, NSA가 네트워크를 통해 윈도우 컴퓨터를 공격하기 위해 개발한 *이터널블루* 익스플로잇을 기반으로 했습니다.
 
 </div>
 
-There are few ways in which this type of attack might be carried out:
+이런 유형의 공격이 수행될 수 있는 방법은 몇 가지가 있습니다:
 
-1. A contributor or employee might first work their way into a position of power within a project or organization, and then abuse that position by adding malicious code.
-2. A developer may be coerced by an outside party to add malicious code.
-3. An individual or group might identify a third party software dependency (also known as a library) and work to infiltrate it with the above two methods, knowing that it will be used by "downstream" software developers.
+1. 기여자나 직원이 먼저 프로젝트나 조직 내에서 권한 있는 위치에 오른 다음, 그 지위를 악용해 악성 코드를 추가할 수 있습니다.
+2. 개발자가 외부 세력의 강요로 악성 코드를 추가할 수 있습니다.
+3. 개인이나 집단이 제3자 소프트웨어 의존성(라이브러리라고도 함)을 파악한 뒤, "다운스트림" 소프트웨어 개발자들이 이를 사용할 것을 알고 위의 두 가지 방법으로 침투를 시도할 수 있습니다.
 
-These sorts of attacks can require a lot of time and preparation to perform and are risky because they can be detected, particularly in open source projects if they are popular and have outside interest. Unfortunately they're also one of the most dangerous as they are very hard to mitigate entirely. We would encourage readers to only use software which has a good reputation and makes an effort to reduce risk by:
+이러한 공격은 수행하는 데 많은 시간과 준비가 필요하며, 특히 인기 있고 외부의 관심을 받는 오픈 소스 프로젝트에서는 탐지될 수 있기 때문에 위험 부담이 큽니다. 안타깝게도 이러한 공격은 완전히 막기가 매우 어렵기 때문에 가장 위험한 공격 중 하나이기도 합니다. 독자 여러분께는 평판이 좋고 다음과 같은 방식으로 위험을 줄이려 노력하는 소프트웨어만 사용할 것을 권장합니다:
 
-1. Only adopting popular software that has been around for a while. The more interest in a project, the greater likelihood that external parties will notice malicious changes. A malicious actor will also need to spend more time gaining community trust with meaningful contributions.
-2. Finding software which releases binaries with widely-used, trusted build infrastructure platforms, as opposed to developer workstations or self-hosted servers. Some systems like GitHub Actions let you inspect the build script that runs publicly for extra confidence. This lessens the likelihood that malware on a developer's machine could infect their packages, and gives confidence that the binaries produced are in fact produced correctly.
-3. Looking for code signing on individual source code commits and releases, which creates an auditable trail of who did what. For example: Was the malicious code in the software repository? Which developer added it? Was it added during the build process?
-4. Checking whether the source code has meaningful commit messages (such as [conventional commits](https://conventionalcommits.org)) which explain what each change is supposed to accomplish. Clear messages can make it easier for outsiders to the project to verify, audit, and find bugs.
-5. Noting the number of contributors or maintainers a program has. A lone developer may be more susceptible to being coerced into adding malicious code by an external party, or to negligently enabling undesirable behavior. This may very well mean software developed by "Big Tech" has more scrutiny than a lone developer who doesn't answer to anyone.
+1. 오랫동안 사용되어 온 인기 있는 소프트웨어만 채택합니다. 프로젝트에 관심이 많을수록 외부인이 악의적인 변경 사항을 알아챌 가능성이 커집니다. 또한 악의적인 행위자는 의미 있는 기여를 통해 커뮤니티의 신뢰를 얻기 위해 더 많은 시간을 들여야 합니다.
+2. 개발자의 워크스테이션이나 자체 호스팅 서버가 아닌, 널리 사용되고 신뢰받는 빌드 인프라 플랫폼으로 바이너리를 배포하는 소프트웨어를 찾습니다. 깃허브 액션 같은 일부 시스템에서는 공개적으로 실행되는 빌드 스크립트를 직접 확인할 수 있어 신뢰도를 더 높일 수 있습니다. 이렇게 하면 개발자 기기의 멀웨어가 패키지를 감염시킬 가능성이 줄어들고, 생성된 바이너리가 실제로 올바르게 만들어졌다는 확신을 얻을 수 있습니다.
+3. 개별 소스 코드 커밋과 릴리스에 코드 서명이 되어 있는지 확인합니다. 코드 서명은 누가 무엇을 했는지 감사할 수 있는 기록을 남깁니다. 예를 들어 악성 코드가 소프트웨어 저장소에 있었나요? 어떤 개발자가 추가했나요? 빌드 과정에서 추가되었나요?
+4. 소스 코드에 각 변경 사항의 목적을 설명하는 의미 있는 커밋 메시지([컨벤셔널 커밋](https://conventionalcommits.org) 등)가 있는지 확인합니다. 명확한 메시지는 프로젝트 외부인이 검증, 감사, 버그 발견을 더 쉽게 할 수 있도록 해 줍니다.
+5. 프로그램의 기여자나 관리자 수를 확인합니다. 혼자 개발하는 개발자는 외부 세력의 강요로 악성 코드를 추가하거나, 부주의로 바람직하지 않은 동작을 허용하게 될 가능성이 더 높을 수 있습니다. 이는 누구에게도 책임을 지지 않는 단독 개발자보다 "빅테크"가 개발한 소프트웨어가 더 많은 검증을 받는다는 의미일 수도 있습니다.
 
-## Privacy from Service Providers
+## 서비스 제공업체로부터의 프라이버시 { #privacy-from-service-providers }
 
-<span class="pg-teal">:material-server-network: 서비스 제공자/제공 업체(Service Providers)</span>
+<span class="pg-teal">:material-server-network: 서비스 제공업체</span>
 
-우리는 사실상 모든 것이 인터넷에 연결된 세상에 살고 있습니다. '비공개' 메시지, 이메일, 소셜 상호 작용은 보통 어딘가의 서버에 저장됩니다. 일반적으로, 여러분이 누군가에게 메시지를 보내면 해당 메시지는 서버에 저장되고, 여러분의 친구가 메시지를 읽으려 할 때 서버에서 메시지를 보여줍니다.
+우리는 사실상 모든 것이 인터넷에 연결된 세상에 살고 있습니다. 우리의 "비공개" 메시지, 이메일, 소셜 상호 작용은 대개 어딘가의 서버에 저장됩니다. 일반적으로, 여러분이 누군가에게 메시지를 보내면 해당 메시지는 서버에 저장되고, 여러분의 친구가 메시지를 읽으려 할 때 서버에서 메시지를 보여줍니다.
 
-이 방식의 명백한 문제점은 서비스 제공자(혹은 서버에 침투한 해커)가 언제든지 마음대로 여러분의 대화를 여러분 몰래 살펴볼 수 있다는 것입니다. SMS 문자 메시지, Telegram, Discord 등 일반적인 서비스의 대부분이 가지고 있는 문제입니다.
+이 방식의 명백한 문제는 서비스 제공업체(또는 서버를 침해한 해커)가 여러분 모르게 언제든 원하는 방식으로 대화에 접근할 수 있다는 것입니다. 이는 SMS 문자 메시지, 텔레그램, 디스코드 같은 많은 일반적인 서비스에 해당합니다.
 
-다행히, 송신자와 수신자 간의 통신을 서버로 전송하기 전에 암호화하는 E2EE를 적용하면 이러한 문제를 완화할 수 있습니다. 서비스 제공 업체가 양측 당사자의 개인 키에 접근하지 못한다는 가정 하에, 메시지의 기밀성이 보장됩니다.
+다행히 E2EE는 통신을 서버로 보내기 전에 여러분과 원하는 수신자 사이에서 암호화함으로써 이 문제를 완화할 수 있습니다. 서비스 제공업체가 양측의 개인 키에 접근할 수 없다는 전제하에 메시지의 기밀성이 보장됩니다.
 
 <div class="admonition note" markdown>
-<p class="admonition-title">Note on Web-based Encryption</p>
+<p class="admonition-title">웹 기반 암호화에 관한 참고 사항</p>
 
-실질적으로 모든 E2EE 구현체가 동일한 유효성을 갖는 것은 아닙니다. [Signal](../real-time-communication.md#signal) 같은 애플리케이션은 기기에서 네이티브로 실행되며, 여러번 설치하더라도 언제나 완벽히 동일한 애플리케이션이 설치됩니다. 서비스 제공 업체가 여러분의 개인 키를 탈취하기 위해 [백도어](https://ko.wikipedia.org/wiki/%EB%B0%B1%EB%8F%84%EC%96%B4)를 도입하더라도, 차후에 [리버스 엔지니어링](https://ko.wikipedia.org/wiki/%EC%97%AD%EA%B3%B5%ED%95%99)을 통해 탐지될 수 있습니다.
+실제로는 E2EE 구현마다 효과가 다릅니다. [시그널](../real-time-communication.md#signal) 같은 애플리케이션은 기기에서 네이티브로 실행되며, 애플리케이션의 모든 사본은 어디에 설치하든 동일합니다. 서비스 제공업체가 여러분의 개인 키를 훔치기 위해 애플리케이션에 [백도어](https://en.wikipedia.org/wiki/Backdoor_(computing))를 심는다면, 나중에 [리버스 엔지니어링](https://en.wikipedia.org/wiki/Reverse_engineering)으로 탐지될 수 있습니다.
 
-On the other hand, web-based E2EE implementations, such as Proton Mail's web app or Bitwarden's *Web Vault*, rely on the server dynamically serving JavaScript code to the browser to handle cryptography. 악성 서버는 사용자를 표적으로 삼아 악성 자바스크립트 코드를 전송해 암호화 키를 탈취 가능하며, 이 경우 사용자는 이를 알아차리기 매우 어렵습니다. 만약 사용자가 공격을 알아차리더라도 제공 업체의 책임을 입증하기란 매우 어렵습니다. 서버에서 사람마다 웹 클라이언트를 다르게 제공하는 것이 가능하기 때문입니다.
+반면 프로톤 메일의 웹 앱이나 비트워든의 *웹 보관함* 같은 웹 기반 E2EE 구현은 암호화 처리를 위해 서버가 브라우저에 자바스크립트 코드를 동적으로 제공하는 방식에 의존합니다. 악의적인 서버는 여러분을 표적으로 삼아 암호화 키를 훔치는 악성 자바스크립트 코드를 보낼 수 있습니다(그리고 이를 알아차리기는 매우 어렵습니다). 만약 사용자가 공격을 알아차리더라도 제공업체의 책임을 입증하기란 매우 어렵습니다. 서버에서 사람마다 웹 클라이언트를 다르게 제공하는 것이 가능하기 때문입니다.
 
 따라서, 가능하면 웹 클라이언트 대신 네이티브 애플리케이션을 사용해야 합니다.
 
 </div>
 
-E2EE를 적용하더라도 여전히 서비스 제공 업체는 (일반적으로 보호되지 않는) **메타데이터**에 기반하여 여러분의 정보를 수집하고 프로파일링할 수 있습니다. While the service provider can't read your messages, they can still observe important things, such as whom you're talking to, how often you message them, and when you're typically active. 메타데이터에도 보호가 적용되는 경우는 매우 드뭅니다. 만약 여러분의 [위협 모델](threat-modeling.md)이 메타데이터 보호 또한 필요로 한다면, 사용하는 소프트웨어의 기술 문서를 주의 깊게 확인하여 메타데이터 최소화 혹은 보호가 존재하는지 살펴봐야 합니다.
+E2EE를 사용하더라도 서비스 제공업체는 일반적으로 보호되지 않는 **메타데이터**를 기반으로 여전히 여러분을 프로파일링할 수 있습니다. 서비스 제공업체는 메시지를 읽을 수는 없지만, 누구와 대화하는지, 얼마나 자주 메시지를 보내는지, 주로 언제 활동하는지 같은 중요한 정보는 여전히 관찰할 수 있습니다. 메타데이터 보호는 상당히 드문 편이며, 메타데이터 보호가 [위협 모델](threat-modeling.md)에 포함된다면 사용하는 소프트웨어의 기술 문서를 주의 깊게 살펴 메타데이터 최소화나 보호 기능이 있는지 확인해야 합니다.
 
-## 대중 감시 프로그램
+## 대규모 감시 프로그램 { #mass-surveillance-programs }
 
-<span class="pg-blue">:material-eye-outline: 대중 감시(Mass Surveillance)</span>
+<span class="pg-blue">:material-eye-outline: 대규모 감시</span>
 
-'대중 감시'는 전체(혹은 상당한 부분의) 인구의 '행동, 다양한 활동 혹은 정보'를 모니터링하는 전방위적 노력을 뜻합니다.[^1] [2013년 에드워드 스노든이 폭로한 정부 프로그램](https://en.wikipedia.org/wiki/Global_surveillance_disclosures_(2013%E2%80%93present)) 등을 가리키는 경우가 많습니다. 하지만, 기업이 정부 기관 대신 수행하거나, 기업 자체가 주도적으로 수행하기도 합니다.
+대규모 감시는 전체 인구(또는 상당 부분)의 "행동, 다양한 활동 또는 정보"를 감시하려는 복잡한 노력입니다.[^1] 이는 [2013년 에드워드 스노든이 폭로한](https://en.wikipedia.org/wiki/Global_surveillance_disclosures_(2013%E2%80%93present)) 것과 같은 정부 프로그램을 가리키는 경우가 많습니다. 하지만 기업이 정부 기관을 대신하거나 자체적으로 수행할 수도 있습니다.
 
 <div class="admonition abstract" markdown>
-<p class="admonition-title">Atlas of Surveillance</p>
+<p class="admonition-title">감시 아틀라스</p>
 
-If you want to learn more about surveillance methods and how they're implemented in your city you can also take a look at the [Atlas of Surveillance](https://atlasofsurveillance.org) by the [Electronic Frontier Foundation](https://eff.org).
+감시 방법과 여러분이 사는 도시에서 감시가 어떻게 이루어지고 있는지 더 알고 싶다면 [전자 프런티어 재단](https://eff.org)의 [감시 아틀라스(Atlas of Surveillance)](https://atlasofsurveillance.org)를 살펴볼 수도 있습니다.
 
-In France, you can take a look at the [Technopolice website](https://technopolice.fr/villes) maintained by the non-profit association La Quadrature du Net.
+프랑스에서는 비영리 단체 라 카드라튀르 뒤 네가 운영하는 [테크노폴리스 웹사이트](https://technopolice.fr/villes)를 참고할 수 있습니다.
 
 </div>
 
-정부는 테러 대응 및 범죄 예방에 필요한 수단으로 대중 감시 프로그램을 정당화하는 경우가 많습니다. However, as breaches of human rights, they're most often used to disproportionately target minority groups and political dissidents, among others.
+정부는 대규모 감시 프로그램을 테러에 대응하고 범죄를 예방하기 위한 필수 수단이라며 정당화하는 경우가 많습니다. 하지만 인권 침해인 이러한 프로그램은 소수 집단과 정치적 반체제 인사 등을 불균형적으로 표적으로 삼는 데 가장 많이 사용됩니다.
 
 <div class="admonition quote" markdown>
-<p class="admonition-title">ACLU: <em><a href="https://aclu.org/news/national-security/the-privacy-lesson-of-9-11-mass-surveillance-is-not-the-way-forward">The Privacy Lesson of 9/11: Mass Surveillance is Not the Way Forward</a></em></p>
+<p class="admonition-title">ACLU: <em><a href="https://aclu.org/news/national-security/the-privacy-lesson-of-9-11-mass-surveillance-is-not-the-way-forward">9/11이 주는 프라이버시 교훈: 대규모 감시는 올바른 길이 아니다</a></em></p>
 
-In the face of Edward Snowden's disclosures of government programs such as [PRISM](https://en.wikipedia.org/wiki/PRISM) and [Upstream](https://en.wikipedia.org/wiki/Upstream_collection), intelligence officials also admitted that the NSA had for years been secretly collecting records about virtually every American’s phone calls — who’s calling whom, when those calls are made, and how long they last. NSA가 이러한 정보를 매일 수집할 경우, 어떤 사람이 목사, 낙태 시술자, 중독 상담사, 자살 예방 상담사와 전화했는지 등 사람들의 삶과 관계성에 대해 극도로 민감한 정보를 파악할 수 있습니다.
+에드워드 스노든이 [프리즘](https://en.wikipedia.org/wiki/PRISM)과 [업스트림](https://en.wikipedia.org/wiki/Upstream_collection) 같은 정부 프로그램을 폭로하자, 정보 당국자들은 NSA가 수년간 사실상 모든 미국인의 통화 기록(누가 누구에게 언제 전화했고 통화가 얼마나 지속되었는지)을 비밀리에 수집해 왔다는 사실도 인정했습니다. 이러한 정보가 NSA에 의해 매일 축적되면, 사람들이 목사, 낙태 시술 기관, 중독 상담사, 자살 예방 상담 전화에 전화했는지 등 사람들의 삶과 관계에 대한 매우 민감한 세부 정보가 드러날 수 있습니다.
 
 </div>
 
-미국에서 대중 감시가 증가하고 있음에도 불구하고, 정부는 215조항과 같은 대중 감시 프로그램이 실제 범죄나 테러 음모를 저지하는 데 있어 '고유한 가치가 거의 없다'라는 사실을 발견했으며, 대부분의 노력은 FBI의 표적 감시 프로그램과 중복되는 것으로 나타났습니다.[^2]
+미국에서 대규모 감시가 늘어나고 있음에도, 정부는 215조와 같은 대규모 감시 프로그램이 실제 범죄나 테러 음모를 저지하는 데 "고유한 가치가 거의 없었으며", 그 노력은 대부분 FBI 자체의 표적 감시 프로그램과 중복된다는 사실을 확인했습니다.[^2]
 
-Online, you can be tracked via a variety of methods, including but not limited to:
+온라인에서는 다음을 포함한(이에 국한되지 않는) 다양한 방법으로 추적당할 수 있습니다:
 
 - 여러분의 IP 주소
 - 브라우저 쿠키
 - 여러분이 웹사이트에 제출한 데이터
-- 여러분의 브라우저/기기 핑거프린트
+- 여러분의 브라우저 또는 기기 핑거프린트
 - 결제 수단 연관성
 
-If you're concerned about mass surveillance programs, you can use strategies like compartmentalizing your online identities, blending in with other users, or, whenever possible, simply avoiding giving out identifying information.
+대규모 감시 프로그램이 우려된다면 온라인 신원을 구획화하거나, 다른 사용자들 사이에 섞이거나, 가능할 때마다 식별 정보를 아예 제공하지 않는 등의 전략을 사용할 수 있습니다.
 
-## Surveillance as a Business Model
+## 비즈니스 모델로서의 감시 { #surveillance-as-a-business-model }
 
-<span class="pg-brown">:material-account-cash: 감시 자본주의(Surveillance Capitalism)</span>
+<span class="pg-brown">:material-account-cash: 감시 자본주의</span>
 
 > 감시 자본주의는 이윤 창출을 주요 목적으로 하여 개인 데이터를 수집하고 상품화하는 데 중점을 둔 경제 시스템입니다.[^3]
 
-대중 사이에서, 사기업의 추적 및 감시에 대한 우려는 점점 더 커지고 있습니다. Pervasive 광고 네트워크는(Google, Facebook이 운영하는 광고가 이에 해당) 해당 업체의 사이트뿐만 아니라 인터넷 전반에 퍼져서 여러분의 행동을 추적하고 있습니다. 콘텐츠 차단기 등의 툴을 써서 광고 네트워크 요청을 제한하고, 서비스의 프라이버시 정책을 꼼꼼히 읽으면 (추적을 완전히 방지할 수는 없지만) 기본적인 적들을 피하는 데에 도움이 됩니다.[^4]
+많은 사람들에게 사기업의 추적과 감시는 점점 커지는 우려 사항입니다. 구글과 페이스북이 운영하는 것과 같은 광범위한 광고 네트워크는 자사가 운영하는 사이트를 훨씬 넘어 인터넷 전반에 걸쳐 여러분의 행동을 추적합니다. 콘텐츠 차단기 같은 도구를 사용해 이들 서버로의 네트워크 요청을 제한하고, 사용하는 서비스의 개인정보 처리방침을 읽으면 많은 기본적인 공격자를 피하는 데 도움이 됩니다(추적을 완전히 막을 수는 없지만).[^4]
 
-Additionally, even companies outside the *AdTech* or tracking industry can share your information with [data brokers](https://en.wikipedia.org/wiki/Information_broker) (such as Cambridge Analytica, Experian, or Datalogix) or other parties. 여러분이 사용 중인 서비스가 일반적인 AdTech/추적 비즈니스 모델에 속하지 않는다고 해서 여러분의 데이터가 안전하다고 할 수는 없습니다. 기업 데이터 수집을 방어하는 가장 강력한 방법은 가능한 한 여러분의 데이터를 암호화하거나 난독화하는 것입니다. 업체들 사이에서 데이터의 상관성을 알아내기 어려워지기 때문에, 여러분에 대한 프로필을 구축하기 어려워집니다.
+또한 *애드테크*나 추적 업계에 속하지 않는 기업이라도 여러분의 정보를 (케임브리지 애널리티카, 익스피리언, 데이터로직스 같은) [데이터 브로커](https://en.wikipedia.org/wiki/Information_broker)나 다른 당사자와 공유할 수 있습니다. 사용하는 서비스가 일반적인 애드테크나 추적 비즈니스 모델에 속하지 않는다고 해서 여러분의 데이터가 안전하다고 단정할 수는 없습니다. 기업의 데이터 수집에 대한 가장 강력한 보호 수단은 가능할 때마다 데이터를 암호화하거나 난독화하는 것입니다. 그러면 여러 제공업체가 서로 데이터를 연관 지어 여러분에 대한 프로필을 구축하기 어려워집니다.
 
-## 정보 공개 제한
+## 공개 정보 제한하기 { #limiting-public-information }
 
-<span class="pg-green">:material-account-search: 공개 노출(Public Exposure)</span>
+<span class="pg-green">:material-account-search: 공개 노출</span>
 
-여러분의 데이터를 남들로부터 지키는 가장 좋은 방법은, 애초에 데이터를 공개하지 않는 것입니다. '온라인에서 자신에 대한 원치 않는 정보를 삭제하기'는 자신의 프라이버시를 되찾기 위한 가장 훌륭한 첫걸음입니다.
+데이터를 비공개로 유지하는 가장 좋은 방법은 애초에 공개하지 않는 것입니다. 온라인에서 찾은 자신에 관한 원치 않는 정보를 삭제하는 것은 프라이버시를 되찾기 위해 취할 수 있는 가장 좋은 첫걸음 중 하나입니다.
 
-- [계정 삭제 가이드 살펴보기 :material-arrow-right-drop-circle:](account-deletion.md)
+- [계정 삭제 가이드 보기 :material-arrow-right-drop-circle:](account-deletion.md)
 
-정보를 공유하는 사이트에서는 반드시 계정 개인정보 보호 설정을 확인하여 데이터가 원치 않게 널리 퍼지지 않도록 해야 합니다. 예를 들어, 가능하면 계정에서 '비공개 모드' 같은 옵션을 활성화해야 합니다. 계정 비공개 모드를 활성화하면 여러분의 계정이 검색 엔진에 잡히지 않고 여러분 허락 없이 계정을 살펴볼 수 없습니다.
+정보를 공유하는 사이트에서는 계정의 개인정보 보호 설정을 확인하여 데이터가 퍼지는 범위를 제한하는 것이 매우 중요합니다. 예를 들어 옵션이 있다면 계정에서 "비공개 모드"를 활성화하세요. 이렇게 하면 계정이 검색 엔진에 색인되지 않고, 여러분의 허락 없이는 계정을 볼 수 없습니다.
 
-실제 정보를 제공해서는 안 되는 사이트에 이미 실제 정보를 제출했다면, 해당 온라인 신원에 관련된 허위 정보를 제출하는 등의 전략을 사용할 수 있습니다. 이렇게 하면 가짜 정보와 여러분에 대한 실제 정보를 구별할 수 없습니다.
+이미 실제 정보를 가지고 있어서는 안 되는 사이트에 제출했다면, 해당 온라인 신원과 관련된 가상의 정보를 제출하는 것과 같은 허위 정보 전략을 고려해 보세요. 이렇게 하면 실제 정보를 허위 정보와 구별할 수 없게 됩니다.
 
-## 검열 회피
+## 검열 회피하기 { #avoiding-censorship }
 
-<span class="pg-blue-gray">:material-close-outline: 검열(Censorship)</span>
+<span class="pg-blue-gray">:material-close-outline: 검열</span>
 
-'온라인 검열'은 전체주의 정부, 네트워크 관리자, 서비스 제공 업체 등 다양한 주체에 의해 (그 정도 또한 다양하게) 이루어질 수 있습니다. 의사소통을 통제하고 정보 접근을 제한하는 '검열'은 표현의 자유 인권과 절대 양립할 수 없습니다.[^5]
+온라인 검열은 전체주의 정부, 네트워크 관리자, 서비스 제공업체 등 다양한 주체에 의해 (정도의 차이는 있지만) 이루어질 수 있습니다. 통신을 통제하고 정보 접근을 제한하려는 이러한 시도는 표현의 자유라는 인권과 결코 양립할 수 없습니다.[^5]
 
-Twitter, Facebook 같은 플랫폼이 대중의 요구, 시장의 압력, 정부 기관의 압력에 굴복하면서, 기업 플랫폼에서의 검열은 점점 보편화되고 있습니다. Government pressures can be covert requests to businesses, such as the White House [requesting the takedown](https://nytimes.com/2012/09/17/technology/on-the-web-a-fine-line-on-free-speech-across-globe.html) of a provocative YouTube video, or overt, such as the Chinese government requiring companies to adhere to a strict regime of censorship.
+트위터와 페이스북 같은 플랫폼이 대중의 요구, 시장의 압력, 정부 기관의 압력에 굴복하면서 기업 플랫폼에서의 검열은 점점 흔해지고 있습니다. 정부의 압력은 백악관이 도발적인 유튜브 동영상의 [삭제를 요청](https://nytimes.com/2012/09/17/technology/on-the-web-a-fine-line-on-free-speech-across-globe.html)한 것처럼 기업에 대한 은밀한 요청일 수도 있고, 중국 정부가 기업에 엄격한 검열 체제를 따르도록 요구하는 것처럼 공개적일 수도 있습니다.
 
-People concerned with the threat of censorship can use technologies like [Tor](../advanced/tor-overview.md) to circumvent it, and support censorship-resistant communication platforms like [Matrix](../social-networks.md#element), which doesn't have a centralized account authority that can close accounts arbitrarily.
+검열의 위협을 우려하는 사람들은 [토르](../advanced/tor-overview.md) 같은 기술을 사용해 검열을 우회하고, 계정을 임의로 폐쇄할 수 있는 중앙 계정 관리 주체가 없는 [매트릭스](../social-networks.md#element) 같은 검열 저항적 통신 플랫폼을 지원할 수 있습니다.
 
 <div class="admonition tip" markdown>
-<p class="admonition-title">Tip</p>
+<p class="admonition-title">팁</p>
 
-'검열 회피' 자체는 어렵지 않습니다. 하지만 여러분이 검열을 회피하고 있다는 사실을 감추는 것은 매우 문제가 될 수 있습니다.
+검열을 회피하는 것 자체는 쉬울 수 있지만, 회피하고 있다는 사실을 숨기는 것은 매우 어려울 수 있습니다.
 
-여러분의 적대자가 가진 네트워크 감시 능력은 어느정도인지, 여러분 스스로 자신의 검열 회피 행동에 대해 타당한 구실을 가지고 있는지를 고려해야 합니다. 예를 들어, [암호화 DNS](../advanced/dns-overview.md#what-is-encrypted-dns)를 사용하면 기초적인 DNS 기반 검열 시스템을 우회할 수 있지만, 방문 중인 사이트가 ISP에 노출되는 것을 숨길 수는 없습니다. VPN/Tor를 사용하면 네트워크 관리자로부터 여러분이 어떤 사이트를 방문하는지 숨길 수 있지만, VPN/Tor 네트워크를 사용 중이라는 것 자체는 숨길 수 없습니다. (Obfs4proxy, Meek, Shadowsocks 등) Pluggable transports로는 일반적인 VPN/Tor 프로토콜 차단 방화벽을 우회할 수는 있지만, 프로빙(Probing)이나 [심층 패킷 검사(Deep Packet Inspection)](https://en.wikipedia.org/wiki/Deep_packet_inspection) 같은 방법을 사용하면 우회 시도를 탐지할 수 있습니다.
+공격자가 네트워크의 어떤 측면을 관찰할 수 있는지, 그리고 자신의 행동에 대해 그럴듯한 부인 가능성이 있는지 고려해야 합니다. 예를 들어 [암호화된 DNS](../advanced/dns-overview.md#what-is-encrypted-dns)를 사용하면 초보적인 DNS 기반 검열 시스템은 우회할 수 있지만, 방문하는 사이트를 ISP로부터 진정으로 숨길 수는 없습니다. VPN이나 토르를 사용하면 방문하는 사이트를 네트워크 관리자로부터 숨길 수 있지만, 애초에 이러한 네트워크를 사용하고 있다는 사실 자체는 숨길 수 없습니다. 플러거블 트랜스포트(Obfs4proxy, 미크, 섀도삭스 등)는 일반적인 VPN 프로토콜이나 토르를 차단하는 방화벽을 우회하는 데 도움이 되지만, 프로빙이나 [심층 패킷 검사](https://en.wikipedia.org/wiki/Deep_packet_inspection) 같은 방법으로 여전히 우회 시도가 탐지될 수 있습니다.
 
 </div>
 
-검열을 우회할 경우 발생할 수 있는 위험 및 결과, 적대자의 능력을 항상 고려해야 합니다. 사용할 소프트웨어를 신중하게 선택하고, 적발될 경우를 대비한 백업 계획을 세워야 합니다.
+검열 우회를 시도할 때의 위험, 잠재적 결과, 그리고 공격자가 얼마나 정교한지를 항상 고려해야 합니다. 사용할 소프트웨어를 신중하게 선택하고, 적발될 경우에 대비한 대안을 마련해 두어야 합니다.
 
-[^1]: Wikipedia: [*Mass Surveillance*](https://en.wikipedia.org/wiki/Mass_surveillance) and [*Surveillance*](https://en.wikipedia.org/wiki/Surveillance).
-[^2]: 미국 프라이버시 및 시민 자유 감독 위원회: [*215조항에 따라 수행된 전화 통화 기록 프로그램에 대한 보고서*](https://documents.pclob.gov/prod/Documents/OversightReport/ec542143-1079-424a-84b3-acc354698560/215-Report_on_the_Telephone_Records_Program.pdf)
-[^3]: Wikipedia: [*Surveillance capitalism*](https://en.wikipedia.org/wiki/Surveillance_capitalism)
-[^4]: "[Enumerating badness](https://ranum.com/security/computer_security/editorials/dumb)" (or, "listing all the bad things that we know about"), as many content blockers and antivirus programs do, fails to adequately protect you from new and unknown threats because they have not yet been added to the filter list. 다른 완화 기술도 추가로 사용해야 합니다.
-[^5]: United Nations: [*Universal Declaration of Human Rights*](https://un.org/en/about-us/universal-declaration-of-human-rights).
+[^1]: 위키백과: [*대규모 감시*](https://en.wikipedia.org/wiki/Mass_surveillance) 및 [*감시*](https://en.wikipedia.org/wiki/Surveillance).
+[^2]: 미국 프라이버시 및 시민 자유 감독 위원회: [*215조에 따라 수행된 전화 기록 프로그램에 관한 보고서*](https://documents.pclob.gov/prod/Documents/OversightReport/ec542143-1079-424a-84b3-acc354698560/215-Report_on_the_Telephone_Records_Program.pdf)
+[^3]: 위키백과: [*감시 자본주의*](https://en.wikipedia.org/wiki/Surveillance_capitalism)
+[^4]: 많은 콘텐츠 차단기와 백신 프로그램이 그러하듯 "[나쁜 것 열거하기](https://ranum.com/security/computer_security/editorials/dumb)"(즉, "알고 있는 나쁜 것을 모두 나열하기") 방식은 아직 필터 목록에 추가되지 않은 새롭고 알려지지 않은 위협으로부터 여러분을 충분히 보호하지 못합니다. 다른 완화 기술도 추가로 사용해야 합니다.
+[^5]: 국제연합: [*세계 인권 선언*](https://un.org/en/about-us/universal-declaration-of-human-rights).

@@ -1,7 +1,7 @@
 ---
 title: "일반적인 오해"
 icon: 'material/robot-confused'
-description: 프라이버시는 단순한 주제가 아닙니다. 홍보성 문구나 여타 잘못된 정보에 현혹당하지 않도록 조심해야 합니다.
+description: 프라이버시는 간단한 주제가 아니며, 마케팅 문구나 기타 잘못된 정보에 휘말리기 쉽습니다.
 schema:
   - 
     "@context": https://schema.org
@@ -13,85 +13,85 @@ schema:
         acceptedAnswer:
           "@type": Answer
           text: |
-            소스 코드의 공개 여부와 라이선스 방식은 본질적으로 보안에 어떠한 영향도 미치지 않습니다. 오픈 소스 소프트웨어는 독점 소프트웨어보다 더 안전할 가능성이 있지만, 반드시 그렇다는 보장은 없습니다. 소프트웨어를 평가할 때는 평판과 보안을 개별적으로 살펴봐야 합니다.
+            소스 코드의 공개 여부와 라이선스 방식은 본질적으로 보안에 어떠한 영향도 미치지 않습니다. 오픈 소스 소프트웨어는 독점 소프트웨어보다 더 안전할 가능성이 있지만, 반드시 그렇다는 보장은 없습니다. 소프트웨어를 평가할 때는 각 도구의 평판과 보안을 개별적으로 살펴봐야 합니다.
       - 
         "@type": Question
-        name: 다른 제공업체로 신뢰하는 대상을 변경함으로써 프라이버시를 강화할 수 있나요?
+        name: 신뢰 대상을 다른 제공업체로 옮기면 프라이버시가 향상되나요?
         acceptedAnswer:
           "@type": Answer
           text: |
-            VPN과 같은 솔루션들에 대해 논의할 때 "신뢰하는 대상을 변경한다"는 말이 자주 나옵니다. (VPN은 ISP로부터 VPN 제공자로 신뢰 대상을 바꿉니다) 이는 ISP로부터 브라우징 데이터를 보호하지만, 당신이 선택한 VPN 제공자는 이 브라우징 데이터에 접근할 수 있습니다. 즉, 데이터가 모든 이로부터 보호되는 것이 아닙니다.
+            VPN(ISP에 두던 신뢰를 VPN 제공업체로 옮기는 수단) 같은 솔루션을 다룰 때 "신뢰 대상 옮기기"에 대해 자주 이야기합니다. 이렇게 하면 브라우징 데이터를 ISP로부터는 보호할 수 있지만, 여러분이 선택한 VPN 제공업체는 여전히 브라우징 데이터에 접근할 수 있습니다. 즉, 데이터가 모든 주체로부터 완전히 보호되는 것은 아닙니다.
       - 
         "@type": Question
-        name: 프라이버시 중점 솔루션은 본질적으로 신뢰할 수 있나요?
+        name: 프라이버시 중심 솔루션은 본질적으로 신뢰할 수 있나요?
         acceptedAnswer:
           "@type": Answer
           text: |
-            제품 또는 서비스의 개인정보 보호정책과 마케팅에만 집중하게 되면 해당 솔루션들의 약점들을 놓칠 수 있습니다. 솔루션을 찾을 때에는 우선 근본적인 문제가 무엇인지를 파악한 후, 그 문제에 대응하는 기술적인 해결책을 찾는 방향으로 나아가야 합니다. 예시로, 자신의 데이터를 Google에게 넘겨줄 수 있다는 이유로 Google Drive를 피하고 싶을 수 있습니다. 여기서의 근본적인 문제는 종단간 암호화가 없다는 것입니다. 따라서 새로운 서비스 제공자를 선택할 경우, 그 제공자가 종단간 암호화를 도입했는지 확인하거나, 종단간 암호화를 직접 도입할 수 있게 해주는 프로그램를 사용할 수 있습니다. 예시로는 Cryptomator가 있습니다. 프라이버시에 중점을 두었다고 광고하지만 종단간 암호화를 도입하지 않은 제공자는 이 문제의 해결책이 될 수 없습니다. 이는 그저 Google에서 해당 제공자로 신뢰 대상을 변경할 뿐입니다.
+            도구나 제공업체의 개인정보 처리방침과 마케팅에만 집중하면 그 약점을 보지 못할 수 있습니다. 프라이버시를 더 잘 보호하는 솔루션을 찾을 때는 근본적인 문제가 무엇인지 파악하고 그 문제에 대한 기술적 해결책을 찾아야 합니다. 예를 들어, 구글이 여러분의 모든 데이터에 접근할 수 있는 구글 드라이브를 피하고 싶을 수 있습니다. 이 경우 근본적인 문제는 E2EE가 없다는 것이므로, 옮겨 갈 제공업체가 실제로 E2EE를 구현하는지 확인하거나 어떤 클라우드 제공업체에서든 E2EE를 제공하는 도구(크립토메이터 등)를 사용해야 합니다. (E2EE를 구현하지 않은) "프라이버시 중심" 제공업체로 옮기는 것은 문제를 해결하지 못합니다. 신뢰 대상을 구글에서 해당 제공업체로 옮길 뿐입니다.
       - 
         "@type": Question
         name: 위협 모델은 얼마나 복잡하게 만들어야 하나요?
         acceptedAnswer:
           "@type": Answer
           text: |
-            가끔 과도하게 복잡한 위협 모델을 가진 사람들을 볼 수 있습니다. 이런 솔루션들은 너무 많은 이메일 계정들이나 복잡한 설정과 같은 문제점을 지니고 있을 수 있습니다. 이런 질문의 답변들은 대부분 "X를 수행하는 최선의 방법"과 같습니다.
-            자신에게 최고인 솔루션은 수십가지의 조건하에서도 작동하는 것을 가리키는 것이 아닙니다. 이런 솔루션들은 대개 현실적으로 사용하기 어렵습니다. 앞서 설명한 것과 같이, 보안과 편의성은 서로 반대되는 관계를 가집니다.
+            지나치게 복잡한 프라이버시 위협 모델을 설명하는 사람들을 흔히 볼 수 있습니다. 이러한 솔루션에는 수많은 이메일 계정이나 구성 요소와 조건이 많은 복잡한 설정 같은 문제가 포함되는 경우가 많습니다. 이런 답변은 대개 "X를 하는 가장 좋은 방법은 무엇인가요?"라는 질문에 대한 것입니다.
+            자신에게 "가장 좋은" 솔루션을 찾는다는 것이 반드시 수십 가지 조건을 갖춘 완벽한 솔루션을 추구한다는 뜻은 아닙니다. 그런 솔루션은 현실적으로 사용하기 어려운 경우가 많습니다. 앞서 설명했듯이, 보안은 편의성을 희생해야 하는 경우가 많습니다.
 ---
 
-## "오픈 소스 소프트웨어는 항상 안전하다" 혹은 "독점 소프트웨어가 더 안전하다"
+## "오픈 소스 소프트웨어는 항상 안전하다" 혹은 "독점 소프트웨어가 더 안전하다" { #open-source-software-is-always-secure-or-proprietary-software-is-more-secure }
 
-이런 오해는 여러 편견에서 비롯된 것입니다. 소스 코드 공개 여부이나 라이선스 방식 자체는 보안에 어떠한 영향도 미치지 않습니다. ==오픈 소스 소프트웨어는 독점 소프트웨어보다 보안이 뛰어날 *가능성*이 존재하지만, 반드시 그러하리라는 보장은 없습니다.== 특정 소프트웨어를 평가할 때는 해당 소프트웨어의 평판과 보안을 개별적으로 판단해야 합니다.
+이런 통념은 여러 편견에서 비롯되지만, 소스 코드 공개 여부와 소프트웨어 라이선스 방식은 본질적으로 보안에 어떠한 영향도 미치지 않습니다. ==오픈 소스 소프트웨어는 독점 소프트웨어보다 더 안전할 *가능성*이 있지만, 반드시 그렇다는 보장은 전혀 없습니다.== 소프트웨어를 평가할 때는 각 도구의 평판과 보안을 개별적으로 살펴봐야 합니다.
 
-오픈 소스 소프트웨어는 제3자로부터 검증(감사)받는 것이 *가능하고*, 잠재적인 취약점을 취급하는 데에 있어서 독점 소프트웨어보다 투명하게 이루어지는 경우가 많습니다. 하고자 한다면 자신이 직접 코드를 검토할 수도 있으며, 의심스러운 기능은 비활성화 하는 것도 가능합니다. 하지만 이론상 가능한 것과는 별개로 (특히 소규모 소프트웨어 프로젝트일수록) 해당 코드가 검증되었다는 보장은 없습니다. The open development process has also sometimes been exploited to introduce new vulnerabilities known as [:material-package-variant-closed-remove: Supply Chain Attacks](common-threats.md#attacks-against-certain-organizations ""){.pg-viridian}, which are discussed further in our [Common Threats](common-threats.md) page.[^1]
+오픈 소스 소프트웨어는 제3자의 감사를 받을 *수 있으며*, 잠재적 취약점에 관해 독점 소프트웨어보다 투명한 경우가 많습니다. 또한 직접 코드를 검토하고 의심스러운 기능을 발견하면 비활성화할 수도 있습니다. 하지만 *직접 그렇게 하지 않는 한*, 특히 소규모 소프트웨어 프로젝트의 경우 코드가 한 번이라도 검토되었다는 보장은 없습니다. 개방된 개발 프로세스는 때때로 새로운 취약점을 심는 데 악용되기도 하는데, 이를 [:material-package-variant-closed-remove: 공급망 공격](common-threats.md#attacks-against-certain-organizations ""){.pg-viridian}이라고 하며 [일반적인 위협](common-threats.md) 페이지에서 자세히 다룹니다.[^1]
 
-반면 독점 소프트웨어는 투명성이 상대적으로 떨어지지만, 그렇다고 해서 안전하지 않다는 뜻은 아닙니다. 메이저 독점 소프트웨어는 내부 및 외부 기관에서 감사를 진행할 수 있으며, 외부 보안 연구원도 리버스 엔지니어링 등의 기술을 통해 취약점을 발견할 수 있습니다.
+반면 독점 소프트웨어는 투명성이 상대적으로 떨어지지만, 그렇다고 해서 안전하지 않다는 뜻은 아닙니다. 주요 독점 소프트웨어 프로젝트는 내부 및 제3자 기관의 감사를 받을 수 있으며, 독립 보안 연구원도 리버스 엔지니어링 같은 기법으로 취약점을 찾아낼 수 있습니다.
 
-편향된 판단을 내리지 않기 위해선 소프트웨어의 프라이버시 및 보안 수준을 객관적으로 평가하는 것이 중요합니다.
+편향된 결정을 피하려면 사용하는 소프트웨어의 프라이버시 및 보안 기준을 평가하는 것이 *매우 중요합니다*.
 
-## "신뢰하는 대상을 바꾸면 프라이버시를 강화할 수 있다"
+## "신뢰 대상을 옮기면 프라이버시가 향상된다" { #shifting-trust-can-increase-privacy }
 
-VPN과 같은 솔루션들에 대해 논의할 때 "신뢰하는 대상을 변경한다"는 말이 자주 나옵니다. (VPN은 ISP로부터 VPN 제공자로 신뢰 대상을 바꿉니다) 이는 ISP로부터 브라우징 데이터를 보호하지만, 당신이 선택한 VPN 제공자는 이 브라우징 데이터에 접근할 수 있습니다. 즉, 데이터가 모든 이로부터 보호되는 것이 아닙니다. 따라서:
+VPN(ISP에 두던 신뢰를 VPN 제공업체로 옮기는 수단) 같은 솔루션을 다룰 때 "신뢰 대상 옮기기"에 대해 자주 이야기합니다. 이렇게 하면 브라우징 데이터를 ISP*로부터는* 보호할 수 있지만, 여러분이 선택한 VPN 제공업체는 여전히 브라우징 데이터에 접근할 수 있습니다. 즉, 데이터가 모든 주체로부터 완전히 보호되는 것은 아닙니다. 이는 다음을 의미합니다:
 
-1. 새로 신뢰할 제공업체를 신중하게 선택해야 합니다.
-2. 종단간 암호화와 같은 기타 기술을 같이 이용해서 데이터를 지켜야 합니다. 기존 제공업체 대신 다른 업체를 신뢰하는 것만으로는 데이터 보호라고 보기 어렵습니다.
+1. 신뢰 대상을 옮길 제공업체를 신중하게 선택해야 합니다.
+2. 데이터를 완전히 보호하려면 E2EE 같은 다른 기술도 함께 사용해야 합니다. 한 제공업체를 불신하고 다른 제공업체를 신뢰하는 것만으로는 데이터를 보호할 수 없습니다.
 
-## "프라이버시를 중점으로 둔 솔루션은 본질적으로 신뢰할 수 있다"
+## "프라이버시 중심 솔루션은 본질적으로 신뢰할 수 있다" { #privacy-focused-solutions-are-inherently-trustworthy }
 
-제품 또는 서비스의 개인정보 보호정책과 마케팅에만 집중하게 되면 해당 솔루션들의 약점들을 놓칠 수 있습니다. 솔루션을 찾을 때에는 우선 근본적인 문제가 무엇인지를 파악한 후, 그 문제에 대응하는 기술적인 해결책을 찾는 방향으로 나아가야 합니다. 예시로, 자신의 데이터를 Google에게 넘겨줄 수 있다는 이유로 Google Drive를 피하고 싶을 수 있습니다. The underlying problem in this case is lack of E2EE, so you should make sure that the provider you switch to actually implements E2EE, or use a tool (like [Cryptomator](../encryption.md#cryptomator-cloud)) which provides E2EE on any cloud provider. 프라이버시에 중점을 두었다고 광고하지만 종단간 암호화를 도입하지 않은 제공자는 이 문제의 해결책이 될 수 없습니다. 이는 그저 Google에서 해당 제공자로 신뢰 대상을 변경할 뿐입니다.
+도구나 제공업체의 개인정보 처리방침과 마케팅에만 집중하면 그 약점을 보지 못할 수 있습니다. 프라이버시를 더 잘 보호하는 솔루션을 찾을 때는 근본적인 문제가 무엇인지 파악하고 그 문제에 대한 기술적 해결책을 찾아야 합니다. 예를 들어, 구글이 여러분의 모든 데이터에 접근할 수 있는 구글 드라이브를 피하고 싶을 수 있습니다. 이 경우 근본적인 문제는 E2EE가 없다는 것이므로, 옮겨 갈 제공업체가 실제로 E2EE를 구현하는지 확인하거나 어떤 클라우드 제공업체에서든 E2EE를 제공하는 도구([크립토메이터](../encryption.md#cryptomator-cloud) 등)를 사용해야 합니다. (E2EE를 구현하지 않은) "프라이버시 중심" 제공업체로 옮기는 것은 문제를 해결하지 못합니다. 신뢰 대상을 구글에서 해당 제공업체로 옮길 뿐입니다.
 
-The privacy policies and business practices of providers you choose are very important, but should be considered secondary to technical guarantees of your privacy: You shouldn't shift trust to another provider when trusting a provider isn't a requirement at all.
+선택한 제공업체의 개인정보 처리방침과 사업 관행도 매우 중요하지만, 프라이버시에 대한 기술적 보장보다는 부차적인 요소로 고려해야 합니다. 제공업체를 신뢰할 필요가 전혀 없는 상황에서 굳이 다른 제공업체로 신뢰 대상을 옮겨서는 안 됩니다.
 
-## "복잡할수록 좋다"
+## "복잡할수록 좋다" { #complicated-is-better }
 
-간혹 위협 모델을 지나치게 복잡하게 만드는 사람들을 볼 수 있습니다. Often, these solutions include problems like multiple email accounts or complicated setups with lots of moving parts and conditions. The replies are usually answers to "What is the best way to do *X*?"
+지나치게 복잡한 프라이버시 위협 모델을 설명하는 사람들을 흔히 볼 수 있습니다. 이러한 솔루션에는 여러 개의 이메일 계정이나 구성 요소와 조건이 많은 복잡한 설정 같은 문제가 포함되는 경우가 많습니다. 이런 답변은 대개 "*X*를 하는 가장 좋은 방법은 무엇인가요?"라는 질문에 대한 것입니다.
 
-자신에게 최고인 솔루션은 수십가지의 조건하에서도 작동하는 것을 가리키는 것이 아닙니다. 이런 솔루션들은 대개 현실적으로 사용하기 어렵습니다. 앞서 설명한 것과 같이, 보안과 편의성은 서로 반대되는 관계를 가집니다. Below, we provide some tips:
+자신에게 "가장 좋은" 솔루션을 찾는다는 것이 반드시 수십 가지 조건을 갖춘 완벽한 솔루션을 추구한다는 뜻은 아닙니다. 그런 솔루션은 현실적으로 사용하기 어려운 경우가 많습니다. 앞서 설명했듯이, 보안은 편의성을 희생해야 하는 경우가 많습니다. 다음은 몇 가지 팁입니다:
 
-1. ==행동은 목적을 가지고 이루어져야 합니다.== 최소한의 노력으로 목적을 달성하는 방법을 생각해보세요.
-2. ==자신의 의지력에 의존하지 마세요.== 사람은 실패하고, 지치고, 깜박하기 마련입니다. To maintain security, avoid relying on manual conditions and processes that you have to remember.
-3. ==Use the right level of protection for what you intend.== We often see recommendations of so-called law-enforcement or subpoena-proof solutions. These often require specialist knowledge and generally aren't what people want. There's no point in building an intricate threat model for anonymity if you can be easily deanonymized by a simple oversight.
+1. ==행동에는 분명한 목적이 있어야 합니다:== 원하는 것을 최소한의 행동으로 하는 방법을 생각해 보세요.
+2. ==사람의 실수가 개입할 여지를 없애세요:== 사람은 실수하고, 지치고, 잊어버립니다. 보안을 유지하려면 기억해야 하는 수동 조건이나 절차에 의존하지 마세요.
+3. ==목적에 맞는 수준의 보호를 사용하세요.== 이른바 법 집행 기관이나 소환장에도 끄떡없다는 솔루션을 추천하는 경우를 흔히 볼 수 있습니다. 이런 솔루션은 대개 전문 지식이 필요하며, 일반적으로 사람들이 원하는 것이 아닙니다. 사소한 실수 하나로 쉽게 익명성이 해제될 수 있다면, 익명성을 위해 복잡한 위협 모델을 구축하는 것은 의미가 없습니다.
 
-So, how might this look?
+그렇다면 실제로는 어떤 모습일까요?
 
-One of the clearest threat models is one where people *know who you are* and one where they do not. There will always be situations where you must declare your legal name and there are others where you don't need to.
+가장 명확한 위협 모델 중 하나는 사람들이 *여러분이 누구인지 아는* 경우와 모르는 경우로 나누는 것입니다. 법적 실명을 밝혀야 하는 상황은 항상 있기 마련이고, 그럴 필요가 없는 상황도 있습니다.
 
-1. **Known identity** - A known identity is used for things where you must declare your name. There are many legal documents and contracts where a legal identity is required. This could range from opening a bank account, signing a property lease, obtaining a passport, customs declarations when importing items, or otherwise dealing with your government. These things will usually lead to credentials such as credit cards, credit rating checks, account numbers, and possibly physical addresses.
+1. **알려진 신원** - 알려진 신원은 이름을 밝혀야 하는 일에 사용됩니다. 법적 신원이 필요한 법률 문서와 계약은 많습니다. 은행 계좌 개설, 부동산 임대 계약, 여권 발급, 물품 수입 시 세관 신고, 기타 정부 관련 업무 등이 이에 해당합니다. 이러한 일은 대개 신용카드, 신용 조회, 계좌 번호, 경우에 따라 실제 주소 같은 정보로 이어집니다.
 
-    We don't suggest using a VPN or Tor for any of these things, as your identity is already known through other means.
+    이미 다른 수단을 통해 신원이 알려져 있으므로, 이런 일에는 VPN이나 토르를 사용할 것을 권장하지 않습니다.
 
     <div class="admonition tip" markdown>
-    <p class="admonition-title">Tip</p>
+    <p class="admonition-title">팁</p>
 
-    When shopping online, the use of a [parcel locker](https://en.wikipedia.org/wiki/Parcel_locker) can help keep your physical address private.
+    온라인 쇼핑을 할 때 [무인 택배함](https://en.wikipedia.org/wiki/Parcel_locker)을 이용하면 실제 주소를 비공개로 유지하는 데 도움이 됩니다.
 
     </div>
 
-2. **Unknown identity** - An unknown identity could be a stable pseudonym that you regularly use. It is not anonymous because it doesn't change. If you're part of an online community, you may wish to retain a persona that others know. This pseudonym isn't anonymous because—if monitored for long enough—details about the owner can reveal further information, such as the way they write, their general knowledge about topics of interest, etc.
+2. **알려지지 않은 신원** - 알려지지 않은 신원은 정기적으로 사용하는 고정된 가명일 수 있습니다. 바뀌지 않기 때문에 익명은 아닙니다. 온라인 커뮤니티에 속해 있다면 다른 사람들이 알고 있는 페르소나를 유지하고 싶을 수 있습니다. 이러한 가명은 익명이 아닌데, 충분히 오랫동안 관찰하면 글쓰기 방식이나 관심 주제에 대한 지식 수준 등 소유자에 관한 세부 정보를 통해 더 많은 정보가 드러날 수 있기 때문입니다.
 
-    You may wish to use a VPN for this, to mask your IP address. Financial transactions are more difficult to mask: You could consider using anonymous cryptocurrencies, such as [Monero](../cryptocurrency.md#monero). Employing altcoin shifting may also help to disguise where your currency originated. Typically, exchanges require KYC (know your customer) to be completed before they'll allow you to exchange fiat currency into any kind of cryptocurrency. Local meet-up options may also be a solution; however, those are often more expensive and sometimes also require KYC.
+    IP 주소를 감추기 위해 VPN을 사용하는 것이 좋을 수 있습니다. 금융 거래는 감추기가 더 어렵습니다. [모네로](../cryptocurrency.md#monero) 같은 익명 암호화폐를 사용하는 것을 고려해 볼 수 있습니다. 알트코인 전환을 활용하면 자금의 출처를 숨기는 데에도 도움이 될 수 있습니다. 일반적으로 거래소는 법정 화폐를 암호화폐로 교환하기 전에 KYC(고객 확인 절차)를 요구합니다. 직접 만나서 거래하는 방법도 해결책이 될 수 있지만, 대개 비용이 더 많이 들고 때로는 KYC가 필요하기도 합니다.
 
-3. **Anonymous identity** - Even with experience, anonymous identities are difficult to maintain over long periods of time. They should be short-term and short-lived identities which are rotated regularly.
+3. **익명 신원** - 경험이 있더라도 익명 신원을 오랫동안 유지하기는 어렵습니다. 익명 신원은 단기적으로만 사용하고 정기적으로 교체해야 합니다.
 
-    Using Tor can help with this. It is also worth noting that greater anonymity is possible through asynchronous communication: Real-time communication is vulnerable to analysis of typing patterns (i.e. more than a paragraph of text, distributed on a forum, via email, etc.)
+    토르를 사용하면 도움이 될 수 있습니다. 비동기 통신(즉, 포럼이나 이메일 등으로 한 단락 이상의 글을 배포하는 방식)을 통해 더 높은 익명성을 얻을 수 있다는 점도 주목할 만합니다. 실시간 통신은 타이핑 패턴 분석에 취약하기 때문입니다.
 
-[^1]: A notable supply chain attack occurred in March 2024, when a malicious maintainer added an obfuscated backdoor into `xz`, a popular compression library. The backdoor ([CVE-2024-3094](https://cve.org/CVERecord?id=CVE-2024-3094)) was intended to give an unknown party remote access to most Linux servers via SSH, but it was discovered before it had been widely deployed.
+[^1]: 주목할 만한 공급망 공격은 2024년 3월에 발생했는데, 악의적인 관리자가 인기 압축 라이브러리인 `xz`에 난독화된 백도어를 추가한 사건입니다. 이 백도어([CVE-2024-3094](https://cve.org/CVERecord?id=CVE-2024-3094))는 알 수 없는 주체가 SSH를 통해 대부분의 리눅스 서버에 원격으로 접근할 수 있도록 하기 위한 것이었지만, 널리 배포되기 전에 발견되었습니다.

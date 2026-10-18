@@ -1,61 +1,61 @@
 ---
 title: 계정 삭제
 icon: material/account-remove
-description: It's easy to accumulate a large number of internet accounts. Here are some tips on how to prune your collection.
+description: 인터넷 계정은 쉽게 늘어나기 마련입니다. 계정을 정리하는 방법에 대한 몇 가지 팁을 소개합니다.
 ---
 
-온라인 계정은 시간이 지날수록 쌓여갑니다. 그리고 그 중 상당수는 더 이상 사용하지 않는 계정일 겁니다. 휴면 계정은 데이터 유출에 취약하므로 '사용하지 않는 계정을 삭제하는 것'은 프라이버시 보호에 있어서 중요합니다. A data breach occurs when a service's security is compromised and protected information is viewed, transmitted, or stolen by unauthorized actors. 안타깝게도 최근에는 데이터 유출 사고가 [너무 많이 발생합니다](https://haveibeenpwned.com/PwnedWebsites). 데이터 유출 사고가 여러분의 삶에 미치는 영향을 최소화하고자 한다면 디지털에서도 위생 관념을 철저히 해야 합니다. The goal of this guide then is to help navigate you through the irksome process of account deletion, often made difficult by [deceptive design](https://deceptive.design), for the betterment of your online presence.
+시간이 지나면서 온라인 계정이 쌓이기 쉽고, 그중 상당수는 더 이상 사용하지 않는 계정일 것입니다. 휴면 계정은 데이터 유출에 취약하므로, 사용하지 않는 계정을 삭제하는 것은 프라이버시를 되찾기 위한 중요한 단계입니다. 데이터 유출은 서비스의 보안이 뚫려 보호되던 정보를 권한 없는 행위자가 열람, 전송 또는 탈취할 때 발생합니다. 안타깝게도 요즘 데이터 유출은 [너무나 흔하게](https://haveibeenpwned.com/PwnedWebsites) 일어나므로, 좋은 디지털 위생 습관을 실천하는 것이 데이터 유출이 여러분의 삶에 미치는 영향을 최소화하는 가장 좋은 방법입니다. 이 가이드의 목표는 [기만적 디자인](https://deceptive.design)으로 인해 어려운 경우가 많은 번거로운 계정 삭제 과정을 안내하여, 여러분의 온라인 흔적을 개선하도록 돕는 것입니다.
 
-## 오래된 계정 찾기
+## 오래된 계정 찾기 { #finding-old-accounts }
 
-### 비밀번호 관리자
+### 비밀번호 관리자 { #password-manager }
 
-디지털 생활 내내 비밀번호 관리자를 사용해 왔다면 이는 매우 간단합니다. Oftentimes, they include built-in functionality for detecting if your credentials were exposed in a data breach—such as Bitwarden's [Data Breach Report](https://bitwarden.com/blog/have-you-been-pwned).
+디지털 생활 내내 비밀번호 관리자를 사용해 왔다면 이는 매우 간단합니다. 비밀번호 관리자에는 비트워든의 [데이터 유출 보고서](https://bitwarden.com/blog/have-you-been-pwned)처럼 자격 증명이 데이터 유출로 노출되었는지 감지하는 기능이 내장되어 있는 경우가 많습니다.
 
 <figure markdown>
-  ![Bitwarden 데이터 유출 보고서 기능](../assets/img/account-deletion/exposed_passwords.png)
+  ![비트워든의 데이터 유출 보고서 기능](../assets/img/account-deletion/exposed_passwords.png)
 </figure>
 
-Even if you haven't explicitly used a password manager before, there's a chance you've used the one in your browser ([Firefox](https://support.mozilla.org/kb/password-manager-remember-delete-edit-logins), [Chrome](https://passwords.google.com/intro), [Edge](https://support.microsoft.com/microsoft-edge/save-or-forget-passwords-in-microsoft-edge-b4beecb0-f2a8-1ca0-f26f-9ec247a3f336)) or your phone ([Google](https://passwords.google.com/intro) on stock Android, [Passwords](https://support.apple.com/HT211146) on iOS) without even realizing it.
+지금까지 비밀번호 관리자를 명시적으로 사용한 적이 없더라도, 브라우저([파이어폭스](https://support.mozilla.org/kb/password-manager-remember-delete-edit-logins), [크롬](https://passwords.google.com/intro), [엣지](https://support.microsoft.com/microsoft-edge/save-or-forget-passwords-in-microsoft-edge-b4beecb0-f2a8-1ca0-f26f-9ec247a3f336))나 휴대폰(순정 안드로이드의 [구글](https://passwords.google.com/intro), iOS의 [암호](https://support.apple.com/HT211146))에 내장된 비밀번호 관리자를 자신도 모르게 사용해 왔을 가능성이 있습니다.
 
-데스크톱 플랫폼에도 보통 비밀번호 관리자가 있기 때문에, 잊어버린 비밀번호를 복구하는 데에 유용할 수 있습니다:
+데스크톱 플랫폼에도 비밀번호 관리자가 있는 경우가 많아, 잊어버린 비밀번호를 찾는 데 도움이 될 수 있습니다:
 
-- Windows: [Credential Manager](https://support.microsoft.com/windows/accessing-credential-manager-1b5c916a-6a16-889f-8581-fc16e8165ac0)
-- macOS: [Passwords](https://support.apple.com/HT211145)
-- Linux: Gnome Keyring (accessed through [Seahorse](https://gitlab.gnome.org/GNOME/seahorse#seahorse)) or [KDE Wallet Manager](https://userbase.kde.org/KDE_Wallet_Manager)
+- 윈도우: [자격 증명 관리자](https://support.microsoft.com/windows/accessing-credential-manager-1b5c916a-6a16-889f-8581-fc16e8165ac0)
+- macOS: [암호](https://support.apple.com/HT211145)
+- 리눅스: 그놈 키링([시호스](https://gitlab.gnome.org/GNOME/seahorse#seahorse)로 접근) 또는 [KDE 지갑 관리자](https://userbase.kde.org/KDE_Wallet_Manager)
 
-### 이메일
+### 이메일 { #email }
 
-If you didn't use a password manager in the past, or you think you have accounts that were never added to your password manager, another option is to search the email account(s) that you believe you signed up on. 이메일 클라이언트에서 '환영합니다', '인증', '확인' 같은 키워드를 검색해보세요. 거의 모든 서비스는 계정 생성 시에 인증 링크나 소개 메시지를 이메일로 보냅니다. 이를 이용하면 잊어버린 오래된 계정을 찾을 수 있습니다.
+예전에 비밀번호 관리자를 사용하지 않았거나 비밀번호 관리자에 추가되지 않은 계정이 있다고 생각된다면, 가입할 때 사용했을 것 같은 이메일 계정을 검색해 보는 방법도 있습니다. 이메일 클라이언트에서 "인증", "환영", "verify", "welcome" 같은 키워드를 검색해 보세요. 온라인 계정을 만들면 거의 항상 서비스에서 인증 링크나 안내 메시지를 이메일로 보냅니다. 이를 이용하면 잊고 있던 오래된 계정을 찾을 수 있습니다.
 
-## 오래된 계정 삭제하기
+## 오래된 계정 삭제하기 { #deleting-old-accounts }
 
-### 로그인
+### 로그인 { #log-in }
 
-이전 계정을 삭제하려면, 먼저 해당 계정에 로그인해야 합니다. 비밀번호 관리자에서 해당 계정을 관리 중이었다면 이는 간단합니다. 아니라면 비밀번호를 추측해 봅시다. 비밀번호를 떠올리지 못 한 경우, 일반적으로 로그인 페이지에서 제공하는 '비밀번호 찾기' 링크를 통해 계정을 되찾을 수 있습니다. 서비스에서 자체적으로 오래된 계정을 정리하는 경우도 있기 때문에, 이미 해당 계정은 삭제되었을 수도 있습니다.
+오래된 계정을 삭제하려면 먼저 해당 계정에 로그인할 수 있는지 확인해야 합니다. 이번에도 비밀번호 관리자에 해당 계정이 있다면 이 단계는 간단합니다. 그렇지 않다면 비밀번호를 추측해 볼 수 있습니다. 그래도 안 된다면 일반적으로 로그인 페이지의 "비밀번호 찾기" 링크 등을 통해 계정에 다시 접근할 수 있는 방법이 있습니다. 방치해 둔 계정이 이미 삭제되었을 수도 있습니다. 서비스에서 오래된 계정을 모두 정리하는 경우도 있기 때문입니다.
 
-계정을 찾으려고 할 때 사이트에서 이메일에 연결된 계정이 없다거나 여러분 시도해도 재설정 링크가 나타나지 않는 경우, 해당 이메일 주소가 아닌 다른 이메일 주소로 가입했을지도 모릅니다. 다만 어떤 이메일 주소를 사용했는지 알 수 없거나, 더 이상 사용할 수 없는 이메일일 경우 서비스 고객센터에 문의해봐야 합니다. 이 경우, 계정을 되찾을 수 있다는 보장은 없습니다.
+계정에 다시 접근하려고 할 때 사이트에서 해당 이메일과 연결된 계정이 없다는 오류 메시지를 표시하거나 여러 번 시도해도 재설정 링크를 받지 못한다면, 그 이메일 주소로 가입한 계정은 없는 것이므로 다른 이메일 주소로 시도해 봐야 합니다. 어떤 이메일 주소를 사용했는지 알 수 없거나 해당 이메일에 더 이상 접근할 수 없다면, 서비스 고객 지원팀에 문의해 볼 수 있습니다. 안타깝게도 계정에 다시 접근할 수 있다는 보장은 없습니다.
 
-### GDPR (EEA 거주자만 해당)
+### GDPR(EEA 거주자만 해당) { #gdpr-eea-residents-only }
 
-Residents of the EEA have additional rights regarding data erasure specified in [Article 17](https://gdpr-info.eu/art-17-gdpr) of the GDPR. EEA 거주자이신 경우, 해당 서비스의 프라이버시 정책(개인정보 처리방침)을 읽고 삭제권을 행사하는 방법을 찾아보세요. 일부 서비스는 '계정 삭제' 옵션이 계정을 비활성화할 뿐 실제 삭제를 위해서는 추가 조치가 필요하기에, 프라이버시 정책을 읽어보는 것은 중요합니다. 실제로 데이터를 삭제하려면 설문을 작성해야 하거나, 해당 서비스 데이터 보호 책임자에게 이메일을 보내야 하거나, EEA 거주자임을 증명해야 하는 경우도 있습니다. 따라서, 이 방법을 사용하고자 한다면 계정 정보 덮어쓰기를 해선 **안** 됩니다. EEA 거주자 신원이 필요할 수도 있기 때문입니다. 알아두실 점은, GDPR은 서비스 업체 위치에 무관하게 적용된다는 것입니다. GDPR은 유럽 사용자를 고객으로 삼는 서비스라면 모두 적용됩니다. If the service does not respect your right to erasure, you can contact your national [Data Protection Authority](https://ec.europa.eu/info/law/law-topic/data-protection/reform/rights-citizens/redress/what-should-i-do-if-i-think-my-personal-data-protection-rights-havent-been-respected_en) and may be entitled to monetary compensation.
+EEA 거주자는 GDPR [제17조](https://gdpr-info.eu/art-17-gdpr)에 명시된 데이터 삭제에 관한 추가 권리를 가집니다. 여러분에게 해당된다면, 각 서비스의 개인정보 처리방침을 읽고 삭제권을 행사하는 방법을 확인하세요. 일부 서비스는 "계정 삭제" 옵션이 계정을 비활성화하기만 하고 실제로 삭제하려면 추가 조치를 취해야 하므로, 개인정보 처리방침을 읽어 보는 것이 중요할 수 있습니다. 실제로 삭제하려면 설문을 작성하거나, 서비스의 데이터 보호 책임자에게 이메일을 보내거나, 심지어 EEA 거주 사실을 증명해야 할 수도 있습니다. 이 방법을 사용할 계획이라면 계정 정보를 덮어쓰지 **마세요**. EEA 거주자로서의 신원 확인이 필요할 수 있습니다. 서비스의 소재지는 상관없다는 점에 유의하세요. GDPR은 유럽 사용자에게 서비스를 제공하는 모든 곳에 적용됩니다. 서비스가 삭제권을 존중하지 않는다면 자국의 [개인정보 보호 감독 기관](https://ec.europa.eu/info/law/law-topic/data-protection/reform/rights-citizens/redress/what-should-i-do-if-i-think-my-personal-data-protection-rights-havent-been-respected_en)에 문의할 수 있으며, 금전적 보상을 받을 수도 있습니다.
 
-### 계정 정보 덮어쓰기
+### 계정 정보 덮어쓰기 { #overwriting-account-information }
 
-계정을 버리려는 경우 중 일부 상황에서는 계정 정보를 가짜 데이터로 덮어씌우는 게 합리적일 수도 있습니다. 계정에 로그인한 뒤, 계정의 모든 정보를 위조된 정보로 변경하세요. 계정 정보를 덮어씌워야 하는 이유는, 많은 사이트가 사용자의 계정 삭제 후에도 이전에 가지고 있던 정보를 보관하기 때문입니다. 이상적인 결과는 기존 정보가 모두 위조된 데이터로 덮어씌워지는 것입니다. 하지만 서비스 업체가 여러분의 기존 정보가 포함된 백업을 가지고 있을 가능성은 여전히 존재합니다.
+계정을 방치하려는 경우, 상황에 따라 계정 정보를 가짜 데이터로 덮어쓰는 것이 합리적일 수 있습니다. 로그인할 수 있는 것을 확인했다면 계정의 모든 정보를 가짜 정보로 변경하세요. 그 이유는 많은 사이트가 계정을 삭제한 후에도 이전에 가지고 있던 정보를 보관하기 때문입니다. 이렇게 하면 사이트가 이전 정보를 여러분이 마지막으로 입력한 데이터로 덮어쓰기를 기대할 수 있습니다. 하지만 이전 정보가 담긴 백업이 없으리라는 보장은 없습니다.
 
-For the account email, either create a new alternate email account via your provider of choice or create an alias using an [email aliasing service](../email-aliasing.md). 그런 다음, 대체한 이메일 주소를 삭제할 수 있습니다. 임시 이메일 서비스 사용은 추천드리지 않습니다. 임시 이메일은 다시 활성화할 수 있는 경우가 종종 있기 때문입니다.
+계정 이메일의 경우, 원하는 제공업체에서 새 대체 이메일 계정을 만들거나 [이메일 별칭 서비스](../email-aliasing.md)로 별칭을 만드세요. 작업이 끝나면 대체 이메일 주소를 삭제하면 됩니다. 임시 이메일은 다시 활성화할 수 있는 경우가 많으므로 임시 이메일 제공업체는 사용하지 않는 것을 권장합니다.
 
-### 삭제
+### 삭제 { #delete }
 
-특정 서비스의 계정 삭제 방법은 [JustDeleteMe](https://justdeleteme.xyz)에서 확인할 수 있습니다. 몇몇 사이트는 '계정 삭제' 옵션을 제공해주지만, 일부 사이트는 고객센터에 직접 연락해야만 하는 경우도 있습니다. 삭제 절차는 사이트마다 다를 수 있으며, 일부 사이트는 계정 삭제가 불가능할 수도 있습니다.
+특정 서비스의 계정 삭제 방법은 [저스트딜리트미](https://justdeleteme.xyz)에서 확인할 수 있습니다. 일부 사이트는 친절하게 "계정 삭제" 옵션을 제공하지만, 어떤 사이트는 고객 지원 담당자와 직접 이야기하도록 강요하기까지 합니다. 삭제 절차는 사이트마다 다를 수 있으며, 일부 사이트는 계정 삭제가 불가능할 수도 있습니다.
 
-계정 삭제가 불가능한 서비스의 경우, 앞선 내용대로 모든 정보를 위조하고 계정 보안을 강화하는 것이 최선의 방법입니다. [MFA](multi-factor-authentication.md) 및 제공되는 추가 보안 기능을 활성화해 계정 보안을 강화하세요. 또한, 허용하는 최대 길이로 랜덤 생성한 비밀번호로 변경하세요([비밀번호 관리자](../passwords.md)를 사용하면 좋습니다).
+계정 삭제를 허용하지 않는 서비스라면 앞서 언급한 대로 모든 정보를 가짜로 바꾸고 계정 보안을 강화하는 것이 최선입니다. 이를 위해 [MFA](multi-factor-authentication.md)와 제공되는 모든 추가 보안 기능을 활성화하세요. 또한 비밀번호를 허용되는 최대 길이의 무작위 비밀번호로 변경하세요([비밀번호 관리자](../passwords.md)를 사용하면 편리합니다).
 
-중요한 정보를 모두 제거했다면 해당 계정은 안심하고 머릿속에서 잊어버리셔도 됩니다. 제대로 제거하지 못했다면 자격 증명을 여러분의 다른 비밀번호들과 같이 저장해 두었다가 가끔씩 로그인하여 비밀번호를 재설정하는 것이 좋습니다.
+중요한 정보가 모두 제거되었다고 판단되면 이 계정은 안심하고 잊어도 됩니다. 그렇지 않다면 자격 증명을 다른 비밀번호와 함께 저장해 두고, 가끔 다시 로그인하여 비밀번호를 재설정하는 것이 좋습니다.
 
-계정을 삭제할 수 있다고 해도 모든 정보가 제거된다는 보장은 없습니다. 실제로, 일부 회사는 법 규정으로 인해 (특히 금융 거래 관련) 특정 정보를 보관해야 합니다. 웹사이트나 클라우드 서비스에서는 대부분 여러분의 데이터에 발생하는 일을 여러분이 통제할 수 없습니다.
+계정을 삭제할 수 있다고 해도 모든 정보가 제거된다는 보장은 없습니다. 실제로 일부 회사는 특히 금융 거래와 관련된 특정 정보를 법에 따라 보관해야 합니다. 웹사이트와 클라우드 서비스의 경우, 여러분의 데이터에 어떤 일이 일어나는지는 대부분 여러분이 통제할 수 없습니다.
 
-## 계정 새로 생성하지 않기
+## 새 계정 만들지 않기 { #avoid-new-accounts }
 
-"예방이 치료보다 낫다"라는 말도 있습니다. 새 계정을 가입하고 싶은 마음이 생길 때마다 한 번씩 생각해보세요. '이 계정이 정말 필요한가?' '계정 없이도 내가 원하는 작업을 할 수 있나?' 계정 생성보다 삭제가 훨씬 더 어려운 경우가 많습니다. And even after deleting or changing the info on your account, there might be a cached version from a third-party—like the [Internet Archive](https://archive.org). 미래에 후회하지 않기 위해서는 피할 수 있을 때 유혹을 피해야 합니다.
+옛말에 "예방이 치료보다 낫다"라는 말이 있습니다. 새 계정에 가입하고 싶은 마음이 들 때마다 스스로에게 물어보세요. "이게 정말 필요한가? 계정 없이도 원하는 것을 할 수 있지 않을까?" 계정 생성보다 삭제가 훨씬 더 어려운 경우가 많습니다. 게다가 계정을 삭제하거나 정보를 변경한 후에도 [인터넷 아카이브](https://archive.org) 같은 제3자에 캐시된 버전이 남아 있을 수 있습니다. 피할 수 있을 때 유혹을 피하세요. 미래의 여러분이 고마워할 것입니다!

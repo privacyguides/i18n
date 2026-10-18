@@ -7,7 +7,7 @@ cover: frontends.webp
 
 <small>Protects against the following threat(s):</small>
 
-- [:material-account-cash: 감시 자본주의(Surveillance Capitalism)](basics/common-threats.md#surveillance-as-a-business-model ""){.pg-brown}
+- [:material-account-cash: 감시 자본주의](basics/common-threats.md#surveillance-as-a-business-model ""){.pg-brown}
 
 Sometimes services will try to force you to sign up for an account by blocking access to content with annoying popups. They might also break without JavaScript enabled. These frontends can allow you to circumvent these restrictions.
 
@@ -33,14 +33,14 @@ When you are using an instance run by someone else, make sure to read the privac
 </div>
 
 <div class="admonition note" markdown>
-<p class="admonition-title">Note</p>
+<p class="admonition-title">참고 (note)</p>
 
 The [Old Reddit](https://old.reddit.com) website doesn't require as much JavaScript as the new Reddit website does, but it has recently blocked access to IP addresses reserved for public VPNs. You can use Old Reddit in conjunction with the [Tor](tor.md) Onion that was [launched in October 2022](https://forum.torproject.org/t/reddit-onion-service-launch/5305) at [https://old.reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion](https://old.reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion).
 
 </div>
 
 <div class="admonition tip" markdown>
-<p class="admonition-title">Tip</p>
+<p class="admonition-title">팁 (tip)</p>
 
 Redlib is useful if you want to disable JavaScript in your browser, such as [Tor Browser](tor.md#tor-browser) on the Safest security level.
 
@@ -79,7 +79,7 @@ Invidious does not proxy video streams by default. Videos watched through Invidi
 </div>
 
 <div class="admonition tip" markdown>
-<p class="admonition-title">Tip</p>
+<p class="admonition-title">팁 (tip)</p>
 
 Invidious is useful if you want to disable JavaScript in your browser, such as [Tor Browser](tor.md#tor-browser) on the Safest security level. It does not provide privacy by itself, and we don’t recommend logging into any accounts.
 
@@ -106,7 +106,7 @@ Piped requires JavaScript in order to function and there are a number of public 
 </div>
 
 <div class="admonition tip" markdown>
-<p class="admonition-title">Tip</p>
+<p class="admonition-title">팁 (tip)</p>
 
 Piped is useful if you want to use [SponsorBlock](https://sponsor.ajay.app) without installing an extension. It does not provide privacy by itself, and we don’t recommend logging into any accounts.
 

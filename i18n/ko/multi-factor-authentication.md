@@ -7,7 +7,7 @@ cover: multi-factor-authentication.webp
 
 <small>Protects against the following threat(s):</small>
 
-- [:material-target-account: 표적 공격(Targeted Attacks)](basics/common-threats.md#attacks-against-specific-individuals ""){.pg-red}
+- [:material-target-account: 표적 공격](basics/common-threats.md#attacks-against-specific-individuals ""){.pg-red}
 
 <div class="admonition note" markdown>
 <p class="admonition-title">Hardware Keys</p>

@@ -8,10 +8,10 @@ cover: real-time-communication.webp
 
 <small>Protects against the following threat(s):</small>
 
-- [:material-bug-outline: 수동적 공격(Passive Attacks)](basics/common-threats.md#security-and-privacy ""){.pg-orange}
-- [:material-server-network: 서비스 제공자/제공 업체(Service Providers)](basics/common-threats.md#privacy-from-service-providers ""){.pg-teal}
-- [:material-eye-outline: 대중 감시(Mass Surveillance)](basics/common-threats.md#mass-surveillance-programs ""){.pg-blue}
-- [:material-account-cash: 감시 자본주의(Surveillance Capitalism)](basics/common-threats.md#surveillance-as-a-business-model ""){.pg-brown}
+- [:material-bug-outline: 수동적 공격](basics/common-threats.md#security-and-privacy ""){.pg-orange}
+- [:material-server-network: 서비스 제공업체](basics/common-threats.md#privacy-from-service-providers ""){.pg-teal}
+- [:material-eye-outline: 대규모 감시](basics/common-threats.md#mass-surveillance-programs ""){.pg-blue}
+- [:material-account-cash: 감시 자본주의](basics/common-threats.md#surveillance-as-a-business-model ""){.pg-brown}
 
 These recommendations for encrypted **real-time communication** are great for securing your sensitive communications. These instant messengers come in the form of many [types of communication networks](advanced/communication-network-types.md).
 

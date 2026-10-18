@@ -1,53 +1,53 @@
 # 커뮤니티 행동 강령
 
-**우리는 선서합니다.** 그 누구도 괴롭힘 받지 않는 커뮤니티를 만들기 위해 노력하겠습니다.
+**우리는 약속합니다**: 모든 사람이 괴롭힘 없이 참여할 수 있는 커뮤니티를 만들겠습니다.
 
-**우리는 노력하겠습니다.** 긍정적인 환경을 조성하고, 따뜻하고 친절한 언어를 사용하고, 다른 사람의 의견을 존중하겠습니다.
+**우리는 노력합니다**: 따뜻하고 포용적인 언어를 사용하고 다른 사람의 관점을 존중하며 긍정적인 환경을 만들겠습니다.
 
-**우리는 허용하지 않습니다.** 성적인 언행, 모욕적이거나 혐오적 혹은 차별적인 표현, 남을 괴롭히는 행위 등을 허용하지 않겠습니다.
+**우리는 허용하지 않습니다**: 성적인 언어, 트롤링과 모욕적인 발언, 기타 편협함이나 괴롭힘을 조장하는 행위 등 부적절하거나 용납할 수 없는 행동을 허용하지 않습니다.
 
-## 커뮤니티 규칙
+## 커뮤니티 기준 { #community-standards }
 
-커뮤니티 구성원에게 기대하는 바는 다음과 같습니다.
+커뮤니티 구성원에게 기대하는 사항은 다음과 같습니다:
 
-1. **Do not spread misinformation**
+1. **잘못된 정보를 퍼뜨리지 마세요**
 
-      We are creating an evidence-based educational community around information privacy and security, not an information home for conspiracy theories. For example, when making a claim that a certain piece of software is malicious or that certain telemetry data is privacy invasive, explain in detail what is collected and how it collected. 이러한 주장은 반드시 기술적인 증거가 제시되어야 합니다.
+      우리는 음모론의 온상이 아니라, 정보 프라이버시와 보안에 관한 근거 기반의 교육 커뮤니티를 만들어 가고 있습니다. 예를 들어 특정 소프트웨어가 악성이라거나 특정 원격 측정 데이터가 프라이버시를 침해한다고 주장할 때는 무엇이 어떻게 수집되는지 자세히 설명하세요. 이러한 주장은 반드시 기술적 증거로 뒷받침되어야 합니다.
 
-2. **Do not abuse our willingness to help**
+2. **도우려는 선의를 악용하지 마세요**
 
-      Our community members are not free tech support. We are happy to help with specific steps for your privacy journey, if you are willing to put in effort. We are not obligated to answer endless, repetitive questions about general computer problems solvable with a simple internet search. **Do not** become a [help vampire](https://slash7.com/2006/12/22/vampires).
+      커뮤니티 구성원은 무료 기술 지원 담당자가 아닙니다. 스스로 노력할 의향이 있다면 프라이버시 여정의 구체적인 단계에 대해 기꺼이 도와드리겠습니다. 간단한 인터넷 검색으로 해결할 수 있는 일반적인 컴퓨터 문제에 대해 끝없이 반복되는 질문에 답할 의무는 없습니다. [헬프 뱀파이어](https://slash7.com/2006/12/22/vampires)가 되지 **마세요**.
 
-3. **긍정적이고 건설적인 방식으로 행동합니다**
+3. **긍정적이고 건설적으로 행동하세요**
 
-      보다 긍정적인 환경의 커뮤니티를 만들기 위한 행동의 예시는 다음과 같습니다.
+      커뮤니티의 긍정적인 환경에 기여하는 행동의 예는 다음과 같습니다:
 
-      - Being respectful of differing opinions, viewpoints, and experiences.
-      - Demonstrating empathy and kindness toward others.
-      - Focusing on what is best not just for us as overseers, but for the overall community.
-      - Giving and gracefully accepting constructive feedback within our community while growing and improving.
-      - Operating with a communal mindset at all times.
+      - 다른 의견, 관점, 경험을 존중합니다.
+      - 다른 사람에게 공감과 친절을 보여 줍니다.
+      - 운영진인 우리에게만이 아니라 커뮤니티 전체에 가장 좋은 것이 무엇인지에 집중합니다.
+      - 커뮤니티 안에서 함께 성장하고 발전하며, 건설적인 피드백을 주고 너그럽게 받아들입니다.
+      - 항상 공동체 의식을 가지고 행동합니다.
 
-## Unacceptable Behavior
+## 용납할 수 없는 행동 { #unacceptable-behavior }
 
-이하의 행위는 분쟁으로 간주되며, 커뮤니티 내에서 허용되지 않습니다.
+다음 행동은 괴롭힘으로 간주되며 커뮤니티 내에서 용납되지 않습니다:
 
-- Any other conduct which would reasonably be considered inappropriate in a professional setting.
-- Public and/or private harassment of any kind.
-- Publishing others' private information, such as a physical address and/or an email address, without their explicit permission.
-- The use of sexualized language or imagery, and sexual attention or advances of any kind.
-- Trolling, insulting and/or derogatory comments, including personal or political attacks.
+- 기타 업무 환경에서 부적절하다고 합리적으로 판단될 수 있는 모든 행위.
+- 공개적이든 비공개적이든 모든 종류의 괴롭힘.
+- 실제 주소나 이메일 주소 같은 다른 사람의 개인 정보를 명시적인 허락 없이 게시하는 행위.
+- 성적인 언어나 이미지의 사용, 그리고 모든 종류의 성적 관심 표현이나 접근.
+- 개인적 또는 정치적 공격을 포함한 트롤링, 모욕적이거나 경멸적인 발언.
 
-## Scope
+## 적용 범위 { #scope }
 
-Privacy Guides 커뮤니티 행동 강령은 Privacy Guides의 모든 프로젝트 영역에서 적용되며, 개인이 외부 커뮤니티에서 Privacy Guides 프로젝트를 대표할 때에도 마찬가지로 적용됩니다.
+이 행동 강령은 모든 프로젝트 공간에 적용되며, 개인이 다른 커뮤니티에서 프라이버시 가이드 프로젝트를 대표할 때에도 적용됩니다.
 
-We are responsible for clarifying the standards of our community and have the right to remove or alter the comments of those participating within our community, as necessary and at our discretion.
+우리는 커뮤니티 기준을 명확히 할 책임이 있으며, 필요한 경우 재량에 따라 커뮤니티 참여자의 댓글을 삭제하거나 수정할 권리가 있습니다.
 
-## Contact
+## 연락처 { #contact }
 
-If you observe a problem on a platform like Matrix or Reddit, please contact our moderators on that platform via chat, direct message, or any designated "Modmail" system.
+매트릭스나 레딧 같은 플랫폼에서 문제를 발견하면 해당 플랫폼에서 채팅, 다이렉트 메시지 또는 지정된 "모드메일" 시스템을 통해 운영진에게 연락해 주세요.
 
-If you have a problem elsewhere, or a problem that our community moderators are unable to resolve, reach out to `jonah@privacyguides.org` and/or `dngray@privacyguides.org`.
+다른 곳에서 문제가 발생했거나 커뮤니티 운영진이 해결할 수 없는 문제라면 `jonah@privacyguides.org` 및/또는 `dngray@privacyguides.org`로 연락해 주세요.
 
-All community leaders are obligated to respect the privacy and security of reporters for all incidents.
+모든 커뮤니티 리더는 모든 사건에 대해 신고자의 프라이버시와 보안을 존중할 의무가 있습니다.

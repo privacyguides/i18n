@@ -1,21 +1,21 @@
 ---
-title: Commit Messages
-description: A guide for website contributors on using useful Git commit messages when making website change requests.
+title: 커밋 메시지
+description: 웹사이트 변경을 요청할 때 유용한 깃 커밋 메시지를 작성하는 방법에 대한 웹사이트 기여자용 가이드입니다.
 ---
 
-For our commit messages we follow the style provided by [Conventional Commits](https://conventionalcommits.org). Not all of those suggestions are appropriate for Privacy Guides, so the main ones we use are:
+커밋 메시지는 [컨벤셔널 커밋](https://conventionalcommits.org)에서 제시하는 스타일을 따릅니다. 그 제안이 모두 프라이버시 가이드에 적합한 것은 아니므로, 주로 사용하는 유형은 다음과 같습니다:
 
-## Update to existing text
+## 기존 텍스트 업데이트 { #update-to-existing-text }
 
-This example could be used for an item already on the site, but includes a minor update to the description.
+이 예시는 이미 사이트에 있는 항목의 설명을 조금 업데이트하는 경우에 사용할 수 있습니다.
 
 ```text
 update: Add mention of security audit (#0000)
 ```
 
-## Addition or removal of recommendations/pages
+## 추천 항목/페이지 추가 또는 제거 { #addition-or-removal-of-recommendationspages }
 
-This example is for the addition or removal of an item. You may elaborate why it was removed in the commit paragraph below. Note the extra `!` to draw attention to a major change.
+이 예시는 항목을 추가하거나 제거하는 경우입니다. 제거한 이유는 아래와 같이 커밋 본문에 자세히 설명할 수 있습니다. 주요 변경 사항임을 강조하기 위해 `!`를 추가한 점에 유의하세요.
 
 ```text
 update!: Remove foobar (#0000)
@@ -23,11 +23,11 @@ update!: Remove foobar (#0000)
 Foobar was removed due to it having numerious security issues and being unmaintained.
 ```
 
-You can actually add a `!` to _any_ of the types on this page to denote particularly large changes, but this is generally where it will be most appropriate.
+사실 이 페이지의 _모든_ 유형에 `!`를 추가하여 특히 큰 변경 사항임을 나타낼 수 있지만, 일반적으로 이 경우에 가장 적합합니다.
 
-## Feature/enhancement
+## 기능/개선 { #featureenhancement }
 
-For new features or enhancements to the site, e.g. things that have the `enhancements` label on GitHub, it may be appropriate to signify these with:
+깃허브에서 `enhancements` 라벨이 붙은 항목처럼 사이트의 새로운 기능이나 개선 사항은 다음과 같이 표시하는 것이 적절할 수 있습니다:
 
 ```text
 feat: Add blah blah (#0000)
@@ -35,43 +35,43 @@ feat: Add blah blah (#0000)
 This change adds the forum topics to the main page
 ```
 
-## Minor changes
+## 사소한 변경 { #minor-changes }
 
-Small changes that **don't affect the meaning** of the article, e.g. correcting a typo, fixing grammar, changing formatting/whitespace, CSS updates, etc.
+오타 수정, 문법 수정, 서식/공백 변경, CSS 업데이트 등 글의 **의미에 영향을 주지 않는** 작은 변경 사항입니다.
 
 ```text
 style: Typo correction in VPN overview
 ```
 
-## Development-related types
+## 개발 관련 유형 { #development-related-types }
 
-These commit types are typically used for changes that won't be visible to the general audience.
+이러한 커밋 유형은 일반적으로 일반 독자에게 보이지 않는 변경 사항에 사용됩니다.
 
-We use `fix:` for changes that fix site related bugs. These things will usually have the `bug` label on GitHub.
+사이트 관련 버그를 수정하는 변경 사항에는 `fix:`를 사용합니다. 이러한 항목에는 보통 깃허브에서 `bug` 라벨이 붙어 있습니다.
 
 ```text
 fix: Remove broken Invidious embeds (#0000)
 ```
 
-We use `docs:` to denote changes to the developer documentation for this website, including (but not limited to) for example the README file, or most pages in `/docs/about` or `/docs/meta`:
+README 파일이나 `/docs/about` 또는 `/docs/meta`의 대부분 페이지 등을 포함하여(이에 국한되지 않음) 이 웹사이트의 개발자 문서를 변경할 때는 `docs:`를 사용합니다:
 
 ```text
 docs: Update Git commit message guidelines (#0000)
 ```
 
-We use `build:` for commits related to our build process, mainly dependency updates.
+빌드 프로세스와 관련된 커밋, 주로 의존성 업데이트에는 `build:`를 사용합니다.
 
 ```text
 build: Bump modules/mkdocs-material from 463e535 to 621a5b8
 ```
 
-We use `ci:` for commits related to GitHub Actions, DevContainers, or other automated build platforms.
+깃허브 액션, DevContainers 또는 기타 자동화된 빌드 플랫폼과 관련된 커밋에는 `ci:`를 사용합니다.
 
 ```text
 ci: Update Netlify config (#0000)
 ```
 
-We use `refactor:` for changes which neither fix a bug nor add a feature, e.g. rearranging files, navigation order, etc.
+파일 재배치, 내비게이션 순서 변경 등 버그 수정도 기능 추가도 아닌 변경 사항에는 `refactor:`를 사용합니다.
 
 ```text
 refactor: Move docs/assets to theme/assets
