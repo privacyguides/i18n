@@ -159,4 +159,4 @@ SSH MFA 也可以使用 TOTP 設定。 DigitalOcean 提供了[如何在Ubuntu 20
 
 ### KeePass （和KeePassXC ）
 
-KeePass 和 KeePassXC 資料庫可以使用 HOTP 或 Challenge-Response 作為第二要素驗證進行保護。 Yubico 提供 [透過 KeePass 使用 YubiKey](https://support.yubico.com/hc/articles/360013779759-Using-Your-YubiKey-with-KeePass)說明文件， 它和< a href="https://keepassxc.org/docs/#faq-yubikey-2fa">KeePassXC</a> 網站的一樣。
+KeePass 和 KeePassXC 資料庫可以使用 HOTP 或 Challenge-Response 作為第二要素驗證進行保護。 Yubico 提供 [透過 KeePass 使用 YubiKey](https://support.yubico.com/hc/articles/360013779759-Using-Your-YubiKey-with-KeePass) 說明文件， 它和[KeePassXC](https://keepassxc.org/docs/#faq-yubikey-2fa) 網站的一樣。

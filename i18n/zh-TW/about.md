@@ -130,7 +130,7 @@ Privacy Guides 是由世界各地的志工和工作人員建立的。我們對�
 
   ---
 
-  :material-text-account: Activism and Outreach
+  :material-text-account: 倡議行動與外展工作
 
   [:material-account: 個人資料](https://discuss.privacyguides.net/u/em)
 
