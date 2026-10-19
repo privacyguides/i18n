@@ -1,10 +1,10 @@
 ---
 title: نظرة عامة على Linux
 icon: simple/linux
-description: Linux is an open-source, privacy-focused desktop operating system, but not all distributions are created equal.
+description: نظام Linux هو نظام تشغيل مفتوح المصدر لأجهزة الكمبيوتر، يركز على الخصوصية، لكن ليست كل توزيعاته على نفس المستوى.
 ---
 
-**Linux** is an open-source, privacy-focused desktop operating system. مع انتشار تقنيات الـ telemetry وغيرها من التقنيات التي تنتهك الخصوصية في أنظمة التشغيل الشائعة، ظل Linux على أجهزة الكمبيوتر الخيار الواضح لمن يريدون التحكم الكامل في أجهزتهم من الأساس.
+نظام **Linux** هو نظام تشغيل مفتوح المصدر لأجهزة الكمبيوتر، يركز على الخصوصية. مع انتشار تقنيات الـ telemetry وغيرها من التقنيات التي تنتهك الخصوصية في أنظمة التشغيل الشائعة، ظل Linux على أجهزة الكمبيوتر الخيار الواضح لمن يريدون التحكم الكامل في أجهزتهم من الأساس.
 
 نستخدم مصطلح «Linux» في موقعنا عادةً للإشارة إلى توزيعات Linux المخصّصة** لأجهزة الكمبيوتر**. لا تتناول هذه الصفحة أنظمة التشغيل الأخرى التي تستخدم نواة Linux أيضا، مثل ChromeOS وAndroid وQubes OS.
 
@@ -32,31 +32,31 @@ description: Linux is an open-source, privacy-focused desktop operating system, 
 
 - يفتقر Linux بشدة إلى **عزل قوي للتطبيقات (sandboxing)**، حتى مع التطبيقات التي تعمل داخل حاويات مثل Flatpaks، أو حلول العزل مثل Firejail. يُعد Flatpak حتى الآن أكثر أدوات العزل (sandboxing) الواعدة على Linux، لكنه لا يزال يعاني من أوجه قصور عديدة، ويسمح [بإعدادات افتراضية](https://flatkill.org/2020) غير آمنة تُمكّن معظم التطبيقات من تجاوز العزل بسهولة.
 
-Additionally, Linux falls behind in implementing [exploit mitigations](https://madaidans-insecurities.github.io/linux.html#exploit-mitigations) which are now standard on other operating systems, such as Arbitrary Code Guard on Windows or Hardened Runtime on macOS. Also, most Linux programs and Linux itself are coded in memory-unsafe languages. Memory corruption bugs are responsible for the [majority of vulnerabilities](https://msrc.microsoft.com/blog/2019/07/a-proactive-approach-to-more-secure-code) fixed and assigned a CVE. While this is also true for Windows and macOS, they are quickly making progress on adopting memory-safe languages such as Rust and Swift, respectively.
+بالإضافة إلى ذلك، يتأخر Linux في تطبيق [وسائل الحماية من استغلال الثغرات الأمنية](https://madaidans-insecurities.github.io/linux.html#exploit-mitigations)، التي أصبحت أساسية في أنظمة التشغيل الأخرى، مثل Arbitrary Code Guard في Windows وHardened Runtime في macOS. كذلك، فإن معظم برامج Linux ونظام Linux نفسه مكتوبة بلغات برمجة لا تضمن سلامة الذاكرة. تُعد أخطاء تلف الذاكرة (Memory Corruption) السبب وراء [معظم الثغرات الأمنية](https://msrc.microsoft.com/blog/2019/07/a-proactive-approach-to-more-secure-code) التي تم إصلاحها وتخصيص معرّف CVE لها. ورغم أن هذا ينطبق أيضا على Windows وmacOS، فإنهما يحرزان تقدمًا سريعًا في استخدام لغات برمجة تضمن سلامة الذاكرة، مثل Rust في Windows وSwift في macOS.
 
-## Choosing your distribution
+## اختيار توزيعة Linux المناسبة لك
 
-Not all Linux distributions are created equal. Our [Linux recommendation page](../desktop.md) is not meant to be an authoritative source on which distribution you should use, but our recommendations *are* aligned with the following guidelines. These are a few things you should keep in mind when choosing a distribution:
+ليست كل توزيعات Linux على نفس المستوى. صفحتنا التي [نوصي](../desktop.md) فيها بتوزيعات Linux ليست مرجعا نهائيا لتحديد التوزيعة التي يجب عليك استخدامها، لكن توصياتنا *تستند* إلى الإرشادات التالية. إليك بعض الأمور التي يجب مراعاتها عند اختيار توزيعة Linux:
 
-### Release cycle
+### دورة إصدار التحديثات
 
-We highly recommend that you choose distributions which stay close to the stable upstream software releases, often referred to as rolling release distributions. This is because frozen release cycle distributions often don’t update package versions and fall behind on security updates.
+نوصي بشدة باختيار توزيعات توفر الإصدارات المستقرة من البرامج الأصلية فور توفرها تقريبا، وتُعرف غالبا باسم توزيعات الإصدار المتجدد (Rolling Release). ويرجع ذلك إلى أن التوزيعات ذات دورة الإصدارات الثابتة (release cycle distribution) غالبا لا تُحدّث إصدارات حزم (package) البرامج، مما يجعلها تتأخر في توفير التحديثات الأمنية.
 
-For frozen distributions such as [Debian](https://debian.org/security/faq#handling), package maintainers are expected to backport patches to fix vulnerabilities rather than bump the software to the “next version” released by the upstream developer. Some security fixes (particularly for less popular software) [do not](https://arxiv.org/abs/2105.14565) receive a [CVE ID](https://en.wikipedia.org/wiki/Common_Vulnerabilities_and_Exposures) at all and therefore do not make it into the distribution with this patching model. As a result, minor security fixes are sometimes held back until the next major release.
+في التوزيعات ذات الإصدارات الثابتة مثل [Debian](https://debian.org/security/faq#handling)، يُتوقع من مسؤولي صيانة حزم البرامج (package maintainers) نقل الإصلاحات الأمنية من الإصدارات الأحدث إلى الإصدارات القديمة لإصلاح الثغرات، بدلا من تحديث البرامج إلى «الإصدار التالي» الذي يصدره المطور الأصلي. بعض الإصلاحات الأمنية (خاصة للبرامج الأقل شيوعا) [لا تحصل](https://arxiv.org/abs/2105.14565) على [CVE ID](https://en.wikipedia.org/wiki/Common_Vulnerabilities_and_Exposures) من الأساس، ولذلك لا تصل هذه الإصلاحات إلى التوزيعة عند الاعتماد على هذا الأسلوب في تحديث البرامج. ونتيجة لذلك، قد تتأخر بعض الإصلاحات الأمنية البسيطة حتى صدور الإصدار الرئيسي التالي.
 
-We don’t believe holding packages back and applying interim patches is a good idea, as it diverges from the way the developer might have intended the software to work. [Richard Brown](https://rootco.de/aboutme) has a presentation about this:
+لا نرى أن الإبقاء على الإصدارات القديمة من حزم البرامج وتطبيق إصلاحات مؤقتة عليها فكرة جيدة، لأن ذلك قد يجعل البرامج تعمل بطريقة تختلف عما قصده مطوّروها. لدى [Richard Brown](https://rootco.de/aboutme) عرض تقديمي حول هذا الموضوع:
 
-- [Regular Releases are Wrong, Roll for your life](https://youtu.be/i8c0mg_mS7U) <small>(YouTube)</small>
+- [الإصدارات الدورية (Regular Releases) خيار خاطئ](https://youtu.be/i8c0mg_mS7U)، اعتمد على الإصدارات المتجددة <small>(YouTube)</small>
 
-### Traditional vs Atomic Updates
+### التحديثات التقليدية مقابل التحديثات التي تُطبَّق كوحدة واحدة
 
-Traditionally, Linux distributions update by sequentially updating the desired packages. Traditional updates such as those used in Fedora, Arch Linux, and Debian-based distributions can be less reliable if an error occurs while updating.
+تقليديا، تُحدث توزيعات Linux حزم البرامج المطلوبة واحدة تلو الأخرى. قد تكون التحديثات التقليدية، مثل تلك المستخدمة في Fedora وArch Linux والتوزيعات المبنية على Debian، أقل موثوقية إذا حدث خطأ أثناء التحديث.
 
-Distros which use atomic updates, on the other hand, apply updates in full or not at all. On an atomic distribution, if an error occurs while updating (perhaps due to a power failure), nothing is changed on the system.
+أما التوزيعات التي تستخدم التحديثات التي تُطبّق كوحدة واحدة، فتُطبّق التحديثات بالكامل أو لا تُطبقها إطلاقا. في التوزيعات التي تُطبّق التحديثات كوحدة واحدة، إذا حدث خطأ أثناء التحديث (مثل انقطاع الكهرباء)، فلن يتغير أي شيء في النظام.
 
-The atomic update method can achieve reliability with this model and is used for [distributions](../desktop.md#atomic-distributions) like Silverblue and NixOS. [Adam Šamalík](https://twitter.com/adsamalik) provides a presentation on how `rpm-ostree` works with Silverblue:
+تساعد هذه الطريقة في تطبيق التحديثات على جعل النظام أكثر موثوقية، وتستخدمها [توزيعات](../desktop.md#atomic-distributions) مثل Silverblue وNixOS. [Adam Šamalík](https://twitter.com/adsamalik) provides a presentation on how `rpm-ostree` works with Silverblue:
 
-- [Let's try Fedora Silverblue — an immutable desktop OS! - Adam Šamalík](https://youtu.be/-hpV5l-gJnQ) <small>(YouTube)</small>
+- [لنجرب Fedora Silverblue — نظام تشغيل لأجهزة الكمبيوتر لا يمكن تعديل ملفاته الأساسية! - Adam Šamalík](https://youtu.be/-hpV5l-gJnQ) <small>(YouTube)</small>
 
 ### “Security-focused” distributions
 
