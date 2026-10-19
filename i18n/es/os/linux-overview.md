@@ -54,7 +54,7 @@ Tradicionalmente, las distribuciones Linux se actualizan mediante la actualizaci
 
 En cambio, las distribuciones que utilizan actualizaciones atómicas las aplican en su totalidad o no las aplican en absoluto. En una distribución atómica, si se produce un error durante la actualización (tal vez debido a un fallo de alimentación), no se modifica nada en el sistema.
 
-El método de actualización atómica puede lograr la fiabilidad con este modelo y se utiliza para [distribuciones](../desktop.md#atomic-distributions) como Silverblue y NixOS. [Adam Šamalik](https://twitter.com/adsamalik) brinda una presentación sobre cómo `rpm-ostree` funciona con Silverblue:
+El método de actualización atómica puede lograr la fiabilidad con este modelo y se utiliza para [distribuciones](../desktop.md#atomic-distributions) como Silverblue y NixOS. [Adam Šamalík](https://www.linkedin.com/in/adamsamalik/) provides a presentation on how `rpm-ostree` works with Silverblue:
 
 - [Probemos Fedora Silverblue: ¡un sistema operativo de escritorio inmutable! - Adam Šamalík](https://youtu.be/-hpV5l-gJnQ) <small>(YouTube)</small>
 

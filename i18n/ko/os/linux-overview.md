@@ -54,7 +54,7 @@ description: Linux는 오픈 소스 기반의 개인정보 보호에 중점을 �
 
 반면 원자적 업데이트를 사용하는 배포판은 업데이트를 완전히 적용하거나 아예 적용하지 않습니다. 원자적 배포판에서는 업데이트 중에 (정전 등으로) 오류가 발생하면 시스템에 아무것도 변경되지 않습니다.
 
-원자적 업데이트 방식은 이 모델을 통해 안정성을 확보할 수 있으며, 실버블루와 닉스OS 같은 [배포판](../desktop.md#atomic-distributions)에서 사용됩니다. [아담 샤말리크](https://twitter.com/adsamalik)가 `rpm-ostree`가 실버블루에서 어떻게 작동하는지에 대해 발표했습니다:
+원자적 업데이트 방식은 이 모델을 통해 안정성을 확보할 수 있으며, 실버블루와 닉스OS 같은 [배포판](../desktop.md#atomic-distributions)에서 사용됩니다. [Adam Šamalík](https://www.linkedin.com/in/adamsamalik/) provides a presentation on how `rpm-ostree` works with Silverblue:
 
 - [페도라 실버블루를 사용해 보자 — 불변 데스크톱 OS! - 아담 샤말리크](https://youtu.be/-hpV5l-gJnQ) <small>(유튜브)</small>
 

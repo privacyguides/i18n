@@ -54,7 +54,7 @@ Traditionnellement, les distributions Linux se mettent à jour en mettant séque
 
 Les distributions qui utilisent les mises à jour atomiques, en revanche, appliquent les mises à jour dans leur intégralité ou pas du tout. Sur une distribution atomique, si une erreur se produit lors de la mise à jour (peut-être à cause d'une panne d'alimentation), rien n'est changé sur le système.
 
-La méthode de mise à jour atomique permet d'atteindre un plus grande fiabilité grâce à ce modèle et est utilisée pour des [distributions](../desktop.md#atomic-distributions) telles que Silverblue et NixOS. [Adam Šamalík](https://twitter.com/adsamalik) a fait une présentation sur le fonctionnement de `rpm-ostree` avec Silverblue :
+La méthode de mise à jour atomique permet d'atteindre un plus grande fiabilité grâce à ce modèle et est utilisée pour des [distributions](../desktop.md#atomic-distributions) telles que Silverblue et NixOS. [Adam Šamalík](https://www.linkedin.com/in/adamsamalik/) provides a presentation on how `rpm-ostree` works with Silverblue:
 
 - [Let's try Fedora Silverblue — an immutable desktop OS! - Adam Šamalík](https://youtu.be/-hpV5l-gJnQ) <small>(YouTube)</small>
 

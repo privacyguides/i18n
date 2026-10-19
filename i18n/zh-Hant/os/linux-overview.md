@@ -54,7 +54,7 @@ There are some notable security concerns with Linux which you should be aware of
 
 Distros which use atomic updates, on the other hand, apply updates in full or not at all. 在採納原子更新模式的發行版上，如果在更新時發生錯誤（也許是由於停電），系統上就不會有任何改變。
 
-因此 Silverblue 和 NixOS 等 [發行版](../desktop.md#atomic-distributions) 在這種情況下便可以依靠原子更新模式維持系統穩定性。 [Adam Šamalík](https://twitter.com/adsamalik) 介紹 `rpm-ostree` 如何與 Silverblue 搭配使用：
+因此 Silverblue 和 NixOS 等 [發行版](../desktop.md#atomic-distributions) 在這種情況下便可以依靠原子更新模式維持系統穩定性。 [Adam Šamalík](https://www.linkedin.com/in/adamsamalik/) provides a presentation on how `rpm-ostree` works with Silverblue:
 
 - [Let's try Fedora Silverblue — an immutable desktop OS! - Adam Šamalík](https://youtu.be/-hpV5l-gJnQ) <small>(YouTube)</small>
 

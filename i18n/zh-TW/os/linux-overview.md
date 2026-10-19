@@ -54,7 +54,7 @@ Linux 有一些值得注意的安全問題，您應該注意。儘管有這些�
 
 另一方面，使用原子更新的發行版會完全套用更新或完全不套用。在採納原子更新模式的發行版上，如果在更新時發生錯誤（也許是由於停電），系統上就不會有任何改變。
 
-因此 Silverblue 和 NixOS 等 [發行版](../desktop.md#atomic-distributions) 在這種情況下便可以依靠原子更新模式維持系統穩定性。 [Adam Šamalík](https://twitter.com/adsamalik) 介紹 `rpm-ostree` 如何與 Silverblue 搭配使用：
+因此 Silverblue 和 NixOS 等 [發行版](../desktop.md#atomic-distributions) 在這種情況下便可以依靠原子更新模式維持系統穩定性。 [Adam Šamalík](https://www.linkedin.com/in/adamsamalik/) provides a presentation on how `rpm-ostree` works with Silverblue:
 
 - [試試 Fedora Silverblue！— 一套不變的桌機作業系統！ - Adam Šamalík](https://youtu.be/-hpV5l-gJnQ) <small>(YouTube)</small>
 

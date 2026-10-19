@@ -54,7 +54,7 @@ description: نظام Linux هو نظام تشغيل مفتوح المصدر ل�
 
 أما التوزيعات التي تستخدم التحديثات التي تُطبّق كوحدة واحدة، فتُطبّق التحديثات بالكامل أو لا تُطبقها إطلاقا. في التوزيعات التي تُطبّق التحديثات كوحدة واحدة، إذا حدث خطأ أثناء التحديث (مثل انقطاع الكهرباء)، فلن يتغير أي شيء في النظام.
 
-تساعد هذه الطريقة في تطبيق التحديثات على جعل النظام أكثر موثوقية، وتستخدمها [توزيعات](../desktop.md#atomic-distributions) مثل Silverblue وNixOS. يقدّم [Adam Šamalík](https://twitter.com/adsamalik) عرضًا يشرح فيه كيفية عمل `rpm-ostree` مع Silverblue:
+تساعد هذه الطريقة في تطبيق التحديثات على جعل النظام أكثر موثوقية، وتستخدمها [توزيعات](../desktop.md#atomic-distributions) مثل Silverblue وNixOS. [Adam Šamalík](https://www.linkedin.com/in/adamsamalik/) provides a presentation on how `rpm-ostree` works with Silverblue:
 
 - [لنجرب Fedora Silverblue — نظام تشغيل لأجهزة الكمبيوتر لا يمكن تعديل ملفاته الأساسية! - Adam Šamalík](https://youtu.be/-hpV5l-gJnQ) <small>(YouTube)</small>
 
