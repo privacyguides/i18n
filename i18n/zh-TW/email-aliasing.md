@@ -10,9 +10,9 @@ cover: email-aliasing.webp
 - [:material-account-cash: 監控資本主義](basics/common-threats.md#surveillance-as-a-business-model){ .pg-brown }
 - [:material-account-search: 公共暴露](basics/common-threats.md#limiting-public-information){ .pg-green }
 
-**電子郵件別名服務** 可讓您輕鬆地為每個註冊的網站產生一個新的電子郵件地址。 電子郵件別名會自動把郵件轉發到所選擇的電子郵件地址，以隱藏「主要」電子郵件地址和 [電子郵件提供商](email.md)。
+**電子郵件別名服務** 可讓您輕鬆地為每個註冊的網站產生一個新的電子郵件地址。電子郵件別名會自動把郵件轉發到所選擇的電子郵件地址，以隱藏「主要」電子郵件地址和 [電子郵件提供商](email.md)。
 
-電子郵件別名還可以在您的電子郵件供應商停止運作時提供保障。 在這種情況下，可輕鬆地將別名設定轉發給新的電子郵件地址。 但反過來，您也需要信任別名服務能夠持續運作。
+電子郵件別名還可以在您的電子郵件供應商停止運作時提供保障。在這種情況下，可輕鬆地將別名設定轉發給新的電子郵件地址。但反過來，您也需要信任別名服務能夠持續運作。
 
 ## 好處
 
@@ -46,9 +46,9 @@ cover: email-aliasing.webp
 
 </div>
 
-我們所推薦的電子郵件別名提供商可讓您在他們所控制的網域名稱上建立別名；也可在您自己的自訂網域名稱上建立別名，而只需支付適度的年費。 如果想要最大限度的控制，也可以自主託管。 不過，使用自訂網域可能存在隱私相關的缺點：若您是唯一使用該自訂網域的人，他人僅需檢視電子郵件地址中的網域名稱（忽略 `@` 符號前的部分），便能輕易追蹤您在各網站的活動軌跡。
+我們所推薦的電子郵件別名提供商可讓您在他們所控制的網域名稱上建立別名；也可在您自己的自訂網域名稱上建立別名，而只需支付適度的年費。如果想要最大限度的控制，也可以自主託管。不過，使用自訂網域可能存在隱私相關的缺點：若您是唯一使用該自訂網域的人，他人僅需檢視電子郵件地址中的網域名稱（忽略 `@` 符號前的部分），便能輕易追蹤您在各網站的活動軌跡。
 
-使用別名服務代表您需要同時信任您的電子郵件供應商和您的別名供應商，讓他們處理您未加密的郵件。 有些提供商會透過自動 PGP 加密[^1] 稍微緩解這個問題，在傳送至您最終的電子信箱供應商之前，先將收到的電子郵件加密，將您需要信任的對象從兩個減少到一個。
+使用別名服務代表您需要同時信任您的電子郵件供應商和您的別名供應商，讓他們處理您未加密的郵件。有些提供商會透過自動 PGP 加密[^1] 稍微緩解這個問題，在傳送至您最終的電子信箱供應商之前，先將收到的電子郵件加密，將您需要信任的對象從兩個減少到一個。
 
 ### Addy.io
 
@@ -76,9 +76,9 @@ cover: email-aliasing.webp
 
 </div>
 
-您可以建立的共用別名（以共用網域如 `@addy.io` 結尾）數量取決於您訂閱的[方案](https://addy.io/#pricing)。 您可以使用[加密貨幣](https://addy.io/help/subscribing-with-cryptocurrency)支付這些方案的費用，或從 Addy.io 的官方經銷商 [ProxyStore](https://addy.io/help/voucher-codes) 購買優惠券代碼。
+您可以建立的共用別名（以共用網域如 `@addy.io` 結尾）數量取決於您訂閱的[方案](https://addy.io/#pricing)。您可以使用[加密貨幣](https://addy.io/help/subscribing-with-cryptocurrency)支付這些方案的費用，或從 Addy.io 的官方經銷商 [ProxyStore](https://addy.io/help/voucher-codes) 購買優惠券代碼。
 
-您可以建立無限個標準別名（以 `@[使用者名稱].addy.io` 結尾）或於付費方案中使用自訂網域。 付費帳戶可建立無數的標準別名如尾綴為 @[username]. 或是自定域名。不過如前面提過，標準別名電郵並不利於隱私，因為只依據域名就可以簡單地把別名綁定起來。 當共用網域名服務封鎖此功能時，它就派得上用場了。
+您可以建立無限個標準別名（以 `@[使用者名稱].addy.io` 結尾）或於付費方案中使用自訂網域。付費帳戶可建立無數的標準別名如尾綴為 @[username]. 或是自定域名。不過如前面提過，標準別名電郵並不利於隱私，因為只依據域名就可以簡單地把別名綁定起來。當共用網域名服務封鎖此功能時，它就派得上用場了。
 
 Securitum 於 2023 年 9 月完成對 Addy.io 的[稽核](https://addy.io/blog/addy-io-passes-independent-security-audit)，[已確認](https://addy.io/addy-io-security-audit.pdf)並未發現任何重大漏洞。
 
@@ -90,7 +90,7 @@ Securitum 於 2023 年 9 月完成對 Addy.io 的[稽核](https://addy.io/blog/a
 - [x] 1個收件人郵箱
 - [x] 自動 PGP 加密[^1]
 
-如果您取消訂閱，您仍可享有付費方案的功能，直到該期帳單最後繳費期限結束為止。 在您當期的最後繳費期限結束後，大部分付費功能（包括任何自訂網域）將會 [停用](https://addy.io/faq/#what-happens-if-i-have-a-subscription-but-then-cancel-it) ，付費帳戶設定將還原為預設值，如果之前已停用，則會啟用 catch-all 功能。
+如果您取消訂閱，您仍可享有付費方案的功能，直到該期帳單最後繳費期限結束為止。在您當期的最後繳費期限結束後，大部分付費功能（包括任何自訂網域）將會 [停用](https://addy.io/faq/#what-happens-if-i-have-a-subscription-but-then-cancel-it) ，付費帳戶設定將還原為預設值，如果之前已停用，則會啟用 catch-all 功能。
 
 ### SimpleLogin
 
@@ -122,7 +122,7 @@ Securitum 於 2023 年 9 月完成對 Addy.io 的[稽核](https://addy.io/blog/a
 
 SimpleLogin was [acquired by Proton AG](https://proton.me/news/proton-and-simplelogin-join-forces) on April 8, 2022, making it an excellent option for users of [Proton Mail](email.md#proton-mail) as their primary mailbox. With this acquisition, you only need to trust a single entity for your email services. SimpleLogin still allows forwarding to any email provider of your choice.
 
-可在設定中將 SimpleLogin 帳戶與 Proton 帳戶作連結。 若您有 Proton Pass Plus、Proton Unlimited 或任何多使用者 Proton 方案，您就可以免費使用 SimpleLogin Premium。 Likewise both the [Free and Premium tiers](https://simplelogin.io/pricing/) of SimpleLogin now include Proton Pass subscriptions. 您也可以透過其官方經銷商 [ProxyStore](https://simplelogin.io/faq) 匿名購買 SimpleLogin Premium 的優惠券代碼。
+可在設定中將 SimpleLogin 帳戶與 Proton 帳戶作連結。若您有 Proton Pass Plus、Proton Unlimited 或任何多使用者 Proton 方案，您就可以免費使用 SimpleLogin Premium。 Likewise both the [Free and Premium tiers](https://simplelogin.io/pricing/) of SimpleLogin now include Proton Pass subscriptions. 您也可以透過其官方經銷商 [ProxyStore](https://simplelogin.io/faq) 匿名購買 SimpleLogin Premium 的優惠券代碼。
 
 Securitum 在 2022 年初[審核](https://simplelogin.io/blog/security-audit) SimpleLogin，所有問題[均已改善](https://simplelogin.io/audit2022/web.pdf)。
 
@@ -133,10 +133,10 @@ Securitum 在 2022 年初[審核](https://simplelogin.io/blog/security-audit) Si
 - [x] 1個收件人郵箱
 - [ ] 自動 PGP 加密[^1] 只在付費方案下可用
 
-當您結束訂閱後，您建立的所有別名仍可接收和傳送電子郵件。 但是，您不能建立任何超出免費計劃限制的新別名，也不能新增網域、目錄或郵箱。
+當您結束訂閱後，您建立的所有別名仍可接收和傳送電子郵件。但是，您不能建立任何超出免費計劃限制的新別名，也不能新增網域、目錄或郵箱。
 
 ## 標準
 
-**請注意，我們與所推薦的服務提供商並無任何關係。** 除了 [我們的常規標準](about/criteria.md) 之外，在適用的情況下，我們對電子郵件別名提供商的標準與 [電子郵件提供商](email.md#criteria) 的標準相同。 我們建議您在選擇電子郵件別名服務前，先熟悉此清單內容，並自行進行研究以確保所選供應商確實符合您的需求。
+**請注意，我們與所推薦的服務提供商並無任何關係。** 除了 [我們的常規標準](about/criteria.md) 之外，在適用的情況下，我們對電子郵件別名提供商的標準與 [電子郵件提供商](email.md#criteria) 的標準相同。我們建議您在選擇電子郵件別名服務前，先熟悉此清單內容，並自行進行研究以確保所選供應商確實符合您的需求。
 
 [^1]: 自動 PGP 加密功能可讓您的電子郵箱別名供應商在收到未加密的電子郵件傳入並轉寄到您的主要電子信箱之前先將其加密，確保您的主要電子信箱供應商永遠不會看到未加密的電子郵件內容。

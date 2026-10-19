@@ -1,10 +1,10 @@
 ---
 title: 捐款
-description: Privacy Guides 的慈善使命，需要像您這樣的訪客捐款才能達成。 我們衷心感謝您對此專案的支持。
+description: Privacy Guides 的慈善使命，需要像您這樣的訪客捐款才能達成。我們衷心感謝您對此專案的支持。
 ---
 
 <!-- markdownlint-disable MD036 -->
-請支持我們捍衛數位權利、宣傳大規模監控計畫及其他日常隱私侵犯行為的使命。 您可以幫助 Privacy Guides 的研究人員、活動人士和維護者建立資訊豐富的內容、託管私人數位服務，並在世界最需要的時候保護隱私權。
+請支持我們捍衛數位權利、宣傳大規模監控計畫及其他日常隱私侵犯行為的使命。您可以幫助 Privacy Guides 的研究人員、活動人士和維護者建立資訊豐富的內容、託管私人數位服務，並在世界最需要的時候保護隱私權。
 
 <!-- markdownlint-disable-next-line -->
 [:material-heart:{ .pg-red } 成為會員](https://donate.magicgrants.org/privacyguides/membership){ class="md-button md-button--primary" data-portal="signup" }
@@ -14,7 +14,7 @@ description: Privacy Guides 的慈善使命，需要像您這樣的訪客捐款�
 
 <small markdown>
 
-MAGIC Grants 是我們的金流代理業者，他們的客製化開放原始碼捐款平台，讓您可使用**門羅幣**、**萊特幣（MWEB）**、**比特幣**、**借記卡或信用卡**捐款給我們。 您也可以透過 [:simple-github: GitHub Sponsors](https://github.com/sponsors/privacyguides) 捐款。
+MAGIC Grants 是我們的金流代理業者，他們的客製化開放原始碼捐款平台，讓您可使用**門羅幣**、**萊特幣（MWEB）**、**比特幣**、**借記卡或信用卡**捐款給我們。您也可以透過 [:simple-github: GitHub Sponsors](https://github.com/sponsors/privacyguides) 捐款。
 
 </small>
 
@@ -25,7 +25,7 @@ MAGIC Grants 是我們的金流代理業者，他們的客製化開放原始碼�
     感謝大力支持 Privacy Guides 的下列組織。 (1)
     { .annotate }
 
-    1. 若須查詢捐款資訊，請聯絡 <info@magicgrants.org>。 Privacy Guides 保留隨時取消與我們的使命或組織不一致者的會員資格的權利。 組織成員無法影響 Privacy Guides 網站所推薦的內容。 了解我們[捐款接受政策](donation-acceptance-policy.md)的更多資訊。
+    1. 若須查詢捐款資訊，請聯絡 <info@magicgrants.org>。 Privacy Guides 保留隨時取消與我們的使命或組織不一致者的會員資格的權利。組織成員無法影響 Privacy Guides 網站所推薦的內容。了解我們[捐款接受政策](donation-acceptance-policy.md)的更多資訊。
 
     <div class="mdx-specialthanks" markdown>
 
@@ -50,7 +50,7 @@ MAGIC Grants 是我們的金流代理業者，他們的客製化開放原始碼�
 如果沒有這些每月或每年定期慷慨捐款的人，Privacy Guides 將無法存在。 (1)
 { .annotate }
 
-1. 若您[成為會員](https://donate.magicgrants.org/privacyguides/membership)，並將捐款紀錄[連結](https://discuss.privacyguides.net/t/getting-your-member-flair-on-the-forum/25453)到您的論壇帳號，就會自動被列於此處，並顯示您的個人資料和頭像，以表示您對 Privacy Guides 的支持。 如果您不公開論壇帳號，就會成為沉默的 +1 支持者。 您可以隨時調整是否要公開顯示捐款紀錄。 本圖表在每次網站發佈時更新。
+1. 若您[成為會員](https://donate.magicgrants.org/privacyguides/membership)，並將捐款紀錄[連結](https://discuss.privacyguides.net/t/getting-your-member-flair-on-the-forum/25453)到您的論壇帳號，就會自動被列於此處，並顯示您的個人資料和頭像，以表示您對 Privacy Guides 的支持。如果您不公開論壇帳號，就會成為沉默的 +1 支持者。您可以隨時調整是否要公開顯示捐款紀錄。本圖表在每次網站發佈時更新。
 
 <div class="mdx-donors" data-mdx-component="donors">
 <div class="mdx-donors__list">
@@ -60,7 +60,7 @@ MAGIC Grants 是我們的金流代理業者，他們的客製化開放原始碼�
 
 <small markdown>
 
-這是我們的**活躍**[會員](https://donate.magicgrants.org/privacyguides/membership)，加上透過 GitHub 捐款，並選擇公開捐款的捐贈者名單。 還有數百人過去曾捐款，或匿名捐款，也非常感謝他們的支持。
+這是我們的**活躍**[會員](https://donate.magicgrants.org/privacyguides/membership)，加上透過 GitHub 捐款，並選擇公開捐款的捐贈者名單。還有數百人過去曾捐款，或匿名捐款，也非常感謝他們的支持。
 
 </small>
 
@@ -81,7 +81,7 @@ MAGIC Grants 是我們的金流代理業者，他們的客製化開放原始碼�
 </h2>
 
 <p spaces-before="0">
-  要保持 Privacy Guides 的更新並傳播有關隱私權和大規模監控的訊息，需要<a href="contributors.md">許多人</a>的<a href="https://github.com/privacyguides/privacyguides.org/pulse/monthly">不辭辛勞</a>。 如果您正在尋找其他幫忙的方式，請考慮參與<a href="https://github.com/privacyguides/privacyguides.org">編輯網站</a>、<a href="https://discuss.privacyguides.net">加入討論區</a>或<a href="https://crowdin.com/project/privacyguides">貢獻翻譯</a>。
+  要保持 Privacy Guides 的更新並傳播有關隱私權和大規模監控的訊息，需要<a href="contributors.md">許多人</a>的<a href="https://github.com/privacyguides/privacyguides.org/pulse/monthly">不辭辛勞</a>。如果您正在尋找其他幫忙的方式，請考慮參與<a href="https://github.com/privacyguides/privacyguides.org">編輯網站</a>、<a href="https://discuss.privacyguides.net">加入討論區</a>或<a href="https://crowdin.com/project/privacyguides">貢獻翻譯</a>。
 </p>
 
 <h2 spaces-before="0">
@@ -93,7 +93,7 @@ MAGIC Grants 是我們的金流代理業者，他們的客製化開放原始碼�
 </h3>
 
 <p spaces-before="0">
-  任何公司、私人基金會或每年捐款至少 5,000 美元的組織均可成為 Privacy Guides 的機構會員。 雖然 Privacy Guides 並不為私人公司或其產品背書，但仍非常感謝他們的貢獻。 您的捐款可能可以抵稅，我們將提供收據給您。
+  任何公司、私人基金會或每年捐款至少 5,000 美元的組織均可成為 Privacy Guides 的機構會員。雖然 Privacy Guides 並不為私人公司或其產品背書，但仍非常感謝他們的貢獻。您的捐款可能可以抵稅，我們將提供收據給您。
 </p>
 
 <p spaces-before="0">
@@ -109,7 +109,7 @@ MAGIC Grants 是我們的金流代理業者，他們的客製化開放原始碼�
 </p>
 
 <p spaces-before="0">
-  組織成員無法影響 Privacy Guides 網站所推薦的內容。 了解我們<a href="donation-acceptance-policy.md">捐款接受政策</a>的更多資訊。
+  組織成員無法影響 Privacy Guides 網站所推薦的內容。了解我們<a href="donation-acceptance-policy.md">捐款接受政策</a>的更多資訊。
 </p>
 
 <h3 spaces-before="0">
@@ -117,11 +117,11 @@ MAGIC Grants 是我們的金流代理業者，他們的客製化開放原始碼�
 </h3>
 
 <p spaces-before="0">
-  您的每月或年度會員資格，可幫助 Privacy Guides 的服務與隱私權、網路安全的公共倡議活動持續運作。 您成為會員之後，只要選擇公開會員紀錄，我們就會在網站此處、社群討論區，以及不定時在影片等其他地方列出。
+  您的每月或年度會員資格，可幫助 Privacy Guides 的服務與隱私權、網路安全的公共倡議活動持續運作。您成為會員之後，只要選擇公開會員紀錄，我們就會在網站此處、社群討論區，以及不定時在影片等其他地方列出。
 </p>
 
 <p spaces-before="0">
-  我們的會員計畫還很新，仍在探索其他能夠維持永續與道德界線，同時又能與您分享心意的方式。 敬請期待！
+  我們的會員計畫還很新，仍在探索其他能夠維持永續與道德界線，同時又能與您分享心意的方式。敬請期待！
 </p>
 
 <h3 spaces-before="0">
@@ -129,15 +129,15 @@ MAGIC Grants 是我們的金流代理業者，他們的客製化開放原始碼�
 </h3>
 
 <p spaces-before="0">
-  五年多來，Privacy Guides 不斷努力跟上網路安全與隱私權的世界，並推廣隱私權的整體好處。 這是<strong x-id="1">非營利、由社群運作</strong>的專案，如果沒有各位<a href="contributors.md">貢獻者</a>以及上方定期捐款的會員的大力相助，就無法成為可能。
+  五年多來，Privacy Guides 不斷努力跟上網路安全與隱私權的世界，並推廣隱私權的整體好處。這是<strong x-id="1">非營利、由社群運作</strong>的專案，如果沒有各位<a href="contributors.md">貢獻者</a>以及上方定期捐款的會員的大力相助，就無法成為可能。
 </p>
 
 <p spaces-before="0">
-  您的捐款將撥入 <a href="https://magicgrants.org">MAGIC Grants</a> 的<a href="https://magicgrants.org/funds/privacy_guides">專用基金</a>，MAGIC Grants 是一家 501(c)(3) 機構，也是我們的財務主辦單位。 資金<strong x-id="1">只會</strong>使用於本專案。
+  您的捐款將撥入 <a href="https://magicgrants.org">MAGIC Grants</a> 的<a href="https://magicgrants.org/funds/privacy_guides">專用基金</a>，MAGIC Grants 是一家 501(c)(3) 機構，也是我們的財務主辦單位。資金<strong x-id="1">只會</strong>使用於本專案。
 </p>
 
 <p spaces-before="0">
-  您可獲得減稅資格。 當您使用加密貨幣或卡片<a href="https://donate.magicgrants.org/privacyguides">在此</a>捐款時，您可以選擇收到 MAGIC Grants 發出的收據。 如果您有其他與捐款交易有關的問題，請寄信到 <a href="mailto:info@magicgrants.org" x-nc="1">info@magicgrants.org</a>。
+  您可獲得減稅資格。當您使用加密貨幣或卡片<a href="https://donate.magicgrants.org/privacyguides">在此</a>捐款時，您可以選擇收到 MAGIC Grants 發出的收據。如果您有其他與捐款交易有關的問題，請寄信到 <a href="mailto:info@magicgrants.org" x-nc="1">info@magicgrants.org</a>。
 </p>
 
 <p spaces-before="0">
@@ -151,7 +151,7 @@ MAGIC Grants 是我們的金流代理業者，他們的客製化開放原始碼�
   
   <dd>
     <p spaces-before="0">
-      我們聘請記者、作家與影片創作者，定期評論產品並製作更多教育性內容。 這是一大筆開支，只有在您的支持下，才能製作大量的內容。
+      我們聘請記者、作家與影片創作者，定期評論產品並製作更多教育性內容。這是一大筆開支，只有在您的支持下，才能製作大量的內容。
     </p>
   </dd>
   
@@ -171,7 +171,7 @@ MAGIC Grants 是我們的金流代理業者，他們的客製化開放原始碼�
   
   <dd>
     <p spaces-before="0">
-      我們託管<a href="services.md">網路服務</a>，以測試和展示我們喜歡和<a href="../tools.md">推薦</a>的不同隱私權產品。 其中有些是公開提供給我們的社群使用 (SearXNG、Tor 等)，有些則是提供給我們的團隊成員 (電子郵件等)。
+      我們託管<a href="services.md">網路服務</a>，以測試和展示我們喜歡和<a href="../tools.md">推薦</a>的不同隱私權產品。其中有些是公開提供給我們的社群使用 (SearXNG、Tor 等)，有些則是提供給我們的團隊成員 (電子郵件等)。
     </p>
   </dd>
   
@@ -191,5 +191,5 @@ MAGIC Grants 是我們的金流代理業者，他們的客製化開放原始碼�
 </p>
 
 <p spaces-before="0">
-  我們<strong x-id="1">嚴禁</strong>將捐款用於支持政治競選/候選人或試圖影響立法。 收入也<strong x-id="1">不得</strong>分配為任何私人股東或個人的利益。
+  我們<strong x-id="1">嚴禁</strong>將捐款用於支持政治競選/候選人或試圖影響立法。收入也<strong x-id="1">不得</strong>分配為任何私人股東或個人的利益。
 </p>

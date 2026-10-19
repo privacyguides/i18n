@@ -2,11 +2,11 @@
 meta_title: "推薦的加密軟體：VeraCrypt、Cryptomator 與 OpenPGP - Privacy Guides"
 title: "加密軟體"
 icon: material/file-lock
-description: 數據加密是控制誰可以訪問它的唯一方法。 這些工具允許您加密電子郵件和任何其他檔案。
+description: 數據加密是控制誰可以訪問它的唯一方法。這些工具允許您加密電子郵件和任何其他檔案。
 cover: encryption.webp
 ---
 
-**加密** 是控制誰能存取您資料的唯一安全方法。 如果您目前沒有為您的硬碟，電子郵件或檔案使用加密軟體，您應該在這裡選擇一個選項。
+**加密** 是控制誰能存取您資料的唯一安全方法。如果您目前沒有為您的硬碟，電子郵件或檔案使用加密軟體，您應該在這裡選擇一個選項。
 
 ## 多平臺
 
@@ -22,7 +22,7 @@ cover: encryption.webp
 
 ![Cryptomator logo](assets/img/encryption-software/cryptomator.svg){ align=right }
 
-**Cryptomator** 是一種加密方案，專為私密的將檔案儲存至任何雲端 [:material-server-network: 服務提供商](basics/common-threats.md#privacy-from-service-providers){ .pg-teal } 而設計，讓您無需相信他們不會存取您的檔案。 它允許您創建儲存在虛擬驅動器上的保管庫，其內容已加密並與雲端儲存供應商同步。
+**Cryptomator** 是一種加密方案，專為私密的將檔案儲存至任何雲端 [:material-server-network: 服務提供商](basics/common-threats.md#privacy-from-service-providers){ .pg-teal } 而設計，讓您無需相信他們不會存取您的檔案。它允許您創建儲存在虛擬驅動器上的保管庫，其內容已加密並與雲端儲存供應商同步。
 
 [:octicons-home-16: 首頁](https://cryptomator.org){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://cryptomator.org/privacy){ .card-link title="隱私權政策" }
@@ -49,7 +49,7 @@ Cryptomator 使用 AES-256 加密來加密檔案和檔案名稱。 Cryptomator �
 
 Cryptomator 可在所有桌面平台上免費使用，也能在 iOS 上以「唯讀」模式使用。 Cryptomator 在 iOS 與 Android 上提供功能完整的[付費](https://cryptomator.org/pricing)應用程式。 Android 版本可透過 [ProxyStore](https://cryptomator.org/coop/proxystore) 匿名購買。
 
-一些 Cryptomator 加密程式庫 [已被Cure53審核](https://community.cryptomator.org/t/has-there-been-a-security-review-audit-of-cryptomator/44) 。 稽核程式庫的範圍包括： [cryptolib](https://github.com/cryptomator/cryptolib)、 [cryptofs](https://github.com/cryptomator/cryptofs)、 [siv-mode](https://github.com/cryptomator/siv-mode) 和 [cryptomator-objc-cryptor](https://github.com/cryptomator/cryptomator-objc-cryptor)。 審計並未包含[cryptolib-swift](https://github.com/cryptomator/cryptolib-swift)它是 Cryptomator 運用在 iOS 程式庫。
+一些 Cryptomator 加密程式庫 [已被Cure53審核](https://community.cryptomator.org/t/has-there-been-a-security-review-audit-of-cryptomator/44) 。稽核程式庫的範圍包括： [cryptolib](https://github.com/cryptomator/cryptolib)、 [cryptofs](https://github.com/cryptomator/cryptofs)、 [siv-mode](https://github.com/cryptomator/siv-mode) 和 [cryptomator-objc-cryptor](https://github.com/cryptomator/cryptomator-objc-cryptor)。審計並未包含[cryptolib-swift](https://github.com/cryptomator/cryptolib-swift)它是 Cryptomator 運用在 iOS 程式庫。
 
 Cryptomator 的文件詳細介紹它的預期[安全目標](https://docs.cryptomator.org/en/latest/security/security-target)，[安全架構](https:/ /docs.cryptomator.org/en/latest/security/architecture)和[最佳實踐](https://docs.cryptomator.org/en/latest/security/best-practices) 以供更詳細的使用。
 
@@ -64,7 +64,7 @@ Cryptomator 的文件詳細介紹它的預期[安全目標](https://docs.cryptom
 ![VeraCrypt logo](assets/img/encryption-software/veracrypt.svg#only-light){ align=right }
 ![VeraCrypt logo](assets/img/encryption-software/veracrypt-dark.svg#only-dark){ align=right }
 
-**VeraCrypt** 是一個開源的免費軟體實用程式，用於即時加密。 它可以在檔案中建立虛擬加密磁碟、加密分割區，或透過預先啟動驗證來加密整個儲存裝置。
+**VeraCrypt** 是一個開源的免費軟體實用程式，用於即時加密。它可以在檔案中建立虛擬加密磁碟、加密分割區，或透過預先啟動驗證來加密整個儲存裝置。
 
 [:octicons-home-16: 首頁](https://veracrypt.fr){ .md-button .md-button--primary }
 [:octicons-info-16:](https://veracrypt.fr/en/Documentation.html){ .card-link title="說明文件" }
@@ -82,9 +82,9 @@ Cryptomator 的文件詳細介紹它的預期[安全目標](https://docs.cryptom
 
 </div>
 
-VeraCrypt是已停產的 TrueCrypt 項目的分支。 根據其開發人員的說法，已經實施了安全性改進，並解決了最初的TrueCrypt 代碼審計提出的問題。
+VeraCrypt是已停產的 TrueCrypt 項目的分支。根據其開發人員的說法，已經實施了安全性改進，並解決了最初的TrueCrypt 代碼審計提出的問題。
 
-使用 VeraCrypt 加密時，您可以選擇不同的 [雜湊函式](https://en.wikipedia.org/wiki/VeraCrypt#Encryption_scheme)。 我們建議您**只**選擇 [SHA-512](https://en.wikipedia.org/wiki/SHA-512)，並堅持使用 [AES](https://en.wikipedia.org/wiki/Advanced_Encryption_Standard) 區塊加密法。
+使用 VeraCrypt 加密時，您可以選擇不同的 [雜湊函式](https://en.wikipedia.org/wiki/VeraCrypt#Encryption_scheme)。我們建議您**只**選擇 [SHA-512](https://en.wikipedia.org/wiki/SHA-512)，並堅持使用 [AES](https://en.wikipedia.org/wiki/Advanced_Encryption_Standard) 區塊加密法。
 
 TrueCrypt 已[接受了許多次的稽核](https://en.wikipedia.org/wiki/TrueCrypt#Security_audits)，而 VeraCrypt 也曾[獨立接受稽核](https://en.wikipedia.org/wiki/VeraCrypt#VeraCrypt_audit)。
 
@@ -94,7 +94,7 @@ TrueCrypt 已[接受了許多次的稽核](https://en.wikipedia.org/wiki/TrueCry
 
 - [:material-target-account: 針對性攻擊](basics/common-threats.md#attacks-against-specific-individuals ""){.pg-red}
 
-作業系統內建的加密方案通常會利用硬體安全功能，例如：[安全加密協處理器](basics/hardware.md#tpmsecure-cryptoprocessor)。 因此，我們建議您使用作業系統內建的加密方案。 對於跨平台加密，我們仍建議使用 [跨平台工具](#multi-platform) ，以獲得額外的靈活性，並避免供應商鎖定。
+作業系統內建的加密方案通常會利用硬體安全功能，例如：[安全加密協處理器](basics/hardware.md#tpmsecure-cryptoprocessor)。因此，我們建議您使用作業系統內建的加密方案。對於跨平台加密，我們仍建議使用 [跨平台工具](#multi-platform) ，以獲得額外的靈活性，並避免供應商鎖定。
 
 <details class="warning" markdown>
 
@@ -146,7 +146,7 @@ Pro and higher editions also support the more secure pre-boot [TPM+PIN](https://
 
 ![LUKS logo](assets/img/encryption-software/luks.png){ align=right }
 
-**LUKS** 是 Linux 預設 FDE 方法。 它可用於加密整個磁區、分割區或建立加密容器。
+**LUKS** 是 Linux 預設 FDE 方法。它可用於加密整個磁區、分割區或建立加密容器。
 
 [:octicons-repo-16: 儲存庫](https://gitlab.com/cryptsetup/cryptsetup#what-the-){ .md-button .md-button--primary }
 [:octicons-info-16:](https://gitlab.com/cryptsetup/cryptsetup/-/wikis/home){ .card-link title="文件" }
@@ -166,7 +166,7 @@ sudo cryptsetup luksFormat /path-to-file
 
 #### 開啟加密容器
 
-建議使用 `udisksctl` 打開容器和磁碟區，因為它使用 [Polkit](https://en.wikipedia.org/wiki/Polkit)。 大多數檔案管理器，例如流行的桌面環境中包含的檔案管理器，都可以解鎖加密的檔案。 像 [udiskie](https://github.com/coldfix/udiskie) 這類工具可以在系統工作列運行並提供有用的使用者介面。
+建議使用 `udisksctl` 打開容器和磁碟區，因為它使用 [Polkit](https://en.wikipedia.org/wiki/Polkit)。大多數檔案管理器，例如流行的桌面環境中包含的檔案管理器，都可以解鎖加密的檔案。像 [udiskie](https://github.com/coldfix/udiskie) 這類工具可以在系統工作列運行並提供有用的使用者介面。
 
 ```bash
 udisksctl loop-setup -f /path-to-file
@@ -178,7 +178,7 @@ udisksctl unlock -b /dev/loop0
 <div class="admonition note" markdown>
 <p class="admonition-title">記得備份磁區標頭</p>
 
-我們建議您務必 [備份您的LUKS標頭](https://wiki.archlinux.org/title/Dm-crypt/Device_encryption#Backup_and_restore) 以防部分驅動器故障。 可透過以下指令達成
+我們建議您務必 [備份您的LUKS標頭](https://wiki.archlinux.org/title/Dm-crypt/Device_encryption#Backup_and_restore) 以防部分驅動器故障。可透過以下指令達成
 
 ```bash
 cryptsetup luksHeaderBackup /dev/device --header-backup-file /mnt/backup/file.img
@@ -200,7 +200,7 @@ cryptsetup luksHeaderBackup /dev/device --header-backup-file /mnt/backup/file.im
 
 ![Kryptor logo](assets/img/encryption-software/kryptor.png){ align=right }
 
-**Kryptor** 是一個免費的開源文件加密和簽名工具，利用現代安全的加密算法。 它旨在成為更好版本的 [age](https://github.com/FiloSottile/age)和 [Minisign](https://jedisct1.github.io/minisign/)，提供一個簡單，更容易的 GPG 替代品。
+**Kryptor** 是一個免費的開源文件加密和簽名工具，利用現代安全的加密算法。它旨在成為更好版本的 [age](https://github.com/FiloSottile/age)和 [Minisign](https://jedisct1.github.io/minisign/)，提供一個簡單，更容易的 GPG 替代品。
 
 [:octicons-home-16: 首頁](https://kryptor.co.uk){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://kryptor.co.uk/features#privacy){ .card-link title="隱私權政策" }
@@ -225,7 +225,7 @@ cryptsetup luksHeaderBackup /dev/device --header-backup-file /mnt/backup/file.im
 
 ![Tomb logo](assets/img/encryption-software/tomb.png){ align=right }
 
-**Tomb** 是 LUKS 的命令行 shell 包裝器。 它通過 [第三方工具](https://dyne.org/software/tomb/#advanced-usage) 支援隱寫。
+**Tomb** 是 LUKS 的命令行 shell 包裝器。它通過 [第三方工具](https://dyne.org/software/tomb/#advanced-usage) 支援隱寫。
 
 [:octicons-home-16: 首頁](https://dyne.org/software/tomb){ .md-button .md-button--primary }
 [:octicons-info-16:](https://github.com/dyne/Tomb/wiki){ .card-link title="說明文件" }
@@ -244,9 +244,9 @@ cryptsetup luksHeaderBackup /dev/device --header-backup-file /mnt/backup/file.im
 - [:material-bug-outline: 被動攻擊](basics/common-threats.md#security-and-privacy ""){.pg-orange}
 - [:material-server-network: 服務提供商](basics/common-threats.md#privacy-from-service-providers ""){.pg-teal}
 
-OpenPGP 有時需要執行特定任務，例如數位簽署和加密電子郵件。 PGP 有許多功能，但也因此而很 [複雜](https://latacora.micro.blog/2019/07/16/the-pgp-problem.html) ，因為它已經存在很久了。 對於簽署或加密檔案等任務，我們建議您使用上述選項。
+OpenPGP 有時需要執行特定任務，例如數位簽署和加密電子郵件。 PGP 有許多功能，但也因此而很 [複雜](https://latacora.micro.blog/2019/07/16/the-pgp-problem.html) ，因為它已經存在很久了。對於簽署或加密檔案等任務，我們建議您使用上述選項。
 
-使用 PGP 加密時，您可以選擇在 `gpg.conf` 檔案中設定不同的選項。 我們建議您繼續使用 [ GnuPG 用戶常見問題集](https://gnupg.org/faq/gnupg-faq.html#new_user_gpg_conf)中指定的標準選項。
+使用 PGP 加密時，您可以選擇在 `gpg.conf` 檔案中設定不同的選項。我們建議您繼續使用 [ GnuPG 用戶常見問題集](https://gnupg.org/faq/gnupg-faq.html#new_user_gpg_conf)中指定的標準選項。
 
 <div class="admonition tip" markdown>
 <p class="admonition-title">在生成金鑰時使用未來的預設值</p>
@@ -290,7 +290,7 @@ gpg --quick-gen-key alice@example.com future-default
 
 ![GPG4win logo](assets/img/encryption-software/gpg4win.svg){ align=right }
 
-**GPG4win** 是 [Intevation and g10 Code](https://gpg4win.org/impressum.html) 的Windows 套件。 它包括 [各種工具](https://gpg4win.org/about.html) ，可協助您在 Microsoft Windows 上使用GPG。 該項目最初由德國聯邦信息安全辦公室（BSI）於2005年發起並 [資助](https://web.archive.org/web/20190425125223/https://joinup.ec.europa.eu/news/government-used-cryptography)。
+**GPG4win** 是 [Intevation and g10 Code](https://gpg4win.org/impressum.html) 的Windows 套件。它包括 [各種工具](https://gpg4win.org/about.html) ，可協助您在 Microsoft Windows 上使用GPG。該項目最初由德國聯邦信息安全辦公室（BSI）於2005年發起並 [資助](https://web.archive.org/web/20190425125223/https://joinup.ec.europa.eu/news/government-used-cryptography)。
 
 [:octicons-home-16: 首頁](https://gpg4win.org){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://gpg4win.org/privacy-policy.html){ .card-link title="隱私權政策" }
@@ -339,7 +339,7 @@ gpg --quick-gen-key alice@example.com future-default
 
 ![OpenKeychain logo](assets/img/encryption-software/openkeychain.svg){ align=right }
 
-**OpenKeychain** 是 Android 版 GnuPG 的實作。 一般的郵件客戶端如 [Thunderbird](email-clients.md#thunderbird)、[FairEmail](email-clients.md#fairemail-android) 和其他 Android 應用程式都需要它來提供加密支援。
+**OpenKeychain** 是 Android 版 GnuPG 的實作。一般的郵件客戶端如 [Thunderbird](email-clients.md#thunderbird)、[FairEmail](email-clients.md#fairemail-android) 和其他 Android 應用程式都需要它來提供加密支援。
 
 [:octicons-home-16: 首頁](https://openkeychain.org){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://openkeychain.org/help/privacy-policy){ .card-link title="隱私權政策" }
@@ -355,11 +355,11 @@ gpg --quick-gen-key alice@example.com future-default
 
 </div>
 
-Cure53 於 2015 年 10 月完成對 OpenKeychain 3.6 的 [安全審核](https://openkeychain.org/openkeychain-3-6)。 已公布的審核報告以及 OpenKeychain 對於審核報告中所提出問題的解決方案，可以在 [這裡](https://github.com/open-keychain/open-keychain/wiki/cure53-Security-Audit-2015) 找到。
+Cure53 於 2015 年 10 月完成對 OpenKeychain 3.6 的 [安全審核](https://openkeychain.org/openkeychain-3-6)。已公布的審核報告以及 OpenKeychain 對於審核報告中所提出問題的解決方案，可以在 [這裡](https://github.com/open-keychain/open-keychain/wiki/cure53-Security-Audit-2015) 找到。
 
 ## 標準
 
-**請注意，我們與推薦的任何項目均無關。**除了[我們的通用標準](about/criteria.md)外，我們還制定了一套明確的要求，以便我們能夠提供客觀的建議。 建議您在選擇使用項目之前先熟悉此列表，並進行自己的研究，以確保它是您的正確選擇。
+**請注意，我們與推薦的任何項目均無關。**除了[我們的通用標準](about/criteria.md)外，我們還制定了一套明確的要求，以便我們能夠提供客觀的建議。建議您在選擇使用項目之前先熟悉此列表，並進行自己的研究，以確保它是您的正確選擇。
 
 ### 最低合格要求
 
@@ -370,7 +370,7 @@ Cure53 於 2015 年 10 月完成對 OpenKeychain 3.6 的 [安全審核](https://
 
 ### 最佳情況
 
-最佳情況標準代表我們希望在這個類別的完美項目的應具備的特性。 推薦產品可能沒有此功能，但若有這些功能則會讓排名更為提高。
+最佳情況標準代表我們希望在這個類別的完美項目的應具備的特性。推薦產品可能沒有此功能，但若有這些功能則會讓排名更為提高。
 
 - 作業系統(FDE)加密應用程式應使用硬體安全性，例如 TPM 或Secure Enclave。
 - 檔案加密應用程式應有自己的或第三方支援行動平臺。

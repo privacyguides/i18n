@@ -4,7 +4,7 @@
 
 # Privacy Guides 服務
 
-我們運行許多網路服務，以測試各種功能，並推廣優質的去中心化、聯邦式（但並非一定要是此兩類服務我們才會託管） 開放原始碼項目。 其中許多服務可供公眾使用，詳情如下。
+我們運行許多網路服務，以測試各種功能，並推廣優質的去中心化、聯邦式（但並非一定要是此兩類服務我們才會託管） 開放原始碼項目。其中許多服務可供公眾使用，詳情如下。
 
 [:material-comment-alert: 回報問題](https://discuss.privacyguides.net/c/services/2){ class="md-button md-button--primary" }
 
@@ -17,7 +17,7 @@
 ## Gitea
 
 - 域名： [code.privacyguides.dev](https://code.privacyguides.dev)
-- 可用性：需受邀。 任何負責 *Privacy Guides* 相關開發或內容的團隊，均可應要求取得存取權。
+- 可用性：需受邀。任何負責 *Privacy Guides* 相關開發或內容的團隊，均可應要求取得存取權。
 - 原始碼： [snapcraft.io/gitea](https://snapcraft.io/gitea)
 
 ## Matrix

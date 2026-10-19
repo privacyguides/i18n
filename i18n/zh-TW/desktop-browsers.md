@@ -61,7 +61,7 @@ schema:
 
 - [:material-account-cash: 監控資本主義](basics/common-threats.md#surveillance-as-a-business-model ""){.pg-brown}
 
-這些是我們目前推薦的**桌面瀏覽器**與其設定，適合普通或非匿名的網頁瀏覽。 如果您重視強大的隱私保護和內建的的反指紋追蹤功能，我們推薦使用 [Mullvad 瀏覽器](#mullvad-browser)；如果您在尋找替代 Google Chrome 的好選擇，我們推薦使用 [Firefox](#firefox)，或者如果您需要 Chromium 的瀏覽器相容性，我們推薦使用 [Brave](#brave)。
+這些是我們目前推薦的**桌面瀏覽器**與其設定，適合普通或非匿名的網頁瀏覽。如果您重視強大的隱私保護和內建的的反指紋追蹤功能，我們推薦使用 [Mullvad 瀏覽器](#mullvad-browser)；如果您在尋找替代 Google Chrome 的好選擇，我們推薦使用 [Firefox](#firefox)，或者如果您需要 Chromium 的瀏覽器相容性，我們推薦使用 [Brave](#brave)。
 
 If you need to browse the internet anonymously, you should use [Tor Browser](tor.md) instead. We make some configuration recommendations on this page, but Tor Browser offers the best protections against online tracking.
 
@@ -71,7 +71,7 @@ If you need to browse the internet anonymously, you should use [Tor Browser](tor
 
 ![Mullvad 瀏覽器標誌](assets/img/browsers/mullvad_browser.svg){ align=right }
 
-**Mullvad 瀏覽器** 是移除 Tor 網路整合的 [Tor 瀏覽器](tor.md#tor-browser) 版本。 它的目的是提供為 VPN 使用者提供 Tor 瀏覽器的反指紋瀏覽器技術，這些技術是對抗 [:material-eye-outline: 大規模監控](basics/common-threats.md#mass-surveillance-programs){ .pg-blue } 的重要保護措施。 它由 Tor 計劃開發，並由 [Mullvad](vpn.md#mullvad)發布，而且 **不需要** 使用 Mullvad 的 VPN。
+**Mullvad 瀏覽器** 是移除 Tor 網路整合的 [Tor 瀏覽器](tor.md#tor-browser) 版本。它的目的是提供為 VPN 使用者提供 Tor 瀏覽器的反指紋瀏覽器技術，這些技術是對抗 [:material-eye-outline: 大規模監控](basics/common-threats.md#mass-surveillance-programs){ .pg-blue } 的重要保護措施。它由 Tor 計劃開發，並由 [Mullvad](vpn.md#mullvad)發布，而且 **不需要** 使用 Mullvad 的 VPN。
 
 [:octicons-home-16: 首頁](https://mullvad.net/en/browser){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://mullvad.net/en/help/privacy-policy){ .card-link title="隱私權政策" }
@@ -91,25 +91,25 @@ If you need to browse the internet anonymously, you should use [Tor Browser](tor
 
 Like [Tor Browser](tor.md), Mullvad Browser is designed to prevent fingerprinting by making your browser fingerprint similar to a large number of other Mullvad Browser users, and it includes default settings and extensions that are automatically configured by the default security levels: *Standard*, *Safer* and *Safest*.
 
-因此，除了調整預設的[安全層級](https://tb-manual.torproject.org/security-settings)外，請絕對不要對瀏覽器進行任何修改。 調整安全層級後，您**必須**重新啟動瀏覽器，才能繼續使用。 否則，[安全設定可能無法完全套用](https://www.privacyguides.org/articles/2025/05/02/tor-security-slider-flaw)，使您遭受指紋辨識和漏洞利用的風險比您對所選設定的預期還要高。
+因此，除了調整預設的[安全層級](https://tb-manual.torproject.org/security-settings)外，請絕對不要對瀏覽器進行任何修改。調整安全層級後，您**必須**重新啟動瀏覽器，才能繼續使用。否則，[安全設定可能無法完全套用](https://www.privacyguides.org/articles/2025/05/02/tor-security-slider-flaw)，使您遭受指紋辨識和漏洞利用的風險比您對所選設定的預期還要高。
 
-修改其他設定將使您的指紋變得獨特，從而打破使用此瀏覽器的目的。 如果您希望更深入地調整瀏覽器設定，且您不擔心瀏覽器指紋被識別，我們推薦使用 [Firefox](#firefox)。
+修改其他設定將使您的指紋變得獨特，從而打破使用此瀏覽器的目的。如果您希望更深入地調整瀏覽器設定，且您不擔心瀏覽器指紋被識別，我們推薦使用 [Firefox](#firefox)。
 
 ### 防止指紋識別
 
 在**不**使用 [VPN](vpn.md) 的情況下，Mullvad 瀏覽器可提供與其他隱私瀏覽器（例如 Firefox + [Arkenfox](#arkenfox-advanced) 或 [Brave](#brave)）類似的保護，以對抗[單純的指紋辨識命令稿](https://github.com/arkenfox/user.js/wiki/3.3-Overrides-%5BTo-RFP-or-Not%5D#-fingerprinting)。 Mullvad 瀏覽器在開箱即用的情況下提供了這些保護措施，代價是可能會犧牲其他隱私瀏覽器所具備的靈活性和便利性。
 
-==要獲得最強大的防指紋辨識防護，我們建議將 Mullvad 瀏覽器 **搭配** VPN 一同使用== ，不論是 Mullvad 或其他推薦的 VPN 供應商皆可。 當您將 VPN 與 Mullvad 瀏覽器搭配使用時，您將與許多其他使用者共用一個指紋和 IP 位址池，以讓你混在「人群」之中。 This strategy is the best way to defend against advanced tracking scripts, and is the same anti-fingerprinting technique used by Tor Browser.
+==要獲得最強大的防指紋辨識防護，我們建議將 Mullvad 瀏覽器 **搭配** VPN 一同使用== ，不論是 Mullvad 或其他推薦的 VPN 供應商皆可。當您將 VPN 與 Mullvad 瀏覽器搭配使用時，您將與許多其他使用者共用一個指紋和 IP 位址池，以讓你混在「人群」之中。 This strategy is the best way to defend against advanced tracking scripts, and is the same anti-fingerprinting technique used by Tor Browser.
 
 請注意，雖然您可以將 Mullvad 瀏覽器與任何 VPN 供應商一起使用，但該 VPN 上的其他使用者也必須使用 Mullvad 瀏覽器，才能形成這個「群眾」，而這在 Mullvad VPN 上比其他供應商更有可能發生。 Mullvad 瀏覽器沒有內建 VPN，也不會在瀏覽之前檢查是否使用 VPN，必須另外設定和管理 VPN 連線。
 
-Mullvad 瀏覽器附帶預先安裝的 *uBlock Origin* 和 *NoScript* 擴充功能。 我們通常不建議新增*額外*的[瀏覽器擴充功能](browser-extensions.md)，且這些與瀏覽器預裝的擴充功能**不**應移除或修改成任何預設值以外的設定，一旦隨意更動，您的瀏覽器指紋會明顯有別於其他 Mullvad 瀏覽器使用者。 It also comes pre-installed with the Mullvad Browser Extension, which *can* be safely removed without [impacting](https://mullvad.net/en/help/tag/mullvad-browser#112) your browser fingerprint if you would like, but is also safe to keep even if you don't use Mullvad VPN.
+Mullvad 瀏覽器附帶預先安裝的 *uBlock Origin* 和 *NoScript* 擴充功能。我們通常不建議新增*額外*的[瀏覽器擴充功能](browser-extensions.md)，且這些與瀏覽器預裝的擴充功能**不**應移除或修改成任何預設值以外的設定，一旦隨意更動，您的瀏覽器指紋會明顯有別於其他 Mullvad 瀏覽器使用者。 It also comes pre-installed with the Mullvad Browser Extension, which *can* be safely removed without [impacting](https://mullvad.net/en/help/tag/mullvad-browser#112) your browser fingerprint if you would like, but is also safe to keep even if you don't use Mullvad VPN.
 
 ### 隱私瀏覽模式
 
-Mullvad 瀏覽器預設總是使用隱私瀏覽模式運行，這意味著您的歷史記錄、Cookie 和其他網站資料在每次關閉瀏覽器時都會被清除。 但書籤、瀏覽器設定和擴充功能設定仍會保留。
+Mullvad 瀏覽器預設總是使用隱私瀏覽模式運行，這意味著您的歷史記錄、Cookie 和其他網站資料在每次關閉瀏覽器時都會被清除。但書籤、瀏覽器設定和擴充功能設定仍會保留。
 
-這是為了防止進階形式的追蹤，但確實犧牲了便利性和一些 Firefox 功能，例如多重帳戶容器 (Multi-Account Containers，又稱容器分頁功能)。 請記住，您隨時可以使用多個瀏覽器，例如，您可以考慮對希望保持登入狀態或在 Mullvad 瀏覽器中無法正常運作的幾個網站使用 Firefox + Arkenfox，而在一般瀏覽時使用 Mullvad 瀏覽器。
+這是為了防止進階形式的追蹤，但確實犧牲了便利性和一些 Firefox 功能，例如多重帳戶容器 (Multi-Account Containers，又稱容器分頁功能)。請記住，您隨時可以使用多個瀏覽器，例如，您可以考慮對希望保持登入狀態或在 Mullvad 瀏覽器中無法正常運作的幾個網站使用 Firefox + Arkenfox，而在一般瀏覽時使用 Mullvad 瀏覽器。
 
 ## Firefox
 
@@ -140,7 +140,7 @@ Mullvad 瀏覽器預設總是使用隱私瀏覽模式運行，這意味著您的
 <div class="admonition warning" markdown>
 <p class="admonition-title">警告</p>
 
-Firefox 在 Mozilla 網站的下載中包含一個獨特的 [下載令牌](https://bugzilla.mozilla.org/show_bug.cgi?id=1677497#c0)，並使用 Firefox 中的遙測功能傳送該令牌。 該令牌**不**包含在 [Mozilla FTP](https://ftp.mozilla.org/pub/firefox/releases/) 上的發行版中。
+Firefox 在 Mozilla 網站的下載中包含一個獨特的 [下載令牌](https://bugzilla.mozilla.org/show_bug.cgi?id=1677497#c0)，並使用 Firefox 中的遙測功能傳送該令牌。該令牌**不**包含在 [Mozilla FTP](https://ftp.mozilla.org/pub/firefox/releases/) 上的發行版中。
 
 </div>
 
@@ -154,11 +154,11 @@ Firefox 在 Mozilla 網站的下載中包含一個獨特的 [下載令牌](https
 
 您所在的地區可能無法使用搜尋建議功能。
 
-搜尋建議會將您在網址列中輸入的所有內容傳送至預設搜尋引擎，無論您是否實際提交搜尋。 停用搜尋建議可讓您更精確地控制您傳送給搜尋引擎供應商的資料。
+搜尋建議會將您在網址列中輸入的所有內容傳送至預設搜尋引擎，無論您是否實際提交搜尋。停用搜尋建議可讓您更精確地控制您傳送給搜尋引擎供應商的資料。
 
 ##### Firefox 建議
 
-[Firefox Suggest](https://support.mozilla.org/kb/firefox-suggest) 是一項類似搜尋建議的功能。 我們建議停用此功能的原因與我們建議停用搜尋建議的原因相同。 如果您在「**網址列**」標題下沒有看到這些選項，則表示您還不能使用此功能，可以忽略這些變更。
+[Firefox Suggest](https://support.mozilla.org/kb/firefox-suggest) 是一項類似搜尋建議的功能。我們建議停用此功能的原因與我們建議停用搜尋建議的原因相同。如果您在「**網址列**」標題下沒有看到這些選項，則表示您還不能使用此功能，可以忽略這些變更。
 
 - [ ] 取消勾選 **Suggestions from Firefox**
 - [ ] 取消勾選 **Suggestions from sponsors**
@@ -171,7 +171,7 @@ Firefox 在 Mozilla 網站的下載中包含一個獨特的 [下載令牌](https
 
 - [x] 在 加強型追蹤保護 下選擇 **嚴格**
 
-此功能可封鎖社交媒體追蹤器、指紋辨識腳本 (注意，這並不能保護您免於 *所有* 指紋辨識)、加密貨幣挖礦程式、跨網站追蹤 Cookie 以及其他追蹤內容來保護您。 加強型追蹤保護功能可保護您免於許多常見威脅，但並不會阻止所有追蹤途徑，因為它的設計考量了網站的可用性。
+此功能可封鎖社交媒體追蹤器、指紋辨識腳本 (注意，這並不能保護您免於 *所有* 指紋辨識)、加密貨幣挖礦程式、跨網站追蹤 Cookie 以及其他追蹤內容來保護您。加強型追蹤保護功能可保護您免於許多常見威脅，但並不會阻止所有追蹤途徑，因為它的設計考量了網站的可用性。
 
 ##### 關閉時清除資料
 
@@ -179,7 +179,7 @@ Firefox 在 Mozilla 網站的下載中包含一個獨特的 [下載令牌](https
 
 - [x] 勾選 **關閉 Firefox 時清除 Cookie 與網站資料**
 
-這可以保護您免受持久性 Cookie 的影響，但無法防止在單一瀏覽階段中產生的 Cookie。 啟用此功能後，只要重新啟動 Firefox，就能輕鬆清除瀏覽器 cookie。 如果您希望在經常造訪的特定網站保持登入狀態，可以針對個別網站設定例外。
+這可以保護您免受持久性 Cookie 的影響，但無法防止在單一瀏覽階段中產生的 Cookie。啟用此功能後，只要重新啟動 Firefox，就能輕鬆清除瀏覽器 cookie。如果您希望在經常造訪的特定網站保持登入狀態，可以針對個別網站設定例外。
 
 ##### 遙測
 
@@ -191,9 +191,9 @@ Firefox 在 Mozilla 網站的下載中包含一個獨特的 [下載令牌](https
 
 根據 Mozilla 的 Firefox 隱私權政策：
 
-> Firefox 會向 Mozilla 發送以下數據：您的 Firefox 版本和語言；操作系統和硬體配置；記憶體、關於崩潰和錯誤的基本訊息；更新、安全瀏覽和啟動等自動化流程系統的結果。 當 Firefox 向 Mozilla 發送數據時，會將您的 IP 位址作為伺服器日誌的一部份暫時收集。
+> Firefox 會向 Mozilla 發送以下數據：您的 Firefox 版本和語言；操作系統和硬體配置；記憶體、關於崩潰和錯誤的基本訊息；更新、安全瀏覽和啟動等自動化流程系統的結果。當 Firefox 向 Mozilla 發送數據時，會將您的 IP 位址作為伺服器日誌的一部份暫時收集。
 
-此外，Mozilla 帳號服務也會收集[一些技術資料](https://mozilla.org/privacy/mozilla-accounts)。 如果您有使用 Mozilla 帳號，可以選擇退出：
+此外，Mozilla 帳號服務也會收集[一些技術資料](https://mozilla.org/privacy/mozilla-accounts)。如果您有使用 Mozilla 帳號，可以選擇退出：
 
 1. 在 [accounts.firefox.com 開啟您的個人資料設定](https://accounts.firefox.com/settings#data-collection)
 2. 取消勾選 **資料收集與使用** > **幫助我們改善 ⁨Mozilla 帳號⁩**
@@ -202,7 +202,7 @@ Firefox 在 Mozilla 網站的下載中包含一個獨特的 [下載令牌](https
 
 - [x] 勾選 **在所有視窗都只使用 HTTPS 連線**
 
-這可以防止您無意間以明文 HTTP 連線到網站。 如今，不支援 HTTPS 的網站並不多見，因此這對您日常瀏覽網頁應該幾乎沒有影響。
+這可以防止您無意間以明文 HTTP 連線到網站。如今，不支援 HTTPS 的網站並不多見，因此這對您日常瀏覽網頁應該幾乎沒有影響。
 
 ##### 基於 HTTPS 的 DNS 服務 (DNS over HTTPS)
 
@@ -210,7 +210,7 @@ Firefox 在 Mozilla 網站的下載中包含一個獨特的 [下載令牌](https
 
 - [x] 選擇 **最大保護** 與合適的提供者
 
-最大保護 會強制使用 DNS over HTTPS，如果 Firefox 無法連線到您的安全 DNS 解析器，或者安全 DNS 解析器表示您嘗試存取的網域沒有記錄，則會顯示安全性警告。 這可以防止您所使用的網路暗中降低您的 DNS 安全性。
+最大保護 會強制使用 DNS over HTTPS，如果 Firefox 無法連線到您的安全 DNS 解析器，或者安全 DNS 解析器表示您嘗試存取的網域沒有記錄，則會顯示安全性警告。這可以防止您所使用的網路暗中降低您的 DNS 安全性。
 
 #### 同步
 
@@ -221,13 +221,13 @@ Firefox 在 Mozilla 網站的下載中包含一個獨特的 [下載令牌](https
 <div class="admonition tip" markdown>
 <p class="admonition-title">使用 Mullvad 瀏覽器以防止更進階的指紋識別</p>
 
-[Mullvad 瀏覽器](#mullvad-browser) 提供比 Firefox 更強的抗指紋辨識保護，不需要使用 Mullvad VPN 就能獲得這些保護。 結合 VPN 使用時，Mullvad 瀏覽器 能夠阻擋 Arkenfox 無法處理的進階追蹤腳本。 相較之下，Firefox 仍然具有更高的靈活性，可以對需要保持登入狀態的個別網站設定例外。
+[Mullvad 瀏覽器](#mullvad-browser) 提供比 Firefox 更強的抗指紋辨識保護，不需要使用 Mullvad VPN 就能獲得這些保護。結合 VPN 使用時，Mullvad 瀏覽器 能夠阻擋 Arkenfox 無法處理的進階追蹤腳本。相較之下，Firefox 仍然具有更高的靈活性，可以對需要保持登入狀態的個別網站設定例外。
 
 </div>
 
-[Arkenfox 專案](https://github.com/arkenfox/user.js) 為 Firefox 提供了一套經過仔細考量的設定。 如果您[決定](https://github.com/arkenfox/user.js/wiki/1.1-To-Arkenfox-or-Not)使用 Arkenfox，有[幾個選項](https://github.com/arkenfox/user.js/wiki/3.2-Overrides-%5BCommon%5D)可能在主觀上會較為嚴格，並且/或者可能導致某些網站無法正常運作，不過您可以[輕鬆的更改](https://github.com/arkenfox/user.js/wiki/3.1-Overrides)這些選項，以滿足您的需求。 我們**強烈建議**完整閱讀其 [Wiki 頁面](https://github.com/arkenfox/user.js/wiki)。 Arkenfox 也啟用了[容器](https://support.mozilla.org/kb/containers#w_for-advanced-users)功能。
+[Arkenfox 專案](https://github.com/arkenfox/user.js) 為 Firefox 提供了一套經過仔細考量的設定。如果您[決定](https://github.com/arkenfox/user.js/wiki/1.1-To-Arkenfox-or-Not)使用 Arkenfox，有[幾個選項](https://github.com/arkenfox/user.js/wiki/3.2-Overrides-%5BCommon%5D)可能在主觀上會較為嚴格，並且/或者可能導致某些網站無法正常運作，不過您可以[輕鬆的更改](https://github.com/arkenfox/user.js/wiki/3.1-Overrides)這些選項，以滿足您的需求。我們**強烈建議**完整閱讀其 [Wiki 頁面](https://github.com/arkenfox/user.js/wiki)。 Arkenfox 也啟用了[容器](https://support.mozilla.org/kb/containers#w_for-advanced-users)功能。
 
-Arkenfox 的目標旨在透過 Canvas 隨機化和 Firefox 內建的抗指紋設定來阻止基本或簡單的追蹤腳本。 它的目的不是讓您的瀏覽器與其他許多使用 Arkenfox 的使用者混在一起，那是 Mullvad 瀏覽器或 Tor 瀏覽器的作法，也是阻止進階指紋跟蹤腳本的唯一方法。 請記得，您可以使用多個瀏覽器。例如，您可以考慮在需要保持登入或可以信任的幾個網站使用 Firefox + Arkenfox，而在一般瀏覽時則使用 Mullvad 瀏覽器。
+Arkenfox 的目標旨在透過 Canvas 隨機化和 Firefox 內建的抗指紋設定來阻止基本或簡單的追蹤腳本。它的目的不是讓您的瀏覽器與其他許多使用 Arkenfox 的使用者混在一起，那是 Mullvad 瀏覽器或 Tor 瀏覽器的作法，也是阻止進階指紋跟蹤腳本的唯一方法。請記得，您可以使用多個瀏覽器。例如，您可以考慮在需要保持登入或可以信任的幾個網站使用 Firefox + Arkenfox，而在一般瀏覽時則使用 Mullvad 瀏覽器。
 
 ## Brave
 
@@ -261,7 +261,7 @@ Brave 基於 Chromium 瀏覽器專案構建，因此使用起來應該會感到�
 <div class="admonition warning" markdown>
 <p class="admonition-title">警告</p>
 
-Brave 在官網的下載的檔案名稱中新增了一個 「[推廣代碼（referral code）](https://github.com/brave/brave-browser/wiki/Brave%E2%80%99s-Use-of-Referral-Codes)」，用於追蹤瀏覽器的下載來源；舉例來說，下載的檔案名為 `Brave-Browser-BRV002.pkg`，則其名稱中的 `BRV002` 就是它的推廣代碼。 安裝程式會在結束後向 Brave 的伺服器發送帶有推廣代碼的遙測。 如果您擔心這個問題，可以在開啟前更改安裝軟體的檔案名稱。
+Brave 在官網的下載的檔案名稱中新增了一個 「[推廣代碼（referral code）](https://github.com/brave/brave-browser/wiki/Brave%E2%80%99s-Use-of-Referral-Codes)」，用於追蹤瀏覽器的下載來源；舉例來說，下載的檔案名為 `Brave-Browser-BRV002.pkg`，則其名稱中的 `BRV002` 就是它的推廣代碼。安裝程式會在結束後向 Brave 的伺服器發送帶有推廣代碼的遙測。如果您擔心這個問題，可以在開啟前更改安裝軟體的檔案名稱。
 
 </div>
 
@@ -271,7 +271,7 @@ Brave 在官網的下載的檔案名稱中新增了一個 「[推廣代碼（ref
 
 #### 防護
 
-Brave 在其 [防護 (Shields)](https://support.brave.com/hc/articles/360022973471-What-is-Shields) 功能加入了一些防指紋識別措施。 我們建議在您造訪的所有網頁上[全域](https://support.brave.com/hc/articles/360023646212-How-do-I-configure-global-and-site-specific-Shields-settings)套用這些設定。
+Brave 在其 [防護 (Shields)](https://support.brave.com/hc/articles/360022973471-What-is-Shields) 功能加入了一些防指紋識別措施。我們建議在您造訪的所有網頁上[全域](https://support.brave.com/hc/articles/360023646212-How-do-I-configure-global-and-site-specific-Shields-settings)套用這些設定。
 
 防護功能的選項可以根據各網站需要依情況降級，但我們建議預設使用以下設定：
 
@@ -282,7 +282,7 @@ Brave 在其 [防護 (Shields)](https://support.brave.com/hc/articles/3600229734
 <details class="warning" markdown>
 <summary>使用預設過濾器清單</summary>
 
-Brave 允許您在內部網頁 brave://settings/shields/filters 內選擇額外的內容過濾器。 我們建議您不要使用此功能；請保留預設的篩選清單。 使用額外的列表會讓您從其他 Brave 使用者中脫穎而出，如果 Brave 中有漏洞，而惡意規則被加入您使用的列表中，也可能會增加攻擊面。
+Brave 允許您在內部網頁 brave://settings/shields/filters 內選擇額外的內容過濾器。我們建議您不要使用此功能；請保留預設的篩選清單。使用額外的列表會讓您從其他 Brave 使用者中脫穎而出，如果 Brave 中有漏洞，而惡意規則被加入您使用的列表中，也可能會增加攻擊面。
 
 </details>
 
@@ -295,7 +295,7 @@ Brave 允許您在內部網頁 brave://settings/shields/filters 內選擇額外�
 
 </div>
 
-1. 此選項會停用 JavaScript，這會破壞許多網站。 要修復這些網站，可以根據需要個別設定例外。只需點一下網址列上的 Shield 圖示，然後在 *進階控制* 下取消勾選此設定即可。
+1. 此選項會停用 JavaScript，這會破壞許多網站。要修復這些網站，可以根據需要個別設定例外。只需點一下網址列上的 Shield 圖示，然後在 *進階控制* 下取消勾選此設定即可。
 2. 如果您希望在經常造訪的特定網站保持登入狀態，可以針對個別需要的網站設定例外。只需點一下網址列上的 Shield 圖示，然後在 *進階控制* 下取消勾選此設定即可。
 
 #### 隱私權和安全性
@@ -316,7 +316,7 @@ Brave 允許您在內部網頁 brave://settings/shields/filters 內選擇額外�
 
 ##### Tor 視窗
 
-[**使用 Tor 的無痕式視窗**](https://support.brave.com/hc/articles/360018121491-What-is-a-Private-Window-with-Tor-Connectivity)讓您可以在無痕式視窗中透過 Tor 網路傳送流量，並存取 .onion 服務，這在某些情況下可能很有用。 不過，Brave 對數位指紋辨識的抵抗力**不如** Tor 瀏覽器，而且將 Brave 與 Tor 搭配使用的人少得多，因此您會特別容易被鎖定。 若您的威脅模型需要極高的匿名性，請使用 [Tor 瀏覽器](tor.md#tor-browser)。
+[**使用 Tor 的無痕式視窗**](https://support.brave.com/hc/articles/360018121491-What-is-a-Private-Window-with-Tor-Connectivity)讓您可以在無痕式視窗中透過 Tor 網路傳送流量，並存取 .onion 服務，這在某些情況下可能很有用。不過，Brave 對數位指紋辨識的抵抗力**不如** Tor 瀏覽器，而且將 Brave 與 Tor 搭配使用的人少得多，因此您會特別容易被鎖定。若您的威脅模型需要極高的匿名性，請使用 [Tor 瀏覽器](tor.md#tor-browser)。
 
 ##### 資料集合
 
@@ -326,7 +326,7 @@ Brave 允許您在內部網頁 brave://settings/shields/filters 內選擇額外�
 
 #### Web3
 
-Brave 的 Web3 功能可能會增加您的瀏覽器數位指紋與攻擊面。 除非您會使用這些功能，否則應將其停用。
+Brave 的 Web3 功能可能會增加您的瀏覽器數位指紋與攻擊面。除非您會使用這些功能，否則應將其停用。
 
 - 將 *預設以太坊錢包* 設定為 **擴充功能 (無後援)**
 - 將 *預設 Solana 錢包* 設定為 **擴充功能 (無後援)**
@@ -358,13 +358,13 @@ Brave 的 Web3 功能可能會增加您的瀏覽器數位指紋與攻擊面。 �
 
 #### Brave Rewards 與錢包
 
-**Brave Rewards** 可讓您在 Brave 執行某些動作時獲得 Basic Attention Token (BAT) 加密貨幣。 其依賴於由少數供應商託管的帳號與 KYC。 我們不建議使用 BAT 作為[隱私加密貨幣](cryptocurrency.md)，也不建議使用[託管錢包](advanced/payments.md#wallet-custody)，因此我們會建議避免使用此功能。
+**Brave Rewards** 可讓您在 Brave 執行某些動作時獲得 Basic Attention Token (BAT) 加密貨幣。其依賴於由少數供應商託管的帳號與 KYC。我們不建議使用 BAT 作為[隱私加密貨幣](cryptocurrency.md)，也不建議使用[託管錢包](advanced/payments.md#wallet-custody)，因此我們會建議避免使用此功能。
 
 **Brave Wallet** 在您的電腦上本機運作，但不支援任何隱私加密貨幣，因此我們也同樣不建議此功能。
 
 ## 標準
 
-**請注意，我們與推薦的任何項目均無關。**除了[我們的通用標準](about/criteria.md)外，我們還制定了一套明確的要求，以便我們能夠提供客觀的建議。 我們建議您在選擇使用項目之前先熟悉此列表，並進行自己的研究，以確保它是您的正確選擇。
+**請注意，我們與推薦的任何項目均無關。**除了[我們的通用標準](about/criteria.md)外，我們還制定了一套明確的要求，以便我們能夠提供客觀的建議。我們建議您在選擇使用項目之前先熟悉此列表，並進行自己的研究，以確保它是您的正確選擇。
 
 ### 最低合格要求
 
@@ -378,11 +378,11 @@ Brave 的 Web3 功能可能會增加您的瀏覽器數位指紋與攻擊面。 �
 
 ### 最佳情況
 
-最佳情況標準代表我們希望在這個類別的完美項目的應具備的特性。 推薦產品可能沒有此功能，但若有這些功能則會讓排名更為提高。
+最佳情況標準代表我們希望在這個類別的完美項目的應具備的特性。推薦產品可能沒有此功能，但若有這些功能則會讓排名更為提高。
 
 - 應該要內建內容攔截功能。
 - 應該要支援 Cookie 區隔 (就像[多帳號容器](https://support.mozilla.org/kb/containers)一樣)。
-- 應該要支援 漸進式網路應用程式 (PWA)。 PWA 使您能夠將某些網站安裝為在您的電腦上，像本機應用程式一樣運行。 這會比安裝基於 Electron 的應用程式更有優勢，因為 PWA 可以受益於瀏覽器的定期安全更新。
+- 應該要支援 漸進式網路應用程式 (PWA)。 PWA 使您能夠將某些網站安裝為在您的電腦上，像本機應用程式一樣運行。這會比安裝基於 Electron 的應用程式更有優勢，因為 PWA 可以受益於瀏覽器的定期安全更新。
 - 不應該包含對使用者隱私沒有益處的附加功能 (bloatware)。
 - 預設情況下不應收集遙測。
 - 應該要提供開源同步伺服器實作。

@@ -55,7 +55,7 @@ OpenPGP 也不支援[前向保密](https://en.wikipedia.org/wiki/Forward_secrecy
 <div class="admonition warning" markdown>
 <p class="admonition-title">警告</p>
 
-在 Thunderbird 行動版中回覆郵件清單成員時，「回覆」選項也可能包含該郵件清單本身。 更多資訊請參閱 [thunderbird/thunderbird-android #3738](https://github.com/thunderbird/thunderbird-android/issues/3738)。
+在 Thunderbird 行動版中回覆郵件清單成員時，「回覆」選項也可能包含該郵件清單本身。更多資訊請參閱 [thunderbird/thunderbird-android #3738](https://github.com/thunderbird/thunderbird-android/issues/3738)。
 
 </div>
 
@@ -74,7 +74,7 @@ OpenPGP 也不支援[前向保密](https://en.wikipedia.org/wiki/Forward_secrecy
 
 </div>
 
-1. 當您登入某些提供商（例如 Gmail）或透過機構的 SSO 時，可能需要保持勾選此設定。 成功登入後，您應該取消勾選。
+1. 當您登入某些提供商（例如 Gmail）或透過機構的 SSO 時，可能需要保持勾選此設定。成功登入後，您應該取消勾選。
 
 ##### 遙測
 
@@ -82,7 +82,7 @@ OpenPGP 也不支援[前向保密](https://en.wikipedia.org/wiki/Forward_secrecy
 
 #### Thunderbird-user.js （進階）
 
-[`thunderbird-user.js`](https://github.com/HorlogeSkynet/thunderbird-user.js) 是一系列設定選項，目的是儘可能停用 Thunderbird 電腦版 內的網頁瀏覽功能，以減少攻擊面並維護隱私。 有些變更是從 [Arkenfox 專案](desktop-browsers.md#arkenfox-advanced) 中得來的。
+[`thunderbird-user.js`](https://github.com/HorlogeSkynet/thunderbird-user.js) 是一系列設定選項，目的是儘可能停用 Thunderbird 電腦版 內的網頁瀏覽功能，以減少攻擊面並維護隱私。有些變更是從 [Arkenfox 專案](desktop-browsers.md#arkenfox-advanced) 中得來的。
 
 ## 特定平臺
 
@@ -164,7 +164,7 @@ Apple Mail 具備在背景載入遠端內容或完全封鎖遠端內容的功能
 
 ![Kontact 標誌](assets/img/email-clients/kontact.svg){ align=right }
 
-**Kontact** 是 [KDE](https://kde.org) 專案的個人資訊管理員 (PIM) 應用程式。 它提供郵件用戶端、通訊錄、RSS 用戶端和數位筆記等功能。
+**Kontact** 是 [KDE](https://kde.org) 專案的個人資訊管理員 (PIM) 應用程式。它提供郵件用戶端、通訊錄、RSS 用戶端和數位筆記等功能。
 
 [:octicons-home-16: 首頁](https://kontact.kde.org){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://kde.org/privacypolicy-apps){ .card-link title="隱私權政策" }
@@ -212,9 +212,9 @@ Apple Mail 具備在背景載入遠端內容或完全封鎖遠端內容的功能
 
 ![NeoMutt logo](assets/img/email-clients/mutt.svg){ align=right }
 
-**NeoMutt** 是適用於 Linux 和 BSD 的開放原始碼命令行電子郵件閱讀器。 它是 [Mutt](https://zh.wikipedia.org/wiki/Mutt) 的分叉，並增加了一些功能。
+**NeoMutt** 是適用於 Linux 和 BSD 的開放原始碼命令行電子郵件閱讀器。它是 [Mutt](https://zh.wikipedia.org/wiki/Mutt) 的分叉，並增加了一些功能。
 
-NeoMutt 是一個以命令行為基礎的客戶端，其學習曲線非常陡峭。 不過，它具有能高度自定義的特色。
+NeoMutt 是一個以命令行為基礎的客戶端，其學習曲線非常陡峭。不過，它具有能高度自定義的特色。
 
 [:octicons-home-16: 首頁](https://neomutt.org){ .md-button .md-button--primary }
 [:octicons-info-16:](https://neomutt.org/guide){ .card-link title=說明文件}
@@ -233,7 +233,7 @@ NeoMutt 是一個以命令行為基礎的客戶端，其學習曲線非常陡峭
 
 ## 標準
 
-**請注意，我們與推薦的任何項目均無關。**除了[我們的通用標準](about/criteria.md)外，我們還制定了一套明確的要求，以便我們能夠提供客觀的建議。 我們建議您在選擇使用項目之前先熟悉此列表，並進行自己的研究，以確保它是您的正確選擇。
+**請注意，我們與推薦的任何項目均無關。**除了[我們的通用標準](about/criteria.md)外，我們還制定了一套明確的要求，以便我們能夠提供客觀的建議。我們建議您在選擇使用項目之前先熟悉此列表，並進行自己的研究，以確保它是您的正確選擇。
 
 ### 最低合格要求
 
@@ -243,7 +243,7 @@ NeoMutt 是一個以命令行為基礎的客戶端，其學習曲線非常陡峭
 
 ### 最佳情況
 
-最佳情況標準代表我們希望在這個類別的完美項目的應具備的特性。 推薦產品可能沒有此功能，但若有這些功能則會讓排名更為提高。
+最佳情況標準代表我們希望在這個類別的完美項目的應具備的特性。推薦產品可能沒有此功能，但若有這些功能則會讓排名更為提高。
 
 - 必須開放原始碼
 - 必須跨平臺

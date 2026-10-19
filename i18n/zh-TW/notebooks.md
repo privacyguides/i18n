@@ -21,7 +21,7 @@ cover: notebooks.webp
 
 ![Standard Notes 標誌](assets/img/notebooks/standard-notes.svg){ align=right }
 
-**Standard Notes** 是一款簡單且私密的筆記應用程式，具備跨平台同步功能，讓您無縫使用。 它在每個平臺上都採納 E2EE ，並且其電腦版具有強大的主題和自訂編輯器功能。
+**Standard Notes** 是一款簡單且私密的筆記應用程式，具備跨平台同步功能，讓您無縫使用。它在每個平臺上都採納 E2EE ，並且其電腦版具有強大的主題和自訂編輯器功能。
 
 Standard Notes 也做過多次[獨立稽核](https://standardnotes.com/help/2/has-standard-notes-completed-a-third-party-security-audit)。
 
@@ -56,7 +56,7 @@ Standard Notes 已於 2024 年 4 月 10 日 [加入 Proton AG](https://standardn
 
 **Notesnook** 為自由、開放原始碼且易於使用的端到端加密筆記應用程式，專注於保障使用者隱私。
 
-它具備同步功能，讓您能在多個平台上存取筆記。 您可透過其[官方匯入程式](https://importer.notesnook.com)輕鬆從 Evernote、OneNote 與他應用程式匯入您的筆記。
+它具備同步功能，讓您能在多個平台上存取筆記。您可透過其[官方匯入程式](https://importer.notesnook.com)輕鬆從 Evernote、OneNote 與他應用程式匯入您的筆記。
 
 [:octicons-home-16: 首頁](https://notesnook.com){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://notesnook.com/privacy){ .card-link title="隱私權政策" }
@@ -90,7 +90,7 @@ Standard Notes 已於 2024 年 4 月 10 日 [加入 Proton AG](https://standardn
 
 **Joplin** 是一款自由、開放原始碼且功能完整的端到端加密筆記與待辦事項應用程式，可處理許多 Markdown 筆記統整成筆記本與標籤。
 
-其可透過 Nextcloud、Dropbox 等服務同步。 它也可以輕鬆的從 Evernote 和純文本筆記導入。
+其可透過 Nextcloud、Dropbox 等服務同步。它也可以輕鬆的從 Evernote 和純文本筆記導入。
 
 [:octicons-home-16: 首頁](https://joplinapp.org){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://joplinapp.org/privacy){ .card-link title="隱私權政策" }
@@ -114,7 +114,7 @@ Standard Notes 已於 2024 年 4 月 10 日 [加入 Proton AG](https://standardn
 
 </div>
 
-Joplin [不支援](https://github.com/laurent22/joplin/issues/289)為應用程式本身或個別筆記、筆記本設定密碼/PIN 保護。 但是您的資料在傳輸與同步過程中仍會使用主金鑰加密。 2023年1月起，Joplin [支援](https://github.com/laurent22/joplin/commit/f10d9f75b055d84416053fab7e35438f598753e9) Android 與 iOS 的生物辨識應用程式鎖。
+Joplin [不支援](https://github.com/laurent22/joplin/issues/289)為應用程式本身或個別筆記、筆記本設定密碼/PIN 保護。但是您的資料在傳輸與同步過程中仍會使用主金鑰加密。 2023年1月起，Joplin [支援](https://github.com/laurent22/joplin/commit/f10d9f75b055d84416053fab7e35438f598753e9) Android 與 iOS 的生物辨識應用程式鎖。
 
 ### Cryptee
 
@@ -125,7 +125,7 @@ Joplin [不支援](https://github.com/laurent22/joplin/issues/289)為應用程�
 
 **Cryptee** 是一個開源的，基於網頁的 E2EE 文件編輯器和照片儲存應用程式。
 
-Cryptee 提供 100 MB 的免費儲存空間，如果您需要更多，也可選擇付費。 註冊不需要電子郵件或其他個人資訊。
+Cryptee 提供 100 MB 的免費儲存空間，如果您需要更多，也可選擇付費。註冊不需要電子郵件或其他個人資訊。
 
 [:octicons-home-16: 首頁](https://crypt.ee){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://crypt.ee/privacy){ .card-link title="隱私權政策" }
@@ -151,7 +151,7 @@ Cryptee 是 PWA，這代表其可以在所有現代裝置上無縫運作，不�
 
 ![Org-mode logo](assets/img/notebooks/org-mode.svg){ align=right }
 
-**Org-mode** 是GNU Emacs的 [主要模式](https://gnu.org/software/emacs/manual/html_node/elisp/Major-Modes.html)。 Org-mode 用於記錄筆記，維護待辦事項列表，規劃項目以及使用快速有效的純文字系統撰寫文件。 檔案同步可使用 [Syncthing](file-sharing.md#syncthing-p2p) 等工具。
+**Org-mode** 是GNU Emacs的 [主要模式](https://gnu.org/software/emacs/manual/html_node/elisp/Major-Modes.html)。 Org-mode 用於記錄筆記，維護待辦事項列表，規劃項目以及使用快速有效的純文字系統撰寫文件。檔案同步可使用 [Syncthing](file-sharing.md#syncthing-p2p) 等工具。
 
 [:octicons-home-16: 首頁](https://orgmode.org){ .md-button .md-button--primary }
 [:octicons-info-16:](https://orgmode.org/manuals.html){ .card-link title="文件" }
@@ -164,7 +164,7 @@ Cryptee 是 PWA，這代表其可以在所有現代裝置上無縫運作，不�
 
 ## 標準
 
-**請注意，我們與推薦的任何項目均無關。**除了[我們的通用標準](about/criteria.md)外，我們還制定了一套明確的要求，以便我們能夠提供客觀的建議。 我們建議您在選擇使用項目之前先熟悉此列表，並進行自己的研究，以確保它是您的正確選擇。
+**請注意，我們與推薦的任何項目均無關。**除了[我們的通用標準](about/criteria.md)外，我們還制定了一套明確的要求，以便我們能夠提供客觀的建議。我們建議您在選擇使用項目之前先熟悉此列表，並進行自己的研究，以確保它是您的正確選擇。
 
 ### 最低合格要求
 

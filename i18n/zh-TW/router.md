@@ -19,7 +19,7 @@ cover: router.webp
 ![OpenWrt logo](assets/img/router/openwrt.svg#only-light){ align=right }
 ![OpenWrt logo](assets/img/router/openwrt-dark.svg#only-dark){ align=right }
 
-**OpenWrt** 是一個基於 Linux 的操作系統；它主要用於嵌入式設備以路由網路流量。 它包括util-linux ， uClibc和BusyBox。 所有組件都已針對家庭路由器進行了優化。
+**OpenWrt** 是一個基於 Linux 的操作系統；它主要用於嵌入式設備以路由網路流量。它包括util-linux ， uClibc和BusyBox。所有組件都已針對家庭路由器進行了優化。
 
 [:octicons-home-16: 首頁](https://openwrt.org){ .md-button .md-button--primary }
 [:octicons-info-16:](https://openwrt.org/docs/start){ .card-link title=說明文件}
@@ -53,7 +53,7 @@ OPNsense 是從 [pfSense](https://en.wikipedia.org/wiki/PfSense) 另外發展出
 
 ## 標準
 
-**請注意，我們與推薦的任何項目均無關。**除了[我們的通用標準](about/criteria.md)外，我們還制定了一套明確的要求，以便我們能夠提供客觀的建議。 我們建議您在選擇使用項目之前先熟悉此列表，並進行自己的研究，以確保它是您的正確選擇。
+**請注意，我們與推薦的任何項目均無關。**除了[我們的通用標準](about/criteria.md)外，我們還制定了一套明確的要求，以便我們能夠提供客觀的建議。我們建議您在選擇使用項目之前先熟悉此列表，並進行自己的研究，以確保它是您的正確選擇。
 
 - 它必須是開源的。
 - 必須定期更新。

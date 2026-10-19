@@ -11,7 +11,7 @@ cover: dns.webp
 - [:material-server-network: 服務供應商](../basics/common-threats.md#privacy-from-service-providers){ .pg-teal }
 - [:material-account-cash: 監控資本主義](../basics/common-threats.md#surveillance-as-a-business-model){ .pg-brown }
 
-\*\* 自架 DNS\*\* 無須另外安裝客戶端軟體，對於在功能受控制的平台（例如智慧型電視和其他 IoT 裝置）進行 [DNS 過濾](https://cloudflare.com/learning/access-management/what-is-dns-filtering)非常有用。 請記得，除非您進行更進階的設定，不然下列 DNS 解決方案通常都只會對您住家網路或區域網路生效。
+\*\* 自架 DNS\*\* 無須另外安裝客戶端軟體，對於在功能受控制的平台（例如智慧型電視和其他 IoT 裝置）進行 [DNS 過濾](https://cloudflare.com/learning/access-management/what-is-dns-filtering)非常有用。請記得，除非您進行更進階的設定，不然下列 DNS 解決方案通常都只會對您住家網路或區域網路生效。
 
 ## DNS 天坑
 

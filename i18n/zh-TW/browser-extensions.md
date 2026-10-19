@@ -9,11 +9,11 @@ cover: browser-extensions.webp
 
 - [:material-account-cash: 監控資本主義](basics/common-threats.md#surveillance-as-a-business-model){ .pg-brown }
 
-一般來說，建議將瀏覽器擴充套件維持在最低限度，以減少攻擊面。 它們在您的瀏覽器中擁有特殊存取權限，需要您信任開發人員，而且可以讓您 [脫穎而出](https://en.wikipedia.org/wiki/Device_fingerprint#Browser_fingerprint)，並 [削弱](https://groups.google.com/a/chromium.org/g/chromium-extensions/c/0ei-UCHNm34/m/lDaXwQhzBAAJ) 站點隔離。
+一般來說，建議將瀏覽器擴充套件維持在最低限度，以減少攻擊面。它們在您的瀏覽器中擁有特殊存取權限，需要您信任開發人員，而且可以讓您 [脫穎而出](https://en.wikipedia.org/wiki/Device_fingerprint#Browser_fingerprint)，並 [削弱](https://groups.google.com/a/chromium.org/g/chromium-extensions/c/0ei-UCHNm34/m/lDaXwQhzBAAJ) 站點隔離。
 
 然而，有些提供的功能在某些情況下可以克服這些缺點，特別是在[內容攔截](basics/common-threats.md#mass-surveillance-programs)方面。
 
-不要安裝無立即需求的擴充套件，或與瀏覽器功能重複的擴充套件。 例如，[Brave](desktop-browsers.md#brave)使用者不需要安裝uBlock Origin，因為Brave Shields 已經提供了相同的功能。
+不要安裝無立即需求的擴充套件，或與瀏覽器功能重複的擴充套件。例如，[Brave](desktop-browsers.md#brave)使用者不需要安裝uBlock Origin，因為Brave Shields 已經提供了相同的功能。
 
 ## 內容攔截
 
@@ -42,7 +42,7 @@ cover: browser-extensions.webp
 
 </div>
 
-建議遵循[開發人員文檔](https://github.com/gorhill/uBlock/wiki/Blocking-mode)並選擇其中一種「模式」。 額外的過濾器清單可能會影響效能且[可能增加攻擊面](https://portswigger.net/research/ublock-i-exfiltrate-exploiting-ad-blockers-with-css)。
+建議遵循[開發人員文檔](https://github.com/gorhill/uBlock/wiki/Blocking-mode)並選擇其中一種「模式」。額外的過濾器清單可能會影響效能且[可能增加攻擊面](https://portswigger.net/research/ublock-i-exfiltrate-exploiting-ad-blockers-with-css)。
 
 這些是可能需要考慮添加的其他[過濾器列表](https://github.com/gorhill/uBlock/wiki/Dashboard:-Filter-lists)：
 
@@ -61,7 +61,7 @@ uBlock Origin also has a "Lite" version of their extension, which offers a limit
 
 ![uBlock Origin Lite logo](assets/img/browsers/ublock_origin_lite.svg){ align=right }
 
-**uBlock Origin Lite** 是相容於 Manifest V3 的內容攔截器。 與原版的 _uBlock Origin_ 相比，此擴充套件不需要廣泛的「讀取/修改資料」權限即可運作，這降低了在過濾器清單中加入惡意規則時，瀏覽器受到 [:material-bug-outline: 被動攻擊](basics/common-threats.md#security-and-privacy){ .pg-orange } 的風險。
+**uBlock Origin Lite** 是相容於 Manifest V3 的內容攔截器。與原版的 _uBlock Origin_ 相比，此擴充套件不需要廣泛的「讀取/修改資料」權限即可運作，這降低了在過濾器清單中加入惡意規則時，瀏覽器受到 [:material-bug-outline: 被動攻擊](basics/common-threats.md#security-and-privacy){ .pg-orange } 的風險。
 
 [:octicons-repo-16: 儲存庫](https://github.com/uBlockOrigin/uBOL-home#readme){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://github.com/uBlockOrigin/uBOL-home/wiki/Privacy-policy){ .card-link title="隱私權政策" }
@@ -83,9 +83,9 @@ We only recommend this version of uBlock Origin if you never want to add any fil
 
 此版本提供三種封鎖等級：「基本」等級不需要任何特殊權限即可查看和修改網站內容，而「最佳」和「完整」等級確實需要廣泛的權限，但透過附加裝飾規則提供更好的過濾體驗和腳本注入。
 
-如將預設過濾模式設為“最佳”或“完整”，則擴充功能將要求讀取/修改**所有**造訪網站的存取權限。 不過也可以透過調整擴充功能彈出面板中的滑桿，在任何指定網站將設定變更為**個別**網站的「最佳」或「完整」。 當這樣，擴充功能將僅請求對該網站的讀取/修改存取權限。 因此，如想利用 uBlock Origin Lite 的“無權限”配置，應將預設保留為“基本”，並且僅在該級別不夠的網站上將其調整得更高。
+如將預設過濾模式設為“最佳”或“完整”，則擴充功能將要求讀取/修改**所有**造訪網站的存取權限。不過也可以透過調整擴充功能彈出面板中的滑桿，在任何指定網站將設定變更為**個別**網站的「最佳」或「完整」。當這樣，擴充功能將僅請求對該網站的讀取/修改存取權限。因此，如想利用 uBlock Origin Lite 的“無權限”配置，應將預設保留為“基本”，並且僅在該級別不夠的網站上將其調整得更高。
 
-uBlock Origin Lite 僅在擴充功能從瀏覽器的附加元件市場更新時接收封鎖清單更新，而不是按需求接收。 Google 對於過濾規則更新有[加速的審核流程](https://developer.chrome.com/docs/webstore/skip-review)，這表示您通常仍能以 uBlock Origin Lite 選擇發布更新的頻率（歷來是每 2 至 7 天一次）收到過濾清單更新。 不過，僅有所謂的「[安全規則](https://developer.chrome.com/docs/extensions/reference/api/declarativeNetRequest#safe_rules)」可以更新，這可能會限制使用進階技術的清單的更新頻率。
+uBlock Origin Lite 僅在擴充功能從瀏覽器的附加元件市場更新時接收封鎖清單更新，而不是按需求接收。 Google 對於過濾規則更新有[加速的審核流程](https://developer.chrome.com/docs/webstore/skip-review)，這表示您通常仍能以 uBlock Origin Lite 選擇發布更新的頻率（歷來是每 2 至 7 天一次）收到過濾清單更新。不過，僅有所謂的「[安全規則](https://developer.chrome.com/docs/extensions/reference/api/declarativeNetRequest#safe_rules)」可以更新，這可能會限制使用進階技術的清單的更新頻率。
 
 ### AdGuard
 
@@ -118,7 +118,7 @@ We recommend [Safari](mobile-browsers.md#safari-ios) for iOS users, which unfort
 - 不得複製內建瀏覽器或作業系統功能。
 - 必須直接影響用戶隱私，即不得簡單地提供資訊。
 
-[^1]: uBlock Origin Lite **本身**不會消耗任何資源，因為它使用更新的API，瀏覽器能夠本地處理過濾器列表，而不是在擴充功能中執行JavaScript 程式碼來處理過濾。 然而，這種資源優勢僅止於 [理論](https://github.com/uBlockOrigin/uBOL-home/wiki/Frequently-asked-questions-(FAQ)#is-ubol-more-efficient-cpu--and-memory-wise-than-ubo)，因為標準uBlock Origin 的過濾程式碼可能比瀏覽器的本機過濾程式碼更有效。 目前尚未對此進行基準測試。
+[^1]: uBlock Origin Lite **本身**不會消耗任何資源，因為它使用更新的API，瀏覽器能夠本地處理過濾器列表，而不是在擴充功能中執行JavaScript 程式碼來處理過濾。然而，這種資源優勢僅止於 [理論](https://github.com/uBlockOrigin/uBOL-home/wiki/Frequently-asked-questions-(FAQ)#is-ubol-more-efficient-cpu--and-memory-wise-than-ubo)，因為標準uBlock Origin 的過濾程式碼可能比瀏覽器的本機過濾程式碼更有效。目前尚未對此進行基準測試。
 
 [^2]: [Brave](https://brave.com/blog/brave-shields-manifest-v3/) and [Opera](https://xcancel.com/Opera_Security/status/2066543496001888753) have committed to maintain MV2 support for as long as they're able to.
 

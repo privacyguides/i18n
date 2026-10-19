@@ -9,7 +9,7 @@ cover: news-aggregators.webp
 
 - [:material-server-network: 服務提供商](basics/common-threats.md#privacy-from-service-providers ""){.pg-teal}
 
-**新聞聚合器是** 是一種軟體，可將線上報紙、部落格、播客和其他資源的數位內容聚合到一個位置，方便您檢視。 使用它可以讓您隨時掌握自己喜愛的內容。
+**新聞聚合器是** 是一種軟體，可將線上報紙、部落格、播客和其他資源的數位內容聚合到一個位置，方便您檢視。使用它可以讓您隨時掌握自己喜愛的內容。
 
 ## 聚合器客戶端
 
@@ -19,7 +19,7 @@ cover: news-aggregators.webp
 
 ![Akregator logo](assets/img/news-aggregators/akregator.svg){ align=right }
 
-**Akregator** 是 [KDE](https://kde.org) 項目的一部分。 其有快速搜尋、進階封存功能與內部瀏覽器可以輕鬆閱讀新聞。
+**Akregator** 是 [KDE](https://kde.org) 項目的一部分。其有快速搜尋、進階封存功能與內部瀏覽器可以輕鬆閱讀新聞。
 
 [:octicons-home-16: 首頁](https://apps.kde.org/akregator){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://kde.org/privacypolicy-apps){ .card-link title="隱私權政策" }
@@ -42,7 +42,7 @@ cover: news-aggregators.webp
 
 ![NewsFlash 標誌](assets/img/news-aggregators/newsflash.png){ align=right }
 
-**NewsFlash** 是一款 Linux 的開放原始碼、現代化、易於使用的新聞 feed 閱讀程式。 其可以離線使用，或是搭配 [Inoreader](https://inoreader.com) 或 [Nextcloud News](https://apps.nextcloud.com/apps/news) 等服務使用。 它具備搜尋功能，並提供預先準備的來源清單，您可直接將來源加入其中。
+**NewsFlash** 是一款 Linux 的開放原始碼、現代化、易於使用的新聞 feed 閱讀程式。其可以離線使用，或是搭配 [Inoreader](https://inoreader.com) 或 [Nextcloud News](https://apps.nextcloud.com/apps/news) 等服務使用。它具備搜尋功能，並提供預先準備的來源清單，您可直接將來源加入其中。
 
 [:octicons-repo-16: 儲存庫](https://gitlab.com/news-flash/news_flash_gtk#newsflash){ .md-button .md-button--primary }
 [:octicons-code-16:](https://gitlab.com/news-flash/news_flash_gtk){ .card-link title="原始碼" }
@@ -129,7 +129,7 @@ cover: news-aggregators.webp
 
 ![Newsboat logo](assets/img/news-aggregators/newsboat.svg){ align=right }
 
-**Newsboat** 是文字控制界面的RSS/Atom 新聞閱讀器。 分支自 [Newsbeuter](https://en.wikipedia.org/wiki/Newsbeuter) 後，維持積極維護。 非常輕量，適合在 [Secure Shell](https://zh.wikipedia.org/wiki/Secure_Shell) 上使用。
+**Newsboat** 是文字控制界面的RSS/Atom 新聞閱讀器。分支自 [Newsbeuter](https://en.wikipedia.org/wiki/Newsbeuter) 後，維持積極維護。非常輕量，適合在 [Secure Shell](https://zh.wikipedia.org/wiki/Secure_Shell) 上使用。
 
 [:octicons-home-16: 首頁](https://newsboat.org){ .md-button .md-button--primary }
 [:octicons-info-16:](https://newsboat.org/releases/2.38/docs/newsboat.html){ .card-link title="文件" }
@@ -139,7 +139,7 @@ cover: news-aggregators.webp
 
 ## 標準
 
-**請注意，我們與推薦的任何項目均無關。**除了[我們的通用標準](about/criteria.md)外，我們還制定了一套明確的要求，以便我們能夠提供客觀的建議。 我們建議您在選擇使用項目之前先熟悉此列表，並進行自己的研究，以確保它是您的正確選擇。
+**請注意，我們與推薦的任何項目均無關。**除了[我們的通用標準](about/criteria.md)外，我們還制定了一套明確的要求，以便我們能夠提供客觀的建議。我們建議您在選擇使用項目之前先熟悉此列表，並進行自己的研究，以確保它是您的正確選擇。
 
 - 必須是開源軟體。
 - 必須在本地運作，即不得是雲端服務。
@@ -170,7 +170,7 @@ https://reddit.com/r/[SUBREDDIT]/new/.rss
 <div class="admonition example" markdown>
 <p class="admonition-title">範例</p>
 
-欲透過 RSS 客戶端訂閱 YouTube 頻道，首先需要取得該頻道的 [頻道 ID](https://support.google.com/youtube/answer/6180214) 。 頻道代碼可以在您想要訂閱的 YouTube 頻道的擴充說明（即「關於」區塊）中找到：**關於** → **分享頻道** → **複製頻道 ID**。 並替換下方的 [CHANNEL ID]：
+欲透過 RSS 客戶端訂閱 YouTube 頻道，首先需要取得該頻道的 [頻道 ID](https://support.google.com/youtube/answer/6180214) 。頻道代碼可以在您想要訂閱的 YouTube 頻道的擴充說明（即「關於」區塊）中找到：**關於** → **分享頻道** → **複製頻道 ID**。並替換下方的 [CHANNEL ID]：
 
 ```text
 https://youtube.com/feeds/videos.xml?channel_id=[CHANNEL ID]

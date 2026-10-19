@@ -13,24 +13,24 @@ global:
 
 - [:material-account-cash: 監控資本主義](basics/common-threats.md#surveillance-as-a-business-model ""){.pg-brown}
 
-只在您確定不會有不良後果時，才應使用第三方伺服器的加密 **DNS** 來避開基本的 [DNS 封鎖](https://en.wikipedia.org/wiki/DNS_blocking)。 加密的 DNS 無法為您隱藏瀏覽活動。
+只在您確定不會有不良後果時，才應使用第三方伺服器的加密 **DNS** 來避開基本的 [DNS 封鎖](https://en.wikipedia.org/wiki/DNS_blocking)。加密的 DNS 無法為您隱藏瀏覽活動。
 
 [了解更多有關 DNS :material-arrow-right-drop-circle:](advanced/dns-overview.md ""){.md-button}
 
 ## 推薦的提供商
 
-這些是我們喜歡的公共 DNS 解析器，因為它們的隱私和安全特性且它們具備可向全世界提供服務的效能。 根據您所選擇的伺服器，其中部份服務會提供基本的 DNS 層級惡意軟體或追蹤器封鎖功能，但您若希望可以檢視與自訂封鎖的內容，則應使用專用的 DNS 過濾產品。
+這些是我們喜歡的公共 DNS 解析器，因為它們的隱私和安全特性且它們具備可向全世界提供服務的效能。根據您所選擇的伺服器，其中部份服務會提供基本的 DNS 層級惡意軟體或追蹤器封鎖功能，但您若希望可以檢視與自訂封鎖的內容，則應使用專用的 DNS 過濾產品。
 
-| DNS 提供者                                                           | 協議                                                                | 記錄日誌 / 隱私權政策   | [ECS](advanced/dns-overview.md#what-is-edns-client-subnet-ecs) | 過濾                                                                                                         | 已簽署的 Apple 配置描述檔                                                                                                                                                                                                          |
-| ----------------------------------------------------------------- | ----------------------------------------------------------------- | -------------- | -------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [**AdGuard 公共 DNS**](https://adguard-dns.io/en/public-dns.html)   | 明文 <br>DoH/3 <br>DoT <br>DoQ <br>DNSCrypt | 匿名化[^1]        | 匿名化                                                            | 根據伺服器的選擇。 使用的過濾器列表可以在這裡找到。 [:octicons-link-external-24:](https://github.com/AdguardTeam/AdGuardSDNSFilter) | 是 [:octicons-link-external-24:](https://adguard-dns.io/en/blog/encrypted-dns-ios-14.html)                                                                                                                                 |
-| [**Cloudflare**](https://developers.cloudflare.com/1.1.1.1/setup) | 明文 <br>DoH/3 <br>DoT                                  | 匿名化[^2]        | 不採納                                                            | 根據伺服器的選擇。                                                                                                  | 沒有 [:octicons-link-external-24:](https://community.cloudflare.com/t/requesting-1-1-1-1-signed-profiles-for-apple/571846)                                                                                                  |
-| [**Control D 免費 DNS**](https://controld.com/free-dns)             | 明文 <br>DoH/3 <br>DoT <br>DoQ                    | 否[^3]          | 不採納                                                            | 根據伺服器的選擇。                                                                                                  | 是 <br>[:simple-apple: iOS](https://docs.controld.com/docs/ios-platform) <br>[:material-apple-finder: macOS](https://docs.controld.com/docs/macos-platform#manual-setup-profile)                               |
-| [**Quad9**](https://quad9.net)                                    | 明文 <br>DoH/3 <br>DoT <br>DoQ <br>DNSCrypt | Anonymized[^4] | 可選                                                             | 根據伺服器的選擇。 預設包含惡意軟體封鎖。                                                                                      | 是 <br>[:simple-apple: iOS](https://docs.quad9.net/Setup_Guides/iOS/iOS_14_and_later_(Encrypted)) <br>[:material-apple-finder: macOS](https://docs.quad9.net/Setup_Guides/MacOS/Big_Sur_and_later_(Encrypted)) |
+| DNS 提供者                                                           | 協議                                                                | 記錄日誌 / 隱私權政策   | [ECS](advanced/dns-overview.md#what-is-edns-client-subnet-ecs) | 過濾                                                                                                        | 已簽署的 Apple 配置描述檔                                                                                                                                                                                                          |
+| ----------------------------------------------------------------- | ----------------------------------------------------------------- | -------------- | -------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [**AdGuard 公共 DNS**](https://adguard-dns.io/en/public-dns.html)   | 明文 <br>DoH/3 <br>DoT <br>DoQ <br>DNSCrypt | 匿名化[^1]        | 匿名化                                                            | 根據伺服器的選擇。使用的過濾器列表可以在這裡找到。 [:octicons-link-external-24:](https://github.com/AdguardTeam/AdGuardSDNSFilter) | 是 [:octicons-link-external-24:](https://adguard-dns.io/en/blog/encrypted-dns-ios-14.html)                                                                                                                                 |
+| [**Cloudflare**](https://developers.cloudflare.com/1.1.1.1/setup) | 明文 <br>DoH/3 <br>DoT                                  | 匿名化[^2]        | 不採納                                                            | 根據伺服器的選擇。                                                                                                 | 沒有 [:octicons-link-external-24:](https://community.cloudflare.com/t/requesting-1-1-1-1-signed-profiles-for-apple/571846)                                                                                                  |
+| [**Control D 免費 DNS**](https://controld.com/free-dns)             | 明文 <br>DoH/3 <br>DoT <br>DoQ                    | 否[^3]          | 不採納                                                            | 根據伺服器的選擇。                                                                                                 | 是 <br>[:simple-apple: iOS](https://docs.controld.com/docs/ios-platform) <br>[:material-apple-finder: macOS](https://docs.controld.com/docs/macos-platform#manual-setup-profile)                               |
+| [**Quad9**](https://quad9.net)                                    | 明文 <br>DoH/3 <br>DoT <br>DoQ <br>DNSCrypt | Anonymized[^4] | 可選                                                             | 根據伺服器的選擇。預設包含惡意軟體封鎖。                                                                                      | 是 <br>[:simple-apple: iOS](https://docs.quad9.net/Setup_Guides/iOS/iOS_14_and_later_(Encrypted)) <br>[:material-apple-finder: macOS](https://docs.quad9.net/Setup_Guides/MacOS/Big_Sur_and_later_(Encrypted)) |
 
 ## 雲端 DNS 過濾器
 
-這些 DNS 過濾解決方案提供網頁儀表板，讓您能根據實際需求自訂封鎖清單。 這些服務可輕鬆應用於多個網路環境。
+這些 DNS 過濾解決方案提供網頁儀表板，讓您能根據實際需求自訂封鎖清單。這些服務可輕鬆應用於多個網路環境。
 
 ### Control D
 
@@ -89,15 +89,15 @@ global:
 
 </div>
 
-與帳戶一起使用時，NextDNS 將預設啟用洞察和日誌記錄功能（因為某些功能需求）。 可選擇保留日誌的存留時間和儲存位置，或完全停用日誌。
+與帳戶一起使用時，NextDNS 將預設啟用洞察和日誌記錄功能（因為某些功能需求）。可選擇保留日誌的存留時間和儲存位置，或完全停用日誌。
 
-NextDNS 的免費方案功能完備，但不應作為安全防護或其他關鍵過濾應用程式的依賴方案，因為每月超過三十萬次 DNS 查詢後，所有過濾、記錄及其他基於帳號的功能將被停用。 其此後仍可以當作一般 DNS 供應商使用，因此您的裝置將持續運作，並透過 DNS-over-HTTPS (DoH) 進行安全查詢，只是不會套用您的過濾清單。
+NextDNS 的免費方案功能完備，但不應作為安全防護或其他關鍵過濾應用程式的依賴方案，因為每月超過三十萬次 DNS 查詢後，所有過濾、記錄及其他基於帳號的功能將被停用。其此後仍可以當作一般 DNS 供應商使用，因此您的裝置將持續運作，並透過 DNS-over-HTTPS (DoH) 進行安全查詢，只是不會套用您的過濾清單。
 
 NextDNS 也透過 `https://dns.nextdns.io` 提供公開的 DoH 服務，並於 `dns.nextdns.io` 提供 DNS-over-TLS/QUIC (DoT/DoQ)，Firefox 與 Chromium 在預設情況下皆可使用，並遵守其預設無紀錄的[隱私權政策](https://nextdns.io/privacy)。
 
 ## 加密的DNS代理
 
-加密DNS代理軟體提供了一個本地代理，用於將 [個未加密的DNS](advanced/dns-overview.md#unencrypted-dns) 解析器轉發到。 通常，它用於本身無法[加密 DNS](advanced/dns-overview.md#what-is-encrypted-dns) 的平台。
+加密DNS代理軟體提供了一個本地代理，用於將 [個未加密的DNS](advanced/dns-overview.md#unencrypted-dns) 解析器轉發到。通常，它用於本身無法[加密 DNS](advanced/dns-overview.md#what-is-encrypted-dns) 的平台。
 
 ### RethinkDNS
 
@@ -106,7 +106,7 @@ NextDNS 也透過 `https://dns.nextdns.io` 提供公開的 DoH 服務，並於 `
 ![RethinkDNS 標誌](assets/img/android/rethinkdns.svg#only-light){ align=right }
 ![RethinkDNS 標誌](assets/img/android/rethinkdns-dark.svg#only-dark){ align=right }
 
-**RethinkDNS** 是支援 [DoH](advanced/dns-overview.md#dns-over-https-doh)、[DoT](advanced/dns-overview.md#dns-over-tls-dot)、[DNSCrypt](advanced/dns-overview.md#dnscrypt) 與 DNS Proxy 的開放原始碼 Android 客戶端。 它還提供附加功能，例如快取 DNS 回應、本機記錄 DNS 查詢以及使用應用程式作為防火牆。
+**RethinkDNS** 是支援 [DoH](advanced/dns-overview.md#dns-over-https-doh)、[DoT](advanced/dns-overview.md#dns-over-tls-dot)、[DNSCrypt](advanced/dns-overview.md#dnscrypt) 與 DNS Proxy 的開放原始碼 Android 客戶端。它還提供附加功能，例如快取 DNS 回應、本機記錄 DNS 查詢以及使用應用程式作為防火牆。
 
 [:octicons-home-16: 首頁](https://rethinkdns.com){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://rethinkdns.com/privacy){ .card-link title="隱私權政策" }
@@ -158,7 +158,7 @@ Anonymized DNS [不會](advanced/dns-overview.md#why-shouldnt-i-use-encrypted-dn
 
 ## 標準
 
-**請注意，我們與推薦的任何項目均無關。**除了[我們的通用標準](about/criteria.md)外，我們還制定了一套明確的要求，以便我們能夠提供客觀的建議。 我們建議您在選擇使用任何項目之前先熟悉此列表，並進行自己的研究，以確保您的正確選擇。
+**請注意，我們與推薦的任何項目均無關。**除了[我們的通用標準](about/criteria.md)外，我們還制定了一套明確的要求，以便我們能夠提供客觀的建議。我們建議您在選擇使用任何項目之前先熟悉此列表，並進行自己的研究，以確保您的正確選擇。
 
 所有 DNS 產品……
 
@@ -172,13 +172,13 @@ Anonymized DNS [不會](advanced/dns-overview.md#why-shouldnt-i-use-encrypted-dn
     - 如腳註所述，部分服務供應商會為安全研究等目的蒐集查詢資訊，但在此類情況下，該資料不得與任何個人識別資訊（如 IP 位址等）產生關聯。
 - 應支援[任播](https://en.wikipedia.org/wiki/Anycast)或 geo-steering。
 
-[^1]: AdGuard 儲存其 DNS 伺服器的總和效能指標，即對特定伺服器的全部請求數量、被封鎖的請求數量，以及處理請求的速度。 他們亦會保留並儲存過去 24 小時內被查詢的網域名稱資料庫。
+[^1]: AdGuard 儲存其 DNS 伺服器的總和效能指標，即對特定伺服器的全部請求數量、被封鎖的請求數量，以及處理請求的速度。他們亦會保留並儲存過去 24 小時內被查詢的網域名稱資料庫。
 
-    > 我們需要這些資訊來辨識並封鎖新的追蹤器與威脅。 我們也記錄了這些追蹤器被封鎖的次數。 我們需要此資訊以從我們的過濾條件中移除過時的規則。
+    > 我們需要這些資訊來辨識並封鎖新的追蹤器與威脅。我們也記錄了這些追蹤器被封鎖的次數。我們需要此資訊以從我們的過濾條件中移除過時的規則。
 
     AdGuard DNS：[*隱私權政策*](https://adguard-dns.io/en/privacy.html) [^2]: Cloudflare 僅蒐集並儲存傳送至 1.1.1.1 解析器的有限 DNS 查詢資料。 1.1.1.1 解析器服務不會記錄個人資料，且大部分有限的非個人識別查詢資料僅儲存25小時。
 
-    1.1.1.1 公共 DNS 解析器：[*Cloudflare 對隱私的承諾*](https://developers.cloudflare.com/1.1.1.1/privacy/public-dns-resolver) [^3]： Control D 僅會記錄包含自訂 DNS 設定檔的 Premium 解析器的特定帳號資料。 免費解析器不會保留任何資料。
+    1.1.1.1 公共 DNS 解析器：[*Cloudflare 對隱私的承諾*](https://developers.cloudflare.com/1.1.1.1/privacy/public-dns-resolver) [^3]： Control D 僅會記錄包含自訂 DNS 設定檔的 Premium 解析器的特定帳號資料。免費解析器不會保留任何資料。
 
     Control D: [*Privacy Policy*](https://controld.com/privacy) [^4]: Quad9 collects some data for the purposes of threat monitoring and response. 這些資料可能會被重新混合與分享，用來促進其安全研究等目的。 Quad9 不會收集或記錄 IP 位址或其他他們認為可識別個人身份的資料。
 

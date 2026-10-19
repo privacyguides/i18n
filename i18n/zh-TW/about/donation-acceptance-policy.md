@@ -1,11 +1,11 @@
 ---
 title: 捐款接受政策
-description: Privacy Guides 渴望自廣泛的來源獲得捐款，以減少我們對單一捐款者的依賴。 請考慮贊助！
+description: Privacy Guides 渴望自廣泛的來源獲得捐款，以減少我們對單一捐款者的依賴。請考慮贊助！
 ---
 
 Privacy Guides 將在網站上提供公正建議的道德責任看得相當重要。
 
-Privacy Guides 渴望自廣泛的來源獲得捐款，以減少我們對單一捐款者的依賴。 請考慮[捐款](donate.md)！
+Privacy Guides 渴望自廣泛的來源獲得捐款，以減少我們對單一捐款者的依賴。請考慮[捐款](donate.md)！
 
 ## 我們**可以**接受什麼
 
@@ -15,7 +15,7 @@ Privacy Guides 渴望自廣泛的來源獲得捐款，以減少我們對單一�
   - 包括現金、約當現金（支票、匯票、信用卡/借記卡付款），以及加密貨幣。
 - 只有在 MAGIC Grants 董事會同意後，才會接受不動產、個人財產或證券的贈與。
 
-Privacy Guides 只接受此類合法且符合我們政策的贈品。 贈品不得干擾 Privacy Guides 的使命、目的和程序。
+Privacy Guides 只接受此類合法且符合我們政策的贈品。贈品不得干擾 Privacy Guides 的使命、目的和程序。
 
 ## 我們**不會**做的事
 
@@ -29,7 +29,7 @@ Privacy Guides 只接受此類合法且符合我們政策的贈品。 贈品不�
 
 - 接受隱私權相關的公司或非營利組織的捐款。
 - 申請補助計劃。
-- 接受免費版本的軟硬體進行測試和審查，同時注意該版本是否與一般顧客版本有不同體驗。 （[更多資訊](executive-policy.md#ep1-freely-provided-product-samples)）
+- 接受免費版本的軟硬體進行測試和審查，同時注意該版本是否與一般顧客版本有不同體驗。（[更多資訊](executive-policy.md#ep1-freely-provided-product-samples)）
 - 接受有助於我們營運的折扣版軟硬體（例如提供給非營利組織的折扣版軟體）。
 
 ## 對接受捐贈的限制
@@ -51,8 +51,8 @@ Privacy Guides 接受不受限制的捐贈，我們非常感謝您能靈活地�
 
 ## 附加條款
 
-一般而言，Privacy Guides 不會就任何贈予 Privacy Guides 的捐贈向第三方支付傭金或仲介費。 但我們還是有可能在適當的情況下支付傭金和費用，以妥善洽商和接收資產。
+一般而言，Privacy Guides 不會就任何贈予 Privacy Guides 的捐贈向第三方支付傭金或仲介費。但我們還是有可能在適當的情況下支付傭金和費用，以妥善洽商和接收資產。
 
-Privacy Guides 的任何主管、委員會成員、員工或其他代理人都不會因任何人向 Privacy Guides 捐贈的數量或性質而獲得報酬。 若我們聘請法務、會計或其他專業人士，他們的費用和支出將取決於他們處理我們相關工作的時間，而不與他們的聘用費相關的任何特定捐贈相關。
+Privacy Guides 的任何主管、委員會成員、員工或其他代理人都不會因任何人向 Privacy Guides 捐贈的數量或性質而獲得報酬。若我們聘請法務、會計或其他專業人士，他們的費用和支出將取決於他們處理我們相關工作的時間，而不與他們的聘用費相關的任何特定捐贈相關。
 
 Privacy Guides 始終遵守 MAGIC Grants 的捐贈接受政策，可在其網站上查看：<https://magicgrants.org/about/documentation/>

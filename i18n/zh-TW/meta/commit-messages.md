@@ -3,7 +3,7 @@ title: 提交訊息
 description: 網站貢獻者在提出網站變更請求時，關於如何給出有用的 Git 提交訊息指南。
 ---
 
-對於我們的提交訊息，我們遵循 [Conventional Commits](https://conventionalcommits.org) 所提供的樣式。 並非所有這些建議都適合 Privacy Guides，因此我們使用的主要建議有：
+對於我們的提交訊息，我們遵循 [Conventional Commits](https://conventionalcommits.org) 所提供的樣式。並非所有這些建議都適合 Privacy Guides，因此我們使用的主要建議有：
 
 ## 更新現有文字
 
@@ -15,7 +15,7 @@ update: Add mention of security audit (#0000)
 
 ## 新增或移除建議/頁面
 
-此範例用於增加或移除項目。 您可以在下面的提交段落中詳細說明移除的原因。 請注意額外的 `！` ，以引起對重大變更的注意。
+此範例用於增加或移除項目。您可以在下面的提交段落中詳細說明移除的原因。請注意額外的 `！` ，以引起對重大變更的注意。
 
 ```text
 update!: Remove foobar (#0000)
@@ -47,7 +47,7 @@ style: Typo correction in VPN overview
 
 這些提交類型通常用於一般閱聽人看不到的變更。
 
-我們使用 `fix:` 來修正與網站相關的錯誤。 這些東西通常會在 GitHub 上貼上 `bug` 標籤。
+我們使用 `fix:` 來修正與網站相關的錯誤。這些東西通常會在 GitHub 上貼上 `bug` 標籤。
 
 ```text
 fix: Remove broken Invidious embeds (#0000)

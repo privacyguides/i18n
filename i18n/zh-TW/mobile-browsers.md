@@ -42,7 +42,7 @@ schema:
 
 - [:material-account-cash: 監控資本主義](basics/common-threats.md#surveillance-as-a-business-model ""){.pg-brown}
 
-這些是我們目前推薦的**行動瀏覽器**與其設定，適合普通或非匿名的網頁瀏覽。 如果您需要匿名瀏覽網際網路，應該使用 [Tor](tor.md)。
+這些是我們目前推薦的**行動瀏覽器**與其設定，適合普通或非匿名的網頁瀏覽。如果您需要匿名瀏覽網際網路，應該使用 [Tor](tor.md)。
 
 ## Brave
 
@@ -74,7 +74,7 @@ Brave 基於 Chromium 瀏覽器專案構建，因此使用起來應該會感到�
 
 ### 建議的 Brave 設定
 
-Tor 瀏覽器是真正匿名瀏覽網際網路的唯一途徑。 當您使用 Brave 時，我們建議您更改以下設定，以保護您的隱私免受第三者影響，但除了 [Tor 瀏覽器](tor.md#tor-browser)以外的所有瀏覽器都可能以某種方式或另一種方式被 *某人* 追蹤。
+Tor 瀏覽器是真正匿名瀏覽網際網路的唯一途徑。當您使用 Brave 時，我們建議您更改以下設定，以保護您的隱私免受第三者影響，但除了 [Tor 瀏覽器](tor.md#tor-browser)以外的所有瀏覽器都可能以某種方式或另一種方式被 *某人* 追蹤。
 
 === "Android"
 
@@ -86,7 +86,7 @@ Tor 瀏覽器是真正匿名瀏覽網際網路的唯一途徑。 當您使用 Br
 
 #### Brave 防護全域預設設定
 
-Brave 的[防護 (Shields)](https://support.brave.com/hc/articles/360022973471-What-is-Shields) 功能包含一些防指紋識別措施。 我們建議在您訪問的所有網頁上[全域](https://support.brave.com/hc/articles/360023646212-How-do-I-configure-global-and-site-specific-Shields-settings)套用這些設定。
+Brave 的[防護 (Shields)](https://support.brave.com/hc/articles/360022973471-What-is-Shields) 功能包含一些防指紋識別措施。我們建議在您訪問的所有網頁上[全域](https://support.brave.com/hc/articles/360023646212-How-do-I-configure-global-and-site-specific-Shields-settings)套用這些設定。
 
 防護功能的選項可以根據各網站需要依情況降級，但我們建議預設使用以下設定：
 
@@ -106,7 +106,7 @@ Brave 的[防護 (Shields)](https://support.brave.com/hc/articles/360022973471-W
     <details class="warning" markdown>
     <summary>使用預設篩選清單</summary>
 
-    Brave 允許您在 **內容過濾** 選單或瀏覽器內部的 `brave://adblock` 頁面中啟用其他內容篩選清單。 我們建議您不要使用此功能；請保留預設的內容篩選清單。 使用額外的清單將使您從其他 Brave 使用者中脫穎而出，並且如果 Brave 存在漏洞，而您使用的清單之一被加入了惡意規則，也可能會增加攻擊面。
+    Brave 允許您在 **內容過濾** 選單或瀏覽器內部的 `brave://adblock` 頁面中啟用其他內容篩選清單。我們建議您不要使用此功能；請保留預設的內容篩選清單。使用額外的清單將使您從其他 Brave 使用者中脫穎而出，並且如果 Brave 存在漏洞，而您使用的清單之一被加入了惡意規則，也可能會增加攻擊面。
 
     </details>
 
@@ -114,7 +114,7 @@ Brave 的[防護 (Shields)](https://support.brave.com/hc/articles/360022973471-W
 
     </div>
 
-    1. 此選項會停用 JavaScript，這會破壞許多網站。 若您想要避免破壞它們，可以針對個別需要的網站設定例外。只需按一下網址列上的 Shield 圖示，然後在 *進階控制* 下取消勾選此設定即可。
+    1. 此選項會停用 JavaScript，這會破壞許多網站。若您想要避免破壞它們，可以針對個別需要的網站設定例外。只需按一下網址列上的 Shield 圖示，然後在 *進階控制* 下取消勾選此設定即可。
 
 === "iOS"
 
@@ -131,13 +131,13 @@ Brave 的[防護 (Shields)](https://support.brave.com/hc/articles/360022973471-W
     <details class="warning" markdown>
     <summary>使用預設篩選清單</summary>
 
-    Brave 允許您在 **內容過濾** 選單中啟用其他內容篩選清單。 我們建議您不要使用此功能；請保留預設的內容篩選清單。 使用額外的清單將使您從其他 Brave 使用者中脫穎而出，並且如果 Brave 存在漏洞，而您使用的清單之一被加入了惡意規則，也可能會增加攻擊面。
+    Brave 允許您在 **內容過濾** 選單中啟用其他內容篩選清單。我們建議您不要使用此功能；請保留預設的內容篩選清單。使用額外的清單將使您從其他 Brave 使用者中脫穎而出，並且如果 Brave 存在漏洞，而您使用的清單之一被加入了惡意規則，也可能會增加攻擊面。
 
     </details>
 
     </div>
 
-    1. 此選項會停用 JavaScript，這會破壞許多網站。 若您想要避免破壞它們，可以針對個別需要的網站設定例外。只需按一下網址列上的 Shield 圖示，然後在 *進階控制* 下取消勾選此設定即可。
+    1. 此選項會停用 JavaScript，這會破壞許多網站。若您想要避免破壞它們，可以針對個別需要的網站設定例外。只需按一下網址列上的 Shield 圖示，然後在 *進階控制* 下取消勾選此設定即可。
 
 #### 其他隱私設定
 
@@ -156,7 +156,7 @@ Brave 的[防護 (Shields)](https://support.brave.com/hc/articles/360022973471-W
 
     </div>
 
-    1. Brave 在 Android 上[實作的安全瀏覽](https://support.brave.com/hc/en-us/articles/15222663599629-Safe-Browsing-in-Brave) **不會** 像電腦版一樣代理 [安全瀏覽服務的網路請求](https://developers.google.com/safe-browsing/v4/update-api#checking-urls)。 這表示 Google 可能會看到 (並記錄) 您的 IP 位址。 請注意，安全瀏覽功能不適用於沒有 Google Play 服務的 Android 裝置。
+    1. Brave 在 Android 上[實作的安全瀏覽](https://support.brave.com/hc/en-us/articles/15222663599629-Safe-Browsing-in-Brave) **不會** 像電腦版一樣代理 [安全瀏覽服務的網路請求](https://developers.google.com/safe-browsing/v4/update-api#checking-urls)。這表示 Google 可能會看到 (並記錄) 您的 IP 位址。請注意，安全瀏覽功能不適用於沒有 Google Play 服務的 Android 裝置。
 
 === "iOS"
 
@@ -203,7 +203,7 @@ Brave 的[防護 (Shields)](https://support.brave.com/hc/articles/360022973471-W
 
 ![Safari 標誌](assets/img/browsers/safari.svg){ align=right }
 
-**Safari** 是 iOS 的預設瀏覽器。 其包含了多種[隱私功能](https://support.apple.com/zh-tw/guide/iphone/iphb01fc3c85/ios)，例如[智慧追蹤預防](https://webkit.org/blog/7675/intelligent-tracking-prevention)、隱私報告、受隔離且短暫的私密瀏覽標籤、指紋保護（透過向網站呈現簡化版的系統組態，讓更多裝置看起來完全相同），以及指紋隨機化，並針對已付費訂閱 iCloud+ 的使用者提供私密轉送功能。
+**Safari** 是 iOS 的預設瀏覽器。其包含了多種[隱私功能](https://support.apple.com/zh-tw/guide/iphone/iphb01fc3c85/ios)，例如[智慧追蹤預防](https://webkit.org/blog/7675/intelligent-tracking-prevention)、隱私報告、受隔離且短暫的私密瀏覽標籤、指紋保護（透過向網站呈現簡化版的系統組態，讓更多裝置看起來完全相同），以及指紋隨機化，並針對已付費訂閱 iCloud+ 的使用者提供私密轉送功能。
 
 [:octicons-home-16: 首頁](https://www.apple.com/tw/safari/){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://www.apple.com/tw/legal/privacy/data/zh-tw/safari/){ .card-link title="隱私權政策" }
@@ -232,17 +232,17 @@ Brave 的[防護 (Shields)](https://support.brave.com/hc/articles/360022973471-W
 
 - [ ] 停用 **搜尋引擎建議**
 
-此設定會將您在網址列中輸入的內容傳送至 Safari 中設定的搜尋引擎。 停用搜尋建議可讓您更精確地控制您傳送給搜尋引擎供應商的資料。
+此設定會將您在網址列中輸入的內容傳送至 Safari 中設定的搜尋引擎。停用搜尋建議可讓您更精確地控制您傳送給搜尋引擎供應商的資料。
 
 #### 主題類別
 
-Safari 可以使用不同的主題類別來分隔您的瀏覽。 您的所有 Cookie、歷史記錄和網站資料將會針對各個主題類別分開。 您應該為不同用途使用不同的主題類別，例如購物、工作或學校。
+Safari 可以使用不同的主題類別來分隔您的瀏覽。您的所有 Cookie、歷史記錄和網站資料將會針對各個主題類別分開。您應該為不同用途使用不同的主題類別，例如購物、工作或學校。
 
 #### 隱私權與安全性
 
 - [x] 啟用 **防止跨網站追蹤**
 
-這將啟用 WebKit 的[智慧追蹤預防](https://webkit.org/tracking-prevention/#intelligent-tracking-prevention-itp)。 該功能利用裝置上的機器學習來阻止追蹤器，從而防止使用者被追蹤。 智慧追蹤預防可保護您免於許多常見威脅，但不能阻止所有追蹤途徑，因為它被設計為不會干擾網站的可用性。
+這將啟用 WebKit 的[智慧追蹤預防](https://webkit.org/tracking-prevention/#intelligent-tracking-prevention-itp)。該功能利用裝置上的機器學習來阻止追蹤器，從而防止使用者被追蹤。智慧追蹤預防可保護您免於許多常見威脅，但不能阻止所有追蹤途徑，因為它被設計為不會干擾網站的可用性。
 
 - [x] 啟用 **需要 Face ID/Touch ID 來解鎖私密瀏覽**
 
@@ -250,7 +250,7 @@ Safari 可以使用不同的主題類別來分隔您的瀏覽。 您的所有 Co
 
 - [ ] 停用 **詐騙網站警告**
 
-此設定使用 Google 安全瀏覽功能 (中國大陸或香港的使用者則使用騰訊安全瀏覽) 在瀏覽時保護你的安全。 因此，您的 IP 位址可能會被安全瀏覽功能供應商記錄下來。 停用此設定可以防止被記錄，但也可能會更容易受到已知釣魚網站的攻擊。
+此設定使用 Google 安全瀏覽功能 (中國大陸或香港的使用者則使用騰訊安全瀏覽) 在瀏覽時保護你的安全。因此，您的 IP 位址可能會被安全瀏覽功能供應商記錄下來。停用此設定可以防止被記錄，但也可能會更容易受到已知釣魚網站的攻擊。
 
 - [x] 啟用**不安全連線警告**
 
@@ -292,33 +292,33 @@ Apple 的 Safari 隱私權政策規定：
 
 - [ ] 停用 **維護隱私權廣告測量**
 
-廣告點擊測量通常會使用侵犯使用者隱私的追蹤技術。 「[私密點擊測量](https://webkit.org/blog/11529/introducing-private-click-measurement-pcm)」是一項針對 WebKit 的功能和提議的網頁標準，旨在讓廣告商能夠衡量網路活動的效果，同時不損害使用者隱私。
+廣告點擊測量通常會使用侵犯使用者隱私的追蹤技術。「[私密點擊測量](https://webkit.org/blog/11529/introducing-private-click-measurement-pcm)」是一項針對 WebKit 的功能和提議的網頁標準，旨在讓廣告商能夠衡量網路活動的效果，同時不損害使用者隱私。
 
 這個功能本身沒有什麼隱私疑慮，因此您可以選擇不管它，但我們認為，它在私密瀏覽中自動停用反而顯示出應該關閉該功能的理由。
 
 #### 總是保持私密瀏覽
 
-打開 Safari ，然後按一下右下角的標籤按鈕。 然後展開 :material-format-list-bulleted: 標籤頁群組列表。
+打開 Safari ，然後按一下右下角的標籤按鈕。然後展開 :material-format-list-bulleted: 標籤頁群組列表。
 
 - [x] 選擇 **私密瀏覽**
 
-Safari 的私密瀏覽模式提供額外的隱私保護。 私密瀏覽為每個分頁使用新的[短暫](https://developer.apple.com/documentation/foundation/urlsessionconfiguration/1410529-ephemeral)工作階段，這意味著各個分頁之間是隔離的。 隱私瀏覽還有其他較小的隱私優勢，例如在使用 Safari 的翻譯功能時，不會將網頁位址傳送給 Apple。
+Safari 的私密瀏覽模式提供額外的隱私保護。私密瀏覽為每個分頁使用新的[短暫](https://developer.apple.com/documentation/foundation/urlsessionconfiguration/1410529-ephemeral)工作階段，這意味著各個分頁之間是隔離的。隱私瀏覽還有其他較小的隱私優勢，例如在使用 Safari 的翻譯功能時，不會將網頁位址傳送給 Apple。
 
-要注意的是，私密瀏覽不會保存 Cookies 和網站資料，因此無法保持登入狀態。 這可能會帶來不便。
+要注意的是，私密瀏覽不會保存 Cookies 和網站資料，因此無法保持登入狀態。這可能會帶來不便。
 
 #### iCloud 同步
 
-Safari 的歷史記錄、分頁群組、iCloud 分頁和已儲存密碼的同步都採用 E2EE 加密。 但預設情況下，書籤[並非如此](https://support.apple.com/HT202303)。 Apple 可以根據其[隱私權政策](https://apple.com/legal/privacy/en-ww)解密並存取它們。
+Safari 的歷史記錄、分頁群組、iCloud 分頁和已儲存密碼的同步都採用 E2EE 加密。但預設情況下，書籤[並非如此](https://support.apple.com/HT202303)。 Apple 可以根據其[隱私權政策](https://apple.com/legal/privacy/en-ww)解密並存取它們。
 
-您可以為 Safari 書籤和下載啟用 E2EE ，只需啟用「[進階資料保護](https://support.apple.com/HT212520)」即可。 前往 :gear: **Settings** → **iCloud** → **進階資料保護**。
+您可以為 Safari 書籤和下載啟用 E2EE ，只需啟用「[進階資料保護](https://support.apple.com/HT212520)」即可。前往 :gear: **Settings** → **iCloud** → **進階資料保護**。
 
 - [x] 開啟 **進階資料保護**
 
-如果您在不開啟「進階資料保護」的情況下使用 iCloud ，我們亦建議您檢查，確保 Safari 的預設下載位置已設定為裝置上的本機位置。 這些選項可以在 :gear: **設定** → **Safari** → **一般** → **下載項目** 中找到。
+如果您在不開啟「進階資料保護」的情況下使用 iCloud ，我們亦建議您檢查，確保 Safari 的預設下載位置已設定為裝置上的本機位置。這些選項可以在 :gear: **設定** → **Safari** → **一般** → **下載項目** 中找到。
 
 ## 標準
 
-**請注意，我們與推薦的任何項目均無關。**除了[我們的通用標準](about/criteria.md)外，我們還制定了一套明確的要求，以便我們能夠提供客觀的建議。 我們建議您在選擇使用專案前先熟悉此清單，並自行研究，以確保它是適合您的選擇。
+**請注意，我們與推薦的任何項目均無關。**除了[我們的通用標準](about/criteria.md)外，我們還制定了一套明確的要求，以便我們能夠提供客觀的建議。我們建議您在選擇使用專案前先熟悉此清單，並自行研究，以確保它是適合您的選擇。
 
 ### 最低要求
 

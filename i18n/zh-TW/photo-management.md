@@ -10,7 +10,7 @@ cover: photo-management.webp
 - [:material-bug-outline: 被動攻擊](basics/common-threats.md#security-and-privacy){ .pg-orange }
 - [:material-server-network: 服務提供商](basics/common-threats.md#privacy-from-service-providers){ .pg-teal }
 
-大多數的雲端 **照片管理解決方案** ，例如 Google相簿、Flickr 和 Amazon Photos，都無法保護您的照片不被雲端儲存供應商存取。 這些選項可保護您個人相片的隱私，同時允許您僅與家人和信任的人分享。
+大多數的雲端 **照片管理解決方案** ，例如 Google相簿、Flickr 和 Amazon Photos，都無法保護您的照片不被雲端儲存供應商存取。這些選項可保護您個人相片的隱私，同時允許您僅與家人和信任的人分享。
 
 ## Ente Photos
 
@@ -18,7 +18,7 @@ cover: photo-management.webp
 
 ![Ente 標誌](assets/img/photo-management/ente.svg){ align=right }
 
-**Ente Photos**提供端對端加密照片備份服務，支援 iOS 和 Android 的自動備份。 其客戶端與伺服器端的程式碼都完全開放原始碼。 它也可 [自行託管](https://github.com/ente-io/ente/tree/main/server#self-hosting)。
+**Ente Photos**提供端對端加密照片備份服務，支援 iOS 和 Android 的自動備份。其客戶端與伺服器端的程式碼都完全開放原始碼。它也可 [自行託管](https://github.com/ente-io/ente/tree/main/server#self-hosting)。
 
 免費方案要求您每年至少要使用該服務一次，該方案提供 10 GB 儲存空間。
 
@@ -47,7 +47,7 @@ The server-side source code and infrastructure which underpins Ente Photos under
 
 ## 標準
 
-\*\*請注意，我們與推薦的任何專案均無隸屬關係。\*\*除了[我們的通用標準](about/criteria.md)以外，我們還制定了一套明確的要求，讓我們能夠提供客觀的推薦。 我們建議您在選擇使用項目之前先熟悉此列表，並進行自己的研究，以確保它是您的正確選擇。
+\*\*請注意，我們與推薦的任何專案均無隸屬關係。\*\*除了[我們的通用標準](about/criteria.md)以外，我們還制定了一套明確的要求，讓我們能夠提供客觀的推薦。我們建議您在選擇使用項目之前先熟悉此列表，並進行自己的研究，以確保它是您的正確選擇。
 
 ### 最低合格要求
 

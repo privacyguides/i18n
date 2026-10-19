@@ -1,10 +1,10 @@
 ---
 title: Linux 概述
 icon: simple/linux
-description: Linux is an open-source, privacy-focused desktop operating system, but not all distributions are created equal.
+description: Linux 是一種開放原始碼、注重隱私的桌面作業系統，但並非所有的發行版都一樣。
 ---
 
-**Linux** is an open-source, privacy-focused desktop operating system. 面對主流作業系統中普遍存在的遙測和其他侵犯隱私的技術，Linux 桌面仍是那些希望能完全控制電腦的用戶明智選擇。
+**Linux** 是開源、注重隱私的桌面作業系統。面對主流作業系統中普遍存在的遙測和其他侵犯隱私的技術，Linux 桌面仍是那些希望能完全控制電腦的用戶明智選擇。
 
 我們網站通常使用術語 "Linux "來講述桌面Linux 發行版。其它也使用Linux內核的作業系統，如 ChromeOS、Android 和Qubes OS，此處不作討論。
 

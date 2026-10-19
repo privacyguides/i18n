@@ -38,23 +38,23 @@ robots: nofollow, max-snippet:-1, max-image-preview:large
 <div class="admonition warning" markdown>
 <p class="admonition-title">警告</p>
 
-由於 OEM 終止支援，生命週期結束的裝置 (例如 GrapheneOS 的「延伸支援」裝置) 並沒有完整的安全修補程式 (韌體更新)。 無論是否安裝軟體，這些裝置都不能視為完全安全。
+由於 OEM 終止支援，生命週期結束的裝置 (例如 GrapheneOS 的「延伸支援」裝置) 並沒有完整的安全修補程式 (韌體更新)。無論是否安裝軟體，這些裝置都不能視為完全安全。
 
 </div>
 
 ## 一般購買建議
 
-購買裝置時，我們建議盡可能購買全新的裝置。 行動裝置的軟體和韌體只能支援一段有限的時間，因此購買新裝置可以儘可能延長使用期限。
+購買裝置時，我們建議盡可能購買全新的裝置。行動裝置的軟體和韌體只能支援一段有限的時間，因此購買新裝置可以儘可能延長使用期限。
 
-避免向行動網路業者購買手機。 這些產品通常具有**鎖定的開機載入程式**，且不支援 [OEM 解鎖](https://source.android.com/devices/bootloader/locking_unlocking)。 這些有差異的手機會阻止您安裝任何類型的替代 Android 發行套件。
+避免向行動網路業者購買手機。這些產品通常具有**鎖定的開機載入程式**，且不支援 [OEM 解鎖](https://source.android.com/devices/bootloader/locking_unlocking)。這些有差異的手機會阻止您安裝任何類型的替代 Android 發行套件。
 
-從線上購物購買二手手機時要非常**小心**。 務必檢查賣家的聲譽。 如果裝置被盜，就有可能被輸入 [IMEI 資料庫](https://gsma.com/get-involved/working-groups/terminal-steering-group/imei-database)。 您與前一位持有者的活動有關聯也會有風險。
+從線上購物購買二手手機時要非常**小心**。務必檢查賣家的聲譽。如果裝置被盜，就有可能被輸入 [IMEI 資料庫](https://gsma.com/get-involved/working-groups/terminal-steering-group/imei-database)。您與前一位持有者的活動有關聯也會有風險。
 
 更多關於 Android 裝置和作業系統相容性的提示：
 
 - 請勿購買已達使用期限或接近使用期限的裝置；製造商必須提供額外的韌體更新。
-- 請勿購買預載的 LineageOS 或 /e/ OS 手機，或任何沒有適當 [驗證開機](https://source.android.com/security/verifiedboot) 支援和韌體更新的 Android 手機。 這些裝置也無法讓您檢查它們是否被竄改過。
-- 簡而言之，如果這裡沒有列出裝置，可能是有充分理由的。 查看我們的 [論壇](https://discuss.privacyguides.net) 以瞭解詳細資訊！
+- 請勿購買預載的 LineageOS 或 /e/ OS 手機，或任何沒有適當 [驗證開機](https://source.android.com/security/verifiedboot) 支援和韌體更新的 Android 手機。這些裝置也無法讓您檢查它們是否被竄改過。
+- 簡而言之，如果這裡沒有列出裝置，可能是有充分理由的。查看我們的 [論壇](https://discuss.privacyguides.net) 以瞭解詳細資訊！
 
 ## Google Pixel
 
@@ -74,28 +74,28 @@ Google Pixel 手機是我們**唯一**推薦購買的裝置。 Pixel 手機擁�
 
 ### 硬體安全
 
-與大多數其他手機採用的處理器可信執行環境 (TEE) 相比，Titan M2 等安全元件的功能更為有限，因其僅用於機密儲存、硬體驗證及速率限制，而非執行「可信」程式。 沒有安全元件的手機必須使用 TEE 來執行**所有**這些功能，因此會產生較大的攻擊面。
+與大多數其他手機採用的處理器可信執行環境 (TEE) 相比，Titan M2 等安全元件的功能更為有限，因其僅用於機密儲存、硬體驗證及速率限制，而非執行「可信」程式。沒有安全元件的手機必須使用 TEE 來執行**所有**這些功能，因此會產生較大的攻擊面。
 
 Google Pixel 手機使用的 TEE OS 名為 Trusty，與許多其他手機不同，它是[開放原始碼](https://source.android.com/security/trusty#whyTrusty)的。
 
-Pixel 8 系列及更新的產品支援 ARM 的記憶體標記擴充 ([MTE](https://developer.arm.com/documentation/108035/0100/Introduction-to-the-Memory-Tagging-Extension))，這是一種硬體安全強化功能，可大幅降低因記憶體毀損臭蟲造成的漏洞。 原生的 Pixel 作業系統讓您可以透過 Google 的進階保護計畫或開發人員選項，針對支援的應用程式啟用 MTE，但實用性相當有限。 [GrapheneOS](android/distributions.md#grapheneos) 是我們推薦的替代 Android 作業系統，在實作此功能時大幅提升了 MTE 的可用性與適用範圍。
+Pixel 8 系列及更新的產品支援 ARM 的記憶體標記擴充 ([MTE](https://developer.arm.com/documentation/108035/0100/Introduction-to-the-Memory-Tagging-Extension))，這是一種硬體安全強化功能，可大幅降低因記憶體毀損臭蟲造成的漏洞。原生的 Pixel 作業系統讓您可以透過 Google 的進階保護計畫或開發人員選項，針對支援的應用程式啟用 MTE，但實用性相當有限。 [GrapheneOS](android/distributions.md#grapheneos) 是我們推薦的替代 Android 作業系統，在實作此功能時大幅提升了 MTE 的可用性與適用範圍。
 
 ### 購買 Google Pixel
 
 還有一些購買 Google Pixel 的小提醒：
 
-- 如果您想以便宜的價格購買 Pixel 裝置，我們建議您購買「**a**」機型，就在下一款旗艦機發表之後。 通常都會有折扣，因為 Google 要清理庫存。
+- 如果您想以便宜的價格購買 Pixel 裝置，我們建議您購買「**a**」機型，就在下一款旗艦機發表之後。通常都會有折扣，因為 Google 要清理庫存。
 - 考慮實體商店提供的價格優惠方案和特價商品。
-- 查看您所在國家或地區的線上社群特價網站。 這些都可以提醒您有好的入手價格。
-- Google 提供了一份清單，顯示每部裝置的 [支援週期](https://support.google.com/nexus/answer/4457705)。 裝置的每日價格可計算為 <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline" class="tml-display" style="display:inline math;"> <mfrac> <mtext>成本</mtext> <mrow> <mtext>壽命結束日期</mtext> <mo>-</mo> <mtext>目前日期</mtext> </mrow> </mfrac> </math>
+- 查看您所在國家或地區的線上社群特價網站。這些都可以提醒您有好的入手價格。
+- Google 提供了一份清單，顯示每部裝置的 [支援週期](https://support.google.com/nexus/answer/4457705)。裝置的每日價格可計算為 <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline" class="tml-display" style="display:inline math;"> <mfrac> <mtext>成本</mtext> <mrow> <mtext>壽命結束日期</mtext> <mo>-</mo> <mtext>目前日期</mtext> </mrow> </mfrac> </math>
   這表示裝置使用時間越長，每天的成本就越低。
 - 如果您所在的地區沒有 Pixel，[NitroPhone](https://shop.nitrokey.com/shop) 可以全球配送。
 
-使用他們的 [線上安裝程式](https://grapheneos.org/install/web)，在 Pixel 手機上安裝 GrapheneOS 非常簡單。 如果您不習慣自己動手，又願意多花一點錢，可以看看 [NitroPhone](https://shop.nitrokey.com/shop)，因為它們預載了來自聲譽良好的 [Nitrokey](https://nitrokey.com/about) 公司的 GrapheneOS。
+使用他們的 [線上安裝程式](https://grapheneos.org/install/web)，在 Pixel 手機上安裝 GrapheneOS 非常簡單。如果您不習慣自己動手，又願意多花一點錢，可以看看 [NitroPhone](https://shop.nitrokey.com/shop)，因為它們預載了來自聲譽良好的 [Nitrokey](https://nitrokey.com/about) 公司的 GrapheneOS。
 
 ## 標準
 
-\*\*請注意，我們與推薦的任何項目均無關。\*\*除了[我們的通用標準](about/criteria.md)外，我們還制定了一套明確的要求，以便我們能夠提供客觀的建議。 我們建議您在選擇使用專案前先熟悉此清單，並自行研究，以確保它是適合您的選擇。
+\*\*請注意，我們與推薦的任何項目均無關。\*\*除了[我們的通用標準](about/criteria.md)外，我們還制定了一套明確的要求，以便我們能夠提供客觀的建議。我們建議您在選擇使用專案前先熟悉此清單，並自行研究，以確保它是適合您的選擇。
 
 - 必須支援至少一種我們推薦的客製化作業系統。
 - 必須是目前店內銷售的全新產品。

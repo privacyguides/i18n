@@ -20,7 +20,7 @@ cover: cloud.webp
 
 ![PhotoPrism 圖示](../assets/img/self-hosting/photoprism.svg){ align=right }
 
-**PhotoPrism** 是一個管理相片的平台。 它支援相簿同步和分享，以及一系列其他[功能](https://photoprism.app/features)。 它不包含端對端加密，因此最好架設在您信任，且由您控制的伺服器上。
+**PhotoPrism** 是一個管理相片的平台。它支援相簿同步和分享，以及一系列其他[功能](https://photoprism.app/features)。它不包含端對端加密，因此最好架設在您信任，且由您控制的伺服器上。
 
 [:octicons-home-16: 首頁](https://photoprism.app){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://photoprism.app/privacy){ .card-link title="隱私權政策" }
@@ -37,7 +37,7 @@ cover: cloud.webp
 
 ![FreedomBox 圖示](../assets/img/self-hosting/freedombox.svg){ align=right }
 
-**FreedomBox** 是一套設計在[單板電腦（SBC）](https://en.wikipedia.org/wiki/Single-board_computer)上運作的作業系統。 其目的是讓架設檔案分享之類的伺服器應用程式變得容易。
+**FreedomBox** 是一套設計在[單板電腦（SBC）](https://en.wikipedia.org/wiki/Single-board_computer)上運作的作業系統。其目的是讓架設檔案分享之類的伺服器應用程式變得容易。
 
 [:octicons-home-16: 首頁](https://freedombox.org){ .md-button .md-button--primary }
 [:octicons-info-16:](https://wiki.debian.org/FreedomBox/Manual){ .card-link title="文件" }
@@ -76,6 +76,6 @@ cover: cloud.webp
 <div class="admonition danger" markdown>
 <p class="admonition-title">Danger "危險"</p>
 
-我們不建議使用 Nextcloud [E2EE App](https://apps.nextcloud.com/apps/end_to_end_encryption) ，因為它可能會導致資料丟失；目前它仍是高度實驗性，未達穩定品質。 因此，我們不推薦第三方 Nextcloud 提供商。
+我們不建議使用 Nextcloud [E2EE App](https://apps.nextcloud.com/apps/end_to_end_encryption) ，因為它可能會導致資料丟失；目前它仍是高度實驗性，未達穩定品質。因此，我們不推薦第三方 Nextcloud 提供商。
 
 </div>

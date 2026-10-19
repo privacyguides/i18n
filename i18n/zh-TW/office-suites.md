@@ -9,7 +9,7 @@ cover: office-suites.webp
 
 - [:material-server-network: 服務提供商](basics/common-threats.md#privacy-from-service-providers){ .pg-teal }
 
-選擇不需要登入帳戶即可使用完整功能的**辦公軟體套件**。 這裡列出的工具可以離線使用，而且可以合理地取代 Microsoft Office 來滿足大多數的需求。
+選擇不需要登入帳戶即可使用完整功能的**辦公軟體套件**。這裡列出的工具可以離線使用，而且可以合理地取代 Microsoft Office 來滿足大多數的需求。
 
 ## LibreOffice
 
@@ -68,7 +68,7 @@ cover: office-suites.webp
 
 ## 標準
 
-\*\*請注意，我們與推薦的任何項目均無關。\*\*除了[我們的通用標準](about/criteria.md)外，我們還制定了一套明確的要求，以便我們能夠提供客觀的建議。 我們建議您在選擇使用專案前先熟悉此清單，並自己進行研究，以確保它是適合您的選擇。
+\*\*請注意，我們與推薦的任何項目均無關。\*\*除了[我們的通用標準](about/criteria.md)外，我們還制定了一套明確的要求，以便我們能夠提供客觀的建議。我們建議您在選擇使用專案前先熟悉此清單，並自己進行研究，以確保它是適合您的選擇。
 
 - 必須跨平台。
 - 必須是開放原始碼軟體。

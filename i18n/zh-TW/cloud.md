@@ -2,7 +2,7 @@
 meta_title: "最佳私密和安全的雲端儲存服務提供商 - Privacy Guides"
 title: 雲端儲存
 icon: material/file-cloud
-description: 許多雲端儲存服務供應商需要您相信他們不會查看您的檔案。 這些都是私密替代品！
+description: 許多雲端儲存服務供應商需要您相信他們不會查看您的檔案。這些都是私密替代品！
 cover: cloud.webp
 ---
 
@@ -11,9 +11,9 @@ cover: cloud.webp
 - [:material-bug-outline: 被動攻擊](basics/common-threats.md#security-and-privacy ""){.pg-orange}
 - [:material-server-network: 服務提供商](basics/common-threats.md#privacy-from-service-providers ""){.pg-teal}
 
-**許多雲端儲存提供商** 要求您完全信任他們不會查看您的檔案。 下列替代方案透過實作安全的端到端加密，消除了對信任的需求。
+**許多雲端儲存提供商** 要求您完全信任他們不會查看您的檔案。下列替代方案透過實作安全的端到端加密，消除了對信任的需求。
 
-如果這些替代方案不符合您的需求，建議您考慮使用其他雲端提供商的加密軟體，例如 [Cryptomator](encryption.md#cryptomator-cloud) 。 把 Cryptomator 結合在 **任一種** 雲服務商(包含這裡推薦的) 也是好方法，可減低某服務商原生客戶端加密漏洞之風險。
+如果這些替代方案不符合您的需求，建議您考慮使用其他雲端提供商的加密軟體，例如 [Cryptomator](encryption.md#cryptomator-cloud) 。把 Cryptomator 結合在 **任一種** 雲服務商(包含這裡推薦的) 也是好方法，可減低某服務商原生客戶端加密漏洞之風險。
 
 <details class="admonition info" markdown>
 <summary>尋找 Nextcloud?</summary>
@@ -84,7 +84,7 @@ Tresorit 已獲得多項獨立安全稽核：
     - Computest 發現了兩個已解決的漏洞。
 - [2019年](https://tresorit.com/blog/ernst-young-review-verifies-tresorits-security-architecture)：安永的滲透測試。
     - 該檢測分析了 Tresorit 完整源代碼，並驗證了落實 Tresorit [白皮書](https://prodfrontendcdn.azureedge.net/202208011608/tresorit-encryption-whitepaper.pdf)中描述的概念。
-    - 安永另外還測試了網路、行動裝置與桌面客戶端。 他們的結論是：
+    - 安永另外還測試了網路、行動裝置與桌面客戶端。他們的結論是：
 
         > 測試結果未發現任何偏離 Tresorit 資料保密性聲明的情況。
 
@@ -94,9 +94,9 @@ Tresorit 已獲得多項獨立安全稽核：
 
 ![Peergos logo](assets/img/cloud/peergos.svg){ align=right }
 
-**Peergos** 是去中心化協定的儲存、社交媒體和應用程式開源平台。 其提供了安全且私人的空間，讓使用者可以儲存、分享、檢視與編輯他們的照片、影片、文件等等。
+**Peergos** 是去中心化協定的儲存、社交媒體和應用程式開源平台。其提供了安全且私人的空間，讓使用者可以儲存、分享、檢視與編輯他們的照片、影片、文件等等。
 
-Peergos 採用抗量子加密的端到端加密技術保護您的檔案，確保所有檔案相關資料皆保持私密。 其也可以[自行架設](https://book.peergos.org/features/self)。
+Peergos 採用抗量子加密的端到端加密技術保護您的檔案，確保所有檔案相關資料皆保持私密。其也可以[自行架設](https://book.peergos.org/features/self)。
 
 [:octicons-home-16: 首頁](https://peergos.org){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://peergos.net/privacy.html){ .card-link title="隱私權政策" }
@@ -120,13 +120,13 @@ Peergos 採用抗量子加密的端到端加密技術保護您的檔案，確保
 
 Peergos 建基於[星際檔案系統 (IPFS)](https://ipfs.tech)，這是點對點的架構，可防止[:material-close-outline:審查](basics/common-threats.md#avoiding-censorship ""){.pg-blue-gray}。
 
-Peergos 的客戶端、伺服器與命令列介面都是從相同的二進位檔執行。 此外，Peergos 也包含[同步引擎](https://book.peergos.org/features/sync)（可透過原生應用程式存取），用來雙向同步本機資料夾與 Peergos 資料夾，以及 [WebDAV 橋接](https://book.peergos.org/features/webdav)，讓其他應用程式存取您的 Peergos 儲存空間。 欲了解 Peergos 的完整功能概覽，請參閱其官方文件。
+Peergos 的客戶端、伺服器與命令列介面都是從相同的二進位檔執行。此外，Peergos 也包含[同步引擎](https://book.peergos.org/features/sync)（可透過原生應用程式存取），用來雙向同步本機資料夾與 Peergos 資料夾，以及 [WebDAV 橋接](https://book.peergos.org/features/webdav)，讓其他應用程式存取您的 Peergos 儲存空間。欲了解 Peergos 的完整功能概覽，請參閱其官方文件。
 
-Peergos 於 2024 年 11 月接受 Radically Open Security 的[稽核](https://peergos.org/posts/security-audit-2024)，所有問題均已修正。 他們先前曾接受 Cure53 的[稽核](https://cure53.de/pentest-report_peergos.pdf)，所有發現的問題隨後都修復了。
+Peergos 於 2024 年 11 月接受 Radically Open Security 的[稽核](https://peergos.org/posts/security-audit-2024)，所有問題均已修正。他們先前曾接受 Cure53 的[稽核](https://cure53.de/pentest-report_peergos.pdf)，所有發現的問題隨後都修復了。
 
 ## 標準
 
-**請注意，我們與推薦的任何項目均無關。**除了[我們的通用標準](about/criteria.md)外，我們還制定了一套明確的要求，以便我們能夠提供客觀的建議。 我們建議您在選擇使用項目之前先熟悉此列表，並進行自己的研究，以確保它是您的正確選擇。
+**請注意，我們與推薦的任何項目均無關。**除了[我們的通用標準](about/criteria.md)外，我們還制定了一套明確的要求，以便我們能夠提供客觀的建議。我們建議您在選擇使用項目之前先熟悉此列表，並進行自己的研究，以確保它是您的正確選擇。
 
 ### 最低合格要求
 
@@ -138,7 +138,7 @@ Peergos 於 2024 年 11 月接受 Radically Open Security 的[稽核](https://pe
 
 ### 最佳情況
 
-最佳情況標準代表我們希望在這個類別的完美項目的應具備的特性。 推薦產品可能沒有此功能，但若有這些功能則會讓排名更為提高。
+最佳情況標準代表我們希望在這個類別的完美項目的應具備的特性。推薦產品可能沒有此功能，但若有這些功能則會讓排名更為提高。
 
 - 客戶端應是開源的。
 - 客戶端應由獨立第三方進行全面稽核。

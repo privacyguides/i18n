@@ -133,7 +133,7 @@ schema:
 <div class="admonition info" markdown>
 <p class="admonition-title">資訊</p>
 
-瀏覽器和作業系統所內建的密碼管理器常常不如專用密碼管理器軟體。 內建密碼管理器的優點在於與原生軟體的良好整合，但它通常功能較少，而且缺乏獨立產品所具有的隱私和安全特點。
+瀏覽器和作業系統所內建的密碼管理器常常不如專用密碼管理器軟體。內建密碼管理器的優點在於與原生軟體的良好整合，但它通常功能較少，而且缺乏獨立產品所具有的隱私和安全特點。
 
 舉例來說，Microsoft Edge 的密碼管理程式完全不提供端到端加密。 Google的密碼管理員則 [須自行啟用](https://support.google.com/accounts/answer/11350823) E2EE，而 [Apple](https://support.apple.com/HT202303) 預設提供E2EE。
 
@@ -149,7 +149,7 @@ schema:
 
 ![Bitwarden logo](assets/img/password-management/bitwarden.svg){ align=right }
 
-**Bitwarden** 是一個免費的開源密碼與金鑰管理器。 它旨在解決個人、團隊和商業組織的密碼管理問題。 Bitwarden 是最佳和最安全的解決方案之一，可儲存所有登錄名和密碼，同時方便地在所有設備之間保持同步。
+**Bitwarden** 是一個免費的開源密碼與金鑰管理器。它旨在解決個人、團隊和商業組織的密碼管理問題。 Bitwarden 是最佳和最安全的解決方案之一，可儲存所有登錄名和密碼，同時方便地在所有設備之間保持同步。
 
 [:octicons-home-16: 首頁](https://bitwarden.com){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://bitwarden.com/privacy){ .card-link title="隱私權政策" }
@@ -175,7 +175,7 @@ schema:
 
 </div>
 
-Bitwarden 預設使用 [PBKDF2](https://bitwarden.com/help/kdf-algorithms/#pbkdf2) 作為其 金鑰衍生函式(KDF) 演算法。 它也提供更安全的 [Argon2](https://bitwarden.com/help/kdf-algorithms/#argon2id) 作為可選方案。 您可以在網頁保管箱中變更帳號的 KDF 演算法：
+Bitwarden 預設使用 [PBKDF2](https://bitwarden.com/help/kdf-algorithms/#pbkdf2) 作為其 金鑰衍生函式(KDF) 演算法。它也提供更安全的 [Argon2](https://bitwarden.com/help/kdf-algorithms/#argon2id) 作為可選方案。您可以在網頁保管箱中變更帳號的 KDF 演算法：
 
 - [x] 選取**設定 → 安全性 → 金鑰 → KDF 演算法 → Argon2id**
 
@@ -187,7 +187,7 @@ Bitwarden 伺服器端代碼是 [開源的](https://github.com/bitwarden/server)
 
 ![Proton Pass 標誌](assets/img/password-management/protonpass.svg){ align=right }
 
-**Proton Pass** 是由 [Proton Mail](email.md#protonmail) 背後的團隊 Proton 所開發的開放原始碼、端對端加密的密碼管理器。 它能安全地儲存您的登入憑證、產生獨特的電子郵件別名，並支援儲存密碼。
+**Proton Pass** 是由 [Proton Mail](email.md#protonmail) 背後的團隊 Proton 所開發的開放原始碼、端對端加密的密碼管理器。它能安全地儲存您的登入憑證、產生獨特的電子郵件別名，並支援儲存密碼。
 
 [:octicons-home-16: 首頁](https://proton.me/pass){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://proton.me/pass/privacy-policy){ .card-link title="隱私權政策" }
@@ -211,7 +211,7 @@ Bitwarden 伺服器端代碼是 [開源的](https://github.com/bitwarden/server)
 
 隨著 2022 年 4 月收購 SimpleLogin，Proton 提供了「隱藏我的電子郵件」功能，可建立 10 個別名（免費方案）或無限個別名（付費方案）。
 
-Proton Pass 行動應用程式和瀏覽器擴充功能於 2023 年 5 月和 6 月接受了 Cure53 的審核。 安全分析公司的結論為：
+Proton Pass 行動應用程式和瀏覽器擴充功能於 2023 年 5 月和 6 月接受了 Cure53 的審核。安全分析公司的結論為：
 
 > Proton Pass 應用程式和元件在安全性方面給人留下相當正面的印象。
 
@@ -223,7 +223,7 @@ Proton Pass 行動應用程式和瀏覽器擴充功能於 2023 年 5 月和 6 �
 
 ![1Password 標誌](assets/img/password-management/1password.svg){ align=right }
 
-**1Password** 是強調安全性與易用性的密碼管理器，可讓您將密碼、金鑰、信用卡、軟體許可證以及其他任何敏感資訊儲存於安全的數位保險庫中。 您的保管庫託管在 1Password 伺服器，費用為 [每月收取](https://1password.com/sign-up/)。
+**1Password** 是強調安全性與易用性的密碼管理器，可讓您將密碼、金鑰、信用卡、軟體許可證以及其他任何敏感資訊儲存於安全的數位保險庫中。您的保管庫託管在 1Password 伺服器，費用為 [每月收取](https://1password.com/sign-up/)。
 
 1Password 定期 [接受審計](https://support.1password.com/security-assessments/) 並提供卓越的客戶支援。 1Password 是封閉原始碼；但是，產品的安全性已徹底記錄在他們的 [安全白皮書](https://1passwordstatic.com/files/security/1password-white-paper.pdf)。
 
@@ -249,9 +249,9 @@ Proton Pass 行動應用程式和瀏覽器擴充功能於 2023 年 5 月和 6 �
 
 </div>
 
-過去 1Password 僅為 macOS 和 iOS 的用戶提供最佳的密碼管理器用戶體驗，不過它現在已在所有平臺上實現了同等優秀的用戶體驗。 1Password 的客戶端具備眾多專為家庭使用者與非技術人員設計的功能，例如直覺化的使用者介面以提升操作便利性與導覽體驗，同時也提供進階功能。 值得注意的是，1Password 的幾乎所有功能都可在其原生行動或桌面用戶端中使用。
+過去 1Password 僅為 macOS 和 iOS 的用戶提供最佳的密碼管理器用戶體驗，不過它現在已在所有平臺上實現了同等優秀的用戶體驗。 1Password 的客戶端具備眾多專為家庭使用者與非技術人員設計的功能，例如直覺化的使用者介面以提升操作便利性與導覽體驗，同時也提供進階功能。值得注意的是，1Password 的幾乎所有功能都可在其原生行動或桌面用戶端中使用。
 
-您的 1Password 儲存庫使用您的主密碼和隨機化的 34 個字元安全金鑰來保護，以加密您在其伺服器上的資料。 此安全金鑰為您的資料添加了一層保護，因為無論您的主密碼如何，資料都受到高熵保護。 許多其他密碼管理器解決方案完全依賴於您的主密碼的強度來保護您的數據。
+您的 1Password 儲存庫使用您的主密碼和隨機化的 34 個字元安全金鑰來保護，以加密您在其伺服器上的資料。此安全金鑰為您的資料添加了一層保護，因為無論您的主密碼如何，資料都受到高熵保護。許多其他密碼管理器解決方案完全依賴於您的主密碼的強度來保護您的數據。
 
 ### Psono
 
@@ -259,7 +259,7 @@ Proton Pass 行動應用程式和瀏覽器擴充功能於 2023 年 5 月和 6 �
 
 ![Psono logo](assets/img/password-management/psono.svg){ align=right }
 
-**Psono** 是來自德國的免費開源密碼管理器，專注於團隊的密碼管理。 Psono支援安全分享密碼、檔案、書籤和電子郵件。 所有機密都受到主密碼的保護。
+**Psono** 是來自德國的免費開源密碼管理器，專注於團隊的密碼管理。 Psono支援安全分享密碼、檔案、書籤和電子郵件。所有機密都受到主密碼的保護。
 
 [:octicons-home-16: 首頁](https://psono.com){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://psono.com/privacy-policy){ .card-link title="隱私權政策" }
@@ -285,7 +285,7 @@ Psono 為其產品提供廣泛的說明文件。 Psono 的網路用戶端可以�
 
 ### 標準
 
-**請注意，我們與推薦的任何項目均無關。**除了[我們的通用標準](about/criteria.md)外，我們還制定了一套明確的要求，以便我們能夠提供客觀的建議。 我們建議您在選擇使用項目之前先熟悉此列表，並進行自己的研究，以確保它是您的正確選擇。
+**請注意，我們與推薦的任何項目均無關。**除了[我們的通用標準](about/criteria.md)外，我們還制定了一套明確的要求，以便我們能夠提供客觀的建議。我們建議您在選擇使用項目之前先熟悉此列表，並進行自己的研究，以確保它是您的正確選擇。
 
 #### 最低合格要求
 
@@ -297,7 +297,7 @@ Psono 為其產品提供廣泛的說明文件。 Psono 的網路用戶端可以�
 
 #### 最佳情況
 
-最佳情況標準代表我們希望在這個類別的完美項目的應具備的特性。 推薦產品可能沒有此功能，但若有這些功能則會讓排名更為提高。
+最佳情況標準代表我們希望在這個類別的完美項目的應具備的特性。推薦產品可能沒有此功能，但若有這些功能則會讓排名更為提高。
 
 - 遙測應選擇加入（預設情況下禁用）或根本不收集。
 - 應該是開源的，並且可以合理地自主託管。
@@ -334,7 +334,7 @@ Psono 為其產品提供廣泛的說明文件。 Psono 的網路用戶端可以�
 
 </div>
 
-KeePassXC 將其匯出資料儲存為 [CSV](https://en.wikipedia.org/wiki/Comma-separated_values) 檔案。 如果您將此檔案匯入其他密碼管理器，可能會造成資料遺失的問題。 我們建議您手動檢查每個記錄。
+KeePassXC 將其匯出資料儲存為 [CSV](https://en.wikipedia.org/wiki/Comma-separated_values) 檔案。如果您將此檔案匯入其他密碼管理器，可能會造成資料遺失的問題。我們建議您手動檢查每個記錄。
 
 ### KeePassDX (Android)
 
@@ -367,7 +367,7 @@ KeePassXC 將其匯出資料儲存為 [CSV](https://en.wikipedia.org/wiki/Comma-
 
 ![KeePassium 標誌](assets/img/password-management/keepassium.svg){ align=right }
 
-KeePassium 是一款由 KeePassium Labs 開發的商業化開放原始碼密碼管理程式，可與其他 KeePass 應用程式相容。 它提供自動填寫支援、密碼金鑰管理、透過[許多雲端儲存服務供應商](https://support.keepassium.com/kb/sync)實現的自動雙向同步等功能。
+KeePassium 是一款由 KeePassium Labs 開發的商業化開放原始碼密碼管理程式，可與其他 KeePass 應用程式相容。它提供自動填寫支援、密碼金鑰管理、透過[許多雲端儲存服務供應商](https://support.keepassium.com/kb/sync)實現的自動雙向同步等功能。
 
 [:material-star-box: 閱讀我們最新的 KeePassium 審閱。](https://www.privacyguides.org/articles/2025/05/13/keepassium-review)
 
@@ -396,7 +396,7 @@ KeePassium 的 iOS 應用程式已於2024年10月通過 Cure53 的[稽核](https
 
 ![Gopass 標誌](assets/img/password-management/gopass.svg){ align=right }
 
-**Gopass** 是用 Go 編寫的命令列極簡密碼管理程式。 它可在 腳本應用程式("scripting applications") 中使用，且支援所有主要的桌面和伺服器作業系統。
+**Gopass** 是用 Go 編寫的命令列極簡密碼管理程式。它可在 腳本應用程式("scripting applications") 中使用，且支援所有主要的桌面和伺服器作業系統。
 
 [:octicons-home-16: 首頁](https://gopass.pw){ .md-button .md-button--primary }
 [:octicons-info-16:](https://github.com/gopasspw/gopass/tree/master/docs){ .card-link title="說明文件" }
@@ -417,6 +417,6 @@ KeePassium 的 iOS 應用程式已於2024年10月通過 Cure53 的[稽核](https
 
 ### 標準
 
-**請注意，我們與推薦的任何項目均無關。**除了[我們的通用標準](about/criteria.md)外，我們還制定了一套明確的要求，以便我們能夠提供客觀的建議。 我們建議您在選擇使用項目之前先熟悉此列表，並進行自己的研究，以確保它是您的正確選擇。
+**請注意，我們與推薦的任何項目均無關。**除了[我們的通用標準](about/criteria.md)外，我們還制定了一套明確的要求，以便我們能夠提供客觀的建議。我們建議您在選擇使用項目之前先熟悉此列表，並進行自己的研究，以確保它是您的正確選擇。
 
 - 必須跨平台。

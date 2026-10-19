@@ -29,22 +29,22 @@ schema:
 - [:material-eye-outline: 大規模監控](basics/common-threats.md#mass-surveillance-programs ""){.pg-blue}
 - [:material-close-outline: 審查](basics/common-threats.md#avoiding-censorship ""){.pg-blue-gray}
 
-**Tor** 網路是一組由志願者操作的伺服器，可讓您免費連線，並改善您的隱私權和安全性。 個人和組織還可以通過 Tor 網路與“.onion 隱藏服務”分享資訊，而不會侵犯他們的隱私。 很難阻止和追蹤 Tor 流量，因此它是一種有效的審查規避工具。
+**Tor** 網路是一組由志願者操作的伺服器，可讓您免費連線，並改善您的隱私權和安全性。個人和組織還可以通過 Tor 網路與“.onion 隱藏服務”分享資訊，而不會侵犯他們的隱私。很難阻止和追蹤 Tor 流量，因此它是一種有效的審查規避工具。
 
 [詳細的 Tor 概覽 :material-arrow-right-drop-circle:](advanced/tor-overview.md ""){.md-button.md-button--primary} [:material-movie-open-play-outline: 影片：為何您需要 Tor](https://www.privacyguides.org/videos/2025/03/02/why-you-need-tor ""){.md-button}
 
 <div class="admonition tip" markdown>
 <p class="admonition-title">溫馨提示</p>
 
-在連接 Tor 之前，請先已閱讀[本站相關介紹概述](advanced/tor-overview.md)，了解 Tor 是什麼以及如何安全地連接使用。 通常建議透過值得信賴的 [VPN 供應商](vpn.md) 來連接 Tor，但其操作必須**正確**，以避免降低匿名性。
+在連接 Tor 之前，請先已閱讀[本站相關介紹概述](advanced/tor-overview.md)，了解 Tor 是什麼以及如何安全地連接使用。通常建議透過值得信賴的 [VPN 供應商](vpn.md) 來連接 Tor，但其操作必須**正確**，以避免降低匿名性。
 
 </div>
 
 從裝置連線到 Tor 網路的方式有多種，最常用的是 **Tor 瀏覽器** ，它是 Firefox 的分叉，專為在電腦和Android上 [:material-incognito: 匿名](basics/common-threats.md#anonymity-vs-privacy ""){.pg-purple} 瀏覽而設計
 
-這些應用程式各有優劣；要做出判斷，關鍵在於您的威脅模型。 若您只是偶爾使用 Tor 的使用者，且不擔心 ISP 蒐集對您不利的證據，那麼使用如 [Onion Browser](#onion-browser-ios) 這類行動瀏覽器應用程式來存取 Tor 網路，應該就足夠了。 越多人使用 Tor 有助於減少 Tor 的不良印記，降低 ISP 和政府可能編制的「Tor 用戶清單」內容。
+這些應用程式各有優劣；要做出判斷，關鍵在於您的威脅模型。若您只是偶爾使用 Tor 的使用者，且不擔心 ISP 蒐集對您不利的證據，那麼使用如 [Onion Browser](#onion-browser-ios) 這類行動瀏覽器應用程式來存取 Tor 網路，應該就足夠了。越多人使用 Tor 有助於減少 Tor 的不良印記，降低 ISP 和政府可能編制的「Tor 用戶清單」內容。
 
-如果更完全的匿名至關重要，則應 **僅使用** 桌面版的 Tor 客戶端應用，最好再加上[Whonix](desktop.md#whonix) + [Qubes](desktop.md#qubes-os) 一起搭配使用。 行動瀏覽器在 Tor 網路中較為罕見（因此更容易辨識），而其他配置在防去匿名化方面的測試也未經嚴格驗證。
+如果更完全的匿名至關重要，則應 **僅使用** 桌面版的 Tor 客戶端應用，最好再加上[Whonix](desktop.md#whonix) + [Qubes](desktop.md#qubes-os) 一起搭配使用。行動瀏覽器在 Tor 網路中較為罕見（因此更容易辨識），而其他配置在防去匿名化方面的測試也未經嚴格驗證。
 
 ## Tor 瀏覽器
 
@@ -76,7 +76,7 @@ schema:
 <div class="admonition danger" markdown>
 <p class="admonition-title">Danger "危險"</p>
 
-您應該 **永遠不要** 在Tor瀏覽器上安裝任何其他擴充功能，或編輯「關於：配置」設定，包括我們為Firefox建議的設定。 瀏覽器擴充套件和非標準設定會使您在 Tor 網路上曝露，從而使您的瀏覽器更容易變成 [fingerprint](https://support.torproject.org/glossary/browser-fingerprinting)。
+您應該 **永遠不要** 在Tor瀏覽器上安裝任何其他擴充功能，或編輯「關於：配置」設定，包括我們為Firefox建議的設定。瀏覽器擴充套件和非標準設定會使您在 Tor 網路上曝露，從而使您的瀏覽器更容易變成 [fingerprint](https://support.torproject.org/glossary/browser-fingerprinting)。
 
 </div>
 
@@ -109,6 +109,6 @@ Tor 瀏覽器旨在防止指紋識別----根據您的瀏覽器配置識別您。
 
 </div>
 
-Onion Browser 不提供與 Tor Browser 在電腦平台上相同等級的隱私保護。 對於日常使用而言，這是存取隱藏服務的絕佳方式，但如果您擔心被先進的對手追蹤或監視，則不應將其視為匿名工具。
+Onion Browser 不提供與 Tor Browser 在電腦平台上相同等級的隱私保護。對於日常使用而言，這是存取隱藏服務的絕佳方式，但如果您擔心被先進的對手追蹤或監視，則不應將其視為匿名工具。
 
-[值得注意的是](https://github.com/privacyguides/privacyguides.org/issues/2929)，Onion 瀏覽器無法*保證*所有請求都會通過 Tor 網路傳輸。 使用內建版本的 Tor 時，由於 WebKit 的限制，[您的真實 IP **將會**透過 WebRTC 與音訊/視訊串流洩漏](https://onionbrowser.com/faqs)。 在使用 [Orbot](alternative-networks.md#orbot) 的同時使用 Onion 瀏覽器會*比較安全*，但在 iOS 上仍有一些限制。
+[值得注意的是](https://github.com/privacyguides/privacyguides.org/issues/2929)，Onion 瀏覽器無法*保證*所有請求都會通過 Tor 網路傳輸。使用內建版本的 Tor 時，由於 WebKit 的限制，[您的真實 IP **將會**透過 WebRTC 與音訊/視訊串流洩漏](https://onionbrowser.com/faqs)。在使用 [Orbot](alternative-networks.md#orbot) 的同時使用 Onion 瀏覽器會*比較安全*，但在 iOS 上仍有一些限制。

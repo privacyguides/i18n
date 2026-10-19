@@ -10,7 +10,7 @@ cover: email.webp
 
 - [:material-server-network: 服務供應商](../basics/common-threats.md#privacy-from-service-providers){ .pg-teal }
 
-進階的系統管理員可以考慮自行架設**電子郵件伺服器**。 郵件伺服器需要關注與持續維護，以確保安全性和郵件傳遞的可靠性。 除了下列「all-in-one」解決方案外，我們也挑選了涵蓋較為手動的幾篇文章：
+進階的系統管理員可以考慮自行架設**電子郵件伺服器**。郵件伺服器需要關注與持續維護，以確保安全性和郵件傳遞的可靠性。除了下列「all-in-one」解決方案外，我們也挑選了涵蓋較為手動的幾篇文章：
 
 - [Setting up a mail server with OpenSMTPD, Dovecot and Rspamd](https://poolp.org/posts/2019-09-14/setting-up-a-mail-server-with-opensmtpd-dovecot-and-rspamd) (2019)
 - [How To Run Your Own Mail Server](https://www.c0ffee.net/blog/mail-server-guide) (August 2017)
@@ -21,7 +21,7 @@ cover: email.webp
 
 ![Stalwart 圖示](../assets/img/self-hosting/stalwart.svg){ align=right }
 
-**Stalwart** 是用 Rust 寫成的新款郵件伺服器，除了標準的 IMAP、POP3 和 SMTP 外，還支援 JMAP。 它有多種設定選項，而且預設設定在安全性和功能性方面都非常合理，很容易立即使用。 它還有網頁管理介面，支援 TOTP 2FA，並允許您輸入 PGP 公鑰以加密**所有**來信。
+**Stalwart** 是用 Rust 寫成的新款郵件伺服器，除了標準的 IMAP、POP3 和 SMTP 外，還支援 JMAP。它有多種設定選項，而且預設設定在安全性和功能性方面都非常合理，很容易立即使用。它還有網頁管理介面，支援 TOTP 2FA，並允許您輸入 PGP 公鑰以加密**所有**來信。
 
 [:octicons-home-16: 首頁](https://stalw.art){ .md-button .md-button--primary }
 [:octicons-info-16:](https://stalw.art/docs/get-started){ .card-link title="文件" }
@@ -42,7 +42,7 @@ Stalwart **沒有**內建的網頁郵件功能，因此您需要使用[電子郵
 
 ![Mailcow 圖示](../assets/img/self-hosting/mailcow.svg){ align=right }
 
-**Mailcow** 是一套進階的郵件伺服器，非常適合有 Linux 經驗的人使用。 它透過 Docker 容器提供您所需的一切：支援 DKIM 的郵件伺服器、防毒與垃圾郵件監控、透過 SOGo 提供網頁郵件與 ActiveSync，以及支援 2FA 的網頁管理系統。
+**Mailcow** 是一套進階的郵件伺服器，非常適合有 Linux 經驗的人使用。它透過 Docker 容器提供您所需的一切：支援 DKIM 的郵件伺服器、防毒與垃圾郵件監控、透過 SOGo 提供網頁郵件與 ActiveSync，以及支援 2FA 的網頁管理系統。
 
 [:octicons-home-16: 首頁](https://mailcow.email){ .md-button .md-button--primary }
 [:octicons-info-16:](https://docs.mailcow.email){ .card-link title="文件" }
@@ -57,7 +57,7 @@ Stalwart **沒有**內建的網頁郵件功能，因此您需要使用[電子郵
 
 ![Mail-in-a-Box 圖示](../assets/img/self-hosting/mail-in-a-box.svg){ align=right }
 
-**Mail-in-a-Box** 是在 Ubuntu 上部署郵件伺服器的自動設定指令碼。 它的目標是讓人們能更容易自行架設郵件伺服器。
+**Mail-in-a-Box** 是在 Ubuntu 上部署郵件伺服器的自動設定指令碼。它的目標是讓人們能更容易自行架設郵件伺服器。
 
 [:octicons-home-16: 首頁](https://mailinabox.email){ .md-button .md-button--primary }
 [:octicons-info-16:](https://mailinabox.email/guide.html){ .card-link title="文件" }
