@@ -54,35 +54,35 @@ description: نظام Linux هو نظام تشغيل مفتوح المصدر ل�
 
 أما التوزيعات التي تستخدم التحديثات التي تُطبّق كوحدة واحدة، فتُطبّق التحديثات بالكامل أو لا تُطبقها إطلاقا. في التوزيعات التي تُطبّق التحديثات كوحدة واحدة، إذا حدث خطأ أثناء التحديث (مثل انقطاع الكهرباء)، فلن يتغير أي شيء في النظام.
 
-تساعد هذه الطريقة في تطبيق التحديثات على جعل النظام أكثر موثوقية، وتستخدمها [توزيعات](../desktop.md#atomic-distributions) مثل Silverblue وNixOS. [Adam Šamalík](https://twitter.com/adsamalik) provides a presentation on how `rpm-ostree` works with Silverblue:
+تساعد هذه الطريقة في تطبيق التحديثات على جعل النظام أكثر موثوقية، وتستخدمها [توزيعات](../desktop.md#atomic-distributions) مثل Silverblue وNixOS. يقدّم [Adam Šamalík](https://twitter.com/adsamalik) عرضًا يشرح فيه كيفية عمل `rpm-ostree` مع Silverblue:
 
 - [لنجرب Fedora Silverblue — نظام تشغيل لأجهزة الكمبيوتر لا يمكن تعديل ملفاته الأساسية! - Adam Šamalík](https://youtu.be/-hpV5l-gJnQ) <small>(YouTube)</small>
 
 ### التوزيعات «التي تركز على الأمان»
 
-غالبا ما يحدث خلط بين التوزيعات «التي تركز على الأمان» والتوزيعات المخصصة لاختبار الاختراق. غالبًا ما يُظهر البحث السريع عن «أكثر توزيعات Linux أمانًا» نتائج مثل Kali Linux وBlack Arch وParrot OS. These distributions are offensive penetration testing distributions that bundle tools for testing other systems. They don’t include any “extra security” or defensive mitigations intended for regular use.
+غالبا ما يحدث خلط بين التوزيعات «التي تركز على الأمان» والتوزيعات المخصصة لاختبار الاختراق. غالبًا ما يُظهر البحث السريع عن «أكثر توزيعات Linux أمانًا» نتائج مثل Kali Linux وBlack Arch وParrot OS. هذه التوزيعات مخصصة لاختبار الاختراق الهجومي، وتأتي مع مجموعة من الأدوات لاختبار أمان الأنظمة الأخرى. لا توفر هذه التوزيعات أي ميزات أمان إضافية أو وسائل حماية مخصصة للاستخدام اليومي.
 
-### Arch-based distributions
+### التوزيعات المبنية على Arch
 
-Arch and Arch-based distributions are not recommended for those new to Linux (regardless of distribution) as they require regular [system maintenance](https://wiki.archlinux.org/title/System_maintenance). Arch does not have a distribution update mechanism for the underlying software choices. As a result you have to stay aware with current trends and adopt technologies on your own as they supersede older practices.
+لا نوصي بتوزيعة Arch أو التوزيعات المبنية عليها للمستخدمين الجدد في Linux، مهما كانت التوزيعة التي استخدموها سابقًا، لأنها تتطلب [صيانة دورية للنظام](https://wiki.archlinux.org/title/System_maintenance). لا توفر Arch آلية لتحديث البرامج الأساسية التي تعتمد عليها التوزيعة. ونتيجة لذلك، عليك متابعة أحدث التطورات بنفسك واستخدام التقنيات الجديدة عندما تحل محل الطرق القديمة.
 
-For a secure system, you are also expected to have sufficient Linux knowledge to properly set up security for their system such as adopting a [mandatory access control](#mandatory-access-control) system, setting up [kernel module](https://en.wikipedia.org/wiki/Loadable_kernel_module#Security) blacklists, hardening boot parameters, manipulating [sysctl](https://en.wikipedia.org/wiki/Sysctl) parameters, and knowing what components they need such as [Polkit](https://en.wikipedia.org/wiki/Polkit).
+وللحصول على نظام آمن، يُتوقع منك أيضا أن تكون لديك معرفة كافية بنظام Linux لضبط إعدادات الأمان بشكل صحيح، مثل استخدام نظام [للتحكم الإلزامي في الوصول (Mandatory Access Control)](#mandatory-access-control)، وإعداد قوائم لحظر بعض [وحدات النواة (Kernel Modules)](https://en.wikipedia.org/wiki/Loadable_kernel_module#Security)، وتعزيز أمان إعدادات الإقلاع، وتعديل إعدادات [sysctl](https://en.wikipedia.org/wiki/Sysctl)، ومعرفة المكونات التي يحتاجها نظامك، مثل [Polkit](https://en.wikipedia.org/wiki/Polkit).
 
-Arch-based derivatives designed to make Arch "easier to use" are not recommended, as they frequently encourage poor security practices while weakening the base system. These practices include bundling outdated packages in downstream repositories that are updated less frequently than Arch's official channels. Furthermore, these distributions usually fail to properly educate users on the risks associated with the Arch User Repository (AUR).
+لا نوصي بالتوزيعات المبنية على Arch والمصممة لجعلها «أسهل في الاستخدام»، لأنها غالبًا ما تشجع على اتباع ممارسات أمنية غير جيدة، وتُضعف أمان النظام الأساسي. تشمل هذه الممارسات توفير حزم برامج قديمة في مستودعات (repositories) تابعة لهذه التوزيعات، لا تُحدث بنفس وتيرة مستودعات Arch الرسمية. بالإضافة إلى ذلك، غالبا ما لا توضح هذه التوزيعات للمستخدمين بشكل كاف المخاطر المرتبطة بمستودع مستخدمي Arch (AUR).
 
-Anyone using the [Arch User Repository (AUR)](https://wiki.archlinux.org/title/Arch_User_Repository) **must** be comfortable auditing PKGBUILDs (the recipes that build packages) that they download from that service. AUR packages are community-produced content and are not vetted in any way, and therefore are vulnerable to software [:material-package-variant-closed-remove: Supply Chain Attacks](../basics/common-threats.md#attacks-against-certain-organizations ""){.pg-viridian}, which has in fact happened [in the past](https://bleepingcomputer.com/news/security/malware-found-in-arch-linux-aur-package-repository) and more recently when [1500 packages](https://discuss.privacyguides.net/t/around-1-500-aur-packages-compromised-with-rootkit-like-malware/38517) were compromised.
+يجب أن يكون أي شخص يستخدم مستودع مستخدمي [Arch (AUR)](https://wiki.archlinux.org/title/Arch_User_Repository) **قادرًا** على مراجعة ملفات PKGBUILD (وهي الملفات التي تحتوي على تعليمات بناء حزم البرامج) التي ينزّلها من هذا المستودع. حزم AUR يُنشئها أفراد المجتمع، ولا تخضع لأي مراجعة أو تدقيق، ولذلك فهي عرضة لهجمات [سلسلة توريد البرمجيات (Supply Chain Attacks):material-package-variant-closed-remove:](../basics/common-threats.md#attacks-against-certain-organizations ""){.pg-viridian}، وقد حدثت هذه الهجمات بالفعل في [الماضي](https://bleepingcomputer.com/news/security/malware-found-in-arch-linux-aur-package-repository)، ومؤخرًا عندما [تعرضت 1500 حزمة للاختراق](https://discuss.privacyguides.net/t/around-1-500-aur-packages-compromised-with-rootkit-like-malware/38517).
 
-The AUR should always be used sparingly, and often there is a lot of bad advice on various pages which direct people to blindly use [AUR helpers](https://wiki.archlinux.org/title/AUR_helpers) without sufficient warning. Similar warnings apply to the use of third-party Personal Package Archives (PPAs) on Debian-based distributions or Community Projects (COPR) on Fedora.
+يجب دائمًا استخدام AUR عند الضرورة فقط، فكثيرًا ما تنشر مواقع مختلفة نصائح سيئة تشجع المستخدمين على استخدام أدوات [AUR helpers](https://wiki.archlinux.org/title/AUR_helpers) دون التحقق منها، ودون تحذيرهم بشكل كافٍ من المخاطر. تنطبق التحذيرات نفسها على استخدام مستودعات PPA التابعة لجهات خارجية في التوزيعات المبنية على Debian، أو مستودعات المشاريع المجتمعية (COPR) في Fedora.
 
-If you are experienced with Linux and wish to use an Arch-based distribution, mainline Arch Linux is the **only** recommended option.
+إذا كانت لديك خبرة في استخدام Linux وترغب في استخدام توزيعة مبنية على Arch، فإن توزيعة Arch Linux الأصلية هي الخيار **الوحيد** الذي نوصي به.
 
-### Linux-libre kernel and “Libre” distributions
+### نواة Linux-libre وتوزيعات «Libre» الحرة
 
-We recommend **against** using the Linux-libre kernel, since it [removes security mitigations](https://phoronix.com/news/GNU-Linux-Libre-5.7-Released) and [suppresses kernel warnings](https://news.ycombinator.com/item?id=29674846) about vulnerable microcode.
+لا **نوصي** باستخدام نواة Linux-libre، لأنها تزيل بعض وسائل الحماية من [استغلال الثغرات الأمنية](https://phoronix.com/news/GNU-Linux-Libre-5.7-Released)، وتمنع ظهور [تحذيرات النواة](https://news.ycombinator.com/item?id=29674846) بشأن وجود ثغرات أمنية في التعليمات البرمجية الدقيقة (microcode).
 
-### Mandatory access control
+### التحكم الإلزامي في الوصول
 
-Mandatory access control is a set of additional security controls which help to confine parts of the system such as apps and system services. The two common forms of mandatory access control found in Linux distributions are [SELinux](https://github.com/SELinuxProject) and [AppArmor](https://apparmor.net). Fedora and Tumbleweed use SELinux by default, with Tumbleweed offering an option in its installer to choose AppArmor instead.
+التحكم الإلزامي في الوصول هو مجموعة من وسائل الحماية الإضافية التي تساعد على تقييد صلاحيات أجزاء من النظام، مثل التطبيقات وخدمات النظام. The two common forms of mandatory access control found in Linux distributions are [SELinux](https://github.com/SELinuxProject) and [AppArmor](https://apparmor.net). Fedora and Tumbleweed use SELinux by default, with Tumbleweed offering an option in its installer to choose AppArmor instead.
 
 SELinux on [Fedora](https://docs.fedoraproject.org/en-US/quick-docs/selinux-getting-started) confines Linux containers, virtual machines, and service daemons by default. AppArmor is used by the snap daemon for [sandboxing](https://snapcraft.io/docs/security-sandboxing) snaps which have [strict](https://snapcraft.io/docs/snap-confinement) confinement such as [Firefox](https://snapcraft.io/firefox). There is a community effort to confine more parts of the system in Fedora with the [ConfinedUsers](https://fedoraproject.org/wiki/SIGs/ConfinedUsers) special interest group.
 
