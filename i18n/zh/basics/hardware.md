@@ -1,152 +1,152 @@
 ---
-title: "Choosing Your Hardware"
+title: "选择硬件"
 icon: 'material/chip'
-description: Software isn't all that matters; learn about the hardware tools you use every day to protect your privacy.
+description: 软件并不是唯一的关键所在；了解每天用来保护隐私的硬件工具。
 ---
 
-When it comes to discussions about privacy, hardware is often not thought about as much as what software we use. Your hardware should be considered the foundation on which you build the rest of your privacy setup.
+在讨论隐私时，人们通常不像考虑使用的软件那样多地考虑硬件。应该将硬件视为构建其他隐私设置的基础。
 
-## Picking a Computer
+## 挑选计算机
 
-The internals of your devices process and store all of your digital data. It is important that all devices are supported by the manufacturer and developers by continuing to receive security updates.
+设备的内部组件处理并存储你所有的数字数据。重要的是，所有设备都受到制造商和开发者的支持，能够持续接收安全更新。
 
-### Hardware Security Programs
+### 硬件安全计划
 
-Some devices will have a "hardware security program", which is a collaboration between vendors on best practices and recommendations when designing hardware, for example:
+有些设备会有“硬件安全计划”，即供应商之间在设计硬件时的最佳实践和建议方面的合作，例如：
 
-- [Windows Secured-core PCs](https://learn.microsoft.com/en-us/windows-hardware/design/device-experiences/oem-highly-secure-11) meet a higher security criteria specified by Microsoft. These protections aren't only applicable to Windows users; Users of other operating systems can still take advantage of features like [DMA protection](https://learn.microsoft.com/en-us/windows/security/information-protection/kernel-dma-protection-for-thunderbolt) and the ability to completely distrust Microsoft certificates.
-- [Android Ready SE](https://developers.google.com/android/security/android-ready-se) is a collaboration between vendors to ensure their devices follow [best practices](https://source.android.com/docs/security/best-practices/hardware) and include tamper resistant hardware backed storage for things like encryption keys.
-- macOS running on an Apple SoC takes advantage of [hardware security](../os/macos-overview.md#hardware-security) which may not be available with third party operating systems.
-- [ChromeOS security](https://chromium.org/chromium-os/developer-library/reference/security/security-whitepaper) is at its best when running on a Chromebook as it is able to make use of available hardware features such as the [hardware root-of-trust](https://chromium.org/chromium-os/developer-library/reference/security/security-whitepaper/#hardware-root-of-trust-and-verified-boot).
+- [Windows 保护核心电脑](https://learn.microsoft.com/en-us/windows-hardware/design/device-experiences/oem-highly-secure-11)符合由微软指定的更高安全标准。这些保护不仅仅适用于Windows用户；其他操作系统的用户仍然可以利用[DMA 保护](https://learn.microsoft.com/en-us/windows/security/information-protection/kernel-dma-protection-for-thunderbolt)等功能，以及完全不信任微软证书的能力。
+- [Android Ready SE](https://developers.google.com/android/security/android-ready-se)是供应商之间的合作，确保其设备遵循[最佳实践](https://source.android.com/docs/security/best-practices/hardware)，并包括用于加密密钥等内容的抗篡改硬件支持的存储。
+- 在 Apple SoC 上运行的 macOS 利用了第三方操作系统可能无法提供的[硬件安全功能](../os/macos-overview.md#hardware-security)。
+- [ChromeOS 安全性](https://chromium.org/chromium-os/developer-library/reference/security/security-whitepaper)在 Chromebook 上运行时处于最佳状态，因为它能够利用可用的硬件功能，例如[硬件信任根](https://chromium.org/chromium-os/developer-library/reference/security/security-whitepaper/#hardware-root-of-trust-and-verified-boot)。
 
-Even if you don't use these operating systems, participation in these programs may indicate that the manufacturer is following best practices when it comes to hardware security and updates.
+即使你不使用这些操作系统，参与这些计划也可能表明制造商在硬件安全和更新方面遵循了最佳实践。
 
-### Preinstalled OS
+### 预装操作系统
 
-New computers nearly always come with Windows preinstalled, unless you buy a Mac or a specialty Linux machine. It's usually a good idea to wipe the drive and install a fresh copy of your operating system of choice, even if that means just reinstalling Windows from scratch. Due to agreements between hardware vendors and shady software vendors, the default Windows install often comes preloaded with bloatware, [adware](https://bleepingcomputer.com/news/technology/lenovo-gets-a-slap-on-the-wrist-for-superfish-adware-scandal), or even [malware](https://zdnet.com/article/dell-poweredge-motherboards-ship-with-malware).
+除非你购买Mac或专门的Linux计算机，否则新电脑几乎总是预装了Windows。通常最好是擦除驱动器并全新安装你选择的操作系统，即使这意味着从头开始重新安装Windows。由于硬件供应商与可疑软件供应商之间的协议，默认的Windows安装通常预装了臃肿软件、[广告软件](https://bleepingcomputer.com/news/technology/lenovo-gets-a-slap-on-the-wrist-for-superfish-adware-scandal)甚至[恶意软件](https://zdnet.com/article/dell-poweredge-motherboards-ship-with-malware)。
 
 ### 固件更新
 
-Hardware often has security issues that are discovered and patched through firmware updates for your hardware.
+硬件通常存在安全问题，这些问题会被发现并通过你的硬件的固件更新进行修补。
 
-Almost every component of your computer requires firmware to operate, from your motherboard to your storage devices. It is ideal for all the components of your device to be fully supported. Apple devices, Chromebooks, most Android phones, and Microsoft Surface devices will handle firmware updates for you as long as the device is supported.
+从主板到存储设备，你的计算机的几乎每个组件都需要固件才能运行。理想情况是设备的所有的组件都能得到完全支持。苹果设备、Chromebook、大多数Android手机和Microsoft Surface设备只要受支持，就会为你处理固件更新。
 
-If you build your own PC, you may need to manually update your motherboard's firmware by downloading it from your OEM's website. If you use Linux, consider using the built-in [`fwupd`](https://fwupd.org) tool that will let you check for and apply any firmware updates available for your motherboard.
+如果你自己组装电脑，你可能需要从OEM的网站下载并手动更新主板固件。如果你使用Linux，请考虑使用内置的 [`fwupd`](https://fwupd.org) 工具，该工具可以让你检查并应用主板可用的任何固件更新。
 
-### TPM/Secure Cryptoprocessor
+### TPM/安全加密处理器
 
-Most computers and phones come equipped with a TPM (or a similar secure cryptoprocessor) which safely stores your encryption keys and handles other security-related functions. If you're currently using a machine that doesn't have one of these, you might benefit from purchasing a newer computer that has this feature. Some desktop and server motherboards have a "TPM header" which can accept a small accessory board containing the TPM.
+大多数计算机和手机都配备了TPM（或类似的安全加密处理器），它可以安全地存储加密密钥并处理其他与安全相关的功能。如果你目前使用的计算机没有此功能，你可能会从购买具有此功能的较新计算机中受益。某些台式机和服务器主板有一个“TPM 接针”，可以接插包含TPM的小型附件板。
 
 <div class="admonition Note" markdown>
-<p class="admonition-title">Note</p>
+<p class="admonition-title">注意</p>
 
-Virtual TPMs are susceptible to side-channel attacks and external TPMs, as a result of being separate from the CPU on the motherboard, are vulnerable to [sniffing](https://pulsesecurity.co.nz/articles/TPM-sniffing) when an attacker has access to the hardware. The solution to this problem is to include the secure processor inside the CPU itself, which is the case for Apple's chips and Microsoft's [Pluton](https://microsoft.com/en-us/security/blog/2020/11/17/meet-the-microsoft-pluton-processor-the-security-chip-designed-for-the-future-of-windows-pcs).
+虚拟 TPM 容易受到侧信道攻击，而由于外部 TPM 与主板上的 CPU 是分离的，因此当攻击者可以接触到硬件时，它们容易受到[嗅探攻击](https://pulsesecurity.co.nz/articles/TPM-sniffing)。解决此问题的方法是将安全处理器包含在 CPU 内部，苹果的芯片和微软的 [Pluton](https://microsoft.com/en-us/security/blog/2020/11/17/meet-the-microsoft-pluton-processor-the-security-chip-designed-for-the-future-of-windows-pcs) 就是如此。
 
 </div>
 
-### Biometrics
+### 生物特征识别
 
-Many devices come equipped with a fingerprint reader or face recognition capabilities. These can be very convenient, but they aren't perfect and sometimes fail. Most devices will fall back to a PIN or password when this happens, meaning that the security of your devices is still only as good as your password.
+许多设备配备了指纹读取器或面部识别功能。这可能非常方便，但并不完美，有时会失效。大多数设备在发生这种情况时会回退到使用 PIN 或密码，这意味着设备的安全性仍然取决于密码的安全性。
 
-Biometrics can prevent someone from watching you type in your password, so if shoulder-surfing is part of your threat model then biometrics are a good option.
+生物特征识别可以防止他人偷看你输入密码，因此，如果肩窥是你的威胁模型的一部分，那么生物特征识别是一个不错的选择。
 
-Most implementations of face authentication require you to be looking at your phone and also only work from a relatively close distance, so you don't need to worry too much about someone pointing your phone at your face to unlock it without your consent. You can still disable biometrics when your phone is locked if you want. On iOS, you can hold the side button and a volume button for 3 seconds to disable Face ID on models that support it. On Android, hold the power button and press Lockdown on the menu.
+大多数面部认证的实现要求你注视手机，并且只能在相对较近的距离内工作，所以你不需要太担心有人在未经你同意的情况下将手机对准你的脸来解锁。如果需要，你仍然可以在手机锁定时禁用生物特征识别。在 iOS 上，在支持面容 ID 的机型上，你可以按住侧边按钮和音量按钮 3 秒钟来禁用面容 ID。在 Android 上，按住电源按钮并在菜单上按“锁定”。
 
 <div class="admonition warning" markdown>
 <p class="admonition-title">警告</p>
 
-Some devices do not have the proper hardware for secure face authentication. There are two main types of face authentication: 2D and 3D. 3D face authentication makes use of a dot projector that lets the device create a 3D depth map of your face. Make sure that your device has this capability.
+有些设备没有用于安全面部认证的适当硬件。面部认证主要有两种类型：2D 和 3D。 3D 面部认证利用点阵投影仪，使设备能够创建你面部的 3D 深度图。请确保你的设备具有此功能。
 
 </div>
 
-Android defines three [security classes](https://source.android.com/docs/security/features/biometric/measure#biometric-classes) for biometrics; you should check that your device is Class 3 before enabling biometrics.
+Android为生物特征识别定义了三个[安全级别](https://source.android.com/docs/security/features/biometric/measure#biometric-classes)；在启用生物特征识别之前，应检查设备是否属于级别 3。
 
-### Device Encryption
+### 设备加密
 
-If your device is [encrypted](../encryption.md), your data is most secure when your device is completely powered off (as opposed to merely asleep), i.e. before you've entered your encryption key or lock screen password for the first time. On phones, this state of higher security is referred to as "Before First Unlock" (BFU), and "After First Unlock" (AFU) once you enter the correct password after a reboot/power-on. AFU is considerably less secure against digital forensics toolkits and other exploits, compared to BFU. Therefore, if you are concerned about an attacker with physical access to your device, you should turn it off fully whenever you aren't using it.
+如果你的设备已[加密](../encryption.md)，那么当设备完全关机（而不是仅仅休眠）时，即在你首次输入加密密钥或锁屏密码之前，你的数据是最安全的。在手机上，这种更高安全性的状态被称为“首次解锁前”（BFU），而在重启/开机后输入正确的密码后则称为“首次解锁后”（AFU）。与 BFU 相比，AFU 对抗数字取证工具包和其他漏洞利用的安全性要低得多。因此，如果你担心攻击者对你的设备进行物理接触，你应该在不使用时将其完全关机。
 
-This may be impractical, so consider whether it's worth it, but in either case even AFU mode is effective against most threats, given you are using a strong encryption key.
+这可能不太实际，因此请考虑是否值得，但无论如何，如果你使用了强加密密钥，即使是 AFU 模式也能有效抵御大多数威胁。
 
-## External Hardware
+## 外部硬件
 
-Some threats can't be protected against by your internal components alone. Many of these options are highly situational; please evaluate if they are really necessary for your threat model.
+有些威胁不能仅靠内部组件来防御。其中许多选项具有很强的局限性；请评估它们对于你的威胁模型是否真的必要。
 
 ### 硬件安全密钥
 
-Hardware keys are devices that use strong cryptography to authenticate you to a device or account. The idea is that because they can not be copied, you can use them to secure accounts in such a way that they can only be accessed with physical possession of the key, eliminating many remote attacks.
+硬件密钥是使用强加密技术对设备或帐户进行身份验证的设备。核心理念是，由于它们不能被复制，你可以使用它们来保护帐户，只有在物理上拥有该密钥时才能访问，从而消除了许多远程攻击。
 
-[Recommended Hardware Keys :material-arrow-right-drop-circle:](../security-keys.md){ .md-button .md-button--primary } [Learn More about Hardware Keys :material-arrow-right-drop-circle:](multi-factor-authentication.md#hardware-security-keys){ .md-button }
+[推荐硬件密钥 :material-arrow-right-drop-circle:](../security-keys.md){ .md-button .md-button--primary } [详细了解硬件密钥 :material-arrow-right-drop-circle:](multi-factor-authentication.md#hardware-security-keys){ .md-button }
 
-### Camera/Microphone
+### 摄像头/麦克风
 
-If you don't want to trust your OS's permission controls to prevent the camera from activating in the first place, you can buy camera blockers that physically prevent light from reaching the camera. You could also buy a device that doesn't have a built-in camera and use an external camera that you can unplug whenever you're done using it. Some devices come with built-in camera blockers or hardware switches that physically disconnect the camera from power.
+如果你不想信任操作系统的权限控制来阻止摄像头激活，你可以购买摄像头遮挡盖，从物理上阻止光线到达摄像头。你也可以购买一台没有内置摄像头的设备，并使用外接摄像头，用完后随时拔掉。一些设备配有内置摄像头遮挡盖或硬件开关，以物理方式断开摄像头的电源。
 
 <div class="admonition warning" markdown>
 <p class="admonition-title">警告</p>
 
-You should only buy covers that fit your laptop and won't cause damage when you close the lid. Covering the camera will interfere with automatic brightness and face authentication features.
+你只应购买适合你的笔记本电脑且在合上盖子时不会造成损坏的保护盖。遮挡摄像头会干扰自动亮度和面部认证功能。
 
 </div>
 
-For microphone access, in most cases you will need to trust your OS's built-in permission controls. Alternatively, buy a device that doesn't have a built-in microphone and use an external microphone that you can unplug when you're done using it. Some devices, like a [MacBook or an iPad](https://support.apple.com/guide/security/hardware-microphone-disconnect-secbbd20b00b/web), feature a hardware disconnect for the microphone when you close the lid.
+对于麦克风的访问，在大多数情况下，你将需要信任操作系统内置的权限控制。或者，购买一台没有内置麦克风的设备，并使用外接麦克风，用完后可以拔掉。某些设备（如 [MacBook 或 iPad](https://support.apple.com/guide/security/hardware-microphone-disconnect-secbbd20b00b/web)）在你合上盖子时提供麦克风的硬件断开连接功能。
 
-Many computers have a BIOS option to disable the camera and microphone. When disabled there, the hardware won't even appear as a device on a booted system.
+许多计算机的 BIOS 选项可以禁用摄像头和麦克风。在那里禁用时，该硬件甚至不会作为设备出现在启动的系统中。
 
-### Privacy Screens
+### 隐私屏幕/防窥膜
 
-Privacy screens are a film you can put over your normal screen so that the screen is only visible from a certain angle. These are good if your threat model includes others peeking at your screen, but it is not foolproof as anyone could just move to a different viewing angle and see what's on your screen.
+防窥膜是一种可以贴在普通屏幕上的薄膜，使屏幕只能在特定角度可见。如果你的威胁模型包括他人偷看你的屏幕，这些是个不错的选择，但它并非万无一失，因为任何人只需转移到不同的视角就可以看到你的屏幕内容。
 
-### Dead Man's Switches
+### 失能开关
 
-A dead man's switch stops a piece of machinery from operating without the presence of a human operator. These were originally designed as a safety measure, but the same concept can be applied to an electronic device to lock it when you're not present.
+失能开关会在没有操作员在场的情况下阻止机器运行。这些最初被设计为安全措施，但同样的概念也可应用于电子设备，在你不在场时将其锁定。
 
-Some laptops are able to [detect](https://support.microsoft.com/en-us/windows/managing-presence-sensing-settings-in-windows-11-82285c93-440c-4e15-9081-c9e38c1290bb) when you're present and can lock automatically when you aren't sitting in front of the screen. You should check the settings in your OS to see if your computer supports this feature.
+某些笔记本电脑能够[检测](https://support.microsoft.com/en-us/windows/managing-presence-sensing-settings-in-windows-11-82285c93-440c-4e15-9081-c9e38c1290bb)到你是否在场，并能在你不在屏幕前时自动锁定。你应该检查操作系统中的设置，以查看你的计算机是否支持此功能。
 
-You can also get cables, like [BusKill](https://buskill.in), that will lock or wipe your computer when the cable is disconnected.
+你还可以购买类似 [BusKill](https://buskill.in) 这样的线缆，当线缆断开连接时，它会锁定或擦除你的计算机。
 
-### Anti-Interdiction/Evil Maid Attack
+### 反拦截/邪恶女佣攻击
 
-The best way to prevent a targeted attack against you before a device is in your possession is to purchase a device in a physical store, rather than ordering it to your address.
+在设备属于你之前，防止针对你的定向攻击的最好方法是在实体店购买设备，而不是将其订购到你的地址。
 
-Make sure your device supports secure boot/verified boot, and you have it enabled. Try to avoid leaving your device unattended whenever possible.
+确保你的设备支持安全启动/验证启动，并且你已将其启用。尽可能避免让你的设备无人看管。
 
-### Kensington Locks
+### 肯辛顿锁 (Kensington Locks)
 
-Many laptops come equipped with a [Kensington slot](https://www.kensington.com/solutions/product-category/security/?srsltid=AfmBOorQOlRnqRJOAqM-Mvl7wumed0wBdiOgktlvdidpMHNIvGfwj9VI) that can be used to secure your device with a **metal cable** that locks into the slot on your machine. These locks can be combination locks or keyed.
+许多笔记本电脑配备了[肯辛顿锁孔](https://www.kensington.com/solutions/product-category/security/?srsltid=AfmBOorQOlRnqRJOAqM-Mvl7wumed0wBdiOgktlvdidpMHNIvGfwj9VI)，你可以使用一条锁定在机器插槽中的**金属缆线**来保护你的设备。这些锁可以是密码锁或钥匙锁。
 
-As with all locks, Kensington locks are vulnerable to [physical attacks](https://youtu.be/vgvCxL7dMJk) so you should mainly use them to deter petty theft. You can secure your laptop at home or even when you're out in public using a table leg or something that won't move easily.
+像所有锁具一样，肯辛顿锁容易受到[物理攻击](https://youtu.be/vgvCxL7dMJk)，因此你应主要使用它们来震慑小偷小摸。你可以使用桌腿或不容易移动的物品，在家里甚至在公共场合保护你的笔记本电脑。
 
-## Secure your Network
+## 保护网络安全
 
-### Compartmentalization
+### 隔离
 
-Many solutions exist that allow you to separate what you're doing on a computer, such as virtual machines and sandboxing. However, the best compartmentalization is physical separation. This is useful especially for situations where certain software requires you to bypass security features in your OS, such as with anti-cheat software bundled with many games.
+存在许多允许你分离计算机上的操作的解决方案，例如虚拟机和沙盒。然而，最好的隔离是物理分离。这对于某些软件要求你绕过操作系统中的安全功能的情况特别有用，例如许多游戏捆绑的反作弊软件。
 
-For gaming, it may be useful to designate one machine as your "gaming" machine and only use it for that one task. Keep it on a separate VLAN. This may require the use of a managed switch and a router that supports segregated networks.
+对于游戏，指定一台机器作为你的“游戏机”并仅将其用于该任务可能会很有用。将其保留在单独的 VLAN 上。这可能需要使用支持隔离网络的管理型交换机和路由器。
 
-Most consumer routers allow you to do this by enabling a separate "guest" network that can't talk to your main network. All untrusted devices can go here, including IoT devices like your smart fridge, thermostat, TV, etc.
+大多数消费级路由器允许你通过启用一个无法与你的主网络通信的独立“访客”网络来实现此目的。所有不受信任的设备都可以放在这里，包括物联网设备，如智能冰箱、恒温器、电视等。
 
-### Minimalism
+### 极简主义
 
-As the saying goes, "less is more". The fewer devices you have connected to your network, the less potential attack surface you'll have and the less work it will be to make sure they all stay up-to-date.
+俗话说，“少即是多”。连接到网络的设备越少，潜在的攻击面就越少，确保它们保持最新的工作量也就越少。
 
-You may find it useful to go around your home and make a list of every connected device you have to help you keep track.
+你可能会发现，在家里走一圈并列出你拥有的每个联网设备的清单，以帮助你保持跟踪，这很有用。
 
-### Routers
+### 路由器
 
-Your router handles all your network traffic and acts as your first line of defense between you and the open internet.
+你的路由器处理你所有的网络流量，充当你与开放互联网之间的第一道防线。
 
 <div class="admonition Note" markdown>
-<p class="admonition-title">Note</p>
+<p class="admonition-title">注意</p>
 
-A lot of routers come with storage to put your files on so you can access them from any computer on your network. We recommend you don't use networking devices for things other than networking. In the event your router was compromised, your files would also be compromised.
+很多路由器都配有存储空间来存放你的文件，以便你可以从网络上的任何计算机访问它们。我们建议你不要将网络设备用于除网络以外的事情。如果你的路由器受到攻击，你的文件也将受到影响。
 
 </div>
 
-The most important thing to think about with routers is keeping them up-to-date. Many modern routers will automatically install updates, but many others won't. You should check on your router's settings page for this option. That page can usually be accessed by typing `192.168.1.1` or `192.168.0.1` into the URL bar of any browser assuming you're on the same network. You can also check in the network settings of your OS for "router" or "gateway".
+关于路由器，最重要的事情是保持它们是最新的。许多现代路由器会自动安装更新，但也有许多不会。你应该在路由器的设置页面检查这个选项。假设你在同一个网络上，通常可以通过在任何浏览器的 URL 栏中键入 `192.168.1.1` 或 `192.168.0.1` 来访问该页面。你也可以在操作系统的网络设置中查找“路由器”或“网关”。
 
-If your router does not support automatic updates, you will need to go to the manufacturer's site to download the updates and apply them manually.
+如果你的路由器不支持自动更新，你需要去制造商的网站下载更新并手动应用它们。
 
-Many consumer-grade routers aren't supported for very long. If your router isn't supported by the manufacturer anymore, you can check if it's supported by [FOSS firmware](../router.md). You can also buy routers that come with FOSS firmware installed by default; these tend to be supported longer than most routers.
+许多消费级路由器的支持时间不是很长。如果制造商不再支持你的路由器，你可以检查它是否受[自由开源固件](../router.md)支持。你也可以购买默认安装了自由开源固件的路由器；这些路由器的支持时间往往比大多数路由器长。
 
-Some ISPs provide a combined router/modem. It can be beneficial for security to purchase a separate router and set your ISP router/modem into modem-only mode. This way, even when your ISP-provided router is no longer getting updates, you can still get security updates and patches. It also means any problems that affect your modem won't affect your router and vice versa.
+某些互联网服务提供商（ISP）提供路由器/调制解调器二合一设备。为了安全起见，购买一台单独的路由器并将 ISP 的路由器/调制解调器设置为仅调制解调器模式会很有益处。这样，即使你的 ISP 提供的路由器不再获得更新，你仍然可以获得安全更新和补丁。这也意味着任何影响你调制解调器的问题都不会影响你的路由器，反之亦然。
