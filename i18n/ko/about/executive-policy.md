@@ -1,28 +1,28 @@
 ---
-title: Executive Policy
-description: These are policies formally adopted by our executive committee, and take precedence over all other statements expressed on this website.
+title: 운영 정책
+description: 운영 위원회가 공식적으로 채택한 정책으로, 이 웹사이트에 표현된 다른 모든 내용보다 우선합니다.
 ---
 
-These are policies formally adopted by Privacy Guides' executive committee, and take precedence over all other statements expressed on this website.
+프라이버시 가이드 운영 위원회가 공식적으로 채택한 정책으로, 이 웹사이트에 표현된 다른 모든 내용보다 우선합니다.
 
-The keywords **must**, **must not**, **required**, **shall**, **shall not**, **should**, **should not**, **recommended**, **may**, and **optional** are to be interpreted as described in [RFC 2119](https://datatracker.ietf.org/doc/html/rfc2119).
+키워드 **must**, **must not**, **required**, **shall**, **shall not**, **should**, **should not**, **recommended**, **may**, **optional**은 [RFC 2119](https://datatracker.ietf.org/doc/html/rfc2119)에 설명된 대로 해석합니다.
 
-## EP1: Freely-Provided Product Samples
+## EP1: 무상으로 제공되는 제품 샘플 { #ep1-freely-provided-product-samples }
 
-_Our policy on accepting product samples for review was adopted September 7, 2024._
+_리뷰용 제품 샘플 수령에 관한 정책은 2024년 9월 7일에 채택되었습니다._
 
-\=== "Current Version (1)"
+\=== "현재 버전 (1)"
 
 ```
-- Privacy Guides **shall not** proactively reach out to vendors asking for product samples or review accounts.
-- Privacy Guides **shall not** accept test/review accounts for subscription cloud services.
-- Privacy Guides **may** accept freely-provided product samples for one-time purchase software applications which run locally, given they don't require a subscription for continued operation.
-- Privacy Guides **may** accept freely-provided samples of hardware products.
-    - Privacy Guides **may** accept a freely-provided subscription service associated with a hardware product, if such a subscription/license is necessary to use the product.
-- Privacy Guides **must not** enter into an agreement pertaining to our editorial opinion with the vendor in order to receive a sample or publish a review. All freely-provided items must be strictly "no strings attached."
-    - We **may** agree to return the product to the vendor following the review if requested.
-    - We **may** agree to a reasonable NDA, provided it has a clear embargo date that is lifted no more than 6 months in the future where the NDA completely no longer applies.
-    - We **should not** enter into any other agreement with the vendor not described here. Potential agreements not described here **must** be approved by the executive committee beforehand.
+- 프라이버시 가이드는 공급업체에 먼저 연락하여 제품 샘플이나 리뷰용 계정을 요청하지 **않습니다**(shall not).
+- 프라이버시 가이드는 구독형 클라우드 서비스의 테스트/리뷰용 계정을 받지 **않습니다**(shall not).
+- 프라이버시 가이드는 계속 사용하는 데 구독이 필요하지 않은, 로컬에서 실행되는 일회성 구매 소프트웨어 애플리케이션의 무상 제품 샘플을 받을 **수 있습니다**(may).
+- 프라이버시 가이드는 하드웨어 제품의 무상 샘플을 받을 **수 있습니다**(may).
+    - 프라이버시 가이드는 하드웨어 제품을 사용하는 데 구독/라이선스가 필요한 경우, 해당 하드웨어 제품과 관련된 무상 구독 서비스를 받을 **수 있습니다**(may).
+- 프라이버시 가이드는 샘플을 받거나 리뷰를 게시하기 위해 공급업체와 편집 의견에 관한 어떠한 합의도 맺어서는 **안 됩니다**(must not). 무상으로 제공받는 모든 품목은 엄격하게 "아무 조건 없이" 제공되어야 합니다.
+    - 공급업체가 요청하면 리뷰 후 제품을 반환하는 데 동의할 **수 있습니다**(may).
+    - 비밀 유지 계약(NDA)이 완전히 해제되는 명확한 엠바고 해제일이 6개월 이내로 정해져 있다면, 합리적인 NDA에 동의할 **수 있습니다**(may).
+    - 여기에 설명되지 않은 다른 합의는 공급업체와 맺지 **않는 것이 좋습니다**(should not). 여기에 설명되지 않은 합의는 사전에 운영 위원회의 승인을 받아야 **합니다**(must).
 
-In all cases, whether we paid for the product independently or received a free sample from a vendor, how we obtained the product **must** be clearly documented in the background section of every article associated with the product.
+제품을 직접 구매했든 공급업체로부터 무상 샘플을 받았든, 모든 경우에 제품을 어떻게 입수했는지 해당 제품과 관련된 모든 기사의 배경 섹션에 명확하게 기록해야 **합니다**(must).
 ```

@@ -51,7 +51,7 @@ cover: browser-extensions.webp
 
 ### uBlock Origin Lite
 
-uBlock Origin also has a "Lite" version of their extension, which offers a limited feature-set compared to the original extension. 但比之成熟的姊妹產品它具有一些明顯優勢值得考慮，如果...
+uBlock Origin 亦提供該擴充功能的「Lite」版本，與原版相比，其功能較為限縮。但比之成熟的姊妹產品它具有一些明顯優勢值得考慮，如果...
 
 - ...不想對擴充功能授予完整的「讀取/修改網站資料」權限（即使是像 uBlock Origin 這樣受信任的擴充功能）
 - ....想要一個資源（記憶體/CPU）利用更高效的內容攔截器[^1]

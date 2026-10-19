@@ -1,72 +1,72 @@
 ---
-title: Content Creator
-description: Privacy Guides is looking for a video producer and host for informative privacy-related content on YouTube and other platforms.
+title: 콘텐츠 크리에이터
+description: 프라이버시 가이드는 유튜브 및 기타 플랫폼에서 프라이버시 관련 유익한 콘텐츠를 제작하고 진행할 동영상 프로듀서 겸 진행자를 찾고 있습니다.
 ---
 
-[:material-arrow-left-drop-circle: Job Openings](../jobs.md)
+[:material-arrow-left-drop-circle: 채용 공고](../jobs.md)
 
 <div class="admonition info" markdown>
-<p class="admonition-title">Position Closed</p>
+<p class="admonition-title">채용이 마감되었습니다</p>
 
-Thank you for your interest in this position at Privacy Guides. At this time we are no longer accepting new applications, but please follow our [job openings](../jobs.md) page to learn about future opportunities.
+프라이버시 가이드의 이 직무에 관심을 가져 주셔서 감사합니다. 현재는 더 이상 새로운 지원을 받지 않지만, 향후 채용 기회는 [채용 공고](../jobs.md) 페이지에서 확인해 주세요.
 
 </div>
 
-Are you passionate about privacy and cybersecurity?
+프라이버시와 사이버 보안에 열정이 있으신가요?
 
-Privacy Guides is an international nonprofit dedicated to producing top-tier, unbiased educational content and journalism, and to fostering safe and informative online communities to discuss technical topics around improving personal privacy and cybersecurity.
+프라이버시 가이드는 최고 수준의 편향되지 않은 교육 콘텐츠와 저널리즘을 제작하고, 개인의 프라이버시와 사이버 보안을 개선하는 기술적 주제를 논의할 수 있는 안전하고 유익한 온라인 커뮤니티를 육성하는 데 전념하는 국제 비영리 단체입니다.
 
-Privacy Guides is looking for a focused and motivated individual to be responsible for our social media presence from end to end, with a particular emphasis on video content. You must be comfortable being on camera to succeed in this role.
+프라이버시 가이드는 동영상 콘텐츠에 특히 중점을 두고 소셜 미디어 활동 전반을 처음부터 끝까지 책임질 집중력 있고 의욕적인 사람을 찾고 있습니다. 이 직무에서 성공하려면 카메라 앞에 서는 것이 편해야 합니다.
 
-This is a unique opportunity. Your primary goal will be to create and share privacy-based educational materials, without any motive to sell a product. If you truly value being able to create the best content that you can, and if you are passionate about privacy, then this position is for you!
+이는 특별한 기회입니다. 주된 목표는 제품을 판매하려는 동기 없이 프라이버시 기반 교육 자료를 만들고 공유하는 것입니다. 최선을 다해 최고의 콘텐츠를 만드는 것을 진정으로 중요하게 여기고 프라이버시에 열정이 있다면, 바로 여러분을 위한 직무입니다!
 
-Your responsibilities will include, but aren’t limited to:
+주요 업무는 다음을 포함하며, 이에 국한되지 않습니다:
 
-- Scripting and hosting educational video content to be posted across various social media platforms.
-- Video editing, production, and other backend work required to make successful content.
-- Researching new topics to cover.
-- Regular, daily posting to text-based social media platforms like Mastodon.
-- Regular posting of highly educational video content to social media platforms.
-- Compiling news sources for and hosting a weekly news recap (livestreamed) podcast on our YouTube channel.
-- Regularly communicating with the Privacy Guides committee and other team members.
+- 여러 소셜 미디어 플랫폼에 게시할 교육용 동영상 콘텐츠의 대본 작성 및 진행.
+- 성공적인 콘텐츠를 만드는 데 필요한 동영상 편집, 제작 및 기타 후방 작업.
+- 다룰 새로운 주제 조사.
+- 마스토돈 같은 텍스트 기반 소셜 미디어 플랫폼에 매일 정기적으로 게시.
+- 소셜 미디어 플랫폼에 매우 유익한 교육용 동영상 콘텐츠를 정기적으로 게시.
+- 유튜브 채널에서 (라이브 스트리밍으로) 진행하는 주간 뉴스 정리 팟캐스트를 위한 뉴스 소스 수집 및 진행.
+- 프라이버시 가이드 위원회 및 다른 팀원과의 정기적인 소통.
 
-This is a highly individualized role, and we are extremely interested in hearing your ideas on how you’ll find success and make this role your own. You will be responsible for handling virtually every aspect of this role without regular supervision, so being highly self-motivated is a must.
+이 직무는 개인의 역량이 크게 좌우하는 직무이며, 어떻게 성공을 거두고 이 직무를 자신만의 것으로 만들어 갈지에 대한 여러분의 아이디어를 매우 듣고 싶습니다. 정기적인 감독 없이 이 직무의 거의 모든 측면을 직접 책임지게 되므로, 강한 자기 동기 부여가 반드시 필요합니다.
 
-As a guideline, we expect your video output to be roughly 1 video and 1 _This Week In Privacy_ livestream per week, since we think most videos which meet our quality standards will be a multi-day process to research and script, in addition to a day for recording and editing. We realize some videos can be completed more quickly, while others may take multiple weeks or longer before publishing. You will be empowered to use your best judgement and prioritize your work accordingly.
+품질 기준을 충족하는 대부분의 동영상은 조사와 대본 작성에 며칠, 녹화와 편집에 하루가 더 걸린다고 보기 때문에, 동영상 제작량은 일주일에 대략 동영상 1편과 _This Week In Privacy_ 라이브 스트리밍 1회 정도로 예상합니다. 어떤 동영상은 더 빨리 완성할 수 있지만, 어떤 동영상은 게시하기까지 몇 주 이상 걸릴 수도 있다는 점을 알고 있습니다. 여러분의 판단에 따라 업무의 우선순위를 정할 수 있는 권한이 주어집니다.
 
-Job requirements:
+자격 요건:
 
-- Excellent organization and communication skills.
-- Flexibility to set and respond to varying priorities and deadlines.
-- Proactive, results-driven mindset with a strong sense of initiative.
-- Comfortable being on camera, and working with video production equipment.
-- Personal interest in consumer privacy, cybersecurity, and technology.
-- Skeptical nature and drive to investigate difficult, often niche, technologies. You will need to evaluate the truthfulness of claims.
+- 뛰어난 조직력과 의사소통 능력.
+- 다양한 우선순위와 마감 기한을 설정하고 이에 대응할 수 있는 유연성.
+- 강한 주도성을 갖춘 적극적이고 성과 지향적인 태도.
+- 카메라 앞에 서는 것과 동영상 제작 장비를 다루는 데 익숙함.
+- 소비자 프라이버시, 사이버 보안, 기술에 대한 개인적인 관심.
+- 어렵고 흔히 틈새 분야인 기술을 파고드는 회의적인 성향과 탐구 의지. 주장의 진위를 평가할 수 있어야 합니다.
 
-The following qualifications will be an asset to your application. However, we are looking for the best candidate (which isn’t always apparent on paper!), so please apply even if you don’t meet any/many of these qualifications.
+다음 자격 요건은 지원 시 강점이 됩니다. 하지만 프라이버시 가이드는 최고의 후보자(서류만으로는 항상 드러나지 않는 법이죠!)를 찾고 있으니, 이러한 자격 요건을 하나도 또는 많이 충족하지 못하더라도 지원해 주세요.
 
-- Previous YouTube or other video creation experience.
-- Previous social media management experience.
-- Education in English, journalism, media production, or any other related fields.
-- Fluency in Spanish, French, Portuguese, or other languages.
-- Familiarity with Privacy Guides' communities, culture, and mission.
-- A solid understanding of the latest trends/culture on YouTube & TikTok.
-- Located between UTC-08:00 and UTC-04:00 time zones.
-- At least basic familiarity with GitHub, including pull requests, branches, reviews, and issues.
+- 유튜브 또는 기타 동영상 제작 경력.
+- 소셜 미디어 관리 경력.
+- 영어, 저널리즘, 미디어 제작 또는 기타 관련 분야의 교육 이수.
+- 스페인어, 프랑스어, 포르투갈어 또는 기타 언어 능통자.
+- 프라이버시 가이드의 커뮤니티, 문화, 사명에 대한 이해.
+- 유튜브와 틱톡의 최신 트렌드/문화에 대한 확실한 이해.
+- UTC-08:00에서 UTC-04:00 사이의 시간대에 거주.
+- 풀 리퀘스트, 브랜치, 리뷰, 이슈를 포함한 깃허브에 대한 최소한의 기본 지식.
 
-The ideal candidate can commit to this role on a full-time basis (40 hours / week), but we are open to discussing a schedule you suggest.
+이상적인 후보자는 이 직무에 전일제(주 40시간)로 근무할 수 있는 사람이지만, 제안하시는 일정에 대해서도 논의할 수 있습니다.
 
-For this position, our hiring pay range falls between \$20-$25 / hour USD. The base pay may vary depending on job related qualifications such as knowledge, skills, and experience. Our compensation structure is rooted in a performance and merit based approach that acknowledges performance of both the individual and the project as a whole.
+이 직무의 채용 급여 범위는 시간당 \$20-$25(USD)입니다. 기본급은 지식, 기술, 경험 같은 직무 관련 자격에 따라 달라질 수 있습니다. 보상 체계는 개인과 프로젝트 전체의 성과를 모두 인정하는 성과 및 실적 기반 방식에 바탕을 두고 있습니다.
 
 ---
 
 <div class="admonition info" markdown>
-<p class="admonition-title">Position Closed</p>
+<p class="admonition-title">채용이 마감되었습니다</p>
 
-Thank you for your interest in this position at Privacy Guides. At this time we are no longer accepting new applications, but please follow our [job openings](../jobs.md) page to learn about future opportunities.
+프라이버시 가이드의 이 직무에 관심을 가져 주셔서 감사합니다. 현재는 더 이상 새로운 지원을 받지 않지만, 향후 채용 기회는 [채용 공고](../jobs.md) 페이지에서 확인해 주세요.
 
 </div>
 
-Privacy Guides is fiscally hosted by [MAGIC Grants](https://magicgrants.org), a 501(c)(3) public charity. MAGIC Grants is an equal opportunity employer. MAGIC Grants does not discriminate against any applicant or employee because of age, color, sex, disability, national origin, race, religion, sexual orientation, sexual identity, veteran status, or other protected characteristic.
+프라이버시 가이드의 회계 호스트는 501(c)(3) 공익 자선 단체인 [MAGIC 그랜츠](https://magicgrants.org)입니다. MAGIC 그랜츠는 기회 균등 고용주입니다. MAGIC 그랜츠는 나이, 피부색, 성별, 장애, 출신 국가, 인종, 종교, 성적 지향, 성 정체성, 제대 군인 여부 또는 기타 법적으로 보호되는 특성을 이유로 지원자나 직원을 차별하지 않습니다.
 
-We respect your privacy. After this position is filled, your application will be deleted. Your application will not be shared with third parties.
+프라이버시 가이드는 여러분의 프라이버시를 존중합니다. 이 직무의 채용이 완료되면 지원서는 삭제됩니다. 지원서는 제3자와 공유되지 않습니다.

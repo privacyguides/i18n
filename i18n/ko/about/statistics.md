@@ -1,18 +1,18 @@
 ---
-title: Traffic Statistics
-description: We self-host Umami to create a nice visualization of our traffic statistics, which are made public here.
+title: 트래픽 통계
+description: 프라이버시 가이드는 Umami를 자체 호스팅하여 트래픽 통계를 보기 좋게 시각화하고 있으며, 이 통계는 여기에 공개되어 있습니다.
 ---
 
 <!-- markdownlint-disable MD051 -->
 
-We self-host [Umami](https://umami.is) to create a nice visualization of our traffic statistics, which are public at the link below.
+프라이버시 가이드는 [Umami](https://umami.is)를 자체 호스팅하여 트래픽 통계를 보기 좋게 시각화하고 있으며, 이 통계는 아래 링크에서 공개적으로 확인할 수 있습니다.
 
-[View Statistics](https://stats.triplebit.net/share/S80jBc50hxr5TquS/www.privacyguides.org){ .md-button .md-button--primary }
+[통계 보기](https://stats.triplebit.net/share/S80jBc50hxr5TquS/www.privacyguides.org){ .md-button .md-button--primary }
 
-With this process:
+이 방식으로는:
 
-- Your information is never shared with a third party, it stays on servers we control
-- Your personal data is never saved, we only collect data in aggregate
-- No client-side JavaScript is used
+- 여러분의 정보가 제3자와 공유되지 않으며, 프라이버시 가이드가 관리하는 서버에만 머무릅니다
+- 개인 데이터는 절대 저장되지 않으며, 집계된 데이터만 수집합니다
+- 클라이언트 측 자바스크립트를 사용하지 않습니다
 
-Because of these facts, keep in mind our statistics may be inaccurate. It is a useful tool to compare different dates with each other and analyze overall trends, but the actual numbers may be far off from reality. In other words they're _precise_ statistics, but not _accurate_ statistics.
+이러한 특성 때문에 통계가 부정확할 수 있다는 점을 염두에 두세요. 서로 다른 날짜를 비교하고 전반적인 추세를 분석하는 데는 유용한 도구이지만, 실제 수치는 현실과 크게 다를 수 있습니다. 즉, _정밀한_ 통계이지만 _정확한_ 통계는 아닙니다.

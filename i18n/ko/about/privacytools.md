@@ -1,117 +1,117 @@
 ---
-title: "PrivacyTools FAQ"
-description: The real story behind the team transition from privacytools.io to privacyguides.org
+title: "프라이버시툴즈 FAQ"
+description: privacytools.io에서 privacyguides.org로 팀이 이전하게 된 실제 이야기입니다.
 ---
 
-2021년 9월, 당시에 활동하던 모든 기여자는 만장일치로 PrivacyTools에서 현재 사이트(Privacy Guides)로 이전하는 데 동의했습니다. PrivacyTools 창립자이자 사이트 도메인 관리자가 장기간 잠적하여 연락이 닿지 않아 내려진 결정이었습니다.
+2021년 9월, 활동 중이던 모든 기여자는 프라이버시툴즈를 떠나 이 사이트, 즉 프라이버시 가이드에서 활동하기로 만장일치로 합의했습니다. 이 결정은 프라이버시툴즈의 설립자이자 도메인 이름을 관리하던 사람이 오랫동안 자취를 감추고 연락이 닿지 않았기 때문에 내려졌습니다.
 
-당시에 이미 높은 평판을 얻은 사이트와 서비스 세트를 PrivacyTools에 구축한 상태였기에, 앞으로의 사이트 운영에 대한 우려는 더더욱 무시할 수 없었습니다. 이전 과정이 최대한 원할하게 진행될 수 있도록, 이전하기 수개월 전부터 블로그, Twitter, Reddit, Mastodon 등 다양한 경로를 통해 PrivacyTools 커뮤니티에 공지가 이루어졌습니다. 팀이 만들어진 이래로 지금까지 이어져온 운영 방식인 '모든 일을 투명하게 진행한다'라는 원칙을 지키고, Privacy Guides가 이전하기 전의 PrivacyTools와 마찬가지로 신뢰할 수 있는 단체로 인정받을 수 있도록 하기 위해 이러한 과정을 택했습니다.
+PrivacyTools.io에서 평판 있는 사이트와 여러 서비스를 구축해 온 상황에서, 이는 프라이버시툴즈의 미래에 대한 심각한 우려를 불러일으켰습니다. 앞으로 어떤 문제가 생기면 복구할 방법도 없이 조직 전체가 사라질 수 있었기 때문입니다. 이전 과정이 최대한 순조롭게 진행되도록 블로그, 트위터, 레딧, 마스토돈 등 다양한 채널을 통해 수개월 전부터 프라이버시툴즈 커뮤니티에 이전 계획을 알렸습니다. 이는 팀이 만들어진 이래 지켜 온 원칙대로 누구도 소외되지 않도록 하고, 프라이버시 가이드가 이전 전의 프라이버시툴즈와 같은 신뢰할 수 있는 조직으로 인정받도록 하기 위해서였습니다.
 
-이전이 완료된 후, PrivacyTools 창립자가 돌아와 Privacy Guides 프로젝트에 대한 잘못된 정보를 퍼뜨리기 시작했습니다. 현재 PrivacyTools 도메인에서 제휴 마케팅 광고 링크를 무더기로 운영하는 것 외에도 잘못된 정보를 계속 퍼뜨리고 있습니다. 따라서 Privacy Guides 관련 잘못된 정보로 발생하는 오해를 풀기 위해 이 페이지를 만들었습니다.
+조직 이전이 완료된 후 프라이버시툴즈의 설립자가 돌아와 프라이버시 가이드 프로젝트에 관한 잘못된 정보를 퍼뜨리기 시작했습니다. 그는 프라이버시툴즈 도메인에서 유료 링크 팜을 운영하는 한편, 계속해서 잘못된 정보를 퍼뜨리고 있습니다. 이러한 오해를 바로잡기 위해 이 페이지를 만들었습니다.
 
-## PrivacyTools가 뭔가요?
+## 프라이버시툴즈란 무엇인가요? { #what-is-privacytools }
 
-PrivacyTools는 2015년 'BurungHantu'가 스노든 폭로 이후 프라이버시에 도움이 되는 유용한 툴과 정보를 제공하려는 목적으로 만든 사이트입니다. 해당 사이트는 많은 [기여자](https://github.com/privacytools/privacytools.io/graphs/contributors)들의 참여를 통해 활발한 오픈 소스 프로젝트로 발전했습니다. 일부 기여자들은 Matrix와 Mastodon 같은 온라인 서비스를 운영하거나, GitHub에서 사이트의 변경 사항 관리 및 검수, 프로젝트 후원자 찾기, 블로그 포스트 작성, Twitter 같은 홍보 플랫폼 운영 등 다양한 조직적인 역할을 맡게 되었습니다.
+프라이버시툴즈는 스노든의 폭로 이후 프라이버시 정보 자료, 즉 유용한 도구를 소개하고자 했던 "BurungHantu"가 2015년에 만들었습니다. 이 사이트는 [많은 기여자](https://github.com/privacytools/privacytools.io/graphs/contributors)가 참여하는 활발한 오픈 소스 프로젝트로 성장했으며, 그중 일부는 결국 매트릭스와 마스토돈 같은 온라인 서비스 운영, 깃허브에서 사이트 변경 사항 관리 및 검토, 프로젝트 후원자 물색, 블로그 게시물 작성, 트위터 같은 소셜 미디어 홍보 플랫폼 운영 등 다양한 조직 업무를 맡게 되었습니다.
 
-2019년부터 BurungHantu는 웹사이트 및 커뮤니티의 활발한 개발에서 점점 멀어지기 시작했고, 서버 운영 관련 비용 결제를 미루기 시작했습니다. To avoid having our system administrator pay server costs out of their own pocket, we changed the donation methods listed on the site from BurungHantu's personal PayPal and crypto accounts to a new OpenCollective page on [October 31, 2019](https://web.archive.org/web/20210729184557/https://blog.privacytools.io/privacytools-io-joins-the-open-collective-foundation). 이는 저희가 중요하게 여기는 '완전히 투명한 재정 관리'를 달성하는 동시에, Open Collective Foundation 501(c)3이 미국에서 세금 공제가 가능하다는 이점도 존재했습니다. 변경 과정은 어떠한 반대도 없이 팀원들의 만장일치로 진행되었습니다.
+2019년부터 BurungHantu는 웹사이트와 커뮤니티의 활발한 개발에서 점점 멀어졌고, 자신이 책임지던 서버 관련 비용 지불을 미루기 시작했습니다. 시스템 관리자가 서버 비용을 사비로 내지 않도록, [2019년 10월 31일](https://web.archive.org/web/20210729184557/https://blog.privacytools.io/privacytools-io-joins-the-open-collective-foundation) 사이트에 안내된 후원 방법을 BurungHantu의 개인 페이팔 및 암호화폐 계정에서 새로운 오픈컬렉티브 페이지로 변경했습니다. 이 변경에는 프라이버시 가이드가 중요하게 여기는 가치인 재정의 완전한 투명성을 확보하고, 오픈 컬렉티브 재단 501(c)(3)이 자금을 관리하므로 미국에서 세금 공제를 받을 수 있다는 추가적인 이점도 있었습니다. 이 변경은 팀의 만장일치로 합의되었으며 아무런 이의도 제기되지 않았습니다.
 
-## 이전하게 된 이유
+## 이전하게 된 이유 { #why-we-moved-on }
 
-2020년이 되고, BurungHantu의 부재는 훨씬 두드러졌습니다. 향후 사이트 중단을 방지하기 위해 도메인 네임 서버를 시스템 관리자가 관리하는 네임 서버로 변경해야 했는데, 이 요청이 한달 넘게 완료되지 않았던 적도 있었습니다. BurungHantu는 Matrix 공개 채팅방과 팀원용 비공개 채팅방에서 몇 달씩 잠적하다가, 이따금 나타나 작은 피드백을 주고 앞으로는 더 활발히 활동하겠다고 약속한 후 다시 잠적하곤 했습니다.
+2020년에 BurungHantu의 부재는 훨씬 더 두드러졌습니다. 한번은 향후 서비스 중단을 막기 위해 도메인의 네임서버를 시스템 관리자가 관리하는 네임서버로 변경해야 했는데, 처음 요청한 후 한 달이 넘도록 이 변경이 완료되지 않았습니다. 그는 매트릭스의 공개 채팅방과 팀 비공개 채팅방에서 몇 달씩 자취를 감추었고, 이따금 나타나 짧은 피드백을 주거나 더 적극적으로 활동하겠다고 약속하고는 다시 사라지곤 했습니다.
 
-In October 2020, the PrivacyTools system administrator (Jonah) [left](https://web.archive.org/web/20210729190742/https://blog.privacytools.io/blacklight447-taking-over) the project because of these difficulties, handing control to another long-time contributor. Jonah는 BurungHangu가 부재 중이던 당시 거의 모든 PrivacyTools 서비스를 운영하고 웹사이트 개발의 *사실상* 프로젝트 리더로 활동해왔기 때문에, 그의 이탈은 조직에 큰 변화를 가져왔습니다. 이 중대한 조직 변화로 인해, 당시 BurungHantu는 나머지 팀원들에게 앞으로는 다시 프로젝트를 지휘하겠다고 약속했습니다. ==PrivacyTools 팀은 이후 수개월 동안 여러 방법을 통해 연락을 시도했지만, 어떠한 답변도 받지 못했습니다.==
+2020년 10월, 프라이버시툴즈의 시스템 관리자(조나)는 이러한 어려움 때문에 다른 오랜 기여자에게 관리 권한을 넘기고 프로젝트를 [떠났습니다](https://web.archive.org/web/20210729190742/https://blog.privacytools.io/blacklight447-taking-over). 조나는 BurungHantu가 부재한 동안 거의 모든 프라이버시툴즈 서비스를 운영하며 웹사이트 개발의 *사실상* 프로젝트 리더 역할을 해 왔기 때문에, 그의 이탈은 조직에 큰 변화였습니다. 당시 이러한 중대한 조직 변화 때문에 BurungHantu는 남은 팀원들에게 앞으로 돌아와 프로젝트를 이끌겠다고 약속했습니다. ==프라이버시툴즈 팀은 이후 몇 달 동안 여러 연락 수단을 통해 연락을 시도했지만, 아무런 답변도 받지 못했습니다.==
 
-## 도메인 의존 문제
+## 도메인 이름 의존 문제 { #domain-name-reliance }
 
-2021년 초, PrivacyTools 팀은 프로젝트의 미래에 대해 우려하게 되었습니다. 도메인이 2021년 3월 31일에 만료될 예정이었기 때문입니다. 결과적으로 도메인은 BurungHantu가 어떠한 언질도 없이 갱신하였습니다.
+2021년 초, 도메인 이름이 2021년 3월 1일에 만료될 예정이었기 때문에 프라이버시툴즈 팀은 프로젝트의 미래를 걱정하게 되었습니다. 결국 도메인은 BurungHantu가 아무런 설명 없이 갱신했습니다.
 
-하지만 매년 이런 문제가 발생하게 될 가능성이 있기에, 팀의 우려는 해소되지 않았습니다. 만약 도메인이 만료될 경우 스팸 발송자 등이 도메인을 탈취하여 사이트 평판을 떨어뜨리는 일이 일어날 수도 있습니다. 커뮤니티에 무슨 일이 발생했는지 알리는 것마저 어려움을 겪을 것입니다.
+팀의 우려는 해소되지 않았고, 이것이 매년 문제가 될 것이라는 점을 깨달았습니다. 도메인이 만료되면 도메인 선점자나 스패머가 도메인을 가로채 조직의 평판을 망칠 수 있었기 때문입니다. 또한 커뮤니티에 무슨 일이 일어났는지 알리는 데에도 어려움을 겪었을 것입니다.
 
-BurungHantu와 연락이 불가능한 상태에서, 팀은 기존 도메인 통제권이 보장되는 기한인 2022년 3월 이전에 새로운 도메인으로 이전하는 것이 최선의 조치라고 결정내렸습니다. 이로써 서비스 중단 없이 모든 PrivacyTools 자원을 새로운 사이트로 깔끔하게 리디렉션할 수 있었습니다. 해당 결정은 수개월 전에 내려졌으며, BurungHantu가 프로젝트를 지속적으로 지원할 것을 약속해 주길 바라는 마음에서 팀 전체에 전달했습니다. 높은 브랜드 인지도를 달성해내고 온라인 커뮤니티 규모도 커진 상황에서 'PrivacyTools'라는 이름을 버리는 것은 가장 바람직하지 않은 결과였기 때문입니다.
+BurungHantu와 전혀 연락이 닿지 않는 상황에서, 기존 도메인 이름에 대한 관리 권한이 아직 보장되는 2022년 3월 이전에 새 도메인 이름으로 이전하는 것이 최선의 조치라고 결정했습니다. 이렇게 하면 서비스 중단 없이 모든 프라이버시툴즈 자원을 새 사이트로 깔끔하게 리디렉션할 수 있었습니다. 이 결정은 수개월 전에 내려져 팀 전체에 공유되었습니다. 이미 잘 알려진 브랜드 이름과 대규모 온라인 커뮤니티가 있었기에 "프라이버시툴즈"를 떠나는 것은 가장 원하지 않는 결과였고, 그래서 BurungHantu가 연락하여 프로젝트를 계속 지원하겠다고 확언해 주기를 바랐기 때문입니다.
 
-2021년 중반, PrivacyTools 팀은 Jonah에게 연락을 취했고, Jonah는 이전을 돕고자 팀에 다시 합류하는 데 동의했습니다.
+2021년 중반, 프라이버시툴즈 팀은 조나에게 연락했고, 조나는 이전을 돕기 위해 팀에 다시 합류하기로 했습니다.
 
-## 커뮤니티 행동 촉구
+## 커뮤니티에 대한 행동 촉구 { #community-call-to-action }
 
-At the end of July 2021, we [informed](https://web.archive.org/web/20210729184422/https://blog.privacytools.io/the-future-of-privacytools) the PrivacyTools community of our intention to choose a new name and continue the project on a new domain, to be [chosen](https://web.archive.org/web/20210729190935/https://aragon.cloud/apps/forms/cMPxG9KyopapBbcw) on 2nd August 2022. 결과적으로 'Privacy Guides'가 선정됐고, Jonah가 2020년에 시작했지만 개발이 진행되지 않은 사이드 프로젝트에 사용하기 위해 소유하고 있던 `privacyguides.org` 도메인을 사용하기로 했습니다.
+2021년 7월 말, 프라이버시툴즈 커뮤니티에 새 이름을 정하고 새 도메인에서 프로젝트를 계속하겠다는 계획을 [알렸으며](https://web.archive.org/web/20210729184422/https://blog.privacytools.io/the-future-of-privacytools), 새 이름은 2022년 8월 2일에 [정하기로](https://web.archive.org/web/20210729190935/https://aragon.cloud/apps/forms/cMPxG9KyopapBbcw) 했습니다. 결국 "Privacy Guides"가 선정되었으며, `privacyguides.org` 도메인은 2020년에 시작했지만 진행되지 않았던 사이드 프로젝트를 위해 조나가 이미 소유하고 있던 것이었습니다.
 
-## r/privacytoolsIO 운영 권한
+## r/privacytoolsIO 관리 권한 { #control-of-rprivacytoolsio }
 
-Simultaneously with the ongoing website issues at privacytools.io, the r/privacytoolsIO moderation team was facing challenges with managing the Subreddit. The Subreddit had always been operated mostly independently of the website's development, but BurungHantu was the primary moderator of the Subreddit as well, and he was the only moderator granted "Full Control" privileges. u/trai_dep was the only active moderator at the time, and [posted](https://reddit.com/comments/o9tllh) a request to Reddit's administrators on June 28, 2021, asking to be granted the primary moderator position and full control privileges, in order to make necessary changes to the Subreddit.
+privacytools.io 웹사이트에서 문제가 계속되던 것과 동시에, r/privacytoolsIO 모더레이션 팀도 서브레딧을 관리하는 데 어려움을 겪고 있었습니다. 서브레딧은 항상 웹사이트 개발과 대체로 독립적으로 운영되었지만, BurungHantu는 서브레딧의 주 모더레이터이기도 했으며 "모든 권한(Full Control)"을 가진 유일한 모더레이터였습니다. 당시 활동 중인 모더레이터는 u/trai_dep뿐이었으며, 서브레딧에 필요한 변경을 하기 위해 2021년 6월 28일 레딧 관리자에게 주 모더레이터 지위와 모든 권한을 요청하는 [게시물](https://reddit.com/comments/o9tllh)을 올렸습니다.
 
-Reddit requires that Subreddits have active moderators. 주 관리자는 장기간(예시: 1년 이상) 활동하지 않는 경우, 주 관리자는 다음 순위의 관리자로 재임명 가능합니다. 이 요청이 받아들여지기 위해서는 BurungHantu가 (다른 플랫폼에서 잠적했던 것처럼) 오랜 기간 동안 어떤 Reddit 활동에도 전혀 참여하지 않았어야 했습니다.
+레딧은 서브레딧에 활동 중인 모더레이터가 있어야 한다고 규정하고 있습니다. 주 모더레이터가 (1년 등) 장기간 활동하지 않으면, 주 모더레이터 지위가 다음 순위의 모더레이터에게 다시 부여될 수 있습니다. 이 요청이 받아들여지려면 BurungHantu가 장기간 레딧 활동을 전혀 하지 않았어야 했는데, 이는 다른 플랫폼에서의 그의 행동과도 일치했습니다.
 
-> Reddit 요청을 통해 서브레딧 관리자에서 해임된 경우, 이는 귀하의 응답 부재와 활동 부족으로 인해 해당 서브레딧이 r/redditrequest 위임을 받을 조건을 충족했기 때문입니다.
+> 레딧 요청을 통해 서브레딧의 모더레이터에서 해임되었다면, 이는 여러분의 무응답과 활동 부족으로 인해 해당 서브레딧이 r/redditrequest를 통한 이전 대상이 되었기 때문입니다.
 > 
-> r/redditrequest is Reddit's way of making sure communities have active moderators and is part of the [Moderator Code of Conduct](https://redditinc.com/policies/moderator-code-of-conduct).
+> r/redditrequest는 커뮤니티에 활동 중인 모더레이터가 있도록 보장하기 위한 레딧의 방식이며, [모더레이터 행동 강령](https://redditinc.com/policies/moderator-code-of-conduct)의 일부입니다.
 
-## 이전 개시
+## 이전 시작 { #beginning-the-transition }
 
-On September 14th, 2021, we [announced](https://blog.privacyguides.org/2021/09/14/welcome-to-privacy-guides) the beginning of our migration to this new domain:
+2021년 9월 14일, 새 도메인으로의 이전 시작을 [발표](https://blog.privacyguides.org/2021/09/14/welcome-to-privacy-guides)했습니다:
 
-> ... 저희는 이전이 이루어졌음을 사람들이 가능한 한 빨리 알 수 있도록 이전을 서둘러야 한다고 판단했습니다. This gives us adequate time to transition the domain name, which is currently redirecting to `www.privacyguides.org`, and it hopefully gives everyone enough time to notice the change, update bookmarks and websites, etc.
+> [...] 사람들이 이 이전 소식을 최대한 빨리 알 수 있도록 하루라도 빨리 전환하는 것이 필요하다고 판단했습니다. 이렇게 하면 현재 `www.privacyguides.org`로 리디렉션되고 있는 도메인 이름을 이전할 시간이 충분히 확보되며, 모든 사람이 변경 사항을 알아차리고 북마크와 웹사이트 등을 업데이트할 시간도 충분히 주어질 것입니다.
 
-This change [entailed:](https://reddit.com/comments/pnhn4a)
+이 변경에는 다음이 [포함되었습니다:](https://reddit.com/comments/pnhn4a)
 
-- Redirecting `www.privacytools.io` to [www.privacyguides.org](https://www.privacyguides.org).
-- 지난 작업과 이슈 트래커를 보존하기 위해 GitHub에 소스 코드를 아카이브하여 향후 수개월 동안 현재 사이트를 개발하는 용도로 이용했습니다.
-- Posting announcements to our Subreddit and various other communities informing people of the official change.
-- Matrix, Mastodon 등 privacytools.io 서비스를 공식적으로 폐쇄하고 기존 사용자에게 가능한 한 빨리 이전하도록 권장합니다.
+- `www.privacytools.io`를 [www.privacyguides.org](https://www.privacyguides.org)로 리디렉션.
+- 과거 작업과 이슈 트래커를 보존하기 위해 깃허브의 소스 코드를 보관 처리. 이 이슈 트래커는 이후 몇 달 동안 이 사이트를 개발하는 데 계속 사용했습니다.
+- 서브레딧과 여러 커뮤니티에 공식 변경 사항을 알리는 공지 게시.
+- 매트릭스, 마스토돈 같은 privacytools.io 서비스를 공식적으로 종료하고, 기존 사용자에게 최대한 빨리 이전하도록 권장.
 
-모든 것이 순조롭게 진행되는 듯 보였고, 활발히 활동하던 커뮤니티는 대부분 저희가 바라던 대로 새 프로젝트로 전환했습니다.
+모든 것이 순조롭게 진행되는 듯했고, 활발히 활동하던 커뮤니티 대부분이 바라던 대로 새 프로젝트로 옮겨 왔습니다.
 
-## 이후의 사건들
+## 이후의 사건 { #following-events }
 
-이전하고 나서 대략 일주일 후, BurungHantu는 약 1년 만에 처음으로 온라인에 복귀했지만, 여태까지의 불안정성으로 인해 팀원은 아무도 PrivacyTools로 복귀할 의향이 없었습니다. BurungHantu는 장기 부재에 대해 사과하기는 커녕 즉시 공격적으로 나서며 Privacy Guides로의 이전을 자신과 자신의 프로젝트에 대한 공격으로 받아들였습니다. He subsequently [deleted](https://reddit.com/comments/pp9yie/comment/hd49wbn) many of these posts when it was pointed out by the community that he had been absent and abandoned the project.
+이전한 지 약 일주일 후 BurungHantu가 거의 1년 만에 처음으로 다시 온라인에 나타났지만, 그동안의 신뢰할 수 없는 행보 때문에 팀원 누구도 프라이버시툴즈로 돌아가려 하지 않았습니다. 그는 장기간 자리를 비운 것에 대해 사과하기는커녕 곧바로 공세에 나서, 프라이버시 가이드로의 이전을 자신과 자신의 프로젝트에 대한 공격으로 몰아갔습니다. 이후 그가 자리를 비우고 프로젝트를 방치했다는 사실을 커뮤니티가 지적하자, 그는 이러한 게시물 상당수를 [삭제](https://reddit.com/comments/pp9yie/comment/hd49wbn)했습니다.
 
-At this point, BurungHantu claimed he wanted to continue working on privacytools.io on his own and requested that we remove the redirect from `www.privacytools.io` to [www.privacyguides.org](https://www.privacyguides.org). Privacy Guides는 이를 따랐고, 커뮤니티 인원들이 사용하고 있는 Matrix, Mastodon, PeerTube 서브도메인을 적어도 앞으로 몇 달간은 공개 서비스로 계속 운영하여 해당 사용자들이 다른 계정으로 마이그레이션할 기간을 마련해달라고 BurungHantu에게 요청했습니다. 당시 제공하던 서비스의 연합적 특성으로 인해 특정 도메인에 결속돼있어 마이그레이션하기 매우 어려웠고, 아예 불가능한 경우마저 있었습니다.
+이 시점에 BurungHantu는 혼자서 privacytools.io 작업을 계속하겠다며, `www.privacytools.io`에서 [www.privacyguides.org](https://www.privacyguides.org)로의 리디렉션을 제거해 달라고 요청했습니다. 프라이버시 가이드는 이에 응했고, 해당 플랫폼의 사용자가 다른 계정으로 쉽게 이전할 수 있도록 매트릭스, 마스토돈, 피어튜브 하위 도메인을 최소 몇 달 동안은 커뮤니티를 위한 공개 서비스로 계속 운영할 수 있게 유지해 달라고 요청했습니다. 프라이버시 가이드가 제공하던 서비스는 연합형이라는 특성상 특정 도메인 이름에 묶여 있어 이전하기가 매우 어려웠습니다(경우에 따라서는 불가능했습니다).
 
-Unfortunately, because control of the r/privacytoolsIO Subreddit was not returned to BurungHantu at his demand (further information below), those subdomains were [cut off](https://reddit.com/comments/pymthv/comment/hexwrps) at the beginning of October, ending any migration possibilities to any users still using those services.
+안타깝게도 r/privacytoolsIO 서브레딧의 관리 권한을 그의 요구대로 BurungHantu에게 돌려주지 않자(자세한 내용은 아래 참고), 10월 초 해당 하위 도메인이 [차단](https://reddit.com/comments/pymthv/comment/hexwrps)되었고, 아직 그 서비스를 사용하던 사용자들은 이전할 기회를 잃었습니다.
 
-곧이어 BurungHantu는 Jonah가 프로젝트 후원금을 훔쳤다고 거짓 비난을 했습니다. BurungHantu의 주장대로라면 당시 시점은 이미 해당 사건이 발생한 지 1년이 넘은 상태였지만, Privacy Guides로의 이전이 이루어질 때까지 그 누구에게도 해당 사건을 알리지 않았다는 뜻이 됩니다. Privacy Guides 팀 및 [커뮤니티는](https://twitter.com/TommyTran732/status/1526153536962281474) BurungHantu에게 해당 주장이 사실이라면 증거는 무엇인지, 여태까지 고발하지 않았던 이유는 무엇인지 밝힐 것을 여러 차례 요청했지만, 그는 대답하지 않았습니다.
+이후 BurungHantu는 조나가 프로젝트의 후원금을 훔쳤다며 허위 비난을 했습니다. BurungHantu는 문제의 사건이 일어났다고 주장한 시점으로부터 1년이 넘도록, 프라이버시 가이드로의 이전 이후까지 이를 누구에게도 알리지 않았습니다. 팀과 [커뮤니티](https://twitter.com/TommyTran732/status/1526153536962281474)가 BurungHantu에게 증거를 제시하고 그동안 침묵한 이유를 밝히라고 여러 차례 요청했지만, 그는 응하지 않았습니다.
 
-BurungHantu also made a [twitter post](https://twitter.com/privacytoolsIO/status/1510560676967710728) alleging that an "attorney" had reached out to him on Twitter and was providing advice, in another attempt to bully us into giving him control of our Subreddit, and as part of his smear campaign to muddy the waters surrounding the launch of Privacy Guides while pretending to be a victim.
+BurungHantu는 또한 "변호사"가 트위터로 연락해 조언을 해 주고 있다고 주장하는 [트위터 게시물](https://twitter.com/privacytoolsIO/status/1510560676967710728)을 올렸는데, 이는 서브레딧 관리 권한을 넘기도록 프라이버시 가이드를 압박하려는 또 다른 시도이자, 피해자인 척하면서 프라이버시 가이드의 출범을 둘러싼 상황을 흐리려는 비방 공작의 일환이었습니다.
 
-## PrivacyTools.io 현황
+## PrivacyTools.io의 현재 { #privacytoolsio-now }
 
-2022년 9월 25일 기준, Privacy Guides는 BurungHantu가 privacytools.io에서 어떤 만행을 저지르고 있는지 파악했고, 이는 보고 계신 설명 페이지를 만들기로 결정한 주된 이유이기도 합니다. BurungHantu가 운영 중인 사이트는 SEO(검색 엔진 최적화)를 매우 신경써서 검색 결과에서 최대한 많은 노출을 노리고 있으며, 금전적 보상을 대가로 받고 특정 서비스를 추천하고 있습니다. 최근에는 IVPN, Mullvad VPN 서비스가 PrivacyTools에서 제거되었습니다. 이 두 서비스는 프라이버시 커뮤니티라면 어디든 보편적으로 [권장하는](../vpn.md) 서비스이며, 제휴 마케팅에 반대하는 입장으로 유명합니다. 대신에 등재된 서비스는 NordVPN, Surfshark, ExpressVPN, hide.me였습니다. 이들은 신뢰할 수 없는 플랫폼과 비즈니스 관행을 가진 거대 VPN 업체로, 공격적인 홍보 및 제휴 마케팅으로 악명 높습니다.
+2022년 9월 25일 현재, BurungHantu의 전반적인 계획이 privacytools.io에서 현실화되고 있으며, 바로 이 때문에 오늘 이 설명 페이지를 만들기로 했습니다. 그가 운영하는 웹사이트는 금전적 보상을 대가로 도구를 추천하는, 검색 엔진 최적화(SEO)에 크게 치중한 버전의 사이트로 보입니다. 최근에는 프라이버시 커뮤니티에서 거의 보편적으로 [추천](../vpn.md)되며 제휴 프로그램에 반대하는 입장으로 유명한 두 VPN 제공업체, IVPN과 멀바드가 프라이버시툴즈에서 삭제되었습니다. 그 자리를 대신한 것은? 노드VPN, 서프샤크, 익스프레스VPN, hide.me입니다. 신뢰할 수 없는 플랫폼과 사업 관행을 가진 거대 VPN 기업들로, 공격적인 마케팅과 제휴 프로그램으로 악명이 높습니다.
 
-==**PrivacyTools has become exactly the type of site we [warned against](https://web.archive.org/web/20210729205249/https://blog.privacytools.io/the-trouble-with-vpn-and-privacy-reviews) on the PrivacyTools blog in 2019.**== We've tried to keep our distance from PrivacyTools since the transition, but their continued harassment towards our project and now their absurd abuse of the credibility their brand gained over 6 years of open-source contributions is extremely troubling to us. 프라이버시를 진지하게 고려하는 사람들은 서로 싸우려 들지 않으며, 누군가에게 큰 돈을 받고 남들을 선동하지 않습니다.
+==**프라이버시툴즈는 2019년 프라이버시툴즈 블로그에서 프라이버시 가이드가 [경고했던](https://web.archive.org/web/20210729205249/https://blog.privacytools.io/the-trouble-with-vpn-and-privacy-reviews) 바로 그런 유형의 사이트가 되었습니다.**== 이전 이후 프라이버시툴즈와 거리를 두려고 노력해 왔지만, 프로젝트에 대한 계속된 괴롭힘과, 이제는 6년간의 오픈 소스 기여로 쌓은 브랜드의 신뢰도를 터무니없이 악용하는 행태가 매우 우려스럽습니다. 실제로 프라이버시를 위해 싸우는 사람들은 서로 싸우지 않으며, 가장 높은 값을 부르는 쪽에서 조언을 받지도 않습니다.
 
-## r/privacytoolsIO 현황
+## r/privacytoolsIO의 현재 { #rprivacytoolsio-now }
 
-After the launch of [r/PrivacyGuides](https://reddit.com/r/privacyguides), it was impractical for u/trai_dep to continue moderating both Subreddits, and with the community on-board with the transition, r/privacytoolsIO was [made](https://reddit.com/comments/qk7qrj) a restricted sub in a post on November 1st, 2021:
+[r/PrivacyGuides](https://reddit.com/r/privacyguides)가 출범한 후, u/trai_dep가 두 서브레딧을 모두 관리하는 것은 현실적으로 어려웠고, 커뮤니티도 이전에 동참했기에 2021년 11월 1일 게시물을 통해 r/privacytoolsIO는 제한된 서브레딧으로 [전환](https://reddit.com/comments/qk7qrj)되었습니다:
 
-> ... 이 서브레딧의 여태까지의 성장은 수년에 걸쳐 이루어진 많은 노력의 결과입니다. 다름 아닌 PrivacyGuides.org 팀이 그 주역이었습니다. 그리고 여러분 모두의 덕택이었습니다.
+> [...] 이 서브레딧의 성장은 PrivacyGuides.org 팀이 수년에 걸쳐 기울인 큰 노력의 결과였습니다. 그리고 여러분 모두의 노력이기도 했습니다.
 > 
-> 서브레딧 운영에는 많은 관리와 조정 노력이 필요합니다. 정원과 마찬가지로 인내심을 갖고 매일 관리해야 합니다. It's not a task for dilettantes or commitment-challenged people. 수년 동안 방치해 두다가 갑자기 나타나 올해의 수확물을 기대하는 정원사 밑에서는 결코 융성할 수 없습니다. It's unfair to the team formed years ago. 여러분에게 있어 부당한 일입니다. ...
+> 서브레딧을 운영하고 관리하는 데는 많은 노력이 필요합니다. 정원처럼 인내심을 가지고 가꾸며 매일 돌봐야 합니다. 이는 아마추어나 끈기가 부족한 사람이 할 수 있는 일이 아닙니다. 몇 년 동안 정원을 방치하다가 나타나 올해의 수확물을 공물로 바치라고 요구하는 정원사 밑에서는 정원이 번성할 수 없습니다. 이는 수년 전에 결성된 팀에게 불공평합니다. 여러분에게도 불공평합니다. [...]
 
-서브레딧은 그 누구의 소유물도 아니며, 브랜드 대표만의 소유물은 더더욱 아닙니다. 서브레딧은 커뮤니티의 소유물입니다. 그리고 커뮤니티와 운영진은 r/PrivacyGuides로의 이전을 지지하기로 결정했습니다.
+서브레딧은 누구의 소유도 아니며, 특히 브랜드 보유자의 소유는 더더욱 아닙니다. 서브레딧은 커뮤니티의 것이며, 커뮤니티와 모더레이터는 r/PrivacyGuides로의 이전을 지지하기로 결정했습니다.
 
-In the months since, BurungHantu has threatened and begged for returning Subreddit control to his account in [violation](https://reddit.com/r/redditrequest/wiki/top_mod_removal) of Reddit rules:
+그 이후 몇 달 동안 BurungHantu는 레딧 규칙을 [위반](https://reddit.com/r/redditrequest/wiki/top_mod_removal)하면서까지 서브레딧 관리 권한을 자신의 계정으로 돌려 달라고 위협하고 애원했습니다:
 
-> 해임 요청에 관련한 관리자의 보복 행위는 허용되지 않습니다.
+> 해임 요청과 관련하여 모더레이터가 보복하는 행위는 허용되지 않습니다.
 
-커뮤니티에 여전히 수천 명의 구독자가 남아 있었기 때문에, 이 거대한 플랫폼의 통제권을 매우 낮은 품질의 정보를 제공하는 사이트를 운영하고 있는 사람에게, 1년 이상 방임하는 사람에게 돌려주는 것은 도리가 아니라 판단했습니다. Preserving the years of past discussions in that community is more important to us, and thus u/trai_dep and the rest of the Subreddit moderation team has made the decision to keep r/privacytoolsIO as-is.
+아직 수천 명의 구독자가 남아 있는 커뮤니티의 경우, 그 거대한 플랫폼의 관리 권한을 1년 넘게 방치했고 지금은 매우 질 낮은 정보를 제공한다고 판단되는 웹사이트를 운영하는 사람에게 돌려주는 것은 커뮤니티를 크게 무시하는 일이라고 생각합니다. 해당 커뮤니티에서 수년간 이루어진 토론을 보존하는 것이 더 중요하다고 판단했기에, u/trai_dep와 나머지 서브레딧 모더레이션 팀은 r/privacytoolsIO를 현재 상태로 유지하기로 결정했습니다.
 
-## OpenCollective 현황
+## 오픈컬렉티브의 현재 { #opencollective-now }
 
-모금 플랫폼인 OpenCollective는 또 다른 논쟁의 원인입니다. Privacy Guides의 입장은 'OpenCollective는 Privacy Guides 팀이 설립하고 운영 중이며 PrivacyTools가 더 이상 운영하지 않는 서비스에 자금을 지원하기 위해 관리하고 있습니다'라는 것입니다. 저희는 모든 후원자에게 Privacy Guides로의 이전에 대해 [알렸으며](https://opencollective.com/privacyguides/updates/transitioning-to-privacy-guides), 후원자 및 커뮤니티는 모두 동의했습니다.
+모금 플랫폼인 오픈컬렉티브도 또 다른 논쟁거리입니다. 프라이버시 가이드의 입장은 오픈컬렉티브가 현재 프라이버시 가이드가 운영하고 있으며 프라이버시툴즈는 더 이상 운영하지 않는 서비스의 자금을 마련하기 위해 프라이버시 가이드 팀이 개설하고 관리해 온 것이라는 점입니다. 프라이버시 가이드로의 이전에 관해 모든 후원자에게 [연락](https://opencollective.com/privacyguides/updates/transitioning-to-privacy-guides)했으며, 후원자와 커뮤니티로부터 만장일치로 지지를 받았습니다.
 
-따라서 OpenCollective 자금은 Privacy Guides에 속합니다. 유명한 도메인의 소유자에게 제공되는 것이 아닌, Privacy Guides 프로젝트에 제공됩니다. 2021년 9월 17일, Privacy Guides는 앞서 공지했던 이전 계획에 동의하지 않는 후원자에게는 환불 처리를 해줄 것을 알렸으나, 실제로 환불을 요청한 후원자는 없었습니다.
+따라서 오픈컬렉티브의 자금은 프라이버시 가이드의 것이며, 이 자금은 잘 알려진 도메인 이름의 소유자가 아니라 프로젝트에 후원된 것입니다. 2021년 9월 17일 후원자에게 보낸 공지에서, 프라이버시 가이드의 입장에 동의하지 않는 후원자에게 환불을 제안했지만 이 제안을 받아들인 사람은 아무도 없었습니다:
 
-> If any sponsors or backers disagree with or feel misled by these recent events and would like to request a refund given these highly unusual circumstances, please get in touch with our project admin by emailing `jonah@triplebit.net`.
+> 최근의 사건에 동의하지 않거나 오해의 소지가 있었다고 느끼는 후원자가 있으며 이처럼 매우 이례적인 상황을 고려하여 환불을 요청하고 싶다면, `jonah@triplebit.net`으로 프로젝트 관리자에게 이메일을 보내 주세요.
 
-## 추가 참고 자료
+## 더 읽을거리 { #further-reading }
 
-본 주제는 커뮤니티 내에서 여러 차례 논의되어 왔으며, 현재 페이지를 읽고 계신 분들은 대부분 Privacy Guides로 전환되기까지의 사건에 대해 이미 잘 아실 것이라 생각합니다. 본 주제 관련 이전 포스트 중에는 여기서는 간결성을 위해 생략한 추가 정보가 담겨있을 수 있습니다. 필요하다면 다음 링크들을 참고하시기 바랍니다.
+이 주제는 여러 곳의 커뮤니티에서 폭넓게 논의되어 왔으며, 이 페이지를 읽는 대부분의 사람은 프라이버시 가이드로 이전하기까지의 사건을 이미 알고 있을 것으로 보입니다. 이 문제에 관한 이전 게시물 중 일부에는 간결함을 위해 여기서 생략한 세부 내용이 담겨 있을 수 있습니다. 빠짐없이 참고할 수 있도록 아래에 링크해 두었습니다.
 
-- [2021년 6월 28일: r/privacytoolsIO 권한 요청](https://reddit.com/comments/o9tllh)
-- [2021년 7월 27일: 팀이 PrivacyTools 블로그에 작성한 이전 계획 발표](https://web.archive.org/web/20210729184422/https://blog.privacytools.io/the-future-of-privacytools)
-- [2021년 9월 13일: r/privacytoolsIO Privacy Guides로의 이전 개시 발표](https://archive.ph/rMevJ)
-- [2021년 9월 17일: Open Collective 관련 공지 (Jonah 작성)](https://opencollective.com/privacyguides/updates/transitioning-to-privacy-guides)
-- [2021년 9월 30일: 현재 보고 계신 이 페이지에 설명된 대부분의 사건을 자세히 설명하는 Twitter 스레드](https://twitter.com/privacy_guides/status/1443633412800225280)
-- [2021년 10월 1일: 서브도메인 중단 알림 게시글 (u/dng99 작성)](https://reddit.com/comments/pymthv/comment/hexwrps)
-- [2022년 4월 2일: PrivacyTool의 비난 블로그 포스트에 대한 u/dnd99의 응답](https://reddit.com/comments/tuo7mm/comment/i35kw5a)
-- [2022년 5월 16일: Twitter에 작성된 응답 (@TommyTran732 작성)](https://twitter.com/TommyTran732/status/1526153497984618496)
-- [2022년 9월 3일: Techlore 포럼에 작성된 포스트 (@dngray 작성)](https://web.archive.org/web/20260521005749/https://discuss.techlore.tech/t/has-anyone-seen-this-video-wondering-your-thoughts/792/20)
+- [2021년 6월 28일, r/privacytoolsIO 관리 권한 요청](https://reddit.com/comments/o9tllh)
+- [2021년 7월 27일, 팀이 프라이버시툴즈 블로그에 작성한 이전 계획 발표](https://web.archive.org/web/20210729184422/https://blog.privacytools.io/the-future-of-privacytools)
+- [2021년 9월 13일, r/privacytoolsIO에 게시된 프라이버시 가이드로의 이전 시작 발표](https://archive.ph/rMevJ)
+- [2021년 9월 17일, 조나가 오픈컬렉티브에 게시한 공지](https://opencollective.com/privacyguides/updates/transitioning-to-privacy-guides)
+- [2021년 9월 30일, 이 페이지에 설명된 사건 대부분을 자세히 다룬 트위터 스레드](https://twitter.com/privacy_guides/status/1443633412800225280)
+- [2021년 10월 1일, 하위 도메인 차단에 관한 u/dng99의 게시물](https://reddit.com/comments/pymthv/comment/hexwrps)
+- [2022년 4월 2일, 프라이버시툴즈의 비난성 블로그 게시물에 대한 u/dng99의 답변](https://reddit.com/comments/tuo7mm/comment/i35kw5a)
+- [2022년 5월 16일, 트위터에 게시된 @TommyTran732의 답변](https://twitter.com/TommyTran732/status/1526153497984618496)
+- [2022년 9월 3일, 테크로어 포럼에 게시된 @dngray의 글](https://web.archive.org/web/20260521005749/https://discuss.techlore.tech/t/has-anyone-seen-this-video-wondering-your-thoughts/792/20)

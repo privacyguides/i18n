@@ -1,54 +1,54 @@
 ---
-title: Intern (Community & News)
-description: Privacy Guides is looking for an intern to discover and promote relevant news content on our platform, and to moderate and engage with our online communities.
+title: 인턴(커뮤니티 및 뉴스)
+description: 프라이버시 가이드는 플랫폼에서 관련 뉴스 콘텐츠를 찾아 소개하고, 온라인 커뮤니티를 관리하며 소통할 인턴을 찾고 있습니다.
 ---
 
-[:material-arrow-left-drop-circle: Job Openings](../jobs.md)
+[:material-arrow-left-drop-circle: 채용 공고](../jobs.md)
 
 <div class="admonition info" markdown>
-<p class="admonition-title">Position Closed</p>
+<p class="admonition-title">채용이 마감되었습니다</p>
 
-Thank you for your interest in this position at Privacy Guides. At this time we are no longer accepting new applications, but please follow our [job openings](../jobs.md) page to learn about future opportunities.
+프라이버시 가이드의 이 직무에 관심을 가져 주셔서 감사합니다. 현재는 더 이상 새로운 지원을 받지 않지만, 향후 채용 기회는 [채용 공고](../jobs.md) 페이지에서 확인해 주세요.
 
 </div>
 
-Are you passionate about privacy and cybersecurity?
+프라이버시와 사이버 보안에 열정이 있으신가요?
 
-Privacy Guides is an international nonprofit dedicated to producing top-tier, unbiased educational content and journalism, and to fostering safe and informative online communities to discuss technical topics around improving personal privacy and cybersecurity.
+프라이버시 가이드는 최고 수준의 편향되지 않은 교육 콘텐츠와 저널리즘을 제작하고, 개인의 프라이버시와 사이버 보안을 개선하는 기술적 주제를 논의할 수 있는 안전하고 유익한 온라인 커뮤니티를 육성하는 데 전념하는 국제 비영리 단체입니다.
 
-This role is focused on interacting with our community members and answering their questions, keeping our online communities safe and constructive, and sharing thoughtful and informative news stories from around the internet for community discussion.
+이 직무는 커뮤니티 구성원과 소통하며 질문에 답하고, 온라인 커뮤니티를 안전하고 건설적으로 유지하며, 커뮤니티에서 토론할 수 있도록 인터넷 곳곳의 사려 깊고 유익한 뉴스 기사를 공유하는 데 중점을 둡니다.
 
-Responsibilities will include:
+주요 업무는 다음과 같습니다:
 
-- Regularly interacting with our forum and other communities.
-- Responding to moderation complaints/flags within our communities.
-- Reading news stories from a variety of publications and generally staying up to date with the latest news in the privacy and cybersecurity space.
-- Regularly posting interesting news stories and other topics you discover in our communities for discussion.
-- Assisting our other staff and volunteers with research, writing, video production, and editing.
-- Assisting with Privacy Guides' advocacy efforts.
-- Remaining polite and fact-focused.
+- 포럼 및 기타 커뮤니티에서의 정기적인 소통.
+- 커뮤니티 내 모더레이션 관련 불만/신고에 대한 대응.
+- 다양한 매체의 뉴스 기사를 읽고, 프라이버시 및 사이버 보안 분야의 최신 소식을 전반적으로 파악.
+- 발견한 흥미로운 뉴스 기사와 기타 주제를 토론을 위해 커뮤니티에 정기적으로 게시.
+- 다른 직원과 자원봉사자의 조사, 글쓰기, 동영상 제작, 편집 지원.
+- 프라이버시 가이드의 옹호 활동 지원.
+- 예의를 지키고 사실에 집중하는 태도 유지.
 
-No prior experience is necessary. We are looking for people passionate about privacy, cybersecurity, journalism, and community management regardless of your GPA or background.
+이전 경력은 필요하지 않습니다. 학점이나 배경과 관계없이 프라이버시, 사이버 보안, 저널리즘, 커뮤니티 관리에 열정이 있는 사람을 찾고 있습니다.
 
-The following will be assets to your application, but please submit an application even if they don't apply to you:
+다음 사항은 지원 시 강점이 되지만, 해당되지 않더라도 지원해 주세요:
 
-- Familiarity with Privacy Guides' communities, culture, and mission.
-- Previous experience with social media management and/or journalism.
-- Located between UTC-08:00 and UTC-04:00 time zones.
+- 프라이버시 가이드의 커뮤니티, 문화, 사명에 대한 이해.
+- 소셜 미디어 관리 및/또는 저널리즘 경력.
+- UTC-08:00에서 UTC-04:00 사이의 시간대에 거주.
 
-This is a part-time, 10-20 hour per week role depending on your availability. We can work around your schedule and other obligations.
+이 직무는 여러분의 가능한 시간에 따라 주 10~20시간 근무하는 시간제 직무입니다. 여러분의 일정과 다른 의무에 맞춰 조율할 수 있습니다.
 
-This is a 6-month contract paying $15 / hour USD, with the optional opportunity for renewal or a longer-term role depending on your personal goals and the project's outcome. The specific starting and ending dates are flexible.
+시간당 $15(USD)를 지급하는 6개월 계약직이며, 개인 목표와 프로젝트 성과에 따라 계약 갱신이나 장기 직무로 전환할 수 있는 기회가 선택적으로 주어집니다. 구체적인 시작일과 종료일은 유연하게 정할 수 있습니다.
 
 ---
 
 <div class="admonition info" markdown>
-<p class="admonition-title">Position Closed</p>
+<p class="admonition-title">채용이 마감되었습니다</p>
 
-Thank you for your interest in this position at Privacy Guides. At this time we are no longer accepting new applications, but please follow our [job openings](../jobs.md) page to learn about future opportunities.
+프라이버시 가이드의 이 직무에 관심을 가져 주셔서 감사합니다. 현재는 더 이상 새로운 지원을 받지 않지만, 향후 채용 기회는 [채용 공고](../jobs.md) 페이지에서 확인해 주세요.
 
 </div>
 
-Privacy Guides is fiscally hosted by [MAGIC Grants](https://magicgrants.org), a 501(c)(3) public charity. MAGIC Grants is an equal opportunity employer. MAGIC Grants does not discriminate against any applicant or employee because of age, color, sex, disability, national origin, race, religion, sexual orientation, sexual identity, veteran status, or other protected characteristic.
+프라이버시 가이드의 회계 호스트는 501(c)(3) 공익 자선 단체인 [MAGIC 그랜츠](https://magicgrants.org)입니다. MAGIC 그랜츠는 기회 균등 고용주입니다. MAGIC 그랜츠는 나이, 피부색, 성별, 장애, 출신 국가, 인종, 종교, 성적 지향, 성 정체성, 제대 군인 여부 또는 기타 법적으로 보호되는 특성을 이유로 지원자나 직원을 차별하지 않습니다.
 
-We respect your privacy. After this position is filled, your application will be deleted. Your application will not be shared with third parties.
+프라이버시 가이드는 여러분의 프라이버시를 존중합니다. 이 직무의 채용이 완료되면 지원서는 삭제됩니다. 지원서는 제3자와 공유되지 않습니다.

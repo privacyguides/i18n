@@ -1,58 +1,58 @@
 ---
-title: Donation Acceptance Policy
-description: Privacy Guides aspires to obtain funding from a wide variety of sources to reduce our dependency on any single donor. Please consider donating!
+title: 후원금 수령 정책
+description: 프라이버시 가이드는 특정 후원자에 대한 의존도를 줄이기 위해 다양한 곳에서 자금을 확보하고자 합니다. 후원을 고려해 주세요!
 ---
 
-Privacy Guides takes the ethical responsibility of making unbiased recommendations on its website very seriously.
+프라이버시 가이드는 웹사이트에서 편향되지 않은 추천을 해야 하는 윤리적 책임을 매우 중요하게 생각합니다.
 
-Privacy Guides aspires to obtain funding from a wide variety of sources to reduce our dependency on any single donor. Please consider [donating](donate.md)!
+프라이버시 가이드는 특정 후원자에 대한 의존도를 줄이기 위해 다양한 곳에서 자금을 확보하고자 합니다. [후원](donate.md)을 고려해 주세요!
 
-## What we **can** accept
+## 받을 **수 있는** 것 { #what-we-can-accept }
 
-In the course of our regular fundraising activities...
+일반적인 모금 활동 과정에서...
 
-- Donations and other forms of support will generally be accepted from individuals, corporations, foundations, or other entities, without limitations.
-  - This includes cash, cash equivalents (checks, money orders, credit/debit card payments), and cryptocurrency.
-- Gifts of Real Property, Personal Property, or Securities may only be accepted upon approval of the MAGIC Grants board of directors.
+- 후원금과 기타 형태의 지원은 일반적으로 개인, 기업, 재단 또는 기타 주체로부터 제한 없이 받습니다.
+  - 여기에는 현금, 현금성 자산(수표, 우편환, 신용/직불카드 결제), 암호화폐가 포함됩니다.
+- 부동산, 동산 또는 유가 증권의 증여는 MAGIC 그랜츠 이사회의 승인을 받은 경우에만 받을 수 있습니다.
 
-Privacy Guides will only accept such gifts that are legal and consistent with our policies. Gifts must not interfere with Privacy Guides' mission, purpose, and procedures.
+프라이버시 가이드는 합법적이고 프라이버시 가이드의 정책에 부합하는 증여만 받습니다. 증여는 프라이버시 가이드의 사명, 목적, 절차를 방해해서는 안 됩니다.
 
-## Things we do **not** do
+## 하지 **않는** 것 { #things-we-do-not-do }
 
-- Accept sponsorships.
-- Offer to recommend a product or service in exchange for a donation or other incentive.
-- Threaten to remove a recommendation for a product or service unless we receive a donation or other incentive.
-- Offer to expedite a review of a product or service in exchange for a donation or other incentive.
-- Write sponsored content or feature sponsored components in our content.
+- 스폰서십을 받는 것.
+- 후원금이나 기타 대가를 받고 제품이나 서비스를 추천해 주겠다고 제안하는 것.
+- 후원금이나 기타 대가를 받지 못하면 제품이나 서비스의 추천을 삭제하겠다고 위협하는 것.
+- 후원금이나 기타 대가를 받고 제품이나 서비스의 리뷰를 서둘러 진행해 주겠다고 제안하는 것.
+- 스폰서 콘텐츠를 작성하거나 콘텐츠에 스폰서 요소를 넣는 것.
 
-## Things we **may** do
+## 할 **수도 있는** 것 { #things-we-may-do }
 
-- Accept donations from privacy-related companies and non-profits.
-- Apply for grant programs.
-- Accept free versions of software or hardware to test and review, while being mindful of possible differences in versions that could differ from a regular customer experience. ([More details](executive-policy.md#ep1-freely-provided-product-samples))
-- Accept discounted versions of software or hardware that assist our operations (for example, discounted software costs made available to non-profits).
+- 프라이버시 관련 기업과 비영리 단체로부터 후원금을 받는 것.
+- 지원금 프로그램에 신청하는 것.
+- 일반 고객의 경험과 다를 수 있는 버전 차이에 유의하면서, 시험과 리뷰를 위해 소프트웨어나 하드웨어의 무상 버전을 받는 것. ([자세한 내용](executive-policy.md#ep1-freely-provided-product-samples))
+- 운영에 도움이 되는 소프트웨어나 하드웨어의 할인 버전을 받는 것(예: 비영리 단체에 제공되는 소프트웨어 할인).
 
-## Restrictions on gifts
+## 증여에 대한 제한 { #restrictions-on-gifts }
 
-Privacy Guides accepts unrestricted gifts, and we appreciate the flexibility to apply your gift to our programs where they are most needed.
+프라이버시 가이드는 용도 제한이 없는 증여를 받으며, 증여를 가장 필요한 프로그램에 유연하게 사용할 수 있다는 점에 감사드립니다.
 
-We also accept and appreciate gifts for specified programs or purposes, provided that such gifts are consistent with our program's stated mission, purpose, and priority. Privacy Guides will not accept gifts which are too restrictive in purpose.
+또한 특정 프로그램이나 목적을 위한 증여도, 그 증여가 해당 프로그램의 명시된 사명, 목적, 우선순위에 부합한다면 기꺼이 받습니다. 프라이버시 가이드는 목적이 지나치게 제한적인 증여는 받지 않습니다.
 
-Examples of gifts which are too restrictive include:
+지나치게 제한적인 증여의 예는 다음과 같습니다:
 
-- Those which fund the research and review of a specific product category or specific product.
-- Those which violate our existing policies.
-- Those which are too difficult for us to administer.
-- Those that are for purposes outside our general mission.
+- 특정 제품 카테고리나 특정 제품의 조사 및 리뷰에 자금을 대는 증여.
+- 기존 정책을 위반하는 증여.
+- 관리하기가 지나치게 어려운 증여.
+- 프라이버시 가이드의 일반적인 사명을 벗어나는 목적의 증여.
 
-An example of an acceptable restriction could be a gift towards funding our [video](https://www.privacyguides.org/videos) production, or hosting our website and forum.
+허용 가능한 제한의 예로는 [동영상](https://www.privacyguides.org/videos) 제작이나 웹사이트 및 포럼 호스팅을 위한 증여를 들 수 있습니다.
 
-Final decisions on the restrictive nature of a gift and its acceptance or refusal will be made by our executive committee.
+증여의 제한적 성격과 수락 또는 거절에 관한 최종 결정은 운영 위원회가 내립니다.
 
-## Additional terms
+## 추가 조건 { #additional-terms }
 
-Privacy Guides generally does not pay "finder's fees" or commissions to third parties in connection with any gift to Privacy Guides. We may, however, pay commissions and fees to properly negotiate and receive assets when appropriate.
+프라이버시 가이드는 일반적으로 프라이버시 가이드에 대한 증여와 관련하여 제3자에게 "중개 수수료"나 커미션을 지급하지 않습니다. 다만 적절한 경우 자산을 적법하게 협상하고 수령하기 위해 커미션과 수수료를 지급할 수 있습니다.
 
-No officer, committee member, employee, or other agent of Privacy Guides will be compensated in a manner which is dependent on the size or nature of gifts made to Privacy Guides by any person. If we engage with legal, accounting, or other professionals, their fees and expenses will be determined by the time they spend engaged with our work, and not by reference to any particular gift in connection to their retainer.
+프라이버시 가이드의 임원, 위원, 직원 또는 기타 대리인은 누군가가 프라이버시 가이드에 한 증여의 규모나 성격에 따라 보수를 받지 않습니다. 법률, 회계 또는 기타 전문가와 협력하는 경우, 그들의 수수료와 비용은 특정 증여와 관련된 계약이 아니라 프라이버시 가이드의 업무에 투입한 시간에 따라 결정됩니다.
 
-Privacy Guides always follows the MAGIC Grants Gift Acceptance Policy, available on their website: <https://magicgrants.org/about/documentation/>
+프라이버시 가이드는 항상 MAGIC 그랜츠의 증여 수령 정책을 따르며, 이 정책은 MAGIC 그랜츠 웹사이트에서 확인할 수 있습니다: <https://magicgrants.org/about/documentation/>

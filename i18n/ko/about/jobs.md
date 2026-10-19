@@ -1,14 +1,14 @@
 ---
-title: Job Openings
-description: Privacy Guides has a small, remote team of privacy researchers and advocates. Any open positions we may have in the future will be posted here.
+title: 채용 공고
+description: 프라이버시 가이드는 프라이버시 연구자와 활동가로 이루어진 소규모 원격 팀입니다. 향후 채용할 직무가 있으면 여기에 게시됩니다.
 ---
 
-Privacy Guides has a small, remote team of privacy researchers and advocates working to further our mission of protecting free expression and promoting privacy-respecting technology. As a non-profit, we are expanding very slowly to ensure the project is sustainable in the long term. All of our team members are listed [here](https://discuss.privacyguides.net/u?group=team&order=solutions&period=all). Please consider [donating](https://donate.magicgrants.org/privacyguides) to support our cause.
+프라이버시 가이드는 표현의 자유를 보호하고 프라이버시를 존중하는 기술을 장려한다는 사명을 실현하기 위해 일하는, 프라이버시 연구자와 활동가로 이루어진 소규모 원격 팀입니다. 비영리 단체로서 프로젝트를 장기적으로 지속할 수 있도록 매우 천천히 규모를 늘리고 있습니다. 모든 팀원은 [여기](https://discuss.privacyguides.net/u?group=team&order=solutions&period=all)에서 확인할 수 있습니다. 프라이버시 가이드의 활동을 지원하려면 [후원](https://donate.magicgrants.org/privacyguides)을 고려해 주세요.
 
-We are occasionally looking for strong journalistic writers, product reviewers, and privacy experts to help us out, and any open positions will be posted below.
+프라이버시 가이드는 때때로 실력 있는 저널리즘 작가, 제품 리뷰어, 프라이버시 전문가를 찾고 있으며, 채용할 직무가 있으면 아래에 게시됩니다.
 
 ---
 
-## Open Positions
+## 채용 중인 직무 { #open-positions }
 
-There are no open positions at this time.
+현재 채용 중인 직무가 없습니다.

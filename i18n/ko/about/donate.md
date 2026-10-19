@@ -1,31 +1,31 @@
 ---
-title: Donate
-description: The charitable mission of Privacy Guides relies on contributions from visitors like yourself. Anything you can do to support the project is hugely appreciated.
+title: 후원하기
+description: 프라이버시 가이드의 공익적 사명은 여러분 같은 방문자의 기여에 의존하고 있습니다. 프로젝트를 위해 어떤 방식으로든 지원해 주신다면 정말 큰 힘이 됩니다.
 ---
 
 <!-- markdownlint-disable MD036 -->
-Support our mission to defend digital rights and spread the word about mass surveillance programs and other daily privacy invasions. You can help Privacy Guides researchers, activists, and maintainers create informative content, host private digital services, and protect privacy rights at a time when the world needs it most.
+디지털 권리를 지키고 대규모 감시 프로그램과 일상적인 프라이버시 침해를 널리 알리는 프라이버시 가이드의 사명을 지원해 주세요. 세상이 가장 필요로 하는 이 시기에, 프라이버시 가이드의 연구자, 활동가, 관리자들이 유익한 콘텐츠를 만들고, 프라이버시를 보호하는 디지털 서비스를 호스팅하며, 프라이버시 권리를 지킬 수 있도록 도와주세요.
 
 <!-- markdownlint-disable-next-line -->
-[:material-heart:{ .pg-red } Become a Member](https://donate.magicgrants.org/privacyguides/membership){ class="md-button md-button--primary" data-portal="signup" }
+[:material-heart:{ .pg-red } 회원 가입하기](https://donate.magicgrants.org/privacyguides/membership){ class="md-button md-button--primary" data-portal="signup" }
 
-[Become a Member (Cryptocurrency)](https://donate.magicgrants.org/privacyguides/membership){ class="md-button" }
-[One-Time Donation](https://donate.magicgrants.org/privacyguides/donate/privacyguides){ class="md-button" }
+[회원 가입하기(암호화폐)](https://donate.magicgrants.org/privacyguides/membership){ class="md-button" }
+[일회성 후원](https://donate.magicgrants.org/privacyguides/donate/privacyguides){ class="md-button" }
 
 <small markdown>
 
-MAGIC Grants is our fiscal host, and their custom, open-source donation platform allows you to donate to our project with **Monero**, **Litecoin (MWEB)**, **Bitcoin**, or **debit/credit card**. You can also donate using [:simple-github: GitHub Sponsors](https://github.com/sponsors/privacyguides).
+MAGIC 그랜츠는 프라이버시 가이드의 회계 호스트로, 자체 개발한 오픈 소스 후원 플랫폼을 통해 **모네로**, **라이트코인(MWEB)**, **비트코인**, **직불/신용카드**로 프로젝트에 후원할 수 있습니다. [:simple-github: 깃허브 스폰서](https://github.com/sponsors/privacyguides)로도 후원할 수 있습니다.
 
 </small>
 
-## Foundations & Organizations
+## 재단 및 단체 { #foundations-organizations }
 
-=== "Current Supporters"
+=== "현재 후원 단체"
 
-    Thank you to these organizations who significantly support Privacy Guides. (1)
+    프라이버시 가이드를 크게 지원해 주시는 다음 단체에 감사드립니다. (1)
     { .annotate }
 
-    1. Please contact <info@magicgrants.org> to inquire about giving. Privacy Guides reserves the right to rescind the membership of those who are unaligned with our mission or organization at any time. Organizational members have no ability to influence what content is recommended on the Privacy Guides website. Learn more about our [donation acceptance policy](donation-acceptance-policy.md).
+    1. 기부 관련 문의는 <info@magicgrants.org>로 연락해 주세요. 프라이버시 가이드는 사명이나 조직과 맞지 않는 회원의 회원 자격을 언제든지 취소할 권리를 보유합니다. 단체 회원은 프라이버시 가이드 웹사이트에서 어떤 콘텐츠를 추천할지에 영향을 줄 수 없습니다. 프라이버시 가이드의 [후원금 수령 정책](donation-acceptance-policy.md)에 대해 자세히 알아보세요.
 
     <div class="mdx-specialthanks" markdown>
 
@@ -38,19 +38,19 @@ MAGIC Grants is our fiscal host, and their custom, open-source donation platform
 
     </div>
 
-=== "Past Supporters"
+=== "과거 후원 단체"
 
-    Thank you to these organizations who have substantially supported our project in the past.
+    과거에 프로젝트를 크게 지원해 주신 다음 단체에 감사드립니다.
 
-    - [Safing](https://safing.io){ rel=nofollow target=_blank }: 2019 – 2021
-    - [DeleteMe](https://joindeleteme.com){ rel=nofollow target=_blank }: 2025
+    - [세이핑](https://safing.io){ rel=nofollow target=_blank }: 2019 – 2021
+    - [딜리트미](https://joindeleteme.com){ rel=nofollow target=_blank }: 2025
 
-## Active Members
+## 활동 회원 { #active-members }
 
-Privacy Guides would not be possible without these individuals who generously donate on a monthly or yearly basis. (1)
+매월 또는 매년 아낌없이 후원해 주시는 다음 분들이 없었다면 프라이버시 가이드는 존재할 수 없었을 것입니다. (1)
 { .annotate }
 
-1. If you [become a member](https://donate.magicgrants.org/privacyguides/membership) and [link your donation](https://discuss.privacyguides.net/t/getting-your-member-flair-on-the-forum/25453) to your forum account, you're automatically added here with a link to your profile and avatar to show your support for Privacy Guides. If you don't make your membership public on the forum, you'll be a silent +1. You can change your visibility any time. This chart is updated upon each website release.
+1. [회원 가입](https://donate.magicgrants.org/privacyguides/membership)을 하고 포럼 계정에 [후원 내역을 연결](https://discuss.privacyguides.net/t/getting-your-member-flair-on-the-forum/25453)하면, 프라이버시 가이드를 지원하고 있다는 것을 보여 주기 위해 여러분의 프로필 링크와 아바타가 자동으로 이곳에 추가됩니다. 포럼에서 회원 자격을 공개하지 않으면 익명의 +1로 표시됩니다. 공개 여부는 언제든지 변경할 수 있습니다. 이 차트는 웹사이트를 릴리스할 때마다 업데이트됩니다.
 
 <div class="mdx-donors" data-mdx-component="donors">
 <div class="mdx-donors__list">
@@ -60,108 +60,108 @@ Privacy Guides would not be possible without these individuals who generously do
 
 <small markdown>
 
-This is a list of our **active** [members](https://donate.magicgrants.org/privacyguides/membership), plus donors on GitHub, who have chosen to make their donation public. Hundreds more have donated in the past or privately, and their support is hugely appreciated as well.
+후원을 공개하기로 선택한 **활동 중인** [회원](https://donate.magicgrants.org/privacyguides/membership)과 깃허브 후원자 목록입니다. 이 밖에도 수백 명이 과거에 또는 비공개로 후원해 주셨으며, 그분들의 지원에도 깊이 감사드립니다.
 
 </small>
 
 <h2 spaces-before="0">
-  Merchandise
+  굿즈
 </h2>
 
 <p spaces-before="0">
-  You can support us and share your passion for privacy by buying our merchandise from HelloTux.
+  헬로턱스에서 프라이버시 가이드 굿즈를 구매하여 프라이버시 가이드를 지원하고 프라이버시에 대한 열정을 나눌 수 있습니다.
 </p>
 
 <p spaces-before="0">
-  <a href="https://hellotux.com/privacyguides">Buy on HelloTux.com</a>{ class="md-button" }
+  <a href="https://hellotux.com/privacyguides">HelloTux.com에서 구매하기</a>{ class="md-button" }
 </p>
 
 <h2 spaces-before="0">
-  Non-Financial Support
+  비금전적 지원
 </h2>
 
 <p spaces-before="0">
-  It takes a lot of <a href="contributors.md">people</a> and <a href="https://github.com/privacyguides/privacyguides.org/pulse/monthly">work</a> to keep Privacy Guides up to date and spread the word about privacy and mass surveillance. If you're looking for other ways to help out, consider getting involved by <a href="https://github.com/privacyguides/privacyguides.org">editing the site</a>, <a href="https://discuss.privacyguides.net">joining our forum</a>, or <a href="https://crowdin.com/project/privacyguides">contributing translations</a>.
+  프라이버시 가이드를 최신 상태로 유지하고 프라이버시와 대규모 감시에 관한 소식을 널리 알리려면 많은 <a href="contributors.md">사람</a>과 <a href="https://github.com/privacyguides/privacyguides.org/pulse/monthly">노력</a>이 필요합니다. 다른 방법으로 돕고 싶다면 <a href="https://github.com/privacyguides/privacyguides.org">사이트 편집</a>, <a href="https://discuss.privacyguides.net">포럼 참여</a>, <a href="https://crowdin.com/project/privacyguides">번역 기여</a>를 통해 참여하는 것을 고려해 보세요.
 </p>
 
 <h2 spaces-before="0">
-  FAQ
+  자주 묻는 질문
 </h2>
 
 <h3 spaces-before="0">
-  What is an organizational membership?
+  단체 회원이란 무엇인가요?
 </h3>
 
 <p spaces-before="0">
-  Organizational membership to Privacy Guides is open to any company, private foundation, or organization that donates at least $5,000 per year. While Privacy Guides does not endorse private companies or their products, we're grateful for their contributions. Your donation may be tax-deductible, and we will provide you with a receipt.
+  프라이버시 가이드의 단체 회원 자격은 매년 최소 5,000달러를 후원하는 모든 기업, 민간 재단, 단체에 열려 있습니다. 프라이버시 가이드는 민간 기업이나 그 제품을 보증하지 않지만, 그들의 기여에 감사하고 있습니다. 후원금은 세금 공제를 받을 수 있으며, 영수증을 발급해 드립니다.
 </p>
 
 <p spaces-before="0">
-  You can become an organizational member by reaching out to <a href="mailto:info@magicgrants.org" x-nc="1">info@magicgrants.org</a> for more information.
+  단체 회원이 되고 싶다면 <a href="mailto:info@magicgrants.org" x-nc="1">info@magicgrants.org</a>로 연락하여 자세한 정보를 받아 보세요.
 </p>
 
 <h3 spaces-before="0">
-  How are organizational members recognized?
+  단체 회원은 어떻게 소개되나요?
 </h3>
 
 <p spaces-before="0">
-  Organizational members that choose to be recognized publicly are included in our organizational members section (above), and occasionally at other opportunities where appropriate.
+  공개적으로 소개되기를 원하는 단체 회원은 (위의) 단체 회원 섹션에 포함되며, 적절한 경우 다른 기회에도 소개될 수 있습니다.
 </p>
 
 <p spaces-before="0">
-  Organizational members have no ability to influence what content is recommended on the Privacy Guides website. Learn more about our <a href="donation-acceptance-policy.md">donation acceptance policy</a>.
+  단체 회원은 프라이버시 가이드 웹사이트에서 어떤 콘텐츠를 추천할지에 영향을 줄 수 없습니다. 프라이버시 가이드의 <a href="donation-acceptance-policy.md">후원금 수령 정책</a>에 대해 자세히 알아보세요.
 </p>
 
 <h3 spaces-before="0">
-  What is an active membership?
+  활동 회원이란 무엇인가요?
 </h3>
 
 <p spaces-before="0">
-  Your monthly or yearly membership sustains Privacy Guides's services and public activism for privacy and cybersecurity year round. If you become a member, we will recognize your support here on our website, our community forum, and occasionally in other areas like our videos if you choose to make your membership publicly known.
+  매월 또는 매년 후원하는 회원 자격은 프라이버시 가이드의 서비스와 프라이버시 및 사이버 보안을 위한 공익 활동을 1년 내내 지속할 수 있게 해 줍니다. 회원이 되고 회원 자격을 공개하기로 선택하면, 웹사이트와 커뮤니티 포럼, 그리고 때때로 동영상 같은 다른 곳에서 여러분의 지원을 소개해 드립니다.
 </p>
 
 <p spaces-before="0">
-  Our membership program is brand new, and we are still exploring other ways that we can share a token of our appreciation with you, while maintaining sustainable and ethical boundaries. Stay tuned!
+  회원 프로그램은 이제 막 시작되었으며, 지속 가능하고 윤리적인 범위를 지키면서 감사의 마음을 전할 수 있는 다른 방법도 계속 모색하고 있습니다. 앞으로를 기대해 주세요!
 </p>
 
 <h3 spaces-before="0">
-  How does Privacy Guides use donations?
+  프라이버시 가이드는 후원금을 어떻게 사용하나요?
 </h3>
 
 <p spaces-before="0">
-  Privacy Guides has been a nonstop effort for over 5 years to stay up to date with the world of cybersecurity and privacy, and to promote the benefits of privacy overall. This is a <strong x-id="1">non-profit, community-driven</strong> project that would not be possible without the generous support of all our <a href="contributors.md">contributors</a>, in addition to our regularly donating members above.
+  프라이버시 가이드는 5년 넘게 사이버 보안과 프라이버시 분야의 최신 동향을 따라가고 프라이버시의 전반적인 이점을 알리기 위해 쉬지 않고 노력해 왔습니다. 이 프로젝트는 위의 정기 후원 회원은 물론 모든 <a href="contributors.md">기여자</a>의 아낌없는 지원이 없었다면 불가능했을 <strong x-id="1">비영리 커뮤니티 주도</strong> 프로젝트입니다.
 </p>
 
 <p spaces-before="0">
-  Your donation go to a <a href="https://magicgrants.org/funds/privacy_guides">dedicated fund</a> within <a href="https://magicgrants.org">MAGIC Grants</a>, a 501(c)(3) organization and our fiscal host. The funds will <strong x-id="1">only</strong> be used for this project specifically.
+  여러분의 후원금은 501(c)(3) 단체이자 프라이버시 가이드의 회계 호스트인 <a href="https://magicgrants.org">MAGIC 그랜츠</a> 내의 <a href="https://magicgrants.org/funds/privacy_guides">전용 기금</a>으로 들어갑니다. 이 기금은 <strong x-id="1">오직</strong> 이 프로젝트를 위해서만 사용됩니다.
 </p>
 
 <p spaces-before="0">
-  You may qualify for a tax deduction. When you donate to us <a href="https://donate.magicgrants.org/privacyguides">here</a> with cryptocurrency or card you have the option to receive a receipt from MAGIC Grants for this purpose. If you have questions about other transactions please email <a href="mailto:info@magicgrants.org" x-nc="1">info@magicgrants.org</a>.
+  세금 공제를 받을 수 있습니다. <a href="https://donate.magicgrants.org/privacyguides">여기</a>에서 암호화폐나 카드로 후원하면, 이를 위해 MAGIC 그랜츠로부터 영수증을 받을 수 있습니다. 다른 거래에 관해 궁금한 점이 있다면 <a href="mailto:info@magicgrants.org" x-nc="1">info@magicgrants.org</a>로 이메일을 보내 주세요.
 </p>
 
 <p spaces-before="0">
-  Privacy Guides는 후원금을 다음과 같은 용도로 사용합니다.
+  프라이버시 가이드는 후원금을 다음을 포함한 다양한 용도로 사용합니다:
 </p>
 
 <dl>
   <dt>
-    <strong x-id="1">Payroll</strong>
+    <strong x-id="1">인건비</strong>
   </dt>
   
   <dd>
     <p spaces-before="0">
-      We have journalists, writers, and video creators on payroll to review products and create more educational content on a regular basis. This is a significant expense, and we are only able to create our quantity of content with your support.
+      제품을 리뷰하고 교육 콘텐츠를 정기적으로 더 많이 만들기 위해 기자, 작가, 동영상 제작자를 고용하고 있습니다. 이는 상당한 비용이며, 여러분의 지원이 있어야만 지금만큼의 콘텐츠를 만들 수 있습니다.
     </p>
   </dd>
   
   <dt>
-    <strong x-id="1">Web Hosting and Infrastructure</strong>
+    <strong x-id="1">웹 호스팅 및 인프라</strong>
   </dt>
   
   <dd>
     <p spaces-before="0">
-      Traffic to this website uses hundreds of gigabytes of data per month; we use a variety of service providers to keep up with this traffic.
+      이 웹사이트의 트래픽은 매월 수백 기가바이트의 데이터를 사용하며, 이 트래픽을 감당하기 위해 다양한 서비스 제공업체를 이용하고 있습니다.
     </p>
   </dd>
   
@@ -171,7 +171,7 @@ This is a list of our **active** [members](https://donate.magicgrants.org/privac
   
   <dd>
     <p spaces-before="0">
-      We host <a href="services.md">internet services</a> for testing and showcasing different privacy-products we like and <a href="../tools.md">recommend</a>. Some of them are made publicly available for our community's use (SearXNG, Tor, etc.), and some are provided for our team members (email, etc.).
+      프라이버시 가이드가 좋아하고 <a href="../tools.md">추천하는</a> 다양한 프라이버시 제품을 시험하고 소개하기 위해 <a href="services.md">인터넷 서비스</a>를 호스팅하고 있습니다. 그중 일부는 커뮤니티가 사용할 수 있도록 공개되어 있고(SearXNG, 토르 등), 일부는 팀원을 위해 제공됩니다(이메일 등).
     </p>
   </dd>
   
@@ -181,15 +181,15 @@ This is a list of our **active** [members](https://donate.magicgrants.org/privac
   
   <dd>
     <p spaces-before="0">
-      Privacy Guides는 때때로 <a href="../tools.md">권장 목록</a>의 서비스나 툴을 테스트하기 위한 목적으로 제품을 구매합니다.
+      <a href="../tools.md">추천 도구</a>를 시험하기 위해 때때로 제품과 서비스를 구매합니다.
     </p>
   </dd>
 </dl>
 
 <p spaces-before="0">
-  Thank you to all those who support our mission! :material-heart:{ .pg-red }
+  프라이버시 가이드의 사명을 지원해 주시는 모든 분께 감사드립니다! :material-heart:{ .pg-red }
 </p>
 
 <p spaces-before="0">
-  We strictly <strong x-id="1">do not</strong> use donations to support political campaigns/candidates or attempt to influence legislation. Earnings will <strong x-id="1">not</strong> inure to the benefit of any private shareholder or individual.
+  프라이버시 가이드는 정치 캠페인/후보를 지원하거나 입법에 영향을 미치려는 목적으로 후원금을 절대 사용하지 <strong x-id="1">않습니다</strong>. 수익은 어떠한 개인 주주나 개인의 이익으로도 귀속되지 <strong x-id="1">않습니다</strong>.
 </p>

@@ -78,7 +78,7 @@ Tor 瀏覽器是真正匿名瀏覽網際網路的唯一途徑。當您使用 Bra
 
 === "Android"
 
-    These options can be found in :material-dots-vertical: → **Settings** → **Brave Shields & privacy**.
+    以下選項位於 :material-dots-vertical: → **設定** → **Brave 防護與安全性**。
 
 === "iOS"
 
@@ -167,9 +167,9 @@ Brave 的[防護 (Shields)](https://support.brave.com/hc/articles/360022973471-W
 
 === "Android"
 
-    These options can be found in :material-dots-vertical: → **Settings** → **Leo AI**.
+    以下選項位於 :material-dots-vertical: → **設定** → **Leo AI**。
 
-    - [ ] Uncheck **Show autocomplete suggestions in address bar**
+    - [ ] 取消勾選 **在網址列顯示自動完成建議**
 
 === "iOS"
 
@@ -181,7 +181,7 @@ Brave 的[防護 (Shields)](https://support.brave.com/hc/articles/360022973471-W
 
 === "Android"
 
-    These options can be found in :material-dots-vertical: → **Settings** → **Search engines**.
+    以下選項位於 :material-dots-vertical: → **設定** → **搜尋引擎**。
 
     - [ ] 取消勾選 **顯示搜尋建議**
 

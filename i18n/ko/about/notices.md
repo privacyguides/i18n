@@ -1,52 +1,52 @@
 ---
-title: "Notices and Disclaimers"
-description: Information about our website license, acceptable use policy, and other important details.
+title: "고지 사항 및 면책 조항"
+description: 웹사이트 라이선스, 허용되는 이용 정책 및 기타 중요한 세부 사항에 관한 정보입니다.
 ---
 
-## 법적 고지 사항
+## 법적 면책 조항 { #legal-disclaimer }
 
-Privacy Guides는 법률 회사가 아닙니다. 따라서 Privacy Guides 웹사이트와 기여자는 법률 자문을 제공하지 않습니다. 웹사이트의 권장 목록 및 안내 자료는 법률 자문을 구성하지 않으며, 웹사이트에 기여하거나 Privacy Guides 및 웹사이트 기여자와 소통하는 것이 변호사-고객 관계를 형성하지 않습니다.
+프라이버시 가이드는 법률 사무소가 아닙니다. 따라서 프라이버시 가이드 웹사이트와 기여자는 법률 자문을 제공하지 않습니다. 웹사이트와 가이드의 자료 및 추천은 법률 자문에 해당하지 않으며, 웹사이트에 기여하거나 웹사이트에 관해 프라이버시 가이드 또는 다른 기여자와 소통하는 것이 변호사-의뢰인 관계를 형성하지도 않습니다.
 
-본 웹사이트의 운영은 다른 모든 노력과 마찬가지로 불확실성과 장단점을 수반합니다. 본 웹사이트가 도움이 되길 바라지만, 실수가 존재할 수 있으며 모든 상황을 해결할 수는 없습니다. 자신의 상황에 대해 궁금한 점이 있는 경우, 스스로 조사하고, 다른 전문가를 찾아보고, Privacy Guides 커뮤니티에서 논의에 참여할 것을 권장합니다. 법적인 질문이 있는 경우, 나아가기에 앞서 자신의 법률 상담자과 상의해야 합니다.
+이 웹사이트를 운영하는 일은 다른 모든 인간의 노력과 마찬가지로 불확실성과 절충을 수반합니다. 이 웹사이트가 도움이 되기를 바라지만, 실수가 있을 수 있으며 모든 상황을 다룰 수는 없습니다. 여러분의 상황에 관해 궁금한 점이 있다면 직접 조사하고, 다른 전문가를 찾아보고, 프라이버시 가이드 커뮤니티와 논의해 보시기 바랍니다. 법률과 관련된 질문이 있다면 행동하기 전에 법률 자문가와 상담해야 합니다.
 
-Privacy Guides is an open-source project contributed to under licenses that include terms that, for the protection of the website and its contributors, make clear that the Privacy Guides project and website is offered "as-is", without warranty, and disclaiming liability for damages resulting from using the website or any recommendations contained within. Privacy Guides는 웹사이트의 자료 사용에 대한 정확성, 가능한 결과, 또는 신뢰성에 대해 보증하거나 어떠한 진술도 하지 않으며, 웹사이트의 이러한 자료나 본 사이트에 연결된 제3자 사이트와 관련된 어떠한 자료에 대해서도 보증하지 않습니다.
+프라이버시 가이드는 웹사이트와 기여자를 보호하기 위해, 프라이버시 가이드 프로젝트와 웹사이트가 보증 없이 "있는 그대로" 제공되며 웹사이트나 그 안에 포함된 추천을 사용하여 발생하는 손해에 대한 책임을 부인한다는 점을 명시하는 조항이 포함된 라이선스에 따라 기여가 이루어지는 오픈 소스 프로젝트입니다. 프라이버시 가이드는 웹사이트에 있는 자료, 또는 이 사이트에 링크된 제3자 사이트에 있는 그러한 자료의 사용에 관한 정확성, 예상되는 결과, 신뢰성에 대해 보증하거나 어떠한 진술도 하지 않습니다.
 
-또한 Privacy Guides는 본 웹사이트가 지속적으로 이용 가능하거나 전혀 이용 가능하지 않을 수 있음을 보증하지 않습니다.
+또한 프라이버시 가이드는 이 웹사이트를 항상 이용할 수 있다거나, 애초에 이용할 수 있다고 보증하지 않습니다.
 
-## 라이선스 개요
+## 라이선스 개요 { #licensing-overview }
 
 <div class="admonition danger" markdown>
 
-The following is a human-readable summary of (and not a substitute for) the [license](https://github.com/privacyguides/privacyguides.org/blob/main/README.md#license).
+다음은 [라이선스](https://github.com/privacyguides/privacyguides.org/blob/main/README.md#license)를 사람이 읽기 쉽게 요약한 것이며, 라이선스를 대체하지 않습니다.
 
 </div>
 
-Unless otherwise noted, all **content** on this website is released under the [Creative Commons Attribution-ShareAlike 4.0 International Public License](https://github.com/privacyguides/privacyguides.org/tree/main/LICENSE). This means that you can use the human-readable content on this website for your own project, as long as you give appropriate credit to [Privacy Guides](https://www.privacyguides.org) including a link where technically possible, and you release your project under the same license. You may not do so in any way that suggests Privacy Guides endorses you or your use. You **may not** use the Privacy Guides brand trademarks in your own project without express approval from this project. Privacy Guides 브랜드 상표에는 'Privacy Guides' 로고타입과 방패 로고가 포함됩니다.
+별도로 명시되지 않는 한, 이 웹사이트의 모든 **콘텐츠**는 [크리에이티브 커먼즈 저작자표시-동일조건변경허락 4.0 국제 라이선스](https://github.com/privacyguides/privacyguides.org/tree/main/LICENSE)에 따라 제공됩니다. 즉, 기술적으로 가능한 경우 링크를 포함하여 [Privacy Guides](https://www.privacyguides.org)의 출처를 적절히 표시하고 같은 라이선스로 프로젝트를 공개한다면, 이 웹사이트의 사람이 읽을 수 있는 콘텐츠를 자신의 프로젝트에 사용할 수 있습니다. 프라이버시 가이드가 여러분이나 여러분의 이용을 보증하는 것처럼 보이는 방식으로 사용해서는 안 됩니다. 이 프로젝트의 명시적인 승인 없이 자신의 프로젝트에 프라이버시 가이드의 브랜드 상표를 사용해서는 **안 됩니다**. 프라이버시 가이드의 브랜드 상표에는 "Privacy Guides" 워드마크와 방패 로고가 포함됩니다.
 
-본 웹사이트를 생성하고 해당 콘텐츠를 표시하는 데 기반으로 사용된 **소스 코드**는 [MIT 라이선스](https://github.com/privacyguides/privacyguides.org/tree/main/LICENSE-CODE)에 따라 공개됩니다.
+이 웹사이트를 생성하고 콘텐츠를 표시하는 데 사용되는 기반 **소스 코드**는 [MIT 라이선스](https://github.com/privacyguides/privacyguides.org/tree/main/LICENSE-CODE)에 따라 공개됩니다.
 
-This does not include third-party code embedded in the Privacy Guides code repository, or code where a superseding license is otherwise noted. 다음은 주요 예시이나, 여기에 나열되지 않은 사례가 있을 수 있습니다:
+여기에는 프라이버시 가이드 코드 저장소에 포함된 제3자 코드나, 이를 대체하는 라이선스가 별도로 명시된 코드는 포함되지 않습니다. 다음은 주목할 만한 예이며, 이 목록이 전부가 아닐 수 있습니다:
 
-* The [Bagnard](https://github.com/privacyguides/brand/tree/67166ed8b641d8ac1837d0b75329e02ed4056704/fonts/Bagnard) heading font is licensed under the [SIL Open Font License 1.1](https://github.com/privacyguides/brand/blob/67166ed8b641d8ac1837d0b75329e02ed4056704/fonts/Bagnard/LICENSE.txt).
-* The [Public Sans](https://github.com/privacyguides/brand/tree/67166ed8b641d8ac1837d0b75329e02ed4056704/fonts/Public%20Sans) font used for most text on the site is licensed under the terms detailed [here](https://github.com/privacyguides/brand/blob/67166ed8b641d8ac1837d0b75329e02ed4056704/fonts/Public%20Sans/LICENSE.txt).
-* The [DM Mono](https://github.com/privacyguides/brand/tree/67166ed8b641d8ac1837d0b75329e02ed4056704/fonts/DM%20Mono) font used for monospaced text on the site is licensed under the [SIL Open Font License 1.1](https://github.com/privacyguides/brand/blob/67166ed8b641d8ac1837d0b75329e02ed4056704/fonts/DM%20Mono/LICENSE.txt).
+* [Bagnard](https://github.com/privacyguides/brand/tree/67166ed8b641d8ac1837d0b75329e02ed4056704/fonts/Bagnard) 제목 글꼴은 [SIL Open Font License 1.1](https://github.com/privacyguides/brand/blob/67166ed8b641d8ac1837d0b75329e02ed4056704/fonts/Bagnard/LICENSE.txt)에 따라 라이선스가 부여됩니다.
+* 사이트 텍스트 대부분에 사용되는 [Public Sans](https://github.com/privacyguides/brand/tree/67166ed8b641d8ac1837d0b75329e02ed4056704/fonts/Public%20Sans) 글꼴은 [여기](https://github.com/privacyguides/brand/blob/67166ed8b641d8ac1837d0b75329e02ed4056704/fonts/Public%20Sans/LICENSE.txt)에 자세히 설명된 조건에 따라 라이선스가 부여됩니다.
+* 사이트의 고정폭 텍스트에 사용되는 [DM Mono](https://github.com/privacyguides/brand/tree/67166ed8b641d8ac1837d0b75329e02ed4056704/fonts/DM%20Mono) 글꼴은 [SIL Open Font License 1.1](https://github.com/privacyguides/brand/blob/67166ed8b641d8ac1837d0b75329e02ed4056704/fonts/DM%20Mono/LICENSE.txt)에 따라 라이선스가 부여됩니다.
 
-Privacy Guides는 외부 제공 업체로부터 얻은 로고 및 각종 이미지(`assets`에 존재)에 대해, 퍼블릭 도메인이거나 공정 이용에 해당되는 것으로 판단하고 있습니다. In a nutshell, legal [fair use doctrine](https://copyright.gov/fair-use/more-info.html) allows the use of copyrighted images in order to identify the subject for purposes of public comment. 단, 로고 등의 이미지는 여전히 일부 관할권에서는 상표법의 적용을 받을 수 있습니다. 본 콘텐츠를 활용하기에 앞서 상표를 소유한 법인 및 단체를 식별하는 용도로 사용한 것이 맞는지 확인하고, 활용하고자 하는 상황에 적용되는 법률에 따라 해당 상표를 사용할 권리가 존재하는지 확인하세요. *여러분이 본 웹사이트의 콘텐츠를 복제할 때, 타인의 상표나 저작권을 침해하지 않도록 할 책임은 전적으로 여러분에게 있습니다.*
+`assets`에 있는 로고 및 기타 이미지 중 제3자 제공업체로부터 얻은 것은 퍼블릭 도메인이거나 **공정 이용**에 해당한다고 판단합니다. 간단히 말해, 법적 [공정 이용 원칙](https://copyright.gov/fair-use/more-info.html)은 공개적인 논평을 목적으로 대상을 식별하기 위해 저작권이 있는 이미지를 사용하는 것을 허용합니다. 하지만 이러한 로고와 기타 이미지는 하나 이상의 관할권에서 여전히 상표법의 적용을 받을 수 있습니다. 이 콘텐츠를 사용하기 전에, 상표를 소유한 주체나 조직을 식별하는 용도로 사용하는지, 그리고 의도한 사용 상황에 적용되는 법률에 따라 사용할 권리가 있는지 확인하시기 바랍니다. *이 웹사이트의 콘텐츠를 복사할 때 다른 사람의 상표나 저작권을 침해하지 않도록 할 책임은 전적으로 여러분에게 있습니다.*
 
-여러분이 본 웹사이트에 기여하는 경우, 여러분은 상기 라이선스에 따라 기여하는 것입니다. 여러분은 프로젝트의 일부로서 여러분의 기여를 복제, 변형, 공연, 전시, 공연, 배포할 수 있는 권리를 Privacy Guides에게 부여하게 됩니다. 이는 영구적이며, 전 세계적으로 유효하며, 비독점적이고, 양도 가능하며, 로열티가 없고, 철회 불가능합니다. 또한 이 권리는 여러 단계의 서브라이선스 주체에게 재실시됩니다.
+이 웹사이트에 기여하면 여러분은 위의 라이선스에 따라 기여하는 것이며, 여러분의 기여를 프로젝트의 일부로서 복제, 수정, 전시, 공연, 배포할 수 있는 영구적이고, 전 세계적이며, 비독점적이고, 양도 가능하며, 로열티가 없고, 철회 불가능한 라이선스를 여러 단계의 하위 라이선스 수령자를 통해 재라이선스할 수 있는 권리와 함께 프라이버시 가이드에 부여하는 것입니다.
 
-## 이용 규칙
+## 허용되는 이용 { #acceptable-use }
 
-여러분은 본 웹사이트에 피해를 입히거나, 입힐 수 있는 방식으로 이용할 수 없으며, Privacy Guides의 가용성이나 접근성을 저해할 수 없습니다. 또한, 기타 모든 불법, 위법, 사기, 유해 행위 등을 직접적으로 저지르거나, 본 웹사이트를 불법, 위법, 사기, 유해 목적으로 이용할 수 없습니다.
+웹사이트에 손상을 주거나 줄 수 있는 방식, 프라이버시 가이드의 가용성이나 접근성을 저해하는 방식, 또는 불법적이거나, 위법하거나, 사기적이거나, 유해한 방식이나 그러한 목적 또는 활동과 관련된 방식으로 이 웹사이트를 이용해서는 안 됩니다.
 
-여러분은 본 웹사이트에서, 혹은 본 웹사이트와 관련된 어떤 곳에서도 명시적인 서면 동의 없이 시스템화된/자동화된 데이터 수집 활동을 해서는 안됩니다. 다음 활동 또한 마찬가지입니다:
+명시적인 서면 동의 없이 이 웹사이트에서 또는 이 웹사이트와 관련하여 체계적이거나 자동화된 데이터 수집 활동을 해서는 안 되며, 여기에는 다음이 포함됩니다:
 
-* 과도한 자동화 스캔
+* 과도한 자동 스캔
 * 서비스 거부 공격
-* 데이터 스크래핑
+* 스크래핑
 * 데이터 마이닝
-* Frame(iframe) 참조
+* '프레이밍'(iframe)
 
 ---
 
-*본 공지의 일부는 GitHub의 [opensource.guide](https://github.com/github/opensource.guide/blob/master/notices.md)로부터 참고하여 채택되었습니다. That resource and this page itself are released under [CC-BY-4.0](https://creativecommons.org/licenses/by-sa/4.0).*
+*이 고지 사항의 일부는 깃허브의 [opensource.guide](https://github.com/github/opensource.guide/blob/master/notices.md)에서 가져왔습니다. 해당 자료와 이 페이지는 [CC-BY-4.0](https://creativecommons.org/licenses/by-sa/4.0)에 따라 공개됩니다.*

@@ -1,73 +1,73 @@
 ---
-title: Journalist
-description: Privacy Guides is looking for a determined and focused journalist to research and write stories from the privacy and cybersecurity space on a regular basis.
+title: 기자
+description: 프라이버시 가이드는 프라이버시 및 사이버 보안 분야의 기사를 정기적으로 취재하고 작성할 의지 있고 집중력 있는 기자를 찾고 있습니다.
 ---
 
-[:material-arrow-left-drop-circle: Job Openings](../jobs.md)
+[:material-arrow-left-drop-circle: 채용 공고](../jobs.md)
 
 <div class="admonition info" markdown>
-<p class="admonition-title">Position Closed</p>
+<p class="admonition-title">채용이 마감되었습니다</p>
 
-Thank you for your interest in this position at Privacy Guides. At this time we are no longer accepting new applications, but please follow our [job openings](../jobs.md) page to learn about future opportunities.
+프라이버시 가이드의 이 직무에 관심을 가져 주셔서 감사합니다. 현재는 더 이상 새로운 지원을 받지 않지만, 향후 채용 기회는 [채용 공고](../jobs.md) 페이지에서 확인해 주세요.
 
 </div>
 
-Are you passionate about privacy and cybersecurity?
+프라이버시와 사이버 보안에 열정이 있으신가요?
 
-Privacy Guides is an international nonprofit dedicated to producing top-tier, unbiased educational content and journalism, and to fostering safe and informative online communities to discuss technical topics around improving personal privacy and cybersecurity.
+프라이버시 가이드는 최고 수준의 편향되지 않은 교육 콘텐츠와 저널리즘을 제작하고, 개인의 프라이버시와 사이버 보안을 개선하는 기술적 주제를 논의할 수 있는 안전하고 유익한 온라인 커뮤니티를 육성하는 데 전념하는 국제 비영리 단체입니다.
 
-We are looking for a determined and focused journalist to join our team. As a reporter for our organization, you will conduct research, interview sources, and write engaging stories in the field of consumer privacy and cybersecurity.
+프라이버시 가이드 팀에 합류할 의지 있고 집중력 있는 기자를 찾고 있습니다. 기자로서 소비자 프라이버시와 사이버 보안 분야에서 조사를 수행하고, 취재원을 인터뷰하며, 흥미로운 기사를 작성하게 됩니다.
 
-Our ideal candidate is committed to combating misinformation and clearly communicating stories on a timely basis, and dedicated to producing top-tier, unbiased journalism.
+이상적인 후보자는 잘못된 정보에 맞서고 기사를 시의적절하고 명확하게 전달하는 데 헌신하며, 최고 수준의 편향되지 않은 저널리즘을 만드는 데 전념하는 사람입니다.
 
-Privacy Guides is a small, largely volunteer-driven nonprofit media organization, and we do not currently have a dedicated writing and editing team. As such, you will be expected to take charge of the entire writing process from beginning to publication. You will have the freedom to choose which topics to cover and set a schedule to release articles on our main website.
+프라이버시 가이드는 대부분 자원봉사자로 운영되는 소규모 비영리 미디어 단체로, 현재 전담 집필 및 편집 팀이 없습니다. 따라서 기획부터 게시까지 집필 과정 전체를 책임지게 됩니다. 다룰 주제를 자유롭게 선택하고, 메인 웹사이트에 기사를 게시할 일정을 직접 정할 수 있습니다.
 
-\==Our primary mission is to publish the highest quality content surrounding consumer privacy and cybersecurity on the internet==, not the highest quantity of stories. You will be empowered to dive deep into the topics you are writing about, and expected to meet our high quality and editorial standards.
+\==프라이버시 가이드의 주된 사명은 인터넷에서 소비자 프라이버시와 사이버 보안에 관한 최고 품질의 콘텐츠를 게시하는 것이지==, 기사를 최대한 많이 내는 것이 아닙니다. 다루는 주제를 깊이 파고들 수 있는 권한이 주어지며, 프라이버시 가이드의 높은 품질 및 편집 기준을 충족해야 합니다.
 
-Your responsibilities will include, but aren’t limited to:
+주요 업무는 다음을 포함하며, 이에 국한되지 않습니다:
 
-- Creating high-quality articles for our [knowledge base](../../basics/why-privacy-matters.md).
-- Performing product reviews for our [reviews](https://www.privacyguides.org/articles/category/reviews) section and [tool recommendations](../../tools.md).
-- Researching new topics to cover.
-- Interviewing and fact-checking all relevant sources.
-- Regular posting of high-quality, unbiased journalistic content across our platforms.
+- [지식 베이스](../../basics/why-privacy-matters.md)에 실을 고품질 기사 작성.
+- [리뷰](https://www.privacyguides.org/articles/category/reviews) 섹션과 [도구 추천](../../tools.md)을 위한 제품 리뷰 수행.
+- 다룰 새로운 주제 조사.
+- 모든 관련 취재원 인터뷰 및 사실 확인.
+- 프라이버시 가이드의 여러 플랫폼에 고품질의 편향되지 않은 저널리즘 콘텐츠를 정기적으로 게시.
 
-As a guideline, we expect roughly 3-5 articles a week that meet our quality standards, since we believe a well-researched article will take at least 8 hours to research and write on average. We realize some articles can be completed quickly, while others may take weeks or longer before publishing. You will be empowered to use your best judgement and prioritize your work accordingly.
+충분한 조사를 거친 기사 하나를 조사하고 작성하는 데 평균적으로 최소 8시간이 걸린다고 보기 때문에, 품질 기준을 충족하는 기사를 일주일에 대략 3~5편 정도로 예상합니다. 어떤 기사는 빨리 완성할 수 있지만, 어떤 기사는 게시하기까지 몇 주 이상 걸릴 수도 있다는 점을 알고 있습니다. 여러분의 판단에 따라 업무의 우선순위를 정할 수 있는 권한이 주어집니다.
 
-We are much more interested in articles that deeply cover a subject area than articles that cover the news of the day.
+그날의 뉴스를 다루는 기사보다 한 주제를 깊이 있게 다루는 기사에 훨씬 더 관심이 있습니다.
 
-Job requirements:
+자격 요건:
 
-- Excellent organization and communication skills.
-- Expertise in English and writing.
-- Flexibility to set and respond to varying priorities and deadlines.
-- Proactive, results-driven mindset with a strong sense of initiative.
-- Personal interest in consumer privacy, cybersecurity, and technology.
-- Regular communication with the Privacy Guides committee and other team members.
-- Skeptical nature and drive to investigate difficult, often niche, technologies. You will need to evaluate the truthfulness of claims.
+- 뛰어난 조직력과 의사소통 능력.
+- 영어 및 글쓰기에 대한 전문성.
+- 다양한 우선순위와 마감 기한을 설정하고 이에 대응할 수 있는 유연성.
+- 강한 주도성을 갖춘 적극적이고 성과 지향적인 태도.
+- 소비자 프라이버시, 사이버 보안, 기술에 대한 개인적인 관심.
+- 프라이버시 가이드 위원회 및 다른 팀원과의 정기적인 소통.
+- 어렵고 흔히 틈새 분야인 기술을 파고드는 회의적인 성향과 탐구 의지. 주장의 진위를 평가할 수 있어야 합니다.
 
-The following qualifications will be an asset to your application. However, we are looking for the best candidate (which isn’t always apparent on paper!), so please apply even if you don’t meet any/many of these qualifications.
+다음 자격 요건은 지원 시 강점이 됩니다. 하지만 프라이버시 가이드는 최고의 후보자(서류만으로는 항상 드러나지 않는 법이죠!)를 찾고 있으니, 이러한 자격 요건을 하나도 또는 많이 충족하지 못하더라도 지원해 주세요.
 
-- Previous writing or journalism experience.
-- Previous product review experience.
-- Education in English, journalism, media production, or any other related fields.
-- Familiarity with Privacy Guides' communities, culture, and mission.
-- Located between UTC-08:00 and UTC-04:00 time zones.
-- At least basic familiarity with GitHub, including pull requests, branches, reviews, and issues.
+- 글쓰기 또는 저널리즘 경력.
+- 제품 리뷰 경력.
+- 영어, 저널리즘, 미디어 제작 또는 기타 관련 분야의 교육 이수.
+- 프라이버시 가이드의 커뮤니티, 문화, 사명에 대한 이해.
+- UTC-08:00에서 UTC-04:00 사이의 시간대에 거주.
+- 풀 리퀘스트, 브랜치, 리뷰, 이슈를 포함한 깃허브에 대한 최소한의 기본 지식.
 
-The ideal candidate can commit to this role on a full-time basis (40 hours / week), but we are open to discussing a schedule you suggest.
+이상적인 후보자는 이 직무에 전일제(주 40시간)로 근무할 수 있는 사람이지만, 제안하시는 일정에 대해서도 논의할 수 있습니다.
 
-For this position, our hiring pay range falls between \$20-$25 / hour USD. The base pay may vary depending on job related qualifications such as knowledge, skills, and experience. Our compensation structure is rooted in a performance and merit based approach that acknowledges performance of both the individual and the project as a whole.
+이 직무의 채용 급여 범위는 시간당 \$20-$25(USD)입니다. 기본급은 지식, 기술, 경험 같은 직무 관련 자격에 따라 달라질 수 있습니다. 보상 체계는 개인과 프로젝트 전체의 성과를 모두 인정하는 성과 및 실적 기반 방식에 바탕을 두고 있습니다.
 
 ---
 
 <div class="admonition info" markdown>
-<p class="admonition-title">Position Closed</p>
+<p class="admonition-title">채용이 마감되었습니다</p>
 
-Thank you for your interest in this position at Privacy Guides. At this time we are no longer accepting new applications, but please follow our [job openings](../jobs.md) page to learn about future opportunities.
+프라이버시 가이드의 이 직무에 관심을 가져 주셔서 감사합니다. 현재는 더 이상 새로운 지원을 받지 않지만, 향후 채용 기회는 [채용 공고](../jobs.md) 페이지에서 확인해 주세요.
 
 </div>
 
-Privacy Guides is fiscally hosted by [MAGIC Grants](https://magicgrants.org), a 501(c)(3) public charity. MAGIC Grants is an equal opportunity employer. MAGIC Grants does not discriminate against any applicant or employee because of age, color, sex, disability, national origin, race, religion, sexual orientation, sexual identity, veteran status, or other protected characteristic.
+프라이버시 가이드의 회계 호스트는 501(c)(3) 공익 자선 단체인 [MAGIC 그랜츠](https://magicgrants.org)입니다. MAGIC 그랜츠는 기회 균등 고용주입니다. MAGIC 그랜츠는 나이, 피부색, 성별, 장애, 출신 국가, 인종, 종교, 성적 지향, 성 정체성, 제대 군인 여부 또는 기타 법적으로 보호되는 특성을 이유로 지원자나 직원을 차별하지 않습니다.
 
-We respect your privacy. After this position is filled, your application will be deleted. Your application will not be shared with third parties.
+프라이버시 가이드는 여러분의 프라이버시를 존중합니다. 이 직무의 채용이 완료되면 지원서는 삭제됩니다. 지원서는 제3자와 공유되지 않습니다.
