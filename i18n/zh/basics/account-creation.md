@@ -5,7 +5,7 @@ icon: 'material/account-plus'
 description: 在网上创建账户几乎是网络生活的必需品，采取这些步骤来保障您的隐私安全。
 ---
 
-人们经常不假思索地注册服务。 Maybe it's a streaming service to watch that new show everyone's talking about, or an account that gives you a discount for your favorite fast food place. 无论情况如何，你应该考虑现在和以后对你的数据的影响。
+人们经常不假思索地注册服务。也许是一个可以观看大家都在热议的那部新剧的流媒体平台，或者是一个能让你在最喜欢的快餐店享受折扣的账号。无论情况如何，你应该考虑现在和以后对你的数据的影响。
 
 你所使用的每一项新服务都有风险。数据泄露；向第三方披露客户信息；流氓雇员访问数据；所有这些都是在提供你的信息时必须考虑的可能性。你需要确信你可以信任该服务，这就是为什么我们不建议将有价值的数据存储在任何东西上，除了最成熟和经过战斗考验的产品。这通常意味着提供E2EE并经过加密审计的服务。审计增加了对产品的保证，即产品的设计没有由缺乏经验的开发者造成的明显的安全问题。
 
@@ -13,11 +13,11 @@ description: 在网上创建账户几乎是网络生活的必需品，采取这�
 
 ## 用户协议和隐私政策
 
-服务条款是你在使用服务时同意遵守的规则。对于较大的服务，这些规则通常由自动系统执行。有时这些自动系统会犯错误。 For example, you may be banned or locked out of your account on some services for using a VPN or VoIP number. 对这种禁令提出上诉往往很困难，而且也涉及到一个自动程序，并不总是成功。这将是我们不建议使用Gmail的电子邮件作为例子的原因之一。电子邮件对于访问你可能已经注册的其他服务至关重要。
+服务条款是你在使用服务时同意遵守的规则。对于较大的服务，这些规则通常由自动系统执行。有时这些自动系统会犯错误。例如，在某些服务中，如果您使用VPN或VoIP号码，可能会被封号或无法登录账户。对这种禁令提出上诉往往很困难，而且也涉及到一个自动程序，并不总是成功。这将是我们不建议使用Gmail的电子邮件作为例子的原因之一。电子邮件对于访问你可能已经注册的其他服务至关重要。
 
-The Privacy Policy is how the service says they will use your data, and it is worth reading so that you understand how your data will be used. 一个公司或组织可能在法律上没有义务遵守政策中的所有内容（这取决于司法管辖区）。我们建议对你当地的法律有一些了解，以及他们允许供应商收集什么。
+《隐私政策》阐述了该服务将如何使用您的数据，建议您仔细阅读，以便了解您的数据将如何被使用。一个公司或组织可能在法律上没有义务遵守政策中的所有内容（这取决于司法管辖区）。我们建议对你当地的法律有一些了解，以及他们允许供应商收集什么。
 
-我们建议寻找特定的术语，如 "数据收集"、"数据分析"、"cookies"、"广告 "或 "第三方 "服务。 Sometimes you will be able to opt out from data collection or from sharing your data, but it is best to choose a service that respects your privacy from the start.
+我们建议寻找特定的术语，如 "数据收集"、"数据分析"、"cookies"、"广告 "或 "第三方 "服务。有时你可以选择拒绝数据收集或拒绝共享你的数据，但最好从一开始就选择一家尊重你隐私的服务商。
 
 请记住，你也将你的信任寄托在该公司或组织身上，他们会遵守自己的隐私政策。
 
@@ -42,7 +42,7 @@ The Privacy Policy is how the service says they will use your data, and it is wo
 
 #### 邮箱别名
 
-如果你不想把你的真实电子邮件地址提供给一个服务，你可以选择使用一个别名。 We describe them in more detail on our email services recommendation page. 本质上，别名服务允许你生成新的电子邮件地址，将所有电子邮件转发到你的主地址。 This can help prevent tracking across services and help you manage the marketing emails that sometimes come with the sign-up process. 这些可以根据它们被发送到的别名自动过滤。
+如果你不想把你的真实电子邮件地址提供给一个服务，你可以选择使用一个别名。我们在电子邮件服务推荐页面上对此进行了更详细的介绍。本质上，别名服务允许你生成新的电子邮件地址，将所有电子邮件转发到你的主地址。这有助于防止跨服务追踪，并帮助您管理注册过程中有时会收到的营销邮件。这些可以根据它们被发送到的别名自动过滤。
 
 如果一项服务被黑客攻击，你可能会开始收到钓鱼或垃圾邮件到你用来注册的地址。为每项服务使用独特的别名，可以帮助准确识别什么服务被黑。
 
@@ -50,19 +50,19 @@ The Privacy Policy is how the service says they will use your data, and it is wo
 
 ### “通过……登录” (OAuth)
 
-[Open Authorization (OAuth)](https://en.wikipedia.org/wiki/OAuth) is an authentication protocol that allows you to register for a service without sharing much information with the service provider, if any, by using an existing account you have with another service instead. 每当你在注册表单上看到类似“通过*提供商名称*登录”的内容时，通常就是在使用OAuth。
+[开放授权（OAuth）](https://en.wikipedia.org/wiki/OAuth)是一种身份验证协议，它允许您利用自己在其他服务中已有的账户，在无需向服务提供商透露太多信息（甚至无需透露任何信息）的情况下注册该服务。每当你在注册表单上看到类似“通过*提供商名称*登录”的内容时，通常就是在使用OAuth。
 
 当你通过OAuth登录时，它会打开一个登录页面，你选择的提供商和你现有的账户以及新账户将会被连接起来。你的密码不会共享，但一些基本信息通常会共享（你可以在登录请求期间审查它）每次你想登录同一个账户时，都需要这个过程。
 
 主要的优点是:
 
-- **Security**: You don't have to trust the security practices of the service you're logging into when it comes to storing your login credentials because they are stored with the external OAuth provider. Common OAuth providers like Apple and Google typically follow the best security practices, continuously audit their authentication systems, and don't store credentials inappropriately (such as in plain text).
-- **Ease-of-use**: Multiple accounts are managed by a single login.
+- **安全性**：在存储登录凭据方面，您无需信任所登录服务的安保措施，因为这些凭据是存储在外部 OAuth 提供商处的。苹果和谷歌等常见的 OAuth 提供商通常遵循最佳安全实践，持续对认证系统进行审计，并且不会以不当方式（例如以明文形式）存储凭据。
+- **易用性**：只需一次登录即可管理多个账户。
 
 但也有弊端:
 
-- **Privacy**: The OAuth provider you log in with will know the services you use.
-- **Centralization**: If the account you use for OAuth is compromised, or you aren't able to log in to it, all other accounts connected to it are affected.
+- **隐私性**：您用于登录的 OAuth 提供商将知晓您使用的服务。
+- **中心化**：如果用于 OAuth 的账户遭到入侵，或者您无法登录该账户，则与其关联的所有其他账户都会受到影响。
 
 OAuth在需要服务之间更深入整合的情况下特别有用。我们的建议是仅在需要时使用OAuth，并始终使用多因素认证 [MFA](multi-factor-authentication.md) 保护主账户。
 
@@ -74,9 +74,9 @@ OAuth在需要服务之间更深入整合的情况下特别有用。我们的建
 
 ### 手机号
 
-我们建议避免使用那些需要电话号码才能注册的服务。 A phone number can identify you across multiple services and depending on data sharing agreements this will make your usage easier to track, particularly if one of those services is breached as the phone number is often **not** encrypted.
+我们建议避免使用那些需要电话号码才能注册的服务。一个电话号码可以在多个服务中识别您的身份，根据数据共享协议的不同，这会使您的使用情况更容易被追踪，特别是当其中某项服务遭遇数据泄露时，因为电话号码通常**并未经过**加密处理。
 
-如果可以的话，你应该避免提供你的真实电话号码。 Some services will allow the use of VoIP numbers, however these often trigger fraud detection systems, causing an account to be locked down, so we don't recommend that for important accounts.
+如果可以的话，你应该避免提供你的真实电话号码。某些服务允许使用VoIP号码，但这往往会触发欺诈检测系统，导致账户被封禁，因此我们不建议在重要账户上使用此类号码。
 
 在许多情况下，你将需要提供一个可以接收短信或电话的号码，特别是在国际购物时，以防你的订单在边境检查时出现问题。服务机构使用你的号码作为验证方法是很常见的；不要因为你想耍小聪明，给了一个假的号码，而让自己被锁定在一个重要的账户之外。
 

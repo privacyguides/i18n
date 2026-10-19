@@ -1,10 +1,10 @@
 ---
 title: 删除帐户
 icon: 资料/账户-删除
-description: It's easy to accumulate a large number of internet accounts. Here are some tips on how to prune your collection.
+description: 人们很容易积累大量网络账号。以下是一些关于如何精简您的账号的建议。
 ---
 
-随着时间的推移，很容易积累一些在线账户，其中许多账户你可能不再使用。删除这些未使用的账户是找回隐私的一个重要步骤，因为休眠账户很容易受到数据泄露的影响。 A data breach occurs when a service's security is compromised and protected information is viewed, transmitted, or stolen by unauthorized actors. 不幸的是，而今数据泄露 [太过于常见](https://haveibeenpwned.com/PwnedWebsites) ，因此保持良好的数字卫生是将它们对你生活的影响降到最低的最好方法。 The goal of this guide then is to help navigate you through the irksome process of account deletion, often made difficult by [deceptive design](https://deceptive.design), for the betterment of your online presence.
+随着时间的推移，很容易积累一些在线账户，其中许多账户你可能不再使用。删除这些不再使用的账户，是重新掌控个人隐私的重要一步，因为长期不活动的账户更容易受到数据泄露的威胁。数据泄露是指一项服务的安全性受到损害，受保护的信息被未经授权的人查看、传输或窃取。遗憾的是，如今数据泄露[事件屡见不鲜](https://haveibeenpwned.com/PwnedWebsites)，因此养成良好的数字安全习惯是最大限度减少其对您生活影响的最佳方式。因此，本指南旨在帮助您顺利完成账户删除这一令人头疼的过程——该过程往往因[误导性的设计](https://deceptive.design)而变得困难重重——从而优化您的在线生活。
 
 ## 查找旧帐户
 

@@ -60,7 +60,7 @@ Aurora Store 不允许您使用其匿名帐户功能下载付费应用程序。�
 
 ## 使用 RSS 通知手动获取
 
-对于在 GitHub 和 GitLab 等平台上发布的应用程序，您可以将 RSS 订阅添加到您的[新闻聚合器](../news-aggregators.md)中，以帮助您跟踪新版本。
+对于在 GitHub 和 GitLab 等平台上发布的应用程序，您可以将 RSS 订阅添加到您的[新闻聚合器](../news-aggregators.md)中，以便关注应用的新版本发布动态。
 
 ![RSS APK](../assets/img/android/rss-apk-light.png#only-light) ![RSS APK](../assets/img/android/rss-apk-dark.png#only-dark) ![APK Changes](../assets/img/android/rss-changes-light.png#only-light) ![APK Changes](../assets/img/android/rss-changes-dark.png#only-dark)
 

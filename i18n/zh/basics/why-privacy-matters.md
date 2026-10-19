@@ -58,7 +58,7 @@ description: 在数据被大量利用的现代，你的隐私从未这样重要�
 
 隐私是我们使用的[软件和服务](../tools.md)中应该自带的东西，你无法强行让大多数你使用应用程序变得隐私。
 
-[:material-movie-open-play-outline: Video: 5 Steps to Improve Your Privacy](https://www.privacyguides.org/videos/2025/02/14/5-easy-steps-to-protect-yourself-online){ class="md-button" }
+[:material-movie-open-play-outline: 视频：提升隐私保护的5个步骤](https://www.privacyguides.org/videos/2025/02/14/5-easy-steps-to-protect-yourself-online){ class="md-button" }
 
 ## 资料来源
 
