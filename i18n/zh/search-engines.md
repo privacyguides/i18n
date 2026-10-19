@@ -1,8 +1,8 @@
 ---
-meta_title: "Recommended Search Engines: Anonymous Alternatives to Google - Privacy Guides"
-title: Search Engines
+meta_title: "推荐的搜索引擎：Google的匿名替代品 - Privacy Guides"
+title: 搜索引擎
 icon: material/search-web
-description: Use privacy-respecting search engines which don't build an advertising profile based on your searches.
+description: 使用尊重隐私的搜索引擎，它们不会根据您的搜索构建广告档案。
 cover: search-engines.webp
 global:
   - 
@@ -10,23 +10,23 @@ global:
     - "table tbody"
 ---
 
-<small>Protects against the following threat(s):</small>
+<small>防御以下威胁：</small>
 
 - [:material-account-cash: 监视资本主义](basics/common-threats.md#surveillance-as-a-business-model ""){.pg-brown}
 
-Use a **search engine** that doesn't build an advertising profile based on your searches.
+使用不基于您的搜索记录构建广告档案的**搜索引擎**。
 
-## 推荐的供应商
+## 推荐的服务商
 
-The recommendations here do not collect personally identifying information (PII) based on each service's privacy policy. There is **no guarantee** that these privacy policies are honored.
+根据各服务的隐私政策，此处的推荐内容不会收集个人身份信息（PII）。**无法保证**这些隐私政策会得到遵守。
 
-Consider using a [VPN](vpn.md) or [Tor](tor.md) if your threat model requires hiding your IP address from the search provider.
+如果您的威胁模型需要向搜索提供商隐藏您的IP地址，请考虑使用 [VPN](vpn.md) 或 [Tor](tor.md)。
 
-| Provider                      | Search Index                                                                                                                                                                  | Tor Hidden Service            | Logging / Privacy Policy | Country of Operation |
-| ----------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------- | ------------------------ | -------------------- |
-| [Brave Search](#brave-search) | [Independent](https://brave.com/search-independence)                                                                                                                          | :material-check:{ .pg-green } | Anonymized[^1]           | United States        |
-| [DuckDuckGo](#duckduckgo)     | [Bing](https://help.duckduckgo.com/results/sources)                                                                                                                           | :material-check:{ .pg-green } | Anonymized[^2]           | United States        |
-| [Startpage](#startpage)       | [Google and Bing](https://support.startpage.com/hc/articles/4522435533844-What-is-the-relationship-between-Startpage-and-your-search-partners-like-Google-and-Microsoft-Bing) | :material-check:{ .pg-green } | Anonymized[^3]           | Netherlands          |
+| 提供商                           | 搜索索引                                                                                                                                                                        | Tor隐藏服务                       | 日志/隐私政策 | 运营国家 |
+| ----------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------- | ------- | ---- |
+| [Brave Search](#brave-search) | [独立](https://brave.com/search-independence)                                                                                                                                 | :material-check:{ .pg-green } | 匿名化[^1] | 美国   |
+| [DuckDuckGo](#duckduckgo)     | [Bing](https://help.duckduckgo.com/results/sources)                                                                                                                         | :material-check:{ .pg-green } | 匿名化[^2] | 美国   |
+| [Startpage](#startpage)       | [Google 和 Bing](https://support.startpage.com/hc/articles/4522435533844-What-is-the-relationship-between-Startpage-and-your-search-partners-like-Google-and-Microsoft-Bing) | :material-check:{ .pg-green } | 匿名化[^3] | 荷兰   |
 
 ### Brave Search
 
@@ -34,18 +34,18 @@ Consider using a [VPN](vpn.md) or [Tor](tor.md) if your threat model requires hi
 
 ![Brave Search logo](assets/img/search-engines/brave-search.svg){ align=right }
 
-**Brave Search** is a search engine developed by Brave. It includes unique features such as [Discussions](https://search.brave.com/help/discussions), which highlights conversation-focused results such as forum posts.
+**Brave Search** 是由 Brave 开发的搜索引擎。它包含一些独特的功能，例如 [Discussions](https://search.brave.com/help/discussions)，该功能会突出显示以对话为中心的结果，例如论坛帖子。
 
-Brave Search is the default search engine for the [Brave Browser](desktop-browsers.md#brave).
+Brave Search 是 [Brave 浏览器](desktop-browsers.md#brave) 的默认搜索引擎。
 
-[:octicons-home-16: Homepage](https://search.brave.com){ .md-button .md-button--primary }
-[:simple-torbrowser:](https://search.brave4u7jddbv7cyviptqjc7jusxh72uik7zt6adtckl5f4nwy2v72qd.onion){ .card-link title="Onion Service" }
-[:octicons-eye-16:](https://search.brave.com/help/privacy-policy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://search.brave.com/help){ .card-link title="Documentation" }
+[:octicons-home-16: 主页](https://search.brave.com){ .md-button .md-button--primary }
+[:simple-torbrowser:](https://search.brave4u7jddbv7cyviptqjc7jusxh72uik7zt6adtckl5f4nwy2v72qd.onion){ .card-link title="洋葱服务" }
+[:octicons-eye-16:](https://search.brave.com/help/privacy-policy){ .card-link title="隐私政策" }
+[:octicons-info-16:](https://search.brave.com/help){ .card-link title="文档" }
 
 </div>
 
-We recommend you disable [Anonymous usage metrics](https://search.brave.com/help/usage-metrics) as it is enabled by default and can be disabled within settings.
+我们建议您禁用[“匿名使用统计”功能](https://search.brave.com/help/usage-metrics)，因为该功能默认处于启用状态，您可以在设置中将其禁用。
 
 ### DuckDuckGo
 
@@ -53,18 +53,18 @@ We recommend you disable [Anonymous usage metrics](https://search.brave.com/help
 
 ![DuckDuckGo logo](assets/img/search-engines/duckduckgo.svg){ align=right }
 
-**DuckDuckGo** is one of the more mainstream private search engine options. Notable DuckDuckGo search features include [bangs](https://duckduckgo.com/bang) and a variety of [instant answers](https://help.duckduckgo.com/duckduckgo-help-pages/features/instant-answers-and-other-features). The search engine uses numerous [sources](https://help.duckduckgo.com/results/sources) other than Bing for instant answers and other non-primary results.
+**DuckDuckGo** 是更主流的隐私搜索引擎选项之一。 DuckDuckGo 著名的搜索功能包括 [bangs](https://duckduckgo.com/bang) 和各种 [即时答案](https://help.duckduckgo.com/duckduckgo-help-pages/features/instant-answers-and-other-features)。该搜索引擎除了使用 Bing 之外，还使用众多 [其他来源](https://help.duckduckgo.com/results/sources) 提供即时答案和其他非主要结果。
 
-DuckDuckGo is the default search engine for the [Tor Browser](tor.md#tor-browser) and is one of the few available options on Apple’s [Safari](mobile-browsers.md#safari-ios) browser.
+DuckDuckGo 是 [Tor 浏览器](tor.md#tor-browser) 的默认搜索引擎，也是 Apple 的 [Safari](mobile-browsers.md#safari-ios) 浏览器上少数可用的选项之一。
 
-[:octicons-home-16: Homepage](https://duckduckgo.com){ .md-button .md-button--primary }
-[:simple-torbrowser:](https://duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion){ .card-link title="Onion Service" }
-[:octicons-eye-16:](https://duckduckgo.com/privacy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://help.duckduckgo.com){ .card-link title="Documentation" }
+[:octicons-home-16: 主页](https://duckduckgo.com){ .md-button .md-button--primary }
+[:simple-torbrowser:](https://duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion){ .card-link title="洋葱服务" }
+[:octicons-eye-16:](https://duckduckgo.com/privacy){ .card-link title="隐私政策" }
+[:octicons-info-16:](https://help.duckduckgo.com){ .card-link title="文档" }
 
 </div>
 
-DuckDuckGo offers two [other versions](https://help.duckduckgo.com/features/non-javascript) of their search engine, both of which do not require JavaScript. These versions do lack features, however. These versions can also be used in conjunction with their Tor hidden address by appending [/lite](https://duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion/lite) or [/html](https://duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion/html) for the respective version.
+DuckDuckGo 提供其搜索引擎的另外两种 [版本](https://help.duckduckgo.com/features/non-javascript)，这两个版本都不需要 JavaScript。不过，这些版本确实缺少一些功能。这些版本还可以与它们的 Tor 隐藏地址一起使用，只需为其各自的版本附加 [/lite](https://duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion/lite) 或 [/html](https://duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion/html) 即可。
 
 ### Startpage
 
@@ -73,22 +73,22 @@ DuckDuckGo offers two [other versions](https://help.duckduckgo.com/features/non-
 ![Startpage logo](assets/img/search-engines/startpage.svg#only-light){ align=right }
 ![Startpage logo](assets/img/search-engines/startpage-dark.svg#only-dark){ align=right }
 
-**Startpage** is a private search engine. One of Startpage's unique features is the [Anonymous View](https://startpage.com/en/anonymous-view), which puts forth efforts to standardize user activity to make it more difficult to be uniquely identified. The feature can be useful for hiding [some](https://support.startpage.com/hc/articles/4455540212116-The-Anonymous-View-Proxy-technical-details) network and browser properties. Unlike the name suggests, the feature should not be relied upon for anonymity. If you are looking for anonymity, use the [Tor Browser](tor.md#tor-browser) instead.
+**Startpage** 是一个隐私搜索引擎。 Startpage 的独特功能之一是 [匿名视图](https://startpage.com/en/anonymous-view)，它致力于标准化用户活动，使其更难被唯一识别。该功能可用于隐藏 [某些](https://support.startpage.com/hc/articles/4455540212116-The-Anonymous-View-Proxy-technical-details) 网络和浏览器属性。与其名称不同，不应依赖该功能来实现匿名。如果您在寻找匿名性，请使用 [Tor 浏览器](tor.md#tor-browser)。
 
-[:octicons-home-16: Homepage](https://startpage.com){ .md-button .md-button--primary }
-[:simple-torbrowser:](http://startpagel6srwcjlue4zgq3zevrujfaow726kjytqbbjyrswwmjzcqd.onion){ .card-link title="Onion Service" }
-[:octicons-eye-16:](https://startpage.com/en/privacy-policy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://support.startpage.com/hc/categories/4481917470356-Startpage-Search-Engine){ .card-link title="Documentation" }
+[:octicons-home-16: 主页](https://startpage.com){ .md-button .md-button--primary }
+[:simple-torbrowser:](http://startpagel6srwcjlue4zgq3zevrujfaow726kjytqbbjyrswwmjzcqd.onion){ .card-link title="洋葱服务" }
+[:octicons-eye-16:](https://startpage.com/en/privacy-policy){ .card-link title="隐私政策" }
+[:octicons-info-16:](https://support.startpage.com/hc/categories/4481917470356-Startpage-Search-Engine){ .card-link title="文档" }
 
 </div>
 
-Startpage's majority shareholder is System1 who is an adtech company. We don't believe that to be an issue as they have a distinctly separate [privacy policy](https://system1.com/terms/privacy-policy). The Privacy Guides team reached out to Startpage [back in 2020](https://blog.privacyguides.org/2020/05/03/relisting-startpage) to clear up any concerns with System1's sizeable investment into the service, and we were satisfied with the answers we received.
+Startpage 的多数股东是广告技术公司 System1。我们认为这不是问题，因为他们有明显独立的 [隐私政策](https://system1.com/terms/privacy-policy)。 Privacy Guides 团队 [早在 2020 年](https://blog.privacyguides.org/2020/05/03/relisting-startpage) 就联系了 Startpage，以澄清对 System1 对该服务的大量投资的任何疑虑，我们对收到的答复感到满意。
 
-Startpage previously placed limitations on VPN and [Tor](tor.md) users, but they recently created an [official](https://support.startpage.com/hc/en-us/articles/24786602537364-Startpage-s-Tor-onion-service) Tor hidden service, and as of April 2024 we have no longer noticed extra roadblocks for Tor or [VPN](vpn.md) users.
+Startpage 之前对 VPN 和 [Tor](tor.md) 用户施加了限制，但他们最近创建了一个 [官方](https://support.startpage.com/hc/en-us/articles/24786602537364-Startpage-s-Tor-onion-service) Tor 隐藏服务，截至 2024 年 4 月，我们不再注意到 Tor 或 [VPN](vpn.md) 用户有额外的障碍。
 
-## Metasearch Engines
+## 元搜索引擎
 
-A [metasearch engine](https://en.wikipedia.org/wiki/Metasearch_engine) aggregates the results of other search engines, such as the ones recommended above, while not storing any information itself.
+[元搜索引擎](https://en.wikipedia.org/wiki/Metasearch_engine) 汇总其他搜索引擎（例如上面推荐的引擎）的结果，而本身不存储任何信息。
 
 ### SearXNG
 
@@ -96,40 +96,40 @@ A [metasearch engine](https://en.wikipedia.org/wiki/Metasearch_engine) aggregate
 
 ![SearXNG logo](assets/img/search-engines/searxng.svg){ align=right }
 
-**SearXNG** is an open-source, self-hostable, metasearch engine. It is an actively maintained fork of [SearX](https://github.com/searx/searx).
+**SearXNG** 是一个开源的、可自托管的元搜索引擎。它是 [SearX](https://github.com/searx/searx) 的一个积极维护的分支。
 
-[:octicons-home-16: Homepage](https://searxng.org){ .md-button .md-button--primary }
-[:octicons-server-16:](https://searx.space){ .card-link title="Public Instances" }
-[:octicons-code-16:](https://github.com/searxng/searxng){ .card-link title="Source Code" }
+[:octicons-home-16: 主页](https://searxng.org){ .md-button .md-button--primary }
+[:octicons-server-16:](https://searx.space){ .card-link title="公共实例" }
+[:octicons-code-16:](https://github.com/searxng/searxng){ .card-link title="源代码" }
 
 </div>
 
-SearXNG is a proxy between you and the search engines it aggregates from. Your search queries will still be sent to the search engines that SearXNG gets its results from.
+SearXNG 是您和它汇总的搜索引擎之间的代理。您的搜索查询仍将发送到 SearXNG 获取其结果的搜索引擎。
 
-When self-hosting, it is important that you have other people using your instance so that the queries would blend in. You should be careful with where and how you are hosting SearXNG, as people looking up illegal content on your instance could draw unwanted attention from authorities.
+当自托管时，重要的是要有其他人使用您的实例，以便查询能够混合在一起。您应该小心托管 SearXNG 的位置和方式，因为人们在您的实例上查找非法内容可能会引起当局不必要的关注。
 
-When you are using a SearXNG instance, be sure to go read their privacy policy. Since SearXNG instances may be modified by their owners, they do not necessarily reflect their privacy policy. Some instances run as a Tor hidden service, which may grant some privacy as long as your search queries does not contain PII.
+当您使用 SearXNG 实例时，请务必阅读他们的隐私政策。由于 SearXNG 实例可能被其所有者修改，因此它们不一定反映其隐私政策。某些实例作为 Tor 隐藏服务运行，只要您的搜索查询不包含 PII，这可能会提供一些隐私。
 
-## Criteria
+## 标准
 
-**Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. We suggest you familiarize yourself with this list before choosing to use a project, and conduct your own research to ensure it's the right choice for you.
+**请注意，我们不隶属于我们推荐的任何项目。** 除了 [我们的标准](about/criteria.md) 之外，我们还制定了一套明确的要求，以使我们能够提供客观的建议。我们建议您在选择使用某个项目之前熟悉此列表，并进行自己的研究，以确保它是适合您的选择。
 
-### Minimum Requirements
+### 最低要求
 
-- Must not collect PII per their privacy policy.
-- Must not require users to create an account with them.
+- 根据其隐私政策，不得收集 PII。
+- 不得要求用户在他们那里创建帐户。
 
-### Best-Case
+### 最佳情况
 
-Our best-case criteria represents what we would like to see from the perfect project in this category. Our recommendations may not include any or all of this functionality, but those which do may rank higher than others on this page.
+我们的最佳情况标准代表了我们希望在此类别中从完美项目中看到的特性。我们的建议可能不包含其中任何或所有功能，但那些具备这些功能的建议可能会在此页面上的排名高于其他建议。
 
-- Should be based on open-source software.
-- Should not block Tor exit node IP addresses.
+- 应基于开源软件。
+- 不应阻止 Tor 出口节点 IP 地址。
 
-[^1]: Brave Search collects aggregated usage metrics, which includes the OS and the user agent. However, they do not collect PII. To serve [anonymous local results](https://search.brave.com/help/anonymous-local-results), IP addresses are temporarily processed, but are not retained.
+[^1]: Brave Search 会收集汇总的使用指标，其中包括操作系统和用户代理。但是，它们不收集 PII。为了提供 [匿名的本地结果](https://search.brave.com/help/anonymous-local-results)，IP 地址会被暂时处理，但不会保留。
 
-    Brave Search: [*Brave Search privacy notice*](https://search.brave.com/help/privacy-policy) [^2]: DuckDuckGo **does** log your searches for product improvement purposes, but not your IP address or any other PII.
+    Brave Search：[*Brave Search 隐私声明*](https://search.brave.com/help/privacy-policy) [^2]: DuckDuckGo **确实** 出于改进产品的目的记录了您的搜索，但不会记录您的 IP 地址或任何其他 PII。
 
-    DuckDuckGo Privacy Policy: [*We don't track you.*](https://duckduckgo.com/privacy) [^3]: Startpage logs details such as operating system, user agent, and language. They do not log your IP address, search queries, or other PII.
+    DuckDuckGo 隐私政策：[*我们不跟踪您。*](https://duckduckgo.com/privacy) [^3]: Startpage 记录详细信息，例如操作系统、用户代理和语言。他们不会记录您的 IP 地址、搜索查询或其他 PII。
 
-    Our Privacy Policy: [*How we have implemented truly anonymous analytics*](https://startpage.com/en/privacy-policy#section-4)
+    我们的隐私政策：[*我们如何实施真正匿名的分析*](https://startpage.com/en/privacy-policy#section-4)

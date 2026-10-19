@@ -10,23 +10,23 @@ description: 人们很容易积累大量网络账号。以下是一些关于如�
 
 ### 密码管理器
 
-如果您有一个贯穿整个数字生活来使用的密码管理器，这个部分将非常简单。 Oftentimes, they include built-in functionality for detecting if your credentials were exposed in a data breach—such as Bitwarden's [Data Breach Report](https://bitwarden.com/blog/have-you-been-pwned).
+如果您有一个贯穿整个数字生活来使用的密码管理器，这个部分将非常简单。通常，它们会内置检测功能，用于查明您的凭据是否在数据泄露事件中遭到泄露——例如 Bitwarden[的“数据泄露报告”](https://bitwarden.com/blog/have-you-been-pwned)。
 
 <figure markdown>
   ![Bitwarden's Data Breach Report feature](../assets/img/account-deletion/exposed_passwords.png)
 </figure>
 
-Even if you haven't explicitly used a password manager before, there's a chance you've used the one in your browser ([Firefox](https://support.mozilla.org/kb/password-manager-remember-delete-edit-logins), [Chrome](https://passwords.google.com/intro), [Edge](https://support.microsoft.com/microsoft-edge/save-or-forget-passwords-in-microsoft-edge-b4beecb0-f2a8-1ca0-f26f-9ec247a3f336)) or your phone ([Google](https://passwords.google.com/intro) on stock Android, [Passwords](https://support.apple.com/HT211146) on iOS) without even realizing it.
+即使你之前从未明确使用过密码管理器，也有可能在不知不觉中使用过浏览器（[Firefox](https://support.mozilla.org/kb/password-manager-remember-delete-edit-logins)、[Chrome](https://passwords.google.com/intro)、[Edge](https://support.microsoft.com/microsoft-edge/save-or-forget-passwords-in-microsoft-edge-b4beecb0-f2a8-1ca0-f26f-9ec247a3f336)）或手机（原生安卓系统的[Google 密码管理器](https://passwords.google.com/intro)、iOS 系统的[“密码”应用](https://support.apple.com/HT211146)）中内置的密码管理功能。
 
 桌面平台通常也有一个密码管理器，可以帮助你恢复你忘记的密码。
 
-- Windows: [Credential Manager](https://support.microsoft.com/windows/accessing-credential-manager-1b5c916a-6a16-889f-8581-fc16e8165ac0)
-- macOS: [Passwords](https://support.apple.com/HT211145)
+- Windows：[凭据管理器](https://support.microsoft.com/windows/accessing-credential-manager-1b5c916a-6a16-889f-8581-fc16e8165ac0)
+- macOS：[密码](https://support.apple.com/HT211145)
 - Linux: Gnome Keyring (accessed through [Seahorse](https://gitlab.gnome.org/GNOME/seahorse#seahorse)) or [KDE Wallet Manager](https://userbase.kde.org/KDE_Wallet_Manager)
 
 ### 电子邮箱
 
-If you didn't use a password manager in the past, or you think you have accounts that were never added to your password manager, another option is to search the email account(s) that you believe you signed up on. 在你的电子邮件客户端，搜索关键词，如 "验证 "或 "欢迎"。几乎每次您创建在线帐户时，注册的服务都会向您的电子邮箱发送验证链接或介绍性消息。这可能是找到被遗忘的旧账户的一个好方法。
+如果您过去没有使用过密码管理器，或者您认为有些账户从未添加到密码管理器中，另一种方法是搜索您认为曾用于注册的电子邮件账户。在你的电子邮件客户端，搜索关键词，如 "验证 "或 "欢迎"。几乎每次您创建在线帐户时，注册的服务都会向您的电子邮箱发送验证链接或介绍性消息。这可能是找到被遗忘的旧账户的一个好方法。
 
 ## 删除旧账户
 
@@ -38,13 +38,13 @@ If you didn't use a password manager in the past, or you think you have accounts
 
 ### GDPR（仅限欧洲经济区居民）
 
-Residents of the EEA have additional rights regarding data erasure specified in [Article 17](https://gdpr-info.eu/art-17-gdpr) of the GDPR. 如果适用于你，请阅读任何特定服务的隐私政策，以找到关于如何行使你的删除权的信息。阅读隐私政策可能被证明是重要的，因为一些服务有一个 "删除账户 "的选项，它只是禁用你的账户，而要真正删除，你必须采取额外行动。有时，实际删除可能涉及填写调查表、向服务的数据保护人员发送电子邮件，甚至证明你在欧洲经济区拥有住所。如果你打算这么做， **不要** 覆盖账户信息--你作为欧洲经济区居民的身份可能被要求。请注意，服务的地点并不重要；GDPR适用于任何为欧洲用户服务的人。 If the service does not respect your right to erasure, you can contact your national [Data Protection Authority](https://ec.europa.eu/info/law/law-topic/data-protection/reform/rights-citizens/redress/what-should-i-do-if-i-think-my-personal-data-protection-rights-havent-been-respected_en) and may be entitled to monetary compensation.
+《通用数据保护条例》（GDPR）[第17条](https://gdpr-info.eu/art-17-gdpr)规定，欧洲经济区（EEA）居民在数据删除方面享有额外权利。如果适用于你，请阅读任何特定服务的隐私政策，以找到关于如何行使你的删除权的信息。阅读隐私政策可能被证明是重要的，因为一些服务有一个 "删除账户 "的选项，它只是禁用你的账户，而要真正删除，你必须采取额外行动。有时，实际删除可能涉及填写调查表、向服务的数据保护人员发送电子邮件，甚至证明你在欧洲经济区拥有住所。如果你打算这么做， **不要** 覆盖账户信息--你作为欧洲经济区居民的身份可能被要求。请注意，服务的地点并不重要；GDPR适用于任何为欧洲用户服务的人。如果该服务未尊重您的数据删除权，您可以联系您所在国家[的数据保护机构](https://ec.europa.eu/info/law/law-topic/data-protection/reform/rights-citizens/redress/what-should-i-do-if-i-think-my-personal-data-protection-rights-havent-been-respected_en)，并可能有权获得经济赔偿。
 
 ### 覆盖账户信息
 
 在某些情况下，如果你打算放弃一个账户，用假数据覆盖账户信息可能是有意义的。一旦你确定你可以登录，将你账户中的所有信息改为伪造的信息。原因是许多网站会保留你以前的信息，即使是在删除账户后。这一方法寄希望于他们能用你输入的最新数据来覆盖以前的信息。但是，无法保证不会使用以前的信息进行备份。
 
-For the account email, either create a new alternate email account via your provider of choice or create an alias using an [email aliasing service](../email-aliasing.md). 一旦完成，您可以删除备用电子邮件地址。我们建议不要使用临时电子邮件供应商，因为很多时候这类临时电子邮件有可能被重新激活。
+对于账户邮箱，您可以通过您选择的邮箱服务商创建一个新的备用邮箱，或者使用[邮箱别名服务](../email-aliasing.md)创建一个别名。一旦完成，您可以删除备用电子邮件地址。我们建议不要使用临时电子邮件供应商，因为很多时候这类临时电子邮件有可能被重新激活。
 
 ### 删除
 
@@ -58,4 +58,4 @@ For the account email, either create a new alternate email account via your prov
 
 ## 避免新账户
 
-老话说，"上医治未病"。每当你觉得被诱惑去注册一个新账户时，问问自己，"我真的需要这个吗？没有账户，我可以完成我需要的东西吗？"删除一个账户往往比创建一个账户要难得多。 And even after deleting or changing the info on your account, there might be a cached version from a third-party—like the [Internet Archive](https://archive.org). 当你能够避免诱惑时--你未来的自己会感谢你的。
+老话说，"上医治未病"。每当你觉得被诱惑去注册一个新账户时，问问自己，"我真的需要这个吗？没有账户，我可以完成我需要的东西吗？"删除一个账户往往比创建一个账户要难得多。即使您删除了账户信息或对其进行了修改，第三方（例如[互联网档案馆](https://archive.org)）可能仍会保留该信息的缓存版本。当你能够避免诱惑时--你未来的自己会感谢你的。

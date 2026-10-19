@@ -9,7 +9,7 @@ schema:
     mainEntity:
       - 
         "@type": Question
-        name: Is open-source software inherently secure?
+        name: 开源软件天生就安全吗？
         acceptedAnswer:
           "@type": Answer
           text: |
@@ -41,7 +41,7 @@ schema:
 
 这些神话源于一些偏见，但软件产品的来源和许可并不以任何方式内在地影响其安全性。 ==开源软件 *有可能* 比专有软件更安全, 但对于这一点没有绝对保证。== 在你评估软件时，需要去逐一检查每个工具的声誉和安全性。
 
-</em> 开源软件 *，可以由第三方进行审计，而且通常比专有的同类软件对潜在的漏洞更加透明。它还允许你审查代码并禁用你自己发现的任何可疑功能。然而， *，除非你这样做*，否则不能保证代码曾经被评估过，特别是对于较小的软件项目。 The open development process has also sometimes been exploited to introduce new vulnerabilities known as [:material-package-variant-closed-remove: Supply Chain Attacks](common-threats.md#attacks-against-certain-organizations ""){.pg-viridian}, which are discussed further in our [Common Threats](common-threats.md) page.[^1]</p>
+</em> 开源软件 *，可以由第三方进行审计，而且通常比专有的同类软件对潜在的漏洞更加透明。它还允许你审查代码并禁用你自己发现的任何可疑功能。然而， *，除非你这样做*，否则不能保证代码曾经被评估过，特别是对于较小的软件项目。开放式开发过程有时也会被利用来引入新的漏洞，即[:material-package-variant-closed-remove: 供应链攻击](common-threats.md#attacks-against-certain-organizations ""){.pg-viridian}，我们将在[常见威胁](common-threats.md)页面中进一步探讨。[^1]</p>
 
 从另一个角度看，专利软件的透明度较低，但这并不意味着它不安全。主要的专利软件项目可以由内部和第三方机构进行审计，而独立的安全研究人员仍然可以通过逆向工程等技术找到漏洞。
 
@@ -62,35 +62,35 @@ schema:
 
 ## "复杂的是更好的"
 
-我们经常看到人们描述的隐私威胁模型过于复杂。 Often, these solutions include problems like multiple email accounts or complicated setups with lots of moving parts and conditions. 答案通常是“做 *×*的最佳方式是什么？”。
+我们经常看到人们描述的隐私威胁模型过于复杂。通常，这些解决方案包含诸多问题，如多个电子邮件帐户或带有许多活动部件和条件的复杂设置。答案通常是“做 *×*的最佳方式是什么？”。
 
 为自己寻找 "最佳 "解决方案并不一定意味着你要追求一个有几十种条件的无懈可击的解决方案——这些解决方案往往难以现实地发挥作用。正如我们之前所讨论的，安全往往是以便利为代价的。下面，我们提供一些提示。
 
 1. ==行动需要服务于一个特定的目的：==思考如何用最少的行动完成你想要的东西。
 2. ==消除人类的失败点：==我们会失败，会累，会忘记事情。为了维护安全，避免依赖你必须记住的手动条件和流程。
-3. ==为你的意图使用正确的保护水平。==我们经常看到所谓的执法或防传唤解决方案的建议。这些往往需要专业知识，通常不是人们想要的。 There's no point in building an intricate threat model for anonymity if you can be easily deanonymized by a simple oversight.
+3. ==为你的意图使用正确的保护水平。==我们经常看到所谓的执法或防传唤解决方案的建议。这些往往需要专业知识，通常不是人们想要的。如果你很容易因为一个简单的疏忽而被去匿名化，那么建立一个复杂的匿名威胁模型就毫无意义。
 
 那么，如何看待这个问题？
 
 最清晰的威胁模型之一是，部分人*，知道你是谁* ，而另一部分人不知道。总有一些情况下你必须申报你的合法姓名，也有一些情况下你不需要这样做。
 
-1. **Known identity** - A known identity is used for things where you must declare your name. There are many legal documents and contracts where a legal identity is required. This could range from opening a bank account, signing a property lease, obtaining a passport, customs declarations when importing items, or otherwise dealing with your government. These things will usually lead to credentials such as credit cards, credit rating checks, account numbers, and possibly physical addresses.
+1. **已知身份** - 已知身份用于你必须声明真实姓名的情况。许多法律文件和合同都需要合法身份。涵盖范围可能包括开立银行账户、签署财产租赁、获取护照、进口物品时的海关申报，或者与政府打交道。这些事情通常会导致信用卡、信用评级检查、账号以及可能的物理地址等凭证。
 
-    We don't suggest using a VPN or Tor for any of these things, as your identity is already known through other means.
+    我们不建议将 VPN 或 Tor 用于任何这些事情，因为你的身份已经通过其他方式为人所知。
 
     <div class="admonition tip" markdown>
-    <p class="admonition-title">Tip</p>
+    <p class="admonition-title">提示</p>
 
-    When shopping online, the use of a [parcel locker](https://en.wikipedia.org/wiki/Parcel_locker) can help keep your physical address private.
+    在线购物时，使用[包裹储物柜](https://en.wikipedia.org/wiki/Parcel_locker)可以帮助你保持物理地址隐私。
 
     </div>
 
-2. **Unknown identity** - An unknown identity could be a stable pseudonym that you regularly use. It is not anonymous because it doesn't change. If you're part of an online community, you may wish to retain a persona that others know. This pseudonym isn't anonymous because—if monitored for long enough—details about the owner can reveal further information, such as the way they write, their general knowledge about topics of interest, etc.
+2. **未知身份** - 未知身份可以是你经常使用的稳定化名。它不是匿名的，因为它不会改变。如果你是在线社区的一部分，你可能希望保留一个其他人认识的角色。这个化名并不是匿名的，因为——如果监控时间足够长——有关所有者的详细信息可以揭示更多信息，例如他们的写作方式、他们对感兴趣的主题的一般知识等。
 
-    You may wish to use a VPN for this, to mask your IP address. Financial transactions are more difficult to mask: You could consider using anonymous cryptocurrencies, such as [Monero](../cryptocurrency.md#monero). Employing altcoin shifting may also help to disguise where your currency originated. Typically, exchanges require KYC (know your customer) to be completed before they'll allow you to exchange fiat currency into any kind of cryptocurrency. Local meet-up options may also be a solution; however, those are often more expensive and sometimes also require KYC.
+    你可能希望为此使用 VPN，以隐藏你的 IP 地址。财务交易更难隐藏：你可以考虑使用匿名加密货币，例如[门罗币（Monero）](../cryptocurrency.md#monero)。采用山寨币转移也可以帮助掩盖你的货币来源。通常，交易所需要先完成 KYC（了解你的客户），然后才允许你将法定货币兑换成任何类型的加密货币。本地交易选项也可能是一种解决方案；然而，它们通常更昂贵，有时还需要 KYC。
 
-3. **Anonymous identity** - Even with experience, anonymous identities are difficult to maintain over long periods of time. They should be short-term and short-lived identities which are rotated regularly.
+3. **匿名身份** - 即使经验丰富，匿名身份也很难长期维持。它们应该是经常轮换的短期且寿命很短的身份。
 
-    Using Tor can help with this. It is also worth noting that greater anonymity is possible through asynchronous communication: Real-time communication is vulnerable to analysis of typing patterns (i.e. more than a paragraph of text, distributed on a forum, via email, etc.)
+    使用 Tor 可以帮助解决这个问题。值得注意的是，通过异步通信可以实现更大的匿名性：实时通信容易受到打字模式分析的攻击（例如在论坛上、通过电子邮件发送超过一段的文本等）。
 
-[^1]: A notable supply chain attack occurred in March 2024, when a malicious maintainer added an obfuscated backdoor into `xz`, a popular compression library. The backdoor ([CVE-2024-3094](https://cve.org/CVERecord?id=CVE-2024-3094)) was intended to give an unknown party remote access to most Linux servers via SSH, but it was discovered before it had been widely deployed.
+[^1]: 2024 年 3 月发生了一起著名的供应链攻击，当时一位恶意维护者将一个混淆的后门添加到流行的压缩库 `xz` 中。该后门（[CVE-2024-3094](https://cve.org/CVERecord?id=CVE-2024-3094)）旨在让未知方通过 SSH 远程访问大多数 Linux 服务器，但它在广泛部署之前就被发现了。

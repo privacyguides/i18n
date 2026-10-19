@@ -1,146 +1,146 @@
 ---
-title: Group Policy Settings
-description: A quick guide to configuring Group Policy to make Windows a bit more privacy respecting.
+title: 组策略设置
+description: 关于配置组策略以使 Windows 更尊重隐私的快速指南。
 ---
 
-Outside modifying the registry itself, the **Local Group Policy Editor** is the most powerful way to change many aspects of your system without installing third-party tools. Changing these settings requires [Pro Edition](index.md#windows-editions) or better.
+除了修改注册表本身之外，**本地组策略编辑器**是在不安装第三方工具的情况下更改系统许多方面的最强大方式。更改这些设置需要[专业版](index.md#windows-editions)或更高版本。
 
-These settings should be set on a brand-new installation of Windows. Setting them on your existing installation should work, but may introduce unpredictable behavior and is done at your own risk.
+应在全新的 Windows 安装上进行这些设置。在现有安装上进行设置应该可以，但可能会引入不可预测的行为，风险自负。
 
-All of these settings have an explanation attached to them in the Group Policy editor which explains exactly what they do, usually in great detail. Please pay attention to those descriptions as you make changes, so you know exactly what we are recommending here. We've also explained some of our choices below whenever the explanation included with Windows is inadequate.
+所有这些设置在组策略编辑器中都有解释说明，通常非常详细地解释它们的确切作用。在进行更改时请注意这些描述，以便你确切了解我们在此推荐的内容。只要 Windows 附带的解释不够充分，我们还在下面解释了我们的一些选择。
 
-## Administrative Templates
+## 管理模板
 
-You can find these settings by opening `gpedit.msc` and navigating to **Local Computer Policy** > **Computer Configuration** > **Administrative Templates** in the left sidebar. The headers on this page correspond to folders/subfolders within Administrative Templates, and the bullet points correspond to individual policies.
+您可以通过打开 `gpedit.msc` 并导航到左侧边栏中的 **本地计算机策略** > **计算机配置** > **管理模板** 来找到这些设置。此页面上的标题对应于管理模板中的文件夹/子文件夹，项目符号对应于单独的策略。
 
-To change any group policy, double click it and select Enabled or Disabled at the top of the window that appears depending on the recommendations below. Some group policies have additional settings that can be configured, and if that's the case the appropriate settings are noted below as well.
+要更改任何组策略，请双击它并在出现的窗口顶部根据下面的建议选择“已启用”或“已禁用”。某些组策略有可以配置的附加设置，如果是这种情况，下面也标注了相应的设置。
 
 ### 系统
 
 #### Device Guard
 
-- Turn On Virtualization Based Security: **Enabled**
-  - Platform Security Level: **Secure Boot and DMA Protection**
-  - Secure Launch Configuration: **Enabled**
+- 打开基于虚拟化的安全: **已启用**
+  - 平台安全级别: **安全启动和 DMA 保护**
+  - 安全启动配置: **已启用**
 
-#### Internet Communication Management
+#### Internet 通信管理
 
-- Turn off Windows Customer Experience Improvement Program: **Enabled**
-- Turn off Windows Error Reporting: **Enabled**
-- Turn off the Windows Messenger Customer Experience Improvement Program: **Enabled**
+- 关闭 Windows 客户体验改善计划: **已启用**
+- 关闭 Windows 错误报告: **已启用**
+- 关闭 Windows Messenger 客户体验改善计划: **已启用**
 
-Note that disabling the Windows Customer Experience Improvement Program also disables some other tracking features that can be individually controlled with Group Policy as well. We don't list them all here or disable them because this setting covers that.
+请注意，禁用 Windows 客户体验改善计划还会禁用其他一些也可以使用组策略单独控制的跟踪功能。我们不在这里列出所有这些设置或禁用它们，因为该设置涵盖了这些内容。
 
-#### OS Policies
+#### OS 策略
 
-- Allow Clipboard History: **Disabled**
-- Allow Clipboard synchronization across devices: **Disabled**
-- Enables Activity Feed: **Disabled**
-- Allow publishing of User Activities: **Disabled**
-- Allow upload of User Activities: **Disabled**
+- 允许剪贴板历史记录: **已禁用**
+- 允许跨设备剪贴板同步: **已禁用**
+- 启用活动摘要: **已禁用**
+- 允许发布用户活动: **已禁用**
+- 允许上传用户活动: **已禁用**
 
-#### 用户资料
+#### 用户配置文件
 
-- Turn off the advertising ID: **Enabled**
+- 关闭广告 ID: **已启用**
 
-### Windows Components
+### Windows 组件
 
-#### AutoPlay Policies
+#### 自动播放策略
 
-AutoRun and AutoPlay are features which allow Windows to run a script or perform some other task when a device is connected, sometimes avoiding security measures that involve user consent. This could allow untrusted devices to run malicious code without your knowledge. It's a security best practice to disable these features, and simply open files on your external disks manually.
+AutoRun 和 AutoPlay 功能允许 Windows 在连接设备时运行脚本或执行其他任务，有时会避开涉及用户同意的安全措施。这可能会允许不受信任的设备在您不知情的情况下运行恶意代码。禁用这些功能并仅手动打开外部磁盘上的文件是安全最佳实践。
 
-- Turn off AutoPlay: **Enabled**
-- Disallow Autoplay for nonvolume devices: **Enabled**
-- Set the default behavior for AutoRun: **Enabled**
-  - Default AutoRun Behavior: **Do not execute any AutoRun commands**
+- 关闭自动播放: **已启用**
+- 不允许对非卷设备自动播放: **已启用**
+- 设置 AutoRun 的默认行为: **已启用**
+  - 默认 AutoRun 行为: **不执行任何 AutoRun 命令**
 
-#### BitLocker Drive Encryption
+#### BitLocker 驱动器加密
 
-You may wish to re-encrypt your operating system drive after changing these settings.
+在更改这些设置后，你可能希望重新加密操作系统驱动器。
 
-- Choose drive encryption method and cipher strength (Windows Vista, Windows Server 2008, Windows 7): **Enabled**
-  - Select the encryption method: **AES-256**
+- 选择驱动器加密方法和密码强度(Windows Vista、Windows Server 2008、Windows 7): **已启用**
+  - 选择加密方法: **AES-256**
 
-Setting the cipher strength for the Windows 7 policy still applies that strength to newer versions of Windows.
+为 Windows 7 策略设置密码强度，仍会将该强度应用于更新版本的 Windows。
 
-##### Operating System Drives
+##### 操作系统驱动器
 
-- Require additional authentication at startup: **Enabled**
-- Allow enhanced PINs for startup: **Enabled**
+- 启动时需要附加身份验证: **已启用**
+- 允许启动时使用增强的 PIN: **已启用**
 
-Despite the names of these policies, this doesn't _require_ you to do anything by default, but it will unlock the _option_ to have a more complex setup (such as requiring a PIN at startup in addition to the TPM) in the BitLocker setup wizard.
+尽管这些策略的名字如此，但这在默认情况下并&#x4E0D;_&#x8981;&#x6C42;_&#x4F60;做任何事，但它会在 BitLocker 设置向导中解锁进行更复杂设置&#x7684;_&#x9009;项_（例如，除了 TPM 之外，启动时还需要输入 PIN）。
 
-#### Cloud Content
+#### 云内容
 
-- Turn off cloud optimized content: **Enabled**
-- Turn off cloud consumer account state content: **Enabled**
-- Do not show Windows tips: **Enabled**
-- Turn off Microsoft consumer experiences: **Enabled**
+- 关闭云优化内容: **已启用**
+- 关闭云消费者账户状态内容: **已启用**
+- 不要显示 Windows 提示: **已启用**
+- 关闭 Microsoft 消费者体验: **已启用**
 
-#### Credential User Interface
+#### 凭据用户界面
 
-- Require trusted path for credential entry: **Enabled**
-- Prevent the use of security questions for local accounts: **Enabled**
+- 要求凭据输入使用受信任的路径: **已启用**
+- 阻止将安全问题用于本地帐户: **已启用**
 
-#### Data Collection and Preview Builds
+#### 数据收集和预览版
 
-- Allow Diagnostic Data: **Enabled**
-  - Options: **Send required diagnostic data** (Pro Edition); or
-  - Options: **Diagnostic data off** (Enterprise or Education Edition)
-- Limit Diagnostic Log Collection: **Enabled**
-- Limit Dump Collection: **Enabled**
-- Limit optional diagnostic data for Desktop Analytics: **Enabled**
-  - Options: **Disable Desktop Analytics collection**
-- Do not show feedback notifications: **Enabled**
+- 允许诊断数据: **已启用**
+  - 选项: **发送必需的诊断数据** (专业版); 或
+  - 选项: **诊断数据已关闭** (企业版或教育版)
+- 限制诊断日志收集: **已启用**
+- 限制转储收集: **已启用**
+- 限制桌面分析的可选诊断数据: **已启用**
+  - 选项: **禁用桌面分析收集**
+- 不显示反馈通知: **已启用**
 
-#### File Explorer
+#### 文件资源管理器
 
-- Turn off account-based insights, recent, favorite, and recommended files in File Explorer: **Enabled**
+- 关闭文件资源管理器中基于帐户的见解、最近、收藏夹和推荐的文件: **已启用**
 
 #### MDM
 
-- Disable MDM Enrollment: **Enabled**
+- 禁用 MDM 注册: **已启用**
 
 #### OneDrive
 
-- Save documents to OneDrive by default: **Disabled**
-- Prevent OneDrive from generating network traffic until the user signs in to OneDrive: **Enabled**
-- Prevent the usage of OneDrive for file storage: **Enabled**
+- 默认将文档保存到 OneDrive: **已禁用**
+- 防止 OneDrive 在用户登录到 OneDrive 之前生成网络流量: **已启用**
+- 防止将 OneDrive 用于文件存储: **已启用**
 
-This last setting disables OneDrive on your system; make sure to change it to **Disabled** if you use OneDrive.
+最后一个设置会禁用系统上的 OneDrive；如果你使用 OneDrive，请确保将其更改为 **已禁用**。
 
-#### Push To Install
+#### 推送以安装
 
-- Turn off Push To Install service: **Enabled**
+- 关闭推送安装服务: **已启用**
 
 #### 搜索
 
-- Allow Cortana: **Disabled**
-- Don't search the web or display web results in Search: **Enabled**
-- Set what information is shared in Search: **Enabled**
-  - Type of information: **Anonymous info**
+- 允许 Cortana: **已禁用**
+- 不要在搜索中搜索 Web 或显示 Web 结果: **已启用**
+- 设置搜索中共享哪些信息: **已启用**
+  - 信息类型: **匿名信息**
 
-#### Sync your settings
+#### 同步你的设置
 
-- Do not sync: **Enabled**
+- 不同步: **已启用**
 
-#### Text input
+#### 文本输入
 
-- Improve inking and typing recognition: **Disabled**
+- 改进墨迹书写和键入识别: **已禁用**
 
 #### Windows AI
 
 <div class="admonition info" markdown>
 <p class="admonition-title">Windows Recall</p>
 
-Windows 11 recently introduced a feature called **Recall**, which records all your activity and creates a searchable archive of that activity history. This is a massive privacy vulnerability, because those archives can potentially store highly sensitive information (essentially anything displayed on your screen), and malware without any special permissions or admin access can trivially [access](https://github.com/xaitax/TotalRecall) the full Recall database anytime after it is unlocked.
+Windows 11 最近引入了一项名为 **Recall** 的功能，它可以记录您的所有活动并创建该活动历史记录的可搜索存档。这是一个巨大的隐私漏洞，因为这些档案可能会存储高度敏感的信息（基本上是屏幕上显示的任何内容），而且没有任何特殊权限或管理员访问权限的恶意软件可以轻易在数据库解锁后的任何时候[访问](https://github.com/xaitax/TotalRecall)完整的 Recall 数据库。
 
 </div>
 
-- Turn off saving snapshots for use with Recall: **Enabled**
+- 关闭保存用于 Recall 的快照: **已启用**
 
-#### Windows Error Reporting
+#### Windows 错误报告
 
-- Do not send additional data: **Enabled**
-- Consent > Configure Default consent: **Enabled**
-  - Consent level: **Always ask before sending data**
+- 不发送附加数据: **已启用**
+- 同意 > 配置默认同意: **已启用**
+  - 同意级别: **发送数据前始终询问**

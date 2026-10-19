@@ -87,8 +87,8 @@ OsmAnd allows you to overlay or underlay external map data, such as satellite im
 
 ### Minimum Requirements
 
-- Must not collect PII per their privacy policy.
-- Must not require users to create an account with them.
+- 根据其隐私政策，不得收集 PII。
+- 不得要求用户在他们那里创建帐户。
 - Must not require users to share location data. If the user opts in to sharing their location, this data must be anonymized.
 - Must retain core functionality when offline and allow users to download maps for offline use.
 
