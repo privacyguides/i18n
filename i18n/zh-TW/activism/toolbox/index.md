@@ -406,7 +406,7 @@ Learn More :material-arrow-right-drop-circle:
 
 ![Low battery icon](../../assets/img/activism/icons/icon-tips/icon-tips-rest.webp){class="toolbox-tip-icon"}
 
-The battle for privacy rights will be a long one. This isn't a sprint, it's a marathon. If you want to be a good advocate, you _must_ take the time to rest when needed. Burning out isn't an option, we cannot afford to lose your precious contribution! Learn more about why it's fundamental to learn to rest when you need it.
+捍衛隱私權是一場持久戰。不是短跑，而是馬拉松。 If you want to be a good advocate, you _must_ take the time to rest when needed. 拒絕「操勞過度」，我們實在無法承受失去您珍貴的一臂之力！ Learn more about why it's fundamental to learn to rest when you need it.
 
 Learn More :material-arrow-right-drop-circle:
 {align=right}

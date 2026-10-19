@@ -1,8 +1,8 @@
 ---
-meta_title: "Tor Browser and Network: Anonymous Web Browsing - Privacy Guides"
+meta_title: "Tor 浏览器与网络：匿名网页浏览 - Privacy Guides"
 title: "Tor浏览器"
 icon: simple/torbrowser
-description: Protect your internet browsing from prying eyes by using the Tor network, a secure network which circumvents censorship.
+description: 使用可规避审查的安全网络 Tor，保护您的网络浏览免受窥探。
 cover: tor.webp
 schema:
   - 
@@ -23,28 +23,28 @@ schema:
       url: "./"
 ---
 
-<small>Protects against the following threat(s):</small>
+<small>防御以下威胁：</small>
 
 - [:material-account-cash: 监视资本主义](basics/common-threats.md#surveillance-as-a-business-model ""){.pg-brown}
 - [:material-eye-outline: 大规模监控](basics/common-threats.md#mass-surveillance-programs ""){.pg-blue}
 - [:material-close-outline: 审查](basics/common-threats.md#avoiding-censorship ""){.pg-blue-gray}
 
-**Tor** is a group of volunteer-operated servers that allows you to connect for free and improve your privacy and security on the Internet. 个人和组织也可以通过Tor网络与".onion隐藏服务"分享信息，而不损害其隐私。由于Tor流量难以阻止和跟踪，因此Tor是一种有效的审查规避工具。
+**Tor** 是一组由志愿者运营的服务器，允许您免费连接并提高您在互联网上的隐私和安全性。个人和组织也可以通过Tor网络与".onion隐藏服务"分享信息，而不损害其隐私。由于Tor流量难以阻止和跟踪，因此Tor是一种有效的审查规避工具。
 
-[Detailed Tor Overview :material-arrow-right-drop-circle:](advanced/tor-overview.md ""){.md-button.md-button--primary} [:material-movie-open-play-outline: Video: Why You Need Tor](https://www.privacyguides.org/videos/2025/03/02/why-you-need-tor ""){.md-button}
+[Tor 详细概述 :material-arrow-right-drop-circle:](advanced/tor-overview.md ""){.md-button.md-button--primary} [:material-movie-open-play-outline: 视频：为什么你需要 Tor](https://www.privacyguides.org/videos/2025/03/02/why-you-need-tor ""){.md-button}
 
 <div class="admonition tip" markdown>
-<p class="admonition-title">Tip</p>
+<p class="admonition-title">提示</p>
 
-Before connecting to Tor, please ensure you've read our [overview](advanced/tor-overview.md) on what Tor is and how to connect to it safely. We often recommend connecting to Tor through a trusted [VPN provider](vpn.md), but you have to do so **properly** to avoid decreasing your anonymity.
+在连接到 Tor 之前，请确保您已经阅读了我们的[概述](advanced/tor-overview.md)，了解 Tor 是什么以及如何安全地连接它。我们通常建议通过受信任的 [VPN 提供商](vpn.md)连接到 Tor，但您必须**正确**操作，以避免降低您的匿名性。
 
 </div>
 
-There are a variety of ways to connect to the Tor network from your device, the most commonly used being the **Tor Browser**, a fork of Firefox designed for [:material-incognito: anonymous](basics/common-threats.md#anonymity-vs-privacy ""){.pg-purple} browsing for desktop computers and Android.
+从您的设备连接到 Tor 网络有多种方式，最常用的是 **Tor 浏览器**，它是 Firefox 的一个分支，专为桌面计算机和 Android 上的 [:material-incognito: 匿名](basics/common-threats.md#anonymity-vs-privacy ""){.pg-purple} 浏览而设计。
 
-Some of these apps are better than others; making a determination comes down to your threat model. If you are a casual Tor user who is not worried about your ISP collecting evidence against you, using mobile browser apps like [Onion Browser](#onion-browser-ios) to access the Tor network is probably fine. Increasing the number of people who use Tor on an everyday basis helps reduce the bad stigma of Tor, and lowers the quality of "lists of Tor users" that ISPs and governments may compile.
+这些应用中有些比其他的更好；如何决定取决于您的威胁模型。如果您只是偶尔使用 Tor，且不担心您的 ISP 收集对您不利的证据，那么使用像 [Onion Browser](#onion-browser-ios) 这样的移动浏览器应用来访问 Tor 网络可能就足够了。增加日常使用 Tor 的人数有助于减少 Tor 的不良污名，并降低 ISP 和政府可能编制的“Tor 用户列表”的质量。
 
-If more complete anonymity is paramount to your situation, you should **only** be using the desktop Tor Browser client, ideally in a [Whonix](desktop.md#whonix) + [Qubes](desktop.md#qubes-os) configuration. Mobile browsers are less common on Tor (and more fingerprintable as a result), and other configurations are not as rigorously tested against deanonymization.
+如果更彻底的匿名性对您的情况至关重要，您应该**只**使用桌面版 Tor 浏览器客户端，最好是在 [Whonix](desktop.md#whonix) + [Qubes](desktop.md#qubes-os) 配置下。移动浏览器在 Tor 上较少见（因此更容易被指纹识别），并且其他配置在防止去匿名化方面没有经过如此严格的测试。
 
 ## Tor浏览器
 
@@ -52,16 +52,16 @@ If more complete anonymity is paramount to your situation, you should **only** b
 
 ![Tor Browser logo](assets/img/browsers/tor.svg){ align=right }
 
-**Tor Browser** is the top choice if you need anonymity, as it provides you with access to the Tor network and bridges, and it includes default settings and extensions that are automatically configured by the default security levels: *Standard*, *Safer* and *Safest*.
+如果您需要匿名，**Tor 浏览器** 是首选，因为它为您提供了访问 Tor 网络和网桥的途径，并且包含了由默认安全级别（*标准*、*较安全* 和 *最安全*）自动配置的默认设置和扩展。
 
-[:octicons-home-16: Homepage](https://torproject.org){ .md-button .md-button--primary }
-[:simple-torbrowser:](http://2gzyxa5ihm7nsggfxnu52rck2vv4rvmdlkiu3zzui5du4xyclen53wid.onion){ .card-link title="Onion Service" }
-[:octicons-info-16:](https://tb-manual.torproject.org){ .card-link title="Documentation" }
-[:octicons-code-16:](https://gitlab.torproject.org/tpo/applications/tor-browser){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://donate.torproject.org){ .card-link title="Contribute" }
+[:octicons-home-16: 主页](https://torproject.org){ .md-button .md-button--primary }
+[:simple-torbrowser:](http://2gzyxa5ihm7nsggfxnu52rck2vv4rvmdlkiu3zzui5du4xyclen53wid.onion){ .card-link title="洋葱服务" }
+[:octicons-info-16:](https://tb-manual.torproject.org){ .card-link title="文档" }
+[:octicons-code-16:](https://gitlab.torproject.org/tpo/applications/tor-browser){ .card-link title="源代码" }
+[:octicons-heart-16:](https://donate.torproject.org){ .card-link title="贡献" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>下载</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=org.torproject.torbrowser)
 - [:simple-android: Android](https://torproject.org/download/#android)
@@ -74,15 +74,15 @@ If more complete anonymity is paramount to your situation, you should **only** b
 </div>
 
 <div class="admonition danger" markdown>
-<p class="admonition-title">Danger</p>
+<p class="admonition-title">危险</p>
 
-You should **never** install any additional extensions on Tor Browser or edit `about:config` settings, including the ones we suggest for Firefox. Browser extensions and non-standard settings make you stand out from others on the Tor network, thus making your browser easier to [fingerprint](https://support.torproject.org/glossary/browser-fingerprinting).
+您**绝不**应该在 Tor 浏览器上安装任何额外的扩展或编辑 `about:config` 设置，包括我们为 Firefox 建议的那些。浏览器扩展和非标准设置会使您在 Tor 网络中显得与众不同，从而使您的浏览器更容易被[指纹识别](https://support.torproject.org/glossary/browser-fingerprinting)。
 
 </div>
 
-Tor浏览器旨在防止指纹识别，或根据您的浏览器配置识别您。 Therefore, it is imperative that you do **not** modify the browser beyond the default [security levels](https://tb-manual.torproject.org/security-settings). When modifying the security level setting, you **must** always restart the browser before continuing to use it. 否则，[安全设置可能无法完全生效](https://www.privacyguides.org/articles/2025/05/02/tor-security-slider-flaw)，这会使您面临比根据所选设置所预期的更高的指纹识别和漏洞利用风险。
+Tor浏览器旨在防止指纹识别，或根据您的浏览器配置识别您。因此，您**绝不能**修改默认[安全级别](https://tb-manual.torproject.org/security-settings)之外的浏览器设置，这一点至关重要。在修改安全级别设置时，您**必须**始终重启浏览器，然后再继续使用。否则，[安全设置可能无法完全生效](https://www.privacyguides.org/articles/2025/05/02/tor-security-slider-flaw)，这会使您面临比根据所选设置所预期的更高的指纹识别和漏洞利用风险。
 
-In addition to installing Tor Browser on your computer directly, there are also operating systems designed specifically to connect to the Tor network such as [Whonix](desktop.md#whonix) on [Qubes OS](desktop.md#qubes-os), which provide even greater security and protections than the standard Tor Browser alone.
+除了直接在您的计算机上安装 Tor 浏览器外，还有专门设计用于连接 Tor 网络的操作系统，例如 [Qubes OS](desktop.md#qubes-os) 上的 [Whonix](desktop.md#whonix)，它们提供比单独使用标准 Tor 浏览器更高的安全性和保护。
 
 ## Onion Browser (iOS)
 
@@ -90,18 +90,18 @@ In addition to installing Tor Browser on your computer directly, there are also 
 
 ![Onion Browser logo](assets/img/self-contained-networks/onion_browser.svg){ align=right }
 
-**Onion Browser** is an open-source browser that lets you browse the web anonymously over the Tor network on iOS devices and is endorsed by the [Tor Project](https://support.torproject.org/glossary/onion-browser).
+**Onion Browser** 是一款开源浏览器，可让您在 iOS 设备上通过 Tor 网络匿名浏览网页，并获得了 [Tor 项目](https://support.torproject.org/glossary/onion-browser)的认可。
 
-[:material-star-box: Read our latest Onion Browser review.](https://www.privacyguides.org/articles/2024/09/18/onion-browser-review)
+[:material-star-box: 阅读我们最新的 Onion Browser 评测。](https://www.privacyguides.org/articles/2024/09/18/onion-browser-review)
 
-[:octicons-home-16: Homepage](https://onionbrowser.com){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://onionbrowser.com/privacy-policy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://onionbrowser.com/faqs){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/OnionBrowser/OnionBrowser){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://onionbrowser.com/donate){ .card-link title="Contribute" }
+[:octicons-home-16: 主页](https://onionbrowser.com){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://onionbrowser.com/privacy-policy){ .card-link title="隐私政策" }
+[:octicons-info-16:](https://onionbrowser.com/faqs){ .card-link title="文档" }
+[:octicons-code-16:](https://github.com/OnionBrowser/OnionBrowser){ .card-link title="源代码" }
+[:octicons-heart-16:](https://onionbrowser.com/donate){ .card-link title="贡献" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>下载</summary>
 
 - [:simple-appstore: App Store](https://apps.apple.com/app/id519296448)
 
@@ -109,6 +109,6 @@ In addition to installing Tor Browser on your computer directly, there are also 
 
 </div>
 
-Onion Browser does not provide the same levels of privacy protections as Tor Browser does on desktop platforms. For casual use it is a perfectly fine way to access hidden services, but if you're concerned about being traced or monitored by advanced adversaries you should not rely on this as an anonymity tool.
+Onion Browser 无法提供与桌面平台上的 Tor 浏览器相同级别的隐私保护。对于日常使用，它是访问隐藏服务的绝佳方式，但如果您担心被高级对手追踪或监控，则不应将其作为匿名工具来依赖。
 
-[Notably](https://github.com/privacyguides/privacyguides.org/issues/2929), Onion Browser does not *guarantee* all requests go through Tor. When using the built-in version of Tor, [your real IP **will** be leaked via WebRTC and audio/video streams](https://onionbrowser.com/faqs) due to limitations of WebKit. It is *safer* to use Onion Browser alongside [Orbot](alternative-networks.md#orbot), but this still comes with some limitations on iOS.
+[值得注意的是](https://github.com/privacyguides/privacyguides.org/issues/2929)，Onion Browser 并不*保证*所有请求都通过 Tor 进行。当使用内置版本的 Tor 时，由于 WebKit 的限制，[您的真实 IP **将**通过 WebRTC 和音视频流泄露](https://onionbrowser.com/faqs)。将 Onion Browser 与 [Orbot](alternative-networks.md#orbot) 配合使用会*更安全*，但这在 iOS 上仍然存在一些限制。

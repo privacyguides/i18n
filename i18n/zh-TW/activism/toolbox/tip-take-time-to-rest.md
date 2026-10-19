@@ -1,50 +1,50 @@
 ---
 title: 請好好休息，回來再與我們並肩作戰
-description: The battle for privacy will be a long one. This isn't a sprint, it's a marathon. If you want to be a good advocate, you must learn to rest when you need it.
+description: 捍衛隱私是一場持久戰。不是短跑，而是馬拉松。若想成為一名優秀的倡導者，就要學會在必要的時候休息。
 icon: fontawesome/solid/battery-quarter
 cover: activism/banner-toolbox-tip-rest.webp
 ---
 
-The battle for privacy rights will be a long one. This isn't a sprint, it's a marathon.
+捍衛隱私權是一場持久戰。這不是短跑，而是馬拉松。
 
-If you want to be a good advocate, who will be able to fight with us for a long time, you _must_ take the time to **rest when needed**.
+如果你想成為一位優秀的倡議者，與我們長期並肩奮戰，&#x4F60;_&#x5FC5;&#x9808;_&#x9A30;出時間，**在需要時好好休息**。
 
-Burning out isn't an option, we cannot afford to lose your precious contribution! And to prevent burning out, you must learn how to rest.
+拒絕「操勞過度」，我們實在無法承受失去您珍貴的一臂之力！而要避免身心耗竭，你必須學會如何休息。
 
-When you are starting to feel the activist and dystopia-fighter fatigue, it's important to take the time off you need until you feel rested. Then, come back to the battlefield to fight with us again!
+當社會運動者與反烏托邦鬥士的身份開始讓你感到疲憊時，務必適時休息，直到精力恢復為止。屆時，再回到戰場上與我們一同並肩作戰吧！
 
-Here's why it's fundamental to learn how to rest when you need it:
+以下說明學會適時休息為什麼至關重要：
 
-## Knowing when to rest is a strength, not a weakness
+## 懂得何時該休息是一種強項，而非弱點
 
-We have some bad news for you: **You are a human.**
+我們要跟你說個壞消息：**你是人類。**
 
-This has many annoying side effects, such as having limited energy and a flesh-and-bone body you need to take care of. Trying to ignore this undeniable fact will only slow you down even more.
+身為人類有許多令人困擾的副作用，比如能量有限，以及脆弱的血肉之軀必須悉心照料。無視這個現實，恐怕只會讓你進度更加遲滯。
 
-In our society's hustle culture, it's counterproductive that we often value overwork more than strategic rest.
+在這個崇尚積極、衝勁的社會，我們往往過度重視工作而不懂休息的策略性，而這種做法反而會適得其反。
 
-The thing is, overwork isn't a sustainable strategy for the long battle ahead of us. ==What we need to succeed is privacy activists who will fight by our side for a very long time.== We need endurance and persistence. And for this to happen, we need ourselves and our [privacy comrades](tip-support-your-privacy-comrades.md) to be well-rested, by taking pauses and adopting the strategies we all need to recharge.
+問題在於，用「過度努力」應對我們面前這場漫長戰役絕非長久之計。 ==我們若要成功，就需要能長期與我們並肩作戰的隱私權倡議者。== 我們需要耐力與毅力。要讓這一切成真，我們需要讓自己和我們的 [隱私戰友](tip-support-your-privacy-comrades.md) 充分休息，透過適時暫停、採取我們所需的策略來補充能量。
 
-We need our movement to stay away from the often toxic hustle culture we have all observed from Big Tech companies, and instead embrace a culture of mutual support that encourages self-care.
+我們需要讓這場運動遠離你我都曾目睹大型科技公司中那種有毒的「拼命文化」，轉而擁抱一種鼓勵自我關懷、戰友相互支持的文化。
 
-We shouldn't try to imitate our opponents by "[moving fast and breaking things](https://www.privacyguides.org/articles/2022/04/04/move-fast-and-break-things/)."
+我們不該模仿對手，他們的「[快速行動、打破常規](https://www.privacyguides.org/articles/2022/04/04/move-fast-and-break-things/)」戰法並不適合我們。
 
-We need to move at a _sustainable_ pace, and build a powerful privacy rights movement that will last.
+我們必須&#x4EE5;_&#x7A69;定、有持續&#x6027;_&#x7684;步調前進，建立一個強大且能長久的隱私權運動。
 
-The important part isn't to fight for privacy rights 24/7. What matters most is that once you are well-rested after taking some time off, you come back to the battlefield to fight with us again.
+是否夜以繼日、全年無休，這對於為隱私權而戰一點都不重要。最重要的是，只要你願意停下腳步、充分休息，便能重返戰場、繼續與我們並肩。
 
 <div class="admonition quote toolbox-quote" markdown>
-<p class="admonition-title toolbox-quote">Successful social change activists learn to be the tortoise rather than the hare. Looking after yourself and your family is important.</p>
+<p class="admonition-title toolbox-quote">成功的社會議題革命運動家，會學習當烏龜，而非兔子。照顧好自己和家人非常重要。</p>
 
-<p class="toolbox-quote-source" markdown>Source: [*The Activists' Handbook* by Aidan Ricketts](https://aidanricketts.com/the-activists-handbook/)</p>
+<p class="toolbox-quote-source" markdown>來源：艾丹·瑞凱茨（Aidan Ricketts）所著[《行動者手冊》](https://aidanricketts.com/the-activists-handbook/)</p>
 
 </div>
 
-## Tips to help prevent privacy activism burnout
+## 有助於預防隱私權倡議者倦怠的小撇步
 
-Unfortunately, activism burnout is quite common. And, in the privacy field, this is amplified by the well-documented effect of [privacy fatigue](https://www.sciencedirect.com/science/article/abs/pii/S0747563217306817).
+遺憾的是，倡議者的倦怠現象相當普遍。又，在隱私領域，因[隱私疲勞](https://www.sciencedirect.com/science/article/abs/pii/S0747563217306817)這一已獲充分證實的影響，倦怠現象是更加嚴重的。
 
-Additionally, the fact that we have to incessantly push against a tidal wave of new privacy-invasive legislations and technologies is understandingly exhausting. But we can adopt many strategies to prevent activism burnout, minimize privacy fatigue, and learn how to rest and valorize self-care as an essential part of our work:
+此外，我們不得不反覆抵禦一波又一波侵犯隱私的新法規、新技術，任何人都能理解這有多讓人筋疲力竭。不過，我們可以採取許多策略來預防倡導行動的倦怠、減輕隱私疲勞，並學習如何休息，也同時將自我照顧視為我們努力的事項之中不可或缺的一部分：
 
 <style>
 .emoji-list-a ul {
@@ -58,9 +58,9 @@ Additionally, the fact that we have to incessantly push against a tidal wave of 
 
 <div class="emoji-list-a" markdown>
 
-- **Take breaks:** When you start feeling completely discouraged about the state of privacy rights in the world, it's time for a break. Take a few days off if you can, and try to enjoy activities that have nothing to do with your privacy advocacy.
+- **休息一下：** 當你開始對全球隱私權的現狀感到徹底氣餒時，就是該暫停喘口氣的時候了。如果可以的話，請讓自己放個幾天假，試著享受一些與你倡導隱私權完全無關的活動。
 
-- **Take care of your body:** Make sure not to neglect your bodily needs, this should always be a priority. Your body and your brain are the most essential tools you have for your privacy advocacy work. Take care of them first and foremost.
+- **照顧好自己的身體：** 切勿忽視身體的需求，這應該始終被視作首要之務。你的身體和大腦，是你從事隱私權倡導工作時最重要的工具。 Take care of them first and foremost.
 
 - **Sleep well:** Prioritize quality sleep and adopt a rigorous [sleep routine](https://sleepresearchfoundation.com/2024/03/03/top-10-tips-to-create-an-ideal-sleep-routine/) with a strict schedule.
 

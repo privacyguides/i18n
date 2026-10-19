@@ -99,11 +99,11 @@ schema:
 
 **即使不**使用[VPN](vpn.md)，Mullvad浏览器也能像[Firefox+Arkenfox](#arkenfox-advanced)或[Brave](#brave)等其他隐私浏览器一样，抵御[简单的指纹识别脚本](https://github.com/arkenfox/user.js/wiki/3.3-Overrides-%5BTo-RFP-or-Not%5D#-fingerprinting)。 Mullvad 浏览器自带这些保护，但牺牲了其他隐私浏览器提供的一些灵活性和便利性。
 
-==为了最完善的反指纹保护，我们建议将 Mullvad 浏览器与 **和** VPN== 结合使用，无论是 Mullvad 还是其他推荐的 VPN 提供商。在使用 Mullvad 浏览器的 VPN 时，你将与许多其他用户共享一个指纹和一个 IP 地址池，使你混入“人群”。 This strategy is the best way to defend against advanced tracking scripts, and is the same anti-fingerprinting technique used by Tor Browser.
+==为了最完善的反指纹保护，我们建议将 Mullvad 浏览器与 **和** VPN== 结合使用，无论是 Mullvad 还是其他推荐的 VPN 提供商。在使用 Mullvad 浏览器的 VPN 时，你将与许多其他用户共享一个指纹和一个 IP 地址池，使你混入“人群”。这种策略是防御高级跟踪脚本的最佳方法，也是 Tor 浏览器使用的相同反指纹技术。
 
-Note that while you can use Mullvad Browser with any VPN provider, other people on that VPN must also be using Mullvad Browser for this "crowd" to exist, something which is more likely on Mullvad VPN compared to other providers. Mullvad 浏览器没有内置 VPN 连接，也不会在浏览前检查你是否在使用 VPN；你的 VPN 连接必须单独配置和管理。
+请注意，虽然您可以将 Mullvad 浏览器与任何 VPN 提供商一起使用，但该 VPN 上的其他人也必须使用 Mullvad 浏览器才能存在这种“人群”，与其他提供商相比，这在 Mullvad VPN 上更有可能发生。 Mullvad 浏览器没有内置 VPN 连接，也不会在浏览前检查你是否在使用 VPN；你的 VPN 连接必须单独配置和管理。
 
-Mullvad 浏览器预装了 *uBlock Origin* 和 *NoScript* 浏览器扩展程序。 While we typically discourage adding *additional* [browser extensions](browser-extensions.md), these extensions that come pre-installed with the browser should **not** be removed or configured outside their default values, because doing so would noticeably make your browser fingerprint distinct from other Mullvad Browser users. It also comes pre-installed with the Mullvad Browser Extension, which *can* be safely removed without [impacting](https://mullvad.net/en/help/tag/mullvad-browser#112) your browser fingerprint if you would like, but is also safe to keep even if you don't use Mullvad VPN.
+Mullvad 浏览器预装了 *uBlock Origin* 和 *NoScript* 浏览器扩展程序。虽然我们通常不鼓励添加*额外的*[浏览器扩展](browser-extensions.md)，但**不应**删除浏览器预装的这些扩展或将其配置为默认值以外的值，因为这样做会明显使您的浏览器指纹有别于其他 Mullvad 浏览器用户。它还预装了 Mullvad 浏览器扩展，如果您愿意，*可以*安全地将其删除，而不会[影响](https://mullvad.net/en/help/tag/mullvad-browser#112)您的浏览器指纹，但即使您不使用 Mullvad VPN，保留它也是安全的。
 
 ### 无痕模式
 
@@ -158,12 +158,12 @@ Firefox 在从 Mozilla 网站下载的文件中包含一个唯一的 [下载令�
 
 ##### Firefox 建议
 
-[Firefox Suggest](https://support.mozilla.org/kb/firefox-suggest) is a feature similar to search suggestions. We recommend disabling it for the same reason we recommend disabling search suggestions. If you don't see these options under the **Address Bar** header, you do not have the new experience and can ignore these changes.
+[Firefox Suggest](https://support.mozilla.org/kb/firefox-suggest) 是一项类似于搜索建议的功能。出于与建议禁用搜索建议相同的原因，我们建议将其禁用。如果您在**地址栏**标题下没有看到这些选项，则说明您没有新体验，可以忽略这些更改。
 
-- [ ] Uncheck **Suggestions from Firefox**
+- [ ] 取消选中**来自 Firefox 的建议**
 - [ ] 取消选中 **来自赞助商的建议**
 
-> According to Mozilla, ["Certain parts of Firefox Suggest are currently available only in some regions."](https://support.mozilla.org/kb/firefox-suggest)
+> 根据 Mozilla 的说法，[“Firefox Suggest 的某些部分目前仅在某些地区可用。”](https://support.mozilla.org/kb/firefox-suggest)
 
 #### 隐私与安全
 
@@ -171,29 +171,29 @@ Firefox 在从 Mozilla 网站下载的文件中包含一个唯一的 [下载令�
 
 - [x] 选择 **严格的** 增强跟踪保护
 
-This protects you by blocking social media trackers, fingerprinting scripts (note that this does not protect you from *all* fingerprinting), cryptominers, cross-site tracking cookies, and some other tracking content. ETP protects against many common threats, but it does not block all tracking avenues because it is designed to have minimal to no impact on site usability.
+这通过阻止社交媒体跟踪器、指纹脚本（请注意，这并不能保护您免受*所有*指纹识别）、加密货币矿工、跨站点跟踪 cookie 和一些其他跟踪内容来保护您。 ETP 可防御许多常见威胁，但它不会阻止所有跟踪途径，因为它的设计旨在对网站可用性产生最小甚至没有影响。
 
 ##### 关闭时消毒
 
-If you want to stay logged in to particular sites, you can allow exceptions in **Cookies and Site Data** → **Manage Exceptions...**
+如果您想在特定网站上保持登录状态，可以在**Cookie 和网站数据** → **管理例外情况...**中允许例外情况。
 
 - [x] 勾选 **当Firefox关闭时，删除cookies和网站数据**
 
-This protects you from persistent cookies, but does not protect you against cookies acquired during any one browsing session. When this is enabled, it becomes possible to easily cleanse your browser cookies by simply restarting Firefox. You can set exceptions on a per-site basis, if you wish to stay logged in to a particular site you visit often.
+这可以保护您免受持久性 cookie 的影响，但不能保护您免受在任何一次浏览会话期间获取的 cookie 的影响。启用此功能后，只需重新启动 Firefox 即可轻松清除浏览器 cookie。如果您希望在经常访问的特定网站上保持登录状态，则可以按网站设置例外情况。
 
-##### Telemetry
+##### 遥测
 
-- [ ] Uncheck **Send technical and interaction data to Mozilla**
-- [ ] Uncheck **Allow personalized extension recommendations**
-- [ ] Uncheck **Install and run studies**
-- [ ] Uncheck **Send daily usage ping to Mozilla**
-- [ ] Uncheck **Automatically send crash reports**
+- [ ] 取消选中**允许 Firefox 向 Mozilla 发送技术与交互数据**
+- [ ] 取消选中**允许 Firefox 推荐个性化扩展**
+- [ ] 取消选中**允许 Firefox 安装并运行研究项目**
+- [ ] 取消选中**向 Mozilla 发送每日使用情况**
+- [ ] 取消选中**自动发送崩溃报告**
 
-According to Mozilla's privacy policy for Firefox,
+根据 Mozilla 的 Firefox 隐私政策，
 
 > 火狐浏览器会向我们发送有关您的火狐浏览器版本和语言、设备操作系统和硬件配置、内存、有关崩溃和错误的基本信息以及更新、安全浏览和激活等自动处理结果的数据。当火狐浏览器向我们发送数据时，您的IP地址会被暂时收集，作为我们服务器日志的一部分。
 
-Additionally, the Mozilla Accounts service collects [some technical data](https://mozilla.org/privacy/mozilla-accounts). If you use a Mozilla Account you can opt out:
+此外，Mozilla 帐户服务会收集[一些技术数据](https://mozilla.org/privacy/mozilla-accounts)。如果您使用 Mozilla 帐户，则可以选择退出：
 
 1. 在 accounts.firefox.com</a>上打开你的
 
@@ -203,42 +203,42 @@ Additionally, the Mozilla Accounts service collects [some technical data](https:
 
 
 
-##### HTTPS-Only Mode
+##### 仅 HTTPS 模式
 
 - [x] 选择 **启用所有窗口的纯HTTPS-Only模式**
 
-This prevents you from unintentionally connecting to a website in plain-text HTTP. Sites without HTTPS are uncommon nowadays, so this should have little to no impact on your day-to-day browsing.
+这可以防止您无意中以纯文本 HTTP 连接到网站。如今没有 HTTPS 的网站并不常见，因此这应该对您的日常浏览几乎没有影响。
 
 
 
 ##### DNS over HTTPS
 
-If you use a [DNS over HTTPS provider](dns.md):
+如果您使用 [DNS over HTTPS 提供商](dns.md)：
 
 - [x] 选择 **最强保护** 并选择一个合适的提供商
 
-Max Protection enforces the use of DNS over HTTPS, and a security warning will show if Firefox can’t connect to your secure DNS resolver, or if your secure DNS resolver says that records for the domain you are trying to access do not exist. This stops the network you're connected to from secretly downgrading your DNS security.
+最大保护强制使用 DNS over HTTPS，如果 Firefox 无法连接到您的安全 DNS 解析器，或者如果您的安全 DNS 解析器表示您尝试访问的域的记录不存在，则会显示安全警告。这可以阻止您连接的网络秘密降低您的 DNS 安全性。
 
 
 
-#### Sync
+#### 同步
 
-[Firefox Sync](https://hacks.mozilla.org/2018/11/firefox-sync-privacy) allows your browsing data (history, bookmarks, etc.) to be accessible on all your devices and protects it with E2EE.
+[Firefox Sync](https://hacks.mozilla.org/2018/11/firefox-sync-privacy) 允许在您的所有设备上访问您的浏览数据（历史记录、书签等），并使用 E2EE 对其进行保护。
 
 
 
 ### Arkenfox (advanced)
 
 <div class="admonition tip" markdown>
-<p class="admonition-title">Use Mullvad Browser for advanced anti-fingerprinting</p>
+<p class="admonition-title">使用 Mullvad 浏览器进行高级反指纹识别</p>
 
-[Mullvad Browser](#mullvad-browser) provides stronger anti-fingerprinting protections out of the box than Firefox, and does not require the use of Mullvad's VPN to benefit from these protections. Coupled with a VPN, Mullvad Browser can thwart more advanced tracking scripts which Arkenfox cannot. Firefox still has the advantage of being much more flexible, and allowing per-site exceptions for websites which you need to stay logged in to.
+[Mullvad 浏览器](#mullvad-browser)开箱即提供比 Firefox 更强的反指纹保护，并且不需要使用 Mullvad 的 VPN 即可受益于这些保护。结合 VPN，Mullvad 浏览器可以阻止 Arkenfox 无法阻止的更高级的跟踪脚本。 Firefox 仍然具有更加灵活的优势，并允许对您需要保持登录状态的网站进行按站点例外处理。
 
 </div>
 
-The [Arkenfox project](https://github.com/arkenfox/user.js) provides a set of carefully considered options for Firefox. If you [decide](https://github.com/arkenfox/user.js/wiki/1.1-To-Arkenfox-or-Not) to use Arkenfox, a [few options](https://github.com/arkenfox/user.js/wiki/3.2-Overrides-%5BCommon%5D) are subjectively strict and/or may cause some websites to not work properly—which you can [easily change](https://github.com/arkenfox/user.js/wiki/3.1-Overrides) to suit your needs. We **strongly recommend** reading through their full [wiki](https://github.com/arkenfox/user.js/wiki). Arkenfox also enables [container](https://support.mozilla.org/kb/containers#w_for-advanced-users) support.
+[Arkenfox 项目](https://github.com/arkenfox/user.js)为 Firefox 提供了一组经过仔细考虑的选项。如果您[决定](https://github.com/arkenfox/user.js/wiki/1.1-To-Arkenfox-or-Not)使用 Arkenfox，[一些选项](https://github.com/arkenfox/user.js/wiki/3.2-Overrides-%5BCommon%5D)主观上很严格和/或可能导致某些网站无法正常工作——您可以[轻松更改](https://github.com/arkenfox/user.js/wiki/3.1-Overrides)这些选项以满足您的需求。我们**强烈建议**通读其完整的 [wiki](https://github.com/arkenfox/user.js/wiki)。 Arkenfox 还启用了[容器](https://support.mozilla.org/kb/containers#w_for-advanced-users)支持。
 
-Arkenfox only aims to thwart basic or naive tracking scripts through canvas randomization and Firefox's built-in fingerprint resistance configuration settings. It does not aim to make your browser blend in with a large crowd of other Arkenfox users in the same way Mullvad Browser or Tor Browser do, which is the only way to thwart advanced fingerprint tracking scripts. Remember that you can always use multiple browsers, for example, you could consider using Firefox+Arkenfox for a few sites that you want to stay logged in on or otherwise trust, and Mullvad Browser for general browsing.
+Arkenfox 仅旨在通过Canvas随机化和 Firefox 内置的抗指纹配置设置来阻止基本或简单的跟踪脚本。它并不像 Mullvad 浏览器或 Tor 浏览器那样使您的浏览器与大量其他 Arkenfox 用户融为一体，这是阻止高级指纹跟踪脚本的唯一方法。请记住，您始终可以使用多个浏览器，例如，您可以考虑将 Firefox+Arkenfox 用于您想要保持登录状态或以其他方式信任的少数网站，并将 Mullvad 浏览器用于一般浏览。
 
 
 
@@ -248,18 +248,18 @@ Arkenfox only aims to thwart basic or naive tracking scripts through canvas rand
 
 ![Brave logo](assets/img/browsers/brave.svg){ align=right }
 
-**Brave Browser** includes a built-in content blocker and [privacy features](https://brave.com/privacy-features), many of which are enabled by default.
+**Brave 浏览器**包含内置的内容拦截器和[隐私功能](https://brave.com/privacy-features)，其中许多功能默认启用。
 
 Brave是建立在Chromium网络浏览器项目之上的，所以它应该有熟悉的感觉，而且网站兼容性问题最小。
 
-[:octicons-home-16: Homepage](https://brave.com){ .md-button .md-button--primary }
+[:octicons-home-16: 官网](https://brave.com){ .md-button .md-button--primary }
 [:simple-torbrowser:](https://brave4u7jddbv7cyviptqjc7jusxh72uik7zt6adtckl5f4nwy2v72qd.onion){ .card-link title="Onion Service" }
-[:octicons-eye-16:](https://brave.com/privacy/browser){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://support.brave.com){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/brave/brave-browser){ .card-link title="Source Code" }
+[:octicons-eye-16:](https://brave.com/privacy/browser){ .card-link title="隐私政策" }
+[:octicons-info-16:](https://support.brave.com){ .card-link title="文档" }
+[:octicons-code-16:](https://github.com/brave/brave-browser){ .card-link title="源代码" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>下载</summary>
 
 - [:simple-github: GitHub](https://github.com/brave/brave-browser/releases)
 - [:fontawesome-brands-windows: Windows](https://brave.com/download)
@@ -274,11 +274,11 @@ Brave是建立在Chromium网络浏览器项目之上的，所以它应该有熟�
 <div class="admonition warning" markdown>
 <p class="admonition-title">警告</p>
 
-Brave adds a "[referral code](https://github.com/brave/brave-browser/wiki/Brave%E2%80%99s-Use-of-Referral-Codes)" to the file name in downloads from the Brave website, which is used to track which source the browser was downloaded from, for example `BRV002` in a download named `Brave-Browser-BRV002.pkg`. The installer will then ping Brave's server with the referral code at the end of the installation process. If you're concerned about this, you can rename the installer file before opening it.
+Brave 在从 Brave 网站下载的文件名中添加了“[推荐代码](https://github.com/brave/brave-browser/wiki/Brave%E2%80%99s-Use-of-Referral-Codes)”，用于跟踪浏览器是从哪个来源下载的，例如在名为 `Brave-Browser-BRV002.pkg` 的下载中为 `BRV002`。然后，安装程序将在安装过程结束时使用推荐代码 ping Brave 的服务器。如果您对此感到担忧，可以在打开安装程序文件之前对其进行重命名。
 
 </div>
 
-### Recommended Brave Configuration
+### 推荐的 Brave 配置
 
 这些选项可在 :material-menu: →**“设置”** 中找到。
 
@@ -286,148 +286,148 @@ Brave adds a "[referral code](https://github.com/brave/brave-browser/wiki/Brave%
 
 #### Shields
 
-Brave includes some anti-fingerprinting measures in its [Shields](https://support.brave.com/hc/articles/360022973471-What-is-Shields) feature. We suggest configuring these options [globally](https://support.brave.com/hc/articles/360023646212-How-do-I-configure-global-and-site-specific-Shields-settings) across all pages that you visit.
+Brave 在其 [Shields](https://support.brave.com/hc/articles/360022973471-What-is-Shields) 功能中包含一些反指纹措施。我们建议在您访问的所有页面中[全局](https://support.brave.com/hc/articles/360023646212-How-do-I-configure-global-and-site-specific-Shields-settings)配置这些选项。
 
 Shields的选项可以根据需要在每个站点的基础上进行降级，但在默认情况下，我们建议设置以下内容。
 
 <div class="annotate" markdown>
 
-- [x] Select **Aggressive** under *Trackers & ads blocking*
+- [x] 在 *跟踪器和广告拦截* 下选择 **激进**
 
 <details class="warning" markdown>
-<summary>Use default filter lists</summary>
+<summary>使用默认过滤列表</summary>
 
-Brave allows you to select additional content filters within the internal `brave://adblock` page. 我们建议不要使用这个功能；相反，保留默认的过滤列表。使用额外的列表会使你从其他Brave用户中脱颖而出，如果Brave中存在漏洞，恶意规则被添加到你使用的列表中，也可能增加攻击面。
+Brave 允许您在内部 `brave://adblock` 页面中选择其他内容过滤器。我们建议不要使用这个功能；相反，保留默认的过滤列表。使用额外的列表会使你从其他Brave用户中脱颖而出，如果Brave中存在漏洞，恶意规则被添加到你使用的列表中，也可能增加攻击面。
 
 </details>
 
-- [x] Select **Strict** under *Upgrade connections to HTTPS*
-- [x] (Optional) Select **Block Scripts** (1)
-- [x] Check **Block fingerprinting**
-- [x] Select **Block third-party cookies**
-- [x] Check **Forget me when I close this site** (2)
-- [ ] Uncheck all social media components
+- [x] 在 *将连接升级到 HTTPS* 下选择 **严格**
+- [x] （可选）选择 **阻止脚本** (1)
+- [x] 选中 **阻止指纹识别**
+- [x] 选择 **阻止第三方 cookie**
+- [x] 选中 **关闭此网站时忘记我** (2)
+- [ ] 取消选中所有社交媒体组件
 
 </div>
 
-1. This option disables JavaScript, which will break a lot of sites. To fix them, you can set exceptions on a per-site basis by clicking on the Shield icon in the address bar and unchecking this setting under *Advanced controls*.
-2. If you wish to stay logged in to a particular site you visit often, you can set exceptions on a per-site basis by clicking on the Shield icon in the address bar and unchecking this setting under *Advanced controls*.
+1. 此选项禁用 JavaScript，这会破坏许多网站。要修复它们，您可以通过单击地址栏中的 Shield 图标并取消选中*高级控制*下的此设置来按网站设置例外情况。
+2. 如果您希望在经常访问的特定网站上保持登录状态，可以通过单击地址栏中的 Shield 图标并取消选中*高级控制*下的此设置来按网站设置例外情况。
 
 
 
-#### Privacy and security
+#### 隐私和安全
 
 <div class="annotate" markdown>
 
-- [x] Select **Don’t allow sites to use JavaScript optimization** under *Security* → *Manage JavaScript optimization & security* (1)
-- [x] Select **Automatically remove permissions from unused sites** under *Sites and Shields Settings*
-- [x] Select **Disable non-proxied UDP** under [*WebRTC IP Handling Policy*](https://support.brave.com/hc/articles/360017989132-How-do-I-change-my-Privacy-Settings#webrtc)
-- [ ] Uncheck **Use Google services for push messaging**
-- [x] Select **Auto-redirect AMP pages**
-- [x] Select **Auto-redirect tracking URLs**
-- [x] Select **Prevent sites from fingerprinting me based on my language preferences**
+- [x] 在 *安全* → *管理 JavaScript 优化和安全* (1) 下选择 **不允许网站使用 JavaScript 优化**
+- [x] 在 *网站和 Shields 设置* 下选择 **自动从不使用的网站中删除权限**
+- [x] 在 [*WebRTC IP 处理策略*](https://support.brave.com/hc/articles/360017989132-How-do-I-change-my-Privacy-Settings#webrtc) 下选择 **禁用非代理 UDP**
+- [ ] 取消选中 **使用 Google 服务进行推送消息**
+- [x] 选择 **自动重定向 AMP 页面**
+- [x] 选择 **自动重定向跟踪 URL**
+- [x] 选择 **防止网站根据我的语言偏好对我进行指纹识别**
 
 </div>
 
-1. Disabling the V8 optimizer reduces your attack surface by disabling [*some*](https://grapheneos.social/@GrapheneOS/112708049232710156) parts of JavaScript Just-In-Time (JIT) compilation.
+1. 禁用 V8 优化器可通过禁用 JavaScript 即时 (JIT) 编译的[*某些*](https://grapheneos.social/@GrapheneOS/112708049232710156)部分来减少攻击面。
 
 
 
-##### Tor windows
+##### Tor 窗口
 
-[**Private Window with Tor**](https://support.brave.com/hc/articles/360018121491-What-is-a-Private-Window-with-Tor-Connectivity) allows you to route your traffic through the Tor network in Private Windows and access .onion services, which may be useful in some cases. However, Brave is **not** as resistant to fingerprinting as the Tor Browser is, and far fewer people use Brave with Tor, so you will stand out. If your threat model requires strong anonymity, use the [Tor Browser](tor.md#tor-browser).
+[**带有 Tor 的隐私窗口**](https://support.brave.com/hc/articles/360018121491-What-is-a-Private-Window-with-Tor-Connectivity)允许您在隐私窗口中通过 Tor 网络路由您的流量并访问 .onion 服务，这在某些情况下可能很有用。但是，Brave 的抗指纹能力**不如** Tor 浏览器，而且使用带有 Tor 的 Brave 的人要少得多，因此您会很显眼。如果您的威胁模型需要强匿名性，请使用 [Tor 浏览器](tor.md#tor-browser)。
 
 
 
-##### Data Collection
+##### 数据收集
 
-- [ ] Uncheck **Allow privacy-preserving product analytics (P3A)**
-- [ ] Uncheck **Automatically send daily usage ping to Brave**
-- [ ] Uncheck **Automatically send diagnostic reports**
+- [ ] 取消选中**允许保护隐私的产品分析 (P3A)**
+- [ ] 取消选中**自动向 Brave 发送每日使用情况 ping**
+- [ ] 取消选中**自动发送诊断报告**
 
 
 
 #### Web3
 
-Brave's Web3 features can potentially add to your browser fingerprint and attack surface. Unless you use any of these features, they should be disabled.
+Brave 的 Web3 功能可能会增加您的浏览器指纹和攻击面。除非您使用这些功能中的任何一个，否则应将其禁用。
 
-- Select **Extensions (no fallback)** under *Default Ethereum wallet*
-- Select **Extensions (no fallback)** under *Default Solana wallet*
-- Select **Extensions (no fallback)** under *Default Cardano wallet*
-
-
-
-#### Extensions
-
-- [ ] Uncheck all built-in extensions you don't use
+- 在 *默认以太坊钱包* 下选择 **扩展（无后备）**
+- 在 *默认 Solana 钱包* 下选择 **扩展（无后备）**
+- 在 *默认 Cardano 钱包* 下选择 **扩展（无后备）**
 
 
 
-#### Search engine
+#### 扩展
 
-We recommend disabling search suggestions in Brave for the same reason we recommend disabling this feature in [Firefox](#search).
+- [ ] 取消选中所有您不使用的内置扩展
+
+
+
+#### 搜索引擎
+
+出于与建议在 [Firefox](#search) 中禁用此功能相同的原因，我们建议在 Brave 中禁用搜索建议。
 
 - [ ] 取消勾选**“显示搜索建议”**
 
 
 
-#### System
+#### 系统
 
 <div class="annotate" markdown>
 
-- [ ] Uncheck **Continue running background apps when Brave is closed** to disable background apps (1)
+- [ ] 取消选中 **关闭 Brave 后继续运行后台应用** 以禁用后台应用 (1)
 
 </div>
 
-1. This option is not present on all platforms.
+1. 此选项并非在所有平台上都存在。
 
 
 
-#### Brave Sync
+#### Brave 同步
 
-[Brave Sync](https://support.brave.com/hc/articles/360059793111-Understanding-Brave-Sync) allows your browsing data (history, bookmarks, etc.) to be accessible on all your devices without requiring an account and protects it with E2EE.
-
-
-
-#### Brave Rewards and Wallet
-
-**Brave Rewards** lets you receive Basic Attention Token (BAT) cryptocurrency for performing certain actions within Brave. It relies on a custodial account and KYC from a select number of providers. We do not recommend BAT as a [private cryptocurrency](cryptocurrency.md), nor do we recommend using a [custodial wallet](advanced/payments.md#wallet-custody), so we would discourage using this feature.
-
-**Brave Wallet** operates locally on your computer, but does not support any private cryptocurrencies, so we would discourage using this feature as well.
+[Brave 同步](https://support.brave.com/hc/articles/360059793111-Understanding-Brave-Sync)允许在您的所有设备上访问您的浏览数据（历史记录、书签等），而无需帐户，并使用端到端加密对其进行保护。
 
 
 
-## Criteria
+#### Brave 奖励和钱包
 
-**Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. We suggest you familiarize yourself with this list before choosing to use a project, and conduct your own research to ensure it's the right choice for you.
+**Brave 奖励**让您可以通过在 Brave 中执行某些操作来接收基本注意力代币 (BAT) 加密货币。它依赖于托管帐户和来自少数选定提供商的 KYC。我们不推荐 BAT 作为[私人加密货币](cryptocurrency.md)，也不推荐使用[托管钱包](advanced/payments.md#wallet-custody)，因此我们不鼓励使用此功能。
+
+**Brave 钱包**在您的计算机上本地运行，但不支持任何私人加密货币，因此我们也不鼓励使用此功能。
+
+
+
+## 标准
+
+**请注意，我们不隶属于我们推荐的任何项目。** 除了[我们的标准评估原则](about/criteria.md)之外，我们还制定了一套明确的要求，以使我们能够提供客观的建议。我们建议您在选择使用项目之前熟悉此列表，并自行研究以确保它是适合您的选择。
 
 
 
 ### 最低要求
 
 - 它必须是开源软件。
-- Must support automatic updates.
-- Must receive engine updates in 0-1 days from upstream release.
-- Must be available on Linux, macOS, and Windows.
-- Any changes required to make the browser more privacy-respecting must not negatively impact user experience.
-- Must block third-party cookies by default.
-- Must support [state partitioning](https://developer.mozilla.org/docs/Web/Privacy/State_Partitioning) to mitigate cross-site tracking.[^1]
+- 必须支持自动更新。
+- 必须在上游发布后 0-1 天内收到引擎更新。
+- 必须在 Linux、macOS 和 Windows 上可用。
+- 使浏览器更加尊重隐私所需的任何更改都不得对用户体验产生负面影响。
+- 必须默认阻止第三方 cookie。
+- 必须支持[状态分区](https://developer.mozilla.org/docs/Web/Privacy/State_Partitioning)以减轻跨站点跟踪。[^1]
 
 
 
 ### 最好情况
 
-Our best-case criteria represents what we would like to see from the perfect project in this category. Our recommendations may not include any or all of this functionality, but those which do may rank higher than others on this page.
+我们的最佳情况标准代表了我们希望从该类别的完美项目中看到的内容。我们的建议可能不包括任何或所有这些功能，但那些包含这些功能的项目在此页面上的排名可能高于其他项目。
 
-- Should include built-in content blocking functionality.
-- Should support cookie compartmentalization (à la [Multi-Account Containers](https://support.mozilla.org/kb/containers)).
-- Should support Progressive Web Apps (PWAs). PWAs enable you to install certain websites as if they were native apps on your computer. This can have advantages over installing Electron-based apps because PWAs benefit from your browser's regular security updates.
-- Should not include add-on functionality (bloatware) that does not impact user privacy.
-- Should not collect telemetry by default.
-- Should provide an open-source sync server implementation.
-- Should default to a [private search engine](search-engines.md).
+- 应包含内置的内容拦截功能。
+- 应支持 cookie 隔离（如 [多帐户容器](https://support.mozilla.org/kb/containers)）。
+- 应支持渐进式 Web 应用程序 (PWA)。 PWA 使您能够安装某些网站，就像它们是您计算机上的本机应用程序一样。与安装基于 Electron 的应用程序相比，这可能具有优势，因为 PWA 受益于浏览器的定期安全更新。
+- 不应包含不影响用户隐私的附加功能（膨胀软件）。
+- 默认情况下不应收集遥测数据。
+- 应提供开源同步服务器实现。
+- 应默认使用[隐私的搜索引擎](search-engines.md)。
 
 
 
 [^1]:    
-    Brave's implementation is detailed at [Brave Privacy Updates: Partitioning network-state for privacy](https://brave.com/privacy-updates/14-partitioning-network-state).
+    Brave 的实现在 [Brave 隐私更新：为隐私划分网络状态](https://brave.com/privacy-updates/14-partitioning-network-state) 中有详细说明。

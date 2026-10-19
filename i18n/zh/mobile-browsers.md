@@ -50,15 +50,15 @@ These are our currently recommended **mobile web browsers** and configurations f
 
 ![Brave logo](assets/img/browsers/brave.svg){ align=right }
 
-**Brave Browser** includes a built-in content blocker and [privacy features](https://brave.com/privacy-features), many of which are enabled by default.
+**Brave 浏览器**包含内置的内容拦截器和[隐私功能](https://brave.com/privacy-features)，其中许多功能默认启用。
 
 Brave是建立在Chromium网络浏览器项目之上的，所以它应该有熟悉的感觉，而且网站兼容性问题最小。
 
-[:octicons-home-16: Homepage](https://brave.com){ .md-button .md-button--primary }
+[:octicons-home-16: 官网](https://brave.com){ .md-button .md-button--primary }
 [:simple-torbrowser:](https://brave4u7jddbv7cyviptqjc7jusxh72uik7zt6adtckl5f4nwy2v72qd.onion){ .card-link title="Onion Service" }
-[:octicons-eye-16:](https://brave.com/privacy/browser){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://support.brave.com){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/brave/brave-browser){ .card-link title="Source Code" }
+[:octicons-eye-16:](https://brave.com/privacy/browser){ .card-link title="隐私政策" }
+[:octicons-info-16:](https://support.brave.com){ .card-link title="文档" }
+[:octicons-code-16:](https://github.com/brave/brave-browser){ .card-link title="源代码" }
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
@@ -72,7 +72,7 @@ Brave是建立在Chromium网络浏览器项目之上的，所以它应该有熟�
 
 </div>
 
-### Recommended Brave Configuration
+### 推荐的 Brave 配置
 
 Tor浏览器是匿名浏览互联网的唯一途径。当您使用Brave时，我们建议您更改以下设置，以保护您的隐私不受某些方的侵害，但除了 [Tor浏览器](tor.md#tor-browser) 之外的所有浏览器都可以在某些方面被 *个人* 追踪。
 
@@ -86,7 +86,7 @@ Tor浏览器是匿名浏览互联网的唯一途径。当您使用Brave时，我
 
 #### Brave shields global defaults
 
-Brave includes some anti-fingerprinting measures in its [Shields](https://support.brave.com/hc/articles/360022973471-What-is-Shields) feature. We suggest configuring these options [globally](https://support.brave.com/hc/articles/360023646212-How-do-I-configure-global-and-site-specific-Shields-settings) across all pages that you visit.
+Brave 在其 [Shields](https://support.brave.com/hc/articles/360022973471-What-is-Shields) 功能中包含一些反指纹措施。我们建议在您访问的所有页面中[全局](https://support.brave.com/hc/articles/360023646212-How-do-I-configure-global-and-site-specific-Shields-settings)配置这些选项。
 
 Shields的选项可以根据需要在每个站点的基础上进行降级，但在默认情况下，我们建议设置以下内容。
 
@@ -114,7 +114,7 @@ Shields的选项可以根据需要在每个站点的基础上进行降级，但�
 
     </div>
 
-    1. This option disables JavaScript, which will break a lot of sites. To unbreak them, you can set exceptions on a per-site basis by tapping on the Shield icon in the address bar and unchecking this setting under *Advanced controls*.
+    1. 此选项禁用 JavaScript，这会破坏许多网站。 To unbreak them, you can set exceptions on a per-site basis by tapping on the Shield icon in the address bar and unchecking this setting under *Advanced controls*.
 
 === "iOS"
 
@@ -137,7 +137,7 @@ Shields的选项可以根据需要在每个站点的基础上进行降级，但�
 
     </div>
 
-    1. This option disables JavaScript, which will break a lot of sites. To unbreak them, you can set exceptions on a per-site basis by tapping on the Shield icon in the address bar and unchecking this setting under *Advanced controls*.
+    1. 此选项禁用 JavaScript，这会破坏许多网站。 To unbreak them, you can set exceptions on a per-site basis by tapping on the Shield icon in the address bar and unchecking this setting under *Advanced controls*.
 
 #### Other privacy settings
 
@@ -150,9 +150,9 @@ Shields的选项可以根据需要在每个站点的基础上进行降级，但�
     - [ ] Uncheck **Allow sites to check if you have payment methods saved**
     - [x] Select **Do not speed up sites with Brave's V8 engine but make Brave slightly more resistant to attacks**
     - [x] Select **Close tabs on exit**
-    - [ ] Uncheck **Allow privacy-preserving product analytics (P3A)**
-    - [ ] Uncheck **Automatically send diagnostic reports**
-    - [ ] Uncheck **Automatically send daily usage ping to Brave**
+    - [ ] 取消选中**允许保护隐私的产品分析 (P3A)**
+    - [ ] 取消选中**自动发送诊断报告**
+    - [ ] 取消选中**自动向 Brave 发送每日使用情况 ping**
 
     </div>
 
@@ -161,7 +161,7 @@ Shields的选项可以根据需要在每个站点的基础上进行降级，但�
 === "iOS"
 
     - [ ] Uncheck **Allow Privacy-Preserving Product Analytics (P3A)**
-    - [ ] Uncheck **Automatically send daily usage ping to Brave**
+    - [ ] 取消选中**自动向 Brave 发送每日使用情况 ping**
 
 #### Leo AI
 
@@ -193,7 +193,7 @@ Shields的选项可以根据需要在每个站点的基础上进行降级，但�
 
 #### Brave Sync
 
-[Brave Sync](https://support.brave.com/hc/articles/360059793111-Understanding-Brave-Sync) allows your browsing data (history, bookmarks, etc.) to be accessible on all your devices without requiring an account and protects it with E2EE.
+[Brave 同步](https://support.brave.com/hc/articles/360059793111-Understanding-Brave-Sync)允许在您的所有设备上访问您的浏览数据（历史记录、书签等），而无需帐户，并使用端到端加密对其进行保护。
 
 ## Safari (iOS)
 
