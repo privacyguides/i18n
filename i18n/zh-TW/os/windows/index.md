@@ -8,7 +8,7 @@ description: Microsoft Windows 是一種常見的作業系統，開箱即用；�
 
 其中一個最新的範例叫做 **Recall**，是 Copilot AI 功能集的一部分。定期擷取您在電腦上看到的任何內容的螢幕截圖，以便日後展示給您看。這些「有幫助」的功能會產生相當多的元資料，可以進行法證分析。在大多數情況下，瀏覽記錄已經足夠，因此可以安全地停用此功能。 Recall 的主要問題是資料會儲存在本機資料庫中，當裝置開機時資料會被解密，這表示如果裝置感染惡意軟體，很容易成為駭客的目標。 Recall 不會刪除資料庫中複製的密碼或財務資訊等敏感資訊，但可以防止對受數位版權管理 (DRM) 系統保護的任何版權內容進行截圖。
 
-不幸的是，在新增此功能時，並沒有過多考慮預設啟用此功能對隱私的影響 (現在 [不再是](https://wired.com/story/microsoft-recall-off-default-security-concerns))。然而，這並非個別例子。另一個例子是 Microsoft 在新安裝 Windows 11 時，未經允許就自動 [啟用資料夾備份至 OneDrive](https://neowin.net/news/windows-11-is-now-automatically-enabling-onedrive-folder-backup-without-asking-permission)。
+不幸的是，在新增此功能時，並沒有過多考慮預設啟用此功能對隱私的影響（現在 [不再如此](https://wired.com/story/microsoft-recall-off-default-security-concerns)）。然而，這並非個別例子。另一個例子是 Microsoft 在新安裝 Windows 11 時，未經允許就自動 [啟用資料夾備份至 OneDrive](https://neowin.net/news/windows-11-is-now-automatically-enabling-onedrive-folder-backup-without-asking-permission)。
 
 可透過以下指南增強 Windows 上的隱私和安全性，而無需下載任何第三方工具：
 

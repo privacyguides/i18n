@@ -153,7 +153,7 @@ cover: news-aggregators.webp
 Reddit 讓您可以透過 RSS 訂閱 Subreddits。
 
 <div class="admonition example" markdown>
-<p class="admonition-title">Example "例子"</p>
+<p class="admonition-title">範例</p>
 
 將 `[SUBREDDIT]` 替換為您想要訂閱的 Subreddit。
 

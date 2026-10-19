@@ -9,7 +9,7 @@ cover: desktop.webp
 
 - [:material-account-cash: 監控資本主義](basics/common-threats.md#surveillance-as-a-business-model ""){.pg-brown}
 
-基於隱私保護和軟體自由，通常建議用 Linux 發行版。如果您還不曾用過 Linux ，以下是我們建議可試試的發行版，以及一些 Linux發行版的隱私和安全提升技巧。 Please note that some of our recommended software may not be packaged for your Linux distribution of choice.
+基於隱私保護和軟體自由，通常建議用 Linux 發行版。如果您還不曾用過 Linux ，以下是我們建議可試試的發行版，以及一些 Linux發行版的隱私和安全提升技巧。請注意，我們推薦的部分軟體可能未針對您選用的 Linux 發行版進行打包。
 
 - [一般Linux 概述 :material-arrow-right-drop-circle:](os/linux-overview.md)
 
@@ -53,7 +53,7 @@ openSUSE Tumbleweed 使用 [Btrfs](https://zh.wikipedia.org/wiki/Btrfs) 和 [Sna
 
 </div>
 
-As with the recommendation to avoid X11 in our [criteria](#criteria) for Linux distributions, we recommend avoiding desktop environments that support only the legacy X11 window system (for example, Xfce). Currently, KDE Plasma defaults to X11, but Wayland is supported.
+一如我們在 Linux 發行版的 [標準](#criteria) 中建議避免 X11，我們不推薦選擇只支援傳統 X11 視窗系統的版本（例如 Xfce）。 Currently, KDE Plasma defaults to X11, but Wayland is supported.
 
 Tumbleweed 遵循滾動發佈模式，每個更新都是快照發布。當您升級系統時，會下載新的快照。每個快照都會由 [openQA](https://openqa.opensuse.org) 執行一系列自動化測試，以確保其品質。
 
@@ -127,7 +127,7 @@ NixOS 是基於 Nix套件管理器的獨立發行版，專注於可重複性和�
 
 NixOS’ 套件管理器 將各個套件版本儲存在 **Nix store** 底下不同的資料夾。因此，您可以在系統上安裝相同套件的不同版本。套件內容寫入資料夾後，該資料夾會變成唯讀。
 
-NixOS 也提供原子化更新。它會先下載（或建立）新世代系統的套件和檔案，然後再切換到新系統。切換到新世代有不同的方式：您可以告訴 NixOS 在重新開機後啟動新世代，或是在執行時就切換到新世代。也可以在運行時就切換到新世代系統來 *測試* ，但不將它設成當前系統。 If something breaks during the update process, you can just reboot to return to a working version of your system.
+NixOS 也提供原子化更新。它會先下載（或建立）新世代系統的套件和檔案，然後再切換到新系統。切換到新世代有不同的方式：您可以告訴 NixOS 在重新開機後啟動新世代，或是在執行時就切換到新世代。也可以在運行時就切換到新世代系統來 *測試* ，但不將它設成當前系統。如果更新過程中發生任何問題，您只需重新開機即可恢復到系統正常運作的版本。
 
 Nix 套件管理員使用純函數式程式設計語言（稱為 Nix ）來定義套件。
 

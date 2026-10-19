@@ -98,9 +98,9 @@ TrueCrypt 已[接受了許多次的稽核](https://en.wikipedia.org/wiki/TrueCry
 
 <details class="warning" markdown>
 
-<summary>Shut devices down when not in use.</summary>
+<summary>不使用時請將裝置關機。</summary>
 
-Powering off your devices when they’re not in use provides the highest level of security, as it minimizes the attack surface of your FDE method by ensuring no encryption keys remain in memory.
+在不使用裝置時關機，能提供最高等級的安全性。因為此舉能確保記憶體中沒有加密金鑰殘留，從而將 FDE 方法的攻擊面降至最低。
 
 </details>
 
@@ -118,9 +118,9 @@ Powering off your devices when they’re not in use provides the highest level o
 
 </div>
 
-BitLocker is [officially supported](https://support.microsoft.com/en-us/windows/bitlocker-overview-44c0c61c-989d-4a69-8822-b95cd49b1bbf) on the Pro, Enterprise, and Education editions of Windows. The Home edition only supports automatic [Device Encryption](https://support.microsoft.com/en-us/windows/device-encryption-in-windows-cf7e2b6f-3e70-4882-9532-18633605b7df) and must meet specific hardware requirements. If you’re using the Home edition, we recommend [upgrading to Pro](https://support.microsoft.com/en-us/windows/upgrade-windows-home-to-windows-pro-ef34d520-e73f-3198-c525-d1a218cc2818), which can be done without reinstalling Windows or losing your files.
+Windows 的專業版、企業版和教育版均[正式支援](https://support.microsoft.com/en-us/windows/bitlocker-overview-44c0c61c-989d-4a69-8822-b95cd49b1bbf) BitLocker。「家用版」僅支援自動[裝置加密功能](https://support.microsoft.com/en-us/windows/device-encryption-in-windows-cf7e2b6f-3e70-4882-9532-18633605b7df)，且必須符合特定的硬體需求。如果您使用的是家用版，我們建議[您升級至 Pro](https://support.microsoft.com/en-us/windows/upgrade-windows-home-to-windows-pro-ef34d520-e73f-3198-c525-d1a218cc2818) 版，此過程無需重新安裝 Windows，也不會導致檔案遺失。
 
-Pro and higher editions also support the more secure pre-boot [TPM+PIN](https://learn.microsoft.com/en-us/windows/security/operating-system-security/data-protection/bitlocker/faq#what-is-the-difference-between-a-tpm-owner-password--recovery-password--recovery-key--pin--enhanced-pin--and-startup-key) feature, configured through the appropriate [group policy](os/windows/group-policies.md#bitlocker-drive-encryption) settings. The PIN is rate limited and the TPM will panic and lock access to the encryption key either permanently or for a period of time if someone attempts to brute force access.
+Pro 版及更高版本亦支援更安全的「開機前[TPM+PIN](https://learn.microsoft.com/en-us/windows/security/operating-system-security/data-protection/bitlocker/faq#what-is-the-difference-between-a-tpm-owner-password--recovery-password--recovery-key--pin--enhanced-pin--and-startup-key)」功能，可透過相應[的群組原則](os/windows/group-policies.md#bitlocker-drive-encryption)設定進行設定。 PIN 設有速率限制，若有人試圖以暴力破解方式存取，TPM 將會觸發緊急防護機制，造成對加密金鑰的存取權限永久或暫時被鎖定。
 
 </details>
 

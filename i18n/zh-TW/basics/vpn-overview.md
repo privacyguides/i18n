@@ -36,9 +36,9 @@ flowchart LR
 
 ## 我應該使用 VPN 嗎？
 
-**是的**，幾乎可以肯定。 The advantages of a VPN include:
+**是的**，幾乎可以肯定。 VPN 的優點包括了：
 1. **僅需**對網路連線服務商隱藏您的流量 。
-1. Hiding your IP from third-party websites and services, preventing IP based tracking.
+1. 對第三方網站和服務隱藏您的 IP 位址，藉以避免被用 IP 位址追蹤。
 1. 可繞過某些內容的地理限制。
 
 VPN 可以提供 Tor 一些相同好處，例如對造訪的網站隱藏 IP 以及在地理位置上轉移您的網路流量，而優秀的 VPN 服務通常不會與壓迫政權的法律當局合作，特別是選擇自身司法管轄範圍之外的 VPN 服務商。
@@ -57,7 +57,7 @@ VPN 無法加密裝置與 VPN 伺服器之間連線以外的資料。 VPN 服務
 
 除非 VPN 提供者本身託管加密的 DNS 伺服器，否則**可能不會**。將 DOH/DOT（或任何其他形式的加密 DNS）與第三方伺服器一起使用只會添加更多值得信任的實體。您的 VPN 提供商仍可以根據 IP 位址和其他方法查看您訪問的網站。話雖如此，啟用加密 DNS 以便啟用瀏覽器中的其他安全功能（例如 ECH）可能會有一些優點。依賴瀏覽器內加密 DNS 的瀏覽器技術相對較新，尚未普及，因此它們是否與您特別相關，留給您自行研究。
 
-Another common reason encrypted DNS is recommended is that it prevents DNS manipulation attacks. 您的瀏覽器應該已經檢查了 [TLS 憑證](https://en.wikipedia.org/wiki/Transport_Layer_Security#Digital_certificates) 和 **HTTPS** ，並警告您。如果沒用 **HTTPS**，則對手可以修改您的 DNS 查詢之外的任何東西，最終結果將沒太大差異。
+建議使用加密 DNS 的另一個常見原因是它能防止 DNS 篡改攻擊。您的瀏覽器應該已經檢查了 [TLS 憑證](https://en.wikipedia.org/wiki/Transport_Layer_Security#Digital_certificates) 和 **HTTPS** ，並警告您。如果沒用 **HTTPS**，則對手可以修改您的 DNS 查詢之外的任何東西，最終結果將沒太大差異。
 
 ## 我應該*同時* 使用 Tor 與 VPN 嗎？
 
