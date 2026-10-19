@@ -58,9 +58,9 @@ description: نظام Linux هو نظام تشغيل مفتوح المصدر ل�
 
 - [لنجرب Fedora Silverblue — نظام تشغيل لأجهزة الكمبيوتر لا يمكن تعديل ملفاته الأساسية! - Adam Šamalík](https://youtu.be/-hpV5l-gJnQ) <small>(YouTube)</small>
 
-### “Security-focused” distributions
+### التوزيعات «التي تركز على الأمان»
 
-There is often some confusion between “security-focused” distributions and “pentesting” distributions. A quick search for “the most secure Linux distribution” will often give results like Kali Linux, Black Arch, or Parrot OS. These distributions are offensive penetration testing distributions that bundle tools for testing other systems. They don’t include any “extra security” or defensive mitigations intended for regular use.
+غالبا ما يحدث خلط بين التوزيعات «التي تركز على الأمان» والتوزيعات المخصصة لاختبار الاختراق. غالبًا ما يُظهر البحث السريع عن «أكثر توزيعات Linux أمانًا» نتائج مثل Kali Linux وBlack Arch وParrot OS. These distributions are offensive penetration testing distributions that bundle tools for testing other systems. They don’t include any “extra security” or defensive mitigations intended for regular use.
 
 ### Arch-based distributions
 
