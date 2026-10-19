@@ -1,6 +1,6 @@
 ---
-title: "Privacy Activism"
-meta_title: "Guides and Tools for Privacy Activists"
+title: "隱私權倡議"
+meta_title: "隱私權倡議者的指南與工具"
 description: Privacy Guides' Activism section contains tools to support the community in its privacy advocacy and activism effort, both for individuals and organizations.
 hide:
   - toc

@@ -1,9 +1,9 @@
 ---
-title: "Obtaining Applications"
-description: We recommend these methods for obtaining applications on Android without interacting with Google Play Services.
+title: "获取应用程序"
+description: 我们推荐使用这些方法在 Android 上获取应用程序，而无需与 Google Play 服务进行交互。
 ---
 
-There are many ways to obtain Android apps privately, even from the Play Store, without interacting with Google Play Services. We recommend the following methods of obtaining applications on Android, listed in order of preference.
+有许多方法可以私下获取 Android 应用程序，甚至是从 Play 商店获取，而无需与 Google Play 服务交互。我们推荐以下在 Android 上获取应用程序的方法，按优先级排序。
 
 ## Obtainium
 
@@ -11,15 +11,15 @@ There are many ways to obtain Android apps privately, even from the Play Store, 
 
 ![Obtainium logo](../assets/img/android/obtainium.svg){ align=right }
 
-**Obtainium** is an app manager which allows you to install and update apps directly from the developer's own releases page (i.e. GitHub, GitLab, the developer's website, etc.), rather than a centralized app store/repository. It supports automatic background updates on Android 12 and higher.
+**Obtainium** 是一个应用程序管理器，允许您直接从开发者自己的发布页面（即 GitHub、GitLab、开发者网站等）安装和更新应用程序，而不是通过中心化的应用商店/存储库。它支持在 Android 12 及更高版本上自动在后台更新。
 
-[:octicons-repo-16: Repository](https://github.com/ImranR98/Obtainium#readme){ .md-button .md-button--primary }
-[:octicons-info-16:](https://github.com/ImranR98/Obtainium/wiki){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/ImranR98/Obtainium){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://github.com/sponsors/ImranR98){ .card-link title=Contribute }
+[:octicons-repo-16: 存储库](https://github.com/ImranR98/Obtainium#readme){ .md-button .md-button--primary }
+[:octicons-info-16:](https://github.com/ImranR98/Obtainium/wiki){ .card-link title=文档}
+[:octicons-code-16:](https://github.com/ImranR98/Obtainium){ .card-link title="源代码" }
+[:octicons-heart-16:](https://github.com/sponsors/ImranR98){ .card-link title=贡献 }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>下载</summary>
 
 - [:simple-github: GitHub](https://github.com/ImranR98/Obtainium/releases)
 
@@ -27,28 +27,28 @@ There are many ways to obtain Android apps privately, even from the Play Store, 
 
 </div>
 
-Obtainium allows you to download APK installer files from a wide variety of sources, and it is up to you to ensure those sources and apps are legitimate. For example, using Obtainium to install Signal from [Signal's APK landing page](https://signal.org/android/apk) should be fine, but installing from third-party APK repositories like Aptoide or APKPure may pose additional risks. The risk of installing a malicious _update_ is lower, because Android itself verifies that all app updates are signed by the same developer as the existing app on your phone before installing them.
+Obtainium 允许您从各种来源下载 APK 安装文件，您需要自行确保这些来源和应用程序是合法的。例如，使用 Obtainium 从 [Signal 的 APK 下载页面](https://signal.org/android/apk) 安装 Signal 应该没有问题，但从 Aptoide 或 APKPure 等第三方 APK 存储库安装可能会带来额外的风险。安装恶&#x610F;_&#x66F4;&#x65B0;_&#x7684;风险较低，因为在安装之前，Android 本身会验证所有应用程序更新是否与您手机上的现有应用程序由同一开发者签名。
 
-## GrapheneOS App Store
+## GrapheneOS 应用商店
 
-GrapheneOS's app store is available on [GitHub](https://github.com/GrapheneOS/Apps/releases). It supports Android 12 and above and is capable of updating itself. The app store has standalone applications built by the GrapheneOS project such as the [Auditor](../device-integrity.md#auditor-android), [Camera](general-apps.md#secure-camera), and [PDF Viewer](general-apps.md#secure-pdf-viewer). If you are looking for these applications, we highly recommend that you get them from GrapheneOS's app store instead of the Play Store, as the apps on their store are signed by the GrapheneOS's project own signature that Google does not have access to.
+GrapheneOS 的应用商店可以在 [GitHub](https://github.com/GrapheneOS/Apps/releases) 上找到。它支持 Android 12 及以上版本，并能够自行更新。该应用商店提供由 GrapheneOS 项目构建的独立应用程序，例如 [Auditor](../device-integrity.md#auditor-android)、[Camera](general-apps.md#secure-camera) 和 [PDF Viewer](general-apps.md#secure-pdf-viewer)。如果您正在寻找这些应用程序，我们强烈建议您从 GrapheneOS 的应用商店而不是 Play 商店获取它们，因为其商店上的应用程序是由 GrapheneOS 项目自己的签名签发的，Google 无法访问该签名。
 
 ## Aurora Store
 
-The Google Play Store requires a Google account to log in, which is not great for privacy. You can get around this by using an alternative client, such as Aurora Store.
+Google Play 商店需要登录 Google 帐户，这对隐私不利。您可以通过使用替代客户端（例如 Aurora Store）来绕过此问题。
 
 <div class="admonition recommendation" markdown>
 
 ![Aurora Store logo](../assets/img/android/aurora-store.webp){ align=right }
 
-**Aurora Store** is a Google Play Store client which does not require a Google account, Google Play Services, or microG to download apps.
+**Aurora Store** 是一个 Google Play 商店客户端，不需要 Google 帐户、Google Play 服务或 microG 即可下载应用程序。
 
-[:octicons-home-16: Homepage](https://auroraoss.com){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://gitlab.com/AuroraOSS/AuroraStore/-/blob/master/POLICY.md){ .card-link title="Privacy Policy" }
-[:octicons-code-16:](https://gitlab.com/AuroraOSS/AuroraStore){ .card-link title="Source Code" }
+[:octicons-home-16: 主页](https://auroraoss.com){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://gitlab.com/AuroraOSS/AuroraStore/-/blob/master/POLICY.md){ .card-link title="隐私政策" }
+[:octicons-code-16:](https://gitlab.com/AuroraOSS/AuroraStore){ .card-link title="源代码" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>下载</summary>
 
 - [:simple-gitlab: GitLab](https://gitlab.com/AuroraOSS/AuroraStore/-/releases)
 
@@ -56,35 +56,35 @@ The Google Play Store requires a Google account to log in, which is not great fo
 
 </div>
 
-Aurora Store does not allow you to download paid apps with their anonymous account feature. You can optionally log in with your Google account with Aurora Store to download apps you have purchased, which does give access to the list of apps you've installed to Google. However, you still benefit from not requiring the full Google Play client and Google Play Services or microG on your device.
+Aurora Store 不允许您使用其匿名帐户功能下载付费应用程序。您可以选择在 Aurora Store 中使用 Google 帐户登录，以下载您已购买的应用程序，但这确实会让 Google 访问您已安装的应用程序列表。然而，您的设备上仍然不需要完整的 Google Play 客户端和 Google Play 服务或 microG，并从中受益。
 
-## Manually with RSS Notifications
+## 使用 RSS 通知手动获取
 
-For apps that are released on platforms like GitHub and GitLab, you may be able to add an RSS feed to your [news aggregator](../news-aggregators.md) that will help you keep track of new releases.
+对于在 GitHub 和 GitLab 等平台上发布的应用程序，您可以将 RSS 订阅添加到您的[新闻聚合器](../news-aggregators.md)中，以帮助您跟踪新版本。
 
 ![RSS APK](../assets/img/android/rss-apk-light.png#only-light) ![RSS APK](../assets/img/android/rss-apk-dark.png#only-dark) ![APK Changes](../assets/img/android/rss-changes-light.png#only-light) ![APK Changes](../assets/img/android/rss-changes-dark.png#only-dark)
 
 ### GitHub
 
-On GitHub, using [Secure Camera](general-apps.md#secure-camera) as an example, you would navigate to its [releases page](https://github.com/GrapheneOS/Camera/releases) and append `.atom` to the URL:
+在 GitHub 上，以 [Secure Camera](general-apps.md#secure-camera) 为例，您可以导航到其[发布页面](https://github.com/GrapheneOS/Camera/releases)并将 `.atom` 附加到 URL 后面：
 
 `https://github.com/GrapheneOS/Camera/releases.atom`
 
 ### GitLab
 
-On GitLab, using [Aurora Store](#aurora-store) as an example, you would navigate to its [project repository](https://gitlab.com/AuroraOSS/AuroraStore) and append `/-/tags?format=atom` to the URL:
+在 GitLab 上，以 [Aurora Store](#aurora-store) 为例，您可以导航到其[项目存储库](https://gitlab.com/AuroraOSS/AuroraStore)并将 `/-/tags?format=atom` 附加到 URL 后面：
 
 `https://gitlab.com/AuroraOSS/AuroraStore/-/tags?format=atom`
 
-### Verifying APK Fingerprints
+### 验证 APK 指纹
 
-If you download APK files to install manually, you can verify their signature with the [`apksigner`](https://developer.android.com/studio/command-line/apksigner) tool, which is a part of Android [build-tools](https://developer.android.com/studio/releases/build-tools).
+如果您手动下载 APK 文件进行安装，您可以使用 [`apksigner`](https://developer.android.com/studio/command-line/apksigner) 工具验证其签名，该工具是 Android [build-tools](https://developer.android.com/studio/releases/build-tools) 的一部分。
 
-1. Install [Java JDK](https://oracle.com/java/technologies/downloads).
+1. 安装 [Java JDK](https://oracle.com/java/technologies/downloads)。
 
-2. Download the [Android Studio command line tools](https://developer.android.com/studio#command-tools).
+2. 下载 [Android Studio 命令行工具](https://developer.android.com/studio#command-tools)。
 
-3. Extract the downloaded archive:
+3. 解压下载的压缩包：
 
    ```bash
    unzip commandlinetools-*.zip
@@ -92,13 +92,13 @@ If you download APK files to install manually, you can verify their signature wi
    ./bin/sdkmanager --sdk_root=./ "build-tools;29.0.3"
    ```
 
-4. Run the signature verification command:
+4. 运行签名验证命令：
 
    ```bash
    ./build-tools/29.0.3/apksigner verify --print-certs ../Camera-37.apk
    ```
 
-5. The resulting hashes can then be compared with another source. Some developers such as Signal [show the fingerprints](https://signal.org/android/apk) on their website.
+5. 然后可以将生成的哈希值与另一个来源进行比较。一些开发者（如 Signal）会在他们的网站上[显示指纹](https://signal.org/android/apk)。
 
    ```bash
    Signer #1 certificate DN: CN=GrapheneOS
@@ -111,17 +111,17 @@ If you download APK files to install manually, you can verify their signature wi
 
 ![F-Droid logo](../assets/img/android/f-droid.svg){ align=right width=120px }
 
-\==We only recommend F-Droid as a way to obtain apps which cannot be obtained via the means above.== F-Droid is often recommended as an alternative to Google Play, particularly within the privacy community. The option to add third-party repositories and not be confined to Google's walled garden has led to its popularity. F-Droid additionally has [reproducible builds](https://f-droid.org/en/docs/Reproducible_Builds) for some applications and is dedicated to free and open-source software. However, there are some security-related downsides to how F-Droid builds, signs, and delivers packages:
+\==我们仅推荐使用 F-Droid 作为获取无法通过上述方式获取的应用程序的方法。== F-Droid 经常被推荐作为 Google Play 的替代品，特别是在隐私社区中。添加第三方存储库且不受限于 Google 围墙花园的选项，使其广受欢迎。 F-Droid 此外还为一些应用程序提供[可重复构建](https://f-droid.org/en/docs/Reproducible_Builds)，并致力于免费和开源软件。但是，F-Droid 构建、签名和交付软件包的方式存在一些与安全相关的缺点：
 
-Due to their process of building apps, apps in the _official_ F-Droid repository often fall behind on updates. F-Droid maintainers also reuse package IDs while signing apps with their own keys, which is not ideal as it gives the F-Droid team ultimate trust. Additionally, the requirements for an app to be included in the official F-Droid repo are less strict than other app stores like Google Play, meaning that F-Droid tends to host a lot more apps which are older, unmaintained, or otherwise no longer meet [modern security standards](https://developer.android.com/google/play/requirements/target-sdk).
+由于其构建应用程序的流程，_官方_ F-Droid 存储库中的应用程序经常在更新方面落后。 F-Droid 维护者在使用自己的密钥签署应用程序时也重用包 ID，这并不理想，因为这赋予了 F-Droid 团队绝对的信任。此外，包含在官方 F-Droid 存储库中的应用程序的要求不如 Google Play 等其他应用商店严格，这意味着 F-Droid 往往托管更多陈旧的、无人维护的或不再符合[现代安全标准](https://developer.android.com/google/play/requirements/target-sdk)的应用程序。
 
-Other popular third-party repositories for F-Droid such as [IzzyOnDroid](https://apt.izzysoft.de/fdroid) alleviate some of these concerns. The IzzyOnDroid repository pulls builds directly from code forges (GitHub, GitLab, etc.) and is the next best thing to the developers' own repositories. They also offer [reproducible builds](https://android.izzysoft.de/articles/named/iod-rbs-mirrors-clients) for hundreds of applications and have developers who verify the reproducibility of developer-signed APKs. Furthermore, the IzzyOnDroid team conducts [additional security scans](https://android.izzysoft.de/articles/named/iod-scan-apkchecks) of apps housed in the repo, which usually result in [deliberations](https://github.com/gouravkhunger/QuotesApp/issues/22) between them and app developers toward privacy improvements in their apps. Note that apps may be removed from the IzzyOnDroid repo in [certain circumstances](https://gitlab.com/IzzyOnDroid/repo#are-apps-removed-from-the-repo--and-when-does-that-happen).
+F-Droid 的其他流行第三方存储库（如 [IzzyOnDroid](https://apt.izzysoft.de/fdroid)）减轻了其中的一些担忧。 IzzyOnDroid 存储库直接从代码托管平台（GitHub、GitLab 等）获取构建版本，这是仅次于开发者自己的存储库的最佳选择。他们还为数百个应用程序提供[可重复构建](https://android.izzysoft.de/articles/named/iod-rbs-mirrors-clients)，并有开发者验证开发者签名 APK 的可重复性。此外，IzzyOnDroid 团队还会对存储库中的应用程序进行[额外的安全扫描](https://android.izzysoft.de/articles/named/iod-scan-apkchecks)，这通常会促使他们与应用程序开发者进行[讨论](https://github.com/gouravkhunger/QuotesApp/issues/22)，以改进其应用程序的隐私性。请注意，在[某些情况下](https://gitlab.com/IzzyOnDroid/repo#are-apps-removed-from-the-repo--and-when-does-that-happen)，应用程序可能会从 IzzyOnDroid 存储库中移除。
 
-The [F-Droid](https://f-droid.org/en/packages) and [IzzyOnDroid](https://apt.izzysoft.de/fdroid) repositories are home to countless apps, so they can be useful places to search for and discover open-source apps that you can then download through other means such as the Play Store, Aurora Store, or by getting the APK directly from the developer. You should use your best judgment when looking for new apps via this method, and keep an eye on how frequently the app is updated. Outdated apps may rely on unsupported libraries, among other things, posing a potential security risk.
+[F-Droid](https://f-droid.org/en/packages) 和 [IzzyOnDroid](https://apt.izzysoft.de/fdroid) 存储库中包含无数应用程序，因此它们是搜索和发现开源应用程序的有用场所，然后您可以通过其他方式（例如 Play 商店、Aurora Store 或直接从开发者处获取 APK）下载这些应用程序。当通过这种方法寻找新应用程序时，您应该使用最佳判断，并留意应用程序的更新频率。过时的应用程序可能会依赖不受支持的库等，从而带来潜在的安全风险。
 
 <div class="admonition note" markdown>
 <p class="admonition-title">F-Droid Basic</p>
 
-In some rare cases, an app may only be available through F-Droid. If you really need an app like that, we recommend using the newer [F-Droid Basic](https://f-droid.org/en/packages/org.fdroid.basic) client instead of the original F-Droid app to obtain it, as it has a reduced feature set (limiting attack surface).
+在极少数情况下，某个应用程序可能只能通过 F-Droid 获取。如果您确实需要这样的应用程序，我们建议使用较新的 [F-Droid Basic](https://f-droid.org/en/packages/org.fdroid.basic) 客户端而不是原始的 F-Droid 应用程序来获取它，因为它减少了功能集（限制了攻击面）。
 
 </div>

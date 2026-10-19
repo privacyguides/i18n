@@ -210,7 +210,7 @@ Learn More :material-arrow-right-drop-circle:
 
 ![Two hands holding a sphere icon](../../assets/img/activism/icons/icon-tips/icon-tips-kind.webp){class="toolbox-tip-icon"}
 
-Kindness is essential for privacy advocates. To grow our movement, we must meet people from a place of camaraderie. People don't change their mind by being berated. However, this isn't true for institutions. Learn more about how to integrate kindness in your work, while being relentless with institutions.
+Kindness is essential for privacy advocates. 為了讓我們的運動蓬勃發展，我們必須以同伴情誼為出發點與人接觸。人們不會在被斥責的情況下改變主意。然而，對體制而言卻並非如此。 Learn more about how to integrate kindness in your work, while being relentless with institutions.
 
 Learn More :material-arrow-right-drop-circle:
 {align=right}

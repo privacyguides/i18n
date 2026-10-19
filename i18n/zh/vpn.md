@@ -29,7 +29,7 @@ If you are looking for **anonymity**, you should use the Tor Browser. If you're 
 
 [Detailed VPN Overview :material-arrow-right-drop-circle:](basics/vpn-overview.md ""){.md-button}
 
-## 推荐的供应商
+## 推荐的服务商
 
 Our recommended providers use encryption, support WireGuard & OpenVPN, and have a no logging policy. Read our [full list of criteria](#criteria) for more information.
 

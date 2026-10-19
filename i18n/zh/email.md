@@ -2,7 +2,7 @@
 meta_title: "加密私人电子邮箱推荐- Privacy Guides"
 title: 电子邮件服务
 icon: material/email
-description: 这些电子邮件提供商提供了一个很好的场所来安全地存储您的电子邮件，许多提供了与其他提供商兼容的 OpenPGP 加密服务。
+description: 这些电子邮件服务商为您提供了一个安全存储邮件的绝佳场所，其中许多还支持与其他服务商互操作的 OpenPGP 加密功能。
 cover: email.webp
 global:
   - 
@@ -10,7 +10,7 @@ global:
     - "table tbody"
 ---
 
-<small>Protects against the following threat(s):</small>
+<small>可防御以下威胁：</small>
 
 - [:material-server-network: 服务提供商](basics/common-threats.md#privacy-from-service-providers ""){.pg-teal}
 
@@ -20,7 +20,7 @@ global:
 
 ## 推荐的供应商
 
-对于其他一切，我们根据可持续的商业模式和内置的安全和隐私功能，推荐各种电子邮件供应商。 Read our [full list of criteria](#criteria) for more information.
+对于其他一切，我们根据可持续的商业模式和内置的安全和隐私功能，推荐各种电子邮件供应商。阅读我们的[完整标准列表](#criteria)了解更多信息。
 
 | 提供商                           | OpenPGP / WKD                          | IMAP / SMTP                                      | 加密存储                                             | 匿名支付方式                        |
 | ----------------------------- | -------------------------------------- | ------------------------------------------------ | ------------------------------------------------ | ----------------------------- |
@@ -85,7 +85,7 @@ global:
 
 </div>
 
-其免费账户存在一些限制，比如不能搜索正文，不能访问 [Proton Mail Bridge](https://proton.me/mail/bridge)，这是使用 [推荐的桌面邮件客户端](email-clients.md) 所必需的，如Thunderbird等客户端。付费帐户包括Proton Mail Bridge等功能，额外的存储空间和自定义域支持。 “Proton Unlimited”套餐或任何多用户版 Proton 套餐均包含[SimpleLogin](email-aliasing.md#simplelogin)Premium 的使用权限。
+其免费账户存在一些限制，比如不能搜索正文，不能访问 [Proton Mail Bridge](https://proton.me/mail/bridge)，这是使用 [推荐的桌面邮件客户端](email-clients.md) 所必需的，如Thunderbird等客户端。付费账户包含 Proton Mail Bridge、额外存储空间和自定义域名支持等功能。 “Proton Unlimited”套餐或任何多用户版 Proton 套餐均包含[SimpleLogin](email-aliasing.md#simplelogin)Premium 的使用权限。
 
 这是2021年11月[Securitum](https://research.securitum.com)为Proton Mail的应用提供的[认证函](https://res.cloudinary.com/dbulfrlrz/images/v1714639878/wp-pme/letter-of-attestation-proton-mail-20211109_3138714c61/letter-of-attestation-proton-mail-20211109_3138714c61.pdf)。
 
@@ -107,9 +107,9 @@ Proton Mail 自带内部崩溃报告，这些报告**不会**与第三方共享�
 
 #### :material-check:{ .pg-green } 自定义域名和别名
 
-Proton Mail的付费用户可以在该服务中使用自己的域名或[通配符邮箱](https://proton.me/support/catch-all)地址。 Proton Mail 还支持[子地址功能](https://proton.me/support/creating-aliases)，这对不想购买域名的人来说非常有用。
+Proton Mail的付费用户可以在该服务中使用自己的域名或[通配符邮箱](https://proton.me/support/catch-all)地址。 Proton Mail 还支持[邮件别名功能](https://proton.me/support/creating-aliases)，这对不想购买域名的人来说非常有用。
 
-#### :material-check:{ .pg-green } 隐私性支付方式
+#### :material-check:{ .pg-green } 保护隐私的支付方式
 
 除了标准的信用卡/借记卡、[比特币](advanced/payments.md#other-coins-bitcoin-ethereum-etc)和PayPal支付方式外，Proton Mail还[接受](https://proton.me/support/payment-options)邮寄**现金**。此外，您还可以使用 [**门罗币**](cryptocurrency.md#monero) 通过其[官方](https://discuss.privacyguides.net/t/add-monero-as-an-anonymous-payment-method-for-proton-services/31058/15)经销商[ProxyStore](https://dys2p.com/en/2025-09-09-proton.html)购买Proton Mail Plus或Proton Unlimited的代金券。
 
@@ -125,9 +125,9 @@ Proton Mail 采用基于 PGP 的加密技术存储您的[邮件](https://proton.
 
 #### :material-check:{ .pg-green } 邮件加密
 
-Proton Mail 已在网页版邮箱中[集成了 OpenPGP 加密功能](https://proton.me/support/how-to-use-pgp)。给其他Proton Mail账户的邮件是自动加密的，用OpenPGP密钥给非Proton Mail地址加密可以在账户设置中轻松启用。 Proton 还支持通过 WKD 进行自动外部密钥发现。 This means that emails sent to other providers which use WKD will be automatically encrypted with OpenPGP as well, without the need to manually exchange public PGP keys with your contacts. 此外，它们还允许您[对发送到Proton Mail之外地址的消息进行加密](https://proton.me/support/password-protected-emails)，不需要使用OpenPGP，收件人也不需要注册Proton Mail账户。
+Proton Mail 已在网页版邮箱中[集成了 OpenPGP 加密功能](https://proton.me/support/how-to-use-pgp)。给其他Proton Mail账户的邮件是自动加密的，用OpenPGP密钥给非Proton Mail地址加密可以在账户设置中轻松启用。 Proton 还支持通过 WKD 进行自动外部密钥发现。这意味着发送给其他使用WKD的提供商的电子邮件也将自动使用OpenPGP加密，而无需与您的联系人手动交换公共PGP密钥。此外，它们还允许您[对发送到Proton Mail之外地址的消息进行加密](https://proton.me/support/password-protected-emails)，不需要使用OpenPGP，收件人也不需要注册Proton Mail账户。
 
-Proton Mail also publishes the public keys of Proton accounts via HTTP from their WKD. 这个做法可以让不使用 Proton Mail 的用户也能轻松找到 Proton Mail 账户的 OpenPGP 密钥，从而实现跨服务商的端到端加密。这项功能只能用于以 Proton 自有域名结尾的邮件地址，比如`@proton.me`。 If you use a custom domain, you must [configure WKD](basics/email-security.md#what-is-the-web-key-directory-standard) separately.
+Proton Mail还通过HTTP从其WKD发布Proton帐户的公钥。这个做法可以让不使用 Proton Mail 的用户也能轻松找到 Proton Mail 账户的 OpenPGP 密钥，从而实现跨服务商的端到端加密。这项功能只能用于以 Proton 自有域名结尾的邮件地址，比如`@proton.me`。如果您使用自定义域名，您必须单独[配置WKD](basics/email-security.md#what-is-the-web-key-directory-standard)。
 
 #### :material-information-outline:{ .pg-blue } 账户停用
 
@@ -152,9 +152,9 @@ Proton Mail[的“无限”](https://proton.me/support/proton-plans#proton-unlim
 [:octicons-info-16:](https://kb.mailbox.org/en/private){ .card-link title="文档" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>下载</summary>
 
-- [:octicons-browser-16: Web](https://login.mailbox.org)
+- [:octicons-browser-16: 网页端](https://login.mailbox.org)
 
 </details>
 
@@ -164,7 +164,7 @@ Proton Mail[的“无限”](https://proton.me/support/proton-plans#proton-unlim
 
 Mailbox Mail 允许您使用自己的域名，并且支持[“通配”](https://kb.mailbox.org/en/private/custom-domains/use-your-own-domain-with-catch-all/)邮箱地址。 Mailbox Mail 还支持[子邮箱功能](https://kb.mailbox.org/en/private/e-mail/what-is-an-alias-and-how-do-i-use-it/)，如果您不想购买域名，这会非常有用。
 
-#### :material-check:{ .pg-green } 隐私性支付方式
+#### :material-check:{ .pg-green } 保护隐私的支付方式
 
 由于其支付服务商BitPay暂停了在德国的业务，Mailbox Mail不再接受任何加密货币支付。不过，他们确实接受邮寄**现金**、银行账户**现金**支付、银行转账、信用卡、PayPal，以及两种德国特有的支付渠道：Paydirekt 和 Sofortüberweisung。
 
@@ -176,13 +176,13 @@ Mailbox Mail 仅对其网页版邮箱支持[双因素认证](https://kb.mailbox.
 
 Mailbox Mail 支持通过其[加密邮箱](https://kb.mailbox.org/en/private/encryption/your-encrypted-mailbox/)对收到的邮件进行加密。您收到的新消息后将立即使用您的公钥进行加密。
 
-然而，Mailbox Mail 所使用的软件平台[Open-Xchange](https://en.wikipedia.org/wiki/Open-Xchange) [不支持](https://kb.mailbox.org/en/business/security-privacy-article/encryption-of-calendar-and-address-book/)对您的通讯录和日历进行加密。 A [standalone option](calendar.md) may be more appropriate for that data.
+然而，Mailbox Mail 所使用的软件平台[Open-Xchange](https://en.wikipedia.org/wiki/Open-Xchange) [不支持](https://kb.mailbox.org/en/business/security-privacy-article/encryption-of-calendar-and-address-book/)对您的通讯录和日历进行加密。[独立选项](calendar.md)可能更适合该数据。
 
 #### :material-check:{ .pg-green } 邮件加密
 
 Mailbox Mail 在其网页邮箱中[集成了加密功能](https://kb.mailbox.org/en/private/encryption/how-can-e-mails-be-encrypted-with-pgp/)，这使得向拥有公开 OpenPGP 密钥的用户发送邮件变得更加简单。该功能还允许[远程收件人解密](https://kb.mailbox.org/en/private/encryption/my-recipient-does-not-use-pgp/)在Mailbox Mail 服务器上的邮件。当远程收件人没有 OpenPGP 且无法对其邮箱中的邮件副本进行解密时，此功能非常有用。
 
-Mailbox Mail also supports the discovery of public keys via HTTP from their WKD. 这使得 Mailbox Mail 平台外的用户能够轻松找到 Mailbox Mail 账户的 OpenPGP 密钥，从而实现跨提供商的端到端加密E2EE。这项功能只能用于以Mailbox Mail自有域名结尾的邮件地址，比如`@mailbox.org`。 If you use a custom domain, you must [configure WKD](basics/email-security.md#what-is-the-web-key-directory-standard) separately.
+Mailbox Mail也支持通过HTTP从其WKD发现公钥。这使得 Mailbox Mail 平台外的用户能够轻松找到 Mailbox Mail 账户的 OpenPGP 密钥，从而实现跨提供商的端到端加密E2EE。这项功能只能用于以Mailbox Mail自有域名结尾的邮件地址，比如`@mailbox.org`。如果您使用自定义域名，您必须单独[配置WKD](basics/email-security.md#what-is-the-web-key-directory-standard)。
 
 #### :material-information-outline:{ .pg-blue } 账户停用
 
@@ -194,7 +194,7 @@ Mailbox Mail also supports the discovery of public keys via HTTP from their WKD.
 
 所有账户都自带[可加密](https://kb.mailbox.org/en/private/drive/encrypt-files-on-your-drive/)的有限云空间。 Mailbox Mail 还提供了一个别名[@secure.mailbox.org，](https://kb.mailbox.org/en/business/e-mail-article/ensuring-e-mails-are-sent-securely/)该别名会强制在邮件服务器之间的连接中启用 TLS 加密，否则邮件将无法发送。除了 IMAP 和 POP3 等标准访问协议外，Mailbox Mail 还支持[Exchange ActiveSync](https://en.wikipedia.org/wiki/Exchange_ActiveSync)。
 
-Mailbox Mail 的所有套餐均提供“数字遗产”功能。您可以选择是否将您的任何数据传递给继承人，前提是他们提出申请并出示您的遗嘱。 Alternatively, you can nominate a person by name and address.
+Mailbox Mail 的所有套餐均提供“数字遗产”功能。您可以选择是否将您的任何数据传递给继承人，前提是他们提出申请并出示您的遗嘱。或者，您可以通过姓名和地址指定一个人。
 
 ## 更多服务提供商
 
@@ -224,7 +224,7 @@ Mailbox Mail 的所有套餐均提供“数字遗产”功能。您可以选择�
 [:octicons-heart-16:](https://tuta.com/community){ .card-link title="贡献" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>下载</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=de.tutao.tutanota)
 - [:simple-appstore: App Store](https://apps.apple.com/app/id922429609)
@@ -244,7 +244,7 @@ Tuta 不支持[IMAP 协议](https://tuta.com/support#imap)，也不支持使用[
 
 付费版 Tuta 账户可根据其套餐使用 15 个或 30 个别名，并在[自定义域名](https://tuta.com/support#custom-domain)上使用不限数量的别名。 Tuta 不支持[子地址（加号地址）](https://tuta.com/support#plus)，但您可以使用自定义域名的[“通配地址”](https://tuta.com/support#settings-global)。
 
-#### :material-information-outline:{ .pg-blue } 隐私性支付方式
+#### :material-information-outline:{ .pg-blue } 保护隐私的支付方式
 
 Tuta 仅直接接受信用卡和 PayPal 支付，但您可以使用 [**加密货币**](cryptocurrency.md) 通过其与ProxyStore[的合作关系](https://tuta.com/support/#cryptocurrency)购买礼品卡。
 
@@ -258,7 +258,7 @@ Tuta 会将您的[电子邮件](https://tuta.com/support#what-encrypted)、[通�
 
 #### :material-information-outline:{ .pg-blue } 邮件加密
 
-Tuta[不使用 OpenPGP](https://tuta.com/support/#pgp)。 Tuta accounts can only receive encrypted emails from non-Tuta email accounts when sent via a [temporary Tuta mailbox](https://tuta.com/support/#encrypted-email-external).
+Tuta[不使用 OpenPGP](https://tuta.com/support/#pgp)。 Tuta帐户只有在通过[临时Tuta邮箱](https://tuta.com/support/#encrypted-email-external)发送时，才能接收来自非Tuta电子邮件帐户的加密电子邮件。
 
 #### :material-information-outline:{ .pg-blue } 账户停用
 
@@ -266,111 +266,111 @@ Tuta 将在六个月后[删除处于非活跃状态的免费账户](https://tuta
 
 #### :material-information-outline:{ .pg-blue } 附加功能
 
-Tuta offers the business version of [Tuta to non-profit organizations](https://tuta.com/blog/secure-email-for-non-profit) for free or with a heavy discount.
+Tuta免费或以极大的折扣向[非营利组织提供Tuta](https://tuta.com/blog/secure-email-for-non-profit)商业版本。
 
-## Criteria
+## 标准
 
-**请注意，我们与所推荐的任何服务提供商均无关联。**除[标准评选标准](about/criteria.md)外，我们还针对希望获得推荐的邮件服务提供商制定了一套明确的要求，包括实施行业最佳实践、采用现代技术等。 We suggest you familiarize yourself with this list before choosing an email provider, and conduct your own research to ensure the email provider you choose is the right choice for you.
+**请注意，我们与所推荐的任何服务提供商均无关联。**除[标准评选标准](about/criteria.md)外，我们还针对希望获得推荐的邮件服务提供商制定了一套明确的要求，包括实施行业最佳实践、采用现代技术等。我们建议您在选择电子邮件提供商之前熟悉此列表，并进行自己的研究以确保您选择的电子邮件提供商适合您。
 
 ### 技术
 
-We regard these features as important in order to provide a safe and optimal service. You should consider whether the provider has the features you require.
+为了提供安全和最佳的服务，我们认为这些功能非常重要。您应该考虑提供商是否具备您所需的功能。
 
 **符合条件的最低要求。**
 
-- Must encrypt email account data at rest with asymmetric encryption, where only the user has the private keys needed to decrypt it.
-- Must be capable of exporting emails as [Mbox](https://en.wikipedia.org/wiki/Mbox) or individual .EML with [RFC5322](https://datatracker.ietf.org/doc/rfc5322) standard.
-- Must operate on owned infrastructure, i.e. not built upon third-party email service providers.
+- 必须使用非对称加密对静态的电子邮件帐户数据进行加密，且只有用户才拥有解密所需的私钥。
+- 必须能够将电子邮件导出为[Mbox](https://en.wikipedia.org/wiki/Mbox)或符合[RFC5322](https://datatracker.ietf.org/doc/rfc5322)标准的独立.EML文件。
+- 必须在自有基础设施上运行，即不建立在第三方电子邮件服务提供商之上。
 
-**Best Case:**
+**最佳情况：**
 
-- Should encrypt all account data (contacts, calendars, etc.) at rest with asymmetric encryption, where only the user has the private keys needed to decrypt it.
-- Should provide integrated webmail E2EE/PGP encryption as a convenience.
-- Should support WKD to allow improved discovery of public OpenPGP keys via HTTP. GnuPG users can get a key with this command: `gpg --locate-key example_user@example.com`.
-- Support for a temporary mailbox for external users. This is useful when you want to send an encrypted email without sending an actual copy to your recipient. These emails usually have a limited lifespan and then are automatically deleted. They also don't require the recipient to configure any cryptography like OpenPGP.
-- Should support [sub-addressing](https://en.wikipedia.org/wiki/Email_address#Sub-addressing).
-- Should allow users to use their own [domain name](https://en.wikipedia.org/wiki/Domain_name). Custom domain names are important to users because it allows them to maintain their agency from the service, should it turn bad or be acquired by another company which doesn't prioritize privacy.
-- Catch-all or alias functionality for those who use their own domains.
-- Should use standard email access protocols such as IMAP, SMTP, or [JMAP](https://en.wikipedia.org/wiki/JSON_Meta_Application_Protocol). Standard access protocols ensure customers can easily download all of their email, should they want to switch to another provider.
-- Email provider's services should be available via an [onion service](https://en.wikipedia.org/wiki/.onion).
+- 应该使用非对称加密对所有静态的帐户数据（联系人、日历等）进行加密，且只有用户拥有解密所需的私钥。
+- 应该为方便起见提供集成的网页邮箱端到端加密/PGP加密。
+- 应支持WKD，以改善通过HTTP发现公开OpenPGP密钥的过程。 GnuPG用户可以使用此命令获取密钥：`gpg --locate-key example_user@example.com`。
+- 支持为外部用户提供临时邮箱。当您想发送加密电子邮件而不向收件人发送实际副本时，这非常有用。这些电子邮件通常寿命有限，随后会被自动删除。它们也不需要收件人配置任何诸如OpenPGP之类的密码学技术。
+- 应支持[子寻址](https://en.wikipedia.org/wiki/Email_address#Sub-addressing)。
+- 应允许用户使用自己的[域名](https://en.wikipedia.org/wiki/Domain_name)。自定义域名对用户来说很重要，因为如果服务变差或被另一家不优先考虑隐私的公司收购，它允许用户保留对其服务的控制权。
+- 为那些使用自己域名的用户提供统配（Catch-all）或别名功能。
+- 应使用标准电子邮件访问协议，如IMAP、SMTP或[JMAP](https://en.wikipedia.org/wiki/JSON_Meta_Application_Protocol)。标准访问协议可确保客户能够轻松下载其所有电子邮件，以便他们切换到另一家提供商。
+- 电子邮件提供商的服务应该可以通过[洋葱服务](https://en.wikipedia.org/wiki/.onion)访问。
 
 ### 隐私
 
-We prefer our recommended providers to collect as little data as possible.
+我们希望我们推荐的提供商尽可能少地收集数据。
 
-**符合条件的最低要求。**
+**符合条件的最低要求：**
 
-- Must protect sender's IP address, which can involve filtering it from showing in the `Received` header field.
-- Must not require personally identifiable information (PII) besides a username and a password.
-- Privacy policy must meet the requirements defined by the GDPR.
+- 必须保护发件人的IP地址，包括过滤该地址以防其在`Received`标头字段中显示。
+- 除用户名和密码外，不得要求提供个人身份信息（PII）。
+- 隐私政策必须符合GDPR规定的要求。
 
-**Best Case:**
+**最佳情况：**
 
-- Should accept [anonymous payment options](advanced/payments.md) ([cryptocurrency](cryptocurrency.md), cash, gift cards, etc.)
-- Should be hosted in a jurisdiction with strong email privacy protection laws.
+- 应接受[匿名付款选项](advanced/payments.md)（[加密货币](cryptocurrency.md)、现金、礼品卡等）
+- 应托管在具有强效电子邮件隐私保护法律的司法管辖区。
 
 ### 安全性
 
-Email servers deal with a lot of very sensitive data. We expect that providers will adopt industry best practices in order to protect their customers.
+电子邮件服务器处理大量非常敏感的数据。我们期望提供商采用行业最佳实践来保护他们的客户。
 
-**符合条件的最低要求。**
+**符合条件的最低要求：**
 
-- Protection of webmail with 2FA, such as [TOTP](basics/multi-factor-authentication.md#time-based-one-time-password-totp).
-- Encryption at rest, using asymmetric encryption where the service provider does not have the decryption keys to the data they hold. This prevents a rogue employee leaking data they have access to, or a remote adversary from releasing data they have stolen by gaining unauthorized access to the server.
-- [DNSSEC](https://en.wikipedia.org/wiki/Domain_Name_System_Security_Extensions) support.
-- No TLS errors or vulnerabilities when being profiled by tools such as [Hardenize](https://hardenize.com), [testssl.sh](https://testssl.sh), or [Qualys SSL Labs](https://ssllabs.com/ssltest); this includes certificate related errors and weak DH parameters, such as those that led to [Logjam](https://en.wikipedia.org/wiki/Logjam_(computer_security)).
-- A server suite preference (optional on TLS 1.3) for strong cipher suites which support forward secrecy and authenticated encryption.
-- A valid [MTA-STS](https://tools.ietf.org/html/rfc8461) and [TLS-RPT](https://tools.ietf.org/html/rfc8460) policy.
-- Valid [DANE](https://en.wikipedia.org/wiki/DNS-based_Authentication_of_Named_Entities) records.
-- Valid [SPF](https://en.wikipedia.org/wiki/Sender_Policy_Framework) and [DKIM](https://en.wikipedia.org/wiki/DomainKeys_Identified_Mail) records.
-- Must have a proper [DMARC](https://en.wikipedia.org/wiki/DMARC) record and policy or use [ARC](https://en.wikipedia.org/wiki/Authenticated_Received_Chain) for authentication. If DMARC authentication is being used, the policy must be set to `reject` or `quarantine`.
-- A server suite preference of TLS 1.2 or later and a plan for [RFC8996](https://datatracker.ietf.org/doc/rfc8996).
-- [SMTPS](https://en.wikipedia.org/wiki/SMTPS) submission, assuming SMTP is used.
-- Website security standards such as:
-    - [HTTP Strict Transport Security](https://en.wikipedia.org/wiki/HTTP_Strict_Transport_Security)
-    - [Subresource Integrity](https://en.wikipedia.org/wiki/Subresource_Integrity) if loading things from external domains.
-- Must support viewing of [message headers](https://en.wikipedia.org/wiki/Email#Message_header), as it is a crucial forensic feature to determine if an email is a phishing attempt.
+- 使用双因素身份验证（如[TOTP](basics/multi-factor-authentication.md#time-based-one-time-password-totp)）保护网页邮箱。
+- 静态加密，使用非对称加密，其中服务提供商没有其所持数据的解密密钥。这可以防止流氓员工泄漏他们有权访问的数据，或远程对手释出其通过未经授权访问服务器窃取的数据。
+- 支持[DNSSEC](https://en.wikipedia.org/wiki/Domain_Name_System_Security_Extensions)。
+- 在使用[Hardenize](https://hardenize.com)、[testssl.sh](https://testssl.sh)或[Qualys SSL Labs](https://ssllabs.com/ssltest)等工具进行评估时，没有TLS错误或漏洞；这包括与证书相关的错误和弱DH参数（例如导致[Logjam](https://en.wikipedia.org/wiki/Logjam_(computer_security))的参数）。
+- 支持前向保密和经过身份验证的加密的强密码套件的服务器套件偏好（在TLS 1.3上为可选）。
+- 有效的[MTA-STS](https://tools.ietf.org/html/rfc8461)和[TLS-RPT](https://tools.ietf.org/html/rfc8460)策略。
+- 有效的[DANE](https://en.wikipedia.org/wiki/DNS-based_Authentication_of_Named_Entities)记录。
+- 有效的[SPF](https://en.wikipedia.org/wiki/Sender_Policy_Framework)和[DKIM](https://en.wikipedia.org/wiki/DomainKeys_Identified_Mail)记录。
+- 必须有适当的[DMARC](https://en.wikipedia.org/wiki/DMARC)记录和策略，或者使用[ARC](https://en.wikipedia.org/wiki/Authenticated_Received_Chain)进行身份验证。如果使用DMARC身份验证，则策略必须设置为`reject`（拒绝）或`quarantine`（隔离）。
+- 偏好TLS 1.2或更高版本的服务器套件，并具有支持[RFC8996](https://datatracker.ietf.org/doc/rfc8996)的计划。
+- 如果使用SMTP，则应进行[SMTPS](https://en.wikipedia.org/wiki/SMTPS)提交。
+- 网站安全标准，例如：
+    - [HTTP严格传输安全协议（HSTS）](https://en.wikipedia.org/wiki/HTTP_Strict_Transport_Security)
+    - 如果从外部域加载内容，则使用[子资源完整性（SRI）](https://en.wikipedia.org/wiki/Subresource_Integrity)。
+- 必须支持查看[邮件标头](https://en.wikipedia.org/wiki/Email#Message_header)，因为这是确定电子邮件是否为网络钓鱼尝试的关键取证功能。
 
-**Best Case:**
+**最佳情况：**
 
-- Should support hardware authentication, i.e. U2F and [WebAuthn](basics/multi-factor-authentication.md#fido-fast-identity-online).
-- [DNS Certification Authority Authorization (CAA) Resource Record](https://tools.ietf.org/html/rfc6844) in addition to DANE support.
-- Should implement [Authenticated Received Chain (ARC)](https://en.wikipedia.org/wiki/Authenticated_Received_Chain), which is useful for people who post to mailing lists [RFC8617](https://tools.ietf.org/html/rfc8617).
-- Published security audits from a reputable, third-party firm.
-- Bug-bounty programs and/or a coordinated vulnerability-disclosure process.
-- Website security standards such as:
-    - [Content Security Policy (CSP)](https://en.wikipedia.org/wiki/Content_Security_Policy)
+- 应支持硬件身份验证，即 U2F和[WebAuthn](basics/multi-factor-authentication.md#fido-fast-identity-online)。
+- 除了DANE支持外，还有[DNS证书颁发机构授权（CAA）资源记录](https://tools.ietf.org/html/rfc6844)。
+- 应实施[经过身份验证的接收链（ARC）](https://en.wikipedia.org/wiki/Authenticated_Received_Chain)，这对于向邮件列表发帖的人（[RFC8617](https://tools.ietf.org/html/rfc8617)）非常有用。
+- 由知名的第三方公司发布的公开安全审计。
+- 漏洞悬赏计划和/或协调一致的漏洞披露流程。
+- 网站安全标准，例如：
+    - [内容安全策略（CSP）](https://en.wikipedia.org/wiki/Content_Security_Policy)
     - [RFC9163 Expect-CT](https://datatracker.ietf.org/doc/rfc9163)
 
-### Trust
+### 信任
 
-You wouldn't trust your finances to someone with a fake identity, so why trust them with your email? We require our recommended providers to be public about their ownership or leadership. We also would like to see frequent transparency reports, especially in regard to how government requests are handled.
+您不会将财务委托给使用虚假身份的人，那为什么要将电子邮件托付给他们呢？我们要求我们推荐的提供商公开其所有权或领导层。我们还希望看到频繁的透明度报告，特别是关于如何处理政府请求的报告。
 
-**符合条件的最低要求。**
+**符合条件的最低要求：**
 
-- Public-facing leadership or ownership.
+- 面向公众的领导层或所有权。
 
-**Best Case:**
+**最佳情况：**
 
-- Frequent transparency reports.
+- 频繁的透明度报告。
 
-### Marketing
+### 营销
 
-With the email providers we recommend, we like to see responsible marketing.
+对于我们推荐的电子邮件提供商，我们希望看到负责任的营销。
 
-**符合条件的最低要求。**
+**符合条件的最低要求：**
 
-- Must self-host analytics (no Google Analytics, Adobe Analytics, etc.).
-- Must not have any irresponsible marketing, which can include the following:
-    - Claims of "unbreakable encryption." Encryption should be used with the intention that it may not be secret in the future when the technology exists to crack it.
-    - Guarantees of protecting anonymity 100%. When someone makes a claim that something is 100%, it means there is no certainty for failure. We know people can quite easily de-anonymize themselves in a number of ways, e.g.:
-        - Reusing personal information e.g. (email accounts, unique pseudonyms, etc.) that they accessed without anonymity software such as Tor
-        - [Browser fingerprinting](https://en.wikipedia.org/wiki/Device_fingerprint#Browser_fingerprint)
+- 必须自托管分析服务（不使用Google Analytics、Adobe Analytics等）。
+- 不得进行任何不负责任的营销，这可能包括以下内容：
+    - 声称拥有“牢不可破的加密”。使用加密时应考虑到，未来当出现破解它的技术时，它可能不再是秘密。
+    - 保证100%保护匿名性。当有人声称某事是100%时，这意味着绝不承认存在失败的可能性。我们知道人们很容易通过多种方式解除自己的匿名化，例如：
+        - 重复使用他们未使用Tor等匿名软件就访问过的个人信息（如电子邮件帐户、唯一的化名等）
+        - [浏览器指纹识别](https://en.wikipedia.org/wiki/Device_fingerprint#Browser_fingerprint)
 
-**Best Case:**
+**最佳情况：**
 
-- Clear and easy-to-read documentation for tasks like setting up 2FA, email clients, OpenPGP, etc.
+- 有关设置双因素身份验证、电子邮件客户端、OpenPGP等任务的清晰易读的文档。
 
 ### 附加功能
 
-While not strictly requirements, there are some other convenience or privacy factors we looked into when determining which providers to recommend.
+虽然不是严格的要求，但我们在确定推荐哪些提供商时还会考虑其他一些便利性或隐私因素。

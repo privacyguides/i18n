@@ -25,39 +25,39 @@ Anytime you are using images, audio, or any other sensorial elements in your adv
 
 - [x] If you use images in your websites or social media posts, make sure to always add proper [alt text](https://abilitynet.org.uk/resources/digital-accessibility/five-golden-rules-compliant-alt-text) to describe the information the image represents. Keep in mind visitors that might be using a [screen reader](https://en.wikipedia.org/wiki/Screen_reader).
 
-- [x] When designing websites, posters, flyers, or zines, keep in mind [visual accessibility](https://webdesign.tutsplus.com/accessibility-basics-designing-for-visual-impairment--cms-27634a) for people with blindness, low vision, color blindness, and other visual impairments.
+- [x] 在設計網站、海報、傳單或小誌時，請務必考量視障人士、弱視者、色盲者及其他視覺障礙者的 [視覺無障礙](https://webdesign.tutsplus.com/accessibility-basics-designing-for-visual-impairment--cms-27634a) 需求。
 
-- [x] Be careful to refrain from using designs and videos with [flashing lights](https://developer.mozilla.org/en-US/docs/Web/Accessibility/Guides/Seizure_disorders), or display proper warning if you do. Flashing or flickering light effects, and even certain high-contrast static images, can trigger seizures in people with photosensitive epilepsy.
+- [x] 請務必避免使用含有 [閃爍燈光](https://developer.mozilla.org/en-US/docs/Web/Accessibility/Guides/Seizure_disorders) 的設計與影片；若非得使用，則須顯示適當的警告訊息。閃爍或晃動的光線效果，甚至某些高對比度的靜態圖像，都可能引發光敏性癲癇患者的癲癇發作。
 
-- [x] If you use [audio material](https://www.w3.org/WAI/people-use-web/abilities-barriers/auditory/) in your advocacy, try to include captions or transcripts in your content for people with auditory impairments. If you organize a larger event with speakers, try to see if you could hire a sign language interpreter.
+- [x] 若您在倡議活動中使用 [音訊素材](https://www.w3.org/WAI/people-use-web/abilities-barriers/auditory/)，請盡量在內容中加入字幕或文字紀錄，以便聽力障礙者能理解。若您籌辦一場有講者的大型活動，請試著聘請一名手語翻譯員。
 
-- [x] Whenever you develop content or organize events, always be mindful of people with sensory impairments or [sensory sensitivities](https://accessforallllc.com/sensory-and-cognitive-accessibility/).
+- [x] 無論您是在製作內容或籌辦活動時，都請務必顧及感官障礙者或[感官敏感者](https://accessforallllc.com/sensory-and-cognitive-accessibility/)的需求。
 
-### Website accessibility
+### 網站無障礙設計
 
-If you develop a website in your privacy work, make sure to follow the international standards for web accessibility.
+若您在隱私權相關事務中開發網站，請務必遵循國際網路無障礙標準。
 
-This is very important to ensure readers using assistive devices will be able to access your content, and that people with visual impairments will not struggle to access your content.
+這一點非常重要，能確保使用輔助裝置的讀者能夠存取您的內容，也避免視障人士在存取您的內容時遇到困難。
 
-- [x] Get familiar with the World Wide Web Consortium (W3C) [international Web standards](https://www.w3.org/WAI/standards-guidelines/). These standards have been reviewed for accessibility support by the Accessible Platform Architectures ([APA](https://www.w3.org/WAI/about/groups/apawg/)) Working Group.
+- [x] 請熟悉全球資訊網協會（W3C）的 [國際網路標準](https://www.w3.org/WAI/standards-guidelines/)。這些標準已由「無障礙平台架構」（[APA](https://www.w3.org/WAI/about/groups/apawg/)）工作小組就無障礙支援方面進行了審查。
 
-- [x] Use a [web accessibility evaluation tool](https://www.w3.org/WAI/test-evaluate/tools/list/) to verify that your web content meets accessibility guidelines, or otherwise make sure to follow the [Web Content Accessibility Guidelines](https://www.pivotalaccessibility.com/2024/11/how-to-perform-a-web-accessibility-audit-step-by-step-guide/) (WCAG).
+- [x] 請使用 [網頁無障礙評估工具](https://www.w3.org/WAI/test-evaluate/tools/list/) 來驗證您的網頁內容是否符合無障礙準則，或務必遵循 [網頁內容無障礙準則](https://www.pivotalaccessibility.com/2024/11/how-to-perform-a-web-accessibility-audit-step-by-step-guide/)（WCAG）。
 
-- [x] If your organization can afford it, hire a [web accessibility consultant](https://accessibilityinnovations.com/blogs/web-accessibility-consultant/).
+- [x] 如果你的組織有足夠預算，建議聘請一位 [網頁無障礙顧問](https://accessibilityinnovations.com/blogs/web-accessibility-consultant/)。
 
-### Global accessibility
+### 全球可及性
 
-Whether you write a post, an article, or a whole website in English, keep in mind that your audience is likely global.
+無論您是用英文撰寫貼文、文章，還是整個網站，都請謹記：您的受眾很可能來自世界各地。
 
-People from all around the world will be able to read or watch your English content, many who don't speak English as their first language. Don't assume that your audience is only coming from your own country or region. This is a good thing, by the way! ==The battle for privacy rights must be global now.==
+世界各地的人都能閱覽到你的英文內容，而其中許多人的母語並非英語。不要假設您的受眾僅來自你自己的國家或地區。順帶一提，這可是件好事！ ==如今，捍衛隱私權的戰役必定要是全球性的。==
 
-- [x] Be careful not to use too many references that are unique to your own country or region. If you do, make sure to explain what it is for people from other regions.
+- [x] 請注意，不要引用過多僅限於你所在國家或地區的參考資料。如果你非得這麼做，也請務必向其他地區的人說明這是什麼。
 
-- [x] When talking about issues related to politics, make sure to specify what governmental entities are, and explain any special rights your country has (don't just name them). That way, outsiders will be able to understand and support your cause as well, even if perhaps they aren't directly impacted by this issue at the moment.
+- [x] 在討論與政治相關的議題時，請務必說明政府機關是指什麼，並闡述你的國家有無任何特殊權利（不只寫名稱，要說明）。這樣一來，即使外界人士目前或許尚未直接受到此議題的影響，也能理解並支持你們的訴求。
 
-- [x] Don't assume everyone knows all the popular internet acronyms such as DIY (Do It Yourself) or IIRC (If I Recall Correctly). These acronyms are very challenging for non-native English speakers. When using acronyms in your content, always explain the full expression in parentheses at least once, or better yet, simply use whole words instead.
+- [x] 不要假設他人熟悉流行網路用語縮寫，例如 DIY（Do It Yourself，自己動手做）或 IIRC（If I Recall Correctly，如果我沒記錯的話）。對於非英語母語者來說，這些縮寫詞並不好懂。使用縮寫時，請務必至少在括號內註明一次完整表述；或者，更理想的做法是直接使用完整詞語。
 
-- [x] When inviting people to an event, consider that people from other time zones might be reading your invitation. If your event is online, always specify the [time zone](https://www.timeanddate.com/time/map/) for the announced time. If your event is in person, always specify the whole location with the country and region ([do _not_ just name the city](https://www.roughmaps.com/destinations/20-places-around-the-world-that-share-the-same-name/22)).
+- [x] 在邀請他人參加活動時，請考慮到有不同時區的人可能會讀到你的邀請函。若你的活動是在線舉辦，請務必在公告時間中註明 [時區](https://www.timeanddate.com/time/map/)。若您的活動是實體見面進行，請務必完整註明活動地點，包含國家與地區（[&#x8ACB;_&#x4E0D;&#x8981;_&#x50C5;列出城市名稱](https://www.roughmaps.com/destinations/20-places-around-the-world-that-share-the-same-name/22)）。
 
 ### Physical accessibility
 

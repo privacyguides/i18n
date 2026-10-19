@@ -1,5 +1,5 @@
 ---
-meta_title: "비공개 VPN 서비스 권장 목록 및 각 서비스 비교 (스폰서/광고 없음) - 프라이버시 가이드"
+meta_title: "프라이버시를 지키는 VPN 서비스 추천 및 비교 (스폰서·광고 없음) - 프라이버시 가이드"
 title: VPN 서비스
 icon: 자료/Vpn
 description: 온라인에서 여러분의 프라이버시와 보안을 지켜 주는 최고의 VPN 서비스를 소개합니다. 여러분을 감시하려 들지 않는 제공업체를 여기에서 찾아보세요.
@@ -12,32 +12,32 @@ global:
 
 <small>다음 위협으로부터 보호합니다:</small>
 
-- [:material-account-cash: 감시 자본주의(Surveillance Capitalism)](basics/common-threats.md#surveillance-as-a-business-model ""){.pg-brown}
+- [:material-account-cash: 감시 자본주의](basics/common-threats.md#surveillance-as-a-business-model ""){.pg-brown}
 
 ISP로부터 또는 공용 와이파이 네트워크에서 추가적인 *프라이버시*를 원한다면, **VPN**이 해결책이 될 수 있습니다.
 
 <div class="admonition danger" markdown>
 <p class="admonition-title">VPN은 익명성을 제공하지 않습니다</p>
 
-VPN을 사용한다고 해서 여러분의 탐색 습관이 익명으로 유지되는 것은 **아니며**, 보안되지 않은(HTTP) 트래픽에 보안이 추가되는 것도 아닙니다.
+VPN을 사용한다고 해서 여러분의 브라우징 습관이 익명으로 유지되는 것은 **아니며**, 보안되지 않은(HTTP) 트래픽에 보안이 더해지는 것도 아닙니다.
 
 **익명성**을 원한다면 토르 브라우저를 사용해야 합니다. 추가적인 **보안**을 원한다면, 웹사이트에 접속할 때 항상 HTTPS를 사용하고 있는지 확인해야 합니다. VPN은 올바른 보안 관행을 대체할 수 없습니다.
 
-[토르 브라우저 소개](tor.md#tor-browser){ .md-button .md-button--primary } [토르에 대한 오해와 FAQ](advanced/tor-overview.md){ .md-button }
+[토르 브라우저 소개](tor.md#tor-browser){ .md-button .md-button--primary } [토르에 관한 오해와 FAQ](advanced/tor-overview.md){ .md-button }
 
 </div>
 
-[VPN에 대해서 :material-arrow-right-drop-circle:](basics/vpn-overview.md ""){.md-button}
+[VPN 상세 개요 :material-arrow-right-drop-circle:](basics/vpn-overview.md ""){.md-button}
 
-## 권장 제공 업체
+## 추천 제공업체
 
-프라이버시 가이드 권장 제공 업체는 암호화 사용, 와이어가드 & OpenVPN 지원, 노 로그 정책을 가지고 있습니다. 자세한 사항은 [전체 평가 기준](#criteria)을 참고해 주세요.
+저희가 추천하는 제공업체는 암호화를 사용하고, 와이어가드 & OpenVPN을 지원하며, 로그를 남기지 않는 정책(노 로그 정책)을 갖추고 있습니다. 자세한 사항은 [전체 평가 기준](#criteria)을 참고해 주세요.
 
-| 서비스 제공자            | 국가   | 와이어가드                         | 포트포워딩                                        | IPv6                                              | 익명 결제   |
-| ------------------ | ---- | ----------------------------- | -------------------------------------------- | ------------------------------------------------- | ------- |
-| [프로톤](#proton-vpn) | 127+ | :material-check:{ .pg-green } | :material-alert-outline:{ .pg-orange } 부분 지원 | :material-information-outline:{ .pg-blue } 제한적 지원 | 현금      |
-| [IVPN](#ivpn)      | 41+  | :material-check:{ .pg-green } | :material-alert-outline:{ .pg-orange }       | :material-information-outline:{ .pg-blue } 발신 전용  | 모네로  현금 |
-| [멀바드](#mullvad)    | 49+  | :material-check:{ .pg-green } | :material-alert-outline:{ .pg-orange }       | :material-check:{ .pg-green }                     | 모네로  현금 |
+| 제공업체               | 국가   | 와이어가드                         | 포트 포워딩                                       | IPv6                                                | 익명 결제   |
+| ------------------ | ---- | ----------------------------- | -------------------------------------------- | --------------------------------------------------- | ------- |
+| [프로톤](#proton-vpn) | 127+ | :material-check:{ .pg-green } | :material-alert-outline:{ .pg-orange } 부분 지원 | :material-information-outline:{ .pg-blue } 제한적 지원   | 현금      |
+| [IVPN](#ivpn)      | 41+  | :material-check:{ .pg-green } | :material-alert-outline:{ .pg-orange }       | :material-information-outline:{ .pg-blue } 아웃바운드 전용 | 모네로  현금 |
+| [멀바드](#mullvad)    | 49+  | :material-check:{ .pg-green } | :material-alert-outline:{ .pg-orange }       | :material-check:{ .pg-green }                       | 모네로  현금 |
 
 ### 프로톤 VPN
 
@@ -45,7 +45,7 @@ VPN을 사용한다고 해서 여러분의 탐색 습관이 익명으로 유지�
 
 ![프로톤 VPN 로고](assets/img/vpn/protonvpn.svg){ align=right }
 
-**프로톤 VPN**은 VPN 분야의 강력한 경쟁자로, 2016년부터 운영되고 있습니다. 프로톤 AG 본사는 스위스에 위치하고 있으며, 제한된 무료 플랜과 더 많은 기능을 갖춘 프리미엄 옵션을 제공합니다.
+**프로톤 VPN**은 VPN 분야의 강력한 경쟁자로, 2016년부터 운영되어 왔습니다. 프로톤 AG는 스위스에 본사를 두고 있으며, 기능이 제한된 무료 요금제와 더 많은 기능을 갖춘 프리미엄 요금제를 제공합니다.
 
 [:octicons-home-16: 홈페이지](https://protonvpn.com){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://protonvpn.com/privacy-policy){ .card-link title="개인정보 처리방침" }
@@ -68,19 +68,19 @@ VPN을 사용한다고 해서 여러분의 탐색 습관이 익명으로 유지�
 
 #### :material-check:{ .pg-green } 127개국
 
-프로톤 VPN은 [127개국에 서버](https://protonvpn.com/vpn-servers)를 두고 있습니다.(1) 단, [무료 플랜](https://protonvpn.com/blog/product-roadmap-winter-2025-2026)을 사용하는 경우에는 [10](https://protonvpn.com/support/how-to-create-free-vpn-account)개국입니다.(2) 가까운 서버를 보유한 VPN 제공업체를 선택하면 전송하는 네트워크 트래픽의 지연 시간을 줄일 수 있습니다. 목적지까지의 경로가 더 짧기(Hop 횟수가 적기) 때문입니다.
+프로톤 VPN은 [127개국에 서버](https://protonvpn.com/vpn-servers)를 두고 있으며(1), [무료 요금제](https://protonvpn.com/blog/product-roadmap-winter-2025-2026)를 사용하는 경우에는 [10](https://protonvpn.com/support/how-to-create-free-vpn-account)개국의 서버를 이용할 수 있습니다.(2) 가까운 곳에 서버가 있는 VPN 제공업체를 선택하면 전송하는 네트워크 트래픽의 지연 시간이 줄어듭니다. 목적지까지의 경로가 더 짧기(홉 수가 더 적기) 때문입니다.
 { .annotate }
 
 1. 이 중 최소 71개국은 가상 서버로, IP는 해당 국가의 것으로 표시되지만 서버는 실제로 다른 국가에 있습니다. 그 외 12개 지역에는 물리 서버와 가상 서버가 모두 있습니다. [출처](https://protonvpn.com/support/how-smart-routing-works)
 2. 최종 확인: 2025-10-28
 
-우리는 VPN 제공자가 독립적인 [데디케이티드 서버](https://en.wikipedia.org/wiki/Dedicated_hosting_service)를 사용하는 것이 제공자의 개인 키를 보호하는데 더 좋다고 봅니다. [개인 사설 서버](https://en.wikipedia.org/wiki/Virtual_private_server)는 더 싸지만, VPN 제공자는 한 서버를 다른 사람들과 같이 쓰게 됩니다.
+또한 VPN 제공업체가 (다른 고객과 함께 쓰는) [가상 사설 서버](https://en.wikipedia.org/wiki/Virtual_private_server) 같은 저렴한 공유형 솔루션 대신 [전용 서버](https://en.wikipedia.org/wiki/Dedicated_hosting_service)를 사용하는 것이 제공업체의 개인 키 보안에 더 좋다고 생각합니다.
 
-#### :material-check:{ .pg-green } 독립 감사 여부
+#### :material-check:{ .pg-green } 독립 감사 완료
 
 독립 보안 연구원 루벤 산타마르타가 2024년 9월과 2025년 1월에 각각 프로톤 VPN의 [브라우저 확장 프로그램](https://drive.proton.me/urls/RWDD2SHT98#v7ZrwNcafkG8)과 [앱](https://drive.proton.me/urls/RVW8TXG484#uTXX5Fc9GADo)에 대한 감사를 수행했습니다. 프로톤 VPN의 인프라는 2022년부터 시큐리텀으로부터 [매년 감사](https://protonvpn.com/blog/no-logs-audit)를 받아 왔습니다.
 
-그 이전인 2020년 1월에는 SEC 컨설트로부터 독립 감사를 받았습니다. SEC 컨설트는 프로톤 VPN의 윈도우, 안드로이드와 iOS 클라이언트에서 취약점을 찾았으며, 이 취약점들은 감사 레포트가 공개되기 전에 모두 적절히 고쳤다고 합니다. 확인된 취약점 중에서 공격자가 사용자의 기기 또는 트래픽에 원격으로 접속하는 것을 허용하는 것은 없습니다. 각 플랫폼별 개별 보고서는 감사에 관한 [블로그 게시물](https://web.archive.org/web/20250307041036/https://protonvpn.com/blog/open-source)에서 확인할 수 있습니다.
+그 이전인 2020년 1월에는 SEC 컨설트로부터 독립 감사를 받은 바 있습니다. SEC 컨설트는 프로톤 VPN의 윈도우, 안드로이드, iOS 애플리케이션에서 위험도 중간 및 낮음 수준의 취약점을 일부 발견했으며, 프로톤 VPN은 보고서가 공개되기 전에 이를 모두 "적절하게 수정"했습니다. 발견된 문제 중 공격자가 여러분의 기기나 트래픽에 원격으로 접근할 수 있게 하는 것은 없었습니다. 각 플랫폼별 개별 보고서는 감사에 관한 [블로그 게시물](https://web.archive.org/web/20250307041036/https://protonvpn.com/blog/open-source)에서 확인할 수 있습니다.
 
 #### :material-check:{ .pg-green } 오픈 소스 클라이언트
 
@@ -88,21 +88,21 @@ VPN을 사용한다고 해서 여러분의 탐색 습관이 익명으로 유지�
 
 #### :material-check:{ .pg-green } 현금 결제 가능
 
-프로톤 VPN은 신용카드/체크카드, 페이팔, [비트코인](advanced/payments.md#other-coins-bitcoin-ethereum-etc) 외에도 익명 결제 수단으로 **현금/현지 통화**를 받습니다.
+프로톤 VPN은 신용카드/직불카드, 페이팔, [비트코인](advanced/payments.md#other-coins-bitcoin-ethereum-etc) 외에도 익명 결제 수단으로 **현금/현지 통화**를 받습니다.
 
 #### :material-check:{ .pg-green } 와이어가드 지원
 
 프로톤 VPN은 와이어가드® 프로토콜을 지원합니다. [와이어가드](https://wireguard.com)는 최첨단 [암호화](https://wireguard.com/protocol)를 사용하는 최신 프로토콜입니다. 또한, 와이어가드는 보다 단순하면서도 더 나은 성능을 목표로 합니다.
 
-프로톤 VPN은 자신들의 서비스에서 와이어가드 사용을 [권장](https://protonvpn.com/blog/wireguard)합니다. 프로톤 VPN은 공식 와이어가드 [앱](https://wireguard.com/install)에서 사용할 수 있는 와이어가드 설정 파일 생성기도 제공합니다.
+프로톤 VPN은 자사 서비스에서 와이어가드 사용을 [권장](https://protonvpn.com/blog/wireguard)합니다. 프로톤 VPN은 공식 와이어가드 [앱](https://wireguard.com/install)에서 사용할 수 있는 와이어가드 설정 파일 생성기도 제공합니다.
 
-#### :material-alert-outline:{ .pg-orange } 제한적인 IPv6 지원
+#### :material-alert-outline:{ .pg-orange } IPv6 제한적 지원
 
 프로톤은 이제 브라우저 확장 프로그램과 리눅스 클라이언트에서 [IPv6를 지원](https://protonvpn.com/support/prevent-ipv6-vpn-leaks)하지만, IPv6와 호환되는 서버는 전체의 80%에 불과합니다. 다른 플랫폼에서는 프로톤 VPN 클라이언트가 나가는 IPv6 트래픽을 모두 차단하므로 IPv6 주소가 유출될 걱정은 없지만, IPv6 전용 사이트에 접속할 수 없으며 IPv6 전용 네트워크에서는 프로톤 VPN에 연결할 수도 없습니다.
 
 #### :material-information-outline:{ .pg-info } 원격 포트 포워딩
 
-현재 프로톤 VPN은 NAT-PMP를 통한 임시 원격 [포트 포워딩](https://protonvpn.com/support/port-forwarding)만 지원하며, 임대 시간은 60초입니다. 공식 윈도우 및 리눅스 앱에서는 이 기능을 쉽게 켤 수 있는 옵션을 제공하지만, 다른 운영 체제에서는 직접 [NAT-PMP 클라이언트](https://protonvpn.com/support/port-forwarding-manual-setup)를 실행해야 합니다. 토렌트 애플리케이션은 대부분 NAT-PMP를 지원합니다.
+현재 프로톤 VPN은 NAT-PMP를 통한 임시 원격 [포트 포워딩](https://protonvpn.com/support/port-forwarding)만 지원하며, 임대 시간은 60초입니다. 공식 윈도우 및 리눅스 앱에서는 이 기능을 쉽게 켤 수 있는 옵션을 제공하지만, 다른 운영 체제에서는 직접 [NAT-PMP 클라이언트](https://protonvpn.com/support/port-forwarding-manual-setup)를 실행해야 합니다. 토렌트 애플리케이션은 대부분 NAT-PMP를 기본적으로 지원합니다.
 
 #### :material-information-outline:{ .pg-blue } 검열 우회
 
@@ -125,7 +125,7 @@ VPN을 사용한다고 해서 여러분의 탐색 습관이 익명으로 유지�
 
 #### :material-alert-outline:{ .pg-orange } 추가 참고 사항
 
-프로톤 VPN 클라이언트는 모든 플랫폼에서 2단계 인증을 지원합니다. 프로톤 VPN은 스위스, 아이슬란드와 스웨덴에 자체 서버와 데이터 센터를 보유하고 있습니다. 또한 DNS 서비스를 통해 콘텐츠 차단 및 알려진 악성 코드 차단 기능을 제공합니다. 또한 프로톤 VPN은 어니언 사이트에 쉽게 접속할 수 있는 "토르" 서버도 제공하지만, 이러한 용도로는 여전히 [공식 토르 브라우저](tor.md#tor-browser)를 사용할 것을 강력히 권장합니다.
+프로톤 VPN 클라이언트는 모든 플랫폼에서 2단계 인증을 지원합니다. 프로톤 VPN은 스위스, 아이슬란드, 스웨덴에 자체 서버와 데이터 센터를 보유하고 있습니다. 또한 DNS 서비스를 통해 콘텐츠 차단 및 알려진 악성 코드 차단 기능을 제공합니다. 또한 프로톤 VPN은 어니언 사이트에 쉽게 접속할 수 있는 "토르" 서버도 제공하지만, 이러한 용도로는 여전히 [공식 토르 브라우저](tor.md#tor-browser)를 사용할 것을 강력히 권장합니다.
 
 ##### macOS에서는 킬 스위치 기능의 보호 수준이 낮습니다
 

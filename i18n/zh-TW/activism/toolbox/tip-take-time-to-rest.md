@@ -60,17 +60,17 @@ cover: activism/banner-toolbox-tip-rest.webp
 
 - **休息一下：** 當你開始對全球隱私權的現狀感到徹底氣餒時，就是該暫停喘口氣的時候了。如果可以的話，請讓自己放個幾天假，試著享受一些與你倡導隱私權完全無關的活動。
 
-- **照顧好自己的身體：** 切勿忽視身體的需求，這應該始終被視作首要之務。你的身體和大腦，是你從事隱私權倡導工作時最重要的工具。 Take care of them first and foremost.
+- **照顧好自己的身體：** 切勿忽視身體的需求，這應該始終被視作首要之務。你的身體和大腦，是你從事隱私權倡導工作時最重要的工具。務必將自己對於它們的照顧放在一切之前。
 
-- **Sleep well:** Prioritize quality sleep and adopt a rigorous [sleep routine](https://sleepresearchfoundation.com/2024/03/03/top-10-tips-to-create-an-ideal-sleep-routine/) with a strict schedule.
+- **睡個好覺：** 將優質睡眠列為優先事項，並遵循一套嚴格的 [睡眠作息](https://sleepresearchfoundation.com/2024/03/03/top-10-tips-to-create-an-ideal-sleep-routine/)，按固定時間表進行。
 
-- **Keep bedtime calm:** Try to avoid reading about stressful privacy news or exciting privacy technologies close to bedtime. This can all wait for you tomorrow.
+- \*\*保持睡前平靜：\*\*盡量避免在臨睡前閱覽與隱私權相關卻令人焦慮的新聞，或探討令人興奮的隱私技術相關內容。這些都可以等到明天再說。
 
-- **Separate devices:** If you can afford it, use separate devices for your personal usage and your privacy activism work. This can help keeping a mental barrier between personal and professional, and limiting the "always-on" privacy-advocate mode.
+- **裝置分別：** 若經濟上允許，請將個人用途與隱私權倡議工作分開使用不同的裝置。這有助於在個人生活與職場之間建立一道心理屏障，並限制那種「隨時待命」的隱私倡導者模式。
 
-- **Find friends:** Find a [community of peers](https://discuss.privacyguides.net/) you can talk to. Exchange resources and seek support from your community. Remember that you aren't alone in this battle.
+- **找朋友：** 找一個可以與你交流的 [同儕社群](https://discuss.privacyguides.net/)。與社群交流資源，並尋求社群的支持。請記住，在這場戰鬥中，你並不孤單。
 
-- **Split the work:** Delegate tasks to privacy comrades. Seek allies and [alliances](tip-start-alliances-not-wars.md). Reach out for help, and don't take all the responsibilities of your projects on your own shoulders. Build a team, and learn to trust others with the work.
+- **分工合作：** 將任務委派給隱私戰友。 Seek allies and [alliances](tip-start-alliances-not-wars.md). Reach out for help, and don't take all the responsibilities of your projects on your own shoulders. Build a team, and learn to trust others with the work.
 
 - **Celebrate!** Take the time to celebrate each victory, no matter how small. Celebrate with your peers too, and never miss an opportunity to [congratulate](tip-give-credit-where-credit-is-due.md) everyone's hard work.
 

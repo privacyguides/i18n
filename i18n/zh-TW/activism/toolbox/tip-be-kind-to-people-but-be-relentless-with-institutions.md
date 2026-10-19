@@ -1,45 +1,45 @@
 ---
-title: Be Kind to People, But Be Relentless With Institutions
-description: Kindness and patience are essential qualities for privacy advocates. To grow our movement, we must meet people from a place of camaraderie.
+title: 對人要善良，但對體制要毫不留情
+description: 仁慈與耐心是隱私倡導者不可或缺的特質。為了讓我們的運動蓬勃發展，我們必須以同伴情誼為出發點與人接觸。
 icon: fontawesome/solid/hands-holding-circle
 cover: activism/banner-toolbox-tip-kind.webp
 ---
 
-Kindness and patience are essential qualities for privacy advocates. To grow our movement, we must meet people from a place of camaraderie. People don't change their mind by being berated. However, this isn't true for institutions.
+仁慈與耐心是隱私倡導者不可或缺的特質。為了讓我們的運動蓬勃發展，我們必須以同伴情誼為出發點與人接觸。人們不會在被斥責的情況下改變主意。然而，對體制而言卻並非如此。
 
-Here's how you can **integrate kindness in your work**, while being relentless with institutions:
+以下是如何在對體制保持毫不妥協的同時，**將善意融入工作**的方法：
 
-## Use kindness and patience while working with individuals
+## 與人相處時，請展現善意與耐心
 
-Whenever you talk with individuals in your privacy work, make sure to **stay kind and calm** when communicating with them.
+在從事隱私相關工作時，每當與他人交談，請務必在溝通時**保持友善與平靜**。
 
-Perhaps you are posting on social media, replying to posts or emails, answering questions after a talk, or writing advices on the best privacy tools to use. No matter the context, when communicating with individuals, ==kindness is your greatest asset== to persuade and bring more people to the movement.
+也許您正在社群媒體上發文、回覆貼文或電子郵件、在演講後回答提問，或是撰寫關於最佳隱私工具的建議。無論處於何種情境，在與他人溝通時，==善意是你最寶貴的資產==，能說服並吸引更多人加入這場運動。
 
-Sadly, it's not rare to see replies to beginners' posts by more advanced peers online that are humiliating and berating their uninformed or misinformed questions. People don't learn and don't change their mind by being yelled at. Aggression isn't an effective way to communicate.
+遺憾的是，在網路上，常會見到資深者針對新手發文的回覆，是以羞辱或斥責的語氣，批評對方缺乏知識或資訊錯誤而提出的問題。人們不會因為被人大聲喝斥而學到東西，也不會因此改變想法。攻擊性並非一種有效的溝通方式。
 
-Furthermore, aggression is a horrible strategy to bring more people to your cause, which should be your ultimate goal as a privacy rights advocate and activist.
+此外，採取攻擊性的態度，對於吸引更多人支持你的倡導事業絕非良策，而吸引更多人支持，本應是你身為隱私權倡導者與運動家所追求的最終目標。
 
-Instead, be gentle and [develop your empathy skills](https://www.verywellmind.com/what-is-empathy-2795562). Write from a place of compassion, to gradually attract more and more [new people](tip-welcome-beginners.md) to the cause.
+相反地，請保持溫和，並[培養同理心](https://www.verywellmind.com/what-is-empathy-2795562)。請懷著同理心撰寫文章，藉此逐步吸引越來越多[新朋友](tip-welcome-beginners.md)加入這項事業。
 
-Stay patient and compassionate, even when people ask questions that might sound obvious to you. Be patient when people don't understand the first time you explain something. Happily clarify with simpler terms when needed, without being condescending.
+即使別人提出的問題在你聽來可能答案顯而易見，也要保持耐心與同理心。當你第一次解釋某件事時，若對方無法理解，請保持耐心。必要時，請樂於用更簡單的詞彙加以說明，切勿站在居高臨下的角度。
 
-Accept that some people might not be able to adopt all of your suggestions at once. It's okay, let them grow at their own pace.
+接受現實──有些人可能無法一次就採納你所有的建議。沒關係，讓他們踩著自己的步調成長。
 
-Give time for ideas to brew and change minds. Plant seeds for change, and gently wait for growth.
+給想法一些時間醞釀，給人們一些時間改變觀念。播下改變的種子，用耐心來等待成長。
 
-## Be relentless with corporations, governments, and public institutions
+## 對企業、政府及公共機關必須毫不留情
 
-While patience and kindness are crucial to bring your message the right way to individuals, institutions do not function the same way.
+雖然耐心與善意對於將訊息正確地傳達給個人至關重要，但機關的運作方式有所不同。
 
-Whether you are trying to report a privacy-abusive corporate practice, push back against an invasive regulation proposal, or raise awareness about a public institution's privacy malpractices, you must be firm, loud, and determined.
+無論您是想舉報某家企業侵犯隱私的行為、反對某項侵犯隱私的監管提案，還是希望提高大眾對某個公共機構隱私失當行為的認知，都必須態度剛硬、聲音響亮、意志堅決。
 
-Respect and politeness are vital here as well. Violence or threat to representatives of these institutions would only be detrimental to your goals. However, patience shouldn't be extended to privacy-abusive organizations that aren't demonstrating any realistic intentions to improve.
+在此，尊重與禮貌同樣至關重要。對這些機構的代表施加暴力或威脅，只會對你的目標造成損害。然而，對於那些侵犯隱私且未展現任何切實改善意圖的組織，我們不該對其抱持耐心。
 
-\==To bring significant changes to institutions and corporations, your message must be loud and clear.==
+\==若要為機構和企業帶來重大改變，您的訊息必須清晰明確。==
 
-You should try to bring as many people and allied organizations to your cause, and be as loud as possible in the media. Your campaign must be powerful enough to grab media's attention, and to send a firm message that the people want change and will not back down.
+你應該盡可能爭取更多人及盟友組織加入你的行列，並在媒體上盡可能大力發聲。你們的運動必須具備足夠的魄力，才能吸引媒體的關注，並明確傳達出人民渴望改變且絕不退讓的訊息。
 
-Each time your message is ignored, and the abuse continues, **shout louder** (metaphorically). Bring even _more_ people to the cause, until the popular discontent is so strong that they have no choice but to stop the abuse.
+每當你的訊息被忽視，而壓迫行為仍在持續時，就該**大聲點**（意義上的）。 Bring even _more_ people to the cause, until the popular discontent is so strong that they have no choice but to stop the abuse.
 
 ## More resources
 

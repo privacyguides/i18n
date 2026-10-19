@@ -250,7 +250,7 @@ Arkenfox 仅旨在通过Canvas随机化和 Firefox 内置的抗指纹配置设�
 
 **Brave 浏览器**包含内置的内容拦截器和[隐私功能](https://brave.com/privacy-features)，其中许多功能默认启用。
 
-Brave是建立在Chromium网络浏览器项目之上的，所以它应该有熟悉的感觉，而且网站兼容性问题最小。
+Brave 基于 Chromium 网页浏览器项目，因此使用起来应该很熟悉，且几乎不会出现网站兼容性问题。
 
 [:octicons-home-16: 官网](https://brave.com){ .md-button .md-button--primary }
 [:simple-torbrowser:](https://brave4u7jddbv7cyviptqjc7jusxh72uik7zt6adtckl5f4nwy2v72qd.onion){ .card-link title="Onion Service" }
@@ -288,7 +288,7 @@ Brave 在从 Brave 网站下载的文件名中添加了“[推荐代码](https:/
 
 Brave 在其 [Shields](https://support.brave.com/hc/articles/360022973471-What-is-Shields) 功能中包含一些反指纹措施。我们建议在您访问的所有页面中[全局](https://support.brave.com/hc/articles/360023646212-How-do-I-configure-global-and-site-specific-Shields-settings)配置这些选项。
 
-Shields的选项可以根据需要在每个站点的基础上进行降级，但在默认情况下，我们建议设置以下内容。
+根据需要，可以针对每个站点下调 Shields 的配置级别，但默认情况下，我们的建议设置如下：
 
 <div class="annotate" markdown>
 
