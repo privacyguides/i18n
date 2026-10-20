@@ -1,6 +1,6 @@
 ---
 title: Be Mindful of Accessibility
-description: Accessibility should always be a priority in our work. To make our privacy communities welcoming to all, we must integrate it in our practice from the start.
+description: 在事務推進上，無障礙設計應該始終被放在首要考量。為了讓我們的隱私社群對所有人都充滿包容性，我們必須從一開始就將此理念融入在行動上。
 icon: fontawesome/solid/heart-circle-check
 cover: activism/banner-toolbox-tip-accessibility.webp
 ---

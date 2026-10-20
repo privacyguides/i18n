@@ -39,14 +39,14 @@ cover: activism/banner-toolbox-tip-kind.webp
 
 你應該盡可能爭取更多人及盟友組織加入你的行列，並在媒體上盡可能大力發聲。你們的運動必須具備足夠的魄力，才能吸引媒體的關注，並明確傳達出人民渴望改變且絕不退讓的訊息。
 
-每當你的訊息被忽視，而壓迫行為仍在持續時，就該**大聲點**（意義上的）。 Bring even _more_ people to the cause, until the popular discontent is so strong that they have no choice but to stop the abuse.
+每當你的訊息被忽視，而壓迫行為仍在持續時，就**加大聲量**（意義上的）。&#x8B93;_&#x66F4;&#x591A;_&#x4EBA;加入這場運動，直到民眾的不滿情緒強烈到我們所對抗的體制不得不停止迫害與濫用權勢。
 
-## More resources
+## 更多資源
 
-- [Rich resource for campaign strategy and community organizing (The Commons Social Change Library)](https://commonslibrary.org/)
+- [與運動策略與社區組織相關的各種豐富資源（The Commons 社會變革圖書館）](https://commonslibrary.org/)
 
-- [Campaign canvas template (Mobilisation Lab)](https://mobilisationlab.org/resources/campaign-canvas/)
+- [活動畫布圖範本（Mobilisation Lab）](https://mobilisationlab.org/resources/campaign-canvas/)
 
-- [Campaigning guides for activists (Activist Handbook)](https://activisthandbook.org/)
+- [行動者活動指南（行動者手冊）](https://activisthandbook.org/)
 
-- [How to do public speaking for activism (Activist Handbook)](https://activisthandbook.org/communication/public-speaking)
+- [如何進行社會運動演說（《社會運動者手冊》）](https://activisthandbook.org/communication/public-speaking)
