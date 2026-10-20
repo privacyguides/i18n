@@ -15,15 +15,15 @@ cover: activism/banner-toolbox-tip-accessibility.webp
 
 雖然這確實是值得注重的因素，但在進行隱私相關工作時，我們還應留意許多其他類型的身心障礙，以及對應的合理調整。
 
-Considering how each part of our work could be accessed more easily by everyone is essential to grow our movement, and to diversify our privacy communities.
+思考一下對於推動我們的運動發展，以及促進隱私社群的多樣化而言，要如何讓每個人更輕鬆的接觸到我們所做的事。
 
-Ethically, it's also just the right thing to do, and should be the norm everywhere.
+在道德上，這也是理所當然的做法，理應化作常規、普及各界。
 
-### Visual, auditory, and other sensorial accessibility
+### 視覺、聽覺及其他感官方面的無障礙
 
-Anytime you are using images, audio, or any other sensorial elements in your advocacy work, you should always make sure to follow best practices to ensure your content will be accessible to people with visual, auditory, or other sensorial impairments.
+無論何時，在倡議工作中使用圖片、音訊或其他感官元素，都應始終遵循最佳實踐方式（best practices），藉以確保您的內容讓視力、聽力或其他感官障礙者順利接觸和使用。
 
-- [x] If you use images in your websites or social media posts, make sure to always add proper [alt text](https://abilitynet.org.uk/resources/digital-accessibility/five-golden-rules-compliant-alt-text) to describe the information the image represents. Keep in mind visitors that might be using a [screen reader](https://en.wikipedia.org/wiki/Screen_reader).
+- [x] 如果您在網站或社群媒體貼文中使用圖片，請務必在每一次都加上適當的 [替代文字](https://abilitynet.org.uk/resources/digital-accessibility/five-golden-rules-compliant-alt-text)，以描述該圖片呈現的資訊。請留意你的讀者可能是使用 [螢幕閱讀器](https://en.wikipedia.org/wiki/Screen_reader)在瀏覽。
 
 - [x] 在設計網站、海報、傳單或小誌時，請務必考量視障人士、弱視者、色盲者及其他視覺障礙者的 [視覺無障礙](https://webdesign.tutsplus.com/accessibility-basics-designing-for-visual-impairment--cms-27634a) 需求。
 
@@ -33,7 +33,7 @@ Anytime you are using images, audio, or any other sensorial elements in your adv
 
 - [x] 無論您是在製作內容或籌辦活動時，都請務必顧及感官障礙者或[感官敏感者](https://accessforallllc.com/sensory-and-cognitive-accessibility/)的需求。
 
-### 網站無障礙設計
+### 網站設計方面的無障礙
 
 若您在隱私權相關事務中開發網站，請務必遵循國際網路無障礙標準。
 
@@ -45,7 +45,7 @@ Anytime you are using images, audio, or any other sensorial elements in your adv
 
 - [x] 如果你的組織有足夠預算，建議聘請一位 [網頁無障礙顧問](https://accessibilityinnovations.com/blogs/web-accessibility-consultant/)。
 
-### 全球可及性
+### 全球與跨國方面的無障礙
 
 無論您是用英文撰寫貼文、文章，還是整個網站，都請謹記：您的受眾很可能來自世界各地。
 
@@ -59,23 +59,23 @@ Anytime you are using images, audio, or any other sensorial elements in your adv
 
 - [x] 在邀請他人參加活動時，請考慮到有不同時區的人可能會讀到你的邀請函。若你的活動是在線舉辦，請務必在公告時間中註明 [時區](https://www.timeanddate.com/time/map/)。若您的活動是實體見面進行，請務必完整註明活動地點，包含國家與地區（[&#x8ACB;_&#x4E0D;&#x8981;_&#x50C5;列出城市名稱](https://www.roughmaps.com/destinations/20-places-around-the-world-that-share-the-same-name/22)）。
 
-### Physical accessibility
+### 肢體方面的無障礙
 
-When organizing events and meetups in person, it's essential to keep in mind physical accessibility for people with mobility challenges of all kind. This includes accessibility around the venue, but also on the journey to the venue.
+在籌辦實體活動與聚會時，務必將各類行動不便者的通行需求納入考量。不僅包括場地周遭的無障礙設施，也涵蓋前往場地途中的。
 
-- [x] Ensure the venue you select is [accessible for people using wheelchairs](https://sites.augsburg.edu/events/policies/accessible-events/accessible-event-planning-guide/). Check that there is access to an elevator if it's on an upper floor, that there are access ramps and automatic doors if required, and that doorways and hallways are wide enough to accommodate a wheelchair.
+- [x] 請確保您選擇的場地[適合輪椅使用者進出](https://sites.augsburg.edu/events/policies/accessible-events/accessible-event-planning-guide/)。若地點位於高樓層，請確認是否有電梯可供使用；如有需要，請確認是否設有無障礙坡道及自動門；並請確認門口及走廊的寬度是否足夠輪椅通行。
 
-- [x] Make certain that there will be enough comfortable seating for your guests, and that seating and eating areas will be accessible to guests using wheelchairs or other mobility aids.
+- [x] 請確保為您的賓客準備足夠且舒適的座位，並確保座位區及用餐區對使用輪椅或其他行動輔具的賓客而言皆容易使用。
 
-- [x] Check that there are wheelchair-accessible bathrooms nearby.
+- [x] 請確認附近是否有無障礙廁所。
 
-- [x] Evaluate the accessibility of the transit options available to reach the venue you select, including specialized transits for people who are using wheelchairs, or other types of mobility aids. Publish a map of the transit accesses around your venue.
+- [x] 評估前往您所選場地時，各項大眾運輸選項的無障礙程度，包括專為使用輪椅或其他行動輔具人士設計的運輸服務。請發布一張有場地周邊大眾運輸站點的地圖。
 
-- [x] Research if your venue has access to parking and accessible parking spots. Publish this information with your invitation.
+- [x] 請仔細確認活動場地是否設有停車場及無障礙停車位。並將相關資訊與邀請函一併發布。
 
-- [x] Verify the venue you select is accessible to people with visual or auditory impairments. For example, check if elevators are marked with Braille or raised letters, and make sure that hosts are informed on how to communicate with guests who are deaf or hard of hearing.
+- [x] 請確認您選擇的場地是否適合視力或聽力障礙者使用。例如，請確認電梯上是否標有點字或凸起字體，並確保接待人員了解如何與聽障或重聽的賓客溝通。
 
-### Health accessibility
+### 醫療保健方面的無障礙
 
 In-person accessibility isn't just about mobility. Accessibility is also important to consider for a variety of health conditions, including people who are vulnerable to infectious diseases, or require other accommodations related to their health.
 
@@ -91,7 +91,7 @@ In-person accessibility isn't just about mobility. Accessibility is also importa
 
 - [x] Provide training for hosts and event volunteers to make sure they are aware of available accommodations, and can give helpful information upon request.
 
-### Dietary accessibility
+### 飲食方面的無障礙
 
 If your event provides meals, snacks, or drinks, make sure to prepare well in-advance to consider the potential dietary restrictions of your guests.
 
@@ -109,7 +109,7 @@ If your event provides meals, snacks, or drinks, make sure to prepare well in-ad
 
 - [x] Provide all this information in advance with your invitation, so that guests can evaluate properly if the event is accessible to them.
 
-### Safety accessibility
+### 安全方面的無障礙
 
 Safety is also an important aspect of accessibility. Everyone has a unique threat model, and, for a variety of reasons, some people might be at an elevated risk to their physical safety when going to and participating in an event in person.
 
@@ -123,7 +123,7 @@ Safety is also an important aspect of accessibility. Everyone has a unique threa
 
 - [x] Implement a clear [Photo Policy](https://events.ccc.de/congress/2025/infos/privacy.html#photo-policy) for your event, and forbid all nonconsensual photos. You can also provide "No Photos" or "Photos OK" stickers, buttons, or lanyards for guests upon arrival. That way, guests can explicitly opt out of being photographed at your event if they prefer not to. If your event hired an official photographer, make sure they are careful to never take photos that include people wearing these badges. Ideally, limit event photos to a minimum, and only take photos of people after asking for their explicit consent first.
 
-### Financial accessibility
+### 經濟方面的無障礙
 
 Another aspect of accessibility that is often overlooked is financial accessibility. Sadly, many people are unable to access certain events due to financial limitations, even if it would be very helpful to them to network and meet privacy advocacy peers. When you organize an event, be mindful of providing options to increase financial accessibility.
 
@@ -137,17 +137,17 @@ Another aspect of accessibility that is often overlooked is financial accessibil
 
 - [x] Provide contact information for people who would like to request free or cheaper access, or discuss their unique situation with you.
 
-### Beginners accessibility
+### 初學者方面的無障礙
 
-[Welcoming beginners](tip-welcome-beginners.md) is crucial in all the work we do. To keep your content and events accessible to beginners, it's important to be mindful of the language you use, the ways you present content, and the places where you promote your events.
+[歡迎初學者](tip-welcome-beginners.md) 是我們所有事務當中至關重要的一環。要讓初學者也能輕鬆接觸您的內容跟活動，請務必留意語言使用、內容呈現方式，以及活動宣傳管道。
 
-- [x] Always explain acronyms with whole words before only using the letters only.
+- [x] 務必在先用全稱或完整詞語解釋過後才用縮寫。
 
-- [x] Be careful when using jargon, try to be explicit and use simple words and analogies.
+- [x] 使用術語或專有名詞時請謹慎，盡量意思明確並使用簡單的詞彙、運用易懂的比喻。
 
-- [x] Beware of gatekeeping. Try to stay aware of newcomers that might be quiet or isolated from the group. [Be inclusive](tip-keep-your-posts-and-community-inclusive.md) and invite them to participate.
+- [x] 謹防排擠。請多留意可能較沉默或尚未融入團體的新成員。[展現包容精神](tip-keep-your-posts-and-community-inclusive.md)，並邀請他們參與。
 
-- [x] Specify that your event welcomes beginners.
+- [x] 請明確指出您的活動歡迎初學者參加。
 
 - [x] Be mindful of advertising your event in places where potential newcomers might see it. Be careful about not inviting people only from places reaching out to people who are already part of the privacy community.
 
