@@ -1,15 +1,15 @@
 ---
-title: Make It Cute
-description: If you are developing a privacy-focused application or website, it's important that you do not neglect the design aspect of it. Make it cute!
+title: 讓它變可愛
+description: 如果您正在開發一款以隱私為核心的應用程式或網站，切勿忽視設計層面。讓它變得可愛一點吧！
 icon: fontawesome/solid/cat
 cover: activism/banner-toolbox-tip-cute.webp
 ---
 
-If you are developing a privacy-focused application or website, it's important that you **do not neglect the design** aspect of it. This is a common mistake that can have a significant negative impact on adoption by a general audience. Make it cute!
+如果您正在開發一款以隱私為核心的應用程式或網站，**千萬不要忽視設計層面**。這是人們常犯的錯誤，可能會對普羅大眾的接受度造成顯著的負面影響。把它變可愛吧！
 
-Here's why you should make your design appealing and accessible to everyone:
+以下是您該讓設計同時具吸引力，又讓所有人都容易使用的原因：
 
-## What happens when your app is ugly
+## 當你的 App 很醜時會怎樣
 
 Quality design for User Interface (UI) and User Experience (UX) is fundamental to product adoption. Unfortunately, this is regularly neglected by developers working on privacy-focused projects. Often, this is due to lack of resources, but sometimes it's simply an oversight.
 
@@ -17,7 +17,7 @@ The problem is that if your application or website isn't appealing visually, is 
 
 When your app is ugly, fewer people want to use it, and fewer people benefit from its protections. Minimizing the importance of visual appeal and ease-of-use will only impact your goals negatively.
 
-## Beyond privacy features: Develop a product that is also accessible, functional, and cute!
+## 加在隱私功能之上：開發一款兼具易用性、實用性，外觀又可愛的產品！
 
 If you've already done your homework to build the best app for people to protect their privacy, or the best website to provide privacy advice, here are other aspects you should consider to increase your product's popularity:
 
@@ -45,12 +45,12 @@ If you've already done your homework to build the best app for people to protect
 
 </div>
 
-## More resources
+## 更多資源
 
-- [Why are cute objects so seductive (_Laura Sabau Tatar_)](https://uxdesign.cc/why-are-cute-objects-so-seductive-8de1c58bd47c)
+- [為什麼可愛的物品如此迷人 (_Laura Sabau Tatar_)](https://uxdesign.cc/why-are-cute-objects-so-seductive-8de1c58bd47c)
 
-- [The importance of User Interface (UI) and User Experience (UX) design (_Geeks for Geeks_)](https://www.geeksforgeeks.org/websites-apps/importance-of-ui-ux-design/)
+- [使用者介面（UI）與使用者體驗（UX）設計的重要性 (_Geeks for Geeks_)](https://www.geeksforgeeks.org/websites-apps/importance-of-ui-ux-design/)
 
-- [Why do open source applications often have less polished UIs than commercial software (_Darren Horrocks_)](https://www.darrenhorrocks.co.uk/why-open-source-ui-design-sucks/)
+- [為什麼開源應用程式的使用者介面往往不如商用軟體那樣精緻？（_Darren Horrocks_）](https://www.darrenhorrocks.co.uk/why-open-source-ui-design-sucks/)
 
-- [How to start with design in your open source project (_All Things Open_)](https://allthingsopen.org/articles/start-design-open-source-project)
+- [如何在您的開源專案中著手進行設計 (_All Things Open_)](https://allthingsopen.org/articles/start-design-open-source-project)

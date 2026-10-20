@@ -1,6 +1,6 @@
 ---
 title: 參與、推動與貢獻
-description: 一旦您具備了為隱私權而戰所需的知識、動力和熱情，就是時候採取行動了！ Learn more on what you can do to be a privacy activist.
+description: 一旦您具備了為隱私權而戰所需的知識、動力和熱情，就是時候採取行動了！進一步了解您可以採取哪些行動來成為一名隱私權倡議者。
 icon: fontawesome/solid/bullhorn
 cover: activism/banner-toolbox-tip-engage.webp
 ---
@@ -11,7 +11,7 @@ The most important part is that you care about privacy rights, and want to be pa
 
 Here's what you can do to become a privacy activist:
 
-## Be active! Participate and contribute!
+## 動起來！參與並貢獻心力！
 
 Being a privacy activist means actively taking part in the movement to protect and improve fundamental privacy rights for everyone.
 
@@ -30,19 +30,19 @@ If you find one way doesn't really work for you, and you get tired or bored quic
 
 Perhaps you like to write, to draw, to record videos, or to build applications? Or maybe you prefer to engage with people directly, and become involved in the more social part of privacy advocacy? This can all be incredibly valuable contributions to the movement.
 
-Ask yourself these questions:
+問問自己以下的問題：
 
-- [ ] What do I enjoy doing that could also be useful to the cause?
+- [ ] 有什麼我喜歡做的事，同時也對這項志業有所助益呢？
 
-- [ ] What are my interests? What do I want to learn more about?
+- [ ] 我的興趣有哪些？我想進一步了解什麼？
 
-- [ ] Which skills and social networks do I already have?
+- [ ] 我目前已經具備哪些技能和社交網絡？
 
-- [ ] How much time do I have to contribute each week?
+- [ ] 我每週需要花多少時間來參與？
 
-- [ ] Who around me shares my privacy values and could be an ally?
+- [ ] 在我身邊，誰與我有相同的隱私價值觀，並可能成為我的盟友？
 
-## Things you can do to engage, boost, and contribute
+## 您可以做到的參與、促進及貢獻
 
 Here are some ideas of what you can do to become a privacy activist in your community, and a valuable member of the privacy rights movement:
 
@@ -85,12 +85,12 @@ Here are some ideas of what you can do to become a privacy activist in your comm
 
 </div>
 
-## More resources
+## 更多資源
 
-- [What is activism? (_Activist Handbook_)](https://activisthandbook.org/theory/what-is-activism#personal-is-political)
+- [什麼是 Activism？(_行動者手冊_)](https://activisthandbook.org/theory/what-is-activism#personal-is-political)
 
-- [How to be an activist for human rights causes (_WikiHow_)](https://www.wikihow.com/Become-an-Activist)
+- [如何成為人權運動的倡議行動者 (_WikiHow_)](https://www.wikihow.com/Become-an-Activist)
 
-- [Learn to use ethical principles of persuasion (_The Community Tool Box_ (University of Kansas))](https://ctb.ku.edu/en/table-of-contents/participation/promoting-interest/principles-of-persuasion/main)
+- [學習運用符合倫理原則的說服技巧（_《社區工具箱》_（堪薩斯大學））](https://ctb.ku.edu/en/table-of-contents/participation/promoting-interest/principles-of-persuasion/main)
 
-- [Communicate your message: Making sure your message comes across (_Activist Handbook_)](https://activisthandbook.org/communication)
+- [傳達您的訊息：確保您的訊息能有效傳達 (_行動者手冊_)](https://activisthandbook.org/communication)

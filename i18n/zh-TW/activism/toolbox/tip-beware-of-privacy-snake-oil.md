@@ -9,7 +9,7 @@ In your privacy advocacy, it's essential to use and recommend tools that _reliab
 
 Here's how to evaluate privacy claims, and recommend tools that are trustworthy:
 
-## Why is there so much privacy snake oil?
+## 為什麼市面上有這麼多所謂的「隱私萬靈丹」？
 
 Regrettably, it's quite common to see businesses using privacy promises as a mere marketing strategy to reassure understandingly concerned users. But many aren't genuinely doing the work to make these promises come true.
 
@@ -19,7 +19,7 @@ Misleadingly, or fraudulently, presenting a product, service, or organization as
 
 There are many things you can learn to become more resistant to privacy washing, and become better at using and recommending genuinely privacy-preserving technologies.
 
-## How to spot privacy snake oil
+## 如何識破「隱私萬靈丹」
 
 Never trust any privacy claims at face value.
 
@@ -67,7 +67,7 @@ Here are some red flags you should always keep in mind when evaluating a privacy
 
 </div>
 
-## How to trust privacy tools and services
+## 怎麼樣信任隱私保護工具與服務
 
 You should never _completely_ trust a product, service, or organization. Additionally, your trust should always be revocable, and you should revoke it when new information comes to light that warrants it. Even privacy professional sources that you trust might not always be up-to-date.
 
@@ -113,7 +113,7 @@ With that in mind, here are some green flags you can keep in mind when evaluatin
 
 </div>
 
-## More resources
+## 更多資源
 
 - [Tool recommendations vetted by our community (_Privacy Guides_)](../../tools.md)
 

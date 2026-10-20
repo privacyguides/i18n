@@ -1,5 +1,5 @@
 ---
-title: Know Your Privacy Laws
+title: 認識關於隱私權的法規
 description: Being well-informed about the data protection regulations in your own jurisdiction can be a significant asset in your battles for better privacy rights.
 icon: fontawesome/solid/balance-scale
 cover: activism/banner-toolbox-tip-laws.webp
@@ -9,7 +9,7 @@ Being well-informed about the **data protection regulations** in your own jurisd
 
 Unfortunately, many people lucky enough to live in jurisdictions benefiting from such regulations often aren't aware of them, or of how to use them.
 
-Here's what to look for when searching information about your local privacy laws:
+以下是在查詢當地隱私法相關資訊時應注意的事項：
 
 ## Where is the data subject
 
@@ -32,7 +32,7 @@ Organizations that meet the data subject's local privacy law criteria are legall
 
 There are a lot of nuances and regional variations to this, but in general you should focus on _where_ the data subject is residing.
 
-## Finding your local regulations
+## 查詢當地法規
 
 If your jurisdiction is protected by one or more privacy laws, it should be relatively easy to find this information online.
 
@@ -57,7 +57,7 @@ While researching about your privacy protections, keep in mind that:
 
 - [ ] Your region might unfortunately not be protected by any significant privacy regulations at this time. If this is the case for you: It's time to contact your local representatives and advocate for a local privacy law!
 
-## What to look for in a privacy law
+## 在隱私法規中該看什麼
 
 Once you've found the official governmental documentation describing the data protection regulation that applies to your region, read it carefully to find:
 
@@ -89,7 +89,7 @@ Once you've found the official governmental documentation describing the data pr
 
 </div>
 
-## More resources
+## 更多資源
 
 - [Directory of comprehensive consumer privacy laws worldwide (_Privacy Guides_)](../legal/dpa-directory.md)
 

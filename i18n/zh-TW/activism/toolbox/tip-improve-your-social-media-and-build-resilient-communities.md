@@ -23,7 +23,7 @@ The more we produce content, and the more we engage with our community on these 
 
 It's a responsibility for any privacy advocates to stay true to their values, and minimize their presence on exploitive platforms as much as feasible.
 
-## Minimizing your presence on commercial social media platforms
+## 把您在商業社群媒體平台上的曝光度縮到最小
 
 Here are a few things you can start doing to reduce your contribution to Big Tech social media. This is presented on an escalating scale. Go as far as realistically possible for your situation:
 
@@ -43,7 +43,7 @@ Here are a few things you can start doing to reduce your contribution to Big Tec
 
 8. When you are ready, delete your data and close your accounts on commercial social media entirely. Before leaving permanently, make sure to post an announcement (a week before maybe) about why you are leaving and how your followers can find you on your new social network.
 
-## Embracing privacy-respectful alternatives
+## 擁抱尊重隱私的替代方案
 
 Perhaps you are already convinced to leave exploitive social media platforms for better places, but aren't sure where to go. Thankfully, there are alternatives that genuinely respect users and their privacy.
 
@@ -79,7 +79,7 @@ Here are some resources to help you learn more about this social network, and it
 
 </div>
 
-## Building resilient communities
+## 建立有韌性的社群
 
 If you decide to make the Fediverse-connected social network Mastodon your new home, you will be able to choose between a variety of servers (instances) to create your account.
 
@@ -91,7 +91,7 @@ Self-hosting your Mastodon server of course requires more time and resources. Bu
 
 This is the best way to build a community that is truly resilient, and billionaire-resistant.
 
-### Wikimedia has its own Mastodon instance!
+### 維基媒體現在也有自己的 Mastodon 站台了！
 
 As an example of an organization self-hosting its Mastodon account, the [Wikimedia Foundation](https://wikimediafoundation.org/) (the nonprofit organization hosting _Wikipedia_) has its [own](https://meta.wikimedia.org/wiki/Wikimedia.Social) Mastodon server at [wikimedia.social](https://wikimedia.social/about).
 
@@ -103,16 +103,16 @@ Additionally, this allows you to keep full control over your profile page, regar
 
 Privacy Guides does this too, of course! You can [follow _Privacy Guides_](https://mastodon.neat.computer/@privacyguides) from our own self-hosted Mastodon server 💛
 
-## More resources
+## 更多資源
 
-- [Official Mastodon website](https://joinmastodon.org/)
+- [Mastodon 官方網站](https://joinmastodon.org/)
 
-- [List of curated smaller Fediverse servers (_Fedi Garden_)](https://fedi.garden/)
+- [精選小型 Fediverse 伺服器清單 (_Fedi Garden_)](https://fedi.garden/)
 
-- [Find answers to all your questions about Mastodon and the Fediverse (_Fedi Tips_)](https://fedi.tips/)
+- [查閱關於 Mastodon 和 Fediverse 的所有問題解答 (_Fedi 小秘訣_)](https://fedi.tips/)
 
-- [Tutorial to optimize privacy and security on a Mastodon account (_Privacy Guides_)](https://www.privacyguides.org/articles/2025/07/22/mastodon-tutorial-privacy-and-security/)
+- [Mastodon 帳戶隱私與安全性改善教學 (_隱私指南_)](https://www.privacyguides.org/articles/2025/07/22/mastodon-tutorial-privacy-and-security/)
 
-- [Organizations: Tutorial to verify your Mastodon account (_Privacy Guides_)](https://www.privacyguides.org/articles/2025/07/22/mastodon-tutorial-privacy-and-security/#verifying-yourself-and-others)
+- [組織：您的 Mastodon 帳戶驗證教學 (_隱私權指南_)](https://www.privacyguides.org/articles/2025/07/22/mastodon-tutorial-privacy-and-security/#verifying-yourself-and-others)
 
-- [Organizations and Writers: Tutorial to attribute your articles to your Mastodon account, including when others share links on the network (_Privacy Guides_)](https://www.privacyguides.org/articles/2025/07/22/mastodon-tutorial-privacy-and-security/#author-attribution-for-journalists-and-writers)
+- [組織與作者：將文章聯至您的 Mastodon 帳戶的教學指南，包括當他人於該平台分享連結時的情況 (_隱私權指南_)](https://www.privacyguides.org/articles/2025/07/22/mastodon-tutorial-privacy-and-security/#author-attribution-for-journalists-and-writers)

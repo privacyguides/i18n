@@ -11,7 +11,7 @@ To give actionable privacy advices and recommendations, it's essential to **keep
 
 Here's how you can get better at evaluating each person's unique [_threat model_](../../basics/threat-modeling.md):
 
-## What is a threat model?
+## 什麼是威脅模型？
 
 We regularly use the term "threat model" in cybersecurity and data privacy. This might sound obscure at first if you haven't seen it before, but it's quite simple: A threat model is an evaluation of what is dangerous for a certain person (or entity) in a given situation, and what protective measures should be prioritized.
 
@@ -19,7 +19,7 @@ For example, if you leave near the equator, polar bears might not be an importan
 
 Similarly, when you choose privacy protections for yourself or for others, you should first ask a few questions to understand better what information you are trying to protect, from whom, and in which context.
 
-## What questions to ask?
+## 該問些什麼問題？
 
 To establish a threat model, ask the following questions:
 
@@ -57,7 +57,7 @@ Ask, rinse, and repeat for each type of information. The answers to these questi
 
 </details>
 
-## Respect people's choices when it comes to their own privacy, even if they are different from yours
+## 在涉及個人隱私的問題上，請尊重他人的選擇，就算這些選擇跟你的不一樣
 
 When advising others on data privacy, it's easy to get carried away and forget that other people might have different threat models from our own.
 
@@ -67,8 +67,8 @@ Of course, this might be a different story if their decision also affects the da
 
 To be a good privacy advocate is to provide information and support when needed. But ultimately, privacy is about deciding what one is comfortable sharing about themselves or not. We can only choose this for ourselves, not for others.
 
-## More resources
+## 更多資源
 
-- [More detailed information on threat modeling (_Privacy Guides_)](../../basics/threat-modeling.md)
+- [有關威脅模型建模的更多詳細資訊（_隱私權指南_）](../../basics/threat-modeling.md)
 
-- [Examples of common threats (_Privacy Guides_)](../../basics/common-threats.md)
+- [常見的威脅範例 (_隱私權指南_)](../../basics/common-threats.md)

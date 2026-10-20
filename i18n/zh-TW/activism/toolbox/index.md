@@ -440,7 +440,7 @@ Once you have the knowledge, motivation, and energy, it's time to act! Perhaps y
 
 ![Raised fist icon](../../assets/img/activism/icons/icon-tips/icon-tips-organize.webp){class="toolbox-tip-icon"}
 
-If you've been a privacy advocate for a while, maybe it's time to level up and grow as a leader in your community. Becoming a leader can mean starting a local group, or initiating bigger projects online. Learn more about how to become a _good_ leader in the privacy rights movement.
+如果你長期以來一直致力於捍衛隱私權，或許現在正是時候更上一層樓，在你的社群中成為一名領導者。 Becoming a leader can mean starting a local group, or initiating bigger projects online. Learn more about how to become a _good_ leader in the privacy rights movement.
 
 更多資訊 :material-arrow-right-drop-circle:
 {align=right}

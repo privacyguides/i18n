@@ -1,5 +1,5 @@
 ---
-title: Lift Your Allies Up
+title: 提攜你的盟友
 description: The battle for privacy rights is difficult, and its defenders are scattered. This is why it's essential to support and uplift each other, every time we can.
 icon: fontawesome/solid/hand-holding-hand
 cover: activism/banner-toolbox-tip-lift.webp
@@ -11,7 +11,7 @@ The battle for privacy rights is difficult, and its defenders are scattered and 
 
 Here's how you can lift your allies up, and help to grow the movement:
 
-## Your allies share your goals
+## 你的盟友與你擁有共同的目標
 
 It's easy to get lost in our own niche advocacy, and lose track of what others in our community are working on.
 
@@ -59,7 +59,7 @@ There are infinite ways to lift your allies up. Here are some ideas to get you s
 
 </div>
 
-## More resources
+## 更多資源
 
 - [Bits of Freedom & Privacy Guides partnership announcement (_Privacy Guides_)](https://www.privacyguides.org/posts/2025/10/08/privacy-guides-bits-of-freedom-partnering-to-enhance-fixjeprivacy-nl/)
 

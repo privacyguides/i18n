@@ -1,6 +1,6 @@
 ---
-title: Migrate Outside The Surveillance Ecosystem
-description: As privacy activists, it's important to lead by example and support the tools and organizations with good privacy practices, by moving away from Big Tech.
+title: 從監控的生態系中打包走人
+description: 身為隱私權倡議者，我們必須以身作則，並透過遠離科技巨頭，支持有著良好隱私權實踐的工具與組織。
 icon: fontawesome/solid/arrow-right-from-bracket
 cover: activism/banner-toolbox-tip-migrate.webp
 ---
@@ -9,7 +9,7 @@ As privacy activists, it's not only important to support the tools and organizat
 
 Here's why and how to move away from Big Tech and embrace alternatives:
 
-## The cost of using Big Tech in our privacy work
+## 在隱私權相關工作中使用科技巨頭產品所付出的代價
 
 While using the most popular mainstream tools and platforms for our work might seem efficient at first, there can be an immense cost to it, if these tools and platforms aren't aligned with our privacy values.
 
@@ -25,17 +25,17 @@ While using the most popular mainstream tools and platforms for our work might s
 
 <div class="emoji-list-a" markdown>
 
-1. The first drawback is that by using products that are antithetical to our values, we are directly participating in sustaining anti-privacy corporations and contributing to [surveillance capitalism](../../basics/common-threats.md/#surveillance-as-a-business-model).
+1. 第一個缺點在於，當我們使用與自身價值觀背道而馳的產品時，便等於直接參與維持反隱私企業的運作，並助長了[監控資本主義](../../basics/common-threats.md/#surveillance-as-a-business-model)的發展。
 
-2. The second drawback is that simply by using Big Tech tools, we are indirectly promoting the usage of services that are horrible for everyone's privacy.
+2. 第二個缺點在於，光是使用大型科技公司的工具，我們就間接助長了那些對所有人隱私極為不利的服務的使用。
 
-3. The third drawback is that if we use these tools in our action and communications, we are then endangering the data of others who rely on our expertise to keep their data safe. They might think: "If this privacy advocate asks me to fill a Google form, it's probably safe enough to use Google products for sensitive data."
+3. 第三個缺點在於，若我們在實際行動與溝通中使用這些工具，便會危及那些仰賴我們的專業知識來保障其資料安全的人士的資料。 They might think: "If this privacy advocate asks me to fill a Google form, it's probably safe enough to use Google products for sensitive data."
 
    With great _knowledge_ comes great responsibility. We must protect the data people share with us, even more than we would our own.
 
-4. The fourth drawback is that, as privacy activists, demanding that others use tools violating their privacy rights to communicate with us can damage our credibility, and have a negative impact on the whole community. Observers might think: "If all these privacy advocates use Facebook groups, why should I listen when they recommend that I move away from Facebook?"
+4. 第四個缺點在於，身為隱私權倡議者，若要求他人使用侵犯其隱私權的工具與我們溝通，可能會損害我們的公信力，並對整個社群造成負面影響。 Observers might think: "If all these privacy advocates use Facebook groups, why should I listen when they recommend that I move away from Facebook?"
 
-5. Finally, the fifth drawback is that we need to be _leading by example_ and demonstrate that it **is** possible to live a connected life without using privacy-invasive tech.
+5. 最後，第五個缺點在於，我們需&#x8981;_&#x4EE5;身作則_，並證明在不使用侵犯隱私的技術的情況下，**確實**也能夠過著互聯的生活。
 
    Because a better world _is_ actually possible, right now. It might not be as easy and as convenient, but it's certainly possible to thrive outside the Big Tech surveillance apparatus, especially for privacy activists and digital rights organizations.
 
@@ -43,24 +43,24 @@ While using the most popular mainstream tools and platforms for our work might s
 
 </div>
 
-## How to migrate away from privacy-harmful tools and choose better alternatives
+## 如何擺脫損害隱私的工具，並選擇更好的替代方案
 
 <div class="admonition question inline end" markdown>
-<p class="admonition-title">What is the best tool?</p>
+<p class="admonition-title">最好的工具室什麼？</p>
 
 For each proposed alternative, you should always first consider your own [threat model](../../basics/threat-modeling.md). One tool might be ideal for one person or organization, but another tool might be better for another. Make sure to understand well your threat model in order to choose the tools that are the best for your unique situation.
 
 </div>
 
-There are two good news about this:
+關於這件事，有兩則好消息：
 
-- First, there are many wonderful alternatives that already exist to support all kind of tasks, and that will preserve your privacy and the privacy of the people you communicate with.
+- 首先，現今已有許多出色的替代方案，不僅能支援各類任務，還能保障您與通訊對象的隱私。
 
-- Second, you don't have to do it all at once! Start your migration process slowly, but be persistent about it over the whole year.
+- 其次，你不必全部一次到位！請循序漸進地展開搬遷，但務必持續下去。
 
-Here's a list of alternative solutions you can start adopting to improve data privacy in your advocacy work:
+以下是一份替代方案清單，您可以開始採用這些方案，以提升倡議工作中的資料隱私：
 
-### For individuals and organizations
+### 對於個人及組織
 
 <style>
 .emoji-list-b ul {
@@ -119,12 +119,12 @@ Here's a list of alternative solutions you can start adopting to improve data pr
 
 </div>
 
-## More resources
+## 更多資源
 
-- [Alternatives to Big Tech that have been vetted by our community (_Privacy Guides_)](../../tools.md)
+- [經我們社群審核過的大型科技公司替代方案 (_隱私指南_)](../../tools.md)
 
-- [Privacy-respecting European tech alternatives (_Privacy Guides_)](https://www.privacyguides.org/articles/2025/03/19/private-european-alternatives/)
+- [尊重隱私的歐洲式科技替代方案 (_隱私指南_)](https://www.privacyguides.org/articles/2025/03/19/private-european-alternatives/)
 
-- [Helpful articles and tips to migrate out of Big Tech (_The Opt Out Project_)](https://www.optoutproject.net/)
+- [關於脫離大型科技公司的實用文章與建議 (_The Opt Out Project_)](https://www.optoutproject.net/)
 
-- [More advices on how to improve your privacy if you are just getting started (_Privacy Guides_)](https://www.privacyguides.org/articles/2025/07/24/privacy-is-like-broccoli/#tools-and-services-you-can-start-using)
+- [若您剛開始接觸這方面，這些是關於如何提升隱私保護的建議 (_隱私指南_)](https://www.privacyguides.org/articles/2025/07/24/privacy-is-like-broccoli/#tools-and-services-you-can-start-using)

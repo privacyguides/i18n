@@ -1,6 +1,6 @@
 ---
 title: 將功勞歸給應得之人
-description: To succeed with our movement to defend privacy rights, we must support each other. One good way to do this is to give credit where credit is due.
+description: 要讓捍衛隱私權的運動取得成功，我們就必須互相支持。互相支持的一個好方法，就是對功勞給予其應有的肯定。
 icon: fontawesome/solid/thumbs-up
 cover: activism/banner-toolbox-tip-credit.webp
 ---
@@ -9,7 +9,7 @@ To succeed in our battle, we must **support each other**. One good way to accomp
 
 Here are a few ways you can help your allies feel seen and valued:
 
-## Why crediting people and organization is important
+## 為什麼給予個人和組織應有的肯定很重要
 
 Giving credit to the right person or organization isn't only the ethical thing to do, it's also a way to **build alliances**, to bring more people to the cause, and to retain the allies you already have.
 
@@ -17,7 +17,7 @@ When people feel valued, they are usually inclined to work harder. People are al
 
 When giving credit to organizations, you are also making a whole team feel valued. Organizations are made of people, after all. Caring about the people who work hard at your allied organizations is fundamental to build our movement.
 
-## Ways to credit your allies in your advocacy work
+## 在倡議工作中向盟友同伴致謝的方法
 
 <style>
 .emoji-list-a ul {
@@ -47,7 +47,7 @@ When giving credit to organizations, you are also making a whole team feel value
 
 </div>
 
-## More resources
+## 更多資源
 
 - [3 ways to use recognition to boost performance and engagement (_HumanResourceMag_)](https://www.humanresourcemag.com/news/277/3-ways-to-use-recognition-to-boost-performance-and-engagement)
 
