@@ -1,4 +1,4 @@
-*[2FA]: 이중 인증
+*[2FA]: 2FA 인증 (2단계 인증)
 *[ADB]: Android 디버그 브리지
 *[AOSP]: Android 오픈소스 프로젝트
 *[ATA]: 고급 기술 결합(Advanced Technology Attachment)

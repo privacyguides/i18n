@@ -85,6 +85,6 @@ There are many things you can do to keep your community inclusive and diverse. H
 
 - [Navigating differences in identity, ideology, and experience (_Museum of Protest_)](https://museumofprotest.org/guides/guide-navigating-differences/)
 
-- [How to make your social justice event accessible (_The Commons Social Change Library_)](https://commonslibrary.org/how-to-make-your-social-justice-event-accessible/)
+- [如何讓您的社會正義活動更容易接觸 (_The Commons 社會變革圖書館_)](https://commonslibrary.org/how-to-make-your-social-justice-event-accessible/)
 
 - [Diversity, equity, and inclusion resources and tools (_Nonprofit Learning Lab_)](https://www.nonprofitlearninglab.org/dei)

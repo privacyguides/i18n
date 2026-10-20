@@ -1,13 +1,13 @@
 ---
-title: Be Mindful of Accessibility
+title: 把無障礙的觀念放在心上
 description: 在事務推進上，無障礙設計應該始終被放在首要考量。為了讓我們的隱私社群對所有人都充滿包容性，我們必須從一開始就將此理念融入在行動上。
 icon: fontawesome/solid/heart-circle-check
 cover: activism/banner-toolbox-tip-accessibility.webp
 ---
 
-**無障礙**是 [包容性](tip-keep-your-posts-and-community-inclusive.md) 不可或缺的一環，也應始終是我們志業中的優先事項。若要讓我們的隱私社群對所有人來說都充滿包容性，無障礙設計就不能只是事後才考慮的環節。我們必須從一開始就將其融入我們的實踐中。也就是說，必須確保我們所使用的語言、視覺元素、工具及場地，能讓盡可能多的人都能輕鬆使用。
+**無障礙**是 [包容性](tip-keep-your-posts-and-community-inclusive.md) 不可或缺的一環，也應始終是我們志業中的優先事項。若要讓我們的隱私社群對所有人來說都充滿包容性，無障礙設計就不能只是事後才考慮的問題。我們必須從一開始就將其融入實踐之中。也就是說，必須確保我們所使用的語言、視覺元素、工具及場地，能讓盡可能多的人輕鬆使用。
 
-以下是一些你我都能做到，對隱私議題、對社群都會有所助益的事項：
+以下是一些你我都能做到，對隱私議題、對社群發展改善都有所助益的事項：
 
 ## 人人皆應在各方各面享有無障礙
 
@@ -77,65 +77,65 @@ cover: activism/banner-toolbox-tip-accessibility.webp
 
 ### 醫療保健方面的無障礙
 
-In-person accessibility isn't just about mobility. Accessibility is also important to consider for a variety of health conditions, including people who are vulnerable to infectious diseases, or require other accommodations related to their health.
+實體現場的無障礙不只關乎行動便利性。也關乎健康狀況各異的人們。包括容易感染傳染病的人士，或是因健康因素而需要其他特殊安排的人士。
 
-- [x] Designate a trained person responsible for accessibility, and share their contact information in advance. That way, people will be able to contact this person if they have any questions before or during the event.
+- [x] 指定一名受過培訓的人員負責無障礙事宜，並預先將他的聯絡方式提供出來。這樣一來，若有人在活動前或活動中有任何疑問，便能聯絡到他。
 
-- [x] Encourage your participants to wear a mask, and try to select a venue with adequate ventilation to minimize the risks for people who are [vulnerable to respiratory infections](https://health.clevelandclinic.org/superspreader-events). If food is served, try to select a venue with an area allowing to consume food outside.
+- [x] 請鼓勵參與者佩戴口罩，並盡量選擇通風良好的場地，降低[呼吸道感染](https://health.clevelandclinic.org/superspreader-events)的風險。如果會提供餐點，請盡量選擇設有戶外用餐區的場地。
 
-- [x] Make sure to bring a few boxes of [protective face masks](https://health.clevelandclinic.org/do-masks-work) to your event that guests can use for free. That way, people who might be at risk in dense crowd can decide to wear a mask once they arrived, or if they forgot to bring their own.
+- [x] 請務必在活動現場準備幾盒 [防護口罩](https://health.clevelandclinic.org/do-masks-work)免費供來賓使用。如此一來，高風險族群者面對擁擠的人潮卻忘記自備口罩時，就有口罩能戴。
 
-- [x] Try to prepare an area in your venue, or near your venue, where people can rest comfortably in a [quiet space](https://eventwell.org/ensuring-inclusive-events-the-importance-of-supervising-quiet-spaces-for-neurodivergent-attendees-and-vulnerable-adults/), if they feel tired or overstimulated during the event.
+- [x] 請嘗試在活動場地內或附近規劃一處區域，讓參與者在活動期間若感到疲倦或過度刺激時，能夠在[安靜空間](https://eventwell.org/ensuring-inclusive-events-the-importance-of-supervising-quiet-spaces-for-neurodivergent-attendees-and-vulnerable-adults/)中舒適地休息。
 
-- [x] Promote a [scent-free](https://www.chrc-ccdp.gc.ca/resources/publications/environmental-sensitivities-and-scent-free-policies) environment to make your event welcoming to people who have scent allergies, environmental sensibilities, or other health conditions that can be affected by scents.
+- [x] 盡可能營造 [無香](https://www.chrc-ccdp.gc.ca/resources/publications/environmental-sensitivities-and-scent-free-policies) 環境，讓有氣味過敏、環境敏感或其他可能受氣味影響健康狀況的人也能對活動感到賓至如歸。
 
-- [x] Provide training for hosts and event volunteers to make sure they are aware of available accommodations, and can give helpful information upon request.
+- [x] 培訓活動主辦方及志工，確保他們了解現有的無障礙設施，並能在回應詢問時提供實用的資訊。
 
 ### 飲食方面的無障礙
 
-If your event provides meals, snacks, or drinks, make sure to prepare well in-advance to consider the potential dietary restrictions of your guests.
+若您的活動提供正餐、點心或飲料，請務必提前做好充分準備，並避免來賓可能忌口的餐點。
 
-- [x] List clearly what types of food and drinks with be served (or available) at the event.
+- [x] 請清楚列出活動中將提供（或備有）哪些類型的食物和飲料。
 
-- [x] Provide contact information for people to reach out in advance if they have special dietary requirements or requests that have not already been addressed.
+- [x] 請提供聯絡資訊，以便民眾若有多項特殊飲食需求時，能預先聯絡相關人員。
 
-- [x] Try to provide food and beverages that will cover a variety of dietary needs, such as vegan, nut-free, gluten-free, lactose-free, alcohol-free, or low-sugar options.
+- [x] 請盡量提供能滿足各種飲食需求的餐點與飲品，例如純素、無堅果、無麩質、無乳糖、無酒精或低糖等選項。
 
-- [x] If you host a large event, consider keeping a few [epinephrine autoinjectors](https://greatergood.com/blogs/news/epinephrine-public-areas) available on site in your emergency kit, in case anyone experiences a dangerous allergic reaction.
+- [x] 若您主辦大型活動，請考慮在現場的急救包中備妥幾支 [腎上腺素自動注射器](https://greatergood.com/blogs/news/epinephrine-public-areas)，以防有人出現緊急的過敏反應。（譯註：在臺灣，法規將其列為處方藥品。請另尋求醫事人員建議參酌此項。）
 
-- [x] Make sure guests will have access to free and clean water, especially if your event is scheduled during a heat wave.
+- [x] 請確保賓客能取得免費且乾淨的飲用水，尤其是在活動安排於熱浪期間舉行時。
 
-- [x] Ensure there is a quiet and private room available for anyone who might be breastfeeding.
+- [x] 請確保為可能需要哺乳的任何人提供一間安靜且有隱私的哺集乳室。
 
-- [x] Provide all this information in advance with your invitation, so that guests can evaluate properly if the event is accessible to them.
+- [x] 請在發出邀請時一併提供上述所有資訊，以便賓客能妥善評估該活動是否適合他們參加。
 
 ### 安全方面的無障礙
 
-Safety is also an important aspect of accessibility. Everyone has a unique threat model, and, for a variety of reasons, some people might be at an elevated risk to their physical safety when going to and participating in an event in person.
+安全性也是無障礙設計的一個重要面向。每個人面臨的威脅模式各異，且基於各種原因，部分人士在實際前往參與時，可能會有人身安全上的風險。
 
-- [x] Implement a [Code of Conduct](https://oshwa.org/resources/how-to-write-a-code-of-conduct/) for your event or community. Ensure there are clear channels to report bad behaviors, and that your Code of Conduct is enforced properly.
+- [x] 為您的活動或社群實施一份 [行為準則](https://oshwa.org/resources/how-to-write-a-code-of-conduct/)。請確保設有明確的管道以舉報不當行為，並確保《行為準則》能妥善執行。
 
-- [x] Verify that access to the bathrooms is safe and well lit at your venue.
+- [x] 請確認活動場地的洗手間安全無虞且照明充足。
 
-- [x] Make sure the venue you select is safe to access by transits or cars, and that the nearest parking lot or bus stop is well lit if the event ends late at night.
+- [x] 請確保您選擇的場地無論是搭乘大眾運輸工具或自駕前往都安全無虞，且若活動持續至深夜結束，請確認最近的停車場或公車站照明充足。
 
-- [x] If your venue is located in an area that might be more dangerous at night, consider setting up an [accompaniment service](https://www.concordia.ca/campus-life/security/services/safe-walk.html) with a set of volunteers offering to walk guests safely back to their bus stop, for example. Make this information known in advance.
+- [x] 如果您的活動場地位於夜間可能較為危險的區域，請考慮設立一項 [陪同服務](https://www.concordia.ca/campus-life/security/services/safe-walk.html)，例如由一群志工主動陪同賓客安全地步行至公車站。請預先公告這項資訊。
 
-- [x] Implement a clear [Photo Policy](https://events.ccc.de/congress/2025/infos/privacy.html#photo-policy) for your event, and forbid all nonconsensual photos. You can also provide "No Photos" or "Photos OK" stickers, buttons, or lanyards for guests upon arrival. That way, guests can explicitly opt out of being photographed at your event if they prefer not to. If your event hired an official photographer, make sure they are careful to never take photos that include people wearing these badges. Ideally, limit event photos to a minimum, and only take photos of people after asking for their explicit consent first.
+- [x] 請為您的活動制定明確的 [攝影規範](https://events.ccc.de/congress/2025/infos/privacy.html#photo-policy)，並嚴禁所有未經同意的拍攝行為。您也可以在賓客抵達時，為他們提供印有「禁止拍攝」或「拍攝 OK」的貼紙、徽章或掛帶配戴。這樣一來，若賓客不願在您的活動中被拍攝，便可明確表示不參與。如果您的活動聘請了官方攝影師，請務必確保他們謹慎行事，切勿拍攝到照片中出現佩戴這些徽章的人。理想情況下，應將活動照片的數量控制在最低限度，且在拍攝他人照片前，務必先徵得當事人的明確同意。
 
 ### 經濟方面的無障礙
 
-Another aspect of accessibility that is often overlooked is financial accessibility. Sadly, many people are unable to access certain events due to financial limitations, even if it would be very helpful to them to network and meet privacy advocacy peers. When you organize an event, be mindful of providing options to increase financial accessibility.
+無障礙議題中常被忽略的另一個面向，便是經濟上的無障礙。遺憾的是，許多人因經濟能力有限而無法參與某些活動，即使這些活動對於他們建立人脈與結識隱私權倡導同伴而言，都大有裨益。在籌辦活動時，請務必提供各種選項，以避免參與者遭到經濟能力上的排擠。
 
-- [x] Try to keep your events free or partly free whenever possible, while remaining vigilant about accepting money from [financial sponsors](https://www.privacyguides.org/articles/2025/09/03/red-and-green-privacy-flags/#donations-event-sponsorships-and-other-revenues) that could be in contradiction with your privacy values.
+- [x] 請盡可能讓您的活動免費或部分免費，同時務必謹慎對待由 [資金贊助商](https://www.privacyguides.org/articles/2025/09/03/red-and-green-privacy-flags/#donations-event-sponsorships-and-other-revenues) 提供的資源與資金，以免與您的隱私價值觀產生衝突。
 
-- [x] Reserve a quantity of free tickets for people with more severe limitations.
+- [x] 為身心障礙程度較嚴重的人士預留一定數量的免費門票。
 
-- [x] Offer discounts for students or unemployed peers.
+- [x] 為學生或失業的同儕提供折扣。
 
-- [x] Create opportunities for part-time volunteering, where people can offer to help a little, then participate in the rest of the event for free.
+- [x] 創造兼職志工的機會，讓參與者可以提供一些協助，之後免費參加活動的其餘環節。
 
-- [x] Provide contact information for people who would like to request free or cheaper access, or discuss their unique situation with you.
+- [x] 請提供聯絡資訊，供有意申請免費或優惠服務，或希望與您討論其特殊情況的人士使用。
 
 ### 初學者方面的無障礙
 
@@ -149,18 +149,18 @@ Another aspect of accessibility that is often overlooked is financial accessibil
 
 - [x] 請明確指出您的活動歡迎初學者參加。
 
-- [x] Be mindful of advertising your event in places where potential newcomers might see it. Be careful about not inviting people only from places reaching out to people who are already part of the privacy community.
+- [x] 記得在潛在的參與者會觸及的地方宣傳您的活動。請注意，不要只邀請已在隱私議題相關社群之內的人，也要主動接觸尚不熟悉議題的群體。
 
-## More resources
+## 更多資源
 
-- [How to make your social justice event accessible (_The Commons Social Change Library_)](https://commonslibrary.org/how-to-make-your-social-justice-event-accessible/)
+- [如何讓您的社會正義活動更容易接觸 (_The Commons 社會變革圖書館_)](https://commonslibrary.org/how-to-make-your-social-justice-event-accessible/)
 
-- [Make your event accessible and inclusive (_Park People_)](https://parkpeople.ca/make-your-event-accessible-and-inclusive/)
+- [讓您的活動更具無障礙性與包容性 (_Park People_)](https://parkpeople.ca/make-your-event-accessible-and-inclusive/)
 
-- [How to host a COVID-safe party: Tips and tricks (_Party Pro_)](https://party.pro/covid/)
+- [如何舉辦有防疫安全度（COVID-safe）的派對：訣竅與技巧 (_Party Pro_)](https://party.pro/covid/)
 
-- [Dos and don'ts on designing for accessibility (UK Government)](https://accessibility.blog.gov.uk/2016/09/02/dos-and-donts-on-designing-for-accessibility/)
+- [無障礙設計的注意事項（英國政府）](https://accessibility.blog.gov.uk/2016/09/02/dos-and-donts-on-designing-for-accessibility/)
 
-- [Five golden rules for compliant alt text (_AbilityNet_)](https://abilitynet.org.uk/resources/digital-accessibility/five-golden-rules-compliant-alt-text)
+- [五項黃金法則製作符合規範的替代文字 (_AbilityNet_)](https://abilitynet.org.uk/resources/digital-accessibility/five-golden-rules-compliant-alt-text)
 
-- [Accessibility developer guide (_Access for all_)](https://www.accessibility-developer-guide.com/)
+- [無障礙開發者指南 (_Access for all_)](https://www.accessibility-developer-guide.com/)
