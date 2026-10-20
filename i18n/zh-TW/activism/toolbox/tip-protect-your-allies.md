@@ -1,64 +1,64 @@
 ---
-title: Protect Your Allies
-description: Through your privacy work, it's crucial to protect the data of your allies in all that you do, whether it's individual action or leading an organization.
+title: 保護你的盟友
+description: 在您從事隱私權相關工作時，無論是個人行動還是帶領組織，在每一步行動中，保護盟友的資料都很重要。
 icon: fontawesome/solid/shield-heart
 cover: activism/banner-toolbox-tip-protect.webp
 ---
 
-Through your privacy advocacy work, be careful to never collect or share the data of others without their prior explicit consent. It's crucial to **protect your allies' data** in all that you do, whether it's individual action, organizing an event, or leading an organization.
+在進行隱私權倡導工作時，請務必謹慎，切勿在未事先獲得他人明確同意的情況下收集或分享他人的資料。在您從事隱私權相關工作時，無論是個人行動還是帶領組織，在每一步行動中，**保護盟友的資料**都很重要。
 
-Here's what you can do to safeguard the data of your privacy comrades:
+採取以下的作法來保護盟友們的隱私資料：
 
-## Where we might collect and share the data of others
+## 我們會在何種情況下蒐集及分享他人的資料
 
-There are many ways we might collect the data of others in the course of our advocacy, sometimes without even realizing it.
+在倡議過程中，我們可能透過多種方式蒐集他人的資料，有時甚至自己都沒有察覺。
 
-It's important to develop an awareness of the data we collect and share ourselves, and protect the data of others with the greatest care. Not only is this critical for [integrity](tip-stay-true-to-your-principles.md), but it's also fundamental to build and keep the trust of our allies. This in return is essential to build and grow our movement.
+我們必須有意識到自己會蒐集和分享的資料，並以最謹慎的態度保護他人的資料。這不僅是一種[誠信](tip-stay-true-to-your-principles.md)，更是建立並維持盟友信任的基礎。反過來說，這對於建立和發展運動而言也非常必要。
 
-Here are a some examples of other people's data we might collect or share in the context of our privacy advocacy work, whether intentionally or inadvertently:
+以下的例子，即是一些我們在推動隱私權倡議工作的過程中，可能有意無意間蒐集到或分享出去的他人資料：
 
 <div class="grid" markdown>
 
 <div markdown>
 
-- [ ] Contact information (personal advocacy or professional work)
-- [ ] Donation information (including legal names, emails, and phone numbers)
-- [ ] Purchase information (including legal names and shipping addresses)
-- [ ] Mailing list email addresses
-- [ ] Email content
-- [ ] Instant messaging content
-- [ ] Forum post content
-- [ ] Login credentials
-- [ ] Internet Protocol (IP) addresses
-- [ ] Website telemetry data
-- [ ] Website cookies and fingerprinting data
-- [ ] Chatbot logs
-- [ ] Survey answers
-- [ ] Shared documents
+- [ ] 聯絡資訊（個人諮詢的或專業事務往來的）
+- [ ] 捐款資訊（包括法定姓名、電子郵件地址及電話號碼）
+- [ ] 付款資訊（包括法定名稱及收件地址）
+- [ ] 郵件清單的電子郵件地址
+- [ ] 電子郵件內容
+- [ ] 即時通訊訊息內容
+- [ ] 論壇貼文內容
+- [ ] 登入憑證
+- [ ] 網際網路協定位址（IP addresses）
+- [ ] 網站回傳資料
+- [ ] 網站的 Cookie 及指紋識別資料
+- [ ] 聊天機器人紀錄
+- [ ] 問卷調查的回答
+- [ ] 共用文件
 
 </div>
 
 <div markdown>
 
-- [ ] Shared photos and images
-- [ ] Legal names of people on work contracts or partnership agreements
-- [ ] Home addresses of people on work contracts or partnership agreements
-- [ ] Resumes and cover letters from job applicants
-- [ ] Recordings or screenshots of video or audio meetings
-- [ ] Behind-the-scene video footage from interviews
-- [ ] Videos we take during meetups, events, or protests
-- [ ] Photos we take during meetups, events, or protests
-- [ ] License plates information from event photos or event parking lot management
-- [ ] Security camera footage
-- [ ] Dietary restrictions/preferences and health information for events
-- [ ] Screenshots of people's social media posts
-- [ ] And so much more
+- [ ] 分享的照片與圖片
+- [ ] 僱傭合約或合夥協議中人員的法定姓名
+- [ ] 簽訂僱傭合約或合夥協議的人的住址
+- [ ] 求職者的履歷與求職信
+- [ ] 視訊或語音會議的錄音或截圖
+- [ ] 採訪的幕後影片片段
+- [ ] 我們在聚會、活動或抗議時拍攝的影片
+- [ ] 我們在聚會、活動或抗議時拍攝的照片
+- [ ] 從活動照片或活動停車場管理中獲取的車牌資訊
+- [ ] 監視器畫面
+- [ ] 活動相關的飲食限制／偏好及健康資訊
+- [ ] 人們在社群媒體上發文的截圖
+- [ ] 還有更多
 
 </div>
 
 </div>
 
-## How to protect the data of others
+## 如何保護他人的資料
 
 Each time we collect data from others, we become its guardian. This isn't a small responsibility, and we should always treat the data of others as [toxic asset](https://www.schneier.com/blog/archives/2016/03/data_is_a_toxic.html).
 
@@ -76,7 +76,7 @@ Regardless of the data we have to collect, we should always make sure to:
 
 4. **Delete** the data as soon as it isn't needed anymore, and ensure deletion is done thoroughly.
 
-### Some practices to normalize in our advocacy work
+### 在我們的倡議工作中應該要常態化的做法
 
 - [x] Asking for consent before sharing someone's information (legal name, location, contact information, photos, etc.).
 
@@ -100,8 +100,8 @@ Regardless of the data we have to collect, we should always make sure to:
 
 - [x] Not requiring guests to sign up for events. Making sure all the information is public, without requiring to provide any personal information in order to participate.
 
-## More resources
+## 更多資源
 
-- [Data is a toxic asset (_Bruce Schneier_)](https://www.schneier.com/blog/archives/2016/03/data_is_a_toxic.html)
+- [資料是一種有毒資產 (_Bruce Schneier_)](https://www.schneier.com/blog/archives/2016/03/data_is_a_toxic.html)
 
-- [The importance of protecting the data of others (_Privacy Guides_)](https://www.privacyguides.org/articles/2025/03/10/the-privacy-of-others/)
+- [保護他人資料的重要性 (_隱私權指南_)](https://www.privacyguides.org/articles/2025/03/10/the-privacy-of-others/)

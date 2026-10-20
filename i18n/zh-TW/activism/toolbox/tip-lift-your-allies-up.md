@@ -1,15 +1,15 @@
 ---
 title: 提攜你的盟友
-description: The battle for privacy rights is difficult, and its defenders are scattered. This is why it's essential to support and uplift each other, every time we can.
+description: 爭取隱私權的戰役艱難，而捍衛者們則分散各地。正因如此，每當有機會時，我們務必互相支持、鼓舞彼此。
 icon: fontawesome/solid/hand-holding-hand
 cover: activism/banner-toolbox-tip-lift.webp
 ---
 
-At times, it might feel like the privacy community is niche and isolated.
+有時，可能會覺得隱私倡議圈似乎是個小眾且孤立的群體。
 
-The battle for privacy rights is difficult, and its defenders are scattered and spread out all around the world. This is why it's essential that we **support and uplift each other**, every time we can.
+為隱私權而戰很艱難，而捍衛隱私權的人士則分散在世界各地。正因如此，每當有機會時，我們務必**互相支持、鼓舞彼此**。
 
-Here's how you can lift your allies up, and help to grow the movement:
+以下是您鼓舞盟友、協助推動這場運動發展的方法：
 
 ## 你的盟友與你擁有共同的目標
 
@@ -29,7 +29,7 @@ By lifting each other up, we will broaden the reach of the message we share, and
 
 In privacy advocacy, we truly need to adopt the mindset: ==The more, the merrier.==
 
-## Concrete ways to support and lift your allies up
+## 支持與鼓舞盟友的具體方法
 
 There are infinite ways to lift your allies up. Here are some ideas to get you started, whether you are an independent advocate, a digital rights organization, or a privacy-focused business:
 
@@ -61,6 +61,6 @@ There are infinite ways to lift your allies up. Here are some ideas to get you s
 
 ## 更多資源
 
-- [Bits of Freedom & Privacy Guides partnership announcement (_Privacy Guides_)](https://www.privacyguides.org/posts/2025/10/08/privacy-guides-bits-of-freedom-partnering-to-enhance-fixjeprivacy-nl/)
+- [Bits of Freedom 與隱私指南合作夥伴關係公告 (_隱私指南_)](https://www.privacyguides.org/posts/2025/10/08/privacy-guides-bits-of-freedom-partnering-to-enhance-fixjeprivacy-nl/)
 
-- [The Tor Project's allies uplifting Tor together (_Tor Project_ short video)](https://www.youtube.com/shorts/-hFNMlsePsc)
+- [Tor 專案的夥伴們齊心協力推廣 Tor (_Tor 專案_ 短片)](https://www.youtube.com/shorts/-hFNMlsePsc)
