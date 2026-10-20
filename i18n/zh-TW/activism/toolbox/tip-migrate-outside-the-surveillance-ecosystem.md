@@ -5,9 +5,9 @@ icon: fontawesome/solid/arrow-right-from-bracket
 cover: activism/banner-toolbox-tip-migrate.webp
 ---
 
-As privacy activists, it's not only important to support the tools and organizations with good privacy practices, but also to lead by example when it comes to **moving away from the surveillance ecosystem**. We cannot afford to compromise our principles simply for [convenience](https://www.privacyguides.org/articles/2025/06/07/selling-surveillance-as-convenience/).
+身為隱私權倡議者，我們不僅要支持那些具備良好隱私權實務的工具與組織，更應在**擺脫監控生態系統**上以身作則。我們絕不能僅僅為了[方便](https://www.privacyguides.org/articles/2025/06/07/selling-surveillance-as-convenience/)就妥協我們的原則。
 
-Here's why and how to move away from Big Tech and embrace alternatives:
+以下說明為什麼與要怎麼擺脫科技巨頭，以及擁抱替代方案的方法：
 
 ## 在隱私權相關工作中使用科技巨頭產品所付出的代價
 
