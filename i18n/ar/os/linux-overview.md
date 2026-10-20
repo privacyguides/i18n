@@ -100,33 +100,33 @@ description: نظام Linux هو نظام تشغيل مفتوح المصدر ل�
 
 إذا كنت تحتاج إلى ميزة السبات (hibernation) (حفظ حالة النظام على القرص)، فستظل بحاجة إلى ملف أو partition عادي. تأكّد على الأقل من [تشفير](https://wiki.archlinux.org/title/Dm-crypt/Swap_encryption) أي مساحة تبديل (swap space) موجودة على القرص، لتقليل بعض هذه المخاطر.
 
-### Proprietary Firmware (Microcode Updates)
+### البرامج الثابتة المغلقة المصدر "Proprietary Firmware" (تحديثات Microcode)
 
-Some Linux distributions (such as [Linux-libre](https://en.wikipedia.org/wiki/Linux-libre)-based or DIY distros) don’t come with the proprietary [microcode](https://en.wikipedia.org/wiki/Microcode) updates which patch critical security vulnerabilities. Some notable examples of these vulnerabilities include [Spectre](https://en.wikipedia.org/wiki/Spectre_(security_vulnerability)), [Meltdown](https://en.wikipedia.org/wiki/Meltdown_(security_vulnerability)), [SSB](https://en.wikipedia.org/wiki/Speculative_Store_Bypass), [Foreshadow](https://en.wikipedia.org/wiki/Foreshadow), [MDS](https://en.wikipedia.org/wiki/Microarchitectural_Data_Sampling), [SWAPGS](https://en.wikipedia.org/wiki/SWAPGS_(security_vulnerability)), and other [hardware vulnerabilities](https://kernel.org/doc/html/latest/admin-guide/hw-vuln/index.html).
+بعض توزيعات Linux (مثل التوزيعات المبنية على [Linux-libre](https://en.wikipedia.org/wiki/Linux-libre) أو التي تُنشئها بنفسك) لا تأتي مع تحديثات [Microcode](https://en.wikipedia.org/wiki/Microcode) المغلقة المصدر، والتي تصلح ثغرات أمنية خطيرة. من أشهر هذه الثغرات [Spectre](https://en.wikipedia.org/wiki/Spectre_(security_vulnerability)) [وMeltdown](https://en.wikipedia.org/wiki/Meltdown_(security_vulnerability)) و[SSB](https://en.wikipedia.org/wiki/Speculative_Store_Bypass) و[Foreshadow](https://en.wikipedia.org/wiki/Foreshadow) و[MDS](https://en.wikipedia.org/wiki/Microarchitectural_Data_Sampling) و[SWAPGS](https://en.wikipedia.org/wiki/SWAPGS_(security_vulnerability))، وغيرها من [الثغرات الأمنية في مكوّنات الجهاز](https://kernel.org/doc/html/latest/admin-guide/hw-vuln/index.html).
 
-We **highly recommend** that you install microcode updates, as they contain important security patches for the CPU which can not be fully mitigated in software alone. Fedora and openSUSE both apply microcode updates by default.
+ننصحك **بشدة** بتثبيت تحديثات Microcode، لأنها تحتوي على إصلاحات أمنية مهمة للمعالج لا يمكن معالجة الثغرات التي تصلحها بالكامل باستخدام البرامج وحدها. تثبّت Fedora وopenSUSE تحديثات Microcode تلقائيا بشكل افتراضي.
 
-### Updates
+### التحديثات
 
-Most Linux distributions will automatically install updates or remind you to do so. It is important to keep your OS up to date so that your software is patched when a vulnerability is found.
+تثبت معظم توزيعات Linux التحديثات تلقائيا، أو تذكرك بتثبيتها. من المهم تحديث نظام التشغيل باستمرار لإصلاح أي ثغرات أمنية يتم اكتشافها في البرامج.
 
-Some distributions (particularly those aimed at advanced users) are more bare bones and expect you to do things yourself (e.g. Arch or Debian). These will require running the "package manager" (`apt`, `pacman`, `dnf`, etc.) manually in order to receive important security updates.
+بعض التوزيعات (خاصة الموجهة للمستخدمين المتقدمين) تأتي بإعدادات وبرامج أساسية فقط، وتتوقع منك إعداد بقية الأشياء بنفسك (مثل Arch وDebian). ستحتاج في هذه التوزيعات إلى تشغيل «مدير الحزم (package manager)» (`apt`، `pacman`، `dnf`، وغيرها) يدويا للحصول على التحديثات الأمنية المهمة.
 
-Additionally, some distributions will not download firmware updates automatically. For that, you will need to install [`fwupd`](https://wiki.archlinux.org/title/Fwupd).
+بالإضافة إلى ذلك، بعض التوزيعات لا تحمل تحديثات البرامج الثابتة (Firmware) تلقائيا. لهذا، ستحتاج إلى تثبيت [`fwupd`](https://wiki.archlinux.org/title/Fwupd).
 
-### Permission Controls
+### التحكم في الأذونات
 
-Desktop environments that support the [Wayland](https://wayland.freedesktop.org) display protocol are [more secure](https://lwn.net/Articles/589147) than those that only support X11. Moreover, we *generally* recommend installing and using applications which are sandboxed such as those obtained via **Flatpak**. Flatpak supports the [`security-context-v1`](https://github.com/flatpak/flatpak/pull/4920) protocol and the ability to filter D-Bus protocols, which allow Flatpak to properly identify apps for the purpose of sandboxing them through permission controls.[^1] Conversely, applications outside sandboxes are free to perform privileged actions such as capturing your screen, either by [overwriting the portal permission store](https://invent.kde.org/plasma/xdg-desktop-portal-kde/-/issues/7#note_1112260), or [making use of privileged Wayland protocols](https://github.com/swaywm/sway/pull/7648#issuecomment-2507730794).
+بيئات سطح المكتب التي تدعم بروتوكول العرض [Wayland](https://wayland.freedesktop.org) [أكثر أمانًا](https://lwn.net/Articles/589147) من البيئات التي تدعم X11 فقط. بالإضافة إلى ذلك، ننصح *عموما* بتثبيت واستخدام التطبيقات المعزولة عن بقية النظام، مثل التطبيقات التي تُثبّتها عبر **Flatpak**. يدعم Flatpak بروتوكول [`security-context-v1`](https://github.com/flatpak/flatpak/pull/4920)، ويمكنه أيضا تصفية اتصالات D-Bus. وهذا يساعده على التعرّف على التطبيقات بشكل صحيح وعزلها من خلال التحكم في أذوناتها.[^1] أما التطبيقات غير المعزولة، فيمكنها تنفيذ إجراءات تتطلب صلاحيات خاصة، مثل تسجيل شاشتك، سواء عن طريق تغيير الأذونات المحفوظة في [portal permission store](https://invent.kde.org/plasma/xdg-desktop-portal-kde/-/issues/7#note_1112260) أو [استخدام بروتوكولات Wayland التي تمنح صلاحيات خاصة](https://github.com/swaywm/sway/pull/7648#issuecomment-2507730794).
 
-## Privacy Tweaks
+## إعدادات لتحسين الخصوصية
 
-### MAC Address Randomization
+### تغيير عنوان MAC عشوائيا
 
-Many desktop Linux distributions (Fedora, openSUSE, etc.) come with [NetworkManager](https://en.wikipedia.org/wiki/NetworkManager) to configure Ethernet and Wi-Fi settings.
+تأتي العديد من توزيعات Linux المخصّصة لأجهزة الكمبيوتر (مثل Fedora وopenSUSE) مع [NetworkManager](https://en.wikipedia.org/wiki/NetworkManager) لإعداد اتصالات Ethernet وWi-Fi.
 
-It is possible to randomize the [MAC address](https://en.wikipedia.org/wiki/MAC_address) when using NetworkManager. This provides a bit more privacy on Wi-Fi networks as it makes it harder to track specific devices on the network you’re connected to. It does [**not**](https://papers.mathyvanhoef.com/wisec2016.pdf) make you anonymous.
+يمكنك تغيير [عنوان MAC](https://en.wikipedia.org/wiki/MAC_address) عشوائيًا باستخدام NetworkManager. هذا يمنحك مزيدًا من الخصوصية على شبكات Wi-Fi، لأنه يصعّب تتبّع الأجهزة على الشبكة التي تتصل بها. هذا [**لا**](https://papers.mathyvanhoef.com/wisec2016.pdf) يجعل هويتك مجهولة.
 
-In the terminal, create a new file `/etc/NetworkManager/conf.d/00-macrandomize.conf` and add the following to it:
+افتح الـ Terminal، وأنشئ ملفًا جديدًا باسم `/etc/NetworkManager/conf.d/00-macrandomize.conf`، ثم أضف إليه ما يلي:
 
 ```text
 [device]
@@ -137,17 +137,17 @@ wifi.cloned-mac-address=random
 ethernet.cloned-mac-address=random
 ```
 
-Then, restart NetworkManager:
+ثم أعد تشغيل NetworkManager:
 
 ```sh
 systemctl restart NetworkManager
 ```
 
-Optionally, changing the connection parameter from `random` to `stable` will give you a random MAC address *per network*, but keep it stable for that network when you reconnect to it later. Using `random` will give you a random MAC address *per connection*. This may be desirable for networks with captive portals or where you have a static DHCP assignment, at the expense of making you more identifiable by a single network operator you connect to multiple times.
+يمكنك أيضًا تغيير قيمة إعداد الاتصال من `random` إلى `stable`، ليكون *لكل شبكة* عنوان MAC عشوائي خاص بها، ويظل كما هو عند الاتصال بالشبكة نفسها مرة أخرى. عند استخدام `random`، ستحصل على عنوان MAC عشوائي *جديد في كل مرة تتصل* فيها بالشبكة. قد يكون استخدام stable مناسبا للشبكات التي تتطلب تسجيل الدخول عبر صفحة ويب (captive portal)، أو التي تمنح جهازك عنوان IP ثابتا عبر DHCP. لكن هذا يسهل على مشغل الشبكة التعرّف على جهازك إذا اتصلت بالشبكة نفسها عدة مرات.
 
 If you are using [systemd-networkd](https://en.wikipedia.org/wiki/Systemd#Ancillary_components), you will need to set [`MACAddressPolicy=random`](https://freedesktop.org/software/systemd/man/systemd.link.html#MACAddressPolicy=) which will enable [RFC 7844 (Anonymity Profiles for DHCP Clients)](https://freedesktop.org/software/systemd/man/systemd.network.html#Anonymize=).
 
-MAC address randomization is primarily beneficial for Wi-Fi connections. For Ethernet connections, randomizing your MAC address provides little (if any) benefit, because a network administrator can trivially identify your device by other means (such as inspecting the port you are connected to on the network switch). Randomizing Wi-Fi MAC addresses depends on support from the Wi-Fi’s firmware.
+تغيير عنوان MAC عشوائيًا مفيد بشكل أساسي لاتصالات Wi-Fi. في اتصالات Ethernet، لا يوفر تغيير عنوان MAC عشوائيًا فائدة كبيرة، إن وُجدت، لأن مسؤول الشبكة يمكنه بسهولة التعرّف على جهازك بطرق أخرى، مثل معرفة المنفذ الذي يتصل به جهازك على جهاز تبديل الشبكة (Switch). يعتمد تغيير عنوان MAC لشبكة Wi-Fi عشوائيا على دعم البرنامج الثابت (Firmware) للـ Wi-Fi firmware لهذه الميزة.
 
 ### Other Identifiers
 
