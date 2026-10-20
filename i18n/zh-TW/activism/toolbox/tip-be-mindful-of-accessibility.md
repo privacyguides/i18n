@@ -5,15 +5,15 @@ icon: fontawesome/solid/heart-circle-check
 cover: activism/banner-toolbox-tip-accessibility.webp
 ---
 
-**Accessibility** is indispensable to [inclusivity](tip-keep-your-posts-and-community-inclusive.md), and should always be a priority in our work. To make our privacy communities welcoming to all, accessibility cannot be an afterthought. We must integrate it in our practice from the start. This means making sure the languages, visuals, tools, and venues we use are accessible to as many people as possible.
+**無障礙**是 [包容性](tip-keep-your-posts-and-community-inclusive.md) 不可或缺的一環，也應始終是我們志業中的優先事項。若要讓我們的隱私社群對所有人來說都充滿包容性，無障礙設計就不能只是事後才考慮的環節。我們必須從一開始就將其融入我們的實踐中。也就是說，必須確保我們所使用的語言、視覺元素、工具及場地，能讓盡可能多的人都能輕鬆使用。
 
-Here's what you can do to improve accessibility for your privacy-related content and communities:
+以下是一些你我都能做到，對隱私議題、對社群都會有所助益的事項：
 
-## Accessibility for all, in all the ways
+## 人人皆應在各方各面享有無障礙
 
-For many people who don't need any specific accommodations, accessibility is often only thought about in terms of solutions to _mobility_ impairments, such as for people requiring the use of a wheelchair.
+對於許多不需要任何特定無障礙措施的人來說，會以為無障礙只處理關&#x65BC;_&#x884C;動方&#x9762;_&#x7684;障礙，例如輪椅的使用環境。
 
-While this is indeed and important factor to consider, there are many other types of disabilities and accommodations we should be mindful of in our privacy work.
+雖然這確實是值得注重的因素，但在進行隱私相關工作時，我們還應留意許多其他類型的身心障礙，以及對應的合理調整。
 
 Considering how each part of our work could be accessed more easily by everyone is essential to grow our movement, and to diversify our privacy communities.
 

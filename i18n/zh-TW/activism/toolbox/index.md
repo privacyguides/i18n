@@ -308,7 +308,7 @@ Learn More :material-arrow-right-drop-circle:
 
 ![Heart with checkmark icon](../../assets/img/activism/icons/icon-tips/icon-tips-accessibility.webp){class="toolbox-tip-icon"}
 
-Accessibility is indispensable to inclusivity, and should always be a priority in our work. To make our privacy communities welcoming to all, accessibility cannot be an afterthought. We must integrate it in our practice from the start. Learn more about improving the accessibility of your privacy work.
+Accessibility is indispensable to inclusivity, and should always be a priority in our work. 若要讓我們的隱私社群對所有人來說都充滿包容性，無障礙設計就不能只是事後才考慮的環節。我們必須從一開始就將其融入我們的實踐中。 Learn more about improving the accessibility of your privacy work.
 
 Learn More :material-arrow-right-drop-circle:
 {align=right}
