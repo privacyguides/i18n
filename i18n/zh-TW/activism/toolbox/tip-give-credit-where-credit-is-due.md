@@ -1,5 +1,5 @@
 ---
-title: Give Credit Where Credit Is Due
+title: 將功勞歸給應得之人
 description: To succeed with our movement to defend privacy rights, we must support each other. One good way to do this is to give credit where credit is due.
 icon: fontawesome/solid/thumbs-up
 cover: activism/banner-toolbox-tip-credit.webp

@@ -1,6 +1,6 @@
 ---
-title: Engage, Boost, and Contribute
-description: Once you have the knowledge, motivation, and energy to fight for privacy rights, it's time to act! Learn more on what you can do to be a privacy activist.
+title: 參與、推動與貢獻
+description: 一旦您具備了為隱私權而戰所需的知識、動力和熱情，就是時候採取行動了！ Learn more on what you can do to be a privacy activist.
 icon: fontawesome/solid/bullhorn
 cover: activism/banner-toolbox-tip-engage.webp
 ---

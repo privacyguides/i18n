@@ -1,15 +1,15 @@
 ---
-title: Improve Your Social Media and Build Resilient Communities
-description: Commercial social media platforms represent one of the biggest source of data exploitation. Learn how you can build better and more resilient social networks.
+title: 改善您的社群媒體，建立韌性社群
+description: 商業性的社群媒體平台是數據濫用最典型的代表之一。了解如何建立更優質且更具韌性的社交網絡。
 icon: fontawesome/solid/seedling
 cover: activism/banner-toolbox-tip-plant.webp
 ---
 
-Commercial social media platforms represent one of the biggest source of data exploitation. Facebook, Instagram, Threads, TikTok, and X all exploit their users' data to generate billions in profit every year. By staying active on these platforms, we continue to feed the beast and indirectly support this invasion of privacy rights.
+商業性的社群媒體平台是數據濫用最典型的代表之一。 Facebook, Instagram, Threads, TikTok, and X all exploit their users' data to generate billions in profit every year. By staying active on these platforms, we continue to feed the beast and indirectly support this invasion of privacy rights.
 
 Here's how you can **minimize your presence on commercial social media**, and slowly build more autonomous communities:
 
-## Why it's important to move away
+## 「遷離」的重要性
 
 Moving away from large commercial platforms can be a complex process, but it's a very important one nonetheless.
 

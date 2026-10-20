@@ -1,6 +1,6 @@
 ---
-title: Keep in Mind The Whole Landscape
-description: Privacy isn't just about the tools, or just about the laws, or just about the practices either. It's about all of it. Learn how to consider the whole landscape.
+title: 將整體局勢納入考量
+description: 隱私不只關乎於工具或法律，也不只侷限於相關做法。它關乎到一個更大的整體。學習如何從整體和全局的視角看待。
 icon: fontawesome/solid/globe
 cover: activism/banner-toolbox-tip-landscape.webp
 ---
@@ -9,13 +9,13 @@ Privacy isn't just about the tools, the laws, or the practices of any individual
 
 Here's how to get better at **considering the whole landscape**:
 
-## The technology
+## 技術
 
 Technology plays a crucial role in how we protect our digital information. Most people are already familiar with the [tools and services](../../tools.md) we can use to better protect our privacy, and the ways technology can endanger our privacy rights. Technologies like encryption, for example, are essential in our connected world.
 
 But if we only consider the technological aspect, it will not be enough to defend our privacy rights. When we only think and talk about technical solutions, we are missing the bigger picture, and with it, the bigger solutions as well.
 
-## The legislative
+## 立法
 
 While technologies can protect our data in several ways, it becomes almost irrelevant when regulations make these technologies illegal.
 
@@ -53,7 +53,7 @@ Here are a few examples:
 
 </div>
 
-## The culture
+## 文化
 
 While considering the tools we use and the laws that should protect us, we shouldn't neglect the impact that our _culture_ has on privacy rights.
 
@@ -91,7 +91,7 @@ Here are a few practices to improve our culture surrounding data privacy that yo
 
 - [x] Never use devices like Meta's Ray-Ban glasses, i.e. devices equipped with a microphone and/or camera that might record others without their consent.
 
-## More resources
+## 更多資源
 
 - **Technology:** [Privacy tools and technology recommendations (_Privacy Guides_)](https://www.privacyguides.org/en/tools/)
 

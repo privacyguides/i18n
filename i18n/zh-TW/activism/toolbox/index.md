@@ -6,52 +6,52 @@ hide:
 cover: activism/banner-activism-toolbox.webp
 ---
 
-The **Privacy Activist Toolbox** is a resource for anyone interested in becoming a better privacy rights activist, or anyone who wants to start advocating for privacy rights.
+《隱私權倡議行動者工具箱》是一份獨特的資源，提供各式建議，給每個有志成為更優秀的隱私權倡議者的人，也給每個想要踏出第一步的人。
 
-This page is also a resource to help digital rights organizations that would like to expand their work focusing on privacy.
+本頁面同時也是一個資源平台，旨在協助欲擴展其隱私權相關志業的數位權利組織。
 
-:material-cursor-default-click: By clicking on any of the tips listed on this page, you can access more information on each topic, as well as additional resources to support your advocacy.
+:material-cursor-default-click: 點擊本頁列出的任何一項建議即可查閱各主題的詳細資訊，以及支援您倡議工作的各式資源。
 
 ---
 
-## Toolbox Compartments
+## 工具箱區塊
 
 <div class="toolbox-button-grid" markdown>
 
-[:fontawesome-solid-scale-balanced:{ .toolbox-button-icon } Check<br>Your Laws](#check-your-laws){ .toolbox-button .toolbox-bg-legal }
+[:fontawesome-solid-scale-balanced:{ .toolbox-button-icon } 查閱<br>法規](#check-your-laws){ .toolbox-button .toolbox-bg-legal }
 
-[:fontawesome-solid-toolbox:{ .toolbox-button-icon } Choose<br>Your Tools](#choose-your-tools){ .toolbox-button .toolbox-bg-tools }
+[:fontawesome-solid-toolbox:{ .toolbox-button-icon } 選擇<br>工具](#choose-your-tools){ .toolbox-button .toolbox-bg-tools }
 
-[:fontawesome-solid-users-rays:{ .toolbox-button-icon } Expand Your<br>Perspective](#expand-your-perspective){ .toolbox-button .toolbox-bg-perspective }
+[:fontawesome-solid-users-rays:{ .toolbox-button-icon } 拓展<br>視野](#expand-your-perspective){ .toolbox-button .toolbox-bg-perspective }
 
-[:fontawesome-solid-hands-holding-circle:{ .toolbox-button-icon } Support The<br>Community](#support-the-community){ .toolbox-button .toolbox-bg-community }
+[:fontawesome-solid-hands-holding-circle:{ .toolbox-button-icon } 支持<br>社群](#support-the-community){ .toolbox-button .toolbox-bg-community }
 
-[:fontawesome-solid-handshake-angle:{ .toolbox-button-icon } Build<br>Alliances](#build-alliances){ .toolbox-button .toolbox-bg-alliances }
+[:fontawesome-solid-handshake-angle:{ .toolbox-button-icon } 連結<br>盟友](#build-alliances){ .toolbox-button .toolbox-bg-alliances }
 
-[:fontawesome-solid-heart-circle-check:{ .toolbox-button-icon } Make It<br>Accessible](#make-it-accessible){ .toolbox-button .toolbox-bg-accessibility }
+[:fontawesome-solid-heart-circle-check:{ .toolbox-button-icon } 拉近<br>距離](#make-it-accessible){ .toolbox-button .toolbox-bg-accessibility }
 
-[:fontawesome-solid-star:{ .toolbox-button-icon } Uphold<br>Integrity](#uphold-integrity){ .toolbox-button .toolbox-bg-integrity }
+[:fontawesome-solid-star:{ .toolbox-button-icon } 堅守<br>精神](#uphold-integrity){ .toolbox-button .toolbox-bg-integrity }
 
-[:fontawesome-solid-heart:{ .toolbox-button-icon } Stay<br>Persistent](#stay-persistent){ .toolbox-button .toolbox-bg-persistence }
+[:fontawesome-solid-heart:{ .toolbox-button-icon } 貫徹<br>一致](#stay-persistent){ .toolbox-button .toolbox-bg-persistence }
 
-[:fontawesome-solid-hand-fist:{ .toolbox-button-icon } Take<br>Action!](#take-action){ .toolbox-button .toolbox-bg-action }
+[:fontawesome-solid-hand-fist:{ .toolbox-button-icon } 起身<br>參與！](#take-action){ .toolbox-button .toolbox-bg-action }
 
 </div>
 
 ---
 
-## Check Your Laws
+## 查閱法規
 
 <a href="tip-know-your-privacy-laws/">
 <div class="toolbox-tip-card toolbox-border-legal" markdown>
 
-### 1. Know your privacy laws
+### 1. 認識關於隱私權的法規
 
-![Scale icon](../../assets/img/activism/icons/icon-tips/icon-tips-laws.webp){class="toolbox-tip-icon"}
+![天秤圖示](../../assets/img/activism/icons/icon-tips/icon-tips-laws.webp){class="toolbox-tip-icon"}
 
-Being well-informed about the data protection regulations in your own jurisdiction can be a significant asset for your personal and collective battles to improve privacy, for yourself and for others. Learn more about what to look for when researching your local privacy laws.
+深入了解您所屬轄區的資料保護法規，對於您為提升自身及他人的隱私權所進行的個人與集體抗爭而言，將是一項重要的資產。進一步了解在研究當地隱私法規時應注意的事項。
 
-Learn More :material-arrow-right-drop-circle:
+更多資訊 :material-arrow-right-drop-circle:
 {align=right}
 
 </div>
@@ -60,32 +60,32 @@ Learn More :material-arrow-right-drop-circle:
 <a href="tip-report-privacy-violations">
 <div class="toolbox-tip-card toolbox-border-legal" markdown>
 
-### 2. Report privacy violations
+### 2. 檢舉違反隱私權的行為
 
-![Gavel icon](../../assets/img/activism/icons/icon-tips/icon-tips-report.webp){class="toolbox-tip-icon"}
+![法槌圖示](../../assets/img/activism/icons/icon-tips/icon-tips-report.webp){class="toolbox-tip-icon"}
 
-Once you become informed on your local privacy laws, get familiar with the process to report violations. Submitting an official complaint is often simple, and can have a significant impact for yourself and your community. Learn more about why and how you should report violations of your local privacy laws.
+了解在地的隱私權法規後，請熟悉舉報違規行為的步驟。提出正式投訴通常很簡單，而且對您自己和您的社群都可能產生重大影響。進一步了解為何以及如何舉報違反當地隱私權法律的行為。
 
-Learn More :material-arrow-right-drop-circle:
+更多資訊 :material-arrow-right-drop-circle:
 {align=right}
 
 </div>
 </a>
 
-<button class="toolbox-button-top">[Back to top :material-toolbox:](#toolbox-compartments)</button> <br>
+<button class="toolbox-button-top">[返回頁首 :material-toolbox:](#toolbox-compartments)</button> <br>
 
-## Choose Your Tools
+## 選擇工具
 
 <a href="tip-beware-of-privacy-snake-oil">
 <div class="toolbox-tip-card toolbox-border-tools" markdown>
 
-### 1. Beware of privacy snake oil
+### 1. 謹防隱私騙局
 
-![Poison symbol icon](../../assets/img/activism/icons/icon-tips/icon-tips-snakeoil.webp){class="toolbox-tip-icon"}
+![毒藥符號圖示](../../assets/img/activism/icons/icon-tips/icon-tips-snakeoil.webp){class="toolbox-tip-icon"}
 
-In your privacy advocacy, it's essential to use and recommend tools that reliably protect privacy. For this, you need to investigate and remain highly skeptical of any dangerous or unproven marketing claims. Learn more about how to evaluate privacy claims and recommend tools that are trustworthy.
+在隱私權保護的倡議推動上，使用並推薦能夠可靠保護隱私的工具至關重要。為此，您需要仔細查證，並對任何危險或未經證實的行銷說法抱持高度懷疑。進一步了解如何評估隱私聲明，並推薦值得信賴的工具。
 
-Learn More :material-arrow-right-drop-circle:
+更多資訊 :material-arrow-right-drop-circle:
 {align=right}
 
 </div>
@@ -94,13 +94,13 @@ Learn More :material-arrow-right-drop-circle:
 <a href="tip-migrate-outside-the-surveillance-ecosystem">
 <div class="toolbox-tip-card toolbox-border-tools" markdown>
 
-### 2. Migrate outside the surveillance ecosystem
+### 2. 從監控的生態系中打包離開
 
-![Arrow pointing out of a square icon](../../assets/img/activism/icons/icon-tips/icon-tips-migrate.webp){class="toolbox-tip-icon"}
+![箭頭指往方形外的圖示](../../assets/img/activism/icons/icon-tips/icon-tips-migrate.webp){class="toolbox-tip-icon"}
 
-As privacy activists, it's important to not only support the tools and organizations with good privacy practices, but to also lead by example when it comes to moving away from the surveillance ecosystem. Learn more about why and how to move away from "Big Tech" and embrace alternatives.
+身為隱私權倡議行動者，我們不僅要支持具備良好隱私權實踐的工具與組織，在擺脫監控生態系統的過程中，更要以身作則。進一步了解為何以及如何擺脫「科技巨頭」的束縛，並擁抱替代方案。
 
-Learn More :material-arrow-right-drop-circle:
+更多資訊 :material-arrow-right-drop-circle:
 {align=right}
 
 </div>
@@ -115,15 +115,15 @@ Learn More :material-arrow-right-drop-circle:
 
 Commercial social media platforms represent one of the biggest sources of data exploitation. By staying active on these platforms we continue to feed the beast, and indirectly support their invasion of our privacy rights. Learn more about how to minimize your presence there, and slowly build better social networks.
 
-Learn More :material-arrow-right-drop-circle:
+更多資訊 :material-arrow-right-drop-circle:
 {align=right}
 
 </div>
 </a>
 
-<button class="toolbox-button-top">[Back to top :material-toolbox:](#toolbox-compartments)</button> <br>
+<button class="toolbox-button-top">[返回頁首 :material-toolbox:](#toolbox-compartments)</button> <br>
 
-## Expand Your Perspective
+## 拓展視野
 
 <a href="tip-dont-stop-at-individual-solutions">
 <div class="toolbox-tip-card toolbox-border-perspective" markdown>
@@ -134,7 +134,7 @@ Learn More :material-arrow-right-drop-circle:
 
 When we think about our privacy, we often focus on the technical tools we can use. While this is indeed an important component, it's crucial not to lose sight of how regulations and invasive practices impact us collectively. Learn more about how to expand your perspective on data privacy.
 
-Learn More :material-arrow-right-drop-circle:
+更多資訊 :material-arrow-right-drop-circle:
 {align=right}
 
 </div>
@@ -149,7 +149,7 @@ Learn More :material-arrow-right-drop-circle:
 
 Privacy isn't just about the tools, the laws, or the practices of any individual or organization. To move our society in a place where everyone benefits from privacy by default, we must consider technologies, laws, and culture holistically. Learn more about remembering to consider the whole landscape.
 
-Learn More :material-arrow-right-drop-circle:
+更多資訊 :material-arrow-right-drop-circle:
 {align=right}
 
 </div>
@@ -164,13 +164,13 @@ Learn More :material-arrow-right-drop-circle:
 
 Everyone has different needs and faces different dangers when their personal data is exposed. To give actionable privacy advice and recommendations, it's essential to keep in mind everyone's unique situation. Learn more about better evaluating each person's threat model.
 
-Learn More :material-arrow-right-drop-circle:
+更多資訊 :material-arrow-right-drop-circle:
 {align=right}
 
 </div>
 </a>
 
-<button class="toolbox-button-top">[Back to top :material-toolbox:](#toolbox-compartments)</button> <br>
+<button class="toolbox-button-top">[返回頁首 :material-toolbox:](#toolbox-compartments)</button> <br>
 
 ## Support The Community
 
@@ -183,7 +183,7 @@ Learn More :material-arrow-right-drop-circle:
 
 At times, it might feel like the privacy community is niche and isolated. The battle for privacy rights is difficult, and its defenders are often scattered. This is why it's essential that we support and uplift each other at every opportunity. Learn more about how to lift your allies up and grow the movement.
 
-Learn More :material-arrow-right-drop-circle:
+更多資訊 :material-arrow-right-drop-circle:
 {align=right}
 
 </div>
@@ -198,7 +198,7 @@ Learn More :material-arrow-right-drop-circle:
 
 Fighting for privacy rights is a collective endeavor. You cannot do it alone. Anyone around you contributing is fighting the same battle by your side. This battle can be difficult and isolating at time. This is why it's critical to care for each other. Learn more about how you can support your privacy comrades.
 
-Learn More :material-arrow-right-drop-circle:
+更多資訊 :material-arrow-right-drop-circle:
 {align=right}
 
 </div></a>
@@ -206,21 +206,21 @@ Learn More :material-arrow-right-drop-circle:
 <a href="tip-be-kind-to-people-but-be-relentless-with-institutions">
 <div class="toolbox-tip-card toolbox-border-community" markdown>
 
-### 3. Be kind to people, but be relentless with institutions
+### 3. 對人善良，但對體制要毫不留情
 
 ![Two hands holding a sphere icon](../../assets/img/activism/icons/icon-tips/icon-tips-kind.webp){class="toolbox-tip-icon"}
 
 Kindness is essential for privacy advocates. 為了讓我們的運動蓬勃發展，我們必須以同伴情誼為出發點與人接觸。人們不會在被斥責的情況下改變主意。然而，對體制而言卻並非如此。 Learn more about how to integrate kindness in your work, while being relentless with institutions.
 
-Learn More :material-arrow-right-drop-circle:
+更多資訊 :material-arrow-right-drop-circle:
 {align=right}
 
 </div>
 </a>
 
-<button class="toolbox-button-top">[Back to top :material-toolbox:](#toolbox-compartments)</button> <br>
+<button class="toolbox-button-top">[返回頁首 :material-toolbox:](#toolbox-compartments)</button> <br>
 
-## Build Alliances
+## 連結盟友
 
 <a href="tip-start-alliances-not-wars">
 <div class="toolbox-tip-card toolbox-border-alliances" markdown>
@@ -231,7 +231,7 @@ Learn More :material-arrow-right-drop-circle:
 
 The privacy community consists of a patchwork of individuals and organizations that sometimes hold quite different views. When these divergences lead to infighting, we need to ask how these internal wars are impacting our community negatively. Learn more about how to start alliances instead of wars.
 
-Learn More :material-arrow-right-drop-circle:
+更多資訊 :material-arrow-right-drop-circle:
 {align=right}
 
 </div>
@@ -246,7 +246,7 @@ Learn More :material-arrow-right-drop-circle:
 
 In privacy, like everywhere else, diversity is a strength. If you want your community to have a broad understanding of threat models, and be able to fight on multiple levels, you need to value a diversity of expertises. Learn more about recognizing, respecting, and retaining experts with skills different to yours.
 
-Learn More :material-arrow-right-drop-circle:
+更多資訊 :material-arrow-right-drop-circle:
 {align=right}
 
 </div>
@@ -261,13 +261,13 @@ Learn More :material-arrow-right-drop-circle:
 
 To succeed, we must support each other. A good way to do this is to never forget to give credit where credit is due. When another advocate or organization says something you agree with, boost them up, spread their reach, and thank them publicly. Learn more about making your allies feel seen and valued.
 
-Learn More :material-arrow-right-drop-circle:
+更多資訊 :material-arrow-right-drop-circle:
 {align=right}
 
 </div>
 </a>
 
-<button class="toolbox-button-top">[Back to top :material-toolbox:](#toolbox-compartments)</button> <br>
+<button class="toolbox-button-top">[返回頁首 :material-toolbox:](#toolbox-compartments)</button> <br>
 
 ## Make It Accessible
 
@@ -280,7 +280,7 @@ Learn More :material-arrow-right-drop-circle:
 
 For our privacy rights movement to grow, we must bring more people in. To accomplish this, it's fundamental to discuss privacy in ways that are accessible to newcomers who aren't familiar with basic concepts yet. Learn more about improving your advocacy work to make it more approachable to beginners.
 
-Learn More :material-arrow-right-drop-circle:
+更多資訊 :material-arrow-right-drop-circle:
 {align=right}
 
 </div>
@@ -295,7 +295,7 @@ Learn More :material-arrow-right-drop-circle:
 
 Inclusivity is not only the right thing to do, it's also essential to grow our movement. If we want privacy rights to succeed, it's imperative that we build communities where _everyone_ feels safe and welcomed, regardless of who they are. Learn more about keeping your communications and communities inclusive.
 
-Learn More :material-arrow-right-drop-circle:
+更多資訊 :material-arrow-right-drop-circle:
 {align=right}
 
 </div>
@@ -310,7 +310,7 @@ Learn More :material-arrow-right-drop-circle:
 
 Accessibility is indispensable to inclusivity, and should always be a priority in our work. 若要讓我們的隱私社群對所有人來說都充滿包容性，無障礙設計就不能只是事後才考慮的問題。我們必須從一開始就將其融入實踐之中。 Learn more about improving the accessibility of your privacy work.
 
-Learn More :material-arrow-right-drop-circle:
+更多資訊 :material-arrow-right-drop-circle:
 {align=right}
 
 </div>
@@ -325,13 +325,13 @@ Learn More :material-arrow-right-drop-circle:
 
 If you are developing a privacy-focused application or website, do not neglect the design aspect of it. This is a common mistake that can have a significant negative impact on adoption by a general audience. Learn more about making your design appealing and accessible to all. Make it cute!
 
-Learn More :material-arrow-right-drop-circle:
+更多資訊 :material-arrow-right-drop-circle:
 {align=right}
 
 </div>
 </a>
 
-<button class="toolbox-button-top">[Back to top :material-toolbox:](#toolbox-compartments)</button> <br>
+<button class="toolbox-button-top">[返回頁首 :material-toolbox:](#toolbox-compartments)</button> <br>
 
 ## Uphold Integrity
 
@@ -344,7 +344,7 @@ Learn More :material-arrow-right-drop-circle:
 
 As privacy advocates and activists, it's important to be a voice for resistance and take a stand against abusive practices. One substantial way to do this is to refuse to participate in privacy-intrusive requests, or use invasive software. Learn more about refusing to comply with privacy-abusive practices.
 
-Learn More :material-arrow-right-drop-circle:
+更多資訊 :material-arrow-right-drop-circle:
 {align=right}
 
 </div>
@@ -359,7 +359,7 @@ Learn More :material-arrow-right-drop-circle:
 
 If you manage a digital rights group or organization, make sure you aren't subjecting your contributors to the very privacy-invasive tech you're fighting against. Sadly, it's not rare to see communities that aren't following their own advice for internal practices. Learn more about the importance of maintaining integrity _internally_ as well as externally.
 
-Learn More :material-arrow-right-drop-circle:
+更多資訊 :material-arrow-right-drop-circle:
 {align=right}
 
 </div>
@@ -374,13 +374,13 @@ Learn More :material-arrow-right-drop-circle:
 
 Through your privacy work, be careful to never collect or share the data of others without their explicit consent. It's crucial to protect your allies' data in all that you do, whether that's individual action or organizational leadership. Learn more about safeguarding the data of your privacy comrades.
 
-Learn More :material-arrow-right-drop-circle:
+更多資訊 :material-arrow-right-drop-circle:
 {align=right}
 
 </div>
 </a>
 
-<button class="toolbox-button-top">[Back to top :material-toolbox:](#toolbox-compartments)</button> <br>
+<button class="toolbox-button-top">[返回頁首 :material-toolbox:](#toolbox-compartments)</button> <br>
 
 ## Stay Persistent
 
@@ -393,7 +393,7 @@ Learn More :material-arrow-right-drop-circle:
 
 There is so much to do in the movement for better privacy rights. So much, that it's sometimes easy to feel discouraged when facing the scale of what's left to accomplish. But everything helps, and even the smallest action counts. Learn more about why every action and every victory matters, no matter how small.
 
-Learn More :material-arrow-right-drop-circle:
+更多資訊 :material-arrow-right-drop-circle:
 {align=right}
 
 </div>
@@ -408,13 +408,13 @@ Learn More :material-arrow-right-drop-circle:
 
 捍衛隱私權是一場持久戰。不是短跑，而是馬拉松。 If you want to be a good advocate, you _must_ take the time to rest when needed. 拒絕「操勞過度」，我們實在無法承受失去您珍貴的一臂之力！ Learn more about why it's fundamental to learn to rest when you need it.
 
-Learn More :material-arrow-right-drop-circle:
+更多資訊 :material-arrow-right-drop-circle:
 {align=right}
 
 </div>
 </a>
 
-<button class="toolbox-button-top">[Back to top :material-toolbox:](#toolbox-compartments)</button> <br>
+<button class="toolbox-button-top">[返回頁首 :material-toolbox:](#toolbox-compartments)</button> <br>
 
 ## Take Action!
 
@@ -427,7 +427,7 @@ Learn More :material-arrow-right-drop-circle:
 
 Once you have the knowledge, motivation, and energy, it's time to act! Perhaps you've read all of these tips, or read through our Knowledge Base already! But you don't need to know that much about privacy to start contributing. Learn more about how to start being a privacy activist.
 
-Learn More :material-arrow-right-drop-circle:
+更多資訊 :material-arrow-right-drop-circle:
 {align=right}
 
 </div>
@@ -442,10 +442,10 @@ Learn More :material-arrow-right-drop-circle:
 
 If you've been a privacy advocate for a while, maybe it's time to level up and grow as a leader in your community. Becoming a leader can mean starting a local group, or initiating bigger projects online. Learn more about how to become a _good_ leader in the privacy rights movement.
 
-Learn More :material-arrow-right-drop-circle:
+更多資訊 :material-arrow-right-drop-circle:
 {align=right}
 
 </div>
 </a>
 
-<button class="toolbox-button-top">[Back to top :material-toolbox:](#toolbox-compartments)</button> <br>
+<button class="toolbox-button-top">[返回頁首 :material-toolbox:](#toolbox-compartments)</button> <br>

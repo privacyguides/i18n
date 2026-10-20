@@ -1,5 +1,5 @@
 ---
-title: Don't Stop at Individual Solutions, Consider The Collective Impact
+title: 不要止步於個人的解法，應考量集體影響力
 description: When we think about privacy, we often focus on technical individual solutions. But it's also crucial to consider the collective impact of privacy issues.
 icon: fontawesome/solid/users-rays
 cover: activism/banner-toolbox-tip-expand.webp
