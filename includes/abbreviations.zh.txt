@@ -36,7 +36,7 @@
 *[GUI]: 图形用户界面
 *[GnuPG]: GNU Privacy Guard (PGP 实现)
 *[HDD]: 机械硬盘
-*[HOTP]: 基于 HMAC 的一次性密码
+*[HOTP]: 基于 HMAC（基于哈希的消息认证码）的一次性密码
 *[HTTPS]: 安全超文本传输协议
 *[HTTP]: 超文本传输协议
 *[hypervisor]: 将 CPU 资源分配给多个操作系统的计算机软件、固件或硬件
