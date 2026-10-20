@@ -1,72 +1,72 @@
 ---
-title: "Data Protection Authorities"
-description: The DPA Directory is a tool to help you find the principal consumer privacy law in your region, the authority mandated to enforce it, and how to report violations.
+title: "資料保護主管機關目錄"
+description: DPA 目錄是一項工具，旨在協助您查找您所在地區的主要消費者隱私法、負責執行該法的主管機關，以及如何舉報違規行為。
 #icon: fontawesome/solid/address-card
 cover: activism/banner-activism-dpadirectory.webp
 ---
 
-<small>Last update: 2026-03-30</small>
+<small>最後更新日期：2026-3-30</small>
 
-The **Data Protection Authority** (DPA) **Directory** is a tool to help you find the main consumer privacy law in your region, and the authority mandated to enforce the law.
+**資料保護機構**（DPA）**目錄** 是一項工具，用來協助您查找您所在地區的主要消費者隱私法律，以及負責執行該法的機關。
 
-Additionally, this table provides information about each law, authority, contact information for questions, and a link to place a complaint for violation of the law with each authority.
+此外，本表格提供了各項法律的相關資訊、主管機關、諮詢聯絡方式，以及向各主管機關針對違法行為提出申訴的連結。
 
 <div class="admonition info" markdown>
-<p class="admonition-title">More information on privacy laws and reporting violations</p>
+<p class="admonition-title">有關隱私法規及通報違規行為的更多資訊</p>
 
-- For more information on how to find a specific privacy law that might not be listed here, and what to look for when reading it, consult the Privacy Activist Toolbox tip to [Know Your Privacy Laws](../toolbox/tip-know-your-privacy-laws.md).
+- 若想進一步了解如何查找此處未列出的特定隱私法，以及閱讀時應注意哪些重點，請參閱《隱私權倡議行動者工具箱》中的提示[認識您的隱私權法規](../toolbox/tip-know-your-privacy-laws.md)。
 
-- For more information on how to proceed when reporting a privacy law violation, consult the Privacy Activist Toolbox tip to [Report Privacy Violations](../toolbox/tip-report-privacy-violations.md).
+- 如需進一步了解隱私法違規行為的具體舉報步驟，請參閱《隱私權倡議行動者工具箱》中的提示：[舉報隱私權違規行為](../toolbox/tip-report-privacy-violations.md)。
 
 </div>
 
-## Scope and limitations
+## 範圍與限制
 
-- This directory does not constitute legal advice. For any legal questions, consult a privacy lawyer or contact the authority responsible for enforcing the law.
+- 本目錄不構成法律建議。如有任何法律問題，請諮詢隱私權律師，或聯絡負責執法的機關。
 
-- This directory only lists comprehensive consumer data privacy regulations that were effective on the date of the last update.
+- 本目錄僅列出截至上次更新之日已生效的全面性消費者資料隱私法規。
 
-- This directory isn't a complete list of all existing data protection regulations worldwide. If you feel like your region's regulation should be added to it, please reach out to us.
+- 本目錄並非全球所有現有資料保護法規的完整清單。如果您認為應將您所在地區的法規納入其中，請與我們聯繫。
 
-- This directory does not list specialized privacy regulations related to specific data types, such as health data or children data.
+- 本目錄未列出與特定資料類型（如健康資料保護或兒童資料保護）相關的專門隱私法規。
 
-- Remember that your data _could_ be protected by a privacy regulation that isn't listed here. This will depend on the region, circumstances, and type of data involved.
+- 請注意，您的資料 _也可能_ 受到此處未列出的隱私法規保護。實際狀況取決於地區、具體情形以及所涉及的資料類型。
 
 <div class="admonition warning" markdown>
 <p class="admonition-title">隱私權警告</p>
 
-與 DPA 共用個人資訊時，請記住此資訊可能會與申訴對象共用和公開展示，也可能不公開展示。 Make sure to consult your DPA's privacy notice first, or ask anonymously how your complaint data might be shared before sending any sensitive information.
+與 DPA 共用個人資訊時，請記住此資訊可能會與申訴對象共用和公開展示，也可能不公開展示。在傳送任何敏感資訊之前，請務必先參閱您所在國家或地區資料保護機關的隱私權聲明，或以匿名方式詢問您的投訴資料可能會如何被分享。
 
-For example, the DPA for the state of Oregon in the United States specifies that: "Any information submitted to this form is subject to Oregon’s Public Records Law. You may choose not to include personally identifiable data that you do not wish to be subject to public records requests."
+例如，美國俄勒岡州的 DPA 規定：「提交至本表格的任何資訊均受《俄勒岡州公共記錄法》規範。」 You may choose not to include personally identifiable data that you do not wish to be subject to public records requests."
 
 </div>
 
-## The Directory
+## 目錄
 
 <div class="toolbox-button-grid" markdown>
 
-[:fontawesome-solid-earth-africa:{ .toolbox-button-icon } Africa](#africa){ .toolbox-button .dpadirectory-button .dpadirectory-button-africa }
+[:fontawesome-solid-earth-africa:{ .toolbox-button-icon } 非洲](#africa){ .toolbox-button .dpadirectory-button .dpadirectory-button-africa }
 
-[:fontawesome-solid-earth-asia:{ .toolbox-button-icon } Asia](#asia){ .toolbox-button .dpadirectory-button .dpadirectory-button-asia }
+[:fontawesome-solid-earth-asia:{ .toolbox-button-icon } 亞洲](#asia){ .toolbox-button .dpadirectory-button .dpadirectory-button-asia }
 
-[:fontawesome-solid-earth-europe:{ .toolbox-button-icon } Europe](#europe){ .toolbox-button .dpadirectory-button .dpadirectory-button-europe }
+[:fontawesome-solid-earth-europe:{ .toolbox-button-icon } 歐洲](#europe){ .toolbox-button .dpadirectory-button .dpadirectory-button-europe }
 
-[:fontawesome-solid-earth-america:{ .toolbox-button-icon } North America](#north-america){ .toolbox-button .dpadirectory-button .dpadirectory-button-northamerica }
+[:fontawesome-solid-earth-america:{ .toolbox-button-icon } 北美洲](#north-america){ .toolbox-button .dpadirectory-button .dpadirectory-button-northamerica }
 
-[:fontawesome-solid-earth-oceania:{ .toolbox-button-icon } Oceania](#oceania){ .toolbox-button .dpadirectory-button .dpadirectory-button-oceania }
+[:fontawesome-solid-earth-oceania:{ .toolbox-button-icon } 大洋洲](#oceania){ .toolbox-button .dpadirectory-button .dpadirectory-button-oceania }
 
-[:fontawesome-solid-earth-america:{ .toolbox-button-icon } South America](#south-america){ .toolbox-button .dpadirectory-button .dpadirectory-button-southamerica }
+[:fontawesome-solid-earth-america:{ .toolbox-button-icon } 南美洲](#south-america){ .toolbox-button .dpadirectory-button .dpadirectory-button-southamerica }
 
 </div>
 
 ---
 
-### Africa
+### 非洲
 
 <div class="table-wrapper">
 
   <table role="table" class="dpadirectory-table table-africa">
-    <caption role="caption">Data Protection Authority Directory (Africa)</caption>
+    <caption role="caption">資料保護主管機關目錄（非洲）</caption>
 
     <!-- Table header -->
     <thead>
@@ -212,13 +212,13 @@ For example, the DPA for the state of Oregon in the United States specifies that
   </table>
 </div>
 
-<button class="toolbox-button-top">[Back to tables menu :material-map-search:](#the-directory)</button> <br>
+<button class="toolbox-button-top">[返回表格選單 :material-map-search:](#the-directory)</button> <br>
 
-### Asia
+### 亞洲
 
 <div class="table-wrapper">
   <table role="table" class="dpadirectory-table table-asia">
-    <caption role="caption">Data Protection Authority Directory (Asia)</caption>
+    <caption role="caption">資料保護主管機關目錄（亞洲）</caption>
 
     <!-- Table header -->
     <thead>
@@ -378,13 +378,13 @@ For example, the DPA for the state of Oregon in the United States specifies that
   </table>
 </div>
 
-<button class="toolbox-button-top">[Back to tables menu :material-map-search:](#the-directory)</button> <br>
+<button class="toolbox-button-top">[返回表格選單 :material-map-search:](#the-directory)</button> <br>
 
-### Europe
+### 歐洲
 
 <div class="table-wrapper">
   <table role="table" class="dpadirectory-table table-europe">
-    <caption role="caption">Data Protection Authority Directory (Europe)</caption>
+    <caption role="caption">資料保護主管機關目錄（歐洲）</caption>
 
     <!-- Table header -->
     <thead>
@@ -936,13 +936,13 @@ For example, the DPA for the state of Oregon in the United States specifies that
   </table>
 </div>
 
-<button class="toolbox-button-top">[Back to tables menu :material-map-search:](#the-directory)</button> <br>
+<button class="toolbox-button-top">[返回表格選單 :material-map-search:](#the-directory)</button> <br>
 
-### North America
+### 北美洲
 
 <div class="table-wrapper">
   <table role="table" class="dpadirectory-table table-northamerica">
-    <caption role="caption">Data Protection Authority Directory (North America)</caption>
+    <caption role="caption">資料保護主管機關目錄（北美洲）</caption>
 
     <!-- Table header -->
     <thead>
@@ -1312,13 +1312,13 @@ For example, the DPA for the state of Oregon in the United States specifies that
   </table>
 </div>
 
-<button class="toolbox-button-top">[Back to tables menu :material-map-search:](#the-directory)</button> <br>
+<button class="toolbox-button-top">[返回表格選單 :material-map-search:](#the-directory)</button> <br>
 
-### Oceania
+### 大洋洲
 
 <div class="table-wrapper">
   <table role="table" class="dpadirectory-table table-oceania">
-    <caption role="caption">Data Protection Authority Directory (Oceania)</caption>
+    <caption role="caption">資料保護主管機關目錄（大洋洲）</caption>
 
     <!-- Table header -->
     <thead>
@@ -1366,7 +1366,7 @@ For example, the DPA for the state of Oregon in the United States specifies that
   </table>
 </div>
 
-<button class="toolbox-button-top">[Back to tables menu :material-map-search:](#the-directory)</button> <br>
+<button class="toolbox-button-top">[返回表格選單 :material-map-search:](#the-directory)</button> <br>
 
 ### South America
 
@@ -1462,16 +1462,16 @@ For example, the DPA for the state of Oregon in the United States specifies that
   </table>
 </div>
 
-<button class="toolbox-button-top">[Back to tables menu :material-map-search:](#the-directory)</button> <br>
+<button class="toolbox-button-top">[返回表格選單 :material-map-search:](#the-directory)</button> <br>
 
-## Additional resources
+## 其他資源
 
-- **For EU GDPR**: [Helpful tips on how to proceed with your request or complaint (_NOYB_)](https://noyb.eu/en/helpful-tips)
+- **針對歐盟《一般資料保護規範》（GDPR）**：[關於如何提出請求或投訴的實用建議 (_NOYB_)](https://noyb.eu/en/helpful-tips)
 
-- **For EU GDPR**: [Explanation on the right to lodge a complaint (_NOYB_)](https://noyb.eu/en/your-right-lodge-complaint-article-77)
+- **關於歐盟《一般資料保護規範》（GDPR）**：[關於提出投訴的權利（_NOYB_）的說明](https://noyb.eu/en/your-right-lodge-complaint-article-77)
 
-- **For missing regions**[^1]: [Check this Global Privacy Law and DPA Directory (_IAPP_)](https://iapp.org/resources/global-privacy-directory)
+- **關於未涵蓋的地區**[^1]：[請參閱此《全球隱私法與資料保護法（DPA）目錄》（_IAPP_）](https://iapp.org/resources/global-privacy-directory)
 
-- **For more information on each law**: [To learn more on each regulation, you can consult this useful database (_DLA Piper_)](https://www.dlapiperdataprotection.com/)
+- **有關各項法律的更多資訊**：[如欲進一步了解各項法規，可參閱此實用資料庫（_DLA Piper_）](https://www.dlapiperdataprotection.com/)
 
-[^1]: Some information from IAPP's Global Privacy Law and DPA Directory might be out-of-date.
+[^1]: IAPP《全球隱私法與資料保護機構名錄》中的部分資訊可能已過時。

@@ -342,7 +342,7 @@ If you are developing a privacy-focused application or website, do not neglect t
 
 ![Circle with x icon](../../assets/img/activism/icons/icon-tips/icon-tips-refuse.webp){class="toolbox-tip-icon"}
 
-As privacy advocates and activists, it's important to be a voice for resistance and take a stand against abusive practices. One substantial way to do this is to refuse to participate in privacy-intrusive requests, or use invasive software. Learn more about refusing to comply with privacy-abusive practices.
+As privacy advocates and activists, it's important to be a voice for resistance and take a stand against abusive practices. 實現此目標的一項重要方式，就是拒絕配合侵犯隱私的要求，或拒絕使用有侵犯性的軟體。 Learn more about refusing to comply with privacy-abusive practices.
 
 更多資訊 :material-arrow-right-drop-circle:
 {align=right}

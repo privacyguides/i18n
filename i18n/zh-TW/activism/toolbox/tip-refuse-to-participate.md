@@ -1,15 +1,15 @@
 ---
-title: Refuse to Participate
-description: As privacy activists, we must be a voice for resistance and take a stand against abusive practices, by refusing to comply with privacy-intrusive requests.
+title: 拒絕配合
+description: 身為隱私權倡議者，我們必須成為反抗的代言人，藉由拒絕向隱私侵犯妥協配合，對濫用權力的行為挺身反對。
 icon: fontawesome/solid/xmark-circle
 cover: activism/banner-toolbox-tip-refuse.webp
 ---
 
-As privacy advocates and activists, it's important to **be a voice for resistance** and take a stand against abusive practices. One substantial way to do this is to refuse to participate in privacy-intrusive requests, or use invasive software.
+身為隱私權倡議者，**成為反抗的代言人**和對濫用權力的行為挺身反對是很重要的。實現此目標的一項重要方式，就是拒絕配合侵犯隱私的要求，或拒絕使用有侵犯性的軟體。
 
-Here's how you can refuse to comply with privacy-abusive practices, and why it's imperative that you do whenever possible:
+以下說明您可以如何拒絕配合侵犯隱私的行為，以及為何您應在可能的情況下必須這麼做：
 
-## The risk of complying with privacy-invasive requests
+## 配合侵犯隱私的要求會有什麼風險
 
 Requests to invade our privacy are part of our daily lives in today's world. Whether it's a store cashier banally asking for our phone number after a purchase, or a prominent facial scan at the airport with no clear instructions on how to opt out, ==privacy-invasive requests have become so normalized== that most people barely notice them anymore.
 
@@ -17,7 +17,7 @@ The problem is, each time we mindlessly comply because we are tired, rushed, or 
 
 While it might be ambitious to expect people who aren't even aware of privacy issues to say no, as privacy advocates we have a responsibility to lead by example, and refuse every single time we legally can. Ideally, we should also document and report on our experience, as this presents a unique opportunity to raise awareness on the issue.
 
-## The risk of using privacy-abusive platforms
+## 使用侵犯隱私權平台的風險
 
 Each time we use a platform, tool, or service that is privacy-invasive in our practice, we also contribute in normalizing the use of privacy-abusive software.
 
@@ -25,7 +25,7 @@ It's not always easy to [leave Big Tech](tip-migrate-outside-the-surveillance-ec
 
 When we use products that do not reflect the values we are asking people to adopt, we not only undermine our own credibility as privacy advocates, but we also harm the privacy rights movement as a whole. It's crucial to lead by example and publicly refuse to use and participate in privacy-abusive platforms, as much as feasible for our situation.
 
-## How to refuse to participate in abusive practices, and take a stand for privacy rights
+## 如何拒絕參與濫權行為，並為隱私權挺身而出
 
 There are many ways to refuse to participate in privacy-invasive practices and platforms. Here are a few things you can try to do in your daily life, and in your privacy advocacy work:
 
@@ -69,12 +69,12 @@ There are many ways to refuse to participate in privacy-invasive practices and p
 
 </div>
 
-## More resources
+## 更多資源
 
-- [_Privacy Guides_ tools and services recommendations](../../tools.md)
+- [_隱私指南_ 工具與服務推薦](../../tools.md)
 
-- [You can say NO (_Privacy Guides_)](https://www.privacyguides.org/articles/2025/06/17/you-can-say-no/)
+- [您可以說「不」 (_隱私指南_)](https://www.privacyguides.org/articles/2025/06/17/you-can-say-no/)
 
-- [Selling surveillance as convenience (_Privacy Guides_)](https://www.privacyguides.org/articles/2025/06/07/selling-surveillance-as-convenience/)
+- [將監控包裝成便利 (_隱私指南_)](https://www.privacyguides.org/articles/2025/06/07/selling-surveillance-as-convenience/)
 
-- [6 effective tips to politely say no (_Science of People_)](https://www.scienceofpeople.com/how-to-say-no/)
+- [6 個禮貌拒絕的實用技巧 (_Science of People_)](https://www.scienceofpeople.com/how-to-say-no/)
