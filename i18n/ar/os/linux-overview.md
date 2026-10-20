@@ -54,7 +54,7 @@ description: نظام Linux هو نظام تشغيل مفتوح المصدر ل�
 
 أما التوزيعات التي تستخدم التحديثات التي تُطبّق كوحدة واحدة، فتُطبّق التحديثات بالكامل أو لا تُطبقها إطلاقا. في التوزيعات التي تُطبّق التحديثات كوحدة واحدة، إذا حدث خطأ أثناء التحديث (مثل انقطاع الكهرباء)، فلن يتغير أي شيء في النظام.
 
-تساعد هذه الطريقة في تطبيق التحديثات على جعل النظام أكثر موثوقية، وتستخدمها [توزيعات](../desktop.md#atomic-distributions) مثل Silverblue وNixOS. [Adam Šamalík](https://www.linkedin.com/in/adamsamalik/) provides a presentation on how `rpm-ostree` works with Silverblue:
+تساعد هذه الطريقة في تطبيق التحديثات على جعل النظام أكثر موثوقية، وتستخدمها [توزيعات](../desktop.md#atomic-distributions) مثل Silverblue وNixOS. يقدّم [Adam Šamalík](https://www.linkedin.com/in/adamsamalik/) عرضًا يشرح فيه كيفية عمل `rpm-ostree` مع Silverblue:
 
 - [لنجرب Fedora Silverblue — نظام تشغيل لأجهزة الكمبيوتر لا يمكن تعديل ملفاته الأساسية! - Adam Šamalík](https://youtu.be/-hpV5l-gJnQ) <small>(YouTube)</small>
 
@@ -82,23 +82,23 @@ description: نظام Linux هو نظام تشغيل مفتوح المصدر ل�
 
 ### التحكم الإلزامي في الوصول
 
-التحكم الإلزامي في الوصول هو مجموعة من وسائل الحماية الإضافية التي تساعد على تقييد صلاحيات أجزاء من النظام، مثل التطبيقات وخدمات النظام. The two common forms of mandatory access control found in Linux distributions are [SELinux](https://github.com/SELinuxProject) and [AppArmor](https://apparmor.net). Fedora and Tumbleweed use SELinux by default, with Tumbleweed offering an option in its installer to choose AppArmor instead.
+التحكم الإلزامي في الوصول هو مجموعة من وسائل الحماية الإضافية التي تساعد على تقييد صلاحيات أجزاء من النظام، مثل التطبيقات وخدمات النظام. أشهر نظامين للتحكم الإلزامي (mandatory access control) في الوصول في توزيعات Linux هما [SELinux](https://github.com/SELinuxProject) [وAppArmor](https://apparmor.net). تستخدم توزيعتا Fedora وTumbleweed نظام SELinux افتراضيا، لكن Tumbleweed تتيح لك اختيار AppArmor بدلا منه أثناء التثبيت.
 
-SELinux on [Fedora](https://docs.fedoraproject.org/en-US/quick-docs/selinux-getting-started) confines Linux containers, virtual machines, and service daemons by default. AppArmor is used by the snap daemon for [sandboxing](https://snapcraft.io/docs/security-sandboxing) snaps which have [strict](https://snapcraft.io/docs/snap-confinement) confinement such as [Firefox](https://snapcraft.io/firefox). There is a community effort to confine more parts of the system in Fedora with the [ConfinedUsers](https://fedoraproject.org/wiki/SIGs/ConfinedUsers) special interest group.
+يفرض SELinux في [Fedora](https://docs.fedoraproject.org/en-US/quick-docs/selinux-getting-started) قيودا على الـ Linux Containers والأجهزة الافتراضية (virtual machines) والـ service daemons التي تعمل في الخلفية بشكل افتراضي. تستخدم خدمة snap نظام AppArmor [لعزل](https://snapcraft.io/docs/security-sandboxing) حزم snap التي تخضع لقيود [صارمة](https://snapcraft.io/docs/snap-confinement)، مثل [Firefox](https://snapcraft.io/firefox). تعمل مجموعة [ConfinedUsers](https://fedoraproject.org/wiki/SIGs/ConfinedUsers) في مجتمع Fedora على وضع قيود أمنية على أجزاء أكثر من النظام.
 
-## General Recommendations
+## توصيات عامة
 
-### Drive Encryption
+### تشفير القرص
 
-Most Linux distributions have an option within its installer for enabling [LUKS](../encryption.md#linux-unified-key-setup) FDE. If this option isn’t set at installation time, you will have to back up your data and re-install, as encryption is applied after [disk partitioning](https://en.wikipedia.org/wiki/Disk_partitioning), but before [file systems](https://en.wikipedia.org/wiki/File_system) are formatted. We also suggest securely erasing your storage device:
+تتيح معظم توزيعات Linux خيار تفعيل تشفير القرص بالكامل [(LUKS FDE)](../encryption.md#linux-unified-key-setup) أثناء التثبيت. إذا لم تفعل هذا الخيار أثناء التثبيت، فستحتاج إلى حفظ نسخة احتياطية من بياناتك وإعادة تثبيت النظام، لأن التشفير يتم بعد [تقسيم القرص](https://en.wikipedia.org/wiki/Disk_partitioning) وقبل [تهيئته](https://en.wikipedia.org/wiki/File_system). ننصحك أيضا بمسح بيانات وحدة التخزين بشكل آمن:
 
-- [Secure Data Erasure :material-arrow-right-drop-circle:](https://www.privacyguides.org/articles/2022/05/25/secure-data-erasure/)
+- [مسح البيانات بشكل آمن :material-arrow-right-drop-circle:](https://www.privacyguides.org/articles/2022/05/25/secure-data-erasure/)
 
-### Swap
+### مساحة التبديل (swap)
 
-Consider using [ZRAM](https://wiki.archlinux.org/title/Zram#Using_zram-generator) instead of a traditional swap file or partition to avoid writing potentially sensitive memory data to persistent storage (and improve performance). Fedora-based distributions [use ZRAM by default](https://fedoraproject.org/wiki/Changes/SwapOnZRAM).
+فكّر في استخدام [ZRAM](https://wiki.archlinux.org/title/Zram#Using_zram-generator) بدلًا من ملف أو partition عادي، لتجنب حفظ بيانات قد تكون حساسة من الذاكرة على القرص بشكل دائم (ولتحسين الأداء أيضا). تستخدم التوزيعات المبنية على Fedora [تقنية ZRAM افتراضيا](https://fedoraproject.org/wiki/Changes/SwapOnZRAM).
 
-If you require suspend-to-disk (hibernation) functionality, you will still need to use a traditional swap file or partition. Make sure that any swap space you do have on a persistent storage device is [encrypted](https://wiki.archlinux.org/title/Dm-crypt/Swap_encryption) at a minimum to mitigate some of these threats.
+إذا كنت تحتاج إلى ميزة السبات (hibernation) (حفظ حالة النظام على القرص)، فستظل بحاجة إلى ملف أو partition عادي. تأكّد على الأقل من [تشفير](https://wiki.archlinux.org/title/Dm-crypt/Swap_encryption) أي مساحة تبديل (swap space) موجودة على القرص، لتقليل بعض هذه المخاطر.
 
 ### Proprietary Firmware (Microcode Updates)
 
