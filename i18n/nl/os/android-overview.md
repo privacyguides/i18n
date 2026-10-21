@@ -21,9 +21,12 @@ Key components of the Android security model include [verified boot](#verified-b
 
 ### Geverifieerde boot
 
-[**Verified Boot**](https://source.android.com/security/verifiedboot) is an important part of the Android security model. Het biedt bescherming tegen [evil maid](https://en.wikipedia.org/wiki/Evil_maid_attack) aanvallen, malware persistentie, en zorgt ervoor dat beveiligingsupdates niet kunnen worden gedowngraded met [rollback protection](https://source.android.com/security/verifiedboot/verified-boot#rollback-protection).
+[**Verified Boot**](https://source.android.com/security/verifiedboot) is an important part of the Android security model. From the documentation:
+> Verified Boot strives to ensure all executed code comes from a trusted source (usually device OEMs), rather than from an attacker or corruption. It establishes a full chain of trust, starting from a hardware-protected root of trust to the bootloader, to the boot partition and other verified partitions including system, vendor, and optionally oem partitions. During device boot up, each stage verifies the integrity and authenticity of the next stage before handing over execution.
 
-Android 10 en hoger is overgestapt van volledige schijfversleuteling naar meer flexibele [bestandsgebaseerde versleuteling](https://source.android.com/security/encryption/file-based). Jouw gegevens worden versleuteld met unieke encryptiesleutels, en de bestanden van het besturingssysteem blijven onversleuteld.
+It provides protection against malware persistence and ensures security updates cannot be downgraded with [rollback protection](https://source.android.com/security/verifiedboot/verified-boot#rollback-protection).
+
+Android 10 en hoger is overgestapt van volledige schijfversleuteling naar meer flexibele [bestandsgebaseerde versleuteling](https://source.android.com/security/encryption/file-based).
 
 Verified Boot garandeert de integriteit van de besturingssysteembestanden en voorkomt zo dat een tegenstander met fysieke toegang kan knoeien of malware op het apparaat kan installeren. In het onwaarschijnlijke geval dat malware in staat is om andere delen van het systeem te misbruiken en hogere geprivilegieerde toegang te verkrijgen, zal Verified Boot veranderingen aan de systeempartitie voorkomen en terugdraaien bij het herstarten van het apparaat.
 

@@ -21,9 +21,12 @@ Zu den Schlüsselkomponenten des Android-Sicherheitsmodells gehören [Verified B
 
 ### Verified Boot
 
-[**Verified Boot**](https://source.android.com/security/verifiedboot) ist ein elementarer Bestandteil des Android-Sicherheitsmodells. Es bietet Schutz vor [Evil Maid Angriffen](https://en.wikipedia.org/wiki/Evil_maid_attack), Malware-Persistenz und stellt sicher, dass Sicherheitsupdates nicht durch [Rollback-Schutz](https://source.android.com/security/verifiedboot/verified-boot#rollback-protection) herbagestuft werden können.
+[**Verified Boot**](https://source.android.com/security/verifiedboot) ist ein elementarer Bestandteil des Android-Sicherheitsmodells. From the documentation:
+> Verified Boot strives to ensure all executed code comes from a trusted source (usually device OEMs), rather than from an attacker or corruption. It establishes a full chain of trust, starting from a hardware-protected root of trust to the bootloader, to the boot partition and other verified partitions including system, vendor, and optionally oem partitions. During device boot up, each stage verifies the integrity and authenticity of the next stage before handing over execution.
 
-Android 10 und höher hat sich von der Festplattenverschlüsselung hin zu einer flexibleren [dateibasierten Verschlüsselung](https://source.android.com/security/encryption/file-based) entwickelt. Deine Daten werden mit eindeutigen Verschlüsselungsschlüsseln verschlüsselt, während die Betriebssystemdateien unverschlüsselt bleiben.
+It provides protection against malware persistence and ensures security updates cannot be downgraded with [rollback protection](https://source.android.com/security/verifiedboot/verified-boot#rollback-protection).
+
+Android 10 und höher hat sich von der Festplattenverschlüsselung hin zu einer flexibleren [dateibasierten Verschlüsselung](https://source.android.com/security/encryption/file-based) entwickelt.
 
 Verified Boot stellt die Integrität der Betriebssystemdateien sicher und verhindert so, dass ein Angreifer mit physischem Zugriff das Gerät manipulieren oder Malware installieren kann. Für den unwahrscheinlichen Fall, dass Malware in der Lage ist, andere Teile des Systems auszunutzen und höhere Privilegien zu erlangen, verhindert Verified Boot Änderungen an der Systempartition und macht sie beim Neustart des Geräts rückgängig.
 

@@ -21,9 +21,12 @@ Key components of the Android security model include [verified boot](#verified-b
 
 ### 已验证的启动
 
-[**Verified Boot**](https://source.android.com/security/verifiedboot) is an important part of the Android security model. 它能够保护您免受 [罪恶的](https://en.wikipedia.org/wiki/Evil_maid_attack) 攻击、恶意软件的持久性，并确保安全更新不能用 [回滚保护降级](https://source.android.com/security/verifiedboot/verified-boot#rollback-protection)
+[**Verified Boot**](https://source.android.com/security/verifiedboot) is an important part of the Android security model. From the documentation:
+> Verified Boot strives to ensure all executed code comes from a trusted source (usually device OEMs), rather than from an attacker or corruption. It establishes a full chain of trust, starting from a hardware-protected root of trust to the bootloader, to the boot partition and other verified partitions including system, vendor, and optionally oem partitions. During device boot up, each stage verifies the integrity and authenticity of the next stage before handing over execution.
 
-安卓10及以上版本已经从全盘加密转向更灵活的 [基于文件的加密](https://source.android.com/security/encryption/file-based)。你的数据使用独特的加密密钥进行加密，而操作系统文件则不被加密。
+It provides protection against malware persistence and ensures security updates cannot be downgraded with [rollback protection](https://source.android.com/security/verifiedboot/verified-boot#rollback-protection).
+
+安卓10及以上版本已经从全盘加密转向更灵活的 [基于文件的加密](https://source.android.com/security/encryption/file-based)。
 
 验证启动确保了操作系统文件的完整性，从而防止有物理访问权限的对手在设备上篡改或安装恶意软件。在不太可能的情况下，如果恶意软件能够利用系统的其他部分并获得更高的特权访问，验证性启动将防止并在重启设备时恢复对系统分区的更改。
 

@@ -21,9 +21,12 @@ Key components of the Android security model include [verified boot](#verified-b
 
 ### Verified Boot
 
-[**Verified Boot**](https://source.android.com/security/verifiedboot) is an important part of the Android security model. Він забезпечує захист від атак [evil maid](https://en.wikipedia.org/wiki/Evil_maid_attack), стійкість до шкідливого програмного забезпечення, та гарантує що оновлення безпеки не можуть бути знижені за допомогою [захисту від відкату](https://source.android.com/security/verifiedboot/verified-boot#rollback-protection).
+[**Verified Boot**](https://source.android.com/security/verifiedboot) is an important part of the Android security model. From the documentation:
+> Verified Boot strives to ensure all executed code comes from a trusted source (usually device OEMs), rather than from an attacker or corruption. It establishes a full chain of trust, starting from a hardware-protected root of trust to the bootloader, to the boot partition and other verified partitions including system, vendor, and optionally oem partitions. During device boot up, each stage verifies the integrity and authenticity of the next stage before handing over execution.
 
-Android 10 і вище перейшли від повного шифрування диска до більш гнучкішого [шифрування на основі файлів](https://source.android.com/security/encryption/file-based). Ваші дані шифруються за допомогою унікальних ключів шифрування, а файли операційної системи залишаються незашифрованими.
+It provides protection against malware persistence and ensures security updates cannot be downgraded with [rollback protection](https://source.android.com/security/verifiedboot/verified-boot#rollback-protection).
+
+Android 10 і вище перейшли від повного шифрування диска до більш гнучкішого [шифрування на основі файлів](https://source.android.com/security/encryption/file-based).
 
 Verified Boot забезпечує цілісність файлів операційної системи, тим самим запобігаючи зловмиснику з фізичним доступом втручатися або встановлювати шкідливе програмне забезпечення на пристрій. У малоймовірному випадку, коли шкідливе програмне забезпечення може експлуатувати інші частини системи та отримувати вищий привілейований доступ, Verified Boot запобігатиме та повертатиме зміни до системного розділу після перезавантаження пристрою.
 

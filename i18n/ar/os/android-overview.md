@@ -21,9 +21,12 @@ robots: nofollow, max-snippet:-1, max-image-preview:large
 
 ### التحقق من سلامة الإقلاع (Verified Boot)
 
-يُعد الـ[**Verified Boot**](https://source.android.com/security/verifiedboot) جزءا مهما من نظام الأمان في Android. يوفّر حماية من هجمات [Evil Maid](https://en.wikipedia.org/wiki/Evil_maid_attack)، ويمنع البرمجيات الخبيثة من البقاء على الجهاز، ويضمن عدم إمكانية الرجوع إلى إصدارات أقدم من التحديثات الأمنية بفضل ميزة [rollback protection](https://source.android.com/security/verifiedboot/verified-boot#rollback-protection).
+يُعد الـ[**Verified Boot**](https://source.android.com/security/verifiedboot) جزءا مهما من نظام الأمان في Android. From the documentation:
+> Verified Boot strives to ensure all executed code comes from a trusted source (usually device OEMs), rather than from an attacker or corruption. It establishes a full chain of trust, starting from a hardware-protected root of trust to the bootloader, to the boot partition and other verified partitions including system, vendor, and optionally oem partitions. During device boot up, each stage verifies the integrity and authenticity of the next stage before handing over execution.
 
-بدءًا من Android 10، انتقل النظام من تشفير القرص بالكامل إلى [تشفير الملفات](https://source.android.com/security/encryption/file-based)، الذي يوفر مرونة أكبر. تُشفر بياناتك باستخدام مفاتيح تشفير فريدة، بينما تظل ملفات نظام التشغيل غير مشفرة.
+It provides protection against malware persistence and ensures security updates cannot be downgraded with [rollback protection](https://source.android.com/security/verifiedboot/verified-boot#rollback-protection).
+
+بدءًا من Android 10، انتقل النظام من تشفير القرص بالكامل إلى [تشفير الملفات](https://source.android.com/security/encryption/file-based)، الذي يوفر مرونة أكبر.
 
 يضمن الـVerified Boot سلامة ملفات نظام التشغيل وعدم التلاعب بها، مما يمنع أي مهاجم لديه وصول فعلي إلى الجهاز من تعديل هذه الملفات أو تثبيت برمجيات خبيثة عليه. في حال تمكنت برمجية خبيثة، رغم ندرة حدوث ذلك، من استغلال أجزاء أخرى من النظام والحصول على صلاحيات أعلى، فإن الـ Verified Boot سيمنع استمرار أي تغييرات أُجريت على النظام، ويعيده إلى حالته الأصلية عند إعادة تشغيل الجهاز.
 

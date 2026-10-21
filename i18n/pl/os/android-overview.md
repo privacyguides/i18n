@@ -21,9 +21,12 @@ Kluczowe elementy modelu bezpieczeństwa Androida obejmują proces [Verified Boo
 
 ### Verified Boot
 
-[**Verified Boot**](https://source.android.com/security/verifiedboot) jest ważnym elementem modelu bezpieczeństwa Androida. Zapewnia ochronę przed atakami typu [evil maid](https://en.wikipedia.org/wiki/Evil_maid_attack), przed trwałym utrzymaniem złośliwego oprogramowania oraz gwarantuje, że aktualizacje zabezpieczeń nie mogą zostać cofnięte dzięki [ochronie przed cofnięciem (rollback protection)](https://source.android.com/security/verifiedboot/verified-boot#rollback-protection).
+[**Verified Boot**](https://source.android.com/security/verifiedboot) jest ważnym elementem modelu bezpieczeństwa Androida. From the documentation:
+> Verified Boot strives to ensure all executed code comes from a trusted source (usually device OEMs), rather than from an attacker or corruption. It establishes a full chain of trust, starting from a hardware-protected root of trust to the bootloader, to the boot partition and other verified partitions including system, vendor, and optionally oem partitions. During device boot up, each stage verifies the integrity and authenticity of the next stage before handing over execution.
 
-Android 10 i nowsze przeszły od szyfrowania całego dysku do bardziej elastycznego [szyfrowania opartego na plikach](https://source.android.com/security/encryption/file-based). Twoje dane są szyfrowane za pomocą unikatowych kluczy, natomiast pliki systemu operacyjnego pozostają nieszyfrowane.
+It provides protection against malware persistence and ensures security updates cannot be downgraded with [rollback protection](https://source.android.com/security/verifiedboot/verified-boot#rollback-protection).
+
+Android 10 i nowsze przeszły od szyfrowania całego dysku do bardziej elastycznego [szyfrowania opartego na plikach](https://source.android.com/security/encryption/file-based).
 
 Verified Boot zapewnia integralność plików systemu operacyjnego, uniemożliwiając osobie z fizycznym dostępem do urządzenia modyfikowanie lub instalowanie złośliwego oprogramowania. W mało prawdopodobnym przypadku, gdy złośliwe oprogramowanie wykorzysta inne części systemu i uzyska wyższe uprawnienia, Verified Boot powstrzyma i cofnie zmiany w partycji systemowej po ponownym uruchomieniu urządzenia.
 

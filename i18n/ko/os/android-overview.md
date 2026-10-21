@@ -21,9 +21,12 @@ robots: nofollow, max-snippet:-1, max-image-preview:large
 
 ### 자체 검사 부팅 { #verified-boot }
 
-[**자체 검사 부팅**](https://source.android.com/security/verifiedboot)은 안드로이드 보안 모델의 중요한 부분입니다. [이블 메이드](https://en.wikipedia.org/wiki/Evil_maid_attack) 공격과 멀웨어의 지속성으로부터 보호하고, [롤백 보호](https://source.android.com/security/verifiedboot/verified-boot#rollback-protection)를 통해 보안 업데이트가 다운그레이드되지 않도록 보장합니다.
+[**자체 검사 부팅**](https://source.android.com/security/verifiedboot)은 안드로이드 보안 모델의 중요한 부분입니다. From the documentation:
+> Verified Boot strives to ensure all executed code comes from a trusted source (usually device OEMs), rather than from an attacker or corruption. It establishes a full chain of trust, starting from a hardware-protected root of trust to the bootloader, to the boot partition and other verified partitions including system, vendor, and optionally oem partitions. During device boot up, each stage verifies the integrity and authenticity of the next stage before handing over execution.
 
-안드로이드 10 이상은 전체 디스크 암호화에서 더 유연한 [파일 기반 암호화](https://source.android.com/security/encryption/file-based)로 전환했습니다. 여러분의 데이터는 고유한 암호화 키로 암호화되고, 운영 체제 파일은 암호화되지 않은 상태로 유지됩니다.
+It provides protection against malware persistence and ensures security updates cannot be downgraded with [rollback protection](https://source.android.com/security/verifiedboot/verified-boot#rollback-protection).
+
+안드로이드 10 이상은 전체 디스크 암호화에서 더 유연한 [파일 기반 암호화](https://source.android.com/security/encryption/file-based)로 전환했습니다.
 
 자체 검사 부팅은 운영 체제 파일의 무결성을 보장하여, 물리적으로 접근할 수 있는 공격자가 기기를 변조하거나 멀웨어를 설치하는 것을 방지합니다. 만일 멀웨어가 시스템의 다른 부분을 악용하여 더 높은 권한을 얻더라도, 자체 검사 부팅은 기기를 재부팅할 때 시스템 파티션의 변경 사항을 차단하고 되돌립니다.
 

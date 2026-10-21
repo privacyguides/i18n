@@ -21,9 +21,12 @@ Los componentes clave del modelo de seguridad de Android incluyen el [arranque v
 
 ### Arranque verificado
 
-El [**Arranque Verificado**](https://source.android.com/security/verifiedboot) es una parte importante del modelo de seguridad de Android. Proviene de protección contra ataques [evil maid](https://en.wikipedia.org/wiki/Evil_maid_attack), persistencia del malware, y se asegura que las actualizaciones de seguridad no puedan ser desactualizadas gracias a la [protección de reversión](https://source.android.com/security/verifiedboot/verified-boot#rollback-protection).
+El [**Arranque Verificado**](https://source.android.com/security/verifiedboot) es una parte importante del modelo de seguridad de Android. From the documentation:
+> Verified Boot strives to ensure all executed code comes from a trusted source (usually device OEMs), rather than from an attacker or corruption. It establishes a full chain of trust, starting from a hardware-protected root of trust to the bootloader, to the boot partition and other verified partitions including system, vendor, and optionally oem partitions. During device boot up, each stage verifies the integrity and authenticity of the next stage before handing over execution.
 
-Android 10 y superior se han alejado del cifrado de disco completo por un cifrado más flexible [basado en archivos](https://source.android.com/security/encryption/file-based). Tus datos se encriptan utilizando claves de encriptación únicas, y los archivos del sistema operativo se dejan sin encriptar.
+It provides protection against malware persistence and ensures security updates cannot be downgraded with [rollback protection](https://source.android.com/security/verifiedboot/verified-boot#rollback-protection).
+
+Android 10 y superior se han alejado del cifrado de disco completo por un cifrado más flexible [basado en archivos](https://source.android.com/security/encryption/file-based).
 
 El arranque verificado garantiza la integridad de los archivos del sistema operativo, evitando así que un adversario con acceso físico pueda manipular o instalar malware en el dispositivo. En el improbable caso de que el malware pueda explotar otras partes del sistema y obtener un acceso privilegiado más alto, el arranque verificado evitará y revertirá los cambios en la partición del sistema al reiniciar el dispositivo.
 

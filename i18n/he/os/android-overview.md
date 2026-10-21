@@ -21,9 +21,12 @@ Key components of the Android security model include [verified boot](#verified-b
 
 ### אתחול מאומת
 
-[**Verified Boot**](https://source.android.com/security/verifiedboot) is an important part of the Android security model. הוא מספק הגנה מפני התקפות [משרתת רעה](https://en.wikipedia.org/wiki/Evil_maid_attack), התמדה של תוכנות זדוניות, ומבטיח שלא ניתן לשדרג לאחור עדכוני אבטחה עם [הגנה לאחור](https://source.android.com/security/verifiedboot/verified-boot#rollback-protection).
+[**Verified Boot**](https://source.android.com/security/verifiedboot) is an important part of the Android security model. From the documentation:
+> Verified Boot strives to ensure all executed code comes from a trusted source (usually device OEMs), rather than from an attacker or corruption. It establishes a full chain of trust, starting from a hardware-protected root of trust to the bootloader, to the boot partition and other verified partitions including system, vendor, and optionally oem partitions. During device boot up, each stage verifies the integrity and authenticity of the next stage before handing over execution.
 
-אנדרואיד 10 ומעלה עברה מהצפנה בדיסק מלא ל[הצפנה מבוססת קבצים](https://source.android.com/security/encryption/file-based) גמישה יותר. הנתונים שלך מוצפנים באמצעות מפתחות הצפנה ייחודיים, וקבצי מערכת ההפעלה נותרים לא מוצפנים.
+It provides protection against malware persistence and ensures security updates cannot be downgraded with [rollback protection](https://source.android.com/security/verifiedboot/verified-boot#rollback-protection).
+
+אנדרואיד 10 ומעלה עברה מהצפנה בדיסק מלא ל[הצפנה מבוססת קבצים](https://source.android.com/security/encryption/file-based) גמישה יותר.
 
 אתחול מאומת מבטיח את שלמות קבצי מערכת ההפעלה, ובכך מונע מיריב בעל גישה פיזית לחבל או להתקין תוכנה זדונית במכשיר. במקרה הבלתי סביר שתוכנות זדוניות מסוגלות לנצל חלקים אחרים של המערכת ולהשיג גישה מוסמכת יותר, אתחול מאומת ימנע ותחזיר שינויים במחיצת המערכת עם אתחול המכשיר מחדש.
 

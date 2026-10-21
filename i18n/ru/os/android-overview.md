@@ -21,9 +21,12 @@ Key components of the Android security model include [verified boot](#verified-b
 
 ### Проверенная загрузка
 
-[**Проверенная загрузка**](https://source.android.com/security/verifiedboot) является важной частью модели безопасности Android. Она обеспечивает защиту от [атак злой горничной](https://encyclopedia.kaspersky.ru/glossary/evil-maid/), сохранения вредоносных программ и гарантирует, что обновления безопасности не могут быть понижены с помощью [защиты от отката](https://source.android.com/security/verifiedboot/verified-boot?hl=ru#rollback-protection).
+[**Проверенная загрузка**](https://source.android.com/security/verifiedboot) является важной частью модели безопасности Android. From the documentation:
+> Verified Boot strives to ensure all executed code comes from a trusted source (usually device OEMs), rather than from an attacker or corruption. It establishes a full chain of trust, starting from a hardware-protected root of trust to the bootloader, to the boot partition and other verified partitions including system, vendor, and optionally oem partitions. During device boot up, each stage verifies the integrity and authenticity of the next stage before handing over execution.
 
-Android 10 и выше перешел от шифрования всего диска к более гибкому [файловому шифрованию](https://source.android.com/security/encryption/file-based?hl=ru). Ваши данные шифруются с помощью уникальных ключей шифрования, а файлы операционной системы остаются незашифрованными.
+It provides protection against malware persistence and ensures security updates cannot be downgraded with [rollback protection](https://source.android.com/security/verifiedboot/verified-boot#rollback-protection).
+
+Android 10 и выше перешел от шифрования всего диска к более гибкому [файловому шифрованию](https://source.android.com/security/encryption/file-based?hl=ru).
 
 Проверенная загрузка обеспечивает целостность файлов операционной системы, тем самым не позволяя недоброжелателям с физическим доступом взломать устройство или установить на него вредоносное ПО. В маловероятном случае, если вредоносное ПО сможет использовать другие части системы и получить более высокий привилегированный доступ, проверенная загрузка предотвратит и отменит изменения в системный раздел при перезагрузке устройства.
 

@@ -21,9 +21,12 @@ Key components of the Android security model include [verified boot](#verified-b
 
 ### Avvio Verificato
 
-[**Verified Boot**](https://source.android.com/security/verifiedboot) is an important part of the Android security model. Fornisce protezione dagli attacchi di [evil maid](https://en.wikipedia.org/wiki/Evil_maid_attack), la persistenza del malware e assicura che gli aggiornamenti di sicurezza non siano rimuovibili con la [protezione da rollback](https://source.android.com/security/verifiedboot/verified-boot#rollback-protection).
+[**Verified Boot**](https://source.android.com/security/verifiedboot) is an important part of the Android security model. From the documentation:
+> Verified Boot strives to ensure all executed code comes from a trusted source (usually device OEMs), rather than from an attacker or corruption. It establishes a full chain of trust, starting from a hardware-protected root of trust to the bootloader, to the boot partition and other verified partitions including system, vendor, and optionally oem partitions. During device boot up, each stage verifies the integrity and authenticity of the next stage before handing over execution.
 
-Android 10 e superiori si sono allontanati dalla crittografia dell'intero disco, verso una [crittografia basata sui file](https://source.android.com/security/encryption/file-based) più sicura. I tuoi dati sono crittografati utilizzando chiavi crittografiche univoche e il file del sistema operativo sono lasciati non crittografati.
+It provides protection against malware persistence and ensures security updates cannot be downgraded with [rollback protection](https://source.android.com/security/verifiedboot/verified-boot#rollback-protection).
+
+Android 10 e superiori si sono allontanati dalla crittografia dell'intero disco, verso una [crittografia basata sui file](https://source.android.com/security/encryption/file-based) più sicura.
 
 L'Avvio Verificato assicura l'integrità dei file del sistema operativo, dunque impedendo a un avversario con l'accesso fisico, di manomettere o installare malware sul dispositivo. Nell'improbabile caso in cui il malware possa sfruttare altre parti del sistema e ottenere accesso privilegiato superiore, l'Avvio Verificato impedirà e ripristinerà le modifiche alla partizione di sistema, al riavvio del dispositivo.
 

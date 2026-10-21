@@ -21,9 +21,12 @@ Key components of the Android security model include [verified boot](#verified-b
 
 ### Verified Boot
 
-[**Verified Boot**](https://source.android.com/security/verifiedboot) is an important part of the Android security model. Védelmet nyújt az [evil maid](https://en.wikipedia.org/wiki/Evil_maid_attack) támadások, valamint rosszindulatú programok állandósulása ellen, és biztosítja a [rollback védelem](https://source.android.com/security/verifiedboot/verified-boot#rollback-protection) segítségével, hogy a biztonsági frissítéseket ne lehessen downgradelni.
+[**Verified Boot**](https://source.android.com/security/verifiedboot) is an important part of the Android security model. From the documentation:
+> Verified Boot strives to ensure all executed code comes from a trusted source (usually device OEMs), rather than from an attacker or corruption. It establishes a full chain of trust, starting from a hardware-protected root of trust to the bootloader, to the boot partition and other verified partitions including system, vendor, and optionally oem partitions. During device boot up, each stage verifies the integrity and authenticity of the next stage before handing over execution.
 
-Az Android 10 és újabb verziói a teljes lemezes titkosítás helyett a rugalmasabb [fájlalapú titkosítást](https://source.android.com/security/encryption/file-based) használja. Az adataidat egyedi titkosítási kulcsok segítségével lesz titkosítva, az operációs rendszer fájljai pedig titkosítatlanok maradnak.
+It provides protection against malware persistence and ensures security updates cannot be downgraded with [rollback protection](https://source.android.com/security/verifiedboot/verified-boot#rollback-protection).
+
+Az Android 10 és újabb verziói a teljes lemezes titkosítás helyett a rugalmasabb [fájlalapú titkosítást](https://source.android.com/security/encryption/file-based) használja.
 
 A Verified Boot biztosítja az operációs rendszerfájlok integritását, ezáltal megakadályozza, hogy egy fizikai hozzáféréssel rendelkező támadó változásokat hajtson létre, vagy rosszindulatú programot telepítsen az eszközre. Abban a valószínűtlen esetben, ha rosszindulatú szoftverek képesek kihasználni a rendszer más részeit, és magasabb jogosultságú hozzáférést szereznek, a Verified Boot megakadályozza és visszaállítja a rendszerpartíció változásait az eszköz újraindításakor.
 
