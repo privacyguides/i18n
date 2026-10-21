@@ -78,7 +78,7 @@ OpenPGP 也不支援[前向保密](https://en.wikipedia.org/wiki/Forward_secrecy
 
 ##### 遙測
 
-- [ ] Uncheck **Allow Thunderbird to send technical and interaction data to Mozilla**
+- [ ] 取消勾選 **與 Mozilla 匿名分享效能資料**
 
 #### Thunderbird-user.js （進階）
 

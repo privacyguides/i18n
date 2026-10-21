@@ -70,13 +70,13 @@ cover: activism/banner-toolbox-tip-rest.webp
 
 - **找朋友：** 找一個可以與你交流的 [同儕社群](https://discuss.privacyguides.net/)。與社群交流資源，並尋求社群的支持。請記住，在這場戰鬥中，你並不孤單。
 
-- **分工合作：** 將任務委派給隱私戰友。 Seek allies and [alliances](tip-start-alliances-not-wars.md). Reach out for help, and don't take all the responsibilities of your projects on your own shoulders. Build a team, and learn to trust others with the work.
+- **分工合作：** 將任務委派給隱私戰友。尋求盟友與[聯盟](tip-start-alliances-not-wars.md)。尋找幫手，不要把專案的所有責任都扛在自己身上。組團隊，並學習信任他人，並將工作交給他們處理。
 
-- **Celebrate!** Take the time to celebrate each victory, no matter how small. Celebrate with your peers too, and never miss an opportunity to [congratulate](tip-give-credit-where-credit-is-due.md) everyone's hard work.
+- **要慶祝！** 無論勝利多麼微小，都要花時間好好慶祝。也別忘了也要跟同伴們一起慶祝，並務必把握每個機會，向大家[道謝](tip-give-credit-where-credit-is-due.md)，以表彰辛勤付出的每一分子。
 
-- **Take vacations:** Plan longer breaks through the year with activities that will have nothing to do with your privacy advocacy work. Make sure they are long enough that you have time to even miss the privacy battlefield, and come back eagerly once you are fully rested.
+- \*\*安排假期：\*\*在一年中規劃較長的休假，並安排一些與您推動隱私權倡議工作完全無關的活動。請確保這些時間足夠長，甚至讓你有時間懷念隱私的戰場，並在充分休息後滿懷期待地重返前線。
 
-- **Plan your (temporary) replacement:** If you are in a leadership position, make sure there is a system in place to take over your responsibilities fully when you need time off. You shouldn't be indispensable for your projects to keep going in the short term, and you should have the same access to time off as the rest of your team. As a leader, it's important to valorize rest for your team, leading by example. Rest is essential for you too.
+- **規劃您的（臨時）代理人選：** 如果您身居領導職位，請確保已建立一套機制，以便在您需要休假時，有人能全面接手您的職責。 You shouldn't be indispensable for your projects to keep going in the short term, and you should have the same access to time off as the rest of your team. As a leader, it's important to valorize rest for your team, leading by example. Rest is essential for you too.
 
 - **Keep hope with long-term objectives:** If you feel discouraged by the current state of privacy rights, try to keep in mind the bigger picture. We will lose many fights on the journey to improvement. This is to be expected. But all the work we do matters, including the fights we lose. Try to focus on the movement as a whole, and on advancing privacy rights even just a little in our lifetime. See defeats as opportunities to learn from for the next stronger and better-organized battle.
 

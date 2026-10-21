@@ -21,10 +21,10 @@ Android 安全模型的關鍵元件包括[驗證啟動](#verified-boot)、[韌�
 
 ### 驗證啟動
 
-[**驗證啟動**](https://source.android.com/security/verifiedboot)是 Android 安全模型的重要部分。 From the documentation:
-> Verified Boot strives to ensure all executed code comes from a trusted source (usually device OEMs), rather than from an attacker or corruption. It establishes a full chain of trust, starting from a hardware-protected root of trust to the bootloader, to the boot partition and other verified partitions including system, vendor, and optionally oem partitions. During device boot up, each stage verifies the integrity and authenticity of the next stage before handing over execution.
+[**驗證啟動**](https://source.android.com/security/verifiedboot)是 Android 安全模型的重要部分。以下引用自說明文件：
+> 「驗證啟動」（Verified Boot）旨在確保所有執行的程式碼均來自可信來源（通常為裝置製造商），而非來自攻擊者或因資料損毀所致。其建立一條完整的信任鏈，從受硬體保護的信任根開始，延伸至開機載入程式、開機分割區，及其他經過驗證的分割區，包括系統分割區、廠商分割區，乃至選擇性的 OEM 分割區。在裝置開機過程中，每個階段都會在移交執行權限之前，先驗證下一階段的完整性（integrity）與真實性（authenticity）。
 
-It provides protection against malware persistence and ensures security updates cannot be downgraded with [rollback protection](https://source.android.com/security/verifiedboot/verified-boot#rollback-protection).
+其提供防範惡意內部人員攻擊和惡意軟體持續感染的保護，並透過[回滾保護](https://source.android.com/security/verifiedboot/verified-boot#rollback-protection)確保安全性更新無法降級。
 
 Android 10 及以上版本已從全磁碟加密轉變為更靈活的[基於文件的加密](https://source.android.com/security/encryption/file-based)。
 
