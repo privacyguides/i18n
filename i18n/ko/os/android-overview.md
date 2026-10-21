@@ -21,10 +21,10 @@ robots: nofollow, max-snippet:-1, max-image-preview:large
 
 ### 자체 검사 부팅 { #verified-boot }
 
-[**자체 검사 부팅**](https://source.android.com/security/verifiedboot)은 안드로이드 보안 모델의 중요한 부분입니다. From the documentation:
-> Verified Boot strives to ensure all executed code comes from a trusted source (usually device OEMs), rather than from an attacker or corruption. It establishes a full chain of trust, starting from a hardware-protected root of trust to the bootloader, to the boot partition and other verified partitions including system, vendor, and optionally oem partitions. During device boot up, each stage verifies the integrity and authenticity of the next stage before handing over execution.
+[**자체 검사 부팅**](https://source.android.com/security/verifiedboot)은 안드로이드 보안 모델의 중요한 부분입니다. 문서에서 발췌:
+> 검증된 부팅(Verified Boot)은 실행되는 모든 코드가 공격자나 손상된 소스가 아닌 신뢰할 수 있는 출처(일반적으로 기기 OEM)에서 비롯되도록 보장하기 위해 노력합니다. 이 기술은 하드웨어로 보호되는 신뢰의 근원(root of trust)부터 부트 로더, 부트 파티션, 그리고 시스템, 벤더, 선택적으로 OEM 파티션을 포함한 기타 검증된 파티션에 이르기까지 완전한 신뢰 체인을 구축합니다. 장치가 부팅되는 동안, 각 단계는 실행을 다음 단계로 넘기기 전에 다음 단계의 무결성과 진위 여부를 확인합니다.
 
-It provides protection against malware persistence and ensures security updates cannot be downgraded with [rollback protection](https://source.android.com/security/verifiedboot/verified-boot#rollback-protection).
+이 기능은 악성코드의 지속성을 차단하고, [롤백 방지 기능을](https://source.android.com/security/verifiedboot/verified-boot#rollback-protection) 통해 보안 업데이트가 이전 버전으로 되돌려지지 않도록 보장합니다.
 
 안드로이드 10 이상은 전체 디스크 암호화에서 더 유연한 [파일 기반 암호화](https://source.android.com/security/encryption/file-based)로 전환했습니다.
 
