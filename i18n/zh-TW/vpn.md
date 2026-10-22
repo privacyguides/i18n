@@ -129,9 +129,9 @@ Proton VPN 客戶端目前在所有平台上都支援雙因素身份驗證。 Pr
 
 ##### Kill switch 功能在 macOS 上的防護效果不佳
 
-Proton VPN's kill switch on macOS does not block any traffic when you intentionally disconnect from the VPN, *including when you disconnect by switching servers.* You should not make any sensitive connections while the VPN is turned off, nor when switching servers. It is only designed to prevent traffic leaks in the case of an unexpected VPN disconnection, which is still a useful feature to have, but it does not provide the same level of protection as a kill switch that blocks all traffic when the VPN is turned off.
+在 macOS 上，Proton VPN 的 kill switch 功能在您刻意斷開 VPN 連線時，*包括切換伺服器而斷開連線的情況*，並不會阻擋任何流量。當 VPN 處於關閉狀態或正在切換伺服器時，您不應建立任何敏感的連線。此機制僅旨在防止在 VPN 意外斷線時發生流量外洩，雖然這仍是一項實用的功能，但它並未提供與 kill switch 同等的保護等級——後者會在 VPN 關閉時阻斷所有流量。
 
-Additionally, system crashes [may occur](https://protonvpn.com/support/macos-t2-chip-kill-switch) on Intel-based Macs when using the VPN kill switch. 如果您需要此功能，但使用的是搭載 Intel 處理器的 Mac 電腦 ，則應考慮使用其他 VPN 服務。
+此外，在基於 Intel 的 Mac 上使用 VPN kill switch 功能時，[可能會發生](https://protonvpn.com/support/macos-t2-chip-kill-switch)系統當機的情況。如果您需要此功能，但使用的是搭載 Intel 處理器的 Mac 電腦 ，則應考慮使用其他 VPN 服務。
 
 ### IVPN
 
