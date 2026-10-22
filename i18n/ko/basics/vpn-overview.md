@@ -9,7 +9,7 @@ description: 가상 사설망(VPN)은 위험을 ISP에서 여러분이 신뢰하
 
 [:material-movie-open-play-outline: 동영상: VPN이 필요할까요?](https://www.privacyguides.org/videos/2024/12/12/do-you-need-a-vpn ""){.md-button}
 
-일반적으로 ISP는 네트워크 종단 장치(즉, 모뎀)로 들어오고 나가는 인터넷 트래픽의 흐름을 볼 수 있습니다. 인터넷에서는 HTTPS 같은 암호화 프로토콜이 널리 사용되므로 ISP가 여러분이 무엇을 게시하거나 읽는지 정확히 볼 수는 없겠지만, 여러분이 [요청하는 도메인](../advanced/dns-overview.md#why-shouldnt-i-use-encrypted-dns)은 파악할 수 있습니다.
+일반적으로 ISP는 네트워크 종단 장치(즉, 모뎀)로 들어오고 나가는 인터넷 트래픽의 흐름을 볼 수 있습니다. Encryption protocols such as HTTPS are commonly used on the internet, so they may not be able to see exactly what you're posting or reading, but they can get an idea of the [domains you request](../advanced/dns-overview.md#encrypted-dns-limitations).
 
 VPN을 사용하면 네트워크에 두던 신뢰를 세계 다른 곳의 서버로 옮김으로써 이러한 정보조차 ISP로부터 숨길 수 있습니다. 그 결과 ISP는 여러분이 VPN에 연결되어 있다는 사실만 알 수 있을 뿐, VPN을 통해 오가는 활동에 대해서는 아무것도 알 수 없습니다.
 

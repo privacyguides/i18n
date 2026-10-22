@@ -9,7 +9,7 @@ Wirtualne sieci prywatne to sposób na „przedłużenie” końca Twojej sieci 
 
 [:material-movie-open-play-outline: Wideo: Czy potrzebujesz VPN?](https://www.privacyguides.org/videos/2024/12/12/do-you-need-a-vpn ""){.md-button}
 
-Zwykle dostawca usług internetowych może zobaczyć przepływ ruchu internetowego przychodzącego i wychodzącego z urządzenia końcowego sieci (tj. modemu). Protokoły szyfrujące, takie jak HTTPS, są powszechnie stosowane w Internecie, więc dostawca może nie widzieć dokładnie tego, co publikujesz lub czytasz, ale może mieć pojęcie o [domenach, do których kierujesz zapytania](../advanced/dns-overview.md#why-shouldnt-i-use-encrypted-dns).
+Zwykle dostawca usług internetowych może zobaczyć przepływ ruchu internetowego przychodzącego i wychodzącego z urządzenia końcowego sieci (tj. modemu). Encryption protocols such as HTTPS are commonly used on the internet, so they may not be able to see exactly what you're posting or reading, but they can get an idea of the [domains you request](../advanced/dns-overview.md#encrypted-dns-limitations).
 
 Korzystanie z VPN ukrywa nawet te informacje przed dostawcą, przenosząc zaufanie, które pokładasz w swojej sieci, na serwer zlokalizowany gdzie indziej na świecie. W efekcie ISP widzi jedynie, że jesteś połączony z VPN, ale nie ma dostępu do informacji o aktywności przesyłanej przez to połączenie.
 

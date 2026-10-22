@@ -9,7 +9,7 @@ Virtual Private Networks zijn een manier om het einde van je netwerk uit te brei
 
 [:material-movie-open-play-outline: Video: Do you need a VPN?](https://www.privacyguides.org/videos/2024/12/12/do-you-need-a-vpn ""){.md-button}
 
-Normaal gesproken kan een ISP de stroom internetverkeer zien die je netwerkapparaat (d.w.z. modem) binnenkomt en verlaat. Versleutelingsprotocollen zoals HTTPS worden vaak gebruikt op het internet, dus ze kunnen misschien niet precies zien wat je post of leest, maar ze kunnen wel een idee krijgen van de [domeinen die je opvraagt](../advanced/dns-overview.md#why-shouldnt-i-use-encrypted-dns).
+Normaal gesproken kan een ISP de stroom internetverkeer zien die je netwerkapparaat (d.w.z. modem) binnenkomt en verlaat. Encryption protocols such as HTTPS are commonly used on the internet, so they may not be able to see exactly what you're posting or reading, but they can get an idea of the [domains you request](../advanced/dns-overview.md#encrypted-dns-limitations).
 
 Het gebruik van een VPN verbergt zelfs deze informatie voor je ISP, door het vertrouwen dat je in je netwerk stelt te verplaatsen naar een server ergens anders in de wereld. Hierdoor ziet de ISP alleen dat je verbonden bent met een VPN en niets over de activiteit die je er doorheen stuurt.
 

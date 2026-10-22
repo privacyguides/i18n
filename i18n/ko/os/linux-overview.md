@@ -145,9 +145,9 @@ systemctl restart NetworkManager
 
 선택적으로 연결 매개변수를 `random`에서 `stable`로 바꾸면 *네트워크마다* 무작위 MAC 주소가 할당되지만, 나중에 같은 네트워크에 다시 연결할 때는 같은 주소가 유지됩니다. `random`을 사용하면 *연결할 때마다* 무작위 MAC 주소가 할당됩니다. 이는 캡티브 포털이 있는 네트워크나 고정 DHCP 할당을 사용하는 네트워크에서 바람직할 수 있지만, 여러 번 연결하는 단일 네트워크 운영자에게 더 쉽게 식별될 수 있다는 단점이 있습니다.
 
-[systemd-networkd](https://en.wikipedia.org/wiki/Systemd#Ancillary_components)를 사용한다면 [RFC 7844(DHCP 클라이언트용 익명성 프로필)](https://freedesktop.org/software/systemd/man/systemd.network.html#Anonymize=)를 활성화하는 [`MACAddressPolicy=random`](https://freedesktop.org/software/systemd/man/systemd.link.html#MACAddressPolicy=)을 설정해야 합니다.
+If you are using [systemd-networkd](https://en.wikipedia.org/wiki/Systemd#Ancillary_components), set [`MACAddressPolicy=random`](https://freedesktop.org/software/systemd/man/systemd.link.html#MACAddressPolicy=) in your .link configuration to randomize your MAC address. To enable [RFC 7844 (Anonymity Profiles for DHCP Clients)](https://freedesktop.org/software/systemd/man/systemd.network.html#Anonymize=), you must also set Anonymize=yes in the [DHCPv4] section of your .network configuration.
 
-MAC 주소 무작위화는 주로 와이파이 연결에서 유용합니다. 이더넷 연결에서는 네트워크 관리자가 (네트워크 스위치에서 연결된 포트를 확인하는 등) 다른 방법으로 기기를 쉽게 식별할 수 있으므로, MAC 주소를 무작위화해도 이점이 거의 (또는 전혀) 없습니다. 와이파이 MAC 주소 무작위화는 와이파이 펌웨어의 지원 여부에 따라 달라집니다.
+MAC 주소 무작위화는 주로 와이파이 연결에서 유용합니다. 이더넷 연결에서는 네트워크 관리자가 (네트워크 스위치에서 연결된 포트를 확인하는 등) 다른 방법으로 기기를 쉽게 식별할 수 있으므로, MAC 주소를 무작위화해도 이점이 거의 (또는 전혀) 없습니다. Randomizing Wi-Fi MAC addresses depends on support from the Wireless Network Interface Controller’s firmware.
 
 ### 기타 식별자 { #other-identifiers }
 

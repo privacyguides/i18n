@@ -145,9 +145,9 @@ systemctl restart NetworkManager
 
 選擇性地將連線參數從 `random` 變更為 `stable`，會為*每個網路*提供一個隨機的 MAC 位址，但稍後重新連線時會保持固定。使用 `random` 為*每次連線*提供隨機 MAC 位址。這對於有專屬入口網站的網路或有靜態 DHCP 指派的網路來說可能是令人嚮往的，但其代價是讓您更容易被您多次連線的單一網路業者識別。
 
-如果使用 [systemd-networkd](https://en.wikipedia.org/wiki/Systemd#Ancillary_components)，則需要設定 [`MACAddressPolicy=random`](https://freedesktop. org/software /systemd/man/systemd.link.html#MACAddressPolicy=) 這將啟用[RFC 7844（DHCP 用戶端的匿名設定檔）](https://freedesktop.org/software/ systemd/man /systemd.network.html#Anonymize=)。
+If you are using [systemd-networkd](https://en.wikipedia.org/wiki/Systemd#Ancillary_components), set [`MACAddressPolicy=random`](https://freedesktop.org/software/systemd/man/systemd.link.html#MACAddressPolicy=) in your .link configuration to randomize your MAC address. To enable [RFC 7844 (Anonymity Profiles for DHCP Clients)](https://freedesktop.org/software/systemd/man/systemd.network.html#Anonymize=), you must also set Anonymize=yes in the [DHCPv4] section of your .network configuration.
 
-MAC 位址隨機化主要有利於 Wi-Fi 連接。對於乙太網路連接，隨機化 MAC 位址幾乎沒什麼好處(如果有的話)，因為網路管理員可以通過其他方式輕鬆識別您的裝置(例如檢查您在網路交換機上連接的端口)。隨機化 Wi-Fi MAC 位址必須有 Wi-Fi 靭體支援。
+MAC 位址隨機化主要有利於 Wi-Fi 連接。對於乙太網路連接，隨機化 MAC 位址幾乎沒什麼好處(如果有的話)，因為網路管理員可以通過其他方式輕鬆識別您的裝置(例如檢查您在網路交換機上連接的端口)。 Randomizing Wi-Fi MAC addresses depends on support from the Wireless Network Interface Controller’s firmware.
 
 ### 其他標識符
 

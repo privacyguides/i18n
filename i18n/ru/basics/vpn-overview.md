@@ -9,7 +9,7 @@ description: Virtual Private Networks shift risk away from your ISP to a third-p
 
 [:material-movie-open-play-outline: Нужен ли вам VPN?](https://www.privacyguides.org/videos/2024/12/12/do-you-need-a-vpn ""){.md-button}
 
-Обычно провайдер может видеть поток интернет-трафика, входящего и выходящего сетевого устройства (т.е. модема). В интернете широко используются протоколы шифрования, такие как HTTPS, поэтому интернет-провайдеры не могут видеть, что именно Вы публикуете или читаете, но они могут получить представление о [посещаемых вами доменах](../advanced/dns-overview.md#why-shouldnt-i-use-encrypted-dns).
+Обычно провайдер может видеть поток интернет-трафика, входящего и выходящего сетевого устройства (т.е. модема). Encryption protocols such as HTTPS are commonly used on the internet, so they may not be able to see exactly what you're posting or reading, but they can get an idea of the [domains you request](../advanced/dns-overview.md#encrypted-dns-limitations).
 
 VPN скрывает даже эту информацию от Вашего провайдера, перенося точку выхода на сервер в другой точке мира. В результате провайдер видит только то, что Вы подключены к VPN, и не знает, что Вы делаете через VPN.
 

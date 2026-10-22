@@ -9,7 +9,7 @@ description: تعمل الشبكات الخاصة الافتراضية على ت
 
 [:material-movie-open-play-outline: Video: Do you need a VPN?](https://www.privacyguides.org/videos/2024/12/12/do-you-need-a-vpn ""){.md-button}
 
-في العادة، يستطيع مزود خدمة الإنترنت رؤية تدفق حركة الإنترنت الداخلة والخارجة من جهاز إنهاء الشبكة (أي المودم). Encryption protocols such as HTTPS are commonly used on the internet, so they may not be able to see exactly what you're posting or reading, but they can get an idea of the [domains you request](../advanced/dns-overview.md#why-shouldnt-i-use-encrypted-dns).
+في العادة، يستطيع مزود خدمة الإنترنت رؤية تدفق حركة الإنترنت الداخلة والخارجة من جهاز إنهاء الشبكة (أي المودم). Encryption protocols such as HTTPS are commonly used on the internet, so they may not be able to see exactly what you're posting or reading, but they can get an idea of the [domains you request](../advanced/dns-overview.md#encrypted-dns-limitations).
 
 يؤدي استخدام الشبكة الخاصة الافتراضية إلى إخفاء هذه المعلومات عن مزود خدمة الإنترنت الخاص بك، وذلك عن طريق تحويل الثقة التي تضعها في شبكتك إلى خادم في مكان آخر من العالم. ونتيجة لذلك، يرى مزود خدمة الإنترنت فقط أنك متصل بشبكة خاصة افتراضية ولا يرى أي شيء عن النشاط الذي تقوم به عبرها.
 

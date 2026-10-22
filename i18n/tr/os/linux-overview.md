@@ -145,9 +145,9 @@ systemctl restart NetworkManager
 
 Optionally, changing the connection parameter from `random` to `stable` will give you a random MAC address *per network*, but keep it stable for that network when you reconnect to it later. Using `random` will give you a random MAC address *per connection*. This may be desirable for networks with captive portals or where you have a static DHCP assignment, at the expense of making you more identifiable by a single network operator you connect to multiple times.
 
-Eğer [systemd-networkd](https://en.wikipedia.org/wiki/Systemd#Ancillary_components) kullanıyorsanız, şunları ayarlamanız gerekecektir [`MACAddressPolicy=random`](https://freedesktop.org/software/systemd/man/systemd.link.html#MACAddressPolicy=)[RFC 7844'ü (DHCP İstemcileri için Anonimlik Profilleri)](https://freedesktop.org/software/systemd/man/systemd.network.html#Anonymize=) etkinleştirecektir.
+If you are using [systemd-networkd](https://en.wikipedia.org/wiki/Systemd#Ancillary_components), set [`MACAddressPolicy=random`](https://freedesktop.org/software/systemd/man/systemd.link.html#MACAddressPolicy=) in your .link configuration to randomize your MAC address. To enable [RFC 7844 (Anonymity Profiles for DHCP Clients)](https://freedesktop.org/software/systemd/man/systemd.network.html#Anonymize=), you must also set Anonymize=yes in the [DHCPv4] section of your .network configuration.
 
-MAC adresi rastgeleleştirme öncelikle Wi-Fi bağlantıları için faydalıdır. Ethernet bağlantıları için MAC adresinizi rastgele hale getirmek çok az fayda sağlar (eğer varsa), çünkü bir ağ yöneticisi cihazınızı başka yollarla (ağ anahtarında bağlı olduğunuz bağlantı noktasını incelemek gibi) önemsiz bir şekilde tanımlayabilir. Randomizing Wi-Fi MAC addresses depends on support from the Wi-Fi’s firmware.
+MAC adresi rastgeleleştirme öncelikle Wi-Fi bağlantıları için faydalıdır. Ethernet bağlantıları için MAC adresinizi rastgele hale getirmek çok az fayda sağlar (eğer varsa), çünkü bir ağ yöneticisi cihazınızı başka yollarla (ağ anahtarında bağlı olduğunuz bağlantı noktasını incelemek gibi) önemsiz bir şekilde tanımlayabilir. Randomizing Wi-Fi MAC addresses depends on support from the Wireless Network Interface Controller’s firmware.
 
 ### Other Identifiers
 

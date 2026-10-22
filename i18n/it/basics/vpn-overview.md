@@ -9,7 +9,7 @@ Le Reti Private Virtuali sono un metodo d'estensione del termine della tua rete,
 
 [:material-movie-open-play-outline: Video: Do you need a VPN?](https://www.privacyguides.org/videos/2024/12/12/do-you-need-a-vpn ""){.md-button}
 
-Normalmente, un ISP può visualizzare il flusso di traffico Internet in entrate e in uscita dal dispositivo di terminazione della tua rete (cioè, il modem). I protocolli crittografici come HTTPS sono comunemente utilizzati su Internet, quindi, potrebbero non riuscire a vedere esattamente ciò che stai pubblicando o leggendo, ma potrebbero farsi un'idea dei [domini che richiedi](../advanced/dns-overview.md#why-shouldnt-i-use-encrypted-dns).
+Normalmente, un ISP può visualizzare il flusso di traffico Internet in entrate e in uscita dal dispositivo di terminazione della tua rete (cioè, il modem). Encryption protocols such as HTTPS are commonly used on the internet, so they may not be able to see exactly what you're posting or reading, but they can get an idea of the [domains you request](../advanced/dns-overview.md#encrypted-dns-limitations).
 
 L'utilizzo di una VPN nasconde persino queste informazioni dal tuo ISP, spostando la fiducia che poni nella tua rete, a un server da qualche altra parte nel mondo. Di conseguenza, l'ISP può soltanto vedere che sei conness* a una VPN e nulla sull'attività che vi stai svolgendo.
 

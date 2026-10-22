@@ -145,9 +145,9 @@ systemctl restart NetworkManager
 
 يمكنك أيضًا تغيير قيمة إعداد الاتصال من `random` إلى `stable`، ليكون *لكل شبكة* عنوان MAC عشوائي خاص بها، ويظل كما هو عند الاتصال بالشبكة نفسها مرة أخرى. عند استخدام `random`، ستحصل على عنوان MAC عشوائي *جديد في كل مرة تتصل* فيها بالشبكة. قد يكون استخدام stable مناسبا للشبكات التي تتطلب تسجيل الدخول عبر صفحة ويب (captive portal)، أو التي تمنح جهازك عنوان IP ثابتا عبر DHCP. لكن هذا يسهل على مشغل الشبكة التعرّف على جهازك إذا اتصلت بالشبكة نفسها عدة مرات.
 
-If you are using [systemd-networkd](https://en.wikipedia.org/wiki/Systemd#Ancillary_components), you will need to set [`MACAddressPolicy=random`](https://freedesktop.org/software/systemd/man/systemd.link.html#MACAddressPolicy=) which will enable [RFC 7844 (Anonymity Profiles for DHCP Clients)](https://freedesktop.org/software/systemd/man/systemd.network.html#Anonymize=).
+If you are using [systemd-networkd](https://en.wikipedia.org/wiki/Systemd#Ancillary_components), set [`MACAddressPolicy=random`](https://freedesktop.org/software/systemd/man/systemd.link.html#MACAddressPolicy=) in your .link configuration to randomize your MAC address. To enable [RFC 7844 (Anonymity Profiles for DHCP Clients)](https://freedesktop.org/software/systemd/man/systemd.network.html#Anonymize=), you must also set Anonymize=yes in the [DHCPv4] section of your .network configuration.
 
-تغيير عنوان MAC عشوائيًا مفيد بشكل أساسي لاتصالات Wi-Fi. في اتصالات Ethernet، لا يوفر تغيير عنوان MAC عشوائيًا فائدة كبيرة، إن وُجدت، لأن مسؤول الشبكة يمكنه بسهولة التعرّف على جهازك بطرق أخرى، مثل معرفة المنفذ الذي يتصل به جهازك على جهاز تبديل الشبكة (Switch). يعتمد تغيير عنوان MAC لشبكة Wi-Fi عشوائيا على دعم البرنامج الثابت (Firmware) للـ Wi-Fi firmware لهذه الميزة.
+تغيير عنوان MAC عشوائيًا مفيد بشكل أساسي لاتصالات Wi-Fi. في اتصالات Ethernet، لا يوفر تغيير عنوان MAC عشوائيًا فائدة كبيرة، إن وُجدت، لأن مسؤول الشبكة يمكنه بسهولة التعرّف على جهازك بطرق أخرى، مثل معرفة المنفذ الذي يتصل به جهازك على جهاز تبديل الشبكة (Switch). Randomizing Wi-Fi MAC addresses depends on support from the Wireless Network Interface Controller’s firmware.
 
 ### Other Identifiers
 
