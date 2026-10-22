@@ -91,19 +91,19 @@ Proton 免費方案提供 500 MB 的郵件儲存空間，您可以免費增加�
 
 Proton Mail 有內部當機報告功能，**不會**與第三方分享且可停用。
 
-===「網路」
+=== "網頁版"
 
     從收件匣選取 :gear:→**所有設定**→**帳號**→**安全性與隱私權**→**隱私與資料蒐集**。
 
-    - [ ] Disable **Collect usage diagnostics**
-    - [ ] 停用**傳送當機報告**
+    - [ ] 停用 **收集使用狀況與診斷**
+    - [ ] 停用 **傳送故障報告**
 
-===「行動裝置」
+=== "行動裝置"
 
     從收件匣選取 :material-menu:→:gear: **設定**→選取您的使用者名稱。
 
-    - [ ] 停用**傳送當機報告**
-    - [ ] Disable **Collect usage diagnostics**
+    - [ ] 停用 **傳送故障報告**
+    - [ ] 停用 **收集使用狀況與診斷**
 
 #### :material-check:{ .pg-green } 自訂域名和別名
 
@@ -119,9 +119,9 @@ Proton Mail 支援使用 TOTP 作為 [雙重要素驗證](https://proton.me/supp
 
 #### :material-check:{ .pg-green } 資料安全
 
-Proton Mail stores your [emails](https://proton.me/blog/zero-access-encryption) and [calendars](https://proton.me/news/protoncalendar-security-model) with PGP-based encryption at rest, where only you have the decryption keys needed to access them later.
+Proton Mail 會以基於 PGP 的加密方式儲存您的[郵件](https://proton.me/blog/zero-access-encryption) 和 [行事曆](https://proton.me/news/protoncalendar-security-model)，且僅有您本人持有日後存取這些資料所需的解密金鑰。
 
-Certain information stored in [Proton Contacts](https://proton.me/support/proton-contacts), such as display names and email addresses, are **not** secured with your own encryption keys, so Proton is able to read them. Contact fields which are protected with your own encryption keys, such as phone numbers, are indicated with a padlock icon.
+儲存在 [Proton Contacts](https://proton.me/support/proton-contacts)中的部份資訊如顯示名稱和電子郵件位址，**並未**使用您的個人加密金鑰進行保護，因此這部份 Proton 是能夠讀取到的。有金鑰加密的聯絡人欄位，如電話號碼，則以鎖頭圖示標明。
 
 #### :material-check:{ .pg-green } 電子郵件加密
 
