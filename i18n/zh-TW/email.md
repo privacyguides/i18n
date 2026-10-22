@@ -162,7 +162,7 @@ Proton Mail 的[Unlimited](https://proton.me/support/proton-plans#proton-unlimit
 
 #### :material-check:{ .pg-green } 自訂域名和別名
 
-Mailbox Mail lets you use your own domain, and they support [catch-all](https://kb.mailbox.org/en/private/custom-domains/use-your-own-domain-with-catch-all/) addresses. Mailbox Mail also supports [sub-addressing](https://kb.mailbox.org/en/private/e-mail/what-is-an-alias-and-how-do-i-use-it/), which is useful if you don't want to purchase a domain.
+Mailbox Mail 可使用自訂域名，且支援 [catch-all addresses](https://kb.mailbox.org/en/private/custom-domains/use-your-own-domain-with-catch-all/)。 Mailbox Mail 也支援[子位址](https://kb.mailbox.org/en/private/e-mail/what-is-an-alias-and-how-do-i-use-it/)，對於不想購買網域的人非常實用。
 
 #### :material-check:{ .pg-green } 私人付款方式
 
@@ -170,35 +170,35 @@ Mailbox Mail 不接受任何加密貨幣，因為他們的支付處理商 BitPay
 
 #### :material-check:{ .pg-green } 帳號安全
 
-Mailbox Mail supports [two-factor authentication](https://kb.mailbox.org/en/private/security-and-privacy/how-to-use-two-factor-authentication-2fa/) for their webmail only. 您可以使用 TOTP 或通過 [YubiKey](security-keys.md#yubikey) 來使用 [YubiCloud](https://yubico.com/products/services-software/yubicloud) 進行雙重認證。 Web 標準如[WebAuthn ](basics/multi-factor-authentication.md#fido-fast-identity-online)等尚不支援。
+Mailbox Mail 僅對其網頁郵件提供[雙重要素驗證](https://kb.mailbox.org/en/private/security-and-privacy/how-to-use-two-factor-authentication-2fa/)。您可以使用 TOTP 或通過 [YubiKey](security-keys.md#yubikey) 來使用 [YubiCloud](https://yubico.com/products/services-software/yubicloud) 進行雙重認證。 Web 標準如[WebAuthn ](basics/multi-factor-authentication.md#fido-fast-identity-online)等尚不支援。
 
 #### :material-information-outline:{ .pg-blue } 資料安全
 
-Mailbox Mail allows for encryption of incoming mail using their [encrypted mailbox](https://kb.mailbox.org/en/private/encryption/your-encrypted-mailbox/). 收到的新訊息將立即用您的公鑰加密。
+Mailbox Mail 可使用[加密信箱](https://kb.mailbox.org/en/private/encryption/your-encrypted-mailbox/)對傳入郵件進行加密。收到的新訊息將立即用您的公鑰加密。
 
-However, [Open-Xchange](https://en.wikipedia.org/wiki/Open-Xchange), the software platform used by Mailbox Mail, [does not support](https://kb.mailbox.org/en/business/security-privacy-article/encryption-of-calendar-and-address-book/) the encryption of your address book and calendar. [獨立的選項](calendar.md) 可能更適合此類資料。
+然而，Mailbox Mail 所使用的軟體平台 [Open-Xchange](https://en.wikipedia.org/wiki/Open-Xchange) [並不支援](https://kb.mailbox.org/en/business/security-privacy-article/encryption-of-calendar-and-address-book/)對您的通訊錄與行事曆進行加密。[獨立的選項](calendar.md) 可能更適合此類資料。
 
 #### :material-check:{ .pg-green } 電子郵件加密
 
-Mailbox Mail has [integrated encryption](https://kb.mailbox.org/en/private/encryption/how-can-e-mails-be-encrypted-with-pgp/) in their webmail, which simplifies sending messages to people with public OpenPGP keys. They also allow [remote recipients to decrypt an email](https://kb.mailbox.org/en/private/encryption/my-recipient-does-not-use-pgp/) on Mailbox Mail's servers. 當遠端收件人沒有 OpenPGP 無法解密自己郵箱中的電子郵件時，此功能非常有用。
+Mailbox Mail 在他們的網頁郵件中 [整合了加密功能](https://kb.mailbox.org/en/private/encryption/how-can-e-mails-be-encrypted-with-pgp/)，簡少了寄信給 OpenPGP 公鑰的人時的麻煩。在 Mailbox Mail 的伺服器上，他們也[讓遠端收件者可以解密郵件](https://kb.mailbox.org/en/private/encryption/my-recipient-does-not-use-pgp/)。當遠端收件人沒有 OpenPGP 無法解密自己郵箱中的電子郵件時，此功能非常有用。
 
 Mailbox Mail 也支援透過 HTTP 從其 WKD 探索公鑰。這可讓非 Mailbox Mail 使用者輕鬆找到 Mailbox 帳號的 OpenPGP 金鑰，以進行跨供應商 E2EE。這只適用於以 Mailbox Mail 自身網域結尾的電子郵件地址，例如：`@mailbox.org`。如果使用自訂網域，則必須另行[設定 WKD](basics/email-security.md#what-is-the-web-key-directory-standard)。
 
 #### :material-information-outline:{ .pg-blue } 終止帳號
 
-當合約結束時，帳戶將被設定為受限使用者帳戶。 It will be irrevocably deleted after [30 days](https://kb.mailbox.org/en/en/private/account/reactivate-a-deleted-account/).
+當合約結束時，帳戶將被設定為受限使用者帳戶。 [30天](https://kb.mailbox.org/en/private/ payment-article/what-happens-at-the-end-of-my-contract)後，它會被刪除並無法恢復。
 
 #### :material-information-outline:{ .pg-blue } 額外功能
 
-You can access your Mailbox Mail account via IMAP/SMTP using their [.onion service](https://kb.mailbox.org/en/en/private/security-privacy/using-the-tor-exit-node-from-mailbox/). 不過，他們的網頁郵件介面無法透過其 .onion 服務存取，而且您可能會遇到 TLS 憑證錯誤。
+可利用他們的 [.onion 服務](https://kb.mailbox.org/en/en/private/security-privacy/using-the-tor-exit-node-from-mailbox/)與 IMAP/SMTP 協定來存取您的 Mailbox Mail 帳號。不過，他們的網頁郵件介面無法透過其 .onion 服務存取，而且您可能會遇到 TLS 憑證錯誤。
 
-All accounts come with limited cloud storage that [can be encrypted](https://kb.mailbox.org/en/private/drive/encrypt-files-on-your-drive/). Mailbox Mail also offers the alias [@secure.mailbox.org](https://kb.mailbox.org/en/business/e-mail-article/ensuring-e-mails-are-sent-securely/), which enforces the TLS encryption on the connection between mail servers, otherwise the message will not be sent at all. Mailbox Mail 除了支援 IMAP 與 POP3 等標準存取通訊協定外，還支援 [Exchange ActiveSync](https://en.wikipedia.org/wiki/Exchange_ActiveSync) 。
+所有帳號都附帶有限的[可加密](https://kb.mailbox.org/en/private/drive/encrypt-files-on-your-drive/)雲端儲存空間。 Mailbox Mail 也提供別名 [@secure.mailbox.org](https://kb.mailbox.org/en/business/e-mail-article/ensuring-e-mails-are-sent-securely/)，此功能強制對郵件伺服器之間的連線進行 TLS 加密，若為非加密連線則完全不寄送。 Mailbox Mail 除了支援 IMAP 與 POP3 等標準存取通訊協定外，還支援 [Exchange ActiveSync](https://en.wikipedia.org/wiki/Exchange_ActiveSync) 。
 
 Mailbox Mail 所有方案都提供了數位遺產功能。只要繼承人提出申請並提供您的遺囑即可獲得你選擇要傳給他們的資料。或者，您可以透過姓名和位址提出人選。
 
 ## 更多供應商
 
-These providers encrypt your emails in a way that only you can read them later, making them great options for keeping your stored emails secure. 但是，它們不支援供應商之間可相互操作 E2EE 通信的加密標準。
+這些服務供應商會以一種只有您本人才能讀取的方式對您的電子郵件進行加密，是確保儲存的電子郵件安全的絕佳選擇。但是，它們不支援供應商之間可相互操作 E2EE 通信的加密標準。
 
 <div class="grid cards" markdown>
 
@@ -254,7 +254,7 @@ Tuta 支援 TOTP 或 U2F 的[雙重認證](https://tuta.com/support#2fa)。
 
 #### :material-check:{ .pg-green } 資料安全
 
-Tuta stores your [emails](https://tuta.com/support#what-encrypted), [address book contacts](https://tuta.com/support#encrypted-address-book), and [calendars](https://tuta.com/support#calendar) with strong encryption where only you have the decryption keys. This means the messages and other data stored in your account cannot be read by anyone other than you after they are stored.
+Tuta 會將您的[電子郵件](https://tuta.com/support#what-encrypted)、[通訊錄聯絡人](https://tuta.com/support#encrypted-address-book)及[行事曆](https://tuta.com/support#calendar)以高強度加密方式儲存，且只有您擁有解密金鑰。這表示一旦儲存您帳戶中的訊息及其他資料，除了您本人之外，任何人都無法讀取。
 
 #### :material-information-outline:{ .pg-blue } 電子郵件加密
 
@@ -278,13 +278,13 @@ Tuta 向非營利組織提供免費 [商業版本](https://tuta.com/blog/secure-
 
 **最低合格要求：**
 
-- Must encrypt email account data at rest with asymmetric encryption, where only the user has the private keys needed to decrypt it.
+- 必須使用非對稱加密技術對靜態的電子郵件帳戶資料進行加密，且僅有使用者持有解密所需的私鑰。
 - 必須能夠以 [Mbox](https://en.wikipedia.org/wiki/Mbox) 或符合 [RFC5322](https://datatracker.ietf.org/doc/rfc5322) 標準的個別 .EML 匯出電子郵件。
 - 必須在自有的基礎架構上運作，即不建基於第三方電子郵件服務供應商。
 
 **最佳情況：**
 
-- Should encrypt all account data (contacts, calendars, etc.) at rest with asymmetric encryption, where only the user has the private keys needed to decrypt it.
+- 須使用非對稱加密技術對所有靜態儲存的帳戶資料（聯絡人、行事曆等）進行加密，且僅有使用者持有解密所需的私鑰。
 - 應提供整合式網頁郵件 E2EE/PGP 加密功能，方便用戶使用。
 - 應支援 WKD，以便透過 HTTP 改善公共 OpenPGP 金鑰的發現。 GnuPG 使用者可以使用下列指令取得金鑰：`gpg --locate-key example_user@example.com`。
 - 支援外部使用者的臨時信箱。當您要傳送加密的電子郵件，但又不想傳送實際副本給收件人時，這個功能就很有用。這些電子郵件通常具有限定時效，之後會被自動刪除。它們也不需要收件人配置任何像OpenPGP這樣的加密技術。
@@ -316,7 +316,7 @@ Tuta 向非營利組織提供免費 [商業版本](https://tuta.com/blog/secure-
 **最低合格要求：**
 
 - 使用 2FA（例如：[TOTP](basics/multi-factor-authentication.md#time-based-one-time-password-totp)）保護網頁郵件。
-- Encryption at rest, using asymmetric encryption where the service provider does not have the decryption keys to the data they hold. This prevents a rogue employee leaking data they have access to, or a remote adversary from releasing data they have stolen by gaining unauthorized access to the server.
+- 靜態加密，採用非對稱加密技術，服務提供者不持有其所儲存資料的解密金鑰。此舉可防止心懷不軌的員工洩露其有權存取的資料，或防止遠端攻擊者透過未經授權存取伺服器而竊取的資料外洩。
 - [DNSSEC](https://en.wikipedia.org/wiki/Domain_Name_System_Security_Extensions) 支援。
 - 使用 [Hardenize](https://hardenize.com), [testssl.sh](https://testssl.sh) 或 [Qualys SSL Labs](https://ssllabs.com/ssltest) 等工具沒發現 TLS 錯誤或漏洞； 這包括與憑證相關的錯誤和弱 DH 參數，例如 [Logjam](https://en.wikipedia.org/wiki/Logjam_(computer_security)) 錯誤。
 - 伺服器套件偏好設定（TLS 1.3 為選用）適用於支援前向保密和認證加密的強密碼套件。

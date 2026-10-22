@@ -14,7 +14,7 @@ global:
 
 - [:material-account-cash: 監控資本主義](basics/common-threats.md#surveillance-as-a-business-model ""){.pg-brown}
 
-If you're looking for additional *privacy* from your ISP or on a public Wi-Fi network, a **VPN** may be the solution for you.
+如果您想從 ISP、公共 Wi-Fi 或傳送檔案時獲得更多*隱私*，可考慮以 **VPN** 作為解決方案。
 
 <div class="admonition danger" markdown>
 <p class="admonition-title">VPN 不提供匿名性</p>
@@ -78,7 +78,7 @@ Proton VPN [在 127 個國家設有伺服器](https://protonvpn.com/vpn-servers)
 
 #### :material-check:{ .pg-green } 獨立稽核
 
-獨立安全研究員 Ruben Santamarta 分別於2024年9月及2025年1月對 Proton VPN 的[瀏覽器擴充套件](https://drive.proton.me/urls/RWDD2SHT98#v7ZrwNcafkG8)及其[應用程式](https://drive.proton.me/urls/RVW8TXG484#uTXX5Fc9GADo)進行了安全稽核。 Proton VPN's infrastructure has undergone [annual audits](https://protonvpn.com/blog/no-logs-audit) by Securitum since 2022.
+獨立安全研究員 Ruben Santamarta 分別於2024年9月及2025年1月對 Proton VPN 的[瀏覽器擴充套件](https://drive.proton.me/urls/RWDD2SHT98#v7ZrwNcafkG8)及其[應用程式](https://drive.proton.me/urls/RVW8TXG484#uTXX5Fc9GADo)進行了安全稽核。自 2022 年起，Proton VPN 的基礎設施每年均由 Securitum 進行[年度稽核](https://protonvpn.com/blog/no-logs-audit)。
 
 在此之前，Proton VPN 已於2020年1月接受過 SEC Consult 的獨立稽核。 SEC Consult 在 Proton VPN Windows、Android 和 iOS 應用程式中發現一些中低風險漏洞，Proton VPN 已在報告發布之前全部 “妥善修復” 了這些漏洞。所發現的問題都不會讓攻擊者遠端存取您的裝置或流量。您可以在稽核的專屬[部落格文章](https://web.archive.org/web/20250307041036/https://protonvpn.com/blog/open-source)中檢視每個平台的個別報告。
 
@@ -88,7 +88,7 @@ Proton VPN 在他們的 [GitHub 組織](https://github.com/ProtonVPN)中提供�
 
 #### :material-check:{ .pg-green } 接受現金
 
-Proton VPN, in addition to accepting credit/debit cards, PayPal, and [Bitcoin](advanced/payments.md#other-coins-bitcoin-ethereum-etc), also accepts **cash/local currency** as an anonymous form of payment.
+除了信用卡/簽帳卡、PayPal 與 [比特幣](advanced/payments.md#other-coins-bitcoin-ethereum-etc)以外，Proton VPN 也接受**現金/當地貨幣**等匿名付款方式。
 
 #### :material-check:{ .pg-green } 支援 WireGuard
 
@@ -123,11 +123,11 @@ Proton 已在 [App Store](https://apps.apple.com/app/id1437005085) 與 [Google P
 
 </div>
 
-#### :material-alert-outline:{ .pg-orange } Additional Notes
+#### :material-alert-outline:{ .pg-orange } 補充說明
 
 Proton VPN 客戶端目前在所有平台上都支援雙因素身份驗證。 Proton VPN 在瑞士、冰島和瑞典擁有自己的伺服器和資料中心。他們透過自己的 DNS 服務，提供內容封鎖和已知的惡意軟體網域。此外，Proton VPN 還提供 "Tor" 伺服器，可輕鬆連接到洋蔥網站，但我們仍然強烈建議您使用 [官方 Tor 瀏覽器](tor.md#tor-browser) 來完成此類目的。
 
-##### Kill switch feature provides poor protections on macOS
+##### Kill switch 功能在 macOS 上的防護效果不佳
 
 Proton VPN's kill switch on macOS does not block any traffic when you intentionally disconnect from the VPN, *including when you disconnect by switching servers.* You should not make any sensitive connections while the VPN is turned off, nor when switching servers. It is only designed to prevent traffic leaks in the case of an unexpected VPN disconnection, which is still a useful feature to have, but it does not provide the same level of protection as a kill switch that blocks all traffic when the VPN is turned off.
 

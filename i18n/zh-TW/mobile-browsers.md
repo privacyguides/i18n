@@ -148,7 +148,7 @@ Brave 的[防護 (Shields)](https://support.brave.com/hc/articles/360022973471-W
     - [x] （可選） 將 *安全瀏覽* 設定為 **無防護** (1)
     - [x] 將 [*WebRTC IP 處理政策*](https://support.brave.com/hc/articles/360017989132-How-do-I-change-my-Privacy-Settings#webrtc) 設定為 **停用非代理 UDP**
     - [ ] 取消勾選 **允許網站檢查是否有已儲存的付款方式**
-    - [x] Select **Do not speed up sites with Brave's V8 engine but make Brave slightly more resistant to attacks**
+    - [x] 勾選 JavaScript 最佳化與安全性 / **Do not speed up sites with Brave's V8 engine but make Brave slightly more resistant to attacks**
     - [x] 勾選 **退出時關閉分頁**
     - [ ] 取消勾選 **允許保護私隱的產品分析 (P3A)**
     - [ ] 取消勾選 **自動傳送診斷報告**
