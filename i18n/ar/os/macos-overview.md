@@ -235,13 +235,13 @@ codesign -dv <path to your app>
 
 إذا كانت ميزة Hardened Runtime مفعّلة، فستظهر لك القيمة `flags=0x10000(runtime)`. ظهور `runtime` في النتيجة يعني أن ميزة Hardened Runtime مفعّلة. قد تظهر علامات أخرى، لكن ما نبحث عنه هنا هو العلامة runtime.
 
-You can enable a column in Activity Monitor called "Restricted" which is a flag that prevents programs from injecting code via macOS's [dynamic linker](https://pewpewthespells.com/blog/blocking_code_injection_on_ios_and_os_x.html). Ideally, this should say "Yes".
+يمكنك إظهار عمود باسم "Restricted" في Activity Monitor، يوضّح ما إذا كانت العملية تخضع لقيود تمنع الـ injecting code فيها عبر الـ [dynamic linker](https://pewpewthespells.com/blog/blocking_code_injection_on_ios_and_os_x.html) في macOS. من الأفضل أن تظهر القيمة "Yes".
 
 ##### Antivirus
 
-macOS comes with two forms of [malware defense](https://support.apple.com/guide/security/protecting-against-malware-sec469d47bd8/1/web/1):
+يأتي macOS مزوّدًا بنوعين من الحماية ضد [البرمجيات الخبيثة](https://support.apple.com/guide/security/protecting-against-malware-sec469d47bd8/1/web/1):
 
-1. Protection against launching malware in the first place is provided by the App Store's review process for App Store applications, or *Notarization* (part of *Gatekeeper*), a process where third-party apps are scanned for known malware by Apple before they are allowed to run. Apps are required to be signed by the developers using a key given to them by Apple. This ensures that you are running software from the real developers. Notarization also requires that developers enable the Hardened Runtime for their apps, which limits methods of exploitation.
+1. توفّر عملية مراجعة التطبيقات في App Store حماية تساعد على منع تشغيل البرمجيات الخبيثة من الأساس. أما التطبيقات الخارجية، فتساعد خدمة *Notarization* (المرتبطة بميزة *Gatekeeper*) على حمايتها، حيث تفحصها Apple بحثًا عن برمجيات خبيثة معروفة قبل السماح بتشغيلها. يجب أن يوقع المطوّرون التطبيقات رقميا باستخدام مفتاح توفره لهم Apple. وهذا يضمن أن البرامج التي تشغلها صادرة عن مطوّريها الحقيقيين. تتطلب عملية Notarization أيضا من المطورين تفعيل ميزة Hardened Runtime في تطبيقاتهم، مما يحد من بعض طرق استغلال الثغرات الأمنية.
 2. Protection against other malware and remediation from existing malware on your system is provided by *XProtect*, a more traditional antivirus software built-in to macOS.
 
 We recommend against installing third-party antivirus software as they typically do not have the system-level access required to properly function anyway, because of Apple's limitations on third-party apps, and because granting the high levels of access they do ask for often poses an even greater security and privacy risk to your computer.
