@@ -1,68 +1,68 @@
 ---
-title: macOS Overview
+title: نظرة عامة على macOS
 icon: material/apple-finder
-description: macOS is Apple's desktop operating system that works with their hardware to provide strong security.
+description: الـ macOS هو نظام تشغيل أجهزة الكمبيوتر من Apple، ويتكامل مع أجهزتها لتوفير مستوى عالٍ من الأمان.
 ---
 
-**macOS** is a Unix operating system developed by Apple for their Mac computers. To enhance privacy on macOS, you can disable telemetry features and harden existing privacy and security settings.
+نظام الـ **macOS** هو نظام تشغيل مبني على Unix، طورته Apple لأجهزة Mac. لتعزيز الخصوصية في macOS، يمكنك تعطيل ميزات الـ telemetry وتشديد إعدادات الخصوصية والأمان الحالية.
 
-Older Intel-based Macs and Hackintoshes do not support all the security features that macOS offers. To enhance data security, we recommend using a newer Mac with [Apple Silicon](https://support.apple.com/HT211814).
+أجهزة Mac القديمة التي تعمل بمعالجات Intel وأجهزة Hackintosh لا تدعم جميع ميزات الأمان التي يوفرها macOS. لتعزيز أمان البيانات، ننصح باستخدام جهاز Mac أحدث مزوّد بمعالج [Apple Silicon](https://support.apple.com/HT211814).
 
-## Privacy Notes
+## ملاحظات حول الخصوصية
 
-There are a few notable privacy concerns with macOS that you should consider. These pertain to the operating system itself, and not Apple's other apps and services.
+هناك بعض المخاوف المهمة المتعلقة بالخصوصية في macOS التي ينبغي أن تأخذها في الاعتبار. هذه المخاوف تتعلق بنظام التشغيل نفسه، وليس بتطبيقات Apple وخدماتها الأخرى.
 
-### Activation Lock
+### قفل التنشيط
 
-Brand-new Apple Silicon devices can be set up without an internet connection. However, recovering or resetting your Mac will **require** an internet connection to Apple's servers to check against the Activation Lock database of lost or stolen devices.
+يمكن إعداد أجهزة Apple Silicon الجديدة تماما دون الاتصال بالإنترنت. لكن استعادة جهاز Mac أو إعادة تعيينه **تتطلب** الاتصال بخوادم Apple عبر الإنترنت للتحقق من حالة Activation Lock الخاصة بالجهاز.
 
-### App Revocation Checks
+### التحقق من إلغاء صلاحية التطبيقات
 
-macOS performs online checks when you open an app to verify whether an app contains known malware, and whether the developer’s signing certificate is revoked.
+يجري macOS عمليات تحقق عبر الإنترنت عند فتح التطبيقات، للتأكد من عدم احتوائها على برمجيات خبيثة معروفة، وللتحقق مما إذا كانت شهادة توقيع المطور قد أُلغيت.
 
-Apple's OCSP service uses HTTPS encryption, so only they are able to see which apps you open. They've [posted information](https://support.apple.com/HT202491) about their logging policy for this service. They additionally [promised](http://lapcatsoftware.com/articles/2024/8/3.html) to add a mechanism for people to opt-out of this online check, but this has not been added to macOS.
+تستخدم خدمة OCSP من Apple تشفير HTTPS، لذلك لا تستطيع سوى Apple معرفة التطبيقات التي تفتحها. [نشرت](https://support.apple.com/HT202491) Apple معلومات عن سياسة تسجيل البيانات الخاصة بهذه الخدمة. [وعدت](http://lapcatsoftware.com/articles/2024/8/3.html) Apple أيضا بإضافة خيار يتيح للمستخدمين تعطيل هذا التحقق عبر الإنترنت، لكنها لم تضفه إلى macOS حتى الآن.
 
-While you [can](https://eclecticlight.co/2021/02/23/how-to-run-apps-in-private) manually opt out of this check relatively easily, we recommend against doing so unless you would be badly compromised by the revocation checks performed by macOS, because they serve an important role in ensuring compromised apps are blocked from running.
+مع أنه [يمكنك](https://eclecticlight.co/2021/02/23/how-to-run-apps-in-private) تعطيل هذا التحقق يدويا بسهولة نسبية، فإننا لا ننصح بذلك إلا إذا كانت عمليات التحقق من إلغاء الصلاحية التي يجريها macOS ستعرض خصوصيتك لخطر كبير، لأنها تؤدي دورا مهما في منع تشغيل التطبيقات المخترقة.
 
-## Recommended Configuration
+## الإعدادات الموصى بها
 
-Your account when you first set up your Mac will be an Administrator account, which has higher privileges than a Standard user account. macOS has a number of protections which prevent malware and other programs from abusing your Administrator privileges, so it is generally safe to use this account.
+عند إعداد جهاز Mac لأول مرة، سيكون حسابك من نوع Administrator، وله صلاحيات أعلى من حساب المستخدم العادي Standard. يحتوي macOS على عدة وسائل حماية تمنع البرمجيات الخبيثة والبرامج الأخرى من استغلال صلاحيات حساب Administrator، لذلك يعد استخدام هذا الحساب آمنا بشكل عام.
 
-However, exploits in protective utilities like `sudo` have been [discovered in the past](https://bogner.sh/2014/03/another-mac-os-x-sudo-password-bypass). If you want to avoid the possibility that programs you run abuse your Administrator privileges, you could consider creating a second, Standard user account which you use for day-to-day operations. This has the added benefit of making it more obvious when an app needs admin access, because it will prompt you for credentials every time.
+[لكن سبق اكتشاف](https://bogner.sh/2014/03/another-mac-os-x-sudo-password-bypass) ثغرات أمنية قابلة للاستغلال في أدوات الحماية مثل `sudo`. إذا أردت تقليل احتمال استغلال البرامج التي تشغلها لصلاحيات Administrator، يمكنك التفكير في إنشاء حساب ثانٍ من نوع Standard لاستخدامه في مهامك اليومية. ومن فوائد ذلك أيضا أنه يسهل عليك معرفة متى يحتاج أحد التطبيقات إلى صلاحيات Administrator، لأنه سيطلب منك إدخال بيانات حساب Administrator في كل مرة يحتاج فيها إلى هذه الصلاحيات.
 
-If you do use a second account, it is not strictly required to ever log in to your original Administrator account from the macOS login screen. When you are doing something as a Standard user which requires Administrator permissions, the system should prompt you for authentication, where you can enter your Administrator credentials as your Standard user on a one-time basis. Apple provides [guidance](https://support.apple.com/HT203998) on hiding your Administrator account if you prefer to only see a single account on your login screen.
+إذا كنت تستخدم حسابا ثانيا، فليس من الضروري تسجيل الدخول إلى حساب Administrator الأصلي من شاشة تسجيل الدخول في macOS. عندما تنفذ مهمة من حساب Standard تتطلب صلاحيات Administrator، من المفترض أن يطلب منك النظام إدخال بيانات حساب Administrator لمنح الصلاحيات المطلوبة لهذه المرة فقط، دون الحاجة إلى مغادرة حساب Standard. تقدّم Apple [إرشادات](https://support.apple.com/HT203998) حول كيفية إخفاء حساب Administrator إذا كنت تفضل ظهور حساب واحد فقط على شاشة تسجيل الدخول.
 
 ### iCloud
 
-When you use Apple services like iCloud, most of your information is stored on their servers and secured with keys *which Apple has access to* by default. This is called [Standard Data Protection](https://support.apple.com/en-us/102651) by Apple.
+عند استخدام خدمات Apple مثل iCloud، تُخزن معظم معلوماتك على خوادمها وتحمى بمفاتيح تشفير *تستطيع Apple الوصول إليها افتراضيا*. تُسمّي Apple هذا النظام [Standard Data Protection](https://support.apple.com/en-us/102651).
 
-Therefore, if you use iCloud you should [enable **Advanced Data Protection**](https://support.apple.com/HT212520). This encrypts nearly all of your iCloud data with keys stored on your devices (end-to-end encryption), rather than Apple's servers, so that your iCloud data is secured in the event of a data breach, and otherwise hidden from Apple.
+لذلك، إذا كنت تستخدم iCloud، فننصحك [ **Advanced Data Protection**](https://support.apple.com/HT212520). تشفر هذه الميزة الغالبية العظمى من بياناتك في iCloud باستخدام مفاتيح تشفير محفوظة على أجهزتك بدلا من خوادم Apple، وذلك من خلال التشفير من طرف إلى طرف (End-to-End Encryption). وبهذا تظل بياناتك محمية حتى في حال حدوث تسريب للبيانات، ولا تستطيع Apple نفسها الاطلاع عليها.
 
-If you want to be able to install apps from the App Store but don't want to enable iCloud, you can sign in to your Apple Account from the App Store instead of **System Settings**.
+إذا أردت تثبيت التطبيقات من App Store دون تفعيل iCloud، يمكنك تسجيل الدخول إلى Apple Account من داخل App Store بدلًا من **System Settings**.
 
-### System Settings
+### إعدادات النظام
 
-There are a number of built-in settings you should confirm or change to harden your system. Open the **Settings** app:
+هناك عدة إعدادات مدمجة في النظام ينبغي مراجعتها أو تغييرها لتعزيز أمان جهازك. افتح تطبيق **Settings**:
 
-#### Bluetooth
+#### البلوتوث
 
-- [ ] Turn off **Bluetooth** (unless you are currently using it)
+- [ ] أوقف تشغيل **Bluetooth** (إلا إذا كنت تستخدمه حاليا)
 
-#### Network
+#### الشبكة
 
-Depending on if you are using **Wi-Fi** or **Ethernet** (denoted by a green dot and the word "connected"), click on the corresponding icon.
+بحسب نوع الاتصال الذي تستخدمه، سواء **Wi-Fi** أو **Ethernet** (ويظهر بجانبه مؤشر أخضر وكلمة "connected")، اضغط على الأيقونة المناسبة.
 
-Click on the "Details" button by your network name:
+اضغط على زر "Details" بجانب اسم شبكتك:
 
-- [x] Select **Rotating** under **Private Wi-Fi address**
+- [x] اختر **Rotating** ضمن إعداد **Private Wi-Fi address**
 
-- [x] Turn on **Limit IP address tracking**
+- [x] فعّل خيار **Limit IP address tracking**
 
 ##### Firewall
 
-Your firewall blocks unwanted network connections. The stricter your firewall settings are, the more secure your Mac is. However, certain services will be blocked. You should configure your firewall to be as strict as you can without blocking services you use.
+يمنع جدار الحماية الاتصالات غير المرغوب فيها عبر الشبكة. كلما كانت إعدادات جدار الحماية أكثر صرامة، زاد مستوى أمان جهاز Mac. لكن قد يؤدي ذلك إلى حظر بعض الخدمات. ينبغي ضبط جدار الحماية على أكثر الإعدادات صرامة دون حظر الخدمات التي تستخدمها.
 
-- [x] Turn on **Firewall**
+- [x] فعّل خيار **Firewall**
 
 Click the **Options** button:
 
@@ -154,66 +154,66 @@ macOS uses a randomized MAC address when [performing Wi-Fi scans](https://suppor
 
 You can set your [MAC address to be randomized](https://support.apple.com/en-us/102509) per network and rotate occasionally to prevent tracking between networks and on the same network over time.
 
-Go to **System Settings** → **Network** → **Wi-Fi** → **Details** and set **Private Wi-Fi address** to either **Fixed** if you want a fixed but unique address for the network you're connected to, or **Rotating** if you want it to change over time.
+انتقل إلى **System Settings** → **Network** → **Wi-Fi** → **Details**، ثم اضبط **Private Wi-Fi address** على **Fixed** إذا كنت تريد عنوانًا ثابتًا وفريدًا للشبكة التي تتصل بها، أو على **Rotating** إذا كنت تريد أن يتغير العنوان بمرور الوقت.
 
-Consider changing your hostname as well, which is another device identifier that's broadcast on the network you're connected to. You may wish to set your hostname to something generic like "MacBook Air", "Laptop", "John's MacBook Pro", or "iPhone" in **System Settings** → **General** → **Sharing**.
+فكر أيضا في تغيير اسم جهازك (hostname)، فهو معرف آخر لجهازك يُعلَن عنه على الشبكة التي تتصل بها. قد ترغب في اختيار اسم عام لجهازك، مثل "MacBook Air" أو "Laptop" أو "John's MacBook Pro" أو "iPhone"، من خلال **System Settings** → **General** → **Sharing**.
 
-## Security Protections
+## وسائل الحماية الأمنية
 
-macOS employs defense in depth by relying on multiple layers of software and hardware-based protections, with different properties. This ensures that a failure in one layer does not compromise the system's overall security.
+يعتمد macOS على مبدأ الدفاع متعدد الطبقات (Defense in Depth)، باستخدام عدة طبقات من الحماية على مستوى البرامج والأجهزة، ولكل طبقة خصائص مختلفة. يساعد ذلك على منع اختراق أمان النظام بالكامل في حال فشل إحدى طبقات الحماية.
 
-### Software Security
-
-<div class="admonition warning" markdown>
-<p class="admonition-title">تنوية</p>
-
-macOS allows you to install beta updates. These are unstable and may come with [extra telemetry](https://beta.apple.com/privacy) since they're for testing purposes. Because of this, we recommend you avoid beta software in general.
-
-</div>
-
-#### Signed System Volume
-
-macOS's system components are protected in a read-only [signed system volume](https://support.apple.com/guide/security/signed-system-volume-security-secd698747c9/web), meaning that neither you nor malware can alter important system files.
-
-The system volume is verified while it's running and any data that's not signed with a valid cryptographic signature from Apple will be rejected.
-
-#### System Integrity Protection
-
-macOS sets certain security restrictions that can't be overridden. These are called [Mandatory Access Controls](https://support.apple.com/guide/security/system-integrity-protection-secb7ea06b49/1/web/1), and they form the basis of the sandbox, parental controls, and [System Integrity Protection](https://support.apple.com/en-us/102149) on macOS.
-
-System Integrity Protection makes critical file locations read-only to protect against modification from malicious code. This is on top of the hardware-based Kernel Integrity Protection that keeps the kernel from being modified in-memory.
-
-#### Application Security
-
-##### App Sandbox
-
-On macOS, whether an app is sandboxed is determined by the developer when they sign it. The [App Sandbox](https://developer.apple.com/documentation/xcode/configuring-the-macos-app-sandbox) protects against vulnerabilities in the apps you run by limiting what a malicious actor can access in the event that the app is exploited. The App Sandbox *alone* can't protect against [:material-package-variant-closed-remove: Supply Chain Attacks](../basics/common-threats.md#attacks-against-certain-organizations ""){.pg-viridian} by malicious developers. For that, sandboxing needs to be enforced by someone other than the developer themselves, as it is on the [App Store](https://support.apple.com/guide/security/gatekeeper-and-runtime-protection-sec5599b66df/1/web/1#:~:text=All%20apps%20from%20the%20App%20Store%20are%20sandboxed%20to%20restrict%20access%20to%20data%20stored%20by%20other%20apps.).
+### أمان البرامج
 
 <div class="admonition warning" markdown>
 <p class="admonition-title">تنوية</p>
 
-Software downloaded from outside the official App Store is not required to be sandboxed. If your threat model prioritizes defending against [:material-bug-outline: Passive Attacks](../basics/common-threats.md#security-and-privacy){ .pg-orange }, then you may want to check if the software you download outside the App Store is sandboxed, which is up to the developer to *opt in*.
+يتيح لك macOS تثبيت التحديثات التجريبية (Beta). هذه الإصدارات غير مستقرة، وقد تجمع بيانات [telemetry إضافية](https://beta.apple.com/privacy) لأنها مخصّصة للاختبار. لهذا السبب، ننصحك بتجنب استخدام الإصدارات التجريبية من البرامج بشكل عام.
 
 </div>
 
-You can check if an app uses the App Sandbox in a few ways:
+#### وحدة تخزين النظام الموقعة (Signed System Volume)
 
-You can check if apps that are already running are sandboxed using the [Activity Monitor](https://developer.apple.com/documentation/security/protecting-user-data-with-app-sandbox#Verify-that-your-app-uses-App-Sandbox).
+تُحمى مكوّنات macOS داخل الـ [Signed System Volume](https://support.apple.com/guide/security/signed-system-volume-security-secd698747c9/web) ومخصصة للقراءة فقط، مما يمنعك أنت والبرمجيات الخبيثة من تعديل ملفات النظام المهمة.
+
+يتحقق النظام من سلامة وحدة تخزين النظام أثناء تشغيله، ويرفض أي بيانات لا يغطيها توقيع تشفيري صالح من Apple.
+
+#### حماية سلامة النظام (System Integrity Protection)
+
+يفرض macOS قيودا أمنية معينة لا يمكن تجاوزها. تُعرف هذه القيود باسم [Mandatory Access Controls](https://support.apple.com/guide/security/system-integrity-protection-secb7ea06b49/1/web/1)، وهي الأساس الذي تعتمد عليه ميزات sandboxing والرقابة الأبوية (parental controls) و[System Integrity Protection](https://support.apple.com/en-us/102149) في macOS.
+
+تجعل ميزة System Integrity Protection مواقع ملفات النظام المهمة للقراءة فقط، لحمايتها من التعديل بواسطة البرمجيات الخبيثة. وتأتي هذه الحماية إلى جانب ميزة الـ Kernel Integrity Protection المعتمدة على مكونات الجهاز، والتي تمنع تعديل نواة النظام (Kernel) أثناء وجودها في الذاكرة.
+
+#### أمان التطبيقات
+
+##### عزل التطبيقات (App Sandbox)
+
+في macOS، يحدد المطور ما إذا كان التطبيق سيعمل داخل بيئة معزولة (sandbox) عند توقيعه رقميا. تساعد ميزة [App Sandbox](https://developer.apple.com/documentation/xcode/configuring-the-macos-app-sandbox) على الحماية من الثغرات الأمنية في التطبيقات التي تستخدمها، من خلال تقييد ما يمكن للمهاجم الوصول إليه إذا نجح في استغلال ثغرة في أحد هذه التطبيقات. لا تستطيع ميزة App Sandbox *وحدها* الحماية من[:material-package-variant-closed-remove: هجمات سلسلة التوريد](../basics/common-threats.md#attacks-against-certain-organizations ""){.pg-viridian} التي ينفّذها مطوّرون خبيثون. للحماية من هذه الهجمات، يجب أن تفرض جهة أخرى غير المطور نفسه استخدام sandboxing، كما هو الحال في [App Store](https://support.apple.com/guide/security/gatekeeper-and-runtime-protection-sec5599b66df/1/web/1#:~:text=All%20apps%20from%20the%20App%20Store%20are%20sandboxed%20to%20restrict%20access%20to%20data%20stored%20by%20other%20apps.).
 
 <div class="admonition warning" markdown>
 <p class="admonition-title">تنوية</p>
 
-Just because one of an app's processes is sandboxed doesn't mean they all are.
+التطبيقات التي تُنزل من خارج App Store الرسمي ليست ملزَمة باستخدام sandboxing. إذا كانت الحماية من [:material-bug-outline: الهجمات السلبية (Passive attacks)](:material-bug-outline:){ .pg-orange } من أولويات الـ Threat Model الخاص بك، فقد ترغب في التحقق مما إذا كانت البرامج التي تنزّلها من خارج App Store تستخدم sandboxing، لأن المطور هو من يختار تفعيل هذه الحماية.
 
 </div>
 
-Alternatively, you can check apps before you run them by running this command in the terminal:
+يمكنك التحقق مما إذا كان التطبيق يستخدم App Sandbox بعدة طرق:
+
+يمكنك استخدام [Activity Monitor ](https://developer.apple.com/documentation/security/protecting-user-data-with-app-sandbox#Verify-that-your-app-uses-App-Sandbox)للتحقق مما إذا كانت التطبيقات قيد التشغيل تعمل داخل بيئة معزولة (sandbox).
+
+<div class="admonition warning" markdown>
+<p class="admonition-title">تنوية</p>
+
+كون إحدى عمليات التطبيق تعمل داخل بيئة معزولة (sandbox) لا يعني بالضرورة أن جميع عملياته معزولة.
+
+</div>
+
+بدلا من ذلك، يمكنك التحقق مما إذا كانت التطبيقات تستخدم sandboxing قبل تشغيلها، من خلال تنفيذ الأمر التالي في Terminal:
 
 ``` zsh
 codesign -dvvv --entitlements - <path to your app>
 ```
 
-If an app is sandboxed, you should see the following output:
+إذا كان التطبيق يعمل داخل بيئة معزولة (sandbox)، فستظهر لك النتيجة التالية:
 
 ``` zsh
     [Key] com.apple.security.app-sandbox
@@ -221,19 +221,19 @@ If an app is sandboxed, you should see the following output:
         [Bool] true
 ```
 
-If you find that the app you want to run is not sandboxed, then you may employ methods of [compartmentalization](../basics/common-threats.md#security-and-privacy) such as virtual machines or separate devices, use a similar app that is sandboxed, or choose to not use the non-sandboxed app altogether.
+إذا اكتشفت أن التطبيق الذي تريد تشغيله لا يستخدم sandboxing، فيمكنك عزله [بطرق](../basics/common-threats.md#security-and-privacy) أخرى، مثل استخدام الأجهزة الافتراضية (Virtual Machines) أو جهاز منفصل، أو اختيار تطبيق مشابه يستخدم sandboxing، أو تجنّب استخدام التطبيق غير المعزول تمامًا.
 
-##### Hardened Runtime
+##### بيئة التشغيل المحصّنة (Hardened Runtime)
 
-The [Hardened Runtime](https://developer.apple.com/documentation/security/hardened_runtime) is an extra form of protection for apps that prevents certain classes of exploits. It improves the security of apps against exploitation by disabling certain features like JIT.
+توفّر ميزة [Hardened Runtime](https://developer.apple.com/documentation/security/hardened_runtime) طبقة حماية إضافية للتطبيقات، تساعد على منع أنواع معيّنة من استغلال الثغرات الأمنية. تعزز هذه الميزة أمان التطبيقات ضد استغلال الثغرات الأمنية، من خلال تعطيل بعض الوظائف مثل JIT.
 
-You can check if an app uses the Hardened Runtime using this command:
+يمكنك التحقق مما إذا كان التطبيق يستخدم Hardened Runtime من خلال تنفيذ الأمر التالي:
 
 ``` zsh
 codesign -dv <path to your app>
 ```
 
-If Hardened Runtime is enabled, you will see `flags=0x10000(runtime)`. The `runtime` output means Hardened Runtime is enabled. There might be other flags, but the runtime flag is what we're looking for here.
+إذا كانت ميزة Hardened Runtime مفعّلة، فستظهر لك القيمة `flags=0x10000(runtime)`. ظهور `runtime` في النتيجة يعني أن ميزة Hardened Runtime مفعّلة. قد تظهر علامات أخرى، لكن ما نبحث عنه هنا هو العلامة runtime.
 
 You can enable a column in Activity Monitor called "Restricted" which is a flag that prevents programs from injecting code via macOS's [dynamic linker](https://pewpewthespells.com/blog/blocking_code_injection_on_ios_and_os_x.html). Ideally, this should say "Yes".
 
