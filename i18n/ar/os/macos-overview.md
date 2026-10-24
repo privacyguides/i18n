@@ -64,95 +64,95 @@ description: الـ macOS هو نظام تشغيل أجهزة الكمبيوتر
 
 - [x] فعّل خيار **Firewall**
 
-Click the **Options** button:
+انقر على زر **Options**:
 
-- [x] Turn on **Block all incoming connections**
+- [x] فعّل خيار **Block all incoming connections**
 
-If this configuration is too strict, you can come back and uncheck this. However, macOS will typically prompt you to allow incoming connections for an app if the app requests it.
+إذا كانت هذه الإعدادات صارمة أكثر من اللازم، يمكنك العودة وإلغاء تفعيل هذا الخيار. لكن عادةً ما سيطلب منك macOS السماح بالاتصالات الواردة لأي تطبيق يطلب ذلك.
 
-#### General
+#### عام
 
-By default, your device name will be something like "[your name]'s iMac". Because this name is [publicly broadcast on your network](https://support.apple.com/guide/mac-help/change-computers-local-hostname-mac-mchlp2322/26/mac/26#:~:text=The%20local%20hostname%2C%20or%20local%20network%20name%2C%20is%20displayed%20at%20the%20bottom%20of%20the%20Sharing%20settings%20window.%20It%20identifies%20your%20Mac%20to%20Bonjour%2Dcompatible%20services.), you'll want to change your device name to something generic like "Mac".
+افتراضيا، سيكون اسم جهازك شيئًا مثل "iMac الخاص بـ[اسمك]". لأن اسم جهازك [يظهر للأجهزة الأخرى على شبكتك](https://support.apple.com/guide/mac-help/change-computers-local-hostname-mac-mchlp2322/26/mac/26#:~:text=The%20local%20hostname%2C%20or%20local%20network%20name%2C%20is%20displayed%20at%20the%20bottom%20of%20the%20Sharing%20settings%20window.%20It%20identifies%20your%20Mac%20to%20Bonjour%2Dcompatible%20services.)، يفضل تغييره إلى اسم عام مثل "Mac".
 
-Click on **About** and type your desired device name into the **Name** field.
+انقر على **About**، ثم اكتب الاسم الذي تريده لجهازك في حقل **Name**.
 
-##### Software Updates
+##### تحديثات البرامج
 
-You should automatically install all available updates to make sure your Mac has the latest security fixes.
+يجب تثبيت جميع التحديثات المتاحة تلقائيا للتأكد من حصول جهاز Mac على أحدث الإصلاحات الأمنية.
 
-Click the small :material-information-outline: icon next to **Automatic Updates**:
+انقر على أيقونة :material-information-outline: الصغيرة بجوار **Automatic Updates**:
 
-- [x] Turn on **Download new updates when available**
+- [x] فعّل خيار **Download new updates when available**
 
 - [x] Turn on **Install macOS updates**
 
-- [x] Turn on **Install Security Responses and system files**
+- [x] فعّل خيار **Install Security Responses and system files**
 
 #### Apple Intelligence & Siri
 
-If you do not use these features on macOS, you should disable them:
+إذا كنت لا تستخدم هذه الميزات على macOS، فمن الأفضل تعطيلها:
 
-- [ ] Turn off **Apple Intelligence**
-- [ ] Turn off **Siri**
+- [ ] عطّل خيار **Apple Intelligence**
+- [ ] عطّل خيار **Siri**
 
-**[Apple Intelligence](https://apple.com/legal/privacy/data/en/intelligence-engine)** is only available if your device supports it. Apple Intelligence uses a combination of on-device processing and their [Private Cloud Compute](https://security.apple.com/blog/private-cloud-compute) for things that take more processing power than your device can provide.
+لا تتوفر ميزة **[Apple Intelligence](https://apple.com/legal/privacy/data/en/intelligence-engine)** إلا إذا كان جهازك يدعمها. يستخدم Apple Intelligence المعالجة على الجهاز نفسه، ويستعين أيضًا بخدمة [Private Cloud Compute](https://security.apple.com/blog/private-cloud-compute) لتنفيذ المهام التي تحتاج إلى قدرة معالجة أكبر مما يستطيع جهازك توفيره.
 
-To see a report of all the data sent via Apple Intelligence, you can navigate to **Privacy & Security** → **Apple Intelligence Report** and press **Export Activity** to see activity from the either the last 15 minutes or 7 days, depending on what you set it for. Similar to the **App Privacy Report** which shows you the recent permissions accessed by the apps on your phone, the Apple Intelligence Report likewise shows what is being sent to Apple's servers while using Apple Intelligence.
+للاطلاع على تقرير بجميع البيانات المُرسلة عبر Apple Intelligence، انتقل إلى **Privacy & Security** → **Apple Intelligence Report**، ثم اضغط على **Export Activity** لعرض النشاط خلال آخر 15 دقيقة أو 7 أيام، حسب المدة التي اخترتها. مثلما يعرض **App Privacy Report** الأذونات التي استخدمتها التطبيقات على هاتفك مؤخرا، يعرض Apple Intelligence Report ما يُرسَل إلى خوادم Apple عند استخدام Apple Intelligence.
 
-By default, ChatGPT integration is disabled. If you don't want ChatGPT integration anymore, you can navigate to **ChatGPT**:
+يكون التكامل مع ChatGPT معطلا بشكل افتراضي. إذا لم تعد ترغب في التكامل مع ChatGPT، يمكنك الانتقال إلى **ChatGPT**:
 
-- [ ] Turn off **Use ChatGPT**
+- [ ] عطّل خيار **Use ChatGPT**
 
-You can also have it ask for confirmation every time if you leave ChatGPT integration on:
+يمكنك أيضا ضبطه ليطلب تأكيدك في كل مرة، إذا تركت دمج ChatGPT مفعلا:
 
-- [x] Turn on **Confirm Requests**
+- [x] فعّل ** Confirm Requests**
 
 <div class="admonition warning" markdown>
 <p class="admonition-title">تنوية</p>
 
-Any request made with ChatGPT will be sent to ChatGPT's servers, there is no on-device processing and no PCC like with Apple Intelligence.
+أي طلب ترسله إلى ChatGPT سيُرسَل إلى خوادمه، ولن تتم معالجته على جهازك أو باستخدام Private Cloud Compute ‏(PCC)، على عكس Apple Intelligence.
 
 </div>
 
 #### الخصوصية والأمان
 
-Whenever an application requests a permission, it will show up here. You can decide which applications you want to allow or deny specific permissions.
+كلما طلب أحد التطبيقات إذنا، سيظهر هنا. يمكنك تحديد التطبيقات التي تريد السماح لها بأذونات معيّنة أو منعها منها.
 
-##### Location Services
+##### خدمات الموقع
 
-You can individually allow location services per-app. If you don't need apps to use your location, turning off location services entirely is the most private option.
+يمكنك السماح لكل تطبيق بالوصول إلى موقعك بشكل منفصل. إذا لم تكن بحاجة إلى استخدام التطبيقات لموقعك، فإن تعطيل خدمات الموقع تماما هو الخيار الأفضل لحماية خصوصيتك.
 
 - [ ] عطّل خدمات الموقع **(Location Services)**
 
-##### Analytics & Improvements
+##### التحليلات والتحسينات
 
-Decide whether you want to share analytics data with Apple and app developers.
+حدد ما إذا كنت تريد مشاركة بيانات التحليلات مع Apple ومطوري التطبيقات.
 
-##### Apple Advertising
+##### إعلانات Apple
 
-Decide whether you want personalized ads based on your usage.
+حدد ما إذا كنت تريد عرض إعلانات مخصصة لك بناء على طريقة استخدامك.
 
 - [ ] عطّل خيار **Personalized Ads**
 
 ##### FileVault
 
-On modern devices with a Secure Enclave (Apple T2 Security Chip, Apple Silicon), your data is always encrypted, but is decrypted automatically by a hardware key if your device doesn't detect it's been tampered with. Enabling [FileVault](../encryption.md#filevault) additionally requires your password to decrypt your data, greatly improving security, especially when powered off or before the first login after powering on.
+على الأجهزة الحديثة التي تحتوي على Secure Enclave (مثل الأجهزة المزودة بشريحة Apple T2 Security Chip أو Apple Silicon)، تكون بياناتك مشفرة دائما، لكن الجهاز يفك تشفيرها تلقائيًا باستخدام مفتاح موجود في الجهاز نفسه، ما دام لم يكتشف أي تلاعب به. يتطلب تفعيل [FileVault](../encryption.md#filevault) إدخال كلمة مرورك لفك تشفير بياناتك، مما يعزز الأمان بشكل كبير، خاصةً عندما يكون جهازك مغلقا أو قبل تسجيل الدخول لأول مرة بعد تشغيله.
 
-On older Intel-based Mac computers, FileVault is the only form of disk encryption available by default, and should always be enabled.
+في أجهزة Mac القديمة التي تعمل بمعالجات Intel، يُعد FileVault الوسيلة الوحيدة المدمجة في النظام لتشفير القرص، ولذلك ينبغي تفعيله دائما.
 
-- [x] Click **Turn On**
+- [x] انقر على **Turn On**
 
-##### Lockdown Mode
+##### وضع الحظر
 
-**[Lockdown Mode](https://support.apple.com/guide/mac-help/lock-mac-targeted-a-cyberattack-ibrw66f4e191/mac)** disables some features in order to improve security. Some apps or features won't work the same way they do when it's off. For example, Javascript Just-In-Time ([JIT](https://hacks.mozilla.org/2017/02/a-crash-course-in-just-in-time-jit-compilers)) compilation and [WebAssembly](https://developer.mozilla.org/docs/WebAssembly) are disabled in Safari with Lockdown Mode enabled. We recommend enabling Lockdown Mode and seeing whether it significantly impacts daily usage.
+يعطّل **[وضع الحظر ](https://support.apple.com/guide/mac-help/lock-mac-targeted-a-cyberattack-ibrw66f4e191/mac)**بعض الميزات لتعزيز الأمان. Some apps or features won't work the same way they do when it's off. على سبيل المثال، عند تفعيل وضع الحظر، يعطّل Safari تقنية Just-In-Time [(JIT](https://hacks.mozilla.org/2017/02/a-crash-course-in-just-in-time-jit-compilers)) compilation الخاصة بـ JavaScript، وكذلك [WebAssembly](https://developer.mozilla.org/docs/WebAssembly). ننصح بتفعيل وضع الحظر وتجربته لمعرفة ما إذا كان يؤثر بشكل ملحوظ على استخدامك اليومي.
 
-- [x] Click **Turn On**
+- [x] انقر على **Turn On**
 
 ### تغيير عنوان MAC عشوائيا
 
-macOS uses a randomized MAC address when [performing Wi-Fi scans](https://support.apple.com/guide/security/privacy-features-connecting-wireless-networks-secb9cb3140c/web) while disconnected from a network.
+يستخدم macOS عنوان MAC عشوائيا عند [البحث عن شبكات Wi-Fi ](https://support.apple.com/guide/security/privacy-features-connecting-wireless-networks-secb9cb3140c/web)أثناء عدم الاتصال بأي شبكة.
 
-You can set your [MAC address to be randomized](https://support.apple.com/en-us/102509) per network and rotate occasionally to prevent tracking between networks and on the same network over time.
+يمكنك ضبط عنوان [MAC ليكون عشوائيا لكل شبكة](https://support.apple.com/en-us/102509)، ويتغير من وقت لآخر، لمنع تتبّع جهازك بين الشبكات المختلفة أو على الشبكة نفسها مع مرور الوقت.
 
 انتقل إلى **System Settings** → **Network** → **Wi-Fi** → **Details**، ثم اضبط **Private Wi-Fi address** على **Fixed** إذا كنت تريد عنوانًا ثابتًا وفريدًا للشبكة التي تتصل بها، أو على **Rotating** إذا كنت تريد أن يتغير العنوان بمرور الوقت.
 
