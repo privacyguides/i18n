@@ -84,7 +84,7 @@ description: الـ macOS هو نظام تشغيل أجهزة الكمبيوتر
 
 - [x] فعّل خيار **Download new updates when available**
 
-- [x] Turn on **Install macOS updates**
+- [x] فعّل خيار **Install macOS updates**
 
 - [x] فعّل خيار **Install Security Responses and system files**
 
@@ -144,7 +144,7 @@ description: الـ macOS هو نظام تشغيل أجهزة الكمبيوتر
 
 ##### وضع الحظر
 
-يعطّل **[وضع الحظر ](https://support.apple.com/guide/mac-help/lock-mac-targeted-a-cyberattack-ibrw66f4e191/mac)**بعض الميزات لتعزيز الأمان. Some apps or features won't work the same way they do when it's off. على سبيل المثال، عند تفعيل وضع الحظر، يعطّل Safari تقنية Just-In-Time [(JIT](https://hacks.mozilla.org/2017/02/a-crash-course-in-just-in-time-jit-compilers)) compilation الخاصة بـ JavaScript، وكذلك [WebAssembly](https://developer.mozilla.org/docs/WebAssembly). ننصح بتفعيل وضع الحظر وتجربته لمعرفة ما إذا كان يؤثر بشكل ملحوظ على استخدامك اليومي.
+يعطّل **[وضع الحظر ](https://support.apple.com/guide/mac-help/lock-mac-targeted-a-cyberattack-ibrw66f4e191/mac)**بعض الميزات لتعزيز الأمان. قد لا تعمل بعض التطبيقات أو الميزات بالطريقة المعتادة عند تفعيل وضع الحظر. على سبيل المثال، عند تفعيل وضع الحظر، يعطّل Safari تقنية Just-In-Time [(JIT](https://hacks.mozilla.org/2017/02/a-crash-course-in-just-in-time-jit-compilers)) compilation الخاصة بـ JavaScript، وكذلك [WebAssembly](https://developer.mozilla.org/docs/WebAssembly). ننصح بتفعيل وضع الحظر وتجربته لمعرفة ما إذا كان يؤثر بشكل ملحوظ على استخدامك اليومي.
 
 - [x] انقر على **Turn On**
 
@@ -256,57 +256,57 @@ codesign -dv <path to your app>
 
 تتوفر بعض ميزات الأمان الحديثة هذه في أجهزة Mac القديمة التي تعمل بمعالجات Intel والمزوّدة بشريحة Apple T2 Security Chip، لكن هذه الشريحة معرّضة لاستغلال ثغرة *checkm8*، مما قد يعرّض أمانها للخطر.
 
-إذا كنت تستخدم ملحقات تعمل بتقنية Bluetooth، مثل لوحة المفاتيح، فننصح باختيار ملحقات Apple الأصلية، لأن macOS يحدّث برامجها الثابتة (Firmware) [تلقائيا](https://support.apple.com/en-us/120303#:~:text=Firmware%20updates%20are%20automatically%20delivered%20in%20the%20background%20while%20the%20Magic%20Keyboard%20is%20actively%20paired%20to%20a%20device%20running%20macOS%2C%20iOS%2C%20iPadOS%2C%20or%20tvOS.). لا مشكلة في استخدام ملحقات من شركات أخرى، لكن احرص على تثبيت تحديثات البرامج الثابتة (Firmware) الخاصة بها بانتظام.
+إذا كنت تستخدم ملحقات تعمل بتقنية Bluetooth، مثل لوحة المفاتيح، فننصح باختيار ملحقات Apple الأصلية، لأن macOS يحدّث برامجها الثابتة (Firmware) [تلقائيا](https://support.apple.com/en-us/120303#:~:text=Firmware%20updates%20are%20automatically%20delivered%20in%20the%20background%20while%20the%20Magic%20Keyboard%20is%20actively%20paired%20to%20a%20device%20running%20macOS%2C%20iOS%2C%20iPadOS%2C%20or%20tvOS.). لا مشكلة في استخدام ملحقات من شركات أخرى، لكن احرص على تثبيت تحديثات الـ (Firmware) الخاصة بها بانتظام.
 
-Apple's SoCs focus on [minimizing attack surface](https://support.apple.com/en-vn/guide/security/secf020d1074/web#:~:text=Security%2Dfocused%20hardware%20follows%20the%20principle%20of%20supporting%20limited%20and%20discretely%20defined%20functions%20to%20minimize%20attack%20surface.) by relegating security functions to dedicated hardware with limited functionality.
+تركز شرائح SoC من Apple على تقليل الـ attack surface من خلال إسناد المهام الأمنية إلى[ مكونات عتادية (hardware) مخصصة ذات وظائف محدودة](https://support.apple.com/en-vn/guide/security/secf020d1074/web#:~:text=Security%2Dfocused%20hardware%20follows%20the%20principle%20of%20supporting%20limited%20and%20discretely%20defined%20functions%20to%20minimize%20attack%20surface.).
 
-#### Boot ROM
+#### ذاكرة الإقلاع للقراءة فقط (Boot ROM)
 
-macOS prevents malware persistence by only allowing official Apple software to run at boot time; this is known as [secure boot](https://support.apple.com/en-vn/guide/security/secac71d5623/1/web/1). Mac computers verify this with a bit of read-only memory on the SoC called the [boot ROM](https://support.apple.com/en-vn/guide/security/aside/sec5240db956/1/web/1), which is [laid down during the manufacturing of the chip](https://support.apple.com/en-vn/guide/security/secf020d1074/1/web/1#:~:text=which%20is%20laid%20down%20during%20Apple%20SoC%20fabrication).
+يمنع macOS البرمجيات الخبيثة من البقاء على الجهاز عبر السماح فقط لبرامج Apple الرسمية بالعمل أثناء إقلاع النظام، وتُعرف هذه الميزة باسم [Secure Boot](https://support.apple.com/en-vn/guide/security/secac71d5623/1/web/1). تتحقق أجهزة Mac من ذلك باستخدام ذاكرة صغيرة للقراءة فقط داخل شريحة الـ SoC، تُسمى [Boot ROM](https://support.apple.com/en-vn/guide/security/aside/sec5240db956/1/web/1)، [ويُكتب محتواها أثناء تصنيع الشريحة.](https://support.apple.com/en-vn/guide/security/secf020d1074/1/web/1#:~:text=which%20is%20laid%20down%20during%20Apple%20SoC%20fabrication)
 
-The boot ROM forms the hardware root of trust. This ensures that malware cannot tamper with the boot process, since the boot ROM is immutable. When your Mac boots up, the boot ROM is the first thing that runs, forming the first link in the chain of trust.
+تُشكّل ذاكرة Boot ROM جذر الثقة على مستوى العتاد (hardware root of trust). وهذا يضمن عدم قدرة البرمجيات الخبيثة على العبث بعملية الإقلاع، لأن محتوى ذاكرة Boot ROM ثابت ولا يمكن تعديله. عند تشغيل جهاز Mac، تكون Boot ROM أول ما يبدأ بالعمل، وتشكّل بذلك الحلقة الأولى في سلسلة الثقة (Chain of Trust).
 
-Mac computers can be configured to boot in [three security modes](https://support.apple.com/guide/deployment/startup-security-dep5810e849c/web#dep32fb404e1): *Full Security*, *Reduced Security*, and *Permissive Security*, with the default setting being Full Security. You should ideally be using Full Security mode and avoid things like **[kernel extensions](https://support.apple.com/guide/deployment/system-extensions-in-macos-depa5fb8376f/web#dep51e097f45)** that force you to lower your security mode. Make sure to [check](https://support.apple.com/guide/mac-help/change-security-settings-startup-disk-a-mac-mchl768f7291/mac) that you're using Full Security mode.
+يمكن ضبط أجهزة Mac على [ثلاثة مستويات](https://support.apple.com/guide/deployment/startup-security-dep5810e849c/web#dep32fb404e1) من أمان الإقلاع: *Full Security* و*Reduced Security* و*Permissive Security*، ويكون Full Security هو الإعداد الافتراضي. يُفضّل استخدام وضع Full Security وتجنّب أشياء مثل**[ إضافات النواة (kernel extensions)](https://support.apple.com/guide/deployment/system-extensions-in-macos-depa5fb8376f/web#dep51e097f45)** التي تضطرك إلى خفض مستوى أمان الإقلاع. تأكد من أنك [تستخدم](https://support.apple.com/guide/mac-help/change-security-settings-startup-disk-a-mac-mchl768f7291/mac) وضع Full Security.
 
-#### Secure Enclave
+#### المنطقة الآمنة (Secure Enclave)
 
-The **[Secure Enclave](https://support.apple.com/guide/security/secure-enclave-sec59b0b31ff/web)** is a security chip built into devices with Apple Silicon which is responsible for storing and generating encryption keys for data at rest as well as Face ID and Touch ID data. It contains its own [separate boot ROM](https://support.apple.com/en-vn/guide/security/sec59b0b31ff/web#sec43006c49f).
+الـ **[Secure Enclave](https://support.apple.com/guide/security/secure-enclave-sec59b0b31ff/web)** هو مكوّن أمني مدمج في الأجهزة التي تستخدم شرائح Apple Silicon، وهو مسؤول عن إنشاء مفاتيح تشفير البيانات المخزّنة وحفظها، بالإضافة إلى حماية بيانات Face ID وTouch ID. يحتوي Secure Enclave على ذاكرة [Boot ROM خاصة](https://support.apple.com/en-vn/guide/security/sec59b0b31ff/web#sec43006c49f) به ومنفصلة عن ذاكرة الإقلاع الرئيسية.
 
-You can think of the Secure Enclave as your device's security hub: it has an AES encryption engine and a mechanism to securely store your encryption keys, and it's separated from the rest of the system, so even if the main processor is compromised, it should still be safe.
+يمكنك اعتبار Secure Enclave مركز الأمان في جهازك؛ فهو يحتوي على محرك تشفير AES وآلية لحفظ مفاتيح التشفير بأمان. وهو معزول عن بقية النظام، لذلك يُفترض أن يظل آمنًا حتى لو تعرّض المعالج الرئيسي للاختراق.
 
 #### Touch ID
 
-Apple's Touch ID feature allows you to securely unlock your devices using biometrics.
+تتيح لك ميزة Touch ID من Apple فتح قفل أجهزتك بأمان باستخدام بصمة إصبعك.
 
-Your biometric data [never leaves your device](https://www.apple.com/legal/privacy/data/en/touch-id/#:~:text=Touch%C2%A0ID%20data%20does%20not%20leave%20your%20device%2C%20and%20is%20never%20backed%20up%20to%20iCloud%20or%20anywhere%20else.); it's stored only in the Secure Enclave.
+لا تغادر بياناتك البيومترية [جهازك](https://www.apple.com/legal/privacy/data/en/touch-id/#:~:text=Touch%C2%A0ID%20data%20does%20not%20leave%20your%20device%2C%20and%20is%20never%20backed%20up%20to%20iCloud%20or%20anywhere%20else.) أبدًا، بل تُحفظ فقط داخل Secure Enclave.
 
-#### Hardware Microphone Disconnect
+#### فصل الميكروفون على مستوى العتاد
 
-All laptops with Apple Silicon or the T2 chip feature a [hardware disconnect](https://support.apple.com/guide/security/hardware-microphone-disconnect-secbbd20b00b/web) for the built-in microphone whenever the lid is closed. This means that there is no way for an attacker to listen to your Mac's microphone even if the operating system is compromised.
+تحتوي جميع أجهزة MacBook المزودة بشرائح Apple Silicon أو شريحة T2 على آلية [تفصل](https://support.apple.com/guide/security/hardware-microphone-disconnect-secbbd20b00b/web) الميكروفون المدمج على مستوى العتاد عند إغلاق غطاء الجهاز. وهذا يعني أنه لا يمكن للمهاجم التنصت عليك عبر الميكروفون المدمج في جهاز Mac عندما يكون الغطاء مغلقا، حتى لو تعرض نظام التشغيل للاختراق.
 
-Note that the camera does not have a hardware disconnect, since its view is obscured when the lid is closed anyway.
+لاحظ أن الكاميرا لا تحتوي على آلية فصل على مستوى العتاد، لأن غطاء الجهاز يحجب رؤيتها عند إغلاقه على أي حال.
 
-#### Secure Camera Indicator
+#### مؤشر تشغيل الكاميرا الآمن
 
-The built-in camera in a Mac is designed so that the camera can't turn on without the camera indicator light [also turning on](https://support.apple.com/en-us/102177#:~:text=The%20camera%20is%20engineered%20so%20that%20it%20can’t%20activate%20without%20the%20camera%20indicator%20light%20also%20turning%20on.%20This%20is%20how%20you%20can%20tell%20if%20your%20camera%20is%20on.).
+صُممت الكاميرا المدمجة في أجهزة Mac بحيث لا يمكن تشغيلها دون أن يضيء مؤشر [تشغيل الكاميرا](https://support.apple.com/en-us/102177#:~:text=The%20camera%20is%20engineered%20so%20that%20it%20can’t%20activate%20without%20the%20camera%20indicator%20light%20also%20turning%20on.%20This%20is%20how%20you%20can%20tell%20if%20your%20camera%20is%20on.) أيضًا.
 
-#### Peripheral Processor Security
+#### أمان المعالجات الطرفية
 
-Computers have [built-in processors](https://support.apple.com/en-vn/guide/security/seca500d4f2b/1/web/1) other than the main CPU that handle things like networking, graphics, power management, etc. These processors can have insufficient security and become compromised, therefore Apple tries to minimize the need for these processors in their hardware.
+تحتوي أجهزة الكمبيوتر على معالجات [مدمجة](https://support.apple.com/en-vn/guide/security/seca500d4f2b/1/web/1) أخرى غير المعالج الرئيسي (CPU)، تتولى مهام مثل الاتصال بالشبكات، ومعالجة الرسوميات، وإدارة الطاقة، وغيرها. قد لا تتمتع هذه المعالجات بحماية كافية، مما يجعلها عرضة للاختراق. لذلك تحاول Apple تقليل الحاجة إلى استخدام هذه المعالجات في أجهزتها قدر الإمكان.
 
-When it is necessary to use one of these processors, Apple works with the vendor to ensure that the processor
+عندما يكون استخدام أحد هذه المعالجات ضروريا، تتعاون Apple مع الشركة المصنّعة لضمان أن المعالج
 
-- runs verified firmware from the primary CPU on startup
-- has its own Secure Boot chain
-- follows minimum cryptographic standards
-- ensures known bad firmware is properly revoked
-- has its debug interfaces disabled
-- is signed with Apple's cryptographic keys
+- يشغل عند بدء التشغيل الـ (Firmware) تحقق المعالج الرئيسي (CPU) من سلامته ووفّره له
+- لديه سلسلة إقلاع آمن (Secure Boot) خاصة به
+- يلتزم بالحد الأدنى من معايير التشفير
+- يضمن إلغاء الثقة بإصدارات الـ (Firmware) المعروفة بأنها غير آمنة بشكل صحيح
+- تكون واجهات تصحيح الأخطاء (Debug Interfaces) الخاصة به معطّلة
+- موقع رقميا باستخدام مفاتيح التشفير الخاصة بشركة Apple
 
-#### Direct Memory Access Protections
+#### الحماية من الوصول المباشر إلى الذاكرة (DMA)
 
-Apple Silicon separates each component that requires [direct memory access](https://support.apple.com/guide/security/direct-memory-access-protections-seca4960c2b5/1/web/1). For example, a Thunderbolt port can't access memory designated for the kernel.
+تعزل شرائح Apple Silicon كل مكوّن يحتاج إلى [الوصول المباشر إلى الذاكرة (DMA)](https://support.apple.com/guide/security/direct-memory-access-protections-seca4960c2b5/1/web/1) عن المكونات الأخرى. على سبيل المثال، لا يمكن لمنفذ Thunderbolt الوصول إلى الذاكرة المخصصة لنواة النظام (Kernel).
 
-#### Terminal Secure Keyboard Entry
+#### الإدخال الآمن من لوحة المفاتيح في Terminal
 
-Enable [Secure Keyboard Entry](https://support.apple.com/guide/terminal/use-secure-keyboard-entry-trml109/mac) to prevent other apps from detecting what you type in the terminal.
+فعّل خيار [Secure Keyboard Entry](https://support.apple.com/guide/terminal/use-secure-keyboard-entry-trml109/mac) لمنع التطبيقات الأخرى من معرفة ما تكتبه في Terminal.
