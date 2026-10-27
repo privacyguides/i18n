@@ -4,78 +4,78 @@ icon: simple/qubesos
 description: نظام Qubes هو نظام تشغيل يعتمد على عزل التطبيقات داخل qubes (التي كانت تُسمّى سابقًا "VMs") لتعزيز الأمان.
 ---
 
-الـ [**Qubes OS**](../desktop.md#qubes-os) هو نظام تشغيل مفتوح المصدر يستخدم [Xen](https://en.wikipedia.org/wiki/Xen) hypervisor لتوفير مستوى عالٍ من الأمان على أجهزة الكمبيوتر، من خلال بيئات معزولة تُسمى *qubes*، وهي أجهزة افتراضية (Virtual Machines). يمكنك تحديد مستوى الثقة في كل *qube* حسب الغرض من استخدامها. يوفر Qubes OS الأمان من خلال العزل. It only permits actions on a per-case basis and therefore is the opposite of [badness enumeration](https://ranum.com/security/computer_security/editorials/dumb).
+الـ [**Qubes OS**](../desktop.md#qubes-os) هو نظام تشغيل مفتوح المصدر يستخدم [Xen](https://en.wikipedia.org/wiki/Xen) hypervisor لتوفير مستوى عالٍ من الأمان على أجهزة الكمبيوتر، من خلال بيئات معزولة تُسمى *qubes*، وهي أجهزة افتراضية (Virtual Machines). يمكنك تحديد مستوى الثقة في كل *qube* حسب الغرض من استخدامها. يوفر Qubes OS الأمان من خلال العزل. فهو لا يسمح بتنفيذ الإجراءات إلا بعد السماح بها لكل حالة على حدة، بدلًا من الاعتماد على حصر السلوكيات [الضارة المعروفة](https://ranum.com/security/computer_security/editorials/dumb) ومنعها.
 
-## How does Qubes OS work?
+## كيف يعمل Qubes OS؟
 
-Qubes uses [compartmentalization](https://qubes-os.org/intro) to keep the system secure. Qubes are created from templates, the defaults being for Fedora, Debian and [Whonix](../desktop.md#whonix). Qubes OS also allows you to create once-use [disposable](https://qubes-os.org/doc/how-to-use-disposables) *qubes*.
+يستخدم Qubes [العزل](https://qubes-os.org/intro) بين أجزاء النظام المختلفة للحفاظ على أمانه. تُنشأ qubes باستخدام قوالب (Templates)، والقوالب الافتراضية مبنية على Fedora وDebian [وWhonix](../desktop.md#whonix). يتيح لك Qubes OS أيضا إنشاء *qubes* مؤقتة[ تُستخدم مرة واحدة فقط](https://qubes-os.org/doc/how-to-use-disposables).
 
 <details class="note" markdown>
-<summary>The term <em>qubes</em> is gradually being updated to avoid referring to them as "virtual machines".</summary>
+<summary>يجري تدريجيا تحديث المصطلحات المستخدمة، بحيث يُشار إلى هذه البيئات باسم <em>"qubes"</em> بدلا من "virtual machines".</summary>
 
-Some of the information here and on the Qubes OS documentation may contain conflicting language as the "appVM" term is gradually being changed to "qube". Qubes are not entire virtual machines, but maintain similar functionalities to VMs.
+قد تجد بعض الاختلافات في المصطلحات المستخدمة هنا وفي وثائق Qubes OS، لأن مصطلح "appVM" يُستبدل تدريجيا بمصطلح "qube". ليست qubes أجهزة افتراضية كاملة، لكنها توفر وظائف مشابهة لما تقدمه الأجهزة الافتراضية (VMs).
 
 </details>
 
-![Qubes architecture](../assets/img/qubes/qubes-trust-level-architecture.png)
-<figcaption>Qubes Architecture, Credit: What is Qubes OS Intro</figcaption>
+![بنية Qubes](../assets/img/qubes/qubes-trust-level-architecture.png)
+<figcaption>بنية Qubes، المصدر: What is Qubes OS Intro</figcaption>
 
-Each qube has a [colored border](https://qubes-os.org/screenshots) that can help you keep track of the domain in which it runs. You could, for example, use a specific color for your banking browser, while using a different color for a general untrusted browser.
+تظهر نوافذ التطبيقات التابعة لكل qube [بإطار ملون](https://qubes-os.org/screenshots) يساعدك على معرفة الـqube التي تعمل بداخلها. يمكنك مثلا تخصيص لون معين للمتصفح الذي تستخدمه للخدمات البنكية، ولون مختلف للمتصفح الذي تستخدمه للتصفح العام ولا تعتبره موثوقا.
 
-![Colored border](../assets/img/qubes/r4.0-xfce-three-domains-at-work.png)
-<figcaption>Qubes window borders, Credit: Qubes Screenshots</figcaption>
+![الإطار الملون](../assets/img/qubes/r4.0-xfce-three-domains-at-work.png)
+<figcaption>إطارات النوافذ في Qubes، المصدر: Qubes Screenshots</figcaption>
 
-## Why Should I use Qubes?
+## لماذا أستخدم Qubes؟
 
-Qubes OS is useful if your [threat model](../basics/threat-modeling.md) requires strong security and isolation, such as if you think you'll be opening untrusted files from untrusted sources. A typical reason for using Qubes OS is to open documents from unknown sources, but the idea is that if a single qube is compromised it won't affect the rest of the system.
+يكون Qubes OS مفيدا إذا كان [Threat Model](../basics/threat-modeling.md) الخاص بك يتطلب مستوى عاليا من الأمان والعزل، مثلا إذا كنت تتوقع فتح ملفات غير موثوقة من مصادر غير موثوقة. من الأسباب الشائعة لاستخدام Qubes OS مثلا فتح مستندات من مصادر غير معروفة. والفكرة هي أن اختراق qube واحدة لا يؤثر على بقية النظام.
 
-Qubes OS utilizes [dom0](https://wiki.xenproject.org/wiki/Dom0) Xen VM for controlling other *qubes* on the host OS, all of which display individual application windows within dom0's desktop environment. There are many uses for this type of architecture. Here are some tasks you can perform. You can see just how much more secure these processes are made by incorporating multiple steps.
+في Qubes OS، توجد بيئة خاصة تُسمّى [dom0](https://wiki.xenproject.org/wiki/Dom0)، وهي المسؤولة عن إدارة بقية الـ*qubes*. ورغم أن التطبيقات تعمل داخل qubes منفصلة ومعزولة عن بعضها، فإن نوافذها تظهر معًا على سطح المكتب الذي تديره dom0. لهذا النوع من البنية استخدامات كثيرة. إليك بعض المهام التي يمكنك تنفيذها. يمكنك ملاحظة كيف أن إضافة عدة خطوات تجعل هذه العمليات أكثر أمانا بكثير.
 
-### Copying and Pasting Text
+### نسخ النصوص ولصقها
 
-You can [copy and paste text](https://qubes-os.org/doc/how-to-copy-and-paste-text) using `qvm-copy-to-vm` or the below instructions:
+يمكنك[ نسخ النصوص ولصقها](https://qubes-os.org/doc/how-to-copy-and-paste-text) باستخدام `qvm-copy-to-vm` أو باتباع التعليمات التالية:
 
-1. Press **Ctrl+C** to tell the *qube* you're in that you want to copy something.
-2. Press **Ctrl+Shift+C** to tell the *qube* to make this buffer available to the global clipboard.
-3. Press **Ctrl+Shift+V** in the destination *qube* to make the global clipboard available.
-4. Press **Ctrl+V** in the destination *qube* to paste the contents in the buffer.
+1. اضغط على **Ctrl+C** لنسخ المحتوى داخل الـ*qube* التي تستخدمها.
+2. اضغط على **Ctrl+Shift+C** لجعل المحتوى المنسوخ داخل الـ*qube* متاحًا في الحافظة العامة.
+3. اضغط على **Ctrl+Shift+V** داخل الـ*qube* التي تريد لصق المحتوى فيها، لإتاحة محتوى الحافظة العامة داخلها.
+4. اضغط على **Ctrl+V** داخل الـ*qube *التي تريد لصق المحتوى فيها، للصق النص الموجود في الحافظة.
 
-### File Exchange
+### نقل الملفات
 
-To copy and paste files and directories (folders) from one *qube* to another, you can use the option **Copy to Other AppVM...** or **Move to Other AppVM...**. The difference is that the **Move** option will delete the original file. Either option will protect your clipboard from being leaked to any other *qubes*. This is more secure than air-gapped file transfer. An air-gapped computer will still be forced to parse partitions or file systems. That is not required with the inter-qube copy system.
+لنسخ الملفات والمجلدات أو نقلها من *qube* إلى أخرى، يمكنك استخدام الخيار **Copy to Other AppVM**... أو **Move to Other AppVM**. الفرق هو أن خيار **Move** يحذف الملف الأصلي بعد نقله. يحمي كلا الخيارين محتويات الحافظة من التسرب إلى أي *qubes* أخرى. نقل الملفات بين الـqubes بهذه الطريقة أكثر أمانا من نقلها باستخدام فلاشة USB بين جهازين منفصلين وغير متصلين بالشبكة (air-gapped)، لأن النظام لا يحتاج إلى قراءة نظام ملفات الفلاشة، مما يقلل بعض المخاطر الأمنية. حتى الكمبيوتر المعزول تماما عن الشبكات (air-gapped) سيظل مضطرًا إلى قراءة وتحليل الـ (partitions) أو أنظمة الملفات (file systems). أما عند نسخ الملفات بين الـqubes، فلا حاجة لقراءة وتحليل أقسام التخزين أو أنظمة الملفات بهذه الطريقة.
 
 <details class="note" markdown>
-<summary>Qubes do not have their own filesystems.</summary>
+<summary>لا تمتلك الـqubes أنظمة ملفات مستقلة خاصة بها.</summary>
 
-You can [copy and move files](https://qubes-os.org/doc/how-to-copy-and-move-files) between *qubes*. When doing so the changes aren't immediately made and can be easily undone in case of an accident. When you run a *qube*, it does not have a persistent filesystem. You can create and delete files, but these changes are ephemeral.
+يمكنك [نسخ الملفات ونقلها](https://qubes-os.org/doc/how-to-copy-and-move-files) بين الـ*qubes*. عند نسخ الملفات أو نقلها بين الـqubes، تُطبق التغييرات فورا، وقد يصعب التراجع عنها إذا حدث خطأ. عند تشغيل *qube*، لا يكون لديها نظام ملفات يحتفظ بالتغييرات بشكل دائم. يمكنك إنشاء الملفات وحذفها، لكن هذه التغييرات تكون مؤقتة ولا تُحفظ بشكل دائم.
 
 </details>
 
-### Inter-VM Interactions
+### التفاعل بين الأجهزة الافتراضية
 
-The [qrexec framework](https://qubes-os.org/doc/qrexec) is a core part of Qubes which allows communication between domains. It is built on top of the Xen library *vchan*, which facilitates [isolation through policies](https://qubes-os.org/news/2020/06/22/new-qrexec-policy-system).
+يُعدّ إطار العمل [qrexec](https://qubes-os.org/doc/qrexec) جزءًا أساسيًا من Qubes، ويتيح التواصل بين البيئات المعزولة المختلفة (domains). يعتمد qrexec على مكتبة *vchan* التابعة لـXen، التي تتيح التواصل بين الـqubes، ويستخدم سياسات أمنية لتحديد الاتصالات المسموح بها مع الحفاظ على [العزل بينها](https://qubes-os.org/news/2020/06/22/new-qrexec-policy-system).
 
-## Connecting to Tor via a VPN
+## الاتصال بشبكة Tor عبر VPN
 
-We [recommend](../advanced/tor-overview.md) connecting to the Tor network via a [VPN](../vpn.md) provider, and luckily Qubes makes this easy to do with a combination of ProxyVMs and Whonix.
+[نوصي](../advanced/tor-overview.md) بالاتصال بشبكة Tor عبر مزود [VPN](../vpn.md) موثوق، ولحسن الحظ، يسهّل Qubes القيام بذلك باستخدام ProxyVMs وWhonix معًا.
 
-After [creating a new ProxyVM](https://forum.qubes-os.org/t/configuring-a-proxyvm-vpn-gateway/19061) which connects to the VPN of your choice, you can chain your Whonix qubes to that ProxyVM **before** they connect to the Tor network, by setting the NetVM of your Whonix **Gateway** (`sys-whonix`) to the newly-created ProxyVM.
+[بعد إنشاء ProxyVM ](https://forum.qubes-os.org/t/configuring-a-proxyvm-vpn-gateway/19061)جديدة تتصل بخدمة الـVPN من اختيارك، يمكنك جعل الـqubes الخاصة بـWhonix تتصل بشبكة Tor عبر هذه الـProxyVM. وللقيام بذلك، اضبط إعداد NetVM في الـ Whonix **Gateway** `(sys-whonix)` على الـProxyVM التي أنشأتها.
 
-Your qubes should be configured in a manner similar to this:
+يُفترض أن يكون إعداد الـqubes لديك مشابهًا لما يلي:
 
-| Qube name       | Qube description                                                                                    | NetVM           |
+| اسم الـqube     | وصف الـqube                                                                                         | NetVM           |
 | --------------- | --------------------------------------------------------------------------------------------------- | --------------- |
 | sys-net         | *Your default network qube (pre-installed)*                                                         | *n/a*           |
 | sys-firewall    | *Your default firewall qube (pre-installed)*                                                        | sys-net         |
-| ==sys-proxyvm== | The VPN ProxyVM you [created](https://forum.qubes-os.org/t/configuring-a-proxyvm-vpn-gateway/19061) | sys-firewall    |
+| ==sys-proxyvm== | الـVPN ProxyVM التي [أنشأتها](https://forum.qubes-os.org/t/configuring-a-proxyvm-vpn-gateway/19061) | sys-firewall    |
 | sys-whonix      | Your Whonix Gateway VM                                                                              | ==sys-proxyvm== |
 | anon-whonix     | Your Whonix Workstation VM                                                                          | sys-whonix      |
 
-## Additional Resources
+## مصادر إضافية
 
-For additional information we encourage you to consult the extensive Qubes OS documentation pages located on the [Qubes OS Website](https://qubes-os.org/doc). Offline copies can be downloaded from the Qubes OS [documentation repository](https://github.com/QubesOS/qubes-doc).
+لمزيد من المعلومات، ننصحك بالاطلاع على وثائق Qubes OS المفصلة والمتوفرة على [موقع Qubes OS](https://qubes-os.org/doc). يمكنك تنزيل نسخ من الوثائق لاستخدامها دون اتصال بالإنترنت من [وثائق Qubes OS](https://github.com/QubesOS/qubes-doc).
 
-- [Arguably the world's most secure operating system](https://opentech.fund/news/qubes-os-arguably-the-worlds-most-secure-operating-system-motherboard) (Open Technology Fund)
-- [Software compartmentalization vs. physical separation](https://invisiblethingslab.com/resources/2014/Software_compartmentalization_vs_physical_separation.pdf) (J. Rutkowska)
-- [Partitioning my digital life into security domains](https://blog.invisiblethings.org/2011/03/13/partitioning-my-digital-life-into.html) (J. Rutkowska)
-- [Related Articles](https://qubes-os.org/news/categories/#articles) (Qubes OS)
+- [يمكن القول إنه نظام التشغيل الأكثر أمانا في العالم ](https://opentech.fund/news/qubes-os-arguably-the-worlds-most-secure-operating-system-motherboard)(Open Technology Fund)
+- [العزل باستخدام البرامج مقابل الفصل بين الأجهزة](https://invisiblethingslab.com/resources/2014/Software_compartmentalization_vs_physical_separation.pdf)(J. Rutkowska)
+- [تقسيم حياتي الرقمية إلى نطاقات أمنية ](https://blog.invisiblethings.org/2011/03/13/partitioning-my-digital-life-into.html)(J. Rutkowska)
+- [مقالات ذات صلة](https://qubes-os.org/news/categories/#articles) (Qubes OS)
