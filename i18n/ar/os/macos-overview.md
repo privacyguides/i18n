@@ -242,15 +242,15 @@ codesign -dv <path to your app>
 يأتي macOS مزوّدًا بنوعين من الحماية ضد [البرمجيات الخبيثة](https://support.apple.com/guide/security/protecting-against-malware-sec469d47bd8/1/web/1):
 
 1. توفّر عملية مراجعة التطبيقات في App Store حماية تساعد على منع تشغيل البرمجيات الخبيثة من الأساس. أما التطبيقات الخارجية، فتساعد خدمة *Notarization* (المرتبطة بميزة *Gatekeeper*) على حمايتها، حيث تفحصها Apple بحثًا عن برمجيات خبيثة معروفة قبل السماح بتشغيلها. يجب أن يوقع المطوّرون التطبيقات رقميا باستخدام مفتاح توفره لهم Apple. وهذا يضمن أن البرامج التي تشغلها صادرة عن مطوّريها الحقيقيين. تتطلب عملية Notarization أيضا من المطورين تفعيل ميزة Hardened Runtime في تطبيقاتهم، مما يحد من بعض طرق استغلال الثغرات الأمنية.
-2. Protection against other malware and remediation from existing malware on your system is provided by *XProtect*, a more traditional antivirus software built-in to macOS.
+2. يوفّر *XProtect*، وهو برنامج مكافحة فيروسات تقليدي نسبيا ومدمج في macOS، الحماية من البرمجيات الخبيثة الأخرى، بالإضافة إلى اكتشاف البرمجيات الخبيثة الموجودة بالفعل على جهازك وإزالتها.
 
-We recommend against installing third-party antivirus software as they typically do not have the system-level access required to properly function anyway, because of Apple's limitations on third-party apps, and because granting the high levels of access they do ask for often poses an even greater security and privacy risk to your computer.
+ننصح بعدم تثبيت برامج مكافحة الفيروسات من جهات خارجية، لأنها غالبا لا تملك صلاحيات الوصول إلى النظام اللازمة للعمل بشكل صحيح، بسبب القيود التي تفرضها Apple على تطبيقات الجهات الخارجية. كما أن منح هذه البرامج الصلاحيات الواسعة التي تطلبها قد يشكّل في كثير من الأحيان خطرًا أكبر على أمان جهازك وخصوصيتك.
 
 ##### النسخ الاحتياطي
 
-macOS comes with automatic backup software called [Time Machine](https://support.apple.com/HT201250), so you can create [encrypted backups](https://support.apple.com/guide/mac-help/keep-your-time-machine-backup-disk-secure-mh21241/mac) to an external drive or a network drive in the event of corrupted/deleted files.
+يأتي macOS مزوّدًا بأداة للنسخ الاحتياطي التلقائي تُسمى [Time Machine](https://support.apple.com/HT201250)، وتتيح لك إنشاء [نسخ احتياطية مشفرة](https://support.apple.com/guide/mac-help/keep-your-time-machine-backup-disk-secure-mh21241/mac) على قرص تخزين خارجي أو قرص متصل بالشبكة، حتى تتمكن من استعادة ملفاتك إذا تعرضت للتلف أو الحذف.
 
-### Hardware Security
+### مفاتيح الأمان المادية (Hardware Security Keys)
 
 Many modern security features in macOS—such as modern Secure Boot, hardware-level exploit mitigation, OS integrity checks, and file-based encryption—rely on Apple Silicon, and Apple's newer hardware always has the [best security](https://support.apple.com/guide/security/apple-soc-security-sec87716a080/1/web/1). We only encourage the use of Apple Silicon, and not older Intel-based Mac computers or Hackintoshes.
 
