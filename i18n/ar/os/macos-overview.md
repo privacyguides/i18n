@@ -252,11 +252,11 @@ codesign -dv <path to your app>
 
 ### مفاتيح الأمان المادية (Hardware Security Keys)
 
-Many modern security features in macOS—such as modern Secure Boot, hardware-level exploit mitigation, OS integrity checks, and file-based encryption—rely on Apple Silicon, and Apple's newer hardware always has the [best security](https://support.apple.com/guide/security/apple-soc-security-sec87716a080/1/web/1). We only encourage the use of Apple Silicon, and not older Intel-based Mac computers or Hackintoshes.
+تعتمد العديد من ميزات الأمان الحديثة في macOS على شرائح Apple Silicon، مثل Secure Boot الحديث، والحماية من استغلال الثغرات على مستوى العتاد، والتحقق من سلامة نظام التشغيل، وتشفير الملفات بشكل منفصل. وتوفّر أجهزة Apple الأحدث دائمًا [أفضل مستوى من الأمان](https://support.apple.com/guide/security/apple-soc-security-sec87716a080/1/web/1). نوصي باستخدام أجهزة Mac المزودة بشرائح Apple Silicon فقط، ولا ننصح باستخدام أجهزة Mac القديمة التي تعمل بمعالجات Intel أو أجهزة Hackintosh.
 
-Some of these modern security features are available on older Intel-based Mac computers with the Apple T2 Security Chip, but that chip is susceptible to the *checkm8* exploit which could compromise its security.
+تتوفر بعض ميزات الأمان الحديثة هذه في أجهزة Mac القديمة التي تعمل بمعالجات Intel والمزوّدة بشريحة Apple T2 Security Chip، لكن هذه الشريحة معرّضة لاستغلال ثغرة *checkm8*، مما قد يعرّض أمانها للخطر.
 
-If you use Bluetooth accessories such as a keyboard, we recommend that you use official Apple ones as their firmware will [automatically be updated](https://support.apple.com/en-us/120303#:~:text=Firmware%20updates%20are%20automatically%20delivered%20in%20the%20background%20while%20the%20Magic%20Keyboard%20is%20actively%20paired%20to%20a%20device%20running%20macOS%2C%20iOS%2C%20iPadOS%2C%20or%20tvOS.) for you by macOS. Using third party accessories is fine, but you should remember to install firmware updates for them regularly.
+إذا كنت تستخدم ملحقات تعمل بتقنية Bluetooth، مثل لوحة المفاتيح، فننصح باختيار ملحقات Apple الأصلية، لأن macOS يحدّث برامجها الثابتة (Firmware) [تلقائيا](https://support.apple.com/en-us/120303#:~:text=Firmware%20updates%20are%20automatically%20delivered%20in%20the%20background%20while%20the%20Magic%20Keyboard%20is%20actively%20paired%20to%20a%20device%20running%20macOS%2C%20iOS%2C%20iPadOS%2C%20or%20tvOS.). لا مشكلة في استخدام ملحقات من شركات أخرى، لكن احرص على تثبيت تحديثات البرامج الثابتة (Firmware) الخاصة بها بانتظام.
 
 Apple's SoCs focus on [minimizing attack surface](https://support.apple.com/en-vn/guide/security/secf020d1074/web#:~:text=Security%2Dfocused%20hardware%20follows%20the%20principle%20of%20supporting%20limited%20and%20discretely%20defined%20functions%20to%20minimize%20attack%20surface.) by relegating security functions to dedicated hardware with limited functionality.
 
