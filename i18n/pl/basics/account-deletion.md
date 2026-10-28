@@ -34,7 +34,7 @@ Jeśli wcześniej nie korzystałeś(-aś) z menedżera haseł albo podejrzewasz,
 
 Aby usunąć stare konta, najpierw musisz upewnić się, że możesz się na nie zalogować. Jeśli konto było zapisane w menedżerze haseł, ten krok jest prosty. Jeśli nie, możesz spróbować odgadnąć hasło. W razie niepowodzenia zwykle są opcje odzyskania dostępu do konta, najczęściej dostępne poprzez link „Nie pamiętam hasła” na stronie logowania. Możliwe też, że porzucone konta zostały już usunięte — czasami usługi usuwają wszystkie stare konta.
 
-Przy próbach odzyskania dostępu, jeśli witryna zwraca komunikat, że dany e-mail nie jest powiązany z żadnym kontem, lub jeśli po wielokrotnych próbach nigdy nie otrzymujesz linku do zresetowania hasła, to znaczy, że nie masz konta pod tym adresem i powinieneś spróbować inny adres e-mail. Jeśli nie potrafisz ustalić, którego adresu e-mail użyto, albo nie masz do niego już dostępu, możesz spróbować skontaktować się z obsługą klienta. Niestety nie ma gwarancji, że uda Ci się odzyskać dostęp do swojego konta.
+Przy próbach odzyskania dostępu, jeśli witryna zwraca komunikat, że dany e-mail nie jest powiązany z żadnym kontem, lub jeśli po wielokrotnych próbach nigdy nie otrzymujesz linku do zresetowania hasła, to znaczy, że nie masz konta pod tym adresem i powinieneś spróbować inny adres e-mail. Jeśli nie potrafisz ustalić, którego adresu e-mail użyto, albo nie masz do niego już dostępu, możesz spróbować skontaktować się z obsługą klienta. Unfortunately, there is no guarantee that you will be able to reclaim access to your account.
 
 ### RODO (tylko dla mieszkańców EOG)
 

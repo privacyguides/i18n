@@ -66,7 +66,7 @@ cover: activism/banner-toolbox-tip-rest.webp
 
 - \*\*保持睡前平靜：\*\*盡量避免在臨睡前閱覽與隱私權相關卻令人焦慮的新聞，或探討令人興奮的隱私技術相關內容。這些都可以等到明天再說。
 
-- **裝置分別：** 若經濟上允許，請將個人用途與隱私權倡議工作分開使用不同的裝置。這有助於在個人生活與職場之間建立一道心理屏障，並限制那種「隨時待命」的隱私倡導者模式。
+- **裝置分別：** 若經濟上允許，請將個人用途與隱私權倡議工作分開使用不同的裝置。 This can help keep a mental barrier between personal and professional, and limit the "always-on" privacy-advocate mode.
 
 - **找朋友：** 找一個可以與你交流的 [同儕社群](https://discuss.privacyguides.net/)。與社群交流資源，並尋求社群的支持。請記住，在這場戰鬥中，你並不孤單。
 

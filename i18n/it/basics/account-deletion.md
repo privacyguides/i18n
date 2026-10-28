@@ -34,7 +34,7 @@ Se non hai mai utilizzato un gestore di password in passato, o pensi di posseder
 
 Per eliminare i tuoi vecchi profili, dovrai prima assicurarti di potervi accedere. Ancora, se il profilo era nel tuo gestore di password, questo passaggio è facile. Altrimenti, puoi provare a indovinare la password. Altrimenti, tipicamente, esistono delle opzioni per riottenere l'accesso al tuo profilo, disponibili comunemente tramite un collegamento "password dimenticata", sulla pagina d'accesso. Inoltre, è possibile che i profili che hai abbandonato siano già stati eliminati: talvolta, i servizi eliminano tutti i vecchi profili.
 
-Quando tenti di recuperare l'account, se il sito restituisce un messaggio di errore che indica che l'e-mail non è associata a nessun account, o se non ricevi un link di recupero dopo svariati tentativi, allora non hai nessun account con quell'indirizzo e-mail e devi riprovare con un altro. Se non riesci a capire quale email hai utilizzato, o non ne hai più accesso, puoi provare a contattare l'assistenza clienti del servizio in questione. Purtroppo, non vi è alcuna garanzia di poter riottenere l'accesso al profilo.
+Quando tenti di recuperare l'account, se il sito restituisce un messaggio di errore che indica che l'e-mail non è associata a nessun account, o se non ricevi un link di recupero dopo svariati tentativi, allora non hai nessun account con quell'indirizzo e-mail e devi riprovare con un altro. Se non riesci a capire quale email hai utilizzato, o non ne hai più accesso, puoi provare a contattare l'assistenza clienti del servizio in questione. Unfortunately, there is no guarantee that you will be able to reclaim access to your account.
 
 ### GDPR (solo per i residenti nello SEE)
 

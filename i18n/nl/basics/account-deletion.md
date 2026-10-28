@@ -34,7 +34,7 @@ Als je in het verleden geen wachtwoordmanager hebt gebruikt, of je denkt dat je 
 
 Om je oude accounts te verwijderen, moet je er eerst voor zorgen dat je er op in kunt loggen. Nogmaals, als de account in jouw wachtwoordmanager stond, is deze stap eenvoudig. Zo niet, dan kun je proberen jouw wachtwoord te raden. Als dat niet lukt, zijn er meestal opties om weer toegang te krijgen tot jouw account, meestal beschikbaar via een link "wachtwoord vergeten" op de inlogpagina. Het kan ook zijn dat accounts die je hebt opgegeven al zijn verwijderd - soms verwijderen diensten alle oude accounts.
 
-Als de site een foutmelding geeft dat het e-mailadres niet gekoppeld is aan een account, of als je na meerdere pogingen nooit een reset-link ontvangt, dan hebt je geen account onder dat e-mailadres en moet je een ander e-mailadres proberen. Als je niet kunt achterhalen welk e-mailadres je hebt gebruikt, of als je geen toegang meer hebt tot dat e-mailadres, kunt je proberen contact op te nemen met de klantenondersteuning van de dienst. Helaas is er geen garantie dat je de toegang tot jouw account kunt terugkrijgen.
+Als de site een foutmelding geeft dat het e-mailadres niet gekoppeld is aan een account, of als je na meerdere pogingen nooit een reset-link ontvangt, dan hebt je geen account onder dat e-mailadres en moet je een ander e-mailadres proberen. Als je niet kunt achterhalen welk e-mailadres je hebt gebruikt, of als je geen toegang meer hebt tot dat e-mailadres, kunt je proberen contact op te nemen met de klantenondersteuning van de dienst. Unfortunately, there is no guarantee that you will be able to reclaim access to your account.
 
 ### GDPR (alleen inwoners van de EER)
 

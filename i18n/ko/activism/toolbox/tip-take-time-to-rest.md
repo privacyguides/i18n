@@ -66,7 +66,7 @@ cover: activism/banner-toolbox-tip-rest.webp
 
 - **잠들기 전에는 차분하게 지내세요:** 잠자리에 들 무렵에는 스트레스를 주는 프라이버시 뉴스나 흥미진진한 프라이버시 기술에 관한 글을 읽지 않도록 해 보세요. 그런 건 모두 내일까지 기다려 줄 수 있습니다.
 
-- **기기를 분리하세요:** 여유가 된다면 개인 용도와 프라이버시 활동 용도로 기기를 따로 사용하세요. 이렇게 하면 개인 생활과 업무 사이에 심리적 경계를 유지하고, "항상 켜져 있는" 프라이버시 옹호자 모드를 줄이는 데 도움이 됩니다.
+- **기기를 분리하세요:** 여유가 된다면 개인 용도와 프라이버시 활동 용도로 기기를 따로 사용하세요. This can help keep a mental barrier between personal and professional, and limit the "always-on" privacy-advocate mode.
 
 - **친구를 찾으세요:** 이야기를 나눌 수 있는 [동료 커뮤니티](https://discuss.privacyguides.net/)를 찾으세요. 커뮤니티와 자료를 주고받고 도움을 구하세요. 이 싸움에서 여러분은 혼자가 아니라는 사실을 기억하세요.
 
