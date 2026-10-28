@@ -109,7 +109,7 @@
 *[VLAN]: 虛擬區域網路
 *[VoIP]: 網路電話 (Voice over IP)
 *[W3C]: 全球資訊網協會
-*[XMP]:  Extensible Metadata Platform
+*[XMP]:  可延伸後設資料平台
 *[XMPP]: 可延伸傳訊與顯示通訊協定
 *[PWA]: 漸進式網路應用程式
 *[PWAs]：漸進式網路應用程式

@@ -109,7 +109,7 @@ cover: activism/banner-activism-toolbox.webp
 <a href="tip-improve-your-social-media-and-build-resilient-communities">
 <div class="toolbox-tip-card toolbox-border-tools" markdown>
 
-### 3. Improve your social media and build resilient communities
+### 3. 改善您的社群媒體，建立韌性社群
 
 ![Octagon icon](../../assets/img/activism/icons/icon-tips/icon-tips-plant.webp){class="toolbox-tip-icon"}
 
@@ -128,7 +128,7 @@ Commercial social media platforms represent one of the biggest sources of data e
 <a href="tip-dont-stop-at-individual-solutions">
 <div class="toolbox-tip-card toolbox-border-perspective" markdown>
 
-### 1. Don't stop at individual solutions, consider the collective impact
+### 1. 不止步於個人的解法，還要考量集體的影響力
 
 ![People with radiating lines icon](../../assets/img/activism/icons/icon-tips/icon-tips-expand.webp){class="toolbox-tip-icon"}
 
@@ -143,7 +143,7 @@ When we think about our privacy, we often focus on the technical tools we can us
 <a href="tip-keep-in-mind-the-whole-landscape">
 <div class="toolbox-tip-card toolbox-border-perspective" markdown>
 
-### 2. Keep in mind the whole landscape
+### 2. 將整體局勢納入考量
 
 ![Globe icon](../../assets/img/activism/icons/icon-tips/icon-tips-landscape.webp){class="toolbox-tip-icon"}
 
@@ -158,7 +158,7 @@ Privacy isn't just about the tools, the laws, or the practices of any individual
 <a href="tip-consider-everyones-unique-situation">
 <div class="toolbox-tip-card toolbox-border-perspective" markdown>
 
-### 3. Consider everyone's unique situation
+### 3. 考量每個人的獨特處境
 
 ![People with line over and under icon](../../assets/img/activism/icons/icon-tips/icon-tips-everyone.webp){class="toolbox-tip-icon"}
 
@@ -172,7 +172,7 @@ Everyone has different needs and faces different dangers when their personal dat
 
 <button class="toolbox-button-top">[返回頁首 :material-toolbox:](#toolbox-compartments)</button> <br>
 
-## Support The Community
+## 向社群提供支持
 
 <a href="tip-lift-your-allies-up">
 <div class="toolbox-tip-card toolbox-border-community" markdown>
@@ -192,7 +192,7 @@ At times, it might feel like the privacy community is niche and isolated. The ba
 <a href="tip-support-your-privacy-comrades">
 <div class="toolbox-tip-card toolbox-border-community" markdown>
 
-### 2. Support your privacy comrades
+### 2. 支持你的隱私戰友
 
 ![Hand holding a heart icon](../../assets/img/activism/icons/icon-tips/icon-tips-support.webp){class="toolbox-tip-icon"}
 
@@ -208,9 +208,9 @@ Fighting for privacy rights is a collective endeavor. You cannot do it alone. An
 
 ### 3. 對人善良，但對體制要毫不留情
 
-![Two hands holding a sphere icon](../../assets/img/activism/icons/icon-tips/icon-tips-kind.webp){class="toolbox-tip-icon"}
+![雙手捧球圖示](../../assets/img/activism/icons/icon-tips/icon-tips-kind.webp){class="toolbox-tip-icon"}
 
-Kindness is essential for privacy advocates. 為了讓我們的運動蓬勃發展，我們必須以同伴情誼為出發點與人接觸。人們不會在被斥責的情況下改變主意。然而，對體制而言卻並非如此。 Learn more about how to integrate kindness in your work, while being relentless with institutions.
+對隱私權倡導者來說，心懷仁慈絕對是必要的。為了讓我們的運動蓬勃發展，我們必須以同伴情誼為出發點與人接觸。人們不會在被斥責的情況下改變主意。然而，對體制而言卻並非如此。以下是如何在對體制保持毫不妥協的同時，**將善意融入工作**的方法。
 
 更多資訊 :material-arrow-right-drop-circle:
 {align=right}
@@ -227,7 +227,7 @@ Kindness is essential for privacy advocates. 為了讓我們的運動蓬勃發�
 
 ### 1. Start alliances, not wars
 
-![handshake icon](../../assets/img/activism/icons/icon-tips/icon-tips-alliances.webp){class="toolbox-tip-icon"}
+![握手圖示](../../assets/img/activism/icons/icon-tips/icon-tips-alliances.webp){class="toolbox-tip-icon"}
 
 The privacy community consists of a patchwork of individuals and organizations that sometimes hold quite different views. When these divergences lead to infighting, we need to ask how these internal wars are impacting our community negatively. Learn more about how to start alliances instead of wars.
 
@@ -255,7 +255,7 @@ In privacy, like everywhere else, diversity is a strength. If you want your comm
 <a href="tip-give-credit-where-credit-is-due">
 <div class="toolbox-tip-card toolbox-border-alliances" markdown>
 
-### 3. Give credit where credit is due
+### 3. 將功勞歸給應得之人
 
 ![Thumbs up icon](../../assets/img/activism/icons/icon-tips/icon-tips-credit.webp){class="toolbox-tip-icon"}
 
@@ -274,11 +274,11 @@ To succeed, we must support each other. A good way to do this is to never forget
 <a href="tip-welcome-beginners">
 <div class="toolbox-tip-card toolbox-border-accessibility" markdown>
 
-### 1. Welcome beginners
+### 1. 張開雙手歡迎初學者
 
-![Person with plus sign icon](../../assets/img/activism/icons/icon-tips/icon-tips-beginner.webp){class="toolbox-tip-icon"}
+![人物帶加號圖示](../../assets/img/activism/icons/icon-tips/icon-tips-beginner.webp){class="toolbox-tip-icon"}
 
-For our privacy rights movement to grow, we must bring more people in. To accomplish this, it's fundamental to discuss privacy in ways that are accessible to newcomers who aren't familiar with basic concepts yet. Learn more about improving your advocacy work to make it more approachable to beginners.
+若要讓我們的隱私權運動得以發展，就必須讓更多人加入。而想要讓更多人加入，在探討隱私議題的時候，我們的措辭就要用淺顯到連基本概念都不熟悉的新手也能迅速理解。進一步了解如何讓您的隱私權作業更加平易近人。
 
 更多資訊 :material-arrow-right-drop-circle:
 {align=right}
@@ -289,9 +289,9 @@ For our privacy rights movement to grow, we must bring more people in. To accomp
 <a href="tip-keep-your-posts-and-community-inclusive">
 <div class="toolbox-tip-card toolbox-border-accessibility" markdown>
 
-### 2. Keep your posts and community inclusive
+### 2. 保持貼文和社群的包容性
 
-![Heart with plus sign icon](../../assets/img/activism/icons/icon-tips/icon-tips-inclusivity.webp){class="toolbox-tip-icon"}
+![帶加號的心形圖示](../../assets/img/activism/icons/icon-tips/icon-tips-inclusivity.webp){class="toolbox-tip-icon"}
 
 Inclusivity is not only the right thing to do, it's also essential to grow our movement. If we want privacy rights to succeed, it's imperative that we build communities where _everyone_ feels safe and welcomed, regardless of who they are. Learn more about keeping your communications and communities inclusive.
 
@@ -304,7 +304,7 @@ Inclusivity is not only the right thing to do, it's also essential to grow our m
 <a href="tip-be-mindful-of-accessibility">
 <div class="toolbox-tip-card toolbox-border-accessibility" markdown>
 
-### 3. Be mindful of accessibility
+### 3. 把無障礙的觀念放在心上
 
 ![Heart with checkmark icon](../../assets/img/activism/icons/icon-tips/icon-tips-accessibility.webp){class="toolbox-tip-icon"}
 

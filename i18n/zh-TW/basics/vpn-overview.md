@@ -9,7 +9,7 @@ description: 虛擬私用網路將風險從您的ISP 轉移到您信任的第三
 
 [:material-movie-open-play-outline: 影片：Do you need a VPN?](https://www.privacyguides.org/videos/2024/12/12/do-you-need-a-vpn ""){.md-button}
 
-ISP 可以看到網路終端設備（例如數據機）的網際網路進出流量。 Encryption protocols such as HTTPS are commonly used on the internet, so they may not be able to see exactly what you're posting or reading, but they can get an idea of the [domains you request](../advanced/dns-overview.md#encrypted-dns-limitations).
+ISP 可以看到網路終端設備（例如數據機）的網際網路進出流量。像 HTTPS 這樣的加密協定在網路上很普遍，因此，他們大概無法確切得知您正在發佈或閱讀的內容，但仍可以大致掌握[您所請求的網域](../advanced/dns-overview.md#encrypted-dns-limitations)。
 
 使用 VPN 將您對網路的信任轉移到世界上某處的伺服器，甚至可以向 ISP 隱藏這些資訊。因此， ISP只會看到您已連接到VPN ，而不會看到您正在傳遞的活動。
 
