@@ -30,7 +30,7 @@ We highly recommend that you use mobile TOTP apps instead of desktop alternative
 
 [:octicons-home-16: Homepage](https://ente.com/auth){ .md-button .md-button--primary } [:octicons-eye-16:](https://ente.com/privacy){ .card-link title="Privacy Policy" }
 [:octicons-info-16:](https://ente.com/help/auth){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/ente-io/ente/tree/main/auth#readme){ .card-link title="Source Code" }
+[:octicons-code-16:](https://github.com/ente/ente/tree/main/mobile/apps/auth){ .card-link title="Source Code" }
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
@@ -72,7 +72,7 @@ The server-side source code and infrastructure which underpins Ente Auth (if use
 
 ## 規準
 
-**私たちは、推薦するどのプロジェクトとも提携していません。**客観的に推薦できるよう、[標準となる規準](about/criteria.md)に加えて、一連の明確な要件を定めています。 プロジェクトを利用する前に、このリストをよく理解し、ご自身で調査を行って、そのプロジェクトがあなたにとって適切な選択かどうかをご確認ください。
+**私たちは、推薦するどのプロジェクトとも提携していません。**客観的に推薦できるよう、[標準となる規準](about/criteria.md)に加えて、一連の明確な要件を定めています。プロジェクトを利用する前に、このリストをよく理解し、ご自身で調査を行って、そのプロジェクトがあなたにとって適切な選択かどうかをご確認ください。
 
 - Source code must be publicly available.
 - Must not require internet connectivity.

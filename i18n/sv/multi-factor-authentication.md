@@ -30,7 +30,7 @@ Vi rekommenderar starkt att du använder mobila TOTP-appar i stället för alter
 
 [:octicons-home-16: Homepage](https://ente.com/auth){ .md-button .md-button--primary } [:octicons-eye-16:](https://ente.com/privacy){ .card-link title="Privacy Policy" }
 [:octicons-info-16:](https://ente.com/help/auth){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/ente-io/ente/tree/main/auth#readme){ .card-link title="Source Code" }
+[:octicons-code-16:](https://github.com/ente/ente/tree/main/mobile/apps/auth){ .card-link title="Source Code" }
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>

@@ -28,9 +28,9 @@ cover: multi-factor-authentication.webp
 
 **엔테 오스**는 TOTP 토큰을 저장하고 생성하는 자유 오픈 소스 앱입니다. 온라인 계정과 함께 사용하면 종단 간 암호화된 안전한 방식으로 기기 간에 토큰을 백업하고 동기화할 수 있습니다(웹 인터페이스로 접근할 수도 있습니다). 계정 없이 단일 기기에서 오프라인으로 사용할 수도 있습니다.
 
-[:octicons-home-16: 홈페이지](https://ente.com/auth){ .md-button .md-button--primary } [:octicons-eye-16:](https://ente.com/privacy){ .card-link title="개인정보 처리방침" }
-[:octicons-info-16:](https://ente.com/help/auth){ .card-link title="문서" }
-[:octicons-code-16:](https://github.com/ente-io/ente/tree/main/auth#readme){ .card-link title="소스 코드" }
+[:octicons-home-16: Homepage](https://ente.com/auth){ .md-button .md-button--primary } [:octicons-eye-16:](https://ente.com/privacy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://ente.com/help/auth){ .card-link title="Documentation" }
+[:octicons-code-16:](https://github.com/ente/ente/tree/main/mobile/apps/auth){ .card-link title="Source Code" }
 
 <details class="downloads" markdown>
 <summary>다운로드</summary>

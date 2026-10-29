@@ -28,9 +28,9 @@ Zdecydowanie zalecamy używanie mobilnych aplikacji TOTP zamiast ich alternatyw 
 
 **Ente Auth** to darmowa aplikacja open source która przechowuje i generuje tokeny TOTP. Może być używana z kontem online w celu tworzenia kopii zapasowej i synchronizacji tokenów na wszystkich twoich urządzeniach (oraz uzyskiwania do nich dostępu za pośrednictwem interfejsu sieciowego) w bezpieczny szyfrowany end to end sposób. Może być również używana offline na jednym urządzeniu bez konieczności posiadania konta.
 
-[:octicons-home-16: Strona główna](https://ente.com/auth){ .md-button .md-button--primary }[:octicons-eye-16:](https://ente.com/privacy){ .card-link title="Polityka prywatności" }
-[:octicons-info-16:](https://ente.com/help/auth){ .card-link title="Dokumentacja" }
-[:octicons-code-16:](https://github.com/ente-io/ente/tree/main/auth#readme){ .card-link title="Kod źródłowy" }
+[:octicons-home-16: Homepage](https://ente.com/auth){ .md-button .md-button--primary } [:octicons-eye-16:](https://ente.com/privacy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://ente.com/help/auth){ .card-link title="Documentation" }
+[:octicons-code-16:](https://github.com/ente/ente/tree/main/mobile/apps/auth){ .card-link title="Source Code" }
 
 <details class="downloads" markdown>
 <summary>Pobierz</summary>
