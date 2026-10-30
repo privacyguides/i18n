@@ -1,19 +1,19 @@
 ---
-title: Self-Hosting
-meta_title: "Self-Hosting Software and Services - Privacy Guides"
-description: For our more technical readers, self-hosting software and services can provide additional privacy assurances since you have maximum control over your data.
+title: الاستضافة بنفسك
+meta_title: "استضافة البرامج والخدمات بنفسك - Privacy Guides"
+description: للقراء الذين لديهم خبرة تقنية أكبر، يمكن أن توفر استضافة البرامج والخدمات بأنفسهم خصوصية إضافية، لأنها تمنحهم تحكما كاملًا في بياناتهم.
 cover: router.webp
 ---
 
-<small>Protects against the following threat(s):</small>
+<small>يحمي من التهديدات التالية:</small>
 
 - [:material-server-network: مقدّمو الخدمات](../basics/common-threats.md#privacy-from-service-providers){ .pg-teal }
 
-**Self-hosting** software and services can be a way to achieve a higher level of privacy through digital sovereignty, particularly independence from cloud servers controlled by product developers or vendors. By self-hosting, we mean hosting applications and data on your own hardware.
+يمكن أن تساعدك **استضافة** البرامج والخدمات بنفسك على تحقيق مستوى أعلى من الخصوصية من خلال السيادة الرقمية، خاصة بالاستغناء عن الاعتماد على الخوادم السحابية التي يتحكم فيها مطورو البرامج أو الشركات التي توفرها. نقصد بالاستضافة بنفسك تشغيل التطبيقات وتخزين البيانات على أجهزتك الخاصة.
 
-Self-hosting your own solutions requires advanced technical knowledge and a deep understanding of the associated risks. By becoming the host for yourself and possibly others, you take on responsibilities you might not otherwise have. Self-hosting privacy software improperly can leave you worse off than using e.g. an end-to-end encrypted service provider, so it is best avoided if you are not already comfortable doing so.
+تتطلب استضافة خدماتك بنفسك خبرة تقنية متقدمة وفهما عميقا للمخاطر المرتبطة بها. عندما تستضيف الخدمات بنفسك، سواء لنفسك أو للآخرين، فإنك تتحمّل مسؤوليات إضافية لم تكن مضطرا لتحملها من قبل. قد يؤدي إعداد برامج الخصوصية التي تستضيفها بنفسك بشكل غير صحيح إلى تعريض خصوصيتك لمخاطر أكبر مقارنةً باستخدام خدمة تدعم التشفير التام بين الطرفين (End-to-End Encryption)، لذلك يُفضل تجنب الاستضافة بنفسك إذا لم تكن لديك الخبرة الكافية للقيام بها.
 
-## :material-dns: DNS Filtering
+## :material-dns: فلترة الـ DNS
 
 <div class="grid cards" markdown>
 
@@ -22,9 +22,9 @@ Self-hosting your own solutions requires advanced technical knowledge and a deep
 
 </div>
 
-[Learn more :material-arrow-right-drop-circle:](dns-filtering.md)
+[تعرف على المزيد :material-arrow-right-drop-circle:](dns-filtering.md)
 
-## :material-email: Email Servers
+## :material-email:خوادم البريد الإلكتروني
 
 <div class="grid cards" markdown>
 
@@ -34,9 +34,9 @@ Self-hosting your own solutions requires advanced technical knowledge and a deep
 
 </div>
 
-[Learn more :material-arrow-right-drop-circle:](email-servers.md)
+[تعرف على المزيد :material-arrow-right-drop-circle:](email-servers.md)
 
-## :material-file-multiple-outline: File Management
+## :material-file-multiple-outline: إدارة الملفات
 
 <div class="grid cards" markdown>
 
@@ -46,9 +46,9 @@ Self-hosting your own solutions requires advanced technical knowledge and a deep
 
 </div>
 
-[Learn more :material-arrow-right-drop-circle:](file-management.md)
+[تعرف على المزيد :material-arrow-right-drop-circle:](file-management.md)
 
-## :material-form-textbox-password: Password Management
+## :material-form-textbox-password: إدارة كلمات المرور
 
 ### Vaultwarden
 
@@ -57,7 +57,7 @@ Self-hosting your own solutions requires advanced technical knowledge and a deep
 ![Vaultwarden logo](../assets/img/self-hosting/vaultwarden.svg#only-light){ align=right }
 ![Vaultwarden logo](../assets/img/self-hosting/vaultwarden-dark.svg#only-dark){ align=right }
 
-**Vaultwarden** is an alternative implementation of [Bitwarden](../passwords.md#bitwarden)'s sync server written in Rust and compatible with official Bitwarden clients, perfect for self-hosted deployment where running the resource-heavy, [official service](https://github.com/bitwarden/server) might not be ideal.
+خادم **Vaultwarden** هو بديل لخادم المزامنة الخاص بـ[Bitwarden](../passwords.md#bitwarden)، مكتوب بلغة Rust ومتوافق مع تطبيقات Bitwarden الرسمية. وهو مناسب جدا للاستضافة بنفسك، خاصةً عندما لا يكون تشغيل [الخدمة الرسمية](https://github.com/bitwarden/server) التي تستهلك الكثير من موارد الجهاز خيارًا عمليًا.
 
 [:octicons-repo-16: Repository](https://github.com/dani-garcia/vaultwarden#readme){ .md-button .md-button--primary }
 [:octicons-info-16:](https://github.com/dani-garcia/vaultwarden/wiki){ .card-link title="Documentation" }
@@ -66,9 +66,9 @@ Self-hosting your own solutions requires advanced technical knowledge and a deep
 
 </div>
 
-## :material-account-supervisor-circle-outline: Social Networks
+## :material-account-supervisor-circle-outline: شبكات التواصل الاجتماعي
 
-Self-hosting your own instance of a social network software can help circumvent potential [censorship on a server level](../social-networks.md#censorship-resistance) by a public server's administrator or admin team.
+يمكن أن تساعدك استضافة نسختك الخاصة من برنامج شبكة تواصل اجتماعي على تجاوز [الرقابة على مستوى الخادم](../social-networks.md#censorship-resistance) التي قد يفرضها مسؤول خادم عام أو فريق إدارته.
 
 ### Mastodon
 
@@ -76,16 +76,16 @@ Self-hosting your own instance of a social network software can help circumvent 
 
 ![Mastodon logo](../assets/img/social-networks/mastodon.svg){ align=right }
 
-**Mastodon** is a social network based on open web protocols and free, open-source software. It uses the decentralized **:simple-activitypub: ActivityPub** protocol.
+شبكة **Mastodon** هي شبكة تواصل اجتماعي تعتمد على بروتوكولات الويب المفتوحة وبرامج مجانية ومفتوحة المصدر. تستخدم بروتوكول:simple-activitypub: ActivityPub اللامركزي.
 
 [:octicons-home-16:](https://joinmastodon.org){ .card-link title="Homepage" }
 [:octicons-info-16:](https://docs.joinmastodon.org/admin/prerequisites){ .card-link title="Admin Documentation" }
 
 </div>
 
-Mastodon [integrates with the Tor network](https://docs.joinmastodon.org/admin/optional/tor) for more extreme scenarios where even your underlying hosting provider is subject to censorship, but this may limit who can access your content to only other servers which integrate with Tor (like most other hidden services).
+يدعم Mastodon [التكامل مع شبكة Tor](https://docs.joinmastodon.org/admin/optional/tor) للتعامل مع الحالات الأكثر تعقيدا، مثل تعرض مزود الاستضافة نفسه للرقابة. لكن هذا قد يجعل الوصول إلى محتواك مقتصرا على الخوادم الأخرى التي تدعم Tor، كما هو الحال مع معظم الخدمات المخفية الأخرى.
 
-Mastodon benefits greatly from a large and active self-hosting community, and its administration is comprehensively documented. While many other ActivityPub platforms can require extensive technical knowledge to run and troubleshoot, Mastodon has very stable and tested releases, and it can generally be run securely without issue by anyone who can use the Linux command line and follow step-by-step instructions.
+يستفيد Mastodon من مجتمع كبير ونشط من المستخدمين الذين يستضيفونه بأنفسهم، كما تتوفر وثائق شاملة تشرح كيفية إدارته. بينما تتطلب العديد من المنصات الأخرى التي تستخدم ActivityPub خبرة تقنية كبيرة لتشغيلها وحل مشكلاتها، يتميّز Mastodon بإصدارات مستقرة ومختبرة جيدا. ويمكن عموما لأي شخص يعرف كيفية استخدام سطر الأوامر في Linux واتباع التعليمات خطوة بخطوة تشغيله بأمان ودون مشكلات.
 
 ### Element
 
@@ -93,7 +93,7 @@ Mastodon benefits greatly from a large and active self-hosting community, and it
 
 ![Element logo](../assets/img/social-networks/element.svg){ align=right }
 
-**Element** is the flagship client for the **:simple-matrix: Matrix** protocol, an open standard that enables decentralized communication by way of federated chat rooms.
+تطبيق **Element** هو التطبيق الرئيسي لبروتوكول **:simple-matrix: Matrix**، وهو معيار مفتوح يتيح التواصل بشكل لامركزي من خلال غرف دردشة مترابطة بين خوادم مختلفة.
 
 [:octicons-home-16:](https://element.io){ .card-link title="Homepage" }
 [:octicons-info-16:](https://element-hq.github.io/synapse/latest){ .card-link title="Admin Documentation" }
@@ -101,9 +101,9 @@ Mastodon benefits greatly from a large and active self-hosting community, and it
 
 </div>
 
-## :material-flip-to-front: Frontends
+## :material-flip-to-front: واجهات المستخدم
 
-Self-hosting your own instance of a web-based frontend can help you circumvent rate limits that you may encounter on high-traffic, public instances. It is important that you have other people using your instance as well in order for you to blend in. You should be careful with where and how you are hosting, as other peoples' usage will be linked to your hosting.
+يمكن أن تساعدك استضافة نسختك الخاصة من واجهة ويب على تجاوز قيود عدد الطلبات التي قد تواجهها عند استخدام النسخ العامة التي تشهد ضغطا كبيرا من المستخدمين. من المهم أيضا أن يستخدم أشخاص آخرون نسختك، حتى يصعب تمييز نشاطك عن نشاط بقية المستخدمين. يجب أن تنتبه إلى مكان وطريقة استضافة نسختك، لأن نشاط المستخدمين الآخرين سيكون مرتبطا بخادمك.
 
 <div class="grid cards" markdown>
 
@@ -131,9 +131,9 @@ Self-hosting your own instance of a web-based frontend can help you circumvent r
 
 </div>
 
-## More Tools...
+## المزيد من الأدوات...
 
-Tool recommendations in other categories of the website also provide a self-hosted option, so you could consider this if you are confident in your ability to host the software after reading their documentation.
+توفر بعض الأدوات التي نوصي بها في مقالات أخرى من الموقع خيار الاستضافة بنفسك أيضا. يمكنك التفكير في هذا الخيار إذا قرأت وثائق هذه الأدوات وكنت واثقا من قدرتك على تشغيلها بنفسك.
 
 <div class="grid cards" markdown>
 

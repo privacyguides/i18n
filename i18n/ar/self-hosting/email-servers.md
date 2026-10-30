@@ -57,7 +57,7 @@ cover: email.webp
 
 ![Mail-in-a-Box logo](../assets/img/self-hosting/mail-in-a-box.svg){ align=right }
 
-**Mail-in-a-Box** is an automated setup script for deploying a mail server on Ubuntu. Its goal is to make it easier for people to set up their own mail server.
+سكربت Mail-in-a-Box هو سكربت يُسهل إعداد وتشغيل خادم بريد إلكتروني على Ubuntu بشكل تلقائي. يهدف إلى تسهيل إعداد خادم بريد إلكتروني خاص بك.
 
 [:octicons-home-16: Homepage](https://mailinabox.email){ .md-button .md-button--primary }
 [:octicons-info-16:](https://mailinabox.email/guide.html){ .card-link title="Documentation" }
