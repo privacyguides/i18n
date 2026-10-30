@@ -1,21 +1,21 @@
 ---
-title: DNS Filtering
-meta_title: "Self-Hosting DNS Solutions - Privacy Guides"
+title: فلترة الـ DNS
+meta_title: "حلول استضافة DNS بنفسك - Privacy Guides"
 icon: material/dns
-description: For our more technical readers, self-hosting a DNS solution can provide filtering for devices not covered by cloud-based DNS solutions.
+description: للقرّاء الذين لديهم خبرة تقنية أكبر، يمكنهم تشغيل خدمة DNS خاصة بهم لفلترة المحتوى على الأجهزة التي لا تدعمها خدمات DNS السحابية.
 cover: dns.webp
 ---
 
-<small>Protects against the following threat(s):</small>
+<small>يحمي من التهديدات التالية:</small>
 
-- [:material-server-network: Service Providers](../basics/common-threats.md#privacy-from-service-providers){ .pg-teal }
-- [:material-account-cash: Surveillance Capitalism](../basics/common-threats.md#surveillance-as-a-business-model){ .pg-brown }
+- [:material-server-network: مقدّمو الخدمات](../basics/common-threats.md#privacy-from-service-providers){ .pg-teal }
+- [:material-account-cash:رأسمالية المراقبة](../basics/common-threats.md#surveillance-as-a-business-model){ .pg-brown }
 
-**Self-hosting DNS** is useful for providing [DNS filtering](https://cloudflare.com/learning/access-management/what-is-dns-filtering) on controlled platforms, such as smart TVs and other IoT devices, as no client-side software is needed. Keep in mind that the DNS solutions below are typically restricted to your home or local network unless you set up a more advanced configuration.
+استضافة DNS بنفسك مفيدة لتوفير [DNS filtering](https://cloudflare.com/learning/access-management/what-is-dns-filtering) على الأجهزة التي يصعب تثبيت البرامج عليها، مثل أجهزة التلفزيون الذكية وغيرها من أجهزة الـ IoT، لأنها لا تتطلب تثبيت أي برنامج على هذه الأجهزة. ضع في اعتبارك أن حلول الـDNS التالية تعمل عادة داخل منزلك أو شبكتك المحلية (local netowrk) فقط، إلا إذا أجريت إعدادات أكثر تقدما.
 
-## DNS Sinkholes
+## أنظمة حجب النطاقات عبر الـ DNS
 
-[**DNS sinkholes**](https://en.wikipedia.org/wiki/DNS_sinkhole) use DNS filtering to block unwanted web content such as advertisements.
+تستخدم [أنظمة حجب النطاقات عبر الـDNS](https://en.wikipedia.org/wiki/DNS_sinkhole) خدمة الـ DNS filtering لحظر محتوى الويب غير المرغوب فيه، مثل الإعلانات.
 
 ### Pi-Hole
 
@@ -23,7 +23,7 @@ cover: dns.webp
 
 ![Pi-hole logo](../assets/img/self-hosting/pi-hole.svg){ align=right }
 
-**Pi-hole** is an open-source DNS sinkhole which features a friendly web interface to view insights and manage blocked content. صُمِّم باي-هول ليستضاف في جهاز راسبيري باي، ولكنَّه ليس محدودًا به.
+أداة Pi-hole أداة مفتوحة المصدر لحجب المحتوى غير المرغوب فيه عبر الـDNS، وتوفر واجهة ويب سهلة الاستخدام لعرض الإحصائيات وإدارة المحتوى المحظور. صُمّم Pi-hole ليعمل على أجهزة الـRaspberry Pi، لكنه لا يقتصر عليها، ويمكن تشغيله على أجهزة أخرى.
 
 [:octicons-home-16: Homepage](https://pi-hole.net){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://pi-hole.net/privacy){ .card-link title="Privacy Policy" }
@@ -39,7 +39,7 @@ cover: dns.webp
 
 ![AdGuard Home logo](../assets/img/self-hosting/adguard-home.svg){ align=right }
 
-**AdGuard Home** is an open-source DNS sinkhole which features a polished web interface to view insights and manage blocked content.
+أداة AdGuard Home أداة مفتوحة المصدر لحجب المحتوى غير المرغوب فيه عبر الـDNS، وتوفر واجهة ويب بتصميم متقن وسهل الاستخدام لعرض الإحصائيات وإدارة المحتوى المحظور.
 
 [:octicons-home-16: Homepage](https://adguard.com/adguard-home/overview.html){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://adguard.com/privacy/home.html){ .card-link title="Privacy Policy" }

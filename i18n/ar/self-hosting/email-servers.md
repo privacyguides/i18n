@@ -1,19 +1,19 @@
 ---
-title: Email Servers
-meta_title: "Self-Hosting Email - Privacy Guides"
+title: خوادم البريد الإلكتروني
+meta_title: "استضافة البريد الإلكتروني بنفسك - Privacy Guides"
 icon: material/email
-description: For our more technical readers, self-hosting your own email can provide additional privacy assurances by having maximum control over your data.
+description: للقراء الذين لديهم خبرة تقنية أكبر، يمكن أن توفر استضافة البريد الإلكتروني بأنفسهم خصوصية إضافية، لأنها تمنحهم تحكما أكبر في بياناتهم.
 cover: email.webp
 ---
 
-<small>Protects against the following threat(s):</small>
+<small>يحمي من التهديدات التالية:</small>
 
-- [:material-server-network: Service Providers](../basics/common-threats.md#privacy-from-service-providers){ .pg-teal }
+- [:material-server-network: مقدّمو الخدمات](../basics/common-threats.md#privacy-from-service-providers){ .pg-teal }
 
-Advanced system administrators may consider setting up their own **email server**. Mail servers require attention and continuous maintenance in order to keep things secure and mail delivery reliable. In addition to the "all-in-one" solutions below, we've picked out a few articles that cover a more manual approach:
+يمكن لمسؤولي الأنظمة ذوي الخبرة المتقدمة التفكير في إعداد خادم بريد إلكتروني خاص بهم. تحتاج خوادم البريد الإلكتروني إلى متابعة وصيانة مستمرة للحفاظ على أمانها وضمان وصول الرسائل بشكل موثوق. بالإضافة إلى الحلول المتكاملة التالية، اخترنا بعض المقالات التي تشرح كيفية إعداد خادم بريد إلكتروني يدويًا:
 
-- [Setting up a mail server with OpenSMTPD, Dovecot and Rspamd](https://poolp.org/posts/2019-09-14/setting-up-a-mail-server-with-opensmtpd-dovecot-and-rspamd) (2019)
-- [How To Run Your Own Mail Server](https://www.c0ffee.net/blog/mail-server-guide) (August 2017)
+- [إعداد خادم بريد إلكتروني باستخدام OpenSMTPD وDovecot وRspamd](https://poolp.org/posts/2019-09-14/setting-up-a-mail-server-with-opensmtpd-dovecot-and-rspamd)(2019)
+- [كيفية تشغيل خادم بريد إلكتروني خاص بك](https://www.c0ffee.net/blog/mail-server-guide)(أغسطس 2017)
 
 ## Stalwart
 
@@ -21,7 +21,7 @@ Advanced system administrators may consider setting up their own **email server*
 
 ![Stalwart logo](../assets/img/self-hosting/stalwart.svg){ align=right }
 
-**Stalwart** is a newer mail server written in Rust which supports JMAP in addition to the standard IMAP, POP3, and SMTP. It has a wide variety of configuration options, but also defaults to very reasonable settings in terms of both security and features, making it easy to use immediately. It has web-based administration with TOTP 2FA support and allows you to enter your public PGP key to encrypt **all** incoming messages.
+خادم Stalwart هو خادم بريد إلكتروني حديث نسبيا، مكتوب بلغة Rust، ويدعم بروتوكول JMAP بالإضافة إلى البروتوكولات التقليدية IMAP وPOP3 وSMTP. يوفر خيارات كثيرة لتخصيص الإعدادات، كما يأتي بإعدادات افتراضية مناسبة من حيث الأمان والميزات، مما يجعله سهل الاستخدام من البداية. يوفر واجهة لإدارته عبر الويب تدعم المصادقة الثنائية (2FA) باستخدام TOTP، ويتيح لك إضافة مفتاح PGP العام الخاص بك لتشفير جميع الرسائل الواردة.
 
 [:octicons-home-16: Homepage](https://stalw.art){ .md-button .md-button--primary }
 [:octicons-info-16:](https://stalw.art/docs/get-started){ .card-link title="Documentation" }
@@ -30,11 +30,11 @@ Advanced system administrators may consider setting up their own **email server*
 
 </div>
 
-Stalwart's [PGP implementation](https://stalw.art/docs/encryption/overview) is unique among our self-hosted recommendations and allows you to operate your own mail server with encrypted message storage, lessening the risk of unauthorized access to your emails. If you additionally configure Web Key Directory (WKD) on your domain, and if you use an email client which supports PGP and WKD for outgoing mail (like Thunderbird), then this is the easiest way to get self-hosted E2EE compatibility with all [Proton Mail](../email.md#proton-mail) users.
+تتميز [طريقة تطبيق PGP](https://stalw.art/docs/encryption/overview) في Stalwart عن باقي حلول استضافة البريد الإلكتروني التي نوصي بها، وتتيح لك تشغيل خادم بريد إلكتروني خاص بك تُخزن فيه الرسائل بشكل مشفر، مما يقلل من خطر وصول أشخاص غير مصرح لهم إلى رسائلك. إذا أعددت أيضا Web Key Directory ‏(WKD) على نطاقك، واستخدمت برنامج بريد إلكتروني يدعم الـPGP وWKD لتشفير الرسائل الصادرة (مثل Thunderbird)، فهذه أسهل طريقة للحصول على توافق مع التشفير التام بين الطرفين (E2EE) عند استضافة بريدك الإلكتروني بنفسك، مما يتيح لك التواصل بشكل مشفر مع جميع مستخدمي [Proton Mail](../email.md#proton-mail).
 
-Stalwart does **not** have an integrated webmail, so you will need to use it with a [dedicated email client](../email-clients.md) or find an open-source webmail to self-host, like Nextcloud's Mail app.
+لا يتضمن Stalwart واجهة مدمجة لاستخدام البريد الإلكتروني عبر الويب، لذلك ستحتاج إلى استخدام [برنامج بريد إلكتروني مستقل](../email-clients.md) أو استضافة واجهة بريد إلكتروني مفتوحة المصدر بنفسك، مثل تطبيق Mail من Nextcloud.
 
-We use Stalwart for our own internal email at _Privacy Guides_.
+نستخدم Stalwart لإدارة بريدنا الإلكتروني الداخلي في Privacy Guides.
 
 ## Mailcow
 
@@ -42,7 +42,7 @@ We use Stalwart for our own internal email at _Privacy Guides_.
 
 ![Mailcow logo](../assets/img/self-hosting/mailcow.svg){ align=right }
 
-**Mailcow** is an advanced mail server perfect for those with Linux experience. It has everything you need in a Docker container: a mail server with DKIM support, antivirus and spam monitoring, webmail and ActiveSync with SOGo, and web-based administration with 2FA support.
+خادم Mailcow هو خادم بريد إلكتروني متقدم، ومناسب جدا لمن لديهم خبرة في استخدام Linux. يوفر كل ما تحتاج إليه داخل حاوية Docker: خادم بريد إلكتروني يدعم DKIM، وحماية من الفيروسات والرسائل المزعجة، وواجهة لاستخدام البريد الإلكتروني عبر الويب مع دعم ActiveSync من خلال SOGo، بالإضافة إلى واجهة إدارة عبر الويب تدعم المصادقة الثنائية (2FA).
 
 [:octicons-home-16: Homepage](https://mailcow.email){ .md-button .md-button--primary }
 [:octicons-info-16:](https://docs.mailcow.email){ .card-link title="Documentation" }
