@@ -1,7 +1,7 @@
 ---
 title: Améliorez votre présence sur les réseaux sociaux et renforcez la résilience de vos communautés
 description: Les plateformes commerciales de réseaux sociaux constituent l'une des principales sources d'exploitation des données. Découvrez comment créer des réseaux sociaux plus efficaces et plus résilients.
-icon: fontawesome/solide/seedling
+icon: fontawesome/solid/seedling
 cover: activism/banner-toolbox-tip-plant.webp
 ---
 

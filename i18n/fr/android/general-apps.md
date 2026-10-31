@@ -7,19 +7,19 @@ schema:
     name: Applications Android génériques
     url: "./"
   - "@context": http://schema.org
-    "@type": ApplicationMobile
+    "@type": MobileApplication
     name: Shelter
-    applicationCategory: Utilitaire
+    applicationCategory: Utilities
     operatingSystem: Android
   - "@context": http://schema.org
-    "@type": ApplicationMobile
+    "@type": MobileApplication
     name: Secure Camera
-    applicationCategory: Utilitaire
+    applicationCategory: Utilities
     operatingSystem: Android
   - "@context": http://schema.org
-    "@type": ApplicationMobile
+    "@type": MobileApplication
     name: Secure PDF Viewer
-    applicationCategory: Utilitaire
+    applicationCategory: Utilities
     operatingSystem: Android
 robots: nofollow, max-snippet:-1, max-image-preview:large
 ---

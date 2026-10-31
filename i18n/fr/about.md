@@ -3,7 +3,7 @@ title: "À propos de Privacy Guides"
 description: Privacy guides est un projet d'engagement citoyen qui a pour vocation d'informer et de sensibiliser à la protection de vos données personnelles et à la confidentialité.
 schema:
   "@context": https://schema.org
-  "@type": Organisation
+  "@type": Organization
   "@id": https://www.privacyguides.org/
   name: Privacy Guides
   url: https://www.privacyguides.org/en/about/

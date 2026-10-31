@@ -1,6 +1,6 @@
 ---
 meta_title: "Navigateur et réseau Tor : navigation web anonyme - Privacy Guides"
-title: "Navigateur Tor"
+title: "Tor Browser"
 icon: simple/torbrowser
 description: Protégez votre navigation sur internet des regards indiscrets en utilisant le réseau Tor, un réseau sécurisé qui contourne la censure.
 cover: tor.webp
@@ -8,7 +8,7 @@ schema:
   - 
     "@context": http://schema.org
     "@type": SoftwareApplication
-    name: Navigateur Tor
+    name: Tor Browser
     image: /assets/img/browsers/tor.svg
     url: https://torproject.org
     sameAs: https://fr.m.wikipedia.org/wiki/Tor_(r%C3%A9seau)
@@ -46,7 +46,7 @@ Certaines de ces applications sont meilleures que d'autres ; le choix dépend de
 
 Si un anonymat plus complet est primordial dans votre situation, vous devriez **uniquement** utiliser le client bureau du Navigateur Tor, idéalement dans une configuration [Whonix](desktop.md#whonix) + [Qubes](desktop.md#qubes-os). Les navigateurs mobiles sont moins courants sur Tor (et donc plus facilement identifiables), et d'autres configurations ne sont pas aussi rigoureusement testées contre la désanonymisation.
 
-## Navigateur Tor
+## Tor Browser
 
 <div class="admonition recommendation" markdown>
 

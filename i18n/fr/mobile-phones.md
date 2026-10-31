@@ -6,20 +6,20 @@ cover: android.webp
 schema:
   - "@context": http://schema.org
     "@type": WebPage
-    name: Recommandations de smartphones
+    name: Mobile Phone Recommendations
     url: "./"
   - "@context": http://schema.org
-    "@type": Article
+    "@type": Product
     name: Pixel
     brand:
-      "@type": Marque
+      "@type": Brand
       name: Google
     image: /assets/img/android/google-pixel.png
     sameAs: https://en.wikipedia.org/wiki/Google_Pixel
     review:
-      "@type": Avis
+      "@type": Review
       author:
-        "@type": Organisation
+        "@type": Organization
         name: Privacy Guides
 robots: nofollow, max-snippet:-1, max-image-preview:large
 ---

@@ -62,7 +62,7 @@ schema:
       url: "./"
   - 
     "@context": http://schema.org
-    "@type": ApplicationLogiciel
+    "@type": SoftwareApplication
     name: Psono
     image: /assets/img/password-management/psono.svg
     url: https://psono.com
