@@ -90,7 +90,7 @@ SELinux on [Fedora](https://docs.fedoraproject.org/en-US/quick-docs/selinux-gett
 
 ### Crittografia delle Unità
 
-Molte delle distribuzioni Linux offrono un opzione nel proprio programma d'installazione per abilitare la FDE di [LUKS](../encryption.md#linux-unified-key-setup). If this option isn’t set at installation time, you will have to back up your data and re-install, as encryption is applied after [disk partitioning](https://en.wikipedia.org/wiki/Disk_partitioning), but before [file systems](https://en.wikipedia.org/wiki/File_system) are formatted. Inoltre, suggeriamo di svuotare il tuo dispositivo di archiviazione:
+Molte delle distribuzioni Linux offrono un opzione nel proprio programma d'installazione per abilitare la FDE di [LUKS](../encryption.md#linux-unified-key-setup). If this option isn’t enabled during installation, the simplest approach is to back up your data and reinstall, as encryption is normally set up after [disk partitioning](https://en.wikipedia.org/wiki/Disk_partitioning) but before [file systems](https://en.wikipedia.org/wiki/File_system) are formatted. However, it is also possible in some cases to encrypt an existing installation without reinstalling using `cryptsetup reencrypt`. This process is more complicated and carries a risk of data loss, so you should always back up your data first. Inoltre, suggeriamo di svuotare il tuo dispositivo di archiviazione:
 
 - [Cancellazione sicura dei dati :material-arrow-right-drop-circle:](https://www.privacyguides.org/articles/2022/05/25/secure-data-erasure/)
 

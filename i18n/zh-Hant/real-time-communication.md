@@ -66,37 +66,6 @@ Signal supports [private groups](https://signal.org/blog/signal-private-group-sy
 
 The protocol was independently [audited](https://eprint.iacr.org/2016/1013.pdf) in 2016. The specification for the Signal protocol can be found in their [documentation](https://signal.org/docs).
 
-### Molly (Android)
-
-If you use Android and your threat model requires protecting against [:material-target-account: Targeted Attacks](basics/common-threats.md#attacks-against-specific-individuals ""){.pg-red} you may consider using this alternative app, which features a number of security and usability improvements, to access the Signal network.
-
-<div class="admonition recommendation" markdown>
-
-![Molly logo](assets/img/messengers/molly.svg){ align=right }
-
-**Molly** is an alternative Signal client for Android which allows you to encrypt the local database with a passphrase at rest, to have unused RAM data securely shredded, to route your connection via Tor, and [more](https://www.privacyguides.org/articles/2022/07/07/signal-configuration-and-hardening#privacy-and-security-features). It also has usability improvements including scheduled backups, automatic locking, and the ability to use your Android phone as a linked device instead of the primary device for a Signal account.
-
-[:octicons-home-16: 首頁](https://molly.im){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://signal.org/legal/#privacy-policy){ .card-link title="隱私權政策" }
-[:octicons-info-16:](https://github.com/mollyim/mollyim-android/wiki){ .card-link title="說明文件" }
-[:octicons-code-16:](https://github.com/mollyim/mollyim-android){ .card-link title="原始碼" }
-[:octicons-heart-16:](https://opencollective.com/mollyim){ .card-link title="捐款" }
-
-<details class="downloads" markdown>
-<summary>下載</summary>
-
-- [:simple-fdroid: F-Droid](https://molly.im/fdroid)
-- [:octicons-moon-16: Accrescent](https://accrescent.app/app/im.molly.app)
-- [:simple-github: GitHub](https://github.com/mollyim/mollyim-android/releases)
-
-</details>
-
-</div>
-
-Note that you are trusting multiple parties by using Molly, as you now need to trust the Signal team *and* the Molly team to deliver safe and timely updates.
-
-Molly provides support for [reproducible builds](https://github.com/mollyim/mollyim-android/tree/main/reproducible-builds), meaning it's possible to confirm that the compiled APKs match the source code.
-
 ## SimpleX Chat
 
 <div class="admonition recommendation" markdown>

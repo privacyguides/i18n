@@ -66,37 +66,6 @@ cover: real-time-communication.webp
 
 이 프로토콜은 2016년에 독립적인 [감사](https://eprint.iacr.org/2016/1013.pdf)를 받았습니다. 시그널 프로토콜의 사양은 시그널 [문서](https://signal.org/docs)에서 확인할 수 있습니다.
 
-### 몰리(안드로이드) { #molly-android }
-
-안드로이드를 사용하고 있고 위협 모델상 [:material-target-account: 표적 공격](basics/common-threats.md#attacks-against-specific-individuals ""){.pg-red}에 대비해야 한다면, 여러 보안 및 사용성 개선 사항을 갖춘 이 대체 앱으로 시그널 네트워크를 이용하는 것을 고려해 볼 수 있습니다.
-
-<div class="admonition recommendation" markdown>
-
-![몰리 로고](assets/img/messengers/molly.svg){ align=right }
-
-**몰리**는 안드로이드용 대체 시그널 클라이언트로, 로컬 데이터베이스를 패스프레이즈로 암호화하여 저장하고, 사용하지 않는 RAM 데이터를 안전하게 파쇄하며, 토르를 통해 연결을 라우팅하는 등 [다양한 기능](https://www.privacyguides.org/articles/2022/07/07/signal-configuration-and-hardening#privacy-and-security-features)을 제공합니다. 또한 예약 백업, 자동 잠금, 안드로이드 휴대폰을 시그널 계정의 주 기기가 아닌 연결된 기기로 사용하는 기능 등 사용성 개선 사항도 갖추고 있습니다.
-
-[:octicons-home-16: 홈페이지](https://molly.im){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://signal.org/legal/#privacy-policy){ .card-link title="개인정보 처리방침" }
-[:octicons-info-16:](https://github.com/mollyim/mollyim-android/wiki){ .card-link title="문서" }
-[:octicons-code-16:](https://github.com/mollyim/mollyim-android){ .card-link title="소스 코드" }
-[:octicons-heart-16:](https://opencollective.com/mollyim){ .card-link title="후원하기" }
-
-<details class="downloads" markdown>
-<summary>다운로드</summary>
-
-- [:simple-fdroid: F-Droid](https://molly.im/fdroid)
-- [:octicons-moon-16: Accrescent](https://accrescent.app/app/im.molly.app)
-- [:simple-github: 깃허브](https://github.com/mollyim/mollyim-android/releases)
-
-</details>
-
-</div>
-
-몰리를 사용하면 안전하고 시기적절한 업데이트를 제공받기 위해 시그널 팀*과* 몰리 팀을 모두 신뢰해야 하므로, 여러 주체를 신뢰하게 된다는 점에 유의하세요.
-
-몰리는 [재현 가능한 빌드](https://github.com/mollyim/mollyim-android/tree/main/reproducible-builds)를 지원하므로, 컴파일된 APK가 소스 코드와 일치하는지 확인할 수 있습니다.
-
 ## 심플렉스 챗 { #simplex-chat }
 
 <div class="admonition recommendation" markdown>

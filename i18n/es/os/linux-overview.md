@@ -1,10 +1,10 @@
 ---
 title: Resumen de Linux
 icon: simple/linux
-description: Linux is an open-source, privacy-focused desktop operating system, but not all distributions are created equal.
+description: Linux es un sistema operativo de código abierto y enfocado en la privacidad, pero no todas las distribuciones son iguales.
 ---
 
-**Linux** is an open-source, privacy-focused desktop operating system. Frente a la telemetría omnipresente y otras tecnologías que atentan contra la privacidad en los principales sistemas operativos, Linux de escritorio ha seguido siendo la opción clara para quienes buscan un control total sobre sus ordenadores desde la base.
+**Linux** es un sistema operativo de código abierto enfocado en la privacidad. Frente a la telemetría omnipresente y otras tecnologías que atentan contra la privacidad en los principales sistemas operativos, Linux de escritorio ha seguido siendo la opción clara para quienes buscan un control total sobre sus ordenadores desde la base.
 
 En general, nuestro sitio web utiliza el término "Linux" para describir las distribuciones Linux de **escritorio**. En esta página no se tratan otros sistemas operativos que también utilizan el núcleo Linux, como ChromeOS, Android y Qubes OS.
 
@@ -54,7 +54,7 @@ Tradicionalmente, las distribuciones Linux se actualizan mediante la actualizaci
 
 En cambio, las distribuciones que utilizan actualizaciones atómicas las aplican en su totalidad o no las aplican en absoluto. En una distribución atómica, si se produce un error durante la actualización (tal vez debido a un fallo de alimentación), no se modifica nada en el sistema.
 
-El método de actualización atómica puede lograr la fiabilidad con este modelo y se utiliza para [distribuciones](../desktop.md#atomic-distributions) como Silverblue y NixOS. [Adam Šamalík](https://www.linkedin.com/in/adamsamalik/) provides a presentation on how `rpm-ostree` works with Silverblue:
+El método de actualización atómica puede lograr la fiabilidad con este modelo y se utiliza para [distribuciones](../desktop.md#atomic-distributions) como Silverblue y NixOS. [Adam Šamalík](https://www.linkedin.com/in/adamsamalik/) ofrece una presentación sobre cómo `rpm-ostree` trabaja con Silverblue:
 
 - [Probemos Fedora Silverblue: ¡un sistema operativo de escritorio inmutable! - Adam Šamalík](https://youtu.be/-hpV5l-gJnQ) <small>(YouTube)</small>
 
@@ -90,7 +90,7 @@ SELinux en [Fedora](https://docs.fedoraproject.org/en-US/quick-docs/selinux-gett
 
 ### Cifrado de Unidad
 
-La mayoría de las distribuciones de Linux tienen una opción dentro de su instalador para habilitar [LUKS](../encryption.md#linux-unified-key-setup) FDE. Si esta opción no se configura en el momento de la instalación, tendrás que hacer una copia de seguridad de tus datos y volver a instalarla, ya que el cifrado se aplica después de [particionar el disco](https://en.wikipedia.org/wiki/Disk_partitioning), pero antes de formatear [los sistemas de archivos](https://en.wikipedia.org/wiki/File_system). También te sugerimos que borres de forma segura tu dispositivo de almacenamiento:
+La mayoría de las distribuciones de Linux tienen una opción dentro de su instalador para habilitar [LUKS](../encryption.md#linux-unified-key-setup) FDE. If this option isn’t enabled during installation, the simplest approach is to back up your data and reinstall, as encryption is normally set up after [disk partitioning](https://en.wikipedia.org/wiki/Disk_partitioning) but before [file systems](https://en.wikipedia.org/wiki/File_system) are formatted. However, it is also possible in some cases to encrypt an existing installation without reinstalling using `cryptsetup reencrypt`. This process is more complicated and carries a risk of data loss, so you should always back up your data first. También te sugerimos que borres de forma segura tu dispositivo de almacenamiento:
 
 - [Borrado Seguro de Datos :material-arrow-right-drop-circle:](https://www.privacyguides.org/articles/2022/05/25/secure-data-erasure/)
 
@@ -145,9 +145,9 @@ systemctl restart NetworkManager
 
 Opcionalmente, cambiar el parámetro de conexión de `random` a `stable` te dará una dirección MAC aleatoria *por red*, pero la mantendrá estable para esa red cuando te vuelvas a conectar a ella más tarde. Usar `random` te dará una dirección MAC aleatoria *por conexión*. Esto podría ser deseable para redes con portales cautivos o donde tienes una asignación DHCP estática, a costa de hacerte más identificable por un único operador de red al que te conectas varias veces.
 
-If you are using [systemd-networkd](https://en.wikipedia.org/wiki/Systemd#Ancillary_components), set [`MACAddressPolicy=random`](https://freedesktop.org/software/systemd/man/systemd.link.html#MACAddressPolicy=) in your .link configuration to randomize your MAC address. To enable [RFC 7844 (Anonymity Profiles for DHCP Clients)](https://freedesktop.org/software/systemd/man/systemd.network.html#Anonymize=), you must also set Anonymize=yes in the [DHCPv4] section of your .network configuration.
+Si estás usando [systemd-networkd](https://en.wikipedia.org/wiki/Systemd#Ancillary_components), configura [`MACAddressPolicy=random`](https://freedesktop.org/software/systemd/man/systemd.link.html#MACAddressPolicy=) en tu configuración .link para hacer aleatoria tu dirección MAC. Para habilitar [RFC 7844 (Perfiles anónimos para clientes DHCP)](https://freedesktop.org/software/systemd/man/systemd.network.html#Anonymize=), debes configurar también Anonymize=yes en la sección [DHCPv4] de tu configuración .network.
 
-La aleatorización de direcciones MAC es beneficiosa sobre todo para las conexiones Wi-Fi. En el caso de las conexiones Ethernet, aleatorizar la dirección MAC aporta pocas ventajas (si es que aporta alguna), ya que un administrador de red puede identificar trivialmente tu dispositivo por otros medios (como inspeccionar el puerto al que está conectado en el conmutador de red). Randomizing Wi-Fi MAC addresses depends on support from the Wireless Network Interface Controller’s firmware.
+La aleatorización de direcciones MAC es beneficiosa sobre todo para las conexiones Wi-Fi. En el caso de las conexiones Ethernet, aleatorizar la dirección MAC aporta pocas ventajas (si es que aporta alguna), ya que un administrador de red puede identificar trivialmente tu dispositivo por otros medios (como inspeccionar el puerto al que está conectado en el conmutador de red). Hacer direcciones MAC aleatorias a tu Wi-Fi depende de que lo admita el controlador del firmware del dispositivo de red inalámbrico.
 
 ### Otros identificadores
 

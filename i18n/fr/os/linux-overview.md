@@ -90,7 +90,7 @@ SELinux sur [Fedora](https://docs.fedoraproject.org/en-US/quick-docs/selinux-get
 
 ### Chiffrement de disque
 
-La plupart des distributions Linux ont une option dans leur installateur pour activer [LUKS](../encryption.md#linux-unified-key-setup) FDE. Si cette option n'est pas définie au moment de l'installation, vous devrez sauvegarder vos données et réinstaller, car le chiffrement est appliqué après le [partitionnement du disque](https://en.wikipedia.org/wiki/Disk_partitioning), mais avant le formatage des [systèmes de fichiers](https://en.wikipedia.org/wiki/File_system). Nous vous suggérons également d'effacer de façon sécurisée votre dispositif de stockage :
+La plupart des distributions Linux ont une option dans leur installateur pour activer [LUKS](../encryption.md#linux-unified-key-setup) FDE. If this option isn’t enabled during installation, the simplest approach is to back up your data and reinstall, as encryption is normally set up after [disk partitioning](https://en.wikipedia.org/wiki/Disk_partitioning) but before [file systems](https://en.wikipedia.org/wiki/File_system) are formatted. However, it is also possible in some cases to encrypt an existing installation without reinstalling using `cryptsetup reencrypt`. This process is more complicated and carries a risk of data loss, so you should always back up your data first. Nous vous suggérons également d'effacer de façon sécurisée votre dispositif de stockage :
 
 - [Effacement sécurisé des données :material-arrow-right-drop-circle:](https://www.privacyguides.org/articles/2022/05/25/secure-data-erasure/)
 

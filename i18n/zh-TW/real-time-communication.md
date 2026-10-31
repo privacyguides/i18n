@@ -66,37 +66,6 @@ Signal 支援[私人群組](https://signal.org/blog/signal-private-group-system)
 
 協定於 2016 年經過獨立[稽核](https://eprint.iacr.org/2016/1013.pdf)。 Signal 協定的規範可以在他們的[文件](https://signal.org/docs)中找到。
 
-### Molly (Android)
-
-若您使用 Android 且您的威脅模型需要防範[:material-target-account: 針對性攻擊](basics/common-threats.md#attacks-against-specific-individuals ""){.pg-red}，您可以考慮使用此替代應用程式來存取 Signal 網路，此應用程式在安全性與可用性方面有許多改進。
-
-<div class="admonition recommendation" markdown>
-
-![Molly logo](assets/img/messengers/molly.svg){ align=right }
-
-**Molly** is an alternative Signal client for Android which allows you to encrypt the local database with a passphrase at rest, to have unused RAM data securely shredded, to route your connection via Tor, and [more](https://www.privacyguides.org/articles/2022/07/07/signal-configuration-and-hardening#privacy-and-security-features). 它還改善了可用性，包括排程備份、自動鎖定，以及使用 Android 手機作為連結裝置，而非 Signal 帳號的主要裝置。
-
-[:octicons-home-16: 首頁](https://molly.im){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://signal.org/legal/#privacy-policy){ .card-link title="隱私權政策" }
-[:octicons-info-16:](https://github.com/mollyim/mollyim-android/wiki){ .card-link title="說明文件" }
-[:octicons-code-16:](https://github.com/mollyim/mollyim-android){ .card-link title="原始碼" }
-[:octicons-heart-16:](https://opencollective.com/mollyim){ .card-link title="捐款" }
-
-<details class="downloads" markdown>
-<summary>下載</summary>
-
-- [:simple-fdroid: F-Droid](https://molly.im/fdroid)
-- [:octicons-moon-16: Accrescent](https://accrescent.app/app/im.molly.app)
-- [:simple-github: GitHub](https://github.com/mollyim/mollyim-android/releases)
-
-</details>
-
-</div>
-
-請注意，使用 Molly 意味著您需要多方信任，您現在必須信任 Signal 團隊*以及* Molly 團隊，以確保能安全且及時地接收更新。
-
-Molly provides support for [reproducible builds](https://github.com/mollyim/mollyim-android/tree/main/reproducible-builds), meaning it's possible to confirm that the compiled APKs match the source code.
-
 ## SimpleX 聊天
 
 <div class="admonition recommendation" markdown>

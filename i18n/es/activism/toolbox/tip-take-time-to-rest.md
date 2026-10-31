@@ -66,7 +66,7 @@ Additionally, the fact that we have to incessantly push against a tidal wave of 
 
 - **Keep bedtime calm:** Try to avoid reading about stressful privacy news or exciting privacy technologies close to bedtime. This can all wait for you tomorrow.
 
-- **Separate devices:** If you can afford it, use separate devices for your personal usage and your privacy activism work. This can help keep a mental barrier between personal and professional, and limit the "always-on" privacy-advocate mode.
+- **Separate devices:** If you can afford it, use separate devices for your personal usage and your privacy activism work. Esto puede ayudar a mantener una barrera mental entre lo personal y lo profesional, limitando el modo "siempre conectado" de un defensor de la privacidad.
 
 - **Find friends:** Find a [community of peers](https://discuss.privacyguides.net/) you can talk to. Exchange resources and seek support from your community. Remember that you aren't alone in this battle.
 

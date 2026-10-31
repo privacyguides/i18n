@@ -90,7 +90,7 @@ If you are experienced with Linux and wish to use an Arch-based distribution, ma
 
 ### 磁碟加密
 
-大多數Linux 發行版安裝程式中都有啟用 [LUKS](../encryption.md#linux-unified-key-setup) FDE之選項。如果在安裝時未設定此選項，您必須備份資料並重新安裝，因為加密會在[磁碟分割之後](https://en.wikipedia.org/wiki/Disk_partitioning)、[檔案系統](https://en.wikipedia.org/wiki/File_system)格式化之前套用。我們還建議安全地刪除儲存設備。
+大多數Linux 發行版安裝程式中都有啟用 [LUKS](../encryption.md#linux-unified-key-setup) FDE之選項。 If this option isn’t enabled during installation, the simplest approach is to back up your data and reinstall, as encryption is normally set up after [disk partitioning](https://en.wikipedia.org/wiki/Disk_partitioning) but before [file systems](https://en.wikipedia.org/wiki/File_system) are formatted. However, it is also possible in some cases to encrypt an existing installation without reinstalling using `cryptsetup reencrypt`. This process is more complicated and carries a risk of data loss, so you should always back up your data first. 我們還建議安全地刪除儲存設備。
 
 - [安全資料清除 :material-arrow-right-drop-circle:](https://www.privacyguides.org/articles/2022/05/25/secure-data-erasure/)
 

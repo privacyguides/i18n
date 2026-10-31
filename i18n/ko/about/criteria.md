@@ -5,31 +5,17 @@ description: 프라이버시 가이드에 제출되는 모든 항목에 대해 �
 
 다음은 프라이버시 가이드에 제출되는 모든 항목에 대해 고려하는 일반적인 우선순위입니다. 카테고리마다 등재를 위한 추가 요구 사항이 있습니다.
 
-- **보안**: 도구는 해당되는 모든 부분에서 보안 모범 사례를 따르는 것이 좋습니다.
-- **소스 공개 여부**: 일반적으로 동등한 독점 대안보다 오픈 소스 프로젝트를 선호합니다.
-- **크로스 플랫폼 지원**: 공급업체 종속을 피하기 위해 일반적으로 크로스 플랫폼을 지원하는 추천 항목을 선호합니다.
-- **활발한 개발**: 추천하는 도구는 활발하게 개발되고 있는 것이 좋습니다. 유지 관리되지 않는 프로젝트는 대부분의 경우 목록에서 제거됩니다.
-- **사용성**: 도구는 대부분의 컴퓨터 사용자가 쉽게 사용할 수 있는 것이 좋습니다. 지나치게 전문적인 기술 지식이 필요하지 않은 것이 좋습니다.
-- **문서**: 도구는 사용법에 관한 명확하고 충실한 문서를 갖추고 있는 것이 좋습니다.
+- **Security**: Tools should follow security best practices wherever applicable.
+- **Source Availability**: Open-source projects are generally preferred over equivalent proprietary alternatives.
+- **Cross-Platform Availability**: We typically prefer recommendations to be cross-platform to avoid vendor lock-in.
+- **Active Development**: The tools that we recommend should be actively developed. Unmaintained projects will be removed in most cases.
+- **Usability**: Tools should be accessible to most computer users. An overly technical background should not be required.
+- **Documentation**: Tools should have clear and extensive documentation for use.
 
 ## 재정 공개 { #financial-disclosure }
 
 프라이버시 가이드는 특정 제품을 추천하여 수익을 얻지 않으며, 제휴 링크를 사용하지 않고, 프로젝트 후원자에게 특별한 혜택을 주지 않습니다.
 
-## 개발자의 직접 제출 { #developer-self-submissions }
+## Submissions to Privacy Guides
 
-자신의 프로젝트나 소프트웨어를 검토 대상으로 제출하려는 개발자에게는 다음과 같은 요구 사항이 있습니다.
-
-- 커뮤니티와 소통하고, 잠재적인 우려 사항을 해소하고, 프로젝트를 개선하는 데 도움이 되는 피드백을 얻는 방법으로서 프라이버시 가이드의 [직접 제출 절차](https://discuss.privacyguides.net/t/about-the-project-showcase-category/114)를 거쳐야 합니다.
-
-- 제출하는 프로젝트에서의 역할 등 이해관계를 공개해야 합니다.
-
-- 메신저, 비밀번호 관리자, 암호화 클라우드 스토리지 등 민감한 정보를 다루는 프로젝트라면 보안 백서가 있어야 합니다.
-    - 제3자 감사 현황과 관련해서는, 감사를 받은 적이 있는지 또는 감사를 요청했는지 알고 싶습니다. 가능하다면 누가 감사를 수행할 예정인지도 알려 주세요.
-
-- 프로젝트가 프라이버시 측면에서 어떤 가치를 제공하는지 설명해야 합니다.
-    - (있다면) 어떤 새로운 문제를 해결하나요?
-    - 다른 대안 대신 이 프로젝트를 사용해야 하는 이유는 무엇인가요?
-
-- 프로젝트의 정확한 위협 모델이 무엇인지 명시해야 합니다.
-    - 잠재적 사용자가 프로젝트가 무엇을 제공할 수 있고 무엇을 제공할 수 없는지 명확히 알 수 있어야 합니다. 이상적으로는 개발자가 프로젝트가 어떤 [일반적인 위협](../basics/common-threats.md)으로부터 보호하는지 밝힐 수 있어야 합니다.
+Privacy Guides only considers projects brought forward by our community members via the forum. Please take note of the current Forum Guidelines. [guidelines](https://discuss.privacyguides.net/guidelines).

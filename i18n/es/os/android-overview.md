@@ -21,10 +21,10 @@ Los componentes clave del modelo de seguridad de Android incluyen el [arranque v
 
 ### Arranque verificado
 
-El [**Arranque Verificado**](https://source.android.com/security/verifiedboot) es una parte importante del modelo de seguridad de Android. From the documentation:
-> Verified Boot strives to ensure all executed code comes from a trusted source (usually device OEMs), rather than from an attacker or corruption. It establishes a full chain of trust, starting from a hardware-protected root of trust to the bootloader, to the boot partition and other verified partitions including system, vendor, and optionally oem partitions. During device boot up, each stage verifies the integrity and authenticity of the next stage before handing over execution.
+El [**Arranque Verificado**](https://source.android.com/security/verifiedboot) es una parte importante del modelo de seguridad de Android. Según la documentación:
+> El arranque verificado se esfuerza en asegurar que todo el código ejecutado proceda de fuentes de confianza (normalmente fabricantes originales de dispositivos), y no de un atacante o un archivo dañado. Establece una cadena de confianza completa, a partir de una raíz de confianza protegida por hardware para el gestor de arranque, a la partición de arranque y otras particiones verificadas, incluyendo el sistema, el proveedor y, opcionalmente, las particiones OEM. Durante el arranque del dispositivo, cada etapa comprueba la integridad y autenticidad de la siguiente etapa antes de cederle el control de la ejecución.
 
-It provides protection against malware persistence and ensures security updates cannot be downgraded with [rollback protection](https://source.android.com/security/verifiedboot/verified-boot#rollback-protection).
+Proporciona protección contra código malicioso persistente y asegura que las actualizaciones de seguridad no pueden ser desinstaladas mediante [protección contra la revisión](https://source.android.com/security/verifiedboot/verified-boot#rollback-protection).
 
 Android 10 y superior se han alejado del cifrado de disco completo por un cifrado más flexible [basado en archivos](https://source.android.com/security/encryption/file-based).
 
