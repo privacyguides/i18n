@@ -20,7 +20,7 @@ description: macOS — это настольная операционная си
 
 macOS выполняет онлайн-проверки при открытии приложения, чтобы убедиться, что приложение не содержит известного вредоносного ПО, и что сертификат разработчика не отозван.
 
-Сервис OCSP от Apple использует шифрование HTTPS, поэтому только они могут видеть, какие приложения вы открываете. Они [опубликовали информацию](https://support.apple.com/HT202491) о своей политике ведения журналов для этой службы. Кроме того, они [обещали](http://lapcatsoftware.com/articles/2024/8/3.html) добавить механизм для отказа от этой онлайн-проверки, но это ещё не было добавлено в macOS.
+Apple uses OCSP to check whether developers' signing certificates have been revoked. macOS supports both encrypted and unencrypted OCSP checks, but they do not necessarily identify the specific apps you open. Они [опубликовали информацию](https://support.apple.com/HT202491) о своей политике ведения журналов для этой службы. Кроме того, они [обещали](http://lapcatsoftware.com/articles/2024/8/3.html) добавить механизм для отказа от этой онлайн-проверки, но это ещё не было добавлено в macOS.
 
 Хотя вы [можете](https://eclecticlight.co/2021/02/23/how-to-run-apps-in-private) вручную отказаться от этой проверки относительно легко, мы рекомендуем не делать этого, если только вы не будете серьезно скомпрометированы проверками отзыва, выполняемыми macOS, поскольку они играют важную роль в обеспечении блокировки скомпрометированных приложений.
 
@@ -156,7 +156,7 @@ macOS использует случайный MAC-адрес при [выпол�
 
 Перейдите в **Системные настройки** → **Сеть** → **Wi-Fi** → **Подробнее** и установите **Частный адрес Wi-Fi** на **Статический адрес**, если вы хотите иметь фиксированный, но уникальный адрес для сети, к которой вы подключены, или **Ротация адреса**, если вы хотите, чтобы он менялся со временем.
 
-Рассмотрите возможность изменения имени хоста — идентификатора, транслируемого в вашей сети. Вы можете установить имя хоста на что-то общее, например "MacBook Air", "Ноутбук", "MacBook Pro Ивана" или "iPhone" в **Системные настройки** → **Основные** → **Общий доступ**.
+Рассмотрите возможность изменения имени хоста — идентификатора, транслируемого в вашей сети. You may wish to give your Mac a generic name, such as "MacBook Air" or "Laptop", in **System Settings** → **General** → **About**. You can also change your Mac's local hostname in **System Settings** → **General** → **Sharing**.
 
 ## Защитные механизмы
 
@@ -173,7 +173,7 @@ macOS позволяет устанавливать бета-обновлени�
 
 #### Подписанный системный том
 
-Системные компоненты macOS защищены в доступном только для чтения [подписанном системном томе](https://support.apple.com/guide/security/signed-system-volume-security-secd698747c9/web), что означает, что ни вы, ни вредоносное ПО не можете изменять важные системные файлы.
+macOS's system components are protected by a read-only [signed system volume](https://support.apple.com/guide/security/signed-system-volume-security-secd698747c9/web), which prevents users and malware from modifying important system files while this protection is enabled.
 
 Системный том проверяется во время работы, и любые данные, не подписанные действительной криптографической подписью от Apple, будут отклонены.
 
@@ -241,7 +241,8 @@ codesign -dv <путь к вашему приложению>
 
 macOS поставляется с двумя формами [защиты от вредоносного ПО](https://support.apple.com/guide/security/protecting-against-malware-sec469d47bd8/1/web/1):
 
-1. Защита от запуска вредоносного ПО в первую очередь обеспечивается процессом проверки App Store для приложений из App Store или *Нотаризацией* (часть *Gatekeeper*), процессом, при котором сторонние приложения сканируются на наличие известного вредоносного ПО компанией Apple, прежде чем им разрешается запуск. Приложения должны быть подписаны разработчиками с использованием ключа, предоставленного им Apple. Это гарантирует, что вы запускаете программное обеспечение от настоящих разработчиков. Нотаризация также требует, чтобы разработчики включали усиленное время выполнения для своих приложений, что ограничивает методы эксплуатации.
+1. Protection against launching malware is provided by the App Store's review process for apps distributed through the App Store. For apps distributed outside the App Store, Apple's *Notarization* service scans submitted apps for known malware, while *Gatekeeper* checks their signatures and notarization status before allowing them to run. However, users can override certain Gatekeeper restrictions to run apps that have not been notarized. Apps are typically signed by developers using a private key associated with an Apple-issued developer certificate. However, macOS can also run unsigned apps if the user overrides certain Gatekeeper restrictions. Нотаризация также требует, чтобы разработчики включали усиленное время выполнения для своих приложений, что ограничивает методы эксплуатации.
+
 2. Защита от другого вредоносного ПО и удаление существующего вредоносного ПО в вашей системе обеспечивается *XProtect* — более традиционным антивирусным программным обеспечением, встроенным в macOS.
 
 Мы не рекомендуем устанавливать стороннее антивирусное программное обеспечение, поскольку оно обычно не имеет доступа на системном уровне, необходимого для правильного функционирования, из-за ограничений Apple для сторонних приложений, и потому что предоставление высоких уровней доступа, которые они запрашивают, часто представляет даже больший риск для безопасности и конфиденциальности вашего компьютера.

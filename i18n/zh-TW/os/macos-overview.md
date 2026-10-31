@@ -20,7 +20,7 @@ description: macOS 是蘋果電腦的桌面作業系統，搭配其自家硬體�
 
 當開啟應用程式時，macOS 會執行連線檢查，驗證應用程式是否包含已知惡意軟體，以及開發人員的簽名證書是否被撤銷。
 
-Apple 的 OCSP 服務使用 HTTPS 加密，因此只有他們能夠看到您開啟了哪些應用程式。他們 [已公佈](https://support.apple.com/HT202491) 有關這項服務的登錄政策資訊。此外，他們 [還承諾會](http://lapcatsoftware.com/articles/2024/8/3.html) 新增一個機制，讓人們可以選擇退出這項線上檢查，但 macOS 並未新增這項功能。
+Apple uses OCSP to check whether developers' signing certificates have been revoked. macOS supports both encrypted and unencrypted OCSP checks, but they do not necessarily identify the specific apps you open. 他們 [已公佈](https://support.apple.com/HT202491) 有關這項服務的登錄政策資訊。此外，他們 [還承諾會](http://lapcatsoftware.com/articles/2024/8/3.html) 新增一個機制，讓人們可以選擇退出這項線上檢查，但 macOS 並未新增這項功能。
 
 雖然 [可以](https://eclecticlight.co/2021/02/23/how-to-run-apps-in-private) 相對輕鬆地手動選擇退出此檢查，但除非您會受到 macOS 執行撤銷檢查的嚴重損害，不建議這樣做，它們在確保阻止受感染的應用程式運行上發揮著重要作用。
 
@@ -156,7 +156,7 @@ macOS 在網路連線中斷而[執行 Wi-Fi 掃描](https://support.apple.com/gu
 
 前往**系統設定** → **網路** → **Wi-Fi** → **詳細資訊**，然後將**私人 Wi-Fi 位址**設定為**固定**（如果您想要使用固定的位址連線），或**輪替**（如果您想要位址定時更換）。
 
-也可以考慮更改您的主機名稱，這是另一個會在您連線的網路中廣播出去的裝置識別資料。您可能會想要在**系統設定** → **一般** → **分享**中將主機名稱設定為較一般的名稱，例如「MacBook Air」、「Laptop」、「John's MacBook Pro」或「iPhone」。
+也可以考慮更改您的主機名稱，這是另一個會在您連線的網路中廣播出去的裝置識別資料。 You may wish to give your Mac a generic name, such as "MacBook Air" or "Laptop", in **System Settings** → **General** → **About**. You can also change your Mac's local hostname in **System Settings** → **General** → **Sharing**.
 
 ## 安全保護
 
@@ -173,7 +173,7 @@ macOS 可以安裝測試版更新。但它們不穩定，且因為是測試用�
 
 #### 簽署系統卷宗
 
-macOS 的系統組件受到唯讀的[簽署系統卷宗](https://support.apple.com/guide/security/signed-system-volume-security-secd698747c9/web)之保護，這代表您和惡意軟體都無法更動重要的系統檔案。
+macOS's system components are protected by a read-only [signed system volume](https://support.apple.com/guide/security/signed-system-volume-security-secd698747c9/web), which prevents users and malware from modifying important system files while this protection is enabled.
 
 系統卷宗在運行時會予以驗證，任何未使用 Apple 的有效加密簽名進行簽署的數據都將遭拒絕。
 
@@ -241,7 +241,8 @@ codesign -dv <您的應用程式路徑>
 
 macOS 提供兩種[惡意軟體防禦](https://support.apple.com/guide/security/protecting-against-malware-sec469d47bd8/1/web/1)機制：
 
-1. 首先，防止啟動惡意軟體是由 App Store 對 App Store 應用程式的審核流程或*公證*（*Gatekeeper* 的一部份），這是 Apple 允許運行之前掃描第三方應用程式是否存在已知惡意軟體的程式。應用程式必須由開發人員使用 Apple 給予他們的金鑰簽署。這個機制可確保您執行的軟體來自真正的開發者。「公證化」也要求開發人員為他們的應用程式啟用執行時期加固，以限制漏洞被利用的方法。
+1. Protection against launching malware is provided by the App Store's review process for apps distributed through the App Store. For apps distributed outside the App Store, Apple's *Notarization* service scans submitted apps for known malware, while *Gatekeeper* checks their signatures and notarization status before allowing them to run. However, users can override certain Gatekeeper restrictions to run apps that have not been notarized. Apps are typically signed by developers using a private key associated with an Apple-issued developer certificate. However, macOS can also run unsigned apps if the user overrides certain Gatekeeper restrictions. 「公證化」也要求開發人員為他們的應用程式啟用執行時期加固，以限制漏洞被利用的方法。
+
 2. *XProtect* 提供針對其他惡意軟體的防護以及修復系統上現有惡意軟體，XProtect 是 macOS 內建較傳統的防病毒軟體。
 
 我們建議不要安裝第三方防毒軟體，它們通常不具備正常運作所需的系統存取權限。且由於 Apple 對第三方應用程式的限制，授予它們所要求的高級別存取權限，反而容易對電腦造成更大的安全和隱私風險。

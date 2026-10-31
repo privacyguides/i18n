@@ -20,7 +20,7 @@ description: الـ macOS هو نظام تشغيل أجهزة الكمبيوتر
 
 يجري macOS عمليات تحقق عبر الإنترنت عند فتح التطبيقات، للتأكد من عدم احتوائها على برمجيات خبيثة معروفة، وللتحقق مما إذا كانت شهادة توقيع المطور قد أُلغيت.
 
-تستخدم خدمة OCSP من Apple تشفير HTTPS، لذلك لا تستطيع سوى Apple معرفة التطبيقات التي تفتحها. [نشرت](https://support.apple.com/HT202491) Apple معلومات عن سياسة تسجيل البيانات الخاصة بهذه الخدمة. [وعدت](http://lapcatsoftware.com/articles/2024/8/3.html) Apple أيضا بإضافة خيار يتيح للمستخدمين تعطيل هذا التحقق عبر الإنترنت، لكنها لم تضفه إلى macOS حتى الآن.
+Apple uses OCSP to check whether developers' signing certificates have been revoked. macOS supports both encrypted and unencrypted OCSP checks, but they do not necessarily identify the specific apps you open. [نشرت](https://support.apple.com/HT202491) Apple معلومات عن سياسة تسجيل البيانات الخاصة بهذه الخدمة. [وعدت](http://lapcatsoftware.com/articles/2024/8/3.html) Apple أيضا بإضافة خيار يتيح للمستخدمين تعطيل هذا التحقق عبر الإنترنت، لكنها لم تضفه إلى macOS حتى الآن.
 
 مع أنه [يمكنك](https://eclecticlight.co/2021/02/23/how-to-run-apps-in-private) تعطيل هذا التحقق يدويا بسهولة نسبية، فإننا لا ننصح بذلك إلا إذا كانت عمليات التحقق من إلغاء الصلاحية التي يجريها macOS ستعرض خصوصيتك لخطر كبير، لأنها تؤدي دورا مهما في منع تشغيل التطبيقات المخترقة.
 
@@ -156,7 +156,7 @@ description: الـ macOS هو نظام تشغيل أجهزة الكمبيوتر
 
 انتقل إلى **System Settings** → **Network** → **Wi-Fi** → **Details**، ثم اضبط **Private Wi-Fi address** على **Fixed** إذا كنت تريد عنوانًا ثابتًا وفريدًا للشبكة التي تتصل بها، أو على **Rotating** إذا كنت تريد أن يتغير العنوان بمرور الوقت.
 
-فكر أيضا في تغيير اسم جهازك (hostname)، فهو معرف آخر لجهازك يُعلَن عنه على الشبكة التي تتصل بها. قد ترغب في اختيار اسم عام لجهازك، مثل "MacBook Air" أو "Laptop" أو "John's MacBook Pro" أو "iPhone"، من خلال **System Settings** → **General** → **Sharing**.
+فكر أيضا في تغيير اسم جهازك (hostname)، فهو معرف آخر لجهازك يُعلَن عنه على الشبكة التي تتصل بها. You may wish to give your Mac a generic name, such as "MacBook Air" or "Laptop", in **System Settings** → **General** → **About**. You can also change your Mac's local hostname in **System Settings** → **General** → **Sharing**.
 
 ## وسائل الحماية الأمنية
 
@@ -173,7 +173,7 @@ description: الـ macOS هو نظام تشغيل أجهزة الكمبيوتر
 
 #### وحدة تخزين النظام الموقعة (Signed System Volume)
 
-تُحمى مكوّنات macOS داخل الـ [Signed System Volume](https://support.apple.com/guide/security/signed-system-volume-security-secd698747c9/web) ومخصصة للقراءة فقط، مما يمنعك أنت والبرمجيات الخبيثة من تعديل ملفات النظام المهمة.
+macOS's system components are protected by a read-only [signed system volume](https://support.apple.com/guide/security/signed-system-volume-security-secd698747c9/web), which prevents users and malware from modifying important system files while this protection is enabled.
 
 يتحقق النظام من سلامة وحدة تخزين النظام أثناء تشغيله، ويرفض أي بيانات لا يغطيها توقيع تشفيري صالح من Apple.
 
@@ -241,7 +241,8 @@ codesign -dv <path to your app>
 
 يأتي macOS مزوّدًا بنوعين من الحماية ضد [البرمجيات الخبيثة](https://support.apple.com/guide/security/protecting-against-malware-sec469d47bd8/1/web/1):
 
-1. توفّر عملية مراجعة التطبيقات في App Store حماية تساعد على منع تشغيل البرمجيات الخبيثة من الأساس. أما التطبيقات الخارجية، فتساعد خدمة *Notarization* (المرتبطة بميزة *Gatekeeper*) على حمايتها، حيث تفحصها Apple بحثًا عن برمجيات خبيثة معروفة قبل السماح بتشغيلها. يجب أن يوقع المطوّرون التطبيقات رقميا باستخدام مفتاح توفره لهم Apple. وهذا يضمن أن البرامج التي تشغلها صادرة عن مطوّريها الحقيقيين. تتطلب عملية Notarization أيضا من المطورين تفعيل ميزة Hardened Runtime في تطبيقاتهم، مما يحد من بعض طرق استغلال الثغرات الأمنية.
+1. Protection against launching malware is provided by the App Store's review process for apps distributed through the App Store. For apps distributed outside the App Store, Apple's *Notarization* service scans submitted apps for known malware, while *Gatekeeper* checks their signatures and notarization status before allowing them to run. However, users can override certain Gatekeeper restrictions to run apps that have not been notarized. Apps are typically signed by developers using a private key associated with an Apple-issued developer certificate. However, macOS can also run unsigned apps if the user overrides certain Gatekeeper restrictions. تتطلب عملية Notarization أيضا من المطورين تفعيل ميزة Hardened Runtime في تطبيقاتهم، مما يحد من بعض طرق استغلال الثغرات الأمنية.
+
 2. يوفّر *XProtect*، وهو برنامج مكافحة فيروسات تقليدي نسبيا ومدمج في macOS، الحماية من البرمجيات الخبيثة الأخرى، بالإضافة إلى اكتشاف البرمجيات الخبيثة الموجودة بالفعل على جهازك وإزالتها.
 
 ننصح بعدم تثبيت برامج مكافحة الفيروسات من جهات خارجية، لأنها غالبا لا تملك صلاحيات الوصول إلى النظام اللازمة للعمل بشكل صحيح، بسبب القيود التي تفرضها Apple على تطبيقات الجهات الخارجية. كما أن منح هذه البرامج الصلاحيات الواسعة التي تطلبها قد يشكّل في كثير من الأحيان خطرًا أكبر على أمان جهازك وخصوصيتك.

@@ -4,13 +4,13 @@ icon: material/apple-finder
 description: macOS 是蘋果電腦的桌面作業系統，搭配其自家硬體提供了堅固的安全。
 ---
 
-蘋果公司使用 Unix 作業系統來開發**macOS** 支援自家的 Mac 電腦。 為提高 macOS 隱私，用戶可關閉遙測功能以強化現有的隱私與安全設定。
+蘋果公司使用 Unix 作業系統來開發**macOS** 支援自家的 Mac 電腦。為提高 macOS 隱私，用戶可關閉遙測功能以強化現有的隱私與安全設定。
 
 舊款的 Intel-based Macs 與 Hackintoshe 則無法完全支援 macOS 所提供的安全功能。 To enhance data security, we recommend using a newer Mac with [Apple Silicon](https://support.apple.com/HT211814).
 
 ## 隱私筆記
 
-用戶應考量 一些 macOS 值得關注的隱私問題。 這些涉及作業系統本身，而不是蘋果其他應用程式和服務的問題。
+用戶應考量 一些 macOS 值得關注的隱私問題。這些涉及作業系統本身，而不是蘋果其他應用程式和服務的問題。
 
 ### 激活鎖
 
@@ -20,7 +20,7 @@ Brand-new Apple Silicon devices can be set up without an internet connection. �
 
 當開啟應用程式時，macOS 會執行連線檢查，驗證應用程式是否包含已知惡意軟體，以及開發人員的簽名證書是否被撤銷。
 
-Apple 的 OCSP 服務使用 HTTPS 加密，因此只有他們能夠看到您開啟了哪些應用程式。 他們 [已公佈](https://support.apple.com/HT202491) 有關這項服務的登錄政策資訊。 此外，他們 [還承諾會](http://lapcatsoftware.com/articles/2024/8/3.html) 新增一個機制，讓人們可以選擇退出這項線上檢查，但 macOS 並未新增這項功能。
+Apple uses OCSP to check whether developers' signing certificates have been revoked. macOS supports both encrypted and unencrypted OCSP checks, but they do not necessarily identify the specific apps you open. 他們 [已公佈](https://support.apple.com/HT202491) 有關這項服務的登錄政策資訊。此外，他們 [還承諾會](http://lapcatsoftware.com/articles/2024/8/3.html) 新增一個機制，讓人們可以選擇退出這項線上檢查，但 macOS 並未新增這項功能。
 
 雖然 [可以](https://eclecticlight.co/2021/02/23/how-to-run-apps-in-private) 相對輕鬆地手動選擇退出此檢查，但除非您會受到 macOS 執行撤銷檢查的嚴重損害，不建議這樣做，它們在確保阻止受感染的應用程式運行上發揮著重要作用。
 
@@ -28,21 +28,21 @@ Apple 的 OCSP 服務使用 HTTPS 加密，因此只有他們能夠看到您開�
 
 首次設定 Mac 時，您的帳戶將是管理員帳戶，其具有比標準用戶帳戶更高的權限。 macOS 有許多保護措施可以防止惡意軟體和其他程式濫用您的管理員權限，因此使用此帳戶通常是安全的。
 
-然而，破壞利用 `sudo` 這類的保護效用程式中的漏洞問題，已[ 發現過](https://bogner.sh/2014/03/another-mac-os-x-sudo-password-bypass)。 如果想避免運行的程式濫用管理員權限，可以考慮創建第二個標準用戶帳戶用於日常操作。 這樣的另一個好處是，當應用程式需要管理員訪問權限時，它會更加明顯，因為它每次都會提示您輸入憑據。
+然而，破壞利用 `sudo` 這類的保護效用程式中的漏洞問題，已[ 發現過](https://bogner.sh/2014/03/another-mac-os-x-sudo-password-bypass)。如果想避免運行的程式濫用管理員權限，可以考慮創建第二個標準用戶帳戶用於日常操作。這樣的另一個好處是，當應用程式需要管理員訪問權限時，它會更加明顯，因為它每次都會提示您輸入憑據。
 
-如果您使用第二個帳戶，則不會嚴格要求在 macOS 登入畫面需登錄到原始管理員帳戶。 當以標準用戶身份執行需要管理員權限的操作時，系統會提示進行身份驗證，這時可以作為標準用戶單次性輸入管理員憑據。 如果希望在登錄畫面中只有一個帳戶，Apple 提供了[隱藏管理員帳戶的指南](https://support.apple.com/HT203998)。
+如果您使用第二個帳戶，則不會嚴格要求在 macOS 登入畫面需登錄到原始管理員帳戶。當以標準用戶身份執行需要管理員權限的操作時，系統會提示進行身份驗證，這時可以作為標準用戶單次性輸入管理員憑據。如果希望在登錄畫面中只有一個帳戶，Apple 提供了[隱藏管理員帳戶的指南](https://support.apple.com/HT203998)。
 
 ### iCloud
 
 當使用 iCloud 等 Apple 服務時，大部分資訊都儲存在他們的伺服器上以金鑰保護，且預設情況下 Apple 可以取用該金鑰。 Apple 將此稱為 [標準資料保護](https://support.apple.com/en-us/102651)。
 
-因此，如果使用 iCloud，則應[啟用**進階資料保護**](https://support.apple.com/HT212520)。 它利用存在設備上的金鑰對您的 iCloud 資料（端對端）加密，此金鑰並不在Apple 伺服器，因此發生數據洩露時您的 iCloud 數據可得到保護與隱匿。
+因此，如果使用 iCloud，則應[啟用**進階資料保護**](https://support.apple.com/HT212520)。它利用存在設備上的金鑰對您的 iCloud 資料（端對端）加密，此金鑰並不在Apple 伺服器，因此發生數據洩露時您的 iCloud 數據可得到保護與隱匿。
 
 如果您希望能夠從 App Store 安裝應用程式，但不想啟用 iCloud，您可以從 App Store 登入 Apple 帳戶，而非 **系統設定**。
 
 ### 系統設定
 
-您應該確認或更改許多內建設定以強化系統。 開啟**設定** 應用程式：
+您應該確認或更改許多內建設定以強化系統。開啟**設定** 應用程式：
 
 #### 藍牙
 
@@ -60,7 +60,7 @@ Apple 的 OCSP 服務使用 HTTPS 加密，因此只有他們能夠看到您開�
 
 ##### 防火牆
 
-防火牆會阻止不必要的網路連接。 防火牆設定越嚴格，您的 Mac 就越安全。 然而某些服務可能會被封鎖。 您應該將防火牆配置得盡可能嚴格，但不會影響使用的服務。
+防火牆會阻止不必要的網路連接。防火牆設定越嚴格，您的 Mac 就越安全。然而某些服務可能會被封鎖。您應該將防火牆配置得盡可能嚴格，但不會影響使用的服務。
 
 - [x] Turn on **Firewall**
 
@@ -68,7 +68,7 @@ Apple 的 OCSP 服務使用 HTTPS 加密，因此只有他們能夠看到您開�
 
 - [x] Turn on **Block all incoming connections**
 
-如果配置過於嚴格，可以再回來取消勾選此選項。 但如果應用程式請求，macOS 通常會提示用戶允許該應用的傳入連接。
+如果配置過於嚴格，可以再回來取消勾選此選項。但如果應用程式請求，macOS 通常會提示用戶允許該應用的傳入連接。
 
 #### 一般設定
 
@@ -116,11 +116,11 @@ Any request made with ChatGPT will be sent to ChatGPT's servers, there is no on-
 
 #### 隱私 & 安全
 
-每當應用程式請求權限時，它就會顯示在這裡。 您可決定是否允許或拒絕哪些應用程式的特定權限。
+每當應用程式請求權限時，它就會顯示在這裡。您可決定是否允許或拒絕哪些應用程式的特定權限。
 
 ##### 定位服務。
 
-您可以個別同意每個應用程式的定位服務權限。 如果不要應用程式使用您的位置，那麼完全關閉定位服務是最私密的選擇。
+您可以個別同意每個應用程式的定位服務權限。如果不要應用程式使用您的位置，那麼完全關閉定位服務是最私密的選擇。
 
 - [ ] 關閉 **定位服務**
 
@@ -156,11 +156,11 @@ You can set your [MAC address to be randomized](https://support.apple.com/en-us/
 
 Go to **System Settings** → **Network** → **Wi-Fi** → **Details** and set **Private Wi-Fi address** to either **Fixed** if you want a fixed but unique address for the network you're connected to, or **Rotating** if you want it to change over time.
 
-Consider changing your hostname as well, which is another device identifier that's broadcast on the network you're connected to. You may wish to set your hostname to something generic like "MacBook Air", "Laptop", "John's MacBook Pro", or "iPhone" in **System Settings** → **General** → **Sharing**.
+Consider changing your hostname as well, which is another device identifier that's broadcast on the network you're connected to. You may wish to give your Mac a generic name, such as "MacBook Air" or "Laptop", in **System Settings** → **General** → **About**. You can also change your Mac's local hostname in **System Settings** → **General** → **Sharing**.
 
 ## 安全保護
 
-macOS 通過不同屬性的多層軟體和硬體保護來進行深度防禦。 這確保了某一層故障不會損害系統的整體安全性。
+macOS 通過不同屬性的多層軟體和硬體保護來進行深度防禦。這確保了某一層故障不會損害系統的整體安全性。
 
 ### 軟體安全
 
@@ -173,7 +173,7 @@ macOS 可以安裝測試版更新。 These are unstable and may come with [extra
 
 #### 簽署系統卷宗
 
-macOS's system components are protected in a read-only [signed system volume](https://support.apple.com/guide/security/signed-system-volume-security-secd698747c9/web), meaning that neither you nor malware can alter important system files.
+macOS's system components are protected by a read-only [signed system volume](https://support.apple.com/guide/security/signed-system-volume-security-secd698747c9/web), which prevents users and malware from modifying important system files while this protection is enabled.
 
 系統卷宗在運行時會予以驗證，任何未使用 Apple 的有效加密簽名進行簽署的數據都將遭拒絕。
 
@@ -181,7 +181,7 @@ macOS's system components are protected in a read-only [signed system volume](ht
 
 macOS 設定了某些無法覆蓋的安全限制。 These are called [Mandatory Access Controls](https://support.apple.com/guide/security/system-integrity-protection-secb7ea06b49/1/web/1), and they form the basis of the sandbox, parental controls, and [System Integrity Protection](https://support.apple.com/en-us/102149) on macOS.
 
-系統完整保護使重要的檔案成為唯讀，以防止惡意代碼的修改。 這是基於硬體內核完整保護之上，可防止記憶體中的內核遭修改。
+系統完整保護使重要的檔案成為唯讀，以防止惡意代碼的修改。這是基於硬體內核完整保護之上，可防止記憶體中的內核遭修改。
 
 #### 應用程式安全性
 
@@ -241,7 +241,8 @@ You can enable a column in Activity Monitor called "Restricted" which is a flag 
 
 macOS comes with two forms of [malware defense](https://support.apple.com/guide/security/protecting-against-malware-sec469d47bd8/1/web/1):
 
-1. 首先，防止啟動惡意軟體是由 App Store 對 App Store 應用程式的審核流程或*公證*（*Gatekeeper* 的一部份），這是 Apple 允許運行之前掃描第三方應用程式是否存在已知惡意軟體的程式。 Apps are required to be signed by the developers using a key given to them by Apple. This ensures that you are running software from the real developers. Notarization also requires that developers enable the Hardened Runtime for their apps, which limits methods of exploitation.
+1. Protection against launching malware is provided by the App Store's review process for apps distributed through the App Store. For apps distributed outside the App Store, Apple's *Notarization* service scans submitted apps for known malware, while *Gatekeeper* checks their signatures and notarization status before allowing them to run. However, users can override certain Gatekeeper restrictions to run apps that have not been notarized. Apps are typically signed by developers using a private key associated with an Apple-issued developer certificate. However, macOS can also run unsigned apps if the user overrides certain Gatekeeper restrictions. Notarization also requires that developers enable the Hardened Runtime for their apps, which limits methods of exploitation.
+
 2. *XProtect* 提供針對其他惡意軟體的防護以及修復系統上現有惡意軟體，XProtect 是 macOS 內建較傳統的防病毒軟體。
 
 We recommend against installing third-party antivirus software as they typically do not have the system-level access required to properly function anyway, because of Apple's limitations on third-party apps, and because granting the high levels of access they do ask for often poses an even greater security and privacy risk to your computer.

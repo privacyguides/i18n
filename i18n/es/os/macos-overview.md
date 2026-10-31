@@ -20,7 +20,7 @@ Los nuevos dispositivos Apple Silicon pueden configurarse sin una conexión a In
 
 macOS realiza comprobaciones en línea al abrir una aplicación para verificar si contiene malware conocido y si el certificado de firma del desarrollador es revocado.
 
-El servicio OCSP de Apple utiliza cifrado HTTPS, por lo que solo ellos pueden ver qué aplicaciones abres. Han [publicado información](https://support.apple.com/HT202491) sobre su política de registro para este servicio. Además, [prometieron](http://lapcatsoftware.com/articles/2024/8/3.html) añadir un mecanismo para que la gente pudiera optar por no participar en esta comprobación en línea, pero esto no se ha añadido a macOS.
+Apple uses OCSP to check whether developers' signing certificates have been revoked. macOS supports both encrypted and unencrypted OCSP checks, but they do not necessarily identify the specific apps you open. Han [publicado información](https://support.apple.com/HT202491) sobre su política de registro para este servicio. Además, [prometieron](http://lapcatsoftware.com/articles/2024/8/3.html) añadir un mecanismo para que la gente pudiera optar por no participar en esta comprobación en línea, pero esto no se ha añadido a macOS.
 
 Aunque [puedes](https://eclecticlight.co/2021/02/23/how-to-run-apps-in-private) excluirte manualmente de esta comprobación con relativa facilidad, recomendamos no hacerlo a menos que las comprobaciones de revocación realizadas por macOS te pongan en grave peligro, ya que desempeñan un papel importante a la hora de garantizar que se bloquee la ejecución de aplicaciones comprometidas.
 
@@ -156,7 +156,7 @@ Puedes configurar tu [dirección MAC para que sea aleatoria](https://support.app
 
 Ve a **Ajustes del Sistema** → **Red** → **Wi-Fi** → **Detalles** y establece **Dirección Wi-Fi privada** en **Fija** si quieres una dirección fija pero única para la red a la que estás conectado, o en **Rotatoria** si quieres que cambie con el tiempo.
 
-Considera también la posibilidad de cambiar tu nombre de host, que es otro identificador de dispositivo que se difunde en la red a la que estás conectado. Es posible que desees establecer tu nombre de host en algo genérico como "MacBook Air", "Laptop", "MacBook Pro de John", o "iPhone" en **Ajustes del Sistema**→ **General**→ **Compartir**.
+Considera también la posibilidad de cambiar tu nombre de host, que es otro identificador de dispositivo que se difunde en la red a la que estás conectado. You may wish to give your Mac a generic name, such as "MacBook Air" or "Laptop", in **System Settings** → **General** → **About**. You can also change your Mac's local hostname in **System Settings** → **General** → **Sharing**.
 
 ## Protecciones de seguridad
 
@@ -173,7 +173,7 @@ macOS permite instalar actualizaciones de prueba. Estos son inestables y pueden 
 
 #### Volumen firmado del sistema
 
-Los componentes del sistema de macOS están protegidos en un [volumen de sistema firmado](https://support.apple.com/guide/security/signed-system-volume-security-secd698747c9/web) de solo lectura, lo que significa que ni tú ni el malware podéis alterar los archivos importantes del sistema.
+macOS's system components are protected by a read-only [signed system volume](https://support.apple.com/guide/security/signed-system-volume-security-secd698747c9/web), which prevents users and malware from modifying important system files while this protection is enabled.
 
 El volumen del sistema es verificado mientras se encuentra en ejecución y cualquier dato que no se encuentra firmado con una firma criptográfica válida de Apple será rechazado.
 
@@ -241,7 +241,8 @@ Puedes activar una columna en el Monitor de Actividad llamada «Restringido», q
 
 macOS incluye dos formas de [defensa frente al malware](https://support.apple.com/guide/security/protecting-against-malware-sec469d47bd8/1/web/1):
 
-1. La protección ante la ejecución del malware es proporcionada por el proceso de revisión de aplicaciones de la App Store, o la *Notarización* (parte de *Gatekeeper*), proceso donde las aplicaciones de terceros son escaneadas por Apple para buscar algún malware conocido, antes de que se le permita ser ejecutada. Las aplicaciones deben ser firmadas por los desarrolladores con una clave que les da Apple. Esto asegura que estás ejecutando software de los desarrolladores reales. La notarización también requiere que los desarrolladores habiliten el Hardened Runtime para sus aplicaciones, lo que limita los métodos de explotación.
+1. Protection against launching malware is provided by the App Store's review process for apps distributed through the App Store. For apps distributed outside the App Store, Apple's *Notarization* service scans submitted apps for known malware, while *Gatekeeper* checks their signatures and notarization status before allowing them to run. However, users can override certain Gatekeeper restrictions to run apps that have not been notarized. Apps are typically signed by developers using a private key associated with an Apple-issued developer certificate. However, macOS can also run unsigned apps if the user overrides certain Gatekeeper restrictions. La notarización también requiere que los desarrolladores habiliten el Hardened Runtime para sus aplicaciones, lo que limita los métodos de explotación.
+
 2. La protección contra otros malware y la remediación contra malware existente en el sistema, es proporcionada por *XProtect*, un antivirus tradicional incluido en macOS.
 
 Desaconsejamos la instalación de antivirus de terceros, ya que no suelen tener el acceso a nivel de sistema necesario para funcionar correctamente, debido a las limitaciones de Apple a las aplicaciones de terceros, y porque conceder los altos niveles de acceso que solicitan suele suponer un riesgo aún mayor para la seguridad y la privacidad de tu ordenador.

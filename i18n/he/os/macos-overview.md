@@ -20,7 +20,7 @@ Brand-new Apple Silicon devices can be set up without an internet connection. ע
 
 macOS מבצעת בדיקות מקוונות כאשר אתה פותח אפליקציה כדי לוודא אם אפליקציה מכילה תוכנה זדונית ידועה, והאם אישור החתימה של המפתח נשלל.
 
-Apple's OCSP service uses HTTPS encryption, so only they are able to see which apps you open. They've [posted information](https://support.apple.com/HT202491) about their logging policy for this service. They additionally [promised](http://lapcatsoftware.com/articles/2024/8/3.html) to add a mechanism for people to opt-out of this online check, but this has not been added to macOS.
+Apple uses OCSP to check whether developers' signing certificates have been revoked. macOS supports both encrypted and unencrypted OCSP checks, but they do not necessarily identify the specific apps you open. They've [posted information](https://support.apple.com/HT202491) about their logging policy for this service. They additionally [promised](http://lapcatsoftware.com/articles/2024/8/3.html) to add a mechanism for people to opt-out of this online check, but this has not been added to macOS.
 
 While you [can](https://eclecticlight.co/2021/02/23/how-to-run-apps-in-private) manually opt out of this check relatively easily, we recommend against doing so unless you would be badly compromised by the revocation checks performed by macOS, because they serve an important role in ensuring compromised apps are blocked from running.
 
@@ -156,7 +156,7 @@ You can set your [MAC address to be randomized](https://support.apple.com/en-us/
 
 Go to **System Settings** → **Network** → **Wi-Fi** → **Details** and set **Private Wi-Fi address** to either **Fixed** if you want a fixed but unique address for the network you're connected to, or **Rotating** if you want it to change over time.
 
-Consider changing your hostname as well, which is another device identifier that's broadcast on the network you're connected to. You may wish to set your hostname to something generic like "MacBook Air", "Laptop", "John's MacBook Pro", or "iPhone" in **System Settings** → **General** → **Sharing**.
+Consider changing your hostname as well, which is another device identifier that's broadcast on the network you're connected to. You may wish to give your Mac a generic name, such as "MacBook Air" or "Laptop", in **System Settings** → **General** → **About**. You can also change your Mac's local hostname in **System Settings** → **General** → **Sharing**.
 
 ## הגנות אבטחה
 
@@ -173,7 +173,7 @@ macOS מאפשר לך להתקין עדכוני בטא. These are unstable and m
 
 #### נפח מערכת חתומה
 
-macOS's system components are protected in a read-only [signed system volume](https://support.apple.com/guide/security/signed-system-volume-security-secd698747c9/web), meaning that neither you nor malware can alter important system files.
+macOS's system components are protected by a read-only [signed system volume](https://support.apple.com/guide/security/signed-system-volume-security-secd698747c9/web), which prevents users and malware from modifying important system files while this protection is enabled.
 
 הנפח של המערכת מאומתת בזמן שהיא פועלת וכל נתון שלא חתום בחתימה קריפטוגרפית תקפה מאפל יידחה.
 
@@ -241,7 +241,8 @@ You can enable a column in Activity Monitor called "Restricted" which is a flag 
 
 macOS comes with two forms of [malware defense](https://support.apple.com/guide/security/protecting-against-malware-sec469d47bd8/1/web/1):
 
-1. הגנה מפני הפעלת תוכנות זדוניות מלכתחילה מסופקת על ידי תהליך הבדיקה של App Store עבור יישומי App Store, או *אישור נוטריוני* (חלק מ* Gatekeeper*), תהליך שבו יישומי צד שלישי נסרקים לאיתור תוכנות זדוניות ידועות על ידי אפל לפני שהם מורשים לפעול. Apps are required to be signed by the developers using a key given to them by Apple. This ensures that you are running software from the real developers. Notarization also requires that developers enable the Hardened Runtime for their apps, which limits methods of exploitation.
+1. Protection against launching malware is provided by the App Store's review process for apps distributed through the App Store. For apps distributed outside the App Store, Apple's *Notarization* service scans submitted apps for known malware, while *Gatekeeper* checks their signatures and notarization status before allowing them to run. However, users can override certain Gatekeeper restrictions to run apps that have not been notarized. Apps are typically signed by developers using a private key associated with an Apple-issued developer certificate. However, macOS can also run unsigned apps if the user overrides certain Gatekeeper restrictions. Notarization also requires that developers enable the Hardened Runtime for their apps, which limits methods of exploitation.
+
 2. הגנה מפני תוכנות זדוניות אחרות ותיקון מתוכנות זדוניות קיימות במערכת שלך מסופקת על ידי *XProtect*, תוכנת אנטי-וירוס מסורתית יותר המובנית ב-macOS.
 
 We recommend against installing third-party antivirus software as they typically do not have the system-level access required to properly function anyway, because of Apple's limitations on third-party apps, and because granting the high levels of access they do ask for often poses an even greater security and privacy risk to your computer.
