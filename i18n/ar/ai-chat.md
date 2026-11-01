@@ -22,11 +22,11 @@ cover: ai-chatbots.webp
 
 وبدلا من ذلك، يمكنك تشغيل نماذج الذكاء الاصطناعي محليا على جهازك، بحيث لا تغادر بياناتك الجهاز ولا تُشارك مع أي جهات خارجية. As such, local models are a more private and secure alternative to cloud-based solutions and allow you to share sensitive information to the AI model without worry.
 
-## AI Models
+## نماذج الذكاء الاصطناعي
 
-### Hardware for Local AI Models
+### متطلبات الأجهزة لتشغيل نماذج الذكاء الاصطناعي محليًا
 
-Local models are also fairly accessible. It's possible to run smaller models at lower speeds on as little as 8 GB of RAM. Using more powerful hardware such as a dedicated GPU with sufficient VRAM or a modern system with fast LPDDR5X memory offers the best experience.
+كما أن تشغيل النماذج محليًا سهل نسبيا ومتاح للكثيرين. يمكن تشغيل النماذج الأصغر حجما، وإن كان ذلك بسرعة أقل، على أجهزة تحتوي على ذاكرة RAM بسعة 8 GB فقط. للحصول على أفضل تجربة، يُفضل استخدام جهاز بمواصفات قوية، مثل بطاقة رسوميات منفصلة (GPU) تحتوي على ذاكرة VRAM كافية، أو جهاز حديث مزود بذاكرة LPDDR5X سريعة.
 
 LLMs can usually be differentiated by the number of parameters, which can vary between 1.3B to 405B for open-source models available for end users. For example, models below 6.7B parameters are only good for basic tasks like text summaries, while models between 7B and 13B are a great compromise between quality and speed. Models with advanced reasoning capabilities are generally around 70B.
 
