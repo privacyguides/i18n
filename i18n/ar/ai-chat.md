@@ -20,7 +20,7 @@ cover: ai-chatbots.webp
 
 إذا كانت هذه الممارسات تثير قلقك، فيمكنك إما الامتناع عن استخدام الذكاء الاصطناعي، أو استخدام [نماذج مفتوحة المصدر بالكامل](https://proton.me/blog/how-to-build-privacy-first-ai) تنشر بيانات تدريبها علنا وتتيح لك الاطلاع عليها. ومن هذه النماذج [OLMoE](https://allenai.org/blog/olmoe-an-open-small-and-state-of-the-art-mixture-of-experts-model-c258432d0514) الذي طوّرته [Ai2](https://allenai.org/open-data).
 
-وبدلا من ذلك، يمكنك تشغيل نماذج الذكاء الاصطناعي محليا على جهازك، بحيث لا تغادر بياناتك الجهاز ولا تُشارك مع أي جهات خارجية. As such, local models are a more private and secure alternative to cloud-based solutions and allow you to share sensitive information to the AI model without worry.
+وبدلا من ذلك، يمكنك تشغيل نماذج الذكاء الاصطناعي محليا على جهازك، بحيث لا تغادر بياناتك الجهاز ولا تُشارك مع أي جهات خارجية. لذلك، تُعد النماذج التي تعمل محليًا بديلًا أكثر خصوصية وأمانًا من الحلول السحابية، وتتيح لك مشاركة معلومات حساسة مع نموذج الذكاء الاصطناعي دون قلق.
 
 ## نماذج الذكاء الاصطناعي
 
@@ -28,34 +28,34 @@ cover: ai-chatbots.webp
 
 كما أن تشغيل النماذج محليًا سهل نسبيا ومتاح للكثيرين. يمكن تشغيل النماذج الأصغر حجما، وإن كان ذلك بسرعة أقل، على أجهزة تحتوي على ذاكرة RAM بسعة 8 GB فقط. للحصول على أفضل تجربة، يُفضل استخدام جهاز بمواصفات قوية، مثل بطاقة رسوميات منفصلة (GPU) تحتوي على ذاكرة VRAM كافية، أو جهاز حديث مزود بذاكرة LPDDR5X سريعة.
 
-LLMs can usually be differentiated by the number of parameters, which can vary between 1.3B to 405B for open-source models available for end users. For example, models below 6.7B parameters are only good for basic tasks like text summaries, while models between 7B and 13B are a great compromise between quality and speed. Models with advanced reasoning capabilities are generally around 70B.
+يمكن عادةً التمييز بين نماذج الـ (LLMs) من خلال عدد المعاملات (Parameters) التي تحتوي عليها، والذي قد يتراوح بين 1.3 مليار و405 مليارات في النماذج مفتوحة المصدر المتاحة للمستخدمين. على سبيل المثال، النماذج التي تحتوي على أقل من 6.7 مليار معامل مناسبة فقط للمهام البسيطة، مثل تلخيص النصوص، بينما توفر النماذج التي تحتوي على ما بين 7 و13 مليار معامل توازنا ممتازا بين الجودة والسرعة. عادةً ما تحتوي النماذج ذات قدرات الاستدلال المتقدمة على نحو 70 مليار معامل.
 
-For consumer-grade hardware, it is generally recommended to use [quantized models](https://huggingface.co/docs/optimum/en/concept_guides/quantization) for the best balance between model quality and performance. Check out the table below for more precise information about the typical requirements for different sizes of quantized models.
+عند استخدام أجهزة مخصصة للمستهلكين، يُنصح عموما باستخدام [النماذج المكمّمة (Quantized Models)](https://huggingface.co/docs/optimum/en/concept_guides/quantization) لتحقيق أفضل توازن بين جودة النموذج وأدائه. اطّلع على الجدول أدناه لمعرفة المتطلبات المعتادة لتشغيل النماذج المكممة (Quantized Models) بمختلف أحجامها بشكل أكثر دقة.
 
-| Model Size (in Parameters) | Minimum RAM | Minimum Processor                            |
-| --------------------------------------------- | ----------- | -------------------------------------------- |
-| 7B                                            | 8 GB        | Modern CPU (AVX2 support) |
-| 13B                                           | 16 GB       | Modern CPU (AVX2 support) |
-| 70B                                           | 72 GB       | GPU with VRAM                                |
+| حجم النموذج (بعدد المعاملات) | الحد الأدنى لذاكرة الـ RAM | الحد الأدنى لمواصفات المعالج                             |
+| ----------------------------------------------- | -------------------------- | -------------------------------------------------------- |
+| 7B                                              | 8 GB                       | معالج CPU حديث (يدعم AVX2)            |
+| 13B                                             | 16 GB                      | معالج CPU حديث (يدعم AVX2)            |
+| 70B                                             | 72 GB                      | بطاقة رسوميات (GPU) مزودة بذاكرة VRAM |
 
-To run AI locally, you need both an AI model and an AI client.
+لتشغيل الذكاء الاصطناعي محليا على جهازك، تحتاج إلى نموذج ذكاء اصطناعي وبرنامج لتشغيله.
 
-### Choosing a Model
+### اختيار النموذج
 
-There are many permissively licensed models available to download. [Hugging Face](https://huggingface.co/models) is a platform that lets you browse, research, and download models in common formats like [GGUF](https://huggingface.co/docs/hub/en/gguf). Companies that provide good open-weights models include big names like Mistral, Meta, Microsoft, and Google. However, there are also many community models and [fine-tuned](https://en.wikipedia.org/wiki/Fine-tuning_(deep_learning)) models available. As mentioned above, quantized models offer the best balance between model quality and performance for those using consumer-grade hardware.
+تتوفر نماذج كثيرة يمكنك تنزيلها واستخدامها بموجب تراخيص تسمح باستخدامها بحرية. منصة [Hugging Face](https://huggingface.co/models) هي منصة تتيح لك استعراض نماذج الذكاء الاصطناعي والبحث عنها وتنزيلها بصيغ شائعة مثل [GGUF](https://huggingface.co/docs/hub/en/gguf). من الشركات الكبرى التي تقدم نماذج جيدة بأوزان مفتوحة (Open Weights): Mistral وMeta وMicrosoft وGoogle. لكن تتوفر أيضا نماذج كثيرة طورها المجتمع، بالإضافة إلى نماذج [خضعت لضبط دقيق (Fine-tuning)](https://en.wikipedia.org/wiki/Fine-tuning_(deep_learning). كما ذكرنا سابقا، توفر النماذج المكممة (Quantized Models) أفضل توازن بين جودة النموذج وأدائه عند استخدام أجهزة مخصصة للمستهلكين.
 
-To help you choose a model that fits your needs, you can look at leaderboards and benchmarks. The most widely-used leaderboard is the community-driven [LM Arena](https://lmarena.ai). Additionally, the [OpenLLM Leaderboard](https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard) focuses on the performance of open-weights models on common benchmarks like [MMLU-Pro](https://arxiv.org/abs/2406.01574). There are also specialized benchmarks which measure factors like [emotional intelligence](https://eqbench.com), ["uncensored general intelligence"](https://huggingface.co/spaces/DontPlanToEnd/UGI-Leaderboard), and [many others](https://nebuly.com/blog/llm-leaderboards).
+لمساعدتك في اختيار نموذج يناسب احتياجاتك، يمكنك الاطلاع على تصنيفات النماذج واختبارات الأداء (Benchmarks). أكثر تصنيفات نماذج الذكاء الاصطناعي استخدامًا هو [LM Arena](https://lmarena.ai)، الذي يعتمد على تقييمات المستخدمين. بالإضافة إلى ذلك، يركز [OpenLLM Leaderboard](https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard) على تقييم أداء النماذج ذات الأوزان المفتوحة (Open Weights) باستخدام اختبارات أداء معيارية شائعة مثل [MMLU-Pro](https://arxiv.org/abs/2406.01574). توجد أيضا اختبارات أداء متخصصة تقيس جوانب مثل [الذكاء العاطفي](https://eqbench.com) و["الذكاء العام دون رقابة على المحتوى"](https://huggingface.co/spaces/DontPlanToEnd/UGI-Leaderboard) و[العديد من الجوانب الأخرى](https://nebuly.com/blog/llm-leaderboards).
 
-## AI Chat Clients
+## برامج الدردشة بالذكاء الاصطناعي
 
-| Feature              | [Kobold.cpp](#koboldcpp)                                      | [Ollama](#ollama-cli)                                                         | [Llamafile](#llamafile)                                                                                            |
-| -------------------- | ----------------------------------------------------------------------------- | ----------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------ |
-| GPU Support          | :material-check:{ .pg-green } | :material-check:{ .pg-green } | :material-check:{ .pg-green }                                      |
-| Image Generation     | :material-check:{ .pg-green } | :material-close:{ .pg-red }   | :material-close:{ .pg-red }                                        |
-| Speech Recognition   | :material-check:{ .pg-green } | :material-close:{ .pg-red }   | :material-close:{ .pg-red }                                        |
-| Auto-download Models | :material-close:{ .pg-red }   | :material-check:{ .pg-green } | :material-alert-outline:{ .pg-orange } Few models available        |
-| Custom Parameters    | :material-check:{ .pg-green } | :material-close:{ .pg-red }   | :material-check:{ .pg-green }                                      |
-| Multi-platform       | :material-check:{ .pg-green } | :material-check:{ .pg-green } | :material-alert-outline:{ .pg-orange } Size limitations on Windows |
+| الميزة                                                           | [Kobold.cpp](#koboldcpp)                                      | [Ollama](#ollama-cli)                                                         | [Llamafile](#llamafile)                                                                                          |
+| ---------------------------------------------------------------- | ----------------------------------------------------------------------------- | ----------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------- |
+| دعم الـ (GPU)                                 | :material-check:{ .pg-green } | :material-check:{ .pg-green } | :material-check:{ .pg-green }                                    |
+| توليد الصور                                                      | :material-check:{ .pg-green } | :material-close:{ .pg-red }   | :material-close:{ .pg-red }                                      |
+| التعرّف على الكلام                                               | :material-check:{ .pg-green } | :material-close:{ .pg-red }   | :material-close:{ .pg-red }                                      |
+| تنزيل النماذج تلقائيًا                                           | :material-close:{ .pg-red }   | :material-check:{ .pg-green } | :material-alert-outline:{ .pg-orange } عدد النماذج المتاحة محدود |
+| إعدادات المعاملات المخصصة (Custom Parameters) | :material-check:{ .pg-green } | :material-close:{ .pg-red }   | :material-check:{ .pg-green }                                    |
+| متعدد المنصات                                                    | :material-check:{ .pg-green } | :material-check:{ .pg-green } | :material-alert-outline:{ .pg-orange } قيود على الحجم في Windows |
 
 ### Kobold.cpp
 
@@ -63,9 +63,9 @@ To help you choose a model that fits your needs, you can look at leaderboards an
 
 ![Kobold.cpp Logo](assets/img/ai-chat/kobold.png){align=right}
 
-**Kobold.cpp** is an AI client that runs locally on your Windows, Mac, or Linux computer. It's an excellent choice if you are looking for heavy customization and tweaking, such as for role-playing purposes.
+برنامج Kobold.cpp هو برنامج لتشغيل الذكاء الاصطناعي محليا على جهازك، سواء كنت تستخدم Windows أو Mac أو Linux. يُعد خيارا ممتازا إذا كنت تبحث عن إمكانيات واسعة لتخصيص الإعدادات وضبطها، مثل استخدامه في تقمص الأدوار.
 
-In addition to supporting a large range of text models, Kobold.cpp also supports image generators such as [Stable Diffusion](https://stability.ai/stable-image) and automatic speech recognition tools such as [Whisper](https://github.com/ggerganov/whisper.cpp).
+بالإضافة إلى دعمه لمجموعة واسعة من النماذج النصية، يدعم Kobold.cpp أيضًا أدوات توليد الصور مثل [Stable Diffusion](https://stability.ai/stable-image)، وأدوات التعرّف التلقائي على الكلام مثل [Whisper](https://github.com/ggerganov/whisper.cpp).
 
 [:octicons-repo-16: Repository](https://github.com/LostRuins/koboldcpp#readme){ .md-button .md-button--primary }
 [:octicons-info-16:](https://github.com/LostRuins/koboldcpp/wiki){ .card-link title="Documentation" }
@@ -73,24 +73,24 @@ In addition to supporting a large range of text models, Kobold.cpp also supports
 [:octicons-lock-16:](https://github.com/LostRuins/koboldcpp/blob/2f3597c29abea8b6da28f21e714b6b24a5aca79b/SECURITY.md){ .card-link title="Security Policy" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>التنزيلات</summary>
 
-- [:fontawesome-brands-windows: Windows](https://github.com/LostRuins/koboldcpp/releases)
+- [:fontawesome-brands-windows: وندوز](https://github.com/LostRuins/koboldcpp/releases)
 - [:simple-apple: macOS](https://github.com/LostRuins/koboldcpp/releases)
-- [:simple-linux: Linux](https://github.com/LostRuins/koboldcpp/releases)
+- [:simple-linux: لينكس](https://github.com/LostRuins/koboldcpp/releases)
 
 </details>
 
 </div>
 
 <div class="admonition info" markdown>
-<p class="admonition-title">Compatibility Issues</p>
+<p class="admonition-title">مشكلات التوافق</p>
 
-Kobold.cpp might not run on computers without AVX/AVX2 support.
+قد لا يعمل Kobold.cpp على أجهزة الكمبيوتر التي لا تدعم AVX أو AVX2.
 
 </div>
 
-Kobold.cpp allows you to modify parameters such as the AI model temperature and the AI chat's system prompt. It also supports creating a network tunnel to access AI models from other devices such as your phone.
+يتيح لك Kobold.cpp تغيير إعدادات مثل مستوى العشوائية في ردود نموذج الذكاء الاصطناعي (Temperature)، والتعليمات الأساسية التي تحدد طريقة استجابته (System Prompt). ويدعم أيضا إنشاء نفق اتصال شبكي (Network Tunnel) يتيح لك الوصول إلى نماذج الذكاء الاصطناعي من أجهزة أخرى، مثل هاتفك.
 
 ### Ollama (CLI)
 
@@ -98,9 +98,9 @@ Kobold.cpp allows you to modify parameters such as the AI model temperature and 
 
 ![Ollama Logo](assets/img/ai-chat/ollama.png){align=right}
 
-**Ollama** is a command-line AI assistant that is available on macOS, Linux, and Windows. Ollama is a great choice if you're looking for an AI client that's easy-to-use, widely compatible, and fast due to its use of inference and other techniques. It also doesn't involve any manual setup.
+برنامج Ollama هو مساعد ذكاء اصطناعي يعمل من خلال سطر الأوامر (Command Line)، ومتوفر على أنظمة macOS وLinux وWindows. يُعد Ollama خيارا ممتازا إذا كنت تبحث عن برنامج ذكاء اصطناعي سهل الاستخدام، ومتوافق مع أجهزة وأنظمة تشغيل كثيرة، ويوفر أداء سريعا بفضل التقنيات التي يستخدمها. كما أنه لا يتطلب أي إعداد يدوي.
 
-In addition to supporting a wide range of text models, Ollama also supports [LLaVA](https://github.com/haotian-liu/LLaVA) models and has experimental support for Meta's [Llama vision capabilities](https://huggingface.co/blog/llama32#what-is-llama-32-vision).
+بالإضافة إلى دعمه لمجموعة واسعة من النماذج النصية، يدعم Ollama أيضًا نماذج [LLaVA](https://github.com/haotian-liu/LLaVA)، ويوفر دعما تجريبيا [لقدرات Llama على فهم الصور](https://huggingface.co/blog/llama32#what-is-llama-32-vision) من Meta.
 
 [:octicons-home-16: Homepage](https://ollama.com){ .md-button .md-button--primary }
 [:octicons-info-16:](https://github.com/ollama/ollama#readme){ .card-link title="Documentation" }
@@ -108,17 +108,17 @@ In addition to supporting a wide range of text models, Ollama also supports [LLa
 [:octicons-lock-16:](https://github.com/ollama/ollama/blob/a14f76491d694b2f5a0dec6473514b7f93beeea0/SECURITY.md){ .card-link title="Security Policy" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>التنزيلات</summary>
 
-- [:fontawesome-brands-windows: Windows](https://ollama.com/download/windows)
+- [:fontawesome-brands-windows: وندوز](https://ollama.com/download/windows)
 - [:simple-apple: macOS](https://ollama.com/download/mac)
-- [:simple-linux: Linux](https://ollama.com/download/linux)
+- [:simple-linux: لينكس](https://ollama.com/download/linux)
 
 </details>
 
 </div>
 
-Ollama simplifies the process of setting up a local AI chat by downloading the AI model you want to use automatically. For example, running `ollama run llama3.2` will automatically download and run the Llama 3.2 model. Furthermore, Ollama maintains their own [model library](https://ollama.com/library) where they host the files of various AI models. This ensures that models are vetted for both performance and security, eliminating the need to manually verify model authenticity.
+يسهّل Ollama تشغيل الدردشة بالذكاء الاصطناعي محليا على جهازك، إذ ينزّل النموذج الذي تريد استخدامه تلقائيًا. على سبيل المثال، عند تنفيذ الأمر `ollama run llama3.2`، سيُنزل Ollama نموذج Llama 3.2 ويشغله تلقائيا. بالإضافة إلى ذلك، يوفر Ollama [مكتبة خاصة بالنماذج](https://ollama.com/library) تضم ملفات نماذج ذكاء اصطناعي متنوعة. وهذا يضمن مراجعة النماذج للتأكد من أدائها وأمانها، مما يغنيك عن التحقق يدويا من أصالتها ومصدرها.
 
 ### Llamafile
 
@@ -126,9 +126,9 @@ Ollama simplifies the process of setting up a local AI chat by downloading the A
 
 ![Llamafile Logo](assets/img/ai-chat/llamafile.webp){align=right}
 
-**Llamafile** is a lightweight, single-file executable that allows users to run LLMs locally on their own computers without any setup involved. It is [backed by Mozilla](https://hacks.mozilla.org/2023/11/introducing-llamafile) and available on Linux, macOS, and Windows.
+برنامج **Llamafile** هو برنامج خفيف يأتي في ملف تنفيذي واحد، ويتيح لك تشغيل نماذج اللغة الكبيرة (LLMs) محليا على جهازك دون الحاجة إلى أي إعدادات. يحظى بدعم [Mozilla](https://hacks.mozilla.org/2023/11/introducing-llamafile)، ويتوفر على أنظمة Linux وmacOS وWindows.
 
-Llamafile also supports LLaVA. However, it doesn't support speech recognition or image generation.
+يدعم Llamafile أيضا نماذج LLaVA. لكنه لا يدعم التعرف على الكلام أو توليد الصور.
 
 [:octicons-repo-16: Repository](https://github.com/Mozilla-Ocho/llamafile#readme){ .md-button .md-button--primary }
 [:octicons-info-16:](https://github.com/Mozilla-Ocho/llamafile#quickstart){ .card-link title="Documentation" }
@@ -136,11 +136,11 @@ Llamafile also supports LLaVA. However, it doesn't support speech recognition or
 [:octicons-lock-16:](https://github.com/Mozilla-Ocho/llamafile#security){ .card-link title="Security Policy" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>التنزيلات</summary>
 
-- [:fontawesome-brands-windows: Windows](https://github.com/Mozilla-Ocho/llamafile#quickstart)
+- [:fontawesome-brands-windows: وندوز](https://github.com/Mozilla-Ocho/llamafile#quickstart)
 - [:simple-apple: macOS](https://github.com/Mozilla-Ocho/llamafile#quickstart)
-- [:simple-linux: Linux](https://github.com/Mozilla-Ocho/llamafile#quickstart)
+- [:simple-linux: لينكس](https://github.com/Mozilla-Ocho/llamafile#quickstart)
 
 </details>
 
@@ -195,4 +195,4 @@ Our best-case criteria represent what we _would_ like to see from the perfect pr
 \*[system prompt]: The general instructions given by a human to guide how an AI chat should operate.
 \*[temperature]: A parameter used in AI models to control the level of randomness and creativity in the generated text.
 
-[^1]: A file checksum is a type of anti-tampering fingerprint. A developer usually provides a checksum in a text file that can be downloaded separately, or on the download page itself. Verifying that the checksum of the file you downloaded matches the one provided by the developer helps ensure that the file is genuine and wasn't tampered with in transit. You can use commands like `sha256sum` on Linux and macOS, or `certutil -hashfile file SHA256` on Windows to generate the downloaded file's checksum.
+[^1]: A file checksum is a type of anti-tampering fingerprint. A developer usually provides a checksum in a text file that can be downloaded separately, or on the download page itself. Verifying that the checksum of the file you downloaded matches the one provided by the developer helps ensure that the file is genuine and wasn't tampered with in transit. يمكنك استخدام أوامر مثل `sha256sum` على Linux وmacOS، أو `certutil -hashfile file SHA256` على Windows، لحساب قيمة التحقق (Checksum) للملف الذي نزلته.
