@@ -20,7 +20,7 @@ macOS에는 고려해야 할 몇 가지 주목할 만한 프라이버시 문제�
 
 macOS는 앱을 열 때 해당 앱에 알려진 멀웨어가 포함되어 있는지, 개발자의 서명 인증서가 폐기되었는지 온라인으로 확인합니다.
 
-Apple uses OCSP to check whether developers' signing certificates have been revoked. macOS supports both encrypted and unencrypted OCSP checks, but they do not necessarily identify the specific apps you open. 애플은 이 서비스의 로깅 정책에 대한 [정보를 게시](https://support.apple.com/HT202491)했습니다. 또한 사람들이 이 온라인 확인을 거부할 수 있는 메커니즘을 추가하겠다고 [약속](http://lapcatsoftware.com/articles/2024/8/3.html)했지만, 아직 macOS에 추가되지 않았습니다.
+애플은 OCSP를 사용하여 개발자의 서명 인증서가 취소되었는지 여부를 확인합니다. macOS는 암호화된 OCSP 확인과 암호화되지 않은 OCSP 확인을 모두 지원하지만, 이러한 확인을 통해 사용자가 실행하는 특정 앱을 반드시 식별할 수 있는 것은 아닙니다. 애플은 이 서비스의 로깅 정책에 대한 [정보를 게시](https://support.apple.com/HT202491)했습니다. 또한 사람들이 이 온라인 확인을 거부할 수 있는 메커니즘을 추가하겠다고 [약속](http://lapcatsoftware.com/articles/2024/8/3.html)했지만, 아직 macOS에 추가되지 않았습니다.
 
 이 확인은 비교적 쉽게 수동으로 [거부할 수 있지만](https://eclecticlight.co/2021/02/23/how-to-run-apps-in-private), macOS의 인증서 폐기 확인으로 인해 심각하게 노출될 상황이 아니라면 그렇게 하지 않을 것을 권장합니다. 이 확인은 침해된 앱의 실행을 차단하는 중요한 역할을 하기 때문입니다.
 
@@ -156,7 +156,7 @@ macOS는 네트워크에 연결되지 않은 상태에서 [와이파이 검색�
 
 **시스템 설정** → **네트워크** → **Wi-Fi** → **세부사항**으로 이동하여, 연결된 네트워크에 대해 고정되지만 고유한 주소를 원한다면 **비공개 Wi-Fi 주소**를 **고정**으로, 시간이 지나면서 바뀌기를 원한다면 **순환**으로 설정하세요.
 
-연결된 네트워크에 브로드캐스트되는 또 다른 기기 식별자인 호스트 이름도 변경하는 것을 고려해 보세요. You may wish to give your Mac a generic name, such as "MacBook Air" or "Laptop", in **System Settings** → **General** → **About**. You can also change your Mac's local hostname in **System Settings** → **General** → **Sharing**.
+연결된 네트워크에 브로드캐스트되는 또 다른 기기 식별자인 호스트 이름도 변경하는 것을 고려해 보세요. **‘시스템 설정’** → **‘일반’** → **‘정보’에서** Mac에 “MacBook Air”나 “노트북”과 같은 일반적인 이름을 지정할 수 있습니다. 또한 **‘시스템 설정’** → **‘일반’** → **‘공유’에서** Mac의 로컬 호스트 이름을 변경할 수도 있습니다.
 
 ## 보안 보호 기능 { #security-protections }
 
@@ -173,7 +173,7 @@ macOS에서는 베타 업데이트를 설치할 수 있습니다. 베타 업데�
 
 #### 서명된 시스템 볼륨 { #signed-system-volume }
 
-macOS's system components are protected by a read-only [signed system volume](https://support.apple.com/guide/security/signed-system-volume-security-secd698747c9/web), which prevents users and malware from modifying important system files while this protection is enabled.
+macOS의 시스템 구성 요소는 읽기 전용 [서명된 시스템 볼륨에](https://support.apple.com/guide/security/signed-system-volume-security-secd698747c9/web) 의해 보호되며, 이 보호 기능이 활성화된 상태에서는 사용자와 악성 코드가 중요한 시스템 파일을 수정할 수 없습니다.
 
 시스템 볼륨은 실행 중에 검증되며, 애플의 유효한 암호화 서명이 없는 데이터는 거부됩니다.
 
@@ -241,7 +241,7 @@ codesign -dv <앱 경로>
 
 macOS에는 두 가지 형태의 [멀웨어 방어](https://support.apple.com/guide/security/protecting-against-malware-sec469d47bd8/1/web/1) 기능이 내장되어 있습니다:
 
-1. Protection against launching malware is provided by the App Store's review process for apps distributed through the App Store. For apps distributed outside the App Store, Apple's *Notarization* service scans submitted apps for known malware, while *Gatekeeper* checks their signatures and notarization status before allowing them to run. However, users can override certain Gatekeeper restrictions to run apps that have not been notarized. Apps are typically signed by developers using a private key associated with an Apple-issued developer certificate. However, macOS can also run unsigned apps if the user overrides certain Gatekeeper restrictions. 또한 공증을 받으려면 개발자가 앱에 강화된 런타임을 활성화해야 하며, 이를 통해 익스플로잇 방법이 제한됩니다.
+1. 앱 스토어를 통해 배포되는 앱에 대해서는 앱 스토어의 심사 절차를 통해 악성코드 실행을 방지합니다. 앱 스토어 외부에서 배포되는 앱의 경우, 애플의 *공증(Notarization* ) 서비스는 제출된 앱을 스캔하여 알려진 악성코드가 있는지 확인하며, *게이트키퍼(Gatekeeper)는* 앱이 실행되기 전에 해당 앱의 서명과 공증 상태를 확인합니다. 하지만 사용자는 특정 게이트키퍼 제한 사항을 무시하여 공증되지 않은 앱을 실행할 수 있습니다. 앱은 일반적으로 개발자가 Apple에서 발급한 개발자 인증서와 연결된 개인 키를 사용하여 서명합니다. 하지만 사용자가 특정 게이트키퍼 제한 사항을 해제하면 macOS에서도 서명되지 않은 앱을 실행할 수 있습니다. 또한 공증을 받으려면 개발자가 앱에 강화된 런타임을 활성화해야 하며, 이를 통해 익스플로잇 방법이 제한됩니다.
 
 2. 기타 멀웨어에 대한 보호와 시스템에 이미 있는 멀웨어의 제거는 macOS에 내장된 보다 전통적인 백신 소프트웨어인 *XProtect*가 담당합니다.
 

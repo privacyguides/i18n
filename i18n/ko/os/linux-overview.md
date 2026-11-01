@@ -90,7 +90,7 @@ AUR은 항상 최소한으로만 사용해야 하며, 여러 페이지에서 충
 
 ### 드라이브 암호화 { #drive-encryption }
 
-대부분의 리눅스 배포판에는 설치 프로그램에 [LUKS](../encryption.md#linux-unified-key-setup) FDE를 활성화하는 옵션이 있습니다. If this option isn’t enabled during installation, the simplest approach is to back up your data and reinstall, as encryption is normally set up after [disk partitioning](https://en.wikipedia.org/wiki/Disk_partitioning) but before [file systems](https://en.wikipedia.org/wiki/File_system) are formatted. However, it is also possible in some cases to encrypt an existing installation without reinstalling using `cryptsetup reencrypt`. This process is more complicated and carries a risk of data loss, so you should always back up your data first. 저장 장치를 안전하게 지우는 것도 권장합니다:
+대부분의 리눅스 배포판에는 설치 프로그램에 [LUKS](../encryption.md#linux-unified-key-setup) FDE를 활성화하는 옵션이 있습니다. 설치 과정에서 이 옵션이 활성화되지 않은 경우, 가장 간단한 방법은 데이터를 백업한 후 다시 설치하는 것입니다. 일반적으로 암호화는 [디스크 파티션 분할](https://en.wikipedia.org/wiki/Disk_partitioning) 후, [파일 시스템](https://en.wikipedia.org/wiki/File_system) 포맷 전에 설정되기 때문입니다. However, it is also possible in some cases to encrypt an existing installation without reinstalling using `cryptsetup reencrypt`. 이 과정은 더 복잡할 뿐만 아니라 데이터 손실의 위험이 있으므로, 항상 먼저 데이터를 백업하세요. 저장 장치를 안전하게 지우는 것도 권장합니다:
 
 - [안전한 데이터 삭제 :material-arrow-right-drop-circle:](https://www.privacyguides.org/articles/2022/05/25/secure-data-erasure/)
 
@@ -145,9 +145,9 @@ systemctl restart NetworkManager
 
 선택적으로 연결 매개변수를 `random`에서 `stable`로 바꾸면 *네트워크마다* 무작위 MAC 주소가 할당되지만, 나중에 같은 네트워크에 다시 연결할 때는 같은 주소가 유지됩니다. `random`을 사용하면 *연결할 때마다* 무작위 MAC 주소가 할당됩니다. 이는 캡티브 포털이 있는 네트워크나 고정 DHCP 할당을 사용하는 네트워크에서 바람직할 수 있지만, 여러 번 연결하는 단일 네트워크 운영자에게 더 쉽게 식별될 수 있다는 단점이 있습니다.
 
-If you are using [systemd-networkd](https://en.wikipedia.org/wiki/Systemd#Ancillary_components), set [`MACAddressPolicy=random`](https://freedesktop.org/software/systemd/man/systemd.link.html#MACAddressPolicy=) in your .link configuration to randomize your MAC address. To enable [RFC 7844 (Anonymity Profiles for DHCP Clients)](https://freedesktop.org/software/systemd/man/systemd.network.html#Anonymize=), you must also set Anonymize=yes in the [DHCPv4] section of your .network configuration.
+[systemd-networkd를](https://en.wikipedia.org/wiki/Systemd#Ancillary_components) 사용 중인 경우, 다음을 설정하십시오. [`.link 구성 파일에서 MACAddressPolicy=random`](https://freedesktop.org/software/systemd/man/systemd.link.html#MACAddressPolicy=) 를 설정하여 MAC 주소를 무작위로 생성하세요. [RFC 7844(DHCP 클라이언트용 익명성 프로필)을](https://freedesktop.org/software/systemd/man/systemd.network.html#Anonymize=) 활성화하려면, .network 구성 파일의 [DHCPv4] 섹션에서 Anonymize=yes로 설정해야 합니다.
 
-MAC 주소 무작위화는 주로 와이파이 연결에서 유용합니다. 이더넷 연결에서는 네트워크 관리자가 (네트워크 스위치에서 연결된 포트를 확인하는 등) 다른 방법으로 기기를 쉽게 식별할 수 있으므로, MAC 주소를 무작위화해도 이점이 거의 (또는 전혀) 없습니다. Randomizing Wi-Fi MAC addresses depends on support from the Wireless Network Interface Controller’s firmware.
+MAC 주소 무작위화는 주로 와이파이 연결에서 유용합니다. 이더넷 연결에서는 네트워크 관리자가 (네트워크 스위치에서 연결된 포트를 확인하는 등) 다른 방법으로 기기를 쉽게 식별할 수 있으므로, MAC 주소를 무작위화해도 이점이 거의 (또는 전혀) 없습니다. Wi-Fi MAC 주소를 무작위로 변경하는 기능은 무선 네트워크 인터페이스 컨트롤러(WNIC)의 펌웨어 지원 여부에 따라 달라집니다.
 
 ### 기타 식별자 { #other-identifiers }
 

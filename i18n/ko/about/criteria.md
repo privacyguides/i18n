@@ -5,17 +5,17 @@ description: 프라이버시 가이드에 제출되는 모든 항목에 대해 �
 
 다음은 프라이버시 가이드에 제출되는 모든 항목에 대해 고려하는 일반적인 우선순위입니다. 카테고리마다 등재를 위한 추가 요구 사항이 있습니다.
 
-- **Security**: Tools should follow security best practices wherever applicable.
-- **Source Availability**: Open-source projects are generally preferred over equivalent proprietary alternatives.
-- **Cross-Platform Availability**: We typically prefer recommendations to be cross-platform to avoid vendor lock-in.
-- **Active Development**: The tools that we recommend should be actively developed. Unmaintained projects will be removed in most cases.
-- **Usability**: Tools should be accessible to most computer users. An overly technical background should not be required.
-- **Documentation**: Tools should have clear and extensive documentation for use.
+- **보안**: 도구는 해당되는 경우 보안 모범 사례를 준수해야 합니다.
+- **소스 가용성**: 일반적으로 동등한 상용 대안보다 오픈소스 프로젝트가 선호됩니다.
+- **크로스 플랫폼 지원**: 공급업체 종속을 피하기 위해 일반적으로 크로스 플랫폼이 지원되는 솔루션을 권장합니다.
+- **활발한 개발**: 저희가 추천하는 도구는 활발하게 개발되고 있어야 합니다. 관리가 이루어지지 않는 프로젝트는 대부분의 경우 삭제됩니다.
+- **사용 편의성**: 도구는 대부분의 컴퓨터 사용자가 이용할 수 있어야 합니다. 지나치게 전문적인 기술 지식이 필요해서는 안 됩니다.
+- **문서화**: 툴은 명확하고 폭넓은 안내 문서를 제공해야 합니다.
 
 ## 재정 공개 { #financial-disclosure }
 
 프라이버시 가이드는 특정 제품을 추천하여 수익을 얻지 않으며, 제휴 링크를 사용하지 않고, 프로젝트 후원자에게 특별한 혜택을 주지 않습니다.
 
-## Submissions to Privacy Guides
+## 개인정보 보호 가이드에 대한 기고
 
-Privacy Guides only considers projects brought forward by our community members via the forum. Please take note of the current Forum Guidelines. [guidelines](https://discuss.privacyguides.net/guidelines).
+‘Privacy Guides’는 포럼을 통해 커뮤니티 구성원들이 제안한 프로젝트만을 검토합니다. 현재의 포럼 이용 지침을 꼭 확인해 주시기 바랍니다. [지침](https://discuss.privacyguides.net/guidelines).
