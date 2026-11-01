@@ -1,6 +1,6 @@
 ---
-meta_title: "Recommended AI Chat: Private ChatGPT Alternatives - Privacy Guides"
-title: "AI Chat"
+meta_title: "أفضل تطبيقات الدردشة بالذكاء الاصطناعي: بدائل خاصة لـ ChatGPT - Privacy Guides"
+title: "الدردشة بالذكاء الاصطناعي"
 icon: material/assistant
 description: Unlike OpenAI's ChatGPT and its Big Tech competitors, these AI tools run locally so your data never leaves your desktop device.
 cover: ai-chatbots.webp

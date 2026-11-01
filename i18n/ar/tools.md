@@ -339,7 +339,7 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 ## Software
 
-### AI Chat
+### الدردشة بالذكاء الاصطناعي
 
 <div class="grid cards" markdown>
 
