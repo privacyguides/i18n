@@ -2,25 +2,25 @@
 meta_title: "أفضل تطبيقات الدردشة بالذكاء الاصطناعي: بدائل خاصة لـ ChatGPT - Privacy Guides"
 title: "الدردشة بالذكاء الاصطناعي"
 icon: material/assistant
-description: Unlike OpenAI's ChatGPT and its Big Tech competitors, these AI tools run locally so your data never leaves your desktop device.
+description: على عكس ChatGPT من OpenAI ومنافسيه من شركات التقنية الكبرى، تعمل أدوات الذكاء الاصطناعي هذه محليا على جهاز الكمبيوتر، بحيث لا تغادر بياناتك جهازك.
 cover: ai-chatbots.webp
 ---
 
-<small>Protects against the following threat(s):</small>
+<small>يحمي من التهديدات التالية:</small>
 
-- [:material-server-network: Service Providers](basics/common-threats.md#privacy-from-service-providers){ .pg-teal }
-- [:material-account-cash: Surveillance Capitalism](basics/common-threats.md#surveillance-as-a-business-model){ .pg-brown }
-- [:material-close-outline: Censorship](basics/common-threats.md#avoiding-censorship){ .pg-blue-gray }
+- [:material-server-network: مقدّمو الخدمات](basics/common-threats.md#privacy-from-service-providers){ .pg-teal }
+- [:material-account-cash:رأسمالية المراقبة](basics/common-threats.md#surveillance-as-a-business-model){ .pg-brown }
+- [:material-close-outline: الرقابة](basics/common-threats.md#avoiding-censorship){ .pg-blue-gray }
 
-The use of **AI chat**, also known as Large Language Models (LLMs), has become increasingly common since the release of ChatGPT in 2022. LLMs can help us write better, understand unfamiliar subjects, or answer a wide range of questions. They work by statistically predicting the next word in their responses based on a vast amount of data scraped from the web.
+أصبح استخدام الدردشة **بالذكاء الاصطناعي**، المعتمدة على الـ (LLMs)، أكثر شيوعا منذ إطلاق ChatGPT عام 2022. يمكن أن تساعدنا نماذج اللغة الكبيرة (LLMs) على تحسين كتابتنا، وفهم المواضيع غير المألوفة، والإجابة عن مجموعة واسعة من الأسئلة. تعمل هذه النماذج من خلال التنبؤ إحصائيا بالكلمة التالية في ردودها، اعتمادا على كميات هائلة من البيانات التي جُمعت من الإنترنت.
 
-## Privacy Concerns About LLMs
+## مخاوف الخصوصية المتعلقة بالـ (LLMs)
 
-Data used to train AI models, however, includes a massive amount of publicly available data scraped from the web, which can include sensitive information like names and addresses. Cloud-based AI software often [collects your inputs](https://openai.com/policies/row-privacy-policy), meaning your chats are not private from them. This practice also introduces a risk of data breaches. Furthermore, there is a real possibility that an LLM will leak your private chat information in future conversations with other users.
+لكن البيانات المستخدمة لتدريب نماذج الذكاء الاصطناعي تتضمن كميات هائلة من البيانات المتاحة للعامة، والتي جُمعت من الإنترنت، وقد تحتوي على معلومات حساسة مثل الأسماء والعناوين. غالبا ما تجمع برامج الذكاء الاصطناعي السحابية (Cloud-based AI) [البيانات التي تُدخلها إليها](https://openai.com/policies/row-privacy-policy)، ما يعني أن محادثاتك ليست خاصة عن الشركات التي تدير هذه البرامج. وتزيد هذه الممارسة أيضا من خطر حدوث تسريبات للبيانات. بالإضافة إلى ذلك، هناك احتمال حقيقي أن يسرّب أحد نماذج الـ (LLMs) معلومات من محادثاتك الخاصة خلال محادثات لاحقة مع مستخدمين آخرين.
 
-If you are concerned about these practices, you can either refuse to use AI, or use [truly open-source models](https://proton.me/blog/how-to-build-privacy-first-ai) which publicly release and allow you to inspect their training datasets. One such model is [OLMoE](https://allenai.org/blog/olmoe-an-open-small-and-state-of-the-art-mixture-of-experts-model-c258432d0514) made by [Ai2](https://allenai.org/open-data).
+إذا كانت هذه الممارسات تثير قلقك، فيمكنك إما الامتناع عن استخدام الذكاء الاصطناعي، أو استخدام [نماذج مفتوحة المصدر بالكامل](https://proton.me/blog/how-to-build-privacy-first-ai) تنشر بيانات تدريبها علنا وتتيح لك الاطلاع عليها. ومن هذه النماذج [OLMoE](https://allenai.org/blog/olmoe-an-open-small-and-state-of-the-art-mixture-of-experts-model-c258432d0514) الذي طوّرته [Ai2](https://allenai.org/open-data).
 
-Alternatively, you can run AI models locally so that your data never leaves your device and is therefore never shared with third parties. As such, local models are a more private and secure alternative to cloud-based solutions and allow you to share sensitive information to the AI model without worry.
+وبدلا من ذلك، يمكنك تشغيل نماذج الذكاء الاصطناعي محليا على جهازك، بحيث لا تغادر بياناتك الجهاز ولا تُشارك مع أي جهات خارجية. As such, local models are a more private and secure alternative to cloud-based solutions and allow you to share sensitive information to the AI model without worry.
 
 ## AI Models
 

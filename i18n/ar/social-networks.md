@@ -7,7 +7,7 @@ cover: social-networks.webp
 
 <small>Protects against the following threat(s):</small>
 
-- [:material-close-outline: Censorship](basics/common-threats.md#avoiding-censorship){ .pg-blue-gray }
+- [:material-close-outline: الرقابة](basics/common-threats.md#avoiding-censorship){ .pg-blue-gray }
 - [:material-account-cash: Surveillance Capitalism](basics/common-threats.md#surveillance-as-a-business-model){ .pg-brown }
 
 These privacy-respecting **social networks** allow you to participate in online communities without giving up your personal information like your full name, phone number, and other data commonly requested by tech companies.
