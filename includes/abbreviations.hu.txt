@@ -1,10 +1,10 @@
-*[2FA]: 2-Factor Authentication – Kétlépcsős Hitelesítés
+*[2FA]: Kétlépcsős hitelesítés
 *[ADB]: Android Debug Bridge
-*[AOSP]: Android Open Source Project - Android Nyílt Forráskódú Projekt
+*[AOSP]: Android Open Source Project
 *[ATA]: Advanced Technology Attachment
 *[támadási felület]: Egy rendszerhez való illetéktelen hozzáférés összes lehetséges behatolási pontja
-*[AVB]: Android Verified Boot – Android-hitelesített indítás
-*[cgroups]: Control Groups – Kontrollcsoportok
+*[AVB]: Android Verified Boot
+*[cgroups]: Kontrollcsoportok
 *[C2PA]: Coalition for Content Provenance and Authenticity
 *[CLI]: Command Line Interface – Parancssoros felület
 *[CSV]: Comma-Separated Values
