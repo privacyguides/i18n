@@ -146,53 +146,53 @@ cover: ai-chatbots.webp
 
 </div>
 
-Mozilla has made llamafiles available for only some Llama and Mistral models, while there are few third-party llamafiles available. Moreover, Windows limits `.exe` files to 4 GB, and most models are larger than that.
+وفرت Mozilla ملفات llamafile الجاهزة لبعض نماذج Llama وMistral فقط، بينما تتوفر ملفات llamafile قليلة من جهات خارجية. بالإضافة إلى ذلك، يفرض Windows حدا أقصى لحجم ملفات الـ `.exe` يبلغ 4 جيجابايت، بينما يتجاوز حجم معظم النماذج هذا الحد.
 
-To circumvent these issues, you can [load external weights](https://github.com/Mozilla-Ocho/llamafile#using-llamafile-with-external-weights).
+للتغلب على هذه المشكلات، يمكنك [تحميل أوزان النموذج (weights) من ملف منفصل](https://github.com/Mozilla-Ocho/llamafile#using-llamafile-with-external-weights).
 
-## Securely Downloading Models
+## تنزيل النماذج بأمان
 
-If you use an AI client that maintains their own library of model files (such as [Ollama](#ollama-cli) and [Llamafile](#llamafile)), you should download it from there. However, if you want to download models not present in their library, or use an AI client that doesn't maintain its library (such as [Kobold.cpp](#koboldcpp)), you will need to take extra steps to ensure that the AI model you download is safe and legitimate.
+إذا كنت تستخدم برنامج ذكاء اصطناعي يوفر مكتبة خاصة به من ملفات النماذج (مثل [Ollama](#ollama-cli) و[Llamafile](#llamafile))، فمن الأفضل تنزيل النموذج من هذه المكتبة. لكن إذا أردت تنزيل نماذج غير موجودة في هذه المكتبات، أو كنت تستخدم برنامج ذكاء اصطناعي لا يوفر مكتبة خاصة به (مثل [Kobold.cpp](#koboldcpp))، فستحتاج إلى اتخاذ خطوات إضافية للتأكد من أن النموذج الذي تنزله آمن وأصلي.
 
-We recommend downloading model files from Hugging Face since it provides several features to verify that your download is genuine and safe to use.
+ننصح بتنزيل ملفات النماذج من Hugging Face، لأنه يوفر عدة وسائل تساعدك على التأكد من أن الملفات أصلية وآمنة للاستخدام.
 
-To check the authenticity and safety of the model, look for:
+للتأكد من أن النموذج أصلي وآمن، تحقق مما يلي:
 
-- Model cards with clear documentation
-- A verified organization badge
-- Community reviews and usage statistics
-- A "Safe" badge next to the model file (Hugging Face only)
-- Matching checksums[^1]
-  - On Hugging Face, you can find the hash by clicking on a model file and looking for the **Copy SHA256** button below it. You should compare this checksum with the one from the model file you downloaded.
+- صفحات النماذج التي تحتوي على شرح واضح
+- علامة تدل على أن المؤسسة موثقة
+- تقييمات المستخدمين وإحصائيات الاستخدام
+- علامة "Safe" بجانب ملف النموذج (على Hugging Face فقط)
+- تطابق الـ (checksums)[^1]
+  - على Hugging Face، يمكنك العثور على الـ (hash) بالضغط على ملف النموذج، ثم البحث عن زر **Copy SHA256** أسفله. يجب أن تقارن هذا الـ checksum بـ checksum ملف النموذج الذي نزلته.
 
-A downloaded model is generally safe if it satisfies all the above checks.
+يكون النموذج الذي نزلته آمنا بشكل عام إذا استوفى جميع الشروط السابقة.
 
-## Criteria
+## المعايير
 
-Please note we are not affiliated with any of the projects we recommend. In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. We suggest you familiarize yourself with this list before choosing to use a project and conduct your own research to ensure it's the right choice for you.
+يرجى ملاحظة أننا لا نتبع لأي من المشاريع التي نوصي بها. بالإضافة إلى [معاييرنا الأساسية](about/criteria.md)، وضعنا مجموعة من الشروط الواضحة حتى نتمكن من تقديم توصيات موضوعية. ننصحك بالاطلاع على هذه القائمة قبل اختيار أي مشروع، والبحث عنه بنفسك للتأكد من أنه مناسب لك.
 
-### Minimum Requirements
+### الحد الأدنى من المتطلبات
 
-- Must be open source.
-- Must not transmit personal data, including chat data.
-- Must be multi-platform.
-- Must not require a GPU.
-- Must support GPU-powered, fast inference.
-- Must not require an internet connection.
+- يجب أن يكون مفتوح المصدر.
+- يجب ألا يرسل أي بيانات شخصية، بما فيها بيانات المحادثات.
+- يجب أن يعمل على أنظمة تشغيل متعددة.
+- يجب ألا يحتاج إلى (GPU) للعمل.
+- يجب أن يدعم تشغيل النماذج بسرعة باستخدام الـ (GPU).
+- يجب ألا يحتاج إلى اتصال بالإنترنت.
 
-### Best-Case
+### أحسن الاحتمالات
 
-Our best-case criteria represent what we _would_ like to see from the perfect project in this category. Our recommendations may not include any or all of this functionality, but those which do may rank higher than others on this page.
+تمثل معاييرنا في أحسن الاحتمالات التصور المثالي لما ينبغي أن يقدمه المشروع الأفضل ضمن هذه الفئة. ليست جميع توصياتنا مُلزمة بتوفير كل هذه الميزات، لكن المشاريع التي تتوافق معها بشكل أكبر قد تُصنف في مرتبة أعلى، لأنها تقترب أكثر من المعايير التي نعتبرها نموذجا لأفضل مستوى ممكن.
 
-- Should be easy to download and set up, e.g. with a one-click installation process.
-- Should have a built-in model downloader option.
-- The user should be able to modify the LLM parameters, such as its system prompt or temperature.
+- يُفضل أن يكون تنزيله وإعداده سهلا، مثل إمكانية تثبيته بضغطة واحدة.
+- يُفضل أن يوفر خيارا لتنزيل النماذج من داخل البرنامج.
+- يُفضل أن يتمكن المستخدم من تعديل إعدادات نموذج اللغة (LLM)، مثل تعليمات النظام (system prompt) ودرجة العشوائية (temperature).
 
-\*[LLaVA]: Large Language and Vision Assistant (multimodal AI model)
-\*[LLM]: Large Language Model (AI model such as ChatGPT)
-\*[LLMs]: Large Language Models (AI models such as ChatGPT)
-\*[open-weights models]: AI models that anyone can download and use, but the underlying training data and/or algorithms for them are proprietary.
-\*[system prompt]: The general instructions given by a human to guide how an AI chat should operate.
-\*[temperature]: A parameter used in AI models to control the level of randomness and creativity in the generated text.
+\*[LLaVA]: مساعد لغوي وبصري كبير (نموذج ذكاء اصطناعي يتعامل مع النصوص والصور)
+\*[LLM]: نموذج لغوي كبير (نموذج ذكاء اصطناعي مثل ChatGPT)
+\*[LLMs]: نماذج لغوية كبيرة (نماذج ذكاء اصطناعي مثل ChatGPT)
+\*[open-weights models]: نماذج ذكاء اصطناعي يمكن لأي شخص تنزيلها واستخدامها، لكن بيانات تدريبها و/أو الخوارزميات المستخدمة فيها غير متاحة للعامة.
+الـ _[system prompt]: تعليمات عامة يحددها الإنسان لتوجيه طريقة عمل الذكاء الاصطناعي أثناء المحادثة.
+الـ_[temperature]: إعداد في نماذج الذكاء الاصطناعي يتحكم في مدى عشوائية النص الذي تنتجه وتنوعه.
 
-[^1]: A file checksum is a type of anti-tampering fingerprint. A developer usually provides a checksum in a text file that can be downloaded separately, or on the download page itself. Verifying that the checksum of the file you downloaded matches the one provided by the developer helps ensure that the file is genuine and wasn't tampered with in transit. يمكنك استخدام أوامر مثل `sha256sum` على Linux وmacOS، أو `certutil -hashfile file SHA256` على Windows، لحساب قيمة التحقق (Checksum) للملف الذي نزلته.
+[^1]: الـ (checksum) هي قيمة تُستخدم للتحقق من عدم التلاعب بمحتواه. عادةً ما يوفر المطور (checksum) في ملف نصي يمكن تنزيله بشكل منفصل، أو مباشرة على صفحة التنزيل. مقارنة الـ checksum الذي نزّلته بالبصمة التي يوفرها المطور تساعدك على التأكد من أن الملف أصلي ولم يتم التلاعب به أثناء التنزيل. يمكنك استخدام أوامر مثل `sha256sum` على Linux وmacOS، أو `certutil -hashfile file SHA256` على Windows، لحساب قيمة التحقق (Checksum) للملف الذي نزلته.

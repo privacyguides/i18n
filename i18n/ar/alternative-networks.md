@@ -1,19 +1,19 @@
 ---
-title: "Alternative Networks"
+title: "الشبكات البديلة"
 icon: material/vector-polygon
-description: These tools allow you to access networks other than the World Wide Web.
+description: تتيح لك هذه الأدوات الوصول إلى شبكات أخرى غير شبكة الويب العالمية.
 cover: alternative-networks.webp
 ---
 
-<small>Protects against the following threat(s):</small>
+<small>يحمي من التهديدات التالية:</small>
 
-- [:material-server-network: Service Providers](basics/common-threats.md#privacy-from-service-providers){ .pg-teal }
-- [:material-eye-outline: Mass Surveillance](basics/common-threats.md#mass-surveillance-programs){ .pg-blue }
-- [:material-account-cash: Surveillance Capitalism](basics/common-threats.md#surveillance-as-a-business-model){ .pg-brown }
+- [:material-server-network: مقدّمو الخدمات](basics/common-threats.md#privacy-from-service-providers){ .pg-teal }
+- [:material-eye-outline: المراقبة الجماعية](basics/common-threats.md#mass-surveillance-programs){ .pg-blue }
+- [:material-account-cash:رأسمالية المراقبة](basics/common-threats.md#surveillance-as-a-business-model){ .pg-brown }
 
-## Anonymizing Networks
+## شبكات إخفاء الهوية
 
-When it comes to anonymizing networks, we want to specially note that [Tor](advanced/tor-overview.md) is our top choice. It is by far the most utilized, robustly studied, and actively developed anonymous network. Using other networks could be more likely to endanger your [:material-incognito: Anonymity](basics/common-threats.md#anonymity-vs-privacy){ .pg-purple }, unless you know what you're doing.
+عند الحديث عن شبكات إخفاء الهوية، نود التأكيد على أن [Tor](advanced/tor-overview.md) هو خيارنا الأول. فهي شبكة إخفاء الهوية الأكثر استخداما، والأكثر خضوعا للدراسة والبحث، ويجري تطويرها باستمرار. قد يؤدي استخدام شبكات أخرى إلى تعريض [:material-incognito: هويتك المجهولة](basics/common-threats.md#anonymity-vs-privacy){ .pg-purple } للخطر بشكل أكبر، إلا إذا كنت تعرف جيدا ما تفعله.
 
 ### Tor
 
@@ -21,7 +21,7 @@ When it comes to anonymizing networks, we want to specially note that [Tor](adva
 
 ![Tor logo](assets/img/self-contained-networks/tor.svg){ align=right }
 
-The **Tor** network is a group of volunteer-operated servers that allows you to connect for free and improve your privacy and security on the Internet. ويمكن للأفراد والمؤسسات مشاركة المعلومات عبرها باستخدام «خدمات .onion الخفية»، وذلك دون نهك خصوصيتهم. Because Tor traffic is difficult to block and trace, Tor is an effective [:material-close-outline: Censorship](basics/common-threats.md#avoiding-censorship){ .pg-blue-gray } circumvention tool.
+شبكة **Tor** هي مجموعة من الخوادم التي يديرها متطوعون، وتتيح لك الاتصال بالإنترنت مجانا مع حماية خصوصيتك وتعزيز أمانك. ويمكن للأفراد والمؤسسات مشاركة المعلومات عبرها باستخدام «خدمات .onion الخفية»، وذلك دون نهك خصوصيتهم. لأن حظر حركة البيانات عبر Tor وتتبعها أمر صعب، تُعد Tor أداة فعالة لتجاوز [:material-close-outline: الرقابة](basics/common-threats.md#avoiding-censorship){ .pg-blue-gray }.
 
 [:octicons-home-16:](https://torproject.org){ .card-link title=Homepage }
 [:simple-torbrowser:](http://2gzyxa5ihm7nsggfxnu52rck2vv4rvmdlkiu3zzui5du4xyclen53wid.onion){ .card-link title="Onion Service" }
@@ -31,16 +31,16 @@ The **Tor** network is a group of volunteer-operated servers that allows you to 
 
 </div>
 
-The recommended way to access the Tor network is via the official Tor Browser, which we have covered in more detail on a dedicated page:
+الطريقة التي ننصح بها للاتصال بشبكة Tor هي استخدام متصفح Tor الرسمي، وقد شرحناه بالتفصيل في صفحة مخصصة له:
 
-[Tor Browser Info :material-arrow-right-drop-circle:](tor.md){ .md-button .md-button--primary } [Detailed Tor Overview :material-arrow-right-drop-circle:](advanced/tor-overview.md){ .md-button }
+[معلومات عن متصفح Tor :material-arrow-right-drop-circle:](tor.md){ .md-button .md-button--primary } [شرح مفصّل عن Tor :material-arrow-right-drop-circle:](advanced/tor-overview.md){ .md-button }
 
-You can access the Tor network using other tools; making this determination comes down to your threat model. If you are a casual Tor user who is not worried about your ISP collecting evidence against you, using apps like [Orbot](#orbot) or mobile browser apps to access the Tor network is probably fine. استخدامك لـ Tor في حياتك اليومية لا يحميك فقط، بل يساعد في حماية الآخرين أيضا. كلما زاد عدد المستخدمين، أصبحت شبكة Tor أكثر قوة، وانخفضت قدرة مزودي الإنترنت والحكومات على تتبع الأفراد أو وصمهم باستخدامها. ساهم في كسر الصورة النمطية السلبية واجعل الخصوصية عادة طبيعية للجميع.
+يمكنك الاتصال بشبكة Tor باستخدام أدوات أخرى، لكن اختيار الأداة المناسبة يعتمد على Threat Model الخاص بك. إذا كنت تستخدم Tor بشكل عادي، ولا تقلق من أن يجمع مزود خدمة الإنترنت أدلة ضدك، فمن المحتمل أن يكون استخدام تطبيقات مثل [Orbot](#orbot) أو متصفحات الهاتف للاتصال بشبكة Tor مناسبا لك. استخدامك لـ Tor في حياتك اليومية لا يحميك فقط، بل يساعد في حماية الآخرين أيضا. كلما زاد عدد المستخدمين، أصبحت شبكة Tor أكثر قوة، وانخفضت قدرة مزودي الإنترنت والحكومات على تتبع الأفراد أو وصمهم باستخدامها. ساهم في كسر الصورة النمطية السلبية واجعل الخصوصية عادة طبيعية للجميع.
 
 <div class="admonition example" markdown>
-<p class="admonition-title">Try it out!</p>
+<p class="admonition-title">جربه الآن!</p>
 
-You can try connecting to _Privacy Guides_ via Tor at [xoe4vn5uwdztif6goazfbmogh6wh5jc4up35bqdflu6bkdc5cas5vjqd.onion](http://www.xoe4vn5uwdztif6goazfbmogh6wh5jc4up35bqdflu6bkdc5cas5vjqd.onion).
+يمكنك محاولة الاتصال بموقع _Privacy Guides_ عبر شبكة Tor على الرابط [xoe4vn5uwdztif6goazfbmogh6wh5jc4up35bqdflu6bkdc5cas5vjqd.onion](http://www.xoe4vn5uwdztif6goazfbmogh6wh5jc4up35bqdflu6bkdc5cas5vjqd.onion).
 
 </div>
 
@@ -144,7 +144,7 @@ Running a Snowflake proxy is low-risk, even more so than running a Tor relay or 
 Unlike Tor, all I2P traffic is internal to the I2P network, which means regular internet websites are **not** directly accessible from I2P. Instead, you can connect to websites which are hosted anonymously and directly on the I2P network, which are called "eepsites" and have domains which end in `.i2p`.
 
 <div class="admonition example" markdown>
-<p class="admonition-title">Try it out!</p>
+<p class="admonition-title">جربه الآن!</p>
 
 You can try connecting to _Privacy Guides_ via I2P at [privacyguides.i2p](http://privacyguides.i2p/?i2paddresshelper=fvbkmooriuqgssrjvbxu7nrwms5zyhf34r3uuppoakwwsm7ysv6q.b32.i2p).
 
