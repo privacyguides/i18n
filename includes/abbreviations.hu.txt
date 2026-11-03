@@ -6,8 +6,8 @@
 *[AVB]: Android Verified Boot
 *[cgroups]: Kontrollcsoportok
 *[C2PA]: Coalition for Content Provenance and Authenticity
-*[CLI]: Command Line Interface – Parancssoros felület
-*[CSV]: Comma-Separated Values
+*[CLI]: Parancssoros felhasználói felület
+*[CSV]: Vesszővel elválasztott értékek
 *[CVE]: Common Vulnerabilities and Exposures
 *[dark pattern]: Egy megtévesztő tervezési mintázat, amelynek az a célja, hogy bizonyos tettekre rábírja a felhasználót
 *[digitális hagyaték funkció]: A digitális hagyaték olyan funkciókra utal, amelyek lehetővé teszik, hogy hozzáférést biztosíts az adataidhoz másoknak halálod esetén
@@ -17,9 +17,9 @@
 *[DoQ]: DNS over QUIC
 *[DoH3]: DNS over HTTP/3
 *[DoT]: DNS over TLS
-*[DPA]: Data Protection Authority – Adatvédelmi Hatóság
-*[DPI]: Deep Packet Inspection identifies and blocks packet with specific payloads
-*[E2EE]: End-to-End Encryption – Végponttól végpontig terjedő titkosítás
+*[DPA]: Adatvédelmi Hatóság
+*[DPI]: A mély csomagvizsgálat azonosít és blokkol meghatározott tartalmú csomagokat
+*[E2EE]: Végponttól végpontig terjedő titkosítás
 *[ECS]: EDNS Client Subnet
 *[EEA]: European Economic Area - Európai Gazdasági Övezet
 *[entropy]: Annak a mértéke, hogy mennyire kiszámíthatatlan valami
@@ -47,23 +47,23 @@
 *[IP]: Internet Protocol – Internet protokoll
 *[IPv4]: 4-es verziójú internet protokoll
 *[IPv6]: 6-os verziójú internet protokoll
-*[ISP]: Internet Service Provider – Internetszolgáltató
-*[ISPs]: Internet Service Providers – Internetszolgáltatók
+*[ISP]: Internetszolgáltató
+*[ISPs]: Internetszolgáltatók
 *[IPTC]: International Press Telecommunications Council
 *[JNI]: Java Native Interface
-*[KYC]: Know Your Customer – Ismerd meg az ügyfeled
+*[KYC]: Ismerd meg az ügyfeled
 *[LLaVA]: Large Language and Vision Assistant (multimodal AI model)
-*[LLMs]: Large Language Models – nagy nyelvi modellek (MI modellek, mint például a ChatGPT)
-*[LUKS]: Linux Unified Key Setup (Full-Disk Encryption)
+*[LLMs]: Nagy nyelvi modellek (MI modellek, mint például a ChatGPT)
+*[LUKS]: Linux Unified Key Setup (teljes lemez titkosítás)
 *[MAC]: Media Access Control
 *[MDAG]: Microsoft Defender Application Guard
 *[MEID]: Mobile Equipment Identifier - Mobil Berendezés Azonosító
 *[MFA]: Multi-Factor Authentication – Többlépcsős hitelesítés
 *[NVMe]: Nonvolatile Memory Express
-*[NAT]: Network address translation
-*[NAT-PMP]: NAT Port Mapping Protocol
+*[NAT]: Hálózati címfordítás
+*[NAT-PMP]: NAT port leképzési protokoll
 *[NTP]: Network Time Protocol - Hálózati Idő Protokoll
-*[Nunavut]: The largest and northernmost territory of Canada
+*[Nunavut]: Kanada legnagyobb és legészakibb területe
 *[OCI]: Open Container Initiative
 *[OCSP]: Online Certificate Status Protocol - Online Tanúsítvány Státusz Protokoll
 *[OEM]: Original Equipment Manufacturer
