@@ -50,7 +50,7 @@ cover: alternative-networks.webp
 
 ![Orbot logo](assets/img/self-contained-networks/orbot.svg){ align=right }
 
-**Orbot** is a mobile application which routes traffic from any app on your device through the Tor network.
+تطبيق Orbot هو تطبيق للهواتف يوجّه حركة الإنترنت من أي تطبيق على جهازك عبر شبكة Tor.
 
 [:octicons-home-16: Homepage](https://orbot.app){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://orbot.app/privacy-policy){ .card-link title="Privacy Policy" }
@@ -59,7 +59,7 @@ cover: alternative-networks.webp
 [:octicons-heart-16:](https://orbot.app/donate){ .card-link title="Contribute" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>التنزيلات</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=org.torproject.android)
 - [:simple-appstore: App Store](https://apps.apple.com/app/id1609461599)
@@ -70,20 +70,20 @@ cover: alternative-networks.webp
 
 </div>
 
-We previously recommended enabling the _Isolate Destination Address_ preference in Orbot settings. While this setting can theoretically improve privacy by enforcing the use of a different circuit for each IP address you connect to, it doesn't provide a practical advantage for most applications (especially web browsing), can come with a significant performance penalty, and increases the load on the Tor network. We no longer recommend adjusting this setting from its default value unless you know you need to.[^1]
+كنا ننصح سابقا بتفعيل خيار _Isolate Destination Address_ في إعدادات Orbot. رغم أن هذا الإعداد قد يحسّن الخصوصية نظريًا، لأنه يفرض استخدام مسار اتصال مختلف لكل عنوان IP تتصل به، فإنه لا يقدم فائدة حقيقية لمعظم التطبيقات (خاصةً عند تصفح الويب)، وقد يؤدي إلى بطء ملحوظ في الأداء وزيادة الضغط على شبكة Tor. لم نعد ننصح بتغيير القيمة الافتراضية لهذا الإعداد، إلا إذا كنت متأكدا من حاجتك إلى ذلك.[^1]
 
 \=== "أندرويد"
 
 ```
-Orbot can proxy individual apps if they support SOCKS or HTTP proxying. It can also proxy all your network connections using [VpnService](https://developer.android.com/reference/android/net/VpnService) and can be used with the VPN kill switch in :gear: **Settings** → **Network & internet** → **VPN** → :gear: → **Block connections without VPN**.
+يمكن لـ Orbot توجيه اتصال كل تطبيق على حدة عبر شبكة Tor، إذا كان التطبيق يدعم بروكسي SOCKS أو HTTP. ويمكنه أيضا توجيه جميع اتصالات الإنترنت عبر Tor باستخدام [VpnService](https://developer.android.com/reference/android/net/VpnService)، مع إمكانية تفعيل ميزة منع الاتصال بالإنترنت عند توقف VPN من خلال :gear: **Settings** → **Network & internet** → **VPN** → :gear: → **Block connections without VPN**.
 
-Orbot is often outdated on Google Play and the Guardian Project's F-Droid repository, so consider downloading directly from the GitHub repository instead. All versions are signed using the same signature, so they should be compatible with each other.
+غالبا ما تتأخر تحديثات Orbot على Google Play ومستودع F-Droid التابع لمشروع Guardian Project، لذلك ننصحك بتنزيله مباشرة من مستودع GitHub بدلا منهما. جميع الإصدارات موقعة بالتوقيع الرقمي نفسه، لذا يُفترض أن تكون متوافقة مع بعضها.
 ```
 
 \=== "iOS"
 
 ```
-On iOS, Orbot has some limitations that could potentially cause crashes or leaks: iOS does not have an effective OS-level feature to block connections without a VPN like Android does, and iOS has an artificial memory limit for network extensions that makes it challenging to run Tor in Orbot without crashes. Currently, it is always safer to use Tor on a desktop computer compared to a mobile device.
+على iOS، يواجه Orbot بعض القيود التي قد تؤدي إلى تعطل التطبيق أو تسرب بعض البيانات. فنظام iOS لا يوفر ميزة فعالة على مستوى النظام لمنع الاتصال بالإنترنت دون VPN، مثل الموجودة في Android. كما يفرض iOS حدا مصطنعا على الذاكرة التي يمكن أن تستخدمها إضافات الشبكة، مما يجعل تشغيل Tor عبر Orbot دون تعطل أمرا صعبا. حاليا، يُعد استخدام Tor على الكمبيوتر أكثر أمانًا من استخدامه على الهاتف.
 ```
 
 #### Snowflake
@@ -93,9 +93,9 @@ On iOS, Orbot has some limitations that could potentially cause crashes or leaks
 ![Snowflake logo](assets/img/self-contained-networks/snowflake.svg#only-light){ align=right }
 ![Snowflake logo](assets/img/self-contained-networks/snowflake-dark.svg#only-dark){ align=right }
 
-**Snowflake** allows you to donate bandwidth to the Tor Project by operating a "Snowflake proxy" within your browser.
+يتيح لك **Snowflake** المساهمة بجزء من سرعة اتصالك بالإنترنت لدعم مشروع Tor، من خلال تشغيل بروكسي "Snowflake" داخل متصفحك.
 
-People who are censored can use Snowflake proxies to connect to the Tor network. Snowflake is a great way to contribute to the network even if you don't have the technical know-how to run a Tor relay or bridge.
+يمكن للأشخاص الذين يخضعون للرقابة على الإنترنت استخدام بروكسي Snowflake للاتصال بشبكة Tor. يُعد Snowflake طريقة رائعة للمساهمة في دعم شبكة Tor، حتى لو لم تكن لديك الخبرة التقنية اللازمة لتشغيل Tor relay أو bridge.
 
 [:octicons-home-16: Homepage](https://snowflake.torproject.org){ .md-button .md-button--primary }
 [:octicons-info-16:](https://gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/snowflake/-/wikis/Technical%20Overview){ .card-link title=Documentation}
@@ -106,22 +106,22 @@ People who are censored can use Snowflake proxies to connect to the Tor network.
 
 </div>
 
-You can enable Snowflake in your browser by opening it in another tab and turning the switch on. You can leave it running in the background while you browse to contribute your connection. We don't recommend installing Snowflake as a browser extension, because adding third-party extensions can increase your attack surface.
+يمكنك تفعيل Snowflake في متصفحك بفتحه في تبويب آخر وتشغيله باستخدام زر التفعيل. يمكنك ترك Snowflake يعمل في الخلفية أثناء تصفح الإنترنت، لتساهم بجزء من اتصالك في دعم الشبكة. لا ننصح بتثبيت Snowflake كإضافة للمتصفح، لأن إضافة ملحقات من جهات خارجية قد تزيد من فرص تعرض متصفحك للهجمات الأمنية.
 
-[Run Snowflake in your Browser :material-arrow-right-drop-circle:](https://snowflake.torproject.org/embed.html){ .md-button }
+[شغل Snowflake في متصفحك :material-arrow-right-drop-circle:](https://snowflake.torproject.org/embed.html){ .md-button }
 
-Snowflake does not increase your privacy in any way, nor is it used to connect to the Tor network within your personal browser. However, if your internet connection is uncensored, you should consider running it to help people in censored networks achieve better privacy themselves. There is no need to worry about which websites people are accessing through your proxy—their visible browsing IP address will match their Tor exit node, not yours.
+لا يزيد Snowflake من خصوصيتك بأي شكل، ولا يُستخدم للاتصال بشبكة Tor من خلال متصفحك الشخصي. لكن إذا كان اتصالك بالإنترنت لا يخضع للرقابة، فننصحك بتشغيل Snowflake لمساعدة الأشخاص الذين يعانون من الرقابة على الإنترنت في حماية خصوصيتهم بشكل أفضل. لا داعي للقلق بشأن المواقع التي يزورها الآخرون عبر البروكسي الخاص بك، فعنوان الـIP الذي تراه هذه المواقع سيكون عنوان عقدة الخروج (exit node) من شبكة Tor، وليس عنوانك.
 
-Running a Snowflake proxy is low-risk, even more so than running a Tor relay or bridge which are already not particularly risky endeavors. However, it does still proxy traffic through your network which can be impactful in some ways, especially if your network is bandwidth-limited. Make sure you understand [how Snowflake works](https://gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/snowflake/-/wikis/home) before deciding whether to run a proxy.
+تشغيل بروكسي Snowflake ينطوي على مخاطر قليلة، بل إن مخاطره أقل من تشغيل Tor relay أو bridge، اللذين لا ينطوي تشغيلهما على مخاطر كبيرة أصلا. ومع ذلك، يظل Snowflake يمرر حركة بيانات الآخرين عبر اتصالك بالإنترنت، مما قد يؤثر على استخدامك له، خاصة إذا كانت باقتك محدودة. تأكد من فهمك [لطريقة عمل Snowflake](https://gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/snowflake/-/wikis/home) قبل أن تقرر تشغيل بروكسي.
 
-### I2P (The Invisible Internet Project)
+### I2P (مشروع الإنترنت الخفي)
 
 <div class="admonition recommendation" markdown>
 
 ![I2P logo](assets/img/self-contained-networks/i2p.svg#only-light){ align=right }
 ![I2P logo](assets/img/self-contained-networks/i2p-dark.svg#only-dark){ align=right }
 
-**I2P** is a network layer which encrypts your connections and routes them via a network of computers distributed around the world. It is mainly focused on creating an alternative, privacy-protecting network rather than making regular internet connections anonymous.
+طبقة **I2P** هي طبقة شبكية تشفر اتصالاتك وتوجهها عبر شبكة من أجهزة الكمبيوتر المنتشرة حول العالم. It is mainly focused on creating an alternative, privacy-protecting network rather than making regular internet connections anonymous.
 
 [:octicons-home-16: Homepage](https://geti2p.net/en){ .md-button .md-button--primary }
 [:octicons-info-16:](https://geti2p.net/en/about/software){ .card-link title=Documentation }
@@ -129,30 +129,30 @@ Running a Snowflake proxy is low-risk, even more so than running a Tor relay or 
 [:octicons-heart-16:](https://geti2p.net/en/get-involved){ .card-link title=Contribute }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>التنزيلات</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=net.i2p.android)
-- [:simple-android: Android](https://geti2p.net/en/download#android)
-- [:fontawesome-brands-windows: Windows](https://geti2p.net/en/download#windows)
+- [:simple-android: اندرويد](https://geti2p.net/en/download#android)
+- [:fontawesome-brands-windows: وندوز](https://geti2p.net/en/download#windows)
 - [:simple-apple: macOS](https://geti2p.net/en/download#mac)
-- [:simple-linux: Linux](https://geti2p.net/en/download#unix)
+- [:simple-linux: لينكس](https://geti2p.net/en/download#unix)
 
 </details>
 
 </div>
 
-Unlike Tor, all I2P traffic is internal to the I2P network, which means regular internet websites are **not** directly accessible from I2P. Instead, you can connect to websites which are hosted anonymously and directly on the I2P network, which are called "eepsites" and have domains which end in `.i2p`.
+تركز I2P بشكل أساسي على إنشاء شبكة بديلة تحمي الخصوصية، بدلا من إخفاء هوية المستخدم عند الاتصال بالإنترنت العادي. بدلًا من ذلك، يمكنك زيارة مواقع مستضافة بشكل مجهول داخل شبكة I2P نفسها. تُسمى هذه المواقع "eepsites"، وتنتهي عناوينها بالنطاق .`i2p`.
 
 <div class="admonition example" markdown>
 <p class="admonition-title">جربه الآن!</p>
 
-You can try connecting to _Privacy Guides_ via I2P at [privacyguides.i2p](http://privacyguides.i2p/?i2paddresshelper=fvbkmooriuqgssrjvbxu7nrwms5zyhf34r3uuppoakwwsm7ysv6q.b32.i2p).
+يمكنك تجربة الوصول إلى موقع _Privacy Guides_ عبر شبكة I2P من خلال [privacyguides.i2p](http://privacyguides.i2p/?i2paddresshelper=fvbkmooriuqgssrjvbxu7nrwms5zyhf34r3uuppoakwwsm7ysv6q.b32.i2p).
 
 </div>
 
-Also, unlike Tor, every I2P node will relay traffic for other users by default, instead of relying on dedicated relay volunteers to run nodes. There are approximately [10,000](https://metrics.torproject.org/networksize.html) relays and bridges on the Tor network compared to ~50,000 on I2P, meaning there is potentially more ways for your traffic to be routed to maximize anonymity. I2P also tends to be more performant than Tor, although this is likely a side effect of Tor being more focused on regular "clearnet" internet traffic and thus using more bottle necked exit nodes. Hidden service performance is generally considered to be much better on I2P compared to Tor. While running P2P applications like BitTorrent is challenging on Tor (and can massively impact Tor network performance), it is very easy and performant on I2P.
+وعلى عكس Tor، كل جهاز متصل بشبكة I2P يساعد تلقائيا في نقل بيانات المستخدمين الآخرين، بدلا من الاعتماد على متطوعين لتشغيل خوادم مخصصة لذلك. تضم شبكة Tor حوالي [10,000](https://metrics.torproject.org/networksize.html) خادم replays و bridges، مقارنة بنحو 50,000 في شبكة I2P. وهذا يعني أن بياناتك قد تسلك مسارات أكثر داخل الشبكة، مما قد يساعد على إخفاء هويتك بشكل أفضل. غالبًا ما تكون شبكة I2P أسرع من Tor، ويرجع ذلك على الأرجح إلى أن Tor تركز أكثر على الاتصال بمواقع الإنترنت العادية (clearnet)، مما يجعل حركة البيانات تمر عبر عدد محدود من عقد الخروج، وقد يؤدي ذلك إلى بطء الاتصال. يُعتبر أداء الخدمات المخفية على شبكة I2P أفضل بكثير بشكل عام مقارنةً بشبكة Tor. بينما يصعب تشغيل تطبيقات مشاركة الملفات مثل BitTorrent عبر شبكة Tor (وقد يؤدي ذلك إلى إبطاء الشبكة بشكل كبير)، فإن تشغيلها عبر I2P أسهل بكثير ويقدم أداء أفضل.
 
-There are downsides to I2P's approach, however. Tor relying on dedicated exit nodes means more people in less safe environments can use it, and the relays that do exist on Tor are likely to be more performant and stable, as they generally aren't run on residential connections. Tor is also far more focused on **browser privacy** (i.e. anti-fingerprinting), with a dedicated [Tor Browser](tor.md) to make browsing activity as anonymous as possible. I2P is used via your [regular web browser](desktop-browsers.md), and while you can configure your browser to be more privacy-protecting, you probably still won't have the same browser fingerprint as other I2P users (there's no "crowd" to blend in with in that regard).
+لكن طريقة عمل I2P لها بعض العيوب أيضا. اعتماد Tor على عقد خروج (exit node) مخصصة يعني أن عددا أكبر من الأشخاص يمكنهم استخدامها، حتى في الأماكن التي تكون فيها مخاطر استخدام الشبكة أعلى. كما أن الخوادم التي تنقل البيانات داخل شبكة Tor غالبا ما تكون أسرع وأكثر استقرارا، لأنها عادة لا تعمل عبر اتصالات الإنترنت المنزلية. تركز Tor أيضا بشكل أكبر على حماية الخصوصية أثناء التصفح، مثل منع تتبع المستخدم عبر بصمة المتصفح (Browser Fingerprinting)، وتوفر متصفحا مخصصا [Tor Browser](tor.md) لجعل تصفح الإنترنت مجهول الهوية قدر الإمكان. I2P is used via your [regular web browser](desktop-browsers.md), and while you can configure your browser to be more privacy-protecting, you probably still won't have the same browser fingerprint as other I2P users (there's no "crowd" to blend in with in that regard).
 
 Tor is likely to be more resistant to censorship, due to their robust network of bridges and varying [pluggable transports](https://tb-manual.torproject.org/circumvention). On the other hand, I2P uses directory servers for the initial connection which are varying/untrusted and run by volunteers, compared to the hard-coded/trusted ones Tor uses which are likely easier to block.
 
