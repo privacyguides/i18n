@@ -41,7 +41,7 @@ cover: activism/banner-activism-dpadirectory.webp
 
 </div>
 
-## 디렉터리
+## 목록
 
 <div class="toolbox-button-grid" markdown>
 

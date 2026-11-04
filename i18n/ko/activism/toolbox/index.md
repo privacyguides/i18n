@@ -177,7 +177,7 @@ cover: activism/banner-activism-toolbox.webp
 <a href="tip-lift-your-allies-up">
 <div class="toolbox-tip-card toolbox-border-community" markdown>
 
-### 1. 동료 북돋아 주기
+### 1. 함께하는 이들을 응원하고 지지해주세요
 
 ![두 손 아이콘](../../assets/img/activism/icons/icon-tips/icon-tips-lift.webp){class="toolbox-tip-icon"}
 
@@ -192,11 +192,11 @@ cover: activism/banner-activism-toolbox.webp
 <a href="tip-support-your-privacy-comrades">
 <div class="toolbox-tip-card toolbox-border-community" markdown>
 
-### 2. 프라이버시 동지 지원하기
+### 2. 프라이버시 수호자들을 후원하세요
 
 ![하트를 든 손 아이콘](../../assets/img/activism/icons/icon-tips/icon-tips-support.webp){class="toolbox-tip-icon"}
 
-프라이버시 권리를 위한 싸움은 함께하는 노력입니다. 혼자서는 할 수 없습니다. 주변에서 기여하는 모든 사람이 여러분 곁에서 같은 싸움을 하고 있습니다. 이 싸움은 때로 힘들고 외로울 수 있습니다. 그래서 서로를 돌보는 것이 무엇보다 중요합니다. 프라이버시 동지를 지원하는 방법을 알아보세요.
+프라이버시 권리를 위한 싸움은 함께하는 노력입니다. 혼자서는 할 수 없습니다. 주변에서 기여하는 모든 사람이 여러분 곁에서 같은 싸움을 하고 있습니다. 이 싸움은 때로 힘들고 외로울 수 있습니다. 그래서 서로를 돌보는 것이 무엇보다 중요합니다. 프라이버시 수호자들을 지원하는 방법을 알아보세요.
 
 자세히 알아보기 :material-arrow-right-drop-circle:
 {align=right}
@@ -206,7 +206,7 @@ cover: activism/banner-activism-toolbox.webp
 <a href="tip-be-kind-to-people-but-be-relentless-with-institutions">
 <div class="toolbox-tip-card toolbox-border-community" markdown>
 
-### 3. 사람에게는 친절하게, 기관에는 단호하게
+### 3. 사람에게는 친절하되, 제도와 조직에는 끈질기게 맞서세요
 
 ![구체를 받친 두 손 아이콘](../../assets/img/activism/icons/icon-tips/icon-tips-kind.webp){class="toolbox-tip-icon"}
 
@@ -240,7 +240,7 @@ cover: activism/banner-activism-toolbox.webp
 <a href="tip-value-allies-with-complementary-expertise">
 <div class="toolbox-tip-card toolbox-border-alliances" markdown>
 
-### 2. 나와 상호 보완적인 전문성을 지닌 동료 존중하기
+### 2. 서로 다른 전문성을 지닌 동료들과 협력하세요
 
 ![반은 어둡고 반은 밝은 구체 아이콘](../../assets/img/activism/icons/icon-tips/icon-tips-complement.webp){class="toolbox-tip-icon"}
 
@@ -255,7 +255,7 @@ cover: activism/banner-activism-toolbox.webp
 <a href="tip-give-credit-where-credit-is-due">
 <div class="toolbox-tip-card toolbox-border-alliances" markdown>
 
-### 3. 공로는 마땅히 인정하기
+### 3. 공로를 마땅히 인정해주기
 
 ![엄지척 아이콘](../../assets/img/activism/icons/icon-tips/icon-tips-credit.webp){class="toolbox-tip-icon"}
 
@@ -278,7 +278,7 @@ cover: activism/banner-activism-toolbox.webp
 
 ![더하기 기호가 있는 사람 아이콘](../../assets/img/activism/icons/icon-tips/icon-tips-beginner.webp){class="toolbox-tip-icon"}
 
-프라이버시 권리 운동이 성장하려면 더 많은 사람을 끌어들여야 합니다. 이를 위해서는 아직 기본 개념에 익숙하지 않은 새로운 사람들도 쉽게 이해할 수 있는 방식으로 프라이버시를 이야기하는 것이 기본입니다. 초보자가 더 쉽게 다가올 수 있도록 옹호 활동을 개선하는 방법을 알아보세요.
+프라이버시 권리 운동이 성장하려면 더 많은 사람을 끌어들여야 합니다. 이를 위해서는 아직 기본 개념에 익숙하지 않은 새로운 사람들도 쉽게 이해할 수 있는 방식으로 프라이버시를 이야기하는 것이 기본입니다. 초보자가 더 쉽게 다가올 수 있도록 활동을 개선하는 방법을 알아보세요.
 
 자세히 알아보기 :material-arrow-right-drop-circle:
 {align=right}
@@ -289,7 +289,7 @@ cover: activism/banner-activism-toolbox.webp
 <a href="tip-keep-your-posts-and-community-inclusive">
 <div class="toolbox-tip-card toolbox-border-accessibility" markdown>
 
-### 2. 게시물과 커뮤니티를 포용적으로 유지하기
+### 2. 게시물과 커뮤니티가 누구에게나 열린 포용적 공간이 되도록 해 주세요
 
 ![더하기 기호가 있는 하트 아이콘](../../assets/img/activism/icons/icon-tips/icon-tips-inclusivity.webp){class="toolbox-tip-icon"}
 
@@ -304,11 +304,11 @@ cover: activism/banner-activism-toolbox.webp
 <a href="tip-be-mindful-of-accessibility">
 <div class="toolbox-tip-card toolbox-border-accessibility" markdown>
 
-### 3. 접근성 고려하기
+### 3. 접근성을 세심하게 고려하세요
 
 ![체크 표시가 있는 하트 아이콘](../../assets/img/activism/icons/icon-tips/icon-tips-accessibility.webp){class="toolbox-tip-icon"}
 
-접근성은 포용성에 꼭 필요한 요소이며, 언제나 우리 활동의 우선순위가 되어야 합니다. 프라이버시 커뮤니티가 모두를 환영하는 곳이 되려면 접근성을 나중으로 미뤄서는 안 됩니다. 처음부터 접근성을 실천에 녹여내야 합니다. 프라이버시 활동의 접근성을 높이는 방법을 알아보세요.
+접근성은 누구나 소외되지 않고 함께할 수 있는 환경을 만드는 데 필수적입니다. 따라서 우리의 모든 활동에서 항상 최우선으로 고려해야 합니다. 프라이버시 커뮤니티가 모두를 환영하는 곳이 되려면 접근성을 사후적인 고려 사항으로 미뤄서는 절대 안 됩니다. 처음부터 접근성을 실천에 녹여내는게 중요합니다. 프라이버시 활동의 접근성을 높이는 방법을 알아보세요.
 
 자세히 알아보기 :material-arrow-right-drop-circle:
 {align=right}
@@ -319,11 +319,11 @@ cover: activism/banner-activism-toolbox.webp
 <a href="tip-make-it-cute">
 <div class="toolbox-tip-card toolbox-border-accessibility" markdown>
 
-### 4. 귀엽게 만들기
+### 4. 귀엽고 깜찍하게 만들기
 
 ![고양이 아이콘](../../assets/img/activism/icons/icon-tips/icon-tips-cute.webp){class="toolbox-tip-icon"}
 
-프라이버시 중심의 애플리케이션이나 웹사이트를 개발하고 있다면 디자인을 소홀히 하지 마세요. 이는 흔히 저지르는 실수로, 일반 사용자의 채택에 상당히 부정적인 영향을 미칠 수 있습니다. 모두에게 매력적이고 접근하기 쉬운 디자인을 만드는 방법을 알아보세요. 귀엽게 만드세요!
+만약 여러분이 프라이버시 중심의 애플리케이션이나 웹사이트를 개발하고 있다면 디자인을 소홀히 하지 마세요. 이는 흔히 저지르는 실수로, 일반 사용자의 채택에 상당히 부정적인 영향을 미칠 수 있습니다. 모두에게 매력적이고 접근하기 쉬운 디자인을 만드는 방법을 알아보세요. 귀엽게 만드세요!
 
 자세히 알아보기 :material-arrow-right-drop-circle:
 {align=right}
@@ -382,16 +382,16 @@ cover: activism/banner-activism-toolbox.webp
 
 <button class="toolbox-button-top">[맨 위로 :material-toolbox:](#toolbox-compartments)</button> <br>
 
-## 끈기 유지하기
+## 꾸준함을 잃지 마세요
 
 <a href="tip-small-actions-matter">
 <div class="toolbox-tip-card toolbox-border-persistence" markdown>
 
-### 1. 작은 행동도 중요합니다
+### 1. 작은 실천 하나하나에도 의미가 있습니다
 
 ![퍼즐 조각 아이콘](../../assets/img/activism/icons/icon-tips/icon-tips-small.webp){class="toolbox-tip-icon"}
 
-더 나은 프라이버시 권리를 위한 운동에는 할 일이 정말 많습니다. 너무 많아서, 남은 일의 규모를 마주하면 때로는 낙담하기 쉽습니다. 하지만 모든 것이 도움이 되며, 아주 작은 행동도 의미가 있습니다. 아무리 작더라도 모든 행동과 모든 승리가 중요한 이유를 알아보세요.
+더 나은 프라이버시 권리를 만들어 가기 위해서는 아직 해야 할 일이 많습니다. 때로는 앞으로 해결해야 할 과제가 너무 많다는 생각에 낙담할 수도 있습니다. 하지만 모든 것이 도움이 되며, 아주 작은 행동도 의미가 있습니다. 아무리 작더라도 모든 행동과 모든 승리가 중요한 이유를 알아보세요.
 
 자세히 알아보기 :material-arrow-right-drop-circle:
 {align=right}
@@ -402,11 +402,11 @@ cover: activism/banner-activism-toolbox.webp
 <a href="tip-take-time-to-rest">
 <div class="toolbox-tip-card toolbox-border-persistence" markdown>
 
-### 2. 쉬어 가되, 다시 돌아와 함께 싸우기
+### 2. 충분히 쉬고, 다시 함께 나아가세요
 
 ![배터리 부족 아이콘](../../assets/img/activism/icons/icon-tips/icon-tips-rest.webp){class="toolbox-tip-icon"}
 
-프라이버시 권리를 위한 싸움은 길어질 것입니다. 이것은 단거리 경주가 아니라 마라톤입니다. 좋은 옹호자가 되고 싶다면 필요할 때 _반드시_ 시간을 내어 쉬어야 합니다. 번아웃은 선택지가 될 수 없습니다. 여러분의 소중한 기여를 잃을 수는 없으니까요! 필요할 때 쉬는 법을 배우는 것이 왜 중요한지 알아보세요.
+프라이버시 권리를 위한 싸움은 길어질 것입니다. 이것은 단거리 경주가 아니라 마라톤입니다. 필요할 때는 주저하지 말고 충분히 휴식을 취하세요, 좋은 옹호 활동가로서 꾸준히 활동하기 위해서는 적절한 휴식이 반드시 필요합니다 번아웃에 이르러서는 안 됩니다. 여러분 한 사람 한 사람의 소중한 기여를 잃고 싶지 않기 때문입니다! 필요할 때 쉬는 법을 배우는 것이 왜 중요한지 알아보세요.
 
 자세히 알아보기 :material-arrow-right-drop-circle:
 {align=right}
