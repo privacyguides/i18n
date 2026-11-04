@@ -53,7 +53,7 @@ description: 위협 모델은 사람마다 다르지만, 이 사이트를 방문
 
 구체적인 관심사에 따라 이 중 일부 위협이 다른 위협보다 더 중요할 수 있습니다. 예를 들어 귀중하거나 중요한 데이터에 접근할 수 있는 소프트웨어 개발자는 주로 <span class="pg-viridian">:material-package-variant-closed-remove: 공급망 공격</span>과 <span class="pg-red">:material-target-account: 표적 공격</span>을 우려할 수 있습니다. 그래도 개인 데이터가 <span class="pg-blue">:material-eye-outline: 대규모 감시</span> 프로그램에 휩쓸리지 않도록 보호하고 싶을 것입니다. 마찬가지로 많은 사람들은 주로 개인 데이터의 <span class="pg-green">:material-account-search: 공개 노출</span>을 우려하겠지만, 기기에 영향을 주는 멀웨어 같은 <span class="pg-orange">:material-bug-outline: 수동적 공격</span> 등 보안 관련 문제도 여전히 경계해야 합니다.
 
-## 익명성 vs. 프라이버시 { #anonymity-vs-privacy }
+## 익명성 vs. 프라이버시
 
 <span class="pg-purple">:material-incognito: 익명성</span>
 
@@ -95,7 +95,7 @@ description: 위협 모델은 사람마다 다르지만, 이 사이트를 방문
 
 **물리적 공격**이 우려된다면 안드로이드, iOS, macOS, [윈도우(TPM 사용)](https://learn.microsoft.com/windows/security/information-protection/secure-the-windows-10-boot-process)처럼 안전한 자체 검사 부팅이 구현된 운영 체제를 사용해야 합니다. 또한 드라이브가 암호화되어 있는지, 그리고 운영 체제가 TPM이나 Secure [Enclave](https://support.apple.com/guide/security/secure-enclave-sec59b0b31ff/1/web/1) 또는 Secure [Element](https://developers.google.com/android/security/android-ready-se)를 사용하여 암호화 패스프레이즈 입력 시도 횟수를 제한하는지 확인해야 합니다. 대부분의 데스크톱 운영 체제는 사용자별로 데이터를 따로 암호화하지 않으므로, 신뢰하지 않는 사람과 컴퓨터를 공유하지 않아야 합니다.
 
-## 특정 조직을 노리는 공격 { #attacks-against-certain-organizations }
+## 특정 조직을 노리는 공격
 
 <span class="pg-viridian">:material-package-variant-closed-remove: 공급망 공격</span>
 
@@ -122,7 +122,7 @@ description: 위협 모델은 사람마다 다르지만, 이 사이트를 방문
 4. 소스 코드에 각 변경 사항의 목적을 설명하는 의미 있는 커밋 메시지([컨벤셔널 커밋](https://conventionalcommits.org) 등)가 있는지 확인합니다. 명확한 메시지는 프로젝트 외부인이 검증, 감사, 버그 발견을 더 쉽게 할 수 있도록 해 줍니다.
 5. 프로그램의 기여자나 관리자 수를 확인합니다. 혼자 개발하는 개발자는 외부 세력의 강요로 악성 코드를 추가하거나, 부주의로 바람직하지 않은 동작을 허용하게 될 가능성이 더 높을 수 있습니다. 이는 누구에게도 책임을 지지 않는 단독 개발자보다 "빅테크"가 개발한 소프트웨어가 더 많은 검증을 받는다는 의미일 수도 있습니다.
 
-## 서비스 제공업체로부터의 프라이버시 { #privacy-from-service-providers }
+## 서비스 제공업체로부터의 프라이버시
 
 <span class="pg-teal">:material-server-network: 서비스 제공업체</span>
 
