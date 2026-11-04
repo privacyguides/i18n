@@ -9,13 +9,13 @@ cover: browser-extensions.webp
 
 - [:material-account-cash:رأسمالية المراقبة](basics/common-threats.md#surveillance-as-a-business-model){ .pg-brown }
 
-بشكل عام، ننصح بتقليل عدد إضافات المتصفح قدر الإمكان لتقليل الـ attack surface. They have privileged access within your browser, require you to trust the developer, can make you [stand out](https://en.wikipedia.org/wiki/Device_fingerprint#Browser_fingerprint), and [weaken](https://groups.google.com/a/chromium.org/g/chromium-extensions/c/0ei-UCHNm34/m/lDaXwQhzBAAJ) site isolation.
+بشكل عام، ننصح بتقليل عدد إضافات المتصفح قدر الإمكان لتقليل الـ attack surface. تملك هذه الإضافات صلاحيات واسعة داخل متصفحك، وتتطلب منك الثقة بمطوريها، وقد [تجعل تمييزك عن غيرك أسهل](https://en.wikipedia.org/wiki/Device_fingerprint#Browser_fingerprint)، و[تُضعف](https://groups.google.com/a/chromium.org/g/chromium-extensions/c/0ei-UCHNm34/m/lDaXwQhzBAAJ) عزل المواقع التي تتصفحها عن بعضها.
 
-However, some provide functionality which can outweigh these downsides in certain situations, particularly when it comes to [content blocking](basics/common-threats.md#mass-surveillance-programs).
+ومع ذلك، توفر بعض الإضافات ميزات قد تفوق فوائدها هذه العيوب في بعض الحالات، خاصة عندما يتعلق الأمر بـ[حظر المحتوى](basics/common-threats.md#mass-surveillance-programs).
 
-Don't install extensions which you don't immediately have a need for, or ones that duplicate the functionality of your browser. For example, [Brave](desktop-browsers.md#brave) users don't need to install uBlock Origin, because Brave Shields already provides the same functionality.
+لا تثبت إضافات لا تحتاج إليها حاليا، أو إضافات تؤدي وظائف موجودة بالفعل في متصفحك. على سبيل المثال، لا يحتاج مستخدمو [Brave](desktop-browsers.md#brave) إلى تثبيت uBlock Origin، لأن Brave Shields يوفر بالفعل الوظائف نفسها.
 
-## Content Blockers
+## أدوات حظر المحتوى
 
 ### uBlock Origin
 
@@ -23,7 +23,7 @@ Don't install extensions which you don't immediately have a need for, or ones th
 
 ![uBlock Origin logo](assets/img/browsers/ublock_origin.svg){ align=right }
 
-**uBlock Origin** is a popular content blocker that could help you block ads, trackers, and fingerprinting scripts.
+أداة uBlock Origin أداة مشهورة  لحظر المحتوى، ويمكنها مساعدتك في حظر الإعلانات وأدوات التتبع والبرامج النصية المستخدمة في الـ Browser Fingerprinting.
 
 [:octicons-repo-16: Repository](https://github.com/gorhill/uBlock#readme){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://github.com/gorhill/uBlock/wiki/Privacy-policy){ .card-link title="Privacy Policy" }
@@ -31,18 +31,18 @@ Don't install extensions which you don't immediately have a need for, or ones th
 [:octicons-code-16:](https://github.com/gorhill/uBlock){ .card-link title="Source Code" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>التنزيلات</summary>
 
 - [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/firefox/addon/ublock-origin)
 - [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm)
 - [:fontawesome-brands-edge: Edge](https://microsoftedge.microsoft.com/addons/detail/ublock-origin/odfafepnkmbhccpbejgmiehpchacaeak)
-- [:fontawesome-brands-opera: Opera](https://addons.opera.com/en/extensions/details/ublock/)
+- [:fontawesome-brands-opera: أوبرا](https://addons.opera.com/en/extensions/details/ublock/)
 
 </details>
 
 </div>
 
-We suggest following the [developer's documentation](https://github.com/gorhill/uBlock/wiki/Blocking-mode) and picking one of the "modes". Additional filter lists can impact performance and [may increase attack surface](https://portswigger.net/research/ublock-i-exfiltrate-exploiting-ad-blockers-with-css).
+ننصح بالرجوع إلى [دليل المطور](https://github.com/gorhill/uBlock/wiki/Blocking-mode) واختيار أحد «أوضاع التشغيل». Additional filter lists can impact performance and [may increase attack surface](https://portswigger.net/research/ublock-i-exfiltrate-exploiting-ad-blockers-with-css).
 
 These are some other [filter lists](https://github.com/gorhill/uBlock/wiki/Dashboard:-Filter-lists) that you may want to consider adding:
 
