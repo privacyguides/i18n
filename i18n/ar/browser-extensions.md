@@ -111,15 +111,15 @@ cover: browser-extensions.webp
 
 </div>
 
-Additional filter lists do slow things down and may increase your attack surface, so only apply what you need. AdGuard for iOS has some premium features; however, standard Safari content blocking is free of charge.
+قد تؤدي إضافة المزيد من قوائم التصفية إلى إبطاء الأداء وزيادة فرص استغلال الثغرات الأمنية، لذا استخدم فقط القوائم التي تحتاج إليها. يوفر AdGuard for iOS بعض الميزات المدفوعة، لكن ميزة حظر المحتوى الأساسية في Safari مجانية.
 
-## Criteria
+## المعايير
 
-- Must not replicate built-in browser or OS functionality.
-- Must directly impact user privacy, i.e. must not simply provide information.
+- يجب ألا تؤدي وظائف موجودة بالفعل في المتصفح أو نظام التشغيل.
+- يجب أن تساهم بشكل مباشر في حماية خصوصية المستخدم، وليس مجرد تقديم معلومات.
 
-[^1]: uBlock Origin Lite _itself_ will consume no resources, because it uses newer APIs which make the browser process the filter lists natively, instead of running JavaScript code within the extension to handle the filtering. However, this resource advantage is only [theoretical](https://github.com/uBlockOrigin/uBOL-home/wiki/Frequently-asked-questions-(FAQ)#is-ubol-more-efficient-cpu--and-memory-wise-than-ubo), because it's possible that standard uBlock Origin's filtering code is more efficient than your browser's native filtering code. This has not yet been benchmarked.
+[^1]: لا تستهلك إضافة uBlock Origin Lite _نفسها_ أي موارد، لأنها تستخدم واجهات API حديثة تسمح للمتصفح بمعالجة قوائم التصفية مباشرة، بدلا من تشغيل أكواد JavaScript داخل الإضافة لتنفيذ عملية التصفية. لكن هذه الميزة في استهلاك الموارد [نظرية فقط](https://github.com/uBlockOrigin/uBOL-home/wiki/Frequently-asked-questions-(FAQ)، فمن الممكن أن يكون الكود الذي يستخدمه uBlock Origin الأصلي لتصفية المحتوى أكثر كفاءة من نظام التصفية المدمج في متصفحك. لم تُجر اختبارات أداء للمقارنة بينهما حتى الآن.
 
-[^2]: [Brave](https://brave.com/blog/brave-shields-manifest-v3/) and [Opera](https://xcancel.com/Opera_Security/status/2066543496001888753) have committed to maintain MV2 support for as long as they're able to.
+[^2]: تعهّد متصفحا [Brave](https://brave.com/blog/brave-shields-manifest-v3/) و[Opera](https://xcancel.com/Opera_Security/status/2066543496001888753) بالاستمرار في دعم MV2 لأطول فترة ممكنة.
 
-[^3]: This is starting to change, as MV3 extensions can now request to use scripts. This has enabled [AdGuard](https://adguard.com/en/blog/adguard-browser-extension-v5-2.html) to propose to import custom filters list by the url, as opposed to having to manually paste the rules, as is the case with uBOL.
+[^3]: لكن هذا الوضع بدأ يتغير، إذ أصبح بإمكان إضافات MV3 طلب إذن لتشغيل سكربتات برمجية. This has enabled [AdGuard](https://adguard.com/en/blog/adguard-browser-extension-v5-2.html) to propose to import custom filters list by the url, as opposed to having to manually paste the rules, as is the case with uBOL.
