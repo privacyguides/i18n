@@ -1,15 +1,15 @@
 ---
-title: Browser Extensions
+title: إضافات المتصفح (Browser Extensions)
 icon: material/puzzle-outline
-description: These browser extensions can enhance your browsing experience and protect your privacy.
+description: يمكن لهذه الإضافات تحسين تجربة تصفحك وحماية خصوصيتك.
 cover: browser-extensions.webp
 ---
 
-<small>Protects against the following threat(s):</small>
+<small>يحمي من التهديدات التالية:</small>
 
-- [:material-account-cash: Surveillance Capitalism](basics/common-threats.md#surveillance-as-a-business-model){ .pg-brown }
+- [:material-account-cash:رأسمالية المراقبة](basics/common-threats.md#surveillance-as-a-business-model){ .pg-brown }
 
-In general, we recommend keeping your browser extensions to a minimum to decrease your attack surface. They have privileged access within your browser, require you to trust the developer, can make you [stand out](https://en.wikipedia.org/wiki/Device_fingerprint#Browser_fingerprint), and [weaken](https://groups.google.com/a/chromium.org/g/chromium-extensions/c/0ei-UCHNm34/m/lDaXwQhzBAAJ) site isolation.
+بشكل عام، ننصح بتقليل عدد إضافات المتصفح قدر الإمكان لتقليل الـ attack surface. They have privileged access within your browser, require you to trust the developer, can make you [stand out](https://en.wikipedia.org/wiki/Device_fingerprint#Browser_fingerprint), and [weaken](https://groups.google.com/a/chromium.org/g/chromium-extensions/c/0ei-UCHNm34/m/lDaXwQhzBAAJ) site isolation.
 
 However, some provide functionality which can outweigh these downsides in certain situations, particularly when it comes to [content blocking](basics/common-threats.md#mass-surveillance-programs).
 
