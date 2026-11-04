@@ -1,7 +1,7 @@
 ---
 meta_title: "프라이버시를 지키는 VPN 서비스 추천 및 비교 (스폰서·광고 없음) - 프라이버시 가이드"
 title: VPN 서비스
-icon: 자료/Vpn
+icon: material/vpn
 description: 온라인에서 여러분의 프라이버시와 보안을 지켜 주는 최고의 VPN 서비스를 소개합니다. 여러분을 감시하려 들지 않는 제공업체를 여기에서 찾아보세요.
 cover: vpn.webp
 global:

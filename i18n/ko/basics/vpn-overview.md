@@ -1,7 +1,7 @@
 ---
 meta_title: "VPN은 어떻게 프라이버시를 보호할까요? VPN 개요 - 프라이버시 가이드"
 title: VPN 개요
-icon: 자료/Vpn
+icon: material/vpn
 description: 가상 사설망(VPN)은 위험을 ISP에서 여러분이 신뢰하는 제3자에게로 옮깁니다. 다음 사항을 염두에 두어야 합니다.
 ---
 

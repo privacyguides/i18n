@@ -122,4 +122,4 @@ cover: browser-extensions.webp
 
 [^2]: تعهّد متصفحا [Brave](https://brave.com/blog/brave-shields-manifest-v3/) و[Opera](https://xcancel.com/Opera_Security/status/2066543496001888753) بالاستمرار في دعم MV2 لأطول فترة ممكنة.
 
-[^3]: لكن هذا الوضع بدأ يتغير، إذ أصبح بإمكان إضافات MV3 طلب إذن لتشغيل سكربتات برمجية. This has enabled [AdGuard](https://adguard.com/en/blog/adguard-browser-extension-v5-2.html) to propose to import custom filters list by the url, as opposed to having to manually paste the rules, as is the case with uBOL.
+[^3]: لكن هذا الوضع بدأ يتغير، إذ أصبح بإمكان إضافات MV3 طلب إذن لتشغيل سكربتات برمجية. سمح هذا لـ[AdGuard](https://adguard.com/en/blog/adguard-browser-extension-v5-2.html) باقتراح إمكانية استيراد قوائم تصفية مخصّصة عبر روابط Url، بدلًا من نسخ القواعد ولصقها يدويًا كما هو الحال في uBOL.
