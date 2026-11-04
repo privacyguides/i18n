@@ -42,26 +42,26 @@ cover: browser-extensions.webp
 
 </div>
 
-ننصح بالرجوع إلى [دليل المطور](https://github.com/gorhill/uBlock/wiki/Blocking-mode) واختيار أحد «أوضاع التشغيل». Additional filter lists can impact performance and [may increase attack surface](https://portswigger.net/research/ublock-i-exfiltrate-exploiting-ad-blockers-with-css).
+ننصح بالرجوع إلى [دليل المطور](https://github.com/gorhill/uBlock/wiki/Blocking-mode) واختيار أحد «أوضاع التشغيل». قد تؤدي إضافة المزيد من قوائم التصفية إلى إبطاء الأداء، و[زيادة فرص استغلال الثغرات الأمنية](https://portswigger.net/research/ublock-i-exfiltrate-exploiting-ad-blockers-with-css).
 
-These are some other [filter lists](https://github.com/gorhill/uBlock/wiki/Dashboard:-Filter-lists) that you may want to consider adding:
+إليك بعض [قوائم التصفية](https://github.com/gorhill/uBlock/wiki/Dashboard:-Filter-lists) الأخرى التي قد ترغب في إضافتها:
 
-- [x] Check **Privacy** > **AdGuard URL Tracking Protection**
-- Add [Actually Legitimate URL Shortener Tool](https://raw.githubusercontent.com/DandelionSprout/adfilt/master/LegitimateURLShortener.txt)
+- [x] انتقل إلى **Privacy** > **AdGuard URL Tracking Protection** وتأكد من تفعيلها
+- أضف [Actually Legitimate URL Shortener Tool](https://raw.githubusercontent.com/DandelionSprout/adfilt/master/LegitimateURLShortener.txt)
 
 ### uBlock Origin Lite
 
-uBlock Origin also has a "Lite" version of their extension, which offers a limited feature-set compared to the original extension. However, it has a few distinct advantages over its full-fledged sibling, so you may want to consider it if...
+تتوفر أيضًا نسخة أخف من إضافة uBlock Origin باسم «Lite»، لكنها تقدم ميزات أقل مقارنةً بالنسخة الأصلية. ومع ذلك، تتميز ببعض المزايا التي لا تتوفر في النسخة الكاملة، لذا قد يكون من الأفضل اختيارها إذا...
 
-- ...you don't want to grant full "read/modify website data" permissions to any extensions (even a trusted one like uBlock Origin)
-- ...you want a more resource (memory/CPU) efficient content blocker[^1]
-- ...your browser only supports Manifest V3 extensions. This is the case for Chrome[^2].
+- ...كنت لا ترغب في منح أي إضافة صلاحيات كاملة «لقراءة بيانات المواقع الإلكترونية وتعديلها»، حتى لو كانت إضافة موثوقة مثل uBlock Origin
+- ...كنت تريد أداة لحظر المحتوى تستهلك موارد أقل من الذاكرة والمعالج (CPU)[^1]
+- ...كان متصفحك يدعم فقط الإضافات التي تستخدم Manifest V3. وهذا هو الحال مع متصفح Chrome[^2].
 
 <div class="admonition recommendation" markdown>
 
 ![uBlock Origin Lite logo](assets/img/browsers/ublock_origin_lite.svg){ align=right }
 
-**uBlock Origin Lite** is a Manifest V3 compatible content blocker. Compared to the original _uBlock Origin_, this extension does not require broad "read/modify data" permissions to function, which lowers the risk of [:material-bug-outline: Passive Attacks](basics/common-threats.md#security-and-privacy){ .pg-orange } on your browser if a malicious rule is added to a filter list.
+أداة uBlock Origin Lite هي أداة لحظر المحتوى متوافقة مع Manifest V3. مقارنةً بإضافة _uBlock Origin_ الأصلية، لا تحتاج هذه الإضافة إلى صلاحيات واسعة «لقراءة البيانات وتعديلها» حتى تعمل، مما يقلّل من خطر تعرّض متصفحك لـ[:material-bug-outline: هجمات سلبية](basics/common-threats.md#security-and-privacy){ .pg-orange } في حال إضافة قاعدة ضارة إلى إحدى قوائم التصفية.
 
 [:octicons-repo-16: Repository](https://github.com/uBlockOrigin/uBOL-home#readme){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://github.com/uBlockOrigin/uBOL-home/wiki/Privacy-policy){ .card-link title="Privacy Policy" }
@@ -69,7 +69,7 @@ uBlock Origin also has a "Lite" version of their extension, which offers a limit
 [:octicons-code-16:](https://github.com/gorhill/uBlock/tree/master/platform/mv3){ .card-link title="Source Code" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>التنزيلات</summary>
 
 - [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/ublock-origin-lite/ddkjiahejlhfcafbddmgiahcphecmpfh)
 - [:fontawesome-brands-edge: Edge](https://microsoftedge.microsoft.com/addons/detail/cimighlppcgcoapaliogpjjdehbnofhn)
@@ -79,23 +79,23 @@ uBlock Origin also has a "Lite" version of their extension, which offers a limit
 
 </div>
 
-We only recommend this version of uBlock Origin if you never want to add any filter lists not included by default, or need advanced options such as [dynamic filtering](https://github.com/gorhill/ublock/wiki/dynamic-filtering:-quick-guide) and the network logger. These restrictions are due to limitations in Manifest V3's design, notably the hard limit on the number of filtering rules, and the fact that extensions generally cannot fetch remote resources.[^3]
+لا ننصح باستخدام هذا الإصدار من uBlock Origin إلا إذا كنت لا ترغب في إضافة قوائم تصفية غير الموجودة بشكل افتراضي، ولا تحتاج إلى ميزات متقدمة مثل [dynamic filtering](https://github.com/gorhill/ublock/wiki/dynamic-filtering:-quick-guide) وأداة لتسجيل الـ (network logger). تعود هذه القيود إلى طريقة تصميم Manifest V3، خاصةً أنه يفرض حدا أقصى لعدد قواعد التصفية، ويقيد قدرة الإضافات على جلب موارد من مصادر خارجية.[^3]
 
-This version offers three levels of blocking: "Basic" works without requiring any special privileges to view and modify site content, while the "Optimal" and "Complete" levels do require that broad permission, but offer a better filtering experience with additional cosmetic rules and scriptlet injections.
+يوفر هذا الإصدار ثلاثة مستويات لحظر المحتوى: يعمل مستوى الـ "Basic" دون الحاجة إلى صلاحيات خاصة لعرض محتوى المواقع وتعديله، بينما يحتاج مستويا "Optimal" و"Complete" إلى هذه الصلاحيات الواسعة، لكنهما يوفران حظرا أفضل للمحتوى بفضل قواعد إضافية لإخفاء العناصر غير المرغوب فيها على صفحات الويب، وإمكانية حقن أكواد JavaScript صغيرة (scriptlets).
 
-If you set the default filtering mode to "Optimal" or "Complete" the extension will request read/modify access to **all** websites you visit. However, you also have the option to change the setting to "Optimal" or "Complete" on a **per-site** basis by adjusting the slider in the extension's pop-up panel on any given site. When you do so, the extension will request read/modify access to that site only. Therefore, if you want to take advantage of uBlock Origin Lite's "permission-less" configuration, you should probably leave the default setting as "Basic" and only adjust it higher on sites where that level is not adequate.
+إذا اخترت "Optimal" أو "Complete" كوضع التصفية الافتراضي، فستطلب الإضافة صلاحية قراءة محتوى جميع المواقع التي تزورها وتعديله. ومع ذلك، يمكنك اختيار "Optimal" أو "Complete" لكل موقع على حدة، عن طريق تحريك شريط التمرير في النافذة المنبثقة للإضافة أثناء زيارة الموقع. عندها، ستطلب الإضافة صلاحية قراءة محتوى هذا الموقع وتعديله فقط. لذلك، إذا أردت الاستفادة من uBlock Origin Lite دون منحها صلاحيات إضافية، فمن الأفضل ترك الوضع الافتراضي على "Basic"، واختيار مستوى حظر أعلى فقط للمواقع التي لا يكون فيها هذا المستوى كافيا.
 
-uBlock Origin Lite only receives block list updates whenever the extension is updated from your browser's extension marketplace, as opposed to on demand. Google has an [expedited review process](https://developer.chrome.com/docs/webstore/skip-review) for filter updates, which means you still typically receive filter list updates as frequently as uBlock Origin Lite chooses to publish a release (historically every 2-7 days). However, only so-called "[safe rules](https://developer.chrome.com/docs/extensions/reference/api/declarativeNetRequest#safe_rules)" can be updated, which may limit the update frequency of lists using advanced techniques.
+لا تُحدث قوائم الحظر في uBlock Origin Lite إلا عند صدور تحديث جديد للإضافة من متجر المتصفح، ولا يمكنك تحديث هذه القوائم وقتما تشاء. توفر Google [مراجعة سريعة](https://developer.chrome.com/docs/webstore/skip-review) لتحديثات قوائم التصفية، لذلك تصلك هذه التحديثات عادةً مع كل إصدار جديد من uBlock Origin Lite، والذي كان يصدر كل يومين إلى 7 أيام. لكن التحديثات تقتصر على ما يُعرف باسم «[القواعد الآمنة](https://developer.chrome.com/docs/extensions/reference/api/declarativeNetRequest#safe_rules)»، لذلك قد لا تُحدث القوائم التي تستخدم تقنيات متقدمة بنفس السرعة.
 
 ### AdGuard
 
-We recommend [Safari](mobile-browsers.md#safari-ios) for iOS users, which unfortunately is only supported by uBlock Origin **Lite**. Luckily, AdGuard provides an adequate alternative:
+ننصح مستخدمي iOS باستخدام [Safari](mobile-browsers.md#safari-ios)، لكن للأسف، الإصدار الوحيد من uBlock Origin الذي يدعمه هو Lite. لحسن الحظ، يوفر AdGuard بديلا مناسبًا:
 
 <div class="admonition recommendation" markdown>
 
 ![AdGuard logo](assets/img/browsers/adguard.svg){ align=right }
 
-**AdGuard for iOS** is a free and open-source content-blocking extension for Safari that uses the native [Content Blocker API](https://developer.apple.com/documentation/safariservices/creating_a_content_blocker).
+اضافة AdGuard for iOS إضافة مجانية ومفتوحة المصدر لحظر المحتوى في Safari، وتستخدم واجهة [Content Blocker API](https://developer.apple.com/documentation/safariservices/creating_a_content_blocker) المدمجة في المتصفح.
 
 [:octicons-home-16: Homepage](https://adguard.com/en/adguard-ios/overview.html){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://adguard.com/privacy/ios.html){ .card-link title="Privacy Policy" }
@@ -103,7 +103,7 @@ We recommend [Safari](mobile-browsers.md#safari-ios) for iOS users, which unfort
 [:octicons-code-16:](https://github.com/AdguardTeam/AdguardForiOS){ .card-link title="Source Code" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>التنزيلات</summary>
 
 - [:simple-appstore: App Store](https://apps.apple.com/app/id1047223162)
 
