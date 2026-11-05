@@ -11,8 +11,8 @@
 *[CVE]: Common Vulnerabilities and Exposures
 *[dark pattern]: Egy megtévesztő tervezési mintázat, amelynek az a célja, hogy bizonyos tettekre rábírja a felhasználót
 *[digitális hagyaték funkció]: A digitális hagyaték olyan funkciókra utal, amelyek lehetővé teszik, hogy hozzáférést biztosíts az adataidhoz másoknak halálod esetén
-*[DNSSEC]: Domain Name System Security Extensions - Domain Név Rendszer Biztonsági Kiterjesztések
-*[DNS]: Domain Name System - Domain Név Rendszer
+*[DNSSEC]: Domain Name System Security Extensions
+*[DNS]: Domain Name System
 *[DoH]: DNS over HTTPS
 *[DoQ]: DNS over QUIC
 *[DoH3]: DNS over HTTP/3
@@ -22,11 +22,11 @@
 *[E2EE]: Végponttól végpontig terjedő titkosítás
 *[ECS]: EDNS Client Subnet
 *[EEA]: European Economic Area - Európai Gazdasági Övezet
-*[entropy]: Annak a mértéke, hogy mennyire kiszámíthatatlan valami
-*[EOL]: End-of-Life – Életciklus vége
+*[entrópia]: Annak a mértéke, hogy mennyire kiszámíthatatlan valami
+*[EOL]: Életciklus vége
 *[Exif]: Exchangeable image file format
 *[FCM]: Firebase Cloud Messaging
-*[FDE]: Full Disk Encryption - Teljes Lemez Titkosítás
+*[FDE]: Teljes lemeztitkosítás
 *[FIDO]: Fast IDentity Online
 *[FS]: Forward Secrecy – előre titkosítás
 *[fork]: Egy meglévő projekt másolásával és független hozzájárulással létrehozott új szoftverprojekt
@@ -68,7 +68,7 @@
 *[OCSP]: Online Certificate Status Protocol - Online Tanúsítvány Státusz Protokoll
 *[OEM]: Original Equipment Manufacturer
 *[OEMs]: Original Equipment Manufacturers
-*[open-weights]: An open weights-model is an AI model that anyone can download and use, but for which the underlying training data and/or algorithms are proprietary.
+*[open-weights]: A nyílt súlyú (open weights) modell egy olyan mesterséges intelligencia modell amit bárki letölthet és használhat, de aminek az alapjául szolgáló tanító adatbázis és/vagy algoritmus zárt forráskódú.
 *[OS]: Operating System - Operációs Rendszer
 *[OTP]: One-Time Password - Egyszer Használható Jelszó
 *[OTPs]: One-Time Passwords - Egyszer Használható Jelszavak
@@ -76,12 +76,12 @@
 *[P2P]: Peer-to-Peer
 *[PAM]: Linux Pluggable Authentication Modules
 *[POP3]: Post Office Protocol 3
-*[PGP]: Pretty Good Privacy (see OpenPGP)
-*[PII]: Personally Identifiable Information - Személyazonosításra Alkalmas Információ
+*[PGP]: Pretty Good Privacy (lásd OpenPGP)
+*[PII]: Személyazonosításra alkalmas adatok
 *[QNAME]: Qualified Name
-*[QUIC]: A network protocol based on UDP, but aiming to combine the speed of UDP with the reliability of TCP.
-*[rate limits]: Rate limits are restrictions that a service imposes on the number of times a user can access their services within a specified period of time.
-*[rolling release]: Updates which are released frequently rather than set intervals
+*[QUIC]: Egy UDP-n alapuló hálózati protokoll, amelynek célja az UDP sebességének és a TCP megbízhatóságának ötvözése.
+*[sebességkorlátozások]: A sebességkorlátozások olyan korlátozások, amik megszabják, hogy egy felhasználó egy meghatározott időtartamon belül hányszor férhet hozzá a szolgáltatáshoz.
+*[gürdülő kiadás]: Olyan frissítések, amelyeket gyakran kiadnak, ahelyett, hogy meghatározott időközönként jelennének meg
 *[RSS]: Really Simple Syndication
 *[SELinux]: Security-Enhanced Linux
 *[SIM]: Subscriber Identity Module
@@ -91,11 +91,11 @@
 *[SSD]: Solid-State Drive
 *[SSH]: Secure Shell
 *[SUID]: Set Owner User ID
-*[SaaS]: Software as a Service (felhőszoftver)
-*[SoC]: System on Chip
-*[SSO]: Single sign-on
-*[system prompt]: The system prompt of an AI chat is the general instructions given by a human to guide how it should operate.
-*[temperature]: AI temperature is a parameter used in AI models to control the level of randomness and creativity in the generated text.
+*[SaaS]: Szoftver mint szolgáltatás (felhőszoftver)
+*[SoC]: Egylapkás rendszer
+*[SSO]: Egyszeri bejelentkezés
+*[system prompt]: Az MI chat rendszerutasítása (system prompt) egy ember által megadott általános utasítás arra vonatkozóan, hogy hogyan működjön a rendszer.
+*[temperature]: Az MI temperature egy MI modellekben használatos paraméter, ami a generált szövegek véletlenszerűségét és kreativitását szabályozza.
 *[TCP]: Transmission Control Protocol
 *[TEE]: Trusted Execution Environment
 *[TLS]: Transport Layer Security
@@ -106,11 +106,11 @@
 *[UEFI]: Unified Extensible Firmware Interface
 *[UDP]: User Datagram Protocol
 *[VPN]: Virtual Private Network - Virtuális Privát Hálózat
-*[VLAN]: Virtual Local Area Network
+*[VLAN]: Virtuális helyi hálózat
 *[VoIP]: Voice over IP (Internet Protocol)
 *[W3C]: World Wide Web Consortium
 *[XMP]:  Extensible Metadata Platform
 *[XMPP]: Extensible Messaging and Presence Protocol
-*[PWA]: Progressive Web App - Progresszív Webes Alkalmazás
-*[PWAs]: Progressive Web Apps
+*[PWA]: Progresszív webalkalmazás
+*[PWAs]: Progresszív webalkalmazások
 *[WKD]: Web Key Directory
