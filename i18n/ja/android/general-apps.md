@@ -28,7 +28,7 @@ robots: nofollow, max-snippet:-1, max-image-preview:large
 
 - [:material-bug-outline: パッシブ攻撃](../basics/common-threats.md#security-and-privacy){ .pg-orange }
 
-本サイトでは様々なAndroidアプリをおすすめしています。 本記事で紹介するアプリはAndroid専用アプリで、システムの重要な機能を強化あるいは置換するものです。
+本サイトでは様々なAndroidアプリをおすすめしています。本記事で紹介するアプリはAndroid専用アプリで、システムの重要な機能を強化あるいは置換するものです。
 
 ## Shelter
 
@@ -97,7 +97,7 @@ Shelterは[連絡先の検索をブロック](https://secure-system.gitlab.io/In
 
 現状、動画ファイルからはメタデータは消去されませんが、その機能は追加予定です。
 
-画像の向きのメタデータは消去されません。 Secure Cameraで位置情報を有効にすると、それも消去されません。 このデータを後から消去するには、[ExifEraser](../data-redaction.md#exiferaser-android)などの別のアプリが必要になります。
+画像の向きのメタデータは消去されません。 Secure Cameraで位置情報を有効にすると、それも消去されません。このデータを後から消去するには、[ExifEraser](../data-redaction.md#exiferaser-android)などの別のアプリが必要になります。
 
 </div>
 
@@ -112,7 +112,7 @@ Shelterは[連絡先の検索をブロック](https://secure-system.gitlab.io/In
 ![Secure PDF Viewerのロゴ](../assets/img/android/secure_pdf_viewer.svg#only-light){ align=right }
 ![Secure PDF Viewerのロゴ](../assets/img/android/secure_pdf_viewer-dark.svg#only-dark){ align=right }
 
-**Secure PDF Viewer**は、[pdf.js](https://ja.wikipedia.org/wiki/PDF.js)をベースにしたPDFビューアで、権限が一切必要ありません。 開いたPDFは[サンドボックス化](https://ja.wikipedia.org/wiki/%E3%82%B5%E3%83%B3%E3%83%89%E3%83%9C%E3%83%83%E3%82%AF%E3%82%B9_(%E3%82%BD%E3%83%95%E3%83%88%E3%82%A6%E3%82%A7%E3%82%A2%E9%96%8B%E7%99%BA))された[WebView](https://developer.android.com/guide/webapps/webview)に送られます。 そのため、コンテンツやファイルに直接アクセスしに行く権限が必要ありません。
+**Secure PDF Viewer**は、[pdf.js](https://ja.wikipedia.org/wiki/PDF.js)をベースにしたPDFビューアで、権限が一切必要ありません。開いたPDFは[サンドボックス化](https://ja.wikipedia.org/wiki/%E3%82%B5%E3%83%B3%E3%83%89%E3%83%9C%E3%83%83%E3%82%AF%E3%82%B9_(%E3%82%BD%E3%83%95%E3%83%88%E3%82%A6%E3%82%A7%E3%82%A2%E9%96%8B%E7%99%BA))された[WebView](https://developer.android.com/guide/webapps/webview)に送られます。そのため、コンテンツやファイルに直接アクセスしに行く権限が必要ありません。
 
 [Content-Security-Policy](https://en.wikipedia.org/wiki/Content_Security_Policy)を使用することで、WebView内のJavaScriptとスタイルプロパティがすべて静的コンテンツであることを強制するようになっています。
 
@@ -133,7 +133,7 @@ Shelterは[連絡先の検索をブロック](https://secure-system.gitlab.io/In
 
 ## 規準
 
-\*\*私たちは、推薦するどのプロジェクトとも提携していません。\*\*客観的に推薦できるよう、[標準となる規準](../about/criteria.md)に加えて、一連の明確な要件を定めています。 プロジェクトを利用する前に、このリストをよく理解し、ご自身で調査を行って、そのプロジェクトがあなたにとって適切な選択かどうかをご確認ください。
+\*\*私たちは、推薦するどのプロジェクトとも提携していません。\*\*客観的に推薦できるよう、[標準となる規準](../about/criteria.md)に加えて、一連の明確な要件を定めています。プロジェクトを利用する前に、このリストをよく理解し、ご自身で調査を行って、そのプロジェクトがあなたにとって適切な選択かどうかをご確認ください。
 
 - 本サイト上の他のカテゴリに当てはまらないアプリのみ本ページに掲載する。
 - General applications should extend or replace core system functionality.

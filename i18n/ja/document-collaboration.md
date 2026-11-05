@@ -47,7 +47,7 @@ Most online **document collaboration** platforms like Google Drive do not suppor
 
 ### 満たされることが望ましい基準
 
-満たされることが望ましい基準には、このカテゴリーの完璧なプロジェクトに私たちが望むものを示しています。 私たちが推薦するプロジェクトは、この機能の一部または全部を含んでいないかもしれませんが、もし含んでいれば、このページで他のプロジェクトよりも上位にランクされるかもしれません。
+満たされることが望ましい基準には、このカテゴリーの完璧なプロジェクトに私たちが望むものを示しています。私たちが推薦するプロジェクトは、この機能の一部または全部を含んでいないかもしれませんが、もし含んでいれば、このページで他のプロジェクトよりも上位にランクされるかもしれません。
 
 - Should store files in a conventional filesystem.
 - Should support TOTP or FIDO2 multifactor authentication support, or passkey logins.

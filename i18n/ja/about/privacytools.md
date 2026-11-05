@@ -3,7 +3,7 @@ title: "PrivacyTools FAQ"
 description: The real story behind the team transition from privacytools.io to privacyguides.org
 ---
 
-2021年9月に、すべてのアクティブな貢献者がPrivacyToolsからこのサイト（Privacy Guides）に移行することに全会一致で同意しました。 この決定は、 PrivacyToolsの創設者およびドメインの管理者が長期間失踪し、連絡を取ることができなかったことによります。
+2021年9月に、すべてのアクティブな貢献者がPrivacyToolsからこのサイト（Privacy Guides）に移行することに全会一致で同意しました。この決定は、 PrivacyToolsの創設者およびドメインの管理者が長期間失踪し、連絡を取ることができなかったことによります。
 
 Having built a reputable site and set of services on PrivacyTools.io, this caused grave concerns for the future of PrivacyTools, as any future disruption could wipe out the entire organization with no recovery method. This transition was communicated to the PrivacyTools community many months in advance via a variety of channels including its blog, Twitter, Reddit, and Mastodon to ensure the entire process went as smoothly as possible. We did this to ensure nobody was kept in the dark, which has been our modus operandi since our team was created, and to make sure Privacy Guides was recognized as the same reliable organization that PrivacyTools was before the transition.
 

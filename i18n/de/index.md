@@ -102,7 +102,7 @@ Bekannt aus **WIRED**, **Tweakers.net**, **The New York Times** und vielen ander
 <div markdown>
 ## Was sind Datenschutz-Tools?
 
-Wir empfehlen eine breite Palette von **Datenschutz/Privatsphäre-Tools** (auch bekannt als *Privatsphäre-Apps*, *Privatsphäre-Dienstprogramme*, *Privatsphäre-Software*), die Software und Hardware umfassen, die du zur Verbesserung deiner Privatsphäre einsetzen kannst. Viele der von uns empfohlenen Tools sind völlig kostenlos und Open-Source-Software, während einige kommerzielle Dienste zum Kauf angeboten werden. Das Wechseln von gängiger datenhungriger Software wie Google Chrome und Windows auf datenschutzfreundliche Werkzeuge wie [Brave](Desktop-Browser.md#brave) und [Linux](desktop.md) können viel dazu beitragen, die Informationen, die du an Unternehmen und andere weitergibst, zu kontrollieren.
+Wir empfehlen eine breite Palette von **Datenschutz/Privatsphäre-Tools** (auch bekannt als *Privatsphäre-Apps*, *Privatsphäre-Dienstprogramme*, *Privatsphäre-Software*), die Software und Hardware umfassen, die du zur Verbesserung deiner Privatsphäre einsetzen kannst. Viele der von uns empfohlenen Tools sind völlig kostenlos und Open-Source-Software, während einige kommerzielle Dienste zum Kauf angeboten werden. Das Wechseln von gängiger datenhungriger Software wie Google Chrome und Windows auf datenschutzfreundliche Werkzeuge wie [Brave](desktop-browsers.md#brave) und [Linux](desktop.md) können viel dazu beitragen, die Informationen, die du an Unternehmen und andere weitergibst, zu kontrollieren.
 
 [:material-check-all: Unsere Standardkriterien](about/criteria.md){ class="md-button" }
 </div>

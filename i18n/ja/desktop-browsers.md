@@ -61,7 +61,7 @@ schema:
 
 - [:material-account-cash: 監視資本主義](basics/common-threats.md#surveillance-as-a-business-model ""){.pg-brown}
 
-標準的・非匿名のインターネットブラウジングにおいて推奨する**デスクトップウェブブラウザ**は以下のものが挙げられます。 強力なプライバシー保護とフィンガープリント対策を重視する場合は[Mullvad Browser](#mullvad-browser)を、カジュアルなブラウジングやGoogle Chromeの良い代替品を探している場合は[Firefox](#firefox)を、Chromiumブラウザとの互換性が必要な場合は[Brave](#brave)をおすすめします。
+標準的・非匿名のインターネットブラウジングにおいて推奨する**デスクトップウェブブラウザ**は以下のものが挙げられます。強力なプライバシー保護とフィンガープリント対策を重視する場合は[Mullvad Browser](#mullvad-browser)を、カジュアルなブラウジングやGoogle Chromeの良い代替品を探している場合は[Firefox](#firefox)を、Chromiumブラウザとの互換性が必要な場合は[Brave](#brave)をおすすめします。
 
 If you need to browse the internet anonymously, you should use [Tor Browser](tor.md) instead. We make some configuration recommendations on this page, but Tor Browser offers the best protections against online tracking.
 
@@ -91,9 +91,9 @@ If you need to browse the internet anonymously, you should use [Tor Browser](tor
 
 Like [Tor Browser](tor.md), Mullvad Browser is designed to prevent fingerprinting by making your browser fingerprint similar to a large number of other Mullvad Browser users, and it includes default settings and extensions that are automatically configured by the default security levels: *Standard*, *Safer* and *Safest*.
 
-そのため、デフォルトの[セキュリティレベル](https://tb-manual.torproject.org/security-settings)を調整する以外の変更は、行うべきではありません。 セキュリティレベルを調整する際には、使い続ける前にブラウザを再起動**しなければなりません**。 再起動しなければ、[セキュリティ設定は完全に適用されない可能性があり](https://www.privacyguides.org/articles/2025/05/02/tor-security-slider-flaw)、選択した設定よりもフィンガープリンティングやエクスプロイトのリスクが高くなります。
+そのため、デフォルトの[セキュリティレベル](https://tb-manual.torproject.org/security-settings)を調整する以外の変更は、行うべきではありません。セキュリティレベルを調整する際には、使い続ける前にブラウザを再起動**しなければなりません**。再起動しなければ、[セキュリティ設定は完全に適用されない可能性があり](https://www.privacyguides.org/articles/2025/05/02/tor-security-slider-flaw)、選択した設定よりもフィンガープリンティングやエクスプロイトのリスクが高くなります。
 
-設定を調整する以外の変更をした場合、フィンガープリンティングは一意なものとなり、このブラウザを使う意味がなくなってしまいます。 ブラウザをより詳細に設定したい場合で、フィンガープリントが重要でない場合は、代わりに[Firefox](#firefox)を推奨します。
+設定を調整する以外の変更をした場合、フィンガープリンティングは一意なものとなり、このブラウザを使う意味がなくなってしまいます。ブラウザをより詳細に設定したい場合で、フィンガープリントが重要でない場合は、代わりに[Firefox](#firefox)を推奨します。
 
 ### フィンガープリント対策
 
@@ -103,13 +103,13 @@ Like [Tor Browser](tor.md), Mullvad Browser is designed to prevent fingerprintin
 
 Note that while you can use Mullvad Browser with any VPN provider, other people on that VPN must also be using Mullvad Browser for this "crowd" to exist, something which is more likely on Mullvad VPN compared to other providers. Mullvad Browserには、組み込みのVPN接続機能は備わっていません。また、ブラウザを使用する前にVPNを使用しているかどうかを確認する機能もありません。VPN接続については、別途設定し、管理する必要があります。
 
-Mullvad Browserには、*uBlock Origin*と*NoScript*の拡張機能が予めインストールされています。 私たちは通常、*追加の*[拡張機能](browser-extensions.md)をインストールすることは推奨していません。あらかじめインストールされている拡張機能を削除したり、デフォルトの設定を変更したりするべきでは**ありません**。あなたのブラウザのフィンガープリントが他のMullvad Browserユーザーと異なるものになってしまいます。 It also comes pre-installed with the Mullvad Browser Extension, which *can* be safely removed without [impacting](https://mullvad.net/en/help/tag/mullvad-browser#112) your browser fingerprint if you would like, but is also safe to keep even if you don't use Mullvad VPN.
+Mullvad Browserには、*uBlock Origin*と*NoScript*の拡張機能が予めインストールされています。私たちは通常、*追加の*[拡張機能](browser-extensions.md)をインストールすることは推奨していません。あらかじめインストールされている拡張機能を削除したり、デフォルトの設定を変更したりするべきでは**ありません**。あなたのブラウザのフィンガープリントが他のMullvad Browserユーザーと異なるものになってしまいます。 It also comes pre-installed with the Mullvad Browser Extension, which *can* be safely removed without [impacting](https://mullvad.net/en/help/tag/mullvad-browser#112) your browser fingerprint if you would like, but is also safe to keep even if you don't use Mullvad VPN.
 
 ### プライベートブラウジングモード
 
-Mullvad Browserは常にプライベートブラウジングモードで動作します。履歴、クッキー、その他サイトに関するデータは、ブラウザを閉じるたびに消去されます。 ブックマーク、ブラウザの設定、拡張機能の設定は引き続き保持されます。
+Mullvad Browserは常にプライベートブラウジングモードで動作します。履歴、クッキー、その他サイトに関するデータは、ブラウザを閉じるたびに消去されます。ブックマーク、ブラウザの設定、拡張機能の設定は引き続き保持されます。
 
-これは、高度な形式のトラッキングを防ぐために必要ですが、これによって利便性が減少したり、Firefoxの一部の機能（例えば、Multi-Account Containersなど）が使えなくなったりします。 常に複数のブラウザを使用できることを覚えておいてください。たとえば、ログインしたままにしたいサイトや、Mullvad Browserでは正しく動作しないサイトについては Firefox + Arkenfox を使い、一般的なブラウジングには Mullvad Browserを使うといった方法が考えられます。
+これは、高度な形式のトラッキングを防ぐために必要ですが、これによって利便性が減少したり、Firefoxの一部の機能（例えば、Multi-Account Containersなど）が使えなくなったりします。常に複数のブラウザを使用できることを覚えておいてください。たとえば、ログインしたままにしたいサイトや、Mullvad Browserでは正しく動作しないサイトについては Firefox + Arkenfox を使い、一般的なブラウジングには Mullvad Browserを使うといった方法が考えられます。
 
 ## Firefox
 
@@ -140,7 +140,7 @@ Mullvad Browserは常にプライベートブラウジングモードで動作�
 <div class="admonition warning" markdown>
 <p class="admonition-title">注意</p>
 
-Firefoxは、Mozillaのウェブサイトからのダウンロードに固有の[ダウンロードトークン](https://bugzilla.mozilla.org/show_bug.cgi?id=1677497#c)が含まれており、トークンを送信するために Firefox のテレメトリーを使用しています。 このトークンは[Mozilla FTP](https://ftp.mozilla.org/pub/firefox/releases/)からのリリースには含まれて**いません**
+Firefoxは、Mozillaのウェブサイトからのダウンロードに固有の[ダウンロードトークン](https://bugzilla.mozilla.org/show_bug.cgi?id=1677497#c)が含まれており、トークンを送信するために Firefox のテレメトリーを使用しています。このトークンは[Mozilla FTP](https://ftp.mozilla.org/pub/firefox/releases/)からのリリースには含まれて**いません**
 
 </div>
 
@@ -154,11 +154,11 @@ Firefoxは、Mozillaのウェブサイトからのダウンロードに固有の
 
 「検索候補を表示する」機能はお住まいの地域によって利用できない場合があります。
 
-「検索候補を表示する」機能は検索をしなくても、アドレスバーに入力した文字をすべてデフォルトの検索エンジンに送信します。 「検索候補を表示する」機能を無効化することで検索エンジンに送る情報をより厳密に決めることができます。
+「検索候補を表示する」機能は検索をしなくても、アドレスバーに入力した文字をすべてデフォルトの検索エンジンに送信します。「検索候補を表示する」機能を無効化することで検索エンジンに送る情報をより厳密に決めることができます。
 
 ##### Firefox Suggest
 
-[Firefox Suggest](https://support.mozilla.org/kb/firefox-suggest) is a feature similar to search suggestions. 同じ理由でFirefox suggestも無効化することを推奨します。 **アドレスバー**のヘッダーに以下のオプションが表示されない場合、この機能は提供されていないので、設定を変更する必要はありません。
+[Firefox Suggest](https://support.mozilla.org/kb/firefox-suggest) is a feature similar to search suggestions. 同じ理由でFirefox suggestも無効化することを推奨します。**アドレスバー**のヘッダーに以下のオプションが表示されない場合、この機能は提供されていないので、設定を変更する必要はありません。
 
 - [ ] **「Firefoxからの提案」**からチェックを外す
 - [ ] **スポンサーからの提案**のチェックを外すこと
@@ -171,7 +171,7 @@ Firefoxは、Mozillaのウェブサイトからのダウンロードに固有の
 
 - [x] 強化型トラッキング防止機能で**厳格**を選択する
 
-この機能はソーシャルメディアトラッカー、フィンガープリンティングスクリプト（*すべての*フィンガープリンティングから保護されるわけではありません）、暗号通貨マイニング、クロスサイトのトラッキングクッキーやその他トラッキングコンテンツをブロッキングし、あなたを保護します。 強化型トラッキング防止機能は一般的な多くの脅威に対応しますが、ウェブサイトのユーザビリティに与える影響を最小限に抑えるため、すべてのトラッキングをブロックするわけではありません。
+この機能はソーシャルメディアトラッカー、フィンガープリンティングスクリプト（*すべての*フィンガープリンティングから保護されるわけではありません）、暗号通貨マイニング、クロスサイトのトラッキングクッキーやその他トラッキングコンテンツをブロッキングし、あなたを保護します。強化型トラッキング防止機能は一般的な多くの脅威に対応しますが、ウェブサイトのユーザビリティに与える影響を最小限に抑えるため、すべてのトラッキングをブロックするわけではありません。
 
 ##### 終了時のクリーンアップ
 
@@ -179,7 +179,7 @@ Firefoxは、Mozillaのウェブサイトからのダウンロードに固有の
 
 - [x] **Firefox を閉じたときに Cookie とサイトデータを削除する**にチェックをつける
 
-この機能により永続的なクッキーからは保護されますが、1回のブラウジングセッション中に取得されたクッキーからは保護されません。 有効化することでFirefoxを再起動するだけでブラウザのクッキーを簡単に削除できるようになります。 よく見る特定のサイトのログインを維持したい場合、サイトごとに例外を設定することができます。
+この機能により永続的なクッキーからは保護されますが、1回のブラウジングセッション中に取得されたクッキーからは保護されません。有効化することでFirefoxを再起動するだけでブラウザのクッキーを簡単に削除できるようになります。よく見る特定のサイトのログインを維持したい場合、サイトごとに例外を設定することができます。
 
 ##### テレメトリー
 
@@ -193,7 +193,7 @@ MozillaのFirefoxプライバシーポリシーでは以下のように記載さ
 
 > Firefox は、Firefoxのバージョンと言語、デバイスのオペレーティングシステムとハードウェア構成、メモリー、クラッシュやエラーに関する基本情報、アップデート、セーフブラウジング、アクティベーションなどの自動処理の結果に関するデータを送信します。 Firefoxが私たちにデータを送信するとき、あなたのIPアドレスは一時的に私たちのサーバーログの一部として収集されます。
 
-さらに、Mozillaアカウントサービスは[技術的なデータ](https://mozilla.org/privacy/mozilla-accounts)を収集します。 もし、Mozillaアカウントを利用している場合、以下のものをオプトアウトすることができます：
+さらに、Mozillaアカウントサービスは[技術的なデータ](https://mozilla.org/privacy/mozilla-accounts)を収集します。もし、Mozillaアカウントを利用している場合、以下のものをオプトアウトすることができます：
 
 1. [accounts.firefox.comのプロフィール設定](https://accounts.firefox.com/settings#data-collection)を開く
 2. **データの収集と使用** > **Firefoxアカウントの改善を支援する**のチェックを外す
@@ -202,7 +202,7 @@ MozillaのFirefoxプライバシーポリシーでは以下のように記載さ
 
 - [x] **すべてのウィンドウで HTTPS-Only モードを有効にする**を選択する
 
-この機能により、意図せずプレーンテキストのHTTPでウェブサイトに接続することを防ぎます。 現在ではHTTPSを使用していないサイトはほとんどないため、通常のブラウジングにおいて影響が出ることはあまりありません。
+この機能により、意図せずプレーンテキストのHTTPでウェブサイトに接続することを防ぎます。現在ではHTTPSを使用していないサイトはほとんどないため、通常のブラウジングにおいて影響が出ることはあまりありません。
 
 ##### DNS over HTTPS
 
@@ -210,7 +210,7 @@ MozillaのFirefoxプライバシーポリシーでは以下のように記載さ
 
 - [x] **最大限の保護**にチェックを入れ、適切なプロバイダーを選択する
 
-最大限の保護を設定することで、DNS over HTTPSが常に使用されます。Firefoxが安全なDNSリゾルバに接続できない場合や、安全なDNSリゾルバがアクセスしようとしたドメインのレコードが存在しない場合、セキュリティ警告が表示されます。 接続しているネットワークによって、DNSのセキュリティが秘密裏にダウングレードされることを防ぎます。
+最大限の保護を設定することで、DNS over HTTPSが常に使用されます。Firefoxが安全なDNSリゾルバに接続できない場合や、安全なDNSリゾルバがアクセスしようとしたドメインのレコードが存在しない場合、セキュリティ警告が表示されます。接続しているネットワークによって、DNSのセキュリティが秘密裏にダウングレードされることを防ぎます。
 
 #### 同期
 
@@ -227,7 +227,7 @@ MozillaのFirefoxプライバシーポリシーでは以下のように記載さ
 
 [Arkenfox project](https://github.com/arkenfox/user.js)はFirefoxの注意深く考えられた設定を提供しています。 If you [decide](https://github.com/arkenfox/user.js/wiki/1.1-To-Arkenfox-or-Not) to use Arkenfox, a [few options](https://github.com/arkenfox/user.js/wiki/3.2-Overrides-%5BCommon%5D) are subjectively strict and/or may cause some websites to not work properly—which you can [easily change](https://github.com/arkenfox/user.js/wiki/3.1-Overrides) to suit your needs. プロジェクトの[wiki](https://github.com/arkenfox/user.js/wiki)をすべて読むことを**強く推奨**します。 Arkenfoxは[コンテナー](https://support.mozilla.org/kb/containers#w_for-advanced-users)をサポートしています。
 
-Arkenfoxはcanvasのランダム化やFirefoxの標準で利用できるフィンガープリント対策で基本的・単純なトラッキングスクリプトを防ぐことのみを目的としています。 Mulllvad BrowserやTor BrowserのようにArkenfoxユーザーを一つの集団として扱うこと（高度なフィンガープリントトラッキングスクリプトを防ぐ唯一の方法）は目的としていません。 いつも複数のブラウザを利用できることを覚えておいてください。例えば、ログインを維持したい、もしくは信用できるウェブサイトはFirefoxとArkenfoxを利用し、通常のブラウジングではMullvad Browserを利用することもできます。
+Arkenfoxはcanvasのランダム化やFirefoxの標準で利用できるフィンガープリント対策で基本的・単純なトラッキングスクリプトを防ぐことのみを目的としています。 Mulllvad BrowserやTor BrowserのようにArkenfoxユーザーを一つの集団として扱うこと（高度なフィンガープリントトラッキングスクリプトを防ぐ唯一の方法）は目的としていません。いつも複数のブラウザを利用できることを覚えておいてください。例えば、ログインを維持したい、もしくは信用できるウェブサイトはFirefoxとArkenfoxを利用し、通常のブラウジングではMullvad Browserを利用することもできます。
 
 ## Brave
 
@@ -261,7 +261,7 @@ BraveはChromiumウェブブラウザプロジェクトに基づいて構築さ�
 <div class="admonition warning" markdown>
 <p class="admonition-title">注意</p>
 
-どのブラウザからダウンロードされたか追跡するため、Braveのウェブサイトからダウンロードした際に「[リファラルコード](https://github.com/brave/brave-browser/wiki/Brave%E2%80%99s-Use-of-Referral-Codes)」がファイル名に追加されます。例えば「BRV002」をダウンロードした際のファイル名は「Brave-Browser-BRV002.pkg」となります。 インストーラーはインストールの終わりにBraveのサーバーにリファラルコードを送信します。 これが心配な場合は、インストーラファイルを開く前に名前を変更できます。
+どのブラウザからダウンロードされたか追跡するため、Braveのウェブサイトからダウンロードした際に「[リファラルコード](https://github.com/brave/brave-browser/wiki/Brave%E2%80%99s-Use-of-Referral-Codes)」がファイル名に追加されます。例えば「BRV002」をダウンロードした際のファイル名は「Brave-Browser-BRV002.pkg」となります。インストーラーはインストールの終わりにBraveのサーバーにリファラルコードを送信します。これが心配な場合は、インストーラファイルを開く前に名前を変更できます。
 
 </div>
 
@@ -271,7 +271,7 @@ BraveはChromiumウェブブラウザプロジェクトに基づいて構築さ�
 
 #### シールド
 
-Braveの[シールド](https://support.brave.com/hc/articles/360022973471-What-is-Shields)にはアンチフィンガープリンティングの機能があります。 以下のオプションはアクセスするすべてのページを対象にするため、[グローバル](https://support.brave.com/hc/articles/360023646212-How-do-I-configure-global-and-site-specific-Shields-settings)に設定することを推奨します。
+Braveの[シールド](https://support.brave.com/hc/articles/360022973471-What-is-Shields)にはアンチフィンガープリンティングの機能があります。以下のオプションはアクセスするすべてのページを対象にするため、[グローバル](https://support.brave.com/hc/articles/360023646212-How-do-I-configure-global-and-site-specific-Shields-settings)に設定することを推奨します。
 
 シールドのオプションは、必要に応じてサイトごとにダウングレードできますが、デフォルトでは以下の設定をおすすめします。
 
@@ -282,7 +282,7 @@ Braveの[シールド](https://support.brave.com/hc/articles/360022973471-What-i
 <details class="warning" markdown>
 <summary>デフォルトのフィルターリストの使用について</summary>
 
-`brave://adblock` ページで追加のコンテンツフィルターを選択することができます。 この機能は使わず、デフォルトのフィルターの一覧のままにしておくことをお勧めします。 追加のリストを使用すると、他のBraveユーザーから目立つようになり、また、Braveの脆弱性によってリストに悪意のあるルールが追加された場合、攻撃対象となる領域が増えるおそれがあります。
+`brave://adblock` ページで追加のコンテンツフィルターを選択することができます。この機能は使わず、デフォルトのフィルターの一覧のままにしておくことをお勧めします。追加のリストを使用すると、他のBraveユーザーから目立つようになり、また、Braveの脆弱性によってリストに悪意のあるルールが追加された場合、攻撃対象となる領域が増えるおそれがあります。
 
 </details>
 
@@ -295,7 +295,7 @@ Braveの[シールド](https://support.brave.com/hc/articles/360022973471-What-i
 
 </div>
 
-1. JavaScriptが無効となり、多くのサイトが正しく表示されなくなります。 修正するには、アドレスバーのシールドアイコンをクリックし、*高度なコントロール*からこの設定のチェックを外し、サイトごとに例外を設定します。
+1. JavaScriptが無効となり、多くのサイトが正しく表示されなくなります。修正するには、アドレスバーのシールドアイコンをクリックし、*高度なコントロール*からこの設定のチェックを外し、サイトごとに例外を設定します。
 2. よく見る特定のサイトでログインを維持したいのであれば、アドレスバーのシールドアイコンをクリックし、*高度なコントロール*からこの設定のチェックを外し、サイトごとに例外を設定します。
 
 #### プライバシーとセキュリティ
@@ -316,7 +316,7 @@ Braveの[シールド](https://support.brave.com/hc/articles/360022973471-What-i
 
 ##### Torウィンドウ
 
-[**Tor搭載のプライベートウィンドウ**](https://support.brave.com/hc/articles/360018121491-What-is-a-Private-Window-with-Tor-Connectivity)を使うことで、プライベートウィンドウの通信はTorネットワークを経由し、.onionにアクセスでき、場合によっては役立つこともあります。 ただし、BraveはTor Browserよりもフィンガープリンティングに対して強く**ない**ことに加え、BraveでTorを使う人は非常に少ないため目立ってしまいます。 脅威モデルにより強い匿名性が必要な場合、[Tor Browser](tor.md#tor-browser)を使用します。
+[**Tor搭載のプライベートウィンドウ**](https://support.brave.com/hc/articles/360018121491-What-is-a-Private-Window-with-Tor-Connectivity)を使うことで、プライベートウィンドウの通信はTorネットワークを経由し、.onionにアクセスでき、場合によっては役立つこともあります。ただし、BraveはTor Browserよりもフィンガープリンティングに対して強く**ない**ことに加え、BraveでTorを使う人は非常に少ないため目立ってしまいます。脅威モデルにより強い匿名性が必要な場合、[Tor Browser](tor.md#tor-browser)を使用します。
 
 ##### データ コレクション
 
@@ -326,7 +326,7 @@ Braveの[シールド](https://support.brave.com/hc/articles/360022973471-What-i
 
 #### Web3
 
-BraveのWeb3機能はブラウザのフィンガープリントとアタックサーフェスを潜在的に増やす可能性があります。 これらの機能を使わないのであれば、無効化すべきです。
+BraveのWeb3機能はブラウザのフィンガープリントとアタックサーフェスを潜在的に増やす可能性があります。これらの機能を使わないのであれば、無効化すべきです。
 
 - *デフォルトのEthereumウォレット*の**拡張機能（フォールバックなし）**を選択
 - *デフォルトのSolanaウォレット*の**拡張機能（フォールバックなし）**を選択
@@ -358,13 +358,13 @@ BraveのWeb3機能はブラウザのフィンガープリントとアタック�
 
 #### Brave Rewardsとウォレット
 
-**Brave Rewards**ではBraveで特定の行動を実行することにより、ベーシックアテンショントークン(BAT)という暗号通貨を得ることができます。 プロバイダーによるカストディアルアカウントと本人確認が必要となります。 BATを[プライベートな暗号通貨](cryptocurrency.md)として推奨はせず、[カストディアルウォレット](advanced/payments.md#wallet-custody)の使用も推奨しないため、この機能の使用は推奨しません。
+**Brave Rewards**ではBraveで特定の行動を実行することにより、ベーシックアテンショントークン(BAT)という暗号通貨を得ることができます。プロバイダーによるカストディアルアカウントと本人確認が必要となります。 BATを[プライベートな暗号通貨](cryptocurrency.md)として推奨はせず、[カストディアルウォレット](advanced/payments.md#wallet-custody)の使用も推奨しないため、この機能の使用は推奨しません。
 
 **Brave ウォレット**はコンピューターのローカルで動作しますが、プライベートな暗号通貨をサポートしないため、この機能も推奨しません。
 
 ## 規準
 
-**私たちは、推薦するどのプロジェクトとも提携していません。**客観的に推薦できるよう、[標準となる規準](about/criteria.md)に加えて、一連の明確な要件を定めています。 プロジェクトを利用する前に、このリストをよく理解し、ご自身で調査を行って、そのプロジェクトがあなたにとって適切な選択かどうかをご確認ください。
+**私たちは、推薦するどのプロジェクトとも提携していません。**客観的に推薦できるよう、[標準となる規準](about/criteria.md)に加えて、一連の明確な要件を定めています。プロジェクトを利用する前に、このリストをよく理解し、ご自身で調査を行って、そのプロジェクトがあなたにとって適切な選択かどうかをご確認ください。
 
 ### 最低要件
 
@@ -378,7 +378,7 @@ BraveのWeb3機能はブラウザのフィンガープリントとアタック�
 
 ### 満たされることが望ましい基準
 
-満たされることが望ましい基準には、このカテゴリーの完璧なプロジェクトに私たちが望むものを示しています。 私たちが推薦するプロジェクトは、この機能の一部または全部を含んでいないかもしれませんが、もし含んでいれば、このページで他のプロジェクトよりも上位にランクされるかもしれません。
+満たされることが望ましい基準には、このカテゴリーの完璧なプロジェクトに私たちが望むものを示しています。私たちが推薦するプロジェクトは、この機能の一部または全部を含んでいないかもしれませんが、もし含んでいれば、このページで他のプロジェクトよりも上位にランクされるかもしれません。
 
 - ビルトインのコンテンツブロック機能があること。
 - クッキーの区画化（[Multi-Account Containers](https://support.mozilla.org/kb/containers)）をサポートすること。

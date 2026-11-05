@@ -223,7 +223,7 @@ Werkzeuge mit Befehlszeilenschnittstellen sind nützlich für die Integration vo
 
 <div class="admonition recommendation" markdown>
 
-![Tomb-Logo](assets/img/verschlüsselungssoftware/tomb.png){ align=right }
+![Tomb-Logo](assets/img/encryption-software/tomb.png){ align=right }
 
 **Tomb** ist ein Kommandozeilen-Shell-Wrapper für LUKS. Es unterstützt Steganografie über [Drittanbieter-Tools] (https://dyne.org/software/tomb/#advanced-usage).
 

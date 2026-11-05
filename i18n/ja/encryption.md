@@ -82,9 +82,9 @@ Cryptomator's documentation details its intended [security target](https://docs.
 
 </div>
 
-VeraCryptは、終了したTrueCryptプロジェクトのフォークです。 開発者によると、セキュリティの改善が実装されており、最初のTrueCryptコード監査によって提起された問題が解決されています。
+VeraCryptは、終了したTrueCryptプロジェクトのフォークです。開発者によると、セキュリティの改善が実装されており、最初のTrueCryptコード監査によって提起された問題が解決されています。
 
-VeraCryptで暗号化する場合、異なる[ハッシュ関数](https://en.wikipedia.org/wiki/VeraCrypt#Encryption_scheme)から選択できます。 しかし、[SHA-512](https://en.wikipedia.org/wiki/SHA-512)**のみ**を選ぶことを推奨します。[AES](https://en.wikipedia.org/wiki/Advanced_Encryption_Standard)ブロック暗号以外を使うべきではありません。
+VeraCryptで暗号化する場合、異なる[ハッシュ関数](https://en.wikipedia.org/wiki/VeraCrypt#Encryption_scheme)から選択できます。しかし、[SHA-512](https://en.wikipedia.org/wiki/SHA-512)**のみ**を選ぶことを推奨します。[AES](https://en.wikipedia.org/wiki/Advanced_Encryption_Standard)ブロック暗号以外を使うべきではありません。
 
 TrueCrypt has been [audited a number of times](https://en.wikipedia.org/wiki/TrueCrypt#Security_audits), and VeraCrypt has also been [audited separately](https://en.wikipedia.org/wiki/VeraCrypt#VeraCrypt_audit).
 
@@ -359,7 +359,7 @@ Cure53 completed a [security audit](https://openkeychain.org/openkeychain-3-6) o
 
 ## 規準
 
-**私たちは、推薦するどのプロジェクトとも提携していません。**客観的に推薦できるよう、[標準となる規準](about/criteria.md)に加えて、一連の明確な要件を定めています。 プロジェクトを利用する前に、このリストをよく理解し、ご自身で調査を行って、そのプロジェクトがあなたにとって適切な選択かどうかをご確認ください。
+**私たちは、推薦するどのプロジェクトとも提携していません。**客観的に推薦できるよう、[標準となる規準](about/criteria.md)に加えて、一連の明確な要件を定めています。プロジェクトを利用する前に、このリストをよく理解し、ご自身で調査を行って、そのプロジェクトがあなたにとって適切な選択かどうかをご確認ください。
 
 ### 最低要件
 
@@ -370,7 +370,7 @@ Cure53 completed a [security audit](https://openkeychain.org/openkeychain-3-6) o
 
 ### 満たされることが望ましい基準
 
-満たされることが望ましい基準には、このカテゴリーの完璧なプロジェクトに私たちが望むものを示しています。 私たちが推薦するプロジェクトは、この機能の一部または全部を含んでいないかもしれませんが、もし含んでいれば、このページで他のプロジェクトよりも上位にランクされるかもしれません。
+満たされることが望ましい基準には、このカテゴリーの完璧なプロジェクトに私たちが望むものを示しています。私たちが推薦するプロジェクトは、この機能の一部または全部を含んでいないかもしれませんが、もし含んでいれば、このページで他のプロジェクトよりも上位にランクされるかもしれません。
 
 - Operating System (FDE) encryption apps should utilize hardware security such as a TPM or Secure Enclave.
 - File encryption apps should have first- or third-party support for mobile platforms.

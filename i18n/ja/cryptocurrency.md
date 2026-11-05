@@ -18,7 +18,7 @@ Making payments online is one of the biggest challenges to privacy. These crypto
 <div class="admonition danger" markdown>
 <p class="admonition-title">Danger</p>
 
-ほとんどではないにしても、多くの暗号通貨プロジェクトは詐欺です。 信頼できるプロジェクトとのみ慎重に取引してください。
+ほとんどではないにしても、多くの暗号通貨プロジェクトは詐欺です。信頼できるプロジェクトとのみ慎重に取引してください。
 
 </div>
 
@@ -78,7 +78,7 @@ There are numerous centralized exchanges (CEX) as well as P2P marketplaces where
 
 ## 規準
 
-**私たちは、推薦するどのプロジェクトとも提携していません。**客観的に推薦できるよう、[標準となる規準](about/criteria.md)に加えて、一連の明確な要件を定めています。 プロジェクトを利用する前に、このリストをよく理解し、ご自身で調査を行って、そのプロジェクトがあなたにとって適切な選択かどうかをご確認ください。
+**私たちは、推薦するどのプロジェクトとも提携していません。**客観的に推薦できるよう、[標準となる規準](about/criteria.md)に加えて、一連の明確な要件を定めています。プロジェクトを利用する前に、このリストをよく理解し、ご自身で調査を行って、そのプロジェクトがあなたにとって適切な選択かどうかをご確認ください。
 
 - プライベートで追跡不可能な取引をデフォルトで提供すること。
 

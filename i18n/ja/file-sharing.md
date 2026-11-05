@@ -21,7 +21,7 @@ If you already use [Proton Drive](cloud.md#proton-drive)[^1] or have a [Bitwarde
 
 ![Send logo](assets/img/file-sharing-sync/send.svg){ align=right }
 
-**Send**は、廃止されたMozilla Firefox Sendサービスのフォークで、リンクを使って他の人にファイルを送ることができます。 ファイルはサーバーから読み取れないようにデバイス上で暗号化され、オプションでパスワードで保護することもできます。 Sendのメンテナーは[公開インスタンス](https://send.vis.ee)をホストしています。 他の公開インスタンスを使うこともできますし、Sendを自分でホストすることもできます。
+**Send**は、廃止されたMozilla Firefox Sendサービスのフォークで、リンクを使って他の人にファイルを送ることができます。ファイルはサーバーから読み取れないようにデバイス上で暗号化され、オプションでパスワードで保護することもできます。 Sendのメンテナーは[公開インスタンス](https://send.vis.ee)をホストしています。他の公開インスタンスを使うこともできますし、Sendを自分でホストすることもできます。
 
 [:octicons-home-16: Homepage](https://send.vis.ee){ .md-button .md-button--primary }
 [:octicons-server-16:](https://github.com/timvisee/send-instances){ .card-link title="Public Instances"}
@@ -33,7 +33,7 @@ If you already use [Proton Drive](cloud.md#proton-drive)[^1] or have a [Bitwarde
 
 </div>
 
-SendはWebインターフェース上、または[ffsend](https://github.com/timvisee/ffsend)によるコマンドラインインターフェース上で使うことができます。 コマンドラインに慣れており、頻繁にファイルを送信する場合は、JavaScriptベースの暗号化を避けるためにCLIクライアントを使用することを推奨します。 `--host`フラグを指定すると、特定のサーバーを使用することができます。
+SendはWebインターフェース上、または[ffsend](https://github.com/timvisee/ffsend)によるコマンドラインインターフェース上で使うことができます。コマンドラインに慣れており、頻繁にファイルを送信する場合は、JavaScriptベースの暗号化を避けるためにCLIクライアントを使用することを推奨します。 `--host`フラグを指定すると、特定のサーバーを使用することができます。
 
 ```bash
 ffsend upload --host https://send.vis.ee/ FILE
@@ -68,7 +68,7 @@ OnionShare provides the option to connect via [Tor bridges](https://docs.onionsh
 
 ### 規準
 
-**私たちは、推薦するどのプロジェクトとも提携していません。**客観的に推薦できるよう、[標準となる規準](about/criteria.md)に加えて、一連の明確な要件を定めています。 プロジェクトを利用する前に、このリストをよく理解し、ご自身で調査を行って、そのプロジェクトがあなたにとって適切な選択かどうかをご確認ください。
+**私たちは、推薦するどのプロジェクトとも提携していません。**客観的に推薦できるよう、[標準となる規準](about/criteria.md)に加えて、一連の明確な要件を定めています。プロジェクトを利用する前に、このリストをよく理解し、ご自身で調査を行って、そのプロジェクトがあなたにとって適切な選択かどうかをご確認ください。
 
 - 復号化したデータをリモートサーバーに保存しないこと。
 - オープンソースのソフトウェアであること。
@@ -82,7 +82,7 @@ OnionShare provides the option to connect via [Tor bridges](https://docs.onionsh
 
 ![Syncthing ロゴ](assets/img/file-sharing-sync/syncthing.svg){ align=right }
 
-**Syncthing**はオープンソースのピアツーピア連続ファイル同期ユーティリティです。 ローカルネットワークまたはインターネットを介し、2つ以上のデバイス間でファイルを同期することができます。 Syncthingは中央集権型のサーバーを使用せず、[Block Exchange Protocol](https://docs.syncthing.net/specs/bep-v1.html#bep-v1)を使用してデバイス間のデータ転送を行います。 すべてのデータはTLSにより暗号化されます。
+**Syncthing**はオープンソースのピアツーピア連続ファイル同期ユーティリティです。ローカルネットワークまたはインターネットを介し、2つ以上のデバイス間でファイルを同期することができます。 Syncthingは中央集権型のサーバーを使用せず、[Block Exchange Protocol](https://docs.syncthing.net/specs/bep-v1.html#bep-v1)を使用してデバイス間のデータ転送を行います。すべてのデータはTLSにより暗号化されます。
 
 [:octicons-home-16: ホームページ](https://syncthing.net){ .md-button .md-button--primary }
 [:octicons-info-16:](https://docs.syncthing.net){ .card-link title=ドキュメント}
@@ -103,7 +103,7 @@ OnionShare provides the option to connect via [Tor bridges](https://docs.onionsh
 
 ### 規準
 
-**私たちは、推薦するどのプロジェクトとも提携していません。**客観的に推薦できるよう、[標準となる規準](about/criteria.md)に加えて、一連の明確な要件を定めています。 プロジェクトを利用する前に、このリストをよく理解し、ご自身で調査を行って、そのプロジェクトがあなたにとって適切な選択かどうかをご確認ください。
+**私たちは、推薦するどのプロジェクトとも提携していません。**客観的に推薦できるよう、[標準となる規準](about/criteria.md)に加えて、一連の明確な要件を定めています。プロジェクトを利用する前に、このリストをよく理解し、ご自身で調査を行って、そのプロジェクトがあなたにとって適切な選択かどうかをご確認ください。
 
 #### 最低要件
 
@@ -113,7 +113,7 @@ OnionShare provides the option to connect via [Tor bridges](https://docs.onionsh
 
 #### 満たされることが望ましい基準
 
-満たされることが望ましい基準には、このカテゴリーの完璧なプロジェクトに私たちが望むものを示しています。 私たちが推薦するプロジェクトは、この機能の一部または全部を含んでいないかもしれませんが、もし含んでいれば、このページで他のプロジェクトよりも上位にランクされるかもしれません。
+満たされることが望ましい基準には、このカテゴリーの完璧なプロジェクトに私たちが望むものを示しています。私たちが推薦するプロジェクトは、この機能の一部または全部を含んでいないかもしれませんが、もし含んでいれば、このページで他のプロジェクトよりも上位にランクされるかもしれません。
 
 - Should have mobile clients for iOS and Android which at least support document previews.
 - Should support photo backups from iOS and Android, and optionally support file/folder sync on Android.

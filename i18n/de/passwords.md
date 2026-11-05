@@ -147,7 +147,7 @@ Diese Passwort-Manager synchronisieren deine Passwörter mit einem Cloud-Server,
 
 <div class="admonition recommendation" markdown>
 
-![Bitwarden-Logo](assets/img/passwort-management/bitwarden.svg){ align=right }
+![Bitwarden-Logo](assets/img/password-management/bitwarden.svg){ align=right }
 
 **Bitwarden** ist ein kostenloser und quelloffener Passwort- und Passkey-Manager. Es zielt darauf ab, Passwortmanagementprobleme für Einzelpersonen, Teams und Unternehmen zu lösen. Bitwarden ist eine der besten und sichersten Lösungen, um alle deine Logins und Passwörter zu speichern und sie bequem zwischen all deinen Geräten zu synchronisieren.
 

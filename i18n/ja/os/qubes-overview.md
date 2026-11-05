@@ -4,7 +4,7 @@ icon: simple/qubesos
 description: Qubesは、アプリケーションをqubes（以前は「VMs」と呼ばれていた）内で隔離することに基づいて構築されたオペレーティングシステムで、セキュリティを強化しています。
 ---
 
-[**Qubes OS**](../desktop.md#qubes-os) は [Xen](https://en.wikipedia.org/wiki/Xen) ハイパーバイザーを使用し、隔離された *qubes*, (仮想マシン)を通じてデスクトップコンピューティングの強力なセキュリティを提供するオープンソースのオペレーティングシステムです。 各 *qube* に、その目的に基づいて信頼レベルを割り当てることができます。 Qubes OSは、アイソレーションを使用することでセキュリティを提供します。 ケースごとにアクションを許可するだけであり、[badness enumeration](https://ranum.com/security/computer_security/editorials/dumb)の反対です。
+[**Qubes OS**](../desktop.md#qubes-os) は [Xen](https://en.wikipedia.org/wiki/Xen) ハイパーバイザーを使用し、隔離された *qubes*, (仮想マシン)を通じてデスクトップコンピューティングの強力なセキュリティを提供するオープンソースのオペレーティングシステムです。各 *qube* に、その目的に基づいて信頼レベルを割り当てることができます。 Qubes OSは、アイソレーションを使用することでセキュリティを提供します。ケースごとにアクションを許可するだけであり、[badness enumeration](https://ranum.com/security/computer_security/editorials/dumb)の反対です。
 
 ## Qubes OSの仕組み
 
