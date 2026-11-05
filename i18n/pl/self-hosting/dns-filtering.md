@@ -1,7 +1,7 @@
 ---
 title: DNS Filtering
 meta_title: "Self-Hosting DNS Solutions - Privacy Guides"
-icon: materiał/dns
+icon: material/dns
 description: For our more technical readers, self-hosting a DNS solution can provide filtering for devices not covered by cloud-based DNS solutions.
 cover: dns.webp
 ---

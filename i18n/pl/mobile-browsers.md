@@ -1,7 +1,7 @@
 ---
 meta_title: "Przeglądarki internetowe szanujące prywatność dla Androida i iOS – Privacy Guides"
 title: Przeglądarki mobilne
-icon: octicons/device-mobile-16
+icon: material/cellphone-information
 description: Te przeglądarki to obecnie nasze zalecenia do standardowego/nieanonimowego korzystania z Internetu na telefonie.
 cover: mobile-browsers.webp
 schema:
