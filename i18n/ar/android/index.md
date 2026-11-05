@@ -7,12 +7,12 @@ schema:
   - "@context": http://schema.org
     "@type": WebPage
     name: Android Recommendations
-    url: ""
-  - "@context": ""
-    "@type": ""
+    url: "./"
+  - "@context": http://schema.org
+    "@type": CreativeWork
     name: Android
-    image: ""
-    url: ""
+    image: /assets/img/android/android.svg
+    url: https://source.android.com/
     sameAs: ""
 ---
 

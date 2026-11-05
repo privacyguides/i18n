@@ -1,6 +1,6 @@
 ---
 title: نظرة عامة على Windows
-icon: مواد متعلقة بنظام Microsoft Windows
+icon: material/microsoft-windows
 description: Microsoft Windows هو نظام تشغيل شائع، لكنه يفتقر إلى الخصوصية بشكل كبير في إعداداته الافتراضية. يقدم هذا الشرح خطوات لتحسين مستوى الخصوصية في جهازك دون الحاجة إلى تغيير نظام التشغيل.
 ---
 
