@@ -152,7 +152,7 @@ While RethinkDNS takes up the Android VPN slot, you can still use a VPN or Orbot
 <div class="admonition warning" markdown>
 <p class="admonition-title">Ostrzeżenie</p>
 
-The anonymized DNS feature does [not](advanced/dns-overview.md#why-shouldnt-i-use-encrypted-dns) anonymize other network traffic.
+The anonymized DNS feature does [not](advanced/dns-overview.md#should-i-use-encrypted-dns) anonymize other network traffic.
 
 </div>
 

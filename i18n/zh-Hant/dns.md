@@ -21,12 +21,12 @@ Encrypted **DNS** with third-party servers should only be used to get around bas
 
 這些是我們喜歡的公共 DNS 解析器，因為它們的隱私和安全特性且它們具備可向全世界提供服務的效能。 Some of these services offer basic DNS-level blocking of malware or trackers depending on the server you choose, but if you want to be able to see and customize what is blocked, you should use a dedicated DNS filtering product instead.
 
-| DNS 提供者                                                           | 協議                                                                       | 記錄日誌 / 隱私權政策   | [ECS](advanced/dns-overview.md#what-is-edns-client-subnet-ecs) | 過濾                                                                                                         | 已簽署的 Apple 配置描述檔                                                                                                                                                                                                            |
-| ----------------------------------------------------------------- | ------------------------------------------------------------------------ | -------------- | -------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [**AdGuard 公共 DNS**](https://adguard-dns.io/en/public-dns.html)   | Cleartext <br>DoH/3 <br>DoT <br>DoQ <br>DNSCrypt | 匿名化[^1]        | 匿名化                                                            | 根據伺服器的選擇。 使用的過濾器列表可以在這裡找到。 [:octicons-link-external-24:](https://github.com/AdguardTeam/AdGuardSDNSFilter) | Yes [:octicons-link-external-24:](https://adguard-dns.io/en/blog/encrypted-dns-ios-14.html)                                                                                                                                 |
-| [**Cloudflare**](https://developers.cloudflare.com/1.1.1.1/setup) | Cleartext <br>DoH/3 <br>DoT                                  | Anonymized[^2] | 不採納                                                            | 根據伺服器的選擇。                                                                                                  | 沒有 [:octicons-link-external-24:](https://community.cloudflare.com/t/requesting-1-1-1-1-signed-profiles-for-apple/571846)                                                                                                    |
-| [**Control D 免費 DNS**](https://controld.com/free-dns)             | Cleartext <br>DoH/3 <br>DoT <br>DoQ                    | No[^3]         | 不採納                                                            | 根據伺服器的選擇。                                                                                                  | Yes <br>[:simple-apple: iOS](https://docs.controld.com/docs/ios-platform) <br>[:material-apple-finder: macOS](https://docs.controld.com/docs/macos-platform#manual-setup-profile)                               |
-| [**Quad9**](https://quad9.net)                                    | Cleartext <br>DoH/3 <br>DoT <br>DoQ <br>DNSCrypt | Anonymized[^4] | 可選                                                             | 根據伺服器的選擇。 Malware blocking is included by default.                                                         | Yes <br>[:simple-apple: iOS](https://docs.quad9.net/Setup_Guides/iOS/iOS_14_and_later_(Encrypted)) <br>[:material-apple-finder: macOS](https://docs.quad9.net/Setup_Guides/MacOS/Big_Sur_and_later_(Encrypted)) |
+| DNS 提供者                                                           | 協議                                                                       | 記錄日誌 / 隱私權政策   | [ECS](advanced/dns-overview.md#what-is-edns-client-subnet-ecs) | 過濾                                                                                                        | 已簽署的 Apple 配置描述檔                                                                                                                                                                                                            |
+| ----------------------------------------------------------------- | ------------------------------------------------------------------------ | -------------- | -------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [**AdGuard 公共 DNS**](https://adguard-dns.io/en/public-dns.html)   | Cleartext <br>DoH/3 <br>DoT <br>DoQ <br>DNSCrypt | 匿名化[^1]        | 匿名化                                                            | 根據伺服器的選擇。使用的過濾器列表可以在這裡找到。 [:octicons-link-external-24:](https://github.com/AdguardTeam/AdGuardSDNSFilter) | Yes [:octicons-link-external-24:](https://adguard-dns.io/en/blog/encrypted-dns-ios-14.html)                                                                                                                                 |
+| [**Cloudflare**](https://developers.cloudflare.com/1.1.1.1/setup) | Cleartext <br>DoH/3 <br>DoT                                  | Anonymized[^2] | 不採納                                                            | 根據伺服器的選擇。                                                                                                 | 沒有 [:octicons-link-external-24:](https://community.cloudflare.com/t/requesting-1-1-1-1-signed-profiles-for-apple/571846)                                                                                                    |
+| [**Control D 免費 DNS**](https://controld.com/free-dns)             | Cleartext <br>DoH/3 <br>DoT <br>DoQ                    | No[^3]         | 不採納                                                            | 根據伺服器的選擇。                                                                                                 | Yes <br>[:simple-apple: iOS](https://docs.controld.com/docs/ios-platform) <br>[:material-apple-finder: macOS](https://docs.controld.com/docs/macos-platform#manual-setup-profile)                               |
+| [**Quad9**](https://quad9.net)                                    | Cleartext <br>DoH/3 <br>DoT <br>DoQ <br>DNSCrypt | Anonymized[^4] | 可選                                                             | 根據伺服器的選擇。 Malware blocking is included by default.                                                        | Yes <br>[:simple-apple: iOS](https://docs.quad9.net/Setup_Guides/iOS/iOS_14_and_later_(Encrypted)) <br>[:material-apple-finder: macOS](https://docs.quad9.net/Setup_Guides/MacOS/Big_Sur_and_later_(Encrypted)) |
 
 ## 雲端 DNS 過濾器
 
@@ -89,7 +89,7 @@ These DNS filtering solutions offer a web dashboard where you can customize the 
 
 </div>
 
-與帳戶一起使用時，NextDNS 將預設啟用洞察和日誌記錄功能（因為某些功能需求）。 可選擇保留日誌的存留時間和儲存位置，或完全停用日誌。
+與帳戶一起使用時，NextDNS 將預設啟用洞察和日誌記錄功能（因為某些功能需求）。可選擇保留日誌的存留時間和儲存位置，或完全停用日誌。
 
 NextDNS's free plan is fully functional, but should not be relied upon for security or other critical filtering applications, because after 300,000 DNS queries in a month all filtering, logging, and other account-based functionality are disabled. It can still be used as a regular DNS provider after that point, so your devices will continue to function and make secure queries via DNS-over-HTTPS (DoH), just without your filter lists.
 
@@ -97,7 +97,7 @@ NextDNS also offers a public DoH service at `https://dns.nextdns.io` and DNS-ove
 
 ## 加密的DNS代理
 
-加密DNS代理軟體提供了一個本地代理，用於將 [個未加密的DNS](advanced/dns-overview.md#unencrypted-dns) 解析器轉發到。 通常，它用於本身無法[加密 DNS](advanced/dns-overview.md#what-is-encrypted-dns) 的平台。
+加密DNS代理軟體提供了一個本地代理，用於將 [個未加密的DNS](advanced/dns-overview.md#unencrypted-dns) 解析器轉發到。通常，它用於本身無法[加密 DNS](advanced/dns-overview.md#what-is-encrypted-dns) 的平台。
 
 ### RethinkDNS
 
@@ -152,13 +152,13 @@ While RethinkDNS takes up the Android VPN slot, you can still use a VPN or Orbot
 <div class="admonition warning" markdown>
 <p class="admonition-title">警告</p>
 
-Anonymized DNS [不會](advanced/dns-overview.md#why-shouldnt-i-use-encrypted-dns) 匿名化其他網路流量。
+The anonymized DNS feature does [not](advanced/dns-overview.md#should-i-use-encrypted-dns) anonymize other network traffic.
 
 </div>
 
 ## 標準
 
-**請注意，我們與推薦的任何項目均無關。**除了[我們的通用標準](about/criteria.md)外，我們還制定了一套明確的要求，以便我們能夠提供客觀的建議。 我們建議您在選擇使用任何項目之前先熟悉此列表，並進行自己的研究，以確保您的正確選擇。
+**請注意，我們與推薦的任何項目均無關。**除了[我們的通用標準](about/criteria.md)外，我們還制定了一套明確的要求，以便我們能夠提供客觀的建議。我們建議您在選擇使用任何項目之前先熟悉此列表，並進行自己的研究，以確保您的正確選擇。
 
 All DNS products...
 

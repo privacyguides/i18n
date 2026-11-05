@@ -152,7 +152,7 @@ RethinkDNS prend la place du VPN sur Android, mais vous pouvez [ajouter une conf
 <div class="admonition warning" markdown>
 <p class="admonition-title">Avertissement</p>
 
-La fonctionnalité d'anonymisation du DNS n'anonymise [pas](advanced/dns-overview.md#why-shouldnt-i-use-encrypted-dns) le reste du trafic réseau.
+The anonymized DNS feature does [not](advanced/dns-overview.md#should-i-use-encrypted-dns) anonymize other network traffic.
 
 </div>
 

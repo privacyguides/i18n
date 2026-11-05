@@ -152,7 +152,7 @@ NextDNS 也透過 `https://dns.nextdns.io` 提供公開的 DoH 服務，並於 `
 <div class="admonition warning" markdown>
 <p class="admonition-title">警告</p>
 
-Anonymized DNS [不會](advanced/dns-overview.md#why-shouldnt-i-use-encrypted-dns) 匿名化其他網路流量。
+The anonymized DNS feature does [not](advanced/dns-overview.md#should-i-use-encrypted-dns) anonymize other network traffic.
 
 </div>
 

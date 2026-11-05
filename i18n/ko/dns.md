@@ -152,7 +152,7 @@ global:
 <div class="admonition warning" markdown>
 <p class="admonition-title">경고</p>
 
-익명화된 DNS 기능은 다른 네트워크 트래픽을 익명화하지 [않습니다](advanced/dns-overview.md#why-shouldnt-i-use-encrypted-dns).
+The anonymized DNS feature does [not](advanced/dns-overview.md#should-i-use-encrypted-dns) anonymize other network traffic.
 
 </div>
 
