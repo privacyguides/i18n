@@ -23,7 +23,7 @@ cover: real-time-communication.webp
 
 ![시그널 로고](assets/img/messengers/signal.svg){ align=right }
 
-**시그널**은 시그널 메신저 LLC가 개발한 모바일 앱입니다. 이 앱은 순방향 비밀성[^1]과 침해 후 보안(post-compromise security)을 지원하는 매우 안전한 암호화 프로토콜인 시그널 프로토콜로 보호되는 메시지와 통화를 제공합니다.[^2]
+**시그널**은 시그널 메신저 LLC가 개발한 모바일 앱입니다. 이 앱은 순방향 비밀성(forward secrecy)[^1]과 침해 후 보안(post-compromise security)을 지원하는 매우 안전한 암호화 프로토콜인 시그널 프로토콜로 보호되는 메시지와 통화를 제공합니다.[^2]
 
 [:octicons-home-16: 홈페이지](https://signal.org){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://signal.org/legal/#privacy-policy){ .card-link title="개인정보 처리방침" }
