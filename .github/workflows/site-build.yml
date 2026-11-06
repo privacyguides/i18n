@@ -29,18 +29,7 @@ permissions:
   contents: read
 
 jobs:
-  submodule:
-    strategy:
-      matrix:
-        repo: [mkdocs-material-insiders, brand, i18n]
-    uses: privacyguides/.github/.github/workflows/download-repo.yml@main
-    with:
-      repo: ${{ matrix.repo }}
-    secrets:
-      ACTIONS_SSH_KEY: ${{ secrets.ACTIONS_SSH_KEY }}
-
   build:
-    needs: submodule
     strategy:
       matrix:
         lang: [es, fr, he, it, ko, nl, pt, ru, zh-Hant, zh-TW]
@@ -53,6 +42,7 @@ jobs:
       repo: 'privacyguides/privacyguides.org'
       lang: ${{ matrix.lang }}
       continue-on-error: true
+      cache: false
 
   cleanup:
     if: ${{ always() }}
