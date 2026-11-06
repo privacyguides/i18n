@@ -12,7 +12,7 @@ description: 도메인 이름 시스템(DNS)은 브라우저가 찾고 있는 �
 
 DNS는 [인터넷의 초창기](https://ko.wikipedia.org/wiki/%EB%8F%84%EB%A9%94%EC%9D%B8_%EB%84%A4%EC%9E%84_%EC%8B%9C%EC%8A%A4%ED%85%9C#%EC%97%AD%EC%82%AC)부터 존재해 왔습니다. DNS 서버와 주고받는 DNS 요청은 일반적으로 암호화가 적용되어 있지 **않습니다**. 가정 환경에서는 [DHCP](https://ko.wikipedia.org/wiki/%EB%8F%99%EC%A0%81_%ED%98%B8%EC%8A%A4%ED%8A%B8_%EA%B5%AC%EC%84%B1_%ED%94%84%EB%A1%9C%ED%86%A0%EC%BD%9C)를 통해 ISP로부터 서버를 제공받습니다.
 
-암호화되지 않은 DNS 요청은 전송 도중에 쉽게 **감시** 및 **변조**될 수 있습니다. 일부 지역에서는 ISP가 기초적인 [DNS 필터링](https://en.wikipedia.org/wiki/DNS_blocking)을 수행하도록 명령받기도 합니다. 이 경우, ISP가 차단하고 있는 도메인의 IP 주소를 요청하면 서버가 응답하지 않거나, 목적지가 아닌 다른 IP 주소로 응답이 돌아옵니다. DNS 프로토콜은 암호화되지 않아서 ISP를 비롯한 모든 네트워크 사업자는 [DPI](https://ko.wikipedia.org/wiki/%EC%8B%AC%EC%B8%B5_%ED%8C%A8%ED%82%B7_%EA%B2%80%EC%82%AC)를 통해 요청을 모니터링할 수 있습니다. 또한 ISP는 어떤 DNS 서버를 사용하든 공통된 특징을 이용해 요청을 차단하는 것도 가능합니다.
+암호화되지 않은 DNS 요청은 전송 도중에 쉽게 **감시** 및 **변조**될 수 있습니다. 일부 지역에서는 ISP가 기초적인 [DNS 필터링](https://en.wikipedia.org/wiki/DNS_blocking)을 수행하도록 명령받기도 합니다. 이 경우, ISP가 차단하고 있는 도메인의 IP 주소를 요청하면 서버가 응답하지 않거나, 목적지가 아닌 다른 IP 주소로 응답이 돌아옵니다. DNS 프로토콜은 기본적으로 암호화되어 있지 않으므로,ISP를 비롯한 네트워크 운영자는[심층 패킷 검사(DPI)](https://ko.wikipedia.org/wiki/%EC%8B%AC%EC%B8%B5_%ED%8C%A8%ED%82%B7_%EA%B2%80%EC%82%AC)를 통해 DNS 요청을 모니터링할 수 있습니다. 심층 패킷 검사는 패킷의 페이로드를 분석하여 특정 유형의 트래픽을 식별하거나 차단하는 기술입니다. 또한 ISP는 어떤 DNS 서버를 사용하든 공통된 특징을 이용해 요청을 차단하는 것도 가능합니다.
 
 다음 내용은 암호화되지 않은 일반적인 DNS와 [암호화가 적용된 DNS](#what-is-encrypted-dns)를 비교해 외부 관찰자가 볼 수 있는 것은 무엇이 있는지 증명하는 튜토리얼입니다.
 

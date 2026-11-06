@@ -38,7 +38,7 @@ robots: nofollow, max-snippet:-1, max-image-preview:large
 
 ![셸터 로고](../assets/img/android/shelter.svg){ align=right }
 
-**셸터**는 안드로이드의 직장 프로필 기능을 활용하여 기기의 앱을 격리하거나 복제할 수 있도록 도와주는 앱입니다.
+**셸터**는 안드로이드의 직장 프로필 기능을 활용해 앱을 별도의 프로필에서 격리해 실행하거나 복제할 수 있도록 돕는 앱입니다.
 
 셸터는 프로필 간 연락처 검색 차단과 기본 파일 관리자([DocumentsUI](https://source.android.com/devices/architecture/modular-system/documentsui))를 통한 프로필 간 파일 공유를 지원합니다.
 

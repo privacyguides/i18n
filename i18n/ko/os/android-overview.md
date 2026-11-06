@@ -40,7 +40,7 @@ robots: nofollow, max-snippet:-1, max-image-preview:large
 
 프로세서나 무선 기술 같은 휴대폰 구성 요소는 비공개 소스 구성 요소에 의존하므로, 업데이트는 각 제조업체가 제공해야 합니다. 따라서 지원 기간이 남아 있는 기기를 구매하는 것이 중요합니다. [퀄컴](https://qualcomm.com/news/releases/2020/12/qualcomm-and-google-announce-collaboration-extend-android-os-support-and)과 [삼성](https://news.samsung.com/us/samsung-galaxy-security-extending-updates-knox)은 자사 기기를 4년간 지원하지만, 저렴한 제품은 지원 기간이 더 짧은 경우가 많습니다. [픽셀 6](https://support.google.com/pixelphone/answer/4457705)이 출시되면서 구글은 자체 SoC를 만들기 시작했으며, 최소 5년간 지원을 제공합니다. 픽셀 8 시리즈부터 구글은 지원 기간을 7년으로 늘렸습니다.
 
-SoC 제조업체의 지원이 끝난 EOL 기기는 OEM 공급업체나 애프터마켓 안드로이드 배포판 제작자로부터 펌웨어 업데이트를 받을 수 없습니다. 즉, 해당 기기의 보안 문제는 수정되지 않은 채 남게 됩니다.
+SoC(System-on-Chip) 제조업체의 지원이 종료된 기기는 OEM이나 애프터마켓 Android 배포판 개발자로부터 해당 SoC에 필요한 펌웨어 업데이트를 받지 못할 수 있습니다. 그 결과 관련 보안 취약점이 수정되지 않은 채 남을 수 있습니다. 즉, 해당 기기의 보안 문제는 수정되지 않은 채 남게 됩니다.
 
 예를 들어 페어폰은 페어폰 4가 6년간 지원을 받는다고 홍보합니다. 하지만 SoC(페어폰 4의 퀄컴 스냅드래곤 750G)의 EOL 날짜는 그보다 훨씬 이릅니다. 즉, 페어폰이 소프트웨어 보안 업데이트를 계속 출시하더라도, 페어폰 4에 대한 퀄컴의 펌웨어 보안 업데이트는 2023년 9월에 종료됩니다.
 
