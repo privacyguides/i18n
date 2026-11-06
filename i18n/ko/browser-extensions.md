@@ -1,7 +1,7 @@
 ---
 title: 브라우저 확장 프로그램
 icon: material/puzzle-outline
-description: 다음 브라우저 확장 프로그램은 브라우징 경험을 향상하고 프라이버시를 보호해 줍니다.
+description: 다음 브라우저 확장 프로그램은 웹 탐색 경험을 향상하고 프라이버시를 보호해 줍니다.
 cover: browser-extensions.webp
 ---
 
@@ -9,7 +9,7 @@ cover: browser-extensions.webp
 
 - [:material-account-cash: 감시 자본주의](basics/common-threats.md#surveillance-as-a-business-model){ .pg-brown }
 
-일반적으로 공격 표면을 줄이기 위해 브라우저 확장 프로그램은 최소한으로 유지할 것을 권장합니다. 확장 프로그램은 브라우저 안에서 권한 있는 접근 권한을 가지며, 개발자를 신뢰해야 하고, 여러분을 [눈에 띄게](https://en.wikipedia.org/wiki/Device_fingerprint#Browser_fingerprint) 만들 수 있으며, 사이트 격리를 [약화](https://groups.google.com/a/chromium.org/g/chromium-extensions/c/0ei-UCHNm34/m/lDaXwQhzBAAJ)시킬 수 있습니다.
+일반적으로 공격 표면을 줄이기 위해 브라우저 확장 프로그램은 최소한으로 유지할 것을 권장합니다. 확장 프로그램은 브라우저 안에서 높은 수준의 접근 권한을 가지며, 개발자를 신뢰해야 하고, 여러분을 [브라우저 지문을 고유하게 만들어 추적되기 쉽게](https://en.wikipedia.org/wiki/Device_fingerprint#Browser_fingerprint) 만들 수 있으며, 사이트 격리를 [약화](https://groups.google.com/a/chromium.org/g/chromium-extensions/c/0ei-UCHNm34/m/lDaXwQhzBAAJ)시킬 수 있습니다.
 
 하지만 일부 확장 프로그램은 특정 상황, 특히 [콘텐츠 차단](basics/common-threats.md#mass-surveillance-programs)에 있어서는 이러한 단점을 상쇄하는 기능을 제공하기도 합니다.
 
@@ -81,7 +81,7 @@ cover: browser-extensions.webp
 
 기본으로 포함되지 않은 필터 목록을 추가할 일이 전혀 없고, [동적 필터링](https://github.com/gorhill/ublock/wiki/dynamic-filtering:-quick-guide)이나 네트워크 로거 같은 고급 옵션도 필요하지 않은 경우에만 이 버전의 유블록 오리진을 추천합니다. 이러한 제한은 Manifest V3 설계상의 한계, 특히 필터링 규칙 수에 대한 엄격한 제한과 확장 프로그램이 일반적으로 원격 리소스를 가져올 수 없다는 점 때문입니다.[^3]
 
-이 버전은 세 가지 차단 수준을 제공합니다. "기본"은 사이트 콘텐츠를 보고 수정하는 특별한 권한 없이 작동하며, "최적"과 "완전" 수준은 그러한 광범위한 권한이 필요하지만 추가 외형 규칙과 스크립틀릿 주입으로 더 나은 필터링 경험을 제공합니다.
+이 버전은 세 가지 차단 수준을 제공합니다. "기본"은 사이트 콘텐츠를 보고 수정하는 특별한 권한 없이 작동하며, "최적"과 "완전" 수준은 그러한 광범위한 권한이 필요하지만 추가 외형 규칙과 스크립틀릿 주입으로 더 나은 필터링 성능을 제공합니다.
 
 기본 필터링 모드를 "최적"이나 "완전"으로 설정하면, 확장 프로그램은 방문하는 **모든** 웹사이트에 대한 읽기/수정 권한을 요청합니다. 하지만 특정 사이트에서 확장 프로그램 팝업 패널의 슬라이더를 조정하여 **사이트별로** 설정을 "최적"이나 "완전"으로 변경할 수도 있습니다. 이렇게 하면 확장 프로그램은 해당 사이트에 대한 읽기/수정 권한만 요청합니다. 따라서 유블록 오리진 라이트의 "권한 없는" 구성을 활용하고 싶다면, 기본 설정은 "기본"으로 두고 그 수준으로 충분하지 않은 사이트에서만 높이는 것이 좋습니다.
 

@@ -16,11 +16,11 @@ cover: email-aliasing.webp
 
 ## 장점 { #benefits }
 
-이메일 별칭을 개별적으로 관리할 수 있는 서비스를 사용하면 기존의 메일함 관리/필터링 방식에 비해 여러 장점이 있습니다:
+이메일 별칭을 개별적으로 관리할 수 있는 서비스를 사용하면 기존의 메일함 관리 및 필터링 방식에 비해 여러 장점이 있습니다:
 
 ### 플러스 주소 방식 대비 { #over-plus-addressing }
 
-많은 제공업체가 흔히 지원하는 플러스 주소 방식은 `yourname+[anythinghere]@example.com` 같은 별칭을 만들 수 있게 해 주지만, 웹사이트, 광고주, 추적 네트워크가 `+` 기호 뒤의 내용을 손쉽게 제거할 수 있으므로 진정한 이메일 별칭이 더 좋습니다. [IAB](https://en.wikipedia.org/wiki/Interactive_Advertising_Bureau) 같은 단체는 사용자의 프라이버시 의사와 관계없이 이메일 주소를 연관 짓고 추적할 수 있도록 광고주에게 [이메일 주소를 정규화](https://shkspr.mobi/blog/2023/01/the-iab-loves-tracking-users-but-it-hates-users-tracking-them)할 것을 요구합니다.
+많은 제공업체가 흔히 지원하는 플러스 주소 방식은 `yourname+[anythinghere]@example.com` 같은 별칭을 만들 수 있게 해 주지만, 웹사이트, 광고주, 추적 네트워크가 `+` 기호 뒤의 내용을 손쉽게 제거할 수 있으므로 진정한 이메일 별칭이 더 좋습니다. [IAB](https://en.wikipedia.org/wiki/Interactive_Advertising_Bureau) 같은 단체는 개인정보 보호에 대한 사용자의 개인정보 보호 의사와 관계없이 여러 웹사이트에서 동일한 사람에게 속한 이메일 주소를 연결하고 추적할 수 있도록 광고주에게 [이메일 주소를 정규화](https://shkspr.mobi/blog/2023/01/the-iab-loves-tracking-users-but-it-hates-users-tracking-them)할 것을 요구합니다.
 
 ### 캐치올 별칭 대비 { #over-catch-all-aliases }
 

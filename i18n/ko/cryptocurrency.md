@@ -18,7 +18,7 @@ cover: cryptocurrency.webp
 <div class="admonition danger" markdown>
 <p class="admonition-title">위험</p>
 
-전부는 아니더라도 대부분의 암호화폐 프로젝트는 사기입니다. 신뢰할 수 있는 프로젝트하고만 신중하게 거래하세요.
+전부는 아니더라도 대부분의 암호화폐 프로젝트는 사기입니다. 신뢰할 수 있는 프로젝트와만 신중하게 거래하세요.
 
 </div>
 

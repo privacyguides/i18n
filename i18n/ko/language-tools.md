@@ -20,7 +20,7 @@ cover: language-tools.webp
 
 ![리브레트랜슬레이트 로고](assets/img/language-tools/libretranslate.png){ align=right }
 
-**리브레트랜슬레이트**는 자유 오픈 소스 기계 번역 웹 인터페이스이자 API 서버입니다. 번역에는 백엔드에서 [아르고스 트랜슬레이트](https://github.com/argosopentech/argos-translate) 모델을 사용합니다.
+**리브레트랜슬레이트**는 자유 오픈 소스 기반 기계 번역 웹 인터페이스이자 API 서버입니다. 번역에는 백엔드에서 [아르고스 트랜슬레이트](https://github.com/argosopentech/argos-translate) 모델을 사용합니다.
 
 [:octicons-home-16: 홈페이지](https://libretranslate.com){ .md-button .md-button--primary }
 [:octicons-server-16:](https://github.com/LibreTranslate/LibreTranslate#mirrors){ .card-link title="공개 인스턴스" }

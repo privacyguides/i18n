@@ -22,7 +22,7 @@ cover: health.webp
 
 ![드립 로고](assets/img/health-and-wellness/drip.png){ align=right }
 
-**드립**은 모든 모바일 플랫폼에서 사용할 수 있는, 성별을 포용하는 오픈 소스 생리 주기 추적 앱입니다. 배란일을 예측하는 데 "증상체온법"을 사용합니다. 모든 사용자 데이터는 기기에 로컬로 저장되며 비밀번호로 보호할 수 있습니다.
+**드립**은 모든 모바일 플랫폼에서 사용할 수 있는, 성별에 구애받지 않는 오픈 소스 생리 주기 관리 앱입니다. 배란일을 예측하는 데 "증상체온법"을 사용합니다. 모든 사용자 데이터는 기기에 로컬로 저장되며 비밀번호로 보호할 수 있습니다.
 
 [:octicons-home-16: 홈페이지](https://bloodyhealth.gitlab.io){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://bloodyhealth.gitlab.io/privacy-policy.html){ .card-link title="개인정보 처리방침" }

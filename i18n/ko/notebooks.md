@@ -9,7 +9,7 @@ cover: notebooks.webp
 
 - [:material-server-network: 서비스 제공업체](basics/common-threats.md#privacy-from-service-providers ""){.pg-teal}
 
-제3자에게 넘기지 않고 노트와 일기를 관리하세요.
+제3자에게 노트 내용을 노출하지 않고 노트와 일기를 관리하세요.
 
 현재 에버노트, 구글 킵, 마이크로소프트 원노트 같은 애플리케이션을 사용하고 있다면, 여기에서 종단 간 암호화를 지원하는 대안을 고를 것을 권장합니다.
 

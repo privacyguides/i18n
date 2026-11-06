@@ -29,7 +29,7 @@ robots: nofollow, max-snippet:-1, max-image-preview:large
 - [:material-target-account: 표적 공격](basics/common-threats.md#attacks-against-specific-individuals){ .pg-red }
 - [:material-bug-outline: 수동적 공격](basics/common-threats.md#security-and-privacy){ .pg-orange }
 
-대부분의 **휴대폰**은 OEM으로부터 짧거나 제한된 기간 동안만 보안 업데이트를 받습니다. 지원 기간이 끝난 기기는 더 이상 펌웨어나 드라이버 보안 업데이트를 받지 못하므로 안전하다고 볼 수 **없습니다**.
+대부분의 **휴대폰**은 OEM으로부터 짧은 기간 동안만 보안 업데이트를 받습니다. 지원 기간이 끝난 기기는 더 이상 펌웨어나 드라이버 보안 업데이트를 받지 못하므로 안전하다고 볼 수 **없습니다**.
 
 여기에 소개된 모바일 기기는 보안 업데이트가 보장되는 기간이 길며, 안드로이드 보안 모델을 위반하지 않고 커스텀 운영 체제를 설치할 수 있습니다.
 
@@ -38,7 +38,7 @@ robots: nofollow, max-snippet:-1, max-image-preview:large
 <div class="admonition warning" markdown>
 <p class="admonition-title">경고</p>
 
-(그래핀OS의 "확장 지원" 기기 같은) 지원이 종료된 기기는 OEM이 지원을 중단했기 때문에 완전한 보안 패치(펌웨어 업데이트)를 받지 못합니다. 이러한 기기는 어떤 소프트웨어를 설치하든 완전히 안전하다고 볼 수 없습니다.
+(그래핀OS의 "확장 지원" 기기 같은) 지원이 종료된 기기는 OEM이 지원을 중단했기 때문에 전체 보안 업데이트(펌웨어 업데이트)를 받지 못합니다. 이러한 기기는 어떤 소프트웨어를 설치하든 완전히 안전하다고 볼 수 없습니다.
 
 </div>
 
