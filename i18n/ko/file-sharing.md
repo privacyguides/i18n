@@ -15,13 +15,13 @@ cover: file-sharing.webp
 
 이미 [프로톤 드라이브](cloud.md#proton-drive)[^1]를 사용하고 있거나 [비트워든](passwords.md#bitwarden) 프리미엄[^2] 구독이 있다면, 각각이 제공하는 파일 공유 기능을 사용해 보세요. 두 기능 모두 종단 간 암호화를 사용합니다. 그렇지 않다면 여기에 소개된 독립형 도구를 사용해 공유하는 파일을 원격 서버가 읽을 수 없도록 할 수 있습니다.
 
-### 센드 { #send }
+### Send
 
 <div class="admonition recommendation" markdown>
 
-![센드 로고](assets/img/file-sharing-sync/send.svg){ align=right }
+![send 로고](assets/img/file-sharing-sync/send.svg){ align=right }
 
-**센드**는 중단된 모질라의 파이어폭스 센드 서비스를 포크한 것으로, 링크를 통해 다른 사람에게 파일을 보낼 수 있습니다. 파일은 기기에서 암호화되므로 서버가 읽을 수 없으며, 원하는 경우 비밀번호로 보호할 수도 있습니다. 센드의 관리자는 [공개 인스턴스](https://send.vis.ee)를 호스팅하고 있습니다. 다른 공개 인스턴스를 사용하거나, 센드를 직접 호스팅할 수도 있습니다.
+**Send**는 Mozilla가 운영을 중단한 Firefox Send를 바탕으로 분기해 개발된 프로젝트입니다. 파일은 기기에서 암호화되므로 서버가 읽을 수 없으며, 원하는 경우 비밀번호로 보호할 수도 있습니다. Send의 관리자는 [공개 인스턴스](https://send.vis.ee)를 호스팅하고 있습니다. 다른 공개 인스턴스를 사용하거나, Send를 직접 호스팅할 수도 있습니다.
 
 [:octicons-home-16: 홈페이지](https://send.vis.ee){ .md-button .md-button--primary }
 [:octicons-server-16:](https://github.com/timvisee/send-instances){ .card-link title="공개 인스턴스"}
@@ -33,7 +33,7 @@ cover: file-sharing.webp
 
 </div>
 
-센드는 웹 인터페이스나 [ffsend](https://github.com/timvisee/ffsend) CLI를 통해 사용할 수 있습니다. 명령줄에 익숙하고 파일을 자주 보낸다면, 자바스크립트 기반 암호화를 피하기 위해 CLI 클라이언트를 사용할 것을 권장합니다. `--host` 플래그를 지정하여 특정 서버를 사용할 수 있습니다:
+Send는 웹 인터페이스나 [ffsend](https://github.com/timvisee/ffsend) CLI를 통해 사용할 수 있습니다. 명령줄에 익숙하고 파일을 자주 보낸다면, 자바스크립트 기반 암호화를 피하기 위해 CLI 클라이언트를 사용할 것을 권장합니다. `--host` 플래그를 지정하여 특정 서버를 사용할 수 있습니다:
 
 ```bash
 ffsend upload --host https://send.vis.ee/ FILE
@@ -119,4 +119,4 @@ ffsend upload --host https://send.vis.ee/ FILE
 - iOS와 안드로이드에서 사진 백업을 지원하고, 선택적으로 안드로이드에서 파일/폴더 동기화를 지원하는 것이 좋습니다.
 
 [^1]: 프로톤 드라이브에서는 공유 가능한 공개 링크를 생성하거나 지정된 이메일 주소로 고유 링크를 보내 [파일이나 폴더를 공유](https://proton.me/support/drive-shareable-link)할 수 있습니다. 공개 링크는 비밀번호로 보호하고, 만료일을 설정하고, 완전히 취소할 수 있으며, 이메일로 공유한 링크는 사용자 지정 권한을 설정하고 마찬가지로 취소할 수 있습니다. 프로톤 드라이브의 [개인정보 처리방침](https://proton.me/drive/privacy-policy)에 따르면 파일 내용, 파일 및 폴더 이름, 미리 보기 이미지는 종단 간 암호화됩니다.
-[^2]: [프리미엄](https://bitwarden.com/help/about-bitwarden-plans/#compare-personal-plans) 구독을 이용하면 [비트워든 센드](https://bitwarden.com/products/send)로 [종단 간 암호화](https://bitwarden.com/help/send-encryption)를 적용해 파일과 텍스트를 안전하게 공유할 수 있습니다. 센드 링크와 함께 [비밀번호](https://bitwarden.com/help/send-privacy/#send-passwords)를 요구하도록 설정할 수 있습니다. 비트워든 센드에는 [자동 삭제](https://bitwarden.com/help/send-lifespan) 기능도 있습니다.
+[^2]: [프리미엄](https://bitwarden.com/help/about-bitwarden-plans/#compare-personal-plans) 구독을 이용하면 [비트워든 Send](https://bitwarden.com/products/send)로 [종단 간 암호화](https://bitwarden.com/help/send-encryption)를 적용해 파일과 텍스트를 안전하게 공유할 수 있습니다. Send링크와 함께 [비밀번호](https://bitwarden.com/help/send-privacy/#send-passwords)를 요구하도록 설정할 수 있습니다. 비트워든 Send에는 [자동 삭제](https://bitwarden.com/help/send-lifespan) 기능도 있습니다.

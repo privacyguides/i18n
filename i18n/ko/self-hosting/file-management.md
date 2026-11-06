@@ -10,7 +10,7 @@ cover: cloud.webp
 
 - [:material-server-network: 서비스 제공업체](../basics/common-threats.md#privacy-from-service-providers){ .pg-teal }
 
-**파일 관리** 도구를 직접 자체 호스팅하면 클라우드 제공업체 네이티브 클라이언트의 암호화 결함 위험을 줄일 수 있습니다.
+**파일 관리** 도구를 직접 호스팅하면 클라우드 서비스 제공업체가 제공하는 전용 클라이언트의 암호화 결함에 노출될 위험을 줄일 수 있습니다.
 
 ## 사진 관리 { #photo-management }
 
@@ -52,7 +52,7 @@ cover: cloud.webp
 
 ![넥스트클라우드 로고](../assets/img/self-hosting/nextcloud.svg){ align=right }
 
-**넥스트클라우드**는 직접 관리하는 개인 서버에 자신만의 파일 호스팅 서비스를 만들 수 있는 자유 오픈 소스 클라이언트-서버 소프트웨어 모음입니다.
+**넥스트클라우드**는 직접 관리하는 개인 서버에 자신만의 파일 호스팅 서비스를 만들 수 있는 자유 오픈 소스 클라이언트-서버 소프트웨어입니다.
 
 [:octicons-home-16: 홈페이지](https://nextcloud.com){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://nextcloud.com/privacy){ .card-link title="개인정보 처리방침" }

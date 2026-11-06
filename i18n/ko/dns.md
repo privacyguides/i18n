@@ -13,7 +13,7 @@ global:
 
 - [:material-account-cash: 감시 자본주의](basics/common-threats.md#surveillance-as-a-business-model ""){.pg-brown}
 
-제3자 서버를 이용한 암호화된 **DNS**는 아무런 불이익이 없을 것이 확실할 때 기본적인 [DNS 차단](https://en.wikipedia.org/wiki/DNS_blocking)을 우회하는 용도로만 사용해야 합니다. 암호화된 DNS는 브라우징 활동을 숨기는 데 전혀 도움이 되지 않습니다.
+제3자 서버를 이용한 암호화 **DNS**는 아무런 불이익이 없을 것이 확실할 때 기본적인 [DNS 차단](https://en.wikipedia.org/wiki/DNS_blocking)을 우회하는 용도로만 사용해야 합니다. 다만 이를 사용해도 문제가 발생하지 않는 환경인지 먼저 확인해야 합니다. 암호화된 DNS는 브라우징 활동을 숨기는 데 전혀 도움이 되지 않습니다.
 
 [DNS 자세히 알아보기 :material-arrow-right-drop-circle:](advanced/dns-overview.md ""){.md-button}
 

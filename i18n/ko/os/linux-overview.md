@@ -4,7 +4,7 @@ icon: simple/linux
 description: Linux는 오픈 소스 기반의 개인정보 보호에 중점을 둔 데스크톱 운영체제이지만, 모든 배포판이 똑같이 만들어진 것은 아닙니다.
 ---
 
-**리눅스는** 오픈소스이며, 개인정보 보호에 중점을 둔 데스크톱 운영 체제입니다. 주류 운영 체제의 만연한 원격 측정과 기타 프라이버시 침해 기술에 맞서, 데스크톱 리눅스는 컴퓨터를 처음부터 끝까지 완전히 통제하고 싶은 사람들에게 확실한 선택지로 남아 있습니다.
+**리눅스는** 오픈소스이며, 개인정보 보호에 중점을 둔 데스크톱 운영 체제입니다. 널리 사용되는 다른 운영 체제에는 원격 측정과 개인정보를 침해할 수 있는 기능이 아주 광범위하게 적용되어 있습니다. 반면 데스크톱 리눅스는 컴퓨터를 직접 통제하고 싶은 사용자에게 매력적인 선택지로 남아 있습니다.
 
 이 웹사이트에서 "리눅스"라는 용어는 일반적으로 **데스크톱** 리눅스 배포판을 가리킵니다. 크롬OS, 안드로이드, 큐브스 OS처럼 리눅스 커널을 사용하는 다른 운영 체제는 이 페이지에서 다루지 않습니다.
 
@@ -22,7 +22,7 @@ description: Linux는 오픈 소스 기반의 개인정보 보호에 중점을 �
 
 리눅스와 기타 오픈 소스 소프트웨어가 단지 소스 코드가 공개되어 있다는 이유만으로 본질적으로 안전하다는 것은 [흔한 오해](../basics/common-misconceptions.md#open-source-software-is-always-secure-or-proprietary-software-is-more-secure)입니다. 커뮤니티 검증이 정기적으로 이루어질 것이라는 기대가 있지만, 항상 [그런 것은 아닙니다](https://seirdy.one/posts/2022/02/02/floss-security).
 
-실제로 배포판의 보안은 프로젝트 활동, 개발자 경험, 코드 리뷰의 엄격함, 그리고 수년간 손대지 않았을 수 있는 코드베이스의 특정 부분에 얼마나 자주 관심을 기울이는지 등 여러 요인에 따라 달라집니다.
+실제로 배포판의 보안 수준은 프로젝트의 활동성, 개발자의 경험, 코드 리뷰의 엄격성, 그리고 오랫동안 검토되지 않았던 코드까지 얼마나 자주 점검하는지 등 여러 요인에 따라 달라집니다.
 
 ### 부족한 보안 기능 { #missing-security-features }
 
@@ -48,7 +48,7 @@ description: Linux는 오픈 소스 기반의 개인정보 보호에 중점을 �
 
 - [정기 릴리스는 틀렸다, 살고 싶다면 롤링하라](https://youtu.be/i8c0mg_mS7U) <small>(유튜브)</small>
 
-### 기존 업데이트 vs 원자적 업데이트 { #traditional-vs-atomic-updates }
+### 일반 업데이트와 원자적 업데이트 비교 { #traditional-vs-atomic-updates }
 
 기존에는 리눅스 배포판이 원하는 패키지를 순차적으로 업데이트하는 방식으로 업데이트되었습니다. 페도라, 아치 리눅스, 데비안 기반 배포판에서 사용하는 것과 같은 기존 업데이트 방식은 업데이트 중에 오류가 발생하면 안정성이 떨어질 수 있습니다.
 
@@ -90,7 +90,7 @@ AUR은 항상 최소한으로만 사용해야 하며, 여러 페이지에서 충
 
 ### 드라이브 암호화 { #drive-encryption }
 
-대부분의 리눅스 배포판에는 설치 프로그램에 [LUKS](../encryption.md#linux-unified-key-setup) FDE를 활성화하는 옵션이 있습니다. 설치 과정에서 이 옵션이 활성화되지 않은 경우, 가장 간단한 방법은 데이터를 백업한 후 다시 설치하는 것입니다. 일반적으로 암호화는 [디스크 파티션 분할](https://en.wikipedia.org/wiki/Disk_partitioning) 후, [파일 시스템](https://en.wikipedia.org/wiki/File_system) 포맷 전에 설정되기 때문입니다. However, it is also possible in some cases to encrypt an existing installation without reinstalling using `cryptsetup reencrypt`. 이 과정은 더 복잡할 뿐만 아니라 데이터 손실의 위험이 있으므로, 항상 먼저 데이터를 백업하세요. 저장 장치를 안전하게 지우는 것도 권장합니다:
+대부분의 리눅스 배포판에는 설치 프로그램에 [LUKS](../encryption.md#linux-unified-key-setup) FDE를 활성화하는 옵션이 있습니다. 설치 과정에서 이 옵션이 활성화되지 않은 경우, 가장 간단한 방법은 데이터를 백업한 후 다시 설치하는 것입니다. 일반적으로 암호화는 [디스크 파티션 분할](https://en.wikipedia.org/wiki/Disk_partitioning) 후, [파일 시스템](https://en.wikipedia.org/wiki/File_system) 포맷 전에 설정되기 때문입니다. 그러나 경우에 따라 `cryptsetup의 reencrypt 기능을` 사용하여 재설치 없이 기존 설치본을 암호화할 수도 있습니다. 이 과정은 더 복잡할 뿐만 아니라 데이터 손실의 위험이 있으므로, 항상 먼저 데이터를 백업하세요. 저장 장치를 안전하게 지우는 것도 권장합니다:
 
 - [안전한 데이터 삭제 :material-arrow-right-drop-circle:](https://www.privacyguides.org/articles/2022/05/25/secure-data-erasure/)
 

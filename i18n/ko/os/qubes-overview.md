@@ -4,14 +4,14 @@ icon: simple/qubesos
 description: 큐브스는 보안을 강화하기 위해 앱을 *큐브*(이전의 "VM") 안에 격리하는 것을 중심으로 만들어진 운영 체제입니다.
 ---
 
-[**큐브스 OS**](../desktop.md#qubes-os)는 [Xen](https://en.wikipedia.org/wiki/Xen) 하이퍼바이저를 사용하여 격리된 *큐브*(가상 머신)를 통해 데스크톱 컴퓨팅에 강력한 보안을 제공하는 오픈 소스 운영 체제입니다. 각 *큐브*에는 용도에 따라 신뢰 수준을 지정할 수 있습니다. 큐브스 OS는 격리를 통해 보안을 제공합니다. 큐브스 OS는 사례별로만 작업을 허용하므로 [나쁜 것 열거하기](https://ranum.com/security/computer_security/editorials/dumb)와는 정반대입니다.
+[**큐브스 OS**](../desktop.md#qubes-os)는 [Xen](https://en.wikipedia.org/wiki/Xen) 하이퍼바이저를 사용하여 격리된 *큐브*(가상 머신)를 통해 데스크톱 컴퓨팅에 강력한 보안을 제공하는 오픈 소스 운영 체제입니다. 각 *큐브*에는 용도에 따라 신뢰 수준을 지정할 수 있습니다. 큐브스 OS는 격리를 통해 보안을 제공합니다. 큐브스 OS는 개별 상황에 따라 허용된 작업만 수행하도록 하는 방식으로 보안을 강화합니다. [이는 알려진 악성 행위를 하나씩 나열해 차단하는 방식](https://ranum.com/security/computer_security/editorials/dumb)과 대조됩니다.
 
 ## 큐브스 OS는 어떻게 작동하나요? { #how-does-qubes-os-work }
 
 큐브스는 [구획화](https://qubes-os.org/intro)를 사용하여 시스템을 안전하게 유지합니다. 큐브는 템플릿에서 생성되며, 기본 템플릿은 페도라, 데비안, [후닉스](../desktop.md#whonix)입니다. 큐브스 OS에서는 일회용 [디스포저블](https://qubes-os.org/doc/how-to-use-disposables) *큐브*도 만들 수 있습니다.
 
 <details class="note" markdown>
-<summary><em>큐브</em>라는 용어는 이를 "가상 머신"이라고 부르지 않도록 점차 업데이트되고 있습니다.</summary>
+<summary>큐브스 OS에서는 격리된 실행 환경을 기존의 "가상 머신" 대신 <em>큐브(qube)</em>라고 부르는 용어를 점차 정착시키고 있습니다.</summary>
 
 "appVM"이라는 용어가 점차 "큐브"로 바뀌고 있기 때문에, 이곳과 큐브스 OS 문서의 일부 정보에는 서로 상충하는 표현이 있을 수 있습니다. 큐브는 완전한 가상 머신은 아니지만, VM과 비슷한 기능을 유지합니다.
 

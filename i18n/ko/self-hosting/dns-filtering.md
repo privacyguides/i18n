@@ -11,7 +11,7 @@ cover: dns.webp
 - [:material-server-network: 서비스 제공업체](../basics/common-threats.md#privacy-from-service-providers){ .pg-teal }
 - [:material-account-cash: 감시 자본주의](../basics/common-threats.md#surveillance-as-a-business-model){ .pg-brown }
 
-**DNS 자체 호스팅**은 클라이언트 측 소프트웨어가 필요하지 않으므로, 스마트 TV나 기타 IoT 기기처럼 통제된 플랫폼에서 [DNS 필터링](https://cloudflare.com/learning/access-management/what-is-dns-filtering)을 제공하는 데 유용합니다. 더 고급 구성을 설정하지 않는 한, 아래의 DNS 솔루션은 일반적으로 가정이나 로컬 네트워크에서만 사용할 수 있다는 점에 유의하세요.
+DNS를 자체 호스팅하면 클라이언트 측 소프트웨어를 설치할 필요가 없으므로, 스마트 TV나 기타 IoT 기기처럼 앱 설치와 설정이 제한적인 플랫폼에도 DNS 필터링(https://cloudflare.com/learning/access-management/what-is-dns-filtering)을 제공하는 데 유용합니다. 더 고급 구성을 설정하지 않는 한, 아래의 DNS 솔루션은 일반적으로 가정이나 로컬 네트워크에서만 사용할 수 있다는 점에 유의하세요.
 
 ## DNS 싱크홀 { #dns-sinkholes }
 

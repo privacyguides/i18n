@@ -13,7 +13,7 @@ cover: real-time-communication.webp
 - [:material-eye-outline: 대규모 감시](basics/common-threats.md#mass-surveillance-programs ""){.pg-blue}
 - [:material-account-cash: 감시 자본주의](basics/common-threats.md#surveillance-as-a-business-model ""){.pg-brown}
 
-암호화된 **실시간 커뮤니케이션**에 대한 이 추천 앱은 민감한 대화를 안전하게 지키는 데 매우 유용합니다. 이러한 메신저는 다양한 [통신 네트워크 유형](advanced/communication-network-types.md)으로 제공됩니다.
+여기서 추천하는 암호화된**실시간 커뮤니케이션** 앱은 민감한 대화를 안전하게 지키는 데 매우 유용합니다. 이러한 메신저는 다양한 [통신 네트워크 유형](advanced/communication-network-types.md)으로 제공됩니다.
 
 [:material-movie-open-play-outline: 동영상: 이제 SMS 사용을 그만둘 때입니다](https://www.privacyguides.org/videos/2025/01/24/its-time-to-stop-using-sms-heres-why ""){.md-button}
 

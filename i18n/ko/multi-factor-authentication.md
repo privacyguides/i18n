@@ -20,7 +20,7 @@ cover: multi-factor-authentication.webp
 
 안드로이드와 iOS는 대부분의 데스크톱 운영 체제보다 보안과 앱 격리가 뛰어나므로, 데스크톱용 대안 대신 모바일 TOTP 앱을 사용할 것을 강력히 권장합니다.
 
-## 엔테 오스 { #ente-auth }
+## Ente Auth
 
 <div class="admonition recommendation" markdown>
 

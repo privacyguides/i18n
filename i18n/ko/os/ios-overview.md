@@ -22,11 +22,11 @@ iOS에서 앱을 받을 수 있는 유일한 곳은 애플의 앱 스토어이�
 
 ### 침해적인 원격 측정 { #invasive-telemetry }
 
-애플은 지금까지 iOS의 원격 측정 데이터를 애플 계정과 제대로 분리하지 못한 문제가 있었습니다. [2019년](https://theguardian.com/technology/2019/jul/26/apple-contractors-regularly-hear-confidential-details-on-siri-recordings)에는 애플이 매우 민감한 정보가 포함된 일부 시리 녹음을 서버로 전송하여 제3자 하청업체가 직접 검토하도록 한 사실이 밝혀졌습니다. 이러한 관행이 [널리 보도](https://theverge.com/2019/8/23/20830120/apple-contractors-siri-recordings-listening-1000-a-day-globetech-microsoft-cortana)된 후 애플은 해당 프로그램을 일시 중단했고, 몇 달 뒤 후속 iOS 업데이트에서 [시리와의 대화 업로드를 **거부**할 수 있는](https://theguardian.com/technology/2019/oct/30/apple-lets-users-opt-out-of-having-siri-conversations-recorded) 스위치를 도입했습니다. 또한 2021년에는 [애플이 시리를 개편](https://theguardian.com/technology/2021/jun/07/apple-overhauls-siri-to-address-privacy-concerns-and-improve-performance)하여 음성 녹음을 서버로 보내지 않고 기기에서 처리하도록 했습니다.
+애플은 지금까지 iOS의 원격 측정 데이터를 애플 계정과 제대로 분리하지 못한 문제가 있었습니다. [2019년](https://theguardian.com/technology/2019/jul/26/apple-contractors-regularly-hear-confidential-details-on-siri-recordings)에는 애플이 매우 민감한 정보가 포함된 일부 시리 녹음을 서버로 전송하여 외부 업체 직원이 직접 검토하도록 한 사실이 밝혀졌습니다. 이러한 관행이 [널리 보도](https://theverge.com/2019/8/23/20830120/apple-contractors-siri-recordings-listening-1000-a-day-globetech-microsoft-cortana)된 후 애플은 해당 프로그램을 일시 중단했고, 몇 달 뒤 후속 iOS 업데이트에서 [시리와의 대화 내용을 업로드하지 않도록 **거부**할 수 있는](https://theguardian.com/technology/2019/oct/30/apple-lets-users-opt-out-of-having-siri-conversations-recorded) 옵션을 도입했습니다. 또한 2021년에는 [애플이 시리를 개편](https://theguardian.com/technology/2021/jun/07/apple-overhauls-siri-to-address-privacy-concerns-and-improve-performance)하여 음성 녹음을 서버로 보내지 않고 기기에서 처리하도록 했습니다.
 
 최근에는 iOS에서 [분석 공유를 비활성화한 상태에서도](https://gizmodo.com/apple-iphone-analytics-tracking-even-when-off-app-store-1849757558) 애플이 분석 데이터를 전송하는 것으로 밝혀졌으며, 이 데이터는 애플 계정과 분리되어 있다고 알려졌음에도 고유한 아이클라우드 계정 식별자와 쉽게 연결될 수 있는 [것으로 보입니다](https://twitter.com/mysk_co/status/1594515229915979776).
 
-### 활성 VPN 연결 외부의 트래픽 { #traffic-outside-active-vpn-connections }
+### 활성 VPN 연결을 우회하는 트래픽 { #traffic-outside-active-vpn-connections }
 
 애플의 [VPN 관련 개인정보 처리방침](https://apple.com/legal/privacy/data/en/vpns)에는 다음과 같이 명시되어 있습니다:
 
