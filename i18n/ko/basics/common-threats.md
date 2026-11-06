@@ -21,7 +21,7 @@ description: 위협 모델은 사람마다 다르지만, 이 사이트를 방문
 
 일반적으로 <span class="pg-red">:material-target-account: 표적 공격</span>의 한 형태로, 원래는 문제없는 소프트웨어에 직접 또는 제3자 의존성을 통해 심어진 취약점이나 익스플로잇을 중심으로 합니다.
 
-<span class="pg-orange">:material-bug-outline: **수동적 공격**</span>
+<span class="pg-orange">:material-bug-outline: **대규모 비표적 공격**</span>
 :
 
 멀웨어, 데이터 유출, 그리고 많은 사람을 한꺼번에 노리는 기타 공격으로부터 보호합니다.
@@ -51,7 +51,7 @@ description: 위협 모델은 사람마다 다르지만, 이 사이트를 방문
 
 정보 접근이 검열되거나 온라인에서 발언할 때 스스로 검열당하는 것을 피합니다.
 
-구체적인 관심사에 따라 이 중 일부 위협이 다른 위협보다 더 중요할 수 있습니다. 예를 들어 귀중하거나 중요한 데이터에 접근할 수 있는 소프트웨어 개발자는 주로 <span class="pg-viridian">:material-package-variant-closed-remove: 공급망 공격</span>과 <span class="pg-red">:material-target-account: 표적 공격</span>을 우려할 수 있습니다. 그래도 개인 데이터가 <span class="pg-blue">:material-eye-outline: 대규모 감시</span> 프로그램에 휩쓸리지 않도록 보호하고 싶을 것입니다. 마찬가지로 많은 사람들은 주로 개인 데이터의 <span class="pg-green">:material-account-search: 공개 노출</span>을 우려하겠지만, 기기에 영향을 주는 멀웨어 같은 <span class="pg-orange">:material-bug-outline: 수동적 공격</span> 등 보안 관련 문제도 여전히 경계해야 합니다.
+구체적인 관심사에 따라 이 중 일부 위협이 다른 위협보다 더 중요할 수 있습니다. 예를 들어 귀중하거나 중요한 데이터에 접근할 수 있는 소프트웨어 개발자는 주로 <span class="pg-viridian">:material-package-variant-closed-remove: 공급망 공격</span>과 <span class="pg-red">:material-target-account: 표적 공격</span>을 우려할 수 있습니다. 그래도 개인 데이터가 <span class="pg-blue">:material-eye-outline: 대규모 감시</span> 프로그램에 휩쓸리지 않도록 보호하고 싶을 것입니다. 마찬가지로 많은 사람들은 주로 개인 데이터의 <span class="pg-green">:material-account-search: 공개 노출</span>을 우려하겠지만, 기기에 영향을 주는 멀웨어 같은 <span class="pg-orange">:material-bug-outline: 대규모 비표적 공격</span> 등 보안 관련 문제도 여전히 경계해야 합니다.
 
 ## 익명성 vs. 프라이버시
 
@@ -63,7 +63,7 @@ description: 위협 모델은 사람마다 다르지만, 이 사이트를 방문
 
 ## 보안과 프라이버시 { #security-and-privacy }
 
-<span class="pg-orange">:material-bug-outline: 수동적 공격</span>
+<span class="pg-orange"> :material-bug-outline: 대규모 비표적 공격</span>
 
 보안과 프라이버시도 자주 혼동되는데, 어느 정도의 프라이버시라도 얻으려면 보안이 필요하기 때문입니다. 설계상 프라이버시를 보호하는 도구라도 공격자가 쉽게 악용하여 나중에 여러분의 데이터를 유출할 수 있다면 무용지물입니다. 하지만 그 반대가 반드시 성립하는 것은 아닙니다. 세상에서 가장 안전한 서비스라고 해서 *반드시* 프라이버시를 보호하는 것은 아닙니다. 가장 좋은 예는 구글에 데이터를 맡기는 것입니다. 구글은 업계 최고의 보안 전문가를 고용해 인프라를 보호하고 있어, 그 규모에 비해 보안 사고가 거의 없었습니다. 구글이 매우 안전한 서비스를 제공하기는 하지만, 구글의 무료 소비자용 제품(지메일, 유튜브 등)에서 자신의 데이터가 비공개라고 생각하는 사람은 거의 없을 것입니다.
 

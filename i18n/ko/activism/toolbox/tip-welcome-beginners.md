@@ -1,5 +1,5 @@
 ---
-title: 비기너 여러분, 환영합니다
+title: 초보자, 새로운 참여자 환영하기
 description: 우리의 프라이버시 권리 운동이 성장하기 위해서는 더 많은 사람들을 참여시켜야 합니다. 이를 달성하기 위해서는 우리 커뮤니티가 새로 온 사람들을 따뜻하게 맞이할 수 있도록 만드는 것이 가장 중요합니다.
 icon: fontawesome/solid/user-plus
 cover: activism/banner-toolbox-tip-beginners.webp

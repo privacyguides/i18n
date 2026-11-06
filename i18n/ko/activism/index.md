@@ -16,7 +16,7 @@ cover: activism/banner-activism.webp
 
 프라이버시 문제는 _단순히_ 개인 차원의 보호만으로 해결할 수 없습니다.
 
-우리의 개인정보를 보호하기 위해 의존하는 도구와 서비스가 [규제의 지속적인 공격](https://www.privacyguides.org/articles/2025/09/08/chat-control-must-be-stopped/)을 받고, 기업들이 날로 더 공격적으로 [우리의 데이터를 악용](../basics/common-threats.md/#surveillance-as-a-business-model)하며, 플랫폼들이 [온라인 익명성을 기하급수적으로 약화](https://www.privacyguides.org/articles/2025/10/15/real-name-policies/)시키고 있는 상황에서 우리는 권리를 지키기 위해 더 넓은 범위로 나아가야 합니다.
+우리의 개인정보를 보호하기 위해 의존하는 도구와 서비스가 [규제의 지속적인 공격](https://www.privacyguides.org/articles/2025/09/08/chat-control-must-be-stopped/)을 받고, 기업들이 날로 더 공격적으로 [우리의 데이터를 악용](../basics/common-threats.md/#surveillance-as-a-business-model)하며, 플랫폼들이 [온라인 가명성을 기하급수적으로 약화](https://www.privacyguides.org/articles/2025/10/15/real-name-policies/)시키고 있는 상황에서 우리는 권리를 지키기 위해 더 넓은 범위로 나아가야 합니다.
 
 \==프라이버시가 존중받고 가치 있는 권리가 되기 위해서는, 커뮤니티로서 함께 협력==하여 개인정보 보호 권리를 지켜야 합니다.
 

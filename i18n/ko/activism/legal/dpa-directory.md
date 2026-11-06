@@ -14,7 +14,7 @@ cover: activism/banner-activism-dpadirectory.webp
 <div class="admonition info" markdown>
 <p class="admonition-title">개인정보 보호법 및 위반 신고에 관한 자세한 정보</p>
 
-- 여기에 나열되어 있지 않은 특정 개인정보 보호법을 찾는 방법과 해당 법률을 읽을 때 살펴봐야 할 사항에 대한 자세한 내용은 Privacy Activist Toolbox의 개인정보 보호법 알아두기[Know Your Privacy Laws](../toolbox/tip-know-your-privacy-laws.md). 팁을 참고하세요.
+- 여기에 나열되어 있지 않은 특정 개인정보 보호법을 찾는 방법과 해당 법률을 읽을 때 살펴봐야 할 사항에 대한 자세한 내용은 Privacy Activist Toolbox의 개인정보 보호법 알아두기(../toolbox/tip-know-your-privacy-laws.md). 팁을 참고하세요.
 
 - 개인정보 보호법 위반을 신고할 때 어떻게 대응해야 하는지에 대한 자세한 내용은 Privacy Activist Toolbox의 개인정보 침해 신고하기[Report Privacy Violations](../toolbox/tip-report-privacy-violations.md). 팁을 참고하세요.
 
