@@ -47,7 +47,7 @@ cover: activism/banner-activism-toolbox.webp
 
 ### 1. 認識關於隱私權的法規
 
-![天秤圖示](../../assets/img/activism/icons/icon-tips/icon-tips-laws.webp){class="toolbox-tip-icon"}
+![Scale icon](../../assets/images/activism/icons/icon-tips/icon-tips-laws.webp){class="toolbox-tip-icon"}
 
 深入了解您所屬轄區的資料保護法規，對於您為提升自身及他人的隱私權所進行的個人與集體抗爭而言，將是一項重要的資產。進一步了解在研究當地隱私法規時應注意的事項。
 
@@ -62,7 +62,7 @@ cover: activism/banner-activism-toolbox.webp
 
 ### 2. 檢舉違反隱私權的行為
 
-![法槌圖示](../../assets/img/activism/icons/icon-tips/icon-tips-report.webp){class="toolbox-tip-icon"}
+![Gavel icon](../../assets/images/activism/icons/icon-tips/icon-tips-report.webp){class="toolbox-tip-icon"}
 
 了解在地的隱私權法規後，請熟悉舉報違規行為的步驟。提出正式投訴通常很簡單，而且對您自己和您的社群都可能產生重大影響。進一步了解為何以及如何舉報違反當地隱私權法律的行為。
 
@@ -81,7 +81,7 @@ cover: activism/banner-activism-toolbox.webp
 
 ### 1. 謹防隱私騙局
 
-![毒藥符號圖示](../../assets/img/activism/icons/icon-tips/icon-tips-snakeoil.webp){class="toolbox-tip-icon"}
+![Poison symbol icon](../../assets/images/activism/icons/icon-tips/icon-tips-snakeoil.webp){class="toolbox-tip-icon"}
 
 在隱私權保護的倡議推動上，使用並推薦能夠可靠保護隱私的工具至關重要。為此，您需要仔細查證，並對任何危險或未經證實的行銷說法抱持高度懷疑。進一步了解如何評估隱私聲明，並推薦值得信賴的工具。
 
@@ -96,7 +96,7 @@ cover: activism/banner-activism-toolbox.webp
 
 ### 2. 從監控的生態系中打包離開
 
-![箭頭指往方形外的圖示](../../assets/img/activism/icons/icon-tips/icon-tips-migrate.webp){class="toolbox-tip-icon"}
+![Arrow pointing out of a square icon](../../assets/images/activism/icons/icon-tips/icon-tips-migrate.webp){class="toolbox-tip-icon"}
 
 身為隱私權倡議行動者，我們不僅要支持具備良好隱私權實踐的工具與組織，在擺脫監控生態系統的過程中，更要以身作則。進一步了解為何以及如何擺脫「科技巨頭」的束縛，並擁抱替代方案。
 
@@ -111,7 +111,7 @@ cover: activism/banner-activism-toolbox.webp
 
 ### 3. 改善您的社群媒體，建立韌性社群
 
-![Octagon icon](../../assets/img/activism/icons/icon-tips/icon-tips-plant.webp){class="toolbox-tip-icon"}
+![Octagon icon](../../assets/images/activism/icons/icon-tips/icon-tips-plant.webp){class="toolbox-tip-icon"}
 
 Commercial social media platforms represent one of the biggest sources of data exploitation. By staying active on these platforms we continue to feed the beast, and indirectly support their invasion of our privacy rights. Learn more about how to minimize your presence there, and slowly build better social networks.
 
@@ -130,7 +130,7 @@ Commercial social media platforms represent one of the biggest sources of data e
 
 ### 1. 不止步於個人的解法，還要考量集體的影響力
 
-![People with radiating lines icon](../../assets/img/activism/icons/icon-tips/icon-tips-expand.webp){class="toolbox-tip-icon"}
+![People with radiating lines icon](../../assets/images/activism/icons/icon-tips/icon-tips-expand.webp){class="toolbox-tip-icon"}
 
 When we think about our privacy, we often focus on the technical tools we can use. While this is indeed an important component, it's crucial not to lose sight of how regulations and invasive practices impact us collectively. Learn more about how to expand your perspective on data privacy.
 
@@ -145,7 +145,7 @@ When we think about our privacy, we often focus on the technical tools we can us
 
 ### 2. 將整體局勢納入考量
 
-![Globe icon](../../assets/img/activism/icons/icon-tips/icon-tips-landscape.webp){class="toolbox-tip-icon"}
+![Globe icon](../../assets/images/activism/icons/icon-tips/icon-tips-landscape.webp){class="toolbox-tip-icon"}
 
 Privacy isn't just about the tools, the laws, or the practices of any individual or organization. To move our society in a place where everyone benefits from privacy by default, we must consider technologies, laws, and culture holistically. Learn more about remembering to consider the whole landscape.
 
@@ -160,7 +160,7 @@ Privacy isn't just about the tools, the laws, or the practices of any individual
 
 ### 3. 考量每個人的獨特處境
 
-![People with line over and under icon](../../assets/img/activism/icons/icon-tips/icon-tips-everyone.webp){class="toolbox-tip-icon"}
+![People with line over and under icon](../../assets/images/activism/icons/icon-tips/icon-tips-everyone.webp){class="toolbox-tip-icon"}
 
 Everyone has different needs and faces different dangers when their personal data is exposed. To give actionable privacy advice and recommendations, it's essential to keep in mind everyone's unique situation. Learn more about better evaluating each person's threat model.
 
@@ -179,7 +179,7 @@ Everyone has different needs and faces different dangers when their personal dat
 
 ### 1. Lift your allies up
 
-![Two hands icon](../../assets/img/activism/icons/icon-tips/icon-tips-lift.webp){class="toolbox-tip-icon"}
+![Two hands icon](../../assets/images/activism/icons/icon-tips/icon-tips-lift.webp){class="toolbox-tip-icon"}
 
 At times, it might feel like the privacy community is niche and isolated. The battle for privacy rights is difficult, and its defenders are often scattered. This is why it's essential that we support and uplift each other at every opportunity. Learn more about how to lift your allies up and grow the movement.
 
@@ -194,7 +194,7 @@ At times, it might feel like the privacy community is niche and isolated. The ba
 
 ### 2. 支持你的隱私戰友
 
-![Hand holding a heart icon](../../assets/img/activism/icons/icon-tips/icon-tips-support.webp){class="toolbox-tip-icon"}
+![Hand holding a heart icon](../../assets/images/activism/icons/icon-tips/icon-tips-support.webp){class="toolbox-tip-icon"}
 
 Fighting for privacy rights is a collective endeavor. You cannot do it alone. Anyone around you contributing is fighting the same battle by your side. This battle can be difficult and isolating at time. This is why it's critical to care for each other. Learn more about how you can support your privacy comrades.
 
@@ -208,7 +208,7 @@ Fighting for privacy rights is a collective endeavor. You cannot do it alone. An
 
 ### 3. 對人善良，但對體制要毫不留情
 
-![雙手捧球圖示](../../assets/img/activism/icons/icon-tips/icon-tips-kind.webp){class="toolbox-tip-icon"}
+![Two hands holding a sphere icon](../../assets/images/activism/icons/icon-tips/icon-tips-kind.webp){class="toolbox-tip-icon"}
 
 對隱私權倡導者來說，心懷仁慈絕對是必要的。為了讓我們的運動蓬勃發展，我們必須以同伴情誼為出發點與人接觸。人們不會在被斥責的情況下改變主意。然而，對體制而言卻並非如此。以下是如何在對體制保持毫不妥協的同時，**將善意融入工作**的方法。
 
@@ -227,7 +227,7 @@ Fighting for privacy rights is a collective endeavor. You cannot do it alone. An
 
 ### 1. Start alliances, not wars
 
-![握手圖示](../../assets/img/activism/icons/icon-tips/icon-tips-alliances.webp){class="toolbox-tip-icon"}
+![handshake icon](../../assets/images/activism/icons/icon-tips/icon-tips-alliances.webp){class="toolbox-tip-icon"}
 
 The privacy community consists of a patchwork of individuals and organizations that sometimes hold quite different views. When these divergences lead to infighting, we need to ask how these internal wars are impacting our community negatively. Learn more about how to start alliances instead of wars.
 
@@ -242,7 +242,7 @@ The privacy community consists of a patchwork of individuals and organizations t
 
 ### 2. Value allies with expertise complementary to yours
 
-![Sphere with half dark half light icon](../../assets/img/activism/icons/icon-tips/icon-tips-complement.webp){class="toolbox-tip-icon"}
+![Sphere with half dark half light icon](../../assets/images/activism/icons/icon-tips/icon-tips-complement.webp){class="toolbox-tip-icon"}
 
 In privacy, like everywhere else, diversity is a strength. If you want your community to have a broad understanding of threat models, and be able to fight on multiple levels, you need to value a diversity of expertises. Learn more about recognizing, respecting, and retaining experts with skills different to yours.
 
@@ -257,7 +257,7 @@ In privacy, like everywhere else, diversity is a strength. If you want your comm
 
 ### 3. 將功勞歸給應得之人
 
-![Thumbs up icon](../../assets/img/activism/icons/icon-tips/icon-tips-credit.webp){class="toolbox-tip-icon"}
+![Thumbs up icon](../../assets/images/activism/icons/icon-tips/icon-tips-credit.webp){class="toolbox-tip-icon"}
 
 To succeed, we must support each other. A good way to do this is to never forget to give credit where credit is due. When another advocate or organization says something you agree with, boost them up, spread their reach, and thank them publicly. Learn more about making your allies feel seen and valued.
 
@@ -276,7 +276,7 @@ To succeed, we must support each other. A good way to do this is to never forget
 
 ### 1. 張開雙手歡迎初學者
 
-![人物帶加號圖示](../../assets/img/activism/icons/icon-tips/icon-tips-beginner.webp){class="toolbox-tip-icon"}
+![Person with plus sign icon](../../assets/images/activism/icons/icon-tips/icon-tips-beginner.webp){class="toolbox-tip-icon"}
 
 若要讓我們的隱私權運動得以發展，就必須讓更多人加入。而想要讓更多人加入，在探討隱私議題的時候，我們的措辭就要用淺顯到連基本概念都不熟悉的新手也能迅速理解。進一步了解如何讓您的隱私權作業更加平易近人。
 
@@ -291,7 +291,7 @@ To succeed, we must support each other. A good way to do this is to never forget
 
 ### 2. 保持貼文和社群的包容性
 
-![帶加號的心形圖示](../../assets/img/activism/icons/icon-tips/icon-tips-inclusivity.webp){class="toolbox-tip-icon"}
+![Heart with plus sign icon](../../assets/images/activism/icons/icon-tips/icon-tips-inclusivity.webp){class="toolbox-tip-icon"}
 
 Inclusivity is not only the right thing to do, it's also essential to grow our movement. If we want privacy rights to succeed, it's imperative that we build communities where _everyone_ feels safe and welcomed, regardless of who they are. Learn more about keeping your communications and communities inclusive.
 
@@ -306,7 +306,7 @@ Inclusivity is not only the right thing to do, it's also essential to grow our m
 
 ### 3. 把無障礙的觀念放在心上
 
-![Heart with checkmark icon](../../assets/img/activism/icons/icon-tips/icon-tips-accessibility.webp){class="toolbox-tip-icon"}
+![Heart with checkmark icon](../../assets/images/activism/icons/icon-tips/icon-tips-accessibility.webp){class="toolbox-tip-icon"}
 
 Accessibility is indispensable to inclusivity, and should always be a priority in our work. 若要讓我們的隱私社群對所有人來說都充滿包容性，無障礙設計就不能只是事後才考慮的問題。我們必須從一開始就將其融入實踐之中。 Learn more about improving the accessibility of your privacy work.
 
@@ -321,7 +321,7 @@ Accessibility is indispensable to inclusivity, and should always be a priority i
 
 ### 4. Make it cute
 
-![Cat icon](../../assets/img/activism/icons/icon-tips/icon-tips-cute.webp){class="toolbox-tip-icon"}
+![Cat icon](../../assets/images/activism/icons/icon-tips/icon-tips-cute.webp){class="toolbox-tip-icon"}
 
 If you are developing a privacy-focused application or website, do not neglect the design aspect of it. This is a common mistake that can have a significant negative impact on adoption by a general audience. Learn more about making your design appealing and accessible to all. Make it cute!
 
@@ -340,7 +340,7 @@ If you are developing a privacy-focused application or website, do not neglect t
 
 ### 1. Refuse to participate
 
-![Circle with x icon](../../assets/img/activism/icons/icon-tips/icon-tips-refuse.webp){class="toolbox-tip-icon"}
+![Circle with x icon](../../assets/images/activism/icons/icon-tips/icon-tips-refuse.webp){class="toolbox-tip-icon"}
 
 As privacy advocates and activists, it's important to be a voice for resistance and take a stand against abusive practices. 實現此目標的一項重要方式，就是拒絕配合侵犯隱私的要求，或拒絕使用有侵犯性的軟體。 Learn more about refusing to comply with privacy-abusive practices.
 
@@ -355,7 +355,7 @@ As privacy advocates and activists, it's important to be a voice for resistance 
 
 ### 2. Stay true to your principles
 
-![Star icon](../../assets/img/activism/icons/icon-tips/icon-tips-principles.webp){class="toolbox-tip-icon"}
+![Star icon](../../assets/images/activism/icons/icon-tips/icon-tips-principles.webp){class="toolbox-tip-icon"}
 
 If you manage a digital rights group or organization, make sure you aren't subjecting your contributors to the very privacy-invasive tech you're fighting against. Sadly, it's not rare to see communities that aren't following their own advice for internal practices. Learn more about the importance of maintaining integrity _internally_ as well as externally.
 
@@ -370,7 +370,7 @@ If you manage a digital rights group or organization, make sure you aren't subje
 
 ### 3. Protect your allies
 
-![Shield with heart icon](../../assets/img/activism/icons/icon-tips/icon-tips-protect.webp){class="toolbox-tip-icon"}
+![Shield with heart icon](../../assets/images/activism/icons/icon-tips/icon-tips-protect.webp){class="toolbox-tip-icon"}
 
 Through your privacy work, be careful to never collect or share the data of others without their explicit consent. It's crucial to protect your allies' data in all that you do, whether that's individual action or organizational leadership. Learn more about safeguarding the data of your privacy comrades.
 
@@ -389,7 +389,7 @@ Through your privacy work, be careful to never collect or share the data of othe
 
 ### 1. Small actions matter
 
-![Puzzle piece icon](../../assets/img/activism/icons/icon-tips/icon-tips-small.webp){class="toolbox-tip-icon"}
+![Puzzle piece icon](../../assets/images/activism/icons/icon-tips/icon-tips-small.webp){class="toolbox-tip-icon"}
 
 There is so much to do in the movement for better privacy rights. So much, that it's sometimes easy to feel discouraged when facing the scale of what's left to accomplish. But everything helps, and even the smallest action counts. Learn more about why every action and every victory matters, no matter how small.
 
@@ -404,7 +404,7 @@ There is so much to do in the movement for better privacy rights. So much, that 
 
 ### 2. Take time to rest, but come back to fight with us
 
-![Low battery icon](../../assets/img/activism/icons/icon-tips/icon-tips-rest.webp){class="toolbox-tip-icon"}
+![Low battery icon](../../assets/images/activism/icons/icon-tips/icon-tips-rest.webp){class="toolbox-tip-icon"}
 
 捍衛隱私權是一場持久戰。不是短跑，而是馬拉松。 If you want to be a good advocate, you _must_ take the time to rest when needed. 拒絕「操勞過度」，我們實在無法承受失去您珍貴的一臂之力！ Learn more about why it's fundamental to learn to rest when you need it.
 
@@ -423,7 +423,7 @@ There is so much to do in the movement for better privacy rights. So much, that 
 
 ### 1. Engage, boost, and contribute
 
-![Megaphone icon](../../assets/img/activism/icons/icon-tips/icon-tips-engage.webp){class="toolbox-tip-icon"}
+![Megaphone icon](../../assets/images/activism/icons/icon-tips/icon-tips-engage.webp){class="toolbox-tip-icon"}
 
 Once you have the knowledge, motivation, and energy, it's time to act! Perhaps you've read all of these tips, or read through our Knowledge Base already! But you don't need to know that much about privacy to start contributing. Learn more about how to start being a privacy activist.
 
@@ -438,7 +438,7 @@ Once you have the knowledge, motivation, and energy, it's time to act! Perhaps y
 
 ### 2. Level up! Assemble and organize
 
-![Raised fist icon](../../assets/img/activism/icons/icon-tips/icon-tips-organize.webp){class="toolbox-tip-icon"}
+![Raised fist icon](../../assets/images/activism/icons/icon-tips/icon-tips-organize.webp){class="toolbox-tip-icon"}
 
 如果你長期以來一直致力於捍衛隱私權，或許現在正是時候更上一層樓，在你的社群中成為一名領導者。 Becoming a leader can mean starting a local group, or initiating bigger projects online. Learn more about how to become a _good_ leader in the privacy rights movement.
 

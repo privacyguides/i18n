@@ -14,7 +14,7 @@ schema:
     brand:
       "@type": Brand
       name: Google
-    image: /assets/img/android/google-pixel.png
+    image: /assets/images/android/google-pixel.png
     sameAs: https://en.wikipedia.org/wiki/Google_Pixel
     review:
       "@type": Review
@@ -62,7 +62,7 @@ A few more tips regarding Android devices and operating system compatibility:
 
 <div class="admonition recommendation" markdown>
 
-![Google Pixel 6](assets/img/android/google-pixel.png){ align=right }
+![Google Pixel 6](assets/images/android/google-pixel.png){ align=right }
 
 Устройства **Google Pixel** известны хорошей безопасностью и правильной поддержкой [Verified Boot](https://source.android.com/security/verifiedboot), даже при установке сторонних операционных систем.
 

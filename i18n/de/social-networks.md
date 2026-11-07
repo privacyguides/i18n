@@ -44,7 +44,7 @@ Falls du dir Sorgen machst, dass ein existierender Server deinen sowie den Inhal
 
 <div class="admonition recommendation" markdown>
 
-![Mastodon logo](assets/img/social-networks/mastodon.svg){ align=right }
+![Mastodon logo](assets/images/social-networks/mastodon.svg){ align=right }
 
 **Mastodon** ist ein soziales Netzwerk basiert auf offene Web Protokolle und freie, quelloffene Software. Es benutzt das **:simple-activitypub: ActivityPub** Protokoll, das wie E-Mail dezentralisiert ist: Nutzer können auf verschiedenen Servern oder auch verschiedene Plattformen existieren, aber sie können immernoch miteinander kommunizieren.
 
@@ -116,7 +116,7 @@ If you used our recommended configuration settings above, you should be posting 
 
 <div class="admonition recommendation" markdown>
 
-![Element logo](assets/img/social-networks/element.svg){ align=right }
+![Element logo](assets/images/social-networks/element.svg){ align=right }
 
 **Element** is the flagship client for the **:simple-matrix: [Matrix](https://matrix.org/docs/chat_basics/matrix-for-im)** protocol, an [open standard](https://spec.matrix.org/latest) that enables decentralized communication by way of federated chat rooms. Users can exist on different homeservers but still communicate with each other.
 

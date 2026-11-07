@@ -20,9 +20,9 @@ Die hier aufgeführten Optionen sind plattformübergreifend und eignen sich herv
 
 <div class="admonition recommendation" markdown>
 
-![Cryptomator Logo](assets/img/encryption-software/cryptomator.svg){ align=right }
+![Cryptomator logo](assets/images/encryption-software/cryptomator.svg){ align=right }
 
-**Cryptomator** ist eine Verschlüsselungslösung, die für private Speicherung von Dateien bei einem beliebigen [:material-server-network: Dienstanbieter](basics/common-threats.md#privacy-from-service-providers){ .pg-teal } entwickelt wurde. So musst du nicht mehr darauf vertrauen, dass dieser nicht auf deine Dateien zugreift. Es erlaubt dir Tresore zu erstellen, die auf einem virtuellen Laufwerk gespeichert sind, deren Inhalt verschlüsselt und mit deinem Cloud-Anbieter synchronisiert wird.
+**Cryptomator** is an encryption solution designed for privately saving files to any cloud [:material-server-network: Service Provider](basics/common-threats.md#privacy-from-service-providers){ .pg-teal }, eliminating the need to trust that they won't access your files. Es erlaubt dir Tresore zu erstellen, die auf einem virtuellen Laufwerk gespeichert sind, deren Inhalt verschlüsselt und mit deinem Cloud-Anbieter synchronisiert wird.
 
 [:octicons-home-16: Homepage](https://cryptomator.org){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://cryptomator.org/privacy){ .card-link title="Datenschutzrichtlinie" }
@@ -61,10 +61,10 @@ In der Dokumentation von Cryptomator werden die angestrebten [Sicherheitsziele](
 
 <div class="admonition recommendation" markdown>
 
-![VeraCrypt Logo](assets/img/encryption-software/veracrypt.svg#only-light){ align=right }
-![VeraCrypt Logo](assets/img/encryption-software/veracrypt-dark.svg#only-dark){ align=right }
+![VeraCrypt logo](assets/images/encryption-software/veracrypt.svg#only-light){ align=right }
+![VeraCrypt logo](assets/images/encryption-software/veracrypt-dark.svg#only-dark){ align=right }
 
-**VeraCrypt** ist ein quelloffenes, Freeware-Programm, das zur On-The-Fly Verschlüsselung verwendet wird. Es kann eine virtuelle verschlüsselte Festplatte innerhalb einer Datei erstellen, eine Partition verschlüsseln oder das gesamte Laufwerk mit einer Pre-Boot Authentifizierung verschlüsseln.
+**VeraCrypt** is a source-available freeware utility used for on-the-fly encryption. Es kann eine virtuelle verschlüsselte Festplatte innerhalb einer Datei erstellen, eine Partition verschlüsseln oder das gesamte Laufwerk mit einer Pre-Boot Authentifizierung verschlüsseln.
 
 [:octicons-home-16: Homepage](https://veracrypt.fr){ .md-button .md-button--primary }
 [:octicons-info-16:](https://veracrypt.fr/en/Documentation.html){ .card-link title="Dokumentation" }
@@ -108,7 +108,7 @@ Powering off your devices when they’re not in use provides the highest level o
 
 <div class="admonition recommendation" markdown>
 
-![BitLocker logo](assets/img/encryption-software/bitlocker.png){ align=right }
+![BitLocker logo](assets/images/encryption-software/bitlocker.png){ align=right }
 
 **BitLocker** is the full volume encryption solution bundled with Microsoft Windows that uses the Trusted Platform Module ([TPM](https://learn.microsoft.com/windows/security/information-protection/tpm/how-windows-uses-the-tpm)) for hardware-based security.
 
@@ -128,9 +128,9 @@ Pro and higher editions also support the more secure pre-boot [TPM+PIN](https://
 
 <div class="admonition recommendation" markdown>
 
-![FileVault Logo](assets/img/encryption-software/filevault.png){ align=right }
+![FileVault logo](assets/images/encryption-software/filevault.png){ align=right }
 
-**FileVault** ist die in macOS eingebaute "on-the-fly"-Verschlüsselungslösung. FileVault takes advantage of the [hardware security capabilities](os/macos-overview.md#hardware-security) present on an Apple Silicon SoC or T2 Security Chip.
+**FileVault** is the on-the-fly volume encryption solution built into macOS. FileVault takes advantage of the [hardware security capabilities](os/macos-overview.md#hardware-security) present on an Apple Silicon SoC or T2 Security Chip.
 
 [:octicons-info-16:](https://support.apple.com/guide/mac-help/encrypt-mac-data-with-filevault-mh11785/mac){ .card-link title="Dokumentation" }
 
@@ -144,9 +144,9 @@ We advise against using your iCloud account for recovery; instead, you should se
 
 <div class="admonition recommendation" markdown>
 
-![LUKS-Logo](assets/img/encryption-software/luks.png){ align=right }
+![LUKS logo](assets/images/encryption-software/luks.png){ align=right }
 
-**LUKS** ist die Standard-FDE-Methode für Linux. Es kann zur Verschlüsselung ganzer Volumes, Partitionen oder zur Erstellung verschlüsselter Container verwendet werden.
+**LUKS** is the default FDE method for Linux. Es kann zur Verschlüsselung ganzer Volumes, Partitionen oder zur Erstellung verschlüsselter Container verwendet werden.
 
 [:octicons-repo-16: Repository](https://gitlab.com/cryptsetup/cryptsetup#what-the-){ .md-button .md-button--primary }
 [:octicons-info-16:](https://gitlab.com/cryptsetup/cryptsetup/-/wikis/home){ .card-link title="Documentation" }
@@ -198,9 +198,9 @@ Werkzeuge mit Befehlszeilenschnittstellen sind nützlich für die Integration vo
 
 <div class="admonition recommendation" markdown>
 
-![Kryptor Logo](assets/img/encryption-software/kryptor.png){ align=right }
+![Kryptor logo](assets/images/encryption-software/kryptor.png){ align=right }
 
-**Kryptor** ist ein kostenloses und quelloffenes Tool zur Dateiverschlüsselung und -signierung, das moderne und sichere kryptografische Algorithmen verwendet. Es soll eine bessere Version von [age](https://github.com/FiloSottile/age) und [Minisign](https://jedisct1.github.io/minisign) sein und eine einfache, leichtere Alternative zu GPG darstellen.
+**Kryptor** is a free and open-source file encryption and signing tool that makes use of modern and secure cryptographic algorithms. Es soll eine bessere Version von [age](https://github.com/FiloSottile/age) und [Minisign](https://jedisct1.github.io/minisign) sein und eine einfache, leichtere Alternative zu GPG darstellen.
 
 [:octicons-home-16: Homepage](https://kryptor.co.uk){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://kryptor.co.uk/features#privacy){ .card-link title="Datenschutzrichtlinie" }
@@ -223,9 +223,9 @@ Werkzeuge mit Befehlszeilenschnittstellen sind nützlich für die Integration vo
 
 <div class="admonition recommendation" markdown>
 
-![Tomb-Logo](assets/img/encryption-software/tomb.png){ align=right }
+![Tomb logo](assets/images/encryption-software/tomb.png){ align=right }
 
-**Tomb** ist ein Kommandozeilen-Shell-Wrapper für LUKS. Es unterstützt Steganografie über [Drittanbieter-Tools] (https://dyne.org/software/tomb/#advanced-usage).
+**Tomb** is a command-line shell wrapper for LUKS. Es unterstützt Steganografie über [Drittanbieter-Tools] (https://dyne.org/software/tomb/#advanced-usage).
 
 [:octicons-home-16: Homepage](https://dyne.org/software/tomb){ .md-button .md-button--primary }
 [:octicons-info-16:](https://github.com/dyne/Tomb/wiki){ .card-link title="Dokumentation" }
@@ -263,9 +263,9 @@ gpg --quick-gen-key alice@example.com future-default
 
 <div class="admonition recommendation" markdown>
 
-![GNU Privacy Guard logo](assets/img/encryption-software/gnupg.svg){ align=right }
+![GNU Privacy Guard logo](assets/images/encryption-software/gnupg.svg){ align=right }
 
-**GnuPG** ist eine GPL-lizensierte Alternative zur PGP-Suite von Verschlüsselungssoftware. GnuPG ist [RFC 4880](https://tools.ietf.org/html/rfc4880) komfort, was die aktuelle IETF Spezifikation von OpenPGP ist. Das GnuPG-Projekt hat an einem [aktualisierten Entwurf](https://datatracker.ietf.org/doc/draft-ietf-openpgp-crypto-refresh) gearbeitet, um OpenPGP zu modernisieren. GnuPG ist Teil des GNU-Softwareprojekts der Free Software Foundation und wurde von der deutschen Regierung maßgeblich [gefördert](https://gnupg.org/blog/20220102-a-new-future-for-gnupg.html).
+**GnuPG** is a GPL-licensed alternative to the PGP suite of cryptographic software. GnuPG ist [RFC 4880](https://tools.ietf.org/html/rfc4880) komfort, was die aktuelle IETF Spezifikation von OpenPGP ist. Das GnuPG-Projekt hat an einem [aktualisierten Entwurf](https://datatracker.ietf.org/doc/draft-ietf-openpgp-crypto-refresh) gearbeitet, um OpenPGP zu modernisieren. GnuPG ist Teil des GNU-Softwareprojekts der Free Software Foundation und wurde von der deutschen Regierung maßgeblich [gefördert](https://gnupg.org/blog/20220102-a-new-future-for-gnupg.html).
 
 [:octicons-home-16: Homepage](https://gnupg.org){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://gnupg.org/privacy-policy.html){ .card-link title="Datenschutzrichtlinie" }
@@ -288,9 +288,9 @@ gpg --quick-gen-key alice@example.com future-default
 
 <div class="admonition recommendation" markdown>
 
-![GPG4win Logo](assets/img/encryption-software/gpg4win.svg){ align=right }
+![GPG4win logo](assets/images/encryption-software/gpg4win.svg){ align=right }
 
-**GPG4win** ist ein Paket für Windows von [Intevation und g10 Code](https://gpg4win.org/impressum-de.html). Es beinhaltet [verschiedene Tools](https://gpg4win.org/about-de.html), die dir bei der Verwendung von GPG unter Microsoft Windows helfen können. Das Projekt wurde 2005 [initiiert und ursprünglich finanziert](https://web.archive.org/web/20190425125223/https://joinup.ec.europa.eu/news/government-used-cryptography) vom deutschen Bundesamt für Sicherheit in der Informationstechnik (BSI).
+**GPG4win** is a package for Windows from [Intevation and g10 Code](https://gpg4win.org/impressum.html). Es beinhaltet [verschiedene Tools](https://gpg4win.org/about-de.html), die dir bei der Verwendung von GPG unter Microsoft Windows helfen können. Das Projekt wurde 2005 [initiiert und ursprünglich finanziert](https://web.archive.org/web/20190425125223/https://joinup.ec.europa.eu/news/government-used-cryptography) vom deutschen Bundesamt für Sicherheit in der Informationstechnik (BSI).
 
 [:octicons-home-16: Homepage](https://gpg4win.org){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://gpg4win.org/privacy-policy.html){ .card-link title="Datenschutzrichtlinie" }
@@ -311,7 +311,7 @@ gpg --quick-gen-key alice@example.com future-default
 
 <div class="admonition recommendation" markdown>
 
-![GPG Suite logo](assets/img/encryption-software/gpgsuite.png){ align=right }
+![GPG Suite logo](assets/images/encryption-software/gpgsuite.png){ align=right }
 
 **GPG Suite** provides OpenPGP support for [Apple Mail](email-clients.md#apple-mail-macos) and other email clients on macOS.
 
@@ -337,7 +337,7 @@ Currently, GPG Suite does [not yet](https://gpgtools.com/sequoia) have a stable 
 
 <div class="admonition recommendation" markdown>
 
-![OpenKeychain logo](assets/img/encryption-software/openkeychain.svg){ align=right }
+![OpenKeychain logo](assets/images/encryption-software/openkeychain.svg){ align=right }
 
 **OpenKeychain** is an implementation of GnuPG for Android. It's commonly required by mail clients such as [Thunderbird](email-clients.md#thunderbird), [FairEmail](email-clients.md#fairemail-android), and other Android apps to provide encryption support.
 

@@ -15,7 +15,7 @@ cover: pastebins.webp
 
 <div class="admonition recommendation" markdown>
 
-![PrivateBin 標誌](assets/img/pastebins/privatebin.svg){ align=right }
+![PrivateBin logo](assets/images/pastebins/privatebin.svg){ align=right }
 
 **PrivateBin** is a minimalist, open-source, online pastebin where the server cannot decrypt and read any pasted data you submit. 資料在瀏覽器中使用 256 位元 AES 加密/解密。它是 ZeroBin 的改良版。
 
@@ -30,7 +30,7 @@ cover: pastebins.webp
 
 <div class="admonition recommendation" markdown>
 
-![Paaster 標誌](assets/img/pastebins/paaster.svg){ align=right }
+![Paaster logo](assets/images/pastebins/paaster.svg){ align=right }
 
 **Paaster** 是一款安全且易於使用的 pastebin 應用程式，以隱私保護與操作簡便為首要考量。憑藉端對端加密與貼上歷史記錄功能，Paaster 確保您貼上的程式碼既能維持機密，又能隨時取用。
 

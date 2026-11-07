@@ -69,8 +69,8 @@ robots: nofollow, max-snippet:-1, max-image-preview:large
 
 <div class="admonition recommendation" markdown>
 
-![MVT 圖示](assets/img/device-integrity/mvt.webp#only-light){ align=right }
-![MVT 圖示](assets/img/device-integrity/mvt-dark.png#only-dark){ align=right }
+![MVT logo](assets/images/device-integrity/mvt.webp#only-light){ align=right }
+![MVT logo](assets/images/device-integrity/mvt-dark.png#only-dark){ align=right }
 
 **Mobile Verification Toolkit** (**MVT**) 是一組實用程式，可簡化和自動化掃描行動裝置的過程，尋找已知間諜軟體活動的潛在目標或感染痕跡。 MVT 由國際特赦組織開發，於 2021 年在 [飛馬計畫（Pegasus Project）](https://forbiddenstories.org/about-the-pegasus-project/) 的背景下發布。
 
@@ -113,7 +113,7 @@ MVT 對掃描 iOS 裝置「最」有用。 Android 儲存的診斷資訊非常�
 
 <div class="admonition recommendation" markdown>
 
-![iMazing logo](assets/img/device-integrity/imazing.png){ align=right }
+![iMazing logo](assets/images/device-integrity/imazing.png){ align=right }
 
 **iMazing** 為 iOS 裝置提供免費的間諜軟體分析工具，充當 [MVT](#mobile-verification-toolkit) 的圖形介面包裝器。相比 MVT ，它更容易運行，前者是專為技術人員和法醫調查人員設計的命令列工具。
 
@@ -153,8 +153,8 @@ iMazing 會自動並以互動方式引導完成使用 [MVT](#mobile-verification
 
 <div class="admonition recommendation" markdown>
 
-![Auditor logo](assets/img/device-integrity/auditor.svg#only-light){ align=right }
-![Auditor logo](assets/img/device-integrity/auditor-dark.svg#only-dark){ align=right }
+![Auditor logo](assets/images/device-integrity/auditor.svg#only-light){ align=right }
+![Auditor logo](assets/images/device-integrity/auditor-dark.svg#only-dark){ align=right }
 
 **Auditor** 是一款利用硬體安全功能通過主動驗證設備身份及其作業系統的完整性來進行完整性監控的應用程式。目前僅在 GrapheneOS 或 [支援設備](https://attestation.app/about#device-support)的庫存作業系統運行。
 

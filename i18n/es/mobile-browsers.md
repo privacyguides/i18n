@@ -15,7 +15,7 @@ schema:
     "@context": http://schema.org
     "@type": MobileApplication
     name: Brave
-    image: /assets/img/browsers/brave.svg
+    image: /assets/images/browsers/brave.svg
     url: https://brave.com
     applicationCategory: Web Browser
     operatingSystem:
@@ -28,7 +28,7 @@ schema:
     "@context": http://schema.org
     "@type": MobileApplication
     name: Safari
-    image: /assets/img/browsers/safari.svg
+    image: /assets/images/browsers/safari.svg
     url: https://apple.com/safari
     applicationCategory: Web Browser
     operatingSystem:
@@ -48,9 +48,9 @@ Estos son nuestros **navegadores web para móviles** y configuraciones recomenda
 
 <div class="admonition recommendation" markdown>
 
-![Brave logo](assets/img/browsers/brave.svg){ align=right }
+![Brave logo](assets/images/browsers/brave.svg){ align=right }
 
-**Brave Browser** incluye un bloqueador de contenidos integrado y [funciones de privacidad](https://brave.com/privacy-features/), muchas de las cuales están activadas por defecto.
+**Brave Browser** includes a built-in content blocker and [privacy features](https://brave.com/privacy-features), many of which are enabled by default.
 
 Brave se basa en el proyecto de navegador web Chromium, por lo que debería resultar familiar y tener mínimos problemas de compatibilidad con sitios web.
 
@@ -201,9 +201,9 @@ En iOS, cualquier aplicación que pueda navegar por la web está [restringida](h
 
 <div class="admonition recommendation" markdown>
 
-![Safari logo](assets/img/browsers/safari.svg){ align=right }
+![Safari logo](assets/images/browsers/safari.svg){ align=right }
 
-**Safari** es el navegador predeterminado en iOS. Incluye [funciones de privacidad](https://support.apple.com/guide/iphone/browse-the-web-privately-iphb01fc3c85/ios) como [Prevención Inteligente de Rastreo](https://webkit.org/blog/7675/intelligent-tracking-prevention), pestañas aisladas y efímeras de Navegación Privada, protección de huellas digitales (presentando una versión simplificada de la configuración del sistema a los sitios web para que más dispositivos parezcan idénticos) y aleatorización de huellas digitales, así como Relay Privado para quienes tengan una suscripción de pago a iCloud+.
+**Safari** is the default browser in iOS. Incluye [funciones de privacidad](https://support.apple.com/guide/iphone/browse-the-web-privately-iphb01fc3c85/ios) como [Prevención Inteligente de Rastreo](https://webkit.org/blog/7675/intelligent-tracking-prevention), pestañas aisladas y efímeras de Navegación Privada, protección de huellas digitales (presentando una versión simplificada de la configuración del sistema a los sitios web para que más dispositivos parezcan idénticos) y aleatorización de huellas digitales, así como Relay Privado para quienes tengan una suscripción de pago a iCloud+.
 
 [:octicons-home-16: Página Principal](https://apple.com/safari){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://apple.com/legal/privacy/data/en/safari){ .card-link title="Política de Privacidad" }

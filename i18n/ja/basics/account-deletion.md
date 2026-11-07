@@ -13,7 +13,7 @@ description: It's easy to accumulate a large number of internet accounts. Here a
 すべてのオンライン上の活動でパスワードマネージャーを利用しているのであれば、このパートは非常に簡単です。パスワードマネージャーにはBitwardenの[データ漏洩レポート](https://bitwarden.com/blog/have-you-been-pwned)のような認証情報がデータが漏洩したか検知する機能が組み込まれています。
 
 <figure markdown>
-  ![Bitwardenのデータ漏洩レポート](../assets/img/account-deletion/exposed_passwords.png)
+  ![Bitwarden's Data Breach Report feature](../assets/images-localized/account-deletion/exposed_passwords.png)
 </figure>
 
 Even if you haven't explicitly used a password manager before, there's a chance you've used the one in your browser ([Firefox](https://support.mozilla.org/kb/password-manager-remember-delete-edit-logins), [Chrome](https://passwords.google.com/intro), [Edge](https://support.microsoft.com/microsoft-edge/save-or-forget-passwords-in-microsoft-edge-b4beecb0-f2a8-1ca0-f26f-9ec247a3f336)) or your phone ([Google](https://passwords.google.com/intro) on stock Android, [Passwords](https://support.apple.com/HT211146) on iOS) without even realizing it.

@@ -30,9 +30,9 @@ Windows has a built-in metadata remover, but unfortunately it cannot remove many
 
 <div class="admonition recommendation" markdown>
 
-![MAT2 標誌](assets/img/data-redaction/mat2.svg){ align=right }
+![MAT2 logo](assets/images/data-redaction/mat2.svg){ align=right }
 
-**MAT2** 是自由的跨平台軟體，可以移除影像、音訊、torrent 與文件檔案類型的中介資料。其同時提供了命令列工具與圖形化使用者介面，並透過擴充套件整合至 [Dolphin](https://github.com/jvoisin/mat2/tree/master/dolphin)（[KDE](https://kde.org) 預設的檔案管理程式）。
+**MAT2** is free, cross-platform software which allows you to remove metadata from image, audio, torrent, and document file types. 其同時提供了命令列工具與圖形化使用者介面，並透過擴充套件整合至 [Dolphin](https://github.com/jvoisin/mat2/tree/master/dolphin)（[KDE](https://kde.org) 預設的檔案管理程式）。
 
 [:octicons-repo-16: 軟體倉庫](https://github.com/jvoisin/mat2#readme){ .md-button .md-button--primary }
 [:octicons-info-16:](https://github.com/jvoisin/mat2#how-to-use-mat2){ .card-link title="文件" }
@@ -54,7 +54,7 @@ Windows has a built-in metadata remover, but unfortunately it cannot remove many
 
 <div class="admonition recommendation" markdown>
 
-![Metadata Cleaner logo](assets/img/data-redaction/metadatacleaner.svg){ align=right }
+![Metadata Cleaner logo](assets/images/data-redaction/metadatacleaner.svg){ align=right }
 
 **Metadata Cleaner** is a graphical metadata removal tool for Linux powered by [MAT2](https://github.com/jvoisin/mat2).
 
@@ -75,9 +75,9 @@ Windows has a built-in metadata remover, but unfortunately it cannot remove many
 
 <div class="admonition recommendation" markdown>
 
-![ExifEraser logo](assets/img/data-redaction/exiferaser.svg){ align=right }
+![ExifEraser logo](assets/images/data-redaction/exiferaser.svg){ align=right }
 
-**ExifEraser** 是 Android 的現代無需許可的圖像中繼資料擦除應用程式。
+**ExifEraser** is a modern, permissionless image metadata erasing application for Android.
 
 其目前支援 JPEG、PNG 與 WebP 檔案。
 
@@ -126,9 +126,9 @@ Windows has a built-in metadata remover, but unfortunately it cannot remove many
 
 <div class="admonition recommendation" markdown>
 
-![ExifTool 標誌](assets/img/data-redaction/exiftool.png){ align=right }
+![ExifTool logo](assets/images/data-redaction/exiftool.png){ align=right }
 
-**ExifTool** 是原始的 Perl 函式庫與命令列應用程式，用來讀取、寫入與編輯各種檔案格式（JPEG、TIFF、PNG、PDF、RAW 等等）的中介資料（Exif、IPTC、XMP 等等）。
+**ExifTool** is the original Perl library and command-line application for reading, writing, and editing meta information (Exif, IPTC, XMP, and more) in a wide variety of file formats (JPEG, TIFF, PNG, PDF, RAW, and more).
 
 其通常是其他 Exif 移除應用程式的元件，大多數的 Linux 散佈版軟體庫中也有收錄。
 

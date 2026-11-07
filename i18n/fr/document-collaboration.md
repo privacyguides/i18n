@@ -15,7 +15,7 @@ La majorité des plateformes de **documents collaboratifs** en ligne comme Googl
 
 <div class="admonition recommendation" markdown>
 
-![Logo de CryptPad](assets/img/document-collaboration/cryptpad.svg){ align=right }
+![CryptPad logo](assets/images/document-collaboration/cryptpad.svg){ align=right }
 
 **CryptPad** est une alternative "confidentielle par conception" aux suites bureautiques les plus répandues. Tout le contenu de ce service web est chiffré de bout-en-bout et peu facilement être partagé à d'autres utilisateurs.
 

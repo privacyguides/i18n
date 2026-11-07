@@ -13,7 +13,7 @@ Im Laufe der Zeit kann sich leicht eine Reihe von Online-Konten ansammeln, von d
 Wenn du einen Passwort-Manager hast, den du dein ganzes digitales Leben lang verwendet hast, wird dieser Teil sehr einfach sein. Oftmals enthalten sie eine integrierte Funktionalität zur Erkennung, ob deine Anmeldedaten bei einer Datenschutzverletzung offengelegt wurden – wie z. B. der [Datendiebstahl Bericht](https://bitwarden.com/blog/have-you-been-pwned) von Bitwarden.
 
 <figure markdown>
-  ![Bitwarden's Datendiebstahl Bericht Funktion](../assets/img/account-deletion/exposed_passwords.png)
+  ![Bitwarden's Data Breach Report feature](../assets/images-localized/account-deletion/exposed_passwords.png)
 </figure>
 
 Even if you haven't explicitly used a password manager before, there's a chance you've used the one in your browser ([Firefox](https://support.mozilla.org/kb/password-manager-remember-delete-edit-logins), [Chrome](https://passwords.google.com/intro), [Edge](https://support.microsoft.com/microsoft-edge/save-or-forget-passwords-in-microsoft-edge-b4beecb0-f2a8-1ca0-f26f-9ec247a3f336)) or your phone ([Google](https://passwords.google.com/intro) on stock Android, [Passwords](https://support.apple.com/HT211146) on iOS) without even realizing it.

@@ -17,12 +17,12 @@ Algumas das informações aqui e na documentação do Qubes OS podem conter ling
 
 </details>
 
-![Arquitetura de Qubes](../assets/img/qubes/qubes-trust-level-architecture.png)
+![Arquitetura de Qubes](../assets/images-localized/qubes/qubes-trust-level-architecture.png)
 <figcaption>Arquitetura Qubes, Crédito: O que é o Qubes OS Intro</figcaption>
 
 Cada qube tem uma [borda colorida](https://qubes-os.org/screenshots) que pode ajudá-lo a monitorar o domínio em que é executado. Você pode, por exemplo, usar uma cor específica para o navegador do banco, enquanto usa uma cor diferente para um navegador geral não confiável.
 
-![Borda colorida](../assets/img/qubes/r4.0-xfce-three-domains-at-work.png)
+![Borda colorida](../assets/images-localized/qubes/r4.0-xfce-three-domains-at-work.png)
 <figcaption>Bordas da janela do Qubes, Crédito: Qubes Screenshots</figcaption>
 
 ## Por Que Devo Usar Qubes?

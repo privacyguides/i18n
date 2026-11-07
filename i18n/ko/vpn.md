@@ -43,9 +43,9 @@ VPN을 사용한다고 해서 여러분의 브라우징 습관이 익명으로 �
 
 <div class="admonition recommendation" markdown>
 
-![프로톤 VPN 로고](assets/img/vpn/protonvpn.svg){ align=right }
+![Proton VPN logo](assets/images/vpn/protonvpn.svg){ align=right }
 
-**프로톤 VPN**은 VPN 분야의 강력한 경쟁자로, 2016년부터 운영되어 왔습니다. 프로톤 AG는 스위스에 본사를 두고 있으며, 기능이 제한된 무료 요금제와 더 많은 기능을 갖춘 프리미엄 요금제를 제공합니다.
+**Proton VPN** is a strong contender in the VPN space, and they have been in operation since 2016. 프로톤 AG는 스위스에 본사를 두고 있으며, 기능이 제한된 무료 요금제와 더 많은 기능을 갖춘 프리미엄 요금제를 제공합니다.
 
 [:octicons-home-16: 홈페이지](https://protonvpn.com){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://protonvpn.com/privacy-policy){ .card-link title="개인정보 처리방침" }
@@ -137,9 +137,9 @@ macOS용 프로톤 VPN의 킬 스위치는 사용자가 의도적으로 VPN 연�
 
 <div class="admonition recommendation" markdown>
 
-![IVPN 로고](assets/img/vpn/ivpn.svg){ align=right }
+![IVPN logo](assets/images/vpn/ivpn.svg){ align=right }
 
-**IVPN**은 또 다른 프리미엄 VPN 제공업체로, 2009년부터 운영되어 왔습니다. IVPN은 지브롤터에 본사를 두고 있으며 무료 체험판을 제공하지 않습니다.
+**IVPN** is another premium VPN provider, and they have been in operation since 2009. IVPN은 지브롤터에 본사를 두고 있으며 무료 체험판을 제공하지 않습니다.
 
 [:octicons-home-16: 홈페이지](https://ivpn.net){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://ivpn.net/privacy){ .card-link title="개인정보 처리방침" }
@@ -212,9 +212,9 @@ IVPN 클라이언트는 2단계 인증을 지원합니다. IVPN은 네트워크 
 
 <div class="admonition recommendation" markdown>
 
-![멀바드 로고](assets/img/vpn/mullvad.svg){ align=right }
+![Mullvad logo](assets/images/vpn/mullvad.svg){ align=right }
 
-**멀바드**는 투명성과 보안에 중점을 둔, 빠르고 저렴한 VPN입니다. 2009년부터 운영되어 왔습니다. 멀바드는 스웨덴에 본사를 두고 있으며, 환불이 가능한 [결제 수단](https://mullvad.net/en/help/refunds)에 대해 14일 환불 보장을 제공합니다.
+**Mullvad** is a fast and inexpensive VPN with a serious focus on transparency and security. 2009년부터 운영되어 왔습니다. 멀바드는 스웨덴에 본사를 두고 있으며, 환불이 가능한 [결제 수단](https://mullvad.net/en/help/refunds)에 대해 14일 환불 보장을 제공합니다.
 
 [:octicons-home-16: 홈페이지](https://mullvad.net){ .md-button .md-button--primary }
 [:simple-torbrowser:](http://o54hon2e2vj6c7m3aqqu6uyece65by3vgoxxhlqlsvkmacw6a7m7kiad.onion){ .card-link title="어니언 서비스" }

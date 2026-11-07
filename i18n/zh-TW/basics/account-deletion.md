@@ -13,7 +13,7 @@ description: 在網路上輕易就能累積大量帳號。以下是一些關於�
 如果您使用一個貫穿整個數位生活的密碼管理器，這部分將非常容易。通常，它們包括內建功能，用於偵測憑證是否在資料洩露中暴露----例如Bitwarden的 [資料洩露報告](https://bitwarden.com/blog/have-you-been-pwned)。
 
 <figure markdown>
-  ![Bitwarden's 資料外洩報告特色](../assets/img/account-deletion/exposed_passwords.png)
+  ![Bitwarden's Data Breach Report feature](../assets/images-localized/account-deletion/exposed_passwords.png)
 </figure>
 
 即便您之前沒有印象有使用過密碼管理程式，也有可能在不知不覺間使用過瀏覽器（[Firefox](https://support.mozilla.org/kb/password-manager-remember-delete-edit-logins)、[Chrome](https://passwords.google.com/intro)、[Edge](https://support.microsoft.com/microsoft-edge/save-or-forget-passwords-in-microsoft-edge-b4beecb0-f2a8-1ca0-f26f-9ec247a3f336)）或是手機（原生 Android 上的 [Google](https://passwords.google.com/intro)、iOS 上的[密碼](https://support.apple.com/HT211146)）內建的功能。

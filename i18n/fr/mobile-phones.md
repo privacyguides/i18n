@@ -14,7 +14,7 @@ schema:
     brand:
       "@type": Brand
       name: Google
-    image: /assets/img/android/google-pixel.png
+    image: /assets/images/android/google-pixel.png
     sameAs: https://en.wikipedia.org/wiki/Google_Pixel
     review:
       "@type": Review
@@ -62,7 +62,7 @@ Les téléphones Google Pixel sont les **seuls** smartphones que nous vous recom
 
 <div class="admonition recommendation" markdown>
 
-![Google Pixel 6](assets/img/android/google-pixel.png){ align=right }
+![Google Pixel 6](assets/images/android/google-pixel.png){ align=right }
 
 Les appareils **Google Pixel** sont connus pour avoir une bonne sécurité et pour leur meilleure compatibilité avec le [Démarrage Vérifié](https://source.android.com/security/verifiedboot), même en y installant un système d'exploitation alternatif.
 
@@ -87,8 +87,8 @@ Quelques conseils supplémentaires :
 - Pour profiter d'une bonne affaire, vous pouvez essayer d'acheter un modèle "**a**" juste après la sortie d'un nouveau modèle. Google propose souvent des réductions afin de vider leurs stocks.
 - Cherchez les meilleures offres ou les réductions spéciales proposées dans les magasins physiques.
 - Consultez régulièrement les sites communautaires de bonnes affaires de votre région. Ils peuvent vous informer en cas de réductions intéressantes.
-- Google fourni une liste complète du [cycle de support](https://support.google.com/nexus/answer/4457705) pour chacun de leurs modèles. Le coût journalier d'un appareil peut être calculé comme suit : <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline" class="tml-display" style="display:inline math;"> <mfrac> <mtext>Coût</mtext> <mrow> <mtext>Date de fin de vie</mtext> <mo>−</mo> <mtext>Date du jour</mtext> </mrow> </mfrac> </math>
-  , ce qui signifie que plus vous utilisez votre appareil longtemps, moins le coût journalier sera élevé.
+- Google fourni une liste complète du [cycle de support](https://support.google.com/nexus/answer/4457705) pour chacun de leurs modèles. The price per day for a device can be calculated as: <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline" class="tml-display" style="display:inline math;"> <mfrac> <mtext>Cost</mtext> <mrow> <mtext>End of Life Date</mtext> <mo>−</mo> <mtext>Current Date</mtext> </mrow> </mfrac> </math>
+  , meaning that the longer use of the device the lower cost per day.
 - Si les Pixels ne sont pas disponibles à la vente dans votre pays, les [NitroPhones](https://shop.nitrokey.com/shop) peuvent être livrés dans le monde entier.
 
 L'installation de GrapheneOS sur un Pixel est très simple grâce à leur [web installer](https://grapheneos.org/install/web)(en anglais uniquement, mais des tutoriels en français sont facilement trouvables). Si vous n'êtes pas à l'aise à l'idée de le faire vous-même et si cela entre dans votre budget, vous pouvez investir dans un [NitroPhone](https://shop.nitrokey.com/shop) préinstallé avec GrapheneOS, vendu par l'entreprise réputée [Nitrokey](https://nitrokey.com/about).

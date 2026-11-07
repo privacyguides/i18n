@@ -16,10 +16,10 @@ Below are a few alternative operating systems that can be used on routers, Wi-Fi
 
 <div class="admonition recommendation" markdown>
 
-![OpenWrt logo](assets/img/router/openwrt.svg#only-light){ align=right }
-![OpenWrt logo](assets/img/router/openwrt-dark.svg#only-dark){ align=right }
+![OpenWrt logo](assets/images/router/openwrt.svg#only-light){ align=right }
+![OpenWrt logo](assets/images/router/openwrt-dark.svg#only-dark){ align=right }
 
-**OpenWrt** is een op Linux gebaseerd besturingssysteem; het wordt voornamelijk gebruikt op embedded apparaten om netwerkverkeer te routeren. De belangrijkste onderdelen zijn de Linux kernel, util-linux, uClibc, en BusyBox. All the components have been optimized for home routers.
+**OpenWrt** is a Linux-based operating system; it's primarily used on embedded devices to route network traffic. De belangrijkste onderdelen zijn de Linux kernel, util-linux, uClibc, en BusyBox. All the components have been optimized for home routers.
 
 [:octicons-home-16: Homepage](https://openwrt.org){ .md-button .md-button--primary }
 [:octicons-info-16:](https://openwrt.org/docs/start){ .card-link title=Documentatie}
@@ -36,7 +36,7 @@ Je kunt OpenWrt's [tabel van hardware](https://openwrt.org/toh/start) raadplegen
 
 <div class="admonition recommendation" markdown>
 
-![OPNsense logo](assets/img/router/opnsense.svg){ align=right }
+![OPNsense logo](assets/images/router/opnsense.svg){ align=right }
 
 **OPNsense** is an open-source, FreeBSD-based firewall and routing platform which incorporates many advanced features such as traffic shaping, load balancing, and VPN capabilities, with many more features available in the form of plugins. OPNsense wordt gewoonlijk ingezet als perimeter firewall, router, draadloos toegangspunt, DHCP server, DNS server en VPN eindpunt.
 

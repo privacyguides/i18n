@@ -29,9 +29,9 @@ OpenPGP 같은 종단 간 암호화(E2EE) 기술을 사용하더라도 이메일
 
 <div class="admonition recommendation" markdown>
 
-![썬더버드 로고](assets/img/email-clients/thunderbird.svg){ align=right }
+![Thunderbird logo](assets/images/email-clients/thunderbird.svg){ align=right }
 
-**썬더버드**는 썬더버드 커뮤니티가 (과거에는 모질라 재단이) 개발한 자유 오픈 소스 크로스 플랫폼 이메일, 뉴스그룹, 뉴스 피드, 채팅(XMPP, IRC, 매트릭스) 클라이언트입니다.
+**Thunderbird** is a free, open-source, cross-platform email, newsgroup, news feed, and chat (XMPP, IRC, Matrix) client developed by the Thunderbird community, and previously by the Mozilla Foundation.
 
 [:octicons-home-16: 홈페이지](https://thunderbird.net){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://mozilla.org/privacy/thunderbird){ .card-link title="개인정보 처리방침" }
@@ -90,9 +90,9 @@ OpenPGP 같은 종단 간 암호화(E2EE) 기술을 사용하더라도 이메일
 
 <div class="admonition recommendation" markdown>
 
-![애플 메일 로고](assets/img/email-clients/applemail.png){ align=right }
+![Apple Mail logo](assets/images/email-clients/applemail.png){ align=right }
 
-**애플 메일**은 macOS에 포함되어 있으며, [GPG 스위트](encryption.md#gpg-suite)로 확장하면 OpenPGP를 지원하여 PGP로 암호화된 이메일을 보낼 수 있습니다.
+**Apple Mail** is included in macOS and can be extended to have OpenPGP support with [GPG Suite](encryption.md#gpg-suite), which adds the ability to send PGP-encrypted email.
 
 [:octicons-home-16: 홈페이지](https://support.apple.com/guide/mail/welcome/mac){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://apple.com/legal/privacy/en-ww){ .card-link title="개인정보 처리방침" }
@@ -115,9 +115,9 @@ OpenPGP 같은 종단 간 암호화(E2EE) 기술을 사용하더라도 이메일
 
 <div class="admonition recommendation" markdown>
 
-![페어이메일 로고](assets/img/email-clients/fairemail.svg){ align=right }
+![FairEmail logo](assets/images/email-clients/fairemail.svg){ align=right }
 
-**페어이메일**은 개방형 표준(IMAP, SMTP, OpenPGP)을 사용하며 데이터와 배터리 사용량을 최소화하는 미니멀한 오픈 소스 이메일 앱입니다.
+**FairEmail** is a minimal, open-source email app which uses open standards (IMAP, SMTP, OpenPGP) and minimizes data and battery usage.
 
 [:octicons-home-16: 홈페이지](https://email.faircode.eu){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://github.com/M66B/FairEmail/blob/master/PRIVACY.md){ .card-link title="개인정보 처리방침" }
@@ -139,9 +139,9 @@ OpenPGP 같은 종단 간 암호화(E2EE) 기술을 사용하더라도 이메일
 
 <div class="admonition recommendation" markdown>
 
-![에볼루션 로고](assets/img/email-clients/evolution.svg){ align=right }
+![Evolution logo](assets/images/email-clients/evolution.svg){ align=right }
 
-**에볼루션**은 메일, 캘린더, 주소록 기능을 통합해 제공하는 개인 정보 관리 애플리케이션입니다. 에볼루션에는 시작하는 데 도움이 되는 방대한 [문서](https://gnome.pages.gitlab.gnome.org/evolution/help)가 있습니다.
+**Evolution** is a personal information management application that provides integrated mail, calendaring, and address book functionality. 에볼루션에는 시작하는 데 도움이 되는 방대한 [문서](https://gnome.pages.gitlab.gnome.org/evolution/help)가 있습니다.
 
 [:octicons-home-16: 홈페이지](https://gitlab.gnome.org/GNOME/evolution/-/wikis/home){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://gitlab.gnome.org/GNOME/evolution/-/wikis/Privacy-Policy){ .card-link title="개인정보 처리방침" }
@@ -162,9 +162,9 @@ OpenPGP 같은 종단 간 암호화(E2EE) 기술을 사용하더라도 이메일
 
 <div class="admonition recommendation" markdown>
 
-![콘택트 로고](assets/img/email-clients/kontact.svg){ align=right }
+![Kontact logo](assets/images/email-clients/kontact.svg){ align=right }
 
-**콘택트**는 [KDE](https://kde.org) 프로젝트의 개인 정보 관리자(PIM) 애플리케이션입니다. 메일 클라이언트, 주소록, RSS 클라이언트, 일정 관리 도구를 제공합니다.
+**Kontact** is a personal information manager (PIM) application from the [KDE](https://kde.org) project. 메일 클라이언트, 주소록, RSS 클라이언트, 일정 관리 도구를 제공합니다.
 
 [:octicons-home-16: 홈페이지](https://kontact.kde.org){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://kde.org/privacypolicy-apps){ .card-link title="개인정보 처리방침" }
@@ -186,9 +186,9 @@ OpenPGP 같은 종단 간 암호화(E2EE) 기술을 사용하더라도 이메일
 
 <div class="admonition recommendation" markdown>
 
-![메일벨로프 로고](assets/img/email-clients/mailvelope.svg){ align=right }
+![Mailvelope logo](assets/images/email-clients/mailvelope.svg){ align=right }
 
-**메일벨로프**는 OpenPGP 암호화 표준에 따라 암호화된 이메일을 주고받을 수 있게 해 주는 브라우저 확장 프로그램입니다.
+**Mailvelope** is a browser extension that enables the exchange of encrypted emails following the OpenPGP encryption standard.
 
 [:octicons-home-16: 홈페이지](https://mailvelope.com){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://mailvelope.com/privacy-policy){ .card-link title="개인정보 처리방침" }
@@ -210,9 +210,9 @@ OpenPGP 같은 종단 간 암호화(E2EE) 기술을 사용하더라도 이메일
 
 <div class="admonition recommendation" markdown>
 
-![네오머트 로고](assets/img/email-clients/mutt.svg){ align=right }
+![NeoMutt logo](assets/images/email-clients/mutt.svg){ align=right }
 
-**네오머트**는 리눅스와 BSD용 오픈 소스 명령줄 이메일 리더입니다. [머트](https://en.wikipedia.org/wiki/Mutt_(email_client))에 기능을 추가한 포크입니다.
+**NeoMutt** is an open-source command line email reader for Linux and BSD. [머트](https://en.wikipedia.org/wiki/Mutt_(email_client))에 기능을 추가한 포크입니다.
 
 네오머트는 텍스트 기반 클라이언트로 학습 곡선이 가파릅니다. 하지만 사용자 지정의 폭이 매우 넓습니다.
 

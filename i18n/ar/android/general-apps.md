@@ -36,7 +36,7 @@ robots: nofollow, max-snippet:-1, max-image-preview:large
 
 <div class="admonition recommendation" markdown>
 
-![Shelter logo](../assets/img/android/shelter.svg){ align=right }
+![Shelter logo](../assets/images/android/shelter.svg){ align=right }
 
 تطبيق Shelter هو تطبيق يساعدك على الاستفادة من ميزة Work Profile في Android لعزل التطبيقات على جهازك أو إنشاء نسخ منفصلة منها.
 
@@ -65,8 +65,8 @@ robots: nofollow, max-snippet:-1, max-image-preview:large
 
 <div class="admonition recommendation" markdown>
 
-![Secure camera logo](../assets/img/android/secure_camera.svg#only-light){ align=right }
-![Secure camera logo](../assets/img/android/secure_camera-dark.svg#only-dark){ align=right }
+![Secure camera logo](../assets/images/android/secure_camera.svg#only-light){ align=right }
+![Secure camera logo](../assets/images/android/secure_camera-dark.svg#only-dark){ align=right }
 
 تطبيق **Secure Camera** هو تطبيق كاميرا يركز على الخصوصية والأمان، ويمكنه التقاط الصور ومقاطع الفيديو وقراءة QR codes. كما يدعم التطبيق إضافات CameraX vendor extensions على الأجهزة المتوافقة، مثل Portrait وHDR وNight Sight وFace Retouch وAuto.
 
@@ -109,8 +109,8 @@ robots: nofollow, max-snippet:-1, max-image-preview:large
 
 <div class="admonition recommendation" markdown>
 
-![Secure PDF Viewer logo](../assets/img/android/secure_pdf_viewer.svg#only-light){ align=right }
-![Secure PDF Viewer logo](../assets/img/android/secure_pdf_viewer-dark.svg#only-dark){ align=right }
+![Secure PDF Viewer logo](../assets/images/android/secure_pdf_viewer.svg#only-light){ align=right }
+![Secure PDF Viewer logo](../assets/images/android/secure_pdf_viewer-dark.svg#only-dark){ align=right }
 
 تطبيق Secure PDF Viewer هو تطبيق لعرض ملفات PDF يعتمد على [pdf.js](https://en.wikipedia.org/wiki/PDF.js)، ولا يحتاج إلى أي صلاحيات. يتم فتح ملف PDF داخل [WebView](https://developer.android.com/guide/webapps/webview) يعمل في بيئة [sandboxed](https://en.wikipedia.org/wiki/Sandbox_(software_development) معزولة، مما يساعد على تقليل قدرة الملف على التأثير في بقية النظام. هذا يعني أن التطبيق لا يحتاج إلى صلاحية مباشرة للوصول إلى المحتوى أو الملفات على جهازك.
 

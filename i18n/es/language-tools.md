@@ -18,7 +18,7 @@ El texto introducido en los correctores gramaticales, ortográficos y de estilo,
 
 <div class="admonition recommendation" markdown>
 
-![LibreTranslate logo](assets/img/language-tools/libretranslate.png){ align=right }
+![LibreTranslate logo](assets/images/language-tools/libretranslate.png){ align=right }
 
 **LibreTranslate** es una interfaz web de traducción automática y un servidor API gratuitos y de código abierto. Utiliza modelos [Argos Translate](https://github.com/argosopentech/argos-translate) en el backend para las traducciones.
 

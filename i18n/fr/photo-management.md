@@ -16,7 +16,7 @@ La majorité des **gestionnaires de photos** comme Google Photo, Flickr et Amazo
 
 <div class="admonition recommendation" markdown>
 
-![Logo de Ente](assets/img/photo-management/ente.svg){ align=right }
+![Ente logo](assets/images/photo-management/ente.svg){ align=right }
 
 **Ent Photos** est un service de sauvegarde de photo chiffré de bout-en-bout qui vous permet de sauvegarder automatiquement vos photos sur iOS et Android. Le code est entièrement open-source, côté client et côté serveur. Il est également possible de [l'auto-héberger](https://github.com/ente-io/ente/tree/main/server#self-hosting).
 

@@ -5,7 +5,7 @@ description: Android ist ein Open-Source-Betriebssystem mit starken Sicherheitsv
 robots: nofollow, max-snippet:-1, max-image-preview:large
 ---
 
-![Android Logo](../assets/img/android/android.svg){ align=right }
+![Android Logo](../assets/images/android/android.svg){ align=right }
 
 Das **Android Open-Source Project** ist ein sicheres mobiles Betriebssystem mit starkem [App-Sandboxing](https://source.android.com/security/app-sandbox), [Verified Boot](https://source.android.com/security/verifiedboot) (AVB) und einem robusten [Berechtigungskontrollsystem](https://developer.android.com/guide/topics/permissions/overview).
 

@@ -230,11 +230,11 @@ description: الـ iOS هو نظام تشغيل للهواتف المحمولة
 
 بدلا من السماح للتطبيق بالوصول إلى جميع الصور على جهازك، يمكنك السماح له بالوصول إلى الصور التي تختارها فقط، من خلال الضغط على خيار "Select Photos..." في نافذة طلب الإذن. يمكنك تغيير أذونات الوصول إلى الصور في أي وقت بالانتقال إلى **Settings** → **Privacy & Security** → **Photos**.
 
-![أذونات الوصول إلى الصور](../assets/img/ios/photo-permissions-light.png#only-light) ![أذونات الوصول إلى الصور](../assets/img/ios/photo-permissions-dark.png#only-dark)
+![أذونات الوصول إلى الصور](../assets/images-localized/ios/photo-permissions-light.png#only-light) ![أذونات الوصول إلى الصور](../assets/images-localized/ios/photo-permissions-dark.png#only-dark)
 
 إذن **Add Photos Only** يسمح للتطبيق بإضافة الصور إلى مكتبة الصور فقط. لا توفر جميع التطبيقات التي تطلب الوصول إلى مكتبة الصور هذا الخيار.
 
-![الوصول الخاص](../assets/img/ios/private-access-light.png#only-light) ![الوصول الخاص](../assets/img/ios/private-access-dark.png#only-dark)
+![الوصول الخاص](../assets/images-localized/ios/private-access-light.png#only-light) ![الوصول الخاص](../assets/images-localized/ios/private-access-dark.png#only-dark)
 
 تدعم بعض التطبيقات أيضا خيار **Private Access**، الذي يعمل بطريقة مشابهة لإذن **Limited Access**. لكن الصور التي تشاركها مع التطبيقات باستخدام Private Access تتضمن معلومات موقع التقاطها بشكل افتراضي. ننصح بإلغاء تحديد هذا الخيار إذا لم تكن [قد أزلت Metadata](../data-redaction.md) من الصور مسبقا.
 
@@ -242,7 +242,7 @@ description: الـ iOS هو نظام تشغيل للهواتف المحمولة
 
 وبالمثل، بدلا من السماح للتطبيق بالوصول إلى جميع جهات الاتصال المحفوظة على جهازك، يمكنك السماح له بالوصول إلى جهات الاتصال التي تختارها فقط. يمكنك تغيير أذونات الوصول إلى جهات الاتصال في أي وقت بالانتقال إلى **Settings** → **Privacy & Security** → **Contacts**.
 
-![أذونات الوصول إلى جهات الاتصال](../assets/img/ios/contact-permissions-light.png#only-light) ![أذونات الوصول إلى جهات الاتصال](../assets/img/ios/contact-permissions-dark.png#only-dark)
+![أذونات الوصول إلى جهات الاتصال](../assets/images-localized/ios/contact-permissions-light.png#only-light) ![أذونات الوصول إلى جهات الاتصال](../assets/images-localized/ios/contact-permissions-dark.png#only-dark)
 
 ### طلب المصادقة بالبصمة وإخفاء التطبيقات
 

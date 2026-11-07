@@ -69,8 +69,8 @@ robots: nofollow, max-snippet:-1, max-image-preview:large
 
 <div class="admonition recommendation" markdown>
 
-![MVT 로고](assets/img/device-integrity/mvt.webp#only-light){ align=right }
-![MVT 로고](assets/img/device-integrity/mvt-dark.png#only-dark){ align=right }
+![MVT logo](assets/images/device-integrity/mvt.webp#only-light){ align=right }
+![MVT logo](assets/images/device-integrity/mvt-dark.png#only-dark){ align=right }
 
 **모바일 검증 툴킷**(**MVT**)은 알려진 스파이웨어 캠페인에 의한 표적 공격이나 감염의 잠재적 흔적이 있는지 모바일 기기를 검사하는 과정을 단순화하고 자동화하는 유틸리티 모음입니다. MVT는 국제앰네스티가 개발했으며 [페가수스 프로젝트](https://forbiddenstories.org/about-the-pegasus-project)의 일환으로 2021년에 공개되었습니다.
 
@@ -112,7 +112,7 @@ iOS를 사용하고 있고 고위험군에 속한다면 세 가지를 추가로 
 
 <div class="admonition recommendation" markdown>
 
-![아이메이징 로고](assets/img/device-integrity/imazing.png){ align=right }
+![iMazing logo](assets/images/device-integrity/imazing.png){ align=right }
 
 **아이메이징**은 iOS 기기용 무료 스파이웨어 분석 도구를 제공하며, 이 도구는 [MVT](#mobile-verification-toolkit)의 GUI 래퍼 역할을 합니다. 기술 전문가와 포렌식 조사관을 위해 설계된 명령줄 도구인 MVT 자체보다 훨씬 쉽게 실행할 수 있습니다.
 
@@ -152,8 +152,8 @@ iOS를 사용하고 있고 고위험군에 속한다면 세 가지를 추가로 
 
 <div class="admonition recommendation" markdown>
 
-![오디터 로고](assets/img/device-integrity/auditor.svg#only-light){ align=right }
-![오디터 로고](assets/img/device-integrity/auditor-dark.svg#only-dark){ align=right }
+![Auditor logo](assets/images/device-integrity/auditor.svg#only-light){ align=right }
+![Auditor logo](assets/images/device-integrity/auditor-dark.svg#only-dark){ align=right }
 
 **오디터**는 하드웨어 보안 기능을 활용하여 기기의 신원과 운영 체제의 무결성을 능동적으로 검증함으로써 기기 무결성 모니터링을 제공하는 앱입니다. 현재는 [지원되는 기기](https://attestation.app/about#device-support)의 그래핀OS 또는 순정 운영 체제에서만 작동합니다.
 

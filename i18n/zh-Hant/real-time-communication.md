@@ -21,9 +21,9 @@ These recommendations for encrypted **real-time communication** are great for se
 
 <div class="admonition recommendation" markdown>
 
-![Signal logo](assets/img/messengers/signal.svg){ align=right }
+![Signal logo](assets/images/messengers/signal.svg){ align=right }
 
-**Signal** 是由Signal Messenger LLC開發的行動應用程式。 The app provides instant messaging and calls secured with the Signal protocol, an extremely secure encryption protocol which supports forward secrecy[^1] and post-compromise security.[^2]
+**Signal** is a mobile app developed by Signal Messenger LLC. The app provides instant messaging and calls secured with the Signal protocol, an extremely secure encryption protocol which supports forward secrecy[^1] and post-compromise security.[^2]
 
 [:octicons-home-16: Homepage](https://signal.org){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://signal.org/legal/#privacy-policy){ .card-link title="Privacy Policy" }
@@ -70,7 +70,7 @@ The protocol was independently [audited](https://eprint.iacr.org/2016/1013.pdf) 
 
 <div class="admonition recommendation" markdown>
 
-![SimpleX Chat logo](assets/img/messengers/simplex.svg){ align=right }
+![SimpleX Chat logo](assets/images/messengers/simplex.svg){ align=right }
 
 **SimpleX Chat** is an instant messenger that doesn't depend on any unique identifiers such as phone numbers or usernames. 其分佈式網路使 SimpleX Chat 成為對抗 [:material-close-outline: 審查](basics/common-threats.md#avoiding-censorship){ .pg-blue-gray } 的有效工具。
 
@@ -106,7 +106,7 @@ SimpleX Chat was independently audited in [July 2024](https://simplex.chat/blog/
 
 <div class="admonition recommendation" markdown>
 
-![Briar logo](assets/img/messengers/briar.svg){ align=right }
+![Briar logo](assets/images/messengers/briar.svg){ align=right }
 
 **Briar** is an encrypted instant messenger that [connects](https://briarproject.org/how-it-works) to other clients using the [Tor network](alternative-networks.md#tor), making it an effective tool at circumventing [:material-close-outline: Censorship](basics/common-threats.md#avoiding-censorship){ .pg-blue-gray }. Briar 還可以使用鄰近 Wi-Fi 或藍牙連接。當無法使用網際網路時， Briar 的本地網格（mesh）模式可能很有用。
 

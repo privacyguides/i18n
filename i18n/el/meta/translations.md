@@ -16,10 +16,16 @@ description: A guide for website contributors on adding translations to our webs
 Για παράδειγμα:
 
 ```text
-![Software logo](assets/img/path/to/image.svg){ align=right }
+![Software logo](assets/images/path/to/image.svg){ align=right }
 ```
 
 Μερικές φορές διαπιστώσαμε ότι από τη σύνταξη για την εισαγωγή μιας εικόνας, όπως παραπάνω, έλειπε το `![` ή ότι ένα επιπλέον κενό βρισκόταν μεταξύ του κειμένου και της διαδρομής, π.χ. `](`. Εάν μια συμβολοσειρά μετάφρασης είναι σαφώς μη σωστή, σας ενθαρρύνουμε να τη **διαγράψετε** πατώντας το εικονίδιο του κάδου απορριμμάτων [ή να ψηφίσετε](https://support.crowdin.com/enterprise/getting-started-for-volunteers/#voting-view) ποια νομίζετε ότι ακούγεται καλύτερα. Όταν οι άκυρες συμβολοσειρές διαγράφονται, αφαιρούνται από τη [μεταφραστική μνήμη](https://support.crowdin.com/enterprise/translation-memory) του οργανισμού, πράγμα που σημαίνει ότι όταν η συμβολοσειρά πηγής εμφανίζεται ξανά, δεν θα προτείνει τη λανθασμένη μετάφραση.
+
+## Εικόνες
+
+Images shared by all languages live in `docs/assets/images` and are excluded from Crowdin. When you run `SITE_LANGUAGE=fr ./run.sh` (replacing `fr` with your language code), the build script links this directory into `i18n/fr/assets/images` so translated builds and Markdown previews can use the same files.
+
+Images containing text that needs translation live in `docs/assets/images-localized` and are uploaded to Crowdin. They retain their existing `docs/assets/img` paths in Crowdin to preserve translations, but are exported to `i18n/<language>/assets/images-localized`. Keep `assets/images-localized` in translated Markdown image paths so the same references resolve to the appropriate images in every language.
 
 ## Στίξη
 

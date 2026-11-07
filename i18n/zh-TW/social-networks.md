@@ -44,7 +44,7 @@ cover: social-networks.webp
 
 <div class="admonition recommendation" markdown>
 
-![Mastodon logo](assets/img/social-networks/mastodon.svg){ align=right }
+![Mastodon logo](assets/images/social-networks/mastodon.svg){ align=right }
 
 **Mastodon** 是基於開放網路通訊協定和自由及開放原始碼軟體的社交網路。它使用 **:simple-activitypub: ActivityPub** 協定，就像電子郵件一樣是去中心化的：使用者可以存在於不同的伺服器甚至不同的社交平台上，但仍然可以相互溝通。
 
@@ -116,7 +116,7 @@ cover: social-networks.webp
 
 <div class="admonition recommendation" markdown>
 
-![Element 標誌](assets/img/social-networks/element.svg){ align=right }
+![Element logo](assets/images/social-networks/element.svg){ align=right }
 
 **Element** 是 **:simple-matrix: [Matrix](https://matrix.org/docs/chat_basics/matrix-for-im)** 協定的旗艦客戶端，該協定是透過聯邦式聊天室來實現去中心化通訊的[開放標準](https://spec.matrix.org/latest)。使用者可以存在於不同的家伺服器上，但仍可互相溝通。
 

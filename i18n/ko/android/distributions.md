@@ -10,7 +10,7 @@ schema:
   - "@context": http://schema.org
     "@type": CreativeWork
     name: 그래핀OS
-    image: /assets/img/android/grapheneos.svg
+    image: /assets/images/android/grapheneos.svg
     url: https://grapheneos.org/
     sameAs: https://en.wikipedia.org/wiki/GrapheneOS
     subjectOf:
@@ -37,8 +37,8 @@ robots: nofollow, max-snippet:-1, max-image-preview:large
 
 <div class="admonition recommendation" markdown>
 
-![그래핀OS 로고](../assets/img/android/grapheneos.svg#only-light){ align=right }
-![그래핀OS 로고](../assets/img/android/grapheneos-dark.svg#only-dark){ align=right }
+![GrapheneOS logo](../assets/images/android/grapheneos.svg#only-light){ align=right }
+![GrapheneOS logo](../assets/images/android/grapheneos-dark.svg#only-dark){ align=right }
 
 프라이버시와 보안 측면에서 **그래핀OS**는 최고의 선택입니다.
 

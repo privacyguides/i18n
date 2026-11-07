@@ -36,7 +36,7 @@ Zusätzlich zu unserem Team, haben [viele andere Leute](about/contributors.md) z
 
 Der beste Weg Hilfe von unserer Community zu bekommen ist über Discourse. Wenn du ein Problem mit unserer Webseite findest, dann öffne bitte eine Diskussion in der [Site Development](https://discuss.privacyguides.net/c/site-development/7) Kategorie in unserem Forum. Wenn du eine Frage zu etwas das wir berichten hast, bitte frage es in der [Questions](https://discuss.privacyguides.net/c/privacy/questions/8) Kategorie in unserem Forum.
 
-![Signal contact QR code](assets/img/layout/signal-contact-qr.png){ align=right }
+![Signal contact QR code](assets/images/layout/signal-contact-qr.png){ align=right }
 
 Hast du Tipps für uns, oder musst du irgendwelche sensiblen Information teilen? Der beste Weg uns zu kontaktieren ist auf Signal über `@privacyguides.01`. Dieses Gruppenkonto wird von [Jonah](https://discuss.privacyguides.net/u/jonah), [Niek](https://discuss.privacyguides.net/u/niek-de-wilde), [Em](https://discuss.privacyguides.net/u/em) und [Jordan](https://discuss.privacyguides.net/u/jordan) beobachtet.
 

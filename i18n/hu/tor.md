@@ -9,7 +9,7 @@ schema:
     "@context": http://schema.org
     "@type": SoftwareApplication
     name: Tor Böngésző
-    image: /assets/img/browsers/tor.svg
+    image: /assets/images/browsers/tor.svg
     url: https://www.torproject.org/hu/
     sameAs: https://hu.wikipedia.org/wiki/Tor_(szoftver)
     applicationCategory: Web Browser
@@ -50,7 +50,7 @@ Ha a teljes anonimitás a legfontosabb számodra, akkor **csak** az asztali Tor 
 
 <div class="admonition recommendation" markdown>
 
-![Tor Browser logo](assets/img/browsers/tor.svg){ align=right }
+![Tor Browser logo](assets/images/browsers/tor.svg){ align=right }
 
 **Tor Browser** is the top choice if you need anonymity, as it provides you with access to the Tor network and bridges, and it includes default settings and extensions that are automatically configured by the default security levels: *Standard*, *Safer* and *Safest*.
 
@@ -88,9 +88,9 @@ A Tor Böngésző közvetlen számítógépre telepítése mellett vannak olyan 
 
 <div class="admonition recommendation" markdown>
 
-![Onion Browser logo](assets/img/self-contained-networks/onion_browser.svg){ align=right }
+![Onion Browser logo](assets/images/self-contained-networks/onion_browser.svg){ align=right }
 
-Az **Onion Browser** egy nyílt forráskódú böngésző, amely lehetővé teszi a Tor-hálózaton keresztüli anonim böngészést iOS-eszközökön, és amelyet a [Tor Project](https://support.torproject.org/glossary/onion-browser) támogat.
+**Onion Browser** is an open-source browser that lets you browse the web anonymously over the Tor network on iOS devices and is endorsed by the [Tor Project](https://support.torproject.org/glossary/onion-browser).
 
 [:material-star-box: Read our latest Onion Browser review.](https://www.privacyguides.org/articles/2024/09/18/onion-browser-review)
 

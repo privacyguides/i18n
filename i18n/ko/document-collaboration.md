@@ -15,7 +15,7 @@ cover: document-collaboration.webp
 
 <div class="admonition recommendation" markdown>
 
-![크립트패드 로고](assets/img/document-collaboration/cryptpad.svg){ align=right }
+![CryptPad logo](assets/images/document-collaboration/cryptpad.svg){ align=right }
 
 **크립트패드**는 널리 쓰이는 기능이 풍부한 오피스 제품군을 대체할 수 있는, 설계 단계부터 프라이버시를 고려한 대안입니다. 이 웹 서비스의 모든 콘텐츠는 E2EE로 보호되며, 다른 사용자와 쉽게 공유할 수 있습니다.
 

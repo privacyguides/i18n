@@ -24,9 +24,9 @@ cover: multi-factor-authentication.webp
 
 <div class="admonition recommendation" markdown>
 
-![Ente Auth logo](assets/img/multi-factor-authentication/ente-auth.svg){ align=right }
+![Ente Auth logo](assets/images/multi-factor-authentication/ente-auth.svg){ align=right }
 
-**Ente Auth** 是一個自由且開放原始碼的應用程式，可儲存私鑰並產生 TOTP 一次性密碼。它可與線上帳戶一起使用，以安全、端對端加密的方式備份和同步您各個裝置上的 令牌 (token)，並透過網頁介面存取。它也可在單一設備上離線使用，無需帳戶。
+**Ente Auth** is a free and open-source app which stores and generates TOTP tokens. 它可與線上帳戶一起使用，以安全、端對端加密的方式備份和同步您各個裝置上的 令牌 (token)，並透過網頁介面存取。它也可在單一設備上離線使用，無需帳戶。
 
 [:octicons-home-16: Homepage](https://ente.com/auth){ .md-button .md-button--primary } [:octicons-eye-16:](https://ente.com/privacy){ .card-link title="Privacy Policy" }
 [:octicons-info-16:](https://ente.com/help/auth){ .card-link title="Documentation" }
@@ -50,9 +50,9 @@ The server-side source code and infrastructure which underpins Ente Auth (if use
 
 <div class="admonition recommendation" markdown>
 
-![Aegis logo](assets/img/multi-factor-authentication/aegis.png){ align=right }
+![Aegis logo](assets/images/multi-factor-authentication/aegis.png){ align=right }
 
-**Aegis Authenticator** 是一款適用於 Android 的自由且開放原始碼應用程式，管理線上服務的兩步驟驗證。 Aegis Authenticator 完全離線/本機運行，不同於許多替代方案，它具備匯出令牌以進行備份的選項。
+**Aegis Authenticator** is a free and open-source app for Android to manage your 2-step verification tokens for your online services. Aegis Authenticator 完全離線/本機運行，不同於許多替代方案，它具備匯出令牌以進行備份的選項。
 
 [:octicons-home-16: Homepage](https://getaegis.app){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://getaegis.app/aegis/privacy.html){ .card-link title="Privacy Policy" }

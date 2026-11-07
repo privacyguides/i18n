@@ -230,11 +230,11 @@ Face ID나 Touch ID를 사용하고 싶다면 지금 설정하면 됩니다. 생
 
 앱이 기기의 모든 사진에 접근하도록 허용하는 대신, 권한 대화 상자에서 "사진 선택..." 옵션을 탭하여 선택한 사진에만 접근하도록 허용할 수 있습니다. **설정** → **개인정보 보호 및 보안** → **사진**으로 이동하여 언제든지 사진 접근 권한을 변경할 수 있습니다.
 
-![사진 권한](../assets/img/ios/photo-permissions-light.png#only-light) ![사진 권한](../assets/img/ios/photo-permissions-dark.png#only-dark)
+![사진 권한](../assets/images-localized/ios/photo-permissions-light.png#only-light) ![사진 권한](../assets/images-localized/ios/photo-permissions-dark.png#only-dark)
 
 **사진 추가만**은 앱에 사진 보관함으로 사진을 저장하는 기능만 부여하는 권한입니다. 사진 보관함 접근을 요청하는 모든 앱이 이 옵션을 제공하는 것은 아닙니다.
 
-![비공개 접근](../assets/img/ios/private-access-light.png#only-light) ![비공개 접근](../assets/img/ios/private-access-dark.png#only-dark)
+![비공개 접근](../assets/images-localized/ios/private-access-light.png#only-light) ![비공개 접근](../assets/images-localized/ios/private-access-dark.png#only-dark)
 
 일부 앱은 **비공개 접근**도 지원하는데, 이는 **제한된 접근** 권한과 비슷하게 작동합니다. 하지만 비공개 접근을 사용해 앱에 공유된 사진에는 기본적으로 위치 정보가 포함됩니다. 미리 [사진 메타데이터를 제거](../data-redaction.md)하지 않는다면 이 설정을 해제할 것을 권장합니다.
 
@@ -242,7 +242,7 @@ Face ID나 Touch ID를 사용하고 싶다면 지금 설정하면 됩니다. 생
 
 마찬가지로 앱이 기기에 저장된 모든 연락처에 접근하도록 허용하는 대신, 선택한 연락처에만 접근하도록 허용할 수 있습니다. **설정** → **개인정보 보호 및 보안** → **연락처**로 이동하여 언제든지 연락처 접근 권한을 변경할 수 있습니다.
 
-![연락처 권한](../assets/img/ios/contact-permissions-light.png#only-light) ![연락처 권한](../assets/img/ios/contact-permissions-dark.png#only-dark)
+![연락처 권한](../assets/images-localized/ios/contact-permissions-light.png#only-light) ![연락처 권한](../assets/images-localized/ios/contact-permissions-dark.png#only-dark)
 
 ### 생체 인증 요구 및 앱 가리기 { #require-biometrics-and-hide-apps }
 

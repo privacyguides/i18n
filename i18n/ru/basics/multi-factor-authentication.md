@@ -53,7 +53,7 @@ Yubico OTP - это протокол аутентификации, обычно 
 Затем служба передаст одноразовый пароль на сервер Yubico OTP для проверки. Счетчик увеличивается как на ключе, так и на сервере проверки Yubico. OTP можно использовать только один раз, когда происходит успешная аутентификация, счетчик увеличивается, что предотвращает повторное использование OTP. Yubico предоставляет подробную документацию [](https://developers.yubico.com/OTP/OTPs_Explained.html) о процессе.
 
 <figure markdown>
-  ![Yubico OTP](../assets/img/multi-factor-authentication/yubico-otp.png)
+  ![Yubico OTP](../assets/images-localized/multi-factor-authentication/yubico-otp.png)
 </figure>
 
 Существуют некоторые преимущества и недостатки использования Yubico OTP по сравнению с TOTP.
@@ -71,7 +71,7 @@ U2F и FIDO2 относятся к [Client to Authenticator Protocol](https://en
 WebAuthn - это наиболее безопасная и приватная форма двух-факторной аутентификации. Хотя процесс аутентификации похож на Yubico OTP, ключ не показывает одноразовый пароль и не проверяет его на стороннем сервере. Вместо этого он использует [криптографию с открытым ключом](https://en.wikipedia.org/wiki/Public-key_cryptography) для аутентификации.
 
 <figure markdown>
-  ![FIDO](../assets/img/multi-factor-authentication/fido.png)
+  ![FIDO](../assets/images-localized/multi-factor-authentication/fido.png)
 </figure>
 
 Когда вы создаете учетную запись, открытый ключ отправляется в службу, затем, когда вы входите в систему, служба потребует от вас "подписать" некоторые данные вашим закрытым ключом. Преимуществом этого является то, что служба никогда не хранит данные пароля, поэтому злоумышленнику нечего украсть.

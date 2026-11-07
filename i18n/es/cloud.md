@@ -26,9 +26,9 @@ Para los lectores más técnicos, Nextcloud [sigue siendo una herramienta recome
 
 <div class="admonition recommendation" markdown>
 
-![Proton Drive logo](assets/img/cloud/protondrive.svg){ align=right }
+![Proton Drive logo](assets/images/cloud/protondrive.svg){ align=right }
 
-**Proton Drive** es un proveedor de almacenamiento cifrado en la nube del popular proveedor de correo electrónico cifrado [Proton Mail](email.md#proton-mail).
+**Proton Drive** is an encrypted cloud storage provider from the popular encrypted email provider [Proton Mail](email.md#proton-mail).
 
 El almacenamiento gratuito inicial está limitado a 2 GB, pero al completar [ciertos pasos](https://proton.me/support/more-free-storage-existing-users), se puede obtener almacenamiento adicional de hasta 5 GB.
 
@@ -55,9 +55,9 @@ La aplicación web de Proton Drive ha sido auditada de forma independiente por S
 
 <div class="admonition recommendation" markdown>
 
-![Logo de Tresorit](assets/img/cloud/tresorit.svg){ align=right }
+![Tresorit logo](assets/images/cloud/tresorit.svg){ align=right }
 
-**Tresorit** es un proveedor suizo-húngaro de almacenamiento cifrado en la nube fundado en 2011. Tresorit es propiedad de Swiss Post, el servicio postal nacional de Suiza.
+**Tresorit** is a Swiss-Hungarian encrypted cloud storage provider founded in 2011. Tresorit es propiedad de Swiss Post, el servicio postal nacional de Suiza.
 
 [:octicons-home-16: Página Principal](https://tresorit.com){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://tresorit.com/legal/privacy-policy){ .card-link title="Política de Privacidad" }
@@ -92,9 +92,9 @@ Tresorit ha recibido varias auditorías de seguridad independientes:
 
 <div class="admonition recommendation" markdown>
 
-![Peergos logo](assets/img/cloud/peergos.svg){ align=right }
+![Peergos logo](assets/images/cloud/peergos.svg){ align=right }
 
-**Peergos** es un protocolo descentralizado y una plataforma de código abierto para almacenamiento, redes sociales y aplicaciones. Proporciona un espacio seguro y privado donde los usuarios pueden almacenar, compartir, ver y editar sus fotos, vídeos, documentos, etc.
+**Peergos** is a decentralized protocol and open-source platform for storage, social media, and applications. Proporciona un espacio seguro y privado donde los usuarios pueden almacenar, compartir, ver y editar sus fotos, vídeos, documentos, etc.
 
 Peergos protege tus archivos con E2EE de resistencia cuántica y garantiza que todos los datos de tus archivos sean privados. También es [autoalojable](https://book.peergos.org/features/self).
 

@@ -38,8 +38,8 @@ global:
 
 <div class="grid cards" markdown>
 
-- ![Proton Mail logo](assets/img/email/protonmail.svg){ .twemoji } [Proton Mail](#proton-mail)
-- ![Mailbox Mail logo](assets/img/email/mailbox-mail.svg){ .twemoji } [Mailbox Mail](#mailbox-mail)
+- ![Proton Mail logo](assets/images/email/protonmail.svg){ .twemoji } [Proton Mail](#proton-mail)
+- ![Mailbox Mail logo](assets/images/email/mailbox-mail.svg){ .twemoji } [Mailbox Mail](#mailbox-mail)
 
 </div>
 
@@ -58,9 +58,9 @@ global:
 
 <div class="admonition recommendation" markdown>
 
-! [Proton Mail徽标] (assets/img/email/protonmail.svg) {align = right}
+![Proton Mail logo](assets/images/email/protonmail.svg){ align=right }
 
-* * Proton Mail * *是一项专注于隐私、加密、安全性和易用性的电子邮件服务。它们自2013年以来一直处于运营状态。 Proton AG 总部位于瑞士日内瓦。
+**Proton Mail** is an email service with a focus on privacy, encryption, security, and ease of use. 它们自2013年以来一直处于运营状态。 Proton AG 总部位于瑞士日内瓦。
 
 “Proton Free”套餐提供 500 MB 的邮件存储空间，您可以免费将其扩容至 1 GB。
 
@@ -141,9 +141,9 @@ Proton Mail[的“无限”](https://proton.me/support/proton-plans#proton-unlim
 
 <div class="admonition recommendation" markdown>
 
-![Mailbox Mail 标志](assets/img/email/mailbox-mail.svg){ align=right }
+![Mailbox Mail logo](assets/images/email/mailbox-mail.svg){ align=right }
 
-**Mailbox Mail**（前身为 *Mailbox.org*）是一款以安全、无广告为重点，且100%采用环保能源的邮件服务。他们自2014年以来一直在运作。 Mailbox Mail 总部位于德国柏林。
+**Mailbox Mail** (formerly *Mailbox.org*) is an email service with a focus on being secure, ad-free, and powered by 100% eco-friendly energy. 他们自2014年以来一直在运作。 Mailbox Mail 总部位于德国柏林。
 
 账户创建后自带高达2GB存储，可以根据需要进行升级。
 
@@ -202,7 +202,7 @@ Mailbox Mail 的所有套餐均提供“数字遗产”功能。您可以选择�
 
 <div class="grid cards" markdown>
 
-- ![Tuta logo](assets/img/email/tuta.svg#only-light){ .twemoji loading=lazy }![Tuta logo](assets/img/email/tuta-dark.svg#only-dark){ .twemoji loading=lazy } [Tuta](#tuta)
+- ![Tuta logo](assets/images/email/tuta.svg#only-light){ .twemoji loading=lazy }![Tuta logo](assets/images/email/tuta-dark.svg#only-dark){ .twemoji loading=lazy } [Tuta](#tuta)
 
 </div>
 
@@ -210,10 +210,10 @@ Mailbox Mail 的所有套餐均提供“数字遗产”功能。您可以选择�
 
 <div class="admonition recommendation" markdown>
 
-![Tuta 标志](assets/img/email/tuta.svg#only-light){ align=right }
-![Tuta 标志](assets/img/email/tuta-dark.svg#only-dark){ align=right }
+![Tuta logo](assets/images/email/tuta.svg#only-light){ align=right }
+![Tuta logo](assets/images/email/tuta-dark.svg#only-dark){ align=right }
 
-**Tuta**（原名 *Tutanota*）是一项通过加密技术专注于安全与隐私的邮件服务。 Tuta自2011年起开始运营，总部位于德国汉诺威。
+**Tuta** (formerly *Tutanota*) is an email service with a focus on security and privacy through the use of encryption. Tuta自2011年起开始运营，总部位于德国汉诺威。
 
 免费账户自带 1 GB储存空间。
 

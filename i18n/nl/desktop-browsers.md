@@ -15,7 +15,7 @@ schema:
     "@context": http://schema.org
     "@type": SoftwareApplication
     name: Mullvad Browser
-    image: /assets/img/browsers/mullvad_browser.svg
+    image: /assets/images/browsers/mullvad_browser.svg
     url: https://mullvad.net/nl/browser
     applicationCategory: Web Browser
     operatingSystem:
@@ -29,7 +29,7 @@ schema:
     "@context": http://schema.org
     "@type": SoftwareApplication
     name: Firefox
-    image: /assets/img/browsers/firefox.svg
+    image: /assets/images/browsers/firefox.svg
     url: https://firefox.com
     sameAs: https://nl.wikipedia.org/wiki/Mozilla_Firefox
     applicationCategory: Web Browser
@@ -44,7 +44,7 @@ schema:
     "@context": http://schema.org
     "@type": SoftwareApplication
     name: Brave
-    image: /assets/img/browsers/brave.svg
+    image: /assets/images/browsers/brave.svg
     url: https://brave.com
     sameAs: https://nl.wikipedia.org/wiki/Brave_(webbrowser)
     applicationCategory: Web Browser
@@ -69,9 +69,9 @@ If you need to browse the internet anonymously, you should use [Tor Browser](tor
 
 <div class="admonition recommendation" markdown>
 
-Mullvad Browser logo](assets/img/browsers/mullvad_browser.svg){ align=right }
+![Mullvad Browser logo](assets/images/browsers/mullvad_browser.svg){ align=right }
 
-**Mullvad Browser** is een versie van [Tor Browser](tor.md#tor-browser) met Tor netwerk integraties verwijderd. Het is bedoeld om VPN-gebruikers te voorzien van Tor Browser's anti-vingerafdruk technologieën, die een belangrijke bescherming zijn tegen [:material-eye-outline: Massa Surveillance](basics/common-threats.md#mass-surveillance-programs){ .pg-blue }. Het is ontwikkeld door het Tor Project en gedistribueerd door [Mullvad](vpn.md#mullvad), en vereist **niet** het gebruik van Mullvad's VPN.
+**Mullvad Browser** is a version of [Tor Browser](tor.md#tor-browser) with Tor network integrations removed. Het is bedoeld om VPN-gebruikers te voorzien van Tor Browser's anti-vingerafdruk technologieën, die een belangrijke bescherming zijn tegen [:material-eye-outline: Massa Surveillance](basics/common-threats.md#mass-surveillance-programs){ .pg-blue }. Het is ontwikkeld door het Tor Project en gedistribueerd door [Mullvad](vpn.md#mullvad), en vereist **niet** het gebruik van Mullvad's VPN.
 
 [:octicons-home-16: Homepage](https://mullvad.net/en/browser){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://mullvad.net/en/help/privacy-policy){ .card-link title="Privacybeleid" }
@@ -115,9 +115,9 @@ Dit is nodig om geavanceerde vormen van tracking te voorkomen, maar gaat wel ten
 
 <div class="admonition recommendation" markdown>
 
-![Firefox-logo](assets/img/browsers/firefox.svg){ align=right }
+![Firefox logo](assets/images/browsers/firefox.svg){ align=right }
 
-**Firefox** biedt krachtige privacy-instellingen zoals [Enhanced Tracking Protection](https://support.mozilla.org/kb/enhanced-tracking-protection-firefox-desktop), die kunnen helpen bij het blokkeren van verschillende [soorten tracking](https://support.mozilla.org/kb/enhanced-tracking-protection-firefox-desktop#w_what-enhanced-tracking-protection-blocks).
+**Firefox** provides strong privacy settings such as [Enhanced Tracking Protection](https://support.mozilla.org/kb/enhanced-tracking-protection-firefox-desktop), which can help block various [types of tracking](https://support.mozilla.org/kb/enhanced-tracking-protection-firefox-desktop#w_what-enhanced-tracking-protection-blocks).
 
 [:octicons-home-16: Homepage](https://firefox.com){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://mozilla.org/privacy/firefox){ .card-link title="Privacybeleid" }
@@ -233,9 +233,9 @@ Arkenfox is er alleen op gericht om eenvoudige of naïeve volgscripts te dwarsbo
 
 <div class="admonition recommendation annotate" markdown>
 
-![Brave logo](assets/img/browsers/brave.svg){ align=right }
+![Brave logo](assets/images/browsers/brave.svg){ align=right }
 
-**Brave Browser** bevat een ingebouwde adblocker en [privacyfuncties](https://brave.com/privacy-features), waarvan vele standaard zijn ingeschakeld.
+**Brave Browser** includes a built-in content blocker and [privacy features](https://brave.com/privacy-features), many of which are enabled by default.
 
 Brave is gebouwd op het Chromium webbrowser project, dus het zou vertrouwd moeten aanvoelen en minimale website compatibiliteitsproblemen moeten hebben.
 

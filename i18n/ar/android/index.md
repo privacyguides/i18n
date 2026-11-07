@@ -11,12 +11,12 @@ schema:
   - "@context": http://schema.org
     "@type": CreativeWork
     name: Android
-    image: /assets/img/android/android.svg
+    image: /assets/images/android/android.svg
     url: https://source.android.com/
     sameAs: ""
 ---
 
-
+![Android logo](../assets/images/android/android.svg){ align=right }
 
 يُعد Android Open Source Project (AOSP) نظام تشغيل مفتوح المصدر للأجهزة المحمولة تقوده Google، وهو الأساس الذي تعمل عليه أغلب أجهزة الهواتف المحمولة حول العالم. معظم الهواتف التي تُباع بنظام Android تأتي بنسخة معدلة منه تتضمن خدمات وتطبيقات قد تنتهك الخصوصية، مثل Google Play Services. لذلك يمكنك تحسين خصوصيتك بشكل كبير عبر استبدال نسخة Android الافتراضية على هاتفك بإصدار لا يحتوي على هذه الميزات المتطفلة.
 

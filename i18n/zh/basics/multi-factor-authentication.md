@@ -53,7 +53,7 @@ Yubico OTP是一种通常在硬件安全密钥中实现的认证协议。当你�
 然后，该服务将把一次性密码转发给Yubico OTP服务器进行验证。在密钥和Yubico的验证服务器上都会递增计数器。 OTP只能使用一次，当认证成功后，计数器会增加，这可以防止OTP的重复使用。 Yubico提供了一份关于这个过程的 [详细文件](https://developers.yubico.com/OTP/OTPs_Explained.html) 。
 
 <figure markdown>
-  ![Yubico OTP](../assets/img/multi-factor-authentication/yubico-otp.png)
+  ![Yubico OTP](../assets/images-localized/multi-factor-authentication/yubico-otp.png)
 </figure>
 
 与TOTP相比，使用Yubico OTP有一些好处和坏处。
@@ -71,7 +71,7 @@ U2F和FIDO2指的是 [客户端到验证器协议](https://en.wikipedia.org/wiki
 WebAuthn是第二因素身份验证中的最安全、最私密的形式。虽然身份验证体验类似于Yubico OTP ，但密钥不会打印一次性密码并使用第三方服务器进行验证。相反，它使用 [公钥加密技术](https://en.wikipedia.org/wiki/Public-key_cryptography) 进行认证。
 
 <figure markdown>
-  ![FIDO](../assets/img/multi-factor-authentication/fido.png)
+  ![FIDO](../assets/images-localized/multi-factor-authentication/fido.png)
 </figure>
 
 当你创建一个账户时，公钥被发送到该服务，然后当你登录时，该服务将要求你用你的私钥 "签署 "一些数据。这样做的好处是，服务中没有存储任何密码数据，因此没有任何东西可供对手窃取。

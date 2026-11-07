@@ -38,8 +38,8 @@ Diese Anbieter unterstützen OpenPGP verschlüsselung/entschlüsselung und den [
 
 <div class="grid cards" markdown>
 
-- ![Proton Mail logo](assets/img/email/protonmail.svg){ .twemoji } [Proton Mail](#proton-mail)
-- ![Mailbox Mail logo](assets/img/email/mailbox-mail.svg){ .twemoji } [Mailbox Mail](#mailbox-mail)
+- ![Proton Mail logo](assets/images/email/protonmail.svg){ .twemoji } [Proton Mail](#proton-mail)
+- ![Mailbox Mail logo](assets/images/email/mailbox-mail.svg){ .twemoji } [Mailbox Mail](#mailbox-mail)
 
 </div>
 
@@ -58,9 +58,9 @@ Wenn du eine E2EE-Technologie wie OpenPGP verwendest, enthält deine E-Mail imme
 
 <div class="admonition recommendation" markdown>
 
-![Proton Mail logo](assets/img/email/protonmail.svg){ align=right }
+![Proton Mail logo](assets/images/email/protonmail.svg){ align=right }
 
-**Proton Mail** ist ein E-Mail-Dienst mit dem Schwerpunkt auf Datenschutz, Verschlüsselung, Sicherheit und Benutzerfreundlichkeit. Sie sind seit 2013 in Betrieb. Die Proton AG hat ihren Sitz in Genf, Schweiz.
+**Proton Mail** is an email service with a focus on privacy, encryption, security, and ease of use. Sie sind seit 2013 in Betrieb. Die Proton AG hat ihren Sitz in Genf, Schweiz.
 
 Der Proton Free Plan kommt mit 500 MB von Mail-Speicher, was du kostenlos auf 1 GB erhöhen kannst.
 
@@ -141,9 +141,9 @@ Proton Mails [Unlimited Plan](https://proton.me/support/proton-plans#proton-unli
 
 <div class="admonition recommendation" markdown>
 
-![Mailbox Mail logo](assets/img/email/mailbox-mail.svg){ align=right }
+![Mailbox Mail logo](assets/images/email/mailbox-mail.svg){ align=right }
 
-**Mailbox Mail** (ehemalig *Mailbox.org*) ist ein E-Mail-Anbieter mit Fokus auf Sicherheit sowie Werbungsfreiheit und wird von 100% umweltverträglicher Energie betrieben. Er wird seit 2014 betrieben. Mailbox Mail hat ihren Sitz in Berlin, Deutschland.
+**Mailbox Mail** (formerly *Mailbox.org*) is an email service with a focus on being secure, ad-free, and powered by 100% eco-friendly energy. Er wird seit 2014 betrieben. Mailbox Mail hat ihren Sitz in Berlin, Deutschland.
 
 Konten starten mit bis zu 2 GB Speicher, welches bei Nachfrage erweitert werden kann.
 
@@ -202,7 +202,7 @@ These providers encrypt your emails in a way that only you can read them later, 
 
 <div class="grid cards" markdown>
 
-- ![Tuta logo](assets/img/email/tuta.svg#only-light){ .twemoji loading=lazy }![Tuta logo](assets/img/email/tuta-dark.svg#only-dark){ .twemoji loading=lazy } [Tuta](#tuta)
+- ![Tuta logo](assets/images/email/tuta.svg#only-light){ .twemoji loading=lazy }![Tuta logo](assets/images/email/tuta-dark.svg#only-dark){ .twemoji loading=lazy } [Tuta](#tuta)
 
 </div>
 
@@ -210,10 +210,10 @@ These providers encrypt your emails in a way that only you can read them later, 
 
 <div class="admonition recommendation" markdown>
 
-![Tuta logo](assets/img/email/tuta.svg#only-light){ align=right }
-![Tuta logo](assets/img/email/tuta-dark.svg#only-dark){ align=right }
+![Tuta logo](assets/images/email/tuta.svg#only-light){ align=right }
+![Tuta logo](assets/images/email/tuta-dark.svg#only-dark){ align=right }
 
-**Tuta** (ehemals *Tutanota*) ist ein E-Mail-Dienst mit einem Fokus auf Sicherheit und Privatsphäre durch Verschlüsselung. Tuta ist seit 2011 in Betrieb und hat seinen Sitz in Hannover, Deutschland.
+**Tuta** (formerly *Tutanota*) is an email service with a focus on security and privacy through the use of encryption. Tuta ist seit 2011 in Betrieb und hat seinen Sitz in Hannover, Deutschland.
 
 Kostenlose Konten starten mit 1 GB Speicher.
 

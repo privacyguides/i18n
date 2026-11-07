@@ -17,12 +17,12 @@ Some of the information here and on the Qubes OS documentation may contain confl
 
 </details>
 
-![Qubes架构](../assets/img/qubes/qubes-trust-level-architecture.png)
+![Qubes架构](../assets/images-localized/qubes/qubes-trust-level-architecture.png)
 <figcaption>Qubes架构，信用：什么是Qubes操作系统介绍</figcaption>
 
 Each qube has a [colored border](https://qubes-os.org/screenshots) that can help you keep track of the domain in which it runs. 例如，你可以为你的银行浏览器使用一种特定的颜色，而对一般的不信任的浏览器使用不同的颜色。
 
-![彩色边框](../assets/img/qubes/r4.0-xfce-three-domains-at-work.png)
+![彩色边框](../assets/images-localized/qubes/r4.0-xfce-three-domains-at-work.png)
 <figcaption>Qubes窗口边框，图片来源： Qubes截图</figcaption>
 
 ## 为什么我应该使用Qubes？

@@ -61,7 +61,7 @@ Aby wybrać model odpowiedni dla Twoich potrzeb, warto śledzić rankingi i benc
 
 <div class="admonition recommendation" markdown>
 
-![Logo Kobold.cpp](assets/img/ai-chat/kobold.png){align=right}
+![Kobold.cpp Logo](assets/images/ai-chat/kobold.png){align=right}
 
 **Kobold.cpp** to klient sztucznej inteligencji uruchamiany lokalnie na komputerach z systemem Windows, Mac lub Linux. To doskonały wybór, jeśli zależy Ci na szerokich możliwościach dostosowywania i modyfikacji, na przykład w celu odgrywania ról.
 
@@ -96,7 +96,7 @@ Kobold.cpp umożliwia modyfikowanie parametrów, takich jak temperatura modelu c
 
 <div class="admonition recommendation" markdown>
 
-![Logo Ollama](assets/img/ai-chat/ollama.png){align=right}
+![Ollama Logo](assets/images/ai-chat/ollama.png){align=right}
 
 **Ollama** to asystent AI działający z wiersza poleceń, dostępny na komputerach z systemem macOS, Linux i Windows. Ollama to świetny wybór, jeśli zależy Ci na kliencie, który jest łatwy w obsłudze, szeroko kompatybilny i szybki dzięki wykorzystaniu wnioskowania i innych technik. Nie wymaga też żadnej ręcznej konfiguracji.
 
@@ -124,7 +124,7 @@ Ollama upraszcza proces konfiguracji lokalnego czatu AI, automatycznie pobieraj�
 
 <div class="admonition recommendation" markdown>
 
-![Logo Llamafile](assets/img/ai-chat/llamafile.webp){align=right}
+![Llamafile Logo](assets/images/ai-chat/llamafile.webp){align=right}
 
 **Llamafile** to lekki, jednoplikowy program wykonywalny, który pozwala uruchamiać LLM lokalnie na własnym komputerze bez żadnej konfiguracji. Projekt jest [wspierany przez Mozillę](https://hacks.mozilla.org/2023/11/introducing-llamafile) i jest dostępny w systemach Linux, macOS i Windows.
 

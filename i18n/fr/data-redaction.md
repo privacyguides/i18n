@@ -30,9 +30,9 @@ Vous ne devez **jamais** utiliser le flou pour expurger [du texte dans les image
 
 <div class="admonition recommendation" markdown>
 
-![MAT2 logo](assets/img/data-redaction/mat2.svg){ align=right }
+![MAT2 logo](assets/images/data-redaction/mat2.svg){ align=right }
 
-**MAT2** est gratuit, logiciel multi-plateforme qui vous permet de supprimer les métadonnées des types d'image, d'audio, de torrent et de fichiers de documents. Il propose à la fois un outil en ligne de commande et une interface graphique grâce à une extension pour [Dolphin](https://github.com/jvoisin/mat2/tree/master/dolphin), le gestionnaire de fichiers par défaut de [KDE](https://kde.org).
+**MAT2** is free, cross-platform software which allows you to remove metadata from image, audio, torrent, and document file types. Il propose à la fois un outil en ligne de commande et une interface graphique grâce à une extension pour [Dolphin](https://github.com/jvoisin/mat2/tree/master/dolphin), le gestionnaire de fichiers par défaut de [KDE](https://kde.org).
 
 [:octicons-repo-16: Dépôt](https://github.com/jvoisin/mat2#readme){ .md-button .md-button--primary }
 [:octicons-info-16:](https://github.com/jvoisin/mat2#how-to-use-mat2){ .card-link title="Documentation" }
@@ -54,9 +54,9 @@ Vous ne devez **jamais** utiliser le flou pour expurger [du texte dans les image
 
 <div class="admonition recommendation" markdown>
 
-![Metadata Cleaner logo](assets/img/data-redaction/metadatacleaner.svg){ align=right }
+![Metadata Cleaner logo](assets/images/data-redaction/metadatacleaner.svg){ align=right }
 
-**Metadata Cleaner** est un outil graphique de suppression de métadonnées pour Linux basé sur [MAT2](https://github.com/jvoisin/mat2).
+**Metadata Cleaner** is a graphical metadata removal tool for Linux powered by [MAT2](https://github.com/jvoisin/mat2).
 
 [:octicons-home-16: Homepage](https://metadatacleaner.gitlab.io/metadatacleaner/){ .md-button .md-button--primary }
 [:octicons-code-16:](https://gitlab.com/metadatacleaner/metadatacleaner/){ .card-link title= "Code source" }
@@ -75,9 +75,9 @@ Vous ne devez **jamais** utiliser le flou pour expurger [du texte dans les image
 
 <div class="admonition recommendation" markdown>
 
-![Logo ExifEraser](assets/img/data-redaction/exiferaser.svg){ align=right }
+![ExifEraser logo](assets/images/data-redaction/exiferaser.svg){ align=right }
 
-**ExifEraser** est une application moderne d'effacement des métadonnées d'image sans autorisation pour Android.
+**ExifEraser** is a modern, permissionless image metadata erasing application for Android.
 
 Il supporte actuellement les fichiers JPEG, PNG, et WebP.
 
@@ -126,9 +126,9 @@ Ce raccourci supprime les métadonnées telles que l'emplacement, le modèle de 
 
 <div class="admonition recommendation" markdown>
 
-![ExifTool logo](assets/img/data-redaction/exiftool.png){ align=right }
+![ExifTool logo](assets/images/data-redaction/exiftool.png){ align=right }
 
-**ExifTool** est la bibliothèque Perl originale et l'application en ligne de commande pour la lecture, écrire et éditer des méta-informations (Exif, IPTC, XMP et plus) dans une grande variété de formats de fichiers (JPEG, TIFF, PNG, PDF, RAW et plus).
+**ExifTool** is the original Perl library and command-line application for reading, writing, and editing meta information (Exif, IPTC, XMP, and more) in a wide variety of file formats (JPEG, TIFF, PNG, PDF, RAW, and more).
 
 Il fait souvent partie d'autres applications de suppression d'Exif et se trouve dans les dépôts de la plupart des distributions Linux.
 

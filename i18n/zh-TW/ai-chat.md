@@ -61,7 +61,7 @@ LLM 通常可以透過參數的數量來區分用途，對於提供給終端使�
 
 <div class="admonition recommendation" markdown>
 
-![Kobold.cpp Logo](assets/img/ai-chat/kobold.png){align=right}
+![Kobold.cpp Logo](assets/images/ai-chat/kobold.png){align=right}
 
 **Kobold.cpp** 是可在您的 Windows、macOS 或 Linux 電腦上本機執行的 AI 客戶端。如果您需要大量的客製化和調整，例如為了角色扮演的目的，這是一個絕佳的選擇。
 
@@ -96,7 +96,7 @@ Kobold.cpp 可讓您修改 AI 模型溫度和 AI 聊天的 system prompt 等參�
 
 <div class="admonition recommendation" markdown>
 
-![Ollama Logo](assets/img/ai-chat/ollama.png){align=right}
+![Ollama Logo](assets/images/ai-chat/ollama.png){align=right}
 
 **Ollama** 是可在 macOS、Linux 與 Windows 上使用的命令列 AI 小幫手。如果您正在尋找一個易於使用、具有廣泛相容性，而且因使用 推理(inference) 和其他技術而速度極快的 AI 客戶端，Ollama 是一個不錯的選擇。它也無須進行任何手動設定。
 
@@ -124,7 +124,7 @@ Ollama 可自動下載您要使用的 AI 模型，簡化設定本地 AI 聊天�
 
 <div class="admonition recommendation" markdown>
 
-![Llamafile 標誌](assets/img/ai-chat/llamafile.webp){align=right}
+![Llamafile Logo](assets/images/ai-chat/llamafile.webp){align=right}
 
 **Llamafile** 是輕量化的單一執行檔，讓使用者可以在自己的電腦上本機執行 LLM，而不需要設定任何東西。它 [由 Mozilla 資助](https://hacks.mozilla.org/2023/11/introducing-llamafile)，可在 Linux、macOS 和 Windows 上使用。
 

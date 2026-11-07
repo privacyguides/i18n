@@ -2,7 +2,7 @@
 meta_title: "最佳私密和安全的雲端儲存服務提供商 - Privacy Guides"
 title: 雲端儲存
 icon: material/file-cloud
-description: 許多雲端儲存服務供應商需要您相信他們不會查看您的檔案。 這些都是私密替代品！
+description: 許多雲端儲存服務供應商需要您相信他們不會查看您的檔案。這些都是私密替代品！
 cover: cloud.webp
 ---
 
@@ -13,7 +13,7 @@ cover: cloud.webp
 
 **許多雲端儲存提供商** 要求您完全信任他們不會查看您的檔案。 The alternatives listed below eliminate the need for trust by implementing secure end-to-end encryption.
 
-如果這些替代方案不符合您的需求，建議您考慮使用其他雲端提供商的加密軟體，例如 [Cryptomator](encryption.md#cryptomator-cloud) 。 把 Cryptomator 結合在 **任一種** 雲服務商(包含這裡推薦的) 也是好方法，可減低某服務商原生客戶端加密漏洞之風險。
+如果這些替代方案不符合您的需求，建議您考慮使用其他雲端提供商的加密軟體，例如 [Cryptomator](encryption.md#cryptomator-cloud) 。把 Cryptomator 結合在 **任一種** 雲服務商(包含這裡推薦的) 也是好方法，可減低某服務商原生客戶端加密漏洞之風險。
 
 <details class="admonition info" markdown>
 <summary>尋找 Nextcloud?</summary>
@@ -26,9 +26,9 @@ For more technical readers, Nextcloud is [still a recommended tool](self-hosting
 
 <div class="admonition recommendation" markdown>
 
-![Proton Drive logo](assets/img/cloud/protondrive.svg){ align=right }
+![Proton Drive logo](assets/images/cloud/protondrive.svg){ align=right }
 
-**Proton Drive** 是一個加密雲端儲存提供商，由經營廣受歡迎的加密電子郵件 [Proton Mail](email.md#proton-mail) 的提供商推出。
+**Proton Drive** is an encrypted cloud storage provider from the popular encrypted email provider [Proton Mail](email.md#proton-mail).
 
 The initial free storage is limited to 2 GB, but with the completion of [certain steps](https://proton.me/support/more-free-storage-existing-users), additional storage can be obtained up to 5 GB.
 
@@ -55,9 +55,9 @@ The Proton Drive web application has been independently audited by Securitum in 
 
 <div class="admonition recommendation" markdown>
 
-![Tresorit logo](assets/img/cloud/tresorit.svg){ align=right }
+![Tresorit logo](assets/images/cloud/tresorit.svg){ align=right }
 
-**Tresorit** 為 2011年創辦於瑞士- 匃牙利的加密雲端儲存供應商。 Tresorit 由瑞士郵政擁有，瑞士郵政是瑞士的國家郵政服務。
+**Tresorit** is a Swiss-Hungarian encrypted cloud storage provider founded in 2011. Tresorit 由瑞士郵政擁有，瑞士郵政是瑞士的國家郵政服務。
 
 [:octicons-home-16: 首頁](https://tresorit.com){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://tresorit.com/legal/privacy-policy){ .card-link title="隱私權政策" }
@@ -92,9 +92,9 @@ Tresorit has received a number of independent security audits:
 
 <div class="admonition recommendation" markdown>
 
-![Peergos logo](assets/img/cloud/peergos.svg){ align=right }
+![Peergos logo](assets/images/cloud/peergos.svg){ align=right }
 
-**Peergos** 是去中心化協定的儲存、社交媒體和應用程式開源平台。 It provides a secure and private space where users can store, share, view, and edit their photos, videos, documents, etc.
+**Peergos** is a decentralized protocol and open-source platform for storage, social media, and applications. It provides a secure and private space where users can store, share, view, and edit their photos, videos, documents, etc.
 
 Peergos secures your files with quantum-resistant E2EE and ensures all data about your files remains private. It is also [self-hostable](https://book.peergos.org/features/self).
 
@@ -126,7 +126,7 @@ Peergos was [audited](https://peergos.org/posts/security-audit-2024) in November
 
 ## 標準
 
-**請注意，我們與推薦的任何項目均無關。**除了[我們的通用標準](about/criteria.md)外，我們還制定了一套明確的要求，以便我們能夠提供客觀的建議。 我們建議您在選擇使用項目之前先熟悉此列表，並進行自己的研究，以確保它是您的正確選擇。
+**請注意，我們與推薦的任何項目均無關。**除了[我們的通用標準](about/criteria.md)外，我們還制定了一套明確的要求，以便我們能夠提供客觀的建議。我們建議您在選擇使用項目之前先熟悉此列表，並進行自己的研究，以確保它是您的正確選擇。
 
 ### 最低合格要求
 
@@ -138,7 +138,7 @@ Peergos was [audited](https://peergos.org/posts/security-audit-2024) in November
 
 ### 最佳情況
 
-最佳情況標準代表我們希望在這個類別的完美項目的應具備的特性。 推薦產品可能沒有此功能，但若有這些功能則會讓排名更為提高。
+最佳情況標準代表我們希望在這個類別的完美項目的應具備的特性。推薦產品可能沒有此功能，但若有這些功能則會讓排名更為提高。
 
 - 客戶端應是開源的。
 - Clients should be audited in their entirety by an independent third party.

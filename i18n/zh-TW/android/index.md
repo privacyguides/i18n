@@ -11,12 +11,12 @@ schema:
   - "@context": http://schema.org
     "@type": CreativeWork
     name: Android
-    image: /assets/img/android/android.svg
+    image: /assets/images/android/android.svg
     url: https://source.android.com/
     sameAs: https://zh.wikipedia.org/wiki/Android
 ---
 
-![Android logo](../assets/img/android/android.svg){ align=right }
+![Android logo](../assets/images/android/android.svg){ align=right }
 
 **Android 開源專案** （AOSP）是一個由 Google 領導的開源行動裝置作業系統，為世界上大多數行動裝置提供支援。大多數搭載 Android 的手機都經過修改，包含侵入性整合和應用程式（例如：Google Play 服務），您可以透過把手機預設安裝的 Android 版本 替換為不含這些侵入性功能的 Android 版本 ，這將顯著改善行動裝置上的隱私。
 

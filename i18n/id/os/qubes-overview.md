@@ -17,12 +17,12 @@ Beberapa informasi di sini dan di dokumentasi Qubes OS mungkin mengandung bahasa
 
 </details>
 
-![Arsitektur Qubes](../assets/img/qubes/qubes-trust-level-architecture.png)
+![Arsitektur Qubes](../assets/images-localized/qubes/qubes-trust-level-architecture.png)
 <figcaption>Arsitektur Qubes, Kredit: Apa itu Qubes OS Intro</figcaption>
 
 Each qube has a [colored border](https://qubes-os.org/screenshots) that can help you keep track of the domain in which it runs. Anda dapat menggunakan warna tertentu di peramban khusus untuk perbankan, sementara menggunakan warna yang berbeda untuk peramban umum yang tidak terpercaya.
 
-![Pembatas berwarna](../assets/img/qubes/r4.0-xfce-three-domains-at-work.png)
+![Pembatas berwarna](../assets/images-localized/qubes/r4.0-xfce-three-domains-at-work.png)
 <figcaption>Batas jendela Qubes, Kredit: Tangkapan Layar Qubes</figcaption>
 
 ## Mengapa saya harus menggunakan Qubes?

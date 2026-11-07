@@ -43,9 +43,9 @@ Our recommended providers use encryption, support WireGuard & OpenVPN, and have 
 
 <div class="admonition recommendation" markdown>
 
-![Proton VPN logo](assets/img/vpn/protonvpn.svg){ align=right }
+![Proton VPN logo](assets/images/vpn/protonvpn.svg){ align=right }
 
-**Proton VPN**是VPN领域的强有力竞争者，他们自2016年以来一直保持运营。 Proton AG总部位于瑞士，提供有限制的免费使用等级，以及更具特色的高级选项。
+**Proton VPN** is a strong contender in the VPN space, and they have been in operation since 2016. Proton AG总部位于瑞士，提供有限制的免费使用等级，以及更具特色的高级选项。
 
 [:octicons-home-16: Homepage](https://protonvpn.com){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://protonvpn.com/privacy-policy){ .card-link title="Privacy Policy" }
@@ -137,9 +137,9 @@ Additionally, system crashes [may occur](https://protonvpn.com/support/macos-t2-
 
 <div class="admonition recommendation" markdown>
 
-![IVPN标志](assets/img/vpn/ivpn.svg){ align=right }
+![IVPN logo](assets/images/vpn/ivpn.svg){ align=right }
 
-**IVPN**是另一个高级VPN供应商，他们自2009年以来一直在运营。 IVPN is based in Gibraltar and does not offer a free trial.
+**IVPN** is another premium VPN provider, and they have been in operation since 2009. IVPN is based in Gibraltar and does not offer a free trial.
 
 [:octicons-home-16: Homepage](https://ivpn.net){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://ivpn.net/privacy){ .card-link title="Privacy Policy" }
@@ -212,7 +212,7 @@ IVPN clients support two-factor authentication. IVPN also provides "[AntiTracker
 
 <div class="admonition recommendation" markdown>
 
-![Mullvad logo](assets/img/vpn/mullvad.svg){ align=right }
+![Mullvad logo](assets/images/vpn/mullvad.svg){ align=right }
 
 **Mullvad** is a fast and inexpensive VPN with a serious focus on transparency and security. They have been in operation since 2009. Mullvad is based in Sweden and offers a 14-day money-back guarantee for [payment methods](https://mullvad.net/en/help/refunds) that allow it.
 

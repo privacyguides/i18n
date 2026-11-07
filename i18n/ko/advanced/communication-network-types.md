@@ -10,7 +10,7 @@ description: 메신저 애플리케이션에서 보편적으로 사용되는 몇
 
 ## 중앙 집중형 네트워크
 
-![중앙 집중형 네트워크 다이어그램](../assets/img/layout/network-centralized.svg){ align=left }
+![중앙 집중형 네트워크 다이어그램](../assets/images/layout/network-centralized.svg){ align=left }
 
 중앙 집중형(Centralized) 메신저는 모든 참가자가 하나의 서버 혹은 하나의 단체가 관리하는 서버 네트워크를 이용합니다.
 
@@ -33,7 +33,7 @@ description: 메신저 애플리케이션에서 보편적으로 사용되는 몇
 
 ## 연합형 네트워크
 
-![연합형 네트워크 다이어그램](../assets/img/layout/network-decentralized.svg){ align=left }
+![연합형 네트워크 다이어그램](../assets/images/layout/network-decentralized.svg){ align=left }
 
 연합형(Federated) 메신저는 서로 간에 대화할 수 있는 여러 개의 독립적이고 분산된 서버를 이용합니다(이메일이 연합형 메신저의 대표적인 예시입니다). 연합 방식에서는 어떤 시스템 관리자가 자신의 서버를 통제하면서도 더 큰 통신 네트워크의 일부가 되는 것이 가능합니다.
 
@@ -56,7 +56,7 @@ description: 메신저 애플리케이션에서 보편적으로 사용되는 몇
 
 ## P2P 네트워크
 
-![P2P 다이어그램](../assets/img/layout/network-distributed.svg){ align=left }
+![P2P 다이어그램](../assets/images/layout/network-distributed.svg){ align=left }
 
 P2P 메신저는 [분산형(Distributed) 네트워크](https://en.wikipedia.org/wiki/Distributed_networking)에 노드로서 연결되어 제3자 서버 없이 수신자에게 메시지를 전달합니다.
 
@@ -81,7 +81,7 @@ P2P 네트워크는 피어가 서로 직접 통신하므로 서버를 사용하�
 
 ## 익명 라우팅
 
-![익명 라우팅 다이어그램](../assets/img/layout/network-anonymous-routing.svg){ align=left }
+![익명 라우팅 다이어그램](../assets/images/layout/network-anonymous-routing.svg){ align=left }
 
 [익명 라우팅](https://doi.org/10.1007/978-1-4419-5906-5_628)을 사용하는 메신저는 발신자, 수신자의 신원 혹은 통신 흔적을 드러내지 않습니다. 이상적으로는, 메신저는 이 세 가지(발신자 신원, 수신자 신원, 통신 흔적) 모두를 숨길 수 있어야 합니다.
 

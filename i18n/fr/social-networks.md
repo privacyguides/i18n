@@ -44,7 +44,7 @@ Si vous êtes particulièrement inquiet concernant un serveur spécifique qui ce
 
 <div class="admonition recommendation" markdown>
 
-![Logo de Mastodon](assets/img/social-networks/mastodon.svg){ align=right }
+![Mastodon logo](assets/images/social-networks/mastodon.svg){ align=right }
 
 **Mastodon** est un réseau social basé sur des protocoles open web et un logiciel libre et open-source. Il utilise un protocole décentralisé comme les emails, **:simple-activitypub: ActivityPub** : les utilisateurs peuvent exister sur différents serveurs ou différentes plateformes mais peuvent quand même communiquer entre eux.
 
@@ -116,7 +116,7 @@ Si vous avez modifié vos paramètres selon nos recommandations, vos pouets devr
 
 <div class="admonition recommendation" markdown>
 
-![Logo de Element](assets/img/social-networks/element.svg){ align=right }
+![Element logo](assets/images/social-networks/element.svg){ align=right }
 
 **Element** est le client phare du protocole **:simple-matrix: [Matrix](https://matrix.org/docs/chat_basics/matrix-for-im)**, un [format ouvert](https://spec.matrix.org/latest) qui permet une communication décentralisée grâce à des groupes de discussion fédérés. Les utilisateurs peuvent communiquer entre eux même si leurs comptes sont sur des instances (homeservers) différentes.
 

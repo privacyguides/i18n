@@ -16,10 +16,16 @@ Please join our localization room on Matrix ([#pg-i18n:aragon.sh](https://matrix
 לדוגמה:
 
 ```text
-![לוגו של התוכנה](assets/img/path/to/image.svg){ align=right }
+![Software logo](assets/images/path/to/image.svg){ align=right }
 ```
 
 מצאנו לפעמים שבתחביר להכנסת תמונה כמו לעיל חסר ה-`![` או שהוצב רווח נוסף בין הטקסט לנתיב, למשל. `](`. אם מחרוזת תרגום אינה נכונה בבירור, אנו ממליצים לך **למחוק** אותה על ידי לחיצה על סמל האשפה [או הצביעו](https://support.crowdin.com/enterprise /getting-started-for-volunteers/#voting-view) על מי לדעתכם נשמע הכי טוב. כאשר מחרוזות לא חוקיות נמחקות, הן מוסרות מ[זיכרון התרגום](https://support.crowdin.com/enterprise/translation-memory) של הארגון, כלומר כאשר מחרוזת המקור נראית שוב, זה לא יציע את התרגום השגוי.
+
+## תמונות
+
+Images shared by all languages live in `docs/assets/images` and are excluded from Crowdin. When you run `SITE_LANGUAGE=fr ./run.sh` (replacing `fr` with your language code), the build script links this directory into `i18n/fr/assets/images` so translated builds and Markdown previews can use the same files.
+
+Images containing text that needs translation live in `docs/assets/images-localized` and are uploaded to Crowdin. They retain their existing `docs/assets/img` paths in Crowdin to preserve translations, but are exported to `i18n/<language>/assets/images-localized`. Keep `assets/images-localized` in translated Markdown image paths so the same references resolve to the appropriate images in every language.
 
 ## סימני פיסוק
 

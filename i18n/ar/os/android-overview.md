@@ -5,7 +5,7 @@ description: نظام Android هو نظام تشغيل مفتوح المصدر،
 robots: nofollow, max-snippet:-1, max-image-preview:large
 ---
 
-![Android logo](../assets/img/android/android.svg){ align=right }
+![Android logo](../assets/images/android/android.svg){ align=right }
 
 يُعد **Android Open Source Project** نظام تشغيل آمنًا للهواتف، ويتميز بنظام قوي لعزل التطبيقات ([sandboxing](https://source.android.com/security/app-sandbox))، وميزة [Verified Boot (AVB)](https://source.android.com/security/verifiedboot)، ونظام محكم للتحكم في[ الأذونات (permissions)](https://developer.android.com/guide/topics/permissions/overview).
 

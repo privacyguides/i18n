@@ -15,7 +15,7 @@ Most online **document collaboration** platforms like Google Drive do not suppor
 
 <div class="admonition recommendation" markdown>
 
-![CryptPad logo](assets/img/document-collaboration/cryptpad.svg){ align=right }
+![CryptPad logo](assets/images/document-collaboration/cryptpad.svg){ align=right }
 
 **CryptPad** is a private-by-design alternative to popular, full-fledged office suites. All content on this web service is E2EE and can be shared with other users easily.
 
@@ -34,7 +34,7 @@ Most online **document collaboration** platforms like Google Drive do not suppor
 
 ## 標準
 
-\*\*請注意，我們與推薦的任何項目均無關。\*\*除了[我們的通用標準](about/criteria.md)外，我們還制定了一套明確的要求，以便我們能夠提供客觀的建議。 我們建議您在選擇使用項目之前先熟悉此列表，並進行自己的研究，以確保它是您的正確選擇。
+\*\*請注意，我們與推薦的任何項目均無關。\*\*除了[我們的通用標準](about/criteria.md)外，我們還制定了一套明確的要求，以便我們能夠提供客觀的建議。我們建議您在選擇使用項目之前先熟悉此列表，並進行自己的研究，以確保它是您的正確選擇。
 
 ### 最低合格要求
 
@@ -47,7 +47,7 @@ Most online **document collaboration** platforms like Google Drive do not suppor
 
 ### 最佳情況
 
-最佳情況標準代表我們希望在這個類別的完美項目的應具備的特性。 推薦產品可能沒有此功能，但若有這些功能則會讓排名更為提高。
+最佳情況標準代表我們希望在這個類別的完美項目的應具備的特性。推薦產品可能沒有此功能，但若有這些功能則會讓排名更為提高。
 
 - 應將檔案儲存在傳統檔案系統中。
 - Should support TOTP or FIDO2 multifactor authentication support, or passkey logins.

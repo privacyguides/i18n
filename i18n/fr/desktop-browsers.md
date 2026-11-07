@@ -15,7 +15,7 @@ schema:
     "@context": http://schema.org
     "@type": SoftwareApplication
     name: Mullvad Browser
-    image: /assets/img/browsers/mullvad_browser.svg
+    image: /assets/images/browsers/mullvad_browser.svg
     url: https://mullvad.net/fr/browser
     applicationCategory: Web Browser
     operatingSystem:
@@ -29,7 +29,7 @@ schema:
     "@context": http://schema.org
     "@type": SoftwareApplication
     name: Firefox
-    image: /assets/img/browsers/firefox.svg
+    image: /assets/images/browsers/firefox.svg
     url: https://firefox.com
     sameAs: https://fr.wikipedia.org/wiki/Mozilla_Firefox
     applicationCategory: Web Browser
@@ -44,7 +44,7 @@ schema:
     "@context": http://schema.org
     "@type": SoftwareApplication
     name: Brave
-    image: /assets/img/browsers/brave.svg
+    image: /assets/images/browsers/brave.svg
     url: https://brave.com
     sameAs: https://fr.wikipedia.org/wiki/Brave_(navigateur_web)
     applicationCategory: Web Browser
@@ -69,9 +69,9 @@ Si vous souhaitez naviguer sur Internet de manière anonyme, vous devriez plutô
 
 <div class="admonition recommendation" markdown>
 
-![Mullvad Browser logo](assets/img/browsers/mullvad_browser.svg){ align=right }
+![Mullvad Browser logo](assets/images/browsers/mullvad_browser.svg){ align=right }
 
-Le **navigateur Mullvad** est une version de [navigateur Tor](tor.md#tor-browser) avec les intégrations au réseau Tor supprimées. Il vise à fournir aux utilisateurs de VPN les technologies d'anti-capture d'empreintes numériques du Navigateur Tor, qui sont des protections clés contre la [:material-eye-outline: surveillance de masse](basics/common-threats.md#mass-surveillance-programs){ .pg-blue }. Il est développé par le projet Tor et distribué par [Mullvad](vpn.md#mullvad), et n'exige **pas** l'utilisation du VPN de Mullvad.
+**Mullvad Browser** is a version of [Tor Browser](tor.md#tor-browser) with Tor network integrations removed. Il vise à fournir aux utilisateurs de VPN les technologies d'anti-capture d'empreintes numériques du Navigateur Tor, qui sont des protections clés contre la [:material-eye-outline: surveillance de masse](basics/common-threats.md#mass-surveillance-programs){ .pg-blue }. Il est développé par le projet Tor et distribué par [Mullvad](vpn.md#mullvad), et n'exige **pas** l'utilisation du VPN de Mullvad.
 
 [:octicons-home-16: Homepage](https://mullvad.net/en/browser){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://mullvad.net/en/help/privacy-policy){ .card-link title="Politique de confidentialité" }
@@ -115,9 +115,9 @@ Ceci est nécessaire pour empêcher les formes avancées de pistage, mais se fai
 
 <div class="admonition recommendation" markdown>
 
-![Logo Firefox](assets/img/browsers/firefox.svg){ align=right }
+![Firefox logo](assets/images/browsers/firefox.svg){ align=right }
 
-**Firefox** offre de solides paramètres de confidentialité, tels que la [protection renforcée contre le suivi](https://support.mozilla.org/fr/kb/protection-renforcee-contre-pistage-firefox-ordinateur), qui peut contribuer à bloquer divers [types de suivi](https://support.mozilla.org/fr/kb/protection-renforcee-contre-pistage-firefox-ordinateur#w_what-enhanced-tracking-protection-blocks).
+**Firefox** provides strong privacy settings such as [Enhanced Tracking Protection](https://support.mozilla.org/kb/enhanced-tracking-protection-firefox-desktop), which can help block various [types of tracking](https://support.mozilla.org/kb/enhanced-tracking-protection-firefox-desktop#w_what-enhanced-tracking-protection-blocks).
 
 [:octicons-home-16: Accueil](https://firefox.com){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://www.mozilla.org/fr/privacy/firefox/){ .card-link title="Politique de Confidentialité" }
@@ -233,9 +233,9 @@ Arkenfox vise uniquement à contrecarrer les scripts de pistage basiques ou naï
 
 <div class="admonition recommendation annotate" markdown>
 
-![Logo Brave](assets/img/browsers/brave.svg){ align=right }
+![Brave logo](assets/images/browsers/brave.svg){ align=right }
 
-Le navigateur **Brave** comprend un bloqueur de contenu intégré et des [fonctions de confidentialité](https://brave.com/privacy-features/), dont la plupart sont activées par défaut.
+**Brave Browser** includes a built-in content blocker and [privacy features](https://brave.com/privacy-features), many of which are enabled by default.
 
 Brave est basé sur le projet de navigateur Web Chromium. Il devrait donc vous être familier et présenter un minimum de problèmes de compatibilité avec les sites Web.
 

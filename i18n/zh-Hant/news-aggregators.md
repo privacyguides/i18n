@@ -9,7 +9,7 @@ cover: news-aggregators.webp
 
 - [:material-server-network: 服務提供商](basics/common-threats.md#privacy-from-service-providers ""){.pg-teal}
 
-**新聞聚合器是** 是一種軟體，可將線上報紙、部落格、播客和其他資源的數位內容聚合到一個位置，方便您檢視。 使用它可以讓您隨時掌握自己喜愛的內容。
+**新聞聚合器是** 是一種軟體，可將線上報紙、部落格、播客和其他資源的數位內容聚合到一個位置，方便您檢視。使用它可以讓您隨時掌握自己喜愛的內容。
 
 ## 聚合器客戶端
 
@@ -17,9 +17,9 @@ cover: news-aggregators.webp
 
 <div class="admonition recommendation" markdown>
 
-![Akregator logo](assets/img/news-aggregators/akregator.svg){ align=right }
+![Akregator logo](assets/images/news-aggregators/akregator.svg){ align=right }
 
-**Akregator** 是 [KDE](https://kde.org) 項目的一部分。 It comes with a fast search, advanced archiving functionality, and an internal browser for easy news reading.
+**Akregator** is a news feed reader that is a part of the [KDE](https://kde.org) project. It comes with a fast search, advanced archiving functionality, and an internal browser for easy news reading.
 
 [:octicons-home-16: Homepage](https://apps.kde.org/akregator){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://kde.org/privacypolicy-apps){ .card-link title="Privacy Policy" }
@@ -40,7 +40,7 @@ cover: news-aggregators.webp
 
 <div class="admonition recommendation" markdown>
 
-![NewsFlash logo](assets/img/news-aggregators/newsflash.png){ align=right }
+![NewsFlash logo](assets/images/news-aggregators/newsflash.png){ align=right }
 
 **NewsFlash** is an open-source, modern, and easy-to-use news feed reader for Linux. It can be used offline or with services like [Inoreader](https://inoreader.com) or [Nextcloud News](https://apps.nextcloud.com/apps/news). It has a search feature and a pre-defined list of sources that you can add directly.
 
@@ -60,9 +60,9 @@ cover: news-aggregators.webp
 
 <div class="admonition recommendation" markdown>
 
-![Feeder logo](assets/img/news-aggregators/feeder.png){ align=right }
+![Feeder logo](assets/images/news-aggregators/feeder.png){ align=right }
 
-**Feeder** 是 Android 版本的 RSS 客戶端，具有許多 [特色](https://github.com/spacecowboy/Feeder#features) ，且可與RSS 訊息來源的資料夾配合使用。
+**Feeder** is a modern RSS client for Android that has many [features](https://github.com/spacecowboy/Feeder#features) and works well with folders of RSS feeds.
 
 It supports [RSS](https://en.wikipedia.org/wiki/RSS), [Atom](https://en.wikipedia.org/wiki/Atom_(Web_standard)), [RDF](https://en.wikipedia.org/wiki/RDF%2FXML), and [JSON Feed](https://en.wikipedia.org/wiki/JSON_Feed).
 
@@ -84,10 +84,10 @@ It supports [RSS](https://en.wikipedia.org/wiki/RSS), [Atom](https://en.wikipedi
 
 <div class="admonition recommendation" markdown>
 
-![Miniflux logo](assets/img/news-aggregators/miniflux.svg#only-light){ align=right }
-![Miniflux logo](assets/img/news-aggregators/miniflux-dark.svg#only-dark){ align=right }
+![Miniflux logo](assets/images/news-aggregators/miniflux.svg#only-light){ align=right }
+![Miniflux logo](assets/images/news-aggregators/miniflux-dark.svg#only-dark){ align=right }
 
-**Miniflux** 是一個網頁版的新聞聚合器，允許自行託管。
+**Miniflux** is a web-based news aggregator that you can self-host.
 
 It supports [RSS](https://en.wikipedia.org/wiki/RSS), [Atom](https://en.wikipedia.org/wiki/Atom_(Web_standard)), [RDF](https://en.wikipedia.org/wiki/RDF%2FXML), and [JSON Feed](https://en.wikipedia.org/wiki/JSON_Feed).
 
@@ -102,9 +102,9 @@ It supports [RSS](https://en.wikipedia.org/wiki/RSS), [Atom](https://en.wikipedi
 
 <div class="admonition recommendation" markdown>
 
-![NetNewsWire logo](assets/img/news-aggregators/netnewswire.png){ align=right }
+![NetNewsWire logo](assets/images/news-aggregators/netnewswire.png){ align=right }
 
-**NetNewsWire** 是一款自由及開放原始碼的訊息源閱讀器，適用於 macOS 和 iOS ，專注於原生設計和功能集。
+**NetNewsWire** is a free and open-source feed reader for macOS and iOS with a focus on a native design and feature set.
 
 It supports conventional feed formats and includes built-in support for Reddit feeds.
 
@@ -127,9 +127,9 @@ It supports conventional feed formats and includes built-in support for Reddit f
 
 <div class="admonition recommendation" markdown>
 
-![Newsboat logo](assets/img/news-aggregators/newsboat.svg){ align=right }
+![Newsboat logo](assets/images/news-aggregators/newsboat.svg){ align=right }
 
-**Newsboat** 是文字控制界面的RSS/Atom 新聞閱讀器。 分支自 [Newsbeuter](https://en.wikipedia.org/wiki/Newsbeuter) 後，維持積極維護。 It is very lightweight and ideal for use over [Secure Shell](https://en.wikipedia.org/wiki/Secure_Shell).
+**Newsboat** is an RSS/Atom feed reader for the text console. 分支自 [Newsbeuter](https://en.wikipedia.org/wiki/Newsbeuter) 後，維持積極維護。 It is very lightweight and ideal for use over [Secure Shell](https://en.wikipedia.org/wiki/Secure_Shell).
 
 [:octicons-home-16: Homepage](https://newsboat.org){ .md-button .md-button--primary }
 [:octicons-info-16:](https://newsboat.org/releases/2.38/docs/newsboat.html){ .card-link title="Documentation" }
@@ -139,7 +139,7 @@ It supports conventional feed formats and includes built-in support for Reddit f
 
 ## 標準
 
-**請注意，我們與推薦的任何項目均無關。**除了[我們的通用標準](about/criteria.md)外，我們還制定了一套明確的要求，以便我們能夠提供客觀的建議。 我們建議您在選擇使用項目之前先熟悉此列表，並進行自己的研究，以確保它是您的正確選擇。
+**請注意，我們與推薦的任何項目均無關。**除了[我們的通用標準](about/criteria.md)外，我們還制定了一套明確的要求，以便我們能夠提供客觀的建議。我們建議您在選擇使用項目之前先熟悉此列表，並進行自己的研究，以確保它是您的正確選擇。
 
 - 必須是開源軟體。
 - 必須在本地運作，即不得是雲端服務。

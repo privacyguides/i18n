@@ -38,8 +38,8 @@ global:
 
 <div class="grid cards" markdown>
 
-- ![Proton Mail logo](assets/img/email/protonmail.svg){ .twemoji } [Proton Mail](#proton-mail)
-- ![Mailbox Mail logo](assets/img/email/mailbox-mail.svg){ .twemoji } [Mailbox Mail](#mailbox-mail)
+- ![Proton Mail logo](assets/images/email/protonmail.svg){ .twemoji } [Proton Mail](#proton-mail)
+- ![Mailbox Mail logo](assets/images/email/mailbox-mail.svg){ .twemoji } [Mailbox Mail](#mailbox-mail)
 
 </div>
 
@@ -58,9 +58,9 @@ OpenPGP також не підтримує пряму секретність, щ
 
 <div class="admonition recommendation" markdown>
 
-![Логотип Proton Mail](assets/img/email/protonmail.svg){align=right}
+![Proton Mail logo](assets/images/email/protonmail.svg){ align=right }
 
-**Proton Mail — це поштовий сервіс з акцентом на конфіденційності, шифруванні, безпеці та простоті використання. Він працює з 2013 року. Компанія Proton AG базується в Женеві, Швейцарія.
+**Proton Mail** is an email service with a focus on privacy, encryption, security, and ease of use. Він працює з 2013 року. Компанія Proton AG базується в Женеві, Швейцарія.
 
 План Proton Free надає 500 МБ поштового сховища, яке ви можете безплатно збільшити до 1 ГБ.
 
@@ -141,7 +141,7 @@ Proton Mail також публікує відкриті ключі акаунт
 
 <div class="admonition recommendation" markdown>
 
-![Mailbox Mail logo](assets/img/email/mailbox-mail.svg){ align=right }
+![Mailbox Mail logo](assets/images/email/mailbox-mail.svg){ align=right }
 
 **Mailbox Mail** (formerly *Mailbox.org*) is an email service with a focus on being secure, ad-free, and powered by 100% eco-friendly energy. Він працює з 2014 року. Mailbox Mail базується в Берліні, Німеччина.
 
@@ -202,7 +202,7 @@ These providers encrypt your emails in a way that only you can read them later, 
 
 <div class="grid cards" markdown>
 
-- [Tuta logo](assets/img/email/tuta.svg#only-light){.twemoji loading=lazy}! [Tuta logo](assets/img/email/tuta-dark.svg#only-dark){.twemoji loading=lazy} [Tuta](#tuta)
+- ![Tuta logo](assets/images/email/tuta.svg#only-light){ .twemoji loading=lazy }![Tuta logo](assets/images/email/tuta-dark.svg#only-dark){ .twemoji loading=lazy } [Tuta](#tuta)
 
 </div>
 
@@ -210,10 +210,10 @@ These providers encrypt your emails in a way that only you can read them later, 
 
 <div class="admonition recommendation" markdown>
 
-![Tuta logo](assets/img/email/tuta.svg#only-light){align=right}
-![Tuta logo](assets/img/email/tuta-dark.svg#only-dark){align=right}
+![Tuta logo](assets/images/email/tuta.svg#only-light){ align=right }
+![Tuta logo](assets/images/email/tuta-dark.svg#only-dark){ align=right }
 
-**Tuta** (раніше *Tutanota*) - це поштовий сервіс, що фокусується на безпеці та конфіденційності завдяки використанню шифрування. Tuta працює з 2011 року і базується в Ганновері, Німеччина.
+**Tuta** (formerly *Tutanota*) is an email service with a focus on security and privacy through the use of encryption. Tuta працює з 2011 року і базується в Ганновері, Німеччина.
 
 Безплатні акаунти починаються з 1 ГБ сховища.
 

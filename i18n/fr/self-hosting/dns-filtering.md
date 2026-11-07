@@ -21,7 +21,7 @@ cover: dns.webp
 
 <div class="admonition recommendation" markdown>
 
-![Logo de Pi-hole](../assets/img/self-hosting/pi-hole.svg){ align=right }
+![Pi-hole logo](../assets/images/self-hosting/pi-hole.svg){ align=right }
 
 **Pi-Hole** est un gouffre DNS open-source avec une interface web simple qui affiche les informations utiles du gouffre DNS et vous permet de gérer le contenu bloqué. Pi-hole est conçu pour être hébergé sur un Raspberry Pi, mais il n'est pas limité à ce type de matériel.
 
@@ -37,7 +37,7 @@ cover: dns.webp
 
 <div class="admonition recommendation" markdown>
 
-![Logo de AdGuard Home](../assets/img/self-hosting/adguard-home.svg){ align=right }
+![AdGuard Home logo](../assets/images/self-hosting/adguard-home.svg){ align=right }
 
 **AdGuard Home** est un gouffre DNS open-source une interface web sophistiquée qui affiche les informations utiles du gouffre DNS et vous permet de gérer le contenu bloqué.
 

@@ -26,9 +26,9 @@ Muchas, si no la mayoría de los proyectos de criptomonedas son estafas. Únicam
 
 <div class="admonition recommendation" markdown>
 
-![Monero logo](assets/img/cryptocurrency/monero.svg){ align=right }
+![Monero logo](assets/images/cryptocurrency/monero.svg){ align=right }
 
-**Monero** utiliza una blockchain con tecnologías de mejora de la privacidad que ofuscan las transacciones para lograr [:material-incognito: Anonimato](basics/common-threats.md#anonymity-vs-privacy){ .pg-purple }. Cada transacción realizada con Monero, oculta el monto de la transacción, las direcciones de envío y recepción, además del origen de los fondos sin ningún intermediario, convirtiéndola en una opción ideal para los novatos en las criptomonedas.
+**Monero** uses a blockchain with privacy-enhancing technologies that obfuscate transactions to achieve [:material-incognito: Anonymity](basics/common-threats.md#anonymity-vs-privacy){ .pg-purple }. Cada transacción realizada con Monero, oculta el monto de la transacción, las direcciones de envío y recepción, además del origen de los fondos sin ningún intermediario, convirtiéndola en una opción ideal para los novatos en las criptomonedas.
 
 [:octicons-home-16: Página Principal](https://getmonero.org){ .md-button .md-button--primary }
 [:octicons-info-16:](https://getmonero.org/resources/user-guides){ .card-link title=Documentación}

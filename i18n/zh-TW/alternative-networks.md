@@ -19,7 +19,7 @@ cover: alternative-networks.webp
 
 <div class="admonition recommendation" markdown>
 
-![Tor logo](assets/img/self-contained-networks/tor.svg){ align=right }
+![Tor logo](assets/images/self-contained-networks/tor.svg){ align=right }
 
 **Tor** 網路是一組由志願者操作的伺服器，可免費連線，並改善隱私權和安全性。個人和組織還可以通過 Tor 網路與“.onion 隱藏服務”分享資訊，而不會侵犯他們的隱私。由於 Tor 流量難以封鎖和追蹤，因此 Tor 是一種有效的 [:material-close-outline: 審查](basics/common-threats.md#avoiding-censorship){ .pg-blue-gray } 規避工具。
 
@@ -48,7 +48,7 @@ cover: alternative-networks.webp
 
 <div class="admonition recommendation" markdown>
 
-![Orbot 標誌](assets/img/self-contained-networks/orbot.svg){ align=right }
+![Orbot logo](assets/images/self-contained-networks/orbot.svg){ align=right }
 
 **Orbot** 是行動裝置應用程式，可將您裝置上任何應用程式的流量導向透過 Tor 網路傳輸。
 
@@ -90,8 +90,8 @@ Orbot 在 Google Play 與 Guardian Project 的 F-Droid 軟體庫中常常過期�
 
 <div class="admonition recommendation" markdown>
 
-![Snowflake 標誌](assets/img/self-contained-networks/snowflake.svg#only-light){ align=right }
-![Snowflake 標誌](assets/img/self-contained-networks/snowflake-dark.svg#only-dark){ align=right }
+![Snowflake logo](assets/images/self-contained-networks/snowflake.svg#only-light){ align=right }
+![Snowflake logo](assets/images/self-contained-networks/snowflake-dark.svg#only-dark){ align=right }
 
 **Snowflake** 可透過瀏覽器中執行「Snowflake 代理」來向 Tor 專案捐贈頻寬。
 
@@ -118,8 +118,8 @@ Snowflake 無法加強隱私，也不會在個人瀏覽器中連接 Tor 網路�
 
 <div class="admonition recommendation" markdown>
 
-![I2P logo](assets/img/self-contained-networks/i2p.svg#only-light){ align=right }
-![I2P logo](assets/img/self-contained-networks/i2p-dark.svg#only-dark){ align=right }
+![I2P logo](assets/images/self-contained-networks/i2p.svg#only-light){ align=right }
+![I2P logo](assets/images/self-contained-networks/i2p-dark.svg#only-dark){ align=right }
 
 **I2P** 是用來對您的連線加密，並透過分佈在世界各地的電腦網路進行路由傳輸的網路層。它主要致力創建一個替代性的隱私保護網路，而不是使常規的網路連接匿名。
 

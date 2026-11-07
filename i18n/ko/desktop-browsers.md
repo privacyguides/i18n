@@ -15,7 +15,7 @@ schema:
     "@context": http://schema.org
     "@type": SoftwareApplication
     name: Mullvad Browser
-    image: /assets/img/browsers/mullvad_browser.svg
+    image: /assets/images/browsers/mullvad_browser.svg
     url: https://mullvad.net/en/browser
     applicationCategory: Web Browser
     operatingSystem:
@@ -29,7 +29,7 @@ schema:
     "@context": http://schema.org
     "@type": SoftwareApplication
     name: Firefox
-    image: /assets/img/browsers/firefox.svg
+    image: /assets/images/browsers/firefox.svg
     url: https://firefox.com
     sameAs: https://ko.wikipedia.org/wiki/%EB%AA%A8%EC%A7%88%EB%9D%BC_%ED%8C%8C%EC%9D%B4%EC%96%B4%ED%8F%AD%EC%8A%A4
     applicationCategory: Web Browser
@@ -44,7 +44,7 @@ schema:
     "@context": http://schema.org
     "@type": SoftwareApplication
     name: Brave
-    image: /assets/img/browsers/brave.svg
+    image: /assets/images/browsers/brave.svg
     url: https://brave.com
     sameAs: https://en.wikipedia.org/wiki/Brave_(web_browser)
     applicationCategory: Web Browser
@@ -69,9 +69,9 @@ schema:
 
 <div class="admonition recommendation" markdown>
 
-![멀바드 브라우저 로고](assets/img/browsers/mullvad_browser.svg){ align=right }
+![Mullvad Browser logo](assets/images/browsers/mullvad_browser.svg){ align=right }
 
-**멀바드 브라우저**는 [토르 브라우저](tor.md#tor-browser)에서 토르 네트워크 통합 기능을 제거한 버전입니다. VPN 사용자에게 토르 브라우저의 핑거프린팅 방지 기술을 제공하는 것을 목표로 하며, 이는 [:material-eye-outline: 대규모 감시](basics/common-threats.md#mass-surveillance-programs){ .pg-blue }에 대한 핵심적인 보호 수단입니다. 토르 프로젝트가 개발하고 [멀바드](vpn.md#mullvad)가 배포하며, 멀바드 VPN을 사용하지 **않아도** 됩니다.
+**Mullvad Browser** is a version of [Tor Browser](tor.md#tor-browser) with Tor network integrations removed. VPN 사용자에게 토르 브라우저의 핑거프린팅 방지 기술을 제공하는 것을 목표로 하며, 이는 [:material-eye-outline: 대규모 감시](basics/common-threats.md#mass-surveillance-programs){ .pg-blue }에 대한 핵심적인 보호 수단입니다. 토르 프로젝트가 개발하고 [멀바드](vpn.md#mullvad)가 배포하며, 멀바드 VPN을 사용하지 **않아도** 됩니다.
 
 [:octicons-home-16: 홈페이지](https://mullvad.net/en/browser){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://mullvad.net/en/help/privacy-policy){ .card-link title="개인정보 처리방침" }
@@ -115,9 +115,9 @@ schema:
 
 <div class="admonition recommendation" markdown>
 
-![파이어폭스 로고](assets/img/browsers/firefox.svg){ align=right }
+![Firefox logo](assets/images/browsers/firefox.svg){ align=right }
 
-**파이어폭스**는 다양한 [추적 유형](https://support.mozilla.org/ko/kb/enhanced-tracking-protection-firefox-desktop#w_hyangsangdoen-cujeog-bangji-gineungi-cadanhaneun-geos)을 차단하는 데 도움이 되는 [향상된 추적 방지 기능](https://support.mozilla.org/ko/kb/enhanced-tracking-protection-firefox-desktop) 등 강력한 프라이버시 설정을 제공합니다.
+**Firefox** provides strong privacy settings such as [Enhanced Tracking Protection](https://support.mozilla.org/kb/enhanced-tracking-protection-firefox-desktop), which can help block various [types of tracking](https://support.mozilla.org/kb/enhanced-tracking-protection-firefox-desktop#w_what-enhanced-tracking-protection-blocks).
 
 [:octicons-home-16: 홈페이지](https://firefox.com){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://mozilla.org/privacy/firefox){ .card-link title="개인정보 처리방침" }
@@ -233,9 +233,9 @@ schema:
 
 <div class="admonition recommendation annotate" markdown>
 
-![브레이브 로고](assets/img/browsers/brave.svg){ align=right }
+![Brave logo](assets/images/browsers/brave.svg){ align=right }
 
-**브레이브 브라우저**에는 콘텐츠 차단기와 [프라이버시 기능](https://brave.com/privacy-features)이 내장되어 있으며, 그중 상당수가 기본적으로 활성화되어 있습니다.
+**Brave Browser** includes a built-in content blocker and [privacy features](https://brave.com/privacy-features), many of which are enabled by default.
 
 브레이브는 크로미움 웹 브라우저 프로젝트를 기반으로 만들어졌기 때문에 익숙하게 느껴지고 웹사이트 호환성 문제도 거의 없습니다.
 

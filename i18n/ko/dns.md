@@ -36,9 +36,9 @@ global:
 
 <div class="admonition recommendation" markdown>
 
-![컨트롤 D 로고](assets/img/dns/control-d.svg){ align=right }
+![Control D logo](assets/images/dns/control-d.svg){ align=right }
 
-**컨트롤 D**는 DNS 수준에서 보안 위협, 원치 않는 콘텐츠, 광고를 차단할 수 있는 맞춤형 DNS 서비스입니다.
+**Control D** is a customizable DNS service which lets you block security threats, unwanted content, and advertisements on a DNS level.
 
 유료 요금제 외에도 무료로 사용할 수 있는 사전 구성된 DNS 리졸버를 여러 개 제공합니다.
 
@@ -65,9 +65,9 @@ global:
 
 <div class="admonition recommendation" markdown>
 
-![넥스트DNS 로고](assets/img/dns/nextdns.svg){ align=right }
+![NextDNS logo](assets/images/dns/nextdns.svg){ align=right }
 
-**넥스트DNS**는 DNS 수준에서 보안 위협, 원치 않는 콘텐츠, 광고를 차단할 수 있는 맞춤형 DNS 서비스입니다.
+**NextDNS** is a customizable DNS service which lets you block security threats, unwanted content, and advertisements on a DNS level.
 
 사용량이 제한된, 모든 기능을 갖춘 무료 요금제를 제공합니다.
 
@@ -103,10 +103,10 @@ global:
 
 <div class="admonition recommendation" markdown>
 
-![리싱크DNS 로고](assets/img/android/rethinkdns.svg#only-light){ align=right }
-![리싱크DNS 로고](assets/img/android/rethinkdns-dark.svg#only-dark){ align=right }
+![RethinkDNS logo](assets/images/android/rethinkdns.svg#only-light){ align=right }
+![RethinkDNS logo](assets/images/android/rethinkdns-dark.svg#only-dark){ align=right }
 
-**리싱크DNS**는 [DoH](advanced/dns-overview.md#dns-over-https-doh), [DoT](advanced/dns-overview.md#dns-over-tls-dot), [DNSCrypt](advanced/dns-overview.md#dnscrypt), DNS 프록시를 지원하는 오픈 소스 안드로이드 클라이언트입니다. 또한 DNS 응답 캐싱, DNS 쿼리 로컬 기록, 앱을 방화벽으로 사용하는 기능 등 추가 기능도 제공합니다.
+**RethinkDNS** is an open-source Android client that supports [DoH](advanced/dns-overview.md#dns-over-https-doh), [DoT](advanced/dns-overview.md#dns-over-tls-dot), [DNSCrypt](advanced/dns-overview.md#dnscrypt) and DNS Proxy. 또한 DNS 응답 캐싱, DNS 쿼리 로컬 기록, 앱을 방화벽으로 사용하는 기능 등 추가 기능도 제공합니다.
 
 [:octicons-home-16: 홈페이지](https://rethinkdns.com){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://rethinkdns.com/privacy){ .card-link title="개인정보 처리방침" }
@@ -129,9 +129,9 @@ global:
 
 <div class="admonition recommendation" markdown>
 
-![DNSCrypt-Proxy 로고](assets/img/dns/dnscrypt-proxy.svg){ align=right }
+![DNSCrypt-Proxy logo](assets/images/dns/dnscrypt-proxy.svg){ align=right }
 
-**DNSCrypt-Proxy**는 [DNSCrypt](advanced/dns-overview.md#dnscrypt), [DoH](advanced/dns-overview.md#dns-over-https-doh), [익명화된 DNS](https://github.com/DNSCrypt/dnscrypt-proxy/wiki/Anonymized-DNS)를 지원하는 DNS 프록시입니다.
+**DNSCrypt-Proxy** is a DNS proxy with support for [DNSCrypt](advanced/dns-overview.md#dnscrypt), [DoH](advanced/dns-overview.md#dns-over-https-doh), and [Anonymized DNS](https://github.com/DNSCrypt/dnscrypt-proxy/wiki/Anonymized-DNS).
 
 [:octicons-repo-16: 저장소](https://github.com/DNSCrypt/dnscrypt-proxy#readme){ .md-button .md-button--primary }
 [:octicons-info-16:](https://github.com/DNSCrypt/dnscrypt-proxy/wiki){ .card-link title="문서" }

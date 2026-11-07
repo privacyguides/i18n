@@ -41,8 +41,8 @@ cover: email-aliasing.webp
 
 <div class="grid cards" markdown>
 
-- ![Addy.io 標誌](assets/img/email-aliasing/addy.svg){ .twemoji } [Addy.io](email-aliasing.md#addyio)
-- ![SimpleLogin logo](assets/img/email-aliasing/simplelogin.svg){ .twemoji } [SimpleLogin](email-aliasing.md#simplelogin)
+- ![Addy.io logo](assets/images/email-aliasing/addy.svg){ .twemoji } [Addy.io](email-aliasing.md#addyio)
+- ![SimpleLogin logo](assets/images/email-aliasing/simplelogin.svg){ .twemoji } [SimpleLogin](email-aliasing.md#simplelogin)
 
 </div>
 
@@ -54,7 +54,7 @@ cover: email-aliasing.webp
 
 <div class="admonition recommendation" markdown>
 
-![Addy.io 標誌](assets/img/email-aliasing/addy.svg){ align=right }
+![Addy.io logo](assets/images/email-aliasing/addy.svg){ align=right }
 
 **Addy.io** 讓您可以建立在共用網域上免費建立 10 個網域別名，或無限的匿名程度較低的[「標準」別名](https://addy.io/faq/#what-is-a-standard-alias)。
 
@@ -96,7 +96,7 @@ Securitum 於 2023 年 9 月完成對 Addy.io 的[稽核](https://addy.io/blog/a
 
 <div class="admonition recommendation" markdown>
 
-![SimpleLogin 標誌](assets/img/email-aliasing/simplelogin.svg){ align=right }
+![SimpleLogin logo](assets/images/email-aliasing/simplelogin.svg){ align=right }
 
 **SimpleLogin** 是免費服務，可在各種共享域名上提供電子郵件別名，並可選擇提供無限別名和自訂域名等付費功能。
 

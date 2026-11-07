@@ -5,7 +5,7 @@ description: Androidは、強力なセキュリティー保護機能を備えた
 robots: nofollow, max-snippet:-1, max-image-preview:large
 ---
 
-![Android logo](../assets/img/android/android.svg){ align=right }
+![Android logo](../assets/images/android/android.svg){ align=right }
 
 **Androidオープンソースプロジェクト**は、[アプリ・サンドボックス](https://source.android.com/security/app-sandbox)、[確認付きブート](https://source.android.com/security/verifiedboot)（AVB）、[権限](https://developer.android.com/guide/topics/permissions/overview)管理システムを備えた安全なモバイル・オペレーティングシステムです。
 

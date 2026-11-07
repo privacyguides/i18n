@@ -15,7 +15,7 @@ schema:
     "@context": http://schema.org
     "@type": SoftwareApplication
     name: Mullvad Browser
-    image: /assets/img/browsers/mullvad_browser.svg
+    image: /assets/images/browsers/mullvad_browser.svg
     url: https://mullvad.net/en/browser
     applicationCategory: Web Browser
     operatingSystem:
@@ -29,7 +29,7 @@ schema:
     "@context": http://schema.org
     "@type": SoftwareApplication
     name: Firefox
-    image: /assets/img/browsers/firefox.svg
+    image: /assets/images/browsers/firefox.svg
     url: https://firefox.com
     sameAs: https://cs.wikipedia.org/wiki/Firefox
     applicationCategory: Web Browser
@@ -44,7 +44,7 @@ schema:
     "@context": http://schema.org
     "@type": SoftwareApplication
     name: Brave
-    image: /assets/img/browsers/brave.svg
+    image: /assets/images/browsers/brave.svg
     url: https://brave.com
     sameAs: https://cs.wikipedia.org/wiki/Brave_(webový%20prohlížeč)
     applicationCategory: Web Browser
@@ -69,9 +69,9 @@ If you need to browse the internet anonymously, you should use [Tor Browser](tor
 
 <div class="admonition recommendation" markdown>
 
-![Mullvad Browser logo](assets/img/browsers/mullvad_browser.svg){ align=right }
+![Mullvad Browser logo](assets/images/browsers/mullvad_browser.svg){ align=right }
 
-**Mullvad Browser** je verze [Tor Browseru](tor.md#tor-browser) s odstraněnou integrací sítě Tor. Cílem je poskytnout uživatelům VPN ochranu proti otiskům prstů převzatou z Tor Browseru, které jsou klíčovou ochranou proti [:material-eye-outline: masovému sledování](basics/common-threats.md#mass-surveillance-programs){ .pg-blue }. Je vyvíjený projektem Tor a distribuovaný společností [Mullvad](vpn.md#mullvad), ale **nevyžaduje** používání Mullvad VPN.
+**Mullvad Browser** is a version of [Tor Browser](tor.md#tor-browser) with Tor network integrations removed. Cílem je poskytnout uživatelům VPN ochranu proti otiskům prstů převzatou z Tor Browseru, které jsou klíčovou ochranou proti [:material-eye-outline: masovému sledování](basics/common-threats.md#mass-surveillance-programs){ .pg-blue }. Je vyvíjený projektem Tor a distribuovaný společností [Mullvad](vpn.md#mullvad), ale **nevyžaduje** používání Mullvad VPN.
 
 [:octicons-home-16: Hlavní stránka](https://mullvad.net/en/browser){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://mullvad.net/en/help/privacy-policy){ .card-link title="Ochrana osobních údajů" }
@@ -115,9 +115,9 @@ To je potřeba pro zabránění pokročilým formám sledování, ale jde to na 
 
 <div class="admonition recommendation" markdown>
 
-![logo Firefox](assets/img/browsers/firefox.svg){ align=right }
+![Firefox logo](assets/images/browsers/firefox.svg){ align=right }
 
-**Firefox** poskytuje mnoho nastavení pro zachování soukromí, např. [rozšířenou ochranu proti sledování](https://support.mozilla.org/cs/kb/rozsirena-ochrana-proti-sledovani-ve-firefoxu-pro-), která může zablokovat různé [typy pokusů o sledování](https://support.mozilla.org/cs/kb/rozsirena-ochrana-proti-sledovani-ve-firefoxu-pro-#w_co-rozsirena-ochrana-proti-sledovani-blokuje).
+**Firefox** provides strong privacy settings such as [Enhanced Tracking Protection](https://support.mozilla.org/kb/enhanced-tracking-protection-firefox-desktop), which can help block various [types of tracking](https://support.mozilla.org/kb/enhanced-tracking-protection-firefox-desktop#w_what-enhanced-tracking-protection-blocks).
 
 [:octicons-home-16: Domovská stránka](https://www.firefox.com/cs/){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://www.mozilla.org/cs/privacy/firefox/){ .card-link title="Prohlášení o ochraně osobních údajů" }
@@ -233,9 +233,9 @@ Arkenfox se zaměřuje pouze na zabránění běžným nebo naivním sledovacím
 
 <div class="admonition recommendation annotate" markdown>
 
-![logo Brave](assets/img/browsers/brave.svg){ align=right }
+![Brave logo](assets/images/browsers/brave.svg){ align=right }
 
-**Brave Browser** obsahuje vestavěný blokátor obsahu a [funkce pro ochranu soukromí](https://brave.com/privacy-features), z nichž mnohé jsou předem povolené.
+**Brave Browser** includes a built-in content blocker and [privacy features](https://brave.com/privacy-features), many of which are enabled by default.
 
 Brave je postavený na prohlížeči Chromium, takže by vám měl připadat známý a měli byste s ním mít minimální problémy s kompatibilitou.
 

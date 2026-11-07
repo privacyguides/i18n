@@ -112,7 +112,7 @@ Here are a few privacy-focused tools and services that can help you to organize 
 
 <div class="admonition recommendation" markdown>
 
-![CryptPad logo](../../assets/img/document-collaboration/cryptpad.svg){ align=right }
+![CryptPad logo](../../assets/images/document-collaboration/cryptpad.svg){ align=right }
 
 **CryptPad** is a free open-source collaborative office suite that uses end-to-end encryption.
 
@@ -126,7 +126,7 @@ Here are a few privacy-focused tools and services that can help you to organize 
 
 <div class="admonition recommendation" markdown>
 
-![Mastodon logo](../../assets/img/social-networks/mastodon.svg){ align=right }
+![Mastodon logo](../../assets/images/social-networks/mastodon.svg){ align=right }
 
 **Mastodon** is a free and open-source microblogging social network.
 
@@ -140,7 +140,7 @@ Here are a few privacy-focused tools and services that can help you to organize 
 
 <div class="admonition recommendation" markdown>
 
-![Element logo](../../assets/img/social-networks/element.svg){ align=right }
+![Element logo](../../assets/images/social-networks/element.svg){ align=right }
 
 **Element** is a free open-source client for the [Matrix](https://matrix.org/) open standard for chat-room group communication.
 
@@ -153,7 +153,7 @@ Here are a few privacy-focused tools and services that can help you to organize 
 
 <div class="admonition recommendation" markdown>
 
-![PeerTube logo](../../assets/img/social-networks/peertube.svg){ align=right }
+![PeerTube logo](../../assets/images/social-networks/peertube.svg){ align=right }
 
 **PeerTube** is a free open-source video platform developed by the French nonprofit [Framasoft](https://framasoft.org/en/).
 

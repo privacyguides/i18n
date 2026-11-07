@@ -16,10 +16,10 @@ cover: calendar.webp
 
 <div class="admonition recommendation" markdown>
 
-![투타 로고](assets/img/email/tuta.svg#only-light){ align=right }
-![투타 로고](assets/img/email/tuta-dark.svg#only-dark){ align=right }
+![Tuta logo](assets/images/email/tuta.svg#only-light){ align=right }
+![Tuta logo](assets/images/email/tuta-dark.svg#only-dark){ align=right }
 
-**투타**는 지원하는 모든 플랫폼에서 무료 암호화 캘린더를 제공합니다. 모든 데이터에 대한 자동 E2EE, 공유 기능, 가져오기/내보내기 기능, 다중 인증 등 [다양한 기능](https://tuta.com/calendar-app-comparison)을 제공합니다.
+**Tuta** offers a free and encrypted calendar across their supported platforms. 모든 데이터에 대한 자동 E2EE, 공유 기능, 가져오기/내보내기 기능, 다중 인증 등 [다양한 기능](https://tuta.com/calendar-app-comparison)을 제공합니다.
 
 여러 캘린더와 확장된 공유 기능은 유료 구독자만 사용할 수 있습니다.
 
@@ -49,9 +49,9 @@ cover: calendar.webp
 
 <div class="admonition recommendation" markdown>
 
-![프로톤](assets/img/calendar/proton-calendar.svg){ align=right }
+![Proton](assets/images/calendar/proton-calendar.svg){ align=right }
 
-**프로톤 캘린더**는 웹 또는 모바일 클라이언트를 통해 프로톤 회원이 이용할 수 있는 암호화 캘린더 서비스입니다. 모든 데이터에 대한 자동 E2EE, 공유 기능, 가져오기/내보내기 기능 등 [다양한 기능](https://proton.me/support/proton-calendar-guide)을 제공합니다.
+**Proton Calendar** is an encrypted calendar service available to Proton members via its web or mobile clients. 모든 데이터에 대한 자동 E2EE, 공유 기능, 가져오기/내보내기 기능 등 [다양한 기능](https://proton.me/support/proton-calendar-guide)을 제공합니다.
 
 무료 요금제 사용자는 캘린더를 3개까지 사용할 수 있고, 유료 구독자는 최대 25개까지 만들 수 있습니다. 확장된 공유 기능도 유료 구독자만 사용할 수 있습니다.
 

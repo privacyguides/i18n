@@ -19,9 +19,9 @@ Jeśli już korzystasz z [Proton Drive](cloud.md#proton-drive)[^1] lub posiadasz
 
 <div class="admonition recommendation" markdown>
 
-![Logo Send](assets/img/file-sharing-sync/send.svg){ align=right }
+![Send logo](assets/images/file-sharing-sync/send.svg){ align=right }
 
-**Send** to fork wycofanej usługi Firefox Send od Mozilli, który pozwala wysyłać pliki innym za pomocą linku. Pliki są szyfrowane na urządzeniu, więc serwer nie ma do nich dostępu, a dodatkowo można je opcjonalnie chronić hasłem. Opiekun projektu Send udostępnia [instancję publiczną](https://send.vis.ee). Można też korzystać z innych publicznych instancji albo hostować Send samodzielnie.
+**Send** is a fork of Mozilla's discontinued Firefox Send service which allows you to send files to others with a link. Pliki są szyfrowane na urządzeniu, więc serwer nie ma do nich dostępu, a dodatkowo można je opcjonalnie chronić hasłem. Opiekun projektu Send udostępnia [instancję publiczną](https://send.vis.ee). Można też korzystać z innych publicznych instancji albo hostować Send samodzielnie.
 
 [:octicons-home-16: Strona główna](https://send.vis.ee){ .md-button .md-button--primary }
 [:octicons-server-16:](https://github.com/timvisee/send-instances){ .card-link title="Instancje publiczne"}
@@ -43,9 +43,9 @@ ffsend upload --host https://send.vis.ee/ FILE
 
 <div class="admonition recommendation" markdown>
 
-![Logo OnionShare](assets/img/file-sharing-sync/onionshare.svg){ align=right }
+![OnionShare logo](assets/images/file-sharing-sync/onionshare.svg){ align=right }
 
-**OnionShare** to narzędzie typu open source, które umożliwia bezpieczne i [:material-incognito: anonimowe](basics/common-threats.md#anonymity-vs-privacy){ .pg-purple } udostępnianie plików o dowolnym rozmiarze. Działa poprzez uruchomienie serwera WWW dostępnego jako usługa .onion w sieci Tor, z trudnym do odgadnięcia adresem URL, którym można podzielić się z odbiorcami, aby pobrali lub przesłali pliki.
+**OnionShare** is an open-source tool that lets you securely and [:material-incognito: anonymously](basics/common-threats.md#anonymity-vs-privacy){ .pg-purple } share a file of any size. Działa poprzez uruchomienie serwera WWW dostępnego jako usługa .onion w sieci Tor, z trudnym do odgadnięcia adresem URL, którym można podzielić się z odbiorcami, aby pobrali lub przesłali pliki.
 
 [:octicons-home-16: Strona główna](https://onionshare.org){ .md-button .md-button--primary }
 [:simple-torbrowser:](http://lldan5gahapx5k7iafb3s4ikijc4ni7gx5iywdflkba5y2ezyg6sjgyd.onion){ .card-link title="Usługa .onion" }
@@ -80,9 +80,9 @@ OnionShare oferuje również możliwość połączenia się za pośrednictwem [m
 
 <div class="admonition recommendation" markdown>
 
-![Logo Syncthing](assets/img/file-sharing-sync/syncthing.svg){ align=right }
+![Syncthing logo](assets/images/file-sharing-sync/syncthing.svg){ align=right }
 
-**Syncthing** to narzędzie peer-to-peer typu open source do ciągłej synchronizacji plików. Służy do synchronizacji plików między dwoma lub więcej urządzeniami w sieci lokalnej lub przez Internet. Syncthing nie korzysta z serwera scentralizowanego; do transferu danych między urządzeniami używa protokołu [Block Exchange Protocol](https://docs.syncthing.net/specs/bep-v1.html#bep-v1). Wszystkie dane są szyfrowane przy użyciu protokołu TLS.
+**Syncthing** is an open-source peer-to-peer continuous file synchronization utility. Służy do synchronizacji plików między dwoma lub więcej urządzeniami w sieci lokalnej lub przez Internet. Syncthing nie korzysta z serwera scentralizowanego; do transferu danych między urządzeniami używa protokołu [Block Exchange Protocol](https://docs.syncthing.net/specs/bep-v1.html#bep-v1). Wszystkie dane są szyfrowane przy użyciu protokołu TLS.
 
 [:octicons-home-16: Strona główna](https://syncthing.net){ .md-button .md-button--primary }
 [:octicons-info-16:](https://docs.syncthing.net){ .card-link title=Dokumentacja}

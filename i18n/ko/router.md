@@ -16,10 +16,10 @@ cover: router.webp
 
 <div class="admonition recommendation" markdown>
 
-![OpenWrt 로고](assets/img/router/openwrt.svg#only-light){ align=right }
-![OpenWrt 로고](assets/img/router/openwrt-dark.svg#only-dark){ align=right }
+![OpenWrt logo](assets/images/router/openwrt.svg#only-light){ align=right }
+![OpenWrt logo](assets/images/router/openwrt-dark.svg#only-dark){ align=right }
 
-**OpenWrt**는 리눅스 기반 운영 체제로, 주로 임베디드 기기에서 네트워크 트래픽을 라우팅하는 데 사용됩니다. util-linux, uClibc, BusyBox가 포함되어 있습니다. 모든 구성 요소가 가정용 라우터에 맞게 최적화되어 있습니다.
+**OpenWrt** is a Linux-based operating system; it's primarily used on embedded devices to route network traffic. util-linux, uClibc, BusyBox가 포함되어 있습니다. 모든 구성 요소가 가정용 라우터에 맞게 최적화되어 있습니다.
 
 [:octicons-home-16: 홈페이지](https://openwrt.org){ .md-button .md-button--primary }
 [:octicons-info-16:](https://openwrt.org/docs/start){ .card-link title="문서"}
@@ -36,9 +36,9 @@ OpenWrt의 [하드웨어 표](https://openwrt.org/toh/start)에서 사용 중인
 
 <div class="admonition recommendation" markdown>
 
-![OPNsense 로고](assets/img/router/opnsense.svg){ align=right }
+![OPNsense logo](assets/images/router/opnsense.svg){ align=right }
 
-**OPNsense**는 트래픽 셰이핑, 로드 밸런싱, VPN 기능 등 많은 고급 기능을 갖추고 플러그인 형태로 더 많은 기능을 제공하는, FreeBSD 기반의 오픈 소스 방화벽 및 라우팅 플랫폼입니다. OPNsense는 일반적으로 경계 방화벽, 라우터, 무선 액세스 포인트, DHCP 서버, DNS 서버, VPN 엔드포인트로 사용됩니다.
+**OPNsense** is an open-source, FreeBSD-based firewall and routing platform which incorporates many advanced features such as traffic shaping, load balancing, and VPN capabilities, with many more features available in the form of plugins. OPNsense는 일반적으로 경계 방화벽, 라우터, 무선 액세스 포인트, DHCP 서버, DNS 서버, VPN 엔드포인트로 사용됩니다.
 
 [:octicons-home-16: 홈페이지](https://opnsense.org){ .md-button .md-button--primary }
 [:octicons-info-16:](https://docs.opnsense.org/index.html){ .card-link title="문서"}

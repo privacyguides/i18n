@@ -43,9 +43,9 @@ If you're looking for additional *privacy* from your ISP or on a public Wi-Fi ne
 
 <div class="admonition recommendation" markdown>
 
-![Proton VPN logo](assets/img/vpn/protonvpn.svg){ align=right }
+![Proton VPN logo](assets/images/vpn/protonvpn.svg){ align=right }
 
-**پروتون وی‌پی‌ان** یکی از گزینه‌های قدرتمند در حوزه وی‌پی‌ان است و از سال ۲۰۱۶ فعالیت خود را آغاز کرده‌اند. شرکت Proton AG در سوئیس مستقر است و یک سطح رایگان محدود و همچنین گزینه‌ای پریمیوم با امکانات بیشتر ارائه می‌دهد.
+**Proton VPN** is a strong contender in the VPN space, and they have been in operation since 2016. شرکت Proton AG در سوئیس مستقر است و یک سطح رایگان محدود و همچنین گزینه‌ای پریمیوم با امکانات بیشتر ارائه می‌دهد.
 
 [:octicons-home-16: Homepage](https://protonvpn.com){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://protonvpn.com/privacy-policy){ .card-link title="Privacy Policy" }
@@ -137,7 +137,9 @@ Additionally, system crashes [may occur](https://protonvpn.com/support/macos-t2-
 
 <div class="admonition recommendation" markdown>
 
-**IVPN** یکی دیگر از ارائه‌دهندگان ممتاز VPN است و از سال ۲۰۰۹ فعالیت می‌کند. IVPN در جبل‌الطارق مستقر است و دوره آزمایشی رایگان ارائه نمی‌دهد.
+![IVPN logo](assets/images/vpn/ivpn.svg){ align=right }
+
+**IVPN** is another premium VPN provider, and they have been in operation since 2009. IVPN در جبل‌الطارق مستقر است و دوره آزمایشی رایگان ارائه نمی‌دهد.
 
 [:octicons-home-16: Homepage](https://ivpn.net){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://ivpn.net/privacy){ .card-link title="Privacy Policy" }
@@ -210,7 +212,9 @@ IVPN has obfuscation modes using [V2Ray](https://v2ray.com/en/index) which helps
 
 <div class="admonition recommendation" markdown>
 
-**مولواد** یک وی‌پی‌ان سریع و مقرون‌به‌صرفه با تمرکز جدی بر شفافیت و امنیت است. آن‌ها از سال ۲۰۰۹ فعالیت می‌کنند. مولواد در سوئد مستقر است و برای [روش‌های پرداخت](https://mullvad.net/en/help/refunds) که این امکان را دارند، ضمانت بازگشت وجه ۱۴ روزه ارائه می‌دهد.
+![Mullvad logo](assets/images/vpn/mullvad.svg){ align=right }
+
+**Mullvad** is a fast and inexpensive VPN with a serious focus on transparency and security. آن‌ها از سال ۲۰۰۹ فعالیت می‌کنند. مولواد در سوئد مستقر است و برای [روش‌های پرداخت](https://mullvad.net/en/help/refunds) که این امکان را دارند، ضمانت بازگشت وجه ۱۴ روزه ارائه می‌دهد.
 
 [:octicons-home-16: Homepage](https://mullvad.net){ .md-button .md-button--primary }
 [:simple-torbrowser:](http://o54hon2e2vj6c7m3aqqu6uyece65by3vgoxxhlqlsvkmacw6a7m7kiad.onion){ .card-link title="Onion Service" }

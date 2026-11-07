@@ -4,7 +4,7 @@ icon: 'simple/torproject'
 description: Tor is een gratis te gebruiken, gedecentraliseerd netwerk dat is ontworpen om het internet met zoveel mogelijk privacy te gebruiken.
 ---
 
-![Tor logo](../assets/img/self-contained-networks/tor.svg){ align=right }
+![Tor logo](../assets/images/self-contained-networks/tor.svg){ align=right }
 
 [**Tor**](../alternative-networks.md#tor) is a free to use, decentralized network designed for using the internet with as much privacy as possible. Bij correct gebruik maakt het netwerk privé en anoniem browsen en communicatie mogelijk. Omdat Tor-verkeer moeilijk te blokkeren en te traceren is, is Tor een effectief middel om censuur te omzeilen.
 
@@ -111,9 +111,9 @@ Those at risk of browser vulnerabilities should consider additional protections 
 Telkens wanneer je [verbinding maakt met Tor](../tor.md), zal het drie nodes kiezen om een pad naar het internet te bouwen; dit pad wordt een "circuit" genoemd
 
 <figure markdown>
-  Tor-pad waarop jouw apparaat verbinding maakt met een ingangsknooppunt, middelste knooppunt en uitgangsknooppunt voordat de website van bestemming wordt bereikt](../assets/img/how-tor-works/tor-path.svg#only-light)
-  ![Tor-pad waarop jouw apparaat verbinding maakt met een ingangsknooppunt, middelste knooppunt en uitgangsknooppunt voordat de website van bestemming wordt bereikt](../assets/img/how-tor-works/tor-path-dark.svg#only-dark)
-  <figcaption>Tor-circuitroute</figcaption>
+  ![Tor path showing your device connecting to an entry node, middle node, and exit node before reaching the destination website](../assets/images-localized/how-tor-works/tor-path.svg#only-light)
+  ![Tor path showing your device connecting to an entry node, middle node, and exit node before reaching the destination website](../assets/images-localized/how-tor-works/tor-path-dark.svg#only-dark)
+  <figcaption>Tor circuit pathway</figcaption>
 </figure>
 
 Elk van deze knooppunten heeft zijn eigen functie:
@@ -143,9 +143,9 @@ De exit node wordt willekeurig gekozen uit alle beschikbare Tor-knooppunten met 
 Verbinden met een Onion Service in Tor werkt ongeveer hetzelfde als verbinden met een clearnet service, maar je verkeer wordt door een totaal van **zes** nodes geleid voordat het de bestemmingsserver bereikt. Just like before, however, only three of these nodes are contributing to *your* anonymity, the other three nodes protect *the Onion Service's* anonymity, hiding the website's true IP and location in the same manner that Tor Browser is hiding yours.
 
 <figure style="width:100%" markdown>
-  Tor-pad dat ujouw verkeer via uw drie Tor-knooppunten leidt plus drie extra Tor-knooppunten die de identiteit van de website verbergen](../assets/img/how-tor-works/tor-path-hidden-service.svg#only-light)
-  ![Tor pad dat jouw verkeer toont dat door uw drie Tor nodes wordt geleid plus drie extra Tor nodes die de identiteit van de website verbergen](../assets/img/how-tor-works/tor-path-hidden-service-dark.svg#only-dark)
-  <figcaption>Tor circuit pad met Onion Services. </span></span> Knooppunten in het blauwe <span class="pg-blue">hek behoren tot jouw browser, terwijl knooppunten in het rode <span class="pg-red">hek tot de server behoren, zodat hun identiteit voor jou verborgen blijft.</figcaption>
+  ![Tor path showing your traffic being routed through your three Tor nodes plus three additional Tor nodes which hide the website's identity](../assets/images-localized/how-tor-works/tor-path-hidden-service.svg#only-light)
+  ![Tor path showing your traffic being routed through your three Tor nodes plus three additional Tor nodes which hide the website's identity](../assets/images-localized/how-tor-works/tor-path-hidden-service-dark.svg#only-dark)
+  <figcaption>Tor circuit pathway with Onion Services. </span></span> Knooppunten in het blauwe <span class="pg-blue">hek behoren tot jouw browser, terwijl knooppunten in het rode <span class="pg-red">hek tot de server behoren, zodat hun identiteit voor jou verborgen blijft.</figcaption>
 </figure>
 
 ## Encryptie
@@ -163,9 +163,9 @@ Zodra Tor een circuit heeft gebouwd, verloopt de gegevensoverdracht als volgt:
 Hieronder staat een alternatief schema dat het proces weergeeft. Elke node verwijdert zijn eigen versleutelings laag, en wanneer de bestemmings server gegevens terugstuurt, gebeurt hetzelfde proces volledig in omgekeerde richting. Zo weet de exit node niet wie je bent, maar wel van welk knooppunt het afkomstig is, en dus voegt het zijn eigen versleutelings laag toe en stuurt het het terug.
 
 <figure markdown>
-  Tor encryption](../assets/img/how-tor-works/tor-encryption.svg#only-light)
-  ![Tor encryption](../assets/img/how-tor-works/tor-encryption-dark.svg#only-dark)
-  <figcaption>Gegevens verzenden en ontvangen via het Tor Netwerk</figcaption>
+  ![Tor encryption](../assets/images-localized/how-tor-works/tor-encryption.svg#only-light)
+  ![Tor encryption](../assets/images-localized/how-tor-works/tor-encryption-dark.svg#only-dark)
+  <figcaption>Sending and receiving data through the Tor Network</figcaption>
 </figure>
 
 Met Tor kunnen we verbinding maken met een server zonder dat een enkele partij het hele pad kent. De entry node weet wie je bent, maar niet waar je naartoe gaat; De middle node weet niet wie je bent of waar je naartoe gaat; en de exit node weet waar je naartoe gaat, maar niet wie je bent. Omdat de exit node de uiteindelijke verbinding maakt, zal de bestemmingsserver nooit jouw IP-adres kennen.

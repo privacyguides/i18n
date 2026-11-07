@@ -10,7 +10,7 @@ Esistono svariate architetture di rete, utilizzate comunemente per trasmettere m
 
 ## Reti Centralizzate
 
-![Diagramma delle reti centralizzate](../assets/img/layout/network-centralized.svg){ align=left }
+![Diagramma delle reti centralizzate](../assets/images/layout/network-centralized.svg){ align=left }
 
 I servizi di messaggistica centralizzati sono quelli in cui tutti i partecipanti si trovano sullo stesso server o la stessa rete di server, controllati dalla stessa organizzazione.
 
@@ -33,7 +33,7 @@ Alcuni servizi di messaggistica ospitati autonomamente, ti consentono di configu
 
 ## Reti Federate
 
-![Diagramma delle reti federate](../assets/img/layout/network-decentralized.svg){ align=left }
+![Diagramma delle reti federate](../assets/images/layout/network-decentralized.svg){ align=left }
 
 La messaggistica federata utilizza svariati server indipendenti e decentralizzati, capaci di comunicare tra loro (l'email è un esempio di servizio federato). La federazione consente agli amministratori di sistema di controllare i propri server, pur continuando a far parte della più grande rete comunicativa.
 
@@ -56,7 +56,7 @@ Quando ospitati autonomamente, i membri di un server federato possono scoprire e
 
 ## Reti peer-to-peer
 
-![Diagramma del P2P](../assets/img/layout/network-distributed.svg){ align=left }
+![Diagramma del P2P](../assets/images/layout/network-distributed.svg){ align=left }
 
 La messaggistica P2P si connette a una [rete distribuita](https://en.wikipedia.org/wiki/Distributed_networking) di noti per trasmettere un messaggio al destinatario, senza un server di terze parti.
 
@@ -81,7 +81,7 @@ Le reti P2P non utilizzano i server, poiché i pari comunicano direttamente tra 
 
 ## Instradamento anonimo
 
-![Diagramma dell'instradamento anonimo](../assets/img/layout/network-anonymous-routing.svg){ align=left }
+![Diagramma dell'instradamento anonimo](../assets/images/layout/network-anonymous-routing.svg){ align=left }
 
 La messaggistica che utilizza l'[instradamento anonimo](https://doi.org/10.1007/978-1-4419-5906-5_628) nasconde l'identità del mittente, del destinatario o le prove che stessero comunicando. Idealmente, un servizio di messaggistica dovrebbe nascondere tutte e tre le cose.
 

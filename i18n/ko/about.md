@@ -36,7 +36,7 @@ schema:
 
 개별적인 도움을 받는 가장 좋은 방법은 디스코스의 커뮤니티를 이용하는 것입니다. 웹사이트에서 문제를 발견했다면 포럼의 [사이트 개발](https://discuss.privacyguides.net/c/site-development/7) 카테고리에서 토론을 열어 주세요. 프라이버시 가이드에서 다루는 내용에 대해 궁금한 점이 있다면 포럼의 [질문](https://discuss.privacyguides.net/c/privacy/questions/8) 카테고리에 질문해 주세요.
 
-![시그널 연락처 QR 코드](assets/img/layout/signal-contact-qr.png){ align=right }
+![Signal contact QR code](assets/images/layout/signal-contact-qr.png){ align=right }
 
 제보할 내용이 있거나 민감한 정보를 공유해야 하나요? 프라이버시 가이드와 안전하게 연락하는 가장 좋은 방법은 시그널의 `@privacyguides.01`입니다. 이 그룹 계정은 [조나](https://discuss.privacyguides.net/u/jonah), [니크](https://discuss.privacyguides.net/u/niek-de-wilde), [엠](https://discuss.privacyguides.net/u/em), [조던](https://discuss.privacyguides.net/u/jordan)이 관리합니다.
 

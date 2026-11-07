@@ -4,7 +4,7 @@ icon: 'simple/torproject'
 description: Tor - это бесплатная в использовании децентрализованная сеть, разработанная для использования интернета с максимально возможной степенью конфиденциальности.
 ---
 
-![Логотип Tor](../assets/img/self-contained-networks/tor.svg){ align=right }
+![Логотип Tor](../assets/images/self-contained-networks/tor.svg){ align=right }
 
 [**Tor**](../alternative-networks.md#tor) — это бесплатная для использования, децентрализованная сеть, предназначенная для максимально приватного использования интернета. При правильном использовании сеть позволяет осуществлять частный и анонимный браузинг и общение. Поскольку трафик Tor сложно заблокировать и отследить, Tor является эффективным инструментом обхода цензуры.
 
@@ -111,9 +111,9 @@ Those at risk of browser vulnerabilities should consider additional protections 
 Каждый раз, когда вы [подключаетесь к Tor](../tor.md), он выбирает три узла для построения пути в интернет - этот путь называется "цепь."
 
 <figure markdown>
-  ![Путь Tor, показывающий подключение вашего устройства к узлу входа, среднему узлу и узлу выхода до достижения целевого сайта](../assets/img/how-tor-works/tor-path.svg#only-light)
-  ![Путь Tor, показывающий подключение вашего устройства к узлу входа, среднему узлу и узлу выхода до достижения целевого сайта](../assets/img/how-tor-works/tor-path-dark.svg#only-dark)
-  <figcaption>Путь Tor</figcaption>
+  ![Tor path showing your device connecting to an entry node, middle node, and exit node before reaching the destination website](../assets/images-localized/how-tor-works/tor-path.svg#only-light)
+  ![Tor path showing your device connecting to an entry node, middle node, and exit node before reaching the destination website](../assets/images-localized/how-tor-works/tor-path-dark.svg#only-dark)
+  <figcaption>Tor circuit pathway</figcaption>
 </figure>
 
 Каждый из этих узлов имеет свою функцию:
@@ -143,9 +143,9 @@ Those at risk of browser vulnerabilities should consider additional protections 
 Подключение к сервису Onion в Tor работает аналогично подключению к сервису clearnet, но ваш трафик проходит в общей сложности через **шесть узлов**, прежде чем достигнет сервера назначения. Just like before, however, only three of these nodes are contributing to *your* anonymity, the other three nodes protect *the Onion Service's* anonymity, hiding the website's true IP and location in the same manner that Tor Browser is hiding yours.
 
 <figure style="width:100%" markdown>
-  ![Путь Tor, показывающий, что ваш трафик направляется через три ваших Tor-узла плюс три дополнительных Tor-узла, скрывающих идентичность сайта](../assets/img/how-tor-works/tor-path-hidden-service.svg#only-light)
-  ![Путь Tor, показывающий, что ваш трафик направляется через три ваших Tor-узла плюс три дополнительных Tor-узла, скрывающих идентичность веб-сайта](../assets/img/how-tor-works/tor-path-hidden-service-dark.svg#only-dark)
-  <figcaption>Путь цепи Tor с  сервисами Onion. Узлы в <span class="pg-blue">синем</span> квадрате принадлежат вашему браузеру, а узлы в <span class="pg-red">красном</span> квадрате принадлежат серверу, поэтому их идентичность скрыта от вас.</figcaption>
+  ![Tor path showing your traffic being routed through your three Tor nodes plus three additional Tor nodes which hide the website's identity](../assets/images-localized/how-tor-works/tor-path-hidden-service.svg#only-light)
+  ![Tor path showing your traffic being routed through your three Tor nodes plus three additional Tor nodes which hide the website's identity](../assets/images-localized/how-tor-works/tor-path-hidden-service-dark.svg#only-dark)
+  <figcaption>Tor circuit pathway with Onion Services. Узлы в <span class="pg-blue">синем</span> квадрате принадлежат вашему браузеру, а узлы в <span class="pg-red">красном</span> квадрате принадлежат серверу, поэтому их идентичность скрыта от вас.</figcaption>
 </figure>
 
 ## Шифрование
@@ -163,9 +163,9 @@ Tor encrypts each packet (a block of transmitted data) three times with the keys
 Ниже приведена альтернативная диаграмма, показывающая этот процесс. Каждый узел снимает свой собственный уровень шифрования, а когда сервер назначения возвращает данные, тот же процесс происходит полностью в обратном порядке. Например, выходной узел не знает, кто вы, но он знает, с какого узла пришло сообщение, поэтому он добавляет свой собственный уровень шифрования и отправляет его обратно.
 
 <figure markdown>
-  ![Шифрование Tor](../assets/img/how-tor-works/tor-encryption.svg#only-light)
-  ![Шифрование Tor](../assets/img/how-tor-works/tor-encryption-dark.svg#only-dark)
-  <figcaption>Отправка и получение данных через сеть Tor</figcaption>
+  ![Tor encryption](../assets/images-localized/how-tor-works/tor-encryption.svg#only-light)
+  ![Tor encryption](../assets/images-localized/how-tor-works/tor-encryption-dark.svg#only-dark)
+  <figcaption>Sending and receiving data through the Tor Network</figcaption>
 </figure>
 
 Tor позволяет нам подключаться к серверу так, чтобы никто не знал всего пути. Входной узел знает, кто вы, но не знает, куда вы идете; средний узел не знает, кто вы и куда вы идете; а выходной узел знает, куда вы идете, но не знает, кто вы. Поскольку конечный узел устанавливает окончательное соединение, сервер назначения никогда не узнает ваш IP-адрес.

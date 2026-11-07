@@ -20,7 +20,7 @@ cover: health.webp
 
 <div class="admonition recommendation" markdown>
 
-![드립 로고](assets/img/health-and-wellness/drip.png){ align=right }
+![Drip logo](assets/images/health-and-wellness/drip.png){ align=right }
 
 **드립**은 모든 모바일 플랫폼에서 사용할 수 있는, 성별에 구애받지 않는 오픈 소스 생리 주기 관리 앱입니다. 배란일을 예측하는 데 "증상체온법"을 사용합니다. 모든 사용자 데이터는 기기에 로컬로 저장되며 비밀번호로 보호할 수 있습니다.
 
@@ -43,7 +43,7 @@ cover: health.webp
 
 <div class="admonition recommendation" markdown>
 
-![유키 로고](assets/img/health-and-wellness/euki.svg){ align=right }
+![Euki logo](assets/images/health-and-wellness/euki.svg){ align=right }
 
 **유키**는 비영리 단체의 지원을 받는 생리 주기 추적 앱으로, 복약 관리 도구와 성 건강 지식 자료 역할도 합니다. 앱 안의 개인 데이터가 자동으로 삭제되도록 예약할 수 있습니다. 모든 사용자 데이터는 기기에 로컬로 저장되며 비밀번호로 보호할 수 있습니다.
 
@@ -65,7 +65,7 @@ cover: health.webp
 
 <div class="admonition recommendation" markdown>
 
-![애플 로고](assets/img/health-and-wellness/apple-health.webp#only-light){ align=right }![애플 로고](assets/img/health-and-wellness/apple-health-dark.webp#only-dark){ align=right }
+![Apple logo](assets/images/health-and-wellness/apple-health.webp#only-light){ align=right }![Apple logo](assets/images/health-and-wellness/apple-health-dark.webp#only-dark){ align=right }
 
 애플 건강은 iOS 기기에 기본으로 설치되는 앱 중 하나입니다. 생리 주기 추적을 비롯해 많은 건강 및 웰니스 기능([건강 기록](#apple-health-records) 참조)을 갖추고 있습니다. 또한 성 중립적인 언어를 사용합니다. 애플 건강은 여러 기기 간에 동기화할 때 항상 종단 간 암호화를 사용합니다.
 
@@ -88,7 +88,7 @@ cover: health.webp
 
 <div class="admonition recommendation" markdown>
 
-![애플 피트니스 로고](assets/img/health-and-wellness/apple-fitness.webp){ align=right }
+![Apple Fitness logo](assets/images/health-and-wellness/apple-fitness.webp){ align=right }
 
 **애플 피트니스**는 iOS의 기본 피트니스 앱입니다. 애플 피트니스는 여러 기기 간에 동기화할 때 항상 종단 간 암호화를 사용합니다. 또한 측정된 데이터의 거의 대부분이 기기에서 처리됩니다.
 
@@ -106,7 +106,7 @@ cover: health.webp
 
 <div class="admonition recommendation" markdown>
 
-![가젯브리지 로고](assets/img/health-and-wellness/gadgetbridge.svg#only-light){ align=right }![가젯브리지 로고](assets/img/health-and-wellness/gadgetbridge-dark.svg#only-dark){ align=right }
+![Gadgetbridge logo](assets/images/health-and-wellness/gadgetbridge.svg#only-light){ align=right }![Gadgetbridge logo](assets/images/health-and-wellness/gadgetbridge-dark.svg#only-dark){ align=right }
 
 **가젯브리지**는 제조사의 애플리케이션에 의존하지 않고 블루투스 기기를 페어링하고 관리할 수 있는 오픈 소스 안드로이드 애플리케이션입니다. 호환되는 스마트워치와 페어링하면 제3자의 데이터 수집 없이 해당 스마트워치의 건강 및 웰니스 기능을 그대로 구현할 수 있습니다.
 
@@ -135,7 +135,7 @@ cover: health.webp
 
 <div class="admonition recommendation" markdown>
 
-![애플 로고](assets/img/health-and-wellness/apple-health.webp#only-light){ align=right }![애플 로고](assets/img/health-and-wellness/apple-health-dark.webp#only-dark){ align=right }
+![Apple logo](assets/images/health-and-wellness/apple-health.webp#only-light){ align=right }![Apple logo](assets/images/health-and-wellness/apple-health-dark.webp#only-dark){ align=right }
 
 **애플 건강 기록**은 [애플 건강](#apple-health)에 내장된 기능으로, 건강 기록을 보고, 저장하고, 공유할 수 있습니다.
 
@@ -154,7 +154,7 @@ cover: health.webp
 
 <div class="admonition recommendation" markdown>
 
-![커먼헬스 로고](assets/img/health-and-wellness/commonhealth.png){ align=right }
+![CommonHealth logo](assets/images/health-and-wellness/commonhealth.png){ align=right }
 
 **커먼헬스**는 전자 건강 기록에 접근하고 이를 의료 서비스 제공자와 안전하게 공유할 수 있게 해 주는, 프라이버시를 존중하는 안드로이드 앱입니다. 모든 건강 데이터는 기기에 저장되며 암호나 생체 인증으로 보호할 수 있습니다.
 

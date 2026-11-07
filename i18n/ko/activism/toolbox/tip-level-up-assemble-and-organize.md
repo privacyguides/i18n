@@ -112,7 +112,7 @@ cover: activism/banner-toolbox-tip-organize.webp
 
 <div class="admonition recommendation" markdown>
 
-![크립트패드 로고](../../assets/img/document-collaboration/cryptpad.svg){ align=right }
+![CryptPad logo](../../assets/images/document-collaboration/cryptpad.svg){ align=right }
 
 **크립트패드**는 종단 간 암호화를 사용하는 무료 오픈 소스 협업 오피스 도구입니다.
 
@@ -126,7 +126,7 @@ cover: activism/banner-toolbox-tip-organize.webp
 
 <div class="admonition recommendation" markdown>
 
-![마스토돈 로고](../../assets/img/social-networks/mastodon.svg){ align=right }
+![Mastodon logo](../../assets/images/social-networks/mastodon.svg){ align=right }
 
 **마스토돈**은 무료 오픈 소스 마이크로블로깅 소셜 네트워크입니다.
 
@@ -140,7 +140,7 @@ cover: activism/banner-toolbox-tip-organize.webp
 
 <div class="admonition recommendation" markdown>
 
-![엘리먼트 로고](../../assets/img/social-networks/element.svg){ align=right }
+![Element logo](../../assets/images/social-networks/element.svg){ align=right }
 
 **엘리먼트**는 채팅방 그룹 소통을 위한 개방형 표준인 [매트릭스](https://matrix.org/)의 무료 오픈 소스 클라이언트입니다.
 
@@ -153,7 +153,7 @@ cover: activism/banner-toolbox-tip-organize.webp
 
 <div class="admonition recommendation" markdown>
 
-![피어튜브 로고](../../assets/img/social-networks/peertube.svg){ align=right }
+![PeerTube logo](../../assets/images/social-networks/peertube.svg){ align=right }
 
 **피어튜브**는 프랑스의 비영리 단체 [프라마소프트](https://framasoft.org/en/)가 개발한 무료 오픈 소스 영상 플랫폼입니다.
 

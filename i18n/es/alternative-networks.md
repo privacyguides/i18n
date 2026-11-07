@@ -19,7 +19,7 @@ Cuando se trata de redes anonimizadoras, querenos destacar que [Tor](advanced/to
 
 <div class="admonition recommendation" markdown>
 
-![Tor logo](assets/img/self-contained-networks/tor.svg){ align=right }
+![Tor logo](assets/images/self-contained-networks/tor.svg){ align=right }
 
 La red **Tor** es un grupo de servidores operados por voluntarios que te permiten conectarte de manera gratuita, además de mejorar tu privacidad y seguridad en Internet. Individuos y organizaciones también pueden compartir información a través de la red Tor con los "servicios ocultos .onion" sin comprometer su privacidad. Dado que el tráfico de Tor es difícil de bloquear y rastrear, Tor es una eficaz herramienta de elusión de la [:material-close-outline: Censura](basics/common-threats.md#avoiding-censorship){ .pg-blue-gray }.
 
@@ -48,7 +48,7 @@ Puedes acceder a _Privacy Guides_ a través de tor en [xoe4vn5uwdztif6goazfbmogh
 
 <div class="admonition recommendation" markdown>
 
-![Orbot logo](assets/img/self-contained-networks/orbot.svg){ align=right }
+![Orbot logo](assets/images/self-contained-networks/orbot.svg){ align=right }
 
 **Orbot** es una aplicación móvil que enruta el tráfico de cualquier aplicación en tu dispositivo a través de la red Tor.
 
@@ -90,8 +90,8 @@ En iOS, Orbot tiene algunas limitaciones que posiblemente podrían causar cuelgu
 
 <div class="admonition recommendation" markdown>
 
-![Snowflake logo](assets/img/self-contained-networks/snowflake.svg#only-light){ align=right }
-![Snowflake logo](assets/img/self-contained-networks/snowflake-dark.svg#only-dark){ align=right }
+![Snowflake logo](assets/images/self-contained-networks/snowflake.svg#only-light){ align=right }
+![Snowflake logo](assets/images/self-contained-networks/snowflake-dark.svg#only-dark){ align=right }
 
 **Snowflake** te permite donar ancho de banda al Proyecto Tor, operando un "proxy de Snowflake" desde tu navegador.
 
@@ -118,8 +118,8 @@ Ejecutar un proxy Snowflake tiene poco riesgo, incluso menos que ejecutar un rel
 
 <div class="admonition recommendation" markdown>
 
-![logo de I2P](assets/img/self-contained-networks/i2p.svg#only-light){ align=right }
-![logo de I2P](assets/img/self-contained-networks/i2p-dark.svg#only-dark){ align=right }
+![I2P logo](assets/images/self-contained-networks/i2p.svg#only-light){ align=right }
+![I2P logo](assets/images/self-contained-networks/i2p-dark.svg#only-dark){ align=right }
 
 **I2P** es una capa de red que cifra tus conexiones y las enruta a través de una red de ordenadores distribuidos por todo el mundo. Está enfocada principalmente en crear una red alternativa que protege la privacidad, en vez de anonimizar las conexiones regulares a Internet.
 

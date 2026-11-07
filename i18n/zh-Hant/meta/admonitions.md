@@ -8,14 +8,14 @@ description: 網站撰稿人建立提醒的指南。
 <div class="admonition example" markdown>
 <p class="admonition-title">提醒範例</p>
 
-這是提醒的範例。 雙因素身份驗證 端對端加密 虛擬私人網路 雜湊函數 數位簽章 公鑰加密 防火牆 安全殼層 傳輸層安全 數據泄露 零知識證明 隱私權管理 加密貨幣 身份驗證 多重加密 隱私政策 生物識別技術 數據抹除
+這是提醒的範例。雙因素身份驗證 端對端加密 虛擬私人網路 雜湊函數 數位簽章 公鑰加密 防火牆 安全殼層傳輸層安全 數據泄露 零知識證明 隱私權管理加密貨幣 身份驗證 多重加密 隱私政策 生物識別技術 數據抹除
 
 </div>
 
 <details class="example" markdown>
 <summary>可摺疊式提醒的範例</summary>
 
-這是可摺疊式提醒的範例。 雙因素身份驗證 端對端加密 虛擬私人網路 雜湊函數 數位簽章 公鑰加密 防火牆 安全殼層 傳輸層安全 數據泄露 零知識證明 隱私權管理 加密貨幣 身份驗證 多重加密 隱私政策 生物識別技術 數據抹除
+這是可摺疊式提醒的範例。雙因素身份驗證 端對端加密 虛擬私人網路 雜湊函數 數位簽章 公鑰加密 防火牆 安全殼層傳輸層安全 數據泄露 零知識證明 隱私權管理加密貨幣 身份驗證 多重加密 隱私政策 生物識別技術 數據抹除
 
 </details>
 
@@ -159,12 +159,12 @@ The `TITLE` must be specified; if you don't want a specific title you can set it
 
 #### `recommendation`
 
-這個格式用來產生推薦卡。 要注意的是它缺少 `<p class="admonition-title">` 元件。
+這個格式用來產生推薦卡。要注意的是它缺少 `<p class="admonition-title">` 元件。
 
 ```markdown title="Recommendation Card"
 <div class="admonition recommendation" markdown>
 
-![PhotoPrism logo](assets/img/self-hosting/photoprism.svg){ align=right }
+![PhotoPrism logo](assets/images/self-hosting/photoprism.svg){ align=right }
 
 **PhotoPrism** is a self-hostable platform for managing photos. It supports album syncing and sharing as well as a variety of other [features](https://photoprism.app/features). It does not include end-to-end encryption, so it's best hosted on a server that you trust and is under your control.
 
@@ -180,7 +180,7 @@ The `TITLE` must be specified; if you don't want a specific title you can set it
 
 <div class="admonition recommendation" markdown>
 
-![PhotoPrism logo](../assets/img/self-hosting/photoprism.svg){ align=right }
+![PhotoPrism logo](../assets/images/self-hosting/photoprism.svg){ align=right }
 
 **PhotoPrism** is a self-hostable platform for managing photos. It supports album syncing and sharing as well as a variety of other [features](https://photoprism.app/features). It does not include end-to-end encryption, so it's best hosted on a server that you trust and is under your control.
 

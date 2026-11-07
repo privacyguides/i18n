@@ -32,9 +32,9 @@ Vous pouvez utiliser un [VPN](vpn.md) ou [Tor](tor.md) si votre modèle de menac
 
 <div class="admonition recommendation" markdown>
 
-![Logo de Brave Search](assets/img/search-engines/brave-search.svg){ align=right }
+![Brave Search logo](assets/images/search-engines/brave-search.svg){ align=right }
 
-**Brave Search** est un moteur de recherche développé par Brave. Il propose des fonctionnalités uniques comme [Discussions](https://search.brave.com/help/discussions), qui permet de mettre en évidence des résultats axés sur les conversations comme des posts de forum.
+**Brave Search** is a search engine developed by Brave. Il propose des fonctionnalités uniques comme [Discussions](https://search.brave.com/help/discussions), qui permet de mettre en évidence des résultats axés sur les conversations comme des posts de forum.
 
 Brave Search est le moteur de recherche par défaut du [navigateur Brave](desktop-browsers.md#brave).
 
@@ -51,9 +51,9 @@ Nous vous recommandons de désactiver [la télémétrie anonyme d'usage](https:/
 
 <div class="admonition recommendation" markdown>
 
-![Logo de DuckDuckGo](assets/img/search-engines/duckduckgo.svg){ align=right }
+![DuckDuckGo logo](assets/images/search-engines/duckduckgo.svg){ align=right }
 
-**DuckDuckGo** est l'un des moteurs de recherche privés les plus populaires. Les principales fonctionnalités de recherche de DuckDuckGo incluent les [bangs](https://duckduckgo.com/bang) et de nombreuses [réponses instantanées](https://help.duckduckgo.com/duckduckgo-help-pages/features/instant-answers-and-other-features). Le moteur de recherche utilise beaucoup d'autres [sources](https://help.duckduckgo.com/results/sources) que Bing pour les réponses instantanées et autres résultats non principaux.
+**DuckDuckGo** is one of the more mainstream private search engine options. Les principales fonctionnalités de recherche de DuckDuckGo incluent les [bangs](https://duckduckgo.com/bang) et de nombreuses [réponses instantanées](https://help.duckduckgo.com/duckduckgo-help-pages/features/instant-answers-and-other-features). Le moteur de recherche utilise beaucoup d'autres [sources](https://help.duckduckgo.com/results/sources) que Bing pour les réponses instantanées et autres résultats non principaux.
 
 DuckDuckGo est le moteur de recherche par défaut sur le [navigateur Tor](tor.md#tor-browser) et est l'une des rares options disponibles sur [Safari](mobile-browsers.md#safari-ios).
 
@@ -70,10 +70,10 @@ DuckDuckGo propose deux [autres versions](https://help.duckduckgo.com/features/n
 
 <div class="admonition recommendation" markdown>
 
-![Logo de Startpage](assets/img/search-engines/startpage.svg#only-light){ align=right }
-![Logo de Startpage](assets/img/search-engines/startpage-dark.svg#only-dark){ align=right }
+![Startpage logo](assets/images/search-engines/startpage.svg#only-light){ align=right }
+![Startpage logo](assets/images/search-engines/startpage-dark.svg#only-dark){ align=right }
 
-**Startpage** est un moteur de recherche privé. Sa fonctionnalité unique [Anonymous View](https://startpage.com/en/anonymous-view) permet de standardiser l'activité des utilisateurs pour la rendre plus difficile à identifier personnellement. Cette fonctionnalité peut servir à cacher [certaines](https://support.startpage.com/hc/articles/4455540212116-The-Anonymous-View-Proxy-technical-details) propriétés du réseau et du navigateur. Contrairement à ce que son nom suggère, il ne faut pas compter sur cette fonction pour assurer l'anonymat. Si vous recherchez l'anonymat, utilisez plutôt le [navigateur Tor](tor.md#tor-browser).
+**Startpage** is a private search engine. Sa fonctionnalité unique [Anonymous View](https://startpage.com/en/anonymous-view) permet de standardiser l'activité des utilisateurs pour la rendre plus difficile à identifier personnellement. Cette fonctionnalité peut servir à cacher [certaines](https://support.startpage.com/hc/articles/4455540212116-The-Anonymous-View-Proxy-technical-details) propriétés du réseau et du navigateur. Contrairement à ce que son nom suggère, il ne faut pas compter sur cette fonction pour assurer l'anonymat. Si vous recherchez l'anonymat, utilisez plutôt le [navigateur Tor](tor.md#tor-browser).
 
 [:octicons-home-16: Page d'Accueil](https://startpage.com){ .md-button .md-button--primary }
 [:simple-torbrowser:](http://startpagel6srwcjlue4zgq3zevrujfaow726kjytqbbjyrswwmjzcqd.onion){ .card-link title="Service Onion" }
@@ -94,9 +94,9 @@ Un [métamoteur](https://en.wikipedia.org/wiki/Metasearch_engine) compile les r�
 
 <div class="admonition recommendation" markdown>
 
-![Logo de SearXNG](assets/img/search-engines/searxng.svg){ align=right }
+![SearXNG logo](assets/images/search-engines/searxng.svg){ align=right }
 
-**SearXNG** est un métamoteur open source auto-hébergeable. C'est un fork activement maintenu de [SearX](https://github.com/searx/searx).
+**SearXNG** is an open-source, self-hostable, metasearch engine. C'est un fork activement maintenu de [SearX](https://github.com/searx/searx).
 
 [:octicons-home-16: Page d'Accueil](https://searxng.org){ .md-button .md-button--primary }
 [:octicons-server-16:](https://searx.space){ .card-link title="Instances Publiques" }

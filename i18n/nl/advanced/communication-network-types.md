@@ -10,7 +10,7 @@ Er zijn verschillende netwerkarchitecturen die gewoonlijk worden gebruikt om ber
 
 ## Gecentraliseerde netwerken
 
-![Diagram gecentraliseerde netwerken](../assets/img/layout/network-centralized.svg){ align=left }
+![Diagram gecentraliseerde netwerken](../assets/images/layout/network-centralized.svg){ align=left }
 
 Gecentraliseerde berichten diensten zijn die waarbij alle deelnemers zich op dezelfde server of hetzelfde netwerk van servers bevinden die door dezelfde organisatie worden gecontroleerd.
 
@@ -33,7 +33,7 @@ Bij sommige zelf gehoste berichten diensten kun je je eigen server opzetten. Zel
 
 ## Gefedereerde netwerken
 
-![Federated networks diagram](../assets/img/layout/network-decentralized.svg){ align=left }
+![Federated networks diagram](../assets/images/layout/network-decentralized.svg){ align=left }
 
 Bij gefedereerde berichten diensten worden meerdere, onafhankelijke, gedecentraliseerde servers gebruikt die met elkaar kunnen praten (e-mail is een voorbeeld van een gefedereerde dienst). Federatie stelt systeembeheerders in staat hun eigen server te beheren en toch deel uit te maken van het grotere communicatienetwerk.
 
@@ -56,7 +56,7 @@ Bij zelf-hosting kunnen leden van een federatieve server leden van andere server
 
 ## Peer-to-Peer netwerken
 
-![P2P-diagram](../assets/img/layout/network-distributed.svg){ align=left }
+![P2P-diagram](../assets/images/layout/network-distributed.svg){ align=left }
 
 P2P berichten diensten maken verbinding met een [gedistribueerd netwerk](https://en.wikipedia.org/wiki/Distributed_networking) van knooppunten om een bericht door te geven aan de ontvanger zonder een server van derden.
 
@@ -81,7 +81,7 @@ P2P-netwerken maken geen gebruik van servers, aangezien peers rechtstreeks met e
 
 ## Anonieme routering
 
-![Anoniem routeringsschema](../assets/img/layout/network-anonymous-routing.svg){ align=left }
+![Anoniem routeringsschema](../assets/images/layout/network-anonymous-routing.svg){ align=left }
 
 Een berichtendienst die gebruik maakt van [anonieme routering](https://doi.org/10.1007/978-1-4419-5906-5_628) verbergt de identiteit van de verzender, de ontvanger of het bewijs dat zij hebben gecommuniceerd. Idealiter zou een berichtendienst alle drie moeten verbergen.
 

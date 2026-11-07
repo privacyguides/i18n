@@ -14,7 +14,7 @@ schema:
     brand:
       "@type": 品牌
       name: Google
-    image: /assets/img/android/google-pixel.png
+    image: /assets/images/android/google-pixel.png
     sameAs: https://zh.wikipedia.org/wiki/Google_Pixel
     review:
       "@type": 評論
@@ -62,7 +62,7 @@ Google Pixel 手機是我們**唯一**推薦購買的裝置。 Pixel 手機擁�
 
 <div class="admonition recommendation" markdown>
 
-![Google Pixel 6](assets/img/android/google-pixel.png){ align=right }
+![Google Pixel 6](assets/images/android/google-pixel.png){ align=right }
 
 眾所周知，**Google Pixel** 裝置具有良好的安全性，即使在安裝自訂作業系統時，也能正確支援 [驗證開機](https://source.android.com/security/verifiedboot)。
 
@@ -87,8 +87,8 @@ Pixel 8 系列及更新的產品支援 ARM 的記憶體標記擴充 ([MTE](https
 - 如果您想以便宜的價格購買 Pixel 裝置，我們建議您購買「**a**」機型，就在下一款旗艦機發表之後。通常都會有折扣，因為 Google 要清理庫存。
 - 考慮實體商店提供的價格優惠方案和特價商品。
 - 查看您所在國家或地區的線上社群特價網站。這些都可以提醒您有好的入手價格。
-- Google 提供了一份清單，顯示每部裝置的 [支援週期](https://support.google.com/nexus/answer/4457705)。裝置的每日價格可計算為 <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline" class="tml-display" style="display:inline math;"> <mfrac> <mtext>成本</mtext> <mrow> <mtext>壽命結束日期</mtext> <mo>-</mo> <mtext>目前日期</mtext> </mrow> </mfrac> </math>
-  這表示裝置使用時間越長，每天的成本就越低。
+- Google 提供了一份清單，顯示每部裝置的 [支援週期](https://support.google.com/nexus/answer/4457705)。 The price per day for a device can be calculated as: <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline" class="tml-display" style="display:inline math;"> <mfrac> <mtext>Cost</mtext> <mrow> <mtext>End of Life Date</mtext> <mo>−</mo> <mtext>Current Date</mtext> </mrow> </mfrac> </math>
+  , meaning that the longer use of the device the lower cost per day.
 - 如果您所在的地區沒有 Pixel，[NitroPhone](https://shop.nitrokey.com/shop) 可以全球配送。
 
 使用他們的 [線上安裝程式](https://grapheneos.org/install/web)，在 Pixel 手機上安裝 GrapheneOS 非常簡單。如果您不習慣自己動手，又願意多花一點錢，可以看看 [NitroPhone](https://shop.nitrokey.com/shop)，因為它們預載了來自聲譽良好的 [Nitrokey](https://nitrokey.com/about) 公司的 GrapheneOS。

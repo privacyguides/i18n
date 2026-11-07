@@ -53,7 +53,7 @@ Yubico OTP הוא פרוטוקול אימות המיושם בדרך כלל במ�
 מפתח האבטחה יחקה מקלדת וידפיס סיסמה חד פעמית בשדה הסיסמה. מונה מוגדל הן במפתח והן בשרת האימות של Yubico. ניתן להשתמש ב-OTP רק פעם אחת, וכאשר מתרחש אימות מוצלח, המונה מוגדל אשר מונע שימוש חוזר ב-OTP. Yubico מספקת [מסמך מפורט](https://developers.yubico.com/OTP/OTPs_Explained.html) על התהליך.
 
 <figure markdown>
-  ![Yubico OTP](../assets/img/multi-factor-authentication/yubico-otp.png)
+  ![Yubico OTP](../assets/images-localized/multi-factor-authentication/yubico-otp.png)
 </figure>
 
 ישנם כמה יתרונות וחסרונות לשימוש ב-Yubico OTP בהשוואה ל-TOTP.
@@ -71,7 +71,7 @@ U2F ו - FIDO2 מתייחסים ל - [Client to Authenticator Protocol](https://
 WebAuthn היא הצורה המאובטחת והפרטית ביותר של אימות גורם שני. בעוד שחווית האימות דומה ל-Yubico OTP, המפתח אינו מדפיס סיסמה חד פעמית ומאמת עם שרת של צד שלישי. במקום זאת, הוא משתמש ב[הצפנת מפתח ציבורי](https://en.wikipedia.org/wiki/Public-key_cryptography) לצורך אימות.
 
 <figure markdown>
-  ![FIDO](../assets/img/multi-factor-authentication/fido.png)
+  ![FIDO](../assets/images-localized/multi-factor-authentication/fido.png)
 </figure>
 
 כאשר אתה יוצר חשבון, המפתח הציבורי נשלח לשירות, לאחר מכן בעת הכניסה, השירות ידרוש ממך "לחתום" על נתונים מסוימים עם המפתח הפרטי שלך. היתרון של זה הוא ששום סיסמה לא מאוחסנת על ידי השירות, כך שאין ליריב שום דבר לגנוב.

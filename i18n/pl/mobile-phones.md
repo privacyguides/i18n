@@ -14,7 +14,7 @@ schema:
     brand:
       "@type": Brand
       name: Google
-    image: /assets/img/android/google-pixel.png
+    image: /assets/images/android/google-pixel.png
     sameAs: https://pl.wikipedia.org/wiki/Google_Pixel
     review:
       "@type": Review
@@ -62,7 +62,7 @@ Telefony Google Pixel to **jedyne** urządzenia, których zakup zalecamy. Te urz
 
 <div class="admonition recommendation" markdown>
 
-![Google Pixel 6](assets/img/android/google-pixel.png){ align=right }
+![Google Pixel 6](assets/images/android/google-pixel.png){ align=right }
 
 Urządzenia **Google Pixel** są znane z dobrych zabezpieczeń i prawidłowo obsługują [Zweryfikowany rozruch](https://source.android.com/security/verifiedboot), nawet podczas instalowania niestandardowych systemów operacyjnych.
 
@@ -87,18 +87,8 @@ Kilka dodatkowych wskazówek dotyczących zakupu Google Pixel:
 - Jeśli szukasz okazji na urządzenie Pixel, sugerujemy zakup modelu "**a**", tuż po wydaniu kolejnego flagowca. Zniżki są zwykle dostępne, ponieważ Google będzie próbowało wyczyścić swoje magazyny.
 - Rozważ opcje obniżania cen i promocje oferowane w sklepach fizycznych.
 - Sprawdź serwisy społecznościowe w swoim kraju. Mogą Cię poinformować o dobrych przecenach.
-- Google udostępnia listę pokazującą [cykl wsparcia](https://support.google.com/nexus/answer/4457705) dla każdego ze swoich urządzeń. Cenę za dzień dla urządzenia można obliczyć jako:
-  <0>
-  <1>
-  <2>Koszt</2>
-  <3>
-  <2>Data zakończenia wsparcia</2>
-  <4>-</4>
-  <2>Data bieżąca</2>
-  </3>
-  </1>
-  </0>
-  Oznacza to, że im dłuższe użytkowanie urządzenia, tym niższy dzienny koszt.
+- Google udostępnia listę pokazującą [cykl wsparcia](https://support.google.com/nexus/answer/4457705) dla każdego ze swoich urządzeń. The price per day for a device can be calculated as: <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline" class="tml-display" style="display:inline math;"> <mfrac> <mtext>Cost</mtext> <mrow> <mtext>End of Life Date</mtext> <mo>−</mo> <mtext>Current Date</mtext> </mrow> </mfrac> </math>
+  , meaning that the longer use of the device the lower cost per day.
 - Jeśli Pixel jest niedostępny w twoim regionie, [NitroPhone](https://shop.nitrokey.com/shop) może być wysłany globalnie.
 
 Instalacja GrapheneOS na telefonie Pixel jest łatwa dzięki ich [instalatorowi internetowemu](https://grapheneos.org/install/web). Jeśli nie czujesz się komfortowo, robiąc to samemu i jesteś skłonny wydać trochę więcej pieniędzy, sprawdź [NitroPhone](https://shop.nitrokey.com/shop), ponieważ są one fabrycznie wyposażone w GrapheneOS przez renomowaną firmę [Nitrokey](https://nitrokey.com/about).

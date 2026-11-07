@@ -16,10 +16,16 @@ Die Übersetzungssoftware sorgt für eine recht genaue Übersetzung; Du musst je
 Zum Beispiel:
 
 ```text
-![Software logo](assets/img/path/to/image.svg){ align=right }
+![Software logo](assets/images/path/to/image.svg){ align=right }
 ```
 
 Wir haben manchmal festgestellt, dass in der Syntax zum Einfügen eines Bildes wie oben der `![` fehlte oder ein zusätzliches Leerzeichen zwischen dem Text und dem Pfad eingefügt wurde, z. B. `](`. Wenn eine Übersetzung eindeutig nicht korrekt ist, empfehlen wir dir, sie **zu löschen**, indem du auf das Papierkorbsymbol klickst, oder darüber [abzustimmen](https://support.crowdin.com/enterprise/getting-started-for-volunteers/#voting-view), welche Übersetzung deiner Meinung nach am besten klingt. Wenn ungültige Zeichenfolgen gelöscht werden, werden sie aus dem [Übersetzungsspeicher](https://support.crowdin.com/enterprise/translation-memory) der Organisation entfernt, d. h., wenn die Ausgangszeichenfolge erneut angezeigt wird, wird die falsche Übersetzung nicht erneut vorgeschlagen.
+
+## Bilder
+
+Images shared by all languages live in `docs/assets/images` and are excluded from Crowdin. When you run `SITE_LANGUAGE=fr ./run.sh` (replacing `fr` with your language code), the build script links this directory into `i18n/fr/assets/images` so translated builds and Markdown previews can use the same files.
+
+Images containing text that needs translation live in `docs/assets/images-localized` and are uploaded to Crowdin. They retain their existing `docs/assets/img` paths in Crowdin to preserve translations, but are exported to `i18n/<language>/assets/images-localized`. Keep `assets/images-localized` in translated Markdown image paths so the same references resolve to the appropriate images in every language.
 
 ## Zeichensetzung
 

@@ -15,7 +15,7 @@ schema:
     "@context": http://schema.org
     "@type": MobileApplication
     name: Brave
-    image: /assets/img/browsers/brave.svg
+    image: /assets/images/browsers/brave.svg
     url: https://brave.com
     applicationCategory: Web Browser
     operatingSystem:
@@ -28,7 +28,7 @@ schema:
     "@context": http://schema.org
     "@type": MobileApplication
     name: Safari
-    image: /assets/img/browsers/safari.svg
+    image: /assets/images/browsers/safari.svg
     url: https://apple.com/safari
     applicationCategory: Web Browser
     operatingSystem:
@@ -48,9 +48,9 @@ schema:
 
 <div class="admonition recommendation" markdown>
 
-![Логотип Brave](assets/img/browsers/brave.svg){ align=right }
+![Brave logo](assets/images/browsers/brave.svg){ align=right }
 
-**Brave Browser** содержит встроенный блокировщик рекламы и [функции конфиденциальности](https://brave.com/privacy-features), многие из которых уже включены по умолчанию.
+**Brave Browser** includes a built-in content blocker and [privacy features](https://brave.com/privacy-features), many of which are enabled by default.
 
 Brave основан на Chromium, поэтому он покажется тебе знакомым, а также у него не должно быть проблем совместимости с сайтами.
 
@@ -201,9 +201,9 @@ Brave включает некоторые меры против снятия ц�
 
 <div class="admonition recommendation" markdown>
 
-![Логотип Safari](assets/img/browsers/safari.svg){ align=right }
+![Safari logo](assets/images/browsers/safari.svg){ align=right }
 
-**Safari** — браузер по умолчанию на iOS. Он включает [функции конфиденциальности](https://support.apple.com/guide/iphone/browse-the-web-privately-iphb01fc3c85/ios), такие как [Intelligent Tracking Prevention](https://webkit.org/blog/7675/intelligent-tracking-prevention), изолированные и временные вкладки приватного просмотра, защиту от фингерпринтинга (путем представления упрощенной версии конфигурации системы веб-сайтам, чтобы больше устройств выглядели идентично), и рандомизацию цифровых отпечатков, а также Private Relay для тех, у кого есть платная подписка iCloud+.
+**Safari** is the default browser in iOS. Он включает [функции конфиденциальности](https://support.apple.com/guide/iphone/browse-the-web-privately-iphb01fc3c85/ios), такие как [Intelligent Tracking Prevention](https://webkit.org/blog/7675/intelligent-tracking-prevention), изолированные и временные вкладки приватного просмотра, защиту от фингерпринтинга (путем представления упрощенной версии конфигурации системы веб-сайтам, чтобы больше устройств выглядели идентично), и рандомизацию цифровых отпечатков, а также Private Relay для тех, у кого есть платная подписка iCloud+.
 
 [:octicons-home-16: Домашняя страница](https://apple.com/safari){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://apple.com/legal/privacy/data/en/safari){ .card-link title="Политика конфиденциальности" }

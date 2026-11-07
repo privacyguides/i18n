@@ -10,7 +10,7 @@ description: 簡介常見的即時通訊應用程式網路架構。
 
 ## 集中式網路
 
-![集中網路圖](../assets/img/layout/network-centralized.svg){ align=left }
+![集中網路圖](../assets/images/layout/network-centralized.svg){ align=left }
 
 集中式信使是指所有參與者都在同一伺服器或同一組織所控制的伺服器網路。
 
@@ -33,7 +33,7 @@ description: 簡介常見的即時通訊應用程式網路架構。
 
 ## 聯邦式網路
 
-![聯邦式網路圖](../assets/img/layout/network-decentralized.svg){ align=left }
+![聯邦式網路圖](../assets/images/layout/network-decentralized.svg){ align=left }
 
 聯合信使使用多個獨立的分散式伺服器，這些伺服器能夠彼此通訊（電子郵件是聯合服務的一個例子）。聯邦讓系統管理員控制自己的伺服器，成為更大通訊網路中的一員。
 
@@ -56,7 +56,7 @@ description: 簡介常見的即時通訊應用程式網路架構。
 
 ## 點對點網路
 
-![P2P示意圖](../assets/img/layout/network-distributed.svg){ align=left }
+![P2P示意圖](../assets/images/layout/network-distributed.svg){ align=left }
 
 P2P 軟體連接到 [分佈式網路](https://en.wikipedia.org/wiki/Distributed_networking) 中的節點，在沒有第三方伺服器的情況下將訊息傳遞給收件人。
 
@@ -81,7 +81,7 @@ P2P 網路不使用伺服器，對等方彼此之間直接通訊，因此不能�
 
 ## 匿名路由
 
-![匿名路由示意圖](../assets/img/layout/network-anonymous-routing.svg){ align=left }
+![匿名路由示意圖](../assets/images/layout/network-anonymous-routing.svg){ align=left }
 
 使用 [匿名路由](https://doi.org/10.1007/978-1-4419-5906-5_628) 的傳訊方式會隱藏發送者、接收者的身份或他們一直在溝通的證據。理想情況下，這三種東西都該被隱藏。
 

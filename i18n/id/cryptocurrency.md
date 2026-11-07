@@ -26,7 +26,7 @@ Banyak atau bahkan sebagian besar proyek mata uang kripto adalah penipuan. Lakuk
 
 <div class="admonition recommendation" markdown>
 
-![Monero logo](assets/img/cryptocurrency/monero.svg){ align=right }
+![Monero logo](assets/images/cryptocurrency/monero.svg){ align=right }
 
 **Monero** uses a blockchain with privacy-enhancing technologies that obfuscate transactions to achieve [:material-incognito: Anonymity](basics/common-threats.md#anonymity-vs-privacy){ .pg-purple }. Setiap transaksi Monero menyembunyikan jumlah transaksi, alamat pengirim dan penerima, dan sumber dana tanpa ada rintangan yang harus dilewati, menjadikannya pilihan ideal untuk pemula mata uang kripto.
 

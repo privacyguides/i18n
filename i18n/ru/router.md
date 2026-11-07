@@ -16,10 +16,10 @@ cover: router.webp
 
 <div class="admonition recommendation" markdown>
 
-![Логотип OpenWrt](/assets/img/router/openwrt.svg#only-light){ align=right }
-![Логотип OpenWrt](/assets/img/router/openwrt-dark.svg#only-dark){ align=right }
+![OpenWrt logo](assets/images/router/openwrt.svg#only-light){ align=right }
+![OpenWrt logo](assets/images/router/openwrt-dark.svg#only-dark){ align=right }
 
-**OpenWrt** - это операционная система, основанная на ядре Linux, используемая в основном на встраиваемых устройствах для маршрутизации сетевого трафика. Основными компонентами являются ядро Linux, util-linux, uClibc и BusyBox. Все компоненты были оптимизированы для домашних роутеров.
+**OpenWrt** is a Linux-based operating system; it's primarily used on embedded devices to route network traffic. Основными компонентами являются ядро Linux, util-linux, uClibc и BusyBox. Все компоненты были оптимизированы для домашних роутеров.
 
 [:octicons-home-16: Домашняя страница](https://openwrt.org/ru){ .md-button .md-button--primary }
 [:octicons-info-16:](https://openwrt.org/ru/docs/start){ .card-link title=Документация}
@@ -36,7 +36,7 @@ cover: router.webp
 
 <div class="admonition recommendation" markdown>
 
-![OPNsense logo](assets/img/router/opnsense.svg){ align=right }
+![OPNsense logo](assets/images/router/opnsense.svg){ align=right }
 
 **OPNsense** is an open-source, FreeBSD-based firewall and routing platform which incorporates many advanced features such as traffic shaping, load balancing, and VPN capabilities, with many more features available in the form of plugins. OPNsense часто используется для файерволов, роутеров, беспроводных точек доступа, серверов DHCP, DNS серверов и конечных точек VPN.
 

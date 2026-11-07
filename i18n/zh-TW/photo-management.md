@@ -16,7 +16,7 @@ cover: photo-management.webp
 
 <div class="admonition recommendation" markdown>
 
-![Ente 標誌](assets/img/photo-management/ente.svg){ align=right }
+![Ente logo](assets/images/photo-management/ente.svg){ align=right }
 
 **Ente Photos**提供端對端加密照片備份服務，支援 iOS 和 Android 的自動備份。其客戶端與伺服器端的程式碼都完全開放原始碼。它也可 [自行託管](https://github.com/ente-io/ente/tree/main/server#self-hosting)。
 

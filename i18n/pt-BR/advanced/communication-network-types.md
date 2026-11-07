@@ -10,7 +10,7 @@ Existem várias arquiteturas de rede comumente usadas para retransmitir mensagen
 
 ## Redes Centralizadas
 
-![Diagrama de redes centralizadas](../assets/img/layout/network-centralized.svg){ align=left }
+![Diagrama de redes centralizadas](../assets/images/layout/network-centralized.svg){ align=left }
 
 Mensageiros centralizados são aqueles em que todos os participantes estão no mesmo servidor ou rede de servidores controlados pela mesma organização.
 
@@ -33,7 +33,7 @@ Alguns mensageiros podem ser auto-hospedados e permitem que você configure seu 
 
 ## Redes Federadas
 
-![Diagrama de redes federadas](../assets/img/layout/network-decentralized.svg){ align=left }
+![Diagrama de redes federadas](../assets/images/layout/network-decentralized.svg){ align=left }
 
 Os mensageiros federados usam vários servidores independentes e descentralizados que podem conversar entre si (o e-mail é um exemplo de um serviço federado). A federação permite que os administradores do sistema controlem seu próprio servidor e ainda façam parte da rede de comunicações principal.
 
@@ -56,7 +56,7 @@ Quando auto-hospedados, os membros de um servidor federado podem descobrir e se 
 
 ## Redes ponto a ponto
 
-![Diagrama P2P](../assets/img/layout/network-distributed.svg){ align=left }
+![Diagrama P2P](../assets/images/layout/network-distributed.svg){ align=left }
 
 Os mensageiros P2P se conectam a uma [ rede distribuída](https://en.wikipedia.org/wiki/Distributed_networking) de nós para retransmitir uma mensagem ao destinatário sem um servidor de terceiros.
 
@@ -81,7 +81,7 @@ As redes P2P não usam servidores, pois os peers se comunicam diretamente entre 
 
 ## Roteamento Anônimo
 
-![Diagrama de roteamento anônimo](../assets/img/layout/network-anonymous-routing.svg){ align=left }
+![Diagrama de roteamento anônimo](../assets/images/layout/network-anonymous-routing.svg){ align=left }
 
 Um mensageiro usando [roteamento anônimo](https://doi.org/10.1007/978-1-4419-5906-5_628) oculta a identidade do remetente, do destinatário ou a evidência de que eles estão se comunicando. Idealmente, um mensageiro deve esconder todos os três.
 

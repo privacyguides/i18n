@@ -15,7 +15,7 @@ schema:
     "@context": http://schema.org
     "@type": SoftwareApplication
     name: Mullvad Browser
-    image: /assets/img/browsers/mullvad_browser.svg
+    image: /assets/images/browsers/mullvad_browser.svg
     url: https://mullvad.net/en/browser
     applicationCategory: Web Browser
     operatingSystem:
@@ -29,7 +29,7 @@ schema:
     "@context": http://schema.org
     "@type": SoftwareApplication
     name: Firefox
-    image: /assets/img/browsers/firefox.svg
+    image: /assets/images/browsers/firefox.svg
     url: https://firefox.com
     sameAs: https://uk.wikipedia.org/wiki/Firefox
     applicationCategory: Web Browser
@@ -44,7 +44,7 @@ schema:
     "@context": http://schema.org
     "@type": SoftwareApplication
     name: Brave
-    image: /assets/img/browsers/brave.svg
+    image: /assets/images/browsers/brave.svg
     url: https://brave.com
     sameAs: https://uk.wikipedia.org/wiki/Brave_(браузер)
     applicationCategory: Web Browser
@@ -69,9 +69,9 @@ If you need to browse the internet anonymously, you should use [Tor Browser](tor
 
 <div class="admonition recommendation" markdown>
 
-![Логотип Mullvad Browser](assets/img/browsers/mullvad_browser.svg){align=right}
+![Mullvad Browser logo](assets/images/browsers/mullvad_browser.svg){ align=right }
 
-**Mullvad Browser** - це версія [Tor Browser](tor.md#tor-browser) з вилученою інтеграцією з мережею Tor. Він має на меті надати користувачам VPN засоби Tor Browser проти цифрових відбитків, які є ключовим захистом від [:material-eye-outline: масового стеження] (basics/common-threats.md#mass-surveillance-programs){ .pg-blue }. Він розроблений проєктом Tor і розповсюджується [Mullvad] (vpn.md#mullvad), і **не** вимагає використання VPN від Mullvad.
+**Mullvad Browser** is a version of [Tor Browser](tor.md#tor-browser) with Tor network integrations removed. Він має на меті надати користувачам VPN засоби Tor Browser проти цифрових відбитків, які є ключовим захистом від [:material-eye-outline: масового стеження] (basics/common-threats.md#mass-surveillance-programs){ .pg-blue }. Він розроблений проєктом Tor і розповсюджується [Mullvad] (vpn.md#mullvad), і **не** вимагає використання VPN від Mullvad.
 
 [:octicons-home-16: Домашня сторінка ](https://mullvad.net/en/browser){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://mullvad.net/en/help/privacy-policy){ .card-link title="Політика конфіденційності" }
@@ -115,9 +115,9 @@ Mullvad Browser постачається з попередньо встанов�
 
 <div class="admonition recommendation" markdown>
 
-![Firefox logo](assets/img/browsers/firefox.svg){align=right}
+![Firefox logo](assets/images/browsers/firefox.svg){ align=right }
 
-**Firefox** надає сильні налаштування конфіденційності, такі як [Покращений захист від відстеження](https://support.mozilla.org/kb/enhanced-tracking-protection-firefox-desktop), які можуть допомогти заблокувати різні [типи відстеження](https://support.mozilla.org/kb/enhanced-tracking-protection-firefox-desktop#w_what-enhanced-tracking-protection-blocks).
+**Firefox** provides strong privacy settings such as [Enhanced Tracking Protection](https://support.mozilla.org/kb/enhanced-tracking-protection-firefox-desktop), which can help block various [types of tracking](https://support.mozilla.org/kb/enhanced-tracking-protection-firefox-desktop#w_what-enhanced-tracking-protection-blocks).
 
 [:octicons-home-16: Домашня сторінка ](https://firefox.com){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://mozilla.org/privacy/firefox){ .card-link title="Політика конфіденційності" }
@@ -233,9 +233,9 @@ Arkenfox має на меті лише перешкоджати базовим �
 
 <div class="admonition recommendation annotate" markdown>
 
-![Brave logo](assets/img/browsers/brave.svg){align=right}
+![Brave logo](assets/images/browsers/brave.svg){ align=right }
 
-**Браузер Brave** має вбудований блокувальник вмісту та [функції конфіденційності](https://brave.com/privacy-features), багато з яких увімкнено за замовчуванням.
+**Brave Browser** includes a built-in content blocker and [privacy features](https://brave.com/privacy-features), many of which are enabled by default.
 
 Brave побудований на основі проєкту веббраузера Chromium, тому він має бути знайомим і мати мінімальні проблеми із сумісністю з вебсайтами.
 

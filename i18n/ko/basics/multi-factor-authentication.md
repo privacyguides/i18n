@@ -53,7 +53,7 @@ TOTP는 완벽하지는 않지만 대부분의 사람에게 충분히 안전하�
 그러면 서비스는 검증을 위해 일회용 비밀번호를 유비코 OTP 서버로 전달합니다. 키와 유비코 검증 서버 양쪽에서 카운터가 증가합니다. OTP는 한 번만 사용할 수 있으며, 인증에 성공하면 카운터가 증가함으로써 OTP 재사용을 방지합니다. 유비코는 이 과정에 대한 [상세 문서](https://developers.yubico.com/OTP/OTPs_Explained.html)를 제공합니다.
 
 <figure markdown>
-  ![유비코 OTP](../assets/img/multi-factor-authentication/yubico-otp.png)
+  ![Yubico OTP](../assets/images-localized/multi-factor-authentication/yubico-otp.png)
 </figure>
 
 유비코 OTP는 TOTP와 비교했을 때 몇 가지 장단점이 있습니다.
@@ -71,7 +71,7 @@ U2F와 FIDO2는 보안 키와 노트북이나 휴대폰 같은 컴퓨터 사이�
 WebAuthn은 가장 안전하고 프라이버시를 보호하는 형태의 2차 인증입니다. 인증 경험은 유비코 OTP와 비슷하지만, 키가 일회용 비밀번호를 입력하거나 제3자 서버에서 검증하지 않습니다. 대신 인증에 [공개 키 암호 방식](https://en.wikipedia.org/wiki/Public-key_cryptography)을 사용합니다.
 
 <figure markdown>
-  ![FIDO](../assets/img/multi-factor-authentication/fido.png)
+  ![FIDO](../assets/images-localized/multi-factor-authentication/fido.png)
 </figure>
 
 계정을 만들 때 공개 키가 서비스로 전송되고, 이후 로그인할 때 서비스는 여러분의 개인 키로 일부 데이터에 "서명"하도록 요구합니다. 이 방식의 장점은 서비스에 비밀번호 데이터가 전혀 저장되지 않으므로 공격자가 훔칠 것이 없다는 점입니다.

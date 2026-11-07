@@ -15,7 +15,7 @@ cover: office-suites.webp
 
 <div class="admonition recommendation" markdown>
 
-![LibreOffice logo](assets/img/office-suites/libreoffice.svg){ align=right }
+![LibreOffice logo](assets/images/office-suites/libreoffice.svg){ align=right }
 
 **LibreOffice** 是免費的開放原始碼辦公軟體套件，具有廣泛的功能。
 
@@ -43,7 +43,7 @@ cover: office-suites.webp
 
 <div class="admonition recommendation" markdown>
 
-![OnlyOffice logo](assets/img/office-suites/onlyoffice.svg){ align=right }
+![OnlyOffice logo](assets/images/office-suites/onlyoffice.svg){ align=right }
 
 **OnlyOffice** 是一套以雲端為基礎的免費開放原始碼辦公軟體套件，具有廣泛的功能，包括與 Nextcloud 整合。
 

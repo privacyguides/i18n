@@ -11,12 +11,12 @@ schema:
   - "@context": http://schema.org
     "@type": CreativeWork
     name: Android
-    image: /assets/img/android/android.svg
+    image: /assets/images/android/android.svg
     url: https://source.android.com/
     sameAs: https://ja.wikipedia.org/wiki/Android_(%E3%82%AA%E3%83%9A%E3%83%AC%E3%83%BC%E3%83%86%E3%82%A3%E3%83%B3%E3%82%B0%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0)
 ---
 
-![Androidのロゴ](../assets/img/android/android.svg){ align=right }
+![Android logo](../assets/images/android/android.svg){ align=right }
 
 **Androidオープンソースプロジェクト** (AOSP)とは、Googleが手動するオープンソースのモバイル用オペレーティングシステムで、世界の半分以上のモバイルデバイスに使われています。ほとんどのAndroidスマホは、Google Playサービスのようなプライバシーを侵害する機能・アプリが追加されています。そのため、デフォルトでインストールされているAndroidを、プライバシーを脅かす機能のないバージョンで置き換えることにより、プライバシーを大きく高めることができます。
 

@@ -63,7 +63,7 @@ Wanneer je inlogt op een website, hoeft je alleen maar de beveiligingssleutel fy
 De dienst zal dan het eenmalige wachtwoord doorsturen naar de Yubico OTP server voor validatie. Zowel op de sleutel als op de validatieserver van Yubico wordt een teller opgehoogd. De OTP kan slechts één keer worden gebruikt, en wanneer een authenticatie met succes plaatsvindt, wordt de teller verhoogd, waardoor hergebruik van de OTP wordt voorkomen. Yubico geeft een [gedetailleerd document](https://developers.yubico.com/OTP/OTPs_Explained.html) over het proces.
 
 <figure markdown>
-  ![Yubico OTP](../assets/img/multi-factor-authentication/yubico-otp.png)
+  ![Yubico OTP](../assets/images-localized/multi-factor-authentication/yubico-otp.png)
 </figure>
 
 Er zijn enkele voor- en nadelen aan het gebruik van Yubico OTP in vergelijking met TOTP.
@@ -83,7 +83,7 @@ U2F en FIDO2 verwijzen naar het [Client to Authenticator Protocol](https://en.wi
 WebAuthn is de meest veilige en private vorm van tweede factor authenticatie. De verificatie-ervaring is vergelijkbaar met Yubico OTP, maar de sleutel drukt geen eenmalig wachtwoord af en valideert niet met een server van een derde partij. In plaats daarvan gebruikt het [openbare sleutel cryptografie](https://en.wikipedia.org/wiki/Public-key_cryptography) voor authenticatie.
 
 <figure markdown>
-  ![FIDO](../assets/img/multi-factor-authentication/fido.png)
+  ![FIDO](../assets/images-localized/multi-factor-authentication/fido.png)
 </figure>
 
 Wanneer je een account aanmaakt, wordt de openbare sleutel naar de dienst gestuurd, en wanneer je inlogt, zal de dienst je vragen bepaalde gegevens te "ondertekenen" met jouw privé-sleutel. Het voordeel hiervan is dat er nooit wachtwoordgegevens door de dienst worden opgeslagen, zodat er voor een adverteerder niets te stelen valt.

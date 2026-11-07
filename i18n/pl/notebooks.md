@@ -19,9 +19,9 @@ Jeśli obecnie używasz aplikacji, takiej jak Evernote, Google Keep lub Microsof
 
 <div class="admonition recommendation" markdown>
 
-![Logo Standard Notes](assets/img/notebooks/standard-notes.svg){ align=right }
+![Standard Notes logo](assets/images/notebooks/standard-notes.svg){ align=right }
 
-**Standard Notes** to prosta i prywatna aplikacja do notatek, która oferuje synchronizację między platformami dla płynnego użytkowania. Oferuje E2EE na każdej platformie oraz rozbudowaną wersję stacjonarną z motywami i konfigurowalnymi edytorami.
+**Standard Notes** is a simple and private notes app that features cross-platform sync for seamless use. Oferuje E2EE na każdej platformie oraz rozbudowaną wersję stacjonarną z motywami i konfigurowalnymi edytorami.
 
 Standard Notes przeszło także wiele [niezależnych audytów](https://standardnotes.com/help/2/has-standard-notes-completed-a-third-party-security-audit).
 
@@ -52,9 +52,9 @@ Standard Notes [stało się częścią Proton AG](https://standardnotes.com/blog
 
 <div class="admonition recommendation" markdown>
 
-![Notesnook logo](assets/img/notebooks/notesnook.svg){ align=right }
+![Notesnook logo](assets/images/notebooks/notesnook.svg){ align=right }
 
-**Notesnook** jest wolną (jak w wyrażeniu wolna mowa), open source, i łatwą w użyciu szyfrowaną od końca do końca aplikacją do robienia notatek skupioną na prywatności użytkownika.
+**Notesnook** is a free (as in speech), open-source, and easy-to-use E2EE note-taking app focused on user privacy.
 
 Posiada funkcję synchronizacji, która umożliwia dostęp do notatek na wielu platformach. Możesz łatwo importować swoje notatki z Evernote, OneNote i innych aplikacji za pomocą ich [oficjalnego importera](https://importer.notesnook.com).
 
@@ -86,9 +86,9 @@ Posiada funkcję synchronizacji, która umożliwia dostęp do notatek na wielu p
 
 <div class="admonition recommendation" markdown>
 
-![Joplin logo](assets/img/notebooks/joplin.svg){ align=right }
+![Joplin logo](assets/images/notebooks/joplin.svg){ align=right }
 
-**Joplin** to darmowa, aplikacja open source do robienia notatek i list zadań oferująca pełne szyfrowanie end-to-end oraz obsługę wielu notatek Markdown organizowanych w notatnikach i przy użyciu tagów.
+**Joplin** is a free, open-source, and fully-featured E2EE note-taking and to-do application which can handle numerous Markdown notes organized into notebooks and tags.
 
 Może synchronizować się za pośrednictwem Nextcloud, Dropbox i nie tylko. Oferuje również łatwy import z Evernote i notatek tekstowych.
 
@@ -120,10 +120,10 @@ Joplin [nie obsługuje](https://github.com/laurent22/joplin/issues/289) ochrony 
 
 <div class="admonition recommendation" markdown>
 
-![Logo Cryptee](./assets/img/notebooks/cryptee.svg#only-light){ align=right }
-![Logo Cryptee](./assets/img/notebooks/cryptee-dark.svg#only-dark){ align=right }
+![Cryptee logo](assets/images/notebooks/cryptee.svg#only-light){ align=right }
+![Cryptee logo](assets/images/notebooks/cryptee-dark.svg#only-dark){ align=right }
 
-**Cryptee** to internetowy edytor, open source, z szyfrowaniem end-to-end, dokumentów i aplikacja do przechowywania zdjęć.
+**Cryptee** is an open-source, web-based E2EE document editor and photo storage application.
 
 Cryptee oferuje 100 MB przestrzeni dyskowej za darmo, posiada także opcjami, jeśli potrzebujesz więcej. Rejestracja nie wymaga podania adresu e-mail ani innych danych osobowych.
 
@@ -149,9 +149,9 @@ Cryptee to PWA, co oznacza, że działa płynnie na wszystkich nowoczesnych urz�
 
 <div class="admonition recommendation" markdown>
 
-![Logo trybu Org](assets/img/notebooks/org-mode.svg){ align=right }
+![Org-mode logo](assets/images/notebooks/org-mode.svg){ align=right }
 
-**Org-mode** jest [głównym trybem](https://gnu.org/software/emacs/manual/html_node/elisp/Major-Modes.html) dla GNU Emacs. Org-mode służy do prowadzenia notatek, list rzeczy do zrobienia, planowania projektów i tworzenia dokumentów za pomocą szybkiego i skutecznego systemu zwykłego tekstu. Synchronizacja plików jest możliwa dzięki narzędziom takim jak [Syncthing](file-sharing.md#syncthing-p2p).
+**Org-mode** is a [major mode](https://gnu.org/software/emacs/manual/html_node/elisp/Major-Modes.html) for GNU Emacs. Org-mode służy do prowadzenia notatek, list rzeczy do zrobienia, planowania projektów i tworzenia dokumentów za pomocą szybkiego i skutecznego systemu zwykłego tekstu. Synchronizacja plików jest możliwa dzięki narzędziom takim jak [Syncthing](file-sharing.md#syncthing-p2p).
 
 [:octicons-home-16: Strona główna](https://orgmode.org){ .md-button .md-button--primary }
 [:octicons-info-16:](https://orgmode.org/manuals.html){ .card-link title="Dokumentacja" }

@@ -21,9 +21,9 @@ cover: frontends.webp
 
 <div class="admonition recommendation" markdown>
 
-![레드립 로고](assets/img/frontends/redlib.svg){ align=right }
+![Redlib logo](assets/images/frontends/redlib.svg){ align=right }
 
-**레드립**은 자체 호스팅도 가능한 [레딧](https://reddit.com) 웹사이트용 오픈 소스 프런트엔드입니다. 여러 공개 인스턴스를 통해 레드립에 접속할 수 있습니다.
+**Redlib** is an open-source frontend to the [Reddit](https://reddit.com) website that is also self-hostable. 여러 공개 인스턴스를 통해 레드립에 접속할 수 있습니다.
 
 [:octicons-repo-16: 저장소](https://github.com/redlib-org/redlib){ .md-button .md-button--primary }
 [:octicons-server-16:](https://github.com/redlib-org/redlib-instances/blob/main/instances.md){ .card-link title="공개 인스턴스" }
@@ -54,10 +54,10 @@ cover: frontends.webp
 
 <div class="admonition recommendation" markdown>
 
-![인비디어스 로고](assets/img/frontends/invidious.svg#only-light){ align=right }
-![인비디어스 로고](assets/img/frontends/invidious-dark.svg#only-dark){ align=right }
+![Invidious logo](assets/images/frontends/invidious.svg#only-light){ align=right }
+![Invidious logo](assets/images/frontends/invidious-dark.svg#only-dark){ align=right }
 
-**인비디어스**는 자체 호스팅도 가능한 [유튜브](https://youtube.com)용 자유 오픈 소스 프런트엔드입니다.
+**Invidious** is a free and open-source frontend for [YouTube](https://youtube.com) that is also self-hostable.
 
 공개 인스턴스가 여러 개 있으며, 그중 일부는 [토르](tor.md) 어니언 서비스나 [I2P](alternative-networks.md#i2p-the-invisible-internet-project) 이프사이트를 제공합니다.
 
@@ -89,9 +89,9 @@ cover: frontends.webp
 
 <div class="admonition recommendation" markdown>
 
-![파이프드 로고](assets/img/frontends/piped.svg){ align=right }
+![Piped logo](assets/images/frontends/piped.svg){ align=right }
 
-**파이프드**는 자체 호스팅도 가능한 [유튜브](https://youtube.com)용 자유 오픈 소스 프런트엔드입니다.
+**Piped** is a free and open-source frontend for [YouTube](https://youtube.com) that is also self-hostable.
 
 파이프드는 작동하는 데 자바스크립트가 필요하며, 공개 인스턴스가 여러 개 있습니다.
 
@@ -116,9 +116,9 @@ cover: frontends.webp
 
 <div class="admonition recommendation" markdown>
 
-![프리튜브 로고](assets/img/frontends/freetube.svg){ align=right }
+![FreeTube logo](assets/images/frontends/freetube.svg){ align=right }
 
-**프리튜브**는 [유튜브](https://youtube.com)용 자유 오픈 소스 데스크톱 애플리케이션입니다. 프리튜브는 [YouTube.js](https://github.com/LuanRT/YouTube.js) 기반의 내장 API나 [인비디어스](#invidious) API를 사용하여 유튜브에서 데이터를 추출합니다. 둘 중 하나를 기본값으로 설정하고, 다른 하나를 대체 수단으로 사용할 수 있습니다.
+**FreeTube** is a free and open-source desktop application for [YouTube](https://youtube.com). 프리튜브는 [YouTube.js](https://github.com/LuanRT/YouTube.js) 기반의 내장 API나 [인비디어스](#invidious) API를 사용하여 유튜브에서 데이터를 추출합니다. 둘 중 하나를 기본값으로 설정하고, 다른 하나를 대체 수단으로 사용할 수 있습니다.
 
 프리튜브를 사용하면 구독 목록, 재생목록, 시청 기록, 검색 기록이 기기에 로컬로 저장됩니다.
 
@@ -153,10 +153,10 @@ cover: frontends.webp
 
 <div class="admonition recommendation" markdown>
 
-![리브레튜브 로고](assets/img/frontends/libretube.svg#only-light){ align=right }
-![리브레튜브 로고](assets/img/frontends/libretube-dark.svg#only-dark){ align=right }
+![LibreTube logo](assets/images/frontends/libretube.svg#only-light){ align=right }
+![LibreTube logo](assets/images/frontends/libretube-dark.svg#only-dark){ align=right }
 
-**리브레튜브**는 [파이프드](#piped) API를 사용하는 [유튜브](https://youtube.com)용 자유 오픈 소스 안드로이드 애플리케이션입니다.
+**LibreTube** is a free and open-source Android application for [YouTube](https://youtube.com) which uses the [Piped](#piped) API.
 
 구독 목록과 재생목록은 안드로이드 기기에 로컬로 저장됩니다.
 
@@ -188,9 +188,9 @@ cover: frontends.webp
 
 <div class="admonition recommendation annotate" markdown>
 
-![뉴파이프 로고](assets/img/frontends/newpipe.svg){ align=right }
+![NewPipe logo](assets/images/frontends/newpipe.svg){ align=right }
 
-**뉴파이프**는 [유튜브](https://youtube.com), [사운드클라우드](https://soundcloud.com), [media.ccc.de](https://media.ccc.de), [밴드캠프](https://bandcamp.com), [피어튜브](https://joinpeertube.org)(1)용 자유 오픈 소스 안드로이드 애플리케이션입니다.
+**NewPipe** is a free and open-source Android application for [YouTube](https://youtube.com), [SoundCloud](https://soundcloud.com), [media.ccc.de](https://media.ccc.de), [Bandcamp](https://bandcamp.com), and [PeerTube](https://joinpeertube.org) (1).
 
 구독 목록과 재생목록은 안드로이드 기기에 로컬로 저장됩니다.
 

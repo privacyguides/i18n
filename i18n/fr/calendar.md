@@ -16,10 +16,10 @@ Les **calendriers** contiennent certaines de vos données les plus sensibles ; u
 
 <div class="admonition recommendation" markdown>
 
-![Logo Tuta](assets/img/email/tuta.svg#only-light){ align=right }
-![Tuta logo](assets/img/email/tuta-dark.svg#only-dark){ align=right }
+![Tuta logo](assets/images/email/tuta.svg#only-light){ align=right }
+![Tuta logo](assets/images/email/tuta-dark.svg#only-dark){ align=right }
 
-**Tuta** propose un calendrier gratuit et chiffré sur toutes les plates-formes prises en charge. Les fonctionnalités comprennent l'E2EE automatique de toutes les données, des fonctions de partage, des fonctions d'importation/exportation, l'authentification multifactorielle, et [plus](https://tuta.com/calendar-app-comparison).
+**Tuta** offers a free and encrypted calendar across their supported platforms. Les fonctionnalités comprennent l'E2EE automatique de toutes les données, des fonctions de partage, des fonctions d'importation/exportation, l'authentification multifactorielle, et [plus](https://tuta.com/calendar-app-comparison).
 
 Les calendriers multiples et la fonctionnalité de partage étendue sont réservés aux abonnés payants.
 
@@ -49,9 +49,9 @@ Les calendriers multiples et la fonctionnalité de partage étendue sont réserv
 
 <div class="admonition recommendation" markdown>
 
-![Logo de Proton](assets/img/calendar/proton-calendar.svg){ align=right }
+![Proton](assets/images/calendar/proton-calendar.svg){ align=right }
 
-**Proton Calendar** est un service d'agenda chiffré mis à disposition des abonnés Proton via ses clients web et mobile. Les fonctionnalités comprennent l'E2EE automatique de toutes les données, des fonctions de partage, des fonctionnalités d'importation/exportation, et [plus](https://proton.me/support/proton-calendar-guide).
+**Proton Calendar** is an encrypted calendar service available to Proton members via its web or mobile clients. Les fonctionnalités comprennent l'E2EE automatique de toutes les données, des fonctions de partage, des fonctionnalités d'importation/exportation, et [plus](https://proton.me/support/proton-calendar-guide).
 
 Les abonnés gratuits ont accès à 3 calendriers, tandis que les abonnés payants peuvent créer jusqu'à 25 calendriers. Les fonctionnalités de partage avancées sont également limitées aux abonnés payants.
 

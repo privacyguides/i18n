@@ -36,7 +36,7 @@ En plus de notre équipe principale, [de nombreuses autres personnes](about/cont
 
 Le meilleur moyen d'obtenir une aide individuelle est de s'adresser à notre communauté sur Discourse. Si vous voyez un problème sur notre site, veuillez lancer une discussion dans la catégorie [Site Development](https://discuss.privacyguides.net/c/site-development/7) de notre forum. Si vous avez une question sur l'un de nos sujets, veuillez la poser dans la catégorie [Questions](https://discuss.privacyguides.net/c/privacy/questions/8) de notre forum.
 
-![QR code contact pour Signal](assets/img/layout/signal-contact-qr.png){ align=right }
+![Signal contact QR code](assets/images/layout/signal-contact-qr.png){ align=right }
 
 Vous avez un conseil à nous donner ou vous souhaitez nous faire part d'une information sensible ? Le meilleur moyen de nous contacter en toute sécurité est de le faire via `@privacyguides.01` sur Signal. Ce compte de groupe est suivi par [Jonah](https://discuss.privacyguides.net/u/jonah), [Niek](https://discuss.privacyguides.net/u/niek-de-wilde), [Em](https://discuss.privacyguides.net/u/em), et [Jordan](https://discuss.privacyguides.net/u/jordan).
 

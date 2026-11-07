@@ -26,9 +26,9 @@ cover: cryptocurrency.webp
 
 <div class="admonition recommendation" markdown>
 
-![모네로 로고](assets/img/cryptocurrency/monero.svg){ align=right }
+![Monero logo](assets/images/cryptocurrency/monero.svg){ align=right }
 
-**모네로**는 거래를 난독화하는 프라이버시 강화 기술이 적용된 블록체인을 사용하여 [:material-incognito: 익명성](basics/common-threats.md#anonymity-vs-privacy){ .pg-purple }을 달성합니다. 모든 모네로 거래는 별도의 번거로운 절차 없이도 거래 금액, 송수신 주소, 자금 출처를 숨기므로, 암호화폐 초보자에게 이상적인 선택입니다.
+**Monero** uses a blockchain with privacy-enhancing technologies that obfuscate transactions to achieve [:material-incognito: Anonymity](basics/common-threats.md#anonymity-vs-privacy){ .pg-purple }. 모든 모네로 거래는 별도의 번거로운 절차 없이도 거래 금액, 송수신 주소, 자금 출처를 숨기므로, 암호화폐 초보자에게 이상적인 선택입니다.
 
 [:octicons-home-16: 홈페이지](https://getmonero.org){ .md-button .md-button--primary }
 [:octicons-info-16:](https://getmonero.org/resources/user-guides){ .card-link title="문서"}

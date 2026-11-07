@@ -10,7 +10,7 @@ schema:
   - "@context": http://schema.org
     "@type": CreativeWork
     name: GrapheneOS
-    image: /assets/img/android/grapheneos.svg
+    image: /assets/images/android/grapheneos.svg
     url: https://grapheneos.org/
     sameAs: https://en-m-wikipedia-org.translate.goog/wiki/GrapheneOS?_x_tr_sl=en&_x_tr_tl=pt&_x_tr_hl=en&_x_tr_pto=wapp
     subjectOf:
@@ -37,12 +37,12 @@ Recomendamos que você instale o GrapheneOS se tiver um Google Pixel, pois ele o
 
 <div class="admonition recommendation" markdown>
 
-![GrapheneOS logo](../assets/img/android/grapheneos.svg#only-light){ align=right }
-![GrapheneOS logo](../assets/img/android/grapheneos-dark.svg#only-dark){ align=right }
+![GrapheneOS logo](../assets/images/android/grapheneos.svg#only-light){ align=right }
+![GrapheneOS logo](../assets/images/android/grapheneos-dark.svg#only-dark){ align=right }
 
 **GrapheneOS** é a melhor escolha quando se trata de privacidade e segurança.
 
-O GrapheneOS oferece melhorias adicionais de [reforço de segurança](https://en.wikipedia.org/wiki/Hardening_\(computing\)) e privacidade. Tem um [alocador de memória endurecido](https://github.com/GrapheneOS/hardened_malloc), rede e permissões de sensor e vários outros [recursos de segurança](https://grapheneos.org/features). O GrapheneOS também vem com atualizações completas de firmware e compilações assinadas, então a inicialização verificada é totalmente suportada.
+O GrapheneOS oferece melhorias adicionais de [reforço de segurança](https://en.wikipedia.org/wiki/Hardening_(computing)) e privacidade. Tem um [alocador de memória endurecido](https://github.com/GrapheneOS/hardened_malloc), rede e permissões de sensor e vários outros [recursos de segurança](https://grapheneos.org/features). O GrapheneOS também vem com atualizações completas de firmware e compilações assinadas, então a inicialização verificada é totalmente suportada.
 
 [:octicons-home-16: Homepage](https://grapheneos.org){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://grapheneos.org/faq#privacy-policy){ .card-link title="Privacy Policy" }

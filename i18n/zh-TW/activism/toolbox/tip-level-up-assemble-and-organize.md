@@ -112,7 +112,7 @@ Here are a few ideas of actions you might want to consider in your privacy work:
 
 <div class="admonition recommendation" markdown>
 
-![CryptPad logo](../../assets/img/document-collaboration/cryptpad.svg){ align=right }
+![CryptPad logo](../../assets/images/document-collaboration/cryptpad.svg){ align=right }
 
 **CryptPad** 是採用端對端加密技術的自由開源協作式辦公軟體套件。
 
@@ -126,7 +126,7 @@ Here are a few ideas of actions you might want to consider in your privacy work:
 
 <div class="admonition recommendation" markdown>
 
-![Mastodon logo](../../assets/img/social-networks/mastodon.svg){ align=right }
+![Mastodon logo](../../assets/images/social-networks/mastodon.svg){ align=right }
 
 **Mastodon** 是一個自由開源的 microblogging 社群平台。
 
@@ -140,7 +140,7 @@ Here are a few ideas of actions you might want to consider in your privacy work:
 
 <div class="admonition recommendation" markdown>
 
-![Element logo](../../assets/img/social-networks/element.svg){ align=right }
+![Element logo](../../assets/images/social-networks/element.svg){ align=right }
 
 **Element** 是一款基於 [Matrix](https://matrix.org/) 開放標準的自由開源用戶端應用程式，用於聊天室群組通訊。
 
@@ -153,7 +153,7 @@ Here are a few ideas of actions you might want to consider in your privacy work:
 
 <div class="admonition recommendation" markdown>
 
-![PeerTube logo](../../assets/img/social-networks/peertube.svg){ align=right }
+![PeerTube logo](../../assets/images/social-networks/peertube.svg){ align=right }
 
 **PeerTube** 是由法國非營利組織 [Framasoft](https://framasoft.org/) 開發的一款自由開源影片平台。
 

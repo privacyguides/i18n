@@ -4,7 +4,7 @@ icon: 'simple/torproject'
 description: Tor هي شبكة مجانية ولا مركزية، صُممت لاستخدام الإنترنت بأكبر قدر ممكن من الخصوصية.
 ---
 
-![شعار تور](../assets/img/self-contained-networks/tor.svg){ align=right }
+![شعار تور](../assets/images/self-contained-networks/tor.svg){ align=right }
 
 [**شبكة Tor**](../alternative-networks.md#tor) هي شبكة مجانية ولا مركزية، صُمِّمت لاستخدام الإنترنت بأكبر قدر ممكن من الخصوصية. عند استخدام الشبكة بشكل صحيح، تتيح لك تصفح الإنترنت والتواصل بخصوصية ومن دون الكشف عن هويتك. فكون اتصالات تور صعبة الحظر والتتبع يجعل تور أداةً فعَّالةً لتجاوز الرقابة.
 
@@ -111,10 +111,9 @@ description: Tor هي شبكة مجانية ولا مركزية، صُممت ل�
 في كل مرة [تتصل فيها بشبكة Tor](../tor.md)، يختار Tor ثلاث nodes لبناء مسار إلى الإنترنت، ويُسمّى هذا المسار "circuit".
 
 <figure markdown>
-  ![مسار Tor يوضّح اتصال جهازك بـ entry node ثم middle node ثم exit node قبل الوصول إلى الموقع المطلوب](../assets/img/how-tor-works/tor-path.svg#only-light)
-![مسار Tor يوضّح اتصال جهازك بـ entry node ثم middle node ثم exit node قبل الوصول إلى الموقع المطلوب](../assets/img/how-tor-works/tor-path-dark.svg#only-dark)
-
-<figcaption>مسار Tor circuit</figcaption>
+  ![Tor path showing your device connecting to an entry node, middle node, and exit node before reaching the destination website](../assets/images-localized/how-tor-works/tor-path.svg#only-light)
+  ![Tor path showing your device connecting to an entry node, middle node, and exit node before reaching the destination website](../assets/images-localized/how-tor-works/tor-path-dark.svg#only-dark)
+  <figcaption>Tor circuit pathway</figcaption>
 </figure>
 
 كل node من هذه الـ nodes لها وظيفة خاصة بها:
@@ -144,10 +143,9 @@ description: Tor هي شبكة مجانية ولا مركزية، صُممت ل�
 يعمل الاتصال بخدمة Onion عبر Tor بشكل مشابه جدًا للاتصال بخدمة Clearnet، لكن حركة البيانات الخاصة بك تمر عبر **ست** nodes إجمالًا قبل الوصول إلى الخادم المطلوب. لكن كما سبق، ثلاث فقط من هذه الـ nodes تساهم في إخفاء *هويتك* أنت، بينما تحمي الـ nodes الثلاث الأخرى *هوية خدمة Onion*، من خلال إخفاء عنوان IP الحقيقي للموقع وموقعه الجغرافي، بالطريقة نفسها التي يخفي بها Tor Browser عنوانك وموقعك.
 
 <figure style="width:100%" markdown>
-  ![مسار Tor يوضح مرور حركة البيانات الخاصة بك عبر ثلاث Tor nodes، بالإضافة إلى ثلاث Tor nodes أخرى تُخفي هوية الموقع](../assets/img/how-tor-works/tor-path-hidden-service.svg#only-light)
-![مسار Tor يوضّح مرور حركة البيانات الخاصة بك عبر ثلاث Tor nodes، بالإضافة إلى ثلاث Tor nodes أخرى تُخفي هوية الموقع](../assets/img/how-tor-works/tor-path-hidden-service-dark.svg#only-dark)
-
-<figcaption>مسار Tor circuit عند استخدام خدمات Onion. الـ nodes الموجودة داخل الإطار <span class="pg-blue">الأزرق</span> تتبع متصفحك، بينما الـ nodes الموجودة داخل الإطار <span class="pg-red">الأحمر</span> تتبع الخادم، ولذلك تظل هويته مخفية عنك.</figcaption>
+  ![Tor path showing your traffic being routed through your three Tor nodes plus three additional Tor nodes which hide the website's identity](../assets/images-localized/how-tor-works/tor-path-hidden-service.svg#only-light)
+  ![Tor path showing your traffic being routed through your three Tor nodes plus three additional Tor nodes which hide the website's identity](../assets/images-localized/how-tor-works/tor-path-hidden-service-dark.svg#only-dark)
+  <figcaption>Tor circuit pathway with Onion Services. الـ nodes الموجودة داخل الإطار <span class="pg-blue">الأزرق</span> تتبع متصفحك، بينما الـ nodes الموجودة داخل الإطار <span class="pg-red">الأحمر</span> تتبع الخادم، ولذلك تظل هويته مخفية عنك.</figcaption>
 </figure>
 
 ## التشفير (Encryption)
@@ -165,10 +163,9 @@ description: Tor هي شبكة مجانية ولا مركزية، صُممت ل�
 فيما يلي رسم توضيحي آخر يشرح هذه العملية. تزيل كل node طبقة التشفير الخاصة بها، وعندما يرسل خادم الوجهة (destination server) البيانات مرة أخرى، تحدث العملية نفسها بالكامل ولكن بالترتيب العكسي. على سبيل المثال، لا تعرف عقدة الخروج (Exit Node) من أنت، لكنها تعرف الـ node التي جاءت منها البيانات، لذلك تضيف طبقة التشفير الخاصة بها ثم ترسل البيانات إليها مرة أخرى.
 
 <figure markdown>
-  ![تشفير Tor](../assets/img/how-tor-works/tor-encryption.svg#only-light)
-![تشفير Tor](../assets/img/how-tor-works/tor-encryption-dark.svg#only-dark)
-
-<figcaption>إرسال واستقبال البيانات عبر شبكة Tor</figcaption>
+  ![Tor encryption](../assets/images-localized/how-tor-works/tor-encryption.svg#only-light)
+  ![Tor encryption](../assets/images-localized/how-tor-works/tor-encryption-dark.svg#only-dark)
+  <figcaption>Sending and receiving data through the Tor Network</figcaption>
 </figure>
 
 يتيح لنا Tor الاتصال بخادم دون أن يعرف أي طرف بمفرده المسار الكامل للاتصال. تعرف عقدة الدخول (Entry Node) من أنت، لكنها لا تعرف إلى أين تتجه. أما العقدة الوسطى (Middle Node) فلا تعرف من أنت ولا إلى أين تتجه. بينما تعرف عقدة الخروج (Exit Node) إلى أين تتجه، لكنها لا تعرف من أنت. ولأن عقدة الخروج (Exit Node) هي التي تنشئ الاتصال النهائي، فلن يعرف خادم الوجهة (destination server) عنوان IP الخاص بك.

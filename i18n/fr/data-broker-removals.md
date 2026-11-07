@@ -63,7 +63,7 @@ Si vous ne souhaitez pas utiliser de scanner automatique pour vérifier les rés
 
 <div class="admonition recommendation" markdown>
 
-![Logo de EasyOptOuts](assets/img/data-broker-removals/easyoptouts.svg){ align=right }
+![EasyOptOuts logo](assets/images/data-broker-removals/easyoptouts.svg){ align=right }
 
 **EasyOptOuts** est un service payant (20$/ans) qui va rechercher vos informations sur plusieurs sites de courtiers en données et automatiquement faire les demandes de suppression à votre place. Après l'inscription, le service lancera immédiatement le processus de recherche et de suppression, puis le relancera tous les 4 mois, au cas où vos données réapparaissent sur de nouveaux sites avec le temps.
 
@@ -98,7 +98,7 @@ Bien que Google ne soit pas lui-même un courtier en données _à proprement par
 
 <div class="admonition recommendation" markdown>
 
-![Logo de Google](assets/img/data-broker-removals/google.svg){ align=right }
+![Google logo](assets/images/data-broker-removals/google.svg){ align=right }
 
 **Résultats vous concernant** est un outil gratuit vous permettant de découvrir si vos informations personnelles de contact, y compris votre adresse postale, numéro de téléphone et adresse mail, apparaissent dans les résultats de recherche Google. Si des données personnelles sont trouvées, vous pouvez demander leur suppression.
 

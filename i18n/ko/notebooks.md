@@ -19,9 +19,9 @@ cover: notebooks.webp
 
 <div class="admonition recommendation" markdown>
 
-![스탠더드 노트 로고](assets/img/notebooks/standard-notes.svg){ align=right }
+![Standard Notes logo](assets/images/notebooks/standard-notes.svg){ align=right }
 
-**스탠더드 노트**는 원활하게 사용할 수 있도록 크로스 플랫폼 동기화를 제공하는 간단하고 프라이버시를 보호하는 노트 앱입니다. 모든 플랫폼에서 E2EE를 제공하며, 테마와 사용자 지정 편집기를 갖춘 강력한 데스크톱 환경을 제공합니다.
+**Standard Notes** is a simple and private notes app that features cross-platform sync for seamless use. 모든 플랫폼에서 E2EE를 제공하며, 테마와 사용자 지정 편집기를 갖춘 강력한 데스크톱 환경을 제공합니다.
 
 스탠더드 노트는 여러 차례 [독립적인 감사](https://standardnotes.com/help/2/has-standard-notes-completed-a-third-party-security-audit)도 받았습니다.
 
@@ -52,9 +52,9 @@ cover: notebooks.webp
 
 <div class="admonition recommendation" markdown>
 
-![노츠눅 로고](assets/img/notebooks/notesnook.svg){ align=right }
+![Notesnook logo](assets/images/notebooks/notesnook.svg){ align=right }
 
-**노츠눅**은 사용자 프라이버시에 중점을 둔 자유(free as in speech) 오픈 소스 E2EE 노트 앱으로, 사용하기 쉽습니다.
+**Notesnook** is a free (as in speech), open-source, and easy-to-use E2EE note-taking app focused on user privacy.
 
 여러 플랫폼에서 노트에 접근할 수 있는 동기화 기능을 제공합니다. [공식 가져오기 도구](https://importer.notesnook.com)를 사용하면 에버노트, 원노트 등 다른 앱의 노트를 쉽게 가져올 수 있습니다.
 
@@ -86,9 +86,9 @@ cover: notebooks.webp
 
 <div class="admonition recommendation" markdown>
 
-![조플린 로고](assets/img/notebooks/joplin.svg){ align=right }
+![Joplin logo](assets/images/notebooks/joplin.svg){ align=right }
 
-**조플린**은 노트북과 태그로 정리된 수많은 마크다운 노트를 다룰 수 있는, 모든 기능을 갖춘 무료 오픈 소스 E2EE 노트 및 할 일 관리 애플리케이션입니다.
+**Joplin** is a free, open-source, and fully-featured E2EE note-taking and to-do application which can handle numerous Markdown notes organized into notebooks and tags.
 
 넥스트클라우드, 드롭박스 등을 통해 동기화할 수 있습니다. 에버노트와 일반 텍스트 노트에서 쉽게 가져오는 기능도 제공합니다.
 
@@ -120,10 +120,10 @@ cover: notebooks.webp
 
 <div class="admonition recommendation" markdown>
 
-![크립티 로고](./assets/img/notebooks/cryptee.svg#only-light){ align=right }
-![크립티 로고](./assets/img/notebooks/cryptee-dark.svg#only-dark){ align=right }
+![Cryptee logo](assets/images/notebooks/cryptee.svg#only-light){ align=right }
+![Cryptee logo](assets/images/notebooks/cryptee-dark.svg#only-dark){ align=right }
 
-**크립티**는 오픈 소스 웹 기반 E2EE 문서 편집기이자 사진 저장 애플리케이션입니다.
+**Cryptee** is an open-source, web-based E2EE document editor and photo storage application.
 
 크립티는 100MB의 저장 공간을 무료로 제공하며, 더 필요하다면 유료 옵션을 이용할 수 있습니다. 가입할 때 이메일이나 기타 개인 식별 정보가 필요하지 않습니다.
 
@@ -149,9 +149,9 @@ cover: notebooks.webp
 
 <div class="admonition recommendation" markdown>
 
-![Org-mode 로고](assets/img/notebooks/org-mode.svg){ align=right }
+![Org-mode logo](assets/images/notebooks/org-mode.svg){ align=right }
 
-**Org-mode**는 GNU 이맥스의 [메이저 모드](https://gnu.org/software/emacs/manual/html_node/elisp/Major-Modes.html)입니다. Org-mode는 빠르고 효과적인 일반 텍스트 시스템으로 노트를 작성하고, 할 일 목록을 관리하며, 프로젝트를 계획하고, 문서를 작성하는 데 사용됩니다. [싱크싱](file-sharing.md#syncthing-p2p) 같은 도구로 파일을 동기화할 수 있습니다.
+**Org-mode** is a [major mode](https://gnu.org/software/emacs/manual/html_node/elisp/Major-Modes.html) for GNU Emacs. Org-mode는 빠르고 효과적인 일반 텍스트 시스템으로 노트를 작성하고, 할 일 목록을 관리하며, 프로젝트를 계획하고, 문서를 작성하는 데 사용됩니다. [싱크싱](file-sharing.md#syncthing-p2p) 같은 도구로 파일을 동기화할 수 있습니다.
 
 [:octicons-home-16: 홈페이지](https://orgmode.org){ .md-button .md-button--primary }
 [:octicons-info-16:](https://orgmode.org/manuals.html){ .card-link title="문서" }

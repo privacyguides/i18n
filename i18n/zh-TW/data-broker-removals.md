@@ -63,7 +63,7 @@ cover: data-broker-removals.webp
 
 <div class="admonition recommendation" markdown>
 
-![EasyOptOuts 標誌](assets/img/data-broker-removals/easyoptouts.svg){ align=right }
+![EasyOptOuts logo](assets/images/data-broker-removals/easyoptouts.svg){ align=right }
 
 **EasyOptOuts** 是一項每年 20 美元的服務，它會搜尋許多不同的資料仲介網站，並代表您自動提交退出請求。他們會立即執行第一次搜尋和移除程序，然後每 4 個月重新執行一次，以防您的資料隨著時間的推移出現在新的網站上。
 
@@ -98,7 +98,7 @@ EasyOptOuts 並不涵蓋下列我們認為「高度優先」的網站，因此�
 
 <div class="admonition recommendation" markdown>
 
-![Google logo](assets/img/data-broker-removals/google.svg){ align=right }
+![Google logo](assets/images/data-broker-removals/google.svg){ align=right }
 
 **與你相關的結果** 是一個免費工具，可協助您發現您的個人聯絡資訊，包括住家地址、電話號碼和電子郵件地址，是否會出現在 Google 搜尋結果中。如果發現任何個人資訊，您可以要求刪除。
 

@@ -43,9 +43,9 @@ global:
 
 <div class="admonition recommendation" markdown>
 
-![Логотип Proton VPN](assets/img/vpn/protonvpn.svg){ align=right }
+![Proton VPN logo](assets/images/vpn/protonvpn.svg){ align=right }
 
-**Proton VPN** - сильный игрок в сфере VPN, работающий с 2016 года. Proton AG базируется в Швейцарии и предлагает ограниченный бесплатный доступ, а также более функциональный премиум вариант.
+**Proton VPN** is a strong contender in the VPN space, and they have been in operation since 2016. Proton AG базируется в Швейцарии и предлагает ограниченный бесплатный доступ, а также более функциональный премиум вариант.
 
 [:octicons-home-16: Главная](https://protonvpn.com){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://protonvpn.com/privacy-policy){ .card-link title="Политика конфиденциальности" }
@@ -137,9 +137,9 @@ Additionally, system crashes [may occur](https://protonvpn.com/support/macos-t2-
 
 <div class="admonition recommendation" markdown>
 
-![Логотип IVPN](assets/img/vpn/ivpn.svg){ align=right }
+![IVPN logo](assets/images/vpn/ivpn.svg){ align=right }
 
-**IVPN** — еще один платный VPN-провайдер, работающий с 2009 года. IVPN базируется в Гибралтаре и не предлагает бесплатную пробную версию.
+**IVPN** is another premium VPN provider, and they have been in operation since 2009. IVPN базируется в Гибралтаре и не предлагает бесплатную пробную версию.
 
 [:octicons-home-16: Главная](https://ivpn.net){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://ivpn.net/privacy){ .card-link title="Политика конфиденциальности" }
@@ -212,9 +212,9 @@ IVPN опубликовал клиенты в [App Store](https://apps.apple.com
 
 <div class="admonition recommendation" markdown>
 
-![Логотип Mullvad](assets/img/vpn/mullvad.svg){ align=right }
+![Mullvad logo](assets/images/vpn/mullvad.svg){ align=right }
 
-**Mullvad** - это быстрый и недорогой VPN с серьезным акцентом на прозрачность и безопасность. Он работает с 2009 года. Mullvad базируется в Швеции и предоставляет 14-дневную гарантию возврата денег для [способов оплаты](https://mullvad.net/en/help/refunds), которые это позволяют.
+**Mullvad** is a fast and inexpensive VPN with a serious focus on transparency and security. Он работает с 2009 года. Mullvad базируется в Швеции и предоставляет 14-дневную гарантию возврата денег для [способов оплаты](https://mullvad.net/en/help/refunds), которые это позволяют.
 
 [:octicons-home-16: Главная](https://mullvad.net){ .md-button .md-button--primary }
 [:simple-torbrowser:](http://o54hon2e2vj6c7m3aqqu6uyece65by3vgoxxhlqlsvkmacw6a7m7kiad.onion){ .card-link title="Onion Service" }

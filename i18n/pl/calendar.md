@@ -16,10 +16,10 @@ cover: calendar.webp
 
 <div class="admonition recommendation" markdown>
 
-![Logo Tuta](assets/img/email/tuta.svg#only-light){ align=right }
-![Logo Tuta](assets/img/email/tuta-dark.svg#only-dark){ align=right }
+![Tuta logo](assets/images/email/tuta.svg#only-light){ align=right }
+![Tuta logo](assets/images/email/tuta-dark.svg#only-dark){ align=right }
 
-**Tuta** oferuje darmowy, zaszyfrowany kalendarz na wszystkich obsługiwanych platformach. Funkcje obejmują automatyczne szyfrowanie E2EE wszystkich danych, opcje udostępniania, importowanie/eksportowanie, uwierzytelnianie wieloskładnikowe oraz [więcej](https://tuta.com/pl/calendar-app-comparison).
+**Tuta** offers a free and encrypted calendar across their supported platforms. Funkcje obejmują automatyczne szyfrowanie E2EE wszystkich danych, opcje udostępniania, importowanie/eksportowanie, uwierzytelnianie wieloskładnikowe oraz [więcej](https://tuta.com/pl/calendar-app-comparison).
 
 Możliwość tworzenia wielu kalendarzy i rozszerzone funkcje udostępniania są dostępne tylko dla płatnych subskrypcji.
 
@@ -49,9 +49,9 @@ Możliwość tworzenia wielu kalendarzy i rozszerzone funkcje udostępniania są
 
 <div class="admonition recommendation" markdown>
 
-![Logo Proton Calendar](assets/img/calendar/proton-calendar.svg){ align=right }
+![Proton](assets/images/calendar/proton-calendar.svg){ align=right }
 
-**Proton Calendar** to zaszyfrowana usługa kalendarza dostępna dla członków Proton za pośrednictwem przeglądarki lub aplikacji mobilnej. Funkcje obejmują automatyczne szyfrowanie E2EE wszystkich danych, opcje udostępniania, importowanie/eksportowanie oraz [więcej](https://proton.me/support/pl/proton-calendar-guide).
+**Proton Calendar** is an encrypted calendar service available to Proton members via its web or mobile clients. Funkcje obejmują automatyczne szyfrowanie E2EE wszystkich danych, opcje udostępniania, importowanie/eksportowanie oraz [więcej](https://proton.me/support/pl/proton-calendar-guide).
 
 Osoby korzystające z darmowego planu mają dostęp do trzech kalendarzy, natomiast płatni subskrybenci mogą tworzyć do 25 kalendarzy. Rozszerzone funkcje udostępniania są również ograniczone do płatnych subskrypcji.
 

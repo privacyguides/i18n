@@ -17,12 +17,12 @@ Qubesは、システムのセキュリティを維持するために [区画化]
 
 </details>
 
-![Qubesのアーキテクチャー](../assets/img/qubes/qubes-trust-level-architecture.png)
+![Qubesのアーキテクチャー](../assets/images-localized/qubes/qubes-trust-level-architecture.png)
 <figcaption>Qubeアーキテクチャ、クレジット: Qubes OSイントロ</figcaption>
 
 各qubeには、実行されているドメインを把握するのに役立つ [色のついた枠線](https://qubes-os.org/screenshots) があります。 You could, for example, use a specific color for your banking browser, while using a different color for a general untrusted browser.
 
-![Colored border](../assets/img/qubes/r4.0-xfce-three-domains-at-work.png)
+![Colored border](../assets/images-localized/qubes/r4.0-xfce-three-domains-at-work.png)
 <figcaption>Qubes window borders, Credit: Qubes Screenshots</figcaption>
 
 ## Qubesを使うべき理由

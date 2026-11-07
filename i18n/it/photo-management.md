@@ -16,7 +16,7 @@ La maggior parte delle **soluzioni di gestione delle foto** come Google Foto, Fl
 
 <div class="admonition recommendation" markdown>
 
-![Logo di Ente](assets/img/photo-management/ente.svg){ align=right }
+![Ente logo](assets/images/photo-management/ente.svg){ align=right }
 
 **Ente Foto** è un servizio di backup delle foto crittografato end-to-end che supporta i backup automatici su iOS e Android. Il codice sorgente è completamente open source, sia lato client che lato server. È anche [self hostable](https://github.com/ente-io/ente/tree/main/server#self-hosting).
 

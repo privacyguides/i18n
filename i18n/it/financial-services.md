@@ -32,10 +32,10 @@ Molte banche e fornitori di carte di credito offrono una funzionalità nativa di
 
 <div class="admonition recommendation" markdown>
 
-![Logo di Privacy.com](assets/img/financial-services/privacy_com.svg#only-light){ align=right }
-![Logo di Privacy.com](assets/img/financial-services/privacy_com-dark.svg#only-dark){ align=right }
+![Privacy.com logo](assets/images/financial-services/privacy_com.svg#only-light){ align=right }
+![Privacy.com logo](assets/images/financial-services/privacy_com-dark.svg#only-dark){ align=right }
 
-Il piano gratuito di **Privacy.com** ti consente di creare fino a 12 carte virtuali al mese, di impostare i limiti di spesa su tali carte e di chiuderle istantaneamente. Their paid plans provide higher limits on the number of cards that can be created each month.
+**Privacy.com**'s free plan allows you to create up to 12 virtual cards per month, set spend limits on those cards, and shut off cards instantly. Their paid plans provide higher limits on the number of cards that can be created each month.
 
 [:octicons-home-16: Pagina Principale](https://privacy.com){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://privacy.com/privacy-policy){ .card-link title="Politica sulla Privacy" }
@@ -51,10 +51,10 @@ Privacy.com gives information about the merchants you purchase from to your bank
 
 <div class="admonition recommendation" markdown>
 
-![Logo di MySudo](assets/img/financial-services/mysudo.svg#only-light){ align=right }
-![Logo di MySudo](assets/img/financial-services/mysudo-dark.svg#only-dark){ align=right }
+![MySudo logo](assets/images/financial-services/mysudo.svg#only-light){ align=right }
+![MySudo logo](assets/images/financial-services/mysudo-dark.svg#only-dark){ align=right }
 
-**MySudo** fornisce fino a 9 carte virtuali a seconda del piano acquistato. I loro piani a pagamento includono inoltre funzionalità che possono essere utili per effettuare acquisti privatamente, come numeri di telefono e indirizzi e-mail virtuali, anche se in genere raccomandiamo altri [fornitori di aliasing e-mail] (email-aliasing.md) per un uso estensivo dell'aliasing e-mail.
+**MySudo** provides up to 9 virtual cards depending on the plan you purchase. I loro piani a pagamento includono inoltre funzionalità che possono essere utili per effettuare acquisti privatamente, come numeri di telefono e indirizzi e-mail virtuali, anche se in genere raccomandiamo altri [fornitori di aliasing e-mail] (email-aliasing.md) per un uso estensivo dell'aliasing e-mail.
 
 [:octicons-home-16: Pagina Principale](https://mysudo.com){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://anonyome.com/privacy-policy){ .card-link title="Politica sulla Privacy" }
@@ -85,7 +85,7 @@ Questi servizi ti consentono di acquistare carte regalo per numerosi commerciant
 
 <div class="admonition recommendation" markdown>
 
-![Coincards logo](assets/img/financial-services/coincards.svg){ align=right }
+![Coincards logo](assets/images/financial-services/coincards.svg){ align=right }
 
 **Coincards** allows you to purchase gift cards for a large variety of merchants. Their homepage has a complete listing of the various countries where their service is available.
 

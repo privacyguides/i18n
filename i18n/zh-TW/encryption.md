@@ -20,9 +20,9 @@ cover: encryption.webp
 
 <div class="admonition recommendation" markdown>
 
-![Cryptomator logo](assets/img/encryption-software/cryptomator.svg){ align=right }
+![Cryptomator logo](assets/images/encryption-software/cryptomator.svg){ align=right }
 
-**Cryptomator** 是一種加密方案，專為私密的將檔案儲存至任何雲端 [:material-server-network: 服務提供商](basics/common-threats.md#privacy-from-service-providers){ .pg-teal } 而設計，讓您無需相信他們不會存取您的檔案。它允許您創建儲存在虛擬驅動器上的保管庫，其內容已加密並與雲端儲存供應商同步。
+**Cryptomator** is an encryption solution designed for privately saving files to any cloud [:material-server-network: Service Provider](basics/common-threats.md#privacy-from-service-providers){ .pg-teal }, eliminating the need to trust that they won't access your files. 它允許您創建儲存在虛擬驅動器上的保管庫，其內容已加密並與雲端儲存供應商同步。
 
 [:octicons-home-16: 首頁](https://cryptomator.org){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://cryptomator.org/privacy){ .card-link title="隱私權政策" }
@@ -61,10 +61,10 @@ Cryptomator 的文件詳細介紹它的預期[安全目標](https://docs.cryptom
 
 <div class="admonition recommendation" markdown>
 
-![VeraCrypt logo](assets/img/encryption-software/veracrypt.svg#only-light){ align=right }
-![VeraCrypt logo](assets/img/encryption-software/veracrypt-dark.svg#only-dark){ align=right }
+![VeraCrypt logo](assets/images/encryption-software/veracrypt.svg#only-light){ align=right }
+![VeraCrypt logo](assets/images/encryption-software/veracrypt-dark.svg#only-dark){ align=right }
 
-**VeraCrypt** 是一個開源的免費軟體實用程式，用於即時加密。它可以在檔案中建立虛擬加密磁碟、加密分割區，或透過預先啟動驗證來加密整個儲存裝置。
+**VeraCrypt** is a source-available freeware utility used for on-the-fly encryption. 它可以在檔案中建立虛擬加密磁碟、加密分割區，或透過預先啟動驗證來加密整個儲存裝置。
 
 [:octicons-home-16: 首頁](https://veracrypt.fr){ .md-button .md-button--primary }
 [:octicons-info-16:](https://veracrypt.fr/en/Documentation.html){ .card-link title="說明文件" }
@@ -108,9 +108,9 @@ TrueCrypt 已[接受了許多次的稽核](https://en.wikipedia.org/wiki/TrueCry
 
 <div class="admonition recommendation" markdown>
 
-![BitLocker 標誌](assets/img/encryption-software/bitlocker.png){ align=right }
+![BitLocker logo](assets/images/encryption-software/bitlocker.png){ align=right }
 
-**BitLocker** 是 Microsoft Windows 綁定的全 卷(volume) 加密方案，使用 信賴平台模組([TPM](https://learn.microsoft.com/windows/security/information-protection/tpm/how-windows-uses-the-tpm)) 提供基於硬體的安全性。
+**BitLocker** is the full volume encryption solution bundled with Microsoft Windows that uses the Trusted Platform Module ([TPM](https://learn.microsoft.com/windows/security/information-protection/tpm/how-windows-uses-the-tpm)) for hardware-based security.
 
 [:octicons-info-16:](https://learn.microsoft.com/windows/security/information-protection/BitLocker/BitLocker-overview){ .card-link title="說明文件" }
 
@@ -128,9 +128,9 @@ Pro 版及更高版本亦支援更安全的「開機前[TPM+PIN](https://learn.m
 
 <div class="admonition recommendation" markdown>
 
-![FileVault logo](assets/img/encryption-software/filevault.png){ align=right }
+![FileVault logo](assets/images/encryption-software/filevault.png){ align=right }
 
-**FileVault** 是 macOS 內建的即時磁區加密方案。 FileVault 可以善用 Apple Silicon SoC 或 T2 安全晶片所具備的[硬體安全功能](os/macos-overview.md#hardware-security)。
+**FileVault** is the on-the-fly volume encryption solution built into macOS. FileVault 可以善用 Apple Silicon SoC 或 T2 安全晶片所具備的[硬體安全功能](os/macos-overview.md#hardware-security)。
 
 [:octicons-info-16:](https://support.apple.com/guide/mac-help/encrypt-mac-data-with-filevault-mh11785/mac){ .card-link title="說明文件" }
 
@@ -144,9 +144,9 @@ Pro 版及更高版本亦支援更安全的「開機前[TPM+PIN](https://learn.m
 
 <div class="admonition recommendation" markdown>
 
-![LUKS logo](assets/img/encryption-software/luks.png){ align=right }
+![LUKS logo](assets/images/encryption-software/luks.png){ align=right }
 
-**LUKS** 是 Linux 預設 FDE 方法。它可用於加密整個磁區、分割區或建立加密容器。
+**LUKS** is the default FDE method for Linux. 它可用於加密整個磁區、分割區或建立加密容器。
 
 [:octicons-repo-16: 儲存庫](https://gitlab.com/cryptsetup/cryptsetup#what-the-){ .md-button .md-button--primary }
 [:octicons-info-16:](https://gitlab.com/cryptsetup/cryptsetup/-/wikis/home){ .card-link title="文件" }
@@ -198,9 +198,9 @@ cryptsetup luksHeaderBackup /dev/device --header-backup-file /mnt/backup/file.im
 
 <div class="admonition recommendation" markdown>
 
-![Kryptor logo](assets/img/encryption-software/kryptor.png){ align=right }
+![Kryptor logo](assets/images/encryption-software/kryptor.png){ align=right }
 
-**Kryptor** 是一個免費的開源文件加密和簽名工具，利用現代安全的加密算法。它旨在成為更好版本的 [age](https://github.com/FiloSottile/age)和 [Minisign](https://jedisct1.github.io/minisign/)，提供一個簡單，更容易的 GPG 替代品。
+**Kryptor** is a free and open-source file encryption and signing tool that makes use of modern and secure cryptographic algorithms. 它旨在成為更好版本的 [age](https://github.com/FiloSottile/age)和 [Minisign](https://jedisct1.github.io/minisign/)，提供一個簡單，更容易的 GPG 替代品。
 
 [:octicons-home-16: 首頁](https://kryptor.co.uk){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://kryptor.co.uk/features#privacy){ .card-link title="隱私權政策" }
@@ -223,9 +223,9 @@ cryptsetup luksHeaderBackup /dev/device --header-backup-file /mnt/backup/file.im
 
 <div class="admonition recommendation" markdown>
 
-![Tomb logo](assets/img/encryption-software/tomb.png){ align=right }
+![Tomb logo](assets/images/encryption-software/tomb.png){ align=right }
 
-**Tomb** 是 LUKS 的命令行 shell 包裝器。它通過 [第三方工具](https://dyne.org/software/tomb/#advanced-usage) 支援隱寫。
+**Tomb** is a command-line shell wrapper for LUKS. 它通過 [第三方工具](https://dyne.org/software/tomb/#advanced-usage) 支援隱寫。
 
 [:octicons-home-16: 首頁](https://dyne.org/software/tomb){ .md-button .md-button--primary }
 [:octicons-info-16:](https://github.com/dyne/Tomb/wiki){ .card-link title="說明文件" }
@@ -263,9 +263,9 @@ gpg --quick-gen-key alice@example.com future-default
 
 <div class="admonition recommendation" markdown>
 
-![GNU Privacy Guard logo](assets/img/encryption-software/gnupg.svg){ align=right }
+![GNU Privacy Guard logo](assets/images/encryption-software/gnupg.svg){ align=right }
 
-**GnuPG** 是 GPL授權的加密軟體 PGP 替代品。 GnuPG 符合 [RFC 4880](https://tools.ietf.org/html/rfc4880) ，這是目前 OpenPGP 的 IETF 規範。 GnuPG 專案一直致力於 [更新](https://datatracker.ietf.org/doc/draft-ietf-openpgp-crypto-refresh/) ，試圖現代化OpenPGP。 GnuPG 是自由軟體基金會GNU 軟體項目的一部分，並已收到德國政府的重大 [資助](https://gnupg.org/blog/20220102-a-new-future-for-gnupg.html)。
+**GnuPG** is a GPL-licensed alternative to the PGP suite of cryptographic software. GnuPG 符合 [RFC 4880](https://tools.ietf.org/html/rfc4880) ，這是目前 OpenPGP 的 IETF 規範。 GnuPG 專案一直致力於 [更新](https://datatracker.ietf.org/doc/draft-ietf-openpgp-crypto-refresh/) ，試圖現代化OpenPGP。 GnuPG 是自由軟體基金會GNU 軟體項目的一部分，並已收到德國政府的重大 [資助](https://gnupg.org/blog/20220102-a-new-future-for-gnupg.html)。
 
 [:octicons-home-16: 首頁](https://gnupg.org){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://gnupg.org/privacy-policy.html){ .card-link title="隱私權政策" }
@@ -288,9 +288,9 @@ gpg --quick-gen-key alice@example.com future-default
 
 <div class="admonition recommendation" markdown>
 
-![GPG4win logo](assets/img/encryption-software/gpg4win.svg){ align=right }
+![GPG4win logo](assets/images/encryption-software/gpg4win.svg){ align=right }
 
-**GPG4win** 是 [Intevation and g10 Code](https://gpg4win.org/impressum.html) 的Windows 套件。它包括 [各種工具](https://gpg4win.org/about.html) ，可協助您在 Microsoft Windows 上使用GPG。該項目最初由德國聯邦信息安全辦公室（BSI）於2005年發起並 [資助](https://web.archive.org/web/20190425125223/https://joinup.ec.europa.eu/news/government-used-cryptography)。
+**GPG4win** is a package for Windows from [Intevation and g10 Code](https://gpg4win.org/impressum.html). 它包括 [各種工具](https://gpg4win.org/about.html) ，可協助您在 Microsoft Windows 上使用GPG。該項目最初由德國聯邦信息安全辦公室（BSI）於2005年發起並 [資助](https://web.archive.org/web/20190425125223/https://joinup.ec.europa.eu/news/government-used-cryptography)。
 
 [:octicons-home-16: 首頁](https://gpg4win.org){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://gpg4win.org/privacy-policy.html){ .card-link title="隱私權政策" }
@@ -311,9 +311,9 @@ gpg --quick-gen-key alice@example.com future-default
 
 <div class="admonition recommendation" markdown>
 
-![GPG Suite logo](assets/img/encryption-software/gpgsuite.png){ align=right }
+![GPG Suite logo](assets/images/encryption-software/gpgsuite.png){ align=right }
 
-**GPG Suite** 為 macOS 上的 [Apple Mail](email-clients.md#apple-mail-macos) 和其他電子郵件客戶端提供 OpenPGP 支援。
+**GPG Suite** provides OpenPGP support for [Apple Mail](email-clients.md#apple-mail-macos) and other email clients on macOS.
 
 我們建議看看他們的 [第一步](https://gpgtools.tenderapp.com/kb/how-to/first-steps-where-do-i-start-where-do-i-begin-setup-gpgtools-create-a-new-key-your-first-encrypted-email) 和 [知識庫](https://gpgtools.tenderapp.com/kb) 以取得支援。
 
@@ -337,9 +337,9 @@ gpg --quick-gen-key alice@example.com future-default
 
 <div class="admonition recommendation" markdown>
 
-![OpenKeychain logo](assets/img/encryption-software/openkeychain.svg){ align=right }
+![OpenKeychain logo](assets/images/encryption-software/openkeychain.svg){ align=right }
 
-**OpenKeychain** 是 Android 版 GnuPG 的實作。一般的郵件客戶端如 [Thunderbird](email-clients.md#thunderbird)、[FairEmail](email-clients.md#fairemail-android) 和其他 Android 應用程式都需要它來提供加密支援。
+**OpenKeychain** is an implementation of GnuPG for Android. 一般的郵件客戶端如 [Thunderbird](email-clients.md#thunderbird)、[FairEmail](email-clients.md#fairemail-android) 和其他 Android 應用程式都需要它來提供加密支援。
 
 [:octicons-home-16: 首頁](https://openkeychain.org){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://openkeychain.org/help/privacy-policy){ .card-link title="隱私權政策" }

@@ -21,9 +21,9 @@ Estas recomendaciones para la **comunicación en tiempo real** encriptada son id
 
 <div class="admonition recommendation" markdown>
 
-![Logotipo de Signal](assets/img/messengers/signal.svg){ align=right }
+![Signal logo](assets/images/messengers/signal.svg){ align=right }
 
-**Signal** es una aplicación móvil desarrollada por Signal Messenger LLC. La aplicación ofrece mensajería instantánea y llamadas protegidas con el protocolo Signal, un protocolo de cifrado extremadamente seguro que admite el secreto hacia adelante[^1] y la seguridad posterior al compromiso.[^2]
+**Signal** is a mobile app developed by Signal Messenger LLC. La aplicación ofrece mensajería instantánea y llamadas protegidas con el protocolo Signal, un protocolo de cifrado extremadamente seguro que admite el secreto hacia adelante[^1] y la seguridad posterior al compromiso.[^2]
 
 [:octicons-home-16: Página Principal](https://signal.org){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://signal.org/legal/#privacy-policy){ .card-link title="Política de Privacidad" }
@@ -70,9 +70,9 @@ El protocolo fue [auditado](https://eprint.iacr.org/2016/1013.pdf) independiente
 
 <div class="admonition recommendation" markdown>
 
-![Logotipo de SimpleX Chat](assets/img/messengers/simplex.svg){ align=right }
+![SimpleX Chat logo](assets/images/messengers/simplex.svg){ align=right }
 
-**SimpleX Chat** es un servicio de mensajería instantánea que no depende de ningún identificador único, como números de teléfono o nombres de usuario. Su red descentralizada hace de SimpleX Chat una herramienta eficaz contra la [:material-close-outline: Censura](basics/common-threats.md#avoiding-censorship){ .pg-blue-gray }.
+**SimpleX Chat** is an instant messenger that doesn't depend on any unique identifiers such as phone numbers or usernames. Su red descentralizada hace de SimpleX Chat una herramienta eficaz contra la [:material-close-outline: Censura](basics/common-threats.md#avoiding-censorship){ .pg-blue-gray }.
 
 [:octicons-home-16: Página Principal](https://simplex.chat){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://simplex.chat/privacy){ .card-link title="Política de Privacidad" }
@@ -106,9 +106,9 @@ SimpleX Chat fue auditada de forma independiente en [julio de 2024](https://simp
 
 <div class="admonition recommendation" markdown>
 
-![Briar logo](assets/img/messengers/briar.svg){ align=right }
+![Briar logo](assets/images/messengers/briar.svg){ align=right }
 
-**Briar** es un servicio de mensajería instantánea cifrado que [se conecta](https://briarproject.org/how-it-works) a otros clientes utilizando la [red Tor](alternative-networks.md#tor), lo que lo convierte en una herramienta eficaz para eludir la [:material-close-outline: Censura](basics/common-threats.md#avoiding-censorship){ .pg-blue-gray }. Briar también puede conectarse a través de Wi-Fi o Bluetooth si está cerca. El modo de malla local de Briar puede ser útil cuando la disponibilidad de Internet es un problema.
+**Briar** is an encrypted instant messenger that [connects](https://briarproject.org/how-it-works) to other clients using the [Tor network](alternative-networks.md#tor), making it an effective tool at circumventing [:material-close-outline: Censorship](basics/common-threats.md#avoiding-censorship){ .pg-blue-gray }. Briar también puede conectarse a través de Wi-Fi o Bluetooth si está cerca. El modo de malla local de Briar puede ser útil cuando la disponibilidad de Internet es un problema.
 
 [:octicons-home-16: Página Principal](https://briarproject.org){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://briarproject.org/privacy-policy){ .card-link title="Política de Privacidad" }

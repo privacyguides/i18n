@@ -14,7 +14,7 @@ schema:
     "@context": http://schema.org
     "@type": SoftwareApplication
     name: Bitwarden
-    image: /assets/img/password-management/bitwarden.svg
+    image: /assets/images/password-management/bitwarden.svg
     url: https://bitwarden.com
     sameAs: https://en.wikipedia.org/wiki/Bitwarden
     applicationCategory: 密碼管理器。
@@ -32,7 +32,7 @@ schema:
     "@context": http://schema.org
     "@type": SoftwareApplication
     name: 1Password
-    image: /assets/img/password-management/1password.svg
+    image: /assets/images/password-management/1password.svg
     url: https://1password.com
     sameAs: https://en.wikipedia.org/wiki/1Password
     applicationCategory: 密碼管理器。
@@ -50,7 +50,7 @@ schema:
     "@context": http://schema.org
     "@type": SoftwareApplication
     name: Proton Pass
-    image: /assets/img/password-management/protonpass.svg
+    image: /assets/images/password-management/protonpass.svg
     url: https://proton.me/pass
     applicationCategory: 密碼管理器。
     operatingSystem:
@@ -64,7 +64,7 @@ schema:
     "@context": http://schema.org
     "@type": SoftwareApplication
     name: Psono
-    image: /assets/img/password-management/psono.svg
+    image: /assets/images/password-management/psono.svg
     url: https://psono.com
     applicationCategory: 密碼管理器。
     operatingSystem:
@@ -78,7 +78,7 @@ schema:
     "@context": http://schema.org
     "@type": SoftwareApplication
     name: KeePassXC
-    image: /assets/img/password-management/keepassxc.svg
+    image: /assets/images/password-management/keepassxc.svg
     url: https://keepassxc.org
     sameAs: https://en.wikipedia.org/wiki/KeePassXC
     applicationCategory: 密碼管理器。
@@ -94,7 +94,7 @@ schema:
     "@context": http://schema.org
     "@type": SoftwareApplication
     name: KeePassDX
-    image: /assets/img/password-management/keepassdx.svg
+    image: /assets/images/password-management/keepassdx.svg
     url: https://keepassdx.com
     applicationCategory: 密碼管理器。
     operatingSystem: Android
@@ -106,7 +106,7 @@ schema:
     "@context": http://schema.org
     "@type": SoftwareApplication
     name: Gopass
-    image: /assets/img/password-management/gopass.svg
+    image: /assets/images/password-management/gopass.svg
     url: https://gopass.pw
     applicationCategory: 密碼管理器。
     operatingSystem:
@@ -133,7 +133,7 @@ schema:
 <div class="admonition info" markdown>
 <p class="admonition-title">資訊</p>
 
-瀏覽器和作業系統所內建的密碼管理器常常不如專用密碼管理器軟體。 內建密碼管理器的優點在於與原生軟體的良好整合，但它通常功能較少，而且缺乏獨立產品所具有的隱私和安全特點。
+瀏覽器和作業系統所內建的密碼管理器常常不如專用密碼管理器軟體。內建密碼管理器的優點在於與原生軟體的良好整合，但它通常功能較少，而且缺乏獨立產品所具有的隱私和安全特點。
 
 For example, the password manager in Microsoft Edge doesn't offer end-to-end encryption at all. Google的密碼管理員則 [須自行啟用](https://support.google.com/accounts/answer/11350823) E2EE，而 [Apple](https://support.apple.com/HT202303) 預設提供E2EE。
 
@@ -147,9 +147,9 @@ For example, the password manager in Microsoft Edge doesn't offer end-to-end enc
 
 <div class="admonition recommendation" markdown>
 
-![Bitwarden logo](assets/img/password-management/bitwarden.svg){ align=right }
+![Bitwarden logo](assets/images/password-management/bitwarden.svg){ align=right }
 
-**Bitwarden** 是一個免費的開源密碼與金鑰管理器。 它旨在解決個人、團隊和商業組織的密碼管理問題。 Bitwarden 是最佳和最安全的解決方案之一，可儲存所有登錄名和密碼，同時方便地在所有設備之間保持同步。
+**Bitwarden** is a free and open-source password and passkey manager. 它旨在解決個人、團隊和商業組織的密碼管理問題。 Bitwarden 是最佳和最安全的解決方案之一，可儲存所有登錄名和密碼，同時方便地在所有設備之間保持同步。
 
 [:octicons-home-16: 首頁](https://bitwarden.com){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://bitwarden.com/privacy){ .card-link title="隱私權政策" }
@@ -175,7 +175,7 @@ For example, the password manager in Microsoft Edge doesn't offer end-to-end enc
 
 </div>
 
-Bitwarden 預設使用 [PBKDF2](https://bitwarden.com/help/kdf-algorithms/#pbkdf2) 作為其 金鑰衍生函式(KDF) 演算法。 它也提供更安全的 [Argon2](https://bitwarden.com/help/kdf-algorithms/#argon2id) 作為可選方案。 You can change your account's KDF algorithm in the web vault:
+Bitwarden 預設使用 [PBKDF2](https://bitwarden.com/help/kdf-algorithms/#pbkdf2) 作為其 金鑰衍生函式(KDF) 演算法。它也提供更安全的 [Argon2](https://bitwarden.com/help/kdf-algorithms/#argon2id) 作為可選方案。 You can change your account's KDF algorithm in the web vault:
 
 - [x] Select **Settings → Security → Keys → KDF algorithm → Argon2id**
 
@@ -185,9 +185,9 @@ Bitwarden 伺服器端代碼是 [開源的](https://github.com/bitwarden/server)
 
 <div class="admonition recommendation" markdown>
 
-![Proton Pass 標誌](assets/img/password-management/protonpass.svg){ align=right }
+![Proton Pass logo](assets/images/password-management/protonpass.svg){ align=right }
 
-**Proton Pass** 是由 [Proton Mail](email.md#protonmail) 背後的團隊 Proton 所開發的開放原始碼、端對端加密的密碼管理器。 它能安全地儲存您的登入憑證、產生獨特的電子郵件別名，並支援儲存密碼。
+**Proton Pass** is an open-source, end-to-end encrypted password manager developed by Proton, the team behind [Proton Mail](email.md#proton-mail). 它能安全地儲存您的登入憑證、產生獨特的電子郵件別名，並支援儲存密碼。
 
 [:octicons-home-16: 首頁](https://proton.me/pass){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://proton.me/pass/privacy-policy){ .card-link title="隱私權政策" }
@@ -211,7 +211,7 @@ Bitwarden 伺服器端代碼是 [開源的](https://github.com/bitwarden/server)
 
 隨著 2022 年 4 月收購 SimpleLogin，Proton 提供了「隱藏我的電子郵件」功能，可建立 10 個別名（免費方案）或無限個別名（付費方案）。
 
-Proton Pass 行動應用程式和瀏覽器擴充功能於 2023 年 5 月和 6 月接受了 Cure53 的審核。 安全分析公司的結論為：
+Proton Pass 行動應用程式和瀏覽器擴充功能於 2023 年 5 月和 6 月接受了 Cure53 的審核。安全分析公司的結論為：
 
 > Proton Pass 應用程式和元件在安全性方面給人留下相當正面的印象。
 
@@ -221,9 +221,9 @@ Proton Pass 行動應用程式和瀏覽器擴充功能於 2023 年 5 月和 6 �
 
 <div class="admonition recommendation" markdown>
 
-![1Password 標誌](assets/img/password-management/1password.svg){ align=right }
+![1Password logo](assets/images/password-management/1password.svg){ align=right }
 
-**1Password** 是強調安全性與易用性的密碼管理器，可讓您將密碼、金鑰、信用卡、軟體許可證以及其他任何敏感資訊儲存於安全的數位保險庫中。 您的保管庫託管在 1Password 伺服器，費用為 [每月收取](https://1password.com/sign-up/)。
+**1Password** is a password manager with a strong focus on security and ease-of-use that allows you to store passwords, passkeys, credit cards, software licenses, and any other sensitive information in a secure digital vault. 您的保管庫託管在 1Password 伺服器，費用為 [每月收取](https://1password.com/sign-up/)。
 
 1Password 定期 [接受審計](https://support.1password.com/security-assessments/) 並提供卓越的客戶支援。 1Password 是封閉原始碼；但是，產品的安全性已徹底記錄在他們的 [安全白皮書](https://1passwordstatic.com/files/security/1password-white-paper.pdf)。
 
@@ -251,15 +251,15 @@ Proton Pass 行動應用程式和瀏覽器擴充功能於 2023 年 5 月和 6 �
 
 過去 1Password 僅為 macOS 和 iOS 的用戶提供最佳的密碼管理器用戶體驗，不過它現在已在所有平臺上實現了同等優秀的用戶體驗。 1Password's clients boast many features geared towards families and less technical people, such as an intuitive UI for ease-of-use and navigation, as well as advanced functionality. 值得注意的是，1Password 的幾乎所有功能都可在其原生行動或桌面用戶端中使用。
 
-您的 1Password 儲存庫使用您的主密碼和隨機化的 34 個字元安全金鑰來保護，以加密您在其伺服器上的資料。 此安全金鑰為您的資料添加了一層保護，因為無論您的主密碼如何，資料都受到高熵保護。 許多其他密碼管理器解決方案完全依賴於您的主密碼的強度來保護您的數據。
+您的 1Password 儲存庫使用您的主密碼和隨機化的 34 個字元安全金鑰來保護，以加密您在其伺服器上的資料。此安全金鑰為您的資料添加了一層保護，因為無論您的主密碼如何，資料都受到高熵保護。許多其他密碼管理器解決方案完全依賴於您的主密碼的強度來保護您的數據。
 
 ### Psono
 
 <div class="admonition recommendation" markdown>
 
-![Psono logo](assets/img/password-management/psono.svg){ align=right }
+![Psono logo](assets/images/password-management/psono.svg){ align=right }
 
-**Psono** 是來自德國的免費開源密碼管理器，專注於團隊的密碼管理。 Psono支援安全分享密碼、檔案、書籤和電子郵件。 所有機密都受到主密碼的保護。
+**Psono** is a free and open-source password manager from Germany, with a focus on password management for teams. Psono支援安全分享密碼、檔案、書籤和電子郵件。所有機密都受到主密碼的保護。
 
 [:octicons-home-16: 首頁](https://psono.com){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://psono.com/privacy-policy){ .card-link title="隱私權政策" }
@@ -285,7 +285,7 @@ Psono 為其產品提供廣泛的說明文件。 Psono 的網路用戶端可以�
 
 ### 標準
 
-**請注意，我們與推薦的任何項目均無關。**除了[我們的通用標準](about/criteria.md)外，我們還制定了一套明確的要求，以便我們能夠提供客觀的建議。 我們建議您在選擇使用項目之前先熟悉此列表，並進行自己的研究，以確保它是您的正確選擇。
+**請注意，我們與推薦的任何項目均無關。**除了[我們的通用標準](about/criteria.md)外，我們還制定了一套明確的要求，以便我們能夠提供客觀的建議。我們建議您在選擇使用項目之前先熟悉此列表，並進行自己的研究，以確保它是您的正確選擇。
 
 #### 最低合格要求
 
@@ -297,7 +297,7 @@ Psono 為其產品提供廣泛的說明文件。 Psono 的網路用戶端可以�
 
 #### 最佳情況
 
-最佳情況標準代表我們希望在這個類別的完美項目的應具備的特性。 推薦產品可能沒有此功能，但若有這些功能則會讓排名更為提高。
+最佳情況標準代表我們希望在這個類別的完美項目的應具備的特性。推薦產品可能沒有此功能，但若有這些功能則會讓排名更為提高。
 
 - 遙測應選擇加入（預設情況下禁用）或根本不收集。
 - 應該是開源的，並且可以合理地自主託管。
@@ -310,9 +310,9 @@ Psono 為其產品提供廣泛的說明文件。 Psono 的網路用戶端可以�
 
 <div class="admonition recommendation" markdown>
 
-![KeePassXC logo](assets/img/password-management/keepassxc.svg){ align=right }
+![KeePassXC logo](assets/images/password-management/keepassxc.svg){ align=right }
 
-**KeePassXC** 是 KeePassX 的社群分支，是 KeePass Password Safe 的原生跨平台移植，目標是以新功能和錯誤修正來擴充和改進它，以提供一個功能豐富、跨平台和現代化的開源密碼管理器。
+**KeePassXC** is a community fork of KeePassX, a native cross-platform port of KeePass Password Safe, with the goal of extending and improving it with new features and bug fixes to provide a feature-rich, cross-platform, and modern open-source password manager.
 
 [:octicons-home-16: 首頁](https://keepassxc.org){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://keepassxc.org/privacy){ .card-link title="隱私權政策" }
@@ -334,15 +334,15 @@ Psono 為其產品提供廣泛的說明文件。 Psono 的網路用戶端可以�
 
 </div>
 
-KeePassXC 將其匯出資料儲存為 [CSV](https://en.wikipedia.org/wiki/Comma-separated_values) 檔案。 如果您將此檔案匯入其他密碼管理器，可能會造成資料遺失的問題。 我們建議您手動檢查每個記錄。
+KeePassXC 將其匯出資料儲存為 [CSV](https://en.wikipedia.org/wiki/Comma-separated_values) 檔案。如果您將此檔案匯入其他密碼管理器，可能會造成資料遺失的問題。我們建議您手動檢查每個記錄。
 
 ### KeePassDX (Android)
 
 <div class="admonition recommendation" markdown>
 
-![KeePassDX logo](assets/img/password-management/keepassdx.svg){ align=right }
+![KeePassDX logo](assets/images/password-management/keepassdx.svg){ align=right }
 
-**KeePassDX** 是適用於 Android 的輕量級密碼管理器；可在單一檔案中以 KeePass 格式編輯加密資料，並能以安全的方式提供自動填入功能。
+**KeePassDX** is a lightweight password manager for Android; it allows for editing encrypted data in a single file in KeePass format and can fill in forms securely.
 
 [:octicons-home-16: Homepage](https://keepassdx.com){ .md-button .md-button--primary }
 [:octicons-info-16:](https://github.com/Kunzisoft/KeePassDX/wiki){ .card-link title="Documentation" }
@@ -365,7 +365,7 @@ The [pro version](https://play.google.com/store/apps/details?id=com.kunzisoft.ke
 
 <div class="admonition recommendation" markdown>
 
-![KeePassium logo](assets/img/password-management/keepassium.svg){ align=right }
+![KeePassium logo](assets/images/password-management/keepassium.svg){ align=right }
 
 KeePassium is a commercial, open-source password manager made by KeePassium Labs that's compatible with other KeePass applications. It provides autofill support, passkey management, automatic two-way synchronization through [most cloud storage providers](https://support.keepassium.com/kb/sync), and more.
 
@@ -394,7 +394,7 @@ KeePassium's iOS app has been [audited](https://cure53.de/pentest-report_keepass
 
 <div class="admonition recommendation" markdown>
 
-![Gopass logo](assets/img/password-management/gopass.svg){ align=right }
+![Gopass logo](assets/images/password-management/gopass.svg){ align=right }
 
 **Gopass** is a minimal password manager for the command line written in Go. 它可在 腳本應用程式("scripting applications") 中使用，且支援所有主要的桌面和伺服器作業系統。
 
@@ -417,6 +417,6 @@ KeePassium's iOS app has been [audited](https://cure53.de/pentest-report_keepass
 
 ### 標準
 
-**請注意，我們與推薦的任何項目均無關。**除了[我們的通用標準](about/criteria.md)外，我們還制定了一套明確的要求，以便我們能夠提供客觀的建議。 我們建議您在選擇使用項目之前先熟悉此列表，並進行自己的研究，以確保它是您的正確選擇。
+**請注意，我們與推薦的任何項目均無關。**除了[我們的通用標準](about/criteria.md)外，我們還制定了一套明確的要求，以便我們能夠提供客觀的建議。我們建議您在選擇使用項目之前先熟悉此列表，並進行自己的研究，以確保它是您的正確選擇。
 
 - 必須跨平台。

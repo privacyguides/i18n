@@ -15,7 +15,7 @@ schema:
     "@context": http://schema.org
     "@type": MobileApplication
     name: Brave
-    image: /assets/img/browsers/brave.svg
+    image: /assets/images/browsers/brave.svg
     url: https://brave.com
     applicationCategory: Web Browser
     operatingSystem:
@@ -28,7 +28,7 @@ schema:
     "@context": http://schema.org
     "@type": MobileApplication
     name: Safari
-    image: /assets/img/browsers/safari.svg
+    image: /assets/images/browsers/safari.svg
     url: https://apple.com/safari
     applicationCategory: Web Browser
     operatingSystem:
@@ -48,9 +48,9 @@ schema:
 
 <div class="admonition recommendation" markdown>
 
-![Brave 標誌](assets/img/browsers/brave.svg){ align=right }
+![Brave logo](assets/images/browsers/brave.svg){ align=right }
 
-**Brave 瀏覽器** 內建內容封鎖程式和[隱私權功能](https://brave.com/privacy-features/) ，其中許多功能預設為啟用。
+**Brave Browser** includes a built-in content blocker and [privacy features](https://brave.com/privacy-features), many of which are enabled by default.
 
 Brave 基於 Chromium 瀏覽器專案構建，因此使用起來應該會感到熟悉，並且具有最少的網站兼容性問題。
 
@@ -201,9 +201,9 @@ Brave 的[防護 (Shields)](https://support.brave.com/hc/articles/360022973471-W
 
 <div class="admonition recommendation" markdown>
 
-![Safari 標誌](assets/img/browsers/safari.svg){ align=right }
+![Safari logo](assets/images/browsers/safari.svg){ align=right }
 
-**Safari** 是 iOS 的預設瀏覽器。其包含了多種[隱私功能](https://support.apple.com/zh-tw/guide/iphone/iphb01fc3c85/ios)，例如[智慧追蹤預防](https://webkit.org/blog/7675/intelligent-tracking-prevention)、隱私報告、受隔離且短暫的私密瀏覽標籤、指紋保護（透過向網站呈現簡化版的系統組態，讓更多裝置看起來完全相同），以及指紋隨機化，並針對已付費訂閱 iCloud+ 的使用者提供私密轉送功能。
+**Safari** is the default browser in iOS. 其包含了多種[隱私功能](https://support.apple.com/zh-tw/guide/iphone/iphb01fc3c85/ios)，例如[智慧追蹤預防](https://webkit.org/blog/7675/intelligent-tracking-prevention)、隱私報告、受隔離且短暫的私密瀏覽標籤、指紋保護（透過向網站呈現簡化版的系統組態，讓更多裝置看起來完全相同），以及指紋隨機化，並針對已付費訂閱 iCloud+ 的使用者提供私密轉送功能。
 
 [:octicons-home-16: 首頁](https://www.apple.com/tw/safari/){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://www.apple.com/tw/legal/privacy/data/zh-tw/safari/){ .card-link title="隱私權政策" }

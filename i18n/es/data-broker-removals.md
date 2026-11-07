@@ -63,7 +63,7 @@ Si no utilizas un escáner automático para encontrar resultados sobre ti, consi
 
 <div class="admonition recommendation" markdown>
 
-![EasyOptOuts logo](assets/img/data-broker-removals/easyoptouts.svg){ align=right }
+![EasyOptOuts logo](assets/images/data-broker-removals/easyoptouts.svg){ align=right }
 
 **EasyOptOuts** es un servicio de 20$/año que busca en diferentes sitios de comerciantes de datos y envía automáticamente solicitudes de exclusión en tu nombre. Realizarán la primera búsqueda y el proceso de eliminación inmediatamente, y luego volverán a ejecutar el proceso cada 4 meses en caso de que tus datos aparezcan en nuevos sitios con el tiempo.
 
@@ -98,7 +98,7 @@ Aunque Google no es un comerciante de datos propiamente dicho, ya que no vende n
 
 <div class="admonition recommendation" markdown>
 
-![Google logo](assets/img/data-broker-removals/google.svg){ align=right }
+![Google logo](assets/images/data-broker-removals/google.svg){ align=right }
 
 **Resultados sobre ti** es una herramienta gratuita que te ayuda a descubrir si tu información de contacto personal, incluidos tu domicilio, número de teléfono y dirección de correo electrónico, aparece en los resultados de búsqueda de Google. Si se encuentra algún dato personal, puedes solicitar su eliminación.
 

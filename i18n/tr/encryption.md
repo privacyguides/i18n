@@ -20,7 +20,7 @@ The options listed here are available on multiple platforms and great for creati
 
 <div class="admonition recommendation" markdown>
 
-![Cryptomator logo](assets/img/encryption-software/cryptomator.svg){ align=right }
+![Cryptomator logo](assets/images/encryption-software/cryptomator.svg){ align=right }
 
 **Cryptomator** is an encryption solution designed for privately saving files to any cloud [:material-server-network: Service Provider](basics/common-threats.md#privacy-from-service-providers){ .pg-teal }, eliminating the need to trust that they won't access your files. It allows you to create vaults that are stored on a virtual drive, the contents of which are encrypted and synced with your cloud storage provider.
 
@@ -60,10 +60,10 @@ Cryptomator'ın dokümantasyonu, amaçlanan [güvenlik hedefini](https://docs.cr
 
 <div class="admonition recommendation" markdown>
 
-![VeraCrypt logosu](assets/img/encryption-software/veracrypt.svg#only-light){ align=right }
-![VeraCrypt logosu](assets/img/encryption-software/veracrypt-dark.svg#only-dark){ align=right }
+![VeraCrypt logo](assets/images/encryption-software/veracrypt.svg#only-light){ align=right }
+![VeraCrypt logo](assets/images/encryption-software/veracrypt-dark.svg#only-dark){ align=right }
 
-**VeraCrypt**, anında şifreleme için kullanılan, kaynak olarak kullanılabilen ücretsiz bir yardımcı programdır. Bir dosya içinde sanal bir şifreli disk oluşturabilir, bir bölümü şifreleyebilir veya önyükleme öncesi kimlik doğrulaması ile tüm depolama aygıtını şifreleyebilir.
+**VeraCrypt** is a source-available freeware utility used for on-the-fly encryption. Bir dosya içinde sanal bir şifreli disk oluşturabilir, bir bölümü şifreleyebilir veya önyükleme öncesi kimlik doğrulaması ile tüm depolama aygıtını şifreleyebilir.
 
 [:octicons-home-16: Homepage](https://veracrypt.fr){ .md-button .md-button--primary }[:octicons-info-16:](https://veracrypt.fr/en/Documentation.html){ .card-link title="Public Instances"}
 [:octicons-code-16:](https://veracrypt.fr/code){ .card-link title=Documentation}
@@ -107,9 +107,9 @@ Powering off your devices when they’re not in use provides the highest level o
 
 <div class="admonition recommendation" markdown>
 
-![BitLocker logosu](assets/img/encryption-software/bitlocker.png){ align=right }
+![BitLocker logo](assets/images/encryption-software/bitlocker.png){ align=right }
 
-**BitLocker**, donanım tabanlı güvenlik için Güvenilir Platform Modülünü ([TPM](https://learn.microsoft.com/windows/security/information-protection/tpm/how-windows-uses-the-tpm)) kullanan Microsoft Windows ile birlikte gelen tam birim şifreleme çözümüdür.
+**BitLocker** is the full volume encryption solution bundled with Microsoft Windows that uses the Trusted Platform Module ([TPM](https://learn.microsoft.com/windows/security/information-protection/tpm/how-windows-uses-the-tpm)) for hardware-based security.
 
 [:octicons-info-16:](https://learn.microsoft.com/windows/security/information-protection/BitLocker/BitLocker-overview){ .card-link title="Documentation" }
 
@@ -127,7 +127,7 @@ Pro and higher editions also support the more secure pre-boot [TPM+PIN](https://
 
 <div class="admonition recommendation" markdown>
 
-![FileVault logo](assets/img/encryption-software/filevault.png){ align=right }
+![FileVault logo](assets/images/encryption-software/filevault.png){ align=right }
 
 **FileVault** is the on-the-fly volume encryption solution built into macOS. FileVault takes advantage of the [hardware security capabilities](os/macos-overview.md#hardware-security) present on an Apple Silicon SoC or T2 Security Chip.
 
@@ -143,7 +143,7 @@ We advise against using your iCloud account for recovery; instead, you should se
 
 <div class="admonition recommendation" markdown>
 
-![LUKS logo](assets/img/encryption-software/luks.png){ align=right }
+![LUKS logo](assets/images/encryption-software/luks.png){ align=right }
 
 **LUKS** is the default FDE method for Linux. It can be used to encrypt full volumes, partitions, or create encrypted containers.
 
@@ -197,7 +197,7 @@ Tools with command-line interfaces are useful for integrating [shell scripts](ht
 
 <div class="admonition recommendation" markdown>
 
-![Kryptor logo](assets/img/encryption-software/kryptor.png){ align=right }
+![Kryptor logo](assets/images/encryption-software/kryptor.png){ align=right }
 
 **Kryptor** is a free and open-source file encryption and signing tool that makes use of modern and secure cryptographic algorithms. It aims to be a better version of [age](https://github.com/FiloSottile/age) and [Minisign](https://jedisct1.github.io/minisign) to provide a simple, easier alternative to GPG.
 
@@ -222,7 +222,7 @@ Tools with command-line interfaces are useful for integrating [shell scripts](ht
 
 <div class="admonition recommendation" markdown>
 
-![Tomb logo](assets/img/encryption-software/tomb.png){ align=right }
+![Tomb logo](assets/images/encryption-software/tomb.png){ align=right }
 
 **Tomb** is a command-line shell wrapper for LUKS. It supports steganography via [third-party tools](https://dyne.org/software/tomb/#advanced-usage).
 
@@ -262,9 +262,9 @@ gpg --quick-gen-key alice@example.com future-default
 
 <div class="admonition recommendation" markdown>
 
-![GNU Privacy Guard logosu](assets/img/encryption-software/gnupg.svg){ align=right }
+![GNU Privacy Guard logo](assets/images/encryption-software/gnupg.svg){ align=right }
 
-**GnuPG** PGP kriptografik yazılım paketine GPL lisanslı bir alternatiftir. GnuPG, OpenPGP'nin mevcut IETF spesifikasyonu olan [RFC 4880](https://tools.ietf.org/html/rfc4880) ile uyumludur. GnuPG projesi OpenPGP'yi modernize etmek amacıyla bir [güncellenmiş taslak](https://datatracker.ietf.org/doc/draft-ietf-openpgp-crypto-refresh) üzerinde çalışmaktadır. GnuPG, Özgür Yazılım Vakfı'nın GNU yazılım projesinin bir parçasıdır ve Alman hükümetinden büyük [fon](https://gnupg.org/blog/20220102-a-new-future-for-gnupg.html) almıştır.
+**GnuPG** is a GPL-licensed alternative to the PGP suite of cryptographic software. GnuPG, OpenPGP'nin mevcut IETF spesifikasyonu olan [RFC 4880](https://tools.ietf.org/html/rfc4880) ile uyumludur. GnuPG projesi OpenPGP'yi modernize etmek amacıyla bir [güncellenmiş taslak](https://datatracker.ietf.org/doc/draft-ietf-openpgp-crypto-refresh) üzerinde çalışmaktadır. GnuPG, Özgür Yazılım Vakfı'nın GNU yazılım projesinin bir parçasıdır ve Alman hükümetinden büyük [fon](https://gnupg.org/blog/20220102-a-new-future-for-gnupg.html) almıştır.
 
 [:octicons-home-16: Ana Sayfa](https://gnupg.org){ .md-button .md-button--primary }[:octicons-eye-16:](https://gnupg.org/privacy-policy.html){ .card-link title="Privacy Policy" }
 [:octicons-info-16:](https://gnupg.org/documentation/index.html){ .card-link title=Documentation}
@@ -286,9 +286,9 @@ gpg --quick-gen-key alice@example.com future-default
 
 <div class="admonition recommendation" markdown>
 
-![GPG4win logosu](assets/img/encryption-software/gpg4win.svg){ align=right }
+![GPG4win logo](assets/images/encryption-software/gpg4win.svg){ align=right }
 
-**GPG4win** [Intevation ve g10 Code](https://gpg4win.org/impressum.html) tarafından Windows için geliştirilmiş bir pakettir. Microsoft Windows üzerinde GPG kullanmanıza yardımcı olabilecek [çeşitli araçlar](https://gpg4win.org/about.html) içerir. Proje 2005 yılında Almanya'nın Federal Bilgi Güvenliği Ofisi (BSI) tarafından başlatılmış ve başlangıçta [finanse edilmiştir](https://web.archive.org/web/20190425125223/https://joinup.ec.europa.eu/news/government-used-cryptography).
+**GPG4win** is a package for Windows from [Intevation and g10 Code](https://gpg4win.org/impressum.html). Microsoft Windows üzerinde GPG kullanmanıza yardımcı olabilecek [çeşitli araçlar](https://gpg4win.org/about.html) içerir. Proje 2005 yılında Almanya'nın Federal Bilgi Güvenliği Ofisi (BSI) tarafından başlatılmış ve başlangıçta [finanse edilmiştir](https://web.archive.org/web/20190425125223/https://joinup.ec.europa.eu/news/government-used-cryptography).
 
 [:octicons-home-16: Ana Sayfa](https://gpg4win.org){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://gpg4win.org/privacy-policy.html){ .card-link title="Privacy Policy" }
@@ -309,9 +309,9 @@ gpg --quick-gen-key alice@example.com future-default
 
 <div class="admonition recommendation" markdown>
 
-![GPG Suite logosu](assets/img/encryption-software/gpgsuite.png){ align=right }
+![GPG Suite logo](assets/images/encryption-software/gpgsuite.png){ align=right }
 
-**GPG Suite**, [Apple Mail](email-clients.md#apple-mail-macos) ve macOS üzerindeki diğer e-posta istemcileri için OpenPGP desteği sağlar.
+**GPG Suite** provides OpenPGP support for [Apple Mail](email-clients.md#apple-mail-macos) and other email clients on macOS.
 
 Destek için [İlk adımlar](https://gpgtools.tenderapp.com/kb/how-to/first-steps-where-do-i-start-where-do-i-begin-setup-gpgtools-create-a-new-key-your-first-encrypted-email) ve [Bilgi Bankası](https://gpgtools.tenderapp.com/kb) adreslerine göz atmanızı öneririz.
 
@@ -335,9 +335,9 @@ Destek için [İlk adımlar](https://gpgtools.tenderapp.com/kb/how-to/first-step
 
 <div class="admonition recommendation" markdown>
 
-![OpenKeychain logosu](assets/img/encryption-software/openkeychain.svg){ align=right }
+![OpenKeychain logo](assets/images/encryption-software/openkeychain.svg){ align=right }
 
-**OpenKeychain** Android için bir GnuPG uygulamasıdır. Genellikle [Thunderbird](email-clients.md#thunderbird), [FairEmail](email-clients.md#fairemail-android) gibi posta istemcileri ve diğer Android uygulamaları tarafından şifreleme desteği sağlamak için gereklidir.
+**OpenKeychain** is an implementation of GnuPG for Android. Genellikle [Thunderbird](email-clients.md#thunderbird), [FairEmail](email-clients.md#fairemail-android) gibi posta istemcileri ve diğer Android uygulamaları tarafından şifreleme desteği sağlamak için gereklidir.
 
 [:octicons-home-16: Ana Sayfa](https://openkeychain.org){ .md-button .md-button--primary }[:octicons-eye-16:](https://openkeychain.org/help/privacy-policy){ .card-link title="Privacy Policy" }
 [:octicons-info-16:](https://openkeychain.org/faq){ .card-link title=Documentation}

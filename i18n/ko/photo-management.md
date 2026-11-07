@@ -16,7 +16,7 @@ cover: photo-management.webp
 
 <div class="admonition recommendation" markdown>
 
-![엔테 로고](assets/img/photo-management/ente.svg){ align=right }
+![Ente logo](assets/images/photo-management/ente.svg){ align=right }
 
 **엔테 포토**는 iOS와 안드로이드에서 자동 백업을 지원하는 종단 간 암호화 사진 백업 서비스입니다. 클라이언트와 서버 모두 코드가 완전히 오픈 소스입니다. [자체 호스팅](https://github.com/ente-io/ente/tree/main/server#self-hosting)도 가능합니다.
 

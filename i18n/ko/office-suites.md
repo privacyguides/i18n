@@ -15,7 +15,7 @@ cover: office-suites.webp
 
 <div class="admonition recommendation" markdown>
 
-![리브레오피스 로고](assets/img/office-suites/libreoffice.svg){ align=right }
+![LibreOffice logo](assets/images/office-suites/libreoffice.svg){ align=right }
 
 **리브레오피스**는 폭넓은 기능을 갖춘 자유 오픈 소스 오피스 제품군입니다.
 
@@ -43,7 +43,7 @@ cover: office-suites.webp
 
 <div class="admonition recommendation" markdown>
 
-![온리오피스 로고](assets/img/office-suites/onlyoffice.svg){ align=right }
+![OnlyOffice logo](assets/images/office-suites/onlyoffice.svg){ align=right }
 
 **온리오피스**는 넥스트클라우드 연동을 포함해 폭넓은 기능을 갖춘 클라우드 기반 자유 오픈 소스 오피스 제품군입니다.
 

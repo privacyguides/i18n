@@ -3,11 +3,11 @@ title: 翻譯
 description: 網站貢獻者在我們的網站上新增翻譯的指南。
 ---
 
-Crowdin 有很好的文件，我們建議您查看他們的 [入門指南](https://support.crowdin.com/crowdin-intro)。 我們的網站大量使用 [Markdown](https://en.wikipedia.org/wiki/Markdown) 撰寫，所以應該很容易貢獻翻譯。 這個頁面包含了一些有用的提示，教您如何翻譯我們網站上可能會遇到的特定語法。
+Crowdin 有很好的文件，我們建議您查看他們的 [入門指南](https://support.crowdin.com/crowdin-intro)。我們的網站大量使用 [Markdown](https://en.wikipedia.org/wiki/Markdown) 撰寫，所以應該很容易貢獻翻譯。這個頁面包含了一些有用的提示，教您如何翻譯我們網站上可能會遇到的特定語法。
 
 如果您有其他問題的話，請加入我們在 Matrix 上的在地化群組 ([#pg-i18n:aragon.sh](https://matrix.to/#/%23pg-i18n:aragon.sh))，並閱讀 [部落格公告](https://blog.privacyguides.org/2023/02/26/i18n-announcement) 取得關於本計劃的進一步資訊。
 
-請以本網站的英文版本為主，更新均以英文為優先。 如果您發現落後於英文，還請伸出援手。 我們無法保證所有翻譯的正確性。 如果您對您所在地區的特定內容有任何建議，請在我們的 [主要存取庫](https://github.com/privacyguides/privacyguides.org) 中打開問題或 pull request。
+請以本網站的英文版本為主，更新均以英文為優先。如果您發現落後於英文，還請伸出援手。我們無法保證所有翻譯的正確性。如果您對您所在地區的特定內容有任何建議，請在我們的 [主要存取庫](https://github.com/privacyguides/privacyguides.org) 中打開問題或 pull request。
 
 ## 翻譯輸出
 
@@ -16,14 +16,20 @@ Crowdin 有很好的文件，我們建議您查看他們的 [入門指南](https
 例如：
 
 ```text
-![Software logo](assets/img/path/to/image.svg){ align=right }
+![Software logo](assets/images/path/to/image.svg){ align=right }
 ```
 
-我們有時發現，像上面那樣插入圖像的語法中缺少了 `![`，或者在文字和路徑之間多了一個空格，例如 `](`。 如果該字串翻譯的不正確，我們鼓勵您按下垃圾桶按鈕**刪除**，或是[投票](https://support.crowdin.com/enterprise/getting-started-for-volunteers/#voting-view)給您認為看起來最棒的翻譯。 當不適合的字串被刪除，它們會從組織裡的[翻譯記憶](https://support.crowdin.com/enterprise/translation-memory)刪除，意思是當來源字串再一次出現時，不會再推薦不正確的翻譯。
+我們有時發現，像上面那樣插入圖像的語法中缺少了 `![`，或者在文字和路徑之間多了一個空格，例如 `](`。如果該字串翻譯的不正確，我們鼓勵您按下垃圾桶按鈕**刪除**，或是[投票](https://support.crowdin.com/enterprise/getting-started-for-volunteers/#voting-view)給您認為看起來最棒的翻譯。當不適合的字串被刪除，它們會從組織裡的[翻譯記憶](https://support.crowdin.com/enterprise/translation-memory)刪除，意思是當來源字串再一次出現時，不會再推薦不正確的翻譯。
+
+## 圖片
+
+Images shared by all languages live in `docs/assets/images` and are excluded from Crowdin. When you run `SITE_LANGUAGE=fr ./run.sh` (replacing `fr` with your language code), the build script links this directory into `i18n/fr/assets/images` so translated builds and Markdown previews can use the same files.
+
+Images containing text that needs translation live in `docs/assets/images-localized` and are uploaded to Crowdin. They retain their existing `docs/assets/img` paths in Crowdin to preserve translations, but are exported to `i18n/<language>/assets/images-localized`. Keep `assets/images-localized` in translated Markdown image paths so the same references resolve to the appropriate images in every language.
 
 ## 標點符號
 
-例如上面的警告、引號，例如：`" "` 必須用來指定字串文字。 MkDocs 不會正確解析其他符號，例如： `「 」` 或 `« »`。 其他標點符號用於在文字中標記普通引文則沒有問題。
+例如上面的警告、引號，例如：`" "` 必須用來指定字串文字。 MkDocs 不會正確解析其他符號，例如： `「 」` 或 `« »`。其他標點符號用於在文字中標記普通引文則沒有問題。
 
 ## 全形標點符號和 Markdown 語法
 

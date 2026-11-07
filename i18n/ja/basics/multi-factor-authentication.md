@@ -53,7 +53,7 @@ Yubico OTPはハードウェアセキュリティーキーに実装される認�
 検証のためにワンタイムパスワードをYubico OTPサーバーに送信します。キーとYubico検証サーバーの両方でカウンターが増えます。 OTPは一度しか使うことはできず、認証が成功すると、OTPの再利用を防ぐためにカウンターが増えます。 Yubicoはこのプロセスの[詳細なドキュメント](https://developers.yubico.com/OTP/OTPs_Explained.html)を提供しています。
 
 <figure markdown>
-  ![Yubico OTP](../assets/img/multi-factor-authentication/yubico-otp.png)
+  ![Yubico OTP](../assets/images-localized/multi-factor-authentication/yubico-otp.png)
 </figure>
 
 Yubico OTPはTOTPと比べて利点と欠点があります。
@@ -71,7 +71,7 @@ U2FとFIDO2は[Client to Authenticator Protocol](https://en.wikipedia.org/wiki/C
 WebAuthnは最も安全でプライベートな二要素認証の方法です。認証の使い勝手はYubico OTPと似ていますが、キーはワンタイムパスワードを出力せず、第三者のサーバーで検証もしません。その代わり、認証には[公開鍵暗号](https://en.wikipedia.org/wiki/Public-key_cryptography)を用います。
 
 <figure markdown>
-  ![FIDO](../assets/img/multi-factor-authentication/fido.png)
+  ![FIDO](../assets/images-localized/multi-factor-authentication/fido.png)
 </figure>
 
 アカウント作成時にサーバーに公開鍵を送り、ログインする際にサービス側は秘密鍵でデータに「署名」するよう要求します。利点はサービス側にパスワードが保存されておらず、敵対者は盗むものがないことです。

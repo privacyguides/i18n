@@ -61,7 +61,7 @@ AI를 로컬에서 실행하려면 AI 모델과 AI 클라이언트가 모두 필
 
 <div class="admonition recommendation" markdown>
 
-![Kobold.cpp 로고](assets/img/ai-chat/kobold.png){align=right}
+![Kobold.cpp Logo](assets/images/ai-chat/kobold.png){align=right}
 
 **Kobold.cpp**는 윈도우, 맥, 리눅스 컴퓨터에서 로컬로 실행되는 AI 클라이언트입니다. 롤플레이 용도처럼 세밀한 사용자 지정과 조정이 필요하다면 훌륭한 선택입니다.
 
@@ -96,7 +96,7 @@ Kobold.cpp에서는 AI 모델 온도, AI 채팅의 시스템 프롬프트 같은
 
 <div class="admonition recommendation" markdown>
 
-![올라마 로고](assets/img/ai-chat/ollama.png){align=right}
+![Ollama Logo](assets/images/ai-chat/ollama.png){align=right}
 
 **올라마**는 macOS, 리눅스, 윈도우에서 사용할 수 있는 명령줄 AI 어시스턴트입니다. 올라마는 사용하기 쉽고 호환성이 넓으며, 추론 및 기타 기법을 사용해 속도가 빠른 AI 클라이언트를 찾는다면 훌륭한 선택입니다. 또한 수동 설정이 전혀 필요하지 않습니다.
 
@@ -124,7 +124,7 @@ Kobold.cpp에서는 AI 모델 온도, AI 채팅의 시스템 프롬프트 같은
 
 <div class="admonition recommendation" markdown>
 
-![라마파일 로고](assets/img/ai-chat/llamafile.webp){align=right}
+![Llamafile Logo](assets/images/ai-chat/llamafile.webp){align=right}
 
 **라마파일**은 별도의 설정 없이 사용자의 컴퓨터에서 LLM을 로컬로 실행할 수 있게 해 주는 가벼운 단일 파일 실행 파일입니다. [모질라의 지원](https://hacks.mozilla.org/2023/11/introducing-llamafile)을 받고 있으며 리눅스, macOS, 윈도우에서 사용할 수 있습니다.
 

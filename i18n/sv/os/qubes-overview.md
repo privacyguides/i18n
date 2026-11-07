@@ -17,12 +17,12 @@ Some of the information here and on the Qubes OS documentation may contain confl
 
 </details>
 
-![Qubes arkitektur](../assets/img/qubes/qubes-trust-level-architecture.png)
+![Qubes arkitektur](../assets/images-localized/qubes/qubes-trust-level-architecture.png)
 <figcaption>Qubes arkitektur, kredit: Vad är Qubes OS Intro</figcaption>
 
 Each qube has a [colored border](https://qubes-os.org/screenshots) that can help you keep track of the domain in which it runs. Du kan till exempel använda en särskild färg för din bankwebbläsare och en annan färg för en allmänt opålitlig webbläsare.
 
-![Färgad kant](../assets/img/qubes/r4.0-xfce-three-domains-at-work.png)
+![Färgad kant](../assets/images-localized/qubes/r4.0-xfce-three-domains-at-work.png)
 <figcaption>Qubes fönstergränser, kredit: Qubes Screenshots</figcaption>
 
 ## Varför ska jag använda Qubes?

@@ -16,10 +16,10 @@ Poniżej przedstawiono kilka alternatywnych systemów operacyjnych, które możn
 
 <div class="admonition recommendation" markdown>
 
-![Logo OpenWrt](assets/img/router/openwrt.svg#only-light){ align=right }
-![Logo OpenWrt](assets/img/router/openwrt-dark.svg#only-dark){ align=right }
+![OpenWrt logo](assets/images/router/openwrt.svg#only-light){ align=right }
+![OpenWrt logo](assets/images/router/openwrt-dark.svg#only-dark){ align=right }
 
-**OpenWrt to system operacyjny oparty na Linuksie; jest używany przede wszystkim na urządzeniach wbudowanych do kierowania ruchem sieciowym. Zawiera on util-linux, uClibc i BusyBox. Wszystkie komponenty zostały zoptymalizowane pod kątem routerów domowych.
+**OpenWrt** is a Linux-based operating system; it's primarily used on embedded devices to route network traffic. Zawiera on util-linux, uClibc i BusyBox. Wszystkie komponenty zostały zoptymalizowane pod kątem routerów domowych.
 
 [:octicons-home-16: Strona główna](https://openwrt.org){ .md-button .md-button--primary }
 [:octicons-info-16:](https://openwrt.org/docs/start){ .card-link title=Dokumentacja}
@@ -36,9 +36,9 @@ Możesz sprawdzić [tabelę obsługiwanego sprzętu](https://openwrt.org/toh/sta
 
 <div class="admonition recommendation" markdown>
 
-![Logo OPNsense](assets/img/router/opnsense.svg){ align=right }
+![OPNsense logo](assets/images/router/opnsense.svg){ align=right }
 
-**OPNsense** to platforma zapory i routingu typu open source oparta na FreeBSD, która zawiera wiele zaawansowanych funkcji, takich jak kształtowanie ruchu, równoważenie obciążenia i możliwości VPN; dodatkowe funkcje są dostępne w formie wtyczek. OPNsense bywa wdrażany jako zapora obwodowa, router, bezprzewodowy punkt dostępowy, serwer DHCP, serwer DNS oraz punkt końcowy VPN.
+**OPNsense** is an open-source, FreeBSD-based firewall and routing platform which incorporates many advanced features such as traffic shaping, load balancing, and VPN capabilities, with many more features available in the form of plugins. OPNsense bywa wdrażany jako zapora obwodowa, router, bezprzewodowy punkt dostępowy, serwer DHCP, serwer DNS oraz punkt końcowy VPN.
 
 [:octicons-home-16: Strona główna](https://opnsense.org){ .md-button .md-button--primary }
 [:octicons-info-16:](https://docs.opnsense.org/index.html){ .card-link title="Dokumentacja" }

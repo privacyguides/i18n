@@ -5,13 +5,13 @@ description: 參與 Pull Request 討論的指南。
 
 在 GitHub PR 中留下註解或進行審核時，請避免使用一般的 **Add a comment** 方塊。
 
-![請勿使用 GitHub 一般的 "Add a comment" 區塊](../assets/img/meta/pr-avoid-general-comments.png)
+![Do not use the general "Add a comment" box in GitHub](../assets/images/meta/pr-avoid-general-comments.png)
 
 以這個方式留下的註解不會拆分&#x6210;_&#x8A0E;論串_，在有多個對話進行時很難追蹤。
 
 以下列方式留下的註解則會有內建的回覆區塊，讓對話固定在同一個討論串中。討論結束後，也可以標示為已解決，讓討論更容易追蹤。
 
-![GitHub 內建「回覆」方塊的註解擷圖，以橘色強調。](../assets/img/meta/pr-threaded-comment.png)
+![A screenshot of a comment in GitHub which has a built-in "reply" box, highlighted in orange.](../assets/images/meta/pr-threaded-comment.png)
 
 ## 註解
 

@@ -13,7 +13,7 @@ description: من السهل أن يتراكم لديك عدد كبير من ا�
 إذا كنت تستخدم Password Manager طوال فترة استخدامك للإنترنت، فسيكون هذا الجزء سهلا جدا. غالبًا ما تتضمن هذه الأدوات ميزة مدمجة للتحقق مما إذا كانت بيانات تسجيل الدخول الخاصة بك قد ظهرت في خرق للبيانات، مثل [Data Breach Report](https://bitwarden.com/blog/have-you-been-pwned) في Bitwarden.
 
 <figure markdown>
-  ![Bitwarden's Data Breach Report feature](../assets/img/account-deletion/exposed_passwords.png)
+  ![Bitwarden's Data Breach Report feature](../assets/images-localized/account-deletion/exposed_passwords.png)
 </figure>
 
 حتى إذا لم تستخدم Password Manager بشكل مباشر من قبل، فمن المحتمل أنك استخدمت مدير كلمات المرور الموجود في متصفحك ([Firefox](https://support.mozilla.org/kb/password-manager-remember-delete-edit-logins)، [Chrome](https://passwords.google.com/intro)، [Edge](https://support.microsoft.com/microsoft-edge/save-or-forget-passwords-in-microsoft-edge-b4beecb0-f2a8-1ca0-f26f-9ec247a3f336)) أو هاتفك ([Google](https://passwords.google.com/intro) على Android الأساسي، و[Passwords](https://support.apple.com/HT211146) على iOS) دون أن تدرك ذلك.

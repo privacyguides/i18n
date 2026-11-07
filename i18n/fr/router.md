@@ -16,10 +16,10 @@ Vous trouverez ci-dessous quelques systèmes d'exploitation alternatifs pour les
 
 <div class="admonition recommendation" markdown>
 
-![Logo de OpenWrt](assets/img/router/openwrt.svg#only-light){ align=right }
-![Logo de OpenWrt](assets/img/router/openwrt-dark.svg#only-dark){ align=right }
+![OpenWrt logo](assets/images/router/openwrt.svg#only-light){ align=right }
+![OpenWrt logo](assets/images/router/openwrt-dark.svg#only-dark){ align=right }
 
-**OpenWrt** est un système d'exploitation basé sur Linux ; il est principalement utilisé sur les périphériques embarqués pour acheminer le trafic réseau. Il comprend util-linux, uClibc, et BusyBox. Tous les composants ont été optimisés pour les routeurs domestiques.
+**OpenWrt** is a Linux-based operating system; it's primarily used on embedded devices to route network traffic. Il comprend util-linux, uClibc, et BusyBox. Tous les composants ont été optimisés pour les routeurs domestiques.
 
 [:octicons-home-16: Page d'accueil](https://openwrt.org){ .md-button .md-button--primary }
 [:octicons-info-16:](https://openwrt.org/docs/start){ .card-link title=Documentation}
@@ -36,9 +36,9 @@ Vous pouvez consulter le [tableau de matériel](https://openwrt.org/toh/start) d
 
 <div class="admonition recommendation" markdown>
 
-![logo de OPNsense](assets/img/router/opnsense.svg){ align=right }
+![OPNsense logo](assets/images/router/opnsense.svg){ align=right }
 
-**OPNsense** est une plateforme de routage et de pare-feu open source basée sur FreeBSD qui intègre de nombreuses fonctionnalités avancées telles que la mise en forme du trafic, l'équilibrage des charges et des capacités VPN, avec de nombreuses autres fonctionnalités disponibles sous forme de plugins. OPNsense est généralement déployé comme pare-feu de périmètre, routeur, point d'accès sans fil, serveur DHCP, serveur DNS et point de terminaison VPN.
+**OPNsense** is an open-source, FreeBSD-based firewall and routing platform which incorporates many advanced features such as traffic shaping, load balancing, and VPN capabilities, with many more features available in the form of plugins. OPNsense est généralement déployé comme pare-feu de périmètre, routeur, point d'accès sans fil, serveur DHCP, serveur DNS et point de terminaison VPN.
 
 [:octicons-home-16: Page d'accueil](https://opnsense.org){ .md-button .md-button--primary }
 [:octicons-info-16:](https://docs.opnsense.org/index.html){ .card-link title=Documentation}

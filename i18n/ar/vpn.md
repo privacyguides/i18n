@@ -43,9 +43,9 @@ If you're looking for additional *privacy* from your ISP or on a public Wi-Fi ne
 
 <div class="admonition recommendation" markdown>
 
-![شعار الشبكات الخاصة الافتراضية من Proton] (assets/img/vpn/protonvpn.svg){ align=right }
+![Proton VPN logo](assets/images/vpn/protonvpn.svg){ align=right }
 
-**الشبكات الخاصة الافتراضية من Proton** هي منافس قوي في مجال الشبكات الخاصة الافتراضية، وهي تعمل منذ عام 2016. يقع مقر شركة Proton AG في سويسرا وتقدم فئة مجانية محدودة، بالإضافة إلى خِيار مميز أكثر.
+**Proton VPN** is a strong contender in the VPN space, and they have been in operation since 2016. يقع مقر شركة Proton AG في سويسرا وتقدم فئة مجانية محدودة، بالإضافة إلى خِيار مميز أكثر.
 
 [:octicons-home-16: Homepage](https://protonvpn.com){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://protonvpn.com/privacy-policy){ .card-link title="Privacy Policy" }
@@ -137,9 +137,9 @@ Additionally, system crashes [may occur](https://protonvpn.com/support/macos-t2-
 
 <div class="admonition recommendation" markdown>
 
-![IVPN logo](assets/img/vpn/ivpn.svg){ align=right }
+![IVPN logo](assets/images/vpn/ivpn.svg){ align=right }
 
-**IVPN** هو مزود VPN مميز آخر، وقد بدأ تشغيله منذ عام 2009. شركة IVPN مقرها في جبل طارق، ولا توفر فترة تجريبية مجانية لاختبار الخدمة.
+**IVPN** is another premium VPN provider, and they have been in operation since 2009. شركة IVPN مقرها في جبل طارق، ولا توفر فترة تجريبية مجانية لاختبار الخدمة.
 
 [:octicons-home-16: Homepage](https://ivpn.net){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://ivpn.net/privacy){ .card-link title="Privacy Policy" }
@@ -212,9 +212,9 @@ IVPN has obfuscation modes using [V2Ray](https://v2ray.com/en/index) which helps
 
 <div class="admonition recommendation" markdown>
 
-![Mullvad logo](assets/img/vpn/mullvad.svg){ align=right }
+![Mullvad logo](assets/images/vpn/mullvad.svg){ align=right }
 
-Mullvad هو خدمة VPN سريعة ومنخفضة التكلفة، تركز بشكل جاد على الشفافية والأمان. تعمل Mullvad منذ عام 2009. يقع مقر Mullvad في السويد، وتقدم ضمان استرداد لمدة 14 يوما على [طرق الدفع](https://mullvad.net/en/help/refunds) التي تسمح بذلك.
+**Mullvad** is a fast and inexpensive VPN with a serious focus on transparency and security. تعمل Mullvad منذ عام 2009. يقع مقر Mullvad في السويد، وتقدم ضمان استرداد لمدة 14 يوما على [طرق الدفع](https://mullvad.net/en/help/refunds) التي تسمح بذلك.
 
 [:octicons-home-16: Homepage](https://mullvad.net){ .md-button .md-button--primary }
 [:simple-torbrowser:](http://o54hon2e2vj6c7m3aqqu6uyece65by3vgoxxhlqlsvkmacw6a7m7kiad.onion){ .card-link title="Onion Service" }

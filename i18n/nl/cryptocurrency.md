@@ -26,7 +26,7 @@ Veel zo niet de meeste cryptocurrency projecten zijn zwendel. Voer transacties z
 
 <div class="admonition recommendation" markdown>
 
-![Monero logo](assets/img/cryptocurrency/monero.svg){ align=right }
+![Monero logo](assets/images/cryptocurrency/monero.svg){ align=right }
 
 **Monero** uses a blockchain with privacy-enhancing technologies that obfuscate transactions to achieve [:material-incognito: Anonymity](basics/common-threats.md#anonymity-vs-privacy){ .pg-purple }. Elke Monero-transactie verbergt het transactiebedrag, het verzenden en ontvangen van adressen en de bron van fondsen zonder hoepels om doorheen te springen, waardoor het een ideale keuze is voor beginners met cryptocurrency.
 

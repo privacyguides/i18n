@@ -11,12 +11,12 @@ schema:
   - "@context": http://schema.org
     "@type": CreativeWork
     name: Android
-    image: /assets/img/android/android.svg
+    image: /assets/images/android/android.svg
     url: https://source.android.com/
     sameAs: https://fr.wikipedia.org/wiki/Android
 ---
 
-![logo Android](../assets/img/android/android.svg){ align=right }
+![Android logo](../assets/images/android/android.svg){ align=right }
 
 Le **Android Open Source Project** (AOSP) est un système d'exploitation mobile open-source dirigé par Google, utilisé par la majorité des appareils mobiles dans le monde. La plupart des téléphones vendu avec Android sont modifiés pour inclure des intégrations et applications invasives de la vie privée comme les Services Google Play, ainsi vous pouvez significativement améliorer votre confidentialité sur votre appareil mobile en remplaçant l'installation par défaut de votre téléphone avec une version d'android sans fonctionnalité intrusive.
 

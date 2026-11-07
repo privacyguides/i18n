@@ -17,8 +17,8 @@ cover: router.webp
 
 <div class="grid cards" markdown>
 
-- ![AdGuard Home 圖示](../assets/img/self-hosting/adguard-home.svg){ .twemoji loading=lazy } [AdGuard Home](dns-filtering.md#adguard-home)
-- ![Pi-Hole 圖示](../assets/img/self-hosting/pi-hole.svg){ .twemoji loading=lazy } [Pi-Hole](dns-filtering.md#pi-hole)
+- ![AdGuard Home logo](../assets/images/self-hosting/adguard-home.svg){ .twemoji loading=lazy } [AdGuard Home](dns-filtering.md#adguard-home)
+- ![Pi-Hole logo](../assets/images/self-hosting/pi-hole.svg){ .twemoji loading=lazy } [Pi-Hole](dns-filtering.md#pi-hole)
 
 </div>
 
@@ -28,9 +28,9 @@ cover: router.webp
 
 <div class="grid cards" markdown>
 
-- ![Stalwart 圖示](../assets/img/self-hosting/stalwart.svg){ .twemoji loading=lazy } [Stalwart](email-servers.md#stalwart)
-- ![Mailcow 圖示](../assets/img/self-hosting/mailcow.svg){ .twemoji loading=lazy } [Mailcow](email-servers.md#mailcow)
-- ![Mail-in-a-Box 圖示](../assets/img/self-hosting/mail-in-a-box.svg){ .twemoji loading=lazy } [Mail-in-a-Box](email-servers.md#mail-in-a-box)
+- ![Stalwart logo](../assets/images/self-hosting/stalwart.svg){ .twemoji loading=lazy } [Stalwart](email-servers.md#stalwart)
+- ![Mailcow logo](../assets/images/self-hosting/mailcow.svg){ .twemoji loading=lazy } [Mailcow](email-servers.md#mailcow)
+- ![Mail-in-a-Box logo](../assets/images/self-hosting/mail-in-a-box.svg){ .twemoji loading=lazy } [Mail-in-a-Box](email-servers.md#mail-in-a-box)
 
 </div>
 
@@ -40,9 +40,9 @@ cover: router.webp
 
 <div class="grid cards" markdown>
 
-- ![PhotoPrism 圖示](../assets/img/self-hosting/photoprism.svg){ .twemoji loading=lazy } [PhotoPrism](file-management.md#photoprism)
-- ![FreedomBox 圖示](../assets/img/self-hosting/freedombox.svg){ .twemoji loading=lazy } [FreedomBox](file-management.md#freedombox)
-- ![Nextcloud 圖示](../assets/img/self-hosting/nextcloud.svg){ .twemoji loading=lazy } [Nextcloud](file-management.md#nextcloud)
+- ![PhotoPrism logo](../assets/images/self-hosting/photoprism.svg){ .twemoji loading=lazy } [PhotoPrism](file-management.md#photoprism)
+- ![FreedomBox logo](../assets/images/self-hosting/freedombox.svg){ .twemoji loading=lazy } [FreedomBox](file-management.md#freedombox)
+- ![Nextcloud logo](../assets/images/self-hosting/nextcloud.svg){ .twemoji loading=lazy } [Nextcloud](file-management.md#nextcloud)
 
 </div>
 
@@ -54,8 +54,8 @@ cover: router.webp
 
 <div class="admonition recommendation" markdown>
 
-![Vaultwarden 圖示](../assets/img/self-hosting/vaultwarden.svg#only-light){ align=right }
-![Vaultwarden 圖示](../assets/img/self-hosting/vaultwarden-dark.svg#only-dark){ align=right }
+![Vaultwarden logo](../assets/images/self-hosting/vaultwarden.svg#only-light){ align=right }
+![Vaultwarden logo](../assets/images/self-hosting/vaultwarden-dark.svg#only-dark){ align=right }
 
 **Vaultwarden** 是一套使用 Rust 寫成的 [Bitwarden](../passwords.md#bitwarden) 同步伺服器的替代品，並相容於 Bitwarden 官方的客戶端，非常適合在架設資源需求繁重的[官方服務](https://github.com/bitwarden/server)可能不太理想的情況下，來自行架設。
 
@@ -74,7 +74,7 @@ cover: router.webp
 
 <div class="admonition recommendation" markdown>
 
-![Mastodon 圖示](../assets/img/social-networks/mastodon.svg){ align=right }
+![Mastodon logo](../assets/images/social-networks/mastodon.svg){ align=right }
 
 **Mastodon** 是基於開放網路通訊協定和自由及開放原始碼軟體的社交網路。他使用分散式的 **:simple-activitypub: ActivityPub** 通訊協定。
 
@@ -91,7 +91,7 @@ Mastodon 從龐大且活躍的自行架設社群中獲益良多，其管理方�
 
 <div class="admonition recommendation" markdown>
 
-![Element 圖示](../assets/img/social-networks/element.svg){ align=right }
+![Element logo](../assets/images/social-networks/element.svg){ align=right }
 
 **Element** 是 **:simple-matrix: Matrix** 通訊協定的旗艦級用戶端，此開放式標準可透過聯合聊天室的方式實現分散式通訊。
 
@@ -107,14 +107,14 @@ Mastodon 從龐大且活躍的自行架設社群中獲益良多，其管理方�
 
 <div class="grid cards" markdown>
 
-- ![Redlib 圖示](../assets/img/frontends/redlib.svg){ .lg .middle .twemoji } [**Redlib (Reddit)**](../frontends.md#redlib)
+- ![Redlib logo](../assets/images/frontends/redlib.svg){ .lg .middle .twemoji } [**Redlib (Reddit)**](../frontends.md#redlib)
 
   ---
 
   [:octicons-info-16:](https://github.com/redlib-org/redlib#deployment){ .card-link title="管理文件" }
   [:octicons-code-16:](https://github.com/redlib-org/redlib){ .card-link title="原始碼" }
 
-- ![Invidious 圖示](../assets/img/frontends/invidious.svg#only-light){ .twemoji }![Invidious logo](../assets/img/frontends/invidious-dark.svg#only-dark){ .twemoji } [**Invidious (YouTube)**](../frontends.md#invidious)
+- ![Invidious logo](../assets/images/frontends/invidious.svg#only-light){ .twemoji }![Invidious logo](../assets/images/frontends/invidious-dark.svg#only-dark){ .twemoji } [**Invidious (YouTube)**](../frontends.md#invidious)
 
   ---
 
@@ -122,7 +122,7 @@ Mastodon 從龐大且活躍的自行架設社群中獲益良多，其管理方�
   [:octicons-info-16:](https://docs.invidious.io/installation){ .card-link title="管理文件" }
   [:octicons-code-16:](https://github.com/iv-org/invidious){ .card-link title="原始碼" }
 
-- ![Piped 圖示](../assets/img/frontends/piped.svg){ .twemoji } [**Piped (YouTube)**](../frontends.md#piped)
+- ![Piped logo](../assets/images/frontends/piped.svg){ .twemoji } [**Piped (YouTube)**](../frontends.md#piped)
 
   ---
 
@@ -137,7 +137,7 @@ Mastodon 從龐大且活躍的自行架設社群中獲益良多，其管理方�
 
 <div class="grid cards" markdown>
 
-- ![Peergos 圖示](../assets/img/cloud/peergos.svg){ .twemoji } [**Peergos**](../cloud.md#peergos)
+- ![Peergos logo](../assets/images/cloud/peergos.svg){ .twemoji } [**Peergos**](../cloud.md#peergos)
 
   ---
 
@@ -145,7 +145,7 @@ Mastodon 從龐大且活躍的自行架設社群中獲益良多，其管理方�
   [:octicons-info-16:](https://github.com/peergos/peergos#usage---running-locally-to-log-in-to-another-instance){ .card-link title="管理文件" }
   [:octicons-code-16:](https://github.com/Peergos/Peergos){ .card-link title="原始碼" }
 
-- ![Addy.io 圖示](../assets/img/email-aliasing/addy.svg){ .twemoji } [**Addy.io**](../email-aliasing.md#addyio)
+- ![Addy.io logo](../assets/images/email-aliasing/addy.svg){ .twemoji } [**Addy.io**](../email-aliasing.md#addyio)
 
   ---
 
@@ -153,7 +153,7 @@ Mastodon 從龐大且活躍的自行架設社群中獲益良多，其管理方�
   [:octicons-info-16:](https://addy.io/self-hosting){ .card-link title="管理文件" }
   [:octicons-code-16:](https://github.com/anonaddy){ .card-link title="原始碼" }
 
-- ![SimpleLogin 圖示](../assets/img/email-aliasing/simplelogin.svg){ .twemoji } [**SimpleLogin**](../email-aliasing.md#simplelogin)
+- ![SimpleLogin logo](../assets/images/email-aliasing/simplelogin.svg){ .twemoji } [**SimpleLogin**](../email-aliasing.md#simplelogin)
 
   ---
 
@@ -161,7 +161,7 @@ Mastodon 從龐大且活躍的自行架設社群中獲益良多，其管理方�
   [:octicons-info-16:](https://github.com/simple-login/app#prerequisites){ .card-link title="管理文件" }
   [:octicons-code-16:](https://github.com/simple-login){ .card-link title="原始碼" }
 
-- ![Ente 圖示](../assets/img/photo-management/ente.svg){ .twemoji } [**Ente Photos**](../photo-management.md#ente-photos)
+- ![Ente logo](../assets/images/photo-management/ente.svg){ .twemoji } [**Ente Photos**](../photo-management.md#ente-photos)
 
   ---
 
@@ -169,7 +169,7 @@ Mastodon 從龐大且活躍的自行架設社群中獲益良多，其管理方�
   [:octicons-info-16:](https://ente.com/help/self-hosting/){ .card-link title="Admin Documentation" }
   [:octicons-code-16:](https://github.com/ente-io/ente){ .card-link title="Source Code" }
 
-- ![CryptPad 圖示](../assets/img/document-collaboration/cryptpad.svg){ .twemoji } [**CryptPad**](../document-collaboration.md#cryptpad)
+- ![CryptPad logo](../assets/images/document-collaboration/cryptpad.svg){ .twemoji } [**CryptPad**](../document-collaboration.md#cryptpad)
 
   ---
 
@@ -177,7 +177,7 @@ Mastodon 從龐大且活躍的自行架設社群中獲益良多，其管理方�
   [:octicons-info-16:](https://docs.cryptpad.org/en/admin_guide/index.html){ .card-link title="管理文件" }
   [:octicons-code-16:](https://github.com/xwiki-labs/cryptpad){ .card-link title="原始碼" }
 
-- ![Send 圖示](../assets/img/file-sharing-sync/send.svg){ .twemoji } [**Send**](../file-sharing.md#send)
+- ![Send logo](../assets/images/file-sharing-sync/send.svg){ .twemoji } [**Send**](../file-sharing.md#send)
 
   ---
 
@@ -185,7 +185,7 @@ Mastodon 從龐大且活躍的自行架設社群中獲益良多，其管理方�
   [:octicons-info-16:](https://github.com/timvisee/send/blob/master/docs/deployment.md){ .card-link title="管理文件" }
   [:octicons-code-16:](https://github.com/timvisee/send){ .card-link title="原始碼" }
 
-- ![LibreTranslate 圖示](../assets/img/language-tools/libretranslate.png){ .twemoji } [**LibreTranslate**](../language-tools.md#libretranslate)
+- ![LibreTranslate logo](../assets/images/language-tools/libretranslate.png){ .twemoji } [**LibreTranslate**](../language-tools.md#libretranslate)
 
   ---
 
@@ -193,7 +193,7 @@ Mastodon 從龐大且活躍的自行架設社群中獲益良多，其管理方�
   [:octicons-info-16:](https://docs.libretranslate.com){ .card-link title="管理文件" }
   [:octicons-code-16:](https://github.com/LibreTranslate/LibreTranslate){ .card-link title="原始碼" }
 
-- ![Miniflux 圖示](../assets/img/news-aggregators/miniflux.svg#only-light){ .twemoji }![Miniflux 圖示](../assets/img/news-aggregators/miniflux-dark.svg#only-dark){ .twemoji } [**Miniflux**](../news-aggregators.md#miniflux)
+- ![Miniflux logo](../assets/images/news-aggregators/miniflux.svg#only-light){ .twemoji }![Miniflux logo](../assets/images/news-aggregators/miniflux-dark.svg#only-dark){ .twemoji } [**Miniflux**](../news-aggregators.md#miniflux)
 
   ---
 
@@ -201,7 +201,7 @@ Mastodon 從龐大且活躍的自行架設社群中獲益良多，其管理方�
   [:octicons-info-16:](https://miniflux.app/docs/index.html#administration-guide){ .card-link title="管理文件" }
   [:octicons-code-16:](https://github.com/miniflux/v2){ .card-link title="原始碼" }
 
-- ![Standard Notes 圖示](../assets/img/notebooks/standard-notes.svg){ .twemoji } [**Standard Notes**](../notebooks.md#standard-notes)
+- ![Standard Notes logo](../assets/images/notebooks/standard-notes.svg){ .twemoji } [**Standard Notes**](../notebooks.md#standard-notes)
 
   ---
 
@@ -209,7 +209,7 @@ Mastodon 從龐大且活躍的自行架設社群中獲益良多，其管理方�
   [:octicons-info-16:](https://standardnotes.com/help/47/can-i-self-host-standard-notes){ .card-link title="管理文件" }
   [:octicons-code-16:](https://github.com/standardnotes){ .card-link title="原始碼" }
 
-- ![PrivateBin 圖示](../assets/img/pastebins/privatebin.svg){ .twemoji } [**PrivateBin**](../pastebins.md#privatebin)
+- ![PrivateBin logo](../assets/images/pastebins/privatebin.svg){ .twemoji } [**PrivateBin**](../pastebins.md#privatebin)
 
   ---
 
@@ -217,7 +217,7 @@ Mastodon 從龐大且活躍的自行架設社群中獲益良多，其管理方�
   [:octicons-info-16:](https://github.com/PrivateBin/PrivateBin/blob/master/doc/Installation.md){ .card-link title="管理文件" }
   [:octicons-code-16:](https://github.com/PrivateBin/PrivateBin){ .card-link title="原始碼" }
 
-- ![Paaster 圖示](../assets/img/pastebins/paaster.svg){ .twemoji } [**Paaster**](../pastebins.md#paaster)
+- ![Paaster logo](../assets/images/pastebins/paaster.svg){ .twemoji } [**Paaster**](../pastebins.md#paaster)
 
   ---
 
@@ -225,7 +225,7 @@ Mastodon 從龐大且活躍的自行架設社群中獲益良多，其管理方�
   [:octicons-info-16:](https://github.com/WardPearce/paaster#deployment){ .card-link title="管理文件" }
   [:octicons-code-16:](https://github.com/WardPearce/paaster){ .card-link title="原始碼" }
 
-- ![SimpleX Chat 圖示](../assets/img/messengers/simplex.svg){ .twemoji } [**SimpleX Chat**](../real-time-communication.md#simplex-chat)
+- ![SimpleX Chat logo](../assets/images/messengers/simplex.svg){ .twemoji } [**SimpleX Chat**](../real-time-communication.md#simplex-chat)
 
   ---
 

@@ -32,9 +32,9 @@ MAGIC 그랜츠는 프라이버시 가이드의 회계 호스트로, 자체 개�
     ![Power Up Privacy]{ title="Power Up Privacy" }
     [![Cape]](https://www.cape.co){ target=_blank title="Cape" }
 
-      [Power Up Privacy]: ../assets/img/donors/power-up-privacy.webp
-      [DeleteMe]: ../assets/img/donors/deleteme.webp
-      [Cape]: ../assets/img/donors/cape.webp
+      [Power Up Privacy]: ../assets/images/donors/power-up-privacy.webp
+      [DeleteMe]: ../assets/images/donors/deleteme.webp
+      [Cape]: ../assets/images/donors/cape.webp
 
     </div>
 

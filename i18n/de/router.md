@@ -16,10 +16,10 @@ Below are a few alternative operating systems that can be used on routers, Wi-Fi
 
 <div class="admonition recommendation" markdown>
 
-![OpenWrt-Logo](assets/img/router/openwrt.svg#only-light){ align=right }
-![OpenWrt-Logo](assets/img/router/openwrt-dark.svg#only-dark){ align=right }
+![OpenWrt logo](assets/images/router/openwrt.svg#only-light){ align=right }
+![OpenWrt logo](assets/images/router/openwrt-dark.svg#only-dark){ align=right }
 
-**OpenWrt* ist ein auf Linux basierendes Betriebssystem; es wird primär auf eingebetteten Geräten zum Weiterleiten des Netzwerkverkehrs genutzt. Es enthält util-linux, uClib und BusyBox. All the components have been optimized for home routers.
+**OpenWrt** is a Linux-based operating system; it's primarily used on embedded devices to route network traffic. Es enthält util-linux, uClib und BusyBox. All the components have been optimized for home routers.
 
 [:octicons-home-16: Hauptseite](https://openwrt.org){ .md-button .md-button--primary }
 [:octicons-info-16:](https://openwrt.org/docs/start){ .card-link title=Dokumentation}
@@ -36,7 +36,7 @@ Sie können in der [table of hardware](https://openwrt.org/toh/start) von OpenWr
 
 <div class="admonition recommendation" markdown>
 
-![OPNsense logo](assets/img/router/opnsense.svg){ align=right }
+![OPNsense logo](assets/images/router/opnsense.svg){ align=right }
 
 **OPNsense** is an open-source, FreeBSD-based firewall and routing platform which incorporates many advanced features such as traffic shaping, load balancing, and VPN capabilities, with many more features available in the form of plugins. OPNsense wird in der Regel als Perimeter-Firewall, Router, Wireless Access Point, DHCP-Server, DNS-Server und VPN-Endpunkt eingesetzt.
 

@@ -18,7 +18,7 @@ cover: cloud.webp
 
 <div class="admonition recommendation" markdown>
 
-![포토프리즘 로고](../assets/img/self-hosting/photoprism.svg){ align=right }
+![PhotoPrism logo](../assets/images/self-hosting/photoprism.svg){ align=right }
 
 **포토프리즘**은 사진을 관리하는 플랫폼입니다. 앨범 동기화 및 공유는 물론 다양한 [기능](https://photoprism.app/features)을 지원합니다. 종단 간 암호화를 지원하지 않으므로, 신뢰할 수 있고 직접 관리하는 서버에서 호스팅하는 것이 가장 좋습니다.
 
@@ -35,7 +35,7 @@ cover: cloud.webp
 
 <div class="admonition recommendation" markdown>
 
-![프리덤박스 로고](../assets/img/self-hosting/freedombox.svg){ align=right }
+![FreedomBox logo](../assets/images/self-hosting/freedombox.svg){ align=right }
 
 **프리덤박스**는 [싱글 보드 컴퓨터(SBC)](https://en.wikipedia.org/wiki/Single-board_computer)에서 실행되도록 설계된 운영 체제입니다. 파일 공유 같은 용도의 서버 애플리케이션을 쉽게 설정할 수 있도록 하는 것이 목적입니다.
 
@@ -50,7 +50,7 @@ cover: cloud.webp
 
 <div class="admonition recommendation" markdown>
 
-![넥스트클라우드 로고](../assets/img/self-hosting/nextcloud.svg){ align=right }
+![Nextcloud logo](../assets/images/self-hosting/nextcloud.svg){ align=right }
 
 **넥스트클라우드**는 직접 관리하는 개인 서버에 자신만의 파일 호스팅 서비스를 만들 수 있는 자유 오픈 소스 클라이언트-서버 소프트웨어입니다.
 

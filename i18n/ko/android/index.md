@@ -11,12 +11,12 @@ schema:
   - "@context": http://schema.org
     "@type": CreativeWork
     name: 안드로이드
-    image: /assets/img/android/android.svg
+    image: /assets/images/android/android.svg
     url: https://source.android.com/
     sameAs: https://en.wikipedia.org/wiki/Android_(operating_system)
 ---
 
-![안드로이드 로고](../assets/img/android/android.svg){ align=right }
+![Android logo](../assets/images/android/android.svg){ align=right }
 
 **안드로이드 오픈 소스 프로젝트**(AOSP)는 구글이 주도하는 오픈 소스 모바일 운영 체제로, 전 세계 모바일 기기 대부분에서 사용되고 있습니다. 안드로이드가 탑재되어 판매되는 휴대폰 대부분은 구글 플레이 서비스 같은 침해적인 통합 기능과 앱이 포함되도록 수정되어 있으므로, 휴대폰에 기본 설치된 시스템을 이러한 침해적인 기능이 없는 안드로이드 버전으로 교체하면 모바일 기기의 프라이버시를 크게 향상할 수 있습니다.
 

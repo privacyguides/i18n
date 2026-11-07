@@ -5,7 +5,7 @@ description: Android is an open-source operating system with strong security pro
 robots: nofollow, max-snippet:-1, max-image-preview:large
 ---
 
-![Android logo](../assets/img/android/android.svg){ align=right }
+![Android logo](../assets/images/android/android.svg){ align=right }
 
 Az **Android Nyílt Forráskódú Projekt** egy biztonságos mobil operációs rendszer, amely erős [app sandbox-kszal](https://source.android.com/security/app-sandbox), [Verified Boot-tal](https://source.android.com/security/verifiedboot) (AVB) és egy erőteljes [engedély](https://developer.android.com/guide/topics/permissions/overview) ellenőrző rendszerrel rendelkezik.
 

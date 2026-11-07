@@ -10,9 +10,9 @@ cover: email-aliasing.webp
 - [:material-account-cash: 監控資本主義](basics/common-threats.md#surveillance-as-a-business-model){ .pg-brown }
 - [:material-account-search: 公共暴露](basics/common-threats.md#limiting-public-information){ .pg-green }
 
-**電子郵件別名服務** 可讓您輕鬆地為每個註冊的網站產生一個新的電子郵件地址。 電子郵件別名會自動把郵件轉發到所選擇的電子郵件地址，以隱藏「主要」電子郵件地址和 [電子郵件提供商](email.md)。
+**電子郵件別名服務** 可讓您輕鬆地為每個註冊的網站產生一個新的電子郵件地址。電子郵件別名會自動把郵件轉發到所選擇的電子郵件地址，以隱藏「主要」電子郵件地址和 [電子郵件提供商](email.md)。
 
-電子郵件別名還可以在您的電子郵件供應商停止運作時提供保障。 在這種情況下，可輕鬆地將別名設定轉發給新的電子郵件地址。 但反過來，您也需要信任別名服務能夠持續運作。
+電子郵件別名還可以在您的電子郵件供應商停止運作時提供保障。在這種情況下，可輕鬆地將別名設定轉發給新的電子郵件地址。但反過來，您也需要信任別名服務能夠持續運作。
 
 ## Benefits
 
@@ -41,20 +41,20 @@ Email aliasing services also have a number of benefits over "temporary email" se
 
 <div class="grid cards" markdown>
 
-- ![Addy.io logo](assets/img/email-aliasing/addy.svg){ .twemoji } [Addy.io](email-aliasing.md#addyio)
-- ![SimpleLogin logo](assets/img/email-aliasing/simplelogin.svg){ .twemoji } [SimpleLogin](email-aliasing.md#simplelogin)
+- ![Addy.io logo](assets/images/email-aliasing/addy.svg){ .twemoji } [Addy.io](email-aliasing.md#addyio)
+- ![SimpleLogin logo](assets/images/email-aliasing/simplelogin.svg){ .twemoji } [SimpleLogin](email-aliasing.md#simplelogin)
 
 </div>
 
-我們所推薦的電子郵件別名提供商可讓您在他們所控制的網域名稱上建立別名；也可在您自己的自訂網域名稱上建立別名，而只需支付適度的年費。 如果想要最大限度的控制，也可以自主託管。 However, using a custom domain can have privacy-related drawbacks: If you are the only person using your custom domain, your actions can be easily tracked across websites simply by looking at the domain name in the email address and ignoring everything before the `@` symbol.
+我們所推薦的電子郵件別名提供商可讓您在他們所控制的網域名稱上建立別名；也可在您自己的自訂網域名稱上建立別名，而只需支付適度的年費。如果想要最大限度的控制，也可以自主託管。 However, using a custom domain can have privacy-related drawbacks: If you are the only person using your custom domain, your actions can be easily tracked across websites simply by looking at the domain name in the email address and ignoring everything before the `@` symbol.
 
-使用別名服務代表您需要同時信任您的電子郵件供應商和您的別名供應商，讓他們處理您未加密的郵件。 有些提供商會透過自動 PGP 加密[^1] 稍微緩解這個問題，在傳送至您最終的電子信箱供應商之前，先將收到的電子郵件加密，將您需要信任的對象從兩個減少到一個。
+使用別名服務代表您需要同時信任您的電子郵件供應商和您的別名供應商，讓他們處理您未加密的郵件。有些提供商會透過自動 PGP 加密[^1] 稍微緩解這個問題，在傳送至您最終的電子信箱供應商之前，先將收到的電子郵件加密，將您需要信任的對象從兩個減少到一個。
 
 ### Addy.io
 
 <div class="admonition recommendation" markdown>
 
-![Addy.io logo](assets/img/email-aliasing/addy.svg){ align=right }
+![Addy.io logo](assets/images/email-aliasing/addy.svg){ align=right }
 
 **Addy.io** lets you create 10 domain aliases on a shared domain for free, or unlimited ["standard" aliases](https://addy.io/faq/#what-is-a-standard-alias).
 
@@ -78,7 +78,7 @@ Email aliasing services also have a number of benefits over "temporary email" se
 
 The number of shared aliases (which end in a shared domain like `@addy.io`) that you can create depends on the [plan](https://addy.io/#pricing) you are subscribed to. You can pay for these plans using [cryptocurrency](https://addy.io/help/subscribing-with-cryptocurrency) or purchase a voucher code from [ProxyStore](https://addy.io/help/voucher-codes), Addy.io's official reseller.
 
-You can create unlimited standard aliases which end in a domain like `@[username].addy.io` or a custom domain on paid plans. 付費帳戶可建立無數的標準別名如尾綴為 @[username]. 或是自定域名。不過如前面提過，標準別名電郵並不利於隱私，因為只依據域名就可以簡單地把別名綁定起來。 當共用網域名服務封鎖此功能時，它就派得上用場了。
+You can create unlimited standard aliases which end in a domain like `@[username].addy.io` or a custom domain on paid plans. 付費帳戶可建立無數的標準別名如尾綴為 @[username]. 或是自定域名。不過如前面提過，標準別名電郵並不利於隱私，因為只依據域名就可以簡單地把別名綁定起來。當共用網域名服務封鎖此功能時，它就派得上用場了。
 
 Securitum [audited](https://addy.io/blog/addy-io-passes-independent-security-audit) Addy.io in September 2023 and no significant vulnerabilities [were identified](https://addy.io/addy-io-security-audit.pdf).
 
@@ -90,13 +90,13 @@ Securitum [audited](https://addy.io/blog/addy-io-passes-independent-security-aud
 - [x] 1個收件人郵箱
 - [x] 自動 PGP 加密[^1]
 
-如果您取消訂閱，您仍可享有付費方案的功能，直到該期帳單最後繳費期限結束為止。 在您當期的最後繳費期限結束後，大部分付費功能（包括任何自訂網域）將會 [停用](https://addy.io/faq/#what-happens-if-i-have-a-subscription-but-then-cancel-it) ，付費帳戶設定將還原為預設值，如果之前已停用，則會啟用 catch-all 功能。
+如果您取消訂閱，您仍可享有付費方案的功能，直到該期帳單最後繳費期限結束為止。在您當期的最後繳費期限結束後，大部分付費功能（包括任何自訂網域）將會 [停用](https://addy.io/faq/#what-happens-if-i-have-a-subscription-but-then-cancel-it) ，付費帳戶設定將還原為預設值，如果之前已停用，則會啟用 catch-all 功能。
 
 ### SimpleLogin
 
 <div class="admonition recommendation" markdown>
 
-![SimpleLogin logo](assets/img/email-aliasing/simplelogin.svg){ align=right }
+![SimpleLogin logo](assets/images/email-aliasing/simplelogin.svg){ align=right }
 
 **SimpleLogin** 是免費服務，可在各種共享域名上提供電子郵件別名，並可選擇提供無限別名和自訂域名等付費功能。
 
@@ -133,7 +133,7 @@ Securitum 在 2022 年初[審核](https://simplelogin.io/blog/security-audit) Si
 - [x] 1個收件人郵箱
 - [ ] 自動 PGP 加密[^1] 只在付費方案下可用
 
-當您結束訂閱後，您建立的所有別名仍可接收和傳送電子郵件。 但是，您不能建立任何超出免費計劃限制的新別名，也不能新增網域、目錄或郵箱。
+當您結束訂閱後，您建立的所有別名仍可接收和傳送電子郵件。但是，您不能建立任何超出免費計劃限制的新別名，也不能新增網域、目錄或郵箱。
 
 ## 標準
 

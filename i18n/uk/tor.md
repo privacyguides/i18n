@@ -9,7 +9,7 @@ schema:
     "@context": http://schema.org
     "@type": SoftwareApplication
     name: Tor Browser
-    image: /assets/img/browsers/tor.svg
+    image: /assets/images/browsers/tor.svg
     url: https://torproject.org
     sameAs: https://uk.wikipedia.org/wiki/Tor
     applicationCategory: Web Browser
@@ -50,9 +50,9 @@ schema:
 
 <div class="admonition recommendation" markdown>
 
-![Логотип Tor Browser](assets/img/browsers/tor.svg){align=right}
+![Tor Browser logo](assets/images/browsers/tor.svg){ align=right }
 
-**Tor Browser** це оптимальний вибір, якщо вам потрібна анонімність, оскільки він надає доступ до мережі Tor і мостів, а також включає в себе стандартні налаштування і розширення, які автоматично налаштовуються на рівні безпеки за замовчуванням: *Стандартний*, *Безпечніший* і *Найбезпечніший*.
+**Tor Browser** is the top choice if you need anonymity, as it provides you with access to the Tor network and bridges, and it includes default settings and extensions that are automatically configured by the default security levels: *Standard*, *Safer* and *Safest*.
 
 [:octicons-home-16: Домашня сторінка ](https://torproject.org){ .md-button .md-button--primary }
 [:simple-torbrowser:](http://2gzyxa5ihm7nsggfxnu52rck2vv4rvmdlkiu3zzui5du4xyclen53wid.onion){ .card-link title="Onion Service" }
@@ -88,9 +88,9 @@ schema:
 
 <div class="admonition recommendation" markdown>
 
-![Onion Browser logo](assets/img/self-contained-networks/onion_browser.svg){align=right}
+![Onion Browser logo](assets/images/self-contained-networks/onion_browser.svg){ align=right }
 
-**Onion Browser** - це браузер з відкритим вихідним кодом, який дозволяє анонімно переглядати вебсторінки через мережу Tor на пристроях iOS і схвалений [Tor Project](https://support.torproject.org/glossary/onion-browser).
+**Onion Browser** is an open-source browser that lets you browse the web anonymously over the Tor network on iOS devices and is endorsed by the [Tor Project](https://support.torproject.org/glossary/onion-browser).
 
 [:material-star-box: Читайте наш останній огляд Onion Browser.](https://www.privacyguides.org/articles/2024/09/18/onion-browser-review)
 

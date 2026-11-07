@@ -18,7 +18,7 @@ cover: cloud.webp
 
 <div class="admonition recommendation" markdown>
 
-![PhotoPrism logo](../assets/img/self-hosting/photoprism.svg){ align=right }
+![PhotoPrism logo](../assets/images/self-hosting/photoprism.svg){ align=right }
 
 منصة PhotoPrism هي منصة لإدارة الصور. تدعم مزامنة ألبومات الصور ومشاركتها، بالإضافة إلى مجموعة متنوعة من [الميزات](https://photoprism.app/features) الأخرى. لا تدعم التشفير التام بين الطرفين (End-to-End Encryption)، لذلك يُفضل استضافتها على خادم تثق به ويكون تحت سيطرتك.
 
@@ -35,7 +35,7 @@ cover: cloud.webp
 
 <div class="admonition recommendation" markdown>
 
-![FreedomBox logo](../assets/img/self-hosting/freedombox.svg){ align=right }
+![FreedomBox logo](../assets/images/self-hosting/freedombox.svg){ align=right }
 
 نظام **FreedomBox** هو نظام تشغيل مصمم للعمل على [كمبيوتر أحادي اللوحة (SBC)](https://en.wikipedia.org/wiki/Single-board_computer). يهدف إلى تسهيل إعداد تطبيقات الخوادم لأغراض مختلفة، مثل مشاركة الملفات.
 
@@ -50,7 +50,7 @@ cover: cloud.webp
 
 <div class="admonition recommendation" markdown>
 
-![Nextcloud logo](../assets/img/self-hosting/nextcloud.svg){ align=right }
+![Nextcloud logo](../assets/images/self-hosting/nextcloud.svg){ align=right }
 
 مجموعة Nextcloud هي مجموعة من البرامج المجانية ومفتوحة المصدر، تتيح لك إنشاء خدمة خاصة لاستضافة ملفاتك على خادم تتحكم فيه بنفسك.
 

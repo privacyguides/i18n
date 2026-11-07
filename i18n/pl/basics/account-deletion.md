@@ -13,7 +13,7 @@ Z upływem czasu łatwo zebrać wiele kont internetowych, z których część mo
 Jeśli masz menedżera haseł, z którego korzystasz przez całe swoje cyfrowe życie, ta część będzie wyjątkowo prosta. Często mają one wbudowane funkcje wykrywania, czy Twoje dane logowania zostały ujawnione w wyniku wycieku danych — jak choćby [raport wycieków danych](https://bitwarden.com/blog/have-you-been-pwned) Bitwarden.
 
 <figure markdown>
-  ![Funkcja raport wycieków danych Bitwarden](../assets/img/account-deletion/exposed_passwords.png)
+  ![Bitwarden's Data Breach Report feature](../assets/images-localized/account-deletion/exposed_passwords.png)
 </figure>
 
 Nawet jeśli nigdy świadomie nie zdarzyło Ci się korzystać z menedżera haseł, istnieje szansa, że używasz go w przeglądarce ([Firefox](https://support.mozilla.org/kb/password-manager-remember-delete-edit-logins), [Chrome](https://passwords.google.com/intro), [Edge](https://support.microsoft.com/microsoft-edge/save-or-forget-passwords-in-microsoft-edge-b4beecb0-f2a8-1ca0-f26f-9ec247a3f336)) lub telefonie ([Google](https://passwords.google.com/intro) na standardowym systemie Android; aplikacja[Hasła](https://support.apple.com/HT211146) w systemie iOS), nawet tego nie zauważając.

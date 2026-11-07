@@ -21,7 +21,7 @@ cover: dns.webp
 
 <div class="admonition recommendation" markdown>
 
-![Pi-hole logo](../assets/img/self-hosting/pi-hole.svg){ align=right }
+![Pi-hole logo](../assets/images/self-hosting/pi-hole.svg){ align=right }
 
 أداة Pi-hole أداة مفتوحة المصدر لحجب المحتوى غير المرغوب فيه عبر الـDNS، وتوفر واجهة ويب سهلة الاستخدام لعرض الإحصائيات وإدارة المحتوى المحظور. صُمّم Pi-hole ليعمل على أجهزة الـRaspberry Pi، لكنه لا يقتصر عليها، ويمكن تشغيله على أجهزة أخرى.
 
@@ -37,7 +37,7 @@ cover: dns.webp
 
 <div class="admonition recommendation" markdown>
 
-![AdGuard Home logo](../assets/img/self-hosting/adguard-home.svg){ align=right }
+![AdGuard Home logo](../assets/images/self-hosting/adguard-home.svg){ align=right }
 
 أداة AdGuard Home أداة مفتوحة المصدر لحجب المحتوى غير المرغوب فيه عبر الـDNS، وتوفر واجهة ويب بتصميم متقن وسهل الاستخدام لعرض الإحصائيات وإدارة المحتوى المحظور.
 

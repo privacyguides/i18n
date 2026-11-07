@@ -18,7 +18,7 @@ cover: language-tools.webp
 
 <div class="admonition recommendation" markdown>
 
-![LibreTranslate 標誌](assets/img/language-tools/libretranslate.png){ align=right }
+![LibreTranslate logo](assets/images/language-tools/libretranslate.png){ align=right }
 
 **LibreTranslate** 是自由且開放原始碼的機器翻譯網頁介面與 API 伺服器。其在後端使用 [Argos Translate](https://github.com/argosopentech/argos-translate) 模型進行翻譯。
 

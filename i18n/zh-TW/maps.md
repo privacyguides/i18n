@@ -18,7 +18,7 @@ cover: maps.webp
 
 <div class="admonition recommendation" markdown>
 
-![Organic Maps logo](assets/img/maps/organic-maps.svg){ align=right }
+![Organic Maps logo](assets/images/maps/organic-maps.svg){ align=right }
 
 **Organic Maps** 是一款開放原始碼、由社群共同開發的地圖顯示與衛星導航式導航應用程式，專為步行者、駕駛者及腳踏車騎士設計。此應用程式提供以開放街圖資料為基礎的全球離線地圖，且提供尊重隱私的導航：無位置追蹤、無資料蒐集、無廣告。此應用程式可完全離線使用。
 
@@ -45,7 +45,7 @@ cover: maps.webp
 
 <div class="admonition recommendation" markdown>
 
-![OsmAnd logo](assets/img/maps/osmand.svg){ align=right }
+![OsmAnd logo](assets/images/maps/osmand.svg){ align=right }
 
 **OsmAnd** 是一款以開放街圖為基礎的開放原始碼離線地圖與導航應用程式，提供步行、騎腳踏車、開車及大眾運輸的逐步導航服務。您可以在開放街圖 Wiki 上找到 OsmAnd 支援的[功能](https://wiki.openstreetmap.org/wiki/OsmAnd#Features)的詳細資訊。
 

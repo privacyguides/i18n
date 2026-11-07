@@ -36,9 +36,9 @@ global:
 
 <div class="admonition recommendation" markdown>
 
-![Control D logo](assets/img/dns/control-d.svg){ align=right }
+![Control D logo](assets/images/dns/control-d.svg){ align=right }
 
-**Control D** 可自訂的 DNS 服務，可在 DNS 層級封鎖安全性威脅、不必要的內容和廣告。
+**Control D** is a customizable DNS service which lets you block security threats, unwanted content, and advertisements on a DNS level.
 
 付費方案之外，他們還提供許多可免費使用的預先配置 DNS 解析器。
 
@@ -65,9 +65,9 @@ global:
 
 <div class="admonition recommendation" markdown>
 
-![NextDNS logo](assets/img/dns/nextdns.svg){ align=right }
+![NextDNS logo](assets/images/dns/nextdns.svg){ align=right }
 
-**NextDNS** 為可自訂的 DNS 服務，可在 DNS 層級封鎖安全性威脅、不必要的內容和廣告。
+**NextDNS** is a customizable DNS service which lets you block security threats, unwanted content, and advertisements on a DNS level.
 
 他們提供功能齊全的免費計劃，但使用受限。
 
@@ -103,10 +103,10 @@ NextDNS 也透過 `https://dns.nextdns.io` 提供公開的 DoH 服務，並於 `
 
 <div class="admonition recommendation" markdown>
 
-![RethinkDNS 標誌](assets/img/android/rethinkdns.svg#only-light){ align=right }
-![RethinkDNS 標誌](assets/img/android/rethinkdns-dark.svg#only-dark){ align=right }
+![RethinkDNS logo](assets/images/android/rethinkdns.svg#only-light){ align=right }
+![RethinkDNS logo](assets/images/android/rethinkdns-dark.svg#only-dark){ align=right }
 
-**RethinkDNS** 是支援 [DoH](advanced/dns-overview.md#dns-over-https-doh)、[DoT](advanced/dns-overview.md#dns-over-tls-dot)、[DNSCrypt](advanced/dns-overview.md#dnscrypt) 與 DNS Proxy 的開放原始碼 Android 客戶端。它還提供附加功能，例如快取 DNS 回應、本機記錄 DNS 查詢以及使用應用程式作為防火牆。
+**RethinkDNS** is an open-source Android client that supports [DoH](advanced/dns-overview.md#dns-over-https-doh), [DoT](advanced/dns-overview.md#dns-over-tls-dot), [DNSCrypt](advanced/dns-overview.md#dnscrypt) and DNS Proxy. 它還提供附加功能，例如快取 DNS 回應、本機記錄 DNS 查詢以及使用應用程式作為防火牆。
 
 [:octicons-home-16: 首頁](https://rethinkdns.com){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://rethinkdns.com/privacy){ .card-link title="隱私權政策" }
@@ -129,9 +129,9 @@ NextDNS 也透過 `https://dns.nextdns.io` 提供公開的 DoH 服務，並於 `
 
 <div class="admonition recommendation" markdown>
 
-![DNSCrypt-Proxy 標誌](assets/img/dns/dnscrypt-proxy.svg){ align=right }
+![DNSCrypt-Proxy logo](assets/images/dns/dnscrypt-proxy.svg){ align=right }
 
-**DNSCrypt-Proxy** 是支援 [DNSCrypt](advanced/dns-overview.md#dnscrypt)、[DoH](advanced/dns-overview.md#dns-over-https-doh) 與 [匿名化 DNS](https://github.com/DNSCrypt/dnscrypt-proxy/wiki/Anonymized-DNS) 的 DNS 代理伺服器。
+**DNSCrypt-Proxy** is a DNS proxy with support for [DNSCrypt](advanced/dns-overview.md#dnscrypt), [DoH](advanced/dns-overview.md#dns-over-https-doh), and [Anonymized DNS](https://github.com/DNSCrypt/dnscrypt-proxy/wiki/Anonymized-DNS).
 
 [:octicons-repo-16: 儲存庫](https://github.com/DNSCrypt/dnscrypt-proxy#readme){ .md-button .md-button--primary }
 [:octicons-info-16:](https://github.com/DNSCrypt/dnscrypt-proxy/wiki){ .card-link title="文件" }

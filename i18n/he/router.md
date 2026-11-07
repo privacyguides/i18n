@@ -16,10 +16,10 @@ Below are a few alternative operating systems that can be used on routers, Wi-Fi
 
 <div class="admonition recommendation" markdown>
 
-![לוגו OpenWrt](assets/img/router/openwrt.svg#only-light){ align=right }
-![לוגו OpenWrt](assets/img/router/openwrt-dark.svg#only-dark){ align=right }
+![OpenWrt logo](assets/images/router/openwrt.svg#only-light){ align=right }
+![OpenWrt logo](assets/images/router/openwrt-dark.svg#only-dark){ align=right }
 
-**OpenWrt** היא מערכת הפעלה מבוססת לינוקס; הוא משמש בעיקר במכשירים משובצים לניתוב תעבורת רשת. זה כולל util-linux, uClibc ו-BusyBox. All the components have been optimized for home routers.
+**OpenWrt** is a Linux-based operating system; it's primarily used on embedded devices to route network traffic. זה כולל util-linux, uClibc ו-BusyBox. All the components have been optimized for home routers.
 
 [:octicons-home-16: דף הבית](https://openwrt.org){ .md-button .md-button--primary }
 [:octicons-info-16:](https://openwrt.org/docs/start){ .card-link title=תיעוד}
@@ -36,9 +36,9 @@ Below are a few alternative operating systems that can be used on routers, Wi-Fi
 
 <div class="admonition recommendation" markdown>
 
-![OPNsense לוגו](assets/img/router/opnsense.svg){ align=right }
+![OPNsense logo](assets/images/router/opnsense.svg){ align=right }
 
-**OPNsense** היא חומת אש ופלטפורמת ניתוב מבוססת קוד פתוח, מבוססת FreeBSD, המשלבת תכונות מתקדמות רבות כגון עיצוב תעבורה, איזון עומסים ויכולות VPN, עם תכונות רבות נוספות הזמינות בצורה של תוספים. OPNsense נפוץ כחומת אש היקפית, נתב, נקודת גישה אלחוטית, שרת DHCP, שרת DNS ונקודת קצה VPN.
+**OPNsense** is an open-source, FreeBSD-based firewall and routing platform which incorporates many advanced features such as traffic shaping, load balancing, and VPN capabilities, with many more features available in the form of plugins. OPNsense נפוץ כחומת אש היקפית, נתב, נקודת גישה אלחוטית, שרת DHCP, שרת DNS ונקודת קצה VPN.
 
 [:octicons-home-16: Homepage](https://opnsense.org){ .md-button .md-button--primary }
 [:octicons-info-16:](https://docs.opnsense.org/index.html){ .card-link title=Documentation}

@@ -69,8 +69,8 @@ These tools can trigger false-positives. If any of these tools finds indicators 
 
 <div class="admonition recommendation" markdown>
 
-![MVT logo](assets/img/device-integrity/mvt.webp#only-light){ align=right }
-![MVT logo](assets/img/device-integrity/mvt-dark.png#only-dark){ align=right }
+![MVT logo](assets/images/device-integrity/mvt.webp#only-light){ align=right }
+![MVT logo](assets/images/device-integrity/mvt-dark.png#only-dark){ align=right }
 
 **Mobile Verification Toolkit** (**MVT**) is a collection of utilities which simplifies and automates the process of scanning mobile devices for potential traces of targeting or infection by known spyware campaigns. MVT was developed by Amnesty International and released in 2021 in the context of the [Pegasus Project](https://forbiddenstories.org/about-the-pegasus-project).
 
@@ -102,7 +102,7 @@ If you use iOS and are at high-risk, we have three additional suggestions for yo
 
 2. Trigger _sysdiagnose_ logs often and back them up externally. These logs can provide invaluable data to future forensic investigators if need be.
 
-    The process to do so varies by model, but you can trigger it on newer phones by holding down _Power_ + _Volume Up_ + _Volume Down_ until you feel a brief vibration. After a few minutes, the timestamped _sysdiagnose_ log will appear in **Settings** > **Privacy & Security** > **Analytics & Improvements** > **Analytics Data**.
+   The process to do so varies by model, but you can trigger it on newer phones by holding down _Power_ + _Volume Up_ + _Volume Down_ until you feel a brief vibration. After a few minutes, the timestamped _sysdiagnose_ log will appear in **Settings** > **Privacy & Security** > **Analytics & Improvements** > **Analytics Data**.
 
 3. Enable [Lockdown Mode](https://blog.privacyguides.org/2022/10/27/macos-ventura-privacy-security-updates/#lockdown-mode).
 
@@ -112,7 +112,7 @@ MVT allows you to perform deeper scans/analysis if your device is jailbroken. Un
 
 <div class="admonition recommendation" markdown>
 
-![iMazing logo](assets/img/device-integrity/imazing.png){ align=right }
+![iMazing logo](assets/images/device-integrity/imazing.png){ align=right }
 
 **iMazing** provides a free spyware analyzer tool for iOS devices which acts as a GUI-wrapper for [MVT](#mobile-verification-toolkit). This can be much easier to run compared to MVT itself, which is a command-line tool designed for technologists and forensic investigators.
 
@@ -152,8 +152,8 @@ Using these apps is insufficient to determine that a device is "clean", and not 
 
 <div class="admonition recommendation" markdown>
 
-![Auditor logo](assets/img/device-integrity/auditor.svg#only-light){ align=right }
-![Auditor logo](assets/img/device-integrity/auditor-dark.svg#only-dark){ align=right }
+![Auditor logo](assets/images/device-integrity/auditor.svg#only-light){ align=right }
+![Auditor logo](assets/images/device-integrity/auditor-dark.svg#only-dark){ align=right }
 
 **Auditor** is an app which leverages hardware security features to provide device integrity monitoring by actively validating the identity of a device and the integrity of its operating system. Currently, it only works with GrapheneOS or the stock operating system for [supported devices](https://attestation.app/about#device-support).
 

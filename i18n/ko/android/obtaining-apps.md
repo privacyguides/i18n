@@ -9,7 +9,7 @@ description: 구글 플레이 서비스를 거치지 않고 안드로이드에�
 
 <div class="admonition recommendation" markdown>
 
-![옵테이니엄 로고](../assets/img/android/obtainium.svg){ align=right }
+![Obtainium logo](../assets/images/android/obtainium.svg){ align=right }
 
 **옵테이니엄**은 앱을 중앙화된 앱 스토어/저장소가 아닌 개발자의 자체 릴리스 페이지(예: 깃허브, 깃랩, 개발자 웹사이트 등)에서 직접 설치하고 업데이트할 수 있게 해 주는 앱 관리자입니다. 안드로이드 12 이상에서는 백그라운드 자동 업데이트를 지원합니다.
 
@@ -39,7 +39,7 @@ description: 구글 플레이 서비스를 거치지 않고 안드로이드에�
 
 <div class="admonition recommendation" markdown>
 
-![오로라 스토어 로고](../assets/img/android/aurora-store.webp){ align=right }
+![Aurora Store logo](../assets/images/android/aurora-store.webp){ align=right }
 
 **오로라 스토어**는 앱을 다운로드할 때 구글 계정, 구글 플레이 서비스, microG가 필요하지 않은 구글 플레이 스토어 클라이언트입니다.
 
@@ -62,7 +62,7 @@ description: 구글 플레이 서비스를 거치지 않고 안드로이드에�
 
 깃허브나 깃랩 같은 플랫폼에서 배포되는 앱이라면, [뉴스 애그리게이터](../news-aggregators.md)에 RSS 피드를 추가하여 새 릴리스를 추적할 수 있습니다.
 
-![RSS APK](../assets/img/android/rss-apk-light.png#only-light) ![RSS APK](../assets/img/android/rss-apk-dark.png#only-dark) ![APK 변경 사항](../assets/img/android/rss-changes-light.png#only-light) ![APK 변경 사항](../assets/img/android/rss-changes-dark.png#only-dark)
+![RSS APK](../assets/images-localized/android/rss-apk-light.png#only-light) ![RSS APK](../assets/images-localized/android/rss-apk-dark.png#only-dark) ![APK Changes](../assets/images-localized/android/rss-changes-light.png#only-light) ![APK Changes](../assets/images-localized/android/rss-changes-dark.png#only-dark)
 
 ### 깃허브 { #github }
 
@@ -109,7 +109,7 @@ APK 파일을 직접 다운로드하여 수동으로 설치하는 경우, 안드
 
 ## F-Droid
 
-![F-Droid 로고](../assets/img/android/f-droid.svg){ align=right width=120px }
+![F-Droid logo](../assets/images/android/f-droid.svg){ align=right width=120px }
 
 \==F-Droid는 위의 방법으로 받을 수 없는 앱을 받는 용도로만 권장합니다.== F-Droid는 특히 프라이버시 커뮤니티에서 구글 플레이의 대안으로 자주 추천됩니다. 서드파티 저장소를 추가할 수 있어 구글의 폐쇄형 생태계에 갇히지 않아도 된다는 점이 인기의 요인입니다. 또한 F-Droid는 일부 애플리케이션에 대해 [재현 가능한 빌드](https://f-droid.org/en/docs/Reproducible_Builds)를 제공하며, 자유 오픈 소스 소프트웨어에 전념하고 있습니다. 하지만 F-Droid가 패키지를 빌드하고, 서명하고, 배포하는 방식에는 보안과 관련된 몇 가지 단점이 있습니다:
 

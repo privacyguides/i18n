@@ -17,9 +17,9 @@ cover: news-aggregators.webp
 
 <div class="admonition recommendation" markdown>
 
-![Akregator logosu](assets/img/news-aggregators/akregator.svg){ align=right }
+![Akregator logo](assets/images/news-aggregators/akregator.svg){ align=right }
 
-**Akregator**, [KDE](https://kde.org) projesinin bir parçası olan bir haber akışı okuyucusudur. Hızlı arama, gelişmiş arşivleme işlevi ve kolay haber okuma için dahili bir tarayıcı ile birlikte gelir.
+**Akregator** is a news feed reader that is a part of the [KDE](https://kde.org) project. Hızlı arama, gelişmiş arşivleme işlevi ve kolay haber okuma için dahili bir tarayıcı ile birlikte gelir.
 
 [:octicons-home-16: Ana Sayfa](https://apps.kde.org/akregator){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://kde.org/privacypolicy-apps){ .card-link title="Privacy Policy" }
@@ -40,9 +40,9 @@ cover: news-aggregators.webp
 
 <div class="admonition recommendation" markdown>
 
-![NewsFlash logosu](assets/img/news-aggregators/newsflash.png){ align=right }
+![NewsFlash logo](assets/images/news-aggregators/newsflash.png){ align=right }
 
-**NewsFlash** Linux için açık kaynaklı, modern ve kullanımı kolay bir haber akışı okuyucusudur. It can be used offline or with services like [Inoreader](https://inoreader.com) or [Nextcloud News](https://apps.nextcloud.com/apps/news). Bir arama özelliğine ve doğrudan ekleyebileceğiniz önceden tanımlanmış bir kaynak listesine sahiptir.
+**NewsFlash** is an open-source, modern, and easy-to-use news feed reader for Linux. It can be used offline or with services like [Inoreader](https://inoreader.com) or [Nextcloud News](https://apps.nextcloud.com/apps/news). Bir arama özelliğine ve doğrudan ekleyebileceğiniz önceden tanımlanmış bir kaynak listesine sahiptir.
 
 [:octicons-repo-16: Repository](https://gitlab.com/news-flash/news_flash_gtk#newsflash){ .md-button .md-button--primary }
 [:octicons-code-16:](https://gitlab.com/news-flash/news_flash_gtk){ .card-link title="Source Code" }
@@ -60,9 +60,9 @@ cover: news-aggregators.webp
 
 <div class="admonition recommendation" markdown>
 
-![Feeder logosu](assets/img/news-aggregators/feeder.png){ align=right }
+![Feeder logo](assets/images/news-aggregators/feeder.png){ align=right }
 
-**Feeder**, Android için birçok [özelliğe](https://github.com/spacecowboy/Feeder#features) sahip ve RSS beslemelerinin klasörleriyle iyi çalışan modern bir RSS istemcisidir.
+**Feeder** is a modern RSS client for Android that has many [features](https://github.com/spacecowboy/Feeder#features) and works well with folders of RSS feeds.
 
 RSS](https://en.wikipedia.org/wiki/RSS), [Atom](https://en.wikipedia.org/wiki/Atom_(Web_standard)), [RDF](https://en.wikipedia.org/wiki/RDF%2FXML) ve [JSON Feed](https://en.wikipedia.org/wiki/JSON_Feed) destekler.
 
@@ -84,10 +84,10 @@ RSS](https://en.wikipedia.org/wiki/RSS), [Atom](https://en.wikipedia.org/wiki/At
 
 <div class="admonition recommendation" markdown>
 
-![Miniflux logosu](assets/img/news-aggregators/miniflux.svg#only-light){ align=right }
-![Miniflux logosu](assets/img/news-aggregators/miniflux-dark.svg#only-dark){ align=right }
+![Miniflux logo](assets/images/news-aggregators/miniflux.svg#only-light){ align=right }
+![Miniflux logo](assets/images/news-aggregators/miniflux-dark.svg#only-dark){ align=right }
 
-**Miniflux** kendi kendinize barındırabileceğiniz web tabanlı bir haber toplayıcısıdır.
+**Miniflux** is a web-based news aggregator that you can self-host.
 
 RSS](https://en.wikipedia.org/wiki/RSS), [Atom](https://en.wikipedia.org/wiki/Atom_(Web_standard)), [RDF](https://en.wikipedia.org/wiki/RDF%2FXML) ve [JSON Feed](https://en.wikipedia.org/wiki/JSON_Feed) destekler.
 
@@ -102,7 +102,7 @@ RSS](https://en.wikipedia.org/wiki/RSS), [Atom](https://en.wikipedia.org/wiki/At
 
 <div class="admonition recommendation" markdown>
 
-![NetNewsWire logo](assets/img/news-aggregators/netnewswire.png){ align=right }
+![NetNewsWire logo](assets/images/news-aggregators/netnewswire.png){ align=right }
 
 **NetNewsWire** is a free and open-source feed reader for macOS and iOS with a focus on a native design and feature set.
 
@@ -127,7 +127,7 @@ It supports conventional feed formats and includes built-in support for Reddit f
 
 <div class="admonition recommendation" markdown>
 
-![Newsboat logo](assets/img/news-aggregators/newsboat.svg){ align=right }
+![Newsboat logo](assets/images/news-aggregators/newsboat.svg){ align=right }
 
 **Newsboat** is an RSS/Atom feed reader for the text console. It's an actively maintained fork of [Newsbeuter](https://en.wikipedia.org/wiki/Newsbeuter). It is very lightweight and ideal for use over [Secure Shell](https://en.wikipedia.org/wiki/Secure_Shell).
 

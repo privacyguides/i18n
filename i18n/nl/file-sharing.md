@@ -19,7 +19,7 @@ If you already use [Proton Drive](cloud.md#proton-drive)[^1] or have a [Bitwarde
 
 <div class="admonition recommendation" markdown>
 
-![Send logo](assets/img/file-sharing-sync/send.svg){ align=right }
+![Send logo](assets/images/file-sharing-sync/send.svg){ align=right }
 
 **Send** is a fork of Mozilla's discontinued Firefox Send service which allows you to send files to others with a link. Bestanden worden op jouw apparaat versleuteld zodat ze niet door de server kunnen worden gelezen, en ze kunnen optioneel ook met een wachtwoord worden beveiligd. The maintainer of Send hosts a [public instance](https://send.vis.ee). Je kunt andere openbare instanties gebruiken, of je kunt Send zelf hosten.
 
@@ -43,7 +43,7 @@ ffsend upload --host https://send.vis.ee/ FILE
 
 <div class="admonition recommendation" markdown>
 
-![OnionShare logo](assets/img/file-sharing-sync/onionshare.svg){ align=right }
+![OnionShare logo](assets/images/file-sharing-sync/onionshare.svg){ align=right }
 
 **OnionShare** is an open-source tool that lets you securely and [:material-incognito: anonymously](basics/common-threats.md#anonymity-vs-privacy){ .pg-purple } share a file of any size. Het werkt door een webserver te starten die toegankelijk is als een Tor onion service, met een onleesbare URL die je met de ontvangers kunt delen om bestanden te downloaden of te verzenden.
 
@@ -80,9 +80,9 @@ OnionShare provides the option to connect via [Tor bridges](https://docs.onionsh
 
 <div class="admonition recommendation" markdown>
 
-![Syncthing logo](assets/img/file-sharing-sync/syncthing.svg){ align=right }
+![Syncthing logo](assets/images/file-sharing-sync/syncthing.svg){ align=right }
 
-**Syncthing** is een open-source peer-to-peer continue bestandssynchronisatie hulpprogramma. Het wordt gebruikt om bestanden te synchroniseren tussen twee of meer toestellen via het lokale netwerk of het internet. Syncthing gebruikt geen gecentraliseerde server; het gebruikt het [Block Exchange Protocol](https://docs.syncthing.net/specs/bep-v1.html#bep-v1) om gegevens tussen apparaten over te dragen. Alle gegevens worden versleuteld met behulp van TLS.
+**Syncthing** is an open-source peer-to-peer continuous file synchronization utility. Het wordt gebruikt om bestanden te synchroniseren tussen twee of meer toestellen via het lokale netwerk of het internet. Syncthing gebruikt geen gecentraliseerde server; het gebruikt het [Block Exchange Protocol](https://docs.syncthing.net/specs/bep-v1.html#bep-v1) om gegevens tussen apparaten over te dragen. Alle gegevens worden versleuteld met behulp van TLS.
 
 [:octicons-home-16: Homepage](https://syncthing.net){ .md-button .md-button--primary }
 [:octicons-info-16:](https://docs.syncthing.net){ .card-link title=Documentation}

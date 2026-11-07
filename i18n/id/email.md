@@ -38,8 +38,8 @@ Penyedia layanan ini secara native mendukung enkripsi/dekripsi OpenPGP dan [stan
 
 <div class="grid cards" markdown>
 
-- ![Proton Mail logo](assets/img/email/protonmail.svg){ .twemoji } [Proton Mail](#proton-mail)
-- ![Mailbox Mail logo](assets/img/email/mailbox-mail.svg){ .twemoji } [Mailbox Mail](#mailbox-mail)
+- ![Proton Mail logo](assets/images/email/protonmail.svg){ .twemoji } [Proton Mail](#proton-mail)
+- ![Mailbox Mail logo](assets/images/email/mailbox-mail.svg){ .twemoji } [Mailbox Mail](#mailbox-mail)
 
 </div>
 
@@ -58,9 +58,9 @@ OpenPGP juga tidak mendukung forward secrecy, yang berarti jika kunci privat And
 
 <div class="admonition recommendation" markdown>
 
-![Proton Mail logo](assets/img/email/protonmail.svg){ align=right }
+![Proton Mail logo](assets/images/email/protonmail.svg){ align=right }
 
-**Proton Mail** adalah layanan email dengan fokus pada privasi, enkripsi, keamanan, dan kemudahan penggunaan. Mereka telah beroperasi sejak tahun 2013. Proton AG berbasis di Geneva, Switzerland.
+**Proton Mail** is an email service with a focus on privacy, encryption, security, and ease of use. Mereka telah beroperasi sejak tahun 2013. Proton AG berbasis di Geneva, Switzerland.
 
 Paket Proton Free hadir dengan penyimpanan Mail sebesar 500 MB, yang dapat Anda tingkatkan hingga 1 GB secara gratis.
 
@@ -141,9 +141,9 @@ Paket [Unlimited](https://proton.me/support/proton-plans#proton-unlimited) Proto
 
 <div class="admonition recommendation" markdown>
 
-![Mailbox Mail logo](assets/img/email/mailbox-mail.svg){ align=right }
+![Mailbox Mail logo](assets/images/email/mailbox-mail.svg){ align=right }
 
-**Mailbox Mail** (sebelumnya bernama *Mailbox.org*) adalah layanan email yang berfokus pada keamanan, bebas iklan dan didukung oleh 100% energi ramah lingkungan. Mereka telah beroperasi sejak tahun 2014. Mailbox Mail berbasis di Berlin, Germany.
+**Mailbox Mail** (formerly *Mailbox.org*) is an email service with a focus on being secure, ad-free, and powered by 100% eco-friendly energy. Mereka telah beroperasi sejak tahun 2014. Mailbox Mail berbasis di Berlin, Germany.
 
 Akun dimulai dengan penyimpanan hingga 2 GB, yang dapat ditingkatkan sesuai kebutuhan.
 
@@ -202,7 +202,7 @@ These providers encrypt your emails in a way that only you can read them later, 
 
 <div class="grid cards" markdown>
 
-- ![Tuta logo](assets/img/email/tuta.svg#only-light){ .twemoji loading=lazy }![Tuta logo](assets/img/email/tuta-dark.svg#only-dark){ .twemoji loading=lazy } [Tuta](#tuta)
+- ![Tuta logo](assets/images/email/tuta.svg#only-light){ .twemoji loading=lazy }![Tuta logo](assets/images/email/tuta-dark.svg#only-dark){ .twemoji loading=lazy } [Tuta](#tuta)
 
 </div>
 
@@ -210,10 +210,10 @@ These providers encrypt your emails in a way that only you can read them later, 
 
 <div class="admonition recommendation" markdown>
 
-![Tuta logo](assets/img/email/tuta.svg#only-light){ align=right }
-![Tuta logo](assets/img/email/tuta-dark.svg#only-dark){ align=right }
+![Tuta logo](assets/images/email/tuta.svg#only-light){ align=right }
+![Tuta logo](assets/images/email/tuta-dark.svg#only-dark){ align=right }
 
-**Tuta** (sebelumnya bernama *Tutanota*) adalah layanan email berfokus pada keamanan dan privasi melalui penggunaan enkripsi. Tuta telah beroperasi sejak tahun 2011 dan berbasis di Hanover, Germany.
+**Tuta** (formerly *Tutanota*) is an email service with a focus on security and privacy through the use of encryption. Tuta telah beroperasi sejak tahun 2011 dan berbasis di Hanover, Germany.
 
 Akun gratis dimulai dengan penyimpanan 1 GB.
 

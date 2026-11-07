@@ -18,7 +18,7 @@ Tekst wprowadzany do narzędzi sprawdzających gramatykę, ortografię i styl or
 
 <div class="admonition recommendation" markdown>
 
-![Logo LibreTranslate](assets/img/language-tools/libretranslate.png){ align=right }
+![LibreTranslate logo](assets/images/language-tools/libretranslate.png){ align=right }
 
 \*_LibreTranslate_ to darmowy interfejs internetowy i serwer API do tłumaczenia maszynowego typu open source. Do tłumaczeń wykorzystuje on modele [Argos Translate](https://github.com/argosopentech/argos-translate).
 

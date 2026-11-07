@@ -10,7 +10,7 @@ Személyek közötti üzenetek továbbítására többféle hálózati architekt
 
 ## Központosított Hálózatok
 
-![Centralized networks diagram](../assets/img/layout/network-centralized.svg){ align=left }
+![Centralized networks diagram](../assets/images/layout/network-centralized.svg){ align=left }
 
 A központosított üzenetküldők azok, ahol minden résztvevő ugyanazon a szerveren vagy szerverhálózaton tartózkodik, amelyet ugyanaz a szervezet irányít.
 
@@ -33,7 +33,7 @@ Néhány saját működtetésű üzenetküldő lehetővé teszi, hogy saját sze
 
 ## Föderált Hálózatok
 
-![Federated networks diagram](../assets/img/layout/network-decentralized.svg){ align=left }
+![Federated networks diagram](../assets/images/layout/network-decentralized.svg){ align=left }
 
 Federated messengers use multiple, independent, decentralized servers that are able to talk to each other (email is one example of a federated service). Federation allows system administrators to control their own server and still be a part of the larger communications network.
 
@@ -56,7 +56,7 @@ When self-hosted, members of a federated server can discover and communicate wit
 
 ## Peer-to-Peer Hálózatok
 
-![P2P diagram](../assets/img/layout/network-distributed.svg){ align=left }
+![P2P diagram](../assets/images/layout/network-distributed.svg){ align=left }
 
 P2P messengers connect to a [distributed network](https://en.wikipedia.org/wiki/Distributed_networking) of nodes to relay a message to the recipient without a third-party server.
 
@@ -81,7 +81,7 @@ P2P networks do not use servers, as peers communicate directly between each othe
 
 ## Anonim Forgalomirányítás
 
-![Anonim forgalomirányítási diagram](../assets/img/layout/network-anonymous-routing.svg){ align=left }
+![Anonim forgalomirányítási diagram](../assets/images/layout/network-anonymous-routing.svg){ align=left }
 
 A messenger using [anonymous routing](https://doi.org/10.1007/978-1-4419-5906-5_628) hides either the identity of the sender, the receiver, or evidence that they have been communicating. Ideally, a messenger should hide all three.
 

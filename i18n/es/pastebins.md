@@ -15,7 +15,7 @@ Los [**Pastebins**](https://es.wikipedia.org/wiki/Pastebin) son servicios en lí
 
 <div class="admonition recommendation" markdown>
 
-![PrivateBin logo](assets/img/pastebins/privatebin.svg){ align=right }
+![PrivateBin logo](assets/images/pastebins/privatebin.svg){ align=right }
 
 **PrivateBin** es un pastebin en línea minimalista y de código abierto en el que el servidor no puede descifrar ni leer los datos pegados que envíes. Los datos se cifran/descifran en el navegador utilizando AES de 256 bits. Es la versión mejorada de ZeroBin.
 
@@ -30,7 +30,7 @@ Los [**Pastebins**](https://es.wikipedia.org/wiki/Pastebin) son servicios en lí
 
 <div class="admonition recommendation" markdown>
 
-![Paaster logo](assets/img/pastebins/paaster.svg){ align=right }
+![Paaster logo](assets/images/pastebins/paaster.svg){ align=right }
 
 **Paaster** es una aplicación pastebin segura y fácil de usar que prioriza la privacidad y la simplicidad. Gracias a la encriptación de extremo a extremo y al historial de pegado, Paaster garantiza la confidencialidad y accesibilidad del código pegado.
 

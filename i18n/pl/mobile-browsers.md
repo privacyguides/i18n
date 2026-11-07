@@ -15,7 +15,7 @@ schema:
     "@context": http://schema.org
     "@type": MobileApplication
     name: Brave
-    image: /assets/img/browsers/brave.svg
+    image: /assets/images/browsers/brave.svg
     url: https://brave.com
     applicationCategory: Web Browser
     operatingSystem:
@@ -28,7 +28,7 @@ schema:
     "@context": http://schema.org
     "@type": MobileApplication
     name: Safari
-    image: /assets/img/browsers/safari.svg
+    image: /assets/images/browsers/safari.svg
     url: https://apple.com/safari
     applicationCategory: Web Browser
     operatingSystem:
@@ -48,9 +48,9 @@ Oto nasze aktualne zalecenia dotyczące **mobilnych przeglądarek internetowych*
 
 <div class="admonition recommendation" markdown>
 
-![Logo Brave](assets/img/browsers/brave.svg){ align=right }
+![Brave logo](assets/images/browsers/brave.svg){ align=right }
 
-**Przeglądarka Brave** zawiera wbudowany mechanizm blokowania treści oraz liczne [funkcje prywatności](https://brave.com/privacy-features), z których wiele jest domyślnie włączonych.
+**Brave Browser** includes a built-in content blocker and [privacy features](https://brave.com/privacy-features), many of which are enabled by default.
 
 Oparta jest na projekcie przeglądarki Chromium, dzięki czemu jej interfejs i działanie powinny być dobrze znane większości osób, a problemy ze zgodnością stron internetowych być minimalne.
 
@@ -202,9 +202,9 @@ W systemie iOS każda aplikacja umożliwiająca przeglądanie Internetu jest [og
 
 <div class="admonition recommendation" markdown>
 
-![Logo Safari](assets/img/browsers/safari.svg){ align=right }
+![Safari logo](assets/images/browsers/safari.svg){ align=right }
 
-**Safari** jest domyślną przeglądarką w systemie iOS. Zawiera [funkcje prywatności](https://support.apple.com/guide/iphone/browse-the-web-privately-iphb01fc3c85/ios), takie jak [inteligentne zapobieganie śledzeniu](https://webkit.org/blog/7675/intelligent-tracking-prevention), izolowane i efemeryczne karty w trybie przeglądania prywatnego, ochrona przed odciskami palców (poprzez prezentowanie uproszczonej wersji konfiguracji systemu, co sprawia, że więcej urządzeń wygląda identycznie), losowa zmienność odcisków palców, a także usługę Przekazywanie prywatne dostępną dla subskrybentów iCloud+.
+**Safari** is the default browser in iOS. Zawiera [funkcje prywatności](https://support.apple.com/guide/iphone/browse-the-web-privately-iphb01fc3c85/ios), takie jak [inteligentne zapobieganie śledzeniu](https://webkit.org/blog/7675/intelligent-tracking-prevention), izolowane i efemeryczne karty w trybie przeglądania prywatnego, ochrona przed odciskami palców (poprzez prezentowanie uproszczonej wersji konfiguracji systemu, co sprawia, że więcej urządzeń wygląda identycznie), losowa zmienność odcisków palców, a także usługę Przekazywanie prywatne dostępną dla subskrybentów iCloud+.
 
 [:octicons-home-16: Strona główna](https://apple.com/safari){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://apple.com/legal/privacy/data/pl/safari){ .card-link title="Polityka prywatności" }

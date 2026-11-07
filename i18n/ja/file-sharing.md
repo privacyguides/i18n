@@ -19,9 +19,9 @@ If you already use [Proton Drive](cloud.md#proton-drive)[^1] or have a [Bitwarde
 
 <div class="admonition recommendation" markdown>
 
-![Send logo](assets/img/file-sharing-sync/send.svg){ align=right }
+![Send logo](assets/images/file-sharing-sync/send.svg){ align=right }
 
-**Send**は、廃止されたMozilla Firefox Sendサービスのフォークで、リンクを使って他の人にファイルを送ることができます。ファイルはサーバーから読み取れないようにデバイス上で暗号化され、オプションでパスワードで保護することもできます。 Sendのメンテナーは[公開インスタンス](https://send.vis.ee)をホストしています。他の公開インスタンスを使うこともできますし、Sendを自分でホストすることもできます。
+**Send** is a fork of Mozilla's discontinued Firefox Send service which allows you to send files to others with a link. ファイルはサーバーから読み取れないようにデバイス上で暗号化され、オプションでパスワードで保護することもできます。 Sendのメンテナーは[公開インスタンス](https://send.vis.ee)をホストしています。他の公開インスタンスを使うこともできますし、Sendを自分でホストすることもできます。
 
 [:octicons-home-16: Homepage](https://send.vis.ee){ .md-button .md-button--primary }
 [:octicons-server-16:](https://github.com/timvisee/send-instances){ .card-link title="Public Instances"}
@@ -43,7 +43,7 @@ ffsend upload --host https://send.vis.ee/ FILE
 
 <div class="admonition recommendation" markdown>
 
-![OnionShare logo](assets/img/file-sharing-sync/onionshare.svg){ align=right }
+![OnionShare logo](assets/images/file-sharing-sync/onionshare.svg){ align=right }
 
 **OnionShare** is an open-source tool that lets you securely and [:material-incognito: anonymously](basics/common-threats.md#anonymity-vs-privacy){ .pg-purple } share a file of any size. Torオニオン・サービスとしてアクセスできるウェブサーバーを起動し、ファイルのダウンロードまたは送信に用いられる、推測不可能なURLをファイルの受信者と共有するという形で機能します。
 
@@ -80,9 +80,9 @@ OnionShare provides the option to connect via [Tor bridges](https://docs.onionsh
 
 <div class="admonition recommendation" markdown>
 
-![Syncthing ロゴ](assets/img/file-sharing-sync/syncthing.svg){ align=right }
+![Syncthing logo](assets/images/file-sharing-sync/syncthing.svg){ align=right }
 
-**Syncthing**はオープンソースのピアツーピア連続ファイル同期ユーティリティです。ローカルネットワークまたはインターネットを介し、2つ以上のデバイス間でファイルを同期することができます。 Syncthingは中央集権型のサーバーを使用せず、[Block Exchange Protocol](https://docs.syncthing.net/specs/bep-v1.html#bep-v1)を使用してデバイス間のデータ転送を行います。すべてのデータはTLSにより暗号化されます。
+**Syncthing** is an open-source peer-to-peer continuous file synchronization utility. ローカルネットワークまたはインターネットを介し、2つ以上のデバイス間でファイルを同期することができます。 Syncthingは中央集権型のサーバーを使用せず、[Block Exchange Protocol](https://docs.syncthing.net/specs/bep-v1.html#bep-v1)を使用してデバイス間のデータ転送を行います。すべてのデータはTLSにより暗号化されます。
 
 [:octicons-home-16: ホームページ](https://syncthing.net){ .md-button .md-button--primary }
 [:octicons-info-16:](https://docs.syncthing.net){ .card-link title=ドキュメント}

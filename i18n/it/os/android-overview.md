@@ -5,7 +5,7 @@ description: Android è un sistema operativo open-source con forti protezioni di
 robots: nofollow, max-snippet:-1, max-image-preview:large
 ---
 
-![Logo di Android](../assets/img/android/android.svg){ align=right }
+![Logo di Android](../assets/images/android/android.svg){ align=right }
 
 Il **Progetto Open Source di Androd** è un sistema operativo mobile sicuro, che dispone di una forte [modalità sandbox delle app](https://source.android.com/security/app-sandbox), [Avvio Verificato](https://source.android.com/security/verifiedboot) (AVB) e di un robusto sistema di controllo delle [autorizzazioni](https://developer.android.com/guide/topics/permissions/overview).
 

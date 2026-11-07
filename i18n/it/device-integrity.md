@@ -69,8 +69,8 @@ Questi strumenti possono causare dei falsi positivi. Se uno di questi strumenti 
 
 <div class="admonition recommendation" markdown>
 
-![MVT logo](assets/img/device-integrity/mvt.webp#only-light){ align=right }
-![MVT logo](assets/img/device-integrity/mvt-dark.png#only-dark){ align=right }
+![MVT logo](assets/images/device-integrity/mvt.webp#only-light){ align=right }
+![MVT logo](assets/images/device-integrity/mvt-dark.png#only-dark){ align=right }
 
 Il **Mobile Verification Toolkit** (**MVT**) è una raccolta di utility che semplifica e automatizza il processo di scansione dei dispositivi mobile alla ricerca di potenziali tracce di bersaglio o di infezione da parte di campagne spyware note. MVT was developed by Amnesty International and released in 2021 in the context of the [Pegasus Project](https://forbiddenstories.org/about-the-pegasus-project).
 
@@ -112,7 +112,7 @@ MVT ti consente di eseguire scansioni/analisi più approfondite, se il tuo dispo
 
 <div class="admonition recommendation" markdown>
 
-![logo iMazing](assets/img/device-integrity/imazing.png){ align=right }
+![iMazing logo](assets/images/device-integrity/imazing.png){ align=right }
 
 **iMazing** fornisce uno strumento di analisi spyware gratuito per dispositivi iOS che funge da interfaccia grafica per [MVT](#mobile-verification-toolkit). Questo può essere molto più semplice da eseguire rispetto allo stesso MVT, che è uno strumento a riga di comando progettato per tecnologi e investigatori forensi.
 
@@ -152,8 +152,8 @@ L'utilizzo di queste app non è sufficiente per determinarre che un dispositivo 
 
 <div class="admonition recommendation" markdown>
 
-![Logo Auditor](assets/img/device-integrity/auditor.svg#only-light){ align=right }
-![Logo Auditor](assets/img/device-integrity/auditor-dark.svg#only-dark){ align=right }
+![Auditor logo](assets/images/device-integrity/auditor.svg#only-light){ align=right }
+![Auditor logo](assets/images/device-integrity/auditor-dark.svg#only-dark){ align=right }
 
 **Auditor** è un'applicazione che sfrutta le caratteristiche di sicurezza hardware per fornire un monitoraggio dell'integrità del dispositivo, convalidando attivamente l'identità di un dispositivo e l'integrità del suo sistema operativo. Al momento, funziona soltanto con GrapheneOS o con il sistema operativo di fabbrica per i [dispositivi supportati](https://attestation.app/about#device-support).
 

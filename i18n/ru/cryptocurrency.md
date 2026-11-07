@@ -26,7 +26,7 @@ cover: cryptocurrency.webp
 
 <div class="admonition recommendation" markdown>
 
-![Monero logo](assets/img/cryptocurrency/monero.svg){ align=right }
+![Monero logo](assets/images/cryptocurrency/monero.svg){ align=right }
 
 **Monero** uses a blockchain with privacy-enhancing technologies that obfuscate transactions to achieve [:material-incognito: Anonymity](basics/common-threats.md#anonymity-vs-privacy){ .pg-purple }. Каждая транзакция в Monero скрывает сумму транзакции, адреса отправителя и получателя и источник средств, не требуя при этом дополнительных действий, что делает её идеальным выбором для новичков в области криптовалют.
 

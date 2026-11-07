@@ -17,9 +17,9 @@ cover: news-aggregators.webp
 
 <div class="admonition recommendation" markdown>
 
-![아크레게이터 로고](assets/img/news-aggregators/akregator.svg){ align=right }
+![Akregator logo](assets/images/news-aggregators/akregator.svg){ align=right }
 
-**아크레게이터**는 [KDE](https://kde.org) 프로젝트에 속한 뉴스 피드 리더입니다. 빠른 검색, 고급 보관 기능, 뉴스를 쉽게 읽을 수 있는 내장 브라우저를 갖추고 있습니다.
+**Akregator** is a news feed reader that is a part of the [KDE](https://kde.org) project. 빠른 검색, 고급 보관 기능, 뉴스를 쉽게 읽을 수 있는 내장 브라우저를 갖추고 있습니다.
 
 [:octicons-home-16: 홈페이지](https://apps.kde.org/akregator){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://kde.org/privacypolicy-apps){ .card-link title="개인정보 처리방침" }
@@ -40,9 +40,9 @@ cover: news-aggregators.webp
 
 <div class="admonition recommendation" markdown>
 
-![뉴스플래시 로고](assets/img/news-aggregators/newsflash.png){ align=right }
+![NewsFlash logo](assets/images/news-aggregators/newsflash.png){ align=right }
 
-**뉴스플래시**는 리눅스용 최신 오픈 소스 뉴스 피드 리더로, 사용하기 쉽습니다. 오프라인으로 사용하거나 [이노리더](https://inoreader.com), [넥스트클라우드 뉴스](https://apps.nextcloud.com/apps/news) 같은 서비스와 함께 사용할 수 있습니다. 검색 기능과 바로 추가할 수 있는 사전 정의된 소스 목록을 제공합니다.
+**NewsFlash** is an open-source, modern, and easy-to-use news feed reader for Linux. 오프라인으로 사용하거나 [이노리더](https://inoreader.com), [넥스트클라우드 뉴스](https://apps.nextcloud.com/apps/news) 같은 서비스와 함께 사용할 수 있습니다. 검색 기능과 바로 추가할 수 있는 사전 정의된 소스 목록을 제공합니다.
 
 [:octicons-repo-16: 저장소](https://gitlab.com/news-flash/news_flash_gtk#newsflash){ .md-button .md-button--primary }
 [:octicons-code-16:](https://gitlab.com/news-flash/news_flash_gtk){ .card-link title="소스 코드" }
@@ -60,9 +60,9 @@ cover: news-aggregators.webp
 
 <div class="admonition recommendation" markdown>
 
-![피더 로고](assets/img/news-aggregators/feeder.png){ align=right }
+![Feeder logo](assets/images/news-aggregators/feeder.png){ align=right }
 
-**피더**는 많은 [기능](https://github.com/spacecowboy/Feeder#features)을 갖추고 RSS 피드 폴더와 잘 작동하는 안드로이드용 최신 RSS 클라이언트입니다.
+**Feeder** is a modern RSS client for Android that has many [features](https://github.com/spacecowboy/Feeder#features) and works well with folders of RSS feeds.
 
 [RSS](https://en.wikipedia.org/wiki/RSS), [Atom](https://en.wikipedia.org/wiki/Atom_(Web_standard)), [RDF](https://en.wikipedia.org/wiki/RDF%2FXML), [JSON Feed](https://en.wikipedia.org/wiki/JSON_Feed)를 지원합니다.
 
@@ -84,10 +84,10 @@ cover: news-aggregators.webp
 
 <div class="admonition recommendation" markdown>
 
-![미니플럭스 로고](assets/img/news-aggregators/miniflux.svg#only-light){ align=right }
-![미니플럭스 로고](assets/img/news-aggregators/miniflux-dark.svg#only-dark){ align=right }
+![Miniflux logo](assets/images/news-aggregators/miniflux.svg#only-light){ align=right }
+![Miniflux logo](assets/images/news-aggregators/miniflux-dark.svg#only-dark){ align=right }
 
-**미니플럭스**는 자체 호스팅할 수 있는 웹 기반 뉴스 애그리게이터입니다.
+**Miniflux** is a web-based news aggregator that you can self-host.
 
 [RSS](https://en.wikipedia.org/wiki/RSS), [Atom](https://en.wikipedia.org/wiki/Atom_(Web_standard)), [RDF](https://en.wikipedia.org/wiki/RDF%2FXML), [JSON Feed](https://en.wikipedia.org/wiki/JSON_Feed)를 지원합니다.
 
@@ -102,9 +102,9 @@ cover: news-aggregators.webp
 
 <div class="admonition recommendation" markdown>
 
-![넷뉴스와이어 로고](assets/img/news-aggregators/netnewswire.png){ align=right }
+![NetNewsWire logo](assets/images/news-aggregators/netnewswire.png){ align=right }
 
-**넷뉴스와이어**는 네이티브 디자인과 기능에 중점을 둔 macOS 및 iOS용 자유 오픈 소스 피드 리더입니다.
+**NetNewsWire** is a free and open-source feed reader for macOS and iOS with a focus on a native design and feature set.
 
 일반적인 피드 형식을 지원하며, 레딧 피드도 기본으로 지원합니다.
 
@@ -127,9 +127,9 @@ cover: news-aggregators.webp
 
 <div class="admonition recommendation" markdown>
 
-![뉴스보트 로고](assets/img/news-aggregators/newsboat.svg){ align=right }
+![Newsboat logo](assets/images/news-aggregators/newsboat.svg){ align=right }
 
-**뉴스보트**는 텍스트 콘솔용 RSS/Atom 피드 리더입니다. [뉴스보이터](https://en.wikipedia.org/wiki/Newsbeuter)에서 포크되어 활발하게 유지 관리되고 있는 프로젝트입니다. 매우 가벼워 [SSH(Secure Shell)](https://en.wikipedia.org/wiki/Secure_Shell)로 사용하기에 이상적입니다.
+**Newsboat** is an RSS/Atom feed reader for the text console. [뉴스보이터](https://en.wikipedia.org/wiki/Newsbeuter)에서 포크되어 활발하게 유지 관리되고 있는 프로젝트입니다. 매우 가벼워 [SSH(Secure Shell)](https://en.wikipedia.org/wiki/Secure_Shell)로 사용하기에 이상적입니다.
 
 [:octicons-home-16: 홈페이지](https://newsboat.org){ .md-button .md-button--primary }
 [:octicons-info-16:](https://newsboat.org/releases/2.38/docs/newsboat.html){ .card-link title="문서" }

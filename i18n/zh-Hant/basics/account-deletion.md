@@ -13,7 +13,7 @@ description: It's easy to accumulate a large number of internet accounts. Here a
 如果您使用一個貫穿整個數位生活的密碼管理器，這部分將非常容易。通常，它們包括內建功能，用於偵測憑證是否在資料洩露中暴露----例如Bitwarden的 [資料洩露報告](https://bitwarden.com/blog/have-you-been-pwned)。
 
 <figure markdown>
-  ![Bitwarden's 資料外洩報告特色](../assets/img/account-deletion/exposed_passwords.png)
+  ![Bitwarden's Data Breach Report feature](../assets/images-localized/account-deletion/exposed_passwords.png)
 </figure>
 
 Even if you haven't explicitly used a password manager before, there's a chance you've used the one in your browser ([Firefox](https://support.mozilla.org/kb/password-manager-remember-delete-edit-logins), [Chrome](https://passwords.google.com/intro), [Edge](https://support.microsoft.com/microsoft-edge/save-or-forget-passwords-in-microsoft-edge-b4beecb0-f2a8-1ca0-f26f-9ec247a3f336)) or your phone ([Google](https://passwords.google.com/intro) on stock Android, [Passwords](https://support.apple.com/HT211146) on iOS) without even realizing it.

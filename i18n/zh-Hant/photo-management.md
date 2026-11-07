@@ -10,13 +10,13 @@ cover: photo-management.webp
 - [:material-bug-outline: 被動攻擊](basics/common-threats.md#security-and-privacy){ .pg-orange }
 - [:material-server-network: 服務提供商](basics/common-threats.md#privacy-from-service-providers){ .pg-teal }
 
-大多數的雲端 **照片管理解決方案** ，例如 Google相簿、Flickr 和 Amazon Photos，都無法保護您的照片不被雲端儲存供應商存取。 這些選項可保護您個人相片的隱私，同時允許您僅與家人和信任的人分享。
+大多數的雲端 **照片管理解決方案** ，例如 Google相簿、Flickr 和 Amazon Photos，都無法保護您的照片不被雲端儲存供應商存取。這些選項可保護您個人相片的隱私，同時允許您僅與家人和信任的人分享。
 
 ## Ente Photos
 
 <div class="admonition recommendation" markdown>
 
-![Ente logo](assets/img/photo-management/ente.svg){ align=right }
+![Ente logo](assets/images/photo-management/ente.svg){ align=right }
 
 **Ente Photos**提供端對端加密照片備份服務，支援 iOS 和 Android 的自動備份。 Their code is fully open source, both on the client side and on the server side. 它也可 [自行託管](https://github.com/ente-io/ente/tree/main/server#self-hosting)。
 

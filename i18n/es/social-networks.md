@@ -44,7 +44,7 @@ Si te preocupa mucho que un servidor existente censure tu contenido, el contenid
 
 <div class="admonition recommendation" markdown>
 
-![Mastodon logo](assets/img/social-networks/mastodon.svg){ align=right }
+![Mastodon logo](assets/images/social-networks/mastodon.svg){ align=right }
 
 **Mastodon** es una red social basada en protocolos web abiertos y software libre de código abierto. Utiliza el protocolo **:simple-activitypub: ActivityPub**, que está descentralizado como el correo electrónico: los usuarios pueden estar en distintos servidores o incluso plataformas, pero seguir comunicándose entre sí.
 
@@ -116,7 +116,7 @@ Si has utilizado nuestros ajustes de configuración recomendados arriba, deberí
 
 <div class="admonition recommendation" markdown>
 
-![Element logo](assets/img/social-networks/element.svg){ align=right }
+![Element logo](assets/images/social-networks/element.svg){ align=right }
 
 **Element** es el cliente insignia del protocolo **:simple-matrix: [Matrix](https://matrix.org/docs/chat_basics/matrix-for-im)**, un [estándar abierto](https://spec.matrix.org/latest) que permite la comunicación descentralizada mediante salas de chat federadas. Los usuarios pueden existir en diferentes servidores domésticos y seguir comunicándose entre sí.
 

@@ -24,9 +24,9 @@ cover: multi-factor-authentication.webp
 
 <div class="admonition recommendation" markdown>
 
-![엔테 오스 로고](assets/img/multi-factor-authentication/ente-auth.svg){ align=right }
+![Ente Auth logo](assets/images/multi-factor-authentication/ente-auth.svg){ align=right }
 
-**엔테 오스**는 TOTP 토큰을 저장하고 생성하는 자유 오픈 소스 앱입니다. 온라인 계정과 함께 사용하면 종단 간 암호화된 안전한 방식으로 기기 간에 토큰을 백업하고 동기화할 수 있습니다(웹 인터페이스로 접근할 수도 있습니다). 계정 없이 단일 기기에서 오프라인으로 사용할 수도 있습니다.
+**Ente Auth** is a free and open-source app which stores and generates TOTP tokens. 온라인 계정과 함께 사용하면 종단 간 암호화된 안전한 방식으로 기기 간에 토큰을 백업하고 동기화할 수 있습니다(웹 인터페이스로 접근할 수도 있습니다). 계정 없이 단일 기기에서 오프라인으로 사용할 수도 있습니다.
 
 [:octicons-home-16: 홈페이지](https://ente.com/auth){ .md-button .md-button--primary } [:octicons-eye-16:](https://ente.com/privacy){ .card-link title="개인정보 처리방침" }
 [:octicons-info-16:](https://ente.com/help/auth){ .card-link title="문서" }
@@ -50,9 +50,9 @@ cover: multi-factor-authentication.webp
 
 <div class="admonition recommendation" markdown>
 
-![이지스 로고](assets/img/multi-factor-authentication/aegis.png){ align=right }
+![Aegis logo](assets/images/multi-factor-authentication/aegis.png){ align=right }
 
-**이지스 오센티케이터**는 온라인 서비스의 2단계 인증 토큰을 관리하는 안드로이드용 자유 오픈 소스 앱입니다. 이지스 오센티케이터는 완전히 오프라인/로컬로 작동하지만, 다른 많은 대안과 달리 백업을 위해 토큰을 내보내는 옵션을 제공합니다.
+**Aegis Authenticator** is a free and open-source app for Android to manage your 2-step verification tokens for your online services. 이지스 오센티케이터는 완전히 오프라인/로컬로 작동하지만, 다른 많은 대안과 달리 백업을 위해 토큰을 내보내는 옵션을 제공합니다.
 
 [:octicons-home-16: 홈페이지](https://getaegis.app){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://getaegis.app/aegis/privacy.html){ .card-link title="개인정보 처리방침" }

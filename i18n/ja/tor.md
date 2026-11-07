@@ -9,7 +9,7 @@ schema:
     "@context": http://schema.org
     "@type": SoftwareApplication
     name: Tor Browser
-    image: /assets/img/browsers/tor.svg
+    image: /assets/images/browsers/tor.svg
     url: https://torproject.org
     sameAs: https://en.wikipedia.org/wiki/Tor_(network)
     applicationCategory: Web Browser
@@ -50,9 +50,9 @@ Torネットワークに接続するアプリには長短があり、どれを�
 
 <div class="admonition recommendation" markdown>
 
-![Tor Browser logo](assets/img/browsers/tor.svg){ align=right }
+![Tor Browser logo](assets/images/browsers/tor.svg){ align=right }
 
-**Tor Browser**は匿名性に重点をおいたブラウザで、Torネットワークとブリッジへアクセスできます。デフォルトの設定と拡張機能が含まれており、セキュリティのレベル*既定の保護*、*強力な保護*、*最大限の保護*を選ぶことで自動的に設定されます。
+**Tor Browser** is the top choice if you need anonymity, as it provides you with access to the Tor network and bridges, and it includes default settings and extensions that are automatically configured by the default security levels: *Standard*, *Safer* and *Safest*.
 
 [:octicons-home-16: ウェブページ](https://torproject.org){ .md-button .md-button--primary }
 [:simple-torbrowser:](http://2gzyxa5ihm7nsggfxnu52rck2vv4rvmdlkiu3zzui5du4xyclen53wid.onion){ .card-link title="Onion Service" }
@@ -88,9 +88,9 @@ Tor Browserを直接コンピューターにインストールするだけでは
 
 <div class="admonition recommendation" markdown>
 
-![Onion Browser logo](assets/img/self-contained-networks/onion_browser.svg){ align=right }
+![Onion Browser logo](assets/images/self-contained-networks/onion_browser.svg){ align=right }
 
-**Onion Browser**はiOS上でTorネットワークを経由し匿名でウェブブラウジングすることができるオープンソースのブラウザで、[Tor Project](https://support.torproject.org/glossary/onion-browser)が支持しています。
+**Onion Browser** is an open-source browser that lets you browse the web anonymously over the Tor network on iOS devices and is endorsed by the [Tor Project](https://support.torproject.org/glossary/onion-browser).
 
 [:material-star-box: Onion Browserの最新レビュー](https://www.privacyguides.org/articles/2024/09/18/onion-browser-review)
 

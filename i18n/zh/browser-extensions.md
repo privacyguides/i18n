@@ -21,7 +21,7 @@ cover: browser-extensions.webp
 
 <div class="admonition recommendation" markdown>
 
-![uBlock Origin logo](assets/img/browsers/ublock_origin.svg){ align=right }
+![uBlock Origin logo](assets/images/browsers/ublock_origin.svg){ align=right }
 
 **uBlock Origin** 是一款受欢迎的内容拦截器，可以帮助您拦截广告、跟踪器和指纹脚本。
 
@@ -59,7 +59,7 @@ uBlock Origin 也有其扩展的“Lite”版本，与原始扩展相比，它�
 
 <div class="admonition recommendation" markdown>
 
-![uBlock Origin Lite logo](assets/img/browsers/ublock_origin_lite.svg){ align=right }
+![uBlock Origin Lite logo](assets/images/browsers/ublock_origin_lite.svg){ align=right }
 
 **uBlock Origin Lite** 是一个兼容 Manifest V3 的内容拦截器。与最初的 _uBlock Origin_ 相比，此扩展不需要广泛的“读取/修改数据”权限即可运行，这降低了由于过滤规则中添加了恶意规则而导致您的浏览器遭受 [:material-bug-outline: 被动攻击](basics/common-threats.md#security-and-privacy){ .pg-orange } 的风险。
 
@@ -93,7 +93,7 @@ uBlock Origin Lite 仅在您的浏览器扩展市场更新该扩展时才会收�
 
 <div class="admonition recommendation" markdown>
 
-![AdGuard logo](assets/img/browsers/adguard.svg){ align=right }
+![AdGuard logo](assets/images/browsers/adguard.svg){ align=right }
 
 **AdGuard for iOS** 是一款免费且开源的 Safari 内容拦截扩展，它使用原生的 [Content Blocker API](https://developer.apple.com/documentation/safariservices/creating_a_content_blocker)。
 

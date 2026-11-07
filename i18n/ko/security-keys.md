@@ -17,7 +17,7 @@ cover: multi-factor-authentication.webp
 <div class="admonition recommendation" markdown>
 
 <figure markdown="span">
-  ![유비코 시큐리티 키 시리즈](assets/img/security-keys/yubico-security-key.webp){ width="315" }
+  ![Security Key Series by Yubico](assets/images/security-keys/yubico-security-key.webp){ width="315" }
 </figure>
 
 **유비코 시큐리티 키** 시리즈는 FIDO 레벨 2 인증[^1]을 받은 하드웨어 보안 키 중 가장 가성비가 좋은 제품입니다. FIDO2/WebAuthn과 FIDO U2F(Universal 2nd Factor)를 지원하며, 보안 키를 2차 인증 요소로 지원하는 대부분의 서비스와 많은 비밀번호 관리자에서 별도 설정 없이 바로 작동합니다.
@@ -52,7 +52,7 @@ cover: multi-factor-authentication.webp
 <div class="admonition recommendation" markdown>
 
 <figure markdown="span">
-  ![유비키](assets/img/security-keys/yubikey.png){ width="400" }
+  ![YubiKeys](assets/images/security-keys/yubikey.png){ width="400" }
 </figure>
 
 유비코의 **유비키** 시리즈는 FIDO 레벨 2 인증[^1]을 받은 가장 인기 있는 보안 키 중 하나입니다. **유비키 5 시리즈**는 FIDO2/WebAuthn, FIDO U2F, [TOTP 및 HOTP](https://developers.yubico.com/OATH) 인증, [개인 신원 확인(PIV)](https://developers.yubico.com/PIV), [OpenPGP](https://developers.yubico.com/PGP) 등 다양한 기능을 갖추고 있습니다.
@@ -83,7 +83,7 @@ cover: multi-factor-authentication.webp
 <div class="admonition recommendation" markdown>
 
 <figure markdown="span">
-  ![니트로키](assets/img/security-keys/nitrokey.jpg){ width="300" }
+  ![Nitrokey](assets/images/security-keys/nitrokey.jpg){ width="300" }
 </figure>
 
 **니트로키**에는 FIDO2/WebAuthn과 FIDO U2F를 지원하는 가성비 좋은 보안 키인 **니트로키 패스키**가 있습니다. PIV, OpenPGP, TOTP 및 HOTP 인증 같은 기능을 지원받으려면 **니트로키 3** 같은 다른 키를 구매해야 합니다. 현재 [FIDO 레벨 1 인증](https://nitrokey.com/news/2024/nitrokey-3a-mini-receives-official-fido2-certification)을 받은 제품은 **니트로키 3A 미니**뿐입니다.

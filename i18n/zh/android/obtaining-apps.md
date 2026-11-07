@@ -9,7 +9,7 @@ description: 我们推荐使用这些方法在 Android 上获取应用程序，�
 
 <div class="admonition recommendation" markdown>
 
-![Obtainium logo](../assets/img/android/obtainium.svg){ align=right }
+![Obtainium logo](../assets/images/android/obtainium.svg){ align=right }
 
 **Obtainium** 是一个应用程序管理器，允许您直接从开发者自己的发布页面（即 GitHub、GitLab、开发者网站等）安装和更新应用程序，而不是通过中心化的应用商店/存储库。它支持在 Android 12 及更高版本上自动在后台更新。
 
@@ -39,7 +39,7 @@ Google Play 商店需要登录 Google 帐户，这对隐私不利。您可以通
 
 <div class="admonition recommendation" markdown>
 
-![Aurora Store logo](../assets/img/android/aurora-store.webp){ align=right }
+![Aurora Store logo](../assets/images/android/aurora-store.webp){ align=right }
 
 **Aurora Store** 是一个 Google Play 商店客户端，不需要 Google 帐户、Google Play 服务或 microG 即可下载应用程序。
 
@@ -62,7 +62,7 @@ Aurora Store 不允许您使用其匿名帐户功能下载付费应用程序。�
 
 对于在 GitHub 和 GitLab 等平台上发布的应用程序，您可以将 RSS 订阅添加到您的[新闻聚合器](../news-aggregators.md)中，以便关注应用的新版本发布动态。
 
-![RSS APK](../assets/img/android/rss-apk-light.png#only-light) ![RSS APK](../assets/img/android/rss-apk-dark.png#only-dark) ![APK Changes](../assets/img/android/rss-changes-light.png#only-light) ![APK Changes](../assets/img/android/rss-changes-dark.png#only-dark)
+![RSS APK](../assets/images-localized/android/rss-apk-light.png#only-light) ![RSS APK](../assets/images-localized/android/rss-apk-dark.png#only-dark) ![APK Changes](../assets/images-localized/android/rss-changes-light.png#only-light) ![APK Changes](../assets/images-localized/android/rss-changes-dark.png#only-dark)
 
 ### GitHub
 
@@ -109,7 +109,7 @@ Aurora Store 不允许您使用其匿名帐户功能下载付费应用程序。�
 
 ## F-Droid
 
-![F-Droid logo](../assets/img/android/f-droid.svg){ align=right width=120px }
+![F-Droid logo](../assets/images/android/f-droid.svg){ align=right width=120px }
 
 \==我们仅推荐使用 F-Droid 作为获取无法通过上述方式获取的应用程序的方法。== F-Droid 经常被推荐作为 Google Play 的替代品，特别是在隐私社区中。添加第三方存储库且不受限于 Google 围墙花园的选项，使其广受欢迎。 F-Droid 此外还为一些应用程序提供[可重复构建](https://f-droid.org/en/docs/Reproducible_Builds)，并致力于免费和开源软件。但是，F-Droid 构建、签名和交付软件包的方式存在一些与安全相关的缺点：
 

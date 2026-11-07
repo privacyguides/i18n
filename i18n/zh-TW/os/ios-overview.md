@@ -270,11 +270,11 @@ iPhone 可以抵禦暴力攻擊，在多次嘗試失敗後，需要等待很長�
 
 與其讓應用程式能夠存取裝置上的所有照片，您可以點擊權限對話框中的「選擇照片…」選項，讓應用程式只能存取您選擇的照片。您可以隨時到**設定**→**隱私權與安全性**→**照片**，以變更照片存取權限。
 
-![照片權限](../assets/img/ios/photo-permissions-light.png#only-light) ![照片權限](../assets/img/ios/photo-permissions-dark.png#only-dark)
+![照片權限](../assets/images-localized/ios/photo-permissions-light.png#only-light) ![照片權限](../assets/images-localized/ios/photo-permissions-dark.png#only-dark)
 
 **只新增照片**是一種只允許應用程式將照片加入圖庫的權限。並非所有要求存取照片圖庫的應用程式，都提供此選項。
 
-![私人存取](../assets/img/ios/private-access-light.png#only-light) ![私人存取](../assets/img/ios/private-access-dark.png#only-dark)
+![私人存取](../assets/images-localized/ios/private-access-light.png#only-light) ![私人存取](../assets/images-localized/ios/private-access-dark.png#only-dark)
 
 某些應用程式也支援**私人存取**權限，其功能與「**有限存取**」權限類似。不過，使用「私人存取」功能分享給應用程式的照片，預設會包含其位置。如果您不事先[移除照片後設資料](../data-redaction.md)，我們建議您取消勾選此選項。
 
@@ -284,7 +284,7 @@ iPhone 可以抵禦暴力攻擊，在多次嘗試失敗後，需要等待很長�
 
 同樣地，與其讓應用程式能存取裝置上儲存的所有聯絡人，您可以讓它只存取您選擇的聯絡人。您可以隨時到**設定**→**隱私權與安全性**→**聯絡人**變更聯絡人的存取權限。
 
-![聯絡人權限](../assets/img/ios/contact-permissions-light.png#only-light) ![聯絡人權限](../assets/img/ios/contact-permissions-dark.png#only-dark)
+![聯絡人權限](../assets/images-localized/ios/contact-permissions-light.png#only-light) ![聯絡人權限](../assets/images-localized/ios/contact-permissions-dark.png#only-dark)
 
 
 

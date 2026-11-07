@@ -38,8 +38,8 @@ Tito poskytovatelé nativně podporují OpenPGP (de)šifrování a [standard Web
 
 <div class="grid cards" markdown>
 
-- ![logo Proton Mail](assets/img/email/protonmail.svg){ .twemoji } [Proton Mail](#proton-mail)
-- ![logo Mailbox mail](assets/img/email/mailbox-mail.svg){ .twemoji } [Mailbox Mail](#mailbox-mail)
+- ![Proton Mail logo](assets/images/email/protonmail.svg){ .twemoji } [Proton Mail](#proton-mail)
+- ![Mailbox Mail logo](assets/images/email/mailbox-mail.svg){ .twemoji } [Mailbox Mail](#mailbox-mail)
 
 </div>
 
@@ -58,9 +58,9 @@ OpenPGP také nepodporuje dopřednou bezpečnost, což znamená, že pokud někd
 
 <div class="admonition recommendation" markdown>
 
-![logo Proton Mail](assets/img/email/protonmail.svg){ align=right }
+![Proton Mail logo](assets/images/email/protonmail.svg){ align=right }
 
-**Proton Mail** je e-mailová služba se zaměřením na soukromí, šifrování, bezpečnost a snadné používání. Fungují od roku 2013. Proton AG sídlí ve švýcarské Ženevě.
+**Proton Mail** is an email service with a focus on privacy, encryption, security, and ease of use. Fungují od roku 2013. Proton AG sídlí ve švýcarské Ženevě.
 
 Tarif Proton Free obsahuje 500 MB úložiště pro e-mail, které můžete zdarma rozšířit až na 1 GB.
 
@@ -141,7 +141,7 @@ Tarif Proton Mail [Unlimited](https://proton.me/support/proton-plans#proton-unli
 
 <div class="admonition recommendation" markdown>
 
-![Mailbox Mail logo](assets/img/email/mailbox-mail.svg){ align=right }
+![Mailbox Mail logo](assets/images/email/mailbox-mail.svg){ align=right }
 
 **Mailbox Mail** (formerly *Mailbox.org*) is an email service with a focus on being secure, ad-free, and powered by 100% eco-friendly energy. Fungují od roku 2014. Mailbox Mail sídlí v německém Berlíně.
 
@@ -202,7 +202,7 @@ These providers encrypt your emails in a way that only you can read them later, 
 
 <div class="grid cards" markdown>
 
-- ![logo Tuta](assets/img/email/tuta.svg#only-light){ .twemoji loading=lazy }![logo Tuta](assets/img/email/tuta-dark.svg#only-dark){ .twemoji loading=lazy } [Tuta](#tuta)
+- ![Tuta logo](assets/images/email/tuta.svg#only-light){ .twemoji loading=lazy }![Tuta logo](assets/images/email/tuta-dark.svg#only-dark){ .twemoji loading=lazy } [Tuta](#tuta)
 
 </div>
 
@@ -210,10 +210,10 @@ These providers encrypt your emails in a way that only you can read them later, 
 
 <div class="admonition recommendation" markdown>
 
-![logo Tuta](assets/img/email/tuta.svg#only-light){ align=right }
-![logo Tuta](assets/img/email/tuta-dark.svg#only-dark){ align=right }
+![Tuta logo](assets/images/email/tuta.svg#only-light){ align=right }
+![Tuta logo](assets/images/email/tuta-dark.svg#only-dark){ align=right }
 
-**Tuta** (dříve *Tutanota*) je e-mailová služba se zaměřením na bezpečnost a soukromí prostřednictvím šifrování. Tuta působí od roku 2011 a sídlí v německém Hanoveru.
+**Tuta** (formerly *Tutanota*) is an email service with a focus on security and privacy through the use of encryption. Tuta působí od roku 2011 a sídlí v německém Hanoveru.
 
 Bezplatné účty zahrnují 1 GB úložiště.
 

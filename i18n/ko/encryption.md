@@ -20,9 +20,9 @@ cover: encryption.webp
 
 <div class="admonition recommendation" markdown>
 
-![크립토메이터 로고](assets/img/encryption-software/cryptomator.svg){ align=right }
+![Cryptomator logo](assets/images/encryption-software/cryptomator.svg){ align=right }
 
-**크립토메이터**는 어떤 클라우드 [:material-server-network: 서비스 제공업체](basics/common-threats.md#privacy-from-service-providers){ .pg-teal }에든 파일을 비공개로 저장할 수 있도록 설계된 암호화 솔루션으로, 제공업체가 파일에 접근하지 않을 것이라고 신뢰할 필요를 없애 줍니다. 가상 드라이브에 저장되는 보관함을 만들 수 있으며, 보관함의 내용은 암호화되어 클라우드 스토리지 제공업체와 동기화됩니다.
+**Cryptomator** is an encryption solution designed for privately saving files to any cloud [:material-server-network: Service Provider](basics/common-threats.md#privacy-from-service-providers){ .pg-teal }, eliminating the need to trust that they won't access your files. 가상 드라이브에 저장되는 보관함을 만들 수 있으며, 보관함의 내용은 암호화되어 클라우드 스토리지 제공업체와 동기화됩니다.
 
 [:octicons-home-16: 홈페이지](https://cryptomator.org){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://cryptomator.org/privacy){ .card-link title="개인정보 처리방침" }
@@ -61,10 +61,10 @@ cover: encryption.webp
 
 <div class="admonition recommendation" markdown>
 
-![베라크립트 로고](assets/img/encryption-software/veracrypt.svg#only-light){ align=right }
-![베라크립트 로고](assets/img/encryption-software/veracrypt-dark.svg#only-dark){ align=right }
+![VeraCrypt logo](assets/images/encryption-software/veracrypt.svg#only-light){ align=right }
+![VeraCrypt logo](assets/images/encryption-software/veracrypt-dark.svg#only-dark){ align=right }
 
-**베라크립트**는 실시간 암호화에 사용되는 소스 공개 프리웨어 유틸리티입니다. 파일 안에 가상 암호화 디스크를 만들거나, 파티션을 암호화하거나, 부팅 전 인증으로 저장 장치 전체를 암호화할 수 있습니다.
+**VeraCrypt** is a source-available freeware utility used for on-the-fly encryption. 파일 안에 가상 암호화 디스크를 만들거나, 파티션을 암호화하거나, 부팅 전 인증으로 저장 장치 전체를 암호화할 수 있습니다.
 
 [:octicons-home-16: 홈페이지](https://veracrypt.fr){ .md-button .md-button--primary }
 [:octicons-info-16:](https://veracrypt.fr/en/Documentation.html){ .card-link title="문서" }
@@ -108,9 +108,9 @@ OS에 내장된 암호화 솔루션은 일반적으로 [보안 암호 프로세�
 
 <div class="admonition recommendation" markdown>
 
-![비트로커 로고](assets/img/encryption-software/bitlocker.png){ align=right }
+![BitLocker logo](assets/images/encryption-software/bitlocker.png){ align=right }
 
-**비트로커**는 마이크로소프트 윈도우에 포함된 전체 볼륨 암호화 솔루션으로, 하드웨어 기반 보안을 위해 신뢰 플랫폼 모듈([TPM](https://learn.microsoft.com/windows/security/information-protection/tpm/how-windows-uses-the-tpm))을 사용합니다.
+**BitLocker** is the full volume encryption solution bundled with Microsoft Windows that uses the Trusted Platform Module ([TPM](https://learn.microsoft.com/windows/security/information-protection/tpm/how-windows-uses-the-tpm)) for hardware-based security.
 
 [:octicons-info-16:](https://learn.microsoft.com/windows/security/information-protection/BitLocker/BitLocker-overview){ .card-link title="문서" }
 
@@ -128,9 +128,9 @@ OS에 내장된 암호화 솔루션은 일반적으로 [보안 암호 프로세�
 
 <div class="admonition recommendation" markdown>
 
-![FileVault 로고](assets/img/encryption-software/filevault.png){ align=right }
+![FileVault logo](assets/images/encryption-software/filevault.png){ align=right }
 
-**FileVault**는 macOS에 내장된 실시간 볼륨 암호화 솔루션입니다. FileVault는 애플 실리콘 SoC나 T2 보안 칩에 있는 [하드웨어 보안 기능](os/macos-overview.md#hardware-security)을 활용합니다.
+**FileVault** is the on-the-fly volume encryption solution built into macOS. FileVault는 애플 실리콘 SoC나 T2 보안 칩에 있는 [하드웨어 보안 기능](os/macos-overview.md#hardware-security)을 활용합니다.
 
 [:octicons-info-16:](https://support.apple.com/guide/mac-help/encrypt-mac-data-with-filevault-mh11785/mac){ .card-link title="문서" }
 
@@ -144,9 +144,9 @@ OS에 내장된 암호화 솔루션은 일반적으로 [보안 암호 프로세�
 
 <div class="admonition recommendation" markdown>
 
-![LUKS 로고](assets/img/encryption-software/luks.png){ align=right }
+![LUKS logo](assets/images/encryption-software/luks.png){ align=right }
 
-**LUKS**는 리눅스의 기본 FDE 방식입니다. 전체 볼륨이나 파티션을 암호화하거나 암호화된 컨테이너를 만드는 데 사용할 수 있습니다.
+**LUKS** is the default FDE method for Linux. 전체 볼륨이나 파티션을 암호화하거나 암호화된 컨테이너를 만드는 데 사용할 수 있습니다.
 
 [:octicons-repo-16: 저장소](https://gitlab.com/cryptsetup/cryptsetup#what-the-){ .md-button .md-button--primary }
 [:octicons-info-16:](https://gitlab.com/cryptsetup/cryptsetup/-/wikis/home){ .card-link title="문서" }
@@ -198,9 +198,9 @@ cryptsetup luksHeaderBackup /dev/device --header-backup-file /mnt/backup/file.im
 
 <div class="admonition recommendation" markdown>
 
-![크립터 로고](assets/img/encryption-software/kryptor.png){ align=right }
+![Kryptor logo](assets/images/encryption-software/kryptor.png){ align=right }
 
-**크립터**는 현대적이고 안전한 암호화 알고리즘을 사용하는 자유 오픈 소스 파일 암호화 및 서명 도구입니다. [age](https://github.com/FiloSottile/age)와 [미니사인](https://jedisct1.github.io/minisign)을 개선한 버전을 목표로 하며, GPG를 대체할 수 있는 간단하고 더 쉬운 도구를 제공합니다.
+**Kryptor** is a free and open-source file encryption and signing tool that makes use of modern and secure cryptographic algorithms. [age](https://github.com/FiloSottile/age)와 [미니사인](https://jedisct1.github.io/minisign)을 개선한 버전을 목표로 하며, GPG를 대체할 수 있는 간단하고 더 쉬운 도구를 제공합니다.
 
 [:octicons-home-16: 홈페이지](https://kryptor.co.uk){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://kryptor.co.uk/features#privacy){ .card-link title="개인정보 처리방침" }
@@ -223,9 +223,9 @@ cryptsetup luksHeaderBackup /dev/device --header-backup-file /mnt/backup/file.im
 
 <div class="admonition recommendation" markdown>
 
-![툼 로고](assets/img/encryption-software/tomb.png){ align=right }
+![Tomb logo](assets/images/encryption-software/tomb.png){ align=right }
 
-**툼**은 LUKS용 명령줄 셸 래퍼입니다. [서드파티 도구](https://dyne.org/software/tomb/#advanced-usage)를 통해 스테가노그래피를 지원합니다.
+**Tomb** is a command-line shell wrapper for LUKS. [서드파티 도구](https://dyne.org/software/tomb/#advanced-usage)를 통해 스테가노그래피를 지원합니다.
 
 [:octicons-home-16: 홈페이지](https://dyne.org/software/tomb){ .md-button .md-button--primary }
 [:octicons-info-16:](https://github.com/dyne/Tomb/wiki){ .card-link title="문서" }
@@ -263,9 +263,9 @@ gpg --quick-gen-key alice@example.com future-default
 
 <div class="admonition recommendation" markdown>
 
-![GNU 프라이버시 가드 로고](assets/img/encryption-software/gnupg.svg){ align=right }
+![GNU Privacy Guard logo](assets/images/encryption-software/gnupg.svg){ align=right }
 
-**GnuPG**는 GPL 라이선스로 제공되는 PGP 암호화 소프트웨어 제품군의 대안입니다. GnuPG는 현재 OpenPGP의 IETF 사양인 [RFC 4880](https://tools.ietf.org/html/rfc4880)을 준수합니다. GnuPG 프로젝트는 OpenPGP를 현대화하기 위해 [개정 초안](https://datatracker.ietf.org/doc/draft-ietf-openpgp-crypto-refresh) 작업을 진행해 왔습니다. GnuPG는 자유 소프트웨어 재단의 GNU 소프트웨어 프로젝트에 속하며, 독일 정부로부터 상당한 [자금 지원](https://gnupg.org/blog/20220102-a-new-future-for-gnupg.html)을 받았습니다.
+**GnuPG** is a GPL-licensed alternative to the PGP suite of cryptographic software. GnuPG는 현재 OpenPGP의 IETF 사양인 [RFC 4880](https://tools.ietf.org/html/rfc4880)을 준수합니다. GnuPG 프로젝트는 OpenPGP를 현대화하기 위해 [개정 초안](https://datatracker.ietf.org/doc/draft-ietf-openpgp-crypto-refresh) 작업을 진행해 왔습니다. GnuPG는 자유 소프트웨어 재단의 GNU 소프트웨어 프로젝트에 속하며, 독일 정부로부터 상당한 [자금 지원](https://gnupg.org/blog/20220102-a-new-future-for-gnupg.html)을 받았습니다.
 
 [:octicons-home-16: 홈페이지](https://gnupg.org){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://gnupg.org/privacy-policy.html){ .card-link title="개인정보 처리방침" }
@@ -288,9 +288,9 @@ gpg --quick-gen-key alice@example.com future-default
 
 <div class="admonition recommendation" markdown>
 
-![GPG4win 로고](assets/img/encryption-software/gpg4win.svg){ align=right }
+![GPG4win logo](assets/images/encryption-software/gpg4win.svg){ align=right }
 
-**GPG4win**은 [인테베이션과 g10 Code](https://gpg4win.org/impressum.html)가 만든 윈도우용 패키지입니다. 마이크로소프트 윈도우에서 GPG를 사용하는 데 도움이 되는 [다양한 도구](https://gpg4win.org/about.html)가 포함되어 있습니다. 이 프로젝트는 2005년 독일 연방정보보안청(BSI)이 시작했으며, 처음에는 BSI의 [자금 지원](https://web.archive.org/web/20190425125223/https://joinup.ec.europa.eu/news/government-used-cryptography)을 받았습니다.
+**GPG4win** is a package for Windows from [Intevation and g10 Code](https://gpg4win.org/impressum.html). 마이크로소프트 윈도우에서 GPG를 사용하는 데 도움이 되는 [다양한 도구](https://gpg4win.org/about.html)가 포함되어 있습니다. 이 프로젝트는 2005년 독일 연방정보보안청(BSI)이 시작했으며, 처음에는 BSI의 [자금 지원](https://web.archive.org/web/20190425125223/https://joinup.ec.europa.eu/news/government-used-cryptography)을 받았습니다.
 
 [:octicons-home-16: 홈페이지](https://gpg4win.org){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://gpg4win.org/privacy-policy.html){ .card-link title="개인정보 처리방침" }
@@ -311,9 +311,9 @@ gpg --quick-gen-key alice@example.com future-default
 
 <div class="admonition recommendation" markdown>
 
-![GPG 스위트 로고](assets/img/encryption-software/gpgsuite.png){ align=right }
+![GPG Suite logo](assets/images/encryption-software/gpgsuite.png){ align=right }
 
-**GPG 스위트**는 macOS의 [애플 메일](email-clients.md#apple-mail-macos) 및 기타 이메일 클라이언트에 OpenPGP 지원을 제공합니다.
+**GPG Suite** provides OpenPGP support for [Apple Mail](email-clients.md#apple-mail-macos) and other email clients on macOS.
 
 지원이 필요하다면 [첫 단계](https://gpgtools.tenderapp.com/kb/how-to/first-steps-where-do-i-start-where-do-i-begin-setup-gpgtools-create-a-new-key-your-first-encrypted-email)와 [지식 베이스](https://gpgtools.tenderapp.com/kb)를 살펴볼 것을 권장합니다.
 
@@ -337,9 +337,9 @@ gpg --quick-gen-key alice@example.com future-default
 
 <div class="admonition recommendation" markdown>
 
-![오픈키체인 로고](assets/img/encryption-software/openkeychain.svg){ align=right }
+![OpenKeychain logo](assets/images/encryption-software/openkeychain.svg){ align=right }
 
-**오픈키체인**은 안드로이드용 GnuPG 구현체입니다. [썬더버드](email-clients.md#thunderbird), [페어이메일](email-clients.md#fairemail-android) 같은 메일 클라이언트와 기타 안드로이드 앱에서 암호화 지원을 위해 흔히 필요합니다.
+**OpenKeychain** is an implementation of GnuPG for Android. [썬더버드](email-clients.md#thunderbird), [페어이메일](email-clients.md#fairemail-android) 같은 메일 클라이언트와 기타 안드로이드 앱에서 암호화 지원을 위해 흔히 필요합니다.
 
 [:octicons-home-16: 홈페이지](https://openkeychain.org){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://openkeychain.org/help/privacy-policy){ .card-link title="개인정보 처리방침" }

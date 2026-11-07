@@ -19,7 +19,7 @@ If you already use [Proton Drive](cloud.md#proton-drive)[^1] or have a [Bitwarde
 
 <div class="admonition recommendation" markdown>
 
-![Send logo](assets/img/file-sharing-sync/send.svg){ align=right }
+![Send logo](assets/images/file-sharing-sync/send.svg){ align=right }
 
 **Send** is a fork of Mozilla's discontinued Firefox Send service which allows you to send files to others with a link. קבצים מוצפנים במכשיר שלך כך שלא ניתן לקרוא אותם על ידי השרת, והם יכולים להיות מוגנים באמצעות סיסמה. The maintainer of Send hosts a [public instance](https://send.vis.ee). אפשר להשתמש במועדים ציבוריים אחרים, או לארח לשלוח את עצמכם.
 
@@ -43,7 +43,7 @@ ffsend upload -- host https://send.vis.ee/ FILE
 
 <div class="admonition recommendation" markdown>
 
-![OnionShare logo](assets/img/file-sharing-sync/onionshare.svg){ align=right }
+![OnionShare logo](assets/images/file-sharing-sync/onionshare.svg){ align=right }
 
 **OnionShare** is an open-source tool that lets you securely and [:material-incognito: anonymously](basics/common-threats.md#anonymity-vs-privacy){ .pg-purple } share a file of any size. זה עובד על ידי הפעלת שרת אינטרנט נגיש כשירות Tor onion, עם כתובת URL בלתי ניתנת לניחוש שתוכל לשתף עם הנמענים כדי להוריד או לשלוח קבצים.
 
@@ -80,9 +80,9 @@ OnionShare provides the option to connect via [Tor bridges](https://docs.onionsh
 
 <div class="admonition recommendation" markdown>
 
-![Syncthing לוגו](assets/img/file-sharing-sync/syncthing.svg){ align=right }
+![Syncthing logo](assets/images/file-sharing-sync/syncthing.svg){ align=right }
 
-**Syncthing** הוא כלי עזר רציף לסנכרון קבצים עמית לעמית בקוד פתוח. הוא משמש לסנכרון קבצים בין שני מכשירים או יותר ברשת המקומית או באינטרנט. Syncthing אינו משתמש בשרת מרכזי; הוא משתמש ב-[Block Exchange Protocol](https://docs.syncthing.net/specs/bep-v1.html#bep-v1) כדי להעביר נתונים בין מכשירים. כל הנתונים מוצפנים באמצעות TLS.
+**Syncthing** is an open-source peer-to-peer continuous file synchronization utility. הוא משמש לסנכרון קבצים בין שני מכשירים או יותר ברשת המקומית או באינטרנט. Syncthing אינו משתמש בשרת מרכזי; הוא משתמש ב-[Block Exchange Protocol](https://docs.syncthing.net/specs/bep-v1.html#bep-v1) כדי להעביר נתונים בין מכשירים. כל הנתונים מוצפנים באמצעות TLS.
 
 [:octicons-home-16: Homepage](https://syncthing.net){ .md-button .md-button--primary }
 [:octicons-info-16:](https://docs.syncthing.net){ .card-link title=Documentation}

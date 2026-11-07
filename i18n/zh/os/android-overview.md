@@ -5,7 +5,7 @@ description: Android is an open-source operating system with strong security pro
 robots: nofollow, max-snippet:-1, max-image-preview:large
 ---
 
-![安卓徽标](../assets/img/android/android.svg){ align=right }
+![安卓徽标](../assets/images/android/android.svg){ align=right }
 
 The **Android Open Source Project** is a secure mobile operating system featuring strong [app sandboxing](https://source.android.com/security/app-sandbox), [Verified Boot](https://source.android.com/security/verifiedboot) (AVB), and a robust [permission](https://developer.android.com/guide/topics/permissions/overview) control system.
 

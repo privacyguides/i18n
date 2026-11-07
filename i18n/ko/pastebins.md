@@ -15,7 +15,7 @@ cover: pastebins.webp
 
 <div class="admonition recommendation" markdown>
 
-![프라이빗빈 로고](assets/img/pastebins/privatebin.svg){ align=right }
+![PrivateBin logo](assets/images/pastebins/privatebin.svg){ align=right }
 
 **프라이빗빈**은 여러분이 제출한 붙여넣기 데이터를 서버가 복호화하거나 읽을 수 없는 미니멀한 오픈 소스 온라인 페이스트빈입니다. 데이터는 브라우저에서 256비트 AES로 암호화/복호화됩니다. 제로빈(ZeroBin)을 개선한 버전입니다.
 
@@ -30,7 +30,7 @@ cover: pastebins.webp
 
 <div class="admonition recommendation" markdown>
 
-![파스터 로고](assets/img/pastebins/paaster.svg){ align=right }
+![Paaster logo](assets/images/pastebins/paaster.svg){ align=right }
 
 **파스터**는 프라이버시와 단순함을 우선시하는 안전하고 사용하기 쉬운 페이스트빈 애플리케이션입니다. 종단 간 암호화와 붙여넣기 기록 기능을 갖추고 있어, 붙여넣은 코드를 기밀로 유지하면서도 언제든 접근할 수 있게 해 줍니다.
 

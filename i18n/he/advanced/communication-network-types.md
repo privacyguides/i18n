@@ -10,7 +10,7 @@ description: סקירה כללית של מספר ארכיטקטורות רשת �
 
 ## רשתות מרכזיות
 
-![דיאגרמת רשתות מרכזיות](../assets/img/layout/network-centralized.svg){ align=left }
+![דיאגרמת רשתות מרכזיות](../assets/images/layout/network-centralized.svg){ align=left }
 
 מסנג'רים מרכזיים הם אלה שבהם כל המשתתפים נמצאים באותו שרת או רשת של שרתים הנשלטים על ידי אותו ארגון.
 
@@ -33,7 +33,7 @@ description: סקירה כללית של מספר ארכיטקטורות רשת �
 
 ## רשתות פדרציה
 
-![דיאגרמת רשתות מאוחדות](../assets/img/layout/network-decentralized.svg){ align=left }
+![דיאגרמת רשתות מאוחדות](../assets/images/layout/network-decentralized.svg){ align=left }
 
 מסנג'רים מאוחדים משתמשים במספר שרתים עצמאיים מבוזרים המסוגלים לדבר זה עם זה (אימייל הוא דוגמה אחת לשירות מאוחד). הפדרציה מאפשרת למנהלי מערכת לשלוט בשרת שלהם ועדיין להיות חלק מרשת התקשורת הגדולה יותר.
 
@@ -56,7 +56,7 @@ description: סקירה כללית של מספר ארכיטקטורות רשת �
 
 ## רשתות עמית לעמית
 
-![דיאגרמת P2P](../assets/img/layout/network-distributed.svg){ align=left }
+![דיאגרמת P2P](../assets/images/layout/network-distributed.svg){ align=left }
 
 מסנג'רים P2P מתחברים ל[רשת מבוזרת](https://en.wikipedia.org/wiki/Distributed_networking) של צמתים כדי להעביר הודעה לנמען ללא שרת של צד שלישי.
 
@@ -81,7 +81,7 @@ description: סקירה כללית של מספר ארכיטקטורות רשת �
 
 ## ניתוב אנונימי
 
-![דיאגרמת ניתוב אנונימית](../assets/img/layout/network-anonymous-routing.svg){ align=left }
+![דיאגרמת ניתוב אנונימית](../assets/images/layout/network-anonymous-routing.svg){ align=left }
 
 מסנג'ר המשתמש ב[ניתוב אנונימי](https://doi.org/10.1007/978-1-4419-5906-5_628) מסתיר את זהות השולח, המקבל או ראיות לכך שהם תקשרו. באופן אידיאלי, מסנג'ר צריך להסתיר את שלושתם.
 

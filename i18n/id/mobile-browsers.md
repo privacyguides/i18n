@@ -15,7 +15,7 @@ schema:
     "@context": http://schema.org
     "@type": MobileApplication
     name: Brave
-    image: /assets/img/browsers/brave.svg
+    image: /assets/images/browsers/brave.svg
     url: https://brave.com
     applicationCategory: Web Browser
     operatingSystem:
@@ -28,7 +28,7 @@ schema:
     "@context": http://schema.org
     "@type": MobileApplication
     name: Safari
-    image: /assets/img/browsers/safari.svg
+    image: /assets/images/browsers/safari.svg
     url: https://apple.com/safari
     applicationCategory: Web Browser
     operatingSystem:
@@ -48,9 +48,9 @@ Berikut ini adalah peramban **web seluler** yang kami rekomendasikan saat ini da
 
 <div class="admonition recommendation" markdown>
 
-![Brave logo](assets/img/browsers/brave.svg){ align=right }
+![Brave logo](assets/images/browsers/brave.svg){ align=right }
 
-**Brave Browser** menyertakan pemblokir konten bawaan dan [fitur privasi](https://brave.com/privacy-features), yang sebagian besar diaktifkan secara default.
+**Brave Browser** includes a built-in content blocker and [privacy features](https://brave.com/privacy-features), many of which are enabled by default.
 
 Brave dibuat berdasarkan proyek peramban web Chromium, sehingga seharusnya terasa familier dan memiliki masalah kompatibilitas situs web yang minimal.
 
@@ -201,9 +201,9 @@ Di iOS, aplikasi apa pun yang dapat menjelajahi web [dibatasi](https://developer
 
 <div class="admonition recommendation" markdown>
 
-![Safari logo](assets/img/browsers/safari.svg){ align=right }
+![Safari logo](assets/images/browsers/safari.svg){ align=right }
 
-**Safari** adalah peramban default di iOS. Ini termasuk [fitur privasi](https://support.apple.com/guide/iphone/browse-the-web-privately-iphb01fc3c85/ios) seperti [Pencegahan Pelacakan Cerdas](https://webkit.org/blog/7675/intelligent-tracking-prevention), tab Penjelajahan Pribadi yang terisolasi dan bersifat sementara, perlindungan fingerprinting (dengan menyajikan versi sederhana dari konfigurasi sistem ke situs web, sehingga lebih banyak perangkat yang terlihat sama), dan pengacakan fingerprint, serta Private Relay untuk mereka yang berlangganan iCloud+ berbayar.
+**Safari** is the default browser in iOS. Ini termasuk [fitur privasi](https://support.apple.com/guide/iphone/browse-the-web-privately-iphb01fc3c85/ios) seperti [Pencegahan Pelacakan Cerdas](https://webkit.org/blog/7675/intelligent-tracking-prevention), tab Penjelajahan Pribadi yang terisolasi dan bersifat sementara, perlindungan fingerprinting (dengan menyajikan versi sederhana dari konfigurasi sistem ke situs web, sehingga lebih banyak perangkat yang terlihat sama), dan pengacakan fingerprint, serta Private Relay untuk mereka yang berlangganan iCloud+ berbayar.
 
 [:octicons-home-16: Halaman Utama](https://apple.com/safari){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://apple.com/legal/privacy/data/en/safari){ .card-link title="Kebijakan Privasi" }

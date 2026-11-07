@@ -36,9 +36,9 @@ These DNS filtering solutions offer a web dashboard where you can customize the 
 
 <div class="admonition recommendation" markdown>
 
-![Control D logo](assets/img/dns/control-d.svg){ align=right }
+![Control D logo](assets/images/dns/control-d.svg){ align=right }
 
-**Control D** 可自訂的 DNS 服務，可在 DNS 層級封鎖安全性威脅、不必要的內容和廣告。
+**Control D** is a customizable DNS service which lets you block security threats, unwanted content, and advertisements on a DNS level.
 
 付費方案之外，他們還提供許多可免費使用的預先配置 DNS 解析器。
 
@@ -65,9 +65,9 @@ These DNS filtering solutions offer a web dashboard where you can customize the 
 
 <div class="admonition recommendation" markdown>
 
-![NextDNS logo](assets/img/dns/nextdns.svg){ align=right }
+![NextDNS logo](assets/images/dns/nextdns.svg){ align=right }
 
-**NextDNS** 為可自訂的 DNS 服務，可在 DNS 層級封鎖安全性威脅、不必要的內容和廣告。
+**NextDNS** is a customizable DNS service which lets you block security threats, unwanted content, and advertisements on a DNS level.
 
 他們提供功能齊全的免費計劃，但使用受限。
 
@@ -103,8 +103,8 @@ NextDNS also offers a public DoH service at `https://dns.nextdns.io` and DNS-ove
 
 <div class="admonition recommendation" markdown>
 
-![RethinkDNS logo](assets/img/android/rethinkdns.svg#only-light){ align=right }
-![RethinkDNS logo](assets/img/android/rethinkdns-dark.svg#only-dark){ align=right }
+![RethinkDNS logo](assets/images/android/rethinkdns.svg#only-light){ align=right }
+![RethinkDNS logo](assets/images/android/rethinkdns-dark.svg#only-dark){ align=right }
 
 **RethinkDNS** is an open-source Android client that supports [DoH](advanced/dns-overview.md#dns-over-https-doh), [DoT](advanced/dns-overview.md#dns-over-tls-dot), [DNSCrypt](advanced/dns-overview.md#dnscrypt) and DNS Proxy. 它還提供附加功能，例如快取 DNS 回應、本機記錄 DNS 查詢以及使用應用程式作為防火牆。
 
@@ -129,7 +129,7 @@ While RethinkDNS takes up the Android VPN slot, you can still use a VPN or Orbot
 
 <div class="admonition recommendation" markdown>
 
-![DNSCrypt-Proxy logo](assets/img/dns/dnscrypt-proxy.svg){ align=right }
+![DNSCrypt-Proxy logo](assets/images/dns/dnscrypt-proxy.svg){ align=right }
 
 **DNSCrypt-Proxy** is a DNS proxy with support for [DNSCrypt](advanced/dns-overview.md#dnscrypt), [DoH](advanced/dns-overview.md#dns-over-https-doh), and [Anonymized DNS](https://github.com/DNSCrypt/dnscrypt-proxy/wiki/Anonymized-DNS).
 

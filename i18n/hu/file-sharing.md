@@ -19,7 +19,7 @@ If you already use [Proton Drive](cloud.md#proton-drive)[^1] or have a [Bitwarde
 
 <div class="admonition recommendation" markdown>
 
-![Send logo](assets/img/file-sharing-sync/send.svg){ align=right }
+![Send logo](assets/images/file-sharing-sync/send.svg){ align=right }
 
 **Send** is a fork of Mozilla's discontinued Firefox Send service which allows you to send files to others with a link. A fájlok az eszközön kerülnek titkosításra, így a szerver nem tudja azokat elolvasni, és választhatóan jelszóval is védhetők. The maintainer of Send hosts a [public instance](https://send.vis.ee). Használhatsz más nyilvános instanceket, vagy magad is üzemeltetheted a Send-et.
 
@@ -43,7 +43,7 @@ ffsend upload --host https://send.vis.ee/ FÁJL
 
 <div class="admonition recommendation" markdown>
 
-![OnionShare logo](assets/img/file-sharing-sync/onionshare.svg){ align=right }
+![OnionShare logo](assets/images/file-sharing-sync/onionshare.svg){ align=right }
 
 **OnionShare** is an open-source tool that lets you securely and [:material-incognito: anonymously](basics/common-threats.md#anonymity-vs-privacy){ .pg-purple } share a file of any size. Úgy működik, hogy egy Tor onion szolgáltatásként elérhető webszervert indít el, egy kitalálhatatlan URL-címmel együtt, amit megoszthatsz a címzettekkel fájlok letöltéséhez vagy küldéséhez.
 
@@ -80,9 +80,9 @@ OnionShare provides the option to connect via [Tor bridges](https://docs.onionsh
 
 <div class="admonition recommendation" markdown>
 
-![Syncthing logo](assets/img/file-sharing-sync/syncthing.svg){ align=right }
+![Syncthing logo](assets/images/file-sharing-sync/syncthing.svg){ align=right }
 
-A **Syncthing** egy nyílt forráskódú peer-to-peer folyamatos fájlszinkronizáló segédprogram. Két vagy több eszköz közötti fájl szinkronizálásra szolgál helyi hálózaton vagy az interneten keresztül. A Syncthing nem használ központi szervert; a [Block Exchange Protocol](https://docs.syncthing.net/specs/bep-v1.html#bep-v1)-t használja az eszközök közötti adatátvitelre. Minden adat TLS-sel van titkosítva.
+**Syncthing** is an open-source peer-to-peer continuous file synchronization utility. Két vagy több eszköz közötti fájl szinkronizálásra szolgál helyi hálózaton vagy az interneten keresztül. A Syncthing nem használ központi szervert; a [Block Exchange Protocol](https://docs.syncthing.net/specs/bep-v1.html#bep-v1)-t használja az eszközök közötti adatátvitelre. Minden adat TLS-sel van titkosítva.
 
 [:octicons-home-16: Homepage](https://syncthing.net){ .md-button .md-button--primary }
 [:octicons-info-16:](https://docs.syncthing.net){ .card-link title=Documentation}

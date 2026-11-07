@@ -38,8 +38,8 @@ global:
 
 <div class="grid cards" markdown>
 
-- ![Proton Mail logo](assets/img/email/protonmail.svg){ .twemoji } [Proton Mail](#proton-mail)
-- ![Mailbox Mail logo](assets/img/email/mailbox-mail.svg){ .twemoji } [Mailbox Mail](#mailbox-mail)
+- ![Proton Mail logo](assets/images/email/protonmail.svg){ .twemoji } [Proton Mail](#proton-mail)
+- ![Mailbox Mail logo](assets/images/email/mailbox-mail.svg){ .twemoji } [Mailbox Mail](#mailbox-mail)
 
 </div>
 
@@ -58,9 +58,9 @@ global:
 
 <div class="admonition recommendation" markdown>
 
-![Proton Mail logo](assets/img/email/protonmail.svg){ align=left }
+![Proton Mail logo](assets/images/email/protonmail.svg){ align=right }
 
-**بريد بروتون** هو خدمة بُرُد إلكترونية تركِّز في الخصوصية والتعمية والأمن واليسر. بدأت خدمتهم منذ عام 2013. تقع شركة Proton AG في جنيف، سويسرا.
+**Proton Mail** is an email service with a focus on privacy, encryption, security, and ease of use. بدأت خدمتهم منذ عام 2013. تقع شركة Proton AG في جنيف، سويسرا.
 
 توفر خطة Proton المجانية سعة تخزين للبريد تصل إلى 500 ميجابايت، ويمكنك زيادتها مجانا حتى 1 جيجابايت.
 
@@ -141,7 +141,7 @@ Certain information stored in [Proton Contacts](https://proton.me/support/proton
 
 <div class="admonition recommendation" markdown>
 
-![Mailbox Mail logo](assets/img/email/mailbox-mail.svg){ align=right }
+![Mailbox Mail logo](assets/images/email/mailbox-mail.svg){ align=right }
 
 **Mailbox Mail** (formerly *Mailbox.org*) is an email service with a focus on being secure, ad-free, and powered by 100% eco-friendly energy. وهم يعملون منذ ٢٠١٤. Mailbox Mail is based in Berlin, Germany.
 
@@ -202,7 +202,7 @@ These providers encrypt your emails in a way that only you can read them later, 
 
 <div class="grid cards" markdown>
 
-- ![Tuta logo](assets/img/email/tuta.svg#only-light){ .twemoji loading=lazy }![Tuta logo](assets/img/email/tuta-dark.svg#only-dark){ .twemoji loading=lazy } [Tuta](#tuta)
+- ![Tuta logo](assets/images/email/tuta.svg#only-light){ .twemoji loading=lazy }![Tuta logo](assets/images/email/tuta-dark.svg#only-dark){ .twemoji loading=lazy } [Tuta](#tuta)
 
 </div>
 
@@ -210,10 +210,10 @@ These providers encrypt your emails in a way that only you can read them later, 
 
 <div class="admonition recommendation" markdown>
 
-![Tuta logo](assets/img/email/tuta.svg#only-light){ align=right }
-![Tuta logo](assets/img/email/tuta-dark.svg#only-dark){ align=right }
+![Tuta logo](assets/images/email/tuta.svg#only-light){ align=right }
+![Tuta logo](assets/images/email/tuta-dark.svg#only-dark){ align=right }
 
-خدمة Tuta (التي كانت تُعرف سابقا باسم Tutanota) هي خدمة بريد إلكتروني تركز على الأمان والخصوصية من خلال استخدام التشفير. تعمل Tuta منذ عام 2011، وتتخذ من هانوفر في ألمانيا مقرا لها.
+**Tuta** (formerly *Tutanota*) is an email service with a focus on security and privacy through the use of encryption. تعمل Tuta منذ عام 2011، وتتخذ من هانوفر في ألمانيا مقرا لها.
 
 تبدأ الحسابات المجانية بسعة تخزين تبلغ 1 جيجابايت.
 

@@ -15,7 +15,7 @@ Wybierz **pakiet biurowy**, który nie wymaga logowania do konta w celu uzyskani
 
 <div class="admonition recommendation" markdown>
 
-![LibreOffice logo](assets/img/office-suites/libreoffice.svg){ align=right }
+![LibreOffice logo](assets/images/office-suites/libreoffice.svg){ align=right }
 
 **LibreOffice** to darmowy pakiet biurowy open source, o szerokiej funkcjonalności.
 
@@ -43,7 +43,7 @@ Wybierz **pakiet biurowy**, który nie wymaga logowania do konta w celu uzyskani
 
 <div class="admonition recommendation" markdown>
 
-![OnlyOffice logo](assets/img/office-suites/onlyoffice.svg){ align=right }
+![OnlyOffice logo](assets/images/office-suites/onlyoffice.svg){ align=right }
 
 **OnlyOffice** to oparty na chmurze darmowy pakiet biurowy open source z rozbudowaną funkcjonalnością, w tym integracją z Nextcloud.
 

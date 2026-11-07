@@ -53,7 +53,7 @@ Wenn du dich bei einer Website anmeldest, musst du nur den Sicherheitsschlüssel
 Der Dienst leitet dann das Einmalpasswort zur Validierung an den Yubico OTP-Server weiter. Sowohl auf dem Schlüssel als auch auf dem Validierungsserver von Yubico wird ein Zähler hochgezählt. Das OTP kann nur einmal verwendet werden, und bei einer erfolgreichen Authentifizierung wird der Zähler erhöht, was eine erneute Verwendung des OTP verhindert. Yubico stellt eine [detaillierte Dokumentation](https://developers.yubico.com/OTP/OTPs_Explained.html) über den Prozess zur Verfügung.
 
 <figure markdown>
-  ![Yubico OTP](../assets/img/multi-factor-authentication/yubico-otp.png)
+  ![Yubico OTP](../assets/images-localized/multi-factor-authentication/yubico-otp.png)
 </figure>
 
 Die Verwendung von Yubico OTP hat im Vergleich zu TOTP einige Vor- und Nachteile.
@@ -71,7 +71,7 @@ U2F und FIDO2 beziehen sich auf das [Client to Authenticator Protocol](https://d
 WebAuthn ist die sicherste und privatste Form der Zweitfaktor-Authentifizierung. Die Authentifizierung ist ähnlich wie bei Yubico OTP, aber der Schlüssel druckt kein Einmalpasswort aus und validiert nicht mit einem Server eines Drittanbieters. Stattdessen wird für die Authentifizierung ein [asymetrische Kryptosystem](https://de.wikipedia.org/wiki/Asymmetrisches_Kryptosystem) verwendet (Public-Key-Cryptography).
 
 <figure markdown>
-  ![FIDO](../assets/img/multi-factor-authentication/fido.png)
+  ![FIDO](../assets/images-localized/multi-factor-authentication/fido.png)
 </figure>
 
 Wenn du ein Konto anlegst, wird der öffentliche Schlüssel an den Dienst gesendet. Wenn du dich dann anmeldest, verlangt der Dienst, dass du einige Daten mit deinem privaten Schlüssel "signierst". Dies hat den Vorteil, dass der Dienst keine Passwortdaten speichert, sodass ein Angreifer nichts stehlen kann.

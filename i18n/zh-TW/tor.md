@@ -9,7 +9,7 @@ schema:
     "@context": http://schema.org
     "@type": SoftwareApplication
     name: Tor Browser
-    image: /assets/img/browsers/tor.svg
+    image: /assets/images/browsers/tor.svg
     url: https://torproject.org
     sameAs: https://zh.wikipedia.org/wiki/Tor
     applicationCategory: 網頁瀏覽器
@@ -50,9 +50,9 @@ schema:
 
 <div class="admonition recommendation" markdown>
 
-![Tor 瀏覽器標誌](assets/img/browsers/tor.svg){ align=right }
+![Tor Browser logo](assets/images/browsers/tor.svg){ align=right }
 
-若您需要匿名瀏覽，**Tor 瀏覽器**是首選。它不僅提供存取 Tor 網路與中繼節點的功能，更內建預設設定與擴充功能，並依據三種預設安全等級自動設定：「標準」、「較安全」與「最安全」。
+**Tor Browser** is the top choice if you need anonymity, as it provides you with access to the Tor network and bridges, and it includes default settings and extensions that are automatically configured by the default security levels: *Standard*, *Safer* and *Safest*.
 
 [:octicons-home-16: 首頁](https://torproject.org){ .md-button .md-button--primary }
 [:simple-torbrowser:](http://2gzyxa5ihm7nsggfxnu52rck2vv4rvmdlkiu3zzui5du4xyclen53wid.onion){ .card-link title="Onion 服務" }
@@ -88,9 +88,9 @@ Tor 瀏覽器旨在防止指紋識別----根據您的瀏覽器配置識別您。
 
 <div class="admonition recommendation" markdown>
 
-![Onion Browser logo](assets/img/self-contained-networks/onion_browser.svg){ align=right }
+![Onion Browser logo](assets/images/self-contained-networks/onion_browser.svg){ align=right }
 
-**Onion 瀏覽器** 是開源瀏覽器，其可讓您在 iOS 設備上匿名瀏覽 Tor 網路，其有 [Tor Project](https://support.torproject.org/glossary/onion-browser/)之保證。
+**Onion Browser** is an open-source browser that lets you browse the web anonymously over the Tor network on iOS devices and is endorsed by the [Tor Project](https://support.torproject.org/glossary/onion-browser).
 
 [:material-star-box: 閱讀我們的最新 Onion 瀏覽器評測報告。](https://www.privacyguides.org/articles/2024/09/18/onion-browser-review)
 

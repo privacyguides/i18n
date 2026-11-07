@@ -19,7 +19,7 @@ If you already use [Proton Drive](cloud.md#proton-drive)[^1] or have a [Bitwarde
 
 <div class="admonition recommendation" markdown>
 
-![Send logo](assets/img/file-sharing-sync/send.svg){ align=right }
+![Send logo](assets/images/file-sharing-sync/send.svg){ align=right }
 
 **Send** is a fork of Mozilla's discontinued Firefox Send service which allows you to send files to others with a link. Dosyalar cihanızda şifrelenir, böylece sunucu tarafından okunamazlar ve isteğe bağlı olarak parola korumalı da olabilirler. The maintainer of Send hosts a [public instance](https://send.vis.ee). You can use other public instances, or you can host Send yourself.
 
@@ -43,7 +43,7 @@ ffsend upload --host https://send.vis.ee/ FILE
 
 <div class="admonition recommendation" markdown>
 
-![OnionShare logo](assets/img/file-sharing-sync/onionshare.svg){ align=right }
+![OnionShare logo](assets/images/file-sharing-sync/onionshare.svg){ align=right }
 
 **OnionShare** is an open-source tool that lets you securely and [:material-incognito: anonymously](basics/common-threats.md#anonymity-vs-privacy){ .pg-purple } share a file of any size. Tor onion hizmeti olarak erişilebilir bir wen sunucusu başlatarak çalışır, böylece dosyaları indirmek veya göndermek için alıcıyla tahmin edilemez bir link paylaşabilirsiniz.
 
@@ -80,9 +80,9 @@ OnionShare provides the option to connect via [Tor bridges](https://docs.onionsh
 
 <div class="admonition recommendation" markdown>
 
-![Syncthing logosu](assets/img/file-sharing-sync/syncthing.svg){ align=right }
+![Syncthing logo](assets/images/file-sharing-sync/syncthing.svg){ align=right }
 
-**Syncthing** açık kaynaklı bir eşler arası sürekli dosya senkronizasyon yardımcı programıdır. Dosyaları yerel ağ veya internet üzerinden iki veya daha fazla cihaz arasında senkronize etmek için kullanılır. Syncthing merkezi bir sunucu kullanmaz; cihazlar arasında veri aktarımı için [Blok Değişim Protokolü](https://docs.syncthing.net/specs/bep-v1.html#bep-v1) kullanır. Tüm veriler TLS kullanılarak şifrelenir.
+**Syncthing** is an open-source peer-to-peer continuous file synchronization utility. Dosyaları yerel ağ veya internet üzerinden iki veya daha fazla cihaz arasında senkronize etmek için kullanılır. Syncthing merkezi bir sunucu kullanmaz; cihazlar arasında veri aktarımı için [Blok Değişim Protokolü](https://docs.syncthing.net/specs/bep-v1.html#bep-v1) kullanır. Tüm veriler TLS kullanılarak şifrelenir.
 
 [:octicons-home-16: Ana Sayfa](https://syncthing.net){ .md-button .md-button--primary }[:octicons-info-16:](https://docs.syncthing.net){ .card-link title="Privacy Policy" }
 [:octicons-code-16:](https://github.com/syncthing){ .card-link title=Documentation}

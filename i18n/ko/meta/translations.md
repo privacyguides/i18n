@@ -16,10 +16,16 @@ description: 웹사이트에 번역을 추가하는 방법에 대한 웹사이�
 예를 들면 다음과 같습니다:
 
 ```text
-![Software logo](assets/img/path/to/image.svg){ align=right }
+![Software logo](assets/images/path/to/image.svg){ align=right }
 ```
 
 위와 같은 이미지 삽입 문법에서 `![`가 빠지거나, 텍스트와 경로 사이(`](` 부분)에 공백이 추가로 들어간 경우가 종종 있었습니다. 번역 문자열이 명백히 잘못되었다면 휴지통 아이콘을 눌러 **삭제**하거나, 가장 좋다고 생각하는 번역에 [투표](https://support.crowdin.com/enterprise/getting-started-for-volunteers/#voting-view)해 주세요. 잘못된 문자열을 삭제하면 조직의 [번역 메모리](https://support.crowdin.com/enterprise/translation-memory)에서 제거되므로, 같은 원문이 다시 나타났을 때 잘못된 번역이 제안되지 않습니다.
+
+## 이미지 { #images }
+
+Images shared by all languages live in `docs/assets/images` and are excluded from Crowdin. When you run `SITE_LANGUAGE=fr ./run.sh` (replacing `fr` with your language code), the build script links this directory into `i18n/fr/assets/images` so translated builds and Markdown previews can use the same files.
+
+Images containing text that needs translation live in `docs/assets/images-localized` and are uploaded to Crowdin. They retain their existing `docs/assets/img` paths in Crowdin to preserve translations, but are exported to `i18n/<language>/assets/images-localized`. Keep `assets/images-localized` in translated Markdown image paths so the same references resolve to the appropriate images in every language.
 
 ## 문장 부호 { #punctuation }
 

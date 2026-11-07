@@ -47,7 +47,7 @@ cover: activism/banner-activism-toolbox.webp
 
 ### 1. لنكتشف معا قوانين الخصوصية التي تحميك
 
-![رمز المقياس] (../../assets/img/activism/icons/icon-tips/icon-tips-laws.webp){class="رمز-تلميح-صندوق-أدوات-مربع-أيقونة"}
+![Scale icon](../../assets/images/activism/icons/icon-tips/icon-tips-laws.webp){class="toolbox-tip-icon"}
 
 عندما تكون مطلعاً بشكل جيد على قوانين حماية البيانات في بلدك، ستمتلك سلاحاً قوياً يدعمك في نضالك الفردي والجماعي من أجل خصوصية أفضل لك وللجميع. اكتشف المزيد حول النقاط الأساسية التي يجب التركيز عليها عند البحث في قوانين الخصوصية الخاصة ببلدك.
 
@@ -62,7 +62,7 @@ cover: activism/banner-activism-toolbox.webp
 
 ### 2. كيفية التبليغ عن انتهاكات الخصوصية
 
-![أيقونة الرمح] (../../assets/img/activism/icons/icon-tips/icon-tips-report.webp){class="رمز صندوق الأدوات-تلميح-أيقونة"}
+![Gavel icon](../../assets/images/activism/icons/icon-tips/icon-tips-report.webp){class="toolbox-tip-icon"}
 
 بعد أن تتعرف على قوانين الخصوصية في بلدك، من الجيد أن تطلع على خطوات التبليغ عن أي انتهاكات قد تواجهها. تقديم شكوى رسمية هو إجراء بسيط في العادة، لكن أثره قد يكون كبيرا جدا في حماية خصوصيتك وخصوصية مجتمعك. اكتشف المزيد حول أهمية التبليغ عن انتهاكات قوانين الخصوصية في بلدك وكيفية القيام بذلك بفعالية.
 
@@ -81,7 +81,7 @@ cover: activism/banner-activism-toolbox.webp
 
 ### 1. كيف تحمي نفسك من وعود الخصوصية الكاذبة
 
-![رمز رمز السموم](../../assets/img/activism/icons/icon-tips/icon-tips-snakeoil.webp){class="رمز-صندوق-تلميح-أداة"}
+![Poison symbol icon](../../assets/images/activism/icons/icon-tips/icon-tips-snakeoil.webp){class="toolbox-tip-icon"}
 
 خلال رحلتك في الدفاع عن الخصوصية، من المهم جدا أن تستخدم وتنصح بأدوات توفر حماية حقيقية وموثوقة للجميع. وللقيام بذلك، من المهم أن تبحث بدقة خلف الوعود التسويقية، وأن تتعامل بشيء من الحذر والشك مع أي ادعاءات غير مثبتة أو قد تبدو مبالغا فيها. اكتشف المزيد حول كيفية التأكد من وعود الخصوصية، لكي تتمكن من اختيار واقتراح الأدوات التي تستحق الثقة فعلا.
 
@@ -96,7 +96,7 @@ cover: activism/banner-activism-toolbox.webp
 
 ### 2. التحرر من أنظمة المراقبة والبحث عن بدائل أكثر خصوصية
 
-![سهم يشير إلى أيقونة مربعة](../../assets/img/activism/icons/icon-tips/icon-tips-migrate.webp){class="toolbox-tip-tip-conic"}
+![Arrow pointing out of a square icon](../../assets/images/activism/icons/icon-tips/icon-tips-migrate.webp){class="toolbox-tip-icon"}
 
 كوننا ندافع عن الخصوصية، فمن الضروري ألا نكتفي بدعم الجهات التي تحترم بياناتنا فحسب، بل أن نبادر بأنفسنا ونكون مثالاً يُحتذى به في ترك أنظمة المراقبة والبحث عن بدائل أفضل. اكتشف المزيد حول أهمية تقليل الاعتماد على 'عمالقة التقنية' وكيفية الانتقال إلى بدائل تحترم خصوصيتك وتمنحك سيطرة أكبر على بياناتك.
 
@@ -111,7 +111,7 @@ cover: activism/banner-activism-toolbox.webp
 
 ### 3. عزز حضورك الرقمي، وابنِ مجتمعاتٍ صلبة ومترابطة
 
-![أيقونة مثمنة] (../../assets/img/activism/icons/icon-tips/icon-tips-plant.webp){class="رمز صندوق الأدوات-تلميح-أيقونة"}
+![Octagon icon](../../assets/images/activism/icons/icon-tips/icon-tips-plant.webp){class="toolbox-tip-icon"}
 
 تعد منصات التواصل الاجتماعي التجارية من أوسع الميادين التي تتعرض فيها بياناتنا للاستغلال. ببقائنا نشطين على هذه المنصات، نحن نزيد من نهمها لبياناتنا، ونساهم دون قصد في إضعاف حصون خصوصيتنا. اكتشف كيف تخفف من أثرك الرقمي هناك، وتبدأ خطوة بخطوة في بناء مجتمعات تواصل أكثر أمانا ووعيا.
 
@@ -130,7 +130,7 @@ cover: activism/banner-activism-toolbox.webp
 
 ### 1. لا تقف عند حدود الحلول الفردية، بل تأمل في قوة الأثر حين نصنعه معا
 
-![أشخاص بأيقونة خطوط مشعة](../../assets/img/activism/icons/icon-tips/icon-tips-expand.webp) {class="toolbox-tip-tip-conic"}
+![People with radiating lines icon](../../assets/images/activism/icons/icon-tips/icon-tips-expand.webp){class="toolbox-tip-icon"}
 
 حين نفكر في خصوصيتنا، غالبا ما يتجه تركيزنا نحو الأدوات والحلول التقنية التي بين أيدينا. ورغم أن هذا الجانب ركن أساسي، إلا أنه من الضروري ألا نغفل عن أثر القوانين والممارسات الجائرة على مجتمعنا ككل. استكشف كيف تفتح آفاقا أرحب لرؤيتك تجاه خصوصية البيانات وأبعادها الشاملة.
 
@@ -145,7 +145,7 @@ cover: activism/banner-activism-toolbox.webp
 
 ### 2. أبقِ الصورة الشاملة حاضرة في ذهنك
 
-![أيقونة الكرة الأرضية] (../../assets/img/activism/icons/icon-tips/icon-tips-landscape.webp){class="رمز صندوق الأدوات-تلميح-أيقونة"}
+![Globe icon](../../assets/images/activism/icons/icon-tips/icon-tips-landscape.webp){class="toolbox-tip-icon"}
 
 الخصوصية لا تقتصر على الأدوات التي نستخدمها، أو القوانين التي تُسن، أو حتى ممارسات فرد أو مؤسسة بعينها. لنصل بمجتمعنا إلى واقع يلمس فيه الجميع ثمار الخصوصية كحق تلقائي، علينا أن ننظر إلى التقنيات، والقوانين، والثقافة بمنظور شمولي ومتكامل. اكتشف المزيد حول كيفية إبقاء الصورة الشاملة نصب عينيك.
 
@@ -160,7 +160,7 @@ cover: activism/banner-activism-toolbox.webp
 
 ### 3. ضع في حسبانك تباين الظروف لكل فرد
 
-![الأشخاص الذين لديهم خط فوق الأيقونة وتحتها](../../assets/img/activism/icons/icon-tips/icon-tips-everyone.webp){class="toolbox-tip-tip-conic"}
+![People with line over and under icon](../../assets/images/activism/icons/icon-tips/icon-tips-everyone.webp){class="toolbox-tip-icon"}
 
 فلكلِ فردٍ احتياجاته الخاصة، ومخاطر متباينة قد تتربص به عند تعرض بياناته الشخصية للانكشاف. لكي نقدم نصائح وتوصيات عملية في حماية الخصوصية، من الجوهري أن نضع نُصب أعيننا تباين الظروف والسياقات الفريدة لكل فرد. اكتشف كيف تصقل مهاراتك في تقدير المخاطر وفهم 'نموذج التهديد' الخاص بكل فرد بعناية أكبر.
 
@@ -179,7 +179,7 @@ cover: activism/banner-activism-toolbox.webp
 
 ### 1. كن سندا لمجتمعك
 
-![أيقونة اليدين] (../../assets/img/activism/icons/icon-tips/icon-tips-lift.webp){class="رمز صندوق الأدوات-تلميح-أيقونة"}
+![Two hands icon](../../assets/images/activism/icons/icon-tips/icon-tips-lift.webp){class="toolbox-tip-icon"}
 
 أحيانا، قد تشعر أن مجتمع المهتمين بالخصوصية هو مجتمع صغير ومنعزل عن البقية. المعركة من أجل حقوق الخصوصية صعبة، والمدافعون عنها غالبا ما يكونون متفرقين. ولهذا السبب، من الضروري أن ندعم ونشجع بعضنا البعض في كل فرصة تتاح لنا. تعرف أكثر على كيفية مساندة حلفائك والمساهمة في نمو هذا الحراك.
 
@@ -194,7 +194,7 @@ cover: activism/banner-activism-toolbox.webp
 
 ### 2. ادعم زملائك المدافعين عن الخصوصية
 
-![يد تحمل أيقونة قلب](../../assets/img/activism/icons/icon-tips/icon-tips-support.webp){class="toolbox-tip-tip-conic"}
+![Hand holding a heart icon](../../assets/images/activism/icons/icon-tips/icon-tips-support.webp){class="toolbox-tip-icon"}
 
 الدفاع عن حقوق الخصوصية هو جهد جماعي مشترك. لا يمكنك القيام بذلك بمفردك. كل من يساهم من حولك يخوض المعركة نفسها إلى جانبك. هذه المعركة قد تكون صعبة وتشعرك بالعزلة أحيانا. ولهذا السبب، من الضروري جدا أن نهتم ببعضنا البعض. تعرف أكثر على كيفية دعم ومساندة زملائك المدافعين عن الخصوصية.
 
@@ -208,7 +208,7 @@ cover: activism/banner-activism-toolbox.webp
 
 ### 3. كُن لطيفا مع الناس، ولكن لا تتهاون مع المؤسسات
 
-![يدان تحملان أيقونة كرة](../../assets/img/activism/icons/icon-tips/icon-tips-kind.webp){class="toolbox-tip-tip-conic"}
+![Two hands holding a sphere icon](../../assets/images/activism/icons/icon-tips/icon-tips-kind.webp){class="toolbox-tip-icon"}
 
 اللطف أمر أساسي لكل من يدافع عن الخصوصية. لكي تنمو حركتنا، يجب أن نتواصل مع الناس بروح من الزمالة والود. التوبيخ لا يدفع أحدا لتغيير رأيه، فالبداية دائما تكون بالكلمة الطيبة والوعي. لكن الأمر يختلف تماما عندما نتعامل مع المؤسسات والشركات. اكتشف المزيد حول كيفية تبني اللطف في دعوتك للآخرين، بينما تظل حازماً ولا تلين في مطالبة المؤسسات بحقوقنا.
 
@@ -227,7 +227,7 @@ cover: activism/banner-activism-toolbox.webp
 
 ### 1. لنبنِ جسوراً للتعاون بدلا من خوض المعارك
 
-![أيقونة المصافحة] (../../assets/img/activism/icons/icon-tips/icon-tips-alliances.webp){class="toolbox-tip-tip-conic"}
+![handshake icon](../../assets/images/activism/icons/icon-tips/icon-tips-alliances.webp){class="toolbox-tip-icon"}
 
 يتألف مجتمع المدافعين عن الخصوصية من مجموعات وأفراد متنوعين، ومن الطبيعي أن نجد بينهم أحياناً اختلافاً كبيراً في الآراء والتوجهات. حين تتحول اختلافاتنا إلى صراعات داخلية، علينا أن نتوقف ونسأل أنفسنا: كيف تضعف هذه المعارك الجانبية مجتمعنا وتؤثر عليه سلبا. اكتشف المزيد حول كيفية بناء جسور التعاون بدلا من خوض المعارك الجانبية، لكي نتمكن معا من تحقيق تغيير حقيقي.
 
@@ -242,7 +242,7 @@ cover: activism/banner-activism-toolbox.webp
 
 ### 2. لنتعاون مع الخبراء في المجالات الأخرى.. فقوتنا في تكاملنا
 
-![كرة ذات أيقونة نصف مظلمة ونصف فاتحة](../../assets/img/activism/icons/icon-tips/icon-tips-complement.webp){class="toolbox-tip-tip-conic"}
+![Sphere with half dark half light icon](../../assets/images/activism/icons/icon-tips/icon-tips-complement.webp){class="toolbox-tip-icon"}
 
 لتنوع هو سر قوتنا في عالم الخصوصية، تماما كما هو الحال في كل مجالات الحياة. لكي يمتلك مجتمعنا وعياً شاملاً بالمخاطر الرقمية ويكون قادرا على مواجهتها من زوايا مختلفة، علينا أن نؤمن بأن كل خبرة متنوعة هي إضافة حقيقية وقيمة لنا. اكتشف المزيد حول كيفية تقدير المواهب التي تختلف عن مواهبك، وكيف نبني بيئة تحترم الجميع وتشجعهم على البقاء والمساهمة معنا.
 
@@ -257,7 +257,7 @@ cover: activism/banner-activism-toolbox.webp
 
 ### 3. إعطاء كل ذي حق حقه
 
-![رمز الإبهام لأعلى](../../assets/img/activism/icons/icon-tips/icon-tips-credit.webp){class="رمز-إشارة-تلميح-صندوق-أدوات"}
+![Thumbs up icon](../../assets/images/activism/icons/icon-tips/icon-tips-credit.webp){class="toolbox-tip-icon"}
 
 النجاح لا يتحقق إلا بتكاتفنا ودعمنا لبعضنا البعض. وخير وسيلة لدعم بعضنا هي ألا ننسى أبدا أن ننسب الفضل لأصحابه ونقدر مجهود من ساعدنا. حينما يشارك زميل أو منظمة فكرة تعجبك، بادر بدعمهم ونشر رسالتهم على أوسع نطاق، ولا تتردد في شكرهم أمام الجميع. اكتشف المزيد حول كيفية إخبار شركائنا في الرحلة بأن مجهوداتهم مرئية ومقدرة، لكي نبني معاً بيئة يسودها الاحترام المتبادل.
 
@@ -276,7 +276,7 @@ cover: activism/banner-activism-toolbox.webp
 
 ### 1. مرحباً بالمبتدئين
 
-![شخص مع أيقونة علامة زائد](../../assets/img/activism/icons/icon-tips/icon-tips-beginner.webp){class="toolbox-tip-tip-conic"}
+![Person with plus sign icon](../../assets/images/activism/icons/icon-tips/icon-tips-beginner.webp){class="toolbox-tip-icon"}
 
 لكي تنمو حركتنا وتزدهر، علينا أن نفتح أبوابنا للجميع وندعو المزيد من الناس للانضمام إلينا. وعلشان نحقق ده، لازم نبسط كلامنا عن الخصوصية ونستخدم لغة واضحة وسهلة يفهمها أي حد لسه بيبدأ معانا، حتى لو ميعرفش المصطلحات التقنية. ولتحقيق ذلك، من الضروري جداً أن نتحدث عن الخصوصية بأسلوب بسيط وواضح، خاصةً للقادمين الجدد الذين لم يتعرفوا بعد على المفاهيم الأساسية.
 
@@ -291,7 +291,7 @@ cover: activism/banner-activism-toolbox.webp
 
 ### 2. اجعل منشوراتك ومجتمعك شاملا للجميع
 
-![قلب مع أيقونة علامة زائد](../../assets/img/activism/icons/icon-tips/icon-tips-inclusivity.webp){class="toolbox-tip-tip-conic"}
+![Heart with plus sign icon](../../assets/images/activism/icons/icon-tips/icon-tips-inclusivity.webp){class="toolbox-tip-icon"}
 
 الشمولية ليست مجرد فعل صواب نقوم به، بل هي ضرورة أساسية لنمو حركتنا واتساع تأثيرها. إذا أردنا لحقوق الخصوصية أن تنجح، فمن الواجب علينا بناء مجتمعات يشعر فيها الجميع بالأمان والترحيب، بغض النظر عن خلفياتهم أو هويتهم. تعرف على المزيد حول كيفية جعل تواصلك ومجتمعاتك شاملة ومرحبة بالجميع.
 
@@ -306,7 +306,7 @@ cover: activism/banner-activism-toolbox.webp
 
 ### 3. ضع سهولة الوصول في الحسبان
 
-![قلب مع أيقونة علامة اختيار](../../assets/img/activism/icons/icon-tips/icon-tips-accessibility.webp){class="toolbox-tip-tip-conic"}
+![Heart with checkmark icon](../../assets/images/activism/icons/icon-tips/icon-tips-accessibility.webp){class="toolbox-tip-icon"}
 
 سهولة الوصول جزء لا يتجزأ من الشمولية، ويجب أن تكون دائماً أولوية في كل ما نقوم به. لنجعل مجتمعات الخصوصية ترحب بالجميع، لا يمكن أن تكون سهولة الوصول مجرد فكرة ثانوية أو لاحقة. يجب أن ندمجها في ممارساتنا اليومية منذ البداية. تعرف على المزيد حول سبل تحسين سهولة الوصول في عملك المتعلق بالخصوصية.
 
@@ -321,7 +321,7 @@ cover: activism/banner-activism-toolbox.webp
 
 ### 4. تعرف كيف تجعل أعمالك سهلة للجميع
 
-![رمز القطة] (../../assets/img/activism/icons/icon-tips/icon-tips-cute.webp){class="رمز-تلميح-صندوق-أدوات-تلميح"}
+![Cat icon](../../assets/images/activism/icons/icon-tips/icon-tips-cute.webp){class="toolbox-tip-icon"}
 
 إذا كنت تطور تطبيقاً أو موقعاً إلكترونياً يركز على الخصوصية، فلا تهمل جانب التصميم فيه. هذا خطأ شائع قد يُبعد الناس عن فكرتك الجميلة، فالبساطة هي سر النجاح. تعرف كيف تجعل تصاميمك جذابة لتناسب الجميع. تعرف كيف تجعل أعمالك سهلة للجميع!
 
@@ -340,7 +340,7 @@ cover: activism/banner-activism-toolbox.webp
 
 ### 1. امتنع عن المشاركة
 
-![دائرة برمز x] (../../assets/img/activism/icons/icon-tips/icon-tips-refuse.webp){class="رمز-تلميح-صندوق-أدوات-تلميح-أيقونة"}
+![Circle with x icon](../../assets/images/activism/icons/icon-tips/icon-tips-refuse.webp){class="toolbox-tip-icon"}
 
 كأصدقاء للخصوصية، لنكن صوتا شجاعا يرفض الممارسات المؤذية. أبسط خطوة هي أن ترفض أي برنامج أو طلب يتطفل على مساحتك الخاصة. تعرّف كيف ترفض أي تطفل على خصوصيتك.
 
@@ -355,7 +355,7 @@ cover: activism/banner-activism-toolbox.webp
 
 ### 2. حافظ على مبادئك
 
-![رمز النجمة] (../../assets/img/activism/icons/icon-tips/icon-tips-principles.webp){class="رمز-تلميح-صندوق-أدوات-تلميح"}
+![Star icon](../../assets/images/activism/icons/icon-tips/icon-tips-principles.webp){class="toolbox-tip-icon"}
 
 إذا كنت تدير مجموعة أو منظمة تُعنى بالحقوق الرقمية، فاحرص على ألا تعرض مساهميك لنفس التقنيات التي تنتهك الخصوصية والتي تحاربها. للأسف، أحيانا لا تطبق بعض المجتمعات نصائحها على نفسها. تعرف كيف تحافظ على صدق مبادئك، في _الداخل_ كما في الخارج.
 
@@ -370,7 +370,7 @@ cover: activism/banner-activism-toolbox.webp
 
 ### 3. حافظ على أمان رفاقك
 
-![درع بأيقونة قلب](../../assets/img/activism/icons/icon-tips/icon-tips-protect.webp){class="رمز-تلميح-صندوق-أدوات-تلميح-أيقونة"}
+![Shield with heart icon](../../assets/images/activism/icons/icon-tips/icon-tips-protect.webp){class="toolbox-tip-icon"}
 
 في رحلتك مع الخصوصية، احرص ألا تجمع أو تشارك بيانات أحد دون استئذانه. أمان بيانات رفاقك أمانة في كل خطواتك، سواء كنت تعمل وحدك أو تقود فريقا. تعرف كيف تحمي بيانات رفاقك في رحلة الخصوصية.
 
@@ -389,7 +389,7 @@ cover: activism/banner-activism-toolbox.webp
 
 ### 1. الخطوات البسيطة تصنع فارقا
 
-![رمز قطعة اللغز] (../../assets/img/activism/icons/icon-tips/icon-tips-small.webp){class="رمز-تلميح-صندوق-أدوات-تلميح-أيقونة"}
+![Puzzle piece icon](../../assets/images/activism/icons/icon-tips/icon-tips-small.webp){class="toolbox-tip-icon"}
 
 أمامنا الكثير لنقدمه في رحلتنا نحو خصوصية أفضل. لدرجة أننا قد نشعر ببعض الإحباط أحيانا حين نتأمل طول الطريق المتبقي. لكن تذكر، كل مجهودٍ يُثمر، وأبسط الخطوات تترك أثرا. تعرف كيف أن كل خطوة وكل انتصار يترك أثراً، مهما كان بسيطا.
 
@@ -404,7 +404,7 @@ cover: activism/banner-activism-toolbox.webp
 
 ### 2. خذ وقتك لتلتقط أنفاسك، ثم عد لنقف معا من جديد
 
-![رمز البطارية المنخفضة] (../../assets/img/activism/icons/icon-tips/icon-tips-rest.webp){class="رمز-تلميح-صندوق-أدوات-تلميح-أيقونة"}
+![Low battery icon](../../assets/images/activism/icons/icon-tips/icon-tips-rest.webp){class="toolbox-tip-icon"}
 
 رحلتنا من أجل حقوق الخصوصية قد تطول. لأمر ليس سباقا قصيرا، بل مسيرة تحتاج لنَفَس طويل. لتستمر في ترك أثر جميل، لا تنس أن تمنح نفسك حق الراحة متى احتجتها. لا تدع الإرهاق يُطفئ شغفك، فبصمتك الغالية لا غنى لنا عنها! تعرف أكثر على أهمية أن تمنح نفسك حق الراحة متى احتجت لذلك.
 
@@ -423,7 +423,7 @@ cover: activism/banner-activism-toolbox.webp
 
 ### 1. شارك، ساند، وضَع بصمتك
 
-![أيقونة مكبر الصوت](../../assets/img/activism/icons/icon-tips/icon-tips-engage.webp){class="رمز صندوق الأدوات-تلميح-أيقونة"}
+![Megaphone icon](../../assets/images/activism/icons/icon-tips/icon-tips-engage.webp){class="toolbox-tip-icon"}
 
 بمجرد أن تكتمل معرفتك، ويتجدد شغفك وطاقتك، فقد حان وقت الانطلاق! لعلك قرأتَ كل هذه النصائح، أو أبحرتَ بالفعل في قاعدة معارفنا! لكنك لا تحتاج لأن تكون خبيرا في الخصوصية لتبدأ بترك أثرك. اكتشف كيف تبدأ خطواتك الأولى كداعم ومدافع عن الخصوصية.
 
@@ -438,7 +438,7 @@ cover: activism/banner-activism-toolbox.webp
 
 ### 2. ارتقِ بمهاراتك! نظم جهودك
 
-![أيقونة القبضة المرفوعة] (../../assets/img/activism/icons/icon-tips/icon-tips-organize.webp){class="رمز صندوق الأدوات-تلميح-أيقونة"}
+![Raised fist icon](../../assets/images/activism/icons/icon-tips/icon-tips-organize.webp){class="toolbox-tip-icon"}
 
 إن كنتَ تسير في درب الدفاع عن الخصوصية منذ مدة، فلعله الوقت المناسب لتنتقل إلى آفاق أرحب وتغدو ملهما وقائدا في مجتمعك. أن تصبح قائدا يعني أن تبادر بتأسيس مجموعة محلية حولك، أو تطلق مشاريع طموحة تصل للعالم أجمع عبر الإنترنت. اكتشف كيف تصبح صوتا _ملهماً_ وقائدا مؤثراً في رحلة الدفاع عن حقوق الخصوصية.
 

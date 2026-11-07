@@ -63,7 +63,7 @@ If you don't use an automatic scanner to find results about you, consider settin
 
 <div class="admonition recommendation" markdown>
 
-![Logo EasyOptOuts](assets/img/data-broker-removals/easyoptouts.svg){ align=right }
+![EasyOptOuts logo](assets/images/data-broker-removals/easyoptouts.svg){ align=right }
 
 **EasyOptOuts** is a $20/year service which will search a number of different data broker sites and automatically submit opt-out requests on your behalf. They will perform the first search and removal process immediately, and then re-run the process every 4 months in case your data shows up on new sites over time.
 
@@ -98,7 +98,7 @@ While Google is not a data broker themselves _per se_, as they don't sell or sha
 
 <div class="admonition recommendation" markdown>
 
-![Logo Google](assets/img/data-broker-removals/google.svg){ align=right }
+![Google logo](assets/images/data-broker-removals/google.svg){ align=right }
 
 **Wyniki wyszukiwania informacji o Tobie** to darmowe narzędzie, które pomaga Ci odkryć czy twoje dane kontaktowe, w tym adres domowy, numer telefonu i adres e-mail, pojawiają się w wynikach wyszukiwania Google. W przypadku znalezienia jakichkolwiek danych osobowych użytkownik może zażądać ich usunięcia.
 

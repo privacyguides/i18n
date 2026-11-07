@@ -19,7 +19,7 @@ Los administradores de sistemas avanzados pueden considerar configurar su propio
 
 <div class="admonition recommendation" markdown>
 
-![Stalwart logo](../assets/img/self-hosting/stalwart.svg){ align=right }
+![Stalwart logo](../assets/images/self-hosting/stalwart.svg){ align=right }
 
 **Stalwart** es un nuevo servidor de correo escrito en Rust que soporta JMAP además de los estándares IMAP, POP3 y SMTP. Dispone de una amplia variedad de opciones de configuración, pero también de una configuración predeterminada muy razonable tanto en términos de seguridad como de funciones, lo que facilita su uso inmediato. Tiene administración basada en web con soporte TOTP 2FA y te permite introducir tu clave PGP pública para encriptar **todos** los mensajes entrantes.
 
@@ -40,7 +40,7 @@ Utilizamos Stalwart para nuestro propio correo electrónico interno en _Privacy 
 
 <div class="admonition recommendation" markdown>
 
-![Mailcow logo](../assets/img/self-hosting/mailcow.svg){ align=right }
+![Mailcow logo](../assets/images/self-hosting/mailcow.svg){ align=right }
 
 **Mailcow** es un servidor de correo avanzado perfecto para aquellos con experiencia en Linux. Tiene todo lo que necesitas en un contenedor Docker: un servidor de correo con soporte DKIM, antivirus y monitorización de spam, correo web y ActiveSync con SOGo, y administración basada en web con soporte 2FA.
 
@@ -55,7 +55,7 @@ Utilizamos Stalwart para nuestro propio correo electrónico interno en _Privacy 
 
 <div class="admonition recommendation" markdown>
 
-![Mail-in-a-Box logo](../assets/img/self-hosting/mail-in-a-box.svg){ align=right }
+![Mail-in-a-Box logo](../assets/images/self-hosting/mail-in-a-box.svg){ align=right }
 
 **Mail-in-a-Box** es un script de configuración automatizado para desplegar un servidor de correo en Ubuntu. Su objetivo es facilitar a los usuarios la instalación de su propio servidor de correo.
 

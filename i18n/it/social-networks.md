@@ -44,7 +44,7 @@ Se sei molto preoccupato per un server esistente che censura i tuoi contenuti, i
 
 <div class="admonition recommendation" markdown>
 
-![Logo di Mastodon](assets/img/social-networks/mastodon.svg){ align=right }
+![Mastodon logo](assets/images/social-networks/mastodon.svg){ align=right }
 
 **Mastodon** è un social network basato su protocolli web aperti e su software libero e open source. Utilizza il protocollo **:simple-activitypub: ActivityPub** che è decentralizzato come le email: gli utenti possono esistere su server diversi o persino piattaforme diverse, ma ancora comunicare tra di loro.
 
@@ -116,7 +116,7 @@ If you used our recommended configuration settings above, you should be posting 
 
 <div class="admonition recommendation" markdown>
 
-![Element logo](assets/img/social-networks/element.svg){ align=right }
+![Element logo](assets/images/social-networks/element.svg){ align=right }
 
 **Element** is the flagship client for the **:simple-matrix: [Matrix](https://matrix.org/docs/chat_basics/matrix-for-im)** protocol, an [open standard](https://spec.matrix.org/latest) that enables decentralized communication by way of federated chat rooms. Users can exist on different homeservers but still communicate with each other.
 

@@ -43,9 +43,9 @@ VPNを使用しても、ブラウジング傾向を匿名化したり、安全�
 
 <div class="admonition recommendation" markdown>
 
-![Proton VPN ロゴ](assets/img/vpn/protonvpn.svg){ align=right }
+![Proton VPN logo](assets/images/vpn/protonvpn.svg){ align=right }
 
-**Proton VPN**はVPNの分野において強力なサービスプロバイダーであり、2016年から運営されています。 Proton AGはスイスに本社を置き、機能が限定された無料枠と、より多くの機能を備えたプレミアムオプションを提供しています。
+**Proton VPN** is a strong contender in the VPN space, and they have been in operation since 2016. Proton AGはスイスに本社を置き、機能が限定された無料枠と、より多くの機能を備えたプレミアムオプションを提供しています。
 
 [:octicons-home-16: Homepage](https://protonvpn.com){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://protonvpn.com/privacy-policy){ .card-link title="Privacy Policy" }
@@ -137,9 +137,9 @@ Additionally, system crashes [may occur](https://protonvpn.com/support/macos-t2-
 
 <div class="admonition recommendation" markdown>
 
-![IVPN logo](assets/img/vpn/ivpn.svg){ align=right }
+![IVPN logo](assets/images/vpn/ivpn.svg){ align=right }
 
-**IVPN**はプレミアムVPNプロバイダの一つで、2009年から運営されています。 IVPNはジブラルタルに拠点があり、無料トライアルはありません。
+**IVPN** is another premium VPN provider, and they have been in operation since 2009. IVPNはジブラルタルに拠点があり、無料トライアルはありません。
 
 [:octicons-home-16: Homepage](https://ivpn.net){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://ivpn.net/privacy){ .card-link title="Privacy Policy" }
@@ -212,9 +212,9 @@ IVPNのクライアントは二要素認証に対応しています。また、[
 
 <div class="admonition recommendation" markdown>
 
-![Mullvad ロゴ](assets/img/vpn/mullvad.svg){ align=right }
+![Mullvad logo](assets/images/vpn/mullvad.svg){ align=right }
 
-**Mullvad**は、透明性とセキュリティに重点を置いた、高速で安価なVPNです。 2009年からサービスが稼働しました。 Mullvadはスウェーデンに拠点を置き、[支払い](https://mullvad.net/en/help/refunds)には14日間の返金保証があります。
+**Mullvad** is a fast and inexpensive VPN with a serious focus on transparency and security. 2009年からサービスが稼働しました。 Mullvadはスウェーデンに拠点を置き、[支払い](https://mullvad.net/en/help/refunds)には14日間の返金保証があります。
 
 [:octicons-home-16: Homepage](https://mullvad.net){ .md-button .md-button--primary }
 [:simple-torbrowser:](http://o54hon2e2vj6c7m3aqqu6uyece65by3vgoxxhlqlsvkmacw6a7m7kiad.onion){ .card-link title="Onion Service" }

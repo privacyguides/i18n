@@ -17,12 +17,12 @@ Certaines des informations présentées ici et dans la documentation du système
 
 </details>
 
-![Architecture de Qubes](../assets/img/qubes/qubes-trust-level-architecture.png)
+![Architecture de Qubes](../assets/images-localized/qubes/qubes-trust-level-architecture.png)
 <figcaption>Architecture de Qubes, Crédit : Intro de Qu'est-ce que Qubes OS</figcaption>
 
 Chaque qube a des [bordures colorées](https://qubes-os.org/screenshots) qui peuvent vous aider à repérer dans quel domaine il s'exécute. Vous pouvez, par exemple, utiliser une couleur spécifique pour votre navigateur bancaire, tout en utilisant une couleur différente pour un navigateur général non fiable.
 
-![Bordure colorée](../assets/img/qubes/r4.0-xfce-three-domains-at-work.png)
+![Bordure colorée](../assets/images-localized/qubes/r4.0-xfce-three-domains-at-work.png)
 <figcaption>Bordures de fenêtres de Qubes, Crédit : Captures d'écran Qubes</figcaption>
 
 ## Pourquoi devrais-je utiliser Qubes ?

@@ -17,9 +17,9 @@ cover: news-aggregators.webp
 
 <div class="admonition recommendation" markdown>
 
-![Logo Akregatora](assets/img/news-aggregators/akregator.svg){ align=right }
+![Akregator logo](assets/images/news-aggregators/akregator.svg){ align=right }
 
-**Akregator** jest czytnikiem kanałów, który jest częścią projektu [KDE](https://kde.org). Oferuje szybkie wyszukiwanie, zaawansowane funkcje archiwizacji oraz wbudowaną przeglądarkę ułatwiającą czytanie wiadomości.
+**Akregator** is a news feed reader that is a part of the [KDE](https://kde.org) project. Oferuje szybkie wyszukiwanie, zaawansowane funkcje archiwizacji oraz wbudowaną przeglądarkę ułatwiającą czytanie wiadomości.
 
 [:octicons-home-16: Strona główna](https://apps.kde.org/akregator){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://kde.org/privacypolicy-apps){ .card-link title="Polityka prywatności" }
@@ -40,9 +40,9 @@ cover: news-aggregators.webp
 
 <div class="admonition recommendation" markdown>
 
-![Logo NewsFlash](assets/img/news-aggregators/newsflash.png){ align=right }
+![NewsFlash logo](assets/images/news-aggregators/newsflash.png){ align=right }
 
-**NewsFlash** to open-source, nowoczesny i łatwy w użyciu czytnik kanałów dla systemu Linux. Może być używany w trybie offline lub z usługami takimi jak [Inoreader](https://inoreader.com) lub [Nextcloud News](https://apps.nextcloud.com/apps/news). Posiada on funkcję wyszukiwania oraz gotową listę źródeł, które można dodać bezpośrednio w aplikacji.
+**NewsFlash** is an open-source, modern, and easy-to-use news feed reader for Linux. Może być używany w trybie offline lub z usługami takimi jak [Inoreader](https://inoreader.com) lub [Nextcloud News](https://apps.nextcloud.com/apps/news). Posiada on funkcję wyszukiwania oraz gotową listę źródeł, które można dodać bezpośrednio w aplikacji.
 
 [:octicons-repo-16: Repozytorium](https://gitlab.com/news-flash/news_flash_gtk#newsflash){ .md-button .md-button--primary }
 [:octicons-code-16:](https://gitlab.com/news-flash/news_flash_gtk){ .card-link title="Kod źródłowy" }
@@ -60,9 +60,9 @@ cover: news-aggregators.webp
 
 <div class="admonition recommendation" markdown>
 
-![Logo Feeder](assets/img/news-aggregators/feeder.png){ align=right }
+![Feeder logo](assets/images/news-aggregators/feeder.png){ align=right }
 
-**Feeder** to nowoczesny klient RSS dla Androida, który ma wiele [funkcji](https://github.com/spacecowboy/Feeder#features) i działa z folderami kanałów RSS.
+**Feeder** is a modern RSS client for Android that has many [features](https://github.com/spacecowboy/Feeder#features) and works well with folders of RSS feeds.
 
 Obsługuje [RSS](https://en.wikipedia.org/wiki/RSS), [Atom](https://en.wikipedia.org/wiki/Atom_(Web_standard)), [RDF](https://en.wikipedia.org/wiki/RDF%2FXML) i [JSON Feed](https://en.wikipedia.org/wiki/JSON_Feed).
 
@@ -84,10 +84,10 @@ Obsługuje [RSS](https://en.wikipedia.org/wiki/RSS), [Atom](https://en.wikipedia
 
 <div class="admonition recommendation" markdown>
 
-![Logo Miniflux](assets/img/news-aggregators/miniflux.svg#only-light){ align=right }
-![Logo Miniflux](assets/img/news-aggregators/miniflux-dark.svg#only-dark){ align=right }
+![Miniflux logo](assets/images/news-aggregators/miniflux.svg#only-light){ align=right }
+![Miniflux logo](assets/images/news-aggregators/miniflux-dark.svg#only-dark){ align=right }
 
-**Miniflux** to internetowy agregator wiadomości, który można samodzielnie hostować.
+**Miniflux** is a web-based news aggregator that you can self-host.
 
 Obsługuje [RSS](https://en.wikipedia.org/wiki/RSS), [Atom](https://en.wikipedia.org/wiki/Atom_(Web_standard)), [RDF](https://en.wikipedia.org/wiki/RDF%2FXML) i [JSON Feed](https://en.wikipedia.org/wiki/JSON_Feed).
 
@@ -102,9 +102,9 @@ Obsługuje [RSS](https://en.wikipedia.org/wiki/RSS), [Atom](https://en.wikipedia
 
 <div class="admonition recommendation" markdown>
 
-![Logo NetNewsWire](assets/img/news-aggregators/netnewswire.png){ align=right }
+![NetNewsWire logo](assets/images/news-aggregators/netnewswire.png){ align=right }
 
-**NetNewsWire** to open-source'owy i darmowy czytnik kanałów dla systemów macOS i iOS, skupiający się na natywnym wyglądzie i zestawie funkcji.
+**NetNewsWire** is a free and open-source feed reader for macOS and iOS with a focus on a native design and feature set.
 
 Obsługuje standardowe formaty kanałów i oferuje wbudowane wsparcie dla kanałów Reddita.
 
@@ -127,9 +127,9 @@ Obsługuje standardowe formaty kanałów i oferuje wbudowane wsparcie dla kanał
 
 <div class="admonition recommendation" markdown>
 
-![Logo Newsboat](assets/img/news-aggregators/newsboat.svg){ align=right }
+![Newsboat logo](assets/images/news-aggregators/newsboat.svg){ align=right }
 
-**Newsboat** to czytnik kanałów RSS/Atom dla konsoli tekstowej. Jest to aktywny fork [Newsbeuter](https://en.wikipedia.org/wiki/Newsbeuter). Jest bardzo lekki i idealny do użytku przez [Secure Shell](https://en.wikipedia.org/wiki/Secure_Shell).
+**Newsboat** is an RSS/Atom feed reader for the text console. Jest to aktywny fork [Newsbeuter](https://en.wikipedia.org/wiki/Newsbeuter). Jest bardzo lekki i idealny do użytku przez [Secure Shell](https://en.wikipedia.org/wiki/Secure_Shell).
 
 [:octicons-home-16: Strona główna](https://newsboat.org){ .md-button .md-button--primary }[:octicons-info-16:](https://newsboat.org/releases/2.38/docs/newsboat.html){ .card-link title="Dokumentacja" }
 [:octicons-code-16:](https://github.com/newsboat/newsboat){ .card-link title="Kod źródłowy" }

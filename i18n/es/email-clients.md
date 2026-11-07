@@ -29,9 +29,9 @@ OpenPGP tampoco admite [secreto hacia adelante](https://en.wikipedia.org/wiki/Fo
 
 <div class="admonition recommendation" markdown>
 
-![Thunderbird logo](assets/img/email-clients/thunderbird.svg){ align=right }
+![Thunderbird logo](assets/images/email-clients/thunderbird.svg){ align=right }
 
-**Thunderbird** es un cliente de correo electrónico, grupos de noticias y chat (XMPP, IRC, Matrix) gratuito, de código abierto y multiplataforma desarrollado por la comunidad Thunderbird y, anteriormente, por la Fundación Mozilla.
+**Thunderbird** is a free, open-source, cross-platform email, newsgroup, news feed, and chat (XMPP, IRC, Matrix) client developed by the Thunderbird community, and previously by the Mozilla Foundation.
 
 [:octicons-home-16: Página Principal](https://thunderbird.net){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://mozilla.org/privacy/thunderbird){ .card-link title="Política de Privacidad" }
@@ -90,9 +90,9 @@ Estas opciones se encuentran en :material-menu: → **Preferencias** → **Priva
 
 <div class="admonition recommendation" markdown>
 
-![Apple Mail logo](assets/img/email-clients/applemail.png){ align=right }
+![Apple Mail logo](assets/images/email-clients/applemail.png){ align=right }
 
-**Apple Mail** está incluido en macOS y puede ampliarse para que sea compatible con OpenPGP con [GPG Suite](encryption.md#gpg-suite), que añade la posibilidad de enviar correo electrónico cifrado con PGP.
+**Apple Mail** is included in macOS and can be extended to have OpenPGP support with [GPG Suite](encryption.md#gpg-suite), which adds the ability to send PGP-encrypted email.
 
 [:octicons-home-16: Página Principal](https://support.apple.com/guide/mail/welcome/mac){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://apple.com/legal/privacy/en-ww){ .card-link title="Política de Privacidad" }
@@ -115,9 +115,9 @@ Apple Mail tiene la capacidad de cargar contenido remoto en segundo plano o bloq
 
 <div class="admonition recommendation" markdown>
 
-![FairEmail logo](assets/img/email-clients/fairemail.svg){ align=right }
+![FairEmail logo](assets/images/email-clients/fairemail.svg){ align=right }
 
-**FairEmail** es una aplicación de correo electrónico mínima y de código abierto que utiliza estándares abiertos (IMAP, SMTP, OpenPGP) y minimiza el uso de datos y batería.
+**FairEmail** is a minimal, open-source email app which uses open standards (IMAP, SMTP, OpenPGP) and minimizes data and battery usage.
 
 [:octicons-home-16: Página Principal](https://email.faircode.eu){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://github.com/M66B/FairEmail/blob/master/PRIVACY.md){ .card-link title="Política de Privacidad" }
@@ -139,9 +139,9 @@ Apple Mail tiene la capacidad de cargar contenido remoto en segundo plano o bloq
 
 <div class="admonition recommendation" markdown>
 
-![Evolution logo](assets/img/email-clients/evolution.svg){ align=right }
+![Evolution logo](assets/images/email-clients/evolution.svg){ align=right }
 
-**Evolution** es una aplicación de gestión de información personal que proporciona funciones integradas de correo, calendario y libreta de direcciones. Evolution cuenta con una amplia [documentación](https://gnome.pages.gitlab.gnome.org/evolution/help/) para ayudarte a empezar.
+**Evolution** is a personal information management application that provides integrated mail, calendaring, and address book functionality. Evolution cuenta con una amplia [documentación](https://gnome.pages.gitlab.gnome.org/evolution/help/) para ayudarte a empezar.
 
 [:octicons-home-16: Página Principal](https://gitlab.gnome.org/GNOME/evolution/-/wikis/home){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://gitlab.gnome.org/GNOME/evolution/-/wikis/Privacy-Policy){ .card-link title="Política de Privacidad" }
@@ -162,9 +162,9 @@ Apple Mail tiene la capacidad de cargar contenido remoto en segundo plano o bloq
 
 <div class="admonition recommendation" markdown>
 
-![Kontact logo](assets/img/email-clients/kontact.svg){ align=right }
+![Kontact logo](assets/images/email-clients/kontact.svg){ align=right }
 
-**Kontact** es una aplicación de gestión de información personal (PIM) del proyecto [KDE](https://kde.org). Ofrece un cliente de correo, una libreta de direcciones, un cliente RSS y un organizador.
+**Kontact** is a personal information manager (PIM) application from the [KDE](https://kde.org) project. Ofrece un cliente de correo, una libreta de direcciones, un cliente RSS y un organizador.
 
 [:octicons-home-16: Página Principal](https://kontact.kde.org){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://kde.org/privacypolicy-apps){ .card-link title="Política de Privacidad" }
@@ -186,9 +186,9 @@ Apple Mail tiene la capacidad de cargar contenido remoto en segundo plano o bloq
 
 <div class="admonition recommendation" markdown>
 
-![Mailvelope logo](assets/img/email-clients/mailvelope.svg){ align=right }
+![Mailvelope logo](assets/images/email-clients/mailvelope.svg){ align=right }
 
-**Mailvelope** es una extensión de navegador que permite el intercambio de correos electrónicos cifrados siguiendo el estándar de cifrado OpenPGP.
+**Mailvelope** is a browser extension that enables the exchange of encrypted emails following the OpenPGP encryption standard.
 
 [:octicons-home-16: Página Principal](https://mailvelope.com){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://mailvelope.com/privacy-policy){ .card-link title="Política de Privacidad" }
@@ -210,9 +210,9 @@ Apple Mail tiene la capacidad de cargar contenido remoto en segundo plano o bloq
 
 <div class="admonition recommendation" markdown>
 
-![NeoMutt logo](assets/img/email-clients/mutt.svg){ align=right }
+![NeoMutt logo](assets/images/email-clients/mutt.svg){ align=right }
 
-**NeoMutt** es un lector de correo de línea de comandos de código abierto para Linux y BSD. Es una bifurcación de [Mutt](https://es.wikipedia.org/wiki/Mutt) con funciones adicionales.
+**NeoMutt** is an open-source command line email reader for Linux and BSD. Es una bifurcación de [Mutt](https://es.wikipedia.org/wiki/Mutt) con funciones adicionales.
 
 NeoMutt es un cliente basado en texto que tiene una curva de aprendizaje pronunciada. Sin embargo, es muy personalizable.
 

@@ -21,9 +21,9 @@ cover: real-time-communication.webp
 
 <div class="admonition recommendation" markdown>
 
-![Signal logo](assets/img/messengers/signal.svg){ align=right }
+![Signal logo](assets/images/messengers/signal.svg){ align=right }
 
-**Signal** 是由Signal Messenger LLC開發的行動應用程式。該應用程式提供即時通訊與通話服務，並採用 Signal 協定進行加密保護。此協定具備極高安全性，支援前向保密性[^1]與遭入侵後的安全性保障[^2]。
+**Signal** is a mobile app developed by Signal Messenger LLC. 該應用程式提供即時通訊與通話服務，並採用 Signal 協定進行加密保護。此協定具備極高安全性，支援前向保密性[^1]與遭入侵後的安全性保障[^2]。
 
 [:octicons-home-16: 首頁](https://signal.org){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://signal.org/legal/#privacy-policy){ .card-link title="隱私權政策" }
@@ -70,9 +70,9 @@ Signal 支援[私人群組](https://signal.org/blog/signal-private-group-system)
 
 <div class="admonition recommendation" markdown>
 
-![SimpleX 聊天](assets/img/messengers/simplex.svg){ align=right }
+![SimpleX Chat logo](assets/images/messengers/simplex.svg){ align=right }
 
-**SimpleX 聊天**是一款即時通訊軟體，其運作不依賴任何唯一識別碼，例如電話號碼或使用者名稱。其分佈式網路使 SimpleX Chat 成為對抗 [:material-close-outline: 審查](basics/common-threats.md#avoiding-censorship){ .pg-blue-gray } 的有效工具。
+**SimpleX Chat** is an instant messenger that doesn't depend on any unique identifiers such as phone numbers or usernames. 其分佈式網路使 SimpleX Chat 成為對抗 [:material-close-outline: 審查](basics/common-threats.md#avoiding-censorship){ .pg-blue-gray } 的有效工具。
 
 [:octicons-home-16: 首頁](https://simplex.chat){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://simplex.chat/privacy){ .card-link title="隱私權政策" }
@@ -106,9 +106,9 @@ SimpleX Chat 於[2024年7月](https://simplex.chat/blog/20241014-simplex-network
 
 <div class="admonition recommendation" markdown>
 
-![Briar 標誌](assets/img/messengers/briar.svg){ align=right }
+![Briar logo](assets/images/messengers/briar.svg){ align=right }
 
-**Briar** 是一款加密即時通訊軟體，透過 [Tor 網路](alternative-networks.md#tor)與其他客戶端建立連線，使其成為有效繞過[:material-close-outline: 審查制度](basics/common-threats.md#avoiding-censorship){ .pg-blue-gray }。 Briar 還可以使用鄰近 Wi-Fi 或藍牙連接。當無法使用網際網路時， Briar 的本地網格（mesh）模式可能很有用。
+**Briar** is an encrypted instant messenger that [connects](https://briarproject.org/how-it-works) to other clients using the [Tor network](alternative-networks.md#tor), making it an effective tool at circumventing [:material-close-outline: Censorship](basics/common-threats.md#avoiding-censorship){ .pg-blue-gray }. Briar 還可以使用鄰近 Wi-Fi 或藍牙連接。當無法使用網際網路時， Briar 的本地網格（mesh）模式可能很有用。
 
 [:octicons-home-16: 首頁](https://briarproject.org){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://briarproject.org/privacy-policy){ .card-link title="隱私權政策" }

@@ -32,9 +32,9 @@ Consider using a [VPN](vpn.md) or [Tor](tor.md) if your threat model requires hi
 
 <div class="admonition recommendation" markdown>
 
-![Brave Search Logo](assets/img/search-engines/brave-search.svg){ align=right }
+![Brave Search logo](assets/images/search-engines/brave-search.svg){ align=right }
 
-**Brave Search** ist eine von Brave entwickelte Suchmaschine. It includes unique features such as [Discussions](https://search.brave.com/help/discussions), which highlights conversation-focused results such as forum posts.
+**Brave Search** is a search engine developed by Brave. It includes unique features such as [Discussions](https://search.brave.com/help/discussions), which highlights conversation-focused results such as forum posts.
 
 Brave Search is the default search engine for the [Brave Browser](desktop-browsers.md#brave).
 
@@ -51,9 +51,9 @@ We recommend you disable [Anonymous usage metrics](https://search.brave.com/help
 
 <div class="admonition recommendation" markdown>
 
-![DuckDuckGo logo](assets/img/search-engines/duckduckgo.svg){ align=right }
+![DuckDuckGo logo](assets/images/search-engines/duckduckgo.svg){ align=right }
 
-**DuckDuckGo** ist eine der gängigeren Optionen für private Suchmaschinen. Zu den erwähnenswerten Suchfunktionen von DuckDuckGo gehören [Bangs](https://duckduckgo.com/bang) und zahlreiche [Sofortantworten](https://help.duckduckgo.com/duckduckgo-help-pages/features/instant-answers-and-other-features). The search engine uses numerous [sources](https://help.duckduckgo.com/results/sources) other than Bing for instant answers and other non-primary results.
+**DuckDuckGo** is one of the more mainstream private search engine options. Zu den erwähnenswerten Suchfunktionen von DuckDuckGo gehören [Bangs](https://duckduckgo.com/bang) und zahlreiche [Sofortantworten](https://help.duckduckgo.com/duckduckgo-help-pages/features/instant-answers-and-other-features). The search engine uses numerous [sources](https://help.duckduckgo.com/results/sources) other than Bing for instant answers and other non-primary results.
 
 DuckDuckGo is the default search engine for the [Tor Browser](tor.md#tor-browser) and is one of the few available options on Apple’s [Safari](mobile-browsers.md#safari-ios) browser.
 
@@ -70,8 +70,8 @@ DuckDuckGo offers two [other versions](https://help.duckduckgo.com/features/non-
 
 <div class="admonition recommendation" markdown>
 
-![Startpage logo](assets/img/search-engines/startpage.svg#only-light){ align=right }
-![Startpage logo](assets/img/search-engines/startpage-dark.svg#only-dark){ align=right }
+![Startpage logo](assets/images/search-engines/startpage.svg#only-light){ align=right }
+![Startpage logo](assets/images/search-engines/startpage-dark.svg#only-dark){ align=right }
 
 **Startpage** is a private search engine. One of Startpage's unique features is the [Anonymous View](https://startpage.com/en/anonymous-view), which puts forth efforts to standardize user activity to make it more difficult to be uniquely identified. The feature can be useful for hiding [some](https://support.startpage.com/hc/articles/4455540212116-The-Anonymous-View-Proxy-technical-details) network and browser properties. Anders als der Name vermuten lässt, sollte man sich jedoch nicht auf diese Funktion verlassen, um anonym zu bleiben. Wenn du Anonymität suchst, verwende stattdessen den [Tor Browser](tor.md#tor-browser).
 
@@ -94,9 +94,9 @@ Eine [Metasuchmaschine](https://en.wikipedia.org/wiki/Metasearch_engine) aggregi
 
 <div class="admonition recommendation" markdown>
 
-![SearXNG-Logo](assets/img/search-engines/searxng.svg){ align=right }
+![SearXNG logo](assets/images/search-engines/searxng.svg){ align=right }
 
-**SearXNG** ist eine Open-Source-Metasuchmaschine, die selbst gehostet werden kann. Es ist ein aktiv betreuter Fork von [SearX](https://github.com/searx/searx).
+**SearXNG** is an open-source, self-hostable, metasearch engine. Es ist ein aktiv betreuter Fork von [SearX](https://github.com/searx/searx).
 
 [:octicons-home-16: Homepage](https://searxng.org){ .md-button .md-button--primary }
 [:octicons-server-16:](https://searx.space){ .card-link title="Public Instances" }

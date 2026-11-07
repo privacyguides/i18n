@@ -18,7 +18,7 @@ cover: cloud.webp
 
 <div class="admonition recommendation" markdown>
 
-![PhotoPrism 圖示](../assets/img/self-hosting/photoprism.svg){ align=right }
+![PhotoPrism logo](../assets/images/self-hosting/photoprism.svg){ align=right }
 
 **PhotoPrism** 是一個管理相片的平台。它支援相簿同步和分享，以及一系列其他[功能](https://photoprism.app/features)。它不包含端對端加密，因此最好架設在您信任，且由您控制的伺服器上。
 
@@ -35,7 +35,7 @@ cover: cloud.webp
 
 <div class="admonition recommendation" markdown>
 
-![FreedomBox 圖示](../assets/img/self-hosting/freedombox.svg){ align=right }
+![FreedomBox logo](../assets/images/self-hosting/freedombox.svg){ align=right }
 
 **FreedomBox** 是一套設計在[單板電腦（SBC）](https://en.wikipedia.org/wiki/Single-board_computer)上運作的作業系統。其目的是讓架設檔案分享之類的伺服器應用程式變得容易。
 
@@ -50,7 +50,7 @@ cover: cloud.webp
 
 <div class="admonition recommendation" markdown>
 
-![Nextcloud 圖示](../assets/img/self-hosting/nextcloud.svg){ align=right }
+![Nextcloud logo](../assets/images/self-hosting/nextcloud.svg){ align=right }
 
 **Nextcloud** 是一套自由及開放原始碼的用戶端-伺服器軟體，可在您控制的私人伺服器上建立自己的檔案託管服務。
 

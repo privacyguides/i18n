@@ -41,8 +41,8 @@ Los servicios de alias de correo electrónico también presentan una serie de ve
 
 <div class="grid cards" markdown>
 
-- ![Addy.io logo](assets/img/email-aliasing/addy.svg){ .twemoji } [Addy.io](email-aliasing.md#addyio)
-- ![SimpleLogin logo](assets/img/email-aliasing/simplelogin.svg){ .twemoji } [SimpleLogin](email-aliasing.md#simplelogin)
+- ![Addy.io logo](assets/images/email-aliasing/addy.svg){ .twemoji } [Addy.io](email-aliasing.md#addyio)
+- ![SimpleLogin logo](assets/images/email-aliasing/simplelogin.svg){ .twemoji } [SimpleLogin](email-aliasing.md#simplelogin)
 
 </div>
 
@@ -54,7 +54,7 @@ Usar un servicio de alias requiere confiar tus mensajes sin encriptar a tu prove
 
 <div class="admonition recommendation" markdown>
 
-![Addy.io logo](assets/img/email-aliasing/addy.svg){ align=right }
+![Addy.io logo](assets/images/email-aliasing/addy.svg){ align=right }
 
 **Addy.io** te permite crear 10 alias de dominio en un dominio compartido de forma gratuita, o ilimitados [alias «estándar»](https://addy.io/faq/#what-is-a-standard-alias).
 
@@ -96,7 +96,7 @@ Si cancelas tu suscripción, disfrutarás de las características de tu plan de 
 
 <div class="admonition recommendation" markdown>
 
-![SimpleLogin logo](assets/img/email-aliasing/simplelogin.svg){ align=right }
+![SimpleLogin logo](assets/images/email-aliasing/simplelogin.svg){ align=right }
 
 **SimpleLogin** es un servicio gratuito que proporciona alias de correo electrónico en una variedad de nombres de dominio compartidos y, opcionalmente, ofrece funciones de pago como alias ilimitados y dominios personalizados.
 

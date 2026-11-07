@@ -19,7 +19,7 @@ cover: alternative-networks.webp
 
 <div class="admonition recommendation" markdown>
 
-![토르 로고](assets/img/self-contained-networks/tor.svg){ align=right }
+![Tor logo](assets/images/self-contained-networks/tor.svg){ align=right }
 
 **토르** 네트워크는 무료로 연결하여 인터넷에서 프라이버시와 보안을 향상할 수 있는, 자원봉사자가 운영하는 서버 그룹입니다. 개인과 단체는 ".onion 히든 서비스"를 통해 프라이버시를 침해받지 않고 토르 네트워크에서 정보를 공유할 수도 있습니다. 토르 트래픽은 차단하고 추적하기 어렵기 때문에, 토르는 효과적인 [:material-close-outline: 검열](basics/common-threats.md#avoiding-censorship){ .pg-blue-gray } 우회 도구입니다.
 
@@ -48,7 +48,7 @@ cover: alternative-networks.webp
 
 <div class="admonition recommendation" markdown>
 
-![오봇 로고](assets/img/self-contained-networks/orbot.svg){ align=right }
+![Orbot logo](assets/images/self-contained-networks/orbot.svg){ align=right }
 
 **오봇**은 기기의 모든 앱 트래픽을 토르 네트워크로 라우팅하는 모바일 애플리케이션입니다.
 
@@ -90,8 +90,8 @@ iOS에서 오봇에는 충돌이나 유출을 일으킬 수 있는 몇 가지 �
 
 <div class="admonition recommendation" markdown>
 
-![스노플레이크 로고](assets/img/self-contained-networks/snowflake.svg#only-light){ align=right }
-![스노플레이크 로고](assets/img/self-contained-networks/snowflake-dark.svg#only-dark){ align=right }
+![Snowflake logo](assets/images/self-contained-networks/snowflake.svg#only-light){ align=right }
+![Snowflake logo](assets/images/self-contained-networks/snowflake-dark.svg#only-dark){ align=right }
 
 **스노플레이크**를 사용하면 브라우저에서 "스노플레이크 프록시"를 운영하여 토르 프로젝트에 대역폭을 기부할 수 있습니다.
 
@@ -118,8 +118,8 @@ iOS에서 오봇에는 충돌이나 유출을 일으킬 수 있는 몇 가지 �
 
 <div class="admonition recommendation" markdown>
 
-![I2P 로고](assets/img/self-contained-networks/i2p.svg#only-light){ align=right }
-![I2P 로고](assets/img/self-contained-networks/i2p-dark.svg#only-dark){ align=right }
+![I2P logo](assets/images/self-contained-networks/i2p.svg#only-light){ align=right }
+![I2P logo](assets/images/self-contained-networks/i2p-dark.svg#only-dark){ align=right }
 
 **I2P**는 연결을 암호화하고 전 세계에 분산된 컴퓨터 네트워크를 거쳐 라우팅하는 네트워크 계층입니다. 일반 인터넷 연결을 익명화하기보다는, 프라이버시를 보호하는 대안 네트워크를 만드는 데 주로 중점을 둡니다.
 

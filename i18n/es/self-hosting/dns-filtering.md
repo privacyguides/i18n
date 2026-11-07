@@ -21,7 +21,7 @@ Los [**sumideros de DNS**](https://en.wikipedia.org/wiki/DNS_sinkhole) utilizan 
 
 <div class="admonition recommendation" markdown>
 
-![Pi-hole logo](../assets/img/self-hosting/pi-hole.svg){ align=right }
+![Pi-hole logo](../assets/images/self-hosting/pi-hole.svg){ align=right }
 
 **Pi-hole** es un sumidero de DNS de código abierto que cuenta con una interfaz web intuitiva para ver información detallada y gestionar el contenido bloqueado. Pi-hole está diseñado para alojarse en una Raspberry Pi, pero no se limita a dicho hardware.
 
@@ -37,7 +37,7 @@ Los [**sumideros de DNS**](https://en.wikipedia.org/wiki/DNS_sinkhole) utilizan 
 
 <div class="admonition recommendation" markdown>
 
-![AdGuard Home logo](../assets/img/self-hosting/adguard-home.svg){ align=right }
+![AdGuard Home logo](../assets/images/self-hosting/adguard-home.svg){ align=right }
 
 **AdGuard Home** es un sumidero de DNS de código abierto que cuenta con una interfaz web pulida para ver información detallada y gestionar el contenido bloqueado.
 

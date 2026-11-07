@@ -10,7 +10,7 @@ Ada beberapa arsitektur jaringan yang biasa digunakan untuk menyampaikan pesan a
 
 ## Jaringan Terpusat
 
-![Diagram jaringan terpusat](../assets/img/layout/network-centralized.svg){ align=left }
+![Diagram jaringan terpusat](../assets/images/layout/network-centralized.svg){ align=left }
 
 Perpesanan terpusat adalah di mana semua peserta berada di server yang sama atau jaringan server yang dikendalikan oleh organisasi yang sama.
 
@@ -33,7 +33,7 @@ Beberapa perpesanan yang dihosting sendiri memungkinkan Anda untuk mengatur serv
 
 ## Jaringan Federasi
 
-![Diagram jaringan federasi](../assets/img/layout/network-decentralized.svg){ align=left }
+![Diagram jaringan federasi](../assets/images/layout/network-decentralized.svg){ align=left }
 
 Perpesanan federasi menggunakan beberapa server yang independen dan terdesentralisasi yang dapat berbicara satu sama lain (surel adalah salah satu contoh layanan federasi). Federasi memungkinkan administrator sistem untuk mengontrol server mereka sendiri dan tetap menjadi bagian dari jaringan komunikasi yang lebih besar.
 
@@ -56,7 +56,7 @@ Ketika dihosting sendiri, anggota server federasi dapat menemukan dan berkomunik
 
 ## Jaringan Peer-to-Peer
 
-![Diagram P2P](../assets/img/layout/network-distributed.svg){ align=left }
+![Diagram P2P](../assets/images/layout/network-distributed.svg){ align=left }
 
 Perpesanan P2P terhubung ke [jaringan node yang terdistribusi](https://en.wikipedia.org/wiki/Distributed_networking) untuk menyampaikan pesan ke penerima tanpa server pihak ketiga.
 
@@ -81,7 +81,7 @@ Jaringan P2P tidak menggunakan server, karena rekan-rekan berkomunikasi secara l
 
 ## Perutean Anonim
 
-![Diagram perutean anonim](../assets/img/layout/network-anonymous-routing.svg){ align=left }
+![Diagram perutean anonim](../assets/images/layout/network-anonymous-routing.svg){ align=left }
 
 Pengirim pesan yang menggunakan [perutean anonim](https://doi.org/10.1007/978-1-4419-5906-5_628) menyembunyikan identitas pengirim, penerima, atau bukti bahwa mereka telah berkomunikasi. Secara ideal, sebuah perpesanan seharusnya menyembunyikan ketiganya.
 

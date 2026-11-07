@@ -21,9 +21,9 @@ Queste raccomandazioni per **comunicazioni in tempo reale** crittografate sono o
 
 <div class="admonition recommendation" markdown>
 
-![Logo di Signal](assets/img/messengers/signal.svg){ align=right }
+![Signal logo](assets/images/messengers/signal.svg){ align=right }
 
-**Signal** è un'app per dispositivi mobili sviluppata da Signal Messenger LLC. L'applicazione fornisce messaggistica istantanea e chiamate protette con il protocollo Signal, un protocollo di crittografia estremamente sicuro che supporta la segretezza in avanti[^1] e la sicurezza post compromissione.[^2]
+**Signal** is a mobile app developed by Signal Messenger LLC. L'applicazione fornisce messaggistica istantanea e chiamate protette con il protocollo Signal, un protocollo di crittografia estremamente sicuro che supporta la segretezza in avanti[^1] e la sicurezza post compromissione.[^2]
 
 [:octicons-home-16: Pagina Principale](https://signal.org){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://signal.org/legal/#privacy-policy){ .card-link title="Politica sulla Privacy" }
@@ -70,7 +70,7 @@ Il protocollo è stato indipendentemente  [revisionato](https://eprint.iacr.org/
 
 <div class="admonition recommendation" markdown>
 
-![SimpleX Chat logo](assets/img/messengers/simplex.svg){ align=right }
+![SimpleX Chat logo](assets/images/messengers/simplex.svg){ align=right }
 
 **SimpleX Chat** is an instant messenger that doesn't depend on any unique identifiers such as phone numbers or usernames. Its decentralized network makes SimpleX Chat an effective tool against [:material-close-outline: Censorship](basics/common-threats.md#avoiding-censorship){ .pg-blue-gray }.
 
@@ -106,7 +106,7 @@ SimpleX Chat was independently audited in [July 2024](https://simplex.chat/blog/
 
 <div class="admonition recommendation" markdown>
 
-![Briar logo](assets/img/messengers/briar.svg){ align=right }
+![Briar logo](assets/images/messengers/briar.svg){ align=right }
 
 **Briar** is an encrypted instant messenger that [connects](https://briarproject.org/how-it-works) to other clients using the [Tor network](alternative-networks.md#tor), making it an effective tool at circumventing [:material-close-outline: Censorship](basics/common-threats.md#avoiding-censorship){ .pg-blue-gray }. Briar può anche connettersi via Wi-Fi o Bluetooth quando si trova nelle vicinanze. La modalità mesh locale di Briar può essere utile quando la connessione a Internet è problematica.
 

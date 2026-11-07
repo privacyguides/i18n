@@ -230,11 +230,11 @@ Cuando una aplicación te pide acceso a la biblioteca de fotos de tu dispositivo
 
 En lugar de permitir que una aplicación acceda a todas las fotos de tu dispositivo, puedes permitir que solo acceda a las fotos que tú elijas pulsando la opción "Seleccionar Fotos..." en el cuadro de diálogo de permisos. Puedes cambiar los permisos de acceso a las fotos en cualquier momento navegando hasta **Ajustes** → **Privacidad y Seguridad** → **Fotos**.
 
-![Permisos de Fotos](../assets/img/ios/photo-permissions-light.png#only-light) ![Permisos de Fotos](../assets/img/ios/photo-permissions-dark.png#only-dark)
+![Permisos de Fotos](../assets/images-localized/ios/photo-permissions-light.png#only-light) ![Permisos de Fotos](../assets/images-localized/ios/photo-permissions-dark.png#only-dark)
 
 **Solo Añadir Fotos** es un permiso que solo permite a una aplicación descargar fotos a la biblioteca de fotos. No todas las aplicaciones que solicitan acceso a la biblioteca de fotos proporcionan esta opción.
 
-![Acceso Privado](../assets/img/ios/private-access-light.png#only-light) ![Acceso Privado](../assets/img/ios/private-access-dark.png#only-dark)
+![Acceso Privado](../assets/images-localized/ios/private-access-light.png#only-light) ![Acceso Privado](../assets/images-localized/ios/private-access-dark.png#only-dark)
 
 Algunas aplicaciones también admiten el **Acceso Privado**, que funciona de forma similar al permiso de **Acceso Limitado**. Sin embargo, las fotos compartidas con aplicaciones que utilizan Acceso Privado incluyen su ubicación por defecto. Te recomendamos que desactives esta opción si previamente no [eliminas los metadatos de las fotos](../data-redaction.md).
 
@@ -242,7 +242,7 @@ Algunas aplicaciones también admiten el **Acceso Privado**, que funciona de for
 
 Del mismo modo, en lugar de permitir que una aplicación acceda a todos los contactos guardados en tu dispositivo, puedes permitir que solo acceda a los contactos que tú elijas. Puede cambiar los permisos de acceso a los contactos en cualquier momento navegando hasta **Ajustes** → **Privacidad y Seguridad** → **Contactos**.
 
-![Permisos de Contacto](../assets/img/ios/contact-permissions-light.png#only-light) ![Permisos de Contacto](../assets/img/ios/contact-permissions-dark.png#only-dark)
+![Permisos de Contacto](../assets/images-localized/ios/contact-permissions-light.png#only-light) ![Permisos de Contacto](../assets/images-localized/ios/contact-permissions-dark.png#only-dark)
 
 ### Exigir Datos Biométricos y Ocultar Aplicaciones
 

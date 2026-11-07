@@ -36,7 +36,7 @@ Se o seu dispositivo estiver no Android 15 ou superior, recomendamos o uso do re
 
 <div class="admonition recommendation" markdown>
 
-![Shelter logo](../assets/img/android/shelter.svg){ align=right }
+![Shelter logo](../assets/images/android/shelter.svg){ align=right }
 
 O **shelter** é um aplicativo que ajuda a alavancar a funcionalidade do Perfil de Trabalho do Android para isolar ou duplicar aplicativos em seu dispositivo.
 
@@ -65,8 +65,8 @@ O Shelter é recomendado sobre [Insular](https://secure-system.gitlab.io/Insular
 
 <div class="admonition recommendation" markdown>
 
-![Secure camera logo](../assets/img/android/secure_camera.svg#only-light){ align=right }
-![Secure camera logo](../assets/img/android/secure_camera-dark.svg#only-dark){ align=right }
+![Secure camera logo](../assets/images/android/secure_camera.svg#only-light){ align=right }
+![Secure camera logo](../assets/images/android/secure_camera-dark.svg#only-dark){ align=right }
 
 O **Secure Camera** é um aplicativo de câmera focado em privacidade e segurança que pode capturar imagens, vídeos e códigos QR. As extensões do fornecedor CameraX (Retrato, HDR, Visão noturna, Retoque facial e Automático) também são compatíveis com os dispositivos disponíveis.
 
@@ -109,8 +109,8 @@ Os metadados da orientação da imagem não são excluídos. Se você ativar a l
 
 <div class="admonition recommendation" markdown>
 
-![Secure PDF Viewer logo](../assets/img/android/secure_pdf_viewer.svg#only-light){ align=right }
-![Secure PDF Viewer logo](../assets/img/android/secure_pdf_viewer-dark.svg#only-dark){ align=right }
+![Secure PDF Viewer logo](../assets/images/android/secure_pdf_viewer.svg#only-light){ align=right }
+![Secure PDF Viewer logo](../assets/images/android/secure_pdf_viewer-dark.svg#only-dark){ align=right }
 
 O **Secure PDF Viewer** é um visualizador de PDF baseado em [pdf.js] (https://pt.wikipedia.org/wiki/PDF.js) que não requer nenhuma permissão. O PDF é alimentado em um [sandboxed](https://pt.wikipedia.org/wiki/Sandbox_(desenvolvimento_de_software)) [WebView](https://developer.android.com/guide/webapps/webview). Isso significa que não requer permissão direta para acessar conteúdo ou arquivos.
 

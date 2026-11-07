@@ -4,7 +4,7 @@ icon: 'simple/torproject'
 description: Tor 是一個免費使用的去中心化網路，其讓用戶在使用網際網路之際盡可能地保護自己的隱私。
 ---
 
-![Tor logo](../assets/img/self-contained-networks/tor.svg){ align=right }
+![Tor logo](../assets/images/self-contained-networks/tor.svg){ align=right }
 
 [Tor </strong>](../alternative-networks.md#tor)是一個免費使用的去中心化網路，其讓用戶在使用網際網路之際盡可能地保護自己的隱私。如果使用得當，該網路可以實現私人和匿名瀏覽和通訊。很難阻止和追蹤 Tor 流量，因此它是一種有效的審查規避工具。
 
@@ -111,9 +111,9 @@ Anonymity can often be at odds with security. Tor achieves anonymity by ensuring
 每當您連接到 Tor 時，它都會選擇三個節點來構建通往網際網路的路徑，這種路徑稱為「迴路」。
 
 <figure markdown>
-  ![Tor 路徑顯示您的設備到達目的地網站之前所連接的入口節點，中間節點和出口節點](../assets/img/how-tor-works/tor-path.svg#only-light)
-![Tor 路徑顯示您的設備到達目的地網站之前所連接的入口節點，中間節點和出口節點](../assets/img/how-tor-works/tor-path-dark.svg#only-dark)
-  <figcaption>Tor 迴路路徑</figcaption>
+  ![Tor path showing your device connecting to an entry node, middle node, and exit node before reaching the destination website](../assets/images-localized/how-tor-works/tor-path.svg#only-light)
+  ![Tor path showing your device connecting to an entry node, middle node, and exit node before reaching the destination website](../assets/images-localized/how-tor-works/tor-path-dark.svg#only-dark)
+  <figcaption>Tor circuit pathway</figcaption>
 </figure>
 
 每個節點都有自己的功能：
@@ -143,9 +143,9 @@ Anonymity can often be at odds with security. Tor achieves anonymity by ensuring
 在Tor中連接到 Onion服務的工作原理與連接到明網服務非常相似，但您的流量在到達目的地伺服器之前會通過 **6 個** 節點。不過就如之前所言，其中只有三個節點會有助*您的*匿名性，而另外三個節點則是為了保護* Onion 服務*的匿名性，隱藏該網站的真正 IP 和位置，就如同 Tor 瀏覽器如何隱蔽您的 IP 一樣。
 
 <figure style="width:100%" markdown>
-  ![Tor路徑顯示您的流量通過您的三個Tor節點加上三個額外的Tor節點隱藏網站的身份](../assets/img/how-tor-works/tor-path-hidden-service.svg#only-light)
-  ![Tor路徑顯示您的流量被路由通過您的三個Tor節點加上三個額外的Tor節點隱藏網站的身份](../assets/img/how-tor-works/tor-path-hidden-service-dark.svg#only-dark)
-  <figcaption>Tor電路路徑與洋蔥服務。<span class="pg-blue">藍色</span> 圍欄中的節點屬於您的瀏覽器，而 <span class="pg-red">紅色</span> 圍欄中的節點屬於伺服器，因此它們的身份對您是隱藏的。</figcaption>
+  ![Tor path showing your traffic being routed through your three Tor nodes plus three additional Tor nodes which hide the website's identity](../assets/images-localized/how-tor-works/tor-path-hidden-service.svg#only-light)
+  ![Tor path showing your traffic being routed through your three Tor nodes plus three additional Tor nodes which hide the website's identity](../assets/images-localized/how-tor-works/tor-path-hidden-service-dark.svg#only-dark)
+  <figcaption>Tor circuit pathway with Onion Services. <span class="pg-blue">藍色</span> 圍欄中的節點屬於您的瀏覽器，而 <span class="pg-red">紅色</span> 圍欄中的節點屬於伺服器，因此它們的身份對您是隱藏的。</figcaption>
 </figure>
 
 ## 加密
@@ -163,9 +163,9 @@ Tor 使用來自出口，中間和入口節點的金鑰對每個封包（傳輸�
 下面是顯示此過程的圖表。每個節點都會移除自己的加密層，當目的地伺服器傳回數據時，同樣過程會再反向發生。例如，出口節點不知道你是誰，但它確實知道封包來自哪個節點，因此添加了自己的加密層並將其發送回來。
 
 <figure markdown>
-  ![Tor 加密](../assets/img/how-tor-works/tor-encryption.svg#only-light)
-  ![Tor 加密](../assets/img/how-tor-works/tor-encryption-dark.svg#only-dark)
-  <figcaption>通過 Tor 網路發送與接數資料</figcaption>
+  ![Tor encryption](../assets/images-localized/how-tor-works/tor-encryption.svg#only-light)
+  ![Tor encryption](../assets/images-localized/how-tor-works/tor-encryption-dark.svg#only-dark)
+  <figcaption>Sending and receiving data through the Tor Network</figcaption>
 </figure>
 
 Tor 允許我們連接到伺服器，而不讓任何一方知道完整路徑。入口節點知道你是誰，但不知道你要去哪裡；中間節點不知道你是誰或你要去哪裡；出口節點知道你要去哪裡，但不知道你是誰。由於出口節點負責了最終連線，目的地伺服器永遠不會知道您的 IP 位址。

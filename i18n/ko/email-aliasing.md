@@ -41,8 +41,8 @@ cover: email-aliasing.webp
 
 <div class="grid cards" markdown>
 
-- ![Addy.io 로고](assets/img/email-aliasing/addy.svg){ .twemoji } [Addy.io](email-aliasing.md#addyio)
-- ![심플로그인 로고](assets/img/email-aliasing/simplelogin.svg){ .twemoji } [심플로그인](email-aliasing.md#simplelogin)
+- ![Addy.io logo](assets/images/email-aliasing/addy.svg){ .twemoji } [Addy.io](email-aliasing.md#addyio)
+- ![SimpleLogin logo](assets/images/email-aliasing/simplelogin.svg){ .twemoji } [SimpleLogin](email-aliasing.md#simplelogin)
 
 </div>
 
@@ -54,7 +54,7 @@ cover: email-aliasing.webp
 
 <div class="admonition recommendation" markdown>
 
-![Addy.io 로고](assets/img/email-aliasing/addy.svg){ align=right }
+![Addy.io logo](assets/images/email-aliasing/addy.svg){ align=right }
 
 **Addy.io**에서는 공유 도메인에서 도메인 별칭 10개를 무료로 만들거나, ["표준" 별칭](https://addy.io/faq/#what-is-a-standard-alias)을 무제한으로 만들 수 있습니다.
 
@@ -96,7 +96,7 @@ cover: email-aliasing.webp
 
 <div class="admonition recommendation" markdown>
 
-![심플로그인 로고](assets/img/email-aliasing/simplelogin.svg){ align=right }
+![SimpleLogin logo](assets/images/email-aliasing/simplelogin.svg){ align=right }
 
 **심플로그인**은 다양한 공유 도메인 이름으로 이메일 별칭을 제공하는 무료 서비스로, 별칭 무제한이나 사용자 지정 도메인 같은 유료 기능도 선택적으로 제공합니다.
 

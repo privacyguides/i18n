@@ -20,7 +20,7 @@ Aplicaciones de seguimiento menstrual populares como [Flo](https://techcrunch.co
 
 <div class="admonition recommendation" markdown>
 
-![Drip logo](assets/img/health-and-wellness/drip.png){ align=right }
+![Drip logo](assets/images/health-and-wellness/drip.png){ align=right }
 
 **Drip** es un rastreador del ciclo menstrual de código abierto que tiene en cuenta el género y está disponible en todas las plataformas móviles. Se basa en el «método sintotérmico» para predecir la ovulación. Todos los datos del usuario se almacenan localmente en el dispositivo y pueden protegerse con una contraseña.
 
@@ -43,7 +43,7 @@ Aplicaciones de seguimiento menstrual populares como [Flo](https://techcrunch.co
 
 <div class="admonition recommendation" markdown>
 
-![Euki logo](assets/img/health-and-wellness/euki.svg){ align=right }
+![Euki logo](assets/images/health-and-wellness/euki.svg){ align=right }
 
 **Euki** es una aplicación de seguimiento del ciclo menstrual sin ánimo de lucro que también sirve para el seguimiento de la medicación y como una base de conocimientos sobre bienestar sexual. Te permite programar la eliminación automática de tus datos personales en la aplicación. Todos los datos del usuario se almacenan localmente en el dispositivo y pueden protegerse con una contraseña.
 
@@ -65,7 +65,7 @@ Aplicaciones de seguimiento menstrual populares como [Flo](https://techcrunch.co
 
 <div class="admonition recommendation" markdown>
 
-![Apple logo](assets/img/health-and-wellness/apple-health.webp#only-light){ align=right }![Apple logo](assets/img/health-and-wellness/apple-health-dark.webp#only-dark){ align=right }
+![Apple logo](assets/images/health-and-wellness/apple-health.webp#only-light){ align=right }![Apple logo](assets/images/health-and-wellness/apple-health-dark.webp#only-dark){ align=right }
 
 Salud de Apple es una de las aplicaciones predeterminadas que vienen instaladas en los dispositivos iOS. Incluye numerosas funciones relacionadas con la salud y el bienestar (véase [Registros Sanitarios](#apple-health-records)), entre las que se encuentra el seguimiento del ciclo menstrual. Además, utiliza un lenguaje neutro respecto al género. Salud de Apple siempre utiliza el cifrado de extremo a extremo cuando se sincroniza en varios dispositivos.
 
@@ -88,7 +88,7 @@ Estas aplicaciones de uso general pueden hacer de todo, desde contar los pasos y
 
 <div class="admonition recommendation" markdown>
 
-![Apple Fitness logo](assets/img/health-and-wellness/apple-fitness.webp){ align=right }
+![Apple Fitness logo](assets/images/health-and-wellness/apple-fitness.webp){ align=right }
 
 **Apple Fitness** es la aplicación de ejercicio físico predeterminada para iOS. Apple Fitness siempre utiliza el cifrado de extremo a extremo al sincronizar varios dispositivos. Además, casi todos los datos medidos se procesan en tu dispositivo.
 
@@ -106,7 +106,7 @@ Estas aplicaciones de uso general pueden hacer de todo, desde contar los pasos y
 
 <div class="admonition recommendation" markdown>
 
-![Gadgetbridge logo](assets/img/health-and-wellness/gadgetbridge.svg#only-light){ align=right }![Gadgetbridge logo](assets/img/health-and-wellness/gadgetbridge-dark.svg#only-dark){ align=right }
+![Gadgetbridge logo](assets/images/health-and-wellness/gadgetbridge.svg#only-light){ align=right }![Gadgetbridge logo](assets/images/health-and-wellness/gadgetbridge-dark.svg#only-dark){ align=right }
 
 **Gadgetbridge** es una aplicación Android de código abierto que te permite emparejar y gestionar tu dispositivo Bluetooth sin depender de la aplicación del proveedor. Cuando se empareja con un reloj inteligente compatible, puede imitar la funcionalidad de salud y bienestar de estos relojes sin la recopilación de datos de terceros.
 
@@ -135,7 +135,7 @@ Estas aplicaciones te ayudan a recopilar y gestionar datos de tu salud y a compa
 
 <div class="admonition recommendation" markdown>
 
-![Apple logo](assets/img/health-and-wellness/apple-health.webp#only-light){ align=right }![Apple logo](assets/img/health-and-wellness/apple-health-dark.webp#only-dark){ align=right }
+![Apple logo](assets/images/health-and-wellness/apple-health.webp#only-light){ align=right }![Apple logo](assets/images/health-and-wellness/apple-health-dark.webp#only-dark){ align=right }
 
 **Historial Clínico de Apple** es una función integrada en [Salud de Apple](#apple-health) que te permite ver, almacenar y compartir tus historiales médicos.
 
@@ -154,7 +154,7 @@ Estas aplicaciones te ayudan a recopilar y gestionar datos de tu salud y a compa
 
 <div class="admonition recommendation" markdown>
 
-![CommonHealth logo](assets/img/health-and-wellness/commonhealth.png){ align=right }
+![CommonHealth logo](assets/images/health-and-wellness/commonhealth.png){ align=right }
 
 **CommonHealth** es una aplicación para Android que respeta la privacidad y permite a las personas acceder a sus historiales médicos electrónicos y compartirlos de forma segura con los proveedores. Todos los datos sanitarios se almacenan en tu dispositivo y pueden protegerse con un código de acceso o autenticación biométrica.
 

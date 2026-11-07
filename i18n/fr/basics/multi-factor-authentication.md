@@ -53,7 +53,7 @@ Lorsque vous vous connectez à un site web, il vous suffit de toucher physiqueme
 Le service transmettra ensuite le mot de passe unique au serveur Yubico OTP pour validation. Un compteur est incrémenté à la fois sur la clé et sur le serveur de validation de Yubico. L'OTP ne peut être utilisé qu'une seule fois, et lorsqu'une authentification réussie se produit, le compteur est augmenté, ce qui empêche la réutilisation de l'OTP. Yubico fournit un [document détaillé](https://developers.yubico.com/OTP/OTPs_Explained.html) sur le processus.
 
 <figure markdown>
-  ![Yubico OTP](../assets/img/multi-factor-authentication/yubico-otp.png)
+  ![Yubico OTP](../assets/images-localized/multi-factor-authentication/yubico-otp.png)
 </figure>
 
 L'utilisation de l'OTP de Yubico présente certains avantages et inconvénients par rapport à TOTP.
@@ -71,7 +71,7 @@ U2F et FIDO2 font référence au [Protocole client à authentificateur](https://
 WebAuthn est la forme la plus sûre et la plus privée d'authentification par second facteur. Bien que l'expérience d'authentification soit similaire à celle de Yubico OTP, la clé n'imprime pas un mot de passe à usage unique et ne le valide pas auprès d'un serveur tiers. Il utilise plutôt la [cryptographie asymétrique](https://en.wikipedia.org/wiki/Public-key_cryptography) pour l'authentification.
 
 <figure markdown>
-  ![FIDO](../assets/img/multi-factor-authentication/fido.png)
+  ![FIDO](../assets/images-localized/multi-factor-authentication/fido.png)
 </figure>
 
 Lorsque vous créez un compte, la clé publique est envoyée au service, puis lorsque vous vous connectez, le service vous demande de "signer" certaines données avec votre clé privée. L'avantage de cette méthode est qu'aucune donnée de mot de passe n'est jamais stockée par le service, et qu'il n'y a donc rien qu'un adversaire puisse voler.

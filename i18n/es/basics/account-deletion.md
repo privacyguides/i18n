@@ -13,7 +13,7 @@ Con el tiempo, puede ser fácil acumular varias cuentas en línea, muchas de las
 Si tienes un gestor de contraseñas que has utilizado durante toda tu vida digital, esta parte será muy fácil. A menudo, incluyen funcionalidad integrada para detectar si tus credenciales fueron expuestas en una filtración de datos, como el [Data Breach Report](https://bitwarden.com/blog/have-you-been-pwned) (Reporte de filtración de datos) de Bitwarden.
 
 <figure markdown>
-  ![Bitwarden's Data Breach Report feature](../assets/img/account-deletion/exposed_passwords.png)
+  ![Bitwarden's Data Breach Report feature](../assets/images-localized/account-deletion/exposed_passwords.png)
 </figure>
 
 Incluso si no has utilizado explícitamente un gestor de contraseñas antes, hay una posibilidad de que hayas utilizado el de tu navegador[(Firefox](https://support.mozilla.org/kb/password-manager-remember-delete-edit-logins), [Chrome](https://passwords.google.com/intro), [Edge](https://support.microsoft.com/microsoft-edge/save-or-forget-passwords-in-microsoft-edge-b4beecb0-f2a8-1ca0-f26f-9ec247a3f336)) o tu teléfono[(Google](https://passwords.google.com/intro) en el Android estándar, [Contraseñas](https://support.apple.com/HT211146) en iOS) sin siquiera darte cuenta.

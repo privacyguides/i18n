@@ -17,12 +17,12 @@ Manche Informationen hier und in der Dokumentation von Qubes OS beinhalten wiede
 
 </details>
 
-![Qubes Architektur](../assets/img/qubes/qubes-trust-level-architecture.png)
+![Qubes Architektur](../assets/images-localized/qubes/qubes-trust-level-architecture.png)
 <figcaption>Qubes Architektur Quelle: What is Qubes OS Intro</figcaption>
 
 Jede Qube hat eine [farbige Umrandung](https://qubes-os.org/screenshots), die dir hilft herauszufinden, wie sie läuft. Du könntest zum Beispiel, eine bestimmte Farbe für einen Browser verwenden, wo du Onlinebanking führst, und eine andere Farbe für einen Browser fürs allgemeine browsen.
 
-![Färbige Umrandung](../assets/img/qubes/r4.0-xfce-three-domains-at-work.png)
+![Färbige Umrandung](../assets/images-localized/qubes/r4.0-xfce-three-domains-at-work.png)
 <figcaption>Qubes Fensterumrandungen, Quelle: Qubes Screenshots</figcaption>
 
 ## Warum sollte ich Qubes verwenden?

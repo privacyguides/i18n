@@ -20,7 +20,7 @@ The options listed here are available on multiple platforms and great for creati
 
 <div class="admonition recommendation" markdown>
 
-![Cryptomator logo](assets/img/encryption-software/cryptomator.svg){ align=right }
+![Cryptomator logo](assets/images/encryption-software/cryptomator.svg){ align=right }
 
 **Cryptomator** is an encryption solution designed for privately saving files to any cloud [:material-server-network: Service Provider](basics/common-threats.md#privacy-from-service-providers){ .pg-teal }, eliminating the need to trust that they won't access your files. Det låter dig skapa valv som lagras på en virtuell enhet, vars innehåll krypteras och synkroniseras med din molnlagringsleverantör.
 
@@ -61,10 +61,10 @@ Cryptomator's documentation details its intended [security target](https://docs.
 
 <div class="admonition recommendation" markdown>
 
-![VeraCrypt logo](assets/img/encryption-software/veracrypt.svg#only-light){ align=right }
-![VeraCrypt logo](assets/img/encryption-software/veracrypt-dark.svg#only-dark){ align=right }
+![VeraCrypt logo](assets/images/encryption-software/veracrypt.svg#only-light){ align=right }
+![VeraCrypt logo](assets/images/encryption-software/veracrypt-dark.svg#only-dark){ align=right }
 
-**VeraCrypt** är ett källkod-tillgängligt freeware-verktyg som används för on-the-fly kryptering. Det kan skapa en virtuell krypterad disk i en fil, kryptera en partition eller kryptera hela lagringsenheten med autentisering före start.
+**VeraCrypt** is a source-available freeware utility used for on-the-fly encryption. Det kan skapa en virtuell krypterad disk i en fil, kryptera en partition eller kryptera hela lagringsenheten med autentisering före start.
 
 [:octicons-home-16: Homepage](https://veracrypt.fr){ .md-button .md-button--primary }
 [:octicons-info-16:](https://veracrypt.fr/en/Documentation.html){ .card-link title="Documentation" }
@@ -108,7 +108,7 @@ Powering off your devices when they’re not in use provides the highest level o
 
 <div class="admonition recommendation" markdown>
 
-![BitLocker logo](assets/img/encryption-software/bitlocker.png){ align=right }
+![BitLocker logo](assets/images/encryption-software/bitlocker.png){ align=right }
 
 **BitLocker** is the full volume encryption solution bundled with Microsoft Windows that uses the Trusted Platform Module ([TPM](https://learn.microsoft.com/windows/security/information-protection/tpm/how-windows-uses-the-tpm)) for hardware-based security.
 
@@ -128,9 +128,9 @@ Pro and higher editions also support the more secure pre-boot [TPM+PIN](https://
 
 <div class="admonition recommendation" markdown>
 
-![FileVaults logotyp](assets/img/encryption-software/filevault.png){ align=right }
+![FileVault logo](assets/images/encryption-software/filevault.png){ align=right }
 
-**FileVault** är en lösning för volymkryptering i farten som är inbyggd i macOS. FileVault takes advantage of the [hardware security capabilities](os/macos-overview.md#hardware-security) present on an Apple Silicon SoC or T2 Security Chip.
+**FileVault** is the on-the-fly volume encryption solution built into macOS. FileVault takes advantage of the [hardware security capabilities](os/macos-overview.md#hardware-security) present on an Apple Silicon SoC or T2 Security Chip.
 
 [:octicons-info-16:](https://support.apple.com/guide/mac-help/encrypt-mac-data-with-filevault-mh11785/mac){ .card-link title="Documentation" }
 
@@ -144,9 +144,9 @@ We advise against using your iCloud account for recovery; instead, you should se
 
 <div class="admonition recommendation" markdown>
 
-![LUKS-logotyp](assets/img/encryption-software/luks.png){ align=right }
+![LUKS logo](assets/images/encryption-software/luks.png){ align=right }
 
-**LUKS** är standardmetoden för FDE för Linux. Den kan användas för att kryptera hela volymer, partitioner eller skapa krypterade behållare.
+**LUKS** is the default FDE method for Linux. Den kan användas för att kryptera hela volymer, partitioner eller skapa krypterade behållare.
 
 [:octicons-repo-16: Repository](https://gitlab.com/cryptsetup/cryptsetup#what-the-){ .md-button .md-button--primary }
 [:octicons-info-16:](https://gitlab.com/cryptsetup/cryptsetup/-/wikis/home){ .card-link title="Documentation" }
@@ -198,9 +198,9 @@ Verktyg med kommandoradsgränssnitt är användbara för att integrera [skalskri
 
 <div class="admonition recommendation" markdown>
 
-![Kryptor-logotyp](assets/img/encryption-software/kryptor.png){ align=right }
+![Kryptor logo](assets/images/encryption-software/kryptor.png){ align=right }
 
-** Kryptor** är ett gratis och öppet källkodsverktyg för filkryptering och signering som använder moderna och säkra kryptografiska algoritmer. It aims to be a better version of [age](https://github.com/FiloSottile/age) and [Minisign](https://jedisct1.github.io/minisign) to provide a simple, easier alternative to GPG.
+**Kryptor** is a free and open-source file encryption and signing tool that makes use of modern and secure cryptographic algorithms. It aims to be a better version of [age](https://github.com/FiloSottile/age) and [Minisign](https://jedisct1.github.io/minisign) to provide a simple, easier alternative to GPG.
 
 [:octicons-home-16: Homepage](https://kryptor.co.uk){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://kryptor.co.uk/features#privacy){ .card-link title="Privacy Policy" }
@@ -223,9 +223,9 @@ Verktyg med kommandoradsgränssnitt är användbara för att integrera [skalskri
 
 <div class="admonition recommendation" markdown>
 
-![Tomb-logotyp](assets/img/encryption-software/tomb.png){ align=right }
+![Tomb logo](assets/images/encryption-software/tomb.png){ align=right }
 
-* * Tomb * * är ett kommandoradsskal för LUKS. It supports steganography via [third-party tools](https://dyne.org/software/tomb/#advanced-usage).
+**Tomb** is a command-line shell wrapper for LUKS. It supports steganography via [third-party tools](https://dyne.org/software/tomb/#advanced-usage).
 
 [:octicons-home-16: Homepage](https://dyne.org/software/tomb){ .md-button .md-button--primary }
 [:octicons-info-16:](https://github.com/dyne/Tomb/wiki){ .card-link title="Documentation" }
@@ -263,9 +263,9 @@ gpg --quick-gen-key alice@example.com future-default
 
 <div class="admonition recommendation" markdown>
 
-![GNU Privacy Guard-logotypen](assets/img/encryption-software/gnupg.svg){ align=right }
+![GNU Privacy Guard logo](assets/images/encryption-software/gnupg.svg){ align=right }
 
-**GnuPG * * är ett GPL-licensierat alternativ till PGP-paketet med kryptografisk programvara. GnuPG är kompatibel med [RFC 4880](https://tools.ietf.org/html/rfc4880), som är den aktuella IETF-specifikationen för OpenPGP. The GnuPG project has been working on an [updated draft](https://datatracker.ietf.org/doc/draft-ietf-openpgp-crypto-refresh) in an attempt to modernize OpenPGP. GnuPG är en del av Free Software Foundations GNU-programvaruprojekt och har fått stora [funding](https://gnupg.org/blog/20220102-a-new-future-for-gnupg.html) från den tyska regeringen.
+**GnuPG** is a GPL-licensed alternative to the PGP suite of cryptographic software. GnuPG är kompatibel med [RFC 4880](https://tools.ietf.org/html/rfc4880), som är den aktuella IETF-specifikationen för OpenPGP. The GnuPG project has been working on an [updated draft](https://datatracker.ietf.org/doc/draft-ietf-openpgp-crypto-refresh) in an attempt to modernize OpenPGP. GnuPG är en del av Free Software Foundations GNU-programvaruprojekt och har fått stora [funding](https://gnupg.org/blog/20220102-a-new-future-for-gnupg.html) från den tyska regeringen.
 
 [:octicons-home-16: Homepage](https://gnupg.org){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://gnupg.org/privacy-policy.html){ .card-link title="Privacy Policy" }
@@ -288,9 +288,9 @@ gpg --quick-gen-key alice@example.com future-default
 
 <div class="admonition recommendation" markdown>
 
-![GPG4win-logotyp](assets/img/enkrypteringsprogram/gpg4win.svg){ align=right }
+![GPG4win logo](assets/images/encryption-software/gpg4win.svg){ align=right }
 
-**GPG4win** är ett paket för Windows från [Intevation and g10 Code] (https://gpg4win.org/impressum.html). Den innehåller [olika verktyg] (https://gpg4win.org/about.html) som kan hjälpa dig att använda GPG i Microsoft Windows. Projektet initierades och finansierades ursprungligen [av](https://web.archive.org/web/20190425125223/https://joinup.ec.europa.eu/news/government-used-cryptography) Tysklands federala kontor för informationssäkerhet (BSI) 2005.
+**GPG4win** is a package for Windows from [Intevation and g10 Code](https://gpg4win.org/impressum.html). Den innehåller [olika verktyg] (https://gpg4win.org/about.html) som kan hjälpa dig att använda GPG i Microsoft Windows. Projektet initierades och finansierades ursprungligen [av](https://web.archive.org/web/20190425125223/https://joinup.ec.europa.eu/news/government-used-cryptography) Tysklands federala kontor för informationssäkerhet (BSI) 2005.
 
 [:octicons-home-16: Homepage](https://gpg4win.org){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://gpg4win.org/privacy-policy.html){ .card-link title="Privacy Policy" }
@@ -311,7 +311,7 @@ gpg --quick-gen-key alice@example.com future-default
 
 <div class="admonition recommendation" markdown>
 
-![GPG Suite logo](assets/img/encryption-software/gpgsuite.png){ align=right }
+![GPG Suite logo](assets/images/encryption-software/gpgsuite.png){ align=right }
 
 **GPG Suite** provides OpenPGP support for [Apple Mail](email-clients.md#apple-mail-macos) and other email clients on macOS.
 
@@ -337,7 +337,7 @@ Currently, GPG Suite does [not yet](https://gpgtools.com/sequoia) have a stable 
 
 <div class="admonition recommendation" markdown>
 
-![OpenKeychain logo](assets/img/encryption-software/openkeychain.svg){ align=right }
+![OpenKeychain logo](assets/images/encryption-software/openkeychain.svg){ align=right }
 
 **OpenKeychain** is an implementation of GnuPG for Android. It's commonly required by mail clients such as [Thunderbird](email-clients.md#thunderbird), [FairEmail](email-clients.md#fairemail-android), and other Android apps to provide encryption support.
 

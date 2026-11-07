@@ -29,9 +29,9 @@ OpenPGP ne prend pas non plus en charge la [confidentialité persistante](https:
 
 <div class="admonition recommendation" markdown>
 
-![Logo Thunderbird](assets/img/email-clients/thunderbird.svg){ align=right }
+![Thunderbird logo](assets/images/email-clients/thunderbird.svg){ align=right }
 
-**Thunderbird** est un client d'e-mail, de groupes de discussion, de flux d'informations et de chat (XMPP, IRC, Matrix) gratuit, open-source et multiplateforme, développé par la communauté Thunderbird, et précédemment par la Fondation Mozilla.
+**Thunderbird** is a free, open-source, cross-platform email, newsgroup, news feed, and chat (XMPP, IRC, Matrix) client developed by the Thunderbird community, and previously by the Mozilla Foundation.
 
 [:octicons-home-16: Page d'Accueil](https://thunderbird.net){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://mozilla.org/privacy/thunderbird){ .card-link title="Politique de Confidentialité" }
@@ -90,9 +90,9 @@ Ces options se trouvent dans :material-menu: → **Règlages** → **Confidentia
 
 <div class="admonition recommendation" markdown>
 
-![Logo de Apple Mail](assets/img/email-clients/applemail.png){ align=right }
+![Apple Mail logo](assets/images/email-clients/applemail.png){ align=right }
 
-**Apple Mail** est installé par défaut sur macOS et peut être configuré pour prendre en charge OpenPGP avec [GPG Suite](encryption.md#gpg-suite), ce qui permet d'envoyer des mails chiffrés en PGP.
+**Apple Mail** is included in macOS and can be extended to have OpenPGP support with [GPG Suite](encryption.md#gpg-suite), which adds the ability to send PGP-encrypted email.
 
 [:octicons-home-16: Page d'Accueil](https://support.apple.com/guide/mail/welcome/mac){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://apple.com/legal/privacy/en-ww){ .card-link title="Politique de Confidentialité" }
@@ -115,9 +115,9 @@ Apple Mail peut charger le contenu distant en arrière-plan ou le bloquer compl�
 
 <div class="admonition recommendation" markdown>
 
-![Logo de FairEmail](assets/img/email-clients/fairemail.svg){ align=right }
+![FairEmail logo](assets/images/email-clients/fairemail.svg){ align=right }
 
-**FairEmail** est une application de messagerie minimale et open-source qui utilise des standards libres (IMAP, SMTP, OpenPGP) et minimise la consommation de la batterie et des données mobiles.
+**FairEmail** is a minimal, open-source email app which uses open standards (IMAP, SMTP, OpenPGP) and minimizes data and battery usage.
 
 [:octicons-home-16: Page d'Accueil](https://email.faircode.eu){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://github.com/M66B/FairEmail/blob/master/PRIVACY.md){ .card-link title="Politique de Confidentialité" }
@@ -139,9 +139,9 @@ Apple Mail peut charger le contenu distant en arrière-plan ou le bloquer compl�
 
 <div class="admonition recommendation" markdown>
 
-![Logo de Evolution](assets/img/email-clients/evolution.svg){ align=right }
+![Evolution logo](assets/images/email-clients/evolution.svg){ align=right }
 
-**Evolution** est un gestionnaire d'informations personnelles qui fournit une messagerie électronique, un calendrier et un carnet d'adresse. Leur [documentation](https://gnome.pages.gitlab.gnome.org/evolution/help) très complète vous permet de facilement configurer l'application.
+**Evolution** is a personal information management application that provides integrated mail, calendaring, and address book functionality. Leur [documentation](https://gnome.pages.gitlab.gnome.org/evolution/help) très complète vous permet de facilement configurer l'application.
 
 [:octicons-home-16: Page d'Accueil](https://wiki.gnome.org/Apps/Evolution){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://wiki.gnome.org/Apps/Evolution/PrivacyPolicy){ .card-link title="Politique de Confidentialité" }
@@ -162,9 +162,9 @@ Apple Mail peut charger le contenu distant en arrière-plan ou le bloquer compl�
 
 <div class="admonition recommendation" markdown>
 
-![Kontact logo](assets/img/email-clients/kontact.svg){ align=right }
+![Kontact logo](assets/images/email-clients/kontact.svg){ align=right }
 
-**Kontact** est un gestionnaire d'information personnelle (PIM) issue du projet [KDE](https://kde.org). L'application comprend un client mail, un carnet d'adresse, un client RSS et un agenda.
+**Kontact** is a personal information manager (PIM) application from the [KDE](https://kde.org) project. L'application comprend un client mail, un carnet d'adresse, un client RSS et un agenda.
 
 [:octicons-home-16: Page d'Accueil](https://kontact.kde.org){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://kde.org/privacypolicy-apps){ .card-link title="Politique de Confidentialité" }
@@ -186,9 +186,9 @@ Apple Mail peut charger le contenu distant en arrière-plan ou le bloquer compl�
 
 <div class="admonition recommendation" markdown>
 
-![Logo de Mailvelope](assets/img/email-clients/mailvelope.svg){ align=right }
+![Mailvelope logo](assets/images/email-clients/mailvelope.svg){ align=right }
 
-**Mailvelope** est une extension de navigateur qui vous permet de chiffrer vos mails selon le standard de chiffrement OpenPGP.
+**Mailvelope** is a browser extension that enables the exchange of encrypted emails following the OpenPGP encryption standard.
 
 [:octicons-home-16: Page d'Accueil](https://mailvelope.com){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://mailvelope.com/privacy-policy){ .card-link title="Politique de Confidentialité" }
@@ -210,9 +210,9 @@ Apple Mail peut charger le contenu distant en arrière-plan ou le bloquer compl�
 
 <div class="admonition recommendation" markdown>
 
-![Logo de NeoMutt](assets/img/email-clients/mutt.svg){ align=right }
+![NeoMutt logo](assets/images/email-clients/mutt.svg){ align=right }
 
-**NeoMutt** est un lecteur de mail open-source pour Linux et BSD qui fonctionne directement par ligne de commande. C'est une fork de [Mutt](https://en.wikipedia.org/wiki/Mutt_(email_client)), avec des fonctionnalités additionnelles.
+**NeoMutt** is an open-source command line email reader for Linux and BSD. C'est une fork de [Mutt](https://en.wikipedia.org/wiki/Mutt_(email_client)), avec des fonctionnalités additionnelles.
 
 NeoMutt est un client textuel difficile à prendre en main. Il est cependant très personnalisable.
 

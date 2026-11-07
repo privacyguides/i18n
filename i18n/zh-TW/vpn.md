@@ -43,9 +43,9 @@ global:
 
 <div class="admonition recommendation" markdown>
 
-![Proton VPN 標誌](assets/img/vpn/protonvpn.svg){ align=right }
+![Proton VPN logo](assets/images/vpn/protonvpn.svg){ align=right }
 
-**Proton VPN** 是 VPN 領域的強大競爭者，自 2016 年開始營運。 Proton AG 總部位於瑞士，提供有限的免費方案，以及更多功能的付費方案。
+**Proton VPN** is a strong contender in the VPN space, and they have been in operation since 2016. Proton AG 總部位於瑞士，提供有限的免費方案，以及更多功能的付費方案。
 
 [:octicons-home-16: 首頁](https://protonvpn.com){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://protonvpn.com/privacy-policy){ .card-link title="隱私權政策" }
@@ -137,9 +137,9 @@ Proton VPN 客戶端目前在所有平台上都支援雙因素身份驗證。 Pr
 
 <div class="admonition recommendation" markdown>
 
-![IVPN logo](assets/img/vpn/ivpn.svg){ align=right }
+![IVPN logo](assets/images/vpn/ivpn.svg){ align=right }
 
-**IVPN** 是另一個高級 VPN 供應商，自 2009 年開始運營。 IVPN 位於直布羅陀，不提供免費試用。
+**IVPN** is another premium VPN provider, and they have been in operation since 2009. IVPN 位於直布羅陀，不提供免費試用。
 
 [:octicons-home-16: 首頁](https://ivpn.net){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://ivpn.net/privacy){ .card-link title="隱私權政策" }
@@ -212,9 +212,9 @@ IVPN 客戶端支援雙因素身份驗證。 IVPN 有「[反追蹤](https://ivpn
 
 <div class="admonition recommendation" markdown>
 
-![Mullvad 標誌](assets/img/vpn/mullvad.svg){ align=right }
+![Mullvad logo](assets/images/vpn/mullvad.svg){ align=right }
 
-**Mullvad** 是一個快速且便宜的 VPN，非常注重透明和安全性。他們自 2009 年起開始營運。 Mullvad 總部位於瑞典，提供 14 天退款保證（前提是您的[付款方式](https://mullvad.net/en/help/refunds)允許）。
+**Mullvad** is a fast and inexpensive VPN with a serious focus on transparency and security. 他們自 2009 年起開始營運。 Mullvad 總部位於瑞典，提供 14 天退款保證（前提是您的[付款方式](https://mullvad.net/en/help/refunds)允許）。
 
 [:octicons-home-16: 首頁](https://mullvad.net){ .md-button .md-button--primary }
 [:simple-torbrowser:](http://o54hon2e2vj6c7m3aqqu6uyece65by3vgoxxhlqlsvkmacw6a7m7kiad.onion){ .card-link title="Onion 服務" }

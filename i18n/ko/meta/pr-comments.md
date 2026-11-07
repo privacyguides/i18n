@@ -5,13 +5,13 @@ description: 풀 리퀘스트 토론에 참여하는 방법에 대한 가이드�
 
 깃허브 PR에서 댓글을 남기거나 리뷰를 할 때는 일반 **Add a comment**(댓글 추가) 상자를 사용하지 마세요.
 
-![깃허브의 일반 "Add a comment" 상자를 사용하지 마세요](../assets/img/meta/pr-avoid-general-comments.png)
+![Do not use the general "Add a comment" box in GitHub](../assets/images/meta/pr-avoid-general-comments.png)
 
 이렇게 남긴 댓글은 _스레&#xB4DC;_&#xB85C; 묶이지 않아 여러 대화를 추적하기 어렵습니다.
 
 대신 아래에서 설명하는 방식으로 남긴 댓글에는 답글 상자가 내장되어 있어 대화를 하나의 스레드로 유지할 수 있습니다. 이러한 댓글은 나중에 해결됨으로 표시할 수도 있어 토론을 더 쉽게 추적할 수 있습니다.
 
-![깃허브에서 "reply"(답글) 상자가 내장된 댓글의 스크린샷. 해당 상자가 주황색으로 강조 표시되어 있습니다.](../assets/img/meta/pr-threaded-comment.png)
+![A screenshot of a comment in GitHub which has a built-in "reply" box, highlighted in orange.](../assets/images/meta/pr-threaded-comment.png)
 
 ## 댓글 달기 { #commenting }
 

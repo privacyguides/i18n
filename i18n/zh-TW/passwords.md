@@ -14,7 +14,7 @@ schema:
     "@context": http://schema.org
     "@type": SoftwareApplication
     name: Bitwarden
-    image: /assets/img/password-management/bitwarden.svg
+    image: /assets/images/password-management/bitwarden.svg
     url: https://bitwarden.com
     sameAs: https://en.wikipedia.org/wiki/Bitwarden
     applicationCategory: 密碼管理器。
@@ -32,7 +32,7 @@ schema:
     "@context": http://schema.org
     "@type": SoftwareApplication
     name: 1Password
-    image: /assets/img/password-management/1password.svg
+    image: /assets/images/password-management/1password.svg
     url: https://1password.com
     sameAs: https://en.wikipedia.org/wiki/1Password
     applicationCategory: 密碼管理器。
@@ -50,7 +50,7 @@ schema:
     "@context": http://schema.org
     "@type": SoftwareApplication
     name: Proton Pass
-    image: /assets/img/password-management/protonpass.svg
+    image: /assets/images/password-management/protonpass.svg
     url: https://proton.me/pass
     applicationCategory: 密碼管理器。
     operatingSystem:
@@ -64,7 +64,7 @@ schema:
     "@context": http://schema.org
     "@type": SoftwareApplication
     name: Psono
-    image: /assets/img/password-management/psono.svg
+    image: /assets/images/password-management/psono.svg
     url: https://psono.com
     applicationCategory: 密碼管理器。
     operatingSystem:
@@ -78,7 +78,7 @@ schema:
     "@context": http://schema.org
     "@type": SoftwareApplication
     name: KeePassXC
-    image: /assets/img/password-management/keepassxc.svg
+    image: /assets/images/password-management/keepassxc.svg
     url: https://keepassxc.org
     sameAs: https://en.wikipedia.org/wiki/KeePassXC
     applicationCategory: 密碼管理器。
@@ -94,7 +94,7 @@ schema:
     "@context": http://schema.org
     "@type": SoftwareApplication
     name: KeePassDX
-    image: /assets/img/password-management/keepassdx.svg
+    image: /assets/images/password-management/keepassdx.svg
     url: https://keepassdx.com
     applicationCategory: 密碼管理器。
     operatingSystem: Android
@@ -106,7 +106,7 @@ schema:
     "@context": http://schema.org
     "@type": SoftwareApplication
     name: Gopass
-    image: /assets/img/password-management/gopass.svg
+    image: /assets/images/password-management/gopass.svg
     url: https://gopass.pw
     applicationCategory: 密碼管理器。
     operatingSystem:
@@ -147,9 +147,9 @@ schema:
 
 <div class="admonition recommendation" markdown>
 
-![Bitwarden logo](assets/img/password-management/bitwarden.svg){ align=right }
+![Bitwarden logo](assets/images/password-management/bitwarden.svg){ align=right }
 
-**Bitwarden** 是一個免費的開源密碼與金鑰管理器。它旨在解決個人、團隊和商業組織的密碼管理問題。 Bitwarden 是最佳和最安全的解決方案之一，可儲存所有登錄名和密碼，同時方便地在所有設備之間保持同步。
+**Bitwarden** is a free and open-source password and passkey manager. 它旨在解決個人、團隊和商業組織的密碼管理問題。 Bitwarden 是最佳和最安全的解決方案之一，可儲存所有登錄名和密碼，同時方便地在所有設備之間保持同步。
 
 [:octicons-home-16: 首頁](https://bitwarden.com){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://bitwarden.com/privacy){ .card-link title="隱私權政策" }
@@ -185,9 +185,9 @@ Bitwarden 伺服器端代碼是 [開源的](https://github.com/bitwarden/server)
 
 <div class="admonition recommendation" markdown>
 
-![Proton Pass 標誌](assets/img/password-management/protonpass.svg){ align=right }
+![Proton Pass logo](assets/images/password-management/protonpass.svg){ align=right }
 
-**Proton Pass** 是由 [Proton Mail](email.md#protonmail) 背後的團隊 Proton 所開發的開放原始碼、端對端加密的密碼管理器。它能安全地儲存您的登入憑證、產生獨特的電子郵件別名，並支援儲存密碼。
+**Proton Pass** is an open-source, end-to-end encrypted password manager developed by Proton, the team behind [Proton Mail](email.md#proton-mail). 它能安全地儲存您的登入憑證、產生獨特的電子郵件別名，並支援儲存密碼。
 
 [:octicons-home-16: 首頁](https://proton.me/pass){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://proton.me/pass/privacy-policy){ .card-link title="隱私權政策" }
@@ -221,9 +221,9 @@ Proton Pass 行動應用程式和瀏覽器擴充功能於 2023 年 5 月和 6 �
 
 <div class="admonition recommendation" markdown>
 
-![1Password 標誌](assets/img/password-management/1password.svg){ align=right }
+![1Password logo](assets/images/password-management/1password.svg){ align=right }
 
-**1Password** 是強調安全性與易用性的密碼管理器，可讓您將密碼、金鑰、信用卡、軟體許可證以及其他任何敏感資訊儲存於安全的數位保險庫中。您的保管庫託管在 1Password 伺服器，費用為 [每月收取](https://1password.com/sign-up/)。
+**1Password** is a password manager with a strong focus on security and ease-of-use that allows you to store passwords, passkeys, credit cards, software licenses, and any other sensitive information in a secure digital vault. 您的保管庫託管在 1Password 伺服器，費用為 [每月收取](https://1password.com/sign-up/)。
 
 1Password 定期 [接受審計](https://support.1password.com/security-assessments/) 並提供卓越的客戶支援。 1Password 是封閉原始碼；但是，產品的安全性已徹底記錄在他們的 [安全白皮書](https://1passwordstatic.com/files/security/1password-white-paper.pdf)。
 
@@ -257,9 +257,9 @@ Proton Pass 行動應用程式和瀏覽器擴充功能於 2023 年 5 月和 6 �
 
 <div class="admonition recommendation" markdown>
 
-![Psono logo](assets/img/password-management/psono.svg){ align=right }
+![Psono logo](assets/images/password-management/psono.svg){ align=right }
 
-**Psono** 是來自德國的免費開源密碼管理器，專注於團隊的密碼管理。 Psono支援安全分享密碼、檔案、書籤和電子郵件。所有機密都受到主密碼的保護。
+**Psono** is a free and open-source password manager from Germany, with a focus on password management for teams. Psono支援安全分享密碼、檔案、書籤和電子郵件。所有機密都受到主密碼的保護。
 
 [:octicons-home-16: 首頁](https://psono.com){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://psono.com/privacy-policy){ .card-link title="隱私權政策" }
@@ -310,9 +310,9 @@ Psono 為其產品提供廣泛的說明文件。 Psono 的網路用戶端可以�
 
 <div class="admonition recommendation" markdown>
 
-![KeePassXC logo](assets/img/password-management/keepassxc.svg){ align=right }
+![KeePassXC logo](assets/images/password-management/keepassxc.svg){ align=right }
 
-**KeePassXC** 是 KeePassX 的社群分支，是 KeePass Password Safe 的原生跨平台移植，目標是以新功能和錯誤修正來擴充和改進它，以提供一個功能豐富、跨平台和現代化的開源密碼管理器。
+**KeePassXC** is a community fork of KeePassX, a native cross-platform port of KeePass Password Safe, with the goal of extending and improving it with new features and bug fixes to provide a feature-rich, cross-platform, and modern open-source password manager.
 
 [:octicons-home-16: 首頁](https://keepassxc.org){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://keepassxc.org/privacy){ .card-link title="隱私權政策" }
@@ -340,9 +340,9 @@ KeePassXC 將其匯出資料儲存為 [CSV](https://en.wikipedia.org/wiki/Comma-
 
 <div class="admonition recommendation" markdown>
 
-![KeePassDX logo](assets/img/password-management/keepassdx.svg){ align=right }
+![KeePassDX logo](assets/images/password-management/keepassdx.svg){ align=right }
 
-**KeePassDX** 是適用於 Android 的輕量級密碼管理器；可在單一檔案中以 KeePass 格式編輯加密資料，並能以安全的方式提供自動填入功能。
+**KeePassDX** is a lightweight password manager for Android; it allows for editing encrypted data in a single file in KeePass format and can fill in forms securely.
 
 [:octicons-home-16: 首頁](https://keepassdx.com){ .md-button .md-button--primary }
 [:octicons-info-16:](https://github.com/Kunzisoft/KeePassDX/wiki){ .card-link title="文件" }
@@ -365,9 +365,9 @@ KeePassXC 將其匯出資料儲存為 [CSV](https://en.wikipedia.org/wiki/Comma-
 
 <div class="admonition recommendation" markdown>
 
-![KeePassium 標誌](assets/img/password-management/keepassium.svg){ align=right }
+![KeePassium logo](assets/images/password-management/keepassium.svg){ align=right }
 
-KeePassium 是一款由 KeePassium Labs 開發的商業化開放原始碼密碼管理程式，可與其他 KeePass 應用程式相容。它提供自動填寫支援、密碼金鑰管理、透過[許多雲端儲存服務供應商](https://support.keepassium.com/kb/sync)實現的自動雙向同步等功能。
+KeePassium is a commercial, open-source password manager made by KeePassium Labs that's compatible with other KeePass applications. 它提供自動填寫支援、密碼金鑰管理、透過[許多雲端儲存服務供應商](https://support.keepassium.com/kb/sync)實現的自動雙向同步等功能。
 
 [:material-star-box: 閱讀我們最新的 KeePassium 審閱。](https://www.privacyguides.org/articles/2025/05/13/keepassium-review)
 
@@ -394,9 +394,9 @@ KeePassium 的 iOS 應用程式已於2024年10月通過 Cure53 的[稽核](https
 
 <div class="admonition recommendation" markdown>
 
-![Gopass 標誌](assets/img/password-management/gopass.svg){ align=right }
+![Gopass logo](assets/images/password-management/gopass.svg){ align=right }
 
-**Gopass** 是用 Go 編寫的命令列極簡密碼管理程式。它可在 腳本應用程式("scripting applications") 中使用，且支援所有主要的桌面和伺服器作業系統。
+**Gopass** is a minimal password manager for the command line written in Go. 它可在 腳本應用程式("scripting applications") 中使用，且支援所有主要的桌面和伺服器作業系統。
 
 [:octicons-home-16: 首頁](https://gopass.pw){ .md-button .md-button--primary }
 [:octicons-info-16:](https://github.com/gopasspw/gopass/tree/master/docs){ .card-link title="說明文件" }

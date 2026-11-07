@@ -24,7 +24,7 @@ Consigliamo vivamente l'utilizzo delle app TOTP mobili, invece delle alternative
 
 <div class="admonition recommendation" markdown>
 
-![Ente Auth logo](assets/img/multi-factor-authentication/ente-auth.svg){ align=right }
+![Ente Auth logo](assets/images/multi-factor-authentication/ente-auth.svg){ align=right }
 
 **Ente Auth** is a free and open-source app which stores and generates TOTP tokens. It can be used with an online account to back up and sync your tokens across your devices (and access them via a web interface) in a secure, end-to-end encrypted fashion. Può essere utilizzato anche offline su un singolo dispositivo senza la necessità di un account.
 
@@ -50,9 +50,9 @@ The server-side source code and infrastructure which underpins Ente Auth (if use
 
 <div class="admonition recommendation" markdown>
 
-![Logo di Aegis](assets/img/multi-factor-authentication/aegis.png){ align=right }
+![Aegis logo](assets/images/multi-factor-authentication/aegis.png){ align=right }
 
-**Aegis Authenticator** è un'app gratuita, sicura e open source per gestire i token di verifica a due passaggi per i tuoi servizi online. Aegis Authenticator opera completamente offline/localmente, ma include l'opzione di esportare i token per il backup, a differenza di molte alternative.
+**Aegis Authenticator** is a free and open-source app for Android to manage your 2-step verification tokens for your online services. Aegis Authenticator opera completamente offline/localmente, ma include l'opzione di esportare i token per il backup, a differenza di molte alternative.
 
 [:octicons-home-16: Homepage](https://getaegis.app){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://getaegis.app/aegis/privacy.html){ .card-link title="Privacy Policy" }

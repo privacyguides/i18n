@@ -63,7 +63,7 @@ cover: data-broker-removals.webp
 
 <div class="admonition recommendation" markdown>
 
-![EasyOptOuts 로고](assets/img/data-broker-removals/easyoptouts.svg){ align=right }
+![EasyOptOuts logo](assets/images/data-broker-removals/easyoptouts.svg){ align=right }
 
 **EasyOptOuts**는 연 20달러로 여러 데이터 브로커 사이트를 검색하고 여러분을 대신해 자동으로 옵트아웃 요청을 제출해 주는 서비스입니다. 첫 검색과 삭제 과정을 즉시 수행한 다음, 시간이 지나면서 새로운 사이트에 데이터가 나타날 경우에 대비해 4개월마다 이 과정을 다시 실행합니다.
 
@@ -98,7 +98,7 @@ EasyOptOuts는 프라이버시 가이드가 "우선순위가 높다"고 보는 �
 
 <div class="admonition recommendation" markdown>
 
-![구글 로고](assets/img/data-broker-removals/google.svg){ align=right }
+![Google logo](assets/images/data-broker-removals/google.svg){ align=right }
 
 **나에 관한 결과**는 집 주소, 전화번호, 이메일 주소 같은 개인 연락처 정보가 구글 검색 결과에 나타나는지 확인하는 데 도움이 되는 무료 도구입니다. 개인 정보가 발견되면 삭제를 요청할 수 있습니다.
 

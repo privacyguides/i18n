@@ -16,10 +16,16 @@ Les logiciels de traduction permettent d'obtenir des traductions assez précises
 Par exemple :
 
 ```text
-![Logo du logiciel](assets/img/path/to/image.svg){ align=right }
+![Software logo](assets/images/path/to/image.svg){ align=right }
 ```
 
 Nous avons parfois constaté que la syntaxe pour l'insertion d'une image comme ci-dessus manquait le `![` ou qu'un espace supplémentaire était placé entre le texte et le chemin, par exemple `](`. Si une chaîne de traduction n'est manifestement pas correcte, nous vous encourageons à la **supprimer** en appuyant sur l'icône de la corbeille [ou à voter](https://support.crowdin.com/enterprise/getting-started-for-volunteers/#voting-view) pour celle qui vous semble la meilleure. Lorsque les chaînes invalides sont supprimées, elles sont retirées de la [mémoire de traduction](https://support.crowdin.com/enterprise/translation-memory) de l'organisation, ce qui signifie que lorsque la chaîne source sera vue à nouveau, elle ne suggérera pas la traduction incorrecte.
+
+## Images
+
+Images shared by all languages live in `docs/assets/images` and are excluded from Crowdin. When you run `SITE_LANGUAGE=fr ./run.sh` (replacing `fr` with your language code), the build script links this directory into `i18n/fr/assets/images` so translated builds and Markdown previews can use the same files.
+
+Images containing text that needs translation live in `docs/assets/images-localized` and are uploaded to Crowdin. They retain their existing `docs/assets/img` paths in Crowdin to preserve translations, but are exported to `i18n/<language>/assets/images-localized`. Keep `assets/images-localized` in translated Markdown image paths so the same references resolve to the appropriate images in every language.
 
 ## Ponctuation
 

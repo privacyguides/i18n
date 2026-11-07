@@ -16,10 +16,10 @@ cover: calendar.webp
 
 <div class="admonition recommendation" markdown>
 
-![Tuta logo](assets/img/email/tuta.svg#only-light){ align=right }
-![Tuta logo](assets/img/email/tuta-dark.svg#only-dark){ align=right }
+![Tuta logo](assets/images/email/tuta.svg#only-light){ align=right }
+![Tuta logo](assets/images/email/tuta-dark.svg#only-dark){ align=right }
 
-**Tutanota** 在其支援的平臺上提供免費和加密的日曆。功能包含：所有資料自動端到端加密、分享、匯入/匯出、多重要素驗證[等等](https://tuta.com/calendar-app-comparison)。
+**Tuta** offers a free and encrypted calendar across their supported platforms. 功能包含：所有資料自動端到端加密、分享、匯入/匯出、多重要素驗證[等等](https://tuta.com/calendar-app-comparison)。
 
 多個行事曆與進階分享功能僅供付費訂閱使用者使用。
 
@@ -49,9 +49,9 @@ cover: calendar.webp
 
 <div class="admonition recommendation" markdown>
 
-![Proton](assets/img/calendar/proton-calendar.svg){ align=right }
+![Proton](assets/images/calendar/proton-calendar.svg){ align=right }
 
-**Proton 行事曆**是 Proton 會員可透過網路或行動客戶端使用的加密行事曆服務。功能包含：所有資料自動端到端加密、分享、匯入/匯出[等等](https://proton.me/support/proton-calendar-guide)。
+**Proton Calendar** is an encrypted calendar service available to Proton members via its web or mobile clients. 功能包含：所有資料自動端到端加密、分享、匯入/匯出[等等](https://proton.me/support/proton-calendar-guide)。
 
 免費會員可以使用 3 個行事曆，付費訂閱使用者則最多可建立 25 個行事曆。擴展共享功能也僅限於付費訂閱者。
 

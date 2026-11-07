@@ -41,8 +41,8 @@ Les services d'alias mail permettent de :
 
 <div class="grid cards" markdown>
 
-- ![Logo de Addy.io](assets/img/email-aliasing/addy.svg){ .twemoji } [Addy.io](email-aliasing.md#addyio)
-- ![Logo de SimpleLogin](assets/img/email-aliasing/simplelogin.svg){ .twemoji } [SimpleLogin](email-aliasing.md#simplelogin)
+- ![Addy.io logo](assets/images/email-aliasing/addy.svg){ .twemoji } [Addy.io](email-aliasing.md#addyio)
+- ![SimpleLogin logo](assets/images/email-aliasing/simplelogin.svg){ .twemoji } [SimpleLogin](email-aliasing.md#simplelogin)
 
 </div>
 
@@ -54,7 +54,7 @@ L'utilisation d'un service d'alias nécessite de faire confiance à la fois à v
 
 <div class="admonition recommendation" markdown>
 
-![Logo de Addy.io](assets/img/email-aliasing/addy.svg){ align=right }
+![Addy.io logo](assets/images/email-aliasing/addy.svg){ align=right }
 
 **Addy.io** vous permet de créer gratuitement 10 alias avec un nom de domaine partagé, ou un nombre illimité d'alias [standards](https://addy.io/faq/#what-is-a-standard-alias).
 
@@ -96,7 +96,7 @@ Après l'avoir résilié, les avantages de votre abonnement restent valables jus
 
 <div class="admonition recommendation" markdown>
 
-![Logo de SimpleLogin](assets/img/email-aliasing/simplelogin.svg){ align=right }
+![SimpleLogin logo](assets/images/email-aliasing/simplelogin.svg){ align=right }
 
 **SimpleLogin** est un service gratuit qui fournit des alias de courrier électronique sur une variété de noms de domaine partagés, et offre en option des fonctions payantes comme des alias illimités et des domaines personnalisés.
 

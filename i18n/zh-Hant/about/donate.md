@@ -32,9 +32,9 @@ MAGIC Grants is our fiscal host, and their custom, open-source donation platform
     ![Power Up Privacy]{ title="Power Up Privacy" }
     [![Cape]](https://www.cape.co){ target=_blank title="Cape" }
 
-      [Power Up Privacy]: ../assets/img/donors/power-up-privacy.webp
-      [DeleteMe]: ../assets/img/donors/deleteme.webp
-      [Cape]: ../assets/img/donors/cape.webp
+      [Power Up Privacy]: ../assets/images/donors/power-up-privacy.webp
+      [DeleteMe]: ../assets/images/donors/deleteme.webp
+      [Cape]: ../assets/images/donors/cape.webp
 
     </div>
 
@@ -171,7 +171,7 @@ This is a list of our **active** [members](https://donate.magicgrants.org/privac
   
   <dd>
     <p spaces-before="0">
-      我們託管<a href="services.md">網路服務</a>，以測試和展示我們喜歡和<a href="../tools.md">推薦</a>的不同隱私權產品。 其中有些是公開提供給我們的社群使用 (SearXNG、Tor 等)，有些則是提供給我們的團隊成員 (電子郵件等)。
+      我們託管<a href="services.md">網路服務</a>，以測試和展示我們喜歡和<a href="../tools.md">推薦</a>的不同隱私權產品。其中有些是公開提供給我們的社群使用 (SearXNG、Tor 等)，有些則是提供給我們的團隊成員 (電子郵件等)。
     </p>
   </dd>
   

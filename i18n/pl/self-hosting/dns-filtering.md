@@ -21,7 +21,7 @@ cover: dns.webp
 
 <div class="admonition recommendation" markdown>
 
-![Logo Paster](../assets/img/self-hosting/pi-hole.svg){ align=right }
+![Pi-hole logo](../assets/images/self-hosting/pi-hole.svg){ align=right }
 
 **Pi-hole** is an open-source DNS sinkhole which features a friendly web interface to view insights and manage blocked content. Pi-hole is designed to be hosted on a Raspberry Pi, but it is not limited to such hardware.
 
@@ -37,7 +37,7 @@ cover: dns.webp
 
 <div class="admonition recommendation" markdown>
 
-![Logo AdGuard Home](../assets/img/self-hosting/adguard-home.svg){ align=right }
+![AdGuard Home logo](../assets/images/self-hosting/adguard-home.svg){ align=right }
 
 **AdGuard Home** is an open-source DNS sinkhole which features a polished web interface to view insights and manage blocked content.
 

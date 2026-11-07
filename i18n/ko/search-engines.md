@@ -32,9 +32,9 @@ global:
 
 <div class="admonition recommendation" markdown>
 
-![브레이브 서치 로고](assets/img/search-engines/brave-search.svg){ align=right }
+![Brave Search logo](assets/images/search-engines/brave-search.svg){ align=right }
 
-**브레이브 서치**는 브레이브가 개발한 검색 엔진입니다. 포럼 게시물처럼 대화 중심의 결과를 강조해 보여 주는 [토론(Discussions)](https://search.brave.com/help/discussions) 같은 고유한 기능이 있습니다.
+**Brave Search** is a search engine developed by Brave. 포럼 게시물처럼 대화 중심의 결과를 강조해 보여 주는 [토론(Discussions)](https://search.brave.com/help/discussions) 같은 고유한 기능이 있습니다.
 
 브레이브 서치는 [브레이브 브라우저](desktop-browsers.md#brave)의 기본 검색 엔진입니다.
 
@@ -51,9 +51,9 @@ global:
 
 <div class="admonition recommendation" markdown>
 
-![덕덕고 로고](assets/img/search-engines/duckduckgo.svg){ align=right }
+![DuckDuckGo logo](assets/images/search-engines/duckduckgo.svg){ align=right }
 
-**덕덕고**는 비교적 대중적인 프라이버시 검색 엔진 중 하나입니다. 덕덕고의 주목할 만한 검색 기능으로는 [뱅(bang)](https://duckduckgo.com/bang)과 다양한 [즉답(instant answer)](https://help.duckduckgo.com/duckduckgo-help-pages/features/instant-answers-and-other-features) 기능이 있습니다. 이 검색 엔진은 즉답과 기타 부가 결과를 위해 빙 이외의 다양한 [소스](https://help.duckduckgo.com/results/sources)도 사용합니다.
+**DuckDuckGo** is one of the more mainstream private search engine options. 덕덕고의 주목할 만한 검색 기능으로는 [뱅(bang)](https://duckduckgo.com/bang)과 다양한 [즉답(instant answer)](https://help.duckduckgo.com/duckduckgo-help-pages/features/instant-answers-and-other-features) 기능이 있습니다. 이 검색 엔진은 즉답과 기타 부가 결과를 위해 빙 이외의 다양한 [소스](https://help.duckduckgo.com/results/sources)도 사용합니다.
 
 덕덕고는 [토르 브라우저](tor.md#tor-browser)의 기본 검색 엔진이며, 애플 [사파리](mobile-browsers.md#safari-ios) 브라우저에서 선택할 수 있는 몇 안 되는 검색 엔진 중 하나입니다.
 
@@ -70,10 +70,10 @@ global:
 
 <div class="admonition recommendation" markdown>
 
-![스타트페이지 로고](assets/img/search-engines/startpage.svg#only-light){ align=right }
-![스타트페이지 로고](assets/img/search-engines/startpage-dark.svg#only-dark){ align=right }
+![Startpage logo](assets/images/search-engines/startpage.svg#only-light){ align=right }
+![Startpage logo](assets/images/search-engines/startpage-dark.svg#only-dark){ align=right }
 
-**스타트페이지**는 프라이버시를 보호하는 검색 엔진입니다. 스타트페이지의 고유한 기능 중 하나는 [익명 보기(Anonymous View)](https://startpage.com/en/anonymous-view)로, 사용자 활동을 표준화하여 개인을 고유하게 식별하기 어렵게 만듭니다. 이 기능은 [일부](https://support.startpage.com/hc/articles/4455540212116-The-Anonymous-View-Proxy-technical-details) 네트워크 및 브라우저 속성을 숨기는 데 유용할 수 있습니다. 이름과 달리 익명성을 위해 이 기능에 의존해서는 안 됩니다. 익명성이 필요하다면 대신 [토르 브라우저](tor.md#tor-browser)를 사용하세요.
+**Startpage** is a private search engine. 스타트페이지의 고유한 기능 중 하나는 [익명 보기(Anonymous View)](https://startpage.com/en/anonymous-view)로, 사용자 활동을 표준화하여 개인을 고유하게 식별하기 어렵게 만듭니다. 이 기능은 [일부](https://support.startpage.com/hc/articles/4455540212116-The-Anonymous-View-Proxy-technical-details) 네트워크 및 브라우저 속성을 숨기는 데 유용할 수 있습니다. 이름과 달리 익명성을 위해 이 기능에 의존해서는 안 됩니다. 익명성이 필요하다면 대신 [토르 브라우저](tor.md#tor-browser)를 사용하세요.
 
 [:octicons-home-16: 홈페이지](https://startpage.com){ .md-button .md-button--primary }
 [:simple-torbrowser:](http://startpagel6srwcjlue4zgq3zevrujfaow726kjytqbbjyrswwmjzcqd.onion){ .card-link title="어니언 서비스" }
@@ -94,9 +94,9 @@ global:
 
 <div class="admonition recommendation" markdown>
 
-![SearXNG 로고](assets/img/search-engines/searxng.svg){ align=right }
+![SearXNG logo](assets/images/search-engines/searxng.svg){ align=right }
 
-**SearXNG**는 자체 호스팅이 가능한 오픈 소스 메타 검색 엔진입니다. [SearX](https://github.com/searx/searx)에서 포크되어 활발하게 유지 관리되고 있는 프로젝트입니다.
+**SearXNG** is an open-source, self-hostable, metasearch engine. [SearX](https://github.com/searx/searx)에서 포크되어 활발하게 유지 관리되고 있는 프로젝트입니다.
 
 [:octicons-home-16: 홈페이지](https://searxng.org){ .md-button .md-button--primary }
 [:octicons-server-16:](https://searx.space){ .card-link title="공개 인스턴스" }

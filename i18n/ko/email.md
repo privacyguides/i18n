@@ -38,8 +38,8 @@ global:
 
 <div class="grid cards" markdown>
 
-- ![프로톤 메일 로고](assets/img/email/protonmail.svg){ .twemoji } [프로톤 메일](#proton-mail)
-- ![메일박스 메일 로고](assets/img/email/mailbox-mail.svg){ .twemoji } [메일박스 메일](#mailbox-mail)
+- ![Proton Mail logo](assets/images/email/protonmail.svg){ .twemoji } [Proton Mail](#proton-mail)
+- ![Mailbox Mail logo](assets/images/email/mailbox-mail.svg){ .twemoji } [Mailbox Mail](#mailbox-mail)
 
 </div>
 
@@ -58,9 +58,9 @@ OpenPGP와 같은 E2EE 기술을 사용하더라도 이메일 헤더에는 암�
 
 <div class="admonition recommendation" markdown>
 
-![프로톤 메일 로고](assets/img/email/protonmail.svg){ align=right }
+![Proton Mail logo](assets/images/email/protonmail.svg){ align=right }
 
-**프로톤 메일**은 프라이버시, 암호화, 보안, 사용 편의성에 중점을 둔 이메일 서비스입니다. 2013년부터 운영되어 왔습니다. 프로톤 AG는 스위스 제네바에 본사를 두고 있습니다.
+**Proton Mail** is an email service with a focus on privacy, encryption, security, and ease of use. 2013년부터 운영되어 왔습니다. 프로톤 AG는 스위스 제네바에 본사를 두고 있습니다.
 
 프로톤 무료 요금제는 500MB의 메일 저장 공간을 제공하며, 무료로 최대 1GB까지 늘릴 수 있습니다.
 
@@ -141,9 +141,9 @@ OpenPGP와 같은 E2EE 기술을 사용하더라도 이메일 헤더에는 암�
 
 <div class="admonition recommendation" markdown>
 
-![메일박스 메일 로고](assets/img/email/mailbox-mail.svg){ align=right }
+![Mailbox Mail logo](assets/images/email/mailbox-mail.svg){ align=right }
 
-**메일박스 메일**(구 *Mailbox.org*)은 보안과 광고 없는 이용 환경에 중점을 두며, 에너지를 100% 친환경 방식으로 공급받는 이메일 서비스입니다. 2014년부터 운영되어 왔습니다. 메일박스 메일은 독일 베를린에 본사를 두고 있습니다.
+**Mailbox Mail** (formerly *Mailbox.org*) is an email service with a focus on being secure, ad-free, and powered by 100% eco-friendly energy. 2014년부터 운영되어 왔습니다. 메일박스 메일은 독일 베를린에 본사를 두고 있습니다.
 
 계정은 최대 2GB의 저장 공간으로 시작하며, 필요에 따라 업그레이드할 수 있습니다.
 
@@ -202,7 +202,7 @@ OpenPGP와 같은 E2EE 기술을 사용하더라도 이메일 헤더에는 암�
 
 <div class="grid cards" markdown>
 
-- ![투타 로고](assets/img/email/tuta.svg#only-light){ .twemoji loading=lazy }![투타 로고](assets/img/email/tuta-dark.svg#only-dark){ .twemoji loading=lazy } [투타](#tuta)
+- ![Tuta logo](assets/images/email/tuta.svg#only-light){ .twemoji loading=lazy }![Tuta logo](assets/images/email/tuta-dark.svg#only-dark){ .twemoji loading=lazy } [Tuta](#tuta)
 
 </div>
 
@@ -210,10 +210,10 @@ OpenPGP와 같은 E2EE 기술을 사용하더라도 이메일 헤더에는 암�
 
 <div class="admonition recommendation" markdown>
 
-![투타 로고](assets/img/email/tuta.svg#only-light){ align=right }
-![투타 로고](assets/img/email/tuta-dark.svg#only-dark){ align=right }
+![Tuta logo](assets/images/email/tuta.svg#only-light){ align=right }
+![Tuta logo](assets/images/email/tuta-dark.svg#only-dark){ align=right }
 
-**투타**(구 *투타노타*)는 암호화를 통한 보안과 프라이버시에 중점을 둔 이메일 서비스입니다. 투타는 2011년에 서비스를 시작했으며 독일 하노버에 본사를 두고 있습니다.
+**Tuta** (formerly *Tutanota*) is an email service with a focus on security and privacy through the use of encryption. 투타는 2011년에 서비스를 시작했으며 독일 하노버에 본사를 두고 있습니다.
 
 무료 계정에는 1GB의 저장 공간이 제공됩니다.
 

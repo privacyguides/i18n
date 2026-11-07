@@ -14,7 +14,7 @@ schema:
     "@context": http://schema.org
     "@type": SoftwareApplication
     name: Bitwarden
-    image: /assets/img/password-management/bitwarden.svg
+    image: /assets/images/password-management/bitwarden.svg
     url: https://bitwarden.com/de-de/
     sameAs: https://en.wikipedia.org/wiki/Bitwarden
     applicationCategory: Passwort-Manager
@@ -32,7 +32,7 @@ schema:
     "@context": http://schema.org
     "@type": SoftwareApplication
     name: 1Password
-    image: /assets/img/password-management/1password.svg
+    image: /assets/images/password-management/1password.svg
     url: https://1password.com/de
     sameAs: https://de.wikipedia.org/wiki/1Password
     applicationCategory: Passwort-Manager
@@ -50,7 +50,7 @@ schema:
     "@context": http://schema.org
     "@type": SoftwareApplication
     name: Proton Pass
-    image: /assets/img/password-management/protonpass.svg
+    image: /assets/images/password-management/protonpass.svg
     url: https://proton.me/de/pass
     applicationCategory: Passwort-Manager
     operatingSystem:
@@ -64,7 +64,7 @@ schema:
     "@context": http://schema.org
     "@type": SoftwareApplication
     name: Psono
-    image: /assets/img/password-management/psono.svg
+    image: /assets/images/password-management/psono.svg
     url: https://psono.com/de
     applicationCategory: Passwort-Manager
     operatingSystem:
@@ -78,7 +78,7 @@ schema:
     "@context": http://schema.org
     "@type": SoftwareApplication
     name: KeePassXC
-    image: /assets/img/password-management/keepassxc.svg
+    image: /assets/images/password-management/keepassxc.svg
     url: https://keepassxc.org
     sameAs: https://de.wikipedia.org/wiki/KeePassXC
     applicationCategory: Passwort-Manager
@@ -94,7 +94,7 @@ schema:
     "@context": http://schema.org
     "@type": SoftwareApplication
     name: KeePassDX
-    image: /assets/img/password-management/keepassdx.svg
+    image: /assets/images/password-management/keepassdx.svg
     url: https://keepassdx.com
     applicationCategory: Passwort-Manager
     operatingSystem: Android
@@ -106,7 +106,7 @@ schema:
     "@context": http://schema.org
     "@type": SoftwareApplication
     name: Gopass
-    image: /assets/img/password-management/gopass.svg
+    image: /assets/images/password-management/gopass.svg
     url: https://gopass.pw
     applicationCategory: Passwort-Manager
     operatingSystem:
@@ -147,9 +147,9 @@ Diese Passwort-Manager synchronisieren deine Passwörter mit einem Cloud-Server,
 
 <div class="admonition recommendation" markdown>
 
-![Bitwarden-Logo](assets/img/password-management/bitwarden.svg){ align=right }
+![Bitwarden logo](assets/images/password-management/bitwarden.svg){ align=right }
 
-**Bitwarden** ist ein kostenloser und quelloffener Passwort- und Passkey-Manager. Es zielt darauf ab, Passwortmanagementprobleme für Einzelpersonen, Teams und Unternehmen zu lösen. Bitwarden ist eine der besten und sichersten Lösungen, um alle deine Logins und Passwörter zu speichern und sie bequem zwischen all deinen Geräten zu synchronisieren.
+**Bitwarden** is a free and open-source password and passkey manager. Es zielt darauf ab, Passwortmanagementprobleme für Einzelpersonen, Teams und Unternehmen zu lösen. Bitwarden ist eine der besten und sichersten Lösungen, um alle deine Logins und Passwörter zu speichern und sie bequem zwischen all deinen Geräten zu synchronisieren.
 
 [:octicons-home-16: Homepage](https://bitwarden.com/de-de/){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://bitwarden.com/de-de/privacy/){ .card-link title="Privacy Policy" }
@@ -185,9 +185,9 @@ Der serverseitige Code von Bitwarden ist [quelloffen](https://github.com/bitward
 
 <div class="admonition recommendation" markdown>
 
-![Proton Pass Logo](assets/img/password-management/protonpass.svg){ align=right }
+![Proton Pass logo](assets/images/password-management/protonpass.svg){ align=right }
 
-**Proton Pass** ist ein quelloffener, E2EE Passwort-Manager, der von Proton entwickelt wurde, dem Team hinter [Proton Mail](email.md#proton-mail). Es speichert deine Anmeldedaten sicher, erzeugt eindeutige E-Mail-Aliase und unterstützt und speichert Passkeys.
+**Proton Pass** is an open-source, end-to-end encrypted password manager developed by Proton, the team behind [Proton Mail](email.md#proton-mail). Es speichert deine Anmeldedaten sicher, erzeugt eindeutige E-Mail-Aliase und unterstützt und speichert Passkeys.
 
 [:octicons-home-16: Homepage](https://proton.me/de/pass){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://proton.me/de/pass/privacy-policy){ .card-link title="Datenschutzerklärung" }
@@ -221,9 +221,9 @@ Alle Probleme wurden kurz nach dem [Bericht](https://res.cloudinary.com/dbulfrlr
 
 <div class="admonition recommendation" markdown>
 
-![1Password Logo](assets/img/password-management/1password.svg){ align=right }
+![1Password logo](assets/images/password-management/1password.svg){ align=right }
 
-**1Password** ist ein Passwortmanager mit einem starken Fokus auf Sicherheit und Benutzerfreundlichkeit, der es dir ermöglicht, Passwörter, Schlüssel, Kreditkarten, Softwarelizenzen und andere sensible Informationen in einem sicheren digitalen Tresor zu speichern. Dein Tresor wird auf den Servern von 1Password gegen eine [monatliche Gebühr] (https://1password.com/sign-up) gehostet.
+**1Password** is a password manager with a strong focus on security and ease-of-use that allows you to store passwords, passkeys, credit cards, software licenses, and any other sensitive information in a secure digital vault. Dein Tresor wird auf den Servern von 1Password gegen eine [monatliche Gebühr] (https://1password.com/sign-up) gehostet.
 
 1Password wird regelmäßig [geprüft] (https://support.1password.com/security-assessments) und bietet einen hervorragenden Kundensupport. 1Password ist ein Closed-Source-Produkt; die Sicherheit des Produkts ist jedoch in ihrem [Sicherheits-Whitepaper](https://1passwordstatic.com/files/security/1password-white-paper.pdf) ausführlich dokumentiert.
 
@@ -257,9 +257,9 @@ Dein 1Password-Tresor ist sowohl mit deinem Master-Passwort als auch mit einem z
 
 <div class="admonition recommendation" markdown>
 
-![Psono-Logo](assets/img/password-management/psono.svg){ align=right }
+![Psono logo](assets/images/password-management/psono.svg){ align=right }
 
-**Psono** ist ein freier und quelloffener Passwort-Manager aus Deutschland, der sich auf die Passwortverwaltung für Teams konzentriert. Psono unterstützt den sicheren Austausch von Passwörtern, Dateien, Lesezeichen und E-Mails. Alle Geheimnisse sind durch ein Master-Passwort geschützt.
+**Psono** is a free and open-source password manager from Germany, with a focus on password management for teams. Psono unterstützt den sicheren Austausch von Passwörtern, Dateien, Lesezeichen und E-Mails. Alle Geheimnisse sind durch ein Master-Passwort geschützt.
 
 [:octicons-home-16: Homepage](https://psono.com/de){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://psono.com/de/privacy-policy){ .card-link title="Datenschutzerklärung" }
@@ -310,9 +310,9 @@ Mit diesen Optionen kannst du eine verschlüsselte Kennwortdatenbank lokal verwa
 
 <div class="admonition recommendation" markdown>
 
-![KeePassXC Logo](assets/img/password-management/keepassxc.svg){ align=right }
+![KeePassXC logo](assets/images/password-management/keepassxc.svg){ align=right }
 
-**KeePassXC** ist ein Community-Fork von KeePassX, einer nativen, plattformübergreifenden Portierung von KeePass Password Safe, mit dem Ziel, es mit neuen Funktionen und Fehlerbehebungen zu erweitern und zu verbessern, um einen funktionsreichen, plattformübergreifenden und modernen Open-Source-Passwortmanager anzubieten.
+**KeePassXC** is a community fork of KeePassX, a native cross-platform port of KeePass Password Safe, with the goal of extending and improving it with new features and bug fixes to provide a feature-rich, cross-platform, and modern open-source password manager.
 
 [:octicons-home-16: Homepage](https://keepassxc.org){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://keepassxc.org/privacy){ .card-link title="Datenschutzerklärung" }
@@ -340,9 +340,9 @@ KeePassXC speichert seine Exportdaten als [CSV-Dateien](https://en.wikipedia.org
 
 <div class="admonition recommendation" markdown>
 
-![KeePassDX Logo](assets/img/password-management/keepassdx.svg){ align=right }
+![KeePassDX logo](assets/images/password-management/keepassdx.svg){ align=right }
 
-**KeePassDX** ist ein leichtgewichtiger Passwort-Manager für Android. Er ermöglicht das Bearbeiten von verschlüsselten Daten in einer einzelnen Datei im KeePass-Format und kann Formulare sicher ausfüllen.
+**KeePassDX** is a lightweight password manager for Android; it allows for editing encrypted data in a single file in KeePass format and can fill in forms securely.
 
 [:octicons-home-16: Homepage](https://keepassdx.com){ .md-button .md-button--primary }
 [:octicons-info-16:](https://github.com/Kunzisoft/KeePassDX/wiki){ .card-link title="Documentation" }
@@ -365,7 +365,7 @@ The [pro version](https://play.google.com/store/apps/details?id=com.kunzisoft.ke
 
 <div class="admonition recommendation" markdown>
 
-![KeePassium logo](assets/img/password-management/keepassium.svg){ align=right }
+![KeePassium logo](assets/images/password-management/keepassium.svg){ align=right }
 
 KeePassium is a commercial, open-source password manager made by KeePassium Labs that's compatible with other KeePass applications. It provides autofill support, passkey management, automatic two-way synchronization through [most cloud storage providers](https://support.keepassium.com/kb/sync), and more.
 
@@ -394,7 +394,7 @@ KeePassium's iOS app has been [audited](https://cure53.de/pentest-report_keepass
 
 <div class="admonition recommendation" markdown>
 
-![Gopass logo](assets/img/password-management/gopass.svg){ align=right }
+![Gopass logo](assets/images/password-management/gopass.svg){ align=right }
 
 **Gopass** is a minimal password manager for the command line written in Go. Es kann innerhalb von Skripting-Anwendungen verwendet werden und funktioniert auf allen wichtigen Desktop- und Server-Betriebssystemen.
 

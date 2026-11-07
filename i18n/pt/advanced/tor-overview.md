@@ -4,7 +4,7 @@ icon: 'simple/torproject'
 description: Tor é uma rede descentralizada e de utilização gratuita, concebida para utilizar a Internet com o máximo de privacidade possível.
 ---
 
-![Logótipo do Tor](../assets/img/self-contained-networks/tor.svg){ align=right }
+![Logótipo do Tor](../assets/images/self-contained-networks/tor.svg){ align=right }
 
 [**Tor**](../alternative-networks.md#tor) is a free to use, decentralized network designed for using the internet with as much privacy as possible. Se utilizada corretamente, a rede permite a navegação e as comunicações privadas e anónimas. O facto do tráfego do Tor ser difícil de bloquear e rastrear, faz dele uma ferramenta eficaz para contornar a censura.
 
@@ -111,9 +111,9 @@ Os "serviços Clearnet" são sites a que pode aceder com qualquer browser, como 
 Sempre que [se liga ao Tor](../tor.md), este escolhe três nós para construir um caminho para a Internet - este caminho chama-se "circuito"
 
 <figure markdown>
-  ![Caminho do Tor que mostra o seu dispositivo a ligar-se a um nó de entrada, a um nó intermédio e a um nó de saída antes de chegar ao site de destino](../assets/img/how-tor-works/tor-path.svg#only-light)
-  ![Caminho do Tor que mostra o seu dispositivo a ligar-se a um nó de entrada, a um nó intermédio e a um nó de saída antes de chegar ao site de destino](../assets/img/how-tor-works/tor-path-dark.svg#only-dark)
-  <figcaption>Caminho do circuito do Tor</figcaption>
+  ![Tor path showing your device connecting to an entry node, middle node, and exit node before reaching the destination website](../assets/images-localized/how-tor-works/tor-path.svg#only-light)
+  ![Tor path showing your device connecting to an entry node, middle node, and exit node before reaching the destination website](../assets/images-localized/how-tor-works/tor-path-dark.svg#only-dark)
+  <figcaption>Tor circuit pathway</figcaption>
 </figure>
 
 Cada um destes nós tem a sua própria função:
@@ -143,9 +143,9 @@ Os "Serviços Onion" (também vulgarmente designados por "serviços ocultos") s�
 A ligação a um serviço Onion no Tor funciona de forma muito semelhante à ligação a um serviço clearnet, mas o seu tráfego é encaminhado através de um total de **seis** nós, antes de chegar ao servidor de destino. Just like before, however, only three of these nodes are contributing to *your* anonymity, the other three nodes protect *the Onion Service's* anonymity, hiding the website's true IP and location in the same manner that Tor Browser is hiding yours.
 
 <figure style="width:100%" markdown>
-  ![Caminho do Tor que mostra o seu tráfego sendo encaminhado através dos três nós Tor, mais os três nós Tor adicionais que escondem a identidade do site](../assets/img/how-tor-works/tor-path-hidden-service.svg#only-light)
-  ![Caminho do Tor que mostra o seu tráfego sendo encaminhado através dos três nós Tor, mais os três nós Tor adicionais que escondem a identidade do site](../assets/img/how-tor-works/tor-path-hidden-service-dark.svg#only-dark)
-  <figcaption>Caminho do circuito Tor com Serviços Onion. Os nós na vedação <span class="pg-blue">azul</span> pertencem ao seu browser, enquanto os nós na vedação <span class="pg-red">vermelha</span> pertencem ao servidor, pelo que a sua identidade está oculta.</figcaption>
+  ![Tor path showing your traffic being routed through your three Tor nodes plus three additional Tor nodes which hide the website's identity](../assets/images-localized/how-tor-works/tor-path-hidden-service.svg#only-light)
+  ![Tor path showing your traffic being routed through your three Tor nodes plus three additional Tor nodes which hide the website's identity](../assets/images-localized/how-tor-works/tor-path-hidden-service-dark.svg#only-dark)
+  <figcaption>Tor circuit pathway with Onion Services. Os nós na vedação <span class="pg-blue">azul</span> pertencem ao seu browser, enquanto os nós na vedação <span class="pg-red">vermelha</span> pertencem ao servidor, pelo que a sua identidade está oculta.</figcaption>
 </figure>
 
 ## Encriptação
@@ -163,9 +163,9 @@ Uma vez estabelecido o circuito pelo Tor, a transmissão de dados é efetuada da
 Segue-se um diagrama alternativo que mostra o processo. Cada nó remove a sua própria camada de encriptação e, quando o servidor de destino devolve os dados, o mesmo processo acontece totalmente ao contrário. Por exemplo, o nó de saída não sabe quem é o utilizador, mas sabe de que nó veio a mensagem, pelo que adiciona a sua própria camada de encriptação e envia-a de volta.
 
 <figure markdown>
-  ![Encriptação Tor](../assets/img/how-tor-works/tor-encryption.svg#only-light)
-  ![Encriptação Tor](../assets/img/how-tor-works/tor-encryption-dark.svg#only-dark)
-  <figcaption>Enviar e receber dados através da Rede Tor</figcaption>
+  ![Tor encryption](../assets/images-localized/how-tor-works/tor-encryption.svg#only-light)
+  ![Tor encryption](../assets/images-localized/how-tor-works/tor-encryption-dark.svg#only-dark)
+  <figcaption>Sending and receiving data through the Tor Network</figcaption>
 </figure>
 
 O Tor permite-nos ligar a um servidor sem que alguma das partes conheça todo o caminho. O nó de entrada sabe quem é o utilizador, mas não sabe para onde vai; o nó intermédio não sabe quem é o utilizador nem para onde vai; e o nó de saída sabe para onde vai, mas não sabe quem é o utilizador. Uma vez que o nó de saída é o que estabelece a ligação final, o servidor de destino nunca saberá o seu endereço IP.

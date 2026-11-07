@@ -19,7 +19,7 @@ cover: email.webp
 
 <div class="admonition recommendation" markdown>
 
-![스톨워트 로고](../assets/img/self-hosting/stalwart.svg){ align=right }
+![Stalwart logo](../assets/images/self-hosting/stalwart.svg){ align=right }
 
 **스톨워트**는 러스트로 작성된 비교적 새로운 메일 서버로, 표준 IMAP, POP3, SMTP 외에 JMAP도 지원합니다. 다양한 설정 옵션을 제공하면서도 보안과 기능 측면에서 균형 잡힌 기본 설정을 갖추고 있어 비교적 쉽게 운영을 시작할 수 있습니다. TOTP 2FA를 지원하는 웹 기반 관리 기능을 제공하며, 공개 PGP 키를 입력하면 수신되는 **모든** 메시지를 암호화할 수 있습니다.
 
@@ -40,7 +40,7 @@ _프라이버시 가이&#xB4DC;_&#xC5D0;서도 내부 이메일에 스톨워트�
 
 <div class="admonition recommendation" markdown>
 
-![메일카우 로고](../assets/img/self-hosting/mailcow.svg){ align=right }
+![Mailcow logo](../assets/images/self-hosting/mailcow.svg){ align=right }
 
 **메일카우**는 리눅스 경험이 있는 분들에게 적합한 고급 메일 서버입니다. DKIM을 지원하는 메일 서버, 바이러스 및 스팸 모니터링, SOGo를 통한 웹메일 및 ActiveSync, 2FA를 지원하는 웹 기반 관리 등 필요한 모든 것을 도커 컨테이너 하나에 담고 있습니다.
 
@@ -55,7 +55,7 @@ _프라이버시 가이&#xB4DC;_&#xC5D0;서도 내부 이메일에 스톨워트�
 
 <div class="admonition recommendation" markdown>
 
-![메일인어박스 로고](../assets/img/self-hosting/mail-in-a-box.svg){ align=right }
+![Mail-in-a-Box logo](../assets/images/self-hosting/mail-in-a-box.svg){ align=right }
 
 **메일인어박스**는 우분투에 메일 서버를 배포하는 자동화된 설치 스크립트입니다. 사람들이 자신만의 메일 서버를 더 쉽게 구축할 수 있도록 하는 것이 목표입니다.
 

@@ -19,7 +19,7 @@ cover: email.webp
 
 <div class="admonition recommendation" markdown>
 
-![Stalwart logo](../assets/img/self-hosting/stalwart.svg){ align=right }
+![Stalwart logo](../assets/images/self-hosting/stalwart.svg){ align=right }
 
 خادم Stalwart هو خادم بريد إلكتروني حديث نسبيا، مكتوب بلغة Rust، ويدعم بروتوكول JMAP بالإضافة إلى البروتوكولات التقليدية IMAP وPOP3 وSMTP. يوفر خيارات كثيرة لتخصيص الإعدادات، كما يأتي بإعدادات افتراضية مناسبة من حيث الأمان والميزات، مما يجعله سهل الاستخدام من البداية. يوفر واجهة لإدارته عبر الويب تدعم المصادقة الثنائية (2FA) باستخدام TOTP، ويتيح لك إضافة مفتاح PGP العام الخاص بك لتشفير جميع الرسائل الواردة.
 
@@ -40,7 +40,7 @@ cover: email.webp
 
 <div class="admonition recommendation" markdown>
 
-![Mailcow logo](../assets/img/self-hosting/mailcow.svg){ align=right }
+![Mailcow logo](../assets/images/self-hosting/mailcow.svg){ align=right }
 
 خادم Mailcow هو خادم بريد إلكتروني متقدم، ومناسب جدا لمن لديهم خبرة في استخدام Linux. يوفر كل ما تحتاج إليه داخل حاوية Docker: خادم بريد إلكتروني يدعم DKIM، وحماية من الفيروسات والرسائل المزعجة، وواجهة لاستخدام البريد الإلكتروني عبر الويب مع دعم ActiveSync من خلال SOGo، بالإضافة إلى واجهة إدارة عبر الويب تدعم المصادقة الثنائية (2FA).
 
@@ -55,7 +55,7 @@ cover: email.webp
 
 <div class="admonition recommendation" markdown>
 
-![Mail-in-a-Box logo](../assets/img/self-hosting/mail-in-a-box.svg){ align=right }
+![Mail-in-a-Box logo](../assets/images/self-hosting/mail-in-a-box.svg){ align=right }
 
 سكربت Mail-in-a-Box هو سكربت يُسهل إعداد وتشغيل خادم بريد إلكتروني على Ubuntu بشكل تلقائي. يهدف إلى تسهيل إعداد خادم بريد إلكتروني خاص بك.
 

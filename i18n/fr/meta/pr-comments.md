@@ -5,13 +5,13 @@ description: Un guide sur la participation aux discussions sur les Pull Request.
 
 Veuillez vous abstenir d'utiliser la boîte générale **Ajouter un commentaire** dans les PRs GitHub lorsque vous laissez un commentaire ou effectuez une évaluation.
 
-![Ne pas utiliser la boîte générale "Ajouter un commentaire" dans GitHub](../assets/img/meta/pr-avoid-general-comments.png)
+![Do not use the general "Add a comment" box in GitHub](../assets/images/meta/pr-avoid-general-comments.png)
 
 Les commentaires laissés de la sorte ne sont pas _threaded_, ce qui rend difficile le suivi de plusieurs conversations.
 
 Les commentaires laissés de la manière décrite ci-dessous seront accompagnés d'une boîte de réponse intégrée afin de maintenir les conversations dans un seul et même fil. Ces commentaires peuvent également être marqués comme résolus par la suite, ce qui permet de suivre la discussion plus facilement.
 
-![Capture d'écran d'un commentaire sur GitHub qui comporte une boîte de réponse intégrée, surlignée en orange](../assets/img/meta/pr-threaded-comment.png)
+![A screenshot of a comment in GitHub which has a built-in "reply" box, highlighted in orange.](../assets/images/meta/pr-threaded-comment.png)
 
 ## Commentaire
 

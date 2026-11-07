@@ -13,7 +13,7 @@ description: 인터넷 계정은 쉽게 늘어나기 마련입니다. 계정을 
 디지털 생활 내내 비밀번호 관리자를 사용해 왔다면 이는 매우 간단합니다. 비밀번호 관리자에는 비트워든의 [데이터 유출 보고서](https://bitwarden.com/blog/have-you-been-pwned)처럼 자격 증명이 데이터 유출로 노출되었는지 감지하는 기능이 내장되어 있는 경우가 많습니다.
 
 <figure markdown>
-  ![비트워든의 데이터 유출 보고서 기능](../assets/img/account-deletion/exposed_passwords.png)
+  ![Bitwarden's Data Breach Report feature](../assets/images-localized/account-deletion/exposed_passwords.png)
 </figure>
 
 지금까지 비밀번호 관리자를 명시적으로 사용한 적이 없더라도, 브라우저([파이어폭스](https://support.mozilla.org/kb/password-manager-remember-delete-edit-logins), [크롬](https://passwords.google.com/intro), [엣지](https://support.microsoft.com/microsoft-edge/save-or-forget-passwords-in-microsoft-edge-b4beecb0-f2a8-1ca0-f26f-9ec247a3f336))나 휴대폰(순정 안드로이드의 [구글](https://passwords.google.com/intro), iOS의 [암호](https://support.apple.com/HT211146))에 내장된 비밀번호 관리자를 자신도 모르게 사용해 왔을 가능성이 있습니다.

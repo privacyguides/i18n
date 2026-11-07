@@ -15,7 +15,7 @@ schema:
     "@context": http://schema.org
     "@type": MobileApplication
     name: Brave
-    image: /assets/img/browsers/brave.svg
+    image: /assets/images/browsers/brave.svg
     url: https://brave.com
     applicationCategory: Web Browser
     operatingSystem:
@@ -28,7 +28,7 @@ schema:
     "@context": http://schema.org
     "@type": MobileApplication
     name: Safari
-    image: /assets/img/browsers/safari.svg
+    image: /assets/images/browsers/safari.svg
     url: https://apple.com/safari
     applicationCategory: Web Browser
     operatingSystem:
@@ -48,9 +48,9 @@ Bunlar, standart/anonim olmayan internet taraması için şu anda önerilen mobi
 
 <div class="admonition recommendation" markdown>
 
-![Brave logo](assets/img/browsers/brave.svg){ align=right }
+![Brave logo](assets/images/browsers/brave.svg){ align=right }
 
-**Brave Browser** yerleşik bir içerik engelleyici ve [gizlilik özellikleri] (https://brave.com/privacy-features) içerir ve bunların çoğu varsayılan olarak etkindir.
+**Brave Browser** includes a built-in content blocker and [privacy features](https://brave.com/privacy-features), many of which are enabled by default.
 
 Brave, Chromium web tarayıcısı projesi üzerine inşa edilmiştir, bu nedenle kullanımı daha tanıdıktır ve olabildiğince az web sitesi uyumluluğu yaşarsınız.
 
@@ -201,9 +201,9 @@ On iOS, any app that can browse the web is [restricted](https://developer.apple.
 
 <div class="admonition recommendation" markdown>
 
-![Safari logosu](assets/img/browsers/safari.svg){ align=right }
+![Safari logo](assets/images/browsers/safari.svg){ align=right }
 
-iOS'ta varsayılan tarayıcı **Safari**'dir. Akıllı İzleme Önleme](https://webkit.org/blog/7675/intelligent-tracking-prevention), yalıtılmış ve geçici Özel Tarama sekmeleri, parmak izi koruması (web sitelerine sistem yapılandırmasının basitleştirilmiş bir sürümünü sunarak daha fazla cihazın aynı görünmesini sağlar) ve parmak izi randomizasyonu gibi [gizlilik özellikleri](https://support.apple.com/guide/iphone/browse-the-web-privately-iphb01fc3c85/ios) ve ücretli iCloud+ aboneliği olanlar için Özel Aktarım içerir.
+**Safari** is the default browser in iOS. Akıllı İzleme Önleme](https://webkit.org/blog/7675/intelligent-tracking-prevention), yalıtılmış ve geçici Özel Tarama sekmeleri, parmak izi koruması (web sitelerine sistem yapılandırmasının basitleştirilmiş bir sürümünü sunarak daha fazla cihazın aynı görünmesini sağlar) ve parmak izi randomizasyonu gibi [gizlilik özellikleri](https://support.apple.com/guide/iphone/browse-the-web-privately-iphb01fc3c85/ios) ve ücretli iCloud+ aboneliği olanlar için Özel Aktarım içerir.
 
 [:octicons-home-16: Ana Sayfa](https://apple.com/safari){ .md-button .md-button--primary }[:octicons-eye-16:](https://apple.com/legal/privacy/data/en/safari){ .card-link title="Privacy Policy" }[:octicons-info-16:](https://support.apple.com/guide/iphone/browse-the-web-iph1fbef4daa/ios){ .card-link title=Documentation}
 [](){ .card-link title="Source Code" }

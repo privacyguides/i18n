@@ -5,7 +5,7 @@ description: Android to system operacyjny typu open-source z silnymi zabezpiecze
 robots: nofollow, max-snippet:-1, max-image-preview:large
 ---
 
-![Logo systemu Android](../assets/img/android/android.svg){ align=right }
+![Logo systemu Android](../assets/images/android/android.svg){ align=right }
 
 **Projekt Android Open Source** to bezpieczny system operacyjny dla urządzeń mobilnych, oferujący zaawansowaną [izolację aplikacji](https://source.android.com/security/app-sandbox) (tzw. piaskownicę aplikacji), [Verified Boot](https://source.android.com/security/verifiedboot) (AVB) oraz rozbudowany [system uprawnień](https://developer.android.com/guide/topics/permissions/overview).
 

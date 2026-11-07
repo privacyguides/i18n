@@ -1,5 +1,5 @@
 ---
-title: Office Suites
+title: "Office Suites"
 icon: material/file-edit-outline
 description: These office suites offer their full functionality without an account and can be used offline.
 cover: office-suites.webp
@@ -15,7 +15,7 @@ Choose an **office suite** that does not require logging in to an account to acc
 
 <div class="admonition recommendation" markdown>
 
-![LibreOffice logo](assets/img/office-suites/libreoffice.svg){ align=right }
+![LibreOffice logo](assets/images/office-suites/libreoffice.svg){ align=right }
 
 **LibreOffice** is a free and open-source office suite with extensive functionality.
 
@@ -43,12 +43,12 @@ Choose an **office suite** that does not require logging in to an account to acc
 
 <div class="admonition recommendation" markdown>
 
-![OnlyOffice logo](assets/img/office-suites/onlyoffice.svg){ align=right }
+![OnlyOffice logo](assets/images/office-suites/onlyoffice.svg){ align=right }
 
 **OnlyOffice** is a cloud-based free and open-source office suite with extensive functionality, including integration with Nextcloud.
 
 [:octicons-home-16: Homepage](https://onlyoffice.com){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://help.onlyoffice.com/products/files/doceditor.aspx?fileid=5048502\&doc=SXhWMEVzSEYxNlVVaXJJeUVtS0kyYk14YWdXTEFUQmRWL250NllHNUFGbz0_IjUwNDg1MDIi0){ .card-link title="Privacy Policy" }
+[:octicons-eye-16:](https://help.onlyoffice.com/products/files/doceditor.aspx?fileid=5048502&doc=SXhWMEVzSEYxNlVVaXJJeUVtS0kyYk14YWdXTEFUQmRWL250NllHNUFGbz0_IjUwNDg1MDIi0){ .card-link title="Privacy Policy" }
 [:octicons-info-16:](https://helpcenter.onlyoffice.com/userguides.aspx){ .card-link title=Documentation}
 [:octicons-code-16:](https://github.com/ONLYOFFICE){ .card-link title="Source Code" }
 

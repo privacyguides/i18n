@@ -21,7 +21,7 @@ DNS를 자체 호스팅하면 클라이언트 측 소프트웨어를 설치할 �
 
 <div class="admonition recommendation" markdown>
 
-![파이홀 로고](../assets/img/self-hosting/pi-hole.svg){ align=right }
+![Pi-hole logo](../assets/images/self-hosting/pi-hole.svg){ align=right }
 
 **파이홀**은 통계를 확인하고 차단된 콘텐츠를 관리할 수 있는 친숙한 웹 인터페이스를 갖춘 오픈 소스 DNS 싱크홀입니다. 파이홀은 라즈베리 파이에서 호스팅되도록 설계되었지만, 다른 하드웨어에서도 사용할 수 있습니다.
 
@@ -37,7 +37,7 @@ DNS를 자체 호스팅하면 클라이언트 측 소프트웨어를 설치할 �
 
 <div class="admonition recommendation" markdown>
 
-![애드가드 홈 로고](../assets/img/self-hosting/adguard-home.svg){ align=right }
+![AdGuard Home logo](../assets/images/self-hosting/adguard-home.svg){ align=right }
 
 **애드가드 홈**은 통계를 확인하고 차단된 콘텐츠를 관리할 수 있는 세련된 웹 인터페이스를 갖춘 오픈 소스 DNS 싱크홀입니다.
 

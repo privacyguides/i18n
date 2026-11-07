@@ -15,7 +15,7 @@ Większość platform do współpracy nad dokumentami dostępnych online, takich
 
 <div class="admonition recommendation" markdown>
 
-![Logo CryptPad](assets/img/document-collaboration/cryptpad.svg){ align=right }
+![CryptPad logo](assets/images/document-collaboration/cryptpad.svg){ align=right }
 
 **CryptPad** to zaprojektowana z myślą o prywatności alternatywa dla popularnych, rozbudowanych pakietów biurowych. Cała zawartość tej usługi internetowej jest szyfrowana end-to-end i można ją łatwo udostępniać innym użytkownikom.
 

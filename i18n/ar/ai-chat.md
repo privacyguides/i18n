@@ -61,7 +61,7 @@ cover: ai-chatbots.webp
 
 <div class="admonition recommendation" markdown>
 
-![Kobold.cpp Logo](assets/img/ai-chat/kobold.png){align=right}
+![Kobold.cpp Logo](assets/images/ai-chat/kobold.png){align=right}
 
 برنامج Kobold.cpp هو برنامج لتشغيل الذكاء الاصطناعي محليا على جهازك، سواء كنت تستخدم Windows أو Mac أو Linux. يُعد خيارا ممتازا إذا كنت تبحث عن إمكانيات واسعة لتخصيص الإعدادات وضبطها، مثل استخدامه في تقمص الأدوار.
 
@@ -96,7 +96,7 @@ cover: ai-chatbots.webp
 
 <div class="admonition recommendation" markdown>
 
-![Ollama Logo](assets/img/ai-chat/ollama.png){align=right}
+![Ollama Logo](assets/images/ai-chat/ollama.png){align=right}
 
 برنامج Ollama هو مساعد ذكاء اصطناعي يعمل من خلال سطر الأوامر (Command Line)، ومتوفر على أنظمة macOS وLinux وWindows. يُعد Ollama خيارا ممتازا إذا كنت تبحث عن برنامج ذكاء اصطناعي سهل الاستخدام، ومتوافق مع أجهزة وأنظمة تشغيل كثيرة، ويوفر أداء سريعا بفضل التقنيات التي يستخدمها. كما أنه لا يتطلب أي إعداد يدوي.
 
@@ -124,7 +124,7 @@ cover: ai-chatbots.webp
 
 <div class="admonition recommendation" markdown>
 
-![Llamafile Logo](assets/img/ai-chat/llamafile.webp){align=right}
+![Llamafile Logo](assets/images/ai-chat/llamafile.webp){align=right}
 
 برنامج **Llamafile** هو برنامج خفيف يأتي في ملف تنفيذي واحد، ويتيح لك تشغيل نماذج اللغة الكبيرة (LLMs) محليا على جهازك دون الحاجة إلى أي إعدادات. يحظى بدعم [Mozilla](https://hacks.mozilla.org/2023/11/introducing-llamafile)، ويتوفر على أنظمة Linux وmacOS وWindows.
 

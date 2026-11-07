@@ -5,7 +5,7 @@ description: Android es un sistema operativo de código abierto con fuertes medi
 robots: nofollow, max-snippet:-1, max-image-preview:large
 ---
 
-![Logotipo de Android](../assets/img/android/android.svg){ align=right }
+![Logotipo de Android](../assets/images/android/android.svg){ align=right }
 
 **Android Open Source Project** es un sistema operativo móvil seguro que cuenta con un fuerte [aislamiento de aplicaciones](https://source.android.com/security/app-sandbox), [arranque verificado](https://source.android.com/security/verifiedboot) (AVB) y un sólido sistema de control de [permisos ](https://developer.android.com/guide/topics/permissions/overview).
 

@@ -18,7 +18,7 @@ Les recommandations formulées ici ne recueillent pas d'Informations Personnelle
 
 <div class="admonition recommendation" markdown>
 
-![Logo de Organic Maps](assets/img/maps/organic-maps.svg){ align=right }
+![Organic Maps logo](assets/images/maps/organic-maps.svg){ align=right }
 
 **Organic Maps** est une application open-source de navigation type GPS et de carte pour les marcheurs, cyclistes et conducteurs. L'application permet d'accéder à des cartes du monde entier basées sur les données OpenStreetMap, elle dispose également d'une fonctionnalité de navigation respectueuse de la vie privée (pas de traçage de la localisation, pas de collecte de donnée, et pas de publicités). Cette application peut être utilisée hors-ligne.
 
@@ -45,7 +45,7 @@ Organic Maps reste une application assez basique, et ne propose pas certaines fo
 
 <div class="admonition recommendation" markdown>
 
-![Logo de OsmAnd](assets/img/maps/osmand.svg){ align=right }
+![OsmAnd logo](assets/images/maps/osmand.svg){ align=right }
 
 **OsmAnd** est une application de carte et de navigation hors ligne basée sur OpenStreetMap qui offre une navigation tour par tour pour la marche, le vélo, la conduite, ainsi que les transports publics. Vous pouvez trouver la liste détaillée des [fonctionnalités](https://wiki.openstreetmap.org/wiki/OsmAnd#Features) d'OsmAnd sur le wiki OpenStreetMap.
 

@@ -17,12 +17,12 @@ description: 큐브스는 보안을 강화하기 위해 앱을 *큐브*(이전�
 
 </details>
 
-![큐브스 아키텍처](../assets/img/qubes/qubes-trust-level-architecture.png)
+![큐브스 아키텍처](../assets/images-localized/qubes/qubes-trust-level-architecture.png)
 <figcaption>큐브스 아키텍처, 출처: What is Qubes OS Intro</figcaption>
 
 각 큐브에는 해당 큐브가 실행되는 도메인을 쉽게 구분할 수 있도록 [색상 테두리](https://qubes-os.org/screenshots)가 있습니다. 예를 들어 은행 업무용 브라우저에는 특정 색상을, 신뢰할 수 없는 일반 브라우저에는 다른 색상을 사용할 수 있습니다.
 
-![색상 테두리](../assets/img/qubes/r4.0-xfce-three-domains-at-work.png)
+![색상 테두리](../assets/images-localized/qubes/r4.0-xfce-three-domains-at-work.png)
 <figcaption>큐브스 창 테두리, 출처: Qubes Screenshots</figcaption>
 
 ## 큐브스를 사용해야 하는 이유는 무엇인가요? { #why-should-i-use-qubes }

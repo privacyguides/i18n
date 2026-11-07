@@ -53,7 +53,7 @@ Para entrar en un sitio web, basta con tocar físicamente la clave de seguridad.
 El servicio enviará entonces la contraseña de un solo uso al servidor Yubico OTP para validación. Se incrementa un contador tanto en la llave como en el servidor de validación de Yubico. La OTP sólo puede utilizarse una vez, y cuando se produce una autenticación con éxito, el contador se incrementa, lo que impide la reutilización de la OTP. Yubico proporciona un [documento detallado](https://developers.yubico.com/OTP/OTPs_Explained.html) sobre el proceso.
 
 <figure markdown>
-  ![Yubico OTP](/assets/img/multi-factor-authentication/yubico-otp.png)
+  ![Yubico OTP](../assets/images-localized/multi-factor-authentication/yubico-otp.png)
 </figure>
 
 El uso de Yubico OTP tiene algunas ventajas y desventajas en comparación con TOTP.
@@ -71,7 +71,7 @@ U2F y FIDO2 se refieren al [Protocolo Cliente-Autenticador](https://en.wikipedia
 WebAuthn es la forma más segura y privada de autenticación de segundo factor. Si bien la experiencia de autenticación es similar a Yubico OTP, la clave no imprime una contraseña de una sola vez y se valida con un servidor de terceros. En su lugar, utiliza [criptografía de clave pública](https://es.wikipedia.org/wiki/Criptograf%C3%Ada_asim%C3%A9trica) para la autenticación.
 
 <figure markdown>
-  ![FIDO](../assets/img/multi-factor-authentication/fido.png)
+  ![FIDO](../assets/images-localized/multi-factor-authentication/fido.png)
 </figure>
 
 Cuando creas una cuenta, la clave pública se envía al servicio, luego cuando inicias sesión, el servicio requerirá que "firmes" algunos datos con tu clave privada. La ventaja de esto es que el servicio no almacena nunca los datos de la contraseña, por lo que no hay nada que un adversario pueda robar.

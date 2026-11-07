@@ -30,9 +30,9 @@ No se debe **nunca** utilizar el desenfoque para eliminar [texto en imágenes](h
 
 <div class="admonition recommendation" markdown>
 
-![MAT2 logo](assets/img/data-redaction/mat2.svg){ align=right }
+![MAT2 logo](assets/images/data-redaction/mat2.svg){ align=right }
 
-**MAT2** es un software gratuito y multiplataforma que permite eliminar metadatos de archivos de imagen, audio, torrent y documentos. Proporciona tanto una herramienta de línea de comandos como una interfaz gráfica de usuario a través de una extensión para [Dolphin](https://github.com/jvoisin/mat2/tree/master/dolphin), el gestor de archivos predeterminado de [KDE](https://kde.org).
+**MAT2** is free, cross-platform software which allows you to remove metadata from image, audio, torrent, and document file types. Proporciona tanto una herramienta de línea de comandos como una interfaz gráfica de usuario a través de una extensión para [Dolphin](https://github.com/jvoisin/mat2/tree/master/dolphin), el gestor de archivos predeterminado de [KDE](https://kde.org).
 
 [:octicons-repo-16: Repositorio](https://github.com/jvoisin/mat2#readme){ .md-button .md-button--primary }
 [:octicons-info-16:](https://github.com/jvoisin/mat2#how-to-use-mat2){ .card-link title="Documentación" }
@@ -54,9 +54,9 @@ No se debe **nunca** utilizar el desenfoque para eliminar [texto en imágenes](h
 
 <div class="admonition recommendation" markdown>
 
-![Metadata Cleaner logo](assets/img/data-redaction/metadatacleaner.svg){ align=right }
+![Metadata Cleaner logo](assets/images/data-redaction/metadatacleaner.svg){ align=right }
 
-**Metadata Cleaner** es una herramienta gráfica de eliminación de metadatos para Linux basada en [MAT2](https://github.com/jvoisin/mat2).
+**Metadata Cleaner** is a graphical metadata removal tool for Linux powered by [MAT2](https://github.com/jvoisin/mat2).
 
 [:octicons-home-16: Página Principal](https://metadatacleaner.gitlab.io/metadatacleaner/){ .md-button .md-button--primary }
 [:octicons-code-16:](https://gitlab.com/metadatacleaner/metadatacleaner/){ .card-link title="Código Fuente" }
@@ -75,9 +75,9 @@ No se debe **nunca** utilizar el desenfoque para eliminar [texto en imágenes](h
 
 <div class="admonition recommendation" markdown>
 
-![ExifEraser logo](assets/img/data-redaction/exiferaser.svg){ align=right }
+![ExifEraser logo](assets/images/data-redaction/exiferaser.svg){ align=right }
 
-**ExifEraser** es una moderna aplicación de borrado de metadatos de imagen sin permisos para Android.
+**ExifEraser** is a modern, permissionless image metadata erasing application for Android.
 
 Actualmente admite archivos JPEG, PNG y WebP.
 
@@ -126,9 +126,9 @@ Este atajo elimina metadatos como la ubicación, el modelo de dispositivo, el mo
 
 <div class="admonition recommendation" markdown>
 
-![ExifTool logo](assets/img/data-redaction/exiftool.png){ align=right }
+![ExifTool logo](assets/images/data-redaction/exiftool.png){ align=right }
 
-**ExifTool** es la biblioteca original de Perl y la aplicación de línea de comandos para leer, escribir y editar metainformación (Exif, IPTC, XMP, y más) en una amplia variedad de formatos de archivo (JPEG, TIFF, PNG, PDF, RAW, y más).
+**ExifTool** is the original Perl library and command-line application for reading, writing, and editing meta information (Exif, IPTC, XMP, and more) in a wide variety of file formats (JPEG, TIFF, PNG, PDF, RAW, and more).
 
 A menudo es un componente de otras aplicaciones de eliminación de Exif y se encuentra en la mayoría de los repositorios de distribución de Linux.
 

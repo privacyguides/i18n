@@ -32,10 +32,10 @@ description: 이 서비스는 오늘날 프라이버시에 있어 가장 큰 난
 
 <div class="admonition recommendation" markdown>
 
-![Privacy.com 로고](assets/img/financial-services/privacy_com.svg#only-light){ align=right }
-![Privacy.com 로고](assets/img/financial-services/privacy_com-dark.svg#only-dark){ align=right }
+![Privacy.com logo](assets/images/financial-services/privacy_com.svg#only-light){ align=right }
+![Privacy.com logo](assets/images/financial-services/privacy_com-dark.svg#only-dark){ align=right }
 
-**Privacy.com**의 무료 요금제에서는 매월 최대 12개의 가상 카드를 만들고, 카드별로 지출 한도를 설정하고, 카드를 즉시 정지할 수 있습니다. 유료 요금제에서는 매월 만들 수 있는 카드 수의 한도가 더 높습니다.
+**Privacy.com**'s free plan allows you to create up to 12 virtual cards per month, set spend limits on those cards, and shut off cards instantly. 유료 요금제에서는 매월 만들 수 있는 카드 수의 한도가 더 높습니다.
 
 [:octicons-home-16: 홈페이지](https://privacy.com){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://privacy.com/privacy-policy){ .card-link title="개인정보 처리방침" }
@@ -51,10 +51,10 @@ Privacy.com은 [기본적으로](https://support.privacy.com/hc/en-us/articles/3
 
 <div class="admonition recommendation" markdown>
 
-![마이수도 로고](assets/img/financial-services/mysudo.svg#only-light){ align=right }
-![마이수도 로고](assets/img/financial-services/mysudo-dark.svg#only-dark){ align=right }
+![MySudo logo](assets/images/financial-services/mysudo.svg#only-light){ align=right }
+![MySudo logo](assets/images/financial-services/mysudo-dark.svg#only-dark){ align=right }
 
-**마이수도**는 구매한 요금제에 따라 최대 9개의 가상 카드를 제공합니다. 유료 요금제에는 가상 전화번호와 이메일 주소처럼 프라이버시를 지키며 구매하는 데 유용한 기능도 추가로 포함되어 있지만, 이메일 별칭을 많이 사용한다면 일반적으로 다른 [이메일 별칭 서비스](email-aliasing.md)를 추천합니다.
+**MySudo** provides up to 9 virtual cards depending on the plan you purchase. 유료 요금제에는 가상 전화번호와 이메일 주소처럼 프라이버시를 지키며 구매하는 데 유용한 기능도 추가로 포함되어 있지만, 이메일 별칭을 많이 사용한다면 일반적으로 다른 [이메일 별칭 서비스](email-aliasing.md)를 추천합니다.
 
 [:octicons-home-16: 홈페이지](https://mysudo.com){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://anonyome.com/privacy-policy){ .card-link title="개인정보 처리방침" }
@@ -85,9 +85,9 @@ Privacy.com은 [기본적으로](https://support.privacy.com/hc/en-us/articles/3
 
 <div class="admonition recommendation" markdown>
 
-![코인카즈 로고](assets/img/financial-services/coincards.svg){ align=right }
+![Coincards logo](assets/images/financial-services/coincards.svg){ align=right }
 
-**코인카즈**에서는 매우 다양한 판매자의 기프트 카드를 구매할 수 있습니다. 홈페이지에서 서비스를 이용할 수 있는 국가의 전체 목록을 확인할 수 있습니다.
+**Coincards** allows you to purchase gift cards for a large variety of merchants. 홈페이지에서 서비스를 이용할 수 있는 국가의 전체 목록을 확인할 수 있습니다.
 
 [:octicons-home-16: 홈페이지](https://coincards.com){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://coincards.com/privacy-policy){ .card-link title="개인정보 처리방침" }

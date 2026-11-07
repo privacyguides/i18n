@@ -4,11 +4,11 @@ icon: simple/apple
 description: 蘋果公司使用 Unix 作業系統來開發macOS 支援自家的 Mac 電腦。
 ---
 
-**iOS** 和 **iPadOS** 是 Apple 分別為其 iPhone 和 iPad 產品開發的專有移動作業系統。 如果您擁有 Apple 行動裝置，可透過關閉某些內建遙測功能以及強化系統內建的隱私和安全設定來加強隱私。
+**iOS** 和 **iPadOS** 是 Apple 分別為其 iPhone 和 iPad 產品開發的專有移動作業系統。如果您擁有 Apple 行動裝置，可透過關閉某些內建遙測功能以及強化系統內建的隱私和安全設定來加強隱私。
 
 ## 隱私筆記
 
-iOS 設備因其強大的資料保護和對現代最佳作法的遵守而受到安全專家的讚揚。 然而，Apple 生態系統的限制性——尤其是行動裝置——仍然在很多方面阻礙了隱私。
+iOS 設備因其強大的資料保護和對現代最佳作法的遵守而受到安全專家的讚揚。然而，Apple 生態系統的限制性——尤其是行動裝置——仍然在很多方面阻礙了隱私。
 
 我們認為，與任何製造商的庫存 Android 設備相比，iOS 為大多數人提供了水平之上的隱私和安全保護。 However, you can achieve even higher standards of privacy with a [custom Android operating system](../android/distributions.md) like GrapheneOS, if you want or need to be completely independent of Apple or Google's cloud services.
 
@@ -38,21 +38,21 @@ Apple's [privacy policy regarding VPNs](https://apple.com/legal/privacy/data/en/
 
 ### iCloud
 
-Apple 產品的大多數隱私和安全問題與其雲服務有關，而不是其硬體或軟體。 當使用 iCloud 等 Apple 服務時，大部分資訊都儲存在他們的伺服器上以金鑰保護，且預設情況下 Apple 可以取用該金鑰。 您可以查看 [Apple 文檔](https://support.apple.com/HT202303)，了解哪些服務是端對端加密的。 任何列為“傳輸中”或“伺服器上”的內容都意味著 Apple 可以在未經您許可下訪問存取該資料。 這種訪問級別偶爾會被執法部門濫用，儘管您的資料在設備上還是安全加密的狀態。當然，Apple 與任何其他公司一樣容易遭受資料洩露。
+Apple 產品的大多數隱私和安全問題與其雲服務有關，而不是其硬體或軟體。當使用 iCloud 等 Apple 服務時，大部分資訊都儲存在他們的伺服器上以金鑰保護，且預設情況下 Apple 可以取用該金鑰。您可以查看 [Apple 文檔](https://support.apple.com/HT202303)，了解哪些服務是端對端加密的。任何列為“傳輸中”或“伺服器上”的內容都意味著 Apple 可以在未經您許可下訪問存取該資料。這種訪問級別偶爾會被執法部門濫用，儘管您的資料在設備上還是安全加密的狀態。當然，Apple 與任何其他公司一樣容易遭受資料洩露。
 
-因此，如果使用 iCloud，則應[啟用**進階資料保護**](https://support.apple.com/HT212520)。 這會使用儲存在您裝置上的的金鑰對 iCloud 數據加密（端對端加密）而不是放在 Apple 伺服器的金鑰，以便 iCloud 在發生數據洩露時得到保護，且不會被 Apple 發現。
+因此，如果使用 iCloud，則應[啟用**進階資料保護**](https://support.apple.com/HT212520)。這會使用儲存在您裝置上的的金鑰對 iCloud 數據加密（端對端加密）而不是放在 Apple 伺服器的金鑰，以便 iCloud 在發生數據洩露時得到保護，且不會被 Apple 發現。
 
-進階資料保護所用的加密法雖然強大，但[仍然*比不上*](https://discuss.privacyguides.net/t/apple-advances-user-security-with-powerful-new-data-protections/10778/4)其他[雲端服務](../cloud.md)的加密，特別是涉及到 iCloud Drive 時。 雖然我們強烈建議在使用 iCloud 時使用進階資料保護，但我們也建議考慮從更加[注重隱私的服務提供商](../tools.md)尋找 iCloud 的替代品，儘管 大多數人不太可能受到這些加密怪癖的影響。
+進階資料保護所用的加密法雖然強大，但[仍然*比不上*](https://discuss.privacyguides.net/t/apple-advances-user-security-with-powerful-new-data-protections/10778/4)其他[雲端服務](../cloud.md)的加密，特別是涉及到 iCloud Drive 時。雖然我們強烈建議在使用 iCloud 時使用進階資料保護，但我們也建議考慮從更加[注重隱私的服務提供商](../tools.md)尋找 iCloud 的替代品，儘管 大多數人不太可能受到這些加密怪癖的影響。
 
-您也可以先限制同步到 iCloud 的內容來保護您的資料。 在「 **設定** 」應用程式的頂部，如果您已登入 iCloud ，便會看到您的姓名和個人資料相片。 選擇該選項，然後選擇 **iCloud**，然後關閉您不想同步到 iCloud 的任何服務的交換機。 如果第三方應用程式與 iCloud 同步，您可能會看到列在「 **顯示全部** 」下的第三方應用程式，您可以在此處停用這些應用程式。
+您也可以先限制同步到 iCloud 的內容來保護您的資料。在「 **設定** 」應用程式的頂部，如果您已登入 iCloud ，便會看到您的姓名和個人資料相片。選擇該選項，然後選擇 **iCloud**，然後關閉您不想同步到 iCloud 的任何服務的交換機。如果第三方應用程式與 iCloud 同步，您可能會看到列在「 **顯示全部** 」下的第三方應用程式，您可以在此處停用這些應用程式。
 
 #### iCloud+
 
-付費 **iCloud+** 訂閱（任何 iCloud 儲存方案）附帶一些隱私保護功能。 雖然這些能為當前 iCloud 客戶提供足夠服務，但不建議通過 [VPN](../vpn.md) 購買 iCloud 方案，和將 [獨立電子郵件別名服務](../email-aliasing.md)僅用在這些功能。
+付費 **iCloud+** 訂閱（任何 iCloud 儲存方案）附帶一些隱私保護功能。雖然這些能為當前 iCloud 客戶提供足夠服務，但不建議通過 [VPN](../vpn.md) 購買 iCloud 方案，和將 [獨立電子郵件別名服務](../email-aliasing.md)僅用在這些功能。
 
-[**Private Relay**](https://apple.com/legal/privacy/data/en/icloud-relay) 是一項代理服務，可透過兩個伺服器轉發您裝置上所有 Safari 、DNS 查詢和未加密流量：一個由 Apple 擁有，另一個由第三方供應商（包括 Akamai、Cloudflare 和 Fastly）擁有。 理論上這應該可以防止鏈中的任何單一提供商（包括 Apple）完全了解您連線訪問的網站。 與 VPN 不同，Private Relay 不保護已加密的流量。
+[**Private Relay**](https://apple.com/legal/privacy/data/en/icloud-relay) 是一項代理服務，可透過兩個伺服器轉發您裝置上所有 Safari 、DNS 查詢和未加密流量：一個由 Apple 擁有，另一個由第三方供應商（包括 Akamai、Cloudflare 和 Fastly）擁有。理論上這應該可以防止鏈中的任何單一提供商（包括 Apple）完全了解您連線訪問的網站。與 VPN 不同，Private Relay 不保護已加密的流量。
 
-**Hide My Email** 是 Apple 電子郵件別名服務。 當您在網站或應用程式上*使用 Apple 登錄*時，您可以免費創建電子郵件別名，或者通過付費 iCloud+ 方案生成無數的別名。 Hide My Email 的優點是使用 `@icloud.com` 域作為其別名，與其他電子郵件別名服務相比，它可能不太可能被阻止，但不提供獨立服務提供的功能，例如 例如自動 PGP 加密或多郵箱支援。
+**Hide My Email** 是 Apple 電子郵件別名服務。當您在網站或應用程式上*使用 Apple 登錄*時，您可以免費創建電子郵件別名，或者通過付費 iCloud+ 方案生成無數的別名。 Hide My Email 的優點是使用 `@icloud.com` 域作為其別名，與其他電子郵件別名服務相比，它可能不太可能被阻止，但不提供獨立服務提供的功能，例如 例如自動 PGP 加密或多郵箱支援。
 
 #### 媒體 & 購買項目
 
@@ -62,14 +62,14 @@ At the top of the **Settings** app, you'll see your name and profile picture if 
 
 #### Find My
 
-**Find My(尋找我的iPhone)** 是一項服務，可讓您跟踪您的 Apple 設備並與朋友和家人分享您的位置。 若設備遭竊，它可以讓您從遠端進行抺除，從而防止小偷訪問您的資料。 在以下情況，「尋找我的」[位置資料為 E2EE](https://apple.com/legal/privacy/data/en/find-my)：
+**Find My(尋找我的iPhone)** 是一項服務，可讓您跟踪您的 Apple 設備並與朋友和家人分享您的位置。若設備遭竊，它可以讓您從遠端進行抺除，從而防止小偷訪問您的資料。在以下情況，「尋找我的」[位置資料為 E2EE](https://apple.com/legal/privacy/data/en/find-my)：
 
 - 您的位置已與家人或朋友共享，並且都使用 iOS 17 或更高版本。
 - 設備處於離線狀態，且由Find My 網路找到。
 
-設備有連線且遠程使用“尋找 iPhone”來定位您的設備，則位置資料不是 E2EE。 您必須決定權衡是否值得激活防盜鎖。
+設備有連線且遠程使用“尋找 iPhone”來定位您的設備，則位置資料不是 E2EE。您必須決定權衡是否值得激活防盜鎖。
 
-在 **設定** 應用程式的頂端，如果您登入了 Apple 帳戶，您會看到您的姓名和個人檔案圖片。 選取這項然後再選 **尋找**。 此處您可以選擇是否啟用或禁用“尋找設備”功能。
+在 **設定** 應用程式的頂端，如果您登入了 Apple 帳戶，您會看到您的姓名和個人檔案圖片。選取這項然後再選 **尋找**。此處您可以選擇是否啟用或禁用“尋找設備”功能。
 
 ### 設定
 
@@ -77,19 +77,19 @@ At the top of the **Settings** app, you'll see your name and profile picture if 
 
 #### 飛航模式
 
-啟用 **飛航模式** 會阻止您的手機與手機基地塔連線。 您仍然可以連接到 Wi-Fi 和藍牙，因此每當您連接到 Wi-Fi 時，您都可以開啟此設定。
+啟用 **飛航模式** 會阻止您的手機與手機基地塔連線。您仍然可以連接到 Wi-Fi 和藍牙，因此每當您連接到 Wi-Fi 時，您都可以開啟此設定。
 
 #### Wi-Fi
 
-您可以啟用[硬體位址隨機化](https://support.apple.com/en-us/102509#triswitch)，以保護您不會受到跨 Wi-Fi 網路追蹤，以及在同一個網路中長時間被追蹤。 在目前連線的網路中，點選 :material-information: 按鈕：
+您可以啟用[硬體位址隨機化](https://support.apple.com/en-us/102509#triswitch)，以保護您不會受到跨 Wi-Fi 網路追蹤，以及在同一個網路中長時間被追蹤。在目前連線的網路中，點選 :material-information: 按鈕：
 
 - [x] 將**專用 Wi-Fi 位址**設定為**固定**或**輪替**
 
-您也可以選擇 **限制 IP 位址追蹤**。 這與 iCloud Private Relay 類似，但僅影響與“已知跟踪器”的連接。 因為它只影響與潛在惡意伺服器的連接，所以啟用此設定應該沒問題，但如果不希望*任何*流量通過 Apple 的伺服器路由，則可把它關掉。
+您也可以選擇 **限制 IP 位址追蹤**。這與 iCloud Private Relay 類似，但僅影響與“已知跟踪器”的連接。因為它只影響與潛在惡意伺服器的連接，所以啟用此設定應該沒問題，但如果不希望*任何*流量通過 Apple 的伺服器路由，則可把它關掉。
 
 #### 藍牙
 
-**當您不使用藍牙時，應停用藍牙** ，因為它會增加您被攻擊的機會。 透過控制中心停用藍牙（或 Wi-Fi ）只會暫時停用：您必須在「設定」中關閉藍牙才能保持有效。
+**當您不使用藍牙時，應停用藍牙** ，因為它會增加您被攻擊的機會。透過控制中心停用藍牙（或 Wi-Fi ）只會暫時停用：您必須在「設定」中關閉藍牙才能保持有效。
 
 - [ ] 關閉 **藍牙**
 
@@ -97,7 +97,7 @@ Note that Bluetooth is automatically turned on after every system update.
 
 #### 一般設定
 
-預設情況中，您的 iPhone 裝置名稱將包含您的名字，所連接的網路中的其它人都可以看到該名稱。 所以應該將其更改為更一般的名稱，例如“iPhone”。 Select **About** → **Name** and enter the device name you prefer.
+預設情況中，您的 iPhone 裝置名稱將包含您的名字，所連接的網路中的其它人都可以看到該名稱。所以應該將其更改為更一般的名稱，例如“iPhone”。 Select **About** → **Name** and enter the device name you prefer.
 
 It is important to install software updates frequently to get the latest security fixes. You can enable automatic updates to keep your phone up-to-date without needing to constantly check for updates. 選擇**軟體更新**→**自動更新**：
 
@@ -107,13 +107,13 @@ It is important to install software updates frequently to get the latest securit
 
 - [x] 選取 **AirDrop**→**關閉接收**
 
-**AirPlay** 可讓您將內容從 iPhone 無縫串流到電視； 然而，您可能並不會想要一直維持這樣。 選擇 **AirPlay 與接續互通**→**自動 AirPlay**：
+**AirPlay** 可讓您將內容從 iPhone 無縫串流到電視； 然而，您可能並不會想要一直維持這樣。選擇 **AirPlay 與接續互通**→**自動 AirPlay**：
 
 - [x] 選擇 **永不** 或 **詢問**
 
-**背景 App 重新整理**可將應用程式在不使用時刷新其內容。 這可能會導致它們建立不必要的連接。 Turning this off can also save battery life, but may affect an app's ability to receive updated information, particularly weather and messaging apps.
+**背景 App 重新整理**可將應用程式在不使用時刷新其內容。這可能會導致它們建立不必要的連接。 Turning this off can also save battery life, but may affect an app's ability to receive updated information, particularly weather and messaging apps.
 
-選擇 **背景 App 重新整理** 並切掉無需在背景下繼續刷新的應用。 若不想讓任何 apps 在背景刷新，可再次選擇 **背景 App 重新整理** 並將其 **關閉**。
+選擇 **背景 App 重新整理** 並切掉無需在背景下繼續刷新的應用。若不想讓任何 apps 在背景刷新，可再次選擇 **背景 App 重新整理** 並將其 **關閉**。
 
 #### Apple Intelligence & Siri
 
@@ -137,9 +137,9 @@ You can also have it ask for confirmation every time if you leave ChatGPT integr
 
 在手機上設定強密碼是確保設備物理安全的最重要步驟。 You'll have to make trade-offs here between security and convenience: A longer password will be annoying to type in every time, but a shorter password or PIN will be easier to guess. 設定 Face ID 或 Touch ID 以及強密碼可以在可用性和安全性之間實現良好折衷。
 
-選擇**開啟密碼**或**更改密碼**→**密碼選項**→**自訂英數密碼**。 確認建立[安全密碼](../basics/passwords-overview.md)。
+選擇**開啟密碼**或**更改密碼**→**密碼選項**→**自訂英數密碼**。確認建立[安全密碼](../basics/passwords-overview.md)。
 
-如果想使用 Face ID 或 Touch ID，可以立即進行設定。 您的手機將使用之前設定的密碼作為後備密碼，以防生物識別驗證失敗。 生物識別解鎖方法主要是便利，雖然它們確實可以阻止監控攝像頭或身旁的人看到您所輸入的密碼。
+如果想使用 Face ID 或 Touch ID，可以立即進行設定。您的手機將使用之前設定的密碼作為後備密碼，以防生物識別驗證失敗。生物識別解鎖方法主要是便利，雖然它們確實可以阻止監控攝像頭或身旁的人看到您所輸入的密碼。
 
 如果使用生物識別技術，應該知道如何在緊急情況下快速關閉它們。 Holding down the [side button](https://support.apple.com/en-us/105103) and *either* volume button until you see the Slide to Power Off slider will disable biometrics, requiring your passcode to unlock. Your passcode will be required after your device restarts.
 
@@ -153,12 +153,12 @@ You can similarly disable biometrics by pressing the side button five times, or 
 
 **Allow Access When Locked** presents options for what you can allow when your phone is locked. Pick and choose which feature you want to disable to prevent unauthorized access if someone gets their hands on your phone. 禁用的這些選項越多，沒有密碼者可做的事情就越少，但對您來說也就更不方便。
 
-iPhone 可以抵禦暴力攻擊，在多次嘗試失敗後，需要等待很長時間； 然而，過去已經有一些漏洞可以繞開這個問題。 為了更加安全，可將手機設定為在 10 次密碼嘗試錯誤後自行擦除。
+iPhone 可以抵禦暴力攻擊，在多次嘗試失敗後，需要等待很長時間； 然而，過去已經有一些漏洞可以繞開這個問題。為了更加安全，可將手機設定為在 10 次密碼嘗試錯誤後自行擦除。
 
 <div class="admonition warning" markdown>
 <p class="admonition-title">警告</p>
 
-啟用此設置後，別人可以通過多次輸入錯誤密碼來故意擦除您的手機。 確保有適當備份，並且僅在有把握的情況下才啟用此設定。
+啟用此設置後，別人可以通過多次輸入錯誤密碼來故意擦除您的手機。確保有適當備份，並且僅在有把握的情況下才啟用此設定。
 
 </div>
 
@@ -166,23 +166,23 @@ iPhone 可以抵禦暴力攻擊，在多次嘗試失敗後，需要等待很長�
 
 #### 隱私 & 安全
 
-**定位服務**可用在“尋找”和“地圖”等功能。 如果不需要這些功能，可以禁用定位服務。 或者，可以在此處查看並選擇哪些應用程式可以使用您的位置資訊。 選擇 **定位服務**:
+**定位服務**可用在“尋找”和“地圖”等功能。如果不需要這些功能，可以禁用定位服務。或者，可以在此處查看並選擇哪些應用程式可以使用您的位置資訊。選擇 **定位服務**:
 
 - [ ] 關閉 **定位服務**
 
-在這些設定中，最近曾使用您位置的應用程式旁會出現紫色箭頭，而灰色箭頭則表示您的位置在過去 24 小時內曾被存取。 如果您決定開啟位置服務，Apple 預設會將其用於系統服務。 您可以在此檢視並挑選哪些服務可以使用您的位置資訊。 不過，如果您不想向 Apple 提交位置分析資料（他們會利用這些資料來改善 Apple Maps），您也可以在此停用該功能。 選擇**分析與改進功能**：
+在這些設定中，最近曾使用您位置的應用程式旁會出現紫色箭頭，而灰色箭頭則表示您的位置在過去 24 小時內曾被存取。如果您決定開啟位置服務，Apple 預設會將其用於系統服務。您可以在此檢視並挑選哪些服務可以使用您的位置資訊。不過，如果您不想向 Apple 提交位置分析資料（他們會利用這些資料來改善 Apple Maps），您也可以在此停用該功能。選擇**分析與改進功能**：
 
 - [ ] 關閉 **分享 iPhone 分析**
 - [ ] Turn off **Routing & Traffic**
 - [ ] Turn off **Improve Maps**
 
-您在此處決定是否讓 apps **追蹤** 活動。 關閉此功能可禁止所有應用程式利用手機的廣告 ID 進行跟踪。 選擇 **追蹤**:
+您在此處決定是否讓 apps **追蹤** 活動。關閉此功能可禁止所有應用程式利用手機的廣告 ID 進行跟踪。選擇 **追蹤**:
 
 - [ ] 關閉 **允許 App 發出追蹤請求**
 
 如果使用者未滿 18 歲，該選項預設停用且無法變更。
 
-如果不想加入，請關閉 **感應 & 使用資料研究** 。 選擇 **感應 & 使用資料研究**:
+如果不想加入，請關閉 **感應 & 使用資料研究** 。選擇 **感應 & 使用資料研究**:
 
 - [ ] 關閉 **感應器 & 使用資料收集**
 
@@ -190,11 +190,11 @@ iPhone 可以抵禦暴力攻擊，在多次嘗試失敗後，需要等待很長�
 
 You should disable analytics if you don't wish to send usage data to Apple. Select **Analytics & Improvements** and unselect the type(s) of analytics that you don't want to send to Apple.
 
-關閉 **個人化廣告** 如不願加入針對式行銷。 選擇 **Apple 廣告**:
+關閉 **個人化廣告** 如不願加入針對式行銷。選擇 **Apple 廣告**:
 
 - [ ] 關閉 **個人化廣告**
 
-**App 隱私權報告**為內建工具，可讓您查看應用程式使用哪些權限。 選取 **App 隱私權報告**:
+**App 隱私權報告**為內建工具，可讓您查看應用程式使用哪些權限。選取 **App 隱私權報告**:
 
 - [x] 選擇 **開啟 App 隱私權報告**
 
@@ -230,11 +230,11 @@ When an app prompts you for access to your device's photo library, iOS provides 
 
 Rather than allow an app to access all the photos on your device, you can allow it to only access whichever photos you choose by tapping the "Select Photos..." option in the permission dialog. 您可以隨時瀏覽**設定**→**隱私權與安全性**→**照片**，以變更照片存取權限。
 
-![Photo Permissions](../assets/img/ios/photo-permissions-light.png#only-light) ![Photo Permissions](../assets/img/ios/photo-permissions-dark.png#only-dark)
+![Photo Permissions](../assets/images-localized/ios/photo-permissions-light.png#only-light) ![Photo Permissions](../assets/images-localized/ios/photo-permissions-dark.png#only-dark)
 
 **Add Photos Only** is a permission that only gives an app the ability to download photos to the photo library. Not all apps which request photo library access provide this option.
 
-![Private Access](../assets/img/ios/private-access-light.png#only-light) ![Private Access](../assets/img/ios/private-access-dark.png#only-dark)
+![Private Access](../assets/images-localized/ios/private-access-light.png#only-light) ![Private Access](../assets/images-localized/ios/private-access-dark.png#only-dark)
 
 Some apps also support **Private Access**, which functions similarly to the **Limited Access** permission. However, photos shared to apps using Private Access include their location by default. We recommend unchecking this setting if you do not [remove photo metadata](../data-redaction.md) beforehand.
 
@@ -242,7 +242,7 @@ Some apps also support **Private Access**, which functions similarly to the **Li
 
 Similarly, rather than allow an app to access all the contacts saved on your device, you can allow it to only access whichever contacts you choose. You can change contact access permissions at any time by navigating to **Settings** → **Privacy & Security** → **Contacts**.
 
-![Contact Permissions](../assets/img/ios/contact-permissions-light.png#only-light) ![Contact Permissions](../assets/img/ios/contact-permissions-dark.png#only-dark)
+![Contact Permissions](../assets/images-localized/ios/contact-permissions-light.png#only-light) ![Contact Permissions](../assets/images-localized/ios/contact-permissions-dark.png#only-dark)
 
 ### Require Biometrics and Hide Apps
 
@@ -291,17 +291,17 @@ Our warning [against blurring text](../data-redaction.md) also applies here, so 
 
 ### 避免 iOS越獄
 
-iPhone 越獄會破壞其安全性更容易受到攻擊。 運行不可信任的第三方軟體可能會導致設備感染惡意軟體。
+iPhone 越獄會破壞其安全性更容易受到攻擊。運行不可信任的第三方軟體可能會導致設備感染惡意軟體。
 
 ### iOS Betas
 
-Apple 會為那些希望幫助查找和報告錯誤的人先提供 iOS 測試版。 不建議在手機上安裝測試版軟體。 Beta 版本不夠穩定，可能存在未被發現的安全漏洞。
+Apple 會為那些希望幫助查找和報告錯誤的人先提供 iOS 測試版。不建議在手機上安裝測試版軟體。 Beta 版本不夠穩定，可能存在未被發現的安全漏洞。
 
 ## 安全重點
 
 ### Before First Unlock(初次解鎖之前)
 
-If your threat model includes [:material-target-account: Targeted Attacks](../basics/common-threats.md#attacks-against-specific-individuals ""){.pg-red} that involve forensic tools, and you want to minimize the chance of exploits being used to access your phone, you should restart your device frequently. 重啟後**解鎖設備**之前的狀態稱為“首次解鎖之前”(BFU) ，當設備處於該狀態時，取證鑑識工具[明顯更加困難](https://belkasoft.com/checkm8_glossary)利用漏洞訪問您的資料。 此 BFU 狀態允許您接收電話、簡訊和鬧鐘通知，但設備上的大部分資料為加密且無法訪問。 這可能不切實際，因此請考慮權衡這個作法對於自身情況是否有意義。
+If your threat model includes [:material-target-account: Targeted Attacks](../basics/common-threats.md#attacks-against-specific-individuals ""){.pg-red} that involve forensic tools, and you want to minimize the chance of exploits being used to access your phone, you should restart your device frequently. 重啟後**解鎖設備**之前的狀態稱為“首次解鎖之前”(BFU) ，當設備處於該狀態時，取證鑑識工具[明顯更加困難](https://belkasoft.com/checkm8_glossary)利用漏洞訪問您的資料。此 BFU 狀態允許您接收電話、簡訊和鬧鐘通知，但設備上的大部分資料為加密且無法訪問。這可能不切實際，因此請考慮權衡這個作法對於自身情況是否有意義。
 
 iPhones [automatically reboot](https://support.apple.com/guide/security/protecting-user-data-in-the-face-of-attack-secf5549a4f5/1/web/1#:~:text=On%20an%20iPhone%20or%20iPad%20with%20iOS%2018%20and%20iPadOS%2018%20or%20later%2C%20a%20new%20security%20protection%20will%20restart%20devices%20if%20they%20remain%20locked%20for%20a%20prolonged%20period%20of%20time.) if they're not unlocked after a period of time.
 

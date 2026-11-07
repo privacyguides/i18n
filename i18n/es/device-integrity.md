@@ -69,8 +69,8 @@ Estas herramientas pueden desencadenar falsos positivos. Si alguna de estas herr
 
 <div class="admonition recommendation" markdown>
 
-![MVT logo](assets/img/device-integrity/mvt.webp#only-light){ align=right }
-![MVT logo](assets/img/device-integrity/mvt-dark.png#only-dark){ align=right }
+![MVT logo](assets/images/device-integrity/mvt.webp#only-light){ align=right }
+![MVT logo](assets/images/device-integrity/mvt-dark.png#only-dark){ align=right }
 
 **Mobile Verification Toolkit** (**MVT**) es una colección de herramientas que simplifican y automatizan el proceso de escanear dispositivos móviles en busca de potenciales rastros de ataques o infecciones por campañas conocidas de espionaje. MVT fue desarrollado por Amnistía Internacional y se publicó en 2021 en el contexto del [Proyecto Pegasus](https://forbiddenstories.org/about-the-pegasus-project).
 
@@ -112,7 +112,7 @@ MVT te permite realizar escaneos/análisis más profundos si tu dispositivo tien
 
 <div class="admonition recommendation" markdown>
 
-![logo de iMazing](assets/img/device-integrity/imazing.png){ align=right }
+![iMazing logo](assets/images/device-integrity/imazing.png){ align=right }
 
 **iMazing** proporciona una herramienta gratuita para el análisis de programas de espionaje, disponible para dispositivos iOS, que actúa como una interfaz gráfica para [MVT](#mobile-verification-toolkit). Esta puede ser más fácil de ejecutar, a comparación del propio MVT, que es una herramienta de línea de comandos diseñada para tecnólogos e investigadores forenses.
 
@@ -152,8 +152,8 @@ El uso de estas aplicaciones no basta para determinar que un dispositivo está "
 
 <div class="admonition recommendation" markdown>
 
-![Logo de Auditor](assets/img/device-integrity/auditor.svg#only-light){ align=right }
-![Logo de Auditor](assets/img/device-integrity/auditor-dark.svg#only-dark){ align=right }
+![Auditor logo](assets/images/device-integrity/auditor.svg#only-light){ align=right }
+![Auditor logo](assets/images/device-integrity/auditor-dark.svg#only-dark){ align=right }
 
 **Auditor** es una aplicación que aprovecha las funciones de seguridad del hardware para proporcionar un monitoreo de la integridad del dispositivo, al validar de manera activa la identidad de este y la integridad del sistema operativo. Actualmente, esta sólo funciona con GrapheneOS o el sistema operativo en limpio para los [dispositivos compatibles](https://attestation.app/about#device-support).
 

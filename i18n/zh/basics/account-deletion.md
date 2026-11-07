@@ -13,7 +13,7 @@ description: 人们很容易积累大量网络账号。以下是一些关于如�
 如果您有一个贯穿整个数字生活来使用的密码管理器，这个部分将非常简单。通常，它们会内置检测功能，用于查明您的凭据是否在数据泄露事件中遭到泄露——例如 Bitwarden[的“数据泄露报告”](https://bitwarden.com/blog/have-you-been-pwned)。
 
 <figure markdown>
-  ![Bitwarden's Data Breach Report feature](../assets/img/account-deletion/exposed_passwords.png)
+  ![Bitwarden's Data Breach Report feature](../assets/images-localized/account-deletion/exposed_passwords.png)
 </figure>
 
 即使你之前从未明确使用过密码管理器，也有可能在不知不觉中使用过浏览器（[Firefox](https://support.mozilla.org/kb/password-manager-remember-delete-edit-logins)、[Chrome](https://passwords.google.com/intro)、[Edge](https://support.microsoft.com/microsoft-edge/save-or-forget-passwords-in-microsoft-edge-b4beecb0-f2a8-1ca0-f26f-9ec247a3f336)）或手机（原生安卓系统的[Google 密码管理器](https://passwords.google.com/intro)、iOS 系统的[“密码”应用](https://support.apple.com/HT211146)）中内置的密码管理功能。

@@ -38,8 +38,8 @@ Deze providers ondersteunen OpenPGP encryptie/decryptie en de [Web Key Directory
 
 <div class="grid cards" markdown>
 
-- ![Proton Mail logo](assets/img/email/protonmail.svg){ .twemoji } [Proton Mail](#proton-mail)
-- ![Mailbox Mail logo](assets/img/email/mailbox-mail.svg){ .twemoji } [Mailbox Mail](#mailbox-mail)
+- ![Proton Mail logo](assets/images/email/protonmail.svg){ .twemoji } [Proton Mail](#proton-mail)
+- ![Mailbox Mail logo](assets/images/email/mailbox-mail.svg){ .twemoji } [Mailbox Mail](#mailbox-mail)
 
 </div>
 
@@ -58,9 +58,9 @@ OpenPGP biedt ook geen ondersteuning voor forward secrecy, wat betekent dat als 
 
 <div class="admonition recommendation" markdown>
 
-![Proton Mail logo](assets/img/email/protonmail.svg){ align=right }
+![Proton Mail logo](assets/images/email/protonmail.svg){ align=right }
 
-**Proton Mail** is een e-maildienst met focus op privacy, encryptie, veiligheid en gebruiksgemak. Ze zijn actief sinds 2013. Proton AG is gevestigd in Genève, Zwitserland.
+**Proton Mail** is an email service with a focus on privacy, encryption, security, and ease of use. Ze zijn actief sinds 2013. Proton AG is gevestigd in Genève, Zwitserland.
 
 Het Proton Free plan bevat 500 MB aan opslagruimte voor e-mail, die je gratis kunt verhogen tot 1 GB.
 
@@ -141,9 +141,9 @@ Proton Mail's [Unlimited](https://proton.me/support/proton-plans#proton-unlimite
 
 <div class="admonition recommendation" markdown>
 
-![Mailbox Mail logo](assets/img/email/mailbox-mail.svg){ align=right }
+![Mailbox Mail logo](assets/images/email/mailbox-mail.svg){ align=right }
 
-**Mailbox Mail** (voorheen *Mailbox.org*) is een e-mailservice met de nadruk op veiligheid, reclamevrij en aangedreven door 100% duurzame energie. Ze zijn sinds 2014 in bedrijf. Mailbox Mail is gevestigd in Berlijn, Duitsland.
+**Mailbox Mail** (formerly *Mailbox.org*) is an email service with a focus on being secure, ad-free, and powered by 100% eco-friendly energy. Ze zijn sinds 2014 in bedrijf. Mailbox Mail is gevestigd in Berlijn, Duitsland.
 
 Accounts beginnen met 2 GB opslagruimte, die naar behoefte kan worden uitgebreid.
 
@@ -202,7 +202,7 @@ These providers encrypt your emails in a way that only you can read them later, 
 
 <div class="grid cards" markdown>
 
-- ![Tuta logo](assets/img/email/tuta.svg#only-light){ .twemoji loading=lazy }![Tuta logo](assets/img/email/tuta-dark.svg#only-dark){ .twemoji loading=lazy } [Tuta](#tuta)
+- ![Tuta logo](assets/images/email/tuta.svg#only-light){ .twemoji loading=lazy }![Tuta logo](assets/images/email/tuta-dark.svg#only-dark){ .twemoji loading=lazy } [Tuta](#tuta)
 
 </div>
 
@@ -210,10 +210,10 @@ These providers encrypt your emails in a way that only you can read them later, 
 
 <div class="admonition recommendation" markdown>
 
-![Tuta logo](assets/img/email/tuta.svg#only-light){ align=right }
-![Tuta logo](assets/img/email/tuta-dark.svg#only-dark){ align=right }
+![Tuta logo](assets/images/email/tuta.svg#only-light){ align=right }
+![Tuta logo](assets/images/email/tuta-dark.svg#only-dark){ align=right }
 
-**Tuta** (voorheen *Tutanota*) is een e-mailservice met een focus op beveiliging en privacy door het gebruik van encryptie. Tuta bestaat sinds 2011 en is gevestigd in Hannover, Duitsland.
+**Tuta** (formerly *Tutanota*) is an email service with a focus on security and privacy through the use of encryption. Tuta bestaat sinds 2011 en is gevestigd in Hannover, Duitsland.
 
 Gratis accounts beginnen met 1 GB opslagruimte.
 

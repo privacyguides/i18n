@@ -21,7 +21,7 @@ cover: dns.webp
 
 <div class="admonition recommendation" markdown>
 
-![Pi-hole 圖示](../assets/img/self-hosting/pi-hole.svg){ align=right }
+![Pi-hole logo](../assets/images/self-hosting/pi-hole.svg){ align=right }
 
 **Pi-hole** 是一套開放原始碼的 DNS 天坑，提供友善的網頁介面，讓您可以看到統計資訊，並管理要封鎖的內容。 Pi-hole 設計應用在 Raspberry Pi ，但它並不限於這種硬體。
 
@@ -37,7 +37,7 @@ cover: dns.webp
 
 <div class="admonition recommendation" markdown>
 
-![AdGuard Home 圖示](../assets/img/self-hosting/adguard-home.svg){ align=right }
+![AdGuard Home logo](../assets/images/self-hosting/adguard-home.svg){ align=right }
 
 **AdGuard Home** 是一套開放原始碼的 DNS 天坑，提供精緻的網頁介面，讓您可以看到統計資訊，並管理要封鎖的內容。
 

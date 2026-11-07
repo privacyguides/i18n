@@ -19,7 +19,7 @@ En ce qui concerne les réseaux d'anonymisation, nous tenons à souligner que [T
 
 <div class="admonition recommendation" markdown>
 
-![Logo Tor](assets/img/self-contained-networks/tor.svg){ align=right }
+![Tor logo](assets/images/self-contained-networks/tor.svg){ align=right }
 
 Le réseau **Tor** est un groupe de serveurs gérés par des bénévoles qui vous permet de vous connecter gratuitement et d'améliorer votre confidentialité et votre sécurité sur Internet. Les particuliers et les organisations peuvent également partager des informations sur le réseau Tor avec des "services cachés .onion" sans compromettre leur vie privée. Le trafic Tor étant difficile à bloquer et à tracer, Tor est un moyen efficace de contournement de la [:material-close-outline: Censure](basics/common-threats.md#avoiding-censorship){ .pg-blue-gray }.
 
@@ -48,7 +48,7 @@ Vous pouvez essayer de vous connecter à _Privacy Guides_ via Tor à [xoe4vn5uwd
 
 <div class="admonition recommendation" markdown>
 
-![Logo de Orbot](assets/img/self-contained-networks/orbot.svg){ align=right }
+![Orbot logo](assets/images/self-contained-networks/orbot.svg){ align=right }
 
 **Orbot** est une application mobile qui permet de rediriger le trafic de n'importe quelle application sur votre appareil via le réseau Tor.
 
@@ -89,8 +89,8 @@ Sur iOS, certaines limitations de Orbot sont parfois la cause de crash ou de fui
 
 <div class="admonition recommendation" markdown>
 
-![Logo de Snowflake](assets/img/self-contained-networks/snowflake.svg#only-light){ align=right }
-![Logo de Snowflake](assets/img/self-contained-networks/snowflake-dark.svg#only-dark){ align=right }
+![Snowflake logo](assets/images/self-contained-networks/snowflake.svg#only-light){ align=right }
+![Snowflake logo](assets/images/self-contained-networks/snowflake-dark.svg#only-dark){ align=right }
 
 **Snowflake** vous permet de donner de la bande passante au projet Tor en hébergant un "proxy Snowflake" dans votre navigateur.
 
@@ -117,8 +117,8 @@ Utiliser un proxy Snowflake présente généralement peu de risques, encore moin
 
 <div class="admonition recommendation" markdown>
 
-![logo I2P](assets/img/self-contained-networks/i2p.svg#only-light){ align=right }
-![logo I2P](assets/img/self-contained-networks/i2p-dark.svg#only-dark){ align=right }
+![I2P logo](assets/images/self-contained-networks/i2p.svg#only-light){ align=right }
+![I2P logo](assets/images/self-contained-networks/i2p-dark.svg#only-dark){ align=right }
 
 **I2P** est une couche réseau qui chiffre vos connexions et les achemine via un réseau d'ordinateurs installés dans le monde entier. Elle vise principalement à créer un réseau alternatif de protection de la vie privée plutôt qu'à rendre anonymes les connexions internet ordinaires.
 

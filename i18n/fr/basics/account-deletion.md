@@ -13,7 +13,7 @@ Au fil du temps, il est facile d'accumuler un certain nombre de comptes en ligne
 Si vous disposez d'un gestionnaire de mots de passe que vous avez utilisé pendant toute votre vie numérique, cette partie sera très facile. Souvent, ils incluent une fonctionnalité intégrée pour détecter si vos informations d'identification ont été exposées dans une fuite de données, comme le [Rapport de brèche de données](https://bitwarden.com/blog/have-you-been-pwned) de Bitwarden.
 
 <figure markdown>
-  ![Fonctionnalité de recherche de fuite de données par Bitwarden](../assets/img/account-deletion/exposed_passwords.png)
+  ![Bitwarden's Data Breach Report feature](../assets/images-localized/account-deletion/exposed_passwords.png)
 </figure>
 
 Même si vous n'avez jamais utilisé explicitement de gestionnaire de mots de passe, il est possible que vous ayez déjà utilisé celui intégré à votre navigateur ([Firefox](https://support.mozilla.org/kb/password-manager-remember-delete-edit-logins), [Chrome](https://passwords.google.com/intro), [Edge](https://support.microsoft.com/microsoft-edge/save-or-forget-passwords-in-microsoft-edge-b4beecb0-f2a8-1ca0-f26f-9ec247a3f336)) ou à votre téléphone ([Google](https://passwords.google.com/intro) sur Android de base, [Passwords](https://support.apple.com/HT211146) sur iOS) sans même vous en rendre compte.

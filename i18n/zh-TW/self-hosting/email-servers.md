@@ -19,7 +19,7 @@ cover: email.webp
 
 <div class="admonition recommendation" markdown>
 
-![Stalwart 圖示](../assets/img/self-hosting/stalwart.svg){ align=right }
+![Stalwart logo](../assets/images/self-hosting/stalwart.svg){ align=right }
 
 **Stalwart** 是用 Rust 寫成的新款郵件伺服器，除了標準的 IMAP、POP3 和 SMTP 外，還支援 JMAP。它有多種設定選項，而且預設設定在安全性和功能性方面都非常合理，很容易立即使用。它還有網頁管理介面，支援 TOTP 2FA，並允許您輸入 PGP 公鑰以加密**所有**來信。
 
@@ -40,7 +40,7 @@ Stalwart **沒有**內建的網頁郵件功能，因此您需要使用[電子郵
 
 <div class="admonition recommendation" markdown>
 
-![Mailcow 圖示](../assets/img/self-hosting/mailcow.svg){ align=right }
+![Mailcow logo](../assets/images/self-hosting/mailcow.svg){ align=right }
 
 **Mailcow** 是一套進階的郵件伺服器，非常適合有 Linux 經驗的人使用。它透過 Docker 容器提供您所需的一切：支援 DKIM 的郵件伺服器、防毒與垃圾郵件監控、透過 SOGo 提供網頁郵件與 ActiveSync，以及支援 2FA 的網頁管理系統。
 
@@ -55,7 +55,7 @@ Stalwart **沒有**內建的網頁郵件功能，因此您需要使用[電子郵
 
 <div class="admonition recommendation" markdown>
 
-![Mail-in-a-Box 圖示](../assets/img/self-hosting/mail-in-a-box.svg){ align=right }
+![Mail-in-a-Box logo](../assets/images/self-hosting/mail-in-a-box.svg){ align=right }
 
 **Mail-in-a-Box** 是在 Ubuntu 上部署郵件伺服器的自動設定指令碼。它的目標是讓人們能更容易自行架設郵件伺服器。
 

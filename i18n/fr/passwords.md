@@ -14,7 +14,7 @@ schema:
     "@context": http://schema.org
     "@type": SoftwareApplication
     name: Bitwarden
-    image: /assets/img/password-management/bitwarden.svg
+    image: /assets/images/password-management/bitwarden.svg
     url: https://bitwarden.com
     sameAs: https://fr.wikipedia.org/wiki/Bitwarden
     applicationCategory: Gestionnaire de mots de passe
@@ -32,7 +32,7 @@ schema:
     "@context": http://schema.org
     "@type": SoftwareApplication
     name: 1Password
-    image: /assets/img/password-management/1password.svg
+    image: /assets/images/password-management/1password.svg
     url: https://1password.com/fr
     sameAs: https://fr.wikipedia.org/wiki/1Password
     applicationCategory: Gestionnaire de mots de passe
@@ -50,7 +50,7 @@ schema:
     "@context": http://schema.org
     "@type": SoftwareApplication
     name: Proton Pass
-    image: /assets/img/password-management/protonpass.svg
+    image: /assets/images/password-management/protonpass.svg
     url: https://proton.me/pass
     applicationCategory: Gestionnaire de mots de passe
     operatingSystem:
@@ -64,7 +64,7 @@ schema:
     "@context": http://schema.org
     "@type": SoftwareApplication
     name: Psono
-    image: /assets/img/password-management/psono.svg
+    image: /assets/images/password-management/psono.svg
     url: https://psono.com
     applicationCategory: Gestionnaire de mots de passe
     operatingSystem:
@@ -78,7 +78,7 @@ schema:
     "@context": http://schema.org
     "@type": SoftwareApplication
     name: KeePassXC
-    image: /assets/img/password-management/keepassxc.svg
+    image: /assets/images/password-management/keepassxc.svg
     url: https://keepassxc.org
     sameAs: https://fr.wikipedia.org/wiki/KeePassXC
     applicationCategory: Gestionnaire de mots de passe
@@ -94,7 +94,7 @@ schema:
     "@context": http://schema.org
     "@type": SoftwareApplication
     name: KeePassDX
-    image: /assets/img/password-management/keepassdx.svg
+    image: /assets/images/password-management/keepassdx.svg
     url: https://keepassdx.com
     applicationCategory: Gestionnaire de mots de passe
     operatingSystem: Android
@@ -106,7 +106,7 @@ schema:
     "@context": http://schema.org
     "@type": SoftwareApplication
     name: Gopass
-    image: /assets/img/password-management/gopass.svg
+    image: /assets/images/password-management/gopass.svg
     url: https://gopass.pw
     applicationCategory: Gestionnaire de mots de passe
     operatingSystem:
@@ -147,9 +147,9 @@ Ces gestionnaires de mots de passe synchronisent vos mots de passe sur un serveu
 
 <div class="admonition recommendation" markdown>
 
-![Logo de Bitwarden](assets/img/password-management/bitwarden.svg){ align=right }
+![Bitwarden logo](assets/images/password-management/bitwarden.svg){ align=right }
 
-**Bitwarden** est un gestionnaire de mots de passe et de passkeys libre et open-source. Il peut être utilisé par les particuliers, les collectifs ou les entreprises pour résoudre les problèmes de gestion des mots de passe. Bitwarden est l'une des solutions les plus simples et les plus sûres pour stocker tous vos identifiants et mots de passe tout en les synchronisant entre tous vos appareils.
+**Bitwarden** is a free and open-source password and passkey manager. Il peut être utilisé par les particuliers, les collectifs ou les entreprises pour résoudre les problèmes de gestion des mots de passe. Bitwarden est l'une des solutions les plus simples et les plus sûres pour stocker tous vos identifiants et mots de passe tout en les synchronisant entre tous vos appareils.
 
 [:octicons-home-16: Page d'Accueil](https://bitwarden.com){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://bitwarden.com/privacy){ .card-link title="Politique de Confidentialité" }
@@ -185,9 +185,9 @@ Le code côté serveur de Bitwarden est [open source](https://github.com/bitward
 
 <div class="admonition recommendation" markdown>
 
-![Logo de Proton Pass](assets/img/password-management/protonpass.svg){ align=right }
+![Proton Pass logo](assets/images/password-management/protonpass.svg){ align=right }
 
-**Proton Pass** est un gestionnaire de mot de passe open-source chiffré de bout-en-bout développé par la même équipe que [Proton Mail](email.md#proton-mail). Il vous permet de stocker de façon sécurisée vos informations de connexion, de générer des alias mail uniques et il est compatible avec les passkeys.
+**Proton Pass** is an open-source, end-to-end encrypted password manager developed by Proton, the team behind [Proton Mail](email.md#proton-mail). Il vous permet de stocker de façon sécurisée vos informations de connexion, de générer des alias mail uniques et il est compatible avec les passkeys.
 
 [:octicons-home-16: Page d'Accueil](https://proton.me/pass){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://proton.me/pass/privacy-policy){ .card-link title="Politique de Confidentialité" }
@@ -221,9 +221,9 @@ Toutes les failles détectées ont été résolues rapidement après la publicat
 
 <div class="admonition recommendation" markdown>
 
-[Logo de 1Password](assets/img/password-management/1password.svg){ align=right }
+![1Password logo](assets/images/password-management/1password.svg){ align=right }
 
-**1Password** est un gestionnaire de mots de passe qui met l'accent sur la sécurité et la simplicité d'utilisation. Il vous permet de stocker vos mots de passe, cartes bancaires, passkeys, licences de logiciel et tout autres informations sensibles dans un coffre-fort numérique sécurisé. Vous pouvez payer des [frais mensuels](https://1password.com/sign-up) pour héberger votre coffre-fort sur les serveurs de 1Password.
+**1Password** is a password manager with a strong focus on security and ease-of-use that allows you to store passwords, passkeys, credit cards, software licenses, and any other sensitive information in a secure digital vault. Vous pouvez payer des [frais mensuels](https://1password.com/sign-up) pour héberger votre coffre-fort sur les serveurs de 1Password.
 
 1Password fait régulièrement l'objet [d'audits](https://support.1password.com/security-assessments) et propose un excellent service client. 1Password est un logiciel propriétaire ; cependant, la sécurité du produit est documentée de manière approfondie dans leur [livre blanc sur la sécurité](https://1passwordstatic.com/files/security/1password-white-paper.pdf).
 
@@ -257,9 +257,9 @@ Votre coffre-fort 1Password est sécurisé à la fois par votre mot de passe pri
 
 <div class="admonition recommendation" markdown>
 
-![Logo Psono](assets/img/password-management/psono.svg){ align=right }
+![Psono logo](assets/images/password-management/psono.svg){ align=right }
 
-**Psono** est un gestionnaire de mots de passe libre et open source allemand, qui met l'accent sur la gestion des mots de passe pour les équipes. Psono vous permet de partager vos mots de passe, fichiers, marques page et vos mails de façon sécurisée. Tous les secrets sont protégés par un mot de passe principal.
+**Psono** is a free and open-source password manager from Germany, with a focus on password management for teams. Psono vous permet de partager vos mots de passe, fichiers, marques page et vos mails de façon sécurisée. Tous les secrets sont protégés par un mot de passe principal.
 
 [:octicons-home-16: Page d'accueil](https://psono.com){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://psono.com/privacy-policy){ .card-link title="Politique de confidentialité" }
@@ -310,9 +310,9 @@ Ces options vous permettent de gérer localement une base de données de mots de
 
 <div class="admonition recommendation" markdown>
 
-![Logo de KeePassXC](assets/img/password-management/keepassxc.svg){ align=right }
+![KeePassXC logo](assets/images/password-management/keepassxc.svg){ align=right }
 
-**KeePassXC** est un fork communautaire de KeePassX, un portage natif multiplateforme de KeePass Password Safe, dans le but de l'étendre et de l'améliorer avec de nouvelles fonctionnalités et des corrections de bugs afin de fournir un gestionnaire de mots de passe open-source riche en fonctionnalités, multiplateforme et moderne.
+**KeePassXC** is a community fork of KeePassX, a native cross-platform port of KeePass Password Safe, with the goal of extending and improving it with new features and bug fixes to provide a feature-rich, cross-platform, and modern open-source password manager.
 
 [:octicons-home-16: Page d'accueil](https://keepassxc.org){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://keepassxc.org/privacy){ .card-link title="Politique de confidentialité" }
@@ -340,9 +340,9 @@ KeePassXC stocke ses données d'exportation sous forme de fichiers [CSV](https:/
 
 <div class="admonition recommendation" markdown>
 
-![Logo de KeePassDX](assets/img/password-management/keepassdx.svg){ align=right }
+![KeePassDX logo](assets/images/password-management/keepassdx.svg){ align=right }
 
-**KeePassDX** est un gestionnaire de mots de passe léger pour Android ; il permet de modifier des données chiffrées dans un seul fichier au format KeePass et de remplir les formulaires de manière sécurisée.
+**KeePassDX** is a lightweight password manager for Android; it allows for editing encrypted data in a single file in KeePass format and can fill in forms securely.
 
 [:octicons-home-16: Page d'accueil](https://keepassdx.com){ .md-button .md-button--primary }
 [:octicons-info-16:](https://github.com/Kunzisoft/KeePassDX/wiki){ .card-link title=Documentation}
@@ -365,9 +365,9 @@ La [version pro](https://play.google.com/store/apps/details?id=com.kunzisoft.kee
 
 <div class="admonition recommendation" markdown>
 
-![Logo de KeePassium](assets/img/password-management/keepassium.svg){ align=right }
+![KeePassium logo](assets/images/password-management/keepassium.svg){ align=right }
 
-KeePassium est un gestionnaire de mot de passe open-source payant développé par KeePassium Labs et compatible avec les autres applications KeePass. Il permet de remplir automatiquement vos identifiants, de gérer vos passkeys, il est également compatible avec la synchronisation bidirectionnelle automatique via [la plupart des fournisseurs de cloud](https://support.keepassium.com/kb/sync), et bien d'autre.
+KeePassium is a commercial, open-source password manager made by KeePassium Labs that's compatible with other KeePass applications. Il permet de remplir automatiquement vos identifiants, de gérer vos passkeys, il est également compatible avec la synchronisation bidirectionnelle automatique via [la plupart des fournisseurs de cloud](https://support.keepassium.com/kb/sync), et bien d'autre.
 
 [:material-star-box: Notre dernier avis de KeePassium](https://www.privacyguides.org/articles/2025/05/13/keepassium-review)
 
@@ -394,9 +394,9 @@ L'application iOS de KeePassium a été [auditée](https://cure53.de/pentest-rep
 
 <div class="admonition recommendation" markdown>
 
-![Logo de Gopass](assets/img/password-management/gopass.svg){ align=right }
+![Gopass logo](assets/images/password-management/gopass.svg){ align=right }
 
-**Gopass** est un gestionnaire de mot de passe minimal pour la ligne de commande écrit en Go. Il peut être utilisé dans les applications de scripting et fonctionne sur tous les principaux systèmes d'exploitation de bureau et de serveur.
+**Gopass** is a minimal password manager for the command line written in Go. Il peut être utilisé dans les applications de scripting et fonctionne sur tous les principaux systèmes d'exploitation de bureau et de serveur.
 
 [:octicons-home-16: Page d'Accueil](https://gopass.pw){ .md-button .md-button--primary }
 [:octicons-info-16:](https://github.com/gopasspw/gopass/tree/master/docs){ .card-link title="Documentation" }

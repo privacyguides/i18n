@@ -15,7 +15,7 @@ cover: pastebins.webp
 
 <div class="admonition recommendation" markdown>
 
-![PrivateBin logo](assets/img/pastebins/privatebin.svg){ align=right }
+![PrivateBin logo](assets/images/pastebins/privatebin.svg){ align=right }
 
 **PrivateBin** is a minimalist, open-source, online pastebin where the server cannot decrypt and read any pasted data you submit. Os dados são encriptados/desencriptados no browser utilizando AES de 256 bits. É a versão melhorada do ZeroBin.
 
@@ -30,7 +30,7 @@ cover: pastebins.webp
 
 <div class="admonition recommendation" markdown>
 
-![Paaster logo](assets/img/pastebins/paaster.svg){ align=right }
+![Paaster logo](assets/images/pastebins/paaster.svg){ align=right }
 
 **Paaster** is a secure and user-friendly pastebin application that prioritizes privacy and simplicity. With end-to-end encryption and paste history, Paaster ensures that your pasted code remains confidential and accessible.
 

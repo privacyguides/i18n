@@ -20,7 +20,7 @@ Les traqueurs menstruels populaires tels que [Flo](https://techcrunch.com/2021/0
 
 <div class="admonition recommendation" markdown>
 
-![Logo de Drip](assets/img/health-and-wellness/drip.png){ align=right }
+![Drip logo](assets/images/health-and-wellness/drip.png){ align=right }
 
 **Drip** est un outil de suivi du cycle menstruel inclusif disponible sur toutes les plateformes mobiles. Elle s'appuie sur la "méthode sympto-thermique" pour prédire l'ovulation. Toutes les données de l'utilisateur sont stockées localement sur votre appareil et peuvent être protégées par un mot de passe.
 
@@ -43,7 +43,7 @@ Les traqueurs menstruels populaires tels que [Flo](https://techcrunch.com/2021/0
 
 <div class="admonition recommendation" markdown>
 
-![Logo de Euki](assets/img/health-and-wellness/euki.svg){ align=right }
+![Euki logo](assets/images/health-and-wellness/euki.svg){ align=right }
 
 **Euki** est un outil de suivi du cycle menstruel soutenu par une association à but non lucratif, qui sert également de suivi des médicaments et de base de connaissances sur le bien-être sexuel. Il vous permet de programmer la suppression automatique de vos données personnelles dans l'application. Toutes les données de l'utilisateur sont stockées localement sur votre appareil et peuvent être protégées par un mot de passe.
 
@@ -65,7 +65,7 @@ Les traqueurs menstruels populaires tels que [Flo](https://techcrunch.com/2021/0
 
 <div class="admonition recommendation" markdown>
 
-![Logo de Apple](assets/img/health-and-wellness/apple-health.webp#only-light){ align=right }![Apple logo](assets/img/health-and-wellness/apple-health-dark.webp#only-dark){ align=right }
+![Apple logo](assets/images/health-and-wellness/apple-health.webp#only-light){ align=right }![Apple logo](assets/images/health-and-wellness/apple-health-dark.webp#only-dark){ align=right }
 
 Apple Santé fait partie des applications préinstallées sur les appareils iOS. Elle propose de nombreuses fonctionnalités liées à la santé et au bien-être (voir [Dossiers médicaux](#apple-health-records)), notamment le suivi du cycle menstruel. Il utilise également un langage non genré. Apple Santé utilise systématiquement un chiffrement de bout en bout lors de la synchronisation entre plusieurs appareils.
 
@@ -88,7 +88,7 @@ Ces applications génériques possèdent de nombreuses fonctionnalités, du comp
 
 <div class="admonition recommendation" markdown>
 
-![Logo de Apple Fitness](assets/img/health-and-wellness/apple-fitness.webp){ align=right }
+![Apple Fitness logo](assets/images/health-and-wellness/apple-fitness.webp){ align=right }
 
 **Apple Fitness** est l'application de fitness par défaut sur iOS. Elle utilise toujours le chiffrement de bout-en-bout lors de la synchronisation entre appareils. De plus, toutes les données mesurées sont analysées localement.
 
@@ -106,7 +106,7 @@ Ces applications génériques possèdent de nombreuses fonctionnalités, du comp
 
 <div class="admonition recommendation" markdown>
 
-![logo de Gadgetbridge](assets/img/health-and-wellness/gadgetbridge.svg#only-light){ align=right }![logo de Gadgetbridge](assets/img/health-and-wellness/gadgetbridge-dark.svg#only-dark){ align=right }
+![Gadgetbridge logo](assets/images/health-and-wellness/gadgetbridge.svg#only-light){ align=right }![Gadgetbridge logo](assets/images/health-and-wellness/gadgetbridge-dark.svg#only-dark){ align=right }
 
 **GadgetBridge** est une application Android open-source qui vous permet d'appairer et de gérer vos objets Bluetooth sans avoir besoin de l'application des fournisseurs. Associé à une montre connectée compatible, il peut imiter les fonctionnalités de santé et de bien-être de celle-ci sans collecte de données intermédiaire.
 
@@ -135,7 +135,7 @@ Ces applications vous permettent de collecter et de gérer vos données personne
 
 <div class="admonition recommendation" markdown>
 
-![Logo de Apple](assets/img/health-and-wellness/apple-health.webp#only-light){ align=right }![Apple logo](assets/img/health-and-wellness/apple-health-dark.webp#only-dark){ align=right }
+![Apple logo](assets/images/health-and-wellness/apple-health.webp#only-light){ align=right }![Apple logo](assets/images/health-and-wellness/apple-health-dark.webp#only-dark){ align=right }
 
 **Dossier Médicaux** est une fonctionnalité intégrée à [Apple Santé](#apple-health) qui vous permet de consulter, de stocker et de partager vos dossiers médicaux.
 
@@ -154,7 +154,7 @@ Ces applications vous permettent de collecter et de gérer vos données personne
 
 <div class="admonition recommendation" markdown>
 
-![Logo de CommonHealth](assets/img/health-and-wellness/commonhealth.png){ align=right }
+![CommonHealth logo](assets/images/health-and-wellness/commonhealth.png){ align=right }
 
 **CommonHealth** est une application Android respectueuse de la vie privée qui vous permet d'accéder à vos documents de santé électroniques et de les partager à vos soignants de manière sécurisée. Toutes les données de santé sont stockée sur votre appareil et peuvent être protégées par un mot de passe ou l'authentification biométrique.
 

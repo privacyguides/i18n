@@ -17,7 +17,7 @@ cover: multi-factor-authentication.webp
 <div class="admonition recommendation" markdown>
 
 <figure markdown="span">
-  ![Security Key Series by Yubico](assets/img/security-keys/yubico-security-key.webp){ width="315" }
+  ![Security Key Series by Yubico](assets/images/security-keys/yubico-security-key.webp){ width="315" }
 </figure>
 
 **Yubico Security Key** 系列是具備 FIDO 2 級認證[^1]的最具成本效益硬體安全金鑰。它支援 FIDO2/WebAuthn 及 FIDO 通用第二要素 (U2F)，並可立即與多數支援安全金鑰作為第二驗證要素的服務，以及眾多密碼管理工具配合使用。
@@ -52,7 +52,7 @@ Yubico 安全金鑰的韌體不可更新。如果您想要使用較新韌體版�
 <div class="admonition recommendation" markdown>
 
 <figure markdown="span">
-  ![YubiKeys](assets/img/security-keys/yubikey.png){ width="400" }
+  ![YubiKeys](assets/images/security-keys/yubikey.png){ width="400" }
 </figure>
 
 Yubico 的 **YubiKey** 系列是獲得 FIDO 2 級認證[^1]的最受歡迎安全金鑰之一。 **YubiKey 5 系列**具備多種功能，例如 FIDO2/WebAuthn 與 FIDO U2F，[TOTP 與 HOTP](https://developers.yubico.com/OATH)、[個人身份驗證 (PIV)](https://developers.yubico.com/PIV) 與 [OpenPGP](https://developers.yubico.com/PGP)。
@@ -83,7 +83,7 @@ Yubikey 安全金鑰的韌體不可更新。如果您想要使用較新韌體版
 <div class="admonition recommendation" markdown>
 
 <figure markdown="span">
-  ![Nitrokey](assets/img/security-keys/nitrokey.jpg){ width="300" }
+  ![Nitrokey](assets/images/security-keys/nitrokey.jpg){ width="300" }
 </figure>
 
 **Nitrokey** 推出一款經濟實惠的安全金鑰，支援 FIDO2/WebAuthn 與 FIDO U2F 標準，名為 **Nitrokey Passkey**。若要支援 PIV、OpenPGP、TOTP 與 HOTP 認證等功能，您必須購買他們的其他金鑰，例如 **Nitrokey 3**。目前，只有 **Nitrokey 3A Mini** 有 [FIDO 第 1 級認證](https://nitrokey.com/news/2024/nitrokey-3a-mini-receives-official-fido2-certification)。

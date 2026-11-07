@@ -13,7 +13,7 @@ Na verloop van tijd kan het gemakkelijk zijn om een aantal online accounts te ve
 Als je een wachtwoord manager hebt die je al jouw hele digitale leven gebruikt, is dit deel heel eenvoudig. Vaak bevatten ze ingebouwde functionaliteit om te detecteren of je gegevens zijn blootgelegd bij een datalek, zoals het [rapport Blootgestelde wachtwoorden](https://bitwarden.com/blog/have-you-been-pwned) van Bitwarden.
 
 <figure markdown>
-  ![Bitwarden 's Data Breach Report-functie](../assets/img/account-deletion/exposed_passwords.png)
+  ![Bitwarden's Data Breach Report feature](../assets/images-localized/account-deletion/exposed_passwords.png)
 </figure>
 
 Even if you haven't explicitly used a password manager before, there's a chance you've used the one in your browser ([Firefox](https://support.mozilla.org/kb/password-manager-remember-delete-edit-logins), [Chrome](https://passwords.google.com/intro), [Edge](https://support.microsoft.com/microsoft-edge/save-or-forget-passwords-in-microsoft-edge-b4beecb0-f2a8-1ca0-f26f-9ec247a3f336)) or your phone ([Google](https://passwords.google.com/intro) on stock Android, [Passwords](https://support.apple.com/HT211146) on iOS) without even realizing it.

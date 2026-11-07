@@ -21,9 +21,9 @@ cover: real-time-communication.webp
 
 <div class="admonition recommendation" markdown>
 
-![Signal logo](assets/img/messengers/signal.svg){ align=right }
+![Signal logo](assets/images/messengers/signal.svg){ align=right }
 
-**Signal** — мобильное приложение, разработанное Signal Messenger LLC. Приложение обеспечивает обмен мгновенными сообщениями и звонками, защищенными протоколом Signal — чрезвычайно надежным протоколом шифрования, который поддерживает прямую секретность[^1] и защиту после компрометации.[^2]
+**Signal** is a mobile app developed by Signal Messenger LLC. Приложение обеспечивает обмен мгновенными сообщениями и звонками, защищенными протоколом Signal — чрезвычайно надежным протоколом шифрования, который поддерживает прямую секретность[^1] и защиту после компрометации.[^2]
 
 [:octicons-home-16: Главная](https://signal.org){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://signal.org/legal/#privacy-policy){ .card-link title="Политика конфиденциальности"}
@@ -70,7 +70,7 @@ The protocol was independently [audited](https://eprint.iacr.org/2016/1013.pdf) 
 
 <div class="admonition recommendation" markdown>
 
-![SimpleX Chat logo](assets/img/messengers/simplex.svg){ align=right }
+![SimpleX Chat logo](assets/images/messengers/simplex.svg){ align=right }
 
 **SimpleX Chat** is an instant messenger that doesn't depend on any unique identifiers such as phone numbers or usernames. Its decentralized network makes SimpleX Chat an effective tool against [:material-close-outline: Censorship](basics/common-threats.md#avoiding-censorship){ .pg-blue-gray }.
 
@@ -106,7 +106,7 @@ SimpleX Chat was independently audited in [July 2024](https://simplex.chat/blog/
 
 <div class="admonition recommendation" markdown>
 
-![Briar logo](assets/img/messengers/briar.svg){ align=right }
+![Briar logo](assets/images/messengers/briar.svg){ align=right }
 
 **Briar** is an encrypted instant messenger that [connects](https://briarproject.org/how-it-works) to other clients using the [Tor network](alternative-networks.md#tor), making it an effective tool at circumventing [:material-close-outline: Censorship](basics/common-threats.md#avoiding-censorship){ .pg-blue-gray }. Briar также может передавать сообщения через Wi-Fi или Bluetooth, если получатель находится в непосредственной близости. Режим локальной сети Briar может быть полезен, когда Вы не имеете доступа к Интернету.
 

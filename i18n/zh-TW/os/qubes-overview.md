@@ -17,12 +17,12 @@ Qubes 使用 [分區化](https://qubes-os.org/intro) 來確保系統安全。 Qu
 
 </details>
 
-![Qubes架構](../assets/img/qubes/qubes-trust-level-architecture.png)
+![Qubes架構](../assets/images-localized/qubes/qubes-trust-level-architecture.png)
 <figcaption>Qubes Architecture, Credit: What is Qubes OS Intro</figcaption>
 
 每個 qubes 都有 [顏色邊框](https://qubes-os.org/screenshots) ，幫助您追蹤它運行的地方。例如，可以為銀行瀏覽器使用特定的顏色，而一般不信任的瀏覽器則使用不同顏色。
 
-![顏色邊框](../assets/img/qubes/r4.0-xfce-three-domains-at-work.png)
+![顏色邊框](../assets/images-localized/qubes/r4.0-xfce-three-domains-at-work.png)
 <figcaption>Qubes 視窗邊框，圖片來源： Qubes Screenshots</figcaption>
 
 ## 我爲什麼要使用Qubes ？

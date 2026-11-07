@@ -10,7 +10,7 @@ Existem várias arquiteturas de rede normalmente utilizadas para transmitir mens
 
 ## Redes centralizadas
 
-![Diagrama de redes centralizadas](../assets/img/layout/network-centralized.svg){ align=left }
+![Diagrama de redes centralizadas](../assets/images/layout/network-centralized.svg){ align=left }
 
 As aplicações de mensagens instantâneas centralizadas são aquelas em que todos os participantes se encontram no mesmo servidor ou rede de servidores, controlados pela mesma organização.
 
@@ -33,7 +33,7 @@ Algumas aplicações de mensagens instantâneas permitem-lhe a opção de auto-h
 
 ## Redes Federadas
 
-![Diagrama de redes federadas](../assets/img/layout/network-decentralized.svg){ align=left }
+![Diagrama de redes federadas](../assets/images/layout/network-decentralized.svg){ align=left }
 
 As aplicações de mensagens instantâneas federadas utilizam vários servidores independentes e descentralizados que podem comunicar entre si (o e-mail é um exemplo de um serviço federado). A federação permite que os administradores de sistemas controlem o seu próprio servidor e continuem a fazer parte de uma rede de comunicações maior.
 
@@ -56,7 +56,7 @@ Numa solução auto-hospedada, os membros de um servidor federado podem descobri
 
 ## Redes peer-to-peer
 
-![Diagrama P2P](../assets/img/layout/network-distributed.svg){ align=left }
+![Diagrama P2P](../assets/images/layout/network-distributed.svg){ align=left }
 
 As aplicações de mensagens instantâneas P2P ligam-se a uma [rede distribuída](https://en.wikipedia.org/wiki/Distributed_networking) de nós para retransmitir a mensagem ao destinatário, sem utilizar um servidor de terceiros.
 
@@ -81,7 +81,7 @@ As redes P2P não utilizam servidores, uma vez que os peers comunicam diretament
 
 ## Encaminhamento anónimo
 
-![Diagrama de encaminhamento anónimo](../assets/img/layout/network-anonymous-routing.svg){ align=left }
+![Diagrama de encaminhamento anónimo](../assets/images/layout/network-anonymous-routing.svg){ align=left }
 
 Uma aplicação de mensagens instantâneas que utilize o [encaminhamento anónimo](https://doi.org/10.1007/978-1-4419-5906-5_628) oculta a identidade do remetente, do destinatário ou a prova de que estão a comunicar. Idealmente, a aplicação deve esconder os três.
 

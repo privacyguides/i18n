@@ -5,7 +5,7 @@ description: 안드로이드는 강력한 보안 보호 기능을 갖춘 오픈 
 robots: nofollow, max-snippet:-1, max-image-preview:large
 ---
 
-![안드로이드 로고](../assets/img/android/android.svg){ align=right }
+![안드로이드 로고](../assets/images/android/android.svg){ align=right }
 
 **안드로이드 오픈 소스 프로젝트**는 강력한 [앱 샌드박싱](https://source.android.com/security/app-sandbox), [자체 검사 부팅](https://source.android.com/security/verifiedboot)(AVB), 견고한 [권한](https://developer.android.com/guide/topics/permissions/overview) 제어 시스템을 갖춘 안전한 모바일 운영 체제입니다.
 

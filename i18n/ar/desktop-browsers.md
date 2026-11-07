@@ -15,7 +15,7 @@ schema:
     "@context": http://schema.org
     "@type": SoftwareApplication
     name: Mullvad Browser
-    image: /assets/img/browsers/mullvad_browser.svg
+    image: /assets/images/browsers/mullvad_browser.svg
     url: https://mullvad.net/en/browser
     applicationCategory: Web Browser
     operatingSystem:
@@ -29,7 +29,7 @@ schema:
     "@context": http://schema.org
     "@type": SoftwareApplication
     name: Firefox
-    image: /assets/img/browsers/firefox.svg
+    image: /assets/images/browsers/firefox.svg
     url: https://firefox.com
     sameAs: https://ar.wikipedia.org/wiki/%D9%81%D9%8A%D8%B1%D9%81%D9%83%D8%B3
     applicationCategory: Web Browser
@@ -44,7 +44,7 @@ schema:
     "@context": http://schema.org
     "@type": SoftwareApplication
     name: Brave
-    image: /assets/img/browsers/brave.svg
+    image: /assets/images/browsers/brave.svg
     url: https://brave.com
     sameAs: https://ar.wikipedia.org/wiki/%D8%A8%D8%B1%D9%8A%D9%81_(%D9%85%D8%AA%D8%B5%D9%81%D8%AD_%D9%88%D9%8A%D8%A8)
     applicationCategory: Web Browser
@@ -69,8 +69,9 @@ If you need to browse the internet anonymously, you should use [Tor Browser](tor
 
 <div class="admonition recommendation" markdown>
 
-![Mullvad Browser logo](assets/img/browsers/mullvad_browser.svg){ align=right }
-متصفح Mullvad مبني على [متصفح Tor](tor.md#tor-browser)، لكن بدون الاتصال بشبكة Tor. يهدف هذا المتصفح إلى توفير تقنيات متصفح Tor الخاصة بـ <strong>إخفاء بصمة الجهاز</strong> لمستخدمي الـVPN، وهي من وسائل الحماية الأساسية ضد [:material-eye-outline: مراقبة الجمهور (Mass Surveillance)](basics/common-threats.md#mass-surveillance-programs){ .pg-blue }. يُطور هذا المتصفح من قِبل مشروع Tor، ويُوزع بواسطة [Mullvad](vpn.md#mullvad)، **ولا** يتطلب استخدام خدمة Mullvad VPN.
+![Mullvad Browser logo](assets/images/browsers/mullvad_browser.svg){ align=right }
+
+**Mullvad Browser** is a version of [Tor Browser](tor.md#tor-browser) with Tor network integrations removed. يهدف هذا المتصفح إلى توفير تقنيات متصفح Tor الخاصة بـ <strong>إخفاء بصمة الجهاز</strong> لمستخدمي الـVPN، وهي من وسائل الحماية الأساسية ضد [:material-eye-outline: مراقبة الجمهور (Mass Surveillance)](basics/common-threats.md#mass-surveillance-programs){ .pg-blue }. يُطور هذا المتصفح من قِبل مشروع Tor، ويُوزع بواسطة [Mullvad](vpn.md#mullvad)، **ولا** يتطلب استخدام خدمة Mullvad VPN.
 
 [:octicons-home-16: الصفحة الرئيسية](https://mullvad.net/en/browser){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://mullvad.net/en/help/privacy-policy){ .card-link title="سياسة الخصوصية" }
@@ -114,9 +115,9 @@ Note that while you can use Mullvad Browser with any VPN provider, other people 
 
 <div class="admonition recommendation" markdown>
 
-![Firefox logo](assets/img/browsers/firefox.svg){ align=right }
+![Firefox logo](assets/images/browsers/firefox.svg){ align=right }
 
-Firefox يوفّر إعدادات قوية لحماية الخصوصية، مثل [الحماية المحسّنة من التتبع (Enhanced Tracking Protection)](https://support.mozilla.org/kb/enhanced-tracking-protection-firefox-desktop)، والتي تساعد على حجب أنواع مختلفة من [أساليب التتبع](https://support.mozilla.org/kb/enhanced-tracking-protection-firefox-desktop#w_what-enhanced-tracking-protection-blocks).
+**Firefox** provides strong privacy settings such as [Enhanced Tracking Protection](https://support.mozilla.org/kb/enhanced-tracking-protection-firefox-desktop), which can help block various [types of tracking](https://support.mozilla.org/kb/enhanced-tracking-protection-firefox-desktop#w_what-enhanced-tracking-protection-blocks).
 
 [:octicons-home-16: الصفحة الرئيسية](https://firefox.com){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://mozilla.org/privacy/firefox){ .card-link title="سياسية الخصوصية" }
@@ -231,9 +232,9 @@ Firefox يوفّر إعدادات قوية لحماية الخصوصية، مث�
 
 <div class="admonition recommendation annotate" markdown>
 
-![Brave logo](assets/img/browsers/brave.svg){ align=right }
+![Brave logo](assets/images/browsers/brave.svg){ align=right }
 
-يحتوي متصفح Brave على مانع مدمج للإعلانات والتتبع، بالإضافة إلى [ميزات خصوصية عديدة](https://brave.com/privacy-features)، يتم تفعيل الكثير منها بشكل تلقائي.
+**Brave Browser** includes a built-in content blocker and [privacy features](https://brave.com/privacy-features), many of which are enabled by default.
 
 بما أن Brave مبني على متصفح Chromium، فستجده مألوفًا وسهل الاستخدام، ويعمل بسلاسة مع أغلب المواقع.
 

@@ -30,9 +30,9 @@ Nigdy nie należy używać efektu rozmycia do ukrycia [tekstu na obrazach](https
 
 <div class="admonition recommendation" markdown>
 
-![Logo MAT2](assets/img/data-redaction/mat2.svg){ align=right }
+![MAT2 logo](assets/images/data-redaction/mat2.svg){ align=right }
 
-**MAT2** to darmowe, wieloplatformowe oprogramowanie umożliwiające usuwanie metadanych z plików graficznych, audio, torrentów i dokumentów. Oferuje zarówno narzędzie wiersza poleceń, jak i interfejs graficzny za pośrednictwem rozszerzenia dla [Dolphin](https://github.com/jvoisin/mat2/tree/master/dolphin), domyślnego menedżera plików [KDE](https://kde.org).
+**MAT2** is free, cross-platform software which allows you to remove metadata from image, audio, torrent, and document file types. Oferuje zarówno narzędzie wiersza poleceń, jak i interfejs graficzny za pośrednictwem rozszerzenia dla [Dolphin](https://github.com/jvoisin/mat2/tree/master/dolphin), domyślnego menedżera plików [KDE](https://kde.org).
 
 [:octicons-repo-16: Repozytorium](https://github.com/jvoisin/mat2#readme){ .md-button .md-button--primary }
 [:octicons-info-16:](https://github.com/jvoisin/mat2#how-to-use-mat2){ .card-link title="Dokumentacja" }
@@ -54,7 +54,7 @@ Nigdy nie należy używać efektu rozmycia do ukrycia [tekstu na obrazach](https
 
 <div class="admonition recommendation" markdown>
 
-![Metadata Cleaner logo](assets/img/data-redaction/metadatacleaner.svg){ align=right }
+![Metadata Cleaner logo](assets/images/data-redaction/metadatacleaner.svg){ align=right }
 
 **Metadata Cleaner** is a graphical metadata removal tool for Linux powered by [MAT2](https://github.com/jvoisin/mat2).
 
@@ -75,9 +75,9 @@ Nigdy nie należy używać efektu rozmycia do ukrycia [tekstu na obrazach](https
 
 <div class="admonition recommendation" markdown>
 
-![Logo ExifEraser](assets/img/data-redaction/exiferaser.svg){ align=right }
+![ExifEraser logo](assets/images/data-redaction/exiferaser.svg){ align=right }
 
-**ExifEraser** to nowoczesna aplikacja na Androida, która usuwa metadane obrazów bez konieczności nadawania jej specjalnych uprawnień.
+**ExifEraser** is a modern, permissionless image metadata erasing application for Android.
 
 Obecnie obsługuje pliki w formacie JPEG, PNG i WebP.
 
@@ -126,9 +126,9 @@ Skrót ten usuwa metadane takie jak lokalizacja, model urządzenia, model obiekt
 
 <div class="admonition recommendation" markdown>
 
-![Logo ExifTool](assets/img/data-redaction/exiftool.png){ align=right }
+![ExifTool logo](assets/images/data-redaction/exiftool.png){ align=right }
 
-**ExifTool** to oryginalna biblioteka Perla oraz aplikacja wiersza poleceń do odczytu, zapisu i edycji metadanych (Exif, IPTC, XMP i innych) w wielu formatach plików (JPEG, TIFF, PNG, PDF, RAW i innych).
+**ExifTool** is the original Perl library and command-line application for reading, writing, and editing meta information (Exif, IPTC, XMP, and more) in a wide variety of file formats (JPEG, TIFF, PNG, PDF, RAW, and more).
 
 Często występuje on jako komponent innych narzędzi do usuwania Exif i jest dostępny w repozytoriach większości dystrybucji Linuksa.
 

@@ -21,7 +21,7 @@ cover: browser-extensions.webp
 
 <div class="admonition recommendation" markdown>
 
-![유블록 오리진 로고](assets/img/browsers/ublock_origin.svg){ align=right }
+![uBlock Origin logo](assets/images/browsers/ublock_origin.svg){ align=right }
 
 **유블록 오리진**은 광고, 추적기, 핑거프린팅 스크립트를 차단하는 데 도움이 되는 인기 있는 콘텐츠 차단기입니다.
 
@@ -59,7 +59,7 @@ cover: browser-extensions.webp
 
 <div class="admonition recommendation" markdown>
 
-![유블록 오리진 라이트 로고](assets/img/browsers/ublock_origin_lite.svg){ align=right }
+![uBlock Origin Lite logo](assets/images/browsers/ublock_origin_lite.svg){ align=right }
 
 **유블록 오리진 라이트**는 Manifest V3와 호환되는 콘텐츠 차단기입니다. 원래의 _유블록 오리&#xC9C4;_&#xACFC; 비교해 이 확장 프로그램은 작동하는 데 광범위한 "데이터 읽기/수정" 권한이 필요하지 않으므로, 필터 목록에 악성 규칙이 추가되더라도 브라우저에 대한 [:material-bug-outline: 수동적 공격](basics/common-threats.md#security-and-privacy){ .pg-orange } 위험이 낮아집니다.
 
@@ -93,7 +93,7 @@ iOS 사용자에게는 [사파리](mobile-browsers.md#safari-ios)를 추천하�
 
 <div class="admonition recommendation" markdown>
 
-![애드가드 로고](assets/img/browsers/adguard.svg){ align=right }
+![AdGuard logo](assets/images/browsers/adguard.svg){ align=right }
 
 **iOS용 애드가드**는 네이티브 [콘텐츠 차단기 API](https://developer.apple.com/documentation/safariservices/creating_a_content_blocker)를 사용하는 사파리용 자유 오픈 소스 콘텐츠 차단 확장 프로그램입니다.
 

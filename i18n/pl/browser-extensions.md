@@ -21,7 +21,7 @@ Nie instaluj rozszerzeń, których od razu nie potrzebujesz, ani takich, które 
 
 <div class="admonition recommendation" markdown>
 
-![Logo uBlock Origin](assets/img/browsers/ublock_origin.svg){ align=right }
+![uBlock Origin logo](assets/images/browsers/ublock_origin.svg){ align=right }
 
 **uBlock Origin** to popularny bloker treści, który może pomóc w blokowaniu reklam, trackerów i skryptów służących do identyfikacji użytkowników.
 
@@ -59,7 +59,7 @@ uBlock Origin ma też wersję „Lite”, która oferuje ograniczony zestaw funk
 
 <div class="admonition recommendation" markdown>
 
-![Logo uBlock Origin Lite](assets/img/browsers/ublock_origin_lite.svg){ align=right }
+![uBlock Origin Lite logo](assets/images/browsers/ublock_origin_lite.svg){ align=right }
 
 **uBlock Origin Lite** to bloker treści zgodny z Manifest V3. W porównaniu z oryginalnym _uBlock Origin_ rozszerzenie to nie wymaga szerokich uprawnień „odczytu i modyfikacji danych witryn”, by działać, co zmniejsza ryzyko [:material-bug-outline: Ataków pasywnych](basics/common-threats.md#security-and-privacy){ .pg-orange } na przeglądarkę, jeśli do listy filtrów zostanie dodana złośliwa reguła.
 
@@ -93,7 +93,7 @@ Zalecamy przeglądarkę [Safari](mobile-browsers.md#safari-ios) dla użytkownik�
 
 <div class="admonition recommendation" markdown>
 
-![Logo AdGuard](assets/img/browsers/adguard.svg){ align=right }
+![AdGuard logo](assets/images/browsers/adguard.svg){ align=right }
 
 **AdGuard na iOS** to bezpłatne rozszerzenie typu open source do blokowania treści w przeglądarce Safari, korzystające z natywnego [Content Blocker API](https://developer.apple.com/documentation/safariservices/creating_a_content_blocker).
 

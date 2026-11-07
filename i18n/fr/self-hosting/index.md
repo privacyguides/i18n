@@ -17,8 +17,8 @@ L'auto-hébergement nécessite des connaissances techniques avancées et une bon
 
 <div class="grid cards" markdown>
 
-- ![Logo de AdGuard Home](../assets/img/self-hosting/adguard-home.svg){ .twemoji loading=lazy } [AdGuard Home](dns-filtering.md#adguard-home)
-- ![Logo de Pi-Hole](../assets/img/self-hosting/pi-hole.svg){ .twemoji loading=lazy } [Pi-Hole](dns-filtering.md#pi-hole)
+- ![AdGuard Home logo](../assets/images/self-hosting/adguard-home.svg){ .twemoji loading=lazy } [AdGuard Home](dns-filtering.md#adguard-home)
+- ![Pi-Hole logo](../assets/images/self-hosting/pi-hole.svg){ .twemoji loading=lazy } [Pi-Hole](dns-filtering.md#pi-hole)
 
 </div>
 
@@ -28,9 +28,9 @@ L'auto-hébergement nécessite des connaissances techniques avancées et une bon
 
 <div class="grid cards" markdown>
 
-- ![logo de Stalwart](../assets/img/self-hosting/stalwart.svg){ .twemoji loading=lazy } [Stalwart](email-servers.md#stalwart)
-- ![logo de Mailcow](../assets/img/self-hosting/mailcow.svg){ .twemoji loading=lazy } [Mailcow](email-servers.md#mailcow)
-- ![logo de Mail-in-a-Box](../assets/img/self-hosting/mail-in-a-box.svg){ .twemoji loading=lazy } [Mail-in-a-Box](email-servers.md#mail-in-a-box)
+- ![Stalwart logo](../assets/images/self-hosting/stalwart.svg){ .twemoji loading=lazy } [Stalwart](email-servers.md#stalwart)
+- ![Mailcow logo](../assets/images/self-hosting/mailcow.svg){ .twemoji loading=lazy } [Mailcow](email-servers.md#mailcow)
+- ![Mail-in-a-Box logo](../assets/images/self-hosting/mail-in-a-box.svg){ .twemoji loading=lazy } [Mail-in-a-Box](email-servers.md#mail-in-a-box)
 
 </div>
 
@@ -40,9 +40,9 @@ L'auto-hébergement nécessite des connaissances techniques avancées et une bon
 
 <div class="grid cards" markdown>
 
-- ![Logo de PhotoPrism](../assets/img/self-hosting/photoprism.svg){ .twemoji loading=lazy } [PhotoPrism](file-management.md#photoprism)
-- ![Logo de FreedomBox](../assets/img/self-hosting/freedombox.svg){ .twemoji loading=lazy } [FreedomBox](file-management.md#freedombox)
-- ![Logo de Nextcloud](../assets/img/self-hosting/nextcloud.svg){ .twemoji loading=lazy } [Nextcloud](file-management.md#nextcloud)
+- ![PhotoPrism logo](../assets/images/self-hosting/photoprism.svg){ .twemoji loading=lazy } [PhotoPrism](file-management.md#photoprism)
+- ![FreedomBox logo](../assets/images/self-hosting/freedombox.svg){ .twemoji loading=lazy } [FreedomBox](file-management.md#freedombox)
+- ![Nextcloud logo](../assets/images/self-hosting/nextcloud.svg){ .twemoji loading=lazy } [Nextcloud](file-management.md#nextcloud)
 
 </div>
 
@@ -54,8 +54,8 @@ L'auto-hébergement nécessite des connaissances techniques avancées et une bon
 
 <div class="admonition recommendation" markdown>
 
-![Logo de Vaultwarden](../assets/img/self-hosting/vaultwarden.svg#only-light){ align=right }
-![Logo de Vaultwarden](../assets/img/self-hosting/vaultwarden-dark.svg#only-dark){ align=right }
+![Vaultwarden logo](../assets/images/self-hosting/vaultwarden.svg#only-light){ align=right }
+![Vaultwarden logo](../assets/images/self-hosting/vaultwarden-dark.svg#only-dark){ align=right }
 
 **Vaultwarden** est une implémentation alternative du serveur de synchronisation de [Bitwarden](../passwords.md#bitwarden) écrit en Rust et compatible avec les clients officiels de Bitwarden, parfaitement adapté à l'auto-hébergement lorsque l'utilisation du [service officiel](https://github.com/bitwarden/server), gourmand en ressources, n'est pas idéale.
 
@@ -74,7 +74,7 @@ L'auto-hébergement de vos propres instances de réseaux sociaux peut être un b
 
 <div class="admonition recommendation" markdown>
 
-![Logo de Mastodon](../assets/img/social-networks/mastodon.svg){ align=right }
+![Mastodon logo](../assets/images/social-networks/mastodon.svg){ align=right }
 
 **Mastodon** est un réseau social basé sur un protocole web ouvert et un logiciel libre et open-source. Il utilise le protocole décentralisé **:simple-activitypub: ActivityPub**.
 
@@ -91,7 +91,7 @@ Mastodon possède une communauté d'auto-hébergement importante et active, et s
 
 <div class="admonition recommendation" markdown>
 
-![logo de Element](../assets/img/social-networks/element.svg){ align=right }
+![Element logo](../assets/images/social-networks/element.svg){ align=right }
 
 **Element** est le client phare du protocole **:simple-matrix: Matrix**, un standard ouvert qui permet des communications décentralisées grâces à salons de discussion fédérés.
 
@@ -107,14 +107,14 @@ L'auto-hébergement de votre propre instance d'un frontend web peut vous aider �
 
 <div class="grid cards" markdown>
 
-- ![Logo de Redlib](../assets/img/frontends/redlib.svg){ .lg .middle .twemoji } [**Redlib (Reddit)**](../frontends.md#redlib)
+- ![Redlib logo](../assets/images/frontends/redlib.svg){ .lg .middle .twemoji } [**Redlib (Reddit)**](../frontends.md#redlib)
 
   ---
 
   [:octicons-info-16:](https://github.com/redlib-org/redlib#deployment){ .card-link title="Documentation Administrateur" }
   [:octicons-code-16:](https://github.com/redlib-org/redlib){ .card-link title="Code Source" }
 
-- ![Logo de Invidious](../assets/img/frontends/invidious.svg#only-light){ .twemoji }![Logo de Invidious](../assets/img/frontends/invidious-dark.svg#only-dark){ .twemoji } [**Invidious (YouTube)**](../frontends.md#invidious)
+- ![Invidious logo](../assets/images/frontends/invidious.svg#only-light){ .twemoji }![Invidious logo](../assets/images/frontends/invidious-dark.svg#only-dark){ .twemoji } [**Invidious (YouTube)**](../frontends.md#invidious)
 
   ---
 
@@ -122,7 +122,7 @@ L'auto-hébergement de votre propre instance d'un frontend web peut vous aider �
   [:octicons-info-16:](https://docs.invidious.io/installation){ .card-link title="Documentation Administrateur" }
   [:octicons-code-16:](https://github.com/iv-org/invidious){ .card-link title="Code Source" }
 
-- ![Logo de Piped](../assets/img/frontends/piped.svg){ .twemoji } [**Piped (YouTube)**](../frontends.md#piped)
+- ![Piped logo](../assets/images/frontends/piped.svg){ .twemoji } [**Piped (YouTube)**](../frontends.md#piped)
 
   ---
 
@@ -137,7 +137,7 @@ Si vous vous sentez capable d'auto-héberger des logiciels après avoir lu leur 
 
 <div class="grid cards" markdown>
 
-- ![Logo de Peergos](../assets/img/cloud/peergos.svg){ .twemoji } [**Peergos**](../cloud.md#peergos)
+- ![Peergos logo](../assets/images/cloud/peergos.svg){ .twemoji } [**Peergos**](../cloud.md#peergos)
 
   ---
 
@@ -145,7 +145,7 @@ Si vous vous sentez capable d'auto-héberger des logiciels après avoir lu leur 
   [:octicons-info-16:](https://github.com/peergos/peergos#usage---running-locally-to-log-in-to-another-instance){ .card-link title="Documentation Admin" }
   [:octicons-code-16:](https://github.com/Peergos/Peergos){ .card-link title="Code Source" }
 
-- ![Logo de Addy.io](../assets/img/email-aliasing/addy.svg){ .twemoji } [**Addy.io**](../email-aliasing.md#addyio)
+- ![Addy.io logo](../assets/images/email-aliasing/addy.svg){ .twemoji } [**Addy.io**](../email-aliasing.md#addyio)
 
   ---
 
@@ -153,7 +153,7 @@ Si vous vous sentez capable d'auto-héberger des logiciels après avoir lu leur 
   [:octicons-info-16:](https://addy.io/self-hosting){ .card-link title="Documentation Administrateur" }
   [:octicons-code-16:](https://github.com/anonaddy){ .card-link title="Code Source" }
 
-- ![Logo de SimpleLogin](../assets/img/email-aliasing/simplelogin.svg){ .twemoji } [**SimpleLogin**](../email-aliasing.md#simplelogin)
+- ![SimpleLogin logo](../assets/images/email-aliasing/simplelogin.svg){ .twemoji } [**SimpleLogin**](../email-aliasing.md#simplelogin)
 
   ---
 
@@ -161,7 +161,7 @@ Si vous vous sentez capable d'auto-héberger des logiciels après avoir lu leur 
   [:octicons-info-16:](https://github.com/simple-login/app#prerequisites){ .card-link title="Documentation Administrateur" }
   [:octicons-code-16:](https://github.com/simple-login){ .card-link title="Code Source" }
 
-- ![Logo de Ente](../assets/img/photo-management/ente.svg){ .twemoji } [**Ente Photos**](../photo-management.md#ente-photos)
+- ![Ente logo](../assets/images/photo-management/ente.svg){ .twemoji } [**Ente Photos**](../photo-management.md#ente-photos)
 
   ---
 
@@ -169,7 +169,7 @@ Si vous vous sentez capable d'auto-héberger des logiciels après avoir lu leur 
   [:octicons-info-16:](https://ente.com/help/self-hosting/){ .card-link title="Documentation Admin" }
   [:octicons-code-16:](https://github.com/ente-io/ente){ .card-link title="Code Source" }
 
-- ![Logo de CryptPad](../assets/img/document-collaboration/cryptpad.svg){ .twemoji } [**CryptPad**](../document-collaboration.md#cryptpad)
+- ![CryptPad logo](../assets/images/document-collaboration/cryptpad.svg){ .twemoji } [**CryptPad**](../document-collaboration.md#cryptpad)
 
   ---
 
@@ -177,7 +177,7 @@ Si vous vous sentez capable d'auto-héberger des logiciels après avoir lu leur 
   [:octicons-info-16:](https://docs.cryptpad.org/en/admin_guide/index.html){ .card-link title="Documentation Administrateur" }
   [:octicons-code-16:](https://github.com/xwiki-labs/cryptpad){ .card-link title="Code Source" }
 
-- ![Logo de Send](../assets/img/file-sharing-sync/send.svg){ .twemoji } [**Send**](../file-sharing.md#send)
+- ![Send logo](../assets/images/file-sharing-sync/send.svg){ .twemoji } [**Send**](../file-sharing.md#send)
 
   ---
 
@@ -185,7 +185,7 @@ Si vous vous sentez capable d'auto-héberger des logiciels après avoir lu leur 
   [:octicons-info-16:](https://github.com/timvisee/send/blob/master/docs/deployment.md){ .card-link title="Documentation Admin" }
   [:octicons-code-16:](https://github.com/timvisee/send){ .card-link title="Code Source" }
 
-- ![Logo de LibreTranslate](../assets/img/language-tools/libretranslate.png){ .twemoji } [**LibreTranslate**](../language-tools.md#libretranslate)
+- ![LibreTranslate logo](../assets/images/language-tools/libretranslate.png){ .twemoji } [**LibreTranslate**](../language-tools.md#libretranslate)
 
   ---
 
@@ -193,7 +193,7 @@ Si vous vous sentez capable d'auto-héberger des logiciels après avoir lu leur 
   [:octicons-info-16:](https://docs.libretranslate.com){ .card-link title="Documentation Admin" }
   [:octicons-code-16:](https://github.com/LibreTranslate/LibreTranslate){ .card-link title="Code Source" }
 
-- ![Logo de Miniflux](../assets/img/news-aggregators/miniflux.svg#only-light){ .twemoji }![Miniflux logo](../assets/img/news-aggregators/miniflux-dark.svg#only-dark){ .twemoji } [**Miniflux**](../news-aggregators.md#miniflux)
+- ![Miniflux logo](../assets/images/news-aggregators/miniflux.svg#only-light){ .twemoji }![Miniflux logo](../assets/images/news-aggregators/miniflux-dark.svg#only-dark){ .twemoji } [**Miniflux**](../news-aggregators.md#miniflux)
 
   ---
 
@@ -201,7 +201,7 @@ Si vous vous sentez capable d'auto-héberger des logiciels après avoir lu leur 
   [:octicons-info-16:](https://miniflux.app/docs/index.html#administration-guide){ .card-link title="Documentation Administrateur" }
   [:octicons-code-16:](https://github.com/miniflux/v2){ .card-link title="Code Source" }
 
-- ![Logo de Standard Notes](../assets/img/notebooks/standard-notes.svg){ .twemoji } [**Standard Notes**](../notebooks.md#standard-notes)
+- ![Standard Notes logo](../assets/images/notebooks/standard-notes.svg){ .twemoji } [**Standard Notes**](../notebooks.md#standard-notes)
 
   ---
 
@@ -209,7 +209,7 @@ Si vous vous sentez capable d'auto-héberger des logiciels après avoir lu leur 
   [:octicons-info-16:](https://standardnotes.com/help/47/can-i-self-host-standard-notes){ .card-link title="Documentation Administrateur" }
   [:octicons-code-16:](https://github.com/standardnotes){ .card-link title="Code Source" }
 
-- ![Logo de PrivateBin](../assets/img/pastebins/privatebin.svg){ .twemoji } [**PrivateBin**](../pastebins.md#privatebin)
+- ![PrivateBin logo](../assets/images/pastebins/privatebin.svg){ .twemoji } [**PrivateBin**](../pastebins.md#privatebin)
 
   ---
 
@@ -217,7 +217,7 @@ Si vous vous sentez capable d'auto-héberger des logiciels après avoir lu leur 
   [:octicons-info-16:](https://github.com/PrivateBin/PrivateBin/blob/master/doc/Installation.md){ .card-link title="Documentation Administrateur" }
   [:octicons-code-16:](https://github.com/PrivateBin/PrivateBin){ .card-link title="Code Source" }
 
-- ![Logo de Paaster](../assets/img/pastebins/paaster.svg){ .twemoji } [**Paaster**](../pastebins.md#paaster)
+- ![Paaster logo](../assets/images/pastebins/paaster.svg){ .twemoji } [**Paaster**](../pastebins.md#paaster)
 
   ---
 
@@ -225,7 +225,7 @@ Si vous vous sentez capable d'auto-héberger des logiciels après avoir lu leur 
   [:octicons-info-16:](https://github.com/WardPearce/paaster#deployment){ .card-link title="Documentation Administrateur" }
   [:octicons-code-16:](https://github.com/WardPearce/paaster){ .card-link title="Code Source" }
 
-- ![Logo de SimpleX Chat](../assets/img/messengers/simplex.svg){ .twemoji } [**SimpleX Chat**](../real-time-communication.md#simplex-chat)
+- ![SimpleX Chat logo](../assets/images/messengers/simplex.svg){ .twemoji } [**SimpleX Chat**](../real-time-communication.md#simplex-chat)
 
   ---
 

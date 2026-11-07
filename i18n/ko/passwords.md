@@ -14,7 +14,7 @@ schema:
     "@context": http://schema.org
     "@type": SoftwareApplication
     name: Bitwarden
-    image: /assets/img/password-management/bitwarden.svg
+    image: /assets/images/password-management/bitwarden.svg
     url: https://bitwarden.com
     sameAs: https://en.wikipedia.org/wiki/Bitwarden
     applicationCategory: Password Manager
@@ -32,7 +32,7 @@ schema:
     "@context": http://schema.org
     "@type": SoftwareApplication
     name: 1Password
-    image: /assets/img/password-management/1password.svg
+    image: /assets/images/password-management/1password.svg
     url: https://1password.com
     sameAs: https://en.wikipedia.org/wiki/1Password
     applicationCategory: Password Manager
@@ -50,7 +50,7 @@ schema:
     "@context": http://schema.org
     "@type": SoftwareApplication
     name: Proton Pass
-    image: /assets/img/password-management/protonpass.svg
+    image: /assets/images/password-management/protonpass.svg
     url: https://proton.me/pass
     applicationCategory: Password Manager
     operatingSystem:
@@ -64,7 +64,7 @@ schema:
     "@context": http://schema.org
     "@type": SoftwareApplication
     name: Psono
-    image: /assets/img/password-management/psono.svg
+    image: /assets/images/password-management/psono.svg
     url: https://psono.com
     applicationCategory: Password Manager
     operatingSystem:
@@ -78,7 +78,7 @@ schema:
     "@context": http://schema.org
     "@type": SoftwareApplication
     name: KeePassXC
-    image: /assets/img/password-management/keepassxc.svg
+    image: /assets/images/password-management/keepassxc.svg
     url: https://keepassxc.org
     sameAs: https://en.wikipedia.org/wiki/KeePassXC
     applicationCategory: Password Manager
@@ -94,7 +94,7 @@ schema:
     "@context": http://schema.org
     "@type": SoftwareApplication
     name: KeePassDX
-    image: /assets/img/password-management/keepassdx.svg
+    image: /assets/images/password-management/keepassdx.svg
     url: https://keepassdx.com
     applicationCategory: Password Manager
     operatingSystem: Android
@@ -106,7 +106,7 @@ schema:
     "@context": http://schema.org
     "@type": SoftwareApplication
     name: Gopass
-    image: /assets/img/password-management/gopass.svg
+    image: /assets/images/password-management/gopass.svg
     url: https://gopass.pw
     applicationCategory: Password Manager
     operatingSystem:
@@ -147,9 +147,9 @@ schema:
 
 <div class="admonition recommendation" markdown>
 
-![비트워든 로고](assets/img/password-management/bitwarden.svg){ align=right }
+![Bitwarden logo](assets/images/password-management/bitwarden.svg){ align=right }
 
-**비트워든**은 자유 오픈 소스 비밀번호 및 패스키 관리자입니다. 개인, 팀, 비즈니스 조직의 비밀번호 관리 문제를 해결하는 것을 목표로 합니다. 비트워든은 모든 로그인 정보와 비밀번호를 저장하면서 모든 기기 간에 편리하게 동기화할 수 있는, 가장 뛰어나고 안전한 솔루션 중 하나입니다.
+**Bitwarden** is a free and open-source password and passkey manager. 개인, 팀, 비즈니스 조직의 비밀번호 관리 문제를 해결하는 것을 목표로 합니다. 비트워든은 모든 로그인 정보와 비밀번호를 저장하면서 모든 기기 간에 편리하게 동기화할 수 있는, 가장 뛰어나고 안전한 솔루션 중 하나입니다.
 
 [:octicons-home-16: 홈페이지](https://bitwarden.com){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://bitwarden.com/privacy){ .card-link title="개인정보 처리방침" }
@@ -185,9 +185,9 @@ schema:
 
 <div class="admonition recommendation" markdown>
 
-![프로톤 패스 로고](assets/img/password-management/protonpass.svg){ align=right }
+![Proton Pass logo](assets/images/password-management/protonpass.svg){ align=right }
 
-**프로톤 패스**는 [프로톤 메일](email.md#proton-mail)을 만든 팀인 프로톤이 개발한 오픈 소스 종단 간 암호화 비밀번호 관리자입니다. 로그인 자격 증명을 안전하게 저장하고, 고유한 이메일 별칭을 생성하며, 패스키를 지원하고 저장합니다.
+**Proton Pass** is an open-source, end-to-end encrypted password manager developed by Proton, the team behind [Proton Mail](email.md#proton-mail). 로그인 자격 증명을 안전하게 저장하고, 고유한 이메일 별칭을 생성하며, 패스키를 지원하고 저장합니다.
 
 [:octicons-home-16: 홈페이지](https://proton.me/pass){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://proton.me/pass/privacy-policy){ .card-link title="개인정보 처리방침" }
@@ -221,9 +221,9 @@ schema:
 
 <div class="admonition recommendation" markdown>
 
-![1Password 로고](assets/img/password-management/1password.svg){ align=right }
+![1Password logo](assets/images/password-management/1password.svg){ align=right }
 
-**1Password**는 보안과 사용 편의성에 크게 중점을 둔 비밀번호 관리자로, 비밀번호, 패스키, 신용카드, 소프트웨어 라이선스 및 기타 민감한 정보를 안전한 디지털 보관함에 저장할 수 있습니다. 보관함은 [월 요금](https://1password.com/sign-up)을 내고 1Password 서버에 호스팅됩니다.
+**1Password** is a password manager with a strong focus on security and ease-of-use that allows you to store passwords, passkeys, credit cards, software licenses, and any other sensitive information in a secure digital vault. 보관함은 [월 요금](https://1password.com/sign-up)을 내고 1Password 서버에 호스팅됩니다.
 
 1Password는 정기적으로 [감사](https://support.1password.com/security-assessments)를 받으며, 뛰어난 고객 지원을 제공합니다. 1Password는 비공개 소스이지만, 제품의 보안은 [보안 백서](https://1passwordstatic.com/files/security/1password-white-paper.pdf)에 철저하게 문서화되어 있습니다.
 
@@ -257,9 +257,9 @@ schema:
 
 <div class="admonition recommendation" markdown>
 
-![Psono 로고](assets/img/password-management/psono.svg){ align=right }
+![Psono logo](assets/images/password-management/psono.svg){ align=right }
 
-**Psono**는 팀용 비밀번호 관리에 중점을 둔 독일의 자유 오픈 소스 비밀번호 관리자입니다. Psono는 비밀번호, 파일, 북마크, 이메일의 안전한 공유를 지원합니다. 모든 비밀 정보는 마스터 비밀번호로 보호됩니다.
+**Psono** is a free and open-source password manager from Germany, with a focus on password management for teams. Psono는 비밀번호, 파일, 북마크, 이메일의 안전한 공유를 지원합니다. 모든 비밀 정보는 마스터 비밀번호로 보호됩니다.
 
 [:octicons-home-16: 홈페이지](https://psono.com){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://psono.com/privacy-policy){ .card-link title="개인정보 처리방침" }
@@ -310,9 +310,9 @@ Psono는 제품에 대한 방대한 문서를 제공합니다. Psono의 웹 클�
 
 <div class="admonition recommendation" markdown>
 
-![키패스XC 로고](assets/img/password-management/keepassxc.svg){ align=right }
+![KeePassXC logo](assets/images/password-management/keepassxc.svg){ align=right }
 
-**키패스XC**는 키패스 패스워드 세이프의 네이티브 크로스 플랫폼 포트인 키패스X의 커뮤니티 포크로, 새로운 기능과 버그 수정으로 키패스X를 확장하고 개선하여 기능이 풍부한 최신 크로스 플랫폼 오픈 소스 비밀번호 관리자를 제공하는 것을 목표로 합니다.
+**KeePassXC** is a community fork of KeePassX, a native cross-platform port of KeePass Password Safe, with the goal of extending and improving it with new features and bug fixes to provide a feature-rich, cross-platform, and modern open-source password manager.
 
 [:octicons-home-16: 홈페이지](https://keepassxc.org){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://keepassxc.org/privacy){ .card-link title="개인정보 처리방침" }
@@ -340,9 +340,9 @@ Psono는 제품에 대한 방대한 문서를 제공합니다. Psono의 웹 클�
 
 <div class="admonition recommendation" markdown>
 
-![키패스DX 로고](assets/img/password-management/keepassdx.svg){ align=right }
+![KeePassDX logo](assets/images/password-management/keepassdx.svg){ align=right }
 
-**키패스DX**는 안드로이드용 경량 비밀번호 관리자로, 키패스 형식의 단일 파일에 담긴 암호화된 데이터를 편집할 수 있으며 양식을 안전하게 자동 입력할 수 있습니다.
+**KeePassDX** is a lightweight password manager for Android; it allows for editing encrypted data in a single file in KeePass format and can fill in forms securely.
 
 [:octicons-home-16: 홈페이지](https://keepassdx.com){ .md-button .md-button--primary }
 [:octicons-info-16:](https://github.com/Kunzisoft/KeePassDX/wiki){ .card-link title="문서" }
@@ -365,9 +365,9 @@ Psono는 제품에 대한 방대한 문서를 제공합니다. Psono의 웹 클�
 
 <div class="admonition recommendation" markdown>
 
-![키패시움 로고](assets/img/password-management/keepassium.svg){ align=right }
+![KeePassium logo](assets/images/password-management/keepassium.svg){ align=right }
 
-키패시움은 키패시움 랩스가 만든 상용 오픈 소스 비밀번호 관리자로, 다른 키패스 애플리케이션과 호환됩니다. 자동 완성 지원, 패스키 관리, [대부분의 클라우드 스토리지 제공업체](https://support.keepassium.com/kb/sync)를 통한 자동 양방향 동기화 등을 제공합니다.
+KeePassium is a commercial, open-source password manager made by KeePassium Labs that's compatible with other KeePass applications. 자동 완성 지원, 패스키 관리, [대부분의 클라우드 스토리지 제공업체](https://support.keepassium.com/kb/sync)를 통한 자동 양방향 동기화 등을 제공합니다.
 
 [:material-star-box: 키패시움에 대한 최신 리뷰를 읽어 보세요.](https://www.privacyguides.org/articles/2025/05/13/keepassium-review)
 
@@ -394,9 +394,9 @@ Psono는 제품에 대한 방대한 문서를 제공합니다. Psono의 웹 클�
 
 <div class="admonition recommendation" markdown>
 
-![고패스 로고](assets/img/password-management/gopass.svg){ align=right }
+![Gopass logo](assets/images/password-management/gopass.svg){ align=right }
 
-**고패스**는 Go로 작성된 명령줄용 미니멀 비밀번호 관리자입니다. 스크립트 애플리케이션 안에서 사용할 수 있으며, 모든 주요 데스크톱 및 서버 운영 체제에서 작동합니다.
+**Gopass** is a minimal password manager for the command line written in Go. 스크립트 애플리케이션 안에서 사용할 수 있으며, 모든 주요 데스크톱 및 서버 운영 체제에서 작동합니다.
 
 [:octicons-home-16: 홈페이지](https://gopass.pw){ .md-button .md-button--primary }
 [:octicons-info-16:](https://github.com/gopasspw/gopass/tree/master/docs){ .card-link title="문서" }

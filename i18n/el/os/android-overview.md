@@ -5,7 +5,7 @@ description: Το Android είναι ένα λειτουργικό σύστημ�
 robots: nofollow, max-snippet:-1, max-image-preview:large
 ---
 
-![Android logo](../assets/img/android/android.svg){ align=right }
+![Android logo](../assets/images/android/android.svg){ align=right }
 
 Το **έργο ανοιχτού κώδικα Android** (AOSP) είναι ένα ασφαλές λειτουργικό σύστημα για κινητά με ισχυρή [απομόνωση εφαρμογών](https://source.android.com/security/app-sandbox), [επαληθευμένη εκκίνηση](https://source.android.com/security/verifiedboot) (AVB) και στιβαρό σύστημα ελέγχου [αδειών](https://developer.android.com/guide/topics/permissions/overview).
 

@@ -36,7 +36,7 @@ robots: nofollow, max-snippet:-1, max-image-preview:large
 
 <div class="admonition recommendation" markdown>
 
-![셸터 로고](../assets/img/android/shelter.svg){ align=right }
+![Shelter logo](../assets/images/android/shelter.svg){ align=right }
 
 **셸터**는 안드로이드의 직장 프로필 기능을 활용해 앱을 별도의 프로필에서 격리해 실행하거나 복제할 수 있도록 돕는 앱입니다.
 
@@ -65,8 +65,8 @@ robots: nofollow, max-snippet:-1, max-image-preview:large
 
 <div class="admonition recommendation" markdown>
 
-![시큐어 카메라 로고](../assets/img/android/secure_camera.svg#only-light){ align=right }
-![시큐어 카메라 로고](../assets/img/android/secure_camera-dark.svg#only-dark){ align=right }
+![Secure camera logo](../assets/images/android/secure_camera.svg#only-light){ align=right }
+![Secure camera logo](../assets/images/android/secure_camera-dark.svg#only-dark){ align=right }
 
 **시큐어 카메라**는 프라이버시와 보안에 중점을 둔 카메라 앱으로, 사진과 동영상을 촬영하고 QR 코드를 스캔할 수 있습니다. 지원되는 기기에서는 CameraX 제조사 확장 기능(인물 사진, HDR, 야간 모드, 얼굴 보정, 자동)도 사용할 수 있습니다.
 
@@ -109,8 +109,8 @@ robots: nofollow, max-snippet:-1, max-image-preview:large
 
 <div class="admonition recommendation" markdown>
 
-![시큐어 PDF 뷰어 로고](../assets/img/android/secure_pdf_viewer.svg#only-light){ align=right }
-![시큐어 PDF 뷰어 로고](../assets/img/android/secure_pdf_viewer-dark.svg#only-dark){ align=right }
+![Secure PDF Viewer logo](../assets/images/android/secure_pdf_viewer.svg#only-light){ align=right }
+![Secure PDF Viewer logo](../assets/images/android/secure_pdf_viewer-dark.svg#only-dark){ align=right }
 
 **시큐어 PDF 뷰어**는 [pdf.js](https://en.wikipedia.org/wiki/PDF.js) 기반의 PDF 뷰어로, 어떠한 권한도 필요하지 않습니다. PDF는 [샌드박스](https://en.wikipedia.org/wiki/Sandbox_(software_development))가 적용된 [웹뷰](https://developer.android.com/guide/webapps/webview)에 로드됩니다. 따라서 콘텐츠나 파일에 접근하기 위한 권한을 직접 요구하지 않습니다.
 

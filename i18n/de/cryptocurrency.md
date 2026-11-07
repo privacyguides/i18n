@@ -26,9 +26,9 @@ Viele, wenn nicht die meisten, Kryptowährungsprojekte sind Betrugsmaschen. Tät
 
 <div class="admonition recommendation" markdown>
 
-![Monero-Logo](assets/img/cryptocurrency/monero.svg){ align=right }
+![Monero logo](assets/images/cryptocurrency/monero.svg){ align=right }
 
-**Monero** verwendet eine Blockchain mit Technologien zur Verbesserung der Privatsphäre, die Transaktionen verschleiern, um [:material-incognito: Anonymität](basics/common-threats.md#anonymity-vs-privacy){ .pg-purple } zu erreichen. Jede Monero-Transaktion verbirgt den Transaktionsbetrag, die sendende und empfangende Adresse und die Quelle des Geldes, ohne dass man irgendwelche Hürden überwinden muss, was es zu einer idealen Wahl für Kryptowährungs-Neulinge macht.
+**Monero** uses a blockchain with privacy-enhancing technologies that obfuscate transactions to achieve [:material-incognito: Anonymity](basics/common-threats.md#anonymity-vs-privacy){ .pg-purple }. Jede Monero-Transaktion verbirgt den Transaktionsbetrag, die sendende und empfangende Adresse und die Quelle des Geldes, ohne dass man irgendwelche Hürden überwinden muss, was es zu einer idealen Wahl für Kryptowährungs-Neulinge macht.
 
 [:octicons-home-16: Homepage](https://getmonero.org){ .md-button .md-button--primary }
 [:octicons-info-16:](https://getmonero.org/resources/user-guides){ .card-link title=Dokumentation}

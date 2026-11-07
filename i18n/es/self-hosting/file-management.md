@@ -18,7 +18,7 @@ Autoalojar tus propias herramientas de **gestión de archivos** podría ser una 
 
 <div class="admonition recommendation" markdown>
 
-![PhotoPrism logo](../assets/img/self-hosting/photoprism.svg){ align=right }
+![PhotoPrism logo](../assets/images/self-hosting/photoprism.svg){ align=right }
 
 **PhotoPrism** es una plataforma para la gestión de fotos. Permite sincronizar y compartir álbumes y tiene otras muchas [funciones](https://photoprism.app/features). No incluye cifrado de extremo a extremo, por lo que es mejor alojarlo en un servidor en el que confíes y que esté bajo tu control.
 
@@ -35,7 +35,7 @@ Autoalojar tus propias herramientas de **gestión de archivos** podría ser una 
 
 <div class="admonition recommendation" markdown>
 
-![FreedomBox logo](../assets/img/self-hosting/freedombox.svg){ align=right }
+![FreedomBox logo](../assets/images/self-hosting/freedombox.svg){ align=right }
 
 **FreedomBox** es un sistema operativo diseñado para ser ejecutado en un [ordenador monoplaca (SBC)](https://en.wikipedia.org/wiki/Single-board_computer). El objetivo es facilitar la configuración de aplicaciones de servidor para casos de uso como compartir archivos.
 
@@ -50,7 +50,7 @@ Autoalojar tus propias herramientas de **gestión de archivos** podría ser una 
 
 <div class="admonition recommendation" markdown>
 
-![Nextcloud logo](../assets/img/self-hosting/nextcloud.svg){ align=right }
+![Nextcloud logo](../assets/images/self-hosting/nextcloud.svg){ align=right }
 
 **Nextcloud** es un conjunto de programas cliente-servidor gratuitos y de código abierto para crear tus propios servicios de alojamiento de archivos en un servidor privado que tú controlas.
 

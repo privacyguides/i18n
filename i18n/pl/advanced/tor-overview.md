@@ -4,7 +4,7 @@ icon: 'simple/torproject'
 description: Tor to bezpłatna, zdecentralizowana sieć zaprojektowana z myślą o możliwie największej prywatności podczas korzystania z Internetu.
 ---
 
-![Logo Tor](../assets/img/self-contained-networks/tor.svg){ align=right }
+![Logo Tor](../assets/images/self-contained-networks/tor.svg){ align=right }
 
 [**Tor**](../alternative-networks.md#tor) to bezpłatna, zdecentralizowana sieć zaprojektowana tak, by umożliwiać korzystanie z Internetu z jak największym zachowaniem prywatności. Jeśli jest używana prawidłowo, sieć umożliwia prywatne i anonimowe przeglądanie oraz komunikację. Dzięki temu, że ruch w sieci Tor jest trudny do zablokowania i namierzenia, Tor stanowi skuteczne narzędzie do omijania cenzury.
 
@@ -111,9 +111,9 @@ Osoby narażone na ryzyko wynikające z luk przeglądarki powinny rozważyć dod
 Za każdym razem, gdy [łączysz się z siecią Tor](../tor.md), wybierze ona trzy węzły, aby zbudować ścieżkę do Internetu — ścieżka ta nazywana jest „obwodem”.
 
 <figure markdown>
-  ![Ścieżka Tora pokazująca, jak urządzenie łączy się z węzłem wejściowym, węzłem środkowym i węzłem wyjściowym przed dotarciem do strony docelowej](../assets/img/how-tor-works/tor-path.svg#only-light)
-  ![Ścieżka Tora pokazująca, jak urządzenie łączy się z węzłem wejściowym, węzłem środkowym i węzłem wyjściowym przed dotarciem do strony docelowej](../assets/img/how-tor-works/tor-path-dark.svg#only-dark)
-  <figcaption>Ścieżka obwodu Tor</figcaption>
+  ![Tor path showing your device connecting to an entry node, middle node, and exit node before reaching the destination website](../assets/images-localized/how-tor-works/tor-path.svg#only-light)
+  ![Tor path showing your device connecting to an entry node, middle node, and exit node before reaching the destination website](../assets/images-localized/how-tor-works/tor-path-dark.svg#only-dark)
+  <figcaption>Tor circuit pathway</figcaption>
 </figure>
 
 Każdy z tych węzłów pełni inną funkcję:
@@ -143,9 +143,9 @@ Węzeł wyjściowy jest wybierany losowo spośród wszystkich dostępnych węzł
 Łączenie się z usługą .onion w sieci Tor działa bardzo podobnie jak łączenie z usługą w clearnecie, ale ruch kierowany jest przez łącznie **sześć** węzłów, zanim dotrze do serwera docelowego. Podobnie jak wcześniej, tylko trzy z tych węzłów odpowiadają za *Twoją* anonimowość, a pozostałe trzy chronią anonimowość *usługi .onion*, ukrywając prawdziwy adres IP i lokalizację strony internetowej w ten sam sposób, w jaki przeglądarka Tor Browser ukrywa Twój adres i lokalizację.
 
 <figure style="width:100%" markdown>
-  ![Ścieżka Tora pokazująca, jak ruch jest kierowany przez trzy węzły po Twojej stronie oraz trzy dodatkowe węzły ukrywające tożsamość strony internetowej](../assets/img/how-tor-works/tor-path-hidden-service.svg#only-light)
-  ![Ścieżka Tora pokazująca, jak ruch jest kierowany przez trzy węzły po Twojej stronie oraz trzy dodatkowe węzły ukrywające tożsamość strony internetowej](../assets/img/how-tor-works/tor-path-hidden-service-dark.svg#only-dark)
-  <figcaption>Ścieżka obwodu Tor z usługami .onion. Węzły po stronie <span class="pg-blue">niebieskiej</span> należą do Twojej przeglądarki, natomiast węzły po stronie <span class="pg-red">czerwonej</span> należą do serwera, więc ich tożsamość jest przed Tobą ukryta.</figcaption>
+  ![Tor path showing your traffic being routed through your three Tor nodes plus three additional Tor nodes which hide the website's identity](../assets/images-localized/how-tor-works/tor-path-hidden-service.svg#only-light)
+  ![Tor path showing your traffic being routed through your three Tor nodes plus three additional Tor nodes which hide the website's identity](../assets/images-localized/how-tor-works/tor-path-hidden-service-dark.svg#only-dark)
+  <figcaption>Tor circuit pathway with Onion Services. Węzły po stronie <span class="pg-blue">niebieskiej</span> należą do Twojej przeglądarki, natomiast węzły po stronie <span class="pg-red">czerwonej</span> należą do serwera, więc ich tożsamość jest przed Tobą ukryta.</figcaption>
 </figure>
 
 ## Szyfrowanie
@@ -163,9 +163,9 @@ Gdy Tor zbuduje obwód, transmisja danych odbywa się w następujący sposób:
 Poniżej znajduje się alternatywny diagram przedstawiający ten proces. Każdy węzeł usuwa swoją warstwę szyfrowania, a kiedy serwer docelowy zwraca dane, ten sam proces zachodzi w odwrotnym porządku. Na przykład węzeł wyjściowy nie zna Twojej tożsamości, ale wie, z którego węzła pochodzi pakiet — dodaje więc własną warstwę szyfrowania i odsyła dane z powrotem.
 
 <figure markdown>
-  ![Szyfrowanie w Torze](../assets/img/how-tor-works/tor-encryption.svg#only-light)
-  ![Szyfrowanie w Torze](../assets/img/how-tor-works/tor-encryption-dark.svg#only-dark)
-  <figcaption>Wysyłanie i odbieranie danych przez sieć Tor</figcaption>
+  ![Tor encryption](../assets/images-localized/how-tor-works/tor-encryption.svg#only-light)
+  ![Tor encryption](../assets/images-localized/how-tor-works/tor-encryption-dark.svg#only-dark)
+  <figcaption>Sending and receiving data through the Tor Network</figcaption>
 </figure>
 
 Tor umożliwia połączenie się z serwerem bez tego, by którakolwiek pojedyncza strona znała całą ścieżkę. Węzeł wejściowy zna Twój adres IP, ale nie wie, dokąd zmierzasz; węzeł środkowy nie zna ani Twojego adresu IP, ani docelowej domeny; węzeł wyjściowy wie, dokąd kierowany jest ruch, lecz nie wie, kim jesteś. Ponieważ to węzeł wyjściowy nawiązuje ostateczne połączenie z serwerem, serwer docelowy nigdy nie pozna Twojego adresu IP.

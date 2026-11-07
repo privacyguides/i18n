@@ -9,7 +9,7 @@ schema:
     "@context": http://schema.org
     "@type": SoftwareApplication
     name: Tor 브라우저
-    image: /assets/img/browsers/tor.svg
+    image: /assets/images/browsers/tor.svg
     url: https://torproject.org
     sameAs: https://ko.wikipedia.org/wiki/%ED%86%A0%EB%A5%B4_(%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC)
     applicationCategory: 웹 브라우저
@@ -50,9 +50,9 @@ schema:
 
 <div class="admonition recommendation" markdown>
 
-![토르 브라우저 로고](assets/img/browsers/tor.svg){ align=right }
+![Tor Browser logo](assets/images/browsers/tor.svg){ align=right }
 
-**토르 브라우저**는 익명성이 필요할 때 가장 좋은 선택입니다. 토르 네트워크와 브리지에 접속할 수 있게 해 주며, 기본 보안 수준인 *표준*, *더 안전*, *가장 안전*에 따라 자동으로 구성되는 기본 설정과 확장 프로그램이 포함되어 있습니다.
+**Tor Browser** is the top choice if you need anonymity, as it provides you with access to the Tor network and bridges, and it includes default settings and extensions that are automatically configured by the default security levels: *Standard*, *Safer* and *Safest*.
 
 [:octicons-home-16: 홈페이지](https://torproject.org){ .md-button .md-button--primary }
 [:simple-torbrowser:](http://2gzyxa5ihm7nsggfxnu52rck2vv4rvmdlkiu3zzui5du4xyclen53wid.onion){ .card-link title="어니언 서비스" }
@@ -88,9 +88,9 @@ schema:
 
 <div class="admonition recommendation" markdown>
 
-![어니언 브라우저 로고](assets/img/self-contained-networks/onion_browser.svg){ align=right }
+![Onion Browser logo](assets/images/self-contained-networks/onion_browser.svg){ align=right }
 
-**어니언 브라우저**는 iOS 기기에서 토르 네트워크를 통해 익명으로 웹을 탐색할 수 있게 해 주는 오픈 소스 브라우저로, [토르 프로젝트](https://support.torproject.org/glossary/onion-browser)가 공식적으로 지지하는 브라우저입니다.
+**Onion Browser** is an open-source browser that lets you browse the web anonymously over the Tor network on iOS devices and is endorsed by the [Tor Project](https://support.torproject.org/glossary/onion-browser).
 
 [:material-star-box: 어니언 브라우저에 대한 최신 리뷰를 읽어보세요.](https://www.privacyguides.org/articles/2024/09/18/onion-browser-review)
 

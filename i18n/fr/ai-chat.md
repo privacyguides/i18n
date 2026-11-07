@@ -61,7 +61,7 @@ Pour vous aider à choisir un modèle adapté à vos besoins, vous pouvez consul
 
 <div class="admonition recommendation" markdown>
 
-![Logo Kobold.cpp](assets/img/ai-chat/kobold.png){align=right}
+![Kobold.cpp Logo](assets/images/ai-chat/kobold.png){align=right}
 
 **Kobold.cpp** est un client de chat IA qui s'exécute localement sur votre ordinateur Windows, Mac ou Linux. C'est un excellent choix si vous recherchez des possibilités de personnalisation et de réglages poussés, notamment pour les jeux de rôle.
 
@@ -96,7 +96,7 @@ Kobold.cpp vous permet de modifier certains paramètres, tels que la « tempéra
 
 <div class="admonition recommendation" markdown>
 
-![Logo Ollama](assets/img/ai-chat/ollama.png){align=right}
+![Ollama Logo](assets/images/ai-chat/ollama.png){align=right}
 
 **Ollama** est un assistant IA en ligne de commande disponible sur macOS, Linux et Windows. Ollama est un excellent choix si vous recherchez un client IA facile à utiliser, largement compatible et rapide grâce à l'utilisation de l'inférence et d'autres techniques. Il ne nécessite pas de configuration manuelle particulière.
 
@@ -124,7 +124,7 @@ Ollama simplifie la mise en place d'un chat IA local en téléchargeant automati
 
 <div class="admonition recommendation" markdown>
 
-![Logo Llamafile](assets/img/ai-chat/llamafile.webp){align=right}
+![Llamafile Logo](assets/images/ai-chat/llamafile.webp){align=right}
 
 **Llamafile** est un binaire léger, constitué d'un seul fichier, qui permet aux utilisateurs d'exécuter des modèles de langage (LLM) localement sur leur propre ordinateur, sans aucune configuration préalable. Le projet est [soutenu par Mozilla](https://hacks.mozilla.org/2023/11/introducing-llamafile) et disponible sous Linux, macOS et Windows.
 

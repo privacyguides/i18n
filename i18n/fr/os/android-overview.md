@@ -5,7 +5,7 @@ description: Android est un système d'exploitation open source doté de solides
 robots: nofollow, max-snippet:-1, max-image-preview:large
 ---
 
-![Logo d'Android](../assets/img/android/android.svg){ align=right }
+![Logo d'Android](../assets/images/android/android.svg){ align=right }
 
 **Android Open Source Project** est un système d'exploitation mobile sécurisé doté d'un solide [sandboxing d'application](https://source.android.com/security/app-sandbox), d'un [démarrage vérifié](https://source.android.com/security/verifiedboot) (AVB), et d'un solide système de contrôle des [autorisations](https://developer.android.com/guide/topics/permissions/overview).
 

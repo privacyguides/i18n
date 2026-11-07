@@ -19,7 +19,7 @@ cover: alternative-networks.webp
 
 <div class="admonition recommendation" markdown>
 
-![Tor logo](assets/img/self-contained-networks/tor.svg){ align=right }
+![Tor logo](assets/images/self-contained-networks/tor.svg){ align=right }
 
 شبكة **Tor** هي مجموعة من الخوادم التي يديرها متطوعون، وتتيح لك الاتصال بالإنترنت مجانا مع حماية خصوصيتك وتعزيز أمانك. ويمكن للأفراد والمؤسسات مشاركة المعلومات عبرها باستخدام «خدمات .onion الخفية»، وذلك دون نهك خصوصيتهم. لأن حظر حركة البيانات عبر Tor وتتبعها أمر صعب، تُعد Tor أداة فعالة لتجاوز [:material-close-outline: الرقابة](basics/common-threats.md#avoiding-censorship){ .pg-blue-gray }.
 
@@ -48,7 +48,7 @@ cover: alternative-networks.webp
 
 <div class="admonition recommendation" markdown>
 
-![Orbot logo](assets/img/self-contained-networks/orbot.svg){ align=right }
+![Orbot logo](assets/images/self-contained-networks/orbot.svg){ align=right }
 
 تطبيق Orbot هو تطبيق للهواتف يوجّه حركة الإنترنت من أي تطبيق على جهازك عبر شبكة Tor.
 
@@ -90,8 +90,8 @@ cover: alternative-networks.webp
 
 <div class="admonition recommendation" markdown>
 
-![Snowflake logo](assets/img/self-contained-networks/snowflake.svg#only-light){ align=right }
-![Snowflake logo](assets/img/self-contained-networks/snowflake-dark.svg#only-dark){ align=right }
+![Snowflake logo](assets/images/self-contained-networks/snowflake.svg#only-light){ align=right }
+![Snowflake logo](assets/images/self-contained-networks/snowflake-dark.svg#only-dark){ align=right }
 
 يتيح لك **Snowflake** المساهمة بجزء من سرعة اتصالك بالإنترنت لدعم مشروع Tor، من خلال تشغيل بروكسي "Snowflake" داخل متصفحك.
 
@@ -118,8 +118,8 @@ cover: alternative-networks.webp
 
 <div class="admonition recommendation" markdown>
 
-![I2P logo](assets/img/self-contained-networks/i2p.svg#only-light){ align=right }
-![I2P logo](assets/img/self-contained-networks/i2p-dark.svg#only-dark){ align=right }
+![I2P logo](assets/images/self-contained-networks/i2p.svg#only-light){ align=right }
+![I2P logo](assets/images/self-contained-networks/i2p-dark.svg#only-dark){ align=right }
 
 طبقة **I2P** هي طبقة شبكية تشفر اتصالاتك وتوجهها عبر شبكة من أجهزة الكمبيوتر المنتشرة حول العالم. تركز I2P بشكل أساسي على إنشاء شبكة بديلة تحمي الخصوصية، بدلا من إخفاء هويتك عند استخدام الإنترنت العادي.
 

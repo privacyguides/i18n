@@ -61,7 +61,7 @@ Para ayudarte a elegir un modelo que se adapte a tus necesidades, puedes consult
 
 <div class="admonition recommendation" markdown>
 
-![Kobold.cpp Logo](assets/img/ai-chat/kobold.png){align=right}
+![Kobold.cpp Logo](assets/images/ai-chat/kobold.png){align=right}
 
 **Kobold.cpp** es un cliente de IA que se ejecuta localmente en tu ordenador Windows, Mac o Linux. Es una opción excelente si lo que buscas es una gran personalización y ajuste, por ejemplo para juegos de rol.
 
@@ -96,7 +96,7 @@ Kobold.cpp te permite modificar parámetros como la temperatura del modelo de IA
 
 <div class="admonition recommendation" markdown>
 
-![Ollama Logo](assets/img/ai-chat/ollama.png){align=right}
+![Ollama Logo](assets/images/ai-chat/ollama.png){align=right}
 
 **Ollama** es un asistente de IA de línea de comandos disponible en macOS, Linux y Windows. Ollama es una gran elección si buscas un cliente de IA fácil de usar, ampliamente compatible y rápido gracias a su uso de la inferencia y otras técnicas. Tampoco requiere ninguna configuración manual.
 
@@ -124,7 +124,7 @@ Ollama simplifica el proceso de creación de un chat de IA local descargando aut
 
 <div class="admonition recommendation" markdown>
 
-![Llamafile Logo](assets/img/ai-chat/llamafile.webp){align=right}
+![Llamafile Logo](assets/images/ai-chat/llamafile.webp){align=right}
 
 **Llamafile** es un ejecutable ligero de un solo archivo que permite a los usuarios ejecutar LLM localmente en sus propios ordenadores sin necesidad de configuración. Está [respaldado por Mozilla](https://hacks.mozilla.org/2023/11/introducing-llamafile) y disponible en Linux, macOS y Windows.
 

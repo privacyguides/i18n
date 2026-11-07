@@ -16,10 +16,10 @@ A continuación se indican algunos sistemas operativos alternativos que pueden u
 
 <div class="admonition recommendation" markdown>
 
-![OpenWrt logo](assets/img/router/openwrt.svg#only-light){ align=right }
-![OpenWrt logo](assets/img/router/openwrt-dark.svg#only-dark){ align=right }
+![OpenWrt logo](assets/images/router/openwrt.svg#only-light){ align=right }
+![OpenWrt logo](assets/images/router/openwrt-dark.svg#only-dark){ align=right }
 
-**OpenWrt** es un sistema operativo basado en Linux; se utiliza principalmente en dispositivos integrados para enrutar el tráfico de red. Incluye util-linux, uClibc, y BusyBox. Todos los componentes han sido optimizados para routers domésticos.
+**OpenWrt** is a Linux-based operating system; it's primarily used on embedded devices to route network traffic. Incluye util-linux, uClibc, y BusyBox. Todos los componentes han sido optimizados para routers domésticos.
 
 [:octicons-home-16: Página Principal](https://openwrt.org){ .md-button .md-button--primary }
 [:octicons-info-16:](https://openwrt.org/docs/start){ .card-link title=Documentación}
@@ -36,9 +36,9 @@ Puedes consultar [ la tabla de hardware](https://openwrt.org/toh/start) de OpenW
 
 <div class="admonition recommendation" markdown>
 
-![OPNsense logo](assets/img/router/opnsense.svg){ align=right }
+![OPNsense logo](assets/images/router/opnsense.svg){ align=right }
 
-**OPNsense** es una plataforma de enrutamiento y cortafuegos de código abierto basada en FreeBSD que incorpora muchas características avanzadas, como la conformación del tráfico, el equilibrio de carga y las capacidades de VPN, con muchas más características disponibles en forma de plugins. OPNsense se implementa habitualmente como cortafuegos perimetral, router, punto de acceso inalámbrico, servidor DHCP, servidor DNS y punto final VPN.
+**OPNsense** is an open-source, FreeBSD-based firewall and routing platform which incorporates many advanced features such as traffic shaping, load balancing, and VPN capabilities, with many more features available in the form of plugins. OPNsense se implementa habitualmente como cortafuegos perimetral, router, punto de acceso inalámbrico, servidor DHCP, servidor DNS y punto final VPN.
 
 [:octicons-home-16: Página Principal](https://opnsense.org){ .md-button .md-button--primary }
 [:octicons-info-16:](https://docs.opnsense.org/index.html){ .card-link title=Documentación}

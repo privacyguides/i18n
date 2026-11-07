@@ -29,9 +29,9 @@ OpenPGP de [ileriye dönük gizliliği](https://tr.wikipedia.org/wiki/İleri_giz
 
 <div class="admonition recommendation" markdown>
 
-![Thunderbird logo](assets/img/email-clients/thunderbird.svg){ align=right }
+![Thunderbird logo](assets/images/email-clients/thunderbird.svg){ align=right }
 
-**Thunderbird**, günümüzde Thunderbird topluluğu tarafından, daha önce de Mozilla Vakfı tarafından geliştirilen, özgür, açık kaynaklı, çok platformlu bir e-posta, haber grubu, RSS akışı ve sohbet (XMPP, IRC, Matrix) istemcisidir.
+**Thunderbird** is a free, open-source, cross-platform email, newsgroup, news feed, and chat (XMPP, IRC, Matrix) client developed by the Thunderbird community, and previously by the Mozilla Foundation.
 
 [:octicons-home-16: Ana Sayfa](https://thunderbird.net){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://mozilla.org/privacy/thunderbird){ .card-link title="Gizlilik Politikası" }
@@ -90,9 +90,9 @@ Bu seçenekler :material-menu: → **Ayarlar** → Gizlilik ve Güvenlik sekmesi
 
 <div class="admonition recommendation" markdown>
 
-![Apple Mail logosu](assets/img/email-clients/applemail.png){ align=right }
+![Apple Mail logo](assets/images/email-clients/applemail.png){ align=right }
 
-**Apple Mail**, macOS ile birlikte gelir ve PGP ile şifrelenmiş e-postalar gönderme özelliği ekleyen [GPG Suite](encryption.md#gpg-suite) ile OpenPGP desteği olacak şekilde genişletilebilir.
+**Apple Mail** is included in macOS and can be extended to have OpenPGP support with [GPG Suite](encryption.md#gpg-suite), which adds the ability to send PGP-encrypted email.
 
 [:octicons-home-16: Ana Sayfa](https://support.apple.com/guide/mail/welcome/mac){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://apple.com/legal/privacy/en-ww){ .card-link title="Gizlilik Politikası" }
@@ -115,9 +115,9 @@ Apple Mail, [macOS](https://support.apple.com/guide/mail/mlhl03be2866/mac) ve [i
 
 <div class="admonition recommendation" markdown>
 
-![FairEmail logosu](assets/img/email-clients/fairemail.svg){ align=right }
+![FairEmail logo](assets/images/email-clients/fairemail.svg){ align=right }
 
-**FairEmail**, açık standartları (IMAP, SMTP, OpenPGP) kullanan ve veri ile pil kullanımını en aza indirgeyen, minimal, açık kaynaklı bir e-posta uygulamasıdır.
+**FairEmail** is a minimal, open-source email app which uses open standards (IMAP, SMTP, OpenPGP) and minimizes data and battery usage.
 
 [:octicons-home-16: Ana Sayfa](https://email.faircode.eu){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://github.com/M66B/FairEmail/blob/master/PRIVACY.md){ .card-link title="Gizlilik Politikası" }
@@ -139,9 +139,9 @@ Apple Mail, [macOS](https://support.apple.com/guide/mail/mlhl03be2866/mac) ve [i
 
 <div class="admonition recommendation" markdown>
 
-![Evolution logosu](assets/img/email-clients/evolution.svg){ align=right }
+![Evolution logo](assets/images/email-clients/evolution.svg){ align=right }
 
-**Evolution**, entegre e-posta, takvim ve adres defteri özelliği sunan bir kişisel bilgi yönetimi uygulamasıdır. Evolution'un, kullanmaya başlamanıza yardımcı olacak kapsamlı bir [dokümantasyona](https://gnome.pages.gitlab.gnome.org/evolution/help) sahiptir.
+**Evolution** is a personal information management application that provides integrated mail, calendaring, and address book functionality. Evolution'un, kullanmaya başlamanıza yardımcı olacak kapsamlı bir [dokümantasyona](https://gnome.pages.gitlab.gnome.org/evolution/help) sahiptir.
 
 [:octicons-home-16: Ana Sayfa](https://gitlab.gnome.org/GNOME/evolution/-/wikis/home){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://gitlab.gnome.org/GNOME/evolution/-/wikis/Privacy-Policy){ .card-link title="Gizlilik Politikası" }
@@ -162,9 +162,9 @@ Apple Mail, [macOS](https://support.apple.com/guide/mail/mlhl03be2866/mac) ve [i
 
 <div class="admonition recommendation" markdown>
 
-![Kontact logosu](assets/img/email-clients/kontact.svg){ align=right }
+![Kontact logo](assets/images/email-clients/kontact.svg){ align=right }
 
-**Kontact**, [KDE](https://kde.org) projesl tarafından geliştirilen bir kişisel bilgi yönetimi (PIM) uygulamasıdır. Bir e-posta istemcisi, adres defteri, RSS istemcisi ve planlayıcı sunar.
+**Kontact** is a personal information manager (PIM) application from the [KDE](https://kde.org) project. Bir e-posta istemcisi, adres defteri, RSS istemcisi ve planlayıcı sunar.
 
 [:octicons-home-16: Ana Sayfa](https://kontact.kde.org){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://kde.org/privacypolicy-apps){ .card-link title="Gizlilik Politikası" }
@@ -186,9 +186,9 @@ Apple Mail, [macOS](https://support.apple.com/guide/mail/mlhl03be2866/mac) ve [i
 
 <div class="admonition recommendation" markdown>
 
-![Mailvelope logosu](assets/img/email-clients/mailvelope.svg){ align=right }
+![Mailvelope logo](assets/images/email-clients/mailvelope.svg){ align=right }
 
-**Mailvelope**, OpenPGP şifreleme standartını kullanarak şifrelenmiş e-posta alışverişini sağlayan bir tarayıcı eklentisidir.
+**Mailvelope** is a browser extension that enables the exchange of encrypted emails following the OpenPGP encryption standard.
 
 [:octicons-home-16: Ana Sayfa](https://mailvelope.com){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://mailvelope.com/privacy-policy){ .card-link title="Gizlilik Politikası" }
@@ -210,9 +210,9 @@ Apple Mail, [macOS](https://support.apple.com/guide/mail/mlhl03be2866/mac) ve [i
 
 <div class="admonition recommendation" markdown>
 
-![NeoMutt logosu](assets/img/email-clients/mutt.svg){ align=right }
+![NeoMutt logo](assets/images/email-clients/mutt.svg){ align=right }
 
-**NeoMutt**, Linux ve BSD için açık kaynaklı bir komut satırı e-posta okuyucusudur. [Mutt](https://en.wikipedia.org/wiki/Mutt_(email_client))'ın fork'lanarak daha fazla özellik eklenmiş bir sürümüdür.
+**NeoMutt** is an open-source command line email reader for Linux and BSD. [Mutt](https://en.wikipedia.org/wiki/Mutt_(email_client))'ın fork'lanarak daha fazla özellik eklenmiş bir sürümüdür.
 
 NeoMutt metin tabanlı bir istemcidir ve oldukça zorlu bir öğrenme eğrisine sahiptir. Fakat oldukça kişiselleştirilebilir.
 

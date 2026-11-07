@@ -32,7 +32,7 @@ Windows has a built-in metadata remover, but unfortunately it cannot remove many
 
 <div class="admonition recommendation" markdown>
 
-![MAT2 logo](assets/img/data-redaction/mat2.svg){ align=right }
+![MAT2 logo](assets/images/data-redaction/mat2.svg){ align=right }
 
 **MAT2** is free, cross-platform software which allows you to remove metadata from image, audio, torrent, and document file types. It provides both a command line tool and a graphical user interface via an extension for [Dolphin](https://github.com/jvoisin/mat2/tree/master/dolphin), the default file manager of [KDE](https://kde.org).
 
@@ -56,7 +56,7 @@ Windows has a built-in metadata remover, but unfortunately it cannot remove many
 
 <div class="admonition recommendation" markdown>
 
-![Metadata Cleaner logo](assets/img/data-redaction/metadatacleaner.svg){ align=right }
+![Metadata Cleaner logo](assets/images/data-redaction/metadatacleaner.svg){ align=right }
 
 **Metadata Cleaner** is a graphical metadata removal tool for Linux powered by [MAT2](https://github.com/jvoisin/mat2).
 
@@ -77,7 +77,7 @@ Windows has a built-in metadata remover, but unfortunately it cannot remove many
 
 <div class="admonition recommendation" markdown>
 
-![ExifEraser logo](assets/img/data-redaction/exiferaser.svg){ align=right }
+![ExifEraser logo](assets/images/data-redaction/exiferaser.svg){ align=right }
 
 **ExifEraser** is a modern, permissionless image metadata erasing application for Android.
 
@@ -128,7 +128,7 @@ This shortcut removes metadata such as location, device model, lens model, and o
 
 <div class="admonition recommendation" markdown>
 
-![ExifTool logo](assets/img/data-redaction/exiftool.png){ align=right }
+![ExifTool logo](assets/images/data-redaction/exiftool.png){ align=right }
 
 **ExifTool** is the original Perl library and command-line application for reading, writing, and editing meta information (Exif, IPTC, XMP, and more) in a wide variety of file formats (JPEG, TIFF, PNG, PDF, RAW, and more).
 

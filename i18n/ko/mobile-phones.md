@@ -14,7 +14,7 @@ schema:
     brand:
       "@type": Brand
       name: Google
-    image: /assets/img/android/google-pixel.png
+    image: /assets/images/android/google-pixel.png
     sameAs: https://en.wikipedia.org/wiki/Google_Pixel
     review:
       "@type": Review
@@ -62,7 +62,7 @@ robots: nofollow, max-snippet:-1, max-image-preview:large
 
 <div class="admonition recommendation" markdown>
 
-![구글 픽셀 6](assets/img/android/google-pixel.png){ align=right }
+![Google Pixel 6](assets/images/android/google-pixel.png){ align=right }
 
 **구글 픽셀** 기기는 보안이 뛰어나기로 유명하며, 커스텀 운영 체제를 설치해도 [자체 검사 부팅](https://source.android.com/security/verifiedboot)을 제대로 지원합니다.
 
@@ -87,8 +87,8 @@ robots: nofollow, max-snippet:-1, max-image-preview:large
 - 픽셀 기기를 저렴하게 구매하고 싶다면, 다음 플래그십 모델이 출시된 직후에 "**a**" 모델을 구입할 것을 권장합니다. 구글이 재고를 정리하려고 하기 때문에 보통 할인을 받을 수 있습니다.
 - 오프라인 매장에서 제공하는 최저가 보상 옵션이나 특가 행사를 고려해 보세요.
 - 여러분이 사는 나라의 온라인 커뮤니티 특가 정보 사이트를 살펴보세요. 좋은 할인 소식을 알려 줄 수 있습니다.
-- 구글은 각 기기의 [지원 주기](https://support.google.com/nexus/answer/4457705)를 보여 주는 목록을 제공합니다. 기기의 하루당 가격은 다음과 같이 계산할 수 있습니다: <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline" class="tml-display" style="display:inline math;"> <mfrac> <mtext>비용</mtext> <mrow> <mtext>지원 종료일</mtext> <mo>−</mo> <mtext>현재 날짜</mtext> </mrow> </mfrac> </math>
-  , 즉 기기를 오래 사용할수록 하루당 비용이 낮아집니다.
+- 구글은 각 기기의 [지원 주기](https://support.google.com/nexus/answer/4457705)를 보여 주는 목록을 제공합니다. The price per day for a device can be calculated as: <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline" class="tml-display" style="display:inline math;"> <mfrac> <mtext>Cost</mtext> <mrow> <mtext>End of Life Date</mtext> <mo>−</mo> <mtext>Current Date</mtext> </mrow> </mfrac> </math>
+  , meaning that the longer use of the device the lower cost per day.
 - 여러분의 지역에서 픽셀을 구할 수 없다면 [니트로폰](https://shop.nitrokey.com/shop)을 전 세계로 배송받을 수 있습니다.
 
 그래핀OS의 [웹 설치 프로그램](https://grapheneos.org/install/web)을 사용하면 픽셀 휴대폰에 그래핀OS를 쉽게 설치할 수 있습니다. 직접 설치하기가 부담스럽고 약간의 추가 비용을 낼 의향이 있다면, 평판이 좋은 [니트로키](https://nitrokey.com/about)사의 그래핀OS가 사전 설치된 [니트로폰](https://shop.nitrokey.com/shop)을 살펴보세요.

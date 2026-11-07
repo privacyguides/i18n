@@ -32,10 +32,10 @@ description: 這些服務可協助您保護您的隱私不受商家和其他追�
 
 <div class="admonition recommendation" markdown>
 
-![Privacy.com logo](assets/img/financial-services/privacy_com.svg#only-light){ align=right }
-![Privacy.com logo](assets/img/financial-services/privacy_com-dark.svg#only-dark){ align=right }
+![Privacy.com logo](assets/images/financial-services/privacy_com.svg#only-light){ align=right }
+![Privacy.com logo](assets/images/financial-services/privacy_com-dark.svg#only-dark){ align=right }
 
-**Privacy.com** 的免費方案允許您每月最多創建 12 張虛擬卡，並可設定卡片的支付上限與立即關閉卡片。他們的付費方案提供更高的每月可建立卡片數量上限。
+**Privacy.com**'s free plan allows you to create up to 12 virtual cards per month, set spend limits on those cards, and shut off cards instantly. 他們的付費方案提供更高的每月可建立卡片數量上限。
 
 [:octicons-home-16: 首頁](https://privacy.com){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://privacy.com/privacy-policy){ .card-link title="隱私權政策" }
@@ -51,10 +51,10 @@ Privacy.com [預設](https://support.privacy.com/hc/en-us/articles/360012407533-
 
 <div class="admonition recommendation" markdown>
 
-![MySudo logo](assets/img/financial-services/mysudo.svg#only-light){ align=right }
-![MySudo logo](assets/img/financial-services/mysudo-dark.svg#only-dark){ align=right }
+![MySudo logo](assets/images/financial-services/mysudo.svg#only-light){ align=right }
+![MySudo logo](assets/images/financial-services/mysudo-dark.svg#only-dark){ align=right }
 
-**MySudo** 根據您購買的方案最多提供 9 張虛擬卡。付費方案還包括一些有助於私密購物的功能，例如虛擬電話號碼和電子郵件位址，但我們通常建議使用專業 [電子郵件別名提供商](email-aliasing.md)進行廣泛的別名使用保護。
+**MySudo** provides up to 9 virtual cards depending on the plan you purchase. 付費方案還包括一些有助於私密購物的功能，例如虛擬電話號碼和電子郵件位址，但我們通常建議使用專業 [電子郵件別名提供商](email-aliasing.md)進行廣泛的別名使用保護。
 
 [:octicons-home-16: 首頁](https://mysudo.com){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://anonyome.com/privacy-policy){ .card-link title="隱私權政策" }
@@ -85,9 +85,9 @@ MySudo 虛擬卡目前只能在其 iOS應用上使用。
 
 <div class="admonition recommendation" markdown>
 
-![Coincards logo](assets/img/financial-services/coincards.svg){ align=right }
+![Coincards logo](assets/images/financial-services/coincards.svg){ align=right }
 
-**Coincards** 可讓您購買各式各樣商家的禮品卡。他們的首頁完整列出提供服務的所有國家。
+**Coincards** allows you to purchase gift cards for a large variety of merchants. 他們的首頁完整列出提供服務的所有國家。
 
 [:octicons-home-16: 首頁](https://coincards.com){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://coincards.com/privacy-policy){ .card-link title="隱私權政策" }

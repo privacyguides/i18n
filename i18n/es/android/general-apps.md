@@ -36,7 +36,7 @@ Si tu dispositivo está en Android 15 o superior, te recomendamos que utilices l
 
 <div class="admonition recommendation" markdown>
 
-![Logo de Shelter](../assets/img/android/shelter.svg){ align=right }
+![Shelter logo](../assets/images/android/shelter.svg){ align=right }
 
 **Shelter** es una aplicación que ayuda con el aprovechamiento de la característica de los perfiles de trabajo para aislar o duplicar aplicaciones en tu dispositivo.
 
@@ -65,8 +65,8 @@ Se recomienda Shelter en lugar de [Insular](https://secure-system.gitlab.io/Insu
 
 <div class="admonition recommendation" markdown>
 
-![Secure camera logo](../assets/img/android/secure_camera.svg#only-light){ align=right }
-![Secure camera logo](../assets/img/android/secure_camera-dark.svg#only-dark){ align=right }
+![Secure camera logo](../assets/images/android/secure_camera.svg#only-light){ align=right }
+![Secure camera logo](../assets/images/android/secure_camera-dark.svg#only-dark){ align=right }
 
 **Secure Camera** es una aplicación de cámara centrada en la privacidad y la seguridad que puede capturar imágenes, vídeos y códigos QR. Las extensiones del proveedor CameraX (Retrato, HDR, Vista Nocturna, Retoque Facial y Automático) también son compatibles en los dispositivos disponibles.
 
@@ -109,8 +109,8 @@ Los metadatos de orientación de la imagen no se borran. Si activas la localizac
 
 <div class="admonition recommendation" markdown>
 
-![Secure PDF Viewer logo](../assets/img/android/secure_pdf_viewer.svg#only-light){ align=right }
-![Secure PDF Viewer logo](../assets/img/android/secure_pdf_viewer-dark.svg#only-dark){ align=right }
+![Secure PDF Viewer logo](../assets/images/android/secure_pdf_viewer.svg#only-light){ align=right }
+![Secure PDF Viewer logo](../assets/images/android/secure_pdf_viewer-dark.svg#only-dark){ align=right }
 
 **Secure PDF Viewer** es un visor de PDF basado en [pdf.js](https://en.wikipedia.org/wiki/PDF.js) que no requiere ningún permiso. El PDF se introduce en un [WebView](https://developer.android.com/guide/webapps/webview) [aislado](https://es.wikipedia.org/wiki/Entorno_de_pruebas_(inform%C3%A1tica)). Esto significa que no necesita permiso directamente para acceder a contenidos o archivos.
 

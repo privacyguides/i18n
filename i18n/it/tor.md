@@ -9,7 +9,7 @@ schema:
     "@context": http://schema.org
     "@type": SoftwareApplication
     name: Tor Browser
-    image: /assets/img/browsers/tor.svg
+    image: /assets/images/browsers/tor.svg
     url: https://www.torproject.org/it/
     sameAs: https://it.wikipedia.org/wiki/Tor_(software)
     applicationCategory: Web Browser
@@ -50,9 +50,9 @@ Se l'anonimato più completo è fondamentale per la tua situazione, dovresti uti
 
 <div class="admonition recommendation" markdown>
 
-![Logo di Tor Browser]assets/img/browsers/tor.svg{ align=right }
+![Tor Browser logo](assets/images/browsers/tor.svg){ align=right }
 
-**Tor Browser** è la scelta migliore se hai bisogno di anonimato, poiché ti consente di accedere alla rete Tor e ai bridge, e include impostazioni e estensioni predefinite configurate automaticamente dai livelli di sicurezza predefiniti: *Standard*, *Sicuro* e *Il più sicuro*.
+**Tor Browser** is the top choice if you need anonymity, as it provides you with access to the Tor network and bridges, and it includes default settings and extensions that are automatically configured by the default security levels: *Standard*, *Safer* and *Safest*.
 
 [:octicons-home-16: Pagina Principale](https://torproject.org){ .md-button .md-button--primary }
 [:simple-torbrowser:](http://2gzyxa5ihm7nsggfxnu52rck2vv4rvmdlkiu3zzui5du4xyclen53wid.onion){ .card-link title="Servizio Onion" }
@@ -88,9 +88,9 @@ Oltre a installare Tor Browser direttamente sul tuo computer, esistono inoltre d
 
 <div class="admonition recommendation" markdown>
 
-![Logo di Onion Browser](assets/img/self-contained-networks/onion_browser.svg){ align=right }
+![Onion Browser logo](assets/images/self-contained-networks/onion_browser.svg){ align=right }
 
-**Onion Browser** è un browser open-source che consente di navigare sul web in modo anonimo attraverso la rete Tor su dispositivi iOS ed è approvato dal [Tor Project](https://support.torproject.org/glossary/onion-browser).
+**Onion Browser** is an open-source browser that lets you browse the web anonymously over the Tor network on iOS devices and is endorsed by the [Tor Project](https://support.torproject.org/glossary/onion-browser).
 
 [:material-star-box: Leggi la nostra ultima recensione su Onion Browser.](https://www.privacyguides.org/articles/2024/09/18/onion-browser-review)
 

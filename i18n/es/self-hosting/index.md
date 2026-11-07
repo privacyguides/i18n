@@ -17,8 +17,8 @@ El autoalojamiento de tus propias soluciones requiere conocimientos técnicos av
 
 <div class="grid cards" markdown>
 
-- ![AdGuard Home logo](../assets/img/self-hosting/adguard-home.svg){ .twemoji loading=lazy } [AdGuard Home](dns-filtering.md#adguard-home)
-- ![Pi-Hole logo](../assets/img/self-hosting/pi-hole.svg){ .twemoji loading=lazy } [Pi-Hole](dns-filtering.md#pi-hole)
+- ![AdGuard Home logo](../assets/images/self-hosting/adguard-home.svg){ .twemoji loading=lazy } [AdGuard Home](dns-filtering.md#adguard-home)
+- ![Pi-Hole logo](../assets/images/self-hosting/pi-hole.svg){ .twemoji loading=lazy } [Pi-Hole](dns-filtering.md#pi-hole)
 
 </div>
 
@@ -28,9 +28,9 @@ El autoalojamiento de tus propias soluciones requiere conocimientos técnicos av
 
 <div class="grid cards" markdown>
 
-- ![Stalwart logo](../assets/img/self-hosting/stalwart.svg){ .twemoji loading=lazy } [Stalwart](email-servers.md#stalwart)
-- ![Mailcow logo](../assets/img/self-hosting/mailcow.svg){ .twemoji loading=lazy } [Mailcow](email-servers.md#mailcow)
-- ![Mail-in-a-Box logo](../assets/img/self-hosting/mail-in-a-box.svg){ .twemoji loading=lazy } [Mail-in-a-Box](email-servers.md#mail-in-a-box)
+- ![Stalwart logo](../assets/images/self-hosting/stalwart.svg){ .twemoji loading=lazy } [Stalwart](email-servers.md#stalwart)
+- ![Mailcow logo](../assets/images/self-hosting/mailcow.svg){ .twemoji loading=lazy } [Mailcow](email-servers.md#mailcow)
+- ![Mail-in-a-Box logo](../assets/images/self-hosting/mail-in-a-box.svg){ .twemoji loading=lazy } [Mail-in-a-Box](email-servers.md#mail-in-a-box)
 
 </div>
 
@@ -40,9 +40,9 @@ El autoalojamiento de tus propias soluciones requiere conocimientos técnicos av
 
 <div class="grid cards" markdown>
 
-- ![PhotoPrism logo](../assets/img/self-hosting/photoprism.svg){ .twemoji loading=lazy } [PhotoPrism](file-management.md#photoprism)
-- ![FreedomBox logo](../assets/img/self-hosting/freedombox.svg){ .twemoji loading=lazy } [FreedomBox](file-management.md#freedombox)
-- ![Nextcloud logo](../assets/img/self-hosting/nextcloud.svg){ .twemoji loading=lazy } [Nextcloud](file-management.md#nextcloud)
+- ![PhotoPrism logo](../assets/images/self-hosting/photoprism.svg){ .twemoji loading=lazy } [PhotoPrism](file-management.md#photoprism)
+- ![FreedomBox logo](../assets/images/self-hosting/freedombox.svg){ .twemoji loading=lazy } [FreedomBox](file-management.md#freedombox)
+- ![Nextcloud logo](../assets/images/self-hosting/nextcloud.svg){ .twemoji loading=lazy } [Nextcloud](file-management.md#nextcloud)
 
 </div>
 
@@ -54,8 +54,8 @@ El autoalojamiento de tus propias soluciones requiere conocimientos técnicos av
 
 <div class="admonition recommendation" markdown>
 
-![Vaultwarden logo](../assets/img/self-hosting/vaultwarden.svg#only-light){ align=right }
-![Vaultwarden logo](../assets/img/self-hosting/vaultwarden-dark.svg#only-dark){ align=right }
+![Vaultwarden logo](../assets/images/self-hosting/vaultwarden.svg#only-light){ align=right }
+![Vaultwarden logo](../assets/images/self-hosting/vaultwarden-dark.svg#only-dark){ align=right }
 
 **Vaultwarden** es una implementación alternativa del servidor de sincronización de [Bitwarden](../passwords.md#bitwarden) escrita en Rust y compatible con los clientes oficiales de Bitwarden, perfecta para despliegues auto-alojados en los que ejecutar el [servicio oficial](https://github.com/bitwarden/server), que consume muchos recursos, puede no ser lo ideal.
 
@@ -74,7 +74,7 @@ El autoalojamiento de tu propia instancia de un software de red social puede ayu
 
 <div class="admonition recommendation" markdown>
 
-![Mastodon logo](../assets/img/social-networks/mastodon.svg){ align=right }
+![Mastodon logo](../assets/images/social-networks/mastodon.svg){ align=right }
 
 **Mastodon** es una red social basada en protocolos web abiertos y software libre de código abierto. Utiliza el protocolo descentralizado **:simple-activitypub: ActivityPub**.
 
@@ -91,7 +91,7 @@ Mastodon se beneficia enormemente de una comunidad de autoalojamiento grande y a
 
 <div class="admonition recommendation" markdown>
 
-![Element logo](../assets/img/social-networks/element.svg){ align=right }
+![Element logo](../assets/images/social-networks/element.svg){ align=right }
 
 **Element** es el cliente estrella del protocolo **:simple-matrix: Matrix**, un estándar abierto que permite la comunicación descentralizada mediante salas de chat federadas.
 
@@ -107,14 +107,14 @@ El autoalojamiento de tu propia instancia de una interfaz de usuario basada en w
 
 <div class="grid cards" markdown>
 
-- ![Redlib logo](../assets/img/frontends/redlib.svg){ .lg .middle .twemoji } [**Redlib (Reddit)**](../frontends.md#redlib)
+- ![Redlib logo](../assets/images/frontends/redlib.svg){ .lg .middle .twemoji } [**Redlib (Reddit)**](../frontends.md#redlib)
 
   ---
 
   [:octicons-info-16:](https://github.com/redlib-org/redlib#deployment){ .card-link title="Documentación de Administrador" }
   [:octicons-code-16:](https://github.com/redlib-org/redlib){ .card-link title="Código Fuente" }
 
-- ![Invidious logo](../assets/img/frontends/invidious.svg#only-light){ .twemoji }![Invidious logo](../assets/img/frontends/invidious-dark.svg#only-dark){ .twemoji } [**Invidious (YouTube)**](../frontends.md#invidious)
+- ![Invidious logo](../assets/images/frontends/invidious.svg#only-light){ .twemoji }![Invidious logo](../assets/images/frontends/invidious-dark.svg#only-dark){ .twemoji } [**Invidious (YouTube)**](../frontends.md#invidious)
 
   ---
 
@@ -122,7 +122,7 @@ El autoalojamiento de tu propia instancia de una interfaz de usuario basada en w
   [:octicons-info-16:](https://docs.invidious.io/installation){ .card-link title="Documentación de Administrador" }
   [:octicons-code-16:](https://github.com/iv-org/invidious){ .card-link title="Código Fuente" }
 
-- ![Piped logo](../assets/img/frontends/piped.svg){ .twemoji } [**Piped (YouTube)**](../frontends.md#piped)
+- ![Piped logo](../assets/images/frontends/piped.svg){ .twemoji } [**Piped (YouTube)**](../frontends.md#piped)
 
   ---
 
@@ -137,7 +137,7 @@ Las recomendaciones de herramientas en otras categorías del sitio web también 
 
 <div class="grid cards" markdown>
 
-- ![Peergos logo](../assets/img/cloud/peergos.svg){ .twemoji } [**Peergos**](../cloud.md#peergos)
+- ![Peergos logo](../assets/images/cloud/peergos.svg){ .twemoji } [**Peergos**](../cloud.md#peergos)
 
   ---
 
@@ -145,7 +145,7 @@ Las recomendaciones de herramientas en otras categorías del sitio web también 
   [:octicons-info-16:](https://github.com/peergos/peergos#usage---running-locally-to-log-in-to-another-instance){ .card-link title="Documentación de Administrador" }
   [:octicons-code-16:](https://github.com/Peergos/Peergos){ .card-link title="Código Fuente" }
 
-- ![Addy.io logo](../assets/img/email-aliasing/addy.svg){ .twemoji } [**Addy.io**](../email-aliasing.md#addyio)
+- ![Addy.io logo](../assets/images/email-aliasing/addy.svg){ .twemoji } [**Addy.io**](../email-aliasing.md#addyio)
 
   ---
 
@@ -153,7 +153,7 @@ Las recomendaciones de herramientas en otras categorías del sitio web también 
   [:octicons-info-16:](https://addy.io/self-hosting){ .card-link title="Documentación de Administrador" }
   [:octicons-code-16:](https://github.com/anonaddy){ .card-link title="Código Fuente" }
 
-- ![SimpleLogin logo](../assets/img/email-aliasing/simplelogin.svg){ .twemoji } [**SimpleLogin**](../email-aliasing.md#simplelogin)
+- ![SimpleLogin logo](../assets/images/email-aliasing/simplelogin.svg){ .twemoji } [**SimpleLogin**](../email-aliasing.md#simplelogin)
 
   ---
 
@@ -161,7 +161,7 @@ Las recomendaciones de herramientas en otras categorías del sitio web también 
   [:octicons-info-16:](https://github.com/simple-login/app#prerequisites){ .card-link title="Documentación de Administrador" }
   [:octicons-code-16:](https://github.com/simple-login){ .card-link title="Código Fuente" }
 
-- ![Ente logo](../assets/img/photo-management/ente.svg){ .twemoji } [**Ente Photos**](../photo-management.md#ente-photos)
+- ![Ente logo](../assets/images/photo-management/ente.svg){ .twemoji } [**Ente Photos**](../photo-management.md#ente-photos)
 
   ---
 
@@ -169,7 +169,7 @@ Las recomendaciones de herramientas en otras categorías del sitio web también 
   [:octicons-info-16:](https://ente.com/help/self-hosting/){ .card-link title="Documentación de Administrador" }
   [:octicons-code-16:](https://github.com/ente-io/ente){ .card-link title="Código Fuente" }
 
-- ![CryptPad logo](../assets/img/document-collaboration/cryptpad.svg){ .twemoji } [**CryptPad**](../document-collaboration.md#cryptpad)
+- ![CryptPad logo](../assets/images/document-collaboration/cryptpad.svg){ .twemoji } [**CryptPad**](../document-collaboration.md#cryptpad)
 
   ---
 
@@ -177,7 +177,7 @@ Las recomendaciones de herramientas en otras categorías del sitio web también 
   [:octicons-info-16:](https://docs.cryptpad.org/en/admin_guide/index.html){ .card-link title="Documentación de Administrador" }
   [:octicons-code-16:](https://github.com/xwiki-labs/cryptpad){ .card-link title="Código Fuente" }
 
-- ![Send logo](../assets/img/file-sharing-sync/send.svg){ .twemoji } [**Send**](../file-sharing.md#send)
+- ![Send logo](../assets/images/file-sharing-sync/send.svg){ .twemoji } [**Send**](../file-sharing.md#send)
 
   ---
 
@@ -185,7 +185,7 @@ Las recomendaciones de herramientas en otras categorías del sitio web también 
   [:octicons-info-16:](https://github.com/timvisee/send/blob/master/docs/deployment.md){ .card-link title="Documentación de Administrador" }
   [:octicons-code-16:](https://github.com/timvisee/send){ .card-link title="Código Fuente" }
 
-- ![LibreTranslate logo](../assets/img/language-tools/libretranslate.png){ .twemoji } [**LibreTranslate**](../language-tools.md#libretranslate)
+- ![LibreTranslate logo](../assets/images/language-tools/libretranslate.png){ .twemoji } [**LibreTranslate**](../language-tools.md#libretranslate)
 
   ---
 
@@ -193,7 +193,7 @@ Las recomendaciones de herramientas en otras categorías del sitio web también 
   [:octicons-info-16:](https://docs.libretranslate.com){ .card-link title="Documentación de Administrador" }
   [:octicons-code-16:](https://github.com/LibreTranslate/LibreTranslate){ .card-link title="Código Fuente" }
 
-- ![Miniflux logo](../assets/img/news-aggregators/miniflux.svg#only-light){ .twemoji }![Miniflux logo](../assets/img/news-aggregators/miniflux-dark.svg#only-dark){ .twemoji } [**Miniflux**](../news-aggregators.md#miniflux)
+- ![Miniflux logo](../assets/images/news-aggregators/miniflux.svg#only-light){ .twemoji }![Miniflux logo](../assets/images/news-aggregators/miniflux-dark.svg#only-dark){ .twemoji } [**Miniflux**](../news-aggregators.md#miniflux)
 
   ---
 
@@ -201,7 +201,7 @@ Las recomendaciones de herramientas en otras categorías del sitio web también 
   [:octicons-info-16:](https://miniflux.app/docs/index.html#administration-guide){ .card-link title="Documentación de Administrador" }
   [:octicons-code-16:](https://github.com/miniflux/v2){ .card-link title="Código Fuente" }
 
-- ![Standard Notes logo](../assets/img/notebooks/standard-notes.svg){ .twemoji } [**Standard Notes**](../notebooks.md#standard-notes)
+- ![Standard Notes logo](../assets/images/notebooks/standard-notes.svg){ .twemoji } [**Standard Notes**](../notebooks.md#standard-notes)
 
   ---
 
@@ -209,7 +209,7 @@ Las recomendaciones de herramientas en otras categorías del sitio web también 
   [:octicons-info-16:](https://standardnotes.com/help/47/can-i-self-host-standard-notes){ .card-link title="Documentación de Administrador" }
   [:octicons-code-16:](https://github.com/standardnotes){ .card-link title="Código Fuente" }
 
-- ![PrivateBin logo](../assets/img/pastebins/privatebin.svg){ .twemoji } [**PrivateBin**](../pastebins.md#privatebin)
+- ![PrivateBin logo](../assets/images/pastebins/privatebin.svg){ .twemoji } [**PrivateBin**](../pastebins.md#privatebin)
 
   ---
 
@@ -217,7 +217,7 @@ Las recomendaciones de herramientas en otras categorías del sitio web también 
   [:octicons-info-16:](https://github.com/PrivateBin/PrivateBin/blob/master/doc/Installation.md){ .card-link title="Documentación de Administrador" }
   [:octicons-code-16:](https://github.com/PrivateBin/PrivateBin){ .card-link title="Código Fuente" }
 
-- ![Paaster logo](../assets/img/pastebins/paaster.svg){ .twemoji } [**Paaster**](../pastebins.md#paaster)
+- ![Paaster logo](../assets/images/pastebins/paaster.svg){ .twemoji } [**Paaster**](../pastebins.md#paaster)
 
   ---
 
@@ -225,7 +225,7 @@ Las recomendaciones de herramientas en otras categorías del sitio web también 
   [:octicons-info-16:](https://github.com/WardPearce/paaster#deployment){ .card-link title="Documentación de Administrador" }
   [:octicons-code-16:](https://github.com/WardPearce/paaster){ .card-link title="Código Fuente" }
 
-- ![SimpleX Chat logo](../assets/img/messengers/simplex.svg){ .twemoji } [**SimpleX Chat**](../real-time-communication.md#simplex-chat)
+- ![SimpleX Chat logo](../assets/images/messengers/simplex.svg){ .twemoji } [**SimpleX Chat**](../real-time-communication.md#simplex-chat)
 
   ---
 

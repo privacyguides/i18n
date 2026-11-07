@@ -15,7 +15,7 @@ schema:
     "@context": http://schema.org
     "@type": MobileApplication
     name: Brave
-    image: /assets/img/browsers/brave.svg
+    image: /assets/images/browsers/brave.svg
     url: https://brave.com
     applicationCategory: Web Browser
     operatingSystem:
@@ -28,7 +28,7 @@ schema:
     "@context": http://schema.org
     "@type": MobileApplication
     name: Safari
-    image: /assets/img/browsers/safari.svg
+    image: /assets/images/browsers/safari.svg
     url: https://apple.com/safari
     applicationCategory: Web Browser
     operatingSystem:
@@ -48,9 +48,9 @@ schema:
 
 <div class="admonition recommendation" markdown>
 
-![Brave logo](assets/img/browsers/brave.svg){ align=right }
+![Brave logo](assets/images/browsers/brave.svg){ align=right }
 
-**Brave ブラウザ** にはコンテンツブロッカーと[プライバシー機能](https://brave.com/privacy-features)が組み込まれており、その多くはデフォルトで有効になっています。
+**Brave Browser** includes a built-in content blocker and [privacy features](https://brave.com/privacy-features), many of which are enabled by default.
 
 BraveはChromiumウェブブラウザープロジェクトに基づいて構築されているため、使い慣れた使用感があるほか、ウェブサイトの互換性問題を最小限に抑えられます。
 
@@ -201,9 +201,9 @@ On iOS, any app that can browse the web is [restricted](https://developer.apple.
 
 <div class="admonition recommendation" markdown>
 
-![Safari logo](assets/img/browsers/safari.svg){ align=right }
+![Safari logo](assets/images/browsers/safari.svg){ align=right }
 
-**Safari**はiOSのデフォルトブラウザです。 Safariには、インテリジェント・トラッキング防止機能(https://webkit.org/blog/7675/intelligent-tracking-prevention)、隔離された一時的なタブであるプライベートブラウズタブ、フィンガープリント保護（ウェブサイトに対してシステム構成の簡易版を提示することで、より多くのデバイスが同じに見えるようにする）、フィンガープリントのランダム化などの[プライバシー機能](https://support.apple.com/guide/iphone/browse-the-web-privately-iphb01fc3c85/ios)があります。有料のiCloud+サブスクリプション利用者にはプライベートリレーという機能も含まれます。
+**Safari** is the default browser in iOS. Safariには、インテリジェント・トラッキング防止機能(https://webkit.org/blog/7675/intelligent-tracking-prevention)、隔離された一時的なタブであるプライベートブラウズタブ、フィンガープリント保護（ウェブサイトに対してシステム構成の簡易版を提示することで、より多くのデバイスが同じに見えるようにする）、フィンガープリントのランダム化などの[プライバシー機能](https://support.apple.com/guide/iphone/browse-the-web-privately-iphb01fc3c85/ios)があります。有料のiCloud+サブスクリプション利用者にはプライベートリレーという機能も含まれます。
 
 [:octicons-home-16: ウェブページ](https://apple.com/safari){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://apple.com/legal/privacy/data/en/safari){ .card-link title="プライバシーポリシー" }

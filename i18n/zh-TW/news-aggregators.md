@@ -17,9 +17,9 @@ cover: news-aggregators.webp
 
 <div class="admonition recommendation" markdown>
 
-![Akregator logo](assets/img/news-aggregators/akregator.svg){ align=right }
+![Akregator logo](assets/images/news-aggregators/akregator.svg){ align=right }
 
-**Akregator** 是 [KDE](https://kde.org) 項目的一部分。其有快速搜尋、進階封存功能與內部瀏覽器可以輕鬆閱讀新聞。
+**Akregator** is a news feed reader that is a part of the [KDE](https://kde.org) project. 其有快速搜尋、進階封存功能與內部瀏覽器可以輕鬆閱讀新聞。
 
 [:octicons-home-16: 首頁](https://apps.kde.org/akregator){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://kde.org/privacypolicy-apps){ .card-link title="隱私權政策" }
@@ -40,9 +40,9 @@ cover: news-aggregators.webp
 
 <div class="admonition recommendation" markdown>
 
-![NewsFlash 標誌](assets/img/news-aggregators/newsflash.png){ align=right }
+![NewsFlash logo](assets/images/news-aggregators/newsflash.png){ align=right }
 
-**NewsFlash** 是一款 Linux 的開放原始碼、現代化、易於使用的新聞 feed 閱讀程式。其可以離線使用，或是搭配 [Inoreader](https://inoreader.com) 或 [Nextcloud News](https://apps.nextcloud.com/apps/news) 等服務使用。它具備搜尋功能，並提供預先準備的來源清單，您可直接將來源加入其中。
+**NewsFlash** is an open-source, modern, and easy-to-use news feed reader for Linux. 其可以離線使用，或是搭配 [Inoreader](https://inoreader.com) 或 [Nextcloud News](https://apps.nextcloud.com/apps/news) 等服務使用。它具備搜尋功能，並提供預先準備的來源清單，您可直接將來源加入其中。
 
 [:octicons-repo-16: 儲存庫](https://gitlab.com/news-flash/news_flash_gtk#newsflash){ .md-button .md-button--primary }
 [:octicons-code-16:](https://gitlab.com/news-flash/news_flash_gtk){ .card-link title="原始碼" }
@@ -60,9 +60,9 @@ cover: news-aggregators.webp
 
 <div class="admonition recommendation" markdown>
 
-![Feeder logo](assets/img/news-aggregators/feeder.png){ align=right }
+![Feeder logo](assets/images/news-aggregators/feeder.png){ align=right }
 
-**Feeder** 是 Android 版本的 RSS 客戶端，具有許多 [特色](https://github.com/spacecowboy/Feeder#features) ，且可與RSS 訊息來源的資料夾配合使用。
+**Feeder** is a modern RSS client for Android that has many [features](https://github.com/spacecowboy/Feeder#features) and works well with folders of RSS feeds.
 
 其支援 [RSS](https://en.wikipedia.org/wiki/RSS)、[Atom](https://en.wikipedia.org/wiki/Atom_(Web_standard))、[RDF](https://en.wikipedia.org/wiki/RDF%2FXML) 與 [JSON Feed](https://en.wikipedia.org/wiki/JSON_Feed)。
 
@@ -84,10 +84,10 @@ cover: news-aggregators.webp
 
 <div class="admonition recommendation" markdown>
 
-![Miniflux logo](assets/img/news-aggregators/miniflux.svg#only-light){ align=right }
-![Miniflux logo](assets/img/news-aggregators/miniflux-dark.svg#only-dark){ align=right }
+![Miniflux logo](assets/images/news-aggregators/miniflux.svg#only-light){ align=right }
+![Miniflux logo](assets/images/news-aggregators/miniflux-dark.svg#only-dark){ align=right }
 
-**Miniflux** 是一個網頁版的新聞聚合器，允許自行託管。
+**Miniflux** is a web-based news aggregator that you can self-host.
 
 其支援 [RSS](https://en.wikipedia.org/wiki/RSS)、[Atom](https://en.wikipedia.org/wiki/Atom_(Web_standard))、[RDF](https://en.wikipedia.org/wiki/RDF%2FXML) 與 [JSON Feed](https://en.wikipedia.org/wiki/JSON_Feed)。
 
@@ -102,9 +102,9 @@ cover: news-aggregators.webp
 
 <div class="admonition recommendation" markdown>
 
-![NetNewsWire logo](assets/img/news-aggregators/netnewswire.png){ align=right }
+![NetNewsWire logo](assets/images/news-aggregators/netnewswire.png){ align=right }
 
-**NetNewsWire** 是一款自由及開放原始碼的訊息源閱讀器，適用於 macOS 和 iOS ，專注於原生設計和功能集。
+**NetNewsWire** is a free and open-source feed reader for macOS and iOS with a focus on a native design and feature set.
 
 其支援傳統的 feed 格式，並內建支援 Reddit feed。
 
@@ -127,9 +127,9 @@ cover: news-aggregators.webp
 
 <div class="admonition recommendation" markdown>
 
-![Newsboat logo](assets/img/news-aggregators/newsboat.svg){ align=right }
+![Newsboat logo](assets/images/news-aggregators/newsboat.svg){ align=right }
 
-**Newsboat** 是文字控制界面的RSS/Atom 新聞閱讀器。分支自 [Newsbeuter](https://en.wikipedia.org/wiki/Newsbeuter) 後，維持積極維護。非常輕量，適合在 [Secure Shell](https://zh.wikipedia.org/wiki/Secure_Shell) 上使用。
+**Newsboat** is an RSS/Atom feed reader for the text console. 分支自 [Newsbeuter](https://en.wikipedia.org/wiki/Newsbeuter) 後，維持積極維護。非常輕量，適合在 [Secure Shell](https://zh.wikipedia.org/wiki/Secure_Shell) 上使用。
 
 [:octicons-home-16: 首頁](https://newsboat.org){ .md-button .md-button--primary }
 [:octicons-info-16:](https://newsboat.org/releases/2.38/docs/newsboat.html){ .card-link title="文件" }

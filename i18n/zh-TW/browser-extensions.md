@@ -21,7 +21,7 @@ cover: browser-extensions.webp
 
 <div class="admonition recommendation" markdown>
 
-![uBlock Origin logo](assets/img/browsers/ublock_origin.svg){ align=right }
+![uBlock Origin logo](assets/images/browsers/ublock_origin.svg){ align=right }
 
 **uBlock Origin** 是一款流行的內容攔截器，可攔截廣告、追蹤器和指紋辨識腳本。
 
@@ -59,7 +59,7 @@ uBlock Origin 亦提供該擴充功能的「Lite」版本，與原版相比，�
 
 <div class="admonition recommendation" markdown>
 
-![uBlock Origin Lite logo](assets/img/browsers/ublock_origin_lite.svg){ align=right }
+![uBlock Origin Lite logo](assets/images/browsers/ublock_origin_lite.svg){ align=right }
 
 **uBlock Origin Lite** 是相容於 Manifest V3 的內容攔截器。與原版的 _uBlock Origin_ 相比，此擴充套件不需要廣泛的「讀取/修改資料」權限即可運作，這降低了在過濾器清單中加入惡意規則時，瀏覽器受到 [:material-bug-outline: 被動攻擊](basics/common-threats.md#security-and-privacy){ .pg-orange } 的風險。
 
@@ -93,7 +93,7 @@ uBlock Origin Lite 僅在擴充功能從瀏覽器的附加元件市場更新時�
 
 <div class="admonition recommendation" markdown>
 
-![AdGuard logo](assets/img/browsers/adguard.svg){ align=right }
+![AdGuard logo](assets/images/browsers/adguard.svg){ align=right }
 
 **適用於 iOS的 AdGuard** 使用原生[Content Blocker API](https://developer.apple.com/documentation/safariservices/creating_a_content_blocker) 的Safari 免費開源內容封鎖擴展。
 

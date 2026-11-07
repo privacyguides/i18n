@@ -36,7 +36,7 @@ Jeśli Twoje urządzenie działa na Androidzie 15 lub nowszym, zalecamy zamiast 
 
 <div class="admonition recommendation" markdown>
 
-![Logo Shelter](../assets/img/android/shelter.svg){ align=right }
+![Shelter logo](../assets/images/android/shelter.svg){ align=right }
 
 **Shelte**r to aplikacja, która pomaga wykorzystać funkcję profilu służbowego w Androidzie do izolowania lub duplikowania aplikacji na urządzeniu.
 
@@ -65,8 +65,8 @@ Shelter jest zalecany zamiast aplikacji [Insular](https://secure-system.gitlab.i
 
 <div class="admonition recommendation" markdown>
 
-![Logo Secure Camera](../assets/img/android/secure_camera.svg#only-light){ align=right }
-![Logo Secure Camera](../assets/img/android/secure_camera-dark.svg#only-dark){ align=right }
+![Secure camera logo](../assets/images/android/secure_camera.svg#only-light){ align=right }
+![Secure camera logo](../assets/images/android/secure_camera-dark.svg#only-dark){ align=right }
 
 Secure Camera to aplikacja aparatu skoncentrowana na prywatności i bezpieczeństwie, umożliwiająca robienie zdjęć, nagrywanie wideo i odczyt kodów QR. Na obsługiwanych urządzeniach dostępne są także rozszerzenia dostawcy CameraX (portret, tryb HDR, tryb nocny, retusz twarzy i automatyczny).
 
@@ -109,8 +109,8 @@ Metadane dotyczące orientacji obrazu nie są usuwane. Jeśli włączysz zapisyw
 
 <div class="admonition recommendation" markdown>
 
-![Logo Secure PDF Viewer](../assets/img/android/secure_pdf_viewer.svg#only-light){ align=right }
-![Logo Secure PDF Viewer](../assets/img/android/secure_pdf_viewer-dark.svg#only-dark){ align=right }
+![Secure PDF Viewer logo](../assets/images/android/secure_pdf_viewer.svg#only-light){ align=right }
+![Secure PDF Viewer logo](../assets/images/android/secure_pdf_viewer-dark.svg#only-dark){ align=right }
 
 **Secure PDF Viewer** to przeglądarka PDF oparta na bibliotece [pdf.js](https://pl.wikipedia.org/wiki/PDF.js), która nie wymaga żadnych uprawnień. PDF jest ładowany do widoku [WebView](https://developer.android.com/guide/webapps/webview) uruchomionego w [piaskownicy](https://pl.wikipedia.org/wiki/Piaskownica_(środowisko_testowe)). Oznacza to, że nie jest potrzebne przyznawanie uprawnień bezpośrednio do dostępu do treści czy plików.
 

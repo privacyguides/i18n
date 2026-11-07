@@ -16,10 +16,16 @@ Narzędzia tłumaczeniowe zapewniają całkiem dokładne tłumaczenia, jednak tr
 Na przykład:
 
 ```text
-![Logo programu](assets/img/path/to/image.svg){ align=right }
+![Software logo](assets/images/path/to/image.svg){ align=right }
 ```
 
 Czasami zdarzało się, że w powyższej składni do wstawiania obrazu brakowało znaku `![` lub między tekstem a ścieżką obrazu znajdowała się dodatkowa spacja, np. `](`. Jeśli tłumaczenie jest ewidentnie błędne, zalecamy jego **usunięcie** poprzez kliknięcie ikony kosza lub [oddanie głosu](https://support.crowdin.com/enterprise/getting-started-for-volunteers/#voting-view) na tłumaczenie, które wydaje się najbardziej poprawne. Po usunięciu nieprawidłowych tłumaczeń są one usuwane z [„pamięci tłumaczeniowej”](https://support.crowdin.com/enterprise/translation-memory) organizacji, co oznacza, że gdy tłumaczenie źródłowe pojawi się ponownie, nie będzie ono sugerować nieprawidłowego tłumaczenia.
+
+## Obrazy
+
+Images shared by all languages live in `docs/assets/images` and are excluded from Crowdin. When you run `SITE_LANGUAGE=fr ./run.sh` (replacing `fr` with your language code), the build script links this directory into `i18n/fr/assets/images` so translated builds and Markdown previews can use the same files.
+
+Images containing text that needs translation live in `docs/assets/images-localized` and are uploaded to Crowdin. They retain their existing `docs/assets/img` paths in Crowdin to preserve translations, but are exported to `i18n/<language>/assets/images-localized`. Keep `assets/images-localized` in translated Markdown image paths so the same references resolve to the appropriate images in every language.
 
 ## Interpunkcja
 

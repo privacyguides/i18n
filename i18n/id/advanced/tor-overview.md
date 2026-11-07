@@ -4,7 +4,7 @@ icon: 'simple/torproject'
 description: Tor adalah jaringan terdesentralisasi yang gratis untuk digunakan, dan dirancang untuk penggunaan internet seprivat mungkin.
 ---
 
-![Logo Tor](../assets/img/self-contained-networks/tor.svg){ align=right }
+![Logo Tor](../assets/images/self-contained-networks/tor.svg){ align=right }
 
 [**Tor**](../alternative-networks.md#tor) is a free to use, decentralized network designed for using the internet with as much privacy as possible. Jika digunakan dengan benar, jaringan ini memungkinkan penjelajahan dan komunikasi secara privat dan anonim. Karena lalu lintas Tor sulit diblokir dan dilacak, Tor merupakan alat pengelabuan sensor yang efektif.
 
@@ -111,9 +111,9 @@ Those at risk of browser vulnerabilities should consider additional protections 
 Setiap kali Anda [terhubung ke Tor](../tor.md), Tor akan memilih tiga simpul untuk membangun jalur ke internet—jalur ini disebut "sirkuit".
 
 <figure markdown>
-  ![Jalur Tor yang menunjukkan perangkat Anda menyambung ke simpul masuk, simpul tengah, dan simpul keluar sebelum mencapai situs web tujuan](../assets/img/how-tor-works/tor-path.svg#only-light)
-  ![Jalur Tor yang menunjukkan perangkat Anda menyambung ke simpul masuk, simpul tengah, dan simpul keluar sebelum mencapai situs web tujuan](../assets/img/how-tor-works/tor-path-dark.svg#only-dark)
-  <figcaption>Jalur sirkuit Tor</figcaption>
+  ![Tor path showing your device connecting to an entry node, middle node, and exit node before reaching the destination website](../assets/images-localized/how-tor-works/tor-path.svg#only-light)
+  ![Tor path showing your device connecting to an entry node, middle node, and exit node before reaching the destination website](../assets/images-localized/how-tor-works/tor-path-dark.svg#only-dark)
+  <figcaption>Tor circuit pathway</figcaption>
 </figure>
 
 Simpul-simpul berikut ini memiliki fungsinya masing-masing:
@@ -143,8 +143,8 @@ Simpul keluar akan dipilih secara acak dari semua simpul Tor yang tersedia, yang
 Proses penyambungan ke Layanan Onion di Tor berjalan sangat mirip dengan proses penyambungan ke layanan clearnet, tetapi lalu lintas Anda dirutekan melalui total **enam** simpul sebelum mencapai server tujuan. Just like before, however, only three of these nodes are contributing to *your* anonymity, the other three nodes protect *the Onion Service's* anonymity, hiding the website's true IP and location in the same manner that Tor Browser is hiding yours.
 
 <figure style="width:100%" markdown>
-  ![Tor path showing your traffic being routed through your three Tor nodes plus three additional Tor nodes which hide the website's identity](../assets/img/how-tor-works/tor-path-hidden-service.svg#only-light)
-  ![Tor path showing your traffic being routed through your three Tor nodes plus three additional Tor nodes which hide the website's identity](../assets/img/how-tor-works/tor-path-hidden-service-dark.svg#only-dark)
+  ![Tor path showing your traffic being routed through your three Tor nodes plus three additional Tor nodes which hide the website's identity](../assets/images-localized/how-tor-works/tor-path-hidden-service.svg#only-light)
+  ![Tor path showing your traffic being routed through your three Tor nodes plus three additional Tor nodes which hide the website's identity](../assets/images-localized/how-tor-works/tor-path-hidden-service-dark.svg#only-dark)
   <figcaption>Tor circuit pathway with Onion Services. Nodes in the <span class="pg-blue">blue</span> fence belong to your browser, while nodes in the <span class="pg-red">red</span> fence belong to the server, so their identity is hidden from you.</figcaption>
 </figure>
 
@@ -163,9 +163,9 @@ Setelah Tor berhasil membuat sirkuit, transmisi data dilakukan sebagai berikut:
 Di bawah ini adalah diagram alternatif yang menunjukkan prosesnya. Setiap simpul menghapus lapisan enkripsinya sendiri, dan ketika server tujuan mengembalikan data, proses yang sama terjadi secara terbalik. Sebagai contoh, simpul keluar tidak tahu siapa Anda, tetapi tahu dari simpul mana ia berasal, sehingga ia menambahkan lapisan enkripsinya sendiri dan mengirimkannya kembali.
 
 <figure markdown>
-  ![enkripsi Tor](../assets/img/how-tor-works/tor-encryption.svg#only-light)
-  ![enkripsi Tor](../assets/img/how-tor-works/tor-encryption-dark.svg#only-dark)
-  <figcaption>Mengirim dan menerima data melalui Jaringan Tor</figcaption>
+  ![Tor encryption](../assets/images-localized/how-tor-works/tor-encryption.svg#only-light)
+  ![Tor encryption](../assets/images-localized/how-tor-works/tor-encryption-dark.svg#only-dark)
+  <figcaption>Sending and receiving data through the Tor Network</figcaption>
 </figure>
 
 Tor memungkinkan kita untuk terhubung ke sebuah server tanpa ada satu pihak pun yang mengetahui seluruh jalurnya. Simpul masuk mengetahui siapa Anda, tetapi tidak mengetahui ke mana Anda akan pergi; simpul tengah tidak mengetahui siapa Anda atau ke mana Anda akan pergi; dan simpul keluar mengetahui ke mana Anda akan pergi, tetapi tidak mengetahui siapa Anda. Karena simpul keluar adalah yang membuat koneksi akhir, server tujuan tidak akan pernah mengetahui alamat IP Anda.

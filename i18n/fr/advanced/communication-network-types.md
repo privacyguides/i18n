@@ -10,7 +10,7 @@ Il existe plusieurs architectures réseau couramment utilisées pour relayer des
 
 ## Réseaux Centralisés
 
-![Centralized networks diagram](../assets/img/layout/network-centralized.svg){ align=left }
+![Centralized networks diagram](../assets/images/layout/network-centralized.svg){ align=left }
 
 Les messageries centralisées sont celles où tous les participants se trouvent sur le même serveur ou réseau de serveurs, contrôlés par la même organisation.
 
@@ -33,7 +33,7 @@ Certaines messageries auto-hébergées vous permettent de configurer votre propr
 
 ## Réseaux Fédérés
 
-![Federated networks diagram](../assets/img/layout/network-decentralized.svg){ align=left }
+![Federated networks diagram](../assets/images/layout/network-decentralized.svg){ align=left }
 
 Les messageries fédérées utilisent plusieurs serveurs indépendants et décentralisés capables de communiquer entre eux (le courrier électronique est un exemple de service fédéré). La fédération permet aux administrateurs système de contrôler leur propre serveur tout en faisant partie d'un réseau de communication plus vaste.
 
@@ -56,7 +56,7 @@ Lorsqu'ils sont auto-hébergés, les membres d'un serveur fédéré peuvent déc
 
 ## Réseaux Pair-à-Pair
 
-![P2P diagram](../assets/img/layout/network-distributed.svg){ align=left }
+![P2P diagram](../assets/images/layout/network-distributed.svg){ align=left }
 
 Les messageries P2P se connectent à un [réseau distribué](https://fr.wikipedia.org/wiki/Réseau_distribué) de nœuds pour relayer un message au destinataire sans serveur tiers.
 
@@ -81,7 +81,7 @@ Les réseaux P2P n'utilisent pas de serveurs, car les pairs communiquent directe
 
 ## Routage Anonyme
 
-![Anonymous routing diagram](../assets/img/layout/network-anonymous-routing.svg){ align=left }
+![Anonymous routing diagram](../assets/images/layout/network-anonymous-routing.svg){ align=left }
 
 Une messagerie utilisant le [routage anonyme](https://doi.org/10.1007/978-1-4419-5906-5_628) cache soit l'identité de l'expéditeur, celle du destinataire, ou la preuve qu'ils aient communiqué. Idéalement, une messagerie devrait cacher les trois.
 

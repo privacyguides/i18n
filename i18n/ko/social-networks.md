@@ -44,7 +44,7 @@ cover: social-networks.webp
 
 <div class="admonition recommendation" markdown>
 
-![마스토돈 로고](assets/img/social-networks/mastodon.svg){ align=right }
+![Mastodon logo](assets/images/social-networks/mastodon.svg){ align=right }
 
 **마스토돈**은 개방형 웹 프로토콜과 자유 오픈 소스 소프트웨어를 기반으로 하는 소셜 네트워크입니다. 이메일처럼 탈중앙화된 **:simple-activitypub: 액티비티펍** 프로토콜을 사용하므로, 사용자는 서로 다른 서버나 심지어 서로 다른 플랫폼에 있어도 서로 소통할 수 있습니다.
 
@@ -116,7 +116,7 @@ cover: social-networks.webp
 
 <div class="admonition recommendation" markdown>
 
-![엘리먼트 로고](assets/img/social-networks/element.svg){ align=right }
+![Element logo](assets/images/social-networks/element.svg){ align=right }
 
 **엘리먼트**는 연합된 대화방을 통해 탈중앙화된 통신을 가능하게 하는 [개방형 표준](https://spec.matrix.org/latest)인 **:simple-matrix: [매트릭스](https://matrix.org/docs/chat_basics/matrix-for-im)** 프로토콜의 대표 클라이언트입니다. 사용자는 서로 다른 홈서버에 있어도 서로 소통할 수 있습니다.
 

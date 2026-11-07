@@ -164,7 +164,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 ```markdown title="Recommendation Card"
 <div class="admonition recommendation" markdown>
 
-![PhotoPrism logo](assets/img/self-hosting/photoprism.svg){ align=right }
+![PhotoPrism logo](assets/images/self-hosting/photoprism.svg){ align=right }
 
 **PhotoPrism** is a self-hostable platform for managing photos. It supports album syncing and sharing as well as a variety of other [features](https://photoprism.app/features). It does not include end-to-end encryption, so it's best hosted on a server that you trust and is under your control.
 
@@ -180,7 +180,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 
 <div class="admonition recommendation" markdown>
 
-![포토프리즘 로고](../assets/img/self-hosting/photoprism.svg){ align=right }
+![PhotoPrism logo](../assets/images/self-hosting/photoprism.svg){ align=right }
 
 **포토프리즘**은 사진을 관리하는 자체 호스팅 가능한 플랫폼입니다. 앨범 동기화 및 공유는 물론 다양한 [기능](https://photoprism.app/features)을 지원합니다. 종단 간 암호화를 지원하지 않으므로, 신뢰할 수 있고 직접 관리하는 서버에서 호스팅하는 것이 가장 좋습니다.
 

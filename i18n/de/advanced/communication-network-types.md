@@ -10,7 +10,7 @@ Es gibt mehrere Netzwerkarchitekturen, die häufig verwendet werden, um Nachrich
 
 ## Zentralisierte Netzwerke
 
-![Diagramm eines zentralisierten Netzwerks](../assets/img/layout/network-centralized.svg){ align=left }
+![Diagramm eines zentralisierten Netzwerks](../assets/images/layout/network-centralized.svg){ align=left }
 
 Zentralisierte Messenger sind solche, bei denen sich alle Teilnehmer auf demselben Server oder einem Netzwerk von Servern befinden, die von derselben Organisation kontrolliert werden.
 
@@ -33,7 +33,7 @@ Bei einigen selbst gehosteten Messengern kannst du deine eigenen Server einricht
 
 ## Föderierte Netzwerke
 
-![Diagramm eines föderalen Netzwerks](../assets/img/layout/network-decentralized.svg){ align=left }
+![Diagramm eines föderalen Netzwerks](../assets/images/layout/network-decentralized.svg){ align=left }
 
 Föderierte Messenger verwenden mehrere unabhängige, dezentralisierte Server, die miteinander kommunizieren können (E-Mail ist ein Beispiel für einen föderierten Dienst). Durch die Föderation können Systemadministratoren ihren eigenen Server kontrollieren und dennoch Teil eines größeren Kommunikationsnetzes sein.
 
@@ -56,7 +56,7 @@ Wenn sie selbst gehostet werden, können die Mitglieder eines Verbund-Servers di
 
 ## Peer-to-Peer-Netzwerke
 
-![P2P-Diagramm](../assets/img/layout/network-distributed.svg){ align=left }
+![P2P-Diagramm](../assets/images/layout/network-distributed.svg){ align=left }
 
 P2P-Messenger stellen eine Verbindung zu einem [verteilten Netzwerk](https://en.wikipedia.org/wiki/Distributed_networking) von Knoten her, um eine Nachricht ohne einen Server von Dritten an die Zielperson weiterzuleiten.
 
@@ -81,7 +81,7 @@ P2P-Netze verwenden keine Server, da die Peers direkt miteinander kommunizieren 
 
 ## Anonymes Routing
 
-![Diagram von Anonymes Routing](../assets/img/layout/network-anonymous-routing.svg){ align=left }
+![Diagram von Anonymes Routing](../assets/images/layout/network-anonymous-routing.svg){ align=left }
 
 Ein Messenger, der [anonymes Routing](https://doi.org/10.1007/978-1-4419-5906-5_628) verwendet, verbirgt entweder die Identität des Absenders, des Empfängers oder den Nachweis, dass sie miteinander kommuniziert haben. Im Idealfall sollte ein Messenger alle drei verstecken.
 

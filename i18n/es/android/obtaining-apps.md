@@ -9,7 +9,7 @@ Hay varias formas para obtener aplicaciones de Android de una manera privada, in
 
 <div class="admonition recommendation" markdown>
 
-![Logo de Obtainium](../assets/img/android/obtainium.svg){ align=right }
+![Obtainium logo](../assets/images/android/obtainium.svg){ align=right }
 
 **Obtainium** es un gestor de aplicaciones que permite instalar y actualizar aplicaciones, directamente desde la propia página de lanzamientos del desarrollador (por ejemplo, GitHub, GitLab, el sitio web del desarrollador, etc.), en vez de una tienda o repositorio centralizado. Es compatible con las actualizaciones automáticas en segundo plano en Android 12 y versiones superiores.
 
@@ -39,7 +39,7 @@ Google Play Store requiere una cuenta de Google para iniciar sesión, algo poco 
 
 <div class="admonition recommendation" markdown>
 
-![logo de Aurora Store](../assets/img/android/aurora-store.webp){ align=right }
+![Aurora Store logo](../assets/images/android/aurora-store.webp){ align=right }
 
 **Aurora Store** es un cliente de Google Play Store que no requiere una cuenta de Google, los Servicios de Google Play o microG para la descarga de aplicaciones.
 
@@ -62,7 +62,7 @@ Aurora Store no permite descargar aplicaciones de pago con su función de cuenta
 
 Para las aplicaciones que son publicadas en plataformas como GitHub y GitLab, puedes añadir un canal RSS a tu [agregador de noticias](../news-aggregators.md) que te ayudará a rastrear los nuevos lanzamientos.
 
-![RSS APK](../assets/img/android/rss-apk-light.png#only-light) ![RSS APK](../assets/img/android/rss-apk-dark.png#only-dark) ![APK Changes](../assets/img/android/rss-changes-light.png#only-light) ![APK Changes](../assets/img/android/rss-changes-dark.png#only-dark)
+![RSS APK](../assets/images-localized/android/rss-apk-light.png#only-light) ![RSS APK](../assets/images-localized/android/rss-apk-dark.png#only-dark) ![APK Changes](../assets/images-localized/android/rss-changes-light.png#only-light) ![APK Changes](../assets/images-localized/android/rss-changes-dark.png#only-dark)
 
 ### GitHub
 
@@ -109,7 +109,7 @@ Si descarga archivos APK para instalarlos manualmente, puedes verificar su firma
 
 ## F-Droid
 
-![F-Droid logo](../assets/img/android/f-droid.svg){ align=right width=120px }
+![F-Droid logo](../assets/images/android/f-droid.svg){ align=right width=120px }
 
 \==Solo recomendamos F-Droid como una forma de obtener aplicaciones que no se pueden obtener a través de los medios anteriores.== F-Droid se recomienda a menudo como una alternativa a Google Play, en particular dentro de la comunidad de privacidad. La opción de añadir repositorios de terceros y no estar confinado en el jardín amurallado de Google ha propiciado su popularidad. Además, F-Droid dispone de [[compilaciones reproducibles](https://f-droid.org/en/docs/Reproducible_Builds) para algunas aplicaciones y se dedica al software libre y de código abierto. Sin embargo, hay algunas desventajas relacionadas con la seguridad en la forma en que F-Droid construye, firma y entrega los paquetes:
 

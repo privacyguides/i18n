@@ -15,7 +15,7 @@ cover: document-collaboration.webp
 
 <div class="admonition recommendation" markdown>
 
-![CryptPad logo](assets/img/document-collaboration/cryptpad.svg){ align=right }
+![CryptPad logo](assets/images/document-collaboration/cryptpad.svg){ align=right }
 
 **CryptPad** 是一款專為隱私設計的替代方案，可取代主流的完整功能辦公室套裝軟體。此網路服務上的所有內容都使用端到端加密，且可輕鬆與其他使用者分享。
 

@@ -47,7 +47,7 @@ cover: activism/banner-activism-toolbox.webp
 
 ### 1. 了解您的隐私法律
 
-![Scale icon](../../assets/img/activism/icons/icon-tips/icon-tips-laws.webp){class="toolbox-tip-icon"}
+![Scale icon](../../assets/images/activism/icons/icon-tips/icon-tips-laws.webp){class="toolbox-tip-icon"}
 
 充分了解您所在司法管辖区的数据保护法规，对于您为改善隐私权而进行的个人和集体斗争——无论是为了自己还是为了他人——都可能是一项重要的优势。进一步了解在研究当地隐私法律时应关注哪些方面。
 
@@ -62,7 +62,7 @@ cover: activism/banner-activism-toolbox.webp
 
 ### 2. 举报侵犯隐私的行为
 
-![Gavel icon](../../assets/img/activism/icons/icon-tips/icon-tips-report.webp){class="toolbox-tip-icon"}
+![Gavel icon](../../assets/images/activism/icons/icon-tips/icon-tips-report.webp){class="toolbox-tip-icon"}
 
 在了解当地隐私法律后，请熟悉举报违规行为的流程。提交正式投诉通常很简单，而且对你自己和你的社区都可能产生重大影响。进一步了解为何以及如何举报违反当地隐私法的行为。
 
@@ -81,7 +81,7 @@ cover: activism/banner-activism-toolbox.webp
 
 ### 1. 警惕那些打着隐私保护旗号的骗局
 
-![Poison symbol icon](../../assets/img/activism/icons/icon-tips/icon-tips-snakeoil.webp){class="toolbox-tip-icon"}
+![Poison symbol icon](../../assets/images/activism/icons/icon-tips/icon-tips-snakeoil.webp){class="toolbox-tip-icon"}
 
 在倡导隐私保护时，使用并推荐能够可靠保护隐私的工具至关重要。为此，你需要展开调查，并对任何危险或未经证实的营销宣传保持高度怀疑。进一步了解如何评估隐私声明，并推荐值得信赖的工具。
 
@@ -96,7 +96,7 @@ cover: activism/banner-activism-toolbox.webp
 
 ### 2. 摆脱监控体系
 
-![Arrow pointing out of a square icon](../../assets/img/activism/icons/icon-tips/icon-tips-migrate.webp){class="toolbox-tip-icon"}
+![Arrow pointing out of a square icon](../../assets/images/activism/icons/icon-tips/icon-tips-migrate.webp){class="toolbox-tip-icon"}
 
 作为隐私倡导者，不仅要选择和支持注重隐私保护的工具与机构，自己也要率先走出监控圈，做好示范。进一步了解为何以及如何摆脱“科技巨头”，并拥抱替代方案。
 
@@ -111,7 +111,7 @@ cover: activism/banner-activism-toolbox.webp
 
 ### 3. 改善社交媒体习惯，打造抗风险的社群
 
-![Octagon icon](../../assets/img/activism/icons/icon-tips/icon-tips-plant.webp){class="toolbox-tip-icon"}
+![Octagon icon](../../assets/images/activism/icons/icon-tips/icon-tips-plant.webp){class="toolbox-tip-icon"}
 
 商业社交媒体平台是数据滥用最主要的来源之一。我们若继续在这些平台上活跃，就是在继续喂饱这头怪物，并间接助长它们对我们隐私权的侵犯。进一步了解如何减少你在那里的痕迹，并逐步建立更优质的社交网络。
 
@@ -130,7 +130,7 @@ cover: activism/banner-activism-toolbox.webp
 
 ### 1. 不要止步于个人解决方案，要考虑集体影响
 
-![People with radiating lines icon](../../assets/img/activism/icons/icon-tips/icon-tips-expand.webp){class="toolbox-tip-icon"}
+![People with radiating lines icon](../../assets/images/activism/icons/icon-tips/icon-tips-expand.webp){class="toolbox-tip-icon"}
 
 一提到隐私，我们往往会把关注于可使用的技术工具上。这固然是重要一环，但绝不能忽视监管法规和侵犯性做法如何共同影响我们。进一步了解如何拓宽您对数据隐私的视野。
 
@@ -145,7 +145,7 @@ cover: activism/banner-activism-toolbox.webp
 
 ### 2. 着眼于整体局势
 
-![地球图标](../../assets/img/activism/icons/icon-tips/icon-tips-landscape.webp){class="toolbox-tip-icon"}
+![Globe icon](../../assets/images/activism/icons/icon-tips/icon-tips-landscape.webp){class="toolbox-tip-icon"}
 
 隐私不仅仅关乎工具、法律，或是任何个人或组织的做法。为了让我们的社会迈向一个人人默认享有隐私权的境地，我们必须从整体上考虑技术、法律和文化。进一步了解如何时刻关注全局。
 
@@ -160,7 +160,7 @@ cover: activism/banner-activism-toolbox.webp
 
 ### 3. 考虑到每个人的具体情况
 
-![People with line over and under icon](../../assets/img/activism/icons/icon-tips/icon-tips-everyone.webp){class="toolbox-tip-icon"}
+![People with line over and under icon](../../assets/images/activism/icons/icon-tips/icon-tips-everyone.webp){class="toolbox-tip-icon"}
 
 每个人的需求各不相同，当个人数据泄露时，他们面临的危险也各不相同。为了提供切实可行的隐私建议和推荐，必须考虑到每个人的具体情况。进一步了解如何更好地评估每个人的威胁模型。
 
@@ -179,7 +179,7 @@ cover: activism/banner-activism-toolbox.webp
 
 ### 1. 支持你的同道者
 
-![Two hands icon](../../assets/img/activism/icons/icon-tips/icon-tips-lift.webp){class="toolbox-tip-icon"}
+![Two hands icon](../../assets/images/activism/icons/icon-tips/icon-tips-lift.webp){class="toolbox-tip-icon"}
 
 有时候，会让人觉得隐私圈子是一个小众而孤立的群体。隐私权的斗争异常艰难，而捍卫者往往分散各地。正因如此，我们必须抓住每一个机会相互支持、相互鼓舞。进一步了解如何支持你的同道者并推动运动的发展。
 
@@ -194,7 +194,7 @@ cover: activism/banner-activism-toolbox.webp
 
 ### 2. 支持您的隐私战友
 
-![Hand holding a heart icon](../../assets/img/activism/icons/icon-tips/icon-tips-support.webp){class="toolbox-tip-icon"}
+![Hand holding a heart icon](../../assets/images/activism/icons/icon-tips/icon-tips-support.webp){class="toolbox-tip-icon"}
 
 捍卫隐私权是一项集体事业。你无法独自完成这件事。你身边的每一位贡献者，都在与你并肩作战，共同面对同样的挑战。这场战斗有时会很艰难，也会让人感到孤立无援。这就是为什么互相关怀至关重要。了解更多关于如何支持您的隐私事业伙伴的信息。
 
@@ -208,7 +208,7 @@ cover: activism/banner-activism-toolbox.webp
 
 ### 3. 对人友善，但对体制毫不妥协
 
-![Two hands holding a sphere icon](../../assets/img/activism/icons/icon-tips/icon-tips-kind.webp){class="toolbox-tip-icon"}
+![Two hands holding a sphere icon](../../assets/images/activism/icons/icon-tips/icon-tips-kind.webp){class="toolbox-tip-icon"}
 
 善意对隐私权倡导者来说不可或缺。要壮大我们的运动，我们必须以同道情谊与人打交道。人们不会因为被斥责就改变想法。但体制并非如此。进一步了解如何在工作中践行善意，同时对体制保持毫不妥协的态度。
 
@@ -227,7 +227,7 @@ cover: activism/banner-activism-toolbox.webp
 
 ### 1. 缔结联盟，而非挑起纷争
 
-![handshake icon](../../assets/img/activism/icons/icon-tips/icon-tips-alliances.webp){class="toolbox-tip-icon"}
+![handshake icon](../../assets/images/activism/icons/icon-tips/icon-tips-alliances.webp){class="toolbox-tip-icon"}
 
 隐私社群由形形色色的个人和组织组成，他们有时持有截然不同的观点。当这些分歧导致内讧时，我们需要思考这些内部冲突正在对我们的社区产生怎样的负面影响。进一步了解如何建立联盟而非发动战争。
 
@@ -242,7 +242,7 @@ cover: activism/banner-activism-toolbox.webp
 
 ### 2. 重视与您专业互补的盟友
 
-![Sphere with half dark half light icon](../../assets/img/activism/icons/icon-tips/icon-tips-complement.webp){class="toolbox-tip-icon"}
+![Sphere with half dark half light icon](../../assets/images/activism/icons/icon-tips/icon-tips-complement.webp){class="toolbox-tip-icon"}
 
 在隐私领域，就像在其他任何领域一样，多样性是一种优势。如果你希望你的社区能够对威胁模型有全面的了解，并能在多个层面进行应对，你就必须重视各种专业领域的多样性。进一步了解如何赏识、尊重那些技能与你不同的专家，并让他们愿意留下来。
 
@@ -257,7 +257,7 @@ cover: activism/banner-activism-toolbox.webp
 
 ### 3. 论功行赏，实至名归
 
-![Thumbs up icon](../../assets/img/activism/icons/icon-tips/icon-tips-credit.webp){class="toolbox-tip-icon"}
+![Thumbs up icon](../../assets/images/activism/icons/icon-tips/icon-tips-credit.webp){class="toolbox-tip-icon"}
 
 要想成功，我们必须相互支持。一个好做法是始终记得功劳该归谁就归谁。当另一位倡导者或组织发表了你赞同的观点时，要为他们助力，扩大他们的影响，并公开对他们表示感谢。进一步了解如何让你的同道感到自己被看见、被重视。
 
@@ -276,7 +276,7 @@ cover: activism/banner-activism-toolbox.webp
 
 ### 1. 欢迎初学者
 
-![Person with plus sign icon](../../assets/img/activism/icons/icon-tips/icon-tips-beginner.webp){class="toolbox-tip-icon"}
+![Person with plus sign icon](../../assets/images/activism/icons/icon-tips/icon-tips-beginner.webp){class="toolbox-tip-icon"}
 
 为了让我们的隐私权运动不断壮大，我们必须吸引更多人参与进来。为了实现这一目标，必须以通俗易懂的方式讨论隐私问题，让尚未熟悉基本概念的新手也能理解。进一步了解如何改进您的倡导工作，使其对初学者更易于接受。
 
@@ -291,7 +291,7 @@ cover: activism/banner-activism-toolbox.webp
 
 ### 2. 让你的帖子和社群兼容并包
 
-![Heart with plus sign icon](../../assets/img/activism/icons/icon-tips/icon-tips-inclusivity.webp){class="toolbox-tip-icon"}
+![Heart with plus sign icon](../../assets/images/activism/icons/icon-tips/icon-tips-inclusivity.webp){class="toolbox-tip-icon"}
 
 包容性不仅是正确之举，也是我们运动壮大的必要条件。如果我们希望隐私权得以实现，我们就必须建立&#x8BA9;_&#x6BCF;个人_——无论其身份——都感到安心且被欢迎的社群。进一步了解如何让您的沟通和社区更具包容性。
 
@@ -306,7 +306,7 @@ cover: activism/banner-activism-toolbox.webp
 
 ### 3. 注重无障碍性
 
-![Heart with checkmark icon](../../assets/img/activism/icons/icon-tips/icon-tips-accessibility.webp){class="toolbox-tip-icon"}
+![Heart with checkmark icon](../../assets/images/activism/icons/icon-tips/icon-tips-accessibility.webp){class="toolbox-tip-icon"}
 
 无障碍设计是实现包容性的不可或缺的要素，应始终作为我们工作的优先事项。为了让我们的隐私社区对所有人来说都充满包容性，无障碍设计绝不能被当作事后才考虑的事项。我们必须从一开始就将其融入实践。进一步了解如何提高隐私工作的无障碍性。
 
@@ -321,7 +321,7 @@ cover: activism/banner-activism-toolbox.webp
 
 ### 4. 让设计更讨喜
 
-![Cat icon](../../assets/img/activism/icons/icon-tips/icon-tips-cute.webp){class="toolbox-tip-icon"}
+![Cat icon](../../assets/images/activism/icons/icon-tips/icon-tips-cute.webp){class="toolbox-tip-icon"}
 
 如果你正在开发一款以隐私为核心的应用或网站，不要忽略设计这一环。这个常见错误会严重妨碍普通用户接受它。进一步了解如何让您的设计更具吸引力，并确保所有人都能轻松使用。把它做得可爱一点！
 
@@ -340,7 +340,7 @@ cover: activism/banner-activism-toolbox.webp
 
 ### 1. 拒绝参与
 
-![Circle with x icon](../../assets/img/activism/icons/icon-tips/icon-tips-refuse.webp){class="toolbox-tip-icon"}
+![Circle with x icon](../../assets/images/activism/icons/icon-tips/icon-tips-refuse.webp){class="toolbox-tip-icon"}
 
 作为隐私倡导者和行动者，重要的是发出反抗的声音，并对侵权做法表明反对立场。一个切实的做法，就是拒绝配合侵犯隐私的要求，或拒绝使用侵权软件。进一步了解如何拒绝服从侵犯隐私的做法。
 
@@ -355,7 +355,7 @@ cover: activism/banner-activism-toolbox.webp
 
 ### 2. 坚守自己的原则
 
-![Star icon](../../assets/img/activism/icons/icon-tips/icon-tips-principles.webp){class="toolbox-tip-icon"}
+![Star icon](../../assets/images/activism/icons/icon-tips/icon-tips-principles.webp){class="toolbox-tip-icon"}
 
 如果你负责管理一个数字权利团体或组织，务必不要让贡献者受制于你们正在对抗的、侵犯隐私的技术。可悲的是，不少社群在内部实践中并不践行自己给出的建议。进一步了解内外都保持原则一致的重要性。
 
@@ -370,7 +370,7 @@ cover: activism/banner-activism-toolbox.webp
 
 ### 3. 保护您的同道者
 
-![Shield with heart icon](../../assets/img/activism/icons/icon-tips/icon-tips-protect.webp){class="toolbox-tip-icon"}
+![Shield with heart icon](../../assets/images/activism/icons/icon-tips/icon-tips-protect.webp){class="toolbox-tip-icon"}
 
 在开展隐私保护工作时，请务必注意，切勿在未获得他人明确同意的情况下收集或分享其数据。无论是在个人行动还是组织领导中，保护同道者的数据都至关重要。进一步了解如何保护您的隐私同道的数据。
 
@@ -389,7 +389,7 @@ cover: activism/banner-activism-toolbox.webp
 
 ### 1. 微小的行动也至关重要
 
-![Puzzle piece icon](../../assets/img/activism/icons/icon-tips/icon-tips-small.webp){class="toolbox-tip-icon"}
+![Puzzle piece icon](../../assets/images/activism/icons/icon-tips/icon-tips-small.webp){class="toolbox-tip-icon"}
 
 为更好隐私权而开展的运动中，要做的事太多了。多到有时面对剩余任务的庞大，难免令人泄气。但一切努力都有用，再小的行动也算数。进一步了解为什么每一项行动、每一场胜利都至关重要，无论它们多么微不足道。
 
@@ -404,7 +404,7 @@ cover: activism/banner-activism-toolbox.webp
 
 ### 2. 花点时间休息一下，但请回来与我们继续并肩作战
 
-![Low battery icon](../../assets/img/activism/icons/icon-tips/icon-tips-rest.webp){class="toolbox-tip-icon"}
+![Low battery icon](../../assets/images/activism/icons/icon-tips/icon-tips-rest.webp){class="toolbox-tip-icon"}
 
 隐私权之战将是漫长的。这不是短跑，而是马拉松。若想成为一名优秀的倡导者，&#x5C31;_&#x5FC5;&#x987B;_&#x5728;需要时花时间休息。让自己燃尽绝不是选项，我们承受不起失去你宝贵贡献的代价！进一步了解为什么学会在需要时休息至关重要。
 
@@ -423,7 +423,7 @@ cover: activism/banner-activism-toolbox.webp
 
 ### 1. 参与、助力并作出贡献
 
-![Megaphone icon](../../assets/img/activism/icons/icon-tips/icon-tips-engage.webp){class="toolbox-tip-icon"}
+![Megaphone icon](../../assets/images/activism/icons/icon-tips/icon-tips-engage.webp){class="toolbox-tip-icon"}
 
 一旦具备了知识、动力和干劲，就该付诸行动了！也许您已经阅读了所有这些提示，或者已经浏览过我们的知识库了！不过，你不必对隐私了解太多，也能开始做出贡献。进一步了解如何开始成为一名隐私权倡导者。
 
@@ -438,7 +438,7 @@ cover: activism/banner-activism-toolbox.webp
 
 ### 2. 进阶提升！集结与组织
 
-![Raised fist icon](../../assets/img/activism/icons/icon-tips/icon-tips-organize.webp){class="toolbox-tip-icon"}
+![Raised fist icon](../../assets/images/activism/icons/icon-tips/icon-tips-organize.webp){class="toolbox-tip-icon"}
 
 如果您作为隐私倡议者已经有一段时间了，也许是时候进阶提升，成长为您所在社区的领导者了。成为一名领导者，可以是组建一个当地小组，也可以是在网上发起更大的项目。进一步了解如何成为隐私权运动中的一&#x4F4D;_&#x4F18;&#x79C0;_&#x9886;导者。
 

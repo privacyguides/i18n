@@ -21,9 +21,9 @@ cover: frontends.webp
 
 <div class="admonition recommendation" markdown>
 
-![Redlib logo](assets/img/frontends/redlib.svg){ align=right }
+![Redlib logo](assets/images/frontends/redlib.svg){ align=right }
 
-**Redlib** 是 [Reddit](https://reddit.com) 的開源前端，也可自行託管。您可以透過許多公共實例存取 Redlib。
+**Redlib** is an open-source frontend to the [Reddit](https://reddit.com) website that is also self-hostable. 您可以透過許多公共實例存取 Redlib。
 
 [:octicons-repo-16: 儲存庫](https://github.com/redlib-org/redlib){ .md-button .md-button--primary }
 [:octicons-server-16:](https://github.com/redlib-org/redlib-instances/blob/main/instances.md){ .card-link title="公開實例" }
@@ -54,10 +54,10 @@ cover: frontends.webp
 
 <div class="admonition recommendation" markdown>
 
-![Invidious logo](assets/img/frontends/invidious.svg#only-light){ align=right }
-![Invidious logo](assets/img/frontends/invidious-dark.svg#only-dark){ align=right }
+![Invidious logo](assets/images/frontends/invidious.svg#only-light){ align=right }
+![Invidious logo](assets/images/frontends/invidious-dark.svg#only-dark){ align=right }
 
-**Invidious** 是 [YouTube](https://youtube.com)的免費開源前端，也可自行託管。
+**Invidious** is a free and open-source frontend for [YouTube](https://youtube.com) that is also self-hostable.
 
 有許多公開的實例，有些提供 [Tor](tor.md) 洋蔥服務或 [I2P](alternative-networks.md#i2p-the-invisible-internet-project) 匿名站點。
 
@@ -89,9 +89,9 @@ cover: frontends.webp
 
 <div class="admonition recommendation" markdown>
 
-![Piped logo](assets/img/frontends/piped.svg){ align=right }
+![Piped logo](assets/images/frontends/piped.svg){ align=right }
 
-**Piped** 是 [YouTube](https://youtube.com)的自由及開放原始碼前端，同樣可自主託管。
+**Piped** is a free and open-source frontend for [YouTube](https://youtube.com) that is also self-hostable.
 
 Piped 需要 JavaScript 才能運行，它有許多公共伺服器。
 
@@ -116,9 +116,9 @@ Piped 需要 JavaScript 才能運行，它有許多公共伺服器。
 
 <div class="admonition recommendation" markdown>
 
-![FreeTube logo](assets/img/frontends/freetube.svg){ align=right }
+![FreeTube logo](assets/images/frontends/freetube.svg){ align=right }
 
-**FreeTube** 是 [YouTube](https://youtube.com)的免費開源桌面應用程式。 FreeTube 使用其基於 [YouTube.js](https://github.com/LuanRT/YouTube.js) 或 [Invidious](#invidious) API 的內建 API 從 YouTube 擷取資料。您可以將其中一個設定為預設，另一個則作為備用。
+**FreeTube** is a free and open-source desktop application for [YouTube](https://youtube.com). FreeTube 使用其基於 [YouTube.js](https://github.com/LuanRT/YouTube.js) 或 [Invidious](#invidious) API 的內建 API 從 YouTube 擷取資料。您可以將其中一個設定為預設，另一個則作為備用。
 
 使用 FreeTube 時，您的訂閱清單、播放清單、觀看歷史與搜尋歷史會本機儲存在您的裝置上。
 
@@ -153,10 +153,10 @@ Piped 需要 JavaScript 才能運行，它有許多公共伺服器。
 
 <div class="admonition recommendation" markdown>
 
-![LibreTube logo](assets/img/frontends/libretube.svg#only-light){ align=right }
-![LibreTube logo](assets/img/frontends/libretube-dark.svg#only-dark){ align=right }
+![LibreTube logo](assets/images/frontends/libretube.svg#only-light){ align=right }
+![LibreTube logo](assets/images/frontends/libretube-dark.svg#only-dark){ align=right }
 
-**LibreTube** 是一款免費的 [YouTube](https://youtube.com)開源Android應用程式，使用 [Piped](# piped) API。
+**LibreTube** is a free and open-source Android application for [YouTube](https://youtube.com) which uses the [Piped](#piped) API.
 
 訂閱清單和播放列表會儲存在本地的 Android 裝置上。
 
@@ -188,9 +188,9 @@ Piped 需要 JavaScript 才能運行，它有許多公共伺服器。
 
 <div class="admonition recommendation annotate" markdown>
 
-![NewPipe 標誌](assets/img/frontends/newpipe.svg){ align=right }
+![NewPipe logo](assets/images/frontends/newpipe.svg){ align=right }
 
-**NewPipe** 是自由與開放原始碼的 Android 應用程式，可用於觀看 [YouTube](https://youtube.com), [SoundCloud](https://soundcloud.com)、[media.ccc.de](https://media.ccc.de)、[Bandcamp](https://bandcamp.com) 與 [PeerTube](https://joinpeertube.org) (1)。
+**NewPipe** is a free and open-source Android application for [YouTube](https://youtube.com), [SoundCloud](https://soundcloud.com), [media.ccc.de](https://media.ccc.de), [Bandcamp](https://bandcamp.com), and [PeerTube](https://joinpeertube.org) (1).
 
 訂閱清單和播放列表會儲存在本地的 Android 裝置上。
 

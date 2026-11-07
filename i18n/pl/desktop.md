@@ -19,9 +19,9 @@ Dystrybucje systemu Linux są powszechnie polecane, jeśli chodzi o ochronę pry
 
 <div class="admonition recommendation" markdown>
 
-![Logo Fedory](assets/img/linux-desktop/fedora.svg){ align=right }
+![Fedora logo](assets/images/linux-desktop/fedora.svg){ align=right }
 
-**Fedora Linuks** jest polecaną przez nas dystrybucją stacjonarną dla osób, które dopiero rozpoczynają swoją przygodę z Linuksem. Fedora zazwyczaj przyjmuje nowsze technologie (np. [Wayland](https://wayland.freedesktop.org) i [PipeWire](https://pipewire.org)) przed innymi dystrybucjami. Te nowe technologie często wiążą się z poprawą bezpieczeństwa, prywatności i ogólnej użyteczności.
+**Fedora Linux** is our recommended desktop distribution for people new to Linux. Fedora zazwyczaj przyjmuje nowsze technologie (np. [Wayland](https://wayland.freedesktop.org) i [PipeWire](https://pipewire.org)) przed innymi dystrybucjami. Te nowe technologie często wiążą się z poprawą bezpieczeństwa, prywatności i ogólnej użyteczności.
 
 [:octicons-home-16: Strona Główna](https://fedoraproject.org){ .md-button .md-button--primary }
 [:octicons-info-16:](https://docs.fedoraproject.org/en-US/docs){ .card-link title="Dokumentacja" }
@@ -39,7 +39,7 @@ Fedora has a semi-rolling release cycle. While some packages like the desktop en
 
 <div class="admonition recommendation" markdown>
 
-![openSUSE Tumbleweed logo](assets/img/linux-desktop/opensuse-tumbleweed.svg){ align=right }
+![openSUSE Tumbleweed logo](assets/images/linux-desktop/opensuse-tumbleweed.svg){ align=right }
 
 **openSUSE Tumbleweed** is a stable rolling release distribution.
 
@@ -61,9 +61,9 @@ Tumbleweed follows a rolling release model where each update is released as a sn
 
 <div class="admonition recommendation" markdown>
 
-![Logo Arch](assets/img/linux-desktop/archlinux.svg){ align=right }
+![Arch logo](assets/images/linux-desktop/archlinux.svg){ align=right }
 
-**Arch Linux** jest lekką dystrybucją typu "zrób to sam" (DIY), co oznacza, że otrzymujesz tylko to, co zainstalujesz. Aby uzyskać więcej informacji, zobacz ich [FAQ](https://wiki.archlinux.org/title/Frequently_asked_questions).
+**Arch Linux** is a lightweight, do-it-yourself (DIY) distribution, meaning that you only get what you install. Aby uzyskać więcej informacji, zobacz ich [FAQ](https://wiki.archlinux.org/title/Frequently_asked_questions).
 
 [:octicons-home-16: Strona Główna](https://archlinux.org){ .md-button .md-button--primary }
 [:octicons-info-16:](https://wiki.archlinux.org){ .card-link title="Dokumentacja" }
@@ -87,7 +87,7 @@ Duża część [pakietów Arch Linux](https://reproducible.archlinux.org) jest [
 
 <div class="admonition recommendation" markdown>
 
-![Fedora logo](assets/img/linux-desktop/fedora.svg){ align=right }
+![Fedora logo](assets/images/linux-desktop/fedora.svg){ align=right }
 
 **Fedora Atomic Desktops** are variants of Fedora which use the `rpm-ostree` package manager and have a strong focus on containerized workflows and Flatpak for desktop applications. All of these variants follow the same release schedule as Fedora Workstation, benefiting from the same fast updates and staying very close to upstream.
 
@@ -113,7 +113,7 @@ As an alternative to Flatpaks, there is the option of [Toolbx](https://docs.fedo
 
 <div class="admonition recommendation" markdown>
 
-![NixOS logo](assets/img/linux-desktop/nixos.svg){ align=right }
+![NixOS logo](assets/images/linux-desktop/nixos.svg){ align=right }
 
 NixOS is an independent distribution based on the Nix package manager with a focus on reproducibility and reliability.
 
@@ -140,7 +140,7 @@ Nix is a source-based package manager; if there’s no pre-built available in th
 
 <div class="admonition recommendation" markdown>
 
-![Whonix logo](assets/img/linux-desktop/whonix.svg){ align=right }
+![Whonix logo](assets/images/linux-desktop/whonix.svg){ align=right }
 
 **Whonix** is based on [Kicksecure](#kicksecure), a security-focused fork of Debian. Jego celem jest zapewnienie prywatności, bezpieczeństwa i [:material-incognito: anonimowości](basics/common-threats.md#anonymity-vs-privacy){ .pg-purple } w Internecie. Whonix najlepiej używać w połączeniu z [Qubes OS](#qubes-os).
 
@@ -163,7 +163,7 @@ Whonix is best used [in conjunction with Qubes](https://whonix.org/wiki/Qubes/Wh
 
 <div class="admonition recommendation" markdown>
 
-![Tails logo](assets/img/linux-desktop/tails.svg){ align=right }
+![Tails logo](assets/images/linux-desktop/tails.svg){ align=right }
 
 **Tails** is a live operating system based on Debian that routes all communications through Tor, which can boot on on almost any computer from a DVD, USB stick, or SD card installation. Wykorzystuje [Tor](tor.md), aby zachować prywatność i [:material-incognito: Anonimowość](basics/common-threats.md#anonymity-vs-privacy){ .pg-purple } omijając przy tym cenzurę i nie pozostawiając po sobie śladu na komputerze, na którym jest używany po wyłączeniu.
 
@@ -198,7 +198,7 @@ Z założenia Tails ma się całkowicie resetować po każdym ponownym uruchomie
 
 <div class="admonition recommendation" markdown>
 
-![Qubes OS logo](assets/img/qubes/qubes_os.svg){ align=right }
+![Qubes OS logo](assets/images/qubes/qubes_os.svg){ align=right }
 
 **Qubes OS** is an open-source operating system designed to provide strong security for desktop computing through secure virtual machines (or "qubes"). Qubes is based on Xen, the X Window System, and Linux. It can run most Linux applications and use most of the Linux drivers.
 
@@ -221,9 +221,9 @@ Aby uzyskać więcej informacji na temat działania Qubes, przeczytaj naszą pe�
 
 <div class="admonition recommendation" markdown>
 
-![Logo Secureblue](assets/img/linux-desktop/secureblue.svg){ align=right }
+![Secureblue logo](assets/images/linux-desktop/secureblue.svg){ align=right }
 
-**Secureblue** to skoncentrowany na bezpieczeństwie system operacyjny oparty na [Fedora Atomic Desktops](#fedora-atomic-desktops). It includes a number of [security features](https://secureblue.dev/features) intended to proactively defend against the exploitation of both known and unknown vulnerabilities, and ships with [Trivalent](https://github.com/secureblue/Trivalent), their hardened, Chromium-based web browser.
+**Secureblue** is a security-focused operating system based on [Fedora Atomic Desktops](#fedora-atomic-desktops). It includes a number of [security features](https://secureblue.dev/features) intended to proactively defend against the exploitation of both known and unknown vulnerabilities, and ships with [Trivalent](https://github.com/secureblue/Trivalent), their hardened, Chromium-based web browser.
 
 [:octicons-home-16: Strona główna](https://secureblue.dev){ .md-button .md-button--primary }
 [:octicons-info-16:](https://secureblue.dev/install){ .card-link title="Dokumentacja" }
@@ -242,9 +242,9 @@ While we [recommend against](os/linux-overview.md#release-cycle) "perpetually ou
 
 <div class="admonition recommendation" markdown>
 
-![Logo Kicksecure](assets/img/linux-desktop/kicksecure.svg){ align=right }
+![Kicksecure logo](assets/images/linux-desktop/kicksecure.svg){ align=right }
 
-**Kicksecure**— w dużym uproszczeniu — to zestaw skryptów, konfiguracji i pakietów, które znacznie zmniejszają powierzchnię ataku Debiana. Domyślnie obejmuje wiele zaleceń dotyczących prywatności i zabezpieczeń. Służy również jako podstawowy system operacyjny dla [Whonix](#whonix).
+**Kicksecure**—in oversimplified terms—is a set of scripts, configurations, and packages that substantially reduce the attack surface of Debian. Domyślnie obejmuje wiele zaleceń dotyczących prywatności i zabezpieczeń. Służy również jako podstawowy system operacyjny dla [Whonix](#whonix).
 
 [:octicons-home-16: Strona główna](https://kicksecure.com){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://kicksecure.com/wiki/Privacy_Policy){ .card-link title="Polityka prywatności" }

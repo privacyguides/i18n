@@ -36,7 +36,7 @@ robots: nofollow, max-snippet:-1, max-image-preview:large
 
 <div class="admonition recommendation" markdown>
 
-![Shelter logo](../assets/img/android/shelter.svg){ align=right }
+![Shelter logo](../assets/images/android/shelter.svg){ align=right }
 
 **Shelter** 是一款帮助您利用Android工作配置文件功能在设备上隔离或复制App的应用程序。
 
@@ -65,8 +65,8 @@ Shelter支持阻止跨配置文件的联系人搜索，并通过默认文件管�
 
 <div class="admonition recommendation" markdown>
 
-![Secure Camera logo](../assets/img/android/secure_camera.svg#only-light){ align=right }
-![Secure Camera logo](../assets/img/android/secure_camera-dark.svg#only-dark){ align=right }
+![Secure camera logo](../assets/images/android/secure_camera.svg#only-light){ align=right }
+![Secure camera logo](../assets/images/android/secure_camera-dark.svg#only-dark){ align=right }
 
 **Secure Camera** 是一款专注于隐私和安全的相机App，可以拍摄图像、视频和扫描二维码。在支持的设备上，它还支持CameraX供应商扩展（人像、HDR、夜视、面部修饰和自动）。
 
@@ -109,8 +109,8 @@ Shelter支持阻止跨配置文件的联系人搜索，并通过默认文件管�
 
 <div class="admonition recommendation" markdown>
 
-![Secure PDF Viewer logo](../assets/img/android/secure_pdf_viewer.svg#only-light){ align=right }
-![Secure PDF Viewer logo](../assets/img/android/secure_pdf_viewer-dark.svg#only-dark){ align=right }
+![Secure PDF Viewer logo](../assets/images/android/secure_pdf_viewer.svg#only-light){ align=right }
+![Secure PDF Viewer logo](../assets/images/android/secure_pdf_viewer-dark.svg#only-dark){ align=right }
 
 **Secure PDF Viewer** 是一个基于[pdf.js](https://en.wikipedia.org/wiki/PDF.js)的PDF查看器，不需要任何权限。 PDF被送入一个[沙盒化](https://en.wikipedia.org/wiki/Sandbox_(software_development))的[WebView](https://developer.android.com/guide/webapps/webview)中。这意味着它不需要直接访问内容或文件的权限。
 

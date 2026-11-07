@@ -19,9 +19,9 @@ cover: file-sharing.webp
 
 <div class="admonition recommendation" markdown>
 
-![send 로고](assets/img/file-sharing-sync/send.svg){ align=right }
+![Send logo](assets/images/file-sharing-sync/send.svg){ align=right }
 
-**Send**는 Mozilla가 운영을 중단한 Firefox Send를 바탕으로 분기해 개발된 프로젝트입니다. 파일은 기기에서 암호화되므로 서버가 읽을 수 없으며, 원하는 경우 비밀번호로 보호할 수도 있습니다. Send의 관리자는 [공개 인스턴스](https://send.vis.ee)를 호스팅하고 있습니다. 다른 공개 인스턴스를 사용하거나, Send를 직접 호스팅할 수도 있습니다.
+**Send** is a fork of Mozilla's discontinued Firefox Send service which allows you to send files to others with a link. 파일은 기기에서 암호화되므로 서버가 읽을 수 없으며, 원하는 경우 비밀번호로 보호할 수도 있습니다. Send의 관리자는 [공개 인스턴스](https://send.vis.ee)를 호스팅하고 있습니다. 다른 공개 인스턴스를 사용하거나, Send를 직접 호스팅할 수도 있습니다.
 
 [:octicons-home-16: 홈페이지](https://send.vis.ee){ .md-button .md-button--primary }
 [:octicons-server-16:](https://github.com/timvisee/send-instances){ .card-link title="공개 인스턴스"}
@@ -43,9 +43,9 @@ ffsend upload --host https://send.vis.ee/ FILE
 
 <div class="admonition recommendation" markdown>
 
-![어니언셰어 로고](assets/img/file-sharing-sync/onionshare.svg){ align=right }
+![OnionShare logo](assets/images/file-sharing-sync/onionshare.svg){ align=right }
 
-**어니언셰어**는 어떤 크기의 파일이든 안전하고 [:material-incognito: 익명으로](basics/common-threats.md#anonymity-vs-privacy){ .pg-purple } 공유할 수 있게 해 주는 오픈 소스 도구입니다. 토르 어니언 서비스로 접근할 수 있는 웹 서버를 실행하고, 추측할 수 없는 URL을 수신자와 공유하여 파일을 다운로드하거나 보낼 수 있게 하는 방식으로 작동합니다.
+**OnionShare** is an open-source tool that lets you securely and [:material-incognito: anonymously](basics/common-threats.md#anonymity-vs-privacy){ .pg-purple } share a file of any size. 토르 어니언 서비스로 접근할 수 있는 웹 서버를 실행하고, 추측할 수 없는 URL을 수신자와 공유하여 파일을 다운로드하거나 보낼 수 있게 하는 방식으로 작동합니다.
 
 [:octicons-home-16: 홈페이지](https://onionshare.org){ .md-button .md-button--primary }
 [:simple-torbrowser:](http://lldan5gahapx5k7iafb3s4ikijc4ni7gx5iywdflkba5y2ezyg6sjgyd.onion){ .card-link title="어니언 서비스" }
@@ -80,9 +80,9 @@ ffsend upload --host https://send.vis.ee/ FILE
 
 <div class="admonition recommendation" markdown>
 
-![싱크싱 로고](assets/img/file-sharing-sync/syncthing.svg){ align=right }
+![Syncthing logo](assets/images/file-sharing-sync/syncthing.svg){ align=right }
 
-**싱크싱**은 오픈 소스 P2P 방식의 지속적 파일 동기화 유틸리티입니다. 로컬 네트워크나 인터넷을 통해 두 대 이상의 기기 간에 파일을 동기화하는 데 사용됩니다. 싱크싱은 중앙 서버를 사용하지 않으며, [블록 교환 프로토콜(Block Exchange Protocol)](https://docs.syncthing.net/specs/bep-v1.html#bep-v1)을 사용해 기기 간에 데이터를 전송합니다. 모든 데이터는 TLS로 암호화됩니다.
+**Syncthing** is an open-source peer-to-peer continuous file synchronization utility. 로컬 네트워크나 인터넷을 통해 두 대 이상의 기기 간에 파일을 동기화하는 데 사용됩니다. 싱크싱은 중앙 서버를 사용하지 않으며, [블록 교환 프로토콜(Block Exchange Protocol)](https://docs.syncthing.net/specs/bep-v1.html#bep-v1)을 사용해 기기 간에 데이터를 전송합니다. 모든 데이터는 TLS로 암호화됩니다.
 
 [:octicons-home-16: 홈페이지](https://syncthing.net){ .md-button .md-button--primary }
 [:octicons-info-16:](https://docs.syncthing.net){ .card-link title="문서"}

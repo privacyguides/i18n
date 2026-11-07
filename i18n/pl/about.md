@@ -36,7 +36,7 @@ Oprócz naszego głównego zespołu, [wiele innych osób](about/contributors.md)
 
 Najlepszym sposobem uzyskania indywidualnej pomocy jest nasza społeczność na Discourse. Jeśli zauważysz problem na naszej stronie, otwórz dyskusję w kategorii [Site Development](https://discuss.privacyguides.net/c/site-development/7) na naszym forum. Jeśli masz pytanie dotyczące czegokolwiek, o czym piszemy, zadaj je w kategorii [Questions](https://discuss.privacyguides.net/c/privacy/questions/8) na naszym forum.
 
-![Kod QR do kontaktu za pomocą Signal](assets/img/layout/signal-contact-qr.png){ align=right }
+![Signal contact QR code](assets/images/layout/signal-contact-qr.png){ align=right }
 
 Masz dla nas wskazówkę lub musisz przekazać jakieś poufne informacje? Najbezpieczniejszym sposobem kontaktu jest konto grupowe `@privacyguides.01` na Signal. Konto to monitorują [Jonah](https://discuss.privacyguides.net/u/jonah), [Niek](https://discuss.privacyguides.net/u/niek-de-wilde), [Em](https://discuss.privacyguides.net/u/em) oraz [Jordan](https://discuss.privacyguides.net/u/jordan).
 

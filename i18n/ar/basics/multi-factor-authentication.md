@@ -53,7 +53,7 @@ description: تُعد الـ MFA آلية أمان أساسية لحماية ح�
 بعد ذلك، سترسل الخدمة كلمة المرور لمرة واحدة إلى خادم Yubico OTP للتحقق منها. يتم زيادة عدّاد (counter) على كل من المفتاح وخادم التحقق التابع لـ Yubico. لا يمكن استخدام الـOTP إلا مرة واحدة، وعند نجاح المصادقة يزداد العداد، مما يمنع إعادة استخدام الرمز نفسه. توفّر Yubico [وثيقة مفصلة](https://developers.yubico.com/OTP/OTPs_Explained.html) تشرح هذه العملية.
 
 <figure markdown>
-  ![Yubico OTP](../assets/img/multi-factor-authentication/yubico-otp.png)
+  ![Yubico OTP](../assets/images-localized/multi-factor-authentication/yubico-otp.png)
 </figure>
 
 هناك بعض المزايا والعيوب لاستخدام Yubico OTP مقارنة بـ TOTP.
@@ -71,7 +71,7 @@ description: تُعد الـ MFA آلية أمان أساسية لحماية ح�
 الـ WebAuthn هو أكثر طرق التحقق بخطوتين أمانًا وحفاظًا على الخصوصية. رغم أن تجربة المصادقة تشبه الـ Yubico OTP، فإن المفتاح لا يُنشئ كلمة مرور تُستخدم لمرة واحدة ولا يعتمد على خادم تابع لجهة خارجية للتحقق منها. بدلًا من ذلك، يستخدم [تشفير المفتاح العام (public key cryptography)](https://en.wikipedia.org/wiki/Public-key_cryptography) للمصادقة.
 
 <figure markdown>
-  ![FIDO](../assets/img/multi-factor-authentication/fido.png)
+  ![FIDO](../assets/images-localized/multi-factor-authentication/fido.png)
 </figure>
 
 عند إنشاء حساب، يُرسل المفتاح العام (public key) إلى الخدمة، ثم عند تسجيل الدخول تطلب منك الخدمة «توقيع» بعض البيانات باستخدام مفتاحك الخاص. ميزة ذلك هي أن الخدمة لا تخزّن أي بيانات خاصة بكلمة المرور، وبالتالي لا يوجد ما يمكن للمهاجم سرقته.

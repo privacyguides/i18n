@@ -29,9 +29,9 @@ OpenPGP 也不支援[前向保密](https://en.wikipedia.org/wiki/Forward_secrecy
 
 <div class="admonition recommendation" markdown>
 
-![Thunderbird logo](assets/img/email-clients/thunderbird.svg){ align=right }
+![Thunderbird logo](assets/images/email-clients/thunderbird.svg){ align=right }
 
-**Thunderbird** 是一個免費、開源、跨平臺的電子郵件、新聞組、新聞提要和聊天(XMPP、IRC、Matrix)客戶端，由Thunderbird 社區開發，之前由 Mozilla 基金會開發。
+**Thunderbird** is a free, open-source, cross-platform email, newsgroup, news feed, and chat (XMPP, IRC, Matrix) client developed by the Thunderbird community, and previously by the Mozilla Foundation.
 
 [:octicons-home-16: 首頁](https://thunderbird.net){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://mozilla.org/privacy/thunderbird){ .card-link title="隱私權政策" }
@@ -74,7 +74,7 @@ When replying to someone on a mailing list in Thunderbird Mobile, the "reply" op
 
 </div>
 
-1. 當您登入某些提供商（例如 Gmail）或透過機構的 SSO 時，可能需要保持勾選此設定。 成功登入後，您應該取消勾選。
+1. 當您登入某些提供商（例如 Gmail）或透過機構的 SSO 時，可能需要保持勾選此設定。成功登入後，您應該取消勾選。
 
 ##### 遙測
 
@@ -82,7 +82,7 @@ When replying to someone on a mailing list in Thunderbird Mobile, the "reply" op
 
 #### Thunderbird-user.js （進階）
 
-[`thunderbird-user.js`](https://github.com/HorlogeSkynet/thunderbird-user.js) 是一系列設定選項，目的是儘可能停用 Thunderbird 電腦版 內的網頁瀏覽功能，以減少攻擊面並維護隱私。 有些變更是從 [Arkenfox 專案](desktop-browsers.md#arkenfox-advanced) 中得來的。
+[`thunderbird-user.js`](https://github.com/HorlogeSkynet/thunderbird-user.js) 是一系列設定選項，目的是儘可能停用 Thunderbird 電腦版 內的網頁瀏覽功能，以減少攻擊面並維護隱私。有些變更是從 [Arkenfox 專案](desktop-browsers.md#arkenfox-advanced) 中得來的。
 
 ## 特定平臺
 
@@ -90,9 +90,9 @@ When replying to someone on a mailing list in Thunderbird Mobile, the "reply" op
 
 <div class="admonition recommendation" markdown>
 
-![Apple Mail logo](assets/img/email-clients/applemail.png){ align=right }
+![Apple Mail logo](assets/images/email-clients/applemail.png){ align=right }
 
-**Apple Mail** 已包含在 macOS 中，並可透過 [GPG Suite](encryption.md#gpg-suite) 擴充為 OpenPGP 支援，增加傳送 PGP 加密電子郵件的功能。
+**Apple Mail** is included in macOS and can be extended to have OpenPGP support with [GPG Suite](encryption.md#gpg-suite), which adds the ability to send PGP-encrypted email.
 
 [:octicons-home-16: 首頁](https://support.apple.com/guide/mail/welcome/mac){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://apple.com/legal/privacy/en-ww){ .card-link title="隱私權政策" }
@@ -115,9 +115,9 @@ Apple Mail 具備在背景載入遠端內容或完全封鎖遠端內容的功能
 
 <div class="admonition recommendation" markdown>
 
-![FairEmail logo](assets/img/email-clients/fairemail.svg){ align=right }
+![FairEmail logo](assets/images/email-clients/fairemail.svg){ align=right }
 
-**FairEmail** 是一款極簡、開放原始碼的電子郵件應用程式，使用開放標準 (IMAP、SMTP、OpenPGP)，並將資料和電池使用量降至最低。
+**FairEmail** is a minimal, open-source email app which uses open standards (IMAP, SMTP, OpenPGP) and minimizes data and battery usage.
 
 [:octicons-home-16: 首頁](https://email.faircode.eu){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://github.com/M66B/FairEmail/blob/master/PRIVACY.md){ .card-link title="隱私權政策" }
@@ -139,7 +139,7 @@ Apple Mail 具備在背景載入遠端內容或完全封鎖遠端內容的功能
 
 <div class="admonition recommendation" markdown>
 
-![Evolution logo](assets/img/email-clients/evolution.svg){ align=right }
+![Evolution logo](assets/images/email-clients/evolution.svg){ align=right }
 
 **Evolution** is a personal information management application that provides integrated mail, calendaring, and address book functionality. Evolution has extensive [documentation](https://gnome.pages.gitlab.gnome.org/evolution/help) to help you get started.
 
@@ -162,9 +162,9 @@ Apple Mail 具備在背景載入遠端內容或完全封鎖遠端內容的功能
 
 <div class="admonition recommendation" markdown>
 
-![Kontact 標誌](assets/img/email-clients/kontact.svg){ align=right }
+![Kontact logo](assets/images/email-clients/kontact.svg){ align=right }
 
-**Kontact** 是 [KDE](https://kde.org) 專案的個人資訊管理員 (PIM) 應用程式。 它提供郵件用戶端、通訊錄、RSS 用戶端和數位筆記等功能。
+**Kontact** is a personal information manager (PIM) application from the [KDE](https://kde.org) project. 它提供郵件用戶端、通訊錄、RSS 用戶端和數位筆記等功能。
 
 [:octicons-home-16: 首頁](https://kontact.kde.org){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://kde.org/privacypolicy-apps){ .card-link title="隱私權政策" }
@@ -186,9 +186,9 @@ Apple Mail 具備在背景載入遠端內容或完全封鎖遠端內容的功能
 
 <div class="admonition recommendation" markdown>
 
-![Mailvelope logo](assets/img/email-clients/mailvelope.svg){ align=right }
+![Mailvelope logo](assets/images/email-clients/mailvelope.svg){ align=right }
 
-**Mailvelope** 是一個瀏覽器擴充套件，可依照 OpenPGP 加密標準支援加密電子郵件。
+**Mailvelope** is a browser extension that enables the exchange of encrypted emails following the OpenPGP encryption standard.
 
 [:octicons-home-16: 首頁](https://mailvelope.com){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://mailvelope.com/privacy-policy){ .card-link title="隱私權政策" }
@@ -210,11 +210,11 @@ Apple Mail 具備在背景載入遠端內容或完全封鎖遠端內容的功能
 
 <div class="admonition recommendation" markdown>
 
-![NeoMutt logo](assets/img/email-clients/mutt.svg){ align=right }
+![NeoMutt logo](assets/images/email-clients/mutt.svg){ align=right }
 
-**NeoMutt** 是適用於 Linux 和 BSD 的開放原始碼命令行電子郵件閱讀器。 它是 [Mutt](https://zh.wikipedia.org/wiki/Mutt) 的分叉，並增加了一些功能。
+**NeoMutt** is an open-source command line email reader for Linux and BSD. 它是 [Mutt](https://zh.wikipedia.org/wiki/Mutt) 的分叉，並增加了一些功能。
 
-NeoMutt 是一個以命令行為基礎的客戶端，其學習曲線非常陡峭。 不過，它具有能高度自定義的特色。
+NeoMutt 是一個以命令行為基礎的客戶端，其學習曲線非常陡峭。不過，它具有能高度自定義的特色。
 
 [:octicons-home-16: 首頁](https://neomutt.org){ .md-button .md-button--primary }
 [:octicons-info-16:](https://neomutt.org/guide){ .card-link title=說明文件}
@@ -233,7 +233,7 @@ NeoMutt 是一個以命令行為基礎的客戶端，其學習曲線非常陡峭
 
 ## 標準
 
-**請注意，我們與推薦的任何項目均無關。**除了[我們的通用標準](about/criteria.md)外，我們還制定了一套明確的要求，以便我們能夠提供客觀的建議。 我們建議您在選擇使用項目之前先熟悉此列表，並進行自己的研究，以確保它是您的正確選擇。
+**請注意，我們與推薦的任何項目均無關。**除了[我們的通用標準](about/criteria.md)外，我們還制定了一套明確的要求，以便我們能夠提供客觀的建議。我們建議您在選擇使用項目之前先熟悉此列表，並進行自己的研究，以確保它是您的正確選擇。
 
 ### 最低合格要求
 
@@ -243,7 +243,7 @@ NeoMutt 是一個以命令行為基礎的客戶端，其學習曲線非常陡峭
 
 ### 最佳情況
 
-最佳情況標準代表我們希望在這個類別的完美項目的應具備的特性。 推薦產品可能沒有此功能，但若有這些功能則會讓排名更為提高。
+最佳情況標準代表我們希望在這個類別的完美項目的應具備的特性。推薦產品可能沒有此功能，但若有這些功能則會讓排名更為提高。
 
 - 必須開放原始碼
 - 必須跨平臺

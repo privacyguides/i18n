@@ -26,9 +26,9 @@ cover: cloud.webp
 
 <div class="admonition recommendation" markdown>
 
-![프로톤 드라이브 로고](assets/img/cloud/protondrive.svg){ align=right }
+![Proton Drive logo](assets/images/cloud/protondrive.svg){ align=right }
 
-**프로톤 드라이브**는 인기 있는 암호화 이메일 제공업체인 [프로톤 메일](email.md#proton-mail)이 제공하는 암호화 클라우드 스토리지 서비스입니다.
+**Proton Drive** is an encrypted cloud storage provider from the popular encrypted email provider [Proton Mail](email.md#proton-mail).
 
 처음 제공되는 무료 저장 공간은 2GB이지만, [특정 단계](https://proton.me/support/more-free-storage-existing-users)를 완료하면 최대 5GB까지 추가 저장 공간을 받을 수 있습니다.
 
@@ -55,9 +55,9 @@ cover: cloud.webp
 
 <div class="admonition recommendation" markdown>
 
-![트레소릿 로고](assets/img/cloud/tresorit.svg){ align=right }
+![Tresorit logo](assets/images/cloud/tresorit.svg){ align=right }
 
-**트레소릿**은 2011년에 설립된 스위스-헝가리 암호화 클라우드 스토리지 제공업체입니다. 트레소릿은 스위스 국영 우편 서비스인 스위스 포스트가 소유하고 있습니다.
+**Tresorit** is a Swiss-Hungarian encrypted cloud storage provider founded in 2011. 트레소릿은 스위스 국영 우편 서비스인 스위스 포스트가 소유하고 있습니다.
 
 [:octicons-home-16: 홈페이지](https://tresorit.com){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://tresorit.com/legal/privacy-policy){ .card-link title="개인정보 처리방침" }
@@ -92,9 +92,9 @@ cover: cloud.webp
 
 <div class="admonition recommendation" markdown>
 
-![피어고스 로고](assets/img/cloud/peergos.svg){ align=right }
+![Peergos logo](assets/images/cloud/peergos.svg){ align=right }
 
-**피어고스**는 저장소, 소셜 미디어, 애플리케이션을 위한 탈중앙화 프로토콜이자 오픈 소스 플랫폼입니다. 사진, 동영상, 문서 등을 안전하게 저장하고 공유하며 열람·편집할 수 있는 프라이빗한 공간을 제공합니다.
+**Peergos** is a decentralized protocol and open-source platform for storage, social media, and applications. 사진, 동영상, 문서 등을 안전하게 저장하고 공유하며 열람·편집할 수 있는 프라이빗한 공간을 제공합니다.
 
 피어고스는 양자 내성 E2EE로 파일을 보호하며, 파일에 관한 모든 데이터를 비공개로 유지합니다. [자체 호스팅](https://book.peergos.org/features/self)도 가능합니다.
 

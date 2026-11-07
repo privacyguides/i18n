@@ -4,7 +4,7 @@ icon: 'simple/torproject'
 description: 토르는 프라이버시를 최대한 보호하면서 인터넷을 사용할 수 있도록 설계된, 무료로 이용 가능한 탈중앙화 네트워크입니다.
 ---
 
-![토르 로고](../assets/img/self-contained-networks/tor.svg){ align=right }
+![토르 로고](../assets/images/self-contained-networks/tor.svg){ align=right }
 
 [**토르**](../alternative-networks.md#tor)는 프라이버시를 최대한 보호하면서 인터넷을 사용할 수 있도록 설계된, 무료로 이용 가능한 탈중앙화 네트워크입니다. 토르 네트워크를 올바르게 사용하면 익명 웹 탐색과 통신이 가능합니다. 토르 트래픽은 차단 및 추적이 어렵기 때문에 검열 우회에 효과적입니다.
 
@@ -111,9 +111,9 @@ ISP의 입장에서는 여러분이 평범하게 VPN에 접속하는 것처럼 �
 [토르에 연결할](../tor.md) 때마다 인터넷까지의 경로를 만들기 위해 세 개의 노드가 선택됩니다. 이 경로를 "회로(circuit)"라고 합니다.
 
 <figure markdown>
-  ![여러분의 기기가 목적지 웹사이트에 도달하기 전에 입구 노드, 중간 노드, 출구 노드를 거쳐 연결되는 토르 경로](../assets/img/how-tor-works/tor-path.svg#only-light)
-  ![여러분의 기기가 목적지 웹사이트에 도달하기 전에 입구 노드, 중간 노드, 출구 노드를 거쳐 연결되는 토르 경로](../assets/img/how-tor-works/tor-path-dark.svg#only-dark)
-  <figcaption>토르 회로 경로</figcaption>
+  ![Tor path showing your device connecting to an entry node, middle node, and exit node before reaching the destination website](../assets/images-localized/how-tor-works/tor-path.svg#only-light)
+  ![Tor path showing your device connecting to an entry node, middle node, and exit node before reaching the destination website](../assets/images-localized/how-tor-works/tor-path-dark.svg#only-dark)
+  <figcaption>Tor circuit pathway</figcaption>
 </figure>
 
 노드는 각각 다른 역할을 가지고 있습니다.
@@ -143,9 +143,9 @@ ISP의 입장에서는 여러분이 평범하게 VPN에 접속하는 것처럼 �
 토르에서 어니언 서비스에 연결하는 것은 클리어넷 서비스에 연결하는 것과 매우 비슷하게 작동하지만, 트래픽은 목적지 서버에 도달하기 전에 총 **6개**의 노드를 거쳐 라우팅됩니다. 하지만 앞에서와 마찬가지로 이 중 세 개의 노드만 *여러분의* 익명성에 기여하며, 나머지 세 노드는 *어니언 서비스의* 익명성을 보호해, 토르 브라우저가 여러분의 IP와 위치를 숨기는 것과 같은 방식으로 웹사이트의 실제 IP와 위치를 숨깁니다.
 
 <figure style="width:100%" markdown>
-  ![여러분의 토르 노드 3개에 더해 웹사이트의 신원을 숨기는 토르 노드 3개를 추가로 거쳐 트래픽이 라우팅되는 토르 경로](../assets/img/how-tor-works/tor-path-hidden-service.svg#only-light)
-  ![여러분의 토르 노드 3개에 더해 웹사이트의 신원을 숨기는 토르 노드 3개를 추가로 거쳐 트래픽이 라우팅되는 토르 경로](../assets/img/how-tor-works/tor-path-hidden-service-dark.svg#only-dark)
-  <figcaption>어니언 서비스를 포함한 토르 회로 경로. <span class="pg-blue">파란색</span> 테두리 안의 노드는 여러분의 브라우저에 속하고, <span class="pg-red">빨간색</span> 테두리 안의 노드는 서버에 속하므로 그 신원은 여러분에게 드러나지 않습니다.</figcaption>
+  ![Tor path showing your traffic being routed through your three Tor nodes plus three additional Tor nodes which hide the website's identity](../assets/images-localized/how-tor-works/tor-path-hidden-service.svg#only-light)
+  ![Tor path showing your traffic being routed through your three Tor nodes plus three additional Tor nodes which hide the website's identity](../assets/images-localized/how-tor-works/tor-path-hidden-service-dark.svg#only-dark)
+  <figcaption>Tor circuit pathway with Onion Services. <span class="pg-blue">파란색</span> 테두리 안의 노드는 여러분의 브라우저에 속하고, <span class="pg-red">빨간색</span> 테두리 안의 노드는 서버에 속하므로 그 신원은 여러분에게 드러나지 않습니다.</figcaption>
 </figure>
 
 ## 암호화
@@ -163,9 +163,9 @@ ISP의 입장에서는 여러분이 평범하게 VPN에 접속하는 것처럼 �
 다음은 이 과정을 보여 주는 또 다른 다이어그램입니다. 각 노드는 해당 노드의 암호화 레이어를 제거하며, 목적지 서버가 데이터를 반환할 경우 이와 동일한 과정이 정반대로 진행됩니다. 예를 들어 출구 노드는 여러분이 누구인지는 모르지만 패킷이 어느 노드에서 왔는지는 알고 있으므로, 자신의 암호화 레이어를 추가해 되돌려 보냅니다.
 
 <figure markdown>
-  ![토르 암호화](../assets/img/how-tor-works/tor-encryption.svg#only-light)
-  ![토르 암호화](../assets/img/how-tor-works/tor-encryption-dark.svg#only-dark)
-  <figcaption>토르 네트워크를 통한 데이터 송수신</figcaption>
+  ![Tor encryption](../assets/images-localized/how-tor-works/tor-encryption.svg#only-light)
+  ![Tor encryption](../assets/images-localized/how-tor-works/tor-encryption-dark.svg#only-dark)
+  <figcaption>Sending and receiving data through the Tor Network</figcaption>
 </figure>
 
 토르를 사용하면 어느 한 주체도 전체 경로를 알지 못하는 상태로 서버에 연결할 수 있습니다. 입구 노드는 사용자가 누구인지는 알지만 목적지는 알 수 없고, 중간 노드는 사용자와 목적지 모두 알 수 없으며, 출구 노드는 목적지는 알지만 사용자가 누구인지는 알 수 없습니다. 최종 연결이 생성되는 지점은 출구 노드이므로, 목적지 서버는 사용자의 IP 주소를 절대 알 수 없습니다.

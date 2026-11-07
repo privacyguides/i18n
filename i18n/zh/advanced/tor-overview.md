@@ -4,7 +4,7 @@ icon: 'simple/torproject'
 description: Tor是一个免费使用的去中心化网络，专为尽量隐私地使用互联网而设计。
 ---
 
-![Tor logo](../assets/img/self-contained-networks/tor.svg){ align=right }
+![Tor logo](../assets/images/self-contained-networks/tor.svg){ align=right }
 
 [**Tor**](../alternative-networks.md#tor) is a free to use, decentralized network designed for using the internet with as much privacy as possible. 如果使用得当，该网络可以实现隐私且匿名地浏览和通信。由于Tor流量难以阻止和跟踪，因此Tor是一种有效的审查规避工具。
 
@@ -111,9 +111,9 @@ Those at risk of browser vulnerabilities should consider additional protections 
 每次你连接到 [Tor](../tor.md)，它都会选择三个节点来建立一条通往互联网的路径——这条路径被称为“链路”。
 
 <figure markdown>
-  ![显示您的设备在到达目的地网站前连接到入口节点、中间节点和出口节点的 Tor 链路](../assets/img/how-tor-works/tor-path.svg#only-light)
-  ![显示您的设备在到达目的地网站前连接到入口节点、中间节点和出口节点的 Tor 链路](../assets/img/how-tor-works/tor-path-dark.svg#only-dark)
-  <figcaption>Tor 链路</figcaption>
+  ![Tor path showing your device connecting to an entry node, middle node, and exit node before reaching the destination website](../assets/images-localized/how-tor-works/tor-path.svg#only-light)
+  ![Tor path showing your device connecting to an entry node, middle node, and exit node before reaching the destination website](../assets/images-localized/how-tor-works/tor-path-dark.svg#only-dark)
+  <figcaption>Tor circuit pathway</figcaption>
 </figure>
 
 每个节点都有自己的功能：
@@ -143,9 +143,9 @@ Those at risk of browser vulnerabilities should consider additional protections 
 在 Tor 中连接到暗网服务的工作原理与连接到公网服务非常相似，但在到达目的地服务器之前，你的流量会经过**六个**节点。 Just like before, however, only three of these nodes are contributing to *your* anonymity, the other three nodes protect *the Onion Service's* anonymity, hiding the website's true IP and location in the same manner that Tor Browser is hiding yours.
 
 <figure style="width:100%" markdown>
-  ![显示您的流量通过三个 Tor 节点以及另外三个隐藏暗网服务身份的 Tor 节点的 Tor 链路](.../assets/img/how-tor-works/tor-path-hidden-service.svg#only-light)
-  ![显示您的流量通过三个 Tor 节点以及另外三个隐藏暗网服务身份的 Tor 节点的 Tor 链路](../assets/img/how-tor-works/tor-path-hidden-service-dark.svg#only-dark)
-  <figcaption>使用暗网服务的 Tor 链路。<span class="pg-blue">蓝色</span> 方框中的节点属于您的浏览器，而 <span class="pg-red">红色</span> 方框中的节点属于服务器，因此它们的身份对您是隐藏的。</figcaption>
+  ![Tor path showing your traffic being routed through your three Tor nodes plus three additional Tor nodes which hide the website's identity](../assets/images-localized/how-tor-works/tor-path-hidden-service.svg#only-light)
+  ![Tor path showing your traffic being routed through your three Tor nodes plus three additional Tor nodes which hide the website's identity](../assets/images-localized/how-tor-works/tor-path-hidden-service-dark.svg#only-dark)
+  <figcaption>Tor circuit pathway with Onion Services. <span class="pg-blue">蓝色</span> 方框中的节点属于您的浏览器，而 <span class="pg-red">红色</span> 方框中的节点属于服务器，因此它们的身份对您是隐藏的。</figcaption>
 </figure>
 
 ## 加密
@@ -163,8 +163,8 @@ Tor encrypts each packet (a block of transmitted data) three times with the keys
 下面是一个显示该过程的替代图。每个节点都会移除自己的加密层，而当目的地服务器返回数据时，同样的过程会完全反向发生。例如，出口节点不知道你是谁，但它知道它来自哪个节点，因此它添加了自己的加密层并将其发送回来。
 
 <figure markdown>
-  ![Tor encryption](../assets/img/how-tor-works/tor-encryption.svg#only-light)
-  ![Tor encryption](../assets/img/how-tor-works/tor-encryption-dark.svg#only-dark)
+  ![Tor encryption](../assets/images-localized/how-tor-works/tor-encryption.svg#only-light)
+  ![Tor encryption](../assets/images-localized/how-tor-works/tor-encryption-dark.svg#only-dark)
   <figcaption>Sending and receiving data through the Tor Network</figcaption>
 </figure>
 

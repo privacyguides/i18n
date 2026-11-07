@@ -21,9 +21,9 @@ cover: real-time-communication.webp
 
 <div class="admonition recommendation" markdown>
 
-![시그널 로고](assets/img/messengers/signal.svg){ align=right }
+![Signal logo](assets/images/messengers/signal.svg){ align=right }
 
-**시그널**은 시그널 메신저 LLC가 개발한 모바일 앱입니다. 이 앱은 순방향 비밀성(forward secrecy)[^1]과 침해 후 보안(post-compromise security)을 지원하는 매우 안전한 암호화 프로토콜인 시그널 프로토콜로 보호되는 메시지와 통화를 제공합니다.[^2]
+**Signal** is a mobile app developed by Signal Messenger LLC. 이 앱은 순방향 비밀성(forward secrecy)[^1]과 침해 후 보안(post-compromise security)을 지원하는 매우 안전한 암호화 프로토콜인 시그널 프로토콜로 보호되는 메시지와 통화를 제공합니다.[^2]
 
 [:octicons-home-16: 홈페이지](https://signal.org){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://signal.org/legal/#privacy-policy){ .card-link title="개인정보 처리방침" }
@@ -70,9 +70,9 @@ cover: real-time-communication.webp
 
 <div class="admonition recommendation" markdown>
 
-![심플렉스 챗 로고](assets/img/messengers/simplex.svg){ align=right }
+![SimpleX Chat logo](assets/images/messengers/simplex.svg){ align=right }
 
-**심플렉스 챗**은 전화번호나 사용자 이름 같은 고유 식별자에 의존하지 않는 메신저입니다. 탈중앙화 네트워크 덕분에 심플렉스 챗은 [:material-close-outline: 검열](basics/common-threats.md#avoiding-censorship){ .pg-blue-gray }에 맞서는 효과적인 도구가 됩니다.
+**SimpleX Chat** is an instant messenger that doesn't depend on any unique identifiers such as phone numbers or usernames. 탈중앙화 네트워크 덕분에 심플렉스 챗은 [:material-close-outline: 검열](basics/common-threats.md#avoiding-censorship){ .pg-blue-gray }에 맞서는 효과적인 도구가 됩니다.
 
 [:octicons-home-16: 홈페이지](https://simplex.chat){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://simplex.chat/privacy){ .card-link title="개인정보 처리방침" }
@@ -106,9 +106,9 @@ cover: real-time-communication.webp
 
 <div class="admonition recommendation" markdown>
 
-![브라이어 로고](assets/img/messengers/briar.svg){ align=right }
+![Briar logo](assets/images/messengers/briar.svg){ align=right }
 
-**브라이어**는 [토르 네트워크](alternative-networks.md#tor)를 사용해 다른 클라이언트와 [연결](https://briarproject.org/how-it-works)되는 암호화 메신저로, [:material-close-outline: 검열](basics/common-threats.md#avoiding-censorship){ .pg-blue-gray } 우회에 효과적인 도구입니다. 브라이어는 가까운 거리에 있을 때 와이파이나 블루투스로도 연결할 수 있습니다. 브라이어의 로컬 메시 모드는 인터넷을 사용하기 어려운 상황에서 유용할 수 있습니다.
+**Briar** is an encrypted instant messenger that [connects](https://briarproject.org/how-it-works) to other clients using the [Tor network](alternative-networks.md#tor), making it an effective tool at circumventing [:material-close-outline: Censorship](basics/common-threats.md#avoiding-censorship){ .pg-blue-gray }. 브라이어는 가까운 거리에 있을 때 와이파이나 블루투스로도 연결할 수 있습니다. 브라이어의 로컬 메시 모드는 인터넷을 사용하기 어려운 상황에서 유용할 수 있습니다.
 
 [:octicons-home-16: 홈페이지](https://briarproject.org){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://briarproject.org/privacy-policy){ .card-link title="개인정보 처리방침" }

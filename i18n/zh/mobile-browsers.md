@@ -15,7 +15,7 @@ schema:
     "@context": http://schema.org
     "@type": MobileApplication
     name: Brave
-    image: /assets/img/browsers/brave.svg
+    image: /assets/images/browsers/brave.svg
     url: https://brave.com
     applicationCategory: Web Browser
     operatingSystem:
@@ -28,7 +28,7 @@ schema:
     "@context": http://schema.org
     "@type": MobileApplication
     name: Safari
-    image: /assets/img/browsers/safari.svg
+    image: /assets/images/browsers/safari.svg
     url: https://apple.com/safari
     applicationCategory: Web Browser
     operatingSystem:
@@ -48,9 +48,9 @@ schema:
 
 <div class="admonition recommendation" markdown>
 
-![Brave logo](assets/img/browsers/brave.svg){ align=right }
+![Brave logo](assets/images/browsers/brave.svg){ align=right }
 
-**Brave 浏览器**包含内置的内容拦截器和[隐私功能](https://brave.com/privacy-features)，其中许多功能默认启用。
+**Brave Browser** includes a built-in content blocker and [privacy features](https://brave.com/privacy-features), many of which are enabled by default.
 
 Brave 基于 Chromium 网页浏览器项目，因此使用起来应该很熟悉，且几乎不会出现网站兼容性问题。
 
@@ -201,9 +201,9 @@ Brave 在其 [Shields](https://support.brave.com/hc/articles/360022973471-What-i
 
 <div class="admonition recommendation" markdown>
 
-![Safari logo](assets/img/browsers/safari.svg){ align=right }
+![Safari logo](assets/images/browsers/safari.svg){ align=right }
 
-**Safari** 是 iOS 上的默认浏览器。它包含一些[隐私功能](https://support.apple.com/guide/iphone/browse-the-web-privately-iphb01fc3c85/ios)，例如[智能防跟踪](https://webkit.org/blog/7675/intelligent-tracking-prevention)、隔离且临时的无痕浏览标签页、防指纹识别（通过向网站展示简化版的系统配置，使更多设备看起来相同）、指纹随机化，以及为付费 iCloud+ 订阅用户提供的专用代理功能。
+**Safari** is the default browser in iOS. 它包含一些[隐私功能](https://support.apple.com/guide/iphone/browse-the-web-privately-iphb01fc3c85/ios)，例如[智能防跟踪](https://webkit.org/blog/7675/intelligent-tracking-prevention)、隔离且临时的无痕浏览标签页、防指纹识别（通过向网站展示简化版的系统配置，使更多设备看起来相同）、指纹随机化，以及为付费 iCloud+ 订阅用户提供的专用代理功能。
 
 [:octicons-home-16: 官网](https://apple.com/safari){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://apple.com/legal/privacy/data/en/safari){ .card-link title="隐私政策" }

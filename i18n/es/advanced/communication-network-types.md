@@ -10,7 +10,7 @@ Existen varias arquitecturas de red utilizadas habitualmente para transmitir men
 
 ## Redes centralizadas
 
-![Diagrama de redes centralizadas](../assets/img/layout/network-centralized.svg){ align=left }
+![Diagrama de redes centralizadas](../assets/images/layout/network-centralized.svg){ align=left }
 
 Los mensajeros centralizados son aquellos en los que todos los participantes están en el mismo servidor o red de servidores controlados por la misma organización.
 
@@ -33,7 +33,7 @@ Algunos servicios de mensajería autoalojados te permiten configurar tu propio s
 
 ## Redes Federadas
 
-![Diagrama de redes federadas](../assets/img/layout/network-decentralized.svg){ align=left }
+![Diagrama de redes federadas](../assets/images/layout/network-decentralized.svg){ align=left }
 
 Mensajeros federados utilizan varios servidores independientes y descentralizados que son capaces de comunicarse entre sí (correo electrónico es un ejemplo de un servicio federado). La federación permite a los administradores de sistemas controlar su propio servidor y seguir formando parte de la red de comunicaciones más amplia.
 
@@ -56,7 +56,7 @@ Cuando autoalojados, miembros de un servidor federado pueden descubrir y comunic
 
 ## Redes par a par (P2P)
 
-![Diagrama P2P](../assets/img/layout/network-distributed.svg){ align=left }
+![Diagrama P2P](../assets/images/layout/network-distributed.svg){ align=left }
 
 Los servicios de mensajería P2P se conectan a una [red distribuida](https://es.wikipedia.org/wiki/Red_distribuida) de nodos para transmitir un mensaje al destinatario sin necesidad de un servidor externo.
 
@@ -81,7 +81,7 @@ Las redes P2P no utilizan servidores, ya que los pares se comunican directamente
 
 ## Enrutamiento anónimo
 
-![Diagrama de enrutamiento anónimo](../assets/img/layout/network-anonymous-routing.svg){ align=left }
+![Diagrama de enrutamiento anónimo](../assets/images/layout/network-anonymous-routing.svg){ align=left }
 
 Un servicio de mensajería que utilice [enrutamiento anónimo](https://doi.org/10.1007/978-1-4419-5906-5_628) oculta la identidad del emisor, del receptor o la evidencia de que se han comunicado. Idealmente, un servicio de mensajería debería ocultar los tres.
 

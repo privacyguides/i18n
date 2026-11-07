@@ -16,7 +16,7 @@ Większość rozwiązań do zarządzania zdjęciami w chmurze, takich jak Google
 
 <div class="admonition recommendation" markdown>
 
-![Ente logo](assets/img/photo-management/ente.svg){ align=right }
+![Ente logo](assets/images/photo-management/ente.svg){ align=right }
 
 Ente Photos to kompleksowa usługa tworzenia kopii zapasowych zdjęć z szyfrowaniem end-to-end, która obsługuje automatyczne kopie zapasowe na iOS i Androidzie. Kod jest w pełni open source, zarówno po stronie klienta, jak i serwera. Jest również możliwość [samodzielnego hostowania](https://github.com/ente-io/ente/tree/main/server#self-hosting).
 

@@ -21,9 +21,9 @@ Cuando utilice una instancia gestionada por otra persona, asegúrese de leer la 
 
 <div class="admonition recommendation" markdown>
 
-![Redlib logo](assets/img/frontends/redlib.svg){ align=right }
+![Redlib logo](assets/images/frontends/redlib.svg){ align=right }
 
-**Redlib** es una interfaz de código abierto para el sitio web [Reddit](https://reddit.com) que también es autoalojable. Puede acceder a Redlib a través de varias instancias públicas.
+**Redlib** is an open-source frontend to the [Reddit](https://reddit.com) website that is also self-hostable. Puede acceder a Redlib a través de varias instancias públicas.
 
 [:octicons-repo-16: Repositorio](https://github.com/redlib-org/redlib){ .md-button .md-button--primary }
 [:octicons-server-16:](https://github.com/redlib-org/redlib-instances/blob/main/instances.md){ .card-link title="Instancias Públicas" }
@@ -54,10 +54,10 @@ Redlib es útil si desea desactivar JavaScript en su navegador, como [Tor Browse
 
 <div class="admonition recommendation" markdown>
 
-![Invidious logo](assets/img/frontends/invidious.svg#only-light){ align=right }
-![Invidious logo](assets/img/frontends/invidious-dark.svg#only-dark){ align=right }
+![Invidious logo](assets/images/frontends/invidious.svg#only-light){ align=right }
+![Invidious logo](assets/images/frontends/invidious-dark.svg#only-dark){ align=right }
 
-**Invidious** es una interfaz gratuita y de código abierto para [YouTube](https://youtube.com) que además es autoalojable.
+**Invidious** is a free and open-source frontend for [YouTube](https://youtube.com) that is also self-hostable.
 
 Hay varias instancias públicas, con algunas que ofrecen un servicio de onion [Tor](tor.md) o un eepsite [I2P](alternative-networks.md#i2p-the-invisible-internet-project).
 
@@ -89,9 +89,9 @@ Invidious es útil si deseas desactivar JavaScript en tu navegador, como [Tor Br
 
 <div class="admonition recommendation" markdown>
 
-![Piped logo](assets/img/frontends/piped.svg){ align=right }
+![Piped logo](assets/images/frontends/piped.svg){ align=right }
 
-**Piped** es una interfaz gratuita y de código abierto para [YouTube](https://youtube.com) que además es autoalojable.
+**Piped** is a free and open-source frontend for [YouTube](https://youtube.com) that is also self-hostable.
 
 Piped requiere JavaScript para funcionar y existen varias instancias públicas.
 
@@ -116,9 +116,9 @@ Piped es útil si desea utilizar [SponsorBlock](https://sponsor.ajay.app) sin in
 
 <div class="admonition recommendation" markdown>
 
-![FreeTube logo](assets/img/frontends/freetube.svg){ align=right }
+![FreeTube logo](assets/images/frontends/freetube.svg){ align=right }
 
-**FreeTube** es una aplicación de escritorio gratuita y de código abierto para [YouTube](https://youtube.com). FreeTube extrae datos de YouTube utilizando su API integrada basada en [YouTube.js](https://github.com/LuanRT/YouTube.js) o la API [Invidious](#invidious). Puede configurar cualquiera de los dos como predeterminado y el otro como alternativa.
+**FreeTube** is a free and open-source desktop application for [YouTube](https://youtube.com). FreeTube extrae datos de YouTube utilizando su API integrada basada en [YouTube.js](https://github.com/LuanRT/YouTube.js) o la API [Invidious](#invidious). Puede configurar cualquiera de los dos como predeterminado y el otro como alternativa.
 
 Al utilizar FreeTube, su lista de suscripciones, sus listas de reproducción, su historial de visualizaciones y su historial de búsquedas se guardan localmente en su dispositivo.
 
@@ -153,10 +153,10 @@ Por defecto, FreeTube bloquea todos los anuncios de YouTube. Además, FreeTube s
 
 <div class="admonition recommendation" markdown>
 
-![LibreTube logo](assets/img/frontends/libretube.svg#only-light){ align=right }
-![LibreTube logo](assets/img/frontends/libretube-dark.svg#only-dark){ align=right }
+![LibreTube logo](assets/images/frontends/libretube.svg#only-light){ align=right }
+![LibreTube logo](assets/images/frontends/libretube-dark.svg#only-dark){ align=right }
 
-**LibreTube** es una aplicación Android gratuita y de código abierto para [YouTube](https://youtube.com) que utiliza la API [Piped](#piped).
+**LibreTube** is a free and open-source Android application for [YouTube](https://youtube.com) which uses the [Piped](#piped) API.
 
 Tu lista de suscripciones y tus listas de reproducción se guardan localmente en tu dispositivo Android.
 
@@ -188,9 +188,9 @@ Por defecto, LibreTube bloquea todos los anuncios de YouTube. Además, LibreTube
 
 <div class="admonition recommendation annotate" markdown>
 
-![NewPipe logo](assets/img/frontends/newpipe.svg){ align=right }
+![NewPipe logo](assets/images/frontends/newpipe.svg){ align=right }
 
-**NewPipe** es una aplicación Android gratuita y de código abierto para [YouTube](https://youtube.com), [SoundCloud](https://soundcloud.com), [media.ccc.de](https://media.ccc.de), [Bandcamp](https://bandcamp.com), y [PeerTube](https://joinpeertube.org) (1).
+**NewPipe** is a free and open-source Android application for [YouTube](https://youtube.com), [SoundCloud](https://soundcloud.com), [media.ccc.de](https://media.ccc.de), [Bandcamp](https://bandcamp.com), and [PeerTube](https://joinpeertube.org) (1).
 
 Tu lista de suscripciones y tus listas de reproducción se guardan localmente en tu dispositivo Android.
 

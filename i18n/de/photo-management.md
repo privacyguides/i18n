@@ -16,7 +16,7 @@ Die meisten Cloud **Fotoverwaltungslösungen** wie Google Fotos, Flickr, und Ama
 
 <div class="admonition recommendation" markdown>
 
-![Ente logo](assets/img/photo-management/ente.svg){ align=right }
+![Ente logo](assets/images/photo-management/ente.svg){ align=right }
 
 **Ente Photos** ist ein verschlüsselter end-to-end-Backup-service für Fotos, das automatische Backups auf iOS und Android unterstützt. Ihr Code ist vollständig Open Source auf der Client-seite sowie auch auf der Serverseite. Man kann es ebenfalls [selbst hosten](https://github.com/ente-io/ente/tree/main/server#self-hosting).
 

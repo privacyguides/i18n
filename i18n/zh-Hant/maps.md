@@ -10,7 +10,7 @@ cover: maps.webp
 
 - [:material-account-cash: 監控資本主義](basics/common-threats.md#surveillance-as-a-business-model){ .pg-brown }
 
-使用以下 **地圖和導航應用程式**，它們不會根據您的搜尋和位置歷史記錄建立廣告檔案。 與其使用 Google Maps、Apple Maps 或 Waze，我們建議您使用這些尊重隱私的替代方案。
+使用以下 **地圖和導航應用程式**，它們不會根據您的搜尋和位置歷史記錄建立廣告檔案。與其使用 Google Maps、Apple Maps 或 Waze，我們建議您使用這些尊重隱私的替代方案。
 
 The recommendations here do not collect personally identifying information (PII) based on each application's privacy policy. **無法保證** 這些隱私權政策有被好好落實。
 
@@ -18,7 +18,7 @@ The recommendations here do not collect personally identifying information (PII)
 
 <div class="admonition recommendation" markdown>
 
-![Organic Maps logo](assets/img/maps/organic-maps.svg){ align=right }
+![Organic Maps logo](assets/images/maps/organic-maps.svg){ align=right }
 
 **Organic Maps** is an open-source, community-developed map display and satnav-style navigation app for walkers, drivers, and cyclists. The app offers worldwide, offline maps based on OpenStreetMap data, and navigation with privacy — no location tracking, no data collection, and no ads. 此應用程式可完全離線使用。
 
@@ -45,7 +45,7 @@ The recommendations here do not collect personally identifying information (PII)
 
 <div class="admonition recommendation" markdown>
 
-![OsmAnd logo](assets/img/maps/osmand.svg){ align=right }
+![OsmAnd logo](assets/images/maps/osmand.svg){ align=right }
 
 **OsmAnd** is an open-source, offline map and navigation application based on OpenStreetMap that offers turn-by-turn navigation for walking, cycling, driving, as well as public transport. You can find a detailed overview of OsmAnd's supported [features](https://wiki.openstreetmap.org/wiki/OsmAnd#Features) on the OpenStreet Map Wiki.
 
@@ -94,7 +94,7 @@ OsmAnd allows you to overlay or underlay external map data, such as satellite im
 
 ### 最佳情況
 
-最佳情況標準代表我們希望在這個類別的完美項目的應具備的特性。 推薦產品可能沒有此功能，但若有這些功能則會讓排名更為提高。
+最佳情況標準代表我們希望在這個類別的完美項目的應具備的特性。推薦產品可能沒有此功能，但若有這些功能則會讓排名更為提高。
 
 - Apps should be open source.
 - Should have route planning for public transport.

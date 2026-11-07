@@ -5,7 +5,7 @@ description: Android - это операционная система с отк�
 robots: nofollow, max-snippet:-1, max-image-preview:large
 ---
 
-![Логотип Android](../assets/img/android/android.svg){ align=right }
+![Логотип Android](../assets/images/android/android.svg){ align=right }
 
 **Проект Android с открытым исходным кодом** — это защищенная мобильная операционная система с эффективной [песочницей приложений](https://source.android.com/security/app-sandbox), [проверенной загрузкой](https://source.android.com/security/verifiedboot) (AVB) и надежной системой управления [разрешениями](https://developer.android.com/guide/topics/permissions/overview).
 

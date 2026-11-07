@@ -4,7 +4,7 @@ icon: 'simple/torproject'
 description: Tor היא רשת מבוזרת בחינם לשימוש המיועדת לשימוש באינטרנט עם כמה שיותר פרטיות.
 ---
 
-![Tor logo](../assets/img/self-contained-networks/tor.svg){ align=right }
+![Tor logo](../assets/images/self-contained-networks/tor.svg){ align=right }
 
 [**Tor**](../alternative-networks.md#tor) is a free to use, decentralized network designed for using the internet with as much privacy as possible. בשימוש נכון, הרשת מאפשרת גלישה ותקשורת פרטית ואנונימית. מכיוון שקשה לחסום ולעקוב אחר תעבורת Tor, Tor הוא כלי יעיל לעקוף צנזורה.
 
@@ -111,9 +111,9 @@ Those at risk of browser vulnerabilities should consider additional protections 
 בכל פעם שאתה [מתחבר ל-](../tor.md)Tor, הוא יבחר שלושה צמתים כדי לבנות נתיב לאינטרנט - נתיב זה נקרא "מעגל"
 
 <figure markdown>
-  ![נתיב טור המראה את המכשיר שלך מתחבר לצומת כניסה, צומת אמצע וצומת יציאה לפני הגעה לאתר היעד](../assets/img/how-tor-works/tor-path.svg#only-light)
-  ![נתיב טור המציג את המכשיר שלך מתחבר לצומת כניסה, צומת אמצע וצומת יציאה לפני הגעה לאתר היעד](../assets/img/how-tor-works/tor-path-dark.svg#only-dark)
-  <figcaption>מסלול מעגל טור</figcaption>
+  ![Tor path showing your device connecting to an entry node, middle node, and exit node before reaching the destination website](../assets/images-localized/how-tor-works/tor-path.svg#only-light)
+  ![Tor path showing your device connecting to an entry node, middle node, and exit node before reaching the destination website](../assets/images-localized/how-tor-works/tor-path-dark.svg#only-dark)
+  <figcaption>Tor circuit pathway</figcaption>
 </figure>
 
 לכל אחד מהצמתים הללו יש פונקציה משלו:
@@ -143,9 +143,9 @@ Those at risk of browser vulnerabilities should consider additional protections 
 התחברות לשירות Onion ב-Tor עובד בצורה דומה מאוד לחיבור לשירות clearnet, אבל התעבורה שלך מנותבת דרך סך של **שישה** צמתים לפני שהיא מגיעה לשרת היעד. Just like before, however, only three of these nodes are contributing to *your* anonymity, the other three nodes protect *the Onion Service's* anonymity, hiding the website's true IP and location in the same manner that Tor Browser is hiding yours.
 
 <figure style="width:100%" markdown>
-  ![נתיב Tor המראה את התנועה שלך מנותבת דרך שלושת צמתי ה-Tor שלך בתוספת שלושה צמתי Tor נוספים המסתירים את זהות האתר](../assets/img/how-tor-works/tor-path-hidden-service.svg#only-light)
-  ![נתיב Tor המראה את התנועה שלך מנותבת דרך שלושת צמתי ה-Tor שלך בתוספת שלושה צמתי Tor נוספים המסתירים את זהות האתר](../assets/img/how-tor-works/tor-path-hidden-service-dark.svg#only-dark)
-  <figcaption>מסלול מעגל טור עם שירותי Onion. צמתים בגדר ה<span class="pg-blue">כחולה</span> שייכים לדפדפן שלך, בעוד צמתים בגדר ה<span class="pg-red">אדומה</span> שייכים לשרת, כך שזהותם מוסתרת ממך.</figcaption>
+  ![Tor path showing your traffic being routed through your three Tor nodes plus three additional Tor nodes which hide the website's identity](../assets/images-localized/how-tor-works/tor-path-hidden-service.svg#only-light)
+  ![Tor path showing your traffic being routed through your three Tor nodes plus three additional Tor nodes which hide the website's identity](../assets/images-localized/how-tor-works/tor-path-hidden-service-dark.svg#only-dark)
+  <figcaption>Tor circuit pathway with Onion Services. צמתים בגדר ה<span class="pg-blue">כחולה</span> שייכים לדפדפן שלך, בעוד צמתים בגדר ה<span class="pg-red">אדומה</span> שייכים לשרת, כך שזהותם מוסתרת ממך.</figcaption>
 </figure>
 
 ## הצפנה
@@ -163,9 +163,9 @@ Tor encrypts each packet (a block of transmitted data) three times with the keys
 להלן תרשים חלופי המציג את התהליך. כל צומת מסיר את שכבת ההצפנה שלו, וכאשר שרת היעד מחזיר נתונים, אותו תהליך קורה לגמרי הפוך. למשל, צומת היציאה לא יודע מי אתה, אבל הוא כן יודע מאיזה צומת הוא הגיע, ולכן הוא מוסיף שכבת הצפנה משלו ושולח אותו בחזרה.
 
 <figure markdown>
-  ![הצפנת Tor](../assets/img/how-tor-works/tor-encryption.svg#only-light)
-  ![הצפנת Tor](../assets/img/how-tor-works/tor-encryption-dark.svg#only-dark)
-  <figcaption>שליחה וקבלה של נתונים דרך רשת Tor</figcaption>
+  ![Tor encryption](../assets/images-localized/how-tor-works/tor-encryption.svg#only-light)
+  ![Tor encryption](../assets/images-localized/how-tor-works/tor-encryption-dark.svg#only-dark)
+  <figcaption>Sending and receiving data through the Tor Network</figcaption>
 </figure>
 
 Tor מאפשר לנו להתחבר לשרת מבלי שאף גורם אחד ידע את כל הנתיב. צומת הכניסה יודע מי אתה, אבל לא לאן אתה הולך; הצומת האמצעי לא יודע מי אתה או לאן אתה הולך; וצומת היציאה יודע לאן אתה הולך, אבל לא מי אתה. מכיוון שצומת היציאה הוא זה שיוצר את החיבור הסופי, שרת היעד לעולם לא יידע את כתובת ה-IP שלך.

@@ -15,7 +15,7 @@ Choisissez une **suite bureautique** qui ne nécessite pas de compte pour déblo
 
 <div class="admonition recommendation" markdown>
 
-![Logo de LibreOffice](assets/img/office-suites/libreoffice.svg){ align=right }
+![LibreOffice logo](assets/images/office-suites/libreoffice.svg){ align=right }
 
 **LibreOffice** est une suite bureautique libre et open-source dotée de nombreuse fonctionnalités.
 
@@ -43,7 +43,7 @@ Choisissez une **suite bureautique** qui ne nécessite pas de compte pour déblo
 
 <div class="admonition recommendation" markdown>
 
-![Logo de OnlyOffice](assets/img/office-suites/onlyoffice.svg){ align=right }
+![OnlyOffice logo](assets/images/office-suites/onlyoffice.svg){ align=right }
 
 **OnlyOffice** est une suite bureautique libre et open-source basée sur le cloud qui possède de nombreuses fonctionnalités, dont une intégration avec Nextcloud.
 

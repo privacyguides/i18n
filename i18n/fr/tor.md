@@ -9,7 +9,7 @@ schema:
     "@context": http://schema.org
     "@type": SoftwareApplication
     name: Tor Browser
-    image: /assets/img/browsers/tor.svg
+    image: /assets/images/browsers/tor.svg
     url: https://torproject.org
     sameAs: https://fr.m.wikipedia.org/wiki/Tor_(r%C3%A9seau)
     applicationCategory: Web Browser
@@ -50,7 +50,9 @@ Si un anonymat plus complet est primordial dans votre situation, vous devriez **
 
 <div class="admonition recommendation" markdown>
 
-![logo du navigateur Tor](assets/img/browsers/tor.svg){ align=right }
+![Tor Browser logo](assets/images/browsers/tor.svg){ align=right }
+
+**Tor Browser** is the top choice if you need anonymity, as it provides you with access to the Tor network and bridges, and it includes default settings and extensions that are automatically configured by the default security levels: *Standard*, *Safer* and *Safest*.
 
 [:octicons-home-16: Page d'accueil](https://torproject.org/fr){ .md-button .md-button--primary }[:simple-torbrowser:](http://2gzyxa5ihm7nsggfxnu52rck2vv4rvmdlkiu3zzui5du4xyclen53wid.onion){ .card-link title="Service Onion" }
 [:octicons-info-16:](https://tb-manual.torproject.org){ .card-link title="Documentation" }
@@ -85,9 +87,9 @@ Outre installer le Navigateur Tor sur votre ordinateur, il existe également des
 
 <div class="admonition recommendation" markdown>
 
-![logo Navigateur Onion](assets/img/self-contained-networks/onion_browser.svg){ align=right }
+![Onion Browser logo](assets/images/self-contained-networks/onion_browser.svg){ align=right }
 
-Le **Navigateur Onion** est un navigateur open-source qui vous permet de naviguer anonymement sur le web via le réseau Tor sur les appareils iOS et qui est soutenu par le [Projet Tor](https://support.torproject.org/glossary/onion-browser).
+**Onion Browser** is an open-source browser that lets you browse the web anonymously over the Tor network on iOS devices and is endorsed by the [Tor Project](https://support.torproject.org/glossary/onion-browser).
 
 [:material-star-box: Lisez notre dernière critique de Onion Browser.](https://www.privacyguides.org/articles/2024/09/18/onion-browser-review)
 

@@ -19,9 +19,9 @@ cover: notebooks.webp
 
 <div class="admonition recommendation" markdown>
 
-![Standard Notes 標誌](assets/img/notebooks/standard-notes.svg){ align=right }
+![Standard Notes logo](assets/images/notebooks/standard-notes.svg){ align=right }
 
-**Standard Notes** 是一款簡單且私密的筆記應用程式，具備跨平台同步功能，讓您無縫使用。它在每個平臺上都採納 E2EE ，並且其電腦版具有強大的主題和自訂編輯器功能。
+**Standard Notes** is a simple and private notes app that features cross-platform sync for seamless use. 它在每個平臺上都採納 E2EE ，並且其電腦版具有強大的主題和自訂編輯器功能。
 
 Standard Notes 也做過多次[獨立稽核](https://standardnotes.com/help/2/has-standard-notes-completed-a-third-party-security-audit)。
 
@@ -52,9 +52,9 @@ Standard Notes 已於 2024 年 4 月 10 日 [加入 Proton AG](https://standardn
 
 <div class="admonition recommendation" markdown>
 
-![Notesnook 標誌](assets/img/notebooks/notesnook.svg){ align=right }
+![Notesnook logo](assets/images/notebooks/notesnook.svg){ align=right }
 
-**Notesnook** 為自由、開放原始碼且易於使用的端到端加密筆記應用程式，專注於保障使用者隱私。
+**Notesnook** is a free (as in speech), open-source, and easy-to-use E2EE note-taking app focused on user privacy.
 
 它具備同步功能，讓您能在多個平台上存取筆記。您可透過其[官方匯入程式](https://importer.notesnook.com)輕鬆從 Evernote、OneNote 與他應用程式匯入您的筆記。
 
@@ -86,9 +86,9 @@ Standard Notes 已於 2024 年 4 月 10 日 [加入 Proton AG](https://standardn
 
 <div class="admonition recommendation" markdown>
 
-![Joplin 標誌](assets/img/notebooks/joplin.svg){ align=right }
+![Joplin logo](assets/images/notebooks/joplin.svg){ align=right }
 
-**Joplin** 是一款自由、開放原始碼且功能完整的端到端加密筆記與待辦事項應用程式，可處理許多 Markdown 筆記統整成筆記本與標籤。
+**Joplin** is a free, open-source, and fully-featured E2EE note-taking and to-do application which can handle numerous Markdown notes organized into notebooks and tags.
 
 其可透過 Nextcloud、Dropbox 等服務同步。它也可以輕鬆的從 Evernote 和純文本筆記導入。
 
@@ -120,10 +120,10 @@ Joplin [不支援](https://github.com/laurent22/joplin/issues/289)為應用程�
 
 <div class="admonition recommendation" markdown>
 
-![Cryptee logo](./assets/img/notebooks/cryptee.svg#only-light){ align=right }
-![Cryptee logo](./assets/img/notebooks/cryptee-dark.svg#only-dark){ align=right }
+![Cryptee logo](assets/images/notebooks/cryptee.svg#only-light){ align=right }
+![Cryptee logo](assets/images/notebooks/cryptee-dark.svg#only-dark){ align=right }
 
-**Cryptee** 是一個開源的，基於網頁的 E2EE 文件編輯器和照片儲存應用程式。
+**Cryptee** is an open-source, web-based E2EE document editor and photo storage application.
 
 Cryptee 提供 100 MB 的免費儲存空間，如果您需要更多，也可選擇付費。註冊不需要電子郵件或其他個人資訊。
 
@@ -149,9 +149,9 @@ Cryptee 是 PWA，這代表其可以在所有現代裝置上無縫運作，不�
 
 <div class="admonition recommendation" markdown>
 
-![Org-mode logo](assets/img/notebooks/org-mode.svg){ align=right }
+![Org-mode logo](assets/images/notebooks/org-mode.svg){ align=right }
 
-**Org-mode** 是GNU Emacs的 [主要模式](https://gnu.org/software/emacs/manual/html_node/elisp/Major-Modes.html)。 Org-mode 用於記錄筆記，維護待辦事項列表，規劃項目以及使用快速有效的純文字系統撰寫文件。檔案同步可使用 [Syncthing](file-sharing.md#syncthing-p2p) 等工具。
+**Org-mode** is a [major mode](https://gnu.org/software/emacs/manual/html_node/elisp/Major-Modes.html) for GNU Emacs. Org-mode 用於記錄筆記，維護待辦事項列表，規劃項目以及使用快速有效的純文字系統撰寫文件。檔案同步可使用 [Syncthing](file-sharing.md#syncthing-p2p) 等工具。
 
 [:octicons-home-16: 首頁](https://orgmode.org){ .md-button .md-button--primary }
 [:octicons-info-16:](https://orgmode.org/manuals.html){ .card-link title="文件" }

@@ -18,7 +18,7 @@ Self-hosting your own **file management** tools may be a good idea to reduce the
 
 <div class="admonition recommendation" markdown>
 
-![PhotoPrism logo](../assets/img/self-hosting/photoprism.svg){ align=right }
+![PhotoPrism logo](../assets/images/self-hosting/photoprism.svg){ align=right }
 
 **PhotoPrism** is a platform for managing photos. It supports album syncing and sharing as well as a variety of other [features](https://photoprism.app/features). It does not include end-to-end encryption, so it's best hosted on a server that you trust and is under your control.
 
@@ -35,7 +35,7 @@ Self-hosting your own **file management** tools may be a good idea to reduce the
 
 <div class="admonition recommendation" markdown>
 
-![FreedomBox logo](../assets/img/self-hosting/freedombox.svg){ align=right }
+![FreedomBox logo](../assets/images/self-hosting/freedombox.svg){ align=right }
 
 **FreedomBox** is an operating system designed to be run on a [single-board computer (SBC)](https://en.wikipedia.org/wiki/Single-board_computer). The purpose is to make it easy to set up server applications for use cases like sharing files.
 
@@ -50,7 +50,7 @@ Self-hosting your own **file management** tools may be a good idea to reduce the
 
 <div class="admonition recommendation" markdown>
 
-![Nextcloud logo](../assets/img/self-hosting/nextcloud.svg){ align=right }
+![Nextcloud logo](../assets/images/self-hosting/nextcloud.svg){ align=right }
 
 **Nextcloud** 是一套自由及開放原始碼的用戶端-伺服器軟體，可在您控制的私人伺服器上建立自己的檔案託管服務。
 
@@ -76,6 +76,6 @@ Self-hosting your own **file management** tools may be a good idea to reduce the
 <div class="admonition danger" markdown>
 <p class="admonition-title">Danger "危險"</p>
 
-我們不建議使用 Nextcloud [E2EE App](https://apps.nextcloud.com/apps/end_to_end_encryption) ，因為它可能會導致資料丟失；目前它仍是高度實驗性，未達穩定品質。 因此，我們不推薦第三方 Nextcloud 提供商。
+我們不建議使用 Nextcloud [E2EE App](https://apps.nextcloud.com/apps/end_to_end_encryption) ，因為它可能會導致資料丟失；目前它仍是高度實驗性，未達穩定品質。因此，我們不推薦第三方 Nextcloud 提供商。
 
 </div>

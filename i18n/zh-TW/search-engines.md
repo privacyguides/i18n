@@ -32,9 +32,9 @@ global:
 
 <div class="admonition recommendation" markdown>
 
-![Brave Search logo](assets/img/search-engines/brave-search.svg){ align=right }
+![Brave Search logo](assets/images/search-engines/brave-search.svg){ align=right }
 
-**Brave Search** 由 Brave 開發的搜尋引擎。它包含諸如[討論](https://search.brave.com/help/discussions)等獨特功能，該功能會突出顯示以對話為焦點的結果，例如論壇貼文。
+**Brave Search** is a search engine developed by Brave. 它包含諸如[討論](https://search.brave.com/help/discussions)等獨特功能，該功能會突出顯示以對話為焦點的結果，例如論壇貼文。
 
 Brave Search 是 [Brave 瀏覽器](desktop-browsers.md#brave)的預設搜尋引擎。
 
@@ -51,9 +51,9 @@ Brave Search 是 [Brave 瀏覽器](desktop-browsers.md#brave)的預設搜尋引�
 
 <div class="admonition recommendation" markdown>
 
-![DuckDuckGo logo](assets/img/search-engines/duckduckgo.svg){ align=right }
+![DuckDuckGo logo](assets/images/search-engines/duckduckgo.svg){ align=right }
 
-**DuckDuckGo** 最主流的隱私搜尋引擎選項之一。著名的 DuckDuckGo 搜索功能包括 [bangs](https://duckduckgo.com/bang)和許多[即時答案](https://help.duckduckgo.com/duckduckgo-help-pages/features/instant-answers-and-other-features)。此搜尋引擎使用 Bing 以外的眾多[來源](https://help.duckduckgo.com/results/sources) 來獲取即時答案和其他非主要結果。
+**DuckDuckGo** is one of the more mainstream private search engine options. 著名的 DuckDuckGo 搜索功能包括 [bangs](https://duckduckgo.com/bang)和許多[即時答案](https://help.duckduckgo.com/duckduckgo-help-pages/features/instant-answers-and-other-features)。此搜尋引擎使用 Bing 以外的眾多[來源](https://help.duckduckgo.com/results/sources) 來獲取即時答案和其他非主要結果。
 
 DuckDuckGo 是 [Tor瀏覽器](tor.md#tor-browser) 的預設搜尋引擎，也是 Apple 的 [Safari 瀏覽器](mobile-browsers.md#safari-ios) 上為數不多的可用選項之一。
 
@@ -70,10 +70,10 @@ DuckDuckGo 提供 [另外](https://help.duckduckgo.com/features/non-javascript) 
 
 <div class="admonition recommendation" markdown>
 
-![Startpage logo](assets/img/search-engines/startpage.svg#only-light){ align=right }
-![Startpage logo](assets/img/search-engines/startpage-dark.svg#only-dark){ align=right }
+![Startpage logo](assets/images/search-engines/startpage.svg#only-light){ align=right }
+![Startpage logo](assets/images/search-engines/startpage-dark.svg#only-dark){ align=right }
 
-**Startpage** 私密搜索引擎。 Startpage 的獨特功能之一是 [匿名視圖](https://startpage.com/en/anonymous-view/) ，它努力標準化用戶活動，使其更難被突出識別。這個功能可用來隱藏 [某些](https://support.startpage.com/hc/articles/4455540212116-The-Anonymous-View-Proxy-technical-details) 網路與瀏覽器特徵。不像其名字所示，它並不會使您匿名。如果您正在尋找匿名性，請改用 [Tor瀏覽器](tor.md#tor-browser)。
+**Startpage** is a private search engine. Startpage 的獨特功能之一是 [匿名視圖](https://startpage.com/en/anonymous-view/) ，它努力標準化用戶活動，使其更難被突出識別。這個功能可用來隱藏 [某些](https://support.startpage.com/hc/articles/4455540212116-The-Anonymous-View-Proxy-technical-details) 網路與瀏覽器特徵。不像其名字所示，它並不會使您匿名。如果您正在尋找匿名性，請改用 [Tor瀏覽器](tor.md#tor-browser)。
 
 [:octicons-home-16: 首頁](https://startpage.com){ .md-button .md-button--primary }
 [:simple-torbrowser:](http://startpagel6srwcjlue4zgq3zevrujfaow726kjytqbbjyrswwmjzcqd.onion){ .card-link title="Onion 服務" }
@@ -94,9 +94,9 @@ Startpage 先前限制了 VPN 和[Tor](tor.md) 用戶，但他們最近創建[�
 
 <div class="admonition recommendation" markdown>
 
-![SearXNG logo](assets/img/search-engines/searxng.svg){ align=right }
+![SearXNG logo](assets/images/search-engines/searxng.svg){ align=right }
 
-**SearXNG** 是開源、可自架的元搜尋引擎。它是一個積極維護的 [SearX](https://github.com/searx/searx) 分支。
+**SearXNG** is an open-source, self-hostable, metasearch engine. 它是一個積極維護的 [SearX](https://github.com/searx/searx) 分支。
 
 [:octicons-home-16: 首頁](https://searxng.org){ .md-button .md-button--primary }
 [:octicons-server-16:](https://searx.space){ .card-link title="公開站台" }

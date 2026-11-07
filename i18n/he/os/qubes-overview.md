@@ -17,12 +17,12 @@ Qubes uses [compartmentalization](https://qubes-os.org/intro) to keep the system
 
 </details>
 
-![ארכיטקטורת Qubes](../assets/img/qubes/qubes-trust-level-architecture.png)
+![ארכיטקטורת Qubes](../assets/images-localized/qubes/qubes-trust-level-architecture.png)
 <figcaption>ארכיטקטורת Qubes, קרדיט: מהי הקדמה למערכת ההפעלה של Qubes</figcaption>
 
 Each qube has a [colored border](https://qubes-os.org/screenshots) that can help you keep track of the domain in which it runs. אתה יכול, למשל, להשתמש בצבע ספציפי עבור הדפדפן הבנקאי שלך, תוך שימוש בצבע אחר עבור דפדפן כללי שאינו מהימן.
 
-![גבול צבוע](../assets/img/qubes/r4.0-xfce-three-domains-at-work.png)
+![גבול צבוע](../assets/images-localized/qubes/r4.0-xfce-three-domains-at-work.png)
 <figcaption>גבולות החלונות של Qubes, קרדיט: צילומי מסך של Qubes</figcaption>
 
 ## מדוע עלי להשתמש ב-Qubes?

@@ -16,10 +16,10 @@ I **Calendari** contengono alcuni dei tuoi dati più sensibili; utilizza prodott
 
 <div class="admonition recommendation" markdown>
 
-![Logo di Tuta](assets/img/email/tuta.svg#only-light){ align=right }
-![Logo di Tuta](assets/img/email/tuta-dark.svg#only-dark){ align=right }
+![Tuta logo](assets/images/email/tuta.svg#only-light){ align=right }
+![Tuta logo](assets/images/email/tuta-dark.svg#only-dark){ align=right }
 
-**Tuta** offre un calendario gratuito e criptato su tutte le piattaforme da loro supportate. Le funzionalità includono: E2EE automatica di tutti i dati, funzionalità di condivisione, importazione/esportazione, autenticazione a più fattori e [altro](https://tuta.com/it/calendar-app-comparison).
+**Tuta** offers a free and encrypted calendar across their supported platforms. Le funzionalità includono: E2EE automatica di tutti i dati, funzionalità di condivisione, importazione/esportazione, autenticazione a più fattori e [altro](https://tuta.com/it/calendar-app-comparison).
 
 Calendari multipli e funzioni estese di condivisione sono limitate agli abbonati.
 
@@ -49,7 +49,7 @@ Calendari multipli e funzioni estese di condivisione sono limitate agli abbonati
 
 <div class="admonition recommendation" markdown>
 
-![Proton](assets/img/calendar/proton-calendar.svg){ align=right }
+![Proton](assets/images/calendar/proton-calendar.svg){ align=right }
 
 **Proton Calendar** is an encrypted calendar service available to Proton members via its web or mobile clients. Le caratteristiche includono E2EE automatica di tutti i dati, funzioni di condivisione, importazione/esportazione e [altro](https://proton.me/support/proton-calendar-guide).
 

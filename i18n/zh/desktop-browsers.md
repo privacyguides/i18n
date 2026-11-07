@@ -15,7 +15,7 @@ schema:
     "@context": http://schema.org
     "@type": SoftwareApplication
     name: Mullvad Browser
-    image: /assets/img/browsers/mullvad_browser.svg
+    image: /assets/images/browsers/mullvad_browser.svg
     url: https://mullvad.net/en/browser
     applicationCategory: Web Browser
     operatingSystem:
@@ -29,7 +29,7 @@ schema:
     "@context": http://schema.org
     "@type": SoftwareApplication
     name: Firefox（火狐浏览器）
-    image: /assets/img/browsers/firefox.svg
+    image: /assets/images/browsers/firefox.svg
     url: https://firefox.com
     sameAs: https://en.wikipedia.org/wiki/Firefox
     applicationCategory: Web Browser
@@ -44,7 +44,7 @@ schema:
     "@context": http://schema.org
     "@type": SoftwareApplication
     name: Brave
-    image: /assets/img/browsers/brave.svg
+    image: /assets/images/browsers/brave.svg
     url: https://brave.com
     sameAs: https://en.wikipedia.org/wiki/Brave_(web_browser)
     applicationCategory: Web Browser
@@ -69,9 +69,9 @@ schema:
 
 <div class="admonition recommendation" markdown>
 
-![Mullvad 浏览器logo](assets/img/browsers/mullvad_browser.svg){ align=right }
+![Mullvad Browser logo](assets/images/browsers/mullvad_browser.svg){ align=right }
 
-**Mullvad 浏览器** 是 [Tor 浏览器](tor.md#tor-browser) 的一个版本，其中已移除了与 Tor 网络的集成功能。该项目旨在为VPN用户提供Tor浏览器中的反指纹识别技术，这些技术是抵御[:material-eye-outline: 大规模监控](basics/common-threats.md#mass-surveillance-programs){ .pg-blue } 的关键防护措施。该软件由Tor项目开发，由[Mullvad](vpn.md#mullvad)发行，且**无需**使用Mullvad的VPN。
+**Mullvad Browser** is a version of [Tor Browser](tor.md#tor-browser) with Tor network integrations removed. 该项目旨在为VPN用户提供Tor浏览器中的反指纹识别技术，这些技术是抵御[:material-eye-outline: 大规模监控](basics/common-threats.md#mass-surveillance-programs){ .pg-blue } 的关键防护措施。该软件由Tor项目开发，由[Mullvad](vpn.md#mullvad)发行，且**无需**使用Mullvad的VPN。
 
 [:octicons-home-16: 主页](https://mullvad.net/en/browser){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://mullvad.net/en/help/privacy-policy){ .card-link title="隐私条款" }
@@ -115,9 +115,9 @@ Mullvad 浏览器一直在无痕浏览模式下运行，这意味着每次关闭
 
 <div class="admonition recommendation" markdown>
 
-![火狐标志](assets/img/browsers/firefox.svg){ align=right }
+![Firefox logo](assets/images/browsers/firefox.svg){ align=right }
 
-**火狐浏览器**提供强大的隐私设置，如[增强型跟踪保护](https://support.mozilla.org/kb/enhanced-tracking-protection-firefox-desktop)，它可以帮助阻止各种[跟踪类型](https://support.mozilla.org/kb/enhanced-tracking-protection-firefox-desktop#w_what-enhanced-tracking-protection-blocks)。
+**Firefox** provides strong privacy settings such as [Enhanced Tracking Protection](https://support.mozilla.org/kb/enhanced-tracking-protection-firefox-desktop), which can help block various [types of tracking](https://support.mozilla.org/kb/enhanced-tracking-protection-firefox-desktop#w_what-enhanced-tracking-protection-blocks).
 
 [:octicons-home-16: 主页](https://firefox.com){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://mozilla.org/privacy/firefox){ .card-link title="隐私政策" }
@@ -246,9 +246,9 @@ Arkenfox 仅旨在通过Canvas随机化和 Firefox 内置的抗指纹配置设�
 
 <div class="admonition recommendation annotate" markdown>
 
-![Brave logo](assets/img/browsers/brave.svg){ align=right }
+![Brave logo](assets/images/browsers/brave.svg){ align=right }
 
-**Brave 浏览器**包含内置的内容拦截器和[隐私功能](https://brave.com/privacy-features)，其中许多功能默认启用。
+**Brave Browser** includes a built-in content blocker and [privacy features](https://brave.com/privacy-features), many of which are enabled by default.
 
 Brave 基于 Chromium 网页浏览器项目，因此使用起来应该很熟悉，且几乎不会出现网站兼容性问题。
 

@@ -43,9 +43,9 @@ Nuestros proveedores recomendados usan cifrado, soportan Wireguard & OpenVPN, ad
 
 <div class="admonition recommendation" markdown>
 
-![Logo de Proton VPN](assets/img/vpn/protonvpn.svg){ align=right }
+![Proton VPN logo](assets/images/vpn/protonvpn.svg){ align=right }
 
-**Proton VPN** es un fuerte contendiente en el espacio VPN, y han estado en funcionamiento desde 2016. Proton AG tiene su sede en Suiza y ofrece un nivel gratuito limitado, así como una opción premium con más funciones.
+**Proton VPN** is a strong contender in the VPN space, and they have been in operation since 2016. Proton AG tiene su sede en Suiza y ofrece un nivel gratuito limitado, así como una opción premium con más funciones.
 
 [:octicons-home-16: Página Principal](https://protonvpn.com){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://protonvpn.com/privacy-policy){ .card-link title="Política de Privacidad" }
@@ -139,9 +139,9 @@ Además, [podrían producirse](https://protonvpn.com/support/macos-t2-chip-kill-
 
 <div class="admonition recommendation" markdown>
 
-![IVPN logo](assets/img/vpn/protonvpn.svg){ align=right }
+![IVPN logo](assets/images/vpn/ivpn.svg){ align=right }
 
-**IVPN** es un fuerte contendiente en el espacio de las VPNs, y ha estado en funcionamiento desde 2009. IVPN tiene su sede en Gibraltar y no ofrece una prueba gratuita.
+**IVPN** is another premium VPN provider, and they have been in operation since 2009. IVPN tiene su sede en Gibraltar y no ofrece una prueba gratuita.
 
 [:octicons-home-16: Página Principal](https://ivpn.net){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://ivpn.net/privacy){ .card-link title="Política de Privacidad" }
@@ -214,9 +214,9 @@ Los clientes de IVPN soportan la autenticación de doble factor. IVPN también o
 
 <div class="admonition recommendation" markdown>
 
-![Logo de Mullvad](assets/img/vpn/mullvad.svg){ align=right }
+![Mullvad logo](assets/images/vpn/mullvad.svg){ align=right }
 
-**Mullvad** es una VPN rápida y económica que se centra en la transparencia y la seguridad. Ha estado en operación desde 2009. Mullvad tiene su sede en Suecia y ofrece una garantía de devolución del dinero de 14 días para los [métodos de pago](https://mullvad.net/en/help/refunds) que lo permitan.
+**Mullvad** is a fast and inexpensive VPN with a serious focus on transparency and security. Ha estado en operación desde 2009. Mullvad tiene su sede en Suecia y ofrece una garantía de devolución del dinero de 14 días para los [métodos de pago](https://mullvad.net/en/help/refunds) que lo permitan.
 
 [:octicons-home-16: Página Principal](https://mullvad.net){ .md-button .md-button--primary }
 [:simple-torbrowser:](http://o54hon2e2vj6c7m3aqqu6uyece65by3vgoxxhlqlsvkmacw6a7m7kiad.onion){ .card-link title="Servicio Onion" }

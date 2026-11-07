@@ -17,12 +17,12 @@ description: نظام Qubes هو نظام تشغيل يعتمد على عزل ا
 
 </details>
 
-![بنية Qubes](../assets/img/qubes/qubes-trust-level-architecture.png)
+![بنية Qubes](../assets/images-localized/qubes/qubes-trust-level-architecture.png)
 <figcaption>بنية Qubes، المصدر: What is Qubes OS Intro</figcaption>
 
 تظهر نوافذ التطبيقات التابعة لكل qube [بإطار ملون](https://qubes-os.org/screenshots) يساعدك على معرفة الـqube التي تعمل بداخلها. يمكنك مثلا تخصيص لون معين للمتصفح الذي تستخدمه للخدمات البنكية، ولون مختلف للمتصفح الذي تستخدمه للتصفح العام ولا تعتبره موثوقا.
 
-![الإطار الملون](../assets/img/qubes/r4.0-xfce-three-domains-at-work.png)
+![الإطار الملون](../assets/images-localized/qubes/r4.0-xfce-three-domains-at-work.png)
 <figcaption>إطارات النوافذ في Qubes، المصدر: Qubes Screenshots</figcaption>
 
 ## لماذا أستخدم Qubes؟

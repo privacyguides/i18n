@@ -53,7 +53,7 @@ Podczas logowania na stronę wystarczy fizycznie dotknąć klucza bezpieczeństw
 Usługa przekaże następnie jednorazowe hasło do serwera Yubico OTP w celu weryfikacji. Licznik jest zwiększany zarówno na kluczu, jak i na serwerze walidacyjnym Yubico. OTP można użyć tylko raz — po pomyślnej autoryzacji licznik rośnie, co uniemożliwia ponowne użycie tego samego OTP. Yubico udostępnia [szczegółowy dokument](https://developers.yubico.com/OTP/OTPs_Explained.html) opisujący ten proces.
 
 <figure markdown>
-  ![Yubico OTP](../assets/img/multi-factor-authentication/yubico-otp.png)
+  ![Yubico OTP](../assets/images-localized/multi-factor-authentication/yubico-otp.png)
 </figure>
 
 W porównaniu z TOTP korzystanie z Yubico OTP ma swoje zalety i wady.
@@ -71,7 +71,7 @@ U2F i FIDO2 odnoszą się do [Client to Authenticator Protocol](https://en.wikip
 WebAuthn jest najbezpieczniejszą i najbardziej prywatną formą uwierzytelniania drugiego czynnika. Chociaż doświadczenie uwierzytelniania jest podobne do Yubico OTP, klucz nie generuje jednorazowego hasła i nie weryfikuje go za pośrednictwem zewnętrznego serwera. Zamiast tego do uwierzytelniania stosuje [kryptografię klucza publicznego](https://en.wikipedia.org/wiki/Public-key_cryptography).
 
 <figure markdown>
-  ![FIDO](../assets/img/multi-factor-authentication/fido.png)
+  ![FIDO](../assets/images-localized/multi-factor-authentication/fido.png)
 </figure>
 
 Podczas tworzenia konta klucz publiczny jest wysyłany do usługi, a przy logowaniu usługa wymaga „podpisania” pewnych danych kluczem prywatnym. Dzięki temu usługa nie przechowuje danych haseł, więc nie ma niczego, co przeciwnik mógłby ukraść.

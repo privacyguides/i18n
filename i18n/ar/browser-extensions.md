@@ -21,7 +21,7 @@ cover: browser-extensions.webp
 
 <div class="admonition recommendation" markdown>
 
-![uBlock Origin logo](assets/img/browsers/ublock_origin.svg){ align=right }
+![uBlock Origin logo](assets/images/browsers/ublock_origin.svg){ align=right }
 
 أداة uBlock Origin أداة مشهورة  لحظر المحتوى، ويمكنها مساعدتك في حظر الإعلانات وأدوات التتبع والبرامج النصية المستخدمة في الـ Browser Fingerprinting.
 
@@ -59,7 +59,7 @@ cover: browser-extensions.webp
 
 <div class="admonition recommendation" markdown>
 
-![uBlock Origin Lite logo](assets/img/browsers/ublock_origin_lite.svg){ align=right }
+![uBlock Origin Lite logo](assets/images/browsers/ublock_origin_lite.svg){ align=right }
 
 أداة uBlock Origin Lite هي أداة لحظر المحتوى متوافقة مع Manifest V3. مقارنةً بإضافة _uBlock Origin_ الأصلية، لا تحتاج هذه الإضافة إلى صلاحيات واسعة «لقراءة البيانات وتعديلها» حتى تعمل، مما يقلّل من خطر تعرّض متصفحك لـ[:material-bug-outline: هجمات سلبية](basics/common-threats.md#security-and-privacy){ .pg-orange } في حال إضافة قاعدة ضارة إلى إحدى قوائم التصفية.
 
@@ -93,7 +93,7 @@ cover: browser-extensions.webp
 
 <div class="admonition recommendation" markdown>
 
-![AdGuard logo](assets/img/browsers/adguard.svg){ align=right }
+![AdGuard logo](assets/images/browsers/adguard.svg){ align=right }
 
 اضافة AdGuard for iOS إضافة مجانية ومفتوحة المصدر لحظر المحتوى في Safari، وتستخدم واجهة [Content Blocker API](https://developer.apple.com/documentation/safariservices/creating_a_content_blocker) المدمجة في المتصفح.
 

@@ -164,14 +164,14 @@ Ten format służy do generowania kart z zaleceniami. Wyróżnia się tym, że n
 ```markdown title="Recommendation Card"
 <div class="admonition recommendation" markdown>
 
-![Logo PhotoPrism](assets/img/self-hosting/photoprism.svg){ align=right }
+![PhotoPrism logo](assets/images/self-hosting/photoprism.svg){ align=right }
 
-**PhotoPrism** to platforma do samodzielnego hostowania i zarządzania zdjęciami. Obsługuje synchronizację i udostępnianie albumów oraz szereg innych [funkcji](https://photoprism.app/features). Nie oferuje jednak szyfrowania typu end-to-end, dlatego najlepiej hostować ją na zaufanym serwerze, nad którym masz pełną kontrolę.
+**PhotoPrism** is a self-hostable platform for managing photos. It supports album syncing and sharing as well as a variety of other [features](https://photoprism.app/features). It does not include end-to-end encryption, so it's best hosted on a server that you trust and is under your control.
 
-[:octicons-home-16: Strona główna](https://photoprism.app){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://photoprism.app/privacy){ .card-link title="Polityka prywatności" }
-[:octicons-info-16:](https://photoprism.app/kb){ .card-link title="Dokumentacja" }
-[:octicons-code-16:](https://github.com/photoprism){ .card-link title="Kod źródłowy" }
+[:octicons-home-16: Homepage](https://photoprism.app){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://photoprism.app/privacy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://photoprism.app/kb){ .card-link title="Documentation" }
+[:octicons-code-16:](https://github.com/photoprism){ .card-link title="Source Code" }
 
 </div>
 ```
@@ -180,7 +180,7 @@ Ten format służy do generowania kart z zaleceniami. Wyróżnia się tym, że n
 
 <div class="admonition recommendation" markdown>
 
-![Logo PhotoPrism](../assets/img/self-hosting/photoprism.svg){ align=right }
+![PhotoPrism logo](../assets/images/self-hosting/photoprism.svg){ align=right }
 
 **PhotoPrism** to platforma do samodzielnego hostowania i zarządzania zdjęciami. Obsługuje synchronizację i udostępnianie albumów oraz szereg innych [funkcji](https://photoprism.app/features). Nie oferuje jednak szyfrowania typu end-to-end, dlatego najlepiej hostować ją na zaufanym serwerze, nad którym masz pełną kontrolę.
 

@@ -5,7 +5,7 @@ description: Android是一個開源作業系統，具有強大的安全保護，
 robots: nofollow, max-snippet:-1, max-image-preview:large
 ---
 
-![Android 圖標](../assets/img/android/android.svg){ align=right }
+![Android 圖標](../assets/images/android/android.svg){ align=right }
 
 **Android 開源專案** 為安全移動作業系統，提供[應用沙盒](https://source.android.com/security/app-sandbox), [驗證開機](https://source.android.com/security/verifiedboot) (AVB) 以及強韌的 [授權](https://developer.android.com/guide/topics/permissions/overview)控制系統。
 

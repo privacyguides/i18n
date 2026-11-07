@@ -16,10 +16,16 @@ Crowdin 有很好的文件，我們建議您查看他們的 [入門指南](https
 例如：
 
 ```text
-![Software logo](assets/img/path/to/image.svg){ align=right }
+![Software logo](assets/images/path/to/image.svg){ align=right }
 ```
 
 我們有時發現，像上面那樣插入圖像的語法中缺少了 `![`，或者在文字和路徑之間多了一個空格，例如 `](`。如果該字串翻譯的不正確，我們鼓勵您按下垃圾桶按鈕**刪除**，或是[投票](https://support.crowdin.com/enterprise/getting-started-for-volunteers/#voting-view)給您認為看起來最棒的翻譯。當不適合的字串被刪除，它們會從組織裡的[翻譯記憶](https://support.crowdin.com/enterprise/translation-memory)刪除，意思是當來源字串再一次出現時，不會再推薦不正確的翻譯。
+
+## 圖片
+
+Images shared by all languages live in `docs/assets/images` and are excluded from Crowdin. When you run `SITE_LANGUAGE=fr ./run.sh` (replacing `fr` with your language code), the build script links this directory into `i18n/fr/assets/images` so translated builds and Markdown previews can use the same files.
+
+Images containing text that needs translation live in `docs/assets/images-localized` and are uploaded to Crowdin. They retain their existing `docs/assets/img` paths in Crowdin to preserve translations, but are exported to `i18n/<language>/assets/images-localized`. Keep `assets/images-localized` in translated Markdown image paths so the same references resolve to the appropriate images in every language.
 
 ## 標點符號
 

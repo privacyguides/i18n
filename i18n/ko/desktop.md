@@ -19,9 +19,9 @@ cover: desktop.webp
 
 <div class="admonition recommendation" markdown>
 
-![페도라 로고](assets/img/linux-desktop/fedora.svg){ align=right }
+![Fedora logo](assets/images/linux-desktop/fedora.svg){ align=right }
 
-**페도라 리눅스**는 리눅스를 처음 사용하는 분들께 추천하는 데스크톱 배포판입니다. 페도라는 일반적으로 다른 배포판보다 먼저 새로운 기술(예: [웨일랜드](https://wayland.freedesktop.org), [파이프와이어](https://pipewire.org))을 도입합니다. 이러한 새로운 기술은 대개 보안, 프라이버시, 전반적인 사용성의 개선을 가져옵니다.
+**Fedora Linux** is our recommended desktop distribution for people new to Linux. 페도라는 일반적으로 다른 배포판보다 먼저 새로운 기술(예: [웨일랜드](https://wayland.freedesktop.org), [파이프와이어](https://pipewire.org))을 도입합니다. 이러한 새로운 기술은 대개 보안, 프라이버시, 전반적인 사용성의 개선을 가져옵니다.
 
 [:octicons-home-16: 홈페이지](https://fedoraproject.org){ .md-button .md-button--primary }
 [:octicons-info-16:](https://docs.fedoraproject.org/en-US/docs){ .card-link title="문서" }
@@ -39,9 +39,9 @@ cover: desktop.webp
 
 <div class="admonition recommendation" markdown>
 
-![오픈수세 텀블위드 로고](assets/img/linux-desktop/opensuse-tumbleweed.svg){ align=right }
+![openSUSE Tumbleweed logo](assets/images/linux-desktop/opensuse-tumbleweed.svg){ align=right }
 
-**오픈수세 텀블위드**는 안정적인 롤링 릴리스 배포판입니다.
+**openSUSE Tumbleweed** is a stable rolling release distribution.
 
 오픈수세 텀블위드는 [Btrfs](https://en.wikipedia.org/wiki/Btrfs)와 [스내퍼](https://en.opensuse.org/openSUSE:Snapper_Tutorial)를 사용하여 문제가 생겼을 때 스냅숏으로 롤백할 수 있도록 합니다.
 
@@ -61,9 +61,9 @@ cover: desktop.webp
 
 <div class="admonition recommendation" markdown>
 
-![아치 로고](assets/img/linux-desktop/archlinux.svg){ align=right }
+![Arch logo](assets/images/linux-desktop/archlinux.svg){ align=right }
 
-**아치 리눅스**는 가볍고 직접 구성하는(DIY) 배포판으로, 설치한 것만 갖추게 됩니다. 자세한 내용은 [FAQ](https://wiki.archlinux.org/title/Frequently_asked_questions)를 참고하세요.
+**Arch Linux** is a lightweight, do-it-yourself (DIY) distribution, meaning that you only get what you install. 자세한 내용은 [FAQ](https://wiki.archlinux.org/title/Frequently_asked_questions)를 참고하세요.
 
 [:octicons-home-16: 홈페이지](https://archlinux.org){ .md-button .md-button--primary }
 [:octicons-info-16:](https://wiki.archlinux.org){ .card-link title="문서" }
@@ -87,9 +87,9 @@ DIY 배포판이므로 시스템을 직접 [구성하고 유지 관리해야 합
 
 <div class="admonition recommendation" markdown>
 
-![페도라 로고](assets/img/linux-desktop/fedora.svg){ align=right }
+![Fedora logo](assets/images/linux-desktop/fedora.svg){ align=right }
 
-**페도라 아토믹 데스크톱**은 `rpm-ostree` 패키지 관리자를 사용하며 컨테이너 기반 작업 흐름과 데스크톱 애플리케이션용 플랫팩에 중점을 둔 페도라 변형 배포판입니다. 이 변형 배포판은 모두 페도라 워크스테이션과 같은 릴리스 일정을 따르므로 같은 빠른 업데이트의 혜택을 받으며 업스트림과 매우 가깝게 유지됩니다.
+**Fedora Atomic Desktops** are variants of Fedora which use the `rpm-ostree` package manager and have a strong focus on containerized workflows and Flatpak for desktop applications. 이 변형 배포판은 모두 페도라 워크스테이션과 같은 릴리스 일정을 따르므로 같은 빠른 업데이트의 혜택을 받으며 업스트림과 매우 가깝게 유지됩니다.
 
 [:octicons-home-16: 홈페이지](https://fedoraproject.org/atomic-desktops){ .md-button .md-button--primary }
 [:octicons-info-16:](https://docs.fedoraproject.org/en-US/emerging){ .card-link title="문서" }
@@ -113,9 +113,9 @@ DIY 배포판이므로 시스템을 직접 [구성하고 유지 관리해야 합
 
 <div class="admonition recommendation" markdown>
 
-![닉스OS 로고](assets/img/linux-desktop/nixos.svg){ align=right }
+![NixOS logo](assets/images/linux-desktop/nixos.svg){ align=right }
 
-닉스OS는 재현성과 안정성에 중점을 둔 Nix 패키지 관리자 기반의 독립 배포판입니다.
+NixOS is an independent distribution based on the Nix package manager with a focus on reproducibility and reliability.
 
 [:octicons-home-16: 홈페이지](https://nixos.org){ .md-button .md-button--primary }
 [:octicons-info-16:](https://nixos.org/learn.html){ .card-link title="문서" }
@@ -141,9 +141,9 @@ Nix는 소스 기반 패키지 관리자입니다. 바이너리 캐시에 미리
 
 <div class="admonition recommendation" markdown>
 
-![후닉스 로고](assets/img/linux-desktop/whonix.svg){ align=right }
+![Whonix logo](assets/images/linux-desktop/whonix.svg){ align=right }
 
-**후닉스**는 보안 중심의 데비안 포크인 [킥시큐어](#kicksecure)를 기반으로 합니다. 인터넷에서 프라이버시, 보안, [:material-incognito: 익명성](basics/common-threats.md#anonymity-vs-privacy){ .pg-purple }을 제공하는 것을 목표로 합니다. 후닉스는 [큐브스 OS](#qubes-os)와 함께 사용하는 것이 가장 좋습니다.
+**Whonix** is based on [Kicksecure](#kicksecure), a security-focused fork of Debian. 인터넷에서 프라이버시, 보안, [:material-incognito: 익명성](basics/common-threats.md#anonymity-vs-privacy){ .pg-purple }을 제공하는 것을 목표로 합니다. 후닉스는 [큐브스 OS](#qubes-os)와 함께 사용하는 것이 가장 좋습니다.
 
 [:octicons-home-16: 홈페이지](https://whonix.org){ .md-button .md-button--primary }
 [:simple-torbrowser:](http://dds6qkxpwdeubwucdiaord2xgbbeyds25rbsgr73tbfpqpt4a6vjwsyd.onion){ .card-link title="어니언 서비스" }
@@ -164,9 +164,9 @@ Nix는 소스 기반 패키지 관리자입니다. 바이너리 캐시에 미리
 
 <div class="admonition recommendation" markdown>
 
-![테일즈 로고](assets/img/linux-desktop/tails.svg){ align=right }
+![Tails logo](assets/images/linux-desktop/tails.svg){ align=right }
 
-**테일즈**는 모든 통신을 토르를 통해 라우팅하는 데비안 기반 라이브 운영 체제로, DVD, USB 스틱, SD 카드에 설치하여 거의 모든 컴퓨터에서 부팅할 수 있습니다. [토르](tor.md)를 사용하여 검열을 우회하면서 프라이버시와 [:material-incognito: 익명성](basics/common-threats.md#anonymity-vs-privacy){ .pg-purple }을 보호하며, 전원을 끄면 사용한 컴퓨터에 아무런 흔적도 남기지 않습니다.
+**Tails** is a live operating system based on Debian that routes all communications through Tor, which can boot on on almost any computer from a DVD, USB stick, or SD card installation. [토르](tor.md)를 사용하여 검열을 우회하면서 프라이버시와 [:material-incognito: 익명성](basics/common-threats.md#anonymity-vs-privacy){ .pg-purple }을 보호하며, 전원을 끄면 사용한 컴퓨터에 아무런 흔적도 남기지 않습니다.
 
 [:octicons-home-16: 홈페이지](https://tails.net){ .md-button .md-button--primary }
 [:octicons-info-16:](https://tails.net/doc/index.en.html){ .card-link title="문서" }
@@ -199,9 +199,9 @@ Nix는 소스 기반 패키지 관리자입니다. 바이너리 캐시에 미리
 
 <div class="admonition recommendation" markdown>
 
-![큐브스 OS 로고](assets/img/qubes/qubes_os.svg){ align=right }
+![Qubes OS logo](assets/images/qubes/qubes_os.svg){ align=right }
 
-**큐브스 OS**는 안전한 가상 머신(또는 "큐브")을 통해 데스크톱 컴퓨팅에 강력한 보안을 제공하도록 설계된 오픈 소스 운영 체제입니다. 큐브스는 Xen, X 윈도 시스템, 리눅스를 기반으로 합니다. 대부분의 리눅스 애플리케이션을 실행할 수 있고 대부분의 리눅스 드라이버를 사용할 수 있습니다.
+**Qubes OS** is an open-source operating system designed to provide strong security for desktop computing through secure virtual machines (or "qubes"). 큐브스는 Xen, X 윈도 시스템, 리눅스를 기반으로 합니다. 대부분의 리눅스 애플리케이션을 실행할 수 있고 대부분의 리눅스 드라이버를 사용할 수 있습니다.
 
 [:octicons-home-16: 홈페이지](https://qubes-os.org){ .md-button .md-button--primary }
 [:simple-torbrowser:](http://qubesosfasa4zl44o4tws22di6kepyzfeqv3tg4e3ztknltfxqrymdad.onion){ .card-link title="어니언 서비스" }
@@ -222,9 +222,9 @@ Nix는 소스 기반 패키지 관리자입니다. 바이너리 캐시에 미리
 
 <div class="admonition recommendation" markdown>
 
-![시큐어블루 로고](assets/img/linux-desktop/secureblue.svg){ align=right }
+![Secureblue logo](assets/images/linux-desktop/secureblue.svg){ align=right }
 
-**시큐어블루**는 [페도라 아토믹 데스크톱](#fedora-atomic-desktops)을 기반으로 하는 보안 중심 운영 체제입니다. 알려진 취약점과 알려지지 않은 취약점 모두의 악용을 사전에 방어하기 위한 여러 [보안 기능](https://secureblue.dev/features)을 포함하며, 크로미움 기반의 강화된 웹 브라우저인 [트라이밸런트](https://github.com/secureblue/Trivalent)가 함께 제공됩니다.
+**Secureblue** is a security-focused operating system based on [Fedora Atomic Desktops](#fedora-atomic-desktops). 알려진 취약점과 알려지지 않은 취약점 모두의 악용을 사전에 방어하기 위한 여러 [보안 기능](https://secureblue.dev/features)을 포함하며, 크로미움 기반의 강화된 웹 브라우저인 [트라이밸런트](https://github.com/secureblue/Trivalent)가 함께 제공됩니다.
 
 [:octicons-home-16: 홈페이지](https://secureblue.dev){ .md-button .md-button--primary }
 [:octicons-info-16:](https://secureblue.dev/install){ .card-link title="문서" }
@@ -243,9 +243,9 @@ Nix는 소스 기반 패키지 관리자입니다. 바이너리 캐시에 미리
 
 <div class="admonition recommendation" markdown>
 
-![킥시큐어 로고](assets/img/linux-desktop/kicksecure.svg){ align=right }
+![Kicksecure logo](assets/images/linux-desktop/kicksecure.svg){ align=right }
 
-**킥시큐어**는 아주 단순하게 말하면 데비안의 공격 표면을 크게 줄여 주는 스크립트, 구성, 패키지의 모음입니다. 기본적으로 많은 프라이버시 및 강화 권장 사항을 적용합니다. 또한 [후닉스](#whonix)의 기반 OS 역할도 합니다.
+**Kicksecure**—in oversimplified terms—is a set of scripts, configurations, and packages that substantially reduce the attack surface of Debian. 기본적으로 많은 프라이버시 및 강화 권장 사항을 적용합니다. 또한 [후닉스](#whonix)의 기반 OS 역할도 합니다.
 
 [:octicons-home-16: 홈페이지](https://kicksecure.com){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://kicksecure.com/wiki/Privacy_Policy){ .card-link title="개인정보 처리방침" }

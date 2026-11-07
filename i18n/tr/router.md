@@ -16,10 +16,10 @@ Below are a few alternative operating systems that can be used on routers, Wi-Fi
 
 <div class="admonition recommendation" markdown>
 
-![OpenWrt logo](assets/img/router/openwrt.svg#only-light){ align=right }
-![OpenWrt logo](assets/img/router/openwrt-dark.svg#only-dark){ align=right }
+![OpenWrt logo](assets/images/router/openwrt.svg#only-light){ align=right }
+![OpenWrt logo](assets/images/router/openwrt-dark.svg#only-dark){ align=right }
 
-**OpenWrt** Linux kernelini temel alan, gömülü cihazlarda ağ trafiğini yönlendirmek için kullanılan bir işletim sistemidir. (Gömülü bir işletim sistemi de denebilir.). Ana bileşenler Linux kerneli, util - linux, uClibc ve BusyBox'tur. All the components have been optimized for home routers.
+**OpenWrt** is a Linux-based operating system; it's primarily used on embedded devices to route network traffic. Ana bileşenler Linux kerneli, util - linux, uClibc ve BusyBox'tur. All the components have been optimized for home routers.
 
 [:octicons-home-16: Anasayfa](https://openwrt.org){ .md-button .md-button--primary }
 [:octicons-info-16:](https://openwrt.org/docs/start){ .card-link title=Documentation}
@@ -36,7 +36,7 @@ Cihazınızın desteklenip desteklenmediğini kontrol etmek için OpenWrt'nin [d
 
 <div class="admonition recommendation" markdown>
 
-![OPNsense logo](assets/img/router/opnsense.svg){ align=right }
+![OPNsense logo](assets/images/router/opnsense.svg){ align=right }
 
 **OPNsense** is an open-source, FreeBSD-based firewall and routing platform which incorporates many advanced features such as traffic shaping, load balancing, and VPN capabilities, with many more features available in the form of plugins. Bir ağ için özel bir güvenlik duvarı/yönlendirici yapmak üzere bir bilgisayara kurulmuştur ve güvenilirliği, genellikle, sadece pahalı ticari güvenlik duvarlarında bulunan özellikler sunmasıyla bilinir.
 

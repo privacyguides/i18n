@@ -15,7 +15,7 @@ Elige una **suite de ofimática** que no requiera iniciar sesión para acceder a
 
 <div class="admonition recommendation" markdown>
 
-![Logo de LibreOffice](assets/img/office-suites/libreoffice.svg){ align=right }
+![LibreOffice logo](assets/images/office-suites/libreoffice.svg){ align=right }
 
 **LibreOffice** es una suite de ofimática gratuita y de código abierto con amplias funcionalidades.
 
@@ -43,7 +43,7 @@ Elige una **suite de ofimática** que no requiera iniciar sesión para acceder a
 
 <div class="admonition recommendation" markdown>
 
-![Logo de OnlyOffice](assets/img/office-suites/onlyoffice.svg){ align=right }
+![OnlyOffice logo](assets/images/office-suites/onlyoffice.svg){ align=right }
 
 **OnlyOffice** es una suite ofimática gratuita, basada en la nube y de código abierto, con amplias funcionalidades, incluyendo la integración con Nextcloud.
 

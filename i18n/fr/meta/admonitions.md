@@ -164,14 +164,14 @@ Ce format est utilisé pour générer des cartes de recommandation. Il manque no
 ```markdown title="Recommendation Card"
 <div class="admonition recommendation" markdown>
 
-![Logo de PhotoPrism](assets/img/self-hosting/photoprism.svg){ align=right }
+![PhotoPrism logo](assets/images/self-hosting/photoprism.svg){ align=right }
 
-**PhotoPrism** est une plateforme auto-hébergeable de gestion de photos. Elle permet de synchroniser et partager des albums ainsi que beaucoup d'autres [fonctionnalités](https://photoprism.app/features). Il est préférable de l'héberger sur un serveur de confiance que vous contrôlez car elle ne propose pas de chiffrement de bout-en-bout.
+**PhotoPrism** is a self-hostable platform for managing photos. It supports album syncing and sharing as well as a variety of other [features](https://photoprism.app/features). It does not include end-to-end encryption, so it's best hosted on a server that you trust and is under your control.
 
-[:octicons-home-16: Page d'Accueil](https://photoprism.app){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://photoprism.app/privacy){ .card-link title="Politique de Confidentialité" }
+[:octicons-home-16: Homepage](https://photoprism.app){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://photoprism.app/privacy){ .card-link title="Privacy Policy" }
 [:octicons-info-16:](https://photoprism.app/kb){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/photoprism){ .card-link title="Code Source" }
+[:octicons-code-16:](https://github.com/photoprism){ .card-link title="Source Code" }
 
 </div>
 ```
@@ -180,7 +180,7 @@ Ce format est utilisé pour générer des cartes de recommandation. Il manque no
 
 <div class="admonition recommendation" markdown>
 
-![Logo de PhotoPrism](../assets/img/self-hosting/photoprism.svg){ align=right }
+![PhotoPrism logo](../assets/images/self-hosting/photoprism.svg){ align=right }
 
 **PhotoPrism** est une plateforme auto-hébergeable de gestion de photos. Elle permet de synchroniser et partager des albums ainsi que beaucoup d'autres [fonctionnalités](https://photoprism.app/features). Il est préférable de l'héberger sur un serveur de confiance que vous contrôlez car elle ne propose pas de chiffrement de bout-en-bout.
 

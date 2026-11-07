@@ -36,7 +36,7 @@ Android 15以上のデバイスを使用しているのであれば、Shelterで
 
 <div class="admonition recommendation" markdown>
 
-![Shelterのロゴ](../assets/img/android/shelter.svg){ align=right }
+![Shelter logo](../assets/images/android/shelter.svg){ align=right }
 
 **Shelter**は、Androidの仕事用プロファイル機能を利用して、デバイス上のアプリを隔離または複製できるアプリです。
 
@@ -65,8 +65,8 @@ Shelterは[連絡先の検索をブロック](https://secure-system.gitlab.io/In
 
 <div class="admonition recommendation" markdown>
 
-![Secure cameraのロゴ](../assets/img/android/secure_camera.svg#only-light){ align=right }
-![Secure cameraのロゴ](../assets/img/android/secure_camera-dark.svg#only-dark){ align=right }
+![Secure camera logo](../assets/images/android/secure_camera.svg#only-light){ align=right }
+![Secure camera logo](../assets/images/android/secure_camera-dark.svg#only-dark){ align=right }
 
 **Secure Camera**は、プライバシーとセキュリティを重視したカメラアプリで、画像、ビデオ、QRコードを撮影することができます。 CameraXの拡張機能(ポートレートモード、HDR、夜景、顔のレタッチ、オートモード)も、デバイスが対応していれば使用できます。
 
@@ -109,8 +109,8 @@ Shelterは[連絡先の検索をブロック](https://secure-system.gitlab.io/In
 
 <div class="admonition recommendation" markdown>
 
-![Secure PDF Viewerのロゴ](../assets/img/android/secure_pdf_viewer.svg#only-light){ align=right }
-![Secure PDF Viewerのロゴ](../assets/img/android/secure_pdf_viewer-dark.svg#only-dark){ align=right }
+![Secure PDF Viewer logo](../assets/images/android/secure_pdf_viewer.svg#only-light){ align=right }
+![Secure PDF Viewer logo](../assets/images/android/secure_pdf_viewer-dark.svg#only-dark){ align=right }
 
 **Secure PDF Viewer**は、[pdf.js](https://ja.wikipedia.org/wiki/PDF.js)をベースにしたPDFビューアで、権限が一切必要ありません。開いたPDFは[サンドボックス化](https://ja.wikipedia.org/wiki/%E3%82%B5%E3%83%B3%E3%83%89%E3%83%9C%E3%83%83%E3%82%AF%E3%82%B9_(%E3%82%BD%E3%83%95%E3%83%88%E3%82%A6%E3%82%A7%E3%82%A2%E9%96%8B%E7%99%BA))された[WebView](https://developer.android.com/guide/webapps/webview)に送られます。そのため、コンテンツやファイルに直接アクセスしに行く権限が必要ありません。
 

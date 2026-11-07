@@ -16,10 +16,10 @@ Below are a few alternative operating systems that can be used on routers, Wi-Fi
 
 <div class="admonition recommendation" markdown>
 
-![OpenWrt logo](assets/img/router/openwrt.svg#only-light){ align=right }
-![OpenWrt logo](assets/img/router/openwrt-dark.svg#only-dark){ align=right }
+![OpenWrt logo](assets/images/router/openwrt.svg#only-light){ align=right }
+![OpenWrt logo](assets/images/router/openwrt-dark.svg#only-dark){ align=right }
 
-**OpenWrt** - це операційна система (зокрема, вбудована операційна система), заснована на ядрі Linux, яка в основному використовується на вбудованих пристроях для маршрутизації мережевого трафіку. Основними компонентами є ядро Linux, util-linux, uClibc, та BusyBox. All the components have been optimized for home routers.
+**OpenWrt** is a Linux-based operating system; it's primarily used on embedded devices to route network traffic. Основними компонентами є ядро Linux, util-linux, uClibc, та BusyBox. All the components have been optimized for home routers.
 
 [Homepage](https://openwrt.org){ .md-button .md-button--primary }
 
@@ -35,7 +35,7 @@ Below are a few alternative operating systems that can be used on routers, Wi-Fi
 
 <div class="admonition recommendation" markdown>
 
-![OPNsense logo](assets/img/router/opnsense.svg){ align=right }
+![OPNsense logo](assets/images/router/opnsense.svg){ align=right }
 
 **OPNsense** is an open-source, FreeBSD-based firewall and routing platform which incorporates many advanced features such as traffic shaping, load balancing, and VPN capabilities, with many more features available in the form of plugins. Він встановлюється на комп'ютер для створення виділеного брандмауера/маршрутизатора для мережі та відомий своєю надійністю і пропонує функції, які часто зустрічаються тільки в дорогих комерційних брандмауерах.
 

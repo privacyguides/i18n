@@ -230,11 +230,11 @@ Gdy aplikacja poprosi o dostęp do biblioteki zdjęć, iOS daje opcje ograniczen
 
 Zamiast zezwalać na dostęp do wszystkich zdjęć, możesz pozwolić jedynie na wybrane zdjęcia, wybierając w oknie uprawnień opcję „Wybierz zdjęcia...”. Dostęp do zdjęć można zmieniać w dowolnym momencie, przechodząc do: **Ustawienia** → **Prywatność i bezpieczeństwo** → **Zdjęcia**.
 
-![Uprawnienia do zdjęć](../assets/img/ios/photo-permissions-light.png#only-light) ![Uprawnienia do zdjęć](../assets/img/ios/photo-permissions-dark.png#only-dark)
+![Uprawnienia do zdjęć](../assets/images-localized/ios/photo-permissions-light.png#only-light) ![Uprawnienia do zdjęć](../assets/images-localized/ios/photo-permissions-dark.png#only-dark)
 
 **Dodaj tylko zdjęcia** to uprawnienie, które pozwala aplikacji tylko zapisywać zdjęcia do biblioteki. Nie wszystkie aplikacje proszące o dostęp do biblioteki oferują tę opcję.
 
-![Private Access](../assets/img/ios/private-access-light.png#only-light) ![Private Access](../assets/img/ios/private-access-dark.png#only-dark)
+![Private Access](../assets/images-localized/ios/private-access-light.png#only-light) ![Private Access](../assets/images-localized/ios/private-access-dark.png#only-dark)
 
 Some apps also support **Private Access**, which functions similarly to the **Limited Access** permission. However, photos shared to apps using Private Access include their location by default. Zalecamy wyłączenie tej opcji, jeśli wcześniej [nie usuniesz metadanych zdjęć](../data-redaction.md).
 
@@ -242,7 +242,7 @@ Some apps also support **Private Access**, which functions similarly to the **Li
 
 Podobnie jak ze zdjęciami, zamiast pozwalać aplikacji na dostęp do wszystkich kontaktów, można zezwolić jej tylko na wybrane kontakty. Uprawnienia do kontaktów można zmieniać w dowolnym momencie, przechodząc do: **Ustawienia** → **Prywatność i bezpieczeństwo** → **Kontakty**.
 
-![Uprawnienia do kontaktów](../assets/img/ios/contact-permissions-light.png#only-light) ![Uprawnienia do kontaktów](../assets/img/ios/contact-permissions-dark.png#only-dark)
+![Uprawnienia do kontaktów](../assets/images-localized/ios/contact-permissions-light.png#only-light) ![Uprawnienia do kontaktów](../assets/images-localized/ios/contact-permissions-dark.png#only-dark)
 
 ### Wymagaj biometrii i ukrywaj aplikacje
 

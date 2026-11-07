@@ -26,9 +26,9 @@ cover: cloud.webp
 
 <div class="admonition recommendation" markdown>
 
-![Proton Drive logo](assets/img/cloud/protondrive.svg){ align=right }
+![Proton Drive logo](assets/images/cloud/protondrive.svg){ align=right }
 
-**Proton Drive** 是一個加密雲端儲存提供商，由經營廣受歡迎的加密電子郵件 [Proton Mail](email.md#proton-mail) 的提供商推出。
+**Proton Drive** is an encrypted cloud storage provider from the popular encrypted email provider [Proton Mail](email.md#proton-mail).
 
 初始的免費儲存空間限制為 2 GB，但完成[特定步驟](https://proton.me/support/more-free-storage-existing-users)後，可獲得最多 5 GB 的額外儲存空間。
 
@@ -55,9 +55,9 @@ Proton Drive 網頁應用程式已於[2021年](https://proton.me/community/open-
 
 <div class="admonition recommendation" markdown>
 
-![Tresorit logo](assets/img/cloud/tresorit.svg){ align=right }
+![Tresorit logo](assets/images/cloud/tresorit.svg){ align=right }
 
-**Tresorit** 為 2011年創辦於瑞士- 匃牙利的加密雲端儲存供應商。 Tresorit 由瑞士郵政擁有，瑞士郵政是瑞士的國家郵政服務。
+**Tresorit** is a Swiss-Hungarian encrypted cloud storage provider founded in 2011. Tresorit 由瑞士郵政擁有，瑞士郵政是瑞士的國家郵政服務。
 
 [:octicons-home-16: 首頁](https://tresorit.com){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://tresorit.com/legal/privacy-policy){ .card-link title="隱私權政策" }
@@ -92,9 +92,9 @@ Tresorit 已獲得多項獨立安全稽核：
 
 <div class="admonition recommendation" markdown>
 
-![Peergos logo](assets/img/cloud/peergos.svg){ align=right }
+![Peergos logo](assets/images/cloud/peergos.svg){ align=right }
 
-**Peergos** 是去中心化協定的儲存、社交媒體和應用程式開源平台。其提供了安全且私人的空間，讓使用者可以儲存、分享、檢視與編輯他們的照片、影片、文件等等。
+**Peergos** is a decentralized protocol and open-source platform for storage, social media, and applications. 其提供了安全且私人的空間，讓使用者可以儲存、分享、檢視與編輯他們的照片、影片、文件等等。
 
 Peergos 採用抗量子加密的端到端加密技術保護您的檔案，確保所有檔案相關資料皆保持私密。其也可以[自行架設](https://book.peergos.org/features/self)。
 

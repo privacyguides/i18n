@@ -15,7 +15,7 @@ La mayoría de las plataformas de **colaboración en documentos** en línea, com
 
 <div class="admonition recommendation" markdown>
 
-![CryptPad logo](assets/img/document-collaboration/cryptpad.svg){ align=right }
+![CryptPad logo](assets/images/document-collaboration/cryptpad.svg){ align=right }
 
 **CryptPad** es una alternativa privada por diseño a los populares paquetes ofimáticos completos. Todo el contenido de este servicio web es E2EE y puede compartirse fácilmente con otros usuarios.
 

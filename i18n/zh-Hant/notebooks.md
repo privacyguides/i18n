@@ -19,7 +19,7 @@ If you are currently using an application like Evernote, Google Keep, or Microso
 
 <div class="admonition recommendation" markdown>
 
-![Standard Notes logo](assets/img/notebooks/standard-notes.svg){ align=right }
+![Standard Notes logo](assets/images/notebooks/standard-notes.svg){ align=right }
 
 **Standard Notes** is a simple and private notes app that features cross-platform sync for seamless use. 它在每個平臺上都採納 E2EE ，並且其電腦版具有強大的主題和自訂編輯器功能。
 
@@ -52,7 +52,7 @@ Standard Notes 已於 2024 年 4 月 10 日 [加入 Proton AG](https://standardn
 
 <div class="admonition recommendation" markdown>
 
-![Notesnook logo](assets/img/notebooks/notesnook.svg){ align=right }
+![Notesnook logo](assets/images/notebooks/notesnook.svg){ align=right }
 
 **Notesnook** is a free (as in speech), open-source, and easy-to-use E2EE note-taking app focused on user privacy.
 
@@ -86,7 +86,7 @@ It features sync functionality that allows you to access your notes on multiple 
 
 <div class="admonition recommendation" markdown>
 
-![Joplin logo](assets/img/notebooks/joplin.svg){ align=right }
+![Joplin logo](assets/images/notebooks/joplin.svg){ align=right }
 
 **Joplin** is a free, open-source, and fully-featured E2EE note-taking and to-do application which can handle numerous Markdown notes organized into notebooks and tags.
 
@@ -120,10 +120,10 @@ Joplin [does not support](https://github.com/laurent22/joplin/issues/289) passwo
 
 <div class="admonition recommendation" markdown>
 
-![Cryptee logo](./assets/img/notebooks/cryptee.svg#only-light){ align=right }
-![Cryptee logo](./assets/img/notebooks/cryptee-dark.svg#only-dark){ align=right }
+![Cryptee logo](assets/images/notebooks/cryptee.svg#only-light){ align=right }
+![Cryptee logo](assets/images/notebooks/cryptee-dark.svg#only-dark){ align=right }
 
-**Cryptee** 是一個開源的，基於網頁的 E2EE 文件編輯器和照片儲存應用程式。
+**Cryptee** is an open-source, web-based E2EE document editor and photo storage application.
 
 Cryptee offers 100 MB of storage for free, with paid options if you need more. Sign-up doesn't require an e-mail or other personally identifiable information.
 
@@ -149,9 +149,9 @@ Cryptee is a PWA, which means that it works seamlessly across all modern devices
 
 <div class="admonition recommendation" markdown>
 
-![Org-mode logo](assets/img/notebooks/org-mode.svg){ align=right }
+![Org-mode logo](assets/images/notebooks/org-mode.svg){ align=right }
 
-**Org-mode** 是GNU Emacs的 [主要模式](https://gnu.org/software/emacs/manual/html_node/elisp/Major-Modes.html)。 Org-mode 用於記錄筆記，維護待辦事項列表，規劃項目以及使用快速有效的純文字系統撰寫文件。 File synchronization is possible with tools like [Syncthing](file-sharing.md#syncthing-p2p).
+**Org-mode** is a [major mode](https://gnu.org/software/emacs/manual/html_node/elisp/Major-Modes.html) for GNU Emacs. Org-mode 用於記錄筆記，維護待辦事項列表，規劃項目以及使用快速有效的純文字系統撰寫文件。 File synchronization is possible with tools like [Syncthing](file-sharing.md#syncthing-p2p).
 
 [:octicons-home-16: Homepage](https://orgmode.org){ .md-button .md-button--primary }
 [:octicons-info-16:](https://orgmode.org/manuals.html){ .card-link title="Documentation" }
@@ -164,7 +164,7 @@ Cryptee is a PWA, which means that it works seamlessly across all modern devices
 
 ## 標準
 
-**請注意，我們與推薦的任何項目均無關。**除了[我們的通用標準](about/criteria.md)外，我們還制定了一套明確的要求，以便我們能夠提供客觀的建議。 我們建議您在選擇使用項目之前先熟悉此列表，並進行自己的研究，以確保它是您的正確選擇。
+**請注意，我們與推薦的任何項目均無關。**除了[我們的通用標準](about/criteria.md)外，我們還制定了一套明確的要求，以便我們能夠提供客觀的建議。我們建議您在選擇使用項目之前先熟悉此列表，並進行自己的研究，以確保它是您的正確選擇。
 
 ### 最低合格要求
 

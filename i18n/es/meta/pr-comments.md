@@ -5,13 +5,13 @@ description: Una guía para participar en las discusiones de Pull Request.
 
 Por favor, abstente de utilizar la casilla general **Añadir un comentario** en los PR de GitHub cuando dejes un comentario o realices una revisión.
 
-![No utilices la casilla general «Añadir un comentario» de GitHub](../assets/img/meta/pr-avoid-general-comments.png)
+![Do not use the general "Add a comment" box in GitHub](../assets/images/meta/pr-avoid-general-comments.png)
 
 Los comentarios que se dejan así no se _hilvanan_, lo que dificulta el seguimiento de múltiples conversaciones.
 
 Los comentarios que se dejen de la manera descrita a continuación tendrán un cuadro de respuesta incorporado para mantener las conversaciones en un solo hilo. Estos comentarios también pueden marcarse posteriormente como resueltos, de modo que se pueda hacer un seguimiento de la discusión más fácilmente.
 
-![Captura de pantalla de un comentario en GitHub con un cuadro de respuesta integrado, resaltado en naranja](../assets/img/meta/pr-threaded-comment.png)
+![A screenshot of a comment in GitHub which has a built-in "reply" box, highlighted in orange.](../assets/images/meta/pr-threaded-comment.png)
 
 ## Comentar
 

@@ -11,12 +11,12 @@ schema:
   - "@context": http://schema.org
     "@type": CreativeWork
     name: Android
-    image: /assets/img/android/android.svg
+    image: /assets/images/android/android.svg
     url: https://source.android.com/
     sameAs: https://pt.wikipedia.org/wiki/Android#:~:text=Android%20%C3%A9%20um%20sistema%20operacional,desenvolvedores%20conhecido%20como%20Open%20Handset
 ---
 
-![Shelter logo](../assets/img/android/android.svg){ align=right }
+![Android logo](../assets/images/android/android.svg){ align=right }
 
 O **Android Open Source Project** (AOSP) é um sistema operacional móvel de código aberto liderado pelo Google que alimenta a maioria dos dispositivos móveis do mundo. A maioria dos celulares vendidos com Android são modificados para incluir integrações invasivas e aplicativos como o Google Play Services. Você pode melhorar a privacidade de seu dispositivo significativamente ao usar uma versão do Android sem esses recursos invasivos.
 
@@ -48,7 +48,7 @@ O ideal é que, ao escolher uma distribuição personalizada do Android, você s
 
 [Rooting](https://pt.wikipedia.org/wiki/Root_no_Android#:~:text=O%20root%20ou%20rooting%20%C3%A9,indispon%C3%ADveis%20em%20sua%20configura%C3%A7%C3%A3o%20padr%C3%A3o.)) telefones Android pode diminuir significativamente a segurança pois enfraquece o [modelo de segurança do Android](https://pt.wikipedia.org/wiki/Android#:~:text=Android%20%C3%A9%20um%20sistema%20operacional,desenvolvedores%20conhecido%20como%20Open%20Handset)#Security_and_privacy). Isto pode diminuir a privacidade se houver um exploit que seja assistenciado pela diminuição da segurança. Métodos comuns de root envolvem diretamente adulteração com a partição de boot, tornando impossível executar uma boot verificada com sucesso. Apps que requerem root também modificarão a partição do sistema, o que significa que o Boot Verificado terá de permanecer desativado. Ter o root exposto diretamente na interface do usuário também aumenta a superfície de ataque do seu dispositivo e pode ajudar na [escalada de privilégios](https://pt.wikipedia.org/wiki/Escalonamento_de_privil%C3%A9gios#:~:text=A%20escala%C3%A7%C3%A3o%20de%20privil%C3%A9gios%20%C3%A9,de%20um%20aplicativo%20ou%20usu%C3%A1rio.) vulnerabilidades e desvios da política do SELinux.
 
-Content blockers which modify the [hosts file](https://en.wikipedia.org/wiki/Hosts_\(file\)) (like AdAway) and firewalls which require root access persistently (like AFWall+) are dangerous and should not be used. Eles também não são a maneira correta de resolver seus objetivos pretendidos. Para bloqueio de conteúdo, sugerimos criptografia [DNS](../dns.md) ou funcionalidade de bloqueio de conteúdo fornecida por uma VPN. TrackerControl and AdAway in non-root mode will take up the VPN slot (by using a local loopback VPN), preventing you from using privacy-enhancing services such as [Orbot](../alternative-networks.md#orbot) or a [real VPN provider](../vpn.md).
+Content blockers which modify the [hosts file](https://en.wikipedia.org/wiki/Hosts_(file)) (like AdAway) and firewalls which require root access persistently (like AFWall+) are dangerous and should not be used. Eles também não são a maneira correta de resolver seus objetivos pretendidos. Para bloqueio de conteúdo, sugerimos criptografia [DNS](../dns.md) ou funcionalidade de bloqueio de conteúdo fornecida por uma VPN. TrackerControl and AdAway in non-root mode will take up the VPN slot (by using a local loopback VPN), preventing you from using privacy-enhancing services such as [Orbot](../alternative-networks.md#orbot) or a [real VPN provider](../vpn.md).
 
 O AFWall+ funciona com base na abordagem [filtro de pacotes](https://en-m-wikipedia-org.translate.goog/?_x_tr_sl=auto&_x_tr_tl=pt&_x_tr_hl=pt-BR&_x_tr_pto=wapp&_x_tr_hist=true#Packet_filter):~:text=de%20uma%20rede-,Filtro%20de%20pacotes,-O%20primeiro%20tipo) e pode ser contornável em algumas situações.
 

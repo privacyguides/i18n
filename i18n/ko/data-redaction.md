@@ -30,9 +30,9 @@ cover: data-redaction.webp
 
 <div class="admonition recommendation" markdown>
 
-![MAT2 로고](assets/img/data-redaction/mat2.svg){ align=right }
+![MAT2 logo](assets/images/data-redaction/mat2.svg){ align=right }
 
-**MAT2**는 이미지, 오디오, 토렌트, 문서 파일에서 메타데이터를 제거할 수 있는 무료 크로스 플랫폼 소프트웨어입니다. 명령줄 도구는 물론, [KDE](https://kde.org)의 기본 파일 관리자인 [돌핀](https://github.com/jvoisin/mat2/tree/master/dolphin)용 확장 프로그램을 통해 그래픽 사용자 인터페이스도 제공합니다.
+**MAT2** is free, cross-platform software which allows you to remove metadata from image, audio, torrent, and document file types. 명령줄 도구는 물론, [KDE](https://kde.org)의 기본 파일 관리자인 [돌핀](https://github.com/jvoisin/mat2/tree/master/dolphin)용 확장 프로그램을 통해 그래픽 사용자 인터페이스도 제공합니다.
 
 [:octicons-repo-16: 저장소](https://github.com/jvoisin/mat2#readme){ .md-button .md-button--primary }
 [:octicons-info-16:](https://github.com/jvoisin/mat2#how-to-use-mat2){ .card-link title="문서" }
@@ -54,9 +54,9 @@ cover: data-redaction.webp
 
 <div class="admonition recommendation" markdown>
 
-![메타데이터 클리너 로고](assets/img/data-redaction/metadatacleaner.svg){ align=right }
+![Metadata Cleaner logo](assets/images/data-redaction/metadatacleaner.svg){ align=right }
 
-**메타데이터 클리너**는 [MAT2](https://github.com/jvoisin/mat2)를 기반으로 하는 리눅스용 그래픽 메타데이터 제거 도구입니다.
+**Metadata Cleaner** is a graphical metadata removal tool for Linux powered by [MAT2](https://github.com/jvoisin/mat2).
 
 [:octicons-home-16: 홈페이지](https://metadatacleaner.gitlab.io/metadatacleaner/){ .md-button .md-button--primary }
 [:octicons-code-16:](https://gitlab.com/metadatacleaner/metadatacleaner/){ .card-link title="소스 코드" }
@@ -75,9 +75,9 @@ cover: data-redaction.webp
 
 <div class="admonition recommendation" markdown>
 
-![ExifEraser 로고](assets/img/data-redaction/exiferaser.svg){ align=right }
+![ExifEraser logo](assets/images/data-redaction/exiferaser.svg){ align=right }
 
-**ExifEraser**는 권한이 필요 없는 안드로이드용 최신 이미지 메타데이터 제거 애플리케이션입니다.
+**ExifEraser** is a modern, permissionless image metadata erasing application for Android.
 
 현재 JPEG, PNG, WebP 파일을 지원합니다.
 
@@ -126,9 +126,9 @@ iOS와 macOS에서는 이를 위한 [**단축어**](https://apps.apple.com/app/i
 
 <div class="admonition recommendation" markdown>
 
-![ExifTool 로고](assets/img/data-redaction/exiftool.png){ align=right }
+![ExifTool logo](assets/images/data-redaction/exiftool.png){ align=right }
 
-**ExifTool**은 다양한 파일 형식(JPEG, TIFF, PNG, PDF, RAW 등)에서 메타 정보(Exif, IPTC, XMP 등)를 읽고, 쓰고, 편집하는 원조 펄 라이브러리이자 명령줄 애플리케이션입니다.
+**ExifTool** is the original Perl library and command-line application for reading, writing, and editing meta information (Exif, IPTC, XMP, and more) in a wide variety of file formats (JPEG, TIFF, PNG, PDF, RAW, and more).
 
 다른 Exif 제거 애플리케이션의 구성 요소로 쓰이는 경우가 많으며, 대부분의 리눅스 배포판 저장소에 포함되어 있습니다.
 

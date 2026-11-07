@@ -32,10 +32,10 @@ Veel banken en kredietkaartaanbieders bieden hun eigen virtuele kaartfunctionali
 
 <div class="admonition recommendation" markdown>
 
-![Privacy.com logo](assets/img/financial-services/privacy_com.svg#only-light){ align=right }
-Privacy.com logo](assets/img/financial-services/privacy_com-dark.svg#only-dark){ align=right }
+![Privacy.com logo](assets/images/financial-services/privacy_com.svg#only-light){ align=right }
+![Privacy.com logo](assets/images/financial-services/privacy_com-dark.svg#only-dark){ align=right }
 
-Met het gratis plan van **Privacy.com** kunt je tot 12 virtuele kaarten per maand aanmaken, uitgavenlimieten op die kaarten instellen en kaarten onmiddellijk uitschakelen. Hun betaalde plannen bieden hogere limieten voor het aantal kaarten dat per maand kan worden aangemaakt.
+**Privacy.com**'s free plan allows you to create up to 12 virtual cards per month, set spend limits on those cards, and shut off cards instantly. Hun betaalde plannen bieden hogere limieten voor het aantal kaarten dat per maand kan worden aangemaakt.
 
 [:octicons-home-16: Homepage](https://privacy.com){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://privacy.com/privacy-policy){ .card-link title="Privacybeleid" }
@@ -51,10 +51,10 @@ Privacy.com gives information about the merchants you purchase from to your bank
 
 <div class="admonition recommendation" markdown>
 
-![MySudo logo](assets/img/financial-services/mysudo.svg#only-light){ align=right }
-![MySudo logo](assets/img/financial-services/mysudo-dark.svg#only-dark){ align=right }
+![MySudo logo](assets/images/financial-services/mysudo.svg#only-light){ align=right }
+![MySudo logo](assets/images/financial-services/mysudo-dark.svg#only-dark){ align=right }
 
-**MySudo** biedt maximaal 9 virtuele kaarten, afhankelijk van het plan dat je aanschaft. Hun betaalde diensten bevatten bovendien functionaliteit die handig kan zijn om privé aankopen te doen, zoals virtuele telefoonnummers en e-mailadressen, hoewel we meestal andere [email aliasing providers](email-aliasing.md) aanbevelen voor uitgebreid e-mailaliasing gebruik.
+**MySudo** provides up to 9 virtual cards depending on the plan you purchase. Hun betaalde diensten bevatten bovendien functionaliteit die handig kan zijn om privé aankopen te doen, zoals virtuele telefoonnummers en e-mailadressen, hoewel we meestal andere [email aliasing providers](email-aliasing.md) aanbevelen voor uitgebreid e-mailaliasing gebruik.
 
 [:octicons-home-16: Homepage](https://mysudo.com){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://anonyome.com/privacy-policy){ .card-link title="Privacybeleid" }
@@ -85,7 +85,7 @@ Met deze diensten kunt je online cadeaubonnen kopen voor verschillende verkopers
 
 <div class="admonition recommendation" markdown>
 
-![Coincards logo](assets/img/financial-services/coincards.svg){ align=right }
+![Coincards logo](assets/images/financial-services/coincards.svg){ align=right }
 
 **Coincards** allows you to purchase gift cards for a large variety of merchants. Their homepage has a complete listing of the various countries where their service is available.
 

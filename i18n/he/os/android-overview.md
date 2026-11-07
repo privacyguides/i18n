@@ -5,7 +5,7 @@ description: Android is an open-source operating system with strong security pro
 robots: nofollow, max-snippet:-1, max-image-preview:large
 ---
 
-![לוגו אנדרואיד](../assets/img/android/android.svg){ align=right }
+![לוגו אנדרואיד](../assets/images/android/android.svg){ align=right }
 
 ה**פרויקט הקוד הפתוח של אנדרואיד** הוא מערכת הפעלה מאובטחת לנייד הכוללת [אפליקצית ארגז חול](https://source.android.com/security/app-sandbox), [אתחול מאומת](https://source.android.com/security/verifiedboot) (AVB), ו- [הרשאות](https://developer.android.com/guide/topics/permissions/overview) מערכת בקרת חזקה.
 

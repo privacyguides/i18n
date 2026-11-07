@@ -36,7 +36,7 @@ Wenn dein Gerät mit Android 15 oder höher ausgestattet ist, empfehlen wir dir,
 
 <div class="admonition recommendation" markdown>
 
-![Shelter Logo](../assets/img/android/shelter.svg){ align=right }
+![Shelter logo](../assets/images/android/shelter.svg){ align=right }
 
 **Shelter** ist eine App, die dir hilft, die Arbeitsprofilfunktion von Android ausnutzen, um Anwendungen auf deinem Gerät zu isolieren oder zu duplizieren.
 
@@ -65,8 +65,8 @@ Shelter wird gegenüber [Insular](https://secure-system.gitlab.io/Insular) und [
 
 <div class="admonition recommendation" markdown>
 
-![Secure camera Logo](../assets/img/android/secure_camera.svg#only-light){ align=right }
-![Secure camera Logo](../assets/img/android/secure_camera-dark.svg#only-dark){ align=right }
+![Secure camera logo](../assets/images/android/secure_camera.svg#only-light){ align=right }
+![Secure camera logo](../assets/images/android/secure_camera-dark.svg#only-dark){ align=right }
 
 **Secure Camera** ist eine Kamera-App, die sich auf Datenschutz und Sicherheit konzentriert und Bilder, Videos und QR-Codes aufnehmen kann. CameraX Herstellererweiterungen (Porträt, HDR, Nachtsicht, Gesichtsretusche und Auto) sind auf unterstützten Geräten ebenfalls verfügbar.
 
@@ -109,8 +109,8 @@ Die Metadaten zur Bildausrichtung werden nicht gelöscht. Wenn du den Standort (
 
 <div class="admonition recommendation" markdown>
 
-![Secure PDF Viewer Logo](../assets/img/android/secure_pdf_viewer.svg#only-light){ align=right }
-![Secure PDF Viewer Logo](../assets/img/android/secure_pdf_viewer-dark.svg#only-dark){ align=right }
+![Secure PDF Viewer logo](../assets/images/android/secure_pdf_viewer.svg#only-light){ align=right }
+![Secure PDF Viewer logo](../assets/images/android/secure_pdf_viewer-dark.svg#only-dark){ align=right }
 
 **Secure PDF Viewer** ist ein PDF-Viewer, der auf [pdf.js](https://de.wikipedia.org/wiki/PDF.js) basiert und keine Berechtigungen benötigt. Das PDF wird in eine [sandboxed](https://en.wikipedia.org/wiki/Sandbox_(software_development)) [WebView](https://developer.android.com/guide/webapps/webview) eingespeist. Das bedeutet, dass es keine Berechtigung zum direkten Zugriff auf Inhalte oder Dateien benötigt.
 

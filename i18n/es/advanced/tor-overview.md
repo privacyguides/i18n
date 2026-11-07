@@ -4,7 +4,7 @@ icon: 'simple/torproject'
 description: Tor es una red descentralizada y gratuita diseñada para utilizar Internet con la mayor privacidad posible.
 ---
 
-![Logotipo de Tor](../assets/img/self-contained-networks/tor.svg){ align=right }
+![Logotipo de Tor](../assets/images/self-contained-networks/tor.svg){ align=right }
 
 [**Tor**](../alternative-networks.md#tor) es una red gratuita y descentralizada diseñada para usar el Internet con la mayor privacidad posible. Si se utiliza correctamente, la red permite la navegación y las comunicaciones privadas y anónimas. Debido a que el tráfico de Tor es difícil de bloquear y rastrear, Tor es una herramienta eficaz para eludir la censura.
 
@@ -111,9 +111,9 @@ Los "servicios Clearnet" son sitios web a los que puedes acceder con cualquier n
 Cada vez que [te conectes a Tor](../tor.md), este elegirá tres nodos para construir una ruta a Internet-esta ruta se llama "circuito"
 
 <figure markdown>
-  ![Ruta de Tor que muestra tu dispositivo conectándose a un nodo de entrada, un nodo medio y un nodo de salida antes de llegar al sitio web de destino](../assets/img/how-tor-works/tor-path.svg#only-light)
-  ![Ruta de Tor que muestra tu dispositivo conectándose a un nodo de entrada, un nodo medio y un nodo de salida antes de llegar al sitio web de destino](../assets/img/how-tor-works/tor-path-dark.svg#only-dark)
-  <figcaption>Ruta del circuito de Tor</figcaption>
+  ![Tor path showing your device connecting to an entry node, middle node, and exit node before reaching the destination website](../assets/images-localized/how-tor-works/tor-path.svg#only-light)
+  ![Tor path showing your device connecting to an entry node, middle node, and exit node before reaching the destination website](../assets/images-localized/how-tor-works/tor-path-dark.svg#only-dark)
+  <figcaption>Tor circuit pathway</figcaption>
 </figure>
 
 Cada uno de estos nodos tiene su propia función:
@@ -143,9 +143,9 @@ Los "Servicios Onion" (también conocidos comúnmente como "servicios ocultos") 
 Conectarse a un Servicio Onion en Tor funciona de forma muy similar a conectarse a un servicio clearnet, pero tu tráfico se enruta a través de un total de **seis nodos** antes de llegar al servidor de destino. Al igual que antes, sin embargo, solo tres de estos nodos contribuyen a *tu* anonimato, los otros tres nodos protegen el anonimato *del Servicio Onion*, ocultando la verdadera IP y ubicación del sitio web de la misma manera que Tor Browser oculta la tuya.
 
 <figure style="width:100%" markdown>
-  ![Ruta de Tor que muestra tu tráfico siendo enrutado a través de tus tres nodos Tor más tres nodos Tor adicionales que ocultan la identidad del sitio web](../assets/img/how-tor-works/tor-path-hidden-service.svg#only-light)
-  ![Ruta de Tor que muestra tu tráfico siendo enrutado a través de tus tres nodos Tor más tres nodos Tor adicionales que ocultan la identidad del sitio web](../assets/img/how-tor-works/tor-path-hidden-service-dark.svg#only-dark)
-  <figcaption>Ruta del circuito de Tor con Servicios Onion. Los nodos de la valla <span class="pg-blue">azul</span> pertenecen a tu navegador, mientras que los nodos de la valla <span class="pg-red">roja</span> pertenecen al servidor, por lo que su identidad está oculta para ti.</figcaption>
+  ![Tor path showing your traffic being routed through your three Tor nodes plus three additional Tor nodes which hide the website's identity](../assets/images-localized/how-tor-works/tor-path-hidden-service.svg#only-light)
+  ![Tor path showing your traffic being routed through your three Tor nodes plus three additional Tor nodes which hide the website's identity](../assets/images-localized/how-tor-works/tor-path-hidden-service-dark.svg#only-dark)
+  <figcaption>Tor circuit pathway with Onion Services. Los nodos de la valla <span class="pg-blue">azul</span> pertenecen a tu navegador, mientras que los nodos de la valla <span class="pg-red">roja</span> pertenecen al servidor, por lo que su identidad está oculta para ti.</figcaption>
 </figure>
 
 ## Cifrado
@@ -163,9 +163,9 @@ Una vez que Tor ha construido un circuito, la transmisión de datos se realiza d
 A continuación se presenta un diagrama alternativo que muestra el proceso. Cada nodo elimina su propia capa de encriptación, y cuando el servidor de destino devuelve los datos, el mismo proceso ocurre completamente a la inversa. Por ejemplo, el nodo de salida no sabe quién eres, pero sí sabe de qué nodo procede, por lo que añade su propia capa de encriptación y lo envía de vuelta.
 
 <figure markdown>
-  ![Tor encryption](../assets/img/how-tor-works/tor-encryption.svg#only-light)
-  ![Tor encryption](../assets/img/how-tor-works/tor-encryption-dark.svg#only-dark)
-  <figcaption>Envío y recepción de datos a través de la red Tor</figcaption>
+  ![Tor encryption](../assets/images-localized/how-tor-works/tor-encryption.svg#only-light)
+  ![Tor encryption](../assets/images-localized/how-tor-works/tor-encryption-dark.svg#only-dark)
+  <figcaption>Sending and receiving data through the Tor Network</figcaption>
 </figure>
 
 Tor nos permite conectarnos a un servidor sin que nadie conozca la ruta completa. El nodo de entrada sabe quién eres, pero no a dónde vas; el nodo intermedio no sabe quién eres ni a dónde vas; y el nodo de salida sabe a dónde vas, pero no quién eres. Como el nodo de salida es el que realiza la conexión final, el servidor de destino nunca conocerá tu dirección IP.

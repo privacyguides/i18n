@@ -19,9 +19,9 @@ If you already use [Proton Drive](cloud.md#proton-drive)[^1] or have a [Bitwarde
 
 <div class="admonition recommendation" markdown>
 
-![Send logo](assets/img/file-sharing-sync/send.svg){ align=right }
+![Send logo](assets/images/file-sharing-sync/send.svg){ align=right }
 
-**Send** är en gren av Mozillas nedlagda service Firefox Send som låter dig dela filer till andra med en länk. Filerna krypteras på din enhet så att de inte kan läsas av servern, och de kan också skyddas med lösenord. The maintainer of Send hosts a [public instance](https://send.vis.ee). Du kan använda andra offentliga instanser, eller du kan vara värd för Skicka själv.
+**Send** is a fork of Mozilla's discontinued Firefox Send service which allows you to send files to others with a link. Filerna krypteras på din enhet så att de inte kan läsas av servern, och de kan också skyddas med lösenord. The maintainer of Send hosts a [public instance](https://send.vis.ee). Du kan använda andra offentliga instanser, eller du kan vara värd för Skicka själv.
 
 [:octicons-home-16: Homepage](https://send.vis.ee){ .md-button .md-button--primary }
 [:octicons-server-16:](https://github.com/timvisee/send-instances){ .card-link title="Public Instances"}
@@ -43,7 +43,7 @@ ffsend upload --host https://send.vis.ee/ FILE
 
 <div class="admonition recommendation" markdown>
 
-![OnionShare logo](assets/img/file-sharing-sync/onionshare.svg){ align=right }
+![OnionShare logo](assets/images/file-sharing-sync/onionshare.svg){ align=right }
 
 **OnionShare** is an open-source tool that lets you securely and [:material-incognito: anonymously](basics/common-threats.md#anonymity-vs-privacy){ .pg-purple } share a file of any size. Det fungerar genom att starta en webbserver som är tillgänglig som en Tor onion-tjänst, med en oigenkännlig URL som du kan dela med mottagarna för att ladda ner eller skicka filer.
 
@@ -80,9 +80,9 @@ OnionShare provides the option to connect via [Tor bridges](https://docs.onionsh
 
 <div class="admonition recommendation" markdown>
 
-![Synkronisera logotyp](assets/img/file-sharing-sync/syncthing.svg){ align=right }
+![Syncthing logo](assets/images/file-sharing-sync/syncthing.svg){ align=right }
 
-**Syncthing** är ett verktyg för kontinuerlig filsynkronisering med öppen källkod. Det används för att synkronisera filer mellan två eller flera enheter över det lokala nätverket eller internet. Synkronisering använder inte en centraliserad server; den använder [Block Exchange Protocol](https://docs.syncthing.net/specs/bep-v1.html #bep-v1) för att överföra data mellan enheter. All data krypteras med TLS.
+**Syncthing** is an open-source peer-to-peer continuous file synchronization utility. Det används för att synkronisera filer mellan två eller flera enheter över det lokala nätverket eller internet. Synkronisering använder inte en centraliserad server; den använder [Block Exchange Protocol](https://docs.syncthing.net/specs/bep-v1.html #bep-v1) för att överföra data mellan enheter. All data krypteras med TLS.
 
 [:octicons-home-16: Homepage](https://syncthing.net){ .md-button .md-button--primary }
 [:octicons-info-16:](https://docs.syncthing.net){ .card-link title=Documentation}

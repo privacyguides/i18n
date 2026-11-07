@@ -14,7 +14,7 @@ schema:
     brand:
       "@type": Merk
       name: Google
-    image: /assets/img/android/google-pixel.png
+    image: /assets/images/android/google-pixel.png
     sameAs: https://en.wikipedia.org/wiki/Google_Pixel
     review:
       "@type": Beoordeling
@@ -62,7 +62,7 @@ Google Pixel-telefoons zijn de **enige** apparaten die we aanraden om te kopen. 
 
 <div class="admonition recommendation" markdown>
 
-Google Pixel 6](assets/img/android/google-pixel.png){ align=right }
+![Google Pixel 6](assets/images/android/google-pixel.png){ align=right }
 
 **Google Pixel** devices are known to have good security and properly support [Verified Boot](https://source.android.com/security/verifiedboot), even when installing custom operating systems.
 

@@ -9,7 +9,7 @@ description: نوصي بهذه الطرق للحصول على التطبيقات
 
 <div class="admonition recommendation" markdown>
 
-![Obtainium logo](../assets/img/android/obtainium.svg){ align=right }
+![Obtainium logo](../assets/images/android/obtainium.svg){ align=right }
 
 تطبيق Obtainium هو مدير تطبيقات (App Manager) يتيح لك تثبيت التطبيقات وتحديثها مباشرةً من صفحة الإصدارات الخاصة بالمطور نفسه. مثل GitHub أو GitLab أو موقع المطور نفسه، بدلا من الاعتماد على متجر تطبيقات أو مستودع مركزي (Centralized App Store/Repository). يدعم التحديثات التلقائية في الخلفية على Android 12 والإصدارات الأحدث.
 
@@ -39,7 +39,7 @@ description: نوصي بهذه الطرق للحصول على التطبيقات
 
 <div class="admonition recommendation" markdown>
 
-![Aurora Store logo](../assets/img/android/aurora-store.webp){ align=right }
+![Aurora Store logo](../assets/images/android/aurora-store.webp){ align=right }
 
 تطبيق **Aurora Store** هو تطبيق بديل لـ Google Play Store، ولا يحتاج إلى حساب Google أو Google Play Services أو microG لتنزيل التطبيقات.
 
@@ -62,7 +62,7 @@ description: نوصي بهذه الطرق للحصول على التطبيقات
 
 بالنسبة للتطبيقات التي تُنشر على منصات مثل GitHub وGitLab، يمكنك إضافة RSS feed إلى [قارئ الأخبار](../news-aggregators.md) لمتابعة الإصدارات الجديدة.
 
-![RSS APK](../assets/img/android/rss-apk-light.png#only-light) ![RSS APK](../assets/img/android/rss-apk-dark.png#only-dark) ![APK Changes](../assets/img/android/rss-changes-light.png#only-light) ![APK Changes](../assets/img/android/rss-changes-dark.png#only-dark)
+![RSS APK](../assets/images-localized/android/rss-apk-light.png#only-light) ![RSS APK](../assets/images-localized/android/rss-apk-dark.png#only-dark) ![APK Changes](../assets/images-localized/android/rss-changes-light.png#only-light) ![APK Changes](../assets/images-localized/android/rss-changes-dark.png#only-dark)
 
 ### GitHub
 
@@ -109,7 +109,7 @@ description: نوصي بهذه الطرق للحصول على التطبيقات
 
 ## F-Droid
 
-![F-Droid logo](../assets/img/android/f-droid.svg){ align=right width=120px }
+![F-Droid logo](../assets/images/android/f-droid.svg){ align=right width=120px }
 
 \==نوصي باستخدام F-Droid فقط للحصول على التطبيقات التي لا يمكن الحصول عليها بالطرق المذكورة أعلاه.== غالبًا ما يُنصح بـ F-Droid كبديل لـ Google Play، خصوصًا في مجتمع الخصوصية. إمكانية إضافة مستودعات من جهات خارجية، وعدم التقيد بنظام Google المغلق، ساهمت في انتشار F-Droid. يدعم F-Droid أيضا الـ [Reproducible Builds](https://f-droid.org/en/docs/Reproducible_Builds) لبعض التطبيقات، وهو مخصص للبرمجيات الحرة ومفتوحة المصدر. لكن توجد بعض العيوب الأمنية في طريقة F-Droid لبناء الحزم وتوقيعها وتوزيعها:
 

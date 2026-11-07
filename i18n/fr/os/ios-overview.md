@@ -230,11 +230,11 @@ Lorsqu'une application vous demande d'accéder à la galerie de votre appareil, 
 
 Plutôt que d'autoriser une application à accéder à toutes les photos de votre appareil, vous pouvez lui permettre de n'accéder qu'aux photos de votre choix en appuyant sur l'option "Sélectionner les photos..." dans la boîte de dialogue d'autorisation. Vous pouvez modifier les autorisations d'accès aux photos à tout moment en accédant à **Paramètres** → **Confidentialité & Sécurité** → **Photos**.
 
-![Autorisations d'accès à la galerie](../assets/img/ios/photo-permissions-light.png#only-light) ![Autorisations d'accès à la galerie](../assets/img/ios/photo-permissions-dark.png#only-dark)
+![Autorisations d'accès à la galerie](../assets/images-localized/ios/photo-permissions-light.png#only-light) ![Autorisations d'accès à la galerie](../assets/images-localized/ios/photo-permissions-dark.png#only-dark)
 
 **Ajouter des photos uniquement** est une autorisation qui donne à une application la possibilité de télécharger uniquement des photos dans la galerie. Toutes les applications qui demandent l'accès à la galerie ne proposent pas cette option.
 
-![Accès privé](../assets/img/ios/private-access-light.png#only-light) ![Accès privé](../assets/img/ios/private-access-dark.png#only-dark)
+![Accès privé](../assets/images-localized/ios/private-access-light.png#only-light) ![Accès privé](../assets/images-localized/ios/private-access-dark.png#only-dark)
 
 Certaines applications prennent également en charge l'**accès privé**, qui fonctionne de la même manière que l'autorisation d'**accès limité**. Cependant, les photos partagées à des applications utilisant un accès privé incluent par défaut leur localisation. Nous vous recommandons de décocher ce paramètre si vous ne supprimez pas au préalable [les métadonnées des photos](../data-redaction.md).
 
@@ -242,7 +242,7 @@ Certaines applications prennent également en charge l'**accès privé**, qui fo
 
 De façon similaire, plutôt que d'autoriser une application à accéder à tous les contacts enregistrés sur votre appareil, vous pouvez lui permettre de n'accéder qu'aux contacts de votre choix. Vous pouvez modifier les autorisations d'accès aux contacts à tout moment en accédant à **Paramètres** → **Confidentialité & Sécurité** → **Contacts**.
 
-![Autorisations d'accès aux contacts](../assets/img/ios/contact-permissions-light.png#only-light) ![Autorisations d'accès aux contacts](../assets/img/ios/contact-permissions-dark.png#only-dark)
+![Autorisations d'accès aux contacts](../assets/images-localized/ios/contact-permissions-light.png#only-light) ![Autorisations d'accès aux contacts](../assets/images-localized/ios/contact-permissions-dark.png#only-dark)
 
 ### Exiger des données biométriques et masquer des applications
 

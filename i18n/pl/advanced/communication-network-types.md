@@ -10,7 +10,7 @@ Istnieje kilka architektur sieciowych powszechnie wykorzystywanych do przekazywa
 
 ## Sieci scentralizowane
 
-![Schemat sieci scentralizowanych](../assets/img/layout/network-centralized.svg){ align=left }
+![Schemat sieci scentralizowanych](../assets/images/layout/network-centralized.svg){ align=left }
 
 Scentralizowane komunikatory to takie, w których wszyscy uczestnicy znajdują się na tym samym serwerze lub w sieci serwerów kontrolowanej przez jedną tę samą organizację.
 
@@ -33,7 +33,7 @@ Niektóre samodzielnie hostowane komunikatory umożliwiają skonfigurowanie wła
 
 ## Sieci federacyjne
 
-![Schemat sieci federacyjnych](../assets/img/layout/network-decentralized.svg){ align=left }
+![Schemat sieci federacyjnych](../assets/images/layout/network-decentralized.svg){ align=left }
 
 Komunikatory federacyjne korzystają z wielu niezależnych, zdecentralizowanych serwerów, które potrafią się ze sobą komunikować (przykładem usługi federacyjnej jest poczta e-mail). Federacja pozwala administratorom systemów kontrolować własny serwer, a jednocześnie nadal być częścią większej sieci komunikacyjnej.
 
@@ -56,7 +56,7 @@ Przy samodzielnym hostowaniu członkowie serwera federacyjnego mogą odnajdywać
 
 ## Sieci peer-to-peer (P2P)
 
-![Schemat P2P](../assets/img/layout/network-distributed.svg){ align=left }
+![Schemat P2P](../assets/images/layout/network-distributed.svg){ align=left }
 
 Komunikatory P2P łączą się z [rozproszoną siecią](https://en.wikipedia.org/wiki/Distributed_networking) węzłów, aby przekazać wiadomość do odbiorcy bez udziału serwera strony trzeciej.
 
@@ -81,7 +81,7 @@ Sieci P2P nie korzystają z serwerów — peery komunikują się między sobą b
 
 ## Anonimowe trasowanie
 
-![Schemat anonimowego trasowania](../assets/img/layout/network-anonymous-routing.svg){ align=left }
+![Schemat anonimowego trasowania](../assets/images/layout/network-anonymous-routing.svg){ align=left }
 
 Komunikator wykorzystujący [anonimowe trasowanie](https://doi.org/10.1007/978-1-4419-5906-5_628) ukrywa tożsamość nadawcy, odbiorcy lub dowody na to, że się komunikacji. W idealnym przypadku komunikator powinien ukrywać wszystkie trzy elementy.
 

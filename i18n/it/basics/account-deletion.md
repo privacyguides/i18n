@@ -13,7 +13,7 @@ Con il tempo, può essere facile accumulare numerosi profili online, molti dei q
 Se hai un gestore di password che hai utilizzato per tutta la tua vita digitale, questa parte sarà molto semplice. Spesso includono funzionalità integrate per rilevare se le tue credenziali sono state esposte in una violazione dei dati, come il [Data Breach Report](https://bitwarden.com/blog/have-you-been-pwned) di Bitwarden.
 
 <figure markdown>
-  ![Funzionalità di Rapporto sulle Violazioni dei Dati di Bitwarden](../assets/img/account-deletion/exposed_passwords.png)
+  ![Bitwarden's Data Breach Report feature](../assets/images-localized/account-deletion/exposed_passwords.png)
 </figure>
 
 Even if you haven't explicitly used a password manager before, there's a chance you've used the one in your browser ([Firefox](https://support.mozilla.org/kb/password-manager-remember-delete-edit-logins), [Chrome](https://passwords.google.com/intro), [Edge](https://support.microsoft.com/microsoft-edge/save-or-forget-passwords-in-microsoft-edge-b4beecb0-f2a8-1ca0-f26f-9ec247a3f336)) or your phone ([Google](https://passwords.google.com/intro) on stock Android, [Passwords](https://support.apple.com/HT211146) on iOS) without even realizing it.

@@ -18,7 +18,7 @@ L'auto-hébergement d'outils de **gestion de fichiers** peut permettre de rédui
 
 <div class="admonition recommendation" markdown>
 
-![Logo de PhotoPrism](../assets/img/self-hosting/photoprism.svg){ align=right }
+![PhotoPrism logo](../assets/images/self-hosting/photoprism.svg){ align=right }
 
 **PhotoPrism** est une plateforme pour gérer vos photos. Elle permet de synchroniser et partager des albums ainsi que beaucoup d'autres [fonctionnalités](https://photoprism.app/features). Le chiffrement de bout-en-bout n'est pas inclus, il est donc préférable de l'héberger sur un serveur de confiance que vous contrôlez vous-même.
 
@@ -35,7 +35,7 @@ L'auto-hébergement d'outils de **gestion de fichiers** peut permettre de rédui
 
 <div class="admonition recommendation" markdown>
 
-![Logo de FreedomBox](../assets/img/self-hosting/freedombox.svg){ align=right }
+![FreedomBox logo](../assets/images/self-hosting/freedombox.svg){ align=right }
 
 **FreedomBox** est un système d'exploitation conçu pour fonctionner sur un [ordinateur à carte unique (Single Board Computer ou SBC en anglais)](https://en.wikipedia.org/wiki/Single-board_computer). Son objectif est de simplifier l'installation d'applications serveurs pour des utilisations telles que le partage de documents.
 
@@ -50,7 +50,7 @@ L'auto-hébergement d'outils de **gestion de fichiers** peut permettre de rédui
 
 <div class="admonition recommendation" markdown>
 
-![Logo de Nextcloud](../assets/img/self-hosting/nextcloud.svg){ align=right }
+![Nextcloud logo](../assets/images/self-hosting/nextcloud.svg){ align=right }
 
 **Nextcloud** est une suite de logiciels client-serveur gratuits et open-source permettant de créer votre propre service d'hébergement de fichiers sur un serveur que vous contrôlez.
 

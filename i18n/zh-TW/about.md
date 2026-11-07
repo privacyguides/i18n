@@ -36,7 +36,7 @@ Privacy Guides 是由世界各地的志工和工作人員建立的。我們對�
 
 獲得個別協助的最佳方式是我們在 Discourse 上的社群。如果您發現我們的網站有問題，請在論壇的 [Site Development](https://discuss.privacyguides.net/c/site-development/7) 分類中開啟討論。如果您對我們所涵蓋的任何內容有疑問，請在我們論壇的 [Questions](https://discuss.privacyguides.net/c/privacy/questions/8) 分類中提出。
 
-![Signal 連絡 QR code](assets/img/layout/signal-contact-qr.png){ align=right }
+![Signal contact QR code](assets/images/layout/signal-contact-qr.png){ align=right }
 
 您有小秘訣要告訴我們，或需要分享一些敏感資訊嗎？與我們安全聯繫的最佳方式是透過 Signal 上的 `@privacyguides.01` 。這個團隊帳號由 [Jonah](https://discuss.privacyguides.net/u/jonah)、[Niek](https://discuss.privacyguides.net/u/niek-de-wilde)、[Em](https://discuss.privacyguides.net/u/em) 與 [Jordan](https://discuss.privacyguides.net/u/jordan) 管理。
 

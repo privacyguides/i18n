@@ -20,7 +20,7 @@ cover: health.webp
 
 <div class="admonition recommendation" markdown>
 
-![Drip 標誌](assets/img/health-and-wellness/drip.png){ align=right }
+![Drip logo](assets/images/health-and-wellness/drip.png){ align=right }
 
 **Drip** 是一款性別包容且開源的月經週期追蹤器，適用於所有行動平台。其依靠「基礎體溫法」來預測排卵。所有使用者資料都本機儲存在裝置上，並可使用密碼保護。
 
@@ -43,7 +43,7 @@ cover: health.webp
 
 <div class="admonition recommendation" markdown>
 
-![Euki 標誌](assets/img/health-and-wellness/euki.svg){ align=right }
+![Euki logo](assets/images/health-and-wellness/euki.svg){ align=right }
 
 **Euki** 是一款由非營利組織支持的月經週期追蹤器，同時兼具藥物追蹤功能與性健康知識庫。其可讓您排程自動刪除應用程式中的個人資料。所有使用者資料都本機儲存在裝置上，並可使用密碼保護。
 
@@ -65,7 +65,7 @@ cover: health.webp
 
 <div class="admonition recommendation" markdown>
 
-![Apple 標誌](assets/img/health-and-wellness/apple-health.webp#only-light){ align=right }![Apple 標誌](assets/img/health-and-wellness/apple-health-dark.webp#only-dark){ align=right }
+![Apple logo](assets/images/health-and-wellness/apple-health.webp#only-light){ align=right }![Apple logo](assets/images/health-and-wellness/apple-health-dark.webp#only-dark){ align=right }
 
 Apple Health is one of the default apps installed on iOS devices. It includes many health and wellness features (see [Health Records](#apple-health-records)), including menstrual cycle tracking. It also uses gender-neutral language. Apple Health always uses end-to-end encryption when syncing across multiple devices.
 
@@ -88,7 +88,7 @@ Apple Health is one of the default apps installed on iOS devices. It includes ma
 
 <div class="admonition recommendation" markdown>
 
-![Apple 健身標誌](assets/img/health-and-wellness/apple-fitness.webp){ align=right }
+![Apple Fitness logo](assets/images/health-and-wellness/apple-fitness.webp){ align=right }
 
 **Apple 健身**是 iOS 的預設健身應用程式。 Apple 健身在跨多裝置同步時一律使用端到端加密。此外，幾乎所有測得的資料都會在您的裝置上處理。
 
@@ -106,7 +106,7 @@ Apple Health is one of the default apps installed on iOS devices. It includes ma
 
 <div class="admonition recommendation" markdown>
 
-![Gadgetbridge 標誌](assets/img/health-and-wellness/gadgetbridge.svg#only-light){ align=right }![Gadgetbridge 標誌](assets/img/health-and-wellness/gadgetbridge-dark.svg#only-dark){ align=right }
+![Gadgetbridge logo](assets/images/health-and-wellness/gadgetbridge.svg#only-light){ align=right }![Gadgetbridge logo](assets/images/health-and-wellness/gadgetbridge-dark.svg#only-dark){ align=right }
 
 **Gadgetbridge** 是一款開放原始碼的 Android 應用程式，讓您無需依賴廠商提供的應用程式，即可配對與管理藍牙裝置。當與相容的智慧手錶配對時，它能模擬這些手錶的健康與保健功能，且無第三方資料蒐集。
 
@@ -135,7 +135,7 @@ Gadgetbridge 應用程式功能包含但不限於：計步、睡眠追蹤、心�
 
 <div class="admonition recommendation" markdown>
 
-![Apple 標誌](assets/img/health-and-wellness/apple-health.webp#only-light){ align=right }![Apple 標誌](assets/img/health-and-wellness/apple-health-dark.webp#only-dark){ align=right }
+![Apple logo](assets/images/health-and-wellness/apple-health.webp#only-light){ align=right }![Apple logo](assets/images/health-and-wellness/apple-health-dark.webp#only-dark){ align=right }
 
 **Apple Health Records** is a built-in feature within [Apple Health](#apple-health) that allows you to view, store, and share your health records.
 
@@ -154,7 +154,7 @@ Gadgetbridge 應用程式功能包含但不限於：計步、睡眠追蹤、心�
 
 <div class="admonition recommendation" markdown>
 
-![CommonHealth 標誌](assets/img/health-and-wellness/commonhealth.png){ align=right }
+![CommonHealth logo](assets/images/health-and-wellness/commonhealth.png){ align=right }
 
 **CommonHealth** 是一款尊重隱私的 Android 應用程式，讓使用者能夠存取個人電子健康紀錄，並安全地與醫療提供者分享。所有的健康資料都儲存在您的裝置上，並可使用密碼或生物辨識驗證加以保護。
 

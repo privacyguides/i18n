@@ -18,7 +18,7 @@ Les textes passant par des correcteurs de grammaire, de style et d'orthographe, 
 
 <div class="admonition recommendation" markdown>
 
-![Logo de LibreTranslate](assets/img/language-tools/libretranslate.png){ align=right }
+![LibreTranslate logo](assets/images/language-tools/libretranslate.png){ align=right }
 
 **LibreTranslate** est un outil de traduction automatique libre et open-source sous forme d'interface web et d'un serveur API. Il utilise les modèles de [Argos Translate](https://github.com/argosopentech/argos-translate) en arrière-plan pour les traductions.
 

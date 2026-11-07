@@ -18,7 +18,7 @@ cover: maps.webp
 
 <div class="admonition recommendation" markdown>
 
-![오가닉 맵스 로고](assets/img/maps/organic-maps.svg){ align=right }
+![Organic Maps logo](assets/images/maps/organic-maps.svg){ align=right }
 
 **오가닉 맵스**는 도보 이용자, 운전자, 자전거 이용자를 위한 커뮤니티가 개발한 오픈 소스 지도 및 내비게이션 앱입니다. 오픈스트리트맵 데이터를 기반으로 전 세계 오프라인 지도를 제공하며, 위치 추적, 데이터 수집, 광고 없이 프라이버시를 지키는 길 안내를 제공합니다. 앱을 완전히 오프라인으로 사용할 수 있습니다.
 
@@ -45,7 +45,7 @@ cover: maps.webp
 
 <div class="admonition recommendation" markdown>
 
-![OsmAnd 로고](assets/img/maps/osmand.svg){ align=right }
+![OsmAnd logo](assets/images/maps/osmand.svg){ align=right }
 
 **OsmAnd**는 오픈스트리트맵을 기반으로 하는 오픈 소스 오프라인 지도 및 내비게이션 애플리케이션으로, 도보, 자전거, 운전은 물론 대중교통에 대한 턴바이턴 길 안내를 제공합니다. OsmAnd가 지원하는 [기능](https://wiki.openstreetmap.org/wiki/OsmAnd#Features)에 대한 자세한 개요는 오픈스트리트맵 위키에서 확인할 수 있습니다.
 

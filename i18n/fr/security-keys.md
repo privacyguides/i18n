@@ -17,7 +17,7 @@ Une **clef de sécurité** physique ajoute à vos comptes une couche de protecti
 <div class="admonition recommendation" markdown>
 
 <figure markdown="span">
-  ![Série Security Key de Yubico](assets/img/security-keys/yubico-security-key.webp){ width="315" }
+  ![Security Key Series by Yubico](assets/images/security-keys/yubico-security-key.webp){ width="315" }
 </figure>
 
 La série **Yubico Security Keys** est la clé de sécurité hardware certifiée FIDO Level 2[^1] avec le meilleur rapport qualité prix. Elle est compatible avec FIDO2/WebAuthn et FIDO Universal 2nd Factor (U2F), et fonctionne sans manipulation particulière avec la plupart des services qui permettent d'utiliser une clef de sécurité en tant que deuxième facteur, ainsi qu'avec de nombreux gestionnaires de mots de passe.
@@ -52,7 +52,7 @@ Le firmware des Security Keys de Yubico ne peut pas être mis à jour. Vous devr
 <div class="admonition recommendation" markdown>
 
 <figure markdown="span">
-  ![YubiKeys](assets/img/security-keys/yubikey.png){ width="400" }
+  ![YubiKeys](assets/images/security-keys/yubikey.png){ width="400" }
 </figure>
 
 La série **YubiKey** de Yubico fait partie des clefs de sécurité certifiée FIDO Level 2 les plus populaires[^1]. La **YubiKey 5 Series** propose un grand nombre de fonctionnalités comme FIDO/WebAuthn et FIDO U2F, l'authentification [TOTP et HOTP](https://developers.yubico.com/OATH), la [Vérification d'Identité Personnelle (Personal Identity Verification, ou PIV)](https://developers.yubico.com/PIV) et [OpenPGP](https://developers.yubico.com/PGP).
@@ -83,7 +83,7 @@ Le micrologiciel de la YubiKey ne peut pas être mis à jour. Vous devrez achete
 <div class="admonition recommendation" markdown>
 
 <figure markdown="span">
-  ![Nitrokey](assets/img/security-keys/nitrokey.jpg){ width="300" }
+  ![Nitrokey](assets/images/security-keys/nitrokey.jpg){ width="300" }
 </figure>
 
 **Nitrokey** propose la **Nitrokey Passkey**, une clef de sécurité avec un bon rapport qualité prix, compatible avec FIDO2/WebAuthn et FIDO U2F. Si vous souhaitez bénéficier des fonctionnalités telles que la PIV, OpenPGP et l'authentification TOTP et HOTP, vous aurez besoin d'acheter une clef différente, comme la **NitroKey 3**. Actuellement, seule la **NitroKey 3A Mini** est certifiée [FIDO Level 1](https://nitrokey.com/news/2024/nitrokey-3a-mini-receives-official-fido2-certification).

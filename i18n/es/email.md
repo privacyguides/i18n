@@ -38,8 +38,8 @@ Estos proveedores soportan de forma nativa el cifrado/descifrado OpenPGP y el [e
 
 <div class="grid cards" markdown>
 
-- ![Proton Mail logo](assets/img/email/protonmail.svg){ .twemoji } [Proton Mail](#proton-mail)
-- ![Mailbox Mail logo](assets/img/email/mailbox-mail.svg){ .twemoji } [Mailbox Mail](#mailbox-mail)
+- ![Proton Mail logo](assets/images/email/protonmail.svg){ .twemoji } [Proton Mail](#proton-mail)
+- ![Mailbox Mail logo](assets/images/email/mailbox-mail.svg){ .twemoji } [Mailbox Mail](#mailbox-mail)
 
 </div>
 
@@ -58,9 +58,9 @@ OpenPGP tampoco admite el secreto hacia adelante, lo que significa que si alguna
 
 <div class="admonition recommendation" markdown>
 
-![Logo Proton Mail](assets/img/email/protonmail.svg){ align=right }
+![Proton Mail logo](assets/images/email/protonmail.svg){ align=right }
 
-**Proton Mail** es un servicio de correo electrónico con un enfoque en privacidad, encriptación, seguridad, y la facilidad de uso. Ha estado en operación desde 2013. Proton AG tiene su sede en Ginebra, Suiza.
+**Proton Mail** is an email service with a focus on privacy, encryption, security, and ease of use. Ha estado en operación desde 2013. Proton AG tiene su sede en Ginebra, Suiza.
 
 El plan Proton Free incluye 500 MB de almacenamiento de correo electrónico, que puedes aumentar gratis hasta 1 GB.
 
@@ -141,9 +141,9 @@ El plan [Unlimited](https://proton.me/support/proton-plans#proton-unlimited) de 
 
 <div class="admonition recommendation" markdown>
 
-![Mailbox Mail logo](assets/img/email/mailbox-mail.svg){ align=right }
+![Mailbox Mail logo](assets/images/email/mailbox-mail.svg){ align=right }
 
-**Mailbox Mail** (antes *Mailbox.org*) es un servicio de correo electrónico enfocado en la seguridad, sin anuncios y alimentado al 100 % con energía ecológica. Han estado en operación desde 2014. Mailbox Mail tiene su sede en Berlín, Alemania.
+**Mailbox Mail** (formerly *Mailbox.org*) is an email service with a focus on being secure, ad-free, and powered by 100% eco-friendly energy. Han estado en operación desde 2014. Mailbox Mail tiene su sede en Berlín, Alemania.
 
 Las cuentas empiezan con hasta 2 GB de almacenamiento, que pueden ampliarse según sea necesario.
 
@@ -202,7 +202,7 @@ Estos proveedores cifran tus correos electrónicos de manera que solo tú puedas
 
 <div class="grid cards" markdown>
 
-- ![Tuta logo](assets/img/email/tuta.svg#only-light){ .twemoji loading=lazy }![Tuta logo](assets/img/email/tuta-dark.svg#only-dark){ .twemoji loading=lazy } [Tuta](#tuta)
+- ![Tuta logo](assets/images/email/tuta.svg#only-light){ .twemoji loading=lazy }![Tuta logo](assets/images/email/tuta-dark.svg#only-dark){ .twemoji loading=lazy } [Tuta](#tuta)
 
 </div>
 
@@ -210,10 +210,10 @@ Estos proveedores cifran tus correos electrónicos de manera que solo tú puedas
 
 <div class="admonition recommendation" markdown>
 
-![Tuta logo](assets/img/email/tuta.svg#only-light){ align=right }
-![Tuta logo](assets/img/email/tuta-dark.svg#only-dark){ align=right }
+![Tuta logo](assets/images/email/tuta.svg#only-light){ align=right }
+![Tuta logo](assets/images/email/tuta-dark.svg#only-dark){ align=right }
 
-**Tuta** (antes *Tutanota*) es un servicio de correo electrónico centrado en la seguridad y la privacidad mediante el uso de cifrado. Tuta lleva funcionando desde 2011 y tiene su sede en Hannover, Alemania.
+**Tuta** (formerly *Tutanota*) is an email service with a focus on security and privacy through the use of encryption. Tuta lleva funcionando desde 2011 y tiene su sede en Hannover, Alemania.
 
 Las cuentas gratuitas comienzan con 1 GB de almacenamiento.
 

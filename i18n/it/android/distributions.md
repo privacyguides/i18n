@@ -10,7 +10,7 @@ schema:
   - "@context": http://schema.org
     "@type": CreativeWork
     name: GrapheneOS
-    image: /assets/img/android/grapheneos.svg
+    image: /assets/images/android/grapheneos.svg
     url: https://grapheneos.org/
     sameAs: https://en.wikipedia.org/wiki/GrapheneOS
     subjectOf:
@@ -37,8 +37,8 @@ Consigliamo di installare GrapheneOS se hai un Google Pixel, perché migliora la
 
 <div class="admonition recommendation" markdown>
 
-![Logo di GrapheneOS](../assets/img/android/grapheneos.svg#only-light){ align=right }
-![Logo di GrapheneOS](../assets/img/android/grapheneos-dark.svg#only-dark){ align=right }
+![GrapheneOS logo](../assets/images/android/grapheneos.svg#only-light){ align=right }
+![GrapheneOS logo](../assets/images/android/grapheneos-dark.svg#only-dark){ align=right }
 
 **GrapheneOS** è la scelta migliore quando si parla di privacy e sicurezza.
 

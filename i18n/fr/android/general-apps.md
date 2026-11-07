@@ -36,7 +36,7 @@ Si votre appareil fonctionne sous Android 15 ou supérieur, nous vous recommando
 
 <div class="admonition recommendation" markdown>
 
-![Shelter logo](../assets/img/android/shelter.svg){ align=right }
+![Shelter logo](../assets/images/android/shelter.svg){ align=right }
 
 **Shelter** est une application qui vous aide à tirer parti des fonctionnalités du profil professionnel d'Android pour isoler ou dupliquer des applications sur votre appareil.
 
@@ -65,8 +65,8 @@ Shelter est recommandé par rapport à [Insular](https://secure-system.gitlab.io
 
 <div class="admonition recommendation" markdown>
 
-![logo de Secure camera](../assets/img/android/secure_camera.svg#only-light){ align=right }
-![logo de Secure camera](../assets/img/android/secure_camera-dark.svg#only-dark){ align=right }
+![Secure camera logo](../assets/images/android/secure_camera.svg#only-light){ align=right }
+![Secure camera logo](../assets/images/android/secure_camera-dark.svg#only-dark){ align=right }
 
 **Secure Camera** est une application de caméra axée sur la confidentialité et la sécurité qui permet de capturer des images, des vidéos et des codes QR. Les extensions du vendeur CameraX (Portrait, HDR, Night Sight, Face Retouch et Auto) sont également prises en charge sur les appareils disponibles.
 
@@ -109,8 +109,8 @@ Les métadonnées d'orientation de l'image ne sont pas supprimées. Si vous acti
 
 <div class="admonition recommendation" markdown>
 
-![logo de Secure PDF Viewer](../assets/img/android/secure_pdf_viewer.svg#only-light){ align=right }
-![logo de Secure PDF Viewer](../assets/img/android/secure_pdf_viewer-dark.svg#only-dark){ align=right }
+![Secure PDF Viewer logo](../assets/images/android/secure_pdf_viewer.svg#only-light){ align=right }
+![Secure PDF Viewer logo](../assets/images/android/secure_pdf_viewer-dark.svg#only-dark){ align=right }
 
 **Secure PDF Viewer** est une visionneuse de PDF basée sur [pdf.js](https://en.wikipedia.org/wiki/PDF.js) qui ne nécessite aucune permission. Le PDF est introduit dans une [webview](https://developer.android.com/guide/webapps/webview) [sandboxée](https://en.wikipedia.org/wiki/Sandbox_(software_development)). Cela signifie qu'il n'a pas besoin d'autorisation directe pour accéder au contenu ou aux fichiers.
 

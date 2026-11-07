@@ -10,7 +10,7 @@ description: 即时信息应用程序常用的几种网络架构的概述。
 
 ## 集中式网络
 
-![集中式网络示意图](../assets/img/layout/network-centralized.svg){ align=left }
+![集中式网络示意图](../assets/images/layout/network-centralized.svg){ align=left }
 
 集中式通讯软件是指所有参与者都在同一服务器或由同一组织控制的服务器网络上。
 
@@ -33,7 +33,7 @@ description: 即时信息应用程序常用的几种网络架构的概述。
 
 ## 联邦网络
 
-![联邦网络示意图](../assets/img/layout/network-decentralized.svg){ align=left }
+![联邦网络示意图](../assets/images/layout/network-decentralized.svg){ align=left }
 
 联邦网络使用多个独立的去中心化服务器，这些服务器能够相互通信（例如电子邮件）。联邦允许系统管理员控制自己的服务器，并且仍然是更大的网络的一部分。
 
@@ -56,7 +56,7 @@ description: 即时信息应用程序常用的几种网络架构的概述。
 
 ## 点对点网络
 
-![P2P网络示意图](../assets/img/layout/network-distributed.svg){ align=left }
+![P2P网络示意图](../assets/images/layout/network-distributed.svg){ align=left }
 
 点对点聊天软件连接到一个由节点组成的 [分布式网络](https://en.wikipedia.org/wiki/Distributed_networking) ，在没有第三方服务器的情况下将信息转发给收件人。
 
@@ -81,7 +81,7 @@ P2P网络不使用服务器，因为节点之间直接通信，因此不存在�
 
 ## 匿名路由
 
-![匿名网络示意图](../assets/img/layout/network-anonymous-routing.svg){ align=left }
+![匿名网络示意图](../assets/images/layout/network-anonymous-routing.svg){ align=left }
 
 使用 [匿名路由](https://doi.org/10.1007/978-1-4419-5906-5_628) 的Messenger隐藏发送方、接收方的身份或他们一直在通信的证据。理想情况下，Messenger应该将这三者都隐藏起来。
 

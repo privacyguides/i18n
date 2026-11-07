@@ -15,7 +15,7 @@ schema:
     "@context": http://schema.org
     "@type": MobileApplication
     name: Brave
-    image: /assets/img/browsers/brave.svg
+    image: /assets/images/browsers/brave.svg
     url: https://brave.com
     applicationCategory: Web Browser
     operatingSystem:
@@ -28,7 +28,7 @@ schema:
     "@context": http://schema.org
     "@type": MobileApplication
     name: Safari
-    image: /assets/img/browsers/safari.svg
+    image: /assets/images/browsers/safari.svg
     url: https://apple.com/safari
     applicationCategory: Web Browser
     operatingSystem:
@@ -48,9 +48,9 @@ schema:
 
 <div class="admonition recommendation" markdown>
 
-![Brave logo](assets/img/browsers/brave.svg){ align=right }
+![Brave logo](assets/images/browsers/brave.svg){ align=right }
 
-يحتوي متصفح Brave على مانع مدمج للإعلانات والتتبع، بالإضافة إلى [ميزات خصوصية عديدة](https://brave.com/privacy-features)، يتم تفعيل الكثير منها بشكل تلقائي.
+**Brave Browser** includes a built-in content blocker and [privacy features](https://brave.com/privacy-features), many of which are enabled by default.
 
 بما أن Brave مبني على متصفح Chromium، فستجده مألوفًا وسهل الاستخدام، ويعمل بسلاسة مع أغلب المواقع.
 
@@ -201,9 +201,9 @@ On iOS, any app that can browse the web is [restricted](https://developer.apple.
 
 <div class="admonition recommendation" markdown>
 
-![Safari logo](assets/img/browsers/safari.svg){ align=right }
+![Safari logo](assets/images/browsers/safari.svg){ align=right }
 
-في أجهزة iOS، يكون Safari هو المتصفح الأساسي المُثبت مسبقا. يتضمن Safari مجموعة من [ميزات الخصوصية](https://support.apple.com/guide/iphone/browse-the-web-privately-iphb01fc3c85/ios)، مثل [منع التتبع الذكي (Intelligent Tracking Prevention)](https://webkit.org/blog/7675/intelligent-tracking-prevention)، وعرض الصفحات في علامات تبويب (tabs) خاصة مؤقتة ومعزولة عن نشاط التصفح العادي، وحماية من بصمة المتصفح (وهي تقنية تستخدمها بعض المواقع للتعرف على جهازك من خلال خصائصه الفنية حتى بدون ملفات تعريف الارتباط "Cookies")، عن طريق إظهار إعدادات نظام موحدة لجعل الأجهزة تبدو متشابهة، إضافة إلى توليد بصمة عشوائية ( fingerprint randomization) للمزيد من الحماية، وميزة Private Relay المتوفرة فقط لمشتركي iCloud+ المدفوعين، والتي تُخفي عنوان Ip وتشفر حركة التصفح.
+**Safari** is the default browser in iOS. يتضمن Safari مجموعة من [ميزات الخصوصية](https://support.apple.com/guide/iphone/browse-the-web-privately-iphb01fc3c85/ios)، مثل [منع التتبع الذكي (Intelligent Tracking Prevention)](https://webkit.org/blog/7675/intelligent-tracking-prevention)، وعرض الصفحات في علامات تبويب (tabs) خاصة مؤقتة ومعزولة عن نشاط التصفح العادي، وحماية من بصمة المتصفح (وهي تقنية تستخدمها بعض المواقع للتعرف على جهازك من خلال خصائصه الفنية حتى بدون ملفات تعريف الارتباط "Cookies")، عن طريق إظهار إعدادات نظام موحدة لجعل الأجهزة تبدو متشابهة، إضافة إلى توليد بصمة عشوائية ( fingerprint randomization) للمزيد من الحماية، وميزة Private Relay المتوفرة فقط لمشتركي iCloud+ المدفوعين، والتي تُخفي عنوان Ip وتشفر حركة التصفح.
 
 [:octicons-home-16: التنزيلات](https://apple.com/safari){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://apple.com/legal/privacy/data/en/safari){ .card-link title="سياسية الخصوصية" }
