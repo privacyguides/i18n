@@ -32,7 +32,7 @@ jobs:
   build:
     strategy:
       matrix:
-        lang: [es, fr, he, it, ko, nl, pt, ru, zh-Hant, zh-TW]
+        lang: [ar, de, es, fr, he, it, ja, ko, nl, pl, pt, ru, zh-Hant, zh-TW]
       fail-fast: false
     permissions:
       contents: read
