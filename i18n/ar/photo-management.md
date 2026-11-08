@@ -52,10 +52,10 @@ The server-side source code and infrastructure which underpins Ente Photos under
 ### Minimum Requirements
 
 - Cloud-hosted providers must enforce E2EE.
-- Must offer a free plan or trial period for testing.
+- يجب أن يوفر خطة مجانية أو فترة تجريبية لاختبار الخدمة.
 - Must support TOTP or FIDO2 multifactor authentication, or passkey logins.
-- Must offer a web interface which supports basic file management functionality.
-- Must allow for easy exports of all files/documents.
+- يجب أن يوفر واجهة ويب تدعم الوظائف الأساسية لإدارة الملفات.
+- يجب أن يتيح تصدير جميع الملفات والمستندات بسهولة.
 - Must be open source.
 
 ### Best Case
