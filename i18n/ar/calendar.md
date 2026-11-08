@@ -1,16 +1,16 @@
 ---
-title: Calendar Sync
+title: مزامنة التقويم
 icon: material/calendar
-description: Calendars contain some of your most sensitive data; use products that implement encryption at rest.
+description: تحتوي التقويمات على بعض بياناتك الأكثر حساسية؛ لذا استخدم خدمات تشفر البيانات عند تخزينها.
 cover: calendar.webp
 ---
 
-<small>Protects against the following threat(s):</small>
+<small>يحمي من التهديدات التالية:</small>
 
 - [:material-bug-outline: الهجمات السلبية](basics/common-threats.md#security-and-privacy ""){.pg-orange}
 - [:material-server-network: مزودو الخدمات](basics/common-threats.md#privacy-from-service-providers ""){.pg-teal}
 
-**Calendars** contain some of your most sensitive data; use products that implement end-to-end encryption at rest to prevent a provider from reading them.
+تحتوي **التقويمات** على بعض بياناتك الأكثر حساسية؛ لذا استخدم خدمات تشفر البيانات المخزنة باستخدام End-to-End Encryption، حتى لا يتمكن مزوّد الخدمة من الاطلاع عليها.
 
 ## Tuta
 
