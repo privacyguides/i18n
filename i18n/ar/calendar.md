@@ -19,9 +19,9 @@ cover: calendar.webp
 ![Tuta logo](assets/images/email/tuta.svg#only-light){ align=right }
 ![Tuta logo](assets/images/email/tuta-dark.svg#only-dark){ align=right }
 
-**Tuta** offers a free and encrypted calendar across their supported platforms. Features include automatic E2EE of all data, sharing features, import/export functionality, multifactor authentication, and [more](https://tuta.com/calendar-app-comparison).
+توفر **Tuta** تقويما مجانيا ومشفرا على جميع المنصات التي تدعمها. تشمل الميزات التشفير التلقائي لجميع البيانات باستخدام End-to-End Encryption، وإمكانية المشاركة، واستيراد البيانات وتصديرها، والـ Multi Factor Authemtication (MFA)، و[المزيد](https://tuta.com/calendar-app-comparison).
 
-Multiple calendars and extended sharing functionality are limited to paid subscribers.
+إمكانية إنشاء تقاويم متعددة وميزات المشاركة المتقدمة متاحة فقط للمشتركين في الخطط المدفوعة.
 
 [:octicons-home-16: Homepage](https://tuta.com/calendar){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://tuta.com/privacy){ .card-link title="Privacy Policy" }
@@ -30,14 +30,14 @@ Multiple calendars and extended sharing functionality are limited to paid subscr
 [:octicons-heart-16:](https://tuta.com/community#donate){ .card-link title="Contribute" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>التنزيلات</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=de.tutao.calendar)
 - [:simple-appstore: App Store](https://apps.apple.com/app/id6657977811)
 - [:simple-github: GitHub](https://github.com/tutao/tutanota/releases?q=Calendar)
-- [:fontawesome-brands-windows: Windows](https://tuta.com/blog/desktop-clients)
+- [:fontawesome-brands-windows: وندوز](https://tuta.com/blog/desktop-clients)
 - [:simple-apple: macOS](https://tuta.com/blog/desktop-clients)
-- [:simple-linux: Linux](https://tuta.com/blog/desktop-clients)
+- [:simple-linux: لينكس](https://tuta.com/blog/desktop-clients)
 - [:simple-flathub: Flathub](https://flathub.org/apps/com.tutanota.Tutanota)
 - [:octicons-browser-16: Web](https://app.tuta.com)
 
@@ -51,9 +51,9 @@ Multiple calendars and extended sharing functionality are limited to paid subscr
 
 ![Proton](assets/images/calendar/proton-calendar.svg){ align=right }
 
-**Proton Calendar** is an encrypted calendar service available to Proton members via its web or mobile clients. Features include automatic E2EE of all data, sharing features, import/export functionality, and [more](https://proton.me/support/proton-calendar-guide).
+خدمة **Proton Calendar** هي خدمة تقويم مشفرة متاحة لمستخدمي Proton عبر الويب أو تطبيقات الهاتف. تشمل الميزات التشفير التلقائي لجميع البيانات باستخدام End-to-End Encryption، وإمكانية المشاركة، واستيراد البيانات وتصديرها، و[المزيد](https://proton.me/support/proton-calendar-guide).
 
-Those on the free tier have access to 3 calendars, whereas paid subscribers can create up to 25 calendars. Extended sharing functionality is also limited to paid subscribers.
+يمكن لمستخدمي الخطة المجانية إنشاء 3 تقاويم، بينما يمكن للمشتركين في الخطط المدفوعة إنشاء ما يصل إلى 25 تقويما. ميزات المشاركة المتقدمة متاحة أيضا للمشتركين في الخطط المدفوعة فقط.
 
 [:octicons-home-16: Homepage](https://proton.me/calendar){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://proton.me/calendar/privacy-policy){ .card-link title="Privacy Policy" }
@@ -61,7 +61,7 @@ Those on the free tier have access to 3 calendars, whereas paid subscribers can 
 [:octicons-code-16:](https://github.com/orgs/ProtonMail/repositories?q=calendar){ .card-link title="Source Code" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>التنزيلات</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=me.proton.android.calendar)
 - [:simple-appstore: App Store](https://apps.apple.com/app/id1514709943)
@@ -71,18 +71,18 @@ Those on the free tier have access to 3 calendars, whereas paid subscribers can 
 
 </div>
 
-In 2021, Securitum [audited](https://proton.me/community/open-source#:~:text=Proton%20Calendar) Proton Calendar's web client and provided a [letter of attestation](https://res.cloudinary.com/dbulfrlrz/images/v1714639870/wp-pme/letter-of-attestation-proton-calendar-20211109_3138998f9b/letter-of-attestation-proton-calendar-20211109_3138998f9b.pdf) for the Android app.
+في عام 2021، أجرت Securitum [تدقيقا](https://proton.me/community/open-source#:~:text=Proton%20Calendar) أمنيا لتطبيق Proton Calendar على الويب، وأصدرت [خطابا](https://res.cloudinary.com/dbulfrlrz/images/v1714639870/wp-pme/letter-of-attestation-proton-calendar-20211109_3138998f9b/letter-of-attestation-proton-calendar-20211109_3138998f9b.pdf) يؤكد إجراء مراجعة أمنية لتطبيق Android.
 
-## Criteria
+## المعايير
 
-**Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. We suggest you familiarize yourself with this list before choosing to use a project, and conduct your own research to ensure it's the right choice for you.
+**يرجى العلم أننا لسنا تابعين لأي من المشاريع التي نوصي بها.** وإلى جانب [معاييرنا الأساسية](about/criteria.md)، وضعنا مجموعة واضحة من المتطلبات حتى نتمكن من تقديم توصيات موضوعية. ننصحك بالاطلاع على هذه القائمة قبل اختيار أي مشروع لاستخدامه، وإجراء بحثك الخاص للتأكد من أنه الخيار المناسب لك.
 
-### Minimum Qualifications
+### الحد الأدنى من المتطلبات
 
-- Must sync and store information with E2EE to ensure data is not visible to the service provider.
+- يجب مزامنة البيانات وتخزينها باستخدام End-to-End Encryption لضمان عدم تمكن مزود الخدمة من الاطلاع عليها.
 
-### Best-Case
+### أحسن الاحتمالات
 
-Our best-case criteria represents what we would like to see from the perfect project in this category. Our recommendations may not include any or all of this functionality, but those which do may rank higher than others on this page.
+تمثل معاييرنا المثالية ما نود توفره في أفضل مشروع ضمن هذه الفئة. قد لا تتوفر بعض هذه الميزات أو جميعها في المشاريع التي نوصي بها، لكن المشاريع التي توفرها قد تحصل على ترتيب أعلى من غيرها في هذه الصفحة.
 
-- Should integrate with native OS calendar and contact management apps if applicable.
+- يُفضل أن يتكامل مع تطبيقات التقويم وإدارة جهات الاتصال المدمجة في نظام التشغيل، إن وُجدت.

@@ -1,24 +1,24 @@
 ---
-meta_title: "The Best Private and Secure Cloud Storage Providers - Privacy Guides"
-title: Cloud Storage
+meta_title: "أفضل خدمات التخزين السحابي من حيث الخصوصية والأمان - Privacy Guides"
+title: التخزين السحابي
 icon: material/file-cloud
-description: Many cloud storage providers require your trust that they will not look at your files. These are private alternatives!
+description: تتطلب منك كثير من خدمات التخزين السحابي أن تثق بأنها لن تطلع على ملفاتك. إليك بدائل تحافظ على خصوصيتك!
 cover: cloud.webp
 ---
 
-<small>Protects against the following threat(s):</small>
+<small>يحمي من التهديدات التالية:</small>
 
 - [:material-bug-outline: الهجمات السلبية](basics/common-threats.md#security-and-privacy ""){.pg-orange}
 - [:material-server-network: مزودو الخدمات](basics/common-threats.md#privacy-from-service-providers ""){.pg-teal}
 
-Many **cloud storage providers** require your full trust that they will not look at your files. The alternatives listed below eliminate the need for trust by implementing secure end-to-end encryption.
+تتطلب منك كثير من **خدمات التخزين السحابي** أن تثق بها تماما وألّا تطلع على ملفاتك. البدائل المذكورة أدناه تُغنيك عن الحاجة إلى الثقة بمزود الخدمة، لأنها تستخدم تشفير End-to-End Encryption الآمن.
 
-If these alternatives do not fit your needs, we suggest you look into using encryption software like [Cryptomator](encryption.md#cryptomator-cloud) with another cloud provider. Using Cryptomator in conjunction with **any** cloud provider (including these) may be a good idea to reduce the risk of encryption flaws in a provider's native clients.
+إذا لم تناسبك هذه البدائل، فننصحك باستخدام برنامج تشفير مثل [Cryptomator](encryption.md#cryptomator-cloud) مع خدمة تخزين سحابي أخرى. قد يكون استخدام Cryptomator مع **أي** خدمة تخزين سحابي (بما فيها الخدمات المذكورة هنا) فكرة جيدة لتقليل مخاطر وجود ثغرات في التشفير داخل تطبيقات مزوّد الخدمة نفسها.
 
 <details class="admonition info" markdown>
-<summary>Looking for Nextcloud?</summary>
+<summary>هل تبحث عن Nextcloud؟</summary>
 
-For more technical readers, Nextcloud is [still a recommended tool](self-hosting/file-management.md#nextcloud) for self-hosting a file management suite, however we do not recommend third-party Nextcloud storage providers at the moment, because we do [not recommend](https://discuss.privacyguides.net/t/dont-recommend-nextcloud-e2ee/10352/29) Nextcloud's built-in E2EE functionality for home users.
+للقراء الأكثر خبرة بالتقنية، [ما زلنا نوصي](self-hosting/file-management.md#nextcloud) باستخدام Nextcloud لاستضافة مجموعة أدوات لإدارة الملفات على خادم خاص بك. لكننا لا نوصي حاليا بخدمات التخزين التي توفرها جهات خارجية باستخدام Nextcloud، لأننا [لا ننصح](https://discuss.privacyguides.net/t/dont-recommend-nextcloud-e2ee/10352/29) المستخدمين المنزليين بالاعتماد على ميزة End-to-End Encryption المدمجة فيه.
 
 </details>
 
@@ -28,9 +28,9 @@ For more technical readers, Nextcloud is [still a recommended tool](self-hosting
 
 ![Proton Drive logo](assets/images/cloud/protondrive.svg){ align=right }
 
-**Proton Drive** is an encrypted cloud storage provider from the popular encrypted email provider [Proton Mail](email.md#proton-mail).
+خدمة **Proton Drive** هي خدمة تخزين سحابي مشفرة تقدمها الشركة نفسها التي توفر خدمة البريد الإلكتروني المشفر الشهيرة [Proton Mail](email.md#proton-mail).
 
-The initial free storage is limited to 2 GB, but with the completion of [certain steps](https://proton.me/support/more-free-storage-existing-users), additional storage can be obtained up to 5 GB.
+تقتصر مساحة التخزين المجانية في البداية على 2 جيجابايت، لكن يمكنك الحصول على مساحة إضافية تصل إلى 5 جيجابايت بعد إكمال [بعض الخطوات](https://proton.me/support/more-free-storage-existing-users).
 
 [:octicons-home-16: Homepage](https://proton.me/drive){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://proton.me/drive/privacy-policy){ .card-link title="Privacy Policy" }
@@ -38,11 +38,11 @@ The initial free storage is limited to 2 GB, but with the completion of [certai
 [:octicons-code-16:](https://github.com/ProtonMail/WebClients){ .card-link title="Source Code" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>التنزيلات</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=me.proton.android.drive)
 - [:simple-appstore: App Store](https://apps.apple.com/app/id1509667851)
-- [:fontawesome-brands-windows: Windows](https://proton.me/drive/download)
+- [:fontawesome-brands-windows: وندوز](https://proton.me/drive/download)
 - [:simple-apple: macOS](https://proton.me/drive/download)
 
 </details>
