@@ -385,7 +385,6 @@ cover: activism/banner-activism-dpadirectory.webp
   <table role="table" class="dpadirectory-table table-europe">
     <caption role="caption">دليل حماية البيانات (اوروبا)</caption>
 
-    <!-- Table header -->
     <thead>
       <tr role="row">
         <th role="column">المنطقة</th>
@@ -396,1081 +395,1005 @@ cover: activism/banner-activism-dpadirectory.webp
         <th role="column">تقديم شكوى</th>
       </tr>
     </thead>
-    
     <tbody role="rowgroup">
-    
-      <!-- European Union -->
+      <!-- الاتحاد الأوروبي -->
       <tr role="row">
-        <td data-cell="Region" role="rowheader"><b>الاتحاد الأوروبي</b></td>
-        <td data-cell="Law" role="cell"><a href="https://eur-lex.europa.eu/eli/reg/2018/1725/oj/eng/pdf" target="_blank">
-         اللائحة (الاتحاد الأوروبي) 2018/1725
+        <td data-cell="المنطقة" role="rowheader"><b>الاتحاد الأوروبي</b></td>
+        <td data-cell="القانون" role="cell"><a href="https://eur-lex.europa.eu/eli/reg/2018/1725/oj/eng/pdf" target="_blank">
+          اللائحة (الاتحاد الأوروبي) 2018/1725
         </a></td>
-        <td data-cell="Abbreviation" role="cell">-</td>
-        <td data-cell="DPA" role="cell"><a href="https://www.edps.europa.eu/" target="_blank">
+        <td data-cell="الاختصار" role="cell">-</td>
+        <td data-cell="الهيئة" role="cell"><a href="https://www.edps.europa.eu/" target="_blank">
           المشرف الأوروبي لحماية البيانات (EDPS)
         </a></td>
-        <td data-cell="Contact" role="cell"><a href="https://www.edps.europa.eu/about-edps/contact_en" target="_blank">صفحة التواصل</a></td>
-        <td data-cell="Complaint" role="cell"><a href="https://www.edps.europa.eu/data-protection/our-role-supervisor/complaints_en" target="_blank">رابط الشكوى</a></td>
+        <td data-cell="التواصل" role="cell"><a href="https://www.edps.europa.eu/about-edps/contact_en" target="_blank">صفحة التواصل</a></td>
+        <td data-cell="الشكوى" role="cell"><a href="https://www.edps.europa.eu/data-protection/our-role-supervisor/complaints_en" target="_blank">رابط الشكوى</a></td>
       </tr>
-    
-      <!-- Austria (European Union) -->
+      <!-- النمسا (الاتحاد الأوروبي) -->
       <tr role="row">
-        <td data-cell="Region" role="rowheader">النمسا</td>
-        <td data-cell="Law" role="cell"><a href="https://gdpr-info.eu/" target="_blank">
+        <td data-cell="المنطقة" role="rowheader">النمسا</td>
+        <td data-cell="القانون" role="cell"><a href="https://gdpr-info.eu/" target="_blank">
           اللائحة العامة لحماية البيانات
         </a></td>
-        <td data-cell="Abbreviation" role="cell">GDPR</td>
-        <td data-cell="DPA" role="cell"><a href="https://data-protection-authority.gv.at/data-protection-in-austria/duplikat-data-protection-in-austria" target="_blank">
+        <td data-cell="الاختصار" role="cell">GDPR</td>
+        <td data-cell="الهيئة" role="cell"><a href="https://data-protection-authority.gv.at/data-protection-in-austria/duplikat-data-protection-in-austria" target="_blank">
           هيئة حماية البيانات النمساوية (DSB)
         </a></td>
-        <td data-cell="Contact" role="cell"><a href="https://data-protection-authority.gv.at/" target="_blank">صفحة التواصل</a></td>
-        <td data-cell="Complaint" role="cell"><a href="https://data-protection-authority.gv.at/data-protection-in-austria/right-to-lodge-a-complaint" target="_blank">رابط الشكوى</a></td>
+        <td data-cell="التواصل" role="cell"><a href="https://data-protection-authority.gv.at/" target="_blank">صفحة التواصل</a></td>
+        <td data-cell="الشكوى" role="cell"><a href="https://data-protection-authority.gv.at/data-protection-in-austria/right-to-lodge-a-complaint" target="_blank">رابط الشكوى</a></td>
       </tr>
-    
-      <!-- Belgium (European Union) -->
+      <!-- بلجيكا (الاتحاد الأوروبي) -->
       <tr role="row">
-        <td data-cell="Region" role="rowheader">بلجيكا</td>
-        <td data-cell="Law" role="cell"><a href="https://gdpr-info.eu/" target="_blank">
+        <td data-cell="المنطقة" role="rowheader">بلجيكا</td>
+        <td data-cell="القانون" role="cell"><a href="https://gdpr-info.eu/" target="_blank">
           اللائحة العامة لحماية البيانات
         </a></td>
-        <td data-cell="Abbreviation" role="cell">GDPR</td>
-        <td data-cell="DPA" role="cell"><a href="https://www.dataprotectionauthority.be/citizen" target="_blank">
+        <td data-cell="الاختصار" role="cell">GDPR</td>
+        <td data-cell="الهيئة" role="cell"><a href="https://www.dataprotectionauthority.be/citizen" target="_blank">
           هيئة حماية البيانات البلجيكية (APD-GBA)
         </a></td>
-        <td data-cell="Contact" role="cell"><a href="https://www.dataprotectionauthority.be/citizen/actions/contact" target="_blank">صفحة التواصل</a></td>
-        <td data-cell="Complaint" role="cell"><a href="https://www.dataprotectionauthority.be/citizen/actions/lodge-a-complaint" target="_blank">رابط الشكوى</a></td>
+        <td data-cell="التواصل" role="cell"><a href="https://www.dataprotectionauthority.be/citizen/actions/contact" target="_blank">صفحة التواصل</a></td>
+        <td data-cell="الشكوى" role="cell"><a href="https://www.dataprotectionauthority.be/citizen/actions/lodge-a-complaint" target="_blank">رابط الشكوى</a></td>
       </tr>
-    
-      <!-- Bulgaria (European Union) -->
+      <!-- بلغاريا (الاتحاد الأوروبي) -->
       <tr role="row">
-        <td data-cell="Region" role="rowheader">Bulgaria</td>
-        <td data-cell="Law" role="cell"><a href="https://gdpr-info.eu/" target="_blank">
-          General Data Protection Regulation
+        <td data-cell="المنطقة" role="rowheader">بلغاريا</td>
+        <td data-cell="القانون" role="cell"><a href="https://gdpr-info.eu/" target="_blank">
+          اللائحة العامة لحماية البيانات
         </a></td>
-        <td data-cell="Abbreviation" role="cell">GDPR</td>
-        <td data-cell="DPA" role="cell"><a href="https://cpdp.bg/en/" target="_blank">
-          Commission for Personal Data Protection (CPDP)
+        <td data-cell="الاختصار" role="cell">GDPR</td>
+        <td data-cell="الهيئة" role="cell"><a href="https://cpdp.bg/en/" target="_blank">
+          لجنة حماية البيانات الشخصية (CPDP)
         </a></td>
-        <td data-cell="Contact" role="cell"><a href="https://cpdp.bg/en/contacts/" target="_blank">Contact Page</a></td>
-        <td data-cell="Complaint" role="cell"><a href="https://cpdp.bg/en/lodging-complaints-and-alerts/" target="_blank">Complaint Link</a></td>
+        <td data-cell="التواصل" role="cell"><a href="https://cpdp.bg/en/contacts/" target="_blank">صفحة التواصل</a></td>
+        <td data-cell="الشكوى" role="cell"><a href="https://cpdp.bg/en/lodging-complaints-and-alerts/" target="_blank">رابط الشكوى</a></td>
       </tr>
-    
-      <!-- Croatia (European Union) -->
+      <!-- كرواتيا (الاتحاد الأوروبي) -->
       <tr role="row">
-        <td data-cell="Region" role="rowheader">Croatia</td>
-        <td data-cell="Law" role="cell"><a href="https://gdpr-info.eu/" target="_blank">
-          General Data Protection Regulation
+        <td data-cell="المنطقة" role="rowheader">كرواتيا</td>
+        <td data-cell="القانون" role="cell"><a href="https://gdpr-info.eu/" target="_blank">
+          اللائحة العامة لحماية البيانات
         </a></td>
-        <td data-cell="Abbreviation" role="cell">GDPR</td>
-        <td data-cell="DPA" role="cell"><a href="https://azop.hr/naslovna-english/" target="_blank">
-          Croatian Personal Data Protection Agency (AZOP)
+        <td data-cell="الاختصار" role="cell">GDPR</td>
+        <td data-cell="الهيئة" role="cell"><a href="https://azop.hr/naslovna-english/" target="_blank">
+          الوكالة الكرواتية لحماية البيانات الشخصية (AZOP)
         </a></td>
-        <td data-cell="Contact" role="cell"><a href="https://azop.hr/contact/" target="_blank">Contact Page</a></td>
-        <td data-cell="Complaint" role="cell"><a href="https://azop.hr/how-to-lodge-a-complaint/" target="_blank">Complaint Link</a></td>
+        <td data-cell="التواصل" role="cell"><a href="https://azop.hr/contact/" target="_blank">صفحة التواصل</a></td>
+        <td data-cell="الشكوى" role="cell"><a href="https://azop.hr/how-to-lodge-a-complaint/" target="_blank">رابط الشكوى</a></td>
       </tr>
-    
-      <!-- Cyprus (European Union) -->
+      <!-- قبرص (الاتحاد الأوروبي) -->
       <tr role="row">
-        <td data-cell="Region" role="rowheader">Cyprus</td>
-        <td data-cell="Law" role="cell"><a href="https://gdpr-info.eu/" target="_blank">
-          General Data Protection Regulation
+        <td data-cell="المنطقة" role="rowheader">قبرص</td>
+        <td data-cell="القانون" role="cell"><a href="https://gdpr-info.eu/" target="_blank">
+          اللائحة العامة لحماية البيانات
         </a></td>
-        <td data-cell="Abbreviation" role="cell">GDPR</td>
-        <td data-cell="DPA" role="cell"><a href="https://www.dataprotection.gov.cy/" target="_blank">
-          Commissioner for Personal Data Protection
+        <td data-cell="الاختصار" role="cell">GDPR</td>
+        <td data-cell="الهيئة" role="cell"><a href="https://www.dataprotection.gov.cy/" target="_blank">
+          مفوض حماية البيانات الشخصية
         </a></td>
-        <td data-cell="Contact" role="cell"><a href="https://www.dataprotection.gov.cy/dataprotection/dataprotection.nsf/contact_en/contact_en?opendocument" target="_blank">Contact Page</a></td>
-        <td data-cell="Complaint" role="cell"><a href="https://www.dataprotection.gov.cy/dataprotection/dataprotection.nsf/page1i_en/page1i_en?opendocument" target="_blank">Complaint Link</a></td>
+        <td data-cell="التواصل" role="cell"><a href="https://www.dataprotection.gov.cy/dataprotection/dataprotection.nsf/contact_en/contact_en?opendocument" target="_blank">صفحة التواصل</a></td>
+        <td data-cell="الشكوى" role="cell"><a href="https://www.dataprotection.gov.cy/dataprotection/dataprotection.nsf/page1i_en/page1i_en?opendocument" target="_blank">رابط الشكوى</a></td>
       </tr>
-    
-      <!-- Czech Republic (European Union) -->
+      <!-- جمهورية التشيك (الاتحاد الأوروبي) -->
       <tr role="row">
-        <td data-cell="Region" role="rowheader">Czech Republic</td>
-        <td data-cell="Law" role="cell"><a href="https://gdpr-info.eu/" target="_blank">
-          General Data Protection Regulation
+        <td data-cell="المنطقة" role="rowheader">جمهورية التشيك</td>
+        <td data-cell="القانون" role="cell"><a href="https://gdpr-info.eu/" target="_blank">
+          اللائحة العامة لحماية البيانات
         </a></td>
-        <td data-cell="Abbreviation" role="cell">GDPR</td>
-        <td data-cell="DPA" role="cell"><a href="https://uoou.gov.cz/en" target="_blank">
-          Office for Personal Data Protection (UOOU)
+        <td data-cell="الاختصار" role="cell">GDPR</td>
+        <td data-cell="الهيئة" role="cell"><a href="https://uoou.gov.cz/en" target="_blank">
+          مكتب حماية البيانات الشخصية (UOOU)
         </a></td>
-        <td data-cell="Contact" role="cell"><a href="https://uoou.gov.cz/en/consultation/contact" target="_blank">Contact Page</a></td>
-        <td data-cell="Complaint" role="cell"><a href="https://uoou.gov.cz/verejnost/stiznost-na-spravce-nebo-zpracovatele" target="_blank">Complaint Link</a></td>
+        <td data-cell="التواصل" role="cell"><a href="https://uoou.gov.cz/en/consultation/contact" target="_blank">صفحة التواصل</a></td>
+        <td data-cell="الشكوى" role="cell"><a href="https://uoou.gov.cz/verejnost/stiznost-na-spravce-nebo-zpracovatele" target="_blank">رابط الشكوى</a></td>
       </tr>
-    
-      <!-- Denmark (European Union) -->
+      <!-- الدنمارك (الاتحاد الأوروبي) -->
       <tr role="row">
-        <td data-cell="Region" role="rowheader">Denmark</td>
-        <td data-cell="Law" role="cell"><a href="https://gdpr-info.eu/" target="_blank">
-          General Data Protection Regulation
+        <td data-cell="المنطقة" role="rowheader">الدنمارك</td>
+        <td data-cell="القانون" role="cell"><a href="https://gdpr-info.eu/" target="_blank">
+          اللائحة العامة لحماية البيانات
         </a></td>
-        <td data-cell="Abbreviation" role="cell">GDPR</td>
-        <td data-cell="DPA" role="cell"><a href="https://www.datatilsynet.dk/english" target="_blank">
-          Danish Data Protection Agency
+        <td data-cell="الاختصار" role="cell">GDPR</td>
+        <td data-cell="الهيئة" role="cell"><a href="https://www.datatilsynet.dk/english" target="_blank">
+          وكالة حماية البيانات الدنماركية
         </a></td>
-        <td data-cell="Contact" role="cell"><a href="https://www.datatilsynet.dk/english/contact-us" target="_blank">Contact Page</a></td>
-        <td data-cell="Complaint" role="cell"><a href="https://www.datatilsynet.dk/english/file-a-complaint" target="_blank">Complaint Link</a></td>
+        <td data-cell="التواصل" role="cell"><a href="https://www.datatilsynet.dk/english/contact-us" target="_blank">صفحة التواصل</a></td>
+        <td data-cell="الشكوى" role="cell"><a href="https://www.datatilsynet.dk/english/file-a-complaint" target="_blank">رابط الشكوى</a></td>
       </tr>
-    
-      <!-- Estonia (European Union) -->
+      <!-- إستونيا (الاتحاد الأوروبي) -->
       <tr role="row">
-        <td data-cell="Region" role="rowheader">Estonia</td>
-        <td data-cell="Law" role="cell"><a href="https://gdpr-info.eu/" target="_blank">
-          General Data Protection Regulation
+        <td data-cell="المنطقة" role="rowheader">إستونيا</td>
+        <td data-cell="القانون" role="cell"><a href="https://gdpr-info.eu/" target="_blank">
+          اللائحة العامة لحماية البيانات
         </a></td>
-        <td data-cell="Abbreviation" role="cell">GDPR</td>
-        <td data-cell="DPA" role="cell"><a href="https://www.aki.ee/en" target="_blank">
-          Data Protection Inspectorate
+        <td data-cell="الاختصار" role="cell">GDPR</td>
+        <td data-cell="الهيئة" role="cell"><a href="https://www.aki.ee/en" target="_blank">
+          مفتشية حماية البيانات
         </a></td>
-        <td data-cell="Contact" role="cell"><a href="https://www.aki.ee/en/contact" target="_blank">Contact Page</a></td>
-        <td data-cell="Complaint" role="cell"><a href="https://www.aki.ee/meist/vota-uhendust/kaebus-isikuandmete-kaitse-asjas#saada-kaebus-isikuan--2" target="_blank">Complaint Link</a></td>
+        <td data-cell="التواصل" role="cell"><a href="https://www.aki.ee/en/contact" target="_blank">صفحة التواصل</a></td>
+        <td data-cell="الشكوى" role="cell"><a href="https://www.aki.ee/meist/vota-uhendust/kaebus-isikuandmete-kaitse-asjas#saada-kaebus-isikuan--2" target="_blank">رابط الشكوى</a></td>
       </tr>
-    
-      <!-- Finland (European Union) -->
+      <!-- فنلندا (الاتحاد الأوروبي) -->
       <tr role="row">
-        <td data-cell="Region" role="rowheader">Finland</td>
-        <td data-cell="Law" role="cell"><a href="https://gdpr-info.eu/" target="_blank">
-          General Data Protection Regulation
+        <td data-cell="المنطقة" role="rowheader">فنلندا</td>
+        <td data-cell="القانون" role="cell"><a href="https://gdpr-info.eu/" target="_blank">
+          اللائحة العامة لحماية البيانات
         </a></td>
-        <td data-cell="Abbreviation" role="cell">GDPR</td>
-        <td data-cell="DPA" role="cell"><a href="https://tietosuoja.fi/en/home" target="_blank">
-          Office of the Data Protection Ombudsman
+        <td data-cell="الاختصار" role="cell">GDPR</td>
+        <td data-cell="الهيئة" role="cell"><a href="https://tietosuoja.fi/en/home" target="_blank">
+          مكتب أمين مظالم حماية البيانات
         </a></td>
-        <td data-cell="Contact" role="cell"><a href="https://tietosuoja.fi/en/contact-information" target="_blank">Contact Page</a></td>
-        <td data-cell="Complaint" role="cell"><a href="https://tietosuoja.fi/en/request-for-an-order-concerning-the-rights-of-the-data-subject" target="_blank">Complaint Link</a></td>
+        <td data-cell="التواصل" role="cell"><a href="https://tietosuoja.fi/en/contact-information" target="_blank">صفحة التواصل</a></td>
+        <td data-cell="الشكوى" role="cell"><a href="https://tietosuoja.fi/en/request-for-an-order-concerning-the-rights-of-the-data-subject" target="_blank">رابط الشكوى</a></td>
       </tr>
-    
-      <!-- France (European Union) -->
+      <!-- فرنسا (الاتحاد الأوروبي) -->
       <tr role="row">
-        <td data-cell="Region" role="rowheader">France</td>
-        <td data-cell="Law" role="cell"><a href="https://gdpr-info.eu/" target="_blank">
-          General Data Protection Regulation
+        <td data-cell="المنطقة" role="rowheader">فرنسا</td>
+        <td data-cell="القانون" role="cell"><a href="https://gdpr-info.eu/" target="_blank">
+          اللائحة العامة لحماية البيانات
         </a></td>
-        <td data-cell="Abbreviation" role="cell">GDPR</td>
-        <td data-cell="DPA" role="cell"><a href="https://www.cnil.fr/en" target="_blank">
-          Commission Nationale de l’Informatique et des Libertés (CNIL)
+        <td data-cell="الاختصار" role="cell">GDPR</td>
+        <td data-cell="الهيئة" role="cell"><a href="https://www.cnil.fr/en" target="_blank">
+          اللجنة الوطنية للمعلوماتية والحريات (CNIL)
         </a></td>
-        <td data-cell="Contact" role="cell"><a href="https://www.cnil.fr/en/contact-us" target="_blank">Contact Page</a></td>
-        <td data-cell="Complaint" role="cell"><a href="https://www.cnil.fr/fr/plaintes" target="_blank">Complaint Link</a></td>
+        <td data-cell="التواصل" role="cell"><a href="https://www.cnil.fr/en/contact-us" target="_blank">صفحة التواصل</a></td>
+        <td data-cell="الشكوى" role="cell"><a href="https://www.cnil.fr/fr/plaintes" target="_blank">رابط الشكوى</a></td>
       </tr>
-    
-      <!-- Germany (European Union) -->
+      <!-- ألمانيا (الاتحاد الأوروبي) -->
       <tr role="row">
-        <td data-cell="Region" role="rowheader">Germany</td>
-        <td data-cell="Law" role="cell"><a href="https://gdpr-info.eu/" target="_blank">
-          General Data Protection Regulation
+        <td data-cell="المنطقة" role="rowheader">ألمانيا</td>
+        <td data-cell="القانون" role="cell"><a href="https://gdpr-info.eu/" target="_blank">
+          اللائحة العامة لحماية البيانات
         </a></td>
-        <td data-cell="Abbreviation" role="cell">GDPR</td>
-        <td data-cell="DPA" role="cell"><a href="https://www.bfdi.bund.de/EN/Home/home_node.html" target="_blank">
-          Federal Commissioner for Data Protection and Freedom of Information (BfDI)
+        <td data-cell="الاختصار" role="cell">GDPR</td>
+        <td data-cell="الهيئة" role="cell"><a href="https://www.bfdi.bund.de/EN/Home/home_node.html" target="_blank">
+          المفوض الفيدرالي لحماية البيانات وحرية المعلومات (BfDI)
         </a></td>
-        <td data-cell="Contact" role="cell"><a href="https://www.bfdi.bund.de/EN/Service/Kontakt/kontakt_node.html" target="_blank">Contact Page</a></td>
-        <td data-cell="Complaint" role="cell"><a href="https://www.bfdi.bund.de/DE/Service/Kontakt/Kontaktfinder/kontaktfinder_node.html" target="_blank">Complaint Link</a></td>
+        <td data-cell="التواصل" role="cell"><a href="https://www.bfdi.bund.de/EN/Service/Kontakt/kontakt_node.html" target="_blank">صفحة التواصل</a></td>
+        <td data-cell="الشكوى" role="cell"><a href="https://www.bfdi.bund.de/DE/Service/Kontakt/Kontaktfinder/kontaktfinder_node.html" target="_blank">رابط الشكوى</a></td>
       </tr>
-    
-      <!-- Greece (European Union) -->
+      <!-- اليونان (الاتحاد الأوروبي) -->
       <tr role="row">
-        <td data-cell="Region" role="rowheader">Greece</td>
-       <td data-cell="Law" role="cell"><a href="https://gdpr-info.eu/" target="_blank">
-          General Data Protection Regulation
+        <td data-cell="المنطقة" role="rowheader">اليونان</td>
+        <td data-cell="القانون" role="cell"><a href="https://gdpr-info.eu/" target="_blank">
+          اللائحة العامة لحماية البيانات
         </a></td>
-        <td data-cell="Abbreviation" role="cell">GDPR</td>
-        <td data-cell="DPA" role="cell"><a href="https://www.dpa.gr/en" target="_blank">
-          Hellenic Data Protection Authority (HDPA)
+        <td data-cell="الاختصار" role="cell">GDPR</td>
+        <td data-cell="الهيئة" role="cell"><a href="https://www.dpa.gr/en" target="_blank">
+          الهيئة اليونانية لحماية البيانات (HDPA)
         </a></td>
-        <td data-cell="Contact" role="cell"><a href="https://www.dpa.gr/en" target="_blank">Contact Page</a></td>
-        <td data-cell="Complaint" role="cell"><a href="https://www.dpa.gr/en/individuals/complaint-to-the-hellenic-dpa" target="_blank">Complaint Link</a></td>
+        <td data-cell="التواصل" role="cell"><a href="https://www.dpa.gr/en" target="_blank">صفحة التواصل</a></td>
+        <td data-cell="الشكوى" role="cell"><a href="https://www.dpa.gr/en/individuals/complaint-to-the-hellenic-dpa" target="_blank">رابط الشكوى</a></td>
       </tr>
-    
-      <!-- Hungary (European Union) -->
+      <!-- المجر (الاتحاد الأوروبي) -->
       <tr role="row">
-        <td data-cell="Region" role="rowheader">Hungary</td>
-        <td data-cell="Law" role="cell"><a href="https://gdpr-info.eu/" target="_blank">
-          General Data Protection Regulation
+        <td data-cell="المنطقة" role="rowheader">المجر</td>
+        <td data-cell="القانون" role="cell"><a href="https://gdpr-info.eu/" target="_blank">
+          اللائحة العامة لحماية البيانات
         </a></td>
-        <td data-cell="Abbreviation" role="cell">GDPR</td>
-        <td data-cell="DPA" role="cell"><a href="https://www.naih.hu/about-the-authority" target="_blank">
-          Hungarian National Authority for Data Protection and Freedom of Information (NAIH)
+        <td data-cell="الاختصار" role="cell">GDPR</td>
+        <td data-cell="الهيئة" role="cell"><a href="https://www.naih.hu/about-the-authority" target="_blank">
+          الهيئة الوطنية المجرية لحماية البيانات وحرية المعلومات (NAIH)
         </a></td>
-        <td data-cell="Contact" role="cell"><a href="https://naih.hu/" target="_blank">Contact Page</a></td>
-        <td data-cell="Complaint" role="cell"><a href="https://www.naih.hu/adatkezeles-erintettjekent-fordulok-a-hatosaghoz/adatvedelmi-hatosagi-eljaras-gdpr" target="_blank">Complaint Link</a></td>
+        <td data-cell="التواصل" role="cell"><a href="https://naih.hu/" target="_blank">صفحة التواصل</a></td>
+        <td data-cell="الشكوى" role="cell"><a href="https://www.naih.hu/adatkezeles-erintettjekent-fordulok-a-hatosaghoz/adatvedelmi-hatosagi-eljaras-gdpr" target="_blank">رابط الشكوى</a></td>
       </tr>
-    
-      <!-- Iceland (European Economic Area) -->
+      <!-- آيسلندا (المنطقة الاقتصادية الأوروبية) -->
       <tr role="row">
-        <td data-cell="Region" role="rowheader">Iceland</td>
-        <td data-cell="Law" role="cell"><a href="https://gdpr-info.eu/" target="_blank">
-          General Data Protection Regulation
+        <td data-cell="المنطقة" role="rowheader">آيسلندا</td>
+        <td data-cell="القانون" role="cell"><a href="https://gdpr-info.eu/" target="_blank">
+          اللائحة العامة لحماية البيانات
         </a></td>
-        <td data-cell="Abbreviation" role="cell">GDPR</td>
-        <td data-cell="DPA" role="cell"><a href="https://island.is/en/o/the-data-protection-authority" target="_blank">
-          Data Protection Authority
+        <td data-cell="الاختصار" role="cell">GDPR</td>
+        <td data-cell="الهيئة" role="cell"><a href="https://island.is/en/o/the-data-protection-authority" target="_blank">
+          هيئة حماية البيانات
         </a></td>
-        <td data-cell="Contact" role="cell"><a href="https://island.is/en/o/the-data-protection-authority/general-enquiries-form" target="_blank">Contact Page</a></td>
-        <td data-cell="Complaint" role="cell"><a href="https://island.is/en/complaint-to-the-data-protection-authority" target="_blank">Complaint Link</a></td>
+        <td data-cell="التواصل" role="cell"><a href="https://island.is/en/o/the-data-protection-authority/general-enquiries-form" target="_blank">صفحة التواصل</a></td>
+        <td data-cell="الشكوى" role="cell"><a href="https://island.is/en/complaint-to-the-data-protection-authority" target="_blank">رابط الشكوى</a></td>
       </tr>
-    
-      <!-- Ireland (European Union) -->
+      <!-- أيرلندا (الاتحاد الأوروبي) -->
       <tr role="row">
-        <td data-cell="Region" role="rowheader">Ireland</td>
-        <td data-cell="Law" role="cell"><a href="https://gdpr-info.eu/" target="_blank">
-          General Data Protection Regulation
+        <td data-cell="المنطقة" role="rowheader">أيرلندا</td>
+        <td data-cell="القانون" role="cell"><a href="https://gdpr-info.eu/" target="_blank">
+          اللائحة العامة لحماية البيانات
         </a></td>
-        <td data-cell="Abbreviation" role="cell">GDPR</td>
-        <td data-cell="DPA" role="cell"><a href="https://www.dataprotection.ie" target="_blank">
-          Data Protection Commission (DPC)
+        <td data-cell="الاختصار" role="cell">GDPR</td>
+        <td data-cell="الهيئة" role="cell"><a href="https://www.dataprotection.ie" target="_blank">
+          لجنة حماية البيانات (DPC)
         </a></td>
-        <td data-cell="Contact" role="cell"><a href="https://www.dataprotection.ie/en/contact/how-contact-us" target="_blank">Contact Page</a></td>
-        <td data-cell="Complaint" role="cell"><a href="https://www.dataprotection.ie/en/individuals/exercising-your-rights/raising-concern-commission" target="_blank">Complaint Link</a></td>
+        <td data-cell="التواصل" role="cell"><a href="https://www.dataprotection.ie/en/contact/how-contact-us" target="_blank">صفحة التواصل</a></td>
+        <td data-cell="الشكوى" role="cell"><a href="https://www.dataprotection.ie/en/individuals/exercising-your-rights/raising-concern-commission" target="_blank">رابط الشكوى</a></td>
       </tr>
-    
-      <!-- Italy (European Union) -->
+      <!-- إيطاليا (الاتحاد الأوروبي) -->
       <tr role="row">
-        <td data-cell="Region" role="rowheader">Italy</td>
-        <td data-cell="Law" role="cell"><a href="https://gdpr-info.eu/" target="_blank">
-          General Data Protection Regulation
+        <td data-cell="المنطقة" role="rowheader">إيطاليا</td>
+        <td data-cell="القانون" role="cell"><a href="https://gdpr-info.eu/" target="_blank">
+          اللائحة العامة لحماية البيانات
         </a></td>
-        <td data-cell="Abbreviation" role="cell">GDPR</td>
-        <td data-cell="DPA" role="cell"><a href="https://www.garanteprivacy.it/" target="_blank">
-          Italian Data Protection Authority (GPDP)
+        <td data-cell="الاختصار" role="cell">GDPR</td>
+        <td data-cell="الهيئة" role="cell"><a href="https://www.garanteprivacy.it/" target="_blank">
+          هيئة حماية البيانات الإيطالية (GPDP)
         </a></td>
-        <td data-cell="Contact" role="cell"><a href="https://www.garanteprivacy.it/web/garante-privacy-en" target="_blank">Contact Page</a></td>
-        <td data-cell="Complaint" role="cell"><a href="https://www.garanteprivacy.it/diritti/come-agire-per-tutelare-i-tuoi-dati-personali/reclamo" target="_blank">Complaint Link</a></td>
+        <td data-cell="التواصل" role="cell"><a href="https://www.garanteprivacy.it/web/garante-privacy-en" target="_blank">صفحة التواصل</a></td>
+        <td data-cell="الشكوى" role="cell"><a href="https://www.garanteprivacy.it/diritti/come-agire-per-tutelare-i-tuoi-dati-personali/reclamo" target="_blank">رابط الشكوى</a></td>
       </tr>
-    
-      <!-- Latvia (European Union) -->
+      <!-- لاتفيا (الاتحاد الأوروبي) -->
       <tr role="row">
-        <td data-cell="Region" role="rowheader">Latvia</td>
-        <td data-cell="Law" role="cell"><a href="https://gdpr-info.eu/" target="_blank">
-          General Data Protection Regulation
+        <td data-cell="المنطقة" role="rowheader">لاتفيا</td>
+        <td data-cell="القانون" role="cell"><a href="https://gdpr-info.eu/" target="_blank">
+          اللائحة العامة لحماية البيانات
         </a></td>
-        <td data-cell="Abbreviation" role="cell">GDPR</td>
-        <td data-cell="DPA" role="cell"><a href="https://www.dvi.gov.lv/en" target="_blank">
-          Data State Inspectorate (DVI)
+        <td data-cell="الاختصار" role="cell">GDPR</td>
+        <td data-cell="الهيئة" role="cell"><a href="https://www.dvi.gov.lv/en" target="_blank">
+          مفتشية الدولة للبيانات (DVI)
         </a></td>
-        <td data-cell="Contact" role="cell"><a href="https://www.dvi.gov.lv/en/contacts-authority" target="_blank">Contact Page</a></td>
-        <td data-cell="Complaint" role="cell"><a href="https://www.dvi.gov.lv/lv/iesniegumu-paraugi" target="_blank">Complaint Link</a></td>
+        <td data-cell="التواصل" role="cell"><a href="https://www.dvi.gov.lv/en/contacts-authority" target="_blank">صفحة التواصل</a></td>
+        <td data-cell="الشكوى" role="cell"><a href="https://www.dvi.gov.lv/lv/iesniegumu-paraugi" target="_blank">رابط الشكوى</a></td>
       </tr>
-    
-      <!-- Liechtenstein (European Economic Area) -->
+      <!-- ليختنشتاين (المنطقة الاقتصادية الأوروبية) -->
       <tr role="row">
-        <td data-cell="Region" role="rowheader">Liechtenstein</td>
-        <td data-cell="Law" role="cell"><a href="https://gdpr-info.eu/" target="_blank">
-          General Data Protection Regulation
+        <td data-cell="المنطقة" role="rowheader">ليختنشتاين</td>
+        <td data-cell="القانون" role="cell"><a href="https://gdpr-info.eu/" target="_blank">
+          اللائحة العامة لحماية البيانات
         </a></td>
-        <td data-cell="Abbreviation" role="cell">GDPR</td>
-        <td data-cell="DPA" role="cell"><a href="https://www.datenschutzstelle.li/" target="_blank">
-          Datenschutzstelle
+        <td data-cell="الاختصار" role="cell">GDPR</td>
+        <td data-cell="الهيئة" role="cell"><a href="https://www.datenschutzstelle.li/" target="_blank">
+          هيئة حماية البيانات (Datenschutzstelle)
         </a></td>
-        <td data-cell="Contact" role="cell"><a href="https://www.datenschutzstelle.li/ueber-uns" target="_blank">Contact Page</a></td>
-        <td data-cell="Complaint" role="cell"><a href="https://www.datenschutzstelle.li/services-und-downloads/formulare#Beschwerdeformular" target="_blank">Complaint Link</a></td>
+        <td data-cell="التواصل" role="cell"><a href="https://www.datenschutzstelle.li/ueber-uns" target="_blank">صفحة التواصل</a></td>
+        <td data-cell="الشكوى" role="cell"><a href="https://www.datenschutzstelle.li/services-und-downloads/formulare#Beschwerdeformular" target="_blank">رابط الشكوى</a></td>
       </tr>
-    
-      <!-- Lithuania (European Union) -->
+      <!-- ليتوانيا (الاتحاد الأوروبي) -->
       <tr role="row">
-        <td data-cell="Region" role="rowheader">Lithuania</td>
-        <td data-cell="Law" role="cell"><a href="https://gdpr-info.eu/" target="_blank">
-          General Data Protection Regulation
+        <td data-cell="المنطقة" role="rowheader">ليتوانيا</td>
+        <td data-cell="القانون" role="cell"><a href="https://gdpr-info.eu/" target="_blank">
+          اللائحة العامة لحماية البيانات
         </a></td>
-        <td data-cell="Abbreviation" role="cell">GDPR</td>
-        <td data-cell="DPA" role="cell"><a href="https://vdai.lrv.lt/en/" target="_blank">
-          State Data Protection Inspectorate (VDAI)
+        <td data-cell="الاختصار" role="cell">GDPR</td>
+        <td data-cell="الهيئة" role="cell"><a href="https://vdai.lrv.lt/en/" target="_blank">
+          المفتشية الحكومية لحماية البيانات (VDAI)
         </a></td>
-        <td data-cell="Contact" role="cell"><a href="https://vdai.lrv.lt/en/structure-and-contacts/contacts-1/" target="_blank">Contact Page</a></td>
-        <td data-cell="Complaint" role="cell"><a href="https://vdai.lrv.lt/lt/veiklos-sritys-1/skundu-nagrinejimas/" target="_blank">Complaint Link</a></td>
+        <td data-cell="التواصل" role="cell"><a href="https://vdai.lrv.lt/en/structure-and-contacts/contacts-1/" target="_blank">صفحة التواصل</a></td>
+        <td data-cell="الشكوى" role="cell"><a href="https://vdai.lrv.lt/lt/veiklos-sritys-1/skundu-nagrinejimas/" target="_blank">رابط الشكوى</a></td>
       </tr>
-    
-      <!-- Luxembourg (European Union) -->
+      <!-- لوكسمبورغ (الاتحاد الأوروبي) -->
       <tr role="row">
-        <td data-cell="Region" role="rowheader">Luxembourg</td>
-        <td data-cell="Law" role="cell"><a href="https://gdpr-info.eu/" target="_blank">
-          General Data Protection Regulation
+        <td data-cell="المنطقة" role="rowheader">لوكسمبورغ</td>
+        <td data-cell="القانون" role="cell"><a href="https://gdpr-info.eu/" target="_blank">
+          اللائحة العامة لحماية البيانات
         </a></td>
-        <td data-cell="Abbreviation" role="cell">GDPR</td>
-        <td data-cell="DPA" role="cell"><a href="https://cnpd.public.lu/en.html" target="_blank">
-          National Commission for Data Protection (CNPD)
+        <td data-cell="الاختصار" role="cell">GDPR</td>
+        <td data-cell="الهيئة" role="cell"><a href="https://cnpd.public.lu/en.html" target="_blank">
+          اللجنة الوطنية لحماية البيانات (CNPD)
         </a></td>
-        <td data-cell="Contact" role="cell"><a href="https://cnpd.public.lu/en/support/contact/contact-prive.html" target="_blank">Contact Page</a></td>
-        <td data-cell="Complaint" role="cell"><a href="https://cnpd.public.lu/en/particuliers/faire-valoir/formulaire-plainte.html" target="_blank">Complaint Link</a></td>
+        <td data-cell="التواصل" role="cell"><a href="https://cnpd.public.lu/en/support/contact/contact-prive.html" target="_blank">صفحة التواصل</a></td>
+        <td data-cell="الشكوى" role="cell"><a href="https://cnpd.public.lu/en/particuliers/faire-valoir/formulaire-plainte.html" target="_blank">رابط الشكوى</a></td>
       </tr>
-    
-      <!-- Malta (European Union) -->
+      <!-- مالطا (الاتحاد الأوروبي) -->
       <tr role="row">
-        <td data-cell="Region" role="rowheader">Malta</td>
-        <td data-cell="Law" role="cell"><a href="https://gdpr-info.eu/" target="_blank">
-          General Data Protection Regulation
+        <td data-cell="المنطقة" role="rowheader">مالطا</td>
+        <td data-cell="القانون" role="cell"><a href="https://gdpr-info.eu/" target="_blank">
+          اللائحة العامة لحماية البيانات
         </a></td>
-        <td data-cell="Abbreviation" role="cell">GDPR</td>
-        <td data-cell="DPA" role="cell"><a href="https://idpc.org.mt/" target="_blank">
-          Office of the Information and Data Protection Commissioner (IDPC)
+        <td data-cell="الاختصار" role="cell">GDPR</td>
+        <td data-cell="الهيئة" role="cell"><a href="https://idpc.org.mt/" target="_blank">
+          مكتب مفوض المعلومات وحماية البيانات (IDPC)
         </a></td>
-        <td data-cell="Contact" role="cell"><a href="https://idpc.org.mt/contact/" target="_blank">Contact Page</a></td>
-        <td data-cell="Complaint" role="cell"><a href="https://idpc.org.mt/file-a-complaint/" target="_blank">Complaint Link</a></td>
+        <td data-cell="التواصل" role="cell"><a href="https://idpc.org.mt/contact/" target="_blank">صفحة التواصل</a></td>
+        <td data-cell="الشكوى" role="cell"><a href="https://idpc.org.mt/file-a-complaint/" target="_blank">رابط الشكوى</a></td>
       </tr>
-    
-      <!-- Netherlands (European Union) -->
+      <!-- هولندا (الاتحاد الأوروبي) -->
       <tr role="row">
-        <td data-cell="Region" role="rowheader">Netherlands</td>
-        <td data-cell="Law" role="cell"><a href="https://gdpr-info.eu/" target="_blank">
-          General Data Protection Regulation
+        <td data-cell="المنطقة" role="rowheader">هولندا</td>
+        <td data-cell="القانون" role="cell"><a href="https://gdpr-info.eu/" target="_blank">
+          اللائحة العامة لحماية البيانات
         </a></td>
-        <td data-cell="Abbreviation" role="cell">GDPR</td>
-        <td data-cell="DPA" role="cell"><a href="https://autoriteitpersoonsgegevens.nl/en" target="_blank">
-          Autoriteit Persoonsgegevens (AP)
+        <td data-cell="الاختصار" role="cell">GDPR</td>
+        <td data-cell="الهيئة" role="cell"><a href="https://autoriteitpersoonsgegevens.nl/en" target="_blank">
+          هيئة حماية البيانات الشخصية الهولندية (AP)
         </a></td>
-        <td data-cell="Contact" role="cell"><a href="https://autoriteitpersoonsgegevens.nl/en/contact" target="_blank">Contact Page</a></td>
-        <td data-cell="Complaint" role="cell"><a href="https://autoriteitpersoonsgegevens.nl/en/submitting-a-tip-off-or-a-complaint-to-the-ap" target="_blank">Complaint Link</a></td>
+        <td data-cell="التواصل" role="cell"><a href="https://autoriteitpersoonsgegevens.nl/en/contact" target="_blank">صفحة التواصل</a></td>
+        <td data-cell="الشكوى" role="cell"><a href="https://autoriteitpersoonsgegevens.nl/en/submitting-a-tip-off-or-a-complaint-to-the-ap" target="_blank">رابط الشكوى</a></td>
       </tr>
-    
-       <!-- North Macedonia -->
+      <!-- مقدونيا الشمالية -->
       <tr role="row">
-        <td data-cell="Region" role="rowheader">North Macedonia</td>
-        <td data-cell="Law" role="cell"><a href="https://azlp.mk/wp-content/uploads/2022/12/lpdp_2020.pdf" target="_blank">
-          Law on the Protection of Personal Data
+        <td data-cell="المنطقة" role="rowheader">مقدونيا الشمالية</td>
+        <td data-cell="القانون" role="cell"><a href="https://azlp.mk/wp-content/uploads/2022/12/lpdp_2020.pdf" target="_blank">
+          قانون حماية البيانات الشخصية
         </a></td>
-        <td data-cell="Abbreviation" role="cell">-</td>
-        <td data-cell="DPA" role="cell"><a href="https://azlp.mk/en/" target="_blank">
-          Agency for the Protection of Personal Data (AZLP)
+        <td data-cell="الاختصار" role="cell">-</td>
+        <td data-cell="الهيئة" role="cell"><a href="https://azlp.mk/en/" target="_blank">
+          وكالة حماية البيانات الشخصية (AZLP)
         </a></td>
-        <td data-cell="Contact" role="cell"><a href="https://azlp.mk/en/contact/" target="_blank">Contact Page</a></td>
-        <td data-cell="Complaint" role="cell"><a href="https://azlp.mk/en/citizens/directions/request-for-determination-of-violation-of-the-right-to-protection-of-personal-data/" target="_blank">Complaint Link</a></td>
+        <td data-cell="التواصل" role="cell"><a href="https://azlp.mk/en/contact/" target="_blank">صفحة التواصل</a></td>
+        <td data-cell="الشكوى" role="cell"><a href="https://azlp.mk/en/citizens/directions/request-for-determination-of-violation-of-the-right-to-protection-of-personal-data/" target="_blank">رابط الشكوى</a></td>
       </tr>
-    
-      <!-- Norway (European Economic Area) -->
+      <!-- النرويج (المنطقة الاقتصادية الأوروبية) -->
       <tr role="row">
-        <td data-cell="Region" role="rowheader">Norway</td>
-        <td data-cell="Law" role="cell"><a href="https://gdpr-info.eu/" target="_blank">
-          General Data Protection Regulation
+        <td data-cell="المنطقة" role="rowheader">النرويج</td>
+        <td data-cell="القانون" role="cell"><a href="https://gdpr-info.eu/" target="_blank">
+          اللائحة العامة لحماية البيانات
         </a></td>
-        <td data-cell="Abbreviation" role="cell">GDPR</td>
-        <td data-cell="DPA" role="cell"><a href="https://www.datatilsynet.no/" target="_blank">
-          Datatilsynet
+        <td data-cell="الاختصار" role="cell">GDPR</td>
+        <td data-cell="الهيئة" role="cell"><a href="https://www.datatilsynet.no/" target="_blank">
+          هيئة حماية البيانات النرويجية (Datatilsynet)
         </a></td>
-        <td data-cell="Contact" role="cell"><a href="https://www.datatilsynet.no/om-datatilsynet/kontakt-oss/" target="_blank">Contact Page</a></td>
-        <td data-cell="Complaint" role="cell"><a href="https://www.datatilsynet.no/om-datatilsynet/kontakt-oss/klage-til-datatilsynet/" target="_blank">Complaint Link</a></td>
+        <td data-cell="التواصل" role="cell"><a href="https://www.datatilsynet.no/om-datatilsynet/kontakt-oss/" target="_blank">صفحة التواصل</a></td>
+        <td data-cell="الشكوى" role="cell"><a href="https://www.datatilsynet.no/om-datatilsynet/kontakt-oss/klage-til-datatilsynet/" target="_blank">رابط الشكوى</a></td>
       </tr>
-    
-      <!-- Poland (European Union) -->
+      <!-- بولندا (الاتحاد الأوروبي) -->
       <tr role="row">
-        <td data-cell="Region" role="rowheader">Poland</td>
-        <td data-cell="Law" role="cell"><a href="https://gdpr-info.eu/" target="_blank">
-          General Data Protection Regulation
+        <td data-cell="المنطقة" role="rowheader">بولندا</td>
+        <td data-cell="القانون" role="cell"><a href="https://gdpr-info.eu/" target="_blank">
+          اللائحة العامة لحماية البيانات
         </a></td>
-        <td data-cell="Abbreviation" role="cell">GDPR</td>
-        <td data-cell="DPA" role="cell"><a href="https://uodo.gov.pl/en" target="_blank">
-          President of Personal Data Protection Office (UODO)
+        <td data-cell="الاختصار" role="cell">GDPR</td>
+        <td data-cell="الهيئة" role="cell"><a href="https://uodo.gov.pl/en" target="_blank">
+          مكتب حماية البيانات الشخصية (UODO)
         </a></td>
-        <td data-cell="Contact" role="cell"><a href="https://uodo.gov.pl/en/p/contact" target="_blank">Contact Page</a></td>
-        <td data-cell="Complaint" role="cell"><a href="https://uodo.gov.pl/en/681/1404" target="_blank">Complaint Link</a></td>
+        <td data-cell="التواصل" role="cell"><a href="https://uodo.gov.pl/en/p/contact" target="_blank">صفحة التواصل</a></td>
+        <td data-cell="الشكوى" role="cell"><a href="https://uodo.gov.pl/en/681/1404" target="_blank">رابط الشكوى</a></td>
       </tr>
-    
-      <!-- Portugal (European Union) -->
+      <!-- البرتغال (الاتحاد الأوروبي) -->
       <tr role="row">
-        <td data-cell="Region" role="rowheader">Portugal</td>
-        <td data-cell="Law" role="cell"><a href="https://gdpr-info.eu/" target="_blank">
-          General Data Protection Regulation
+        <td data-cell="المنطقة" role="rowheader">البرتغال</td>
+        <td data-cell="القانون" role="cell"><a href="https://gdpr-info.eu/" target="_blank">
+          اللائحة العامة لحماية البيانات
         </a></td>
-        <td data-cell="Abbreviation" role="cell">GDPR</td>
-        <td data-cell="DPA" role="cell"><a href="https://www.cnpd.pt/" target="_blank">
-          Comissão Nacional de Proteção de Dados (CNPD)
+        <td data-cell="الاختصار" role="cell">GDPR</td>
+        <td data-cell="الهيئة" role="cell"><a href="https://www.cnpd.pt/" target="_blank">
+          اللجنة الوطنية لحماية البيانات (CNPD)
         </a></td>
-        <td data-cell="Contact" role="cell"><a href="https://www.cnpd.pt/cnpd/o-que-somos-e-quem-somos/" target="_blank">Contact Page</a></td>
-        <td data-cell="Complaint" role="cell"><a href="https://www.cnpd.pt/cidadaos/participacoes/" target="_blank">Complaint Link</a></td>
+        <td data-cell="التواصل" role="cell"><a href="https://www.cnpd.pt/cnpd/o-que-somos-e-quem-somos/" target="_blank">صفحة التواصل</a></td>
+        <td data-cell="الشكوى" role="cell"><a href="https://www.cnpd.pt/cidadaos/participacoes/" target="_blank">رابط الشكوى</a></td>
       </tr>
-    
-      <!-- Romania (European Union) -->
+      <!-- رومانيا (الاتحاد الأوروبي) -->
       <tr role="row">
-        <td data-cell="Region" role="rowheader">Romania</td>
-        <td data-cell="Law" role="cell"><a href="https://gdpr-info.eu/" target="_blank">
-          General Data Protection Regulation
+        <td data-cell="المنطقة" role="rowheader">رومانيا</td>
+        <td data-cell="القانون" role="cell"><a href="https://gdpr-info.eu/" target="_blank">
+          اللائحة العامة لحماية البيانات
         </a></td>
-        <td data-cell="Abbreviation" role="cell">GDPR</td>
-        <td data-cell="DPA" role="cell"><a href="https://www.dataprotection.ro/index.jsp?page=home&lang=en" target="_blank">
-          National Supervisory Authority For Personal Data Processing (ANSPDCP)
+        <td data-cell="الاختصار" role="cell">GDPR</td>
+        <td data-cell="الهيئة" role="cell"><a href="https://www.dataprotection.ro/index.jsp?page=home&lang=en" target="_blank">
+          الهيئة الوطنية للإشراف على معالجة البيانات الشخصية (ANSPDCP)
         </a></td>
-        <td data-cell="Contact" role="cell"><a href="https://www.dataprotection.ro/index.jsp?page=contact&lang=en" target="_blank">Contact Page</a></td>
-        <td data-cell="Complaint" role="cell"><a href="https://www.dataprotection.ro/index.jsp?page=Plangeri_RGPD" target="_blank">Complaint Link</a></td>
+        <td data-cell="التواصل" role="cell"><a href="https://www.dataprotection.ro/index.jsp?page=contact&lang=en" target="_blank">صفحة التواصل</a></td>
+        <td data-cell="الشكوى" role="cell"><a href="https://www.dataprotection.ro/index.jsp?page=Plangeri_RGPD" target="_blank">رابط الشكوى</a></td>
       </tr>
-    
-      <!-- Serbia -->
+      <!-- صربيا -->
       <tr role="row">
-        <td data-cell="Region" role="rowheader">Serbia</td>
-        <td data-cell="Law" role="cell"><a href="https://www.poverenik.rs/en/%D0%B7%D0%B0%D0%BA%D0%BE%D0%BD%D0%B84/2970-%D0%B7%D0%B0%D0%BA%D0%BE%D0%BD-%D0%BE-%D0%B7%D0%B0%D1%88%D1%82%D0%B8%D1%82%D0%B8-%D0%BF%D0%BE%D0%B4%D0%B0%D1%82%D0%B0%D0%BA%D0%B0-%D0%BE-%D0%BB%D0%B8%D1%87%D0%BD%D0%BE%D1%81%D1%82%D0%B8-%D1%81%D0%BB-%D0%B3%D0%BB%D0%B0%D1%81%D0%BD%D0%B8%D0%BA-%D1%80%D1%81-%D0%B1%D1%80-87-2018-%D0%BE%D0%B4-13-11-2018.html" target="_blank">
-          Law on Personal Data Protection
+        <td data-cell="المنطقة" role="rowheader">صربيا</td>
+        <td data-cell="القانون" role="cell"><a href="https://www.poverenik.rs/en/%D0%B7%D0%B0%D0%BA%D0%BE%D0%BD%D0%B84/2970-%D0%B7%D0%B0%D0%BA%D0%BE%D0%BD-%D0%BE-%D0%B7%D0%B0%D1%88%D1%82%D0%B8%D1%82%D0%B8-%D0%BF%D0%BE%D0%B4%D0%B0%D1%82%D0%B0%D0%BA%D0%B0-%D0%BE-%D0%BB%D0%B8%D1%87%D0%BD%D0%BE%D1%81%D1%82%D0%B8-%D1%81%D0%BB-%D0%B3%D0%BB%D0%B0%D1%81%D0%BD%D0%B8%D0%BA-%D1%80%D1%81-%D0%B1%D1%80-87-2018-%D0%BE%D0%B4-13-11-2018.html" target="_blank">
+          قانون حماية البيانات الشخصية
         </a></td>
-        <td data-cell="Abbreviation" role="cell">LPDP</td>
-        <td data-cell="DPA" role="cell"><a href="https://www.poverenik.rs/en/" target="_blank">
-          Commissioner for Information of Public Importance and Personal Data Protection (Poverenik)
+        <td data-cell="الاختصار" role="cell">LPDP</td>
+        <td data-cell="الهيئة" role="cell"><a href="https://www.poverenik.rs/en/" target="_blank">
+          مفوض المعلومات ذات الأهمية العامة وحماية البيانات الشخصية (Poverenik)
         </a></td>
-        <td data-cell="Contact" role="cell"><a href="https://www.poverenik.rs/en/contact.html" target="_blank">Contact Page</a></td>
-        <td data-cell="Complaint" role="cell"><a href="https://www.poverenik.rs/en/data-protection/%D0%BA%D0%B0%D0%BA%D0%BE-%D0%BE%D1%81%D1%82%D0%B2%D0%B0%D1%80%D0%B8%D1%82%D0%B8-%D0%B7%D0%B0%D1%88%D1%82%D0%B8%D1%82%D1%83-%D0%BF%D1%80%D0%B0%D0%B2%D0%B02.html" target="_blank">Complaint Link</a></td>
+        <td data-cell="التواصل" role="cell"><a href="https://www.poverenik.rs/en/contact.html" target="_blank">صفحة التواصل</a></td>
+        <td data-cell="الشكوى" role="cell"><a href="https://www.poverenik.rs/en/data-protection/%D0%BA%D0%B0%D0%BA%D0%BE-%D0%BE%D1%81%D1%82%D0%B2%D0%B0%D1%80%D0%B8%D1%82%D0%B8-%D0%B7%D0%B0%D1%88%D1%82%D0%B8%D1%82%D1%83-%D0%BF%D1%80%D0%B0%D0%B2%D0%B02.html" target="_blank">رابط الشكوى</a></td>
       </tr>
-    
-      <!-- Slovakia (European Union) -->
+      <!-- سلوفاكيا (الاتحاد الأوروبي) -->
       <tr role="row">
-        <td data-cell="Region" role="rowheader">Slovakia</td>
-        <td data-cell="Law" role="cell"><a href="https://gdpr-info.eu/" target="_blank">
-          General Data Protection Regulation
+        <td data-cell="المنطقة" role="rowheader">سلوفاكيا</td>
+        <td data-cell="القانون" role="cell"><a href="https://gdpr-info.eu/" target="_blank">
+          اللائحة العامة لحماية البيانات
         </a></td>
-        <td data-cell="Abbreviation" role="cell">GDPR</td>
-        <td data-cell="DPA" role="cell"><a href="https://dataprotection.gov.sk/en/" target="_blank">
-          Office for Personal Data Protection of the Slovak Republic (UOOU)
+        <td data-cell="الاختصار" role="cell">GDPR</td>
+        <td data-cell="الهيئة" role="cell"><a href="https://dataprotection.gov.sk/en/" target="_blank">
+          مكتب حماية البيانات الشخصية في الجمهورية السلوفاكية (UOOU)
         </a></td>
-        <td data-cell="Contact" role="cell"><a href="https://dataprotection.gov.sk/en/contact/" target="_blank">Contact Page</a></td>
-        <td data-cell="Complaint" role="cell"><a href="https://dataprotection.gov.sk/en/rights-data-subjects/proposal-initiate-proceedings-on-personal-data-protection/" target="_blank">Complaint Link</a></td>
+        <td data-cell="التواصل" role="cell"><a href="https://dataprotection.gov.sk/en/contact/" target="_blank">صفحة التواصل</a></td>
+        <td data-cell="الشكوى" role="cell"><a href="https://dataprotection.gov.sk/en/rights-data-subjects/proposal-initiate-proceedings-on-personal-data-protection/" target="_blank">رابط الشكوى</a></td>
       </tr>
-    
-      <!-- Slovenia (European Union) -->
+      <!-- سلوفينيا (الاتحاد الأوروبي) -->
       <tr role="row">
-        <td data-cell="Region" role="rowheader">Slovenia</td>
-        <td data-cell="Law" role="cell"><a href="https://gdpr-info.eu/" target="_blank">
-          General Data Protection Regulation
+        <td data-cell="المنطقة" role="rowheader">سلوفينيا</td>
+        <td data-cell="القانون" role="cell"><a href="https://gdpr-info.eu/" target="_blank">
+          اللائحة العامة لحماية البيانات
         </a></td>
-        <td data-cell="Abbreviation" role="cell">GDPR</td>
-        <td data-cell="DPA" role="cell"><a href="https://www.ip-rs.si/en/" target="_blank">
-          Information Commissioner of the Republic of Slovenia (IP)
+        <td data-cell="الاختصار" role="cell">GDPR</td>
+        <td data-cell="الهيئة" role="cell"><a href="https://www.ip-rs.si/en/" target="_blank">
+          مفوض المعلومات لجمهورية سلوفينيا (IP)
         </a></td>
-        <td data-cell="Contact" role="cell"><a href="https://www.ip-rs.si/en/about/information-commissioner" target="_blank">Contact Page</a></td>
-        <td data-cell="Complaint" role="cell"><a href="https://www.ip-rs.si/en/data-protection/how-to-file-an-application" target="_blank">Complaint Link</a></td>
+        <td data-cell="التواصل" role="cell"><a href="https://www.ip-rs.si/en/about/information-commissioner" target="_blank">صفحة التواصل</a></td>
+        <td data-cell="الشكوى" role="cell"><a href="https://www.ip-rs.si/en/data-protection/how-to-file-an-application" target="_blank">رابط الشكوى</a></td>
       </tr>
-    
-      <!-- Spain (European Union) -->
+      <!-- إسبانيا (الاتحاد الأوروبي) -->
       <tr role="row">
-        <td data-cell="Region" role="rowheader">Spain</td>
-        <td data-cell="Law" role="cell"><a href="https://gdpr-info.eu/" target="_blank">
-          General Data Protection Regulation
+        <td data-cell="المنطقة" role="rowheader">إسبانيا</td>
+        <td data-cell="القانون" role="cell"><a href="https://gdpr-info.eu/" target="_blank">
+          اللائحة العامة لحماية البيانات
         </a></td>
-        <td data-cell="Abbreviation" role="cell">GDPR</td>
-        <td data-cell="DPA" role="cell"><a href="https://www.aepd.es/en" target="_blank">
-          Spanish Agency for Data Protection (AEPD)
+        <td data-cell="الاختصار" role="cell">GDPR</td>
+        <td data-cell="الهيئة" role="cell"><a href="https://www.aepd.es/en" target="_blank">
+          الوكالة الإسبانية لحماية البيانات (AEPD)
         </a></td>
-        <td data-cell="Contact" role="cell"><a href="https://www.aepd.es/la-agencia/donde-encontrarnos" target="_blank">Contact Page</a></td>
-        <td data-cell="Complaint" role="cell"><a href="https://sedeaepd.gob.es/sede-electronica/procedures/claims/claims-info" target="_blank">Complaint Link</a></td>
+        <td data-cell="التواصل" role="cell"><a href="https://www.aepd.es/la-agencia/donde-encontrarnos" target="_blank">صفحة التواصل</a></td>
+        <td data-cell="الشكوى" role="cell"><a href="https://sedeaepd.gob.es/sede-electronica/procedures/claims/claims-info" target="_blank">رابط الشكوى</a></td>
       </tr>
-    
-      <!-- Spain, Andalusia (European Union) -->
+      <!-- إسبانيا، الأندلس (الاتحاد الأوروبي) -->
       <tr role="row">
-        <td data-cell="Region" role="rowheader">Spain (Andalusia)</td>
-        <td data-cell="Law" role="cell"><a href="https://gdpr-info.eu/" target="_blank">
-          General Data Protection Regulation
+        <td data-cell="المنطقة" role="rowheader">إسبانيا (الأندلس)</td>
+        <td data-cell="القانون" role="cell"><a href="https://gdpr-info.eu/" target="_blank">
+          اللائحة العامة لحماية البيانات
         </a></td>
-        <td data-cell="Abbreviation" role="cell">GDPR</td>
-        <td data-cell="DPA" role="cell"><a href="https://www.ctpdandalucia.es/" target="_blank">
-          Consejo de Transparencia y Protección de Datos de Andalucía (CTPDA)
+        <td data-cell="الاختصار" role="cell">GDPR</td>
+        <td data-cell="الهيئة" role="cell"><a href="https://www.ctpdandalucia.es/" target="_blank">
+          مجلس الشفافية وحماية البيانات في الأندلس (CTPDA)
         </a></td>
-        <td data-cell="Contact" role="cell"><a href="https://www.ctpdandalucia.es/contacto" target="_blank">Contact Page</a></td>
-        <td data-cell="Complaint" role="cell"><a href="https://www.ctpdandalucia.es/area-de-proteccion-de-datos/reclamaciones-ante-el-consejo-por-vulneracion-la-normativa-proteccion-datos-personales" target="_blank">Complaint Link</a></td>
+        <td data-cell="التواصل" role="cell"><a href="https://www.ctpdandalucia.es/contacto" target="_blank">صفحة التواصل</a></td>
+        <td data-cell="الشكوى" role="cell"><a href="https://www.ctpdandalucia.es/area-de-proteccion-de-datos/reclamaciones-ante-el-consejo-por-vulneracion-la-normativa-proteccion-datos-personales" target="_blank">رابط الشكوى</a></td>
       </tr>
-    
-      <!-- Spain, Basque (European Union) -->
+      <!-- إسبانيا، إقليم الباسك (الاتحاد الأوروبي) -->
       <tr role="row">
-        <td data-cell="Region" role="rowheader">Spain (Basque)</td>
-        <td data-cell="Law" role="cell"><a href="https://gdpr-info.eu/" target="_blank">
-          General Data Protection Regulation
+        <td data-cell="المنطقة" role="rowheader">إسبانيا (إقليم الباسك)</td>
+        <td data-cell="القانون" role="cell"><a href="https://gdpr-info.eu/" target="_blank">
+          اللائحة العامة لحماية البيانات
         </a></td>
-        <td data-cell="Abbreviation" role="cell">GDPR</td>
-        <td data-cell="DPA" role="cell"><a href="https://www.avpd.eus/inicio/" target="_blank">
-          Datuak Babesteko Euskal Bulegoa (DBEB)
+        <td data-cell="الاختصار" role="cell">GDPR</td>
+        <td data-cell="الهيئة" role="cell"><a href="https://www.avpd.eus/inicio/" target="_blank">
+          مكتب إقليم الباسك لحماية البيانات (DBEB)
         </a></td>
-        <td data-cell="Contact" role="cell"><a href="https://www.avpd.eus/webavpd00-content/es/contenidos/informacion/contacto/es_9493/index.shtml" target="_blank">Contact Page</a></td>
-        <td data-cell="Complaint" role="cell"><a href="https://www.avpd.eus/modelos-para-el-ejercicio-de-derechos-y-modelos-de-reclamaciones/webavpd00-content/es/" target="_blank">Complaint Link</a></td>
+        <td data-cell="التواصل" role="cell"><a href="https://www.avpd.eus/webavpd00-content/es/contenidos/informacion/contacto/es_9493/index.shtml" target="_blank">صفحة التواصل</a></td>
+        <td data-cell="الشكوى" role="cell"><a href="https://www.avpd.eus/modelos-para-el-ejercicio-de-derechos-y-modelos-de-reclamaciones/webavpd00-content/es/" target="_blank">رابط الشكوى</a></td>
       </tr>
-    
-      <!-- Spain, Catalonia (European Union) -->
+      <!-- إسبانيا، كتالونيا (الاتحاد الأوروبي) -->
       <tr role="row">
-        <td data-cell="Region" role="rowheader">Spain (Catalonia)</td>
-        <td data-cell="Law" role="cell"><a href="https://gdpr-info.eu/" target="_blank">
-          General Data Protection Regulation
+        <td data-cell="المنطقة" role="rowheader">إسبانيا (كتالونيا)</td>
+        <td data-cell="القانون" role="cell"><a href="https://gdpr-info.eu/" target="_blank">
+          اللائحة العامة لحماية البيانات
         </a></td>
-        <td data-cell="Abbreviation" role="cell">GDPR</td>
-        <td data-cell="DPA" role="cell"><a href="https://www.apdcat.cat/en" target="_blank">
-          Catalan Data Protection Authority (APDCAT)
+        <td data-cell="الاختصار" role="cell">GDPR</td>
+        <td data-cell="الهيئة" role="cell"><a href="https://www.apdcat.cat/en" target="_blank">
+          هيئة حماية البيانات الكتالونية (APDCAT)
         </a></td>
-        <td data-cell="Contact" role="cell"><a href="https://www.apdcat.cat/en/formulari-contacte" target="_blank">Contact Page</a></td>
-        <td data-cell="Complaint" role="cell"><a href="https://www.apdcat.cat/en/persones/reclama-i-denuncia" target="_blank">Complaint Link</a></td>
+        <td data-cell="التواصل" role="cell"><a href="https://www.apdcat.cat/en/formulari-contacte" target="_blank">صفحة التواصل</a></td>
+        <td data-cell="الشكوى" role="cell"><a href="https://www.apdcat.cat/en/persones/reclama-i-denuncia" target="_blank">رابط الشكوى</a></td>
       </tr>
-    
-      <!-- Sweden (European Union) -->
+      <!-- السويد (الاتحاد الأوروبي) -->
       <tr role="row">
-        <td data-cell="Region" role="rowheader">Sweden</td>
-        <td data-cell="Law" role="cell"><a href="https://gdpr-info.eu/" target="_blank">
-          General Data Protection Regulation
+        <td data-cell="المنطقة" role="rowheader">السويد</td>
+        <td data-cell="القانون" role="cell"><a href="https://gdpr-info.eu/" target="_blank">
+          اللائحة العامة لحماية البيانات
         </a></td>
-        <td data-cell="Abbreviation" role="cell">GDPR</td>
-        <td data-cell="DPA" role="cell"><a href="https://www.imy.se/en/" target="_blank">
-          Swedish Authority for Privacy Protection (IMY)
+        <td data-cell="الاختصار" role="cell">GDPR</td>
+        <td data-cell="الهيئة" role="cell"><a href="https://www.imy.se/en/" target="_blank">
+          الهيئة السويدية لحماية الخصوصية (IMY)
         </a></td>
-        <td data-cell="Contact" role="cell"><a href="https://www.imy.se/en/about-us/contact-us/" target="_blank">Contact Page</a></td>
-        <td data-cell="Complaint" role="cell"><a href="https://www.imy.se/en/individuals/forms-and-e-services/file-a-gdpr-complaint/" target="_blank">Complaint Link</a></td>
+        <td data-cell="التواصل" role="cell"><a href="https://www.imy.se/en/about-us/contact-us/" target="_blank">صفحة التواصل</a></td>
+        <td data-cell="الشكوى" role="cell"><a href="https://www.imy.se/en/individuals/forms-and-e-services/file-a-gdpr-complaint/" target="_blank">رابط الشكوى</a></td>
       </tr>
-    
-      <!-- Switzerland -->
+      <!-- سويسرا -->
       <tr role="row">
-        <td data-cell="Region" role="rowheader">Switzerland</td>
-        <td data-cell="Law" role="cell"><a href="https://www.fedlex.admin.ch/eli/cc/2022/491/en" target="_blank">
-          Federal Act on Data Protection
+        <td data-cell="المنطقة" role="rowheader">سويسرا</td>
+        <td data-cell="القانون" role="cell"><a href="https://www.fedlex.admin.ch/eli/cc/2022/491/en" target="_blank">
+          القانون الفيدرالي لحماية البيانات
         </a></td>
-        <td data-cell="Abbreviation" role="cell">FADP</td>
-        <td data-cell="DPA" role="cell"><a href="https://www.edoeb.admin.ch" target="_blank">
-          Federal Data Protection and Information Commissioner (FDPIC)
+        <td data-cell="الاختصار" role="cell">FADP</td>
+        <td data-cell="الهيئة" role="cell"><a href="https://www.edoeb.admin.ch" target="_blank">
+          المفوض الفيدرالي لحماية البيانات والمعلومات (FDPIC)
         </a></td>
-        <td data-cell="Contact" role="cell"><a href="https://www.edoeb.admin.ch/en/contact-2" target="_blank">Contact Page</a></td>
-        <td data-cell="Complaint" role="cell"><a href="https://www.edoeb.admin.ch/en/submitting-a-complaint" target="_blank">Complaint Link</a></td>
+        <td data-cell="التواصل" role="cell"><a href="https://www.edoeb.admin.ch/en/contact-2" target="_blank">صفحة التواصل</a></td>
+        <td data-cell="الشكوى" role="cell"><a href="https://www.edoeb.admin.ch/en/submitting-a-complaint" target="_blank">رابط الشكوى</a></td>
       </tr>
-    
-      <!-- United Kingdom -->
+      <!-- المملكة المتحدة -->
       <tr role="row">
-        <td data-cell="Region" role="rowheader">United Kingdom</td>
-        <td data-cell="Law" role="cell"><a href="https://www.legislation.gov.uk/eur/2016/679/contents" target="_blank">
-          UK General Data Protection Regulation
+        <td data-cell="المنطقة" role="rowheader">المملكة المتحدة</td>
+        <td data-cell="القانون" role="cell"><a href="https://www.legislation.gov.uk/eur/2016/679/contents" target="_blank">
+          اللائحة العامة لحماية البيانات في المملكة المتحدة
         </a></td>
-        <td data-cell="Abbreviation" role="cell">UK GDPR</td>
-        <td data-cell="DPA" role="cell"><a href="https://ico.org.uk/" target="_blank">
-          Information Commissioner's Office (ICO)
+        <td data-cell="الاختصار" role="cell">UK GDPR</td>
+        <td data-cell="الهيئة" role="cell"><a href="https://ico.org.uk/" target="_blank">
+          مكتب مفوض المعلومات (ICO)
         </a></td>
-        <td data-cell="Contact" role="cell"><a href="https://ico.org.uk/global/contact-us/contact-us-public/" target="_blank">Contact Page</a></td>
-        <td data-cell="Complaint" role="cell"><a href="https://ico.org.uk/make-a-complaint/data-protection-complaints/" target="_blank">Complaint Link</a></td>
+        <td data-cell="التواصل" role="cell"><a href="https://ico.org.uk/global/contact-us/contact-us-public/" target="_blank">صفحة التواصل</a></td>
+        <td data-cell="الشكوى" role="cell"><a href="https://ico.org.uk/make-a-complaint/data-protection-complaints/" target="_blank">رابط الشكوى</a></td>
       </tr>
-    
     </tbody>
   </table>
 </div>
 
 <button class="toolbox-button-top">[العودة إلى قائمة الجداول :material-map-search:](#the-directory)</button> <br>
 
-### North America
+### أمريكا الشمالية
 
 <div class="table-wrapper">
   <table role="table" class="dpadirectory-table table-northamerica">
-    <caption role="caption">Data Protection Authority Directory (North America)</caption>
+    <caption role="caption">دليل حماية البيانات (أمريكا الشمالية)</caption>
 
-    <!-- Table header -->
     <thead>
       <tr role="row">
-        <th role="column">Region</th>
-        <th role="column" class="table-large-cell">Privacy Law</th>
-        <th role="column">Abbreviation</th>
-        <th role="column" class="table-large-cell">DPA</th>
-        <th role="column">Contact</th>
-        <th role="column">Complaint</th>
+        <th role="column">المنطقة</th>
+        <th role="column" class="table-large-cell">قانون الخصوصية</th>
+        <th role="column">الاختصار</th>
+        <th role="column" class="table-large-cell">هيئة حماية البيانات</th>
+        <th role="column">التواصل</th>
+        <th role="column">تقديم شكوى</th>
       </tr>
     </thead>
-    
     <tbody role="rowgroup">
-    
-      <!-- Canada  -->
+      <!-- كندا -->
       <tr role="row">
-        <td data-cell="Region" role="rowheader">Canada</td>
-        <td data-cell="Law" role="cell"><a href="https://www.priv.gc.ca/en/privacy-topics/privacy-laws-in-canada/the-personal-information-protection-and-electronic-documents-act-pipeda/" target="_blank">
-          Personal Information Protection and Electronic Documents Act
+        <td data-cell="المنطقة" role="rowheader">كندا</td>
+        <td data-cell="القانون" role="cell"><a href="https://www.priv.gc.ca/en/privacy-topics/privacy-laws-in-canada/the-personal-information-protection-and-electronic-documents-act-pipeda/" target="_blank">
+          قانون حماية المعلومات الشخصية والوثائق الإلكترونية
         </a></td>
-        <td data-cell="Abbreviation" role="cell">PIPEDA</td>
-        <td data-cell="DPA" role="cell"><a href="https://www.priv.gc.ca" target="_blank">
-          Office of the Privacy Commissioner of Canada (OPC)
+        <td data-cell="الاختصار" role="cell">PIPEDA</td>
+        <td data-cell="الهيئة" role="cell"><a href="https://www.priv.gc.ca" target="_blank">
+          مكتب مفوض الخصوصية في كندا (OPC)
         </a></td>
-        <td data-cell="Contact" role="cell"><a href="https://www.priv.gc.ca/en/contact-the-opc/contact-the-information-centre/" target="_blank">Contact Page</a></td>
-        <td data-cell="Complaint" role="cell"><a href="https://www.priv.gc.ca/en/report-a-concern/file-a-formal-privacy-complaint/" target="_blank">Complaint Link</a></td>
+        <td data-cell="التواصل" role="cell"><a href="https://www.priv.gc.ca/en/contact-the-opc/contact-the-information-centre/" target="_blank">صفحة التواصل</a></td>
+        <td data-cell="الشكوى" role="cell"><a href="https://www.priv.gc.ca/en/report-a-concern/file-a-formal-privacy-complaint/" target="_blank">رابط الشكوى</a></td>
       </tr>
-    
-      <!-- Canada (Alberta) -->
+      <!-- كندا (ألبرتا) -->
       <tr role="row">
-        <td data-cell="Region" role="rowheader">Canada (Alberta)</td>
-        <td data-cell="Law" role="cell"><a href="https://kings-printer.alberta.ca/documents/Acts/P06P5.pdf" target="_blank">
-          Personal Information Protection Act
+        <td data-cell="المنطقة" role="rowheader">كندا (ألبرتا)</td>
+        <td data-cell="القانون" role="cell"><a href="https://kings-printer.alberta.ca/documents/Acts/P06P5.pdf" target="_blank">
+          قانون حماية المعلومات الشخصية
         </a></td>
-        <td data-cell="Abbreviation" role="cell">PIPA (AB)</td>
-        <td data-cell="DPA" role="cell"><a href="https://oipc.ab.ca/" target="_blank">
-          Office of the Information and Privacy Commissioner of Alberta (OIPC)
+        <td data-cell="الاختصار" role="cell">PIPA (AB)</td>
+        <td data-cell="الهيئة" role="cell"><a href="https://oipc.ab.ca/" target="_blank">
+          مكتب مفوض المعلومات والخصوصية في ألبرتا (OIPC)
         </a></td>
-        <td data-cell="Contact" role="cell"><a href="https://oipc.ab.ca/about-us/contact-us/" target="_blank">Contact Page</a></td>
-        <td data-cell="Complaint" role="cell"><a href="https://oipc.ab.ca/privacy-correction-complaint/" target="_blank">Complaint Link</a></td>
+        <td data-cell="التواصل" role="cell"><a href="https://oipc.ab.ca/about-us/contact-us/" target="_blank">صفحة التواصل</a></td>
+        <td data-cell="الشكوى" role="cell"><a href="https://oipc.ab.ca/privacy-correction-complaint/" target="_blank">رابط الشكوى</a></td>
       </tr>
-    
-      <!-- Canada (British Columbia) -->
+      <!-- كندا (كولومبيا البريطانية) -->
       <tr role="row">
-        <td data-cell="Region" role="rowheader">Canada (British Columbia)</td>
-        <td data-cell="Law" role="cell"><a href="https://www.bclaws.gov.bc.ca/civix/document/id/complete/statreg/03063_01" target="_blank">
-          Personal Information Protection Act
+        <td data-cell="المنطقة" role="rowheader">كندا (كولومبيا البريطانية)</td>
+        <td data-cell="القانون" role="cell"><a href="https://www.bclaws.gov.bc.ca/civix/document/id/complete/statreg/03063_01" target="_blank">
+          قانون حماية المعلومات الشخصية
         </a></td>
-        <td data-cell="Abbreviation" role="cell">PIPA (BC)</td>
-        <td data-cell="DPA" role="cell"><a href="https://www.oipc.bc.ca/" target="_blank">
-          Office of the Information and Privacy Commissioner for British Columbia (OIPC)
+        <td data-cell="الاختصار" role="cell">PIPA (BC)</td>
+        <td data-cell="الهيئة" role="cell"><a href="https://www.oipc.bc.ca/" target="_blank">
+          مكتب مفوض المعلومات والخصوصية في كولومبيا البريطانية (OIPC)
         </a></td>
-        <td data-cell="Contact" role="cell"><a href="https://www.oipc.bc.ca/about/contact-us/" target="_blank">Contact Page</a></td>
-        <td data-cell="Complaint" role="cell"><a href="https://www.oipc.bc.ca/for-the-public/how-do-i-make-a-complaint/" target="_blank">Complaint Link</a></td>
+        <td data-cell="التواصل" role="cell"><a href="https://www.oipc.bc.ca/about/contact-us/" target="_blank">صفحة التواصل</a></td>
+        <td data-cell="الشكوى" role="cell"><a href="https://www.oipc.bc.ca/for-the-public/how-do-i-make-a-complaint/" target="_blank">رابط الشكوى</a></td>
       </tr>
-    
-      <!-- Canada (Québec) -->
+      <!-- كندا (كيبيك) -->
       <tr role="row">
-        <td data-cell="Region" role="rowheader">Canada (Québec)</td>
-        <td data-cell="Law" role="cell"><a href="https://www.cai.gouv.qc.ca/protection-renseignements-personnels/citoyens-protection-renseignements-personnels" target="_blank">
-          Loi modernisant des dispositions législatives en matière de protection des renseignements personnels dans le secteur privé
+        <td data-cell="المنطقة" role="rowheader">كندا (كيبيك)</td>
+        <td data-cell="القانون" role="cell"><a href="https://www.cai.gouv.qc.ca/protection-renseignements-personnels/citoyens-protection-renseignements-personnels" target="_blank">
+          قانون تحديث التشريعات المتعلقة بحماية المعلومات الشخصية في القطاع الخاص
         </a></td>
-        <td data-cell="Abbreviation" role="cell">Loi 25 (Law 25)</td>
-        <td data-cell="DPA" role="cell"><a href="https://www.cai.gouv.qc.ca/" target="_blank">
-          Commission d’accès à l’information du Québec (CIA)
+        <td data-cell="الاختصار" role="cell">القانون 25 (Law 25)</td>
+        <td data-cell="الهيئة" role="cell"><a href="https://www.cai.gouv.qc.ca/" target="_blank">
+          لجنة الوصول إلى المعلومات في كيبيك (CAI)
         </a></td>
-        <td data-cell="Contact" role="cell"><a href="https://www.cai.gouv.qc.ca/commission-acces-information/nous-joindre" target="_blank">Contact Page</a></td>
-        <td data-cell="Complaint" role="cell"><a href="https://formulaire.cai.gouv.qc.ca/#ancreDebut" target="_blank">Complaint Link</a></td>
+        <td data-cell="التواصل" role="cell"><a href="https://www.cai.gouv.qc.ca/commission-acces-information/nous-joindre" target="_blank">صفحة التواصل</a></td>
+        <td data-cell="الشكوى" role="cell"><a href="https://formulaire.cai.gouv.qc.ca/#ancreDebut" target="_blank">رابط الشكوى</a></td>
       </tr>
-    
-      <!-- Costa Rica -->
+      <!-- كوستاريكا -->
       <tr role="row">
-        <td data-cell="Region" role="rowheader">Costa Rica</td>
-        <td data-cell="Law" role="cell"><a href="https://pgrweb.go.cr/scij/Busqueda/Normativa/Normas/nrm_texto_completo.aspx?nValor1=1&nValor2=70975" target="_blank">
-          Ley de Protección de la Persona frente al tratamiento de sus datos personales Nº 8968
+        <td data-cell="المنطقة" role="rowheader">كوستاريكا</td>
+        <td data-cell="القانون" role="cell"><a href="https://pgrweb.go.cr/scij/Busqueda/Normativa/Normas/nrm_texto_completo.aspx?nValor1=1&nValor2=70975" target="_blank">
+          قانون حماية الأفراد من معالجة بياناتهم الشخصية رقم 8968
         </a></td>
-        <td data-cell="Abbreviation" role="cell">Ley No. 8968</td>
-        <td data-cell="DPA" role="cell"><a href="https://www.prodhab.go.cr/" target="_blank">
-          Agencia de Protección de Datos de los Habitantes (PRODHAB)
+        <td data-cell="الاختصار" role="cell">Ley No. 8968</td>
+        <td data-cell="الهيئة" role="cell"><a href="https://www.prodhab.go.cr/" target="_blank">
+          وكالة حماية بيانات المواطنين (PRODHAB)
         </a></td>
-        <td data-cell="Contact" role="cell"><a href="https://www.prodhab.go.cr/contactenos/index.aspx" target="_blank">Contact Page</a></td>
-        <td data-cell="Complaint" role="cell"><a href="https://www.prodhab.go.cr/tramites%20y%20servicios/Denuncias.aspx" target="_blank">Complaint Link</a></td>
+        <td data-cell="التواصل" role="cell"><a href="https://www.prodhab.go.cr/contactenos/index.aspx" target="_blank">صفحة التواصل</a></td>
+        <td data-cell="الشكوى" role="cell"><a href="https://www.prodhab.go.cr/tramites%20y%20servicios/Denuncias.aspx" target="_blank">رابط الشكوى</a></td>
       </tr>
-    
-      <!-- Mexico -->
+      <!-- المكسيك -->
       <tr role="row">
-        <td data-cell="Region" role="rowheader">Mexico</td>
-        <td data-cell="Law" role="cell"><a href="https://www.diputados.gob.mx/LeyesBiblio/pdf/LFPDPPP.pdf" target="_blank">
-          Federal Law on the Protection of Personal Data Held by Private Parties
+        <td data-cell="المنطقة" role="rowheader">المكسيك</td>
+        <td data-cell="القانون" role="cell"><a href="https://www.diputados.gob.mx/LeyesBiblio/pdf/LFPDPPP.pdf" target="_blank">
+          القانون الفيدرالي لحماية البيانات الشخصية لدى جهات القطاع الخاص
         </a></td>
-        <td data-cell="Abbreviation" role="cell">LFPDPPP</td>
-        <td data-cell="DPA" role="cell"><a href="https://www.gob.mx/buengobierno" target="_blank">
-          Secretaría Anticorrupción y Buen Gobierno (SABG)
+        <td data-cell="الاختصار" role="cell">LFPDPPP</td>
+        <td data-cell="الهيئة" role="cell"><a href="https://www.gob.mx/buengobierno" target="_blank">
+          وزارة مكافحة الفساد والإدارة الرشيدة (SABG)
         </a></td>
-        <td data-cell="Contact" role="cell">TBA</td>
-        <td data-cell="Complaint" role="cell">TBA</td>
+        <td data-cell="التواصل" role="cell">يُحدد لاحقاً</td>
+        <td data-cell="الشكوى" role="cell">يُحدد لاحقاً</td>
       </tr>
-    
-      <!-- United States (California) -->
+      <!-- الولايات المتحدة (كاليفورنيا) -->
       <tr role="row">
-        <td data-cell="Region" role="rowheader">United States (California)</td>
-        <td data-cell="Law" role="cell"><a href="https://www.oag.ca.gov/privacy/ccpa" target="_blank">
-          California Consumer Privacy Act
+        <td data-cell="المنطقة" role="rowheader">الولايات المتحدة (كاليفورنيا)</td>
+        <td data-cell="القانون" role="cell"><a href="https://www.oag.ca.gov/privacy/ccpa" target="_blank">
+          قانون خصوصية المستهلك في كاليفورنيا
         </a></td>
-        <td data-cell="Abbreviation" role="cell">CCPA</td>
-        <td data-cell="DPA" role="cell"><a href="https://cppa.ca.gov/" target="_blank">
-          California Privacy Protection Agency (CalPrivacy)
+        <td data-cell="الاختصار" role="cell">CCPA</td>
+        <td data-cell="الهيئة" role="cell"><a href="https://cppa.ca.gov/" target="_blank">
+          وكالة كاليفورنيا لحماية الخصوصية (CalPrivacy)
         </a></td>
-        <td data-cell="Contact" role="cell"><a href="https://cppa.ca.gov/about_us/contact.html" target="_blank">Contact Page</a></td>
-        <td data-cell="Complaint" role="cell"><a href="https://www.cppa.ca.gov/webapplications/complaint" target="_blank">Complaint Link</a></td>
+        <td data-cell="التواصل" role="cell"><a href="https://cppa.ca.gov/about_us/contact.html" target="_blank">صفحة التواصل</a></td>
+        <td data-cell="الشكوى" role="cell"><a href="https://www.cppa.ca.gov/webapplications/complaint" target="_blank">رابط الشكوى</a></td>
       </tr>
-    
-      <!-- United States (Colorado) -->
+      <!-- الولايات المتحدة (كولورادو) -->
       <tr role="row">
-        <td data-cell="Region" role="rowheader">United States (Colorado)</td>
-        <td data-cell="Law" role="cell"><a href="https://coag.gov/resources/colorado-privacy-act/" target="_blank">
-          Colorado Privacy Act
+        <td data-cell="المنطقة" role="rowheader">الولايات المتحدة (كولورادو)</td>
+        <td data-cell="القانون" role="cell"><a href="https://coag.gov/resources/colorado-privacy-act/" target="_blank">
+          قانون خصوصية كولورادو
         </a></td>
-        <td data-cell="Abbreviation" role="cell">CPA</td>
-        <td data-cell="DPA" role="cell"><a href="https://coag.gov/" target="_blank">
-          Office of the Colorado Attorney General (COAG)
+        <td data-cell="الاختصار" role="cell">CPA</td>
+        <td data-cell="الهيئة" role="cell"><a href="https://coag.gov/" target="_blank">
+          مكتب المدعي العام في كولورادو (COAG)
         </a></td>
-        <td data-cell="Contact" role="cell"><a href="https://coag.gov/resources/colorado-privacy-act/colorado-privacy-act-questions/" target="_blank">Contact Page</a></td>
-        <td data-cell="Complaint" role="cell"><a href="https://coag.gov/file-a-complaint/data-privacy-data-breach/" target="_blank">Complaint Link</a></td>
+        <td data-cell="التواصل" role="cell"><a href="https://coag.gov/resources/colorado-privacy-act/colorado-privacy-act-questions/" target="_blank">صفحة التواصل</a></td>
+        <td data-cell="الشكوى" role="cell"><a href="https://coag.gov/file-a-complaint/data-privacy-data-breach/" target="_blank">رابط الشكوى</a></td>
       </tr>
-    
-      <!-- United States (Connecticut) -->
+      <!-- الولايات المتحدة (كونيتيكت) -->
       <tr role="row">
-        <td data-cell="Region" role="rowheader">United States (Connecticut)</td>
-        <td data-cell="Law" role="cell"><a href="https://www.cga.ct.gov/2022/act/Pa/pdf/2022PA-00015-R00SB-00006-PA.PDF" target="_blank">
-          Connecticut Data Privacy Act
+        <td data-cell="المنطقة" role="rowheader">الولايات المتحدة (كونيتيكت)</td>
+        <td data-cell="القانون" role="cell"><a href="https://www.cga.ct.gov/2022/act/Pa/pdf/2022PA-00015-R00SB-00006-PA.PDF" target="_blank">
+          قانون خصوصية البيانات في كونيتيكت
         </a></td>
-        <td data-cell="Abbreviation" role="cell">CTDPA</td>
-        <td data-cell="DPA" role="cell"><a href="https://portal.ct.gov/ag/sections/privacy/the-connecticut-data-privacy-act/" target="_blank">
-          Office of the Connecticut Attorney General
+        <td data-cell="الاختصار" role="cell">CTDPA</td>
+        <td data-cell="الهيئة" role="cell"><a href="https://portal.ct.gov/ag/sections/privacy/the-connecticut-data-privacy-act/" target="_blank">
+          مكتب المدعي العام في كونيتيكت
         </a></td>
-        <td data-cell="Contact" role="cell"><a href="https://portal.ct.gov/ag/contact-the-attorney-generals-office/contact-the-attorney-generals-office" target="_blank">Contact Page</a></td>
-        <td data-cell="Complaint" role="cell"><a href="https://www.dir.ct.gov/ag/complaint/e-complaint.aspx" target="_blank">Complaint Link</a></td>
+        <td data-cell="التواصل" role="cell"><a href="https://portal.ct.gov/ag/contact-the-attorney-generals-office/contact-the-attorney-generals-office" target="_blank">صفحة التواصل</a></td>
+        <td data-cell="الشكوى" role="cell"><a href="https://www.dir.ct.gov/ag/complaint/e-complaint.aspx" target="_blank">رابط الشكوى</a></td>
       </tr>
-    
-      <!-- United States (Delaware) -->
+      <!-- الولايات المتحدة (ديلاوير) -->
       <tr role="row">
-        <td data-cell="Region" role="rowheader">United States (Delaware)</td>
-        <td data-cell="Law" role="cell"><a href="https://www.delcode.delaware.gov/title6/c012d/index.html" target="_blank">
-          United States (Delaware)
+        <td data-cell="المنطقة" role="rowheader">الولايات المتحدة (ديلاوير)</td>
+        <td data-cell="القانون" role="cell"><a href="https://www.delcode.delaware.gov/title6/c012d/index.html" target="_blank">
+          قانون خصوصية البيانات الشخصية في ديلاوير
         </a></td>
-        <td data-cell="Abbreviation" role="cell">DPDP Act</td>
-        <td data-cell="DPA" role="cell"><a href="https://attorneygeneral.delaware.gov/fraud/personal-data-privacy-portal/consumer/" target="_blank">
-          Delaware Department of Justice
+        <td data-cell="الاختصار" role="cell">DPDP Act</td>
+        <td data-cell="الهيئة" role="cell"><a href="https://attorneygeneral.delaware.gov/fraud/personal-data-privacy-portal/consumer/" target="_blank">
+          وزارة العدل في ديلاوير
         </a></td>
-        <td data-cell="Contact" role="cell"><a href="mailto:privacy@delaware.gov" target="_blank">Email Address</a></td>
-        <td data-cell="Complaint" role="cell"><a href="https://attorneygeneral.delaware.gov/fraud/privacy-complaint-form/" target="_blank">Complaint Link</a></td>
+        <td data-cell="التواصل" role="cell"><a href="mailto:privacy@delaware.gov" target="_blank">البريد الإلكتروني</a></td>
+        <td data-cell="الشكوى" role="cell"><a href="https://attorneygeneral.delaware.gov/fraud/privacy-complaint-form/" target="_blank">رابط الشكوى</a></td>
       </tr>
-    
-      <!-- United States (Indiana) -->
+      <!-- الولايات المتحدة (إنديانا) -->
       <tr role="row">
-        <td data-cell="Region" role="rowheader">United States (Indiana)</td>
-        <td data-cell="Law" role="cell"><a href="https://www.in.gov/attorneygeneral/files/Consumer_Data-Bill-of-Rights.pdf" target="_blank">
-          Indiana Consumer Data Protection
+        <td data-cell="المنطقة" role="rowheader">الولايات المتحدة (إنديانا)</td>
+        <td data-cell="القانون" role="cell"><a href="https://www.in.gov/attorneygeneral/files/Consumer_Data-Bill-of-Rights.pdf" target="_blank">
+          قانون حماية بيانات المستهلك في إنديانا
         </a></td>
-        <td data-cell="Abbreviation" role="cell">Indiana CDPA</td>
-        <td data-cell="DPA" role="cell"><a href="https://www.in.gov/attorneygeneral/consumer-protection-division/" target="_blank">
-          Office of the Indiana Attorney General
+        <td data-cell="الاختصار" role="cell">Indiana CDPA</td>
+        <td data-cell="الهيئة" role="cell"><a href="https://www.in.gov/attorneygeneral/consumer-protection-division/" target="_blank">
+          مكتب المدعي العام في إنديانا
         </a></td>
-        <td data-cell="Contact" role="cell"><a href="https://www.in.gov/attorneygeneral/contact-us/" target="_blank">Contact Page</a></td>
-        <td data-cell="Complaint" role="cell"><a href="https://inoag.my.site.com/CDPA/s/" target="_blank">Complaint Link</a></td>
+        <td data-cell="التواصل" role="cell"><a href="https://www.in.gov/attorneygeneral/contact-us/" target="_blank">صفحة التواصل</a></td>
+        <td data-cell="الشكوى" role="cell"><a href="https://inoag.my.site.com/CDPA/s/" target="_blank">رابط الشكوى</a></td>
       </tr>
-    
-      <!-- United States (Iowa) -->
+      <!-- الولايات المتحدة (أيوا) -->
       <tr role="row">
-        <td data-cell="Region" role="rowheader">United States (Iowa)</td>
-        <td data-cell="Law" role="cell"><a href="https://www.legis.iowa.gov/docs/publications/LGE/90/SF262.pdf" target="_blank">
-          Iowa Consumer Data Protection Act
+        <td data-cell="المنطقة" role="rowheader">الولايات المتحدة (أيوا)</td>
+        <td data-cell="القانون" role="cell"><a href="https://www.legis.iowa.gov/docs/publications/LGE/90/SF262.pdf" target="_blank">
+          قانون حماية بيانات المستهلك في أيوا
         </a></td>
-        <td data-cell="Abbreviation" role="cell">Iowa CDPA</td>
-        <td data-cell="DPA" role="cell"><a href="https://www.iowaattorneygeneral.gov/" target="_blank">
-          Office of the Iowa Attorney General
+        <td data-cell="الاختصار" role="cell">Iowa CDPA</td>
+        <td data-cell="الهيئة" role="cell"><a href="https://www.iowaattorneygeneral.gov/" target="_blank">
+          مكتب المدعي العام في أيوا
         </a></td>
-        <td data-cell="Contact" role="cell"><a href="https://www.iowaattorneygeneral.gov/for-consumers" target="_blank">Contact Page</a></td>
-        <td data-cell="Complaint" role="cell"><a href="https://www.iowaattorneygeneral.gov/for-consumers/file-a-consumer-complaint" target="_blank">Complaint Link</a></td>
+        <td data-cell="التواصل" role="cell"><a href="https://www.iowaattorneygeneral.gov/for-consumers" target="_blank">صفحة التواصل</a></td>
+        <td data-cell="الشكوى" role="cell"><a href="https://www.iowaattorneygeneral.gov/for-consumers/file-a-consumer-complaint" target="_blank">رابط الشكوى</a></td>
       </tr>
-    
-      <!-- United States (Kentucky) -->
+      <!-- الولايات المتحدة (كنتاكي) -->
       <tr role="row">
-        <td data-cell="Region" role="rowheader">United States (Kentucky)</td>
-        <td data-cell="Law" role="cell"><a href="https://www.ag.ky.gov/about/Office-Divisions/ODP/KCDPA/Pages/default.aspx" target="_blank">
-          Kentucky Consumer Data Protection Act
+        <td data-cell="المنطقة" role="rowheader">الولايات المتحدة (كنتاكي)</td>
+        <td data-cell="القانون" role="cell"><a href="https://www.ag.ky.gov/about/Office-Divisions/ODP/KCDPA/Pages/default.aspx" target="_blank">
+          قانون حماية بيانات المستهلك في كنتاكي
         </a></td>
-        <td data-cell="Abbreviation" role="cell">KCDPA</td>
-        <td data-cell="DPA" role="cell"><a href="https://www.ag.ky.gov/about/Office-Divisions/ODP/Pages/default.aspx" target="_blank">
-          Office of the Kentucky Attorney General (Office of Data Privacy)
+        <td data-cell="الاختصار" role="cell">KCDPA</td>
+        <td data-cell="الهيئة" role="cell"><a href="https://www.ag.ky.gov/about/Office-Divisions/ODP/Pages/default.aspx" target="_blank">
+          مكتب المدعي العام في كنتاكي (مكتب خصوصية البيانات)
         </a></td>
-        <td data-cell="Contact" role="cell"><a href="https://www.ag.ky.gov/about/Office-Divisions/ODP/Pages/default.aspx" target="_blank">Contact Page</a></td>
-        <td data-cell="Complaint" role="cell"><a href="https://kyoag.highq.com/kyoag/renderSmartForm.action?formId=dc0f5031-93d0-4d3a-bfb0-e2bf5f5a782a" target="_blank">Complaint Link</a></td>
+        <td data-cell="التواصل" role="cell"><a href="https://www.ag.ky.gov/about/Office-Divisions/ODP/Pages/default.aspx" target="_blank">صفحة التواصل</a></td>
+        <td data-cell="الشكوى" role="cell"><a href="https://kyoag.highq.com/kyoag/renderSmartForm.action?formId=dc0f5031-93d0-4d3a-bfb0-e2bf5f5a782a" target="_blank">رابط الشكوى</a></td>
       </tr>
-    
-      <!-- United States (Maryland) -->
+      <!-- الولايات المتحدة (ماريلاند) -->
       <tr role="row">
-        <td data-cell="Region" role="rowheader">United States (Maryland)</td>
-        <td data-cell="Law" role="cell"><a href="https://oag.maryland.gov/resources-info/Pages/data-privacy.aspx" target="_blank">
-          Maryland Online Data Privacy Act
+        <td data-cell="المنطقة" role="rowheader">الولايات المتحدة (ماريلاند)</td>
+        <td data-cell="القانون" role="cell"><a href="https://oag.maryland.gov/resources-info/Pages/data-privacy.aspx" target="_blank">
+          قانون خصوصية البيانات على الإنترنت في ماريلاند
         </a></td>
-        <td data-cell="Abbreviation" role="cell">MODPA</td>
-        <td data-cell="DPA" role="cell"><a href="https://oag.maryland.gov/Pages/oag.aspx" target="_blank">
-          Office of the Maryland Attorney General
+        <td data-cell="الاختصار" role="cell">MODPA</td>
+        <td data-cell="الهيئة" role="cell"><a href="https://oag.maryland.gov/Pages/oag.aspx" target="_blank">
+          مكتب المدعي العام في ماريلاند
         </a></td>
-        <td data-cell="Contact" role="cell"><a href="https://oag.maryland.gov/i-need-to/Pages/contact-information.aspx" target="_blank">Contact Page</a></td>
-        <td data-cell="Complaint" role="cell"><a href="https://oag.maryland.gov/i-need-to/Pages/business-complaints.aspx" target="_blank">Complaint Link</a></td>
+        <td data-cell="التواصل" role="cell"><a href="https://oag.maryland.gov/i-need-to/Pages/contact-information.aspx" target="_blank">صفحة التواصل</a></td>
+        <td data-cell="الشكوى" role="cell"><a href="https://oag.maryland.gov/i-need-to/Pages/business-complaints.aspx" target="_blank">رابط الشكوى</a></td>
       </tr>
-    
-      <!-- United States (Minnesota) -->
+      <!-- الولايات المتحدة (مينيسوتا) -->
       <tr role="row">
-        <td data-cell="Region" role="rowheader">United States (Minnesota)</td>
-        <td data-cell="Law" role="cell"><a href="https://www.ag.state.mn.us/Data-Privacy/Consumer/" target="_blank">
-          Minnesota Consumer Data Privacy Act
+        <td data-cell="المنطقة" role="rowheader">الولايات المتحدة (مينيسوتا)</td>
+        <td data-cell="القانون" role="cell"><a href="https://www.ag.state.mn.us/Data-Privacy/Consumer/" target="_blank">
+          قانون خصوصية بيانات المستهلك في مينيسوتا
         </a></td>
-        <td data-cell="Abbreviation" role="cell">MCDPA</td>
-        <td data-cell="DPA" role="cell"><a href="https://www.ag.state.mn.us/Data-Privacy/" target="_blank">
-          Office of the Minnesota Attorney General
+        <td data-cell="الاختصار" role="cell">MCDPA</td>
+        <td data-cell="الهيئة" role="cell"><a href="https://www.ag.state.mn.us/Data-Privacy/" target="_blank">
+          مكتب المدعي العام في مينيسوتا
         </a></td>
-        <td data-cell="Contact" role="cell"><a href="https://www.ag.state.mn.us/Data-Privacy/" target="_blank">Contact Page</a></td>
-        <td data-cell="Complaint" role="cell"><a href="https://www.ag.state.mn.us/Data-Privacy/Complaint/" target="_blank">Complaint Link</a></td>
+        <td data-cell="التواصل" role="cell"><a href="https://www.ag.state.mn.us/Data-Privacy/" target="_blank">صفحة التواصل</a></td>
+        <td data-cell="الشكوى" role="cell"><a href="https://www.ag.state.mn.us/Data-Privacy/Complaint/" target="_blank">رابط الشكوى</a></td>
       </tr>
-    
-      <!-- United States (Montana) -->
+      <!-- الولايات المتحدة (مونتانا) -->
       <tr role="row">
-        <td data-cell="Region" role="rowheader">United States (Montana)</td>
-        <td data-cell="Law" role="cell"><a href="https://dojmt.gov/office-of-consumer-protection/montana-consumer-data-privacy/" target="_blank">
-          Montana Consumer Data Privacy Act
+        <td data-cell="المنطقة" role="rowheader">الولايات المتحدة (مونتانا)</td>
+        <td data-cell="القانون" role="cell"><a href="https://dojmt.gov/office-of-consumer-protection/montana-consumer-data-privacy/" target="_blank">
+          قانون خصوصية بيانات المستهلك في مونتانا
         </a></td>
-        <td data-cell="Abbreviation" role="cell">MCDPA</td>
-        <td data-cell="DPA" role="cell"><a href="https://dojmt.gov/office-of-consumer-protection" target="_blank">
-          Montana Department of Justice (Office of Consumer Protection)
+        <td data-cell="الاختصار" role="cell">MCDPA</td>
+        <td data-cell="الهيئة" role="cell"><a href="https://dojmt.gov/office-of-consumer-protection" target="_blank">
+          وزارة العدل في مونتانا (مكتب حماية المستهلك)
         </a></td>
-        <td data-cell="Contact" role="cell"><a href="https://dojmt.gov/office-of-consumer-protection" target="_blank">Contact Page</a></td>
-        <td data-cell="Complaint" role="cell"><a href="https://dojmt.gov/office-of-consumer-protection/consumer-complaints/" target="_blank">Complaint Link</a></td>
+        <td data-cell="التواصل" role="cell"><a href="https://dojmt.gov/office-of-consumer-protection" target="_blank">صفحة التواصل</a></td>
+        <td data-cell="الشكوى" role="cell"><a href="https://dojmt.gov/office-of-consumer-protection/consumer-complaints/" target="_blank">رابط الشكوى</a></td>
       </tr>
-    
-      <!-- United States (Nebraska) -->
+      <!-- الولايات المتحدة (نبراسكا) -->
       <tr role="row">
-        <td data-cell="Region" role="rowheader">United States (Nebraska)</td>
-        <td data-cell="Law" role="cell"><a href="https://protectthegoodlife.nebraska.gov/data-privacy-homepage" target="_blank">
-          Nebraska Data Privacy Act
+        <td data-cell="المنطقة" role="rowheader">الولايات المتحدة (نبراسكا)</td>
+        <td data-cell="القانون" role="cell"><a href="https://protectthegoodlife.nebraska.gov/data-privacy-homepage" target="_blank">
+          قانون خصوصية البيانات في نبراسكا
         </a></td>
-        <td data-cell="Abbreviation" role="cell">NDPA</td>
-        <td data-cell="DPA" role="cell"><a href="https://ago.nebraska.gov/" target="_blank">
-          Office of the Nebraska Attorney General
+        <td data-cell="الاختصار" role="cell">NDPA</td>
+        <td data-cell="الهيئة" role="cell"><a href="https://ago.nebraska.gov/" target="_blank">
+          مكتب المدعي العام في نبراسكا
         </a></td>
-        <td data-cell="Contact" role="cell"><a href="https://protectthegoodlife.nebraska.gov/contact-us" target="_blank">Contact Page</a></td>
-        <td data-cell="Complaint" role="cell"><a href="https://ne.accessgov.com/ago/Forms/Page/ago/2efd1471-06a7-4cd1-9bd2-cc8fe4e37c02/eaa18f8a-30e7-48c7-b97b-eaabb1ab6ce8/1" target="_blank">Complaint Link</a></td>
+        <td data-cell="التواصل" role="cell"><a href="https://protectthegoodlife.nebraska.gov/contact-us" target="_blank">صفحة التواصل</a></td>
+        <td data-cell="الشكوى" role="cell"><a href="https://ne.accessgov.com/ago/Forms/Page/ago/2efd1471-06a7-4cd1-9bd2-cc8fe4e37c02/eaa18f8a-30e7-48c7-b97b-eaabb1ab6ce8/1" target="_blank">رابط الشكوى</a></td>
       </tr>
-    
-      <!-- United States (New Hampshire) -->
+      <!-- الولايات المتحدة (نيوهامبشير) -->
       <tr role="row">
-        <td data-cell="Region" role="rowheader">United States (New Hampshire)</td>
-        <td data-cell="Law" role="cell"><a href="https://www.doj.nh.gov/data-privacy-enforcement" target="_blank">
-          New Hampshire Data Privacy Act
+        <td data-cell="المنطقة" role="rowheader">الولايات المتحدة (نيوهامبشير)</td>
+        <td data-cell="القانون" role="cell"><a href="https://www.doj.nh.gov/data-privacy-enforcement" target="_blank">
+          قانون خصوصية البيانات في نيوهامبشير
         </a></td>
-        <td data-cell="Abbreviation" role="cell">NHDPA</td>
-        <td data-cell="DPA" role="cell"><a href="https://www.doj.nh.gov/bureaus" target="_blank">
-          Consumer Protection and Antitrust Bureau (Data Privacy Unit)
+        <td data-cell="الاختصار" role="cell">NHDPA</td>
+        <td data-cell="الهيئة" role="cell"><a href="https://www.doj.nh.gov/bureaus" target="_blank">
+          مكتب حماية المستهلك ومكافحة الاحتكار (وحدة خصوصية البيانات)
         </a></td>
-        <td data-cell="Contact" role="cell"><a href="https://www.doj.nh.gov/contact-us" target="_blank">Contact Page</a></td>
-        <td data-cell="Complaint" role="cell"><a href="https://www.doj.nh.gov/citizens/consumer-protection-antitrust-bureau/consumer-complaints" target="_blank">Complaint Link</a></td>
+        <td data-cell="التواصل" role="cell"><a href="https://www.doj.nh.gov/contact-us" target="_blank">صفحة التواصل</a></td>
+        <td data-cell="الشكوى" role="cell"><a href="https://www.doj.nh.gov/citizens/consumer-protection-antitrust-bureau/consumer-complaints" target="_blank">رابط الشكوى</a></td>
       </tr>
-    
-      <!-- United States (New Jersey) -->
+      <!-- الولايات المتحدة (نيوجيرسي) -->
       <tr role="row">
-        <td data-cell="Region" role="rowheader">United States (New Jersey)</td>
-        <td data-cell="Law" role="cell"><a href="https://www.njconsumeraffairs.gov/ocp/Pages/NJ-Data-Privacy-Law-FAQ.aspx" target="_blank">
-          New Jersey Data Protection Act
+        <td data-cell="المنطقة" role="rowheader">الولايات المتحدة (نيوجيرسي)</td>
+        <td data-cell="القانون" role="cell"><a href="https://www.njconsumeraffairs.gov/ocp/Pages/NJ-Data-Privacy-Law-FAQ.aspx" target="_blank">
+          قانون حماية البيانات في نيوجيرسي
         </a></td>
-        <td data-cell="Abbreviation" role="cell">NJDPA</td>
-        <td data-cell="DPA" role="cell"><a href="https://www.njoag.gov/" target="_blank">
-          Office of the New Jersey Attorney General (Division of Consumer Affairs)
+        <td data-cell="الاختصار" role="cell">NJDPA</td>
+        <td data-cell="الهيئة" role="cell"><a href="https://www.njoag.gov/" target="_blank">
+          مكتب المدعي العام في نيوجيرسي (قسم شؤون المستهلك)
         </a></td>
-        <td data-cell="Contact" role="cell"><a href="https://www.njoag.gov/contact/office-of-constituent-services/" target="_blank">Contact Page</a></td>
-        <td data-cell="Complaint" role="cell"><a href="https://njconsumeraffairs.nj.gov/file-a-complaint/" target="_blank">Complaint Link</a></td>
+        <td data-cell="التواصل" role="cell"><a href="https://www.njoag.gov/contact/office-of-constituent-services/" target="_blank">صفحة التواصل</a></td>
+        <td data-cell="الشكوى" role="cell"><a href="https://njconsumeraffairs.nj.gov/file-a-complaint/" target="_blank">رابط الشكوى</a></td>
       </tr>
-    
-      <!-- United States (Oregon) -->
+      <!-- الولايات المتحدة (أوريغون) -->
       <tr role="row">
-        <td data-cell="Region" role="rowheader">United States (Oregon)</td>
-        <td data-cell="Law" role="cell"><a href="https://www.doj.state.or.us/consumer-protection/id-theft-data-breaches/privacy/" target="_blank">
-          Oregon Consumer Privacy Act
+        <td data-cell="المنطقة" role="rowheader">الولايات المتحدة (أوريغون)</td>
+        <td data-cell="القانون" role="cell"><a href="https://www.doj.state.or.us/consumer-protection/id-theft-data-breaches/privacy/" target="_blank">
+          قانون خصوصية المستهلك في أوريغون
         </a></td>
-        <td data-cell="Abbreviation" role="cell">OCPA</td>
-        <td data-cell="DPA" role="cell"><a href="https://www.doj.state.or.us/consumer-protection/" target="_blank">
-          Oregon Department of Justice (DOJ)
+        <td data-cell="الاختصار" role="cell">OCPA</td>
+        <td data-cell="الهيئة" role="cell"><a href="https://www.doj.state.or.us/consumer-protection/" target="_blank">
+          وزارة العدل في أوريغون (DOJ)
         </a></td>
-        <td data-cell="Contact" role="cell"><a href="https://www.doj.state.or.us/consumer-protection/contact-us/" target="_blank">Contact Page</a></td>
-        <td data-cell="Complaint" role="cell"><a href="https://app.smartsheetgov.com/b/form/02fff1dd26bd4dc19a7297e83012eb4e" target="_blank">Complaint Link</a></td>
+        <td data-cell="التواصل" role="cell"><a href="https://www.doj.state.or.us/consumer-protection/contact-us/" target="_blank">صفحة التواصل</a></td>
+        <td data-cell="الشكوى" role="cell"><a href="https://app.smartsheetgov.com/b/form/02fff1dd26bd4dc19a7297e83012eb4e" target="_blank">رابط الشكوى</a></td>
       </tr>
-    
-      <!-- United States (Rhode Island) -->
+      <!-- الولايات المتحدة (رود آيلاند) -->
       <tr role="row">
-        <td data-cell="Region" role="rowheader">United States (Rhode Island)</td>
-        <td data-cell="Law" role="cell"><a href="https://webserver.rilegislature.gov/Statutes/TITLE6/6-48.1/INDEX.htm" target="_blank">
-          Rhode Island Data Transparency and Privacy Protection Act
+        <td data-cell="المنطقة" role="rowheader">الولايات المتحدة (رود آيلاند)</td>
+        <td data-cell="القانون" role="cell"><a href="https://webserver.rilegislature.gov/Statutes/TITLE6/6-48.1/INDEX.htm" target="_blank">
+          قانون شفافية البيانات وحماية الخصوصية في رود آيلاند
         </a></td>
-        <td data-cell="Abbreviation" role="cell">RIDTPPA</td>
-        <td data-cell="DPA" role="cell"><a href="https://riag.ri.gov/" target="_blank">
-          Office of the Rhode Island Attorney General
+        <td data-cell="الاختصار" role="cell">RIDTPPA</td>
+        <td data-cell="الهيئة" role="cell"><a href="https://riag.ri.gov/" target="_blank">
+          مكتب المدعي العام في رود آيلاند
         </a></td>
-        <td data-cell="Contact" role="cell"><a href="https://riag.ri.gov/about-our-office/contact-us" target="_blank">Contact Page</a></td>
-        <td data-cell="Complaint" role="cell"><a href="https://riag.ri.gov/forms/consumer-complaint" target="_blank">Complaint Link</a></td>
+        <td data-cell="التواصل" role="cell"><a href="https://riag.ri.gov/about-our-office/contact-us" target="_blank">صفحة التواصل</a></td>
+        <td data-cell="الشكوى" role="cell"><a href="https://riag.ri.gov/forms/consumer-complaint" target="_blank">رابط الشكوى</a></td>
       </tr>
-    
-      <!-- United States (Tennessee) -->
+      <!-- الولايات المتحدة (تينيسي) -->
       <tr role="row">
-        <td data-cell="Region" role="rowheader">United States (Tennessee)</td>
-        <td data-cell="Law" role="cell"><a href="https://www.tn.gov/attorneygeneral/news/2025/4/30/pr25-25.html" target="_blank">
-          Tennessee Information Protection Act
+        <td data-cell="المنطقة" role="rowheader">الولايات المتحدة (تينيسي)</td>
+        <td data-cell="القانون" role="cell"><a href="https://www.tn.gov/attorneygeneral/news/2025/4/30/pr25-25.html" target="_blank">
+          قانون حماية المعلومات في تينيسي
         </a></td>
-        <td data-cell="Abbreviation" role="cell">TIPA</td>
-        <td data-cell="DPA" role="cell"><a href="https://www.tn.gov/attorneygeneral/working-for-tennessee/consumer-affairs.html" target="_blank">
-          Office of the Tennessee Attorney General (Division of Consumer Affairs)
+        <td data-cell="الاختصار" role="cell">TIPA</td>
+        <td data-cell="الهيئة" role="cell"><a href="https://www.tn.gov/attorneygeneral/working-for-tennessee/consumer-affairs.html" target="_blank">
+          مكتب المدعي العام في تينيسي (قسم شؤون المستهلك)
         </a></td>
-        <td data-cell="Contact" role="cell"><a href="https://www.tn.gov/attorneygeneral/working-for-tennessee/consumer/contact.html" target="_blank">Contact Page</a></td>
-        <td data-cell="Complaint" role="cell"><a href="https://agtnprod.powerappsportals.us/DCA/" target="_blank">Complaint Link</a></td>
+        <td data-cell="التواصل" role="cell"><a href="https://www.tn.gov/attorneygeneral/working-for-tennessee/consumer/contact.html" target="_blank">صفحة التواصل</a></td>
+        <td data-cell="الشكوى" role="cell"><a href="https://agtnprod.powerappsportals.us/DCA/" target="_blank">رابط الشكوى</a></td>
       </tr>
-    
-      <!-- United States (Texas) -->
+      <!-- الولايات المتحدة (تكساس) -->
       <tr role="row">
-        <td data-cell="Region" role="rowheader">United States (Texas)</td>
-        <td data-cell="Law" role="cell"><a href="https://www.texasattorneygeneral.gov/consumer-protection/file-consumer-complaint/consumer-privacy-rights/texas-data-privacy-and-security-act" target="_blank">
-          Texas Data Privacy and Security Act
+        <td data-cell="المنطقة" role="rowheader">الولايات المتحدة (تكساس)</td>
+        <td data-cell="القانون" role="cell"><a href="https://www.texasattorneygeneral.gov/consumer-protection/file-consumer-complaint/consumer-privacy-rights/texas-data-privacy-and-security-act" target="_blank">
+          قانون خصوصية وأمن البيانات في تكساس
         </a></td>
-        <td data-cell="Abbreviation" role="cell">TDPSA</td>
-        <td data-cell="DPA" role="cell"><a href="https://www.texasattorneygeneral.gov/consumer-protection" target="_blank">
-          Office of the Texas Attorney General (Consumer Protection Division)
+        <td data-cell="الاختصار" role="cell">TDPSA</td>
+        <td data-cell="الهيئة" role="cell"><a href="https://www.texasattorneygeneral.gov/consumer-protection" target="_blank">
+          مكتب المدعي العام في تكساس (قسم حماية المستهلك)
         </a></td>
-        <td data-cell="Contact" role="cell"><a href="https://www.texasattorneygeneral.gov/contact-us" target="_blank">Contact Page</a></td>
-        <td data-cell="Complaint" role="cell"><a href="https://consumerprotection.texasattorneygeneral.gov/consumercomplaintportal/s/" target="_blank">Complaint Link</a></td>
+        <td data-cell="التواصل" role="cell"><a href="https://www.texasattorneygeneral.gov/contact-us" target="_blank">صفحة التواصل</a></td>
+        <td data-cell="الشكوى" role="cell"><a href="https://consumerprotection.texasattorneygeneral.gov/consumercomplaintportal/s/" target="_blank">رابط الشكوى</a></td>
       </tr>
-    
-      <!-- United States (Utah) -->
+      <!-- الولايات المتحدة (يوتا) -->
       <tr role="row">
-        <td data-cell="Region" role="rowheader">United States (Utah)</td>
-        <td data-cell="Law" role="cell"><a href="https://commerce.utah.gov/dcp/ucpa/" target="_blank">
-          Utah Consumer Privacy Act
+        <td data-cell="المنطقة" role="rowheader">الولايات المتحدة (يوتا)</td>
+        <td data-cell="القانون" role="cell"><a href="https://commerce.utah.gov/dcp/ucpa/" target="_blank">
+          قانون خصوصية المستهلك في يوتا
         </a></td>
-        <td data-cell="Abbreviation" role="cell">UCPA</td>
-        <td data-cell="DPA" role="cell"><a href="https://commerce.utah.gov/dcp/" target="_blank">
-          Division of Consumer Protection
+        <td data-cell="الاختصار" role="cell">UCPA</td>
+        <td data-cell="الهيئة" role="cell"><a href="https://commerce.utah.gov/dcp/" target="_blank">
+          قسم حماية المستهلك
         </a></td>
-        <td data-cell="Contact" role="cell"><a href="https://commerce.utah.gov/commerce-contact-list/" target="_blank">Contact Page</a></td>
-        <td data-cell="Complaint" role="cell"><a href="https://commerce.utah.gov/wp-content/uploads/2024/02/Data-Privacy-Complaint-Form-Final_2024-02-22-GM.pdf" target="_blank">Complaint Link</a></td>
+        <td data-cell="التواصل" role="cell"><a href="https://commerce.utah.gov/commerce-contact-list/" target="_blank">صفحة التواصل</a></td>
+        <td data-cell="الشكوى" role="cell"><a href="https://commerce.utah.gov/wp-content/uploads/2024/02/Data-Privacy-Complaint-Form-Final_2024-02-22-GM.pdf" target="_blank">رابط الشكوى</a></td>
       </tr>
-    
-      <!-- United States (Virginia) -->
+      <!-- الولايات المتحدة (فرجينيا) -->
       <tr role="row">
-        <td data-cell="Region" role="rowheader">United States (Virginia)</td>
-        <td data-cell="Law" role="cell"><a href="https://law.lis.virginia.gov/vacodefull/title59.1/chapter53/" target="_blank">
-          Virginia Consumer Data Protection Act
+        <td data-cell="المنطقة" role="rowheader">الولايات المتحدة (فرجينيا)</td>
+        <td data-cell="القانون" role="cell"><a href="https://law.lis.virginia.gov/vacodefull/title59.1/chapter53/" target="_blank">
+          قانون حماية بيانات المستهلك في فرجينيا
         </a></td>
-        <td data-cell="Abbreviation" role="cell">VCDPA</td>
-        <td data-cell="DPA" role="cell"><a href="https://www.oag.state.va.us/consumer-protection/" target="_blank">
-          Office of the Virginia Attorney General (OAG)
+        <td data-cell="الاختصار" role="cell">VCDPA</td>
+        <td data-cell="الهيئة" role="cell"><a href="https://www.oag.state.va.us/consumer-protection/" target="_blank">
+          مكتب المدعي العام في فرجينيا (OAG)
         </a></td>
-        <td data-cell="Contact" role="cell"><a href="https://www.oag.state.va.us/consumer-protection/index.php/get-help/contact-us2" target="_blank">Contact Page</a></td>
-        <td data-cell="Complaint" role="cell"><a href="https://www.oag.state.va.us/consumer-protection/index.php/file-a-complaint" target="_blank">Complaint Link</a></td>
+        <td data-cell="التواصل" role="cell"><a href="https://www.oag.state.va.us/consumer-protection/index.php/get-help/contact-us2" target="_blank">صفحة التواصل</a></td>
+        <td data-cell="الشكوى" role="cell"><a href="https://www.oag.state.va.us/consumer-protection/index.php/file-a-complaint" target="_blank">رابط الشكوى</a></td>
       </tr>
-    
     </tbody>
   </table>
 </div>
 
 <button class="toolbox-button-top">[العودة إلى قائمة الجداول :material-map-search:](#the-directory)</button> <br>
 
-### Oceania
+### أوقيانوسيا
 
 <div class="table-wrapper">
   <table role="table" class="dpadirectory-table table-oceania">
-    <caption role="caption">Data Protection Authority Directory (Oceania)</caption>
+    <caption role="caption">دليل حماية البيانات (أوقيانوسيا)</caption>
 
-    <!-- Table header -->
+    <!-- ترويسة الجدول -->
     <thead>
-    <tr role="row">
-        <th role="column">Region</th>
-        <th role="column" class="table-large-cell">Privacy Law</th>
-        <th role="column">Abbreviation</th>
-        <th role="column" class="table-large-cell">DPA</th>
-        <th role="column">Contact</th>
-        <th role="column">Complaint</th>
+      <tr role="row">
+        <th role="column">المنطقة</th>
+        <th role="column" class="table-large-cell">قانون الخصوصية</th>
+        <th role="column">الاختصار</th>
+        <th role="column" class="table-large-cell">هيئة حماية البيانات</th>
+        <th role="column">التواصل</th>
+        <th role="column">تقديم شكوى</th>
       </tr>
     </thead>
-    
     <tbody role="rowgroup">
-    
-      <!-- Australia -->
+      <!-- أستراليا -->
       <tr role="row">
-        <td data-cell="Region" role="rowheader">Australia</td>
+        <td data-cell="Region" role="rowheader">أستراليا</td>
         <td data-cell="Law" role="cell"><a href="https://www.legislation.gov.au/C2004A03712/latest/text" target="_blank">
-            Privacy Act 1988
+            قانون الخصوصية لعام 1988
         </a></td>
-        <td data-cell="Abbreviation" role="cell">Privacy Act</td>
+        <td data-cell="Abbreviation" role="cell">قانون الخصوصية</td>
         <td data-cell="DPA" role="cell"><a href="https://www.oaic.gov.au" target="_blank">
-            Office of the Australian Information Commissioner (OAIC)
+            مكتب مفوض المعلومات الأسترالي (OAIC)
         </a></td>
-        <td data-cell="Contact" role="cell"><a href="https://www.oaic.gov.au/contact-us" target="_blank">Contact Page</a></td>
-        <td data-cell="Complaint" role="cell"><a href="https://www.oaic.gov.au/privacy/privacy-complaints/lodge-a-privacy-complaint-with-us" target="_blank">Complaint Link</a></td>
+        <td data-cell="Contact" role="cell"><a href="https://www.oaic.gov.au/contact-us" target="_blank">صفحة التواصل</a></td>
+        <td data-cell="Complaint" role="cell"><a href="https://www.oaic.gov.au/privacy/privacy-complaints/lodge-a-privacy-complaint-with-us" target="_blank">رابط الشكوى</a></td>
       </tr>
-    
-      <!-- New Zealand -->
+      <!-- نيوزيلندا -->
       <tr role="row">
-        <td data-cell="Region" role="rowheader">New Zealand</td>
+        <td data-cell="Region" role="rowheader">نيوزيلندا</td>
         <td data-cell="Law" role="cell"><a href="https://www.privacy.org.nz/privacy-principles/" target="_blank">
-          Privacy Act 2020
+          قانون الخصوصية لعام 2020
         </a></td>
         <td data-cell="Abbreviation" role="cell">-</td>
         <td data-cell="DPA" role="cell"><a href="https://www.privacy.org.nz/" target="_blank">
-          Office of the Privacy Commissioner (OPC)
+          مكتب مفوض الخصوصية (OPC)
         </a></td>
-        <td data-cell="Contact" role="cell"><a href="https://www.privacy.org.nz/tuhono-connect/contact-us/" target="_blank">Contact Page</a></td>
-        <td data-cell="Complaint" role="cell"><a href="https://www.privacy.org.nz/your-rights/making-a-complaint-to-the-privacy-commissioner/" target="_blank">Complaint Link</a></td>
+        <td data-cell="Contact" role="cell"><a href="https://www.privacy.org.nz/tuhono-connect/contact-us/" target="_blank">صفحة التواصل</a></td>
+        <td data-cell="Complaint" role="cell"><a href="https://www.privacy.org.nz/your-rights/making-a-complaint-to-the-privacy-commissioner/" target="_blank">رابط الشكوى</a></td>
       </tr>
-    
     </tbody>
   </table>
 </div>
 
 <button class="toolbox-button-top">[العودة إلى قائمة الجداول :material-map-search:](#the-directory)</button> <br>
 
-### South America
+### أمريكا الجنوبية
 
 <div class="table-wrapper">
   <table role="table" class="dpadirectory-table table-southamerica">
-    <caption role="caption">Data Protection Authority Directory (South America)</caption>
+    <caption role="caption">دليل حماية البيانات (أمريكا الجنوبية)</caption>
 
-    <!-- Table header -->
+    ```html
+    <!-- ترويسة الجدول -->
     <thead>
       <tr role="row">
-        <th role="column">Region</th>
-        <th role="column" class="table-large-cell">Privacy Law</th>
-        <th role="column">Abbreviation</th>
-        <th role="column" class="table-large-cell">DPA</th>
-        <th role="column">Contact</th>
-        <th role="column">Complaint</th>
+        <th role="column">المنطقة</th>
+        <th role="column" class="table-large-cell">قانون الخصوصية</th>
+        <th role="column">الاختصار</th>
+        <th role="column" class="table-large-cell">هيئة حماية البيانات</th>
+        <th role="column">التواصل</th>
+        <th role="column">تقديم شكوى</th>
       </tr>
     </thead>
-    
     <tbody role="rowgroup">
-    
-      <!-- Argentina -->
+      <!-- الأرجنتين -->
       <tr role="row">
-        <td data-cell="Region" role="rowheader">Argentina</td>
+        <td data-cell="Region" role="rowheader">الأرجنتين</td>
         <td data-cell="Law" role="cell"><a href="https://www.argentina.gob.ar/normativa/nacional/ley-25326-64790/actualizacion" target="_blank">
-          Personal Data Protection Law
+          قانون حماية البيانات الشخصية
         </a></td>
-        <td data-cell="Abbreviation" role="cell">Law 25.326</td>
+        <td data-cell="Abbreviation" role="cell">القانون 25.326</td>
         <td data-cell="DPA" role="cell"><a href="https://www.argentina.gob.ar/aaip" target="_blank">
-          Agencia de Acceso a la Información Pública (AAIP)
+          وكالة الوصول إلى المعلومات العامة (AAIP)
         </a></td>
-        <td data-cell="Contact" role="cell"><a href="https://www.argentina.gob.ar/aaip/datospersonales" target="_blank">Contact Page</a></td>
-        <td data-cell="Complaint" role="cell"><a href="https://www.argentina.gob.ar/servicio/denunciar-incumplimientos-de-la-ley-de-proteccion-de-datos-personales" target="_blank">Complaint Link</a></td>
+        <td data-cell="Contact" role="cell"><a href="https://www.argentina.gob.ar/aaip/datospersonales" target="_blank">صفحة التواصل</a></td>
+        <td data-cell="Complaint" role="cell"><a href="https://www.argentina.gob.ar/servicio/denunciar-incumplimientos-de-la-ley-de-proteccion-de-datos-personales" target="_blank">رابط الشكوى</a></td>
       </tr>
-    
-      <!-- Brazil -->
+      <!-- البرازيل -->
       <tr role="row">
-        <td data-cell="Region" role="rowheader">Brazil</td>
+        <td data-cell="Region" role="rowheader">البرازيل</td>
         <td data-cell="Law" role="cell"><a href="https://www.gov.br/anpd/pt-br/centrais-de-conteudo/materiais-educativos-e-publicacoes/guia_senacon_ingles.pdf" target="_blank">
-          Lei Geral de Proteção de Dados (General Personal Data Protection Law)
+          القانون العام لحماية البيانات الشخصية (LGPD)
         </a></td>
         <td data-cell="Abbreviation" role="cell">LGPD</td>
         <td data-cell="DPA" role="cell"><a href="https://www.gov.br/anpd/" target="_blank">
-          Autoridade Nacional de Proteção de Dados (ANPD)
+          الهيئة الوطنية لحماية البيانات (ANPD)
         </a></td>
-        <td data-cell="Contact" role="cell"><a href="https://www.gov.br/anpd/pt-br/canais_atendimento/fale-conosco" target="_blank">Contact Page</a></td>
-        <td data-cell="Complaint" role="cell"><a href="https://www.gov.br/anpd/pt-br/canais_atendimento/cidadao-titular-de-dados/denuncia-peticao-de-titular" target="_blank">Complaint Link</a></td>
+        <td data-cell="Contact" role="cell"><a href="https://www.gov.br/anpd/pt-br/canais_atendimento/fale-conosco" target="_blank">صفحة التواصل</a></td>
+        <td data-cell="Complaint" role="cell"><a href="https://www.gov.br/anpd/pt-br/canais_atendimento/cidadao-titular-de-dados/denuncia-peticao-de-titular" target="_blank">رابط الشكوى</a></td>
       </tr>
-    
-      <!-- Colombia -->
+      <!-- كولومبيا -->
       <tr role="row">
-        <td data-cell="Region" role="rowheader">Colombia</td>
+        <td data-cell="Region" role="rowheader">كولومبيا</td>
         <td data-cell="Law" role="cell"><a href="https://sedeelectronica.sic.gov.co/transparencia/normativa/ley-estatutaria-1581-de-2012" target="_blank">
-          Law 1581 of 2012
+          القانون 1581 لعام 2012
         </a></td>
-        <td data-cell="Abbreviation" role="cell">Law 1581</td>
+        <td data-cell="Abbreviation" role="cell">القانون 1581</td>
         <td data-cell="DPA" role="cell"><a href="https://www.sic.gov.co/tema/proteccion-de-datos-personales" target="_blank">
-          Deputy Superintendence for Personal Data Protection of the Superintendence of Industry and Commerce (SIC)
+          المندوبية المساعدة لحماية البيانات الشخصية بهيئة الصناعة والتجارة (SIC)
         </a></td>
-        <td data-cell="Contact" role="cell"><a href="https://www.sic.gov.co/tema/proteccion-de-datos-personales/que-hacemos" target="_blank">Contact Page</a></td>
-        <td data-cell="Complaint" role="cell"><a href="https://servicioslinea.sic.gov.co/servilinea/pqrsf/" target="_blank">Complaint Link</a></td>
+        <td data-cell="Contact" role="cell"><a href="https://www.sic.gov.co/tema/proteccion-de-datos-personales/que-hacemos" target="_blank">صفحة التواصل</a></td>
+        <td data-cell="Complaint" role="cell"><a href="https://servicioslinea.sic.gov.co/servilinea/pqrsf/" target="_blank">رابط الشكوى</a></td>
       </tr>
-    
-      <!-- Peru -->
+      <!-- بيرو -->
       <tr role="row">
-        <td data-cell="Region" role="rowheader">Peru</td>
+        <td data-cell="Region" role="rowheader">بيرو</td>
         <td data-cell="Law" role="cell"><a href="https://www.gob.pe/institucion/anpd/normas-legales/2018427-29733-2011" target="_blank">
-          Ley de Protección de Datos Personales 29733
+          قانون حماية البيانات الشخصية رقم 29733
         </a></td>
-        <td data-cell="Abbreviation" role="cell">Ley No. 29733 </td>
+        <td data-cell="Abbreviation" role="cell">القانون رقم 29733</td>
         <td data-cell="DPA" role="cell"><a href="https://www.gob.pe/institucion/anpd/organizacion" target="_blank">
-          Autoridad Nacional de Protección de Datos Personales (ANPD)
+          الهيئة الوطنية لحماية البيانات الشخصية (ANPD)
         </a></td>
-        <td data-cell="Contact" role="cell"><a href="https://www.gob.pe/institucion/anpd/contacto-y-numeros-de-emergencias" target="_blank">Contact Page</a></td>
-        <td data-cell="Complaint" role="cell"><a href="https://www.gob.pe/9271-denunciar-el-mal-uso-de-datos-personales" target="_blank">Complaint Link</a></td>
+        <td data-cell="Contact" role="cell"><a href="https://www.gob.pe/institucion/anpd/contacto-y-numeros-de-emergencias" target="_blank">صفحة التواصل</a></td>
+        <td data-cell="Complaint" role="cell"><a href="https://www.gob.pe/9271-denunciar-el-mal-uso-de-datos-personales" target="_blank">رابط الشكوى</a></td>
       </tr>
-    
-      <!-- Uruguay -->
+      <!-- أوروغواي -->
       <tr role="row">
-        <td data-cell="Region" role="rowheader">Uruguay</td>
+        <td data-cell="Region" role="rowheader">أوروغواي</td>
         <td data-cell="Law" role="cell"><a href="https://www.impo.com.uy/bases/leyes/18331-2008" target="_blank">
-          Ley de Proteccion de Datos Personales
+          قانون حماية البيانات الشخصية
         </a></td>
-        <td data-cell="Abbreviation" role="cell">Law 18.331</td>
+        <td data-cell="Abbreviation" role="cell">القانون 18.331</td>
         <td data-cell="DPA" role="cell"><a href="https://www.gub.uy/unidad-reguladora-control-datos-personales/" target="_blank">
-          Unidad Reguladora y de Control de Datos Personales (URCDP)
+          وحدة تنظيم ومراقبة البيانات الشخصية (URCDP)
         </a></td>
-        <td data-cell="Contact" role="cell"><a href="https://www.gub.uy/unidad-reguladora-control-datos-personales/institucional/contacto" target="_blank">Contact Page</a></td>
-        <td data-cell="Complaint" role="cell"><a href="https://www.gub.uy/tramites/denuncias-unidad-reguladora-control-datos-personales-urcdp" target="_blank">Complaint Link</a></td>
+        <td data-cell="Contact" role="cell"><a href="https://www.gub.uy/unidad-reguladora-control-datos-personales/institucional/contacto" target="_blank">صفحة التواصل</a></td>
+        <td data-cell="Complaint" role="cell"><a href="https://www.gub.uy/tramites/denuncias-unidad-reguladora-control-datos-personales-urcdp" target="_blank">رابط الشكوى</a></td>
       </tr>
-    
     </tbody>
+    
+    ```
   </table>
 </div>
 
 <button class="toolbox-button-top">[العودة إلى قائمة الجداول :material-map-search:](#the-directory)</button> <br>
 
-## Additional resources
+## مصادر إضافية
 
-- **For EU GDPR**: [Helpful tips on how to proceed with your request or complaint (_NOYB_)](https://noyb.eu/en/helpful-tips)
+- **بخصوص اللائحة العامة لحماية البيانات في الاتحاد الأوروبي (GDPR)**: [نصائح مفيدة حول كيفية متابعة طلبك أو تقديم شكواك (_NOYB_)](https://noyb.eu/en/helpful-tips)
 
-- **For EU GDPR**: [Explanation on the right to lodge a complaint (_NOYB_)](https://noyb.eu/en/your-right-lodge-complaint-article-77)
+- **بخصوص اللائحة العامة لحماية البيانات في الاتحاد الأوروبي (GDPR)**: [توضيح حول الحق في تقديم شكوى (**NOYB**)](https://noyb.eu/en/your-right-lodge-complaint-article-77)
 
-- **For missing regions**[^1]: [Check this Global Privacy Law and DPA Directory (_IAPP_)](https://iapp.org/resources/global-privacy-directory)
+- **بخصوص المناطق غير المدرجة**[^1]: [اطّلع على دليل قوانين الخصوصية وهيئات حماية البيانات العالمية (**IAPP**)](https://iapp.org/resources/global-privacy-directory)
 
-- **For more information on each law**: [To learn more on each regulation, you can consult this useful database (_DLA Piper_)](https://www.dlapiperdataprotection.com/)
+- **لمزيد من المعلومات حول كل قانون**: [لمعرفة المزيد عن كل لائحة، يمكنك مراجعة قاعدة البيانات المفيدة هذه (_DLA Piper_)](https://www.dlapiperdataprotection.com/)
 
-[^1]: Some information from IAPP's Global Privacy Law and DPA Directory might be out-of-date.
+[^1]: قد تكون بعض المعلومات الواردة في دليل قوانين الخصوصية وهيئات حماية البيانات العالمية التابع لمنظمة IAPP غير محدثة.

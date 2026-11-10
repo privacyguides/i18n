@@ -1,6 +1,6 @@
-*[2FA]: المصادقة الثنائية
-*[ADB]: Android Debug Bridge
-*[AOSP]: مشروع أندرويد مفتوح المصدر
+المصادقة الثنائية: المصادقة الثنائية
+Android Debug Bridge: Android Debug Bridge
+Advanced Technology Attachment مشروع أندرويد مفتوح المصدر
 *[ATA]: Advanced Technology Attachment
 *[attack surface]: العدد الإجمالي لنقاط الدخول المحتملة للوصول غير المصرح به إلى النظام
 *[AVB]: Android Verified Boot
