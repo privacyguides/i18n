@@ -388,12 +388,12 @@ cover: activism/banner-activism-dpadirectory.webp
     <!-- Table header -->
     <thead>
       <tr role="row">
-        <th role="column">Region</th>
-        <th role="column" class="table-large-cell">Privacy Law</th>
-        <th role="column">Abbreviation</th>
-        <th role="column" class="table-large-cell">DPA</th>
-        <th role="column">Contact</th>
-        <th role="column">Complaint</th>
+        <th role="column">المنطقة</th>
+        <th role="column" class="table-large-cell">قانون الخصوصية</th>
+        <th role="column">الاختصار</th>
+        <th role="column" class="table-large-cell">هيئة حماية البيانات</th>
+        <th role="column">التواصل</th>
+        <th role="column">تقديم شكوى</th>
       </tr>
     </thead>
     
@@ -401,44 +401,44 @@ cover: activism/banner-activism-dpadirectory.webp
     
       <!-- European Union -->
       <tr role="row">
-        <td data-cell="Region" role="rowheader"><b>European Union</b></td>
+        <td data-cell="Region" role="rowheader"><b>الاتحاد الأوروبي</b></td>
         <td data-cell="Law" role="cell"><a href="https://eur-lex.europa.eu/eli/reg/2018/1725/oj/eng/pdf" target="_blank">
-         Regulation (EC) 2018/1725
+         اللائحة (الاتحاد الأوروبي) 2018/1725
         </a></td>
         <td data-cell="Abbreviation" role="cell">-</td>
         <td data-cell="DPA" role="cell"><a href="https://www.edps.europa.eu/" target="_blank">
-          European Data Protection Supervisor (EDPS)
+          المشرف الأوروبي لحماية البيانات (EDPS)
         </a></td>
-        <td data-cell="Contact" role="cell"><a href="https://www.edps.europa.eu/about-edps/contact_en" target="_blank">Contact Page</a></td>
-        <td data-cell="Complaint" role="cell"><a href="https://www.edps.europa.eu/data-protection/our-role-supervisor/complaints_en" target="_blank">Complaint Link</a></td>
+        <td data-cell="Contact" role="cell"><a href="https://www.edps.europa.eu/about-edps/contact_en" target="_blank">صفحة التواصل</a></td>
+        <td data-cell="Complaint" role="cell"><a href="https://www.edps.europa.eu/data-protection/our-role-supervisor/complaints_en" target="_blank">رابط الشكوى</a></td>
       </tr>
     
       <!-- Austria (European Union) -->
       <tr role="row">
-        <td data-cell="Region" role="rowheader">Austria</td>
+        <td data-cell="Region" role="rowheader">النمسا</td>
         <td data-cell="Law" role="cell"><a href="https://gdpr-info.eu/" target="_blank">
-          General Data Protection Regulation
+          اللائحة العامة لحماية البيانات
         </a></td>
         <td data-cell="Abbreviation" role="cell">GDPR</td>
         <td data-cell="DPA" role="cell"><a href="https://data-protection-authority.gv.at/data-protection-in-austria/duplikat-data-protection-in-austria" target="_blank">
-          Austrian Data Protection Authority (DSB)
+          هيئة حماية البيانات النمساوية (DSB)
         </a></td>
-        <td data-cell="Contact" role="cell"><a href="https://data-protection-authority.gv.at/" target="_blank">Contact Page</a></td>
-        <td data-cell="Complaint" role="cell"><a href="https://data-protection-authority.gv.at/data-protection-in-austria/right-to-lodge-a-complaint" target="_blank">Complaint Link</a></td>
+        <td data-cell="Contact" role="cell"><a href="https://data-protection-authority.gv.at/" target="_blank">صفحة التواصل</a></td>
+        <td data-cell="Complaint" role="cell"><a href="https://data-protection-authority.gv.at/data-protection-in-austria/right-to-lodge-a-complaint" target="_blank">رابط الشكوى</a></td>
       </tr>
     
       <!-- Belgium (European Union) -->
       <tr role="row">
-        <td data-cell="Region" role="rowheader">Belgium</td>
+        <td data-cell="Region" role="rowheader">بلجيكا</td>
         <td data-cell="Law" role="cell"><a href="https://gdpr-info.eu/" target="_blank">
-          General Data Protection Regulation
+          اللائحة العامة لحماية البيانات
         </a></td>
         <td data-cell="Abbreviation" role="cell">GDPR</td>
         <td data-cell="DPA" role="cell"><a href="https://www.dataprotectionauthority.be/citizen" target="_blank">
-          Belgian Data Protection Authority (APD-GBA)
+          هيئة حماية البيانات البلجيكية (APD-GBA)
         </a></td>
-        <td data-cell="Contact" role="cell"><a href="https://www.dataprotectionauthority.be/citizen/actions/contact" target="_blank">Contact Page</a></td>
-        <td data-cell="Complaint" role="cell"><a href="https://www.dataprotectionauthority.be/citizen/actions/lodge-a-complaint" target="_blank">Complaint Link</a></td>
+        <td data-cell="Contact" role="cell"><a href="https://www.dataprotectionauthority.be/citizen/actions/contact" target="_blank">صفحة التواصل</a></td>
+        <td data-cell="Complaint" role="cell"><a href="https://www.dataprotectionauthority.be/citizen/actions/lodge-a-complaint" target="_blank">رابط الشكوى</a></td>
       </tr>
     
       <!-- Bulgaria (European Union) -->

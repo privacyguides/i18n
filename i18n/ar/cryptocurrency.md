@@ -1,24 +1,24 @@
 ---
-meta_title: "Private Cryptocurrency Blockchains - Privacy Guides"
-description: Unlike most cryptocurrencies, these ones provide transaction privacy by default. Monero is our top choice for obfuscating transaction information.
-title: Cryptocurrency
+meta_title: "سلاسل البلوكتشين للعملات الرقمية الخاصة - Privacy Guides"
+description: على عكس معظم العملات الرقمية، توفر هذه العملات خصوصية المعاملات بشكل افتراضي. Monero هو خيارنا الأول لإخفاء تفاصيل المعاملات.
+title: العملات الرقمية
 icon: material/bank-circle
 cover: cryptocurrency.webp
 ---
 
-<small>Protects against the following threat(s):</small>
+<small>يحمي من التهديدات التالية:</small>
 
 - [:material-eye-outline: المراقبة الجماعيّة](basics/common-threats.md#mass-surveillance-programs ""){.pg-blue}
 - [:material-close-outline: الرقابة](basics/common-threats.md#avoiding-censorship ""){.pg-blue-gray}
 
-Making payments online is one of the biggest challenges to privacy. These cryptocurrencies provide transaction privacy by default (something which is **not** guaranteed by the majority of cryptocurrencies), provided you have a strong understanding of how to make private payments effectively. We strongly encourage you first read our payments overview article before making any purchases:
+يُعد الدفع عبر الإنترنت من أكبر التحديات التي تواجه الخصوصية. توفر هذه العملات الرقمية خصوصية المعاملات بشكل افتراضي (وهو أمر **لا** تضمنه معظم العملات الرقمية الأخرى)، بشرط أن تكون لديك معرفة جيدة بكيفية إجراء المدفوعات بطريقة تحافظ على خصوصيتك. ننصحك بشدة بقراءة مقالنا الذي يشرح طرق الدفع أولا، قبل إجراء أي عملية شراء:
 
-[Making Private Payments :material-arrow-right-drop-circle:](advanced/payments.md ""){.md-button}
+[إجراء مدفوعات تحافظ على خصوصيتك :material-arrow-right-drop-circle:](advanced/payments.md ""){.md-button}
 
 <div class="admonition danger" markdown>
-<p class="admonition-title">Danger</p>
+<p class="admonition-title">تحذير</p>
 
-Many if not most cryptocurrency projects are scams. أجرِ معاملاتك بحذر، ولا تستخدم إلا مشاريع العملات الرقمية التي تثق بها.
+الكثير من مشاريع العملات الرقمية، إن لم يكن معظمها، عبارة عن عمليات احتيال. أجرِ معاملاتك بحذر، ولا تستخدم إلا مشاريع العملات الرقمية التي تثق بها.
 
 </div>
 
@@ -28,7 +28,7 @@ Many if not most cryptocurrency projects are scams. أجرِ معاملاتك ب
 
 ![Monero logo](assets/images/cryptocurrency/monero.svg){ align=right }
 
-**Monero** uses a blockchain with privacy-enhancing technologies that obfuscate transactions to achieve [:material-incognito: Anonymity](basics/common-threats.md#anonymity-vs-privacy){ .pg-purple }. Every Monero transaction hides the transaction amount, sending and receiving addresses, and source of funds without any hoops to jump through, making it an ideal choice for cryptocurrency novices.
+تستخدم **Monero** سلسلة بلوكتشين تعتمد على تقنيات لتعزيز الخصوصية وإخفاء تفاصيل المعاملات، بهدف تحقيق [:material-incognito: إخفاء الهوية](basics/common-threats.md#anonymity-vs-privacy){ .pg-purple }. تُخفي كل معاملة باستخدام Monero المبلغ المُرسَل، وعنواني المُرسِل والمُستلِم، ومصدر الأموال، دون الحاجة إلى أي خطوات إضافية، مما يجعلها خيارا مثاليا للمبتدئين في استخدام العملات الرقمية.
 
 [:octicons-home-16: Homepage](https://getmonero.org){ .md-button .md-button--primary }
 [:octicons-info-16:](https://getmonero.org/resources/user-guides){ .card-link title=Documentation}
@@ -39,41 +39,41 @@ Many if not most cryptocurrency projects are scams. أجرِ معاملاتك ب
 
 </div>
 
-With Monero, outside observers cannot decipher addresses trading Monero, transaction amounts, address balances, or transaction histories.
+مع Monero، لا يستطيع أي شخص يراقب المعاملات من الخارج معرفة العناوين التي تُرسل وتستقبل الـ Monero، أو مبالغ المعاملات، أو أرصدة العناوين، أو سجل معاملاتها.
 
 <details class="info" markdown>
-<summary>Monero's resilience to mass surveillance</summary>
+<summary>قدرة Monero على مقاومة المراقبة الجماعية</summary>
 
-In August 2021, CipherTrace [announced](https://web.archive.org/web/20240223224846/https://ciphertrace.com/enhanced-monero-tracing) enhanced Monero tracing capabilities for government agencies. Public postings show that the US Department of the Treasury's Financial Crimes Enforcement Network [licensed](https://sam.gov/opp/d12cbe9afbb94ca68006d0f006d355ac/view) CipherTrace's "Monero Module" in late 2022.
+في أغسطس 2021، [أعلنت](https://web.archive.org/web/20240223224846/https://ciphertrace.com/enhanced-monero-tracing) CipherTrace عن تطوير قدراتها على تتبّع معاملات Monero لصالح الجهات الحكومية. تُظهر السجلات المنشورة علنا أن شبكة مكافحة الجرائم المالية (FinCEN) التابعة لوزارة الخزانة الأمريكية حصلت على [ترخيص](https://sam.gov/opp/d12cbe9afbb94ca68006d0f006d355ac/view) لاستخدام أداة "Monero Module" من شركة CipherTrace في أواخر عام 2022.
 
-Monero transaction graph privacy is limited by its relatively small ring signatures, especially against targeted attacks. Monero's privacy features have also been [called into question](https://web.archive.org/web/20180331203053/https://wired.com/story/monero-privacy) by some security researchers, and a number of severe vulnerabilities have been found and patched in the past, so the claims made by organizations like CipherTrace are not out of the question. While it's unlikely that Monero mass surveillance tools exist like they do for Bitcoin and others, it's certain that tracing tools assist with targeted investigations.
+تظل خصوصية تتبّع مسار المعاملات في Monero محدودة بسبب صغر حجم الـ (Ring Signatures) نسبيا، خاصةً عند التعرض لهجمات تستهدف معاملات بعينها. أثار بعض الباحثين الأمنيين أيضا [تساؤلات](https://web.archive.org/web/20180331203053/https://wired.com/story/monero-privacy) حول مدى فعالية ميزات الخصوصية في Monero، وقد اكتُشفت فيها عدة ثغرات أمنية خطيرة في الماضي وأُصلحت لاحقًا. لذلك، لا يمكن استبعاد صحة ادعاءات جهات مثل CipherTrace. رغم أنه من غير المرجّح وجود أدوات للمراقبة الجماعية لمعاملات Monero مثل تلك المتاحة لتتبع Bitcoin وغيرها من العملات الرقمية، فمن المؤكد أن أدوات التتبع تساعد في التحقيقات التي تستهدف أشخاصا أو معاملات محددة.
 
-Ultimately, Monero is the strongest contender for a privacy-friendly cryptocurrency, but its privacy claims have **not** been definitively proven one way or the other. More time and research is needed to assess whether Monero is resilient enough to attacks to always provide adequate privacy.
+في النهاية، تظل Monero من أقوى العملات الرقمية التي تركز على الخصوصية، لكن **لم** يُثبت بشكل قاطع حتى الآن مدى صحة ادعاءاتها المتعلقة بالخصوصية أو عدم صحتها. ما زلنا بحاجة إلى مزيد من الوقت والأبحاث لتقييم ما إذا كانت Monero قادرة على مقاومة الهجمات بدرجة تكفي لتوفير مستوى مناسب من الخصوصية في جميع الحالات.
 
 </details>
 
-### Monero wallets
+### محافظ Monero
 
-For optimal privacy, make sure to use a self-custody wallet where the [view key](https://getmonero.org/resources/moneropedia/viewkey.html) stays on the device. This means that only you will have the ability to spend your funds and see incoming and outgoing transactions. If you use a custodial wallet, the provider can see **everything** you do; if you use a “lightweight” wallet where the provider retains your view key, the provider can see almost everything you do (but not spend your funds). Some self-custody wallets where the view key does not leave your device include:
+للحفاظ على أفضل مستوى ممكن من الخصوصية، احرص على استخدام محفظة تتحكم فيها بنفسك (Self-Custody Wallet)، ويظل فيها [مفتاح العرض (View Key)](https://getmonero.org/resources/moneropedia/viewkey.html) محفوظا على جهازك. هذا يعني أنك وحدك من يستطيع إنفاق أموالك والاطلاع على المعاملات الواردة والصادرة. إذا استخدمت محفظة تديرها جهة أخرى (Custodial Wallet)، فسيكون بإمكان مزوّد الخدمة الاطلاع على **كل** ما تفعله. أما إذا استخدمت محفظة خفيفة (Lightweight Wallet) يحتفظ فيها مزود الخدمة بمفتاح العرض (View Key) الخاص بك، فسيتمكن من الاطلاع على معظم نشاطك تقريبا، لكنه لن يستطيع إنفاق أموالك. من المحافظ التي تتحكم فيها بنفسك (Self-Custody Wallets)، والتي لا يغادر فيها مفتاح العرض (View Key) جهازك:
 
 - [Official Monero client](https://getmonero.org/downloads) (Desktop)
 - [Cake Wallet](https://cakewallet.com) (iOS, Android, Desktop)
-    - Cake Wallet supports multiple cryptocurrencies. A Monero-only version of Cake Wallet for iOS and Android is available at [Monero.com](https://monero.com).
+    - تدعم Cake Wallet عدة عملات رقمية. تتوفر نسخة من Cake Wallet مخصصة لعملة Monero فقط لأجهزة iOS وAndroid عبر [Monero.com](https://monero.com).
 - [Feather Wallet](https://featherwallet.org) (Desktop)
 - [Monerujo](https://monerujo.io) (Android)
 
-### Monero nodes
+### عُقد شبكة Monero
 
-For maximum privacy (even with a self-custody wallet), you should run your own Monero node called the [Monero daemon](https://docs.getmonero.org/interacting/monerod-reference), which is included in the [CLI wallet](https://getmonero.org/downloads/#cli). Using another person’s node will expose some information to them, such as the IP address that you connect to it from, the timestamps that you sync your wallet, and the transactions that you send from your wallet (though no other details about those transactions). Alternatively, you can connect to someone else’s Monero node over [Tor](alternative-networks.md#tor), [I2P](alternative-networks.md#i2p-the-invisible-internet-project), or a [VPN](vpn.md).
+للحصول على أقصى قدر من الخصوصية (حتى عند استخدام محفظة تتحكم فيها بنفسك)، يُنصح بتشغيل عقدة Monero خاصة بك، تُسمّى [Monero daemon](https://docs.getmonero.org/interacting/monerod-reference)، وهي مُضمّنة في محفظة [سطر الأوامر (CLI Wallet)](https://getmonero.org/downloads/#cli). عند استخدام عقدة يملكها شخص آخر، سيتمكن هذا الشخص من معرفة بعض المعلومات عنك، مثل عنوان IP الذي تتصل منه بالعقدة (node)، وأوقات مزامنة محفظتك، والمعاملات التي ترسلها منها (لكن دون معرفة أي تفاصيل أخرى عن تلك المعاملات). بدلا من ذلك، يمكنك الاتصال بعقدة Monero يملكها شخص آخر عبر [Tor](alternative-networks.md#tor) أو [I2P](alternative-networks.md#i2p-the-invisible-internet-project) أو [VPN](vpn.md).
 
-### Buying Monero
+### شراء Monero
 
-[General tips for acquiring Monero](advanced/payments.md#acquisition ""){.md-button}
+[نصائح عامة للحصول على Monero](advanced/payments.md#acquisition ""){.md-button}
 
-There are numerous centralized exchanges (CEX) as well as P2P marketplaces where you can buy and sell Monero. Some of them require identifying yourself (KYC) to comply with anti-money laundering regulations. However, due to Monero's privacy features, the only thing known to the seller is *that* you bought Monero, but not how much you own or where you spend it (after it leaves the exchange). Some reputable places to buy Monero include:
+توجد العديد من منصات التداول المركزية (CEX)، بالإضافة إلى أسواق التداول المباشر بين الأفراد (P2P)، التي يمكنك من خلالها شراء Monero وبيعها. تطلب بعض هذه المنصات التحقق من هويتك (KYC) للامتثال للوائح مكافحة غسل الأموال. لكن بفضل ميزات الخصوصية في Monero، لا يستطيع البائع معرفة *سوى* أنك اشتريت Monero، دون أن يعرف إجمالي ما تملكه منها أو أين تنفقها بعد سحبها من منصة التداول. من الجهات الموثوقة التي يمكنك شراء Monero من خلالها:
 
-- [Kraken](https://kraken.com): A well-known CEX. Registration and KYC are mandatory. Card payments and bank transfers accepted. Make sure not to leave your newly purchased Monero on Kraken's platform after the purchase; withdraw them to a self-custody wallet. Monero is not available in all jurisdictions that Kraken operates in.[^1]
-- [Cake Wallet](https://cakewallet.com): A self-custody cross-platform wallet for Monero and other cryptocurrencies. You can buy Monero directly in the app using card payments or bank transfers (through third-party providers such as [Guardarian](https://guardarian.com) or [DFX](https://dfx.swiss)).[^2] KYC is usually not required, but it depends on your country and the amount you are purchasing. In countries where directly purchasing Monero is not possible, you can also use a provider within Cake Wallet to first buy another cryptocurrency such as Bitcoin, Bitcoin Cash, or Litecoin and then exchange it to Monero in-app.
+- [Kraken](https://kraken.com): منصة تداول مركزية (CEX) معروفة. التسجيل والتحقق من الهوية (KYC) إلزاميان. تُقبل المدفوعات بالبطاقات البنكية والتحويلات المصرفية. احرص على عدم ترك عملات Monero التي اشتريتها على منصة Kraken بعد الشراء، بل اسحبها إلى محفظة تتحكم فيها بنفسك (Self-Custody Wallet). عملة Monero غير متاحة في جميع الدول والمناطق التي تعمل فيها منصة Kraken.[^1]
+- محفظة [Cake Wallet](https://cakewallet.com): محفظة تتحكم فيها بنفسك، تدعم Monero وعملات رقمية أخرى، وتعمل على أنظمة تشغيل متعددة. You can buy Monero directly in the app using card payments or bank transfers (through third-party providers such as [Guardarian](https://guardarian.com) or [DFX](https://dfx.swiss)).[^2] KYC is usually not required, but it depends on your country and the amount you are purchasing. In countries where directly purchasing Monero is not possible, you can also use a provider within Cake Wallet to first buy another cryptocurrency such as Bitcoin, Bitcoin Cash, or Litecoin and then exchange it to Monero in-app.
     - [Monero.com](https://monero.com) is an associated website where you can buy Monero and other cryptocurrencies without having to download an app. The funds will simply be sent to the wallet address of your choice.
 
 ## Criteria
