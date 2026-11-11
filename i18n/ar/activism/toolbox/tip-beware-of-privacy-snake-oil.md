@@ -49,7 +49,7 @@ cover: activism/banner-toolbox-tip-snakeoil.webp
 
 - [**Conflict of interest**](https://www.privacyguides.org/articles/2025/09/03/red-and-green-privacy-flags/#conflict-of-interest): Is the source that is telling you this product is trustworthy independent of the company or parent-company that owns this product؟
 
-- [المراجعات المتحيزة](https://www.privacyguides.org/articles/2025/09/03/red-and-green-privacy-flags/#fake-reviews): هل المراجعة التي توصي بهذا المنتج مستقلة فعلًا، أم أنها حصلت على أموال مقابل الترويج له؟ هل أُنشئت المراجعة باستخدام الذكاء الاصطناعي؟
+- [**المراجعات المتحيزة**](https://www.privacyguides.org/articles/2025/09/03/red-and-green-privacy-flags/#fake-reviews): هل المراجعة التي توصي بهذا المنتج مستقلة فعلًا، أم أنها حصلت على أموال مقابل الترويج له؟ هل أُنشئت المراجعة باستخدام الذكاء الاصطناعي؟
 
 - [**شهادات وتأكيدات بلا قيمة**](https://www.privacyguides.org/articles/2025/09/03/red-and-green-privacy-flags/#meaningless-privacy-compliance-badges): هل توجد مصادر خارجية تدعم ادعاءات المؤسسة بأنها تلتزم بقوانين الخصوصية وتستحق الثقة، أم أن هذه الادعاءات صادرة عن المؤسسة نفسها فقط؟
 
@@ -59,24 +59,24 @@ cover: activism/banner-toolbox-tip-snakeoil.webp
 
 - [**ادعاءات غير واقعية**](https://www.privacyguides.org/articles/2025/09/03/red-and-green-privacy-flags/#unverifiable-and-unrealistic-promises): هل الادعاءات المتعلقة بالخصوصية واقعية فعلًا؟ لا يمكن لأي شيء أن يضمن الخصوصية أو الأمان بنسبة 100%. المنتج الجدير بالثقة سيوضح لك حدوده ويحذرك منها بشكل معقول.
 
-- [**غياب آلية لحذف البيانات**](https://www.privacyguides.org/articles/2025/09/03/red-and-green-privacy-flags/#flawed-or-absent-process-for-data-deletion): هل يوفر هذا المنتج أو الخدمة طريقة واضحة لحذف بياناتك عند طلب ذلك؟ How much of your data can you delete, and how quickly can you delete it if you wanted to stop using this service tomorrow?
+- [**غياب آلية لحذف البيانات**](https://www.privacyguides.org/articles/2025/09/03/red-and-green-privacy-flags/#flawed-or-absent-process-for-data-deletion): هل يوفر هذا المنتج أو الخدمة طريقة واضحة لحذف بياناتك عند طلب ذلك؟ ما مقدار البيانات التي يمكنك حذفها، وما مدى سرعة حذفها إذا قررت التوقف عن استخدام هذه الخدمة غدا؟
 
-- [**Untested technologies**](https://www.privacyguides.org/articles/2025/09/03/red-and-green-privacy-flags/#new-and-untested-technologies): Has this technology been tested by experts before? Are there any _external_ parties who have verified its claims?
+- [**تقنيات لم تُختبر**](https://www.privacyguides.org/articles/2025/09/03/red-and-green-privacy-flags/#new-and-untested-technologies): هل سبق أن اختبر الخبراء هذه التقنية؟ هل توجد أي جهات _مستقلة_ تحققت من صحة ادعاءاتها؟
 
-- [**Bad reputation**](https://www.privacyguides.org/articles/2025/09/03/red-and-green-privacy-flags/#critics-from-experts): What are privacy and security experts saying about this product or organization? Was the product or organization subjected to multiple critiques from privacy experts? Has the organization ever been impacted by major data breaches?
+- [_سمعة سيئة_](https://www.privacyguides.org/articles/2025/09/03/red-and-green-privacy-flags/#critics-from-experts): ماذا يقول خبراء الخصوصية والأمان عن هذا المنتج أو المؤسسة؟ هل تعرض هذا المنتج أو هذه المؤسسة لانتقادات متكررة من خبراء الخصوصية؟ هل سبق أن تعرضت المؤسسة لاختراقات كبيرة للبيانات؟
 
 </div>
 
-## How to trust privacy tools and services
+## كيف تعرف إن كانت أدوات وخدمات الخصوصية جديرة بالثقة؟
 
-You should never _completely_ trust a product, service, or organization. Additionally, your trust should always be revocable, and you should revoke it when new information comes to light that warrants it. Even privacy professional sources that you trust might not always be up-to-date.
+لا ينبغي أن تثق ثقة _مطلقة_ بأي منتج أو خدمة أو مؤسسة. بالإضافة إلى ذلك، يجب أن تكون مستعدا دائما للتراجع عن ثقتك، وأن تفعل ذلك إذا ظهرت معلومات جديدة تستدعي ذلك. حتى المصادر المتخصصة في الخصوصية التي تثق بها قد لا تكون معلوماتها محدثة دائما.
 
-Things can change quickly in the tech world, and we must all be prepared to revoke our trust and adapt quickly when required.
+قد تتغير الأمور بسرعة في عالم التقنية، وعلينا جميعا أن نكون مستعدين للتراجع عن ثقتنا والتكيّف بسرعة عند الحاجة.
 
-With that in mind, here are some green flags you can keep in mind when evaluating a privacy tool, service, or organization:
+مع وضع ذلك في الاعتبار، إليك بعض العلامات الإيجابية التي يمكنك البحث عنها عند تقييم أي أداة أو خدمة أو مؤسسة تهتم بحماية الخصوصية:
 
 <style>
-.emoji-list-b ul {
+emoji-list-b ul {
   list-style: none;
 }
 .md-typeset .emoji-list-b ul li {
@@ -97,28 +97,28 @@ With that in mind, here are some green flags you can keep in mind when evaluatin
 
 <div class="emoji-list-b" markdown>
 
-- [**Good reputation**](https://www.privacyguides.org/articles/2025/09/03/red-and-green-privacy-flags/#reputation-history): What are privacy and security experts saying about this product or organization? Does the product or organization have a good reputation within the field?
+- [_سمعة جيدة_](https://www.privacyguides.org/articles/2025/09/03/red-and-green-privacy-flags/#reputation-history): ماذا يقول خبراء الخصوصية والأمان عن هذا المنتج أو المؤسسة؟ هل يتمتع هذا المنتج أو هذه المؤسسة بسمعة جيدة في المجال؟
 
-- [**Access to evidence**](https://www.privacyguides.org/articles/2025/09/03/red-and-green-privacy-flags/#verifiable-claims): Are you able to verify the privacy claims from independent sources that aren't related to the business itself?
+- [_توفر أدلة يمكن التحقق منها_](https://www.privacyguides.org/articles/2025/09/03/red-and-green-privacy-flags/#verifiable-claims): هل يمكنك التحقق من صحة الادعاءات المتعلقة بالخصوصية من خلال مصادر مستقلة لا علاقة لها بالشركة نفسها؟
 
-- [**Independent review**](https://www.privacyguides.org/articles/2025/09/03/red-and-green-privacy-flags/#independent-reviews): Was the product reviewed by an independent third-party who had significant access to test the product in a meaningful way?
+- [**مراجعة مستقلة**](https://www.privacyguides.org/articles/2025/09/03/red-and-green-privacy-flags/#independent-reviews): هل راجعت المنتج جهة خارجية مستقلة، وأُتيح لها الوصول إلى ما يكفي من تفاصيل المنتج لاختباره بشكل فعال؟
 
-- [**Transparency**](https://www.privacyguides.org/articles/2025/09/03/red-and-green-privacy-flags/#transparency): Can you easily find detailed information about what data this organization collects, and how it processes and shares it? Would an independent expert have access to its software code to inspect it?
+- [**الشفافية**](https://www.privacyguides.org/articles/2025/09/03/red-and-green-privacy-flags/#transparency): هل يمكنك بسهولة العثور على معلومات مفصلة عن البيانات التي تجمعها هذه المؤسسة، وكيف تعالجها وتشاركها مع الآخرين؟ هل يمكن لخبير مستقل الاطلاع على الـ Source Code للبرنامج وفحصه؟
 
-- [**Clear funding model**](https://www.privacyguides.org/articles/2025/09/03/red-and-green-privacy-flags/#clear-funding-model): How does this organization make money? If it's free to use, does this organization rely on donations or grants? Is the product sold to users or to businesses? Where does the money come from?
+- [**نموذج تمويل واضح**](https://www.privacyguides.org/articles/2025/09/03/red-and-green-privacy-flags/#clear-funding-model): كيف تجني هذه المؤسسة المال؟ إذا كانت الخدمة مجانية، فهل تعتمد المؤسسة على التبرعات أو المنح لتمويلها؟ هل يباع المنتج للمستخدمين الأفراد أم للشركات؟ من أين تأتي الأموال؟
 
-- [**Availability**](https://www.privacyguides.org/articles/2025/09/03/red-and-green-privacy-flags/#availability): Could you easily contact this organization if you needed to? Can you find an email address dedicated to privacy requests and questions? Can you find where the organization is located? Would you have access to at least two different ways to contact it?
+- [**سهولة التواصل**](https://www.privacyguides.org/articles/2025/09/03/red-and-green-privacy-flags/#availability): هل يمكنك التواصل مع هذه المؤسسة بسهولة إذا احتجت إلى ذلك؟ هل يمكنك العثور على عنوان بريد إلكتروني مخصص لطلبات الخصوصية والاستفسارات المتعلقة بها؟ هل يمكنك معرفة مكان وجود المؤسسة؟ هل تتوفر لك طريقتان مختلفتان على الأقل للتواصل معها؟
 
-- [**Expert recommendation**](https://www.privacyguides.org/articles/2025/09/03/red-and-green-privacy-flags/#expert-advice): Is this product recommended by independent privacy experts and nonprofit digital rights organizations?
+- [**توصية الخبراء**](https://www.privacyguides.org/articles/2025/09/03/red-and-green-privacy-flags/#expert-advice): هل يوصي بهذا المنتج خبراء مستقلون في الخصوصية ومنظمات غير ربحية تدافع عن الحقوق الرقمية؟
 
 </div>
 
-## More resources
+## المزيد من المصادر
 
-- [Tool recommendations vetted by our community (_Privacy Guides_)](../../tools.md)
+- [أدوات موصى بها بعد مراجعتها من مجتمعنا (_Privacy Guides_)](../../tools.md)
 
-- [Extensive guide on how to evaluate better privacy tools and organizations (_Privacy Guides_)](https://www.privacyguides.org/articles/2025/09/03/red-and-green-privacy-flags/)
+- [دليل شامل حول كيفية تقييم أدوات ومؤسسات حماية الخصوصية بشكل أفضل (_Privacy Guides_)](https://www.privacyguides.org/articles/2025/09/03/red-and-green-privacy-flags/)
 
-- [Privacy washing is a dirty business (_Privacy Guides_)](https://www.privacyguides.org/articles/2025/08/20/privacy-washing-is-a-dirty-business/)
+- [التضليل بشأن الخصوصية تجارة قذرة (_Privacy Guides_)](https://www.privacyguides.org/articles/2025/08/20/privacy-washing-is-a-dirty-business/)
 
-- [Understanding encryption and end-to-end encryption (_Privacy Guides_ video)](https://www.privacyguides.org/videos/2025/04/03/is-your-data-really-safe-understanding-encryption/)
+- [فهم التشفير وEnd-to-End Encryption (فيديو من Privacy Guides)](https://www.privacyguides.org/videos/2025/04/03/is-your-data-really-safe-understanding-encryption/)

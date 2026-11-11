@@ -1,11 +1,11 @@
 ---
 title: ضع في حسبانك تباين الظروف لكل فرد
-description: To give actionable privacy advice, it's essential to consider everyone's situation. Learn more on how you can evaluate each person's unique threat model.
+description: لتقديم نصائح عملية لحماية الخصوصية، من الضروري مراعاة ظروف كل شخص. تعرّف على كيفية تقييم الـ Threat Model الخاص بكل شخص، مع مراعاة ظروفه واحتياجاته المختلفة.
 icon: fontawesome/solid/users-between-lines
 cover: activism/banner-toolbox-tip-everyone.webp
 ---
 
-Everyone has different needs, and everyone faces different dangers when their personal data gets exposed.
+تختلف احتياجات كل شخص عن الآخر، كما تختلف المخاطر التي قد يتعرض لها عند كشف بياناته الشخصية.
 
 To give actionable privacy advices and recommendations, it's essential to **keep in mind everyone's situation**. There isn't a one-size-fits-all approach when it comes to data privacy.
 
