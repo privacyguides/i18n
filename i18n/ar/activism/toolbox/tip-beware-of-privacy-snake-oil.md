@@ -1,6 +1,6 @@
 ---
 title: كيف تحمي نفسك من وعود الخصوصية الكاذبة
-description: In your privacy advocacy, it's important to recommend tools that reliably protect your and other people's privacy. Learn how to evaluate privacy claims.
+description: عند الدفاع عن الخصوصية، من المهم أن توصي بأدوات يمكن الاعتماد عليها لحماية خصوصيتك وخصوصية الآخرين. تعلم كيف تقيم الادعاءات المتعلقة بالخصوصية.
 icon: fontawesome/solid/skull-crossbones
 cover: activism/banner-toolbox-tip-snakeoil.webp
 ---
@@ -9,21 +9,21 @@ cover: activism/banner-toolbox-tip-snakeoil.webp
 
 اكتشف المزيد حول كيفية التأكد من وعود الخصوصية، لكي تتمكن من اختيار واقتراح الأدوات التي تستحق الثقة فعلا:
 
-## Why is there so much privacy snake oil?
+## لماذا تنتشر كل هذه الأدوات التي تدعي حماية الخصوصية دون أن تفي بوعودها؟
 
-Regrettably, it's quite common to see businesses using privacy promises as a mere marketing strategy to reassure understandingly concerned users. But many aren't genuinely doing the work to make these promises come true.
+للأسف، من الشائع أن تستغل الشركات وعود حماية الخصوصية كوسيلة تسويقية لطمأنة المستخدمين الذين لديهم مخاوف مفهومة بشأن خصوصيتهم. لكن الكثير من هذه الشركات لا تبذل جهدا حقيقيا للوفاء بهذه الوعود.
 
-Many businesses want to have their cake and eat it too, by attracting users with false promises of privacy while exploiting their data for profit all the while. Other times, failure to meet privacy promises simply comes from incompetence or negligence.
+تريد شركات كثيرة الاستفادة من الأمرين معا: جذب المستخدمين بوعود زائفة بحماية الخصوصية، وفي الوقت نفسه استغلال بياناتهم لتحقيق الأرباح. وفي أحيان أخرى، يكون عدم الوفاء بوعود حماية الخصوصية مجرد نتيجة لعدم الكفاءة أو الإهمال.
 
-Misleadingly, or fraudulently, presenting a product, service, or organization as being responsible and trustworthy with data privacy when it isn't is called "[privacy washing](https://www.privacyguides.org/articles/2025/08/20/privacy-washing-is-a-dirty-business/)."
+يُطلق مصطلح [privacy washing](https://www.privacyguides.org/articles/2025/08/20/privacy-washing-is-a-dirty-business/) على تقديم منتج أو خدمة أو مؤسسة على أنها تحترم خصوصية البيانات ويمكن الوثوق بها، رغم أن الواقع غير ذلك، سواء كان هذا التضليل متعمدا أو احتياليا.
 
-There are many things you can learn to become more resistant to privacy washing, and become better at using and recommending genuinely privacy-preserving technologies.
+هناك أمور كثيرة يمكنك تعلمها لتصبح أكثر قدرة على اكتشاف الادعاءات المضللة بشأن الخصوصية، وأفضل في استخدام التقنيات التي تحمي الخصوصية فعلًا والتوصية بها.
 
-## How to spot privacy snake oil
+## كيف تكتشف الأدوات التي تدعي حماية الخصوصية دون أن تفي بوعودها
 
-Never trust any privacy claims at face value.
+لا تصدق أي ادعاءات تتعلق بالخصوصية دون التحقق من صحتها.
 
-Here are some red flags you should always keep in mind when evaluating a privacy tool, service, or organization:
+إليك بعض العلامات التحذيرية التي يجب أن تنتبه إليها دائما عند تقييم أي أداة أو خدمة أو مؤسسة تدعي حماية الخصوصية:
 
 <style>
 .emoji-list-a ul {
@@ -49,17 +49,17 @@ Here are some red flags you should always keep in mind when evaluating a privacy
 
 - [**Conflict of interest**](https://www.privacyguides.org/articles/2025/09/03/red-and-green-privacy-flags/#conflict-of-interest): Is the source that is telling you this product is trustworthy independent of the company or parent-company that owns this product؟
 
-- [**Biased reviews**](https://www.privacyguides.org/articles/2025/09/03/red-and-green-privacy-flags/#fake-reviews): Is the review recommending this product truly independent, or has it received sponsorship money? Was the review AI-generated?
+- [المراجعات المتحيزة](https://www.privacyguides.org/articles/2025/09/03/red-and-green-privacy-flags/#fake-reviews): هل المراجعة التي توصي بهذا المنتج مستقلة فعلًا، أم أنها حصلت على أموال مقابل الترويج له؟ هل أُنشئت المراجعة باستخدام الذكاء الاصطناعي؟
 
-- [**Meaningless attestations**](https://www.privacyguides.org/articles/2025/09/03/red-and-green-privacy-flags/#meaningless-privacy-compliance-badges): Are claims of privacy law compliance or trustworthiness supported by external sources, or do they only come from the organization itself?
+- [**شهادات وتأكيدات بلا قيمة**](https://www.privacyguides.org/articles/2025/09/03/red-and-green-privacy-flags/#meaningless-privacy-compliance-badges): هل توجد مصادر خارجية تدعم ادعاءات المؤسسة بأنها تلتزم بقوانين الخصوصية وتستحق الثقة، أم أن هذه الادعاءات صادرة عن المؤسسة نفسها فقط؟
 
 - [**Buzzword language**](https://www.privacyguides.org/articles/2025/09/03/red-and-green-privacy-flags/#buzzword-language): Is the advertising and description of the product using a lot of privacy buzzwords like "military-grade encryption" or "AI-powered"؟
 
-- [**Unsupported claims**](https://www.privacyguides.org/articles/2025/09/03/red-and-green-privacy-flags/#checkbox-compliance-and-copy-paste-policies): Are the product's claims supported by documentation and detailed descriptions? It's not enough to write "end-to-end encrypted." This claim should be supported by a detailed account of _how_ the data is end-to-end encrypted, including which protocols and algorithms it is using.
+- [**ادعاءات بلا أدلة**](https://www.privacyguides.org/articles/2025/09/03/red-and-green-privacy-flags/#checkbox-compliance-and-copy-paste-policies): هل توجد وثائق وشروحات مفصّلة تدعم ادعاءات المنتج؟ لا يكفي مجرد كتابة «End-to-End Encryption». يجب أن يكون هذا الادعاء مدعوما بشرح مفصل يوضح _كيف_ تُشفر البيانات باستخدام End-to-End Encryption، بما في ذلك البروتوكولات والخوارزميات المستخدمة.
 
-- [**Unrealistic claims**](https://www.privacyguides.org/articles/2025/09/03/red-and-green-privacy-flags/#unverifiable-and-unrealistic-promises): Are the privacy claims being made realistic? Nothing can be 100% private or 100% secure. A trustworthy product will give you reasonable warnings about its limitations.
+- [**ادعاءات غير واقعية**](https://www.privacyguides.org/articles/2025/09/03/red-and-green-privacy-flags/#unverifiable-and-unrealistic-promises): هل الادعاءات المتعلقة بالخصوصية واقعية فعلًا؟ لا يمكن لأي شيء أن يضمن الخصوصية أو الأمان بنسبة 100%. المنتج الجدير بالثقة سيوضح لك حدوده ويحذرك منها بشكل معقول.
 
-- [**Lack of deletion process**](https://www.privacyguides.org/articles/2025/09/03/red-and-green-privacy-flags/#flawed-or-absent-process-for-data-deletion): Does this product or service offer a clear process to delete your data upon request? How much of your data can you delete, and how quickly can you delete it if you wanted to stop using this service tomorrow?
+- [**غياب آلية لحذف البيانات**](https://www.privacyguides.org/articles/2025/09/03/red-and-green-privacy-flags/#flawed-or-absent-process-for-data-deletion): هل يوفر هذا المنتج أو الخدمة طريقة واضحة لحذف بياناتك عند طلب ذلك؟ How much of your data can you delete, and how quickly can you delete it if you wanted to stop using this service tomorrow?
 
 - [**Untested technologies**](https://www.privacyguides.org/articles/2025/09/03/red-and-green-privacy-flags/#new-and-untested-technologies): Has this technology been tested by experts before? Are there any _external_ parties who have verified its claims?
 
