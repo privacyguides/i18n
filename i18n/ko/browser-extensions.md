@@ -13,17 +13,17 @@ cover: browser-extensions.webp
 
 하지만 일부 확장 프로그램은 특정 상황, 특히 [콘텐츠 차단](basics/common-threats.md#mass-surveillance-programs)에 있어서는 이러한 단점을 상쇄하는 기능을 제공하기도 합니다.
 
-당장 필요하지 않은 확장 프로그램이나 브라우저 기능과 중복되는 확장 프로그램은 설치하지 마세요. 예를 들어 [브레이브](desktop-browsers.md#brave) 사용자는 브레이브 실드가 이미 같은 기능을 제공하므로 유블록 오리진을 설치할 필요가 없습니다.
+당장 필요하지 않은 확장 프로그램이나 브라우저 기능과 중복되는 확장 프로그램은 설치하지 마세요. 예를 들어 [브레이브](desktop-browsers.md#brave) 사용자는 브레이브 실드가 이미 같은 기능을 제공하므로 uBlock Origin을 설치할 필요가 없습니다.
 
 ## 콘텐츠 차단기 { #content-blockers }
 
-### 유블록 오리진 { #ublock-origin }
+### uBlock Origin
 
 <div class="admonition recommendation" markdown>
 
-![uBlock Origin logo](assets/images/browsers/ublock_origin.svg){ align=right }
+![uBlock Origin 로고](assets/images/browsers/ublock_origin.svg){ align=right }
 
-**유블록 오리진**은 광고, 추적기, 핑거프린팅 스크립트를 차단하는 데 도움이 되는 인기 있는 콘텐츠 차단기입니다.
+**uBlock Origin**은 광고, 추적기, 핑거프린팅 스크립트를 차단하는 데 도움이 되는 인기 있는 콘텐츠 차단기입니다.
 
 [:octicons-repo-16: 저장소](https://github.com/gorhill/uBlock#readme){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://github.com/gorhill/uBlock/wiki/Privacy-policy){ .card-link title="개인정보 처리방침" }
@@ -49,19 +49,19 @@ cover: browser-extensions.webp
 - [x] **개인정보 보호**(Privacy) > **AdGuard URL Tracking Protection** 체크
 - [Actually Legitimate URL Shortener Tool](https://raw.githubusercontent.com/DandelionSprout/adfilt/master/LegitimateURLShortener.txt) 추가
 
-### 유블록 오리진 라이트 { #ublock-origin-lite }
+### uBlock Origin 라이트 { #ublock-origin-lite }
 
-유블록 오리진에는 원래 확장 프로그램보다 기능이 제한된 "라이트" 버전도 있습니다. 하지만 정식 버전에 비해 몇 가지 뚜렷한 장점이 있으므로, 다음과 같은 경우라면 고려해 볼 만합니다...
+uBlock Origin에는 원래 확장 프로그램보다 기능이 제한된 "라이트" 버전도 있습니다. 하지만 정식 버전에 비해 몇 가지 뚜렷한 장점이 있으므로, 다음과 같은 경우라면 고려해 볼 만합니다...
 
-- ...(유블록 오리진처럼 신뢰할 수 있는 확장 프로그램이라도) 어떤 확장 프로그램에도 "웹사이트 데이터 읽기/수정" 전체 권한을 부여하고 싶지 않은 경우
+- ...(uBlock Origin처럼 신뢰할 수 있는 확장 프로그램이라도) 어떤 확장 프로그램에도 "웹사이트 데이터 읽기/수정" 전체 권한을 부여하고 싶지 않은 경우
 - ...리소스(메모리/CPU)를 더 효율적으로 사용하는 콘텐츠 차단기를 원하는 경우[^1]
 - ...브라우저가 Manifest V3 확장 프로그램만 지원하는 경우. 크롬이 이에 해당합니다[^2].
 
 <div class="admonition recommendation" markdown>
 
-![uBlock Origin Lite logo](assets/images/browsers/ublock_origin_lite.svg){ align=right }
+![uBlock Origin Lite 로고](assets/images/browsers/ublock_origin_lite.svg){ align=right }
 
-**유블록 오리진 라이트**는 Manifest V3와 호환되는 콘텐츠 차단기입니다. 원래의 _유블록 오리&#xC9C4;_&#xACFC; 비교해 이 확장 프로그램은 작동하는 데 광범위한 "데이터 읽기/수정" 권한이 필요하지 않으므로, 필터 목록에 악성 규칙이 추가되더라도 브라우저에 대한 [:material-bug-outline: 수동적 공격](basics/common-threats.md#security-and-privacy){ .pg-orange } 위험이 낮아집니다.
+**uBlock Origin 라이트**는 Manifest V3와 호환되는 콘텐츠 차단기입니다. 원래의 _uBlock Origi&#x6E;_&#xACFC; 비교해 이 확장 프로그램은 작동하는 데 광범위한 "데이터 읽기/수정" 권한이 필요하지 않으므로, 필터 목록에 악성 규칙이 추가되더라도 브라우저에 대한 [:material-bug-outline: 수동적 공격](basics/common-threats.md#security-and-privacy){ .pg-orange } 위험이 낮아집니다.
 
 [:octicons-repo-16: 저장소](https://github.com/uBlockOrigin/uBOL-home#readme){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://github.com/uBlockOrigin/uBOL-home/wiki/Privacy-policy){ .card-link title="개인정보 처리방침" }
@@ -79,21 +79,21 @@ cover: browser-extensions.webp
 
 </div>
 
-기본으로 포함되지 않은 필터 목록을 추가할 일이 전혀 없고, [동적 필터링](https://github.com/gorhill/ublock/wiki/dynamic-filtering:-quick-guide)이나 네트워크 로거 같은 고급 옵션도 필요하지 않은 경우에만 이 버전의 유블록 오리진을 추천합니다. 이러한 제한은 Manifest V3 설계상의 한계, 특히 필터링 규칙 수에 대한 엄격한 제한과 확장 프로그램이 일반적으로 원격 리소스를 가져올 수 없다는 점 때문입니다.[^3]
+기본으로 포함되지 않은 필터 목록을 추가할 일이 전혀 없고, [동적 필터링](https://github.com/gorhill/ublock/wiki/dynamic-filtering:-quick-guide)이나 네트워크 로거 같은 고급 옵션도 필요하지 않은 경우에만 이 버전의 uBlock Origin을 추천합니다. 이러한 제한은 Manifest V3 설계상의 한계, 특히 필터링 규칙 수에 대한 엄격한 제한과 확장 프로그램이 일반적으로 원격 리소스를 가져올 수 없다는 점 때문입니다.[^3]
 
 이 버전은 세 가지 차단 수준을 제공합니다. "기본"은 사이트 콘텐츠를 보고 수정하는 특별한 권한 없이 작동하며, "최적"과 "완전" 수준은 그러한 광범위한 권한이 필요하지만 추가 외형 규칙과 스크립틀릿 주입으로 더 나은 필터링 성능을 제공합니다.
 
-기본 필터링 모드를 "최적"이나 "완전"으로 설정하면, 확장 프로그램은 방문하는 **모든** 웹사이트에 대한 읽기/수정 권한을 요청합니다. 하지만 특정 사이트에서 확장 프로그램 팝업 패널의 슬라이더를 조정하여 **사이트별로** 설정을 "최적"이나 "완전"으로 변경할 수도 있습니다. 이렇게 하면 확장 프로그램은 해당 사이트에 대한 읽기/수정 권한만 요청합니다. 따라서 유블록 오리진 라이트의 "권한 없는" 구성을 활용하고 싶다면, 기본 설정은 "기본"으로 두고 그 수준으로 충분하지 않은 사이트에서만 높이는 것이 좋습니다.
+기본 필터링 모드를 "최적"이나 "완전"으로 설정하면, 확장 프로그램은 방문하는 **모든** 웹사이트에 대한 읽기/수정 권한을 요청합니다. 하지만 특정 사이트에서 확장 프로그램 팝업 패널의 슬라이더를 조정하여 **사이트별로** 설정을 "최적"이나 "완전"으로 변경할 수도 있습니다. 이렇게 하면 확장 프로그램은 해당 사이트에 대한 읽기/수정 권한만 요청합니다. 따라서 uBlock Origin 라이트의 "권한 없는" 구성을 활용하고 싶다면, 기본 설정은 "기본"으로 두고 그 수준으로 충분하지 않은 사이트에서만 높이는 것이 좋습니다.
 
-유블록 오리진 라이트는 필요할 때마다 차단 목록을 업데이트하는 것이 아니라, 브라우저의 확장 프로그램 마켓플레이스에서 확장 프로그램이 업데이트될 때만 차단 목록 업데이트를 받습니다. 구글은 필터 업데이트에 대해 [신속 심사 절차](https://developer.chrome.com/docs/webstore/skip-review)를 운영하므로, 일반적으로 유블록 오리진 라이트가 릴리스를 게시하는 만큼(지금까지는 2~7일마다) 자주 필터 목록 업데이트를 받을 수 있습니다. 하지만 이른바 "[안전한 규칙](https://developer.chrome.com/docs/extensions/reference/api/declarativeNetRequest#safe_rules)"만 업데이트할 수 있으므로, 고급 기법을 사용하는 목록은 업데이트 빈도가 제한될 수 있습니다.
+uBlock Origin 라이트는 필요할 때마다 차단 목록을 업데이트하는 것이 아니라, 브라우저의 확장 프로그램 마켓플레이스에서 확장 프로그램이 업데이트될 때만 차단 목록 업데이트를 받습니다. 구글은 필터 업데이트에 대해 [신속 심사 절차](https://developer.chrome.com/docs/webstore/skip-review)를 운영하므로, 일반적으로 uBlock Origin 라이트가 릴리스를 게시하는 만큼(지금까지는 2~7일마다) 자주 필터 목록 업데이트를 받을 수 있습니다. 하지만 이른바 "[안전한 규칙](https://developer.chrome.com/docs/extensions/reference/api/declarativeNetRequest#safe_rules)"만 업데이트할 수 있으므로, 고급 기법을 사용하는 목록은 업데이트 빈도가 제한될 수 있습니다.
 
 ### 애드가드 { #adguard }
 
-iOS 사용자에게는 [사파리](mobile-browsers.md#safari-ios)를 추천하는데, 안타깝게도 사파리는 유블록 오리진 **라이트**만 지원합니다. 다행히 애드가드가 적절한 대안을 제공합니다:
+iOS 사용자에게는 [사파리](mobile-browsers.md#safari-ios)를 추천하는데, 안타깝게도 사파리는 uBlock Origin **라이트**만 지원합니다. 다행히 애드가드가 적절한 대안을 제공합니다:
 
 <div class="admonition recommendation" markdown>
 
-![AdGuard logo](assets/images/browsers/adguard.svg){ align=right }
+![AdGuard 로고](assets/images/browsers/adguard.svg){ align=right }
 
 **iOS용 애드가드**는 네이티브 [콘텐츠 차단기 API](https://developer.apple.com/documentation/safariservices/creating_a_content_blocker)를 사용하는 사파리용 자유 오픈 소스 콘텐츠 차단 확장 프로그램입니다.
 
@@ -118,7 +118,7 @@ iOS 사용자에게는 [사파리](mobile-browsers.md#safari-ios)를 추천하�
 - 브라우저나 운영 체제에 내장된 기능을 중복해서는 안 됩니다.
 - 사용자의 프라이버시에 직접적인 영향을 주어야 합니다. 즉, 단순히 정보만 제공해서는 안 됩니다.
 
-[^1]: 유블록 오리진 라이트는 필터링을 처리하기 위해 확장 프로그램 안에서 자바스크립트 코드를 실행하는 대신, 브라우저가 필터 목록을 직접 처리하게 하는 새로운 API를 사용하므로 _자체적으로는_ 리소스를 소비하지 않습니다. 하지만 이러한 리소스 이점은 [이론적인](https://github.com/uBlockOrigin/uBOL-home/wiki/Frequently-asked-questions-(FAQ)#is-ubol-more-efficient-cpu--and-memory-wise-than-ubo) 것에 불과합니다. 표준 유블록 오리진의 필터링 코드가 브라우저 자체의 필터링 코드보다 더 효율적일 수도 있기 때문입니다. 이는 아직 벤치마크로 검증되지 않았습니다.
+[^1]: uBlock Origin 라이트는 필터링을 처리하기 위해 확장 프로그램 안에서 자바스크립트 코드를 실행하는 대신, 브라우저가 필터 목록을 직접 처리하게 하는 새로운 API를 사용하므로 _자체적으로는_ 리소스를 소비하지 않습니다. 하지만 이러한 리소스 이점은 [이론적인](https://github.com/uBlockOrigin/uBOL-home/wiki/Frequently-asked-questions-(FAQ)#is-ubol-more-efficient-cpu--and-memory-wise-than-ubo) 것에 불과합니다. 표준 uBlock Origin의 필터링 코드가 브라우저 자체의 필터링 코드보다 더 효율적일 수도 있기 때문입니다. 이는 아직 벤치마크로 검증되지 않았습니다.
 
 [^2]: [브레이브](https://brave.com/blog/brave-shields-manifest-v3/)와 [오페라](https://xcancel.com/Opera_Security/status/2066543496001888753)는 가능한 한 오랫동안 MV2 지원을 유지하겠다고 약속했습니다.
 

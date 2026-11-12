@@ -36,9 +36,9 @@ global:
 
 <div class="admonition recommendation" markdown>
 
-![Control D logo](assets/images/dns/control-d.svg){ align=right }
+![Control D 로고](assets/images/dns/control-d.svg){ align=right }
 
-**Control D** is a customizable DNS service which lets you block security threats, unwanted content, and advertisements on a DNS level.
+**Control D**는 DNS 수준에서 보안 위협, 원치 않는 콘텐츠 및 광고를 차단할 수 있는 사용자 정의가 가능한 DNS 서비스입니다.
 
 유료 요금제 외에도 무료로 사용할 수 있는 사전 구성된 DNS 리졸버를 여러 개 제공합니다.
 
@@ -65,9 +65,9 @@ global:
 
 <div class="admonition recommendation" markdown>
 
-![NextDNS logo](assets/images/dns/nextdns.svg){ align=right }
+![NextDNS 로고](assets/images/dns/nextdns.svg){ align=right }
 
-**NextDNS** is a customizable DNS service which lets you block security threats, unwanted content, and advertisements on a DNS level.
+**NextDNS**는 DNS 수준에서 보안 위협, 원치 않는 콘텐츠 및 광고를 차단할 수 있는 사용자 정의가 가능한 DNS 서비스입니다.
 
 사용량이 제한된, 모든 기능을 갖춘 무료 요금제를 제공합니다.
 
@@ -99,14 +99,14 @@ global:
 
 암호화된 DNS 프록시 소프트웨어는 [암호화되지 않은 DNS](advanced/dns-overview.md#unencrypted-dns) 리졸버가 요청을 전달할 수 있는 로컬 프록시를 제공합니다. 일반적으로 [암호화된 DNS](advanced/dns-overview.md#what-is-encrypted-dns)를 기본 지원하지 않는 플랫폼에서 사용됩니다.
 
-### 리싱크DNS { #rethinkdns }
+### RethinkDNS
 
 <div class="admonition recommendation" markdown>
 
-![RethinkDNS logo](assets/images/android/rethinkdns.svg#only-light){ align=right }
-![RethinkDNS logo](assets/images/android/rethinkdns-dark.svg#only-dark){ align=right }
+![RethinkDNS 로고](assets/images/android/rethinkdns.svg#only-light){ align=right }
+![RethinkDNS 로고](assets/images/android/rethinkdns-dark.svg#only-dark){ align=right }
 
-**RethinkDNS** is an open-source Android client that supports [DoH](advanced/dns-overview.md#dns-over-https-doh), [DoT](advanced/dns-overview.md#dns-over-tls-dot), [DNSCrypt](advanced/dns-overview.md#dnscrypt) and DNS Proxy. 또한 DNS 응답 캐싱, DNS 쿼리 로컬 기록, 앱을 방화벽으로 사용하는 기능 등 추가 기능도 제공합니다.
+**RethinkDNS**는 [DoH](advanced/dns-overview.md#dns-over-https-doh), [DoT](advanced/dns-overview.md#dns-over-tls-dot), [DNSCrypt](advanced/dns-overview.md#dnscrypt) 및 DNS 프록시를 지원하는 오픈소스 안드로이드 클라이언트입니다. 또한 DNS 응답 캐싱, DNS 쿼리 로컬 기록, 앱을 방화벽으로 사용하는 기능 등 추가 기능도 제공합니다.
 
 [:octicons-home-16: 홈페이지](https://rethinkdns.com){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://rethinkdns.com/privacy){ .card-link title="개인정보 처리방침" }
@@ -123,15 +123,15 @@ global:
 
 </div>
 
-리싱크DNS는 안드로이드의 VPN 슬롯을 차지하지만, 각각 [와이어가드 구성을 추가](https://docs.rethinkdns.com/proxy/wireguard)하거나 [오봇을 프록시 서버로 수동 구성](https://docs.rethinkdns.com/firewall/orbot)하여 이 앱과 함께 VPN이나 오봇을 사용할 수 있습니다.
+RethinkDNS는 안드로이드의 VPN 슬롯을 차지하지만, 각각 [와이어가드 구성을 추가](https://docs.rethinkdns.com/proxy/wireguard)하거나 [오봇을 프록시 서버로 수동 구성](https://docs.rethinkdns.com/firewall/orbot)하여 이 앱과 함께 VPN이나 오봇을 사용할 수 있습니다.
 
 ### DNSCrypt-Proxy
 
 <div class="admonition recommendation" markdown>
 
-![DNSCrypt-Proxy logo](assets/images/dns/dnscrypt-proxy.svg){ align=right }
+![DNSCrypt-Proxy 로고](assets/images/dns/dnscrypt-proxy.svg){ align=right }
 
-**DNSCrypt-Proxy** is a DNS proxy with support for [DNSCrypt](advanced/dns-overview.md#dnscrypt), [DoH](advanced/dns-overview.md#dns-over-https-doh), and [Anonymized DNS](https://github.com/DNSCrypt/dnscrypt-proxy/wiki/Anonymized-DNS).
+**DNSCrypt-Proxy**는 [DNSCrypt](advanced/dns-overview.md#dnscrypt), [DoH](advanced/dns-overview.md#dns-over-https-doh), [익명화 DNS](https://github.com/DNSCrypt/dnscrypt-proxy/wiki/Anonymized-DNS )를 지원하는 DNS 프록시입니다.
 
 [:octicons-repo-16: 저장소](https://github.com/DNSCrypt/dnscrypt-proxy#readme){ .md-button .md-button--primary }
 [:octicons-info-16:](https://github.com/DNSCrypt/dnscrypt-proxy/wiki){ .card-link title="문서" }
@@ -152,7 +152,7 @@ global:
 <div class="admonition warning" markdown>
 <p class="admonition-title">경고</p>
 
-The anonymized DNS feature does [not](advanced/dns-overview.md#should-i-use-encrypted-dns) anonymize other network traffic.
+익명화된 DNS 기능은 다른 네트워크 트래픽을 익명화하지 않습니다 [ (advanced/dns-overview.md#should-i-use-encrypted-dns) ].
 
 </div>
 

@@ -1,5 +1,5 @@
 ---
-meta_title: "광고 없는 프라이버시 도구/서비스 추천 - 프라이버시 가이드"
+meta_title: "광고 없는 투명한 개인정보 보호 도구·서비스 추천 - 프라이버시 가이드"
 title: "프라이버시 도구"
 icon: material/tools
 hide:
@@ -57,9 +57,9 @@ description: 프라이버시 가이드 커뮤니티가 추천하는 프라이버
 
 <div class="admonition recommendation" markdown>
 
-![Tor Browser logo](assets/images/browsers/tor.svg){ align=left }
+![토르 브라우저 로고](assets/images/browsers/tor.svg){ align=left }
 
-**Tor Browser** (Desktop & Android) is the top choice if you need anonymity, as it provides you with access to the **Tor** network, a group of volunteer-operated servers that allows you to connect for free and improve your privacy and security on the Internet. 개인과 단체는 ".onion 히든 서비스"를 통해 프라이버시를 침해받지 않고 토르 네트워크에서 정보를 공유할 수도 있습니다. 토르 트래픽은 차단하고 추적하기 어렵기 때문에, 토르는 효과적인 검열 우회 도구입니다.
+**토르 브라우저**(데스크톱 및 안드로이드)는 익명성이 필요한 경우 가장 추천되는 선택지입니다. 자원봉사자들이 운영하는 서버들의 네트워크인 토르 네트워크에 접속할 수 있도록 해주며, 이를 통해 무료로 온라인상의 프라이버시와 보안을 대폭 강화할 수 있습니다. 개인과 단체는 ".onion 히든 서비스"를 통해 프라이버시를 침해받지 않고 토르 네트워크에서 정보를 공유할 수도 있습니다. 토르 트래픽은 차단하고 추적하기 어렵기 때문에, 토르는 효과적인 검열 우회 도구입니다.
 
 [전체 리뷰 읽기 :material-arrow-right-drop-circle:](tor.md){ .md-button .md-button--primary }
 
@@ -67,36 +67,36 @@ description: 프라이버시 가이드 커뮤니티가 추천하는 프라이버
 
 <div class="grid cards" markdown>
 
-- ![Mullvad Browser logo](assets/images/browsers/mullvad_browser.svg){ .lg .middle .twemoji } **Mullvad Browser**
+- ![멀바드 브라우저 로고](assets/images/browsers/mullvad_browser.svg){ .lg .middle .twemoji } **멀바드 브라우저**
 
     ---
 
-    **Mullvad Browser** is a version of [Tor Browser](tor.md#tor-browser) with Tor network integrations removed, aimed at providing Tor Browser's anti-fingerprinting browser technologies to VPN users.
+    **멀바드 브라우저**는 [토르 브라우저](tor.md#tor-browser)에서 토르 네트워크 통합 기능을 제거한 버전으로, VPN 사용자에게 토르 브라우저의 핑거프린트 방지 브라우저 기술을 제공하는 것을 목표로 합니다.
 
-    - [Read Full Review :material-arrow-right-drop-circle:](desktop-browsers.md#mullvad-browser)
+    - [전체 리뷰 읽기 :material-arrow-right-drop-circle:](desktop-browsers.md#mullvad-browser)
 
-- ![Firefox logo](assets/images/browsers/firefox.svg){ .lg .middle .twemoji } **Firefox**
-
-    ---
-
-    **Firefox** is a great Chromium alternative which provides strong privacy settings such as [Enhanced Tracking Protection](https://support.mozilla.org/kb/enhanced-tracking-protection-firefox-desktop), which can help block various [types of tracking](https://support.mozilla.org/kb/enhanced-tracking-protection-firefox-desktop#w_what-enhanced-tracking-protection-blocks).
-
-    - [Read Full Review :material-arrow-right-drop-circle:](desktop-browsers.md#firefox)
-
-- ![Brave logo](assets/images/browsers/brave.svg){ .lg .middle .twemoji } **Brave Browser**
+- ![파이어폭스 로고](assets/images/browsers/firefox.svg){ .lg .middle .twemoji } **파이어폭스**
 
     ---
 
-    **Brave** is a private-by-default browser based on Chromium, so it should feel familiar and have minimal website compatibility issues.
+    **파이어폭스**는 [강화된 추적 방지](https://support.mozilla.org/kb/enhanced-tracking-protection-firefox-desktop)와 같은 강력한 개인정보 보호 설정을 제공하는 훌륭한 크로미움을 대체할 수 있는 훌륭한 브라우저로, 다양한 [추적 유형](https://support.mozilla.org/kb/enhanced-tracking-protection-firefox-desktop#w_what-enhanced-tracking-protection-blocks )을 차단하는 데 도움이 됩니다.
 
-    - [Brave 데스크톱 리뷰 :material-arrow-right-drop-circle:](desktop-browsers.md#brave)
-    - [Brave 모바일 리뷰 :material-arrow-right-drop-circle:](mobile-browsers.md#brave)
+    - [전체 리뷰 읽기 :material-arrow-right-drop-circle:](desktop-browsers.md#firefox)
 
-- ![Safari 로고](assets/images/browsers/safari.svg){ .lg .middle .twemoji } **Safari (iOS)**
+- ![브레이브 로고](assets/images/browsers/brave.svg){ .lg .middle .twemoji } **브레이브 브라우저**
 
     ---
 
-    [지문 추적 방지](https://webkit.org/blog/15697/private-browsing-2-0) 기능과 기본 제공되는 추적기 차단 기능 덕분에 **Safari**를 권장합니다. 또한 비공개 브라우징 모드에서 쿠키를 분리하여 탭 간 추적을 방지합니다.
+    **브레이브**는 기본적으로 프라이버시를 보호하도록 설계된 크로미움 기반 브라우저로, 익숙한 사용감을 제공할 뿐만 아니라 웹사이트 호환성 문제도 거의 없습니다.
+
+    - [브레이브 데스크톱 리뷰 :material-arrow-right-drop-circle:](desktop-browsers.md#brave)
+    - [브레이브 모바일 리뷰 :material-arrow-right-drop-circle:](mobile-browsers.md#brave)
+
+- ![사파리 로고](assets/images/browsers/safari.svg){ .lg .middle .twemoji } **사파리 (iOS)**
+
+    ---
+
+    [지문 추적 방지](https://webkit.org/blog/15697/private-browsing-2-0) 기능과 기본 제공되는 추적기 차단 기능 덕분에 **사파리**를 권장합니다. 또한 비공개 브라우징 모드에서 쿠키를 분리하여 탭 간 추적을 방지합니다.
 
     - [전체 리뷰 읽기 :material-arrow-right-drop-circle:](mobile-browsers.md#safari-ios)
 
@@ -147,7 +147,7 @@ VPN을 사용해도 브라우징 습관이 익명으로 유지되지 **않으며
 
 <div class="grid cards" markdown>
 
-- ![Proton VPN 로고](assets/images/vpn/protonvpn.svg){ .lg .middle .twemoji } **Proton VPN**
+- ![프로톤 VPN 로고](assets/images/vpn/protonvpn.svg){ .lg .middle .twemoji } **프로톤 VPN**
 
     ---
 
@@ -171,7 +171,7 @@ VPN을 사용해도 브라우징 습관이 익명으로 유지되지 **않으며
 
     [전체 리뷰 읽기 :material-arrow-right-drop-circle:](vpn.md#ivpn)
 
-- ![Mullvad 로고](assets/images/vpn/mullvad.svg){ .lg .middle .twemoji } **Mullvad**
+- ![멀바드 로고](assets/images/vpn/mullvad.svg){ .lg .middle .twemoji } **멀바드**
 
     ---
 
@@ -189,7 +189,7 @@ VPN을 사용해도 브라우징 습관이 익명으로 유지되지 **않으며
 
 <div class="grid cards" markdown>
 
-- ![Proton Mail 로고](assets/images/email/protonmail.svg){ .lg .middle .twemoji } **Proton Mail**
+- ![프로톤 메일 로고](assets/images/email/protonmail.svg){ .lg .middle .twemoji } **프로톤 메일**
 
     ---
 
@@ -197,11 +197,11 @@ VPN을 사용해도 브라우징 습관이 익명으로 유지되지 **않으며
 
     [전체 리뷰 읽기 :material-arrow-right-drop-circle:](email.md#proton-mail)
 
-- ![Mailbox Mail 로고](assets/images/email/mailbox-mail.svg){ .lg .middle .twemoji } **Mailbox Mail**
+- ![메일박스 박스 로고](assets/images/email/mailbox-mail.svg){ .lg .middle .twemoji } **메일박스 메일**
 
     ---
 
-    Mailbox Mail(구 *Mailbox.org*)은 보안과 광고 없음에 중점을 두고, 100% 친환경 에너지로 운영되는 이메일 서비스입니다. 2014년부터 운영되고 있습니다. 메일박스 메일은 독일 베를린에 기반을 두고 있습니다. 계정은 최대 2GB의 저장 공간으로 시작하며, 필요에 따라 업그레이드할 수 있습니다.
+    메일박스 메일(구 *Mailbox.org*)은 보안과 광고 없음에 중점을 두고, 100% 친환경 에너지로 운영되는 이메일 서비스입니다. 2014년부터 운영되고 있습니다. 메일박스 메일은 독일 베를린에 기반을 두고 있습니다. 계정은 최대 2GB의 저장 공간으로 시작하며, 필요에 따라 업그레이드할 수 있습니다.
 
     [전체 리뷰 읽기 :material-arrow-right-drop-circle:](email.md#mailbox-mail)
 
@@ -284,8 +284,8 @@ VPN을 사용해도 브라우징 습관이 익명으로 유지되지 **않으며
 
 <div class="grid cards" markdown>
 
-- ![RethinkDNS logo](assets/images/android/rethinkdns.svg#only-light){ .twemoji loading=lazy }![RethinkDNS logo](assets/images/android/rethinkdns-dark.svg#only-dark){ .twemoji loading=lazy } [RethinkDNS](dns.md#rethinkdns)
-- ![DNSCrypt-Proxy logo](assets/images/dns/dnscrypt-proxy.svg){ .twemoji loading=lazy } [DNSCrypt-Proxy](dns.md#dnscrypt-proxy)
+- ![RethinkDNS 로고](assets/images/android/rethinkdns.svg#only-light){ .twemoji loading=lazy }![RethinkDNS 로고](assets/images/android/rethinkdns-dark.svg#only-dark){ .twemoji loading=lazy } [RethinkDNS](dns.md#rethinkdns)
+- ![DNSCrypt-Proxy 로고](assets/images/dns/dnscrypt-proxy.svg){ .twemoji loading=lazy } [DNSCrypt-Proxy](dns.md#dnscrypt-proxy)
 
 </div>
 
@@ -297,8 +297,8 @@ VPN을 사용해도 브라우징 습관이 익명으로 유지되지 **않으며
 
 <div class="grid cards" markdown>
 
-- ![Privacy.com logo](assets/images/financial-services/privacy_com.svg#only-light){ .twemoji loading=lazy }![Privacy.com logo](assets/images/financial-services/privacy_com-dark.svg#only-dark){ .twemoji loading=lazy } [Privacy.com](financial-services.md#privacycom-us)
-- ![MySudo logo](assets/images/financial-services/mysudo.svg#only-light){ .twemoji loading=lazy }![MySudo logo](assets/images/financial-services/mysudo-dark.svg#only-dark){ .twemoji loading=lazy } [MySudo](financial-services.md#mysudo-us-paid)
+- ![Privacy.com 로고](assets/images/financial-services/privacy_com.svg#only-light){ .twemoji loading=lazy }![Privacy.com 로고](assets/images/financial-services/privacy_com-dark.svg#only-dark){ .twemoji loading=lazy } [Privacy.com](financial-services.md#privacycom-us)
+- ![MySudo 로고](assets/images/financial-services/mysudo.svg#only-light){ .twemoji loading=lazy }![MySudo 로고](assets/images/financial-services/mysudo-dark.svg#only-dark){ .twemoji loading=lazy } [MySudo](financial-services.md#mysudo-us-paid)
 
 </div>
 
@@ -308,7 +308,7 @@ VPN을 사용해도 브라우징 습관이 익명으로 유지되지 **않으며
 
 <div class="grid cards" markdown>
 
-- ![Coincards logo](assets/images/financial-services/coincards.svg){ .twemoji loading=lazy } [Coincards](financial-services.md#coincards)
+- ![Coincards 로고](assets/images/financial-services/coincards.svg){ .twemoji loading=lazy } [Coincards](financial-services.md#coincards)
 
 </div>
 
@@ -318,7 +318,7 @@ VPN을 사용해도 브라우징 습관이 익명으로 유지되지 **않으며
 
 <div class="grid cards" markdown>
 
-- ![Ente logo](assets/images/photo-management/ente.svg){ .twemoji loading=lazy } [Ente Photos](photo-management.md#ente-photos)
+- ![Ente 로고](assets/images/photo-management/ente.svg){ .twemoji loading=lazy } [Ente 사진](photo-management.md#ente-photos)
 
 </div>
 
@@ -328,10 +328,10 @@ VPN을 사용해도 브라우징 습관이 익명으로 유지되지 **않으며
 
 <div class="grid cards" markdown>
 
-- ![Brave Search logo](assets/images/search-engines/brave-search.svg){ .twemoji loading=lazy } [Brave Search](search-engines.md#brave-search)
-- ![DuckDuckGo logo](assets/images/search-engines/duckduckgo.svg){ .twemoji loading=lazy } [DuckDuckGo](search-engines.md#duckduckgo)
-- ![SearXNG logo](assets/images/search-engines/searxng.svg){ .twemoji loading=lazy } [SearXNG](search-engines.md#searxng)
-- ![Startpage logo](assets/images/search-engines/startpage.svg#only-light){ .twemoji loading=lazy }![Startpage logo](assets/images/search-engines/startpage-dark.svg#only-dark){ .twemoji loading=lazy } [Startpage](search-engines.md#startpage)
+- ![Brave Search 로고](assets/images/search-engines/brave-search.svg){ .twemoji loading=lazy } [Brave Search](search-engines.md#brave-search)
+- ![DuckDuckGo 로고](assets/images/search-engines/duckduckgo.svg){ .twemoji loading=lazy } [DuckDuckGo](search-engines.md#duckduckgo)
+- ![SearXNG 로고](assets/images/search-engines/searxng.svg){ .twemoji loading=lazy } [SearXNG](search-engines.md#searxng)
+- ![Startpage 로고](assets/images/search-engines/startpage.svg#only-light){ .twemoji loading=lazy }![Startpage 로고](assets/images/search-engines/startpage-dark.svg#only-dark){ .twemoji loading=lazy } [Startpage](search-engines.md#startpage)
 
 </div>
 
@@ -343,9 +343,9 @@ VPN을 사용해도 브라우징 습관이 익명으로 유지되지 **않으며
 
 <div class="grid cards" markdown>
 
-- ![Kobold logo](assets/images/ai-chat/kobold.png){ .twemoji loading=lazy } [Kobold.cpp](ai-chat.md#koboldcpp)
-- ![Llamafile logo](assets/images/ai-chat/llamafile.webp){ .twemoji loading=lazy } [Llamafile](ai-chat.md#llamafile)
-- ![Ollama logo](assets/images/ai-chat/ollama.png){ .twemoji loading=lazy } [Ollama (CLI)](ai-chat.md#ollama-cli)
+- ![Kobold 로고](assets/images/ai-chat/kobold.png){ .twemoji loading=lazy } [Kobold.cpp](ai-chat.md#koboldcpp)
+- ![Llamafile 로고](assets/images/ai-chat/llamafile.webp){ .twemoji loading=lazy } [Llamafile](ai-chat.md#llamafile)
+- ![Ollama 로고](assets/images/ai-chat/ollama.png){ .twemoji loading=lazy } [Ollama (CLI)](ai-chat.md#ollama-cli)
 
 </div>
 
@@ -355,8 +355,8 @@ VPN을 사용해도 브라우징 습관이 익명으로 유지되지 **않으며
 
 <div class="grid cards" markdown>
 
-- ![Tuta logo](assets/images/email/tuta.svg#only-light){ .twemoji loading=lazy }![Tuta logo](assets/images/email/tuta-dark.svg#only-dark){ .twemoji loading=lazy } [Tuta](calendar.md#tuta)
-- ![Proton Calendar logo](assets/images/calendar/proton-calendar.svg){ .twemoji loading=lazy } [Proton Calendar](calendar.md#proton-calendar)
+- ![투타 로고](assets/images/email/tuta.svg#only-light){ .twemoji loading=lazy }![투타 로고](assets/images/email/tuta-dark.svg#only-dark){ .twemoji loading=lazy } [Tuta](calendar.md#tuta)
+- ![Proton Calendar 로고](assets/images/calendar/proton-calendar.svg){ .twemoji loading=lazy } [Proton Calendar](calendar.md#proton-calendar)
 
 </div>
 
@@ -366,7 +366,7 @@ VPN을 사용해도 브라우징 습관이 익명으로 유지되지 **않으며
 
 <div class="grid cards" markdown>
 
-- ![Monero logo](assets/images/cryptocurrency/monero.svg){ .twemoji loading=lazy } [Monero](cryptocurrency.md#monero)
+- ![모네로 로고](assets/images/cryptocurrency/monero.svg){ .twemoji loading=lazy } [모네로](cryptocurrency.md#monero)
 
 </div>
 
@@ -376,10 +376,10 @@ VPN을 사용해도 브라우징 습관이 익명으로 유지되지 **않으며
 
 <div class="grid cards" markdown>
 
-- ![MAT2 logo](assets/images/data-redaction/mat2.svg){ .twemoji loading=lazy } [MAT2](data-redaction.md#mat2)
-- ![Metadata Cleaner](assets/images/data-redaction/metadatacleaner.svg){ .twemoji loading-lazy } [Metadata Cleaner](data-redaction.md#metadata-cleaner)
-- ![ExifEraser logo](assets/images/data-redaction/exiferaser.svg){ .twemoji loading=lazy } [ExifEraser (Android)](data-redaction.md#exiferaser-android)
-- ![ExifTool logo](assets/images/data-redaction/exiftool.png){ .twemoji loading=lazy } [ExifTool (CLI)](data-redaction.md#exiftool-cli)
+- ![MAT2 로고](assets/images/data-redaction/mat2.svg){ .twemoji loading=lazy } [MAT2](data-redaction.md#mat2)
+- ![메타데이터 클리너](assets/images/data-redaction/metadatacleaner.svg){ .twemoji loading-lazy } [메타데이터 클리너](data-redaction.md#metadata-cleaner)
+- ![ExifEraser 로고](assets/images/data-redaction/exiferaser.svg){ .twemoji loading=lazy } [ExifEraser (Android)](data-redaction.md#exiferaser-android)
+- ![ExifTool 로고](assets/images/data-redaction/exiftool.png){ .twemoji loading=lazy } [ExifTool (CLI)](data-redaction.md#exiftool-cli)
 
 </div>
 
@@ -389,7 +389,7 @@ VPN을 사용해도 브라우징 습관이 익명으로 유지되지 **않으며
 
 <div class="grid cards" markdown>
 
-- ![CryptPad logo](assets/images/document-collaboration/cryptpad.svg){ .twemoji loading=lazy } [CryptPad](document-collaboration.md#cryptpad)
+- ![CryptPad 로고](assets/images/document-collaboration/cryptpad.svg){ .twemoji loading=lazy } [CryptPad](document-collaboration.md#cryptpad)
 
 </div>
 
@@ -410,10 +410,10 @@ OS 드라이브를 암호화할 때는 윈도우의 **비트로커**, macOS의 *
 
 <div class="grid cards" markdown>
 
-- ![Cryptomator logo](assets/images/encryption-software/cryptomator.svg){ .twemoji loading=lazy } [Cryptomator](encryption.md#cryptomator-cloud)
-- ![VeraCrypt logo](assets/images/encryption-software/veracrypt.svg#only-light){ .twemoji loading=lazy }![VeraCrypt logo](assets/images/encryption-software/veracrypt-dark.svg#only-dark){ .twemoji loading=lazy } [VeraCrypt (FDE)](encryption.md#veracrypt-disk)
-- ![Kryptor logo](assets/images/encryption-software/kryptor.png){ .twemoji loading=lazy } [Kryptor](encryption.md#kryptor)
-- ![Tomb logo](assets/images/encryption-software/tomb.png){ .twemoji loading=lazy } [Tomb](encryption.md#tomb)
+- ![Cryptomator 로고](assets/images/encryption-software/cryptomator.svg){ .twemoji loading=lazy } [Cryptomator](encryption.md#cryptomator-cloud)
+- ![VeraCrypt 로고](assets/images/encryption-software/veracrypt.svg#only-light){ .twemoji loading=lazy }![VeraCrypt 로고](assets/images/encryption-software/veracrypt-dark.svg#only-dark){ .twemoji loading=lazy } [VeraCrypt (FDE)](encryption.md#veracrypt-disk)
+- ![Kryptor 로고](assets/images/encryption-software/kryptor.png){ .twemoji loading=lazy } [Kryptor](encryption.md#kryptor)
+- ![Tomb 로고](assets/images/encryption-software/tomb.png){ .twemoji loading=lazy } [Tomb](encryption.md#tomb)
 
 </div>
 
@@ -423,10 +423,10 @@ OS 드라이브를 암호화할 때는 윈도우의 **비트로커**, macOS의 *
 
 <div class="grid cards" markdown>
 
-- ![GnuPG logo](assets/images/encryption-software/gnupg.svg){ .twemoji loading=lazy } [GnuPG](encryption.md#gnu-privacy-guard)
-- ![GPG4Win logo](assets/images/encryption-software/gpg4win.svg){ .twemoji loading=lazy } [GPG4Win (Windows)](encryption.md#gpg4win)
-- ![GPG Suite logo](assets/images/encryption-software/gpgsuite.png){ .twemoji loading=lazy } [GPG Suite (macOS)](encryption.md#gpg-suite)
-- ![OpenKeychain logo](assets/images/encryption-software/openkeychain.svg){ .twemoji loading=lazy } [OpenKeychain](encryption.md#openkeychain)
+- ![GnuPG 로고](assets/images/encryption-software/gnupg.svg){ .twemoji loading=lazy } [GnuPG](encryption.md#gnu-privacy-guard)
+- ![GPG4Win 로고](assets/images/encryption-software/gpg4win.svg){ .twemoji loading=lazy } [GPG4Win (Windows)](encryption.md#gpg4win)
+- ![GPG Suite 로고](assets/images/encryption-software/gpgsuite.png){ .twemoji loading=lazy } [GPG Suite (macOS)](encryption.md#gpg-suite)
+- ![OpenKeychain 로고](assets/images/encryption-software/openkeychain.svg){ .twemoji loading=lazy } [OpenKeychain](encryption.md#openkeychain)
 
 </div>
 
@@ -436,9 +436,9 @@ OS 드라이브를 암호화할 때는 윈도우의 **비트로커**, macOS의 *
 
 <div class="grid cards" markdown>
 
-- ![Send logo](assets/images/file-sharing-sync/send.svg){ .twemoji loading=lazy } [Send](file-sharing.md#send)
-- ![OnionShare logo](assets/images/file-sharing-sync/onionshare.svg){ .twemoji loading=lazy } [OnionShare](file-sharing.md#onionshare)
-- ![Syncthing logo](assets/images/file-sharing-sync/syncthing.svg){ .twemoji loading=lazy } [Syncthing](file-sharing.md#syncthing-p2p)
+- ![Send 로고](assets/images/file-sharing-sync/send.svg){ .twemoji loading=lazy } [Send](file-sharing.md#send)
+- ![OnionShare 로고](assets/images/file-sharing-sync/onionshare.svg){ .twemoji loading=lazy } [OnionShare](file-sharing.md#onionshare)
+- ![Syncthing 로고](assets/images/file-sharing-sync/syncthing.svg){ .twemoji loading=lazy } [Syncthing](file-sharing.md#syncthing-p2p)
 
 </div>
 
@@ -448,12 +448,12 @@ OS 드라이브를 암호화할 때는 윈도우의 **비트로커**, macOS의 *
 
 <div class="grid cards" markdown>
 
-- ![Redlib logo](assets/images/frontends/redlib.svg){ .twemoji loading=lazy } [Redlib (Reddit, Web)](frontends.md#redlib)
-- ![FreeTube logo](assets/images/frontends/freetube.svg){ .twemoji loading=lazy } [FreeTube (YouTube, Desktop)](frontends.md#freetube)
-- ![LibreTube logo](assets/images/frontends/libretube.svg#only-light){ .twemoji loading=lazy }![LibreTube logo](assets/images/frontends/libretube-dark.svg#only-dark){ .twemoji loading=lazy } [LibreTube (YouTube, Android)](frontends.md#libretube-android)
-- ![NewPipe logo](assets/images/frontends/newpipe.svg){ .twemoji loading=lazy } [NewPipe (YouTube, Android)](frontends.md#newpipe-android)
-- ![Invidious logo](assets/images/frontends/invidious.svg#only-light){ .twemoji loading=lazy }![Invidious logo](assets/images/frontends/invidious-dark.svg#only-dark){ .twemoji loading=lazy } [Invidious (YouTube, Web)](frontends.md#invidious)
-- ![Piped logo](assets/images/frontends/piped.svg){ .twemoji loading=lazy } [Piped (YouTube, Web)](frontends.md#piped)
+- ![Redlib 로고](assets/images/frontends/redlib.svg){ .twemoji loading=lazy } [Redlib (Reddit, 웹)](frontends.md#redlib)
+- ![FreeTube 로고](assets/images/frontends/freetube.svg){ .twemoji loading=lazy } [FreeTube (YouTube, 데스크톱)](frontends.md#freetube)
+- ![LibreTube 로고](assets/images/frontends/libretube.svg#only-light){ .twemoji loading=lazy }![LibreTube 로고](assets/images/frontends/libretube-dark.svg#only-dark){ .twemoji loading=lazy } [LibreTube (YouTube, Android)](frontends.md#libretube-android)
+- ![NewPipe 로고](assets/images/frontends/newpipe.svg){ .twemoji loading=lazy } [NewPipe (YouTube, Android)](frontends.md#newpipe-android)
+- ![Invidious 로고](assets/images/frontends/invidious.svg#only-light){ .twemoji loading=lazy }![Invidious 로고](assets/images/frontends/invidious-dark.svg#only-dark){ .twemoji loading=lazy } [Invidious (YouTube, 웹)](frontends.md#invidious)
+- ![Piped 로고](assets/images/frontends/piped.svg){ .twemoji loading=lazy } [Piped (YouTube, 웹)](frontends.md#piped)
 
 </div>
 
@@ -463,13 +463,13 @@ OS 드라이브를 암호화할 때는 윈도우의 **비트로커**, macOS의 *
 
 <div class="grid cards" markdown>
 
-- ![Drip logo](assets/images/health-and-wellness/drip.png){ .twemoji loading=lazy } [Drip](health-and-wellness.md#drip)
-- ![Euki logo](assets/images/health-and-wellness/euki.svg){ .twemoji loading=lazy } [Euki](health-and-wellness.md#euki)
-- ![Apple Health logo](assets/images/health-and-wellness/apple-health.webp#only-light){ .twemoji loading=lazy } ![Apple Health logo](assets/images/health-and-wellness/apple-health-dark.webp#only-dark){ .twemoji loading=lazy } [Apple Health](health-and-wellness.md#apple-health)
-- ![Apple Fitness logo](assets/images/health-and-wellness/apple-fitness.webp){ .twemoji loading=lazy } [Apple Fitness](health-and-wellness.md#apple-fitness)
-- ![Gadgetbridge logo](assets/images/health-and-wellness/gadgetbridge.svg#only-light){ .twemoji loading=lazy }![Gadgetbridge logo](assets/images/health-and-wellness/gadgetbridge-dark.svg#only-dark){ .twemoji loading=lazy } [Gadgetbridge](health-and-wellness.md#gadgetbridge)
-- ![Apple Health logo](assets/images/health-and-wellness/apple-health.webp#only-light){ .twemoji loading=lazy } ![Apple Health logo](assets/images/health-and-wellness/apple-health-dark.webp#only-dark){ .twemoji loading=lazy } [Apple Health Records](health-and-wellness.md#apple-health-records)
-- ![CommonHealth logo](assets/images/health-and-wellness/commonhealth.png){ .twemoji loading=lazy } [CommonHealth](health-and-wellness.md#commonhealth)
+- ![Drip 로고](assets/images/health-and-wellness/drip.png){ .twemoji loading=lazy } [Drip](health-and-wellness.md#drip)
+- ![Euki 로고](assets/images/health-and-wellness/euki.svg){ .twemoji loading=lazy } [Euki](health-and-wellness.md#euki)
+- ![Apple Health 로고](assets/images/health-and-wellness/apple-health.webp#only-light){ .twemoji loading=lazy } ![Apple Health 로고](assets/images/health-and-wellness/apple-health-dark.webp#only-dark){ .twemoji loading=lazy } [Apple Health](health-and-wellness.md#apple-health)
+- ![Apple Fitness 로고](assets/images/health-and-wellness/apple-fitness.webp){ .twemoji loading=lazy } [Apple Fitness](health-and-wellness.md#apple-fitness)
+- ![Gadgetbridge 로고](assets/images/health-and-wellness/gadgetbridge.svg#only-light){ .twemoji loading=lazy }![Gadgetbridge 로고](assets/images/health-and-wellness/gadgetbridge-dark.svg#only-dark){ .twemoji loading=lazy } [Gadgetbridge](health-and-wellness.md#gadgetbridge)
+- ![Apple Health 로고](assets/images/health-and-wellness/apple-health.webp#only-light){ .twemoji loading=lazy } ![Apple Health 로고](assets/images/health-and-wellness/apple-health-dark.webp#only-dark){ .twemoji loading=lazy } [Apple Health Records](health-and-wellness.md#apple-health-records)
+- ![CommonHealth 로고](assets/images/health-and-wellness/commonhealth.png){ .twemoji loading=lazy } [CommonHealth](health-and-wellness.md#commonhealth)
 
 </div>
 
@@ -479,7 +479,7 @@ OS 드라이브를 암호화할 때는 윈도우의 **비트로커**, macOS의 *
 
 <div class="grid cards" markdown>
 
-- ![LibreTranslate logo](assets/images/language-tools/libretranslate.png){ .twemoji } [LibreTranslate](language-tools.md#libretranslate)
+- ![LibreTranslate 로고](assets/images/language-tools/libretranslate.png){ .twemoji } [LibreTranslate](language-tools.md#libretranslate)
 
 </div>
 
@@ -489,8 +489,8 @@ OS 드라이브를 암호화할 때는 윈도우의 **비트로커**, macOS의 *
 
 <div class="grid cards" markdown>
 
-- ![Organic Maps logo](assets/images/maps/organic-maps.svg){ .twemoji loading=lazy } [Organic Maps](maps.md#organic-maps)
-- ![OsmAnd logo](assets/images/maps/osmand.svg){ .twemoji loading=lazy } [OsmAnd](maps.md#osmand)
+- ![Organic Maps 로고](assets/images/maps/organic-maps.svg){ .twemoji loading=lazy } [Organic Maps](maps.md#organic-maps)
+- ![OsmAnd 로고](assets/images/maps/osmand.svg){ .twemoji loading=lazy } [OsmAnd](maps.md#osmand)
 
 </div>
 
@@ -502,8 +502,8 @@ OS 드라이브를 암호화할 때는 윈도우의 **비트로커**, macOS의 *
 
 <div class="grid cards" markdown>
 
-- ![Ente Auth logo](assets/images/multi-factor-authentication/ente-auth.svg){ .twemoji loading=lazy } [Ente Auth](multi-factor-authentication.md#ente-auth)
-- ![Aegis logo](assets/images/multi-factor-authentication/aegis.png){ .twemoji loading=lazy } [Aegis Authenticator (Android)](multi-factor-authentication.md#aegis-authenticator-android)
+- ![Ente Auth 로고](assets/images/multi-factor-authentication/ente-auth.svg){ .twemoji loading=lazy } [Ente Auth](multi-factor-authentication.md#ente-auth)
+- ![Aegis 로고](assets/images/multi-factor-authentication/aegis.png){ .twemoji loading=lazy } [Aegis Authenticator (Android)](multi-factor-authentication.md#aegis-authenticator-android)
 
 </div>
 
@@ -513,12 +513,12 @@ OS 드라이브를 암호화할 때는 윈도우의 **비트로커**, macOS의 *
 
 <div class="grid cards" markdown>
 
-- ![Akregator logo](assets/images/news-aggregators/akregator.svg){ .twemoji loading=lazy } [Akregator](news-aggregators.md#akregator)
-- ![NewsFlash logo](assets/images/news-aggregators/newsflash.png){ .twemoji loading=lazy } [NewsFlash](news-aggregators.md#newsflash)
-- ![Feeder logo](assets/images/news-aggregators/feeder.png){ .twemoji} [Feeder (Android)](news-aggregators.md#feeder)
-- ![Miniflux logo](assets/images/news-aggregators/miniflux.svg#only-light){ .twemoji loading=lazy }![Miniflux logo](assets/images/news-aggregators/miniflux-dark.svg#only-dark){ .twemoji loading=lazy } [Miniflux](news-aggregators.md#miniflux)
-- ![NetNewsWire logo](assets/images/news-aggregators/netnewswire.png){ .twemoji loading=lazy } [NetNewsWire](news-aggregators.md#netnewswire)
-- ![Newsboat logo](assets/images/news-aggregators/newsboat.svg){ .twemoji loading=lazy } [Newsboat](news-aggregators.md#newsboat)
+- ![Akregator 로고](assets/images/news-aggregators/akregator.svg){ .twemoji loading=lazy } [Akregator](news-aggregators.md#akregator)
+- ![NewsFlash 로고](assets/images/news-aggregators/newsflash.png){ .twemoji loading=lazy } [NewsFlash](news-aggregators.md#newsflash)
+- ![Feeder 로고](assets/images/news-aggregators/feeder.png){ .twemoji} [Feeder (Android)](news-aggregators.md#feeder)
+- ![Miniflux 로고](assets/images/news-aggregators/miniflux.svg#only-light){ .twemoji loading=lazy }![Miniflux 로고](assets/images/news-aggregators/miniflux-dark.svg#only-dark){ .twemoji loading=lazy } [Miniflux](news-aggregators.md#miniflux)
+- ![NetNewsWire 로고](assets/images/news-aggregators/netnewswire.png){ .twemoji loading=lazy } [NetNewsWire](news-aggregators.md#netnewswire)
+- ![Newsboat 로고](assets/images/news-aggregators/newsboat.svg){ .twemoji loading=lazy } [Newsboat](news-aggregators.md#newsboat)
 
 </div>
 
@@ -528,11 +528,11 @@ OS 드라이브를 암호화할 때는 윈도우의 **비트로커**, macOS의 *
 
 <div class="grid cards" markdown>
 
-- ![Standard Notes logo](assets/images/notebooks/standard-notes.svg){ .twemoji loading=lazy } [Standard Notes](notebooks.md#standard-notes)
-- ![Notesnook logo](assets/images/notebooks/notesnook.svg){ .twemoji loading=lazy } [Notesnook](notebooks.md#notesnook)
-- ![Joplin logo](assets/images/notebooks/joplin.svg){ .twemoji loading=lazy } [Joplin](notebooks.md#joplin)
-- ![Cryptee logo](assets/images/notebooks/cryptee.svg#only-light){ .twemoji loading=lazy }![Cryptee logo](assets/images/notebooks/cryptee-dark.svg#only-dark){ .twemoji loading=lazy } [Cryptee](notebooks.md#cryptee)
-- ![Org-mode logo](assets/images/notebooks/org-mode.svg){ .twemoji loading=lazy } [Org-mode](notebooks.md#org-mode)
+- ![Standard Notes 로고](assets/images/notebooks/standard-notes.svg){ .twemoji loading=lazy } [Standard Notes](notebooks.md#standard-notes)
+- ![Notesnook 로고](assets/images/notebooks/notesnook.svg){ .twemoji loading=lazy } [Notesnook](notebooks.md#notesnook)
+- ![Joplin 로고](assets/images/notebooks/joplin.svg){ .twemoji loading=lazy } [Joplin](notebooks.md#joplin)
+- ![Cryptee 로고](assets/images/notebooks/cryptee.svg#only-light){ .twemoji loading=lazy }![Cryptee 로고](assets/images/notebooks/cryptee-dark.svg#only-dark){ .twemoji loading=lazy } [Cryptee](notebooks.md#cryptee)
+- ![Org-mode 로고](assets/images/notebooks/org-mode.svg){ .twemoji loading=lazy } [Org-mode](notebooks.md#org-mode)
 
 </div>
 
@@ -542,8 +542,8 @@ OS 드라이브를 암호화할 때는 윈도우의 **비트로커**, macOS의 *
 
 <div class="grid cards" markdown>
 
-- ![LibreOffice logo](assets/images/office-suites/libreoffice.svg){ .twemoji loading=lazy } [LibreOffice](office-suites.md#libreoffice)
-- ![OnlyOffice logo](assets/images/office-suites/onlyoffice.svg){ .twemoji loading=lazy } [OnlyOffice](office-suites.md#onlyoffice)
+- ![LibreOffice 로고](assets/images/office-suites/libreoffice.svg){ .twemoji loading=lazy } [LibreOffice](office-suites.md#libreoffice)
+- ![OnlyOffice 로고](assets/images/office-suites/onlyoffice.svg){ .twemoji loading=lazy } [OnlyOffice](office-suites.md#onlyoffice)
 
 </div>
 
@@ -553,14 +553,14 @@ OS 드라이브를 암호화할 때는 윈도우의 **비트로커**, macOS의 *
 
 <div class="grid cards" markdown>
 
-- ![Bitwarden logo](assets/images/password-management/bitwarden.svg){ .twemoji loading=lazy } [Bitwarden](passwords.md#bitwarden)
-- ![Proton Pass logo](assets/images/password-management/protonpass.svg){ .twemoji loading=lazy } [Proton Pass](passwords.md#proton-pass)
-- ![1Password logo](assets/images/password-management/1password.svg){ .twemoji loading=lazy } [1Password](passwords.md#1password)
-- ![Psono logo](assets/images/password-management/psono.svg){ .twemoji loading=lazy } [Psono](passwords.md#psono)
-- ![KeePassXC logo](assets/images/password-management/keepassxc.svg){ .twemoji loading=lazy } [KeePassXC](passwords.md#keepassxc)
-- ![KeePassDX logo](assets/images/password-management/keepassdx.svg){ .twemoji loading=lazy } [KeePassDX (Android)](passwords.md#keepassdx-android)
-- ![KeePassium logo](assets/images/password-management/keepassium.svg){ .twemoji loading=lazy } [KeePassium (iOS & macOS)](passwords.md#keepassium-ios-macos)
-- ![Gopass logo](assets/images/password-management/gopass.svg){ .twemoji loading=lazy } [Gopass (CLI)](passwords.md#gopass-cli)
+- ![Bitwarden 로고](assets/images/password-management/bitwarden.svg){ .twemoji loading=lazy } [Bitwarden](passwords.md#bitwarden)
+- ![Proton Pass 로고](assets/images/password-management/protonpass.svg){ .twemoji loading=lazy } [Proton Pass](passwords.md#proton-pass)
+- ![1Password 로고](assets/images/password-management/1password.svg){ .twemoji loading=lazy } [1Password](passwords.md#1password)
+- ![Psono 로고](assets/images/password-management/psono.svg){ .twemoji loading=lazy } [Psono](passwords.md#psono)
+- ![KeePassXC 로고](assets/images/password-management/keepassxc.svg){ .twemoji loading=lazy } [KeePassXC](passwords.md#keepassxc)
+- ![KeePassDX 로고](assets/images/password-management/keepassdx.svg){ .twemoji loading=lazy } [KeePassDX (Android)](passwords.md#keepassdx-android)
+- ![KeePassium 로고](assets/images/password-management/keepassium.svg){ .twemoji loading=lazy } [KeePassium (iOS 및 macOS)](passwords.md#keepassium-ios-macos)
+- ![Gopass 로고](assets/images/password-management/gopass.svg){ .twemoji loading=lazy } [Gopass (CLI)](passwords.md#gopass-cli)
 
 </div>
 
@@ -570,8 +570,8 @@ OS 드라이브를 암호화할 때는 윈도우의 **비트로커**, macOS의 *
 
 <div class="grid cards" markdown>
 
-- ![PrivateBin logo](assets/images/pastebins/privatebin.svg){ .twemoji loading=lazy } [PrivateBin](pastebins.md#privatebin)
-- ![Paaster logo](assets/images/pastebins/paaster.svg){ .twemoji loading=lazy } [Paaster](pastebins.md#paaster)
+- ![PrivateBin 로고](assets/images/pastebins/privatebin.svg){ .twemoji loading=lazy } [PrivateBin](pastebins.md#privatebin)
+- ![Paaster 로고](assets/images/pastebins/paaster.svg){ .twemoji loading=lazy } [Paaster](pastebins.md#paaster)
 
 </div>
 
@@ -581,9 +581,9 @@ OS 드라이브를 암호화할 때는 윈도우의 **비트로커**, macOS의 *
 
 <div class="grid cards" markdown>
 
-- ![Signal logo](assets/images/messengers/signal.svg){ .twemoji loading=lazy } [Signal](real-time-communication.md#signal)
-- ![Briar logo](assets/images/messengers/briar.svg){ .twemoji loading=lazy } [Briar](real-time-communication.md#briar)
-- ![SimpleX Chat logo](assets/images/messengers/simplex.svg){ .twemoji loading=lazy } [SimpleX Chat](real-time-communication.md#simplex-chat)
+- ![Signal 로고](assets/images/messengers/signal.svg){ .twemoji loading=lazy } [Signal](real-time-communication.md#signal)
+- ![Briar 로고](assets/images/messengers/briar.svg){ .twemoji loading=lazy } [Briar](real-time-communication.md#briar)
+- ![SimpleX Chat 로고](assets/images/messengers/simplex.svg){ .twemoji loading=lazy } [SimpleX Chat](real-time-communication.md#simplex-chat)
 
 </div>
 
@@ -593,8 +593,8 @@ OS 드라이브를 암호화할 때는 윈도우의 **비트로커**, macOS의 *
 
 <div class="grid cards" markdown>
 
-- ![Mastodon logo](assets/images/social-networks/mastodon.svg){ .twemoji loading=lazy } [Mastodon](social-networks.md#mastodon)
-- ![Element logo](assets/images/social-networks/element.svg){ .twemoji loading=lazy } [Element](social-networks.md#element)
+- ![Mastodon 로고](assets/images/social-networks/mastodon.svg){ .twemoji loading=lazy } [Mastodon](social-networks.md#mastodon)
+- ![Element 로고](assets/images/social-networks/element.svg){ .twemoji loading=lazy } [Element](social-networks.md#element)
 
 </div>
 
@@ -606,8 +606,8 @@ OS 드라이브를 암호화할 때는 윈도우의 **비트로커**, macOS의 *
 
 <div class="grid cards" markdown>
 
-- ![Yubico logo](assets/images/security-keys/mini/yubico.svg){ .twemoji loading=lazy } [Yubico Security Key](security-keys.md#yubico-security-key)
-- ![Yubico logo](assets/images/security-keys/mini/yubico.svg){ .twemoji loading=lazy } [YubiKey](security-keys.md#yubikey)
+- ![Yubico 로고](assets/images/security-keys/mini/yubico.svg){ .twemoji loading=lazy } [Yubico 보안 키](security-keys.md#yubico-security-key)
+- ![Yubico 로고](assets/images/security-keys/mini/yubico.svg){ .twemoji loading=lazy } [YubiKey](security-keys.md#yubikey)
 - ![Nitrokey](assets/images/security-keys/mini/nitrokey.svg){ .twemoji loading=lazy } [Nitrokey](security-keys.md#nitrokey)
 
 </div>
@@ -632,7 +632,7 @@ OS 드라이브를 암호화할 때는 윈도우의 **비트로커**, macOS의 *
 
 <div class="grid cards" markdown>
 
-- ![GrapheneOS logo](assets/images/android/grapheneos.svg#only-light){ .twemoji loading=lazy }![GrapheneOS logo](assets/images/android/grapheneos-dark.svg#only-dark){ .twemoji loading=lazy } [GrapheneOS](android/distributions.md#grapheneos)
+- ![GrapheneOS 로고](assets/images/android/grapheneos.svg#only-light){ .twemoji loading=lazy }![GrapheneOS 로고](assets/images/android/grapheneos-dark.svg#only-dark){ .twemoji loading=lazy } [GrapheneOS](android/distributions.md#grapheneos)
 
 </div>
 
@@ -642,9 +642,9 @@ OS 드라이브를 암호화할 때는 윈도우의 **비트로커**, macOS의 *
 
 <div class="grid cards" markdown>
 
-- ![Shelter logo](assets/images/android/mini/shelter.svg){ .twemoji loading=lazy } [Shelter (Work Profiles)](android/general-apps.md#shelter)
-- ![Secure Camera logo](assets/images/android/secure_camera.svg#only-light){ .twemoji loading=lazy }![Secure Camera logo](assets/images/android/secure_camera-dark.svg#only-dark){ .twemoji loading=lazy } [Secure Camera](android/general-apps.md#secure-camera)
-- ![Secure PDF Viewer logo](assets/images/android/secure_pdf_viewer.svg#only-light){ .twemoji loading=lazy }![Secure PDF Viewer logo](assets/images/android/secure_pdf_viewer-dark.svg#only-dark){ .twemoji loading=lazy } [Secure PDF Viewer](android/general-apps.md#secure-pdf-viewer)
+- ![Shelter 로고](assets/images/android/mini/shelter.svg){ .twemoji loading=lazy } [Shelter (업무 프로필)](android/general-apps.md#shelter)
+- ![Secure Camera 로고](assets/images/android/secure_camera.svg#only-light){ .twemoji loading=lazy }![Secure Camera 로고](assets/images/android/secure_camera-dark.svg#only-dark){ .twemoji loading=lazy } [Secure Camera](android/general-apps.md#secure-camera)
+- ![Secure PDF Viewer 로고](assets/images/android/secure_pdf_viewer.svg#only-light){ .twemoji loading=lazy }![Secure PDF Viewer 로고](assets/images/android/secure_pdf_viewer-dark.svg#only-dark){ .twemoji loading=lazy } [Secure PDF Viewer](android/general-apps.md#secure-pdf-viewer)
 
 </div>
 
@@ -654,8 +654,8 @@ OS 드라이브를 암호화할 때는 윈도우의 **비트로커**, macOS의 *
 
 <div class="grid cards" markdown>
 
-- ![Obtainium logo](assets/images/android/obtainium.svg){ .twemoji loading=lazy } [Obtainium (App Manager)](android/obtaining-apps.md#obtainium)
-- ![Aurora Store logo](assets/images/android/aurora-store.webp){ .twemoji loading=lazy } [Aurora Store (Google Play Client)](android/obtaining-apps.md#aurora-store)
+- ![Obtainium 로고](assets/images/android/obtainium.svg){ .twemoji loading=lazy } [Obtainium (앱 관리자)](android/obtaining-apps.md#obtainium)
+- ![Aurora Store 로고](assets/images/android/aurora-store.webp){ .twemoji loading=lazy } [Aurora Store (Google Play 클라이언트)](android/obtaining-apps.md#aurora-store)
 
 </div>
 
@@ -665,16 +665,16 @@ OS 드라이브를 암호화할 때는 윈도우의 **비트로커**, macOS의 *
 
 <div class="grid cards" markdown>
 
-- ![Qubes OS logo](assets/images/qubes/qubes_os.svg){ .twemoji loading=lazy } [Qubes OS (Xen VM Distribution)](desktop.md#qubes-os)
-- ![Fedora logo](assets/images/linux-desktop/fedora.svg){ .twemoji loading=lazy } [Fedora Linux](desktop.md#fedora-linux)
-- ![openSUSE Tumbleweed logo](assets/images/linux-desktop/opensuse-tumbleweed.svg){ .twemoji loading=lazy } [openSUSE Tumbleweed](desktop.md#opensuse-tumbleweed)
-- ![Arch logo](assets/images/linux-desktop/archlinux.svg){ .twemoji loading=lazy } [Arch Linux](desktop.md#arch-linux)
-- ![Fedora logo](assets/images/linux-desktop/fedora.svg){ .twemoji loading=lazy } [Fedora Atomic Desktops](desktop.md#fedora-atomic-desktops)
-- ![NixOS logo](assets/images/linux-desktop/nixos.svg){ .twemoji loading=lazy } [NixOS](desktop.md#nixos)
-- ![Whonix logo](assets/images/linux-desktop/whonix.svg){ .twemoji loading=lazy } [Whonix (Tor)](desktop.md#whonix)
-- ![Tails logo](assets/images/linux-desktop/tails.svg){ .twemoji loading=lazy } [Tails (Live Boot)](desktop.md#tails)
-- ![Secureblue logo](assets/images/linux-desktop/secureblue.svg){ .twemoji loading=lazy } [Secureblue](desktop.md#secureblue)
-- ![Kicksecure logo](assets/images/linux-desktop/kicksecure.svg){ .twemoji loading=lazy } [Kicksecure](desktop.md#kicksecure)
+- ![Qubes OS 로고](assets/images/qubes/qubes_os.svg){ .twemoji loading=lazy } [Qubes OS (Xen VM 배포판)](desktop.md#qubes-os)
+- ![Fedora 로고](assets/images/linux-desktop/fedora.svg){ .twemoji loading=lazy } [Fedora Linux](desktop.md#fedora-linux)
+- ![openSUSE Tumbleweed 로고](assets/images/linux-desktop/opensuse-tumbleweed.svg){ .twemoji loading=lazy } [openSUSE Tumbleweed](desktop.md#opensuse-tumbleweed)
+- ![Arch 로고](assets/images/linux-desktop/archlinux.svg){ .twemoji loading=lazy } [Arch Linux](desktop.md#arch-linux)
+- ![Fedora 로고](assets/images/linux-desktop/fedora.svg){ .twemoji loading=lazy } [Fedora Atomic Desktops](desktop.md#fedora-atomic-desktops)
+- ![NixOS 로고](assets/images/linux-desktop/nixos.svg){ .twemoji loading=lazy } [NixOS](desktop.md#nixos)
+- ![Whonix 로고](assets/images/linux-desktop/whonix.svg){ .twemoji loading=lazy } [Whonix (Tor)](desktop.md#whonix)
+- ![Tails 로고](assets/images/linux-desktop/tails.svg){ .twemoji loading=lazy } [Tails (라이브 부팅)](desktop.md#tails)
+- ![Secureblue 로고](assets/images/linux-desktop/secureblue.svg){ .twemoji loading=lazy } [Secureblue](desktop.md#secureblue)
+- ![Kicksecure 로고](assets/images/linux-desktop/kicksecure.svg){ .twemoji loading=lazy } [Kicksecure](desktop.md#kicksecure)
 
 </div>
 
@@ -684,8 +684,8 @@ OS 드라이브를 암호화할 때는 윈도우의 **비트로커**, macOS의 *
 
 <div class="grid cards" markdown>
 
-- ![OpenWrt logo](assets/images/router/openwrt.svg#only-light){ .twemoji loading=lazy }![OpenWrt logo](assets/images/router/openwrt-dark.svg#only-dark){ .twemoji loading=lazy } [OpenWrt](router.md#openwrt)
-- ![OPNsense logo](assets/images/router/opnsense.svg){ .twemoji loading=lazy } [OPNsense](router.md#opnsense)
+- ![OpenWrt 로고](assets/images/router/openwrt.svg#only-light){ .twemoji loading=lazy }![OpenWrt 로고](assets/images/router/openwrt-dark.svg#only-dark){ .twemoji loading=lazy } [OpenWrt](router.md#openwrt)
+- ![OPNsense 로고](assets/images/router/opnsense.svg){ .twemoji loading=lazy } [OPNsense](router.md#opnsense)
 
 </div>
 
@@ -699,10 +699,10 @@ OS 드라이브를 암호화할 때는 윈도우의 **비트로커**, macOS의 *
 
 <div class="grid cards" markdown>
 
-- ![I2P logo](assets/images/self-contained-networks/i2p.svg#only-light){ .twemoji loading=lazy } ![I2P logo](assets/images/self-contained-networks/i2p-dark.svg#only-dark){ .twemoji loading=lazy } [I2P](alternative-networks.md#i2p-the-invisible-internet-project)
-- ![Tor logo](assets/images/self-contained-networks/tor.svg){ .twemoji loading=lazy } [Tor](alternative-networks.md#tor)
-- ![Orbot logo](assets/images/self-contained-networks/orbot.svg){ .twemoji loading=lazy } [Orbot (Mobile Tor Proxy)](alternative-networks.md#orbot)
-- ![Snowflake logo](assets/images/self-contained-networks/snowflake.svg#only-light){ .twemoji loading=lazy }![Snowflake logo](assets/images/self-contained-networks/snowflake-dark.svg#only-dark){ .twemoji loading=lazy } [Snowflake](alternative-networks.md#snowflake)
+- ![I2P 로고](assets/images/self-contained-networks/i2p.svg#only-light){ .twemoji loading=lazy } ![I2P 로고](assets/images/self-contained-networks/i2p-dark.svg#only-dark){ .twemoji loading=lazy } [I2P](alternative-networks.md#i2p-the-invisible-internet-project)
+- ![Tor 로고](assets/images/self-contained-networks/tor.svg){ .twemoji loading=lazy } [Tor](alternative-networks.md#tor)
+- ![Orbot 로고](assets/images/self-contained-networks/orbot.svg){ .twemoji loading=lazy } [Orbot (모바일 Tor 프록시)](alternative-networks.md#orbot)
+- ![Snowflake 로고](assets/images/self-contained-networks/snowflake.svg#only-light){ .twemoji loading=lazy }![Snowflake 로고](assets/images/self-contained-networks/snowflake-dark.svg#only-dark){ .twemoji loading=lazy } [Snowflake](alternative-networks.md#snowflake)
 
 </div>
 
@@ -712,9 +712,9 @@ OS 드라이브를 암호화할 때는 윈도우의 **비트로커**, macOS의 *
 
 <div class="grid cards" markdown>
 
-- ![MVT logo](assets/images/device-integrity/mvt.webp#only-light){ .twemoji loading=lazy }![MVT logo](assets/images/device-integrity/mvt-dark.png#only-dark){ .twemoji loading=lazy } [Mobile Verification Toolkit](device-integrity.md#mobile-verification-toolkit)
-- ![iMazing logo](assets/images/device-integrity/imazing.png){ .twemoji loading=lazy } [iMazing (iOS)](device-integrity.md#imazing-ios)
-- ![Auditor logo](assets/images/device-integrity/auditor.svg#only-light){ .twemoji loading=lazy }![Auditor logo](assets/images/device-integrity/auditor-dark.svg#only-dark){ .twemoji loading=lazy } [Auditor (Android)](device-integrity.md#auditor-android)
+- ![MVT 로고](assets/images/device-integrity/mvt.webp#only-light){ .twemoji loading=lazy }![MVT 로고](assets/images/device-integrity/mvt-dark.png#only-dark){ .twemoji loading=lazy } [Mobile Verification Toolkit](device-integrity.md#mobile-verification-toolkit)
+- ![iMazing 로고](assets/images/device-integrity/imazing.png){ .twemoji loading=lazy } [iMazing (iOS)](device-integrity.md#imazing-ios)
+- ![Auditor 로고](assets/images/device-integrity/auditor.svg#only-light){ .twemoji loading=lazy }![Auditor 로고](assets/images/device-integrity/auditor-dark.svg#only-dark){ .twemoji loading=lazy } [Auditor (Android)](device-integrity.md#auditor-android)
 
 </div>
 

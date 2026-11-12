@@ -48,9 +48,9 @@ schema:
 
 <div class="admonition recommendation" markdown>
 
-![Brave logo](assets/images/browsers/brave.svg){ align=right }
+![브레이브 로고](assets/images/browsers/brave.svg){ align=right }
 
-**Brave Browser** includes a built-in content blocker and [privacy features](https://brave.com/privacy-features), many of which are enabled by default.
+**브레이브 브라우저**에는 내장 콘텐츠 차단기와 [개인정보 보호 기능](https://brave.com/privacy-features)이 포함되어 있으며, 이들 중 상당수는 기본적으로 활성화되어 있습니다.
 
 브레이브는 크로미움 웹 브라우저 프로젝트 기반으로 구축되었으므로, 친숙하며 웹사이트 호환성 문제가 적습니다.
 
@@ -201,9 +201,9 @@ iOS에서는 웹을 탐색할 수 있는 모든 앱이 애플이 제공하는 [�
 
 <div class="admonition recommendation" markdown>
 
-![Safari logo](assets/images/browsers/safari.svg){ align=right }
+![사파리 로고](assets/images/browsers/safari.svg){ align=right }
 
-**Safari** is the default browser in iOS. [지능형 추적 방지](https://webkit.org/blog/7675/intelligent-tracking-prevention), 서로 격리된 임시 개인정보 보호 브라우징 탭, 핑거프린팅 방지(웹사이트에 단순화된 시스템 구성 정보를 제공해 더 많은 기기가 동일하게 보이도록 함), 핑거프린트 무작위화 같은 [개인정보 보호 기능](https://support.apple.com/guide/iphone/browse-the-web-privately-iphb01fc3c85/ios)을 갖추고 있으며, 유료 아이클라우드+ 구독자에게는 비공개 릴레이도 제공합니다.
+**사파리**는 iOS의 기본 브라우저입니다. [지능형 추적 방지](https://webkit.org/blog/7675/intelligent-tracking-prevention), 서로 격리된 임시 개인정보 보호 브라우징 탭, 핑거프린팅 방지(웹사이트에 단순화된 시스템 구성 정보를 제공해 더 많은 기기가 동일하게 보이도록 함), 핑거프린트 무작위화 같은 [개인정보 보호 기능](https://support.apple.com/guide/iphone/browse-the-web-privately-iphb01fc3c85/ios)을 갖추고 있으며, 유료 아이클라우드+ 구독자에게는 비공개 릴레이도 제공합니다.
 
 [:octicons-home-16: 홈페이지](https://apple.com/safari){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://apple.com/legal/privacy/data/en/safari){ .card-link title="개인정보 처리방침" }
