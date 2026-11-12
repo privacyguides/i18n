@@ -7,7 +7,7 @@ hide:
 description: 프라이버시 가이드 커뮤니티가 추천하는 프라이버시 도구, 서비스, 소프트웨어, 하드웨어의 전체 목록입니다.
 ---
 
-특정 문제에 대한 해결책을 찾고 있다면, 다음은 다양한 카테고리에서 프라이버시 가이드가 추천하는 하드웨어 및 소프트웨어 도구입니다. 추천 프라이버시 도구는 주로 보안 기능을 기준으로 선정하며, 탈중앙화 도구와 오픈 소스 도구에 추가로 비중을 둡니다. 전 세계적인 대규모 감시 프로그램으로부터의 보호, 빅테크 기업 회피, 공격 완화 등 다양한 위협 모델에 적용할 수 있지만, 무엇이 여러분에게 가장 적합한지는 여러분만이 판단할 수 있습니다.
+특정 문제를 해결할 도구를 찾고 있다면, 아래에서 저희가 추천하는 다양한 하드웨어 및 소프트웨어를 살펴보세요. 추천 도구는 주로 보안 기능을 기준으로 선정하며, 탈중앙화 및 오픈 소스 도구도 우선적으로 고려합니다. 전 세계적인 대규모 감시 프로그램으로부터의 보호, 빅테크 기업 회피, 공격 완화 등 다양한 위협 모델에 적용할 수 있지만, 무엇이 여러분에게 가장 적합한지는 여러분만이 판단할 수 있습니다.
 
 <div class="grid" markdown>
 
@@ -89,14 +89,14 @@ description: 프라이버시 가이드 커뮤니티가 추천하는 프라이버
 
     **Brave** is a private-by-default browser based on Chromium, so it should feel familiar and have minimal website compatibility issues.
 
-    - [Brave Desktop Review :material-arrow-right-drop-circle:](desktop-browsers.md#brave)
-    - [Brave Mobile Review :material-arrow-right-drop-circle:](mobile-browsers.md#brave)
+    - [Brave 데스크톱 리뷰 :material-arrow-right-drop-circle:](desktop-browsers.md#brave)
+    - [Brave 모바일 리뷰 :material-arrow-right-drop-circle:](mobile-browsers.md#brave)
 
-- ![Safari logo](assets/images/browsers/safari.svg){ .lg .middle .twemoji } **Safari (iOS)**
+- ![Safari 로고](assets/images/browsers/safari.svg){ .lg .middle .twemoji } **Safari (iOS)**
 
     ---
 
-    We recommend **Safari** due to its [anti-fingerprinting](https://webkit.org/blog/15697/private-browsing-2-0) features and default tracker blocking. 또한 비공개 브라우징 모드에서 쿠키를 분리하여 탭 간 추적을 방지합니다.
+    [지문 추적 방지](https://webkit.org/blog/15697/private-browsing-2-0) 기능과 기본 제공되는 추적기 차단 기능 덕분에 **Safari**를 권장합니다. 또한 비공개 브라우징 모드에서 쿠키를 분리하여 탭 간 추적을 방지합니다.
 
     - [전체 리뷰 읽기 :material-arrow-right-drop-circle:](mobile-browsers.md#safari-ios)
 
@@ -109,9 +109,9 @@ description: 프라이버시 가이드 커뮤니티가 추천하는 프라이버
 
 <div class="grid cards" markdown>
 
-- ![uBlock Origin logo](assets/images/browsers/ublock_origin.svg){ .twemoji loading=lazy } [uBlock Origin](browser-extensions.md#ublock-origin)
-- ![uBlock Origin Lite logo](assets/images/browsers/ublock_origin_lite.svg){ .twemoji loading=lazy } [uBlock Origin Lite](browser-extensions.md#ublock-origin-lite)
-- ![AdGuard logo](assets/images/browsers/adguard.svg){ .twemoji loading=lazy } [AdGuard for iOS](browser-extensions.md#adguard)
+- ![uBlock Origin 로고](assets/images/browsers/ublock_origin.svg){ .twemoji loading=lazy } [uBlock Origin](browser-extensions.md#ublock-origin)
+- ![uBlock Origin Lite 로고](assets/images/browsers/ublock_origin_lite.svg){ .twemoji loading=lazy } [uBlock Origin Lite](browser-extensions.md#ublock-origin-lite)
+- ![AdGuard 로고](assets/images/browsers/adguard.svg){ .twemoji loading=lazy } [iOS용 AdGuard](browser-extensions.md#adguard)
 
 </div>
 
@@ -122,7 +122,7 @@ description: 프라이버시 가이드 커뮤니티가 추천하는 프라이버
 
 <div class="grid cards" markdown>
 
-- ![Onion Browser logo](assets/images/self-contained-networks/onion_browser.svg){ .twemoji loading=lazy } [Onion Browser (Tor for iOS)](tor.md#onion-browser-ios)
+- ![Onion Browser 로고](assets/images/self-contained-networks/onion_browser.svg){ .twemoji loading=lazy } [Onion Browser (iOS용 Tor)](tor.md#onion-browser-ios)
 
 </div>
 
@@ -147,41 +147,41 @@ VPN을 사용해도 브라우징 습관이 익명으로 유지되지 **않으며
 
 <div class="grid cards" markdown>
 
-- ![Proton VPN logo](assets/images/vpn/protonvpn.svg){ .lg .middle .twemoji } **Proton VPN**
+- ![Proton VPN 로고](assets/images/vpn/protonvpn.svg){ .lg .middle .twemoji } **Proton VPN**
 
     ---
 
-    - [x] **112+ Countries**
-    - [x] WireGuard Support
-    - [x] Cash Payments
-    - [x] Partial Port Forwarding Support
-    - [ ] No IPv6
+    - [x] **112개국 이상**
+    - [x] WireGuard 지원
+    - [x] 현금 결제
+    - [x] 부분 포트 포워딩 지원
+    - [ ] IPv6 미지원
 
-    [Read Full Review :material-arrow-right-drop-circle:](vpn.md#proton-vpn)
+    [전체 리뷰 읽기 :material-arrow-right-drop-circle:](vpn.md#proton-vpn)
 
-- ![IVPN logo](assets/images/vpn/mini/ivpn.svg){ .lg .middle .twemoji } **IVPN**
-
-    ---
-
-    - [x] **37+ Countries**
-    - [x] WireGuard Support
-    - [x] Monero & Cash Payments
-    - [ ] No Port Forwarding
-    - [ ] No IPv6
-
-    [Read Full Review :material-arrow-right-drop-circle:](vpn.md#ivpn)
-
-- ![Mullvad logo](assets/images/vpn/mullvad.svg){ .lg .middle .twemoji } **Mullvad**
+- ![IVPN 로고](assets/images/vpn/mini/ivpn.svg){ .lg .middle .twemoji } **IVPN**
 
     ---
 
-    - [x] **49+ Countries**
-    - [x] WireGuard Support
-    - [x] Monero & Cash Payments
-    - [ ] No Port Forwarding
-    - [x] IPv6 Support
+    - [x] **37개국 이상**
+    - [x] WireGuard 지원
+    - [x] 모네로 및 현금 결제
+    - [ ] 포트 포워딩 미지원
+    - [ ] IPv6 미지원
 
-    [Read Full Review :material-arrow-right-drop-circle:](vpn.md#mullvad)
+    [전체 리뷰 읽기 :material-arrow-right-drop-circle:](vpn.md#ivpn)
+
+- ![Mullvad 로고](assets/images/vpn/mullvad.svg){ .lg .middle .twemoji } **Mullvad**
+
+    ---
+
+    - [x] **49개국 이상**
+    - [x] WireGuard 지원
+    - [x] 모네로 및 현금 결제
+    - [ ] 포트 포워딩 미지원
+    - [x] IPv6 지원
+
+    [전체 리뷰 읽기 :material-arrow-right-drop-circle:](vpn.md#mullvad)
 
 </div>
 
@@ -189,27 +189,27 @@ VPN을 사용해도 브라우징 습관이 익명으로 유지되지 **않으며
 
 <div class="grid cards" markdown>
 
-- ![Proton Mail logo](assets/images/email/protonmail.svg){ .lg .middle .twemoji } **Proton Mail**
+- ![Proton Mail 로고](assets/images/email/protonmail.svg){ .lg .middle .twemoji } **Proton Mail**
 
     ---
 
-    Proton Mail is an email service with a focus on privacy, encryption, security, and ease of use. 2013년부터 운영되고 있습니다. 프로톤 AG는 스위스 제네바에 본사를 두고 있습니다. 프로톤 메일 무료 요금제는 500MB의 메일 저장 공간을 제공하며, 무료로 최대 1GB까지 늘릴 수 있습니다.
+    프로톤 메일은 개인정보 보호, 암호화, 보안 및 사용 편의성에 중점을 둔 이메일 서비스입니다. 2013년부터 운영되고 있습니다. 프로톤 AG는 스위스 제네바에 본사를 두고 있습니다. 프로톤 메일 무료 요금제는 500MB의 메일 저장 공간을 제공하며, 무료로 최대 1GB까지 늘릴 수 있습니다.
 
-    [Read Full Review :material-arrow-right-drop-circle:](email.md#proton-mail)
+    [전체 리뷰 읽기 :material-arrow-right-drop-circle:](email.md#proton-mail)
 
-- ![Mailbox Mail logo](assets/images/email/mailbox-mail.svg){ .lg .middle .twemoji } **Mailbox Mail**
-
-    ---
-
-    Mailbox Mail (formerly *Mailbox.org*) is an email service with a focus on being secure, ad-free, and powered by 100% eco-friendly energy. 2014년부터 운영되고 있습니다. 메일박스 메일은 독일 베를린에 기반을 두고 있습니다. 계정은 최대 2GB의 저장 공간으로 시작하며, 필요에 따라 업그레이드할 수 있습니다.
-
-    [Read Full Review :material-arrow-right-drop-circle:](email.md#mailbox-mail)
-
-- ![Tuta logo](assets/images/email/tuta.svg#only-light){ .lg .middle .twemoji }![Tuta logo](assets/images/email/tuta-dark.svg#only-dark){ .lg .middle .twemoji } **Tuta**
+- ![Mailbox Mail 로고](assets/images/email/mailbox-mail.svg){ .lg .middle .twemoji } **Mailbox Mail**
 
     ---
 
-    Tuta (formerly *Tutanota*) is an email service with a focus on security and privacy through the use of encryption. 투타는 2011년부터 운영되고 있으며, 독일 하노버에 기반을 두고 있습니다. 무료 계정은 1GB의 저장 공간으로 시작합니다.
+    Mailbox Mail(구 *Mailbox.org*)은 보안과 광고 없음에 중점을 두고, 100% 친환경 에너지로 운영되는 이메일 서비스입니다. 2014년부터 운영되고 있습니다. 메일박스 메일은 독일 베를린에 기반을 두고 있습니다. 계정은 최대 2GB의 저장 공간으로 시작하며, 필요에 따라 업그레이드할 수 있습니다.
+
+    [전체 리뷰 읽기 :material-arrow-right-drop-circle:](email.md#mailbox-mail)
+
+- ![Tuta 로고](assets/images/email/tuta.svg#only-light){ .lg .middle .twemoji }![Tuta 로고](assets/images/email/tuta-dark.svg#only-dark){ .lg .middle .twemoji } **Tuta**
+
+    ---
+
+    투타(구 *Tutanota*)는 암호화를 통해 보안과 개인정보 보호에 중점을 둔 이메일 서비스입니다. 투타는 2011년부터 운영되고 있으며, 독일 하노버에 기반을 두고 있습니다. 무료 계정은 1GB의 저장 공간으로 시작합니다.
 
     [전체 리뷰 읽기 :material-arrow-right-drop-circle:](email.md#tuta)
 
@@ -222,8 +222,8 @@ VPN을 사용해도 브라우징 습관이 익명으로 유지되지 **않으며
 
 <div class="grid cards" markdown>
 
-- ![Addy.io logo](assets/images/email-aliasing/addy.svg){ .twemoji loading=lazy } [Addy.io](email-aliasing.md#addyio)
-- ![SimpleLogin logo](assets/images/email-aliasing/simplelogin.svg){ .twemoji loading=lazy } [SimpleLogin](email-aliasing.md#simplelogin)
+- ![Addy.io 로고](assets/images/email-aliasing/addy.svg){ .twemoji loading=lazy } [Addy.io](email-aliasing.md#addyio)
+- ![SimpleLogin 로고](assets/images/email-aliasing/simplelogin.svg){ .twemoji loading=lazy } [SimpleLogin](email-aliasing.md#simplelogin)
 
 </div>
 
@@ -235,13 +235,13 @@ VPN을 사용해도 브라우징 습관이 익명으로 유지되지 **않으며
 
 <div class="grid cards" markdown>
 
-- ![Thunderbird logo](assets/images/email-clients/thunderbird.svg){ .twemoji loading=lazy } [Thunderbird](email-clients.md#thunderbird)
-- ![Apple Mail logo](assets/images/email-clients/applemail.png){ .twemoji loading=lazy } [Apple Mail (macOS)](email-clients.md#apple-mail-macos)
-- ![FairEmail logo](assets/images/email-clients/fairemail.svg){ .twemoji loading=lazy } [FairEmail (Android)](email-clients.md#fairemail-android)
-- ![GNOME Evolution logo](assets/images/email-clients/evolution.svg){ .twemoji loading=lazy } [GNOME Evolution (Linux)](email-clients.md#gnome-evolution-gnome)
-- ![Kontact logo](assets/images/email-clients/kontact.svg){ .twemoji loading=lazy } [Kontact (Linux)](email-clients.md#kontact-kde)
-- ![Mailvelope logo](assets/images/email-clients/mailvelope.svg){ .twemoji loading=lazy } [Mailvelope (PGP in standard webmail)](email-clients.md#mailvelope-browser)
-- ![NeoMutt logo](assets/images/email-clients/mutt.svg){ .twemoji loading=lazy } [NeoMutt (CLI)](email-clients.md#neomutt-cli)
+- ![Thunderbird 로고](assets/images/email-clients/thunderbird.svg){ .twemoji loading=lazy } [Thunderbird](email-clients.md#thunderbird)
+- ![Apple Mail 로고](assets/images/email-clients/applemail.png){ .twemoji loading=lazy } [Apple Mail (macOS)](email-clients.md#apple-mail-macos)
+- ![FairEmail 로고](assets/images/email-clients/fairemail.svg){ .twemoji loading=lazy } [FairEmail (Android)](email-clients.md#fairemail-android)
+- ![GNOME Evolution 로고](assets/images/email-clients/evolution.svg){ .twemoji loading=lazy } [GNOME Evolution (Linux)](email-clients.md#gnome-evolution-gnome)
+- ![Kontact 로고](assets/images/email-clients/kontact.svg){ .twemoji loading=lazy } [Kontact (Linux)](email-clients.md#kontact-kde)
+- ![Mailvelope 로고](assets/images/email-clients/mailvelope.svg){ .twemoji loading=lazy } [Mailvelope (표준 웹메일용 PGP)](email-clients.md#mailvelope-browser)
+- ![NeoMutt 로고](assets/images/email-clients/mutt.svg){ .twemoji loading=lazy } [NeoMutt (CLI)](email-clients.md#neomutt-cli)
 
 </div>
 
@@ -253,9 +253,9 @@ VPN을 사용해도 브라우징 습관이 익명으로 유지되지 **않으며
 
 <div class="grid cards" markdown>
 
-- ![Proton Drive logo](assets/images/cloud/protondrive.svg){ .twemoji loading=lazy } [Proton Drive](cloud.md#proton-drive)
-- ![Tresorit logo](assets/images/cloud/tresorit.svg){ .twemoji loading=lazy } [Tresorit](cloud.md#tresorit)
-- ![Peergos logo](assets/images/cloud/peergos.svg){ .twemoji loading=lazy } [Peergos](cloud.md#peergos)
+- ![프로톤 드라이브 로고](assets/images/cloud/protondrive.svg){ .twemoji loading=lazy } [프로톤 드라이브](cloud.md#proton-drive)
+- ![트레소릿 로고](assets/images/cloud/tresorit.svg){ .twemoji loading=lazy } [트레소릿](cloud.md#tresorit)
+- ![피어고스 로고](assets/images/cloud/peergos.svg){ .twemoji loading=lazy } [피어고스](cloud.md#peergos)
 
 </div>
 
@@ -265,8 +265,8 @@ VPN을 사용해도 브라우징 습관이 익명으로 유지되지 **않으며
 
 <div class="grid cards" markdown>
 
-- ![EasyOptOuts logo](assets/images/data-broker-removals/easyoptouts.svg){ .twemoji loading=lazy } [EasyOptOuts](data-broker-removals.md#easyoptouts-paid)
-- ![Google logo](assets/images/data-broker-removals/google.svg){ .twemoji loading=lazy } [Google *Results about you*](data-broker-removals.md#google-results-about-you-free)
+- ![EasyOptOuts 로고](assets/images/data-broker-removals/easyoptouts.svg){ .twemoji loading=lazy } [EasyOptOuts](data-broker-removals.md#easyoptouts-paid)
+- ![Google 로고](assets/images/data-broker-removals/google.svg){ .twemoji loading=lazy } [Google *당신에 관한 검색 결과*](data-broker-removals.md#google-results-about-you-free)
 
 </div>
 

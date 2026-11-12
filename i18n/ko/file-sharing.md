@@ -76,13 +76,13 @@ ffsend upload --host https://send.vis.ee/ FILE
 
 ## 파일 동기화 { #file-sync }
 
-### 싱크싱(P2P) { #syncthing-p2p }
+### 싱크띵(P2P) { #syncthing-p2p }
 
 <div class="admonition recommendation" markdown>
 
 ![Syncthing logo](assets/images/file-sharing-sync/syncthing.svg){ align=right }
 
-**Syncthing** is an open-source peer-to-peer continuous file synchronization utility. 로컬 네트워크나 인터넷을 통해 두 대 이상의 기기 간에 파일을 동기화하는 데 사용됩니다. 싱크싱은 중앙 서버를 사용하지 않으며, [블록 교환 프로토콜(Block Exchange Protocol)](https://docs.syncthing.net/specs/bep-v1.html#bep-v1)을 사용해 기기 간에 데이터를 전송합니다. 모든 데이터는 TLS로 암호화됩니다.
+**Syncthing** is an open-source peer-to-peer continuous file synchronization utility. 로컬 네트워크나 인터넷을 통해 두 대 이상의 기기 간에 파일을 동기화하는 데 사용됩니다. 싱크띵은 중앙 서버를 사용하지 않으며, [블록 교환 프로토콜(Block Exchange Protocol)](https://docs.syncthing.net/specs/bep-v1.html#bep-v1)을 사용해 기기 간에 데이터를 전송합니다. 모든 데이터는 TLS로 암호화됩니다.
 
 [:octicons-home-16: 홈페이지](https://syncthing.net){ .md-button .md-button--primary }
 [:octicons-info-16:](https://docs.syncthing.net){ .card-link title="문서"}

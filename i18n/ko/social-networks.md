@@ -10,13 +10,13 @@ cover: social-networks.webp
 - [:material-close-outline: 검열](basics/common-threats.md#avoiding-censorship){ .pg-blue-gray }
 - [:material-account-cash: 감시 자본주의](basics/common-threats.md#surveillance-as-a-business-model){ .pg-brown }
 
-프라이버시를 존중하는 이 **소셜 네트워크**를 사용하면 실명, 전화번호 등 기술 기업이 흔히 요구하는 개인 정보를 내주지 않고도 온라인 커뮤니티에 참여할 수 있습니다.
+프라이버시를 존중하는 이 **소셜 네트워크**를 사용하면 실명이나 전화번호 등 기술 기업이 흔히 요구하는 개인정보를 제공하지 않고도 온라인 커뮤니티에 참여할 수 있습니다.
 
-소셜 미디어 플랫폼에서 점점 커지는 문제는 두 가지 형태의 검열입니다. 첫째, 이러한 플랫폼은 악의적인 정부나 자체 내부 정책에 따른 부당한 검열 요청에 순순히 응하는 경우가 많습니다. 둘째, 원래라면 개방된 인터넷에 자유롭게 공개되었을 콘텐츠를 보는 데에도 계정을 요구하는 경우가 많습니다. 이는 이러한 네트워크에 계정을 만드는 프라이버시 비용을 감수할 수 없는, 프라이버시를 중시하는 사용자의 브라우징 활동을 사실상 검열하는 것입니다.
+소셜 미디어 플랫폼에서 점점 커지는 문제는 두 가지 형태의 검열입니다. 첫째, 이러한 플랫폼은 악의적인 정부나 자체 내부 정책에 따른 부당한 검열 요구에도 별다른 저항 없이 응하는 경우가 많습니다. 둘째, 원래는 누구나 계정 없이 볼 수 있는 공개 콘텐츠를 열람하는 데에도 계정을 요구하는 경우가 많습니다. 이는 이러한 네트워크에 가입하기 위해 개인정보를 제공해야 하는 부담을 감수할 수 없는 개인정보 보호 중심의 이용자에게는, 웹 탐색 활동을 사실상 제한하는 결과를 낳습니다.
 
 프라이버시 가이드가 추천하는 소셜 네트워크는 개방형 탈중앙화 소셜 네트워킹 프로토콜 위에서 운영되므로 검열 문제를 해결합니다. 또한 공개된 콘텐츠를 보는 것만으로 계정을 요구하지 않습니다.
 
-어떤 소셜 네트워크도 사적이거나 민감한 소통에는 적합하지 **않다**는 점에 유의하세요. 다른 사람과 직접 대화하려면 강력한 종단 간 암호화를 갖춘 추천 [메신저](real-time-communication.md)를 사용해야 하며, 소셜 미디어의 다이렉트 메시지는 연락처와 더 사적이고 안전한 채팅 플랫폼을 마련하는 용도로만 사용해야 합니다.
+어떤 소셜 네트워크도 사적이거나 민감한 소통에는 적합하지 **않다**는 점에 유의하세요. 다른 사람과 직접 대화하려면 강력한 종단 간 암호화를 갖춘 추천 [메신저](real-time-communication.md)를 사용해야 하며, 소셜 미디어의 다이렉트 메시지는 지인과 더 안전하고 사적인 메신저로 대화를 옮기기 위한 연락 수단으로만 사용해야 합니다.
 
 ## 탈중앙화 { #decentralization }
 
@@ -44,7 +44,7 @@ cover: social-networks.webp
 
 <div class="admonition recommendation" markdown>
 
-![Mastodon logo](assets/images/social-networks/mastodon.svg){ align=right }
+![Mastodon 로고](assets/images/social-networks/mastodon.svg){ align=right }
 
 **마스토돈**은 개방형 웹 프로토콜과 자유 오픈 소스 소프트웨어를 기반으로 하는 소셜 네트워크입니다. 이메일처럼 탈중앙화된 **:simple-activitypub: 액티비티펍** 프로토콜을 사용하므로, 사용자는 서로 다른 서버나 심지어 서로 다른 플랫폼에 있어도 서로 소통할 수 있습니다.
 
@@ -116,9 +116,9 @@ cover: social-networks.webp
 
 <div class="admonition recommendation" markdown>
 
-![Element logo](assets/images/social-networks/element.svg){ align=right }
+![Element 로고](assets/images/social-networks/element.svg){ align=right }
 
-**엘리먼트**는 연합된 대화방을 통해 탈중앙화된 통신을 가능하게 하는 [개방형 표준](https://spec.matrix.org/latest)인 **:simple-matrix: [매트릭스](https://matrix.org/docs/chat_basics/matrix-for-im)** 프로토콜의 대표 클라이언트입니다. 사용자는 서로 다른 홈서버에 있어도 서로 소통할 수 있습니다.
+**엘리먼트**는 서로 다른 서버 간 통신을 지원하는 오픈 프로토콜인(https://spec.matrix.org/latest)인 **:simple-matrix: [매트릭스](https://matrix.org/docs/chat_basics/matrix-for-im)** 프로토콜의 대표 클라이언트입니다. 사용자는 서로 다른 홈서버에 있어도 서로 소통할 수 있습니다.
 
 [:octicons-home-16: 홈페이지](https://element.io){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://element.io/privacy){ .card-link title="개인정보 처리방침" }

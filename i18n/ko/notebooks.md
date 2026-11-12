@@ -15,15 +15,15 @@ cover: notebooks.webp
 
 ## 클라우드 기반 { #cloud-based }
 
-### 스탠더드 노트 { #standard-notes }
+### Standard Notes
 
 <div class="admonition recommendation" markdown>
 
 ![Standard Notes 로고](assets/images/notebooks/standard-notes.svg){ align=right }
 
-**Standard Notes**는 원활한 사용을 위한 크로스 플랫폼 동기화 기능을 갖춘, 간편하고 개인 정보 보호에 중점을 둔 메모 앱입니다. 모든 플랫폼에서 E2EE를 제공하며, 테마와 사용자 지정 편집기를 갖춘 강력한 데스크톱 환경을 제공합니다.
+**Standard Notes**는 원활한 사용을 위한 크로스 플랫폼 동기화 기능을 갖춘, 간편하고 프라이버시 메모 앱입니다. 모든 플랫폼에서 E2EE를 제공하며, 테마와 사용자 지정 편집기를 갖춘 강력한 데스크톱 환경을 제공합니다.
 
-스탠더드 노트는 여러 차례 [독립적인 감사](https://standardnotes.com/help/2/has-standard-notes-completed-a-third-party-security-audit)도 받았습니다.
+Standard Notes는 여러 차례 [독립적인 감사](https://standardnotes.com/help/2/has-standard-notes-completed-a-third-party-security-audit)도 받았습니다.
 
 [:octicons-home-16: 홈페이지](https://standardnotes.com){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://standardnotes.com/privacy){ .card-link title="개인정보 처리방침" }
@@ -46,15 +46,15 @@ cover: notebooks.webp
 
 </div>
 
-스탠더드 노트는 2024년 4월 10일부로 [프로톤 AG에 합류](https://standardnotes.com/blog/joining-forces-with-proton)했습니다.
+Standard Notes는 2024년 4월 10일부로 [프로톤 AG에 합류](https://standardnotes.com/blog/joining-forces-with-proton)했습니다.
 
-### 노츠눅 { #notesnook }
+### Notesnook
 
 <div class="admonition recommendation" markdown>
 
-![Notesnook logo](assets/images/notebooks/notesnook.svg){ align=right }
+![Notesnook 로고](assets/images/notebooks/notesnook.svg){ align=right }
 
-**Notesnook** is a free (as in speech), open-source, and easy-to-use E2EE note-taking app focused on user privacy.
+**Notesnook**은 자유와 프라이버시에 중점을 둔, 사용하기 쉬운 오픈소스 E2EE 메모 앱입니다.
 
 여러 플랫폼에서 노트에 접근할 수 있는 동기화 기능을 제공합니다. [공식 가져오기 도구](https://importer.notesnook.com)를 사용하면 에버노트, 원노트 등 다른 앱의 노트를 쉽게 가져올 수 있습니다.
 
@@ -86,9 +86,9 @@ cover: notebooks.webp
 
 <div class="admonition recommendation" markdown>
 
-![Joplin logo](assets/images/notebooks/joplin.svg){ align=right }
+![Joplin 로고](assets/images/notebooks/joplin.svg){ align=right }
 
-**Joplin** is a free, open-source, and fully-featured E2EE note-taking and to-do application which can handle numerous Markdown notes organized into notebooks and tags.
+**조플린**은 무료이며 오픈 소스인, 모든 기능을 갖춘 E2EE 메모 및 할 일 관리 애플리케이션으로, 노트북과 태그로 정리된 수많은 마크다운 메모를 관리할 수 있습니다.
 
 넥스트클라우드, 드롭박스 등을 통해 동기화할 수 있습니다. 에버노트와 일반 텍스트 노트에서 쉽게 가져오는 기능도 제공합니다.
 
@@ -120,12 +120,12 @@ cover: notebooks.webp
 
 <div class="admonition recommendation" markdown>
 
-![Cryptee logo](assets/images/notebooks/cryptee.svg#only-light){ align=right }
-![Cryptee logo](assets/images/notebooks/cryptee-dark.svg#only-dark){ align=right }
+![Cryptee 로고](assets/images/notebooks/cryptee.svg#only-light){ align=right }
+![Cryptee 로고](assets/images/notebooks/cryptee-dark.svg#only-dark){ align=right }
 
-**Cryptee** is an open-source, web-based E2EE document editor and photo storage application.
+**Cryptee**는 오픈소스 기반의 웹 기반 E2EE 문서 편집기이자 사진 저장 애플리케이션입니다.
 
-크립티는 100MB의 저장 공간을 무료로 제공하며, 더 필요하다면 유료 옵션을 이용할 수 있습니다. 가입할 때 이메일이나 기타 개인 식별 정보가 필요하지 않습니다.
+Cryptee는 100MB의 저장 공간을 무료로 제공하며, 더 필요하다면 유료 옵션을 이용할 수 있습니다. 가입할 때 이메일이나 기타 개인 식별 정보가 필요하지 않습니다.
 
 [:octicons-home-16: 홈페이지](https://crypt.ee){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://crypt.ee/privacy){ .card-link title="개인정보 처리방침" }
@@ -141,7 +141,7 @@ cover: notebooks.webp
 
 </div>
 
-크립티는 PWA이므로 각 플랫폼용 네이티브 앱 없이도 모든 최신 기기에서 원활하게 작동합니다.
+Cryptee는 PWA이므로 각 플랫폼용 네이티브 앱 없이도 모든 최신 기기에서 원활하게 작동합니다.
 
 ## 로컬 노트 { #local-notebooks }
 
@@ -149,9 +149,9 @@ cover: notebooks.webp
 
 <div class="admonition recommendation" markdown>
 
-![Org-mode logo](assets/images/notebooks/org-mode.svg){ align=right }
+![Org-mode 로고](assets/images/notebooks/org-mode.svg){ align=right }
 
-**Org-mode** is a [major mode](https://gnu.org/software/emacs/manual/html_node/elisp/Major-Modes.html) for GNU Emacs. Org-mode는 빠르고 효과적인 일반 텍스트 시스템으로 노트를 작성하고, 할 일 목록을 관리하며, 프로젝트를 계획하고, 문서를 작성하는 데 사용됩니다. [싱크싱](file-sharing.md#syncthing-p2p) 같은 도구로 파일을 동기화할 수 있습니다.
+**Org-mode**는 GNU Emacs에서 사용하는 주요 모드(major mode)(https://gnu.org/software/emacs/manual/html_node/elisp/Major-Modes.html)입니다. 일반 텍스트를 기반으로 노트 작성, 할 일 관리, 프로젝트 계획 및 문서 작성 등을 빠르고 효율적으로 처리할 수 있습니다. [싱크띵](file-sharing.md#syncthing-p2p) 같은 도구로 파일을 동기화할 수 있습니다.
 
 [:octicons-home-16: 홈페이지](https://orgmode.org){ .md-button .md-button--primary }
 [:octicons-info-16:](https://orgmode.org/manuals.html){ .card-link title="문서" }

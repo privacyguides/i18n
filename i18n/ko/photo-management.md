@@ -10,15 +10,15 @@ cover: photo-management.webp
 - [:material-bug-outline: 수동적 공격](basics/common-threats.md#security-and-privacy){ .pg-orange }
 - [:material-server-network: 서비스 제공업체](basics/common-threats.md#privacy-from-service-providers){ .pg-teal }
 
-구글 포토, 플리커, 아마존 포토 같은 대부분의 클라우드 **사진 관리 솔루션**은 클라우드 스토리지 제공업체 자체가 사진에 접근하는 것을 막지 못합니다. 다음 선택지는 가족이나 신뢰하는 사람들과만 사진을 공유할 수 있도록 하면서 개인 사진을 비공개로 유지해 줍니다.
+Google Photos, Flickr, Amazon Photos와 같은 대형 클라우드 **사진 서비스**는 서비스 제공업체가 사용자의 사진에 접근하지 못하도록 보장하지 않습니다. 아래에서 소개하는 서비스는 가족이나 신뢰하는 사람들과 사진을 공유하면서도 개인 사진을 비공개로 유지할 수 있도록 도와줍니다.
 
 ## 엔테 포토 { #ente-photos }
 
 <div class="admonition recommendation" markdown>
 
-![Ente logo](assets/images/photo-management/ente.svg){ align=right }
+![Ente 로고](assets/images/photo-management/ente.svg){ align=right }
 
-**엔테 포토**는 iOS와 안드로이드에서 자동 백업을 지원하는 종단 간 암호화 사진 백업 서비스입니다. 클라이언트와 서버 모두 코드가 완전히 오픈 소스입니다. [자체 호스팅](https://github.com/ente-io/ente/tree/main/server#self-hosting)도 가능합니다.
+**엔테 포토**는 iOS와 안드로이드에서 자동 백업을 지원하는 종단 간 암호화 사진 백업 서비스입니다. 클라이언트와 서버 모두 코드가 완전히 오픈 소스로 공개되어 있습니다. [자체 호스팅](https://github.com/ente-io/ente/tree/main/server#self-hosting)도 가능합니다.
 
 무료 요금제는 1년에 한 번 이상 서비스를 사용하는 한 10GB의 저장 공간을 제공합니다.
 
@@ -43,7 +43,7 @@ cover: photo-management.webp
 
 </div>
 
-엔테 포토의 기반이 되는 서버 측 소스 코드와 인프라는 2025년 10월 [Cure53](https://ente.com/blog/cern-audit)의 감사를 받았습니다. 이전에는 2023년 3월 [Cure53](https://ente.com/blog/cryptography-audit), 2023년 4월 [폴리블](https://ente.com/reports/Fallible-Audit-Report-19-04-2023.pdf)의 감사를 받았습니다.
+엔테 포토의 기반이 되는 서버 측 소스 코드와 인프라는 2025년 10월 [Cure53](https://ente.com/blog/cern-audit)의 감사를 받았습니다. 이전에는 2023년 3월 [Cure53](https://ente.com/blog/cryptography-audit), 2023년 4월 [Fallible](https://ente.com/reports/Fallible-Audit-Report-19-04-2023.pdf)의 감사를 받았습니다.
 
 ## 평가 기준 { #criteria }
 

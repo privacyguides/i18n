@@ -15,9 +15,9 @@ cover: pastebins.webp
 
 <div class="admonition recommendation" markdown>
 
-![PrivateBin logo](assets/images/pastebins/privatebin.svg){ align=right }
+![PrivateBin 로고](assets/images/pastebins/privatebin.svg){ align=right }
 
-**프라이빗빈**은 여러분이 제출한 붙여넣기 데이터를 서버가 복호화하거나 읽을 수 없는 미니멀한 오픈 소스 온라인 페이스트빈입니다. 데이터는 브라우저에서 256비트 AES로 암호화/복호화됩니다. 제로빈(ZeroBin)을 개선한 버전입니다.
+**프라이빗빈**은 사용자가 게시한 내용을 서버가 복호화하거나 읽을 수 없도록 설계된 미니멀한 오픈 소스 텍스트 공유 서비스입니다. 데이터는 브라우저에서 256비트 AES로 암호화/복호화됩니다. 제로빈(ZeroBin)을 개선한 버전입니다.
 
 [:octicons-home-16: 홈페이지](https://privatebin.info){ .md-button .md-button--primary }
 [:octicons-server-16:](https://privatebin.info/directory){ .card-link title="공개 인스턴스"}
@@ -30,9 +30,9 @@ cover: pastebins.webp
 
 <div class="admonition recommendation" markdown>
 
-![Paaster logo](assets/images/pastebins/paaster.svg){ align=right }
+![Paaster 로고](assets/images/pastebins/paaster.svg){ align=right }
 
-**파스터**는 프라이버시와 단순함을 우선시하는 안전하고 사용하기 쉬운 페이스트빈 애플리케이션입니다. 종단 간 암호화와 붙여넣기 기록 기능을 갖추고 있어, 붙여넣은 코드를 기밀로 유지하면서도 언제든 접근할 수 있게 해 줍니다.
+**파스터**는 프라이버시와 단순함을 우선시하는 안전하고 사용하기 쉬운 페이스트빈 애플리케이션입니다. 종단 간 암호화와 게시한 내용의 기록을 관리할 수 있어, 코드를 기밀로 유지하면서도 필요할 때 다시 접근할 수 있습니다.
 
 [:octicons-home-16: 홈페이지](https://paaster.io){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://paaster.io/privacy-policy){ .card-link title="개인정보 처리방침" }

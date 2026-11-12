@@ -9,13 +9,13 @@ cover: office-suites.webp
 
 - [:material-server-network: 서비스 제공업체](basics/common-threats.md#privacy-from-service-providers){ .pg-teal }
 
-모든 기능을 사용하는 데 계정 로그인이 필요하지 않은 **오피스 제품군**을 선택하세요. 여기에 소개된 도구는 오프라인에서 사용할 수 있으며, 대부분의 용도에서 마이크로소프트 오피스를 충분히 대체할 수 있습니다.
+모든 기능을 이용하기 위해 계정에 로그인할 필요가 없는 오피스 제품군을 선택하세요. 여기서 소개하는 도구는 오프라인에서도 사용할 수 있으며, 대부분의 작업에서 마이크로소프트 오피스를 충분히 대체할 수 있습니다.
 
 ## 리브레오피스 { #libreoffice }
 
 <div class="admonition recommendation" markdown>
 
-![LibreOffice logo](assets/images/office-suites/libreoffice.svg){ align=right }
+![LibreOffice 로고](assets/images/office-suites/libreoffice.svg){ align=right }
 
 **리브레오피스**는 폭넓은 기능을 갖춘 자유 오픈 소스 오피스 제품군입니다.
 
@@ -43,7 +43,7 @@ cover: office-suites.webp
 
 <div class="admonition recommendation" markdown>
 
-![OnlyOffice logo](assets/images/office-suites/onlyoffice.svg){ align=right }
+![OnlyOffice 로고](assets/images/office-suites/onlyoffice.svg){ align=right }
 
 **온리오피스**는 넥스트클라우드 연동을 포함해 폭넓은 기능을 갖춘 클라우드 기반 자유 오픈 소스 오피스 제품군입니다.
 
