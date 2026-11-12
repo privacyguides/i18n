@@ -1,6 +1,6 @@
 ---
 title: "프라이버시 가이드 소개"
-description: 프라이버시 가이드는 데이터 보안과 프라이버시를 보호하기 위한 정보를 제공하는 사회적 동기의 웹사이트입니다.
+description: 프라이버시 가이드는 데이터 보안과 프라이버시를 보호하기 위한 정보를 제공하는 공익적 웹사이트입니다.
 schema:
   "@context": https://schema.org
   "@type": Organization
@@ -18,7 +18,7 @@ schema:
 
 ![프라이버시 가이드 로고](assets/brand/logos/png/square/pg-yellow.png){ align=right }
 
-**프라이버시 가이드**는 데이터 보안과 프라이버시를 보호하기 위한 정보를 제공하는 사회적 동기의 웹사이트입니다. 프라이버시 가이드는 디지털 프라이버시의 가치와, 여러분의 온라인 활동을 감시하려는 세계 각국 정부의 계획에 대해 대중에게 알리는 것을 사명으로 하는 비영리 프로젝트입니다. 이 웹사이트에는 광고가 없으며, 소개된 어떤 제공업체와도 제휴 관계가 없습니다.
+**프라이버시 가이드**는 데이터 보안과 프라이버시를 보호하기 위한 정보를 제공하는 공익적 웹사이트입니다. 저희는 디지털 프라이버시의 중요성과 온라인 활동을 감시하려는 전 세계 정부의 정책 및 계획에 관한 정보를 대중에게 알리는 것을 사명으로 하는 비영리 프로젝트입니다. 이 웹사이트에는 광고가 없으며, 소개된 어떤 제공업체와도 제휴 관계가 없습니다.
 
 [:material-heart:{.pg-red} 회원 가입하기](https://donate.magicgrants.org/privacyguides){ .md-button .md-button--primary data-portal="signup" }
 [:octicons-home-16:](https://www.privacyguides.org){ .card-link title="홈페이지" }
@@ -34,7 +34,7 @@ schema:
 
 [:simple-discourse: 프라이버시 가이드 포럼 참여하기](https://discuss.privacyguides.net){ .md-button .md-button--primary }
 
-개별적인 도움을 받는 가장 좋은 방법은 디스코스의 커뮤니티를 이용하는 것입니다. 웹사이트에서 문제를 발견했다면 포럼의 [사이트 개발](https://discuss.privacyguides.net/c/site-development/7) 카테고리에서 토론을 열어 주세요. 프라이버시 가이드에서 다루는 내용에 대해 궁금한 점이 있다면 포럼의 [질문](https://discuss.privacyguides.net/c/privacy/questions/8) 카테고리에 질문해 주세요.
+Discourse 커뮤니티 포럼을 이용하는 것입니다. 웹사이트에서 문제를 발견했다면 포럼의 [사이트 개발](https://discuss.privacyguides.net/c/site-development/7) 카테고리에서 토론을 열어 주세요. 프라이버시 가이드에서 다루는 내용에 대해 궁금한 점이 있다면 포럼의 [질문](https://discuss.privacyguides.net/c/privacy/questions/8) 카테고리에 질문해 주세요.
 
 ![Signal contact QR code](assets/images/layout/signal-contact-qr.png){ align=right }
 
@@ -46,7 +46,7 @@ schema:
 
 모든 문의에 영업일 기준 3일 이내에 답변하도록 최선을 다하겠지만, 문의하는 모든 분께 개별적인 조언을 드릴 수는 없다는 점을 양해해 주세요. 프라이버시에 관해 궁금한 점이 있다면 [포럼에 질문](https://discuss.privacyguides.net/c/privacy/questions/8)하시면 프라이버시 가이드 커뮤니티로부터 훨씬 더 자세하고 빠른 답변을 받을 수 있습니다.
 
-이메일 클라이언트의 보안 설정이 충분하다고 생각된다면 OpenPGP를 사용해 이메일로 연락할 수도 있습니다. 클라이언트가 WKD를 지원한다면 WKD를 사용해 팀원의 PGP 키를 찾을 수 있습니다. 지원하지 않거나 무슨 뜻인지 잘 모르겠다면, [keys.openpgp.org](https://keys.openpgp.org)에서 검색하여 프라이버시 가이드 이메일 계정의 공개 키를 찾을 수도 있습니다. 팀 공유 메일함에는 PGP가 없으며, 아래 팀 목록에서 찾을 수 있는 개인 메일함에만 PGP가 있습니다.
+여러분의 이메일 클라이언트의 보안이 괜찮고 믿을만하다면 OpenPGP를 사용해 이메일로 연락할 수도 있습니다. 클라이언트가 WKD를 지원한다면 WKD를 사용해 팀원의 PGP 키를 찾을 수 있습니다. 지원하지 않거나 무슨 뜻인지 잘 모르겠다면, [keys.openpgp.org](https://keys.openpgp.org)에서 검색하여 프라이버시 가이드 이메일 계정의 공개 키를 찾을 수도 있습니다. 팀 공유 메일함에는 PGP가 없으며, 아래 팀 목록에서 찾을 수 있는 개인 메일함에만 PGP가 있습니다.
 
 다른 보안 채널이 필요하다면 소셜 미디어를 포함한 어떤 연락 방법으로든 요청해 주세요. 함께 보안 채널을 마련하겠습니다. 적절한 보안 대화 채널이 마련되기 전에는 민감한 정보를 공유하지 마세요.
 
@@ -122,7 +122,7 @@ schema:
 
 ## :material-account-edit: 직원 { #staff }
 
-프라이버시 가이드의 직원은 [동영상 제작](https://www.youtube.com/@privacyguides), [뉴스 기사와 튜토리얼](https://www.privacyguides.org/articles), 토론 커뮤니티와 소셜 미디어 등 프라이버시 가이드의 부가 콘텐츠에 기여하는 대가로 급여를 받습니다. 대부분은 정규직으로 근무하며 급여를 받고 조직을 지원합니다.
+프라이버시 가이드의 직원은 [동영상 제작](https://www.youtube.com/@privacyguides), [뉴스 기사와 튜토리얼](https://www.privacyguides.org/articles), 토론 커뮤니티와 소셜 미디어 등 프로젝트의 추가 콘텐츠 제작과 운영에 참여합니다. 대부분은 정규직으로 근무하며 프로젝트 운영을 지원합니다. 대부분은 정규직으로 근무하며 급여를 받으며 조직을 지원합니다.
 
 <div class="grid cards" markdown>
 
@@ -166,7 +166,7 @@ schema:
 
 ## :material-check-decagram: 소셜 미디어 { #social-media }
 
-프라이버시 가이드는 중앙화된 소셜 미디어 프로필이나 직접 관리하지 않는 기타 웹사이트로의 링크를 피하는 것을 기본 방침으로 하고 있습니다. 따라서 웹사이트 하단 등에서는 마스토돈과 피어튜브 계정, 매트릭스 채널처럼 완전히 직접 관리하는 플랫폼으로만 링크합니다.
+프라이버시 가이드는 중앙화된 소셜 미디어 프로필이나 직접 관리하지 않는 기타 웹사이트로의 링크를 피하는 것을 기본 방침으로 하고 있습니다. 가 직접 관리하는 마스토돈(Mastodon) 및 피어튜브(PeerTube) 계정과 매트릭스(Matrix) 채널 등으로만 연결합니다.
 
 하지만 프라이버시 가이드는 아직 콘텐츠를 접하지 못한 새로운 사용자에게 다가가기 위해 다양한 플랫폼에 소셜 미디어 계정을 _운영하고_ 있습니다. 이 계정들은 privacyguides.org로 연결되지만 그 반대로는 연결하지 않는 "일방통행" 방식으로 운영하려고 합니다. 하지만 이로 인해 어떤 계정이 실제로 프라이버시 가이드 팀이 운영하는 계정인지 혼란이 생기기도 합니다. 참고를 위해 모든 계정을 여기에 나열합니다:
 
@@ -203,7 +203,7 @@ schema:
 
 — [Tweakers.net](https://tweakers.net/reviews/10568/op-zoek-naar-privacyvriendelijke-tools-niek-de-wilde-van-privacy-guides.html) [네덜란드어에서 번역]
 
-그 밖에 다음 매체에도 소개되었습니다: [아스 테크니카](https://arstechnica.com/gadgets/2022/02/is-firefox-ok), [와이어커터](https://nytimes.com/wirecutter/guides/practical-guide-to-securing-windows-pc) [[2](https://nytimes.com/wirecutter/guides/practical-guide-to-securing-your-mac)], [NPO 라디오 1](https://nporadio1.nl/nieuws/binnenland/8eaff3a2-8b29-4f63-9b74-36d2b28b1fe1/ooit-online-eens-wat-doms-geplaatst-ga-jezelf-eens-googlen-en-kijk-dan-wat-je-tegenkomt), [와이어드](https://wired.com/story/firefox-mozilla-2022), [패스트 컴퍼니](https://fastcompany.com/91167564/mozilla-wants-you-to-love-firefox-again), [404 미디어](https://404media.co/privacy-service-optery-faces-backlash-after-plan-to-send-openai-user-data).
+그 밖에 다음 매체에도 소개되었습니다: [Ars Technica](https://arstechnica.com/gadgets/2022/02/is-firefox-ok), [Wirecutter](https://nytimes.com/wirecutter/guides/practical-guide-to-securing-windows-pc) [[2](https://nytimes.com/wirecutter/guides/practical-guide-to-securing-your-mac)], [NPO Radio 1](https://nporadio1.nl/nieuws/binnenland/8eaff3a2-8b29-4f63-9b74-36d2b28b1fe1/ooit-online-eens-wat-doms-geplaatst-ga-jezelf-eens-googlen-en-kijk-dan-wat-je-tegenkomt), [Wired](https://wired.com/story/firefox-mozilla-2022), [Fast Company](https://fastcompany.com/91167564/mozilla-wants-you-to-love-firefox-again) and [404 Media](https://404media.co/privacy-service-optery-faces-backlash-after-plan-to-send-openai-user-data).
 
 ## :material-history: 역사 { #history }
 

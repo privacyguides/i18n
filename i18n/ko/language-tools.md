@@ -14,13 +14,13 @@ cover: language-tools.webp
 
 ## 번역 도구 { #translation-tools }
 
-### 리브레트랜슬레이트 { #libretranslate }
+### LibreTranslate { #리브레트랜슬레이트 }
 
 <div class="admonition recommendation" markdown>
 
 ![LibreTranslate logo](assets/images/language-tools/libretranslate.png){ align=right }
 
-**리브레트랜슬레이트**는 자유 오픈 소스 기반 기계 번역 웹 인터페이스이자 API 서버입니다. 번역에는 백엔드에서 [아르고스 트랜슬레이트](https://github.com/argosopentech/argos-translate) 모델을 사용합니다.
+**LibreTranslate**는 자유 오픈 소스 기반 기계 번역 웹 인터페이스이자 API 서버입니다. 번역에는 백엔드에서 [Argos Translate](https://github.com/argosopentech/argos-translate) 모델을 사용합니다.
 
 [:octicons-home-16: 홈페이지](https://libretranslate.com){ .md-button .md-button--primary }
 [:octicons-server-16:](https://github.com/LibreTranslate/LibreTranslate#mirrors){ .card-link title="공개 인스턴스" }
@@ -28,11 +28,11 @@ cover: language-tools.webp
 
 </div>
 
-여러 공개 인스턴스를 통해 리브레트랜슬레이트를 사용할 수 있으며, 그중 일부는 [토르](tor.md) 어니언 서비스나 [I2P](alternative-networks.md#i2p-the-invisible-internet-project) 이프사이트를 제공합니다. 번역을 위해 제출하는 텍스트를 최대한 통제하고 싶다면 소프트웨어를 직접 호스팅할 수도 있습니다.
+여러 공개 인스턴스를 통해 LibreTranslate를 사용할 수 있으며, 그중 일부는 [토르](tor.md) 어니언 서비스나 [I2P](alternative-networks.md#i2p-the-invisible-internet-project) 이프사이트(Eepsite)를 제공합니다. 번역을 위해 제출하는 텍스트를 최대한 통제하고 싶다면 소프트웨어를 직접 호스팅할 수도 있습니다.
 
-프라이버시 가이드는 자체 호스팅한 리브레트랜슬레이트 인스턴스를 사용해 [포럼](https://discuss.privacyguides.net)의 게시물을 여러 언어로 자동 번역하고 있습니다.
+프라이버시 가이드는 자체 호스팅한 LibreTranslate 인스턴스를 사용해 [포럼](https://discuss.privacyguides.net)의 게시물을 여러 언어로 자동 번역하고 있습니다.
 
-프라이버시 가이드는 깃허브 저장소 구성에서 VSCode 확장 프로그램을 사용하여 웹사이트와 기사의 문법 및 맞춤법 오류를 찾고 있습니다.
+프라이버시 가이드는 GitHub 저장소에 설정된 VS Code 확장 프로그램을 사용해 웹사이트와 기사에서 문법 및 맞춤법 오류를 검사합니다.
 
 ## 평가 기준 { #criteria }
 

@@ -14,13 +14,13 @@ cover: maps.webp
 
 각 애플리케이션의 개인정보 처리방침에 따르면 여기서 추천하는 앱은 개인 식별 정보(PII)를 수집하지 않습니다. 이러한 개인정보 처리방침이 지켜진다는 **보장은 없습니다**.
 
-## 오가닉 맵스 { #organic-maps }
+## Organic Maps
 
 <div class="admonition recommendation" markdown>
 
-![Organic Maps logo](assets/images/maps/organic-maps.svg){ align=right }
+![Organic Maps 로고](assets/images/maps/organic-maps.svg){ align=right }
 
-**오가닉 맵스**는 도보 이용자, 운전자, 자전거 이용자를 위한 커뮤니티가 개발한 오픈 소스 지도 및 내비게이션 앱입니다. 오픈스트리트맵 데이터를 기반으로 전 세계 오프라인 지도를 제공하며, 위치 추적, 데이터 수집, 광고 없이 프라이버시를 지키는 길 안내를 제공합니다. 앱을 완전히 오프라인으로 사용할 수 있습니다.
+**Organic Map**는 도보 이용자, 운전자, 자전거 이용자를 위한 커뮤니티가 개발한 오픈 소스 지도 및 내비게이션 앱입니다. 오픈스트리트맵 데이터를 기반으로 전 세계 오프라인 지도를 제공하며, 위치 추적, 데이터 수집, 광고 없이 프라이버시를 지키는 길 안내를 제공합니다. 앱을 완전히 오프라인으로 사용할 수 있습니다.
 
 주요 기능으로는 자전거 경로, 등산로 및 산책로, 음성 안내가 포함된 턴바이턴 길 안내, 대중교통 경로 계획(지원되는 지역과 도시에서만 사용 가능) 등이 있습니다.
 
@@ -39,13 +39,13 @@ cover: maps.webp
 
 </div>
 
-오가닉 맵스는 위성 이미지, 거리뷰 이미지, 실시간 교통 정보처럼 많은 사용자가 기대할 만한 일부 기능이 없는 단순하고 기본적인 앱이라는 점에 유의하세요.
+Organic Map는 위성 이미지, 거리뷰 이미지, 실시간 교통 정보처럼 많은 사용자가 기대할 만한 일부 기능이 없는 단순하고 기본적인 앱이라는 점에 유의하세요.
 
 ## OsmAnd
 
 <div class="admonition recommendation" markdown>
 
-![OsmAnd logo](assets/images/maps/osmand.svg){ align=right }
+![OsmAnd 로고](assets/images/maps/osmand.svg){ align=right }
 
 **OsmAnd**는 오픈스트리트맵을 기반으로 하는 오픈 소스 오프라인 지도 및 내비게이션 애플리케이션으로, 도보, 자전거, 운전은 물론 대중교통에 대한 턴바이턴 길 안내를 제공합니다. OsmAnd가 지원하는 [기능](https://wiki.openstreetmap.org/wiki/OsmAnd#Features)에 대한 자세한 개요는 오픈스트리트맵 위키에서 확인할 수 있습니다.
 

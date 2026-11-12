@@ -21,7 +21,7 @@ cover: alternative-networks.webp
 
 ![Tor logo](assets/images/self-contained-networks/tor.svg){ align=right }
 
-**토르** 네트워크는 무료로 연결하여 인터넷에서 프라이버시와 보안을 향상할 수 있는, 자원봉사자가 운영하는 서버 그룹입니다. 개인과 단체는 ".onion 히든 서비스"를 통해 프라이버시를 침해받지 않고 토르 네트워크에서 정보를 공유할 수도 있습니다. 토르 트래픽은 차단하고 추적하기 어렵기 때문에, 토르는 효과적인 [:material-close-outline: 검열](basics/common-threats.md#avoiding-censorship){ .pg-blue-gray } 우회 도구입니다.
+**토르** 네트워크는 자원봉사자들이 운영하는 서버로 구성된 네트워크입니다. 누구나 무료로 이용할 수 있으며, 인터넷 사용 시 개인정보 보호와 보안을 강화하는 데 도움을 줍니다. 개인과 단체는 ".onion 히든 서비스"를 통해 프라이버시를 침해받지 않고 토르 네트워크에서 정보를 공유할 수도 있습니다. 토르 트래픽은 차단하고 추적하기 어렵기 때문에, 토르는 효과적인 [:material-close-outline: 검열](basics/common-threats.md#avoiding-censorship){ .pg-blue-gray } 우회 도구입니다.
 
 [:octicons-home-16:](https://torproject.org){ .card-link title="홈페이지" }
 [:simple-torbrowser:](http://2gzyxa5ihm7nsggfxnu52rck2vv4rvmdlkiu3zzui5du4xyclen53wid.onion){ .card-link title="어니언 서비스" }

@@ -19,9 +19,9 @@ cover: notebooks.webp
 
 <div class="admonition recommendation" markdown>
 
-![Standard Notes logo](assets/images/notebooks/standard-notes.svg){ align=right }
+![Standard Notes 로고](assets/images/notebooks/standard-notes.svg){ align=right }
 
-**Standard Notes** is a simple and private notes app that features cross-platform sync for seamless use. 모든 플랫폼에서 E2EE를 제공하며, 테마와 사용자 지정 편집기를 갖춘 강력한 데스크톱 환경을 제공합니다.
+**Standard Notes**는 원활한 사용을 위한 크로스 플랫폼 동기화 기능을 갖춘, 간편하고 개인 정보 보호에 중점을 둔 메모 앱입니다. 모든 플랫폼에서 E2EE를 제공하며, 테마와 사용자 지정 편집기를 갖춘 강력한 데스크톱 환경을 제공합니다.
 
 스탠더드 노트는 여러 차례 [독립적인 감사](https://standardnotes.com/help/2/has-standard-notes-completed-a-third-party-security-audit)도 받았습니다.
 

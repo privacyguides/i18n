@@ -8,7 +8,7 @@ description: 프라이버시 가이드는 기능을 시험하고 멋진 탈중�
 
 [:material-comment-alert: 문제 신고하기](https://discuss.privacyguides.net/c/services/2){ class="md-button md-button--primary" }
 
-## 디스코스 { #discourse }
+## Discourse
 
 - 도메인: [discuss.privacyguides.net](https://discuss.privacyguides.net)
 - 공개 범위: 공개
